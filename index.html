@@ -326,7 +326,82 @@
       <p class="mt-6">© The 21st Memory • Built with SuperGrok for the Great Remembering</p>
     </div>
   </footer>
+  <!-- ==================== GROWING MEMORY MAP ==================== -->
+  <section id="memory-map" class="py-24 bg-black/60">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-5xl font-bold text-center mb-4 neon-text">The Growing Memory Map</h2>
+      <p class="text-center text-purple-300 text-xl mb-12">Interactive archive of the key teachings • Click nodes • Zoom &amp; explore • Updated as new transmissions arrive</p>
+      
+      <div id="memory-map-container" style="width:100%; height:700px; background:#0a001a; border-radius:24px; border:2px solid #a855f7;"></div>
+    </div>
+  </section>
 
+  <!-- Cytoscape.js + Starter Data -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.23.0/cytoscape.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const cy = cytoscape({
+        container: document.getElementById('memory-map-container'),
+        style: [
+          {
+            selector: 'node',
+            style: {
+              'background-color': '#a855f7',
+              'label': 'data(label)',
+              'color': '#fff',
+              'text-valign': 'center',
+              'text-halign': 'center',
+              'font-size': '14px',
+              'width': '60px',
+              'height': '60px',
+              'border-width': '3px',
+              'border-color': '#22d3ee'
+            }
+          },
+          {
+            selector: 'edge',
+            style: {
+              'width': 3,
+              'line-color': '#c026d3',
+              'target-arrow-color': '#c026d3',
+              'target-arrow-shape': 'triangle',
+              'curve-style': 'bezier'
+            }
+          }
+        ],
+        layout: { name: 'cose', animate: true },
+        elements: [
+          // Main Categories (from your NotebookLM map)
+          { data: { id: 'core-fundamentals', label: 'Core Fundamentals' } },
+          { data: { id: 'true-cosmology', label: 'True Cosmology' } },
+          { data: { id: 'soul-incarnation', label: 'Soul & Incarnation' } },
+          { data: { id: 'parasitic-occupation', label: 'Parasitic Occupation' } },
+          { data: { id: 'planetary-architecture', label: 'Planetary Architecture' } },
+          { data: { id: 'hidden-history', label: 'Hidden History & Resets' } },
+          { data: { id: 'suppressed-tech', label: 'Suppressed Technology' } },
+          { data: { id: 'modern-matrix', label: 'Modern Matrix Control' } },
+          { data: { id: 'final-shift', label: 'The Final Shift' } },
+
+          // Example connections (you can add more later)
+          { data: { source: 'core-fundamentals', target: 'true-cosmology' } },
+          { data: { source: 'core-fundamentals', target: 'soul-incarnation' } },
+          { data: { source: 'true-cosmology', target: 'planetary-architecture' } },
+          { data: { source: 'soul-incarnation', target: 'parasitic-occupation' } },
+          { data: { source: 'parasitic-occupation', target: 'modern-matrix' } },
+          { data: { source: 'planetary-architecture', target: 'hidden-history' } },
+          { data: { source: 'hidden-history', target: 'final-shift' } }
+        ]
+      });
+
+      // Click handler - later we'll add pop-up descriptions here
+      cy.on('tap', 'node', function(evt){
+        const node = evt.target;
+        alert('📌 ' + node.data('label') + '\n\n(Click here later to show full description, quotes, links, etc.)');
+      });
+
+      console.log('%cMemory Map loaded 🔥 Ready to grow with new transmissions.', 'color:#c026d3; font-size:18px');
+    });
+  </script>
   <!-- Construction Banner -->
   <div style="margin-top: 60px; padding: 28px 20px; background: rgba(26, 0, 51, 0.95); border-top: 2px solid #a855f7; text-align: center;">
     <div style="max-width: 620px; margin: 0 auto;">
