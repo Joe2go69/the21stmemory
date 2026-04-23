@@ -326,46 +326,59 @@
       <p class="mt-6">© The 21st Memory • Built with SuperGrok for the Great Remembering</p>
     </div>
   </footer>
-  <!-- ==================== GROWING MEMORY MAP - IMPROVED ==================== -->
+  <!-- ==================== GROWING MEMORY MAP - PROFESSIONAL UPGRADE ==================== -->
   <section id="memory-map" class="py-24 bg-black/60">
     <div class="max-w-7xl mx-auto px-6">
       <h2 class="text-5xl font-bold text-center mb-4 neon-text">The Growing Memory Map</h2>
-      <p class="text-center text-purple-300 text-xl mb-12">Interactive archive of the key teachings • Click nodes to explore • Zoom &amp; pan • Updated with new transmissions</p>
+      <p class="text-center text-purple-300 text-xl mb-8">Interactive archive of the key teachings • Click main topics to expand sub-branches • Zoom &amp; pan</p>
       
-      <div id="memory-map-container" style="width:100%; height:720px; background:#0a001a; border-radius:24px; border:3px solid #a855f7; box-shadow: 0 0 40px rgba(192, 38, 211, 0.3);"></div>
+      <!-- Search -->
+      <div class="max-w-md mx-auto mb-8">
+        <input id="map-search" type="text" placeholder="Search topics..." 
+               class="w-full bg-black/70 border border-purple-500 rounded-3xl px-6 py-4 text-white placeholder:text-purple-400 focus:outline-none focus:border-cyan-400">
+      </div>
+
+      <div id="memory-map-container" style="width:100%; height:760px; background:#0a001a; border-radius:28px; border:4px solid #a855f7; box-shadow: 0 0 50px rgba(192, 38, 211, 0.4);"></div>
     </div>
   </section>
 
-  <!-- Improved Cytoscape Memory Map -->
+  <!-- Upgraded Cytoscape Memory Map -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.23.0/cytoscape.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const cy = cytoscape({
         container: document.getElementById('memory-map-container'),
-        
         style: [
           {
             selector: 'node',
             style: {
               'background-color': '#a855f7',
               'label': 'data(label)',
-              'color': '#fff',
+              'color': '#ffffff',
               'text-valign': 'center',
               'text-halign': 'center',
-              'font-size': '15px',
-              'font-weight': '600',
-              'width': '80px',
-              'height': '80px',
-              'border-width': '4px',
-              'border-color': '#22d3ee',
+              'font-size': '16px',
+              'font-weight': '700',
+              'width': '110px',
+              'height': '110px',
+              'border-width': '5px',
+              'border-color': '#67e8f9',
               'text-outline-color': '#0a001a',
-              'text-outline-width': '3px'
+              'text-outline-width': '4px',
+              'shape': 'round-rectangle',
+              'corner-radius': '20px'
+            }
+          },
+          {
+            selector: 'node[category]',
+            style: {
+              'background-color': 'data(categoryColor)'
             }
           },
           {
             selector: 'edge',
             style: {
-              'width': 4,
+              'width': 5,
               'line-color': '#c026d3',
               'target-arrow-color': '#c026d3',
               'target-arrow-shape': 'triangle',
@@ -375,47 +388,67 @@
         ],
 
         layout: { 
-          name: 'breadthfirst', 
+          name: 'breadthfirst',
           directed: true,
-          spacingFactor: 1.2,
+          spacingFactor: 1.4,
           animate: true 
         },
 
         elements: [
-          // Main Categories (exactly from your NotebookLM map)
-          { data: { id: 'core-fundamentals', label: 'Core Fundamentals' } },
-          { data: { id: 'true-cosmology', label: 'True Cosmology' } },
-          { data: { id: 'soul-incarnation', label: 'Soul & Incarnation' } },
-          { data: { id: 'parasitic-occupation', label: 'Parasitic Occupation' } },
-          { data: { id: 'planetary-architecture', label: 'Planetary Architecture' } },
-          { data: { id: 'hidden-history', label: 'Hidden History & Resets' } },
-          { data: { id: 'suppressed-tech', label: 'Suppressed Technology' } },
-          { data: { id: 'modern-matrix', label: 'Modern Matrix Control' } },
-          { data: { id: 'final-shift', label: 'The Final Shift' } },
+          // Main Categories
+          { data: { id: 'core-fundamentals', label: 'Core Fundamentals', category: 'core', categoryColor: '#a855f7' } },
+          { data: { id: 'true-cosmology', label: 'True Cosmology', category: 'cosmology', categoryColor: '#22d3ee' } },
+          { data: { id: 'soul-incarnation', label: 'Soul & Incarnation', category: 'soul', categoryColor: '#c026d3' } },
+          { data: { id: 'parasitic-occupation', label: 'Parasitic Occupation', category: 'parasitic', categoryColor: '#f43f5e' } },
+          { data: { id: 'planetary-architecture', label: 'Planetary Architecture', category: 'architecture', categoryColor: '#8b5cf6' } },
+          { data: { id: 'hidden-history', label: 'Hidden History & Resets', category: 'history', categoryColor: '#ec4899' } },
+          { data: { id: 'suppressed-tech', label: 'Suppressed Technology', category: 'tech', categoryColor: '#14b8a6' } },
+          { data: { id: 'modern-matrix', label: 'Modern Matrix Control', category: 'matrix', categoryColor: '#f59e0b' } },
+          { data: { id: 'final-shift', label: 'The Final Shift', category: 'shift', categoryColor: '#10b981' } },
 
-          // Connections
-          { data: { source: 'core-fundamentals', target: 'true-cosmology' } },
-          { data: { source: 'core-fundamentals', target: 'soul-incarnation' } },
-          { data: { source: 'true-cosmology', target: 'planetary-architecture' } },
-          { data: { source: 'soul-incarnation', target: 'parasitic-occupation' } },
-          { data: { source: 'parasitic-occupation', target: 'modern-matrix' } },
-          { data: { source: 'planetary-architecture', target: 'hidden-history' } },
-          { data: { source: 'hidden-history', target: 'final-shift' } }
+          // Example sub-branches (expandable)
+          { data: { id: 'christian21-revelations', label: 'Christian21 Revelations', parent: 'core-fundamentals' } },
+          { data: { id: 'three-strings', label: 'The Three Strings of Control', parent: 'core-fundamentals' } },
+          { data: { id: 'flat-earth', label: 'Flat Earth Realm', parent: 'true-cosmology' } },
+          { data: { id: 'firmament', label: 'Firmament & Projection Dome', parent: 'true-cosmology' } },
+          { data: { id: 'soul-trap', label: 'Amnesia Vortex Reincarnation Trap', parent: 'soul-incarnation' } },
+          // ... more can be added easily
         ]
       });
 
-      // Click any node → show info popup
+      // Click main node → expand/collapse children
       cy.on('tap', 'node', function(evt){
         const node = evt.target;
-        const label = node.data('label');
+        const children = node.outgoers('node');
         
-        alert(`📌 ${label}\n\n` +
-              `This node is ready for detailed information.\n\n` +
-              `Next step: Tell me “Add details to ${label}” and paste your NotebookLM text.\n` +
-              `I will write clean, professional descriptions and update the map.`);
+        if (children.length > 0) {
+          const isCollapsed = children.every(n => n.visible() === false);
+          if (isCollapsed) {
+            children.show();
+          } else {
+            children.hide();
+          }
+        } else {
+          // Leaf node - show info
+          alert(`📌 ${node.data('label')}\n\nThis sub-topic is ready for full details.\n\nTell me: “Add details to ${node.data('label')}” and paste your NotebookLM text.`);
+        }
       });
 
-      console.log('%c✅ Improved Memory Map loaded – ready to grow!', 'color:#c026d3; font-size:18px; font-weight:bold');
+      // Simple search functionality
+      const searchInput = document.getElementById('map-search');
+      searchInput.addEventListener('input', function() {
+        const query = this.value.toLowerCase().trim();
+        cy.nodes().forEach(node => {
+          const label = (node.data('label') || '').toLowerCase();
+          if (query === '' || label.includes(query)) {
+            node.show();
+          } else {
+            node.hide();
+          }
+        });
+      });
+
+      console.log('%c✅ Professional Memory Map loaded – now expandable!', 'color:#c026d3; font-size:20px; font-weight:bold');
     });
   </script>
   <!-- Construction Banner -->
