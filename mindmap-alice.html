@@ -22,13 +22,41 @@
         
         .memory-map-section {
             background: linear-gradient(180deg, #0a0a0f 0%, #111118 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Cosmic star field background */
+        .memory-map-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: 
+                radial-gradient(1.5px 1.5px at 20px 30px, #fff, transparent),
+                radial-gradient(1px 1px at 40px 70px, #a5b4fc, transparent),
+                radial-gradient(1px 1px at 90px 20px, #fff, transparent),
+                radial-gradient(1.5px 1.5px at 130px 80px, #c4b5fd, transparent),
+                radial-gradient(1px 1px at 200px 40px, #fff, transparent),
+                radial-gradient(1px 1px at 260px 90px, #a5b4fc, transparent),
+                radial-gradient(1.5px 1.5px at 320px 15px, #fff, transparent),
+                radial-gradient(1px 1px at 380px 60px, #c4b5fd, transparent);
+            background-size: 420px 120px;
+            opacity: 0.12;
+            pointer-events: none;
+            animation: cosmicTwinkle 6s ease-in-out infinite alternate;
+            z-index: 0;
+        }
+        
+        @keyframes cosmicTwinkle {
+            0% { opacity: 0.08; }
+            100% { opacity: 0.22; }
         }
         
         @media (max-width: 768px) {
             .tree .node {
                 max-width: 100% !important;
-                padding: 10px 14px;
-                font-size: 14px;
+                padding: 12px 16px;
+                font-size: 14.5px;
             }
             #tree-container {
                 min-width: 100% !important;
@@ -39,150 +67,245 @@
             list-style: none;
             padding-left: 0;
             margin: 0;
+            position: relative;
+            z-index: 1;
         }
         
         .tree ul {
             list-style: none;
-            padding-left: 42px;
-            margin: 6px 0;
-            border-left: 2px solid #475569;
+            padding-left: 48px;
+            margin: 8px 0;
+            border-left: 3px solid #4f46e5;
             position: relative;
+        }
+        
+        .tree ul::before {
+            content: '';
+            position: absolute;
+            left: -3px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(to bottom, #4f46e5, #6366f1, #a855f7);
+            opacity: 0.6;
         }
         
         .tree li {
             position: relative;
-            padding: 6px 0 6px 32px;
-            margin: 3px 0;
+            padding: 8px 0 8px 36px;
+            margin: 4px 0;
         }
         
         .tree li::before {
             content: '';
             position: absolute;
             left: 0;
-            top: 24px;
-            width: 30px;
-            height: 2px;
-            background: #475569;
+            top: 26px;
+            width: 36px;
+            height: 2.5px;
+            background: linear-gradient(to right, #4f46e5, transparent);
+            border-radius: 9999px;
         }
         
         .tree li:last-child::after {
             content: '';
             position: absolute;
-            left: -2px;
-            top: 24px;
+            left: -3px;
+            top: 26px;
             bottom: 0;
-            width: 2px;
+            width: 3px;
             background: #0a0a0f;
         }
         
         .tree .node {
             display: flex;
             align-items: center;
-            gap: 16px;
-            padding: 18px 26px;
-            background: #1e2937;
+            gap: 18px;
+            padding: 22px 30px;
+            background: linear-gradient(145deg, #1e2937, #0f172a);
             border: 1px solid #475569;
-            border-radius: 16px;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 24px;
+            transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
             cursor: pointer;
             position: relative;
-            max-width: 480px;
-            box-shadow: 0 4px 6px -1px rgb(15 23 42 / 0.5), 0 2px 4px -2px rgb(15 23 42 / 0.4);
+            max-width: 540px;
+            box-shadow: 0 15px 25px -8px rgb(15 23 42 / 0.7), 
+                       0 8px 10px -6px rgb(15 23 42 / 0.5),
+                       inset 0 1px 0 rgba(255,255,255,0.08);
+            overflow: hidden;
+            border-left: 5px solid #6366f1;
+        }
+        
+        .tree .node::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(99,102,241,0.08) 0%, transparent 60%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+        
+        .tree .node:hover::before {
+            opacity: 1;
         }
         
         .tree .node:hover {
-            border-color: #6366f1;
-            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
-            transform: translateY(-2px);
-            background: #334155;
+            border-color: #818cf8;
+            box-shadow: 0 0 0 6px rgba(99, 102, 241, 0.2),
+                       0 25px 50px -12px rgb(15 23 42 / 0.6),
+                       0 15px 15px -8px rgb(15 23 42 / 0.4);
+            transform: translateY(-4px) scale(1.015);
+            background: linear-gradient(145deg, #334155, #1e2937);
         }
         
         .tree .node:active {
-            transform: scale(0.985);
+            transform: scale(0.98);
+            transition: transform 0.1s ease;
         }
         
-        /* Root node - premium look */
+        /* Branch-specific cosmic accents */
+        .tree .node.branch-nature { border-left-color: #22d3ee; }
+        .tree .node.branch-parasitic { border-left-color: #c026ff; }
+        .tree .node.branch-strings { border-left-color: #10b981; }
+        .tree .node.branch-awakening { border-left-color: #fbbf24; }
+        
+        .tree .node.branch-nature:hover { box-shadow: 0 0 0 6px rgba(34, 211, 238, 0.2); }
+        .tree .node.branch-parasitic:hover { box-shadow: 0 0 0 6px rgba(192, 38, 255, 0.2); }
+        .tree .node.branch-strings:hover { box-shadow: 0 0 0 6px rgba(16, 185, 129, 0.2); }
+        .tree .node.branch-awakening:hover { box-shadow: 0 0 0 6px rgba(251, 191, 36, 0.2); }
+        
+        /* Root node - ultra premium crystal core */
         .tree > li > .node {
             background: linear-gradient(145deg, #312e81, #1e2937);
-            border-color: #6366f1;
-            box-shadow: 0 10px 15px -3px rgb(99 102 241 / 0.35);
-            padding: 20px 30px;
-            max-width: 500px;
-            border-radius: 20px;
+            border: 2px solid #6366f1;
+            box-shadow: 0 25px 50px -12px rgb(99 102 241 / 0.4),
+                       0 15px 15px -8px rgb(99 102 241 / 0.3),
+                       0 0 40px rgba(99, 102, 241, 0.15);
+            padding: 26px 36px;
+            max-width: 580px;
+            border-radius: 28px;
+            position: relative;
+        }
+        
+        .tree > li > .node::after {
+            content: '✧';
+            position: absolute;
+            top: -8px;
+            right: 24px;
+            font-size: 18px;
+            color: #818cf8;
+            opacity: 0.6;
+            animation: pulse-glow 3s ease-in-out infinite;
         }
         
         .tree > li > .node:hover {
             background: linear-gradient(145deg, #4338ca, #312e81);
-            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.3);
+            box-shadow: 0 0 0 7px rgba(99, 102, 241, 0.3),
+                       0 30px 60px -15px rgb(99 102 241 / 0.5);
+            border-color: #a5b4fc;
         }
         
-        .tree .node:active {
-            transform: scale(0.985);
+        @keyframes pulse-glow {
+            0%, 100% { opacity: 0.5; transform: scale(1); }
+            50% { opacity: 0.9; transform: scale(1.2); }
         }
         
         .tree .caret {
-            width: 26px;
-            height: 26px;
+            width: 36px;
+            height: 36px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: #64748b;
-            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
             flex-shrink: 0;
             border-radius: 9999px;
+            background: rgba(15, 23, 42, 0.9);
+            cursor: pointer;
+            border: 1px solid #475569;
+            box-shadow: 0 0 10px rgba(99, 102, 241, 0.1),
+                        inset 0 1px 0 rgba(255,255,255,0.15);
+            position: relative;
+            z-index: 10; /* ensure above other elements */
+        }
+        
+        .tree .caret:hover {
+            border-color: #6366f1;
+            color: #a5b4fc;
+            box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+            background: rgba(30, 41, 59, 0.95);
+        }
+        
+        .tree .caret:active {
+            transform: scale(0.92);
         }
         
         .tree .caret.expanded {
-            transform: rotate(90deg);
-            color: #6366f1;
-            background: rgba(99, 102, 241, 0.1);
+            color: #a5b4fc;
+            background: rgba(99, 102, 241, 0.25);
+            border-color: #6366f1;
+            box-shadow: 0 0 25px rgba(99, 102, 241, 0.5);
         }
         
         .tree .node:hover .caret {
-            color: #6366f1;
-            background: rgba(99, 102, 241, 0.08);
+            color: #818cf8;
+            border-color: #6366f1;
         }
         
         .tree .caret i {
-            font-size: 13px;
-            transition: transform 0.25s ease;
+            font-size: 14px;
+            transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
         }
         
         @media (max-width: 640px) {
             .tree .node {
                 max-width: 100%;
-                padding: 11px 16px;
-                gap: 10px;
+                padding: 14px 18px;
+                gap: 12px;
             }
         }
         
         .modal {
-            animation: modalPop 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+            animation: modalPop 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
         
         @keyframes modalPop {
-            from { opacity: 0; transform: scale(0.95) translateY(10px); }
+            from { opacity: 0; transform: scale(0.92) translateY(15px); }
             to { opacity: 1; transform: scale(1) translateY(0); }
+        }
+        
+        .node-glow {
+            box-shadow: 0 0 15px rgba(99, 102, 241, 0.3);
+        }
+        
+        .section-header {
+            font-family: 'Space Grotesk', system_ui, sans-serif;
+            letter-spacing: -0.025em;
         }
     </style>
 </head>
 <body class="bg-[#0a0a0f] text-slate-200">
     <!-- Branded Header -->
-    <nav class="border-b border-purple-900 bg-black/95 backdrop-blur-md sticky top-0 z-50">
+    <nav class="border-b border-purple-900/70 bg-black/95 backdrop-blur-xl sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
-            <div class="flex items-center gap-3">
-                <span class="text-4xl">🌀</span>
-                <a href="index.html" class="text-3xl font-bold tracking-widest text-white hover:text-purple-300 transition">THE 21ST MEMORY</a>
+            <div class="flex items-center gap-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-2xl bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400 flex items-center justify-center shadow-lg shadow-purple-950">
+                        <span class="text-white text-2xl">🌀</span>
+                    </div>
+                    <a href="index.html" class="text-3xl font-bold tracking-[-1.5px] text-white hover:text-purple-300 transition-all">THE 21ST MEMORY</a>
+                </div>
+                <div class="hidden md:block px-3 py-1 bg-purple-950/60 text-purple-400 text-[10px] font-mono tracking-[2px] rounded-full border border-purple-800">v4.21 • AWAKENING ARCHIVE</div>
             </div>
             
-            <div class="flex items-center gap-4">
-                <a href="mindmaps.html" class="flex items-center gap-2 px-5 py-2.5 bg-slate-800 hover:bg-slate-700 rounded-2xl text-sm font-medium transition">
-                    <i class="fas fa-arrow-left"></i>
+            <div class="flex items-center gap-3">
+                <a href="mindmaps.html" class="flex items-center gap-2 px-5 py-2.5 bg-slate-900 hover:bg-slate-800 border border-slate-700 rounded-2xl text-sm font-medium transition-all active:scale-[0.985]">
+                    <i class="fas fa-arrow-left text-xs"></i>
                     <span class="hidden sm:inline">Back to Directory</span>
                 </a>
                 
                 <a href="https://drive.google.com/file/d/14mKHQDHnHiOoHyIS_yzc4xIzaH_MpBxM/view" target="_blank" 
-                   class="flex items-center gap-3 bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-500 hover:to-cyan-400 px-6 py-3 rounded-2xl font-semibold text-sm transition-all active:scale-[0.985]">
+                   class="flex items-center gap-3 bg-gradient-to-r from-purple-600 via-indigo-600 to-cyan-500 hover:brightness-110 px-6 py-3 rounded-2xl font-semibold text-sm transition-all active:scale-[0.985] shadow-lg shadow-purple-950">
                     <i class="fas fa-file-pdf"></i>
                     <span class="hidden sm:inline">Original PDF</span>
                 </a>
@@ -191,94 +314,136 @@
     </nav>
 
     <!-- Hero Section with Image -->
-    <div class="max-w-7xl mx-auto px-6 pt-12 pb-8">
-        <div class="grid md:grid-cols-12 gap-10 items-center">
+    <div class="max-w-7xl mx-auto px-6 pt-14 pb-10">
+        <div class="grid md:grid-cols-12 gap-12 items-center">
             <!-- Image -->
-            <div class="md:col-span-5">
-                <div class="relative rounded-3xl overflow-hidden shadow-2xl border border-purple-800">
+            <div class="md:col-span-5 relative">
+                <div class="relative rounded-3xl overflow-hidden shadow-[0_0_80px_-10px_rgb(99,102,241)] border border-purple-700/50">
                     <img src="alice.webp" alt="Following Alice in the Rabbit Hole - Visual" 
                          class="w-full h-auto object-cover">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                    <div class="absolute bottom-6 left-6 right-6">
-                        <div class="inline-flex items-center gap-2 bg-black/70 px-4 py-1 rounded-2xl text-xs font-semibold">
-                            <i class="fas fa-magic text-purple-400"></i>
-                            <span>INTERACTIVE MIND MAP</span>
+                    <div class="absolute inset-0 bg-gradient-to-br from-black/90 via-black/60 to-transparent"></div>
+                    <div class="absolute inset-0 bg-[radial-gradient(#6366f1_0.8px,transparent_1px)] bg-[length:4px_4px] opacity-20"></div>
+                    
+                    <div class="absolute bottom-8 left-8 right-8">
+                        <div class="inline-flex items-center gap-2.5 bg-black/80 backdrop-blur-md px-5 py-2 rounded-3xl text-xs font-semibold border border-purple-500/30">
+                            <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+                            <span class="text-purple-300">INTERACTIVE TRANSMISSION MAP</span>
                         </div>
                     </div>
+                </div>
+                
+                <!-- Floating badge -->
+                <div class="absolute -top-3 -right-3 bg-slate-900 border border-purple-500/50 text-purple-300 text-xs px-4 py-1.5 rounded-2xl shadow-xl flex items-center gap-2">
+                    <i class="fas fa-infinity text-purple-400"></i>
+                    <span class="font-mono tracking-widest">178,000 YRS</span>
                 </div>
             </div>
             
             <!-- Title & Info -->
             <div class="md:col-span-7">
-                <div class="flex items-center gap-3 mb-4">
-                    <div class="px-4 py-1 bg-purple-900/60 text-purple-300 text-xs font-semibold rounded-2xl tracking-widest">SINGLE SOURCE DECODED</div>
+                <div class="flex items-center gap-3 mb-5">
+                    <div class="px-5 py-1.5 bg-gradient-to-r from-purple-900/70 to-indigo-900/50 text-purple-300 text-xs font-bold rounded-3xl tracking-[2px] border border-purple-700/50">SINGLE SOURCE DECODED</div>
+                    <div class="px-3 py-1 bg-emerald-900/40 text-emerald-400 text-xs font-mono rounded-2xl border border-emerald-700/50">LIVE</div>
                 </div>
                 
-                <h1 class="text-5xl md:text-6xl font-bold tracking-tighter mb-6 leading-none">Following Alice<br>in the Rabbit Hole</h1>
+                <h1 class="text-6xl md:text-7xl font-bold tracking-[-3.5px] mb-6 leading-[0.95] text-white">Following Alice<br>in the Rabbit Hole</h1>
                 
-                <p class="text-2xl text-purple-200 mb-8 max-w-2xl">The complete interactive mind map of Christian21’s foundational transmission on the parasitic inversion, NPC matrix, Three Strings, and the Great Spiritual Awakening.</p>
+                <p class="text-2xl text-purple-100/90 mb-9 max-w-[620px] leading-tight">The complete interactive mind map of Christian21’s foundational transmission on the parasitic inversion, NPC matrix, Three Strings, and the imminent Great Spiritual Awakening.</p>
                 
                 <div class="flex flex-wrap gap-4">
-                    <a href="#memory-map" class="inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded-2xl font-semibold text-lg hover:scale-105 transition">
-                        <i class="fas fa-project-diagram"></i>
+                    <a href="#memory-map" class="group inline-flex items-center gap-4 bg-white hover:bg-purple-50 text-black px-9 py-4.5 rounded-3xl font-semibold text-lg transition-all active:scale-[0.985] shadow-xl">
                         <span>DIVE INTO THE MAP</span>
+                        <i class="fas fa-arrow-right group-hover:translate-x-0.5 transition"></i>
                     </a>
                     
                     <a href="https://drive.google.com/file/d/14mKHQDHnHiOoHyIS_yzc4xIzaH_MpBxM/view" target="_blank" 
-                       class="inline-flex items-center gap-3 border border-purple-400 hover:bg-purple-900/40 px-8 py-4 rounded-2xl font-semibold text-lg transition">
-                        <i class="fas fa-file-pdf"></i>
+                       class="inline-flex items-center gap-3 border border-purple-400/70 hover:bg-purple-900/30 hover:border-purple-400 px-8 py-4.5 rounded-3xl font-semibold text-lg transition-all active:scale-[0.985]">
+                        <i class="fas fa-file-pdf text-purple-400"></i>
                         <span>VIEW ORIGINAL PDF</span>
                     </a>
                 </div>
                 
-                <div class="mt-8 text-sm text-purple-400 flex items-center gap-2">
-                    <i class="fas fa-info-circle"></i>
-                    <span>Curated from Thalon Thor &amp; Christian21 transmissions • Updated as The Great Remembering unfolds</span>
+                <div class="mt-10 flex items-center gap-4 text-sm">
+                    <div class="flex -space-x-2">
+                        <div class="w-7 h-7 rounded-full bg-purple-600 ring-2 ring-[#0a0a0f]"></div>
+                        <div class="w-7 h-7 rounded-full bg-indigo-600 ring-2 ring-[#0a0a0f]"></div>
+                        <div class="w-7 h-7 rounded-full bg-cyan-500 ring-2 ring-[#0a0a0f]"></div>
+                    </div>
+                    <span class="text-purple-400 text-xs tracking-widest">CURATED FROM THALON THOR &amp; CHRISTIAN21 TRANSMISSIONS • THE GREAT REMEMBERING</span>
                 </div>
             </div>
         </div>
     </div>
     <section id="memory-map" class="memory-map-section py-16 border-t border-slate-800">
         <div class="max-w-5xl mx-auto px-6">
-            <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
+            <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-8">
                 <div>
-                    <div class="flex items-center gap-3 mb-3">
-                        <div class="w-10 h-10 rounded-2xl bg-indigo-500/10 flex items-center justify-center">
-                            <i class="fa-solid fa-project-diagram text-indigo-400 text-2xl"></i>
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 rounded-3xl bg-gradient-to-br from-indigo-500/20 to-purple-500/10 flex items-center justify-center ring-1 ring-indigo-500/30">
+                            <i class="fa-solid fa-project-diagram text-indigo-400 text-3xl"></i>
                         </div>
-                        <h2 class="text-4xl md:text-5xl font-semibold tracking-tighter">21st Memory Maps Archive</h2>
+                        <div>
+                            <div class="uppercase tracking-[3px] text-xs text-indigo-400 font-mono mb-1">THE GREAT REMEMBERING</div>
+                            <h2 class="text-5xl md:text-[52px] font-semibold tracking-[-2.5px] section-header">21st Memory Maps Archive</h2>
+                        </div>
                     </div>
-                    <p class="text-xl text-slate-400 max-w-lg">Following Alice in the Rabbit Hole • Interactive map of the transmissions • Click nodes to explore the Great Remembering</p>
+                    <p class="text-xl text-slate-400 max-w-[560px]">Following Alice in the Rabbit Hole • Click any node to explore the full transmission • 4 main branches • 50+ deep revelations</p>
                 </div>
                 
                 <div class="flex flex-wrap items-center gap-3">
-                    <div class="relative flex-1 md:w-72">
-                        <input id="map-search" type="text" placeholder="Search concepts..." 
-                               class="w-full bg-slate-900 border border-slate-700 focus:border-indigo-500 text-sm rounded-2xl px-4 py-3 pl-11 outline-none transition-all">
-                        <i class="fa-solid fa-search absolute left-4 top-4 text-slate-500"></i>
+                    <div class="relative flex-1 md:w-80">
+                        <input id="map-search" type="text" placeholder="Search the awakening..." 
+                               class="w-full bg-slate-950/80 border border-slate-700 focus:border-indigo-400 text-sm rounded-3xl px-5 py-3.5 pl-12 outline-none transition-all placeholder:text-slate-500">
+                        <i class="fa-solid fa-search absolute left-5 top-4 text-indigo-400/70"></i>
                     </div>
                     
-                    <button onclick="expandAll()" class="px-5 py-3 text-sm font-medium bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-2xl flex items-center gap-2 transition-all active:scale-[0.985]">
-                        <i class="fa-solid fa-expand-arrows-alt"></i>
-                        <span class="hidden sm:inline">Expand All</span>
-                    </button>
+                    <div class="flex items-center gap-2 bg-slate-950/60 border border-slate-800 rounded-3xl p-1">
+                        <button onclick="expandAll()" class="px-5 py-2.5 text-sm font-medium hover:bg-slate-800 active:bg-slate-700 rounded-2xl flex items-center gap-2 transition-all active:scale-[0.985]">
+                            <i class="fa-solid fa-expand-arrows-alt text-indigo-400"></i>
+                            <span class="hidden sm:inline text-xs">EXPAND</span>
+                        </button>
+                        
+                        <button onclick="collapseAll()" class="px-5 py-2.5 text-sm font-medium hover:bg-slate-800 active:bg-slate-700 rounded-2xl flex items-center gap-2 transition-all active:scale-[0.985]">
+                            <i class="fa-solid fa-compress-arrows-alt text-indigo-400"></i>
+                            <span class="hidden sm:inline text-xs">COLLAPSE</span>
+                        </button>
+                    </div>
                     
-                    <button onclick="collapseAll()" class="px-5 py-3 text-sm font-medium bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-2xl flex items-center gap-2 transition-all active:scale-[0.985]">
-                        <i class="fa-solid fa-compress-arrows-alt"></i>
-                        <span class="hidden sm:inline">Collapse All</span>
-                    </button>
+                    <!-- Branch Legend -->
+                    <div class="hidden md:flex items-center gap-2 text-xs bg-slate-950/60 border border-slate-800 rounded-3xl px-4 py-2">
+                        <div class="flex items-center gap-1.5">
+                            <div class="w-2.5 h-2.5 rounded-full bg-[#22d3ee]"></div>
+                            <span class="text-slate-400">Nature</span>
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                            <div class="w-2.5 h-2.5 rounded-full bg-[#c026ff]"></div>
+                            <span class="text-slate-400">Parasitic</span>
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                            <div class="w-2.5 h-2.5 rounded-full bg-[#10b981]"></div>
+                            <span class="text-slate-400">Strings</span>
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                            <div class="w-2.5 h-2.5 rounded-full bg-[#fbbf24]"></div>
+                            <span class="text-slate-400">Awakening</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="bg-slate-950/50 border border-slate-800 rounded-3xl p-8 md:p-10 shadow-2xl overflow-x-auto">
-                <div id="tree-container" class="min-w-[620px]">
+            <div class="bg-slate-950/60 border border-slate-700/70 rounded-3xl p-8 md:p-12 shadow-[0_0_100px_-20px_rgb(99,102,241)] overflow-x-auto relative">
+                <!-- Subtle inner glow -->
+                <div class="absolute inset-0 bg-[radial-gradient(#4f46e520_0.5px,transparent_1px)] bg-[length:6px_6px] pointer-events-none rounded-3xl"></div>
+                
+                <div id="tree-container" class="min-w-[680px] relative z-10">
                     <!-- JS renders the tree here -->
                 </div>
             </div>
             
-            <div class="mt-6 flex items-center justify-center gap-2 text-xs text-slate-500">
-                <i class="fa-solid fa-info-circle"></i>
-                <span>Curated from Thalon Thor &amp; Christian21 transmissions • Updated as The Great Remembering unfolds</span>
+            <div class="mt-8 flex items-center justify-center gap-3 text-xs text-slate-500 font-mono tracking-widest">
+                <div class="h-px w-8 bg-slate-700"></div>
+                <span>CURATED FROM THALON THOR &amp; CHRISTIAN21 • THE 21ST MEMORY ARCHIVE</span>
+                <div class="h-px w-8 bg-slate-700"></div>
             </div>
         </div>
     </section>
@@ -316,6 +481,33 @@
     <script>
         function initTailwind() {
             document.documentElement.style.setProperty('--accent', '#6366f1');
+        }
+        
+        // Simple reliable toggle for carets (avoids all bubbling issues)
+        function toggleCaret(caretEl) {
+            const li = caretEl.closest('li');
+            if (!li) return;
+            const nested = li.querySelector('.nested');
+            if (!nested) return;
+            
+            const isExpanded = !nested.classList.contains('hidden');
+            const icon = caretEl.querySelector('i');
+            
+            if (isExpanded) {
+                nested.classList.add('hidden');
+                if (icon) {
+                    icon.classList.remove('fa-chevron-down');
+                    icon.classList.add('fa-chevron-right');
+                }
+                caretEl.classList.remove('expanded');
+            } else {
+                nested.classList.remove('hidden');
+                if (icon) {
+                    icon.classList.remove('fa-chevron-right');
+                    icon.classList.add('fa-chevron-down');
+                }
+                caretEl.classList.add('expanded');
+            }
         }
         
         // === NEW 5-CATEGORY STRUCTURE ===
@@ -2442,19 +2634,34 @@
 };
         let currentNode = null;
         
-        function renderTree(node, container, level = 0) {
+        function renderTree(node, container, level = 0, parentBranch = null) {
             const li = document.createElement('li');
             li.className = `tree-node level-${level}`;
             li.dataset.id = node.id;
             
+            // Determine branch for color accent (only for top-level and their descendants)
+            let branchClass = '';
+            const branchMap = {
+                'nature-of-reality': 'branch-nature',
+                'parasitic-takeover': 'branch-parasitic',
+                'three-strings-of-attachment': 'branch-strings',
+                'spiritual-awakening': 'branch-awakening'
+            };
+            
+            if (level === 0 && branchMap[node.id]) {
+                branchClass = branchMap[node.id];
+            } else if (parentBranch) {
+                branchClass = parentBranch;
+            }
+            
             const hasChildren = node.children && node.children.length > 0;
             
             const nodeHTML = `
-                <div class="node flex items-center gap-4 group ${hasChildren ? 'has-children' : ''}" data-id="${node.id}">
+                <div class="node flex items-center gap-4 group ${hasChildren ? 'has-children' : ''} ${branchClass}" data-id="${node.id}">
                     ${hasChildren ? `
-                        <div class="caret flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center bg-slate-800/70">
+                        <button type="button" class="caret flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center bg-slate-900/80 border border-indigo-500/30 hover:border-indigo-400 transition-all active:scale-95 focus:outline-none focus:ring-2 focus:ring-indigo-500/50" aria-label="Toggle section">
                             <i class="fa-solid fa-chevron-right text-sm transition-transform"></i>
-                        </div>
+                        </button>
                     ` : `
                         <div class="w-8 h-8 flex-shrink-0 flex items-center justify-center">
                             <i class="fa-solid ${node.icon || 'fa-link'} text-indigo-400 text-lg"></i>
@@ -2475,40 +2682,16 @@
             
             li.innerHTML = nodeHTML;
             
-            const nodeEl = li.querySelector('.node');
-            
-            nodeEl.addEventListener('click', (e) => {
-                if (e.target.closest('.caret')) return;
-                openModal(node);
-            });
-            
             if (hasChildren) {
                 const caret = li.querySelector('.caret');
                 const childContainer = document.createElement('ul');
                 childContainer.className = 'nested hidden';
                 
                 node.children.forEach(child => {
-                    renderTree(child, childContainer, level + 1);
+                    renderTree(child, childContainer, level + 1, branchClass || parentBranch);
                 });
                 
                 li.appendChild(childContainer);
-                
-                caret.addEventListener('click', (e) => {
-                    e.stopImmediatePropagation();
-                    const isExpanded = !childContainer.classList.contains('hidden');
-                    
-                    if (isExpanded) {
-                        childContainer.classList.add('hidden');
-                        caret.querySelector('i').classList.remove('fa-chevron-down');
-                        caret.querySelector('i').classList.add('fa-chevron-right');
-                        caret.classList.remove('expanded');
-                    } else {
-                        childContainer.classList.remove('hidden');
-                        caret.querySelector('i').classList.remove('fa-chevron-right');
-                        caret.querySelector('i').classList.add('fa-chevron-down');
-                        caret.classList.add('expanded');
-                    }
-                });
             }
             
             container.appendChild(li);
@@ -2742,6 +2925,42 @@
             });
             
             container.appendChild(mainUl);
+            
+            // Clean event delegation - handles BOTH caret toggle AND node modal reliably
+            container.addEventListener('click', function(e) {
+                // 1. Handle caret click (expand/collapse)
+                const caret = e.target.closest('.caret');
+                if (caret) {
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                    toggleCaret(caret);
+                    return;
+                }
+                
+                // 2. Handle node click (open modal) - only if not on caret
+                const nodeEl = e.target.closest('.node');
+                if (nodeEl) {
+                    const nodeId = nodeEl.dataset.id;
+                    if (!nodeId) return;
+                    
+                    function findNode(current, targetId) {
+                        if (!current) return null;
+                        if (current.id === targetId) return current;
+                        if (current.children && current.children.length > 0) {
+                            for (let i = 0; i < current.children.length; i++) {
+                                const found = findNode(current.children[i], targetId);
+                                if (found) return found;
+                            }
+                        }
+                        return null;
+                    }
+                    
+                    const foundNode = findNode(memoryMapData, nodeId);
+                    if (foundNode) {
+                        openModal(foundNode);
+                    }
+                }
+            });
             
             initSearch();
             
