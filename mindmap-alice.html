@@ -274,15 +274,15 @@
     
     <!-- Detail Modal -->
     <div id="detail-modal" onclick="if (event.target.id === 'detail-modal') closeModal()" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-[100] flex items-center justify-center p-4">
-        <div onclick="event.stopImmediatePropagation()" class="modal bg-slate-900 border border-slate-700 rounded-3xl max-w-4xl w-full max-h-[92vh] overflow-hidden shadow-2xl">
-            <div class="px-8 pt-8 pb-6 border-b border-slate-800 flex items-start justify-between">
+        <div onclick="event.stopImmediatePropagation()" class="modal bg-slate-900 border border-slate-700 rounded-3xl max-w-4xl w-full max-h-[92vh] flex flex-col overflow-hidden shadow-2xl">
+            <div class="px-8 pt-8 pb-6 border-b border-slate-800 flex items-start justify-between flex-shrink-0">
                 <div id="modal-header" class="flex items-center gap-4"></div>
                 <button onclick="closeModal()" class="text-slate-400 hover:text-white transition-colors p-2 -mr-2">
                     <i class="fa-solid fa-times text-xl"></i>
                 </button>
             </div>
             
-            <div class="p-8 md:p-10 overflow-y-auto max-h-[calc(92vh-160px)]" style="scrollbar-width: thin; scrollbar-color: #475569 #1e2937;">
+            <div class="flex-1 overflow-y-auto p-8 md:p-10" style="scrollbar-width: thin; scrollbar-color: #475569 #1e2937;">
                 <div id="modal-description" class="prose prose-invert prose-headings:text-indigo-300 prose-p:text-slate-300 prose-p:leading-relaxed text-[15.5px]"></div>
                 
                 <div id="modal-insights" class="mt-8 hidden"></div>
@@ -292,7 +292,7 @@
                 <div id="modal-related" class="mt-8"></div>
             </div>
             
-            <div class="px-8 py-5 bg-slate-950/70 border-t border-slate-800 flex flex-col sm:flex-row gap-3 items-center">
+            <div class="px-8 py-5 bg-slate-950/70 border-t border-slate-800 flex flex-col sm:flex-row gap-3 items-center flex-shrink-0">
                 <button onclick="queryOracle()" class="flex-1 sm:flex-none px-6 py-3.5 bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 transition-all text-white font-semibold rounded-2xl flex items-center justify-center gap-3 text-sm shadow-lg shadow-indigo-950">
                     <i class="fa-solid fa-robot"></i>
                     <span>Ask the 21st Oracle about this</span>
