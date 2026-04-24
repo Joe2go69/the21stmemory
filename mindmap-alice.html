@@ -56,37 +56,52 @@
             .tree .node {
                 max-width: 100% !important;
                 width: 100% !important;
-                padding: 14px 18px;
-                font-size: 14.5px;
+                padding: 11px 13px !important;
+                font-size: 13px !important;
+                gap: 8px !important;
                 margin-right: 0 !important;
+                box-sizing: border-box;
+            }
+            
+            .tree .node .node-title {
+                font-size: 13px !important;
+                line-height: 1.25 !important;
+                white-space: normal !important;
             }
             
             #tree-container {
                 min-width: 100% !important;
                 width: 100% !important;
                 overflow-x: hidden !important;
+                padding: 0 2px;
             }
             
             .tree ul {
-                padding-left: 28px !important;
+                padding-left: 20px !important;
             }
             
             .tree li {
-                padding-left: 24px !important;
+                padding-left: 16px !important;
             }
             
             .tree li::before {
-                width: 24px !important;
+                width: 16px !important;
+                top: 20px !important;
             }
             
-            /* Hide horizontal scroll on mobile since nodes now fit */
+            .tree .caret {
+                width: 26px !important;
+                height: 26px !important;
+            }
+            
+            .tree .caret i {
+                font-size: 11px !important;
+            }
+            
+            /* Force no horizontal scroll and full width */
             .bg-slate-950\/60.border.border-slate-700\/70.rounded-3xl {
                 overflow-x: hidden !important;
-            }
-            
-            /* Make branch legend stack or hide gracefully */
-            .hidden.md\\:flex {
-                display: none !important;
+                min-width: 0 !important;
             }
         }
         
