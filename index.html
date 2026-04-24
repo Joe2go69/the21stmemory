@@ -22,7 +22,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   
-    <style>
+  <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap');
     
     html {
@@ -53,6 +53,12 @@
       box-shadow: 0 20px 25px -5px rgb(192 38 211 / 0.2); 
     }
 
+    .about-frame {
+      background: linear-gradient(145deg, #1a0033, #0f001f);
+      border: 1px solid #6b21a8;
+      box-shadow: 0 10px 30px -15px rgb(192 38 211 / 0.2);
+    }
+
     /* Mobile-first responsive fixes */
     @media (max-width: 768px) {
       .section-padding {
@@ -79,17 +85,18 @@
     <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
       <div class="flex items-center gap-3">
         <span class="text-4xl">🌀</span>
-        <h1 class="text-3xl font-bold tracking-widest neon-text">THE 21ST MEMORY</h1>
+        <a href="#" class="text-3xl font-bold tracking-widest neon-text hover:text-purple-300 transition">THE 21ST MEMORY</a>
       </div>
 
       <!-- Desktop Menu -->
-      <div class="hidden md:flex gap-8 text-lg font-medium">
-        <a href="#about" class="hover:text-purple-400 transition">About</a>
-        <a href="#sources" class="hover:text-purple-400 transition">Original Sources</a>
-        <a href="#oracle" class="hover:text-purple-400 transition">The Oracle</a>
-        <a href="#network" class="hover:text-purple-400 transition">The Network</a>
-        <a href="#archive" class="hover:text-purple-400 transition">Rumble Archive</a>
-        <a href="#vault" class="hover:text-purple-400 transition">Telegram Vault</a>
+      <div class="hidden md:flex items-center gap-8 text-lg font-medium">
+        <a href="#about" class="px-1.5 relative hover:text-purple-300 transition-colors duration-200 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-purple-400 after:transition-all">About</a>
+        <a href="#sources" class="px-1.5 relative hover:text-purple-300 transition-colors duration-200 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-purple-400 after:transition-all">Original Sources</a>
+        <a href="#oracle" class="px-1.5 relative hover:text-purple-300 transition-colors duration-200 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-purple-400 after:transition-all">The Oracle</a>
+        <a href="#mindmaps" class="px-1.5 relative text-purple-300 font-semibold after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-full after:bg-purple-400">21st Memory Maps Archive</a>
+        <a href="#network" class="px-1.5 relative hover:text-purple-300 transition-colors duration-200 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-purple-400 after:transition-all">The Network</a>
+        <a href="#archive" class="px-1.5 relative hover:text-purple-300 transition-colors duration-200 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-purple-400 after:transition-all">Rumble Archive</a>
+        <a href="#vault" class="px-1.5 relative hover:text-purple-300 transition-colors duration-200 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-purple-400 after:transition-all">Telegram Vault</a>
       </div>
 
       <div class="flex items-center gap-4">
@@ -110,6 +117,7 @@
         <a href="#about" class="mobile-link hover:text-purple-400 transition py-3">About</a>
         <a href="#sources" class="mobile-link hover:text-purple-400 transition py-3">Original Sources</a>
         <a href="#oracle" class="mobile-link hover:text-purple-400 transition py-3">The Oracle</a>
+        <a href="#mindmaps" class="mobile-link hover:text-purple-400 transition py-3">21st Memory Maps Archive</a>
         <a href="#network" class="mobile-link hover:text-purple-400 transition py-3">The Network</a>
         <a href="#archive" class="mobile-link hover:text-purple-400 transition py-3">Rumble Archive</a>
         <a href="#vault" class="mobile-link hover:text-purple-400 transition py-3">Telegram Vault</a>
@@ -122,7 +130,7 @@
     </div>
   </nav>
 
-      <!-- Hero -->
+  <!-- Hero -->
   <section class="min-h-screen flex items-center pt-32 md:pt-24 cosmic-bg">
     <div class="max-w-7xl mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-12 items-center">
       <div>
@@ -159,22 +167,25 @@
     </div>
   </section>
 
-        <!-- About -->
+  <!-- About (Improved with frame) -->
   <section id="about" class="py-24 border-t border-purple-900">
     <div class="max-w-4xl mx-auto px-4 md:px-6">
       <h2 class="text-5xl font-bold text-center mb-12 neon-text">What is The 21st Memory?</h2>
       
-      <div class="prose prose-invert text-xl leading-relaxed max-w-none text-center md:text-left mx-auto">
-        <p><strong>The 21st Memory</strong> is an AI-assisted interpretation and decoding archive built upon the original raw transmissions of <strong>Thalon Thor / Christian21</strong>.</p>
-        
-        <p>AI is used here as a bridge — to help translate, clarify, and connect the dots within these powerful transmissions. However, because AI is still a 3D construct, it can sometimes miss or misinterpret higher-dimensional nuances and new world information.</p>
-        
-        <p>This is why we always encourage you to go directly to the original sources listed in the <strong>Original Sources</strong> and <strong>The Network</strong> sections. The raw transmissions are the true foundation. This archive is simply one helpful bridge to support your remembrance and integration.</p>
-        
-        <p class="text-purple-300">The Great Remembering is happening now. May these interpretations serve as gentle guides on your journey home.</p>
+      <div class="about-frame rounded-3xl p-10 md:p-14 border border-purple-700 shadow-xl">
+        <div class="prose prose-invert text-xl leading-relaxed max-w-none text-center md:text-left">
+          <p><strong>The 21st Memory</strong> is an AI-assisted interpretation and decoding archive built upon the original raw transmissions of <strong>Thalon Thor / Christian21</strong>.</p>
+          
+          <p class="mt-6">AI is used here as a bridge — to help translate, clarify, and connect the dots within these powerful transmissions. However, because AI is still a 3D construct, it can sometimes miss or misinterpret higher-dimensional nuances and new world information.</p>
+          
+          <p class="mt-6">This is why we always encourage you to go directly to the original sources listed in the <strong>Original Sources</strong> and <strong>The Network</strong> sections. The raw transmissions are the true foundation. This archive is simply one helpful bridge to support your remembrance and integration.</p>
+          
+          <p class="mt-6 text-purple-300 font-medium">The Great Remembering is happening now. May these interpretations serve as gentle guides on your journey home.</p>
+        </div>
       </div>
     </div>
   </section>
+
   <!-- Original Sources -->
   <section id="sources" class="py-24 bg-black/60">
     <div class="max-w-6xl mx-auto px-6">
@@ -229,7 +240,78 @@
     </div>
   </section>
 
-  <!-- Rumble Archive (Updated with 4 videos) -->
+  <!-- NEW: Living Mind Maps Archive Section -->
+  <section id="mindmaps" class="py-24 bg-black/50 border-t border-purple-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center gap-3 bg-purple-900/60 px-6 py-2 rounded-3xl mb-4">
+          <i class="fas fa-project-diagram text-purple-400"></i>
+          <span class="text-sm font-semibold tracking-widest">NEW FEATURE</span>
+        </div>
+        <h2 class="text-5xl font-bold neon-text mb-4">The 21st Memory Maps Archive</h2>
+        <p class="max-w-2xl mx-auto text-xl text-purple-200">Beautiful interactive mind maps of single-source transmissions. One document. One map. Pure clarity.</p>
+      </div>
+
+      <!-- Featured Mind Map Card -->
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-gradient-to-br from-purple-950 to-black border border-purple-700 rounded-3xl overflow-hidden card-hover">
+          <div class="grid md:grid-cols-2 gap-0">
+            <!-- Image -->
+            <div class="relative h-80 md:h-full overflow-hidden">
+              <img src="alice.webp" alt="Following Alice in the Rabbit Hole Mind Map" 
+                   class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent md:from-black/60"></div>
+            </div>
+            
+            <!-- Content -->
+            <div class="p-10 flex flex-col justify-center">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-purple-500 to-cyan-400 flex items-center justify-center">
+                  <i class="fas fa-magic text-white"></i>
+                </div>
+                <span class="text-sm font-semibold text-purple-400 tracking-widest">FEATURED MAP</span>
+              </div>
+              
+              <h3 class="text-4xl font-bold leading-tight mb-6">Following Alice in the Rabbit Hole</h3>
+              
+              <p class="text-purple-200 mb-8 leading-relaxed">The complete interactive mind map of Christian21’s foundational transmission on the parasitic inversion, NPC matrix, Three Strings, and the Great Spiritual Awakening.</p>
+              
+              <div class="flex flex-col sm:flex-row gap-4">
+                <!-- Primary Button -->
+                <a href="mindmap-alice.html" 
+                   class="group flex-1 inline-flex items-center justify-center gap-3 bg-gradient-to-r from-purple-600 to-cyan-500 hover:brightness-110 text-white font-semibold px-9 py-4 rounded-2xl shadow-xl shadow-purple-500/40 hover:shadow-purple-500/60 transition-all active:scale-[0.985]">
+                  <i class="fas fa-project-diagram group-hover:rotate-12 transition-transform duration-300"></i>
+                  <span>EXPLORE ARCHIVE</span>
+                </a>
+                
+                <!-- Secondary Button -->
+                <a href="mindmaps.html" 
+                   class="group flex-1 inline-flex items-center justify-center gap-3 border-2 border-purple-400 hover:bg-purple-900/60 hover:border-purple-300 text-white font-semibold px-9 py-4 rounded-2xl transition-all active:scale-[0.985]">
+                  <span>BROWSE ALL MAPS</span>
+                  <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform duration-300"></i>
+                </a>
+              </div>
+              
+              <div class="mt-6 pt-6 border-t border-purple-800 flex items-center justify-between text-xs text-purple-400">
+                <span>Original PDF available</span>
+                <a href="https://drive.google.com/file/d/14mKHQDHnHiOoHyIS_yzc4xIzaH_MpBxM/view" target="_blank" class="hover:text-purple-300 flex items-center gap-1">
+                  View PDF <i class="fas fa-external-link-alt text-xs"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-8">
+        <a href="mindmaps.html" class="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 font-medium transition">
+          Explore the full 21st Memory Maps Archive <i class="fas fa-arrow-right ml-1"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rumble Archive -->
   <section id="archive" class="py-24 bg-black/50">
     <div class="max-w-7xl mx-auto px-6">
       <h2 class="text-5xl font-bold mb-4 text-center">Latest from the 21st Memory Rumble Archive</h2>
@@ -424,7 +506,7 @@
       });
     });
 
-    console.log('%c21st Memory ready 🔥 Mobile optimized + polished', 'color:#c026d3; font-size:18px');
+    console.log('%c21st Memory ready 🔥 Mobile optimized + polished + Mind Maps integrated', 'color:#c026d3; font-size:18px');
   </script>
 </body>
 </html>
