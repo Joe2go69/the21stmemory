@@ -22,12 +22,18 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   
-  <style>
+    <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap');
+    
+    html {
+      overflow-x: hidden;
+    }
     
     body { 
       font-family: 'Inter', system-ui, sans-serif; 
       scroll-behavior: smooth;
+      overflow-x: hidden;
+      max-width: 100vw;
     }
     
     .cosmic-bg { 
@@ -47,7 +53,17 @@
       box-shadow: 0 20px 25px -5px rgb(192 38 211 / 0.2); 
     }
 
+    /* Mobile-first responsive fixes */
     @media (max-width: 768px) {
+      .section-padding {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .max-w-7xl, .max-w-6xl, .max-w-4xl, .max-w-2xl {
+        max-width: 100% !important;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
       .card-hover {
         max-width: 100%;
         margin-left: auto;
@@ -143,9 +159,9 @@
     </div>
   </section>
 
-    <!-- About -->
+      <!-- About -->
   <section id="about" class="py-24 border-t border-purple-900">
-    <div class="max-w-4xl mx-auto px-6">
+    <div class="max-w-4xl mx-auto px-4 md:px-6">
       <h2 class="text-5xl font-bold text-center mb-12 neon-text">What is The 21st Memory?</h2>
       <div class="prose prose-invert text-xl leading-relaxed max-w-none">
         <p><strong>The 21st Memory</strong> is an AI-assisted interpretation and decoding archive built upon the original raw transmissions of <strong>Thalon Thor / Christian21</strong>.</p>
