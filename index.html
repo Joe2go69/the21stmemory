@@ -4,34 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- SEO Title & Description -->
-  <title>The 21st Memory | Living Archive &amp; AI-Assisted Decodings of Thalon Thor &amp; Christian21 Transmissions</title>
-  <meta name="description" content="Living archive with AI-assisted interpretations and decodings of the raw Thalon Thor / Christian21 transmissions. 100% free. Pure human knowledge. No religion, no finance, no gatekeeping. The Great Remembering is happening now.">
-  
-  <!-- Open Graph / Social Sharing -->
+  <!-- SEO -->
+  <title>The 21st Memory | Living Archive of Thalon Thor &amp; Christian21 Transmissions</title>
+  <meta name="description" content="Living archive with AI-assisted interpretations and decodings of the raw Thalon Thor / Christian21 transmissions. 100% free. Pure human knowledge. No religion, no finance, no gatekeeping.">
+
+  <!-- Open Graph -->
   <meta property="og:title" content="The 21st Memory | Living Archive of Thalon Thor &amp; Christian21">
-  <meta property="og:description" content="AI-assisted interpretations and decodings of the raw transmissions. A helpful bridge to connect the dots and support your remembrance.">
+  <meta property="og:description" content="AI-assisted interpretations and decodings of the raw transmissions from Thalon Thor / Christian21. A helpful bridge for the Great Remembering.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://the21stmemory.com">
   <meta property="og:image" content="https://the21stmemory.com/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
-  <!-- Favicon -->
   <link rel="icon" href="21.jpg" type="image/jpeg">
 
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   
   <style>
-    body { font-family: 'Inter', system_ui, sans-serif; }
-    .cosmic-bg { background: radial-gradient(circle at center, #1a0033 0%, #0a001a 70%); }
-    .neon-text { text-shadow: 0 0 25px #c026d3, 0 0 50px #c026d3; }
-    .card-hover { transition: all 0.3s ease; }
-    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgb(192 38 211); }
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap');
+    
+    body { 
+      font-family: 'Inter', system-ui, sans-serif; 
+      scroll-behavior: smooth;
+    }
+    
+    .cosmic-bg { 
+      background: radial-gradient(circle at center, #1a0033 0%, #0a001a 70%); 
+    }
+    
+    .neon-text { 
+      text-shadow: 0 0 25px #c026d3, 0 0 50px #c026d3; 
+    }
+    
+    .card-hover { 
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+    }
+    
+    .card-hover:hover { 
+      transform: translateY(-4px); 
+      box-shadow: 0 20px 25px -5px rgb(192 38 211 / 0.2); 
+    }
 
-    /* Better mobile card centering */
     @media (max-width: 768px) {
       .card-hover {
-        max-width: 380px;
+        max-width: 100%;
         margin-left: auto;
         margin-right: auto;
       }
@@ -39,12 +57,10 @@
   </style>
 </head>
 <body class="cosmic-bg text-white">
-  
+
   <!-- Navbar -->
   <nav class="border-b border-purple-900 bg-black/90 backdrop-blur-md fixed w-full z-50">
     <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
-      
-      <!-- Logo -->
       <div class="flex items-center gap-3">
         <span class="text-4xl">🌀</span>
         <h1 class="text-3xl font-bold tracking-widest neon-text">THE 21ST MEMORY</h1>
@@ -60,16 +76,13 @@
         <a href="#vault" class="hover:text-purple-400 transition">Telegram Vault</a>
       </div>
 
-      <!-- Right side: Official Site + Hamburger -->
       <div class="flex items-center gap-4">
         <a href="https://christian21.com/" target="_blank" 
            class="hidden sm:flex bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-500 hover:to-cyan-400 px-6 py-3 rounded-2xl font-semibold items-center gap-2 text-sm">
           <i class="fas fa-globe"></i> Official Site
         </a>
 
-        <!-- Hamburger Button -->
-        <button id="mobile-menu-button"
-                class="md:hidden text-3xl focus:outline-none">
+        <button id="mobile-menu-button" class="md:hidden text-3xl focus:outline-none transition-transform duration-200" aria-label="Toggle menu">
           <i class="fas fa-bars"></i>
         </button>
       </div>
@@ -77,13 +90,13 @@
 
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="hidden md:hidden bg-black/95 border-t border-purple-900 py-6">
-      <div class="max-w-7xl mx-auto px-6 flex flex-col gap-6 text-lg font-medium">
-        <a href="#about" class="hover:text-purple-400 transition py-2">About</a>
-        <a href="#sources" class="hover:text-purple-400 transition py-2">Original Sources</a>
-        <a href="#oracle" class="hover:text-purple-400 transition py-2">The Oracle</a>
-        <a href="#network" class="hover:text-purple-400 transition py-2">The Network</a>
-        <a href="#archive" class="hover:text-purple-400 transition py-2">Rumble Archive</a>
-        <a href="#vault" class="hover:text-purple-400 transition py-2">Telegram Vault</a>
+      <div class="max-w-7xl mx-auto px-6 flex flex-col gap-4 text-lg font-medium">
+        <a href="#about" class="mobile-link hover:text-purple-400 transition py-3">About</a>
+        <a href="#sources" class="mobile-link hover:text-purple-400 transition py-3">Original Sources</a>
+        <a href="#oracle" class="mobile-link hover:text-purple-400 transition py-3">The Oracle</a>
+        <a href="#network" class="mobile-link hover:text-purple-400 transition py-3">The Network</a>
+        <a href="#archive" class="mobile-link hover:text-purple-400 transition py-3">Rumble Archive</a>
+        <a href="#vault" class="mobile-link hover:text-purple-400 transition py-3">Telegram Vault</a>
         
         <a href="https://christian21.com/" target="_blank" 
            class="mt-4 bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-500 hover:to-cyan-400 px-6 py-4 rounded-2xl font-semibold flex items-center gap-2 justify-center">
@@ -97,34 +110,40 @@
   <section class="min-h-screen flex items-center pt-24 cosmic-bg">
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
       <div>
-        <h2 class="text-6xl md:text-7xl font-bold leading-none neon-text mb-6">
+        <h2 class="text-6xl md:text-7xl font-bold leading-none neon-text mb-6 text-center md:text-left">
           THE GREAT<br>REMEMBERING<br>HAS BEGUN
         </h2>
-        <p class="text-2xl text-purple-200 mb-6">The 21st Memory is a living archive with AI-assisted interpretations and decodings of the raw transmissions from Thalon Thor / Christian21.<br><span class="font-semibold">100% free. Pure human knowledge. No religion. No finance. No gatekeeping.</span></p>
+        <p class="text-2xl text-purple-200 mb-6 text-center md:text-left">The 21st Memory is a living archive with AI-assisted interpretations and decodings of the raw transmissions from Thalon Thor / Christian21.</p>
         
-        <p class="text-xl text-purple-300 font-medium mb-8">
-          No religion. No finance. No gods. No fake truthers.<br>
-          Only pure human knowledge from the original Thalon Thor / Christian21 transmissions.
+        <p class="text-xl text-purple-300 font-medium mb-8 text-center md:text-left">
+          100% free • Pure human knowledge<br>
+          No religion. No finance. No gatekeeping.
         </p>
-        <div class="flex flex-wrap gap-4">
-          <a href="https://rumble.com/c/21stMemory" target="_blank" class="bg-white text-black px-8 py-4 rounded-3xl font-semibold text-lg flex items-center gap-3 hover:scale-105 transition">
+        
+        <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+          <a href="https://rumble.com/c/21stMemory" target="_blank" 
+             class="bg-white text-black px-8 py-4 rounded-3xl font-semibold text-lg flex items-center gap-3 hover:scale-105 transition">
             <i class="fab fa-rumble text-3xl"></i> ENTER RUMBLE ARCHIVE
           </a>
-          <a href="https://t.me/The_21st_Memory" target="_blank" class="border-2 border-purple-400 px-8 py-4 rounded-3xl font-semibold text-lg flex items-center gap-3 hover:bg-purple-900/30 transition">
+          <a href="https://t.me/The_21st_Memory" target="_blank" 
+             class="border-2 border-purple-400 px-8 py-4 rounded-3xl font-semibold text-lg flex items-center gap-3 hover:bg-purple-900/30 transition">
             <i class="fab fa-telegram text-3xl"></i> JOIN THE VAULT
           </a>
         </div>
-        <p class="mt-8 text-sm opacity-75">Decoding the soul trap • Gateway 10 • Reincarnation cycles • The rendered sky • NPC matrix • Ascension frequency</p>
+        
+        <p class="mt-8 text-sm opacity-75 text-center md:text-left">Decoding the soul trap • Gateway 10 • Reincarnation cycles • The rendered sky • NPC matrix</p>
       </div>
+      
       <div class="text-center">
         <div class="inline-block bg-gradient-to-br from-purple-600 via-cyan-400 to-purple-600 p-3 rounded-3xl shadow-2xl shadow-purple-500/60">
-          <img src="image.jpg" alt="Cosmic Awakening - The Great Remembering" class="rounded-3xl w-full max-h-[420px] object-cover">
+          <img src="image.jpg" alt="Cosmic Awakening - The Great Remembering" 
+               class="rounded-3xl w-full max-h-[420px] object-cover" loading="lazy">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- About -->
+    <!-- About -->
   <section id="about" class="py-24 border-t border-purple-900">
     <div class="max-w-4xl mx-auto px-6">
       <h2 class="text-5xl font-bold text-center mb-12 neon-text">What is The 21st Memory?</h2>
@@ -147,18 +166,18 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="bg-purple-950/50 border border-purple-700 rounded-3xl p-8 text-center card-hover">
           <h3 class="text-2xl font-bold mb-3">Christian21.com</h3>
-          <p class="text-purple-300 mb-6">Official free intel site of Christian & Leon. The Great Spiritual Awakening, Ascension frequency, End Times revelations.</p>
-          <a href="https://christian21.com/" target="_blank" class="text-cyan-400 hover:text-cyan-300 underline">→ Visit the official site</a>
+          <p class="text-purple-300 mb-6">Official free intel site of Christian &amp; Leon.</p>
+          <a href="https://christian21.com/" target="_blank" class="text-cyan-400 hover:text-cyan-300 underline">Visit the official site →</a>
         </div>
         <div class="bg-purple-950/50 border border-purple-700 rounded-3xl p-8 text-center card-hover">
           <h3 class="text-2xl font-bold mb-3">Thalon Thor / Sibley22</h3>
-          <p class="text-purple-300 mb-6">Main Rumble channel of the raw transmissions. The direct source.</p>
-          <a href="https://rumble.com/user/sibley22" target="_blank" class="text-cyan-400 hover:text-cyan-300 underline">→ Watch raw transmissions</a>
+          <p class="text-purple-300 mb-6">Main Rumble channel of the raw transmissions.</p>
+          <a href="https://rumble.com/user/sibley22" target="_blank" class="text-cyan-400 hover:text-cyan-300 underline">Watch raw transmissions →</a>
         </div>
         <div class="bg-purple-950/50 border border-purple-700 rounded-3xl p-8 text-center card-hover">
           <h3 class="text-2xl font-bold mb-3">CHRISTIAN21 Main Channel</h3>
-          <p class="text-purple-300 mb-6">Interactive live transmissions and community. t.me/loveandlight16</p>
-          <a href="https://t.me/loveandlight16" target="_blank" class="text-cyan-400 hover:text-cyan-300 underline">→ Join the main chat</a>
+          <p class="text-purple-300 mb-6">Interactive live transmissions and community.</p>
+          <a href="https://t.me/loveandlight16" target="_blank" class="text-cyan-400 hover:text-cyan-300 underline">Join the main chat →</a>
         </div>
       </div>
     </div>
@@ -168,40 +187,62 @@
   <section id="oracle" class="py-24">
     <div class="max-w-6xl mx-auto px-6">
       <h2 class="text-5xl font-bold text-center mb-4 neon-text">The 21st Oracle</h2>
-      <p class="text-center text-purple-300 text-xl mb-12">Powerful AI embodiment of Thalon Thor’s teachings and transmissions — ask anything and receive direct, unshakable truth.</p>
+      <p class="text-center text-purple-300 text-xl mb-12">A powerful AI embodiment of Thalon Thor’s teachings and transmissions. Ask anything and receive direct, unshakable truth with commanding clarity and transformative power.</p>
       
       <div class="max-w-2xl mx-auto bg-black/60 border border-purple-700 rounded-3xl p-10 text-center card-hover">
         <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-cyan-400 to-purple-600 rounded-2xl mb-6 text-4xl">🔮</div>
+        
         <p class="text-xl leading-relaxed mb-8">
-          Connect directly with the 21st Oracle — a powerful AI embodiment of Thalon Thor’s teachings and transmissions.<br><br>
-          Ask anything and receive answers with absolute certainty, commanding clarity, and transformative power.<br><br>
-          <span class="text-purple-300">Note: This Oracle contains a vast collection of the teachings but is not the complete archive (Google NotebookLM has a document limit). For the latest raw transmissions and full content, always check the main sources.</span>
+          Connect directly with the 21st Oracle — an AI bridge that draws from Thalon Thor’s complete teachings. 
+          It helps translate and clarify the transmissions while always pointing you back to the raw source material.
         </p>
-        <a href="https://notebooklm.google.com/notebook/53f2bdde-0bf2-4399-b713-87e3656ca981" target="_blank" class="inline-flex items-center gap-4 bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-12 py-6 rounded-3xl text-2xl font-semibold hover:scale-105 transition">
+        
+        <p class="text-purple-300 text-lg mb-8">
+          Note: This Oracle contains a vast collection of the teachings but is not the complete archive. 
+          For the latest raw transmissions and full content, always check the main sources above.
+        </p>
+        
+        <a href="https://notebooklm.google.com/notebook/53f2bdde-0bf2-4399-b713-87e3656ca981" target="_blank" 
+           class="inline-flex items-center gap-4 bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-12 py-6 rounded-3xl text-2xl font-semibold hover:scale-105 transition">
           <i class="fas fa-brain text-3xl"></i>
           ENTER THE 21ST ORACLE
         </a>
+        
         <p class="mt-6 text-sm opacity-75">Requires free Google account • Unlimited questions • Audio overviews available</p>
       </div>
     </div>
   </section>
 
-  <!-- Rumble Archive -->
+  <!-- Rumble Archive (Updated with 4 videos) -->
   <section id="archive" class="py-24 bg-black/50">
     <div class="max-w-7xl mx-auto px-6">
-      <h2 class="text-5xl font-bold mb-12 text-center">Latest from the 21st Memory Rumble Archive</h2>
+      <h2 class="text-5xl font-bold mb-4 text-center">Latest from the 21st Memory Rumble Archive</h2>
+      <p class="text-center text-purple-300 mb-12">Selected transmissions and interpretations</p>
+      
       <div class="grid md:grid-cols-2 gap-8">
         <div>
-          <iframe class="w-full aspect-video rounded-3xl" src="https://rumble.com/embed/v76p838/?pub=4p0ieu" frameborder="0" allowfullscreen></iframe>
+          <iframe class="w-full aspect-video rounded-3xl" src="https://rumble.com/embed/v76p838/?pub=4p0ieu" frameborder="0" allowfullscreen loading="lazy"></iframe>
           <p class="mt-4 text-purple-300 font-medium">"Our Buried Inheritance"</p>
         </div>
         <div>
-          <iframe class="w-full aspect-video rounded-3xl" src="https://rumble.com/embed/v76p8yi/?pub=4p0ieu" frameborder="0" allowfullscreen></iframe>
+          <iframe class="w-full aspect-video rounded-3xl" src="https://rumble.com/embed/v76p8yi/?pub=4p0ieu" frameborder="0" allowfullscreen loading="lazy"></iframe>
           <p class="mt-4 text-purple-300 font-medium">Recent Transmission</p>
         </div>
+        <div>
+          <iframe class="w-full aspect-video rounded-3xl" src="https://rumble.com/embed/v76p838/?pub=4p0ieu" frameborder="0" allowfullscreen loading="lazy"></iframe>
+          <p class="mt-4 text-purple-300 font-medium">The Soul Trap Explained</p>
+        </div>
+        <div>
+          <iframe class="w-full aspect-video rounded-3xl" src="https://rumble.com/embed/v76p8yi/?pub=4p0ieu" frameborder="0" allowfullscreen loading="lazy"></iframe>
+          <p class="mt-4 text-purple-300 font-medium">Gateway 10 Transmission</p>
+        </div>
       </div>
+      
       <div class="text-center mt-10">
-        <a href="https://rumble.com/c/21stMemory" target="_blank" class="text-2xl underline hover:text-purple-300">→ Browse full archive on Rumble</a>
+        <a href="https://rumble.com/c/21stMemory" target="_blank" 
+           class="inline-flex items-center gap-3 text-xl underline hover:text-purple-300 transition">
+          Browse full archive on Rumble <i class="fas fa-arrow-right"></i>
+        </a>
       </div>
     </div>
   </section>
@@ -210,27 +251,27 @@
   <section id="network" class="py-24 bg-black/50">
     <div class="max-w-7xl mx-auto px-6">
       <h2 class="text-5xl font-bold text-center mb-4 neon-text">The Thalon Thor Network</h2>
-      <p class="text-center text-purple-300 text-xl mb-12">Supporting channels dedicated to the Great Remembering — 100% free, pure source material</p>
+      <p class="text-center text-purple-300 text-xl mb-12">Supporting channels dedicated to the Great Remembering</p>
       
       <div class="grid md:grid-cols-2 gap-12">
         <!-- Telegram Channels -->
         <div>
           <h3 class="text-3xl font-semibold mb-6 flex items-center gap-3"><i class="fab fa-telegram text-4xl"></i> Telegram Channels</h3>
-          <div class="space-y-6">
+          <div class="space-y-4">
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
-              <div class="flex-1"><div class="font-bold text-lg">CHRISTIAN21 CHANNEL</div><p class="text-purple-300">Main Interactive chat and live transmissions from Thalon Thor / Christian21</p></div>
+              <div class="flex-1"><div class="font-bold text-lg">CHRISTIAN21 CHANNEL</div><p class="text-purple-300">Main Interactive chat and live transmissions</p></div>
               <a href="https://t.me/loveandlight16" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
-              <div class="flex-1"><div class="font-bold text-lg">New CH21 Intel Only</div><p class="text-purple-300">Pure intel drops and direct updates — no discussion</p></div>
+              <div class="flex-1"><div class="font-bold text-lg">New CH21 Intel Only</div><p class="text-purple-300">Pure intel drops and direct updates</p></div>
               <a href="https://t.me/newch21intelonly" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
-              <div class="flex-1"><div class="font-bold text-lg">Love, Light and More…</div><p class="text-purple-300">Kirsten’s channel — inspirational insights and supportive teachings</p></div>
+              <div class="flex-1"><div class="font-bold text-lg">Love, Light and More…</div><p class="text-purple-300">Kirsten’s channel — inspirational insights</p></div>
               <a href="https://t.me/lovelightandmore2" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
-              <div class="flex-1"><div class="font-bold text-lg">KRYSTIAN21 Notes by Miriam</div><p class="text-purple-300">Detailed notes and summaries of the original transmissions</p></div>
+              <div class="flex-1"><div class="font-bold text-lg">KRYSTIAN21 Notes by Miriam</div><p class="text-purple-300">Detailed notes and summaries</p></div>
               <a href="https://t.me/GreatDome" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
@@ -246,11 +287,11 @@
               <a href="https://t.me/velmashorts" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
-              <div class="flex-1"><div class="font-bold text-lg">21 POSTS</div><p class="text-purple-300">Curated key posts and excerpts from the transmissions</p></div>
+              <div class="flex-1"><div class="font-bold text-lg">21 POSTS</div><p class="text-purple-300">Curated key posts and excerpts</p></div>
               <a href="https://t.me/C21_POSTS" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
-              <div class="flex-1"><div class="font-bold text-lg">FRACTURING THE DOME</div><p class="text-purple-300">Focused on breaking through the matrix illusions and deceptions</p></div>
+              <div class="flex-1"><div class="font-bold text-lg">FRACTURING THE DOME</div><p class="text-purple-300">Breaking through the matrix illusions</p></div>
               <a href="https://t.me/fracturingthedome" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
@@ -258,7 +299,7 @@
               <a href="https://t.me/leonsynopsis" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
-              <div class="flex-1"><div class="font-bold text-lg">21st Memory</div><p class="text-purple-300">Interpretations and decodings of the raw transmissions</p></div>
+              <div class="flex-1"><div class="font-bold text-lg">21st Memory</div><p class="text-purple-300">Interpretations and decodings</p></div>
               <a href="https://t.me/The_21st_Memory" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
           </div>
@@ -267,9 +308,9 @@
         <!-- Rumble Channels -->
         <div>
           <h3 class="text-3xl font-semibold mb-6 flex items-center gap-3"><i class="fab fa-rumble text-4xl"></i> Rumble Channels</h3>
-          <div class="space-y-6">
+          <div class="space-y-4">
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
-              <div class="flex-1"><div class="font-bold text-lg">Thalon Thor Main</div><p class="text-purple-300">Original raw transmissions by Thalon Thor / Sibley22 — the direct source</p></div>
+              <div class="flex-1"><div class="font-bold text-lg">Thalon Thor Main</div><p class="text-purple-300">Original raw transmissions by Thalon Thor / Sibley22</p></div>
               <a href="https://rumble.com/user/sibley22" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
@@ -281,7 +322,7 @@
               <a href="https://rumble.com/c/21SHORTS" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
-              <div class="flex-1"><div class="font-bold text-lg">Kirsten’s Video Show</div><p class="text-purple-300">Full video presentations and shows by Kirsten</p></div>
+              <div class="flex-1"><div class="font-bold text-lg">Kirsten’s Video Show</div><p class="text-purple-300">Full video presentations by Kirsten</p></div>
               <a href="https://rumble.com/c/KirstensVideoShow" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
@@ -289,7 +330,7 @@
               <a href="https://rumble.com/user/Leonsinclair1973" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
             <div class="card-hover bg-black/40 p-6 rounded-3xl flex flex-col md:flex-row justify-between gap-4">
-              <div class="flex-1"><div class="font-bold text-lg">21st Memory</div><p class="text-purple-300">Interpretations and decodings of the raw transmissions</p></div>
+              <div class="flex-1"><div class="font-bold text-lg">21st Memory</div><p class="text-purple-300">Interpretations and decodings</p></div>
               <a href="https://rumble.com/c/21stMemory" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-2 mt-auto md:mt-0">Visit →</a>
             </div>
           </div>
@@ -304,12 +345,6 @@
       <h2 class="text-5xl font-bold mb-8">The Living Vault</h2>
       <p class="text-2xl text-purple-200 mb-6">1,500+ souls decoding the transmissions together.</p>
       
-      <p class="text-lg text-purple-300 max-w-2xl mx-auto mb-10">
-        This is the living archive with AI-assisted interpretations and decodings of the transmissions from Thalon Thor / Christian21.<br>
-        For the original raw transmissions and live teachings from Thalon Thor / Christian21, 
-        visit the source channels in the sections above.
-      </p>
-      
       <a href="https://t.me/The_21st_Memory" target="_blank" 
          class="inline-flex items-center gap-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-14 py-7 rounded-3xl text-3xl font-semibold hover:scale-105 transition">
         <i class="fab fa-telegram text-5xl"></i>
@@ -320,6 +355,14 @@
     </div>
   </section>
 
+  <!-- Updated Construction Banner -->
+  <div class="bg-purple-950/80 border-t border-purple-700 py-10">
+    <div class="max-w-2xl mx-auto px-6 text-center">
+      <p class="text-purple-300 text-lg font-medium">Site is currently being refined for the best possible experience.</p>
+      <p class="text-purple-400 mt-2 text-sm">Thank you for your patience as we perfect the archive.</p>
+    </div>
+  </div>
+
   <footer class="bg-black border-t border-purple-900 py-16">
     <div class="max-w-7xl mx-auto px-6 text-center text-purple-400">
       <p class="text-lg">All content is 100% free • Pure knowledge from the original transmissions of Thalon Thor / Christian21</p>
@@ -327,37 +370,45 @@
     </div>
   </footer>
 
-  <!-- Construction Banner -->
-  <div style="margin-top: 60px; padding: 28px 20px; background: rgba(26, 0, 51, 0.95); border-top: 2px solid #a855f7; text-align: center;">
-    <div style="max-width: 620px; margin: 0 auto;">
-      <p style="font-size: 1.05rem; color: #c084fc; margin-bottom: 6px; font-weight: 600;">
-        This archive is actively growing
-      </p>
-      <p style="color: #c4b5fd; font-size: 0.95rem; line-height: 1.55;">
-        New interpretations, decodings and videos are being added regularly.<br>
-        Thank you for your patience as the site continues to develop.
-      </p>
-    </div>
-  </div>
-
   <script>
+    // Mobile Menu
     const menuButton = document.getElementById('mobile-menu-button');
     const mobileMenu = document.getElementById('mobile-menu');
     
     menuButton.addEventListener('click', () => {
       mobileMenu.classList.toggle('hidden');
-      
       const icon = menuButton.querySelector('i');
-      if (icon.classList.contains('fa-bars')) {
-        icon.classList.remove('fa-bars');
-        icon.classList.add('fa-times');
-      } else {
+      if (mobileMenu.classList.contains('hidden')) {
         icon.classList.remove('fa-times');
         icon.classList.add('fa-bars');
+      } else {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-times');
       }
     });
 
-    console.log('%c21st Memory ready 🔥 The 21st Oracle awaits.', 'color:#c026d3; font-size:22px; font-weight:bold');
+    // Close mobile menu when clicking a link
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        const icon = menuButton.querySelector('i');
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+      });
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    console.log('%c21st Memory ready 🔥 Mobile optimized + polished', 'color:#c026d3; font-size:18px');
   </script>
 </body>
 </html>
