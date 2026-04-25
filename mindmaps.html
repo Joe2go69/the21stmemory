@@ -66,12 +66,24 @@
       background: linear-gradient(to right, #c026d3, #67e8f9);
       border-radius: 3px;
     }
+
+    /* Professional mobile menu animation (matching index.html) */
+    #mobile-menu {
+      overflow: hidden;
+      transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+      max-height: 0;
+      opacity: 0;
+    }
+    #mobile-menu:not(.hidden) {
+      max-height: 520px;
+      opacity: 1;
+    }
   </style>
 </head>
 <body class="cosmic-bg text-white">
 
-  <!-- Navbar (fully matching index.html) -->
-  <nav class="border-b border-purple-900 bg-black/90 backdrop-blur-md fixed w-full z-50">
+  <!-- Navbar (fully matching updated index.html) -->
+  <nav class="border-b border-purple-900/80 bg-black/95 backdrop-blur-xl shadow-2xl shadow-black/70 fixed w-full z-50">
     <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
       <div class="flex items-center gap-3">
         <span class="text-4xl">🌀</span>
@@ -79,41 +91,41 @@
       </div>
 
       <!-- Desktop Menu -->
-      <div class="hidden md:flex items-center gap-8 text-lg font-medium">
-        <a href="index.html#about" class="px-1.5 relative hover:text-purple-300 transition-colors duration-200 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-purple-400 after:transition-all">About</a>
-        <a href="index.html#sources" class="px-1.5 relative hover:text-purple-300 transition-colors duration-200 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-purple-400 after:transition-all">Original Sources</a>
-        <a href="index.html#oracle" class="px-1.5 relative hover:text-purple-300 transition-colors duration-200 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-purple-400 after:transition-all">The Oracle</a>
-        <a href="mindmaps.html" class="px-1.5 relative text-purple-300 font-semibold after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-full after:bg-purple-400">21st Memory Maps Archive</a>
-        <a href="index.html#network" class="px-1.5 relative hover:text-purple-300 transition-colors duration-200 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-purple-400 after:transition-all">The Network</a>
-        <a href="index.html#archive" class="px-1.5 relative hover:text-purple-300 transition-colors duration-200 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-purple-400 after:transition-all">Rumble Archive</a>
-        <a href="index.html#vault" class="px-1.5 relative hover:text-purple-300 transition-colors duration-200 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-purple-400 after:transition-all">Telegram Vault</a>
+      <div class="hidden md:flex items-center gap-7 text-[15px] font-medium tracking-[0.3px]">
+        <a href="index.html#about" class="px-3 py-1.5 relative hover:text-purple-200 transition-all duration-300 after:absolute after:bottom-[-1px] after:left-1/2 after:h-[2px] after:w-0 hover:after:w-[65%] after:-translate-x-1/2 after:bg-gradient-to-r after:from-purple-400 after:to-cyan-400 after:transition-all after:duration-300 hover:after:left-1/2">About</a>
+        <a href="index.html#sources" class="px-3 py-1.5 relative hover:text-purple-200 transition-all duration-300 after:absolute after:bottom-[-1px] after:left-1/2 after:h-[2px] after:w-0 hover:after:w-[65%] after:-translate-x-1/2 after:bg-gradient-to-r after:from-purple-400 after:to-cyan-400 after:transition-all after:duration-300 hover:after:left-1/2">Original Sources</a>
+        <a href="index.html#oracle" class="px-3 py-1.5 relative hover:text-purple-200 transition-all duration-300 after:absolute after:bottom-[-1px] after:left-1/2 after:h-[2px] after:w-0 hover:after:w-[65%] after:-translate-x-1/2 after:bg-gradient-to-r after:from-purple-400 after:to-cyan-400 after:transition-all after:duration-300 hover:after:left-1/2">The Oracle</a>
+        <a href="mindmaps.html" class="px-3 py-1.5 relative hover:text-purple-200 transition-all duration-300 after:absolute after:bottom-[-1px] after:left-1/2 after:h-[2px] after:w-0 hover:after:w-[65%] after:-translate-x-1/2 after:bg-gradient-to-r after:from-purple-400 after:to-cyan-400 after:transition-all after:duration-300 hover:after:left-1/2">21st Memory Maps Archive</a>
+        <a href="index.html#network" class="px-3 py-1.5 relative hover:text-purple-200 transition-all duration-300 after:absolute after:bottom-[-1px] after:left-1/2 after:h-[2px] after:w-0 hover:after:w-[65%] after:-translate-x-1/2 after:bg-gradient-to-r after:from-purple-400 after:to-cyan-400 after:transition-all after:duration-300 hover:after:left-1/2">The Network</a>
+        <a href="index.html#archive" class="px-3 py-1.5 relative hover:text-purple-200 transition-all duration-300 after:absolute after:bottom-[-1px] after:left-1/2 after:h-[2px] after:w-0 hover:after:w-[65%] after:-translate-x-1/2 after:bg-gradient-to-r after:from-purple-400 after:to-cyan-400 after:transition-all after:duration-300 hover:after:left-1/2">Rumble Archive</a>
+        <a href="index.html#vault" class="px-3 py-1.5 relative hover:text-purple-200 transition-all duration-300 after:absolute after:bottom-[-1px] after:left-1/2 after:h-[2px] after:w-0 hover:after:w-[65%] after:-translate-x-1/2 after:bg-gradient-to-r after:from-purple-400 after:to-cyan-400 after:transition-all after:duration-300 hover:after:left-1/2">Telegram Vault</a>
       </div>
 
       <div class="flex items-center gap-4">
         <a href="https://christian21.com/" target="_blank" 
-           class="hidden sm:flex bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-500 hover:to-cyan-400 px-6 py-3 rounded-2xl font-semibold items-center gap-2 text-sm">
+           class="hidden sm:flex bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-500 hover:to-cyan-400 px-6 py-3 rounded-2xl font-semibold items-center gap-2 text-sm shadow-lg shadow-purple-500/40 hover:shadow-xl hover:shadow-purple-500/60 hover:scale-[1.02] active:scale-[0.985] transition-all duration-300">
           <i class="fas fa-globe"></i> Official Site
         </a>
 
-        <button id="mobile-menu-button" class="md:hidden text-3xl focus:outline-none transition-transform duration-200" aria-label="Toggle menu">
+        <button id="mobile-menu-button" class="md:hidden text-3xl p-3 -mr-2 rounded-2xl hover:bg-purple-900/60 active:bg-purple-800/70 focus:outline-none transition-all duration-200" aria-label="Toggle menu">
           <i class="fas fa-bars"></i>
         </button>
       </div>
     </div>
 
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="hidden md:hidden bg-black/95 border-t border-purple-900 py-6">
-      <div class="max-w-7xl mx-auto px-6 flex flex-col gap-4 text-lg font-medium">
-        <a href="index.html#about" class="mobile-link hover:text-purple-400 transition py-3">About</a>
-        <a href="index.html#sources" class="mobile-link hover:text-purple-400 transition py-3">Original Sources</a>
-        <a href="index.html#oracle" class="mobile-link hover:text-purple-400 transition py-3">The Oracle</a>
-        <a href="mindmaps.html" class="mobile-link text-purple-300 font-semibold py-3">21st Memory Maps Archive</a>
-        <a href="index.html#network" class="mobile-link hover:text-purple-400 transition py-3">The Network</a>
-        <a href="index.html#archive" class="mobile-link hover:text-purple-400 transition py-3">Rumble Archive</a>
-        <a href="index.html#vault" class="mobile-link hover:text-purple-400 transition py-3">Telegram Vault</a>
+    <div id="mobile-menu" class="hidden md:hidden bg-black/95 backdrop-blur-xl border-t border-purple-900/70 py-8">
+      <div class="max-w-7xl mx-auto px-6 flex flex-col gap-1 text-[17px] font-medium">
+        <a href="index.html#about" class="mobile-link hover:text-purple-200 hover:bg-purple-950/60 rounded-2xl px-5 py-4 transition-all">About</a>
+        <a href="index.html#sources" class="mobile-link hover:text-purple-200 hover:bg-purple-950/60 rounded-2xl px-5 py-4 transition-all">Original Sources</a>
+        <a href="index.html#oracle" class="mobile-link hover:text-purple-200 hover:bg-purple-950/60 rounded-2xl px-5 py-4 transition-all">The Oracle</a>
+        <a href="mindmaps.html" class="mobile-link hover:text-purple-200 hover:bg-purple-950/60 rounded-2xl px-5 py-4 transition-all">21st Memory Maps Archive</a>
+        <a href="index.html#network" class="mobile-link hover:text-purple-200 hover:bg-purple-950/60 rounded-2xl px-5 py-4 transition-all">The Network</a>
+        <a href="index.html#archive" class="mobile-link hover:text-purple-200 hover:bg-purple-950/60 rounded-2xl px-5 py-4 transition-all">Rumble Archive</a>
+        <a href="index.html#vault" class="mobile-link hover:text-purple-200 hover:bg-purple-950/60 rounded-2xl px-5 py-4 transition-all">Telegram Vault</a>
         
         <a href="https://christian21.com/" target="_blank" 
-           class="mt-4 bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-500 hover:to-cyan-400 px-6 py-4 rounded-2xl font-semibold flex items-center gap-2 justify-center">
+           class="mt-6 bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-500 hover:to-cyan-400 px-6 py-4 rounded-2xl font-semibold flex items-center gap-3 justify-center shadow-lg shadow-purple-500/30 hover:shadow-xl transition-all active:scale-[0.985]">
           <i class="fas fa-globe"></i> Visit Official Site
         </a>
       </div>
@@ -247,37 +259,52 @@
   </footer>
 
   <script>
-    // Mobile Menu (matching index.html)
+    // Mobile Menu - Professional toggle with smooth animation (matching index.html)
     const menuButton = document.getElementById('mobile-menu-button');
     const mobileMenu = document.getElementById('mobile-menu');
     
     if (menuButton && mobileMenu) {
       menuButton.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
+        const isHidden = mobileMenu.classList.contains('hidden');
         const icon = menuButton.querySelector('i');
-        if (mobileMenu.classList.contains('hidden')) {
-          icon.classList.remove('fa-times');
-          icon.classList.add('fa-bars');
-        } else {
+        
+        if (isHidden) {
+          mobileMenu.classList.remove('hidden');
+          mobileMenu.style.maxHeight = mobileMenu.scrollHeight + 'px';
           icon.classList.remove('fa-bars');
           icon.classList.add('fa-times');
+          menuButton.style.transform = 'rotate(90deg)';
+        } else {
+          mobileMenu.style.maxHeight = '0px';
+          setTimeout(() => {
+            mobileMenu.classList.add('hidden');
+            mobileMenu.style.maxHeight = '';
+          }, 300);
+          icon.classList.remove('fa-times');
+          icon.classList.add('fa-bars');
+          menuButton.style.transform = 'rotate(0deg)';
         }
       });
 
       // Close mobile menu when clicking a link
       document.querySelectorAll('.mobile-link').forEach(link => {
         link.addEventListener('click', () => {
-          mobileMenu.classList.add('hidden');
+          mobileMenu.style.maxHeight = '0px';
+          setTimeout(() => {
+            mobileMenu.classList.add('hidden');
+            mobileMenu.style.maxHeight = '';
+          }, 300);
           const icon = menuButton.querySelector('i');
           if (icon) {
             icon.classList.remove('fa-times');
             icon.classList.add('fa-bars');
           }
+          menuButton.style.transform = 'rotate(0deg)';
         });
       });
     }
 
-    console.log('%cMind Maps page ready 🔥 Navbar synced with index.html', 'color:#c026d3');
+    console.log('%cMind Maps page ready 🔥 Navbar fully synced with polished index.html', 'color:#c026d3');
   </script>
 
 </body>
