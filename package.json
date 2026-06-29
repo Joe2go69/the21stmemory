@@ -1,0 +1,12 @@
+{
+  "name": "21st-memory",
+  "private": true,
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --minify",
+    "build:sitemap": "node scripts/generate-sitemap.js",
+    "build": "npm run build:css && npm run build:sitemap"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

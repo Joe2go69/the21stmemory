@@ -1,0 +1,18 @@
+node_modules/
+
+# Backups and archives
+Backups/
+*.zip
+
+# Cursor / Grok tooling (not part of the site)
+mcps/
+terminals/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/

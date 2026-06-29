@@ -1,0 +1,23 @@
+{
+  "logo": {
+    "href": "index.html",
+    "text": "21ST MEMORY",
+    "subtitle": "AI-Decoded Living Archive"
+  },
+  "links": [
+    { "text": "Home", "href": "index.html" },
+    { "text": "About", "href": "index.html#about" },
+    { "text": "Sources", "href": "index.html#sources" },
+    { "text": "Community", "href": "community.html" },
+    { "text": "Oracle", "href": "index.html#oracle" },
+    { "text": "Rumble", "href": "index.html#rumble" },
+    { "text": "Codex", "href": "codex.html" }
+  ],
+  "cta": {
+    "text": "Telegram",
+    "href": "https://t.me/The_21st_Memory",
+    "external": true,
+    "newTab": true,
+    "target": "_blank"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "tagline": "The Great Remembering Has Begun.",
+  "subtitle": "May these transmissions serve as gentle guides on your journey home.",
+  "brand": {
+    "name": "21ST MEMORY",
+    "description": "Living archive of AI-assisted interpretations and enhancements of Thalon Thor's transmissions — profound knowledge for humanity."
+  },
+  "principle": "NO RELIGION • NO FINANCE • NO GATEKEEPING",
+  "quickLinks": [
+    { "text": "Explore Codex", "href": "codex.html" },
+    { "text": "Sources", "href": "index.html#sources" },
+    { "text": "Community", "href": "community.html" },
+    { "text": "Oracle", "href": "index.html#oracle" },
+    { "text": "Rumble Archive", "href": "index.html#rumble" }
+  ],
+  "socials": [
+    { "name": "Telegram", "href": "https://t.me/The_21st_Memory", "icon": "chat" },
+    { "name": "Rumble", "href": "https://rumble.com/c/21stMemory", "icon": "video" },
+    { "name": "Official Site", "href": "https://christian21.com/", "icon": "globe" }
+  ]
+}
