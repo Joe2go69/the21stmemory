@@ -5,12 +5,13 @@
     "name": "21ST MEMORY",
     "description": "Living archive of AI-assisted interpretations and enhancements of Thalon Thor's transmissions — profound knowledge for humanity."
   },
-  "principle": "NO RELIGION • NO FINANCE • NO GATEKEEPING",
+  "principle": "No religion · No finance · No gatekeeping",
   "quickLinks": [
-    { "text": "Explore Codex", "href": "codex.html" },
-    { "text": "Sources", "href": "index.html#sources" },
-    { "text": "Community", "href": "community.html" },
+    { "text": "Codex", "href": "codex.html" },
+    { "text": "About", "href": "index.html#about" },
+    { "text": "Network", "href": "community.html" },
     { "text": "Oracle", "href": "index.html#oracle" },
+    { "text": "Sources", "href": "index.html#sources" },
     { "text": "Rumble Archive", "href": "index.html#rumble" }
   ],
   "socials": [

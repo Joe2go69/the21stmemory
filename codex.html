@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -55,27 +55,53 @@
     {
       "@type": "WebSite",
       "url": "https://the21stmemory.com",
-      "name": "21st Memory",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://the21stmemory.com/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+      "name": "21st Memory"
     }
   ]
 }
 </script>
 
 </head>
-<body class="cosmic-bg text-[#EDE4FF]">
+<body class="cosmic-bg">
+    <a href="#main" class="skip-link">Skip to content</a>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-content">
+          <a href="index.html" class="nav-logo">
+            <div class="nav-logo-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                <circle cx="13.5" cy="10.5" r="0.7" fill="#EDE4FF" opacity="0.7"/>
+              </svg>
+            </div>
+            <div>
+              <div class="nav-logo-text">21ST MEMORY</div>
+              <div class="nav-logo-subtitle">AI-Decoded Living Archive</div>
+            </div>
+          </a>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a><a href="codex.html" class="nav-link">Codex</a><a href="index.html#about" class="nav-link">About</a><a href="index.html#sources" class="nav-link">Sources</a><a href="community.html" class="nav-link">Network</a><a href="index.html#oracle" class="nav-link">Oracle</a><a href="index.html#rumble" class="nav-link">Rumble</a>
+            <a href="https://t.me/The_21st_Memory" class="nav-cta" target="_blank" rel="noopener noreferrer">Telegram</a>
+          </div>
+          <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="mobile-menu">
+        <a href="index.html" class="nav-link">Home</a><a href="codex.html" class="nav-link">Codex</a><a href="index.html#about" class="nav-link">About</a><a href="index.html#sources" class="nav-link">Sources</a><a href="community.html" class="nav-link">Network</a><a href="index.html#oracle" class="nav-link">Oracle</a><a href="index.html#rumble" class="nav-link">Rumble</a><a href="https://t.me/The_21st_Memory" class="nav-link nav-cta-mobile" target="_blank" rel="noopener noreferrer">Telegram</a>
+      </div>
+    </nav>
+    <main id="main">
     
     <!-- FULL-WIDTH PILL (THE GREAT CLARIFYING IS HERE) - lines extend to viewport edges like index.html -->
-    <div class="flex items-center gap-x-4 justify-center mb-6 full-bleed-divider">
-        <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
-        <div class="px-10 py-3 text-base font-semibold tracking-[4px] text-[#6366F1] border border-[#8B3DFF]/40 rounded-full whitespace-nowrap">
-            THE GREAT CLARIFYING IS HERE
-        </div>
-        <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
+    <div class="section-pill-wrap full-bleed-divider mb-6">
+        <div class="section-pill-line"></div>
+        <div class="section-pill section-pill-lg">The Great Clarifying</div>
+        <div class="section-pill-line"></div>
     </div>
 
     <div class="max-w-6xl mx-auto px-6 pt-6">
@@ -99,20 +125,20 @@
                             THE 21ST<br>MEMORY CODEX
                         </h1>
                         
-                        <div class="space-y-6 text-lg leading-relaxed text-[#E0D4FF]">
+                        <div class="space-y-6 text-lg leading-relaxed text-mem-prose">
                             <p>The 21st Memory Codex is a living archive dedicated to Thalon Thor’s transmissions. AI serves as a bridge to translate and clarify the insights within these teachings, distilling each source into clear core insights—though as a 3D tool it may occasionally miss higher-dimensional nuances.</p>
                             
                             <p>Each topic includes supporting materials such as videos, infographics, and slide-deck PDFs. These resources form a comprehensive framework for the Great Remembering. The Codex is the continuously expanding, AI-decoded repository of Thalon Thor’s teachings.</p>
                         </div>
                         
-                        <div class="mt-8 text-[#C4B5FD] text-sm font-medium tracking-[0.5px]">
+                        <div class="mt-8 text-mem-soft text-sm font-medium tracking-[0.5px]">
                             No religion • No finance • No gatekeeping
                         </div>
                         
                         <div class="mt-10">
                             <a href="#codex-pill" 
                                class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold">
-                                ↓ EXPLORE THE CODEX
+                                Explore the Codex ↓
                             </a>
                         </div>
                     </div>
@@ -124,28 +150,81 @@
     </div>
 
     <!-- LIVING ARCHIVE PILL - FULL WIDTH (lines now extend to viewport edges to match the top pill and rest of the site) -->
-    <div id="codex-pill" style="scroll-margin-top: 7rem;" class="flex items-center gap-x-4 justify-center mb-6 full-bleed-divider">
-        <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
-        <div class="px-8 py-2 text-sm font-semibold tracking-[3px] text-[#6366F1] border border-[#8B3DFF]/30 rounded-full whitespace-nowrap">
-            21ST MEMORY CODEX
-        </div>
-        <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
+    <div id="codex-pill" style="scroll-margin-top: 7rem;" class="section-pill-wrap full-bleed-divider mb-6">
+        <div class="section-pill-line"></div>
+        <div class="section-pill">21st Memory Codex</div>
+        <div class="section-pill-line"></div>
     </div>
 
     <div class="max-w-6xl mx-auto px-6 pb-20">
         
-        <!-- SOURCES GRID SECTION -->
+        <!-- ARCHIVE TOOLS -->
         <div class="text-center mb-8">
-            <h2 class="text-3xl font-semibold tracking-tight mt-2 mb-2">Select a Transmission</h2>
-            <p class="max-w-md mx-auto text-[#A78BFA]">Each source opens its full Memory Codex — topic maps, reports, videos, infographics &amp; slide decks.</p>
+            <h2 class="text-3xl font-semibold tracking-tight mt-2 mb-2">Browse the Archive</h2>
+            <p class="max-w-md mx-auto text-mem-muted">Search across all topics, or select a transmission to explore maps, reports, videos, and slide decks.</p>
         </div>
 
+        <div id="codex-archive-stats" class="mb-6" aria-live="polite"></div>
+        <div id="codex-toolbar" class="mb-8"></div>
+
+        <section id="codex-topic-results" class="mb-10" hidden>
+            <div class="flex items-center justify-between gap-4 mb-4">
+                <h3 class="text-xl font-semibold">Topic matches</h3>
+                <span class="text-xs text-mem-muted">Showing up to 24 results</span>
+            </div>
+            <div id="codex-topic-results-list" class="codex-topic-results-grid"></div>
+        </section>
+
+        <h3 class="text-xl font-semibold mb-4">Transmissions</h3>
         <div id="sources-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
             <!-- Populated by JavaScript -->
         </div>
 
     </div>
 
+    </main>
+    <footer class="site-footer">
+      <div class="max-w-5xl mx-auto px-6">
+        <div class="grid md:grid-cols-12 gap-10 text-left mb-10">
+          <div class="md:col-span-5">
+            <div class="flex items-center gap-3 mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-mem-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                <circle cx="13.5" cy="10.5" r="0.7" fill="var(--text-prose)" opacity="0.9"/>
+              </svg>
+              <div class="text-2xl font-semibold tracking-[0.5px] text-white">21ST MEMORY</div>
+            </div>
+            <p class="text-mem-secondary text-[15px] max-w-md leading-relaxed mb-4">
+              Living archive of AI-assisted interpretations and enhancements of Thalon Thor's transmissions — profound knowledge for humanity.
+            </p>
+            <p class="text-xs text-mem-muted tracking-wide font-medium">No religion · No finance · No gatekeeping</p>
+          </div>
+          <div class="md:col-span-4">
+            <div class="footer-heading">Quick links</div>
+            <div class="space-y-1">
+              <a href="codex.html" class="footer-link">Codex</a><a href="index.html#about" class="footer-link">About</a><a href="community.html" class="footer-link">Network</a><a href="index.html#oracle" class="footer-link">Oracle</a><a href="index.html#sources" class="footer-link">Sources</a><a href="index.html#rumble" class="footer-link">Rumble Archive</a>
+            </div>
+          </div>
+          <div class="md:col-span-3">
+            <div class="footer-heading">Connect</div>
+            <div class="flex flex-wrap gap-2">
+              <a href="https://t.me/The_21st_Memory" target="_blank" rel="noopener noreferrer" class="footer-social">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><span>Telegram</span>
+    </a><a href="https://rumble.com/c/21stMemory" target="_blank" rel="noopener noreferrer" class="footer-social">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m10 9 6 3-6 3z"/></svg></span><span>Rumble</span>
+    </a><a href="https://christian21.com/" target="_blank" rel="noopener noreferrer" class="footer-social">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span><span>Official Site</span>
+    </a>
+            </div>
+          </div>
+        </div>
+        <div class="pt-8 border-t border-mem-subtle text-center">
+          <p class="text-sm text-mem-dim">The Great Remembering Has Begun.</p>
+          <p class="text-xs text-mem-muted mt-1">May these transmissions serve as gentle guides on your journey home.</p>
+        </div>
+      </div>
+    </footer>
     <script src="assets/js/icons.js"></script>
     <script src="assets/js/topics-utils.js"></script>
     <script src="assets/js/shared.js"></script>

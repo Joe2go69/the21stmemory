@@ -1,4 +1,4 @@
-// Shared topic-tree utilities for Codex, Topics, and Deep-Dive pages
+﻿// Shared topic-tree utilities for Codex, Topics, and Deep-Dive pages
 
 const TopicUtils = {
   NAVBAR_HEIGHT: 80,
@@ -66,6 +66,61 @@ const TopicUtils = {
     return { live, total };
   },
 
+  normalizeSearch(text) {
+    return String(text || '')
+      .toLowerCase()
+      .trim()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '');
+  },
+
+  matchesSearch(entry, query) {
+    const q = this.normalizeSearch(query);
+    if (!q) return true;
+    const haystack = this.normalizeSearch([
+      entry.title,
+      entry.description,
+      entry.id,
+      entry.sourceTitle,
+      entry.sourceId,
+      ...(entry.pathTitles || [])
+    ].join(' '));
+    return haystack.includes(q);
+  },
+
+  flattenTopicTree(topics, meta = {}) {
+    const results = [];
+
+    const walk = (items, path = []) => {
+      for (const item of items || []) {
+        const currentPath = [...path, item];
+        results.push({
+          id: item.id,
+          title: item.title,
+          description: item.description || '',
+          is_placeholder: !!item.is_placeholder,
+          topic_image: item.topic_image || '',
+          sourceId: meta.sourceId || '',
+          sourceTitle: meta.sourceTitle || '',
+          pathTitles: currentPath.map(node => node.title),
+          href: meta.sourceId && item.id
+            ? `deep-dive.html?source=${meta.sourceId}&topic=${item.id}`
+            : null
+        });
+        if (item.subtopics?.length) walk(item.subtopics, currentPath);
+      }
+    };
+
+    walk(topics);
+    return results;
+  },
+
+  filterEntriesByStatus(entries, status) {
+    if (status === 'ready') return entries.filter(entry => !entry.is_placeholder);
+    if (status === 'soon') return entries.filter(entry => entry.is_placeholder);
+    return entries;
+  },
+
   sortTopicsAlpha(items) {
     return [...items]
       .sort((a, b) => a.title.localeCompare(b.title))
@@ -90,6 +145,22 @@ const TopicUtils = {
     this.scrollToAnchor(sectionId, 0);
   },
 
+  renderSourceBreadcrumbs({ sourceTitle }) {
+    return `
+      <nav aria-label="Breadcrumb" class="mb-5">
+        <ol class="breadcrumb flex flex-wrap items-center gap-x-1 gap-y-1 text-sm text-mem-muted">
+          <li class="breadcrumb-item flex items-center gap-1">
+            <a href="codex.html" class="breadcrumb-link">Codex</a>
+          </li>
+          <li class="breadcrumb-item flex items-center gap-1">
+            <span class="breadcrumb-sep text-mem-dim" aria-hidden="true">›</span>
+            <span class="text-white font-medium" aria-current="page">${sourceTitle}</span>
+          </li>
+        </ol>
+      </nav>
+    `;
+  },
+
   renderBreadcrumbs({ sourceId, sourceTitle, topicPath, currentTitle }) {
     const crumbs = [
       { label: 'Codex', href: 'codex.html' },
@@ -107,21 +178,21 @@ const TopicUtils = {
 
     const items = crumbs.map((crumb, i) => `
       <li class="breadcrumb-item flex items-center gap-1">
-        ${i > 0 ? '<span class="breadcrumb-sep text-[#6B5B95]" aria-hidden="true">›</span>' : ''}
+        ${i > 0 ? '<span class="breadcrumb-sep text-mem-dim" aria-hidden="true">›</span>' : ''}
         <a href="${crumb.href}" class="breadcrumb-link hover:text-white transition">${crumb.label}</a>
       </li>
     `).join('');
 
     const current = `
       <li class="breadcrumb-item flex items-center gap-1">
-        <span class="breadcrumb-sep text-[#6B5B95]" aria-hidden="true">›</span>
+        <span class="breadcrumb-sep text-mem-dim" aria-hidden="true">›</span>
         <span class="text-white font-medium" aria-current="page">${currentTitle}</span>
       </li>
     `;
 
     return `
       <nav aria-label="Breadcrumb" class="mb-5">
-        <ol class="breadcrumb flex flex-wrap items-center gap-x-1 gap-y-1 text-sm text-[#A78BFA]">
+        <ol class="breadcrumb flex flex-wrap items-center gap-x-1 gap-y-1 text-sm text-mem-muted">
           ${items}
           ${current}
         </ol>

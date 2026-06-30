@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -56,47 +56,73 @@
     {
       "@type": "WebSite",
       "url": "https://the21stmemory.com",
-      "name": "21st Memory",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://the21stmemory.com/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+      "name": "21st Memory"
     }
   ]
 }
 </script>
 
 </head>
-<body class="cosmic-bg text-[#EDE4FF]">
+<body class="cosmic-bg">
+    <a href="#main" class="skip-link">Skip to content</a>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-content">
+          <a href="index.html" class="nav-logo">
+            <div class="nav-logo-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                <circle cx="13.5" cy="10.5" r="0.7" fill="#EDE4FF" opacity="0.7"/>
+              </svg>
+            </div>
+            <div>
+              <div class="nav-logo-text">21ST MEMORY</div>
+              <div class="nav-logo-subtitle">AI-Decoded Living Archive</div>
+            </div>
+          </a>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a><a href="codex.html" class="nav-link">Codex</a><a href="index.html#about" class="nav-link">About</a><a href="index.html#sources" class="nav-link">Sources</a><a href="community.html" class="nav-link">Network</a><a href="index.html#oracle" class="nav-link">Oracle</a><a href="index.html#rumble" class="nav-link">Rumble</a>
+            <a href="https://t.me/The_21st_Memory" class="nav-cta" target="_blank" rel="noopener noreferrer">Telegram</a>
+          </div>
+          <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="mobile-menu">
+        <a href="index.html" class="nav-link">Home</a><a href="codex.html" class="nav-link">Codex</a><a href="index.html#about" class="nav-link">About</a><a href="index.html#sources" class="nav-link">Sources</a><a href="community.html" class="nav-link">Network</a><a href="index.html#oracle" class="nav-link">Oracle</a><a href="index.html#rumble" class="nav-link">Rumble</a><a href="https://t.me/The_21st_Memory" class="nav-link nav-cta-mobile" target="_blank" rel="noopener noreferrer">Telegram</a>
+      </div>
+    </nav>
+    <main id="main">
     
     <!-- HERO BADGE -->
-    <div class="flex items-center gap-x-4 justify-center mb-8 full-bleed-divider">
-        <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
-        <div class="px-10 py-3 text-base font-semibold tracking-[4px] text-[#6366F1] border border-[#8B3DFF]/40 rounded-full whitespace-nowrap">
-            SUPPORTING THE GREAT REMEMBERING
-        </div>
-        <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
+    <div class="section-pill-wrap full-bleed-divider mb-8">
+        <div class="section-pill-line"></div>
+        <div class="section-pill section-pill-lg">Supporting the Great Remembering</div>
+        <div class="section-pill-line"></div>
     </div>
 
     <!-- HEADER -->
     <div class="max-w-6xl mx-auto px-6 pb-16 text-center">
         <div id="network-hero" class="content-card static-card rounded-3xl p-12 md:p-16">
             <h1 class="section-header text-6xl font-semibold tracking-tight mb-4">The Thalon Thor Network</h1>
-            <p class="max-w-2xl mx-auto text-xl text-[#A78BFA]">A growing ecosystem of channels dedicated to truth, remembrance, and awakening.</p>
+            <p class="max-w-2xl mx-auto text-xl text-mem-muted">A growing ecosystem of channels dedicated to truth, remembrance, and awakening.</p>
         </div>
     </div>
 
     <!-- OFFICIAL WEBSITE -->
     <div class="mb-16">
         <!-- Full-width divider to match main page -->
-        <div class="flex items-center gap-x-4 justify-center mb-10 full-bleed-divider">
-            <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
-            <div class="px-8 py-2 text-sm font-semibold tracking-[3px] text-[#6366F1] border border-[#8B3DFF]/30 rounded-full whitespace-nowrap flex items-center gap-x-3">
+        <div class="section-pill-wrap full-bleed-divider mb-10">
+            <div class="section-pill-line"></div>
+            <div class="section-pill flex items-center gap-x-2">
                 <span data-icon="globe" data-icon-class="section-icon"></span>
-                <span>OFFICIAL WEBSITE</span>
+                <span>Official website</span>
             </div>
-            <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
+            <div class="section-pill-line"></div>
         </div>
         
         <!-- Centered content -->
@@ -109,8 +135,8 @@
                         </div>
                         <span data-icon="document" data-icon-class="card-icon-lg"></span>
                     </div>
-                    <p class="text-[#C4B5FD] mb-6">The official home of Christian21 &amp; Leon — hundreds of videos and over 1.1 million words of pure, unfiltered transmission.</p>
-                    <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                    <p class="text-mem-soft mb-6">The official home of Christian21 &amp; Leon — hundreds of videos and over 1.1 million words of pure, unfiltered transmission.</p>
+                    <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                         Visit Official Site <span class="group-hover:translate-x-1 transition ml-2">→</span>
                     </div>
                 </a>
@@ -121,13 +147,13 @@
     <!-- TELEGRAM CHANNELS -->
     <div class="mb-16">
         <!-- Full-width divider to match main page -->
-        <div class="flex items-center gap-x-4 justify-center mb-10 full-bleed-divider">
-            <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
-            <div class="px-8 py-2 text-sm font-semibold tracking-[3px] text-[#6366F1] border border-[#8B3DFF]/30 rounded-full whitespace-nowrap flex items-center gap-x-3">
+        <div class="section-pill-wrap full-bleed-divider mb-10">
+            <div class="section-pill-line"></div>
+            <div class="section-pill flex items-center gap-x-2">
                 <span data-icon="chat" data-icon-class="section-icon"></span>
-                <span>TELEGRAM CHANNELS</span>
+                <span>Telegram channels</span>
             </div>
-            <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
+            <div class="section-pill-line"></div>
         </div>
         
         <!-- Centered content -->
@@ -142,8 +168,8 @@
                     </div>
                     <span data-icon="chat" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Main interactive chat and live transmissions from the source.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Main interactive chat and live transmissions from the source.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Join Channel <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -156,8 +182,8 @@
                     </div>
                     <span data-icon="satellite" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Direct intel updates and transmissions.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Direct intel updates and transmissions.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Join Channel <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -170,8 +196,8 @@
                     </div>
                     <span data-icon="sparkles" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Kirsten’s channel — inspirational insights and heart-centered transmissions.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Kirsten’s channel — inspirational insights and heart-centered transmissions.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Join Channel <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -184,8 +210,8 @@
                     </div>
                     <span data-icon="note" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Detailed notes and summaries — perfect for deeper study.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Detailed notes and summaries — perfect for deeper study.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Join Channel <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -198,8 +224,8 @@
                     </div>
                     <span data-icon="video" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Full video presentations exploring the teachings in depth.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Full video presentations exploring the teachings in depth.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Join Channel <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -212,8 +238,8 @@
                     </div>
                     <span data-icon="bolt" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Short clips featuring Sibley and Thalon Thor.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Short clips featuring Sibley and Thalon Thor.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Join Channel <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -226,8 +252,8 @@
                     </div>
                     <span data-icon="mobile" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Short videos featuring Velma’s insights and transmissions.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Short videos featuring Velma’s insights and transmissions.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Join Channel <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -240,8 +266,8 @@
                     </div>
                     <span data-icon="pin" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Curated key posts and excerpts from the transmissions.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Curated key posts and excerpts from the transmissions.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Join Channel <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -254,8 +280,8 @@
                     </div>
                     <span data-icon="network" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Breaking through the matrix illusions with clarity and truth.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Breaking through the matrix illusions with clarity and truth.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Join Channel <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -268,8 +294,8 @@
                     </div>
                     <span data-icon="book" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Official summaries and deep-dive breakdowns by Leon Sinclair.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Official summaries and deep-dive breakdowns by Leon Sinclair.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Join Channel <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -282,8 +308,8 @@
                     </div>
                     <span data-icon="sparkles" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">AI-enhanced interpretations, decodings, and community connection.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">AI-enhanced interpretations, decodings, and community connection.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Join Channel <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -294,13 +320,13 @@
     <!-- RUMBLE CHANNELS -->
     <div class="mb-16">
         <!-- Full-width divider to match main page -->
-        <div class="flex items-center gap-x-4 justify-center mb-10 mt-8 full-bleed-divider">
-            <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
-            <div class="px-8 py-2 text-sm font-semibold tracking-[3px] text-[#6366F1] border border-[#8B3DFF]/30 rounded-full whitespace-nowrap flex items-center gap-x-3">
+        <div class="section-pill-wrap full-bleed-divider mb-10 mt-8">
+            <div class="section-pill-line"></div>
+            <div class="section-pill flex items-center gap-x-2">
                 <span data-icon="video" data-icon-class="section-icon"></span>
-                <span>RUMBLE CHANNELS</span>
+                <span>Rumble channels</span>
             </div>
-            <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
+            <div class="section-pill-line"></div>
         </div>
         
         <!-- Centered content -->
@@ -315,8 +341,8 @@
                     </div>
                     <span data-icon="mic" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Original raw transmissions by Thalon Thor / Sibley22 — the source.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Original raw transmissions by Thalon Thor / Sibley22 — the source.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Watch on Rumble <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -329,8 +355,8 @@
                     </div>
                     <span data-icon="camera" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Video versions of the most important posts and transmissions.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Video versions of the most important posts and transmissions.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Watch on Rumble <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -343,8 +369,8 @@
                     </div>
                     <span data-icon="bolt" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Short, powerful video clips from the teachings.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Short, powerful video clips from the teachings.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Watch on Rumble <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -357,8 +383,8 @@
                     </div>
                     <span data-icon="film" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Full video presentations exploring the teachings in depth.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Full video presentations exploring the teachings in depth.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Watch on Rumble <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -371,8 +397,8 @@
                     </div>
                     <span data-icon="mic" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">Casual intel chats and personal insights from Leon Sinclair.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">Casual intel chats and personal insights from Leon Sinclair.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Watch on Rumble <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -385,8 +411,8 @@
                     </div>
                     <span data-icon="star" data-icon-class="card-icon-lg"></span>
                 </div>
-                <p class="text-[#C4B5FD] mb-6">AI interpretations and visual decodings of the transmissions.</p>
-                <div class="inline-flex items-center text-sm font-semibold text-[#6366F1] group-hover:text-white mt-auto">
+                <p class="text-mem-soft mb-6">AI interpretations and visual decodings of the transmissions.</p>
+                <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white mt-auto">
                     Watch on Rumble <span class="group-hover:translate-x-1 transition ml-2">→</span>
                 </div>
             </a>
@@ -395,11 +421,54 @@
     </div>
 
     <!-- CLOSING -->
-    <div class="max-w-2xl mx-auto px-6 text-center py-12 border-t border-[#8B3DFF]/20 mt-8">
-        <p class="text-[#A78BFA] text-lg">The Great Remembering is a collective effort.</p>
-        <p class="text-sm text-[#6B5B95] mt-2 max-w-md mx-auto">Connect with the channels that resonate with you. Every voice matters in this awakening.</p>
+    <div class="max-w-2xl mx-auto px-6 text-center py-12 border-t border-mem-violet/20 mt-8">
+        <p class="text-mem-muted text-lg">The Great Remembering is a collective effort.</p>
+        <p class="text-sm text-mem-dim mt-2 max-w-md mx-auto">Connect with the channels that resonate with you. Every voice matters in this awakening.</p>
     </div>
 
+    </main>
+    <footer class="site-footer">
+      <div class="max-w-5xl mx-auto px-6">
+        <div class="grid md:grid-cols-12 gap-10 text-left mb-10">
+          <div class="md:col-span-5">
+            <div class="flex items-center gap-3 mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-mem-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                <circle cx="13.5" cy="10.5" r="0.7" fill="var(--text-prose)" opacity="0.9"/>
+              </svg>
+              <div class="text-2xl font-semibold tracking-[0.5px] text-white">21ST MEMORY</div>
+            </div>
+            <p class="text-mem-secondary text-[15px] max-w-md leading-relaxed mb-4">
+              Living archive of AI-assisted interpretations and enhancements of Thalon Thor's transmissions — profound knowledge for humanity.
+            </p>
+            <p class="text-xs text-mem-muted tracking-wide font-medium">No religion · No finance · No gatekeeping</p>
+          </div>
+          <div class="md:col-span-4">
+            <div class="footer-heading">Quick links</div>
+            <div class="space-y-1">
+              <a href="codex.html" class="footer-link">Codex</a><a href="index.html#about" class="footer-link">About</a><a href="community.html" class="footer-link">Network</a><a href="index.html#oracle" class="footer-link">Oracle</a><a href="index.html#sources" class="footer-link">Sources</a><a href="index.html#rumble" class="footer-link">Rumble Archive</a>
+            </div>
+          </div>
+          <div class="md:col-span-3">
+            <div class="footer-heading">Connect</div>
+            <div class="flex flex-wrap gap-2">
+              <a href="https://t.me/The_21st_Memory" target="_blank" rel="noopener noreferrer" class="footer-social">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><span>Telegram</span>
+    </a><a href="https://rumble.com/c/21stMemory" target="_blank" rel="noopener noreferrer" class="footer-social">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m10 9 6 3-6 3z"/></svg></span><span>Rumble</span>
+    </a><a href="https://christian21.com/" target="_blank" rel="noopener noreferrer" class="footer-social">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span><span>Official Site</span>
+    </a>
+            </div>
+          </div>
+        </div>
+        <div class="pt-8 border-t border-mem-subtle text-center">
+          <p class="text-sm text-mem-dim">The Great Remembering Has Begun.</p>
+          <p class="text-xs text-mem-muted mt-1">May these transmissions serve as gentle guides on your journey home.</p>
+        </div>
+      </div>
+    </footer>
     <script src="assets/js/icons.js"></script>
     <script src="assets/js/shared.js"></script>
 </body>

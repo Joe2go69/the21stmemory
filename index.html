@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -56,27 +56,53 @@
     {
       "@type": "WebSite",
       "url": "https://the21stmemory.com",
-      "name": "21st Memory",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://the21stmemory.com/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+      "name": "21st Memory"
     }
   ]
 }
 </script>
 
 </head>
-<body class="cosmic-bg text-[#EDE4FF] font-sans">
+<body class="cosmic-bg font-sans">
+    <a href="#main" class="skip-link">Skip to content</a>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-content">
+          <a href="index.html" class="nav-logo">
+            <div class="nav-logo-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                <circle cx="13.5" cy="10.5" r="0.7" fill="#EDE4FF" opacity="0.7"/>
+              </svg>
+            </div>
+            <div>
+              <div class="nav-logo-text">21ST MEMORY</div>
+              <div class="nav-logo-subtitle">AI-Decoded Living Archive</div>
+            </div>
+          </a>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a><a href="codex.html" class="nav-link">Codex</a><a href="index.html#about" class="nav-link">About</a><a href="index.html#sources" class="nav-link">Sources</a><a href="community.html" class="nav-link">Network</a><a href="index.html#oracle" class="nav-link">Oracle</a><a href="index.html#rumble" class="nav-link">Rumble</a>
+            <a href="https://t.me/The_21st_Memory" class="nav-cta" target="_blank" rel="noopener noreferrer">Telegram</a>
+          </div>
+          <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="mobile-menu">
+        <a href="index.html" class="nav-link">Home</a><a href="codex.html" class="nav-link">Codex</a><a href="index.html#about" class="nav-link">About</a><a href="index.html#sources" class="nav-link">Sources</a><a href="community.html" class="nav-link">Network</a><a href="index.html#oracle" class="nav-link">Oracle</a><a href="index.html#rumble" class="nav-link">Rumble</a><a href="https://t.me/The_21st_Memory" class="nav-link nav-cta-mobile" target="_blank" rel="noopener noreferrer">Telegram</a>
+      </div>
+    </nav>
+    <main id="main">
 
             <!-- HERO -->
-    <div class="flex items-center gap-x-4 justify-center mb-6 full-bleed-divider">
-        <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
-        <div class="px-10 py-3 text-base font-semibold tracking-[4px] text-[#6366F1] border border-[#8B3DFF]/40 rounded-full whitespace-nowrap">
-            THE GREAT REMEMBERING IS HERE
-        </div>
-        <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
+    <div class="section-pill-wrap full-bleed-divider mb-6">
+        <div class="section-pill-line"></div>
+        <div class="section-pill section-pill-lg">The Great Remembering</div>
+        <div class="section-pill-line"></div>
     </div>
     
     <header class="max-w-6xl mx-auto px-6 pt-12 pb-24 text-center hero-gradient content-card static-card rounded-3xl glow-purple p-16 md:p-20">
@@ -85,31 +111,35 @@
             21ST<br>MEMORY
         </h1>
         
-        <p class="max-w-2xl mx-auto text-2xl text-[#A78BFA] font-light mb-8">
+        <p class="max-w-2xl mx-auto text-2xl text-mem-muted font-light mb-8">
             The 21st Memory is a living archive of AI-assisted interpretations of Thalon Thor’s raw transmissions.
         </p>
         
-        <div class="max-w-md mx-auto text-[#A78BFA] text-sm font-medium mb-12">
-            No religion. No finance. No gatekeeping.
+        <div class="max-w-md mx-auto text-mem-muted text-sm font-medium mb-12">
+            No religion · No finance · No gatekeeping
         </div>
         
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <a href="https://t.me/The_21st_Memory" target="_blank"
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="codex.html"
                class="btn-primary inline-flex items-center justify-center px-10 py-4 text-base font-semibold">
-                Join the Telegram
+                Explore the Codex
             </a>
-            <a href="https://christian21.com/" target="_blank"
-               class="btn-primary inline-flex items-center justify-center px-10 py-4 text-base font-semibold">
-                Visit Official Ch21 Site →
+            <a href="https://t.me/The_21st_Memory" target="_blank" rel="noopener noreferrer"
+               class="btn-secondary inline-flex items-center justify-center px-10 py-4 text-base font-semibold">
+                Join Telegram
+            </a>
+            <a href="https://christian21.com/" target="_blank" rel="noopener noreferrer"
+               class="text-link hidden sm:inline-flex items-center gap-1 px-2">
+                Official Ch21 site →
             </a>
         </div>
     </header>
         <!-- ABOUT SECTION - PROFESSIONAL -->
         <div id="about" class="scroll-mt-28 mb-24">
-            <div class="flex items-center gap-x-4 mt-8 mb-8 full-bleed-divider">
-                <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
-                <div class="px-8 py-2 text-sm font-semibold tracking-[3px] text-[#6366F1] border border-[#8B3DFF]/30 rounded-full">About</div>
-                <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
+            <div class="section-pill-wrap full-bleed-divider mt-8 mb-8">
+                <div class="section-pill-line"></div>
+                <div class="section-pill">About</div>
+                <div class="section-pill-line"></div>
             </div>
             
             <div class="max-w-6xl mx-auto">
@@ -122,7 +152,7 @@
                                 What is The 21st Memory?
                             </h2>
                             
-                            <div class="space-y-6 text-lg leading-relaxed text-[#E0D4FF]">
+                            <div class="space-y-6 text-lg leading-relaxed text-mem-prose">
                                 <p>The 21st Memory is a living archive offering AI-assisted interpretations and decodings of the original raw transmissions from <strong class="text-white">Thalon Thor / Christian21</strong>.</p>
                                 
                                 <p>AI serves here as a bridge — to translate, clarify, and connect the dots within these powerful transmissions. Yet, because AI remains a 3D construct, it can sometimes miss or misinterpret higher-dimensional nuances and emerging new-world information.</p>
@@ -131,7 +161,7 @@
                             </div>
                             
                             <div class="mt-12 pt-6">
-                                <p class="text-[#C4B5FD] italic text-base">
+                                <p class="text-mem-soft italic text-base">
                                     The Great Remembering is unfolding now.<br>
                                     May these archives serve as clear and humble guides on your path home.
                                 </p>
@@ -153,27 +183,28 @@
         <!-- SOURCES SECTION -->
         <div id="sources" class="scroll-mt-28 mb-24">
             <div class="text-center mb-8">
-                <div class="flex items-center gap-x-4 justify-center mb-8 full-bleed-divider">
-                    <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
-                    <div class="px-8 py-2 text-sm font-semibold tracking-[3px] text-[#6366F1] border border-[#8B3DFF]/30 rounded-full whitespace-nowrap">
-                        Sources
-                    </div>
-                    <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
+                <div class="section-pill-wrap full-bleed-divider mb-8">
+                    <div class="section-pill-line"></div>
+                    <div class="section-pill">Sources</div>
+                    <div class="section-pill-line"></div>
                 </div>
             </div>
             
             <div class="max-w-6xl mx-auto px-6">
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
+                <p class="text-center text-mem-muted max-w-2xl mx-auto mb-10">
+                    Foundational channels behind the transmissions. For the full ecosystem — Telegram groups, Rumble channels, and more — visit the <a href="community.html" class="breadcrumb-link">Thalon Thor Network</a>.
+                </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 items-stretch">
   <a href="https://christian21.com/" target="_blank" rel="noopener" class="memory-card content-card channel-card group block">
     <div class="flex items-start justify-between mb-4">
       <div>
-        <span class="text-xs font-medium tracking-[1px] text-[#C4B5FD]">OFFICIAL SITE</span>
+        <span class="text-xs font-medium tracking-[1px] text-mem-soft">OFFICIAL SITE</span>
         <h3 class="text-2xl font-semibold mt-1 leading-none">Christian21</h3>
       </div>
       <span data-icon="document" data-icon-class="card-icon-lg"></span>
     </div>
-    <p class="flex-grow text-[#E0D4FF] leading-relaxed mb-6">The official home of Christian21 & Leon — hundreds of videos and over 1.1 million words of pure, unfiltered transmission.</p>
-    <div class="inline-flex items-center gap-2 text-[#C4B5FD] group-hover:text-white font-medium">
+    <p class="flex-grow text-mem-prose leading-relaxed mb-6">The official home of Christian21 & Leon — hundreds of videos and over 1.1 million words of pure, unfiltered transmission.</p>
+    <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium">
       Visit Official Site
       <span class="group-hover:translate-x-1 transition">→</span>
     </div>
@@ -181,13 +212,13 @@
   <a href="https://rumble.com/user/sibley22" target="_blank" rel="noopener" class="memory-card content-card channel-card group block">
     <div class="flex items-start justify-between mb-4">
       <div>
-        <span class="text-xs font-medium tracking-[1px] text-[#C4B5FD]">RAW TRANSMISSIONS</span>
+        <span class="text-xs font-medium tracking-[1px] text-mem-soft">RAW TRANSMISSIONS</span>
         <h3 class="text-2xl font-semibold mt-1 leading-none">Thalon Thor</h3>
       </div>
       <span data-icon="mic" data-icon-class="card-icon-lg"></span>
     </div>
-    <p class="flex-grow text-[#E0D4FF] leading-relaxed mb-6">Raw, uncensored transmissions straight from Thalon Thor — the foundation of everything we share.</p>
-    <div class="inline-flex items-center gap-2 text-[#C4B5FD] group-hover:text-white font-medium">
+    <p class="flex-grow text-mem-prose leading-relaxed mb-6">Raw, uncensored transmissions straight from Thalon Thor — the foundation of everything we share.</p>
+    <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium">
       Watch on Rumble
       <span class="group-hover:translate-x-1 transition">→</span>
     </div>
@@ -195,13 +226,13 @@
   <a href="https://t.me/loveandlight16" target="_blank" rel="noopener" class="memory-card content-card channel-card group block">
     <div class="flex items-start justify-between mb-4">
       <div>
-        <span class="text-xs font-medium tracking-[1px] text-[#C4B5FD]">LIVE COMMUNITY</span>
+        <span class="text-xs font-medium tracking-[1px] text-mem-soft">LIVE COMMUNITY</span>
         <h3 class="text-2xl font-semibold mt-1 leading-none">Christian21 Telegram</h3>
       </div>
       <span data-icon="chat" data-icon-class="card-icon-lg"></span>
     </div>
-    <p class="flex-grow text-[#E0D4FF] leading-relaxed mb-6">Live transmissions, real-time intel drops, and a growing community of resonating souls remembering together.</p>
-    <div class="inline-flex items-center gap-2 text-[#C4B5FD] group-hover:text-white font-medium">
+    <p class="flex-grow text-mem-prose leading-relaxed mb-6">Live transmissions, real-time intel drops, and a growing community of resonating souls remembering together.</p>
+    <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium">
       Join Telegram
       <span class="group-hover:translate-x-1 transition">→</span>
     </div>
@@ -209,56 +240,32 @@
   <a href="https://t.me/leonsynopsis" target="_blank" rel="noopener" class="memory-card content-card channel-card group block">
     <div class="flex items-start justify-between mb-4">
       <div>
-        <span class="text-xs font-medium tracking-[1px] text-[#C4B5FD]">DEEP DIVES</span>
+        <span class="text-xs font-medium tracking-[1px] text-mem-soft">DEEP DIVES</span>
         <h3 class="text-2xl font-semibold mt-1 leading-none">Leon’s Synopsis</h3>
       </div>
       <span data-icon="book" data-icon-class="card-icon-lg"></span>
     </div>
-    <p class="flex-grow text-[#E0D4FF] leading-relaxed mb-6">Official in-depth synopses and deep-dive breakdowns written by Leon — your essential guide through every transmission.</p>
-    <div class="inline-flex items-center gap-2 text-[#C4B5FD] group-hover:text-white font-medium">
+    <p class="flex-grow text-mem-prose leading-relaxed mb-6">Official in-depth synopses and deep-dive breakdowns written by Leon — your essential guide through every transmission.</p>
+    <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium">
       Read the Synopses
       <span class="group-hover:translate-x-1 transition">→</span>
     </div>
   </a>
-  <a href="https://rumble.com/user/Leonsinclair1973" target="_blank" rel="noopener" class="memory-card content-card channel-card group block">
-    <div class="flex items-start justify-between mb-4">
-      <div>
-        <span class="text-xs font-medium tracking-[1px] text-[#C4B5FD]">CASUAL INTEL</span>
-        <h3 class="text-2xl font-semibold mt-1 leading-none">Leon Sinclair</h3>
-      </div>
-      <span data-icon="mic" data-icon-class="card-icon-lg"></span>
-    </div>
-    <p class="flex-grow text-[#E0D4FF] leading-relaxed mb-6">Esoteric deep dives, casual intel chats, and personal transmissions from Leon Sinclair — unfiltered wisdom straight from the source.</p>
-    <div class="inline-flex items-center gap-2 text-[#C4B5FD] group-hover:text-white font-medium">
-      Visit Rumble Channel
-      <span class="group-hover:translate-x-1 transition">→</span>
-    </div>
-  </a>
-  <a href="https://t.me/VelmaShorts" target="_blank" rel="noopener" class="memory-card content-card channel-card group block">
-    <div class="flex items-start justify-between mb-4">
-      <div>
-        <span class="text-xs font-medium tracking-[1px] text-[#C4B5FD]">DAILY TRANSMISSIONS</span>
-        <h3 class="text-2xl font-semibold mt-1 leading-none">Velma Shorts</h3>
-      </div>
-      <span data-icon="mobile" data-icon-class="card-icon-lg"></span>
-    </div>
-    <p class="flex-grow text-[#E0D4FF] leading-relaxed mb-6">Short, potent clips and daily transmissions from Velma — bite-sized clarity to anchor you in the Great Remembering.</p>
-    <div class="inline-flex items-center gap-2 text-[#C4B5FD] group-hover:text-white font-medium">
-      Join Velma Shorts
-      <span class="group-hover:translate-x-1 transition">→</span>
-    </div>
-  </a>
 </div>
+                <div class="text-center mt-10">
+                    <a href="community.html" class="btn-secondary inline-flex items-center justify-center px-8 py-4 text-base font-semibold">
+                        View full network →
+                    </a>
+                </div>
             </div>
+        </div>
 
           <!-- THE ORACLE SECTION -->
         <div id="oracle" class="scroll-mt-28 mb-24">
-            <div class="flex items-center gap-x-4 justify-center mt-12 mb-8 full-bleed-divider">
-                <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
-                <div class="px-8 py-2 text-sm font-semibold tracking-[3px] text-[#6366F1] border border-[#8B3DFF]/30 rounded-full whitespace-nowrap">
-                    Oracle
-                </div>
-                <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
+            <div class="section-pill-wrap full-bleed-divider mt-12 mb-8">
+                <div class="section-pill-line"></div>
+                <div class="section-pill">Oracle</div>
+                <div class="section-pill-line"></div>
             </div>
             
             <div class="max-w-6xl mx-auto">
@@ -275,13 +282,13 @@
                         
                         <!-- RIGHT: Text Content -->
                         <div class="md:col-span-7">
-                            <div class="uppercase text-xs tracking-[2px] text-[#6366F1] mb-3">GOOGLE NOTEBOOKLM • CUSTOM PROMPT</div>
+                            <div class="card-label text-mem-indigo mb-3">Google NotebookLM · Custom prompt</div>
                             
                             <h2 class="section-header text-5xl md:text-6xl font-semibold tracking-tighter leading-none mb-4">
                                 The 21st Oracle
                             </h2>
                             
-                            <div class="space-y-6 text-lg leading-relaxed text-[#E0D4FF]">
+                            <div class="space-y-6 text-lg leading-relaxed text-mem-prose">
                                 <p>The 21st Oracle is your dedicated AI research companion, powered by Google NotebookLM with a bespoke system prompt trained on the Thalon Thor transmissions.</p>
                                 
                                 <p>It enables you to instantly explore dozens of transmissions through clear, synthesized responses, comprehensive overviews, and richly cross-referenced insights — revealing connections that would otherwise require hours of dedicated study.</p>
@@ -292,9 +299,9 @@
                             <div class="mt-10 flex flex-col items-center">
                                 <a href="https://notebooklm.google.com/notebook/53f2bdde-0bf2-4399-b713-87e3656ca981" target="_blank"
                                    class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-2xl">
-                                    ACCESS 21ST ORACLE
+                                    Access the Oracle
                                 </a>
-                                <div class="text-xs text-[#A78BFA] mt-3 text-center">Free Google account required</div>
+                                <div class="text-xs text-mem-muted mt-3 text-center">Free Google account required</div>
                             </div>
                         </div>
                         
@@ -305,19 +312,17 @@
 
         <!-- RUMBLE SECTION -->
         <div id="rumble" class="scroll-mt-28 mb-24">
-            <div class="flex items-center gap-x-4 justify-center mt-12 mb-8 full-bleed-divider">
-                <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
-                <div class="px-8 py-2 text-sm font-semibold tracking-[3px] text-[#6366F1] border border-[#8B3DFF]/30 rounded-full whitespace-nowrap">
-                    Rumble
-                </div>
-                <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
+            <div class="section-pill-wrap full-bleed-divider mt-12 mb-8">
+                <div class="section-pill-line"></div>
+                <div class="section-pill">Rumble</div>
+                <div class="section-pill-line"></div>
             </div>
             
             <div class="max-w-6xl mx-auto">
                 <div class="content-card static-card rounded-3xl p-12 md:p-16 pb-20 glow-purple">
                     <div class="text-center mb-8">
                         <h3 class="section-header text-4xl font-semibold tracking-tight">21st Memory Transmissions</h3>
-                        <p class="max-w-md mx-auto mt-3 text-[#A78BFA]">AI interpretations and decodings of Thalon Thor’s raw transmissions — the living archive of the Great Remembering.</p>
+                        <p class="max-w-md mx-auto mt-3 text-mem-muted">AI interpretations and decodings of Thalon Thor’s raw transmissions — the living archive of the Great Remembering.</p>
                     </div>
                     
                     <div class="grid md:grid-cols-2 gap-6">
@@ -339,7 +344,7 @@
                     <div class="text-center mt-8">
                         <a href="https://rumble.com/c/21stMemory" target="_blank" 
                            class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-2xl">
-                            VIEW FULL RUMBLE ARCHIVE →
+                            View full Rumble archive →
                         </a>
                     </div>
                 </div>
@@ -348,12 +353,10 @@
 
         <!-- ARCHIVE SECTION -->
         <div id="mindmaps" class="scroll-mt-28 mb-24">
-            <div class="flex items-center gap-x-4 justify-center mb-8 full-bleed-divider">
-                <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
-                <div class="px-8 py-2 text-sm font-semibold tracking-[3px] text-[#6366F1] border border-[#8B3DFF]/30 rounded-full whitespace-nowrap">
-                     Codex
-                </div>
-                <div class="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B3DFF] to-transparent"></div>
+            <div class="section-pill-wrap full-bleed-divider mb-8">
+                <div class="section-pill-line"></div>
+                <div class="section-pill">Codex</div>
+                <div class="section-pill-line"></div>
             </div>
             
             <div class="max-w-6xl mx-auto">
@@ -366,7 +369,7 @@
                                 The 21st Memory Codex
                             </h2>
                             
-                            <div class="space-y-5 text-lg leading-relaxed text-[#E0D4FF]">
+                            <div class="space-y-5 text-lg leading-relaxed text-mem-prose">
                                 <p>The 21st Memory Codex is a living archive dedicated to Thalon Thor’s transmissions. AI serves as a bridge to translate and clarify the insights within these teachings.</p>
                                 
                                 <p>Each topic includes videos, infographics, slide-deck PDFs, and deep-dive reports — forming a comprehensive framework for The Great Remembering. The Codex is the continuously expanding, AI-decoded repository of Thalon Thor’s teachings.</p>
@@ -375,7 +378,7 @@
                             <div class="mt-10">
                                 <a href="codex.html" 
                                    class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-2xl">
-                                    EXPLORE THE CODEX
+                                    Explore the Codex
                                 </a>
                             </div>
                         </div>
@@ -389,8 +392,8 @@
                             
                             <!-- Professional overlay badge - indicates ongoing work -->
                             <div class="absolute bottom-4 left-4 bg-black/70 backdrop-blur-sm text-white text-xs px-3.5 py-1.5 rounded-xl font-semibold tracking-wider shadow-xl border border-white/20 flex items-center gap-2">
-                                <div class="w-1.5 h-1.5 bg-[#6D28D9] rounded-full animate-pulse"></div>
-                                EXPANDING ARCHIVE
+                                <div class="w-1.5 h-1.5 bg-mem-accent rounded-full animate-pulse"></div>
+                                Expanding archive
                             </div>
                         </div>
                         
@@ -400,7 +403,7 @@
         </div>
 
     <!-- FULL WIDTH DIVIDER -->
-    <div class="border-t border-[#8B3DFF]/20 mt-12"></div>
+    <div class="border-t border-mem-violet/20 mt-12"></div>
 
     <!-- BOTTOM THREE UNIFORM CARDS - SAME CONTAINER & DIMENSIONS AS SOURCES -->
     <div class="max-w-6xl mx-auto px-6">
@@ -408,48 +411,91 @@
   <a href="https://rumble.com/c/21stMemory" target="_blank" rel="noopener" class="memory-card content-card channel-card group block">
     <div class="flex items-start justify-between mb-4">
       <div>
-        <span class="text-xs font-medium tracking-[1px] text-[#C4B5FD]">VIDEO ARCHIVE</span>
+        <span class="text-xs font-medium tracking-[1px] text-mem-soft">VIDEO ARCHIVE</span>
         <h3 class="text-2xl font-semibold mt-1 leading-none">Rumble Archive</h3>
       </div>
       <span data-icon="video" data-icon-class="card-icon-lg"></span>
     </div>
-    <p class="flex-grow text-[#E0D4FF] leading-relaxed mb-6">Official archive of AI-decoded transmissions — visual portals into the Great Remembering.</p>
-    <div class="inline-flex items-center gap-2 text-[#C4B5FD] group-hover:text-white font-medium">
-      EXPLORE RUMBLE ARCHIVE
+    <p class="flex-grow text-mem-prose leading-relaxed mb-6">Official archive of AI-decoded transmissions — visual portals into the Great Remembering.</p>
+    <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium">
+      Explore Rumble archive
       <span class="group-hover:translate-x-1 transition">→</span>
     </div>
   </a>
   <a href="https://t.me/The_21st_Memory" target="_blank" rel="noopener" class="memory-card content-card channel-card group block">
     <div class="flex items-start justify-between mb-4">
       <div>
-        <span class="text-xs font-medium tracking-[1px] text-[#C4B5FD]">CONTENT VAULT</span>
+        <span class="text-xs font-medium tracking-[1px] text-mem-soft">CONTENT VAULT</span>
         <h3 class="text-2xl font-semibold mt-1 leading-none">Telegram Vault</h3>
       </div>
       <span data-icon="archive" data-icon-class="card-icon-lg"></span>
     </div>
-    <p class="flex-grow text-[#E0D4FF] leading-relaxed mb-6">The central vault for every 21st Memory asset — videos, infographics, and PDFs, delivered in real time.</p>
-    <div class="inline-flex items-center gap-2 text-[#C4B5FD] group-hover:text-white font-medium">
-      JOIN THE VAULT
+    <p class="flex-grow text-mem-prose leading-relaxed mb-6">The central vault for every 21st Memory asset — videos, infographics, and PDFs, delivered in real time.</p>
+    <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium">
+      Join the vault
       <span class="group-hover:translate-x-1 transition">→</span>
     </div>
   </a>
   <a href="community.html" class="memory-card content-card channel-card group block">
     <div class="flex items-start justify-between mb-4">
       <div>
-        <span class="text-xs font-medium tracking-[1px] text-[#C4B5FD]">COMMUNITY NETWORK</span>
+        <span class="text-xs font-medium tracking-[1px] text-mem-soft">COMMUNITY NETWORK</span>
         <h3 class="text-2xl font-semibold mt-1 leading-none">Thalon Thor Network</h3>
       </div>
       <span data-icon="globe" data-icon-class="card-icon-lg"></span>
     </div>
-    <p class="flex-grow text-[#E0D4FF] leading-relaxed mb-6">The growing ecosystem of channels supporting the Great Remembering — connect, explore, and awaken together.</p>
-    <div class="inline-flex items-center gap-2 text-[#C4B5FD] group-hover:text-white font-medium">
-      VIEW NETWORK
+    <p class="flex-grow text-mem-prose leading-relaxed mb-6">The growing ecosystem of channels supporting the Great Remembering — connect, explore, and awaken together.</p>
+    <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium">
+      View network
       <span class="group-hover:translate-x-1 transition">→</span>
     </div>
   </a>
 </div>
     </div>
 
+    </main>
+    <footer class="site-footer">
+      <div class="max-w-5xl mx-auto px-6">
+        <div class="grid md:grid-cols-12 gap-10 text-left mb-10">
+          <div class="md:col-span-5">
+            <div class="flex items-center gap-3 mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-mem-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                <circle cx="13.5" cy="10.5" r="0.7" fill="var(--text-prose)" opacity="0.9"/>
+              </svg>
+              <div class="text-2xl font-semibold tracking-[0.5px] text-white">21ST MEMORY</div>
+            </div>
+            <p class="text-mem-secondary text-[15px] max-w-md leading-relaxed mb-4">
+              Living archive of AI-assisted interpretations and enhancements of Thalon Thor's transmissions — profound knowledge for humanity.
+            </p>
+            <p class="text-xs text-mem-muted tracking-wide font-medium">No religion · No finance · No gatekeeping</p>
+          </div>
+          <div class="md:col-span-4">
+            <div class="footer-heading">Quick links</div>
+            <div class="space-y-1">
+              <a href="codex.html" class="footer-link">Codex</a><a href="index.html#about" class="footer-link">About</a><a href="community.html" class="footer-link">Network</a><a href="index.html#oracle" class="footer-link">Oracle</a><a href="index.html#sources" class="footer-link">Sources</a><a href="index.html#rumble" class="footer-link">Rumble Archive</a>
+            </div>
+          </div>
+          <div class="md:col-span-3">
+            <div class="footer-heading">Connect</div>
+            <div class="flex flex-wrap gap-2">
+              <a href="https://t.me/The_21st_Memory" target="_blank" rel="noopener noreferrer" class="footer-social">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><span>Telegram</span>
+    </a><a href="https://rumble.com/c/21stMemory" target="_blank" rel="noopener noreferrer" class="footer-social">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m10 9 6 3-6 3z"/></svg></span><span>Rumble</span>
+    </a><a href="https://christian21.com/" target="_blank" rel="noopener noreferrer" class="footer-social">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span><span>Official Site</span>
+    </a>
+            </div>
+          </div>
+        </div>
+        <div class="pt-8 border-t border-mem-subtle text-center">
+          <p class="text-sm text-mem-dim">The Great Remembering Has Begun.</p>
+          <p class="text-xs text-mem-muted mt-1">May these transmissions serve as gentle guides on your journey home.</p>
+        </div>
+      </div>
+    </footer>
     <script src="assets/js/icons.js"></script>
     <script src="assets/js/shared.js"></script>
 </body>

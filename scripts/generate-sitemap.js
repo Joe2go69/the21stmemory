@@ -27,7 +27,6 @@ const entries = [
   { path: '/community.html', priority: '0.9', changefreq: 'monthly' },
   { path: '/codex.html', priority: '0.95', changefreq: 'weekly' },
   { path: '/topics.html', priority: '0.9', changefreq: 'weekly' },
-  { path: '/404.html', priority: '0.1', changefreq: 'yearly' },
 ];
 
 const sourcesPath = path.join(ROOT, 'data', 'sources.json');

@@ -1,10 +1,10 @@
-// Topics page — source viewer with filtering, sorting, and progress
+﻿// Topics page — source viewer with filtering, sorting, and progress
 
 let topicsPageState = {
   sourceId: 'alice',
   data: null,
   stats: { live: 0, total: 0 },
-  filters: { status: 'all', category: 'all' }
+  filters: { status: 'all', category: 'all', search: '' }
 };
 
 function shouldShowTopic(item, statusFilter) {
@@ -43,7 +43,7 @@ function renderSubtopic(sourceId, sub) {
       <a href="deep-dive.html?source=${sourceId}&topic=${sub.id}" class="${toggleClasses}">
         <span class="chevron">▸</span>
         <span class="flex-1">${sub.title}${subBadge}</span>
-        <span class="text-xs px-3 py-1 bg-white/10 rounded-full text-[#A78BFA]">${visibleLeaves.length} topics</span>
+        <span class="text-xs px-3 py-1 bg-white/10 rounded-full text-mem-muted">${visibleLeaves.length} topics</span>
       </a>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 pl-14 mb-8">
         ${leavesHTML}
@@ -83,7 +83,7 @@ function renderCategoryBlock(sourceId, category) {
   if (category.subtopics?.length) {
     subsHTML = category.subtopics.map(sub => renderSubtopic(sourceId, sub)).join('');
     if (subsHTML) {
-      subsHTML = `<div class="pl-4 md:pl-8 border-l-2 border-[#8B3DFF]/20">${subsHTML}</div>`;
+      subsHTML = `<div class="pl-4 md:pl-8 border-l-2 border-mem-violet/20">${subsHTML}</div>`;
     }
   }
 
@@ -97,23 +97,23 @@ function renderCategoryBlock(sourceId, category) {
            class="${rootClasses}"
            ${isPh ? 'tabindex="-1" aria-disabled="true"' : ''}>
           <div class="flex items-center gap-5">
-            <div class="root-icon flex-shrink-0 overflow-hidden border-2 border-[#6D28D9]/60 shadow-[0_10px_30px_rgba(109,40,217,0.35)]">
+            <div class="root-icon flex-shrink-0 overflow-hidden border-2 border-mem-accent/60 shadow-[0_10px_30px_rgba(109,40,217,0.35)]">
               ${category.topic_image
-                ? `<img src="${category.topic_image}" alt="${category.title} visual" class="w-full h-full object-cover" loading="lazy" onerror="this.outerHTML='<div class=\\'flex items-center justify-center h-full text-[#6D28D9] text-xs font-mono tracking-[2px] opacity-70\\'>TOPIC</div>'">`
-                : '<div class="flex items-center justify-center h-full text-[#6D28D9] text-xs font-mono tracking-[2px] opacity-70">TOPIC</div>'
+                ? `<img src="${category.topic_image}" alt="${category.title} visual" class="w-full h-full object-cover" loading="lazy" onerror="this.outerHTML='<div class=\\'flex items-center justify-center h-full text-mem-accent text-xs font-mono tracking-[2px] opacity-70\\'>TOPIC</div>'">`
+                : '<div class="flex items-center justify-center h-full text-mem-accent text-xs font-mono tracking-[2px] opacity-70">TOPIC</div>'
               }
             </div>
             <div class="flex-1 min-w-0">
               <div class="flex items-start justify-between gap-3 mb-2.5">
-                <h3 class="text-3xl md:text-[2.05rem] font-semibold tracking-tighter text-white group-hover:text-[#6366F1] transition-colors leading-tight">${category.title}</h3>
-                <div class="text-[10px] px-2.5 py-1 bg-white/10 rounded-full text-[#A78BFA] font-mono tracking-[0.5px] whitespace-nowrap self-start mt-1">${subCount} CATEGORIES</div>
+                <h3 class="text-3xl md:text-[2.05rem] font-semibold tracking-tighter text-white group-hover:text-mem-indigo transition-colors leading-tight">${category.title}</h3>
+                <div class="text-[10px] px-2.5 py-1 bg-white/10 rounded-full text-mem-muted font-mono tracking-[0.5px] whitespace-nowrap self-start mt-1">${subCount} CATEGORIES</div>
               </div>
-              <p class="text-[#C4B5FD] text-[14.5px] leading-relaxed pr-1">${category.description || ''}</p>
+              <p class="text-mem-soft text-[14.5px] leading-relaxed pr-1">${category.description || ''}</p>
             </div>
           </div>
           <div class="mt-auto pt-5">
             <div class="explore-badge inline-flex items-center justify-center gap-2 text-xs font-bold tracking-[1.5px] w-full">
-              EXPLORE THIS REALM <span class="text-lg leading-none">→</span>
+              Explore this realm <span class="text-lg leading-none">→</span>
             </div>
           </div>
           <div class="absolute inset-0 bg-gradient-to-br from-[#6366F1]/5 to-transparent rounded-3xl pointer-events-none"></div>
@@ -125,10 +125,64 @@ function renderCategoryBlock(sourceId, category) {
   `;
 }
 
+function renderTopicsSearchResults() {
+  const { data, sourceId, filters } = topicsPageState;
+  const container = document.getElementById('topics-list');
+  if (!container || !data) return;
+
+  const flat = TopicUtils.flattenTopicTree(data.topics, {
+    sourceId,
+    sourceTitle: data.title
+  });
+
+  let matches = flat.filter(entry => TopicUtils.matchesSearch(entry, filters.search));
+  matches = TopicUtils.filterEntriesByStatus(matches, filters.status);
+
+  if (!matches.length) {
+    container.innerHTML = `
+      <div class="text-center py-16 codex-empty-state">
+        <div class="text-lg font-semibold mb-2">No topics found</div>
+        <p class="text-mem-muted">Try another keyword or adjust your status filter.</p>
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = `
+    <div class="codex-topic-results-grid">
+      ${matches.map(entry => {
+        const path = entry.pathTitles.length > 1
+          ? entry.pathTitles.slice(0, -1).join(' › ')
+          : data.title;
+        const statusBadge = entry.is_placeholder
+          ? '<span class="codex-meta-pill codex-meta-pill--soon">Coming soon</span>'
+          : '<span class="codex-meta-pill">Ready</span>';
+        return `
+          <a href="${entry.href}" class="codex-topic-result channel-card group">
+            <div class="codex-topic-result-top">
+              <div>
+                <h3 class="text-lg font-semibold text-white group-hover:text-mem-indigo transition-colors">${entry.title}</h3>
+              </div>
+              ${statusBadge}
+            </div>
+            <p class="text-sm text-mem-muted mt-2 line-clamp-2">${entry.description || path}</p>
+            <div class="text-xs text-mem-soft mt-3">${path}</div>
+          </a>
+        `;
+      }).join('')}
+    </div>
+  `;
+}
+
 function renderTopicsList() {
   const { data, sourceId, filters } = topicsPageState;
   const container = document.getElementById('topics-list');
   if (!container || !data) return;
+
+  if (TopicUtils.normalizeSearch(filters.search)) {
+    renderTopicsSearchResults();
+    return;
+  }
 
   let categories = data.topics;
   if (filters.category !== 'all') {
@@ -136,7 +190,7 @@ function renderTopicsList() {
   }
   let html = categories.map(cat => renderCategoryBlock(sourceId, cat)).join('');
   if (!html.trim()) {
-    html = `<div class="text-center py-16 text-[#A78BFA]">No topics match the current filter. Try a different view.</div>`;
+    html = `<div class="text-center py-16 text-mem-muted">No topics match the current filter. Try a different view.</div>`;
   }
   container.innerHTML = html;
 }
@@ -173,7 +227,7 @@ function renderFilterControls() {
       <div class="topics-filter-header">
         <div>
           <div class="topics-filter-title">Browse the Archive</div>
-          <p class="topics-filter-subtitle">Filter by availability or jump to a category</p>
+          <p class="topics-filter-subtitle">Search topics or filter by availability and category</p>
         </div>
         <div class="topics-filter-summary">
           <span class="topics-filter-stat"><strong>${stats.live}</strong> ready</span>
@@ -181,18 +235,38 @@ function renderFilterControls() {
           <span class="topics-filter-stat"><strong>${soonCount}</strong> coming soon</span>
         </div>
       </div>
+      <div class="codex-search-row mb-4">
+        <label class="codex-search-field" for="topics-search-input">
+          <span class="codex-search-icon" aria-hidden="true">⌕</span>
+          <input
+            id="topics-search-input"
+            type="search"
+            class="codex-search-input"
+            placeholder="Search topics in this transmission…"
+            value="${filters.search.replace(/"/g, '&quot;')}"
+            autocomplete="off"
+            spellcheck="false"
+          >
+        </label>
+      </div>
       <div class="topics-filter-toolbar">
         <div class="topics-filter-section topics-filter-section--status">
           <span class="topics-filter-label">Status</span>
           <div class="topics-filter-btn-group">${statusButtons}</div>
         </div>
-        <div class="topics-filter-section topics-filter-section--category">
+        <div class="topics-filter-section topics-filter-section--category ${TopicUtils.normalizeSearch(filters.search) ? 'opacity-50 pointer-events-none' : ''}">
           <span class="topics-filter-label">Category</span>
           <div class="topics-filter-btn-group topics-filter-btn-group--scroll">${categoryButtons}</div>
         </div>
       </div>
     </div>
   `;
+
+  const searchInput = controls.querySelector('#topics-search-input');
+  searchInput?.addEventListener('input', (event) => {
+    topicsPageState.filters.search = event.target.value;
+    renderTopicsList();
+  });
 
   controls.querySelectorAll('[data-filter-status]').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -212,38 +286,41 @@ function renderFilterControls() {
 }
 
 function renderSourceHeader(data, sourceId, stats) {
+  const breadcrumbs = TopicUtils.renderSourceBreadcrumbs({ sourceTitle: data.title });
+
   document.getElementById('source-header').innerHTML = `
+    ${breadcrumbs}
     <div class="grid md:grid-cols-12 gap-12 items-start">
       <div class="md:col-span-7 flex flex-col h-full">
         <div class="source-text-block">
-          <div class="inline-flex items-center px-4 py-1 rounded-full bg-[#8B3DFF]/10 text-[#6366F1] text-xs font-semibold tracking-[2px] mb-4">
-            CODEX ARCHIVE • ${stats.live} OF ${stats.total} TOPICS LIVE
+          <div class="inline-flex items-center px-4 py-1 rounded-full bg-mem-violet/10 text-mem-indigo text-xs font-semibold tracking-wide mb-4">
+            Codex archive · ${stats.live} of ${stats.total} topics live
           </div>
           <h1 class="text-5xl md:text-6xl font-semibold tracking-tighter leading-none">${data.title}</h1>
-          <p class="text-2xl text-[#A78BFA] mt-3">${data.subtitle}</p>
+          <p class="text-2xl text-mem-muted mt-3">${data.subtitle}</p>
           <div class="mt-4">
             <div class="archive-progress-bar" role="progressbar" aria-valuenow="${stats.live}" aria-valuemin="0" aria-valuemax="${stats.total}" aria-label="Archive progress">
               <div class="archive-progress-fill" style="width: ${stats.total ? Math.round((stats.live / stats.total) * 100) : 0}%"></div>
             </div>
-            <p class="text-sm text-[#A78BFA] mt-2">${stats.live} of ${stats.total} topics available now • ${stats.total - stats.live} coming soon</p>
+            <p class="text-sm text-mem-muted mt-2">${stats.live} of ${stats.total} topics available now • ${stats.total - stats.live} coming soon</p>
           </div>
-          <div class="text-lg leading-relaxed text-[#C4B5FD] mt-6">
+          <div class="text-lg leading-relaxed text-mem-soft mt-6">
             ${data.description.split('\n\n').map(p => `<p class="mb-4 last:mb-0">${p}</p>`).join('')}
           </div>
         </div>
         <div class="flex flex-wrap gap-4 mt-auto pt-10">
-          <a href="#explore-topics" class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold">↓ EXPLORE TOPICS</a>
-          <a href="codex.html#codex-pill" class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold">← BACK TO CODEX</a>
+          <a href="#explore-topics" class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold">Explore topics ↓</a>
+          <a href="codex.html" class="btn-secondary inline-flex items-center justify-center px-8 py-4 text-base font-semibold">← Back to Codex</a>
         </div>
       </div>
       <div class="md:col-span-5 flex flex-col h-full">
         <img src="${data.image}" alt="${data.title}"
-             class="rounded-3xl shadow-2xl w-full max-w-md md:max-w-sm border border-[#8B3DFF]/20"
+             class="rounded-3xl shadow-2xl w-full max-w-md md:max-w-sm border border-mem-violet/20"
              width="600" height="400" loading="eager">
         <div class="mt-auto pt-6">
           <a href="${data.pdf_url}" target="_blank"
              class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold w-full max-w-[260px]">
-            ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} VIEW ORIGINAL PDF
+            ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} View original PDF
           </a>
         </div>
       </div>
@@ -278,7 +355,7 @@ async function loadSourceViewer() {
       <div id="topics-controls"></div>
       <div class="flex items-center justify-between mb-10">
         <h2 class="text-4xl font-semibold tracking-tight">Topics by Category</h2>
-        <div class="hidden md:block text-xs px-4 py-1.5 bg-[#8B3DFF]/10 text-[#A78BFA] rounded-full tracking-[2px]">CLICK ANY CARD OR BUTTON TO DIVE DEEP</div>
+        <div class="hidden md:block text-xs px-4 py-1.5 bg-mem-violet/10 text-mem-muted rounded-full tracking-wide">Click any card to dive deep</div>
       </div>
       <div id="topics-list"></div>
     `;
@@ -294,8 +371,8 @@ async function loadSourceViewer() {
     container.innerHTML = `
       <div class="text-center py-20">
         <div class="text-red-400 text-xl mb-4">❌ Could not load topics data</div>
-        <p class="text-[#C4B5FD] max-w-md mx-auto">${e.message}</p>
-        <p class="text-sm mt-8 text-[#A78BFA]">Check the browser console (F12) for more details.<br>
+        <p class="text-mem-soft max-w-md mx-auto">${e.message}</p>
+        <p class="text-sm mt-8 text-mem-muted">Check the browser console (F12) for more details.<br>
         Make sure <strong>data/${sourceId}-topics.json</strong> exists and is valid JSON.</p>
       </div>`;
   }
