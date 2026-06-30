@@ -433,8 +433,8 @@
               "id": "non-player-characters",
               "title": "Non-Player Characters",
               "description": "Exploration of non-player characters.",
-              "topic_image": "images/PLACEHOLDER.webp",
-              "is_placeholder": true
+              "topic_image": "images/alice/Non-Player Characters.webp",
+              "is_placeholder": false
             },
             {
               "id": "97-percent-population",
