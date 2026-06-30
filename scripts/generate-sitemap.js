@@ -39,7 +39,7 @@ for (const source of sourcesData.sources) {
     changefreq: 'weekly',
   });
 
-  const topicsPath = path.join(ROOT, 'data', `${source.id}-topics.json`);
+  const topicsPath = path.join(ROOT, 'data', `${source.id}-topics-index.json`);
   const topicsData = JSON.parse(fs.readFileSync(topicsPath, 'utf8'));
   const topicIds = collectTopicIds(topicsData.topics);
 

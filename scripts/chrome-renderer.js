@@ -77,6 +77,21 @@ function renderFooter(footerData) {
       }).join('')
     : '';
 
+  const supportHTML = footerData.support
+    ? `<div class="footer-support">
+            <img src="${footerData.support.qrImage}" alt="${footerData.support.qrAlt}" class="footer-support-qr" width="140" height="140" loading="lazy" />
+            <div class="footer-support-content">
+              <div class="footer-heading">${footerData.support.heading}</div>
+              <p class="footer-support-message">${footerData.support.message}</p>
+              <div class="footer-support-address-wrap">
+                <span class="footer-support-label">Bitcoin</span>
+                <code class="footer-support-address" id="btc-address">${footerData.support.bitcoinAddress}</code>
+                <button type="button" class="footer-support-copy" data-copy-target="btc-address" aria-label="Copy Bitcoin address">Copy</button>
+              </div>
+            </div>
+          </div>`
+    : '';
+
   return `<footer class="site-footer">
       <div class="max-w-5xl mx-auto px-6">
         <div class="grid md:grid-cols-12 gap-10 text-left mb-10">
@@ -107,6 +122,7 @@ function renderFooter(footerData) {
             </div>
           </div>
         </div>
+        ${supportHTML}
         <div class="pt-8 border-t border-mem-subtle text-center">
           <p class="text-sm text-mem-dim">${footerData.tagline}</p>
           <p class="text-xs text-mem-muted mt-1">${footerData.subtitle}</p>

@@ -99,25 +99,11 @@
     </nav>
     <main id="main">
 
-    <!-- HERO BANNER - Matches serious professional purple depth of index.html -->
-    <div class="hero-gradient border-b border-mem-subtle py-8 mb-6">
-        <div class="max-w-6xl mx-auto px-6 text-center">
-            <div class="inline-flex items-center gap-3 px-6 py-1.5 rounded-full bg-mem-card border border-mem-accent/40 text-xs tracking-wide text-mem-muted">
-                21st Memory Archive · Deep dive transmission
-            </div>
-            <p class="mt-4 text-4xl md:text-5xl font-semibold tracking-tighter text-white">The Great Clarifying</p>
-            <p class="mt-3 text-mem-secondary max-w-md mx-auto text-[15px]">AI-decoded insights from Thalon Thor’s transmissions — for those ready to remember.</p>
-        </div>
-    </div>
-
     <!-- MAIN CONTENT -->
-    <div class="max-w-6xl mx-auto px-6 pt-4">
-        
-        <!-- Dynamic Header -->
-        <div id="lesson-header" class="content-card static-card rounded-3xl p-8 md:p-12 mb-12">
+    <div class="max-w-6xl mx-auto px-6 pt-8 pb-4">
+        <div id="lesson-header" class="mb-12">
             <!-- Populated by JS -->
         </div>
-
     </div>
 
     <!-- INFOGRAPHICS • SLIDE DECKS PILL - FULL WIDTH LINES EXTENDING EDGE TO EDGE -->
@@ -135,7 +121,7 @@
             <div class="md:col-span-6">
                 <div class="channel-card rounded-3xl p-4 h-full flex flex-col border border-mem-subtle">
                     <!-- Infographic - big, clean, clickable to download full image -->
-                    <div id="infographic-container" class="flex-1 flex items-center justify-center bg-[#0A051F] rounded-2xl overflow-hidden border border-mem-violet/20 min-h-[420px]">
+                    <div id="infographic-container" class="flex-1 flex items-center justify-center bg-[#0A051F] rounded-2xl overflow-hidden border border-mem-violet/20 min-h-[240px] md:min-h-[420px]">
                         <!-- Populated by JS (wrapped in <a download> for one-click save) -->
                     </div>
                 </div>
@@ -146,7 +132,7 @@
                 <div class="channel-card rounded-3xl p-8 h-full flex flex-col border border-mem-subtle">
                     
                     <!-- DYNAMIC PDF PREVIEW -->
-                    <div id="pdf-preview-container" class="flex-1 flex items-center justify-center bg-[#0A051F] rounded-2xl border border-mem-violet/20 mb-6 min-h-[260px] overflow-hidden">
+                    <div id="pdf-preview-container" class="flex-1 flex items-center justify-center bg-[#0A051F] rounded-2xl border border-mem-violet/20 mb-6 min-h-[180px] md:min-h-[260px] overflow-hidden">
                         <!-- Populated dynamically by JS -->
                     </div>
                     
@@ -184,19 +170,16 @@
         </div>
         
         <div class="max-w-6xl mx-auto px-6">
-            <div class="grid md:grid-cols-12 gap-8">
-                
-                <!-- REPORT CONTENT (full width now — jump sidebar removed as requested) -->
-                <div class="md:col-span-12">
-                    <div class="content-card static-card lesson-content-card rounded-3xl p-12 md:p-16">
-                        
-                        <div id="report-container" class="max-w-[70ch] mx-auto">
+            <div class="content-card static-card lesson-content-card rounded-3xl p-8 md:p-12 lg:p-16">
+                <div id="report-toc-mobile" class="report-toc-mobile" hidden></div>
+                <div class="report-layout">
+                    <aside id="report-toc" class="report-toc" hidden></aside>
+                    <div class="report-main">
+                        <div id="report-container" class="max-w-[70ch]">
                             <!-- Markdown rendered here by JS -->
                         </div>
-                        
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>
@@ -204,10 +187,11 @@
     <!-- FULL SCREEN INFOGRAPHIC MODAL - X button OUTSIDE top-right corner + mouse wheel zoom + Mobile Optimized -->
     <div id="infographic-modal" role="dialog" aria-modal="true" aria-label="Full size infographic viewer" onclick="closeInfographicModal()" class="hidden fixed inset-0 bg-black/90 z-[100] flex items-center justify-center p-2 md:p-4">
         <div onclick="event.stopImmediatePropagation()" class="relative w-full max-w-[98vw] md:max-w-[96vw] max-h-[96vh]">
-            <!-- The large image -->
-            <img id="modal-image" 
-                 class="w-full max-h-[92vh] md:max-h-[94vh] object-contain rounded-3xl shadow-2xl border border-mem-violet/20 transition-transform duration-150"
-                 alt="Full size infographic" loading="lazy">
+            <div id="infographic-modal-viewport" class="infographic-modal-viewport">
+                <img id="modal-image"
+                     class="infographic-modal-image"
+                     alt="Full size infographic" loading="lazy">
+            </div>
             
             <!-- Close button - LARGER on mobile, professional outside positioning -->
             <button onclick="closeInfographicModal()" aria-label="Close infographic modal"
@@ -257,6 +241,18 @@
             </div>
           </div>
         </div>
+        <div class="footer-support">
+            <img src="assets/images/bitcoin-qr.jpg" alt="Bitcoin QR code for 21st Memory donations" class="footer-support-qr" width="140" height="140" loading="lazy" />
+            <div class="footer-support-content">
+              <div class="footer-heading">Support the Archive</div>
+              <p class="footer-support-message">All content on this site is freely available. Voluntary contributions are appreciated and help sustain hosting, maintenance, and continued development of the archive.</p>
+              <div class="footer-support-address-wrap">
+                <span class="footer-support-label">Bitcoin</span>
+                <code class="footer-support-address" id="btc-address">bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx</code>
+                <button type="button" class="footer-support-copy" data-copy-target="btc-address" aria-label="Copy Bitcoin address">Copy</button>
+              </div>
+            </div>
+          </div>
         <div class="pt-8 border-t border-mem-subtle text-center">
           <p class="text-sm text-mem-dim">The Great Remembering Has Begun.</p>
           <p class="text-xs text-mem-muted mt-1">May these transmissions serve as gentle guides on your journey home.</p>

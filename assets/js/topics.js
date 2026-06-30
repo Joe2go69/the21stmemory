@@ -1,4 +1,6 @@
-﻿// Topics page — source viewer with filtering, sorting, and progress
+// Topics page — source viewer with filtering, sorting, and progress
+
+const debouncedRenderTopicsList = TopicUtils.debounce(() => renderTopicsList(), 250);
 
 let topicsPageState = {
   sourceId: 'alice',
@@ -33,20 +35,29 @@ function renderSubtopic(sourceId, sub) {
     if (!shouldShowTopic(sub, topicsPageState.filters.status) && visibleLeaves.length === 0) return '';
 
     const subPh = sub.is_placeholder;
-    const toggleClasses = `category-toggle mb-4 w-full max-w-xl ${subPh ? 'opacity-50 grayscale-[0.4] pointer-events-none' : ''}`;
     const subBadge = subPh ? '<span class="text-[8px] ml-2 px-1.5 py-px bg-amber-400/90 text-[#1A1433] font-bold rounded">SOON</span>' : '';
+    const sectionId = `section-${sub.id}`;
 
     let leavesHTML = visibleLeaves.map(leaf => renderTopicLeaf(sourceId, leaf)).join('');
     if (!leavesHTML) return '';
 
+    const viewLink = subPh
+      ? ''
+      : `<a href="deep-dive.html?source=${sourceId}&topic=${sub.id}" class="topic-section-link">View →</a>`;
+
     return `
-      <a href="deep-dive.html?source=${sourceId}&topic=${sub.id}" class="${toggleClasses}">
-        <span class="chevron">▸</span>
-        <span class="flex-1">${sub.title}${subBadge}</span>
-        <span class="text-xs px-3 py-1 bg-white/10 rounded-full text-mem-muted">${visibleLeaves.length} topics</span>
-      </a>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 pl-14 mb-8">
-        ${leavesHTML}
+      <div class="topic-section-group" data-expanded="true" data-section-id="${sectionId}">
+        <div class="topic-section-header">
+          <button type="button" class="category-toggle-btn" aria-expanded="true" aria-controls="${sectionId}-children" data-toggle-section>
+            <span class="chevron" aria-hidden="true">▸</span>
+            <span class="flex-1 min-w-0 truncate">${sub.title}${subBadge}</span>
+            <span class="text-xs px-2.5 py-0.5 bg-white/10 rounded-full text-mem-muted flex-shrink-0">${visibleLeaves.length}</span>
+          </button>
+          ${viewLink}
+        </div>
+        <div id="${sectionId}-children" class="topic-section-children" data-section-children>
+          ${leavesHTML}
+        </div>
       </div>
     `;
   }
@@ -96,19 +107,17 @@ function renderCategoryBlock(sourceId, category) {
         <a href="${isPh ? '#' : `deep-dive.html?source=${sourceId}&topic=${category.id}`}"
            class="${rootClasses}"
            ${isPh ? 'tabindex="-1" aria-disabled="true"' : ''}>
-          <div class="flex items-center gap-5">
+          <div class="topic-root-card__header">
             <div class="root-icon flex-shrink-0 overflow-hidden border-2 border-mem-accent/60 shadow-[0_10px_30px_rgba(109,40,217,0.35)]">
               ${category.topic_image
-                ? `<img src="${category.topic_image}" alt="${category.title} visual" class="w-full h-full object-cover" loading="lazy" onerror="this.outerHTML='<div class=\\'flex items-center justify-center h-full text-mem-accent text-xs font-mono tracking-[2px] opacity-70\\'>TOPIC</div>'">`
+                ? `<img src="${TopicUtils.encodeAssetPath(category.topic_image)}" alt="${category.title} visual" class="w-full h-full object-cover" loading="lazy" onerror="this.outerHTML='<div class=\\'flex items-center justify-center h-full text-mem-accent text-xs font-mono tracking-[2px] opacity-70\\'>TOPIC</div>'">`
                 : '<div class="flex items-center justify-center h-full text-mem-accent text-xs font-mono tracking-[2px] opacity-70">TOPIC</div>'
               }
             </div>
-            <div class="flex-1 min-w-0">
-              <div class="flex items-start justify-between gap-3 mb-2.5">
-                <h3 class="text-3xl md:text-[2.05rem] font-semibold tracking-tighter text-white group-hover:text-mem-indigo transition-colors leading-tight">${category.title}</h3>
-                <div class="text-[10px] px-2.5 py-1 bg-white/10 rounded-full text-mem-muted font-mono tracking-[0.5px] whitespace-nowrap self-start mt-1">${subCount} CATEGORIES</div>
-              </div>
-              <p class="text-mem-soft text-[14.5px] leading-relaxed pr-1">${category.description || ''}</p>
+            <div class="topic-root-card__body">
+              <h3 class="text-xl sm:text-2xl md:text-[2.05rem] font-semibold tracking-tighter text-white group-hover:text-mem-indigo transition-colors leading-tight">${category.title}</h3>
+              <span class="topic-category-count">${subCount} ${subCount === 1 ? 'category' : 'categories'}</span>
+              <p class="text-mem-soft text-[14.5px] leading-relaxed">${category.description || ''}</p>
             </div>
           </div>
           <div class="mt-auto pt-5">
@@ -150,28 +159,40 @@ function renderTopicsSearchResults() {
 
   container.innerHTML = `
     <div class="codex-topic-results-grid">
-      ${matches.map(entry => {
-        const path = entry.pathTitles.length > 1
+      ${matches.map(entry => TopicUtils.renderTopicSearchCard(entry, {
+        pathLabel: entry.pathTitles.length > 1
           ? entry.pathTitles.slice(0, -1).join(' › ')
-          : data.title;
-        const statusBadge = entry.is_placeholder
-          ? '<span class="codex-meta-pill codex-meta-pill--soon">Coming soon</span>'
-          : '<span class="codex-meta-pill">Ready</span>';
-        return `
-          <a href="${entry.href}" class="codex-topic-result channel-card group">
-            <div class="codex-topic-result-top">
-              <div>
-                <h3 class="text-lg font-semibold text-white group-hover:text-mem-indigo transition-colors">${entry.title}</h3>
-              </div>
-              ${statusBadge}
-            </div>
-            <p class="text-sm text-mem-muted mt-2 line-clamp-2">${entry.description || path}</p>
-            <div class="text-xs text-mem-soft mt-3">${path}</div>
-          </a>
-        `;
-      }).join('')}
+          : data.title
+      })).join('')}
     </div>
   `;
+}
+
+function setupCollapsibleSections(container) {
+  if (!container) return;
+
+  container.querySelectorAll('[data-toggle-section]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = btn.closest('.topic-section-group');
+      if (!group) return;
+      const expanded = group.dataset.expanded !== 'true';
+      group.dataset.expanded = expanded ? 'true' : 'false';
+      btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+      const children = group.querySelector('[data-section-children]');
+      if (children && expanded) {
+        children.style.maxHeight = `${children.scrollHeight}px`;
+      } else if (children) {
+        children.style.maxHeight = '0';
+      }
+    });
+  });
+
+  container.querySelectorAll('[data-section-children]').forEach(children => {
+    const group = children.closest('.topic-section-group');
+    if (group?.dataset.expanded === 'true') {
+      children.style.maxHeight = `${children.scrollHeight}px`;
+    }
+  });
 }
 
 function renderTopicsList() {
@@ -193,6 +214,7 @@ function renderTopicsList() {
     html = `<div class="text-center py-16 text-mem-muted">No topics match the current filter. Try a different view.</div>`;
   }
   container.innerHTML = html;
+  setupCollapsibleSections(container);
 }
 
 function renderFilterControls() {
@@ -265,7 +287,7 @@ function renderFilterControls() {
   const searchInput = controls.querySelector('#topics-search-input');
   searchInput?.addEventListener('input', (event) => {
     topicsPageState.filters.search = event.target.value;
-    renderTopicsList();
+    debouncedRenderTopicsList();
   });
 
   controls.querySelectorAll('[data-filter-status]').forEach(btn => {
@@ -290,22 +312,22 @@ function renderSourceHeader(data, sourceId, stats) {
 
   document.getElementById('source-header').innerHTML = `
     ${breadcrumbs}
-    <div class="grid md:grid-cols-12 gap-12 items-start">
+    <div class="grid md:grid-cols-12 gap-6 md:gap-12 items-start">
       <div class="md:col-span-7 flex flex-col h-full">
         <div class="source-text-block">
           <div class="inline-flex items-center px-4 py-1 rounded-full bg-mem-violet/10 text-mem-indigo text-xs font-semibold tracking-wide mb-4">
             Codex archive · ${stats.live} of ${stats.total} topics live
           </div>
-          <h1 class="text-5xl md:text-6xl font-semibold tracking-tighter leading-none">${data.title}</h1>
-          <p class="text-2xl text-mem-muted mt-3">${data.subtitle}</p>
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tighter leading-none">${data.title}</h1>
+          <p class="text-lg md:text-2xl text-mem-muted mt-3">${data.subtitle}</p>
           <div class="mt-4">
             <div class="archive-progress-bar" role="progressbar" aria-valuenow="${stats.live}" aria-valuemin="0" aria-valuemax="${stats.total}" aria-label="Archive progress">
-              <div class="archive-progress-fill" style="width: ${stats.total ? Math.round((stats.live / stats.total) * 100) : 0}%"></div>
+              <div class="archive-progress-fill" data-progress="${stats.total ? Math.round((stats.live / stats.total) * 100) : 0}" style="width: ${stats.total ? Math.round((stats.live / stats.total) * 100) : 0}%"></div>
             </div>
             <p class="text-sm text-mem-muted mt-2">${stats.live} of ${stats.total} topics available now • ${stats.total - stats.live} coming soon</p>
           </div>
           <div class="text-lg leading-relaxed text-mem-soft mt-6">
-            ${data.description.split('\n\n').map(p => `<p class="mb-4 last:mb-0">${p}</p>`).join('')}
+            ${(data.description || '').split('\n\n').map(p => `<p class="mb-4 last:mb-0">${p}</p>`).join('')}
           </div>
         </div>
         <div class="flex flex-wrap gap-4 mt-auto pt-10">
@@ -314,7 +336,7 @@ function renderSourceHeader(data, sourceId, stats) {
         </div>
       </div>
       <div class="md:col-span-5 flex flex-col h-full">
-        <img src="${data.image}" alt="${data.title}"
+        <img src="${TopicUtils.encodeAssetPath(data.image)}" alt="${data.title}"
              class="rounded-3xl shadow-2xl w-full max-w-md md:max-w-sm border border-mem-violet/20"
              width="600" height="400" loading="eager">
         <div class="mt-auto pt-6">
@@ -333,17 +355,18 @@ async function loadSourceViewer() {
   const sourceId = urlParams.get('source') || 'alice';
   topicsPageState.sourceId = sourceId;
   const container = document.getElementById('topics-container');
+  const headerEl = document.getElementById('source-header');
+
+  if (headerEl) headerEl.innerHTML = TopicUtils.skeleton('topics-header');
+  if (container) container.innerHTML = TopicUtils.skeleton('topics-list');
 
   try {
-    const response = await fetch(`data/${sourceId}-topics.json`);
-    if (!response.ok) throw new Error(`HTTP ${response.status} - File not found or server error`);
-
-    const fullData = await response.json();
+    const fullData = await TopicUtils.fetchSourceIndex(sourceId);
     document.title = `21st Memory Topics | ${fullData.title}`;
 
     const data = {
       ...fullData,
-      topics: TopicUtils.createLightweightTopics(fullData.topics || [])
+      topics: TopicUtils.normalizeTopicsFromIndex(fullData.topics || [])
     };
     topicsPageState.data = data;
 
@@ -362,19 +385,22 @@ async function loadSourceViewer() {
 
     renderFilterControls();
     renderTopicsList();
+    TopicUtils.animateProgressBars(headerEl);
 
     if (window.location.hash === '#explore-topics') {
       TopicUtils.scrollToAnchor('explore-topics');
     }
   } catch (e) {
     console.error('Topics load error:', e);
-    container.innerHTML = `
+    const errorHtml = `
       <div class="text-center py-20">
-        <div class="text-red-400 text-xl mb-4">❌ Could not load topics data</div>
+        <div class="text-red-400 text-xl mb-4">Could not load topics data</div>
         <p class="text-mem-soft max-w-md mx-auto">${e.message}</p>
         <p class="text-sm mt-8 text-mem-muted">Check the browser console (F12) for more details.<br>
-        Make sure <strong>data/${sourceId}-topics.json</strong> exists and is valid JSON.</p>
+        Make sure <strong>data/${sourceId}-topics-index.json</strong> exists and is valid JSON.</p>
       </div>`;
+    if (headerEl) headerEl.innerHTML = errorHtml;
+    if (container) container.innerHTML = errorHtml;
   }
 }
 

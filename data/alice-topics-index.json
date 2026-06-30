@@ -1,0 +1,458 @@
+{
+  "id": "alice",
+  "title": "Following Alice in the Rabbit Hole",
+  "subtitle": "A Brief Synopsis • Parts 1, 2 & 3",
+  "image": "images/alice.webp",
+  "pdf_url": "https://drive.google.com/file/d/14mKHQDHnHiOoHyIS_yzc4xIzaH_MpBxM/view",
+  "description": "The foundational transmission that takes you deep down the rabbit hole into the true nature of reality and the parasitic system that has enslaved humanity for millennia. Discover the hidden history of multiple resets, the existence of giants, advanced ancient civilizations, the true origins of the Soul, and the mechanics of the Great Spiritual Awakening now in progress. \n\nThis powerful series exposes the dark truths of the Vatican’s underground operations, the real function of the Moon, the Amnesia Vortex, and provides the clear path to breaking free from this inverted matrix toward genuine spiritual liberation and awakening.",
+  "total_topics": 59,
+  "topics": [
+    {
+      "id": "nature-of-reality",
+      "title": "Nature of Reality",
+      "description": "The true nature of our simulated existence.",
+      "topic_image": "images/nat of real.webp",
+      "is_placeholder": false,
+      "subtopics": [
+        {
+          "id": "simulation-reality",
+          "title": "Simulation Reality",
+          "description": "Exploration of our simulation reality .",
+          "topic_image": "images/sim real.webp",
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "3rd-density-overlays",
+              "title": "3rd Density Overlays",
+              "description": "Exploration of 3rd density overlays.",
+              "topic_image": "images/3d overlay.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "fake-linear-time",
+              "title": "Fake Linear Time",
+              "description": "Exploration of fake linear time.",
+              "topic_image": "images/faketime.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "holographic-projection-dome",
+              "title": "Holographic Projection Dome",
+              "description": "Exploration of holographic projection dome.",
+              "topic_image": "images/alice/holo.webp",
+              "is_placeholder": false
+            }
+          ]
+        },
+        {
+          "id": "cosmology",
+          "title": "Cosmology",
+          "description": "Exploration of cosmology.",
+          "topic_image": "images/alice/cosmo.webp",
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "flat-earth",
+              "title": "Flat Earth",
+              "description": "Exploration of flat earth.",
+              "topic_image": "images/alice/flat.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "firmament",
+              "title": "Firmament",
+              "description": "Exploration of firmament.",
+              "topic_image": "images/alice/firm.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "ice-wall",
+              "title": "Ice Wall",
+              "description": "Exploration of ice wall.",
+              "topic_image": "images/alice/icewall.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "gateway-10-system",
+              "title": "Gateway-10 System",
+              "description": "Exploration of the Gateway-10 System.",
+              "topic_image": "images/alice/gate.webp",
+              "is_placeholder": false
+            }
+          ]
+        },
+        {
+          "id": "sun-and-moon",
+          "title": "The Sun and Moon",
+          "description": "Exploration of the sun and moon.",
+          "topic_image": "images/alice/sunmoon.webp",
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "sol-soul-portal",
+              "title": "Sol as a Soul Portal",
+              "description": "The true function of the Sun as a soul recycling portal and its role in the Great Spiritual Awakening.",
+              "topic_image": "images/alice/sol.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "moon-et-space-station",
+              "title": "Moon as ET Space Station",
+              "description": "The Moon as a negative ET command and harvesting station.",
+              "topic_image": "images/alice/moon.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "lucifer-light-bearer",
+              "title": "Lucifer as Light Bearer",
+              "description": "The holographic illumination of the Moon by Venus as Lucifer, the Light Bearer.",
+              "topic_image": "images/alice/lucifer.webp",
+              "is_placeholder": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parasitic-takeover",
+      "title": "The Parasitic Takeover",
+      "description": "How negative entities control humanity.",
+      "topic_image": "images/alice/parasite.webp",
+      "is_placeholder": false,
+      "subtopics": [
+        {
+          "id": "negative-entities",
+          "title": "Negative Entities",
+          "description": "Exploration of negative entities.",
+          "topic_image": "images/alice/negative.webp",
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "custodians",
+              "title": "Custodians",
+              "description": "The origin of universal evil and the parasitic hierarchy that enslaved humanity.",
+              "topic_image": "images/alice/custodian.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "anunnaki",
+              "title": "Anunnaki",
+              "description": "Exploration of anunnaki.",
+              "topic_image": "images/alice/anuk.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "grey-ets",
+              "title": "Grey ETs",
+              "description": "Exploration of Grey ETs.",
+              "topic_image": "images/alice/greys.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "reptilians",
+              "title": "Reptilians",
+              "description": "Exploration of reptilians.",
+              "topic_image": "images/alice/Reptilian.webp",
+              "is_placeholder": false
+            }
+          ]
+        },
+        {
+          "id": "control-mechanisms",
+          "title": "Control Mechanisms",
+          "description": "Exploration of control mechanisms.",
+          "topic_image": "images/alice/control.webp",
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "amnesia-vortex",
+              "title": "Amnesia Vortex",
+              "description": "Exploration of the amnesia vortex.",
+              "topic_image": "images/alice/Amnesia.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "frequency-fences",
+              "title": "Frequency Fences",
+              "description": "Exploration of frequency fences.",
+              "topic_image": "images/alice/frequency.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "loosh-harvesting",
+              "title": "Loosh Harvesting",
+              "description": "Exploration of loosh harvesting.",
+              "topic_image": "images/alice/loosh.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "adrenochrome-trade",
+              "title": "Adrenochrome Trade",
+              "description": "Exploration of adrenochrome trade.",
+              "topic_image": "images/alice/adreno.webp",
+              "is_placeholder": false
+            }
+          ]
+        },
+        {
+          "id": "inversion-tactics",
+          "title": "Inversion Tactics",
+          "description": "Exploration of inversion tactics.",
+          "topic_image": "images/alice/inversion.webp",
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "density-suppression",
+              "title": "Density Suppression",
+              "description": "Exploration of density suppression.",
+              "topic_image": "images/alice/density.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "false-history",
+              "title": "False History",
+              "description": "Exploration of false history.",
+              "topic_image": "images/alice/False.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "freemasonry",
+              "title": "Freemasonry",
+              "description": "Exploration of freemasonry.",
+              "topic_image": "images/alice/freemasonry.webp",
+              "is_placeholder": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resets-hidden-history",
+      "title": "Resets and Hidden History",
+      "description": "The hidden cycles of resets and buried civilizations.",
+      "topic_image": "images/alice/reset.webp",
+      "is_placeholder": false,
+      "subtopics": [
+        {
+          "id": "tartaria",
+          "title": "Tartaria",
+          "description": "Exploration of tartaria.",
+          "topic_image": "images/alice/Tartaria.webp",
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "free-energy-architecture",
+              "title": "Free Energy Architecture",
+              "description": "Exploration of free energy architecture.",
+              "topic_image": "images/alice/free Energy.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "atmospheric-condensers",
+              "title": "Atmospheric Condensers",
+              "description": "Exploration of atmospheric condensers.",
+              "topic_image": "images/alice/Atmospheric Condensers.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "antiquity-technology",
+              "title": "Antiquity Technology",
+              "description": "Exploration of antiquity technology.",
+              "topic_image": "images/alice/Antiquity Tech.webp",
+              "is_placeholder": false
+            }
+          ]
+        },
+        {
+          "id": "evidence-of-resets",
+          "title": "Evidence of Resets",
+          "description": "Exploration of evidence of resets.",
+          "topic_image": "images/alice/evidence.webp",
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "mud-floods",
+              "title": "Mud-floods",
+              "description": "Exploration of mud-floods.",
+              "topic_image": "images/alice/mud flood.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "orphan-trains",
+              "title": "Orphan Trains",
+              "description": "Exploration of orphan trains.",
+              "topic_image": "images/alice/orphan.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "giant-skeletons",
+              "title": "Giant Skeletons",
+              "description": "Exploration of giant skeletons.",
+              "topic_image": "images/alice/giants.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "oopa-artifacts",
+              "title": "Oopa Artifacts",
+              "description": "Exploration of oopa artifacts.",
+              "topic_image": "images/alice/oopa.webp",
+              "is_placeholder": false
+            }
+          ]
+        },
+        {
+          "id": "world-war-i",
+          "title": "World War I",
+          "description": "Exploration of World War I as a demographic cull following the Reset.",
+          "topic_image": "images/alice/ww1.webp",
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "eliminating-old-knowledge",
+              "title": "Eliminating Old Knowledge",
+              "description": "Exploration of eliminating old knowledge.",
+              "topic_image": "images/alice/eliminating.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "culling-survivors",
+              "title": "Culling Survivors",
+              "description": "Exploration of culling survivors.",
+              "topic_image": "images/alice/Culling Survivors.webp",
+              "is_placeholder": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3-strings-of-attachment",
+      "title": "The 3 Strings of Attachment",
+      "description": "The three main tools of control.",
+      "topic_image": "images/alice/The 3 Strings of Attachment.webp",
+      "is_placeholder": false,
+      "subtopics": [
+        {
+          "id": "religion-false-gods",
+          "title": "Religion (False Gods)",
+          "description": "Exploration of religion (false gods).",
+          "topic_image": "images/alice/Religion (False Gods).webp",
+          "is_placeholder": false
+        },
+        {
+          "id": "finance-fake-money",
+          "title": "Finance (Fake Money)",
+          "description": "Exploration of finance (fake money).",
+          "topic_image": "images/alice/Finance (Fake Money).webp",
+          "is_placeholder": false
+        },
+        {
+          "id": "perceived-knowledge-lies",
+          "title": "Perceived Knowledge (Lies)",
+          "description": "Exploration of perceived knowledge (lies).",
+          "topic_image": "images/alice/Perceived Knowledge (Lies).webp",
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "id": "spiritual-awakening",
+      "title": "Spiritual Awakening",
+      "description": "The path to ascension and remembrance.",
+      "topic_image": "images/alice/Spiritual Awakening.webp",
+      "is_placeholder": false,
+      "subtopics": [
+        {
+          "id": "soul-family",
+          "title": "Soul Family",
+          "description": "The path to reunification with our eternal cosmic soul families and origins.",
+          "topic_image": "images/alice/soul family.webp",
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "4000-ancients",
+              "title": "4,000 Ancients",
+              "description": "The path to understanding our ancient soul lineage and the 4,000 Ancients who anchor the realm.",
+              "topic_image": "images/alice/4000_Ancients.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "star-seeds",
+              "title": "Star Seeds",
+              "description": "Exploration of star seeds and their role in the cosmic soul family and the Great Spiritual Awakening.",
+              "topic_image": "images/alice/Star Seeds.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "twin-flames",
+              "title": "Twin Flames",
+              "description": "Exploration of Twin Flames and the true Sol-System cosmic family network.",
+              "topic_image": "images/alice/Twin_Flames.webp",
+              "is_placeholder": false
+            }
+          ]
+        },
+        {
+          "id": "ascension-event",
+          "title": "Ascension Event",
+          "description": "The culminating evolutionary leap of the Great Spiritual Awakening — the EMF flash, overlay dissolution, and liberation of true souls.",
+          "topic_image": "images/alice/Ascension Event.webp",
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "ebs-disclosure",
+              "title": "EBS Disclosure",
+              "description": "The Emergency Broadcast System disclosure that catalyzes the Great Spiritual Awakening and the final Ascension Event on Gateway-10.",
+              "topic_image": "images/alice/EBS Disclosure.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "fake-alien-invasion",
+              "title": "Fake Alien Invasion",
+              "description": "A staged holographic sky battle and mass abduction scenario engineered during the Ascension Event to induce maximum psychological trauma prior to the EMF flash and planetary reset.",
+              "topic_image": "images/alice/Fake Alien Invasion.webp",
+              "is_placeholder": false
+            },
+            {
+              "id": "emf-white-flash",
+              "title": "EMF White Flash",
+              "description": "The culminating 30-second white flash that purges the false matrix, removes 97% of NPCs, and restores ancient memories to surviving true souls.",
+              "topic_image": "images/alice/EMF White Flash.webp",
+              "is_placeholder": false
+            }
+          ]
+        },
+        {
+          "id": "npc-population",
+          "title": "NPC Population",
+          "description": "The profound reality that 97% of Earth's population consists of NPCs — synthetic beings created to maintain matrix control until their removal during the EMF flash.",
+          "topic_image": "images/alice/NPC Population.webp",
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "non-player-characters",
+              "title": "Non-Player Characters",
+              "description": "Exploration of non-player characters.",
+              "topic_image": "images/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "97-percent-population",
+              "title": "97 Percent Population",
+              "description": "Exploration of 97 percent population.",
+              "topic_image": "images/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "recycled-souls",
+              "title": "Recycled Souls",
+              "description": "Exploration of recycled souls.",
+              "topic_image": "images/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

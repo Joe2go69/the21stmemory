@@ -1,10 +1,82 @@
-﻿// Deep-Dive page — topic viewer with breadcrumbs, media, and report
+// Deep-Dive page — topic viewer with breadcrumbs, media, and report
 
-let currentZoom = 1;
-let translateX = 0;
-let translateY = 0;
-let isDragging = false;
-let startY = 0;
+const zoomState = {
+  scale: 1,
+  panX: 0,
+  panY: 0,
+  dragging: false,
+  pointerStartX: 0,
+  pointerStartY: 0,
+  panStartX: 0,
+  panStartY: 0,
+  lastPinchDistance: 0
+};
+
+function escapeAttr(value) {
+  return String(value || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+}
+
+function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId }) {
+  const heroImage = TopicUtils.encodeAssetPath((topic.topic_image || topic.infographic_image || '').replace(/\\/g, '/'));
+  const readingTime = topic.report ? TopicUtils.estimateReadingTime(topic.report) : '';
+  const bgStyle = heroImage
+    ? `style="background-image: url('${escapeAttr(heroImage)}')"`
+    : '';
+
+  return `
+    ${breadcrumbs}
+    <div class="deep-dive-hero">
+      <div class="deep-dive-hero-bg" ${bgStyle}></div>
+      <div class="deep-dive-hero-scrim"></div>
+      <div class="deep-dive-hero-content">
+        <div class="deep-dive-hero-meta">
+          <div class="inline-flex items-center px-4 py-1 rounded-full bg-black/40 text-mem-muted text-xs font-semibold tracking-[2px] border border-white/10">
+            ${fullData.title.toUpperCase()} · TOPIC
+          </div>
+          ${readingTime ? `<span class="deep-dive-reading-time">${readingTime}</span>` : ''}
+        </div>
+        <h1 class="text-4xl md:text-6xl font-semibold tracking-tighter leading-none text-white">${topic.title}</h1>
+        <div class="deep-dive-hero-accent" aria-hidden="true"></div>
+        <div class="text-[17px] text-mem-secondary max-w-[52ch] leading-relaxed">
+          ${(topic.description || '').split('\n\n').map(p => `<p class="mb-3 last:mb-0">${p}</p>`).join('')}
+        </div>
+        <div class="mt-7">
+          <div class="text-xs tracking-[1.5px] text-mem-muted mb-2.5 font-semibold">JUMP TO</div>
+          <div class="jump-to-pills mb-4" id="jump-to-pills">
+            <button type="button" data-jump-section="infographics-section" class="btn-jump-pill" aria-label="Scroll to infographics and slide decks section">
+              ${typeof renderSiteIcon === 'function' ? renderSiteIcon('chart', 'card-icon-sm') : ''} Infographics
+            </button>
+            <button type="button" data-jump-section="videos-section" class="btn-jump-pill" aria-label="Scroll to video transmissions section">
+              ${typeof renderSiteIcon === 'function' ? renderSiteIcon('video', 'card-icon-sm') : ''} Videos
+            </button>
+            <button type="button" data-jump-section="report-section" class="btn-jump-pill" aria-label="Scroll to deep dive report section">
+              ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} Report
+            </button>
+          </div>
+          <div class="flex flex-wrap gap-3 pt-1 border-t border-white/10">
+            <a href="codex.html#codex-pill" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Codex</a>
+            <a href="topics.html?source=${sourceId}#explore-topics" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Topics</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function setupJumpToPills() {
+  const pills = document.querySelectorAll('[data-jump-section]');
+  pills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      TopicUtils.scrollToSection(pill.dataset.jumpSection);
+    });
+  });
+
+  const sections = ['infographics-section', 'videos-section', 'report-section']
+    .map(id => document.getElementById(id))
+    .filter(Boolean);
+
+  TopicUtils.setupJumpToSpy(pills, sections);
+}
 
 async function loadLessonViewer() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -17,24 +89,28 @@ async function loadLessonViewer() {
   const videosContainer = document.getElementById('videos-container');
   const reportContainer = document.getElementById('report-container');
   const pdfPreviewContainer = document.getElementById('pdf-preview-container');
+  const tocContainer = document.getElementById('report-toc');
+  const tocMobile = document.getElementById('report-toc-mobile');
 
   if (!topicId) {
     headerContainer.innerHTML = '<div class="text-center py-12"><p class="text-red-400">No topic specified. Please return to the Codex.</p></div>';
     return;
   }
 
-  try {
-    const response = await fetch(`data/${sourceId}-topics.json`);
-    if (!response.ok) throw new Error('Topics data not found');
+  if (headerContainer) headerContainer.innerHTML = TopicUtils.skeleton('deep-dive');
 
-    const fullData = await response.json();
-    const topic = TopicUtils.findTopicById(fullData.topics, topicId);
+  try {
+    const fullData = await TopicUtils.fetchSourceIndex(sourceId);
+    const lightTopic = TopicUtils.findTopicById(fullData.topics, topicId);
     const topicPath = TopicUtils.findTopicPath(fullData.topics, topicId);
 
-    if (!topic) {
+    if (!lightTopic) {
       headerContainer.innerHTML = `<div class="text-center py-12"><p class="text-red-400">Topic not found: ${topicId}</p></div>`;
       return;
     }
+
+    const topicContent = await TopicUtils.fetchTopicContent(sourceId, topicId);
+    const topic = { ...lightTopic, ...topicContent };
 
     document.title = `21st Memory Deep-Dive | ${topic.title}`;
 
@@ -45,38 +121,9 @@ async function loadLessonViewer() {
       currentTitle: topic.title
     });
 
-    headerContainer.innerHTML = `
-      ${breadcrumbs}
-      <div class="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-10">
-        <div class="flex-shrink-0 w-48 h-48 md:w-72 md:h-72 rounded-3xl overflow-hidden shadow-[0_8px_30px_rgba(109,40,217,0.35)] flex items-center justify-center bg-mem-inset border border-mem-subtle">
-          ${topic.topic_image
-            ? `<img src="${(topic.topic_image || '').replace(/\\/g, '/')}" alt="${topic.title} visual" class="w-full h-full object-cover" width="288" height="288" loading="eager" onerror="this.outerHTML='<div class=\\'flex items-center justify-center h-full text-mem-accent text-sm font-mono tracking-[3px] opacity-60\\'>TOPIC IMAGE</div>'">`
-            : '<div class="flex items-center justify-center h-full text-mem-accent text-sm font-mono tracking-[3px] opacity-60">TOPIC IMAGE</div>'
-          }
-        </div>
-        <div class="flex-1 min-w-0 pt-1">
-          <div class="inline-flex items-center px-4 py-1 rounded-full bg-mem-surface text-mem-muted text-xs font-semibold tracking-[2px] mb-4 border border-mem-subtle">
-            ${fullData.title.toUpperCase()} • TOPIC
-          </div>
-          <h1 class="text-5xl md:text-6xl font-semibold tracking-tighter leading-none mb-4">${topic.title}</h1>
-          <div class="text-[17px] text-mem-secondary max-w-[42ch] leading-relaxed">
-            ${(topic.description || '').split('\n\n').map(p => `<p class="mb-3 last:mb-0">${p}</p>`).join('')}
-          </div>
-          <div class="mt-7">
-            <div class="text-xs tracking-[1.5px] text-mem-muted mb-2.5 font-semibold">JUMP TO</div>
-            <div class="flex flex-wrap gap-2.5 mb-4">
-              <button onclick="scrollToSection('infographics-section')" class="btn-topic-nav inline-flex items-center gap-2 justify-center text-sm" aria-label="Scroll to infographics and slide decks section">${typeof renderSiteIcon === 'function' ? renderSiteIcon('chart', 'card-icon-sm') : ''} INFOGRAPHICS &amp; SLIDES</button>
-              <button onclick="scrollToSection('videos-section')" class="btn-topic-nav inline-flex items-center gap-2 justify-center text-sm" aria-label="Scroll to video transmissions section">${typeof renderSiteIcon === 'function' ? renderSiteIcon('video', 'card-icon-sm') : ''} VIDEOS</button>
-              <button onclick="scrollToSection('report-section')" class="btn-topic-nav inline-flex items-center gap-2 justify-center text-sm" aria-label="Scroll to deep dive report section">${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} FULL REPORT</button>
-            </div>
-            <div class="flex flex-wrap gap-3 pt-1 border-t border-mem-subtle">
-              <a href="codex.html#codex-pill" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← BACK TO CODEX</a>
-              <a href="topics.html?source=${sourceId}#explore-topics" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← BACK TO TOPICS</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    `;
+    headerContainer.innerHTML = renderCinematicHero({ breadcrumbs, fullData, topic, sourceId });
+    headerContainer.classList.remove('content-card', 'static-card', 'rounded-3xl', 'p-8', 'md:p-12');
+    setupJumpToPills();
 
     const hasAnyContent = !!(topic.infographic_image ||
       topic.slide_deck_pdf_url ||
@@ -100,14 +147,29 @@ async function loadLessonViewer() {
     }
 
     if (topic.infographic_image) {
+      const infographicSrc = TopicUtils.encodeAssetPath(topic.infographic_image);
       infographicContainer.innerHTML = `
-        <div onclick="openInfographicModal('${topic.infographic_image}')" class="block w-full h-full cursor-pointer">
-          <img src="${topic.infographic_image}" alt="${topic.title} Infographic"
-               class="w-full h-auto max-h-[520px] object-contain rounded-2xl shadow-xl hover:scale-[1.015] transition-transform"
+        <div class="infographic-artifact" role="button" tabindex="0" aria-label="Open full size infographic" data-infographic-src="${infographicSrc.replace(/"/g, '&quot;')}">
+          <img src="${infographicSrc}" alt="${topic.title} Infographic"
                width="800" height="600" loading="lazy"
                onerror="this.outerHTML='<div class=\\'flex flex-col items-center justify-center h-full text-center p-8\\'><div class=\\'text-6xl mb-4\\'>🖼️</div><div class=\\'text-mem-muted\\'>Infographic coming soon</div></div>'">
+          <div class="infographic-artifact-caption">
+            <span>Decoded infographic</span>
+            <span class="infographic-artifact-zoom" aria-hidden="true">⤢ Expand</span>
+          </div>
         </div>
       `;
+      infographicContainer.querySelector('.infographic-artifact')?.addEventListener('click', (e) => {
+        const src = e.currentTarget.dataset.infographicSrc;
+        if (src) openInfographicModal(src);
+      });
+      infographicContainer.querySelector('.infographic-artifact')?.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          const src = e.currentTarget.dataset.infographicSrc;
+          if (src) openInfographicModal(src);
+        }
+      });
     } else {
       infographicContainer.innerHTML = `
         <div class="flex flex-col items-center justify-center h-full text-center p-8">
@@ -122,7 +184,7 @@ async function loadLessonViewer() {
         const pdfUrl = topic.slide_deck_pdf_url || '#';
         pdfPreviewContainer.innerHTML = `
           <div class="relative w-full h-full group" onclick="window.open('${pdfUrl}', '_blank')">
-            <img src="${topic.pdf_preview_image}" alt="Slide deck preview - ${topic.title}"
+            <img src="${TopicUtils.encodeAssetPath(topic.pdf_preview_image)}" alt="Slide deck preview - ${topic.title}"
                  class="w-full h-full object-contain rounded-2xl cursor-pointer transition-all duration-300 group-hover:brightness-105 group-hover:scale-[1.01]"
                  width="600" height="400" loading="lazy"
                  onerror="this.outerHTML='<div class=\\'flex flex-col items-center justify-center h-full p-8 text-center\\'><div class=\\'text-6xl mb-4 opacity-40\\'>📄</div><div class=\\'text-mem-muted text-sm leading-tight\\'>Preview image unavailable</div></div>'">
@@ -187,7 +249,7 @@ async function loadLessonViewer() {
         <div class="channel-card video-card rounded-3xl overflow-hidden flex flex-col border border-mem-subtle">
           <div class="aspect-video bg-black">
             <iframe src="${video.embed_url}" width="100%" height="100%" frameborder="0" allowfullscreen
-                    class="w-full h-full" title="${video.title} - 21st Memory video transmission"></iframe>
+                    class="w-full h-full" title="${escapeAttr(video.title)} - 21st Memory video transmission" loading="lazy"></iframe>
           </div>
           <div class="px-4 py-3 flex-shrink-0 border-t border-mem-subtle/50">
             <div class="font-semibold text-[15px] tracking-tight leading-tight text-mem-body line-clamp-2">${video.title}</div>
@@ -205,8 +267,25 @@ async function loadLessonViewer() {
         el.classList.add('tracking-tight', 'font-semibold');
         if (el.tagName === 'H1') el.classList.add('font-bold');
       });
+      TopicUtils.buildReportToc(reportContainer, tocContainer);
+      if (tocMobile && tocContainer && !tocContainer.hidden) {
+        tocMobile.innerHTML = tocContainer.innerHTML;
+        tocMobile.hidden = false;
+        tocMobile.querySelectorAll('[data-toc-link]').forEach(link => {
+          link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const target = document.getElementById(link.dataset.tocLink);
+            if (!target) return;
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const top = target.getBoundingClientRect().top + scrollTop - TopicUtils.NAVBAR_HEIGHT - TopicUtils.SCROLL_EXTRA_OFFSET;
+            window.scrollTo({ top, behavior: 'smooth' });
+          });
+        });
+      }
     } else {
       reportContainer.innerHTML = '<div class="text-center py-12 text-mem-muted">Detailed report coming soon.</div>';
+      if (tocContainer) tocContainer.hidden = true;
+      if (tocMobile) tocMobile.hidden = true;
     }
   } catch (error) {
     console.error('Error loading lesson:', error);
@@ -220,63 +299,162 @@ async function loadLessonViewer() {
   }
 }
 
-function updateTransform(img) {
-  img.style.transform = `scale(${currentZoom}) translate(${translateX}px, ${translateY}px)`;
+function touchDistance(touches) {
+  const dx = touches[0].clientX - touches[1].clientX;
+  const dy = touches[0].clientY - touches[1].clientY;
+  return Math.hypot(dx, dy);
+}
+
+function getZoomViewport(img) {
+  return document.getElementById('infographic-modal-viewport') || img.parentElement;
+}
+
+function applyZoomTransform(img) {
+  img.style.transform = `translate3d(${zoomState.panX}px, ${zoomState.panY}px, 0) scale(${zoomState.scale})`;
+  img.style.cursor = zoomState.scale > 1 ? (zoomState.dragging ? 'grabbing' : 'grab') : 'zoom-in';
+}
+
+function clampPan(img) {
+  if (zoomState.scale <= 1) {
+    zoomState.scale = 1;
+    zoomState.panX = 0;
+    zoomState.panY = 0;
+    return;
+  }
+
+  const viewport = getZoomViewport(img);
+  if (!viewport) return;
+
+  const vpRect = viewport.getBoundingClientRect();
+  const imgRect = img.getBoundingClientRect();
+  const maxPanX = Math.max(0, (imgRect.width - vpRect.width) / 2 + 24);
+  const maxPanY = Math.max(0, (imgRect.height - vpRect.height) / 2 + 24);
+
+  zoomState.panX = Math.max(-maxPanX, Math.min(maxPanX, zoomState.panX));
+  zoomState.panY = Math.max(-maxPanY, Math.min(maxPanY, zoomState.panY));
+}
+
+function zoomAtPoint(img, clientX, clientY, newScale) {
+  const viewport = getZoomViewport(img);
+  if (!viewport) return;
+
+  const vpRect = viewport.getBoundingClientRect();
+  const focalX = clientX - vpRect.left - vpRect.width / 2;
+  const focalY = clientY - vpRect.top - vpRect.height / 2;
+  const ratio = newScale / zoomState.scale;
+
+  zoomState.panX = focalX - (focalX - zoomState.panX) * ratio;
+  zoomState.panY = focalY - (focalY - zoomState.panY) * ratio;
+  zoomState.scale = newScale;
+
+  if (zoomState.scale <= 1) {
+    zoomState.scale = 1;
+    zoomState.panX = 0;
+    zoomState.panY = 0;
+  }
+
+  clampPan(img);
+  applyZoomTransform(img);
+}
+
+function resetImageZoomState(img) {
+  zoomState.scale = 1;
+  zoomState.panX = 0;
+  zoomState.panY = 0;
+  zoomState.dragging = false;
+  zoomState.lastPinchDistance = 0;
+  if (img) {
+    applyZoomTransform(img);
+  }
 }
 
 function setupImageZoom(img) {
-  currentZoom = 1;
-  translateX = 0;
-  translateY = 0;
-  isDragging = false;
-  img.style.transform = 'scale(1) translate(0px, 0px)';
+  resetImageZoomState(img);
+  img.style.transition = 'none';
   img.style.transformOrigin = 'center center';
-  img.style.cursor = 'default';
+  img.style.willChange = 'transform';
+  img.style.touchAction = 'none';
 
-  img.addEventListener('wheel', function(e) {
+  if (img.dataset.zoomReady === 'true') return;
+  img.dataset.zoomReady = 'true';
+
+  const viewport = getZoomViewport(img);
+  viewport?.addEventListener('wheel', (e) => {
     e.preventDefault();
-    const rect = img.getBoundingClientRect();
-    const mouseX = ((e.clientX - rect.left) / rect.width) * 100;
-    const mouseY = ((e.clientY - rect.top) / rect.height) * 100;
-    const zoomFactor = e.deltaY < 0 ? 1.18 : 0.82;
-    currentZoom = Math.max(0.4, Math.min(6, currentZoom * zoomFactor));
-    img.style.transformOrigin = `${mouseX}% ${mouseY}%`;
-    updateTransform(img);
-    img.style.cursor = currentZoom > 1 ? 'grab' : 'default';
-  });
+    const factor = e.deltaY < 0 ? 1.1 : 0.91;
+    const nextScale = Math.max(1, Math.min(4, zoomState.scale * factor));
+    zoomAtPoint(img, e.clientX, e.clientY, nextScale);
+  }, { passive: false });
 
-  img.addEventListener('mousedown', function(e) {
-    if (currentZoom <= 1) return;
-    isDragging = true;
-    startY = e.clientY - translateY;
+  img.addEventListener('mousedown', (e) => {
+    if (zoomState.scale <= 1) return;
+    zoomState.dragging = true;
+    zoomState.pointerStartX = e.clientX;
+    zoomState.pointerStartY = e.clientY;
+    zoomState.panStartX = zoomState.panX;
+    zoomState.panStartY = zoomState.panY;
     img.style.cursor = 'grabbing';
     e.preventDefault();
   });
 
-  img.addEventListener('mousemove', function(e) {
-    if (!isDragging || currentZoom <= 1) return;
-    translateY = e.clientY - startY;
-    updateTransform(img);
-    e.preventDefault();
+  window.addEventListener('mousemove', (e) => {
+    if (!zoomState.dragging || zoomState.scale <= 1) return;
+    zoomState.panX = zoomState.panStartX + (e.clientX - zoomState.pointerStartX);
+    zoomState.panY = zoomState.panStartY + (e.clientY - zoomState.pointerStartY);
+    clampPan(img);
+    applyZoomTransform(img);
   });
 
-  const stopDragging = () => {
-    if (isDragging) {
-      isDragging = false;
-      img.style.cursor = currentZoom > 1 ? 'grab' : 'default';
+  window.addEventListener('mouseup', () => {
+    if (!zoomState.dragging) return;
+    zoomState.dragging = false;
+    if (img) applyZoomTransform(img);
+  });
+
+  viewport?.addEventListener('touchstart', (e) => {
+    if (e.touches.length === 2) {
+      zoomState.lastPinchDistance = touchDistance(e.touches);
+      e.preventDefault();
+    } else if (e.touches.length === 1 && zoomState.scale > 1) {
+      zoomState.dragging = true;
+      zoomState.pointerStartX = e.touches[0].clientX;
+      zoomState.pointerStartY = e.touches[0].clientY;
+      zoomState.panStartX = zoomState.panX;
+      zoomState.panStartY = zoomState.panY;
     }
-  };
+  }, { passive: false });
 
-  img.addEventListener('mouseup', stopDragging);
-  img.addEventListener('mouseleave', stopDragging);
+  viewport?.addEventListener('touchmove', (e) => {
+    if (e.touches.length === 2) {
+      const dist = touchDistance(e.touches);
+      if (zoomState.lastPinchDistance > 0) {
+        const midX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+        const midY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+        const nextScale = Math.max(1, Math.min(4, zoomState.scale * (dist / zoomState.lastPinchDistance)));
+        zoomAtPoint(img, midX, midY, nextScale);
+      }
+      zoomState.lastPinchDistance = dist;
+      e.preventDefault();
+    } else if (zoomState.dragging && e.touches.length === 1 && zoomState.scale > 1) {
+      zoomState.panX = zoomState.panStartX + (e.touches[0].clientX - zoomState.pointerStartX);
+      zoomState.panY = zoomState.panStartY + (e.touches[0].clientY - zoomState.pointerStartY);
+      clampPan(img);
+      applyZoomTransform(img);
+      e.preventDefault();
+    }
+  }, { passive: false });
 
-  img.addEventListener('dblclick', function() {
-    currentZoom = 1;
-    translateX = 0;
-    translateY = 0;
-    img.style.transform = 'scale(1) translate(0px, 0px)';
-    img.style.transformOrigin = 'center center';
-    img.style.cursor = 'default';
+  viewport?.addEventListener('touchend', () => {
+    zoomState.dragging = false;
+    zoomState.lastPinchDistance = 0;
+  });
+
+  img.addEventListener('dblclick', (e) => {
+    if (zoomState.scale > 1) {
+      resetImageZoomState(img);
+    } else {
+      zoomAtPoint(img, e.clientX, e.clientY, 2);
+    }
   });
 }
 
@@ -302,14 +480,7 @@ function closeInfographicModal() {
   if (!modal) return;
 
   const img = document.getElementById('modal-image');
-  if (img) {
-    currentZoom = 1;
-    translateX = 0;
-    translateY = 0;
-    img.style.transform = 'scale(1) translate(0px, 0px)';
-    img.style.transformOrigin = 'center center';
-    img.style.cursor = 'default';
-  }
+  if (img) resetImageZoomState(img);
 
   modal.classList.remove('flex');
   modal.classList.add('hidden');

@@ -7,16 +7,53 @@
   },
   "principle": "No religion · No finance · No gatekeeping",
   "quickLinks": [
-    { "text": "Codex", "href": "codex.html" },
-    { "text": "About", "href": "index.html#about" },
-    { "text": "Network", "href": "community.html" },
-    { "text": "Oracle", "href": "index.html#oracle" },
-    { "text": "Sources", "href": "index.html#sources" },
-    { "text": "Rumble Archive", "href": "index.html#rumble" }
+    {
+      "text": "Codex",
+      "href": "codex.html"
+    },
+    {
+      "text": "About",
+      "href": "index.html#about"
+    },
+    {
+      "text": "Network",
+      "href": "community.html"
+    },
+    {
+      "text": "Oracle",
+      "href": "index.html#oracle"
+    },
+    {
+      "text": "Sources",
+      "href": "index.html#sources"
+    },
+    {
+      "text": "Rumble Archive",
+      "href": "index.html#rumble"
+    }
   ],
   "socials": [
-    { "name": "Telegram", "href": "https://t.me/The_21st_Memory", "icon": "chat" },
-    { "name": "Rumble", "href": "https://rumble.com/c/21stMemory", "icon": "video" },
-    { "name": "Official Site", "href": "https://christian21.com/", "icon": "globe" }
-  ]
+    {
+      "name": "Telegram",
+      "href": "https://t.me/The_21st_Memory",
+      "icon": "chat"
+    },
+    {
+      "name": "Rumble",
+      "href": "https://rumble.com/c/21stMemory",
+      "icon": "video"
+    },
+    {
+      "name": "Official Site",
+      "href": "https://christian21.com/",
+      "icon": "globe"
+    }
+  ],
+  "support": {
+    "heading": "Support the Archive",
+    "message": "All content on this site is freely available. Voluntary contributions are appreciated and help sustain hosting, maintenance, and continued development of the archive.",
+    "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
+    "qrImage": "assets/images/bitcoin-qr.jpg",
+    "qrAlt": "Bitcoin QR code for 21st Memory donations"
+  }
 }

@@ -3,9 +3,10 @@
   "private": true,
   "scripts": {
     "build:css": "npx tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --minify",
+    "build:data": "node scripts/split-topics-data.js",
     "build:sitemap": "node scripts/generate-sitemap.js",
     "build:chrome": "node scripts/inline-chrome.js",
-    "build": "npm run build:css && npm run build:chrome && npm run build:sitemap"
+    "build": "npm run build:data && npm run build:css && npm run build:chrome && npm run build:sitemap"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17"

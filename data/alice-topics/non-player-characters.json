@@ -1,0 +1,24 @@
+{
+  "id": "non-player-characters",
+  "report": "## Non-Player Characters - Full Report\n\n**TODO:** Paste your complete report text here (Markdown supported). This content will be dynamically pulled from the JSON and rendered in the topic detail view on your site.\n\n### Key Sections to Include:\n- Core concepts\n- Connections to the Great Remembering\n- Practical steps\n\n*Example placeholder text: Detailed exploration of non-player characters...*",
+  "infographic_image": "images/non-player-characters-infographic.webp",
+  "pdf_preview_image": "images/non player characters pdf preview.webp",
+  "slide_deck_pdf_url": "https://drive.google.com/file/d/REPLACE-WITH-YOUR-GOOGLE-DRIVE-FILE-ID/view?usp=sharing",
+  "rumble_videos": [
+    {
+      "title": "Non-Player Characters: Core Insights",
+      "embed_url": "https://rumble.com/embed/REPLACE-WITH-RUMBLE-VIDEO-ID-1/",
+      "description": "Core revelations about non-player characters."
+    },
+    {
+      "title": "Non-Player Characters: Key Mechanisms",
+      "embed_url": "https://rumble.com/embed/REPLACE-WITH-RUMBLE-VIDEO-ID-2/",
+      "description": "Practical breakdown of non-player characters."
+    },
+    {
+      "title": "Non-Player Characters: Path to Liberation",
+      "embed_url": "https://rumble.com/embed/REPLACE-WITH-RUMBLE-VIDEO-ID-3/",
+      "description": "How non-player characters connects to the awakening."
+    }
+  ]
+}

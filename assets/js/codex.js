@@ -8,6 +8,8 @@ let codexState = {
   loading: true
 };
 
+const debouncedRenderCodexViews = TopicUtils.debounce(renderCodexViews, 250);
+
 function getSoonCount(stats) {
   return Math.max(0, (stats?.total || 0) - (stats?.live || 0));
 }
@@ -82,7 +84,7 @@ function renderArchiveStats() {
           <span>${pct}% complete</span>
         </div>
         <div class="archive-progress-bar" role="progressbar" aria-valuenow="${live}" aria-valuemin="0" aria-valuemax="${total}" aria-label="Archive progress">
-          <div class="archive-progress-fill" style="width: ${pct}%"></div>
+          <div class="archive-progress-fill" data-progress="${pct}" style="width: ${pct}%"></div>
         </div>
       </div>
     </div>
@@ -150,7 +152,7 @@ function renderToolbar() {
 
   searchInput?.addEventListener('input', (event) => {
     codexState.filters.query = event.target.value;
-    renderCodexViews();
+    debouncedRenderCodexViews();
   });
 
   sortSelect?.addEventListener('change', (event) => {
@@ -207,7 +209,7 @@ function renderSourcesGrid() {
   if (!container) return;
 
   if (codexState.loading) {
-    container.innerHTML = `<div class="col-span-full codex-loading">Loading archive…</div>`;
+    container.innerHTML = TopicUtils.skeleton('codex-grid');
     return;
   }
 
@@ -252,28 +254,7 @@ function renderTopicSearchResults() {
     return;
   }
 
-  list.innerHTML = results.map(entry => {
-    const path = entry.pathTitles.length > 1
-      ? entry.pathTitles.slice(0, -1).join(' › ')
-      : entry.sourceTitle;
-    const statusBadge = entry.is_placeholder
-      ? '<span class="codex-meta-pill codex-meta-pill--soon">Coming soon</span>'
-      : '<span class="codex-meta-pill">Ready</span>';
-
-    return `
-      <a href="${entry.href}" class="codex-topic-result channel-card group">
-        <div class="codex-topic-result-top">
-          <div>
-            <div class="card-label text-mem-indigo">${entry.sourceTitle}</div>
-            <h3 class="text-lg font-semibold text-white group-hover:text-mem-indigo transition-colors">${entry.title}</h3>
-          </div>
-          ${statusBadge}
-        </div>
-        <p class="text-sm text-mem-muted mt-2 line-clamp-2">${entry.description || path}</p>
-        <div class="text-xs text-mem-soft mt-3">${path}</div>
-      </a>
-    `;
-  }).join('');
+  list.innerHTML = results.map(entry => TopicUtils.renderTopicSearchCard(entry, { showSource: true })).join('');
 }
 
 function renderCodexViews() {
@@ -283,10 +264,8 @@ function renderCodexViews() {
 
 async function loadSourceBundle(source) {
   try {
-    const topicResponse = await fetch(`data/${source.id}-topics.json`);
-    if (!topicResponse.ok) throw new Error(`HTTP ${topicResponse.status}`);
-    const topicData = await topicResponse.json();
-    const lightTopics = TopicUtils.createLightweightTopics(topicData.topics || []);
+    const topicData = await TopicUtils.fetchSourceIndex(source.id);
+    const lightTopics = TopicUtils.normalizeTopicsFromIndex(topicData.topics || []);
     const stats = TopicUtils.countTopicStats(lightTopics);
     const flatTopics = TopicUtils.flattenTopicTree(lightTopics, {
       sourceId: source.id,
@@ -323,8 +302,12 @@ async function loadSources() {
   const statsEl = document.getElementById('codex-archive-stats');
   const gridEl = document.getElementById('sources-grid');
 
+  if (statsEl) statsEl.innerHTML = TopicUtils.skeleton('codex-stats');
+  if (gridEl) gridEl.innerHTML = TopicUtils.skeleton('codex-grid');
+
   try {
     const sourcesResponse = await fetch('data/sources.json');
+    if (!sourcesResponse.ok) throw new Error(`HTTP ${sourcesResponse.status} — sources.json not found`);
     const sourcesData = await sourcesResponse.json();
     const bundles = await Promise.all(sourcesData.sources.map(loadSourceBundle));
 
@@ -341,6 +324,7 @@ async function loadSources() {
     renderArchiveStats();
     renderToolbar();
     renderCodexViews();
+    TopicUtils.animateProgressBars(statsEl);
   } catch (error) {
     console.error('Failed to load sources:', error);
     codexState.loading = false;
