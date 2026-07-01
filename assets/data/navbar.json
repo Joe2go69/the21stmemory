@@ -6,7 +6,7 @@
   },
   "links": [
     { "text": "Home", "href": "index.html" },
-    { "text": "Codex", "href": "codex.html" },
+    { "text": "Codex", "href": "codex.html", "primary": true },
     { "text": "About", "href": "index.html#about" },
     { "text": "Sources", "href": "index.html#sources" },
     { "text": "Network", "href": "community.html" },

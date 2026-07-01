@@ -1,20 +1,36 @@
 // Homepage — live archive stats, journey strip, click-to-play videos
 
-const JOURNEY_TOPICS = [
-  { step: 1, id: 'nature-of-reality', title: 'Nature of Reality', image: 'images/nat of real.webp' },
-  { step: 2, id: 'parasitic-takeover', title: 'The Parasitic Takeover', image: 'images/alice/parasite.webp' },
-  { step: 3, id: 'resets-hidden-history', title: 'Resets & Hidden History', image: 'images/alice/reset.webp' },
-  { step: 4, id: 'ascension-event', title: 'Ascension Event', image: 'images/alice/Ascension Event.webp' },
-  { step: 5, id: 'npc-population', title: 'NPC Population', image: 'images/alice/NPC Population.webp' }
+const DEFAULT_SOURCE_ID = 'alice';
+
+const JOURNEY_TOPIC_IDS = [
+  'nature-of-reality',
+  'parasitic-takeover',
+  'resets-hidden-history',
+  'ascension-event',
+  'npc-population'
 ];
 
-const FALLBACK_STATS = { live: 56, total: 59 };
+function renderArchiveBadgeSkeleton() {
+  const badge = document.getElementById('live-archive-badge');
+  if (!badge) return;
+
+  badge.innerHTML = `
+    <div class="codex-archive-status-label">Archive progress</div>
+    <div class="live-archive-badge-text" aria-hidden="true">
+      <span class="skeleton skeleton-bar" style="width: 12rem; height: 0.85rem"></span>
+    </div>
+    <div class="live-archive-mini-bar" aria-hidden="true">
+      <span class="skeleton skeleton-bar" style="width: 100%; height: 100%; border-radius: 9999px"></span>
+    </div>
+  `;
+}
 
 function renderLiveArchiveBadge(live, total) {
   const badge = document.getElementById('live-archive-badge');
   if (!badge) return;
 
   const pct = total ? Math.round((live / total) * 100) : 0;
+  badge.setAttribute('aria-busy', 'false');
   badge.innerHTML = `
     <div class="codex-archive-status-label">Archive progress</div>
     <div class="live-archive-badge-text">
@@ -28,9 +44,9 @@ function renderLiveArchiveBadge(live, total) {
   TopicUtils.animateProgressBars(badge);
 }
 
-function renderJourneyStrip() {
+function renderJourneyStrip(topics) {
   const strip = document.getElementById('journey-strip');
-  if (!strip) return;
+  if (!strip || !topics.length) return;
 
   strip.innerHTML = `
     <div class="codex-home-journey-head">
@@ -41,8 +57,8 @@ function renderJourneyStrip() {
       <span class="journey-strip-hint" aria-hidden="true">Swipe →</span>
     </div>
     <div class="journey-scroll" role="list" aria-label="Start your journey — five foundational topics">
-      ${JOURNEY_TOPICS.map(topic => `
-        <a href="deep-dive.html?source=alice&topic=${topic.id}" class="journey-card" role="listitem">
+      ${topics.map(topic => `
+        <a href="deep-dive.html?source=${DEFAULT_SOURCE_ID}&topic=${topic.id}" class="journey-card" role="listitem">
           <div class="journey-card-thumb">
             <img src="${TopicUtils.encodeAssetPath(topic.image)}" alt="${topic.title}" loading="lazy" width="184" height="138">
             <span class="journey-card-step">Step ${topic.step}</span>
@@ -56,26 +72,85 @@ function renderJourneyStrip() {
   `;
 }
 
-async function loadHomeArchiveStats() {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 4000);
+function buildJourneyTopicsFromIndex(topicTree) {
+  return JOURNEY_TOPIC_IDS.map((id, index) => {
+    const topic = TopicUtils.findTopicById(topicTree, id);
+    if (!topic) return null;
+    return {
+      step: index + 1,
+      id: topic.id,
+      title: topic.title,
+      image: topic.topic_image || ''
+    };
+  }).filter(Boolean);
+}
+
+async function loadJourneyStrip() {
+  const strip = document.getElementById('journey-strip');
+  if (!strip) return;
 
   try {
-    const response = await fetch('data/alice-stats.json', { signal: controller.signal });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const stats = await response.json();
-    if (stats.live != null && stats.total != null) {
-      renderLiveArchiveBadge(stats.live, stats.total);
+    const topicData = await TopicUtils.fetchSourceIndex(DEFAULT_SOURCE_ID);
+    const topics = buildJourneyTopicsFromIndex(topicData.topics || []);
+    if (topics.length) {
+      renderJourneyStrip(topics);
+      return;
     }
   } catch (error) {
-    console.warn('Using fallback archive stats:', error);
-    renderLiveArchiveBadge(FALLBACK_STATS.live, FALLBACK_STATS.total);
-  } finally {
-    clearTimeout(timeout);
+    console.warn('Journey strip unavailable:', error);
+  }
+
+  strip.innerHTML = `
+    <div class="codex-home-journey-head">
+      <div class="journey-strip-title">Start your journey</div>
+      <p class="journey-strip-sub text-mem-muted">Journey topics loading…</p>
+    </div>
+  `;
+}
+
+async function fetchArchiveStatsFromIndex(sourceId = DEFAULT_SOURCE_ID) {
+  const topicData = await TopicUtils.fetchSourceIndex(sourceId);
+  const lightTopics = TopicUtils.normalizeTopicsFromIndex(topicData.topics || []);
+  return TopicUtils.countTopicStats(lightTopics);
+}
+
+async function fetchArchiveStatsFromFile(sourceId = DEFAULT_SOURCE_ID) {
+  const response = await fetch(`data/${sourceId}-stats.json`);
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  const stats = await response.json();
+  if (stats.live == null || stats.total == null) {
+    throw new Error('Invalid stats payload');
+  }
+  return stats;
+}
+
+async function loadHomeArchiveStats() {
+  renderArchiveBadgeSkeleton();
+
+  try {
+    const stats = await fetchArchiveStatsFromIndex();
+    renderLiveArchiveBadge(stats.live, stats.total);
+    return;
+  } catch (error) {
+    console.warn('Topic index stats unavailable, trying stats file:', error);
+  }
+
+  try {
+    const stats = await fetchArchiveStatsFromFile();
+    renderLiveArchiveBadge(stats.live, stats.total);
+  } catch (error) {
+    console.warn('Archive stats unavailable:', error);
+    const badge = document.getElementById('live-archive-badge');
+    if (badge) {
+      badge.innerHTML = `
+        <div class="codex-archive-status-label">Archive progress</div>
+        <div class="live-archive-badge-text">Archive stats temporarily unavailable</div>
+      `;
+    }
   }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  renderJourneyStrip();
+  loadJourneyStrip();
   loadHomeArchiveStats();
 });

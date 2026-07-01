@@ -2,6 +2,7 @@
 
 const CODEX_PAGES = new Set(['codex.html', 'topics.html', 'deep-dive.html']);
 const NETWORK_PAGES = new Set(['community.html']);
+const HOME_PAGES = new Set(['index.html']);
 const INDEX_SECTION_LINKS = new Set([
   'index.html#about',
   'index.html#sources',
@@ -187,9 +188,13 @@ function isNavLinkActive(href, currentPath, currentHash) {
     return true;
   }
 
-  if (linkPath === 'index.html' && currentPath === 'index.html') {
+  if (linkPath === 'index.html' && HOME_PAGES.has(currentPath)) {
     if (linkHash) return currentHash === linkHash;
     return !currentHash;
+  }
+
+  if (!linkHash && linkPath === currentPath) {
+    return true;
   }
 
   return false;
@@ -204,15 +209,20 @@ function setActiveNavLink(activeHref) {
 
   navLinks.forEach(link => {
     link.classList.remove('active');
+    link.removeAttribute('aria-current');
     const href = link.getAttribute('href') || '';
 
     if (activeHref) {
-      if (href === activeHref) link.classList.add('active');
+      if (href === activeHref) {
+        link.classList.add('active');
+        link.setAttribute('aria-current', 'page');
+      }
       return;
     }
 
     if (isNavLinkActive(href, currentPath, currentHash)) {
       link.classList.add('active');
+      link.setAttribute('aria-current', 'page');
     }
   });
 

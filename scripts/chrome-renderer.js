@@ -11,10 +11,19 @@ function renderSiteIcon(name, extraClass = '') {
   return `<span class="${classes}" aria-hidden="true">${svg}</span>`;
 }
 
+function navLinkClasses(link, baseClass) {
+  const classes = [baseClass];
+  if (link.primary) classes.push('nav-link--primary');
+  return classes.join(' ');
+}
+
 function renderNavItem(link, className) {
   const isExternal = link.external || link.newTab || link.target === '_blank';
   const attrs = isExternal ? ' target="_blank" rel="noopener noreferrer"' : '';
-  return `<a href="${link.href}" class="${className}"${attrs}>${link.text}</a>`;
+  const dataNav = link.href && !isExternal
+    ? ` data-nav="${link.href.replace(/\.html.*$/, '').replace(/[^a-z0-9-]/gi, '-')}"`
+    : '';
+  return `<a href="${link.href}" class="${navLinkClasses(link, className)}"${dataNav}${attrs}>${link.text}</a>`;
 }
 
 function renderNavbar(navbarData) {
@@ -36,7 +45,7 @@ function renderNavbar(navbarData) {
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
                 <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
-                <circle cx="13.5" cy="10.5" r="0.7" fill="#EDE4FF" opacity="0.7"/>
+                <circle cx="13.5" cy="10.5" r="0.7" fill="var(--text-bright)" opacity="0.85"/>
               </svg>
             </div>
             <div>

@@ -16,6 +16,18 @@ function escapeAttr(value) {
   return String(value || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
 }
 
+const MediaEmpty = {
+  replace(el, icon, message, muted = false) {
+    const wrap = document.createElement('div');
+    wrap.className = 'w-full h-full flex items-center justify-center p-4';
+    wrap.innerHTML = RenderUtils.renderEmptyState(icon, message, { muted });
+    el.replaceWith(wrap);
+    if (typeof hydrateSiteIcons === 'function') hydrateSiteIcons(wrap);
+  }
+};
+
+window.MediaEmpty = MediaEmpty;
+
 function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId }) {
   const heroImage = TopicUtils.encodeAssetPath((topic.topic_image || topic.infographic_image || '').replace(/\\/g, '/'));
   const readingTime = topic.report ? TopicUtils.estimateReadingTime(topic.report) : '';
@@ -152,7 +164,7 @@ async function loadLessonViewer() {
         <div class="infographic-artifact" role="button" tabindex="0" aria-label="Open full size infographic" data-infographic-src="${infographicSrc.replace(/"/g, '&quot;')}">
           <img src="${infographicSrc}" alt="${topic.title} Infographic"
                width="800" height="600" loading="lazy"
-               onerror="this.outerHTML='<div class=\\'flex flex-col items-center justify-center h-full text-center p-8\\'><div class=\\'text-6xl mb-4\\'>🖼️</div><div class=\\'text-mem-muted\\'>Infographic coming soon</div></div>'">
+               onerror="MediaEmpty.replace(this,'archive','Infographic coming soon')">
           <div class="infographic-artifact-caption">
             <span>Decoded infographic</span>
             <span class="infographic-artifact-zoom" aria-hidden="true">⤢ Expand</span>
@@ -171,12 +183,8 @@ async function loadLessonViewer() {
         }
       });
     } else {
-      infographicContainer.innerHTML = `
-        <div class="flex flex-col items-center justify-center h-full text-center p-8">
-          <div class="text-6xl mb-4">🖼️</div>
-          <div class="text-mem-muted">Infographic coming soon</div>
-        </div>
-      `;
+      infographicContainer.innerHTML = RenderUtils.renderEmptyState('archive', 'Infographic coming soon');
+      if (typeof hydrateSiteIcons === 'function') hydrateSiteIcons(infographicContainer);
     }
 
     if (pdfPreviewContainer) {
@@ -187,10 +195,10 @@ async function loadLessonViewer() {
             <img src="${TopicUtils.encodeAssetPath(topic.pdf_preview_image)}" alt="Slide deck preview - ${topic.title}"
                  class="w-full h-full object-contain rounded-2xl cursor-pointer transition-all duration-300 group-hover:brightness-105 group-hover:scale-[1.01]"
                  width="600" height="400" loading="lazy"
-                 onerror="this.outerHTML='<div class=\\'flex flex-col items-center justify-center h-full p-8 text-center\\'><div class=\\'text-6xl mb-4 opacity-40\\'>📄</div><div class=\\'text-mem-muted text-sm leading-tight\\'>Preview image unavailable</div></div>'">
+                 onerror="MediaEmpty.replace(this,'file','Preview image unavailable',true)">
             <div onclick="event.stopImmediatePropagation(); window.open('${pdfUrl}', '_blank');"
                  class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all bg-gradient-to-b from-black/30 to-black/60 rounded-2xl cursor-pointer">
-              <div class="bg-white text-[#0A051F] px-8 py-3 rounded-2xl text-sm font-semibold flex items-center gap-3 shadow-2xl transform group-hover:scale-105 transition-transform">
+              <div class="media-overlay-btn">
                 ${typeof renderSiteIcon === 'function' ? renderSiteIcon('book', 'card-icon-sm') : ''}
                 <span class="font-bold tracking-wide">OPEN FULL SLIDE DECK</span>
               </div>
@@ -207,10 +215,10 @@ async function loadLessonViewer() {
               <img src="${thumbUrl}" alt="First page preview - ${topic.title}"
                    class="w-full h-full object-contain rounded-2xl cursor-pointer transition-all duration-300 group-hover:brightness-105 group-hover:scale-[1.01]"
                    width="600" height="400" loading="lazy"
-                   onerror="this.outerHTML='<div class=\\'flex flex-col items-center justify-center h-full p-8 text-center\\'><div class=\\'text-6xl mb-4 opacity-40\\'>📄</div><div class=\\'text-mem-muted text-sm\\'>Preview temporarily unavailable</div></div>'">
+                   onerror="MediaEmpty.replace(this,'file','Preview temporarily unavailable',true)">
               <div onclick="event.stopImmediatePropagation(); window.open('${topic.slide_deck_pdf_url}', '_blank');"
                    class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all bg-gradient-to-b from-black/30 to-black/60 rounded-2xl cursor-pointer">
-                <div class="bg-white text-[#0A051F] px-8 py-3 rounded-2xl text-sm font-semibold flex items-center gap-3 shadow-2xl transform group-hover:scale-105 transition-transform">
+                <div class="media-overlay-btn">
                   ${typeof renderSiteIcon === 'function' ? renderSiteIcon('book', 'card-icon-sm') : ''}
                   <span class="font-bold tracking-wide">OPEN FULL SLIDE DECK</span>
                 </div>
@@ -219,10 +227,12 @@ async function loadLessonViewer() {
             </div>
           `;
         } else {
-          pdfPreviewContainer.innerHTML = '<div class="flex flex-col items-center justify-center h-full text-center p-8"><div class="text-6xl mb-4 opacity-40">📄</div><div class="text-mem-muted text-sm">Could not extract PDF ID from link</div></div>';
+          pdfPreviewContainer.innerHTML = RenderUtils.renderEmptyState('file', 'Could not extract PDF ID from link', { muted: true });
+          if (typeof hydrateSiteIcons === 'function') hydrateSiteIcons(pdfPreviewContainer);
         }
       } else {
-        pdfPreviewContainer.innerHTML = '<div class="flex flex-col items-center justify-center h-full text-center p-8"><div class="text-6xl mb-4 opacity-40">📄</div><div class="text-mem-muted text-sm">Slide deck preview coming soon</div></div>';
+        pdfPreviewContainer.innerHTML = RenderUtils.renderEmptyState('file', 'Slide deck preview coming soon', { muted: true });
+        if (typeof hydrateSiteIcons === 'function') hydrateSiteIcons(pdfPreviewContainer);
       }
     }
 
@@ -289,9 +299,13 @@ async function loadLessonViewer() {
     }
   } catch (error) {
     console.error('Error loading lesson:', error);
+    const errorIcon = typeof renderSiteIcon === 'function'
+      ? `<div class="flex justify-center mb-4 text-red-400">${renderSiteIcon('archive', 'card-icon-lg')}</div>`
+      : '';
     headerContainer.innerHTML = `
       <div class="text-center py-20">
-        <div class="text-red-400 text-2xl mb-4">⚠️ Unable to load lesson</div>
+        ${errorIcon}
+        <h2 class="text-2xl font-semibold text-red-400 mb-4">Unable to load lesson</h2>
         <p class="text-mem-soft max-w-md mx-auto">${error.message}</p>
         <a href="codex.html" class="inline-block mt-8 text-sm underline">Return to Codex</a>
       </div>
@@ -489,6 +503,19 @@ function closeInfographicModal() {
 
 window.openInfographicModal = openInfographicModal;
 window.closeInfographicModal = closeInfographicModal;
+
+function setupInfographicModalListeners() {
+  const modal = document.getElementById('infographic-modal');
+  const closeBtn = document.getElementById('infographic-modal-close');
+  if (!modal) return;
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeInfographicModal();
+  });
+  closeBtn?.addEventListener('click', closeInfographicModal);
+}
+
+document.addEventListener('DOMContentLoaded', setupInfographicModalListeners);
 
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {

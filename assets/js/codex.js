@@ -170,38 +170,12 @@ function renderToolbar() {
 }
 
 function renderSourceCard(source) {
-  const card = document.createElement('a');
-  card.href = `topics.html?source=${source.id}`;
-  card.className = 'memory-card content-card channel-card group flex flex-col h-full source-card';
-  card.dataset.sourceId = source.id;
-
-  const soon = getSoonCount(source.stats);
-  const imageHTML = source.image
-    ? `<div class="mb-6"><img src="${source.image}" alt="${source.title}" class="w-full h-40 max-h-48 object-cover rounded-t-3xl" width="400" height="160" loading="lazy"></div>`
-    : `<div class="mb-6 h-40 bg-mem-inset rounded-t-3xl flex items-center justify-center">${typeof renderSiteIcon === 'function' ? renderSiteIcon('document', 'card-icon-lg') : ''}</div>`;
-
-  card.innerHTML = `
-    ${imageHTML}
-    <div class="flex items-start justify-between mb-4">
-      <div>
-        <div class="card-label text-mem-indigo">${source.id}</div>
-        <h3 class="text-2xl font-semibold mt-1 text-white">${source.title}</h3>
-      </div>
-      ${typeof renderSiteIcon === 'function' ? renderSiteIcon('document', 'card-icon-lg') : ''}
-    </div>
-    <p class="text-sm text-mem-muted mb-4 line-clamp-2">${source.subtitle || source.description || ''}</p>
-    <div class="codex-source-meta">
-      <span class="codex-meta-pill">${source.stats.live} ready</span>
-      ${soon ? `<span class="codex-meta-pill codex-meta-pill--soon">${soon} soon</span>` : ''}
-    </div>
-    <div class="flex-grow"></div>
-    <div class="inline-flex items-center text-sm font-semibold text-mem-indigo group-hover:text-white card-action mt-4">
-      Explore this source
-      <span class="group-hover:translate-x-1 transition ml-2">→</span>
-    </div>
-  `;
-
-  return card;
+  const wrapper = document.createElement('div');
+  wrapper.innerHTML = RenderUtils.renderSourceCard(
+    { ...source, stats: source.stats },
+    { soonCount: getSoonCount(source.stats) }
+  );
+  return wrapper.firstElementChild;
 }
 
 function renderSourcesGrid() {

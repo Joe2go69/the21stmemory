@@ -19,7 +19,7 @@ function renderTopicLeaf(sourceId, leaf, extraClass = '') {
   if (!shouldShowTopic(leaf, topicsPageState.filters.status)) return '';
   const leafPh = leaf.is_placeholder;
   const leafClasses = `topic-leaf-btn ${extraClass} ${leafPh ? 'opacity-50 grayscale-[0.5] pointer-events-none' : ''}`;
-  const leafBadge = leafPh ? ' <span class="text-[8px] ml-1 px-1 py-px bg-amber-400/80 text-[#1A1433] font-bold rounded">SOON</span>' : '';
+  const leafBadge = leafPh ? ' <span class="topic-badge topic-badge--inline">SOON</span>' : '';
   return `
     <a href="deep-dive.html?source=${sourceId}&topic=${leaf.id}" class="${leafClasses}">
       <span>${leaf.title}${leafBadge}</span>
@@ -35,7 +35,7 @@ function renderSubtopic(sourceId, sub) {
     if (!shouldShowTopic(sub, topicsPageState.filters.status) && visibleLeaves.length === 0) return '';
 
     const subPh = sub.is_placeholder;
-    const subBadge = subPh ? '<span class="text-[8px] ml-2 px-1.5 py-px bg-amber-400/90 text-[#1A1433] font-bold rounded">SOON</span>' : '';
+    const subBadge = subPh ? '<span class="topic-badge topic-badge--section">SOON</span>' : '';
     const sectionId = `section-${sub.id}`;
 
     let leavesHTML = visibleLeaves.map(leaf => renderTopicLeaf(sourceId, leaf)).join('');
@@ -65,7 +65,7 @@ function renderSubtopic(sourceId, sub) {
   if (!shouldShowTopic(sub, topicsPageState.filters.status)) return '';
   const subPh = sub.is_placeholder;
   const leafClasses = `topic-leaf-btn mb-3 inline-flex max-w-md ${subPh ? 'opacity-50 grayscale-[0.5] pointer-events-none' : ''}`;
-  const leafBadge = subPh ? ' <span class="text-[8px] ml-1 px-1 py-px bg-amber-400/80 text-[#1A1433] font-bold rounded">SOON</span>' : '';
+  const leafBadge = subPh ? ' <span class="topic-badge topic-badge--inline">SOON</span>' : '';
   return `
     <a href="deep-dive.html?source=${sourceId}&topic=${sub.id}" class="${leafClasses}">
       <span>${sub.title}${leafBadge}</span>
@@ -87,8 +87,8 @@ function renderCategoryBlock(sourceId, category) {
   }
 
   const subCount = category.subtopics ? category.subtopics.length : 0;
-  const rootClasses = `topic-root-card channel-card group no-underline mb-6 ${isPh ? 'opacity-60 grayscale-[0.25] pointer-events-none' : ''}`;
-  const placeholderBadge = isPh ? '<div class="absolute -top-1 -right-1 text-[8px] px-2 py-px bg-amber-400 text-[#1A1433] font-bold tracking-[1px] rounded-bl-lg rounded-tr-lg shadow">COMING SOON</div>' : '';
+  const rootClasses = `topic-root-card channel-card surface-interactive group no-underline mb-6 p-6 sm:p-8 ${isPh ? 'opacity-60 grayscale-[0.25] pointer-events-none' : ''}`;
+  const placeholderBadge = isPh ? '<div class="topic-badge topic-badge--corner">COMING SOON</div>' : '';
 
   let subsHTML = '';
   if (category.subtopics?.length) {
@@ -115,9 +115,9 @@ function renderCategoryBlock(sourceId, category) {
               }
             </div>
             <div class="topic-root-card__body">
-              <h3 class="text-xl sm:text-2xl md:text-[2.05rem] font-semibold tracking-tighter text-white group-hover:text-mem-indigo transition-colors leading-tight">${category.title}</h3>
+              <h3 class="topic-category-title group-hover:text-mem-indigo transition-colors">${category.title}</h3>
               <span class="topic-category-count">${subCount} ${subCount === 1 ? 'category' : 'categories'}</span>
-              <p class="text-mem-soft text-[14.5px] leading-relaxed">${category.description || ''}</p>
+              <p class="topic-category-desc">${category.description || ''}</p>
             </div>
           </div>
           <div class="mt-auto pt-5">
@@ -125,7 +125,7 @@ function renderCategoryBlock(sourceId, category) {
               Explore this realm <span class="text-lg leading-none">→</span>
             </div>
           </div>
-          <div class="absolute inset-0 bg-gradient-to-br from-[#6366F1]/5 to-transparent rounded-3xl pointer-events-none"></div>
+          <div class="topic-root-shimmer"></div>
           ${placeholderBadge}
         </a>
       ` : ''}
@@ -335,10 +335,8 @@ function renderSourceHeader(data, sourceId, stats) {
           <a href="codex.html" class="btn-secondary inline-flex items-center justify-center px-8 py-4 text-base font-semibold">← Back to Codex</a>
         </div>
       </div>
-      <div class="md:col-span-5 flex flex-col h-full">
-        <img src="${TopicUtils.encodeAssetPath(data.image)}" alt="${data.title}"
-             class="rounded-3xl shadow-2xl w-full max-w-md md:max-w-sm border border-mem-violet/20"
-             width="600" height="400" loading="eager">
+      <div class="md:col-span-5 flex flex-col h-full items-center md:items-end">
+        ${RenderUtils.renderMediaFrame(TopicUtils.encodeAssetPath(data.image), data.title, { loading: 'eager', className: 'w-full max-w-md md:max-w-sm' })}
         <div class="mt-auto pt-6">
           <a href="${data.pdf_url}" target="_blank"
              class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold w-full max-w-[260px]">

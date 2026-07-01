@@ -11,21 +11,21 @@
       "id": "nature-of-reality",
       "title": "Nature of Reality",
       "description": "The true nature of our simulated existence.",
-      "topic_image": "images/nat of real.webp",
+      "topic_image": "images/nature-of-reality.webp",
       "is_placeholder": false,
       "subtopics": [
         {
           "id": "simulation-reality",
           "title": "Simulation Reality",
           "description": "Exploration of our simulation reality .",
-          "topic_image": "images/sim real.webp",
+          "topic_image": "images/simulation-reality.webp",
           "is_placeholder": false,
           "subtopics": [
             {
               "id": "3rd-density-overlays",
               "title": "3rd Density Overlays",
               "description": "Exploration of 3rd density overlays.",
-              "topic_image": "images/3d overlay.webp",
+              "topic_image": "images/3d-overlay.webp",
               "is_placeholder": false
             },
             {
@@ -152,7 +152,7 @@
               "id": "reptilians",
               "title": "Reptilians",
               "description": "Exploration of reptilians.",
-              "topic_image": "images/alice/Reptilian.webp",
+              "topic_image": "images/alice/reptilian.webp",
               "is_placeholder": false
             }
           ]
@@ -168,7 +168,7 @@
               "id": "amnesia-vortex",
               "title": "Amnesia Vortex",
               "description": "Exploration of the amnesia vortex.",
-              "topic_image": "images/alice/Amnesia.webp",
+              "topic_image": "images/alice/amnesia.webp",
               "is_placeholder": false
             },
             {
@@ -212,7 +212,7 @@
               "id": "false-history",
               "title": "False History",
               "description": "Exploration of false history.",
-              "topic_image": "images/alice/False.webp",
+              "topic_image": "images/alice/false.webp",
               "is_placeholder": false
             },
             {
@@ -237,28 +237,28 @@
           "id": "tartaria",
           "title": "Tartaria",
           "description": "Exploration of tartaria.",
-          "topic_image": "images/alice/Tartaria.webp",
+          "topic_image": "images/alice/tartaria.webp",
           "is_placeholder": false,
           "subtopics": [
             {
               "id": "free-energy-architecture",
               "title": "Free Energy Architecture",
               "description": "Exploration of free energy architecture.",
-              "topic_image": "images/alice/free Energy.webp",
+              "topic_image": "images/alice/free-energy.webp",
               "is_placeholder": false
             },
             {
               "id": "atmospheric-condensers",
               "title": "Atmospheric Condensers",
               "description": "Exploration of atmospheric condensers.",
-              "topic_image": "images/alice/Atmospheric Condensers.webp",
+              "topic_image": "images/alice/atmospheric-condensers.webp",
               "is_placeholder": false
             },
             {
               "id": "antiquity-technology",
               "title": "Antiquity Technology",
               "description": "Exploration of antiquity technology.",
-              "topic_image": "images/alice/Antiquity Tech.webp",
+              "topic_image": "images/alice/antiquity-tech.webp",
               "is_placeholder": false
             }
           ]
@@ -274,7 +274,7 @@
               "id": "mud-floods",
               "title": "Mud-floods",
               "description": "Exploration of mud-floods.",
-              "topic_image": "images/alice/mud flood.webp",
+              "topic_image": "images/alice/mud-flood.webp",
               "is_placeholder": false
             },
             {
@@ -318,7 +318,7 @@
               "id": "culling-survivors",
               "title": "Culling Survivors",
               "description": "Exploration of culling survivors.",
-              "topic_image": "images/alice/Culling Survivors.webp",
+              "topic_image": "images/alice/culling-survivors.webp",
               "is_placeholder": false
             }
           ]
@@ -329,28 +329,28 @@
       "id": "3-strings-of-attachment",
       "title": "The 3 Strings of Attachment",
       "description": "The three main tools of control.",
-      "topic_image": "images/alice/The 3 Strings of Attachment.webp",
+      "topic_image": "images/alice/the-3-strings-of-attachment.webp",
       "is_placeholder": false,
       "subtopics": [
         {
           "id": "religion-false-gods",
           "title": "Religion (False Gods)",
           "description": "Exploration of religion (false gods).",
-          "topic_image": "images/alice/Religion (False Gods).webp",
+          "topic_image": "images/alice/religion-false-gods.webp",
           "is_placeholder": false
         },
         {
           "id": "finance-fake-money",
           "title": "Finance (Fake Money)",
           "description": "Exploration of finance (fake money).",
-          "topic_image": "images/alice/Finance (Fake Money).webp",
+          "topic_image": "images/alice/finance-fake-money.webp",
           "is_placeholder": false
         },
         {
           "id": "perceived-knowledge-lies",
           "title": "Perceived Knowledge (Lies)",
           "description": "Exploration of perceived knowledge (lies).",
-          "topic_image": "images/alice/Perceived Knowledge (Lies).webp",
+          "topic_image": "images/alice/perceived-knowledge-lies.webp",
           "is_placeholder": false
         }
       ]
@@ -359,35 +359,35 @@
       "id": "spiritual-awakening",
       "title": "Spiritual Awakening",
       "description": "The path to ascension and remembrance.",
-      "topic_image": "images/alice/Spiritual Awakening.webp",
+      "topic_image": "images/alice/spiritual-awakening.webp",
       "is_placeholder": false,
       "subtopics": [
         {
           "id": "soul-family",
           "title": "Soul Family",
           "description": "The path to reunification with our eternal cosmic soul families and origins.",
-          "topic_image": "images/alice/soul family.webp",
+          "topic_image": "images/alice/soul-family.webp",
           "is_placeholder": false,
           "subtopics": [
             {
               "id": "4000-ancients",
               "title": "4,000 Ancients",
               "description": "The path to understanding our ancient soul lineage and the 4,000 Ancients who anchor the realm.",
-              "topic_image": "images/alice/4000_Ancients.webp",
+              "topic_image": "images/alice/4000-ancients.webp",
               "is_placeholder": false
             },
             {
               "id": "star-seeds",
               "title": "Star Seeds",
               "description": "Exploration of star seeds and their role in the cosmic soul family and the Great Spiritual Awakening.",
-              "topic_image": "images/alice/Star Seeds.webp",
+              "topic_image": "images/alice/star-seeds.webp",
               "is_placeholder": false
             },
             {
               "id": "twin-flames",
               "title": "Twin Flames",
               "description": "Exploration of Twin Flames and the true Sol-System cosmic family network.",
-              "topic_image": "images/alice/Twin_Flames.webp",
+              "topic_image": "images/alice/twin-flames.webp",
               "is_placeholder": false
             }
           ]
@@ -396,28 +396,28 @@
           "id": "ascension-event",
           "title": "Ascension Event",
           "description": "The culminating evolutionary leap of the Great Spiritual Awakening — the EMF flash, overlay dissolution, and liberation of true souls.",
-          "topic_image": "images/alice/Ascension Event.webp",
+          "topic_image": "images/alice/ascension-event.webp",
           "is_placeholder": false,
           "subtopics": [
             {
               "id": "ebs-disclosure",
               "title": "EBS Disclosure",
               "description": "The Emergency Broadcast System disclosure that catalyzes the Great Spiritual Awakening and the final Ascension Event on Gateway-10.",
-              "topic_image": "images/alice/EBS Disclosure.webp",
+              "topic_image": "images/alice/ebs-disclosure.webp",
               "is_placeholder": false
             },
             {
               "id": "fake-alien-invasion",
               "title": "Fake Alien Invasion",
               "description": "A staged holographic sky battle and mass abduction scenario engineered during the Ascension Event to induce maximum psychological trauma prior to the EMF flash and planetary reset.",
-              "topic_image": "images/alice/Fake Alien Invasion.webp",
+              "topic_image": "images/alice/fake-alien-invasion.webp",
               "is_placeholder": false
             },
             {
               "id": "emf-white-flash",
               "title": "EMF White Flash",
               "description": "The culminating 30-second white flash that purges the false matrix, removes 97% of NPCs, and restores ancient memories to surviving true souls.",
-              "topic_image": "images/alice/EMF White Flash.webp",
+              "topic_image": "images/alice/emf-white-flash.webp",
               "is_placeholder": false
             }
           ]
@@ -426,28 +426,28 @@
           "id": "npc-population",
           "title": "NPC Population",
           "description": "The profound reality that 97% of Earth's population consists of NPCs — synthetic beings created to maintain matrix control until their removal during the EMF flash.",
-          "topic_image": "images/alice/NPC Population.webp",
+          "topic_image": "images/alice/npc-population.webp",
           "is_placeholder": false,
           "subtopics": [
             {
               "id": "non-player-characters",
               "title": "Non-Player Characters",
               "description": "Exploration of non-player characters.",
-              "topic_image": "images/alice/Non-Player Characters.webp",
+              "topic_image": "images/alice/non-player-characters.webp",
               "is_placeholder": false
             },
             {
               "id": "97-percent-population",
               "title": "97 Percent Population",
               "description": "Exploration of 97 percent population.",
-              "topic_image": "images/alice/97 Percent Population.webp",
+              "topic_image": "images/alice/97-percent-population.webp",
               "is_placeholder": false
             },
             {
               "id": "recycled-souls",
               "title": "Recycled Souls",
               "description": "Exploration of recycled souls.",
-              "topic_image": "images/alice/Recycled Souls.webp",
+              "topic_image": "images/alice/recycled-souls.webp",
               "is_placeholder": false
             }
           ]

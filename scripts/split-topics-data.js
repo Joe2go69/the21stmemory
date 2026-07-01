@@ -53,6 +53,22 @@ function stripTopic(node, outDir, written) {
   return light;
 }
 
+function countTopicStats(topics) {
+  let live = 0;
+  let total = 0;
+
+  const walk = (items) => {
+    for (const item of items) {
+      total++;
+      if (!item.is_placeholder) live++;
+      if (item.subtopics?.length) walk(item.subtopics);
+    }
+  };
+
+  walk(topics || []);
+  return { live, total };
+}
+
 function splitSource(sourceId) {
   const sourcePath = path.join(ROOT, 'data', `${sourceId}-topics.json`);
   if (!fs.existsSync(sourcePath)) {
@@ -79,7 +95,12 @@ function splitSource(sourceId) {
   const indexPath = path.join(ROOT, 'data', `${sourceId}-topics-index.json`);
   fs.writeFileSync(indexPath, JSON.stringify(index, null, 2) + '\n', 'utf8');
 
+  const stats = countTopicStats(index.topics);
+  const statsPath = path.join(ROOT, 'data', `${sourceId}-stats.json`);
+  fs.writeFileSync(statsPath, JSON.stringify(stats, null, 2) + '\n', 'utf8');
+
   console.log(`${sourceId}: index → ${path.relative(ROOT, indexPath)} (${written.length} topic files)`);
+  console.log(`${sourceId}: stats → ${path.relative(ROOT, statsPath)} (${stats.live}/${stats.total} live)`);
 }
 
 const sourcesPath = path.join(ROOT, 'data', 'sources.json');
