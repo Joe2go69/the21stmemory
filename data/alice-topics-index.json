@@ -447,8 +447,8 @@
               "id": "recycled-souls",
               "title": "Recycled Souls",
               "description": "Exploration of recycled souls.",
-              "topic_image": "images/PLACEHOLDER.webp",
-              "is_placeholder": true
+              "topic_image": "images/alice/Recycled Souls.webp",
+              "is_placeholder": false
             }
           ]
         }
