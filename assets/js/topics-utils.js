@@ -46,6 +46,7 @@ const TopicUtils = {
         description: item.description || '',
         is_placeholder: this.isPlaceholder(item)
       };
+      if (item.is_main_root) normalized.is_main_root = true;
       if (item.subtopics?.length) {
         normalized.subtopics = this.normalizeTopicsFromIndex(item.subtopics);
       }

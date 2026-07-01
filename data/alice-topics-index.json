@@ -5,8 +5,16 @@
   "image": "images/alice.webp",
   "pdf_url": "https://drive.google.com/file/d/14mKHQDHnHiOoHyIS_yzc4xIzaH_MpBxM/view",
   "description": "The foundational transmission that takes you deep down the rabbit hole into the true nature of reality and the parasitic system that has enslaved humanity for millennia. Discover the hidden history of multiple resets, the existence of giants, advanced ancient civilizations, the true origins of the Soul, and the mechanics of the Great Spiritual Awakening now in progress. \n\nThis powerful series exposes the dark truths of the Vatican’s underground operations, the real function of the Moon, the Amnesia Vortex, and provides the clear path to breaking free from this inverted matrix toward genuine spiritual liberation and awakening.",
-  "total_topics": 59,
+  "total_topics": 60,
   "topics": [
+    {
+      "id": "essence-of-the-transmission",
+      "title": "Essence of the Transmission",
+      "description": "The cornerstone summary of the entire Alice transmission — encompassing the Great Spiritual Awakening, the 178,000-year reset cycle, and the path to true multidimensional sovereignty.",
+      "topic_image": "images/alice/Alice root.webp",
+      "is_placeholder": false,
+      "is_main_root": true
+    },
     {
       "id": "nature-of-reality",
       "title": "Nature of Reality",

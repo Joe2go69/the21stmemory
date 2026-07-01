@@ -6,8 +6,8 @@ const HOME_PAGES = new Set(['index.html']);
 const INDEX_SECTION_LINKS = new Set([
   'index.html#about',
   'index.html#sources',
-  'index.html#oracle',
-  'index.html#rumble'
+  'index.html#codex',
+  'index.html#explore'
 ]);
 
 function initSharedComponents() {
@@ -242,9 +242,9 @@ function initSectionScrollSpy() {
 
   const sections = [
     { id: 'about', href: 'index.html#about' },
+    { id: 'codex', href: 'index.html#codex' },
     { id: 'sources', href: 'index.html#sources' },
-    { id: 'oracle', href: 'index.html#oracle' },
-    { id: 'rumble', href: 'index.html#rumble' }
+    { id: 'explore', href: 'index.html#explore' }
   ];
 
   const observed = sections

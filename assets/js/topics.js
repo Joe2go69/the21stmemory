@@ -73,6 +73,42 @@ function renderSubtopic(sourceId, sub) {
   `;
 }
 
+function renderMainRootBlock(sourceId, root) {
+  if (!root || !shouldShowTopic(root, topicsPageState.filters.status)) return '';
+
+  const heroImage = TopicUtils.encodeAssetPath(root.topic_image);
+  return `
+    <div class="topic-main-root-block" data-category-id="${root.id}">
+      <div class="topic-main-root-eyebrow" aria-hidden="true">
+        <span class="topic-main-root-eyebrow-icon">◈</span>
+        Root Transmission
+      </div>
+      <a href="deep-dive.html?source=${sourceId}&topic=${root.id}"
+         class="topic-main-root-card channel-card surface-interactive group no-underline">
+        <div class="topic-main-root-card__glow" aria-hidden="true"></div>
+        <div class="topic-main-root-card__header">
+          <div class="topic-main-root-icon flex-shrink-0 overflow-hidden">
+            ${heroImage
+              ? `<img src="${heroImage}" alt="${root.title} visual" class="w-full h-full object-cover" loading="eager" onerror="this.outerHTML='<div class=\\'flex items-center justify-center h-full text-mem-accent text-xs font-mono tracking-[2px] opacity-70\\'>ROOT</div>'">`
+              : '<div class="flex items-center justify-center h-full text-mem-accent text-xs font-mono tracking-[2px] opacity-70">ROOT</div>'
+            }
+          </div>
+          <div class="topic-main-root-card__body">
+            <div class="topic-main-root-badge">Essence · Start Here</div>
+            <h3 class="topic-main-root-title group-hover:text-mem-indigo transition-colors">${root.title}</h3>
+            <p class="topic-main-root-desc">${root.description || ''}</p>
+          </div>
+        </div>
+        <div class="topic-main-root-footer">
+          <div class="topic-main-root-explore inline-flex items-center justify-center gap-2 text-xs font-bold tracking-[1.5px] w-full">
+            Begin the transmission <span class="text-lg leading-none">→</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  `;
+}
+
 function renderCategoryBlock(sourceId, category) {
   const isPh = category.is_placeholder;
   if (!shouldShowTopic(category, topicsPageState.filters.status) && topicsPageState.filters.status !== 'all') {
@@ -195,26 +231,68 @@ function setupCollapsibleSections(container) {
   });
 }
 
+function renderMainRootSection() {
+  const { data, sourceId, filters } = topicsPageState;
+  const section = document.getElementById('topics-main-root-section');
+  if (!section || !data) return;
+
+  const mainRoots = data.topics.filter(t => t.is_main_root);
+  const showSection = filters.category === 'all' && !TopicUtils.normalizeSearch(filters.search) && mainRoots.length > 0;
+
+  if (!showSection) {
+    section.innerHTML = '';
+    section.hidden = true;
+    return;
+  }
+
+  const visibleRoots = mainRoots.filter(root => shouldShowTopic(root, filters.status));
+  if (!visibleRoots.length) {
+    section.innerHTML = '';
+    section.hidden = true;
+    return;
+  }
+
+  section.hidden = false;
+  section.innerHTML = `
+    <div class="topics-main-root-section">
+      <div class="topics-main-root-header">
+        <h2 class="topics-main-root-heading">Where to Begin</h2>
+        <p class="topics-main-root-subheading">Start with the essence transmission — a complete overview before exploring each category below.</p>
+      </div>
+      ${visibleRoots.map(root => renderMainRootBlock(sourceId, root)).join('')}
+    </div>
+    <div class="topics-section-divider" aria-hidden="true">
+      <span class="topics-section-divider__line"></span>
+      <span class="topics-section-divider__label">Explore by category</span>
+      <span class="topics-section-divider__line"></span>
+    </div>
+  `;
+}
+
 function renderTopicsList() {
   const { data, sourceId, filters } = topicsPageState;
   const container = document.getElementById('topics-list');
   if (!container || !data) return;
+
+  renderMainRootSection();
 
   if (TopicUtils.normalizeSearch(filters.search)) {
     renderTopicsSearchResults();
     return;
   }
 
-  let categories = data.topics;
+  let categories = data.topics.filter(t => !t.is_main_root);
   if (filters.category !== 'all') {
     categories = categories.filter(c => c.id === filters.category);
   }
-  let html = categories.map(cat => renderCategoryBlock(sourceId, cat)).join('');
+
+  const html = categories.map(cat => renderCategoryBlock(sourceId, cat)).join('');
   if (!html.trim()) {
-    html = `<div class="text-center py-16 text-mem-muted">No topics match the current filter. Try a different view.</div>`;
+    container.innerHTML = `<div class="text-center py-16 text-mem-muted">No topics match the current filter. Try a different view.</div>`;
+  } else {
+    container.innerHTML = html;
+    setupCollapsibleSections(container);
   }
-  container.innerHTML = html;
-  setupCollapsibleSections(container);
 }
 
 function renderFilterControls() {
@@ -225,7 +303,7 @@ function renderFilterControls() {
   const soonCount = Math.max(0, stats.total - stats.live);
   const categoryTabs = [
     { id: 'all', label: 'All Categories' },
-    ...data.topics.map(c => ({ id: c.id, label: c.title }))
+    ...data.topics.filter(c => !c.is_main_root).map(c => ({ id: c.id, label: c.title }))
   ];
 
   const statusButtons = ['all', 'ready', 'soon'].map(f => {
@@ -374,11 +452,14 @@ async function loadSourceViewer() {
 
     container.innerHTML = `
       <div id="topics-controls"></div>
-      <div class="flex items-center justify-between mb-10">
-        <h2 class="text-4xl font-semibold tracking-tight">Topics by Category</h2>
-        <div class="hidden md:block text-xs px-4 py-1.5 bg-mem-violet/10 text-mem-muted rounded-full tracking-wide">Click any card to dive deep</div>
+      <div id="topics-main-root-section" hidden></div>
+      <div class="topics-categories-section">
+        <div class="flex items-center justify-between mb-10">
+          <h2 class="text-4xl font-semibold tracking-tight">Topics by Category</h2>
+          <div class="hidden md:block text-xs px-4 py-1.5 bg-mem-violet/10 text-mem-muted rounded-full tracking-wide">Click any card to dive deep</div>
+        </div>
+        <div id="topics-list"></div>
       </div>
-      <div id="topics-list"></div>
     `;
 
     renderFilterControls();

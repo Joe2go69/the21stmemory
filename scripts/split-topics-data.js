@@ -45,6 +45,7 @@ function stripTopic(node, outDir, written) {
     topic_image: node.topic_image || '',
     is_placeholder: isPlaceholder(node)
   };
+  if (node.is_main_root) light.is_main_root = true;
 
   if (node.subtopics?.length) {
     light.subtopics = node.subtopics.map(child => stripTopic(child, outDir, written));

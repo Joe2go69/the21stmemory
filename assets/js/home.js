@@ -1,6 +1,7 @@
-// Homepage — live archive stats, journey strip, click-to-play videos
+// Homepage — live archive stats, journey strip, essence entry, sticky CTA
 
 const DEFAULT_SOURCE_ID = 'alice';
+const ESSENCE_TOPIC_ID = 'essence-of-the-transmission';
 
 const JOURNEY_TOPIC_IDS = [
   'nature-of-reality',
@@ -44,45 +45,89 @@ function renderLiveArchiveBadge(live, total) {
   TopicUtils.animateProgressBars(badge);
 }
 
-function renderJourneyStrip(topics) {
+function renderJourneyCard(topic) {
+  const essenceClass = topic.isEssence ? ' journey-card--essence' : '';
+  const allClass = topic.isViewAll ? ' journey-card--all' : '';
+  const stepLabel = topic.isViewAll ? 'Archive' : (topic.isEssence ? 'Start' : `Step ${topic.step}`);
+
+  if (topic.isViewAll) {
+    return `
+      <a href="${topic.href}" class="journey-card journey-card--all" role="listitem">
+        <div class="journey-card-all-body">
+          <div class="journey-card-all-count">${topic.countLabel}</div>
+          <div class="journey-card-title">${topic.title}</div>
+        </div>
+      </a>
+    `;
+  }
+
+  return `
+    <a href="deep-dive.html?source=${DEFAULT_SOURCE_ID}&topic=${topic.id}" class="journey-card${essenceClass}${allClass}" role="listitem">
+      <div class="journey-card-thumb">
+        <img src="${TopicUtils.encodeAssetPath(topic.image)}" alt="${topic.title}" loading="lazy" width="184" height="138">
+        <span class="journey-card-step">${stepLabel}</span>
+      </div>
+      <div class="journey-card-body">
+        <div class="journey-card-title">${topic.title}</div>
+      </div>
+    </a>
+  `;
+}
+
+function renderJourneyStrip(topics, stats) {
   const strip = document.getElementById('journey-strip');
   if (!strip || !topics.length) return;
+
+  const cards = [...topics];
+  if (stats?.total) {
+    cards.push({
+      isViewAll: true,
+      href: `topics.html?source=${DEFAULT_SOURCE_ID}#explore-topics`,
+      countLabel: `${stats.total} topics`,
+      title: 'View full archive →'
+    });
+  }
 
   strip.innerHTML = `
     <div class="codex-home-journey-head">
       <div>
         <div class="journey-strip-title">Start your journey</div>
-        <p class="journey-strip-sub">Five foundational revelations — follow the path from simulation to awakening.</p>
+        <p class="journey-strip-sub">Begin with the Essence, then follow five foundational revelations — or jump to any topic in the archive.</p>
       </div>
       <span class="journey-strip-hint" aria-hidden="true">Swipe →</span>
     </div>
-    <div class="journey-scroll" role="list" aria-label="Start your journey — five foundational topics">
-      ${topics.map(topic => `
-        <a href="deep-dive.html?source=${DEFAULT_SOURCE_ID}&topic=${topic.id}" class="journey-card" role="listitem">
-          <div class="journey-card-thumb">
-            <img src="${TopicUtils.encodeAssetPath(topic.image)}" alt="${topic.title}" loading="lazy" width="184" height="138">
-            <span class="journey-card-step">Step ${topic.step}</span>
-          </div>
-          <div class="journey-card-body">
-            <div class="journey-card-title">${topic.title}</div>
-          </div>
-        </a>
-      `).join('')}
+    <div class="journey-scroll" role="list" aria-label="Start your journey — essence and foundational topics">
+      ${cards.map(topic => renderJourneyCard(topic)).join('')}
     </div>
   `;
 }
 
 function buildJourneyTopicsFromIndex(topicTree) {
-  return JOURNEY_TOPIC_IDS.map((id, index) => {
+  const topics = [];
+
+  const essence = TopicUtils.findTopicById(topicTree, ESSENCE_TOPIC_ID);
+  if (essence) {
+    topics.push({
+      step: 0,
+      id: essence.id,
+      title: essence.title,
+      image: essence.topic_image || '',
+      isEssence: true
+    });
+  }
+
+  JOURNEY_TOPIC_IDS.forEach((id, index) => {
     const topic = TopicUtils.findTopicById(topicTree, id);
-    if (!topic) return null;
-    return {
+    if (!topic) return;
+    topics.push({
       step: index + 1,
       id: topic.id,
       title: topic.title,
       image: topic.topic_image || ''
-    };
-  }).filter(Boolean);
+    });
+  });
+
+  return topics;
 }
 
 async function loadJourneyStrip() {
@@ -92,9 +137,13 @@ async function loadJourneyStrip() {
   try {
     const topicData = await TopicUtils.fetchSourceIndex(DEFAULT_SOURCE_ID);
     const topics = buildJourneyTopicsFromIndex(topicData.topics || []);
+    const stats = TopicUtils.countTopicStats(
+      TopicUtils.normalizeTopicsFromIndex(topicData.topics || [])
+    );
+
     if (topics.length) {
-      renderJourneyStrip(topics);
-      return;
+      renderJourneyStrip(topics, stats);
+      return stats;
     }
   } catch (error) {
     console.warn('Journey strip unavailable:', error);
@@ -106,6 +155,7 @@ async function loadJourneyStrip() {
       <p class="journey-strip-sub text-mem-muted">Journey topics loading…</p>
     </div>
   `;
+  return null;
 }
 
 async function fetchArchiveStatsFromIndex(sourceId = DEFAULT_SOURCE_ID) {
@@ -130,7 +180,7 @@ async function loadHomeArchiveStats() {
   try {
     const stats = await fetchArchiveStatsFromIndex();
     renderLiveArchiveBadge(stats.live, stats.total);
-    return;
+    return stats;
   } catch (error) {
     console.warn('Topic index stats unavailable, trying stats file:', error);
   }
@@ -138,6 +188,7 @@ async function loadHomeArchiveStats() {
   try {
     const stats = await fetchArchiveStatsFromFile();
     renderLiveArchiveBadge(stats.live, stats.total);
+    return stats;
   } catch (error) {
     console.warn('Archive stats unavailable:', error);
     const badge = document.getElementById('live-archive-badge');
@@ -147,10 +198,48 @@ async function loadHomeArchiveStats() {
         <div class="live-archive-badge-text">Archive stats temporarily unavailable</div>
       `;
     }
+    return null;
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  loadJourneyStrip();
-  loadHomeArchiveStats();
+function initStickyCodexBar() {
+  const bar = document.getElementById('sticky-codex-bar');
+  const hero = document.querySelector('header.hero-spotlight');
+  const codexSection = document.getElementById('codex');
+  if (!bar || !hero) return;
+
+  const showAfter = () => {
+    const heroBottom = hero.getBoundingClientRect().bottom;
+    const codexVisible = codexSection
+      ? codexSection.getBoundingClientRect().top < window.innerHeight * 0.65
+      : false;
+    const shouldShow = heroBottom < 0 && !codexVisible;
+    bar.hidden = !shouldShow;
+    bar.setAttribute('aria-hidden', shouldShow ? 'false' : 'true');
+  };
+
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      showAfter();
+      ticking = false;
+    });
+  }, { passive: true });
+
+  showAfter();
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
+  const [stats] = await Promise.all([
+    loadHomeArchiveStats(),
+    loadJourneyStrip()
+  ]);
+
+  initStickyCodexBar();
+
+  if (typeof hydrateSiteIcons === 'function') {
+    hydrateSiteIcons(document.getElementById('codex'));
+  }
 });
