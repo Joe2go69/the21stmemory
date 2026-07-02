@@ -1,0 +1,804 @@
+{
+  "id": "breakdown",
+  "title": "Mega Breakdown Board Notes & Highlights",
+  "subtitle": "Codex Archive • Great Awakening Final Stages",
+  "image": "images/breakdown/breakdown.webp",
+  "pdf_url": "https://drive.google.com/file/d/1qD8iHWrkmNX-ozTVuI3wSM-xlJldktM6/view?usp=sharing",
+  "description": "This transmission lays out the full mechanics of the final stages of the Great Awakening: the phased Great Purge and infrastructure sweep, the controlled 3rd realm collapse, the EBS lockdown window, and the final A.I. theatre of staged WW3 and fake alien invasion events. It reveals the real craft arrival on the correct frequency band, the extraction protocol and homecoming for resonating souls, the three healing sanctuaries (Water Domes, Crystal Halls, and Star Pods), projection dome technology, the living crystalline grid system with its nodes and harmonic lenses, the hidden history of the Lyran lineage and early Custodians, the removal of the Spirit Tree, and the precise sequence of the overlay collapse that returns the original second realm.\n\nEssential for anyone who wants to understand frequency and vibration as the true key to perception, choice, and liberation, and what it means to hold steady as a resonating soul through the final window.",
+  "total_topics": 104,
+  "topics": [
+    {
+      "id": "essence-of-the-transmission",
+      "title": "Essence of the Transmission",
+      "description": "The cornerstone summary of the Mega Breakdown transmission — the final stages of the Great Awakening, the Great Purge, and the path home for resonating souls.",
+      "topic_image": "images/breakdown/Mega Breakdown essense.webp",
+      "is_placeholder": false,
+      "is_main_root": true
+    },
+    {
+      "id": "the-purge-phases",
+      "title": "The Purge Phases",
+      "description": "The phased Great Purge — from parasite targeting through truth disclosure and stabilization.",
+      "topic_image": "images/breakdown/PLACEHOLDER.webp",
+      "is_placeholder": true,
+      "subtopics": [
+        {
+          "id": "phase-one-three",
+          "title": "Phase One-Three",
+          "description": "Exploration of phase One-Three.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "targeting-parasites",
+              "title": "Targeting Parasites",
+              "description": "Exploration of targeting Parasites.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "infrastructure-sweep",
+              "title": "Infrastructure Sweep",
+              "description": "Exploration of infrastructure Sweep.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "underground-dismantling",
+              "title": "Underground Dismantling",
+              "description": "Exploration of underground Dismantling.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "phase-four-six",
+          "title": "Phase Four-Six",
+          "description": "Exploration of phase Four-Six.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "narrative-maintenance",
+              "title": "Narrative Maintenance",
+              "description": "Exploration of narrative Maintenance.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "trigger-events",
+              "title": "Trigger Events",
+              "description": "Exploration of trigger Events.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "lockdown-window",
+              "title": "Lockdown Window",
+              "description": "Exploration of lockdown Window.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "phase-seven-eight",
+          "title": "Phase Seven-Eight",
+          "description": "Exploration of phase Seven-Eight.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "truth-disclosure",
+              "title": "Truth Disclosure",
+              "description": "Exploration of truth Disclosure.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "stabilization-process",
+              "title": "Stabilization Process",
+              "description": "Exploration of stabilization Process.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blackout-timeline",
+      "title": "Blackout Timeline",
+      "description": "The EBS lockdown window — comms blackout, physical indicators, and mass reveal operations.",
+      "topic_image": "images/breakdown/PLACEHOLDER.webp",
+      "is_placeholder": true,
+      "subtopics": [
+        {
+          "id": "the-first-72-hours",
+          "title": "The First 72 Hours",
+          "description": "Exploration of the First 72 Hours.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "comms-blackout",
+              "title": "Comms Blackout",
+              "description": "Exploration of comms Blackout.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "npc-glitching",
+              "title": "NPC Glitching",
+              "description": "Exploration of nPC Glitching.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "frequency-fracture",
+              "title": "Frequency Fracture",
+              "description": "Exploration of frequency Fracture.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "physical-indicators",
+          "title": "Physical Indicators",
+          "description": "Exploration of physical Indicators.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "skull-buzzing",
+              "title": "Skull Buzzing",
+              "description": "Exploration of skull Buzzing.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "muted-environment",
+              "title": "Muted Environment",
+              "description": "Exploration of muted Environment.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "atmospheric-pop",
+              "title": "Atmospheric Pop",
+              "description": "Exploration of atmospheric Pop.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "ebs-operation",
+          "title": "EBS Operation",
+          "description": "Exploration of eBS Operation.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "military-broadcasts",
+              "title": "Military Broadcasts",
+              "description": "Exploration of military Broadcasts.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "mass-reveal",
+              "title": "Mass Reveal",
+              "description": "Exploration of mass Reveal.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "truth-packages",
+              "title": "Truth Packages",
+              "description": "Exploration of truth Packages.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reality-constructs",
+      "title": "Reality Constructs",
+      "description": "The 3D overlay, cube system, and the original second realm beneath the simulation.",
+      "topic_image": "images/breakdown/PLACEHOLDER.webp",
+      "is_placeholder": true,
+      "subtopics": [
+        {
+          "id": "3d-overlay",
+          "title": "3D Overlay",
+          "description": "Exploration of 3D Overlay.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "frequency-trick",
+              "title": "Frequency Trick",
+              "description": "Exploration of frequency Trick.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "perception-solidity",
+              "title": "Perception Solidity",
+              "description": "Exploration of perception Solidity.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "matrix-scaffolding",
+              "title": "Matrix Scaffolding",
+              "description": "Exploration of matrix Scaffolding.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "the-cube-system",
+          "title": "The Cube System",
+          "description": "Exploration of the Cube System.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "hard-drive-framework",
+              "title": "Hard Drive Framework",
+              "description": "Exploration of hard Drive Framework.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "eight-domes",
+              "title": "Eight Domes",
+              "description": "Exploration of eight Domes.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "layered-simulations",
+              "title": "Layered Simulations",
+              "description": "Exploration of layered Simulations.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "original-realm",
+          "title": "Original Realm",
+          "description": "Exploration of original Realm.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "crystalline-architecture",
+              "title": "Crystalline Architecture",
+              "description": "Exploration of crystalline Architecture.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "vibrant-reality",
+              "title": "Vibrant Reality",
+              "description": "Exploration of vibrant Reality.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "second-realm",
+              "title": "Second Realm",
+              "description": "Exploration of second Realm.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grid-systems",
+      "title": "Grid Systems",
+      "description": "Energy nodes, crystalline networks, and the Spirit Tree at the heart of the realm.",
+      "topic_image": "images/breakdown/PLACEHOLDER.webp",
+      "is_placeholder": true,
+      "subtopics": [
+        {
+          "id": "energy-nodes",
+          "title": "Energy Nodes",
+          "description": "Exploration of energy Nodes.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "lava-core-nodes",
+              "title": "Lava Core Nodes",
+              "description": "Exploration of lava Core Nodes.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "harmonic-lenses",
+              "title": "Harmonic Lenses",
+              "description": "Exploration of harmonic Lenses.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "celestial-anchors",
+              "title": "Celestial Anchors",
+              "description": "Exploration of celestial Anchors.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "crystalline-networks",
+          "title": "Crystalline Networks",
+          "description": "Exploration of crystalline Networks.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "source-code-storage",
+              "title": "Source Code Storage",
+              "description": "Exploration of source Code Storage.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "ley-line-optics",
+              "title": "Ley Line Optics",
+              "description": "Exploration of ley Line Optics.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "starseed-keys",
+              "title": "Starseed Keys",
+              "description": "Exploration of starseed Keys.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "the-spirit-tree",
+          "title": "The Spirit Tree",
+          "description": "Exploration of the Spirit Tree.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "central-axis",
+              "title": "Central Axis",
+              "description": "Exploration of central Axis.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "hyperborean-heart",
+              "title": "Hyperborean Heart",
+              "description": "Exploration of hyperborean Heart.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "source-bridge",
+              "title": "Source Bridge",
+              "description": "Exploration of source Bridge.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "healing-sanctuaries",
+      "title": "Healing Sanctuaries",
+      "description": "Water Domes, Crystal Halls, and Star Pods for restoration through the final transition.",
+      "topic_image": "images/breakdown/PLACEHOLDER.webp",
+      "is_placeholder": true,
+      "subtopics": [
+        {
+          "id": "water-domes",
+          "title": "Water Domes",
+          "description": "Exploration of water Domes.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "emotional-mending",
+              "title": "Emotional Mending",
+              "description": "Exploration of emotional Mending.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "liquid-sound",
+              "title": "Liquid Sound",
+              "description": "Exploration of liquid Sound.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "memory-restoration",
+              "title": "Memory Restoration",
+              "description": "Exploration of memory Restoration.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "crystal-halls",
+          "title": "Crystal Halls",
+          "description": "Exploration of crystal Halls.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "mental-realignment",
+              "title": "Mental Realignment",
+              "description": "Exploration of mental Realignment.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "rainbow-fractals",
+              "title": "Rainbow Fractals",
+              "description": "Exploration of rainbow Fractals.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "overlay-clearing",
+              "title": "Overlay Clearing",
+              "description": "Exploration of overlay Clearing.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "star-pods",
+          "title": "Star Pods",
+          "description": "Exploration of star Pods.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "timeline-healing",
+              "title": "Timeline Healing",
+              "description": "Exploration of timeline Healing.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "soul-reweaving",
+              "title": "Soul Reweaving",
+              "description": "Exploration of soul Reweaving.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "nebulae-resting",
+              "title": "Nebulae Resting",
+              "description": "Exploration of nebulae Resting.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "population-types",
+      "title": "Population Types",
+      "description": "NPC programs, human Sols, and ET Sols — who remains and who dissolves through the final window.",
+      "topic_image": "images/breakdown/PLACEHOLDER.webp",
+      "is_placeholder": true,
+      "subtopics": [
+        {
+          "id": "npc-programs",
+          "title": "NPC Programs",
+          "description": "Exploration of nPC Programs.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "background-fragments",
+              "title": "Background Fragments",
+              "description": "Exploration of background Fragments.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "ai-shells",
+              "title": "A.I. Shells",
+              "description": "Exploration of a.I. Shells.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "code-dissolution",
+              "title": "Code Dissolution",
+              "description": "Exploration of code Dissolution.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "human-sols",
+          "title": "Human Sols",
+          "description": "Exploration of human Sols.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "true-sparks",
+              "title": "True Sparks",
+              "description": "Exploration of true Sparks.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "healing-path",
+              "title": "Healing Path",
+              "description": "Exploration of healing Path.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "spirit-inversion",
+              "title": "Spirit Inversion",
+              "description": "Exploration of spirit Inversion.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "et-sols",
+          "title": "ET Sols",
+          "description": "Exploration of eT Sols.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "resonating-army",
+              "title": "Resonating Army",
+              "description": "Exploration of resonating Army.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "lyran-lineage",
+              "title": "Lyran Lineage",
+              "description": "Exploration of lyran Lineage.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "homecoming-path",
+              "title": "Homecoming Path",
+              "description": "Exploration of homecoming Path.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parasite-mechanics",
+      "title": "Parasite Mechanics",
+      "description": "Mind weapons, control technology, and historic resets that maintained the inverted matrix.",
+      "topic_image": "images/breakdown/PLACEHOLDER.webp",
+      "is_placeholder": true,
+      "subtopics": [
+        {
+          "id": "mind-weapons",
+          "title": "Mind Weapons",
+          "description": "Exploration of mind Weapons.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "voice-to-skull",
+              "title": "Voice to Skull",
+              "description": "Exploration of voice to Skull.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "scalar-frequencies",
+              "title": "Scalar Frequencies",
+              "description": "Exploration of scalar Frequencies.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "amnesia-vortex",
+              "title": "Amnesia Vortex",
+              "description": "Exploration of amnesia Vortex.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "control-tech",
+          "title": "Control Tech",
+          "description": "Exploration of control Tech.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "vatican-archive",
+              "title": "Vatican Archive",
+              "description": "Exploration of vatican Archive.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "saturn-cube",
+              "title": "Saturn Cube",
+              "description": "Exploration of saturn Cube.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "lunar-inversion",
+              "title": "Lunar Inversion",
+              "description": "Exploration of lunar Inversion.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "historic-resets",
+          "title": "Historic Resets",
+          "description": "Exploration of historic Resets.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "titanic-op",
+              "title": "Titanic Op",
+              "description": "Exploration of titanic Op.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "1666-node-war",
+              "title": "1666 Node War",
+              "description": "Exploration of 1666 Node War.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "tartarian-erasure",
+              "title": "Tartarian Erasure",
+              "description": "Exploration of tartarian Erasure.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-homecoming",
+      "title": "The Homecoming",
+      "description": "Ascension event, reunion mechanics, and living crafts for resonating souls.",
+      "topic_image": "images/breakdown/PLACEHOLDER.webp",
+      "is_placeholder": true,
+      "subtopics": [
+        {
+          "id": "ascension-event",
+          "title": "Ascension Event",
+          "description": "Exploration of ascension Event.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "frequency-lock",
+              "title": "Frequency Lock",
+              "description": "Exploration of frequency Lock.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "solar-gate",
+              "title": "Solar Gate",
+              "description": "Exploration of solar Gate.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "resonance-bridge",
+              "title": "Resonance Bridge",
+              "description": "Exploration of resonance Bridge.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "reunion-mechanics",
+          "title": "Reunion Mechanics",
+          "description": "Exploration of reunion Mechanics.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "solar-parents",
+              "title": "Solar Parents",
+              "description": "Exploration of solar Parents.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "origin-point",
+              "title": "Origin Point",
+              "description": "Exploration of origin Point.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "memory-flood",
+              "title": "Memory Flood",
+              "description": "Exploration of memory Flood.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "living-crafts",
+          "title": "Living Crafts",
+          "description": "Exploration of living Crafts.",
+          "topic_image": "images/breakdown/PLACEHOLDER.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "crystalline-arks",
+              "title": "Crystalline Arks",
+              "description": "Exploration of crystalline Arks.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "pilot-bonding",
+              "title": "Pilot Bonding",
+              "description": "Exploration of pilot Bonding.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "plasma-membranes",
+              "title": "Plasma Membranes",
+              "description": "Exploration of plasma Membranes.",
+              "topic_image": "images/breakdown/PLACEHOLDER.webp",
+              "is_placeholder": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

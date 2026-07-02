@@ -415,12 +415,13 @@ function renderSourceHeader(data, sourceId, stats) {
       </div>
       <div class="md:col-span-5 flex flex-col h-full items-center md:items-end">
         ${RenderUtils.renderMediaFrame(TopicUtils.encodeAssetPath(data.image), data.title, { loading: 'eager', className: 'w-full max-w-md md:max-w-sm' })}
+        ${data.pdf_url ? `
         <div class="mt-auto pt-6">
           <a href="${data.pdf_url}" target="_blank"
              class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold w-full max-w-[260px]">
             ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} View original PDF
           </a>
-        </div>
+        </div>` : ''}
       </div>
     </div>
   `;

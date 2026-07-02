@@ -164,6 +164,19 @@ async function fetchArchiveStatsFromIndex(sourceId = DEFAULT_SOURCE_ID) {
   return TopicUtils.countTopicStats(lightTopics);
 }
 
+async function fetchAllArchiveStatsFromIndex() {
+  const response = await fetch('data/sources.json');
+  if (!response.ok) throw new Error(`HTTP ${response.status} — sources.json not found`);
+  const sourcesData = await response.json();
+  const bundles = await Promise.all(
+    (sourcesData.sources || []).map(source => fetchArchiveStatsFromIndex(source.id))
+  );
+  return bundles.reduce((acc, stats) => ({
+    live: acc.live + stats.live,
+    total: acc.total + stats.total
+  }), { live: 0, total: 0 });
+}
+
 async function fetchArchiveStatsFromFile(sourceId = DEFAULT_SOURCE_ID) {
   const response = await fetch(`data/${sourceId}-stats.json`);
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -174,11 +187,24 @@ async function fetchArchiveStatsFromFile(sourceId = DEFAULT_SOURCE_ID) {
   return stats;
 }
 
+async function fetchAllArchiveStatsFromFiles() {
+  const response = await fetch('data/sources.json');
+  if (!response.ok) throw new Error(`HTTP ${response.status} — sources.json not found`);
+  const sourcesData = await response.json();
+  const bundles = await Promise.all(
+    (sourcesData.sources || []).map(source => fetchArchiveStatsFromFile(source.id))
+  );
+  return bundles.reduce((acc, stats) => ({
+    live: acc.live + stats.live,
+    total: acc.total + stats.total
+  }), { live: 0, total: 0 });
+}
+
 async function loadHomeArchiveStats() {
   renderArchiveBadgeSkeleton();
 
   try {
-    const stats = await fetchArchiveStatsFromIndex();
+    const stats = await fetchAllArchiveStatsFromIndex();
     renderLiveArchiveBadge(stats.live, stats.total);
     return stats;
   } catch (error) {
@@ -186,7 +212,7 @@ async function loadHomeArchiveStats() {
   }
 
   try {
-    const stats = await fetchArchiveStatsFromFile();
+    const stats = await fetchAllArchiveStatsFromFiles();
     renderLiveArchiveBadge(stats.live, stats.total);
     return stats;
   } catch (error) {
