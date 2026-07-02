@@ -15,10 +15,10 @@ const HEAVY_KEYS = [
 ];
 
 function isPlaceholder(item) {
+  if (item.is_placeholder != null) return !!item.is_placeholder;
   return !item.report ||
     (item.report && item.report.includes('TODO')) ||
-    (item.topic_image || '').includes('PLACEHOLDER') ||
-    (item.report && item.report.length < 400);
+    (item.topic_image || '').includes('PLACEHOLDER');
 }
 
 function stripTopic(node, outDir, written) {
@@ -102,10 +102,21 @@ function splitSource(sourceId) {
 
   console.log(`${sourceId}: index → ${path.relative(ROOT, indexPath)} (${written.length} topic files)`);
   console.log(`${sourceId}: stats → ${path.relative(ROOT, statsPath)} (${stats.live}/${stats.total} live)`);
+  return stats;
 }
 
 const sourcesPath = path.join(ROOT, 'data', 'sources.json');
 const sources = JSON.parse(fs.readFileSync(sourcesPath, 'utf8'));
+const archiveTotals = { sources: sources.sources.length, live: 0, total: 0 };
+
 for (const source of sources.sources) {
-  splitSource(source.id);
+  const stats = splitSource(source.id);
+  if (stats) {
+    archiveTotals.live += stats.live;
+    archiveTotals.total += stats.total;
+  }
 }
+
+const archiveStatsPath = path.join(ROOT, 'data', 'archive-stats.json');
+fs.writeFileSync(archiveStatsPath, JSON.stringify(archiveTotals, null, 2) + '\n', 'utf8');
+console.log(`archive-stats → ${path.relative(ROOT, archiveStatsPath)} (${archiveTotals.live}/${archiveTotals.total} live)`);

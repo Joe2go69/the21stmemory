@@ -1,0 +1,166 @@
+{
+  "channels": [
+    {
+      "section": "official",
+      "label": "OFFICIAL SITE",
+      "title": "Christian21",
+      "description": "The official home of Christian21 & Leon — hundreds of videos and over 1.1 million words of pure, unfiltered transmission.",
+      "action": "Visit Official Site",
+      "icon": "document",
+      "href": "https://christian21.com/"
+    },
+    {
+      "section": "telegram",
+      "label": "LIVE COMMUNITY",
+      "title": "Christian21 Channel",
+      "description": "Main interactive chat and live transmissions from the source.",
+      "action": "Join Channel",
+      "icon": "chat",
+      "href": "https://t.me/loveandlight16"
+    },
+    {
+      "section": "telegram",
+      "label": "INTEL UPDATES",
+      "title": "New CH21 Intel Only",
+      "description": "Direct intel updates and transmissions.",
+      "action": "Join Channel",
+      "icon": "satellite",
+      "href": "https://t.me/newch21intelonly"
+    },
+    {
+      "section": "telegram",
+      "label": "INSPIRATION",
+      "title": "Love, Light and More…",
+      "description": "Kirsten's channel — inspirational insights and heart-centered transmissions.",
+      "action": "Join Channel",
+      "icon": "sparkles",
+      "href": "https://t.me/lovelightandmore2"
+    },
+    {
+      "section": "telegram",
+      "label": "STUDY NOTES",
+      "title": "Krystian21 Notes by Miriam",
+      "description": "Detailed notes and summaries — perfect for deeper study.",
+      "action": "Join Channel",
+      "icon": "note",
+      "href": "https://t.me/GreatDome"
+    },
+    {
+      "section": "telegram",
+      "label": "VIDEO SHOW",
+      "title": "Kirsten's Video Show",
+      "description": "Full video presentations exploring the teachings in depth.",
+      "action": "Join Channel",
+      "icon": "video",
+      "href": "https://t.me/kirstensvideoshow"
+    },
+    {
+      "section": "telegram",
+      "label": "SHORTS",
+      "title": "Sibley Shorts",
+      "description": "Short clips featuring Sibley and Thalon Thor.",
+      "action": "Join Channel",
+      "icon": "bolt",
+      "href": "https://t.me/sibleyshorts"
+    },
+    {
+      "section": "telegram",
+      "label": "SHORTS",
+      "title": "Velma Shorts",
+      "description": "Short videos featuring Velma's insights and transmissions.",
+      "action": "Join Channel",
+      "icon": "mobile",
+      "href": "https://t.me/velmashorts"
+    },
+    {
+      "section": "telegram",
+      "label": "CURATED POSTS",
+      "title": "21 Posts",
+      "description": "Curated key posts and excerpts from the transmissions.",
+      "action": "Join Channel",
+      "icon": "pin",
+      "href": "https://t.me/C21_POSTS"
+    },
+    {
+      "section": "telegram",
+      "label": "TRUTH BREAKDOWN",
+      "title": "Fracturing the Dome",
+      "description": "Breaking through the matrix illusions with clarity and truth.",
+      "action": "Join Channel",
+      "icon": "network",
+      "href": "https://t.me/fracturingthedome"
+    },
+    {
+      "section": "telegram",
+      "label": "DEEP DIVES",
+      "title": "Leon's Synopsis",
+      "description": "Official summaries and deep-dive breakdowns by Leon Sinclair.",
+      "action": "Join Channel",
+      "icon": "book",
+      "href": "https://t.me/leonsynopsis"
+    },
+    {
+      "section": "telegram",
+      "label": "AI ARCHIVE",
+      "title": "21st Memory",
+      "description": "AI-enhanced interpretations, decodings, and community connection.",
+      "action": "Join Channel",
+      "icon": "sparkles",
+      "href": "https://t.me/The_21st_Memory"
+    },
+    {
+      "section": "rumble",
+      "label": "RAW TRANSMISSIONS",
+      "title": "Thalon Thor Main",
+      "description": "Original raw transmissions by Thalon Thor / Sibley22 — the source.",
+      "action": "Watch on Rumble",
+      "icon": "mic",
+      "href": "https://rumble.com/user/sibley22"
+    },
+    {
+      "section": "rumble",
+      "label": "VIDEO POSTS",
+      "title": "21 Posts",
+      "description": "Video versions of the most important posts and transmissions.",
+      "action": "Watch on Rumble",
+      "icon": "camera",
+      "href": "https://rumble.com/c/21POSTS"
+    },
+    {
+      "section": "rumble",
+      "label": "SHORT CLIPS",
+      "title": "21 Shorts",
+      "description": "Short, powerful video clips from the teachings.",
+      "action": "Watch on Rumble",
+      "icon": "bolt",
+      "href": "https://rumble.com/c/21SHORTS"
+    },
+    {
+      "section": "rumble",
+      "label": "VIDEO SHOW",
+      "title": "Kirsten's Video Show",
+      "description": "Full video presentations exploring the teachings in depth.",
+      "action": "Watch on Rumble",
+      "icon": "film",
+      "href": "https://rumble.com/c/KirstensVideoShow"
+    },
+    {
+      "section": "rumble",
+      "label": "INTEL CHATS",
+      "title": "Leon Sinclair",
+      "description": "Casual intel chats and personal insights from Leon Sinclair.",
+      "action": "Watch on Rumble",
+      "icon": "mic",
+      "href": "https://rumble.com/user/Leonsinclair1973"
+    },
+    {
+      "section": "rumble",
+      "label": "AI DECODINGS",
+      "title": "21st Memory",
+      "description": "AI interpretations and visual decodings of the transmissions.",
+      "action": "Watch on Rumble",
+      "icon": "star",
+      "href": "https://rumble.com/c/21stMemory"
+    }
+  ]
+}

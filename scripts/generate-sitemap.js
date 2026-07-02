@@ -5,14 +5,6 @@ const ROOT = path.join(__dirname, '..');
 const BASE_URL = 'https://the21stmemory.com';
 const today = new Date().toISOString().split('T')[0];
 
-function collectTopicIds(topics, ids = []) {
-  for (const topic of topics || []) {
-    if (topic.id) ids.push(topic.id);
-    if (topic.subtopics?.length) collectTopicIds(topic.subtopics, ids);
-  }
-  return ids;
-}
-
 function urlEntry(loc, priority, changefreq) {
   return `  <url>
     <loc>${loc}</loc>
@@ -38,18 +30,6 @@ for (const source of sourcesData.sources) {
     priority: '0.88',
     changefreq: 'weekly',
   });
-
-  const topicsPath = path.join(ROOT, 'data', `${source.id}-topics-index.json`);
-  const topicsData = JSON.parse(fs.readFileSync(topicsPath, 'utf8'));
-  const topicIds = collectTopicIds(topicsData.topics);
-
-  for (const topicId of topicIds) {
-    entries.push({
-      path: `/deep-dive.html?source=${source.id}&topic=${topicId}`,
-      priority: '0.75',
-      changefreq: 'monthly',
-    });
-  }
 }
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>

@@ -3,13 +3,86 @@
 const TopicUtils = {
   NAVBAR_HEIGHT: 80,
   SCROLL_EXTRA_OFFSET: 32,
+  CACHE_PREFIX: '21m:',
+  CACHE_DEFAULT_MS: 5 * 60 * 1000,
+
+  getCachedJson(key, maxAgeMs = this.CACHE_DEFAULT_MS) {
+    try {
+      const raw = sessionStorage.getItem(this.CACHE_PREFIX + key);
+      if (!raw) return null;
+      const { ts, data } = JSON.parse(raw);
+      if (Date.now() - ts > maxAgeMs) {
+        sessionStorage.removeItem(this.CACHE_PREFIX + key);
+        return null;
+      }
+      return data;
+    } catch {
+      return null;
+    }
+  },
+
+  setCachedJson(key, data, maxAgeMs = this.CACHE_DEFAULT_MS) {
+    try {
+      sessionStorage.setItem(this.CACHE_PREFIX + key, JSON.stringify({ ts: Date.now(), data, maxAgeMs }));
+    } catch {
+      /* storage full or unavailable */
+    }
+  },
+
+  async fetchSourceStats(sourceId) {
+    const response = await fetch(`data/${sourceId}-stats.json`);
+    if (!response.ok) throw new Error(`HTTP ${response.status} — stats not found`);
+    return response.json();
+  },
+
+  async fetchArchiveStats() {
+    const cached = this.getCachedJson('archive-stats');
+    if (cached) return cached;
+
+    try {
+      const response = await fetch('data/archive-stats.json');
+      if (response.ok) {
+        const data = await response.json();
+        this.setCachedJson('archive-stats', data);
+        return data;
+      }
+    } catch {
+      /* fall through to per-source stats */
+    }
+
+    const sourcesResponse = await fetch('data/sources.json');
+    if (!sourcesResponse.ok) throw new Error('sources.json not found');
+    const sourcesData = await sourcesResponse.json();
+    const statsList = await Promise.all(
+      (sourcesData.sources || []).map((source) => this.fetchSourceStats(source.id))
+    );
+    const combined = statsList.reduce((acc, stats) => ({
+      sources: acc.sources,
+      live: acc.live + (stats.live || 0),
+      total: acc.total + (stats.total || 0)
+    }), { sources: (sourcesData.sources || []).length, live: 0, total: 0 });
+    this.setCachedJson('archive-stats', combined);
+    return combined;
+  },
+
+  escapeHtml(value) {
+    return String(value ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  },
+
+  escapeAttr(value) {
+    return this.escapeHtml(value);
+  },
 
   isPlaceholder(item) {
     if (item.is_placeholder != null) return !!item.is_placeholder;
     return !item.report ||
       (item.report && item.report.includes('TODO')) ||
-      (item.topic_image || '').includes('PLACEHOLDER') ||
-      (item.report && item.report.length < 400);
+      (item.topic_image || '').includes('PLACEHOLDER');
   },
 
   topicsIndexUrl(sourceId) {
@@ -68,22 +141,51 @@ const TopicUtils = {
 
   setupClickToPlayVideos(root = document) {
     const scope = root && root.querySelectorAll ? root : document;
-    scope.querySelectorAll('[data-rumble-embed]').forEach(wrap => {
+    scope.querySelectorAll('[data-rumble-embed]').forEach((wrap) => {
       if (wrap.dataset.clickBound === 'true') return;
       wrap.dataset.clickBound = 'true';
-      wrap.addEventListener('click', () => {
+
+      const loadEmbed = () => {
         if (wrap.dataset.loaded === 'true') return;
         const embedUrl = wrap.dataset.rumbleEmbed;
         const title = wrap.dataset.videoTitle || '21st Memory video';
         if (!embedUrl) return;
 
         wrap.innerHTML = `
-          <iframe src="${embedUrl}" width="100%" height="100%" frameborder="0" allowfullscreen
-                  class="w-full h-full absolute inset-0" title="${title}"></iframe>
+          <iframe src="${this.escapeHtml(embedUrl)}" width="100%" height="100%" allowfullscreen
+                  class="w-full h-full absolute inset-0 border-0" title="${this.escapeHtml(title)}"></iframe>
         `;
         wrap.dataset.loaded = 'true';
         wrap.classList.remove('cursor-pointer');
+        wrap.removeAttribute('role');
+        wrap.removeAttribute('tabindex');
+        wrap.removeAttribute('aria-label');
+      };
+
+      wrap.addEventListener('click', loadEmbed);
+      wrap.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          loadEmbed();
+        }
       });
+    });
+  },
+
+  setupImageFallbacks(container, selector = 'img[data-img-fallback]') {
+    if (!container) return;
+    container.querySelectorAll(selector).forEach((img) => {
+      if (img.dataset.fallbackBound === 'true') return;
+      img.dataset.fallbackBound = 'true';
+      img.addEventListener('error', () => {
+        const fallback = document.createElement('div');
+        fallback.className = 'topic-image-fallback topic-image-fallback--compact';
+        fallback.innerHTML = typeof renderSiteIcon === 'function'
+          ? renderSiteIcon('archive', 'card-icon-sm')
+          : '<span>Image unavailable</span>';
+        img.replaceWith(fallback);
+        if (typeof hydrateSiteIcons === 'function') hydrateSiteIcons(fallback);
+      }, { once: true });
     });
   },
 
@@ -250,7 +352,7 @@ const TopicUtils = {
           </li>
           <li class="breadcrumb-item flex items-center gap-1">
             <span class="breadcrumb-sep text-mem-dim" aria-hidden="true">›</span>
-            <span class="text-white font-medium" aria-current="page">${sourceTitle}</span>
+            <span class="text-white font-medium" aria-current="page">${this.escapeHtml(sourceTitle)}</span>
           </li>
         </ol>
       </nav>
@@ -275,14 +377,14 @@ const TopicUtils = {
     const items = crumbs.map((crumb, i) => `
       <li class="breadcrumb-item flex items-center gap-1">
         ${i > 0 ? '<span class="breadcrumb-sep text-mem-dim" aria-hidden="true">›</span>' : ''}
-        <a href="${crumb.href}" class="breadcrumb-link hover:text-white transition">${crumb.label}</a>
+        <a href="${this.escapeAttr(crumb.href)}" class="breadcrumb-link hover:text-white transition">${this.escapeHtml(crumb.label)}</a>
       </li>
     `).join('');
 
     const current = `
       <li class="breadcrumb-item flex items-center gap-1">
         <span class="breadcrumb-sep text-mem-dim" aria-hidden="true">›</span>
-        <span class="text-white font-medium" aria-current="page">${currentTitle}</span>
+        <span class="text-white font-medium" aria-current="page">${this.escapeHtml(currentTitle)}</span>
       </li>
     `;
 
@@ -310,8 +412,9 @@ const TopicUtils = {
     const statusBadge = entry.is_placeholder
       ? '<span class="codex-meta-pill codex-meta-pill--soon">Coming soon</span>'
       : '<span class="codex-meta-pill">Ready</span>';
+    const pathText = this.escapeHtml(path);
     const sourceLabel = options.showSource && entry.sourceTitle
-      ? `<div class="card-label text-mem-indigo">${entry.sourceTitle}</div>`
+      ? `<div class="card-label text-mem-indigo">${this.escapeHtml(entry.sourceTitle)}</div>`
       : '';
     const useThumb = this.isResolvableTopicImage(entry.topic_image, entry.is_placeholder);
     const thumb = useThumb
@@ -319,8 +422,10 @@ const TopicUtils = {
       : '';
     const thumbClass = useThumb ? '' : ' codex-search-card-thumb--fallback';
 
+    const desc = entry.description ? this.escapeHtml(entry.description) : pathText;
+
     return `
-      <a href="${entry.href}" class="codex-search-card channel-card group">
+      <a href="${this.escapeAttr(entry.href)}" class="codex-search-card channel-card group">
         <div class="codex-search-card-thumb${thumbClass}">
           ${thumb}
         </div>
@@ -328,12 +433,12 @@ const TopicUtils = {
           <div class="codex-search-card-top">
             <div class="min-w-0">
               ${sourceLabel}
-              <h3 class="codex-search-card-title">${entry.title}</h3>
+              <h3 class="codex-search-card-title">${this.escapeHtml(entry.title)}</h3>
             </div>
             ${statusBadge}
           </div>
-          <p class="codex-search-card-desc">${entry.description || path}</p>
-          <div class="codex-search-card-path">${path}</div>
+          <p class="codex-search-card-desc">${desc}</p>
+          <div class="codex-search-card-path">${pathText}</div>
         </div>
       </a>
     `;
@@ -457,7 +562,7 @@ const TopicUtils = {
           <ul class="report-toc-list">
             ${items.map(item => `
               <li class="report-toc-item report-toc-item--h${item.level}">
-                <a href="#${item.id}" class="report-toc-link" data-toc-link="${item.id}">${item.text}</a>
+                <a href="#${item.id}" class="report-toc-link" data-toc-link="${item.id}">${this.escapeHtml(item.text)}</a>
               </li>
             `).join('')}
           </ul>

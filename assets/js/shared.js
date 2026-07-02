@@ -5,10 +5,32 @@ const NETWORK_PAGES = new Set(['community.html']);
 const HOME_PAGES = new Set(['index.html']);
 const INDEX_SECTION_LINKS = new Set([
   'index.html#about',
-  'index.html#sources',
   'index.html#codex',
   'index.html#explore'
 ]);
+
+function initDeferredAnalytics() {
+  if (window.__gtagLoaded) return;
+  const load = () => {
+    if (window.__gtagLoaded) return;
+    window.__gtagLoaded = true;
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-45Z17E0XTZ';
+    document.head.appendChild(script);
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'G-45Z17E0XTZ');
+  };
+
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(load, { timeout: 4000 });
+  } else {
+    window.addEventListener('load', load, { once: true });
+  }
+}
 
 function initSharedComponents() {
   setActiveNavLink();
@@ -16,6 +38,7 @@ function initSharedComponents() {
   initMobileMenu();
   initBackToTop();
   initFooterSupportCopy();
+  initDeferredAnalytics();
   setTimeout(initScrollAnimations, 250);
 }
 
@@ -53,10 +76,17 @@ function initFooterSupportCopy() {
     if (copied) {
       copyBtn.textContent = 'Copied';
       copyBtn.classList.add('copied');
+      copyBtn.setAttribute('aria-live', 'polite');
       setTimeout(() => {
         copyBtn.textContent = originalLabel;
         copyBtn.classList.remove('copied');
       }, 2000);
+    } else {
+      copyBtn.textContent = 'Copy failed';
+      copyBtn.setAttribute('aria-live', 'assertive');
+      setTimeout(() => {
+        copyBtn.textContent = originalLabel;
+      }, 2500);
     }
   });
 }
@@ -243,7 +273,6 @@ function initSectionScrollSpy() {
   const sections = [
     { id: 'about', href: 'index.html#about' },
     { id: 'codex', href: 'index.html#codex' },
-    { id: 'sources', href: 'index.html#sources' },
     { id: 'explore', href: 'index.html#explore' }
   ];
 

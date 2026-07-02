@@ -1,170 +1,5 @@
 // Community / Network page — filterable channel directory
 
-const NETWORK_CHANNELS = [
-  {
-    section: 'official',
-    label: 'OFFICIAL SITE',
-    title: 'Christian21',
-    description: 'The official home of Christian21 & Leon — hundreds of videos and over 1.1 million words of pure, unfiltered transmission.',
-    action: 'Visit Official Site',
-    icon: 'document',
-    href: 'https://christian21.com/'
-  },
-  {
-    section: 'telegram',
-    label: 'LIVE COMMUNITY',
-    title: 'Christian21 Channel',
-    description: 'Main interactive chat and live transmissions from the source.',
-    action: 'Join Channel',
-    icon: 'chat',
-    href: 'https://t.me/loveandlight16'
-  },
-  {
-    section: 'telegram',
-    label: 'INTEL UPDATES',
-    title: 'New CH21 Intel Only',
-    description: 'Direct intel updates and transmissions.',
-    action: 'Join Channel',
-    icon: 'satellite',
-    href: 'https://t.me/newch21intelonly'
-  },
-  {
-    section: 'telegram',
-    label: 'INSPIRATION',
-    title: 'Love, Light and More…',
-    description: 'Kirsten’s channel — inspirational insights and heart-centered transmissions.',
-    action: 'Join Channel',
-    icon: 'sparkles',
-    href: 'https://t.me/lovelightandmore2'
-  },
-  {
-    section: 'telegram',
-    label: 'STUDY NOTES',
-    title: 'Krystian21 Notes by Miriam',
-    description: 'Detailed notes and summaries — perfect for deeper study.',
-    action: 'Join Channel',
-    icon: 'note',
-    href: 'https://t.me/GreatDome'
-  },
-  {
-    section: 'telegram',
-    label: 'VIDEO SHOW',
-    title: 'Kirsten’s Video Show',
-    description: 'Full video presentations exploring the teachings in depth.',
-    action: 'Join Channel',
-    icon: 'video',
-    href: 'https://t.me/kirstensvideoshow'
-  },
-  {
-    section: 'telegram',
-    label: 'SHORTS',
-    title: 'Sibley Shorts',
-    description: 'Short clips featuring Sibley and Thalon Thor.',
-    action: 'Join Channel',
-    icon: 'bolt',
-    href: 'https://t.me/sibleyshorts'
-  },
-  {
-    section: 'telegram',
-    label: 'SHORTS',
-    title: 'Velma Shorts',
-    description: 'Short videos featuring Velma’s insights and transmissions.',
-    action: 'Join Channel',
-    icon: 'mobile',
-    href: 'https://t.me/velmashorts'
-  },
-  {
-    section: 'telegram',
-    label: 'CURATED POSTS',
-    title: '21 Posts',
-    description: 'Curated key posts and excerpts from the transmissions.',
-    action: 'Join Channel',
-    icon: 'pin',
-    href: 'https://t.me/C21_POSTS'
-  },
-  {
-    section: 'telegram',
-    label: 'TRUTH BREAKDOWN',
-    title: 'Fracturing the Dome',
-    description: 'Breaking through the matrix illusions with clarity and truth.',
-    action: 'Join Channel',
-    icon: 'network',
-    href: 'https://t.me/fracturingthedome'
-  },
-  {
-    section: 'telegram',
-    label: 'DEEP DIVES',
-    title: 'Leon’s Synopsis',
-    description: 'Official summaries and deep-dive breakdowns by Leon Sinclair.',
-    action: 'Join Channel',
-    icon: 'book',
-    href: 'https://t.me/leonsynopsis'
-  },
-  {
-    section: 'telegram',
-    label: 'AI ARCHIVE',
-    title: '21st Memory',
-    description: 'AI-enhanced interpretations, decodings, and community connection.',
-    action: 'Join Channel',
-    icon: 'sparkles',
-    href: 'https://t.me/The_21st_Memory'
-  },
-  {
-    section: 'rumble',
-    label: 'RAW TRANSMISSIONS',
-    title: 'Thalon Thor Main',
-    description: 'Original raw transmissions by Thalon Thor / Sibley22 — the source.',
-    action: 'Watch on Rumble',
-    icon: 'mic',
-    href: 'https://rumble.com/user/sibley22'
-  },
-  {
-    section: 'rumble',
-    label: 'VIDEO POSTS',
-    title: '21 Posts',
-    description: 'Video versions of the most important posts and transmissions.',
-    action: 'Watch on Rumble',
-    icon: 'camera',
-    href: 'https://rumble.com/c/21POSTS'
-  },
-  {
-    section: 'rumble',
-    label: 'SHORT CLIPS',
-    title: '21 Shorts',
-    description: 'Short, powerful video clips from the teachings.',
-    action: 'Watch on Rumble',
-    icon: 'bolt',
-    href: 'https://rumble.com/c/21SHORTS'
-  },
-  {
-    section: 'rumble',
-    label: 'VIDEO SHOW',
-    title: 'Kirsten’s Video Show',
-    description: 'Full video presentations exploring the teachings in depth.',
-    action: 'Watch on Rumble',
-    icon: 'film',
-    href: 'https://rumble.com/c/KirstensVideoShow'
-  },
-  {
-    section: 'rumble',
-    label: 'INTEL CHATS',
-    title: 'Leon Sinclair',
-    description: 'Casual intel chats and personal insights from Leon Sinclair.',
-    action: 'Watch on Rumble',
-    icon: 'mic',
-    href: 'https://rumble.com/user/Leonsinclair1973'
-  },
-  {
-    section: 'rumble',
-    label: 'AI DECODINGS',
-    title: '21st Memory',
-    description: 'AI interpretations and visual decodings of the transmissions.',
-    action: 'Watch on Rumble',
-    icon: 'star',
-    href: 'https://rumble.com/c/21stMemory'
-  }
-];
-
 const NETWORK_FILTERS = [
   { id: 'all', label: 'All channels' },
   { id: 'official', label: 'Official' },
@@ -172,29 +7,68 @@ const NETWORK_FILTERS = [
   { id: 'rumble', label: 'Rumble' }
 ];
 
+let networkChannels = [];
 let activeNetworkFilter = 'all';
+
+function setActiveNetworkFilter(filterId) {
+  activeNetworkFilter = filterId;
+  renderNetworkFilters();
+  renderNetworkGrid();
+}
 
 function renderNetworkFilters() {
   const container = document.getElementById('network-filters');
+  const panel = document.getElementById('network-grid');
   if (!container) return;
 
-  container.innerHTML = NETWORK_FILTERS.map(filter => `
+  container.innerHTML = NETWORK_FILTERS.map((filter) => {
+    const isActive = activeNetworkFilter === filter.id;
+    return `
     <button type="button"
-            class="network-filter-btn topic-control-btn${activeNetworkFilter === filter.id ? ' active' : ''}"
-            data-network-filter="${filter.id}"
+            id="network-filter-${TopicUtils.escapeAttr(filter.id)}"
+            class="network-filter-btn topic-control-btn${isActive ? ' active' : ''}"
+            data-network-filter="${TopicUtils.escapeAttr(filter.id)}"
             role="tab"
-            aria-selected="${activeNetworkFilter === filter.id}">
-      ${filter.label}
+            aria-selected="${isActive}"
+            aria-controls="network-grid"
+            tabindex="${isActive ? '0' : '-1'}">
+      ${TopicUtils.escapeHtml(filter.label)}
     </button>
-  `).join('');
+  `;
+  }).join('');
 
-  container.querySelectorAll('[data-network-filter]').forEach(btn => {
+  if (panel) {
+    panel.setAttribute('aria-labelledby', `network-filter-${activeNetworkFilter}`);
+  }
+
+  container.querySelectorAll('[data-network-filter]').forEach((btn) => {
     btn.addEventListener('click', () => {
-      activeNetworkFilter = btn.dataset.networkFilter;
-      renderNetworkFilters();
-      renderNetworkGrid();
+      setActiveNetworkFilter(btn.dataset.networkFilter);
     });
   });
+
+  if (!container.dataset.tabsBound) {
+    container.dataset.tabsBound = 'true';
+    container.addEventListener('keydown', (event) => {
+      const tabs = [...container.querySelectorAll('[role="tab"]')];
+      const currentIndex = tabs.findIndex((tab) => tab.getAttribute('aria-selected') === 'true');
+      if (currentIndex < 0) return;
+
+      let nextIndex = currentIndex;
+      if (event.key === 'ArrowRight') nextIndex = (currentIndex + 1) % tabs.length;
+      else if (event.key === 'ArrowLeft') nextIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+      else if (event.key === 'Home') nextIndex = 0;
+      else if (event.key === 'End') nextIndex = tabs.length - 1;
+      else return;
+
+      event.preventDefault();
+      const nextId = tabs[nextIndex]?.dataset.networkFilter;
+      if (nextId) {
+        setActiveNetworkFilter(nextId);
+        document.getElementById(`network-filter-${nextId}`)?.focus();
+      }
+    });
+  }
 }
 
 function renderNetworkGrid() {
@@ -202,8 +76,17 @@ function renderNetworkGrid() {
   if (!grid) return;
 
   const channels = activeNetworkFilter === 'all'
-    ? NETWORK_CHANNELS
-    : NETWORK_CHANNELS.filter(channel => channel.section === activeNetworkFilter);
+    ? networkChannels
+    : networkChannels.filter(channel => channel.section === activeNetworkFilter);
+
+  if (!channels.length) {
+    grid.innerHTML = `
+      <div class="col-span-full text-center py-12 text-mem-muted">
+        ${networkChannels.length ? 'No channels match this filter.' : 'Could not load network directory.'}
+      </div>
+    `;
+    return;
+  }
 
   grid.innerHTML = channels.map(channel => RenderUtils.renderNetworkCard(channel)).join('');
 
@@ -212,7 +95,21 @@ function renderNetworkGrid() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+async function loadNetworkData() {
+  try {
+    const response = await fetch('data/network.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    networkChannels = data.channels || [];
+  } catch (error) {
+    console.error('Failed to load network data:', error);
+    networkChannels = [];
+  }
+
   renderNetworkFilters();
   renderNetworkGrid();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  loadNetworkData();
 });

@@ -1,19 +1,19 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>21st Memory</title>
-    <meta name="description" content="Living archive of AI-decoded Thalon Thor transmissions. Explore the Codex, sources, and community — no religion, no finance, no gatekeeping.">
+    <meta name="description" content="Living archive of AI-decoded Thalon Thor transmissions. Explore the Codex and community — no religion, no finance, no gatekeeping.">
     <link rel="canonical" href="https://the21stmemory.com/">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://the21stmemory.com/">
     <meta property="og:title" content="21st Memory — AI-Decoded Living Archive">
-    <meta property="og:description" content="Living archive of AI-decoded Thalon Thor transmissions. Explore the Codex, sources, and community.">
+    <meta property="og:description" content="Living archive of AI-decoded Thalon Thor transmissions. Explore the Codex and community.">
     <meta property="og:image" content="https://the21stmemory.com/images/21.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="21st Memory — AI-Decoded Living Archive">
-    <meta name="twitter:description" content="Living archive of AI-decoded Thalon Thor transmissions. Explore the Codex, sources, and community.">
+    <meta name="twitter:description" content="Living archive of AI-decoded Thalon Thor transmissions. Explore the Codex and community.">
     <meta name="twitter:image" content="https://the21stmemory.com/images/21.webp">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,15 +24,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="icon" href="images/21.webp" type="image/webp">
     
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-45Z17E0XTZ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-45Z17E0XTZ');
-    </script>
 <!-- 21st Memory Schema - Organization + WebSite with Search -->
 <script type="application/ld+json">
 {
@@ -56,7 +48,15 @@
     {
       "@type": "WebSite",
       "url": "https://the21stmemory.com",
-      "name": "21st Memory"
+      "name": "21st Memory",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://the21stmemory.com/codex.html?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
     }
   ]
 }
@@ -82,7 +82,7 @@
             </div>
           </a>
           <div class="nav-links">
-            <a href="index.html" class="nav-link" data-nav="index">Home</a><a href="codex.html" class="nav-link nav-link--primary" data-nav="codex">Codex</a><a href="index.html#about" class="nav-link" data-nav="index">About</a><a href="index.html#sources" class="nav-link" data-nav="index">Sources</a><a href="community.html" class="nav-link" data-nav="community">Network</a><a href="index.html#explore" class="nav-link" data-nav="index">Media</a>
+            <a href="index.html" class="nav-link" data-nav="index">Home</a><a href="codex.html" class="nav-link nav-link--primary" data-nav="codex">Codex</a><a href="index.html#about" class="nav-link" data-nav="index">About</a><a href="community.html" class="nav-link" data-nav="community">Network</a><a href="index.html#explore" class="nav-link" data-nav="index">Media</a>
             <a href="https://t.me/The_21st_Memory" class="nav-cta" target="_blank" rel="noopener noreferrer">Telegram</a>
           </div>
           <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
@@ -93,7 +93,7 @@
         </div>
       </div>
       <div id="mobile-menu" class="mobile-menu">
-        <a href="index.html" class="nav-link" data-nav="index">Home</a><a href="codex.html" class="nav-link nav-link--primary" data-nav="codex">Codex</a><a href="index.html#about" class="nav-link" data-nav="index">About</a><a href="index.html#sources" class="nav-link" data-nav="index">Sources</a><a href="community.html" class="nav-link" data-nav="community">Network</a><a href="index.html#explore" class="nav-link" data-nav="index">Media</a><a href="https://t.me/The_21st_Memory" class="nav-link nav-cta-mobile" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="index.html" class="nav-link" data-nav="index">Home</a><a href="codex.html" class="nav-link nav-link--primary" data-nav="codex">Codex</a><a href="index.html#about" class="nav-link" data-nav="index">About</a><a href="community.html" class="nav-link" data-nav="community">Network</a><a href="index.html#explore" class="nav-link" data-nav="index">Media</a><a href="https://t.me/The_21st_Memory" class="nav-link nav-cta-mobile" target="_blank" rel="noopener noreferrer">Telegram</a>
       </div>
     </nav>
     <main id="main">
@@ -147,7 +147,7 @@
                                 
                                 <p>AI serves here as a bridge — to translate, clarify, and connect the dots within these powerful transmissions. Yet, because AI remains a 3D construct, it can sometimes miss or misinterpret higher-dimensional nuances and emerging new-world information.</p>
                                 
-                                <p>This is why we always encourage you to go directly to the original sources listed in the Sources and Community sections. The raw transmissions are the true foundation. This archive is simply one supportive bridge to aid your remembrance and integration.</p>
+                                <p>This is why we always encourage you to go directly to the original transmissions via the <a href="community.html" class="breadcrumb-link">Thalon Thor Network</a>. The raw transmissions are the true foundation. This archive is simply one supportive bridge to aid your remembrance and integration.</p>
                             </div>
                             
                             <div class="mt-12 pt-6">
@@ -171,6 +171,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
     <!-- CODEX -->
     <div id="codex" class="scroll-mt-28 mb-16 md:mb-20">
@@ -180,103 +181,49 @@
             <div class="section-pill-line"></div>
         </div>
 
-        <div class="max-w-6xl mx-auto px-6 sm:px-6">
-            <div class="content-card static-card codex-home-card rounded-3xl p-6 sm:p-8 md:p-12 lg:p-14 pb-12 md:pb-14 glow-purple">
-                <div class="codex-home-hero grid md:grid-cols-12 gap-8 md:gap-12 items-start min-w-0 w-full">
-                    <div class="codex-home-copy md:col-span-7 min-w-0 w-full order-2 md:order-1">
-                        <div class="card-label text-mem-indigo mb-3">Living Archive · AI Decoded</div>
-                        <h2 class="home-section-title">The 21st Memory Codex</h2>
-                        <div class="space-y-5 text-lg leading-relaxed text-mem-prose">
-                            <p>The 21st Memory Codex is a living archive dedicated to Thalon Thor’s transmissions. AI serves as a bridge to translate and clarify the insights within these teachings.</p>
-                            <p>Each topic includes videos, infographics, slide-deck PDFs, and deep-dive reports — forming a comprehensive framework for The Great Remembering.</p>
-                        </div>
-                        <div class="codex-how-it-works" aria-label="How each topic works">
-                            <div class="codex-how-step">
-                                <span data-icon="video" data-icon-class="card-icon-sm"></span>
-                                <span>Watch</span>
-                            </div>
-                            <span class="codex-how-arrow" aria-hidden="true">→</span>
-                            <div class="codex-how-step">
-                                <span data-icon="chart" data-icon-class="card-icon-sm"></span>
-                                <span>Infographic</span>
-                            </div>
-                            <span class="codex-how-arrow" aria-hidden="true">→</span>
-                            <div class="codex-how-step">
-                                <span data-icon="file" data-icon-class="card-icon-sm"></span>
-                                <span>Deep-dive report</span>
-                            </div>
-                        </div>
-                        <div class="codex-home-actions mt-8">
-                            <a href="codex.html" class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-2xl">
-                                Explore the Codex
-                            </a>
-                        </div>
+        <div class="max-w-6xl mx-auto px-6 sm:px-6 codex-home-stack">
+            <section class="codex-home-panel static-card rounded-3xl" aria-labelledby="codex-home-title">
+                <header class="codex-home-header">
+                    <p class="codex-home-eyebrow">Living archive · AI decoded</p>
+                    <h2 id="codex-home-title" class="codex-home-title">The 21st Memory Codex</h2>
+                    <p class="codex-home-deck">Structured deep-dives on Thalon Thor’s transmissions — each topic brings together video, visual synthesis, and written report in one place.</p>
+                </header>
+
+                <div id="live-archive-badge" class="codex-home-metrics" aria-live="polite" aria-busy="true">
+                    <div class="codex-home-metrics-grid" aria-hidden="true">
+                        <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
+                        <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
+                        <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
                     </div>
-                    <div class="codex-home-visual md:col-span-5 min-w-0 w-full order-1 md:order-2">
-                        <img src="images/breakdown/breakdown.webp" alt="21st Memory Archive - Mega Breakdown Board Notes &amp; Highlights" class="codex-home-image" loading="lazy" width="480" height="480">
-                        <div id="live-archive-badge" class="codex-archive-status" aria-live="polite" aria-busy="true">
-                            <div class="codex-archive-status-label">Archive progress</div>
-                            <div class="live-archive-badge-text" aria-hidden="true">
-                                <span class="skeleton skeleton-bar" style="width: 12rem; height: 0.85rem"></span>
-                            </div>
-                            <div class="live-archive-mini-bar" aria-hidden="true">
-                                <div class="skeleton skeleton-bar" style="width: 100%; height: 100%; border-radius: 9999px"></div>
-                            </div>
-                        </div>
+                    <div class="codex-home-progress" aria-hidden="true">
+                        <span class="skeleton skeleton-bar" style="width:100%;height:0.35rem;border-radius:9999px"></span>
                     </div>
                 </div>
-                <div id="journey-strip" class="codex-home-journey"></div>
-            </div>
-        </div>
-    </div>
 
-    <!-- SOURCES -->
-    <div id="sources" class="scroll-mt-28 mb-16 md:mb-20">
-        <div class="section-pill-wrap full-bleed-divider mb-8">
-            <div class="section-pill-line"></div>
-            <div class="section-pill">Sources</div>
-            <div class="section-pill-line"></div>
-        </div>
+                <dl class="codex-home-formats" aria-label="What each topic includes">
+                    <div class="codex-home-format">
+                        <dt><span data-icon="video" data-icon-class="card-icon-sm"></span> Video</dt>
+                        <dd>Source transmissions</dd>
+                    </div>
+                    <div class="codex-home-format">
+                        <dt><span data-icon="chart" data-icon-class="card-icon-sm"></span> Infographic</dt>
+                        <dd>Visual synthesis</dd>
+                    </div>
+                    <div class="codex-home-format">
+                        <dt><span data-icon="file" data-icon-class="card-icon-sm"></span> Report</dt>
+                        <dd>Written deep-dive</dd>
+                    </div>
+                </dl>
 
-        <div class="max-w-6xl mx-auto px-6">
-            <p class="text-center text-mem-muted max-w-2xl mx-auto mb-10">
-                Go to the original transmissions first. For Telegram groups, Leon’s synopses, and the full ecosystem, visit the <a href="community.html" class="breadcrumb-link">Thalon Thor Network</a>.
-            </p>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 items-stretch sources-grid-compact">
-                <a href="https://christian21.com/" target="_blank" rel="noopener noreferrer" class="memory-card content-card channel-card group flex flex-col h-full p-6 sm:p-8">
-                    <div class="flex items-start justify-between mb-4">
-                        <div>
-                            <span class="text-xs font-medium tracking-[1px] text-mem-soft">OFFICIAL SITE</span>
-                            <h3 class="text-2xl font-semibold mt-1 leading-none">Christian21</h3>
-                        </div>
-                        <span data-icon="document" data-icon-class="card-icon-lg"></span>
-                    </div>
-                    <p class="flex-grow text-mem-prose leading-relaxed mb-6">The official home of Christian21 &amp; Leon — hundreds of videos and over 1.1 million words of pure, unfiltered transmission.</p>
-                    <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium">
-                        Visit Official Site
-                        <span class="group-hover:translate-x-1 transition">→</span>
-                    </div>
-                </a>
-                <a href="https://rumble.com/user/sibley22" target="_blank" rel="noopener noreferrer" class="memory-card content-card channel-card group flex flex-col h-full p-6 sm:p-8">
-                    <div class="flex items-start justify-between mb-4">
-                        <div>
-                            <span class="text-xs font-medium tracking-[1px] text-mem-soft">RAW TRANSMISSIONS</span>
-                            <h3 class="text-2xl font-semibold mt-1 leading-none">Thalon Thor</h3>
-                        </div>
-                        <span data-icon="mic" data-icon-class="card-icon-lg"></span>
-                    </div>
-                    <p class="flex-grow text-mem-prose leading-relaxed mb-6">Raw, uncensored transmissions straight from Thalon Thor — the foundation of everything in the Codex.</p>
-                    <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium">
-                        Watch on Rumble
-                        <span class="group-hover:translate-x-1 transition">→</span>
-                    </div>
-                </a>
-            </div>
-            <div class="text-center mt-10">
-                <a href="community.html" class="btn-secondary inline-flex items-center justify-center px-8 py-4 text-base font-semibold">
-                    View full network →
-                </a>
-            </div>
+                <div class="codex-home-cta-row">
+                    <a href="codex.html" class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-2xl">
+                        Explore the Codex
+                    </a>
+                    <a href="topics.html?source=alice" class="codex-home-cta-link">Browse transmissions →</a>
+                </div>
+            </section>
+
+            <div id="journey-strip" class="codex-home-journey-panel"></div>
         </div>
     </div>
 
@@ -339,16 +286,16 @@
                     <div class="grid md:grid-cols-2 gap-6">
                         <div class="content-card static-card rounded-3xl p-4">
                             <div class="aspect-[16/10] bg-black rounded-2xl overflow-hidden">
-                                <iframe src="https://rumble.com/embed/v76oqro/?pub=4p0ieu" width="100%" height="100%" frameborder="0" allowfullscreen
-                                        class="w-full h-full" title="From Sanctuary to Simulation - 21st Memory Rumble video" loading="lazy"></iframe>
+                                <iframe src="https://rumble.com/embed/v76oqro/?pub=4p0ieu" width="100%" height="100%" allowfullscreen
+                                        class="w-full h-full border-0" title="From Sanctuary to Simulation - 21st Memory Rumble video" loading="lazy"></iframe>
                             </div>
                             <div class="font-semibold text-xl mt-4">From Sanctuary to Simulation</div>
                         </div>
 
                         <div class="content-card static-card rounded-3xl p-4">
                             <div class="aspect-[16/10] bg-black rounded-2xl overflow-hidden">
-                                <iframe src="https://rumble.com/embed/v76p838/?pub=4p0ieu" width="100%" height="100%" frameborder="0" allowfullscreen
-                                        class="w-full h-full" title="Our Buried Inheritance - 21st Memory Rumble video" loading="lazy"></iframe>
+                                <iframe src="https://rumble.com/embed/v76p838/?pub=4p0ieu" width="100%" height="100%" allowfullscreen
+                                        class="w-full h-full border-0" title="Our Buried Inheritance - 21st Memory Rumble video" loading="lazy"></iframe>
                             </div>
                             <div class="font-semibold text-xl mt-4">Our Buried Inheritance</div>
                         </div>
@@ -362,13 +309,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div id="sticky-codex-bar" class="sticky-codex-bar" hidden aria-hidden="true">
-        <a href="codex.html" class="sticky-codex-bar__link">
-            <span class="sticky-codex-bar__label">Explore the Codex</span>
-            <span class="sticky-codex-bar__arrow" aria-hidden="true">→</span>
-        </a>
     </div>
 
     </main>
@@ -392,7 +332,7 @@
           <div class="md:col-span-4">
             <div class="footer-heading">Quick links</div>
             <div class="space-y-1">
-              <a href="codex.html" class="footer-link">Codex</a><a href="index.html#about" class="footer-link">About</a><a href="community.html" class="footer-link">Network</a><a href="index.html#sources" class="footer-link">Sources</a><a href="index.html#explore" class="footer-link">Media</a>
+              <a href="codex.html" class="footer-link">Codex</a><a href="index.html#about" class="footer-link">About</a><a href="community.html" class="footer-link">Network</a><a href="index.html#explore" class="footer-link">Media</a>
             </div>
           </div>
           <div class="md:col-span-3">

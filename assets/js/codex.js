@@ -5,10 +5,33 @@ let codexState = {
   allTopics: [],
   archiveStats: { sources: 0, live: 0, total: 0 },
   filters: { query: '', status: 'all', sort: 'alpha' },
-  loading: true
+  loading: true,
+  searchIndexBuilt: false,
+  searchIndexPromise: null
 };
 
-const debouncedRenderCodexViews = TopicUtils.debounce(renderCodexViews, 250);
+const debouncedRenderCodexViews = TopicUtils.debounce(async () => {
+  if (TopicUtils.normalizeSearch(codexState.filters.query)) {
+    await ensureSearchIndex();
+  }
+  renderCodexViews();
+}, 250);
+
+function ensureSearchIndex() {
+  if (codexState.searchIndexBuilt) return Promise.resolve();
+  if (!codexState.searchIndexPromise) {
+    codexState.searchIndexPromise = Promise.resolve().then(() => {
+      codexState.allTopics = codexState.sources.flatMap((bundle) =>
+        TopicUtils.flattenTopicTree(bundle.topics, {
+          sourceId: bundle.id,
+          sourceTitle: bundle.title
+        })
+      );
+      codexState.searchIndexBuilt = true;
+    });
+  }
+  return codexState.searchIndexPromise;
+}
 
 function getSoonCount(stats) {
   return Math.max(0, (stats?.total || 0) - (stats?.live || 0));
@@ -95,6 +118,11 @@ function renderToolbar() {
   const el = document.getElementById('codex-toolbar');
   if (!el) return;
 
+  const prevInput = el.querySelector('#codex-search-input');
+  const shouldRefocusSearch = document.activeElement === prevInput;
+  const selectionStart = prevInput?.selectionStart ?? null;
+  const selectionEnd = prevInput?.selectionEnd ?? null;
+
   const { query, status, sort } = codexState.filters;
   const statusButtons = ['all', 'ready', 'soon'].map(value => {
     const label = value === 'all' ? 'All' : value === 'ready' ? 'Ready' : 'Coming soon';
@@ -126,7 +154,7 @@ function renderToolbar() {
             type="search"
             class="codex-search-input"
             placeholder="Search topics, sources, or keywords…"
-            value="${query.replace(/"/g, '&quot;')}"
+            value="${TopicUtils.escapeAttr(query)}"
             autocomplete="off"
             spellcheck="false"
           >
@@ -167,6 +195,13 @@ function renderToolbar() {
       renderCodexViews();
     });
   });
+
+  if (shouldRefocusSearch && searchInput) {
+    searchInput.focus();
+    if (selectionStart != null && selectionEnd != null) {
+      searchInput.setSelectionRange(selectionStart, selectionEnd);
+    }
+  }
 }
 
 function renderSourceCard(source) {
@@ -200,7 +235,8 @@ function renderSourcesGrid() {
     return;
   }
 
-  sources.forEach(source => container.appendChild(renderSourceCard(source)));
+  sources.forEach((source) => container.appendChild(renderSourceCard(source)));
+  RenderUtils.setupImageFallbacks(container, 'img[data-img-fallback], .source-card-img');
 }
 
 function renderTopicSearchResults() {
@@ -241,11 +277,6 @@ async function loadSourceBundle(source) {
     const topicData = await TopicUtils.fetchSourceIndex(source.id);
     const lightTopics = TopicUtils.normalizeTopicsFromIndex(topicData.topics || []);
     const stats = TopicUtils.countTopicStats(lightTopics);
-    const flatTopics = TopicUtils.flattenTopicTree(lightTopics, {
-      sourceId: source.id,
-      sourceTitle: topicData.title
-    });
-
     return {
       id: source.id,
       title: topicData.title,
@@ -253,8 +284,7 @@ async function loadSourceBundle(source) {
       description: topicData.description || '',
       image: topicData.image || '',
       stats,
-      topics: lightTopics,
-      flatTopics
+      topics: lightTopics
     };
   } catch (error) {
     console.error(`Failed to load topics for ${source.id}:`, error);
@@ -266,7 +296,6 @@ async function loadSourceBundle(source) {
       image: '',
       stats: { live: 0, total: 0 },
       topics: [],
-      flatTopics: [],
       error: true
     };
   }
@@ -280,13 +309,24 @@ async function loadSources() {
   if (gridEl) gridEl.innerHTML = TopicUtils.skeleton('codex-grid');
 
   try {
-    const sourcesResponse = await fetch('data/sources.json');
+    const [sourcesResponse, quickStats] = await Promise.all([
+      fetch('data/sources.json'),
+      TopicUtils.fetchArchiveStats().catch(() => null)
+    ]);
     if (!sourcesResponse.ok) throw new Error(`HTTP ${sourcesResponse.status} — sources.json not found`);
     const sourcesData = await sourcesResponse.json();
+
+    if (quickStats) {
+      codexState.archiveStats = quickStats;
+      renderArchiveStats();
+    }
+
     const bundles = await Promise.all(sourcesData.sources.map(loadSourceBundle));
 
     codexState.sources = bundles;
-    codexState.allTopics = bundles.flatMap(bundle => bundle.flatTopics);
+    codexState.allTopics = [];
+    codexState.searchIndexBuilt = false;
+    codexState.searchIndexPromise = null;
     codexState.archiveStats = bundles.reduce((acc, bundle) => {
       acc.sources += 1;
       acc.live += bundle.stats.live;
@@ -321,7 +361,13 @@ function handleCodexPillScroll() {
   }
 }
 
+function initCodexSearchFromUrl() {
+  const query = new URLSearchParams(window.location.search).get('q');
+  if (query) codexState.filters.query = query;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+  initCodexSearchFromUrl();
   loadSources();
   handleCodexPillScroll();
 });

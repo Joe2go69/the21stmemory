@@ -1,4 +1,4 @@
-// Homepage — live archive stats, journey strip, essence entry, sticky CTA
+// Homepage — live archive stats, journey strip, essence entry
 
 const DEFAULT_SOURCE_ID = 'alice';
 const ESSENCE_TOPIC_ID = 'essence-of-the-transmission';
@@ -15,13 +15,15 @@ function renderArchiveBadgeSkeleton() {
   const badge = document.getElementById('live-archive-badge');
   if (!badge) return;
 
+  badge.setAttribute('aria-busy', 'true');
   badge.innerHTML = `
-    <div class="codex-archive-status-label">Archive progress</div>
-    <div class="live-archive-badge-text" aria-hidden="true">
-      <span class="skeleton skeleton-bar" style="width: 12rem; height: 0.85rem"></span>
+    <div class="codex-home-metrics-grid" aria-hidden="true">
+      <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
+      <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
+      <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
     </div>
-    <div class="live-archive-mini-bar" aria-hidden="true">
-      <span class="skeleton skeleton-bar" style="width: 100%; height: 100%; border-radius: 9999px"></span>
+    <div class="codex-home-progress" aria-hidden="true">
+      <span class="skeleton skeleton-bar" style="width:100%;height:0.35rem;border-radius:9999px"></span>
     </div>
   `;
 }
@@ -31,15 +33,32 @@ function renderLiveArchiveBadge(live, total) {
   if (!badge) return;
 
   const pct = total ? Math.round((live / total) * 100) : 0;
+  const soon = Math.max(0, total - live);
   badge.setAttribute('aria-busy', 'false');
+
   badge.innerHTML = `
-    <div class="codex-archive-status-label">Archive progress</div>
-    <div class="live-archive-badge-text">
-      <span class="live-archive-badge-dot" aria-hidden="true"></span>
-      <span><strong>${live}</strong> of <strong>${total}</strong> revelations decoded · <strong>${pct}%</strong> complete</span>
+    <div class="codex-home-metrics-grid">
+      <div class="codex-home-metric">
+        <div class="codex-home-metric-value">${total}</div>
+        <div class="codex-home-metric-label">Topics archived</div>
+      </div>
+      <div class="codex-home-metric">
+        <div class="codex-home-metric-value">${live}</div>
+        <div class="codex-home-metric-label">Ready now</div>
+      </div>
+      <div class="codex-home-metric">
+        <div class="codex-home-metric-value">${soon}</div>
+        <div class="codex-home-metric-label">Coming soon</div>
+      </div>
     </div>
-    <div class="live-archive-mini-bar" role="progressbar" aria-valuenow="${live}" aria-valuemin="0" aria-valuemax="${total}">
-      <div class="live-archive-mini-fill" data-progress="${pct}" style="width: ${pct}%"></div>
+    <div class="codex-home-progress">
+      <div class="codex-home-progress-meta">
+        <span>${live} of ${total} revelations decoded</span>
+        <span>${pct}% complete</span>
+      </div>
+      <div class="archive-progress-bar" role="progressbar" aria-valuenow="${live}" aria-valuemin="0" aria-valuemax="${total}" aria-label="Archive progress">
+        <div class="archive-progress-fill" data-progress="${pct}" style="width: ${pct}%"></div>
+      </div>
     </div>
   `;
   TopicUtils.animateProgressBars(badge);
@@ -48,7 +67,7 @@ function renderLiveArchiveBadge(live, total) {
 function renderJourneyCard(topic) {
   const essenceClass = topic.isEssence ? ' journey-card--essence' : '';
   const allClass = topic.isViewAll ? ' journey-card--all' : '';
-  const stepLabel = topic.isViewAll ? 'Archive' : (topic.isEssence ? 'Start' : `Step ${topic.step}`);
+  const stepLabel = topic.isViewAll ? 'Archive' : (topic.isEssence ? 'Start' : `${topic.step}`);
 
   if (topic.isViewAll) {
     return `
@@ -64,11 +83,11 @@ function renderJourneyCard(topic) {
   return `
     <a href="deep-dive.html?source=${DEFAULT_SOURCE_ID}&topic=${topic.id}" class="journey-card${essenceClass}${allClass}" role="listitem">
       <div class="journey-card-thumb">
-        <img src="${TopicUtils.encodeAssetPath(topic.image)}" alt="${topic.title}" loading="lazy" width="184" height="138">
+        <img src="${TopicUtils.encodeAssetPath(topic.image)}" alt="" loading="lazy" width="184" height="138" data-img-fallback>
         <span class="journey-card-step">${stepLabel}</span>
       </div>
       <div class="journey-card-body">
-        <div class="journey-card-title">${topic.title}</div>
+        <div class="journey-card-title">${TopicUtils.escapeHtml(topic.title)}</div>
       </div>
     </a>
   `;
@@ -84,22 +103,22 @@ function renderJourneyStrip(topics, stats) {
       isViewAll: true,
       href: `topics.html?source=${DEFAULT_SOURCE_ID}#explore-topics`,
       countLabel: `${stats.total} topics`,
-      title: 'View full archive →'
+      title: 'View full archive'
     });
   }
 
   strip.innerHTML = `
     <div class="codex-home-journey-head">
       <div>
-        <div class="journey-strip-title">Start your journey</div>
-        <p class="journey-strip-sub">Begin with the Essence, then follow five foundational revelations — or jump to any topic in the archive.</p>
+        <h3 class="journey-strip-title">Recommended starting points</h3>
+        <p class="journey-strip-sub">Begin with the Essence transmission, then explore foundational topics — or open any entry in the archive.</p>
       </div>
-      <span class="journey-strip-hint" aria-hidden="true">Swipe →</span>
     </div>
-    <div class="journey-scroll" role="list" aria-label="Start your journey — essence and foundational topics">
+    <div class="journey-scroll" role="list" aria-label="Recommended starting points">
       ${cards.map(topic => renderJourneyCard(topic)).join('')}
     </div>
   `;
+  TopicUtils.setupImageFallbacks(strip);
 }
 
 function buildJourneyTopicsFromIndex(topicTree) {
@@ -151,8 +170,8 @@ async function loadJourneyStrip() {
 
   strip.innerHTML = `
     <div class="codex-home-journey-head">
-      <div class="journey-strip-title">Start your journey</div>
-      <p class="journey-strip-sub text-mem-muted">Journey topics loading…</p>
+      <h3 class="journey-strip-title">Recommended starting points</h3>
+      <p class="journey-strip-sub text-mem-muted">Loading topics…</p>
     </div>
   `;
   return null;
@@ -164,108 +183,34 @@ async function fetchArchiveStatsFromIndex(sourceId = DEFAULT_SOURCE_ID) {
   return TopicUtils.countTopicStats(lightTopics);
 }
 
-async function fetchAllArchiveStatsFromIndex() {
-  const response = await fetch('data/sources.json');
-  if (!response.ok) throw new Error(`HTTP ${response.status} — sources.json not found`);
-  const sourcesData = await response.json();
-  const bundles = await Promise.all(
-    (sourcesData.sources || []).map(source => fetchArchiveStatsFromIndex(source.id))
-  );
-  return bundles.reduce((acc, stats) => ({
-    live: acc.live + stats.live,
-    total: acc.total + stats.total
-  }), { live: 0, total: 0 });
-}
-
-async function fetchArchiveStatsFromFile(sourceId = DEFAULT_SOURCE_ID) {
-  const response = await fetch(`data/${sourceId}-stats.json`);
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  const stats = await response.json();
-  if (stats.live == null || stats.total == null) {
-    throw new Error('Invalid stats payload');
-  }
-  return stats;
-}
-
-async function fetchAllArchiveStatsFromFiles() {
-  const response = await fetch('data/sources.json');
-  if (!response.ok) throw new Error(`HTTP ${response.status} — sources.json not found`);
-  const sourcesData = await response.json();
-  const bundles = await Promise.all(
-    (sourcesData.sources || []).map(source => fetchArchiveStatsFromFile(source.id))
-  );
-  return bundles.reduce((acc, stats) => ({
-    live: acc.live + stats.live,
-    total: acc.total + stats.total
-  }), { live: 0, total: 0 });
-}
-
 async function loadHomeArchiveStats() {
   renderArchiveBadgeSkeleton();
 
   try {
-    const stats = await fetchAllArchiveStatsFromIndex();
-    renderLiveArchiveBadge(stats.live, stats.total);
-    return stats;
-  } catch (error) {
-    console.warn('Topic index stats unavailable, trying stats file:', error);
-  }
-
-  try {
-    const stats = await fetchAllArchiveStatsFromFiles();
+    const stats = await TopicUtils.fetchArchiveStats();
     renderLiveArchiveBadge(stats.live, stats.total);
     return stats;
   } catch (error) {
     console.warn('Archive stats unavailable:', error);
     const badge = document.getElementById('live-archive-badge');
     if (badge) {
+      badge.setAttribute('aria-busy', 'false');
       badge.innerHTML = `
-        <div class="codex-archive-status-label">Archive progress</div>
-        <div class="live-archive-badge-text">Archive stats temporarily unavailable</div>
+        <p class="codex-home-metrics-fallback">Archive stats temporarily unavailable</p>
       `;
     }
     return null;
   }
 }
 
-function initStickyCodexBar() {
-  const bar = document.getElementById('sticky-codex-bar');
-  const hero = document.querySelector('header.hero-spotlight');
-  const codexSection = document.getElementById('codex');
-  if (!bar || !hero) return;
-
-  const showAfter = () => {
-    const heroBottom = hero.getBoundingClientRect().bottom;
-    const codexVisible = codexSection
-      ? codexSection.getBoundingClientRect().top < window.innerHeight * 0.65
-      : false;
-    const shouldShow = heroBottom < 0 && !codexVisible;
-    bar.hidden = !shouldShow;
-    bar.setAttribute('aria-hidden', shouldShow ? 'false' : 'true');
-  };
-
-  let ticking = false;
-  window.addEventListener('scroll', () => {
-    if (ticking) return;
-    ticking = true;
-    requestAnimationFrame(() => {
-      showAfter();
-      ticking = false;
-    });
-  }, { passive: true });
-
-  showAfter();
-}
-
 document.addEventListener('DOMContentLoaded', async () => {
-  const [stats] = await Promise.all([
+  await Promise.all([
     loadHomeArchiveStats(),
     loadJourneyStrip()
   ]);
 
-  initStickyCodexBar();
-
-  if (typeof hydrateSiteIcons === 'function') {
-    hydrateSiteIcons(document.getElementById('codex'));
+  const codexRoot = document.getElementById('codex');
+  if (typeof hydrateSiteIcons === 'function' && codexRoot) {
+    hydrateSiteIcons(codexRoot);
   }
 });

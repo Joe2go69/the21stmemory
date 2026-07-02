@@ -2,6 +2,7 @@
 
 const zoomState = {
   scale: 1,
+  fitScale: 1,
   panX: 0,
   panY: 0,
   dragging: false,
@@ -11,6 +12,8 @@ const zoomState = {
   panStartY: 0,
   lastPinchDistance: 0
 };
+
+let infographicModalTrigger = null;
 
 function setPageMeta(name, content, attr = "name") {
   let el = document.querySelector(`meta[${attr}="${name}"]`);
@@ -38,6 +41,14 @@ function updateTopicPageMeta({ topic, sourceId, fullData }) {
   setPageMeta("twitter:title", title);
   setPageMeta("twitter:description", description);
   setPageMeta("twitter:image", image);
+
+  let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) {
+    canonical = document.createElement('link');
+    canonical.rel = 'canonical';
+    document.head.appendChild(canonical);
+  }
+  canonical.href = url;
 }
 
 function renderTopicNav({ topics, sourceId, topicId }) {
@@ -50,9 +61,12 @@ function renderTopicNav({ topics, sourceId, topicId }) {
       ? (typeof renderSiteIcon === "function" ? renderSiteIcon("arrowLeft", "card-icon-sm") : "")
       : (typeof renderSiteIcon === "function" ? renderSiteIcon("arrowRight", "card-icon-sm") : "");
     const label = direction === "prev" ? "Previous" : "Next";
+    const safeSource = encodeURIComponent(sourceId);
+    const safeTopic = encodeURIComponent(entry.id);
+    const safeTitle = escapeHtml(entry.title);
     return `
-      <a href="deep-dive.html?source=${sourceId}&topic=${entry.id}" class="topic-prev-next__link topic-prev-next__link--${direction}">
-        ${direction === "prev" ? `${icon}<span class="topic-prev-next__text"><span class="topic-prev-next__label">${label}</span><span class="topic-prev-next__title">${entry.title}</span></span>` : `<span class="topic-prev-next__text"><span class="topic-prev-next__label">${label}</span><span class="topic-prev-next__title">${entry.title}</span></span>${icon}`}
+      <a href="deep-dive.html?source=${safeSource}&topic=${safeTopic}" class="topic-prev-next__link topic-prev-next__link--${direction}">
+        ${direction === "prev" ? `${icon}<span class="topic-prev-next__text"><span class="topic-prev-next__label">${label}</span><span class="topic-prev-next__title">${safeTitle}</span></span>` : `<span class="topic-prev-next__text"><span class="topic-prev-next__label">${label}</span><span class="topic-prev-next__title">${safeTitle}</span></span>${icon}`}
       </a>`;
   };
 
@@ -83,7 +97,33 @@ function setupReadingProgress() {
 }
 
 function escapeAttr(value) {
-  return String(value || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+  return TopicUtils.escapeAttr(value);
+}
+
+function escapeHtml(value) {
+  return TopicUtils.escapeHtml(value);
+}
+
+function sanitizeReportHtml(html) {
+  const doc = new DOMParser().parseFromString(html, 'text/html');
+  doc.querySelectorAll('script, iframe, object, embed, form, style').forEach((el) => el.remove());
+  doc.querySelectorAll('*').forEach((el) => {
+    [...el.attributes].forEach((attr) => {
+      const name = attr.name.toLowerCase();
+      const val = attr.value.trim().toLowerCase();
+      if (name.startsWith('on') || (name === 'href' && val.startsWith('javascript:'))) {
+        el.removeAttribute(attr.name);
+      }
+    });
+  });
+  return doc.body.innerHTML;
+}
+
+function renderMarkdownReport(markdown) {
+  if (typeof marked === 'undefined') {
+    return '<div class="text-center py-12 text-mem-muted">Report renderer unavailable. Please refresh the page.</div>';
+  }
+  return sanitizeReportHtml(marked.parse(markdown));
 }
 
 const MediaEmpty = {
@@ -116,14 +156,14 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId }) {
       <div class="deep-dive-hero-content">
         <div class="deep-dive-hero-meta">
           <div class="inline-flex items-center px-4 py-1 rounded-full bg-black/40 text-mem-muted text-xs font-semibold tracking-[2px] border border-white/10">
-            ${fullData.title}
+            ${escapeHtml(fullData.title)}
           </div>
-          ${readingTime ? `<span class="deep-dive-reading-time">${readingTime}</span>` : ''}
+          ${readingTime ? `<span class="deep-dive-reading-time">${escapeHtml(readingTime)}</span>` : ''}
         </div>
-        <h1 class="text-4xl md:text-6xl font-semibold tracking-tighter leading-none text-white">${topic.title}</h1>
+        <h1 class="text-4xl md:text-6xl font-semibold tracking-tighter leading-none text-white">${escapeHtml(topic.title)}</h1>
         <div class="deep-dive-hero-accent" aria-hidden="true"></div>
         <div class="text-[17px] text-mem-secondary max-w-[52ch] leading-relaxed">
-          ${(topic.description || '').split('\n\n').map(p => `<p class="mb-3 last:mb-0">${p}</p>`).join('')}
+          ${(topic.description || '').split('\n\n').map((p) => `<p class="mb-3 last:mb-0">${escapeHtml(p)}</p>`).join('')}
         </div>
         <div class="mt-7">
           <div class="text-xs tracking-wide text-mem-muted mb-2.5 font-semibold">Jump to</div>
@@ -140,12 +180,48 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId }) {
           </div>
           <div class="flex flex-wrap gap-3 pt-1 border-t border-white/10">
             <a href="codex.html#codex-pill" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Codex</a>
-            <a href="topics.html?source=${sourceId}#explore-topics" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Topics</a>
+            <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Topics</a>
           </div>
         </div>
       </div>
     </div>
   `;
+}
+
+function renderSlideDeckArtifact({ pdfUrl, previewSrc, topicTitle }) {
+  const safeUrl = escapeAttr(pdfUrl || '#');
+  const safePreviewSrc = escapeAttr(previewSrc);
+  const safeTitle = escapeHtml(topicTitle);
+  const actionIcon = typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : '';
+  return `
+    <div class="slide-deck-artifact" role="button" tabindex="0" aria-label="Open slide deck PDF" data-pdf-url="${safeUrl}">
+      <img src="${safePreviewSrc}" alt="Slide deck preview - ${safeTitle}"
+           width="600" height="400" loading="lazy"
+           onerror="MediaEmpty.replace(this,'file','Preview image unavailable',true)">
+      <div class="slide-deck-artifact-caption">
+        <span>Slide deck preview</span>
+        <span class="slide-deck-artifact-action">${actionIcon} Open PDF</span>
+      </div>
+    </div>
+  `;
+}
+
+function setupSlideDeckArtifact(container) {
+  const artifact = container?.querySelector('.slide-deck-artifact');
+  if (!artifact) return;
+
+  const openPdf = () => {
+    const url = artifact.dataset.pdfUrl;
+    if (url && url !== '#') window.open(url, '_blank');
+  };
+
+  artifact.addEventListener('click', openPdf);
+  artifact.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      openPdf();
+    }
+  });
 }
 
 function setupJumpToPills() {
@@ -178,11 +254,18 @@ async function loadLessonViewer() {
   const tocMobile = document.getElementById('report-toc-mobile');
 
   if (!topicId) {
-    headerContainer.innerHTML = '<div class="text-center py-12"><p class="text-red-400">No topic specified. Please return to the Codex.</p></div>';
+    if (headerContainer) {
+      headerContainer.innerHTML = '<div class="text-center py-12"><p class="text-red-400">No topic specified. Please return to the Codex.</p></div>';
+    }
     return;
   }
 
-  if (headerContainer) headerContainer.innerHTML = TopicUtils.skeleton('deep-dive');
+  if (!headerContainer || !infographicContainer || !pdfContainer || !videosContainer || !reportContainer) {
+    console.error('Deep-dive page is missing required DOM containers');
+    return;
+  }
+
+  headerContainer.innerHTML = TopicUtils.skeleton('deep-dive');
 
   try {
     const fullData = await TopicUtils.fetchSourceIndex(sourceId);
@@ -190,7 +273,7 @@ async function loadLessonViewer() {
     const topicPath = TopicUtils.findTopicPath(fullData.topics, topicId);
 
     if (!lightTopic) {
-      headerContainer.innerHTML = `<div class="text-center py-12"><p class="text-red-400">Topic not found: ${topicId}</p></div>`;
+      headerContainer.innerHTML = `<div class="text-center py-12"><p class="text-red-400">Topic not found: ${escapeHtml(topicId)}</p></div>`;
       return;
     }
 
@@ -236,7 +319,7 @@ async function loadLessonViewer() {
             encompassing infographics, slide decks, video transmissions, and a deep-dive report.
             The Great Remembering reveals its wisdom in perfect timing.
           </p>
-          <a href="topics.html?source=${sourceId}#explore-topics" class="btn-primary inline-flex items-center justify-center px-10 py-4 text-base font-semibold">← Back to topics</a>
+          <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="btn-primary inline-flex items-center justify-center px-10 py-4 text-base font-semibold">← Back to topics</a>
           <div class="mt-8 text-xs text-mem-dim tracking-wide">More content coming soon</div>
         </div>
       `);
@@ -245,9 +328,9 @@ async function loadLessonViewer() {
     if (topic.infographic_image) {
       const infographicSrc = TopicUtils.encodeAssetPath(topic.infographic_image);
       infographicContainer.innerHTML = `
-        <div class="infographic-artifact" role="button" tabindex="0" aria-label="Open full size infographic" data-infographic-src="${infographicSrc.replace(/"/g, '&quot;')}">
-          <img src="${infographicSrc}" alt="${topic.title} Infographic"
-               width="800" height="600" loading="lazy"
+        <div class="infographic-artifact" role="button" tabindex="0" aria-label="Open full size infographic" data-infographic-src="${escapeAttr(infographicSrc)}">
+          <img src="${escapeAttr(infographicSrc)}" alt="${escapeHtml(topic.title)} Infographic"
+               loading="lazy" decoding="async"
                onerror="MediaEmpty.replace(this,'archive','Infographic coming soon')">
           <div class="infographic-artifact-caption">
             <span>Decoded infographic</span>
@@ -257,13 +340,13 @@ async function loadLessonViewer() {
       `;
       infographicContainer.querySelector('.infographic-artifact')?.addEventListener('click', (e) => {
         const src = e.currentTarget.dataset.infographicSrc;
-        if (src) openInfographicModal(src);
+        if (src) openInfographicModal(src, e.currentTarget);
       });
       infographicContainer.querySelector('.infographic-artifact')?.addEventListener('keydown', (e) => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
           const src = e.currentTarget.dataset.infographicSrc;
-          if (src) openInfographicModal(src);
+          if (src) openInfographicModal(src, e.currentTarget);
         }
       });
     } else {
@@ -272,44 +355,24 @@ async function loadLessonViewer() {
     }
 
     if (pdfPreviewContainer) {
+      const pdfUrl = topic.slide_deck_pdf_url || '#';
       if (topic.pdf_preview_image) {
-        const pdfUrl = topic.slide_deck_pdf_url || '#';
-        pdfPreviewContainer.innerHTML = `
-          <div class="relative w-full h-full group" onclick="window.open('${pdfUrl}', '_blank')">
-            <img src="${TopicUtils.encodeAssetPath(topic.pdf_preview_image)}" alt="Slide deck preview - ${topic.title}"
-                 class="w-full h-full object-contain rounded-2xl cursor-pointer transition-all duration-300 group-hover:brightness-105 group-hover:scale-[1.01]"
-                 width="600" height="400" loading="lazy"
-                 onerror="MediaEmpty.replace(this,'file','Preview image unavailable',true)">
-            <div onclick="event.stopImmediatePropagation(); window.open('${pdfUrl}', '_blank');"
-                 class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all bg-gradient-to-b from-black/30 to-black/60 rounded-2xl cursor-pointer">
-              <div class="media-overlay-btn">
-                ${typeof renderSiteIcon === 'function' ? renderSiteIcon('book', 'card-icon-sm') : ''}
-                <span class="font-bold tracking-wide">Open full slide deck</span>
-              </div>
-            </div>
-            <div class="absolute top-4 right-4 bg-black/70 text-white text-[10px] px-3 py-1 rounded-full font-mono tracking-wide">Slide deck preview</div>
-          </div>
-        `;
+        pdfPreviewContainer.innerHTML = renderSlideDeckArtifact({
+          pdfUrl,
+          previewSrc: TopicUtils.encodeAssetPath(topic.pdf_preview_image),
+          topicTitle: topic.title
+        });
+        setupSlideDeckArtifact(pdfPreviewContainer);
       } else if (topic.slide_deck_pdf_url) {
         const fileIdMatch = topic.slide_deck_pdf_url.match(/\/d\/([a-zA-Z0-9_-]{10,})/);
         if (fileIdMatch?.[1]) {
           const thumbUrl = `https://drive.google.com/thumbnail?id=${fileIdMatch[1]}&sz=1400`;
-          pdfPreviewContainer.innerHTML = `
-            <div class="relative w-full h-full group" onclick="window.open('${topic.slide_deck_pdf_url}', '_blank')">
-              <img src="${thumbUrl}" alt="First page preview - ${topic.title}"
-                   class="w-full h-full object-contain rounded-2xl cursor-pointer transition-all duration-300 group-hover:brightness-105 group-hover:scale-[1.01]"
-                   width="600" height="400" loading="lazy"
-                   onerror="MediaEmpty.replace(this,'file','Preview temporarily unavailable',true)">
-              <div onclick="event.stopImmediatePropagation(); window.open('${topic.slide_deck_pdf_url}', '_blank');"
-                   class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all bg-gradient-to-b from-black/30 to-black/60 rounded-2xl cursor-pointer">
-                <div class="media-overlay-btn">
-                  ${typeof renderSiteIcon === 'function' ? renderSiteIcon('book', 'card-icon-sm') : ''}
-                  <span class="font-bold tracking-wide">Open full slide deck</span>
-                </div>
-              </div>
-              <div class="absolute top-4 right-4 bg-black/70 text-white text-[10px] px-3 py-1 rounded-full font-mono tracking-wide">Page 1 preview</div>
-            </div>
-          `;
+          pdfPreviewContainer.innerHTML = renderSlideDeckArtifact({
+            pdfUrl: topic.slide_deck_pdf_url,
+            previewSrc: thumbUrl,
+            topicTitle: topic.title
+          });
+          setupSlideDeckArtifact(pdfPreviewContainer);
         } else {
           pdfPreviewContainer.innerHTML = RenderUtils.renderEmptyState('file', 'Could not extract PDF ID from link', { muted: true });
           if (typeof hydrateSiteIcons === 'function') hydrateSiteIcons(pdfPreviewContainer);
@@ -320,14 +383,14 @@ async function loadLessonViewer() {
       }
     }
 
-    if (pdfContainer && topic.slide_deck_pdf_url) {
+    if (topic.slide_deck_pdf_url) {
       pdfContainer.innerHTML = `
-        <a href="${topic.slide_deck_pdf_url}" target="_blank"
-           class="btn-primary w-full inline-flex items-center justify-center gap-x-3 px-8 py-4 text-base font-semibold rounded-2xl hover:scale-[1.02] active:scale-[0.985] transition-transform">
-          ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} View / download slide deck PDF
+        <a href="${escapeAttr(topic.slide_deck_pdf_url)}" target="_blank" rel="noopener noreferrer"
+           class="slide-deck-download-btn btn-secondary w-full inline-flex items-center justify-center gap-x-2 px-6 py-3 text-sm font-semibold rounded-xl">
+          ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} Download slide deck PDF
         </a>
       `;
-    } else if (pdfContainer) {
+    } else {
       pdfContainer.innerHTML = '<div class="text-center py-4 text-mem-muted text-sm">Slide deck coming soon</div>';
     }
 
@@ -339,24 +402,18 @@ async function loadLessonViewer() {
       else videoGridClass += ' md:grid-cols-2 lg:grid-cols-3';
 
       videosContainer.className = videoGridClass;
-      videosContainer.innerHTML = topic.rumble_videos.map(video => `
-        <div class="channel-card video-card rounded-3xl overflow-hidden flex flex-col border border-mem-subtle">
-          <div class="aspect-video bg-black">
-            <iframe src="${video.embed_url}" width="100%" height="100%" frameborder="0" allowfullscreen
-                    class="w-full h-full" title="${escapeAttr(video.title)} - 21st Memory video transmission" loading="lazy"></iframe>
-          </div>
-          <div class="px-4 py-3 flex-shrink-0 border-t border-mem-subtle/50">
-            <div class="font-semibold text-[15px] tracking-tight leading-tight text-mem-body line-clamp-2">${video.title}</div>
-          </div>
-        </div>
-      `).join('');
+      videosContainer.innerHTML = topic.rumble_videos
+        .map((video) => RenderUtils.renderLazyRumbleCard(video))
+        .join('');
+      TopicUtils.setupClickToPlayVideos(videosContainer);
+      RenderUtils.setupImageFallbacks(videosContainer, 'img[data-img-fallback]');
     } else {
       videosContainer.className = 'grid grid-cols-1';
       videosContainer.innerHTML = '<div class="col-span-full text-center py-12 text-mem-muted">Video transmissions coming soon for this topic.</div>';
     }
 
     if (topic.report) {
-      reportContainer.innerHTML = marked.parse(topic.report);
+      reportContainer.innerHTML = renderMarkdownReport(topic.report);
       const lead = reportContainer.querySelector("h1 + p, p");
       if (lead) lead.classList.add("report-lead");
       setupReadingProgress();
@@ -386,6 +443,7 @@ async function loadLessonViewer() {
     }
   } catch (error) {
     console.error('Error loading lesson:', error);
+    if (!headerContainer) return;
     const errorIcon = typeof renderSiteIcon === 'function'
       ? `<div class="flex justify-center mb-4 text-red-400">${renderSiteIcon('archive', 'card-icon-lg')}</div>`
       : '';
@@ -393,7 +451,7 @@ async function loadLessonViewer() {
       <div class="text-center py-20">
         ${errorIcon}
         <h2 class="text-2xl font-semibold text-red-400 mb-4">Unable to load lesson</h2>
-        <p class="text-mem-soft max-w-md mx-auto">${error.message}</p>
+        <p class="text-mem-soft max-w-md mx-auto">${escapeHtml(error.message)}</p>
         <a href="codex.html" class="inline-block mt-8 text-sm underline">Return to Codex</a>
       </div>
     `;
@@ -410,9 +468,50 @@ function getZoomViewport(img) {
   return document.getElementById('infographic-modal-viewport') || img.parentElement;
 }
 
+function computeFitScale(img) {
+  const viewport = getZoomViewport(img);
+  if (!viewport || !img.naturalWidth || !img.naturalHeight) return 1;
+
+  const { width, height } = viewport.getBoundingClientRect();
+  if (width <= 0 || height <= 0) return 1;
+
+  return Math.min(width / img.naturalWidth, height / img.naturalHeight, 1);
+}
+
+function getMaxZoom() {
+  const fitScale = zoomState.fitScale || 1;
+  // Allow zooming to at least 1:1 native pixels for readable text.
+  return Math.max(4, (1 / fitScale) * 1.05);
+}
+
 function applyZoomTransform(img) {
-  img.style.transform = `translate3d(${zoomState.panX}px, ${zoomState.panY}px, 0) scale(${zoomState.scale})`;
+  const naturalWidth = img.naturalWidth;
+  const naturalHeight = img.naturalHeight;
+
+  if (!naturalWidth || !naturalHeight) {
+    img.style.transform = `translate3d(${zoomState.panX}px, ${zoomState.panY}px, 0) scale(${zoomState.scale})`;
+    img.style.cursor = zoomState.scale > 1 ? (zoomState.dragging ? 'grabbing' : 'grab') : 'zoom-in';
+    return;
+  }
+
+  const fitScale = Math.max(zoomState.fitScale || computeFitScale(img), 0.01);
+  const totalScale = fitScale * zoomState.scale;
+
+  img.style.width = `${naturalWidth * totalScale}px`;
+  img.style.height = `${naturalHeight * totalScale}px`;
+  img.style.maxWidth = 'none';
+  img.style.maxHeight = 'none';
+  img.style.transform = `translate3d(${zoomState.panX}px, ${zoomState.panY}px, 0)`;
   img.style.cursor = zoomState.scale > 1 ? (zoomState.dragging ? 'grabbing' : 'grab') : 'zoom-in';
+}
+
+function clearModalImageSizing(img) {
+  if (!img) return;
+  img.style.width = '';
+  img.style.height = '';
+  img.style.maxWidth = '';
+  img.style.maxHeight = '';
+  img.style.transform = '';
 }
 
 function clampPan(img) {
@@ -470,11 +569,14 @@ function resetImageZoomState(img) {
 }
 
 function setupImageZoom(img) {
-  resetImageZoomState(img);
+  if (!img.naturalWidth || !img.naturalHeight) return;
+
+  zoomState.fitScale = computeFitScale(img);
   img.style.transition = 'none';
   img.style.transformOrigin = 'center center';
-  img.style.willChange = 'transform';
+  img.style.willChange = 'transform, width, height';
   img.style.touchAction = 'none';
+  resetImageZoomState(img);
 
   if (img.dataset.zoomReady === 'true') return;
   img.dataset.zoomReady = 'true';
@@ -483,7 +585,7 @@ function setupImageZoom(img) {
   viewport?.addEventListener('wheel', (e) => {
     e.preventDefault();
     const factor = e.deltaY < 0 ? 1.1 : 0.91;
-    const nextScale = Math.max(1, Math.min(4, zoomState.scale * factor));
+    const nextScale = Math.max(1, Math.min(getMaxZoom(), zoomState.scale * factor));
     zoomAtPoint(img, e.clientX, e.clientY, nextScale);
   }, { passive: false });
 
@@ -531,7 +633,7 @@ function setupImageZoom(img) {
       if (zoomState.lastPinchDistance > 0) {
         const midX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
         const midY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
-        const nextScale = Math.max(1, Math.min(4, zoomState.scale * (dist / zoomState.lastPinchDistance)));
+        const nextScale = Math.max(1, Math.min(getMaxZoom(), zoomState.scale * (dist / zoomState.lastPinchDistance)));
         zoomAtPoint(img, midX, midY, nextScale);
       }
       zoomState.lastPinchDistance = dist;
@@ -554,21 +656,81 @@ function setupImageZoom(img) {
     if (zoomState.scale > 1) {
       resetImageZoomState(img);
     } else {
-      zoomAtPoint(img, e.clientX, e.clientY, 2);
+      const nativeZoom = Math.min(1 / (zoomState.fitScale || 1), getMaxZoom());
+      zoomAtPoint(img, e.clientX, e.clientY, Math.max(2, nativeZoom));
     }
+  });
+
+  window.addEventListener('resize', () => {
+    const modal = document.getElementById('infographic-modal');
+    if (!modal || modal.classList.contains('hidden')) return;
+    zoomState.fitScale = computeFitScale(img);
+    applyZoomTransform(img);
+    clampPan(img);
+    applyZoomTransform(img);
   });
 }
 
-function openInfographicModal(src) {
+function getInfographicModalFocusables(modal) {
+  return [...modal.querySelectorAll(
+    'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+  )].filter((el) => el.offsetParent !== null || el === modal.querySelector('#infographic-modal-close'));
+}
+
+function trapInfographicModalFocus(event) {
+  const modal = document.getElementById('infographic-modal');
+  if (!modal || modal.classList.contains('hidden') || event.key !== 'Tab') return;
+
+  const focusables = getInfographicModalFocusables(modal);
+  if (!focusables.length) return;
+
+  const first = focusables[0];
+  const last = focusables[focusables.length - 1];
+
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault();
+    last.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first.focus();
+  }
+}
+
+function openInfographicModal(src, triggerEl = null) {
   const modal = document.getElementById('infographic-modal');
   const img = document.getElementById('modal-image');
   if (!modal || !img) return;
 
-  img.src = src;
+  infographicModalTrigger = triggerEl || document.activeElement;
+
+  clearModalImageSizing(img);
+  zoomState.scale = 1;
+  zoomState.fitScale = 1;
+  zoomState.panX = 0;
+  zoomState.panY = 0;
+  zoomState.dragging = false;
+
   modal.classList.remove('hidden');
   modal.classList.add('flex');
-  setupImageZoom(img);
+  modal.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
+
+  const onReady = () => {
+    if (!img.naturalWidth || !img.naturalHeight) return;
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        setupImageZoom(img);
+      });
+    });
+  };
+
+  img.loading = 'eager';
+  img.onload = onReady;
+  img.src = src;
+
+  if (img.complete && img.naturalWidth) {
+    onReady();
+  }
 
   setTimeout(() => {
     const closeBtn = modal.querySelector('button[aria-label="Close infographic modal"]');
@@ -581,11 +743,21 @@ function closeInfographicModal() {
   if (!modal) return;
 
   const img = document.getElementById('modal-image');
-  if (img) resetImageZoomState(img);
+  if (img) {
+    resetImageZoomState(img);
+    clearModalImageSizing(img);
+  }
 
   modal.classList.remove('flex');
   modal.classList.add('hidden');
+  modal.setAttribute('aria-hidden', 'true');
   document.body.style.overflow = '';
+
+  const restoreFocus = infographicModalTrigger;
+  infographicModalTrigger = null;
+  if (restoreFocus && typeof restoreFocus.focus === 'function') {
+    restoreFocus.focus();
+  }
 }
 
 window.openInfographicModal = openInfographicModal;
@@ -593,16 +765,19 @@ window.closeInfographicModal = closeInfographicModal;
 
 function setupInfographicModalListeners() {
   const modal = document.getElementById('infographic-modal');
+  const modalInner = document.getElementById('infographic-modal-inner');
   const closeBtn = document.getElementById('infographic-modal-close');
   if (!modal) return;
 
+  modalInner?.addEventListener('click', (e) => {
+    e.stopImmediatePropagation();
+  });
   modal.addEventListener('click', (e) => {
     if (e.target === modal) closeInfographicModal();
   });
   closeBtn?.addEventListener('click', closeInfographicModal);
+  document.addEventListener('keydown', trapInfographicModalFocus);
 }
-
-document.addEventListener('DOMContentLoaded', setupInfographicModalListeners);
 
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
@@ -611,4 +786,7 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-window.addEventListener('load', loadLessonViewer);
+document.addEventListener('DOMContentLoaded', () => {
+  setupInfographicModalListeners();
+  loadLessonViewer();
+});
