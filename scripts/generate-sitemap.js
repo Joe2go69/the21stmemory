@@ -77,4 +77,15 @@ ${entries.map(e => urlEntry(`${BASE_URL}${e.path}`, e.priority, e.changefreq)).j
 
 const outPath = path.join(ROOT, 'sitemap.xml');
 fs.writeFileSync(outPath, xml, 'utf8');
+
+const invalidLoc = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)]
+  .map((match) => match[1])
+  .filter((loc) => /&(?!amp;|lt;|gt;|quot;|apos;)/.test(loc));
+
+if (invalidLoc.length > 0) {
+  console.error(`Invalid XML in sitemap: ${invalidLoc.length} <loc> entries contain unescaped ampersands`);
+  console.error(invalidLoc.slice(0, 3).join('\n'));
+  process.exitCode = 1;
+}
+
 console.log(`Sitemap written: ${entries.length} URLs → ${outPath}`);
