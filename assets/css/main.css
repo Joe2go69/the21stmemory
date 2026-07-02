@@ -3986,6 +3986,12 @@ textarea:focus-visible {
   opacity: 0.55;
 }
 
+.topic-image-fallback--soon {
+  background: rgba(91, 33, 182, 0.12);
+  border: 1px dashed rgba(124, 58, 237, 0.28);
+  border-radius: 12px;
+}
+
 .category-toggle-btn .chevron .card-icon {
   width: 0.95rem;
   height: 0.95rem;

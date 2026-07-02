@@ -14,6 +14,19 @@ function topicImageFallbackHtml() {
   return `<div class="topic-image-fallback">${icon}<span>Image unavailable</span></div>`;
 }
 
+function topicImageComingSoonHtml() {
+  const icon = typeof renderSiteIcon === "function" ? renderSiteIcon("archive", "card-icon-sm") : "";
+  return `<div class="topic-image-fallback topic-image-fallback--soon">${icon}<span>Coming soon</span></div>`;
+}
+
+function renderTopicImage(topicImage, alt, { loading = "lazy", isPlaceholder = false } = {}) {
+  if (isPlaceholder || TopicUtils.isPlaceholderImage(topicImage)) {
+    return topicImageComingSoonHtml();
+  }
+  if (!topicImage) return topicImageFallbackHtml();
+  return `<img src="${TopicUtils.encodeAssetPath(topicImage)}" alt="${alt}" class="topic-card-img w-full h-full object-cover" loading="${loading}">`;
+}
+
 function setupTopicImageFallbacks(container) {
   if (!container) return;
   container.querySelectorAll(".topic-card-img").forEach(img => {
@@ -94,7 +107,6 @@ function renderSubtopic(sourceId, sub) {
 function renderMainRootBlock(sourceId, root) {
   if (!root || !shouldShowTopic(root, topicsPageState.filters.status)) return '';
 
-  const heroImage = TopicUtils.encodeAssetPath(root.topic_image);
   return `
     <div class="topic-main-root-block" data-category-id="${root.id}">
       <div class="topic-main-root-eyebrow" aria-hidden="true">
@@ -106,10 +118,7 @@ function renderMainRootBlock(sourceId, root) {
         <div class="topic-main-root-card__glow" aria-hidden="true"></div>
         <div class="topic-main-root-card__header">
           <div class="topic-main-root-icon flex-shrink-0 overflow-hidden">
-            ${heroImage
-              ? `<img src="${heroImage}" alt="${root.title} visual" class="topic-card-img w-full h-full object-cover" loading="eager">`
-              : topicImageFallbackHtml()
-            }
+            ${renderTopicImage(root.topic_image, `${root.title} visual`, { loading: "eager", isPlaceholder: root.is_placeholder })}
           </div>
           <div class="topic-main-root-card__body">
             <div class="topic-main-root-badge">Essence · Start Here</div>
@@ -163,10 +172,7 @@ function renderCategoryBlock(sourceId, category) {
            ${isPh ? 'tabindex="-1" aria-disabled="true"' : ''}>
           <div class="topic-root-card__header">
             <div class="root-icon flex-shrink-0 overflow-hidden border-2 border-mem-accent/60 shadow-[0_10px_30px_rgba(109,40,217,0.35)]">
-              ${category.topic_image
-                ? `<img src="${TopicUtils.encodeAssetPath(category.topic_image)}" alt="${category.title} visual" class="topic-card-img w-full h-full object-cover" loading="lazy">`
-                : topicImageFallbackHtml()
-              }
+              ${renderTopicImage(category.topic_image, `${category.title} visual`, { isPlaceholder: isPh })}
             </div>
             <div class="topic-root-card__body">
               <h3 class="topic-category-title group-hover:text-mem-indigo transition-colors">${category.title}</h3>

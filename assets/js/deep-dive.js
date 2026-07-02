@@ -99,7 +99,10 @@ const MediaEmpty = {
 window.MediaEmpty = MediaEmpty;
 
 function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId }) {
-  const heroImage = TopicUtils.encodeAssetPath((topic.topic_image || topic.infographic_image || '').replace(/\\/g, '/'));
+  const rawHeroImage = (topic.topic_image || topic.infographic_image || '').replace(/\\/g, '/');
+  const heroImage = TopicUtils.isResolvableTopicImage(rawHeroImage, topic.is_placeholder)
+    ? TopicUtils.encodeAssetPath(rawHeroImage)
+    : '';
   const readingTime = topic.report ? TopicUtils.estimateReadingTime(topic.report) : '';
   const bgStyle = heroImage
     ? `style="background-image: url('${escapeAttr(heroImage)}')"`

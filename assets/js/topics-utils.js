@@ -130,6 +130,14 @@ const TopicUtils = {
     return String(path || '').split('/').map((part, i) => (i === 0 ? part : encodeURIComponent(part))).join('/');
   },
 
+  isPlaceholderImage(path) {
+    return String(path || '').toUpperCase().includes('PLACEHOLDER');
+  },
+
+  isResolvableTopicImage(path, isPlaceholder = false) {
+    return !!path && !isPlaceholder && !this.isPlaceholderImage(path);
+  },
+
   normalizeSearch(text) {
     return String(text || '')
       .toLowerCase()
@@ -305,10 +313,11 @@ const TopicUtils = {
     const sourceLabel = options.showSource && entry.sourceTitle
       ? `<div class="card-label text-mem-indigo">${entry.sourceTitle}</div>`
       : '';
-    const thumb = entry.topic_image
+    const useThumb = this.isResolvableTopicImage(entry.topic_image, entry.is_placeholder);
+    const thumb = useThumb
       ? `<img src="${TopicUtils.encodeAssetPath(entry.topic_image)}" alt="" class="codex-search-card-thumb-img" loading="lazy" onerror="this.parentElement.classList.add('codex-search-card-thumb--fallback')">`
       : '';
-    const thumbClass = entry.topic_image ? '' : ' codex-search-card-thumb--fallback';
+    const thumbClass = useThumb ? '' : ' codex-search-card-thumb--fallback';
 
     return `
       <a href="${entry.href}" class="codex-search-card channel-card group">
