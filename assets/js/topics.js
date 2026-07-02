@@ -9,6 +9,24 @@ let topicsPageState = {
   filters: { status: 'all', category: 'all', search: '' }
 };
 
+function topicImageFallbackHtml() {
+  const icon = typeof renderSiteIcon === "function" ? renderSiteIcon("archive", "card-icon-sm") : "";
+  return `<div class="topic-image-fallback">${icon}<span>Image unavailable</span></div>`;
+}
+
+function setupTopicImageFallbacks(container) {
+  if (!container) return;
+  container.querySelectorAll(".topic-card-img").forEach(img => {
+    img.addEventListener("error", () => {
+      const wrap = document.createElement("div");
+      wrap.innerHTML = topicImageFallbackHtml();
+      const fallback = wrap.firstElementChild;
+      if (fallback) img.replaceWith(fallback);
+      if (typeof hydrateSiteIcons === "function") hydrateSiteIcons(wrap);
+    }, { once: true });
+  });
+}
+
 function shouldShowTopic(item, statusFilter) {
   if (statusFilter === 'ready') return !item.is_placeholder;
   if (statusFilter === 'soon') return item.is_placeholder;
@@ -49,7 +67,7 @@ function renderSubtopic(sourceId, sub) {
       <div class="topic-section-group" data-expanded="true" data-section-id="${sectionId}">
         <div class="topic-section-header">
           <button type="button" class="category-toggle-btn" aria-expanded="true" aria-controls="${sectionId}-children" data-toggle-section>
-            <span class="chevron" aria-hidden="true">▸</span>
+            <span class="chevron" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('chevron', 'card-icon-sm') : ''}</span>
             <span class="flex-1 min-w-0 truncate">${sub.title}${subBadge}</span>
             <span class="text-xs px-2.5 py-0.5 bg-white/10 rounded-full text-mem-muted flex-shrink-0">${visibleLeaves.length}</span>
           </button>
@@ -80,8 +98,8 @@ function renderMainRootBlock(sourceId, root) {
   return `
     <div class="topic-main-root-block" data-category-id="${root.id}">
       <div class="topic-main-root-eyebrow" aria-hidden="true">
-        <span class="topic-main-root-eyebrow-icon">◈</span>
-        Root Transmission
+        ${typeof renderSiteIcon === 'function' ? renderSiteIcon('star', 'card-icon-sm') : ''}
+        Root transmission
       </div>
       <a href="deep-dive.html?source=${sourceId}&topic=${root.id}"
          class="topic-main-root-card channel-card surface-interactive group no-underline">
@@ -89,8 +107,8 @@ function renderMainRootBlock(sourceId, root) {
         <div class="topic-main-root-card__header">
           <div class="topic-main-root-icon flex-shrink-0 overflow-hidden">
             ${heroImage
-              ? `<img src="${heroImage}" alt="${root.title} visual" class="w-full h-full object-cover" loading="eager" onerror="this.outerHTML='<div class=\\'flex items-center justify-center h-full text-mem-accent text-xs font-mono tracking-[2px] opacity-70\\'>ROOT</div>'">`
-              : '<div class="flex items-center justify-center h-full text-mem-accent text-xs font-mono tracking-[2px] opacity-70">ROOT</div>'
+              ? `<img src="${heroImage}" alt="${root.title} visual" class="topic-card-img w-full h-full object-cover" loading="eager">`
+              : topicImageFallbackHtml()
             }
           </div>
           <div class="topic-main-root-card__body">
@@ -124,7 +142,7 @@ function renderCategoryBlock(sourceId, category) {
 
   const subCount = category.subtopics ? category.subtopics.length : 0;
   const rootClasses = `topic-root-card channel-card surface-interactive group no-underline mb-6 p-6 sm:p-8 ${isPh ? 'opacity-60 grayscale-[0.25] pointer-events-none' : ''}`;
-  const placeholderBadge = isPh ? '<div class="topic-badge topic-badge--corner">COMING SOON</div>' : '';
+  const placeholderBadge = isPh ? '<div class="topic-badge topic-badge--corner">Coming soon</div>' : '';
 
   let subsHTML = '';
   if (category.subtopics?.length) {
@@ -146,8 +164,8 @@ function renderCategoryBlock(sourceId, category) {
           <div class="topic-root-card__header">
             <div class="root-icon flex-shrink-0 overflow-hidden border-2 border-mem-accent/60 shadow-[0_10px_30px_rgba(109,40,217,0.35)]">
               ${category.topic_image
-                ? `<img src="${TopicUtils.encodeAssetPath(category.topic_image)}" alt="${category.title} visual" class="w-full h-full object-cover" loading="lazy" onerror="this.outerHTML='<div class=\\'flex items-center justify-center h-full text-mem-accent text-xs font-mono tracking-[2px] opacity-70\\'>TOPIC</div>'">`
-                : '<div class="flex items-center justify-center h-full text-mem-accent text-xs font-mono tracking-[2px] opacity-70">TOPIC</div>'
+                ? `<img src="${TopicUtils.encodeAssetPath(category.topic_image)}" alt="${category.title} visual" class="topic-card-img w-full h-full object-cover" loading="lazy">`
+                : topicImageFallbackHtml()
               }
             </div>
             <div class="topic-root-card__body">
@@ -158,7 +176,7 @@ function renderCategoryBlock(sourceId, category) {
           </div>
           <div class="mt-auto pt-5">
             <div class="explore-badge inline-flex items-center justify-center gap-2 text-xs font-bold tracking-[1.5px] w-full">
-              Explore this realm <span class="text-lg leading-none">→</span>
+              Explore category <span class="text-lg leading-none">→</span>
             </div>
           </div>
           <div class="topic-root-shimmer"></div>
@@ -267,6 +285,7 @@ function renderMainRootSection() {
       <span class="topics-section-divider__line"></span>
     </div>
   `;
+  setupTopicImageFallbacks(section);
 }
 
 function renderTopicsList() {
@@ -292,6 +311,7 @@ function renderTopicsList() {
   } else {
     container.innerHTML = html;
     setupCollapsibleSections(container);
+    setupTopicImageFallbacks(container);
   }
 }
 
@@ -337,7 +357,7 @@ function renderFilterControls() {
       </div>
       <div class="codex-search-row mb-4">
         <label class="codex-search-field" for="topics-search-input">
-          <span class="codex-search-icon" aria-hidden="true">⌕</span>
+          <span class="codex-search-icon" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('search', 'card-icon-sm') : ''}</span>
           <input
             id="topics-search-input"
             type="search"

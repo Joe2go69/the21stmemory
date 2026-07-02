@@ -152,6 +152,30 @@ const TopicUtils = {
     return haystack.includes(q);
   },
 
+  getAdjacentTopics(topics, currentId, meta = {}) {
+    const flat = this.flattenTopicTree(topics, meta);
+    const idx = flat.findIndex(entry => entry.id === currentId);
+    if (idx === -1) return { prev: null, next: null };
+
+    let prev = null;
+    for (let i = idx - 1; i >= 0; i -= 1) {
+      if (!flat[i].is_placeholder) {
+        prev = flat[i];
+        break;
+      }
+    }
+
+    let next = null;
+    for (let i = idx + 1; i < flat.length; i += 1) {
+      if (!flat[i].is_placeholder) {
+        next = flat[i];
+        break;
+      }
+    }
+
+    return { prev, next };
+  },
+
   flattenTopicTree(topics, meta = {}) {
     const results = [];
 

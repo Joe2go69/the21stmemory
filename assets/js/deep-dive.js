@@ -12,6 +12,76 @@ const zoomState = {
   lastPinchDistance: 0
 };
 
+function setPageMeta(name, content, attr = "name") {
+  let el = document.querySelector(`meta[${attr}="${name}"]`);
+  if (!el) {
+    el = document.createElement("meta");
+    el.setAttribute(attr, name);
+    document.head.appendChild(el);
+  }
+  el.setAttribute("content", content);
+}
+
+function updateTopicPageMeta({ topic, sourceId, fullData }) {
+  const title = `${topic.title} | ${fullData.title} — 21st Memory`;
+  const description = topic.description || `AI-decoded deep-dive on ${topic.title} from the ${fullData.title} transmission.`;
+  const imagePath = topic.topic_image || topic.infographic_image || "images/21.webp";
+  const image = new URL(TopicUtils.encodeAssetPath(imagePath), window.location.origin).href;
+  const url = `${window.location.origin}${window.location.pathname}?source=${sourceId}&topic=${topic.id}`;
+
+  document.title = title;
+  setPageMeta("description", description);
+  setPageMeta("og:title", title, "property");
+  setPageMeta("og:description", description, "property");
+  setPageMeta("og:image", image, "property");
+  setPageMeta("og:url", url, "property");
+  setPageMeta("twitter:title", title);
+  setPageMeta("twitter:description", description);
+  setPageMeta("twitter:image", image);
+}
+
+function renderTopicNav({ topics, sourceId, topicId }) {
+  const { prev, next } = TopicUtils.getAdjacentTopics(topics, topicId, { sourceId });
+  if (!prev && !next) return "";
+
+  const navItem = (entry, direction) => {
+    if (!entry) return `<div class="topic-prev-next__slot topic-prev-next__slot--empty"></div>`;
+    const icon = direction === "prev"
+      ? (typeof renderSiteIcon === "function" ? renderSiteIcon("arrowLeft", "card-icon-sm") : "")
+      : (typeof renderSiteIcon === "function" ? renderSiteIcon("arrowRight", "card-icon-sm") : "");
+    const label = direction === "prev" ? "Previous" : "Next";
+    return `
+      <a href="deep-dive.html?source=${sourceId}&topic=${entry.id}" class="topic-prev-next__link topic-prev-next__link--${direction}">
+        ${direction === "prev" ? `${icon}<span class="topic-prev-next__text"><span class="topic-prev-next__label">${label}</span><span class="topic-prev-next__title">${entry.title}</span></span>` : `<span class="topic-prev-next__text"><span class="topic-prev-next__label">${label}</span><span class="topic-prev-next__title">${entry.title}</span></span>${icon}`}
+      </a>`;
+  };
+
+  return `${navItem(prev, "prev")}${navItem(next, "next")}`;
+}
+
+function setupReadingProgress() {
+  const bar = document.getElementById("reading-progress");
+  const fill = bar?.querySelector(".reading-progress-fill");
+  const reportSection = document.getElementById("report-section");
+  if (!bar || !fill || !reportSection) return;
+
+  const update = () => {
+    const rect = reportSection.getBoundingClientRect();
+    const sectionTop = rect.top + window.scrollY;
+    const sectionHeight = reportSection.offsetHeight;
+    const viewportBottom = window.scrollY + window.innerHeight;
+    const start = sectionTop;
+    const end = sectionTop + sectionHeight;
+    const progress = Math.min(1, Math.max(0, (viewportBottom - start) / (end - start)));
+    fill.style.width = `${Math.round(progress * 100)}%`;
+    bar.hidden = progress <= 0 || progress >= 1;
+  };
+
+  update();
+  window.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update);
+}
+
 function escapeAttr(value) {
   return String(value || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
 }
@@ -43,7 +113,7 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId }) {
       <div class="deep-dive-hero-content">
         <div class="deep-dive-hero-meta">
           <div class="inline-flex items-center px-4 py-1 rounded-full bg-black/40 text-mem-muted text-xs font-semibold tracking-[2px] border border-white/10">
-            ${fullData.title.toUpperCase()} · TOPIC
+            ${fullData.title}
           </div>
           ${readingTime ? `<span class="deep-dive-reading-time">${readingTime}</span>` : ''}
         </div>
@@ -53,7 +123,7 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId }) {
           ${(topic.description || '').split('\n\n').map(p => `<p class="mb-3 last:mb-0">${p}</p>`).join('')}
         </div>
         <div class="mt-7">
-          <div class="text-xs tracking-[1.5px] text-mem-muted mb-2.5 font-semibold">JUMP TO</div>
+          <div class="text-xs tracking-wide text-mem-muted mb-2.5 font-semibold">Jump to</div>
           <div class="jump-to-pills mb-4" id="jump-to-pills">
             <button type="button" data-jump-section="infographics-section" class="btn-jump-pill" aria-label="Scroll to infographics and slide decks section">
               ${typeof renderSiteIcon === 'function' ? renderSiteIcon('chart', 'card-icon-sm') : ''} Infographics
@@ -124,7 +194,7 @@ async function loadLessonViewer() {
     const topicContent = await TopicUtils.fetchTopicContent(sourceId, topicId);
     const topic = { ...lightTopic, ...topicContent };
 
-    document.title = `21st Memory Deep-Dive | ${topic.title}`;
+    updateTopicPageMeta({ topic, sourceId, fullData });
 
     const breadcrumbs = TopicUtils.renderBreadcrumbs({
       sourceId,
@@ -136,6 +206,17 @@ async function loadLessonViewer() {
     headerContainer.innerHTML = renderCinematicHero({ breadcrumbs, fullData, topic, sourceId });
     headerContainer.classList.remove('content-card', 'static-card', 'rounded-3xl', 'p-8', 'md:p-12');
     setupJumpToPills();
+
+    const topicNav = document.getElementById("topic-nav");
+    if (topicNav) {
+      const navHtml = renderTopicNav({ topics: fullData.topics, sourceId, topicId });
+      if (navHtml) {
+        topicNav.innerHTML = navHtml;
+        topicNav.hidden = false;
+      } else {
+        topicNav.hidden = true;
+      }
+    }
 
     const hasAnyContent = !!(topic.infographic_image ||
       topic.slide_deck_pdf_url ||
@@ -152,8 +233,8 @@ async function loadLessonViewer() {
             encompassing infographics, slide decks, video transmissions, and a deep-dive report.
             The Great Remembering reveals its wisdom in perfect timing.
           </p>
-          <a href="topics.html?source=${sourceId}#explore-topics" class="btn-primary inline-flex items-center justify-center px-10 py-4 text-base font-semibold">← BACK TO TOPICS</a>
-          <div class="mt-8 text-xs text-mem-dim tracking-widest">THE ARCHIVE CONTINUES TO EXPAND</div>
+          <a href="topics.html?source=${sourceId}#explore-topics" class="btn-primary inline-flex items-center justify-center px-10 py-4 text-base font-semibold">← Back to topics</a>
+          <div class="mt-8 text-xs text-mem-dim tracking-wide">More content coming soon</div>
         </div>
       `);
     }
@@ -167,7 +248,7 @@ async function loadLessonViewer() {
                onerror="MediaEmpty.replace(this,'archive','Infographic coming soon')">
           <div class="infographic-artifact-caption">
             <span>Decoded infographic</span>
-            <span class="infographic-artifact-zoom" aria-hidden="true">⤢ Expand</span>
+            <span class="infographic-artifact-zoom" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('expand', 'card-icon-sm') : ''} Expand</span>
           </div>
         </div>
       `;
@@ -200,10 +281,10 @@ async function loadLessonViewer() {
                  class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all bg-gradient-to-b from-black/30 to-black/60 rounded-2xl cursor-pointer">
               <div class="media-overlay-btn">
                 ${typeof renderSiteIcon === 'function' ? renderSiteIcon('book', 'card-icon-sm') : ''}
-                <span class="font-bold tracking-wide">OPEN FULL SLIDE DECK</span>
+                <span class="font-bold tracking-wide">Open full slide deck</span>
               </div>
             </div>
-            <div class="absolute top-4 right-4 bg-black/70 text-white text-[10px] px-3 py-1 rounded-full font-mono tracking-widest">SLIDE DECK PREVIEW</div>
+            <div class="absolute top-4 right-4 bg-black/70 text-white text-[10px] px-3 py-1 rounded-full font-mono tracking-wide">Slide deck preview</div>
           </div>
         `;
       } else if (topic.slide_deck_pdf_url) {
@@ -220,10 +301,10 @@ async function loadLessonViewer() {
                    class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all bg-gradient-to-b from-black/30 to-black/60 rounded-2xl cursor-pointer">
                 <div class="media-overlay-btn">
                   ${typeof renderSiteIcon === 'function' ? renderSiteIcon('book', 'card-icon-sm') : ''}
-                  <span class="font-bold tracking-wide">OPEN FULL SLIDE DECK</span>
+                  <span class="font-bold tracking-wide">Open full slide deck</span>
                 </div>
               </div>
-              <div class="absolute top-4 right-4 bg-black/70 text-white text-[10px] px-3 py-1 rounded-full font-mono tracking-widest">PAGE 1 / AUTO PREVIEW</div>
+              <div class="absolute top-4 right-4 bg-black/70 text-white text-[10px] px-3 py-1 rounded-full font-mono tracking-wide">Page 1 preview</div>
             </div>
           `;
         } else {
@@ -273,6 +354,9 @@ async function loadLessonViewer() {
 
     if (topic.report) {
       reportContainer.innerHTML = marked.parse(topic.report);
+      const lead = reportContainer.querySelector("h1 + p, p");
+      if (lead) lead.classList.add("report-lead");
+      setupReadingProgress();
       reportContainer.querySelectorAll('h1, h2, h3').forEach(el => {
         el.classList.add('tracking-tight', 'font-semibold');
         if (el.tagName === 'H1') el.classList.add('font-bold');

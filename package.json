@@ -6,6 +6,7 @@
     "split:css": "node scripts/split-main-css.js",
     "normalize:images": "node scripts/normalize-image-assets.js",
     "build:data": "node scripts/split-topics-data.js",
+    "enrich:descriptions": "node scripts/enrich-topic-descriptions.js",
     "build:sitemap": "node scripts/generate-sitemap.js",
     "build:chrome": "node scripts/inline-chrome.js",
     "chrome": "npm run build:chrome",
