@@ -5,9 +5,18 @@ const ROOT = path.join(__dirname, '..');
 const BASE_URL = 'https://the21stmemory.com';
 const today = new Date().toISOString().split('T')[0];
 
+function escapeXml(value) {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
 function urlEntry(loc, priority, changefreq) {
   return `  <url>
-    <loc>${loc}</loc>
+    <loc>${escapeXml(loc)}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
