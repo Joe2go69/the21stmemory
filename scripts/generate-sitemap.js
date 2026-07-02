@@ -14,11 +14,22 @@ function urlEntry(loc, priority, changefreq) {
   </url>`;
 }
 
+function collectTopicIds(topics, ids = []) {
+  for (const topic of topics) {
+    ids.push(topic.id);
+    if (topic.subtopics) {
+      collectTopicIds(topic.subtopics, ids);
+    }
+  }
+  return ids;
+}
+
 const entries = [
   { path: '/', priority: '1.0', changefreq: 'weekly' },
   { path: '/community.html', priority: '0.9', changefreq: 'monthly' },
   { path: '/codex.html', priority: '0.95', changefreq: 'weekly' },
   { path: '/topics.html', priority: '0.9', changefreq: 'weekly' },
+  { path: '/deep-dive.html', priority: '0.9', changefreq: 'weekly' },
 ];
 
 const sourcesPath = path.join(ROOT, 'data', 'sources.json');
@@ -30,6 +41,23 @@ for (const source of sourcesData.sources) {
     priority: '0.88',
     changefreq: 'weekly',
   });
+
+  const indexPath = path.join(ROOT, 'data', `${source.id}-topics-index.json`);
+  if (!fs.existsSync(indexPath)) {
+    console.warn(`Skip topics for source "${source.id}": ${indexPath} not found`);
+    continue;
+  }
+
+  const indexData = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+  const topicIds = collectTopicIds(indexData.topics || []);
+
+  for (const topicId of topicIds) {
+    entries.push({
+      path: `/deep-dive.html?source=${source.id}&topic=${encodeURIComponent(topicId)}`,
+      priority: '0.7',
+      changefreq: 'monthly',
+    });
+  }
 }
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>

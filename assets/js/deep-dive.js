@@ -26,7 +26,7 @@ function setPageMeta(name, content, attr = "name") {
 }
 
 function updateTopicPageMeta({ topic, sourceId, fullData }) {
-  const title = `${topic.title} | ${fullData.title} — 21st Memory`;
+  const title = `${topic.title} | ${fullData.title} | The 21st Memory`;
   const description = topic.description || `AI-decoded deep-dive on ${topic.title} from the ${fullData.title} transmission.`;
   const imagePath = topic.topic_image || topic.infographic_image || "images/21.webp";
   const image = new URL(TopicUtils.encodeAssetPath(imagePath), window.location.origin).href;

@@ -9,9 +9,10 @@
     "enrich:descriptions": "node scripts/enrich-topic-descriptions.js",
     "audit:images": "node scripts/audit-topic-images.js",
     "build:sitemap": "node scripts/generate-sitemap.js",
+    "build:seo": "node scripts/inject-seo.js",
     "build:chrome": "node scripts/inline-chrome.js",
     "chrome": "npm run build:chrome",
-    "build": "npm run build:data && npm run build:css && npm run build:chrome && npm run build:sitemap"
+    "build": "npm run build:data && npm run build:css && npm run build:chrome && npm run build:seo && npm run build:sitemap"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17"
