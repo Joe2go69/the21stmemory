@@ -55,7 +55,6 @@ function walkFiles(dir, files = []) {
 function shouldScanFile(filePath) {
   const rel = path.relative(ROOT, filePath).replace(/\\/g, '/');
   if (rel.startsWith('node_modules/')) return false;
-  if (rel.startsWith('data/alice-topics/')) return false;
   if (rel === 'assets/css/main.monolith.css') return false;
   return /\.(json|html|js|css|md)$/i.test(rel);
 }

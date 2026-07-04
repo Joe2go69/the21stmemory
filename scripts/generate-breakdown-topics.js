@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const PLACEHOLDER_IMAGE = 'images/breakdown/PLACEHOLDER.webp';
+const PLACEHOLDER_IMAGE = 'images/breakdown/placeholder.webp';
 
 const DESCRIPTION = `This transmission lays out the full mechanics of the final stages of the Great Awakening: the phased Great Purge and infrastructure sweep, the controlled 3rd realm collapse, the EBS lockdown window, and the final A.I. theatre of staged WW3 and fake alien invasion events. It reveals the real craft arrival on the correct frequency band, the extraction protocol and homecoming for resonating souls, the three healing sanctuaries (Water Domes, Crystal Halls, and Star Pods), projection dome technology, the living crystalline grid system with its nodes and harmonic lenses, the hidden history of the Lyran lineage and early Custodians, the removal of the Spirit Tree, and the precise sequence of the overlay collapse that returns the original second realm.
 

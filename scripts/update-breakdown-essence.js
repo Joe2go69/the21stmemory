@@ -116,11 +116,11 @@ const essence = {
   id: 'essence-of-the-transmission',
   title: 'Essence of the Transmission',
   description: 'The cornerstone summary of the Mega Breakdown transmission — the final stages of the Great Awakening, the Great Purge, and the path home for resonating souls.',
-  topic_image: 'images/breakdown/Mega Breakdown essense.webp',
+  topic_image: 'images/breakdown/mega-breakdown-essense.webp',
   is_main_root: true,
   report: REPORT,
-  infographic_image: 'images/breakdown/Simulation_Collapses_Into_Crystalline_Light.webp',
-  pdf_preview_image: 'images/breakdown/Crystalline_Revelation.webp',
+  infographic_image: 'images/breakdown/simulation-collapses-into-crystalline-light.webp',
+  pdf_preview_image: 'images/breakdown/crystalline-revelation.webp',
   slide_deck_pdf_url: 'https://drive.google.com/file/d/1WFsLP3sJzxlueQAYh7bUdERgJGK_G1Tt/view?usp=sharing',
   rumble_videos: [
     {
