@@ -30,8 +30,17 @@ function collect(node, sourceId, topicId, topicTitle, refs) {
   }
 }
 
-function exists(relPath) {
+function existsExact(relPath) {
   return fs.existsSync(path.join(ROOT, ...relPath.split('/')));
+}
+
+function existsCaseInsensitive(relPath) {
+  const parts = relPath.split('/');
+  const fileName = parts.pop();
+  const dir = path.join(ROOT, ...parts);
+  if (!fs.existsSync(dir)) return false;
+  const match = fs.readdirSync(dir).find(name => name.toLowerCase() === fileName.toLowerCase());
+  return match ? { actual: [...parts, match].join('/') } : false;
 }
 
 function main() {
@@ -59,18 +68,43 @@ function main() {
     return true;
   });
 
-  const missing = unique.filter(ref => !ref.path.includes('PLACEHOLDER') && !exists(ref.path));
+  const missing = [];
+  const caseMismatches = [];
   const placeholders = unique.filter(ref => ref.path.includes('PLACEHOLDER'));
+
+  for (const ref of unique) {
+    if (ref.path.includes('PLACEHOLDER')) continue;
+    if (existsExact(ref.path)) continue;
+
+    const loose = existsCaseInsensitive(ref.path);
+    if (loose) {
+      caseMismatches.push({ ...ref, actual: loose.actual });
+      continue;
+    }
+
+    missing.push(ref);
+  }
 
   console.log(`Checked ${unique.length} image references`);
   console.log(`Missing files: ${missing.length}`);
+  console.log(`Case mismatches: ${caseMismatches.length}`);
   console.log(`Placeholder refs: ${placeholders.length}`);
+
+  if (caseMismatches.length) {
+    console.log('\nCase mismatches (break on Linux deploys):');
+    for (const ref of caseMismatches) {
+      console.log(`- [${ref.sourceId}] ${ref.topicId} (${ref.topicTitle}) ${ref.field} -> ${ref.path} (actual: ${ref.actual})`);
+    }
+  }
 
   if (missing.length) {
     console.log('\nMissing:');
     for (const ref of missing) {
       console.log(`- [${ref.sourceId}] ${ref.topicId} (${ref.topicTitle}) ${ref.field} -> ${ref.path}`);
     }
+  }
+
+  if (missing.length || caseMismatches.length) {
     process.exitCode = 1;
   }
 }
