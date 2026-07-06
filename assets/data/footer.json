@@ -36,6 +36,16 @@
       "icon": "video"
     },
     {
+      "name": "YouTube",
+      "href": "https://www.youtube.com/@the21stmemory",
+      "icon": "youtube"
+    },
+    {
+      "name": "TikTok",
+      "href": "https://www.tiktok.com/@the.21st.memory",
+      "icon": "tiktok"
+    },
+    {
       "name": "Official Site",
       "href": "https://christian21.com/",
       "icon": "globe"
