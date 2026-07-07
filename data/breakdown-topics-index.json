@@ -110,9 +110,9 @@
     {
       "id": "blackout-timeline",
       "title": "Blackout Timeline",
-      "description": "The EBS lockdown window — comms blackout, physical indicators, and mass reveal operations.",
-      "topic_image": "images/breakdown/placeholder.webp",
-      "is_placeholder": true,
+      "description": "The Blackout Timeline, also referred to as The Cut, is the highly controlled, surgical 72-hour period that initiates the collapse of the third-density parasitic overlay.",
+      "topic_image": "images/breakdown/blackout-timeline.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "the-first-72-hours",
