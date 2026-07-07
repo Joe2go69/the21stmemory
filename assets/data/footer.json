@@ -56,6 +56,11 @@
     "message": "All content on this site is freely available. Voluntary contributions are appreciated and help sustain hosting, maintenance, and continued development of the archive.",
     "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
     "qrImage": "assets/images/bitcoin-qr.webp",
-    "qrAlt": "Bitcoin QR code for 21st Memory donations"
+    "qrAlt": "Bitcoin QR code for 21st Memory donations",
+    "kofi": {
+      "href": "https://ko-fi.com/the21stmemory",
+      "buttonText": "Tip on Ko-fi",
+      "hint": "One-time tips or monthly support"
+    }
   }
 }
