@@ -57,10 +57,20 @@
     "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
     "qrImage": "assets/images/bitcoin-qr.webp",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",
+    "bitcoinHint": "Scan or copy the address to send a direct BTC contribution.",
     "kofi": {
       "href": "https://ko-fi.com/the21stmemory",
       "buttonText": "Tip on Ko-fi",
-      "hint": "One-time tips or monthly support"
+      "hint": "One-time tips or monthly support for the living archive.",
+      "image": "images/kofi.webp",
+      "imageAlt": "Ko-fi — Support The 21st Memory"
+    },
+    "gofundme": {
+      "href": "https://gofund.me/bea823278",
+      "buttonText": "Support the Move",
+      "hint": "Help Joe & Spooky relocate to Vancouver Island so the archive can keep growing.",
+      "image": "images/gofundme.webp",
+      "imageAlt": "GoFundMe — Help Joe & Spooky relocate to Vancouver Island"
     }
   }
 }

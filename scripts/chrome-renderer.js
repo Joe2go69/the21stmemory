@@ -5,6 +5,7 @@ const SITE_ICON_SVGS = {
   tiktok: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>',
   globe: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
   kofi: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h10a4 4 0 0 1 0 8H9l-3 3V8z"/><path d="M18 5h1a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1V5z"/></svg>',
+  heart: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>',
 };
 
 function renderSiteIcon(name, extraClass = '') {
@@ -92,6 +93,9 @@ function renderFooter(footerData) {
   const kofiCardHTML = footerData.support?.kofi
     ? `<div class="footer-donate-card footer-donate-card--kofi">
                 <span class="footer-donate-label">Ko-fi</span>
+                <div class="footer-donate-media-wrap">
+                  <img src="${footerData.support.kofi.image}" alt="${footerData.support.kofi.imageAlt || 'Ko-fi support'}" class="footer-donate-media" width="160" height="100" loading="lazy" />
+                </div>
                 <p class="footer-donate-desc">${footerData.support.kofi.hint}</p>
                 <a href="${footerData.support.kofi.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
                   <span class="footer-donate-btn-icon" aria-hidden="true">${SITE_ICON_SVGS.kofi}</span>
@@ -100,6 +104,23 @@ function renderFooter(footerData) {
               </div>`
     : '';
 
+  const gofundmeCardHTML = footerData.support?.gofundme
+    ? `<div class="footer-donate-card footer-donate-card--gofundme">
+                <span class="footer-donate-label">GoFundMe</span>
+                <div class="footer-donate-media-wrap">
+                  <img src="${footerData.support.gofundme.image}" alt="${footerData.support.gofundme.imageAlt || 'GoFundMe campaign'}" class="footer-donate-media" width="160" height="100" loading="lazy" />
+                </div>
+                <p class="footer-donate-desc">${footerData.support.gofundme.hint}</p>
+                <a href="${footerData.support.gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
+                  <span class="footer-donate-btn-icon" aria-hidden="true">${SITE_ICON_SVGS.heart}</span>
+                  <span>${footerData.support.gofundme.buttonText}</span>
+                </a>
+              </div>`
+    : '';
+
+  const bitcoinHint = footerData.support?.bitcoinHint
+    || 'Scan or copy the address to send a direct BTC contribution.';
+
   const supportHTML = footerData.support
     ? `<div class="footer-support">
             <div class="footer-heading">${footerData.support.heading}</div>
@@ -107,15 +128,15 @@ function renderFooter(footerData) {
             <div class="footer-donate-grid">
               <div class="footer-donate-card footer-donate-card--btc">
                 <span class="footer-donate-label">Bitcoin</span>
-                <div class="footer-donate-card-body">
-                  <img src="${footerData.support.qrImage}" alt="${footerData.support.qrAlt}" class="footer-support-qr" width="72" height="72" loading="lazy" />
-                  <div class="footer-donate-btc-details">
-                    <code class="footer-support-address" id="btc-address">${footerData.support.bitcoinAddress}</code>
-                    <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" aria-label="Copy Bitcoin address">Copy address</button>
-                  </div>
+                <div class="footer-donate-media-wrap footer-donate-media-wrap--qr">
+                  <img src="${footerData.support.qrImage}" alt="${footerData.support.qrAlt}" class="footer-donate-media footer-donate-media--qr" width="96" height="96" loading="lazy" />
                 </div>
+                <p class="footer-donate-desc">${bitcoinHint}</p>
+                <code class="footer-support-address" id="btc-address">${footerData.support.bitcoinAddress}</code>
+                <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" aria-label="Copy Bitcoin address">Copy address</button>
               </div>
               ${kofiCardHTML}
+              ${gofundmeCardHTML}
             </div>
           </div>`
     : '';

@@ -131,9 +131,9 @@
             {
               "id": "npc-glitching",
               "title": "NPC Glitching",
-              "description": "Decoded analysis of NPC Glitching within the Mega Breakdown Board Notes & Highlights transmission.",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "description": "The NPC Code Glitch is the inevitable, catastrophic breakdown of simulated background populations during The First 72 Hours of the Communications Blackout.",
+              "topic_image": "images/breakdown/npc-glitching.webp",
+              "is_placeholder": false
             },
             {
               "id": "frequency-fracture",

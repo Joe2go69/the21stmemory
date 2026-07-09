@@ -237,20 +237,33 @@
             <div class="footer-donate-grid">
               <div class="footer-donate-card footer-donate-card--btc">
                 <span class="footer-donate-label">Bitcoin</span>
-                <div class="footer-donate-card-body">
-                  <img src="assets/images/bitcoin-qr.webp" alt="Bitcoin QR code for 21st Memory donations" class="footer-support-qr" width="72" height="72" loading="lazy" />
-                  <div class="footer-donate-btc-details">
-                    <code class="footer-support-address" id="btc-address">bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx</code>
-                    <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" aria-label="Copy Bitcoin address">Copy address</button>
-                  </div>
+                <div class="footer-donate-media-wrap footer-donate-media-wrap--qr">
+                  <img src="assets/images/bitcoin-qr.webp" alt="Bitcoin QR code for 21st Memory donations" class="footer-donate-media footer-donate-media--qr" width="96" height="96" loading="lazy" />
                 </div>
+                <p class="footer-donate-desc">Scan or copy the address to send a direct BTC contribution.</p>
+                <code class="footer-support-address" id="btc-address">bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx</code>
+                <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" aria-label="Copy Bitcoin address">Copy address</button>
               </div>
               <div class="footer-donate-card footer-donate-card--kofi">
                 <span class="footer-donate-label">Ko-fi</span>
-                <p class="footer-donate-desc">One-time tips or monthly support</p>
+                <div class="footer-donate-media-wrap">
+                  <img src="images/kofi.webp" alt="Ko-fi — Support The 21st Memory" class="footer-donate-media" width="160" height="100" loading="lazy" />
+                </div>
+                <p class="footer-donate-desc">One-time tips or monthly support for the living archive.</p>
                 <a href="https://ko-fi.com/the21stmemory" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
                   <span class="footer-donate-btn-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h10a4 4 0 0 1 0 8H9l-3 3V8z"/><path d="M18 5h1a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1V5z"/></svg></span>
                   <span>Tip on Ko-fi</span>
+                </a>
+              </div>
+              <div class="footer-donate-card footer-donate-card--gofundme">
+                <span class="footer-donate-label">GoFundMe</span>
+                <div class="footer-donate-media-wrap">
+                  <img src="images/gofundme.webp" alt="GoFundMe — Help Joe & Spooky relocate to Vancouver Island" class="footer-donate-media" width="160" height="100" loading="lazy" />
+                </div>
+                <p class="footer-donate-desc">Help Joe & Spooky relocate to Vancouver Island so the archive can keep growing.</p>
+                <a href="https://gofund.me/bea823278" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
+                  <span class="footer-donate-btn-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></span>
+                  <span>Support the Move</span>
                 </a>
               </div>
             </div>
