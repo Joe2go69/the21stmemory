@@ -147,9 +147,9 @@
         {
           "id": "physical-indicators",
           "title": "Physical Indicators",
-          "description": "Decoded analysis of Physical Indicators within the Mega Breakdown Board Notes & Highlights transmission.",
-          "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true,
+          "description": "During the opening hours of the Blackout Timeline, humanity experiences a sequence of intense biological, environmental, and atmospheric symptoms — the direct physiological results of the 3D Overlay fracturing.",
+          "topic_image": "images/breakdown/physical-indicators.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "skull-buzzing",

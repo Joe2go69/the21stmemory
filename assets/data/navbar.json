@@ -9,7 +9,8 @@
     { "text": "Codex", "href": "codex.html", "primary": true },
     { "text": "About", "href": "index.html#about" },
     { "text": "Network", "href": "community.html" },
-    { "text": "Media", "href": "index.html#explore" }
+    { "text": "Media", "href": "index.html#explore" },
+    { "text": "Support", "href": "#support" }
   ],
   "cta": {
     "text": "Telegram",

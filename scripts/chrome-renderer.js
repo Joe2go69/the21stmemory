@@ -122,7 +122,7 @@ function renderFooter(footerData) {
     || 'Scan or copy the address to send a direct BTC contribution.';
 
   const supportHTML = footerData.support
-    ? `<div class="footer-support">
+    ? `<div class="footer-support" id="support" style="scroll-margin-top: 7rem;">
             <div class="footer-heading">${footerData.support.heading}</div>
             <p class="footer-support-message">${footerData.support.message}</p>
             <div class="footer-donate-grid">
