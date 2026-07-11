@@ -168,9 +168,9 @@
             {
               "id": "atmospheric-pop",
               "title": "Atmospheric Pop",
-              "description": "Decoded analysis of Atmospheric Pop within the Mega Breakdown Board Notes & Highlights transmission.",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "description": "A sudden drop in atmospheric pressure at the exact moment main communication cables are severed — the definitive physical and energetic snap that pierces the Parasitic Overlay and reveals momentary field clarity.",
+              "topic_image": "images/breakdown/atmospheric-pop.webp",
+              "is_placeholder": false
             }
           ]
         },
