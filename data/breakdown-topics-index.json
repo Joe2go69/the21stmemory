@@ -177,9 +177,9 @@
         {
           "id": "ebs-operation",
           "title": "EBS Operation",
-          "description": "Decoded analysis of EBS Operation within the Mega Breakdown Board Notes & Highlights transmission.",
-          "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true,
+          "description": "The execution of the E.B.S. (Emergency Broadcast System), set against the backdrop of the Communications Blackout, is a highly coordinated Whitehat/G.A.A. Production designed to shatter the 3D illusion of the masses.",
+          "topic_image": "images/breakdown/ebs-operation.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "military-broadcasts",
