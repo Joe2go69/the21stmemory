@@ -216,9 +216,9 @@
         {
           "id": "3d-overlay",
           "title": "3D Overlay",
-          "description": "Decoded analysis of 3D Overlay within the Mega Breakdown Board Notes & Highlights transmission.",
-          "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true,
+          "description": "The 3D Overlay (Parasitic Overlay) is a holographic false skin projected over living crystalline structures within the CUBE — masking true reality through perception-based solidity, frequency corridors, and sensory manipulation until frequency collapse reveals the Second Realm.",
+          "topic_image": "images/breakdown/3d-overlay.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "frequency-trick",
