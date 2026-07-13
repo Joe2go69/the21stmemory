@@ -460,12 +460,19 @@ html {
 }
 
 .static-card .btn-primary {
-  box-shadow: none;
+  /* Keep depth consistent with global primary buttons */
+  box-shadow:
+    0 10px 24px -10px rgba(0, 0, 0, 0.55),
+    0 4px 12px -6px rgba(91, 33, 182, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22);
 }
 
 .static-card .btn-primary:hover {
-  transform: scale(1.015);
-  box-shadow: 0 0 18px rgba(59, 7, 100, 0.35), 0 6px 14px -4px rgba(59, 7, 100, 0.28);
+  transform: translateY(-2px);
+  box-shadow:
+    0 14px 28px -10px rgba(0, 0, 0, 0.6),
+    0 6px 16px -6px rgba(109, 40, 217, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28);
 }
 
 /* Sources cards inner link highlight */
@@ -486,9 +493,12 @@ html {
 
 /* Buttons — Premium 3D Professional CTA (Enhanced Depth & Polish for Dark Theme)
    Strong bevel, glossy highlight, realistic press/lift — serious, trustworthy, modern premium feel */
-/* Shared action-button family — same size, radius, motion language.
-   Filled primary vs outline secondary. Gloss via inset shadows so
-   labels on <button> and <a> never get covered by a pseudo overlay. */
+/* Shared action-button family — identical footprint on <button> and <a>.
+   Clean professional fill vs outline; light depth without heavy bevels. */
+button.btn-primary,
+a.btn-primary,
+button.btn-secondary,
+a.btn-secondary,
 .btn-primary,
 .btn-secondary {
   position: relative;
@@ -496,48 +506,81 @@ html {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 15px 32px;
+  box-sizing: border-box;
+  min-height: 3rem;
+  padding: 0.85rem 1.75rem;
   font-size: 0.95rem;
   font-weight: 600;
   font-family: inherit;
   letter-spacing: 0.01em;
-  border-radius: 18px;
-  line-height: 1.2;
+  line-height: 1.25;
+  border-radius: 14px;
   text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
   cursor: pointer;
   overflow: hidden;
-  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  transition:
+    transform 0.28s cubic-bezier(0.23, 1, 0.32, 1),
+    box-shadow 0.28s cubic-bezier(0.23, 1, 0.32, 1),
+    background 0.28s ease,
+    border-color 0.28s ease,
+    color 0.28s ease,
+    opacity 0.2s ease;
   -webkit-appearance: none;
   appearance: none;
+  margin: 0;
+  vertical-align: middle;
 }
 
+button.btn-primary,
+a.btn-primary,
 .btn-primary {
-  background: linear-gradient(145deg, #3B0764 0%, #4C1D95 50%, #581C87 100%);
-  color: #ffffff;
-  border: 1.5px solid rgba(167, 139, 250, 0.22);
+  background: linear-gradient(165deg, #5B21B6 0%, #4C1D95 48%, #3B0764 100%);
+  color: #ffffff !important;
+  border: 1px solid rgba(196, 181, 253, 0.35);
   box-shadow:
-    var(--surface-tier-btn),
-    inset 0 1.5px 0 rgba(255, 255, 255, 0.28),
-    inset 0 -3px 0 rgba(30, 17, 53, 0.35);
+    0 10px 24px -10px rgba(0, 0, 0, 0.55),
+    0 4px 12px -6px rgba(91, 33, 182, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22);
 }
 
+button.btn-primary:hover,
+a.btn-primary:hover,
 .btn-primary:hover {
-  background: linear-gradient(145deg, #4C1D95 0%, #581C87 50%, #6B21A8 100%);
-  color: #ffffff;
-  border-color: rgba(196, 181, 253, 0.35);
-  transform: translateY(-3px);
+  background: linear-gradient(165deg, #6D28D9 0%, #5B21B6 48%, #4C1D95 100%);
+  color: #ffffff !important;
+  border-color: rgba(221, 214, 254, 0.45);
+  transform: translateY(-2px);
   box-shadow:
-    var(--surface-tier-btn-hover),
-    inset 0 2px 0 rgba(255, 255, 255, 0.34),
-    inset 0 -3px 0 rgba(30, 17, 53, 0.3);
+    0 14px 28px -10px rgba(0, 0, 0, 0.6),
+    0 6px 16px -6px rgba(109, 40, 217, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28);
 }
 
+button.btn-primary:active,
+a.btn-primary:active,
 .btn-primary:active {
-  transform: translateY(1px);
+  transform: translateY(0);
   box-shadow:
-    var(--surface-tier-btn-active),
-    inset 0 1px 0 rgba(255, 255, 255, 0.2),
-    inset 0 -2px 0 rgba(30, 17, 53, 0.4);
+    0 6px 14px -8px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+button.btn-primary:focus-visible,
+a.btn-primary:focus-visible,
+.btn-primary:focus-visible {
+  outline: 2px solid rgba(167, 139, 250, 0.85);
+  outline-offset: 3px;
+}
+
+/* Label always inherits button color (fixes washed/ghost native buttons) */
+.btn-primary > *,
+.btn-secondary > * {
+  position: relative;
+  z-index: 1;
+  color: inherit;
+  pointer-events: none;
 }
 
 /* Micro-animation for arrows */
@@ -548,38 +591,59 @@ html {
 
 .btn-primary:hover span,
 .group:hover .group-hover\:translate-x-1 {
-  transform: translateX(4px);
+  transform: translateX(3px);
 }
 
-/* Secondary — same footprint; outline weight instead of solid fill */
+/* Secondary — same size as primary; quieter outline treatment */
+button.btn-secondary,
+a.btn-secondary,
 .btn-secondary {
-  background: linear-gradient(145deg, rgba(42, 31, 64, 0.55) 0%, rgba(26, 20, 51, 0.35) 100%);
-  color: var(--text-soft);
-  border: 1.5px solid rgba(124, 58, 237, 0.45);
+  background: linear-gradient(165deg, rgba(42, 31, 64, 0.75) 0%, rgba(26, 20, 51, 0.55) 100%);
+  color: var(--text-soft) !important;
+  border: 1.5px solid rgba(124, 58, 237, 0.5);
   box-shadow:
-    0 8px 18px -8px rgba(0, 0, 0, 0.5),
-    inset 0 1.5px 0 rgba(255, 255, 255, 0.14),
-    inset 0 -3px 0 rgba(0, 0, 0, 0.25);
+    0 8px 18px -10px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
+button.btn-secondary:hover,
+a.btn-secondary:hover,
 .btn-secondary:hover {
-  background: linear-gradient(145deg, rgba(59, 7, 100, 0.45) 0%, rgba(42, 31, 64, 0.5) 100%);
-  border-color: var(--accent-violet-hover);
-  color: var(--text-primary);
-  transform: translateY(-3px);
+  background: linear-gradient(165deg, rgba(59, 7, 100, 0.55) 0%, rgba(42, 31, 64, 0.65) 100%);
+  border-color: rgba(167, 139, 250, 0.65);
+  color: var(--text-primary) !important;
+  transform: translateY(-2px);
   box-shadow:
     0 12px 24px -10px rgba(0, 0, 0, 0.55),
-    0 0 24px -8px rgba(91, 33, 182, 0.35),
-    inset 0 2px 0 rgba(255, 255, 255, 0.18),
-    inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+    0 0 20px -10px rgba(91, 33, 182, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
+button.btn-secondary:active,
+a.btn-secondary:active,
 .btn-secondary:active {
-  transform: translateY(1px);
+  transform: translateY(0);
   box-shadow:
-    0 5px 12px -6px rgba(0, 0, 0, 0.5),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1),
-    inset 0 -2px 0 rgba(0, 0, 0, 0.28);
+    0 4px 12px -6px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+button.btn-secondary:focus-visible,
+a.btn-secondary:focus-visible,
+.btn-secondary:focus-visible {
+  outline: 2px solid rgba(167, 139, 250, 0.7);
+  outline-offset: 3px;
+}
+
+button.btn-primary:disabled,
+button.btn-secondary:disabled,
+.btn-primary:disabled,
+.btn-secondary:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none !important;
+  pointer-events: none;
+  box-shadow: none;
 }
 
 /* Tertiary text link for low-emphasis actions */

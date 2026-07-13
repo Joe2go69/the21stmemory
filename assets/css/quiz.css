@@ -176,8 +176,7 @@
 }
 
 /* ── Actions / footer nav ──
-   Use global .btn-primary / .btn-secondary only — no local size overrides.
-   Hierarchy stays: solid primary CTA + outline secondary. Motion/size match site. */
+   Reinforce global buttons so <button> and <a> match exactly on quiz pages. */
 
 .quiz-actions {
   display: flex;
@@ -192,6 +191,55 @@
   padding-top: 1.35rem;
   border-top: 1px solid rgba(124, 58, 237, 0.16);
   gap: 1rem;
+}
+
+/* Quiz CTAs: guaranteed equal geometry + hierarchy */
+.quiz-page .btn-primary,
+.quiz-page .btn-secondary,
+.quiz-actions .btn-primary,
+.quiz-actions .btn-secondary {
+  min-height: 3.1rem;
+  padding: 0.9rem 1.85rem;
+  border-radius: 14px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.quiz-page button.btn-primary,
+.quiz-actions button.btn-primary {
+  background: linear-gradient(165deg, #5B21B6 0%, #4C1D95 48%, #3B0764 100%);
+  color: #fff !important;
+  border: 1px solid rgba(196, 181, 253, 0.4);
+}
+
+.quiz-page button.btn-primary:hover,
+.quiz-actions button.btn-primary:hover {
+  background: linear-gradient(165deg, #6D28D9 0%, #5B21B6 48%, #4C1D95 100%);
+  color: #fff !important;
+}
+
+.quiz-page a.btn-secondary,
+.quiz-actions a.btn-secondary,
+.quiz-page button.btn-secondary,
+.quiz-actions button.btn-secondary {
+  background: linear-gradient(165deg, rgba(42, 31, 64, 0.8) 0%, rgba(26, 20, 51, 0.6) 100%);
+  color: var(--text-soft) !important;
+  border: 1.5px solid rgba(124, 58, 237, 0.55);
+}
+
+.quiz-page .btn-primary span,
+.quiz-page .btn-secondary span,
+.quiz-actions .btn-primary span,
+.quiz-actions .btn-secondary span {
+  color: inherit !important;
+  opacity: 1;
+  transform: none;
+}
+
+.quiz-page .btn-primary:hover span,
+.quiz-actions .btn-primary:hover span {
+  transform: none; /* keep label steady; whole button lifts */
 }
 
 .quiz-actions .btn-primary:disabled,
@@ -842,6 +890,18 @@
 }
 
 @media (max-width: 480px) {
+  .quiz-actions {
+    width: 100%;
+  }
+
+  .quiz-actions .btn-primary,
+  .quiz-actions .btn-secondary {
+    flex: 1 1 auto;
+    justify-content: center;
+    white-space: normal;
+    text-align: center;
+  }
+
   .quiz-actions--end {
     flex-direction: column-reverse;
     align-items: stretch;

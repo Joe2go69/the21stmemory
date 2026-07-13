@@ -187,7 +187,7 @@
             <span class="quiz-mode-btn__desc">Answer all questions first, then review your full score and explanations.</span>
           </button>
         </div>
-        <div class="quiz-actions">
+        <div class="quiz-actions" role="group" aria-label="Quiz start actions">
           <button type="button" class="btn-primary" data-action="start"><span>Begin quiz</span></button>
           ${d.relatedTopic?.href ? `<a href="${escapeHtml(d.relatedTopic.href)}" class="btn-secondary"><span>Study the topic first</span></a>` : ''}
         </div>
