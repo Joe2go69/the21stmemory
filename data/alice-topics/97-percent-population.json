@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v79w1lc/?pub=4p0ieu",
       "description": "Practical breakdown of the 97 percent population."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/97-percent-population.html",
+    "title": "97 Percent Population",
+    "totalQuestions": 25,
+    "description": "Test your understanding of the 97% population — NPCs, soulless inserts, and the true minority of sovereign souls."
+  }
 }

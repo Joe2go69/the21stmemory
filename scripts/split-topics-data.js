@@ -11,7 +11,8 @@ const HEAVY_KEYS = [
   'infographic_image',
   'pdf_preview_image',
   'slide_deck_pdf_url',
-  'rumble_videos'
+  'rumble_videos',
+  'quiz'
 ];
 
 function isPlaceholder(item) {

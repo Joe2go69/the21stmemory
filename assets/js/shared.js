@@ -1,6 +1,10 @@
 // Shared Navbar + Footer — interactivity (chrome is inlined at build time)
 
-const CODEX_PAGES = new Set(['codex.html', 'topics.html', 'deep-dive.html']);
+const CODEX_PAGES = new Set([
+  'codex.html',
+  'topics.html',
+  'deep-dive.html'
+]);
 const NETWORK_PAGES = new Set(['community.html']);
 const HOME_PAGES = new Set(['index.html']);
 const INDEX_SECTION_LINKS = new Set([
@@ -8,6 +12,13 @@ const INDEX_SECTION_LINKS = new Set([
   'index.html#codex',
   'index.html#explore'
 ]);
+
+function isCodexFamilyPage(pageBasename) {
+  if (CODEX_PAGES.has(pageBasename)) return true;
+  // Nested quizzes live under /quiz/ (e.g. quiz/alice/...)
+  const path = (window.location.pathname || '').replace(/\\/g, '/');
+  return path.includes('/quiz/');
+}
 
 function initDeferredAnalytics() {
   if (window.__gtagLoaded) return;
@@ -207,10 +218,11 @@ function isNavLinkActive(href, currentPath, currentHash) {
   if (!href || href.startsWith('http') || href.includes('://')) return false;
 
   const [linkPathRaw, linkHashPart] = href.split('#');
-  const linkPath = linkPathRaw || 'index.html';
+  // Normalize nested paths (e.g. ../../index.html from quiz/alice/)
+  const linkPath = normalizePage(linkPathRaw || 'index.html');
   const linkHash = linkHashPart ? '#' + linkHashPart : '';
 
-  if (linkPath === 'codex.html' && CODEX_PAGES.has(currentPath)) {
+  if (linkPath === 'codex.html' && isCodexFamilyPage(currentPath)) {
     return true;
   }
 

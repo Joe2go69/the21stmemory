@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v79qkvk/?pub=4p0ieu",
       "description": "Practical breakdown of 4,000 ancients."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/4000-ancients.html",
+    "title": "4,000 Ancients",
+    "totalQuestions": 25,
+    "description": "Test your understanding of the 4,000 Ancients — the soul lineage, anchors of the realm, and the return of memory."
+  }
 }

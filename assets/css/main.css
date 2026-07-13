@@ -486,60 +486,58 @@ html {
 
 /* Buttons — Premium 3D Professional CTA (Enhanced Depth & Polish for Dark Theme)
    Strong bevel, glossy highlight, realistic press/lift — serious, trustworthy, modern premium feel */
-:where(.btn-primary) {
-  padding: 15px 38px;
+/* Shared action-button family — same size, radius, motion language.
+   Filled primary vs outline secondary. Gloss via inset shadows so
+   labels on <button> and <a> never get covered by a pseudo overlay. */
+.btn-primary,
+.btn-secondary {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 15px 32px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: inherit;
+  letter-spacing: 0.01em;
+  border-radius: 18px;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .btn-primary {
-  position: relative;
   background: linear-gradient(145deg, #3B0764 0%, #4C1D95 50%, #581C87 100%);
-  color: white;
-  font-weight: 600;
-  border-radius: 18px;
-  border: none;
-  box-shadow: var(--surface-tier-btn);
-  transition: all 0.35s cubic-bezier(0.23, 1, 0.32, 1);
-  letter-spacing: 0.01em;
-  font-size: 0.95rem;
-  overflow: hidden;
-  z-index: 1;
-}
-
-/* Glossy top highlight layer for realistic 3D material depth */
-.btn-primary::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(255,255,255,0.26) 0%,
-    rgba(255,255,255,0.09) 38%,
-    transparent 68%
-  );
-  border-radius: 18px;
-  pointer-events: none;
-  z-index: 2;
-  transition: background 0.3s ease;
-}
-
-.btn-primary:hover::before {
-  background: linear-gradient(
-    to bottom,
-    rgba(255,255,255,0.36) 0%,
-    rgba(255,255,255,0.13) 42%,
-    transparent 72%
-  );
+  color: #ffffff;
+  border: 1.5px solid rgba(167, 139, 250, 0.22);
+  box-shadow:
+    var(--surface-tier-btn),
+    inset 0 1.5px 0 rgba(255, 255, 255, 0.28),
+    inset 0 -3px 0 rgba(30, 17, 53, 0.35);
 }
 
 .btn-primary:hover {
   background: linear-gradient(145deg, #4C1D95 0%, #581C87 50%, #6B21A8 100%);
-  transform: translateY(-5px) scale(1.015);
-  box-shadow: var(--surface-tier-btn-hover);
+  color: #ffffff;
+  border-color: rgba(196, 181, 253, 0.35);
+  transform: translateY(-3px);
+  box-shadow:
+    var(--surface-tier-btn-hover),
+    inset 0 2px 0 rgba(255, 255, 255, 0.34),
+    inset 0 -3px 0 rgba(30, 17, 53, 0.3);
 }
 
 .btn-primary:active {
-  transform: translateY(2px) scale(0.98);
-  box-shadow: var(--surface-tier-btn-active);
+  transform: translateY(1px);
+  box-shadow:
+    var(--surface-tier-btn-active),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -2px 0 rgba(30, 17, 53, 0.4);
 }
 
 /* Micro-animation for arrows */
@@ -550,41 +548,18 @@ html {
 
 .btn-primary:hover span,
 .group:hover .group-hover\:translate-x-1 {
-  transform: translateX(6px);
+  transform: translateX(4px);
 }
 
-/* Secondary CTA — glass outline sibling to btn-primary */
+/* Secondary — same footprint; outline weight instead of solid fill */
 .btn-secondary {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   background: linear-gradient(145deg, rgba(42, 31, 64, 0.55) 0%, rgba(26, 20, 51, 0.35) 100%);
   color: var(--text-soft);
-  font-weight: 600;
-  border-radius: 18px;
-  padding: 14px 36px;
   border: 1.5px solid rgba(124, 58, 237, 0.45);
-  font-size: 0.95rem;
-  letter-spacing: 0.01em;
-  text-decoration: none;
-  overflow: hidden;
-  z-index: 1;
   box-shadow:
     0 8px 18px -8px rgba(0, 0, 0, 0.5),
     inset 0 1.5px 0 rgba(255, 255, 255, 0.14),
     inset 0 -3px 0 rgba(0, 0, 0, 0.25);
-  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.btn-secondary::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: var(--surface-gloss);
-  border-radius: 18px;
-  pointer-events: none;
-  z-index: -1;
 }
 
 .btn-secondary:hover {
@@ -600,7 +575,7 @@ html {
 }
 
 .btn-secondary:active {
-  transform: translateY(1px) scale(0.99);
+  transform: translateY(1px);
   box-shadow:
     0 5px 12px -6px rgba(0, 0, 0, 0.5),
     inset 0 1px 0 rgba(255, 255, 255, 0.1),
@@ -2744,6 +2719,21 @@ textarea:focus-visible {
   font-size: 0.75rem;
   color: var(--text-soft);
   letter-spacing: 0.04em;
+}
+
+.deep-dive-quiz-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
+}
+
+.deep-dive-quiz-cta__desc {
+  margin: 0;
+  max-width: 42ch;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--text-muted);
 }
 
 .jump-to-pills {

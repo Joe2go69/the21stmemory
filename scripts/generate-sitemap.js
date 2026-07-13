@@ -39,6 +39,12 @@ const entries = [
   { path: '/codex.html', priority: '0.95', changefreq: 'weekly' },
   { path: '/topics.html', priority: '0.9', changefreq: 'weekly' },
   { path: '/deep-dive.html', priority: '0.9', changefreq: 'weekly' },
+  { path: '/quiz/alice/nature-of-reality.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/alice/essence-of-the-transmission.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/alice/3rd-density-overlays.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/alice/97-percent-population.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/alice/4000-ancients.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/alice/adrenochrome-trade.html', priority: '0.75', changefreq: 'monthly' },
 ];
 
 const sourcesPath = path.join(ROOT, 'data', 'sources.json');

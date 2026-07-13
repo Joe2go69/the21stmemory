@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v7791p4/?pub=4p0ieu",
       "description": "Practical breakdown of adrenochrome trade."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/adrenochrome-trade.html",
+    "title": "Adrenochrome Trade",
+    "totalQuestions": 25,
+    "description": "Test your understanding of the adrenochrome trade — the harvest industry, blackmail matrix, Re-sets, and the forces dismantling it."
+  }
 }
