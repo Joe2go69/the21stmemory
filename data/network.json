@@ -7,7 +7,9 @@
       "description": "The official home of Christian21 & Leon — hundreds of videos and over 1.1 million words of pure, unfiltered transmission.",
       "action": "Visit Official Site",
       "icon": "document",
-      "href": "https://christian21.com/"
+      "href": "https://christian21.com/",
+      "featured": true,
+      "priority": 1
     },
     {
       "section": "telegram",
@@ -16,7 +18,9 @@
       "description": "Main interactive chat and live transmissions from the source.",
       "action": "Join Channel",
       "icon": "chat",
-      "href": "https://t.me/loveandlight16"
+      "href": "https://t.me/loveandlight16",
+      "featured": true,
+      "priority": 2
     },
     {
       "section": "telegram",
@@ -56,7 +60,7 @@
     },
     {
       "section": "telegram",
-      "label": "SHORTS",
+      "label": "SIBLEY SHORTS",
       "title": "Sibley Shorts",
       "description": "Short clips featuring Sibley and Thalon Thor.",
       "action": "Join Channel",
@@ -65,7 +69,7 @@
     },
     {
       "section": "telegram",
-      "label": "SHORTS",
+      "label": "VELMA SHORTS",
       "title": "Velma Shorts",
       "description": "Short videos featuring Velma's insights and transmissions.",
       "action": "Join Channel",
@@ -106,7 +110,10 @@
       "description": "AI-enhanced interpretations, decodings, and community connection.",
       "action": "Join Channel",
       "icon": "sparkles",
-      "href": "https://t.me/The_21st_Memory"
+      "href": "https://t.me/The_21st_Memory",
+      "badge": "This archive",
+      "featured": true,
+      "priority": 4
     },
     {
       "section": "rumble",
@@ -115,7 +122,9 @@
       "description": "Original raw transmissions by Thalon Thor / Sibley22 — the source.",
       "action": "Watch on Rumble",
       "icon": "mic",
-      "href": "https://rumble.com/user/sibley22"
+      "href": "https://rumble.com/user/sibley22",
+      "featured": true,
+      "priority": 3
     },
     {
       "section": "rumble",
@@ -160,7 +169,8 @@
       "description": "AI interpretations and visual decodings of the transmissions.",
       "action": "Watch on Rumble",
       "icon": "star",
-      "href": "https://rumble.com/c/21stMemory"
+      "href": "https://rumble.com/c/21stMemory",
+      "badge": "This archive"
     }
   ]
 }

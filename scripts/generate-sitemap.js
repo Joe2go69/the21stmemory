@@ -35,7 +35,7 @@ function collectTopicIds(topics, ids = []) {
 
 const entries = [
   { path: '/', priority: '1.0', changefreq: 'weekly' },
-  { path: '/community.html', priority: '0.9', changefreq: 'monthly' },
+  { path: '/network.html', priority: '0.9', changefreq: 'monthly' },
   { path: '/codex.html', priority: '0.95', changefreq: 'weekly' },
   { path: '/topics.html', priority: '0.9', changefreq: 'weekly' },
   { path: '/deep-dive.html', priority: '0.9', changefreq: 'weekly' },

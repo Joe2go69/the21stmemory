@@ -1,12 +1,55 @@
 // Shared render helpers — enforces card/media class contracts across pages
 
 const RenderUtils = {
-  renderNetworkCard(channel) {
+  renderNetworkCard(channel, options = {}) {
+    if (options.featured) {
+      return this.renderFeaturedNetworkCard(channel);
+    }
+    const extra = ['rounded-3xl'];
+    if (options.extraClass) extra.push(options.extraClass);
     return this.renderChannelCard({
       ...channel,
       external: true,
-      extraClass: 'rounded-3xl'
+      featured: false,
+      extraClass: extra.join(' ')
     });
+  },
+
+  renderFeaturedNetworkCard(channel = {}) {
+    const safeHref = TopicUtils.escapeAttr(channel.href || '#');
+    const safeLabel = channel.label ? TopicUtils.escapeHtml(channel.label) : '';
+    const safeTitle = TopicUtils.escapeHtml(channel.title || '');
+    const safeDescription = TopicUtils.escapeHtml(channel.description || '');
+    const safeAction = TopicUtils.escapeHtml(channel.action || 'Open');
+    const safeSection = TopicUtils.escapeAttr(channel.section || '');
+    const safeBadge = channel.badge ? TopicUtils.escapeHtml(channel.badge) : '';
+    const iconName = TopicUtils.escapeAttr(channel.icon || 'network');
+    const chip = safeBadge
+      ? `<span class="network-start-card__chip network-start-card__chip--archive">${safeBadge}</span>`
+      : `<span class="network-start-card__chip">Recommended</span>`;
+
+    return `
+      <a href="${safeHref}" target="_blank" rel="noopener noreferrer"
+         class="network-start-card"
+         data-section="${safeSection}">
+        <div class="network-start-card__top">
+          <div class="network-start-card__meta">
+            ${chip}
+            ${safeLabel ? `<span class="network-start-card__label">${safeLabel}</span>` : ''}
+          </div>
+          <span class="network-start-card__icon" aria-hidden="true">
+            <span data-icon="${iconName}" data-icon-class="card-icon-lg"></span>
+          </span>
+        </div>
+        <h3 class="network-start-card__title">${safeTitle}</h3>
+        <p class="network-start-card__desc">${safeDescription}</p>
+        <span class="network-start-card__action">
+          ${safeAction}
+          <span class="sr-only"> (opens in a new tab)</span>
+          <span aria-hidden="true">→</span>
+        </span>
+      </a>
+    `;
   },
 
   renderMediaFrame(imgSrc, alt, options = {}) {
@@ -75,7 +118,19 @@ const RenderUtils = {
     `;
   },
 
-  renderChannelCard({ href, label, title, description, action, icon, external = true, extraClass = '' }) {
+  renderChannelCard({
+    href,
+    label,
+    title,
+    description,
+    action,
+    icon,
+    section = '',
+    badge = '',
+    external = true,
+    featured = false,
+    extraClass = ''
+  }) {
     const rel = external ? ' rel="noopener noreferrer"' : '';
     const target = external ? ' target="_blank"' : '';
     const safeHref = TopicUtils.escapeAttr(href || '#');
@@ -83,20 +138,31 @@ const RenderUtils = {
     const safeTitle = TopicUtils.escapeHtml(title || '');
     const safeDescription = TopicUtils.escapeHtml(description || '');
     const safeAction = TopicUtils.escapeHtml(action || '');
+    const safeSection = TopicUtils.escapeAttr(section || '');
+    const safeBadge = badge ? TopicUtils.escapeHtml(badge) : '';
+    const sectionAttr = safeSection ? ` data-section="${safeSection}"` : '';
+    const newTabHint = external
+      ? '<span class="sr-only"> (opens in a new tab)</span>'
+      : '';
+    const badgeHtml = safeBadge
+      ? `<span class="channel-card-badge">${safeBadge}</span>`
+      : '';
+
     return `
-      <a href="${safeHref}"${target}${rel}
-         class="memory-card content-card channel-card group flex flex-col h-full p-6 sm:p-8 no-underline ${extraClass}">
-        <div class="flex items-start justify-between mb-4">
-          <div>
+      <a href="${safeHref}"${target}${rel}${sectionAttr}
+         class="memory-card content-card channel-card group flex flex-col h-full no-underline ${extraClass}">
+        <div class="flex items-start justify-between gap-3 mb-3">
+          <div class="min-w-0">
+            ${badgeHtml}
             ${safeLabel ? `<span class="card-label">${safeLabel}</span>` : ''}
-            <h3 class="text-2xl font-semibold mt-1 leading-none text-white">${safeTitle}</h3>
+            <h3 class="text-xl font-semibold mt-1 leading-snug text-white">${safeTitle}</h3>
           </div>
-          ${icon ? `<span data-icon="${icon}" data-icon-class="card-icon-lg"></span>` : ''}
+          ${icon ? `<span data-icon="${TopicUtils.escapeAttr(icon)}" data-icon-class="card-icon-lg"></span>` : ''}
         </div>
-        <p class="flex-grow text-mem-prose leading-relaxed mb-6">${safeDescription}</p>
-        <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium card-action">
-          ${safeAction}
-          <span class="group-hover:translate-x-1 transition">→</span>
+        <p class="flex-grow text-mem-prose leading-relaxed mb-4 text-sm line-clamp-3">${safeDescription}</p>
+        <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium card-action mt-auto">
+          ${safeAction}${newTabHint}
+          <span class="group-hover:translate-x-1 transition" aria-hidden="true">→</span>
         </div>
       </a>
     `;

@@ -5,7 +5,7 @@ const CODEX_PAGES = new Set([
   'topics.html',
   'deep-dive.html'
 ]);
-const NETWORK_PAGES = new Set(['community.html']);
+const NETWORK_PAGES = new Set(['network.html', 'community.html']);
 const HOME_PAGES = new Set(['index.html']);
 const INDEX_SECTION_LINKS = new Set([
   'index.html#about',
@@ -237,7 +237,7 @@ function isNavLinkActive(href, currentPath, currentHash) {
     return true;
   }
 
-  if (linkPath === 'community.html' && NETWORK_PAGES.has(currentPath)) {
+  if ((linkPath === 'network.html' || linkPath === 'community.html') && NETWORK_PAGES.has(currentPath)) {
     return true;
   }
 

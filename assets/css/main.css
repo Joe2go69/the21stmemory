@@ -203,6 +203,19 @@ a, button, input, select, textarea,
   outline-offset: 2px;
 }
 
+/* Screen-reader only (WCAG-friendly hide) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 body {
   font-family: 'Inter', system-ui, sans-serif;
   background: var(--deep-bg);
@@ -350,12 +363,24 @@ html {
   border-radius: 16px;
   position: relative;
   overflow: hidden;
-  min-height: 280px;
+  min-height: 0;
   box-shadow: var(--surface-tier-elevated);
   transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+}
+
+/* Directory cards — balanced height, not tall slabs */
+.network-directory-grid > a.channel-card {
+  min-height: 13.5rem;
+  height: 100%;
+  padding: 1.35rem 1.4rem 1.25rem;
+}
+
+.network-directory-grid > a.channel-card > * {
+  position: relative;
+  z-index: 2;
 }
 
 /* Enhanced professional top highlight + volumetric corner glows for masterful light & depth (3D network cards) */
@@ -725,6 +750,399 @@ button.btn-secondary:disabled,
 
 .channel-card:hover .card-action {
   color: #fff;
+}
+
+/* Network channel cards — subtle platform identity */
+.channel-card[data-section="telegram"] {
+  box-shadow: var(--surface-tier-elevated), 0 0 0 1px rgba(34, 158, 217, 0.18);
+}
+
+.channel-card[data-section="telegram"] .card-label {
+  color: #7DD3FC;
+}
+
+.channel-card[data-section="rumble"] {
+  box-shadow: var(--surface-tier-elevated), 0 0 0 1px rgba(133, 187, 101, 0.2);
+}
+
+.channel-card[data-section="rumble"] .card-label {
+  color: #A3E635;
+}
+
+.channel-card[data-section="official"] {
+  box-shadow: var(--surface-tier-elevated), 0 0 0 1px rgba(212, 168, 75, 0.28);
+}
+
+.channel-card[data-section="official"] .card-label {
+  color: var(--accent-gold-muted);
+}
+
+.channel-card-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-body-tint);
+  background: rgba(91, 33, 182, 0.45);
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  border-radius: 9999px;
+  padding: 0.22rem 0.5rem;
+  line-height: 1.2;
+  margin-bottom: 0.45rem;
+  width: fit-content;
+  z-index: 2;
+  position: relative;
+}
+
+.channel-card-badge--recommended {
+  color: #F5E6C8;
+  background: rgba(180, 83, 9, 0.35);
+  border-color: rgba(212, 168, 75, 0.45);
+}
+
+/* ── Network page layout system (CSS-owned grids; no Tailwind dependency) ── */
+.network-featured-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  align-items: stretch;
+}
+
+@media (min-width: 640px) {
+  .network-featured-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.15rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .network-featured-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+}
+
+.network-directory-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.15rem;
+  align-items: stretch;
+}
+
+@media (min-width: 768px) {
+  .network-directory-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .network-directory-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Start-here compact cards — equal tiles, not full-width slabs */
+.network-start-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  min-height: 11.5rem;
+  height: 100%;
+  padding: 1.15rem 1.2rem 1.1rem;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 1.1rem;
+  background:
+    linear-gradient(165deg, rgba(42, 31, 72, 0.95) 0%, rgba(26, 20, 51, 0.98) 55%, rgba(20, 14, 40, 1) 100%);
+  box-shadow: var(--surface-tier-elevated);
+  border: 1px solid rgba(76, 61, 107, 0.65);
+  overflow: hidden;
+  transition:
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 0.3s ease;
+  z-index: 0;
+}
+
+.network-start-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 0%, transparent 42%),
+    radial-gradient(circle at 12% 0%, rgba(124, 58, 237, 0.14) 0%, transparent 48%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.network-start-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.network-start-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(124, 58, 237, 0.45);
+  box-shadow: var(--surface-tier-elevated-hover);
+}
+
+.network-start-card:focus-visible {
+  outline: 2px solid var(--accent-indigo);
+  outline-offset: 3px;
+}
+
+.network-start-card[data-section="official"] {
+  border-color: rgba(212, 168, 75, 0.38);
+  box-shadow: var(--surface-tier-elevated), 0 0 28px -12px rgba(180, 83, 9, 0.35);
+}
+
+.network-start-card[data-section="telegram"] {
+  border-color: rgba(34, 158, 217, 0.28);
+}
+
+.network-start-card[data-section="rumble"] {
+  border-color: rgba(133, 187, 101, 0.28);
+}
+
+.network-start-card__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.network-start-card__meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  min-width: 0;
+}
+
+.network-start-card__chip {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #F5E6C8;
+  background: rgba(180, 83, 9, 0.32);
+  border: 1px solid rgba(212, 168, 75, 0.4);
+  border-radius: 9999px;
+  padding: 0.18rem 0.45rem;
+  line-height: 1.2;
+}
+
+.network-start-card__chip--archive {
+  color: var(--text-body-tint);
+  background: rgba(91, 33, 182, 0.45);
+  border-color: rgba(167, 139, 250, 0.4);
+}
+
+.network-start-card__label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-soft);
+  line-height: 1.3;
+}
+
+.network-start-card[data-section="official"] .network-start-card__label {
+  color: var(--accent-gold-muted);
+}
+
+.network-start-card[data-section="telegram"] .network-start-card__label {
+  color: #7DD3FC;
+}
+
+.network-start-card[data-section="rumble"] .network-start-card__label {
+  color: #A3E635;
+}
+
+.network-start-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+  color: #C4B5FD;
+  background: rgba(91, 33, 182, 0.28);
+  border: 1px solid rgba(124, 58, 237, 0.28);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.network-start-card__icon .card-icon,
+.network-start-card__icon .card-icon-lg {
+  width: 1.2rem;
+  height: 1.2rem;
+  opacity: 0.95;
+  color: inherit;
+}
+
+.network-start-card[data-section="official"] .network-start-card__icon {
+  color: #E8C98A;
+  background: rgba(180, 83, 9, 0.2);
+  border-color: rgba(212, 168, 75, 0.35);
+}
+
+.network-start-card[data-section="telegram"] .network-start-card__icon {
+  color: #7DD3FC;
+  background: rgba(14, 116, 144, 0.22);
+  border-color: rgba(34, 158, 217, 0.3);
+}
+
+.network-start-card[data-section="rumble"] .network-start-card__icon {
+  color: #A3E635;
+  background: rgba(63, 98, 18, 0.28);
+  border-color: rgba(133, 187, 101, 0.3);
+}
+
+.network-start-card__title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.network-start-card__desc {
+  margin: 0;
+  flex: 1 1 auto;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  color: var(--text-prose);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.network-start-card__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.15rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-soft);
+  transition: color 0.2s ease, gap 0.2s ease;
+}
+
+.network-start-card:hover .network-start-card__action {
+  color: #fff;
+  gap: 0.5rem;
+}
+
+.network-section-heading {
+  grid-column: 1 / -1;
+  margin-top: 0.35rem;
+  margin-bottom: 0;
+  padding-top: 0.5rem;
+}
+
+.network-section-heading:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.network-section-title {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.network-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+@media (min-width: 1024px) {
+  .network-controls {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.network-search-wrap {
+  width: 100%;
+  max-width: 18rem;
+}
+
+.network-search-input {
+  width: 100%;
+  min-height: 2.75rem;
+  padding: 0.55rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-body-tint);
+  background: linear-gradient(180deg, #221A42 0%, #1A1433 100%);
+  border: 1px solid #4C3D6B;
+  box-shadow: var(--surface-tier-recessed);
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.network-search-input::placeholder {
+  color: var(--text-dim);
+}
+
+.network-search-input:hover {
+  border-color: var(--accent-violet-hover);
+}
+
+.network-search-input:focus-visible {
+  border-color: #7C3AED;
+  box-shadow:
+    var(--surface-tier-recessed),
+    0 0 0 3px rgba(124, 58, 237, 0.28);
+}
+
+.network-skeleton-card {
+  min-height: 13.5rem;
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+}
+
+.network-featured-grid .network-skeleton-card {
+  min-height: 11.5rem;
+  border-radius: 1.1rem;
+}
+
+.network-empty-state .network-retry-btn {
+  margin-top: 0.25rem;
+}
+
+.network-noscript-list a {
+  color: var(--text-soft);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.network-noscript-list a:hover {
+  color: var(--text-primary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .network-start-card:hover {
+    transform: none;
+  }
 }
 
 /* Site footer */
@@ -2375,6 +2793,10 @@ textarea:focus-visible {
   border: 1px solid #4C3D6B;
   cursor: pointer;
   box-shadow: var(--surface-tier-control-sm);
+}
+
+.network-filter-btn {
+  min-height: 2.75rem;
 }
 
 .topic-control-count {

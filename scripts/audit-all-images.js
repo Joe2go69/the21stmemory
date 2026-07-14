@@ -8,7 +8,7 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const IMAGE_EXT = /\.(webp|png|jpe?g|gif|svg|ico)$/i;
 const SCAN_DIRS = ['data', 'assets/data', 'assets/js', 'assets/css'];
-const SCAN_ROOT_FILES = ['index.html', 'codex.html', 'topics.html', 'deep-dive.html', 'community.html', '404.html'];
+const SCAN_ROOT_FILES = ['index.html', 'codex.html', 'topics.html', 'deep-dive.html', 'network.html', 'community.html', '404.html'];
 const IMAGE_KEYS = ['image', 'topic_image', 'infographic_image', 'pdf_preview_image', 'logo', 'thumbnail', 'src'];
 
 const REF_PATTERNS = [

@@ -41,10 +41,16 @@
       "title": "21st Memory Deep-Dive | The 21st Memory",
       "description": "In-depth AI-decoded reports on Thalon Thor transmission topics from the 21st Memory archive."
     },
+    "network.html": {
+      "path": "/network.html",
+      "title": "21st Memory Network | The 21st Memory",
+      "description": "The Thalon Thor Network — official sites, Telegram channels, and Rumble archives supporting the Great Remembering."
+    },
     "community.html": {
       "path": "/community.html",
       "title": "21st Memory Network | The 21st Memory",
-      "description": "The Thalon Thor Network — official sites, Telegram channels, and Rumble archives supporting the Great Remembering."
+      "description": "Redirects to the Thalon Thor Network directory.",
+      "noindex": true
     }
   }
 }
