@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v772ykg/?pub=4p0ieu",
       "description": "Core revelations about breaking the Gateway-10 parasitic loop."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/control-mechanisms.html",
+    "title": "Control Mechanisms",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Control Mechanisms — Density Suppression, Overlays, NPCs, Three Strings, Amnesia Vortex, Resets, and the dismantling of the parasitic grid."
+  }
 }

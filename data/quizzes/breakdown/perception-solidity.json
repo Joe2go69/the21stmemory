@@ -422,7 +422,7 @@
     },
     {
       "number": 14,
-      "question": "What is the ultimate goal of the 'Great Dome' simulation according to the text?",
+      "question": "What is the ultimate goal of the 'Great Dome' simulation?",
       "options": [
         {
           "label": "A",
@@ -652,7 +652,7 @@
           "label": "C",
           "text": "Radio and microwave frequencies",
           "isCorrect": false,
-          "rationale": "While these exist in the 3D realm, the text focuses on the primary human senses manipulated by the cloaking trick."
+          "rationale": "While these exist in the 3D realm, the primary focus is the primary human senses manipulated by the cloaking trick."
         },
         {
           "label": "D",
@@ -704,7 +704,7 @@
           "label": "A",
           "text": "It was successfully neutralized by the Lyran Lineage",
           "isCorrect": false,
-          "rationale": "The text states the resistance was hijacked and weaponized, implying the Lyran's original intent was subverted."
+          "rationale": "The resistance was hijacked and weaponized, implying the Lyran's original intent was subverted."
         },
         {
           "label": "B",
@@ -742,7 +742,7 @@
           "label": "B",
           "text": "True",
           "isCorrect": true,
-          "rationale": "The text states that without the artificial field enforcing density, matter would be visually unstable and responsive to consciousness."
+          "rationale": "Without the artificial field enforcing density, matter would be visually unstable and responsive to consciousness."
         }
       ],
       "hint": "Consider the impact of the projection field on the physical properties of matter.",

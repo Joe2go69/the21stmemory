@@ -47,6 +47,12 @@ const entries = [
   { path: '/quiz/alice/adrenochrome-trade.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/alice/amnesia-vortex.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/alice/antiquity-technology.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/alice/anunnaki.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/alice/ascension-event.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/alice/atmospheric-condensers.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/alice/control-mechanisms.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/alice/cosmology.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/alice/culling-survivors.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/perception-solidity.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/matrix-scaffolding.html', priority: '0.75', changefreq: 'monthly' },
 ];

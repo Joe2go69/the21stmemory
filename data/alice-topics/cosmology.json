@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v76zhqm/?pub=4p0ieu",
       "description": "Core revelations about crystalline reality."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/cosmology.html",
+    "title": "Cosmology",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Cosmology — Gateway-10, Firmament, Projection Dome, Sky-Net-1, Amnesia Vortex sun, Realm partitions, and the Sky Event."
+  }
 }

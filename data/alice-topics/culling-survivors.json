@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v79j500/?pub=4p0ieu",
       "description": "Practical breakdown of culling survivors."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/culling-survivors.html",
+    "title": "Culling Survivors",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Culling Survivors — WW1 as planetary cull, Fighting Age purge, 15-22 million dead, asylums, Orphan Trains, and Big Pharma."
+  }
 }

@@ -135,7 +135,7 @@ const quiz = {
   reflection: {
     title: 'Reflection',
     body:
-      'Matrix Scaffolding is the hollow frequency framework that projects the illusion of solid matter, distance, and continuity over the living crystalline Known Lands. Every correct answer maps back to this topic\'s report alone. Sit with what you missed, then return to the Matrix Scaffolding deep-dive, infographics, and video transmissions. Holding a high harmonic frequency as a lighthouse is how Resonating Sols help fracture the parasitic overlay as the scaffolding crumbles.'
+      'Matrix Scaffolding is the hollow frequency framework that projects the illusion of solid matter, distance, and continuity over the living crystalline Known Lands. Every correct answer maps back to this topic\\\'s report alone. Sit with what you missed, then return to the Matrix Scaffolding deep-dive, infographics, and video transmissions. Holding a high harmonic frequency as a lighthouse is how Resonating Sols help fracture the parasitic overlay as the scaffolding crumbles.'
   },
   relatedTopic: {
     href: `/deep-dive.html?source=${SOURCE}&topic=${TOPIC_ID}`,

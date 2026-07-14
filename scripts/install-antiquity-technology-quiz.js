@@ -174,7 +174,7 @@ const quiz = {
   reflection: {
     title: 'Reflection',
     body:
-      "Antiquity Technology is the lost harmonic paradigm of Great Tartary — lattice energy, tuning-fork masonry, pneumatic transit, and free-energy systems stripped away to enforce scarcity. Every correct answer maps back to this topic's report alone. Sit with what you missed, then return to the Antiquity Technology deep-dive, infographics, and video transmissions. Remembering that true technology runs on vibration, frequency, and consciousness is how you see through the fabricated Industrial Revolution narrative.",
+      "Antiquity Technology is the lost harmonic paradigm of Great Tartary — lattice energy, tuning-fork masonry, pneumatic transit, and free-energy systems stripped away to enforce scarcity. Sit with what you missed, then return to the Antiquity Technology deep-dive, infographics, and video transmissions. Remembering that true technology runs on vibration, frequency, and consciousness is how you see through the fabricated Industrial Revolution narrative.",
   },
   relatedTopic: {
     href: `/deep-dive.html?source=${SOURCE}&topic=${TOPIC_ID}`,

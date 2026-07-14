@@ -683,7 +683,7 @@
           "label": "A",
           "text": "Fly fishing",
           "isCorrect": true,
-          "rationale": "The text explicitly states there is an NPC designed for every conceivable interest, including fly fishing."
+          "rationale": "there is an NPC designed for every conceivable interest, including fly fishing."
         },
         {
           "label": "B",
@@ -704,7 +704,7 @@
           "rationale": "Deep scientific inquiry is not an example provided for the variety of NPC interest tracks."
         }
       ],
-      "hint": "The text lists this as an example of a mundane, specific hobby.",
+      "hint": "This is an example of a mundane, specific hobby.",
       "correctAnswer": "A"
     },
     {
