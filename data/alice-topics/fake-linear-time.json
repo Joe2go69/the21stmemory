@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v76y8u0/?pub=4p0ieu",
       "description": "Practical breakdown of fake linear time."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/fake-linear-time.html",
+    "title": "Fake Linear Time",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Fake Linear Time — elastic true time, 96-hour days, clock anchors, Twin Flame bending, Amnesia Vortex, and EMF collapse of sequential time."
+  }
 }

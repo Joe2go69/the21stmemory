@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v79sh26/?pub=4p0ieu",
       "description": "Project Bluebeam technology and the Sky Event dome removal."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/fake-alien-invasion.html",
+    "title": "Fake Alien Invasion",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Fake Alien Invasion — Project Bluebeam, EBS trauma, Sky Event, EMF flash, 97% removal, and the soul-architecture fail-safe against future parasitic takeover."
+  }
 }

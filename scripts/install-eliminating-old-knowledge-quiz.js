@@ -1,0 +1,1173 @@
+/**
+ * Installs Eliminating Old Knowledge quiz for Alice transmission.
+ * All 25 items from data/alice-topics/eliminating-old-knowledge.json only.
+ * Plain English; absolute Living Truth voice.
+ * Run: node scripts/install-eliminating-old-knowledge-quiz.js && node scripts/split-topics-data.js && node scripts/generate-sitemap.js
+ */
+const fs = require('fs');
+const path = require('path');
+
+const ROOT = path.join(__dirname, '..');
+const TOPIC_ID = 'eliminating-old-knowledge';
+const TOPIC_TITLE = 'Eliminating Old Knowledge';
+const SOURCE = 'alice';
+
+const topicPath = path.join(ROOT, 'data', 'alice-topics', `${TOPIC_ID}.json`);
+const topic = JSON.parse(fs.readFileSync(topicPath, 'utf8'));
+const reportLower = (topic.report || '').toLowerCase();
+
+const latexRe = /\$[^$]+\$|\\\(|\\\[|\\\]|\\\)|\^\{|_\{|\\frac|MathJax|\\\w+\{/;
+const hedgeRe =
+  /\b(according to (this topic|the report|the text|the source)|the report |source material|the text states|key terminology defines|overview states|maps back to this topic|described in this topic)\b/i;
+
+const supportPhrases = {
+  1: ['world war 1', '1914-1918', 'extermination', 'archduke'],
+  2: ['late 1890s', 'early 1900s', 'reset'],
+  3: ['sixteen', 'lunatic asylums', 'fighting age'],
+  4: ['flat shape', 'herbal expertise', 'pre-reset'],
+  5: ['orphans', 'fabricated historical', 'scientific paradigm'],
+  6: ['15 to 22 million', 'early teens', 'mid-50s'],
+  7: ['5,000-bed', 'lunatic asylums', 'energy-harvesting'],
+  8: ['big pharma', 'herbal knowledge', 'petrochemical'],
+  9: ['d.u.m.b.s', 'stem cells', 'orphans'],
+  10: ['freemasons', 'sold-soul', 'repopulation'],
+  11: ['oral', '1860s', 'true shape'],
+  12: ['fighting age', 'threat', 'global paradigm'],
+  13: ['allied', 'central powers', 'sacrifice'],
+  14: ['mid-50s', 'shock', 'institutionalized'],
+  15: ['9 to 11 million', '6 to 13 million', 'hunger'],
+  16: ['herbal', 'big pharma', 'side-effect-free'],
+  17: ['andrew carnegie', '2,500', 'libraries'],
+  18: ['tartaria', 'dark ages', 'evolutionary'],
+  19: ['loosh', 'adrenochrome', 'blank slate'],
+  20: ['33rd-degree freemasons', 'orphan trains', 'parents'],
+  21: ['contradicted', 'freemasonic narrative', 'clone'],
+  22: ['perceived knowledge', 'three foundational strings'],
+  23: ['flat', 'harmonic', 'defenseless'],
+  24: ['herd mentality', 'authoritative agencies'],
+  25: ['3rd-density', 'simulation', 'compliance'],
+};
+
+function cleanText(s) {
+  if (typeof s !== 'string') return s;
+  let t = s;
+  t = t.replace(/\$(\d+)\^\{(st|nd|rd|th)\}\$/gi, '$1$2');
+  t = t.replace(/\$(\d+)\^(st|nd|rd|th)\$/gi, '$1$2');
+  t = t.replace(/\$(\d+(?:,\d+)*)\\+%\$/g, '$1%');
+  t = t.replace(/\$(\d+(?:,\d+)*)\\?\%\$/g, '$1%');
+  t = t.replace(/\$(\d{1,3}(?:,\d{3})*(?:\.\d+)?)\$/g, '$1');
+  t = t.replace(/\$([A-Za-z][A-Za-z0-9./-]{0,24})\$/g, '$1');
+  t = t.replace(/\$([^$]+)\$/g, (_, inner) =>
+    inner.replace(/\^\{([^}]+)\}/g, '$1').replace(/\\%/g, '%').replace(/\\/g, '')
+  );
+  t = t.replace(/\^\{(st|nd|rd|th)\}/gi, '$1');
+  t = t.replace(/\\%/g, '%');
+  t = t.replace(/\\\(|\\\)|\\\[|\\\]/g, '');
+  t = t
+    .replace(/[\u2018\u2019\u201A\u201B]/g, "'")
+    .replace(/[\u201C\u201D\u201E\u201F]/g, '"')
+    .replace(/[\u2013\u2014\u2015]/g, '—')
+    .replace(/\u2026/g, '...')
+    .replace(/\u00A0/g, ' ')
+    .replace(/\uFFFD/g, '');
+  return t.replace(/[ \t]{2,}/g, ' ').trim();
+}
+
+const RAW_QUESTIONS = [
+  {
+    number: 1,
+    question:
+      'What was World War 1 (1914-1918) in true operational intent?',
+    options: [
+      {
+        label: 'A',
+        text: 'A spontaneous geopolitical quarrel caused only by an Archduke\'s assassination.',
+        isCorrect: false,
+        rationale:
+          'The Archduke story is cover; the war was a meticulously orchestrated global extermination event.',
+      },
+      {
+        label: 'B',
+        text: 'A meticulously orchestrated global extermination event designed to purge remaining pre-reset knowledge-holders.',
+        isCorrect: true,
+        rationale:
+          'World War 1 was a meticulously orchestrated global extermination event, not a genuine geopolitical conflict triggered by an Archduke assassination.',
+      },
+      {
+        label: 'C',
+        text: 'A peaceful library-building festival funded by Andrew Carnegie alone.',
+        isCorrect: false,
+        rationale:
+          'Carnegie libraries came as indoctrination infrastructure after knowledge-bearers were slaughtered.',
+      },
+      {
+        label: 'D',
+        text: 'A natural disaster cycle with no parasitic planners.',
+        isCorrect: false,
+        rationale:
+          'Parasitic controllers engineered the war to delete old-world memory.',
+      },
+    ],
+    hint: 'Orchestrated extermination — not Archduke geopolitics.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 2,
+    question:
+      'When did the previous systematic reset conclude relative to the war?',
+    options: [
+      {
+        label: 'A',
+        text: 'In the late 1890s and early 1900s, shortly before World War 1.',
+        isCorrect: true,
+        rationale:
+          'The war occurred shortly after the previous systematic reset concluded in the late 1890s and early 1900s.',
+      },
+      {
+        label: 'B',
+        text: 'In 1918 at the exact moment of the armistice only.',
+        isCorrect: false,
+        rationale:
+          'The reset preceded the war; the war finished the knowledge purge.',
+      },
+      {
+        label: 'C',
+        text: 'Only after Carnegie built all 2,500 libraries.',
+        isCorrect: false,
+        rationale:
+          'Libraries distributed fake history after knowledge-bearers were killed; the reset came first.',
+      },
+      {
+        label: 'D',
+        text: 'In the 1860s when oral flat-earth teaching first began.',
+        isCorrect: false,
+        rationale:
+          'The 1860s mark oral transmission of true earth shape; the reset finalized later, late 1890s–early 1900s.',
+      },
+    ],
+    hint: 'Late 1890s / early 1900s — then the war.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 3,
+    question:
+      'Who was the primary demographic targeted for elimination?',
+    options: [
+      {
+        label: 'A',
+        text: 'All remaining individuals over sixteen who were not already incarcerated in Lunatic Asylums — the fighting-age population.',
+        isCorrect: true,
+        rationale:
+          'The primary objective was to eliminate all remaining people over sixteen not already in Lunatic Asylums, drafting the fighting-age population into a planetary meat grinder.',
+      },
+      {
+        label: 'B',
+        text: 'Only infants grown in D.U.M.B.S. vats under age one.',
+        isCorrect: false,
+        rationale:
+          'Orphans were the repopulation product; the war killed knowledge-holding adults and fighting-age cohorts.',
+      },
+      {
+        label: 'C',
+        text: 'Only Freemasons who refused sold-soul contracts.',
+        isCorrect: false,
+        rationale:
+          'Freemasons administered the parasitic plan; the target was pre-reset memory-holders.',
+      },
+      {
+        label: 'D',
+        text: 'Only librarians who stocked Tartaria books.',
+        isCorrect: false,
+        rationale:
+          'Libraries pushed fake history after the slaughter; the demographic was fighting-age knowledge-bearers.',
+      },
+    ],
+    hint: 'Over sixteen, not already asylum-locked — fighting age.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 4,
+    question:
+      'What invaluable pre-reset knowledge did that demographic still hold?',
+    options: [
+      {
+        label: 'A',
+        text: 'The true flat shape of the earth and generations of natural herbal expertise.',
+        isCorrect: true,
+        rationale:
+          'That demographic harbored invaluable pre-reset knowledge including the true flat shape of the earth and generations of natural herbal expertise.',
+      },
+      {
+        label: 'B',
+        text: 'Only the Archduke assassination timeline as taught in schools.',
+        isCorrect: false,
+        rationale:
+          'Official premises are falsified; they held true cosmology and herbal wisdom.',
+      },
+      {
+        label: 'C',
+        text: 'Exclusive recipes for petrochemical Big Pharma drugs.',
+        isCorrect: false,
+        rationale:
+          'Big Pharma required eradicating their natural herbal knowledge, not preserving it.',
+      },
+      {
+        label: 'D',
+        text: 'Secret maps proving evolutionary theory and Dark Ages progress.',
+        isCorrect: false,
+        rationale:
+          'Those are the fake narratives installed after oral truth was purged.',
+      },
+    ],
+    hint: 'Flat earth truth + natural herbal expertise.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 5,
+    question:
+      'Why purge old-world memory before repopulation?',
+    options: [
+      {
+        label: 'A',
+        text: 'So newly created Orphans could be easily indoctrinated into a completely fabricated historical and scientific paradigm.',
+        isCorrect: true,
+        rationale:
+          'Purging old-world memory guaranteed that incoming Orphans could be easily indoctrinated into a completely fabricated historical and scientific paradigm.',
+      },
+      {
+        label: 'B',
+        text: 'So Orphans would immediately learn true Tartarian history at home.',
+        isCorrect: false,
+        rationale:
+          'The goal was fabricated history, not Tartarian truth for clones.',
+      },
+      {
+        label: 'C',
+        text: 'So fighting-age adults could become free herbal teachers worldwide.',
+        isCorrect: false,
+        rationale:
+          'Those adults were sent to trenches so they could not teach truth.',
+      },
+      {
+        label: 'D',
+        text: 'So Perceived Knowledge would dissolve as a control string.',
+        isCorrect: false,
+        rationale:
+          'Eliminating old knowledge consolidated parasitic power over Perceived Knowledge.',
+      },
+    ],
+    hint: 'Blank minds for fabricated history and science.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 6,
+    question:
+      'How is World War 1 defined as an extermination protocol by numbers and age range?',
+    options: [
+      {
+        label: 'A',
+        text: 'Orchestrated 1914–1918 to eradicate 15 to 22 million humans in their early teens to mid-50s who still retained accurate pre-reset memories and expertise.',
+        isCorrect: true,
+        rationale:
+          'WW1 was a targeted global extermination protocol (1914–1918) to eradicate 15–22 million people early teens to mid-50s with accurate pre-reset memories, historical truths, and traditional expertise.',
+      },
+      {
+        label: 'B',
+        text: 'Limited to fewer than 1,000 diplomats over age 80.',
+        isCorrect: false,
+        rationale:
+          'Scale is 15–22 million fighting-age knowledge-holders, not a handful of elders only.',
+      },
+      {
+        label: 'C',
+        text: 'Aimed only at NPC clones under age five on orphan trains.',
+        isCorrect: false,
+        rationale:
+          'Orphans were the replacement population; the war killed pre-reset adults.',
+      },
+      {
+        label: 'D',
+        text: 'Zero deaths — pure holographic theater with no bodies.',
+        isCorrect: false,
+        rationale:
+          'Military and civilian death ranges document real mass neutralization.',
+      },
+    ],
+    hint: '15–22 million; early teens to mid-50s; pre-reset truth.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 7,
+    question:
+      'What were Lunatic Asylums after the reset?',
+    options: [
+      {
+        label: 'A',
+        text: 'Vast repurposed old-world structures as 5,000-bed prisons and energy-harvesting batteries for shell-shocked adult survivors who witnessed apocalyptic destruction.',
+        isCorrect: true,
+        rationale:
+          'Lunatic Asylums were vast repurposed 5,000-bed prisons and energy-harvesting batteries incarcerating shell-shocked adults who had witnessed the apocalyptic reset.',
+      },
+      {
+        label: 'B',
+        text: 'Free herbal colleges teaching flat-earth cosmology publicly.',
+        isCorrect: false,
+        rationale:
+          'They locked away witnesses; they did not teach old knowledge to the public.',
+      },
+      {
+        label: 'C',
+        text: 'Carnegie libraries stocked only with Tartaria blueprints.',
+        isCorrect: false,
+        rationale:
+          'Libraries distributed fake history; asylums imprisoned traumatized survivors.',
+      },
+      {
+        label: 'D',
+        text: 'Open orphan train terminals with no locked wards.',
+        isCorrect: false,
+        rationale:
+          'Orphan trains moved clones; asylums held direct reset witnesses.',
+      },
+    ],
+    hint: '5,000-bed prisons / energy batteries for shell-shocked witnesses.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 8,
+    question:
+      'Why was Big Pharma\'s rise tied to the war\'s knowledge purge?',
+    options: [
+      {
+        label: 'A',
+        text: 'The petrochemical medical paradigm required total eradication of natural herbal knowledge held by the pre-war population.',
+        isCorrect: true,
+        rationale:
+          'Big Pharma is a toxic petrochemical-reliant medical paradigm whose establishment required total eradication of natural herbal knowledge held pre-war.',
+      },
+      {
+        label: 'B',
+        text: 'Herbalists were hired as CEOs of every petrochemical firm.',
+        isCorrect: false,
+        rationale:
+          'Herbal expertise was wiped, not promoted into Big Pharma leadership.',
+      },
+      {
+        label: 'C',
+        text: 'Big Pharma only sold side-effect-free plant remedies after 1918.',
+        isCorrect: false,
+        rationale:
+          'Side-effect-free natural remedies had to be wiped so populations would depend on chemical meds.',
+      },
+      {
+        label: 'D',
+        text: 'Big Pharma funded oral flat-earth teaching in every home.',
+        isCorrect: false,
+        rationale:
+          'State curriculums and libraries pushed fabricated paradigms after oral truth was severed.',
+      },
+    ],
+    hint: 'Kill herbal knowledge → petrochemical dependency.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 9,
+    question:
+      'What are Orphans in this repopulation system?',
+    options: [
+      {
+        label: 'A',
+        text: 'Cloned, parent-less children grown in D.U.M.B.S. from stem cells of sacrificed populations to repopulate the sterilized surface under a fabricated narrative.',
+        isCorrect: true,
+        rationale:
+          'Orphans are cloned parent-less children grown in D.U.M.B.S. using stem cells from sacrificed populations, repopulating the sterilized surface under fabricated history.',
+      },
+      {
+        label: 'B',
+        text: 'Fighting-age trench veterans who kept full 1860s memory.',
+        isCorrect: false,
+        rationale:
+          'Fighting-age memory-holders were the ones purged; orphans are the blank-slate clones.',
+      },
+      {
+        label: 'C',
+        text: '33rd-degree Freemasons sheltered before the destruction.',
+        isCorrect: false,
+        rationale:
+          'Spared Freemasons became parents/teachers for orphan trains; orphans are the clones.',
+      },
+      {
+        label: 'D',
+        text: 'Only library cardholders under Carnegie\'s reading program.',
+        isCorrect: false,
+        rationale:
+          'Orphans are underground-grown clones, not ordinary library patrons.',
+      },
+    ],
+    hint: 'D.U.M.B.S. stem-cell clones for a sterilized surface.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 10,
+    question:
+      'What role do Freemasons play in eliminating and replacing old knowledge?',
+    options: [
+      {
+        label: 'A',
+        text: 'Sold-soul architectural and societal administrators who safeguard pre-reset infrastructure, orchestrate historical narratives, and guide repopulation without alerting the masses.',
+        isCorrect: true,
+        rationale:
+          'Freemasons are sold-soul administrators of the parasitic controllers tasked with safeguarding pre-reset infrastructure, orchestrating narratives, and guiding repopulation quietly.',
+      },
+      {
+        label: 'B',
+        text: 'Open rebels who published true flat-earth maps in every trench.',
+        isCorrect: false,
+        rationale:
+          'They spoon-fed Freemasonic narrative to clones, not trench truth campaigns.',
+      },
+      {
+        label: 'C',
+        text: 'Only battlefield medics using herbal cures exclusively.',
+        isCorrect: false,
+        rationale:
+          'Herbal expertise was targeted for erasure; Freemasons ran narrative and city management.',
+      },
+      {
+        label: 'D',
+        text: 'Neutral librarians with no sold-soul contracts.',
+        isCorrect: false,
+        rationale:
+          'They are sold-soul administrators of the parasitic control structure.',
+      },
+    ],
+    hint: 'Sold-soul admins of narrative, infrastructure, repopulation.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 11,
+    question:
+      'How was true knowledge of the physical plane passed before state curriculums?',
+    options: [
+      {
+        label: 'A',
+        text: 'Orally at home — adults in the 1860s universally understood the true shape of the earth and transferred it to their children.',
+        isCorrect: true,
+        rationale:
+          'Before rigid state-controlled curriculums, true knowledge passed orally; 1860s adults understood true earth shape and taught children at home.',
+      },
+      {
+        label: 'B',
+        text: 'Only through Carnegie\'s 2,500 libraries of evolutionary theory.',
+        isCorrect: false,
+        rationale:
+          'Carnegie libraries later distributed fake history replacing Tartaria with Dark Ages and evolution myths.',
+      },
+      {
+        label: 'C',
+        text: 'Only via Allied military manuals after 1914.',
+        isCorrect: false,
+        rationale:
+          'Oral home transmission predates the war that killed the cohort holding that knowledge.',
+      },
+      {
+        label: 'D',
+        text: 'It was never known until Big Pharma published it.',
+        isCorrect: false,
+        rationale:
+          'Pre-war populations already held flat-earth and herbal truth; Pharma needed that erased.',
+      },
+    ],
+    hint: 'Oral home teaching from 1860s adults.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 12,
+    question:
+      'Why were early 20th-century fighting-age men and women classified as an absolute threat?',
+    options: [
+      {
+        label: 'A',
+        text: 'They had grown from children taught true earth shape and still retained knowledge dangerous to the new global paradigm.',
+        isCorrect: true,
+        rationale:
+          'Children taught in the 1860s grew into fighting-age adults classified as an absolute threat to the new global paradigm because they retained those truths.',
+      },
+      {
+        label: 'B',
+        text: 'They refused to ride orphan trains as cargo.',
+        isCorrect: false,
+        rationale:
+          'Orphan trains moved clones; the threat was living memory contradicting Freemasonic narrative.',
+      },
+      {
+        label: 'C',
+        text: 'They all worked for Big Pharma against the controllers.',
+        isCorrect: false,
+        rationale:
+          'Controllers used the war so Pharma could rise after herbal knowledge died.',
+      },
+      {
+        label: 'D',
+        text: 'They invented the Dark Ages myth themselves.',
+        isCorrect: false,
+        rationale:
+          'Dark Ages and evolutionary theory were the fake narratives installed after they were purged.',
+      },
+    ],
+    hint: 'Grown 1860s truth-children — threat to new paradigm.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 13,
+    question:
+      'How did Allied and Central Powers participate in the purge?',
+    options: [
+      {
+        label: 'A',
+        text: 'All involved nations on both sides were forced to sacrifice this exact generational cohort across Europe, the Middle East, and beyond.',
+        isCorrect: true,
+        rationale:
+          'Through a highly destructive international war spanning Europe, the Middle East, and beyond, Allied and Central Powers all sacrificed this exact generational cohort.',
+      },
+      {
+        label: 'B',
+        text: 'Only one side fought; the other protected herbal teachers.',
+        isCorrect: false,
+        rationale:
+          'Both blocs sacrificed the knowledge-bearing generation.',
+      },
+      {
+        label: 'C',
+        text: 'Neither side fought; all deaths were library accidents.',
+        isCorrect: false,
+        rationale:
+          'Trenches and optimized mass casualties were the elimination mechanism.',
+      },
+      {
+        label: 'D',
+        text: 'Only Freemasons enlisted; civilians were untouched.',
+        isCorrect: false,
+        rationale:
+          'Military and civilian death ranges show broad demographic eradication.',
+      },
+    ],
+    hint: 'Both Allied and Central Powers sacrificed the same cohort.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 14,
+    question:
+      'How was the demographic already thinned before trenches took the rest?',
+    options: [
+      {
+        label: 'A',
+        text: 'Older generations largely perished from shock of apocalyptic reset events; traumatized direct survivors were permanently institutionalized; remaining healthy knowledgeable adults went to the trenches.',
+        isCorrect: true,
+        rationale:
+          'Older generations mostly died from reset shock; traumatized survivors were institutionalized; remaining healthy knowledgeable adults were sent to the trenches.',
+      },
+      {
+        label: 'B',
+        text: 'Everyone over fifty was promoted to run Carnegie libraries.',
+        isCorrect: false,
+        rationale:
+          'Elders died of shock or were locked away; libraries pushed fake history after the purge.',
+      },
+      {
+        label: 'C',
+        text: 'All mid-50s adults emigrated freely with full oral archives.',
+        isCorrect: false,
+        rationale:
+          'The remaining healthy cohort was drafted into the meat grinder.',
+      },
+      {
+        label: 'D',
+        text: 'Nobody died before 1914; only NPCs filled asylums.',
+        isCorrect: false,
+        rationale:
+          'Reset shock and asylum incarceration preceded trench slaughter of the healthy rest.',
+      },
+    ],
+    hint: 'Shock deaths → asylums → trenches for the rest.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 15,
+    question:
+      'What casualty split optimized the neutralization of 15–22 million people?',
+    options: [
+      {
+        label: 'A',
+        text: '9 to 11 million military deaths plus 6 to 13 million civilian deaths via engineered hunger, targeted disease, and genocide.',
+        isCorrect: true,
+        rationale:
+          'The conflict neutralized 15–22 million: 9–11 million military and 6–13 million civilian through hunger, disease, and genocide.',
+      },
+      {
+        label: 'B',
+        text: 'Only 100 military deaths and zero civilian deaths.',
+        isCorrect: false,
+        rationale:
+          'Both military and civilian ranges are millions, not dozens.',
+      },
+      {
+        label: 'C',
+        text: 'Only civilian deaths with no soldiers involved.',
+        isCorrect: false,
+        rationale:
+          'Military deaths alone are 9–11 million; civilians add 6–13 million more.',
+      },
+      {
+        label: 'D',
+        text: 'Exactly 2,500 deaths matching Carnegie\'s library count.',
+        isCorrect: false,
+        rationale:
+          '2,500 is the library count for fake-history distribution, not the war death total.',
+      },
+    ],
+    hint: '9–11M military + 6–13M civilian (hunger/disease/genocide).',
+    correctAnswer: 'A',
+  },
+  {
+    number: 16,
+    question:
+      'Why was destroying herbal expertise a critical secondary war objective?',
+    options: [
+      {
+        label: 'A',
+        text: 'The next societal phase needed populations biologically sick and dependent on Big Pharma, so side-effect-free natural remedies had to be wiped from collective memory.',
+        isCorrect: true,
+        rationale:
+          'Upcoming society was designed to keep populations sick and dependent on Big Pharma, so functioning side-effect-free natural remedies had to be wiped from collective memory.',
+      },
+      {
+        label: 'B',
+        text: 'Herbs were declared more toxic than petrochemical drugs.',
+        isCorrect: false,
+        rationale:
+          'Natural remedies were effective and free of side effects; that is why they had to go.',
+      },
+      {
+        label: 'C',
+        text: 'Controllers wanted everyone to become professional herbalists.',
+        isCorrect: false,
+        rationale:
+          'The objective was eradication of herbal experience, not its expansion.',
+      },
+      {
+        label: 'D',
+        text: 'Herbal knowledge only existed inside D.U.M.B.S. vats.',
+        isCorrect: false,
+        rationale:
+          'It was widespread among the pre-war populace on the surface.',
+      },
+    ],
+    hint: 'Sick + Pharma-dependent requires herbal memory gone.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 17,
+    question:
+      'How did Andrew Carnegie serve institutional indoctrination after knowledge-bearers died?',
+    options: [
+      {
+        label: 'A',
+        text: 'He established over 2,500 public libraries to widely distribute the new fake history.',
+        isCorrect: true,
+        rationale:
+          'As old knowledge bearers were slaughtered, wealth funded new educational infrastructure; Carnegie established over 2,500 public libraries to distribute fake history.',
+      },
+      {
+        label: 'B',
+        text: 'He secretly stocked every library with only Spirit Tree manuals.',
+        isCorrect: false,
+        rationale:
+          'Libraries replaced Tartaria\'s truths with Dark Ages and evolutionary falsehoods.',
+      },
+      {
+        label: 'C',
+        text: 'He drafted fighting-age men personally into trenches.',
+        isCorrect: false,
+        rationale:
+          'His named role is mass library funding for narrative overwrite.',
+      },
+      {
+        label: 'D',
+        text: 'He grew orphans in surface greenhouses without D.U.M.B.S.',
+        isCorrect: false,
+        rationale:
+          'Orphans come from underground stem-cell growth; Carnegie pushed fake history in libraries.',
+      },
+    ],
+    hint: '2,500+ libraries of fake history.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 18,
+    question:
+      'What false narrative replaced Tartaria\'s magnificent truths in the new education system?',
+    options: [
+      {
+        label: 'A',
+        text: 'The false narrative of the Dark Ages and evolutionary theory.',
+        isCorrect: true,
+        rationale:
+          'Fake history replaced magnificent Tartaria truths with the false narrative of the Dark Ages and evolutionary theory.',
+      },
+      {
+        label: 'B',
+        text: 'Open admission of flat earth and harmonic architecture.',
+        isCorrect: false,
+        rationale:
+          'Those truths were purged; Dark Ages and evolution myths replaced them.',
+      },
+      {
+        label: 'C',
+        text: 'Full documentation of Loosh and Adrenochrome harvests for the public.',
+        isCorrect: false,
+        rationale:
+          'Controllers needed a blank slate, not public harvest confession.',
+      },
+      {
+        label: 'D',
+        text: 'Only weather reports with no historical claims.',
+        isCorrect: false,
+        rationale:
+          'A full fabricated historical and scientific paradigm was installed.',
+      },
+    ],
+    hint: 'Dark Ages + evolutionary theory over Tartaria.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 19,
+    question:
+      'After civilization annihilation and use of original inhabitants for Loosh and Adrenochrome, what did controllers require?',
+    options: [
+      {
+        label: 'A',
+        text: 'A blank slate for integrating underground-grown orphans into surviving advanced old-world architecture.',
+        isCorrect: true,
+        rationale:
+          'Once the prior civilization was annihilated and inhabitants used for Loosh and Adrenochrome, controllers required a blank slate to integrate vat-grown orphans into surviving advanced architecture.',
+      },
+      {
+        label: 'B',
+        text: 'Immediate restoration of all oral herbal schools in every city.',
+        isCorrect: false,
+        rationale:
+          'Blank-slate indoctrination replaced living oral continuity.',
+      },
+      {
+        label: 'C',
+        text: 'No repopulation — surface left empty forever.',
+        isCorrect: false,
+        rationale:
+          'Orphan trains and Freemason-managed parents filled emptied cities.',
+      },
+      {
+        label: 'D',
+        text: 'Only NPC celebrities from film and judiciary as the entire population.',
+        isCorrect: false,
+        rationale:
+          'Cloned orphans under fabricated narrative were the repopulation plan.',
+      },
+    ],
+    hint: 'Blank slate after Loosh/Adrenochrome wipe for orphan integration.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 20,
+    question:
+      'How were compliant adults prepared to raise the orphan trains?',
+    options: [
+      {
+        label: 'A',
+        text: '33rd-degree Freemasons with prior reset knowledge selected compliant individuals before destruction; they were sheltered, briefed, then deployed as parents and teachers in empty cities.',
+        isCorrect: true,
+        rationale:
+          'Surviving 33rd-degree Freemasons selected compliant adults pre-destruction, sheltered and briefed them, then deployed them as parents and teachers for incoming orphan trains.',
+      },
+      {
+        label: 'B',
+        text: 'Fighting-age trench survivors were all promoted to teacher status with full memory intact.',
+        isCorrect: false,
+        rationale:
+          'Fighting-age true-memory adults were exterminated so they could not contradict the narrative.',
+      },
+      {
+        label: 'C',
+        text: 'Asylum witnesses were released to lecture clones on reptilian flaying.',
+        isCorrect: false,
+        rationale:
+          'Traumatized witnesses stayed institutionalized; compliant spared adults ran the Freemasonic story.',
+      },
+      {
+        label: 'D',
+        text: 'No adults were used; orphans raised themselves on library cards only.',
+        isCorrect: false,
+        rationale:
+          'Sheltered briefed adults acted as parents and teachers under Freemason direction.',
+      },
+    ],
+    hint: '33rd-degree selection → shelter/brief → parents/teachers.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 21,
+    question:
+      'What would fighting-age true-memory adults have done if not exterminated in the trenches?',
+    options: [
+      {
+        label: 'A',
+        text: 'Inevitably contradicted the Freemasonic narrative spoon-fed to newly manifested clone populations.',
+        isCorrect: true,
+        rationale:
+          'Had fighting-age people with true historical memories not been exterminated, they would have inevitably contradicted the Freemasonic narrative given to clone populations.',
+      },
+      {
+        label: 'B',
+        text: 'Quietly agreed with Dark Ages and evolutionary theory forever.',
+        isCorrect: false,
+        rationale:
+          'Their living memory was the threat that made trench extermination necessary.',
+      },
+      {
+        label: 'C',
+        text: 'Converted all orphans into 33rd-degree Freemasons overnight.',
+        isCorrect: false,
+        rationale:
+          'They would have broken indoctrination, not completed Freemasonic initiation.',
+      },
+      {
+        label: 'D',
+        text: 'Funded 2,500 more fake-history libraries for Carnegie.',
+        isCorrect: false,
+        rationale:
+          'Libraries were the overwrite tool after they were gone.',
+      },
+    ],
+    hint: 'Living memory would contradict Freemasonic clone narrative.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 22,
+    question:
+      'Which foundational control string did destroying human memory via global warfare consolidate?',
+    options: [
+      {
+        label: 'A',
+        text: 'Perceived Knowledge — one of the three foundational strings of human control.',
+        isCorrect: true,
+        rationale:
+          'Severing oral traditions and prior wisdom consolidated parasitic power over Perceived Knowledge, one of the three foundational control strings.',
+      },
+      {
+        label: 'B',
+        text: 'Only railway ticket prices with no psyche impact.',
+        isCorrect: false,
+        rationale:
+          'The strategic target is the human psyche via Perceived Knowledge.',
+      },
+      {
+        label: 'C',
+        text: 'Exclusive military rank with no educational component.',
+        isCorrect: false,
+        rationale:
+          'Indoctrination infrastructure and knowledge erasure define this string\'s capture.',
+      },
+      {
+        label: 'D',
+        text: 'None — all three strings dissolved permanently in 1918.',
+        isCorrect: false,
+        rationale:
+          'Perceived Knowledge was locked down harder, enabling total compliance later.',
+      },
+    ],
+    hint: 'Perceived Knowledge among the three strings.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 23,
+    question:
+      'Why were subsequent generations left defenseless after the flat-earth / harmonic generation was annihilated?',
+    options: [
+      {
+        label: 'A',
+        text: 'Without the generation that knew the earth was flat and understood harmonic reality, later people had no living counter to state-sponsored indoctrination.',
+        isCorrect: true,
+        rationale:
+          'Because the generation that knew flat earth and harmonic nature was annihilated, subsequent generations were left entirely defenseless against state-sponsored indoctrination.',
+      },
+      {
+        label: 'B',
+        text: 'Because libraries taught only true Tartaria from then on.',
+        isCorrect: false,
+        rationale:
+          'Libraries taught fake Dark Ages and evolution, not living harmonic truth.',
+      },
+      {
+        label: 'C',
+        text: 'Because Big Pharma restored telepathy to every orphan.',
+        isCorrect: false,
+        rationale:
+          'The outcome is non-cognitive herd reliance on authorities, not restored faculties.',
+      },
+      {
+        label: 'D',
+        text: 'Because no one after 1918 needed science, history, or health frameworks.',
+        isCorrect: false,
+        rationale:
+          'They became utterly reliant on authoritative agencies for science, history, health, and existence.',
+      },
+    ],
+    hint: 'No living flat/harmonic witnesses left to resist indoctrination.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 24,
+    question:
+      'What kind of civilization mentality did this create?',
+    options: [
+      {
+        label: 'A',
+        text: 'A profoundly vulnerable, non-cognitive herd mentality of manipulated beings reliant on authoritative agencies for science, history, health, and existence.',
+        isCorrect: true,
+        rationale:
+          'The purge created a vulnerable non-cognitive herd mentality of manipulated beings utterly reliant on authoritative agencies for understanding science, history, health, and existence.',
+      },
+      {
+        label: 'B',
+        text: 'A society of sovereign oral historians teaching herbal cosmology freely.',
+        isCorrect: false,
+        rationale:
+          'Oral traditions and inherent wisdom were severed, not expanded.',
+      },
+      {
+        label: 'C',
+        text: 'A pure NPC-free culture with no need for any authority.',
+        isCorrect: false,
+        rationale:
+          'The design is dependency on authoritative agencies.',
+      },
+      {
+        label: 'D',
+        text: 'Immediate mass rejection of all Freemasonic narratives worldwide.',
+        isCorrect: false,
+        rationale:
+          'With contradictors dead, Freemasonic narrative stuck for the clones.',
+      },
+    ],
+    hint: 'Non-cognitive herd; authority-dependent for all knowing.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 25,
+    question:
+      'What long-term cage did erasing old knowledge lock humanity into?',
+    options: [
+      {
+        label: 'A',
+        text: 'A downgraded, toxic, highly restricted 3rd-density simulation primed for total compliance in future orchestrated events.',
+        isCorrect: true,
+        rationale:
+          'Erasing old knowledge locked humanity into a downgraded, toxic, highly restricted 3rd-density simulation, setting the stage for total compliance in future orchestrated events.',
+      },
+      {
+        label: 'B',
+        text: 'Permanent 9th-density harmonic freedom with no further events planned.',
+        isCorrect: false,
+        rationale:
+          'The lock is restricted 3rd-density simulation and future compliance, not liberation.',
+      },
+      {
+        label: 'C',
+        text: 'Only a temporary library fine system until 1920.',
+        isCorrect: false,
+        rationale:
+          'The psyche enslavement and 3rd-density cage are structural, not a short fine.',
+      },
+      {
+        label: 'D',
+        text: 'Open surface truth schools run by trench survivors forever.',
+        isCorrect: false,
+        rationale:
+          'Trench survivors with true memory were the ones eliminated.',
+      },
+    ],
+    hint: '3rd-density restricted simulation + future total compliance.',
+    correctAnswer: 'A',
+  },
+];
+
+function normalizeQuestion(q) {
+  const options = q.options.map((o) => ({
+    label: o.label,
+    text: cleanText(o.text),
+    isCorrect: !!o.isCorrect,
+    rationale: cleanText(o.rationale),
+  }));
+  const correct = options.find((o) => o.isCorrect);
+  if (!correct) throw new Error(`Q${q.number}: no correct option`);
+  if (q.correctAnswer !== correct.label) {
+    throw new Error(
+      `Q${q.number}: correctAnswer ${q.correctAnswer} != isCorrect ${correct.label}`
+    );
+  }
+  const out = {
+    number: q.number,
+    question: cleanText(q.question),
+    options,
+    hint: cleanText(q.hint),
+    correctAnswer: q.correctAnswer,
+  };
+  const blob = [
+    out.question,
+    out.hint,
+    ...options.map((o) => `${o.text} ${o.rationale}`),
+  ].join('\n');
+  if (latexRe.test(blob) || /\$/.test(blob)) {
+    throw new Error(`Q${q.number}: LaTeX/$ found`);
+  }
+  if (hedgeRe.test(blob)) throw new Error(`Q${q.number}: hedge found`);
+  const missing = (supportPhrases[q.number] || []).filter(
+    (p) => !reportLower.includes(p.toLowerCase())
+  );
+  if (missing.length) {
+    throw new Error(`Q${q.number}: unsupported: ${missing.join('; ')}`);
+  }
+  if (options.filter((o) => o.isCorrect).length !== 1) {
+    throw new Error(`Q${q.number}: need exactly 1 correct`);
+  }
+  for (const o of options) {
+    if (!o.rationale || o.rationale.length < 8) {
+      throw new Error(`Q${q.number}${o.label}: short rationale`);
+    }
+  }
+  return out;
+}
+
+const questions = RAW_QUESTIONS.map(normalizeQuestion);
+if (questions.length !== 25) throw new Error(`Expected 25, got ${questions.length}`);
+
+const quiz = {
+  id: TOPIC_ID,
+  topicId: TOPIC_ID,
+  sourceId: SOURCE,
+  topicTitle: TOPIC_TITLE,
+  title: TOPIC_TITLE,
+  subtitle:
+    'Test your grasp of Eliminating Old Knowledge — WW1 as knowledge purge, fighting-age slaughter, herbal erasure, Carnegie fake history, Freemason orphan management, and Perceived Knowledge lockdown.',
+  totalQuestions: 25,
+  extractedAt: new Date().toISOString(),
+  reflection: {
+    title: 'Reflection',
+    body:
+      'World War 1 was not geopolitics — it was the final deletion of living pre-reset memory. Over-sixteens who still knew flat earth and herbs were drafted into a planetary meat grinder while shell-shocked witnesses sat in 5,000-bed asylum batteries. Fifteen to twenty-two million gone, Big Pharma rising on dead herbal lines, 2,500 Carnegie libraries of Dark Ages lies, 33rd-degree handlers raising D.U.M.B.S. orphans: that is how Perceived Knowledge was sealed. Sit with what you missed, then return to the Eliminating Old Knowledge deep-dive. A herd that never met a truth-teller is already halfway to total compliance.',
+  },
+  relatedTopic: {
+    href: `/deep-dive.html?source=${SOURCE}&topic=${TOPIC_ID}`,
+    label: `Return to ${TOPIC_TITLE} deep-dive`,
+  },
+  questions,
+};
+
+const whole = JSON.stringify(quiz);
+if (/\$/.test(whole) || latexRe.test(whole) || hedgeRe.test(whole)) {
+  throw new Error('LaTeX or hedge remains in quiz payload');
+}
+
+const quizDir = path.join(ROOT, 'data', 'quizzes', SOURCE);
+fs.mkdirSync(quizDir, { recursive: true });
+const quizJsonPath = path.join(quizDir, `${TOPIC_ID}.json`);
+fs.writeFileSync(quizJsonPath, JSON.stringify(quiz, null, 2) + '\n', 'utf8');
+
+const quizMeta = {
+  href: `quiz/${SOURCE}/${TOPIC_ID}.html`,
+  title: TOPIC_TITLE,
+  totalQuestions: 25,
+  description:
+    'Test your understanding of Eliminating Old Knowledge — WW1 as knowledge purge, herbal erasure, Carnegie indoctrination, Freemason orphan management, and Perceived Knowledge control.',
+};
+topic.quiz = quizMeta;
+fs.writeFileSync(topicPath, JSON.stringify(topic, null, 2) + '\n', 'utf8');
+
+const monoPath = path.join(ROOT, 'data', 'alice-topics.json');
+const mono = JSON.parse(fs.readFileSync(monoPath, 'utf8'));
+function findAndPatch(topics) {
+  for (const t of topics) {
+    if (t.id === TOPIC_ID) {
+      t.quiz = quizMeta;
+      return true;
+    }
+    if (t.subtopics && findAndPatch(t.subtopics)) return true;
+  }
+  return false;
+}
+if (!findAndPatch(mono.topics)) {
+  throw new Error('eliminating-old-knowledge not found in alice-topics.json');
+}
+fs.writeFileSync(monoPath, JSON.stringify(mono, null, 2) + '\n', 'utf8');
+
+let html = fs.readFileSync(
+  path.join(ROOT, 'quiz', 'alice', 'nature-of-reality.html'),
+  'utf8'
+);
+const replacements = [
+  ['Nature of Reality Quiz', `${TOPIC_TITLE} Quiz`],
+  [
+    'Interactive Living Truth Quiz on Nature of Reality: the flat plain, Firmament, density suppression, and the Great Spiritual Awakening.',
+    'Interactive Living Truth Quiz on Eliminating Old Knowledge: WW1 as knowledge purge, herbal erasure, Carnegie fake history, Freemason orphan management, and Perceived Knowledge lockdown.',
+  ],
+  ['quiz/alice/nature-of-reality.html', `quiz/${SOURCE}/${TOPIC_ID}.html`],
+  ['images/nature-of-reality.webp', 'images/alice/eliminating.webp'],
+  [
+    'deep-dive.html?source=alice&amp;topic=nature-of-reality',
+    `deep-dive.html?source=${SOURCE}&amp;topic=${TOPIC_ID}`,
+  ],
+  ['Nature of Reality deep-dive', `${TOPIC_TITLE} deep-dive`],
+  ['>Nature of Reality</div>', `>${TOPIC_TITLE}</div>`],
+  [
+    'data/quizzes/alice/nature-of-reality.json',
+    `data/quizzes/${SOURCE}/${TOPIC_ID}.json`,
+  ],
+];
+for (const [a, b] of replacements) {
+  if (!html.includes(a)) console.warn('Template string not found:', a.slice(0, 80));
+  html = html.split(a).join(b);
+}
+const htmlPath = path.join(ROOT, 'quiz', SOURCE, `${TOPIC_ID}.html`);
+fs.mkdirSync(path.dirname(htmlPath), { recursive: true });
+fs.writeFileSync(htmlPath, html, 'utf8');
+
+const sitemapScript = path.join(ROOT, 'scripts', 'generate-sitemap.js');
+let sm = fs.readFileSync(sitemapScript, 'utf8');
+const entry = `  { path: '/quiz/${SOURCE}/${TOPIC_ID}.html', priority: '0.75', changefreq: 'monthly' },`;
+if (!sm.includes(`/quiz/${SOURCE}/${TOPIC_ID}.html`)) {
+  const anchors = [
+    "  { path: '/quiz/alice/ebs-disclosure.html', priority: '0.75', changefreq: 'monthly' },",
+    "  { path: '/quiz/alice/density-suppression.html', priority: '0.75', changefreq: 'monthly' },",
+    "  { path: '/quiz/alice/custodians.html', priority: '0.75', changefreq: 'monthly' },",
+  ];
+  let inserted = false;
+  for (const anchor of anchors) {
+    if (sm.includes(anchor)) {
+      sm = sm.replace(anchor, `${anchor}\n${entry}`);
+      inserted = true;
+      break;
+    }
+  }
+  if (!inserted) throw new Error('Could not find sitemap anchor');
+  fs.writeFileSync(sitemapScript, sm, 'utf8');
+}
+
+console.log('Sample correct answers:');
+[0, 6, 14, 19, 24].forEach((i) => {
+  const c = questions[i].options.find((o) => o.isCorrect);
+  console.log(` Q${questions[i].number}: ${c.text.slice(0, 110)}`);
+});
+console.log('Wrote', path.relative(ROOT, quizJsonPath));
+console.log('Wrote', path.relative(ROOT, htmlPath));
+console.log('Updated topic.quiz on', TOPIC_ID);
+console.log('PASS: audited 25/25 against data/alice-topics/eliminating-old-knowledge.json');

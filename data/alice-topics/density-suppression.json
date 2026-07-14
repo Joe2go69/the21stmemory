@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v77ai32/?pub=4p0ieu",
       "description": "Practical breakdown of density suppression."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/density-suppression.html",
+    "title": "Density Suppression",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Density Suppression — density dial, Spirit Tree, overlays, Nodes, Ley Lines, ULF blanketing, and the collapse of the 3rd-density prison."
+  }
 }
