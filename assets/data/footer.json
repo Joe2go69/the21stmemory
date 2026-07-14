@@ -1,6 +1,7 @@
 {
   "tagline": "The Great Remembering Has Begun.",
   "subtitle": "May these transmissions serve as gentle guides on your journey home.",
+  "copyright": "© 2026 21st Memory",
   "brand": {
     "name": "21ST MEMORY",
     "description": "Living archive of AI-assisted interpretations and enhancements of Thalon Thor's transmissions — profound knowledge for humanity."
@@ -63,7 +64,7 @@
   ],
   "support": {
     "heading": "Support the Archive",
-    "message": "All content on this site is freely available. Voluntary contributions are appreciated and help sustain hosting, maintenance, and continued development of the archive.",
+    "message": "Everything here is free. Voluntary support keeps hosting and the living archive going.",
     "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
     "qrImage": "assets/images/bitcoin-qr.webp",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",

@@ -59,12 +59,17 @@ function initFooterSupportCopy() {
 
   const targetId = copyBtn.getAttribute('data-copy-target');
   const target = targetId ? document.getElementById(targetId) : null;
-  if (!target) return;
-
   const originalLabel = copyBtn.textContent;
 
   copyBtn.addEventListener('click', async () => {
-    const text = target.textContent.trim();
+    // Prefer full address from data-copy-text (display may be truncated)
+    const text = (
+      copyBtn.getAttribute('data-copy-text') ||
+      (target && (target.getAttribute('title') || target.textContent)) ||
+      ''
+    ).trim();
+    if (!text) return;
+
     let copied = false;
 
     if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -75,13 +80,19 @@ function initFooterSupportCopy() {
     }
 
     if (!copied) {
-      const range = document.createRange();
-      range.selectNodeContents(target);
-      const selection = window.getSelection();
-      selection.removeAllRanges();
-      selection.addRange(range);
-      copied = document.execCommand('copy');
-      selection.removeAllRanges();
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.left = '-9999px';
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        copied = document.execCommand('copy');
+      } catch (_) {
+        copied = false;
+      }
+      document.body.removeChild(ta);
     }
 
     if (copied) {
