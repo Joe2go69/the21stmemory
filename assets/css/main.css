@@ -2939,16 +2939,69 @@ textarea:focus-visible {
 .deep-dive-quiz-cta {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 0.55rem;
+  max-width: 100%;
+  min-width: 0;
+}
+
+/* Override global .btn-primary nowrap so long topic titles wrap on mobile */
+.deep-dive-quiz-cta__btn,
+.deep-dive-quiz-cta .btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 3rem;
+  padding: 0.75rem 1.15rem;
+  white-space: normal;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.deep-dive-quiz-cta__btn > svg,
+.deep-dive-quiz-cta__btn > .card-icon-sm,
+.deep-dive-quiz-cta .btn-primary > svg,
+.deep-dive-quiz-cta .btn-primary > .card-icon-sm {
+  flex-shrink: 0;
+}
+
+.deep-dive-quiz-cta__btn span,
+.deep-dive-quiz-cta .btn-primary span {
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  line-height: 1.3;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.deep-dive-quiz-cta__btn:hover span,
+.deep-dive-quiz-cta .btn-primary:hover span {
+  transform: none;
 }
 
 .deep-dive-quiz-cta__desc {
   margin: 0;
-  max-width: 42ch;
+  max-width: 100%;
   font-size: 0.85rem;
   line-height: 1.5;
   color: var(--text-muted);
+}
+
+@media (min-width: 640px) {
+  .deep-dive-quiz-cta {
+    align-items: flex-start;
+  }
+
+  .deep-dive-quiz-cta__btn,
+  .deep-dive-quiz-cta .btn-primary {
+    width: auto;
+    max-width: min(100%, 28rem);
+  }
 }
 
 .jump-to-pills {

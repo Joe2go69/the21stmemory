@@ -46,6 +46,7 @@ const entries = [
   { path: '/quiz/alice/4000-ancients.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/alice/adrenochrome-trade.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/perception-solidity.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/matrix-scaffolding.html', priority: '0.75', changefreq: 'monthly' },
 ];
 
 const sourcesPath = path.join(ROOT, 'data', 'sources.json');

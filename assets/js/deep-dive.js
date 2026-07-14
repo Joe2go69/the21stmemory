@@ -180,9 +180,9 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId }) {
           </div>
           ${topic.quiz?.href ? `
           <div class="deep-dive-quiz-cta mb-4">
-            <a href="${escapeAttr(topic.quiz.href)}" class="btn-primary inline-flex items-center justify-center gap-x-2">
+            <a href="${escapeAttr(topic.quiz.href)}" class="btn-primary deep-dive-quiz-cta__btn">
               ${typeof renderSiteIcon === 'function' ? renderSiteIcon('sparkles', 'card-icon-sm') : ''}
-              <span>Take the ${escapeHtml(topic.quiz.title || 'Living Truth Quiz')}${topic.quiz.totalQuestions ? ` (${topic.quiz.totalQuestions} Qs)` : ''}</span>
+              <span>Take the ${escapeHtml(topic.quiz.title || 'Living Truth')} Quiz</span>
             </a>
             ${topic.quiz.description ? `<p class="deep-dive-quiz-cta__desc">${escapeHtml(topic.quiz.description)}</p>` : ''}
           </div>
