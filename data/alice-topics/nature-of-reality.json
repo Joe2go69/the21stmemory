@@ -4,12 +4,6 @@
   "infographic_image": "images/nature-of-reality-infographic.webp",
   "pdf_preview_image": "images/nature-of-reality-pdf-preview.webp",
   "slide_deck_pdf_url": "https://drive.google.com/file/d/1tpWICvXbj-q0MK5FcjcBF6nFFgiP5pZC/view",
-  "quiz": {
-    "href": "quiz/alice/nature-of-reality.html",
-    "title": "Nature of Reality",
-    "totalQuestions": 25,
-    "description": "Test your grasp of the true architecture of existence — the flat plain, Firmament, densities, and the Great Spiritual Awakening."
-  },
   "rumble_videos": [
     {
       "title": "Remembering Our Stolen Reality",
@@ -26,5 +20,11 @@
       "embed_url": "https://rumble.com/embed/v76vs1q/?pub=4p0ieu",
       "description": "The EMF white flash event, Project Bluebeam fake invasion, dissolution of the 97% NPC population, and full memory restoration for true souls."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/nature-of-reality.html",
+    "title": "Nature of Reality",
+    "totalQuestions": 25,
+    "description": "Test your grasp of the true architecture of existence — the flat plain, Firmament, densities, and the Great Spiritual Awakening."
+  }
 }

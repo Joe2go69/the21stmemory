@@ -420,19 +420,40 @@
     else if (state.phase === 'playing') body = renderPlaying();
     else body = renderResults();
 
-    const topicId = state.data.topicId || 'nature-of-reality';
-    // Site-root paths so quiz pages work from nested folders (e.g. quiz/alice/)
-    const topicHref = `/deep-dive.html?source=alice&topic=${encodeURIComponent(topicId)}`;
+    // Prefer relatedTopic.href (has correct source). Never hardcode source=alice —
+    // breakdown (and future) quizzes live under other sources and would 404 as "Topic not found".
+    const topicHref = resolveTopicHref(state.data, el.root);
 
     el.root.innerHTML = `
       <div class="quiz-shell">
         <div class="quiz-back-row">
-          <a href="${topicHref}" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to topic</a>
+          <a href="${escapeHtml(topicHref)}" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to topic</a>
           <a href="/codex.html" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">Codex</a>
         </div>
         ${body}
       </div>
     `;
+  }
+
+  /**
+   * Build deep-dive URL for the quiz's source + topic.
+   * Order: relatedTopic.href → sourceId/source field → path segment of data-quiz-src → alice fallback.
+   */
+  function resolveTopicHref(data, rootEl) {
+    if (data?.relatedTopic?.href) return data.relatedTopic.href;
+
+    const topicId = data?.topicId || data?.id || 'nature-of-reality';
+    let sourceId = data?.sourceId || data?.source || '';
+
+    if (!sourceId && rootEl?.getAttribute) {
+      const quizSrc = rootEl.getAttribute('data-quiz-src') || '';
+      // e.g. ../../data/quizzes/breakdown/perception-solidity.json
+      const match = quizSrc.match(/\/quizzes\/([^/]+)\//i);
+      if (match) sourceId = match[1];
+    }
+
+    if (!sourceId) sourceId = 'alice';
+    return `/deep-dive.html?source=${encodeURIComponent(sourceId)}&topic=${encodeURIComponent(topicId)}`;
   }
 
   function onClick(event) {
