@@ -45,6 +45,8 @@ const entries = [
   { path: '/quiz/alice/97-percent-population.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/alice/4000-ancients.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/alice/adrenochrome-trade.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/alice/amnesia-vortex.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/alice/antiquity-technology.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/perception-solidity.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/matrix-scaffolding.html', priority: '0.75', changefreq: 'monthly' },
 ];

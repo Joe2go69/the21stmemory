@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v77fr7k/?pub=4p0ieu",
       "description": "Exploration of our forgotten realm and antiquity technology."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/antiquity-technology.html",
+    "title": "Antiquity Technology",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Antiquity Technology — Great Tartary, harmonic construction, free energy, and the engineered Industrial Revolution cover story."
+  }
 }
