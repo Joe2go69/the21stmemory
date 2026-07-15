@@ -15,7 +15,31 @@ const debouncedRenderCodexViews = TopicUtils.debounce(async () => {
     await ensureSearchIndex();
   }
   renderCodexViews();
+  syncCodexUrlFromState();
 }, 250);
+
+function syncCodexUrlFromState() {
+  const { query, status, sort } = codexState.filters;
+  TopicUtils.replaceUrlParams({
+    q: query,
+    status,
+    sort
+  });
+}
+
+function applyCodexFiltersFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get('q');
+  const status = params.get('status');
+  const sort = params.get('sort');
+  if (typeof q === 'string') codexState.filters.query = q;
+  if (status === 'all' || status === 'ready' || status === 'soon') {
+    codexState.filters.status = status;
+  }
+  if (sort === 'alpha' || sort === 'topics' || sort === 'live') {
+    codexState.filters.sort = sort;
+  }
+}
 
 function ensureSearchIndex() {
   if (codexState.searchIndexBuilt) return Promise.resolve();
@@ -186,6 +210,7 @@ function renderToolbar() {
   sortSelect?.addEventListener('change', (event) => {
     codexState.filters.sort = event.target.value;
     renderSourcesGrid();
+    syncCodexUrlFromState();
   });
 
   el.querySelectorAll('[data-codex-status]').forEach(btn => {
@@ -193,6 +218,7 @@ function renderToolbar() {
       codexState.filters.status = btn.dataset.codexStatus;
       renderToolbar();
       renderCodexViews();
+      syncCodexUrlFromState();
     });
   });
 
@@ -301,6 +327,50 @@ async function loadSourceBundle(source) {
   }
 }
 
+let codexPendingHash = null;
+
+function handleCodexPillScroll() {
+  if (codexPendingHash) {
+    TopicUtils.applyCapturedHash(codexPendingHash, { delay: 100 });
+    codexPendingHash = null;
+    return;
+  }
+  if (window.location.hash === '#codex-pill') {
+    TopicUtils.scrollToAnchor('codex-pill', 100);
+  }
+}
+
+function initCodexSearchFromUrl() {
+  applyCodexFiltersFromUrl();
+}
+
+function getCodexNavExtraState() {
+  return {
+    page: 'codex',
+    filters: { ...codexState.filters }
+  };
+}
+
+function applyPendingCodexFilters() {
+  const pending = TopicUtils.peekNavReturnState();
+  if (!pending || pending.page !== 'codex') return false;
+  if (!pending.filters || typeof pending.filters !== 'object') return false;
+
+  if (typeof pending.filters.query === 'string') {
+    codexState.filters.query = pending.filters.query;
+  }
+  if (pending.filters.status) codexState.filters.status = pending.filters.status;
+  if (pending.filters.sort) codexState.filters.sort = pending.filters.sort;
+  return true;
+}
+
+function finishCodexScrollRestore() {
+  return TopicUtils.applyNavReturnAfterRender({
+    page: 'codex',
+    delay: 60
+  });
+}
+
 async function loadSources() {
   const statsEl = document.getElementById('codex-archive-stats');
   const gridEl = document.getElementById('sources-grid');
@@ -335,10 +405,27 @@ async function loadSources() {
     }, { sources: 0, live: 0, total: 0 });
     codexState.loading = false;
 
+    // URL applied in init; nav-return overrides for Back fidelity
+    const restoring = applyPendingCodexFilters();
+    if (TopicUtils.normalizeSearch(codexState.filters.query)) {
+      await ensureSearchIndex();
+    }
+
     renderArchiveStats();
     renderToolbar();
     renderCodexViews();
+    syncCodexUrlFromState();
     TopicUtils.animateProgressBars(statsEl);
+
+    const captureRoot = document.getElementById('main') || document.body;
+    TopicUtils.attachTopicNavCapture(captureRoot, getCodexNavExtraState);
+
+    const restored = (restoring || TopicUtils.peekNavReturnState()?.page === 'codex')
+      ? finishCodexScrollRestore()
+      : null;
+    if (!restored) {
+      handleCodexPillScroll();
+    }
   } catch (error) {
     console.error('Failed to load sources:', error);
     codexState.loading = false;
@@ -355,19 +442,14 @@ async function loadSources() {
   }
 }
 
-function handleCodexPillScroll() {
-  if (window.location.hash === '#codex-pill') {
-    TopicUtils.scrollToAnchor('codex-pill', 200);
-  }
-}
-
-function initCodexSearchFromUrl() {
-  const query = new URLSearchParams(window.location.search).get('q');
-  if (query) codexState.filters.query = query;
-}
-
 document.addEventListener('DOMContentLoaded', () => {
+  TopicUtils.disableNativeScrollRestoration();
+  codexPendingHash = TopicUtils.captureAndClearHash();
   initCodexSearchFromUrl();
   loadSources();
-  handleCodexPillScroll();
+
+  window.addEventListener('pageshow', (event) => {
+    if (!event.persisted) return;
+    TopicUtils.consumeNavReturnState((data) => data.page === 'codex');
+  });
 });

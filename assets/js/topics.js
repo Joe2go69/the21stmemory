@@ -1,6 +1,9 @@
 // Topics page — source viewer with filtering, sorting, and progress
 
-const debouncedRenderTopicsList = TopicUtils.debounce(() => renderTopicsList(), 250);
+const debouncedRenderTopicsList = TopicUtils.debounce(() => {
+  renderTopicsList();
+  syncTopicsUrlFromState();
+}, 250);
 
 let topicsPageState = {
   sourceId: 'alice',
@@ -8,6 +11,32 @@ let topicsPageState = {
   stats: { live: 0, total: 0 },
   filters: { status: 'all', category: 'all', search: '' }
 };
+
+function syncTopicsUrlFromState() {
+  const { status, category, search } = topicsPageState.filters;
+  TopicUtils.replaceUrlParams({
+    source: topicsPageState.sourceId,
+    status,
+    category,
+    q: search
+  });
+}
+
+function applyTopicsFiltersFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const status = params.get('status');
+  const category = params.get('category');
+  const q = params.get('q');
+  if (status === 'all' || status === 'ready' || status === 'soon') {
+    topicsPageState.filters.status = status;
+  }
+  if (category) {
+    topicsPageState.filters.category = category;
+  }
+  if (typeof q === 'string') {
+    topicsPageState.filters.search = q;
+  }
+}
 
 function topicImageFallbackHtml() {
   const icon = typeof renderSiteIcon === "function" ? renderSiteIcon("archive", "card-icon-sm") : "";
@@ -49,14 +78,19 @@ function shouldShowTopic(item, statusFilter) {
   return true;
 }
 
-function renderTopicLeaf(sourceId, leaf, extraClass = '') {
+function renderTopicLeaf(sourceId, leaf, extraClass = '', staggerIndex = 0) {
   if (!shouldShowTopic(leaf, topicsPageState.filters.status)) return '';
   const leafPh = leaf.is_placeholder;
-  const leafClasses = `topic-leaf-btn ${extraClass} ${leafPh ? 'opacity-50 grayscale-[0.5] pointer-events-none' : ''}`;
+  const leafClasses = `topic-leaf-btn topic-leaf-enter ${extraClass}${leafPh ? ' topic-leaf-btn--soon opacity-50 grayscale-[0.5]' : ''}`.trim();
   const leafBadge = leafPh ? '<span class="topic-badge topic-badge--inline">Soon</span>' : '';
+  const topicAttrs = `data-topic-id="${TopicUtils.escapeAttr(leaf.id)}" id="topic-${TopicUtils.escapeAttr(leaf.id)}" style="--leaf-i:${staggerIndex}"`;
+  const label = `<span class="topic-leaf-btn__label">${TopicUtils.escapeHtml(leaf.title)}</span>${leafBadge}`;
+  if (leafPh) {
+    return `<span class="${leafClasses}" ${topicAttrs} aria-disabled="true" title="Coming soon">${label}</span>`;
+  }
   return `
-    <a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(leaf.id)}" class="${leafClasses}">
-      <span class="topic-leaf-btn__label">${TopicUtils.escapeHtml(leaf.title)}</span>${leafBadge}
+    <a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(leaf.id)}" class="${leafClasses}" ${topicAttrs}>
+      ${label}
     </a>
   `;
 }
@@ -71,25 +105,26 @@ function renderSubtopic(sourceId, sub) {
     const subPh = sub.is_placeholder;
     const subBadge = subPh ? '<span class="topic-badge topic-badge--section">Soon</span>' : '';
     const sectionId = `section-${sub.id}`;
+    const expanded = TopicUtils.isSectionExpanded(sourceId, sectionId, true);
 
-    let leavesHTML = visibleLeaves.map(leaf => renderTopicLeaf(sourceId, leaf)).join('');
+    let leavesHTML = visibleLeaves.map((leaf, i) => renderTopicLeaf(sourceId, leaf, '', i)).join('');
     if (!leavesHTML) return '';
 
     const viewLink = subPh
       ? ''
-      : `<a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(sub.id)}" class="topic-section-link">View →</a>`;
+      : `<a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(sub.id)}" class="topic-section-link" data-topic-id="${TopicUtils.escapeAttr(sub.id)}">View →</a>`;
 
     return `
-      <div class="topic-section-group" data-expanded="true" data-section-id="${TopicUtils.escapeAttr(sectionId)}">
+      <div class="topic-section-group" data-expanded="${expanded ? 'true' : 'false'}" data-section-id="${TopicUtils.escapeAttr(sectionId)}">
         <div class="topic-section-header">
-          <button type="button" class="category-toggle-btn" aria-expanded="true" aria-controls="${TopicUtils.escapeAttr(sectionId)}-children" data-toggle-section>
+          <button type="button" class="category-toggle-btn" aria-expanded="${expanded ? 'true' : 'false'}" aria-controls="${TopicUtils.escapeAttr(sectionId)}-children" data-toggle-section>
             <span class="chevron" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('chevron', 'card-icon-sm') : ''}</span>
             <span class="category-toggle-btn__label flex-1 min-w-0">${TopicUtils.escapeHtml(sub.title)}</span>${subBadge}
             <span class="text-xs px-2.5 py-0.5 bg-white/10 rounded-full text-mem-muted flex-shrink-0">${visibleLeaves.length}</span>
           </button>
           ${viewLink}
         </div>
-        <div id="${sectionId}-children" class="topic-section-children" data-section-children>
+        <div id="${sectionId}-children" class="topic-section-children" data-section-children${expanded ? '' : ' style="max-height:0"'}>
           ${leavesHTML}
         </div>
       </div>
@@ -98,17 +133,46 @@ function renderSubtopic(sourceId, sub) {
 
   if (!shouldShowTopic(sub, topicsPageState.filters.status)) return '';
   const subPh = sub.is_placeholder;
-  const leafClasses = `topic-leaf-btn mb-3 inline-flex max-w-md ${subPh ? 'opacity-50 grayscale-[0.5] pointer-events-none' : ''}`;
+  const leafClasses = `topic-leaf-btn mb-3 inline-flex max-w-md${subPh ? ' topic-leaf-btn--soon opacity-50 grayscale-[0.5]' : ''}`;
   const leafBadge = subPh ? '<span class="topic-badge topic-badge--inline">Soon</span>' : '';
+  const topicAttrs = `data-topic-id="${TopicUtils.escapeAttr(sub.id)}" id="topic-${TopicUtils.escapeAttr(sub.id)}"`;
+  const label = `<span class="topic-leaf-btn__label">${TopicUtils.escapeHtml(sub.title)}</span>${leafBadge}`;
+  if (subPh) {
+    return `<span class="${leafClasses}" ${topicAttrs} aria-disabled="true" title="Coming soon">${label}</span>`;
+  }
   return `
-    <a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(sub.id)}" class="${leafClasses}">
-      <span class="topic-leaf-btn__label">${TopicUtils.escapeHtml(sub.title)}</span>${leafBadge}
+    <a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(sub.id)}" class="${leafClasses}" ${topicAttrs}>
+      ${label}
     </a>
   `;
 }
 
 function renderMainRootBlock(sourceId, root) {
   if (!root || !shouldShowTopic(root, topicsPageState.filters.status)) return '';
+  const isPh = !!root.is_placeholder;
+  const topicAttrs = `data-topic-id="${TopicUtils.escapeAttr(root.id)}" id="topic-${TopicUtils.escapeAttr(root.id)}"`;
+  const cardInner = `
+        <div class="topic-main-root-card__glow" aria-hidden="true"></div>
+        <div class="topic-main-root-card__header">
+          <div class="topic-main-root-icon flex-shrink-0 overflow-hidden">
+            ${renderTopicImage(root.topic_image, `${root.title} visual`, { loading: "eager", isPlaceholder: isPh })}
+          </div>
+          <div class="topic-main-root-card__body">
+            <div class="topic-main-root-badge">${isPh ? 'Coming soon' : 'Essence · Start Here'}</div>
+            <h3 class="topic-main-root-title group-hover:text-mem-indigo transition-colors">${TopicUtils.escapeHtml(root.title)}</h3>
+            <p class="topic-main-root-desc">${TopicUtils.escapeHtml(root.description || '')}</p>
+          </div>
+        </div>
+        <div class="topic-main-root-footer">
+          <div class="topic-main-root-explore inline-flex items-center justify-center gap-2 text-xs font-bold tracking-[1.5px] w-full">
+            ${isPh ? 'Coming soon' : 'Begin the transmission <span class="text-lg leading-none">→</span>'}
+          </div>
+        </div>`;
+
+  const card = isPh
+    ? `<div class="topic-main-root-card channel-card surface-interactive topic-main-root-card--soon opacity-70" ${topicAttrs} aria-disabled="true">${cardInner}</div>`
+    : `<a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(root.id)}"
+         class="topic-main-root-card channel-card surface-interactive group no-underline" ${topicAttrs}>${cardInner}</a>`;
 
   return `
     <div class="topic-main-root-block" data-category-id="${root.id}">
@@ -116,25 +180,7 @@ function renderMainRootBlock(sourceId, root) {
         ${typeof renderSiteIcon === 'function' ? renderSiteIcon('star', 'card-icon-sm') : ''}
         Root transmission
       </div>
-      <a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(root.id)}"
-         class="topic-main-root-card channel-card surface-interactive group no-underline">
-        <div class="topic-main-root-card__glow" aria-hidden="true"></div>
-        <div class="topic-main-root-card__header">
-          <div class="topic-main-root-icon flex-shrink-0 overflow-hidden">
-            ${renderTopicImage(root.topic_image, `${root.title} visual`, { loading: "eager", isPlaceholder: root.is_placeholder })}
-          </div>
-          <div class="topic-main-root-card__body">
-            <div class="topic-main-root-badge">Essence · Start Here</div>
-            <h3 class="topic-main-root-title group-hover:text-mem-indigo transition-colors">${TopicUtils.escapeHtml(root.title)}</h3>
-            <p class="topic-main-root-desc">${TopicUtils.escapeHtml(root.description || '')}</p>
-          </div>
-        </div>
-        <div class="topic-main-root-footer">
-          <div class="topic-main-root-explore inline-flex items-center justify-center gap-2 text-xs font-bold tracking-[1.5px] w-full">
-            Begin the transmission <span class="text-lg leading-none">→</span>
-          </div>
-        </div>
-      </a>
+      ${card}
     </div>
   `;
 }
@@ -153,8 +199,9 @@ function renderCategoryBlock(sourceId, category) {
   }
 
   const subCount = category.subtopics ? category.subtopics.length : 0;
-  const rootClasses = `topic-root-card channel-card surface-interactive group no-underline mb-6 p-6 sm:p-8${isPh ? ' topic-root-card--soon pointer-events-none' : ''}`;
+  const rootClasses = `topic-root-card channel-card surface-interactive group no-underline mb-6 p-6 sm:p-8${isPh ? ' topic-root-card--soon' : ''}`;
   const placeholderBadge = isPh ? '<div class="topic-badge topic-badge--corner">Soon</div>' : '';
+  const topicAttrs = `data-topic-id="${TopicUtils.escapeAttr(category.id)}" id="topic-${TopicUtils.escapeAttr(category.id)}"`;
 
   let subsHTML = '';
   if (category.subtopics?.length) {
@@ -167,12 +214,7 @@ function renderCategoryBlock(sourceId, category) {
   const showRoot = shouldShowTopic(category, topicsPageState.filters.status) || topicsPageState.filters.status === 'all';
   if (!showRoot && !subsHTML) return '';
 
-  return `
-    <div class="mb-12 relative topic-category-block" data-category-id="${category.id}">
-      ${showRoot ? `
-        <a href="${isPh ? '#' : `deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(category.id)}`}"
-           class="${rootClasses}"
-           ${isPh ? 'tabindex="-1" aria-disabled="true"' : ''}>
+  const rootInner = `
           <div class="topic-root-card__header">
             <div class="root-icon flex-shrink-0 overflow-hidden border-2 border-mem-accent/60 shadow-[0_10px_30px_rgba(109,40,217,0.35)]">
               ${renderTopicImage(category.topic_image, `${category.title} visual`, { isPlaceholder: isPh, compact: true })}
@@ -189,9 +231,16 @@ function renderCategoryBlock(sourceId, category) {
             </div>
           </div>
           <div class="topic-root-shimmer"></div>
-          ${placeholderBadge}
-        </a>
-      ` : ''}
+          ${placeholderBadge}`;
+
+  const rootCard = isPh
+    ? `<div class="${rootClasses}" ${topicAttrs} aria-disabled="true">${rootInner}</div>`
+    : `<a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(category.id)}"
+           class="${rootClasses}" ${topicAttrs}>${rootInner}</a>`;
+
+  return `
+    <div class="mb-12 relative topic-category-block" data-category-id="${category.id}">
+      ${showRoot ? rootCard : ''}
       ${subsHTML}
     </div>
   `;
@@ -233,6 +282,7 @@ function renderTopicsSearchResults() {
 
 function setupCollapsibleSections(container) {
   if (!container) return;
+  const sourceId = topicsPageState.sourceId;
 
   container.querySelectorAll('[data-toggle-section]').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -247,6 +297,10 @@ function setupCollapsibleSections(container) {
       } else if (children) {
         children.style.maxHeight = '0';
       }
+      const sectionId = group.dataset.sectionId;
+      if (sectionId) {
+        TopicUtils.setSectionExpanded(sourceId, sectionId, expanded);
+      }
     });
   });
 
@@ -257,6 +311,8 @@ function setupCollapsibleSections(container) {
     }
   });
 }
+
+
 
 function renderMainRootSection() {
   const { data, sourceId, filters } = topicsPageState;
@@ -357,40 +413,42 @@ function renderFilterControls() {
   `).join('');
 
   controls.innerHTML = `
-    <div class="topics-filter-panel static-card rounded-2xl mb-8">
-      <div class="topics-filter-header">
-        <div>
-          <div class="topics-filter-title">Browse the Archive</div>
-          <p class="topics-filter-subtitle">Search topics or filter by availability and category</p>
+    <div class="topics-filter-sticky-wrap">
+      <div class="topics-filter-panel static-card rounded-2xl">
+        <div class="topics-filter-header">
+          <div>
+            <div class="topics-filter-title">Browse the Archive</div>
+            <p class="topics-filter-subtitle">Search topics or filter by availability and category</p>
+          </div>
+          <div class="topics-filter-summary">
+            <span class="topics-filter-stat"><strong>${stats.live}</strong> ready</span>
+            <span class="topics-filter-stat-divider" aria-hidden="true"></span>
+            <span class="topics-filter-stat"><strong>${soonCount}</strong> coming soon</span>
+          </div>
         </div>
-        <div class="topics-filter-summary">
-          <span class="topics-filter-stat"><strong>${stats.live}</strong> ready</span>
-          <span class="topics-filter-stat-divider" aria-hidden="true"></span>
-          <span class="topics-filter-stat"><strong>${soonCount}</strong> coming soon</span>
+        <div class="codex-search-row mb-4">
+          <label class="codex-search-field" for="topics-search-input">
+            <span class="codex-search-icon" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('search', 'card-icon-sm') : ''}</span>
+            <input
+              id="topics-search-input"
+              type="search"
+              class="codex-search-input"
+              placeholder="Search topics in this transmission…"
+              value="${TopicUtils.escapeAttr(filters.search)}"
+              autocomplete="off"
+              spellcheck="false"
+            >
+          </label>
         </div>
-      </div>
-      <div class="codex-search-row mb-4">
-        <label class="codex-search-field" for="topics-search-input">
-          <span class="codex-search-icon" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('search', 'card-icon-sm') : ''}</span>
-          <input
-            id="topics-search-input"
-            type="search"
-            class="codex-search-input"
-            placeholder="Search topics in this transmission…"
-            value="${TopicUtils.escapeAttr(filters.search)}"
-            autocomplete="off"
-            spellcheck="false"
-          >
-        </label>
-      </div>
-      <div class="topics-filter-toolbar">
-        <div class="topics-filter-section topics-filter-section--status">
-          <span class="topics-filter-label">Status</span>
-          <div class="topics-filter-btn-group">${statusButtons}</div>
-        </div>
-        <div class="topics-filter-section topics-filter-section--category ${TopicUtils.normalizeSearch(filters.search) ? 'opacity-50 pointer-events-none' : ''}">
-          <span class="topics-filter-label">Category</span>
-          <div class="topics-filter-btn-group topics-filter-btn-group--scroll">${categoryButtons}</div>
+        <div class="topics-filter-toolbar">
+          <div class="topics-filter-section topics-filter-section--status">
+            <span class="topics-filter-label">Status</span>
+            <div class="topics-filter-btn-group">${statusButtons}</div>
+          </div>
+          <div class="topics-filter-section topics-filter-section--category ${TopicUtils.normalizeSearch(filters.search) ? 'opacity-50 pointer-events-none' : ''}">
+            <span class="topics-filter-label">Category</span>
+            <div class="topics-filter-btn-group topics-filter-btn-group--scroll">${categoryButtons}</div>
+          </div>
         </div>
       </div>
     </div>
@@ -407,6 +465,7 @@ function renderFilterControls() {
       topicsPageState.filters.status = btn.dataset.filterStatus;
       renderFilterControls();
       renderTopicsList();
+      syncTopicsUrlFromState();
     });
   });
 
@@ -415,6 +474,7 @@ function renderFilterControls() {
       topicsPageState.filters.category = btn.dataset.filterCategory;
       renderFilterControls();
       renderTopicsList();
+      syncTopicsUrlFromState();
     });
   });
 
@@ -468,10 +528,41 @@ function renderSourceHeader(data, sourceId, stats) {
   `;
 }
 
+function getTopicsNavExtraState() {
+  return {
+    page: 'topics',
+    sourceId: topicsPageState.sourceId,
+    filters: { ...topicsPageState.filters }
+  };
+}
+
+function applyPendingTopicsFilters() {
+  const pending = TopicUtils.peekNavReturnState();
+  if (!pending || pending.page !== 'topics') return false;
+  if (pending.sourceId && pending.sourceId !== topicsPageState.sourceId) return false;
+  if (!pending.filters || typeof pending.filters !== 'object') return false;
+
+  const next = { ...topicsPageState.filters };
+  if (pending.filters.status) next.status = pending.filters.status;
+  if (pending.filters.category) next.category = pending.filters.category;
+  if (typeof pending.filters.search === 'string') next.search = pending.filters.search;
+  topicsPageState.filters = next;
+  return true;
+}
+
+function finishTopicsScrollRestore() {
+  return TopicUtils.applyNavReturnAfterRender({
+    page: 'topics',
+    sourceId: topicsPageState.sourceId,
+    delay: 60
+  });
+}
+
+let topicsPendingHash = null;
+
 async function loadSourceViewer() {
   const urlParams = new URLSearchParams(window.location.search);
-  const sourceId = urlParams.get('source') || 'alice';
-  topicsPageState.sourceId = sourceId;
+  const rawSource = urlParams.get('source');
   const container = document.getElementById('topics-container');
   const headerEl = document.getElementById('source-header');
 
@@ -479,6 +570,18 @@ async function loadSourceViewer() {
   if (container) container.innerHTML = TopicUtils.skeleton('topics-list');
 
   try {
+    const resolved = await TopicUtils.resolveSourceId(rawSource);
+    if (!resolved.ok) {
+      const errorHtml = TopicUtils.renderSourceError(resolved);
+      if (headerEl) headerEl.innerHTML = errorHtml;
+      if (container) container.innerHTML = '';
+      document.title = 'Transmission not found | The 21st Memory';
+      return;
+    }
+
+    const sourceId = resolved.sourceId;
+    topicsPageState.sourceId = sourceId;
+
     const fullData = await TopicUtils.fetchSourceIndex(sourceId);
     document.title = `21st Memory Topics | ${fullData.title}`;
 
@@ -505,25 +608,59 @@ async function loadSourceViewer() {
       </div>
     `;
 
+    // URL first (share/refresh), then nav-return overrides for Back fidelity
+    applyTopicsFiltersFromUrl();
+    const restoring = applyPendingTopicsFilters();
+    // Drop invalid category ids from URL / restore
+    if (
+      topicsPageState.filters.category !== 'all' &&
+      !data.topics.some((t) => t.id === topicsPageState.filters.category)
+    ) {
+      topicsPageState.filters.category = 'all';
+    }
     renderFilterControls();
     renderTopicsList();
+    syncTopicsUrlFromState();
     TopicUtils.animateProgressBars(headerEl);
 
-    if (window.location.hash === '#explore-topics') {
-      TopicUtils.scrollToAnchor('explore-topics');
+    TopicUtils.attachTopicNavCapture(container, getTopicsNavExtraState);
+    TopicUtils.attachTopicNavCapture(headerEl, getTopicsNavExtraState);
+
+    const restored = (restoring || TopicUtils.peekNavReturnState()?.page === 'topics')
+      ? finishTopicsScrollRestore()
+      : null;
+    if (!restored && topicsPendingHash) {
+      TopicUtils.applyCapturedHash(topicsPendingHash, { delay: 80 });
+      topicsPendingHash = null;
     }
   } catch (e) {
     console.error('Topics load error:', e);
+    const sourceId = topicsPageState.sourceId || rawSource || 'unknown';
     const errorHtml = `
       <div class="text-center py-20">
         <div class="text-red-400 text-xl mb-4">Could not load topics data</div>
         <p class="text-mem-soft max-w-md mx-auto">${TopicUtils.escapeHtml(e.message)}</p>
         <p class="text-sm mt-8 text-mem-muted">Check the browser console (F12) for more details.<br>
         Make sure <strong>data/${TopicUtils.escapeHtml(sourceId)}-topics-index.json</strong> exists and is valid JSON.</p>
+        <a href="codex.html" class="btn-primary inline-flex items-center justify-center px-8 py-3 mt-8 text-sm font-semibold">← Back to Codex</a>
       </div>`;
     if (headerEl) headerEl.innerHTML = errorHtml;
     if (container) container.innerHTML = errorHtml;
   }
 }
 
-document.addEventListener('DOMContentLoaded', loadSourceViewer);
+function initTopicsPage() {
+  TopicUtils.disableNativeScrollRestoration();
+  topicsPendingHash = TopicUtils.captureAndClearHash();
+  loadSourceViewer();
+
+  // bfcache: page already has correct scroll/DOM — drop pending restore so it does not re-fire later
+  window.addEventListener('pageshow', (event) => {
+    if (!event.persisted) return;
+    TopicUtils.consumeNavReturnState((data) =>
+      data.page === 'topics' && (!data.sourceId || data.sourceId === topicsPageState.sourceId)
+    );
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initTopicsPage);

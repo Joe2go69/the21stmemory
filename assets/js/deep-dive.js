@@ -14,6 +14,8 @@ const zoomState = {
 };
 
 let infographicModalTrigger = null;
+/** AbortController for zoom modal listeners — aborted on close to avoid leaks */
+let zoomListenerAbort = null;
 
 function setPageMeta(name, content, attr = "name") {
   let el = document.querySelector(`meta[${attr}="${name}"]`);
@@ -138,7 +140,50 @@ const MediaEmpty = {
 
 window.MediaEmpty = MediaEmpty;
 
-function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId }) {
+function getTopicMediaFlags(topic) {
+  const hasInfographic = !!(topic.infographic_image && String(topic.infographic_image).trim());
+  const hasSlide = !!(topic.slide_deck_pdf_url && String(topic.slide_deck_pdf_url).trim() && topic.slide_deck_pdf_url !== '#');
+  const hasVideos = !!(topic.rumble_videos && topic.rumble_videos.length > 0);
+  const hasReport = !!(topic.report && String(topic.report).trim());
+  return {
+    hasInfographic,
+    hasSlide,
+    hasMediaPanel: hasInfographic || hasSlide,
+    hasVideos,
+    hasReport,
+    hasAny: hasInfographic || hasSlide || hasVideos || hasReport
+  };
+}
+
+function renderJumpPills(flags) {
+  const pills = [];
+  if (flags.hasMediaPanel) {
+    pills.push(`
+      <button type="button" data-jump-section="infographics-section" class="btn-jump-pill" aria-label="Scroll to infographics and slide decks section">
+        ${typeof renderSiteIcon === 'function' ? renderSiteIcon('chart', 'card-icon-sm') : ''} Infographics
+      </button>`);
+  }
+  if (flags.hasVideos) {
+    pills.push(`
+      <button type="button" data-jump-section="videos-section" class="btn-jump-pill" aria-label="Scroll to video transmissions section">
+        ${typeof renderSiteIcon === 'function' ? renderSiteIcon('video', 'card-icon-sm') : ''} Videos
+      </button>`);
+  }
+  if (flags.hasReport) {
+    pills.push(`
+      <button type="button" data-jump-section="report-section" class="btn-jump-pill" aria-label="Scroll to deep dive report section">
+        ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} Report
+      </button>`);
+  }
+  if (!pills.length) return '';
+  return `
+    <div class="text-xs tracking-wide text-mem-muted mb-2.5 font-semibold">Jump to</div>
+    <div class="jump-to-pills mb-4" id="jump-to-pills">
+      ${pills.join('')}
+    </div>`;
+}
+
+function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId, mediaFlags }) {
   const rawHeroImage = (topic.topic_image || topic.infographic_image || '').replace(/\\/g, '/');
   const heroImage = TopicUtils.isResolvableTopicImage(rawHeroImage, topic.is_placeholder)
     ? TopicUtils.encodeAssetPath(rawHeroImage)
@@ -147,6 +192,7 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId }) {
   const bgStyle = heroImage
     ? `style="background-image: url('${escapeAttr(heroImage)}')"`
     : '';
+  const flags = mediaFlags || getTopicMediaFlags(topic);
 
   return `
     ${breadcrumbs}
@@ -166,18 +212,7 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId }) {
           ${(topic.description || '').split('\n\n').map((p) => `<p class="mb-3 last:mb-0">${escapeHtml(p)}</p>`).join('')}
         </div>
         <div class="mt-7">
-          <div class="text-xs tracking-wide text-mem-muted mb-2.5 font-semibold">Jump to</div>
-          <div class="jump-to-pills mb-4" id="jump-to-pills">
-            <button type="button" data-jump-section="infographics-section" class="btn-jump-pill" aria-label="Scroll to infographics and slide decks section">
-              ${typeof renderSiteIcon === 'function' ? renderSiteIcon('chart', 'card-icon-sm') : ''} Infographics
-            </button>
-            <button type="button" data-jump-section="videos-section" class="btn-jump-pill" aria-label="Scroll to video transmissions section">
-              ${typeof renderSiteIcon === 'function' ? renderSiteIcon('video', 'card-icon-sm') : ''} Videos
-            </button>
-            <button type="button" data-jump-section="report-section" class="btn-jump-pill" aria-label="Scroll to deep dive report section">
-              ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} Report
-            </button>
-          </div>
+          ${renderJumpPills(flags)}
           ${topic.quiz?.href ? `
           <div class="deep-dive-quiz-cta mb-4">
             <a href="${escapeAttr(topic.quiz.href)}" class="btn-primary deep-dive-quiz-cta__btn">
@@ -189,12 +224,29 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId }) {
           ` : ''}
           <div class="flex flex-wrap gap-3 pt-1 border-t border-white/10">
             <a href="codex.html#codex-pill" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Codex</a>
-            <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Topics</a>
+            <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics"
+               class="btn-topic-nav inline-flex items-center justify-center text-sm px-5"
+               data-back-to-topics
+               data-source-id="${escapeAttr(sourceId)}"
+               data-topic-id="${escapeAttr(topic.id)}">← Back to Topics</a>
           </div>
         </div>
       </div>
     </div>
   `;
+}
+
+function setSectionHidden(sectionId, hide, { hideNextSibling = false } = {}) {
+  const el = document.getElementById(sectionId);
+  if (!el) return;
+  el.hidden = hide;
+  if (hideNextSibling && el.nextElementSibling) {
+    el.nextElementSibling.hidden = hide;
+  }
+}
+
+function renderCompactComingSoon(message) {
+  return `<div class="media-coming-soon-note text-center py-6 px-4 text-sm text-mem-muted">${escapeHtml(message)}</div>`;
 }
 
 function renderSlideDeckArtifact({ pdfUrl, previewSrc, topicTitle }) {
@@ -248,9 +300,38 @@ function setupJumpToPills() {
   TopicUtils.setupJumpToSpy(pills, sections);
 }
 
+/** Ensure "Back to Topics" restores the opened topic in the list. */
+function setupBackToTopicsLinks(sourceId, topicId) {
+  document.querySelectorAll('[data-back-to-topics]').forEach((link) => {
+    if (link.dataset.backBound === 'true') return;
+    link.dataset.backBound = 'true';
+    link.addEventListener('click', () => {
+      const sid = link.dataset.sourceId || sourceId;
+      const tid = link.dataset.topicId || topicId;
+      // Preserve filters/scroll if user already left from topics; otherwise seed a return target
+      const existing = TopicUtils.peekNavReturnState();
+      if (existing?.page === 'topics' && existing.sourceId === sid) {
+        TopicUtils.saveNavReturnState({
+          ...existing,
+          topicId: tid || existing.topicId,
+          sourceId: sid
+        });
+      } else {
+        TopicUtils.saveNavReturnState({
+          page: 'topics',
+          sourceId: sid,
+          topicId: tid,
+          filters: existing?.page === 'topics' ? existing.filters : { status: 'all', category: 'all', search: '' },
+          scrollY: existing?.scrollY
+        });
+      }
+    });
+  });
+}
+
 async function loadLessonViewer() {
   const urlParams = new URLSearchParams(window.location.search);
-  const sourceId = urlParams.get('source') || 'alice';
+  const rawSource = urlParams.get('source');
   const topicId = urlParams.get('topic');
 
   const headerContainer = document.getElementById('lesson-header');
@@ -262,32 +343,52 @@ async function loadLessonViewer() {
   const tocContainer = document.getElementById('report-toc');
   const tocMobile = document.getElementById('report-toc-mobile');
 
-  if (!topicId) {
-    if (headerContainer) {
-      headerContainer.innerHTML = '<div class="text-center py-12"><p class="text-red-400">No topic specified. Please return to the Codex.</p></div>';
-    }
+  if (!headerContainer || !infographicContainer || !pdfContainer || !videosContainer || !reportContainer) {
+    console.error('Deep-dive page is missing required DOM containers');
     return;
   }
 
-  if (!headerContainer || !infographicContainer || !pdfContainer || !videosContainer || !reportContainer) {
-    console.error('Deep-dive page is missing required DOM containers');
+  // Hide all content shells until we know what exists
+  setSectionHidden('infographics-section', true, { hideNextSibling: true });
+  setSectionHidden('videos-section', true);
+  setSectionHidden('report-section', true);
+
+  if (!topicId) {
+    headerContainer.innerHTML = `
+      <div class="text-center py-12">
+        <p class="text-red-400 mb-4">No topic specified.</p>
+        <a href="codex.html" class="btn-primary inline-flex items-center justify-center px-8 py-3 text-sm font-semibold">← Back to Codex</a>
+      </div>`;
     return;
   }
 
   headerContainer.innerHTML = TopicUtils.skeleton('deep-dive');
 
   try {
+    const resolved = await TopicUtils.resolveSourceId(rawSource);
+    if (!resolved.ok) {
+      headerContainer.innerHTML = TopicUtils.renderSourceError(resolved);
+      document.title = 'Transmission not found | The 21st Memory';
+      return;
+    }
+    const sourceId = resolved.sourceId;
+
     const fullData = await TopicUtils.fetchSourceIndex(sourceId);
     const lightTopic = TopicUtils.findTopicById(fullData.topics, topicId);
     const topicPath = TopicUtils.findTopicPath(fullData.topics, topicId);
 
     if (!lightTopic) {
-      headerContainer.innerHTML = `<div class="text-center py-12"><p class="text-red-400">Topic not found: ${escapeHtml(topicId)}</p></div>`;
+      headerContainer.innerHTML = `
+        <div class="text-center py-12">
+          <p class="text-red-400 mb-4">Topic not found: ${escapeHtml(topicId)}</p>
+          <a href="topics.html?source=${encodeURIComponent(sourceId)}" class="btn-primary inline-flex items-center justify-center px-8 py-3 text-sm font-semibold">← Back to topics</a>
+        </div>`;
       return;
     }
 
     const topicContent = await TopicUtils.fetchTopicContent(sourceId, topicId);
     const topic = { ...lightTopic, ...topicContent };
+    const flags = getTopicMediaFlags(topic);
 
     updateTopicPageMeta({ topic, sourceId, fullData });
 
@@ -298,7 +399,7 @@ async function loadLessonViewer() {
       currentTitle: topic.title
     });
 
-    headerContainer.innerHTML = renderCinematicHero({ breadcrumbs, fullData, topic, sourceId });
+    headerContainer.innerHTML = renderCinematicHero({ breadcrumbs, fullData, topic, sourceId, mediaFlags: flags });
     headerContainer.classList.remove('content-card', 'static-card', 'rounded-3xl', 'p-8', 'md:p-12');
     setupJumpToPills();
 
@@ -313,14 +414,9 @@ async function loadLessonViewer() {
       }
     }
 
-    const hasAnyContent = !!(topic.infographic_image ||
-      topic.slide_deck_pdf_url ||
-      (topic.rumble_videos && topic.rumble_videos.length > 0) ||
-      topic.report);
-
-    if (!hasAnyContent) {
+    if (!flags.hasAny) {
       headerContainer.insertAdjacentHTML('afterend', `
-        <div class="max-w-2xl mx-auto text-center py-20">
+        <div class="max-w-2xl mx-auto text-center py-20 px-6">
           ${typeof renderSiteIcon === 'function' ? `<div class="mb-8 flex justify-center">${renderSiteIcon('star', 'card-icon-lg')}</div>` : ''}
           <h2 class="text-4xl font-semibold tracking-tighter mb-6">This Topic Continues to Unfold</h2>
           <p class="text-mem-soft text-lg max-w-lg mx-auto leading-relaxed mb-10">
@@ -328,82 +424,108 @@ async function loadLessonViewer() {
             encompassing infographics, slide decks, video transmissions, and a deep-dive report.
             The Great Remembering reveals its wisdom in perfect timing.
           </p>
-          <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="btn-primary inline-flex items-center justify-center px-10 py-4 text-base font-semibold">← Back to topics</a>
+          <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics"
+             class="btn-primary inline-flex items-center justify-center px-10 py-4 text-base font-semibold"
+             data-back-to-topics
+             data-source-id="${escapeAttr(sourceId)}"
+             data-topic-id="${escapeAttr(topicId)}">← Back to topics</a>
           <div class="mt-8 text-xs text-mem-dim tracking-wide">More content coming soon</div>
         </div>
       `);
+      setupBackToTopicsLinks(sourceId, topicId);
+      return;
     }
 
-    if (topic.infographic_image) {
-      const infographicSrc = TopicUtils.encodeAssetPath(topic.infographic_image);
-      infographicContainer.innerHTML = `
-        <div class="infographic-artifact" role="button" tabindex="0" aria-label="Open full size infographic" data-infographic-src="${escapeAttr(infographicSrc)}">
-          <img src="${escapeAttr(infographicSrc)}" alt="${escapeHtml(topic.title)} Infographic"
-               loading="lazy" decoding="async"
-               onerror="MediaEmpty.replace(this,'archive','Infographic coming soon')">
-          <div class="infographic-artifact-caption">
-            <span>Decoded infographic</span>
-            <span class="infographic-artifact-zoom" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('expand', 'card-icon-sm') : ''} Expand</span>
+    setupBackToTopicsLinks(sourceId, topicId);
+
+    // --- Infographics + slide deck (only if either exists) ---
+    if (flags.hasMediaPanel) {
+      setSectionHidden('infographics-section', false, { hideNextSibling: true });
+
+      const infoCol = infographicContainer.closest('.md\\:col-span-6') || infographicContainer.parentElement?.parentElement;
+      const pdfCol = pdfPreviewContainer?.closest('.md\\:col-span-6') || pdfPreviewContainer?.parentElement?.parentElement;
+
+      if (flags.hasInfographic) {
+        const infographicSrc = TopicUtils.encodeAssetPath(topic.infographic_image);
+        infographicContainer.innerHTML = `
+          <div class="infographic-artifact" role="button" tabindex="0" aria-label="Open full size infographic" data-infographic-src="${escapeAttr(infographicSrc)}">
+            <img src="${escapeAttr(infographicSrc)}" alt="${escapeHtml(topic.title)} Infographic"
+                 loading="lazy" decoding="async"
+                 onerror="MediaEmpty.replace(this,'archive','Infographic coming soon')">
+            <div class="infographic-artifact-caption">
+              <span>Decoded infographic</span>
+              <span class="infographic-artifact-zoom" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('expand', 'card-icon-sm') : ''} Expand</span>
+            </div>
           </div>
-        </div>
-      `;
-      infographicContainer.querySelector('.infographic-artifact')?.addEventListener('click', (e) => {
-        const src = e.currentTarget.dataset.infographicSrc;
-        if (src) openInfographicModal(src, e.currentTarget);
-      });
-      infographicContainer.querySelector('.infographic-artifact')?.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
+        `;
+        infographicContainer.querySelector('.infographic-artifact')?.addEventListener('click', (e) => {
           const src = e.currentTarget.dataset.infographicSrc;
           if (src) openInfographicModal(src, e.currentTarget);
-        }
-      });
-    } else {
-      infographicContainer.innerHTML = RenderUtils.renderEmptyState('archive', 'Infographic coming soon');
-      if (typeof hydrateSiteIcons === 'function') hydrateSiteIcons(infographicContainer);
-    }
-
-    if (pdfPreviewContainer) {
-      const pdfUrl = topic.slide_deck_pdf_url || '#';
-      if (topic.pdf_preview_image) {
-        pdfPreviewContainer.innerHTML = renderSlideDeckArtifact({
-          pdfUrl,
-          previewSrc: TopicUtils.encodeAssetPath(topic.pdf_preview_image),
-          topicTitle: topic.title
         });
-        setupSlideDeckArtifact(pdfPreviewContainer);
-      } else if (topic.slide_deck_pdf_url) {
-        const fileIdMatch = topic.slide_deck_pdf_url.match(/\/d\/([a-zA-Z0-9_-]{10,})/);
-        if (fileIdMatch?.[1]) {
-          const thumbUrl = `https://drive.google.com/thumbnail?id=${fileIdMatch[1]}&sz=1400`;
-          pdfPreviewContainer.innerHTML = renderSlideDeckArtifact({
-            pdfUrl: topic.slide_deck_pdf_url,
-            previewSrc: thumbUrl,
-            topicTitle: topic.title
-          });
-          setupSlideDeckArtifact(pdfPreviewContainer);
-        } else {
-          pdfPreviewContainer.innerHTML = RenderUtils.renderEmptyState('file', 'Could not extract PDF ID from link', { muted: true });
-          if (typeof hydrateSiteIcons === 'function') hydrateSiteIcons(pdfPreviewContainer);
-        }
+        infographicContainer.querySelector('.infographic-artifact')?.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            const src = e.currentTarget.dataset.infographicSrc;
+            if (src) openInfographicModal(src, e.currentTarget);
+          }
+        });
+      } else if (infoCol) {
+        infoCol.hidden = true;
       } else {
-        pdfPreviewContainer.innerHTML = RenderUtils.renderEmptyState('file', 'Slide deck preview coming soon', { muted: true });
-        if (typeof hydrateSiteIcons === 'function') hydrateSiteIcons(pdfPreviewContainer);
+        infographicContainer.innerHTML = renderCompactComingSoon('Infographic coming soon');
+      }
+
+      if (pdfPreviewContainer) {
+        if (flags.hasSlide) {
+          const pdfUrl = topic.slide_deck_pdf_url;
+          if (topic.pdf_preview_image) {
+            pdfPreviewContainer.innerHTML = renderSlideDeckArtifact({
+              pdfUrl,
+              previewSrc: TopicUtils.encodeAssetPath(topic.pdf_preview_image),
+              topicTitle: topic.title
+            });
+            setupSlideDeckArtifact(pdfPreviewContainer);
+          } else {
+            const fileIdMatch = topic.slide_deck_pdf_url.match(/\/d\/([a-zA-Z0-9_-]{10,})/);
+            if (fileIdMatch?.[1]) {
+              const thumbUrl = `https://drive.google.com/thumbnail?id=${fileIdMatch[1]}&sz=1400`;
+              pdfPreviewContainer.innerHTML = renderSlideDeckArtifact({
+                pdfUrl: topic.slide_deck_pdf_url,
+                previewSrc: thumbUrl,
+                topicTitle: topic.title
+              });
+              setupSlideDeckArtifact(pdfPreviewContainer);
+            } else {
+              pdfPreviewContainer.innerHTML = renderCompactComingSoon('Slide preview unavailable — use download below');
+            }
+          }
+          pdfContainer.innerHTML = `
+            <a href="${escapeAttr(topic.slide_deck_pdf_url)}" target="_blank" rel="noopener noreferrer"
+               class="slide-deck-download-btn btn-secondary w-full inline-flex items-center justify-center gap-x-2 px-6 py-3 text-sm font-semibold rounded-xl">
+              ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} Download slide deck PDF
+            </a>
+          `;
+        } else if (pdfCol) {
+          pdfCol.hidden = true;
+        } else {
+          pdfPreviewContainer.innerHTML = renderCompactComingSoon('Slide deck coming soon');
+          pdfContainer.innerHTML = '';
+        }
+      }
+
+      // If only one column remains, expand it to full width when possible
+      if (flags.hasInfographic && !flags.hasSlide && infoCol) {
+        infoCol.classList.remove('md:col-span-6');
+        infoCol.classList.add('md:col-span-12', 'max-w-3xl', 'mx-auto');
+      } else if (!flags.hasInfographic && flags.hasSlide && pdfCol) {
+        pdfCol.classList.remove('md:col-span-6');
+        pdfCol.classList.add('md:col-span-12', 'max-w-3xl', 'mx-auto');
       }
     }
 
-    if (topic.slide_deck_pdf_url) {
-      pdfContainer.innerHTML = `
-        <a href="${escapeAttr(topic.slide_deck_pdf_url)}" target="_blank" rel="noopener noreferrer"
-           class="slide-deck-download-btn btn-secondary w-full inline-flex items-center justify-center gap-x-2 px-6 py-3 text-sm font-semibold rounded-xl">
-          ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} Download slide deck PDF
-        </a>
-      `;
-    } else {
-      pdfContainer.innerHTML = '<div class="text-center py-4 text-mem-muted text-sm">Slide deck coming soon</div>';
-    }
-
-    if (topic.rumble_videos?.length > 0) {
+    // --- Videos ---
+    if (flags.hasVideos) {
+      setSectionHidden('videos-section', false);
       const numVideos = topic.rumble_videos.length;
       let videoGridClass = 'grid gap-6';
       if (numVideos === 1) videoGridClass += ' grid-cols-1 max-w-2xl mx-auto';
@@ -416,12 +538,11 @@ async function loadLessonViewer() {
         .join('');
       TopicUtils.setupClickToPlayVideos(videosContainer);
       RenderUtils.setupImageFallbacks(videosContainer, 'img[data-img-fallback]');
-    } else {
-      videosContainer.className = 'grid grid-cols-1';
-      videosContainer.innerHTML = '<div class="col-span-full text-center py-12 text-mem-muted">Video transmissions coming soon for this topic.</div>';
     }
 
-    if (topic.report) {
+    // --- Report ---
+    if (flags.hasReport) {
+      setSectionHidden('report-section', false);
       reportContainer.innerHTML = renderMarkdownReport(topic.report);
       const lead = reportContainer.querySelector("h1 + p, p");
       if (lead) lead.classList.add("report-lead");
@@ -445,9 +566,8 @@ async function loadLessonViewer() {
           });
         });
       }
-    } else {
-      reportContainer.innerHTML = '<div class="text-center py-12 text-mem-muted">Detailed report coming soon.</div>';
-      if (tocContainer) tocContainer.hidden = true;
+    } else if (tocContainer) {
+      tocContainer.hidden = true;
       if (tocMobile) tocMobile.hidden = true;
     }
   } catch (error) {
@@ -577,8 +697,24 @@ function resetImageZoomState(img) {
   }
 }
 
+function teardownImageZoom() {
+  if (zoomListenerAbort) {
+    zoomListenerAbort.abort();
+    zoomListenerAbort = null;
+  }
+  zoomState.dragging = false;
+  zoomState.lastPinchDistance = 0;
+  const img = document.getElementById('modal-image');
+  if (img) {
+    img.dataset.zoomReady = 'false';
+  }
+}
+
 function setupImageZoom(img) {
   if (!img.naturalWidth || !img.naturalHeight) return;
+
+  // Drop any previous session listeners before rebinding
+  teardownImageZoom();
 
   zoomState.fitScale = computeFitScale(img);
   img.style.transition = 'none';
@@ -587,7 +723,8 @@ function setupImageZoom(img) {
   img.style.touchAction = 'none';
   resetImageZoomState(img);
 
-  if (img.dataset.zoomReady === 'true') return;
+  zoomListenerAbort = new AbortController();
+  const { signal } = zoomListenerAbort;
   img.dataset.zoomReady = 'true';
 
   const viewport = getZoomViewport(img);
@@ -596,7 +733,7 @@ function setupImageZoom(img) {
     const factor = e.deltaY < 0 ? 1.1 : 0.91;
     const nextScale = Math.max(1, Math.min(getMaxZoom(), zoomState.scale * factor));
     zoomAtPoint(img, e.clientX, e.clientY, nextScale);
-  }, { passive: false });
+  }, { passive: false, signal });
 
   img.addEventListener('mousedown', (e) => {
     if (zoomState.scale <= 1) return;
@@ -607,7 +744,7 @@ function setupImageZoom(img) {
     zoomState.panStartY = zoomState.panY;
     img.style.cursor = 'grabbing';
     e.preventDefault();
-  });
+  }, { signal });
 
   window.addEventListener('mousemove', (e) => {
     if (!zoomState.dragging || zoomState.scale <= 1) return;
@@ -615,13 +752,13 @@ function setupImageZoom(img) {
     zoomState.panY = zoomState.panStartY + (e.clientY - zoomState.pointerStartY);
     clampPan(img);
     applyZoomTransform(img);
-  });
+  }, { signal });
 
   window.addEventListener('mouseup', () => {
     if (!zoomState.dragging) return;
     zoomState.dragging = false;
     if (img) applyZoomTransform(img);
-  });
+  }, { signal });
 
   viewport?.addEventListener('touchstart', (e) => {
     if (e.touches.length === 2) {
@@ -634,7 +771,7 @@ function setupImageZoom(img) {
       zoomState.panStartX = zoomState.panX;
       zoomState.panStartY = zoomState.panY;
     }
-  }, { passive: false });
+  }, { passive: false, signal });
 
   viewport?.addEventListener('touchmove', (e) => {
     if (e.touches.length === 2) {
@@ -654,12 +791,12 @@ function setupImageZoom(img) {
       applyZoomTransform(img);
       e.preventDefault();
     }
-  }, { passive: false });
+  }, { passive: false, signal });
 
   viewport?.addEventListener('touchend', () => {
     zoomState.dragging = false;
     zoomState.lastPinchDistance = 0;
-  });
+  }, { signal });
 
   img.addEventListener('dblclick', (e) => {
     if (zoomState.scale > 1) {
@@ -668,7 +805,7 @@ function setupImageZoom(img) {
       const nativeZoom = Math.min(1 / (zoomState.fitScale || 1), getMaxZoom());
       zoomAtPoint(img, e.clientX, e.clientY, Math.max(2, nativeZoom));
     }
-  });
+  }, { signal });
 
   window.addEventListener('resize', () => {
     const modal = document.getElementById('infographic-modal');
@@ -677,7 +814,7 @@ function setupImageZoom(img) {
     applyZoomTransform(img);
     clampPan(img);
     applyZoomTransform(img);
-  });
+  }, { signal });
 }
 
 function getInfographicModalFocusables(modal) {
@@ -751,10 +888,15 @@ function closeInfographicModal() {
   const modal = document.getElementById('infographic-modal');
   if (!modal) return;
 
+  teardownImageZoom();
+
   const img = document.getElementById('modal-image');
   if (img) {
     resetImageZoomState(img);
     clearModalImageSizing(img);
+    img.onload = null;
+    // Drop src to free memory when closed
+    img.removeAttribute('src');
   }
 
   modal.classList.remove('flex');

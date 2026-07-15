@@ -5,6 +5,9 @@ const TopicUtils = {
   SCROLL_EXTRA_OFFSET: 32,
   CACHE_PREFIX: '21m:',
   CACHE_DEFAULT_MS: 5 * 60 * 1000,
+  NAV_RETURN_KEY: 'nav-return',
+  NAV_RETURN_MAX_AGE_MS: 30 * 60 * 1000,
+  SECTION_COLLAPSE_KEY: 'section-collapse:',
 
   getCachedJson(key, maxAgeMs = this.CACHE_DEFAULT_MS) {
     try {
@@ -129,6 +132,55 @@ const TopicUtils = {
 
   createLightweightTopics(topics) {
     return this.normalizeTopicsFromIndex(topics);
+  },
+
+  /**
+   * Update query params without a full navigation.
+   * Pass null/undefined/'' to remove a key. Defaults like status=all can be omitted via omitDefaults.
+   */
+  replaceUrlParams(updates = {}, { omitDefaults = true } = {}) {
+    try {
+      const url = new URL(window.location.href);
+      Object.entries(updates).forEach(([key, value]) => {
+        const isDefault = omitDefaults && (
+          value == null ||
+          value === '' ||
+          value === 'all' ||
+          value === 'alpha'
+        );
+        if (isDefault) {
+          url.searchParams.delete(key);
+        } else if (value != null) {
+          url.searchParams.set(key, String(value));
+        }
+      });
+      const next = `${url.pathname}${url.search}${url.hash}`;
+      const current = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+      if (next !== current) {
+        history.replaceState(history.state, '', next);
+      }
+    } catch {
+      /* ignore */
+    }
+  },
+
+  getSectionCollapseMap(sourceId) {
+    if (!sourceId) return {};
+    return this.getCachedJson(this.SECTION_COLLAPSE_KEY + sourceId, 7 * 24 * 60 * 60 * 1000) || {};
+  },
+
+  setSectionExpanded(sourceId, sectionId, expanded) {
+    if (!sourceId || !sectionId) return;
+    const map = { ...this.getSectionCollapseMap(sourceId), [sectionId]: !!expanded };
+    this.setCachedJson(this.SECTION_COLLAPSE_KEY + sourceId, map, 7 * 24 * 60 * 60 * 1000);
+  },
+
+  isSectionExpanded(sourceId, sectionId, defaultExpanded = true) {
+    const map = this.getSectionCollapseMap(sourceId);
+    if (Object.prototype.hasOwnProperty.call(map, sectionId)) {
+      return !!map[sectionId];
+    }
+    return defaultExpanded;
   },
 
   debounce(fn, wait = 250) {
@@ -328,19 +380,272 @@ const TopicUtils = {
       }));
   },
 
-  scrollToAnchor(elementId, delay = 150) {
+  scrollToAnchor(elementId, delay = 150, behavior = 'smooth') {
     setTimeout(() => {
       const target = document.getElementById(elementId);
       if (!target) return;
       const rect = target.getBoundingClientRect();
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
       const offsetPosition = rect.top + scrollTop - this.NAVBAR_HEIGHT - this.SCROLL_EXTRA_OFFSET;
-      window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+      window.scrollTo({ top: Math.max(0, offsetPosition), behavior });
     }, delay);
   },
 
   scrollToSection(sectionId) {
     this.scrollToAnchor(sectionId, 0);
+  },
+
+  disableNativeScrollRestoration() {
+    try {
+      if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+      }
+    } catch {
+      /* ignore */
+    }
+  },
+
+  /**
+   * Capture location.hash then strip it so the browser does not native-jump.
+   * Call early on list pages; restore + scroll once with applyCapturedHash().
+   */
+  captureAndClearHash() {
+    const hash = (window.location.hash || '').replace(/^#/, '');
+    if (!hash) return null;
+    try {
+      const url = `${window.location.pathname}${window.location.search}`;
+      history.replaceState(history.state, '', url);
+      // Cancel any native hash scroll already applied
+      window.scrollTo(0, 0);
+    } catch {
+      /* ignore */
+    }
+    return hash;
+  },
+
+  applyCapturedHash(hash, { delay = 80, behavior = 'smooth' } = {}) {
+    if (!hash) return false;
+    const target = document.getElementById(hash);
+    if (!target) return false;
+    try {
+      const url = `${window.location.pathname}${window.location.search}#${hash}`;
+      history.replaceState(history.state, '', url);
+    } catch {
+      /* ignore */
+    }
+    this.scrollToAnchor(hash, delay, behavior);
+    return true;
+  },
+
+  async fetchSourceIds() {
+    const cached = this.getCachedJson('source-ids', 10 * 60 * 1000);
+    if (cached?.ids) return cached.ids;
+    const response = await fetch('data/sources.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status} — sources.json not found`);
+    const data = await response.json();
+    const ids = (data.sources || []).map((s) => s.id).filter(Boolean);
+    this.setCachedJson('source-ids', { ids }, 10 * 60 * 1000);
+    return ids;
+  },
+
+  async resolveSourceId(rawId) {
+    const ids = await this.fetchSourceIds();
+    if (!rawId) {
+      return { ok: false, reason: 'missing', ids };
+    }
+    if (!ids.includes(rawId)) {
+      return { ok: false, reason: 'invalid', rawId, ids };
+    }
+    return { ok: true, sourceId: rawId, ids };
+  },
+
+  renderSourceError({ reason, rawId, ids = [] } = {}) {
+    const list = ids.length
+      ? `<ul class="mt-4 text-sm text-mem-muted space-y-1">${ids.map((id) =>
+          `<li><a class="underline hover:text-white" href="topics.html?source=${this.escapeAttr(id)}">${this.escapeHtml(id)}</a></li>`
+        ).join('')}</ul>`
+      : '';
+    const message = reason === 'missing'
+      ? 'No transmission was specified. Choose a source from the Codex, or pick one below.'
+      : `Unknown transmission “${this.escapeHtml(rawId || '')}”. It may have been renamed or removed.`;
+    return `
+      <div class="text-center py-20 px-6">
+        <div class="text-red-400 text-xl mb-4">Transmission not found</div>
+        <p class="text-mem-soft max-w-md mx-auto">${message}</p>
+        ${list}
+        <a href="codex.html" class="btn-primary inline-flex items-center justify-center px-8 py-3 mt-8 text-sm font-semibold">← Back to Codex</a>
+      </div>
+    `;
+  },
+
+  saveNavReturnState(state = {}) {
+    try {
+      const payload = {
+        ...state,
+        scrollY: typeof state.scrollY === 'number'
+          ? state.scrollY
+          : (window.pageYOffset || document.documentElement.scrollTop || 0),
+        ts: Date.now()
+      };
+      sessionStorage.setItem(this.CACHE_PREFIX + this.NAV_RETURN_KEY, JSON.stringify(payload));
+    } catch {
+      /* storage unavailable */
+    }
+  },
+
+  peekNavReturnState() {
+    try {
+      const raw = sessionStorage.getItem(this.CACHE_PREFIX + this.NAV_RETURN_KEY);
+      if (!raw) return null;
+      const data = JSON.parse(raw);
+      if (!data || typeof data !== 'object') return null;
+      if (Date.now() - (data.ts || 0) > this.NAV_RETURN_MAX_AGE_MS) {
+        sessionStorage.removeItem(this.CACHE_PREFIX + this.NAV_RETURN_KEY);
+        return null;
+      }
+      return data;
+    } catch {
+      return null;
+    }
+  },
+
+  consumeNavReturnState(predicate) {
+    const data = this.peekNavReturnState();
+    if (!data) return null;
+    if (typeof predicate === 'function' && !predicate(data)) return null;
+    try {
+      sessionStorage.removeItem(this.CACHE_PREFIX + this.NAV_RETURN_KEY);
+    } catch {
+      /* ignore */
+    }
+    return data;
+  },
+
+  clearNavReturnState() {
+    try {
+      sessionStorage.removeItem(this.CACHE_PREFIX + this.NAV_RETURN_KEY);
+    } catch {
+      /* ignore */
+    }
+  },
+
+  parseDeepDiveLink(href) {
+    if (!href || typeof href !== 'string') return null;
+    try {
+      const url = new URL(href, window.location.href);
+      const path = url.pathname.split('/').pop() || '';
+      if (path !== 'deep-dive.html') return null;
+      const topicId = url.searchParams.get('topic');
+      if (!topicId) return null;
+      return {
+        sourceId: url.searchParams.get('source') || '',
+        topicId
+      };
+    } catch {
+      return null;
+    }
+  },
+
+  /**
+   * Capture outbound deep-dive navigations so Back can restore list position.
+   * getExtraState() may return { page, sourceId, filters, ... }.
+   */
+  attachTopicNavCapture(root, getExtraState) {
+    if (!root || root.dataset.navCaptureBound === 'true') return;
+    root.dataset.navCaptureBound = 'true';
+
+    root.addEventListener('click', (event) => {
+      if (event.defaultPrevented || event.button !== 0) return;
+      if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+
+      const anchor = event.target.closest('a[href]');
+      if (!anchor || anchor.getAttribute('aria-disabled') === 'true') return;
+      if (anchor.hasAttribute('download') || anchor.target === '_blank') return;
+
+      const parsed = this.parseDeepDiveLink(anchor.getAttribute('href') || '');
+      if (!parsed) return;
+
+      const extra = typeof getExtraState === 'function' ? (getExtraState() || {}) : {};
+      this.saveNavReturnState({
+        ...extra,
+        topicId: parsed.topicId,
+        sourceId: extra.sourceId != null && extra.sourceId !== ''
+          ? extra.sourceId
+          : parsed.sourceId,
+        scrollY: window.pageYOffset || document.documentElement.scrollTop || 0
+      });
+    }, true);
+  },
+
+  findTopicRestoreTarget(topicId) {
+    if (!topicId) return null;
+    const safe = String(topicId).replace(/"/g, '');
+    return (
+      document.querySelector(`[data-topic-id="${safe}"]`) ||
+      document.getElementById(`topic-${safe}`) ||
+      null
+    );
+  },
+
+  highlightRestoredTopic(el) {
+    if (!el) return;
+    el.classList.remove('topic-restore-highlight');
+    // Restart animation if re-applied
+    void el.offsetWidth;
+    el.classList.add('topic-restore-highlight');
+    const clear = () => el.classList.remove('topic-restore-highlight');
+    el.addEventListener('animationend', clear, { once: true });
+    setTimeout(clear, 2200);
+  },
+
+  restoreScrollToTopic({ topicId, scrollY, behavior = 'auto' } = {}) {
+    const offset = this.NAVBAR_HEIGHT + this.SCROLL_EXTRA_OFFSET;
+    const target = this.findTopicRestoreTarget(topicId);
+
+    if (target) {
+      const rect = target.getBoundingClientRect();
+      const top = rect.top + (window.pageYOffset || document.documentElement.scrollTop) - offset;
+      window.scrollTo({ top: Math.max(0, top), behavior });
+      this.highlightRestoredTopic(target);
+      return true;
+    }
+
+    if (typeof scrollY === 'number' && scrollY >= 0) {
+      window.scrollTo({ top: scrollY, behavior });
+      return true;
+    }
+
+    return false;
+  },
+
+  /**
+   * After async list render: consume matching return state and restore scroll.
+   * Returns the consumed state (or null) so callers can re-apply filters first.
+   */
+  applyNavReturnAfterRender({ page, sourceId, delay = 50 } = {}) {
+    const state = this.consumeNavReturnState((data) => {
+      if (page && data.page && data.page !== page) return false;
+      if (sourceId != null && data.sourceId != null && data.sourceId !== '' && data.sourceId !== sourceId) {
+        return false;
+      }
+      return true;
+    });
+    if (!state) return null;
+
+    const run = () => {
+      this.restoreScrollToTopic({
+        topicId: state.topicId,
+        scrollY: state.scrollY,
+        behavior: 'auto'
+      });
+    };
+
+    if (delay > 0) {
+      requestAnimationFrame(() => setTimeout(run, delay));
+    } else {
+      requestAnimationFrame(run);
+    }
+    return state;
   },
 
   renderSourceBreadcrumbs({ sourceTitle }) {
@@ -409,7 +714,8 @@ const TopicUtils = {
       || (entry.pathTitles?.length > 1
         ? entry.pathTitles.slice(0, -1).join(' › ')
         : entry.sourceTitle || '');
-    const statusBadge = entry.is_placeholder
+    const isPh = !!entry.is_placeholder;
+    const statusBadge = isPh
       ? '<span class="codex-meta-pill codex-meta-pill--soon">Coming soon</span>'
       : '<span class="codex-meta-pill">Ready</span>';
     const pathText = this.escapeHtml(path);
@@ -423,9 +729,10 @@ const TopicUtils = {
     const thumbClass = useThumb ? '' : ' codex-search-card-thumb--fallback';
 
     const desc = entry.description ? this.escapeHtml(entry.description) : pathText;
-
-    return `
-      <a href="${this.escapeAttr(entry.href)}" class="codex-search-card channel-card group">
+    const topicIdAttr = entry.id
+      ? ` data-topic-id="${this.escapeAttr(entry.id)}" id="topic-${this.escapeAttr(entry.id)}"`
+      : '';
+    const body = `
         <div class="codex-search-card-thumb${thumbClass}">
           ${thumb}
         </div>
@@ -439,7 +746,20 @@ const TopicUtils = {
           </div>
           <p class="codex-search-card-desc">${desc}</p>
           <div class="codex-search-card-path">${pathText}</div>
-        </div>
+        </div>`;
+
+    // Placeholders: non-navigable card (tree leaves are also blocked)
+    if (isPh || !entry.href) {
+      return `
+      <div class="codex-search-card channel-card codex-search-card--soon" aria-disabled="true"${topicIdAttr}>
+        ${body}
+      </div>
+    `;
+    }
+
+    return `
+      <a href="${this.escapeAttr(entry.href)}" class="codex-search-card channel-card group"${topicIdAttr}>
+        ${body}
       </a>
     `;
   },

@@ -80,6 +80,7 @@ const entries = [
   { path: '/quiz/breakdown/perception-solidity.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/matrix-scaffolding.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/the-cube-system.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/hard-drive-framework.html', priority: '0.75', changefreq: 'monthly' },
 ];
 
 const sourcesPath = path.join(ROOT, 'data', 'sources.json');
