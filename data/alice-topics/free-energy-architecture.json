@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v77ep5w/?pub=4p0ieu",
       "description": "Practical breakdown of harmonic architecture."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/free-energy-architecture.html",
+    "title": "Free Energy Architecture",
+    "totalQuestions": 25,
+    "description": "Test your grasp of Free Energy Architecture — Tartaria, Nodes and Ley Lines, Crystalline Temples, Tuning Forks, Atmospheric Condensers, Radium, Mud-floods, and the hijacked power grid."
+  }
 }

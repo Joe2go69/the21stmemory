@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v76zlse/?pub=4p0ieu",
       "description": "Core revelations about flat earth."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/flat-earth.html",
+    "title": "Flat Earth",
+    "totalQuestions": 25,
+    "description": "Test your grasp of Flat Earth — horizontal plane, Firmament, Ice Wall, Gateway-10, fake gravity, Sky-Net-1 stars, Freemason secrecy, and unlearning Heliocentrism before the EMF flash."
+  }
 }
