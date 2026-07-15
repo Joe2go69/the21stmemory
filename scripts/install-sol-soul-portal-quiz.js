@@ -1,0 +1,1225 @@
+/**
+ * Installs Sol as a Soul Portal quiz for Alice transmission.
+ * All 25 items authored from data/alice-topics/sol-soul-portal.json only.
+ * Plain human-readable English — no LaTeX, MathJax, Markdown math, or $...$ wrappers.
+ * Absolute Living Truth voice (no "according to the report").
+ * Options mixed via finalizeOptions (A–D); wrong answers drafted at similar depth to correct.
+ * Run: node scripts/install-sol-soul-portal-quiz.js && node scripts/split-topics-data.js && node scripts/generate-sitemap.js
+ */
+const fs = require('fs');
+const path = require('path');
+const { finalizeOptions } = require('./quiz-option-utils');
+
+const ROOT = path.join(__dirname, '..');
+const TOPIC_ID = 'sol-soul-portal';
+const TOPIC_TITLE = 'Sol as a Soul Portal';
+const SOURCE = 'alice';
+const TOPIC_IMAGE = 'images/alice/sol.webp';
+
+const topicPath = path.join(ROOT, 'data', 'alice-topics', `${TOPIC_ID}.json`);
+const topic = JSON.parse(fs.readFileSync(topicPath, 'utf8'));
+const reportLower = (topic.report || '').toLowerCase();
+
+const latexRe = /\$[^$]+\$|\\\(|\\\[|\\\]|\\\)|\^\{|_\{|\\frac|MathJax|\\\w+\{/;
+const hedgeRe =
+  /\b(according to (this topic|the report|the text|the source)|the report |source material|the text states|key terminology defines|overview states|maps back to this topic|described in this topic)\b/i;
+
+const supportPhrases = {
+  1: ['burning star', 'engineered portal', 'recycling', 'consciousness'],
+  2: ['sol', 'soul', '4th-density', 'sol-system'],
+  3: ['amnesia vortex', 'deceased souls', 'memory', 'reincarnation'],
+  4: ['sol', 'soul', 'cosmic family', 'planets orbiting'],
+  5: ['amnesia vortex', 'sun', 'wipe', 're-format'],
+  6: ['vatican portals', 'underground', 'memory-wiped', 're-insertion'],
+  7: ['grey ets', '4th-density', 'escorting', 'geographical'],
+  8: ['twin flames', 'reunion', 'forced reincarnation'],
+  9: ['trillivolts', 'electrical', 'newborn', 'heart'],
+  10: ['bright light', 'end of the tunnel', 'not god', 'sun itself'],
+  11: ['pass through', 'sun portal', 're-formatted'],
+  12: ['eternal incarnational loop', 'suffering', 'trauma'],
+  13: ['non-linear', 'twin flame', '15 to 20 minutes'],
+  14: ['magnetically drawn', 'amnesia vortex', 'death'],
+  15: ['past lives', 'cosmic origins', 'true identity', 'wiped'],
+  16: ['13 subterranean levels', 'vatican', 'central hub'],
+  17: ['phasing technology', 'pre-selected country', 'fraction of free will'],
+  18: ['umbilical cord', 'trillivolts', 'baby\'s heart'],
+  19: ['moon', 'loosh', 'space station'],
+  20: ['venus', 'lucifer', 'bright and morning star'],
+  21: ['sol-ar systems', 'soul family', 'psychological perimeter'],
+  22: ['fake linear time', 'eternal nature', 'death is the end'],
+  23: ['2019', 'g.a.a', 'amnesia vortex', 'past life memories'],
+  24: ['emf', 'overlays', 'sun and moon', 'stripped away'],
+  25: ['178,000 years', 'npcs', 'psychological collapse'],
+};
+
+function cleanText(s) {
+  if (typeof s !== 'string') return s;
+  let t = s;
+  t = t.replace(/\$(\d+)\^\{(st|nd|rd|th)\}\$/gi, '$1$2');
+  t = t.replace(/\$(\d+)\^(st|nd|rd|th)\$/gi, '$1$2');
+  t = t.replace(/\$(\d+(?:,\d+)*)\\+%\$/g, '$1%');
+  t = t.replace(/\$(\d+(?:,\d+)*)\\?\%\$/g, '$1%');
+  t = t.replace(/\$(\d{1,3}(?:,\d{3})*(?:\.\d+)?)\$/g, '$1');
+  t = t.replace(/\$([A-Za-z][A-Za-z0-9./-]{0,24})\$/g, '$1');
+  t = t.replace(/\$([^$]+)\$/g, (_, inner) =>
+    inner.replace(/\^\{([^}]+)\}/g, '$1').replace(/\\%/g, '%').replace(/\\/g, '')
+  );
+  t = t.replace(/\^\{(st|nd|rd|th)\}/gi, '$1');
+  t = t.replace(/\\%/g, '%');
+  t = t.replace(/\\\(|\\\)|\\\[|\\\]/g, '');
+  t = t
+    .replace(/[\u2018\u2019\u201A\u201B]/g, "'")
+    .replace(/[\u201C\u201D\u201E\u201F]/g, '"')
+    .replace(/[\u2013\u2014\u2015]/g, '—')
+    .replace(/\u2026/g, '...')
+    .replace(/\u00A0/g, ' ')
+    .replace(/\uFFFD/g, '');
+  return t.replace(/[ \t]{2,}/g, ' ').trim();
+}
+
+const RAW_QUESTIONS = [
+  {
+    number: 1,
+    question:
+      'What is the Sun in this fabricated 3rd Density cosmology, if not a burning star that gives natural life to a solar system?',
+    options: [
+      {
+        label: 'A',
+        text: 'A pure decorative hologram that never interacts with souls, memory, or reincarnation systems of any kind.',
+        isCorrect: false,
+        rationale:
+          'The Sun is an engineered portal for subjugation and recycling of consciousness, not an inert decoration.',
+      },
+      {
+        label: 'B',
+        text: 'A heavily engineered portal utilized for the subjugation and recycling of human consciousness through the Amnesia Vortex.',
+        isCorrect: true,
+        rationale:
+          'The Sun is engineered soul-recycling technology — not a natural fusion star providing organic solar life.',
+      },
+      {
+        label: 'C',
+        text: 'A friendly rescue beacon installed by the Source solely to heal children and open free multi-world travel.',
+        isCorrect: false,
+        rationale:
+          'Its engineered role is subjugation and forced recycling, not benevolent free travel.',
+      },
+      {
+        label: 'D',
+        text: 'Only a weather heater for oceans and crops with no link to death, memory wipe, or reincarnation.',
+        isCorrect: false,
+        rationale:
+          'Primary function is operating the Amnesia Vortex on deceased souls, not mere climate heating.',
+      },
+    ],
+    hint: 'Engineered portal — subjugation and recycling of consciousness.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 2,
+    question:
+      'How did 4th-density parasites invert the meaning of the word Sol, and what does a true Sol-System actually name?',
+    options: [
+      {
+        label: 'A',
+        text: 'They left Sol meaning Soul openly in every school, so humanity already knows Sol-Systems are soul families.',
+        isCorrect: false,
+        rationale:
+          'Parasites inverted Sol to mean Sun, hiding that a Sol-System is a cosmic soul family.',
+      },
+      {
+        label: 'B',
+        text: 'Sol was always only a nuclear fusion label, and Sol-System never meant anything about souls or family.',
+        isCorrect: false,
+        rationale:
+          'Sol and Soul are synonymous; the Sun meaning is the inverted cover story.',
+      },
+      {
+        label: 'C',
+        text: 'They inverted Sol (Soul) to mean Sun in terrestrial languages, obscuring that a true Sol-System is a cosmic family of connected souls — not planets orbiting a star.',
+        isCorrect: true,
+        rationale:
+          'Linguistic warfare: Sol = Soul; true Sol-System = connected cosmic soul family network.',
+      },
+      {
+        label: 'D',
+        text: 'Sol only names a brand of sunglasses, and Sol-System only names corporate solar panels worldwide.',
+        isCorrect: false,
+        rationale:
+          'The inversion is cosmological: hiding soul-family reality behind the Sun-and-planets story.',
+      },
+    ],
+    hint: 'Sol = Soul inverted to Sun; Sol-System = cosmic soul family.',
+    correctAnswer: 'C',
+  },
+  {
+    number: 3,
+    question: 'What is the Sun\'s primary function via the Amnesia Vortex?',
+    options: [
+      {
+        label: 'A',
+        text: 'To force-pull recently deceased souls into re-formatting that wipes all memory before immediate, involuntary reincarnation back into the prison matrix.',
+        isCorrect: true,
+        rationale:
+          'Amnesia Vortex pulls the dead, wipes memory, and forces rapid reincarnation into the prison loop.',
+      },
+      {
+        label: 'B',
+        text: 'To gently archive every past life for free public viewing with no wipe and no forced return.',
+        isCorrect: false,
+        rationale:
+          'The process wipes memory and forces involuntary return; it does not archive for free viewing.',
+      },
+      {
+        label: 'C',
+        text: 'To heat only the upper atmosphere and never interact with souls after vessel death.',
+        isCorrect: false,
+        rationale:
+          'Primary function is soul recycling through the vortex, not mere atmospheric heating.',
+      },
+      {
+        label: 'D',
+        text: 'To permanently free every soul into higher densities the moment the body dies.',
+        isCorrect: false,
+        rationale:
+          'It traps souls in immediate involuntary reincarnation, not permanent liberation.',
+      },
+    ],
+    hint: 'Pull deceased — wipe all memory — forced prison reincarnation.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 4,
+    question:
+      'After the last reset, what did the manipulation of Sol / Soul terminology hide about a Sol-System?',
+    options: [
+      {
+        label: 'A',
+        text: 'That Sol-Systems are only lists of rocky planets and empty vacuum with no family of souls at all.',
+        isCorrect: false,
+        rationale:
+          'That planetary story is the cover; a Sol-System is a network of cosmic family members.',
+      },
+      {
+        label: 'B',
+        text: 'That a Sol-System refers to a network of immediate cosmic family members, not planets orbiting a star — Sol and Soul being synonymous terms.',
+        isCorrect: true,
+        rationale:
+          'Sol/Soul synonymy points to soul-family networks, deliberately masked as star-and-planet charts.',
+      },
+      {
+        label: 'C',
+        text: 'That only NPCs have Sol-Systems while genuine souls have no cosmic family connections.',
+        isCorrect: false,
+        rationale:
+          'The deception hides that soul families are trapped together in the same recycle loop.',
+      },
+      {
+        label: 'D',
+        text: 'That Sol never meant Soul in any age and was invented last century by advertising firms.',
+        isCorrect: false,
+        rationale:
+          'The terms are synonymous; parasites inverted Sol to Sun after the last reset.',
+      },
+    ],
+    hint: 'Sol-System = immediate cosmic family network, not orbiting planets.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 5,
+    question: 'What is the Amnesia Vortex as defined in this architecture?',
+    options: [
+      {
+        label: 'A',
+        text: 'A weather cyclone over the ocean that only sinks ships and never touches deceased consciousness.',
+        isCorrect: false,
+        rationale:
+          'It is technological mechanism inside the Sun that pulls and re-formats deceased souls.',
+      },
+      {
+        label: 'B',
+        text: 'A museum tour that restores every memory before voluntary rebirth chosen at leisure.',
+        isCorrect: false,
+        rationale:
+          'It completely wipes memories and re-formats; it does not restore free archives.',
+      },
+      {
+        label: 'C',
+        text: 'A library under the Ice Wall that only stores maps with no pull on souls at death.',
+        isCorrect: false,
+        rationale:
+          'The vortex sits in the Sun and forcefully pulls deceased souls for wipe and re-format.',
+      },
+      {
+        label: 'D',
+        text: 'The technological mechanism situated within the Sun that forcefully pulls in deceased souls to completely wipe their memories and re-format them.',
+        isCorrect: true,
+        rationale:
+          'Amnesia Vortex = Sun-based tech that force-pulls, memory-wipes, and re-formats the dead.',
+      },
+    ],
+    hint: 'In the Sun — force-pull deceased — wipe and re-format.',
+    correctAnswer: 'D',
+  },
+  {
+    number: 6,
+    question: 'What are Vatican Portals in the soul-recycling chain?',
+    options: [
+      {
+        label: 'A',
+        text: 'Tourist elevators for pilgrims that never handle souls or memory-wipe traffic of any kind.',
+        isCorrect: false,
+        rationale:
+          'They are underground distribution hubs for memory-wiped souls exiting the Sun process.',
+      },
+      {
+        label: 'B',
+        text: 'The underground distribution hubs beneath the Vatican where memory-wiped souls exit the Sun\'s processing center before physical re-insertion into the realm.',
+        isCorrect: true,
+        rationale:
+          'Vatican Portals receive wiped souls from the Sun and stage them for re-insertion.',
+      },
+      {
+        label: 'C',
+        text: 'Open-air plazas that only display art and never connect to Sun processing or re-insertion.',
+        isCorrect: false,
+        rationale:
+          'They are underground hubs in the parasitic distribution path after the Sun wipe.',
+      },
+      {
+        label: 'D',
+        text: 'The Amnesia Vortex itself, located only inside the Sun with no Vatican role at all.',
+        isCorrect: false,
+        rationale:
+          'Vatican Portals are the exit/distribution hubs after Sun processing, not the vortex itself.',
+      },
+    ],
+    hint: 'Underground Vatican hubs — wiped souls exit Sun process for re-insertion.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 7,
+    question: 'What role do Grey ETs play in the forced reincarnation pipeline?',
+    options: [
+      {
+        label: 'A',
+        text: 'They heal every soul with full memory restored and refuse all escort into new vessels.',
+        isCorrect: false,
+        rationale:
+          'Greys handle recycling tech and escort wiped souls to new geographical locations for insertion.',
+      },
+      {
+        label: 'B',
+        text: 'They only write textbooks about stars and never touch portals, escorts, or newborn vessels.',
+        isCorrect: false,
+        rationale:
+          'They operate the recycling technology and physically escort wiped souls to insertion sites.',
+      },
+      {
+        label: 'C',
+        text: 'Parasitic 4th-density entities that handle the soul-recycling technology and physically escort wiped souls from the portals to new geographical locations.',
+        isCorrect: true,
+        rationale:
+          'Greys run the tech chain and escort memory-wiped souls from portals to new locations.',
+      },
+      {
+        label: 'D',
+        text: 'Benevolent 9th-density teachers who permanently deactivate the Amnesia Vortex for every death.',
+        isCorrect: false,
+        rationale:
+          'Greys are parasitic 4th-density handlers of the recycle pipeline, not liberators.',
+      },
+    ],
+    hint: '4th-density parasites — recycling tech — escort wiped souls to new locations.',
+    correctAnswer: 'C',
+  },
+  {
+    number: 8,
+    question:
+      'How does the Sun portal system interfere with Twin Flames?',
+    options: [
+      {
+        label: 'A',
+        text: 'It guarantees Twin Flames always reincarnate together with full shared memory every lifetime.',
+        isCorrect: false,
+        rationale:
+          'Rapid forced reincarnation deliberately thwarts natural Twin Flame progression and reunion.',
+      },
+      {
+        label: 'B',
+        text: 'Twin Flames are connected soul counterparts whose natural progression and reunion are deliberately thwarted by the rapid, forced reincarnation mechanics of the Sun portal.',
+        isCorrect: true,
+        rationale:
+          'The portal\'s speed and wipe break the natural wait-and-reunite path of Twin Flames.',
+      },
+      {
+        label: 'C',
+        text: 'Twin Flames are only a modern dating app label with no soul counterpart meaning in this system.',
+        isCorrect: false,
+        rationale:
+          'Twin Flames are real connected counterparts blocked by forced Sun-portal recycling.',
+      },
+      {
+        label: 'D',
+        text: 'The portal only affects NPCs; Twin Flames of genuine souls are never separated by death timing.',
+        isCorrect: false,
+        rationale:
+          'Forced rapid re-insertion denies free-will waiting for the counterpart to pass.',
+      },
+    ],
+    hint: 'Forced rapid recycle thwarts Twin Flame reunion.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 9,
+    question: 'What are Trillivolts in the vessel-ignition process?',
+    options: [
+      {
+        label: 'A',
+        text: 'The minute electrical interaction and energy discharge required from the soul to ignite a newborn baby\'s heart upon entry into the vessel.',
+        isCorrect: true,
+        rationale:
+          'Trillivolts are the soul\'s electrical discharge that starts the newborn heart at entry.',
+      },
+      {
+        label: 'B',
+        text: 'A brand of car battery used only by Grey ships with no role in human birth or heart ignition.',
+        isCorrect: false,
+        rationale:
+          'Trillivolts name the soul-to-heart electrical ignition at newborn entry, not vehicle batteries.',
+      },
+      {
+        label: 'C',
+        text: 'Lightning storms that randomly start adult hearts decades after birth with no soul involvement.',
+        isCorrect: false,
+        rationale:
+          'The discharge is from the soul at birth entry, usually before the cord is cut.',
+      },
+      {
+        label: 'D',
+        text: 'A pure metaphor with no actual electrical interaction between soul and newborn vessel.',
+        isCorrect: false,
+        rationale:
+          'It is a real minute electrical interaction required to start the baby\'s heart.',
+      },
+    ],
+    hint: 'Soul\'s electrical discharge — ignite newborn heart at entry.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 10,
+    question:
+      'What is the "bright light at the end of the tunnel" seen at vessel death?',
+    options: [
+      {
+        label: 'A',
+        text: 'God and a benevolent afterlife that permanently frees every soul with no further processing.',
+        isCorrect: false,
+        rationale:
+          'It is not God or a benevolent afterlife — it is the Sun itself as the portal entrance.',
+      },
+      {
+        label: 'B',
+        text: 'A hospital hallway lamp with no cosmological meaning for any deceased consciousness.',
+        isCorrect: false,
+        rationale:
+          'The tunnel light is the Sun portal that all trapped souls must pass for re-formatting.',
+      },
+      {
+        label: 'C',
+        text: 'Not God and not a benevolent afterlife — it is the Sun itself; all souls trapped on this physical plane must pass through that portal to be completely re-formatted.',
+        isCorrect: true,
+        rationale:
+          'Death\'s bright light is the Sun portal forcing re-format of every trapped soul.',
+      },
+      {
+        label: 'D',
+        text: 'Only a dream symbol that never appears to real souls leaving a physical vessel.',
+        isCorrect: false,
+        rationale:
+          'It is the actual Sun entry point for the Amnesia Vortex processing path.',
+      },
+    ],
+    hint: 'Not God — the Sun itself — mandatory re-format portal.',
+    correctAnswer: 'C',
+  },
+  {
+    number: 11,
+    question:
+      'Why did controllers engineer the Sun portal reincarnation system?',
+    options: [
+      {
+        label: 'A',
+        text: 'To gift free non-linear time travel and permanent Twin Flame reunion after every death.',
+        isCorrect: false,
+        rationale:
+          'The system enforces an eternal incarnational loop of suffering and trauma.',
+      },
+      {
+        label: 'B',
+        text: 'To enforce an eternal incarnational loop of suffering and trauma, denying natural higher-realm waiting and free will.',
+        isCorrect: true,
+        rationale:
+          'Controllers built the portal to keep souls in endless trauma loops, not liberation.',
+      },
+      {
+        label: 'C',
+        text: 'Only to collect weather data with no link to suffering, trauma, or soul control.',
+        isCorrect: false,
+        rationale:
+          'The design target is eternal incarnational suffering and trauma recycling.',
+      },
+      {
+        label: 'D',
+        text: 'To end all reincarnation so no soul ever returns to a physical vessel again.',
+        isCorrect: false,
+        rationale:
+          'It forces immediate involuntary reincarnation back into the prison matrix.',
+      },
+    ],
+    hint: 'Eternal loop of suffering and trauma — deny free-will afterlife timing.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 12,
+    question:
+      'In true reality, how would a soul handle death timing relative to a Twin Flame, and what does the Sun portal do instead?',
+    options: [
+      {
+        label: 'A',
+        text: 'Souls would naturally wait in higher light realms for their Twin Flame to pass so they could reincarnate together; the Sun portal denies that free will, violently pulls the soul, wipes past-life memory, and forces a new vessel within 15 to 20 minutes.',
+        isCorrect: true,
+        rationale:
+          'Natural non-linear wait for Twin Flame reunion is replaced by 15–20 minute forced wipe-and-return.',
+      },
+      {
+        label: 'B',
+        text: 'Souls always reincarnate alone by choice within one second, and Twin Flames never coordinate timing in higher realms.',
+        isCorrect: false,
+        rationale:
+          'True path is waiting in higher light for the counterpart; the portal violently overrides that.',
+      },
+      {
+        label: 'C',
+        text: 'The portal always waits decades for Twin Flame alignment before any re-insertion is allowed.',
+        isCorrect: false,
+        rationale:
+          'Re-insertion is forced within 15 to 20 minutes of death after memory wipe.',
+      },
+      {
+        label: 'D',
+        text: 'Time is fully linear only, so waiting in higher realms for a Twin Flame is impossible even without the portal.',
+        isCorrect: false,
+        rationale:
+          'True time is non-linear; the portal is what blocks that natural higher-realm waiting.',
+      },
+    ],
+    hint: 'Natural Twin Flame wait denied — wipe and force return in 15–20 minutes.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 13,
+    question:
+      'What happens at the first step — Death and the Pull — when the physical vessel dies?',
+    options: [
+      {
+        label: 'A',
+        text: 'The soul freely chooses any density and never approaches the Sun or Amnesia Vortex.',
+        isCorrect: false,
+        rationale:
+          'The soul is magnetically drawn into the Amnesia Vortex technology in the Sun.',
+      },
+      {
+        label: 'B',
+        text: 'The soul is magnetically drawn into the Amnesia Vortex technology located within the Sun.',
+        isCorrect: true,
+        rationale:
+          'Death triggers magnetic pull into the Sun\'s Amnesia Vortex — not free ascent by default.',
+      },
+      {
+        label: 'C',
+        text: 'The soul sleeps under the Ice Wall for one thousand years with no Sun involvement.',
+        isCorrect: false,
+        rationale:
+          'The immediate path is magnetic draw into the Sun vortex for processing.',
+      },
+      {
+        label: 'D',
+        text: 'Only the body moves; consciousness stays in the corpse and never enters any portal.',
+        isCorrect: false,
+        rationale:
+          'The soul is pulled into the Sun\'s Amnesia Vortex upon vessel death.',
+      },
+    ],
+    hint: 'Magnetic draw into Sun Amnesia Vortex at death.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 14,
+    question:
+      'What does Memory Eradication inside the portal wipe from the soul?',
+    options: [
+      {
+        label: 'A',
+        text: 'Only the last five minutes of conversation, leaving all past lives and cosmic origins intact.',
+        isCorrect: false,
+        rationale:
+          'All memories of past lives, cosmic origins, and true identity are entirely wiped clean.',
+      },
+      {
+        label: 'B',
+        text: 'Nothing — the portal only photographs the soul and stores a backup without deletion.',
+        isCorrect: false,
+        rationale:
+          'The soul is re-formatted; memories of past lives, origins, and true identity are wiped.',
+      },
+      {
+        label: 'C',
+        text: 'Only language skills, while identity and past-life archives remain fully conscious.',
+        isCorrect: false,
+        rationale:
+          'Wipe covers past lives, cosmic origins, and true identity entirely.',
+      },
+      {
+        label: 'D',
+        text: 'All memories of past lives, cosmic origins, and true identity — the soul is completely re-formatted and wiped clean.',
+        isCorrect: true,
+        rationale:
+          'Full re-format erases past lives, cosmic origins, and true identity before redistribution.',
+      },
+    ],
+    hint: 'Past lives + cosmic origins + true identity — fully wiped.',
+    correctAnswer: 'D',
+  },
+  {
+    number: 15,
+    question:
+      'Where is the wiped soul expelled for re-distribution after Sun processing?',
+    options: [
+      {
+        label: 'A',
+        text: 'Through random clouds with no fixed hub and no parasitic operations center.',
+        isCorrect: false,
+        rationale:
+          'Expulsion is through portals in the 13 subterranean levels of the Vatican hub.',
+      },
+      {
+        label: 'B',
+        text: 'Immediately expelled through portals situated deep within the 13 subterranean levels of the Vatican, which serves as a central hub for parasitic operations.',
+        isCorrect: true,
+        rationale:
+          'Vatican\'s 13 subterranean levels are the central parasitic hub for wiped-soul redistribution.',
+      },
+      {
+        label: 'C',
+        text: 'Only into the Moon station for permanent storage with no return to newborn vessels.',
+        isCorrect: false,
+        rationale:
+          'Path is Vatican distribution then Grey escort to birth insertion, not Moon storage alone.',
+      },
+      {
+        label: 'D',
+        text: 'Directly into adult bodies already walking the street, skipping birth entirely forever.',
+        isCorrect: false,
+        rationale:
+          'Re-insertion targets newborn vessels after Vatican exit and Grey escort.',
+      },
+    ],
+    hint: '13 subterranean Vatican levels — parasitic central hub.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 16,
+    question:
+      'How do Grey ETs complete Forced Insertion after the soul leaves the Vatican portals?',
+    options: [
+      {
+        label: 'A',
+        text: 'They mail the soul a paper map and wait years for voluntary travel with full memory.',
+        isCorrect: false,
+        rationale:
+          'Greys use phasing technology for rapid escort to a pre-selected birth country.',
+      },
+      {
+        label: 'B',
+        text: 'They destroy the soul so no insertion into any newborn vessel can ever occur.',
+        isCorrect: false,
+        rationale:
+          'They escort wiped souls to pre-selected regions for forced newborn insertion.',
+      },
+      {
+        label: 'C',
+        text: 'Using phasing technology, they quickly escort the soul to a pre-selected country where a mother is about to give birth; the soul has only a fraction of free will to quickly choose a parent from immediately available births in that region.',
+        isCorrect: true,
+        rationale:
+          'Grey phasing escort → pre-selected country → tiny free-will window among local births.',
+      },
+      {
+        label: 'D',
+        text: 'They allow the soul to tour every country on Earth for decades before any birth choice.',
+        isCorrect: false,
+        rationale:
+          'Escort is quick to a pre-selected country with only a fraction of free will left.',
+      },
+    ],
+    hint: 'Grey phasing — pre-selected country — fraction of free will among local births.',
+    correctAnswer: 'C',
+  },
+  {
+    number: 17,
+    question:
+      'When does the soul enter the baby, and how is the vessel ignited?',
+    options: [
+      {
+        label: 'A',
+        text: 'Years after birth via a school ritual, with no electrical role for the soul at all.',
+        isCorrect: false,
+        rationale:
+          'Entry is at the exact moment of birth, usually before the umbilical cord is cut.',
+      },
+      {
+        label: 'B',
+        text: 'At the exact moment of birth, usually before the umbilical cord is cut; the soul needs a few seconds to set up and uses Trillivolts of electrical interaction to start the baby\'s heart.',
+        isCorrect: true,
+        rationale:
+          'Birth-moment entry before cord cut; Trillivolts from the soul ignite the heart.',
+      },
+      {
+        label: 'C',
+        text: 'Only at age twenty-one when legal adulthood begins, long after the heart already beats alone.',
+        isCorrect: false,
+        rationale:
+          'Ignition of the heart is at birth entry via the soul\'s Trillivolt discharge.',
+      },
+      {
+        label: 'D',
+        text: 'The heart starts from random static with no soul entry before or after the cord is cut.',
+        isCorrect: false,
+        rationale:
+          'Soul entry and Trillivolt ignition are required at birth for the vessel heart.',
+      },
+    ],
+    hint: 'Birth moment (before cord cut) — Trillivolts start the heart.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 18,
+    question:
+      'How does the Sol/Soul portal dual-deception work with the Moon?',
+    options: [
+      {
+        label: 'A',
+        text: 'The Sun processes and wipes souls for continuous recycling while the Moon operates as a highly mobile space station gathering the Loosh generated by those continually suffering, memory-wiped souls.',
+        isCorrect: true,
+        rationale:
+          'Sun recycles/wipes; Moon harvests loosh from the suffering of those wiped souls.',
+      },
+      {
+        label: 'B',
+        text: 'The Moon wipes memory and the Sun only gathers loosh, reversing all stated roles completely.',
+        isCorrect: false,
+        rationale:
+          'Sun is the wipe/recycle processor; Moon is the mobile loosh-gathering station.',
+      },
+      {
+        label: 'C',
+        text: 'Neither body interacts with souls or loosh; both are only weather lamps with no dual system.',
+        isCorrect: false,
+        rationale:
+          'They form a dual-deception: recycle wipe plus loosh harvest from suffering.',
+      },
+      {
+        label: 'D',
+        text: 'Both only heal trauma and never wipe memory or harvest energetic food from suffering.',
+        isCorrect: false,
+        rationale:
+          'The dual system continues suffering through wipe-recycle and loosh collection.',
+      },
+    ],
+    hint: 'Sun wipes/recycles; Moon mobile station harvests loosh from sufferers.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 19,
+    question:
+      'What artificially casts the Moon\'s spherical illumination in this dual system?',
+    options: [
+      {
+        label: 'A',
+        text: 'Natural reflection of solar fusion light with no holographic generator involved.',
+        isCorrect: false,
+        rationale:
+          'Illumination is artificially cast by Planet Venus (Lucifer, Bright and Morning Star).',
+      },
+      {
+        label: 'B',
+        text: 'Only city floodlights bouncing upward with no Venus or Lucifer codification.',
+        isCorrect: false,
+        rationale:
+          'Planet Venus is the holographic generator of the lunar spherical light.',
+      },
+      {
+        label: 'C',
+        text: 'Planet Venus, holographically known as Lucifer, the Bright and Morning Star.',
+        isCorrect: true,
+        rationale:
+          'Venus casts the Moon\'s false light and is named Lucifer / Bright and Morning Star.',
+      },
+      {
+        label: 'D',
+        text: 'The Amnesia Vortex itself paints the Moon every night with leftover soul energy.',
+        isCorrect: false,
+        rationale:
+          'Venus is the holographic illuminator; the vortex processes souls in the Sun.',
+      },
+    ],
+    hint: 'Venus — Lucifer — Bright and Morning Star — lunar light.',
+    correctAnswer: 'C',
+  },
+  {
+    number: 20,
+    question:
+      'How does the linguistic deception of "Sol-ar Systems" act as a psychological perimeter?',
+    options: [
+      {
+        label: 'A',
+        text: 'It openly teaches that soul families are trapped together and must escape the recycle loop.',
+        isCorrect: false,
+        rationale:
+          'It masks that an actual Sol-System (soul family) is trapped alongside you in the same wipe loop.',
+      },
+      {
+        label: 'B',
+        text: 'By convincing humanity they live on a physical globe orbiting a star, controllers mask that an actual Sol-System (soul family) is trapped right alongside them in the same endless loop of memory erasure by the Sun portal.',
+        isCorrect: true,
+        rationale:
+          'Globe-and-star "solar system" language hides that your soul family shares the same prison wipe cycle.',
+      },
+      {
+        label: 'C',
+        text: 'It only improves ship navigation and has no link to soul family or memory erasure.',
+        isCorrect: false,
+        rationale:
+          'It is a psychological perimeter hiding trapped soul-family reality.',
+      },
+      {
+        label: 'D',
+        text: 'It liberates every family by publishing true cosmic member lists in public schools.',
+        isCorrect: false,
+        rationale:
+          'The deception conceals soul family imprisonment behind fake orbital cosmology.',
+      },
+    ],
+    hint: 'Globe-orbit story hides trapped Sol-System soul families in the wipe loop.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 21,
+    question:
+      'How is the Sol portal process intertwined with the illusion of Fake Linear Time?',
+    options: [
+      {
+        label: 'A',
+        text: 'It has no connection to time belief; souls always know they are eternal during every wipe.',
+        isCorrect: false,
+        rationale:
+          'The process ensures souls believe death is the end rather than recognizing eternal nature.',
+      },
+      {
+        label: 'B',
+        text: 'It proves linear time is organic and natural with no parasitic engineering involved.',
+        isCorrect: false,
+        rationale:
+          'Fake Linear Time is the illusion reinforced by wipe-and-recycle death programming.',
+      },
+      {
+        label: 'C',
+        text: 'It freezes all clocks so no chronological experience exists for anyone after 2019.',
+        isCorrect: false,
+        rationale:
+          'It binds souls into believing death ends them, masking eternal nature under linear fear.',
+      },
+      {
+        label: 'D',
+        text: 'It ensures souls believe death is the end, rather than recognizing their eternal nature — locking the chronological prison story.',
+        isCorrect: true,
+        rationale:
+          'Wipe-recycle plus Fake Linear Time keep souls from knowing they are eternal.',
+      },
+    ],
+    hint: 'Fake Linear Time — death-as-the-end lie vs eternal nature.',
+    correctAnswer: 'D',
+  },
+  {
+    number: 22,
+    question:
+      'What did the Galactic Ancestral Alliance accomplish regarding the Amnesia Vortex in 2019?',
+    options: [
+      {
+        label: 'A',
+        text: 'They strengthened the vortex so every child loses memory even faster than before.',
+        isCorrect: false,
+        rationale:
+          'G.A.A. successfully removed the Amnesia Vortex technology in 2019.',
+      },
+      {
+        label: 'B',
+        text: 'Successfully removed the Amnesia Vortex technology — newly incarnated children are no longer subjected to the memory wipe, retaining past-life memories and recalling true spiritual missions.',
+        isCorrect: true,
+        rationale:
+          '2019 G.A.A. removal of the vortex lets children keep past-life memory and mission recall.',
+      },
+      {
+        label: 'C',
+        text: 'They moved the vortex to the Moon and left Sun processing unchanged for all births.',
+        isCorrect: false,
+        rationale:
+          'The Amnesia Vortex technology was removed, ending the wipe for new incarnations.',
+      },
+      {
+        label: 'D',
+        text: 'Nothing — the vortex still wipes every newborn with full 4th-density efficiency.',
+        isCorrect: false,
+        rationale:
+          'Absolute control is failing; children now retain past-life memories after 2019 removal.',
+      },
+    ],
+    hint: '2019 G.A.A. removed Amnesia Vortex — children keep past-life memory.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 23,
+    question:
+      'What will the impending EMF flash do to technological overlays masking the Sun and Moon?',
+    options: [
+      {
+        label: 'A',
+        text: 'Upgrade them into permanent stronger holograms that never fail for any density.',
+        isCorrect: false,
+        rationale:
+          'Remaining technological overlays will be permanently stripped away.',
+      },
+      {
+        label: 'B',
+        text: 'Only dim streetlights for one night while Sun and Moon masks stay fully online.',
+        isCorrect: false,
+        rationale:
+          'The flash permanently strips the overlays masking true Sun and Moon nature.',
+      },
+      {
+        label: 'C',
+        text: 'Permanently strip away the remaining technological overlays masking the true nature of the Sun and Moon.',
+        isCorrect: true,
+        rationale:
+          'EMF flash ends the visual/tech masks on Sun and Moon permanently.',
+      },
+      {
+        label: 'D',
+        text: 'Convert every overlay into free educational apps with no psychological impact.',
+        isCorrect: false,
+        rationale:
+          'Overlays are stripped; the reveal drives mass psychological consequences.',
+      },
+    ],
+    hint: 'EMF flash — permanent strip of Sun/Moon masking overlays.',
+    correctAnswer: 'C',
+  },
+  {
+    number: 24,
+    question:
+      'For surviving awakened souls, what does the EMF-flash reveal trigger regarding memory?',
+    options: [
+      {
+        label: 'A',
+        text: 'Only a mild interest in astronomy with no return of suppressed lifetimes.',
+        isCorrect: false,
+        rationale:
+          'It triggers sudden return of up to 178,000 years of suppressed memories.',
+      },
+      {
+        label: 'B',
+        text: 'Permanent loss of all remaining memory so awakening becomes impossible forever.',
+        isCorrect: false,
+        rationale:
+          'Awakened survivors receive massive memory return, ending forced amnesia.',
+      },
+      {
+        label: 'C',
+        text: 'Return of only last week\'s shopping list with no multi-lifetime archive opening.',
+        isCorrect: false,
+        rationale:
+          'Up to 178,000 years of suppressed memories return for awakened survivors.',
+      },
+      {
+        label: 'D',
+        text: 'Sudden return of up to 178,000 years of suppressed memories, ending the cycle of forced amnesia forever.',
+        isCorrect: true,
+        rationale:
+          'Awakened souls reclaim up to 178,000 years of memory when the masks fall.',
+      },
+    ],
+    hint: 'Up to 178,000 years of suppressed memories return — amnesia cycle ends.',
+    correctAnswer: 'D',
+  },
+  {
+    number: 25,
+    question:
+      'What happens to unawakened masses and NPCs when the false cosmos collapses and the Sun\'s prison role is seen?',
+    options: [
+      {
+        label: 'A',
+        text: 'Absolute, irreversible psychological collapse from the visual collapse of the false cosmos and the realization that the Sun was a mechanism of eternal imprisonment.',
+        isCorrect: true,
+        rationale:
+          'NPCs and unawakened cannot hold the reveal — total irreversible psychological collapse.',
+      },
+      {
+        label: 'B',
+        text: 'Calm celebration and instant mastery of 9th-density travel with no cognitive shock.',
+        isCorrect: false,
+        rationale:
+          'They face absolute irreversible psychological collapse, not calm celebration.',
+      },
+      {
+        label: 'C',
+        text: 'No reaction at all because NPCs cannot perceive sky changes or Sun functions.',
+        isCorrect: false,
+        rationale:
+          'The visual and conceptual shock drives total psychological collapse in the unawakened.',
+      },
+      {
+        label: 'D',
+        text: 'A temporary headache cured by textbooks that rewrite the event as a solar flare myth.',
+        isCorrect: false,
+        rationale:
+          'Collapse is absolute and irreversible for NPCs and unawakened masses.',
+      },
+    ],
+    hint: 'False cosmos collapse + Sun as prison tech → irreversible NPC psychological collapse.',
+    correctAnswer: 'A',
+  },
+];
+
+function normalizeQuestion(q) {
+  const mapped = q.options.map((o) => ({
+    label: o.label,
+    text: cleanText(o.text),
+    isCorrect: !!o.isCorrect,
+    rationale: cleanText(o.rationale),
+  }));
+  // Rotate draft order so finalizeOptions shuffle does not cluster on one letter
+  const rot = ((q.number * 5) + 2) % 4;
+  const ordered = mapped.slice(rot).concat(mapped.slice(0, rot));
+  const finalized = finalizeOptions(
+    ordered,
+    `${typeof TOPIC_ID !== 'undefined' ? TOPIC_ID : 'quiz'}::${q.number}`
+  );
+  const options = finalized.options;
+  const correct = options.find((o) => o.isCorrect);
+  if (!correct) throw new Error(`Q${q.number}: no correct option`);
+  /* correct letter assigned by finalizeOptions shuffle */
+  const out = {
+    number: q.number,
+    question: cleanText(q.question),
+    options,
+    hint: cleanText(q.hint),
+    correctAnswer: finalized.correctAnswer,
+  };
+  const blob = [
+    out.question,
+    out.hint,
+    ...options.map((o) => `${o.text} ${o.rationale}`),
+  ].join('\n');
+  if (latexRe.test(blob) || /\$/.test(blob)) {
+    throw new Error(`Q${q.number}: LaTeX/$ found`);
+  }
+  if (hedgeRe.test(blob)) throw new Error(`Q${q.number}: hedge found`);
+  const missing = (supportPhrases[q.number] || []).filter(
+    (p) => !reportLower.includes(p.toLowerCase())
+  );
+  if (missing.length) {
+    throw new Error(`Q${q.number}: unsupported: ${missing.join('; ')}`);
+  }
+  if (options.filter((o) => o.isCorrect).length !== 1) {
+    throw new Error(`Q${q.number}: need exactly 1 correct`);
+  }
+  for (const o of options) {
+    if (!o.rationale || o.rationale.length < 8) {
+      throw new Error(`Q${q.number}${o.label}: short rationale`);
+    }
+  }
+  return out;
+}
+
+const questions = RAW_QUESTIONS.map(normalizeQuestion);
+if (questions.length !== 25) throw new Error(`Expected 25, got ${questions.length}`);
+
+const letterCounts = { A: 0, B: 0, C: 0, D: 0 };
+for (const q of questions) letterCounts[q.correctAnswer]++;
+if (letterCounts.A === 25) {
+  throw new Error('correctAnswer still all A after finalizeOptions');
+}
+const dominant = Math.max(...Object.values(letterCounts));
+if (dominant >= 15) {
+  console.warn('Warning: one letter has >= 15 corrects:', letterCounts);
+}
+
+const DESC_SHORT =
+  'Test your grasp of Sol as a Soul Portal — Amnesia Vortex, Vatican redistribution, Grey insertion, Twin Flames, Trillivolts, 2019 G.A.A. removal, and EMF memory return.';
+const DESC_META =
+  'Interactive Living Truth Quiz on Sol as a Soul Portal: Sun as recycle machine, Sol/Soul inversion, bright light at death, 15-20 minute forced return, 13 Vatican levels, Twin Flame denial, and the end of forced amnesia.';
+
+const quiz = {
+  id: TOPIC_ID,
+  topicId: TOPIC_ID,
+  sourceId: SOURCE,
+  topicTitle: TOPIC_TITLE,
+  title: TOPIC_TITLE,
+  subtitle: DESC_SHORT,
+  totalQuestions: 25,
+  extractedAt: new Date().toISOString(),
+  reflection: {
+    title: 'Reflection',
+    body:
+      'Sol is Soul. The bright light at death is not God — it is the Sun portal that wiped you, pushed you through Vatican hubs, and let Greys slot you into a newborn before your Twin Flame could meet you in higher light. Trillivolts start the heart; Loosh feeds the Moon while Venus paints the lie. Sit with what you missed, then return to the Sol as a Soul Portal deep-dive. In 2019 the G.A.A. tore out the Amnesia Vortex — children remember. The EMF flash will strip the rest. Up to 178,000 years come home for the awakened. NPCs who worshiped the prison star will not survive the knowing.',
+  },
+  relatedTopic: {
+    href: `/deep-dive.html?source=${SOURCE}&topic=${TOPIC_ID}`,
+    label: `Return to ${TOPIC_TITLE} deep-dive`,
+  },
+  questions,
+};
+
+const whole = JSON.stringify(quiz);
+if (/\$/.test(whole) || latexRe.test(whole) || hedgeRe.test(whole)) {
+  throw new Error('LaTeX or hedge remains in quiz payload');
+}
+
+const quizDir = path.join(ROOT, 'data', 'quizzes', SOURCE);
+fs.mkdirSync(quizDir, { recursive: true });
+const quizJsonPath = path.join(quizDir, `${TOPIC_ID}.json`);
+fs.writeFileSync(quizJsonPath, JSON.stringify(quiz, null, 2) + '\n', 'utf8');
+
+const quizMeta = {
+  href: `quiz/${SOURCE}/${TOPIC_ID}.html`,
+  title: TOPIC_TITLE,
+  totalQuestions: 25,
+  description: DESC_SHORT,
+};
+topic.quiz = quizMeta;
+fs.writeFileSync(topicPath, JSON.stringify(topic, null, 2) + '\n', 'utf8');
+
+const monoPath = path.join(ROOT, 'data', 'alice-topics.json');
+const mono = JSON.parse(fs.readFileSync(monoPath, 'utf8'));
+function findAndPatch(topics) {
+  for (const t of topics) {
+    if (t.id === TOPIC_ID) {
+      t.quiz = quizMeta;
+      return true;
+    }
+    if (t.subtopics && findAndPatch(t.subtopics)) return true;
+  }
+  return false;
+}
+if (!findAndPatch(mono.topics)) {
+  throw new Error(`${TOPIC_ID} not found in alice-topics.json`);
+}
+fs.writeFileSync(monoPath, JSON.stringify(mono, null, 2) + '\n', 'utf8');
+
+let html = fs.readFileSync(
+  path.join(ROOT, 'quiz', 'alice', 'nature-of-reality.html'),
+  'utf8'
+);
+const replacements = [
+  ['Nature of Reality Quiz', `${TOPIC_TITLE} Quiz`],
+  [
+    'Interactive Living Truth Quiz on Nature of Reality: the flat plain, Firmament, density suppression, and the Great Spiritual Awakening.',
+    DESC_META,
+  ],
+  ['quiz/alice/nature-of-reality.html', `quiz/${SOURCE}/${TOPIC_ID}.html`],
+  ['images/nature-of-reality.webp', TOPIC_IMAGE],
+  ['images/faketime.webp', TOPIC_IMAGE],
+  [
+    'deep-dive.html?source=alice&amp;topic=nature-of-reality',
+    `deep-dive.html?source=${SOURCE}&amp;topic=${TOPIC_ID}`,
+  ],
+  ['Nature of Reality deep-dive', `${TOPIC_TITLE} deep-dive`],
+  ['>Nature of Reality</div>', `>${TOPIC_TITLE}</div>`],
+  [
+    'data/quizzes/alice/nature-of-reality.json',
+    `data/quizzes/${SOURCE}/${TOPIC_ID}.json`,
+  ],
+];
+for (const [a, b] of replacements) {
+  if (!html.includes(a) && a.includes('nature-of-reality')) {
+    console.warn('Template string not found:', a.slice(0, 80));
+  }
+  html = html.split(a).join(b);
+}
+if (html.includes('images/nature-of-reality.webp')) {
+  html = html.split('images/nature-of-reality.webp').join(TOPIC_IMAGE);
+}
+const htmlPath = path.join(ROOT, 'quiz', SOURCE, `${TOPIC_ID}.html`);
+fs.mkdirSync(path.dirname(htmlPath), { recursive: true });
+fs.writeFileSync(htmlPath, html, 'utf8');
+
+const sitemapScript = path.join(ROOT, 'scripts', 'generate-sitemap.js');
+let sm = fs.readFileSync(sitemapScript, 'utf8');
+const entry = `  { path: '/quiz/${SOURCE}/${TOPIC_ID}.html', priority: '0.75', changefreq: 'monthly' },`;
+if (!sm.includes(`/quiz/${SOURCE}/${TOPIC_ID}.html`)) {
+  const lines = sm.split('\n');
+  const out = [];
+  let inserted = false;
+  const target = `/quiz/${SOURCE}/${TOPIC_ID}.html`;
+  for (let i = 0; i < lines.length; i++) {
+    out.push(lines[i]);
+    if (!inserted && lines[i].includes("/quiz/alice/") && lines[i].includes('priority')) {
+      const next = lines[i + 1] || '';
+      const curPath = (lines[i].match(/path: '([^']+)'/) || [])[1] || '';
+      const nextPath = (next.match(/path: '([^']+)'/) || [])[1] || '';
+      if (
+        curPath < target &&
+        (nextPath > target || !nextPath.includes('/quiz/alice/'))
+      ) {
+        out.push(entry);
+        inserted = true;
+      }
+    }
+  }
+  if (!inserted) {
+    const anchors = [
+      "  { path: '/quiz/alice/sun-and-moon.html', priority: '0.75', changefreq: 'monthly' },",
+      "  { path: '/quiz/alice/simulation-reality.html', priority: '0.75', changefreq: 'monthly' },",
+      "  { path: '/quiz/alice/gateway-10-system.html', priority: '0.75', changefreq: 'monthly' },",
+    ];
+    sm = out.join('\n');
+    for (const anchor of anchors) {
+      if (sm.includes(anchor)) {
+        sm = sm.replace(anchor, `${anchor}\n${entry}`);
+        inserted = true;
+        break;
+      }
+    }
+    if (!inserted) throw new Error('Could not find sitemap anchor');
+    fs.writeFileSync(sitemapScript, sm, 'utf8');
+  } else {
+    fs.writeFileSync(sitemapScript, out.join('\n'), 'utf8');
+  }
+}
+
+console.log('Correct-answer letter mix:', letterCounts);
+console.log('Sample correct answers:');
+[0, 6, 11, 18, 20, 24].forEach((i) => {
+  const c = questions[i].options.find((o) => o.isCorrect);
+  console.log(
+    ` Q${questions[i].number} (${questions[i].correctAnswer}): ${c.text.slice(0, 100)}`
+  );
+});
+console.log('Wrote', path.relative(ROOT, quizJsonPath));
+console.log('Wrote', path.relative(ROOT, htmlPath));
+console.log('Updated topic.quiz on', TOPIC_ID);
+console.log('PASS: audited 25/25 against data/alice-topics/sol-soul-portal.json');
+console.log(
+  'Footer check:',
+  html.includes('Everything here is free') ? 'new support copy' : 'OLD FOOTER'
+);

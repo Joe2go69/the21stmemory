@@ -13,5 +13,11 @@
       "title": "Shattering Celestial Dome",
       "embed_url": "https://rumble.com/embed/v76zvco/?pub=4p0ieu"
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/sun-and-moon.html",
+    "title": "The Sun and Moon",
+    "totalQuestions": 25,
+    "description": "Test your grasp of The Sun and Moon — Amnesia Vortex, lunar ET station, Venus illumination, Black Sun loosh banks, heliocentrism, and the G.A.A. reveal."
+  }
 }

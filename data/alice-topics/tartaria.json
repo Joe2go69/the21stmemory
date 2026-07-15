@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v77emqw/?pub=4p0ieu",
       "description": "Core revelations about remembering Great Tartary."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/tartaria.html",
+    "title": "Tartaria",
+    "totalQuestions": 25,
+    "description": "Test your grasp of Tartaria — free-energy civilization, Mud-floods, Tuning Forks, Atmospheric Condensers, Orphan Trains, and the 8th Re-set trajectory."
+  }
 }

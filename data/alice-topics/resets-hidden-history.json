@@ -20,5 +20,11 @@
       "embed_url": "https://rumble.com/embed/v77cumq/?pub=4p0ieu",
       "description": "Core revelations about the world behind the veil."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/resets-hidden-history.html",
+    "title": "Resets and Hidden History",
+    "totalQuestions": 25,
+    "description": "Test your grasp of Resets and Hidden History — thousand-year cullings, Tartaria, Orphan Trains, WW1 memory purge, OOPAs, and the G.A.A. climax."
+  }
 }

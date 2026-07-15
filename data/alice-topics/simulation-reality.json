@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v76x408/?pub=4p0ieu",
       "description": "The Harmonic Return and the path to liberation from the simulation."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/simulation-reality.html",
+    "title": "Simulation Reality",
+    "totalQuestions": 25,
+    "description": "Test your grasp of Simulation Reality — Aether software, Custodian hijack, NPCs, Projection Dome, Amnesia Vortex, control strings, and the G.A.A. uninstall."
+  }
 }
