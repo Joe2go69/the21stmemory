@@ -31,39 +31,36 @@ function shuffle(arr, rand) {
   return a;
 }
 
-function expandWrong(text, targetLen, rand) {
+/**
+ * Normalize a wrong-answer string without padding or truncating.
+ *
+ * Historically this function appended stock filler tails ("— a cover story…",
+ * "which collapses once the inverted…") to match correct-answer length, then
+ * hard-cut mid-phrase. That produced incomplete, repetitive distractors across
+ * the whole quiz corpus. Do not reintroduce that behavior.
+ *
+ * targetLen / rand are kept for call-site compatibility but are unused.
+ */
+function expandWrong(text, _targetLen, _rand) {
   let t = (text || '').trim();
-  if (t.length >= targetLen) return t;
+  if (!t) return t;
 
-  const tails = [
-    ', presented as if it were the natural or official account of events',
-    ', which would leave the control matrix intact and the population asleep',
-    ' — a cover story that cannot survive contact with the deeper mechanics',
-    ', treating the prison architecture as if it were ordinary progress or accident',
-    ', as though the parasitic inversion had never engineered the outcome',
-    ' and ignoring the deliberate design of the subjugation systems',
-    ', which collapses once the inverted timeline and harvest architecture are seen',
+  // Drop any legacy stock tails if an install script re-emits already-padded text.
+  const legacyTails = [
+    /,?\s*presented as if it were the natural or official account of events\.?/gi,
+    /,?\s*which would leave the control matrix intact and the population asleep\.?/gi,
+    /\s*[—–-]\s*a cover story that cannot survive contact with the deeper mechanics\.?/gi,
+    /,?\s*treating the prison architecture as if it were ordinary progress or accident\.?/gi,
+    /,?\s*as though the parasitic inversion had never engineered the outcome\.?/gi,
+    /\s+and ignoring the deliberate design of the subjugation systems\.?/gi,
+    /,?\s*which collapses once the inverted timeline and harvest architecture are seen\.?/gi,
   ];
+  for (const re of legacyTails) t = t.replace(re, '');
+  t = t.replace(/[\s,;:—–-]+$/g, '').trim();
 
-  const i = Math.floor(rand() * tails.length);
-  if (!/[.!?]$/.test(t)) {
-    t = t.replace(/[.;,\s]+$/, '') + tails[i];
-  } else {
-    t = t.replace(/[.!?]\s*$/, '') + tails[i] + '.';
+  if (t.length > 12 && !/[.!?…]$/.test(t) && !/^(true|false)$/i.test(t)) {
+    t += '.';
   }
-
-  if (t.length < targetLen * 0.85) {
-    const j = (i + 3) % tails.length;
-    t = t.replace(/[.!?]\s*$/, '') + tails[j] + '.';
-  }
-
-  if (t.length > targetLen * 1.35 && targetLen > 40) {
-    t = t.slice(0, Math.floor(targetLen * 1.25));
-    const cut = t.lastIndexOf(' ');
-    if (cut > 40) t = t.slice(0, cut);
-    if (!/[.!?]$/.test(t)) t += '.';
-  }
-
   return t.replace(/[ \t]{2,}/g, ' ').trim();
 }
 

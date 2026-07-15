@@ -252,19 +252,19 @@
         },
         {
           "label": "B",
-          "text": "Dome of Titans",
+          "text": "Dome of Titans.",
           "isCorrect": true,
           "rationale": "The Dome of Titans was the original site where architects created landscapes and crystalline structures before it became a zone of struggle."
         },
         {
           "label": "C",
-          "text": "Dome of Portals",
+          "text": "Dome of Portals.",
           "isCorrect": false,
           "rationale": "This dome serves as the interconnecting travel hub rather than the creative playground for architects."
         },
         {
           "label": "D",
-          "text": "Dome of 5 Peaks",
+          "text": "Dome of 5 Peaks.",
           "isCorrect": false,
           "rationale": "The Dome of 5 Peaks is focused on ascension and mastery of the elements, not the primary weaving of landscapes."
         }
@@ -342,25 +342,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The Great Dome",
+          "text": "The Great Dome.",
           "isCorrect": false,
           "rationale": "The Great Dome is the central theater housing the 178 worlds, but it does not wrap around the others as a baseline."
         },
         {
           "label": "B",
-          "text": "Dome of Silence",
+          "text": "Dome of Silence.",
           "isCorrect": false,
           "rationale": "The Dome of Silence is a field of stillness for Source connection, not the primary origin chamber."
         },
         {
           "label": "C",
-          "text": "Dome of Forgotten Gods",
+          "text": "Dome of Forgotten Gods.",
           "isCorrect": true,
           "rationale": "This dome establishes the baseline frequency for the physical plane and stores the memories of the first light and sound experiments."
         },
         {
           "label": "D",
-          "text": "Dome of Sheol",
+          "text": "Dome of Sheol.",
           "isCorrect": false,
           "rationale": "Sheol is a specific chamber for recalibration and rest, not the baseline frequency for the entire plane."
         }
@@ -592,7 +592,7 @@
         },
         {
           "label": "D",
-          "text": "Frequency bricks",
+          "text": "Frequency bricks.",
           "isCorrect": false,
           "rationale": "Frequency bricks are mentioned as part of the living architectural toolkit of the original system."
         }
@@ -722,25 +722,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The Great Dome",
+          "text": "The Great Dome.",
           "isCorrect": false,
           "rationale": "The Great Dome is a specific structure within the Cube, whereas the Cube itself is the 'hard drive'."
         },
         {
           "label": "B",
-          "text": "The Spirit Tree",
+          "text": "The Spirit Tree.",
           "isCorrect": false,
           "rationale": "The Spirit Tree is the central axis or node, not the framework itself."
         },
         {
           "label": "C",
-          "text": "Saturn Cube-Tech",
+          "text": "Saturn Cube-Tech.",
           "isCorrect": false,
           "rationale": "Saturn Cube-Tech is a parasitic hijack within the system, not the system's foundational 'hard drive'."
         },
         {
           "label": "D",
-          "text": "The Cube System",
+          "text": "The Cube System.",
           "isCorrect": true,
           "rationale": "The Cube System, or the Cube Containment, is described as the 'hard drive' and 'frequency server' of reality."
         }
