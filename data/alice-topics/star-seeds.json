@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v79qukg/?pub=4p0ieu",
       "description": "Practical breakdown of breaking the reincarnation loop for star seeds."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/star-seeds.html",
+    "title": "Star Seeds",
+    "totalQuestions": 25,
+    "description": "Test your grasp of Star Seeds — 200 million anchors, Pod Clusters, Twin Flames, 4,000 Ancients, and reunion beyond the ice wall."
+  }
 }

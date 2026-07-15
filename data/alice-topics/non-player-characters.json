@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v79vrig/?pub=4p0ieu",
       "description": "Practical breakdown of non-player characters."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/non-player-characters.html",
+    "title": "Non-Player Characters",
+    "totalQuestions": 25,
+    "description": "Test your grasp of Non-Player Characters — 97% artificial mass, Replica Souls, Mind Camp, D.U.M.B.S., and deletion at the Flash."
+  }
 }

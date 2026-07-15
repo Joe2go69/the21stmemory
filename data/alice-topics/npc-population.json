@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v79uff0/?pub=4p0ieu",
       "description": "Why 97 percent of people are NPCs and what that means for the awakening."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/npc-population.html",
+    "title": "NPC Population",
+    "totalQuestions": 25,
+    "description": "Test your grasp of NPC Population — 97% synthetics, social firmware, Flash erasure, and navigating the herd without attachment."
+  }
 }

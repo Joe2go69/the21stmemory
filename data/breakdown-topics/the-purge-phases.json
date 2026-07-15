@@ -20,5 +20,11 @@
       "embed_url": "https://rumble.com/embed/v79zf62/?pub=4p0ieu",
       "description": "The measured path through the Great Purge toward the Second Realm."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/breakdown/the-purge-phases.html",
+    "title": "The Purge Phases",
+    "totalQuestions": 25,
+    "description": "Test your grasp of The Purge Phases — eight-phase top-down dismantling of parasitic control, clones, E.B.S., and the path to the Second Realm."
+  }
 }

@@ -1,0 +1,1208 @@
+/**
+ * Installs Oopa Artifacts quiz for Alice transmission.
+ * All 25 items authored from data/alice-topics/oopa-artifacts.json only.
+ * Plain human-readable English — no LaTeX, MathJax, Markdown math, or $...$ wrappers.
+ * Absolute Living Truth voice (no "according to the report").
+ * Options mixed via finalizeOptions (A–D); wrong answers drafted at similar depth to correct.
+ * Run: node scripts/install-oopa-artifacts-quiz.js && node scripts/split-topics-data.js && node scripts/generate-sitemap.js
+ */
+const fs = require('fs');
+const path = require('path');
+const { finalizeOptions } = require('./quiz-option-utils');
+
+const ROOT = path.join(__dirname, '..');
+const TOPIC_ID = 'oopa-artifacts';
+const TOPIC_TITLE = 'Oopa Artifacts';
+const SOURCE = 'alice';
+const TOPIC_IMAGE = 'images/alice/high-technology-past-evidence.webp';
+
+const topicPath = path.join(ROOT, 'data', 'alice-topics', `${TOPIC_ID}.json`);
+const topic = JSON.parse(fs.readFileSync(topicPath, 'utf8'));
+const reportLower = (topic.report || '').toLowerCase();
+
+const latexRe = /\$[^$]+\$|\\\(|\\\[|\\\]|\\\)|\^\{|_\{|\\frac|MathJax|\\\w+\{/;
+const hedgeRe =
+  /\b(according to (this topic|the report|the text|the source)|the report |source material|the text states|key terminology defines|overview states|maps back to this topic|described in this topic)\b/i;
+
+const supportPhrases = {
+  1: ['oopa', 'out of place', 'high technological'],
+  2: ['resets', 'harvest', 'tartaria'],
+  3: ['tartaria', 'free', 'crystalline'],
+  4: ['museum', 'suppressed', 'anomal'],
+  5: ['9th density', '3rd density', 'fabrication'],
+  6: ['smithsonian', 'vatican', 'containment'],
+  7: ['nda', 'imprisonment', 'forfeiture'],
+  8: ['titanic', 'atlantean crystal', 'tuning forks'],
+  9: ['world war 1', '15', '55'],
+  10: ['fossilis', 'energy weapons', 'stone'],
+  11: ['subatomic', 'cold fusion', 'frequency'],
+  12: ['10,000', 'giants', 'burial mounds'],
+  13: ['12 feet', '35 meters', '30 meters'],
+  14: ['smithsonian', 'evolutionary', 'confiscat'],
+  15: ['tuning forks', 'putty', 'andesite'],
+  16: ['leedskalnin', '1,100 tons', 'limestone'],
+  17: ['atmospheric condensers', 'fibonacci', 'copper'],
+  18: ['ley lines', 'electromagnetic', 'coal'],
+  19: ['60%', 'coal', 'performance'],
+  20: ['1887', 'consolidated coal', 'melted'],
+  21: ['soil liquefaction', 'dustif', 'mudflood'],
+  22: ['orphan trains', 'd.u.m.b', 'cloned'],
+  23: ['lunatic asylums', 'loosh', 'shell-shocked'],
+  24: ['freemasons', 'evolution', 'genetic'],
+  25: ['perceived knowledge', 'frequency overlays', 'scarcity'],
+};
+
+function cleanText(s) {
+  if (typeof s !== 'string') return s;
+  let t = s;
+  t = t.replace(/\$(\d+)\^\{(st|nd|rd|th)\}\$/gi, '$1$2');
+  t = t.replace(/\$(\d+)\^(st|nd|rd|th)\$/gi, '$1$2');
+  t = t.replace(/\$(\d+(?:,\d+)*)\\+%\$/g, '$1%');
+  t = t.replace(/\$(\d+(?:,\d+)*)\\?\%\$/g, '$1%');
+  t = t.replace(/\$(\d{1,3}(?:,\d{3})*(?:\.\d+)?)\$/g, '$1');
+  t = t.replace(/\$([A-Za-z][A-Za-z0-9./-]{0,24})\$/g, '$1');
+  t = t.replace(/\$([^$]+)\$/g, (_, inner) =>
+    inner.replace(/\^\{([^}]+)\}/g, '$1').replace(/\\%/g, '%').replace(/\\/g, '')
+  );
+  t = t.replace(/\^\{(st|nd|rd|th)\}/gi, '$1');
+  t = t.replace(/\\%/g, '%');
+  t = t.replace(/\\\(|\\\)|\\\[|\\\]/g, '');
+  t = t
+    .replace(/[\u2018\u2019\u201A\u201B]/g, "'")
+    .replace(/[\u201C\u201D\u201E\u201F]/g, '"')
+    .replace(/[\u2013\u2014\u2015]/g, '—')
+    .replace(/\u2026/g, '...')
+    .replace(/\u00A0/g, ' ')
+    .replace(/\uFFFD/g, '');
+  return t.replace(/[ \t]{2,}/g, ' ').trim();
+}
+
+const RAW_QUESTIONS = [
+  {
+    number: 1,
+    question: 'What are Oopa (Out Of Place Artefacts)?',
+    options: [
+      {
+        label: 'A',
+        text: 'Blatant physical evidence and items left behind from high technological civilizations that existed before the current reset, completely contradicting the accepted historical narrative.',
+        isCorrect: true,
+        rationale:
+          'Oopas are pre-reset high-tech remnants that shatter the manufactured timeline of linear primitive origins.',
+      },
+      {
+        label: 'B',
+        text: 'Ordinary museum gift-shop replicas mass-produced last century to decorate school hallways without any link to prior civilizations.',
+        isCorrect: false,
+        rationale:
+          'Oopas are genuine pre-reset remains, not modern decorative replicas staged for classrooms.',
+      },
+      {
+        label: 'C',
+        text: 'Only fictional props invented by novelists to sell adventure stories about buried treasure under ordinary hills.',
+        isCorrect: false,
+        rationale:
+          'Oopas are physical proof of advanced prior realms, suppressed because they contradict official history.',
+      },
+      {
+        label: 'D',
+        text: 'Coal-company inventory tags used to track freight cars after locomotives switched fully to mined fuel.',
+        isCorrect: false,
+        rationale:
+          'Coal companies later stripped free-energy gear; Oopas themselves are advanced pre-reset artifacts.',
+      },
+    ],
+    hint: 'Pre-reset high-tech remnants that contradict the official timeline.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 2,
+    question: 'What are Resets in relation to Tartaria and the population?',
+    options: [
+      {
+        label: 'A',
+        text: 'Mild weather cycles that gently renovate cities while leaving free-energy grids and oral history fully intact for every generation.',
+        isCorrect: false,
+        rationale:
+          'Resets are catastrophic terminations, not gentle renovations that preserve knowledge and free energy.',
+      },
+      {
+        label: 'B',
+        text: 'Pre-planned, devastating planetary events executed by parasitic forces to wipe out advanced civilizations, harvest human populations for energy, and reset societal knowledge back to a primitive, controllable state — including the eradication of Tartaria.',
+        isCorrect: true,
+        rationale:
+          'Resets are orchestrated wipe-and-harvest events that erase free-energy civilizations such as Tartaria and reseed controllable primitivism.',
+      },
+      {
+        label: 'C',
+        text: 'Public museum festivals that openly display every anomalous artifact recovered from railroad cuttings and burial mounds.',
+        isCorrect: false,
+        rationale:
+          'Resets erase and suppress; institutions hide Oopas rather than celebrate them in open festivals.',
+      },
+      {
+        label: 'D',
+        text: 'Voluntary cultural exchanges between continents that upgrade architecture without any population termination or energy harvest.',
+        isCorrect: false,
+        rationale:
+          'Resets terminate populations and harvest energy; they do not upgrade free societies through peaceful exchange.',
+      },
+    ],
+    hint: 'Planned wipe, harvest, and knowledge reset — Tartaria destroyed.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 3,
+    question: 'What characterized Tartaria before its eradication?',
+    options: [
+      {
+        label: 'A',
+        text: 'A sparse network of coal shacks with no temples, no free energy, and no global architectural presence of any kind.',
+        isCorrect: false,
+        rationale:
+          'Tartaria was globally advanced free-energy civilization, not a coal-shack backwater.',
+      },
+      {
+        label: 'B',
+        text: 'A short-lived fashion trend in dome roofs invented only after World War 1 with no older roots.',
+        isCorrect: false,
+        rationale:
+          'Tartaria predated the reset; WW1 later culled survivors who still remembered the old world.',
+      },
+      {
+        label: 'C',
+        text: 'A globally advanced, pre-reset civilization marked by resplendent architecture, crystalline healing temples, and free electromagnetic energy, deliberately eradicated to enforce physical scarcity.',
+        isCorrect: true,
+        rationale:
+          'Tartaria was world-scale free-energy excellence with crystalline temples, erased to lock in scarcity.',
+      },
+      {
+        label: 'D',
+        text: 'A Vatican accounting department that cataloged fossils for public school textbooks without secrecy.',
+        isCorrect: false,
+        rationale:
+          'The Vatican functions as a containment vault for Oopas; Tartaria was the free-energy civilization destroyed.',
+      },
+    ],
+    hint: 'Global free-energy civilization — temples, architecture, then eradicated.',
+    correctAnswer: 'C',
+  },
+  {
+    number: 4,
+    question: 'Why are Oopas actively suppressed, hidden, or dismissed?',
+    options: [
+      {
+        label: 'A',
+        text: 'Because they are worthless junk with no historical value and museums simply lack shelf space for ordinary stones.',
+        isCorrect: false,
+        rationale:
+          'Oopas are suppressed because they destroy the false timeline, not because they lack value.',
+      },
+      {
+        label: 'B',
+        text: 'Because every Oopa has already been fully published in elementary textbooks with complete technical diagrams.',
+        isCorrect: false,
+        rationale:
+          'They are hidden in basements and sealed vaults, not openly taught as standard curriculum.',
+      },
+      {
+        label: 'C',
+        text: 'Because private collectors legally own all of them and refuse any institutional involvement whatsoever.',
+        isCorrect: false,
+        rationale:
+          'Major institutions seize and vault anomalies under mandate; this is control, not private collector choice.',
+      },
+      {
+        label: 'D',
+        text: 'Because they contradict the manufactured narrative of linear human evolution and primitive historical origins, so they are hidden in museum basements or dismissed as anomalies.',
+        isCorrect: true,
+        rationale:
+          'Oopas break the linear-evolution story, so controllers hide or anomaly-label them.',
+      },
+    ],
+    hint: 'They shatter linear evolution — basements and anomaly labels follow.',
+    correctAnswer: 'D',
+  },
+  {
+    number: 5,
+    question: 'What is the true pattern of human progression relative to density?',
+    options: [
+      {
+        label: 'A',
+        text: 'True progression was not a slow climb from primitive apes to modern society, but a catastrophic downgrade from 9th density perfection to 3rd density control.',
+        isCorrect: true,
+        rationale:
+          'The real arc is downgrade from 9th-density perfection into 3rd-density control, not ape-to-modern ascent.',
+      },
+      {
+        label: 'B',
+        text: 'Humanity climbed steadily from stone tools to free-energy domes with no resets, no density drop, and no parasitic interference at any stage.',
+        isCorrect: false,
+        rationale:
+          'Resets and density suppression inverted progress; the climb-from-apes story is the fabrication.',
+      },
+      {
+        label: 'C',
+        text: 'Density never changed; only clothing styles evolved while electromagnetic architecture stayed identical across every epoch.',
+        isCorrect: false,
+        rationale:
+          'Density was forced down from 9th to 3rd; free-energy architecture was stripped after resets.',
+      },
+      {
+        label: 'D',
+        text: 'Modern society already restored full 9th-density crystalline operation through coal plants and central banks alone.',
+        isCorrect: false,
+        rationale:
+          'Coal and finance lock scarcity; 9th-density crystalline reality remains suppressed under overlays.',
+      },
+    ],
+    hint: 'Downgrade from 9th-density perfection to 3rd-density control.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 6,
+    question: 'What role do the Smithsonian Institute and the Vatican play regarding Oopas?',
+    options: [
+      {
+        label: 'A',
+        text: 'They operate as open universities that free-release every anomalous skeleton, crystal, and free-energy device to the public within days of discovery.',
+        isCorrect: false,
+        rationale:
+          'They function as containment vaults, not open release programs for Oopas.',
+      },
+      {
+        label: 'B',
+        text: 'They function as primary containment vaults for Oopas and definitive proof of pre-reset existence, permanently hiding what cannot be explained by the false historical timeline.',
+        isCorrect: true,
+        rationale:
+          'Smithsonian and Vatican vault pre-reset proof so the fabricated timeline never collapses in public view.',
+      },
+      {
+        label: 'C',
+        text: 'They only manage railroad tickets and have no archaeological or artifact mandate of any kind.',
+        isCorrect: false,
+        rationale:
+          'Railroad expansion exposed giants; these institutions seize and sequester the resulting Oopas.',
+      },
+      {
+        label: 'D',
+        text: 'They rebuild Tartarian atmospheric condensers on every locomotive to restore free electromagnetic travel.',
+        isCorrect: false,
+        rationale:
+          'Coal interests melted condensers; these institutions contain evidence rather than restore free energy.',
+      },
+    ],
+    hint: 'Primary containment vaults for pre-reset proof.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 7,
+    question:
+      'What happens when the public makes anomalous discoveries that threaten the false timeline?',
+    options: [
+      {
+        label: 'A',
+        text: 'Discoverers receive lifetime museum curatorships and full media campaigns celebrating every find without restriction.',
+        isCorrect: false,
+        rationale:
+          'Discovery triggers silence and seizure, not celebration and curatorship.',
+      },
+      {
+        label: 'B',
+        text: 'Artifacts remain on the finder\'s property indefinitely with no institutional contact or legal pressure of any sort.',
+        isCorrect: false,
+        rationale:
+          'Recovery teams spirit artifacts to sealed vaults under threat — not private permanent ownership.',
+      },
+      {
+        label: 'C',
+        text: 'Recovery teams deploy NDAs under threat of imprisonment and forfeiture of assets to ensure silence, spiriting the artifacts away to sealed vaults.',
+        isCorrect: true,
+        rationale:
+          'NDAs, prison threats, and asset forfeiture force silence while artifacts vanish into sealed vaults.',
+      },
+      {
+        label: 'D',
+        text: 'Local schools immediately add the objects to required science labs with complete frequency-engineering manuals included.',
+        isCorrect: false,
+        rationale:
+          'Objects are hidden, not installed as open curriculum with free-energy manuals.',
+      },
+    ],
+    hint: 'NDAs, prison threats, asset forfeiture — sealed vaults.',
+    correctAnswer: 'C',
+  },
+  {
+    number: 8,
+    question: 'What was a true motive behind the sinking of the Titanic beyond the Federal Reserve opposition angle?',
+    options: [
+      {
+        label: 'A',
+        text: 'Only an ice-navigation accident with no cargo of interest and no link to free-energy technology or construction tools.',
+        isCorrect: false,
+        rationale:
+          'The disaster was orchestrated to destroy sensitive Oopa cargo, not a mere navigation mishap.',
+      },
+      {
+        label: 'B',
+        text: 'A publicity stunt for luxury liners that safely delivered every crystal and tuning fork to open museums.',
+        isCorrect: false,
+        rationale:
+          'Cargo was destroyed, not safely delivered for public museum display.',
+      },
+      {
+        label: 'C',
+        text: 'A coal-union strike that left the ship empty of passengers and completely free of high-energy cargo.',
+        isCorrect: false,
+        rationale:
+          'Sensitive Atlantean and Tartarian technology was aboard; the event was not an empty coal strike story.',
+      },
+      {
+        label: 'D',
+        text: 'Destroying highly sensitive cargo: a massive high-energy Atlantean crystal and Tartarian Tuning Forks used for frequency-based construction, alongside eliminating Federal Reserve opposition.',
+        isCorrect: true,
+        rationale:
+          'Titanic targeted Atlantean crystal and Tartarian Tuning Forks while also hitting Federal Reserve opposition.',
+      },
+    ],
+    hint: 'Atlantean crystal + Tartarian Tuning Forks destroyed with the ship.',
+    correctAnswer: 'D',
+  },
+  {
+    number: 9,
+    question: 'How was World War 1 timed and designed relative to reset survivors?',
+    options: [
+      {
+        label: 'A',
+        text: 'It was designed and timed specifically to exterminate reset survivors between the ages of 15 and 55 who retained dangerous old-world knowledge of true geography, natural remedies, and the pre-reset realm.',
+        isCorrect: true,
+        rationale:
+          'WW1 culled the 15–55 cohort that still held oral old-world knowledge, severing true-history transmission.',
+      },
+      {
+        label: 'B',
+        text: 'It was a purely random conflict that carefully protected every adult with memory of free-energy architecture and true geography.',
+        isCorrect: false,
+        rationale:
+          'It specifically targeted the memory-bearing adult age band, not protected it.',
+      },
+      {
+        label: 'C',
+        text: 'It was fought only to expand open libraries that taught Tartarian condenser engineering to every schoolchild.',
+        isCorrect: false,
+        rationale:
+          'WW1 severed oral transmission of old knowledge; it did not expand free-energy schooling.',
+      },
+      {
+        label: 'D',
+        text: 'It restored crystalline healing temples on every major node and reversed density suppression overnight.',
+        isCorrect: false,
+        rationale:
+          'WW1 eliminated witnesses; it did not restore temples or reverse density suppression.',
+      },
+    ],
+    hint: 'Exterminate ages 15–55 who still knew the old world.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 10,
+    question:
+      'What do a fossilised hat and a fossilised book demonstrate about reset weaponry?',
+    options: [
+      {
+        label: 'A',
+        text: 'They prove hats and books slowly turn to stone over millions of quiet years with no weapons and no reset involved at all.',
+        isCorrect: false,
+        rationale:
+          'Fossilised everyday objects show frequency weapons used in resets, not slow natural stone conversion.',
+      },
+      {
+        label: 'B',
+        text: 'They demonstrate deployment of ancient Energy Weapons during a reset — frequencies that fuse incompatible materials and alter subatomic cohesion, instantly turning objects and biological entities to solid stone.',
+        isCorrect: true,
+        rationale:
+          'Energy Weapons of the reset petrify matter by frequency, fusing materials and collapsing subatomic cohesion into stone.',
+      },
+      {
+        label: 'C',
+        text: 'They are painted plaster models sold at tourist shops with no connection to molecular alteration or planetary resets.',
+        isCorrect: false,
+        rationale:
+          'They are real petrified Oopas exposing reset energy-weapon mechanics, not tourist plaster.',
+      },
+      {
+        label: 'D',
+        text: 'They show that nuclear bombs alone created every fossil while frequency weapons never existed in any epoch.',
+        isCorrect: false,
+        rationale:
+          'These weapons are not nuclear radiation; they are frequency tools cousin to cold fusion.',
+      },
+    ],
+    hint: 'Energy Weapons fuse matter to stone — not slow natural fossils.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 11,
+    question: 'How do reset Energy Weapons relate to nuclear radiation and Cold Fusion?',
+    options: [
+      {
+        label: 'A',
+        text: 'They are identical to modern nuclear bombs in every mechanism and leave the same radiation signature without any frequency component.',
+        isCorrect: false,
+        rationale:
+          'They do not use nuclear radiation; they emit frequencies that alter cohesion — a cousin to Cold Fusion.',
+      },
+      {
+        label: 'B',
+        text: 'They only cool locomotive boilers and have no ability to petrify objects or alter molecular structure during a reset.',
+        isCorrect: false,
+        rationale:
+          'They petrify matter and dustify buildings; they are not mere boiler coolers.',
+      },
+      {
+        label: 'C',
+        text: 'They do not utilize nuclear radiation, but emit frequencies that fuse incompatible materials and alter subatomic cohesion — a direct cousin to Cold Fusion.',
+        isCorrect: true,
+        rationale:
+          'Frequency-based cohesion change, not nuclear fallout; mechanistically kin to Cold Fusion.',
+      },
+      {
+        label: 'D',
+        text: 'They only work on paper contracts and leave stone, wood, and flesh completely unchanged under all conditions.',
+        isCorrect: false,
+        rationale:
+          'They turn trees, people, and objects to stone and can dustify massive buildings.',
+      },
+    ],
+    hint: 'Frequency weapons, not nuclear — cousin to Cold Fusion.',
+    correctAnswer: 'C',
+  },
+  {
+    number: 12,
+    question:
+      'What happened when American railroad expansion cut through hills that were ancient burial mounds?',
+    options: [
+      {
+        label: 'A',
+        text: 'Workers found only empty sand with no skeletons, no giants, and no reason for any institutional response.',
+        isCorrect: false,
+        rationale:
+          'Workers uncovered over 10,000 giant skeletons — a massive Oopa exposure event.',
+      },
+      {
+        label: 'B',
+        text: 'Local farmers immediately opened public parks displaying every femur under transparent glass with full measurements posted.',
+        isCorrect: false,
+        rationale:
+          'Remains were confiscated by the Smithsonian, not freely park-displayed.',
+      },
+      {
+        label: 'C',
+        text: 'Railroad companies rebuilt Tartarian free-energy lines using the bones as copper substitutes along the tracks.',
+        isCorrect: false,
+        rationale:
+          'Bones were seized to protect the evolutionary narrative, not reused as free-energy infrastructure.',
+      },
+      {
+        label: 'D',
+        text: 'Workers uncovered over 10,000 skeletons of Giants, exposing physical beings that shattered the evolutionary story the controllers needed intact.',
+        isCorrect: true,
+        rationale:
+          'Railroad cuts through burial mounds revealed 10,000+ giant skeletons — undeniable pre-reset biology.',
+      },
+    ],
+    hint: 'Over 10,000 giant skeletons exposed in burial mounds.',
+    correctAnswer: 'D',
+  },
+  {
+    number: 13,
+    question: 'What size range and extreme measurements apply to these Giant remains?',
+    options: [
+      {
+        label: 'A',
+        text: 'Physical beings ranged from 12 feet to over 35 meters in height, with some individual human femurs measuring 30 meters long.',
+        isCorrect: true,
+        rationale:
+          'Giants span 12 feet to over 35 meters tall; some femurs alone measure 30 meters.',
+      },
+      {
+        label: 'B',
+        text: 'All remains measured under five feet and matched ordinary modern cemetery burials without anomaly.',
+        isCorrect: false,
+        rationale:
+          'Scale is extreme — multi-meter to 35+ meter beings, not ordinary modern graves.',
+      },
+      {
+        label: 'C',
+        text: 'Only animal bones the length of pencils were found, with no humanoid structure reported by any worker.',
+        isCorrect: false,
+        rationale:
+          'These are humanoid giant skeletons with human femurs of extreme length, not pencil-size animal bones.',
+      },
+      {
+        label: 'D',
+        text: 'Exactly one skeleton of six feet was cataloged publicly and then celebrated in every school science fair.',
+        isCorrect: false,
+        rationale:
+          'Thousands of extreme-scale remains were found and then confiscated, not celebrated as school exhibits.',
+      },
+    ],
+    hint: '12 feet to over 35 meters; femurs up to 30 meters.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 14,
+    question: 'Why did the Smithsonian immediately confiscate the giant remains?',
+    options: [
+      {
+        label: 'A',
+        text: 'To build a free public giant museum in every state capital with unrestricted photography and measurement rights.',
+        isCorrect: false,
+        rationale:
+          'Confiscation prevents public collapse of the evolutionary narrative — the opposite of free museums.',
+      },
+      {
+        label: 'B',
+        text: 'To prevent the collapse of the evolutionary narrative by removing physical proof that humanity did not crawl slowly from primitive origins alone.',
+        isCorrect: true,
+        rationale:
+          'Giants demolish fabricated evolution; Smithsonian seizure protects that false narrative.',
+      },
+      {
+        label: 'C',
+        text: 'Because the bones were radioactive coal slag with no biological structure worth studying at all.',
+        isCorrect: false,
+        rationale:
+          'They were biological giant humanoids; suppression is about narrative control, not slag disposal.',
+      },
+      {
+        label: 'D',
+        text: 'To donate them to orphan trains so cloned children could learn true pre-reset history from the remains.',
+        isCorrect: false,
+        rationale:
+          'Orphan trains seeded memory-wiped clones; giants were vaulted, not used as teaching kits.',
+      },
+    ],
+    hint: 'Seize proof so the evolutionary narrative does not collapse.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 15,
+    question: 'How were massive Tartarian edifices sculpted without ordinary physical labor?',
+    options: [
+      {
+        label: 'A',
+        text: 'Only with iron chisels and slave gangs hauling granite blocks up ramps for decades with no frequency tools involved.',
+        isCorrect: false,
+        rationale:
+          'Tuning Forks turned hard rock into weightless putty via sound and light frequencies.',
+      },
+      {
+        label: 'B',
+        text: 'By waiting for natural erosion to carve buildings overnight while builders merely painted the finished shells.',
+        isCorrect: false,
+        rationale:
+          'Construction used advanced frequency tooling, not passive overnight erosion.',
+      },
+      {
+        label: 'C',
+        text: 'Using advanced Tuning Forks that manipulated sound and light frequencies to turn hard rock such as granite and andesite into weightless putty that could be imprinted with vibrational molds and effortlessly lifted.',
+        isCorrect: true,
+        rationale:
+          'Harmonic Tuning Forks softened granite and andesite into moldable, liftable putty for effortless monumental craft.',
+      },
+      {
+        label: 'D',
+        text: 'By melting all stone into molten metal first, the same process later used to destroy atmospheric condensers.',
+        isCorrect: false,
+        rationale:
+          'Stone was frequency-softened to putty, not melted to metal; melting was the later coal-company destruction method.',
+      },
+    ],
+    hint: 'Tuning Forks — granite/andesite to weightless putty.',
+    correctAnswer: 'C',
+  },
+  {
+    number: 16,
+    question: 'What did Edward Leedskalnin prove with old-world methods in the early 20th century?',
+    options: [
+      {
+        label: 'A',
+        text: 'That limestone can only be moved with diesel cranes and that frequency tools are pure fiction with no practical effect.',
+        isCorrect: false,
+        rationale:
+          'He moved and balanced 1,100 tons without industrial cranes, proving frequency-based leverage.',
+      },
+      {
+        label: 'B',
+        text: 'That museum basements should remain sealed forever and that public builders must never test electromagnetic craft.',
+        isCorrect: false,
+        rationale:
+          'His monument demonstrated recoverable old-world knowledge, not a mandate for permanent secrecy.',
+      },
+      {
+        label: 'C',
+        text: 'That coal consumption must rise without limit because electromagnetic induction can never superheat water for work.',
+        isCorrect: false,
+        rationale:
+          'His work supports frequency masonry; coal monopoly was the parasitic counter-move elsewhere.',
+      },
+      {
+        label: 'D',
+        text: 'Using glass bottles wrapped in copper wire and a magnetic crank, he cut, moved, and balanced 1,100 tons of limestone, proving weight and leverage are frequency-based.',
+        isCorrect: true,
+        rationale:
+          'Leedskalnin\'s 1,100-ton limestone work with copper-wrapped bottles and magnetic crank proved frequency-based mass handling.',
+      },
+    ],
+    hint: '1,100 tons of limestone — frequency-based weight and leverage.',
+    correctAnswer: 'D',
+  },
+  {
+    number: 17,
+    question: 'What were Atmospheric Condensers on early locomotives?',
+    options: [
+      {
+        label: 'A',
+        text: 'Domed copper resonators woven with copper wire in Fibonacci sequences that used electromagnetic induction from the lattice membrane network so trains could run without sole dependence on coal.',
+        isCorrect: true,
+        rationale:
+          'Atmospheric Condensers were Fibonacci-wound copper dome resonators drawing Ley-line electromagnetics for free-energy rail.',
+      },
+      {
+        label: 'B',
+        text: 'Painted wooden decoys bolted on for decoration that performed no electromagnetic function and never touched boiler performance.',
+        isCorrect: false,
+        rationale:
+          'They superheated water via induction and cut coal use dramatically — real functional tech, not decoys.',
+      },
+      {
+        label: 'C',
+        text: 'Steam whistles only, installed after 1887 when free-energy devices were already fully restored worldwide.',
+        isCorrect: false,
+        rationale:
+          'In 1887 condensers were stripped and melted; they were power devices, not mere whistles.',
+      },
+      {
+        label: 'D',
+        text: 'Stone caps placed on burial mounds to hide giant femurs from railroad surveyors permanently.',
+        isCorrect: false,
+        rationale:
+          'Condensers rode locomotive boilers; mound concealment is a separate suppression track.',
+      },
+    ],
+    hint: 'Copper Fibonacci resonators — lattice induction, not pure coal.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 18,
+    question: 'How did Atmospheric Condensers interact with Ley Lines while trains moved?',
+    options: [
+      {
+        label: 'A',
+        text: 'They ignored magnetic fields entirely and required ever-increasing coal with no performance gain from route geometry.',
+        isCorrect: false,
+        rationale:
+          'They harvested varying magnetic fields of underlying Ley Lines to superheat water and raise performance.',
+      },
+      {
+        label: 'B',
+        text: 'They utilized electromagnetic induction to superheat water simply by traveling through the varying magnetic fields of the underlying Ley Lines, increasing performance while reducing coal dependence.',
+        isCorrect: true,
+        rationale:
+          'Motion through Ley-line magnetic variation fed induction heating — more performance, less coal.',
+      },
+      {
+        label: 'C',
+        text: 'They only worked when trains were parked in tunnels and failed completely on open lattice routes across the land.',
+        isCorrect: false,
+        rationale:
+          'Traveling through varying fields was the point; open lattice routes powered the effect.',
+      },
+      {
+        label: 'D',
+        text: 'They converted Ley Lines into solid stone roads so wheels could grip without any electromagnetic process.',
+        isCorrect: false,
+        rationale:
+          'They drew power from the electromagnetic grid; they did not petrify the lattice into roads.',
+      },
+    ],
+    hint: 'Induction via varying Ley-line magnetic fields while moving.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 19,
+    question: 'By how much could Atmospheric Condensers reduce coal consumption while raising performance?',
+    options: [
+      {
+        label: 'A',
+        text: 'They increased coal use by half while cutting speed, which is why coal companies celebrated and mass-produced them.',
+        isCorrect: false,
+        rationale:
+          'They reduced coal up to 60% with better performance — which is why coal interests destroyed them.',
+      },
+      {
+        label: 'B',
+        text: 'They had zero measurable effect on fuel or performance and existed only as ornamental copper hats.',
+        isCorrect: false,
+        rationale:
+          'Documented gains reached about 60% less coal with increased performance — real engineering, not ornaments.',
+      },
+      {
+        label: 'C',
+        text: 'These machines increased performance and reduced coal consumption by up to 60%, proving free electromagnetic assist on the lattice.',
+        isCorrect: true,
+        rationale:
+          'Up to 60% coal reduction plus higher performance exposed how little fossil fuel was truly required.',
+      },
+      {
+        label: 'D',
+        text: 'They eliminated all motion so locomotives became stationary museums bolted to station platforms forever.',
+        isCorrect: false,
+        rationale:
+          'They improved moving locomotives; they did not freeze trains into platform museums.',
+      },
+    ],
+    hint: 'Up to 60% less coal with increased performance.',
+    correctAnswer: 'C',
+  },
+  {
+    number: 20,
+    question: 'What did the Consolidated Coal Company order in 1887 regarding these devices?',
+    options: [
+      {
+        label: 'A',
+        text: 'That every locomotive receive additional condensers and that Fibonacci copper winding become mandatory industry standard.',
+        isCorrect: false,
+        rationale:
+          'They ordered condensers stripped and melted — the opposite of mandatory free-energy rollout.',
+      },
+      {
+        label: 'B',
+        text: 'That museums display working condensers beside giant femurs with full public operating manuals.',
+        isCorrect: false,
+        rationale:
+          'The order destroyed devices into molten metal to force coal reliance, not public education.',
+      },
+      {
+        label: 'C',
+        text: 'That Ley Lines be amplified so atmospheric induction would replace all mined fuel within a single decade.',
+        isCorrect: false,
+        rationale:
+          'Coal monopoly required killing induction tech, not amplifying free lattice power.',
+      },
+      {
+        label: 'D',
+        text: 'That all such devices be stripped from locomotives and permanently melted down into molten metal to force total societal reliance on harvested coal.',
+        isCorrect: true,
+        rationale:
+          '1887: strip and melt condensers so society depends entirely on harvested coal.',
+      },
+    ],
+    hint: '1887 — strip condensers, melt them, force coal reliance.',
+    correctAnswer: 'D',
+  },
+  {
+    number: 21,
+    question: 'How did Mudflood obliteration destroy buildings during resets?',
+    options: [
+      {
+        label: 'A',
+        text: 'Building obliteration used soil liquefaction and targeted frequency weapons; massive stone and steel buildings were dustified into particulate matter, leaving half-buried structures and rubble that seeded populations built false histories upon.',
+        isCorrect: true,
+        rationale:
+          'Soil liquefaction plus frequency weapons dustified megastructures; survivors inherited half-buried shells and invented cover stories.',
+      },
+      {
+        label: 'B',
+        text: 'Only gentle rain cleaned streets while every free-energy tower remained fully operational and fully documented.',
+        isCorrect: false,
+        rationale:
+          'Resets dustified and buried advanced builds; free-energy systems were wiped, not preserved.',
+      },
+      {
+        label: 'C',
+        text: 'Buildings were carefully dismantled and shipped intact to open-air museums with labels explaining Tartarian engineering.',
+        isCorrect: false,
+        rationale:
+          'Structures were liquefied and dustified, not curated as honest open-air museums.',
+      },
+      {
+        label: 'D',
+        text: 'Mud simply polished copper condensers so locomotives ran cleaner without any architectural loss worldwide.',
+        isCorrect: false,
+        rationale:
+          'Mudflood and frequency assault erased architecture; they did not polish free-energy gear for continued use.',
+      },
+    ],
+    hint: 'Soil liquefaction + frequency weapons — dustified, half-buried cities.',
+    correctAnswer: 'A',
+  },
+  {
+    number: 22,
+    question: 'How were post-reset landscapes repopulated after free-energy tech was wiped?',
+    options: [
+      {
+        label: 'A',
+        text: 'Every adult survivor kept full memory and voted openly on how to restore atmospheric condensers and tuning-fork masonry.',
+        isCorrect: false,
+        rationale:
+          'Memory-wiped clones on Orphan Trains accepted false histories; free-energy restoration was not on the ballot.',
+      },
+      {
+        label: 'B',
+        text: 'Orphan Trains distributed cloned children grown in deep underground military bases (D.U.M.B.S.) who lacked historical memory and accepted false evolutionary explanations for the majestic repurposed buildings around them.',
+        isCorrect: true,
+        rationale:
+          'Cloned, memory-blank orphans from D.U.M.B.S. were seeded via Orphan Trains into a landscape of stolen shells.',
+      },
+      {
+        label: 'C',
+        text: 'Smithsonian tour guides led continuous living-history reenactments that taught the truth of Tartaria to every new settlement.',
+        isCorrect: false,
+        rationale:
+          'Institutions vault Oopas and uphold false timelines; they do not teach Tartarian truth to new populations.',
+      },
+      {
+        label: 'D',
+        text: 'Giants were reawakened to serve as free public mayors who published complete reset chronologies in every newspaper.',
+        isCorrect: false,
+        rationale:
+          'Giant remains were confiscated; repopulation used memory-wiped clones, not giant mayors of truth.',
+      },
+    ],
+    hint: 'Orphan Trains — D.U.M.B.S. clones without memory.',
+    correctAnswer: 'B',
+  },
+  {
+    number: 23,
+    question: 'What were massive Lunatic Asylums originally doing after a reset?',
+    options: [
+      {
+        label: 'A',
+        text: 'They were brand-new small clinics built only for minor stress with no link to Tartarian architecture or energy harvest.',
+        isCorrect: false,
+        rationale:
+          'They were majestic Tartarian buildings repurposed as Loosh batteries for shell-shocked survivors.',
+      },
+      {
+        label: 'B',
+        text: 'They openly trained survivors in tuning-fork construction and atmospheric condenser repair as public vocational schools.',
+        isCorrect: false,
+        rationale:
+          'They consolidated trauma for parasitic energy harvest, not free-energy vocational training.',
+      },
+      {
+        label: 'C',
+        text: 'They were majestic Tartarian buildings repurposed to house shell-shocked survivors who witnessed the slaughter of the realm, functioning as massive Loosh Batteries that generated negative emotional energy for parasitic control.',
+        isCorrect: true,
+        rationale:
+          'Post-reset asylums warehoused traumatized witnesses in Tartarian shells as Loosh Batteries for parasites.',
+      },
+      {
+        label: 'D',
+        text: 'They displayed giant skeletons and fossilised books in open wings so the public would immediately remember free energy.',
+        isCorrect: false,
+        rationale:
+          'Oopas were vaulted elsewhere; asylums harvested trauma energy, not public Oopa education.',
+      },
+    ],
+    hint: 'Repurposed Tartarian shells — Loosh Batteries for the traumatized.',
+    correctAnswer: 'C',
+  },
+  {
+    number: 24,
+    question: 'Why was the false doctrine of Evolution fabricated by 33rd degree Freemasons?',
+    options: [
+      {
+        label: 'A',
+        text: 'To celebrate Oopas in every textbook and to prove that free-energy Tartaria was the natural peak of ape ascent.',
+        isCorrect: false,
+        rationale:
+          'Evolution was fabricated to hide Oopas and mask genetic lab-creation — not to celebrate Tartaria.',
+      },
+      {
+        label: 'B',
+        text: 'To restore 9th-density crystalline temples and reverse scarcity by teaching lattice membrane engineering.',
+        isCorrect: false,
+        rationale:
+          'The doctrine masks origins and variety; it does not restore temples or free-energy lattice craft.',
+      },
+      {
+        label: 'C',
+        text: 'To fund locomotive condensers and reverse the 1887 melt order through open Masonic philanthropy.',
+        isCorrect: false,
+        rationale:
+          'Freemasonic fabrication supports control narratives; coal melt-downs locked scarcity, not philanthropy.',
+      },
+      {
+        label: 'D',
+        text: 'To explain away biological variety, hide the true origins of Oopas, and mask the truth of genetic lab-creation — framing a stone-wheel climb that is actually a primitive downgrade from levitation and electromagnetic resonance.',
+        isCorrect: true,
+        rationale:
+          'Evolution covers lab-origins and Oopas while selling a downgrade (stone wheel) as if it were natural progress.',
+      },
+    ],
+    hint: 'Hide Oopas and lab-creation — sell downgrade as progress.',
+    correctAnswer: 'D',
+  },
+  {
+    number: 25,
+    question:
+      'Why does recognizing Oopas and Resets matter strategically before frequency overlays lift?',
+    options: [
+      {
+        label: 'A',
+        text: 'Oopas dismantle Perceived Knowledge; suppressing Tuning Forks and condensers locked scarcity, finance, and fossil dependence. Those who grasp Oopa legacy will recognize restoration of the original plain when overlays and false night-sky pixelation fall, while evolution believers face severe psychological collapse.',
+        isCorrect: true,
+        rationale:
+          'Oopa truth breaks Perceived Knowledge and prepares you for overlay removal; clinging to fake evolution collapses under the reveal.',
+      },
+      {
+        label: 'B',
+        text: 'Oopas are irrelevant once coal plants expand, because fossil fuel already equals native self-powering simulation physics in every respect.',
+        isCorrect: false,
+        rationale:
+          'Fossil dependence is the prison; the realm is natively self-powering beneath scarcity programming.',
+      },
+      {
+        label: 'C',
+        text: 'Overlays never lift, frequency fences are eternal, and museum basements will remain the only place truth is allowed forever.',
+        isCorrect: false,
+        rationale:
+          'Overlay removal is imminent preparation territory; Oopa literacy is for recognition of restoration, not permanent basement exile.',
+      },
+      {
+        label: 'D',
+        text: 'Strategic value is only financial: auctioning giant femurs privately while keeping the population asleep on linear history.',
+        isCorrect: false,
+        rationale:
+          'The point is sovereignty and recognition at reveal, not auctioning vaulted bones while sleep continues.',
+      },
+    ],
+    hint: 'Break Perceived Knowledge — prepare for overlay removal and restoration.',
+    correctAnswer: 'A',
+  },
+];
+
+function normalizeQuestion(q) {
+  const mapped = q.options.map((o) => ({
+    label: o.label,
+    text: cleanText(o.text),
+    isCorrect: !!o.isCorrect,
+    rationale: cleanText(o.rationale),
+  }));
+  const rot = ((q.number * 11) + 5) % 4;
+  const ordered = mapped.slice(rot).concat(mapped.slice(0, rot));
+  const finalized = finalizeOptions(
+    ordered,
+    `${TOPIC_ID}::${q.number}:v2`
+  );
+  const options = finalized.options;
+  const correct = options.find((o) => o.isCorrect);
+  if (!correct) throw new Error(`Q${q.number}: no correct option`);
+  /* correct letter assigned by finalizeOptions shuffle */
+  const out = {
+    number: q.number,
+    question: cleanText(q.question),
+    options,
+    hint: cleanText(q.hint),
+    correctAnswer: finalized.correctAnswer,
+  };
+  const blob = [
+    out.question,
+    out.hint,
+    ...options.map((o) => `${o.text} ${o.rationale}`),
+  ].join('\n');
+  if (latexRe.test(blob) || /\$/.test(blob)) {
+    throw new Error(`Q${q.number}: LaTeX/$ found`);
+  }
+  if (hedgeRe.test(blob)) throw new Error(`Q${q.number}: hedge found`);
+  const missing = (supportPhrases[q.number] || []).filter(
+    (p) => !reportLower.includes(p.toLowerCase())
+  );
+  if (missing.length) {
+    throw new Error(`Q${q.number}: unsupported: ${missing.join('; ')}`);
+  }
+  if (options.filter((o) => o.isCorrect).length !== 1) {
+    throw new Error(`Q${q.number}: need exactly 1 correct`);
+  }
+  for (const o of options) {
+    if (!o.rationale || o.rationale.length < 8) {
+      throw new Error(`Q${q.number}${o.label}: short rationale`);
+    }
+  }
+  return out;
+}
+
+const questions = RAW_QUESTIONS.map(normalizeQuestion);
+if (questions.length !== 25) throw new Error(`Expected 25, got ${questions.length}`);
+
+const letterCounts = { A: 0, B: 0, C: 0, D: 0 };
+for (const q of questions) letterCounts[q.correctAnswer]++;
+if (letterCounts.A === 25) {
+  throw new Error('correctAnswer still all A after finalizeOptions');
+}
+const dominant = Math.max(...Object.values(letterCounts));
+if (dominant >= 15) {
+  console.warn('Warning: one letter has >= 15 corrects:', letterCounts);
+}
+
+const DESC_SHORT =
+  'Test your grasp of Oopa Artifacts — Out Of Place Artefacts, Energy Weapons, giants, Tuning Forks, Atmospheric Condensers, and the suppression of pre-reset proof.';
+const DESC_META =
+  'Interactive Living Truth Quiz on Oopa Artifacts: fossilised objects, Smithsonian vaults, Titanic cargo, Mudflood dustification, Orphan Trains, Loosh Asylums, and overlay preparation.';
+
+const quiz = {
+  id: TOPIC_ID,
+  topicId: TOPIC_ID,
+  sourceId: SOURCE,
+  topicTitle: TOPIC_TITLE,
+  title: TOPIC_TITLE,
+  subtitle: DESC_SHORT,
+  totalQuestions: 25,
+  extractedAt: new Date().toISOString(),
+  reflection: {
+    title: 'Reflection',
+    body:
+      'Oopas are not curios. They are the bones of a free-energy world murdered by Resets — fossilised hats and books from frequency weapons, giant femurs vaulted by the Smithsonian, Tuning Forks that turned stone to putty, copper condensers melted so coal could rule. Titanic took crystal and forks. WW1 took the living memory of ages 15 to 55. Orphan Trains seeded amnesia into half-buried cities. Lunatic Asylums farmed Loosh from the shell-shocked. Evolution was the Freemason cover story for a downgrade from levitation to the stone wheel. Sit with what was stolen. When the frequency overlays peel, those who know Oopa legacy will recognize the original plain — not collapse with the false timeline.',
+  },
+  relatedTopic: {
+    href: `/deep-dive.html?source=${SOURCE}&topic=${TOPIC_ID}`,
+    label: `Return to ${TOPIC_TITLE} deep-dive`,
+  },
+  questions,
+};
+
+const whole = JSON.stringify(quiz);
+if (/\$/.test(whole) || latexRe.test(whole) || hedgeRe.test(whole)) {
+  throw new Error('LaTeX or hedge remains in quiz payload');
+}
+
+const quizDir = path.join(ROOT, 'data', 'quizzes', SOURCE);
+fs.mkdirSync(quizDir, { recursive: true });
+const quizJsonPath = path.join(quizDir, `${TOPIC_ID}.json`);
+fs.writeFileSync(quizJsonPath, JSON.stringify(quiz, null, 2) + '\n', 'utf8');
+
+const quizMeta = {
+  href: `quiz/${SOURCE}/${TOPIC_ID}.html`,
+  title: TOPIC_TITLE,
+  totalQuestions: 25,
+  description: DESC_SHORT,
+};
+topic.quiz = quizMeta;
+fs.writeFileSync(topicPath, JSON.stringify(topic, null, 2) + '\n', 'utf8');
+
+const monoPath = path.join(ROOT, 'data', 'alice-topics.json');
+const mono = JSON.parse(fs.readFileSync(monoPath, 'utf8'));
+function findAndPatch(topics) {
+  for (const t of topics) {
+    if (t.id === TOPIC_ID) {
+      t.quiz = quizMeta;
+      return true;
+    }
+    if (t.subtopics && findAndPatch(t.subtopics)) return true;
+  }
+  return false;
+}
+if (!findAndPatch(mono.topics)) {
+  throw new Error(`${TOPIC_ID} not found in alice-topics.json`);
+}
+fs.writeFileSync(monoPath, JSON.stringify(mono, null, 2) + '\n', 'utf8');
+
+let html = fs.readFileSync(
+  path.join(ROOT, 'quiz', 'alice', 'nature-of-reality.html'),
+  'utf8'
+);
+const replacements = [
+  ['Nature of Reality Quiz', `${TOPIC_TITLE} Quiz`],
+  [
+    'Interactive Living Truth Quiz on Nature of Reality: the flat plain, Firmament, density suppression, and the Great Spiritual Awakening.',
+    DESC_META,
+  ],
+  ['quiz/alice/nature-of-reality.html', `quiz/${SOURCE}/${TOPIC_ID}.html`],
+  ['images/nature-of-reality.webp', TOPIC_IMAGE],
+  ['images/faketime.webp', TOPIC_IMAGE],
+  [
+    'deep-dive.html?source=alice&amp;topic=nature-of-reality',
+    `deep-dive.html?source=${SOURCE}&amp;topic=${TOPIC_ID}`,
+  ],
+  ['Nature of Reality deep-dive', `${TOPIC_TITLE} deep-dive`],
+  ['>Nature of Reality</div>', `>${TOPIC_TITLE}</div>`],
+  [
+    'data/quizzes/alice/nature-of-reality.json',
+    `data/quizzes/${SOURCE}/${TOPIC_ID}.json`,
+  ],
+];
+for (const [a, b] of replacements) {
+  if (!html.includes(a) && a.includes('nature-of-reality')) {
+    console.warn('Template string not found:', a.slice(0, 80));
+  }
+  html = html.split(a).join(b);
+}
+if (html.includes('images/nature-of-reality.webp')) {
+  html = html.split('images/nature-of-reality.webp').join(TOPIC_IMAGE);
+}
+const htmlPath = path.join(ROOT, 'quiz', SOURCE, `${TOPIC_ID}.html`);
+fs.mkdirSync(path.dirname(htmlPath), { recursive: true });
+fs.writeFileSync(htmlPath, html, 'utf8');
+
+const sitemapScript = path.join(ROOT, 'scripts', 'generate-sitemap.js');
+let sm = fs.readFileSync(sitemapScript, 'utf8');
+const entry = `  { path: '/quiz/${SOURCE}/${TOPIC_ID}.html', priority: '0.75', changefreq: 'monthly' },`;
+if (!sm.includes(`/quiz/${SOURCE}/${TOPIC_ID}.html`)) {
+  const lines = sm.split('\n');
+  const out = [];
+  let inserted = false;
+  const target = `/quiz/${SOURCE}/${TOPIC_ID}.html`;
+  for (let i = 0; i < lines.length; i++) {
+    out.push(lines[i]);
+    if (!inserted && lines[i].includes("/quiz/alice/") && lines[i].includes('priority')) {
+      const next = lines[i + 1] || '';
+      const curPath = (lines[i].match(/path: '([^']+)'/) || [])[1] || '';
+      const nextPath = (next.match(/path: '([^']+)'/) || [])[1] || '';
+      if (
+        curPath < target &&
+        (nextPath > target || !nextPath.includes('/quiz/alice/'))
+      ) {
+        out.push(entry);
+        inserted = true;
+      }
+    }
+  }
+  if (!inserted) {
+    const anchors = [
+      "  { path: '/quiz/alice/resets-hidden-history.html', priority: '0.75', changefreq: 'monthly' },",
+      "  { path: '/quiz/alice/reptilians.html', priority: '0.75', changefreq: 'monthly' },",
+      "  { path: '/quiz/alice/simulation-reality.html', priority: '0.75', changefreq: 'monthly' },",
+    ];
+    sm = out.join('\n');
+    for (const anchor of anchors) {
+      if (sm.includes(anchor)) {
+        sm = sm.replace(anchor, `${anchor}\n${entry}`);
+        inserted = true;
+        break;
+      }
+    }
+    if (!inserted) throw new Error('Could not find sitemap anchor');
+    fs.writeFileSync(sitemapScript, sm, 'utf8');
+  } else {
+    fs.writeFileSync(sitemapScript, out.join('\n'), 'utf8');
+  }
+}
+
+console.log('Correct-answer letter mix:', letterCounts);
+console.log('Sample correct answers:');
+[0, 6, 11, 18, 20, 24].forEach((i) => {
+  const c = questions[i].options.find((o) => o.isCorrect);
+  console.log(
+    ` Q${questions[i].number} (${questions[i].correctAnswer}): ${c.text.slice(0, 100)}`
+  );
+});
+console.log('Wrote', path.relative(ROOT, quizJsonPath));
+console.log('Wrote', path.relative(ROOT, htmlPath));
+console.log('Updated topic.quiz on', TOPIC_ID);
+console.log('PASS: audited 25/25 against data/alice-topics/oopa-artifacts.json');
+console.log(
+  'Footer check:',
+  html.includes('Everything here is free') ? 'new support copy' : 'OLD FOOTER'
+);

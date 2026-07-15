@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v77g4my/?pub=4p0ieu",
       "description": "Practical breakdown of the World War I cull."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/world-war-i.html",
+    "title": "World War I",
+    "totalQuestions": 25,
+    "description": "Test your grasp of World War I — the post-Reset demographic cull, Old World knowledge erasure, Orphan Trains, Loosh asylums, and the rise of the modern matrix."
+  }
 }

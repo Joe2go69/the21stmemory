@@ -33,7 +33,14 @@
           "embed_url": "https://rumble.com/embed/v79xn1i/?pub=4p0ieu",
           "description": "The culminating crystal awakening and collapse of the parasitic 3D illusion."
         }
-      ]
+      ],
+      "quiz": {
+        "href": "quiz/breakdown/essence-of-the-transmission.html",
+        "title": "Essence of the Transmission",
+        "totalQuestions": 25,
+        "description": "Test your grasp of Essence of the Transmission — CUBE containment, Second Realm crystal, scare sequence, and the return to solar-creator resonance."
+      },
+      "is_placeholder": false
     },
     {
       "id": "the-purge-phases",
@@ -310,7 +317,14 @@
           "embed_url": "https://rumble.com/embed/v79zf62/?pub=4p0ieu",
           "description": "The measured path through the Great Purge toward the Second Realm."
         }
-      ]
+      ],
+      "quiz": {
+        "href": "quiz/breakdown/the-purge-phases.html",
+        "title": "The Purge Phases",
+        "totalQuestions": 25,
+        "description": "Test your grasp of The Purge Phases — eight-phase top-down dismantling of parasitic control, clones, E.B.S., and the path to the Second Realm."
+      },
+      "is_placeholder": false
     },
     {
       "id": "blackout-timeline",

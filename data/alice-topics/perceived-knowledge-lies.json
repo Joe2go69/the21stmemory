@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v79n82q/?pub=4p0ieu",
       "description": "Practical breakdown of perceived knowledge (lies)."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/perceived-knowledge-lies.html",
+    "title": "Perceived Knowledge (Lies)",
+    "totalQuestions": 25,
+    "description": "Test your grasp of Perceived Knowledge (Lies) — String 3, The Lie, Safety of Certainty, Mind Camp, and releasing intellect for a clean exit."
+  }
 }

@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v77g3cc/?pub=4p0ieu",
       "description": "Practical breakdown of frequency weapons and the Tartarian reset."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/oopa-artifacts.html",
+    "title": "Oopa Artifacts",
+    "totalQuestions": 25,
+    "description": "Test your grasp of Oopa Artifacts — Out Of Place Artefacts, Energy Weapons, giants, Tuning Forks, Atmospheric Condensers, and the suppression of pre-reset proof."
+  }
 }

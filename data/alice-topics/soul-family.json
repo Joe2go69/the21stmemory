@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v79pdi0/?pub=4p0ieu",
       "description": "Practical breakdown of soul family."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/alice/soul-family.html",
+    "title": "Soul Family",
+    "totalQuestions": 25,
+    "description": "Test your grasp of Soul Family — Sol-Systems, Twin Flames, 4,000 Ancients, Amnesia Vortex, and reunification after the 178,000-year trap."
+  }
 }
