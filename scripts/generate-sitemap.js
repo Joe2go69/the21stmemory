@@ -63,6 +63,7 @@ const entries = [
   { path: '/quiz/alice/false-history.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/perception-solidity.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/matrix-scaffolding.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/the-cube-system.html', priority: '0.75', changefreq: 'monthly' },
 ];
 
 const sourcesPath = path.join(ROOT, 'data', 'sources.json');
