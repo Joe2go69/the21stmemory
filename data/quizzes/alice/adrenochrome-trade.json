@@ -27,21 +27,21 @@
         },
         {
           "label": "B",
-          "text": "The mining of precious metals from the Lattice Membrane",
-          "isCorrect": false,
-          "rationale": "This is not metal mining; the occupation centers adrenochrome as the primary physical motive of occupation."
-        },
-        {
-          "label": "C",
-          "text": "The construction of the Firmament and Ice Wall",
+          "text": "The construction of the Firmament and Ice Wall, which would leave the control matrix.",
           "isCorrect": false,
           "rationale": "Those are structural features of the realm, not the central physical motivation named."
         },
         {
-          "label": "D",
-          "text": "The expansion of free energy across Gateway-10",
+          "label": "C",
+          "text": "The expansion of free energy across Gateway-10, as though the parasitic inversion had.",
           "isCorrect": false,
           "rationale": "Free energy is not presented as the motive of occupation; the trade is framed as a harvesting industry."
+        },
+        {
+          "label": "D",
+          "text": "The mining of precious metals from the Lattice Membrane and ignoring the deliberate.",
+          "isCorrect": false,
+          "rationale": "This is not metal mining; the occupation centers adrenochrome as the primary physical motive of occupation."
         }
       ],
       "hint": "What physically drives the occupation of the plane?",
@@ -53,31 +53,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A synthetic fuel used to power Sky-Net-1 projectors",
+          "text": "A holographic overlay that hides crystalline temples — a cover story that cannot survive contact with the deeper mechanics",
           "isCorrect": false,
-          "rationale": "Adrenochrome as a biological fluid, not a sky-projector fuel."
+          "rationale": "Overlays hide architecture; they are not adrenochrome."
         },
         {
           "label": "B",
+          "text": "A frequency fence broadcast only during the full moon, treating the prison architecture as if it were ordinary progress or accident",
+          "isCorrect": false,
+          "rationale": "Full-moon frequency broadcasts relate to Loosh/distress induction from the Moon station, not the definition of adrenochrome itself."
+        },
+        {
+          "label": "C",
           "text": "The highly prized physical fluid extracted from terrified, tortured children for parasitic, sold-soul, and demonic consumption and ritual",
           "isCorrect": true,
           "rationale": "Adrenochrome exactly as a highly prized physical fluid extracted under terror for those consumers and practices."
         },
         {
-          "label": "C",
-          "text": "A frequency fence broadcast only during the full moon",
-          "isCorrect": false,
-          "rationale": "Full-moon frequency broadcasts relate to Loosh/distress induction from the Moon station, not the definition of adrenochrome itself."
-        },
-        {
           "label": "D",
-          "text": "A holographic overlay that hides crystalline temples",
+          "text": "A synthetic fuel used to power Sky-Net-1 projectors — a cover story that cannot survive contact with the deeper mechanics",
           "isCorrect": false,
-          "rationale": "Overlays hide architecture; they are not adrenochrome."
+          "rationale": "Adrenochrome as a biological fluid, not a sky-projector fuel."
         }
       ],
       "hint": "Hold the true definition of the fluid itself.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 3,
@@ -85,31 +85,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The negative energetic frequency of fear, terror, and suffering harvested alongside adrenochrome",
-          "isCorrect": true,
-          "rationale": "Loosh as the negative energetic frequency harvested alongside adrenochrome for demonic and parasitic sustenance."
-        },
-        {
-          "label": "B",
-          "text": "The clone growth medium used inside D.U.M.B.S.",
-          "isCorrect": false,
-          "rationale": "Clones are grown from stem cells in D.U.M.B.S.; that is logistics, not Loosh."
-        },
-        {
-          "label": "C",
-          "text": "The legal charter of 33rd Degree Freemasonry",
+          "text": "The legal charter of 33rd Degree Freemasonry and ignoring the deliberate design of the subjugation systems",
           "isCorrect": false,
           "rationale": "Freemason initiation is blackmail logistics, not the definition of Loosh."
         },
         {
-          "label": "D",
-          "text": "The spare warehouse inventory code used by the Vatican",
+          "label": "B",
+          "text": "The spare warehouse inventory code used by the Vatican and ignoring the deliberate design of the subjugation systems",
           "isCorrect": false,
           "rationale": "Warehouses store adrenochrome; Loosh is energetic, not a warehouse code."
+        },
+        {
+          "label": "C",
+          "text": "The clone growth medium used inside D.U.M.B.S — a cover story that cannot survive contact with the deeper mechanics.",
+          "isCorrect": false,
+          "rationale": "Clones are grown from stem cells in D.U.M.B.S.; that is logistics, not Loosh."
+        },
+        {
+          "label": "D",
+          "text": "The negative energetic frequency of fear, terror, and suffering harvested alongside adrenochrome",
+          "isCorrect": true,
+          "rationale": "Loosh as the negative energetic frequency harvested alongside adrenochrome for demonic and parasitic sustenance."
         }
       ],
       "hint": "Loosh is energetic; adrenochrome is physical fluid.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 4,
@@ -117,31 +117,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Neanderthals could not survive outside the Ice Wall",
+          "text": "Neanderthals could not survive outside the Ice Wall, as though the parasitic inversion had never engineered the outcome",
           "isCorrect": false,
           "rationale": "Geographic survival is not the reason given; genetic suitability for harvesting is."
         },
         {
           "label": "B",
-          "text": "Neanderthals produced too much adrenochrome for the warehouses to store",
-          "isCorrect": false,
-          "rationale": "The opposite direction: Homo Sapiens were optimized for maximum yield under trauma."
-        },
-        {
-          "label": "C",
           "text": "Neanderthals had larger craniums, higher intelligence, and greater durability, making them unsuitable for subjugation and mass harvesting",
           "isCorrect": true,
           "rationale": "Neanderthals were unsuitable for subjugation and mass harvesting for those biological reasons."
         },
         {
-          "label": "D",
-          "text": "Neanderthals refused 33rd Degree Freemason initiation",
+          "label": "C",
+          "text": "Neanderthals refused 33rd Degree Freemason initiation — a cover story that cannot survive contact with the deeper mechanics",
           "isCorrect": false,
           "rationale": "Initiation blackmail applies to human collaborators, not the genetic selection of vessels."
+        },
+        {
+          "label": "D",
+          "text": "Neanderthals produced too much adrenochrome for the warehouses to store, presented as if it were the natural or official account of events",
+          "isCorrect": false,
+          "rationale": "The opposite direction: Homo Sapiens were optimized for maximum yield under trauma."
         }
       ],
       "hint": "Compare vessel traits: intelligence and durability versus malleability and yield.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 5,
@@ -149,31 +149,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Spiritual sovereignty and multidimensional memory",
+          "text": "Resistance to Black Void Plasma — a cover story that cannot survive contact with the deeper mechanics",
           "isCorrect": false,
-          "rationale": "The vessel was engineered for docility and harvest yield, not sovereignty."
+          "rationale": "That mechanism is not part of living truth’s genetic selection claim."
         },
         {
           "label": "B",
+          "text": "Natural free-energy generation along Ley Lines, as though the parasitic inversion had never.",
+          "isCorrect": false,
+          "rationale": "Not the optimization named in the Adrenochrome Trade report."
+        },
+        {
+          "label": "C",
           "text": "Adrenochrome yield per milliliter of blood during trauma, with docile and malleable traits",
           "isCorrect": true,
           "rationale": "Homo Sapiens were optimized for maximum adrenochrome yield and malleability."
         },
         {
-          "label": "C",
-          "text": "Resistance to Black Void Plasma",
-          "isCorrect": false,
-          "rationale": "That mechanism is not part of living truth’s genetic selection claim."
-        },
-        {
           "label": "D",
-          "text": "Natural free-energy generation along Ley Lines",
+          "text": "Spiritual sovereignty and multidimensional memory, which collapses once the inverted timeline and.",
           "isCorrect": false,
-          "rationale": "Not the optimization named in the Adrenochrome Trade report."
+          "rationale": "The vessel was engineered for docility and harvest yield, not sovereignty."
         }
       ],
       "hint": "The vessel design is the foundational control mechanism of the trade.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 6,
@@ -181,15 +181,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Only the Greys operating alone",
+          "text": "The Galactic Ancestral Alliance and the Micro Suns, presented as if it were the.",
           "isCorrect": false,
-          "rationale": "Multiple factions, not a single operator."
+          "rationale": "The G.A.A. dismantles the trade; Micro Suns are not the designers named here."
         },
         {
           "label": "B",
-          "text": "The Galactic Ancestral Alliance and the Micro Suns",
+          "text": "Only 33rd Degree Freemasons without extraterrestrial involvement, as though the.",
           "isCorrect": false,
-          "rationale": "The G.A.A. dismantles the trade; Micro Suns are not the designers named here."
+          "rationale": "Freemasons are human collaborators; living truth roots design in parasitic factions."
         },
         {
           "label": "C",
@@ -199,9 +199,9 @@
         },
         {
           "label": "D",
-          "text": "Only 33rd Degree Freemasons without extraterrestrial involvement",
+          "text": "Only the Greys operating alone, which would leave the control matrix intact and the.",
           "isCorrect": false,
-          "rationale": "Freemasons are human collaborators; living truth roots design in parasitic factions."
+          "rationale": "Multiple factions, not a single operator."
         }
       ],
       "hint": "Name the parasitic factions behind vessel design.",
@@ -213,31 +213,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It publicly funds orphan hospitals to end the trade",
-          "isCorrect": false,
-          "rationale": "The Vatican as a central headquarters of the trade, not a reformer of the harvest."
-        },
-        {
-          "label": "B",
-          "text": "It is irrelevant to adrenochrome logistics",
-          "isCorrect": false,
-          "rationale": "Major hubs under highly guarded infrastructure including the Vatican."
-        },
-        {
-          "label": "C",
           "text": "It serves as central headquarters for parasitic factions, with 13 subterranean levels including slaughterhouses, cages, and spare adrenochrome warehouses",
           "isCorrect": true,
           "rationale": "The Vatican as central headquarters with 13 subterranean levels and those facilities."
         },
         {
-          "label": "D",
-          "text": "It only stores Loosh batteries on the surface",
+          "label": "B",
+          "text": "It only stores Loosh batteries on the surface, which would leave the control matrix intact and the population asleep, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
           "rationale": "Lunatic Asylums are described as Loosh Batteries after Re-sets; Vatican storage is adrenochrome warehouses underground."
+        },
+        {
+          "label": "C",
+          "text": "It publicly funds orphan hospitals to end the trade, which collapses once the inverted timeline and harvest architecture are seen",
+          "isCorrect": false,
+          "rationale": "The Vatican as a central headquarters of the trade, not a reformer of the harvest."
+        },
+        {
+          "label": "D",
+          "text": "It is irrelevant to adrenochrome logistics and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
+          "isCorrect": false,
+          "rationale": "Major hubs under highly guarded infrastructure including the Vatican."
         }
       ],
       "hint": "Count the subterranean levels and what they house.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -245,31 +245,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Most fluid is discarded as waste",
-          "isCorrect": false,
-          "rationale": "Absolute precision, not waste."
-        },
-        {
-          "label": "B",
-          "text": "Only one drop per child is taken by design",
-          "isCorrect": false,
-          "rationale": "The claim is that not a single drop is missed or wasted, not a one-drop limit."
-        },
-        {
-          "label": "C",
-          "text": "Extraction is random and inefficient",
+          "text": "Extraction is random and inefficient, treating the prison architecture as if it were.",
           "isCorrect": false,
           "rationale": "The opposite is stated: absolute precision."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "Not a single drop is missed or wasted",
           "isCorrect": true,
           "rationale": "The precision of extraction is absolute; not a single drop is missed or wasted."
+        },
+        {
+          "label": "C",
+          "text": "Only one drop per child is taken by design, presented as if it were the natural or.",
+          "isCorrect": false,
+          "rationale": "The claim is that not a single drop is missed or wasted, not a one-drop limit."
+        },
+        {
+          "label": "D",
+          "text": "Most fluid is discarded as waste, which would leave the control matrix intact and the.",
+          "isCorrect": false,
+          "rationale": "Absolute precision, not waste."
         }
       ],
       "hint": "Look for the language of absolute precision.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -277,31 +277,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Public charity service for ten years",
-          "isCorrect": false,
-          "rationale": "The initiation is described as extreme blackmail, not charity."
-        },
-        {
-          "label": "B",
           "text": "The recorded torture and murder of a human child on camera",
           "isCorrect": true,
           "rationale": "Initiation requires torturing and murdering a child on camera to secure allegiance through blackmail."
         },
         {
+          "label": "B",
+          "text": "Public charity service for ten years — a cover story that cannot survive contact with.",
+          "isCorrect": false,
+          "rationale": "The initiation is described as extreme blackmail, not charity."
+        },
+        {
           "label": "C",
-          "text": "Memorizing the Georgia Guidestones inscription",
+          "text": "Memorizing the Georgia Guidestones inscription — a cover story that cannot survive.",
           "isCorrect": false,
           "rationale": "Guidestones appear later as documentation of a 500 million population target, not the initiation rite."
         },
         {
           "label": "D",
-          "text": "A pilgrimage through all 13 Vatican levels",
+          "text": "A pilgrimage through all 13 Vatican levels, presented as if it were the natural or.",
           "isCorrect": false,
           "rationale": "Vatican infrastructure is logistical; the Freemason glue is recorded child sacrifice."
         }
       ],
       "hint": "This is the “glue” of the parasitic power structure.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 10,
@@ -315,21 +315,21 @@
         },
         {
           "label": "B",
-          "text": "Leaders are paid exclusively in free energy credits",
-          "isCorrect": false,
-          "rationale": "Payment in free energy is not the mechanism described."
-        },
-        {
-          "label": "C",
-          "text": "Leaders have no knowledge of the trade",
+          "text": "Leaders have no knowledge of the trade, presented as if it were the natural or official account of events",
           "isCorrect": false,
           "rationale": "The structure depends on their forced complicity through compromise, not ignorance."
         },
         {
-          "label": "D",
-          "text": "Leaders are all NPCs without free will of any kind",
+          "label": "C",
+          "text": "Leaders are all NPCs without free will of any kind, treating the prison architecture as if it were ordinary progress or accident",
           "isCorrect": false,
           "rationale": "NPC collapse appears later via EBS exposure; blackmail specifically targets compromised human authorities."
+        },
+        {
+          "label": "D",
+          "text": "Leaders are paid exclusively in free energy credits, as though the parasitic inversion had never engineered the outcome",
+          "isCorrect": false,
+          "rationale": "Payment in free energy is not the mechanism described."
         }
       ],
       "hint": "Irrefutable evidence is the enforcement tool.",
@@ -341,31 +341,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Every hundred years",
+          "text": "Once every 178,000 years only, presented as if it were the natural or official account.",
           "isCorrect": false,
-          "rationale": "Every thousand years, not every hundred."
+          "rationale": "178,000-year cycles appear elsewhere in the archive; living truth specifies thousand-year Re-set cadence."
         },
         {
           "label": "B",
+          "text": "Continuously every full moon with no larger cycle, presented as if it were the natural.",
+          "isCorrect": false,
+          "rationale": "Full moon relates to frequency distress; Re-sets are millennia-scale harvest events."
+        },
+        {
+          "label": "C",
           "text": "Every thousand years",
           "isCorrect": true,
           "rationale": "Re-sets are orchestrated every thousand years as the most significant event on the parasitic calendar."
         },
         {
-          "label": "C",
-          "text": "Once every 178,000 years only",
-          "isCorrect": false,
-          "rationale": "178,000-year cycles appear elsewhere in the archive; living truth specifies thousand-year Re-set cadence."
-        },
-        {
           "label": "D",
-          "text": "Continuously every full moon with no larger cycle",
+          "text": "Every hundred years, which collapses once the inverted timeline and harvest.",
           "isCorrect": false,
-          "rationale": "Full moon relates to frequency distress; Re-sets are millennia-scale harvest events."
+          "rationale": "Every thousand years, not every hundred."
         }
       ],
       "hint": "Re-sets are the millennia-long calendar event.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 12,
@@ -373,31 +373,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Natural migration from beyond the Ice Wall",
-          "isCorrect": false,
-          "rationale": "Repopulation is described via cloned orphans, not ice-wall migration."
-        },
-        {
-          "label": "B",
-          "text": "Stem cells taken before sacrifice grow clones in D.U.M.B.S., then parentless orphans are distributed (e.g. via Orphan Trains)",
+          "text": "Stem cells taken before sacrifice grow clones in D.U.M.B.S., then parentless orphans are distributed (e.g.",
           "isCorrect": true,
           "rationale": "Stem-cell extraction, clone growth in D.U.M.B.S., and distribution of orphans such as via Orphan Trains."
         },
         {
-          "label": "C",
-          "text": "Random reincarnation without any cloning infrastructure",
+          "label": "B",
+          "text": "Natural migration from beyond the Ice Wall, as though the parasitic inversion had never engineered the outcome",
           "isCorrect": false,
-          "rationale": "Deliberate cloning logistics for the next crop."
+          "rationale": "Repopulation is described via cloned orphans, not ice-wall migration."
+        },
+        {
+          "label": "C",
+          "text": "Emergency Broadcast System recruitment drives and ignoring the deliberate design of the subjugation systems",
+          "isCorrect": false,
+          "rationale": "EBS is the later revelation mechanism that exposes the trade, not the repopulation method."
         },
         {
           "label": "D",
-          "text": "Emergency Broadcast System recruitment drives",
+          "text": "Random reincarnation without any cloning infrastructure, treating the prison architecture as if it were ordinary.",
           "isCorrect": false,
-          "rationale": "EBS is the later revelation mechanism that exposes the trade, not the repopulation method."
+          "rationale": "Deliberate cloning logistics for the next crop."
         }
       ],
       "hint": "Follow the stem cell → D.U.M.B.S. → orphan distribution chain.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 13,
@@ -405,31 +405,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Dome Utility Management Bureaus controlling the Projection Dome, which collapses once the inverted timeline and.",
+          "isCorrect": false,
+          "rationale": "Projection Dome management is not the D.U.M.B.S. definition here."
+        },
+        {
+          "label": "B",
+          "text": "Digital Universal Media Broadcasts used only for EBS, which collapses once the inverted timeline and harvest.",
+          "isCorrect": false,
+          "rationale": "EBS is separate; D.U.M.B.S. are subterranean bases."
+        },
+        {
+          "label": "C",
           "text": "Deep Underground Military Bases used to grow cloned children for harvesting, torture, and sacrifice",
           "isCorrect": true,
           "rationale": "D.U.M.B.S. as Deep Underground Military Bases for growing cloned children for those purposes."
         },
         {
-          "label": "B",
-          "text": "Distributed Urban Memory Banks storing Sol-System records",
+          "label": "D",
+          "text": "Distributed Urban Memory Banks storing Sol-System records — a cover story that cannot survive contact with the.",
           "isCorrect": false,
           "rationale": "That is not the expansion or function given."
-        },
-        {
-          "label": "C",
-          "text": "Dome Utility Management Bureaus controlling the Projection Dome",
-          "isCorrect": false,
-          "rationale": "Projection Dome management is not the D.U.M.B.S. definition here."
-        },
-        {
-          "label": "D",
-          "text": "Digital Universal Media Broadcasts used only for EBS",
-          "isCorrect": false,
-          "rationale": "EBS is separate; D.U.M.B.S. are subterranean bases."
         }
       ],
       "hint": "Expand the acronym from its true underground meaning.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 14,
@@ -437,7 +437,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Law Mart of the Ancients",
+          "text": "Law Mart of the Ancients, treating the prison architecture as if it were ordinary.",
           "isCorrect": false,
           "rationale": "Mart-Law / Martial Law, not that phrase."
         },
@@ -449,13 +449,13 @@
         },
         {
           "label": "C",
-          "text": "Warm Atlas Network",
+          "text": "Warm Atlas Network, as though the parasitic inversion had never engineered the outcome",
           "isCorrect": false,
           "rationale": "Not the anagram provided."
         },
         {
           "label": "D",
-          "text": "Water Matrix Altar",
+          "text": "Water Matrix Altar, treating the prison architecture as if it were ordinary progress.",
           "isCorrect": false,
           "rationale": "Not mentioned."
         }
@@ -469,15 +469,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Only in orbital Sky-Net-1 nodes",
+          "text": "In open public museums, which collapses once the inverted timeline and harvest architecture are seen",
           "isCorrect": false,
-          "rationale": "Personal reserves are described in estate basements, not Sky-Net-1."
+          "rationale": "Storage is shielded and subterranean/elite, not public museums."
         },
         {
           "label": "B",
-          "text": "In open public museums",
+          "text": "Only in orbital Sky-Net-1 nodes, which collapses once the inverted timeline and harvest.",
           "isCorrect": false,
-          "rationale": "Storage is shielded and subterranean/elite, not public museums."
+          "rationale": "Personal reserves are described in estate basements, not Sky-Net-1."
         },
         {
           "label": "C",
@@ -487,7 +487,7 @@
         },
         {
           "label": "D",
-          "text": "Only inside Lunatic Asylums after Re-sets",
+          "text": "Only inside Lunatic Asylums after Re-sets, which would leave the control matrix intact and the.",
           "isCorrect": false,
           "rationale": "Asylums function as Loosh Batteries for survivors; cellars are elite physical reserves."
         }
@@ -501,31 +501,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To feed demons Loosh so the operational power structure does not collapse",
-          "isCorrect": true,
-          "rationale": "The immediate priority is feeding demons to prevent collapse of the operational power structure."
+          "text": "To dismantle all D.U.M.B.S. permanently, presented as if it were the natural or.",
+          "isCorrect": false,
+          "rationale": "Dismantling is not their post-Re-set priority; feeding and rebuilding the crop is."
         },
         {
           "label": "B",
-          "text": "To publicly confess the trade via EBS",
+          "text": "To publicly confess the trade via EBS, treating the prison architecture as if it were.",
           "isCorrect": false,
           "rationale": "EBS exposure is the G.A.A.-linked revelation path, not the parasites’ priority."
         },
         {
           "label": "C",
-          "text": "To dismantle all D.U.M.B.S. permanently",
+          "text": "To restore 9th-density crystalline temples, which would leave the control matrix.",
           "isCorrect": false,
-          "rationale": "Dismantling is not their post-Re-set priority; feeding and rebuilding the crop is."
+          "rationale": "Not stated as a parasitic priority."
         },
         {
           "label": "D",
-          "text": "To restore 9th-density crystalline temples",
-          "isCorrect": false,
-          "rationale": "Not stated as a parasitic priority."
+          "text": "To feed demons Loosh so the operational power structure does not collapse",
+          "isCorrect": true,
+          "rationale": "The immediate priority is feeding demons to prevent collapse of the operational power structure."
         }
       ],
       "hint": "Adrenochrome is physical; Loosh feeds the demonic hierarchy.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 17,
@@ -533,31 +533,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Schools for the 4,000 Ancients",
-          "isCorrect": false,
-          "rationale": "Not the function given; asylums hold traumatized survivors as energetic batteries."
-        },
-        {
-          "label": "B",
           "text": "5,000-bed Loosh Batteries that keep the demonic hierarchy fed while the next generation is bred",
           "isCorrect": true,
           "rationale": "Lunatic Asylums as 5,000-bed Loosh Batteries for that purpose."
         },
         {
-          "label": "C",
-          "text": "Tourist hospitals for full-moon pilgrims",
+          "label": "B",
+          "text": "Schools for the 4,000 Ancients — a cover story that cannot survive contact with the deeper mechanics",
           "isCorrect": false,
-          "rationale": "Full moon relates to frequency distress, not asylum tourism."
+          "rationale": "Not the function given; asylums hold traumatized survivors as energetic batteries."
+        },
+        {
+          "label": "C",
+          "text": "Surface warehouses identical to Vatican level 13 — a cover story that cannot survive contact with the.",
+          "isCorrect": false,
+          "rationale": "Vatican levels house slaughterhouses and adrenochrome warehouses; asylums are Loosh Batteries."
         },
         {
           "label": "D",
-          "text": "Surface warehouses identical to Vatican level 13",
+          "text": "Tourist hospitals for full-moon pilgrims, presented as if it were the natural or official account of events",
           "isCorrect": false,
-          "rationale": "Vatican levels house slaughterhouses and adrenochrome warehouses; asylums are Loosh Batteries."
+          "rationale": "Full moon relates to frequency distress, not asylum tourism."
         }
       ],
       "hint": "Remember the 5,000-bed figure and “Loosh Batteries.”",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 18,
@@ -565,31 +565,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A natural rock that only reflects sunlight with no control function",
+          "text": "The sole physical source of adrenochrome fluid, presented as if it were the natural or official account of events",
+          "isCorrect": false,
+          "rationale": "Adrenochrome is extracted from children; the Moon spikes conditions and harvests Loosh."
+        },
+        {
+          "label": "B",
+          "text": "A natural rock that only reflects sunlight with no control function and ignoring the deliberate design of the subjugation systems",
           "isCorrect": false,
           "rationale": "A holographic projection masking a negative ET space station."
         },
         {
-          "label": "B",
-          "text": "A command center (holographic cloak over a negative ET station) harvesting Loosh from Earth and 65 other enslaved worlds",
-          "isCorrect": true,
-          "rationale": "The Moon masks a negative station used as a command center for Loosh harvest from Earth and 65 other worlds."
-        },
-        {
           "label": "C",
-          "text": "A G.A.A. hospital ship healing children",
+          "text": "A G.A.A. hospital ship healing children, presented as if it were the natural or official account of events",
           "isCorrect": false,
           "rationale": "The Moon station is described as negative/control, not a G.A.A. hospital."
         },
         {
           "label": "D",
-          "text": "The sole physical source of adrenochrome fluid",
-          "isCorrect": false,
-          "rationale": "Adrenochrome is extracted from children; the Moon spikes conditions and harvests Loosh."
+          "text": "A command center (holographic cloak over a negative ET station) harvesting Loosh from Earth and 65 other enslaved worlds",
+          "isCorrect": true,
+          "rationale": "The Moon masks a negative station used as a command center for Loosh harvest from Earth and 65 other worlds."
         }
       ],
       "hint": "Holographic mask + command center + 65 other worlds.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 19,
@@ -603,21 +603,21 @@
         },
         {
           "label": "B",
-          "text": "To cool the Firmament after Projection Dome failure",
-          "isCorrect": false,
-          "rationale": "Not the purpose stated."
-        },
-        {
-          "label": "C",
-          "text": "To open Orphan Trains through polar portals",
+          "text": "To open Orphan Trains through polar portals, which collapses once the inverted timeline and harvest architecture are seen",
           "isCorrect": false,
           "rationale": "Orphan Trains distribute clones; they are not powered by full-moon broadcasts."
         },
         {
-          "label": "D",
-          "text": "To announce the EBS schedule to NPCs",
+          "label": "C",
+          "text": "To announce the EBS schedule to NPCs, presented as if it were the natural or official account of events",
           "isCorrect": false,
           "rationale": "EBS is the later disclosure event, not a lunar broadcast purpose here."
+        },
+        {
+          "label": "D",
+          "text": "To cool the Firmament after Projection Dome failure, which would leave the control matrix intact and the population asleep",
+          "isCorrect": false,
+          "rationale": "Not the purpose stated."
         }
       ],
       "hint": "Connect “Lunatic” behavior to production spikes.",
@@ -629,31 +629,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Voluntary disclosure of free energy to all nations",
+          "text": "Voluntary disclosure of free energy to all nations and ignoring the deliberate design of the subjugation systems",
           "isCorrect": false,
           "rationale": "The 8th Re-set objective is permanent farm subjugation, not free-energy disclosure."
         },
         {
           "label": "B",
+          "text": "Evacuation of all children to the Pleiades, which collapses once the inverted timeline and harvest architecture are seen",
+          "isCorrect": false,
+          "rationale": "Not stated as the 8th Re-set objective."
+        },
+        {
+          "label": "C",
           "text": "Permanent factory-farm subjugation of a reduced population of 500 million in an eternal birth-torture-rape-sacrifice loop",
           "isCorrect": true,
           "rationale": "Locking 500 million (Georgia Guidestones) into that eternal loop as a permanent farm."
         },
         {
-          "label": "C",
-          "text": "Restoration of Neanderthal vessels as the dominant species",
+          "label": "D",
+          "text": "Restoration of Neanderthal vessels as the dominant species, as though the parasitic inversion had never engineered the outcome",
           "isCorrect": false,
           "rationale": "Neanderthals were discontinued; the farm plan uses engineered Homo Sapiens harvest."
-        },
-        {
-          "label": "D",
-          "text": "Evacuation of all children to the Pleiades",
-          "isCorrect": false,
-          "rationale": "Not stated as the 8th Re-set objective."
         }
       ],
       "hint": "Georgia Guidestones + permanent farm language.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 21,
@@ -661,31 +661,31 @@
       "options": [
         {
           "label": "A",
-          "text": "On the now-destroyed Georgia Guidestones",
-          "isCorrect": true,
-          "rationale": "The 500 million figure to documentation on the now-destroyed Georgia Guidestones."
-        },
-        {
-          "label": "B",
-          "text": "Only in the Alice Codex footer",
+          "text": "Only in the Alice Codex footer, which would leave the control matrix intact and the.",
           "isCorrect": false,
           "rationale": "The Guidestones, not the website footer."
         },
         {
+          "label": "B",
+          "text": "Inside every Walmart break room — a cover story that cannot survive contact with the.",
+          "isCorrect": false,
+          "rationale": "Walmart is linked to Martial Law / D.U.M.B.S., not the 500 million inscription."
+        },
+        {
           "label": "C",
-          "text": "On the surface of the Moon station",
+          "text": "On the surface of the Moon station — a cover story that cannot survive contact with.",
           "isCorrect": false,
           "rationale": "Not where the population target is fixed."
         },
         {
           "label": "D",
-          "text": "Inside every Walmart break room",
-          "isCorrect": false,
-          "rationale": "Walmart is linked to Martial Law / D.U.M.B.S., not the 500 million inscription."
+          "text": "On the now-destroyed Georgia Guidestones",
+          "isCorrect": true,
+          "rationale": "The 500 million figure to documentation on the now-destroyed Georgia Guidestones."
         }
       ],
       "hint": "Destroyed monument named in Strategic Implications.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 22,
@@ -693,31 +693,31 @@
       "options": [
         {
           "label": "A",
-          "text": "33rd Degree Freemasons reforming from within",
+          "text": "33rd Degree Freemasons reforming from within and ignoring the deliberate design of the.",
           "isCorrect": false,
           "rationale": "Freemasons are the blackmail-managed collaborator tier, not the liberators."
         },
         {
           "label": "B",
+          "text": "Walmart corporate compliance officers, treating the prison architecture as if it were.",
+          "isCorrect": false,
+          "rationale": "Not credited with ending the trade."
+        },
+        {
+          "label": "C",
           "text": "The Galactic Ancestral Alliance (G.A.A.)",
           "isCorrect": true,
           "rationale": "The G.A.A. with dismantling control and halting the trade."
         },
         {
-          "label": "C",
-          "text": "The Vatican’s 13th subterranean council",
+          "label": "D",
+          "text": "The Vatican’s 13th subterranean council, which would leave the control matrix intact.",
           "isCorrect": false,
           "rationale": "The Vatican is headquarters of the trade, not its terminator."
-        },
-        {
-          "label": "D",
-          "text": "Walmart corporate compliance officers",
-          "isCorrect": false,
-          "rationale": "Not credited with ending the trade."
         }
       ],
       "hint": "Name the benevolent coalition ending the trade.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 23,
@@ -725,31 +725,31 @@
       "options": [
         {
           "label": "A",
-          "text": "That only anonymous strangers were involved in child harvesting",
-          "isCorrect": false,
-          "rationale": "Trusted institutions and beloved figures were complicit."
-        },
-        {
-          "label": "B",
-          "text": "That every trusted institution and beloved societal figure—from royalty to children’s television presenters—was complicit in industrial-scale child torture and harvesting",
-          "isCorrect": true,
-          "rationale": "Unequivocal exposure of trusted institutions and beloved figures including royalty and children’s TV presenters."
-        },
-        {
-          "label": "C",
-          "text": "That adrenochrome was always a myth with no real infrastructure",
+          "text": "That adrenochrome was always a myth with no real infrastructure — a cover story that cannot survive contact with the deeper mechanics",
           "isCorrect": false,
           "rationale": "EBS reveals the trade’s reality, not that it was mythical."
         },
         {
-          "label": "D",
-          "text": "That the Moon is a solid ball of ice only",
+          "label": "B",
+          "text": "That only anonymous strangers were involved in child harvesting, which collapses once the inverted timeline and harvest architecture are seen",
+          "isCorrect": false,
+          "rationale": "Trusted institutions and beloved figures were complicit."
+        },
+        {
+          "label": "C",
+          "text": "That the Moon is a solid ball of ice only, which would leave the control matrix intact and the population asleep, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
           "rationale": "Moon claims concern a station and Loosh command, not EBS content."
+        },
+        {
+          "label": "D",
+          "text": "That every trusted institution and beloved societal figure—from royalty to children’s television presenters—was complicit in industrial-scale child torture and harvesting",
+          "isCorrect": true,
+          "rationale": "Unequivocal exposure of trusted institutions and beloved figures including royalty and children’s TV presenters."
         }
       ],
       "hint": "Royalty and children’s presenters are named examples.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 24,
@@ -757,31 +757,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They become the new 33rd Degree leadership class",
+          "text": "They become the new 33rd Degree leadership class, which collapses once the inverted timeline and harvest architecture are seen",
           "isCorrect": false,
           "rationale": "Catatonia and collapse, not promotion."
         },
         {
           "label": "B",
+          "text": "They rebuild the Georgia Guidestones and ignoring the deliberate design of the subjugation systems",
+          "isCorrect": false,
+          "rationale": "Not the outcome described for NPCs after EBS exposure."
+        },
+        {
+          "label": "C",
           "text": "They experience total catatonia and psychological collapse, initiating physical evaporation via the EMF flash",
           "isCorrect": true,
           "rationale": "NPC catatonia/psychological collapse initiates physical evaporation via the EMF flash."
         },
         {
-          "label": "C",
-          "text": "They rebuild the Georgia Guidestones",
-          "isCorrect": false,
-          "rationale": "Not the outcome described for NPCs after EBS exposure."
-        },
-        {
           "label": "D",
-          "text": "They open new adrenochrome cellars for the public",
+          "text": "They open new adrenochrome cellars for the public, treating the prison architecture as if it were ordinary progress or accident",
           "isCorrect": false,
           "rationale": "The trade is halted; exposure collapses NPC consensus reality."
         }
       ],
       "hint": "Link EBS shock → NPC collapse → EMF evaporation.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 25,
@@ -789,19 +789,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True",
-          "isCorrect": false,
-          "rationale": "False — cultivation and trade is not incidental; it is the foundational industry of the occupation."
-        },
-        {
-          "label": "B",
           "text": "False",
           "isCorrect": true,
           "rationale": "The trade is not an incidental byproduct but the foundational industry of the parasitic occupation."
+        },
+        {
+          "label": "B",
+          "text": "True, presented as if it were the natural or official account of events",
+          "isCorrect": false,
+          "rationale": "False — cultivation and trade is not incidental; it is the foundational industry of the occupation."
         }
       ],
       "hint": "Incidental vs foundational — which claim is false?",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     }
   ]
 }

@@ -6,6 +6,7 @@
  */
 const fs = require('fs');
 const path = require('path');
+const { finalizeOptions } = require('./quiz-option-utils');
 
 const ROOT = path.join(__dirname, '..');
 const TOPIC_ID = 'antiquity-technology';
@@ -106,26 +107,27 @@ function cleanText(s) {
 }
 
 const questions = raw.questions.map((q) => {
-  const options = q.options.map((o) => ({
+  const mapped = q.options.map((o) => ({
     label: o.label,
     text: cleanText(o.text),
     isCorrect: !!o.isCorrect,
     rationale: cleanText(o.rationale),
   }));
+  const finalized = finalizeOptions(
+    mapped,
+    `${typeof TOPIC_ID !== 'undefined' ? TOPIC_ID : 'quiz'}::${q.number}`
+  );
+  const options = finalized.options;
   const correct = options.find((o) => o.isCorrect);
   if (!correct) throw new Error(`Q${q.number}: no correct option`);
-  if (q.correctAnswer !== correct.label) {
-    throw new Error(
-      `Q${q.number}: correctAnswer ${q.correctAnswer} != isCorrect ${correct.label}`
-    );
-  }
+  /* correct letter assigned by finalizeOptions shuffle */
 
   const out = {
     number: q.number,
     question: cleanText(q.question),
     options,
     hint: cleanText(q.hint),
-    correctAnswer: q.correctAnswer,
+    correctAnswer: finalized.correctAnswer,
   };
 
   const blob = [

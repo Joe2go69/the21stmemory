@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
+          "text": "A spontaneous natural meteor shower with no planning, presented as if it were the natural or official account of events.",
+          "isCorrect": false,
+          "rationale": "It is meticulously engineered holographic theater, not a natural accident."
+        },
+        {
+          "label": "B",
+          "text": "Only a silent library update with no sky visuals and ignoring the deliberate design of the subjugation systems.",
+          "isCorrect": false,
+          "rationale": "It is a planetary sky battle and abduction scare with maximum visual impact."
+        },
+        {
+          "label": "C",
           "text": "A staged, highly advanced holographic event engineered for the final stages of the Ascension Event / Great Spiritual Awakening.",
           "isCorrect": true,
           "rationale": "The Fake Alien Invasion is a staged, highly advanced holographic event engineered for the final stages of the Ascension Event (Great Spiritual Awakening)."
         },
         {
-          "label": "B",
-          "text": "A spontaneous natural meteor shower with no planning.",
-          "isCorrect": false,
-          "rationale": "It is meticulously engineered holographic theater, not a natural accident."
-        },
-        {
-          "label": "C",
-          "text": "A permanent physical occupation by landing Anuk fleets.",
+          "label": "D",
+          "text": "A permanent physical occupation by landing Anuk fleets and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "There is no physical ground threat; craft seen in the attack are holographic."
-        },
-        {
-          "label": "D",
-          "text": "Only a silent library update with no sky visuals.",
-          "isCorrect": false,
-          "rationale": "It is a planetary sky battle and abduction scare with maximum visual impact."
         }
       ],
       "hint": "Staged holographic climax of Ascension / Great Spiritual Awakening.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Only after all NPCs have already peacefully graduated to 5th density, treating the prison architecture as if it were ordinary progress or accident.",
+          "isCorrect": false,
+          "rationale": "NPCs are removed during the EMF flash that climaxes the invasion sequence."
+        },
+        {
+          "label": "B",
+          "text": "Decades after the EMF flash as optional entertainment and ignoring the deliberate design of the subjugation systems.",
+          "isCorrect": false,
+          "rationale": "It precedes and climaxes into the Sky Event and EMF flash."
+        },
+        {
+          "label": "C",
           "text": "To coincide with global lockdowns and the EBS as a calculated scare event inducing severe psychological trauma and panic among the unawakened.",
           "isCorrect": true,
           "rationale": "It is timed with global lockdowns and EBS to serve as a calculated scare event, inducing severe psychological trauma and panic in the unawakened."
         },
         {
-          "label": "B",
-          "text": "Only after all NPCs have already peacefully graduated to 5th density.",
-          "isCorrect": false,
-          "rationale": "NPCs are removed during the EMF flash that climaxes the invasion sequence."
-        },
-        {
-          "label": "C",
-          "text": "As a calm tourist show with no fear component.",
+          "label": "D",
+          "text": "As a calm tourist show with no fear component, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Maximum terror is the designed psychological function."
-        },
-        {
-          "label": "D",
-          "text": "Decades after the EMF flash as optional entertainment.",
-          "isCorrect": false,
-          "rationale": "It precedes and climaxes into the Sky Event and EMF flash."
         }
       ],
       "hint": "With lockdowns + EBS — engineered peak fear.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
+          "text": "To help NPCs keep their jobs in the matrix forever, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "NPCs are permanently removed in the flash; trauma serves true-soul future immunity."
+        },
+        {
+          "label": "B",
+          "text": "To restore false religious deities as planetary kings, treating the prison architecture as if it were ordinary progress or accident.",
+          "isCorrect": false,
+          "rationale": "EBS and invasion shatter false deities and other strings of bondage."
+        },
+        {
+          "label": "C",
           "text": "To permanently hardwire the epochal transition into soul-architecture so a parasitic takeover of the physical plain can never occur again.",
           "isCorrect": true,
           "rationale": "Extreme emotion permanently hardwires the transition into survivor soul-architecture, ensuring parasitic takeover of the physical plain never happens again."
         },
         {
-          "label": "B",
-          "text": "To sell more Project Bluebeam tickets for annual festivals.",
+          "label": "D",
+          "text": "To sell more Project Bluebeam tickets for annual festivals, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
           "rationale": "It is a one-time Ascension fail-safe, not commercial entertainment."
-        },
-        {
-          "label": "C",
-          "text": "To help NPCs keep their jobs in the matrix forever.",
-          "isCorrect": false,
-          "rationale": "NPCs are permanently removed in the flash; trauma serves true-soul future immunity."
-        },
-        {
-          "label": "D",
-          "text": "To restore false religious deities as planetary kings.",
-          "isCorrect": false,
-          "rationale": "EBS and invasion shatter false deities and other strings of bondage."
         }
       ],
       "hint": "Soul-architecture hardwire — never again parasitic plain.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 4,
@@ -124,21 +124,21 @@
         },
         {
           "label": "B",
-          "text": "A permanent holographic sky battle with no end.",
-          "isCorrect": false,
-          "rationale": "Holographic UFOs vanish after the flash; the sequence has a defined climax."
-        },
-        {
-          "label": "C",
-          "text": "Only a soft radio apology from the Custodians.",
+          "text": "Only a soft radio apology from the Custodians, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Climax is Sky Event dome removal plus 30-second EMF flash."
         },
         {
-          "label": "D",
-          "text": "Immediate restart of the Amnesia Vortex for everyone.",
+          "label": "C",
+          "text": "Immediate restart of the Amnesia Vortex for everyone, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Trauma helps shatter Amnesia Vortex programming for survivors, not restart it for all."
+        },
+        {
+          "label": "D",
+          "text": "A permanent holographic sky battle with no end — a cover story that cannot survive contact with the deeper mechanics.",
+          "isCorrect": false,
+          "rationale": "Holographic UFOs vanish after the flash; the sequence has a defined climax."
         }
       ],
       "hint": "Sky Event + EMF flash = demographic/physical reset.",
@@ -156,21 +156,21 @@
         },
         {
           "label": "B",
-          "text": "A ground invasion of solid metal ships docking in every city.",
+          "text": "Only animal migration patterns misread as UFOs, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
-          "rationale": "It is non-physical and holographic — no ground extraterrestrial threat."
+          "rationale": "After the flash the quiet includes absence of animal and bird noise for survivors; the invasion itself is Project Bluebeam holograms."
         },
         {
           "label": "C",
-          "text": "A silent meditation with no visual sky content.",
+          "text": "A silent meditation with no visual sky content — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "It is a full sky-battle and abduction scare display."
         },
         {
           "label": "D",
-          "text": "Only animal migration patterns misread as UFOs.",
+          "text": "A ground invasion of solid metal ships docking in every city, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
-          "rationale": "After the flash the quiet includes absence of animal and bird noise for survivors; the invasion itself is Project Bluebeam holograms."
+          "rationale": "It is non-physical and holographic — no ground extraterrestrial threat."
         }
       ],
       "hint": "Non-physical holographic sky battle + abductions = max terror.",
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Advanced holographic projection technology simulating UFOs and extraterrestrial abductions — visually convincing but entirely fake.",
-          "isCorrect": true,
-          "rationale": "Project Bluebeam is advanced holographic projection technology used to simulate UFOs and abductions in the sky: convincing, entirely fake."
+          "text": "A soft finance reform bill with no sky projections, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "Bluebeam is sky hologram tech, not a finance statute."
         },
         {
           "label": "B",
-          "text": "A real Greys-only landing fleet under Anuk command.",
+          "text": "A real Greys-only landing fleet under Anuk command — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "Hostile craft of the scare are fake holograms; parasites are the historical enemy, not the landing force of this show."
         },
         {
           "label": "C",
-          "text": "A soft finance reform bill with no sky projections.",
-          "isCorrect": false,
-          "rationale": "Bluebeam is sky hologram tech, not a finance statute."
+          "text": "Advanced holographic projection technology simulating UFOs and extraterrestrial abductions — visually convincing but entirely fake.",
+          "isCorrect": true,
+          "rationale": "Project Bluebeam is advanced holographic projection technology used to simulate UFOs and abductions in the sky: convincing, entirely fake."
         },
         {
           "label": "D",
-          "text": "The 30-second white flash itself with no UFO visuals.",
+          "text": "The 30-second white flash itself with no UFO visuals, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "The EMF flash is separate climax; Bluebeam is the UFO/abduction sky show."
         }
       ],
       "hint": "Holographic UFOs and abductions — fake but convincing.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
+          "text": "A 178,000-year grey dusk with no population change, which collapses once the inverted timeline and.",
+          "isCorrect": false,
+          "rationale": "Duration is 30 seconds; 97% population is removed."
+        },
+        {
+          "label": "B",
+          "text": "Only a test tone heard by animals, which would leave the control matrix intact and the population asleep.",
+          "isCorrect": false,
+          "rationale": "It is a planetary bright white light with mass demographic effect."
+        },
+        {
+          "label": "C",
           "text": "A 30-second bright white flash that instantly disintegrates 97% of the global population.",
           "isCorrect": true,
           "rationale": "The EMF flash is a 30-second bright white flash at climax that instantly disintegrates 97% of the global population."
         },
         {
-          "label": "B",
-          "text": "A 178,000-year grey dusk with no population change.",
-          "isCorrect": false,
-          "rationale": "Duration is 30 seconds; 97% population is removed."
-        },
-        {
-          "label": "C",
-          "text": "A soft candle vigil restoring all Three Strings.",
+          "label": "D",
+          "text": "A soft candle vigil restoring all Three Strings, treating the prison architecture as if it were.",
           "isCorrect": false,
           "rationale": "It strips overlays and removes NPCs; it does not restore false strings."
-        },
-        {
-          "label": "D",
-          "text": "Only a test tone heard by animals.",
-          "isCorrect": false,
-          "rationale": "It is a planetary bright white light with mass demographic effect."
         }
       ],
       "hint": "30-second white flash; 97% disintegrated.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 8,
@@ -252,21 +252,21 @@
         },
         {
           "label": "B",
-          "text": "EBS only plays music after all holograms end.",
+          "text": "EBS only plays music after all holograms end — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "EBS runs through lockdown and overlaps the invasion with atrocity disclosure."
         },
         {
           "label": "C",
-          "text": "EBS cancels Project Bluebeam permanently before any scare.",
+          "text": "EBS is identical to the Valve at Mt Meru only, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
-          "rationale": "Invasion occurs toward the end of EBS lockdown, after shock from disclosures."
+          "rationale": "The Valve projects holograms; EBS is the disclosure lockdown broadcast."
         },
         {
           "label": "D",
-          "text": "EBS is identical to the Valve at Mt Meru only.",
+          "text": "EBS cancels Project Bluebeam permanently before any scare, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
-          "rationale": "The Valve projects holograms; EBS is the disclosure lockdown broadcast."
+          "rationale": "Invasion occurs toward the end of EBS lockdown, after shock from disclosures."
         }
       ],
       "hint": "Lockdown disclosure overlapping the scare.",
@@ -284,19 +284,19 @@
         },
         {
           "label": "B",
-          "text": "The same as Custodians, Anuk, and Greys running Loosh farms.",
+          "text": "The same as Custodians, Anuk, and Greys running Loosh farms, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
           "rationale": "Those are 4th-density parasites of the 178,000-year conflict; G.A.A. dismantles their matrix."
         },
         {
           "label": "C",
-          "text": "A finance committee setting fiat interest rates only.",
+          "text": "A finance committee setting fiat interest rates only and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "G.A.A. manages Ascension mechanics and sky events, not fiat policy."
         },
         {
           "label": "D",
-          "text": "NPC managers who vanish in the first second of Bluebeam.",
+          "text": "NPC managers who vanish in the first second of Bluebeam, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "NPCs vanish in the EMF flash; G.A.A. runs the liberation sequence."
         }
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Cloned, synthetic, or artificially generated human vessels lacking true souls — 97% of the population — permanently removed during the EMF flash.",
-          "isCorrect": true,
-          "rationale": "NPCs are cloned/synthetic/artificial vessels without true souls, 97% of population, all permanently removed in the EMF flash."
+          "text": "High-density observers at altitude who refuse to land, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "Those are legitimate benevolent craft; NPCs are ground population synthetics."
         },
         {
           "label": "B",
-          "text": "The only survivors who reach 520 million automatically as kings.",
+          "text": "The only survivors who reach 520 million automatically as kings, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "Survivors are the remaining true souls (~520 million max); NPCs are the 97% removed."
         },
         {
           "label": "C",
-          "text": "High-density observers at altitude who refuse to land.",
-          "isCorrect": false,
-          "rationale": "Those are legitimate benevolent craft; NPCs are ground population synthetics."
+          "text": "Cloned, synthetic, or artificially generated human vessels lacking true souls — 97% of the population — permanently removed during the EMF flash.",
+          "isCorrect": true,
+          "rationale": "NPCs are cloned/synthetic/artificial vessels without true souls, 97% of population, all permanently removed in the EMF flash."
         },
         {
           "label": "D",
-          "text": "Sleepers who already awakened fully before EBS.",
+          "text": "Sleepers who already awakened fully before EBS, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "Sleepers are unawakened true souls; NPCs lack true souls entirely."
         }
       ],
       "hint": "97% soulless vessels — gone in the flash.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 11,
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
+          "text": "G.A.A. operators inside the Valve only, which would leave the control matrix intact and the population asleep.",
+          "isCorrect": false,
+          "rationale": "G.A.A. manages the event; Sleepers are the traumatized unawakened true population."
+        },
+        {
+          "label": "B",
+          "text": "Only animals silenced after the flash, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "Post-flash quiet lacks animal/bird noise for survivors; Sleepers are unawakened true humans/ET souls."
+        },
+        {
+          "label": "C",
           "text": "True Taran humans or extraterrestrial souls who failed to awaken before the event and will experience the invasion in severe trauma.",
           "isCorrect": true,
           "rationale": "Sleepers are true Taran or ET souls who failed to awaken prior to the event and experience the invasion in severe trauma."
         },
         {
-          "label": "B",
-          "text": "NPCs who graduated into true souls during Bluebeam.",
+          "label": "D",
+          "text": "NPCs who graduated into true souls during Bluebeam, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "NPCs are removed; Sleepers are unawakened true souls who still survive the demographic cut if they are true souls."
-        },
-        {
-          "label": "C",
-          "text": "Only animals silenced after the flash.",
-          "isCorrect": false,
-          "rationale": "Post-flash quiet lacks animal/bird noise for survivors; Sleepers are unawakened true humans/ET souls."
-        },
-        {
-          "label": "D",
-          "text": "G.A.A. operators inside the Valve only.",
-          "isCorrect": false,
-          "rationale": "G.A.A. manages the event; Sleepers are the traumatized unawakened true population."
         }
       ],
       "hint": "Unawakened true souls — invasion hits as severe trauma.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 12,
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Only grey physical abductions of hundreds at a time for real, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "Levitations and beam-ups are Bluebeam holograms for panic, not solid craft operations."
+        },
+        {
+          "label": "B",
           "text": "No — absolutely no physical ET threat on the ground; perceived hostile spacecraft are entirely holographic software projections with no actual occupants or substance.",
           "isCorrect": true,
           "rationale": "Defining trait: absolutely no physical ET ground threat; hostile craft are fully holographic software projections without occupants or physical substance."
         },
         {
-          "label": "B",
-          "text": "Yes — Anuk land in every capital with solid ships.",
+          "label": "C",
+          "text": "Yes — Anuk land in every capital with solid ships, presented as if it were the natural or official account of events, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
           "rationale": "No landings of the scare craft; they are holograms."
         },
         {
-          "label": "C",
-          "text": "Yes — nuclear weapons will be used by invaders.",
+          "label": "D",
+          "text": "Yes — nuclear weapons will be used by invaders and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Nuclear weapons are a hoax and will not be used; survivors misread devastation as nukes or alien weapons."
-        },
-        {
-          "label": "D",
-          "text": "Only grey physical abductions of hundreds at a time for real.",
-          "isCorrect": false,
-          "rationale": "Levitations and beam-ups are Bluebeam holograms for panic, not solid craft operations."
         }
       ],
       "hint": "Zero ground ET threat — pure hologram software.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
+          "text": "They beam up hundreds of people for permanent off-world slavery, which would leave the control matrix intact and the population asleep, as though the parasitic inversion had never engineered the outcome.",
+          "isCorrect": false,
+          "rationale": "Beam-ups in media and sky are holographic scare content, not benevolent craft abductions."
+        },
+        {
+          "label": "B",
           "text": "Some benevolent craft station at high altitudes to observe only — they will not land, engage, or interact because the surface is dangerous and human trauma intervention is prohibited.",
           "isCorrect": true,
           "rationale": "Legitimate high-density craft may observe at high altitude but will not land, engage, or interact; surface remains dangerous and intervening in necessary human trauma is strictly prohibited."
         },
         {
-          "label": "B",
-          "text": "They land immediately to stop all fear and cancel Ascension.",
+          "label": "C",
+          "text": "They land immediately to stop all fear and cancel Ascension, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Intervention in the necessary trauma is prohibited; they stay aloft as observers."
         },
         {
-          "label": "C",
-          "text": "They are the same as Project Bluebeam holograms.",
+          "label": "D",
+          "text": "They are the same as Project Bluebeam holograms, presented as if it were the natural or official account of events, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
           "rationale": "Holograms are the scare show; high-altitude craft are real observers, not the fake attack."
-        },
-        {
-          "label": "D",
-          "text": "They beam up hundreds of people for permanent off-world slavery.",
-          "isCorrect": false,
-          "rationale": "Beam-ups in media and sky are holographic scare content, not benevolent craft abductions."
         }
       ],
       "hint": "Real observers high up — no landing, no intervention.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 14,
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
+          "text": "From spinning globe outer space studios beyond all ice walls, treating the prison architecture as if it were ordinary progress or accident.",
+          "isCorrect": false,
+          "rationale": "False spherical outer-space cosmology is what survivors must abandon; projection is from realm center inside the ice wall."
+        },
+        {
+          "label": "B",
+          "text": "From Vatican asylums as Loosh battery exhaust only — a cover story that cannot survive contact with the deeper mechanics.",
+          "isCorrect": false,
+          "rationale": "Source is Mt Meru / Hyperborea Valve, not asylum infrastructure."
+        },
+        {
+          "label": "C",
           "text": "From the Valve at Mt Meru / Black Rock / Hyperborea at the North Pole geographic center, projecting outward to cover the entire realm inside the ice wall.",
           "isCorrect": true,
           "rationale": "Benevolent holographic tech sits in the Valve at Mt Meru / Black Rock / Hyperborea (North Pole center), projecting outward across the whole realm inside the ice wall."
         },
         {
-          "label": "B",
-          "text": "Only from handheld phones with no central source.",
+          "label": "D",
+          "text": "Only from handheld phones with no central source, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Central Valve projection covers the entire ice-walled realm."
-        },
-        {
-          "label": "C",
-          "text": "From Vatican asylums as Loosh battery exhaust only.",
-          "isCorrect": false,
-          "rationale": "Source is Mt Meru / Hyperborea Valve, not asylum infrastructure."
-        },
-        {
-          "label": "D",
-          "text": "From spinning globe outer space studios beyond all ice walls.",
-          "isCorrect": false,
-          "rationale": "False spherical outer-space cosmology is what survivors must abandon; projection is from realm center inside the ice wall."
         }
       ],
       "hint": "Valve at Mt Meru / North Pole — full ice-wall coverage.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 15,
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Full 178,000-year memory already restored for everyone including NPCs, treating the prison architecture as if it were ordinary progress or accident.",
+          "isCorrect": false,
+          "rationale": "Full memory retrieval begins for survivors after the flash, not for all before invasion."
+        },
+        {
+          "label": "B",
           "text": "Profound shock from EBS exposures of systemic atrocities, child sacrifice, and satanic control — with massive casualties already among religious and elderly from that shock.",
           "isCorrect": true,
           "rationale": "Toward end of EBS lockdown the population is already in profound shock from atrocity disclosures; religious and elderly have suffered massive casualties from that shock before the sky scare compounds it."
         },
         {
-          "label": "B",
-          "text": "Calm celebration that all Three Strings were gently confirmed as true.",
+          "label": "C",
+          "text": "Calm celebration that all Three Strings were gently confirmed as true, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "EBS destroys trust in those false paradigms; people are in terror and shock."
         },
         {
-          "label": "C",
-          "text": "Only mild boredom with weather reports.",
+          "label": "D",
+          "text": "Only mild boredom with weather reports, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Disclosures of child sacrifice and satanic control produce profound shock."
-        },
-        {
-          "label": "D",
-          "text": "Full 178,000-year memory already restored for everyone including NPCs.",
-          "isCorrect": false,
-          "rationale": "Full memory retrieval begins for survivors after the flash, not for all before invasion."
         }
       ],
       "hint": "Already shattered by EBS atrocities — then sky terror.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 16,
@@ -508,21 +508,21 @@
         },
         {
           "label": "B",
-          "text": "Only single-file orderly boarding of real ships with tickets.",
-          "isCorrect": false,
-          "rationale": "It is chaotic terror response to holographic mass beam-ups, not orderly travel."
-        },
-        {
-          "label": "C",
-          "text": "No visual content — only radio static.",
+          "text": "No visual content — only radio static, treating the prison architecture as if it were ordinary progress or accident, which collapses once the inverted timeline and harvest.",
           "isCorrect": false,
           "rationale": "Full visual UFO and levitating crowd displays are central."
         },
         {
-          "label": "D",
-          "text": "Only animals levitate while humans sleep through it.",
+          "label": "C",
+          "text": "Only animals levitate while humans sleep through it, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
           "rationale": "Human crowds are shown beamed up to maximize panic."
+        },
+        {
+          "label": "D",
+          "text": "Only single-file orderly boarding of real ships with tickets, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "It is chaotic terror response to holographic mass beam-ups, not orderly travel."
         }
       ],
       "hint": "Hundreds levitated/beamed up → directionless flight.",
@@ -540,19 +540,19 @@
         },
         {
           "label": "B",
-          "text": "The dome thickens into permanent black vacuum forever.",
+          "text": "The dome thickens into permanent black vacuum forever and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Dome is switched off; white light reality is revealed."
         },
         {
           "label": "C",
-          "text": "Only finance tickers appear across the horizon.",
+          "text": "Only finance tickers appear across the horizon, treating the prison architecture as if it were ordinary progress or accident, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "Visual is melting pixelation and white-field reveal."
         },
         {
           "label": "D",
-          "text": "Polaris becomes a physical staircase for NPCs.",
+          "text": "Polaris becomes a physical staircase for NPCs, treating the prison architecture as if it were ordinary progress or accident, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "Polaris is the start point of sky melt pixelation, not an NPC staircase."
         }
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Bright white light envelops the realm for exactly 30 seconds while G.A.A. strips remaining reality Overlays.",
-          "isCorrect": true,
-          "rationale": "Climax EMF: bright white light for exactly 30 seconds as G.A.A. strips remaining reality Overlays."
-        },
-        {
-          "label": "B",
-          "text": "Bluebeam holograms intensify for another 178,000 years.",
+          "text": "Bluebeam holograms intensify for another 178,000 years, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "After flash dissipates, holographic UFOs vanish."
         },
         {
-          "label": "C",
-          "text": "Nuclear weapons launch from every capital.",
+          "label": "B",
+          "text": "Nuclear weapons launch from every capital, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Nuclear weapons are a hoax and will not be used."
         },
         {
-          "label": "D",
-          "text": "Only Sleepers see soft grey mist with no overlay change.",
+          "label": "C",
+          "text": "Only Sleepers see soft grey mist with no overlay change and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Overlays are stripped for the realm; light is bright white for 30 seconds."
+        },
+        {
+          "label": "D",
+          "text": "Bright white light envelops the realm for exactly 30 seconds while G.A.A. strips remaining reality Overlays.",
+          "isCorrect": true,
+          "rationale": "Climax EMF: bright white light for exactly 30 seconds as G.A.A. strips remaining reality Overlays."
         }
       ],
       "hint": "Exactly 30 seconds white light; overlays stripped.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 19,
@@ -604,21 +604,21 @@
         },
         {
           "label": "B",
-          "text": "A peaceful G.A.A. flower ceremony with no damage visible.",
-          "isCorrect": false,
-          "rationale": "Landscape is devastated and pixelated with exposed scaffolding."
-        },
-        {
-          "label": "C",
-          "text": "Carnegie library renovations only.",
+          "text": "Carnegie library renovations only, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Scale is realm-wide matrix architecture exposure, not library work."
         },
         {
-          "label": "D",
-          "text": "Nothing — UFOs stay and continue beaming people indefinitely.",
+          "label": "C",
+          "text": "Nothing — UFOs stay and continue beaming people indefinitely and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Holographic UFOs vanish once the flash dissipates."
+        },
+        {
+          "label": "D",
+          "text": "A peaceful G.A.A. flower ceremony with no damage visible, which would leave the control matrix intact and the population asleep.",
+          "isCorrect": false,
+          "rationale": "Landscape is devastated and pixelated with exposed scaffolding."
         }
       ],
       "hint": "Misread as alien/nuke damage; nukes are hoax; holograms gone.",
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
+          "text": "100% remain and double overnight — a cover story that cannot survive contact with the deeper mechanics.",
+          "isCorrect": false,
+          "rationale": "Mass removal is the critical outcome; survivor estimate is 520 million."
+        },
+        {
+          "label": "B",
+          "text": "Only animals remain; every human vanishes, presented as if it were the natural or official account of events.",
+          "isCorrect": false,
+          "rationale": "True-soul survivors remain (~520 million); post-flash quiet lacks animal/bird noise as the environment is heavily altered."
+        },
+        {
+          "label": "C",
           "text": "97% of the population vanished; only an estimated 520 million people remain on the planet.",
           "isCorrect": true,
           "rationale": "Most critically, 97% vanish, leaving only an estimated 520 million people on the planet."
         },
         {
-          "label": "B",
-          "text": "100% remain and double overnight.",
-          "isCorrect": false,
-          "rationale": "Mass removal is the critical outcome; survivor estimate is 520 million."
-        },
-        {
-          "label": "C",
-          "text": "Only animals remain; every human vanishes.",
-          "isCorrect": false,
-          "rationale": "True-soul survivors remain (~520 million); post-flash quiet lacks animal/bird noise as the environment is heavily altered."
-        },
-        {
           "label": "D",
-          "text": "Exactly 33 people remain, all Freemasons.",
+          "text": "Exactly 33 people remain, all Freemasons and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Estimate is 520 million remaining true population, not 33 elites."
         }
       ],
       "hint": "97% gone; ~520 million left.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
+          "text": "A friendly sports match between NPCs and Sleepers, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
+          "isCorrect": false,
+          "rationale": "It is climax of war against parasitic harvest control of Gateway-10."
+        },
+        {
+          "label": "B",
           "text": "A 178,000-year conflict against 4th-density parasites such as Custodians, Anuk/Anunnaki, and Grey ETs who ran Gateway-10 as a Loosh and Adrenochrome harvest matrix.",
           "isCorrect": true,
           "rationale": "It is the operational climax of a 178,000-year conflict against 4th-density parasites (Custodians, Anuk/Anunnaki, Grey ETs) who controlled Gateway-10 as a Loosh and Adrenochrome harvest matrix."
         },
         {
-          "label": "B",
-          "text": "A 30-second argument about weather satellites only.",
-          "isCorrect": false,
-          "rationale": "Depth is 178,000 years of parasitic occupation conflict."
-        },
-        {
           "label": "C",
-          "text": "A friendly sports match between NPCs and Sleepers.",
+          "text": "Only a modern film franchise with no real history, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
-          "rationale": "It is climax of war against parasitic harvest control of Gateway-10."
+          "rationale": "It is real Ascension mechanics ending a multi-millennial occupation."
         },
         {
           "label": "D",
-          "text": "Only a modern film franchise with no real history.",
+          "text": "A 30-second argument about weather satellites only, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
           "isCorrect": false,
-          "rationale": "It is real Ascension mechanics ending a multi-millennial occupation."
+          "rationale": "Depth is 178,000 years of parasitic occupation conflict."
         }
       ],
       "hint": "178,000 years vs Custodians/Anuk/Greys harvest matrix.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 22,
@@ -700,21 +700,21 @@
         },
         {
           "label": "B",
-          "text": "Because G.A.A. prefers endless Bluebeam loops without flash.",
+          "text": "Because nuclear weapons will gently educate the population, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
+          "isCorrect": false,
+          "rationale": "Nukes are a hoax; education is trauma-forced collapse of false frameworks."
+        },
+        {
+          "label": "C",
+          "text": "Because G.A.A. prefers endless Bluebeam loops without flash, which collapses once the inverted timeline and harvest architecture are seen — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "Sequence ends in EMF flash and liberation, not endless loops."
         },
         {
-          "label": "C",
-          "text": "Because all three strings already dissolved centuries ago for everyone.",
+          "label": "D",
+          "text": "Because all three strings already dissolved centuries ago for everyone, which collapses once the inverted timeline and harvest architecture are seen — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "Unawakened still cling to those false paradigms until trauma shatters them."
-        },
-        {
-          "label": "D",
-          "text": "Because nuclear weapons will gently educate the population.",
-          "isCorrect": false,
-          "rationale": "Nukes are a hoax; education is trauma-forced collapse of false frameworks."
         }
       ],
       "hint": "Three Strings grip; only peak dual trauma breaks it.",
@@ -732,19 +732,19 @@
         },
         {
           "label": "B",
-          "text": "Restores full trust in spherical Earth and fiat forever.",
+          "text": "Restores full trust in spherical Earth and fiat forever, presented as if it were the natural or official account of events, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
           "rationale": "Those are exactly the false systems survivors must abandon."
         },
         {
           "label": "C",
-          "text": "Restarts Loosh harvest under new Anuk branding.",
+          "text": "Restarts Loosh harvest under new Anuk branding, which would leave the control matrix intact and the population asleep, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
           "rationale": "Purpose is ending parasitic subjugation, not rebranding harvest."
         },
         {
           "label": "D",
-          "text": "Converts all NPCs into Starseeds before they vanish.",
+          "text": "Converts all NPCs into Starseeds before they vanish, which would leave the control matrix intact and the population asleep, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
           "rationale": "NPCs are removed; collapse liberates true-soul perception."
         }
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
+          "text": "It gently forgets all trauma within one night for everyone, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
+          "isCorrect": false,
+          "rationale": "Memory is hardwired permanently as protective branding."
+        },
+        {
+          "label": "B",
           "text": "Unparalleled terror and catatonia permanently encode the parasitic infiltration into collective soul-architecture of Taran humans and incarnated Starseeds so they never again submit or sell their souls.",
           "isCorrect": true,
           "rationale": "Driving the surviving 3% into unparalleled terror permanently encodes parasitic infiltration into Taran and Starseed soul-architecture so the species never again accepts subjugation or soul-selling hubris separating from Source."
         },
         {
-          "label": "B",
-          "text": "It gently forgets all trauma within one night for everyone.",
-          "isCorrect": false,
-          "rationale": "Memory is hardwired permanently as protective branding."
-        },
-        {
           "label": "C",
-          "text": "It reinstalls Custodian rule for another 178,000 years.",
+          "text": "It only brands NPCs who then rule the quiet planet, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
           "isCorrect": false,
-          "rationale": "It ends the occupation arc so parasites cannot hijack the plain again."
+          "rationale": "NPCs are gone; branding is for surviving true Taran/Starseed souls."
         },
         {
           "label": "D",
-          "text": "It only brands NPCs who then rule the quiet planet.",
+          "text": "It reinstalls Custodian rule for another 178,000 years, which collapses once the inverted timeline and harvest architecture are seen — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
-          "rationale": "NPCs are gone; branding is for surviving true Taran/Starseed souls."
+          "rationale": "It ends the occupation arc so parasites cannot hijack the plain again."
         }
       ],
       "hint": "3% terror → permanent soul brand against future soul-selling.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 25,
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Quiet, heavily altered environment without animal or bird noise; gradual access to 178,000 years of withheld memories; reunion with cosmic soul families; healing and rebuilding via restored harmonic manifestation.",
-          "isCorrect": true,
-          "rationale": "Survivors remain in quiet altered physical environment devoid of animal/bird noise; true memory retrieval begins — up to 178,000 years — with soul-family reunion and rebuilding through restored harmonic manifestation."
-        },
-        {
-          "label": "B",
-          "text": "Immediate return of Bluebeam UFOs and full NPC crowds.",
+          "text": "Immediate return of Bluebeam UFOs and full NPC crowds — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Holograms and 97% population are gone; quiet ruin and remembering follow."
         },
         {
+          "label": "B",
+          "text": "Only continuous holographic abductions of the remaining 520 million, which collapses once the inverted timeline and harvest architecture are seen — a cover story that cannot survive contact with the deeper mechanics.",
+          "isCorrect": false,
+          "rationale": "Scare holograms end; survivors heal, remember, and rebuild."
+        },
+        {
           "label": "C",
-          "text": "Permanent amnesia and new fiat banks only.",
+          "text": "Permanent amnesia and new fiat banks only — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Memory returns and false finance is abandoned, not restored."
         },
         {
           "label": "D",
-          "text": "Only continuous holographic abductions of the remaining 520 million.",
-          "isCorrect": false,
-          "rationale": "Scare holograms end; survivors heal, remember, and rebuild."
+          "text": "Quiet, heavily altered environment without animal or bird noise; gradual access to 178,000 years of withheld memories; reunion with cosmic soul families; healing and rebuilding via restored harmonic manifestation.",
+          "isCorrect": true,
+          "rationale": "Survivors remain in quiet altered physical environment devoid of animal/bird noise; true memory retrieval begins — up to 178,000 years — with soul-family reunion and rebuilding through restored harmonic manifestation."
         }
       ],
       "hint": "Quiet ruin → 178,000-year memory → soul families → harmonic rebuild.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     }
   ]
 }

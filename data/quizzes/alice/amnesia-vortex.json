@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Source of Creation calling the soul back home.",
-          "isCorrect": false,
-          "rationale": "The light is a deceptive mechanism designed to recycle souls back into the matrix rather than returning them to the Source."
-        },
-        {
-          "label": "B",
           "text": "The Sun, serving as an etheric portal for memory re-formatting.",
           "isCorrect": true,
           "rationale": "The Sun functions as the etheric portal that manages the time between physical vessels and strips the soul of its memories."
         },
         {
+          "label": "B",
+          "text": "A divine presence guiding the soul to the next evolution, treating the prison.",
+          "isCorrect": false,
+          "rationale": "This perception is an illusion used to lure souls into the Amnesia Vortex for memory erasure."
+        },
+        {
           "label": "C",
-          "text": "The Moon's reflected light casting a gateway to the astral plane.",
+          "text": "The Moon's reflected light casting a gateway to the astral plane, which would leave.",
           "isCorrect": false,
           "rationale": "While the Moon is a frequency control center, the Sun acts as the specific portal for the soul-redistribution operation."
         },
         {
           "label": "D",
-          "text": "A divine presence guiding the soul to the next evolution.",
+          "text": "The Source of Creation calling the soul back home, treating the prison architecture as.",
           "isCorrect": false,
-          "rationale": "This perception is an illusion used to lure souls into the Amnesia Vortex for memory erasure."
+          "rationale": "The light is a deceptive mechanism designed to recycle souls back into the matrix rather than returning them to the Source."
         }
       ],
       "hint": "Think about which celestial body serves as the gateway for the recycling process.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Within the crystalline temples obscured by holographic overlays.",
-          "isCorrect": false,
-          "rationale": "Crystalline temples are part of the original geography that the control grid attempts to hide."
-        },
-        {
-          "label": "B",
-          "text": "Inside the lunar space station managed by ET entities.",
+          "text": "Inside the lunar space station managed by ET entities — a cover story that cannot.",
           "isCorrect": false,
           "rationale": "The Moon manages frequencies, but the physical anchor for soul recycling is located terrestrially."
         },
         {
-          "label": "C",
-          "text": "At the geographic North Pole within the true Firmament.",
-          "isCorrect": false,
-          "rationale": "The Firmament is the boundary of the realm, not the anchor for the subterranean soul-stripping tech."
-        },
-        {
-          "label": "D",
+          "label": "B",
           "text": "Deep beneath the surface in the subterranean levels of the Vatican.",
           "isCorrect": true,
           "rationale": "The operation is physically anchored within one of the 13 subterranean levels below this specific location."
+        },
+        {
+          "label": "C",
+          "text": "Within the crystalline temples obscured by holographic overlays, as though the.",
+          "isCorrect": false,
+          "rationale": "Crystalline temples are part of the original geography that the control grid attempts to hide."
+        },
+        {
+          "label": "D",
+          "text": "At the geographic North Pole within the true Firmament — a cover story that cannot.",
+          "isCorrect": false,
+          "rationale": "The Firmament is the boundary of the realm, not the anchor for the subterranean soul-stripping tech."
         }
       ],
       "hint": "Consider a major religious center with extensive underground levels.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To increase the gravitational pull of the physical plane.",
-          "isCorrect": false,
-          "rationale": "Density suppression relates to vibrational frequency rather than the physical concept of gravity."
-        },
-        {
-          "label": "B",
-          "text": "To project fake space debris and asteroids into the sky.",
-          "isCorrect": false,
-          "rationale": "The projection of debris is handled by the Projection Dome sieve, not the density dial."
-        },
-        {
-          "label": "C",
           "text": "To forcibly lower the realm's vibration from 9th density to 3rd density.",
           "isCorrect": true,
           "rationale": "This tool is used by negative entities to lower frequencies so they can physically occupy and control the space."
         },
         {
-          "label": "D",
-          "text": "To hide the true white cosmos using black void plasma.",
+          "label": "B",
+          "text": "To project fake space debris and asteroids into the sky and ignoring the deliberate.",
+          "isCorrect": false,
+          "rationale": "The projection of debris is handled by the Projection Dome sieve, not the density dial."
+        },
+        {
+          "label": "C",
+          "text": "To hide the true white cosmos using black void plasma, treating the prison.",
           "isCorrect": false,
           "rationale": "Plasma coating is a visual illusion, whereas density suppression changes the fundamental vibration of the realm."
+        },
+        {
+          "label": "D",
+          "text": "To increase the gravitational pull of the physical plane, presented as if it were the.",
+          "isCorrect": false,
+          "rationale": "Density suppression relates to vibrational frequency rather than the physical concept of gravity."
         }
       ],
       "hint": "Think of this as a vibrational dial that changes how solid or subtle the reality feels.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Amnesia Vortex was successfully deactivated in 2019.",
-          "isCorrect": true,
-          "rationale": "The deactivation of this technology stopped the systematic erasure of memories during the reincarnation process."
+          "text": "The projection dome is pixelating, allowing more light to enter, presented as if it.",
+          "isCorrect": false,
+          "rationale": "While the dome is failing, memory recall is specifically linked to the state of the Amnesia Vortex."
         },
         {
           "label": "B",
-          "text": "The Galactic Ancestral Alliance updated the human pineal gland.",
-          "isCorrect": false,
-          "rationale": "Memory retention is due to the removal of the erasure tool, not a biological update."
-        },
-        {
-          "label": "C",
-          "text": "Twin Flames have finally reunited to share their knowledge.",
+          "text": "Twin Flames have finally reunited to share their knowledge — a cover story that cannot.",
           "isCorrect": false,
           "rationale": "The system was designed to keep Twin Flames apart; their reunion is a result of the system breaking, not the cause of memory recall."
         },
         {
-          "label": "D",
-          "text": "The projection dome is pixelating, allowing more light to enter.",
+          "label": "C",
+          "text": "The Galactic Ancestral Alliance updated the human pineal gland — a cover story that.",
           "isCorrect": false,
-          "rationale": "While the dome is failing, memory recall is specifically linked to the state of the Amnesia Vortex."
+          "rationale": "Memory retention is due to the removal of the erasure tool, not a biological update."
+        },
+        {
+          "label": "D",
+          "text": "The Amnesia Vortex was successfully deactivated in 2019.",
+          "isCorrect": true,
+          "rationale": "The deactivation of this technology stopped the systematic erasure of memories during the reincarnation process."
         }
       ],
       "hint": "Reflect on a major operational change that occurred in the last few years.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Venus",
-          "isCorrect": false,
-          "rationale": "Venus functions as the holographic generator that casts light onto the station."
+          "text": "The Moon",
+          "isCorrect": true,
+          "rationale": "The Moon is a negative ET space station used to broadcast cognitive-destabilizing frequencies."
         },
         {
           "label": "B",
-          "text": "The Sun",
+          "text": "The Sun, which collapses once the inverted timeline and harvest architecture are seen",
           "isCorrect": false,
           "rationale": "The Sun acts as a portal, whereas this other body is an artificial station."
         },
         {
           "label": "C",
-          "text": "Jupiter",
+          "text": "Venus, which collapses once the inverted timeline and harvest architecture are seen",
           "isCorrect": false,
-          "rationale": "Jupiter is not identified as the primary frequency station in this control grid architecture."
+          "rationale": "Venus functions as the holographic generator that casts light onto the station."
         },
         {
           "label": "D",
-          "text": "The Moon",
-          "isCorrect": true,
-          "rationale": "The Moon is a negative ET space station used to broadcast cognitive-destabilizing frequencies."
+          "text": "Jupiter, which collapses once the inverted timeline and harvest architecture are seen",
+          "isCorrect": false,
+          "rationale": "Jupiter is not identified as the primary frequency station in this control grid architecture."
         }
       ],
       "hint": "Think of the object that lights up the night and affects human moods during its 'full' phase.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 6,
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It acts as a secondary portal for soul exit.",
+          "text": "It acts as a secondary portal for soul exit, which collapses once the inverted.",
           "isCorrect": false,
           "rationale": "The primary exit portal is the Sun; Venus serves a different optical function."
         },
         {
           "label": "B",
-          "text": "It stores the collective memories stripped by the vortex.",
-          "isCorrect": false,
-          "rationale": "Memory re-formatting happens within the vortex portal itself, not on a separate planet."
-        },
-        {
-          "label": "C",
-          "text": "It broadcasts the three strings of psychological entrapment.",
+          "text": "It broadcasts the three strings of psychological entrapment and ignoring the.",
           "isCorrect": false,
           "rationale": "The strings are reinforced by societal and biological means, not by light from Venus."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "It is a holographic generator that casts light onto the lunar structure.",
           "isCorrect": true,
           "rationale": "Venus generates the light that makes the artificial lunar station appear illuminated."
+        },
+        {
+          "label": "D",
+          "text": "It stores the collective memories stripped by the vortex and ignoring the deliberate.",
+          "isCorrect": false,
+          "rationale": "Memory re-formatting happens within the vortex portal itself, not on a separate planet."
         }
       ],
       "hint": "Consider how the Moon receives its artificial illumination.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Media, Entertainment, and Sports.",
-          "isCorrect": false,
-          "rationale": "While influential, these are subsets of the larger primary cognitive bonds."
-        },
-        {
-          "label": "B",
           "text": "Religion, Finance, and Perceived Knowledge.",
           "isCorrect": true,
           "rationale": "These three pillars redirect devotion, create economic blindness, and suppress true history."
         },
         {
-          "label": "C",
-          "text": "Science, Technology, and Medicine.",
+          "label": "B",
+          "text": "Science, Technology, and Medicine, which would leave the control matrix intact and the.",
           "isCorrect": false,
           "rationale": "These are tools of the matrix, but the specific strings involve the broader systems of belief and value."
         },
         {
-          "label": "D",
-          "text": "Fear, Anger, and Desire.",
+          "label": "C",
+          "text": "Fear, Anger, and Desire, which would leave the control matrix intact and the.",
           "isCorrect": false,
           "rationale": "These are emotional states used for harvesting Loosh, but they are not the three specific cognitive 'strings'."
+        },
+        {
+          "label": "D",
+          "text": "Media, Entertainment, and Sports — a cover story that cannot survive contact with the.",
+          "isCorrect": false,
+          "rationale": "While influential, these are subsets of the larger primary cognitive bonds."
         }
       ],
       "hint": "Identify the systems that control how we worship, how we trade, and what we believe is true about our history.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Entirely bright white.",
-          "isCorrect": true,
-          "rationale": "The blackness of space is an optical illusion; the underlying field is actually bright white."
-        },
-        {
-          "label": "B",
-          "text": "A multi-colored crystalline mesh.",
-          "isCorrect": false,
-          "rationale": "While the temples are crystalline, the background field itself is characterized by a single bright hue."
-        },
-        {
-          "label": "C",
-          "text": "A deep violet frequency.",
+          "text": "A deep violet frequency, which collapses once the inverted timeline and harvest.",
           "isCorrect": false,
           "rationale": "Violet is a high-frequency color, but it does not represent the entirety of the dark matter field."
         },
         {
-          "label": "D",
-          "text": "A shimmering gold ether.",
+          "label": "B",
+          "text": "A shimmering gold ether, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
           "rationale": "Gold is often associated with divinity, but the specific field color described is different."
+        },
+        {
+          "label": "C",
+          "text": "A multi-colored crystalline mesh, which would leave the control matrix intact and the.",
+          "isCorrect": false,
+          "rationale": "While the temples are crystalline, the background field itself is characterized by a single bright hue."
+        },
+        {
+          "label": "D",
+          "text": "Entirely bright white.",
+          "isCorrect": true,
+          "rationale": "The blackness of space is an optical illusion; the underlying field is actually bright white."
         }
       ],
       "hint": "It is the total opposite of what our eyes currently see when looking at the night sky.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 9,
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To prevent consciousness from traveling outside permitted boundaries during sleep.",
-          "isCorrect": true,
-          "rationale": "These invisible barriers restrict soul travel while the physical vessel is resting."
+          "text": "To block the EMF Flash from the Galactic Ancestral Alliance, as though the parasitic.",
+          "isCorrect": false,
+          "rationale": "The fences are part of the suppression system, not a defense against the liberating flash."
         },
         {
           "label": "B",
-          "text": "To create the illusion of a flat earth.",
+          "text": "To create the illusion of a flat earth, as though the parasitic inversion had never.",
           "isCorrect": false,
           "rationale": "The flat earth is the reality; the fences and overlays are used to hide its true architecture."
         },
         {
           "label": "C",
-          "text": "To block the EMF Flash from the Galactic Ancestral Alliance.",
-          "isCorrect": false,
-          "rationale": "The fences are part of the suppression system, not a defense against the liberating flash."
+          "text": "To prevent consciousness from traveling outside permitted boundaries during sleep.",
+          "isCorrect": true,
+          "rationale": "These invisible barriers restrict soul travel while the physical vessel is resting."
         },
         {
           "label": "D",
-          "text": "To keep the NPC population from awakening.",
+          "text": "To keep the NPC population from awakening, treating the prison architecture as if it were.",
           "isCorrect": false,
           "rationale": "NPCs are naturally limited by their soulless nature; the fences target the movement of real souls."
         }
       ],
       "hint": "Consider what might happen when you dream or leave your body at night.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 10,
@@ -310,21 +310,21 @@
       "options": [
         {
           "label": "A",
-          "text": "The Moon space station is replaced with a newer model.",
-          "isCorrect": false,
-          "rationale": "The station remains; it is the human population that is repeatedly recycled or replaced."
-        },
-        {
-          "label": "B",
-          "text": "The Galactic Ancestral Alliance attempts a liberation mission.",
+          "text": "The Galactic Ancestral Alliance attempts a liberation mission, treating the prison.",
           "isCorrect": false,
           "rationale": "The current terminal collapse is unique; the 1,000-year cycles were part of the control grid's maintenance."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "The realm is depopulated to harvest Loosh and Adrenochrome.",
           "isCorrect": true,
           "rationale": "These cycles involve mass slaughter to feed the demonic hierarchies and wipe out advanced civilizations."
+        },
+        {
+          "label": "C",
+          "text": "The Moon space station is replaced with a newer model, as though the parasitic.",
+          "isCorrect": false,
+          "rationale": "The station remains; it is the human population that is repeatedly recycled or replaced."
         },
         {
           "label": "D",
@@ -334,7 +334,7 @@
         }
       ],
       "hint": "Think about a periodic event designed to maximize energy harvest and erase civilization.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 11,
@@ -348,21 +348,21 @@
         },
         {
           "label": "B",
-          "text": "Through natural birth cycles in protected subterranean bunkers.",
+          "text": "By bringing in survivors from the 9th density realms, as though the parasitic.",
+          "isCorrect": false,
+          "rationale": "High-density beings do not inhabit the suppressed 3rd density after a reset."
+        },
+        {
+          "label": "C",
+          "text": "Through natural birth cycles in protected subterranean bunkers, presented as if it.",
           "isCorrect": false,
           "rationale": "The resets are too rapid and destructive for natural repopulation to be the primary method."
         },
         {
-          "label": "C",
-          "text": "By releasing souls from the Vatican redistribution center.",
+          "label": "D",
+          "text": "By releasing souls from the Vatican redistribution center, as though the parasitic.",
           "isCorrect": false,
           "rationale": "While souls are recycled, the physical vessels are specifically introduced via cloning and transport systems."
-        },
-        {
-          "label": "D",
-          "text": "By bringing in survivors from the 9th density realms.",
-          "isCorrect": false,
-          "rationale": "High-density beings do not inhabit the suppressed 3rd density after a reset."
         }
       ],
       "hint": "Look for a specific, non-natural method of moving young, manufactured humans across the realm.",
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To act as schools for teaching the new Freemason-curated history.",
-          "isCorrect": false,
-          "rationale": "While training occurs, the specific purpose of these massive buildings was energy harvesting."
-        },
-        {
-          "label": "B",
-          "text": "To research ways to calcify the pineal glands of clones.",
+          "text": "To research ways to calcify the pineal glands of clones, as though the parasitic.",
           "isCorrect": false,
           "rationale": "Calcification is handled via chemical limiters like vaping and pharmaceuticals, not asylum housing."
         },
         {
-          "label": "C",
-          "text": "To provide healing for the survivors of the Old World.",
-          "isCorrect": false,
-          "rationale": "These facilities were not for healing; they were for exploitation of the remaining survivors."
-        },
-        {
-          "label": "D",
+          "label": "B",
           "text": "To house the 5,000-bed 'Loosh Batteries' that feed negative entities.",
           "isCorrect": true,
           "rationale": "Traumatized survivors were warehoused to provide an immediate energy source for the demonic hierarchies."
+        },
+        {
+          "label": "C",
+          "text": "To act as schools for teaching the new Freemason-curated history, which would leave.",
+          "isCorrect": false,
+          "rationale": "While training occurs, the specific purpose of these massive buildings was energy harvesting."
+        },
+        {
+          "label": "D",
+          "text": "To provide healing for the survivors of the Old World — a cover story that cannot.",
+          "isCorrect": false,
+          "rationale": "These facilities were not for healing; they were for exploitation of the remaining survivors."
         }
       ],
       "hint": "Think about why such massive, prison-like structures would be needed for 'traumatized' people.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "33%",
-          "isCorrect": false,
-          "rationale": "While 33 is a significant number for Freemasonry, it does not represent the NPC population."
-        },
-        {
-          "label": "B",
-          "text": "97%",
-          "isCorrect": true,
-          "rationale": "The vast majority of the population are hive-aligned replica souls used to enforce the narrative."
-        },
-        {
-          "label": "C",
-          "text": "3%",
+          "text": "3%, treating the prison architecture as if it were ordinary progress or accident",
           "isCorrect": false,
           "rationale": "This is the approximate percentage of genuine souls, not the NPCs."
         },
         {
-          "label": "D",
-          "text": "50%",
+          "label": "B",
+          "text": "50%, as though the parasitic inversion had never engineered the outcome",
           "isCorrect": false,
           "rationale": "The presence of NPCs is far more dominant than a simple half of the population."
+        },
+        {
+          "label": "C",
+          "text": "33%, which would leave the control matrix intact and the population asleep",
+          "isCorrect": false,
+          "rationale": "While 33 is a significant number for Freemasonry, it does not represent the NPC population."
+        },
+        {
+          "label": "D",
+          "text": "97%",
+          "isCorrect": true,
+          "rationale": "The vast majority of the population are hive-aligned replica souls used to enforce the narrative."
         }
       ],
       "hint": "It is an overwhelming majority, leaving only a tiny fraction of genuine souls.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 14,
@@ -438,15 +438,15 @@
       "options": [
         {
           "label": "A",
-          "text": "A global reset will be initiated by the 33rd-degree Freemasons.",
+          "text": "A global reset will be initiated by the 33rd-degree Freemasons — a cover story that.",
           "isCorrect": false,
           "rationale": "The Freemasons are part of the system that is collapsing; they are not the ones initiating the flash."
         },
         {
           "label": "B",
-          "text": "The Moon will descend into the subterranean Vatican levels.",
+          "text": "The Sun will turn dark for three days, treating the prison architecture as if it were.",
           "isCorrect": false,
-          "rationale": "The Moon is a station that will be dismantled, but it does not move into the Earth."
+          "rationale": "The Sun's portal function is ending, but the sky's visual change is the immediate precursor."
         },
         {
           "label": "C",
@@ -456,9 +456,9 @@
         },
         {
           "label": "D",
-          "text": "The Sun will turn dark for three days.",
+          "text": "The Moon will descend into the subterranean Vatican levels, treating the prison.",
           "isCorrect": false,
-          "rationale": "The Sun's portal function is ending, but the sky's visual change is the immediate precursor."
+          "rationale": "The Moon is a station that will be dismantled, but it does not move into the Earth."
         }
       ],
       "hint": "Consider what happens when a digital screen or holographic projector is suddenly disconnected.",
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Fluoride and Chlorine in the water supply.",
-          "isCorrect": false,
-          "rationale": "While common theories, the specific limiters mentioned include nano-particles and heavy metals from vaping/pharmaceuticals."
-        },
-        {
-          "label": "B",
-          "text": "Alcohol and tobacco products used by the general public.",
-          "isCorrect": false,
-          "rationale": "These are distractions, but the high-tech limiters are found in advanced pharmaceutical and vaping delivery systems."
-        },
-        {
-          "label": "C",
-          "text": "Genetically modified crops and synthetic fertilizers.",
+          "text": "Genetically modified crops and synthetic fertilizers, which collapses once the.",
           "isCorrect": false,
           "rationale": "These affect biological health, but the pineal gland is specifically targeted by metal nano-particles."
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "Fluoride and Chlorine in the water supply and ignoring the deliberate design of the.",
+          "isCorrect": false,
+          "rationale": "While common theories, the specific limiters mentioned include nano-particles and heavy metals from vaping/pharmaceuticals."
+        },
+        {
+          "label": "C",
           "text": "Nickel, Lead, and Chromium delivered via vaping and pharmaceuticals.",
           "isCorrect": true,
           "rationale": "These heavy metals and nano-particles are targeted interventions to sever inter-dimensional signal reception."
+        },
+        {
+          "label": "D",
+          "text": "Alcohol and tobacco products used by the general public, treating the prison.",
+          "isCorrect": false,
+          "rationale": "These are distractions, but the high-tech limiters are found in advanced pharmaceutical and vaping delivery systems."
         }
       ],
       "hint": "Focus on the heavy metals and nano-particles found in modern delivery systems.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 16,
@@ -502,31 +502,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Niberian Plasma Technicians",
-          "isCorrect": false,
-          "rationale": "They handle the visual technology of the sky, not the academic curriculum."
-        },
-        {
-          "label": "B",
-          "text": "The Galactic Ancestral Alliance",
-          "isCorrect": false,
-          "rationale": "The G.A.A. is the liberating force, not the curator of false history."
-        },
-        {
-          "label": "C",
           "text": "33rd-degree Freemasons",
           "isCorrect": true,
           "rationale": "They manage the rigid academic and historical narrative to suppress truths about the Old World and Tartaria."
         },
         {
+          "label": "B",
+          "text": "The Galactic Ancestral Alliance, as though the parasitic inversion had never.",
+          "isCorrect": false,
+          "rationale": "The G.A.A. is the liberating force, not the curator of false history."
+        },
+        {
+          "label": "C",
+          "text": "The Niberian Plasma Technicians and ignoring the deliberate design of the subjugation systems",
+          "isCorrect": false,
+          "rationale": "They handle the visual technology of the sky, not the academic curriculum."
+        },
+        {
           "label": "D",
-          "text": "The Orphan Train conductors",
+          "text": "The Orphan Train conductors — a cover story that cannot survive contact with the.",
           "isCorrect": false,
           "rationale": "They were merely transporters for the reset, not the architects of the global curriculum."
         }
       ],
       "hint": "Identify the secret society often associated with higher levels of institutional influence.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 17,
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To restore the true white cosmos to human sight.",
+          "text": "To repair the pixelating Projection Dome, treating the prison architecture as if it.",
           "isCorrect": false,
-          "rationale": "Bluebeam is a deception tool, while the white cosmos is the reality that has been hidden."
+          "rationale": "The dome is failing; Project Bluebeam uses its remaining capability to stage a final deception."
         },
         {
           "label": "B",
-          "text": "To transport genuine souls to the crystalline temples.",
+          "text": "To transport genuine souls to the crystalline temples and ignoring the deliberate.",
           "isCorrect": false,
           "rationale": "Bluebeam is a holographic weapon, not a transport system for liberation."
         },
         {
           "label": "C",
-          "text": "To create a fake alien invasion using holographic technology.",
-          "isCorrect": true,
-          "rationale": "This 'scare event' is designed as a final manipulation to trigger the collapse of those tethered to the matrix."
+          "text": "To restore the true white cosmos to human sight — a cover story that cannot survive.",
+          "isCorrect": false,
+          "rationale": "Bluebeam is a deception tool, while the white cosmos is the reality that has been hidden."
         },
         {
           "label": "D",
-          "text": "To repair the pixelating Projection Dome.",
-          "isCorrect": false,
-          "rationale": "The dome is failing; Project Bluebeam uses its remaining capability to stage a final deception."
+          "text": "To create a fake alien invasion using holographic technology.",
+          "isCorrect": true,
+          "rationale": "This 'scare event' is designed as a final manipulation to trigger the collapse of those tethered to the matrix."
         }
       ],
       "hint": "Think of a grand-scale 'scare event' involving holograms in the sky.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 18,
@@ -566,15 +566,15 @@
       "options": [
         {
           "label": "A",
-          "text": "They provide the light needed for plant growth on a flat earth.",
+          "text": "They record every internal monologue of the Taran souls, which collapses once the inverted timeline and harvest.",
           "isCorrect": false,
-          "rationale": "Light is provided by the holographic generators like Venus and the Sun portal."
+          "rationale": "Overlays are visual/frequency masks for the environment, not psychic recording devices."
         },
         {
           "label": "B",
-          "text": "They record every internal monologue of the Taran souls.",
+          "text": "They act as shields to protect the population from high-density radiation — a cover story that cannot survive.",
           "isCorrect": false,
-          "rationale": "Overlays are visual/frequency masks for the environment, not psychic recording devices."
+          "rationale": "The 'protection' is an illusion; they are tools of suppression and concealment."
         },
         {
           "label": "C",
@@ -584,9 +584,9 @@
         },
         {
           "label": "D",
-          "text": "They act as shields to protect the population from high-density radiation.",
+          "text": "They provide the light needed for plant growth on a flat earth, presented as if it were the natural or official.",
           "isCorrect": false,
-          "rationale": "The 'protection' is an illusion; they are tools of suppression and concealment."
+          "rationale": "Light is provided by the holographic generators like Venus and the Sun portal."
         }
       ],
       "hint": "Consider how advanced structures from the past might be hidden in plain sight.",
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Because the Amnesia Vortex has a limited energy window.",
-          "isCorrect": false,
-          "rationale": "The vortex is a constant tech; the speed of recycling is a strategic choice for psychological vulnerability."
-        },
-        {
-          "label": "B",
-          "text": "To maintain the 97% NPC to genuine soul ratio.",
+          "text": "To maintain the 97% NPC to genuine soul ratio, treating the prison architecture as if.",
           "isCorrect": false,
           "rationale": "The ratio is maintained by cloning and replica souls, while the recycling timing is about isolating individual souls."
         },
         {
-          "label": "C",
-          "text": "To ensure the physical vessel does not decompose too quickly.",
+          "label": "B",
+          "text": "To ensure the physical vessel does not decompose too quickly and ignoring the.",
           "isCorrect": false,
           "rationale": "The soul is placed into a new newborn vessel; the state of the old body is irrelevant to the system."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "To prevent the soul from reuniting with its Twin Flame.",
           "isCorrect": true,
           "rationale": "Rapid recycling ensures maximum isolation and prevents the healing connection of Twin Flames."
+        },
+        {
+          "label": "D",
+          "text": "Because the Amnesia Vortex has a limited energy window, which would leave the control.",
+          "isCorrect": false,
+          "rationale": "The vortex is a constant tech; the speed of recycling is a strategic choice for psychological vulnerability."
         }
       ],
       "hint": "Focus on the emotional and spiritual consequences of preventing souls from meeting between lives.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 20,
@@ -630,15 +630,15 @@
       "options": [
         {
           "label": "A",
-          "text": "The 33rd-degree Freemason rebels",
+          "text": "The 33rd-degree Freemason rebels, presented as if it were the natural or official.",
           "isCorrect": false,
           "rationale": "The Freemasons are part of the control structure, not the alliance dismantling it."
         },
         {
           "label": "B",
-          "text": "The survivors of Tartaria",
+          "text": "The Taran Soul Resistance, treating the prison architecture as if it were ordinary.",
           "isCorrect": false,
-          "rationale": "The Tartarian civilization was wiped out in previous resets; they are not the ones leading the current collapse."
+          "rationale": "While genuine souls are awakening, the strategic collapse is engineered from a higher level."
         },
         {
           "label": "C",
@@ -648,9 +648,9 @@
         },
         {
           "label": "D",
-          "text": "The Taran Soul Resistance",
+          "text": "The survivors of Tartaria, treating the prison architecture as if it were ordinary.",
           "isCorrect": false,
-          "rationale": "While genuine souls are awakening, the strategic collapse is engineered from a higher level."
+          "rationale": "The Tartarian civilization was wiped out in previous resets; they are not the ones leading the current collapse."
         }
       ],
       "hint": "Look for the name of the cosmic group that represents our liberated ancestors.",
@@ -668,7 +668,7 @@
         },
         {
           "label": "B",
-          "text": "True",
+          "text": "True, treating the prison architecture as if it were ordinary progress or accident",
           "isCorrect": false,
           "rationale": "NPCs lack these traits, which is why they strictly follow mainstream narratives without question."
         }
@@ -682,19 +682,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True",
-          "isCorrect": false,
-          "rationale": "The deactivation in 2019 was a permanent break in the cycle of soul-memory erasure."
-        },
-        {
-          "label": "B",
           "text": "False",
           "isCorrect": true,
           "rationale": "The vortex was deactivated in 2019, which is why the generational cycle of ignorance is now broken."
+        },
+        {
+          "label": "B",
+          "text": "True — a cover story that cannot survive contact with the deeper mechanics",
+          "isCorrect": false,
+          "rationale": "The deactivation in 2019 was a permanent break in the cycle of soul-memory erasure."
         }
       ],
       "hint": "Recall the major shift that occurred in the year 2019.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 23,
@@ -702,19 +702,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True",
-          "isCorrect": true,
-          "rationale": "The Projection Dome Projects fake space debris and the illusion of an infinite black universe to hide the truth."
+          "text": "False, which collapses once the inverted timeline and harvest architecture are seen",
+          "isCorrect": false,
+          "rationale": "The cosmos as perceived by humanity is an engineered holographic sieve."
         },
         {
           "label": "B",
-          "text": "False",
-          "isCorrect": false,
-          "rationale": "The cosmos as perceived by humanity is an engineered holographic sieve."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "The Projection Dome Projects fake space debris and the illusion of an infinite black universe to hide the truth."
         }
       ],
       "hint": "Think about the purpose of the 'Projection Dome'.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 24,
@@ -722,19 +722,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True",
-          "isCorrect": false,
-          "rationale": "This is the illusion created by plasma coating; the actual field is bright and limited by the Firmament."
-        },
-        {
-          "label": "B",
           "text": "False",
           "isCorrect": true,
           "rationale": "Space is a false optical illusion; the real dark matter field is bright white and the universe is not an infinite black void."
+        },
+        {
+          "label": "B",
+          "text": "True, as though the parasitic inversion had never engineered the outcome",
+          "isCorrect": false,
+          "rationale": "This is the illusion created by plasma coating; the actual field is bright and limited by the Firmament."
         }
       ],
       "hint": "Consider the effect of 'Black Void Plasma' on our perception.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 25,
@@ -742,7 +742,7 @@
       "options": [
         {
           "label": "A",
-          "text": "False",
+          "text": "False, presented as if it were the natural or official account of events",
           "isCorrect": false,
           "rationale": "The flash is the final step in the liberation process for the genuine souls remaining on Earth."
         },

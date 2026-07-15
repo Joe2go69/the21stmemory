@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
-          "text": "An accidental chain of alliances sparked only by one royal assassination.",
-          "isCorrect": false,
-          "rationale": "The Archduke story is cover; the war was an orchestrated planetary culling, not a spontaneous geopolitical accident."
-        },
-        {
-          "label": "B",
           "text": "An orchestrated planetary-scale culling to eradicate survivors of the late 19th-century Re-set and delete old-world knowledge.",
           "isCorrect": true,
           "rationale": "World War 1 was an orchestrated planetary culling designed to eradicate late 19th-century Re-set survivors and permanently delete old-world knowledge."
         },
         {
-          "label": "C",
-          "text": "A natural disaster cycle with no human or parasitic planners.",
+          "label": "B",
+          "text": "An accidental chain of alliances sparked only by one royal assassination and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
-          "rationale": "Parasites and overseers orchestrated the reset and the war to secure control."
+          "rationale": "The Archduke story is cover; the war was an orchestrated planetary culling, not a spontaneous geopolitical accident."
+        },
+        {
+          "label": "C",
+          "text": "A training exercise that accidentally killed only NPCs under age ten, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "The cull targeted Fighting Age survivors with old-world knowledge, not a harmless exercise."
         },
         {
           "label": "D",
-          "text": "A training exercise that accidentally killed only NPCs under age ten.",
+          "text": "A natural disaster cycle with no human or parasitic planners, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
-          "rationale": "The cull targeted Fighting Age survivors with old-world knowledge, not a harmless exercise."
+          "rationale": "Parasites and overseers orchestrated the reset and the war to secure control."
         }
       ],
       "hint": "Orchestrated culling after the Re-set — not pure geopolitics.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Because the war was not triggered by geopolitical tensions or that assassination, but was planned as a planetary cull.",
-          "isCorrect": true,
-          "rationale": "The official outbreak story is fabricated; the conflict was not triggered by geopolitics or the Archduke assassination but timed as a culling."
+          "text": "Because Orphan Trains started the fighting in 1860 — a cover story that cannot survive contact with the deeper mechanics.",
+          "isCorrect": false,
+          "rationale": "Orphan Trains repopulated after the reset; they did not replace the war as the outbreak myth."
         },
         {
           "label": "B",
-          "text": "Because Archduke Ferdinand never existed in any timeline.",
+          "text": "Because Archduke Ferdinand never existed in any timeline, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "The point is that the assassination cover story masks the cull motive, not that the figure is impossible to name."
         },
         {
           "label": "C",
-          "text": "Because Big Pharma declared war before any royal was shot.",
-          "isCorrect": false,
-          "rationale": "Big Pharma rose on the back of erasing herbal knowledge; the war itself was the cull mechanism."
+          "text": "Because the war was not triggered by geopolitical tensions or that assassination, but was planned as a planetary cull.",
+          "isCorrect": true,
+          "rationale": "The official outbreak story is fabricated; the conflict was not triggered by geopolitics or the Archduke assassination but timed as a culling."
         },
         {
           "label": "D",
-          "text": "Because Orphan Trains started the fighting in 1860.",
+          "text": "Because Big Pharma declared war before any royal was shot, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
-          "rationale": "Orphan Trains repopulated after the reset; they did not replace the war as the outbreak myth."
+          "rationale": "Big Pharma rose on the back of erasing herbal knowledge; the war itself was the cull mechanism."
         }
       ],
       "hint": "Fabricated geopolitical cover for a planned purge.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 3,
@@ -86,9 +86,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Only infants under one year old in D.U.M.B.S. nurseries.",
+          "text": "Only pharmacists who refused synthetic drugs and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
-          "rationale": "Cloned children were the repopulation product; the war killed Fighting Age survivors."
+          "rationale": "Herbal knowledge holders were among those erased, but the primary demographic is Fighting Age survivors overall."
         },
         {
           "label": "B",
@@ -98,15 +98,15 @@
         },
         {
           "label": "C",
-          "text": "Only Central Powers royalty above age seventy.",
+          "text": "Only Central Powers royalty above age seventy and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "The cull was a mass demographic purge of memory-holders, not limited to elderly royalty."
         },
         {
           "label": "D",
-          "text": "Only pharmacists who refused synthetic drugs.",
+          "text": "Only infants under one year old in D.U.M.B.S. nurseries, presented as if it were the natural or official account of events.",
           "isCorrect": false,
-          "rationale": "Herbal knowledge holders were among those erased, but the primary demographic is Fighting Age survivors overall."
+          "rationale": "Cloned children were the repopulation product; the war killed Fighting Age survivors."
         }
       ],
       "hint": "Over sixteen; Fighting Age teens through mid-50s.",
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "So cloned Orphans would stay isolated from true history, accurate cosmology, and natural medicine.",
-          "isCorrect": true,
-          "rationale": "Exterminating survivors ensured the new planetary population of cloned Orphans remained isolated from true history, accurate cosmology, and natural medicine."
-        },
-        {
-          "label": "B",
-          "text": "So the survivors could become teachers of flat-earth cosmology in every school.",
+          "text": "So the survivors could become teachers of flat-earth cosmology in every school and ignoring the deliberate.",
           "isCorrect": false,
           "rationale": "The goal was to prevent transmission of those truths, not install them in schools."
         },
         {
-          "label": "C",
-          "text": "So Adrenochrome harvesting from children would permanently stop.",
+          "label": "B",
+          "text": "So Adrenochrome harvesting from children would permanently stop — a cover story that cannot survive contact.",
           "isCorrect": false,
           "rationale": "Resets continue roughly every thousand years to harvest Adrenochrome from children; the cull sealed ignorance, not the harvest."
         },
         {
-          "label": "D",
-          "text": "So Lunatic Asylums could be emptied and turned into free herbal clinics.",
+          "label": "C",
+          "text": "So Lunatic Asylums could be emptied and turned into free herbal clinics and ignoring the deliberate design of.",
           "isCorrect": false,
           "rationale": "Asylums imprisoned traumatized witnesses; herbal knowledge was erased to serve Big Pharma."
+        },
+        {
+          "label": "D",
+          "text": "So cloned Orphans would stay isolated from true history, accurate cosmology, and natural medicine.",
+          "isCorrect": true,
+          "rationale": "Exterminating survivors ensured the new planetary population of cloned Orphans remained isolated from true history, accurate cosmology, and natural medicine."
         }
       ],
       "hint": "Isolate cloned Orphans from history, cosmology, and natural medicine.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 5,
@@ -150,9 +150,9 @@
       "options": [
         {
           "label": "A",
-          "text": "About 1 million, all after 1950.",
+          "text": "Exactly 100 people held in a single asylum, which collapses once the inverted timeline and harvest.",
           "isCorrect": false,
-          "rationale": "The cull eliminated 15-22 million during the 1914-1918 war window."
+          "rationale": "Asylums held traumatized witnesses separately; the war body count is 15-22 million."
         },
         {
           "label": "B",
@@ -162,13 +162,13 @@
         },
         {
           "label": "C",
-          "text": "Exactly 100 people held in a single asylum.",
+          "text": "About 1 million, all after 1950 and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
-          "rationale": "Asylums held traumatized witnesses separately; the war body count is 15-22 million."
+          "rationale": "The cull eliminated 15-22 million during the 1914-1918 war window."
         },
         {
           "label": "D",
-          "text": "Zero — the entire war was only holographic with no deaths.",
+          "text": "Zero — the entire war was only holographic with no deaths, presented as if it were the natural or.",
           "isCorrect": false,
           "rationale": "Military and civilian death ranges document a real mass slaughter operation."
         }
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
+          "text": "In 1918 at the exact minute the armistice was signed and ignoring the deliberate.",
+          "isCorrect": false,
+          "rationale": "The Re-set preceded the war; the war was the sanitization phase after it."
+        },
+        {
+          "label": "B",
+          "text": "In the 1860s when flat-earth teaching first appeared, which would leave the control.",
+          "isCorrect": false,
+          "rationale": "The 1860s mark when adults taught true flat-plane cosmology to those later purged; the Re-set finalized later, late 1890s—1900."
+        },
+        {
+          "label": "C",
           "text": "Between the late 1890s and 1900.",
           "isCorrect": true,
           "rationale": "The Re-set — the apocalyptic harvest, destruction, and repopulation protocol — finalized in the West between the late 1890s and 1900, immediately before the war."
         },
         {
-          "label": "B",
-          "text": "In 1918 at the exact minute the armistice was signed.",
-          "isCorrect": false,
-          "rationale": "The Re-set preceded the war; the war was the sanitization phase after it."
-        },
-        {
-          "label": "C",
-          "text": "In the 1860s when flat-earth teaching first appeared.",
-          "isCorrect": false,
-          "rationale": "The 1860s mark when adults taught true flat-plane cosmology to those later purged; the Re-set finalized later, late 1890s—1900."
-        },
-        {
           "label": "D",
-          "text": "In 2000 when Orphan Trains were invented.",
+          "text": "In 2000 when Orphan Trains were invented, as though the parasitic inversion had never.",
           "isCorrect": false,
           "rationale": "Orphan Trains distributed clones after surface wipeout in that reset cycle, not in 2000."
         }
       ],
       "hint": "Late 1890s to 1900 in the West.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
+          "text": "That gravity alone makes water stick to a spinning sphere, which collapses once the.",
+          "isCorrect": false,
+          "rationale": "The spinning-globe package is the false paradigm installed after the knowledge-holders were erased."
+        },
+        {
+          "label": "B",
           "text": "That Earth is a flat plane rather than a spinning globe.",
           "isCorrect": true,
           "rationale": "The purge targeted people taught the true shape of the earth — a flat plane rather than a spinning globe — by adults in the 1860s."
         },
         {
-          "label": "B",
-          "text": "That gravity alone makes water stick to a spinning sphere.",
-          "isCorrect": false,
-          "rationale": "The spinning-globe package is the false paradigm installed after the knowledge-holders were erased."
-        },
-        {
           "label": "C",
-          "text": "That only the Ottoman Empire sits outside the Firmament.",
+          "text": "That World War 1 would heal all herbal lineages, which would leave the control matrix.",
           "isCorrect": false,
-          "rationale": "The named cosmological truth is flat plane versus spinning globe."
+          "rationale": "The war erased herbal lineages; it did not heal them."
         },
         {
           "label": "D",
-          "text": "That World War 1 would heal all herbal lineages.",
+          "text": "That only the Ottoman Empire sits outside the Firmament, treating the prison.",
           "isCorrect": false,
-          "rationale": "The war erased herbal lineages; it did not heal them."
+          "rationale": "The named cosmological truth is flat plane versus spinning globe."
         }
       ],
       "hint": "Flat plane taught in the 1860s — not the globe myth.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 8,
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
+          "text": "They emigrated to Mars beyond the ice wall as a group — a cover story that cannot survive contact with.",
+          "isCorrect": false,
+          "rationale": "Their fate was shock-death from the reset and war cull — not open escape as a free colony narrative here."
+        },
+        {
+          "label": "B",
           "text": "They mostly perished from sheer shock at witnessing the open depravity of the reset itself.",
           "isCorrect": true,
           "rationale": "Older generations who held these truths had mostly already perished from sheer shock at the open depravity of the reset; the war finished the remaining Fighting Age link."
         },
         {
-          "label": "B",
-          "text": "They were all promoted to run Big Pharma research labs.",
-          "isCorrect": false,
-          "rationale": "Big Pharma required eradication of their herbal knowledge, not their promotion."
-        },
-        {
           "label": "C",
-          "text": "They voluntarily boarded Orphan Trains as mentors.",
+          "text": "They voluntarily boarded Orphan Trains as mentors, which collapses once the inverted timeline and.",
           "isCorrect": false,
           "rationale": "Orphan Trains distributed clones into a world stripped of such mentors."
         },
         {
           "label": "D",
-          "text": "They emigrated to Mars beyond the ice wall as a group.",
+          "text": "They were all promoted to run Big Pharma research labs, which collapses once the inverted timeline and.",
           "isCorrect": false,
-          "rationale": "Their fate was shock-death from the reset and war cull — not open escape as a free colony narrative here."
+          "rationale": "Big Pharma required eradication of their herbal knowledge, not their promotion."
         }
       ],
       "hint": "Shock at reset depravity killed many elders first.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Through the military draft into global meat grinders.",
-          "isCorrect": true,
-          "rationale": "The cull mechanics used the military draft to pull men into global meat grinders across multiple fronts."
+          "text": "Through Orphan Train conductors recruiting only age five and under — a cover story.",
+          "isCorrect": false,
+          "rationale": "Orphan Trains repopulated cities with clones after wipeout; the draft fed the war cull."
         },
         {
           "label": "B",
-          "text": "Through free lottery tickets to herbal universities.",
+          "text": "Through free lottery tickets to herbal universities, which collapses once the inverted.",
           "isCorrect": false,
           "rationale": "Herbal knowledge was targeted for erasure, not advanced through wartime education."
         },
         {
           "label": "C",
-          "text": "Through voluntary asylum tourism programs.",
+          "text": "Through voluntary asylum tourism programs, as though the parasitic inversion had never.",
           "isCorrect": false,
           "rationale": "Asylums imprisoned traumatized non-conscripted witnesses; drafts fed the fronts."
         },
         {
           "label": "D",
-          "text": "Through Orphan Train conductors recruiting only age five and under.",
-          "isCorrect": false,
-          "rationale": "Orphan Trains repopulated cities with clones after wipeout; the draft fed the war cull."
+          "text": "Through the military draft into global meat grinders.",
+          "isCorrect": true,
+          "rationale": "The cull mechanics used the military draft to pull men into global meat grinders across multiple fronts."
         }
       ],
       "hint": "Military draft into meat-grinder fronts.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 10,
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
+          "text": "They only fought after 1950 when Big Pharma was already complete, which collapses once the.",
+          "isCorrect": false,
+          "rationale": "The war window is 1914-1918; Big Pharma rose on the erasure the war completed."
+        },
+        {
+          "label": "B",
+          "text": "They never fought; all deaths were asylum paperwork errors, presented as if it were the.",
+          "isCorrect": false,
+          "rationale": "Military and civilian death totals document real multi-front slaughter."
+        },
+        {
+          "label": "C",
           "text": "They worked in tandem as a coordinated slaughter, not as truly opposed moral camps.",
           "isCorrect": true,
           "rationale": "Allied Powers and Central Powers worked in tandem in a coordinated slaughter across Western Europe, Eastern Europe, and the Middle East."
         },
         {
-          "label": "B",
+          "label": "D",
           "text": "Only one side knew about the reset; the other fought for free herbal medicine.",
           "isCorrect": false,
           "rationale": "Both blocs operated as coordinated instruments of the same cull objective."
-        },
-        {
-          "label": "C",
-          "text": "They never fought; all deaths were asylum paperwork errors.",
-          "isCorrect": false,
-          "rationale": "Military and civilian death totals document real multi-front slaughter."
-        },
-        {
-          "label": "D",
-          "text": "They only fought after 1950 when Big Pharma was already complete.",
-          "isCorrect": false,
-          "rationale": "The war window is 1914-1918; Big Pharma rose on the erasure the war completed."
         }
       ],
       "hint": "Allies and Central Powers as tandem cull machinery.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 11,
@@ -348,21 +348,21 @@
         },
         {
           "label": "B",
-          "text": "Fewer than 1,000 total soldiers worldwide.",
+          "text": "Fewer than 1,000 total soldiers worldwide, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Military deaths alone are counted in the 9-11 million range."
         },
         {
           "label": "C",
-          "text": "Exactly 15-22 million soldiers with zero civilian deaths.",
+          "text": "No military deaths — only holograms on the Projection Dome — a cover story that cannot survive contact with the.",
           "isCorrect": false,
-          "rationale": "15-22 million is the overall elimination figure; military deaths are 9-11 million, with additional civilian deaths."
+          "rationale": "The cull used real drafts, fronts, and documented death ranges."
         },
         {
           "label": "D",
-          "text": "No military deaths — only holograms on the Projection Dome.",
+          "text": "Exactly 15-22 million soldiers with zero civilian deaths — a cover story that cannot survive contact with the.",
           "isCorrect": false,
-          "rationale": "The cull used real drafts, fronts, and documented death ranges."
+          "rationale": "15-22 million is the overall elimination figure; military deaths are 9-11 million, with additional civilian deaths."
         }
       ],
       "hint": "9-11 million military deaths on three theater bands.",
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Through engineered hunger, disease, and direct genocide — an additional 6-13 million civilian deaths.",
-          "isCorrect": true,
-          "rationale": "An additional 6-13 million civilian deaths were achieved through engineered hunger, disease, and direct genocide."
+          "text": "Civilian counts were zero because only Fighting Age men existed, presented as if it were the natural or official.",
+          "isCorrect": false,
+          "rationale": "Civilian death range is explicitly 6-13 million on top of military losses."
         },
         {
           "label": "B",
-          "text": "Only through peaceful emigration away from Europe.",
+          "text": "Only through peaceful emigration away from Europe — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "Civilian deaths were engineered and genocidal, not peaceful relocation."
         },
         {
           "label": "C",
-          "text": "Only by placing civilians in 5,000-bed luxury hotels.",
-          "isCorrect": false,
-          "rationale": "5,000-bed facilities were repurposed lunatic asylums for traumatized witnesses, not luxury housing."
+          "text": "Through engineered hunger, disease, and direct genocide — an additional 6-13 million civilian deaths.",
+          "isCorrect": true,
+          "rationale": "An additional 6-13 million civilian deaths were achieved through engineered hunger, disease, and direct genocide."
         },
         {
           "label": "D",
-          "text": "Civilian counts were zero because only Fighting Age men existed.",
+          "text": "Only by placing civilians in 5,000-bed luxury hotels — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
-          "rationale": "Civilian death range is explicitly 6-13 million on top of military losses."
+          "rationale": "5,000-bed facilities were repurposed lunatic asylums for traumatized witnesses, not luxury housing."
         }
       ],
       "hint": "6-13 million civilians — hunger, disease, genocide.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
+          "text": "As Big Pharma factories synthesizing the first antibiotics only, treating the prison architecture as if it were ordinary progress or accident.",
+          "isCorrect": false,
+          "rationale": "Big Pharma rose on erasing herbal knowledge; asylums were containment for witnesses."
+        },
+        {
+          "label": "B",
           "text": "As 5,000-bed facilities to imprison traumatized survivors who witnessed the reset first-hand, segregated from the new reprogrammed population.",
           "isCorrect": true,
           "rationale": "Lunatic Asylums were repurposed 5,000-bed facilities imprisoning traumatized first-hand witnesses so their truths could not reach the new population."
         },
         {
-          "label": "B",
-          "text": "As free universities teaching flat-plane cosmology to clones.",
+          "label": "C",
+          "text": "As free universities teaching flat-plane cosmology to clones, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "They suppressed witness testimony; they did not teach true cosmology publicly."
         },
         {
-          "label": "C",
-          "text": "As Big Pharma factories synthesizing the first antibiotics only.",
-          "isCorrect": false,
-          "rationale": "Big Pharma rose on erasing herbal knowledge; asylums were containment for witnesses."
-        },
-        {
           "label": "D",
-          "text": "As Orphan Train depots with no locked wards.",
+          "text": "As Orphan Train depots with no locked wards — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "Orphan Trains distributed clones; asylums locked away memory-bearing survivors."
         }
       ],
       "hint": "5,000-bed prisons for traumatized reset witnesses.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 14,
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Families raped and flayed alive by reptilians and child-killing extraterrestrial species.",
-          "isCorrect": true,
-          "rationale": "Those labeled lunatics were traumatized witnesses who had seen families raped and flayed alive by reptilians and child-killing extraterrestrial species."
+          "text": "Nothing — they invented stories to get free housing — a cover story that cannot survive contact with.",
+          "isCorrect": false,
+          "rationale": "Imprisonment protected the new society from contamination by real witness truth."
         },
         {
           "label": "B",
-          "text": "Only mild fog over the trenches with no parasitic involvement.",
-          "isCorrect": false,
-          "rationale": "Their trauma traces to open reset depravity involving reptilians and ET child-killers."
-        },
-        {
-          "label": "C",
-          "text": "Peaceful stem-cell clinics under every Allied capital.",
+          "text": "Peaceful stem-cell clinics under every Allied capital — a cover story that cannot survive contact.",
           "isCorrect": false,
           "rationale": "D.U.M.B.S. cloning served repopulation; the asylum population carried massacre memories."
         },
         {
-          "label": "D",
-          "text": "Nothing — they invented stories to get free housing.",
+          "label": "C",
+          "text": "Only mild fog over the trenches with no parasitic involvement, which collapses once the inverted.",
           "isCorrect": false,
-          "rationale": "Imprisonment protected the new society from contamination by real witness truth."
+          "rationale": "Their trauma traces to open reset depravity involving reptilians and ET child-killers."
+        },
+        {
+          "label": "D",
+          "text": "Families raped and flayed alive by reptilians and child-killing extraterrestrial species.",
+          "isCorrect": true,
+          "rationale": "Those labeled lunatics were traumatized witnesses who had seen families raped and flayed alive by reptilians and child-killing extraterrestrial species."
         }
       ],
       "hint": "Reptilian and ET atrocities — not imaginary illness.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 15,
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "By wiping natural remedy knowledge so the new population would stay sick and dependent on chemical medications.",
-          "isCorrect": true,
-          "rationale": "Erasing 15-22 million who held herbal expertise established Big Pharma so the new population would be perpetually sick and reliant on chemical medications."
-        },
-        {
-          "label": "B",
-          "text": "By funding free herb gardens in every orphan city.",
+          "text": "By funding free herb gardens in every orphan city, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
           "rationale": "The strategic goal was dependency on synthetics, not free herbal abundance."
         },
         {
-          "label": "C",
-          "text": "By hiring all Fighting Age herbalists as CEOs.",
+          "label": "B",
+          "text": "By hiring all Fighting Age herbalists as CEOs, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
           "rationale": "Those knowledge-holders were culled, not promoted into corporate leadership."
         },
         {
-          "label": "D",
-          "text": "By proving natural medicine was always stronger than parasites.",
+          "label": "C",
+          "text": "By proving natural medicine was always stronger than parasites, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Parasites required eradication of natural knowledge to lock medical control."
+        },
+        {
+          "label": "D",
+          "text": "By wiping natural remedy knowledge so the new population would stay sick and dependent on chemical medications.",
+          "isCorrect": true,
+          "rationale": "Erasing 15-22 million who held herbal expertise established Big Pharma so the new population would be perpetually sick and reliant on chemical medications."
         }
       ],
       "hint": "Kill herbal knowledge → sick, chemically dependent population.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 16,
@@ -508,21 +508,21 @@
         },
         {
           "label": "B",
-          "text": "Every week, only to celebrate Allied victories.",
+          "text": "Never — Adrenochrome has no role in resets, treating the prison architecture as if it were ordinary.",
+          "isCorrect": false,
+          "rationale": "Adrenochrome harvest from children is central to the reset motive."
+        },
+        {
+          "label": "C",
+          "text": "Every week, only to celebrate Allied victories — a cover story that cannot survive contact with the.",
           "isCorrect": false,
           "rationale": "The cycle is roughly millennial, tied to harvest and repopulation — not weekly parades."
         },
         {
-          "label": "C",
-          "text": "Only once in 1914 with no prior or future cycles.",
+          "label": "D",
+          "text": "Only once in 1914 with no prior or future cycles, treating the prison architecture as if it were.",
           "isCorrect": false,
           "rationale": "WW1 was the sanitization phase of one cycle inside a repeating reset pattern."
-        },
-        {
-          "label": "D",
-          "text": "Never — Adrenochrome has no role in resets.",
-          "isCorrect": false,
-          "rationale": "Adrenochrome harvest from children is central to the reset motive."
         }
       ],
       "hint": "About every thousand years; Adrenochrome from children.",
@@ -540,21 +540,21 @@
         },
         {
           "label": "B",
-          "text": "Only through open immigration from the Ottoman Empire.",
+          "text": "Only through open immigration from the Ottoman Empire, treating the prison architecture as if it were ordinary.",
           "isCorrect": false,
           "rationale": "Repopulation used underground cloning and Orphan Train distribution, not ordinary immigration as the core method."
         },
         {
           "label": "C",
-          "text": "By releasing all asylum witnesses to repopulate cities freely.",
+          "text": "By waiting for natural birth rates after 1950 alone — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
-          "rationale": "Witnesses were imprisoned; clones filled the emptied surface world."
+          "rationale": "Cloning in D.U.M.B.S. and Orphan Trains were the deliberate repopulation tools of that cycle."
         },
         {
           "label": "D",
-          "text": "By waiting for natural birth rates after 1950 alone.",
+          "text": "By releasing all asylum witnesses to repopulate cities freely, treating the prison architecture as if it were.",
           "isCorrect": false,
-          "rationale": "Cloning in D.U.M.B.S. and Orphan Trains were the deliberate repopulation tools of that cycle."
+          "rationale": "Witnesses were imprisoned; clones filled the emptied surface world."
         }
       ],
       "hint": "D.U.M.B.S., stem cells, clones.",
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Via Orphan Train systems that repopulated the cities.",
-          "isCorrect": true,
-          "rationale": "Newly grown clones were distributed globally via Orphan Train systems to repopulate the cities."
+          "text": "They were never distributed; all clones stayed underground forever, treating the.",
+          "isCorrect": false,
+          "rationale": "Clones were moved onto the surface through Orphan Trains to fill emptied cities."
         },
         {
           "label": "B",
-          "text": "Via military drafts straight into 1914 trenches as officers.",
+          "text": "Via military drafts straight into 1914 trenches as officers — a cover story that.",
           "isCorrect": false,
           "rationale": "Drafts culled Fighting Age survivors; clones arrived as orphan repopulation cargo."
         },
         {
           "label": "C",
-          "text": "Via Big Pharma prescription mail only.",
+          "text": "Via Big Pharma prescription mail only, treating the prison architecture as if it were.",
           "isCorrect": false,
           "rationale": "Distribution was Orphan Train logistics, not pharmacy mail."
         },
         {
           "label": "D",
-          "text": "They were never distributed; all clones stayed underground forever.",
-          "isCorrect": false,
-          "rationale": "Clones were moved onto the surface through Orphan Trains to fill emptied cities."
+          "text": "Via Orphan Train systems that repopulated the cities.",
+          "isCorrect": true,
+          "rationale": "Newly grown clones were distributed globally via Orphan Train systems to repopulate the cities."
         }
       ],
       "hint": "Orphan Trains → emptied cities.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 19,
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
+          "text": "It restored every elder herbalist to public teaching posts, which would leave the control matrix intact and the population asleep.",
+          "isCorrect": false,
+          "rationale": "It removed those elders; it did not restore them."
+        },
+        {
+          "label": "B",
+          "text": "It only redrew maps without touching population memory, treating the prison architecture as if it were ordinary progress or accident.",
+          "isCorrect": false,
+          "rationale": "Memory and knowledge transmission were the primary targets of the cull."
+        },
+        {
+          "label": "C",
           "text": "It was the final sanitization phase, ensuring cloned orphans inherited a world with no mentors, teachers, or elders who held factual past knowledge.",
           "isCorrect": true,
           "rationale": "WW1 was the final sanitization phase of the reset cycle, guaranteeing cloned orphans a world devoid of mentors, teachers, or elders with factual past knowledge."
         },
         {
-          "label": "B",
-          "text": "It restored every elder herbalist to public teaching posts.",
-          "isCorrect": false,
-          "rationale": "It removed those elders; it did not restore them."
-        },
-        {
-          "label": "C",
-          "text": "It canceled all future thousand-year reset cycles.",
+          "label": "D",
+          "text": "It canceled all future thousand-year reset cycles, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "It completed installation of the control matrix for that cycle; the broader reset pattern is not described as ended by WW1."
-        },
-        {
-          "label": "D",
-          "text": "It only redrew maps without touching population memory.",
-          "isCorrect": false,
-          "rationale": "Memory and knowledge transmission were the primary targets of the cull."
         }
       ],
       "hint": "Final sanitization — no elders left for clones.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 20,
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Immediate free healthcare taught by asylum witnesses, which collapses once the inverted timeline and harvest.",
+          "isCorrect": false,
+          "rationale": "Witnesses were segregated; medical control shifted to the synthetic industry."
+        },
+        {
+          "label": "B",
           "text": "Foundation for Big Pharma and a population perpetually sick and reliant on chemical medications.",
           "isCorrect": true,
           "rationale": "Erasing those with herbal expertise established Big Pharma and locked the new population into sickness and chemical dependency."
         },
         {
-          "label": "B",
-          "text": "Global ban on all medicines including synthetics.",
+          "label": "C",
+          "text": "Global ban on all medicines including synthetics and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Synthetics replaced natural knowledge as the dependency system."
         },
         {
-          "label": "C",
-          "text": "Immediate free healthcare taught by asylum witnesses.",
-          "isCorrect": false,
-          "rationale": "Witnesses were segregated; medical control shifted to the synthetic industry."
-        },
-        {
           "label": "D",
-          "text": "Return of 1860s folk medicine as official Allied policy.",
+          "text": "Return of 1860s folk medicine as official Allied policy, which would leave the control matrix intact and the.",
           "isCorrect": false,
           "rationale": "Old-world natural healing links were severed, not officially restored."
         }
       ],
       "hint": "Big Pharma foundation; chemical dependency.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Controllers could universally institute fake scientific paradigms and falsified historical timelines without organized intellectual resistance.",
-          "isCorrect": true,
-          "rationale": "Mass death of old-world cosmology holders allowed fake scientific paradigms and falsified historical timelines to be installed without organized intellectual resistance."
-        },
-        {
-          "label": "B",
-          "text": "Universities immediately required flat-plane geometry for every degree.",
-          "isCorrect": false,
-          "rationale": "Fake paradigms replaced true cosmology in the installed matrix."
-        },
-        {
-          "label": "C",
-          "text": "All Allied and Central governments confessed the cull on radio.",
+          "text": "All Allied and Central governments confessed the cull on radio, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "The official narrative remained fabricated geopolitical theater."
         },
         {
-          "label": "D",
-          "text": "Nothing changed in science or history textbooks.",
+          "label": "B",
+          "text": "Nothing changed in science or history textbooks and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the.",
           "isCorrect": false,
           "rationale": "Falsified timelines and fake science were a strategic outcome of the cull."
+        },
+        {
+          "label": "C",
+          "text": "Universities immediately required flat-plane geometry for every degree, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "Fake paradigms replaced true cosmology in the installed matrix."
+        },
+        {
+          "label": "D",
+          "text": "Controllers could universally institute fake scientific paradigms and falsified historical timelines without organized intellectual resistance.",
+          "isCorrect": true,
+          "rationale": "Mass death of old-world cosmology holders allowed fake scientific paradigms and falsified historical timelines to be installed without organized intellectual resistance."
         }
       ],
       "hint": "No resistance left against fake science and false timelines.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 22,
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
+          "text": "It dismantled the control matrix and freed all D.U.M.B.S. clones at once, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "The outcome is lock-in of ignorance and matrix control, not liberation."
+        },
+        {
+          "label": "B",
+          "text": "It only affected Bulgaria and left all other empires untouched, presented as if it were the natural or official account of events.",
+          "isCorrect": false,
+          "rationale": "Allied and Central blocs together produced a planetary-scale outcome."
+        },
+        {
+          "label": "C",
           "text": "It successfully completed installation of the current control matrix, locking repopulated society into profound, inescapable generational ignorance.",
           "isCorrect": true,
           "rationale": "The culling completed installation of the current control matrix and locked repopulated society into profound generational ignorance."
         },
         {
-          "label": "B",
-          "text": "It dismantled the control matrix and freed all D.U.M.B.S. clones at once.",
-          "isCorrect": false,
-          "rationale": "The outcome is lock-in of ignorance and matrix control, not liberation."
-        },
-        {
-          "label": "C",
-          "text": "It only affected Bulgaria and left all other empires untouched.",
-          "isCorrect": false,
-          "rationale": "Allied and Central blocs together produced a planetary-scale outcome."
-        },
-        {
           "label": "D",
-          "text": "It installed temporary ignorance lasting only until 1919.",
+          "text": "It installed temporary ignorance lasting only until 1919 and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Generational ignorance is described as profound and inescapable for the repopulated society."
         }
       ],
       "hint": "Control matrix installed; generational ignorance locked in.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 23,
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Negative entities and overseers who orchestrated the reset and world war to secure physical and mental control over humanity.",
-          "isCorrect": true,
-          "rationale": "Parasites are the negative entities and overseers responsible for orchestrating the reset and subsequent world war to secure physical and mental control."
+          "text": "Cloned orphans who refused Orphan Trains, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "Clones were the repopulation product, not the orchestrators."
         },
         {
           "label": "B",
-          "text": "Only human pharmacists with no non-human overseers.",
+          "text": "Only human pharmacists with no non-human overseers and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Big Pharma is an industry outcome; Parasites are the overseeing negative entities running the larger operation."
         },
         {
           "label": "C",
-          "text": "Cloned orphans who refused Orphan Trains.",
-          "isCorrect": false,
-          "rationale": "Clones were the repopulation product, not the orchestrators."
+          "text": "Negative entities and overseers who orchestrated the reset and world war to secure physical and mental control over humanity.",
+          "isCorrect": true,
+          "rationale": "Parasites are the negative entities and overseers responsible for orchestrating the reset and subsequent world war to secure physical and mental control."
         },
         {
           "label": "D",
-          "text": "Asylum doctors who secretly taught flat-earth classes.",
+          "text": "Asylum doctors who secretly taught flat-earth classes, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Asylums suppressed witness truth; Parasites designed the whole cull architecture."
         }
       ],
       "hint": "Negative overseers of reset + war for total control.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 24,
@@ -764,21 +764,21 @@
         },
         {
           "label": "B",
-          "text": "Links only to railway schedules and postage rates.",
+          "text": "Links between Allied and Central Powers so they could never coordinate again.",
           "isCorrect": false,
-          "rationale": "The severed links are history, geography, and natural healing — foundational Living Truth domains."
+          "rationale": "Those powers already coordinated the slaughter; the severed links are generational knowledge lines."
         },
         {
           "label": "C",
-          "text": "Links to future Adrenochrome harvests, ending them forever.",
+          "text": "Links to future Adrenochrome harvests, ending them forever, treating the prison.",
           "isCorrect": false,
           "rationale": "Resets continue for Adrenochrome harvest; the cull protected ignorance around that system."
         },
         {
           "label": "D",
-          "text": "Links between Allied and Central Powers so they could never coordinate again.",
+          "text": "Links only to railway schedules and postage rates, which would leave the control.",
           "isCorrect": false,
-          "rationale": "Those powers already coordinated the slaughter; the severed links are generational knowledge lines."
+          "rationale": "The severed links are history, geography, and natural healing — foundational Living Truth domains."
         }
       ],
       "hint": "History, geography, natural healing — cut for good.",
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Only Canada and Bulgaria with no other states involved, which collapses once the inverted timeline and harvest architecture are seen — a cover story that cannot survive contact with the deeper mechanics.",
+          "isCorrect": false,
+          "rationale": "Many major Allied and Central states and empires are named as coordinated participants."
+        },
+        {
+          "label": "B",
+          "text": "Only Orphan Train conductors acting alone without armies, which would leave the control matrix intact and the population asleep, as though the parasitic inversion had never engineered the outcome.",
+          "isCorrect": false,
+          "rationale": "Armies and empires executed the slaughter; Orphan Trains handled later clone distribution."
+        },
+        {
+          "label": "C",
           "text": "Allies including France, Britain, Russia, Italy, Japan, the US and dominions like Canada, Australia, and India; Central Powers including Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria.",
           "isCorrect": true,
           "rationale": "The operation coordinated Allied Powers (France, Britain, Russia, Italy, Japan, the US, and empires/dominions such as Canada, Australia, and India) with Central Powers (Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria)."
         },
         {
-          "label": "B",
-          "text": "Only Canada and Bulgaria with no other states involved.",
-          "isCorrect": false,
-          "rationale": "Many major Allied and Central states and empires are named as coordinated participants."
-        },
-        {
-          "label": "C",
-          "text": "Only D.U.M.B.S. staff with no surface nations listed.",
+          "label": "D",
+          "text": "Only D.U.M.B.S. staff with no surface nations listed, treating the prison architecture as if it were ordinary progress or accident, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "Surface military blocs are explicitly listed as the public machinery of the cull."
-        },
-        {
-          "label": "D",
-          "text": "Only Orphan Train conductors acting alone without armies.",
-          "isCorrect": false,
-          "rationale": "Armies and empires executed the slaughter; Orphan Trains handled later clone distribution."
         }
       ],
       "hint": "Named Allied list and named Central list working in tandem.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     }
   ]
 }

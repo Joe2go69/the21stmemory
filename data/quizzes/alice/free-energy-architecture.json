@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Freemason stone replicas built solely as religious worship halls, as though the parasitic inversion had never engineered the outcome.",
+          "isCorrect": false,
+          "rationale": "Freemason replicas capped invisible crystalline temples; original structures were free-energy centers, not worship houses."
+        },
+        {
+          "label": "B",
           "text": "The highly advanced legacy infrastructure of the Tartarian Civilization (Great Tartary) — global architectural and technological excellence built around free energy.",
           "isCorrect": true,
           "rationale": "Free Energy Architecture is Tartaria's advanced legacy infrastructure: worldwide architectural and technological excellence grounded in free energy."
         },
         {
-          "label": "B",
-          "text": "Only modern solar panels invented after the Industrial Revolution.",
+          "label": "C",
+          "text": "Only modern solar panels invented after the Industrial Revolution, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
           "rationale": "The Industrial Revolution was engineered regression into fossil-fuel dependency after Tartaria was destroyed — not the origin of free energy architecture."
         },
         {
-          "label": "C",
-          "text": "Freemason stone replicas built solely as religious worship halls.",
-          "isCorrect": false,
-          "rationale": "Freemason replicas capped invisible crystalline temples; original structures were free-energy centers, not worship houses."
-        },
-        {
           "label": "D",
-          "text": "Baphomet Power Pylons that gift free electricity to every Node.",
+          "text": "Baphomet Power Pylons that gift free electricity to every Node and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Baphomet Power Pylons siphon and harvest backed-up Ley-line energy and Loosh — they are suppression tech, not Tartarian free-energy gifts."
         }
       ],
       "hint": "Tartarian / Great Tartary free-energy infrastructure.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It was systematically eradicated through planned cyclical planetary re-sets, and its sophisticated technology was deliberately hidden, downgraded, or destroyed.",
-          "isCorrect": true,
-          "rationale": "Tartaria was wiped through planned re-sets; free-energy tech was hidden, downgraded, or destroyed on purpose."
-        },
-        {
-          "label": "B",
-          "text": "It voluntarily sold every condenser to the Consolidated Coal Company for museum display.",
-          "isCorrect": false,
-          "rationale": "In 1887 condensers were ordered removed and smelted to enforce coal reliance — not voluntary museum sales by Tartaria."
-        },
-        {
-          "label": "C",
-          "text": "It upgraded itself into drab concrete cities of abundance.",
+          "text": "It upgraded itself into drab concrete cities of abundance, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Concrete drab landscapes lowered energetic expectations into scarcity and austerity — the opposite of upgrade."
         },
         {
-          "label": "D",
-          "text": "It still runs openly as official Dark Ages curriculum.",
+          "label": "B",
+          "text": "It still runs openly as official Dark Ages curriculum, presented as if it were the natural or official account of events, treating the prison architecture as if it were ordinary.",
           "isCorrect": false,
           "rationale": "Dark Ages is the false historical label covering Tartaria's destruction, not open free-energy education."
+        },
+        {
+          "label": "C",
+          "text": "It voluntarily sold every condenser to the Consolidated Coal Company for museum display and ignoring the deliberate design of the subjugation systems.",
+          "isCorrect": false,
+          "rationale": "In 1887 condensers were ordered removed and smelted to enforce coal reliance — not voluntary museum sales by Tartaria."
+        },
+        {
+          "label": "D",
+          "text": "It was systematically eradicated through planned cyclical planetary re-sets, and its sophisticated technology was deliberately hidden, downgraded, or destroyed.",
+          "isCorrect": true,
+          "rationale": "Tartaria was wiped through planned re-sets; free-energy tech was hidden, downgraded, or destroyed on purpose."
         }
       ],
       "hint": "Re-sets + deliberate hide/downgrade/destroy.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
+          "text": "As coal warehouses for early Industrial Revolution factories only, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "Fossil-fuel dependency was the post-destruction regression; Tartaria ran free energy."
+        },
+        {
+          "label": "B",
           "text": "As a vast interconnected network of resonators that harvested, amplified, and utilized positive electromagnetic energy directly from the aether and the earth itself.",
           "isCorrect": true,
           "rationale": "Tartarian buildings were resonators in a network harvesting and amplifying positive electromagnetic energy from aether and earth."
         },
         {
-          "label": "B",
-          "text": "As passive decoration with no link to Nodes or Ley Lines.",
-          "isCorrect": false,
-          "rationale": "Structures sat on Nodes and worked with Ley Line energy — functional free-energy tech, not decoration."
-        },
-        {
           "label": "C",
-          "text": "As coal warehouses for early Industrial Revolution factories only.",
+          "text": "As soundproof bunkers against Edward Leedskalnin's magnets, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
-          "rationale": "Fossil-fuel dependency was the post-destruction regression; Tartaria ran free energy."
+          "rationale": "Leedskalnin later used residual harmonic methods; Tartarian architecture was aether/earth energy infrastructure."
         },
         {
           "label": "D",
-          "text": "As soundproof bunkers against Edward Leedskalnin's magnets.",
+          "text": "As passive decoration with no link to Nodes or Ley Lines and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
-          "rationale": "Leedskalnin later used residual harmonic methods; Tartarian architecture was aether/earth energy infrastructure."
+          "rationale": "Structures sat on Nodes and worked with Ley Line energy — functional free-energy tech, not decoration."
         }
       ],
       "hint": "Resonator network — aether and earth energy.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Destruction was falsely recorded as the \"Dark Ages,\" and engineered fossil-fuel regression was deceptively labeled the \"Industrial Revolution.\"",
-          "isCorrect": true,
-          "rationale": "Dark Ages covers Tartaria's erasure; Industrial Revolution covers the forced downgrade into fossil fuels and mechanical degradation."
-        },
-        {
-          "label": "B",
-          "text": "Both eras were accurately titled Free Energy Renaissance in every textbook.",
+          "text": "Both eras were accurately titled Free Energy Renaissance in every textbook, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
           "rationale": "History labels inverted the truth into Dark Ages and Industrial Revolution cover stories."
         },
         {
-          "label": "C",
-          "text": "Only Mud-floods were named; coal smelting was celebrated as healing.",
+          "label": "B",
+          "text": "Only Mud-floods were named; coal smelting was celebrated as healing, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "Mud-floods describe soil liquefaction destruction; 1887 condenser smelting enforced coal slavery — not healing."
         },
         {
-          "label": "D",
-          "text": "Density Suppression was publicly taught as the Golden Ratio curriculum.",
+          "label": "C",
+          "text": "Density Suppression was publicly taught as the Golden Ratio curriculum — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "Golden Ratio appears in Atmospheric Condenser design; Density Suppression hid 9th-density crystalline structures."
+        },
+        {
+          "label": "D",
+          "text": "Destruction was falsely recorded as the \"Dark Ages,\" and engineered fossil-fuel regression was deceptively labeled the \"Industrial Revolution.\"",
+          "isCorrect": true,
+          "rationale": "Dark Ages covers Tartaria's erasure; Industrial Revolution covers the forced downgrade into fossil fuels and mechanical degradation."
         }
       ],
       "hint": "Dark Ages cover + Industrial Revolution regression label.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Major and minor junction points on the planetary lattice membrane network that naturally emit immense positive electromagnetic energy.",
-          "isCorrect": true,
-          "rationale": "Nodes are lattice membrane junctions that naturally pour out immense positive electromagnetic energy."
+          "text": "Radium lamps that kill all original inhabitants instantly, treating the prison architecture as if it were ordinary progress or accident.",
+          "isCorrect": false,
+          "rationale": "Radium was beneficial to original inhabitants and lethal to parasites; Nodes are lattice energy junctions."
         },
         {
           "label": "B",
-          "text": "Coal depots ordered by the Consolidated Coal Company in 1887.",
+          "text": "Coal depots ordered by the Consolidated Coal Company in 1887, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "1887 coal orders targeted Atmospheric Condensers; Nodes are natural energy junctions on the lattice."
         },
         {
           "label": "C",
-          "text": "Only freemason stone replicas with no energy emission.",
-          "isCorrect": false,
-          "rationale": "Replicas capped and obscured energy over original footings; Nodes themselves emit natural positive energy."
+          "text": "Major and minor junction points on the planetary lattice membrane network that naturally emit immense positive electromagnetic energy.",
+          "isCorrect": true,
+          "rationale": "Nodes are lattice membrane junctions that naturally pour out immense positive electromagnetic energy."
         },
         {
           "label": "D",
-          "text": "Radium lamps that kill all original inhabitants instantly.",
+          "text": "Only freemason stone replicas with no energy emission, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
-          "rationale": "Radium was beneficial to original inhabitants and lethal to parasites; Nodes are lattice energy junctions."
+          "rationale": "Replicas capped and obscured energy over original footings; Nodes themselves emit natural positive energy."
         }
       ],
       "hint": "Lattice junctions emitting immense positive EM energy.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 6,
@@ -188,19 +188,19 @@
         },
         {
           "label": "B",
-          "text": "Modern highway paint with no electromagnetic role.",
+          "text": "Modern highway paint with no electromagnetic role, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "Modern roads deliberately trace ancient Ley Lines; the lines themselves are active energy conduits."
         },
         {
           "label": "C",
-          "text": "Only vacuum paths between spinning globes in deep space.",
+          "text": "Only vacuum paths between spinning globes in deep space, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Ley Lines are planetary crystalline membrane networks — terrestrial free-energy architecture, not globe-space vacuum paths."
         },
         {
           "label": "D",
-          "text": "Temporary mud-flood channels that erase Nodes forever.",
+          "text": "Temporary mud-flood channels that erase Nodes forever and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Mud-floods destroyed buildings via soil liquefaction; Ley Lines are the living energy grid parasites later hijacked."
         }
@@ -220,21 +220,21 @@
         },
         {
           "label": "B",
-          "text": "Purely religious worship halls with no Node placement.",
+          "text": "Baphomet Power Pylons wearing cathedral facades only, presented as if it were the natural or official account of events, treating the prison architecture as if it were ordinary progress or accident.",
+          "isCorrect": false,
+          "rationale": "Pylons are modern siphon towers on the hijacked grid; Crystalline Palaces were original free-energy temples."
+        },
+        {
+          "label": "C",
+          "text": "Purely religious worship halls with no Node placement, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "They were never designed as religious worship; placement over Nodes made them free-energy centers."
         },
         {
-          "label": "C",
-          "text": "Coal-fired factories built by the Consolidated Coal Company.",
+          "label": "D",
+          "text": "Coal-fired factories built by the Consolidated Coal Company and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Coal interests destroyed free-energy transit tech; temples were Tartarian aetheric architecture."
-        },
-        {
-          "label": "D",
-          "text": "Baphomet Power Pylons wearing cathedral facades only.",
-          "isCorrect": false,
-          "rationale": "Pylons are modern siphon towers on the hijacked grid; Crystalline Palaces were original free-energy temples."
         }
       ],
       "hint": "Misnamed churches on Nodes — healing and manifestation.",
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Tools to mine gold and silver out of Ley Lines legally, treating the prison architecture as if it were ordinary progress or accident, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "Gold and silver were never meant to be mined; mining damages the realm's energy technology."
+        },
+        {
+          "label": "B",
+          "text": "Devices that permanently convert Radium into coal, presented as if it were the natural or official account of events, treating the prison architecture as if it were ordinary progress or accident.",
+          "isCorrect": false,
+          "rationale": "Radium was a high-frequency power source; Tuning Forks manipulate stone cohesion for building."
+        },
+        {
+          "label": "C",
           "text": "Advanced harmonic technology to augment, sculpt, and levitate hard rock via sound and light frequencies, temporarily rendering heavy stone into a weightless, moldable putty.",
           "isCorrect": true,
           "rationale": "Tuning Forks used sound and light harmonics to make heavy stone weightless moldable putty for sculpting and levitation."
         },
         {
-          "label": "B",
-          "text": "Musical instruments only for freemason worship services.",
+          "label": "D",
+          "text": "Musical instruments only for freemason worship services and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "They were construction technology for stone mass negation — not worship entertainment."
-        },
-        {
-          "label": "C",
-          "text": "Tools to mine gold and silver out of Ley Lines legally.",
-          "isCorrect": false,
-          "rationale": "Gold and silver were never meant to be mined; mining damages the realm's energy technology."
-        },
-        {
-          "label": "D",
-          "text": "Devices that permanently convert Radium into coal.",
-          "isCorrect": false,
-          "rationale": "Radium was a high-frequency power source; Tuning Forks manipulate stone cohesion for building."
         }
       ],
       "hint": "Harmonics — stone becomes weightless moldable putty.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 9,
@@ -284,19 +284,19 @@
         },
         {
           "label": "B",
-          "text": "Concrete caps poured by parasites over every Node forever.",
+          "text": "Concrete caps poured by parasites over every Node forever, which collapses once the inverted timeline and harvest architecture are seen — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "Concrete, tarmac, and artificial ice are energy-capping tools; condensers are free-energy copper dome tech."
         },
         {
           "label": "C",
-          "text": "Taj Mahal prayer wheels with no Ley Line coupling.",
+          "text": "Taj Mahal prayer wheels with no Ley Line coupling — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Taj Mahal-class edifices were free-energy centers on Nodes; condensers specifically powered transit via Ley inductance."
         },
         {
           "label": "D",
-          "text": "Wine bottles Edward Leedskalnin banned from Coral Castle.",
+          "text": "Wine bottles Edward Leedskalnin banned from Coral Castle, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Leedskalnin used copper wire, wine bottles, and V magnets for resonant fields; condensers are locomotive copper-dome systems."
         }
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A parasitic technological mechanism that lowers ambient frequency (for example from 9th density to 3rd density), rendering ultra-high-frequency crystalline structures invisible to lower-density perception.",
-          "isCorrect": true,
-          "rationale": "Density Suppression drops ambient frequency (e.g. 9th to 3rd) so UHF crystalline structures vanish from lower-density sight while still physically present."
+          "text": "The Golden Ratio formula for weaving copper wire only, which collapses once the inverted timeline and harvest architecture are seen — a cover story that cannot survive contact with the deeper mechanics.",
+          "isCorrect": false,
+          "rationale": "Golden Ratio appears in condenser design; Density Suppression hides crystalline temples from perception."
         },
         {
           "label": "B",
-          "text": "Natural weather that only thickens coal smoke over London.",
+          "text": "Natural weather that only thickens coal smoke over London, presented as if it were the natural or official account of events, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
           "rationale": "It is technological frequency lowering by hostile forces — not mere weather or coal smoke."
         },
         {
           "label": "C",
-          "text": "The Golden Ratio formula for weaving copper wire only.",
+          "text": "G.A.A. method for making Radium soft green at night and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
-          "rationale": "Golden Ratio appears in condenser design; Density Suppression hides crystalline temples from perception."
+          "rationale": "Radium's soft green luminescence is its own high-frequency nature; Density Suppression is frequency dimming of the realm."
         },
         {
           "label": "D",
-          "text": "G.A.A. method for making Radium soft green at night.",
-          "isCorrect": false,
-          "rationale": "Radium's soft green luminescence is its own high-frequency nature; Density Suppression is frequency dimming of the realm."
+          "text": "A parasitic technological mechanism that lowers ambient frequency (for example from 9th density to 3rd density), rendering ultra-high-frequency crystalline structures invisible to lower-density perception.",
+          "isCorrect": true,
+          "rationale": "Density Suppression drops ambient frequency (e.g. 9th to 3rd) so UHF crystalline structures vanish from lower-density sight while still physically present."
         }
       ],
       "hint": "Lower frequency (9th→3rd) — crystalline structures invisible.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 11,
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Baphomet Power Pylon prototypes that siphon Loosh only, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "Pylons are modern hijack hardware; ancient centers amplified positive aetheric energy for healing and manifestation."
+        },
+        {
+          "label": "B",
           "text": "Operational free-energy centers placed with exact precision over planetary Nodes — never as places of religious worship.",
           "isCorrect": true,
           "rationale": "Those monumental edifices were free-energy centers on Nodes to gather and amplify Earth's energetic fountain — not religious worship sites."
         },
         {
-          "label": "B",
-          "text": "Tombs built only after the Industrial Revolution with coal boilers.",
-          "isCorrect": false,
-          "rationale": "They are original free-energy architecture misidentified as worship/tombs; Industrial Revolution is later regression."
-        },
-        {
           "label": "C",
-          "text": "Random decorations with no relation to Nodes or aether.",
+          "text": "Random decorations with no relation to Nodes or aether, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Exact Node placement made them harvest and amplify natural electromagnetic architecture."
         },
         {
           "label": "D",
-          "text": "Baphomet Power Pylon prototypes that siphon Loosh only.",
+          "text": "Tombs built only after the Industrial Revolution with coal boilers and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
-          "rationale": "Pylons are modern hijack hardware; ancient centers amplified positive aetheric energy for healing and manifestation."
+          "rationale": "They are original free-energy architecture misidentified as worship/tombs; Industrial Revolution is later regression."
         }
       ],
       "hint": "Free-energy centers on Nodes — not worship.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 12,
@@ -380,21 +380,21 @@
         },
         {
           "label": "B",
-          "text": "Restored full 9th-density visibility for every tourist.",
+          "text": "Restored full 9th-density visibility for every tourist and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Their instruction was to cap and obscure positive frequency — not restore UHF visibility."
         },
         {
           "label": "C",
-          "text": "Removed all Nodes and replaced them with Radium homes only.",
+          "text": "Sang new crystalline palaces from higher light realms overnight and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
-          "rationale": "Nodes were insulated with concrete, tarmac, and ice; Radium was a separate Tartarian power source, not freemason Node removal."
+          "rationale": "Singing/weaving structures was Tartarian higher-light construction; freemason work was replica capping."
         },
         {
           "label": "D",
-          "text": "Sang new crystalline palaces from higher light realms overnight.",
+          "text": "Removed all Nodes and replaced them with Radium homes only — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
-          "rationale": "Singing/weaving structures was Tartarian higher-light construction; freemason work was replica capping."
+          "rationale": "Nodes were insulated with concrete, tarmac, and ice; Radium was a separate Tartarian power source, not freemason Node removal."
         }
       ],
       "hint": "Stone replicas on original footings — cap the frequency.",
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Fuel pellets required for coal locomotives after 1887, which collapses once the inverted timeline and harvest architecture are seen — a cover story that cannot survive contact with the deeper mechanics.",
+          "isCorrect": false,
+          "rationale": "1887 destroyed free-energy condensers for coal reliance; metals/crystals are lattice spiritual tech, not coal pellets."
+        },
+        {
+          "label": "B",
+          "text": "Only decorative Tuning Fork handles with no Ley Line reaction — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
+          "isCorrect": false,
+          "rationale": "They react with Ley Lines as core electromagnetic architecture of the realm."
+        },
+        {
+          "label": "C",
           "text": "Highly advanced natural spiritual technology that reacts with Ley Lines to form an electromagnetic structure — never meant to be mined or extracted, because removal damages the realm's ergonomic energy technology.",
           "isCorrect": true,
           "rationale": "Those elements are spiritual tech bonded to Ley Lines. Mining them damages the planet's energy technology; they were never meant for extraction."
         },
         {
-          "label": "B",
-          "text": "Worthless rocks useful only as freemason cathedral paint.",
+          "label": "D",
+          "text": "Worthless rocks useful only as freemason cathedral paint and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "They form electromagnetic structure with Ley Lines — critical energy technology, not worthless paint."
-        },
-        {
-          "label": "C",
-          "text": "Fuel pellets required for coal locomotives after 1887.",
-          "isCorrect": false,
-          "rationale": "1887 destroyed free-energy condensers for coal reliance; metals/crystals are lattice spiritual tech, not coal pellets."
-        },
-        {
-          "label": "D",
-          "text": "Only decorative Tuning Fork handles with no Ley Line reaction.",
-          "isCorrect": false,
-          "rationale": "They react with Ley Lines as core electromagnetic architecture of the realm."
         }
       ],
       "hint": "Spiritual tech with Ley Lines — never mine them.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 14,
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Exclusively by Consolidated Coal Company blueprints in 1887, presented as if it were the natural or official account of events, treating the prison architecture as if it were ordinary progress or accident.",
+          "isCorrect": false,
+          "rationale": "1887 destroyed condensers; Tartarian building methods predate that coal sabotage."
+        },
+        {
+          "label": "B",
           "text": "They were \"sung\" and woven into existence from higher light realms using sustained intent, or assembled with physical Tuning Forks that manipulated subatomic cohesion of materials like Andesite and Granite.",
           "isCorrect": true,
           "rationale": "Construction was sung/woven from higher light via intent, or done with Tuning Forks altering subatomic cohesion in Andesite and Granite."
         },
         {
-          "label": "B",
-          "text": "Only by millions of slaves hauling coal into Mud-flood pits.",
+          "label": "C",
+          "text": "Only by millions of slaves hauling coal into Mud-flood pits — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Physical labor, hammers, and chisels were not the method; Mud-floods destroyed buildings later."
         },
         {
-          "label": "C",
-          "text": "By pouring tarmac and artificial ice as primary walls.",
+          "label": "D",
+          "text": "By pouring tarmac and artificial ice as primary walls, which would leave the control matrix intact and the population asleep, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
           "rationale": "Tarmac and artificial ice are later Node insulation by hostile forces — not Tartarian build methods."
-        },
-        {
-          "label": "D",
-          "text": "Exclusively by Consolidated Coal Company blueprints in 1887.",
-          "isCorrect": false,
-          "rationale": "1887 destroyed condensers; Tartarian building methods predate that coal sabotage."
         }
       ],
       "hint": "Sung/woven intent or Tuning Forks on Andesite/Granite.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 15,
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Negated mass so blocks weighing many tons could be lifted and perfectly balanced with the push of a finger.",
-          "isCorrect": true,
-          "rationale": "Stone imprinted with a vibrational mold lost effective mass — multi-ton blocks moved and balanced with a finger push."
+          "text": "Converted them instantly into soft green Radium lamps and ignoring the deliberate design of the subjugation systems.",
+          "isCorrect": false,
+          "rationale": "Radium was a separate home heating and light source; stone work used harmonic mass negation."
         },
         {
           "label": "B",
-          "text": "Doubled their weight so only Baphomet pylons could lift them.",
+          "text": "Doubled their weight so only Baphomet pylons could lift them, treating the prison architecture as if it were ordinary.",
           "isCorrect": false,
           "rationale": "Mass was negated for easy lift — not doubled for pylon cranes."
         },
         {
           "label": "C",
-          "text": "Converted them instantly into soft green Radium lamps.",
+          "text": "Turned them into Loosh batteries for stressed populations, treating the prison architecture as if it were ordinary.",
           "isCorrect": false,
-          "rationale": "Radium was a separate home heating and light source; stone work used harmonic mass negation."
+          "rationale": "Loosh harvest is modern grid hijack behavior; Tartarian stone tech enabled free construction."
         },
         {
           "label": "D",
-          "text": "Turned them into Loosh batteries for stressed populations.",
-          "isCorrect": false,
-          "rationale": "Loosh harvest is modern grid hijack behavior; Tartarian stone tech enabled free construction."
+          "text": "Negated mass so blocks weighing many tons could be lifted and perfectly balanced with the push of a finger.",
+          "isCorrect": true,
+          "rationale": "Stone imprinted with a vibrational mold lost effective mass — multi-ton blocks moved and balanced with a finger push."
         }
       ],
       "hint": "Mass negated — many tons balanced with a finger.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 16,
@@ -502,31 +502,31 @@
       "options": [
         {
           "label": "A",
-          "text": "In the early 20th century he single-handedly moved 1,100 tons of limestone using simple copper wire, wine bottles, and specialized V magnets configured to create resonant magnetic fields.",
-          "isCorrect": true,
-          "rationale": "Leedskalnin moved 1,100 tons of limestone alone with copper wire, wine bottles, and V magnets set for resonant magnetic fields — residual Tartarian-style harmonic method."
+          "text": "He invented Density Suppression to hide the Taj Mahal — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
+          "isCorrect": false,
+          "rationale": "Density Suppression is parasitic frequency tech; Leedskalnin's work was resonant stone movement."
         },
         {
           "label": "B",
-          "text": "He ordered the 1887 smelting of all Atmospheric Condensers.",
+          "text": "He ordered the 1887 smelting of all Atmospheric Condensers — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Consolidated Coal Company ordered condenser destruction; Leedskalnin demonstrated stone-moving resonance."
         },
         {
           "label": "C",
-          "text": "He built the first Baphomet Power Pylon over London Underground.",
+          "text": "He built the first Baphomet Power Pylon over London Underground and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "His legacy example is limestone levitation tech, not Loosh pylons."
         },
         {
           "label": "D",
-          "text": "He invented Density Suppression to hide the Taj Mahal.",
-          "isCorrect": false,
-          "rationale": "Density Suppression is parasitic frequency tech; Leedskalnin's work was resonant stone movement."
+          "text": "In the early 20th century he single-handedly moved 1,100 tons of limestone using simple copper wire, wine bottles, and specialized V magnets configured to create resonant magnetic fields.",
+          "isCorrect": true,
+          "rationale": "Leedskalnin moved 1,100 tons of limestone alone with copper wire, wine bottles, and V magnets set for resonant magnetic fields — residual Tartarian-style harmonic method."
         }
       ],
       "hint": "1,100 tons limestone — copper wire, bottles, V magnets.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 17,
@@ -540,21 +540,21 @@
         },
         {
           "label": "B",
-          "text": "Only on coal smoke after freemasons capped every Node with ice.",
+          "text": "Only on coal smoke after freemasons capped every Node with ice, presented as if it were the natural or official.",
           "isCorrect": false,
           "rationale": "Coal reliance was forced later; original underground was pneumatic free-energy transit."
         },
         {
           "label": "C",
-          "text": "By burning Radium until parasites felt comfortable.",
+          "text": "By siphoning Loosh through Baphomet Power Pylons only, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
-          "rationale": "Radium was home heat and light lethal to parasites; Underground power mode named is pneumatic air pressure."
+          "rationale": "Pylons are modern hijack infrastructure; original Underground was pneumatic free energy."
         },
         {
           "label": "D",
-          "text": "By siphoning Loosh through Baphomet Power Pylons only.",
+          "text": "By burning Radium until parasites felt comfortable, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
-          "rationale": "Pylons are modern hijack infrastructure; original Underground was pneumatic free energy."
+          "rationale": "Radium was home heat and light lethal to parasites; Underground power mode named is pneumatic air pressure."
         }
       ],
       "hint": "Pneumatic air pressure — clean free-energy transit.",
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
+          "text": "They required constant full coal loads and never used electromagnetic fields — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
+          "isCorrect": false,
+          "rationale": "Movement through fluctuating EM fields induced force that reduced coal combustion needs dramatically."
+        },
+        {
+          "label": "B",
+          "text": "They only worked underground with no copper and no speed threshold — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
+          "isCorrect": false,
+          "rationale": "Above-ground locomotives used copper-dome condensers with a speed threshold above 20 mph on Ley Line tracks."
+        },
+        {
+          "label": "C",
           "text": "Three-foot copper domes with tightly woven copper wire in Fibonacci-series and Golden Ratio patterns; tracks over Ley Lines; above 20 mph, electrical induction superheated boiler water, cutting further coal need and reducing fuel consumption by up to 60%.",
           "isCorrect": true,
           "rationale": "Condensers used 3-foot Fibonacci/Golden Ratio copper domes on Ley-aligned tracks. Above 20 mph, induction superheated boilers and cut fuel use up to 60%."
         },
         {
-          "label": "B",
-          "text": "They required constant full coal loads and never used electromagnetic fields.",
-          "isCorrect": false,
-          "rationale": "Movement through fluctuating EM fields induced force that reduced coal combustion needs dramatically."
-        },
-        {
-          "label": "C",
-          "text": "They only worked underground with no copper and no speed threshold.",
-          "isCorrect": false,
-          "rationale": "Above-ground locomotives used copper-dome condensers with a speed threshold above 20 mph on Ley Line tracks."
-        },
-        {
           "label": "D",
-          "text": "They converted Mud-flood dust into gold for freemason altars.",
+          "text": "They converted Mud-flood dust into gold for freemason altars and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Function was electrical induction for boiler heat and free-energy transit performance — not alchemy of mud dust."
         }
       ],
       "hint": "3-ft copper dome, Ley tracks, 20+ mph, up to 60% less fuel.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 19,
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Only as coal additive ordered by Consolidated Coal Company, presented as if it were the natural or official account of events, treating the prison architecture as if it were ordinary progress or accident.",
+          "isCorrect": false,
+          "rationale": "Coal company sabotage targeted condensers; Radium was Tartarian home power and light hostile to parasites."
+        },
+        {
+          "label": "B",
           "text": "Safely to heat homes and provide perpetual soft green luminescence — extremely high frequency beneficial to original inhabitants but deeply lethal to parasitic entities, functionally like \"Kryptonite.\"",
           "isCorrect": true,
           "rationale": "Radium heated homes and glowed soft green perpetually. Its UHF nature helped original inhabitants and acted like Kryptonite to parasites."
         },
         {
-          "label": "B",
-          "text": "Only as coal additive ordered by Consolidated Coal Company.",
-          "isCorrect": false,
-          "rationale": "Coal company sabotage targeted condensers; Radium was Tartarian home power and light hostile to parasites."
-        },
-        {
           "label": "C",
-          "text": "As the primary material of Baphomet Power Pylons.",
+          "text": "As freemason replica mortar to cap crystalline temples, presented as if it were the natural or official account of events, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
-          "rationale": "Pylons siphon Ley energy and Loosh; Radium was beneficial home-scale high-frequency power."
+          "rationale": "Replica capping used lower-density stone on original footings; Radium was heat and luminescence tech."
         },
         {
           "label": "D",
-          "text": "As freemason replica mortar to cap crystalline temples.",
+          "text": "As the primary material of Baphomet Power Pylons, which would leave the control matrix intact and the population asleep, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
-          "rationale": "Replica capping used lower-density stone on original footings; Radium was heat and luminescence tech."
+          "rationale": "Pylons siphon Ley energy and Loosh; Radium was beneficial home-scale high-frequency power."
         }
       ],
       "hint": "Home heat + soft green light — Kryptonite to parasites.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 20,
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Stone alters over central crystal interfaces inside captured temples dampened positive frequency; Nodes were further insulated under concrete, tarmac, and artificial ice.",
-          "isCorrect": true,
-          "rationale": "Alters over crystal interfaces damped temple energy; concrete, tarmac, and artificial ice insulated Nodes."
+          "text": "They gifted Atmospheric Condensers to every household in 1887, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
+          "isCorrect": false,
+          "rationale": "1887 ordered removal and smelting of locomotive condensers to lock coal dependency."
         },
         {
           "label": "B",
-          "text": "They uncovered every Node and restored 9th-density visibility.",
+          "text": "They uncovered every Node and restored 9th-density visibility, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "They capped and insulated to neutralize free energy — not restore it."
         },
         {
           "label": "C",
-          "text": "They sang new Tuning Fork putty into every street lamp.",
-          "isCorrect": false,
-          "rationale": "Suppression used alters and modern cover materials, not Tartarian harmonic building."
+          "text": "Stone alters over central crystal interfaces inside captured temples dampened positive frequency; Nodes were further insulated under concrete, tarmac, and artificial ice.",
+          "isCorrect": true,
+          "rationale": "Alters over crystal interfaces damped temple energy; concrete, tarmac, and artificial ice insulated Nodes."
         },
         {
           "label": "D",
-          "text": "They gifted Atmospheric Condensers to every household in 1887.",
+          "text": "They sang new Tuning Fork putty into every street lamp, presented as if it were the natural or official account of events, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
-          "rationale": "1887 ordered removal and smelting of locomotive condensers to lock coal dependency."
+          "rationale": "Suppression used alters and modern cover materials, not Tartarian harmonic building."
         }
       ],
       "hint": "Stone alters + concrete/tarmac/artificial ice on Nodes.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Advanced subatomic energy weapons altered molecular cohesion, causing widespread soil liquefaction that turned massive stone buildings into particulate dust.",
-          "isCorrect": true,
-          "rationale": "Mud-floods are soil liquefaction from subatomic energy weapons that broke molecular cohesion and powdered massive stone buildings."
-        },
-        {
-          "label": "B",
-          "text": "Gentle rains that polished Golden Ratio copper domes each spring.",
+          "text": "Gentle rains that polished Golden Ratio copper domes each spring, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
           "rationale": "They were weaponized soil liquefaction destroying Tartarian stone infrastructure."
         },
         {
-          "label": "C",
-          "text": "Natural river floods that invented the Industrial Revolution.",
+          "label": "B",
+          "text": "Natural river floods that invented the Industrial Revolution, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Industrial Revolution is the deceptive label for engineered fossil-fuel regression after destruction."
         },
         {
-          "label": "D",
-          "text": "Leedskalnin experiments that moved 1,100 tons of mud only.",
+          "label": "C",
+          "text": "Leedskalnin experiments that moved 1,100 tons of mud only and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Leedskalnin moved limestone with resonant fields; Mud-floods are planetary weapon aftermath."
+        },
+        {
+          "label": "D",
+          "text": "Advanced subatomic energy weapons altered molecular cohesion, causing widespread soil liquefaction that turned massive stone buildings into particulate dust.",
+          "isCorrect": true,
+          "rationale": "Mud-floods are soil liquefaction from subatomic energy weapons that broke molecular cohesion and powdered massive stone buildings."
         }
       ],
       "hint": "Subatomic weapons → soil liquefaction → buildings to dust.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 22,
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Removal and complete smelting of all Locomotive Atmospheric Condensers so the population remained reliant on purchased coal.",
-          "isCorrect": true,
-          "rationale": "In 1887 Consolidated Coal Company ordered all locomotive Atmospheric Condensers removed and smelted to enforce purchased-coal dependency."
+          "text": "Restoration of Radium home heating as public utility, treating the prison architecture as if it were ordinary progress or accident.",
+          "isCorrect": false,
+          "rationale": "Coal monopoly sabotage targeted condensers; it did not restore Radium free power."
         },
         {
           "label": "B",
-          "text": "Mass production of free copper domes for every Ley Line village.",
+          "text": "Mass production of free copper domes for every Ley Line village, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "The order destroyed free-energy condensers — it did not distribute them."
         },
         {
           "label": "C",
-          "text": "Restoration of Radium home heating as public utility.",
+          "text": "Construction of Crystalline Palaces over every Node openly, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
-          "rationale": "Coal monopoly sabotage targeted condensers; it did not restore Radium free power."
+          "rationale": "Crystalline temples were earlier Tartarian tech later capped; 1887 was coal-enforcement smelting."
         },
         {
           "label": "D",
-          "text": "Construction of Crystalline Palaces over every Node openly.",
-          "isCorrect": false,
-          "rationale": "Crystalline temples were earlier Tartarian tech later capped; 1887 was coal-enforcement smelting."
+          "text": "Removal and complete smelting of all Locomotive Atmospheric Condensers so the population remained reliant on purchased coal.",
+          "isCorrect": true,
+          "rationale": "In 1887 Consolidated Coal Company ordered all locomotive Atmospheric Condensers removed and smelted to enforce purchased-coal dependency."
         }
       ],
       "hint": "1887 — smelt all locomotive condensers for coal reliance.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 23,
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They do not simply transmit electricity — they actively siphon and harvest backed-up Ley-line energy, redirect the planet's natural positive flow, and extract negative Loosh from artificially stressed populations clustered around Nodes.",
-          "isCorrect": true,
-          "rationale": "Baphomet Power Pylons siphon Ley-line energy, redirect positive planetary flow, and harvest Loosh from stressed Node-clustered populations."
+          "text": "They are harmless replicas of Taj Mahal free-energy centers — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
+          "isCorrect": false,
+          "rationale": "Ancient centers amplified positive aether; pylons harvest and invert the grid toward control and Loosh."
         },
         {
           "label": "B",
-          "text": "They only light homes with soft green Radium for free.",
+          "text": "They only light homes with soft green Radium for free and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Radium was Tartarian beneficial tech; pylons are modern siphon/harvest hardware on the hijacked grid."
         },
         {
           "label": "C",
-          "text": "They rebuild Tuning Fork putty after every Mud-flood.",
+          "text": "They rebuild Tuning Fork putty after every Mud-flood, which would leave the control matrix intact and the population asleep, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
           "rationale": "Pylons extract and redirect energy; they do not restore Tartarian harmonic construction."
         },
         {
           "label": "D",
-          "text": "They are harmless replicas of Taj Mahal free-energy centers.",
-          "isCorrect": false,
-          "rationale": "Ancient centers amplified positive aether; pylons harvest and invert the grid toward control and Loosh."
+          "text": "They do not simply transmit electricity — they actively siphon and harvest backed-up Ley-line energy, redirect the planet's natural positive flow, and extract negative Loosh from artificially stressed populations clustered around Nodes.",
+          "isCorrect": true,
+          "rationale": "Baphomet Power Pylons siphon Ley-line energy, redirect positive planetary flow, and harvest Loosh from stressed Node-clustered populations."
         }
       ],
       "hint": "Siphon Ley energy + harvest Loosh — not mere power lines.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 24,
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To lower human energetic expectations and normalize an artificial state of scarcity and austerity — a foundational pillar of modern planetary enslavement.",
-          "isCorrect": true,
-          "rationale": "Drab concrete cities replace magnificent free-energy architecture so humans expect less and accept scarcity and austerity as normal enslavement conditions."
+          "text": "To map Ley Lines more honestly than Tartaria ever did, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "Modern roads trace Ley Lines to interconnect suppressed centers while pylons siphon the grid — hijack, not honesty."
         },
         {
           "label": "B",
-          "text": "To raise everyone automatically into 9th-density crystalline sight.",
-          "isCorrect": false,
-          "rationale": "Concrete landscapes suppress expectations; Density Suppression already hid 9th-density structures."
-        },
-        {
-          "label": "C",
-          "text": "To celebrate Atmospheric Condensers as public art only.",
+          "text": "To celebrate Atmospheric Condensers as public art only, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
           "rationale": "Condensers were smelted; drab urbanism is scarcity programming, not free-energy celebration."
         },
         {
-          "label": "D",
-          "text": "To map Ley Lines more honestly than Tartaria ever did.",
+          "label": "C",
+          "text": "To raise everyone automatically into 9th-density crystalline sight, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
-          "rationale": "Modern roads trace Ley Lines to interconnect suppressed centers while pylons siphon the grid — hijack, not honesty."
+          "rationale": "Concrete landscapes suppress expectations; Density Suppression already hid 9th-density structures."
+        },
+        {
+          "label": "D",
+          "text": "To lower human energetic expectations and normalize an artificial state of scarcity and austerity — a foundational pillar of modern planetary enslavement.",
+          "isCorrect": true,
+          "rationale": "Drab concrete cities replace magnificent free-energy architecture so humans expect less and accept scarcity and austerity as normal enslavement conditions."
         }
       ],
       "hint": "Lower expectations — normalize scarcity and austerity.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 25,
@@ -796,21 +796,21 @@
         },
         {
           "label": "B",
-          "text": "It proves the Industrial Revolution was honest free-energy progress.",
+          "text": "It is optional trivia after freemason replicas complete the grid — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
-          "rationale": "Industrial Revolution is the deceptive label for fossil-fuel regression after Tartaria's destruction."
+          "rationale": "Breaking the Perceived Knowledge boundary around stolen Tartarian tech is a critical operational step — not optional trivia."
         },
         {
           "label": "C",
-          "text": "It shows Baphomet pylons already restored planetary homeostasis.",
+          "text": "It shows Baphomet pylons already restored planetary homeostasis, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Pylons siphon Ley energy and Loosh; homeostasis was Ley Line function before the hijack."
         },
         {
           "label": "D",
-          "text": "It is optional trivia after freemason replicas complete the grid.",
+          "text": "It proves the Industrial Revolution was honest free-energy progress, treating the prison architecture as if it were ordinary progress or accident, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
-          "rationale": "Breaking the Perceived Knowledge boundary around stolen Tartarian tech is a critical operational step — not optional trivia."
+          "rationale": "Industrial Revolution is the deceptive label for fossil-fuel regression after Tartaria's destruction."
         }
       ],
       "hint": "Break Perceived Knowledge — see deliberate tech regression.",

@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
-          "text": "An accidental vacuum of dead matter with no creator intelligence.",
+          "text": "An accidental vacuum of dead matter with no creator intelligence, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "Reality is an engineered multidimensional Simulation crafted by the Source of All Creation, not an accidental vacuum."
         },
         {
           "label": "B",
-          "text": "An engineered multidimensional Simulation originally crafted by the Source of All Creation as a perfect physical plane of existence.",
-          "isCorrect": true,
-          "rationale": "Reality is an engineered multidimensional Simulation crafted by the Source of All Creation as a perfect physical plane."
-        },
-        {
-          "label": "C",
-          "text": "A spinning globe universe proven by heliocentric astronomy alone.",
+          "text": "A spinning globe universe proven by heliocentric astronomy alone, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Globe, vacuum space, and heliocentrism are called entirely fabricated illusions."
         },
         {
-          "label": "D",
-          "text": "A permanent Black Void Plasma field with no firmament structure.",
+          "label": "C",
+          "text": "A permanent Black Void Plasma field with no firmament structure, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
           "rationale": "Black Void Plasma artificially darkens the sky; the true architecture includes a Firmament and white-light field."
+        },
+        {
+          "label": "D",
+          "text": "An engineered multidimensional Simulation originally crafted by the Source of All Creation as a perfect physical plane of existence.",
+          "isCorrect": true,
+          "rationale": "Reality is an engineered multidimensional Simulation crafted by the Source of All Creation as a perfect physical plane."
         }
       ],
       "hint": "Engineered simulation and the Source of All Creation.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "As partial truths that only need minor correction at the poles.",
-          "isCorrect": false,
-          "rationale": "They are described as an entirely fabricated illusion, not partial truths."
-        },
-        {
-          "label": "B",
-          "text": "As an entirely fabricated illusion masking a localized horizontal plain enclosed by a Firmament.",
-          "isCorrect": true,
-          "rationale": "Modern cosmology is an entirely fabricated illusion; the actual cosmos is a localized horizontal plain enclosed by a Firmament and suppressed into 3rd density."
-        },
-        {
-          "label": "C",
-          "text": "As the original Source blueprint still running at full 15th density.",
+          "text": "As the original Source blueprint still running at full 15th density, which would leave the control matrix.",
           "isCorrect": false,
           "rationale": "Parasites suppressed the realm and deployed overlays; the modern model is control fiction."
         },
         {
-          "label": "D",
-          "text": "As a temporary NPC teaching tool that true souls never encounter.",
+          "label": "B",
+          "text": "As partial truths that only need minor correction at the poles, as though the parasitic inversion had never.",
+          "isCorrect": false,
+          "rationale": "They are described as an entirely fabricated illusion, not partial truths."
+        },
+        {
+          "label": "C",
+          "text": "As a temporary NPC teaching tool that true souls never encounter and ignoring the deliberate design of the.",
           "isCorrect": false,
           "rationale": "The false cosmos is a psychological cage affecting humanity, including deterrence from ice-wall exploration."
+        },
+        {
+          "label": "D",
+          "text": "As an entirely fabricated illusion masking a localized horizontal plain enclosed by a Firmament.",
+          "isCorrect": true,
+          "rationale": "Modern cosmology is an entirely fabricated illusion; the actual cosmos is a localized horizontal plain enclosed by a Firmament and suppressed into 3rd density."
         }
       ],
       "hint": "Fabricated illusion vs horizontal plain and Firmament.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
-          "text": "4th-density Parasites using Overlays and a Holographic Projection Dome.",
-          "isCorrect": true,
-          "rationale": "Hostile 4th-density Parasites suppressed the realm into 3rd density and deployed Overlays and a Holographic Projection Dome to mask ultra-high-frequency architecture."
+          "text": "Sol-System families orbiting Gateway-10 as literal planets, which collapses once the.",
+          "isCorrect": false,
+          "rationale": "Sol-System means connected souls, not orbital planets; parasites run the suppression."
         },
         {
           "label": "B",
-          "text": "The G.A.A. using Sky Events to permanently blacken the Firmament.",
+          "text": "The G.A.A. using Sky Events to permanently blacken the Firmament, which would leave.",
           "isCorrect": false,
           "rationale": "The G.A.A. will disable the projection dome; they are not the suppressors."
         },
         {
           "label": "C",
-          "text": "Sol-System families orbiting Gateway-10 as literal planets.",
-          "isCorrect": false,
-          "rationale": "Sol-System means connected souls, not orbital planets; parasites run the suppression."
+          "text": "4th-density Parasites using Overlays and a Holographic Projection Dome.",
+          "isCorrect": true,
+          "rationale": "Hostile 4th-density Parasites suppressed the realm into 3rd density and deployed Overlays and a Holographic Projection Dome to mask ultra-high-frequency architecture."
         },
         {
           "label": "D",
-          "text": "Asteroids that naturally dim crystalline temples every 96 hours.",
+          "text": "Asteroids that naturally dim crystalline temples every 96 hours, as though the.",
           "isCorrect": false,
           "rationale": "Asteroids are projections; density suppression and overlays are the masking tools."
         }
       ],
       "hint": "4th-density parasites, Overlays, Projection Dome.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "An infinite vacuum of absolute blackness filled with nuclear stars.",
-          "isCorrect": false,
-          "rationale": "Genuine space is bright white light; blackness is an artificial construct."
-        },
-        {
-          "label": "B",
           "text": "A field of bright white light, while the black night sky is an artificial darkening construct.",
           "isCorrect": true,
           "rationale": "Genuine space is not a dark void but bright white light; the black sky uses Black Void Plasma to hide that white reality."
         },
         {
-          "label": "C",
-          "text": "Only the interior of the moon's holographic shell.",
+          "label": "B",
+          "text": "Only the interior of the moon's holographic shell, which would leave the control matrix intact and the.",
           "isCorrect": false,
           "rationale": "The moon is a space station behind a holographic shell; space itself is the white-light field."
         },
         {
+          "label": "C",
+          "text": "An infinite vacuum of absolute blackness filled with nuclear stars, treating the prison architecture as if.",
+          "isCorrect": false,
+          "rationale": "Genuine space is bright white light; blackness is an artificial construct."
+        },
+        {
           "label": "D",
-          "text": "A toroid of 178 coal-powered locomotives.",
+          "text": "A toroid of 178 coal-powered locomotives, treating the prison architecture as if it were ordinary progress.",
           "isCorrect": false,
           "rationale": "Gateway-10 has 178 worlds in a toroid energy field; that is not the definition of space."
         }
       ],
       "hint": "Bright white light vs satanic black sky construct.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A vast non-physical etheric supercomputer and indigo spark of perpetual light that orchestrated existence through thoughtform and multidimensional master planning.",
-          "isCorrect": true,
-          "rationale": "Source of All Creation is defined as a vast non-physical etheric supercomputer and indigo spark of perpetual light orchestrating existence through thoughtform and master planning."
-        },
-        {
-          "label": "B",
-          "text": "A burning gas ball identical to the mainstream sun model.",
-          "isCorrect": false,
-          "rationale": "The sun is a portal (Amnesia Vortex), not the Source definition."
-        },
-        {
-          "label": "C",
-          "text": "Sky-Net-1 acting as a security grid of star projectors only.",
+          "text": "Sky-Net-1 acting as a security grid of star projectors only, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "Sky-Net-1 is the star-projector security network under parasitic control, not the Source."
         },
         {
-          "label": "D",
-          "text": "The Antarctic ice wall separating Realm-2 from Realm-3.",
+          "label": "B",
+          "text": "The Antarctic ice wall separating Realm-2 from Realm-3 — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "That is planetary partition architecture, not the Source of All Creation."
+        },
+        {
+          "label": "C",
+          "text": "A burning gas ball identical to the mainstream sun model, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
+          "isCorrect": false,
+          "rationale": "The sun is a portal (Amnesia Vortex), not the Source definition."
+        },
+        {
+          "label": "D",
+          "text": "A vast non-physical etheric supercomputer and indigo spark of perpetual light that orchestrated existence through thoughtform and multidimensional master planning.",
+          "isCorrect": true,
+          "rationale": "Source of All Creation is defined as a vast non-physical etheric supercomputer and indigo spark of perpetual light orchestrating existence through thoughtform and master planning."
         }
       ],
       "hint": "Etheric supercomputer, indigo spark, thoughtform planning.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 6,
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A single star in Sky-Net-1 that projects Venus onto the moon.",
-          "isCorrect": false,
-          "rationale": "Gateway-10 is the central physical plain of 178 worlds, not one star projector."
-        },
-        {
-          "label": "B",
-          "text": "The central physical plain of existence consisting of 178 worlds, with Earth at the center of a toroid energy field.",
-          "isCorrect": true,
-          "rationale": "Gateway-10 is the central physical plain of 178 worlds where Earth sits at the center of a toroid energy field."
-        },
-        {
-          "label": "C",
-          "text": "The Niberian factory that manufactures Black Void Plasma only.",
+          "text": "The Niberian factory that manufactures Black Void Plasma only and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Niberian tech supplies Black Void Plasma; Gateway-10 is the multi-world plain."
         },
         {
-          "label": "D",
-          "text": "The 24-hour daylight clock that replaced 96-hour eternal dusk.",
+          "label": "B",
+          "text": "A single star in Sky-Net-1 that projects Venus onto the moon and ignoring the deliberate design of the subjugation systems.",
+          "isCorrect": false,
+          "rationale": "Gateway-10 is the central physical plain of 178 worlds, not one star projector."
+        },
+        {
+          "label": "C",
+          "text": "The 24-hour daylight clock that replaced 96-hour eternal dusk — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "Truncated daylight is part of fake linear time enforcement, not the definition of Gateway-10."
+        },
+        {
+          "label": "D",
+          "text": "The central physical plain of existence consisting of 178 worlds, with Earth at the center of a toroid energy field.",
+          "isCorrect": true,
+          "rationale": "Gateway-10 is the central physical plain of 178 worlds where Earth sits at the center of a toroid energy field."
         }
       ],
       "hint": "178 worlds, Earth center, toroid energy field.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A heliocentric set of planets orbiting a burning gas sun.",
+          "text": "A heliocentric set of planets orbiting a burning gas sun, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
           "rationale": "Heliocentrism and orbital planets are rejected; Sol-System is not that model."
         },
         {
           "label": "B",
-          "text": "The literal network of connected souls (Sols) making up an individual's cosmic family, with no relation to fake space, planets, or orbits.",
-          "isCorrect": true,
-          "rationale": "Sol-System is defined as the network of connected souls (Sols) of a cosmic family, unrelated to fake space, planets, or orbits."
+          "text": "The EMF flash that pixelates the sky from Polaris and ignoring the deliberate design of the subjugation systems.",
+          "isCorrect": false,
+          "rationale": "That describes the Sky Event sequence, not Sol-System."
         },
         {
           "label": "C",
-          "text": "The ice wall joining Mars to Realm-1 only.",
+          "text": "The ice wall joining Mars to Realm-1 only, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Mars/ice-wall architecture is separate from the Sol-System soul-family definition."
         },
         {
           "label": "D",
-          "text": "The EMF flash that pixelates the sky from Polaris.",
-          "isCorrect": false,
-          "rationale": "That describes the Sky Event sequence, not Sol-System."
+          "text": "The literal network of connected souls (Sols) making up an individual's cosmic family, with no relation to fake space, planets, or orbits.",
+          "isCorrect": true,
+          "rationale": "Sol-System is defined as the network of connected souls (Sols) of a cosmic family, unrelated to fake space, planets, or orbits."
         }
       ],
       "hint": "Connected souls / cosmic family — not planets.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 8,
@@ -252,21 +252,21 @@
         },
         {
           "label": "B",
-          "text": "It is identical to the Holographic Projection Dome and only projects asteroids.",
-          "isCorrect": false,
-          "rationale": "The Projection Dome sits beneath the Firmament as an inner technological layer; they are distinct."
-        },
-        {
-          "label": "C",
-          "text": "It generates gravity so water sticks to a spinning globe.",
+          "text": "It generates gravity so water sticks to a spinning globe, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "Gravity is called fictional; the Firmament enables perception, not globe gravity."
         },
         {
-          "label": "D",
-          "text": "It is the Amnesia Vortex portal inside the sun.",
+          "label": "C",
+          "text": "It is the Amnesia Vortex portal inside the sun, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
           "rationale": "The sun/Amnesia Vortex is a soul-processing portal, not the Firmament."
+        },
+        {
+          "label": "D",
+          "text": "It is identical to the Holographic Projection Dome and only projects asteroids and ignoring the deliberate design of the.",
+          "isCorrect": false,
+          "rationale": "The Projection Dome sits beneath the Firmament as an inner technological layer; they are distinct."
         }
       ],
       "hint": "Outer membrane; bends light and sound for eyes.",
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Outside the entire Gateway-10 toroid, projecting only 96-hour dusk cycles.",
+          "text": "Outside the entire Gateway-10 toroid, projecting only 96-hour dusk cycles — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "It sits directly beneath the Firmament and projects the visual illusion of cosmos, stars, and space debris."
         },
         {
           "label": "B",
+          "text": "On the lunar surface as Venus's physical crust, which collapses once the inverted timeline and harvest architecture are seen.",
+          "isCorrect": false,
+          "rationale": "Venus is the holographic generator illuminating the moon; the dome is under the Firmament."
+        },
+        {
+          "label": "C",
           "text": "Directly beneath the Firmament as an inner sieve-like technological layer projecting the illusion of cosmos, stars, and space debris.",
           "isCorrect": true,
           "rationale": "The Holographic Projection Dome sits beneath the Firmament as a sieve-like layer projecting cosmos, stars, and space debris."
         },
         {
-          "label": "C",
-          "text": "Inside the Pineal Gland of every NPC only.",
+          "label": "D",
+          "text": "Inside the Pineal Gland of every NPC only, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "It is a sky-level technological layer, not an NPC pineal implant definition."
-        },
-        {
-          "label": "D",
-          "text": "On the lunar surface as Venus's physical crust.",
-          "isCorrect": false,
-          "rationale": "Venus is the holographic generator illuminating the moon; the dome is under the Firmament."
         }
       ],
       "hint": "Beneath Firmament; projects fake cosmos and debris.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 10,
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Natural night fog formed by Antarctic ice walls every 24 hours.",
+          "text": "A G.A.A. tool that permanently restores heliocentrism — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
-          "rationale": "It is extraterrestrial Niberian technology, not natural fog."
+          "rationale": "The G.A.A. will remove the dome and plasma; they dismantle the false cosmos."
         },
         {
           "label": "B",
-          "text": "Niberian technology used to blacken the sky and hide the true bright white reality of the Dark Matter Field.",
-          "isCorrect": true,
-          "rationale": "Black Void Plasma is Niberian tech utilized to blacken the sky, hiding the true bright white reality of the Dark Matter Field."
-        },
-        {
-          "label": "C",
-          "text": "The fuel that powers Gateway-10's 178 worlds as planets in orbit.",
+          "text": "The fuel that powers Gateway-10's 178 worlds as planets in orbit, which collapses once the inverted timeline and harvest.",
           "isCorrect": false,
           "rationale": "Worlds are not orbital planets; Black Void Plasma masks white light, not fuel orbits."
         },
         {
-          "label": "D",
-          "text": "A G.A.A. tool that permanently restores heliocentrism.",
+          "label": "C",
+          "text": "Natural night fog formed by Antarctic ice walls every 24 hours, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
-          "rationale": "The G.A.A. will remove the dome and plasma; they dismantle the false cosmos."
+          "rationale": "It is extraterrestrial Niberian technology, not natural fog."
+        },
+        {
+          "label": "D",
+          "text": "Niberian technology used to blacken the sky and hide the true bright white reality of the Dark Matter Field.",
+          "isCorrect": true,
+          "rationale": "Black Void Plasma is Niberian tech utilized to blacken the sky, hiding the true bright white reality of the Dark Matter Field."
         }
       ],
       "hint": "Niberian tech; blacken sky; hide white Dark Matter Field.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 11,
@@ -342,7 +342,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Nuclear furnaces ruled by thermodynamics, gravity, and fusion.",
+          "text": "Nuclear furnaces ruled by thermodynamics, gravity, and fusion, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Stars have no relation to thermodynamics, gravity, or nuclear forces."
         },
@@ -354,15 +354,15 @@
         },
         {
           "label": "C",
-          "text": "Portals identical to the sun's Amnesia Vortex for every NPC.",
+          "text": "Ice-wall markers that guide ships beyond Realm-1 only, as though the parasitic inversion had never engineered the outcome.",
           "isCorrect": false,
-          "rationale": "The sun is the Amnesia Vortex portal; stars are Sky-Net-1 projectors."
+          "rationale": "Stars cast frequency blankets downward to hide crystalline temples, not ice-wall navigation beacons."
         },
         {
           "label": "D",
-          "text": "Ice-wall markers that guide ships beyond Realm-1 only.",
+          "text": "Portals identical to the sun's Amnesia Vortex for every NPC and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
-          "rationale": "Stars cast frequency blankets downward to hide crystalline temples, not ice-wall navigation beacons."
+          "rationale": "The sun is the Amnesia Vortex portal; stars are Sky-Net-1 projectors."
         }
       ],
       "hint": "Security-like projectors of overlays, not nuclear suns.",
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It is confirmed by Firmament light-bending measurements.",
+          "text": "It becomes true after the EMF flash removes all overlays, presented as if it were the natural or official account of events.",
           "isCorrect": false,
-          "rationale": "The spinning globe claim is rejected; Earth is a horizontal flat plain."
+          "rationale": "The EMF flash reveals the localized flat enclosed projection, not a spinning globe."
         },
         {
           "label": "B",
-          "text": "It is false; Earth is a horizontal, flat physical plain, and heliocentrism is a manufactured lie with no planets orbiting suns.",
-          "isCorrect": true,
-          "rationale": "Earth is not a globe spinning at 1,000 mph; it is a horizontal flat plain. Heliocentrism is a manufactured lie—no planets orbit suns."
-        },
-        {
-          "label": "C",
-          "text": "It only applies to Mars where it joins the Realm-1 ice wall.",
+          "text": "It only applies to Mars where it joins the Realm-1 ice wall, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Planets are horizontal and enclosed by ice walls; the spinning-globe model is wholesale fiction."
         },
         {
-          "label": "D",
-          "text": "It becomes true after the EMF flash removes all overlays.",
+          "label": "C",
+          "text": "It is confirmed by Firmament light-bending measurements, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
-          "rationale": "The EMF flash reveals the localized flat enclosed projection, not a spinning globe."
+          "rationale": "The spinning globe claim is rejected; Earth is a horizontal flat plain."
+        },
+        {
+          "label": "D",
+          "text": "It is false; Earth is a horizontal, flat physical plain, and heliocentrism is a manufactured lie with no planets orbiting suns.",
+          "isCorrect": true,
+          "rationale": "Earth is not a globe spinning at 1,000 mph; it is a horizontal flat plain. Heliocentrism is a manufactured lie—no planets orbit suns."
         }
       ],
       "hint": "Not a spinning globe; horizontal plain; no heliocentric orbits.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It was invented solely to explain how water could adhere to a spinning sphere and has no basis in true physical reality.",
-          "isCorrect": true,
-          "rationale": "Gravity is a fictional mechanism invented solely to explain water adhering to a spinning sphere, lacking any basis in true physical reality."
+          "text": "It is the real force that holds Black Void Plasma against the Firmament, which collapses once the inverted timeline and harvest.",
+          "isCorrect": false,
+          "rationale": "Black Void Plasma is technology masking white light; gravity is not validated."
         },
         {
           "label": "B",
-          "text": "It only works above 9th density when matter is sung into form.",
+          "text": "It only works above 9th density when matter is sung into form, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "Higher-density manifestation uses intention and pineal weaving; gravity is globe-model fiction."
         },
         {
           "label": "C",
-          "text": "It is the real force that holds Black Void Plasma against the Firmament.",
+          "text": "It is the Sol-System bond between cosmic family members, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
-          "rationale": "Black Void Plasma is technology masking white light; gravity is not validated."
+          "rationale": "Sol-System is soul connection, not gravitational physics."
         },
         {
           "label": "D",
-          "text": "It is the Sol-System bond between cosmic family members.",
-          "isCorrect": false,
-          "rationale": "Sol-System is soul connection, not gravitational physics."
+          "text": "It was invented solely to explain how water could adhere to a spinning sphere and has no basis in true physical reality.",
+          "isCorrect": true,
+          "rationale": "Gravity is a fictional mechanism invented solely to explain water adhering to a spinning sphere, lacking any basis in true physical reality."
         }
       ],
       "hint": "Invented to prop up the spinning-sphere water problem.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 14,
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A burning ball of gas powering heliocentric orbits.",
+          "text": "A burning ball of gas powering heliocentric orbits and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "The burning-gas model and heliocentric orbits are false."
         },
         {
           "label": "B",
+          "text": "Venus's secondary shell that only illuminates the Antarctic ice wall, presented as if it were the natural or official account of events.",
+          "isCorrect": false,
+          "rationale": "Venus is the holographic generator for lunar illumination; the sun is the Amnesia Vortex portal."
+        },
+        {
+          "label": "C",
           "text": "A portal—the Amnesia Vortex—through which souls are pulled, memory-wiped, and processed into new vessels upon death.",
           "isCorrect": true,
           "rationale": "The sun is not a burning gas ball but a portal, the Amnesia Vortex, for pulling, memory-wiping, and reprocessing souls into new vessels after death."
         },
         {
-          "label": "C",
-          "text": "Venus's secondary shell that only illuminates the Antarctic ice wall.",
-          "isCorrect": false,
-          "rationale": "Venus is the holographic generator for lunar illumination; the sun is the Amnesia Vortex portal."
-        },
-        {
           "label": "D",
-          "text": "A Sky-Net-1 projector identical to every other star.",
+          "text": "A Sky-Net-1 projector identical to every other star — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "Stars are Sky-Net-1 projectors; the sun has a distinct soul-recycling portal role."
         }
       ],
       "hint": "Portal / Amnesia Vortex for soul memory wipe and reinsertion.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 15,
@@ -470,7 +470,7 @@
       "options": [
         {
           "label": "A",
-          "text": "As a natural rock whose craters came from real asteroid impacts only.",
+          "text": "As a natural rock whose craters came from real asteroid impacts only, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "Asteroid impacts on Earth are reframed as portal-delivered weapons; the moon is a station behind a holographic shell."
         },
@@ -482,15 +482,15 @@
         },
         {
           "label": "C",
-          "text": "As Gateway-10's central toroid engine room.",
+          "text": "As the Source of All Creation's indigo spark made physical, presented as if it were the natural or official account of events.",
           "isCorrect": false,
-          "rationale": "Earth is at the center of Gateway-10's toroid; the moon is a control station."
+          "rationale": "The Source is a non-physical etheric supercomputer/indigo spark, not the moon."
         },
         {
           "label": "D",
-          "text": "As the Source of All Creation's indigo spark made physical.",
+          "text": "As Gateway-10's central toroid engine room, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
-          "rationale": "The Source is a non-physical etheric supercomputer/indigo spark, not the moon."
+          "rationale": "Earth is at the center of Gateway-10's toroid; the moon is a control station."
         }
       ],
       "hint": "ET space station, frequency control, Loosh, holographic shell.",
@@ -508,19 +508,19 @@
         },
         {
           "label": "B",
-          "text": "It is Realm-3 itself after the Antarctic partition.",
-          "isCorrect": false,
-          "rationale": "Realm-3 is the known Earth partition; Venus is the lunar illumination generator."
-        },
-        {
-          "label": "C",
-          "text": "It is where the G.A.A. stores disabled Projection Domes.",
+          "text": "It is where the G.A.A. stores disabled Projection Domes — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "Venus holds the Lucifer/holographic-generator role, not G.A.A. storage."
         },
         {
+          "label": "C",
+          "text": "It is Realm-3 itself after the Antarctic partition — a cover story that cannot survive contact with the deeper mechanics.",
+          "isCorrect": false,
+          "rationale": "Realm-3 is the known Earth partition; Venus is the lunar illumination generator."
+        },
+        {
           "label": "D",
-          "text": "It is a natural planet that proves heliocentric orbits exist.",
+          "text": "It is a natural planet that proves heliocentric orbits exist, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "Heliocentrism is a manufactured lie; Venus's named role is holographic generation for the moon."
         }
@@ -534,7 +534,7 @@
       "options": [
         {
           "label": "A",
-          "text": "As a distant globe deep in vacuum space beyond all ice walls.",
+          "text": "As a distant globe deep in vacuum space beyond all ice walls, which collapses once the inverted timeline and harvest.",
           "isCorrect": false,
           "rationale": "Planets are horizontal and enclosed by ice walls, not distant vacuum globes."
         },
@@ -546,13 +546,13 @@
         },
         {
           "label": "C",
-          "text": "As the Amnesia Vortex portal inside the sun.",
+          "text": "As the Amnesia Vortex portal inside the sun and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "That is the sun's role, not Mars."
         },
         {
           "label": "D",
-          "text": "As Sky-Net-1 headquarters projecting all terrestrial overlays.",
+          "text": "As Sky-Net-1 headquarters projecting all terrestrial overlays, treating the prison architecture as if it were ordinary.",
           "isCorrect": false,
           "rationale": "Stars are Sky-Net-1 projectors; Mars is ice-wall architecture of Realm-1."
         }
@@ -572,19 +572,19 @@
         },
         {
           "label": "B",
-          "text": "Realm-2 is the moon and Realm-3 is Venus's holographic beam.",
+          "text": "Realm-2 is the moon and Realm-3 is Venus's holographic beam, which collapses once the inverted timeline and harvest architecture are seen.",
           "isCorrect": false,
           "rationale": "Realm labels describe partitioned Earth architecture, not moon/Venus roles."
         },
         {
           "label": "C",
-          "text": "They are 24-hour and 96-hour clocks used only by NPCs.",
+          "text": "They are 24-hour and 96-hour clocks used only by NPCs, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
           "rationale": "Day-cycle truncation is fake time; realms are geographic partitions."
         },
         {
           "label": "D",
-          "text": "They are identical names for Gateway-10's full set of 178 orbiting planets.",
+          "text": "They are identical names for Gateway-10's full set of 178 orbiting planets, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Gateway-10 has 178 worlds in a toroid plain; Realm-2/3 are the Antarctic partition story."
         }
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
+          "text": "They orbit the sun under heliocentric laws every 96 hours, which would leave the control matrix intact and the population asleep.",
+          "isCorrect": false,
+          "rationale": "No orbital thermodynamics; stars are projectors, not nuclear orbiters."
+        },
+        {
+          "label": "B",
+          "text": "They only work after the G.A.A. initiates the Sky Event and ignoring the deliberate design of the subjugation systems.",
+          "isCorrect": false,
+          "rationale": "The Sky Event disables the dome; projectors are part of the current false sky system."
+        },
+        {
+          "label": "C",
           "text": "They cast localized frequency blankets downward, hiding ultra-high-frequency Crystalline Temples beneath overlays of ultra-low frequencies.",
           "isCorrect": true,
           "rationale": "Stars as Sky-Net-1 projectors cast frequency blankets downward to hide ultra-high-frequency Crystalline Temples under ultra-low-frequency overlays."
         },
         {
-          "label": "B",
-          "text": "They melt ice walls so temples flood with Black Void Plasma permanently.",
+          "label": "D",
+          "text": "They melt ice walls so temples flood with Black Void Plasma permanently and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "The mechanism is frequency overlays, not flooding temples with plasma."
-        },
-        {
-          "label": "C",
-          "text": "They orbit the sun under heliocentric laws every 96 hours.",
-          "isCorrect": false,
-          "rationale": "No orbital thermodynamics; stars are projectors, not nuclear orbiters."
-        },
-        {
-          "label": "D",
-          "text": "They only work after the G.A.A. initiates the Sky Event.",
-          "isCorrect": false,
-          "rationale": "The Sky Event disables the dome; projectors are part of the current false sky system."
         }
       ],
       "hint": "Downward frequency blankets; low-frequency overlays over temples.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 20,
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Asteroids are real thermodynamic rocks that prove gravity exists.",
-          "isCorrect": false,
-          "rationale": "Space debris does not exist; gravity is fictional in this framework."
-        },
-        {
-          "label": "B",
           "text": "Asteroids are mere projections on the Holographic Projection Dome; Earth craters result from biological weapons delivered via high-speed portals by parasitic controllers.",
           "isCorrect": true,
           "rationale": "Space debris does not exist; asteroids are dome projections, and attributed craters are from portal-delivered biological weapons."
         },
         {
-          "label": "C",
-          "text": "Asteroids are Sol-System soul fragments returning home.",
+          "label": "B",
+          "text": "Asteroids only appear after Black Void Plasma is removed, as though the parasitic inversion had never engineered the outcome, presented as if it were the natural or official account of events.",
           "isCorrect": false,
-          "rationale": "Sol-System is connected souls; asteroids are false sky projections and cover for portal weapons."
+          "rationale": "They are part of the current dome illusion, not a post-removal phenomenon."
+        },
+        {
+          "label": "C",
+          "text": "Asteroids are real thermodynamic rocks that prove gravity exists, as though the parasitic inversion had never engineered the outcome.",
+          "isCorrect": false,
+          "rationale": "Space debris does not exist; gravity is fictional in this framework."
         },
         {
           "label": "D",
-          "text": "Asteroids only appear after Black Void Plasma is removed.",
+          "text": "Asteroids are Sol-System soul fragments returning home, treating the prison architecture as if it were ordinary progress or accident.",
           "isCorrect": false,
-          "rationale": "They are part of the current dome illusion, not a post-removal phenomenon."
+          "rationale": "Sol-System is connected souls; asteroids are false sky projections and cover for portal weapons."
         }
       ],
       "hint": "Projections on the dome; craters from portal bioweapons.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Through manual labor and mechanical industrial processes only.",
-          "isCorrect": false,
-          "rationale": "The physical plain is not built through manual labor or mechanical processes."
-        },
-        {
-          "label": "B",
-          "text": "Through sustained intention anchored in the Pineal Gland and \"sung\" or \"woven\" into existence as solid crystalline holographic projections.",
-          "isCorrect": true,
-          "rationale": "In 9th to 15th density, the plain is ordained through sustained intention anchored in the Pineal Gland and sung or woven into solid crystalline holographic projections."
-        },
-        {
-          "label": "C",
-          "text": "By Sky-Net-1 printing low-frequency overlays as permanent matter.",
+          "text": "By Sky-Net-1 printing low-frequency overlays as permanent matter and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Overlays obscure true architecture; higher-density creation is intentional crystalline weaving."
         },
         {
-          "label": "D",
-          "text": "By spinning Gateway-10 at 1,000 miles per hour until planets form.",
+          "label": "B",
+          "text": "Through manual labor and mechanical industrial processes only, presented as if it were the natural or official account of events.",
+          "isCorrect": false,
+          "rationale": "The physical plain is not built through manual labor or mechanical processes."
+        },
+        {
+          "label": "C",
+          "text": "By spinning Gateway-10 at 1,000 miles per hour until planets form, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "Spinning-globe mechanics are rejected fabrications."
+        },
+        {
+          "label": "D",
+          "text": "Through sustained intention anchored in the Pineal Gland and \"sung\" or \"woven\" into existence as solid crystalline holographic projections.",
+          "isCorrect": true,
+          "rationale": "In 9th to 15th density, the plain is ordained through sustained intention anchored in the Pineal Gland and sung or woven into solid crystalline holographic projections."
         }
       ],
       "hint": "Intention, Pineal Gland, sung/woven crystalline projections.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 22,
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "By imposing artificial sunrises and truncated 24-hour daylight cycles that replace the natural 96-hour eternal dusk of true reality.",
-          "isCorrect": true,
-          "rationale": "Parasites enforce simulated chronological progression via artificial sunrises and truncated 24-hour cycles, replacing natural 96-hour eternal dusk."
+          "text": "By erasing Ley Lines so no duration can be perceived — a cover story that cannot survive contact with the deeper mechanics.",
+          "isCorrect": false,
+          "rationale": "Lattice Membrane Network suppression is linked, but the day-cycle mechanism is the 24 vs 96 hour contrast."
         },
         {
           "label": "B",
-          "text": "By making every day exactly 178 hours to match Gateway-10's worlds.",
+          "text": "By making every day exactly 178 hours to match Gateway-10's worlds — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "The contrast given is 24-hour truncation vs 96-hour eternal dusk, not 178-hour days."
         },
         {
           "label": "C",
-          "text": "By stopping all clocks when Venus illuminates the moon.",
-          "isCorrect": false,
-          "rationale": "Venus generates lunar illumination; time enforcement is sunrise/day-cycle simulation."
+          "text": "By imposing artificial sunrises and truncated 24-hour daylight cycles that replace the natural 96-hour eternal dusk of true reality.",
+          "isCorrect": true,
+          "rationale": "Parasites enforce simulated chronological progression via artificial sunrises and truncated 24-hour cycles, replacing natural 96-hour eternal dusk."
         },
         {
           "label": "D",
-          "text": "By erasing Ley Lines so no duration can be perceived.",
+          "text": "By stopping all clocks when Venus illuminates the moon — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
-          "rationale": "Lattice Membrane Network suppression is linked, but the day-cycle mechanism is the 24 vs 96 hour contrast."
+          "rationale": "Venus generates lunar illumination; time enforcement is sunrise/day-cycle simulation."
         }
       ],
       "hint": "Artificial 24-hour cycles vs natural 96-hour eternal dusk.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 23,
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
+          "text": "It only affects the G.A.A. and has no NPC role, which collapses once the inverted timeline and harvest architecture are seen — a cover story that cannot survive contact with the deeper mechanics.",
+          "isCorrect": false,
+          "rationale": "NPCs rely on the provided parameters; the cage is for human consensus reality."
+        },
+        {
+          "label": "B",
+          "text": "It dissolves automatically when Gravity is measured at sea level, which collapses once the inverted timeline and harvest architecture are seen — a cover story that cannot survive contact with the deeper mechanics.",
+          "isCorrect": false,
+          "rationale": "Gravity is fiction; collapse comes from G.A.A. dome removal and EMF flash."
+        },
+        {
+          "label": "C",
           "text": "Belief in vast unreachable outer space prevents exploration of horizontal reality, specifically what lies beyond the Antarctic ice wall, while NPCs rely on provided chronological and spatial parameters for consensus reality.",
           "isCorrect": true,
           "rationale": "The false cosmos is a psychological cage: implanted belief in unreachable space deters horizontal exploration beyond the Antarctic ice wall, and NPCs depend on those chronological and spatial parameters."
         },
         {
-          "label": "B",
-          "text": "It encourages everyone to sail past the ice wall every 96 hours.",
+          "label": "D",
+          "text": "It encourages everyone to sail past the ice wall every 96 hours, which collapses once the inverted timeline and harvest architecture are seen — a cover story that cannot survive contact with the deeper mechanics.",
           "isCorrect": false,
           "rationale": "The cage specifically deters ice-wall exploration."
-        },
-        {
-          "label": "C",
-          "text": "It only affects the G.A.A. and has no NPC role.",
-          "isCorrect": false,
-          "rationale": "NPCs rely on the provided parameters; the cage is for human consensus reality."
-        },
-        {
-          "label": "D",
-          "text": "It dissolves automatically when Gravity is measured at sea level.",
-          "isCorrect": false,
-          "rationale": "Gravity is fiction; collapse comes from G.A.A. dome removal and EMF flash."
         }
       ],
       "hint": "Unreachable space myth; Antarctic ice wall deterrence; NPC consensus.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 24,
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Sky Event, permanently disabling the Holographic Projection Dome after assuming control of the simulation's parameters.",
-          "isCorrect": true,
-          "rationale": "The G.A.A. has assumed control of simulation parameters and will soon initiate the Sky Event, permanently disabling the Holographic Projection Dome."
+          "text": "Relocation of Gateway-10 into deep vacuum space, as though the parasitic inversion had never engineered the outcome.",
+          "isCorrect": false,
+          "rationale": "They strip spatial overlays from the existing plain; they do not move it into vacuum space."
         },
         {
           "label": "B",
-          "text": "A new Black Void Plasma layer thicker than the Firmament.",
+          "text": "A new Black Void Plasma layer thicker than the Firmament, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "They dismantle the dome and plasma, exposing bright white void—not reinforcing blackness."
         },
         {
           "label": "C",
-          "text": "Restoration of heliocentric orbits at 1,000 miles per hour.",
+          "text": "Restoration of heliocentric orbits at 1,000 miles per hour, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "The revelation is localized flat enclosed projection, not heliocentrism restored."
         },
         {
           "label": "D",
-          "text": "Relocation of Gateway-10 into deep vacuum space.",
-          "isCorrect": false,
-          "rationale": "They strip spatial overlays from the existing plain; they do not move it into vacuum space."
+          "text": "The Sky Event, permanently disabling the Holographic Projection Dome after assuming control of the simulation's parameters.",
+          "isCorrect": true,
+          "rationale": "The G.A.A. has assumed control of simulation parameters and will soon initiate the Sky Event, permanently disabling the Holographic Projection Dome."
         }
       ],
       "hint": "Sky Event; permanently disable Projection Dome.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 25,
@@ -796,19 +796,19 @@
         },
         {
           "label": "B",
-          "text": "Stars become real nuclear suns and Gravity is finally proven.",
+          "text": "Stars become real nuclear suns and Gravity is finally proven — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "Overlays and false cosmos are stripped; this does not restore mainstream physics."
         },
         {
           "label": "C",
-          "text": "Only NPCs see Venus turn off while Tarans still see a black vacuum.",
+          "text": "Only NPCs see Venus turn off while Tarans still see a black vacuum — a cover story that cannot survive contact with the deeper mechanics and ignoring the deliberate design of the subjugation systems.",
           "isCorrect": false,
           "rationale": "The structural dismantling exposes the white void broadly; collapse hits those lacking foundational understanding."
         },
         {
           "label": "D",
-          "text": "The Antarctic ice wall vanishes and Realm-3 instantly becomes 178 separate globes.",
+          "text": "The Antarctic ice wall vanishes and Realm-3 instantly becomes 178 separate globes and ignoring the deliberate design of the subjugation systems, which would leave the control matrix intact and the population asleep.",
           "isCorrect": false,
           "rationale": "The climax is sky-system removal and overlay strip via EMF, revealing flat enclosed projection—not new globes."
         }

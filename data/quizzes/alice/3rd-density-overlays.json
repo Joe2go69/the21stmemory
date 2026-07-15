@@ -21,31 +21,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The 3rd Sphere",
+          "text": "The 3rd Sphere, treating the prison architecture as if it were ordinary progress or accident",
           "isCorrect": false,
           "rationale": "While the current state is 3rd density, this term does not represent the original designation of the physical plane itself."
         },
         {
           "label": "B",
+          "text": "Density Node 1, presented as if it were the natural or official account of events",
+          "isCorrect": false,
+          "rationale": "Nodes are specific junction points on the energy grid, not the name for the entire physical plane."
+        },
+        {
+          "label": "C",
           "text": "Gateway-10",
           "isCorrect": true,
           "rationale": "The physical plane is the tenth gateway of existence, which was taken over and inverted to serve as a prison simulation."
         },
         {
-          "label": "C",
-          "text": "The Crystalline Matrix",
+          "label": "D",
+          "text": "The Crystalline Matrix, which collapses once the inverted timeline and harvest.",
           "isCorrect": false,
           "rationale": "The crystalline lattice refers to the energetic network of the realm rather than the specific gateway designation of the physical plane."
-        },
-        {
-          "label": "D",
-          "text": "Density Node 1",
-          "isCorrect": false,
-          "rationale": "Nodes are specific junction points on the energy grid, not the name for the entire physical plane."
         }
       ],
       "hint": "Think of the numerical identifier used for the physical plane's original high-frequency state.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -53,21 +53,21 @@
       "options": [
         {
           "label": "A",
-          "text": "UHF (Ultra High Frequency)",
+          "text": "VLF (Very Low Frequency), as though the parasitic inversion had never engineered the outcome",
+          "isCorrect": false,
+          "rationale": "While low, the specific technological process described for density suppression relies on the 'Ultra' low range."
+        },
+        {
+          "label": "B",
+          "text": "UHF (Ultra High Frequency) and ignoring the deliberate design of the subjugation systems",
           "isCorrect": false,
           "rationale": "Ultra High Frequencies are characteristic of the original, indestructible architecture, not the dampening technology."
         },
         {
-          "label": "B",
-          "text": "ELF (Extremely Low Frequency)",
+          "label": "C",
+          "text": "ELF (Extremely Low Frequency), treating the prison architecture as if it were ordinary.",
           "isCorrect": false,
           "rationale": "ULF is the mechanism for the density suppression 'dimmer' effect."
-        },
-        {
-          "label": "C",
-          "text": "VLF (Very Low Frequency)",
-          "isCorrect": false,
-          "rationale": "While low, the specific technological process described for density suppression relies on the 'Ultra' low range."
         },
         {
           "label": "D",
@@ -85,31 +85,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Amnesia Vortex processors",
+          "text": "The Galactic Ancestral Alliance, which would leave the control matrix intact and the.",
+          "isCorrect": false,
+          "rationale": "The G.A.A. is the force dismantling the simulation, not the network responsible for its maintenance."
+        },
+        {
+          "label": "B",
+          "text": "The Amnesia Vortex processors, which would leave the control matrix intact and the.",
           "isCorrect": false,
           "rationale": "The vortex is a separate technology focused on soul reincarnation rather than visual overlays."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "The stars in the night sky",
           "isCorrect": true,
           "rationale": "The perceived stars are actually security-system-like projectors that maintain the overlays and blanket the realm in ULF."
         },
         {
-          "label": "C",
-          "text": "The network of deep ice and concrete",
+          "label": "D",
+          "text": "The network of deep ice and concrete — a cover story that cannot survive contact with.",
           "isCorrect": false,
           "rationale": "These are physical dampening agents, whereas Sky-Net-1 is the atmospheric projection network."
-        },
-        {
-          "label": "D",
-          "text": "The Galactic Ancestral Alliance",
-          "isCorrect": false,
-          "rationale": "The G.A.A. is the force dismantling the simulation, not the network responsible for its maintenance."
         }
       ],
       "hint": "Identify the celestial features that act as the simulation's security projectors.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 4,
@@ -123,19 +123,19 @@
         },
         {
           "label": "B",
-          "text": "The Moon",
-          "isCorrect": false,
-          "rationale": "While often associated with celestial control, the sun is the specific location of the Amnesia Vortex processing."
-        },
-        {
-          "label": "C",
-          "text": "Polaris",
+          "text": "Polaris — a cover story that cannot survive contact with the deeper mechanics",
           "isCorrect": false,
           "rationale": "Polaris is the starting point for the visual collapse of the sky event, not the soul processing center."
         },
         {
+          "label": "C",
+          "text": "The Moon, treating the prison architecture as if it were ordinary progress or accident",
+          "isCorrect": false,
+          "rationale": "While often associated with celestial control, the sun is the specific location of the Amnesia Vortex processing."
+        },
+        {
           "label": "D",
-          "text": "The Dark Matter Field",
+          "text": "The Dark Matter Field, presented as if it were the natural or official account of events",
           "isCorrect": false,
           "rationale": "The Dark Matter Field exists beyond the simulation and is not part of the parasitic reincarnation loop."
         }
@@ -149,15 +149,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Frozen blocks of Black Void Plasma",
+          "text": "Remnants of the original Firmament, treating the prison architecture as if it were.",
           "isCorrect": false,
-          "rationale": "Black Void Plasma is the technology used to simulate the black sky, not the composition of asteroids."
+          "rationale": "The Firmament remains a structural layer of the sky, not fragmented debris moving through space."
         },
         {
           "label": "B",
-          "text": "High-frequency crystalline debris",
+          "text": "Frozen blocks of Black Void Plasma, presented as if it were the natural or official.",
           "isCorrect": false,
-          "rationale": "Crystalline structures are part of the original architecture, whereas asteroids are hostile delivery systems."
+          "rationale": "Black Void Plasma is the technology used to simulate the black sky, not the composition of asteroids."
         },
         {
           "label": "C",
@@ -167,9 +167,9 @@
         },
         {
           "label": "D",
-          "text": "Remnants of the original Firmament",
+          "text": "High-frequency crystalline debris, as though the parasitic inversion had never.",
           "isCorrect": false,
-          "rationale": "The Firmament remains a structural layer of the sky, not fragmented debris moving through space."
+          "rationale": "Crystalline structures are part of the original architecture, whereas asteroids are hostile delivery systems."
         }
       ],
       "hint": "These celestial objects are intentional payloads rather than natural space rocks.",
@@ -181,31 +181,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Negative Stone Blockwork",
-          "isCorrect": false,
-          "rationale": "Stone blockwork is used by terrestrial agents to cover ground-level energy bleed-through, not the sky."
-        },
-        {
-          "label": "B",
-          "text": "Amnesia Field Projection",
-          "isCorrect": false,
-          "rationale": "The amnesia technology targets consciousness and memory rather than the visual appearance of the cosmos."
-        },
-        {
-          "label": "C",
           "text": "Black Void Plasma",
           "isCorrect": true,
           "rationale": "This specific plasma technology covers the naturally bright white light of the true field with a simulated black expanse."
         },
         {
-          "label": "D",
-          "text": "Lattice Membrane Frequency",
+          "label": "B",
+          "text": "Amnesia Field Projection and ignoring the deliberate design of the subjugation systems",
+          "isCorrect": false,
+          "rationale": "The amnesia technology targets consciousness and memory rather than the visual appearance of the cosmos."
+        },
+        {
+          "label": "C",
+          "text": "Lattice Membrane Frequency, which collapses once the inverted timeline and harvest.",
           "isCorrect": false,
           "rationale": "The Lattice Membrane refers to the natural ley line network, which the plasma is designed to hide."
+        },
+        {
+          "label": "D",
+          "text": "Negative Stone Blockwork, presented as if it were the natural or official account of events",
+          "isCorrect": false,
+          "rationale": "Stone blockwork is used by terrestrial agents to cover ground-level energy bleed-through, not the sky."
         }
       ],
       "hint": "Identify the substance used to mask the true white light of space.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 7,
@@ -213,31 +213,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Elongated and governed by clocks",
+          "text": "Non-existent outside of 9th-density perception, as though the parasitic inversion had.",
+          "isCorrect": false,
+          "rationale": "Time exists but its nature is maneuverable and non-linear rather than entirely non-existent."
+        },
+        {
+          "label": "B",
+          "text": "Elongated and governed by clocks, which collapses once the inverted timeline and.",
           "isCorrect": false,
           "rationale": "Linear, governed time is a specific feature of the 3rd-density simulation used for conformity."
         },
         {
-          "label": "B",
-          "text": "Non-linear and maneuverable by the individual",
-          "isCorrect": true,
-          "rationale": "In true reality, time is not a fixed constraint but a fluid dimension that can be maneuvered according to intention."
-        },
-        {
           "label": "C",
-          "text": "A fixed sequence of cyclical ages",
+          "text": "A fixed sequence of cyclical ages — a cover story that cannot survive contact with the.",
           "isCorrect": false,
           "rationale": "Cycles and ages are part of the artificial temporal structure of the prison matrix."
         },
         {
           "label": "D",
-          "text": "Non-existent outside of 9th-density perception",
-          "isCorrect": false,
-          "rationale": "Time exists but its nature is maneuverable and non-linear rather than entirely non-existent."
+          "text": "Non-linear and maneuverable by the individual",
+          "isCorrect": true,
+          "rationale": "In true reality, time is not a fixed constraint but a fluid dimension that can be maneuvered according to intention."
         }
       ],
       "hint": "Contrast the rigid schedules of the simulation with the freedom of the original state.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 8,
@@ -245,31 +245,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To dampen the energetic emanations of the sacred site",
-          "isCorrect": true,
-          "rationale": "Cold and deep ice act as physical dampening agents to suppress the massive energy output of high-frequency nodes."
-        },
-        {
-          "label": "B",
-          "text": "Because it is located beyond the Firmament",
+          "text": "Because it is located beyond the Firmament and ignoring the deliberate design of the.",
           "isCorrect": false,
           "rationale": "Mt Meru is located within the realm, but its true form is hidden by physical and frequency layers."
         },
         {
+          "label": "B",
+          "text": "As a result of the collapse of the original 9th density — a cover story that cannot.",
+          "isCorrect": false,
+          "rationale": "The ice is a deliberate technological application by parasites, not a natural result of density shifts."
+        },
+        {
           "label": "C",
-          "text": "To protect the Crystalline Temple from the Sky Event",
+          "text": "To protect the Crystalline Temple from the Sky Event and ignoring the deliberate.",
           "isCorrect": false,
           "rationale": "The ice is a tool of suppression used by the parasites, not a protective measure by the G.A.A."
         },
         {
           "label": "D",
-          "text": "As a result of the collapse of the original 9th density",
-          "isCorrect": false,
-          "rationale": "The ice is a deliberate technological application by parasites, not a natural result of density shifts."
+          "text": "To dampen the energetic emanations of the sacred site",
+          "isCorrect": true,
+          "rationale": "Cold and deep ice act as physical dampening agents to suppress the massive energy output of high-frequency nodes."
         }
       ],
       "hint": "Consider the relationship between low-temperature matter and high-frequency energy.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 9,
@@ -277,31 +277,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Total blackness",
+          "text": "Total blackness, presented as if it were the natural or official account of events",
           "isCorrect": false,
           "rationale": "Total blackness is the current state created by plasma; the event reveals what is behind the illusion."
         },
         {
           "label": "B",
-          "text": "The sudden appearance of 3rd-density stars",
+          "text": "A blinding flash of UHF light, presented as if it were the natural or official account.",
+          "isCorrect": false,
+          "rationale": "The light flash (EMF flash) follows the visual dismantling of the dome, which first appears as pixelation."
+        },
+        {
+          "label": "C",
+          "text": "The sudden appearance of 3rd-density stars, as though the parasitic inversion had.",
           "isCorrect": false,
           "rationale": "The stars are currently visible and are part of the system being dismantled, not the result of it."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "Melting pixelation",
           "isCorrect": true,
           "rationale": "As the Projection Dome is switched off, the artificial sky will appear to pixelate and melt away."
-        },
-        {
-          "label": "D",
-          "text": "A blinding flash of UHF light",
-          "isCorrect": false,
-          "rationale": "The light flash (EMF flash) follows the visual dismantling of the dome, which first appears as pixelation."
         }
       ],
       "hint": "Think about what happens to a digital projection when its source is deactivated.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 10,
@@ -309,31 +309,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Dismantling the Projection Dome from within",
-          "isCorrect": false,
-          "rationale": "Freemasons serve the parasite structure by hiding the truth, rather than dismantling the simulation."
-        },
-        {
-          "label": "B",
-          "text": "Operating the Sky-Net-1 projection system",
+          "text": "Operating the Sky-Net-1 projection system, treating the prison architecture as if it.",
           "isCorrect": false,
           "rationale": "Sky-Net-1 is a technological network likely managed at a higher density or through autonomous systems."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Building negative stone blockwork over original footings",
           "isCorrect": true,
           "rationale": "Terrestrial agents assist the parasites by physically covering high-frequency energy bleed-through with dense masonry."
         },
         {
+          "label": "C",
+          "text": "Dismantling the Projection Dome from within and ignoring the deliberate design of the.",
+          "isCorrect": false,
+          "rationale": "Freemasons serve the parasite structure by hiding the truth, rather than dismantling the simulation."
+        },
+        {
           "label": "D",
-          "text": "Maintaining the Amnesia Vortex in the sun",
+          "text": "Maintaining the Amnesia Vortex in the sun, which would leave the control matrix intact.",
           "isCorrect": false,
           "rationale": "The vortex is an etheric/multidimensional technology beyond the scope of terrestrial construction."
         }
       ],
       "hint": "Focus on their physical construction activities at sacred sites.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 11,
@@ -341,21 +341,21 @@
       "options": [
         {
           "label": "A",
-          "text": "12 hours",
-          "isCorrect": false,
-          "rationale": "A 12-hour period would be a temporal event; the EMF flash is described as a very short duration."
-        },
-        {
-          "label": "B",
-          "text": "3 days",
+          "text": "3 days, which would leave the control matrix intact and the population asleep",
           "isCorrect": false,
           "rationale": "While significant, the specific EMF pulse that reveals the scaffolding is much shorter than three days."
         },
         {
-          "label": "C",
-          "text": "10 minutes",
+          "label": "B",
+          "text": "10 minutes, treating the prison architecture as if it were ordinary progress or accident",
           "isCorrect": false,
           "rationale": "The flash is a near-instantaneous pulse that completes the removal of the simulated layers."
+        },
+        {
+          "label": "C",
+          "text": "12 hours, treating the prison architecture as if it were ordinary progress or accident",
+          "isCorrect": false,
+          "rationale": "A 12-hour period would be a temporal event; the EMF flash is described as a very short duration."
         },
         {
           "label": "D",
@@ -373,7 +373,7 @@
       "options": [
         {
           "label": "A",
-          "text": "True",
+          "text": "True and ignoring the deliberate design of the subjugation systems",
           "isCorrect": false,
           "rationale": "The structures remain physically present but are obscured by the 'dimmer dial' effect of density suppression."
         },
@@ -393,7 +393,7 @@
       "options": [
         {
           "label": "A",
-          "text": "The Lattice Membrane",
+          "text": "The Lattice Membrane, treating the prison architecture as if it were ordinary progress.",
           "isCorrect": false,
           "rationale": "The Lattice Membrane is the energetic grid (ley lines) of the earth itself, not the light-bending sky layer."
         },
@@ -405,13 +405,13 @@
         },
         {
           "label": "C",
-          "text": "Black Void Plasma",
+          "text": "Black Void Plasma and ignoring the deliberate design of the subjugation systems",
           "isCorrect": false,
           "rationale": "Plasma is used for the visual illusion of the void, but the Firmament is the structural layer for perception."
         },
         {
           "label": "D",
-          "text": "Ultra Low Frequencies",
+          "text": "Ultra Low Frequencies, as though the parasitic inversion had never engineered the outcome",
           "isCorrect": false,
           "rationale": "ULF is a dampening tool, while the Firmament is the structural medium for environmental perception."
         }
@@ -431,21 +431,21 @@
         },
         {
           "label": "B",
-          "text": "3rd density",
-          "isCorrect": false,
-          "rationale": "3rd density is the heavily suppressed state created specifically for the prison simulation."
-        },
-        {
-          "label": "C",
-          "text": "4th density",
+          "text": "4th density, which would leave the control matrix intact and the population asleep",
           "isCorrect": false,
           "rationale": "4th density is the level of the parasites who took over and inverted the realm."
         },
         {
-          "label": "D",
-          "text": "12th density only",
+          "label": "C",
+          "text": "12th density only, which collapses once the inverted timeline and harvest architecture.",
           "isCorrect": false,
           "rationale": "While they were higher-density beings, the source specifically notes the range starting at 9th density."
+        },
+        {
+          "label": "D",
+          "text": "3rd density, as though the parasitic inversion had never engineered the outcome",
+          "isCorrect": false,
+          "rationale": "3rd density is the heavily suppressed state created specifically for the prison simulation."
         }
       ],
       "hint": "The original state was significantly higher than the current suppressed density.",
@@ -463,21 +463,21 @@
         },
         {
           "label": "B",
-          "text": "Technological evolution of the soul",
-          "isCorrect": false,
-          "rationale": "The simulation inhibits evolution through memory erasure and frequency suppression."
-        },
-        {
-          "label": "C",
-          "text": "Expansion of the Galactic Ancestral Alliance",
+          "text": "Expansion of the Galactic Ancestral Alliance, as though the parasitic inversion had.",
           "isCorrect": false,
           "rationale": "The G.A.A. is the group reclaiming the system, not the creators of the parasitic simulation."
         },
         {
-          "label": "D",
-          "text": "Testing the durability of UHF architecture",
+          "label": "C",
+          "text": "Testing the durability of UHF architecture, as though the parasitic inversion had.",
           "isCorrect": false,
           "rationale": "The architecture is indestructible; the simulation's purpose is control over the inhabitants."
+        },
+        {
+          "label": "D",
+          "text": "Technological evolution of the soul — a cover story that cannot survive contact with.",
+          "isCorrect": false,
+          "rationale": "The simulation inhibits evolution through memory erasure and frequency suppression."
         }
       ],
       "hint": "Consider what a 'parasite' would want from its host.",
@@ -489,31 +489,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The complete destruction of all physical matter",
-          "isCorrect": false,
-          "rationale": "Matter is not destroyed; rather, the true high-frequency architecture becomes visible as the overlays vanish."
+          "text": "Exposed harmonic scaffolding and pixelated buildings",
+          "isCorrect": true,
+          "rationale": "The removal of frequency blankets will reveal the underlying structural reality and the glitches in the artificial layers."
         },
         {
           "label": "B",
-          "text": "The reconstruction of the Projection Dome",
-          "isCorrect": false,
-          "rationale": "The Sky Event marks the dismantling of the dome, not its reconstruction."
-        },
-        {
-          "label": "C",
-          "text": "A new network of 4th-density parasites",
+          "text": "A new network of 4th-density parasites, treating the prison architecture as if it were.",
           "isCorrect": false,
           "rationale": "The event involves the removal of the parasites' control systems, not their reappearance."
         },
         {
+          "label": "C",
+          "text": "The complete destruction of all physical matter, which collapses once the inverted.",
+          "isCorrect": false,
+          "rationale": "Matter is not destroyed; rather, the true high-frequency architecture becomes visible as the overlays vanish."
+        },
+        {
           "label": "D",
-          "text": "Exposed harmonic scaffolding and pixelated buildings",
-          "isCorrect": true,
-          "rationale": "The removal of frequency blankets will reveal the underlying structural reality and the glitches in the artificial layers."
+          "text": "The reconstruction of the Projection Dome, treating the prison architecture as if it.",
+          "isCorrect": false,
+          "rationale": "The Sky Event marks the dismantling of the dome, not its reconstruction."
         }
       ],
       "hint": "The 'scaffolding' of the realm will become briefly apparent.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 17,
@@ -527,21 +527,21 @@
         },
         {
           "label": "B",
-          "text": "Footings",
+          "text": "Footings, as though the parasitic inversion had never engineered the outcome",
           "isCorrect": false,
           "rationale": "Footings are the physical foundations upon which stone blockwork is built to cover the nodes."
         },
         {
           "label": "C",
-          "text": "Vortices",
+          "text": "Overlays — a cover story that cannot survive contact with the deeper mechanics",
           "isCorrect": false,
-          "rationale": "While related to energy, the source specifically uses 'Nodes' to describe the junction points on the Lattice Membrane Network."
+          "rationale": "Overlays are the frequency blankets used to hide the nodes, not the energy points themselves."
         },
         {
           "label": "D",
-          "text": "Overlays",
+          "text": "Vortices and ignoring the deliberate design of the subjugation systems",
           "isCorrect": false,
-          "rationale": "Overlays are the frequency blankets used to hide the nodes, not the energy points themselves."
+          "rationale": "While related to energy, the source specifically uses 'Nodes' to describe the junction points on the Lattice Membrane Network."
         }
       ],
       "hint": "These points are the specific targets for heavy concentrations of frequency Overlays.",
@@ -553,31 +553,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Unmovable high-frequency architecture",
-          "isCorrect": true,
-          "rationale": "The original structures of the realm are permanent and high-frequency, existing beneath the temporary overlays."
+          "text": "Simulated physical matter, which collapses once the inverted timeline and harvest.",
+          "isCorrect": false,
+          "rationale": "Simulated matter is what the overlays produce; the original architecture is the genuine, high-frequency reality."
         },
         {
           "label": "B",
-          "text": "Negative masonry footings",
-          "isCorrect": false,
-          "rationale": "Negative masonry is the artificial covering built by terrestrial agents to hide the original architecture."
-        },
-        {
-          "label": "C",
-          "text": "Etheric supercomputer code",
+          "text": "Etheric supercomputer code, as though the parasitic inversion had never engineered the outcome",
           "isCorrect": false,
           "rationale": "The simulation is the etheric supercomputer; the architecture is the physical expression of the higher-density plane."
         },
         {
-          "label": "D",
-          "text": "Simulated physical matter",
+          "label": "C",
+          "text": "Negative masonry footings, which collapses once the inverted timeline and harvest.",
           "isCorrect": false,
-          "rationale": "Simulated matter is what the overlays produce; the original architecture is the genuine, high-frequency reality."
+          "rationale": "Negative masonry is the artificial covering built by terrestrial agents to hide the original architecture."
+        },
+        {
+          "label": "D",
+          "text": "Unmovable high-frequency architecture",
+          "isCorrect": true,
+          "rationale": "The original structures of the realm are permanent and high-frequency, existing beneath the temporary overlays."
         }
       ],
       "hint": "This architecture is described as indestructible and vibrating at a very high frequency.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 19,
@@ -585,31 +585,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Infinite golden radiation",
-          "isCorrect": false,
-          "rationale": "While high-frequency, the source specifically identifies the true field as 'bright white light'."
+          "text": "Bright white light",
+          "isCorrect": true,
+          "rationale": "The true Dark Matter Field is composed of bright white light, which the simulation masks using black plasma."
         },
         {
           "label": "B",
-          "text": "Transparent etheric scaffolding",
+          "text": "Transparent etheric scaffolding, as though the parasitic inversion had never.",
           "isCorrect": false,
           "rationale": "Scaffolding refers to the structure of the simulation itself, whereas the void beyond is the white light field."
         },
         {
           "label": "C",
-          "text": "A lattice of crystalline stars",
+          "text": "A lattice of crystalline stars, which collapses once the inverted timeline and harvest.",
           "isCorrect": false,
           "rationale": "Stars are projectors within the simulation; the field beyond is a consistent expanse of white light."
         },
         {
           "label": "D",
-          "text": "Bright white light",
-          "isCorrect": true,
-          "rationale": "The true Dark Matter Field is composed of bright white light, which the simulation masks using black plasma."
+          "text": "Infinite golden radiation, as though the parasitic inversion had never engineered the outcome",
+          "isCorrect": false,
+          "rationale": "While high-frequency, the source specifically identifies the true field as 'bright white light'."
         }
       ],
       "hint": "The true nature of space is the polar opposite of the 'black' void we see.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 20,
@@ -617,7 +617,7 @@
       "options": [
         {
           "label": "A",
-          "text": "False",
+          "text": "False — a cover story that cannot survive contact with the deeper mechanics",
           "isCorrect": false,
           "rationale": "The G.A.A. is actively working to dismantle the simulation and initiate the transition back to true reality."
         },
@@ -637,31 +637,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Silver scaffolding",
+          "text": "White Void Plasma, presented as if it were the natural or official account of events",
+          "isCorrect": false,
+          "rationale": "The plasma is used in the sky, while tarmac is a terrestrial dampening agent."
+        },
+        {
+          "label": "B",
+          "text": "Silver scaffolding, treating the prison architecture as if it were ordinary progress.",
           "isCorrect": false,
           "rationale": "Scaffolding is part of the simulation's structure, not a physical covering like tarmac or concrete."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "Tarmac",
           "isCorrect": true,
           "rationale": "Along with concrete and ice, tarmac is used to suppress the energetic emanations of high-frequency locations."
         },
         {
-          "label": "C",
-          "text": "White Void Plasma",
-          "isCorrect": false,
-          "rationale": "The plasma is used in the sky, while tarmac is a terrestrial dampening agent."
-        },
-        {
           "label": "D",
-          "text": "Crystalline vapor",
+          "text": "Crystalline vapor, which would leave the control matrix intact and the population asleep",
           "isCorrect": false,
           "rationale": "Crystals are associated with the high-frequency temples, not the materials used to suppress them."
         }
       ],
       "hint": "Identify a common modern road-building material mentioned as a tool of energetic suppression.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 22,
@@ -669,31 +669,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Far beyond it",
+          "text": "Interwoven within its layers, which would leave the control matrix intact and the.",
           "isCorrect": false,
-          "rationale": "If it were beyond the Firmament, the light-bending properties of the Firmament might interfere with the specific projected illusions."
+          "rationale": "The dome is a separate technological sieve sitting just inside the structural layer of the Firmament."
         },
         {
           "label": "B",
-          "text": "Directly on the Earth's surface",
+          "text": "Directly on the Earth's surface, which would leave the control matrix intact and the.",
           "isCorrect": false,
           "rationale": "The dome is part of the atmospheric/celestial overlay system, not a ground-based installation."
         },
         {
           "label": "C",
-          "text": "Just inside it",
-          "isCorrect": true,
-          "rationale": "The Projection Dome is positioned inside the Firmament, allowing it to project the cosmos into the perceived environment."
+          "text": "Far beyond it, as though the parasitic inversion had never engineered the outcome",
+          "isCorrect": false,
+          "rationale": "If it were beyond the Firmament, the light-bending properties of the Firmament might interfere with the specific projected illusions."
         },
         {
           "label": "D",
-          "text": "Interwoven within its layers",
-          "isCorrect": false,
-          "rationale": "The dome is a separate technological sieve sitting just inside the structural layer of the Firmament."
+          "text": "Just inside it",
+          "isCorrect": true,
+          "rationale": "The Projection Dome is positioned inside the Firmament, allowing it to project the cosmos into the perceived environment."
         }
       ],
       "hint": "It sits as a technological 'sieve' within the boundary of the sky.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 23,
@@ -701,31 +701,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The physical destruction of the human vessel",
-          "isCorrect": false,
-          "rationale": "those who survive; the collapse refers to the mental state of the survivors."
-        },
-        {
-          "label": "B",
-          "text": "Radiation from the EMF flash",
+          "text": "Radiation from the EMF flash, which would leave the control matrix intact and the.",
           "isCorrect": false,
           "rationale": "While the flash is the catalyst, the collapse is psychological, resulting from the loss of the perceived world."
         },
         {
+          "label": "B",
+          "text": "The physical destruction of the human vessel, which collapses once the inverted.",
+          "isCorrect": false,
+          "rationale": "those who survive; the collapse refers to the mental state of the survivors."
+        },
+        {
           "label": "C",
-          "text": "The total collapse of the 3rd-density visual illusion",
-          "isCorrect": true,
-          "rationale": "The sudden exposure of true reality and the disappearance of the familiar world will be too much for the unawakened to process."
+          "text": "The return of past life memories — a cover story that cannot survive contact with the.",
+          "isCorrect": false,
+          "rationale": "Memory return is not mentioned as the primary cause of the mass psychological distress described."
         },
         {
           "label": "D",
-          "text": "The return of past life memories",
-          "isCorrect": false,
-          "rationale": "Memory return is not mentioned as the primary cause of the mass psychological distress described."
+          "text": "The total collapse of the 3rd-density visual illusion",
+          "isCorrect": true,
+          "rationale": "The sudden exposure of true reality and the disappearance of the familiar world will be too much for the unawakened to process."
         }
       ],
       "hint": "Consider the impact of realizing everything one perceived as 'reality' was a fake projection.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 24,
@@ -733,19 +733,19 @@
       "options": [
         {
           "label": "A",
-          "text": "3rd density",
-          "isCorrect": false,
-          "rationale": "They control 3rd density from a higher vibrational vantage point to maintain the illusion."
-        },
-        {
-          "label": "B",
-          "text": "9th density",
+          "text": "9th density, which collapses once the inverted timeline and harvest architecture are seen",
           "isCorrect": false,
           "rationale": "9th density is the level of the original, perfect inhabitants, not the parasites."
         },
         {
+          "label": "B",
+          "text": "3rd density, which collapses once the inverted timeline and harvest architecture are seen",
+          "isCorrect": false,
+          "rationale": "They control 3rd density from a higher vibrational vantage point to maintain the illusion."
+        },
+        {
           "label": "C",
-          "text": "1st density",
+          "text": "1st density, presented as if it were the natural or official account of events",
           "isCorrect": false,
           "rationale": "Parasites operate from a higher density than their human subjects to maintain their technological advantage."
         },
@@ -765,31 +765,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The ULF Net",
-          "isCorrect": false,
-          "rationale": "The ULF net is a tool used within the simulation, not the name of the entire system."
-        },
-        {
-          "label": "B",
           "text": "Simulation",
           "isCorrect": true,
           "rationale": "The reality inhabited by humanity is defined as a multidimensional, etheric supercomputer simulation."
         },
         {
-          "label": "C",
-          "text": "The Matrix Lattice",
+          "label": "B",
+          "text": "The Matrix Lattice, which would leave the control matrix intact and the population asleep",
           "isCorrect": false,
           "rationale": "While a matrix, 'Lattice' refers specifically to the natural ley line grid rather than the computer itself."
         },
         {
+          "label": "C",
+          "text": "The ULF Net — a cover story that cannot survive contact with the deeper mechanics",
+          "isCorrect": false,
+          "rationale": "The ULF net is a tool used within the simulation, not the name of the entire system."
+        },
+        {
           "label": "D",
-          "text": "The Bio-Dome",
+          "text": "The Bio-Dome, which would leave the control matrix intact and the population asleep",
           "isCorrect": false,
           "rationale": "The Projection Dome is a component of the system, but the entire reality is the Simulation."
         }
       ],
       "hint": "This term represents the engineered, non-organic nature of our current physical plane.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     }
   ]
 }

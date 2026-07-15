@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To serve as foundational architects for the creation of an enslaved physical gateway.",
-          "isCorrect": true,
-          "rationale": "The Anuk were manufactured explicitly to facilitate the inversion of the realm and help manage the subjugation of humanity as proxy overlords."
+          "text": "To act as mediators between the Council of 12 and the physical realm, as though the parasitic.",
+          "isCorrect": false,
+          "rationale": "The Anuk were created after the Custodians betrayed the Council of 12, making them instruments of rebellion rather than mediation."
         },
         {
           "label": "B",
-          "text": "To preserve the original harmonic frequencies of the physical plane.",
+          "text": "To preserve the original harmonic frequencies of the physical plane and ignoring the deliberate.",
           "isCorrect": false,
           "rationale": "The Anuk were actually designed to enact the inversion of the realm, which is the opposite of preserving original harmonic frequencies."
         },
         {
           "label": "C",
-          "text": "To act as mediators between the Council of 12 and the physical realm.",
+          "text": "To facilitate the natural evolutionary advancement of human genetics, as though the parasitic.",
           "isCorrect": false,
-          "rationale": "The Anuk were created after the Custodians betrayed the Council of 12, making them instruments of rebellion rather than mediation."
+          "rationale": "The Anuk's role was centered on long-term subjugation and recycling of humanity, not their advancement."
         },
         {
           "label": "D",
-          "text": "To facilitate the natural evolutionary advancement of human genetics.",
-          "isCorrect": false,
-          "rationale": "The Anuk's role was centered on long-term subjugation and recycling of humanity, not their advancement."
+          "text": "To serve as foundational architects for the creation of an enslaved physical gateway.",
+          "isCorrect": true,
+          "rationale": "The Anuk were manufactured explicitly to facilitate the inversion of the realm and help manage the subjugation of humanity as proxy overlords."
         }
       ],
       "hint": "Consider the role of the Anuk in the Custodians' silent rebellion against the Source of Creation.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Natural evolutionary beings from the Reticulan star system.",
-          "isCorrect": false,
-          "rationale": "The Custodians are caretakers of the realm itself, and star-system origins are often part of the psyops they utilize."
-        },
-        {
-          "label": "B",
-          "text": "Engineered 4th density enforcers for the Council of 12.",
-          "isCorrect": false,
-          "rationale": "4th density is described as the biological ceiling for parasitic entities, whereas Custodians originated much higher."
-        },
-        {
-          "label": "C",
-          "text": "The primary architects of the White Hat alliance.",
+          "text": "The primary architects of the White Hat alliance, which collapses once the inverted.",
           "isCorrect": false,
           "rationale": "The Custodians are the originators of the parasitic hierarchy, which the White Hats are working to dismantle."
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "Natural evolutionary beings from the Reticulan star system, which would leave the.",
+          "isCorrect": false,
+          "rationale": "The Custodians are caretakers of the realm itself, and star-system origins are often part of the psyops they utilize."
+        },
+        {
+          "label": "C",
           "text": "Pure 12th density caretakers of the physical plane.",
           "isCorrect": true,
           "rationale": "The Custodians were high-density guardians before their desire for accelerated development led to the creation of negativity."
+        },
+        {
+          "label": "D",
+          "text": "Engineered 4th density enforcers for the Council of 12 — a cover story that cannot.",
+          "isCorrect": false,
+          "rationale": "4th density is described as the biological ceiling for parasitic entities, whereas Custodians originated much higher."
         }
       ],
       "hint": "Recall the density level associated with the caretakers before they initiated the rebellion.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
+          "text": "The technological peak of human civilization before the first reset, as though the.",
+          "isCorrect": false,
+          "rationale": "While it was an early era, its significance lies in the physical presence of the Anuk 'Gods' rather than human technological progress."
+        },
+        {
+          "label": "B",
+          "text": "The exact moment the Galactic Ancestral Alliance intervened, presented as if it were the.",
+          "isCorrect": false,
+          "rationale": "The intervention of the Alliance is a modern development, whereas Zep Tepi is rooted in the deep past."
+        },
+        {
+          "label": "C",
           "text": "The period when the Anuk physically lived alongside humanity during early resets.",
           "isCorrect": true,
           "rationale": "This era, often called the 'First Time,' correlates with the initial cyclical resets where the 'Gods' were physically present."
         },
         {
-          "label": "B",
-          "text": "The future era of human ascension to 5th density.",
+          "label": "D",
+          "text": "The future era of human ascension to 5th density, as though the parasitic inversion had.",
           "isCorrect": false,
           "rationale": "Zep Tepi refers to an ancient historical period related to the Anuk's early management of the realm."
-        },
-        {
-          "label": "C",
-          "text": "The exact moment the Galactic Ancestral Alliance intervened.",
-          "isCorrect": false,
-          "rationale": "The intervention of the Alliance is a modern development, whereas Zep Tepi is rooted in the deep past."
-        },
-        {
-          "label": "D",
-          "text": "The technological peak of human civilization before the first reset.",
-          "isCorrect": false,
-          "rationale": "While it was an early era, its significance lies in the physical presence of the Anuk 'Gods' rather than human technological progress."
         }
       ],
       "hint": "Think about the translation 'First Time' and how it relates to the physical presence of the 'Gods'.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Giza Plateau in Egypt.",
+          "text": "The star system of Zeta Reticuli, presented as if it were the natural or official.",
           "isCorrect": false,
-          "rationale": "The Egyptian connection is a deliberate historical obscuration of the true headquarters location."
+          "rationale": "The Anuk are earthly biological products of the Custodians, not visitors from distant star systems."
         },
         {
           "label": "B",
+          "text": "The subterranean levels beneath the Vatican, treating the prison architecture as if it.",
+          "isCorrect": false,
+          "rationale": "While the Vatican serves as a modern nexus, it was a centralized hub formed later to coordinate distrusting parasitic factions."
+        },
+        {
+          "label": "C",
           "text": "The Grand Canyon in the United States.",
           "isCorrect": true,
           "rationale": "Modern geological names in the Grand Canyon are actually misattributed original Anuk names, hiding their true base of operations."
         },
         {
-          "label": "C",
-          "text": "The star system of Zeta Reticuli.",
-          "isCorrect": false,
-          "rationale": "The Anuk are earthly biological products of the Custodians, not visitors from distant star systems."
-        },
-        {
           "label": "D",
-          "text": "The subterranean levels beneath the Vatican.",
+          "text": "The Giza Plateau in Egypt, treating the prison architecture as if it were ordinary.",
           "isCorrect": false,
-          "rationale": "While the Vatican serves as a modern nexus, it was a centralized hub formed later to coordinate distrusting parasitic factions."
+          "rationale": "The Egyptian connection is a deliberate historical obscuration of the true headquarters location."
         }
       ],
       "hint": "Focus on the geographic location associated with names like the Isis and Osiris Temples.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
+          "text": "They originated from a distant galaxy to escape a dying sun, treating the prison.",
+          "isCorrect": false,
+          "rationale": "This narrative is considered a C.I.A. psyop designed to hide their local, manufactured origins."
+        },
+        {
+          "label": "B",
+          "text": "They are the original masters of the Custodians, treating the prison architecture as.",
+          "isCorrect": false,
+          "rationale": "The Zetas are subordinate to the Anuk, who are in turn subordinate to the Custodians."
+        },
+        {
+          "label": "C",
           "text": "They were lab-grown earthly tools manufactured by the Anuk.",
           "isCorrect": true,
           "rationale": "The Zetas were created in physical labs to serve as foot soldiers, contradicting mainstream extraterrestrial narratives."
         },
         {
-          "label": "B",
-          "text": "They originated from a distant galaxy to escape a dying sun.",
-          "isCorrect": false,
-          "rationale": "This narrative is considered a C.I.A. psyop designed to hide their local, manufactured origins."
-        },
-        {
-          "label": "C",
-          "text": "They are a natural 5th density species helping humanity ascend.",
+          "label": "D",
+          "text": "They are a natural 5th density species helping humanity ascend, presented as if it.",
           "isCorrect": false,
           "rationale": "Zetas are part of the parasitic hierarchy and are limited by the 4th density biological ceiling."
-        },
-        {
-          "label": "D",
-          "text": "They are the original masters of the Custodians.",
-          "isCorrect": false,
-          "rationale": "The Zetas are subordinate to the Anuk, who are in turn subordinate to the Custodians."
         }
       ],
       "hint": "Look for the term that describes their creation within the context of the Anuk's operational reach.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 6,
@@ -182,19 +182,19 @@
       "options": [
         {
           "label": "A",
-          "text": "They have not yet harvested enough Adrenochrome to power the transition.",
-          "isCorrect": false,
-          "rationale": "Adrenochrome and Loosh sustain their current existence but do not provide the frequency required for ascension."
-        },
-        {
-          "label": "B",
-          "text": "The Source of Creation has blocked their access to higher realms.",
+          "text": "The Source of Creation has blocked their access to higher realms, presented as if it were the.",
           "isCorrect": false,
           "rationale": "The restriction is inherent to their manufactured nature and Hive-Aligned NPC souls, rather than an external block."
         },
         {
+          "label": "B",
+          "text": "They have not yet harvested enough Adrenochrome to power the transition, which collapses once.",
+          "isCorrect": false,
+          "rationale": "Adrenochrome and Loosh sustain their current existence but do not provide the frequency required for ascension."
+        },
+        {
           "label": "C",
-          "text": "They are currently being suppressed by the White Hat technology.",
+          "text": "They are currently being suppressed by the White Hat technology, which collapses once the.",
           "isCorrect": false,
           "rationale": "While White Hats are dismantling their grid, their inability to ascend is a fundamental biological and vibrational restriction."
         },
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They function as the diplomatic meeting ground for the White Hats and the Anuk.",
-          "isCorrect": false,
-          "rationale": "This location is the heart of the negative agenda's operations, not a site for diplomacy with the resistance."
-        },
-        {
-          "label": "B",
           "text": "They act as a nexus of control housing portals and Adrenochrome harvesting centers.",
           "isCorrect": true,
           "rationale": "This complex allows various parasitic factions like the Anuk, Omicron, and Alpha Draco to centralize operations and manage the soul recycling grid."
         },
         {
+          "label": "B",
+          "text": "They function as the diplomatic meeting ground for the White Hats and the Anuk.",
+          "isCorrect": false,
+          "rationale": "This location is the heart of the negative agenda's operations, not a site for diplomacy with the resistance."
+        },
+        {
           "label": "C",
-          "text": "They serve as the primary library for human spiritual ascension documents.",
+          "text": "They serve as the primary library for human spiritual ascension documents — a cover story that.",
           "isCorrect": false,
           "rationale": "The complex is dedicated to control and predation, not the preservation of human spiritual growth."
         },
         {
           "label": "D",
-          "text": "They are the original laboratories where the Custodians were first created.",
+          "text": "They are the original laboratories where the Custodians were first created, which collapses.",
           "isCorrect": false,
           "rationale": "The Custodians were the high-density creators who initiated the negativity; they were not created in these subterranean labs."
         }
       ],
       "hint": "Reflect on how the parasitic factions coordinate their energy extraction and management of the population.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -252,25 +252,25 @@
         },
         {
           "label": "B",
-          "text": "By teaching humanity the true principles of the Source of Creation.",
-          "isCorrect": false,
-          "rationale": "The Anuk focused on enslavement and inversion, which is the opposite of teaching the truth of Creation."
+          "text": "By initiating 'Royal Families' and 'Priestly Class' systems through bloodline infiltration.",
+          "isCorrect": true,
+          "rationale": "Utilizing incestuous and 'sold-soul' bloodlines allowed the Anuk to maintain genetic purity and control over human leaders."
         },
         {
           "label": "C",
-          "text": "By allowing humans to vote on the implementation of cyclical resets.",
+          "text": "By allowing humans to vote on the implementation of cyclical resets, treating the prison architecture.",
           "isCorrect": false,
           "rationale": "The resets are a mechanism of mass harvesting imposed by the parasitic hierarchy, not a democratic process."
         },
         {
           "label": "D",
-          "text": "By initiating 'Royal Families' and 'Priestly Class' systems through bloodline infiltration.",
-          "isCorrect": true,
-          "rationale": "Utilizing incestuous and 'sold-soul' bloodlines allowed the Anuk to maintain genetic purity and control over human leaders."
+          "text": "By teaching humanity the true principles of the Source of Creation and ignoring the deliberate design.",
+          "isCorrect": false,
+          "rationale": "The Anuk focused on enslavement and inversion, which is the opposite of teaching the truth of Creation."
         }
       ],
       "hint": "Consider the origin of 'Royal Families' and the role of secret sects like the Druids and Freemasons.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To serve as the primary research facility for the Galactic Ancestral Alliance.",
+          "text": "To serve as the primary research facility for the Galactic Ancestral Alliance — a cover story that.",
           "isCorrect": false,
           "rationale": "The Smithsonian is identified as an instrument of the parasitic hierarchy's cover-up, not the Alliance."
         },
         {
           "label": "B",
-          "text": "To translate the original Anuk names found in the Grand Canyon for the public.",
+          "text": "To educate the public on the 4th density nature of the Anuk and ignoring the deliberate design of the.",
+          "isCorrect": false,
+          "rationale": "These institutions work to suppress and cover up the truth of the Anuk, not to educate the public on it."
+        },
+        {
+          "label": "C",
+          "text": "To translate the original Anuk names found in the Grand Canyon for the public and ignoring the.",
           "isCorrect": false,
           "rationale": "The Smithsonian is involved in misattributing these names to hide their true Anuk origins."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "To confiscate and hide physical evidence of Giants and Oopas to protect the Anuk footprint.",
           "isCorrect": true,
           "rationale": "Hiding skeletal remains of giants (12 to 35 meters) ensures that the physical history of the Anuk remains seen as myth."
-        },
-        {
-          "label": "D",
-          "text": "To educate the public on the 4th density nature of the Anuk.",
-          "isCorrect": false,
-          "rationale": "These institutions work to suppress and cover up the truth of the Anuk, not to educate the public on it."
         }
       ],
       "hint": "Think about what happens when 'out-of-place' artifacts or massive skeletal remains are discovered.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 10,
@@ -310,9 +310,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Their souls are harvested from 12th density beings against their will.",
+          "text": "They share a collective soul with the humans they manage, which collapses once the.",
           "isCorrect": false,
-          "rationale": "The Anuk are powered by low-quality replicated souls, though they do harvest human energy (Loosh) for sustenance."
+          "rationale": "Humanity is harvested by these entities; their souls are fundamentally different in frequency and origin."
         },
         {
           "label": "B",
@@ -322,9 +322,9 @@
         },
         {
           "label": "C",
-          "text": "They share a collective soul with the humans they manage.",
+          "text": "Their souls are harvested from 12th density beings against their will.",
           "isCorrect": false,
-          "rationale": "Humanity is harvested by these entities; their souls are fundamentally different in frequency and origin."
+          "rationale": "The Anuk are powered by low-quality replicated souls, though they do harvest human energy (Loosh) for sustenance."
         },
         {
           "label": "D",
@@ -342,19 +342,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True",
-          "isCorrect": false,
-          "rationale": "This aligns with mainstream or deceptive narratives rather than the revelation that they were manufactured by Custodians."
-        },
-        {
-          "label": "B",
           "text": "False",
           "isCorrect": true,
           "rationale": "The Anuk are explicitly stated to be artificially generated in laboratories by the Custodians."
+        },
+        {
+          "label": "B",
+          "text": "True and ignoring the deliberate design of the subjugation systems",
+          "isCorrect": false,
+          "rationale": "This aligns with mainstream or deceptive narratives rather than the revelation that they were manufactured by Custodians."
         }
       ],
       "hint": "Check whether True cosmology describes them as evolutionary beings or laboratory creations.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 12,
@@ -362,31 +362,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They are utterly incapable of pure creation.",
-          "isCorrect": true,
-          "rationale": "Their existence is restricted to scavenging and manufacturing within a 4th density framework."
+          "text": "They are forced to merge their consciousness with the White Hats, treating the prison.",
+          "isCorrect": false,
+          "rationale": "The White Hats are working to dismantle the Anuk's influence, not merge with them."
         },
         {
           "label": "B",
-          "text": "They must constantly relocate to different star systems.",
+          "text": "They must constantly relocate to different star systems, which collapses once the.",
           "isCorrect": false,
           "rationale": "They are tethered to the physical realm and the extraction of energy from human populations within it."
         },
         {
           "label": "C",
-          "text": "They cannot physically manifest in the 3rd density.",
-          "isCorrect": false,
-          "rationale": "The Anuk physically lived alongside humanity during the Zep Tepi era, showing they can manifest in lower densities."
+          "text": "They are utterly incapable of pure creation.",
+          "isCorrect": true,
+          "rationale": "Their existence is restricted to scavenging and manufacturing within a 4th density framework."
         },
         {
           "label": "D",
-          "text": "They are forced to merge their consciousness with the White Hats.",
+          "text": "They cannot physically manifest in the 3rd density — a cover story that cannot survive.",
           "isCorrect": false,
-          "rationale": "The White Hats are working to dismantle the Anuk's influence, not merge with them."
+          "rationale": "The Anuk physically lived alongside humanity during the Zep Tepi era, showing they can manifest in lower densities."
         }
       ],
       "hint": "Think about what the biological and vibrational ceiling prevents them from doing.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 13,
@@ -394,31 +394,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To recycle human souls and maintain the power grid through soul harvesting.",
-          "isCorrect": true,
-          "rationale": "The vortex ensures humanity remains trapped in a cycle of recycling, providing continuous energy for the demonic hosts."
-        },
-        {
-          "label": "B",
-          "text": "To help humans remember their past lives and origins.",
-          "isCorrect": false,
-          "rationale": "The term 'amnesia' implies the removal of memory to keep the population enslaved, not the recovery of it."
-        },
-        {
-          "label": "C",
           "text": "To serve as a communication hub between the Anuk and the Council of 12.",
           "isCorrect": false,
           "rationale": "The Anuk are part of a rebellion against the Council of 12, and the vortex is part of their parasitic infrastructure."
         },
         {
-          "label": "D",
-          "text": "To protect the Vatican from high-frequency energy shifts.",
+          "label": "B",
+          "text": "To recycle human souls and maintain the power grid through soul harvesting.",
+          "isCorrect": true,
+          "rationale": "The vortex ensures humanity remains trapped in a cycle of recycling, providing continuous energy for the demonic hosts."
+        },
+        {
+          "label": "C",
+          "text": "To protect the Vatican from high-frequency energy shifts, which collapses once the.",
           "isCorrect": false,
           "rationale": "The vortex is a tool for soul recycling and control, not a protective shield against high frequencies."
+        },
+        {
+          "label": "D",
+          "text": "To help humans remember their past lives and origins, which would leave the control.",
+          "isCorrect": false,
+          "rationale": "The term 'amnesia' implies the removal of memory to keep the population enslaved, not the recovery of it."
         }
       ],
       "hint": "Consider the relationship between cyclical resets and the management of human energy.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 14,
@@ -426,13 +426,13 @@
       "options": [
         {
           "label": "A",
-          "text": "The completion of the final 1,000-year reset cycle.",
+          "text": "The successful creation of a new 5th density lab-grown species and ignoring the deliberate design.",
           "isCorrect": false,
-          "rationale": "The collapse is due to the intervention against the system, not the successful completion of a reset cycle."
+          "rationale": "The Anuk are fundamentally incapable of 5th density creation, and their current system is failing."
         },
         {
           "label": "B",
-          "text": "The Anuk's decision to voluntarily return to the Source of Creation.",
+          "text": "The Anuk's decision to voluntarily return to the Source of Creation, as though the parasitic.",
           "isCorrect": false,
           "rationale": "The parasitic factions are being systematically purged and their grid is failing; it is not a voluntary departure."
         },
@@ -444,9 +444,9 @@
         },
         {
           "label": "D",
-          "text": "The successful creation of a new 5th density lab-grown species.",
+          "text": "The completion of the final 1,000-year reset cycle — a cover story that cannot survive contact with.",
           "isCorrect": false,
-          "rationale": "The Anuk are fundamentally incapable of 5th density creation, and their current system is failing."
+          "rationale": "The collapse is due to the intervention against the system, not the successful completion of a reset cycle."
         }
       ],
       "hint": "Focus on the roles of the Galactic Ancestral Alliance and the White Hats.",
@@ -458,31 +458,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They create human proxies bound by ritual to manage the population for their masters.",
-          "isCorrect": true,
-          "rationale": "Lineages like the 33rd-degree Freemasons act as the visible administrators of the Anuk's parasitic agenda."
+          "text": "They are designed to protect the human population from the Alpha Draco, which collapses once the.",
+          "isCorrect": false,
+          "rationale": "The bloodlines work alongside entities like the Alpha Draco within the shared parasitic hierarchy."
         },
         {
           "label": "B",
-          "text": "They ensure that the history of the Grand Canyon remains public knowledge.",
+          "text": "They ensure that the history of the Grand Canyon remains public knowledge, treating the prison.",
           "isCorrect": false,
           "rationale": "These secret sects are involved in the cover-up and historical obscuration of the Anuk's true history."
         },
         {
           "label": "C",
-          "text": "They are designed to protect the human population from the Alpha Draco.",
-          "isCorrect": false,
-          "rationale": "The bloodlines work alongside entities like the Alpha Draco within the shared parasitic hierarchy."
+          "text": "They create human proxies bound by ritual to manage the population for their masters.",
+          "isCorrect": true,
+          "rationale": "Lineages like the 33rd-degree Freemasons act as the visible administrators of the Anuk's parasitic agenda."
         },
         {
           "label": "D",
-          "text": "They provide a way for human souls to eventually attain Anuk status.",
+          "text": "They provide a way for human souls to eventually attain Anuk status, presented as if it were the.",
           "isCorrect": false,
           "rationale": "These bloodlines are used for subjugation and management, not for the elevation of human souls to Anuk status."
         }
       ],
       "hint": "Reflect on the connection between Royal Families, secret sects, and the management of the 3rd density population.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 16,
@@ -490,31 +490,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They are verified contact events with star-system Greys from Zeta Reticuli.",
+          "text": "They preserve original Anuk temple records from the Grand Canyon headquarters, which would leave the control matrix.",
+          "isCorrect": false,
+          "rationale": "Grand Canyon name cover-ups are a separate historical obscuration, not the Hill case or Project Serpo."
+        },
+        {
+          "label": "B",
+          "text": "They are verified contact events with star-system Greys from Zeta Reticuli, treating the prison architecture as if it.",
           "isCorrect": false,
           "rationale": "Distant-star origins for the Greys are false cover narratives."
         },
         {
-          "label": "B",
-          "text": "They are long-term C.I.A. psyops designed to hide that the Greys were lab-grown earthly tools of the Anuk.",
-          "isCorrect": true,
-          "rationale": "Betty and Barney Hill lore and Project Serpo as C.I.A. psyops masking the Zetas as Anuk-made laboratory tools, not cosmic visitors."
-        },
-        {
           "label": "C",
-          "text": "They document White Hat rescue missions against the Anuk hierarchy.",
+          "text": "They document White Hat rescue missions against the Anuk hierarchy, which would leave the control matrix intact and the.",
           "isCorrect": false,
           "rationale": "White Hat intervention is described as dismantling the prison later, not as the content of those abduction narratives."
         },
         {
           "label": "D",
-          "text": "They preserve original Anuk temple records from the Grand Canyon headquarters.",
-          "isCorrect": false,
-          "rationale": "Grand Canyon name cover-ups are a separate historical obscuration, not the Hill case or Project Serpo."
+          "text": "They are long-term C.I.A. psyops designed to hide that the Greys were lab-grown earthly tools of the Anuk.",
+          "isCorrect": true,
+          "rationale": "Betty and Barney Hill lore and Project Serpo as C.I.A. psyops masking the Zetas as Anuk-made laboratory tools, not cosmic visitors."
         }
       ],
       "hint": "Connect mainstream UFO abduction lore to the lab-grown origin of the Zetas.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 17,
@@ -522,15 +522,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Egyptian explorers founded temples there after migrating from the Nile valley.",
+          "text": "They are modern park service inventions with no link to the Anuk period, treating the prison.",
           "isCorrect": false,
-          "rationale": "The Anuk did not primarily operate out of Egypt and that the Egyptian framing is a deliberate obscuration."
+          "rationale": "The names are original Anuk names later misattributed, not empty modern inventions."
         },
         {
           "label": "B",
-          "text": "They are modern park service inventions with no link to the Anuk period.",
+          "text": "They mark White Hat outposts built during the Great Spiritual Awakening, as though the parasitic.",
           "isCorrect": false,
-          "rationale": "The names are original Anuk names later misattributed, not empty modern inventions."
+          "rationale": "White Hats appear in the collapse of Anuk control, not as builders of those named canyon landmarks."
         },
         {
           "label": "C",
@@ -540,9 +540,9 @@
         },
         {
           "label": "D",
-          "text": "They mark White Hat outposts built during the Great Spiritual Awakening.",
+          "text": "Egyptian explorers founded temples there after migrating from the Nile valley, as though the.",
           "isCorrect": false,
-          "rationale": "White Hats appear in the collapse of Anuk control, not as builders of those named canyon landmarks."
+          "rationale": "The Anuk did not primarily operate out of Egypt and that the Egyptian framing is a deliberate obscuration."
         }
       ],
       "hint": "Separate the true Anuk headquarters from the Egyptian cover story.",
@@ -554,31 +554,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Above the Custodians as the original source of all negativity.",
-          "isCorrect": false,
-          "rationale": "The Custodians initiated the rebellion and engineered the Anuk; the Anuk do not outrank them."
-        },
-        {
-          "label": "B",
           "text": "Directly beneath the Custodians, sharing 4th-density limitations.",
           "isCorrect": true,
           "rationale": "The Anuk sit directly beneath the Custodians and they share 4th-density limitations as manufactured parasites."
         },
         {
+          "label": "B",
+          "text": "Outside the hierarchy as independent 12th-density caretakers, treating the prison.",
+          "isCorrect": false,
+          "rationale": "12th density describes the Custodians before their fall, not the manufactured Anuk."
+        },
+        {
           "label": "C",
-          "text": "Equal partners with the Council of 12 in managing Gateway-10.",
+          "text": "Equal partners with the Council of 12 in managing Gateway-10 — a cover story that.",
           "isCorrect": false,
           "rationale": "The Custodians betrayed the Council of 12; the Anuk are instruments of that betrayal, not Council partners."
         },
         {
           "label": "D",
-          "text": "Outside the hierarchy as independent 12th-density caretakers.",
+          "text": "Above the Custodians as the original source of all negativity, which would leave the.",
           "isCorrect": false,
-          "rationale": "12th density describes the Custodians before their fall, not the manufactured Anuk."
+          "rationale": "The Custodians initiated the rebellion and engineered the Anuk; the Anuk do not outrank them."
         }
       ],
       "hint": "Recall who engineered the Anuk and what density ceiling they share.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 19,
@@ -586,7 +586,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Re-sets were natural disasters the Anuk tried to prevent for humanity.",
+          "text": "Re-sets were natural disasters the Anuk tried to prevent for humanity, which would leave the control matrix intact.",
           "isCorrect": false,
           "rationale": "Re-sets are part of the parasitic harvest system, not as disasters the Anuk opposed."
         },
@@ -598,15 +598,15 @@
         },
         {
           "label": "C",
-          "text": "Re-sets open permanent 5th-density pathways for the Anuk to ascend.",
+          "text": "Each Re-set restores the Council of 12 to open rule over the Known Lands, which would leave the control matrix.",
           "isCorrect": false,
-          "rationale": "The Anuk cannot ascend to 5th density; Re-sets feed the harvest, not their elevation."
+          "rationale": "Re-sets maintain the parasitic farm; they do not reinstate the Council of 12 over the realm."
         },
         {
           "label": "D",
-          "text": "Each Re-set restores the Council of 12 to open rule over the Known Lands.",
+          "text": "Re-sets open permanent 5th-density pathways for the Anuk to ascend, as though the parasitic inversion had never.",
           "isCorrect": false,
-          "rationale": "Re-sets maintain the parasitic farm; they do not reinstate the Council of 12 over the realm."
+          "rationale": "The Anuk cannot ascend to 5th density; Re-sets feed the harvest, not their elevation."
         }
       ],
       "hint": "Link the thousand-year cycle to Loosh, Adrenochrome, and the power grid.",
@@ -618,31 +618,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Successful suppression of the Known Lands (Realm-3) and continuous extraction of human energy.",
-          "isCorrect": true,
-          "rationale": "Anuk survival was strictly tethered to suppressing the Known Lands (Realm-3) and continuously extracting human energy."
-        },
-        {
-          "label": "B",
-          "text": "Open alliance with the Galactic Ancestral Alliance and White Hats.",
-          "isCorrect": false,
-          "rationale": "Those forces intervene against the parasites; they are not Anuk survival partners."
-        },
-        {
-          "label": "C",
-          "text": "Voluntary worship from humanity without any density suppression.",
+          "text": "Voluntary worship from humanity without any density suppression and ignoring the deliberate design of the.",
           "isCorrect": false,
           "rationale": "Their framework depends on density suppression and forced harvest, not free worship."
         },
         {
-          "label": "D",
-          "text": "Natural evolution into pure 12th-density caretakers of the plain.",
+          "label": "B",
+          "text": "Natural evolution into pure 12th-density caretakers of the plain, which would leave the control matrix.",
           "isCorrect": false,
           "rationale": "They face a hard 4th-density ceiling and cannot become high-density caretakers."
+        },
+        {
+          "label": "C",
+          "text": "Open alliance with the Galactic Ancestral Alliance and White Hats and ignoring the deliberate design of.",
+          "isCorrect": false,
+          "rationale": "Those forces intervene against the parasites; they are not Anuk survival partners."
+        },
+        {
+          "label": "D",
+          "text": "Successful suppression of the Known Lands (Realm-3) and continuous extraction of human energy.",
+          "isCorrect": true,
+          "rationale": "Anuk survival was strictly tethered to suppressing the Known Lands (Realm-3) and continuously extracting human energy."
         }
       ],
       "hint": "Think about Realm-3 suppression and energy extraction, not ascension.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 21,
@@ -650,31 +650,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Because the Council of 12 ordered a joint diplomatic embassy there, which collapses once the inverted timeline.",
+          "isCorrect": false,
+          "rationale": "The Vatican complex serves the negative agenda after the Custodians betrayed the Council of 12."
+        },
+        {
+          "label": "B",
+          "text": "Because White Hats required a single surrender site for negotiations, which collapses once the inverted timeline.",
+          "isCorrect": false,
+          "rationale": "The subterranean levels house portals, caged children, and Adrenochrome centers for the parasites, not White Hat diplomacy."
+        },
+        {
+          "label": "C",
           "text": "Because the factions inherently distrusted one another and needed a forced shared nexus of control.",
           "isCorrect": true,
           "rationale": "The parasitic factions inherently distrusted one another, so the Custodians forced them to centralize under the Vatican nexus."
         },
         {
-          "label": "B",
-          "text": "Because the Council of 12 ordered a joint diplomatic embassy there.",
-          "isCorrect": false,
-          "rationale": "The Vatican complex serves the negative agenda after the Custodians betrayed the Council of 12."
-        },
-        {
-          "label": "C",
-          "text": "Because the Grand Canyon headquarters was permanently destroyed during Zep Tepi.",
+          "label": "D",
+          "text": "Because the Grand Canyon headquarters was permanently destroyed during Zep Tepi, as though the parasitic.",
           "isCorrect": false,
           "rationale": "The Grand Canyon was the Zep Tepi Anuk headquarters; Vatican centralization is a later multi-faction control nexus."
-        },
-        {
-          "label": "D",
-          "text": "Because White Hats required a single surrender site for negotiations.",
-          "isCorrect": false,
-          "rationale": "The subterranean levels house portals, caged children, and Adrenochrome centers for the parasites, not White Hat diplomacy."
         }
       ],
       "hint": "Focus on distrust among the parasitic factions and who forced centralization.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 22,
@@ -682,31 +682,31 @@
       "options": [
         {
           "label": "A",
-          "text": "By open democratic election among the free population.",
+          "text": "By open democratic election among the free population, presented as if it were the natural.",
           "isCorrect": false,
           "rationale": "Secret sect and priestly systems, not free public elections."
         },
         {
           "label": "B",
-          "text": "By satanic child sacrifice that bound them as administrators of the Anuk agenda.",
-          "isCorrect": true,
-          "rationale": "Those human proxies were bound by satanic child sacrifice to manage the realm on behalf of their Anuk masters."
+          "text": "By voluntary service as 12th-density caretakers of Gateway-10, presented as if it were the.",
+          "isCorrect": false,
+          "rationale": "12th density describes the pre-fall Custodians, not human proxy bloodlines under Anuk control."
         },
         {
           "label": "C",
-          "text": "By pure harmonic intention shared with the Source of Creation.",
+          "text": "By pure harmonic intention shared with the Source of Creation, presented as if it were the.",
           "isCorrect": false,
           "rationale": "Harmonic high-frequency creation is what the manufactured parasites lack; proxies are bound by ritual crime, not Source harmony."
         },
         {
           "label": "D",
-          "text": "By voluntary service as 12th-density caretakers of Gateway-10.",
-          "isCorrect": false,
-          "rationale": "12th density describes the pre-fall Custodians, not human proxy bloodlines under Anuk control."
+          "text": "By satanic child sacrifice that bound them as administrators of the Anuk agenda.",
+          "isCorrect": true,
+          "rationale": "Those human proxies were bound by satanic child sacrifice to manage the realm on behalf of their Anuk masters."
         }
       ],
       "hint": "Connect Secret Sect and Priestly Class systems to the binding ritual named here.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 23,
@@ -714,9 +714,9 @@
       "options": [
         {
           "label": "A",
-          "text": "As a temporary training band before automatic ascension to 9th density.",
+          "text": "As the density of the restored realm after the White Hats finish their work, treating the prison architecture as if it were.",
           "isCorrect": false,
-          "rationale": "The ceiling is absolute for manufactured parasites; they cannot attain higher harmonic frequencies."
+          "rationale": "The collapse of Anuk control ends the parasitic framework; 4th density is their limitation, not the restored outcome."
         },
         {
           "label": "B",
@@ -726,15 +726,15 @@
         },
         {
           "label": "C",
-          "text": "As the original density of the pure Custodians before any rebellion.",
+          "text": "As the original density of the pure Custodians before any rebellion, presented as if it were the natural or official account of events.",
           "isCorrect": false,
           "rationale": "The Custodians were formerly pure 12th density caretakers before their fall into the parasitic hierarchy."
         },
         {
           "label": "D",
-          "text": "As the density of the restored realm after the White Hats finish their work.",
+          "text": "As a temporary training band before automatic ascension to 9th density — a cover story that cannot survive contact with the.",
           "isCorrect": false,
-          "rationale": "The collapse of Anuk control ends the parasitic framework; 4th density is their limitation, not the restored outcome."
+          "rationale": "The ceiling is absolute for manufactured parasites; they cannot attain higher harmonic frequencies."
         }
       ],
       "hint": "Recall the definition of 4th density.",
@@ -746,31 +746,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Long before the realm inversion, as laboratory products of the Custodians.",
-          "isCorrect": true,
-          "rationale": "The Anuk were artificially generated in laboratories by the Custodians long before the realm inversion."
-        },
-        {
-          "label": "B",
           "text": "Only after the White Hats began purging the Vatican subterranean levels.",
           "isCorrect": false,
           "rationale": "Anuk manufacture predates the modern dismantling of the prison; it enabled the inversion itself."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "During the final thousand-year Re-set as a last-ditch survival species.",
           "isCorrect": false,
           "rationale": "They were created early as primary proxy allies so the Custodians would not execute the betrayal alone."
         },
         {
-          "label": "D",
-          "text": "After Project Serpo established peaceful contact with Zeta Reticuli.",
+          "label": "C",
+          "text": "After Project Serpo established peaceful contact with Zeta Reticuli, treating the.",
           "isCorrect": false,
           "rationale": "Project Serpo is named as a psyop covering lab-grown Greys, not as the birth event of the Anuk."
+        },
+        {
+          "label": "D",
+          "text": "Long before the realm inversion, as laboratory products of the Custodians.",
+          "isCorrect": true,
+          "rationale": "The Anuk were artificially generated in laboratories by the Custodians long before the realm inversion."
         }
       ],
       "hint": "Place Anuk laboratory creation before the inversion, not after modern events.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 25,
@@ -778,31 +778,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only human Smithsonian researchers cataloging Grand Canyon temples.",
-          "isCorrect": false,
-          "rationale": "The Smithsonian is tied to evidence cover-ups, not as co-occupants of the Anuk subterranean tier."
-        },
-        {
-          "label": "B",
           "text": "The Custodians, Omicron, Alpha Draco, Greys, and Demons.",
           "isCorrect": true,
           "rationale": "The Anuk held a dedicated tier operating directly alongside the Custodians, Omicron, Alpha Draco, Greys, and Demons."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "The Council of 12 and the Galactic Ancestral Alliance as equal partners.",
           "isCorrect": false,
           "rationale": "Those are not the co-located parasitic operators of the Vatican negative-control nexus."
         },
         {
+          "label": "C",
+          "text": "Only human Smithsonian researchers cataloging Grand Canyon temples, which collapses.",
+          "isCorrect": false,
+          "rationale": "The Smithsonian is tied to evidence cover-ups, not as co-occupants of the Anuk subterranean tier."
+        },
+        {
           "label": "D",
-          "text": "Solely the Zetas, with no other species allowed underground.",
+          "text": "Solely the Zetas, with no other species allowed underground, presented as if it were.",
           "isCorrect": false,
           "rationale": "Multiple parasitic factions share the complex; the Anuk are one dedicated tier among several."
         }
       ],
       "hint": "List the co-located factions named for the 13 subterranean levels.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     }
   ]
 }
