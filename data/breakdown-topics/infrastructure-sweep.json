@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v7a1lao/?pub=4p0ieu",
       "description": "How the alliance neutralized corporate CEOs, entertainment royalty, and cultural influencers to elevate global frequency."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/breakdown/infrastructure-sweep.html",
+    "title": "Infrastructure Sweep",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Infrastructure Sweep — Phase Two of the Great Purge that neutralizes corporate, entertainment, and cultural influencers to raise global frequency."
+  }
 }

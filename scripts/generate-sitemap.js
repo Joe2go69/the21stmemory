@@ -106,7 +106,10 @@ const entries = [
   { path: '/quiz/breakdown/hard-drive-framework.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/phase-one-three.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/targeting-parasites.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/infrastructure-sweep.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/underground-dismantling.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/eight-domes.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/layered-simulations.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/the-purge-phases.html', priority: '0.75', changefreq: 'monthly' },
 ];
 

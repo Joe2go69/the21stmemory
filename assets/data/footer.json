@@ -57,7 +57,12 @@
       "icon": "instagram"
     },
     {
-      "name": "Official Site",
+      "name": "Facebook Group",
+      "href": "https://www.facebook.com/share/g/1DN6JVuFoF/",
+      "icon": "facebook"
+    },
+    {
+      "name": "Official CH21 Site",
       "href": "https://christian21.com/",
       "icon": "globe"
     }
