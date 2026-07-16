@@ -1,10 +1,28 @@
 # Quiz prompt template (Alice / Breakdown)
 
-Copy everything under **Prompt** into a new chat. Replace only the bracketed fields.
+Copy a prompt into a new Grok chat. Replace only the bracketed fields.
+Attach or paste the NotebookLM export JSON when you have one.
 
 ---
 
-## Prompt
+## NotebookLM paste (quick — use this when adding a new JSON quiz)
+
+Copy/paste this block with the quiz file attached:
+
+```
+Add this quiz to the [ Topic Title ] topic for the [ alice | breakdown ] transmission.
+
+- Rename the quiz so it matches the topic title exactly.
+- All quiz text must be plain human-readable English with no LaTeX, MathJax, Markdown math, or $...$ wrappers. Ordinals like 3rd/9th and terms like UHF/EMF/97% must appear as normal text.
+- Every correct answer and rationale must be paraphrased from THIS topic’s report only. Audit all 25 against data/[alice|breakdown]-topics/[topicId].json before publishing; rewrite any item the report does not support.
+- Absolute truth voice (no "according to the report").
+- **No longest-answer tell** — Write all four options at similar length and depth (full plausible wrong claims, not one-line distractors). Mix correct answers across A/B/C/D. After writing the quiz JSON, run `node scripts/rebalance-quiz-length.js data/quizzes/[alice|breakdown]/[topicId].json` so option lengths stay balanced without stock filler tails. If any question still has a uniquely longest correct by a wide margin, hand-tighten that correct and expand those wrongs with claim-specific content (see scripts/polish-severe-final.js pattern). Do not use deprecated scripts/rebalance-quiz-options.js filler tails.
+- Wire JSON, HTML, topic.quiz, sitemap; use install script with finalizeOptions; run split-topics-data + generate-sitemap. Match existing quiz install pattern.
+```
+
+---
+
+## Prompt (full)
 
 ```
 Create and publish a Living Truth quiz for the [ TOPIC TITLE ] topic under the [ Alice | Breakdown ] transmission.
@@ -18,6 +36,7 @@ Create and publish a Living Truth quiz for the [ TOPIC TITLE ] topic under the [
 ## Source quiz (pick one)
 A) Use this source file if it exists:
    "[ G:\My Drive\CH21\Website Files\New Downloads\YOUR-quiz.json ]"
+   (NotebookLM export / new JSON quiz file)
 B) No source file — author all 25 questions from the topic report only.
 
 ## Hard requirements
@@ -47,7 +66,7 @@ B) No source file — author all 25 questions from the topic report only.
    - **No length tell** — A player must not be able to pick the correct option by choosing the longest or most detailed sentence.
    - **No position tell** — Do not draft correct-first then leave it as A. Author all four options, then place the correct one on a rotating letter (or shuffle).
    - **Install scripts** — In scripts/install-[topicId]-quiz.js, call `finalizeOptions` from `scripts/quiz-option-utils.js` when building each question so options are shuffled/relabeled. Do not skip this step.
-   - **Corpus length rebalance** — If published quizzes still show a "longest option = correct" tell, run `node scripts/rebalance-quiz-length.js --all-alice` (tightens long corrects + claim-bound wrong expansions; no stock filler tails). Do **not** use the deprecated `rebalance-quiz-options.js` expand path.
+   - **Length rebalance (required after publish write)** — Run `node scripts/rebalance-quiz-length.js data/quizzes/[source]/[topicId].json` on the new quiz so option lengths stay balanced without stock filler tails. Spot-check: if any correct is uniquely longest by ~50+ characters, hand-tighten that correct and expand wrongs with claim-specific content (same approach as scripts/polish-severe-final.js). Do **not** use the deprecated `rebalance-quiz-options.js` expand path.
    - After writing JSON, quickly count correctAnswer letters (A/B/C/D). If one letter dominates (e.g. A ≥ 15/25), rebalance before publishing.
 8. **Wire into the site**
    - Write data/quizzes/[source]/[topicId].json
@@ -63,6 +82,7 @@ B) No source file — author all 25 questions from the topic report only.
    - No report/topic/text/source hedges in questions, options, rationales, hints, or reflection
    - Correct answers mixed across A/B/C/D (not always A)
    - Wrong options are not systematically much shorter than correct options
+   - Ran rebalance-quiz-length.js on this quiz file
    - topic.quiz CTA present
    - quiz HTML loads the correct JSON path
    - sitemap includes /quiz/[source]/[topicId].html
@@ -77,7 +97,7 @@ B) No source file — author all 25 questions from the topic report only.
 ## Minimal one-liner (if you already know the topic)
 
 ```
-Write and publish a 25-question Alice/Breakdown quiz for topic "[ Topic Title ]" (id: [topic-id], transmission: [alice|breakdown]). Optional source: "[path or none]". Report-only audit against data/[alice|breakdown]-topics/[topic-id].json. Plain English (no LaTeX/$). Absolute truth voice (no "according to the report"). Mix correct answers across A/B/C/D (never all A). Write all four options at similar length/depth — no long-correct / short-wrong tell. Use install script with finalizeOptions from scripts/quiz-option-utils.js. Match existing quiz install pattern; wire JSON, HTML, topic.quiz, sitemap; run split-topics-data + generate-sitemap.
+Write and publish a 25-question Alice/Breakdown quiz for topic "[ Topic Title ]" (id: [topic-id], transmission: [alice|breakdown]). Optional source: "[path or none / NotebookLM JSON]". Report-only audit against data/[alice|breakdown]-topics/[topic-id].json. Plain English (no LaTeX/$). Absolute truth voice (no "according to the report"). Mix correct answers across A/B/C/D (never all A). Write all four options at similar length/depth — no long-correct / short-wrong tell. After writing JSON run: node scripts/rebalance-quiz-length.js data/quizzes/[source]/[topic-id].json. Use install script with finalizeOptions from scripts/quiz-option-utils.js. Match existing quiz install pattern; wire JSON, HTML, topic.quiz, sitemap; run split-topics-data + generate-sitemap.
 ```
 
 ---
@@ -111,5 +131,6 @@ B) No source file — author all 25 questions from the topic report only.
 - [ ] No “according to the report / text / topic” hedges
 - [ ] Correct answers spread across A/B/C/D (not ~25× A)
 - [ ] Wrong options similar length/depth to correct (no longest-answer tell)
+- [ ] Ran `node scripts/rebalance-quiz-length.js data/quizzes/[source]/[topicId].json`
 - [ ] Install script uses `finalizeOptions` from `scripts/quiz-option-utils.js`
 - [ ] Deep-dive shows “Take the [Topic Title] Quiz”

@@ -104,6 +104,9 @@ const entries = [
   { path: '/quiz/breakdown/the-cube-system.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/essence-of-the-transmission.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/hard-drive-framework.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/phase-one-three.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/targeting-parasites.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/eight-domes.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/the-purge-phases.html', priority: '0.75', changefreq: 'monthly' },
 ];
 
