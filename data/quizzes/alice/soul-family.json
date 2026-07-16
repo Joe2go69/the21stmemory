@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A gentle bank holiday that leaves amnesic barriers intact and cosmic lineages permanently sealed.",
-          "isCorrect": false,
-          "rationale": "It dissolves amnesic barriers and restores comprehensive memory for surviving true souls."
-        },
-        {
-          "label": "B",
           "text": "A fashion cycle of vessel upgrades with no link to eternal consciousness or family pods.",
           "isCorrect": false,
           "rationale": "Core realization is vessel as temporary vehicle powered by eternal consciousness seeking Soul Family return."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Only a new religion that bans contact with any cosmic lineage forever under one official deity.",
           "isCorrect": false,
           "rationale": "Religion is a String to sever; awakening aims at cosmic lineage reunification, not new deity rule."
         },
         {
-          "label": "D",
-          "text": "The definitive end of a 178,000-year looping cycle of entrapment — rapid revelation that dismantles false paradigms and prepares true souls for reunification with their original cosmic lineages.",
+          "label": "C",
+          "text": "The definitive end of a 178,000-year looping cycle of entrapment.",
           "isCorrect": true,
           "rationale": "Awakening ends the 178,000-year loop and readies true souls for Soul Family reunification."
+        },
+        {
+          "label": "D",
+          "text": "A gentle bank holiday that leaves amnesic barriers intact and cosmic lineages permanently sealed.",
+          "isCorrect": false,
+          "rationale": "It dissolves amnesic barriers and restores comprehensive memory for surviving true souls."
         }
       ],
       "hint": "178,000-year loop ends — prepare for cosmic lineage reunification.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A finance ledger that stores debt between incarnations with no energetic consciousness involved.",
-          "isCorrect": false,
-          "rationale": "Vessel is biological; soul holds knowledge, wisdom, empathy, and love — not a debt ledger."
-        },
-        {
-          "label": "B",
           "text": "A temporary, mortal vehicle powered by an eternal consciousness — not the true identity of the being.",
           "isCorrect": true,
           "rationale": "Vessel = temporary suit; soul = eternal consciousness that powers and outlives the body."
         },
         {
+          "label": "B",
+          "text": "The eternal self that reincarnates only as one permanent genetic identity forever, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The vessel is a temporary mortal vehicle; eternal consciousness powers it, not the reverse."
+        },
+        {
           "label": "C",
-          "text": "An indestructible immortal body that never dies and never needs Soul Family reunion.",
+          "text": "An indestructible immortal body that never dies and never needs Soul Family reunion, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Vessels have finite lifespan; awakening reunites surviving true souls with cosmic family."
         },
         {
           "label": "D",
-          "text": "The eternal self that reincarnates only as one permanent genetic identity forever.",
+          "text": "A finance ledger that stores debt between incarnations with no energetic consciousness involved.",
           "isCorrect": false,
-          "rationale": "The vessel is a temporary mortal vehicle; eternal consciousness powers it, not the reverse."
+          "rationale": "Vessel is biological; soul holds knowledge, wisdom, empathy, and love — not a debt ledger."
         }
       ],
       "hint": "Temporary mortal vehicle — eternal consciousness is the true self.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 3,
@@ -86,27 +86,27 @@
       "options": [
         {
           "label": "A",
-          "text": "The actual network of Souls/Sols that make up an immediate cosmic family — misrepresented through language to mean planets orbiting a sun.",
+          "text": "The actual network of Souls/Sols that make up an immediate cosmic family.",
           "isCorrect": true,
           "rationale": "Sol-System = soul family network; \"solar system\" is linguistic inversion of that truth."
         },
         {
           "label": "B",
-          "text": "A single NPC hive account with no cosmic family members across any density.",
-          "isCorrect": false,
-          "rationale": "Sol-System names the immediate cosmic family network of Souls/Sols."
-        },
-        {
-          "label": "C",
           "text": "Only a set of spinning spherical planets orbiting a burning star in infinite black vacuum.",
           "isCorrect": false,
           "rationale": "That is the intentional language misrepresentation; a Sol-System is a network of Souls/Sols."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "A Vatican subway map used only by Grey ETs with no connection to cosmic lineage.",
           "isCorrect": false,
           "rationale": "Vatican levels host reincarnation routing; Sol-System is the cosmic family architecture itself."
+        },
+        {
+          "label": "D",
+          "text": "A single NPC hive account with no cosmic family members across any density.",
+          "isCorrect": false,
+          "rationale": "Sol-System names the immediate cosmic family network of Souls/Sols."
         }
       ],
       "hint": "Network of Souls/Sols — not planets around a sun.",
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
+          "text": "The eternal energetic consciousness that powers the physical vessel, containing all knowledge, wisdom, experience, personality, empathy, and love.",
+          "isCorrect": true,
+          "rationale": "Soul = eternal consciousness with full interior life; vessel is only the powered suit."
+        },
+        {
+          "label": "B",
           "text": "A 4th-density lab printout used only for NPC hive scripts without past lives.",
           "isCorrect": false,
           "rationale": "That describes synthetic NPC replica souls; true souls are eternal consciousness."
         },
         {
-          "label": "B",
-          "text": "Only a finance nickname for savings accounts with no wisdom, empathy, or love content.",
-          "isCorrect": false,
-          "rationale": "Soul contains knowledge, wisdom, experience, personality, empathy, and love."
-        },
-        {
           "label": "C",
-          "text": "A temporary chemical reaction that ends forever when the vessel dies with no further continuity.",
+          "text": "A temporary chemical reaction that ends forever when the vessel dies with no further continuity, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "The soul is eternal energetic consciousness powering the vessel across loops."
         },
         {
           "label": "D",
-          "text": "The eternal energetic consciousness that powers the physical vessel, containing all knowledge, wisdom, experience, personality, empathy, and love.",
-          "isCorrect": true,
-          "rationale": "Soul = eternal consciousness with full interior life; vessel is only the powered suit."
+          "text": "Only a finance nickname for savings accounts with no wisdom, empathy, or love content, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Soul contains knowledge, wisdom, experience, personality, empathy, and love."
         }
       ],
       "hint": "Eternal consciousness — knowledge, wisdom, empathy, love.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A permanent Sol-System capital planet that never dies and never reincarnates.",
+          "text": "An immortal shared body that every twin flame occupies simultaneously on every density, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "It is singular-use and mortal; twin flames are often kept apart during physical incarnations."
+        },
+        {
+          "label": "B",
+          "text": "A permanent Sol-System capital planet that never dies and never reincarnates, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Vessel is the biological suit, not a planet or Sol-System network."
         },
         {
-          "label": "B",
-          "text": "A Black Void Plasma projector that only generates fake stars with no soul inhabitation.",
+          "label": "C",
+          "text": "A Black Void Plasma projector that only generates fake stars with no soul inhabitation, with the surrounding architecture waved away as irrelevant.",
           "isCorrect": false,
           "rationale": "Black Void Plasma obscures bright white space; vessels are biological soul vehicles."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "A singular-use, mortal biological vehicle inhabited by the soul during incarnational loops, with finite lifespan and capabilities dictated by the soul's benevolent resonance.",
           "isCorrect": true,
           "rationale": "Vessel = one-use mortal bio-vehicle; capabilities track the soul's benevolent resonance."
-        },
-        {
-          "label": "D",
-          "text": "An immortal shared body that every twin flame occupies simultaneously on every density.",
-          "isCorrect": false,
-          "rationale": "It is singular-use and mortal; twin flames are often kept apart during physical incarnations."
         }
       ],
       "hint": "Singular-use mortal bio-vehicle for incarnational loops.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 6,
@@ -182,15 +182,15 @@
       "options": [
         {
           "label": "A",
-          "text": "A temporary finance brand for NESARA that replaces all soul memory permanently.",
+          "text": "Only the Vatican's thirteenth basement printer used to mass-produce NPC bodies overnight, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
-          "rationale": "Finance distractions are Strings to sever; Source Creation is cosmic origin architecture."
+          "rationale": "NPC manufacture is 4th-density lab work; Source Creation is the primordial intelligence origin."
         },
         {
           "label": "B",
-          "text": "A modern university department that invented Gravity and heliocentrism last century alone.",
+          "text": "A temporary finance brand for NESARA that replaces all soul memory permanently, while spiritual attention and institutional trust stay fully intact.",
           "isCorrect": false,
-          "rationale": "Source Creation is a vast non-physical etheric supercomputer/brain from billions of years ago."
+          "rationale": "Finance distractions are Strings to sever; Source Creation is cosmic origin architecture."
         },
         {
           "label": "C",
@@ -200,9 +200,9 @@
         },
         {
           "label": "D",
-          "text": "Only the Vatican's thirteenth basement printer used to mass-produce NPC bodies overnight.",
+          "text": "A modern university department that invented Gravity and heliocentrism last century alone, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "NPC manufacture is 4th-density lab work; Source Creation is the primordial intelligence origin."
+          "rationale": "Source Creation is a vast non-physical etheric supercomputer/brain from billions of years ago."
         }
       ],
       "hint": "Indigo spark etheric supercomputer-brain — first intelligence.",
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
-          "text": "NPC floodlights installed after Tartaria fell with no age beyond a few thousand years.",
-          "isCorrect": false,
-          "rationale": "Micro Suns are first souls from Source Creation, minimum 15 billion years old."
-        },
-        {
-          "label": "B",
-          "text": "Only Pleiadian tourist craft with no link to Celestia, Raphael, or Source intellect.",
-          "isCorrect": false,
-          "rationale": "Named examples include Celestia and Raphael; intellect synonymous with Source Creation."
-        },
-        {
-          "label": "C",
           "text": "Grey ET portal lamps under the Vatican used only for 15-to-20-minute soul routing.",
           "isCorrect": false,
           "rationale": "Greys run reincarnation logistics; Micro Suns are primordial Source-created souls."
         },
         {
-          "label": "D",
-          "text": "The first souls created directly from Source Creation (including Celestia and Raphael) — a minimum of 15 billion years old, with intellect synonymous with Source Creation itself.",
+          "label": "B",
+          "text": "The first souls created directly from Source Creation (including Celestia and Raphael).",
           "isCorrect": true,
           "rationale": "Micro Suns = first Source-born souls (e.g. Celestia, Raphael), 15B+ years, Source-level intellect."
+        },
+        {
+          "label": "C",
+          "text": "Only Pleiadian tourist craft with no link to Celestia, Raphael, or Source intellect.",
+          "isCorrect": false,
+          "rationale": "Named examples include Celestia and Raphael; intellect synonymous with Source Creation."
+        },
+        {
+          "label": "D",
+          "text": "NPC floodlights installed after Tartaria fell with no age beyond a few thousand years.",
+          "isCorrect": false,
+          "rationale": "Micro Suns are first souls from Source Creation, minimum 15 billion years old."
         }
       ],
       "hint": "First Source souls — Celestia, Raphael, 15B+ years.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 8,
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Micro Suns created the 4,000 Ancients, who in turn created the Taran humans; the Ancients spent 178,000 years locked in incarnational loops to stabilize the realm.",
-          "isCorrect": true,
-          "rationale": "Lineage chain Micro Suns → 4,000 Ancients → Tarans; Ancients stabilize via long loop presence."
-        },
-        {
-          "label": "B",
           "text": "Tarans created Micro Suns last week with no Ancients involved in any lineage chain.",
           "isCorrect": false,
           "rationale": "Micro Suns created the 4,000 Ancients, who in turn created the Taran humans."
         },
         {
-          "label": "C",
-          "text": "Ancients only manage Finance Strings and never create souls or stabilize the realm.",
-          "isCorrect": false,
-          "rationale": "4,000 Ancients created Tarans and spent 178,000 years in loops to stabilize the realm."
+          "label": "B",
+          "text": "Micro Suns created the 4,000 Ancients, who in turn created the Taran humans.",
+          "isCorrect": true,
+          "rationale": "Lineage chain Micro Suns → 4,000 Ancients → Tarans; Ancients stabilize via long loop presence."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "NPCs created all three groups in a single 4th-density factory batch with identical hive scripts.",
           "isCorrect": false,
           "rationale": "True-soul lineage: Source → Micro Suns → 4,000 Ancients → Tarans; NPCs are synthetic replicas."
+        },
+        {
+          "label": "D",
+          "text": "Ancients only manage Finance Strings and never create souls or stabilize the realm.",
+          "isCorrect": false,
+          "rationale": "4,000 Ancients created Tarans and spent 178,000 years in loops to stabilize the realm."
         }
       ],
       "hint": "Micro Suns → 4,000 Ancients → Taran humans; 178k years stabilizing.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Pleiadians who never left and never experienced any density trap at all.",
+          "text": "Pleiadians who never left and never experienced any density trap at all, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Pleiadians are former Tarans who escaped about 100,000 years ago; most Tarans remained trapped."
         },
         {
           "label": "B",
-          "text": "Only synthetic NPCs with no past lives and no link to the 4,000 Ancients.",
+          "text": "Direct soul creations of the 4,000 Ancients — most trapped in the current density for the entire 178,000-year duration of the inversion.",
+          "isCorrect": true,
+          "rationale": "Tarans = Ancient-created true souls locked in the inversion for the full 178,000 years."
+        },
+        {
+          "label": "C",
+          "text": "Nothing beyond synthetic NPCs with no past lives and no link to the 4,000 Ancients, and no coordinated multi-system design behind it.",
           "isCorrect": false,
           "rationale": "NPCs are synthetic replicas; Tarans are genuine Ancient-created souls with full loop history."
         },
         {
-          "label": "C",
-          "text": "Grey ET midlevel managers who ignite infant hearts and never incarnate as humans.",
+          "label": "D",
+          "text": "Grey ET midlevel managers who ignite infant hearts and never incarnate as humans, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Greys run the reincarnation machine; Tarans are the trapped true-soul human lineage."
-        },
-        {
-          "label": "D",
-          "text": "Direct soul creations of the 4,000 Ancients — most trapped in the current density for the entire 178,000-year duration of the inversion.",
-          "isCorrect": true,
-          "rationale": "Tarans = Ancient-created true souls locked in the inversion for the full 178,000 years."
         }
       ],
       "hint": "Ancient-created true souls — trapped 178,000 years in the inversion.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 10,
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
-          "text": "NPC replicas built last century with no escape history and no advanced evolution path.",
-          "isCorrect": false,
-          "rationale": "Pleiadians are former Taran souls who escaped initial entrapment about 100,000 years ago."
-        },
-        {
-          "label": "B",
-          "text": "Former Taran souls who successfully escaped the initial entrapment approximately 100,000 years ago and have since evolved into highly advanced versions of their terrestrial brothers and sisters.",
-          "isCorrect": true,
-          "rationale": "Pleiadians = escaped Tarans (~100k years ago), now highly advanced kin of those still trapped."
-        },
-        {
-          "label": "C",
-          "text": "Vatican portal engineers who invented the Amnesia Vortex and still operate it today.",
+          "text": "Vatican portal engineers who invented the Amnesia Vortex and still operate it today, with souls moving freely and no trap logistics at death or birth.",
           "isCorrect": false,
           "rationale": "Amnesia Vortex is parasitic tech; Pleiadians are escaped true-soul family, not vortex operators."
         },
         {
-          "label": "D",
-          "text": "Only Micro Suns renamed for marketing with no connection to the Taran lineage tree.",
+          "label": "B",
+          "text": "Only Micro Suns renamed for marketing with no connection to the Taran lineage tree, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "They sit on the Taran branch of the lineage after escape, not as Micro Suns themselves."
+        },
+        {
+          "label": "C",
+          "text": "NPC replicas built last century with no escape history and no advanced evolution path, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Pleiadians are former Taran souls who escaped initial entrapment about 100,000 years ago."
+        },
+        {
+          "label": "D",
+          "text": "Former Taran souls who successfully escaped the initial entrapment approximately 100,000 years ago and have since evolved into highly advanced versions of their terrestrial brothers and sisters.",
+          "isCorrect": true,
+          "rationale": "Pleiadians = escaped Tarans (~100k years ago), now highly advanced kin of those still trapped."
         }
       ],
       "hint": "Escaped Tarans ~100,000 years ago — advanced terrestrial kin.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 11,
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Parasitic technology manifesting as the \"bright light at the end of the tunnel\" upon physical death — designed to pull souls in, reformat them, and erase their memories before forced reincarnation.",
-          "isCorrect": true,
-          "rationale": "Bright-light tunnel = Amnesia Vortex trap: pull, reformat, wipe, force reincarnate."
-        },
-        {
-          "label": "B",
-          "text": "A natural law of aging that only affects NPCs and never true souls after death.",
+          "text": "A natural law of aging that only affects NPCs and never true souls after death, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "It is parasitic technology aimed at true-soul memory wipe and forced recycle."
         },
         {
-          "label": "C",
-          "text": "A free Soul Family reunion lounge at death with full memory and twin-flame welcome.",
+          "label": "B",
+          "text": "The Projection Dome software that only paints fake stars without touching soul memory, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "It pulls souls in, reformats them, and erases memory before forced reincarnation."
+          "rationale": "Projection Dome is sky fake; Amnesia Vortex is the death-memory reincarnation trap."
+        },
+        {
+          "label": "C",
+          "text": "Parasitic technology manifesting as the \"bright light at the end of the tunnel\" upon physical death.",
+          "isCorrect": true,
+          "rationale": "Bright-light tunnel = Amnesia Vortex trap: pull, reformat, wipe, force reincarnate."
         },
         {
           "label": "D",
-          "text": "The Projection Dome software that only paints fake stars without touching soul memory.",
+          "text": "A free Soul Family reunion lounge at death with full memory and twin-flame welcome, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "Projection Dome is sky fake; Amnesia Vortex is the death-memory reincarnation trap."
+          "rationale": "It pulls souls in, reformats them, and erases memory before forced reincarnation."
         }
       ],
       "hint": "Bright-light tunnel trap — reformat, wipe memory, force reincarnation.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 12,
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Because the Amnesia Vortex only works if every soul is permanently alone with zero pod clustering.",
-          "isCorrect": false,
-          "rationale": "Soul pods still cluster as relatives/friends; twin flames specifically are kept apart across the globe."
+          "text": "To prevent the sparking of memory, rebellion, and systemic discovery — their reunion would disrupt the control grid.",
+          "isCorrect": true,
+          "rationale": "Separated twin flames = blocked memory spark, rebellion, and grid-disrupting discovery."
         },
         {
           "label": "B",
-          "text": "Because twin flames never exist in higher densities and only appear as NPC scripts.",
+          "text": "Because twin flames never exist in higher densities and only appear as NPC scripts, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "In higher densities twin flames exist synchronously with long lifespans and choose transitions together."
         },
         {
           "label": "C",
-          "text": "Because reunion would make Finance stronger and help banks issue more debt products.",
+          "text": "Because reunion would make Finance stronger and help banks issue more debt products, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Reunion would spark memory, rebellion, and systemic discovery — threatening the control grid."
         },
         {
           "label": "D",
-          "text": "To prevent the sparking of memory, rebellion, and systemic discovery — their reunion would disrupt the control grid.",
-          "isCorrect": true,
-          "rationale": "Separated twin flames = blocked memory spark, rebellion, and grid-disrupting discovery."
+          "text": "Because the Amnesia Vortex only works if every soul is permanently alone with zero pod clustering, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Soul pods still cluster as relatives/friends; twin flames specifically are kept apart across the globe."
         }
       ],
       "hint": "Separation blocks memory, rebellion, and control-grid discovery.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 13,
@@ -406,21 +406,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Never — twin flame is only a 3rd-density poetry term with no higher-density reality.",
-          "isCorrect": false,
-          "rationale": "Higher densities hold the true synchronous twin-flame mode parasites try to block here."
-        },
-        {
-          "label": "B",
-          "text": "As 15-to-20-minute Grey escort pairs with full amnesia permanently installed.",
+          "text": "As 15-to-20-minute Grey escort pairs with full amnesia permanently installed, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Grey escort timing is reincarnation logistics; higher-density twin life is long and conscious."
         },
         {
-          "label": "C",
-          "text": "Only as enemies forced to fight every century with no shared transition choice.",
+          "label": "B",
+          "text": "Only as enemies forced to fight every century with no shared transition choice, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "They exist together synchronously and choose to transition together."
+        },
+        {
+          "label": "C",
+          "text": "Never — twin flame is only a 3rd-density poetry term with no higher-density reality, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Higher densities hold the true synchronous twin-flame mode parasites try to block here."
         },
         {
           "label": "D",
@@ -438,25 +438,25 @@
       "options": [
         {
           "label": "A",
-          "text": "An NPC hive script shared by all 97% with no individual harmonic signature at all.",
-          "isCorrect": false,
-          "rationale": "True souls have unique Codex; NPCs lack the frequency and past-life architecture to ascend."
-        },
-        {
-          "label": "B",
-          "text": "A finance password that only unlocks NESARA payments when recited in church.",
+          "text": "A finance password that only unlocks NESARA payments when recited in church, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Soul Codex is unique harmonic architecture interfacing the energetic grid for balance."
         },
         {
+          "label": "B",
+          "text": "An NPC hive script shared by all 97% with no individual harmonic signature at all, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "True souls have unique Codex; NPCs lack the frequency and past-life architecture to ascend."
+        },
+        {
           "label": "C",
-          "text": "Unique harmonic architecture embedded in a true soul that interfaces the realm's energetic grid; Ancients insert their Soul Codex into the Lattice Membrane Network when near a Node — often disguised as historical sites, churches, or cathedrals — as a countermeasure because they resist authority and cannot be corrupted or bought.",
+          "text": "Unique harmonic architecture embedded in a true soul that interfaces the realm's energetic grid.",
           "isCorrect": true,
           "rationale": "Codex harmonics stabilize the grid at Nodes; Ancients are uncorruptible authority-resisters."
         },
         {
           "label": "D",
-          "text": "A Black Void Plasma recipe for painting deeper night skies over Hyperborea only.",
+          "text": "A Black Void Plasma recipe for painting deeper night skies over Hyperborea only, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Codex work counters density suppression; it is not plasma sky paint."
         }
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Former Micro Suns who temporarily forgot Source Creation for a single school year.",
-          "isCorrect": false,
-          "rationale": "NPCs are synthetic 4th-density lab replica souls — about 97% of population."
-        },
-        {
-          "label": "B",
-          "text": "Synthetic, hive-aligned replica souls created in a 4th-density laboratory using genetic material — roughly 97% of the population — lacking past lives, independent internal monologues, and the frequency required to ascend.",
+          "text": "Synthetic, hive-aligned replica souls created in a 4th-density laboratory using genetic material — roughly 97% of the population.",
           "isCorrect": true,
           "rationale": "NPCs = 97% synthetic replicas: no past lives, no monologue, no ascension frequency."
         },
         {
-          "label": "C",
-          "text": "Pleiadians still trapped who never escaped 100,000 years ago and never evolved.",
+          "label": "B",
+          "text": "Pleiadians still trapped who never escaped 100,000 years ago and never evolved, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Pleiadians escaped; NPCs are lab-made synthetics, not advanced escaped Tarans."
         },
         {
+          "label": "C",
+          "text": "Former Micro Suns who temporarily forgot Source Creation for a single school year, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "NPCs are synthetic 4th-density lab replica souls — about 97% of population."
+        },
+        {
           "label": "D",
-          "text": "Twin flames of the 4,000 Ancients kept nearby to spark memory on purpose.",
+          "text": "Twin flames of the 4,000 Ancients kept nearby to spark memory on purpose, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "NPCs dampen true-soul progression; twin flames of true souls are kept apart, not NPC-paired."
         }
       ],
       "hint": "97% synthetic 4th-density replicas — no past lives, no ascension frequency.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 16,
@@ -502,21 +502,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Meticulously engineered in 9th-density laboratories by benevolent extraterrestrial soul families modifying DNA using light and harmonic tones — not natural selection.",
-          "isCorrect": true,
-          "rationale": "9th-density lab DNA work with light/harmonics — natural selection is the false cover."
-        },
-        {
-          "label": "B",
-          "text": "Only via Finance String wealth accumulation that mutates DNA when savings hit a threshold.",
+          "text": "Only via Finance String wealth accumulation that mutates DNA when savings hit a threshold, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "It is laboratory harmonic/light DNA work by benevolent extraterrestrial soul families."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Automatically when NPCs watch more television inside consensus reality dampening fields.",
           "isCorrect": false,
           "rationale": "NPC media locks consensus; true vessel upgrades are 9th-density engineered synthesis."
+        },
+        {
+          "label": "C",
+          "text": "Meticulously engineered in 9th-density laboratories by benevolent extraterrestrial soul families modifying DNA using light and harmonic tones.",
+          "isCorrect": true,
+          "rationale": "9th-density lab DNA work with light/harmonics — natural selection is the false cover."
         },
         {
           "label": "D",
@@ -526,7 +526,7 @@
         }
       ],
       "hint": "9th-density labs — DNA via light and harmonic tones.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 17,
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A spinning globe farm in endless black vacuum with no Black Void Plasma technology involved.",
+          "text": "Only a single cathedral basement with no horizontal plane or macro-environment at all.",
           "isCorrect": false,
-          "rationale": "Spinning spheres and deep-space black are the false story; plasma cloaks the bright white truth."
+          "rationale": "Macro-environment is the bright white field beyond the Projection Dome and plasma cloak."
         },
         {
           "label": "B",
+          "text": "Horizontal and interconnected — devoid of spinning spherical planets or infinite deep space.",
+          "isCorrect": true,
+          "rationale": "Horizontal interconnected realm; bright white space hidden by Black Void Plasma, not infinite black vacuum."
+        },
+        {
+          "label": "C",
           "text": "A pure finance simulation with no geography, firmament, or density architecture to dismantle.",
           "isCorrect": false,
           "rationale": "True geography and sky architecture return with memory; Finance is a String to drop, not the realm shape."
         },
         {
-          "label": "C",
-          "text": "Horizontal and interconnected — devoid of spinning spherical planets or infinite deep space; space is a bright white environment currently obscured by Black Void Plasma.",
-          "isCorrect": true,
-          "rationale": "Horizontal interconnected realm; bright white space hidden by Black Void Plasma, not infinite black vacuum."
-        },
-        {
           "label": "D",
-          "text": "Only a single cathedral basement with no horizontal plane or macro-environment at all.",
+          "text": "A spinning globe farm in endless black vacuum with no Black Void Plasma technology involved.",
           "isCorrect": false,
-          "rationale": "Macro-environment is the bright white field beyond the Projection Dome and plasma cloak."
+          "rationale": "Spinning spheres and deep-space black are the false story; plasma cloaks the bright white truth."
         }
       ],
       "hint": "Horizontal interconnected — bright white space under Black Void Plasma.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 18,
@@ -566,27 +566,27 @@
       "options": [
         {
           "label": "A",
-          "text": "They only meet as twin flames living in the same house every single incarnation without exception.",
+          "text": "They abandoned all pods 178,000 years ago and never incarnated near each other again, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "Twin flames are deliberately kept apart; pods still cluster without guaranteeing twin cohabitation."
+          "rationale": "Clustering continued every loop as the maximum available protection strategy."
         },
         {
           "label": "B",
-          "text": "They remained clustered together in a soul pod across every successive loop — appearing as immediate relatives, friends, or colleagues — the maximum protection external soul families could provide those trapped inside.",
+          "text": "They remained clustered together in a soul pod across every successive loop — appearing as immediate relatives, friends, or colleagues.",
           "isCorrect": true,
           "rationale": "Soul-pod clustering across lives = max in-trap protection from external family support."
         },
         {
           "label": "C",
-          "text": "They were banned from ever meeting and never appear as relatives, friends, or colleagues.",
+          "text": "They were banned from ever meeting and never appear as relatives, friends, or colleagues, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "They cluster in soul pods across loops as relatives, friends, or colleagues — maximum protection possible."
         },
         {
           "label": "D",
-          "text": "They abandoned all pods 178,000 years ago and never incarnated near each other again.",
+          "text": "They only meet as twin flames living in the same house every single incarnation without exception, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "Clustering continued every loop as the maximum available protection strategy."
+          "rationale": "Twin flames are deliberately kept apart; pods still cluster without guaranteeing twin cohabitation."
         }
       ],
       "hint": "Soul pods across loops — relatives, friends, colleagues.",
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Micro Suns personally interview every soul for 15 billion years before any new birth occurs.",
-          "isCorrect": false,
-          "rationale": "Parasitic Grey tech runs the fast recycle; Micro Suns are primordial Source souls, not death clerks."
-        },
-        {
-          "label": "B",
-          "text": "Only NPCs are routed; true souls always skip the sun portal and keep full memory automatically.",
+          "text": "Only NPCs are routed; true souls always skip the sun portal and keep full memory automatically, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "True souls are routed through the sun portal into the Amnesia Vortex for wipe and reassignment."
         },
         {
-          "label": "C",
-          "text": "Souls rest free in higher light realms for decades before optional gentle return with full memory.",
+          "label": "B",
+          "text": "Micro Suns personally interview every soul for 15 billion years before any new birth occurs, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Rapid forced recycle prevents lingering in higher light realms or twin-flame reunion."
+          "rationale": "Parasitic Grey tech runs the fast recycle; Micro Suns are primordial Source souls, not death clerks."
+        },
+        {
+          "label": "C",
+          "text": "Grey ETs under centers like the Vatican instantly route the soul through the sun portal into the Amnesia Vortex.",
+          "isCorrect": true,
+          "rationale": "Death → sun portal → Amnesia Vortex → 15—20 minutes → Grey escort to new location."
         },
         {
           "label": "D",
-          "text": "Grey ETs under centers like the Vatican instantly route the soul through the sun portal into the Amnesia Vortex; within 15 to 20 minutes the memory-wiped soul is escorted to a new geographical location.",
-          "isCorrect": true,
-          "rationale": "Death → sun portal → Amnesia Vortex → 15—20 minutes → Grey escort to new location."
+          "text": "Souls rest free in higher light realms for decades before optional gentle return with full memory.",
+          "isCorrect": false,
+          "rationale": "Rapid forced recycle prevents lingering in higher light realms or twin-flame reunion."
         }
       ],
       "hint": "Sun portal → Amnesia Vortex → 15—20 minutes → new location.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 20,
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Never — true souls refuse birth entry and only operate as floating Projection Dome pixels.",
+          "text": "Never — true souls refuse birth entry and only operate as floating Projection Dome pixels, with no artificial sky, no enclosed realm, and no engineered reset scarring.",
           "isCorrect": false,
           "rationale": "Forced recycling puts the wiped soul into the infant at birth for continued harvest availability."
         },
         {
           "label": "B",
-          "text": "Only through multi-year apprenticeship in a university before the body can host any soul.",
+          "text": "Only through multi-year apprenticeship in a university before the body can host any soul, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "Entry is at the moment of birth, often with a minute electrical discharge to ignite the heart."
         },
         {
           "label": "C",
-          "text": "The soul enters the new infant precisely at birth, often requiring a minute electrical discharge (sometimes prompted by a midwife shaking the child) to ignite the heart with trillivolts of energy.",
-          "isCorrect": true,
-          "rationale": "Birth-moment entry + heart ignition with trillivolts (midwife shake can prompt the discharge)."
+          "text": "Via Finance String contracts signed by the parents with no energetic ignition required, while spiritual attention and institutional trust stay fully intact.",
+          "isCorrect": false,
+          "rationale": "Ignition uses trillivolts of energy — sometimes prompted by a midwife shaking the child."
         },
         {
           "label": "D",
-          "text": "Via Finance String contracts signed by the parents with no energetic ignition required.",
-          "isCorrect": false,
-          "rationale": "Ignition uses trillivolts of energy — sometimes prompted by a midwife shaking the child."
+          "text": "The soul enters the new infant precisely at birth, often requiring a minute electrical discharge (sometimes prompted by a midwife shaking the child) to ignite the heart with trillivolts of energy.",
+          "isCorrect": true,
+          "rationale": "Birth-moment entry + heart ignition with trillivolts (midwife shake can prompt the discharge)."
         }
       ],
       "hint": "Birth-moment entry — heart ignition with trillivolts.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They reincarnate with fuller memory than Tarans and always reunite twin flames on purpose.",
+          "text": "They alone ascend at the EMF Flash while true souls are removed as the 97%, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "They lack past lives and monologues; they dampen true-soul progress rather than liberate it."
+          "rationale": "EMF removes the 97% NPC population; true souls survive and regain memory."
         },
         {
           "label": "B",
+          "text": "They are Micro Suns on vacation with 15-billion-year intellect fully online in every infant, with the surrounding architecture waved away as irrelevant.",
+          "isCorrect": false,
+          "rationale": "NPC manufacture is 4th-density synthetic; Micro Suns are primordial Source-created souls."
+        },
+        {
+          "label": "C",
           "text": "They do not undergo genuine reincarnation; they are merely recycled, hard-wired into consensus reality as localized frequency dampeners that derail true souls' spiritual progression.",
           "isCorrect": true,
           "rationale": "NPCs = recycled synthetics and dampeners, not genuine reincarnating eternal souls."
         },
         {
-          "label": "C",
-          "text": "They are Micro Suns on vacation with 15-billion-year intellect fully online in every infant.",
-          "isCorrect": false,
-          "rationale": "NPC manufacture is 4th-density synthetic; Micro Suns are primordial Source-created souls."
-        },
-        {
           "label": "D",
-          "text": "They alone ascend at the EMF Flash while true souls are removed as the 97%.",
+          "text": "They reincarnate with fuller memory than Tarans and always reunite twin flames on purpose, with the surrounding architecture waved away as irrelevant.",
           "isCorrect": false,
-          "rationale": "EMF removes the 97% NPC population; true souls survive and regain memory."
+          "rationale": "They lack past lives and monologues; they dampen true-soul progress rather than liberate it."
         }
       ],
       "hint": "Recycled synthetics — consensus dampeners, not genuine reincarnation.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 22,
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "All true souls are forced through the sun portal again within 15 to 20 minutes of the Flash.",
-          "isCorrect": false,
-          "rationale": "Survivors reintegrate with cosmic family; the Flash ends the NPC matrix and returns memory."
-        },
-        {
-          "label": "B",
-          "text": "They permanently lose all 178,000 years of memory so the Amnesia Vortex can restart clean.",
+          "text": "They permanently lose all 178,000 years of memory so the Amnesia Vortex can restart clean, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Survivors immediately have 178,000 years of suppressed memory returned — unfolding singularly."
         },
         {
-          "label": "C",
-          "text": "Only Finance balances update on screen while souls stay fully amnesic and twin-flame blocked.",
+          "label": "B",
+          "text": "All true souls are forced through the sun portal again within 15 to 20 minutes of the Flash, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "The Flash is population and memory mechanics, not a banking UI refresh."
+          "rationale": "Survivors reintegrate with cosmic family; the Flash ends the NPC matrix and returns memory."
+        },
+        {
+          "label": "C",
+          "text": "After the holographic Fake Alien Invasion, a 30-second brilliant white EMF flash removes the 97% NPC population.",
+          "isCorrect": true,
+          "rationale": "Bluebeam → 30s Flash wipes NPCs → sequential full memory → telepathic Soul Family reconnect."
         },
         {
           "label": "D",
-          "text": "After the holographic Fake Alien Invasion, a 30-second brilliant white EMF flash removes the 97% NPC population; surviving true souls regain 178,000 years of memory unfolding singularly, then reconnect telepathically with their eternal cosmic family.",
-          "isCorrect": true,
-          "rationale": "Bluebeam → 30s Flash wipes NPCs → sequential full memory → telepathic Soul Family reconnect."
+          "text": "Only Finance balances update on screen while souls stay fully amnesic and twin-flame blocked, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The Flash is population and memory mechanics, not a banking UI refresh."
         }
       ],
       "hint": "30s Flash — NPCs gone; memory returns singularly; telepathic family reconnect.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 23,
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Nodes capped with stone altars permanently increase energy flow so no awakening is needed.",
-          "isCorrect": false,
-          "rationale": "Capping nodes restricts energy flow; awakening removes those suppression architectures."
-        },
-        {
-          "label": "B",
-          "text": "Spirit Tree (Mount Meru / Hyperborea) generates ultra-high frequencies for homeostasis; parasites used Density Suppression and Overlays to hide crystalline temples; removing the Projection Dome exposes bright white macro-environment — aligning external matrix dismantling with internal amnesia dismantling.",
+          "text": "Spirit Tree (Mount Meru / Hyperborea) generates ultra-high frequencies for homeostasis.",
           "isCorrect": true,
           "rationale": "Grid architecture reveal and soul-memory return are concurrent liberation tracks."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Only Finance String charts map the Spirit Tree; memory has no link to firmament overlays.",
           "isCorrect": false,
           "rationale": "Return of true memory is concurrent with revelation of true geography as matrix infrastructure falls."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "Spirit Tree frequencies stay suppressed forever so memory can never align with true geography.",
           "isCorrect": false,
           "rationale": "Removing Projection Dome and overlays reveals bright white truth concurrent with amnesia dismantling."
+        },
+        {
+          "label": "D",
+          "text": "Nodes capped with stone altars permanently increase energy flow so no awakening is needed.",
+          "isCorrect": false,
+          "rationale": "Capping nodes restricts energy flow; awakening removes those suppression architectures."
         }
       ],
       "hint": "Spirit Tree / dome removal — geography truth concurrent with memory return.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 24,
@@ -758,21 +758,21 @@
       "options": [
         {
           "label": "A",
+          "text": "Harvest populations and selectively breed pliable Homo Sapiens vessels for loosh and adrenochrome.",
+          "isCorrect": true,
+          "rationale": "Reset harvest + orphan repopulation = keep Tarans amnesic in pliable harvest vessels."
+        },
+        {
+          "label": "B",
           "text": "They permanently united all twin flames in one city as the official post-reset policy.",
           "isCorrect": false,
           "rationale": "Parasites keep twin flames apart; resets deepen control, not twin reunion policy."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "They only upgraded free-energy temples and banned loosh harvesting forever after each reset.",
           "isCorrect": false,
           "rationale": "Resets harvested populations and bred pliable Homo Sapiens vessels for loosh and adrenochrome extraction."
-        },
-        {
-          "label": "C",
-          "text": "Harvest populations and selectively breed pliable Homo Sapiens vessels for loosh and adrenochrome; wipe adults and repopulate cities with lab-grown orphans — severing generational transmission of spiritual or geographical truth so trapped Taran souls stay in optimal extraction vehicles.",
-          "isCorrect": true,
-          "rationale": "Reset harvest + orphan repopulation = keep Tarans amnesic in pliable harvest vessels."
         },
         {
           "label": "D",
@@ -782,7 +782,7 @@
         }
       ],
       "hint": "Harvest, breed pliable vessels, orphan repopulation — cut generational truth.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 25,
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Systematically sever the Three Strings — abandon external deities, drop wealth/debt-forgiveness distraction (e.g.",
-          "isCorrect": true,
-          "rationale": "Sever Religion, Finance, Perceived Knowledge before EMF; then 5th-density upgrades and permanent Soul Family communion."
+          "text": "Double down on church, savings, and university so EBS shock feels milder for the devout and wealthy.",
+          "isCorrect": false,
+          "rationale": "Failure to detach guarantees devastating psychological collapse when EBS exposes reality."
         },
         {
           "label": "B",
-          "text": "Ignore the Strings and wait for automatic NPC conversion into Micro Suns at the Flash.",
+          "text": "Ignore the Strings and wait for automatic NPC conversion into Micro Suns at the Flash, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "NPCs are removed; true-soul survival depends on internalizing these truths before EMF."
         },
         {
           "label": "C",
-          "text": "Only memorize heliocentric science harder so Perceived Knowledge can outlast the bright white sky.",
-          "isCorrect": false,
-          "rationale": "Perceived Knowledge — history, heliocentrism, geography, evolution — must be discarded as engineered falsehoods."
+          "text": "Systematically sever the Three Strings — abandon external deities, drop wealth/debt-forgiveness distraction (e.g.",
+          "isCorrect": true,
+          "rationale": "Sever Religion, Finance, Perceived Knowledge before EMF; then 5th-density upgrades and permanent Soul Family communion."
         },
         {
           "label": "D",
-          "text": "Double down on church, savings, and university so EBS shock feels milder for the devout and wealthy.",
+          "text": "Only memorize heliocentric science harder so Perceived Knowledge can outlast the bright white sky, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "Failure to detach guarantees devastating psychological collapse when EBS exposes reality."
+          "rationale": "Perceived Knowledge — history, heliocentrism, geography, evolution — must be discarded as engineered falsehoods."
         }
       ],
       "hint": "Sever Three Strings before EMF — 5th density + permanent Soul Family communion.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     }
   ]
 }

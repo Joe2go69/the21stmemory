@@ -22,25 +22,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Not true humans or eternal spirits, but Non-Player Characters (NPCs), inserts, clones, and synthetics — exactly 97% of the masses.",
+          "text": "Not true humans or eternal spirits, but Non-Player Characters (NPCs), inserts, clones, and synthetics.",
           "isCorrect": true,
           "rationale": "97% are artificial NPCs, inserts, clones, and synthetics — not true humans or eternal spirits."
         },
         {
           "label": "B",
+          "text": "A 50/50 mix of true souls and Micro Suns with no clone or insert category present, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The named split is exact: 97% artificial NPC-class mass, small true-soul remainder."
+        },
+        {
+          "label": "C",
           "text": "Entirely true eternal spirits with full cosmic memory already active in every household.",
           "isCorrect": false,
           "rationale": "Only a maximum of 520 million true souls exist; 97% are artificial constructs."
         },
         {
-          "label": "C",
-          "text": "A 50/50 mix of true souls and Micro Suns with no clone or insert category present.",
-          "isCorrect": false,
-          "rationale": "The named split is exact: 97% artificial NPC-class mass, small true-soul remainder."
-        },
-        {
           "label": "D",
-          "text": "Only animals and plants with no human-looking synthetic demographic at all.",
+          "text": "Only animals and plants with no human-looking synthetic demographic at all, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The 97% are human-looking artificial biological entities, not a non-human flora/fauna majority."
         }
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To teach free ascension and dissolve every consensus narrative as a public gift.",
-          "isCorrect": false,
-          "rationale": "They sway consensus reality, ensure total conformity, and derail true-soul spiritual progression."
-        },
-        {
-          "label": "B",
-          "text": "To permanently replace the Flash so no cosmic eradication event is ever required.",
-          "isCorrect": false,
-          "rationale": "NPCs are destined for total eradication during upcoming cosmic events, including the Flash."
-        },
-        {
-          "label": "C",
           "text": "To artificially sway consensus reality, ensure total conformity, and unwittingly derail the spiritual progression of true souls.",
           "isCorrect": true,
           "rationale": "Placement purpose: fake consensus, force conformity, derail true-soul progress."
         },
         {
+          "label": "B",
+          "text": "To permanently replace the Flash so no cosmic eradication event is ever required, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "NPCs are destined for total eradication during upcoming cosmic events, including the Flash."
+        },
+        {
+          "label": "C",
+          "text": "To teach free ascension and dissolve every consensus narrative as a public gift, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "They sway consensus reality, ensure total conformity, and derail true-soul spiritual progression."
+        },
+        {
           "label": "D",
-          "text": "Only to staff free D.U.M.B.S. tours with no role in social pressure or narrative control.",
+          "text": "Only to staff free D.U.M.B.S. tours with no role in social pressure or narrative control, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "D.U.M.B.S. grow clone orphans; NPCs themselves enforce consensus and conformity in society."
         }
       ],
       "hint": "Sway consensus — force conformity — derail true souls.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They are unlimited eternal spirits scheduled to rule 5th density after the Flash as a bloc.",
-          "isCorrect": false,
-          "rationale": "They are biologically and spiritually limited, programmed for containment, and destined for total eradication."
+          "text": "Unlike genuine souls, NPCs are biologically and spiritually limited, programmed specifically for containment, and destined for total eradication during upcoming cosmic events.",
+          "isCorrect": true,
+          "rationale": "Limited constructs for containment — scheduled for total eradication in cosmic events."
         },
         {
           "label": "B",
-          "text": "They reincarnate with full past-life libraries while true souls are the ones deleted at the EMF.",
+          "text": "They reincarnate with full past-life libraries while true souls are the ones deleted at the EMF, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "NPCs are recycled, not reincarnated; they evaporate at the Flash while true souls remain."
         },
         {
           "label": "C",
-          "text": "They freely leave Mind Camp daily and rewrite the Mainstream Narrative at will.",
+          "text": "They freely leave Mind Camp daily and rewrite the Mainstream Narrative at will, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "They are hard-wired into the Mainstream Narrative and permanently trapped in Mind Camp."
         },
         {
           "label": "D",
-          "text": "Unlike genuine souls, NPCs are biologically and spiritually limited, programmed specifically for containment, and destined for total eradication during upcoming cosmic events.",
-          "isCorrect": true,
-          "rationale": "Limited constructs for containment — scheduled for total eradication in cosmic events."
+          "text": "They are unlimited eternal spirits scheduled to rule 5th density after the Flash as a bloc, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "They are biologically and spiritually limited, programmed for containment, and destined for total eradication."
         }
       ],
       "hint": "Limited for containment — destined for total eradication.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 4,
@@ -118,9 +118,9 @@
       "options": [
         {
           "label": "A",
-          "text": "5th density elders volunteering as empty vessels to tutor Twin Flames full-time.",
+          "text": "Only digital avatars on screens with no physical body or population percentage, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "They cannot ascend into 5th Density; they are trapped lower-frequency manufactures."
+          "rationale": "They are physical inserts/clones/synthetics constituting 97% of the global population."
         },
         {
           "label": "B",
@@ -130,15 +130,15 @@
         },
         {
           "label": "C",
-          "text": "True humans with eternal souls who simply prefer sports and fishing as hobbies.",
+          "text": "True humans with eternal souls who simply prefer sports and fishing as hobbies, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "NPCs are artificial biological entities that possess no eternal soul."
         },
         {
           "label": "D",
-          "text": "Only digital avatars on screens with no physical body or population percentage.",
+          "text": "5th density elders volunteering as empty vessels to tutor Twin Flames full-time, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "They are physical inserts/clones/synthetics constituting 97% of the global population."
+          "rationale": "They cannot ascend into 5th Density; they are trapped lower-frequency manufactures."
         }
       ],
       "hint": "Artificial majority — no eternal soul — 97%.",
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Only paperwork titles given to true souls who finish university with no lab manufacture, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "They are manufactured in 4th density laboratories using 4th density technology."
+        },
+        {
+          "label": "B",
+          "text": "Temporary aliases used by Pleiadians who never animate any synthetic body, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Replica Souls animate NPCs and newly created parasitic species — synthetic animation tech."
+        },
+        {
+          "label": "C",
           "text": "Cheap, hive-aligned imitations of true souls, manufactured in 4th density laboratories to animate newly created parasitic species and NPCs.",
           "isCorrect": true,
           "rationale": "Replica Souls = cheap hive knock-offs from 4th density labs powering NPCs and parasitic species."
         },
         {
-          "label": "B",
-          "text": "Only paperwork titles given to true souls who finish university with no lab manufacture.",
-          "isCorrect": false,
-          "rationale": "They are manufactured in 4th density laboratories using 4th density technology."
-        },
-        {
-          "label": "C",
-          "text": "Eternal Source sparks older than Micro Suns with full independent cosmic free will.",
+          "label": "D",
+          "text": "Eternal Source sparks older than Micro Suns with full independent cosmic free will, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "They are cheap imitations woven for hive-aligned purpose, not primordial free Source sparks."
-        },
-        {
-          "label": "D",
-          "text": "Temporary aliases used by Pleiadians who never animate any synthetic body.",
-          "isCorrect": false,
-          "rationale": "Replica Souls animate NPCs and newly created parasitic species — synthetic animation tech."
         }
       ],
       "hint": "4th density lab knock-offs — hive-aligned — animate NPCs.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 6,
@@ -182,21 +182,21 @@
       "options": [
         {
           "label": "A",
-          "text": "A multi-year soft glow that gently upgrades NPCs into true souls without deletion.",
+          "text": "A private meditation only true souls notice while NPCs remain embodied forever, as if no adjacent systems participated at all.",
           "isCorrect": false,
-          "rationale": "It is a 30-second EMF event that instantly evaporates all NPCs into aether as pixelation dust."
+          "rationale": "The massive fake population evaporates; only ~3 of 100 remain in any location."
         },
         {
           "label": "B",
-          "text": "Only a banking outage that freezes Finance String accounts with no pixelation effect.",
+          "text": "Only a banking outage that freezes Finance String accounts with no pixelation effect, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "The Flash evaporates NPCs as pixelation dust — not a bank outage."
         },
         {
           "label": "C",
-          "text": "A private meditation only true souls notice while NPCs remain embodied forever.",
+          "text": "A multi-year soft glow that gently upgrades NPCs into true souls without deletion, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "The massive fake population evaporates; only ~3 of 100 remain in any location."
+          "rationale": "It is a 30-second EMF event that instantly evaporates all NPCs into aether as pixelation dust."
         },
         {
           "label": "D",
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a sports stadium brand with no link to thought patterns or ostracization fear.",
-          "isCorrect": false,
-          "rationale": "It dictates rigid thought patterns and behaviors; fear of ostracization keeps them trapped in it."
-        },
-        {
-          "label": "B",
           "text": "The restrictive, social-conformity-driven cerebral boundaries that dictate the rigid thought patterns and behaviors of NPCs.",
           "isCorrect": true,
           "rationale": "Mind Camp = conformity-bound thought perimeter locking NPC behavior and cognition."
         },
         {
-          "label": "C",
-          "text": "A free-thinking academy that rewards dissent and dissolves every herd slogan on arrival.",
+          "label": "B",
+          "text": "Only a sports stadium brand with no link to thought patterns or ostracization fear, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "Mind Camp is restrictive social-conformity-driven cerebral boundaries for rigid NPC thought."
+          "rationale": "It dictates rigid thought patterns and behaviors; fear of ostracization keeps them trapped in it."
+        },
+        {
+          "label": "C",
+          "text": "A D.U.M.B.S. grow-lab wing that only produces bodies with no mental boundary function, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "D.U.M.B.S. grow clone orphans; Mind Camp is the mental conformity prison for living NPCs."
         },
         {
           "label": "D",
-          "text": "A D.U.M.B.S. grow-lab wing that only produces bodies with no mental boundary function.",
+          "text": "A free-thinking academy that rewards dissent and dissolves every herd slogan on arrival, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "D.U.M.B.S. grow clone orphans; Mind Camp is the mental conformity prison for living NPCs."
+          "rationale": "Mind Camp is restrictive social-conformity-driven cerebral boundaries for rigid NPC thought."
         }
       ],
       "hint": "Restrictive conformity boundaries for rigid NPC thought.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Pleiadian embassies above the firmament with no role in Earth repopulation logistics.",
+          "text": "Pleiadian embassies above the firmament with no role in Earth repopulation logistics, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "D.U.M.B.S. are deep underground military bases for clone orphan crops, not Pleiadian embassies."
         },
         {
           "label": "B",
-          "text": "Deep Underground Military Bases where new crops of cloned NPC orphans are grown to repopulate the realm following a systemic reset.",
-          "isCorrect": true,
-          "rationale": "D.U.M.B.S. = underground clone-orphan factories for post-reset repopulation."
-        },
-        {
-          "label": "C",
           "text": "Surface shopping malls that sell free-energy kits with no underground clone production.",
           "isCorrect": false,
           "rationale": "Deep Underground Military Bases grow new crops of cloned NPC orphans for post-reset repopulation."
         },
         {
-          "label": "D",
-          "text": "Only libraries that teach true Sol-System cosmology without any clone or orphan function.",
+          "label": "C",
+          "text": "Only libraries that teach true Sol-System cosmology without any clone or orphan function, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "They are underground bases for growing cloned NPC orphans after systemic resets."
+        },
+        {
+          "label": "D",
+          "text": "Deep Underground Military Bases where new crops of cloned NPC orphans are grown to repopulate the realm following a systemic reset.",
+          "isCorrect": true,
+          "rationale": "D.U.M.B.S. = underground clone-orphan factories for post-reset repopulation."
         }
       ],
       "hint": "Deep Underground Military Bases — grow cloned NPC orphans after resets.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 9,
@@ -278,13 +278,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Sports, fishing, and motor racing as the only allowed NPC interest categories forever.",
+          "text": "Only television, radio, and magazines with no religious or financial control dimension and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
-          "rationale": "Those are example NPC interest types; the Strings are Religion, Finance, Perceived Knowledge."
+          "rationale": "Media are programming pipes; the named control mechanisms are the Three Strings."
         },
         {
           "label": "B",
-          "text": "D.U.M.B.S., Orphan Trains, and China as literal physical cables under the ice wall.",
+          "text": "D.U.M.B.S., Orphan Trains, and China as literal physical cables under the ice wall, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Those are deployment examples; Three Strings are psychological control mechanisms."
         },
@@ -296,9 +296,9 @@
         },
         {
           "label": "D",
-          "text": "Only television, radio, and magazines with no religious or financial control dimension.",
+          "text": "Sports, fishing, and motor racing as the only allowed NPC interest categories forever.",
           "isCorrect": false,
-          "rationale": "Media are programming pipes; the named control mechanisms are the Three Strings."
+          "rationale": "Those are example NPC interest types; the Strings are Religion, Finance, Perceived Knowledge."
         }
       ],
       "hint": "Religion · Finance · Perceived Knowledge.",
@@ -316,19 +316,19 @@
         },
         {
           "label": "B",
-          "text": "Exactly equal true souls and NPCs with no 97% figure and no 520 million cap.",
-          "isCorrect": false,
-          "rationale": "Named figures: max 520 million true souls; 97% artificial remainder."
-        },
-        {
-          "label": "C",
           "text": "Zero true souls left — only Replica Souls and hive software remain worldwide.",
           "isCorrect": false,
           "rationale": "True souls remain as the small remnant; NPCs are the 97% fake majority."
         },
         {
+          "label": "C",
+          "text": "Exactly equal true souls and NPCs with no 97% figure and no 520 million cap.",
+          "isCorrect": false,
+          "rationale": "Named figures: max 520 million true souls; 97% artificial remainder."
+        },
+        {
           "label": "D",
-          "text": "Only a maximum of 520 million true souls exist on the planet; the remaining 97% of the population are entirely artificial NPCs.",
+          "text": "Only a maximum of 520 million true souls exist on the planet.",
           "isCorrect": true,
           "rationale": "≤520 million true souls; everyone else in the 97% is artificial NPC mass."
         }
@@ -342,21 +342,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Because they refuse free university seats while still holding eternal souls and past lives.",
-          "isCorrect": false,
-          "rationale": "Manufactured in 4th Density by 4th density parasites — trapped in lower frequencies without ascension architecture."
-        },
-        {
-          "label": "B",
           "text": "Because the Flash upgrades them all to 5th Density automatically as a permanent gift.",
           "isCorrect": false,
           "rationale": "The Flash evaporates them as pixelation dust; it does not ascend them."
         },
         {
-          "label": "C",
-          "text": "Because they were manufactured in 4th Density by 4th density parasites — trapped in lower frequencies and lacking the spiritual architecture required for ascension.",
+          "label": "B",
+          "text": "Because they were manufactured in 4th Density by 4th density parasites.",
           "isCorrect": true,
           "rationale": "4th-density manufacture by parasites = no spiritual architecture for 5th+ ascent."
+        },
+        {
+          "label": "C",
+          "text": "Because they refuse free university seats while still holding eternal souls and past lives.",
+          "isCorrect": false,
+          "rationale": "Manufactured in 4th Density by 4th density parasites — trapped in lower frequencies without ascension architecture."
         },
         {
           "label": "D",
@@ -366,7 +366,7 @@
         }
       ],
       "hint": "4th-density manufacture — no architecture for 5th+ ascension.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 12,
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "No — they are merely recycled into the system, possessing no past lives and absolutely no future beyond the current epoch.",
-          "isCorrect": true,
-          "rationale": "Recycled, not reincarnated — no past lives, no future past this epoch."
+          "text": "Yes — they reincarnate endlessly with full past-life libraries into every density freely, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "They are not reincarnated; they are merely recycled, with no past lives and no future beyond this epoch."
         },
         {
           "label": "B",
-          "text": "They hold more past lives than true souls and outlast the Flash as permanent rulers.",
+          "text": "They hold more past lives than true souls and outlast the Flash as permanent rulers, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "They possess no past lives; the Flash deletes the massive fake population entirely."
         },
         {
           "label": "C",
-          "text": "Yes — they reincarnate endlessly with full past-life libraries into every density freely.",
-          "isCorrect": false,
-          "rationale": "They are not reincarnated; they are merely recycled, with no past lives and no future beyond this epoch."
+          "text": "No — they are merely recycled into the system, possessing no past lives and absolutely no future beyond the current epoch.",
+          "isCorrect": true,
+          "rationale": "Recycled, not reincarnated — no past lives, no future past this epoch."
         },
         {
           "label": "D",
-          "text": "They reincarnate only as Twin Flames with guaranteed higher-density partner lives.",
+          "text": "They reincarnate only as Twin Flames with guaranteed higher-density partner lives, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "NPCs have no past lives and no future beyond the current epoch — recycled only."
         }
       ],
       "hint": "Recycled only — no past lives, no future beyond this epoch.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 13,
@@ -412,25 +412,25 @@
         },
         {
           "label": "B",
-          "text": "Zero survivors worldwide because true souls are deleted alongside every NPC.",
+          "text": "Zero survivors worldwide because true souls are deleted alongside every NPC, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "True souls remain at about 3 per 100; NPCs are the ones erased."
         },
         {
           "label": "C",
-          "text": "Only 3 survivors for every 100 people — the massive fake population evaporates into pixelation dust.",
-          "isCorrect": true,
-          "rationale": "3 of 100 remain; 97% fake population becomes pixelation dust in the aether."
+          "text": "All 100 remain embodied while only buildings pixelate with no human disappearance, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Human demographic structure changes: the massive fake population evaporates."
         },
         {
           "label": "D",
-          "text": "All 100 remain embodied while only buildings pixelate with no human disappearance.",
-          "isCorrect": false,
-          "rationale": "Human demographic structure changes: the massive fake population evaporates."
+          "text": "Only 3 survivors for every 100 people — the massive fake population evaporates into pixelation dust.",
+          "isCorrect": true,
+          "rationale": "3 of 100 remain; 97% fake population becomes pixelation dust in the aether."
         }
       ],
       "hint": "3 survivors per 100 — fake majority becomes pixelation dust.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 14,
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They receive programming through television, radio, books, magazines, the internet, and daily social interactions — hard-wired directly into the Mainstream Narrative.",
-          "isCorrect": true,
-          "rationale": "Media + social pipes hard-wire NPCs into the Mainstream Narrative hive feed."
-        },
-        {
-          "label": "B",
-          "text": "Through pure Source downloads with no media, school, or social interaction involved.",
-          "isCorrect": false,
-          "rationale": "Programming arrives via television, radio, books, magazines, internet, and daily social interactions."
-        },
-        {
-          "label": "C",
-          "text": "Only through one secret book banned from all radio and television forever.",
+          "text": "Only through one secret book banned from all radio and television forever, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "The list is broad: TV, radio, books, magazines, internet, and daily social interactions."
         },
         {
-          "label": "D",
-          "text": "They invent the Mainstream Narrative independently with full critical free thought each morning.",
+          "label": "B",
+          "text": "They invent the Mainstream Narrative independently with full critical free thought each morning, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "They receive programming; they do not critically invent narrative outside assigned avenues."
+        },
+        {
+          "label": "C",
+          "text": "Through pure Source downloads with no media, school, or social interaction involved, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Programming arrives via television, radio, books, magazines, internet, and daily social interactions."
+        },
+        {
+          "label": "D",
+          "text": "They receive programming through television, radio, books, magazines, the internet, and daily social interactions.",
+          "isCorrect": true,
+          "rationale": "Media + social pipes hard-wire NPCs into the Mainstream Narrative hive feed."
         }
       ],
       "hint": "TV, radio, books, magazines, internet, social interactions.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 15,
@@ -476,25 +476,25 @@
         },
         {
           "label": "B",
-          "text": "They are the game developers rewriting the simulation code with full free creative authority.",
-          "isCorrect": false,
-          "rationale": "They are the static background cast, not authors of the simulation architecture."
-        },
-        {
-          "label": "C",
           "text": "They freely rewrite every assigned role nightly and teleport across all environments at will.",
           "isCorrect": false,
           "rationale": "They cannot deviate from assigned roles or environments — strictly defined thought avenues and boundaries."
         },
         {
-          "label": "D",
-          "text": "They operate within strictly defined thought avenues and boundaries — functioning exactly like static characters in a computer game who cannot deviate from their assigned roles or environments.",
+          "label": "C",
+          "text": "They operate within strictly defined thought avenues and boundaries.",
           "isCorrect": true,
           "rationale": "Game-static: fixed roles/environments and thought avenues with no true deviation."
+        },
+        {
+          "label": "D",
+          "text": "They are the game developers rewriting the simulation code with full free creative authority.",
+          "isCorrect": false,
+          "rationale": "They are the static background cast, not authors of the simulation architecture."
         }
       ],
       "hint": "Static game characters — cannot leave assigned roles or environments.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 16,
@@ -502,31 +502,31 @@
       "options": [
         {
           "label": "A",
-          "text": "No internal monologue, no self-awareness, and no courage in their convictions — they rely on herd-accepted slogans and non-cognitive chains of predetermined coherence instead of thinking critically.",
-          "isCorrect": true,
-          "rationale": "Empty interior + slogan/herd coherence chains replace critical independent thought."
-        },
-        {
-          "label": "B",
-          "text": "They refuse all slogans and only speak original non-cognitive silence forever.",
-          "isCorrect": false,
-          "rationale": "They rely on herd-accepted slogans and non-cognitive chains of predetermined coherence."
-        },
-        {
-          "label": "C",
           "text": "They have rich monologues and courage in conviction, never using slogans or herd scripts.",
           "isCorrect": false,
           "rationale": "They have no internal monologue, no self-awareness, and no courage in their convictions."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "They lack only sports knowledge while holding full philosophical depth in every sentence.",
           "isCorrect": false,
           "rationale": "They lack monologue and self-awareness; they rely on herd-accepted slogans instead of critical thought."
+        },
+        {
+          "label": "C",
+          "text": "No internal monologue, no self-awareness, and no courage in their convictions.",
+          "isCorrect": true,
+          "rationale": "Empty interior + slogan/herd coherence chains replace critical independent thought."
+        },
+        {
+          "label": "D",
+          "text": "They refuse all slogans and only speak original non-cognitive silence forever.",
+          "isCorrect": false,
+          "rationale": "They rely on herd-accepted slogans and non-cognitive chains of predetermined coherence."
         }
       ],
       "hint": "No monologue or self-awareness — herd slogans and predetermined coherence.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 17,
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Complete indifference to peers so Mind Camp boundaries never influence behavior.",
+          "text": "Complete indifference to peers so Mind Camp boundaries never influence behavior, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Peer ridicule fear is precisely what keeps them inside Mind Camp."
         },
         {
           "label": "B",
-          "text": "Fearless love of ridicule that makes them celebrate every non-conformist as a hero.",
+          "text": "Fearless love of ridicule that makes them celebrate every non-conformist as a hero, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "They fear ostracization and ridicule; that fear is the trap, not celebration of dissent."
         },
         {
           "label": "C",
-          "text": "A profound fear of ostracization and peer ridicule — psychology anchored so they never leave the Mind Camp.",
-          "isCorrect": true,
-          "rationale": "Fear of ostracization and peer ridicule locks NPCs inside Mind Camp permanently."
+          "text": "Only financial greed with no social peer-pressure or ridicule dimension involved, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Named anchor is ostracization and peer ridicule, not finance alone."
         },
         {
           "label": "D",
-          "text": "Only financial greed with no social peer-pressure or ridicule dimension involved.",
-          "isCorrect": false,
-          "rationale": "Named anchor is ostracization and peer ridicule, not finance alone."
+          "text": "A profound fear of ostracization and peer ridicule — psychology anchored so they never leave the Mind Camp.",
+          "isCorrect": true,
+          "rationale": "Fear of ostracization and peer ridicule locks NPCs inside Mind Camp permanently."
         }
       ],
       "hint": "Fear of ostracization and peer ridicule — Mind Camp lock.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 18,
@@ -566,25 +566,25 @@
       "options": [
         {
           "label": "A",
-          "text": "No interest-specialized NPCs exist; every synthetic refuses all hobbies and slogans.",
+          "text": "No interest-specialized NPCs exist; every synthetic refuses all hobbies and slogans, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Interest specialization is explicit — every conceivable scenario has a designed NPC."
         },
         {
           "label": "B",
-          "text": "Only \"awake\" NPCs exist, and they never appear in sports or fishing contexts.",
+          "text": "Only \"awake\" NPCs exist, and they never appear in sports or fishing contexts, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Sport, motor racing, fishing, and awake-mimic types are all listed as present."
         },
         {
           "label": "C",
-          "text": "Society is filled with sport NPCs, motor racing NPCs, fishing NPCs, and even \"awake\" NPCs who mimic alternative truth communities — an NPC designed for every conceivable scenario and interest.",
+          "text": "Society is filled with sport NPCs, motor racing NPCs, fishing NPCs, and even \"awake\" NPCs who mimic alternative truth communities.",
           "isCorrect": true,
           "rationale": "Full spectrum of interest NPCs, including fake-awake mimics of truth communities."
         },
         {
           "label": "D",
-          "text": "Only one universal NPC template with no sport, fishing, or alternative-community variants.",
+          "text": "Only one universal NPC template with no sport, fishing, or alternative-community variants, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "There is an NPC for every conceivable scenario and interest, including \"awake\" mimics."
         }
@@ -598,21 +598,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Because every child already blurts herd slogans with full Mind Camp armor from day one.",
+          "text": "Because every child already blurts herd slogans with full Mind Camp armor from day one, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Rigid adult markers are what expose NPCs; children lack those fully formed markers."
         },
         {
           "label": "B",
-          "text": "Because no children are ever NPCs under any reset or manufacturing model.",
+          "text": "Because children already hold full adult religious pride and financial programming from birth, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Child NPCs exist; detection is hard because adult markers have not formed yet."
+          "rationale": "Children have not yet adopted rigid opinions, financial programming, or religious pride that expose adults."
         },
         {
           "label": "C",
-          "text": "Because children already hold full adult religious pride and financial programming from birth.",
+          "text": "Because no children are ever NPCs under any reset or manufacturing model, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Children have not yet adopted rigid opinions, financial programming, or religious pride that expose adults."
+          "rationale": "Child NPCs exist; detection is hard because adult markers have not formed yet."
         },
         {
           "label": "D",
@@ -636,19 +636,19 @@
         },
         {
           "label": "B",
-          "text": "Earth was left empty with no clone children, no D.U.M.B.S., and no Orphan Trains used.",
+          "text": "Earth was left empty with no clone children, no D.U.M.B.S., and no Orphan Trains used, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Stem cells grew millions of clone children in D.U.M.B.S., distributed on Orphan Trains."
         },
         {
           "label": "C",
-          "text": "Stem cells grew millions of clone children in D.U.M.B.S., then Orphan Trains distributed them worldwide to rebuild society — ensuring new generations were fundamentally obedient and empty.",
+          "text": "Stem cells grew millions of clone children in D.U.M.B.S., then Orphan Trains distributed them worldwide to rebuild society.",
           "isCorrect": true,
           "rationale": "Post-reset: D.U.M.B.S. clone crops + Orphan Trains = obedient empty NPC generations."
         },
         {
           "label": "D",
-          "text": "Only true souls were imported while all synthetic manufacture was permanently banned forever.",
+          "text": "Only true souls were imported while all synthetic manufacture was permanently banned forever, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Mass integration used lab-grown clones distributed worldwide to rebuild obedient empty generations."
         }
@@ -668,25 +668,25 @@
         },
         {
           "label": "B",
-          "text": "Largely created after the most recent reset as a highly efficient NPC workforce for modern industry — programmed for absolute obedience, conformity, and educational success, rapidly expanding to 1.4 billion despite a long-standing one-child policy, revealing artificial lab-grown origins.",
-          "isCorrect": true,
-          "rationale": "Post-reset NPC industrial workforce; 1.4B despite one-child policy exposes lab-grown artificiality."
-        },
-        {
-          "label": "C",
           "text": "Entirely free true-soul elders who banned manufacturing and all conformity programming forever.",
           "isCorrect": false,
           "rationale": "Example is obedience/conformity/educational-success programming for industry workforce."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "Proof that one-child policy alone always shrinks population with no lab-origin implications.",
           "isCorrect": false,
           "rationale": "Expansion to 1.4 billion despite one-child policy reveals artificial lab-grown origins."
+        },
+        {
+          "label": "D",
+          "text": "Largely created after the most recent reset as a highly efficient NPC workforce for modern industry.",
+          "isCorrect": true,
+          "rationale": "Post-reset NPC industrial workforce; 1.4B despite one-child policy exposes lab-grown artificiality."
         }
       ],
       "hint": "Post-reset NPC workforce — 1.4B despite one-child policy.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 22,
@@ -694,21 +694,21 @@
       "options": [
         {
           "label": "A",
-          "text": "By simply existing in vast numbers they establish a social credit system of behavioral nudges, forcing true souls into conformity regarding schooling, medical interventions, and societal norms — primary vector for Three Strings enforcement.",
+          "text": "By simply existing in vast numbers they establish a social credit system of behavioral nudges, forcing true souls into conformity regarding schooling, medical interventions, and societal norms.",
           "isCorrect": true,
           "rationale": "Majority presence = social-credit-style nudges enforcing Strings via school, medical, and norm pressure."
         },
         {
           "label": "B",
-          "text": "Only through underground D.U.M.B.S. memos that never touch surface social life.",
+          "text": "By teaching free Religion, Finance, and Perceived Knowledge exit classes in every school, while spiritual attention and institutional trust stay fully intact.",
           "isCorrect": false,
-          "rationale": "Enforcement is surface social: friends, family, colleagues, and everyday norm pressure."
+          "rationale": "They enforce those Strings; they do not teach exit from them."
         },
         {
           "label": "C",
-          "text": "By teaching free Religion, Finance, and Perceived Knowledge exit classes in every school.",
+          "text": "Only through underground D.U.M.B.S. memos that never touch surface social life, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
-          "rationale": "They enforce those Strings; they do not teach exit from them."
+          "rationale": "Enforcement is surface social: friends, family, colleagues, and everyday norm pressure."
         },
         {
           "label": "D",
@@ -726,13 +726,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Only to fill sports stadiums with no effect on dissent, family pressure, or compliance.",
+          "text": "To ensure NPCs always lose every social argument so true souls never need isolation.",
           "isCorrect": false,
-          "rationale": "Strategy crushes dissent via friends, family, and colleagues enforcing compliance."
+          "rationale": "Majority pressure is designed to win against the questioning true soul, not lose."
         },
         {
           "label": "B",
-          "text": "To guarantee every true soul is celebrated as a hero for questioning reality in public.",
+          "text": "To guarantee every true soul is celebrated as a hero for questioning reality in public, with the surrounding architecture waved away as irrelevant.",
           "isCorrect": false,
           "rationale": "It guarantees true souls who question reality are marginalized, ridiculed, and pressured into compliance."
         },
@@ -744,9 +744,9 @@
         },
         {
           "label": "D",
-          "text": "To ensure NPCs always lose every social argument so true souls never need isolation.",
+          "text": "Only to fill sports stadiums with no effect on dissent, family pressure, or compliance, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
-          "rationale": "Majority pressure is designed to win against the questioning true soul, not lose."
+          "rationale": "Strategy crushes dissent via friends, family, and colleagues enforcing compliance."
         }
       ],
       "hint": "97% math — marginalize and ridicule anyone who questions reality.",
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
+          "text": "As optional game NPCs only on screens, never as living family, friends, or colleagues in the field in any density, cycle, or historical configuration.",
+          "isCorrect": false,
+          "rationale": "They appear as close family and colleagues; the reframe is that those vessels are still empty software."
+        },
+        {
+          "label": "B",
+          "text": "As proof that every vessel is a true soul and emotional attachment should never be released, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Recognition that most are empty software severs emotional attachments holding true souls back."
+        },
+        {
+          "label": "C",
           "text": "As engagements with empty, pre-programmed biological software — recognizing this severs the emotional attachments that hold true souls back.",
           "isCorrect": true,
           "rationale": "Human-looking vessels often = empty pre-programmed software; that recognition cuts false attachments."
         },
         {
-          "label": "B",
-          "text": "As engagements with eternal cosmic elders who always deserve full emotional fusion and dependency.",
+          "label": "D",
+          "text": "As engagements with eternal cosmic elders who always deserve full emotional fusion and dependency, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Most are empty pre-programmed biological software; recognizing that severs holding attachments."
-        },
-        {
-          "label": "C",
-          "text": "As proof that every vessel is a true soul and emotional attachment should never be released.",
-          "isCorrect": false,
-          "rationale": "Recognition that most are empty software severs emotional attachments holding true souls back."
-        },
-        {
-          "label": "D",
-          "text": "As optional game NPCs only on screens, never as living family, friends, or colleagues in the field.",
-          "isCorrect": false,
-          "rationale": "They appear as close family and colleagues; the reframe is that those vessels are still empty software."
         }
       ],
       "hint": "Empty pre-programmed biological software — sever false emotional attachments.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 25,
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Because NPCs reincarnate the next day as the same family members with full continuity.",
-          "isCorrect": false,
-          "rationale": "They have no future beyond this epoch; deletion is the end of the program, not reincarnation."
-        },
-        {
-          "label": "B",
-          "text": "Because they were never truly alive — their sudden deletion simply marks the end of a simulated program, even when they acted as close family members.",
-          "isCorrect": true,
-          "rationale": "Never truly alive; deletion ends simulated program — no true mourning basis for synthetic roles."
-        },
-        {
-          "label": "C",
           "text": "Because the Flash does not delete anyone and every NPC remains embodied permanently.",
           "isCorrect": false,
           "rationale": "The Flash evaporates the fake population; mourning is unnecessary because they were never truly alive."
         },
         {
-          "label": "D",
-          "text": "Because true souls will be forced to mourn forever as a mandatory post-Flash ritual of guilt.",
+          "label": "B",
+          "text": "Because NPCs reincarnate the next day as the same family members with full continuity, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "They have no future beyond this epoch; deletion is the end of the program, not reincarnation."
+        },
+        {
+          "label": "C",
+          "text": "Because true souls will be forced to mourn forever as a mandatory post-Flash ritual of guilt, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "There will be no reason to mourn; recognition removes the basis for grief."
+        },
+        {
+          "label": "D",
+          "text": "Because they were never truly alive — their sudden deletion simply marks the end of a simulated program, even when they acted as close family members.",
+          "isCorrect": true,
+          "rationale": "Never truly alive; deletion ends simulated program — no true mourning basis for synthetic roles."
         }
       ],
       "hint": "Never truly alive — deletion ends a simulated program.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     }
   ]
 }

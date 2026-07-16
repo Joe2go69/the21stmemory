@@ -21,31 +21,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A series of concentric spheres rotating around a central luminous core.",
+          "text": "A series of concentric spheres rotating around a central luminous core, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Reality is horizontal and interconnected across a vast plain, not organized into nested rotating spheres."
         },
         {
           "label": "B",
+          "text": "A spinning globe suspended in a vacuum governed by gravity and thermodynamics.",
+          "isCorrect": false,
+          "rationale": "This model is a fallacious construct engineered to hide the existence of adjacent worlds and the true nature of the Firmament."
+        },
+        {
+          "label": "C",
           "text": "A horizontal, unmoving plain enclosed by an artificial Ice Wall and a solid Firmament.",
           "isCorrect": true,
           "rationale": "The reality of human existence is defined by a flat, stationary surface protected by a structural energy dome and a physical boundary of ice."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "A digital matrix existing entirely within a neural network with no physical substrate.",
           "isCorrect": false,
           "rationale": "While the environment is a simulation, it is situated on a tangible physical plain with specific geographical and structural components."
-        },
-        {
-          "label": "D",
-          "text": "A spinning globe suspended in a vacuum governed by gravity and thermodynamics.",
-          "isCorrect": false,
-          "rationale": "This model is a fallacious construct engineered to hide the existence of adjacent worlds and the true nature of the Firmament."
         }
       ],
       "hint": "Consider the specific boundaries that enclose the known world and the shape of the surface beneath your feet.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -65,19 +65,19 @@
         },
         {
           "label": "C",
-          "text": "The Firmament.",
-          "isCorrect": true,
-          "rationale": "The Firmament is the immovable physical barrier enclosing the realm that bends light and sound to provide human visual perception."
-        },
-        {
-          "label": "D",
           "text": "The Toroid Field.",
           "isCorrect": false,
           "rationale": "The toroid field describes the overall energy shape of the Gateway-10 plain, but the dome itself performs the bending of frequencies."
+        },
+        {
+          "label": "D",
+          "text": "The Firmament.",
+          "isCorrect": true,
+          "rationale": "The Firmament is the immovable physical barrier enclosing the realm that bends light and sound to provide human visual perception."
         }
       ],
       "hint": "Think of the energy structure that serves as a protective lid over the plain.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 3,
@@ -85,21 +85,21 @@
       "options": [
         {
           "label": "A",
+          "text": "7.2 Earth days.",
+          "isCorrect": false,
+          "rationale": "While time is stretched in higher densities, the specific ratio for a true day is just under four Earth days."
+        },
+        {
+          "label": "B",
           "text": "3.9 Earth days.",
           "isCorrect": true,
           "rationale": "Outside the artificial constraints of 3rd density, a true day equates to 3.9 Earth days, and true darkness never falls."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "24 hours",
           "isCorrect": false,
           "rationale": "This duration is an illusion maintained by mechanical clocks and artificial daylight cycles to control human perception."
-        },
-        {
-          "label": "C",
-          "text": "7.2 Earth days.",
-          "isCorrect": false,
-          "rationale": "While time is stretched in higher densities, the specific ratio for a true day is just under four Earth days."
         },
         {
           "label": "D",
@@ -109,7 +109,7 @@
         }
       ],
       "hint": "The fabricated 24-hour cycle is significantly shorter than the time experienced in the true reality 'back home'.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 4,
@@ -117,31 +117,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Via genetic upgrades designed in higher-density physical labs and integrated across entire species simultaneously in a flash of white light.",
-          "isCorrect": true,
-          "rationale": "Life does not evolve from apes or oceanic mud; benevolent Masters design genetic upgrades in higher-density labs and flash them across whole species at once."
+          "text": "Through the mechanical manufacturing processes of 4th-density parasites, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Parasitic forces lack the spiritual capability for high-level creation, relying instead on harvesting existing materials."
         },
         {
           "label": "B",
-          "text": "Through natural selection and geographical adaptation over millions of years.",
+          "text": "Through natural selection and geographical adaptation over millions of years, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Evolution is a fraudulent concept designed to conceal laboratory-based genetic manipulation and external intervention."
         },
         {
           "label": "C",
-          "text": "Through the mechanical manufacturing processes of 4th-density parasites.",
-          "isCorrect": false,
-          "rationale": "Parasitic forces lack the spiritual capability for high-level creation, relying instead on harvesting existing materials."
+          "text": "Via genetic upgrades designed in higher-density physical labs and integrated across entire species simultaneously in a flash of white light.",
+          "isCorrect": true,
+          "rationale": "Life does not evolve from apes or oceanic mud; benevolent Masters design genetic upgrades in higher-density labs and flash them across whole species at once."
         },
         {
           "label": "D",
-          "text": "By spontaneous manifestation from the Aetheric field.",
+          "text": "By spontaneous manifestation from the Aetheric field, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "While consciousness can weave matter, biological species require specific genetic engineering in higher-density laboratories."
         }
       ],
       "hint": "Look beyond the standard scientific model toward purposeful genetic upgrades in high-vibrational environments.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 5,
@@ -149,15 +149,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Liquid aetheric plasma.",
-          "isCorrect": false,
-          "rationale": "While the Aether is a medium for manifestation, the expanse outside the dome is specifically characterized by intense white light."
-        },
-        {
-          "label": "B",
           "text": "Cold, empty black vacuum.",
           "isCorrect": false,
           "rationale": "The vacuum of space is a manufactured illusion created to trap and deceive the mind."
+        },
+        {
+          "label": "B",
+          "text": "Liquid aetheric plasma.",
+          "isCorrect": false,
+          "rationale": "While the Aether is a medium for manifestation, the expanse outside the dome is specifically characterized by intense white light."
         },
         {
           "label": "C",
@@ -181,31 +181,31 @@
       "options": [
         {
           "label": "A",
+          "text": "1st density",
+          "isCorrect": false,
+          "rationale": "Lower densities represent basic physical structures, whereas the human experience is currently suppressed at a higher but still limited vibrational level."
+        },
+        {
+          "label": "B",
           "text": "3rd density",
           "isCorrect": true,
           "rationale": "Humanity is currently held in a 3rd-density entrapment, which is a suppressed state of the true 9th-density architecture."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "9th density",
           "isCorrect": false,
           "rationale": "This is the true vibrational level of the underlying crystalline architecture that is currently hidden from human perception."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "4th density",
           "isCorrect": false,
           "rationale": "This density is the operational level of the parasitic forces who manage the simulation, not the level of human entrapment."
-        },
-        {
-          "label": "D",
-          "text": "1st density",
-          "isCorrect": false,
-          "rationale": "Lower densities represent basic physical structures, whereas the human experience is currently suppressed at a higher but still limited vibrational level."
         }
       ],
       "hint": "This level is frequently used in spiritual discourse to describe the current state of limited physical awareness.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -213,31 +213,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The deployment of Black Void Plasma.",
-          "isCorrect": false,
-          "rationale": "Black Void Plasma is used to create the artificial night sky, not to suppress the vibrational visibility of ground-level architecture."
+          "text": "Ultra-low frequencies projected as Overlays by Sky-Net-1 over major nodes.",
+          "isCorrect": true,
+          "rationale": "By lowering the vibrational frequency of the environment like a dimmer switch, majestic structures are rendered invisible to 3rd-density vessels."
         },
         {
           "label": "B",
+          "text": "Physical demolition using advanced mining equipment, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The structures still vibrate indestructibly at higher octaves; they have not been removed, only visually suppressed."
+        },
+        {
+          "label": "C",
           "text": "Genetic blinding of the pineal gland.",
           "isCorrect": false,
           "rationale": "While the pineal gland is suppressed, the primary method of hiding architecture is through environmental frequency-dampening fields."
         },
         {
-          "label": "C",
-          "text": "Physical demolition using advanced mining equipment.",
-          "isCorrect": false,
-          "rationale": "The structures still vibrate indestructibly at higher octaves; they have not been removed, only visually suppressed."
-        },
-        {
           "label": "D",
-          "text": "Ultra-low frequencies projected as Overlays by Sky-Net-1 over major nodes.",
-          "isCorrect": true,
-          "rationale": "By lowering the vibrational frequency of the environment like a dimmer switch, majestic structures are rendered invisible to 3rd-density vessels."
+          "text": "The deployment of Black Void Plasma.",
+          "isCorrect": false,
+          "rationale": "Black Void Plasma is used to create the artificial night sky, not to suppress the vibrational visibility of ground-level architecture."
         }
       ],
       "hint": "Consider how a dimmer switch affects the visibility of objects in a room.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -245,31 +245,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It is imported from the 15th density of pure light.",
+          "text": "It is imported from the 15th density of pure light, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Higher pure-light densities are not described as the import source for physical matter; matter is woven locally through consciousness and the Aether."
         },
         {
           "label": "B",
-          "text": "Extraction from the Lattice Membrane Network.",
-          "isCorrect": false,
-          "rationale": "The Lattice Membrane supports the plain; it is not the process by which new matter is first woven into form."
-        },
-        {
-          "label": "C",
           "text": "It is woven from the Aether through harmonic tones and sustained intention from the pineal gland.",
           "isCorrect": true,
           "rationale": "Manifestation as weaving physical matter from the Aether using harmonic tones and sustained intention projected from the pineal gland."
         },
         {
-          "label": "D",
-          "text": "Mechanical manufacturing and energy harvesting.",
+          "label": "C",
+          "text": "Mechanical manufacturing and energy harvesting, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "These are crude methods associated with lower-density parasitic technology, not higher-light manifestation."
+        },
+        {
+          "label": "D",
+          "text": "Extraction from the Lattice Membrane Network, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "The Lattice Membrane supports the plain; it is not the process by which new matter is first woven into form."
         }
       ],
       "hint": "The process uses consciousness, harmonic frequency, and the pineal gland.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -277,31 +277,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They are fuel sources for 4th-density technology.",
+          "text": "They are fuel sources for 4th-density technology, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "While parasites may extract them, their original and true purpose is structural and electromagnetic, not as fuel."
         },
         {
           "label": "B",
+          "text": "They are tools used by the G.A.A. to stabilize the Firmament, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The G.A.A. oversees the dismantling of the simulation, but the materials themselves are part of the natural sub-structure of the plain."
+        },
+        {
+          "label": "C",
           "text": "They are fundamental components of the natural electromagnetic Lattice Membrane Network.",
           "isCorrect": true,
           "rationale": "These materials form an ergonomic electromagnetic structure and were never intended to be mined or removed."
         },
         {
-          "label": "C",
-          "text": "They are tools used by the G.A.A. to stabilize the Firmament.",
-          "isCorrect": false,
-          "rationale": "The G.A.A. oversees the dismantling of the simulation, but the materials themselves are part of the natural sub-structure of the plain."
-        },
-        {
           "label": "D",
-          "text": "They are waste products of ancient 9th-density labs.",
+          "text": "They are waste products of ancient 9th-density labs, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "These materials are essential building blocks of the planetary architecture, not discarded materials."
         }
       ],
       "hint": "These materials serve a purpose similar to the wiring and conduits in an advanced technological system.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 10,
@@ -309,9 +309,9 @@
       "options": [
         {
           "label": "A",
-          "text": "The Ice Wall will melt, revealing Gateway-10.",
+          "text": "Humanity will be physically transported to the Spirit Tree, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "While the architecture becomes visible, the immediate effect of the high-frequency flash is the removal of non-harmonic entities."
+          "rationale": "The restoration occurs on the current plain as the overlays dissolve; it is a shift in state, not a mass transportation."
         },
         {
           "label": "B",
@@ -327,9 +327,9 @@
         },
         {
           "label": "D",
-          "text": "Humanity will be physically transported to the Spirit Tree.",
+          "text": "The Ice Wall will melt, revealing Gateway-10, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "The restoration occurs on the current plain as the overlays dissolve; it is a shift in state, not a mass transportation."
+          "rationale": "While the architecture becomes visible, the immediate effect of the high-frequency flash is the removal of non-harmonic entities."
         }
       ],
       "hint": "Consider the fate of the 97% of the population who lack genuine souls.",
@@ -341,9 +341,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Gateway-10",
+          "text": "Hyperborea",
           "isCorrect": false,
-          "rationale": "This name refers to the entire vast plain containing 178 worlds, of which our realm is only a small part."
+          "rationale": "Hyperborea names the Spirit Tree / Mt Meru center, not the segregated Known Lands sub-realm (Realm-3)."
         },
         {
           "label": "B",
@@ -359,9 +359,9 @@
         },
         {
           "label": "D",
-          "text": "Hyperborea",
+          "text": "Gateway-10",
           "isCorrect": false,
-          "rationale": "Hyperborea names the Spirit Tree / Mt Meru center, not the segregated Known Lands sub-realm (Realm-3)."
+          "rationale": "This name refers to the entire vast plain containing 178 worlds, of which our realm is only a small part."
         }
       ],
       "hint": "This term is also colloquially referred to as the 'Known Lands'.",
@@ -373,31 +373,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Southern Ice Wall boundary.",
+          "text": "The Great Pyramid of Giza.",
           "isCorrect": false,
-          "rationale": "The Ice Wall is a perimeter barrier, whereas the frequency source is located at the geometric center."
+          "rationale": "While a node, it is not the central emanation point of the entire Gateway-10 field."
         },
         {
           "label": "B",
-          "text": "The Crystalline Temples of Tartaria.",
-          "isCorrect": false,
-          "rationale": "These were built upon various nodes throughout the plain, but they are not the primary central node."
-        },
-        {
-          "label": "C",
           "text": "The Spirit Tree (Mt Meru / Hyperborea).",
           "isCorrect": true,
           "rationale": "Custodians removed the realm's main Spirit Tree (Mt Meru / Hyperborea) to lower planetary frequencies; it is the central high-frequency node of the plain."
         },
         {
-          "label": "D",
-          "text": "The Great Pyramid of Giza.",
+          "label": "C",
+          "text": "The Southern Ice Wall boundary.",
           "isCorrect": false,
-          "rationale": "While a node, it is not the central emanation point of the entire Gateway-10 field."
+          "rationale": "The Ice Wall is a perimeter barrier, whereas the frequency source is located at the geometric center."
+        },
+        {
+          "label": "D",
+          "text": "The Crystalline Temples of Tartaria.",
+          "isCorrect": false,
+          "rationale": "These were built upon various nodes throughout the plain, but they are not the primary central node."
         }
       ],
       "hint": "Look to the absolute center of the map of the horizontal plain.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -405,31 +405,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Politics, entertainment, and sports.",
-          "isCorrect": false,
-          "rationale": "These may distract, but they are not the three foundational control strings identified in the Nature of Reality transmission."
+          "text": "Religion, Finance, and Perceived Knowledge.",
+          "isCorrect": true,
+          "rationale": "The false reality is anchored through Religion (false gods), Finance (fake currency/resources), and Perceived Knowledge (false history, geography, and science)."
         },
         {
           "label": "B",
-          "text": "Gravity, evolution, and heliocentrism.",
-          "isCorrect": false,
-          "rationale": "These are examples of false perceived knowledge, not the three primary strings themselves."
-        },
-        {
-          "label": "C",
           "text": "War, famine, and disease.",
           "isCorrect": false,
           "rationale": "These are control events within the matrix, not the three strings binding consciousness."
         },
         {
+          "label": "C",
+          "text": "Politics, entertainment, and sports.",
+          "isCorrect": false,
+          "rationale": "These may distract, but they are not the three foundational control strings identified in the Nature of Reality transmission."
+        },
+        {
           "label": "D",
-          "text": "Religion, Finance, and Perceived Knowledge.",
-          "isCorrect": true,
-          "rationale": "The false reality is anchored through Religion (false gods), Finance (fake currency/resources), and Perceived Knowledge (false history, geography, and science)."
+          "text": "Gravity, evolution, and heliocentrism.",
+          "isCorrect": false,
+          "rationale": "These are examples of false perceived knowledge, not the three primary strings themselves."
         }
       ],
       "hint": "Think of the three control domains: religion, finance, and perceived knowledge.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 14,
@@ -469,19 +469,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True",
-          "isCorrect": false,
-          "rationale": "Evolution is a manufactured fallacy designed to conceal true genetic origins."
-        },
-        {
-          "label": "B",
           "text": "False",
           "isCorrect": true,
           "rationale": "Evolution is a fraudulent construct created to hide the reality of lab-based genetic manipulation by extraterrestrial families."
+        },
+        {
+          "label": "B",
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "Evolution is a manufactured fallacy designed to conceal true genetic origins."
         }
       ],
       "hint": "Does the reality described support gradual biological changes or intentional genetic infusion?",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 16,
@@ -489,31 +489,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To generate the artificial daylight cycles needed for linear time.",
-          "isCorrect": false,
-          "rationale": "Linear time is maintained through daylight cycles and mechanical clocks, though it relates to the simulation, it isn't the primary definition of an overlay."
-        },
-        {
-          "label": "B",
-          "text": "To project holographic stars and space debris into the sky.",
+          "text": "To project holographic stars and space debris into the sky, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "This is the specific task of the Projection Dome, which is a specialized layer within the broader system."
         },
         {
-          "label": "C",
-          "text": "To stabilize the electromagnetic Lattice Membrane Network.",
+          "label": "B",
+          "text": "To generate the artificial daylight cycles needed for linear time, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Overlays are parasitic dampening fields, whereas the network is a natural, beneficial part of the earth's structure."
+          "rationale": "Linear time is maintained through daylight cycles and mechanical clocks, though it relates to the simulation, it isn't the primary definition of an overlay."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "To dampen frequencies and obscure high-vibrational architecture from 3rd-density perception.",
           "isCorrect": true,
           "rationale": "Overlays are frequency fields used to hide the true crystalline and geological nature of the 9th-density plain."
+        },
+        {
+          "label": "D",
+          "text": "To stabilize the electromagnetic Lattice Membrane Network, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Overlays are parasitic dampening fields, whereas the network is a natural, beneficial part of the earth's structure."
         }
       ],
       "hint": "Think of these as a veil or a filter applied over the true world.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 17,
@@ -521,15 +521,15 @@
       "options": [
         {
           "label": "A",
-          "text": "The Masters of 4th-density manufacturing.",
-          "isCorrect": false,
-          "rationale": "These entities are the parasites who benefit from the 3rd-density entrapment."
-        },
-        {
-          "label": "B",
           "text": "The Galactic Ancestral Alliance (G.A.A.).",
           "isCorrect": true,
           "rationale": "This alliance coordinates the transition and the removal of the projection dome to restore true reality."
+        },
+        {
+          "label": "B",
+          "text": "The Masters of 4th-density manufacturing.",
+          "isCorrect": false,
+          "rationale": "These entities are the parasites who benefit from the 3rd-density entrapment."
         },
         {
           "label": "C",
@@ -545,7 +545,7 @@
         }
       ],
       "hint": "Identify the benevolent force working with humanity's ancestors.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 18,
@@ -553,21 +553,21 @@
       "options": [
         {
           "label": "A",
-          "text": "50%",
-          "isCorrect": false,
-          "rationale": "The true number of genuine souls is far smaller than half the population."
-        },
-        {
-          "label": "B",
           "text": "10%",
           "isCorrect": false,
           "rationale": "The overwhelming majority of those currently inhabiting the realm are artificial constructs."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "100%",
           "isCorrect": false,
           "rationale": "There is a small remnant of genuine souls who will remain after the EMF flash."
+        },
+        {
+          "label": "C",
+          "text": "50%",
+          "isCorrect": false,
+          "rationale": "The true number of genuine souls is far smaller than half the population."
         },
         {
           "label": "D",
@@ -585,31 +585,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Firmament will collapse, causing the oceans to rise.",
+          "text": "The Firmament will collapse, causing the oceans to rise, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "The Firmament is a structural energy dome that remains; it is the projection layer over it that is removed."
         },
         {
           "label": "B",
+          "text": "Humanity will immediately ascend to the 15th density, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "The removal of the dome is a psychological and visual event that precedes the final reality restoration."
+        },
+        {
+          "label": "C",
           "text": "The Projection Dome is switched off, abruptly exposing the bright white void behind the fake sky.",
           "isCorrect": true,
           "rationale": "When G.A.A. dismantles the matrix, the Projection Dome goes offline and the bright white void replaces the artificial black vacuum of the night sky."
         },
         {
-          "label": "C",
-          "text": "The realm will be plunged into eternal darkness.",
+          "label": "D",
+          "text": "The realm will be plunged into eternal darkness, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Total darkness is an artificial construct; the true state of space is bright white light."
-        },
-        {
-          "label": "D",
-          "text": "Humanity will immediately ascend to the 15th density.",
-          "isCorrect": false,
-          "rationale": "The removal of the dome is a psychological and visual event that precedes the final reality restoration."
         }
       ],
       "hint": "Imagine the visual effect of a holographic screen being turned off to reveal the light behind it.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 20,
@@ -617,19 +617,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True",
-          "isCorrect": false,
-          "rationale": "Darkness is an artificial, non-natural construct used specifically for deception."
-        },
-        {
-          "label": "B",
           "text": "False",
           "isCorrect": true,
           "rationale": "Total darkness is an artificial overlay and is considered a Satanic construct intended to trap and deceive the mind."
+        },
+        {
+          "label": "B",
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "Darkness is an artificial, non-natural construct used specifically for deception."
         }
       ],
       "hint": "Consider the true nature of 'space' beyond the artificial dark sky.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 21,
@@ -643,15 +643,15 @@
         },
         {
           "label": "B",
-          "text": "Eternal with no beginning.",
-          "isCorrect": false,
-          "rationale": "Physicality as a created construct with a finite beginning, not an eternal uncreated state."
-        },
-        {
-          "label": "C",
           "text": "Approximately 5 billion years.",
           "isCorrect": true,
           "rationale": "Physicality is a relatively recent construct, only approximately 5 billion years old, brought into existence by Source Creation to process experience-based wisdom."
+        },
+        {
+          "label": "C",
+          "text": "Eternal with no beginning.",
+          "isCorrect": false,
+          "rationale": "Physicality as a created construct with a finite beginning, not an eternal uncreated state."
         },
         {
           "label": "D",
@@ -661,7 +661,7 @@
         }
       ],
       "hint": "Source Creation brought physicality into being as a relatively recent construct for experience-based wisdom.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 22,
@@ -669,31 +669,31 @@
       "options": [
         {
           "label": "A",
-          "text": "12",
-          "isCorrect": false,
-          "rationale": "This number may correspond to density levels or other cosmic counts, but not the worlds of Gateway-10."
-        },
-        {
-          "label": "B",
-          "text": "178",
-          "isCorrect": true,
-          "rationale": "Gateway-10 comprises exactly 178 interconnected worlds, with Earth situated at the center."
-        },
-        {
-          "label": "C",
           "text": "Over one billion.",
           "isCorrect": false,
           "rationale": "While the legacy of the Source of Creation is billions of years old, the physical plain of Gateway-10 has a specific number of worlds."
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "12",
+          "isCorrect": false,
+          "rationale": "This number may correspond to density levels or other cosmic counts, but not the worlds of Gateway-10."
+        },
+        {
+          "label": "C",
           "text": "7",
           "isCorrect": false,
           "rationale": "The number of worlds is significantly higher, reflecting the vastness of the toroid field."
+        },
+        {
+          "label": "D",
+          "text": "178",
+          "isCorrect": true,
+          "rationale": "Gateway-10 comprises exactly 178 interconnected worlds, with Earth situated at the center."
         }
       ],
       "hint": "This is a specific three-digit number representing the broader geography beyond the ice wall.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 23,
@@ -701,9 +701,9 @@
       "options": [
         {
           "label": "A",
-          "text": "A parasitic data-harvesting system.",
-          "isCorrect": false,
-          "rationale": "Sky-Net-1 is the parasitic system; the Lattice Membrane is a natural, positive spiritual technology."
+          "text": "A natural spiritual technology composed of Ley Lines and electromagnetic Nodes.",
+          "isCorrect": true,
+          "rationale": "This network forms the advanced sub-structure of the physical plain, interconnecting geographic points of high frequency."
         },
         {
           "label": "B",
@@ -713,19 +713,19 @@
         },
         {
           "label": "C",
-          "text": "A natural spiritual technology composed of Ley Lines and electromagnetic Nodes.",
-          "isCorrect": true,
-          "rationale": "This network forms the advanced sub-structure of the physical plain, interconnecting geographic points of high frequency."
+          "text": "An artificial grid used to project the Firmament, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "The Firmament is an energy dome, while the Lattice Membrane is the grounded sub-structure of the physical plain itself."
         },
         {
           "label": "D",
-          "text": "An artificial grid used to project the Firmament.",
+          "text": "A parasitic data-harvesting system.",
           "isCorrect": false,
-          "rationale": "The Firmament is an energy dome, while the Lattice Membrane is the grounded sub-structure of the physical plain itself."
+          "rationale": "Sky-Net-1 is the parasitic system; the Lattice Membrane is a natural, positive spiritual technology."
         }
       ],
       "hint": "Think of the energetic 'veins' and 'nerves' of the Earth.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 24,
@@ -733,19 +733,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False",
-          "isCorrect": true,
-          "rationale": "Round planets cannot logically support the Firmament necessary to bend light or sustain the stationary life required on a flat plain."
-        },
-        {
-          "label": "B",
           "text": "True",
           "isCorrect": false,
           "rationale": "Round planets are a logical fallacy that contradicts the mechanics of the Firmament."
+        },
+        {
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Round planets cannot logically support the Firmament necessary to bend light or sustain the stationary life required on a flat plain."
         }
       ],
       "hint": "Consider why heliocentrism is a fabricated distraction.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 25,
@@ -753,31 +753,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The total uninstallation of historically accepted scientific, chronological, and geographical doctrines.",
-          "isCorrect": true,
-          "rationale": "A soul must completely abandon perceived indoctrination to grasp the reality of their physical containment and spiritual legacy."
+          "text": "To reform existing scientific and religious institutions, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "The awakening requires a total uninstallation of these doctrines, not their reform."
         },
         {
           "label": "B",
+          "text": "To achieve immortality within the 3rd-density simulation, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "The 3rd density is a state of suppression and entrapment to be transcended, not a place for permanence."
+        },
+        {
+          "label": "C",
           "text": "To colonize the 178 worlds of Gateway-10 using new technology.",
           "isCorrect": false,
           "rationale": "The focus is on awakening and dismantling the current simulation, not expansion under current conditions."
         },
         {
-          "label": "C",
-          "text": "To reform existing scientific and religious institutions.",
-          "isCorrect": false,
-          "rationale": "The awakening requires a total uninstallation of these doctrines, not their reform."
-        },
-        {
           "label": "D",
-          "text": "To achieve immortality within the 3rd-density simulation.",
-          "isCorrect": false,
-          "rationale": "The 3rd density is a state of suppression and entrapment to be transcended, not a place for permanence."
+          "text": "The total uninstallation of historically accepted scientific, chronological, and geographical doctrines.",
+          "isCorrect": true,
+          "rationale": "A soul must completely abandon perceived indoctrination to grasp the reality of their physical containment and spiritual legacy."
         }
       ],
       "hint": "This involves a radical removal of all foundational 'control strings'.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     }
   ]
 }

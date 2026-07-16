@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Wooden border walls built only around 15-Minute Cities.",
+          "text": "Wooden border walls built only around 15-Minute Cities, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "They are ethereal soul-containment tech during sleep — not physical city fencing."
         },
         {
           "label": "B",
-          "text": "Advanced ethereal technology designed to prevent the slumbering consciousness and soul from wandering too far from the physical vessel at night.",
-          "isCorrect": true,
-          "rationale": "Frequency Fences are ethereal tech that keep the sleeping soul and consciousness from wandering far from the body at night."
+          "text": "Beneficial free-energy grids that power Tartarian Nodes openly, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Parasites suppress free-energy lattices; Frequency Fences are captivity tech, not free power."
         },
         {
           "label": "C",
-          "text": "The Projection Dome's only job of painting fake asteroids.",
+          "text": "The Projection Dome's only job of painting fake asteroids, with no artificial sky, no enclosed realm, and no engineered reset scarring.",
           "isCorrect": false,
           "rationale": "The Projection Dome hides the sky; Frequency Fences imprison wandering consciousness during sleep."
         },
         {
           "label": "D",
-          "text": "Beneficial free-energy grids that power Tartarian Nodes openly.",
-          "isCorrect": false,
-          "rationale": "Parasites suppress free-energy lattices; Frequency Fences are captivity tech, not free power."
+          "text": "Advanced ethereal technology designed to prevent the slumbering consciousness and soul from wandering too far from the physical vessel at night.",
+          "isCorrect": true,
+          "rationale": "Frequency Fences are ethereal tech that keep the sleeping soul and consciousness from wandering far from the body at night."
         }
       ],
       "hint": "Ethereal night prison for the wandering soul.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Galactic Ancestral Alliance as a permanent sleep-training school.",
-          "isCorrect": false,
-          "rationale": "The G.A.A. oversees irreversible collapse of the parasitic grid; fences are captors' tech."
-        },
-        {
-          "label": "B",
-          "text": "Only the 3% true souls voting each night on fence schedules.",
-          "isCorrect": false,
-          "rationale": "True souls are captives; parasites deploy the fences against them."
-        },
-        {
-          "label": "C",
-          "text": "NPCs alone inventing ethereal tech without parasitic command.",
+          "text": "NPCs alone inventing ethereal tech without parasitic command, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "NPCs enforce mainstream narrative as social fences; ethereal Frequency Fences come from the parasitic control apparatus."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "Highly advanced 4th-density parasitic entities maintaining absolute subjugation over the 3rd-density population.",
           "isCorrect": true,
           "rationale": "4th-density parasites run the engineered prison matrix and subjugate the 3rd-density population with tools including Frequency Fences."
+        },
+        {
+          "label": "C",
+          "text": "Only the 3% true souls voting each night on fence schedules, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "True souls are captives; parasites deploy the fences against them."
+        },
+        {
+          "label": "D",
+          "text": "The Galactic Ancestral Alliance as a permanent sleep-training school, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "The G.A.A. oversees irreversible collapse of the parasitic grid; fences are captors' tech."
         }
       ],
       "hint": "4th-density parasites over a 3rd-density prison.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only cilantro detox clinics run by Grey ETs at birth.",
-          "isCorrect": false,
-          "rationale": "Grey ETs escort wiped souls into new vessels; detox with cilantro, chlorella, and zeolite is a liberation protocol for the living."
-        },
-        {
-          "label": "B",
-          "text": "Only free libraries teaching honest 12th-density origins.",
+          "text": "Only soft music in elevators with no memory wipe, no chem targeting, and no narrative control.",
           "isCorrect": false,
           "rationale": "The system disconnects humanity from 12th-density origins; it does not teach them openly."
         },
         {
-          "label": "C",
-          "text": "Memory eradication upon death, vibratory suppression of the physical environment, chemical and biological targeting of human physiology, and societal herd programming that crushes intellectual and spiritual autonomy.",
+          "label": "B",
+          "text": "Memory wipe at death, vibratory suppression of the environment, chemical and biological targeting of humans, and narrative fencing so awakening stays rare and punished.",
           "isCorrect": true,
           "rationale": "Frequency Fences sit inside a total apparatus: death amnesia, density/vibratory suppression, bio-chemical targeting, and herd programming against autonomy."
         },
         {
-          "label": "D",
-          "text": "Nothing else — fences operate with no death or body component.",
+          "label": "C",
+          "text": "A single library fine system with no density tech and no effect on soul or body frequency, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
           "rationale": "They are one ethereal piece of a multi-layered technological, biological, and psychological grid."
+        },
+        {
+          "label": "D",
+          "text": "Open free-energy education and full memory retention as official global policy after death.",
+          "isCorrect": false,
+          "rationale": "Grey ETs escort wiped souls into new vessels; detox with cilantro, chlorella, and zeolite is a liberation protocol for the living."
         }
       ],
       "hint": "Death amnesia + density suppress + bio targeting + herd mind.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "G.A.A. hardware that permanently restores all memories since 2019 only for NPCs.",
-          "isCorrect": false,
-          "rationale": "The Vortex was destroyed in 2019, allowing more past-life recall among younger true souls — not NPC memory gifts."
-        },
-        {
-          "label": "B",
-          "text": "The technological mechanism at the Sun portal, managed via the Vatican's subterranean levels, that pulls a soul into a bright light after death to format and erase all past-life memories before immediate reincarnation.",
-          "isCorrect": true,
-          "rationale": "The Amnesia Vortex sits at the Sun portal under Vatican subterranean management — bright-light pull, memory format, forced reincarnation."
-        },
-        {
-          "label": "C",
-          "text": "A sleep app that strengthens Frequency Fences voluntarily.",
+          "text": "A gentle review booth where souls keep full memory and freely choose their next experience — the complete identity of the thing, with no deeper parasitic function underneath.",
           "isCorrect": false,
           "rationale": "It is death-gate memory wipe tech, not a voluntary sleep app."
         },
         {
-          "label": "D",
-          "text": "The Projection Dome's asteroid catalog only.",
+          "label": "B",
+          "text": "A G.A.A. reunion lounge that pairs Twin Flames before any amnesia can occur, as if liberating forces ran the prison architecture instead of dismantling it.",
+          "isCorrect": false,
+          "rationale": "The Vortex was destroyed in 2019, allowing more past-life recall among younger true souls — not NPC memory gifts."
+        },
+        {
+          "label": "C",
+          "text": "A weather phenomenon on Earth with no soul processing and no Vatican portal connection, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
           "rationale": "Projection Dome fakes sky visuals; Amnesia Vortex formats souls after death."
+        },
+        {
+          "label": "D",
+          "text": "Sun-portal tech managed through Vatican subterranean levels that pulls a soul into bright amnesia light, strips identity, and queues it for forced reincarnation.",
+          "isCorrect": true,
+          "rationale": "The Amnesia Vortex sits at the Sun portal under Vatican subterranean management — bright-light pull, memory format, forced reincarnation."
         }
       ],
       "hint": "Sun portal + Vatican levels — wipe memory, force reincarnation.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 5,
@@ -150,25 +150,25 @@
       "options": [
         {
           "label": "A",
-          "text": "NPC peer ridicule with no technological component.",
+          "text": "Raising density so crystalline temples become brighter and parasites cannot land anywhere — the complete identity of the thing, with no deeper parasitic function underneath.",
           "isCorrect": false,
           "rationale": "Mind Camp is social; Density Suppression is technological vibratory lowering of the realm."
         },
         {
           "label": "B",
-          "text": "Only the chemical formula inside chlorella tablets.",
+          "text": "A marketing slogan for Gothic tourism with no real effect on frequency or visibility, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
           "rationale": "Chlorella is part of heavy-metal detox strategy; Density Suppression is realm-frequency technology."
         },
         {
           "label": "C",
-          "text": "Raising Earth to 12th density every night during sleep.",
+          "text": "A natural sunset cycle that briefly dims colors without changing ambient density at all, with no deliberate multi-generational control design behind the outcome at all.",
           "isCorrect": false,
           "rationale": "It lowers vibration; Frequency Fences block high reconnection during sleep."
         },
         {
           "label": "D",
-          "text": "Lowering a realm's vibratory state (for example from 9th density to 3rd density) so low-frequency parasites can interact and highly advanced crystalline architecture becomes invisible.",
+          "text": "Lowering a realm’s vibratory state (e.g. 9th to 3rd density) so low-frequency parasites can interact with matter while high-frequency architecture fades from view.",
           "isCorrect": true,
           "rationale": "Density Suppression dims the realm (e.g. 9th to 3rd) for parasite survival and to hide crystalline architecture from human eyes."
         }
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only Orphan Train passenger lists after each Reset.",
-          "isCorrect": false,
-          "rationale": "Orphan Trains restock clones after Resets; Overlays are perceptual EM projections."
-        },
-        {
-          "label": "B",
-          "text": "Natural moonlight that heals the Pineal Gland automatically.",
+          "text": "Paint layers on museum models with no electromagnetic role and no sky-projection function, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
           "rationale": "Overlays obscure truth; pineal repair needs detox and severing control strings — not overlay \"healing.\""
         },
         {
+          "label": "B",
+          "text": "Natural fog that only appears in valleys and never conceals crystalline temples or Nodes.",
+          "isCorrect": false,
+          "rationale": "Sky-Net-1 fake stars cast ULF overlays that make crystalline temples invisible."
+        },
+        {
           "label": "C",
-          "text": "Projected electromagnetic frequencies that obscure unmovable ancient architecture and artificially augment perception of matter to present a fake, suppressed 3rd-density reality.",
-          "isCorrect": true,
-          "rationale": "Overlays are projected EM frequencies that hide ancient architecture and fake a suppressed 3rd-density view of matter."
+          "text": "G.A.A. light shows that reveal Tartaria nightly and invite public exploration of the lattice, as if liberating forces ran the prison architecture instead of dismantling it.",
+          "isCorrect": false,
+          "rationale": "Orphan Trains restock clones after Resets; Overlays are perceptual EM projections."
         },
         {
           "label": "D",
-          "text": "Beneficial Sky-Net-1 gifts that reveal crystalline temples.",
-          "isCorrect": false,
-          "rationale": "Sky-Net-1 fake stars cast ULF overlays that make crystalline temples invisible."
+          "text": "Projected electromagnetic frequencies that hide unmovable ancient architecture and fake the sky, stars, and distances of the inverted simulation.",
+          "isCorrect": true,
+          "rationale": "Overlays are projected EM frequencies that hide ancient architecture and fake a suppressed 3rd-density view of matter."
         }
       ],
       "hint": "Projected EM — hide ancient architecture, fake 3rd density.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 7,
@@ -214,19 +214,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Omicron, Alpha Draco, and Anunnaki vacation visas.",
+          "text": "Omicron, Alpha Draco, and Anunnaki vacation visas, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Those are parasitic species needing low-frequency environments; the three strings are psychological pillars."
         },
         {
           "label": "B",
-          "text": "Cilantro, chlorella, and zeolite as permanent mind prisons.",
+          "text": "Cilantro, chlorella, and zeolite as permanent mind prisons, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Those are detox agents to repair the pineal — liberation tools, not strings of control."
         },
         {
           "label": "C",
-          "text": "Nickel, Lead, and Chromium as the only control tools.",
+          "text": "Nickel, Lead, and Chromium as the only control tools, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Those metals weaponize vaping against the pineal; the three strings are Religion, Finance, and Perceived Knowledge."
         },
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The only beings who naturally wander free of Frequency Fences every night.",
+          "text": "12th-density origin teachers staffing every school honestly, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "NPCs enforce social confinement; true souls are the ones whose astral wander is blocked and who must awaken."
+          "rationale": "Perceived Knowledge schools are constructed lies; NPCs echo the mandated narrative."
         },
         {
           "label": "B",
+          "text": "A 3% minority that evaporates at the EMF Flash first, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "97% are NPCs; the EMF sequence evaporates that 97% NPC population — true souls are the ~3%."
+        },
+        {
+          "label": "C",
           "text": "Soulless laboratory-created biological entities making up 97% of the population, hardwired to obey and enforce mainstream narrative against true souls.",
           "isCorrect": true,
           "rationale": "NPCs are lab-made, soulless, 97% of the population, built to enforce the mandated narrative and control true souls."
         },
         {
-          "label": "C",
-          "text": "12th-density origin teachers staffing every school honestly.",
-          "isCorrect": false,
-          "rationale": "Perceived Knowledge schools are constructed lies; NPCs echo the mandated narrative."
-        },
-        {
           "label": "D",
-          "text": "A 3% minority that evaporates at the EMF Flash first.",
+          "text": "The only beings who naturally wander free of Frequency Fences every night, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "97% are NPCs; the EMF sequence evaporates that 97% NPC population — true souls are the ~3%."
+          "rationale": "NPCs enforce social confinement; true souls are the ones whose astral wander is blocked and who must awaken."
         }
       ],
       "hint": "97% soulless lab entities — enforce the narrative.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 9,
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A massive technological screen inside the actual firmament that displays fake stars, space, and asteroids, hiding the true nature of the physical realm.",
-          "isCorrect": true,
-          "rationale": "The Projection Dome sits inside the firmament and projects fake stars, space, and asteroids to hide true realm geometry."
+          "text": "Mind Camp peer pressure with no sky technology and no hidden harvest architecture behind the scenes.",
+          "isCorrect": false,
+          "rationale": "Mind Camp is social; Projection Dome is physical-sky holographic screening."
         },
         {
           "label": "B",
-          "text": "The Vatican basement where Grey ETs invent cilantro.",
+          "text": "The Vatican basement where Grey ETs invent cilantro, with souls moving freely and no trap logistics at death or birth.",
           "isCorrect": false,
           "rationale": "Vatican subterranean levels manage Amnesia Vortex operations; the dome is sky-screen tech inside the firmament."
         },
         {
           "label": "C",
-          "text": "Mind Camp peer pressure with no sky technology.",
-          "isCorrect": false,
-          "rationale": "Mind Camp is social; Projection Dome is physical-sky holographic screening."
+          "text": "A massive technological screen inside the actual firmament that displays fake stars, space, and asteroids, hiding the true nature of the physical realm.",
+          "isCorrect": true,
+          "rationale": "The Projection Dome sits inside the firmament and projects fake stars, space, and asteroids to hide true realm geometry."
         },
         {
           "label": "D",
-          "text": "A natural cloud layer that strengthens Lattice Membrane free energy.",
+          "text": "A natural cloud layer that strengthens Lattice Membrane free energy, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "It is technological sky fraud; free-energy grids are suppressed, not strengthened by the dome."
         }
       ],
       "hint": "Screen inside firmament — fake stars, space, asteroids.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 10,
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They escort every sleeper to 12th-density classrooms nightly.",
-          "isCorrect": false,
-          "rationale": "They disconnect humanity from 12th-density origins rather than teaching there each night."
+          "text": "They neutralize the soul's natural ability to explore, learn, and reconnect with true reality.",
+          "isCorrect": true,
+          "rationale": "Fences kill natural night exploration and reconnection so the soul stays oblivious, \"safe and sound,\" and confined for the captors."
         },
         {
           "label": "B",
-          "text": "They only operate after the EMF Flash for entertainment.",
-          "isCorrect": false,
-          "rationale": "They are active captivity now; EMF Flash dissolves them with Overlays and the Projection Dome."
-        },
-        {
-          "label": "C",
-          "text": "They free NPCs while true souls sleep without any tether.",
+          "text": "They free NPCs while true souls sleep without any tether, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "True souls are the ones whose astral mobility is blocked inside the artificial matrix."
         },
         {
+          "label": "C",
+          "text": "They escort every sleeper to 12th-density classrooms nightly, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "They disconnect humanity from 12th-density origins rather than teaching there each night."
+        },
+        {
           "label": "D",
-          "text": "They neutralize the soul's natural ability to explore, learn, and reconnect with true reality — keeping the captive \"safe and sound\" exactly where parasites demand.",
-          "isCorrect": true,
-          "rationale": "Fences kill natural night exploration and reconnection so the soul stays oblivious, \"safe and sound,\" and confined for the captors."
+          "text": "They only operate after the EMF Flash for entertainment, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "They are active captivity now; EMF Flash dissolves them with Overlays and the Projection Dome."
         }
       ],
       "hint": "Block night explore/reconnect — keep souls \"safe and sound.\"",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 11,
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only one-time amnesia that never restarts after birth.",
+          "text": "Only one-time amnesia that never restarts after birth, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "Cycles are continuous — death wipe, Grey escort to new vessel, another exploitation round."
         },
         {
           "label": "B",
-          "text": "Permanent graduation to free Tartarian nodal living with no harvest.",
+          "text": "Exclusive Finance-string training with no spiritual component, while spiritual attention and institutional trust stay fully intact.",
+          "isCorrect": false,
+          "rationale": "All three strings plus ethereal and bio tools drive full spiritual disconnection and harvest."
+        },
+        {
+          "label": "C",
+          "text": "Permanent graduation to free Tartarian nodal living with no harvest, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Parasites suppress free-energy grids and harvest; fences keep souls in the loop."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "Complete disconnection from 12th-density origins and continuous cycles of traumatic reincarnation, amnesia, and energetic harvesting.",
           "isCorrect": true,
           "rationale": "Fences are one piece of total dominance that severs 12th-density origins and locks true souls into trauma, amnesia, and harvest reincarnation loops."
-        },
-        {
-          "label": "D",
-          "text": "Exclusive Finance-string training with no spiritual component.",
-          "isCorrect": false,
-          "rationale": "All three strings plus ethereal and bio tools drive full spiritual disconnection and harvest."
         }
       ],
       "hint": "Cut 12th-density origins — trauma, amnesia, harvest loops.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 12,
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The soul freely maps the firmament and Dark Matter Field every night.",
-          "isCorrect": false,
-          "rationale": "Fences prevent far wandering; full sky truth exposure comes when EMF strips holographic shielding."
+          "text": "The soul naturally tries to detach and wander, but Frequency Fences block astral mobility and keep consciousness tethered to the artificial 3rd-density matrix.",
+          "isCorrect": true,
+          "rationale": "Night detachment is natural; fences actively block astral mobility and tether awareness to the fake 3rd-density matrix."
         },
         {
           "label": "B",
-          "text": "Nothing — souls never attempt to leave the body in sleep.",
+          "text": "Nothing — souls never attempt to leave the body in sleep, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "The soul naturally attempts to detach and wander; fences are built specifically to stop that."
         },
         {
           "label": "C",
-          "text": "Grey ETs always inject the sleeper into a new baby mid-dream.",
+          "text": "Grey ETs always inject the sleeper into a new baby mid-dream, with souls moving freely and no trap logistics at death or birth.",
           "isCorrect": false,
           "rationale": "Grey escort and newborn injection happen after death formatting via the Amnesia Vortex — not every dream."
         },
         {
           "label": "D",
-          "text": "The soul naturally tries to detach and wander, but Frequency Fences block astral mobility and keep consciousness tethered to the artificial 3rd-density matrix.",
-          "isCorrect": true,
-          "rationale": "Night detachment is natural; fences actively block astral mobility and tether awareness to the fake 3rd-density matrix."
+          "text": "The soul freely maps the firmament and Dark Matter Field every night, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Fences prevent far wandering; full sky truth exposure comes when EMF strips holographic shielding."
         }
       ],
       "hint": "Natural astral wander blocked — tethered to 3rd-density matrix.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It is zeolite crystal light used only for pineal repair.",
-          "isCorrect": false,
-          "rationale": "Zeolite is a detox agent for the living; the bright light is the death-trap Sun portal."
-        },
-        {
-          "label": "B",
-          "text": "It is the Sun acting as a portal that magnetically pulls the soul for formatting; once wiped, Grey ETs technologically escort the soul back to Earth and inject it into a new baby's vessel at birth.",
+          "text": "It is the Sun acting as a portal that magnetically pulls the soul for formatting.",
           "isCorrect": true,
           "rationale": "The tunnel bright light is the Sun portal. After memory wipe, Greys escort the soul into a newborn vessel at birth for another exploitation cycle."
         },
         {
-          "label": "C",
-          "text": "It is free graduation into permanent 12th-density home without return.",
+          "label": "B",
+          "text": "It is zeolite crystal light used only for pineal repair, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "It is formatting for amnesia and forced reincarnation — not free graduation."
+          "rationale": "Zeolite is a detox agent for the living; the bright light is the death-trap Sun portal."
+        },
+        {
+          "label": "C",
+          "text": "It is Sky-Net-1 projecting asteroids into the bloodstream, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Sky-Net-1 casts ULF overlays on temples; death light is the Sun portal Amnesia Vortex path."
         },
         {
           "label": "D",
-          "text": "It is Sky-Net-1 projecting asteroids into the bloodstream.",
+          "text": "It is free graduation into permanent 12th-density home without return.",
           "isCorrect": false,
-          "rationale": "Sky-Net-1 casts ULF overlays on temples; death light is the Sun portal Amnesia Vortex path."
+          "rationale": "It is formatting for amnesia and forced reincarnation — not free graduation."
         }
       ],
       "hint": "Sun portal wipe → Grey escort → inject into newborn.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 14,
@@ -438,27 +438,27 @@
       "options": [
         {
           "label": "A",
-          "text": "They operate at ultra-high frequency above all true souls.",
-          "isCorrect": false,
-          "rationale": "They operate at sub-hertz extremely low frequencies — the opposite of UHF comfort."
-        },
-        {
-          "label": "B",
-          "text": "They love 9th density crystalline temples and live there openly.",
+          "text": "Parasites thrive at 12th density and installed Density Suppression only as an art project.",
           "isCorrect": false,
           "rationale": "They cannot endure those high vibrations and had to suppress density to survive here."
         },
         {
+          "label": "B",
+          "text": "High frequency strengthens parasites, so they raise the realm whenever they arrive — that mechanism alone, with no wider inversion stack required to produce the result.",
+          "isCorrect": false,
+          "rationale": "Nodal high vibration sickens them; cilantro is a human detox tool against heavy metals."
+        },
+        {
           "label": "C",
-          "text": "Entities such as Omicron, Alpha Draco, and Anunnaki operate at sub-hertz, extremely low frequencies and become violently ill in high vibrations of natural human architecture or nodal points.",
+          "text": "Omicron, Alpha Draco, and Anunnaki run at sub-hertz lows and are harmed by high ambient frequency, so they must dim the realm to occupy Gateway-10 safely.",
           "isCorrect": true,
           "rationale": "Omicron, Alpha Draco, and Anunnaki run at sub-hertz lows and get violently ill near high-vibration architecture and nodes — so they dimmed the realm."
         },
         {
           "label": "D",
-          "text": "They only fear cilantro and never mind nodal points.",
+          "text": "Density Suppression is unrelated to parasite biology and only affects radio commercials.",
           "isCorrect": false,
-          "rationale": "Nodal high vibration sickens them; cilantro is a human detox tool against heavy metals."
+          "rationale": "They operate at sub-hertz extremely low frequencies — the opposite of UHF comfort."
         }
       ],
       "hint": "Sub-hertz parasites sicken in high-vibe architecture/nodes.",
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Like EMF Flash protocol already completed in 2019 alone.",
+          "text": "Like deleting only Finance while Religion stays at 9th density, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "It is realm-wide vibratory lowering, not a single-string tweak."
+        },
+        {
+          "label": "B",
+          "text": "Like EMF Flash protocol already completed in 2019 alone, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "2019 destroyed the Amnesia Vortex; full fence/overlay/dome dissolution is the impending EMF Flash."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "Like turning a \"dimmer dial\" to lower the realm from a resplendent 9th density down to a dense, dark 3rd density.",
           "isCorrect": true,
           "rationale": "Density Suppression is a dimmer dial dropping the realm from bright 9th density into dense dark 3rd density."
         },
         {
-          "label": "C",
-          "text": "Like raising a volume knob to 12th density for all NPCs.",
+          "label": "D",
+          "text": "Like raising a volume knob to 12th density for all NPCs, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "The move is downward dimming for parasite survival and crystal invisibility — not an upgrade."
-        },
-        {
-          "label": "D",
-          "text": "Like deleting only Finance while Religion stays at 9th density.",
-          "isCorrect": false,
-          "rationale": "It is realm-wide vibratory lowering, not a single-string tweak."
         }
       ],
       "hint": "Dimmer dial — 9th density down to dark 3rd.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 16,
@@ -502,31 +502,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They only power Orphan Trains with clean aether.",
+          "text": "They only power Orphan Trains with clean aether, with no manufactured population pipeline and no blank-slate reboot.",
           "isCorrect": false,
           "rationale": "Sky-Net-1 is perceptual ULF camouflage tech, not free transit power."
         },
         {
           "label": "B",
-          "text": "They dissolve Frequency Fences every full moon automatically.",
-          "isCorrect": false,
-          "rationale": "Fence dissolution comes with EMF Flash and G.A.A. grid collapse — not monthly Sky-Net gifts."
-        },
-        {
-          "label": "C",
           "text": "They project a blanket of Ultra Low Frequencies (ULF) over indestructible crystalline temples, rendering them completely invisible to 3rd-density observers.",
           "isCorrect": true,
           "rationale": "Sky-Net-1 fake stars cast ULF overlays that make indestructible crystalline temples invisible in 3rd density perception."
         },
         {
+          "label": "C",
+          "text": "They dissolve Frequency Fences every full moon automatically, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Fence dissolution comes with EMF Flash and G.A.A. grid collapse — not monthly Sky-Net gifts."
+        },
+        {
           "label": "D",
-          "text": "They spotlight every Tartarian free-energy grid for tourists.",
+          "text": "They spotlight every Tartarian free-energy grid for tourists, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "They hide temples and suppress free-energy truth rather than spotlight it."
         }
       ],
       "hint": "Sky-Net-1 ULF blanket — crystalline temples invisible.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 17,
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Heliocentrism textbooks injected directly into the optic nerve only.",
+          "text": "Vaping detoxifies the pineal with pure aether vapor and restores full third-eye vision, with no deliberate multi-generational control design behind the outcome at all.",
           "isCorrect": false,
           "rationale": "Heliocentrism is Perceived Knowledge lie; pineal sabotage is heavy-metal and micro A.I. biological warfare via mechanisms like vaping."
         },
         {
           "label": "B",
-          "text": "Vaping is weaponized with heavy metals (Nickel, Lead, Chromium), nanoparticles, and endocrine disruptors that calcify the pineal, block neuron electrical signals, and smuggle micro A.I.",
+          "text": "Only printed textbooks affect the pineal; inhaled metals have no neurological impact at all.",
+          "isCorrect": false,
+          "rationale": "Zeolite is listed among detox protocols to repair the pineal — not as the sabotage agent."
+        },
+        {
+          "label": "C",
+          "text": "Vaping delivers heavy metals and endocrine disruptors that calcify the pineal, dulling intuition and sealing a primary biological frequency fence on awareness.",
           "isCorrect": true,
           "rationale": "Vaping delivers Nickel, Lead, Chromium, nanoparticles, and disruptors that calcify the pineal, block signals, and insert micro A.I. into blood — cutting dream clarity and higher reception."
         },
         {
-          "label": "C",
-          "text": "Only pure water that upgrades intuition to 12th density.",
+          "label": "D",
+          "text": "Vaping was designed by White Hats to dissolve calcification and end all density fences, as if liberating forces ran the prison architecture instead of dismantling it.",
           "isCorrect": false,
           "rationale": "The program severs the biological bridge to higher consciousness — it does not upgrade it."
-        },
-        {
-          "label": "D",
-          "text": "Zeolite spray sold as the only pineal poison.",
-          "isCorrect": false,
-          "rationale": "Zeolite is listed among detox protocols to repair the pineal — not as the sabotage agent."
         }
       ],
       "hint": "Vape metals + nano + micro A.I. — calcify pineal, cut signal.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 18,
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They are 3% of the population mentoring the 97%.",
-          "isCorrect": false,
-          "rationale": "NPCs are 97%; true souls are about 3% under social siege."
+          "text": "NPCs build a social Mind Camp of conformity where genuine thought is ridiculed, so the small true-soul minority is ringed by agents who echo the mandated narrative.",
+          "isCorrect": true,
+          "rationale": "NPCs form a Mind Camp: peer punishment for real thought and constant narrative echo — social frequency fences around the 3% true souls."
         },
         {
           "label": "B",
-          "text": "They teach free astral travel techniques every night.",
+          "text": "NPCs teach free astral travel nightly and reward every break from consensus thinking — that mechanism alone, with no wider inversion stack required to produce the result.",
           "isCorrect": false,
           "rationale": "They enforce compliance and crush autonomy; ethereal fences already block free astral mobility."
         },
         {
           "label": "C",
-          "text": "They construct a Mind Camp of social conformity where genuine thought is punished by ridicule and ostracization, relentlessly echoing the mandated narrative so the 3% of true souls are surrounded by agents of compliance.",
-          "isCorrect": true,
-          "rationale": "NPCs form a Mind Camp: peer punishment for real thought and constant narrative echo — social frequency fences around the 3% true souls."
+          "text": "NPCs are only 3% of the population and mentor the 97% true souls toward full awakening.",
+          "isCorrect": false,
+          "rationale": "NPCs are 97%; true souls are about 3% under social siege."
         },
         {
           "label": "D",
-          "text": "They only manage Vatican Sun portal hardware.",
+          "text": "NPCs only manage Vatican Sun portal hardware and never police conversation or belief.",
           "isCorrect": false,
           "rationale": "Amnesia Vortex management is technological/Vatican-linked; NPC role here is societal Mind Camp enforcement."
         }
       ],
       "hint": "Mind Camp — ridicule + narrative echo around the 3%.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 19,
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Resets happen daily when vaping products are restocked.",
+          "text": "Resets only celebrate free energy and open all fences permanently, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "Reset cycle is roughly every 1,000 years as mass cull and clone restock events."
+          "rationale": "Resets slaughter and restock under amnesia; fences keep the new crop docile."
         },
         {
           "label": "B",
-          "text": "Resets roughly every 1,000 years harvest adrenochrome and restock the planet with laboratory-grown clones on Orphan Trains; fences help ensure no soul recovers past-life trauma or memory during rebuilding.",
-          "isCorrect": true,
-          "rationale": "About every 1,000 years Resets cull for adrenochrome and restock via Orphan Train clones; Frequency Fences block past-life recovery in the rebuild."
-        },
-        {
-          "label": "C",
-          "text": "Resets only delete Finance while leaving all soul memory intact.",
+          "text": "Resets only delete Finance while leaving all soul memory intact, while spiritual attention and institutional trust stay fully intact.",
           "isCorrect": false,
           "rationale": "Past knowledge is eradicated and fences block soul memory recovery during rebuild."
         },
         {
-          "label": "D",
-          "text": "Resets only celebrate free energy and open all fences permanently.",
+          "label": "C",
+          "text": "Resets happen daily when vaping products are restocked, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "Resets slaughter and restock under amnesia; fences keep the new crop docile."
+          "rationale": "Reset cycle is roughly every 1,000 years as mass cull and clone restock events."
+        },
+        {
+          "label": "D",
+          "text": "Resets roughly every 1,000 years harvest adrenochrome and restock the planet with laboratory-grown clones on Orphan Trains.",
+          "isCorrect": true,
+          "rationale": "About every 1,000 years Resets cull for adrenochrome and restock via Orphan Train clones; Frequency Fences block past-life recovery in the rebuild."
         }
       ],
       "hint": "~1,000-year Resets + adrenochrome + Orphan Trains + fence amnesia.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 20,
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They teach every clone the full Tartarian free-energy curriculum.",
-          "isCorrect": false,
-          "rationale": "Past knowledge is eradicated; free-energy grids are suppressed into fake scarcity."
-        },
-        {
-          "label": "B",
-          "text": "They are switched off until the next EMF Flash for honesty.",
-          "isCorrect": false,
-          "rationale": "They stay active for containment; EMF Flash is the coming dissolution event."
-        },
-        {
-          "label": "C",
-          "text": "They only protect adults and never affect children's sleep.",
+          "text": "They only protect adults and never affect children's sleep, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Resets kill adults and children; fences contain souls broadly so the new crop stays docile."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "All past knowledge is eradicated for the new crop, and Frequency Fences ensure no soul inadvertently recovers past-life trauma or memory during the rebuilding phase.",
           "isCorrect": true,
           "rationale": "After knowledge wipe and clone restock, fences stop accidental past-life trauma/memory recovery while the inverted society rebuilds."
+        },
+        {
+          "label": "C",
+          "text": "They teach every clone the full Tartarian free-energy curriculum, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Past knowledge is eradicated; free-energy grids are suppressed into fake scarcity."
+        },
+        {
+          "label": "D",
+          "text": "They are switched off until the next EMF Flash for honesty, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "They stay active for containment; EMF Flash is the coming dissolution event."
         }
       ],
       "hint": "New crop amnesia — no accidental past-life recovery while rebuilding.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 21,
@@ -662,27 +662,27 @@
       "options": [
         {
           "label": "A",
-          "text": "By dissolving the Projection Dome every morning for free aether.",
+          "text": "It dissolves the Projection Dome every morning so free aether powers every household openly, so Ley Lines power every home free of meters, debt myths, and forced-labor energy scarcity.",
           "isCorrect": false,
           "rationale": "Dome and fences dissolve at EMF Flash under G.A.A. collapse — not as daily free-energy gifts from captors."
         },
         {
           "label": "B",
-          "text": "By giving unlimited free Ley Line power to every household openly.",
+          "text": "It only edits Heliocentrism textbooks and has no effect on energy grids or Ley Lines, while free-energy Nodes and Lattice grids remain fully online as ordinary public infrastructure.",
           "isCorrect": false,
-          "rationale": "They suppress free grids and install scarcity — the opposite of open free power."
+          "rationale": "Perceived Knowledge lies are one string; lattice suppression is physical free-energy hijack."
         },
         {
           "label": "C",
-          "text": "By suppressing natural free-energy grids of the Lattice Membrane Network (Ley Lines) and Nodes that powered Tartarian technology, installing fake scarcity so humanity relies on destructive metered energy, financial debt, and physical labor.",
+          "text": "It suppresses natural free-energy Ley Lines and Nodes that powered Tartaria, installing fake scarcity so humanity depends on metered energy, debt, and forced labor.",
           "isCorrect": true,
           "rationale": "Parasites suppress Ley Line/Node free energy that ran Tartaria, then force metered energy, debt, and labor under fake scarcity."
         },
         {
           "label": "D",
-          "text": "By only editing Heliocentrism textbooks with no energy effect.",
+          "text": "It gifts unlimited free Ley Line power to every home as official public infrastructure, with no siphon pylons, no loosh extraction at Nodes, and no fake energy scarcity narrative.",
           "isCorrect": false,
-          "rationale": "Perceived Knowledge lies are one string; lattice suppression is physical free-energy hijack."
+          "rationale": "They suppress free grids and install scarcity — the opposite of open free power."
         }
       ],
       "hint": "Suppress Ley/Node free energy — fake scarcity, debt, labor.",
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Grey ETs stopped all reincarnation and closed the Sun portal forever with no further events.",
-          "isCorrect": false,
-          "rationale": "Vortex destruction breaks the format step; full sky-shield and fence dissolution still come at EMF Flash."
-        },
-        {
-          "label": "B",
           "text": "The Amnesia Vortex was definitively destroyed in 2019 — which is why younger generations increasingly recall past-life memories and cosmic missions previously suppressed.",
           "isCorrect": true,
           "rationale": "2019 destroyed the Amnesia Vortex. Younger people recalling past lives and cosmic missions is the visible result."
         },
         {
+          "label": "B",
+          "text": "All Frequency Fences, Overlays, and the Projection Dome permanently vanished in 2019 alone, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Those dissolve at the impending EMF Flash; 2019 specifically killed the Amnesia Vortex."
+        },
+        {
           "label": "C",
-          "text": "NPC population rose from 3% to 97% overnight in 2019.",
+          "text": "NPC population rose from 3% to 97% overnight in 2019, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "97% NPC is the existing control demographic; 2019 marks Vortex destruction and rising memory recall."
         },
         {
           "label": "D",
-          "text": "All Frequency Fences, Overlays, and the Projection Dome permanently vanished in 2019 alone.",
+          "text": "Grey ETs stopped all reincarnation and closed the Sun portal forever with no further events, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "Those dissolve at the impending EMF Flash; 2019 specifically killed the Amnesia Vortex."
+          "rationale": "Vortex destruction breaks the format step; full sky-shield and fence dissolution still come at EMF Flash."
         }
       ],
       "hint": "2019 Vortex destroyed — past-life recall rising in youth.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 23,
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
-          "text": "During the impending Electromagnetic Frequency (EMF) Flash.",
-          "isCorrect": true,
-          "rationale": "Ultimate dissolution of Frequency Fences, Overlays, and the Projection Dome occurs at the impending EMF Flash."
+          "text": "Only when NPCs vote to keep Heliocentrism textbooks, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Dissolution is technological at EMF Flash, not an NPC curriculum vote."
         },
         {
           "label": "B",
-          "text": "Only during ordinary vaping sessions with chromium.",
-          "isCorrect": false,
-          "rationale": "Vaping sabotages the pineal; it does not dissolve the ethereal/sky control stack."
-        },
-        {
-          "label": "C",
-          "text": "Never — G.A.A. permanently reinforces them in 2019.",
+          "text": "Never — G.A.A. permanently reinforces them in 2019, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "G.A.A. oversees irreversible parasitic-grid collapse; 2019 destroyed the Vortex; EMF ends fences and dome."
         },
         {
-          "label": "D",
-          "text": "Only when NPCs vote to keep Heliocentrism textbooks.",
+          "label": "C",
+          "text": "Only during ordinary vaping sessions with chromium, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Dissolution is technological at EMF Flash, not an NPC curriculum vote."
+          "rationale": "Vaping sabotages the pineal; it does not dissolve the ethereal/sky control stack."
+        },
+        {
+          "label": "D",
+          "text": "During the impending Electromagnetic Frequency (EMF) Flash.",
+          "isCorrect": true,
+          "rationale": "Ultimate dissolution of Frequency Fences, Overlays, and the Projection Dome occurs at the impending EMF Flash."
         }
       ],
       "hint": "Impending EMF Flash ends fences, overlays, and dome.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 24,
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The firmament and the true bright white expanse of the dark matter field.",
-          "isCorrect": true,
-          "rationale": "When holographic sky shielding is stripped, the firmament and bright white dark-matter-field expanse are exposed."
-        },
-        {
-          "label": "B",
-          "text": "Only Mind Camp peer pressure with no sky change.",
-          "isCorrect": false,
-          "rationale": "Sky shielding removal is a physical/perceptual cosmological reveal, not merely social."
-        },
-        {
-          "label": "C",
-          "text": "Only empty black vacuum with more fake asteroids forever.",
+          "text": "Only empty black vacuum with more fake asteroids forever, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Fake space/asteroids are dome content; true exposure is firmament plus bright white field."
         },
         {
-          "label": "D",
-          "text": "A second denser Amnesia Vortex brighter than the Sun.",
+          "label": "B",
+          "text": "A second denser Amnesia Vortex brighter than the Sun, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The Vortex was destroyed in 2019; EMF exposure reveals firmament and bright true space."
+        },
+        {
+          "label": "C",
+          "text": "Only Mind Camp peer pressure with no sky change, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Sky shielding removal is a physical/perceptual cosmological reveal, not merely social."
+        },
+        {
+          "label": "D",
+          "text": "The firmament and the true bright white expanse of the dark matter field.",
+          "isCorrect": true,
+          "rationale": "When holographic sky shielding is stripped, the firmament and bright white dark-matter-field expanse are exposed."
         }
       ],
       "hint": "Firmament + bright white dark matter field exposed.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 25,
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Wait for Grey ETs to inject everyone into new babies at the flash.",
+          "text": "Double down on Religion, Finance, and Perceived Knowledge until the Flash finishes safely, not the deeper control mechanism described by the Living Truth.",
           "isCorrect": false,
-          "rationale": "Death-cycle Grey escort is the old trap; liberation path is string severance, detox, and bracing for NPC evaporation."
+          "rationale": "Vaping calcifies the pineal; Mind Camp enforces captivity — opposite of survival prep."
         },
         {
           "label": "B",
-          "text": "Trust only Finance and leave pineal metals untouched.",
-          "isCorrect": false,
-          "rationale": "All three strings must be severed and pineal detox is specified."
-        },
-        {
-          "label": "C",
-          "text": "Forcefully sever The 3 Strings, run rigorous heavy-metal detox (cilantro, chlorella, zeolite) to repair the Pineal Gland, and brace for instantaneous evaporation of the 97% NPC population.",
+          "text": "Sever the 3 Strings, detox heavy metals to repair the pineal, and build inner frameworks that can hold Scare Events without psychological collapse.",
           "isCorrect": true,
           "rationale": "Survival prep: cut Religion/Finance/Perceived Knowledge, detox pineal with cilantro, chlorella, and zeolite, and brace for 97% NPC evaporation at the collapse sequence."
         },
         {
-          "label": "D",
-          "text": "Double down on vaping nickel and join the Mind Camp narrative.",
+          "label": "C",
+          "text": "Ignore detox and wait for NPCs to explain the sky pixelation in university lectures, not the deeper control mechanism described by the Living Truth.",
           "isCorrect": false,
-          "rationale": "Vaping calcifies the pineal; Mind Camp enforces captivity — opposite of survival prep."
+          "rationale": "Death-cycle Grey escort is the old trap; liberation path is string severance, detox, and bracing for NPC evaporation."
+        },
+        {
+          "label": "D",
+          "text": "Join 33rd Degree ranks to reform the cage from inside while keeping all three strings intact, not the deeper control mechanism described by the Living Truth.",
+          "isCorrect": false,
+          "rationale": "All three strings must be severed and pineal detox is specified."
         }
       ],
       "hint": "Sever 3 Strings + pineal detox + brace for 97% NPC evaporation.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     }
   ]
 }

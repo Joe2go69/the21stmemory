@@ -46,7 +46,8 @@ B) No source file — author all 25 questions from the topic report only.
    - **Even option length** — Write all four options at similar depth and length. Wrong answers are full, plausible-sounding claims (still clearly wrong per the report), not one-line dismissals.
    - **No length tell** — A player must not be able to pick the correct option by choosing the longest or most detailed sentence.
    - **No position tell** — Do not draft correct-first then leave it as A. Author all four options, then place the correct one on a rotating letter (or shuffle).
-   - **Install scripts** — In scripts/install-[topicId]-quiz.js, call `finalizeOptions` from `scripts/quiz-option-utils.js` when building each question so options are shuffled/relabeled and short distractors are expanded. Do not skip this step.
+   - **Install scripts** — In scripts/install-[topicId]-quiz.js, call `finalizeOptions` from `scripts/quiz-option-utils.js` when building each question so options are shuffled/relabeled. Do not skip this step.
+   - **Corpus length rebalance** — If published quizzes still show a "longest option = correct" tell, run `node scripts/rebalance-quiz-length.js --all-alice` (tightens long corrects + claim-bound wrong expansions; no stock filler tails). Do **not** use the deprecated `rebalance-quiz-options.js` expand path.
    - After writing JSON, quickly count correctAnswer letters (A/B/C/D). If one letter dominates (e.g. A ≥ 15/25), rebalance before publishing.
 8. **Wire into the site**
    - Write data/quizzes/[source]/[topicId].json

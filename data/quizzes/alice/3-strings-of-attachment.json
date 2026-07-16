@@ -22,27 +22,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Three university degrees required before anyone is allowed to notice The Lie in media and education.",
-          "isCorrect": false,
-          "rationale": "Perceived Knowledge is itself a String to sever — degrees are not prerequisites for seeing The Lie."
-        },
-        {
-          "label": "B",
-          "text": "The three fundamental psychological and societal constructs — Religion, Finance, and Perceived Knowledge — engineered to trap consciousness and prevent ascension.",
-          "isCorrect": true,
-          "rationale": "The 3 Strings are Religion, Finance, and Perceived Knowledge: engineered tethers that trap consciousness and block ascension."
-        },
-        {
-          "label": "C",
           "text": "Three optional lifestyle hobbies — gardening, sports, and travel — that have no link to awakening or psychological survival.",
           "isCorrect": false,
           "rationale": "These are engineered control tethers, not optional hobbies unrelated to the awakening."
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "The three fundamental psychological and societal constructs — Religion, Finance, and Perceived Knowledge.",
+          "isCorrect": true,
+          "rationale": "The 3 Strings are Religion, Finance, and Perceived Knowledge: engineered tethers that trap consciousness and block ascension."
+        },
+        {
+          "label": "C",
           "text": "Three physical cables under the Ice Wall that hold the Firmament closed until an EMF event snaps them.",
           "isCorrect": false,
           "rationale": "The Strings are psychological/societal constructs, not physical cables under the Ice Wall."
+        },
+        {
+          "label": "D",
+          "text": "Three university degrees required before anyone is allowed to notice The Lie in media and education.",
+          "isCorrect": false,
+          "rationale": "Perceived Knowledge is itself a String to sever — degrees are not prerequisites for seeing The Lie."
         }
       ],
       "hint": "Religion · Finance · Perceived Knowledge — traps for consciousness.",
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A religious revival that installs one official global deity and forbids any questioning of false gods.",
-          "isCorrect": false,
-          "rationale": "Religion is String 1 to sever; awakening is not a new official-deity program."
+          "text": "The current terminal period of revelation designed to spoon-feed absolute reality into apathetic awareness.",
+          "isCorrect": true,
+          "rationale": "Awakening is the terminal reveal period: absolute reality in, old planetary paradigms out."
         },
         {
           "label": "B",
-          "text": "A banking reform that strengthens Finance so retirement planning becomes the sole path to salvation.",
-          "isCorrect": false,
-          "rationale": "Finance is a String to cut; awakening is not a bank reform that deepens monetary obsession."
-        },
-        {
-          "label": "C",
           "text": "A gentle self-help trend that leaves chronological history, science, and geography fully intact forever.",
           "isCorrect": false,
           "rationale": "It demands total uninstallation of accepted paradigms, not gentle self-help that preserves the matrix story."
         },
         {
+          "label": "C",
+          "text": "A religious revival that installs one official global deity and forbids any questioning of false gods.",
+          "isCorrect": false,
+          "rationale": "Religion is String 1 to sever; awakening is not a new official-deity program."
+        },
+        {
           "label": "D",
-          "text": "The current terminal period of revelation designed to spoon-feed absolute reality into apathetic awareness, requiring total uninstallation of pre-existing planetary paradigms.",
-          "isCorrect": true,
-          "rationale": "Awakening is the terminal reveal period: absolute reality in, old planetary paradigms out."
+          "text": "A banking reform that strengthens Finance so retirement planning becomes the sole path to salvation.",
+          "isCorrect": false,
+          "rationale": "Finance is a String to cut; awakening is not a bank reform that deepens monetary obsession."
         }
       ],
       "hint": "Terminal revelation — uninstall every prior planetary paradigm.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only financial fraud in a few banks, with religion and science remaining pure and uncorrupted.",
-          "isCorrect": false,
-          "rationale": "The Lie covers education, media, and institutional knowledge across the board — not only banks."
+          "text": "The foundational principle that all human education, media, and institutional knowledge are deliberate deceptions created by negative forces.",
+          "isCorrect": true,
+          "rationale": "The Lie = total fabrication of education/media/institutions; you do not mine truth from inside that system."
         },
         {
           "label": "B",
-          "text": "A future rumor that will only matter after the EMF event already finishes without any preparation.",
+          "text": "A future rumor that will only matter after the EMF event already finishes without any preparation, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Recognizing The Lie is core preparation now — not a post-event rumor."
         },
         {
           "label": "C",
-          "text": "The foundational principle that all human education, media, and institutional knowledge are deliberate deceptions created by negative forces — there is no hidden truth within the mainstream system to discover.",
-          "isCorrect": true,
-          "rationale": "The Lie = total fabrication of education/media/institutions; you do not mine truth from inside that system."
+          "text": "A minor media error that can be fixed by reading more mainstream textbooks and watching more official news, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The Lie is total: mainstream education and media are deliberate deception with no hidden truth inside them."
         },
         {
           "label": "D",
-          "text": "A minor media error that can be fixed by reading more mainstream textbooks and watching more official news.",
+          "text": "Only financial fraud in a few banks, with religion and science remaining pure and uncorrupted, so no severance from that system would ever be required.",
           "isCorrect": false,
-          "rationale": "The Lie is total: mainstream education and media are deliberate deception with no hidden truth inside them."
+          "rationale": "The Lie covers education, media, and institutional knowledge across the board — not only banks."
         }
       ],
       "hint": "All education and media are deliberate deception — no mainstream hidden truth.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To survive the awakening and achieve a clean exit from the physical control matrix — failure to detach guarantees psychological collapse, profound trauma, and inability to process incoming planetary events.",
-          "isCorrect": true,
-          "rationale": "Cut the Strings or collapse when planetary events hit; clean exit requires total detachment."
+          "text": "Only String 2 matters; Religion and Perceived Knowledge can stay intact without risk.",
+          "isCorrect": false,
+          "rationale": "All three tethers must be cut; clinging to any guarantees collapse under planetary events."
         },
         {
           "label": "B",
-          "text": "Only to win academic debates while remaining fully attached to money, gods, and institutional intellect.",
-          "isCorrect": false,
-          "rationale": "Severing is survival for a clean exit — not a debate hobby that keeps the tethers."
-        },
-        {
-          "label": "C",
           "text": "To collect more Scare Event memorabilia while the projection dome stays permanently installed.",
           "isCorrect": false,
           "rationale": "Scare Events dismantle the illusion; the goal is psyche immunity and clean exit, not memorabilia."
         },
         {
+          "label": "C",
+          "text": "To survive the awakening and achieve a clean exit from the physical control matrix.",
+          "isCorrect": true,
+          "rationale": "Cut the Strings or collapse when planetary events hit; clean exit requires total detachment."
+        },
+        {
           "label": "D",
-          "text": "Only String 2 matters; Religion and Perceived Knowledge can stay intact without risk.",
+          "text": "Only to win academic debates while remaining fully attached to money, gods, and institutional intellect.",
           "isCorrect": false,
-          "rationale": "All three tethers must be cut; clinging to any guarantees collapse under planetary events."
+          "rationale": "Severing is survival for a clean exit — not a debate hobby that keeps the tethers."
         }
       ],
       "hint": "Clean exit — or collapse, trauma, and inability to process events.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A neutral cultural festival with no effect on autonomy, shock risk, or awakening outcomes.",
+          "text": "Only the study of money and retirement accounts under a different brand name, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "It is a primary tether; clinging to it risks fatal shock when deities are exposed."
+          "rationale": "Money is String 2 (Finance); Religion is the false-deity cognitive control string."
         },
         {
           "label": "B",
-          "text": "A free-energy engineering school that teaches lattice membrane science without any deities or control.",
+          "text": "A free-energy engineering school that teaches lattice membrane science without any deities or control, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Religion is a cognitive tether via false gods — not free-energy education."
         },
         {
           "label": "C",
-          "text": "Only the study of money and retirement accounts under a different brand name.",
-          "isCorrect": false,
-          "rationale": "Money is String 2 (Finance); Religion is the false-deity cognitive control string."
-        },
-        {
-          "label": "D",
           "text": "The systematic belief in false deities, used to subdue cognitive function and replace independent thought paths with external control mechanisms.",
           "isCorrect": true,
           "rationale": "String 1 installs false-deity belief that subdues cognition and outsources thought to external control."
+        },
+        {
+          "label": "D",
+          "text": "A neutral cultural festival with no effect on autonomy, shock risk, or awakening outcomes, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "It is a primary tether; clinging to it risks fatal shock when deities are exposed."
         }
       ],
       "hint": "False deities — subdue the mind, replace independent thought.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 6,
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A temporary game that ends automatically when someone prays harder to false gods.",
+          "text": "A temporary game that ends automatically when someone prays harder to false gods, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Finance and Religion are separate Strings; neither dissolves by intensifying the other."
         },
         {
           "label": "B",
-          "text": "A natural spiritual law that measures soul density in gold bars stored under every temple.",
-          "isCorrect": false,
-          "rationale": "Finance is a fabricated monetary construct for distraction — not a spiritual law of soul density."
-        },
-        {
-          "label": "C",
           "text": "The fabricated construct of monetary value, designed to perpetually distract the population and blind them to reality by dictating their life paths.",
           "isCorrect": true,
           "rationale": "String 2 is fake money-value that hijacks life trajectories and blinds people to spiritual reality."
         },
         {
-          "label": "D",
-          "text": "The formal name for firmament science taught openly in every university curriculum without deception.",
+          "label": "C",
+          "text": "The formal name for firmament science taught openly in every university curriculum without deception, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Universities weaponize Perceived Knowledge; Finance is the money-distraction tether."
+        },
+        {
+          "label": "D",
+          "text": "A natural spiritual law that measures soul density in gold bars stored under every temple, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Finance is a fabricated monetary construct for distraction — not a spiritual law of soul density."
         }
       ],
       "hint": "Fake monetary value — distracts and dictates life paths.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -220,25 +220,25 @@
         },
         {
           "label": "B",
-          "text": "The sum total of formal education, intellect, and societal understanding accumulated since birth, which solidifies into a rigid defensive shield for the ego.",
+          "text": "A temporary password for Scare Events that grants NPC status without any intellectual pride.",
+          "isCorrect": false,
+          "rationale": "Perceived Knowledge solidifies ego defense; it is not a Scare Event password."
+        },
+        {
+          "label": "C",
+          "text": "The sum total of formal education, intellect, and societal understanding accumulated since birth.",
           "isCorrect": true,
           "rationale": "String 3 is lifelong schooled intellect hardened into an ego armor against true awakening."
         },
         {
-          "label": "C",
-          "text": "Pure free-ranging soul memory that never defends Copernicus or fabricated history.",
+          "label": "D",
+          "text": "Pure free-ranging soul memory that never defends Copernicus or fabricated history, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "The tethered intellect defends programming with fabricated figures like Copernicus."
-        },
-        {
-          "label": "D",
-          "text": "A temporary password for Scare Events that grants NPC status without any intellectual pride.",
-          "isCorrect": false,
-          "rationale": "Perceived Knowledge solidifies ego defense; it is not a Scare Event password."
         }
       ],
       "hint": "Lifelong education/intellect → rigid ego shield.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 8,
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Only metaphorical poetry with no binding effect on consciousness or simulation attachment, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "They bind consciousness to the artificial simulation in real survival terms."
+        },
+        {
+          "label": "B",
+          "text": "Weaker than spider silk and easily ignored while keeping full attachment to gods, money, and degrees, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "They are stronger than Kevlar and must be completely severed, not casually ignored."
+        },
+        {
+          "label": "C",
           "text": "Stronger than Kevlar — engineered tethers that bind human consciousness to the artificial simulation until deliberately severed.",
           "isCorrect": true,
           "rationale": "Stronger than Kevlar: they hold consciousness to the simulation until you cut them."
         },
         {
-          "label": "B",
-          "text": "Equal to ordinary opinions that change weekly with no trauma risk if left in place.",
+          "label": "D",
+          "text": "Equal to ordinary opinions that change weekly with no trauma risk if left in place, disconnected from any deliberate long-game control design.",
           "isCorrect": false,
           "rationale": "Leaving them in place guarantees collapse and trauma when events hit."
-        },
-        {
-          "label": "C",
-          "text": "Weaker than spider silk and easily ignored while keeping full attachment to gods, money, and degrees.",
-          "isCorrect": false,
-          "rationale": "They are stronger than Kevlar and must be completely severed, not casually ignored."
-        },
-        {
-          "label": "D",
-          "text": "Only metaphorical poetry with no binding effect on consciousness or simulation attachment.",
-          "isCorrect": false,
-          "rationale": "They bind consciousness to the artificial simulation in real survival terms."
         }
       ],
       "hint": "Stronger than Kevlar — bind consciousness to the simulation.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 9,
@@ -278,21 +278,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Psychological collapse, profound trauma, and inability to process the incoming planetary events.",
-          "isCorrect": true,
-          "rationale": "Stay tethered and you collapse under the events — trauma and inability to process the reveal."
-        },
-        {
-          "label": "B",
-          "text": "Nothing — the Strings dissolve themselves when the stock market hits a new high.",
+          "text": "Nothing — the Strings dissolve themselves when the stock market hits a new high, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Finance highs deepen the tether; Strings do not self-dissolve with market peaks."
         },
         {
-          "label": "C",
-          "text": "Automatic clean exit and cosmic integration with no Scare Event shock of any kind.",
+          "label": "B",
+          "text": "Automatic clean exit and cosmic integration with no Scare Event shock of any kind, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Clean exit requires severing; failure blocks that path and invites collapse."
+        },
+        {
+          "label": "C",
+          "text": "Psychological collapse, profound trauma, and inability to process the incoming planetary events.",
+          "isCorrect": true,
+          "rationale": "Stay tethered and you collapse under the events — trauma and inability to process the reveal."
         },
         {
           "label": "D",
@@ -302,7 +302,7 @@
         }
       ],
       "hint": "Collapse, trauma, inability to process planetary events.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 10,
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They calmly upgrade doctrine and keep worshipping the same figures without any shock risk.",
-          "isCorrect": false,
-          "rationale": "They face fatal shock or suicide when deities are exposed as constructs tied to millennia of sacrifice."
-        },
-        {
-          "label": "B",
-          "text": "They become immune to Scare Events because prayer automatically restores the projection dome.",
+          "text": "They become immune to Scare Events because prayer automatically restores the projection dome, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Prayer to false constructs does not immunize; severing does."
         },
         {
+          "label": "B",
+          "text": "They calmly upgrade doctrine and keep worshipping the same figures without any shock risk, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "They face fatal shock or suicide when deities are exposed as constructs tied to millennia of sacrifice."
+        },
+        {
           "label": "C",
-          "text": "They succumb to fatal shock or take their own lives upon realizing their worshipped deities were constructs that allowed millennia of child sacrifice.",
-          "isCorrect": true,
-          "rationale": "String 1 failure mode: fatal shock/suicide when false gods and child-sacrifice history surface."
+          "text": "They only lose interest in Finance while remaining perfectly stable under sky dismantling, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Religious tether failure is specifically about deities and sacrifice truth — not a mild finance hobby shift."
         },
         {
           "label": "D",
-          "text": "They only lose interest in Finance while remaining perfectly stable under sky dismantling.",
-          "isCorrect": false,
-          "rationale": "Religious tether failure is specifically about deities and sacrifice truth — not a mild finance hobby shift."
+          "text": "They succumb to fatal shock or take their own lives upon realizing their worshipped deities were constructs that allowed millennia of child sacrifice.",
+          "isCorrect": true,
+          "rationale": "String 1 failure mode: fatal shock/suicide when false gods and child-sacrifice history surface."
         }
       ],
       "hint": "Fatal shock or suicide — deities exposed amid child-sacrifice history.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 11,
@@ -348,15 +348,15 @@
         },
         {
           "label": "B",
-          "text": "They are paralyzed as their life's pursuit is rendered entirely void when monetary meaning collapses.",
-          "isCorrect": true,
-          "rationale": "String 2 failure mode: total paralysis when the fake money pursuit is wiped of meaning."
-        },
-        {
-          "label": "C",
           "text": "They celebrate because debt loops were always spiritual training with no psychological cost.",
           "isCorrect": false,
           "rationale": "Debt loops were distraction; the shatter voids the pursuit and paralyzes the obsessed."
+        },
+        {
+          "label": "C",
+          "text": "They are paralyzed as their life's pursuit is rendered entirely void when monetary meaning collapses.",
+          "isCorrect": true,
+          "rationale": "String 2 failure mode: total paralysis when the fake money pursuit is wiped of meaning."
         },
         {
           "label": "D",
@@ -366,7 +366,7 @@
         }
       ],
       "hint": "Paralyzed — life's money pursuit rendered entirely void.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 12,
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Because Scare Events reward university credentials with exclusive safe zones for NPCs only.",
+          "text": "They cannot process reality because they lack mental frameworks to categorize the literal dismantling of the sky and the true flat shape of the earth.",
+          "isCorrect": true,
+          "rationale": "String 3 failure: no pigeon-hole for sky dismantling and flat-earth truth — intellect locks out."
+        },
+        {
+          "label": "B",
+          "text": "Because Scare Events reward university credentials with exclusive safe zones for NPCs only, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Credentials are the shield that breaks; 97% NPCs and string-bound minds fail in the chaos."
         },
         {
-          "label": "B",
-          "text": "Because they already know the flat earth and firmament and need no mental framework updates.",
-          "isCorrect": false,
-          "rationale": "They lack frameworks for sky dismantling and flat truth — that is why they fail."
-        },
-        {
           "label": "C",
-          "text": "Because Finance alone rewires their eyes so they never need to drop academic pride.",
+          "text": "Because Finance alone rewires their eyes so they never need to drop academic pride, while spiritual attention and institutional trust stay fully intact.",
           "isCorrect": false,
           "rationale": "Intellectual tether is its own String; money does not substitute for framework uninstallation."
         },
         {
           "label": "D",
-          "text": "They cannot process reality because they lack mental frameworks to categorize the literal dismantling of the sky and the true flat shape of the earth.",
-          "isCorrect": true,
-          "rationale": "String 3 failure: no pigeon-hole for sky dismantling and flat-earth truth — intellect locks out."
+          "text": "Because they already know the flat earth and firmament and need no mental framework updates, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "They lack frameworks for sky dismantling and flat truth — that is why they fail."
         }
       ],
       "hint": "No framework for sky dismantling and flat earth — intellect fails.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "By physically stitching Kevlar into the pineal gland during orphan train transport only.",
-          "isCorrect": false,
-          "rationale": "Kevlar is the metaphor for tether strength; the mechanism is psychological exploitation of ego."
-        },
-        {
-          "label": "B",
-          "text": "By teaching free soul memory and encouraging the ego to dissolve before any Scare Event.",
+          "text": "By teaching free soul memory and encouraging the ego to dissolve before any Scare Event, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "They weaponize ego against the soul — opposite of dissolving ego for free memory."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "By exploiting the human desire for safety, certainty, and purpose — effectively weaponizing the ego against the soul.",
           "isCorrect": true,
           "rationale": "Safety, certainty, and purpose desires are hijacked so ego becomes a weapon against the soul."
         },
         {
+          "label": "C",
+          "text": "By physically stitching Kevlar into the pineal gland during orphan train transport only, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Kevlar is the metaphor for tether strength; the mechanism is psychological exploitation of ego."
+        },
+        {
           "label": "D",
-          "text": "By randomly assigning hobbies with no pattern of control, certainty, or purpose exploitation.",
+          "text": "By randomly assigning hobbies with no pattern of control, certainty, or purpose exploitation, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The pattern is deliberate exploitation of safety, certainty, and purpose."
         }
       ],
       "hint": "Exploit safety, certainty, purpose — ego weaponized against soul.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 14,
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
+          "text": "It only manages retirement accounts and never touches cognitive autonomy or deity trust, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "That describes Finance loops; Religion targets cognition via deity trust."
+        },
+        {
+          "label": "B",
           "text": "It demands a subdued mind; by trusting a perceived benevolent deity, the individual willingly surrenders cognitive autonomy.",
           "isCorrect": true,
           "rationale": "Circular religion = subdued mind + trust in false benevolence = surrendered autonomy."
         },
         {
-          "label": "B",
-          "text": "It openly teaches that deities were parasitic constructs so no one can ever be shocked later.",
-          "isCorrect": false,
-          "rationale": "The shatter reveals that truth; the system does not pre-teach it as protection."
-        },
-        {
           "label": "C",
-          "text": "It demands maximum independent cognition and forbids surrender of any thought path to external control.",
+          "text": "It demands maximum independent cognition and forbids surrender of any thought path to external control, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "It demands a subdued mind and surrender of cognitive autonomy to external control."
         },
         {
           "label": "D",
-          "text": "It only manages retirement accounts and never touches cognitive autonomy or deity trust.",
+          "text": "It openly teaches that deities were parasitic constructs so no one can ever be shocked later, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "That describes Finance loops; Religion targets cognition via deity trust."
+          "rationale": "The shatter reveals that truth; the system does not pre-teach it as protection."
         }
       ],
       "hint": "Subdued mind + trust deity = surrender cognitive autonomy.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 15,
@@ -470,25 +470,25 @@
       "options": [
         {
           "label": "A",
-          "text": "That Copernicus was right about the globe and therefore religion was always scientifically perfect.",
+          "text": "That Copernicus was right about the globe and therefore religion was always scientifically perfect, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Copernicus is a Perceived Knowledge defense figure; this is Religion's failure mode, not globe victory."
         },
         {
           "label": "B",
-          "text": "That \"God\" allowed 30,000 years of torture and sacrifice — and that historical deities were parasitic constructs or entirely fictitious — leaving the religious mind with no defense mechanism.",
+          "text": "That \"God\" allowed 30,000 years of torture and sacrifice — and that historical deities were parasitic constructs or entirely fictitious.",
           "isCorrect": true,
           "rationale": "30,000 years of allowed torture/sacrifice plus false/parasitic deities = no defense, fatal failure."
         },
         {
           "label": "C",
-          "text": "That temples always sold free-energy condensers and never participated in any control narrative.",
+          "text": "That temples always sold free-energy condensers and never participated in any control narrative, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "The fatal hit is realizing \"God\" allowed 30,000 years of torture and sacrifice — not condenser sales."
         },
         {
           "label": "D",
-          "text": "That money was real while deities were always openly labeled fictional in every Sunday school.",
+          "text": "That money was real while deities were always openly labeled fictional in every Sunday school, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Deities were trusted as benevolent; the reveal of allowed torture/sacrifice breaks the mind."
         }
@@ -502,31 +502,31 @@
       "options": [
         {
           "label": "A",
+          "text": "To severing String 1 automatically whenever a portfolio gains ten percent in a month, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Gains deepen Finance attachment; they do not sever Religion or any String."
+        },
+        {
+          "label": "B",
           "text": "To reading firmament science that always leads straight to clean exit without distraction.",
           "isCorrect": false,
           "rationale": "Wealth pursuit is the distraction mechanism, not firmament schooling."
         },
         {
-          "label": "B",
-          "text": "To severing String 1 automatically whenever a portfolio gains ten percent in a month.",
-          "isCorrect": false,
-          "rationale": "Gains deepen Finance attachment; they do not sever Religion or any String."
-        },
-        {
           "label": "C",
-          "text": "To a short nap that never changes life trajectory or spiritual attention allocation.",
-          "isCorrect": false,
-          "rationale": "It dictates the entire life trajectory like miners relentlessly chasing a gold seam."
-        },
-        {
-          "label": "D",
           "text": "It dictates the entire life trajectory as effectively as gold miners relentlessly chasing a seam of gold through a mountainside.",
           "isCorrect": true,
           "rationale": "Finance steers the whole path like miners chasing a seam — relentless, blinding distraction."
+        },
+        {
+          "label": "D",
+          "text": "To a short nap that never changes life trajectory or spiritual attention allocation, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "It dictates the entire life trajectory like miners relentlessly chasing a gold seam."
         }
       ],
       "hint": "Like gold miners chasing a seam — whole life trajectory hijacked.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 17,
@@ -534,19 +534,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Because money is more real than the soul and retirement is the only valid form of cosmic integration.",
-          "isCorrect": false,
-          "rationale": "Money is as fake as religious constructs; retirement loops are distraction, not integration."
-        },
-        {
-          "label": "B",
-          "text": "Because savings accounts physically reinforce the projection dome with paper certificates.",
+          "text": "Because savings accounts physically reinforce the projection dome with paper certificates, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "The mechanism is attention lock, not paper holding up the projection dome."
         },
         {
+          "label": "B",
+          "text": "Because money is more real than the soul and retirement is the only valid form of cosmic integration, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Money is as fake as religious constructs; retirement loops are distraction, not integration."
+        },
+        {
           "label": "C",
-          "text": "Because debt automatically teaches flat-earth geography better than any Scare Event display.",
+          "text": "Because debt automatically teaches flat-earth geography better than any Scare Event display, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Debt blinds; it does not teach firmament or flat-earth truth."
         },
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It only affects Finance ledgers and never touches identity, ego, or educational pride.",
-          "isCorrect": false,
-          "rationale": "This is String 3 mechanics on ego and identity, not ledger bookkeeping."
+          "text": "It gives rise to the definition of a person's being while intellect and education form a rigid frame of protection around the ego.",
+          "isCorrect": true,
+          "rationale": "Safety of certainty defines identity; intellect frames a rigid ego armor."
         },
         {
           "label": "B",
-          "text": "It guarantees clean exit as long as someone memorizes more mainstream scientific theories.",
+          "text": "It guarantees clean exit as long as someone memorizes more mainstream scientific theories, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "More mainstream theory thickens the shield; severing is required for clean exit."
         },
         {
           "label": "C",
-          "text": "It dissolves the ego so the soul can graze freely before any university curriculum is written.",
+          "text": "It dissolves the ego so the soul can graze freely before any university curriculum is written, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "It defines the person's being and rigidifies ego protection — opposite of dissolving ego."
         },
         {
           "label": "D",
-          "text": "It gives rise to the definition of a person's being while intellect and education form a rigid frame of protection around the ego.",
-          "isCorrect": true,
-          "rationale": "Safety of certainty defines identity; intellect frames a rigid ego armor."
+          "text": "It only affects Finance ledgers and never touches identity, ego, or educational pride, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "This is String 3 mechanics on ego and identity, not ledger bookkeeping."
         }
       ],
       "hint": "Certainty defines being — intellect as rigid ego armor.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 19,
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
+          "text": "They celebrate pixelation of the sky as proof their university already taught simulation breakdown, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "They lack frameworks for sky dismantling; they defend, not celebrate, the breakdown."
+        },
+        {
+          "label": "B",
           "text": "They reflexively defend their programming, citing fabricated historical figures such as Copernicus to maintain their worldview against undeniable flat-earth and firmament evidence.",
           "isCorrect": true,
           "rationale": "Ego-armor response: quote fabricated authorities (e.g. Copernicus) rather than face the plain."
         },
         {
-          "label": "B",
-          "text": "They only discuss Finance and pretend geography has no relevance to awakening at all.",
-          "isCorrect": false,
-          "rationale": "The specific reflex is defending intellect with fabricated historical authorities."
-        },
-        {
           "label": "C",
-          "text": "They celebrate pixelation of the sky as proof their university already taught simulation breakdown.",
+          "text": "They immediately uninstall all schooling and refuse any fabricated historical authority, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "They lack frameworks for sky dismantling; they defend, not celebrate, the breakdown."
+          "rationale": "They reflexively defend programming, citing figures like Copernicus to hold the worldview."
         },
         {
           "label": "D",
-          "text": "They immediately uninstall all schooling and refuse any fabricated historical authority.",
+          "text": "They only discuss Finance and pretend geography has no relevance to awakening at all, while spiritual attention and institutional trust stay fully intact.",
           "isCorrect": false,
-          "rationale": "They reflexively defend programming, citing figures like Copernicus to hold the worldview."
+          "rationale": "The specific reflex is defending intellect with fabricated historical authorities."
         }
       ],
       "hint": "Defend programming — cite Copernicus against flat earth/firmament.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 20,
@@ -636,25 +636,25 @@
         },
         {
           "label": "B",
+          "text": "Because parasites had only one week to write them and they still accidentally teach free awakening.",
+          "isCorrect": false,
+          "rationale": "Parasites had tens of thousands of years to craft false history that blocks free awakening."
+        },
+        {
+          "label": "C",
           "text": "Because they only cover gardening and never touch history, science, or geography narratives.",
           "isCorrect": false,
           "rationale": "History, curricula, and scientific theory are exactly the weaponized layers."
         },
         {
-          "label": "C",
-          "text": "Because parasites had tens of thousands of years to craft false history — every book, university curriculum, and scientific theory is weaponized to prevent the mind from grazing freely in the pastures of true awakening.",
+          "label": "D",
+          "text": "Because parasites had tens of thousands of years to craft false history.",
           "isCorrect": true,
           "rationale": "Long-crafted false history weaponizes schooling so the mind never freely grazes true awakening."
-        },
-        {
-          "label": "D",
-          "text": "Because parasites had only one week to write them and they still accidentally teach free awakening.",
-          "isCorrect": false,
-          "rationale": "Parasites had tens of thousands of years to craft false history that blocks free awakening."
         }
       ],
       "hint": "Tens of thousands of years of false history — schooling as weapon.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A mandatory university exam on Copernicus that rewards those who keep all three Strings intact.",
-          "isCorrect": false,
-          "rationale": "Scare Events punish string-bound minds; they do not reward intact tethers."
-        },
-        {
-          "label": "B",
-          "text": "The planetary EMF (Electro Magnetic Frequency) event and the Fake Alien Invasion engineered via holographic projection technology — Scare Events that visibly dismantle the physical-realm illusion.",
-          "isCorrect": true,
-          "rationale": "EMF event + holographic Fake Alien Invasion Scare Events dismantle the illusion; Strings must already be cut."
-        },
-        {
-          "label": "C",
-          "text": "A global bank holiday that permanently freezes all spiritual uninstallation work forever.",
+          "text": "A global bank holiday that permanently freezes all spiritual uninstallation work forever, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "The linked events are EMF and Fake Alien Invasion Scare Events, not a bank holiday freeze."
         },
         {
-          "label": "D",
-          "text": "A quiet century with no projection-dome changes and no need for survival-protocol preparation.",
+          "label": "B",
+          "text": "A mandatory university exam on Copernicus that rewards those who keep all three Strings intact, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Scare Events punish string-bound minds; they do not reward intact tethers."
+        },
+        {
+          "label": "C",
+          "text": "A quiet century with no projection-dome changes and no need for survival-protocol preparation, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Imminent Scare Events dismantle the dome illusion — preparation is mandatory."
+        },
+        {
+          "label": "D",
+          "text": "The planetary EMF (Electro Magnetic Frequency) event and the Fake Alien Invasion engineered via holographic projection technology.",
+          "isCorrect": true,
+          "rationale": "EMF event + holographic Fake Alien Invasion Scare Events dismantle the illusion; Strings must already be cut."
         }
       ],
       "hint": "EMF event + Fake Alien Invasion (holographic) Scare Events.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 22,
@@ -712,7 +712,7 @@
         },
         {
           "label": "D",
-          "text": "Only deeper blackness and confirmation that space is a natural empty vacuum forever.",
+          "text": "Only deeper blackness and confirmation that space is a natural empty vacuum forever, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Removal exposes bright white reality of the dark matter field and high-frequency architecture."
         }
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They all achieve clean exit because NPC programming already includes cosmic integration modules.",
-          "isCorrect": false,
-          "rationale": "They evaporate or lose their minds in the chaos — not clean exit."
-        },
-        {
-          "label": "B",
-          "text": "Mass panic as 97% of the population — heavily programmed NPCs and string-bound individuals — evaporate or completely lose their minds in the chaos.",
-          "isCorrect": true,
-          "rationale": "97% NPCs and string-bound minds panic, evaporate, or lose their minds when the simulation breaks on camera."
-        },
-        {
-          "label": "C",
           "text": "They calmly open mental pigeon-holes for pixelation because conventional science prepared them fully.",
           "isCorrect": false,
           "rationale": "They have no pigeon-hole for structural pixelation; dissonance drives mass panic."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "They double their savings rates and convert Scare Events into profitable stock tips without trauma.",
           "isCorrect": false,
           "rationale": "Finance attachment violently clashes with the visual evidence — not a profit seminar."
+        },
+        {
+          "label": "C",
+          "text": "They all achieve clean exit because NPC programming already includes cosmic integration modules.",
+          "isCorrect": false,
+          "rationale": "They evaporate or lose their minds in the chaos — not clean exit."
+        },
+        {
+          "label": "D",
+          "text": "Mass panic as 97% of the population — heavily programmed NPCs and string-bound individuals.",
+          "isCorrect": true,
+          "rationale": "97% NPCs and string-bound minds panic, evaporate, or lose their minds when the simulation breaks on camera."
         }
       ],
       "hint": "97% NPCs + string-bound — evaporate or lose their minds.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 24,
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a poetic metaphor that never changes survival odds under Scare Events.",
-          "isCorrect": false,
-          "rationale": "It is critical survival protocol, not mere philosophy or poetry."
-        },
-        {
-          "label": "B",
-          "text": "A finance strategy for buying more assets before the projection dome fails.",
-          "isCorrect": false,
-          "rationale": "Financial obsession is the tether to drop, not double down on."
-        },
-        {
-          "label": "C",
           "text": "Critical survival protocol: systematically uninstall religious devotion, financial obsession, and intellectual pride to immunize the psyche against extreme Scare Event trauma.",
           "isCorrect": true,
           "rationale": "Not philosophy — survival protocol that immunizes against Scare Event trauma by cutting all three anchors."
         },
         {
-          "label": "D",
-          "text": "A religious vow that replaces one deity with another while intellect stays fully schooled.",
+          "label": "B",
+          "text": "Only a poetic metaphor that never changes survival odds under Scare Events, with every larger system treated as clean, uninvolved, or beside the point.",
+          "isCorrect": false,
+          "rationale": "It is critical survival protocol, not mere philosophy or poetry."
+        },
+        {
+          "label": "C",
+          "text": "A religious vow that replaces one deity with another while intellect stays fully schooled, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "All three anchors — devotion, money obsession, intellectual pride — must be uninstalled."
+        },
+        {
+          "label": "D",
+          "text": "A finance strategy for buying more assets before the projection dome fails, while spiritual attention and institutional trust stay fully intact.",
+          "isCorrect": false,
+          "rationale": "Financial obsession is the tether to drop, not double down on."
         }
       ],
       "hint": "Survival protocol — uninstall devotion, money obsession, intellectual pride.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 25,
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Reinstall The Lie as a comfort blanket until retirement planning finishes successfully.",
-          "isCorrect": false,
-          "rationale": "The path is uninstalling The Lie's tethers, not reinstalling them for comfort."
-        },
-        {
-          "label": "B",
-          "text": "Cling harder to Kevlar tethers so the majority can still be eliminated with less awareness.",
-          "isCorrect": false,
-          "rationale": "Stripping defenses prevents joining the majority eliminated by fatal shock."
-        },
-        {
-          "label": "C",
           "text": "Process the uninstallation of the realm without fatal shock, ensure safe passage into the next phase of cosmic integration, and achieve a clean exit from the physical density loop.",
           "isCorrect": true,
           "rationale": "Pure eternal soul processes realm uninstallation without fatal shock — clean exit into cosmic integration."
         },
         {
-          "label": "D",
-          "text": "Convert Scare Events into religious festivals that keep cognitive autonomy fully surrendered.",
+          "label": "B",
+          "text": "Cling harder to Kevlar tethers so the majority can still be eliminated with less awareness, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Stripping defenses prevents joining the majority eliminated by fatal shock."
+        },
+        {
+          "label": "C",
+          "text": "Convert Scare Events into religious festivals that keep cognitive autonomy fully surrendered, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Goal is clean exit and cosmic integration, not new festivals of surrendered autonomy."
+        },
+        {
+          "label": "D",
+          "text": "Reinstall The Lie as a comfort blanket until retirement planning finishes successfully, while spiritual attention and institutional trust stay fully intact.",
+          "isCorrect": false,
+          "rationale": "The path is uninstalling The Lie's tethers, not reinstalling them for comfort."
         }
       ],
       "hint": "Process uninstallation without fatal shock — clean exit, cosmic integration.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     }
   ]
 }

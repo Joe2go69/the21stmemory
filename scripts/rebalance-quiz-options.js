@@ -1,8 +1,11 @@
 /**
- * Rebalance quiz option order and length tells.
- * - Shuffles options so correct answers spread across A/B/C/D (seeded, stable)
- * - Expands short wrong options so "longest answer = correct" is less reliable
+ * DEPRECATED for length balancing.
  *
+ * This script expands short wrong options with stock filler tails, which
+ * produces nonsense / repetitive padding. Prefer:
+ *   node scripts/rebalance-quiz-length.js --all-alice
+ *
+ * Kept only for letter-shuffle experiments; expandWrong here still uses tails.
  * Usage:
  *   node scripts/rebalance-quiz-options.js
  *   node scripts/rebalance-quiz-options.js data/quizzes/alice/grey-ets.json

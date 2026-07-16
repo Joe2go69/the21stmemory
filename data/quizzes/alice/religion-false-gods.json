@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
+          "text": "An optional cultural festival that can stay intact while only Finance is uninstalled, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "All three Strings must be severed; clinging to Religion guarantees collapse under terminal events."
+        },
+        {
+          "label": "B",
+          "text": "String 2 only — a monetary hobby that has no link to deities, cognition, or clean-exit survival, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Finance is String 2; Religion is String 1, the false-god cognitive tether."
+        },
+        {
+          "label": "C",
           "text": "String 1 — one of the three primary psychological tethers that must be entirely severed to achieve a clean exit during the Great Spiritual Awakening.",
           "isCorrect": true,
           "rationale": "Religion is String 1 of the 3 Strings; it must be fully cut for a clean exit in the awakening."
         },
         {
-          "label": "B",
-          "text": "A free-energy school that teaches Lattice Membrane science without any external control.",
+          "label": "D",
+          "text": "A free-energy school that teaches Lattice Membrane science without any external control, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Religion subdues cognition via False Gods; it is not free-energy education."
-        },
-        {
-          "label": "C",
-          "text": "An optional cultural festival that can stay intact while only Finance is uninstalled.",
-          "isCorrect": false,
-          "rationale": "All three Strings must be severed; clinging to Religion guarantees collapse under terminal events."
-        },
-        {
-          "label": "D",
-          "text": "String 2 only — a monetary hobby that has no link to deities, cognition, or clean-exit survival.",
-          "isCorrect": false,
-          "rationale": "Finance is String 2; Religion is String 1, the false-god cognitive tether."
         }
       ],
       "hint": "String 1 of the 3 Strings — sever for clean exit.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -60,21 +60,21 @@
         },
         {
           "label": "B",
-          "text": "As an open laboratory that maximizes independent thought and bans all worship of external figures.",
+          "text": "As pure cosmology that already teaches the flat Earth and bans every satanic inversion, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Religion pacifies the soul into suffering and external salvation — it does not teach true cosmology."
+        },
+        {
+          "label": "C",
+          "text": "As an open laboratory that maximizes independent thought and bans all worship of external figures, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "It is a circular belief system that subdues cognition through worship of False Gods."
         },
         {
-          "label": "C",
-          "text": "As a temporary bank product that only manages retirement accounts without touching cognition.",
+          "label": "D",
+          "text": "As a temporary bank product that only manages retirement accounts without touching cognition, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "That tracks Finance; Religion targets the mind through deity worship."
-        },
-        {
-          "label": "D",
-          "text": "As pure cosmology that already teaches the flat Earth and bans every satanic inversion.",
-          "isCorrect": false,
-          "rationale": "Religion pacifies the soul into suffering and external salvation — it does not teach true cosmology."
         }
       ],
       "hint": "Circular belief — subdue cognition via False Gods.",
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Outsource devotion to university experts while never examining False Gods at all.",
-          "isCorrect": false,
-          "rationale": "Circular religion already replaces independent cognition with external authorities — that is the trap."
-        },
-        {
-          "label": "B",
-          "text": "Completely eradicate all religious beliefs, thoughtforms, and concepts of deities — total uninstallation of String 1.",
+          "text": "Completely eradicate all religious beliefs, thoughtforms, and concepts of deities.",
           "isCorrect": true,
           "rationale": "Survival requires total eradication of religious belief constructs, not partial reform."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Upgrade to a single global deity while keeping prayer schedules and temple gold intact.",
           "isCorrect": false,
           "rationale": "All religious beliefs, thoughtforms, and deity concepts must be completely eradicated."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "Keep a fractional private faith because small belief never risks psychological destruction.",
           "isCorrect": false,
           "rationale": "Even fractional belief that a god might be real guarantees psychological destruction in terminal phases."
+        },
+        {
+          "label": "D",
+          "text": "Outsource devotion to university experts while never examining False Gods at all.",
+          "isCorrect": false,
+          "rationale": "Circular religion already replaces independent cognition with external authorities — that is the trap."
         }
       ],
       "hint": "Eradicate all religious beliefs, thoughtforms, and deity concepts.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Permanent Vatican VIP status with free access to all thirteen subterranean levels, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "The Vatican is a parasitic hub, not a reward lounge for the devout."
+        },
+        {
+          "label": "B",
           "text": "Profound psychological collapse, fatal shock, or suicide when events reveal the true satanic nature of the realm's worshipped figures.",
           "isCorrect": true,
           "rationale": "Devotion left intact ends in collapse, fatal shock, or suicide at the reveal."
         },
         {
-          "label": "B",
-          "text": "Automatic clean exit and immunity to Scare Events through stronger prayer alone.",
-          "isCorrect": false,
-          "rationale": "Clinging guarantees collapse, fatal shock, or suicide — not clean exit."
-        },
-        {
           "label": "C",
-          "text": "Only mild boredom with no link to satanic exposure of worshipped figures.",
+          "text": "Only mild boredom with no link to satanic exposure of worshipped figures, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Terminal events reveal the satanic nature of worshipped figures — shock is extreme."
         },
         {
           "label": "D",
-          "text": "Permanent Vatican VIP status with free access to all thirteen subterranean levels.",
+          "text": "Automatic clean exit and immunity to Scare Events through stronger prayer alone, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "The Vatican is a parasitic hub, not a reward lounge for the devout."
+          "rationale": "Clinging guarantees collapse, fatal shock, or suicide — not clean exit."
         }
       ],
       "hint": "Collapse, fatal shock, or suicide — satanic nature of worshipped figures.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 5,
@@ -150,25 +150,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Literal free-energy engineers who openly taught Lattice Membrane science in every temple.",
-          "isCorrect": false,
-          "rationale": "They are control constructs and satanic idolatry mechanisms, not free-energy teachers."
-        },
-        {
-          "label": "B",
-          "text": "Only obscure local spirits with no presence in mainstream named religions or global control.",
-          "isCorrect": false,
-          "rationale": "They include the mainline named figures used worldwide for control."
-        },
-        {
-          "label": "C",
-          "text": "Neutral finance mascots that never touch cognition, sacrifice history, or soul recycling.",
+          "text": "Neutral finance mascots that never touch cognition, sacrifice history, or soul recycling in any density, cycle, or historical configuration.",
           "isCorrect": false,
           "rationale": "False Gods drive religious subjugation; Finance is a separate String."
         },
         {
+          "label": "B",
+          "text": "Literal free-energy engineers who openly taught Lattice Membrane science in every temple, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "They are control constructs and satanic idolatry mechanisms, not free-energy teachers."
+        },
+        {
+          "label": "C",
+          "text": "Only obscure local spirits with no presence in mainstream named religions or global control and no hidden harvest architecture behind the scenes.",
+          "isCorrect": false,
+          "rationale": "They include the mainline named figures used worldwide for control."
+        },
+        {
           "label": "D",
-          "text": "Fictional or parasitic constructs worshipped across planetary religions — including God, Allah, Jesus, Mohammed, and Zoroaster — serving as mechanisms for societal subjugation and satanic idolatry.",
+          "text": "Fictional or parasitic constructs worshipped across planetary religions — including God, Allah, Jesus, Mohammed, and Zoroaster.",
           "isCorrect": true,
           "rationale": "False Gods span the major named deities and function as subjugation and satanic idolatry tools."
         }
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "EBS, EMF, and the Projection Dome as physical cables under the Ice Wall alone.",
-          "isCorrect": false,
-          "rationale": "Those are reveal mechanisms; the Strings are Religion, Finance, and Perceived Knowledge."
-        },
-        {
-          "label": "B",
           "text": "Religion, Finance, and Perceived Knowledge — psychological anchors stronger than Kevlar that bind consciousness to the artificial realm and must be severed to avoid psychological dissolution.",
           "isCorrect": true,
           "rationale": "Three Kevlar-strong anchors: Religion, Finance, Perceived Knowledge — cut them or dissolve."
         },
         {
-          "label": "C",
-          "text": "Three optional hobbies thinner than silk that dissolve if you change the channel once.",
+          "label": "B",
+          "text": "Three optional hobbies thinner than silk that dissolve if you change the channel once, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "They are stronger than Kevlar and must be severed to avoid psychological dissolution."
         },
         {
-          "label": "D",
-          "text": "Only Vatican architecture, gold mines, and university libraries with no ego or consciousness effect.",
+          "label": "C",
+          "text": "Only Vatican architecture, gold mines, and university libraries with no ego or consciousness effect, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "The Strings are psychological anchors on consciousness, not mere building categories."
+        },
+        {
+          "label": "D",
+          "text": "EBS, EMF, and the Projection Dome as physical cables under the Ice Wall alone, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Those are reveal mechanisms; the Strings are Religion, Finance, and Perceived Knowledge."
         }
       ],
       "hint": "Religion · Finance · Perceived Knowledge — stronger than Kevlar.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Quietly restore the projection dome so religious programming never faces visual challenge, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "EBS and related terminal events dismantle illusions; they do not restore the dome for comfort."
+        },
+        {
+          "label": "B",
           "text": "Undeniably prove the non-existence of benevolent religious deities by exposing millennia of suppressed atrocities.",
           "isCorrect": true,
           "rationale": "EBS is the orchestrated broadcast that shatters benevolent-deity fiction with atrocity truth."
         },
         {
-          "label": "B",
-          "text": "Only announce stock prices and never mention child sacrifice or false benevolence.",
+          "label": "C",
+          "text": "Only announce stock prices and never mention child sacrifice or false benevolence, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "EBS forces confrontation with millennia of atrocities incompatible with a loving God."
         },
         {
-          "label": "C",
-          "text": "Quietly restore the projection dome so religious programming never faces visual challenge.",
-          "isCorrect": false,
-          "rationale": "EBS and related terminal events dismantle illusions; they do not restore the dome for comfort."
-        },
-        {
           "label": "D",
-          "text": "Crown a new official global deity and order intensified worship for the next thousand years.",
+          "text": "Crown a new official global deity and order intensified worship for the next thousand years, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "EBS proves the non-existence of benevolent religious deities by exposing suppressed atrocities."
         }
       ],
       "hint": "EBS exposes atrocities — no benevolent deities left standing.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 8,
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The mortal, singular-use physical \"suit\" driven by the eternal soul — religious bloodline emphasis tethers people to third-density loops while the true self is not the family body.",
-          "isCorrect": true,
-          "rationale": "Body is a temporary suit; religious bloodline worship tethers souls into density loops."
-        },
-        {
-          "label": "B",
           "text": "A permanent golden idol that must stay worshipped to stabilize third-density loops forever.",
           "isCorrect": false,
           "rationale": "The vessel is the mortal physical suit; idolatry of bloodlines is the trap."
         },
         {
-          "label": "C",
-          "text": "The eternal self that reincarnates only inside one genetic family forever by divine law.",
-          "isCorrect": false,
-          "rationale": "The vessel is a temporary suit; the eternal soul is the true self, routinely recycled into new families."
+          "label": "B",
+          "text": "The mortal, singular-use physical \"suit\" driven by the eternal soul.",
+          "isCorrect": true,
+          "rationale": "Body is a temporary suit; religious bloodline worship tethers souls into density loops."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "A finance ledger that measures soul density in currency units after death.",
           "isCorrect": false,
           "rationale": "Vessel = temporary physical suit driven by the eternal soul — not a money ledger."
+        },
+        {
+          "label": "D",
+          "text": "The eternal self that reincarnates only inside one genetic family forever by divine law.",
+          "isCorrect": false,
+          "rationale": "The vessel is a temporary suit; the eternal soul is the true self, routinely recycled into new families."
         }
       ],
       "hint": "Temporary physical suit — eternal soul is the true self.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a tourist museum of free-energy condensers with no subterranean levels at all.",
-          "isCorrect": false,
-          "rationale": "Thirteen subterranean levels host parasitic infrastructure, not condenser museums."
+          "text": "The subterranean headquarters for parasitic entities — a luxury slaughterhouse and soul-redistribution hub on a major planetary node.",
+          "isCorrect": true,
+          "rationale": "Vatican = parasitic HQ, luxury slaughterhouse, soul-redistribution hub on a major node."
         },
         {
           "label": "B",
-          "text": "The exclusive clean-exit gate reserved for those who intensify prayer to False Gods.",
+          "text": "The exclusive clean-exit gate reserved for those who intensify prayer to False Gods, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "It enforces reincarnation loops; clean exit requires severing Religion, not deepening it."
         },
         {
           "label": "C",
-          "text": "A transparent public library that free-releases every suppressed atrocity file without portals or cages.",
+          "text": "A transparent public library that free-releases every suppressed atrocity file without portals or cages, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Beneath it: slaughterhouses, child cages, and soul-intercept portals — not open atrocity libraries."
         },
         {
           "label": "D",
-          "text": "The subterranean headquarters for parasitic entities — a luxury slaughterhouse and soul-redistribution hub on a major planetary node.",
-          "isCorrect": true,
-          "rationale": "Vatican = parasitic HQ, luxury slaughterhouse, soul-redistribution hub on a major node."
+          "text": "Only a tourist museum of free-energy condensers with no subterranean levels at all, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Thirteen subterranean levels host parasitic infrastructure, not condenser museums."
         }
       ],
       "hint": "Parasitic HQ — slaughterhouse and soul hub on a major node.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 10,
@@ -322,7 +322,7 @@
         },
         {
           "label": "C",
-          "text": "All worshipped deities are entirely fabricated constructs designed for control — believing in false gods is explicitly String 1 of the 3 Strings of Attachment.",
+          "text": "All worshipped deities are entirely fabricated constructs designed for control.",
           "isCorrect": true,
           "rationale": "Total fabrication for control = String 1; there is no safe half-real pantheon."
         },
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Instant promotion to EBS anchors who calmly narrate atrocities without personal collapse.",
-          "isCorrect": false,
-          "rationale": "They collapse under the shock; they are not calmly promoted as anchors."
-        },
-        {
-          "label": "B",
           "text": "The shock will induce fatal heart attacks or drive them to suicide when lies manufactured to mask planetary-scale child sacrifice surface.",
           "isCorrect": true,
           "rationale": "Devout minds hit fatal cardiac shock or suicide when the child-sacrifice mask falls."
         },
         {
-          "label": "C",
-          "text": "Nothing — religious programming already includes full child-sacrifice disclosure as core liturgy.",
+          "label": "B",
+          "text": "Mild curiosity followed by effortless conversion to free true cosmology with no bodily risk, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "Belief systems masked the sacrifice; disclosure is the killing blow to the program."
+          "rationale": "Shock induces fatal heart attacks or drives them to suicide — severe peril."
+        },
+        {
+          "label": "C",
+          "text": "Instant promotion to EBS anchors who calmly narrate atrocities without personal collapse, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "They collapse under the shock; they are not calmly promoted as anchors."
         },
         {
           "label": "D",
-          "text": "Mild curiosity followed by effortless conversion to free true cosmology with no bodily risk.",
+          "text": "Nothing — religious programming already includes full child-sacrifice disclosure as core liturgy, as if no adjacent systems participated at all.",
           "isCorrect": false,
-          "rationale": "Shock induces fatal heart attacks or drives them to suicide — severe peril."
+          "rationale": "Belief systems masked the sacrifice; disclosure is the killing blow to the program."
         }
       ],
       "hint": "Fatal heart attacks or suicide when child-sacrifice lies surface.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 12,
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "How the flat Earth was always in every official textbook so no cognitive clash can occur.",
-          "isCorrect": false,
-          "rationale": "EBS and dome removal shatter frameworks; textbooks were weaponized, not honest."
-        },
-        {
-          "label": "B",
-          "text": "How that figure invented free energy and banned all sacrifice for 30,000 peaceful years.",
+          "text": "How that figure invented free energy and banned all sacrifice for 30,000 peaceful years, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "EBS confronts how a loving God could permit torture, rape, and sacrifice of billions of children over 30,000 years."
         },
         {
-          "label": "C",
-          "text": "How finance alone caused every atrocity while religious figures remained fully benevolent.",
+          "label": "B",
+          "text": "How finance alone caused every atrocity while religious figures remained fully benevolent, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "The confrontation targets the benevolent-God story against child atrocity history."
         },
         {
-          "label": "D",
-          "text": "How a supposedly loving \"God\" could permit the torture, rape, and sacrifice of billions of children over 30,000 years — a history incompatible with benevolent deity claims.",
+          "label": "C",
+          "text": "How a supposedly loving \"God\" could permit the torture, rape, and sacrifice of billions of children over 30,000 years.",
           "isCorrect": true,
           "rationale": "30,000 years of child torture, rape, and sacrifice under \"God\" collapses the loving-deity story."
+        },
+        {
+          "label": "D",
+          "text": "How the flat Earth was always in every official textbook so no cognitive clash can occur, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "EBS and dome removal shatter frameworks; textbooks were weaponized, not honest."
         }
       ],
       "hint": "30,000 years — torture, rape, sacrifice of billions of children.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They rewrite EBS content live and restore full belief in benevolent deities worldwide.",
-          "isCorrect": false,
-          "rationale": "EBS forces the confrontation; the unbound mind does not get to rewrite it away."
-        },
-        {
-          "label": "B",
-          "text": "They automatically receive clean exit because collapse is counted as devotion.",
-          "isCorrect": false,
-          "rationale": "Collapse and pixelation are elimination modes, not clean exit."
-        },
-        {
-          "label": "C",
           "text": "They are relocated to crystalline temples as permanent high-frequency caretakers.",
           "isCorrect": false,
           "rationale": "They join the eliminated majority; temples were hidden by idol dampening, not gifted as prizes."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "They mentally collapse or evaporate into the aether as pixelation dust.",
           "isCorrect": true,
           "rationale": "No defense mechanism → mental collapse or evaporation into aether as pixelation dust."
+        },
+        {
+          "label": "C",
+          "text": "They rewrite EBS content live and restore full belief in benevolent deities worldwide.",
+          "isCorrect": false,
+          "rationale": "EBS forces the confrontation; the unbound mind does not get to rewrite it away."
+        },
+        {
+          "label": "D",
+          "text": "They automatically receive clean exit because collapse is counted as devotion.",
+          "isCorrect": false,
+          "rationale": "Collapse and pixelation are elimination modes, not clean exit."
         }
       ],
       "hint": "Collapse or evaporate as pixelation dust — no defense left.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 14,
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
-          "text": "By publishing full Vatican subterranean maps and inviting public audits of every portal.",
-          "isCorrect": false,
-          "rationale": "Circular religion hides and controls; it does not open parasitic infrastructure to audit."
-        },
-        {
-          "label": "B",
-          "text": "By making money illegal so only pure soul memory can dictate life paths.",
-          "isCorrect": false,
-          "rationale": "Finance remains another String; Religion's mechanic is cognitive subjugation via belief."
-        },
-        {
-          "label": "C",
-          "text": "By training everyone to distrust experts and graze freely in true awakening pastures only.",
+          "text": "By training everyone to distrust experts and graze freely in true awakening pastures only, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "It replaces independent thought with dictates of external authorities or \"experts\"."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "It requires a subdued mind so natural cognition and independent thought paths are easily replaced by the dictates of external authorities or \"experts\".",
           "isCorrect": true,
           "rationale": "Subdued mind → independent paths overwritten by external religious authorities."
+        },
+        {
+          "label": "C",
+          "text": "By making money illegal so only pure soul memory can dictate life paths, so no severance from that system would ever be required.",
+          "isCorrect": false,
+          "rationale": "Finance remains another String; Religion's mechanic is cognitive subjugation via belief."
+        },
+        {
+          "label": "D",
+          "text": "By publishing full Vatican subterranean maps and inviting public audits of every portal, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Circular religion hides and controls; it does not open parasitic infrastructure to audit."
         }
       ],
       "hint": "Subdued mind — replace independent thought with external \"experts\".",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 15,
@@ -470,7 +470,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Retirement vaults for Finance String leaders with no demonic or ET traffic of any kind.",
+          "text": "Retirement vaults for Finance String leaders with no demonic or ET traffic of any kind, while spiritual attention and institutional trust stay fully intact.",
           "isCorrect": false,
           "rationale": "Demons, Draco, Greys, and Anunnaki use those portals — not mere retirement vaults."
         },
@@ -482,15 +482,15 @@
         },
         {
           "label": "C",
-          "text": "Public free-energy museums celebrating crystalline temples without any soul interception.",
+          "text": "Only empty tourist storage with no cages, portals, or slaughter infrastructure, disconnected from any deliberate long-game control design.",
           "isCorrect": false,
-          "rationale": "Infrastructure intercepts and redistributes souls — opposite of free public free-energy museums."
+          "rationale": "Levels hold luxury slaughterhouses, child cages, and portals for negative entities."
         },
         {
           "label": "D",
-          "text": "Only empty tourist storage with no cages, portals, or slaughter infrastructure.",
+          "text": "Public free-energy museums celebrating crystalline temples without any soul interception.",
           "isCorrect": false,
-          "rationale": "Levels hold luxury slaughterhouses, child cages, and portals for negative entities."
+          "rationale": "Infrastructure intercepts and redistributes souls — opposite of free public free-energy museums."
         }
       ],
       "hint": "13 levels — slaughterhouses, child cages, soul portals.",
@@ -502,31 +502,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Solely human accountants who never touch soul traffic after death.",
+          "text": "Solely human accountants who never touch soul traffic after death in any density, cycle, or historical configuration.",
           "isCorrect": false,
           "rationale": "Named negative entities run post-death intercept and redistribution."
         },
         {
           "label": "B",
+          "text": "Only friendly librarians who delete reincarnation so every soul exits density permanently, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Demons, Draco, Greys, and Anunnaki intercept souls to enforce continuous reincarnation."
+        },
+        {
+          "label": "C",
           "text": "Demons, Draco, Greys, and Anunnaki intercept and redistribute souls immediately after death, enforcing continuous reincarnation.",
           "isCorrect": true,
           "rationale": "Those parasitic species run death-portal intercept to keep reincarnation continuous."
         },
         {
-          "label": "C",
-          "text": "Galactic free-energy engineers restoring Lattice Membrane Networks with donated temple gold.",
+          "label": "D",
+          "text": "Galactic free-energy engineers restoring Lattice Membrane Networks with donated temple gold, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Gold idols dampen frequencies; portals enforce reincarnation loops for parasites."
-        },
-        {
-          "label": "D",
-          "text": "Only friendly librarians who delete reincarnation so every soul exits density permanently.",
-          "isCorrect": false,
-          "rationale": "Demons, Draco, Greys, and Anunnaki intercept souls to enforce continuous reincarnation."
         }
       ],
       "hint": "Demons, Draco, Greys, Anunnaki — intercept souls, force reincarnation.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 17,
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Venus is a solid free-energy planet that powers crystalline temples without holography.",
-          "isCorrect": false,
-          "rationale": "Planet Venus here is a holographic generator lighting the moon parasitic station."
-        },
-        {
-          "label": "B",
           "text": "It proves Jesus and Lucifer are opposite beings with no shared titles in any text.",
           "isCorrect": false,
           "rationale": "The shared Morning Star title is the inversion hiding Lucifer identity in plain sight."
         },
         {
-          "label": "C",
-          "text": "Biblical scripture (Revelation 22:16) attributes \"Bright and Morning Star\" to Jesus — a title synonymous with Lucifer (the Light Bearer) and Planet Venus, a holographic generator casting light onto the moon harvesting station.",
-          "isCorrect": true,
-          "rationale": "Morning Star title links Jesus language to Lucifer/Venus holographic light cast on the moon harvest station."
-        },
-        {
-          "label": "D",
+          "label": "B",
           "text": "The phrase only describes atmospheric condensers and never appears in religious texts.",
           "isCorrect": false,
           "rationale": "It is cited from biblical scripture as a plain-sight satanic inversion."
+        },
+        {
+          "label": "C",
+          "text": "Venus is a solid free-energy planet that powers crystalline temples without holography.",
+          "isCorrect": false,
+          "rationale": "Planet Venus here is a holographic generator lighting the moon parasitic station."
+        },
+        {
+          "label": "D",
+          "text": "Biblical scripture (Revelation 22:16) attributes \"Bright and Morning Star\" to Jesus.",
+          "isCorrect": true,
+          "rationale": "Morning Star title links Jesus language to Lucifer/Venus holographic light cast on the moon harvest station."
         }
       ],
       "hint": "Revelation 22:16 Morning Star = Lucifer / Venus holographic link.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 18,
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A neutral librarian who never participates in satanic idolatry or frequency dampening.",
+          "text": "A neutral librarian who never participates in satanic idolatry or frequency dampening, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Mainstream \"God\" is identified as actually Satan in this inversion."
         },
         {
           "label": "B",
-          "text": "The eternal soul of every human, which makes external worship unnecessary and always taught.",
-          "isCorrect": false,
-          "rationale": "Religion externalizes salvation to False Gods; it does not teach pure eternal-soul autonomy."
-        },
-        {
-          "label": "C",
           "text": "Actually Satan — the mainstream religious deity identity collapses into the satanic inversion hidden in plain sight.",
           "isCorrect": true,
           "rationale": "Plain-sight inversion conclusion: the deity called \"God\" in mainstream religion is actually Satan."
         },
         {
+          "label": "C",
+          "text": "The eternal soul of every human, which makes external worship unnecessary and always taught, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Religion externalizes salvation to False Gods; it does not teach pure eternal-soul autonomy."
+        },
+        {
           "label": "D",
-          "text": "Strictly Finance String software with no spiritual or satanic dimension at all.",
+          "text": "Strictly Finance String software with no spiritual or satanic dimension at all, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "This is Religion String inversion, not a finance-only software label."
         }
       ],
       "hint": "Mainstream \"God\" = actually Satan under the inversion.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 19,
@@ -598,15 +598,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Gold must leave the ground forever because Lattice Membrane Networks run better on empty soil.",
+          "text": "Gold idols only decorate banks and never interact with planetary frequency architecture, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "Gold naturally belongs in the ground to stabilize Lattice Membrane Networks."
+          "rationale": "They are functional frequency dampeners in the religious control stack."
         },
         {
           "label": "B",
-          "text": "Gold idols only decorate banks and never interact with planetary frequency architecture.",
+          "text": "Gold in idols amplifies ultra-high frequencies so crystalline temples become more visible to everyone, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "They are functional frequency dampeners in the religious control stack."
+          "rationale": "Gold idols dampen and suppress ultra-high frequencies near temples, hiding them."
         },
         {
           "label": "C",
@@ -616,9 +616,9 @@
         },
         {
           "label": "D",
-          "text": "Gold in idols amplifies ultra-high frequencies so crystalline temples become more visible to everyone.",
+          "text": "Gold must leave the ground forever because Lattice Membrane Networks run better on empty soil, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "Gold idols dampen and suppress ultra-high frequencies near temples, hiding them."
+          "rationale": "Gold naturally belongs in the ground to stabilize Lattice Membrane Networks."
         }
       ],
       "hint": "Ground gold → idols that dampen UHF near crystalline temples.",
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
+          "text": "The EBS schedule so no one can prepare for atrocity disclosure in advance, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The stated functional target is crystalline temples hidden from third-density perception."
+        },
+        {
+          "label": "B",
           "text": "Genuine crystalline temples — ultra-high frequencies near them are suppressed so third-density perception cannot register the true architecture.",
           "isCorrect": true,
           "rationale": "Idol dampening hides crystalline temples from third-density sight."
         },
         {
-          "label": "B",
-          "text": "Only stock tickers and retirement forecasts with no temple or frequency dimension.",
-          "isCorrect": false,
-          "rationale": "It hides genuine crystalline temples by suppressing ultra-high frequencies near them."
-        },
-        {
           "label": "C",
-          "text": "The EBS schedule so no one can prepare for atrocity disclosure in advance.",
+          "text": "Nothing — third-density eyes always see full high-frequency temple architecture without overlays, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "The stated functional target is crystalline temples hidden from third-density perception."
+          "rationale": "Dampening hides temples from third-density perception by design."
         },
         {
           "label": "D",
-          "text": "Nothing — third-density eyes always see full high-frequency temple architecture without overlays.",
+          "text": "Only stock tickers and retirement forecasts with no temple or frequency dimension, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "Dampening hides temples from third-density perception by design."
+          "rationale": "It hides genuine crystalline temples by suppressing ultra-high frequencies near them."
         }
       ],
       "hint": "Hides crystalline temples from third-density perception.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 21,
@@ -662,19 +662,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Because Finance already replaced all family bonds with stock portfolios exclusively.",
-          "isCorrect": false,
-          "rationale": "Religion uses nostalgic vessel bloodline bonds specifically; soul recycling breaks that tether."
-        },
-        {
-          "label": "B",
-          "text": "Because the Vatican bans all family contact above the thirteenth subterranean level only.",
+          "text": "Because the Vatican bans all family contact above the thirteenth subterranean level only, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Obsolescence comes from eternal-soul identity and rapid post-death reassignment, not a visitor policy."
         },
         {
+          "label": "B",
+          "text": "Because Finance already replaced all family bonds with stock portfolios exclusively, while spiritual attention and institutional trust stay fully intact.",
+          "isCorrect": false,
+          "rationale": "Religion uses nostalgic vessel bloodline bonds specifically; soul recycling breaks that tether."
+        },
+        {
           "label": "C",
-          "text": "Because every soul stays in one genetic line forever by unbreakable cosmic law.",
+          "text": "Because every soul stays in one genetic line forever by unbreakable cosmic law, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Souls are routinely recycled into new families and countries — the opposite of fixed bloodlines."
         },
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Together the three constructs form an almost impenetrable shield around the human ego, trapping it within the physical density loop — Religion pacifies the soul into continuous suffering and external salvation while Finance distracts and Perceived Knowledge defends false cosmology.",
-          "isCorrect": true,
-          "rationale": "Three-String stack: Religion pacifies, Finance distracts, Perceived Knowledge armors ego — density loop trap."
-        },
-        {
-          "label": "B",
-          "text": "They only operate on NPCs and never affect anyone with a genuine eternal soul.",
+          "text": "They only operate on NPCs and never affect anyone with a genuine eternal soul, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Genuine souls must sever them; string-bound humans join NPC elimination in the clash."
         },
         {
-          "label": "C",
-          "text": "Each String cancels the others so keeping Religion alone is always safe.",
+          "label": "B",
+          "text": "They exclusively teach flat unmoving Earth so no intellectual defense against true cosmology remains, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "Together they form an almost impenetrable ego shield trapping consciousness in the density loop."
+          "rationale": "Perceived Knowledge defends against true cosmology; Religion pacifies rather than teaches flat-Earth truth."
+        },
+        {
+          "label": "C",
+          "text": "Together the three constructs form an almost impenetrable shield around the human ego, trapping it within the physical density loop.",
+          "isCorrect": true,
+          "rationale": "Three-String stack: Religion pacifies, Finance distracts, Perceived Knowledge armors ego — density loop trap."
         },
         {
           "label": "D",
-          "text": "They exclusively teach flat unmoving Earth so no intellectual defense against true cosmology remains.",
+          "text": "Each String cancels the others so keeping Religion alone is always safe, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "Perceived Knowledge defends against true cosmology; Religion pacifies rather than teaches flat-Earth truth."
+          "rationale": "Together they form an almost impenetrable ego shield trapping consciousness in the density loop."
         }
       ],
       "hint": "Three-String ego shield — pacify, distract, intellectually defend.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 23,
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A private Vatican sermon that reinstalls False Gods more deeply than before the events.",
-          "isCorrect": false,
-          "rationale": "Events dismantle programming; they do not reinstall deeper False God devotion as safety."
-        },
-        {
-          "label": "B",
-          "text": "Only a university exam on Copernicus that strengthens Perceived Knowledge without sky changes.",
+          "text": "Only a university exam on Copernicus that strengthens Perceived Knowledge without sky changes, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Visible cosmic reality and dome removal clash with savior attachment — not a school exam."
         },
         {
+          "label": "B",
+          "text": "A private Vatican sermon that reinstalls False Gods more deeply than before the events, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Events dismantle programming; they do not reinstall deeper False God devotion as safety."
+        },
+        {
           "label": "C",
-          "text": "When the planetary EMF event strikes and the holographic Projection Dome obscuring the true sky is removed, visible reality shatters all three Strings simultaneously.",
-          "isCorrect": true,
-          "rationale": "EMF + dome removal = simultaneous String shatter under undeniable visual simulation breakdown."
+          "text": "A gentle bank holiday that leaves the Projection Dome and religious programming fully intact, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "EMF strike plus Projection Dome removal visibly shatters the illusion and all three Strings."
         },
         {
           "label": "D",
-          "text": "A gentle bank holiday that leaves the Projection Dome and religious programming fully intact.",
-          "isCorrect": false,
-          "rationale": "EMF strike plus Projection Dome removal visibly shatters the illusion and all three Strings."
+          "text": "When the planetary EMF event strikes and the holographic Projection Dome obscuring the true sky is removed, visible reality shatters all three Strings simultaneously.",
+          "isCorrect": true,
+          "rationale": "EMF + dome removal = simultaneous String shatter under undeniable visual simulation breakdown."
         }
       ],
       "hint": "EMF event + Projection Dome removed — all three Strings shatter.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 24,
@@ -758,27 +758,27 @@
       "options": [
         {
           "label": "A",
-          "text": "They calmly invent new doctrines and remain on the physical plane without any elimination risk.",
-          "isCorrect": false,
-          "rationale": "Attachment to an invisible savior clashes with visual evidence; they join the 97% NPC elimination."
-        },
-        {
-          "label": "B",
-          "text": "Their attachment to an invisible savior violently clashes with simulation breakdown evidence, ensuring they join the 97% NPC population eliminated from the physical plane.",
-          "isCorrect": true,
-          "rationale": "No pigeon-hole + savior attachment = join 97% NPC elimination off the physical plane."
-        },
-        {
-          "label": "C",
           "text": "They alone receive clean exit because clash intensity is mistaken for devotion strength.",
           "isCorrect": false,
           "rationale": "Clash ensures elimination with the 97% NPC population, not clean exit."
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "Their attachment to an invisible savior violently clashes with simulation breakdown evidence.",
+          "isCorrect": true,
+          "rationale": "No pigeon-hole + savior attachment = join 97% NPC elimination off the physical plane."
+        },
+        {
+          "label": "C",
           "text": "They convert the Projection Dome back on using prayer gold and cancel the EMF event entirely.",
           "isCorrect": false,
           "rationale": "They possess no framework for the display; prayer gold does not reverse terminal mechanics."
+        },
+        {
+          "label": "D",
+          "text": "They calmly invent new doctrines and remain on the physical plane without any elimination risk.",
+          "isCorrect": false,
+          "rationale": "Attachment to an invisible savior clashes with visual evidence; they join the 97% NPC elimination."
         }
       ],
       "hint": "Savior clash → join 97% NPC elimination.",
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Outsource salvation entirely to Vatican portals so continuous reincarnation becomes the ascension path.",
-          "isCorrect": false,
-          "rationale": "Vatican portals enforce reincarnation loops; ascension requires severing that religious tether."
-        },
-        {
-          "label": "B",
-          "text": "Immediate total uninstallation of all religious beliefs — press pause on all devotion to external deities, completely sever String 1, strip false matrix comfort, survive Scare Event trauma, and secure a clean exit from the current physical simulation.",
+          "text": "Immediate total uninstallation of religious belief — pause all devotion to external deities and sever the first String so cognition is not surrendered before Scare Events hit.",
           "isCorrect": true,
           "rationale": "Total uninstall of Religion now: sever String 1, drop false comfort, survive Scare Events, clean exit."
         },
         {
+          "label": "B",
+          "text": "Double daily worship of every mainstream deity until the EMF Flash finishes without preparation, so harvest logistics, density tech, and inverted narrative machinery play no part.",
+          "isCorrect": false,
+          "rationale": "Idolatry is satanic frequency dampening to strip away, not intensify."
+        },
+        {
           "label": "C",
-          "text": "Maintain a fractional belief that a god might be real as a backup comfort during Scare Events.",
+          "text": "Keep Religion intact and only tweak Finance slightly so the ego shield stays comfortable.",
           "isCorrect": false,
           "rationale": "Even fractional belief guarantees psychological destruction during terminal awakening phases."
         },
         {
           "label": "D",
-          "text": "Intensify idol gold extraction so crystalline temples stay hidden and third-density remains comfortable.",
+          "text": "Convert Scare Events into new holy festivals that deepen surrender of cognitive autonomy — the complete identity of the thing, with no deeper parasitic function underneath.",
           "isCorrect": false,
-          "rationale": "Idolatry is satanic frequency dampening to strip away, not intensify."
+          "rationale": "Vatican portals enforce reincarnation loops; ascension requires severing that religious tether."
         }
       ],
       "hint": "Total uninstall String 1 — survive Scare Events, clean exit.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     }
   ]
 }

@@ -21,31 +21,31 @@
       "options": [
         {
           "label": "A",
-          "text": "4th-density",
+          "text": "3rd-density",
           "isCorrect": false,
-          "rationale": "This is the density of the parasitic entities who engineered the overlay, not the original state of the realm."
+          "rationale": "This level represents the suppressed, engineered overlay designed for energy harvesting rather than the original paradise."
         },
         {
           "label": "B",
-          "text": "9th-density",
-          "isCorrect": true,
-          "rationale": "The original state of Gateway-10 was a 9th-density paradise woven by benevolent souls before the Custodian betrayal."
-        },
-        {
-          "label": "C",
           "text": "12th-density",
           "isCorrect": false,
           "rationale": "While the Custodians originated from the 12th density, the Earth realm itself was established at a different vibration."
         },
         {
+          "label": "C",
+          "text": "9th-density",
+          "isCorrect": true,
+          "rationale": "The original state of Gateway-10 was a 9th-density paradise woven by benevolent souls before the Custodian betrayal."
+        },
+        {
           "label": "D",
-          "text": "3rd-density",
+          "text": "4th-density",
           "isCorrect": false,
-          "rationale": "This level represents the suppressed, engineered overlay designed for energy harvesting rather than the original paradise."
+          "rationale": "This is the density of the parasitic entities who engineered the overlay, not the original state of the realm."
         }
       ],
       "hint": "Consider the vibration level of the indestructible crystalline grid of true crystalline reality.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -59,25 +59,25 @@
         },
         {
           "label": "B",
-          "text": "A natural satellite governing the tidal movements of the flat plane.",
-          "isCorrect": false,
-          "rationale": "The Moon is an artificial construct rather than a natural celestial body."
-        },
-        {
-          "label": "C",
           "text": "A portal for benevolent Pleiadian ships to enter the realm.",
           "isCorrect": false,
           "rationale": "The Pleiadian families watch from outside the ice wall, whereas the Moon is a tool of the parasitic invaders."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "A Dyson-sphere cloak for a negative ET frequency station.",
           "isCorrect": true,
           "rationale": "The Moon functions as a hidden station used for frequency control and the harvesting of human energy."
+        },
+        {
+          "label": "D",
+          "text": "A natural satellite governing the tidal movements of the flat plane.",
+          "isCorrect": false,
+          "rationale": "The Moon is an artificial construct rather than a natural celestial body."
         }
       ],
       "hint": "Think about the technological nature of the lunar 'rock' as a masking device.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 3,
@@ -85,31 +85,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Politics, Science, and Family.",
-          "isCorrect": false,
-          "rationale": "While related, the specific triad required for severance involves the root illusions of worship, value, and fabricated history."
-        },
-        {
-          "label": "B",
-          "text": "Media, Law, and Industry.",
-          "isCorrect": false,
-          "rationale": "These are secondary control mechanisms compared to the three fundamental energetic tethers."
-        },
-        {
-          "label": "C",
           "text": "Health, Technology, and Education.",
           "isCorrect": false,
           "rationale": "Education is part of perceived knowledge, but the core list focuses on the foundational traps of the 3rd-density matrix."
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "Politics, Science, and Family.",
+          "isCorrect": false,
+          "rationale": "While related, the specific triad required for severance involves the root illusions of worship, value, and fabricated history."
+        },
+        {
+          "label": "C",
           "text": "Religion, Finance, and Perceived Knowledge.",
           "isCorrect": true,
           "rationale": "These three tethers represent the primary programmed systems used to bind souls to the matrix simulation."
+        },
+        {
+          "label": "D",
+          "text": "Media, Law, and Industry.",
+          "isCorrect": false,
+          "rationale": "These are secondary control mechanisms compared to the three fundamental energetic tethers."
         }
       ],
       "hint": "The three strings target what we worship, how we trade, and what we think we know.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 4,
@@ -123,25 +123,25 @@
         },
         {
           "label": "B",
-          "text": "They will instantly vanish from the realm.",
-          "isCorrect": true,
-          "rationale": "Because NPCs are soulless inserts or clones hard-wired to the simulation, they cease to exist when the projection dome is removed."
-        },
-        {
-          "label": "C",
           "text": "They will be transported to Realm 2 for healing.",
           "isCorrect": false,
           "rationale": "Healing is reserved for the real Taran souls who survive the shift."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "They will serve as guides for the surviving 520 million souls.",
           "isCorrect": false,
           "rationale": "The survivors will be guided by their own returning memories and the G.A.A., not matrix constructs."
+        },
+        {
+          "label": "D",
+          "text": "They will instantly vanish from the realm.",
+          "isCorrect": true,
+          "rationale": "Because NPCs are soulless inserts or clones hard-wired to the simulation, they cease to exist when the projection dome is removed."
         }
       ],
       "hint": "Consider the fate of a program when the computer running it is permanently unplugged.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 5,
@@ -149,31 +149,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Filtering heavy metals from the steam exhaust.",
+          "text": "Filtering heavy metals from the steam exhaust, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "The locomotives did not produce toxic exhaust as they were powered by clean atmospheric energy."
         },
         {
           "label": "B",
+          "text": "Conducting telegraph signals across the rail network, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "While energetic, their primary role was power generation for movement, not communication."
+        },
+        {
+          "label": "C",
           "text": "Superheating water via electromagnetic induction from Ley Lines.",
           "isCorrect": true,
           "rationale": "These atmospheric augmentation systems allowed trains to travel using free energy before the enforcement of fossil fuel reliance."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "Protecting the passengers from the high-density frequency grid.",
           "isCorrect": false,
           "rationale": "The resonators were functional components of the engine's power system rather than protective shields."
-        },
-        {
-          "label": "D",
-          "text": "Conducting telegraph signals across the rail network.",
-          "isCorrect": false,
-          "rationale": "While energetic, their primary role was power generation for movement, not communication."
         }
       ],
       "hint": "Focus on the source of energy utilized before the coal industry was established.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 6,
@@ -181,15 +181,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Beneath the Vatican.",
-          "isCorrect": true,
-          "rationale": "The soul-recycling machine operated by Grey ETs is situated under the Vatican to maintain the cycle of reincarnation."
+          "text": "Within the dark matter of the Ice Wall.",
+          "isCorrect": false,
+          "rationale": "The Ice Wall is the boundary of our realm, while the recycling machine is embedded within the matrix's power centers."
         },
         {
           "label": "B",
-          "text": "Inside the Moon's core.",
-          "isCorrect": false,
-          "rationale": "The Moon houses frequency controls and Loosh harvesting, but the specific vortex for recycling souls is terrestrial."
+          "text": "Beneath the Vatican.",
+          "isCorrect": true,
+          "rationale": "The soul-recycling machine operated by Grey ETs is situated under the Vatican to maintain the cycle of reincarnation."
         },
         {
           "label": "C",
@@ -199,13 +199,13 @@
         },
         {
           "label": "D",
-          "text": "Within the dark matter of the Ice Wall.",
+          "text": "Inside the Moon's core.",
           "isCorrect": false,
-          "rationale": "The Ice Wall is the boundary of our realm, while the recycling machine is embedded within the matrix's power centers."
+          "rationale": "The Moon houses frequency controls and Loosh harvesting, but the specific vortex for recycling souls is terrestrial."
         }
       ],
       "hint": "This location is often associated with the center of a major global religious institution.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -213,19 +213,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True",
-          "isCorrect": false,
-          "rationale": "This view is part of the 'Perceived Knowledge' string that must be severed to understand the true white nature of the Dark Matter Field."
-        },
-        {
-          "label": "B",
           "text": "False",
           "isCorrect": true,
           "rationale": "The black sky is a holographic illusion projected by Black Void Plasma technology; true space is bright white."
+        },
+        {
+          "label": "B",
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "This view is part of the 'Perceived Knowledge' string that must be severed to understand the true white nature of the Dark Matter Field."
         }
       ],
       "hint": "The 'Black Void' as a Custodian technological overlay.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -233,31 +233,31 @@
       "options": [
         {
           "label": "A",
+          "text": "To harvest the gold located in European Tartarian cities.",
+          "isCorrect": false,
+          "rationale": "Gold extraction is done via hovering craft using Red Mercury, not through trench warfare."
+        },
+        {
+          "label": "B",
           "text": "To establish the current global financial system.",
           "isCorrect": false,
           "rationale": "While the financial system is a 'string,' the war was primarily about population management and memory erasure."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "To test new biological weapons on the Taran population.",
           "isCorrect": false,
           "rationale": "Biological weapons were used via portals (craters), but the war's specific goal was the removal of living memory."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "To eliminate those who remembered the pre-reset world.",
           "isCorrect": true,
           "rationale": "The war was a targeted slaughter of the older generations to ensure the new 'orphan' population had no teachers of true history."
-        },
-        {
-          "label": "D",
-          "text": "To harvest the gold located in European Tartarian cities.",
-          "isCorrect": false,
-          "rationale": "Gold extraction is done via hovering craft using Red Mercury, not through trench warfare."
         }
       ],
       "hint": "Think about the importance of memory in maintaining or breaking a cycle of amnesia.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 9,
@@ -265,15 +265,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Celestia",
-          "isCorrect": false,
-          "rationale": "Celestia is a Micro Sun involved in the early stages of creation."
-        },
-        {
-          "label": "B",
           "text": "Christian21",
           "isCorrect": true,
           "rationale": "Christian21 is identified as the prime soul who returned to shatter the amnesia vortex and guide humanity."
+        },
+        {
+          "label": "B",
+          "text": "Celestia",
+          "isCorrect": false,
+          "rationale": "Celestia is a Micro Sun involved in the early stages of creation."
         },
         {
           "label": "C",
@@ -289,7 +289,7 @@
         }
       ],
       "hint": "This individual is the source of the raw transmissions used to anchor the Great Remembering.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 10,
@@ -303,21 +303,21 @@
         },
         {
           "label": "B",
+          "text": "Distant Sol-systems containing cosmic families.",
+          "isCorrect": false,
+          "rationale": "a 'Sol-system' is a network of souls, not physical stars in space."
+        },
+        {
+          "label": "C",
           "text": "Biological weapons dropped from higher densities.",
           "isCorrect": false,
           "rationale": "Craters are the result of biological weapons; stars are part of the security and projection architecture."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "Fragments of the original 9th-density crystalline grid.",
           "isCorrect": false,
           "rationale": "The grid is buried or suppressed, while the stars are part of the current holographic security system."
-        },
-        {
-          "label": "D",
-          "text": "Distant Sol-systems containing cosmic families.",
-          "isCorrect": false,
-          "rationale": "a 'Sol-system' is a network of souls, not physical stars in space."
         }
       ],
       "hint": "These lights to a technological containment system.",
@@ -329,31 +329,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Through the chemical poisoning of the atmosphere.",
+          "text": "By shifting the entire realm through a localized black hole.",
+          "isCorrect": false,
+          "rationale": "The realm was inverted and suppressed in place rather than moved through space."
+        },
+        {
+          "label": "B",
+          "text": "Through the chemical poisoning of the atmosphere, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Poisoning like vaping is used to block individual perception, but the architecture itself was suppressed via frequency technology."
         },
         {
-          "label": "B",
-          "text": "Through Density Suppression technology and holographic overlays.",
-          "isCorrect": true,
-          "rationale": "By lowering the realm's frequency and casting overlays, they made the true crystalline reality perceive as 3rd-density matter."
-        },
-        {
           "label": "C",
-          "text": "By physically dismantling every Tartarian structure.",
+          "text": "By physically dismantling every Tartarian structure, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Many structures remain as facades; the suppression was primarily energetic and vibrational."
         },
         {
           "label": "D",
-          "text": "By shifting the entire realm through a localized black hole.",
-          "isCorrect": false,
-          "rationale": "The realm was inverted and suppressed in place rather than moved through space."
+          "text": "Through Density Suppression technology and holographic overlays.",
+          "isCorrect": true,
+          "rationale": "By lowering the realm's frequency and casting overlays, they made the true crystalline reality perceive as 3rd-density matter."
         }
       ],
       "hint": "Think about how frequency and perception can be manipulated to hide the true state of matter.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 12,
@@ -367,25 +367,25 @@
         },
         {
           "label": "B",
-          "text": "Adrenochrome",
-          "isCorrect": false,
-          "rationale": "Adrenochrome is an energetic harvest from humans, not a chemical used for mineral extraction."
-        },
-        {
-          "label": "C",
           "text": "Red Mercury",
           "isCorrect": true,
           "rationale": "Targeted beams of Red Mercury from hovering crafts are used to extract gold for frequency-dampening purposes."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "Liquid Gold-21.",
           "isCorrect": false,
           "rationale": "While precious metals are involved, the specific tool for extraction is the Red Mercury beam."
+        },
+        {
+          "label": "D",
+          "text": "Adrenochrome",
+          "isCorrect": false,
+          "rationale": "Adrenochrome is an energetic harvest from humans, not a chemical used for mineral extraction."
         }
       ],
       "hint": "This substance is associated with high-tech extraction beams used by non-human crafts.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -399,9 +399,9 @@
         },
         {
           "label": "B",
-          "text": "They were the natural evolution of the Taran humans.",
+          "text": "They were better suited for survival in a 3rd-density vacuum.",
           "isCorrect": false,
-          "rationale": "Evolution is a fabrication; Sapiens were a lab-designed vessel chosen for specific parasitic needs."
+          "rationale": "There is no vacuum; the selection was based on psychological control and the yield of harvested energy."
         },
         {
           "label": "C",
@@ -411,9 +411,9 @@
         },
         {
           "label": "D",
-          "text": "They were better suited for survival in a 3rd-density vacuum.",
+          "text": "They were the natural evolution of the Taran humans, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "There is no vacuum; the selection was based on psychological control and the yield of harvested energy."
+          "rationale": "Evolution is a fabrication; Sapiens were a lab-designed vessel chosen for specific parasitic needs."
         }
       ],
       "hint": "Consider the traits that would make a population easier to 'farm' for energy.",
@@ -425,31 +425,31 @@
       "options": [
         {
           "label": "A",
+          "text": "The descent of the firmament onto the horizontal plane.",
+          "isCorrect": false,
+          "rationale": "The sky 'falls' because the projection dome is removed, but this happens after the fake invasion."
+        },
+        {
+          "label": "B",
           "text": "The physical return of the Pleiadian motherships.",
           "isCorrect": false,
           "rationale": "The Pleiadians wait outside the wall; the invasion seen in the sky will be a holographic deception."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "A highly realistic but fake alien invasion.",
           "isCorrect": true,
           "rationale": "Known as Project Bluebeam, this event is designed to create a final state of terror before the matrix collapse."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "A total solar eclipse lasting three days.",
           "isCorrect": false,
           "rationale": "While the sky will pixelate, the specific 'Sky Event' mentioned is the deceptive invasion."
-        },
-        {
-          "label": "D",
-          "text": "The descent of the firmament onto the horizontal plane.",
-          "isCorrect": false,
-          "rationale": "The sky 'falls' because the projection dome is removed, but this happens after the fake invasion."
         }
       ],
       "hint": "This event is a staged operation often referred to as Project Bluebeam.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 15,
@@ -477,31 +477,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The transport of workers to mine Red Mercury.",
+          "text": "The transport of workers to mine Red Mercury, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Red Mercury is used by parasitic crafts, and the children were used for population resets."
         },
         {
           "label": "B",
-          "text": "A method of moving 520 million souls to the ice wall.",
+          "text": "A humanitarian effort to save children from the World War, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "This is part of the 'Perceived Knowledge' fabrication designed to hide the reality of the Re-set."
+        },
+        {
+          "label": "C",
+          "text": "A method of moving 520 million souls to the ice wall, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "The survivors remain in the realm; the trains were used for matrix repopulation by the parasites."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "The repopulation of emptied cities with lab-grown clones.",
           "isCorrect": true,
           "rationale": "After a Re-set cataclysm, the parasites used lab-grown children to repopulate the magnificent Tartarian cities."
-        },
-        {
-          "label": "D",
-          "text": "A humanitarian effort to save children from the World War.",
-          "isCorrect": false,
-          "rationale": "This is part of the 'Perceived Knowledge' fabrication designed to hide the reality of the Re-set."
         }
       ],
       "hint": "Think about how a population is replaced after a planetary extermination event.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 17,
@@ -509,31 +509,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A gateway for souls passing through the Sun portal.",
+          "text": "A gateway for souls passing through the Sun portal, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "The Sun is the portal for souls; Venus has a specific role in the holographic projection grid."
         },
         {
           "label": "B",
-          "text": "The physical home of the Galactic Ancestral Alliance.",
-          "isCorrect": false,
-          "rationale": "The Alliance operates from outside the firmament and the ice wall."
-        },
-        {
-          "label": "C",
           "text": "A holographic generator that illuminates the lunar station.",
           "isCorrect": true,
           "rationale": "Venus acts as the light source that hides the true nature of the Moon, earning it the name 'Lucifer, the Light Bearer'."
         },
         {
-          "label": "D",
-          "text": "A protective shield against the Black Void Plasma.",
+          "label": "C",
+          "text": "A protective shield against the Black Void Plasma, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "The Black Void is a tool used by the Custodians; Venus is a component of the visual deception."
+        },
+        {
+          "label": "D",
+          "text": "The physical home of the Galactic Ancestral Alliance, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The Alliance operates from outside the firmament and the ice wall."
         }
       ],
       "hint": "Focus on its relationship with the Moon and its ancient nickname.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 18,
@@ -541,15 +541,15 @@
       "options": [
         {
           "label": "A",
-          "text": "The original indigo spark of Source Creation.",
+          "text": "A holographic projection from the Vatican labs.",
           "isCorrect": false,
-          "rationale": "The indigo spark evolved into the etheric supercomputer of intellect, which then brought forth the Micro Suns."
+          "rationale": "While the Moon is a holographic Dyson-sphere, the Sun is a portal connected to the soul's journey."
         },
         {
           "label": "B",
-          "text": "The physical source of the 30-second EMF flash.",
+          "text": "The original indigo spark of Source Creation.",
           "isCorrect": false,
-          "rationale": "The EMF flash is a systemic purge of the matrix, while the Sun functions as a constant soul portal."
+          "rationale": "The indigo spark evolved into the etheric supercomputer of intellect, which then brought forth the Micro Suns."
         },
         {
           "label": "C",
@@ -559,9 +559,9 @@
         },
         {
           "label": "D",
-          "text": "A holographic projection from the Vatican labs.",
+          "text": "The physical source of the 30-second EMF flash.",
           "isCorrect": false,
-          "rationale": "While the Moon is a holographic Dyson-sphere, the Sun is a portal connected to the soul's journey."
+          "rationale": "The EMF flash is a systemic purge of the matrix, while the Sun functions as a constant soul portal."
         }
       ],
       "hint": "It is described as the 'Bright Light at the end of the tunnel' experienced during death.",
@@ -573,31 +573,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They were susceptible to the amnesia vortex.",
+          "text": "They were susceptible to the amnesia vortex, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Sapiens are the ones susceptible; Neanderthals were rejected because they were too difficult to suppress."
         },
         {
           "label": "B",
-          "text": "They refused to worship the false deities of religion.",
-          "isCorrect": false,
-          "rationale": "While they might have resisted, their primary 'fault' in the eyes of the parasites was their physical and mental durability."
+          "text": "They were too intelligent and durable to be controlled.",
+          "isCorrect": true,
+          "rationale": "The invaders required a more malleable species, leading to the selection of Homo Sapiens."
         },
         {
           "label": "C",
-          "text": "They could not survive the 30-second EMF flash.",
+          "text": "They could not survive the 30-second EMF flash, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Neanderthals were discarded thousands of years ago, long before the current impending EMF event."
         },
         {
           "label": "D",
-          "text": "They were too intelligent and durable to be controlled.",
-          "isCorrect": true,
-          "rationale": "The invaders required a more malleable species, leading to the selection of Homo Sapiens."
+          "text": "They refused to worship the false deities of religion, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "While they might have resisted, their primary 'fault' in the eyes of the parasites was their physical and mental durability."
         }
       ],
       "hint": "Parasites look for hosts that are easy to manage and yield high energetic returns.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 20,
@@ -605,9 +605,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Vaping essential oils to clear the lungs.",
-          "isCorrect": false,
-          "rationale": "Vaping of any kind is a targeted operation to block inter-dimensional signals."
+          "text": "Raw cacao, Blue Lotus tea, and 432Hz sound baths.",
+          "isCorrect": true,
+          "rationale": "These specific tools, along with heavy metal chelators like zeolite, are recommended to restore multidimensional reception."
         },
         {
           "label": "B",
@@ -623,13 +623,13 @@
         },
         {
           "label": "D",
-          "text": "Raw cacao, Blue Lotus tea, and 432Hz sound baths.",
-          "isCorrect": true,
-          "rationale": "These specific tools, along with heavy metal chelators like zeolite, are recommended to restore multidimensional reception."
+          "text": "Vaping essential oils to clear the lungs.",
+          "isCorrect": false,
+          "rationale": "Vaping of any kind is a targeted operation to block inter-dimensional signals."
         }
       ],
       "hint": "The method involves natural herbs, specific frequencies, and the removal of heavy metals.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 21,
@@ -637,31 +637,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Excavation sites where Red Mercury was used.",
-          "isCorrect": false,
-          "rationale": "Red Mercury beams extract gold effortlessly without creating traditional impact craters."
-        },
-        {
-          "label": "B",
           "text": "Biological weapons dropped through localized portals.",
           "isCorrect": true,
           "rationale": "Asteroids do not exist in the horizontal plane; craters are marks of parasitic warfare."
         },
         {
-          "label": "C",
-          "text": "Ancient landing sites for G.A.A. motherships.",
+          "label": "B",
+          "text": "Excavation sites where Red Mercury was used.",
           "isCorrect": false,
-          "rationale": "The Alliance operates outside the wall; the craters are scars of the parasitic occupation."
+          "rationale": "Red Mercury beams extract gold effortlessly without creating traditional impact craters."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "The impact of falling fragments of the firmament.",
           "isCorrect": false,
           "rationale": "The firmament is physical and enclosed, but the craters are specifically linked to weaponry."
+        },
+        {
+          "label": "D",
+          "text": "Ancient landing sites for G.A.A. motherships.",
+          "isCorrect": false,
+          "rationale": "The Alliance operates outside the wall; the craters are scars of the parasitic occupation."
         }
       ],
       "hint": "Think about how a parasitic race might conduct warfare on a flat, enclosed realm.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 22,
@@ -669,21 +669,21 @@
       "options": [
         {
           "label": "A",
-          "text": "It will form a temporary bridge to the Ice Wall.",
-          "isCorrect": false,
-          "rationale": "The pixelation is the dismantling of the holographic screen, not a physical transport mechanism."
-        },
-        {
-          "label": "B",
           "text": "It will be caused by the activation of Tartarian resonators.",
           "isCorrect": false,
           "rationale": "The pixelation is caused by the G.A.A. switching off the parasitic projection dome."
         },
         {
-          "label": "C",
-          "text": "It will turn into a bright indigo spark of creation.",
+          "label": "B",
+          "text": "It will turn into a bright indigo spark of creation, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "The indigo spark is the origin of Source, not the visual effect of the dome's removal."
+        },
+        {
+          "label": "C",
+          "text": "It will form a temporary bridge to the Ice Wall, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The pixelation is the dismantling of the holographic screen, not a physical transport mechanism."
         },
         {
           "label": "D",
@@ -701,15 +701,15 @@
       "options": [
         {
           "label": "A",
-          "text": "178,000",
-          "isCorrect": false,
-          "rationale": "This figure refers to the length of the subjugation cycle, not the surviving population."
-        },
-        {
-          "label": "B",
           "text": "4,000 Ancients.",
           "isCorrect": false,
           "rationale": "The 4,000 Ancients are the leaders/guides, but the total number of surviving real souls is much higher."
+        },
+        {
+          "label": "B",
+          "text": "178,000",
+          "isCorrect": false,
+          "rationale": "This figure refers to the length of the subjugation cycle, not the surviving population."
         },
         {
           "label": "C",
@@ -733,19 +733,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True",
-          "isCorrect": false,
-          "rationale": "The idea that they were built with physical labor is part of the fabricated 'Perceived Knowledge' string."
-        },
-        {
-          "label": "B",
           "text": "False",
           "isCorrect": true,
           "rationale": "These structures were 'sung' into existence through harmonic frequencies; Freemasons only built facades to cap their energy."
+        },
+        {
+          "label": "B",
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "The idea that they were built with physical labor is part of the fabricated 'Perceived Knowledge' string."
         }
       ],
       "hint": "Their creation to high-density beings using sound and frequency.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 25,
@@ -753,9 +753,9 @@
       "options": [
         {
           "label": "A",
-          "text": "The 12th-density council of the Custodians.",
+          "text": "A collection of planets orbiting a central star, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "The Custodians are the betrayers; 'Sol-System' refers to the benevolent lineage of souls."
+          "rationale": "This is the heliocentric globe model, which as a matrix fabrication."
         },
         {
           "label": "B",
@@ -765,15 +765,15 @@
         },
         {
           "label": "C",
-          "text": "The technological network used for Loosh harvesting.",
+          "text": "The technological network used for Loosh harvesting, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "The harvesting system is the matrix/overlay, while the 'Sol-System' is the organic soul connection."
         },
         {
           "label": "D",
-          "text": "A collection of planets orbiting a central star.",
+          "text": "The 12th-density council of the Custodians.",
           "isCorrect": false,
-          "rationale": "This is the heliocentric globe model, which as a matrix fabrication."
+          "rationale": "The Custodians are the betrayers; 'Sol-System' refers to the benevolent lineage of souls."
         }
       ],
       "hint": "Consider the linguistic connection between 'Sol' and 'Soul'.",

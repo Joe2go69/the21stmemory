@@ -22,9 +22,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Steam Recovery Stacks invented during the Industrial Revolution in England.",
+          "text": "Coal Superchargers patented by the Consolidated Coal Company in 1887, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "The Industrial Revolution is described as the fall of Tartaria, not the invention era of these free-energy devices."
+          "rationale": "That company ordered the condensers destroyed to protect a fuel monopoly, not invent them."
         },
         {
           "label": "B",
@@ -34,15 +34,15 @@
         },
         {
           "label": "C",
-          "text": "Coal Superchargers patented by the Consolidated Coal Company in 1887.",
+          "text": "Pneumatic domes designed exclusively for the original London Underground, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "That company ordered the condensers destroyed to protect a fuel monopoly, not invent them."
+          "rationale": "The London Underground is a related Tartarian transit method; condensers were locomotive-mounted resonators."
         },
         {
           "label": "D",
-          "text": "Pneumatic domes designed exclusively for the original London Underground.",
+          "text": "Steam Recovery Stacks invented during the Industrial Revolution in England, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "The London Underground is a related Tartarian transit method; condensers were locomotive-mounted resonators."
+          "rationale": "The Industrial Revolution is described as the fall of Tartaria, not the invention era of these free-energy devices."
         }
       ],
       "hint": "Match the alternate name and the civilisation that originated free-energy harvesting.",
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "As the moment Tartaria openly shared Fibonacci coil designs with the public.",
-          "isCorrect": false,
-          "rationale": "The narrative is systematic downgrade and suppression, not open technology sharing."
-        },
-        {
-          "label": "B",
-          "text": "As the organic invention of free-energy locomotives by Victorian engineers.",
-          "isCorrect": false,
-          "rationale": "Locomotives are described as legacy Tartarian machines, not independent 19th-century inventions."
-        },
-        {
-          "label": "C",
           "text": "As the orchestrated fall and dismantling of a highly advanced civilisation of excellence.",
           "isCorrect": true,
           "rationale": "The Industrial Revolution was the orchestrated fall and dismantling of Great Tartary, with legacy tech repurposed or destroyed."
         },
         {
-          "label": "D",
-          "text": "As a peaceful partnership between Tartaria and modern coal companies.",
+          "label": "B",
+          "text": "As the organic invention of free-energy locomotives by Victorian engineers, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Locomotives are described as legacy Tartarian machines, not independent 19th-century inventions."
+        },
+        {
+          "label": "C",
+          "text": "As a peaceful partnership between Tartaria and modern coal companies, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Coal interests forced eradication of condensers; there was no peaceful partnership."
+        },
+        {
+          "label": "D",
+          "text": "As the moment Tartaria openly shared Fibonacci coil designs with the public.",
+          "isCorrect": false,
+          "rationale": "The narrative is systematic downgrade and suppression, not open technology sharing."
         }
       ],
       "hint": "Think dismantling and dependency, not genuine industrial progress.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
+          "text": "They converted coal smoke into clean drinking water for passengers.",
+          "isCorrect": false,
+          "rationale": "The technology harvests electromagnetic energy for the boiler, not smoke conversion."
+        },
+        {
+          "label": "B",
+          "text": "They generated wireless telegraph signals between nodal cities, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The function is propulsion energy and free-energy harvesting, not telegraphy."
+        },
+        {
+          "label": "C",
           "text": "They superheated boiler water, eliminating the need for vast quantities of coal.",
           "isCorrect": true,
           "rationale": "Condensers superheated boiler water via Electromagnetic Inductance, eliminating vast coal use by drawing ambient power from Ley Lines."
         },
         {
-          "label": "B",
+          "label": "D",
           "text": "They cooled the tracks so steel rails would not warp at high speed.",
           "isCorrect": false,
           "rationale": "The condensers heated boiler water; they did not cool rails."
-        },
-        {
-          "label": "C",
-          "text": "They generated wireless telegraph signals between nodal cities.",
-          "isCorrect": false,
-          "rationale": "The function is propulsion energy and free-energy harvesting, not telegraphy."
-        },
-        {
-          "label": "D",
-          "text": "They converted coal smoke into clean drinking water for passengers.",
-          "isCorrect": false,
-          "rationale": "The technology harvests electromagnetic energy for the boiler, not smoke conversion."
         }
       ],
       "hint": "Link inductance to boiler heat and reduced coal dependency.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "From underground coal seams; tracks were laid only near Consolidated Coal mines.",
-          "isCorrect": false,
-          "rationale": "Coal monopoly interests later destroyed condensers; free energy came from Ley Lines, not coal seams."
-        },
-        {
-          "label": "B",
           "text": "From Electromagnetic Crystalline lattice membrane networks (Ley Lines) along which global railway tracks were strategically laid.",
           "isCorrect": true,
           "rationale": "Condensers drew power from lattice membrane networks known as Ley Lines, over which railway tracks were strategically laid."
         },
         {
-          "label": "C",
-          "text": "From Baphomet Power Pylons that replaced all locomotive condensers after 1887.",
+          "label": "B",
+          "text": "From Baphomet Power Pylons that replaced all locomotive condensers after 1887, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Pylons harvest backed-up Ley Line energy at urban centers; condensers used the same pathways on moving locomotives before eradication."
         },
         {
+          "label": "C",
+          "text": "From underground coal seams; tracks were laid only near Consolidated Coal mines, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Coal monopoly interests later destroyed condensers; free energy came from Ley Lines, not coal seams."
+        },
+        {
           "label": "D",
-          "text": "From solar panels mounted on tenders; tracks followed cheapest valley routes only.",
+          "text": "From solar panels mounted on tenders; tracks followed cheapest valley routes only, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Power comes from lattice membrane Ley Lines; tracks were laid strategically over those grids."
         }
       ],
       "hint": "Connect free energy harvesting to Ley Lines and track placement.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 5,
@@ -150,9 +150,9 @@
       "options": [
         {
           "label": "A",
-          "text": "As cast-iron chimneys that burned wood more efficiently than coal.",
+          "text": "As wooden water towers beside stations that condensed river mist, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "They are copper resonator domes harvesting ambient electromagnetic energy, not improved chimneys."
+          "rationale": "They were locomotive-mounted copper domes, not stationary wooden water towers."
         },
         {
           "label": "B",
@@ -162,15 +162,15 @@
         },
         {
           "label": "C",
-          "text": "As glass vacuum tubes filled with radium for soft green luminescence.",
+          "text": "As cast-iron chimneys that burned wood more efficiently than coal, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "That description is not part of Atmospheric Condenser truth."
+          "rationale": "They are copper resonator domes harvesting ambient electromagnetic energy, not improved chimneys."
         },
         {
           "label": "D",
-          "text": "As wooden water towers beside stations that condensed river mist.",
+          "text": "As glass vacuum tubes filled with radium for soft green luminescence, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "They were locomotive-mounted copper domes, not stationary wooden water towers."
+          "rationale": "That description is not part of Atmospheric Condenser truth."
         }
       ],
       "hint": "Recall copper, resonator dome, wires, and locomotive mounting.",
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
+          "text": "It was a myth invented by 20th-century rail enthusiasts, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Tartaria is presented as a real advanced civilisation deliberately destroyed and misrecorded."
+        },
+        {
+          "label": "B",
           "text": "It was a globally advanced free-energy civilisation deliberately destroyed and falsely recorded as the Dark Ages.",
           "isCorrect": true,
           "rationale": "Great Tartary is defined as a ubiquitous free-energy and harmonic-architecture civilisation deliberately destroyed and falsely recorded as the Dark Ages."
         },
         {
-          "label": "B",
-          "text": "It was limited to Russia and never used copper resonators.",
-          "isCorrect": false,
-          "rationale": "The civilisation is described as globally ubiquitous with copper resonator technology."
-        },
-        {
           "label": "C",
-          "text": "It survived intact and still operates the Swiss Northern Railway openly.",
+          "text": "It survived intact and still operates the Swiss Northern Railway openly, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Only one un-operational condenser unit is said to remain in deep storage; Tartaria was dismantled."
         },
         {
           "label": "D",
-          "text": "It was a myth invented by 20th-century rail enthusiasts.",
+          "text": "It was limited to Russia and never used copper resonators, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "Tartaria is presented as a real advanced civilisation deliberately destroyed and misrecorded."
+          "rationale": "The civilisation is described as globally ubiquitous with copper resonator technology."
         }
       ],
       "hint": "Link free energy, deliberate destruction, and the Dark Ages label.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Reflecting sunlight with polished spires into the firebox.",
-          "isCorrect": false,
-          "rationale": "The mechanism is electromagnetic flux through Fibonacci copper coils, not solar reflection."
-        },
-        {
-          "label": "B",
           "text": "A process where a varying magnetic field induces voltage across a conductor, used to superheat boiler water without combustion.",
           "isCorrect": true,
           "rationale": "Electromagnetic Inductance is a varying magnetic field inducing electromotive force across a conductor, used to superheat boiler water without combustion."
         },
         {
+          "label": "B",
+          "text": "Reflecting sunlight with polished spires into the firebox.",
+          "isCorrect": false,
+          "rationale": "The mechanism is electromagnetic flux through Fibonacci copper coils, not solar reflection."
+        },
+        {
           "label": "C",
-          "text": "Burning denser coal grades to raise steam pressure faster.",
+          "text": "Burning denser coal grades to raise steam pressure faster, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Inductance superheats water without combustion once the condenser is engaged."
         },
         {
           "label": "D",
-          "text": "Pumping compressed air through pneumatic tunnels under the rails.",
+          "text": "Pumping compressed air through pneumatic tunnels under the rails, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Pneumatic air pressure describes the original London Underground, not condenser inductance."
         }
       ],
       "hint": "Varying magnetic field, induced voltage, heat without combustion.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -246,9 +246,9 @@
       "options": [
         {
           "label": "A",
-          "text": "They were gifts from the Swiss Northern Railway starting in 1987.",
+          "text": "They were independently invented during the 19th century with no Tartarian precedent.",
           "isCorrect": false,
-          "rationale": "1987 is when Locomotive 34 has held the sole surviving unit in storage, not the origin of all locomotives."
+          "rationale": "Independent 19th-century invention is false."
         },
         {
           "label": "B",
@@ -258,19 +258,19 @@
         },
         {
           "label": "C",
-          "text": "They were independently invented during the 19th century with no Tartarian precedent.",
-          "isCorrect": false,
-          "rationale": "Independent 19th-century invention is false."
-        },
-        {
-          "label": "D",
           "text": "They were legacy machines inherited from Tartaria and subsequently modified.",
           "isCorrect": true,
           "rationale": "Core Revelations state steam locomotives were legacy Tartarian machines later modified, not independent Victorian inventions."
+        },
+        {
+          "label": "D",
+          "text": "They were gifts from the Swiss Northern Railway starting in 1987.",
+          "isCorrect": false,
+          "rationale": "1987 is when Locomotive 34 has held the sole surviving unit in storage, not the origin of all locomotives."
         }
       ],
       "hint": "Legacy inheritance versus independent invention.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 9,
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "12 photographs of nuclear locomotives crossing the Ice Wall.",
-          "isCorrect": false,
-          "rationale": "Those details are not; the evidence is coal-tender-free journeys documented in museum photos."
-        },
-        {
-          "label": "B",
-          "text": "A single postcard of Locomotive 34 hauling coal through Pennsylvania.",
+          "text": "A single postcard of Locomotive 34 hauling coal through Pennsylvania, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Locomotive 34 holds the sole surviving unit in Swiss storage; the 44 photos concern coal-free long journeys."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "44 museum photographs showing journeys of up to 305 miles with no attached coal tender.",
           "isCorrect": true,
           "rationale": "44 museum photographs from before 1880 of trains traveling up to 305 miles without a coal tender—impossible under standard thermodynamics."
         },
         {
+          "label": "C",
+          "text": "12 photographs of nuclear locomotives crossing the Ice Wall, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Those details are not; the evidence is coal-tender-free journeys documented in museum photos."
+        },
+        {
           "label": "D",
-          "text": "Hundreds of color films showing condensers being installed after 1900.",
+          "text": "Hundreds of color films showing condensers being installed after 1900, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The cited archive is pre-1880 museum photographs, and condensers were ordered destroyed in 1887."
         }
       ],
       "hint": "Count the photos, the mileage, and what was missing from the train.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 10,
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Performance increases and coal reductions of 40-60% in \"Observations on Anomalous Steam Generation in Early Railway Locomotives.\".",
-          "isCorrect": true,
-          "rationale": "In 1875 Crampton authored that work calculating 40-60% performance increases and coal reductions."
-        },
-        {
-          "label": "B",
-          "text": "That condensers reduced passenger fares by 90% worldwide.",
-          "isCorrect": false,
-          "rationale": "The cited finding is performance increases and coal reductions of 40-60%, not fare cuts."
-        },
-        {
-          "label": "C",
           "text": "That all condensers should be smelted to protect coal markets.",
           "isCorrect": false,
           "rationale": "That mandate came from the Consolidated Coal Company in 1887, not Crampton in 1875."
         },
         {
+          "label": "B",
+          "text": "That condensers reduced passenger fares by 90% worldwide, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "The cited finding is performance increases and coal reductions of 40-60%, not fare cuts."
+        },
+        {
+          "label": "C",
+          "text": "Performance increases and coal reductions of 40-60% in \"Observations on Anomalous Steam Generation in Early Railway Locomotives.\".",
+          "isCorrect": true,
+          "rationale": "In 1875 Crampton authored that work calculating 40-60% performance increases and coal reductions."
+        },
+        {
           "label": "D",
-          "text": "That Ley Lines were imaginary and trains needed more coal tenders.",
+          "text": "That Ley Lines were imaginary and trains needed more coal tenders, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Crampton documented anomalous efficiency gains consistent with free-energy assistance."
         }
       ],
       "hint": "1875 paper title and the 40-60% figures.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 11,
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
-          "text": "An 1883 article in the Russian Engineering Review on imperial locomotives.",
-          "isCorrect": true,
-          "rationale": "An 1883 Russian Engineering Review article corroborated the exact 40-60% efficiency gains on imperial locomotives."
-        },
-        {
-          "label": "B",
           "text": "A 1987 Swiss Northern Railway press release about Locomotive 34.",
           "isCorrect": false,
           "rationale": "1987 relates to storage of the sole surviving unit, not the efficiency corroboration."
         },
         {
-          "label": "C",
-          "text": "A 2008 estate auction catalog from Pennsylvania alone.",
+          "label": "B",
+          "text": "A 2008 estate auction catalog from Pennsylvania alone, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "The 2008 Sterling letter concerns the motive for eradication, not the efficiency measurements."
         },
         {
-          "label": "D",
-          "text": "A Victorian cookbook describing steam kitchen appliances.",
+          "label": "C",
+          "text": "A Victorian cookbook describing steam kitchen appliances, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "The corroborating source is a Russian engineering journal article."
+        },
+        {
+          "label": "D",
+          "text": "An 1883 article in the Russian Engineering Review on imperial locomotives.",
+          "isCorrect": true,
+          "rationale": "An 1883 Russian Engineering Review article corroborated the exact 40-60% efficiency gains on imperial locomotives."
         }
       ],
       "hint": "Year 1883 and the Russian engineering journal.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 12,
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Mass production of condensers for every imperial railway.",
+          "text": "Donation of condensers to museums for public education, not the deeper control mechanism described by the Living Truth.",
           "isCorrect": false,
-          "rationale": "The mandate was permanent eradication, not mass production."
+          "rationale": "Units were smelted; only one known unit escaped destruction into deep storage."
         },
         {
           "label": "B",
-          "text": "Permanent eradication: all condensers forcibly removed and completely smelted into molten metal to protect their fuel monopoly.",
-          "isCorrect": true,
-          "rationale": "In 1887 the Consolidated Coal Company ordered condensers removed and smelted to protect its fuel monopoly."
-        },
-        {
-          "label": "C",
-          "text": "Conversion of condensers into Baphomet Power Pylons in cities.",
+          "text": "Conversion of condensers into Baphomet Power Pylons in cities, not the deeper control mechanism described by the Living Truth.",
           "isCorrect": false,
           "rationale": "Pylons are a separate Ley Line harvesting infrastructure; condensers were smelted."
         },
         {
-          "label": "D",
-          "text": "Donation of condensers to museums for public education.",
+          "label": "C",
+          "text": "Mass production of condensers for every imperial railway, not the deeper control mechanism described by the Living Truth.",
           "isCorrect": false,
-          "rationale": "Units were smelted; only one known unit escaped destruction into deep storage."
+          "rationale": "The mandate was permanent eradication, not mass production."
+        },
+        {
+          "label": "D",
+          "text": "Permanent eradication: all condensers forcibly removed and completely smelted into molten metal to protect their fuel monopoly.",
+          "isCorrect": true,
+          "rationale": "In 1887 the Consolidated Coal Company ordered condensers removed and smelted to protect its fuel monopoly."
         }
       ],
       "hint": "1887, smelting, fuel monopoly.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It still powers scheduled passenger service across Europe.",
+          "text": "It was rebuilt as a Thai Temple dome in the 20th century, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "The unit remains un-operational in deep storage."
+          "rationale": "Temple domes share design lineage as static resonators; the surviving unit is on Locomotive 34."
         },
         {
           "label": "B",
+          "text": "It was melted in Pennsylvania after Edward Sterling retired.",
+          "isCorrect": false,
+          "rationale": "Sterling confirmed the coal-monopoly motive; the surviving unit is in Swiss storage."
+        },
+        {
+          "label": "C",
           "text": "It remains un-operational in deep storage on Locomotive 34, held by the Swiss Northern Railway since 1987.",
           "isCorrect": true,
           "rationale": "Only one known unit evaded destruction and is un-operational in deep storage on Locomotive 34 with the Swiss Northern Railway since 1987."
         },
         {
-          "label": "C",
-          "text": "It was rebuilt as a Thai Temple dome in the 20th century.",
-          "isCorrect": false,
-          "rationale": "Temple domes share design lineage as static resonators; the surviving unit is on Locomotive 34."
-        },
-        {
           "label": "D",
-          "text": "It was melted in Pennsylvania after Edward Sterling retired.",
+          "text": "It still powers scheduled passenger service across Europe, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "Sterling confirmed the coal-monopoly motive; the surviving unit is in Swiss storage."
+          "rationale": "The unit remains un-operational in deep storage."
         }
       ],
       "hint": "Locomotive number, country, year, and that it is not operating.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 14,
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Ten meters tall with no spire, matching full-size government buildings.",
+          "text": "Ten meters tall with no spire, matching full-size government buildings, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "The condenser is a miniature dome replica, about 3 feet scale, not building-sized."
         },
         {
           "label": "B",
-          "text": "One foot square with a downward iron spike into the firebox.",
-          "isCorrect": false,
-          "rationale": "Dimensions and the upward copper spire do not match those facts."
-        },
-        {
-          "label": "C",
           "text": "About 3 feet in diameter and 3 feet in height, crowned with a 2-foot upward-pointing spire.",
           "isCorrect": true,
           "rationale": "The unit is described as roughly 3 feet diameter and height, with a 2-foot upward-pointing spire for atmospheric energy harvesting."
         },
         {
+          "label": "C",
+          "text": "One foot square with a downward iron spike into the firebox, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Dimensions and the upward copper spire do not match those facts."
+        },
+        {
           "label": "D",
-          "text": "Flat plates only, with no dome or spire at all.",
+          "text": "Flat plates only, with no dome or spire at all, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "It is a massive copper resonator dome with a crowning spire."
         }
       ],
       "hint": "Three-foot cube-like dome plus a two-foot upward spire.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 15,
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Braided with coal dust to improve combustion.",
-          "isCorrect": false,
-          "rationale": "The goal is inductance without combustion, not improved coal burning."
-        },
-        {
-          "label": "B",
           "text": "As a single straight bus bar of iron.",
           "isCorrect": false,
           "rationale": "The material is copper wire in geometric free-energy patterns, not a simple iron bar."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Densely packed and pulled tightly into exact Fibonacci-series patterns and Golden Ratio formations.",
           "isCorrect": true,
           "rationale": "Internally the dome houses densely packed copper wire in Fibonacci-series and Golden Ratio formations."
         },
         {
+          "label": "C",
+          "text": "Braided with coal dust to improve combustion, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "The goal is inductance without combustion, not improved coal burning."
+        },
+        {
           "label": "D",
-          "text": "In random coils with no geometric pattern.",
+          "text": "In random coils with no geometric pattern, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "The wire is pulled into exact Fibonacci-series patterns and Golden Ratio formations."
         }
       ],
       "hint": "Fibonacci series and Golden Ratio inside the copper dome.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 16,
@@ -502,15 +502,15 @@
       "options": [
         {
           "label": "A",
-          "text": "No initial fuel was ever required; the condenser worked from a dead stop.",
+          "text": "The train had to exceed 100 miles per hour before any inductance began, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Initial coal or wood was required to reach the engagement speed."
+          "rationale": "the baseline is 20 miles per hour, not 100."
         },
         {
           "label": "B",
-          "text": "The train had to exceed 100 miles per hour before any inductance began.",
+          "text": "Engagement required a full stop at every Nodal temple for ritual charging, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "the baseline is 20 miles per hour, not 100."
+          "rationale": "Engagement is velocity-based while moving over Ley Lines, not stop-and-charge rituals."
         },
         {
           "label": "C",
@@ -520,9 +520,9 @@
         },
         {
           "label": "D",
-          "text": "Engagement required a full stop at every Nodal temple for ritual charging.",
+          "text": "No initial fuel was ever required; the condenser worked from a dead stop, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Engagement is velocity-based while moving over Ley Lines, not stop-and-charge rituals."
+          "rationale": "Initial coal or wood was required to reach the engagement speed."
         }
       ],
       "hint": "Initial fuel only until a specific miles-per-hour threshold.",
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It kept locomotives hidden from Consolidated Coal inspectors.",
-          "isCorrect": false,
-          "rationale": "The purpose is energetic, not concealment from inspectors."
-        },
-        {
-          "label": "B",
-          "text": "It forced trains to burn more coal in magnetic fields.",
-          "isCorrect": false,
-          "rationale": "The result is near-cessation of coal use after engagement, not increased burning."
-        },
-        {
-          "label": "C",
           "text": "It let the locomotive travel through intense, fluctuating pockets of electromagnetism that drove inductance in the Fibonacci coils.",
           "isCorrect": true,
           "rationale": "Tracks over Ley Lines meant continuous travel through fluctuating electromagnetism; moving Fibonacci copper coils through that flux triggered Electromagnetic Inductance."
         },
         {
-          "label": "D",
-          "text": "It allowed tracks to float above the ground without ties or ballast.",
+          "label": "B",
+          "text": "It forced trains to burn more coal in magnetic fields, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "The result is near-cessation of coal use after engagement, not increased burning."
+        },
+        {
+          "label": "C",
+          "text": "It allowed tracks to float above the ground without ties or ballast, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Tracks follow energetic pathways for propulsion, not floating track beds."
+        },
+        {
+          "label": "D",
+          "text": "It kept locomotives hidden from Consolidated Coal inspectors, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "The purpose is energetic, not concealment from inspectors."
         }
       ],
       "hint": "Fluctuating magnetic flux plus moving copper coils equals inductance.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 18,
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The firebox switched from coal to pure radium pellets.",
-          "isCorrect": false,
-          "rationale": "No radium fuel switch is described; ambient electromagnetic energy replaces most coal."
+          "text": "Coal consumption ceased almost entirely for the remainder of the journey.",
+          "isCorrect": true,
+          "rationale": "Once engaged, inductance continuously superheated boiler water and coal consumption ceased almost entirely for the rest of the journey."
         },
         {
           "label": "B",
-          "text": "Crews still needed a full coal tender for every 305-mile segment.",
-          "isCorrect": false,
-          "rationale": "Pre-1880 photos show long journeys with no coal tender at all."
-        },
-        {
-          "label": "C",
-          "text": "Coal consumption doubled to feed the resonator dome.",
+          "text": "Coal consumption doubled to feed the resonator dome, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Consumption nearly stopped; free ambient energy heated the boiler."
         },
         {
+          "label": "C",
+          "text": "The firebox switched from coal to pure radium pellets, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "No radium fuel switch is described; ambient electromagnetic energy replaces most coal."
+        },
+        {
           "label": "D",
-          "text": "Coal consumption ceased almost entirely for the remainder of the journey.",
-          "isCorrect": true,
-          "rationale": "Once engaged, inductance continuously superheated boiler water and coal consumption ceased almost entirely for the rest of the journey."
+          "text": "Crews still needed a full coal tender for every 305-mile segment.",
+          "isCorrect": false,
+          "rationale": "Pre-1880 photos show long journeys with no coal tender at all."
         }
       ],
       "hint": "Near-zero coal after free-energy engagement.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 19,
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It has no relation to any building; the resemblance is coincidence.",
-          "isCorrect": false,
-          "rationale": "The condenser is part of a unified infrastructure and an exact miniature replica of those domes."
-        },
-        {
-          "label": "B",
-          "text": "It copies modern nuclear cooling towers for aesthetic fashion only.",
-          "isCorrect": false,
-          "rationale": "The lineage is Tartarian harmonic resonators, not modern nuclear aesthetics."
-        },
-        {
-          "label": "C",
           "text": "It is an exact miniature replica of Romanesque and Colonial domed roofs and Thai Temple domes designed as static energy resonators.",
           "isCorrect": true,
           "rationale": "The external dome is an exact miniature of those global domed roofs, all designed to function as static energy resonators within a unified Tartarian grid."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "It mimics coal tipples so inspectors would ignore free-energy hardware.",
           "isCorrect": false,
           "rationale": "The shared geometry is energetic, matching temple and government building domes."
+        },
+        {
+          "label": "C",
+          "text": "It copies modern nuclear cooling towers for aesthetic fashion only, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The lineage is Tartarian harmonic resonators, not modern nuclear aesthetics."
+        },
+        {
+          "label": "D",
+          "text": "It has no relation to any building; the resemblance is coincidence, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "The condenser is part of a unified infrastructure and an exact miniature replica of those domes."
         }
       ],
       "hint": "Miniature dome equals static resonator architecture worldwide.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 20,
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It never existed until Consolidated Coal built it for fuel sales.",
-          "isCorrect": false,
-          "rationale": "It is presented as suppressed Tartarian methodology that predated the electrical downgrade."
-        },
-        {
-          "label": "B",
-          "text": "It was initially designed to operate on pneumatic air pressure—clean, rapid, electricity-free mass transit—before being downgraded to perilous electrical systems.",
+          "text": "It was initially designed to operate on pneumatic air pressure — clean, rapid, electricity-free mass transit.",
           "isCorrect": true,
           "rationale": "The original London Underground is cited as Tartarian pneumatic transit later downgraded to dangerous electrical systems."
         },
         {
-          "label": "C",
-          "text": "It was always a diesel subway with no free-energy connection.",
+          "label": "B",
+          "text": "It never existed until Consolidated Coal built it for fuel sales, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "It was initially pneumatic and electricity-free before downgrade."
+          "rationale": "It is presented as suppressed Tartarian methodology that predated the electrical downgrade."
+        },
+        {
+          "label": "C",
+          "text": "It used Atmospheric Condensers on every carriage after 1887, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Condensers were ordered eradicated in 1887; the Underground example is pneumatic, not condenser-based."
         },
         {
           "label": "D",
-          "text": "It used Atmospheric Condensers on every carriage after 1887.",
+          "text": "It was always a diesel subway with no free-energy connection, disconnected from any deliberate long-game control design.",
           "isCorrect": false,
-          "rationale": "Condensers were ordered eradicated in 1887; the Underground example is pneumatic, not condenser-based."
+          "rationale": "It was initially pneumatic and electricity-free before downgrade."
         }
       ],
       "hint": "Pneumatic first, electrical downgrade later.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They were random paths chosen by coin toss in the 19th century.",
+          "text": "They were random paths chosen by coin toss in the 19th century, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Roads and railways follow deliberate energetic interconnection of nodes."
         },
         {
           "label": "B",
-          "text": "They avoided Ley Lines entirely so magnetic fields would not derail trains.",
-          "isCorrect": false,
-          "rationale": "Tracks were purposefully over Ley Lines to harvest fluctuating electromagnetism."
-        },
-        {
-          "label": "C",
-          "text": "They only connected coal mines owned by Edward Sterling.",
+          "text": "They only connected coal mines owned by Edward Sterling, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Sterling confirmed coal monopoly motives later; the original grid linked Tartarian nodal cities."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "They physically trace Crystalline lattice membrane networks to interconnect major Nodal points (Tartarian cities).",
           "isCorrect": true,
           "rationale": "Placement was not mere geographic convenience; roads and railways trace lattice networks to link Tartarian nodal cities."
+        },
+        {
+          "label": "D",
+          "text": "They avoided Ley Lines entirely so magnetic fields would not derail trains, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Tracks were purposefully over Ley Lines to harvest fluctuating electromagnetism."
         }
       ],
       "hint": "Lattice paths between nodal Tartarian cities.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 22,
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They replaced Ley Lines entirely after the condensers were smelted.",
+          "text": "They replaced Ley Lines entirely after the condensers were smelted, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Pylons harvest from the same Ley Line system; they do not replace it."
         },
         {
           "label": "B",
-          "text": "They are purely decorative statues with no energy function.",
+          "text": "They are purely decorative statues with no energy function, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "They are described as harvesting backed-up Ley Line energy."
         },
         {
           "label": "C",
-          "text": "They harvest backed-up Ley Line energy radiating outward from suppressed urban centers, while locomotives used those same pathways for propulsion.",
-          "isCorrect": true,
-          "rationale": "Pylons harvest backed-up Ley Line energy from suppressed urban centers; locomotives used the same energetic pathways for propulsion."
+          "text": "They powered only the Swiss storage vault for Locomotive 34, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Their role is urban Ley Line harvest, parallel to locomotive pathway use."
         },
         {
           "label": "D",
-          "text": "They powered only the Swiss storage vault for Locomotive 34.",
-          "isCorrect": false,
-          "rationale": "Their role is urban Ley Line harvest, parallel to locomotive pathway use."
+          "text": "They harvest backed-up Ley Line energy radiating outward from suppressed urban centers, while locomotives used those same pathways for propulsion.",
+          "isCorrect": true,
+          "rationale": "Pylons harvest backed-up Ley Line energy from suppressed urban centers; locomotives used the same energetic pathways for propulsion."
         }
       ],
       "hint": "Same Ley Line energy; pylons at cities, condensers on trains.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 23,
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
+          "text": "That Fibonacci wiring was a clerical error in Russian journals.",
+          "isCorrect": false,
+          "rationale": "His letter addresses the strategic fuel-monopoly motive, not dismissing coil geometry."
+        },
+        {
+          "label": "B",
           "text": "That controllers owned the coal fields and required the population to continuously purchase consumable fuel.",
           "isCorrect": true,
           "rationale": "Sterling, former Chief Engineer of the Pennsylvania Railway (1874—1902), confirmed the objective: coal-field owners needed continuous consumable fuel purchases."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "That condensers were unsafe at any speed above 5 miles per hour.",
           "isCorrect": false,
           "rationale": "Sterling confirmed ownership of coal fields and the need for continuous fuel purchases, not a safety claim."
         },
         {
-          "label": "C",
-          "text": "That Tartaria voluntarily sold all copper domes to museums.",
+          "label": "D",
+          "text": "That Tartaria voluntarily sold all copper domes to museums, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The operation was forced eradication for financial dependency, not voluntary museum sales."
-        },
-        {
-          "label": "D",
-          "text": "That Fibonacci wiring was a clerical error in Russian journals.",
-          "isCorrect": false,
-          "rationale": "His letter addresses the strategic fuel-monopoly motive, not dismissing coil geometry."
         }
       ],
       "hint": "Coal ownership and forced ongoing fuel purchases.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 24,
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It made gold-backed currency unnecessary and abolished all banks.",
+          "text": "It had no economic purpose and was only a religious reform, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "The result is deeper financial dependency, not the abolition of money systems."
+          "rationale": "Smelting was calculated forced financial dependency."
         },
         {
           "label": "B",
-          "text": "It enforced artificial scarcity central to Finance and conditioned people to accept austere, toxic, profitable matrix constraints.",
-          "isCorrect": true,
-          "rationale": "Severing free-energy access enforced artificial scarcity central to Finance and degraded expectations so populations accepted the profitable societal matrix."
-        },
-        {
-          "label": "C",
-          "text": "It increased Tartarian harmonic architecture in every city.",
+          "text": "It increased Tartarian harmonic architecture in every city, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Erasing Tartaria degraded aesthetic and technological expectations."
         },
         {
-          "label": "D",
-          "text": "It had no economic purpose and was only a religious reform.",
+          "label": "C",
+          "text": "It made gold-backed currency unnecessary and abolished all banks, while spiritual attention and institutional trust stay fully intact.",
           "isCorrect": false,
-          "rationale": "Smelting was calculated forced financial dependency."
+          "rationale": "The result is deeper financial dependency, not the abolition of money systems."
+        },
+        {
+          "label": "D",
+          "text": "It enforced artificial scarcity central to Finance and conditioned people to accept austere, toxic, profitable matrix constraints.",
+          "isCorrect": true,
+          "rationale": "Severing free-energy access enforced artificial scarcity central to Finance and degraded expectations so populations accepted the profitable societal matrix."
         }
       ],
       "hint": "Artificial scarcity and conditioning into a profitable matrix.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 25,
@@ -790,15 +790,15 @@
       "options": [
         {
           "label": "A",
-          "text": "A public safety upgrade recommended by Thomas Russel Crampton.",
+          "text": "A temporary recall until better Fibonacci patterns could be printed, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "Crampton documented efficiency gains; coal interests ordered eradication later."
+          "rationale": "The eradication was permanent smelting into molten metal to end free-energy locomotives."
         },
         {
           "label": "B",
-          "text": "A temporary recall until better Fibonacci patterns could be printed.",
+          "text": "A public safety upgrade recommended by Thomas Russel Crampton.",
           "isCorrect": false,
-          "rationale": "The eradication was permanent smelting into molten metal to end free-energy locomotives."
+          "rationale": "Crampton documented efficiency gains; coal interests ordered eradication later."
         },
         {
           "label": "C",
@@ -808,7 +808,7 @@
         },
         {
           "label": "D",
-          "text": "A random industrial accident with no lasting social effect.",
+          "text": "A random industrial accident with no lasting social effect, disconnected from any deliberate long-game control design.",
           "isCorrect": false,
           "rationale": "It is described as a highly calculated parasitic operation."
         }

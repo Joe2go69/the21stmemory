@@ -22,15 +22,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a Vatican subway map used by Grey ETs with no cosmic lineage meaning.",
-          "isCorrect": false,
-          "rationale": "Vatican levels host reincarnation routing; Sol-System is the cosmic family architecture itself."
+          "text": "The literal cosmic network of Souls/Sols that make up an immediate family unit.",
+          "isCorrect": true,
+          "rationale": "Sol-System names the soul-family network, not a set of planets orbiting a sun."
         },
         {
           "label": "B",
-          "text": "The literal cosmic network of Souls/Sols that make up an immediate family unit — entirely unrelated to planets or physical space.",
-          "isCorrect": true,
-          "rationale": "Sol-System names the soul-family network, not a set of planets orbiting a sun."
+          "text": "Only a Vatican subway map used by Grey ETs with no cosmic lineage meaning.",
+          "isCorrect": false,
+          "rationale": "Vatican levels host reincarnation routing; Sol-System is the cosmic family architecture itself."
         },
         {
           "label": "C",
@@ -46,7 +46,7 @@
         }
       ],
       "hint": "Network of Souls/Sols — not planets in space.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Any random coworker who shares a lunch table for one fiscal year with no cosmic bond.",
+          "text": "Any random coworker who shares a lunch table for one fiscal year with no cosmic bond, with the surrounding architecture waved away as irrelevant.",
           "isCorrect": false,
           "rationale": "Twin Flame is a soul's ultimate counterpart with deep higher-density synchronization."
         },
         {
           "label": "B",
+          "text": "An NPC hive pair hard-wired to meet every lifetime as official Grey policy, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Greys prohibit Twin Flame reunion; they meticulously track and keep pairs apart."
+        },
+        {
+          "label": "C",
           "text": "A soul's ultimate counterpart — naturally existing in non-linear time and synchronized transition in higher densities, but strictly segregated during 3rd density incarnations.",
           "isCorrect": true,
           "rationale": "Twin Flame = ultimate counterpart; higher densities sync them, 3rd density forces segregation."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "A Micro Sun title reserved only for Source-created beings with no counterpart dynamics.",
           "isCorrect": false,
           "rationale": "Micro Suns wove extended soul-family networks; Twin Flame is the counterpart bond within them."
-        },
-        {
-          "label": "D",
-          "text": "An NPC hive pair hard-wired to meet every lifetime as official Grey policy.",
-          "isCorrect": false,
-          "rationale": "Greys prohibit Twin Flame reunion; they meticulously track and keep pairs apart."
         }
       ],
       "hint": "Ultimate counterpart — synced above, segregated in 3rd density.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Natural higher-density existence lets Twin Flames and the broader Soul Family coordinate experiences, timelines, and transitions seamlessly — while 3rd density is systematically engineered by parasitic entities to disrupt these bonds through separation, amnesia, and perpetual recycling.",
-          "isCorrect": true,
-          "rationale": "Above: seamless coordination. In 3rd density: engineered separation, amnesia, forced recycle."
-        },
-        {
-          "label": "B",
-          "text": "Both densities force permanent Twin Flame separation with identical amnesia technology always on.",
+          "text": "Both densities force permanent Twin Flame separation with identical amnesia technology always on, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Higher-density life coordinates timelines and transitions; parasites engineer 3rd-density separation."
         },
         {
+          "label": "B",
+          "text": "Natural higher-density existence lets Twin Flames and the broader Soul Family coordinate experiences, timelines, and transitions seamlessly.",
+          "isCorrect": true,
+          "rationale": "Above: seamless coordination. In 3rd density: engineered separation, amnesia, forced recycle."
+        },
+        {
           "label": "C",
-          "text": "Higher densities ban all family contact while 3rd density freely unites every Twin Flame by law.",
+          "text": "Higher densities only use Finance Strings while 3rd density has no reincarnation interference at all, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "Higher densities allow seamless coordination; 3rd density is engineered to disrupt bonds."
+          "rationale": "3rd density runs Amnesia Vortex recycling and Twin Flame segregation as core control."
         },
         {
           "label": "D",
-          "text": "Higher densities only use Finance Strings while 3rd density has no reincarnation interference at all.",
+          "text": "Higher densities ban all family contact while 3rd density freely unites every Twin Flame by law, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "3rd density runs Amnesia Vortex recycling and Twin Flame segregation as core control."
+          "rationale": "Higher densities allow seamless coordination; 3rd density is engineered to disrupt bonds."
         }
       ],
       "hint": "Higher densities coordinate freely — 3rd density forces separation and amnesia.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To prove planets truly orbit suns and that Sol-Systems have no soul meaning whatsoever.",
-          "isCorrect": false,
-          "rationale": "In true reality planets do not orbit suns; Sol-System is the horizontal familial link of consciousnesses."
-        },
-        {
-          "label": "B",
-          "text": "To separate humanity from understanding their cosmic family network — hiding that Sol-System is the horizontal familial link between eternal consciousnesses, not planets orbiting suns.",
-          "isCorrect": true,
-          "rationale": "Word \"Sol\" twisted so people forget family-of-souls and accept the fake planetary solar story."
-        },
-        {
-          "label": "C",
           "text": "To help schools teach true cosmic family networks as mandatory core curriculum worldwide.",
           "isCorrect": false,
           "rationale": "It was engineered to separate humanity from understanding their own cosmic family network."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "Only as a harmless slang change with no effect on memory of cosmic lineage.",
           "isCorrect": false,
           "rationale": "The distortion deliberately obfuscates cosmic lineage and interpersonal soul relationships."
+        },
+        {
+          "label": "C",
+          "text": "To separate humanity from understanding their cosmic family network.",
+          "isCorrect": true,
+          "rationale": "Word \"Sol\" twisted so people forget family-of-souls and accept the fake planetary solar story."
+        },
+        {
+          "label": "D",
+          "text": "To prove planets truly orbit suns and that Sol-Systems have no soul meaning whatsoever.",
+          "isCorrect": false,
+          "rationale": "In true reality planets do not orbit suns; Sol-System is the horizontal familial link of consciousnesses."
         }
       ],
       "hint": "Distort \"Sol\" — hide cosmic family, sell planetary orbit myth.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Pod Cluster volunteers who freely choose isolation without any hostile technology involved.",
-          "isCorrect": false,
-          "rationale": "Pods keep broader family near; Twin Flames are meticulously tracked and kept apart by hostiles."
-        },
-        {
-          "label": "B",
-          "text": "No one — Twin Flames are required by law to cohabitate every single 3rd density lifetime.",
+          "text": "No one — Twin Flames are required by law to cohabitate every single 3rd density lifetime, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Reunion is actively prohibited; pairs are tracked and kept apart."
         },
         {
-          "label": "C",
-          "text": "Only benevolent Micro Suns who want every pair to suffer amnesia for spiritual sport.",
+          "label": "B",
+          "text": "Only benevolent Micro Suns who want every pair to suffer amnesia for spiritual sport, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Micro Suns wove soul families; Greys run the prohibition and tracking separation."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "Administrative entities known as Grey ETs — Twin Flame reunion is actively prohibited under their control.",
           "isCorrect": true,
           "rationale": "Grey ETs administratively ban Twin Flame meetings and enforce geographic segregation."
+        },
+        {
+          "label": "D",
+          "text": "Pod Cluster volunteers who freely choose isolation without any hostile technology involved, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Pods keep broader family near; Twin Flames are meticulously tracked and kept apart by hostiles."
         }
       ],
       "hint": "Grey ETs prohibit Twin Flame reunion in the matrix.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 6,
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Because Twin Flames never generate memory activation under any density conditions at all.",
-          "isCorrect": false,
-          "rationale": "Their meeting specifically risks deep subconscious memory activation — that is why they are blocked."
-        },
-        {
-          "label": "B",
-          "text": "Because 2019 permanently banned all soul memory forever with no path to later liberation.",
-          "isCorrect": false,
-          "rationale": "Post-2019 path opens; EMF later dissolves the Amnesia Vortex and restores memory."
-        },
-        {
-          "label": "C",
-          "text": "Allowing Twin Flames to meet would trigger deep subconscious memory, leading to rebellion, discovery of the matrix, and pointless additional suffering — so pairs were meticulously tracked and kept apart.",
+          "text": "Allowing Twin Flames to meet would trigger deep subconscious memory, leading to rebellion, discovery of the matrix, and pointless additional suffering.",
           "isCorrect": true,
           "rationale": "Pre-2019 escape was near-impossible; reunion only sparked memory, rebellion, discovery, and extra pain."
         },
         {
+          "label": "B",
+          "text": "Because Twin Flames never generate memory activation under any density conditions at all, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Their meeting specifically risks deep subconscious memory activation — that is why they are blocked."
+        },
+        {
+          "label": "C",
+          "text": "Because 2019 permanently banned all soul memory forever with no path to later liberation, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Post-2019 path opens; EMF later dissolves the Amnesia Vortex and restores memory."
+        },
+        {
           "label": "D",
-          "text": "Because meeting would instantly award free Finance String wealth with no spiritual consequence.",
+          "text": "Because meeting would instantly award free Finance String wealth with no spiritual consequence and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "Meeting would trigger deep subconscious memory, rebellion, matrix discovery, and pointless added suffering."
         }
       ],
       "hint": "Pre-2019: meeting → memory, rebellion, discovery, extra suffering.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Both groups are banned from any proximity; no Pod Cluster is ever allowed to form, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Broader Soul Family may incarnate in proximity as Pod Clusters; Twin Flames are kept apart."
+        },
+        {
+          "label": "B",
+          "text": "Twin Flames must always cohabit while Pod Clusters are forcibly scattered every loop, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Opposite: pods stay together; Twin Flames are meticulously tracked and segregated."
+        },
+        {
+          "label": "C",
           "text": "The broader Soul Family is permitted to incarnate in proximity as a Pod Cluster, while Twin Flames are meticulously tracked and kept apart.",
           "isCorrect": true,
           "rationale": "Pods allowed for support proximity; Twin Flame pairs specifically blocked from intersecting."
         },
         {
-          "label": "B",
-          "text": "Neither pods nor Twin Flames exist; only random NPCs fill every social role each lifetime.",
+          "label": "D",
+          "text": "Neither pods nor Twin Flames exist; only random NPCs fill every social role each lifetime, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Eternal Soul Family members fill parent/friend roles across loops; Twin Flames are real counterparts kept separate."
-        },
-        {
-          "label": "C",
-          "text": "Twin Flames must always cohabit while Pod Clusters are forcibly scattered every loop.",
-          "isCorrect": false,
-          "rationale": "Opposite: pods stay together; Twin Flames are meticulously tracked and segregated."
-        },
-        {
-          "label": "D",
-          "text": "Both groups are banned from any proximity; no Pod Cluster is ever allowed to form.",
-          "isCorrect": false,
-          "rationale": "Broader Soul Family may incarnate in proximity as Pod Clusters; Twin Flames are kept apart."
         }
       ],
       "hint": "Pod Cluster together — Twin Flames tracked and kept apart.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 8,
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Identical to toxic 3rd density averages with no Age Regression technology available.",
+          "text": "Identical to toxic 3rd density averages with no Age Regression technology available, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Higher-density baselines are centuries long and extendable beyond 20,000 years."
         },
         {
           "label": "B",
-          "text": "A natural lifespan of 450 to 500 earth years, extendable to over 20,000 years with Age Regression technology.",
-          "isCorrect": true,
-          "rationale": "5th density+: 450—500 years baseline, 20,000+ with Age Regression."
-        },
-        {
-          "label": "C",
-          "text": "Exactly twenty-four hours with mandatory lonely decades between every short life.",
+          "text": "Exactly twenty-four hours with mandatory lonely decades between every short life, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Natural lifespan is 450 to 500 earth years, extendable past 20,000 with Age Regression."
         },
         {
-          "label": "D",
-          "text": "Only Micro Sun ages of billions of years with no partner transition coordination ever.",
+          "label": "C",
+          "text": "Only Micro Sun ages of billions of years with no partner transition coordination ever, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Micro Suns are primordial Source souls; Twin Flame vessels run 450—500+ year dynamics with sync exits."
+        },
+        {
+          "label": "D",
+          "text": "A natural lifespan of 450 to 500 earth years, extendable to over 20,000 years with Age Regression technology.",
+          "isCorrect": true,
+          "rationale": "5th density+: 450—500 years baseline, 20,000+ with Age Regression."
         }
       ],
       "hint": "450—500 years — beyond 20,000 with Age Regression.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 9,
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They are always forced through the Amnesia Vortex alone with decades of conscious lonely time.",
-          "isCorrect": false,
-          "rationale": "Amnesia Vortex is 3rd-density trap tech; higher densities do not run that separation trauma."
-        },
-        {
-          "label": "B",
-          "text": "Only one Twin Flame may ever incarnate while the other stays permanently offline forever.",
-          "isCorrect": false,
-          "rationale": "They coordinate together; simultaneous transition is the typical higher-density pattern."
-        },
-        {
-          "label": "C",
           "text": "Grey ETs schedule their deaths randomly under the Vatican with no partner input allowed.",
           "isCorrect": false,
           "rationale": "Higher-density transitions are coordinated soul choices, not Grey administrative death schedules."
         },
         {
-          "label": "D",
-          "text": "They typically choose to end physical incarnations simultaneously — and because time is non-linear there, if one passed first there is no subjective experience of \"lonely time\".",
+          "label": "B",
+          "text": "They typically choose to end physical incarnations simultaneously.",
           "isCorrect": true,
           "rationale": "Simultaneous chosen exits; non-linear time means no lonely waiting trauma in true higher-density reality."
+        },
+        {
+          "label": "C",
+          "text": "Only one Twin Flame may ever incarnate while the other stays permanently offline forever.",
+          "isCorrect": false,
+          "rationale": "They coordinate together; simultaneous transition is the typical higher-density pattern."
+        },
+        {
+          "label": "D",
+          "text": "They are always forced through the Amnesia Vortex alone with decades of conscious lonely time.",
+          "isCorrect": false,
+          "rationale": "Amnesia Vortex is 3rd-density trap tech; higher densities do not run that separation trauma."
         }
       ],
       "hint": "Choose simultaneous exits — no lonely time in non-linear realms.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 10,
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Strictly a 3rd density scenario used merely for theoretical explanation — in true reality such separation trauma does not exist.",
-          "isCorrect": true,
-          "rationale": "Time-bending-to-match is a 3rd-density explanatory frame; higher densities have no lonely separation trauma."
-        },
-        {
-          "label": "B",
           "text": "The primary daily practice of every 5th density household as mandatory cosmic law.",
           "isCorrect": false,
           "rationale": "In true higher-density reality separation trauma does not exist; time-bend talk is 3rd-density theoretical."
         },
         {
-          "label": "C",
-          "text": "A Finance String product sold as retirement insurance for souls stuck outside the firmament.",
-          "isCorrect": false,
-          "rationale": "It is a theoretical explanatory device about density contrast, not a financial product."
+          "label": "B",
+          "text": "Strictly a 3rd density scenario used merely for theoretical explanation.",
+          "isCorrect": true,
+          "rationale": "Time-bending-to-match is a 3rd-density explanatory frame; higher densities have no lonely separation trauma."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "Proof that Twin Flames never coordinate exits and always suffer eternal lonely decades above.",
           "isCorrect": false,
           "rationale": "Higher densities coordinate simultaneous exits; lonely separation is the engineered 3rd-density aberration."
+        },
+        {
+          "label": "D",
+          "text": "A Finance String product sold as retirement insurance for souls stuck outside the firmament.",
+          "isCorrect": false,
+          "rationale": "It is a theoretical explanatory device about density contrast, not a financial product."
         }
       ],
       "hint": "Time-bend matching is 3rd-density theory — true higher density has no lonely trauma.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 11,
@@ -342,13 +342,13 @@
       "options": [
         {
           "label": "A",
-          "text": "The soul rests free for centuries with full Twin Flame reunion before any optional return.",
+          "text": "The soul rests free for centuries with full Twin Flame reunion before any optional return, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "The Amnesia Vortex pulls the soul into the sun portal toward Vatican subterranean processing."
         },
         {
           "label": "B",
-          "text": "Only NPC paperwork is filed at city hall with no sun portal or memory stripping involved.",
+          "text": "Only NPC paperwork is filed at city hall with no sun portal or memory stripping involved and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "True-soul death triggers Amnesia Vortex pull through the sun into Vatican portal hubs."
         },
@@ -360,7 +360,7 @@
         },
         {
           "label": "D",
-          "text": "Micro Suns personally interview every soul for billions of years before any new birth.",
+          "text": "Micro Suns personally interview every soul for billions of years before any new birth, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Grey-run portal logistics handle rapid recycle; Micro Suns are primordial Source-created souls."
         }
@@ -374,15 +374,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Only print finance textbooks with no role in soul escort or reincarnation logistics.",
-          "isCorrect": false,
-          "rationale": "Greys use advanced technology to escort souls to controlled geographic re-entry points."
-        },
-        {
-          "label": "B",
           "text": "Host free Twin Flame reunions and permanently delete all geographic separation rules.",
           "isCorrect": false,
           "rationale": "They escort souls to specific geographical locations assigned to keep Twin Flames far apart."
+        },
+        {
+          "label": "B",
+          "text": "Utilize advanced technology to escort the soul to a specific geographical location for re-entry.",
+          "isCorrect": true,
+          "rationale": "Grey escort from Vatican hubs places souls in assigned regions that enforce Twin Flame distance."
         },
         {
           "label": "C",
@@ -392,13 +392,13 @@
         },
         {
           "label": "D",
-          "text": "Utilize advanced technology to escort the soul to a specific geographical location for re-entry — controlled so Twin Flames remain far apart.",
-          "isCorrect": true,
-          "rationale": "Grey escort from Vatican hubs places souls in assigned regions that enforce Twin Flame distance."
+          "text": "Only print finance textbooks with no role in soul escort or reincarnation logistics.",
+          "isCorrect": false,
+          "rationale": "Greys use advanced technology to escort souls to controlled geographic re-entry points."
         }
       ],
       "hint": "Grey escort to assigned geography — keep Twin Flames far apart.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only when both Twin Flames sign a Vatican marriage form in the same cathedral basement.",
-          "isCorrect": false,
-          "rationale": "Greys keep Twin Flames apart; ignition is energetic at birth, not a joint marriage ritual."
+          "text": "Immediately after birth — typically mere seconds before the umbilical cord is cut.",
+          "isCorrect": true,
+          "rationale": "Birth-moment insertion (seconds before cord cut) + Trillivolts ignite the heart like a touchscreen tap."
         },
         {
           "label": "B",
+          "text": "Never — souls float permanently as Projection Dome pixels without heart ignition.",
+          "isCorrect": false,
+          "rationale": "Forced rapid reallocation into infant vessels is the core of the reincarnation trap."
+        },
+        {
+          "label": "C",
           "text": "Years later at university enrollment with no electrical energy and no cord-timing requirement.",
           "isCorrect": false,
           "rationale": "Insertion is at birth, seconds before the cord is cut, with Trillivolts for heart ignition."
         },
         {
-          "label": "C",
-          "text": "Immediately after birth — typically mere seconds before the umbilical cord is cut — delivering Trillivolts of electrical energy to ignite the infant's heart, akin to a touchscreen's minute electrical interaction.",
-          "isCorrect": true,
-          "rationale": "Birth-moment insertion (seconds before cord cut) + Trillivolts ignite the heart like a touchscreen tap."
-        },
-        {
           "label": "D",
-          "text": "Never — souls float permanently as Projection Dome pixels without heart ignition.",
+          "text": "Only when both Twin Flames sign a Vatican marriage form in the same cathedral basement.",
           "isCorrect": false,
-          "rationale": "Forced rapid reallocation into infant vessels is the core of the reincarnation trap."
+          "rationale": "Greys keep Twin Flames apart; ignition is energetic at birth, not a joint marriage ritual."
         }
       ],
       "hint": "Seconds before cord cut — Trillivolts ignite the heart.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 14,
@@ -438,15 +438,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Brief free will to select parents from available mothers in that assigned region — but geographic assignment itself is controlled by Grey ETs specifically to ensure Twin Flames are placed far apart.",
-          "isCorrect": true,
-          "rationale": "Parent choice within region is limited free will; region assignment enforces Twin Flame distance."
+          "text": "Zero choice of parents and total freedom to pick any Twin Flame household worldwide.",
+          "isCorrect": false,
+          "rationale": "Parent selection is limited free will; geography is controlled to block Twin Flame proximity."
         },
         {
           "label": "B",
-          "text": "Only Finance String contracts decide parents with no Grey geographic control involved.",
-          "isCorrect": false,
-          "rationale": "Grey geographic assignment is the Twin Flame separation mechanism in re-entry logistics."
+          "text": "Brief free will to select parents from available mothers in that assigned region.",
+          "isCorrect": true,
+          "rationale": "Parent choice within region is limited free will; region assignment enforces Twin Flame distance."
         },
         {
           "label": "C",
@@ -456,13 +456,13 @@
         },
         {
           "label": "D",
-          "text": "Zero choice of parents and total freedom to pick any Twin Flame household worldwide.",
+          "text": "Only Finance String contracts decide parents with no Grey geographic control involved.",
           "isCorrect": false,
-          "rationale": "Parent selection is limited free will; geography is controlled to block Twin Flame proximity."
+          "rationale": "Grey geographic assignment is the Twin Flame separation mechanism in re-entry logistics."
         }
       ],
       "hint": "Choose parents in-region — Greys set geography to split Twin Flames.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 15,
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Hostile Greys scatter every friend and relative so no one ever meets the same soul twice.",
-          "isCorrect": false,
-          "rationale": "Benevolent forces outside the firmament keep Pod Clusters together across every loop."
-        },
-        {
-          "label": "B",
-          "text": "Benevolent Soul Family members outside the firmament maneuver incarnation so a Pod Cluster remains together throughout every 3rd density loop — ensuring incarnated individuals are not entirely isolated despite Twin Flame separation.",
+          "text": "Benevolent Soul Family members outside the firmament maneuver incarnation so a Pod Cluster remains together throughout every 3rd density loop.",
           "isCorrect": true,
           "rationale": "External family keeps pods together every loop; Twin Flames stay split, but you are not alone."
         },
         {
+          "label": "B",
+          "text": "Hostile Greys scatter every friend and relative so no one ever meets the same soul twice, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Benevolent forces outside the firmament keep Pod Clusters together across every loop."
+        },
+        {
           "label": "C",
-          "text": "A finance club that only meets after EMF and has no role during the occupation loops.",
+          "text": "A finance club that only meets after EMF and has no role during the occupation loops, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Pods operate across successive 3rd density loops as living Soul Family proximity support."
         },
         {
           "label": "D",
-          "text": "Pod Clusters only exist for Twin Flames who are required to share one address forever.",
+          "text": "Pod Clusters only exist for Twin Flames who are required to share one address forever, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Pods are broader Soul Family proximity; Twin Flames remain rigorously isolated."
         }
       ],
       "hint": "Outside-firmament family keeps pods together every loop.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 16,
@@ -502,31 +502,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Brand-new random souls never met before across the entire 178,000-year occupation.",
-          "isCorrect": false,
-          "rationale": "They are the exact same eternal Soul Family members who shared every past loop of the occupation."
-        },
-        {
-          "label": "B",
-          "text": "Strictly Twin Flames forced to play every social role in one household simultaneously.",
+          "text": "Strictly Twin Flames forced to play every social role in one household simultaneously, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Twin Flames are kept apart; the circle is the broader repeating Soul Family pod."
         },
         {
-          "label": "C",
-          "text": "Only NPC fillers with no eternal continuity and no shared past-loop history.",
+          "label": "B",
+          "text": "Brand-new random souls never met before across the entire 178,000-year occupation in any density, cycle, or historical configuration.",
           "isCorrect": false,
-          "rationale": "They are eternal Soul Family repeating the pod across every loop of the occupation."
+          "rationale": "They are the exact same eternal Soul Family members who shared every past loop of the occupation."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "The exact same eternal Soul Family members who have shared every past loop over the entire 178,000-year occupation.",
           "isCorrect": true,
           "rationale": "Your circle is the same eternal pod across every loop of the 178,000-year occupation."
+        },
+        {
+          "label": "D",
+          "text": "Only NPC fillers with no eternal continuity and no shared past-loop history, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "They are eternal Soul Family repeating the pod across every loop of the occupation."
         }
       ],
       "hint": "Same eternal Soul Family — every loop of the 178,000-year occupation.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 17,
@@ -534,19 +534,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Only through free open libraries that already teach Twin Flame geography without distortion.",
-          "isCorrect": false,
-          "rationale": "Perceived Knowledge is a String of engineered falsehood, not free Twin Flame truth schooling."
-        },
-        {
-          "label": "B",
           "text": "By permanently uniting Twin Flames so cosmic lineage becomes impossible to forget.",
           "isCorrect": false,
           "rationale": "Suppression keeps Twin Flames apart and bonds souls to artificial vessel bloodlines."
         },
         {
+          "label": "B",
+          "text": "Only through free open libraries that already teach Twin Flame geography without distortion.",
+          "isCorrect": false,
+          "rationale": "Perceived Knowledge is a String of engineered falsehood, not free Twin Flame truth schooling."
+        },
+        {
           "label": "C",
-          "text": "Through the Three Strings of control — Religion, Finance, and Perceived Knowledge — forcing bond with artificial genetic vessel-family bloodlines instead of true cosmic lineage.",
+          "text": "Through the Three Strings of control — Religion, Finance, and Perceived Knowledge.",
           "isCorrect": true,
           "rationale": "Religion, Finance, Perceived Knowledge glue you to vessel bloodlines and hide Sol-System family."
         },
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A singular-use suit — the soul never returns to the same genetic family line unless controlled by specific bloodline/parasitic requirements.",
-          "isCorrect": true,
-          "rationale": "Body is disposable suit; genetic family is not true cosmic identity except under parasitic bloodline control."
+          "text": "The eternal self that always returns to the same genetic family line by cosmic law every loop.",
+          "isCorrect": false,
+          "rationale": "Vessel is a singular-use suit; soul does not return to the same genetic line unless parasitic bloodline control requires it."
         },
         {
           "label": "B",
-          "text": "A finance instrument that stores Sol-System membership fees between deaths automatically.",
+          "text": "A finance instrument that stores Sol-System membership fees between deaths automatically, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Vessel is biological temporary suit; Finance String is separate control architecture."
         },
         {
           "label": "C",
-          "text": "An immortal shared body that every Twin Flame pair occupies simultaneously forever.",
-          "isCorrect": false,
-          "rationale": "Vessels are singular-use and mortal; Twin Flames are segregated in 3rd density incarnations."
+          "text": "A singular-use suit — the soul never returns to the same genetic family line unless controlled by specific bloodline/parasitic requirements.",
+          "isCorrect": true,
+          "rationale": "Body is disposable suit; genetic family is not true cosmic identity except under parasitic bloodline control."
         },
         {
           "label": "D",
-          "text": "The eternal self that always returns to the same genetic family line by cosmic law every loop.",
+          "text": "An immortal shared body that every Twin Flame pair occupies simultaneously forever, as if no adjacent systems participated at all.",
           "isCorrect": false,
-          "rationale": "Vessel is a singular-use suit; soul does not return to the same genetic line unless parasitic bloodline control requires it."
+          "rationale": "Vessels are singular-use and mortal; Twin Flames are segregated in 3rd density incarnations."
         }
       ],
       "hint": "Singular-use suit — genetic line is not true cosmic identity.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 19,
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only cathedral stone statues with no consciousness and no role in awakening.",
-          "isCorrect": false,
-          "rationale": "External family orchestrates the Great Spiritual Awakening and prepares the EMF event."
-        },
-        {
-          "label": "B",
-          "text": "Only Grey ETs and no escaped or external benevolent forces whatsoever.",
+          "text": "Only Grey ETs and no escaped or external benevolent forces whatsoever, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Tarans, Pleiadians who escaped, and benevolent ETs outside the Ice Wall are part of the family."
         },
         {
-          "label": "C",
-          "text": "Only NPCs generated last week with no link to Pleiadians or Taran lineage.",
+          "label": "B",
+          "text": "Only NPCs generated last week with no link to Pleiadians or Taran lineage, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Original Taran souls, escaped Pleiadians, and external benevolent ETs form the wider family."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "Original Taran human souls, the Pleiadians who escaped the initial matrix trap, and benevolent extraterrestrials operating outside the Ice Wall.",
           "isCorrect": true,
           "rationale": "Tarans + escaped Pleiadians + Ice Wall—external benevolent ETs = wider Soul Family web."
+        },
+        {
+          "label": "D",
+          "text": "Only cathedral stone statues with no consciousness and no role in awakening, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "External family orchestrates the Great Spiritual Awakening and prepares the EMF event."
         }
       ],
       "hint": "Tarans, escaped Pleiadians, benevolent ETs outside the Ice Wall.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 20,
@@ -630,25 +630,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Permanently strengthening Grey portal hubs so Twin Flames stay separated forever.",
+          "text": "Permanently strengthening Grey portal hubs so Twin Flames stay separated forever, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "They orchestrate the Great Spiritual Awakening and prepare the EMF event for reunification."
         },
         {
           "label": "B",
-          "text": "Banning all memory recovery so 178,000 years stay sealed after the flash forever.",
-          "isCorrect": false,
-          "rationale": "EMF restores 178,000 years of memories and liberates Twin Flames from enforced separation."
-        },
-        {
-          "label": "C",
           "text": "Only selling Finance String products like NESARA as the sole path outside the firmament.",
           "isCorrect": false,
           "rationale": "Finance is a control String to drop; external family runs awakening and EMF preparation."
         },
         {
+          "label": "C",
+          "text": "Banning all memory recovery so 178,000 years stay sealed after the flash forever, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "EMF restores 178,000 years of memories and liberates Twin Flames from enforced separation."
+        },
+        {
           "label": "D",
-          "text": "Orchestrating the Great Spiritual Awakening and preparing the Electro Magnetic Frequency (EMF) event — eagerly awaiting reunification.",
+          "text": "Orchestrating the Great Spiritual Awakening and preparing the Electro Magnetic Frequency (EMF) event.",
           "isCorrect": true,
           "rationale": "External family drives awakening timeline and EMF prep, awaiting full reunification."
         }
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They forgot the trapped pods entirely and no longer await any reunification event.",
-          "isCorrect": false,
-          "rationale": "They eagerly await reunification and actively prepare the EMF liberation sequence."
-        },
-        {
-          "label": "B",
           "text": "Exactly like trapped incarnates with identical clocks, aging, and Amnesia Vortex cycles.",
           "isCorrect": false,
           "rationale": "External family is free of linear time constraints that define in-matrix occupation experience."
         },
         {
-          "label": "C",
-          "text": "They experience double linear time pressure with faster Twin Flame separation each century.",
+          "label": "B",
+          "text": "They forgot the trapped pods entirely and no longer await any reunification event.",
           "isCorrect": false,
-          "rationale": "Absence of linear time outside the firmament is the named difference."
+          "rationale": "They eagerly await reunification and actively prepare the EMF liberation sequence."
+        },
+        {
+          "label": "C",
+          "text": "Due to the absence of linear time constraints outside the firmament.",
+          "isCorrect": true,
+          "rationale": "Outside the firmament there is no linear time cage; 178,000 years is not lived the same way."
         },
         {
           "label": "D",
-          "text": "Due to the absence of linear time constraints outside the firmament — they eagerly await reunification while the occupation felt differently than inside the matrix.",
-          "isCorrect": true,
-          "rationale": "Outside the firmament there is no linear time cage; 178,000 years is not lived the same way."
+          "text": "They experience double linear time pressure with faster Twin Flame separation each century.",
+          "isCorrect": false,
+          "rationale": "Absence of linear time outside the firmament is the named difference."
         }
       ],
       "hint": "No linear time outside the firmament — different experience of 178,000 years.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 22,
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "All Pod Clusters so no Soul Family member may remain near another after liberation.",
-          "isCorrect": false,
-          "rationale": "Liberation restores Sol-System harmony; it does not scatter eternal family bonds."
-        },
-        {
-          "label": "B",
           "text": "The Amnesia Vortex and the Grey ET portal mechanisms — ending the technological chain that stripped memory and forced geographic Twin Flame separation.",
           "isCorrect": true,
           "rationale": "Flash kills Amnesia Vortex + Grey portals that ran wipe-and-separate reincarnation."
         },
         {
-          "label": "C",
-          "text": "Only fashion trends with no effect on reincarnation traps or Grey portal mechanisms.",
+          "label": "B",
+          "text": "All Pod Clusters so no Soul Family member may remain near another after liberation, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "EMF permanently dissolves the Amnesia Vortex and the Grey ET portal mechanisms."
+          "rationale": "Liberation restores Sol-System harmony; it does not scatter eternal family bonds."
+        },
+        {
+          "label": "C",
+          "text": "Only Micro Suns while leaving Vatican subterranean processing fully online forever, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Grey portal mechanisms at Vatican hubs are dissolved; Micro Suns are not the target wipe."
         },
         {
           "label": "D",
-          "text": "Only Micro Suns while leaving Vatican subterranean processing fully online forever.",
+          "text": "Only fashion trends with no effect on reincarnation traps or Grey portal mechanisms, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
-          "rationale": "Grey portal mechanisms at Vatican hubs are dissolved; Micro Suns are not the target wipe."
+          "rationale": "EMF permanently dissolves the Amnesia Vortex and the Grey ET portal mechanisms."
         }
       ],
       "hint": "EMF dissolves Amnesia Vortex and Grey ET portals.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 23,
@@ -726,7 +726,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Memory returns only to Greys so Twin Flame tracking can restart under a new brand.",
+          "text": "Memory returns only to Greys so Twin Flame tracking can restart under a new brand, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "True souls recover memory; Grey portal mechanisms are dissolved, not upgraded."
         },
@@ -738,13 +738,13 @@
         },
         {
           "label": "C",
-          "text": "Only Finance balances update while cosmic family identity remains fully amnesic.",
+          "text": "Only Finance balances update while cosmic family identity remains fully amnesic, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Full occupation memory returns, revealing Sol-System and eternal companion identity."
         },
         {
           "label": "D",
-          "text": "All memory is permanently erased again so Sol-System identity stays hidden forever.",
+          "text": "All memory is permanently erased again so Sol-System identity stays hidden forever, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Survivors instantaneously recover 178,000 years of memories and realize true Sol-System nature."
         }
@@ -758,27 +758,27 @@
       "options": [
         {
           "label": "A",
-          "text": "It proves the suffering was random and meaningless with no effect on Soul Family bonds.",
+          "text": "It requires abandoning all Pod members as fake while only trusting vessel bloodlines forever.",
           "isCorrect": false,
-          "rationale": "Unprecedented suffering will strengthen bonds between incarnated Soul Family members exponentially."
+          "rationale": "The circle is eternal cosmic companions; vessel bloodlines were the artificial bond to drop."
         },
         {
           "label": "B",
-          "text": "It only matters for Finance String lawsuits and never for harmonic Sol-System restoration.",
+          "text": "It only matters for Finance String lawsuits and never for harmonic Sol-System restoration, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Recontextualization is spiritual/relational: trauma strengthens eternal family bonds toward restored harmony."
         },
         {
           "label": "C",
-          "text": "The extreme trauma endured in this engineered aberration fundamentally recontextualizes as shared ordeal — ultimately strengthening bonds between incarnated Soul Family members exponentially.",
+          "text": "The extreme trauma endured in this engineered aberration fundamentally recontextualizes as shared ordeal.",
           "isCorrect": true,
           "rationale": "Shared occupation trauma becomes exponential glue for the eternal pod after the truth lands."
         },
         {
           "label": "D",
-          "text": "It requires abandoning all Pod members as fake while only trusting vessel bloodlines forever.",
+          "text": "It proves the suffering was random and meaningless with no effect on Soul Family bonds, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "The circle is eternal cosmic companions; vessel bloodlines were the artificial bond to drop."
+          "rationale": "Unprecedented suffering will strengthen bonds between incarnated Soul Family members exponentially."
         }
       ],
       "hint": "Shared ordeal strengthens eternal Soul Family bonds exponentially.",
@@ -790,15 +790,15 @@
       "options": [
         {
           "label": "A",
-          "text": "They are instantly liberated from enforced geographic and dimensional separation — restoring the original, uncorrupted harmonic architecture of the Sol-System.",
-          "isCorrect": true,
-          "rationale": "Trap neutralization frees Twin Flames from geo/dimensional split and restores Sol-System harmony."
+          "text": "Only Pod Clusters dissolve while Twin Flame tracking technology is upgraded under Greys.",
+          "isCorrect": false,
+          "rationale": "Grey portal mechanisms dissolve; Twin Flames are liberated, not re-tracked."
         },
         {
           "label": "B",
-          "text": "They convert into Micro Suns overnight and lose all counterpart relationship dynamics.",
-          "isCorrect": false,
-          "rationale": "Counterpart harmonic architecture is restored, not erased into non-relational Micro Sun status."
+          "text": "They are instantly liberated from enforced geographic and dimensional separation.",
+          "isCorrect": true,
+          "rationale": "Trap neutralization frees Twin Flames from geo/dimensional split and restores Sol-System harmony."
         },
         {
           "label": "C",
@@ -808,13 +808,13 @@
         },
         {
           "label": "D",
-          "text": "Only Pod Clusters dissolve while Twin Flame tracking technology is upgraded under Greys.",
+          "text": "They convert into Micro Suns overnight and lose all counterpart relationship dynamics.",
           "isCorrect": false,
-          "rationale": "Grey portal mechanisms dissolve; Twin Flames are liberated, not re-tracked."
+          "rationale": "Counterpart harmonic architecture is restored, not erased into non-relational Micro Sun status."
         }
       ],
       "hint": "Liberated from geo/dimensional separation — Sol-System harmony restored.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     }
   ]
 }

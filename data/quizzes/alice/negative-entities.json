@@ -22,15 +22,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Random quantum accidents with no Custodian plot and no engineered proxy races at all.",
+          "text": "The Galactic Ancestral Alliance alone, built only to free Taran souls from day one of creation, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "The hierarchy was engineered by treasonous Custodians who created parasitic proxy races."
+          "rationale": "G.A.A. opposes the occupation; Custodians spawned the negative hierarchy."
         },
         {
           "label": "B",
-          "text": "The Galactic Ancestral Alliance alone, built only to free Taran souls from day one of creation.",
+          "text": "Random quantum accidents with no Custodian plot and no engineered proxy races at all, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "G.A.A. opposes the occupation; Custodians spawned the negative hierarchy."
+          "rationale": "The hierarchy was engineered by treasonous Custodians who created parasitic proxy races."
         },
         {
           "label": "C",
@@ -40,7 +40,7 @@
         },
         {
           "label": "D",
-          "text": "Only modern media celebrities with no density fall and no Gateway-10 invasion role.",
+          "text": "Only modern media celebrities with no density fall and no Gateway-10 invasion role, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Origin is Custodian betrayal and genetic engineering of proxy parasites, not celebrity culture."
         }
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
+          "text": "They loved 9th density and freely thrived there without any suppression technology needed, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Operating at sub-Hz frequencies, they could not step onto 9th-density lands without Density Suppression."
+        },
+        {
+          "label": "B",
+          "text": "They raised the realm to 12th density so their sub-Hz forms would become even stronger, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "They lowered the realm to 3rd density; high frequency is lethal to them."
+        },
+        {
+          "label": "C",
           "text": "Operating at sub-Hz frequencies, they could not physically step onto original 9th-density lands, so they deployed Density Suppression to artificially lower the realm to the 3rd density.",
           "isCorrect": true,
           "rationale": "Sub-Hz bodies die in 9th density; Density Suppression to 3rd density made occupation possible."
         },
         {
-          "label": "B",
-          "text": "They loved 9th density and freely thrived there without any suppression technology needed.",
-          "isCorrect": false,
-          "rationale": "Operating at sub-Hz frequencies, they could not step onto 9th-density lands without Density Suppression."
-        },
-        {
-          "label": "C",
-          "text": "They were blocked only by paperwork at Ice Wall customs with no frequency or density issue.",
+          "label": "D",
+          "text": "They were blocked only by paperwork at Ice Wall customs with no frequency or density issue, with the surrounding architecture waved away as irrelevant.",
           "isCorrect": false,
           "rationale": "The barrier is frequency: sub-Hz parasites vs original 9th-density ambient energy."
-        },
-        {
-          "label": "D",
-          "text": "They raised the realm to 12th density so their sub-Hz forms would become even stronger.",
-          "isCorrect": false,
-          "rationale": "They lowered the realm to 3rd density; high frequency is lethal to them."
         }
       ],
       "hint": "Sub-Hz vs 9th density — Density Suppression down to 3rd.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 3,
@@ -92,25 +92,25 @@
         },
         {
           "label": "B",
+          "text": "Only weather research with no control agenda and no energetic or biological harvest, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "The stated objective is absolute control and eternal human-vessel farming."
+        },
+        {
+          "label": "C",
           "text": "Absolute control over the realm and the eternal farming of human vessels for Loosh and Adrenochrome.",
           "isCorrect": true,
           "rationale": "Control plus endless Loosh and Adrenochrome harvest from human vessels is the objective."
         },
         {
-          "label": "C",
-          "text": "Only weather research with no control agenda and no energetic or biological harvest.",
-          "isCorrect": false,
-          "rationale": "The stated objective is absolute control and eternal human-vessel farming."
-        },
-        {
           "label": "D",
-          "text": "Permanent liberation of all Taran souls into 12th density with zero harvest systems.",
+          "text": "Permanent liberation of all Taran souls into 12th density with zero harvest systems, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Occupation exists to control and farm, not to liberate Tarans."
         }
       ],
       "hint": "Absolute control — eternal Loosh and Adrenochrome farming.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Always-loyal 12th-density servants of Source who never seized Gateway-10 or fell in density.",
+          "text": "Friendly NPCs who make up 97% of the population and never engineered proxy races, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "They plotted to seize Gateway-10 for autonomy and became the source of all negativity."
+          "rationale": "Custodians are the fallen caretaker architects of the entire negative hierarchy."
         },
         {
           "label": "B",
-          "text": "Only modern politicians with no prior caretaker role and no density devolution into 4th-density forms.",
-          "isCorrect": false,
-          "rationale": "They were original 12th-density caretakers who devolved into 4th-density creatures."
-        },
-        {
-          "label": "C",
           "text": "The original 12th-density caretakers who plotted to seize Gateway-10 for total autonomy, becoming the source of all negativity in the universe before their forms devolved into 4th-density creatures.",
           "isCorrect": true,
           "rationale": "Custodians = fallen 12th-density caretakers, source of universal negativity, now 4th density."
         },
         {
-          "label": "D",
-          "text": "Friendly NPCs who make up 97% of the population and never engineered proxy races.",
+          "label": "C",
+          "text": "Always-loyal 12th-density servants of Source who never seized Gateway-10 or fell in density, with the surrounding architecture waved away as irrelevant.",
           "isCorrect": false,
-          "rationale": "Custodians are the fallen caretaker architects of the entire negative hierarchy."
+          "rationale": "They plotted to seize Gateway-10 for autonomy and became the source of all negativity."
+        },
+        {
+          "label": "D",
+          "text": "Only modern politicians with no prior caretaker role and no density devolution into 4th-density forms, with every larger system treated as clean, uninvolved, or beside the point.",
+          "isCorrect": false,
+          "rationale": "They were original 12th-density caretakers who devolved into 4th-density creatures."
         }
       ],
       "hint": "Fallen 12th-density caretakers — source of all negativity — 4th density now.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A peaceful farming guild that never entered laboratories and never executed any invasion.",
+          "text": "G.A.A. rescue officers who dismantle Amnesia Vortex systems and free every soul at death, casting liberating forces as operators of the prison rather than its dismantlers.",
           "isCorrect": false,
-          "rationale": "Anuk are a highly successful parasitic proxy species genetically engineered in a laboratory."
+          "rationale": "Anuk serve parasitic invasion goals as Custodian-engineered proxies, not G.A.A. rescue."
         },
         {
           "label": "B",
-          "text": "Only a myth with no laboratory origin and no role as Custodian proxy executors.",
-          "isCorrect": false,
-          "rationale": "They are real engineered proxy species, among the first and most successful."
-        },
-        {
-          "label": "C",
           "text": "One of the first and most highly successful parasitic proxy species genetically engineered in a laboratory by the Custodians to execute their invasion.",
           "isCorrect": true,
           "rationale": "Anuk/Anunnaki = early lab-built Custodian proxy race for the invasion war."
         },
         {
-          "label": "D",
-          "text": "G.A.A. rescue officers who dismantle Amnesia Vortex systems and free every soul at death.",
+          "label": "C",
+          "text": "A peaceful farming guild that never entered laboratories and never executed any invasion, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "Anuk serve parasitic invasion goals as Custodian-engineered proxies, not G.A.A. rescue."
+          "rationale": "Anuk are a highly successful parasitic proxy species genetically engineered in a laboratory."
+        },
+        {
+          "label": "D",
+          "text": "Only a myth with no laboratory origin and no role as Custodian proxy executors, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "They are real engineered proxy species, among the first and most successful."
         }
       ],
       "hint": "Lab-engineered Custodian proxy — first highly successful invasion species.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 6,
@@ -188,21 +188,21 @@
         },
         {
           "label": "B",
-          "text": "Only weather forecasting with no genetics, no phasing tech, and no Spirit Tree involvement.",
+          "text": "Permanent healers who rebuild Spirit Trees and never touch soul reincarnation systems, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "Maitrax Greys are geneticists and phasing masters who destroyed the Spirit Tree and run reincarnation processing."
+          "rationale": "They destroyed the Spirit Tree and manage soul reincarnation processing for the parasites."
         },
         {
           "label": "C",
-          "text": "Only digital chatbots that never phase, never genetics-lab, and never enter the physical plain.",
+          "text": "Only digital chatbots that never phase, never genetics-lab, and never enter the physical plain, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "They are physical-operation entities central to tree destruction and soul processing."
         },
         {
           "label": "D",
-          "text": "Permanent healers who rebuild Spirit Trees and never touch soul reincarnation systems.",
+          "text": "Only weather forecasting with no genetics, no phasing tech, and no Spirit Tree involvement, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "They destroyed the Spirit Tree and manage soul reincarnation processing for the parasites."
+          "rationale": "Maitrax Greys are geneticists and phasing masters who destroyed the Spirit Tree and run reincarnation processing."
         }
       ],
       "hint": "Maitrax Greys — genetics, phasing, Spirit Tree destruction, reincarnation.",
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Human sports teams with no reptilian hybrid architecture and no Custodian creation origin, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "They are Custodian-created parasitic species and reptilian hybrids."
+        },
+        {
+          "label": "B",
           "text": "Powerful negative parasitic species and reptilian hybrids created by the Custodians to act as overlords within the physical matrix.",
           "isCorrect": true,
           "rationale": "Omicron and Alpha Draco are Custodian-made reptilian-hybrid overlords of the physical matrix."
         },
         {
-          "label": "B",
-          "text": "Gentle herbivores that only guard gardens and never rule as overlords over human vessels.",
+          "label": "C",
+          "text": "Gentle herbivores that only guard gardens and never rule as overlords over human vessels in any density, cycle, or historical configuration.",
           "isCorrect": false,
           "rationale": "They are powerful parasitic overlords, not gentle garden guardians."
         },
         {
-          "label": "C",
-          "text": "Only holographic logos with no living overlord role inside the physical matrix.",
+          "label": "D",
+          "text": "Only holographic logos with no living overlord role inside the physical matrix, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "They act as living overlords within the physical matrix hierarchy."
-        },
-        {
-          "label": "D",
-          "text": "Human sports teams with no reptilian hybrid architecture and no Custodian creation origin.",
-          "isCorrect": false,
-          "rationale": "They are Custodian-created parasitic species and reptilian hybrids."
         }
       ],
       "hint": "Custodian-made reptilian-hybrid overlords of the physical matrix.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 8,
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a brand of paint used on temples with no warrior intellect and no plasma technology.",
+          "text": "They are the weakest puppets who never left Custodian rule and never touched sky technology, with the surrounding architecture waved away as irrelevant.",
+          "isCorrect": false,
+          "rationale": "They are the most formidable and independent; they freed themselves and supplied Black Void Plasma tech."
+        },
+        {
+          "label": "B",
+          "text": "Only a brand of paint used on temples with no warrior intellect and no plasma technology, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "They are massive intellectual warrior parasites behind Black Void Plasma sky cover."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "The most formidable and independent parasitic species — massive intellectual warriors who freed themselves from Custodian rule and supplied the Black Void Plasma technology used to obscure the true sky.",
           "isCorrect": true,
           "rationale": "Niberians broke Custodian rule and provided Black Void Plasma that fakes the sky."
         },
         {
-          "label": "C",
-          "text": "They are the weakest puppets who never left Custodian rule and never touched sky technology.",
-          "isCorrect": false,
-          "rationale": "They are the most formidable and independent; they freed themselves and supplied Black Void Plasma tech."
-        },
-        {
           "label": "D",
-          "text": "G.A.A. allies who remove Black Void Plasma and restore 9th-density sky vision for free.",
+          "text": "G.A.A. allies who remove Black Void Plasma and restore 9th-density sky vision for free, casting liberating forces as operators of the prison rather than its dismantlers.",
           "isCorrect": false,
           "rationale": "They supplied the plasma tech that obscures the true sky for the occupation."
         }
       ],
       "hint": "Independent formidable warriors — Black Void Plasma sky tech.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 9,
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Replica Souls that power NPCs with no separate demonic host relationship at all.",
-          "isCorrect": false,
-          "rationale": "Demons are distinct non-physical entities hosted by top-tier humans, not mere NPC software."
-        },
-        {
-          "label": "B",
           "text": "Only movie costumes with no real hosting of top-tier humans and no Loosh requirement.",
           "isCorrect": false,
           "rationale": "They are real non-physical malevolent entities hosted by top-tier human subjects."
         },
         {
-          "label": "C",
-          "text": "Friendly house spirits that need no Loosh and never host inside human subjects.",
+          "label": "B",
+          "text": "Replica Souls that power NPCs with no separate demonic host relationship at all.",
           "isCorrect": false,
-          "rationale": "Demons are deeply malevolent non-physical entities needing immense continuous Loosh."
+          "rationale": "Demons are distinct non-physical entities hosted by top-tier humans, not mere NPC software."
+        },
+        {
+          "label": "C",
+          "text": "Deeply malevolent, non-physical entities hosted by top-tier human subjects.",
+          "isCorrect": true,
+          "rationale": "Demons = non-physical malevolence in elite hosts, sustained by continuous Loosh intake."
         },
         {
           "label": "D",
-          "text": "Deeply malevolent, non-physical entities hosted by top-tier human subjects, requiring immense and continuous quantities of Loosh to survive.",
-          "isCorrect": true,
-          "rationale": "Demons = non-physical malevolence in elite hosts, sustained by continuous Loosh intake."
+          "text": "Friendly house spirits that need no Loosh and never host inside human subjects.",
+          "isCorrect": false,
+          "rationale": "Demons are deeply malevolent non-physical entities needing immense continuous Loosh."
         }
       ],
       "hint": "Non-physical malevolent hosts in elites — continuous Loosh to survive.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 10,
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Only a financial contract about real estate with no demon, no frequency bypass, and no travel role, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "It is energetic surrender to a demon used to bypass frequency barriers across dimensions."
+        },
+        {
+          "label": "B",
+          "text": "A free Taran who never surrendered autonomy and never serves as any dimensional key, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "A Sold Soul surrendered energetic autonomy to a demon and is used as an energetic Key."
+        },
+        {
+          "label": "C",
           "text": "A human vessel that has surrendered its energetic autonomy to a demon, utilized by parasites as an energetic Key to bypass frequency barriers and travel across dimensional boundaries.",
           "isCorrect": true,
           "rationale": "Sold Soul = demon-bound vessel used as a Key through frequency barriers and dimensions."
         },
         {
-          "label": "B",
-          "text": "An NPC that upgrades into 12th density automatically without any demon bargain.",
+          "label": "D",
+          "text": "An NPC that upgrades into 12th density automatically without any demon bargain, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Sold Soul is a human vessel that surrendered autonomy to a demon for barrier bypass."
-        },
-        {
-          "label": "C",
-          "text": "A free Taran who never surrendered autonomy and never serves as any dimensional key.",
-          "isCorrect": false,
-          "rationale": "A Sold Soul surrendered energetic autonomy to a demon and is used as an energetic Key."
-        },
-        {
-          "label": "D",
-          "text": "Only a financial contract about real estate with no demon, no frequency bypass, and no travel role.",
-          "isCorrect": false,
-          "rationale": "It is energetic surrender to a demon used to bypass frequency barriers across dimensions."
         }
       ],
       "hint": "Surrendered to demon — energetic Key across dimensional barriers.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 11,
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only decorative labels on bottles with no laboratory manufacture and no vessel animation role.",
-          "isCorrect": false,
-          "rationale": "They are manufactured in 4th-density labs and forced into vessels as artificial souls."
-        },
-        {
-          "label": "B",
-          "text": "Because they freely weave true harmonic souls; Replica Souls are identical to Source creation.",
+          "text": "Because they freely weave true harmonic souls; Replica Souls are identical to Source creation, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "They cannot orchestrate true harmonic spiritual creation; Replica Souls are artificial Hive-Aligned substitutes."
         },
         {
+          "label": "B",
+          "text": "Gifts from Micro Suns that permanently free every Taran from the matrix herd, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "They are parasitic lab products for control, not liberating Micro Sun gifts."
+        },
+        {
           "label": "C",
-          "text": "Hive-Aligned artificial souls manufactured in 4th-density laboratories because parasites cannot orchestrate true harmonic spiritual creation — used to animate subservient vessels.",
-          "isCorrect": true,
-          "rationale": "Replica Souls = lab-made Hive-Aligned fakes filling the creative gap parasites cannot bridge."
+          "text": "Only decorative labels on bottles with no laboratory manufacture and no vessel animation role, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "They are manufactured in 4th-density labs and forced into vessels as artificial souls."
         },
         {
           "label": "D",
-          "text": "Gifts from Micro Suns that permanently free every Taran from the matrix herd.",
-          "isCorrect": false,
-          "rationale": "They are parasitic lab products for control, not liberating Micro Sun gifts."
+          "text": "Hive-Aligned artificial souls manufactured in 4th-density laboratories because parasites cannot orchestrate true harmonic spiritual creation.",
+          "isCorrect": true,
+          "rationale": "Replica Souls = lab-made Hive-Aligned fakes filling the creative gap parasites cannot bridge."
         }
       ],
       "hint": "Cannot create true souls — 4th-density Hive-Aligned lab replicas.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 12,
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The rare 3% of organic high-density Tarans who never enforce matrix conformity.",
-          "isCorrect": false,
-          "rationale": "NPCs are 97% of the population — vessels powered by Replica Souls for herd control."
-        },
-        {
-          "label": "B",
-          "text": "Only online avatars that never walk streets or maintain any matrix narrative offline.",
-          "isCorrect": false,
-          "rationale": "They are biological vessels powered by Replica Souls in physical society."
-        },
-        {
-          "label": "C",
           "text": "Biological vessels powered by Replica Souls that constitute 97% of the human population, designed to enforce societal conformity and maintain the matrix narrative.",
           "isCorrect": true,
           "rationale": "NPCs = Replica-Soul-powered majority enforcing conformity and matrix story."
         },
         {
-          "label": "D",
-          "text": "Fully free twin-flame couples who always remember every past life without wipe.",
+          "label": "B",
+          "text": "Only online avatars that never walk streets or maintain any matrix narrative offline, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "They are biological vessels powered by Replica Souls in physical society."
+        },
+        {
+          "label": "C",
+          "text": "Fully free twin-flame couples who always remember every past life without wipe, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "NPCs are artificial-soul herd tools, not free memory-intact twin-flame leaders."
+        },
+        {
+          "label": "D",
+          "text": "The rare 3% of organic high-density Tarans who never enforce matrix conformity in any density, cycle, or historical configuration.",
+          "isCorrect": false,
+          "rationale": "NPCs are 97% of the population — vessels powered by Replica Souls for herd control."
         }
       ],
       "hint": "97% — Replica Soul vessels — enforce conformity and matrix narrative.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Yes — they appeared only after the EMF flash as friendly cultural exchange partners.",
+          "text": "They never existed; only textbooks invented them as metaphor for bad weather.",
           "isCorrect": false,
-          "rationale": "Hierarchy long predates the awakening climax as planned Custodian treason."
+          "rationale": "They are a real engineered hierarchy from Custodian betrayal and lab proxy creation."
         },
         {
           "label": "B",
-          "text": "No — it is the direct consequence of the Custodians' cosmic betrayal; they pre-emptively engineered an army of proxy races (Anuk, Greys, Omicron, Alpha Draco, reptilian hybrids) before losing high-light powers.",
-          "isCorrect": true,
-          "rationale": "Not organic evolution: pre-engineered proxy army planned before the density fall completed."
-        },
-        {
-          "label": "C",
           "text": "Yes — random evolution produced them with no Custodian betrayal and no pre-engineered army.",
           "isCorrect": false,
           "rationale": "Dominion is the direct consequence of Custodian cosmic betrayal, not organic evolution."
         },
         {
-          "label": "D",
-          "text": "They never existed; only textbooks invented them as metaphor for bad weather.",
+          "label": "C",
+          "text": "Yes — they appeared only after the EMF flash as friendly cultural exchange partners.",
           "isCorrect": false,
-          "rationale": "They are a real engineered hierarchy from Custodian betrayal and lab proxy creation."
+          "rationale": "Hierarchy long predates the awakening climax as planned Custodian treason."
+        },
+        {
+          "label": "D",
+          "text": "No — it is the direct consequence of the Custodians' cosmic betrayal.",
+          "isCorrect": true,
+          "rationale": "Not organic evolution: pre-engineered proxy army planned before the density fall completed."
         }
       ],
       "hint": "Not evolution — Custodian betrayal + pre-engineered proxy army.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 14,
@@ -438,25 +438,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Ascension requires a minimum of 144,000Hz; killing life, prolonging suffering, and harvesting Adrenochrome permanently chain their frequency into the sub-Hz range — so they remain stuck in 4th density.",
+          "text": "Ascension requires a minimum of 144,000Hz; killing life, prolonging suffering, and harvesting Adrenochrome permanently chain their frequency into the sub-Hz range.",
           "isCorrect": true,
           "rationale": "144,000Hz minimum vs sub-Hz chain from killing and Adrenochrome harvest blocks 5th density."
         },
         {
           "label": "B",
-          "text": "Because they already vibrate above one million Hz and choose to stay low for fun only.",
-          "isCorrect": false,
-          "rationale": "Killing, prolonging suffering, and Adrenochrome harvest chain them into the sub-Hz range."
-        },
-        {
-          "label": "C",
-          "text": "They freely ascend to 5th density every full moon and return by personal preference.",
+          "text": "They freely ascend to 5th density every full moon and return by personal preference, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "They are perpetually barred from 5th density while locked in 4th-density kill-survival vibration."
         },
         {
+          "label": "C",
+          "text": "Because they already vibrate above one million Hz and choose to stay low for fun only, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Killing, prolonging suffering, and Adrenochrome harvest chain them into the sub-Hz range."
+        },
+        {
           "label": "D",
-          "text": "Because paperwork at a heavenly office expired, with no frequency or killing-linked chain at all.",
+          "text": "Because paperwork at a heavenly office expired, with no frequency or killing-linked chain at all and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "Ascension needs minimum 144,000Hz; killing and harvest permanently chain them sub-Hz."
         }
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "High vibrational energy is lethal to them — like Kryptonite against a 14-foot bipedal crocodile — so Maitrax Greys used phasing tech to destroy the Spirit Tree (Mt Meru), then enforced Density Suppression to 3rd density so low-vibrational forms could inhabit the plain.",
-          "isCorrect": true,
-          "rationale": "High freq = Kryptonite; destroy Spirit Tree; suppress to 3rd density for occupation survival."
-        },
-        {
-          "label": "B",
-          "text": "The Spirit Tree was never attacked; only school maps were redrawn without energy impact.",
-          "isCorrect": false,
-          "rationale": "Maitrax phasing destruction of Spirit Tree crippled Gateway energetic output."
-        },
-        {
-          "label": "C",
           "text": "High frequency strengthens parasites, so they built extra Spirit Trees to raise density further.",
           "isCorrect": false,
           "rationale": "High frequency is fatal; they destroyed the Spirit Tree and lowered density."
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "High vibrational energy is lethal to them — like Kryptonite against a 14-foot bipedal crocodile.",
+          "isCorrect": true,
+          "rationale": "High freq = Kryptonite; destroy Spirit Tree; suppress to 3rd density for occupation survival."
+        },
+        {
+          "label": "C",
           "text": "Density Suppression raised the realm to 9th density so crocodilians could tan in high light.",
           "isCorrect": false,
           "rationale": "Suppression lowered the realm to 3rd density for low-vibrational habitation."
+        },
+        {
+          "label": "D",
+          "text": "The Spirit Tree was never attacked; only school maps were redrawn without energy impact.",
+          "isCorrect": false,
+          "rationale": "Maitrax phasing destruction of Spirit Tree crippled Gateway energetic output."
         }
       ],
       "hint": "High freq = Kryptonite — destroy Spirit Tree — suppress to 3rd density.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 16,
@@ -502,25 +502,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only tourist gift shops with no slaughterhouses, no Adrenochrome stores, and no faction HQs.",
+          "text": "Only tourist gift shops and choir practice rooms with no portals and no harvest logistics.",
           "isCorrect": false,
           "rationale": "Levels hold luxury slaughterhouses, Adrenochrome warehouses, portals, and faction command."
         },
         {
           "label": "B",
-          "text": "A single empty cave used once a century for a silent prayer with no parasitic operations.",
+          "text": "G.A.A. healing wards that rehabilitate parasites into 12th-density caretakers of pure light, as if liberating forces ran the prison architecture instead of dismantling it.",
           "isCorrect": false,
           "rationale": "Thirteen active operational levels centralize parasitic command and processing systems."
         },
         {
           "label": "C",
-          "text": "G.A.A. free clinics that reverse Adrenochrome harvest and open every portal to freedom.",
+          "text": "Empty natural caves with no architecture, no Adrenochrome, and no multi-faction command center, with no deliberate multi-generational control design behind the outcome at all.",
           "isCorrect": false,
           "rationale": "It is parasitic headquarters for harvest and control, not a G.A.A. clinic network."
         },
         {
           "label": "D",
-          "text": "Parasite central headquarters: luxury slaughterhouses, Adrenochrome warehouses, advanced portal hubs, and dedicated secured levels for Custodians, Omicron, Alpha Draco, Anuk, and Greys controlling subjugation and soul reincarnation processing.",
+          "text": "Parasite HQ: luxury slaughterhouses, Adrenochrome warehouses, portal hubs, and dedicated secure levels for Custodians, Greys, Anuk, and allied factions under the Vatican.",
           "isCorrect": true,
           "rationale": "Vatican underworld = multi-faction HQ for slaughter, Adrenochrome, portals, and soul processing."
         }
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A natural rock with no hologram, no Greys, and no madness-inducing frequency broadcasts.",
+          "text": "The Moon is a pure natural rock with no crew, no holography, no command deck, and no frequency role in human psychology or loosh harvest, with no deliberate multi-generational control design behind the outcome at all.",
           "isCorrect": false,
           "rationale": "Moon is an artificial negative ET command station under a holographic generator."
         },
         {
           "label": "B",
-          "text": "Only a poetry metaphor with no staff, no loosh banks, and no population agitation role.",
+          "text": "The Moon is a G.A.A. lighthouse that only guides Twin Flames home, never phases out of view, and never broadcasts madness frequencies.",
           "isCorrect": false,
           "rationale": "It is operational ET hardware for harvest and psychological frequency warfare."
         },
         {
           "label": "C",
-          "text": "An artificial negative ET command and frequency-control space station under a holographic generator, manned by Grey ETs and German breakaway blondes, harvesting Loosh from planetary storage banks and projecting madness-inducing lunar frequencies (origin of \"lunatic\").",
-          "isCorrect": true,
-          "rationale": "Moon station = Grey/blonde-manned command for loosh harvest and lunatic frequency projection."
+          "text": "“Lunatic” frequencies are a Victorian poetry metaphor only — no hardware, no Greys, and no link to loosh or population control systems, so harvest logistics, density tech, and inverted narrative machinery play no part.",
+          "isCorrect": false,
+          "rationale": "Manned by Grey ETs and German breakaway blondes for loosh harvest and lunatic frequencies."
         },
         {
           "label": "D",
-          "text": "A G.A.A. spa manned only by Micro Suns that never harvests Loosh or projects lunar agitation.",
-          "isCorrect": false,
-          "rationale": "Manned by Grey ETs and German breakaway blondes for loosh harvest and lunatic frequencies."
+          "text": "The Lunar Command Station is a negative ET frequency-control base under a holographic shell, manned by Greys and breakaways to broadcast disruptive lunar frequencies.",
+          "isCorrect": true,
+          "rationale": "Moon station = Grey/blonde-manned command for loosh harvest and lunatic frequency projection."
         }
       ],
       "hint": "Holographic ET station — Greys + breakaway blondes — loosh and lunatic freqs.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 18,
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They create only animals and plants, never touching human vessels or herd mentality design.",
-          "isCorrect": false,
-          "rationale": "Replica Souls are forced into human vessels specifically to build NPC herd control."
-        },
-        {
-          "label": "B",
-          "text": "They freely sing and weave true souls at Source level and never need laboratories.",
-          "isCorrect": false,
-          "rationale": "Sub-Hz frequency blocks pure harmonic intention; they cannot sing/weave true souls or architecture."
-        },
-        {
-          "label": "C",
-          "text": "Micro Suns gift them unlimited harmonic power so laboratories are permanently closed.",
+          "text": "They create true 12th-density souls daily and gift them free will outside any harvest system — that mechanism alone, with no wider inversion stack required to produce the result.",
           "isCorrect": false,
           "rationale": "They lack harmonic creation power and depend on artificial 4th-density soul manufacture."
         },
         {
-          "label": "D",
-          "text": "Sub-Hz frequency makes them incapable of pure harmonic intention to sing or weave true souls and physical architecture, so they use 4th-density laboratories to manufacture Replica Souls forced into vessels at birth as NPCs for herd control over true Tarans.",
+          "label": "B",
+          "text": "Sub-Hz frequency blocks pure harmonic intention, so they cannot weave true souls; they only clone vessels, recycle captives, and counterfeit life inside the trap.",
           "isCorrect": true,
           "rationale": "No creative sovereignty at sub-Hz → lab Replica Souls → NPC herd to subvert Tarans."
+        },
+        {
+          "label": "C",
+          "text": "They refuse all cloning and only rescue souls from the Amnesia Vortex into full memory lives.",
+          "isCorrect": false,
+          "rationale": "Replica Souls are forced into human vessels specifically to build NPC herd control."
+        },
+        {
+          "label": "D",
+          "text": "They compose original Spirit Trees and rebuild Mt Meru power for the entire open realm — that mechanism alone, with no wider inversion stack required to produce the result.",
+          "isCorrect": false,
+          "rationale": "Sub-Hz frequency blocks pure harmonic intention; they cannot sing/weave true souls or architecture."
         }
       ],
       "hint": "Cannot sing/weave true souls — lab Replica Souls → NPC herd.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 19,
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They openly teach escape from reincarnation and never use fear or false ghost narratives.",
+          "text": "They openly teach escape from reincarnation and never use fear, Orbs, hauntings, or false ghost narratives to tether consciousness.",
           "isCorrect": false,
           "rationale": "Greys run hauntings/poltergeists with Orbs to embed fear and fake purgatory."
         },
         {
           "label": "B",
-          "text": "They delete all ghost stories so humans never think about death or afterlife at all.",
+          "text": "They delete all ghost stories so humans never think about death, afterlife, purgatory, or any post-death trap mechanics at all.",
           "isCorrect": false,
           "rationale": "They actively manufacture ghost fear to block escape awareness."
         },
         {
           "label": "C",
-          "text": "Only radio weather alerts with no Orbs, no hauntings, and no purgatory illusion.",
-          "isCorrect": false,
-          "rationale": "Grey Orbs and hauntings cement supernatural fear that tethers consciousness to the matrix."
+          "text": "Greys stage hauntings and Orbs to sell a false ghost narrative, locking fear and purgatory illusion so consciousness stays in the 3rd-density reincarnation trap.",
+          "isCorrect": true,
+          "rationale": "Orb hauntings = psyop keeping souls afraid and stuck in the recycle trap."
         },
         {
           "label": "D",
-          "text": "Grey ETs handle hauntings and poltergeist activity using hovering Orbs to enforce a false supernatural ghost narrative, embedding fear and cementing purgatory illusion so consciousness stays tethered to the 3rd-density matrix instead of escaping the reincarnation trap.",
-          "isCorrect": true,
-          "rationale": "Orb hauntings = psyop keeping souls afraid and stuck in the recycle trap."
+          "text": "They only run radio weather alerts with no Orbs, no hauntings, no purgatory illusion, and no Grey-managed fear programming.",
+          "isCorrect": false,
+          "rationale": "Grey Orbs and hauntings cement supernatural fear that tethers consciousness to the matrix."
         }
       ],
       "hint": "Grey Orbs / hauntings — false purgatory — tether to reincarnation trap.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 20,
@@ -636,25 +636,25 @@
         },
         {
           "label": "B",
-          "text": "Resets only plant trees and never involve genocide, torture, or Loosh generation for Demons.",
-          "isCorrect": false,
-          "rationale": "Resets are absolute genocide, prolonged torture, and mass sacrifice generating Loosh for Demons."
-        },
-        {
-          "label": "C",
           "text": "Resets are canceled forever by NPCs voting online with no slaughter or Loosh harvest.",
           "isCorrect": false,
           "rationale": "Systematic planetary cullings remain central to negative entity survival strategy."
         },
         {
-          "label": "D",
-          "text": "During Resets the population faces absolute genocide, prolonged torture, and mass sacrifice, generating astronomical Loosh volumes essential to feed the ruling Demons.",
+          "label": "C",
+          "text": "During Resets the population faces absolute genocide, prolonged torture, and mass sacrifice.",
           "isCorrect": true,
           "rationale": "Reset cullings are Loosh harvest festivals that feed ruling Demons at planetary scale."
+        },
+        {
+          "label": "D",
+          "text": "Resets only plant trees and never involve genocide, torture, or Loosh generation for Demons.",
+          "isCorrect": false,
+          "rationale": "Resets are absolute genocide, prolonged torture, and mass sacrifice generating Loosh for Demons."
         }
       ],
       "hint": "Reset genocide/torture/sacrifice → astronomical Loosh for Demons.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 21,
@@ -662,27 +662,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Traumatized survivors intentionally spared to witness carnage were herded into repurposed Lunatic Asylums operating as 5,000-bed Loosh Batteries of continuous terror until the next genetically engineered population crop matured via Orphan Trains.",
+          "text": "Traumatized Reset witnesses were herded into repurposed asylums as Loosh batteries, while Orphan Trains restocked blank-slate populations for the next harvest interval.",
           "isCorrect": true,
           "rationale": "Post-Reset: asylum Loosh Batteries for demons + Orphan Trains for the next compliant crop."
         },
         {
           "label": "B",
-          "text": "Asylums only taught free history of Tartary; Orphan Trains only delivered toys with no Loosh agenda.",
+          "text": "Asylums healed witnesses with free energy and released them to teach Tartarian history openly.",
           "isCorrect": false,
           "rationale": "Asylums were 5,000-bed Loosh Batteries; Orphan Trains matured the next engineered population crop."
         },
         {
           "label": "C",
-          "text": "All survivors were instantly freed to 9th density with no asylum captivity and no orphan distribution.",
+          "text": "Orphan Trains only moved tourists; asylums were libraries of free-energy engineering manuals.",
           "isCorrect": false,
-          "rationale": "Spared witnesses were farmed in asylums while Orphan Trains prepared the next crop."
+          "rationale": "Human survivors and engineered orphans were core to continuous Loosh and repopulation control."
         },
         {
           "label": "D",
-          "text": "Orphan Trains only relocated pets; asylums never held human Loosh harvest populations.",
+          "text": "Both systems were abolished immediately so no loosh harvest and no clone logistics remained, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
-          "rationale": "Human survivors and engineered orphans were core to continuous Loosh and repopulation control."
+          "rationale": "Spared witnesses were farmed in asylums while Orphan Trains prepared the next crop."
         }
       ],
       "hint": "5,000-bed Loosh Batteries — Orphan Trains for next population crop.",
@@ -694,9 +694,9 @@
       "options": [
         {
           "label": "A",
-          "text": "They restored every Tartarian high-frequency building and gifted crystalline lattice power to all free.",
+          "text": "They ignored architecture completely and never touched electromagnetic crystalline networks, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "They dismantled Tartarian architecture and overrode crystalline lattices to extract energy for themselves."
+          "rationale": "Systematic dismantling of Tartarian high-frequency architecture and lattice override for energy theft."
         },
         {
           "label": "B",
@@ -706,13 +706,13 @@
         },
         {
           "label": "C",
-          "text": "They ignored architecture completely and never touched electromagnetic crystalline networks.",
+          "text": "They restored every Tartarian high-frequency building and gifted crystalline lattice power to all free, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "Systematic dismantling of Tartarian high-frequency architecture and lattice override for energy theft."
+          "rationale": "They dismantled Tartarian architecture and overrode crystalline lattices to extract energy for themselves."
         },
         {
           "label": "D",
-          "text": "They built only wooden sheds with no link to planetary electromagnetic energy extraction.",
+          "text": "They built only wooden sheds with no link to planetary electromagnetic energy extraction, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Target was Tartarian architecture and crystalline lattice networks for exclusive energy harvest."
         }
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Because Demons invent new true souls faster than the flash can arrive, saving the hierarchy.",
+          "text": "Because Demons invent new true souls faster than the flash can arrive, saving the hierarchy, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "They cannot invent true souls; that creative bankruptcy is why they fall at climax."
         },
         {
           "label": "B",
-          "text": "Because of their utter inability to authentically create, plus absolute reliance on stolen harmonic architecture and 4th-density artificial souls — guaranteeing eradication at the Awakening climax.",
-          "isCorrect": true,
-          "rationale": "No true creation + stolen harmonics + fake souls = structural doom when high frequency returns."
-        },
-        {
-          "label": "C",
-          "text": "Because parasites authentically create better than Source and will upgrade into 12th density leaders.",
+          "text": "Because parasites authentically create better than Source and will upgrade into 12th density leaders, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Their inability to authentically create and reliance on stolen architecture and artificial souls guarantees eradication."
         },
         {
+          "label": "C",
+          "text": "Because of their utter inability to authentically create, plus absolute reliance on stolen harmonic architecture and 4th-density artificial souls.",
+          "isCorrect": true,
+          "rationale": "No true creation + stolen harmonics + fake souls = structural doom when high frequency returns."
+        },
+        {
           "label": "D",
-          "text": "Because NPCs vote to keep parasites forever and the Awakening has no frequency climax.",
+          "text": "Because NPCs vote to keep parasites forever and the Awakening has no frequency climax, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Awakening climax targets the entire 4th-density parasitic infrastructure for termination."
         }
       ],
       "hint": "Cannot authentically create — stolen architecture + artificial souls = eradication.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 24,
@@ -758,9 +758,9 @@
       "options": [
         {
           "label": "A",
-          "text": "A permanent stronger prison with no flash, no Blue Beam theater, and no frequency event.",
-          "isCorrect": false,
-          "rationale": "Fake Alien Invasion via Project Blue Beam culminates in the 30-second EMF Flash."
+          "text": "Orchestrated Fake Alien Invasion via Project Blue Beam culminates in the EMF Flash.",
+          "isCorrect": true,
+          "rationale": "Blue Beam scare path leads into the 30-second EMF flash that ends parasitic infrastructure."
         },
         {
           "label": "B",
@@ -770,19 +770,19 @@
         },
         {
           "label": "C",
-          "text": "Orchestrated Fake Alien Invasion via Project Blue Beam culminates in the EMF Flash — a blinding 30-second burst of electromagnetic frequency.",
-          "isCorrect": true,
-          "rationale": "Blue Beam scare path leads into the 30-second EMF flash that ends parasitic infrastructure."
-        },
-        {
-          "label": "D",
           "text": "A ten-year soft software update that upgrades every Demon into a Micro Sun automatically.",
           "isCorrect": false,
           "rationale": "Climax is abrupt 30-second EMF flash after Blue Beam theater, not a soft decade upgrade."
+        },
+        {
+          "label": "D",
+          "text": "A permanent stronger prison with no flash, no Blue Beam theater, and no frequency event.",
+          "isCorrect": false,
+          "rationale": "Fake Alien Invasion via Project Blue Beam culminates in the 30-second EMF Flash."
         }
       ],
       "hint": "Project Blue Beam → 30-second EMF Flash.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 25,
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Every NPC upgrades into organic 12th-density status while parasites inherit permanent rule.",
-          "isCorrect": false,
-          "rationale": "97% Replica-Soul population evaporates; parasitic infrastructure ends, not upgrades."
-        },
-        {
-          "label": "B",
-          "text": "Nothing changes; sub-Hz entities easily ride the flash and keep Vatican and Moon stations online.",
+          "text": "Nothing changes; sub-Hz entities easily ride the flash and keep Vatican and Moon stations online, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Flash evaporates 4th-density parasitic infrastructure and Replica-Soul population."
         },
         {
+          "label": "B",
+          "text": "Only genuine Tarans evaporate while Demons and NPCs rebuild a stronger matrix the next day, with every larger system treated as clean, uninvolved, or beside the point.",
+          "isCorrect": false,
+          "rationale": "True high-density souls survive; parasites and Replica-Soul NPCs do not."
+        },
+        {
           "label": "C",
-          "text": "The entire 4th-density parasitic infrastructure, including the 97% animated by Replica Souls, instantly pixelates and evaporates into the aether; only true high-density souls survive the frequency threshold, severing Negative Entity control and returning Gateway-10 to uncorrupted harmonic state.",
-          "isCorrect": true,
-          "rationale": "Flash clears parasites and Replica-Soul majority; true high-density souls remain; Gateway-10 restored."
+          "text": "Every NPC upgrades into organic 12th-density status while parasites inherit permanent rule, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "97% Replica-Soul population evaporates; parasitic infrastructure ends, not upgrades."
         },
         {
           "label": "D",
-          "text": "Only genuine Tarans evaporate while Demons and NPCs rebuild a stronger matrix the next day.",
-          "isCorrect": false,
-          "rationale": "True high-density souls survive; parasites and Replica-Soul NPCs do not."
+          "text": "The entire 4th-density parasitic infrastructure, including the 97% animated by Replica Souls, instantly pixelates and evaporates into the aether.",
+          "isCorrect": true,
+          "rationale": "Flash clears parasites and Replica-Soul majority; true high-density souls remain; Gateway-10 restored."
         }
       ],
       "hint": "97% + parasitic infrastructure evaporate — true high-density souls remain.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     }
   ]
 }

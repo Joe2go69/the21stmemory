@@ -28,21 +28,21 @@
         },
         {
           "label": "B",
-          "text": "Decorative sky lamps that only affect weather forecasts and never touch souls, memory, or frequency control.",
+          "text": "Natural celestial bodies that run purely on thermodynamics and gravity with no technology and no parasitic engineering at all, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "They govern soul recycling, frequency control, and loosh harvest — not mere weather decoration."
+          "rationale": "They are not natural thermodynamic bodies; they are engineered technological mechanisms."
         },
         {
           "label": "C",
-          "text": "Friendly rescue beacons installed by the Source solely to heal children and open free travel for every soul.",
+          "text": "Friendly rescue beacons installed by the Source solely to heal children and open free travel for every soul, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Their engineered role is subjugation and harvest, not benevolent free-travel beacons."
         },
         {
           "label": "D",
-          "text": "Natural celestial bodies that run purely on thermodynamics and gravity with no technology and no parasitic engineering at all.",
+          "text": "Decorative sky lamps that only affect weather forecasts and never touch souls, memory, or frequency control, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "They are not natural thermodynamic bodies; they are engineered technological mechanisms."
+          "rationale": "They govern soul recycling, frequency control, and loosh harvest — not mere weather decoration."
         }
       ],
       "hint": "4th-density tech mechanisms — 3rd Density prison enforcement.",
@@ -54,9 +54,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Only to improve navigation for ships, with no connection to soul portals or lunar stations.",
+          "text": "To celebrate open exploration of the Ice Wall and teach that the realm is localized and flat, as if no adjacent systems participated at all.",
           "isCorrect": false,
-          "rationale": "Its core purpose is cosmological deception about Sun and Moon technology, not mere navigation aid."
+          "rationale": "Heliocentrism hides true celestial functions and blocks flat-realm exploration."
         },
         {
           "label": "B",
@@ -66,15 +66,15 @@
         },
         {
           "label": "C",
-          "text": "To celebrate open exploration of the Ice Wall and teach that the realm is localized and flat.",
+          "text": "As a temporary classroom metaphor that schools openly label as fiction after age twelve, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Heliocentrism hides true celestial functions and blocks flat-realm exploration."
+          "rationale": "It is enforced as physical reality to conceal the true functions of Sun and Moon."
         },
         {
           "label": "D",
-          "text": "As a temporary classroom metaphor that schools openly label as fiction after age twelve.",
+          "text": "Only to improve navigation for ships, with no connection to soul portals or lunar stations, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "It is enforced as physical reality to conceal the true functions of Sun and Moon."
+          "rationale": "Its core purpose is cosmological deception about Sun and Moon technology, not mere navigation aid."
         }
       ],
       "hint": "Manufactured cover — hide true Sun and Moon functions.",
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Sun only grows crops by chemistry, and the Moon only creates romantic poetry with no harvest role.",
-          "isCorrect": false,
-          "rationale": "Both are technological prison tools for recycling and loosh harvest, not mere crop and poetry devices."
-        },
-        {
-          "label": "B",
           "text": "The Sun stores bank records and the Moon prints paper money for central banks exclusively.",
           "isCorrect": false,
           "rationale": "Their functions are soul recycling and frequency/harvest command, not banking paperwork."
         },
         {
-          "label": "C",
-          "text": "Both are empty holograms with zero interaction with souls, memory, or energetic harvesting systems.",
+          "label": "B",
+          "text": "The Sun only grows crops by chemistry, and the Moon only creates romantic poetry with no harvest role.",
           "isCorrect": false,
-          "rationale": "They actively process souls and harvest life-force; they are not inert empty pictures."
+          "rationale": "Both are technological prison tools for recycling and loosh harvest, not mere crop and poetry devices."
+        },
+        {
+          "label": "C",
+          "text": "The Sun is a soul-recycling portal that wipes human memories upon death.",
+          "isCorrect": true,
+          "rationale": "Sun recycles and memory-wipes; Moon commands frequencies and harvests life-force from suffering."
         },
         {
           "label": "D",
-          "text": "The Sun is a soul-recycling portal that wipes human memories upon death; the Moon is a disguised extraterrestrial command and frequency-control station that harvests the energetic life-force generated by human suffering.",
-          "isCorrect": true,
-          "rationale": "Sun recycles and memory-wipes; Moon commands frequencies and harvests life-force from suffering."
+          "text": "Both are empty holograms with zero interaction with souls, memory, or energetic harvesting systems.",
+          "isCorrect": false,
+          "rationale": "They actively process souls and harvest life-force; they are not inert empty pictures."
         }
       ],
       "hint": "Sun = soul recycle / wipe; Moon = ET command / harvest station.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Sol-System refers only to corporate solar panels, never to cosmic soul family members.",
-          "isCorrect": false,
-          "rationale": "True Sol-System names the network of connected souls, obscured by the Sun-word inversion."
-        },
-        {
-          "label": "B",
-          "text": "Sol always meant a nuclear fusion ball, and a Sol-System is only a list of rocky planets with no soul meaning.",
+          "text": "Sol always meant a nuclear fusion ball, and a Sol-System is only a list of rocky planets with no soul meaning and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "Sol and Soul are synonymous; parasites inverted Sol to mean Sun after the last reset."
         },
         {
+          "label": "B",
+          "text": "Sol-System refers only to corporate solar panels, never to cosmic soul family members, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "True Sol-System names the network of connected souls, obscured by the Sun-word inversion."
+        },
+        {
           "label": "C",
-          "text": "Sol and Soul are functionally synonymous; parasites manipulated \"Sol\" after the last reset to mean \"Sun,\" hiding that a true Sol-System is a network of cosmic soul family members, not planets orbiting a star.",
-          "isCorrect": true,
-          "rationale": "Sol = Soul; a Sol-System is a cosmic soul family network, not a planetary orbit chart."
+          "text": "Sol is a brand name for sunglasses, and Soul is only a music genre with no cosmological link, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "The linguistic inversion is deliberate cosmological warfare over soul-family meaning."
         },
         {
           "label": "D",
-          "text": "Sol is a brand name for sunglasses, and Soul is only a music genre with no cosmological link.",
-          "isCorrect": false,
-          "rationale": "The linguistic inversion is deliberate cosmological warfare over soul-family meaning."
+          "text": "Sol and Soul are functionally synonymous; parasites manipulated \"Sol\" after the last reset to mean \"Sun,\" hiding that a true Sol-System is a network of cosmic soul family members, not planets orbiting a star.",
+          "isCorrect": true,
+          "rationale": "Sol = Soul; a Sol-System is a cosmic soul family network, not a planetary orbit chart."
         }
       ],
       "hint": "Sol = Soul; Sol-System = cosmic soul family network.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 5,
@@ -150,7 +150,7 @@
       "options": [
         {
           "label": "A",
-          "text": "A gentle museum of past lives that restores every memory before free voluntary rebirth.",
+          "text": "A gentle museum of past lives that restores every memory before free voluntary rebirth, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "It forcibly wipes memories before rapid reincarnation; it does not restore free archives."
         },
@@ -162,13 +162,13 @@
         },
         {
           "label": "C",
-          "text": "A weather cyclone in the southern oceans that only sinks ships and never touches deceased souls.",
+          "text": "A weather cyclone in the southern oceans that only sinks ships and never touches deceased souls, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "It is a technological soul portal inside the Sun, not a maritime storm."
         },
         {
           "label": "D",
-          "text": "A library under the Ice Wall that only stores maps and never pulls souls after death.",
+          "text": "A library under the Ice Wall that only stores maps and never pulls souls after death in any density, cycle, or historical configuration.",
           "isCorrect": false,
           "rationale": "The vortex sits in the Sun and pulls recently deceased souls for memory wipe."
         }
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A pure water reservoir that only controls tides through chemistry with no extraterrestrial presence.",
+          "text": "A peaceful tourist hotel run by the G.A.A. that only heals visitors and never harvests energy, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Behind the illusion is a negative ET command and harvest station, not a water tank."
+          "rationale": "It is a negative ET command, communication, and harvesting center."
         },
         {
           "label": "B",
-          "text": "An abandoned rock with no staff, no frequencies, and no role in human behavior control.",
-          "isCorrect": false,
-          "rationale": "It commands frequencies and harvests; it is not an inert abandoned rock."
-        },
-        {
-          "label": "C",
           "text": "The true physical structure behind the Moon's visual illusion — a negative extraterrestrial command, communication, and harvesting center.",
           "isCorrect": true,
           "rationale": "Lunar Space Station is the real hostile ET installation masked by the Moon illusion."
         },
         {
-          "label": "D",
-          "text": "A peaceful tourist hotel run by the G.A.A. that only heals visitors and never harvests energy.",
+          "label": "C",
+          "text": "A pure water reservoir that only controls tides through chemistry with no extraterrestrial presence, so no severance from that system would ever be required.",
           "isCorrect": false,
-          "rationale": "It is a negative ET command, communication, and harvesting center."
+          "rationale": "Behind the illusion is a negative ET command and harvest station, not a water tank."
+        },
+        {
+          "label": "D",
+          "text": "An abandoned rock with no staff, no frequencies, and no role in human behavior control and no hidden harvest architecture behind the scenes.",
+          "isCorrect": false,
+          "rationale": "It commands frequencies and harvests; it is not an inert abandoned rock."
         }
       ],
       "hint": "Negative ET command / communication / harvesting center.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The holographic generator that casts spherical illumination onto the Moon's surface, biblically codified as Lucifer or the Bright and Morning Star.",
-          "isCorrect": true,
-          "rationale": "Venus generates the Moon's false light and is named Lucifer / Bright and Morning Star."
+          "text": "A distant rocky world that only reflects sunlight like a mirror and has no holographic role, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Venus is a localized holographic generator casting lunar illumination, not a distant mirror rock."
         },
         {
           "label": "B",
-          "text": "Only a poetic nickname for love with zero connection to lunar light or parasitic systems.",
+          "text": "Only a poetic nickname for love with zero connection to lunar light or parasitic systems, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "It is a functional holographic generator in the lunar illumination system."
         },
         {
           "label": "C",
-          "text": "A distant rocky world that only reflects sunlight like a mirror and has no holographic role.",
-          "isCorrect": false,
-          "rationale": "Venus is a localized holographic generator casting lunar illumination, not a distant mirror rock."
+          "text": "The holographic generator that casts spherical illumination onto the Moon's surface, biblically codified as Lucifer or the Bright and Morning Star.",
+          "isCorrect": true,
+          "rationale": "Venus generates the Moon's false light and is named Lucifer / Bright and Morning Star."
         },
         {
           "label": "D",
-          "text": "A bank vault under Rome that stores paper contracts with no sky projection function.",
+          "text": "A bank vault under Rome that stores paper contracts with no sky projection function, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Venus operates as sky-level holographic illumination technology for the lunar shell."
         }
       ],
       "hint": "Holographic lunar light generator — Lucifer / Bright and Morning Star.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 8,
@@ -252,15 +252,15 @@
         },
         {
           "label": "B",
-          "text": "A festival costume worn once a year with no storage, harvest, or Mt Meru connection.",
+          "text": "The Amnesia Vortex itself, located only inside the Sun with no underground node at all, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "It is infrastructure for stored harvested energy under Mt Meru / Northern Rock."
+          "rationale": "Black Sun is the underground storage bank; the Amnesia Vortex is the Sun portal."
         },
         {
           "label": "C",
-          "text": "The Amnesia Vortex itself, located only inside the Sun with no underground node at all.",
+          "text": "A festival costume worn once a year with no storage, harvest, or Mt Meru connection, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "Black Sun is the underground storage bank; the Amnesia Vortex is the Sun portal."
+          "rationale": "It is infrastructure for stored harvested energy under Mt Meru / Northern Rock."
         },
         {
           "label": "D",
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Ordinary rainwater collected in barrels for farming with no trauma or demonic harvest link.",
-          "isCorrect": false,
-          "rationale": "Loosh is energetic food from trauma, fear, and suffering, harvested by parasites."
-        },
-        {
-          "label": "B",
           "text": "The energetic food generated by the trauma, fear, and suffering of humanity, continuously harvested by demons and parasites.",
           "isCorrect": true,
           "rationale": "Loosh is life-force food from human suffering, continuously taken by demonic/parasitic forces."
         },
         {
+          "label": "B",
+          "text": "A brand of healthy vitamins that raises frequency and stops all parasitic feeding forever.",
+          "isCorrect": false,
+          "rationale": "Loosh is the harvest product of suffering, not a liberating vitamin brand."
+        },
+        {
           "label": "C",
-          "text": "Only digital cryptocurrency mined by computers with no connection to human emotion or energy.",
+          "text": "Only digital cryptocurrency mined by computers with no connection to human emotion or energy, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Loosh is energetic food from human trauma and fear, not computer-mined currency."
         },
         {
           "label": "D",
-          "text": "A brand of healthy vitamins that raises frequency and stops all parasitic feeding forever.",
+          "text": "Ordinary rainwater collected in barrels for farming with no trauma or demonic harvest link, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "Loosh is the harvest product of suffering, not a liberating vitamin brand."
+          "rationale": "Loosh is energetic food from trauma, fear, and suffering, harvested by parasites."
         }
       ],
       "hint": "Energetic food from trauma, fear, and suffering.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 10,
@@ -316,21 +316,21 @@
         },
         {
           "label": "B",
-          "text": "That Sun and Moon are openly admitted soul machines taught in every primary school textbook.",
+          "text": "That the realm is flat, localized, and open for exploration beyond the Ice Wall without restriction, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Heliocentrism blocks that truth; Freemasonic education enforces the globe lie instead."
+        },
+        {
+          "label": "C",
+          "text": "That Sun and Moon are openly admitted soul machines taught in every primary school textbook, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Heliocentrism conceals those functions behind fake orbital astronomy."
         },
         {
-          "label": "C",
-          "text": "That gravity is optional and planets can be any shape chosen by majority vote each year.",
+          "label": "D",
+          "text": "That gravity is optional and planets can be any shape chosen by majority vote each year, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "The model specifically locks belief in a spinning globe orbiting a sun."
-        },
-        {
-          "label": "D",
-          "text": "That the realm is flat, localized, and open for exploration beyond the Ice Wall without restriction.",
-          "isCorrect": false,
-          "rationale": "Heliocentrism blocks that truth; Freemasonic education enforces the globe lie instead."
         }
       ],
       "hint": "Fabricated spinning globe orbit — physical impossibility.",
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A spherical planet could never be adequately illuminated by a single local sun without requiring multiple suns positioned entirely around it — further proving the globe model is a physical impossibility.",
-          "isCorrect": true,
-          "rationale": "One local sun cannot light a full sphere evenly; the globe model fails that physical test."
-        },
-        {
-          "label": "B",
-          "text": "Because the Sun is too dim to light even a small room, so no celestial model matters.",
-          "isCorrect": false,
-          "rationale": "The issue is geometry of illuminating a sphere with one local sun, not simple dimness."
-        },
-        {
-          "label": "C",
           "text": "Because textbooks already admit the model is false and require no further physical argument.",
           "isCorrect": false,
           "rationale": "The model is still enforced; the illumination math itself proves the impossibility."
         },
         {
-          "label": "D",
-          "text": "Because moons always provide all light and suns never illuminate land at all.",
+          "label": "B",
+          "text": "Because moons always provide all light and suns never illuminate land at all, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "The argument is about inadequate single-sun lighting of a claimed sphere."
+        },
+        {
+          "label": "C",
+          "text": "A spherical planet could never be adequately illuminated by a single local sun without requiring multiple suns positioned entirely around it.",
+          "isCorrect": true,
+          "rationale": "One local sun cannot light a full sphere evenly; the globe model fails that physical test."
+        },
+        {
+          "label": "D",
+          "text": "Because the Sun is too dim to light even a small room, so no celestial model matters, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "The issue is geometry of illuminating a sphere with one local sun, not simple dimness."
         }
       ],
       "hint": "One local sun cannot adequately light a full sphere.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 12,
@@ -374,15 +374,15 @@
       "options": [
         {
           "label": "A",
-          "text": "A freemason meeting hall on Earth that never appears in the sky or at death.",
-          "isCorrect": false,
-          "rationale": "It is the sky-level soul portal perceived as the death tunnel light."
-        },
-        {
-          "label": "B",
           "text": "A pure decorative hologram that never interacts with dying souls or memory systems.",
           "isCorrect": false,
           "rationale": "It is the bright light at death and the entry portal for the Amnesia Vortex."
+        },
+        {
+          "label": "B",
+          "text": "A freemason meeting hall on Earth that never appears in the sky or at death.",
+          "isCorrect": false,
+          "rationale": "It is the sky-level soul portal perceived as the death tunnel light."
         },
         {
           "label": "C",
@@ -392,7 +392,7 @@
         },
         {
           "label": "D",
-          "text": "The bright light at the end of the tunnel that humans see when they die — the entry portal for the Amnesia Vortex that memory-wipes and re-inserts souls into the simulation.",
+          "text": "The bright light at the end of the tunnel that humans see when they die.",
           "isCorrect": true,
           "rationale": "Death's bright light is the Sun portal feeding the Amnesia Vortex recycle loop."
         }
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Moon has zero behavioral effect; \"Lunatic\" is only a modern brand name for candy.",
-          "isCorrect": false,
-          "rationale": "The station's full-moon negative frequencies are the etymological and operational root."
+          "text": "Through frequency manipulation, especially in full phases; \"Lunatic\" derives from the severe negative frequencies the Moon station broadcasts during a full moon to disrupt the population.",
+          "isCorrect": true,
+          "rationale": "Full-moon frequency attacks from the station birthed the \"lunatic\" concept of lunar disruption."
         },
         {
           "label": "B",
-          "text": "Only through gentle lullabies that raise courage and never disrupt psychology.",
-          "isCorrect": false,
-          "rationale": "Full-moon broadcasts are severe negative frequencies that psychologically disrupt the population."
-        },
-        {
-          "label": "C",
-          "text": "By mailing paper notices once a year with no frequency field and no full-moon effect.",
+          "text": "By mailing paper notices once a year with no frequency field and no full-moon effect, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Control is frequency-based, peaking at full moon, not postal notices."
         },
         {
+          "label": "C",
+          "text": "Only through gentle lullabies that raise courage and never disrupt psychology, with every larger system treated as clean, uninvolved, or beside the point.",
+          "isCorrect": false,
+          "rationale": "Full-moon broadcasts are severe negative frequencies that psychologically disrupt the population."
+        },
+        {
           "label": "D",
-          "text": "Through frequency manipulation, especially in full phases; \"Lunatic\" derives from the severe negative frequencies the Moon station broadcasts during a full moon to disrupt the population.",
-          "isCorrect": true,
-          "rationale": "Full-moon frequency attacks from the station birthed the \"lunatic\" concept of lunar disruption."
+          "text": "The Moon has zero behavioral effect; \"Lunatic\" is only a modern brand name for candy, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "The station's full-moon negative frequencies are the etymological and operational root."
         }
       ],
       "hint": "Full-moon negative frequencies — origin of \"lunatic\".",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 14,
@@ -444,19 +444,19 @@
         },
         {
           "label": "B",
-          "text": "The soul freely ascends to a benevolent afterlife with full memory and never returns to a body.",
-          "isCorrect": false,
-          "rationale": "Souls are drawn into the Sun's Amnesia Vortex for wipe and forced re-insertion, not free ascent."
-        },
-        {
-          "label": "C",
-          "text": "The soul sleeps under the Ice Wall for one thousand years with no Vatican, Grey, or newborn path.",
+          "text": "The soul sleeps under the Ice Wall for one thousand years with no Vatican, Grey, or newborn path, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Recycling is rapid: wipe and re-insert within 15 to 20 minutes via Vatican and Greys."
         },
         {
+          "label": "C",
+          "text": "The soul freely ascends to a benevolent afterlife with full memory and never returns to a body, so no severance from that system would ever be required.",
+          "isCorrect": false,
+          "rationale": "Souls are drawn into the Sun's Amnesia Vortex for wipe and forced re-insertion, not free ascent."
+        },
+        {
           "label": "D",
-          "text": "Only NPCs recycle; genuine souls permanently exit and never pass the Amnesia Vortex.",
+          "text": "Only NPCs recycle; genuine souls permanently exit and never pass the Amnesia Vortex, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "The Sun processor path is the closed reincarnation trap for souls in the prison matrix."
         }
@@ -470,19 +470,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Only city streetlights bounce upward and paint the entire Moon each night.",
+          "text": "Only city streetlights bounce upward and paint the entire Moon each night, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "Illumination is Venus holographic generation on the station shell, not city lights."
         },
         {
           "label": "B",
-          "text": "Yes — the Moon is a perfect natural mirror of solar light with no Venus involvement.",
+          "text": "Yes — the Moon is a perfect natural mirror of solar light with no Venus involvement, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "The Moon does not reflect the Sun; Venus generates the artificial lunar illumination."
         },
         {
           "label": "C",
-          "text": "The Moon is always completely dark and never shows any illuminated face to human eyes.",
+          "text": "The Moon is always completely dark and never shows any illuminated face to human eyes, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "It shows artificial Venus-cast illumination on the holographic shell."
         },
@@ -502,21 +502,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Only by majority vote on social media with no physical measurement involved.",
+          "text": "Only by waiting for the G.A.A. EMF flash; no pre-flash physical clue exists, as if no adjacent systems participated at all.",
           "isCorrect": false,
-          "rationale": "Verification includes temperature anomalies of moonlight versus true reflected sunlight."
+          "rationale": "Temperature anomalies already mark the light as artificial before the flash."
         },
         {
           "label": "B",
-          "text": "It cannot be verified at all because all instruments automatically confirm natural reflection.",
+          "text": "It cannot be verified at all because all instruments automatically confirm natural reflection, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Temperature anomalies show moonlight behaves unnaturally versus true reflected sunlight."
         },
         {
           "label": "C",
-          "text": "Only by waiting for the G.A.A. EMF flash; no pre-flash physical clue exists.",
+          "text": "Only by majority vote on social media with no physical measurement involved, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "Temperature anomalies already mark the light as artificial before the flash."
+          "rationale": "Verification includes temperature anomalies of moonlight versus true reflected sunlight."
         },
         {
           "label": "D",
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Unpaid interns from Earth universities who paddled the station like a boat on water, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Staffing and tech are hostile ET / hybrid and instant materialize-dematerialize systems."
+        },
+        {
+          "label": "B",
           "text": "Hostile entities and German breakaway hybrid blondes; the station could materialize and dematerialize instantly, phasing out of the human realm.",
           "isCorrect": true,
           "rationale": "Hostile staff plus hybrid blondes ran a station that phases in and out of human view."
         },
         {
-          "label": "B",
-          "text": "Only automatic robots that never moved the station from a fixed bolt over one city.",
-          "isCorrect": false,
-          "rationale": "It was highly mobile across realms, not a fixed city bolt with mute robots only."
-        },
-        {
           "label": "C",
-          "text": "Unpaid interns from Earth universities who paddled the station like a boat on water.",
+          "text": "Only friendly children on field trips, with no ability to leave human visual range, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "Staffing and tech are hostile ET / hybrid and instant materialize-dematerialize systems."
+          "rationale": "Staffed by hostile entities and German breakaway hybrid blondes; it could materialize and dematerialize."
         },
         {
           "label": "D",
-          "text": "Only friendly children on field trips, with no ability to leave human visual range.",
+          "text": "Only automatic robots that never moved the station from a fixed bolt over one city, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Staffed by hostile entities and German breakaway hybrid blondes; it could materialize and dematerialize."
+          "rationale": "It was highly mobile across realms, not a fixed city bolt with mute robots only."
         }
       ],
       "hint": "Hostile entities + German breakaway hybrid blondes — instant phase mobility.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 18,
@@ -566,9 +566,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Only to the nearest supermarket parking lot and never beyond the Ice Wall or other worlds.",
+          "text": "Only into human dreams as a symbol, with no physical travel to other controlled worlds, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
-          "rationale": "It traveled to any of the other 65 worlds across Gateway-10 under parasite control."
+          "rationale": "Physical multi-realm station travel across 65 Gateway-10 worlds is the stated operation."
         },
         {
           "label": "B",
@@ -578,15 +578,15 @@
         },
         {
           "label": "C",
-          "text": "Nowhere — once phased out it permanently dissolved and never gathered loosh again.",
+          "text": "Only to the nearest supermarket parking lot and never beyond the Ice Wall or other worlds, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "It remained operational across Gateway-10 worlds for loosh and frequency management."
+          "rationale": "It traveled to any of the other 65 worlds across Gateway-10 under parasite control."
         },
         {
           "label": "D",
-          "text": "Only into human dreams as a symbol, with no physical travel to other controlled worlds.",
+          "text": "Nowhere — once phased out it permanently dissolved and never gathered loosh again, as if no adjacent systems participated at all.",
           "isCorrect": false,
-          "rationale": "Physical multi-realm station travel across 65 Gateway-10 worlds is the stated operation."
+          "rationale": "It remained operational across Gateway-10 worlds for loosh and frequency management."
         }
       ],
       "hint": "65 worlds across Gateway-10 — loosh and frequency management.",
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To ignore human emotion entirely and only measure star temperatures for academic papers.",
-          "isCorrect": false,
-          "rationale": "Loosh collection from human trauma is the station's primary harvest function."
-        },
-        {
-          "label": "B",
-          "text": "To destroy all loosh on contact so parasites would starve and leave the realm immediately.",
-          "isCorrect": false,
-          "rationale": "Primary function was collecting loosh, then holding it in Black Sun storage banks."
-        },
-        {
-          "label": "C",
           "text": "To collect loosh from the human population; harvested energy was siphoned into the massive storage banks of the Black Sun deep below the central energetic node of the physical plane.",
           "isCorrect": true,
           "rationale": "Moon station collects loosh; Black Sun under the central node stores the harvested energy."
         },
         {
-          "label": "D",
-          "text": "To convert loosh into free public electricity for every city with transparent meters.",
+          "label": "B",
+          "text": "To ignore human emotion entirely and only measure star temperatures for academic papers.",
+          "isCorrect": false,
+          "rationale": "Loosh collection from human trauma is the station's primary harvest function."
+        },
+        {
+          "label": "C",
+          "text": "To convert loosh into free public electricity for every city with transparent meters, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Harvested energy feeds parasitic storage (Black Sun), not free public power."
+        },
+        {
+          "label": "D",
+          "text": "To destroy all loosh on contact so parasites would starve and leave the realm immediately, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Primary function was collecting loosh, then holding it in Black Sun storage banks."
         }
       ],
       "hint": "Collect loosh → Black Sun storage under the central node.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 20,
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
-          "text": "By stopping all clocks so that no chronological experience exists for anyone.",
+          "text": "By teaching free non-linear time travel in every school so no soul ever loses memory at death, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
-          "rationale": "They enforce continuous chronological looping, not the abolition of all time experience."
+          "rationale": "Amnesia Vortex recycling blocks higher-density non-linear time and forces a birth-suffer-death loop."
         },
         {
           "label": "B",
-          "text": "Linear time is fully natural and untouched by Sun portals or lunar stations.",
+          "text": "By shutting the Sun portal permanently so reincarnation and amnesia logistics cannot run — that mechanism alone, with no wider inversion stack required to produce the result.",
           "isCorrect": false,
           "rationale": "Fake Linear Time is enforced through Amnesia Vortex recycling and past-life erasure."
         },
         {
           "label": "C",
-          "text": "By teaching free non-linear time travel courses in every school after death.",
-          "isCorrect": false,
-          "rationale": "Amnesia Vortex recycling blocks higher-density non-linear time and forces a birth-suffer-death loop."
+          "text": "By forcing souls through the Sun’s Amnesia Vortex right after death, blocking natural non-linear time of higher densities and locking experience into Fake Linear Time loops.",
+          "isCorrect": true,
+          "rationale": "Immediate post-death amnesia recycle erases past lives and enforces the linear prison loop."
         },
         {
           "label": "D",
-          "text": "By forcing souls through the Sun's Amnesia Vortex immediately after death, preventing natural non-linear time of higher densities and trapping souls in a continuous chronological loop of birth, suffering, and death.",
-          "isCorrect": true,
-          "rationale": "Immediate post-death amnesia recycle erases past lives and enforces the linear prison loop."
+          "text": "By only powering streetlamps at night with no effect on soul transit or perceived time.",
+          "isCorrect": false,
+          "rationale": "They enforce continuous chronological looping, not the abolition of all time experience."
         }
       ],
       "hint": "Amnesia Vortex after death → chronological birth-suffer-death loop.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It liberates the population from all three strings by revealing Ice Wall truth in schools.",
-          "isCorrect": false,
-          "rationale": "Enforced heliocentric lies keep people on the strings, not free of them."
+          "text": "It is the foundational pillar for Perceived Knowledge — one of the three main psychological strings alongside Religion and Finance used to control humanity.",
+          "isCorrect": true,
+          "rationale": "False celestial \"knowledge\" anchors Perceived Knowledge next to Religion and Finance."
         },
         {
           "label": "B",
-          "text": "It only affects sports scores and never touches Religion, Finance, or Perceived Knowledge.",
+          "text": "It only affects sports scores and never touches Religion, Finance, or Perceived Knowledge, while spiritual attention and institutional trust stay fully intact.",
           "isCorrect": false,
           "rationale": "It is foundational to Perceived Knowledge within the three-string control system."
         },
         {
           "label": "C",
-          "text": "It replaces Religion and Finance entirely so those two strings no longer operate.",
+          "text": "It liberates the population from all three strings by revealing Ice Wall truth in schools, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "All three strings operate together; false Sun/Moon belief feeds Perceived Knowledge."
+          "rationale": "Enforced heliocentric lies keep people on the strings, not free of them."
         },
         {
           "label": "D",
-          "text": "It is the foundational pillar for Perceived Knowledge — one of the three main psychological strings alongside Religion and Finance used to control humanity.",
-          "isCorrect": true,
-          "rationale": "False celestial \"knowledge\" anchors Perceived Knowledge next to Religion and Finance."
+          "text": "It replaces Religion and Finance entirely so those two strings no longer operate, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "All three strings operate together; false Sun/Moon belief feeds Perceived Knowledge."
         }
       ],
       "hint": "Perceived Knowledge pillar — with Religion and Finance.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 22,
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They fund open Ice Wall expeditions and teach that the realm is localized and flat from kindergarten.",
+          "text": "They ignore schools completely and only control banking with no cosmology curriculum, while spiritual attention and institutional trust stay fully intact.",
           "isCorrect": false,
-          "rationale": "They enforce the heliocentric lie so people stay oblivious to the flat, localized realm."
+          "rationale": "Education is a primary channel for the heliocentric deception."
         },
         {
           "label": "B",
-          "text": "They require every student to map the 65 Gateway-10 worlds before graduation.",
-          "isCorrect": false,
-          "rationale": "Curriculum hides multi-realm and flat-realm truth behind the globe-orbit story."
-        },
-        {
-          "label": "C",
           "text": "By enforcing the heliocentric lie through the education system so the population remains oblivious to the localized, flat nature of the realm, preventing exploration beyond the Ice Wall.",
           "isCorrect": true,
           "rationale": "School heliocentrism blinds people to flat-realm truth and blocks Ice Wall exploration."
         },
         {
-          "label": "D",
-          "text": "They ignore schools completely and only control banking with no cosmology curriculum.",
+          "label": "C",
+          "text": "They fund open Ice Wall expeditions and teach that the realm is localized and flat from kindergarten, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "Education is a primary channel for the heliocentric deception."
+          "rationale": "They enforce the heliocentric lie so people stay oblivious to the flat, localized realm."
+        },
+        {
+          "label": "D",
+          "text": "They require every student to map the 65 Gateway-10 worlds before graduation, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Curriculum hides multi-realm and flat-realm truth behind the globe-orbit story."
         }
       ],
       "hint": "Education enforces heliocentrism — blocks Ice Wall / flat-realm knowing.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 23,
@@ -726,15 +726,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Only dim streetlights for one night while Sun and Moon holograms stay fully online.",
+          "text": "Upgrade them into permanent stronger cages that never fail again for any density, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "All 3rd-density visual overlays and holographics are permanently disabled."
+          "rationale": "The flash permanently disables 3rd-density visual overlays and holographic technologies."
         },
         {
           "label": "B",
-          "text": "Upgrade them into permanent stronger cages that never fail again for any density.",
+          "text": "Only dim streetlights for one night while Sun and Moon holograms stay fully online, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
-          "rationale": "The flash permanently disables 3rd-density visual overlays and holographic technologies."
+          "rationale": "All 3rd-density visual overlays and holographics are permanently disabled."
         },
         {
           "label": "C",
@@ -744,7 +744,7 @@
         },
         {
           "label": "D",
-          "text": "Convert NPCs into G.A.A. officers while leaving every hologram exactly as programmed.",
+          "text": "Convert NPCs into G.A.A. officers while leaving every hologram exactly as programmed, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "The flash targets and disables holographic and overlay tech, not NPC officer promotions."
         }
@@ -758,9 +758,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Only the ocean colors change while stars, Sun, and Moon remain perfectly convincing forever.",
+          "text": "A second fake dome installs automatically so pixelation never appears to human eyes, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Celestial illusions themselves melt into pixelation when the dome dies."
+          "rationale": "Illusions dissolve into melting pixelation; true architecture is exposed."
         },
         {
           "label": "B",
@@ -770,15 +770,15 @@
         },
         {
           "label": "C",
-          "text": "Nothing visible changes; textbooks instantly rewrite themselves and the sky looks identical.",
+          "text": "Only the ocean colors change while stars, Sun, and Moon remain perfectly convincing forever, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Cosmos illusions dissolve into melting pixelation, exposing true sky architecture."
+          "rationale": "Celestial illusions themselves melt into pixelation when the dome dies."
         },
         {
           "label": "D",
-          "text": "A second fake dome installs automatically so pixelation never appears to human eyes.",
+          "text": "Nothing visible changes; textbooks instantly rewrite themselves and the sky looks identical, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Illusions dissolve into melting pixelation; true architecture is exposed."
+          "rationale": "Cosmos illusions dissolve into melting pixelation, exposing true sky architecture."
         }
       ],
       "hint": "Projection Dome off — melting pixelation — true sky architecture.",
@@ -790,27 +790,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Instant enlightenment that feels pleasant for every NPC with zero cognitive failure.",
+          "text": "Mild curiosity about a new star chart with no memory return and no emotional shock, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "NPCs and unawakened masses face total psychological and cognitive collapse."
+          "rationale": "Collapse comes from seeing Sun/Moon as prison tech plus 178,000 years of suppressed memories returning."
         },
         {
           "label": "B",
-          "text": "Realizing the Sun and Moon were technological instruments of imprisonment, combined with the sudden return of 178,000 years of suppressed memories — total psychological and cognitive collapse for NPCs and unawakened masses who trusted scientific and religious narratives.",
+          "text": "Realizing the Sun and Moon were technological instruments of imprisonment, combined with the sudden return of 178,000 years of suppressed memories.",
           "isCorrect": true,
           "rationale": "Prison-tech exposure plus 178,000 years of memories returning shatters NPC and herd cognition."
         },
         {
           "label": "C",
-          "text": "Only a short power outage in one city with no link to memories or celestial instruments.",
+          "text": "Instant enlightenment that feels pleasant for every NPC with zero cognitive failure, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "The shock is global celestial exposure plus massive memory return for the unawakened."
+          "rationale": "NPCs and unawakened masses face total psychological and cognitive collapse."
         },
         {
           "label": "D",
-          "text": "Mild curiosity about a new star chart with no memory return and no emotional shock.",
+          "text": "Only a short power outage in one city with no link to memories or celestial instruments, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "Collapse comes from seeing Sun/Moon as prison tech plus 178,000 years of suppressed memories returning."
+          "rationale": "The shock is global celestial exposure plus massive memory return for the unawakened."
         }
       ],
       "hint": "Sun/Moon as prison tech + 178,000 years of memories → NPC collapse.",

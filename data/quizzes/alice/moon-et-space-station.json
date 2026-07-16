@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A temporary weather balloon overlay that NPCs invent each night with no extraterrestrial structure behind it.",
+          "text": "A temporary weather balloon overlay that NPCs invent each night with no extraterrestrial structure behind it, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Behind the illusion is real advanced ET technology — a mobile negative space station — not a folk weather balloon story."
         },
         {
           "label": "B",
-          "text": "A natural rocky satellite formed by gravity that honestly reflects warm sunlight with no holographic shell at all.",
-          "isCorrect": false,
-          "rationale": "It is not a natural rocky reflector; the visible Moon is a fabricated illusion covering a hostile ET installation."
-        },
-        {
-          "label": "C",
           "text": "An entirely fabricated visual illusion engineered to conceal highly advanced extraterrestrial technology from human perception.",
           "isCorrect": true,
           "rationale": "The Moon as seen is a fabricated visual illusion built to hide advanced ET technology inside the suppressed 3rd Density prison matrix."
         },
         {
+          "label": "C",
+          "text": "A natural rocky satellite formed by gravity that honestly reflects warm sunlight with no holographic shell at all.",
+          "isCorrect": false,
+          "rationale": "It is not a natural rocky reflector; the visible Moon is a fabricated illusion covering a hostile ET installation."
+        },
+        {
           "label": "D",
-          "text": "A pure G.A.A. archive of bright white light that never conceals craft, frequencies, or loosh harvest operations.",
+          "text": "A pure G.A.A. archive of bright white light that never conceals craft, frequencies, or loosh harvest operations, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "The visible Moon conceals a negative ET station for frequency control and harvest, not a pure G.A.A. archive."
         }
       ],
       "hint": "Fabricated visual illusion — conceals advanced ET technology.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -60,21 +60,21 @@
         },
         {
           "label": "B",
-          "text": "Only the Black Sun storage bank under Mt Meru with no craft, shell, or mobility of any kind.",
-          "isCorrect": false,
-          "rationale": "Black Sun is the loosh storage bank; the Moon itself is the mobile ET station behind a holographic shell."
-        },
-        {
-          "label": "C",
           "text": "A second Amnesia Vortex twin of the Sun that only wipes memory and never harvests or commands frequencies.",
           "isCorrect": false,
           "rationale": "The Sun is the Amnesia Vortex; the Moon station handles command, frequency control, and energetic harvesting."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "A fixed natural crater ball that never moves, never phases, and never partners with any soul-recycling system.",
           "isCorrect": false,
           "rationale": "It is a highly mobile negative ET Space Station working in tandem with the Sun's Amnesia Vortex role."
+        },
+        {
+          "label": "D",
+          "text": "Only the Black Sun storage bank under Mt Meru with no craft, shell, or mobility of any kind.",
+          "isCorrect": false,
+          "rationale": "Black Sun is the loosh storage bank; the Moon itself is the mobile ET station behind a holographic shell."
         }
       ],
       "hint": "Highly mobile negative ET Space Station — holographic shell.",
@@ -86,15 +86,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Primary command, communication, and frequency control center for 4th-density Parasites behind its holographic disguise.",
-          "isCorrect": true,
-          "rationale": "The Death-Star-looking craft is a primary command, communication, and frequency control center for 4th-density Parasites."
+          "text": "Only tourism docking for freemasons with no command, communication, or frequency control functions, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "It is a primary command, communication, and frequency control center — not a freemason tourism dock."
         },
         {
           "label": "B",
-          "text": "Only tourism docking for freemasons with no command, communication, or frequency control functions.",
+          "text": "A silent museum of dead rock with no parasite staff, no broadcasts, and no link to the artificial Simulation.",
           "isCorrect": false,
-          "rationale": "It is a primary command, communication, and frequency control center — not a freemason tourism dock."
+          "rationale": "It is a crucial mechanical component of celestial deception — active command and frequency control, not silent dead rock."
         },
         {
           "label": "C",
@@ -104,13 +104,13 @@
         },
         {
           "label": "D",
-          "text": "A silent museum of dead rock with no parasite staff, no broadcasts, and no link to the artificial Simulation.",
-          "isCorrect": false,
-          "rationale": "It is a crucial mechanical component of celestial deception — active command and frequency control, not silent dead rock."
+          "text": "Primary command, communication, and frequency control center for 4th-density Parasites behind its holographic disguise.",
+          "isCorrect": true,
+          "rationale": "The Death-Star-looking craft is a primary command, communication, and frequency control center for 4th-density Parasites."
         }
       ],
       "hint": "Command + communication + frequency control for 4th-density Parasites.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 4,
@@ -118,9 +118,9 @@
       "options": [
         {
           "label": "A",
-          "text": "To broadcast disruptive negative frequencies that subjugate humanity and to harvest the energetic life-force generated by human suffering.",
-          "isCorrect": true,
-          "rationale": "Fundamental purpose: broadcast disruptive negative frequencies for subjugation and harvest life-force from human suffering."
+          "text": "To store only G.A.A. archives under Polaris while ignoring loosh, fear, and psychological disruption entirely, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Core purpose is frequency subjugation and loosh/life-force harvest, not G.A.A. archive storage under Polaris."
         },
         {
           "label": "B",
@@ -130,19 +130,19 @@
         },
         {
           "label": "C",
-          "text": "To store only G.A.A. archives under Polaris while ignoring loosh, fear, and psychological disruption entirely.",
+          "text": "To mirror only Sun heat as poetry with no frequency broadcast and no energetic life-force extraction at all, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "Core purpose is frequency subjugation and loosh/life-force harvest, not G.A.A. archive storage under Polaris."
+          "rationale": "It broadcasts disruptive negative frequencies and harvests energetic life-force generated by human suffering."
         },
         {
           "label": "D",
-          "text": "To mirror only Sun heat as poetry with no frequency broadcast and no energetic life-force extraction at all.",
-          "isCorrect": false,
-          "rationale": "It broadcasts disruptive negative frequencies and harvests energetic life-force generated by human suffering."
+          "text": "To broadcast disruptive negative frequencies that subjugate humanity and to harvest the energetic life-force generated by human suffering.",
+          "isCorrect": true,
+          "rationale": "Fundamental purpose: broadcast disruptive negative frequencies for subjugation and harvest life-force from human suffering."
         }
       ],
       "hint": "Negative frequency subjugation + life-force harvest from suffering.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A friendly visitor center open to all soul families with transparent schedules and zero loosh extraction.",
-          "isCorrect": false,
-          "rationale": "It is a negative extraterrestrial command and harvesting center, not an open friendly visitor center."
-        },
-        {
-          "label": "B",
           "text": "Only the Firmament membrane itself with no craft, no shell, and no harvesting function of any kind.",
           "isCorrect": false,
           "rationale": "The station is the craft behind the Moon illusion, distinct from the Firmament; it is a command and harvesting center."
         },
         {
-          "label": "C",
-          "text": "The true physical structure hidden behind the visual illusion of the Moon — a negative extraterrestrial command and harvesting center.",
-          "isCorrect": true,
-          "rationale": "ET Space Station is the true physical structure behind the Moon illusion: a negative ET command and harvesting center."
-        },
-        {
-          "label": "D",
+          "label": "B",
           "text": "A poetic nickname for natural tides that never hides technology or parasitic personnel inside any shell.",
           "isCorrect": false,
           "rationale": "The name points to real physical ET structure and harvest operations, not empty tide poetry."
+        },
+        {
+          "label": "C",
+          "text": "A friendly visitor center open to all soul families with transparent schedules and zero loosh extraction.",
+          "isCorrect": false,
+          "rationale": "It is a negative extraterrestrial command and harvesting center, not an open friendly visitor center."
+        },
+        {
+          "label": "D",
+          "text": "The true physical structure hidden behind the visual illusion of the Moon.",
+          "isCorrect": true,
+          "rationale": "ET Space Station is the true physical structure behind the Moon illusion: a negative ET command and harvesting center."
         }
       ],
       "hint": "True physical structure behind Moon illusion — command and harvest center.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 6,
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a religious metaphor with no technological casting of spherical light onto any Dyson-sphere-like shell.",
-          "isCorrect": false,
-          "rationale": "Venus is functional technology that creates the Moon's visual facade via spherical illumination, not empty metaphor alone."
-        },
-        {
-          "label": "B",
           "text": "A distant gravity rock that only reflects Sun heat and never projects any shell onto the station.",
           "isCorrect": false,
           "rationale": "Venus is the holographic generator that casts spherical illumination onto the lunar surface to create the facade."
         },
         {
-          "label": "C",
-          "text": "The actual holographic generator — biblically codified as Lucifer or the Bright and Morning Star — that casts spherical illumination onto the lunar surface.",
-          "isCorrect": true,
-          "rationale": "Venus is the holographic generator (Lucifer / Bright and Morning Star) casting spherical illumination to create the Moon's visual facade."
+          "label": "B",
+          "text": "Only a religious metaphor with no technological casting of spherical light onto any Dyson-sphere-like shell.",
+          "isCorrect": false,
+          "rationale": "Venus is functional technology that creates the Moon's visual facade via spherical illumination, not empty metaphor alone."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "The Black Sun bank under Northern Rock that stores loosh without casting any light on any craft.",
           "isCorrect": false,
           "rationale": "Black Sun is loosh storage under Mt Meru / Northern Rock; Venus is the light-casting holographic generator."
+        },
+        {
+          "label": "D",
+          "text": "The actual holographic generator — biblically codified as Lucifer or the Bright and Morning Star.",
+          "isCorrect": true,
+          "rationale": "Venus is the holographic generator (Lucifer / Bright and Morning Star) casting spherical illumination to create the Moon's visual facade."
         }
       ],
       "hint": "Venus = holographic generator / Lucifer / Bright and Morning Star.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only moonlight poetry recited by NPCs with no energetic, harvest, or technological meaning at all.",
+          "text": "Only moonlight poetry recited by NPCs with no energetic, harvest, or technological meaning at all, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Loosh is concrete energetic sustenance from trauma, fear, and suffering, continuously gathered by the station."
         },
         {
           "label": "B",
+          "text": "A pure healing light donated by G.A.A. that the station politely refuses and never gathers in any density, cycle, or historical configuration.",
+          "isCorrect": false,
+          "rationale": "Loosh is energetic sustenance from human trauma, fear, and suffering — continuously gathered by the lunar station."
+        },
+        {
+          "label": "C",
           "text": "The energetic sustenance generated by the trauma, fear, and suffering of humanity, continuously gathered by the lunar station.",
           "isCorrect": true,
           "rationale": "Loosh is energetic sustenance from trauma, fear, and suffering, and the lunar station continuously gathers it."
         },
         {
-          "label": "C",
-          "text": "A pure healing light donated by G.A.A. that the station politely refuses and never gathers.",
-          "isCorrect": false,
-          "rationale": "Loosh is energetic sustenance from human trauma, fear, and suffering — continuously gathered by the lunar station."
-        },
-        {
           "label": "D",
-          "text": "A weather gas in the Firmament that has no link to human suffering or any lunar harvest architecture.",
+          "text": "A weather gas in the Firmament that has no link to human suffering or any lunar harvest architecture, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Loosh is human-suffering energy harvested via the lunar station architecture, not an unrelated Firmament weather gas."
         }
       ],
       "hint": "Trauma/fear/suffering energy — continuously gathered by lunar station.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 8,
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
+          "text": "A decorative eclipse myth that never stores energy and never sits beneath any central spiritual node in any density, cycle, or historical configuration.",
+          "isCorrect": false,
+          "rationale": "Black Sun is a real massive energy storage bank under the central spiritual node of Mt Meru / Northern Rock."
+        },
+        {
+          "label": "B",
           "text": "A massive energy storage bank beneath the central spiritual node of Mt Meru / Northern Rock, from which the Moon station harvests collected loosh.",
           "isCorrect": true,
           "rationale": "Black Sun is the massive loosh storage bank under Mt Meru / Northern Rock; the Moon station harvests collected loosh from it."
         },
         {
-          "label": "B",
-          "text": "A decorative eclipse myth that never stores energy and never sits beneath any central spiritual node.",
-          "isCorrect": false,
-          "rationale": "Black Sun is a real massive energy storage bank under the central spiritual node of Mt Meru / Northern Rock."
-        },
-        {
           "label": "C",
-          "text": "The same object as Venus when lights are off, with no storage role under Mt Meru or Northern Rock.",
+          "text": "The same object as Venus when lights are off, with no storage role under Mt Meru or Northern Rock and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "Black Sun is a massive energy storage bank under Mt Meru / Northern Rock from which the Moon station harvests loosh."
         },
         {
           "label": "D",
-          "text": "The Amnesia Vortex portal itself, wiping memory while ignoring loosh banks and Mt Meru entirely.",
+          "text": "The Amnesia Vortex portal itself, wiping memory while ignoring loosh banks and Mt Meru entirely, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The Sun is the Amnesia Vortex; Black Sun is the separate loosh storage bank under Mt Meru / Northern Rock."
         }
       ],
       "hint": "Massive loosh storage under Mt Meru / Northern Rock.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It is a modern brand name for moon-shade thermometers with no link to frequency broadcasts or full phases.",
-          "isCorrect": false,
-          "rationale": "The term derives from the station's full-phase negative frequency broadcasts, not from thermometer branding."
-        },
-        {
-          "label": "B",
-          "text": "It names only G.A.A. pilots who heal during new moons without any psychological disruption of the public.",
-          "isCorrect": false,
-          "rationale": "Lunatic tracks full-phase disruptive negative frequencies against the human population, not G.A.A. healing pilots."
-        },
-        {
-          "label": "C",
           "text": "It derives from severe targeted negative frequencies the lunar station broadcasts during full phases to disrupt human psychology.",
           "isCorrect": true,
           "rationale": "Lunatic comes from severe targeted negative frequencies broadcast by the lunar station during full phases to psychologically disrupt the population."
         },
         {
-          "label": "D",
-          "text": "It is a freemason password for ice-wall tourism that never maps to lunar stages or emotional stability attacks.",
+          "label": "B",
+          "text": "It is a freemason password for ice-wall tourism that never maps to lunar stages or emotional stability attacks, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Etymology is full-phase frequency disruption of psychology and emotional stability by the lunar station."
+        },
+        {
+          "label": "C",
+          "text": "It names only G.A.A. pilots who heal during new moons without any psychological disruption of the public, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Lunatic tracks full-phase disruptive negative frequencies against the human population, not G.A.A. healing pilots."
+        },
+        {
+          "label": "D",
+          "text": "It is a modern brand name for moon-shade thermometers with no link to frequency broadcasts or full phases, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "The term derives from the station's full-phase negative frequency broadcasts, not from thermometer branding."
         }
       ],
       "hint": "Full-phase negative frequency broadcasts → origin of \"Lunatic\".",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 10,
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Gateway-10 has infinite open galaxies with no count of 178 worlds and no 65-world harvest circuit at all.",
-          "isCorrect": false,
-          "rationale": "The architecture is 178 interconnected worlds with 65 managed by the mobile lunar station — not infinite open galaxies."
-        },
-        {
-          "label": "B",
-          "text": "Gateway-10 is only the Firmament label for weather, unrelated to mobility, loosh routes, or multi-world management.",
+          "text": "Gateway-10 is only the Firmament label for weather, unrelated to mobility, loosh routes, or multi-world management, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Gateway-10 is the multi-world plain the station travels across for frequency and loosh operations, not a weather label."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Gateway-10 is the central physical plain of 178 interconnected worlds, 65 of which are traversed and managed by this mobile lunar station.",
           "isCorrect": true,
           "rationale": "Gateway-10 has 178 interconnected worlds; the mobile lunar station traverses and manages 65 of them under parasitic control."
         },
         {
-          "label": "D",
-          "text": "Gateway-10 is a single sealed room with zero other worlds and a permanently fixed Moon that never travels.",
+          "label": "C",
+          "text": "Gateway-10 is a single sealed room with zero other worlds and a permanently fixed Moon that never travels, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Gateway-10 comprises 178 interconnected worlds; the mobile station traverses and manages 65 of them."
+        },
+        {
+          "label": "D",
+          "text": "Gateway-10 has infinite open galaxies with no count of 178 worlds and no 65-world harvest circuit at all, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "The architecture is 178 interconnected worlds with 65 managed by the mobile lunar station — not infinite open galaxies."
         }
       ],
       "hint": "178 worlds in Gateway-10 — station manages 65 of them.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 11,
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only awakened soul families on voluntary rotation with full transparency and zero loosh mandate.",
+          "text": "Only awakened soul families on voluntary rotation with full transparency and zero loosh mandate, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Interior is exclusively staffed by negative extraterrestrial entities and German breakaway hybrid blondes."
         },
         {
           "label": "B",
-          "text": "Negative extraterrestrial entities and German breakaway hybrid blondes dedicated to the control matrix and ensuring no loosh is wasted.",
-          "isCorrect": true,
-          "rationale": "The craft interior is exclusively staffed by negative ETs and German breakaway hybrid blondes for control and loosh efficiency."
+          "text": "Only NPCs teleported nightly who leave before dawn with no hybrid blondes or negative ETs aboard, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Staff are negative ETs and German breakaway hybrid blondes dedicated to the control matrix and loosh efficiency."
         },
         {
           "label": "C",
-          "text": "Only G.A.A. archivists cataloging Polaris pixelation drills with no harvest or frequency control duties.",
+          "text": "Only G.A.A. archivists cataloging Polaris pixelation drills with no harvest or frequency control duties, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Station personnel are hostile negative ETs and engineered German breakaway hybrid blondes, not G.A.A. archivists."
         },
         {
           "label": "D",
-          "text": "Only NPCs teleported nightly who leave before dawn with no hybrid blondes or negative ETs aboard.",
-          "isCorrect": false,
-          "rationale": "Staff are negative ETs and German breakaway hybrid blondes dedicated to the control matrix and loosh efficiency."
+          "text": "Negative extraterrestrial entities and German breakaway hybrid blondes dedicated to the control matrix and ensuring no loosh is wasted.",
+          "isCorrect": true,
+          "rationale": "The craft interior is exclusively staffed by negative ETs and German breakaway hybrid blondes for control and loosh efficiency."
         }
       ],
       "hint": "Negative ETs + German breakaway hybrid blondes — no loosh wasted.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 12,
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It is not a natural rocky satellite reflecting sunlight; it is an active, hostile extraterrestrial installation operating just beyond humanity's perception.",
-          "isCorrect": true,
-          "rationale": "Defining revelation: not natural rock reflecting sun — an active hostile ET installation just beyond ordinary human perception."
-        },
-        {
-          "label": "B",
-          "text": "It is a natural rocky satellite reflecting sunlight exactly as Heliocentrism teaches, with no installation behind it.",
-          "isCorrect": false,
-          "rationale": "Defining revelation: it is not a natural rocky satellite reflecting sunlight — it is an active hostile ET installation."
-        },
-        {
-          "label": "C",
-          "text": "It is half natural rock and half hologram only on weekends, leaving Heliocentrism mostly intact forever.",
+          "text": "It is half natural rock and half hologram only on weekends, leaving Heliocentrism mostly intact forever, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "It is an active hostile extraterrestrial installation beyond ordinary perception — not a half-natural weekend hybrid."
         },
         {
-          "label": "D",
-          "text": "It was natural until G.A.A. painted it; parasites never built command, harvest, or frequency systems there.",
+          "label": "B",
+          "text": "It was natural until G.A.A. painted it; parasites never built command, harvest, or frequency systems there, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "It is a parasite-side hostile ET installation for command, harvest, and frequency — not a G.A.A. paint job on natural rock."
+        },
+        {
+          "label": "C",
+          "text": "It is a natural rocky satellite reflecting sunlight exactly as Heliocentrism teaches, with no installation behind it, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Defining revelation: it is not a natural rocky satellite reflecting sunlight — it is an active hostile ET installation."
+        },
+        {
+          "label": "D",
+          "text": "It is not a natural rocky satellite reflecting sunlight; it is an active, hostile extraterrestrial installation operating just beyond humanity's perception.",
+          "isCorrect": true,
+          "rationale": "Defining revelation: not natural rock reflecting sun — an active hostile ET installation just beyond ordinary human perception."
         }
       ],
       "hint": "Not natural rock reflector — active hostile ET installation.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 13,
@@ -406,9 +406,9 @@
       "options": [
         {
           "label": "A",
-          "text": "The Moon wipes memory while the Sun only harvests loosh from Black Sun banks with no Amnesia Vortex role.",
+          "text": "Venus alone does both wipe and harvest so Sun and Moon remain empty decorations after every full phase, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "Roles are not swapped that way: Sun wipes memories; Moon oversees energetic harvesting of trapped suffering souls."
+          "rationale": "Venus is the holographic light generator; Sun and Moon station carry the dual wipe-and-harvest enslavement mechanism."
         },
         {
           "label": "B",
@@ -418,15 +418,15 @@
         },
         {
           "label": "C",
-          "text": "Venus alone does both wipe and harvest so Sun and Moon remain empty decorations after every full phase.",
+          "text": "Both only provide gentle light shows with no memory wipe, no harvest, and no forced incarnational loops of any kind, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Venus is the holographic light generator; Sun and Moon station carry the dual wipe-and-harvest enslavement mechanism."
+          "rationale": "Together they form eternal enslavement: Amnesia processing plus energetic harvest of suffering loops — not gentle light shows."
         },
         {
           "label": "D",
-          "text": "Both only provide gentle light shows with no memory wipe, no harvest, and no forced incarnational loops of any kind.",
+          "text": "The Moon wipes memory while the Sun only harvests loosh from Black Sun banks with no Amnesia Vortex role, with souls moving freely and no trap logistics at death or birth.",
           "isCorrect": false,
-          "rationale": "Together they form eternal enslavement: Amnesia processing plus energetic harvest of suffering loops — not gentle light shows."
+          "rationale": "Roles are not swapped that way: Sun wipes memories; Moon oversees energetic harvesting of trapped suffering souls."
         }
       ],
       "hint": "Sun = memory wipe; Moon = energetic harvest of trapped souls.",
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Yes fully — every photon is warm solar bounce and Venus has no projector role on any shell, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Illumination is entirely artificial; the Moon does not reflect the Sun's light as Heliocentrism claims."
+        },
+        {
+          "label": "B",
           "text": "No — illumination is entirely artificial; Planet Venus is the localized holographic projector casting spherical light onto the station shell.",
           "isCorrect": true,
           "rationale": "Moon does not reflect sunlight; Venus is the localized holographic projector that casts spherical light onto the lunar shell."
         },
         {
-          "label": "B",
-          "text": "Yes for science books and no for occult books — a split that keeps Heliocentrism half-true forever.",
-          "isCorrect": false,
-          "rationale": "Heliocentrism's reflect claim is false across the board; moonlight is cold holographic projection, not half-true solar bounce."
-        },
-        {
           "label": "C",
-          "text": "Only during new moons; full moons are 100% natural solar reflection with no holographic bearing of light.",
+          "text": "Only during new moons; full moons are 100% natural solar reflection with no holographic bearing of light, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Artificial Venus-cast illumination is the rule; full moon is peak frequency disruption under widest cast, not natural solar reflection."
         },
         {
           "label": "D",
-          "text": "Yes fully — every photon is warm solar bounce and Venus has no projector role on any shell.",
+          "text": "Yes for science books and no for occult books — a split that keeps Heliocentrism half-true forever.",
           "isCorrect": false,
-          "rationale": "Illumination is entirely artificial; the Moon does not reflect the Sun's light as Heliocentrism claims."
+          "rationale": "Heliocentrism's reflect claim is false across the board; moonlight is cold holographic projection, not half-true solar bounce."
         }
       ],
       "hint": "No solar reflection — Venus holographic projector casts the light.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 15,
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Through prayer of religious masses who power genuine reflection without any technological shell involved.",
+          "text": "Through prayer of religious masses who power genuine reflection without any technological shell involved, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Bearing light is technological holographic projection onto the Dyson-sphere-like shell, not prayer-powered natural reflection."
         },
         {
           "label": "B",
-          "text": "By casting spherical light directly onto the Dyson-sphere-like shell of the lunar station, bearing the light onto its surface.",
-          "isCorrect": true,
-          "rationale": "Venus casts spherical light onto the Dyson-sphere-like shell, bearing light onto the station's surface as the facade."
-        },
-        {
-          "label": "C",
-          "text": "By drilling Antarctic vents so ice glows and paints natural warmth onto a dead rock moon forever.",
+          "text": "By drilling Antarctic vents so ice glows and paints natural warmth onto a dead rock moon forever, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Venus casts spherical light onto the Dyson-sphere-like shell of the lunar station — not Antarctic ice vents on dead rock."
         },
         {
-          "label": "D",
-          "text": "By reflecting Black Sun loosh as rainbow auroras that never touch any shell or Death-Star geometry.",
+          "label": "C",
+          "text": "By reflecting Black Sun loosh as rainbow auroras that never touch any shell or Death-Star geometry, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The cast targets the Dyson-sphere-like shell of the station itself; Black Sun is storage, not the light-bearing method."
+        },
+        {
+          "label": "D",
+          "text": "By casting spherical light directly onto the Dyson-sphere-like shell of the lunar station, bearing the light onto its surface.",
+          "isCorrect": true,
+          "rationale": "Venus casts spherical light onto the Dyson-sphere-like shell, bearing light onto the station's surface as the facade."
         }
       ],
       "hint": "Spherical light onto Dyson-sphere-like shell — bearing the light.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 16,
@@ -502,21 +502,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Reflected sunlight would carry thermodynamic warmth, yet moonlight is not warmer than moon-shade — proving cold self-illuminating holographic projection.",
+          "text": "Thermometers cannot detect moonlight at all, so thermodynamics is irrelevant to any holographic claim.",
+          "isCorrect": false,
+          "rationale": "Atmospheric testing compares moonlight to moon-shade and finds no expected warmth of reflected solar radiation."
+        },
+        {
+          "label": "B",
+          "text": "Reflected sunlight would carry thermodynamic warmth, yet moonlight is not warmer than moon-shade.",
           "isCorrect": true,
           "rationale": "If moonlight were reflected sun, it would bring warmth; it is not warmer than moon-shade, proving cold holographic projection."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "Moonlight is always hotter than direct noon sun, proving genuine solar bounce with extra thermal gain.",
           "isCorrect": false,
           "rationale": "True reflected sunlight would carry thermodynamic warmth, yet moonlight is not warmer than moon-shade — it is cold holography."
-        },
-        {
-          "label": "C",
-          "text": "Thermometers cannot detect moonlight at all, so thermodynamics is irrelevant to any holographic claim.",
-          "isCorrect": false,
-          "rationale": "Atmospheric testing compares moonlight to moon-shade and finds no expected warmth of reflected solar radiation."
         },
         {
           "label": "D",
@@ -526,7 +526,7 @@
         }
       ],
       "hint": "Moonlight not warmer than moon-shade — cold holographic proof.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 17,
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Nothing technological — Venus is only a distant natural planet with no Light Bearer role over any station, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Venus is not a distant natural planet here; it is functional technology casting the luminous facade as Light Bearer."
+        },
+        {
+          "label": "B",
           "text": "The required luminous facade that hides the station's true mechanical, Death-Star-like appearance from the human population.",
           "isCorrect": true,
           "rationale": "As Light Bearer, Venus casts the luminous facade that hides the Death-Star-like mechanical appearance of the ET station."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "A transparent glass shell that openly displays hybrid blondes and negative ETs to every unawakened human nightly.",
           "isCorrect": false,
           "rationale": "The facade hides the mechanical Death-Star-like appearance; it does not openly display station personnel."
         },
         {
-          "label": "C",
-          "text": "Nothing technological — Venus is only a distant natural planet with no Light Bearer role over any station.",
-          "isCorrect": false,
-          "rationale": "Venus is not a distant natural planet here; it is functional technology casting the luminous facade as Light Bearer."
-        },
-        {
           "label": "D",
-          "text": "Only healing rainbows from G.A.A. that never conceal craft geometry or support any control matrix at all.",
+          "text": "Only healing rainbows from G.A.A. that never conceal craft geometry or support any control matrix at all, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Venus maintains the luminous facade that conceals the hostile mechanical craft from the human population."
         }
       ],
       "hint": "Luminous facade hides Death-Star-like mechanical appearance.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 18,
@@ -566,21 +566,21 @@
       "options": [
         {
           "label": "A",
-          "text": "It moves only during EMF flash training drills run by NPCs with no loosh gathering or frequency management role.",
+          "text": "It moves only during EMF flash training drills run by NPCs with no loosh gathering or frequency management role and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "Routine phasing serves frequency outputs and loosh gathering across 65 worlds, not NPC training drills alone."
         },
         {
           "label": "B",
-          "text": "It is welded permanently to one sky pixel and can never materialize, dematerialize, or leave its holographic shell.",
+          "text": "It only drifts with ocean tides on Earth and never visits any of the other worlds under parasitic control, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "It is highly mobile: it can instantly materialize and dematerialize and phases out of its shell to travel Gateway-10."
+          "rationale": "It phases across Gateway-10 and manages 65 other worlds under parasitic control — not mere Earth-tide drifting."
         },
         {
           "label": "C",
-          "text": "It only drifts with ocean tides on Earth and never visits any of the other worlds under parasitic control.",
+          "text": "It is welded permanently to one sky pixel and can never materialize, dematerialize, or leave its holographic shell, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "It phases across Gateway-10 and manages 65 other worlds under parasitic control — not mere Earth-tide drifting."
+          "rationale": "It is highly mobile: it can instantly materialize and dematerialize and phases out of its shell to travel Gateway-10."
         },
         {
           "label": "D",
@@ -598,15 +598,15 @@
       "options": [
         {
           "label": "A",
-          "text": "It switches to pure G.A.A. healing tones while hybrid blondes take shore leave off the craft entirely.",
-          "isCorrect": false,
-          "rationale": "Full Moon maps to maximum negative frequency unleash for severe psychological and emotional disruption."
+          "text": "It unleashes maximum negative frequencies designed to severely disrupt human psychology and emotional stability.",
+          "isCorrect": true,
+          "rationale": "During Full Moon the station unleashes maximum negative frequencies that disrupt psychology and emotional stability; that is the origin of \"Lunatic\"."
         },
         {
           "label": "B",
-          "text": "It only brightens Venus for tourism photos while frequency maps to lunar stages are permanently retired.",
+          "text": "It switches to pure G.A.A. healing tones while hybrid blondes take shore leave off the craft entirely.",
           "isCorrect": false,
-          "rationale": "Behavior is regulated through frequency broadcasts mapped to lunar stages, peaking at Full Moon disruption."
+          "rationale": "Full Moon maps to maximum negative frequency unleash for severe psychological and emotional disruption."
         },
         {
           "label": "C",
@@ -616,13 +616,13 @@
         },
         {
           "label": "D",
-          "text": "It unleashes maximum negative frequencies designed to severely disrupt human psychology and emotional stability — the true etymological origin of \"Lunatic\".",
-          "isCorrect": true,
-          "rationale": "During Full Moon the station unleashes maximum negative frequencies that disrupt psychology and emotional stability; that is the origin of \"Lunatic\"."
+          "text": "It only brightens Venus for tourism photos while frequency maps to lunar stages are permanently retired.",
+          "isCorrect": false,
+          "rationale": "Behavior is regulated through frequency broadcasts mapped to lunar stages, peaking at Full Moon disruption."
         }
       ],
       "hint": "Full Moon = max negative frequencies = origin of \"Lunatic\".",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 20,
@@ -630,21 +630,21 @@
       "options": [
         {
           "label": "A",
-          "text": "To erase Black Sun banks so Mt Meru runs only on bright white true space without any harvest architecture.",
+          "text": "To warm moonlight thermodynamically using Black Sun heat so Heliocentrism finally measures correctly, as if no adjacent systems participated at all.",
           "isCorrect": false,
-          "rationale": "The station extracts loosh energy from Black Sun storage banks the parasites positioned under Mt Meru."
+          "rationale": "Black Sun is loosh storage for harvest, not a heater to validate reflected-sunlight Heliocentrism."
         },
         {
           "label": "B",
-          "text": "To donate loosh back to soul families as free will currency with no extraction from any storage banks.",
+          "text": "To donate loosh back to soul families as free will currency with no extraction from any storage banks, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Primary function is gathering loosh from the tormented population via Black Sun storage banks under Mt Meru."
         },
         {
           "label": "C",
-          "text": "To warm moonlight thermodynamically using Black Sun heat so Heliocentrism finally measures correctly.",
+          "text": "To erase Black Sun banks so Mt Meru runs only on bright white true space without any harvest architecture, as if no adjacent systems participated at all.",
           "isCorrect": false,
-          "rationale": "Black Sun is loosh storage for harvest, not a heater to validate reflected-sunlight Heliocentrism."
+          "rationale": "The station extracts loosh energy from Black Sun storage banks the parasites positioned under Mt Meru."
         },
         {
           "label": "D",
@@ -668,25 +668,25 @@
         },
         {
           "label": "B",
-          "text": "G.A.A. auditors who publish open loosh ledgers to all 178 worlds without any hybrid blonde presence.",
-          "isCorrect": false,
-          "rationale": "Exclusive staff are hostile negative ETs and German breakaway hybrid blondes, not open G.A.A. auditors."
-        },
-        {
-          "label": "C",
           "text": "Only volunteer NPCs who deliberately spill loosh as charity with no matrix maintenance duties aboard.",
           "isCorrect": false,
           "rationale": "Staff are dedicated to control matrix maintenance and zero loosh waste — not NPC charity spills."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "Negative ETs and German breakaway hybrid blondes maintain the control matrix and ensure no loosh is wasted.",
           "isCorrect": true,
           "rationale": "Interior staff — negative ETs and German breakaway hybrid blondes — maintain control and ensure no loosh is wasted."
+        },
+        {
+          "label": "D",
+          "text": "G.A.A. auditors who publish open loosh ledgers to all 178 worlds without any hybrid blonde presence.",
+          "isCorrect": false,
+          "rationale": "Exclusive staff are hostile negative ETs and German breakaway hybrid blondes, not open G.A.A. auditors."
         }
       ],
       "hint": "Negative ETs + hybrid blondes — control matrix — no loosh wasted.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 22,
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It only affects freemason ice maps and never touches globe belief, vacuum myths, or public cosmology at all.",
-          "isCorrect": false,
-          "rationale": "The deception targets the public heliocentric spinning-globe vacuum belief system directly."
-        },
-        {
-          "label": "B",
           "text": "By integrating the station's presence into the fabricated heliocentric model, deceiving humanity into believing they inhabit a spinning globe in a vast empty vacuum.",
           "isCorrect": true,
           "rationale": "Holographic masking folds the station into fake heliocentrism so humanity believes spinning-globe vacuum cosmology."
         },
         {
-          "label": "C",
-          "text": "It proves flat-plain architecture to every school textbook without any globe deception remaining in culture.",
+          "label": "B",
+          "text": "It proves flat-plain architecture to every school textbook without any globe deception remaining in culture, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Controllers use the mask to sustain globe-in-vacuum deception, not to teach true plain architecture in textbooks."
         },
         {
+          "label": "C",
+          "text": "It only affects freemason ice maps and never touches globe belief, vacuum myths, or public cosmology at all, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The deception targets the public heliocentric spinning-globe vacuum belief system directly."
+        },
+        {
           "label": "D",
-          "text": "It openly admits the Death-Star craft so humanity rejects spinning-globe vacuum stories immediately.",
+          "text": "It openly admits the Death-Star craft so humanity rejects spinning-globe vacuum stories immediately, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Masking integrates the station into the fabricated heliocentric model so people believe a spinning globe in empty vacuum."
         }
       ],
       "hint": "Mask integrates station into fake spinning-globe vacuum cosmology.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 23,
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It fights the Firmament until the dome collapses daily, revealing bright white space to every NPC before sunset.",
+          "text": "It fights the Firmament until the dome collapses daily, revealing bright white space to every NPC before sunset, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "It works in total synchronization with Firmament and Projection Dome to mask true bright white space beyond Black Void Plasma."
         },
         {
           "label": "B",
-          "text": "The dome only paints oceans green while the Moon remains a natural rock outside any screen architecture.",
-          "isCorrect": false,
-          "rationale": "Sky-screen architecture displays the holographic Moon and fake debris as part of the synchronized celestial deception."
-        },
-        {
-          "label": "C",
           "text": "The sky acts as a massive screen displaying fake space debris and the holographic Moon, masking ultra-high-frequency architecture and bright white space beyond Black Void Plasma.",
           "isCorrect": true,
           "rationale": "Synced with Firmament and Projection Dome: sky-screen shows fake debris and holographic Moon, hiding true UHF architecture and bright white space beyond Black Void Plasma."
         },
         {
-          "label": "D",
-          "text": "It ignores the sky screen entirely and only operates underwater with no link to Black Void Plasma or fake debris.",
+          "label": "C",
+          "text": "It ignores the sky screen entirely and only operates underwater with no link to Black Void Plasma or fake debris and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "Deception syncs with Firmament and inner Projection Dome; sky is a massive screen showing fake debris and holographic Moon."
+        },
+        {
+          "label": "D",
+          "text": "The dome only paints oceans green while the Moon remains a natural rock outside any screen architecture, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Sky-screen architecture displays the holographic Moon and fake debris as part of the synchronized celestial deception."
         }
       ],
       "hint": "Sky screen + Firmament/Dome — fake debris, holographic Moon, Black Void Plasma.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 24,
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only ice-wall tourism loyalty with no named role for Perceived Knowledge among the primary strings.",
+          "text": "Only G.A.A. membership rules that free NPCs without touching simulation-binding knowledge traps, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "The named string is Perceived Knowledge, one of three primary psychological strings binding human consciousness."
+          "rationale": "Perceived Knowledge is dismantled by seeing the Moon's true function — a primary string binding consciousness to the simulation."
         },
         {
           "label": "B",
-          "text": "Only sports fandom and diet trends that never bind consciousness to the simulation in any structural way.",
+          "text": "Only sports fandom and diet trends that never bind consciousness to the simulation in any structural way, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Understanding the Moon dismantles Perceived Knowledge — one of the three primary psychological strings binding consciousness."
         },
         {
           "label": "C",
-          "text": "Perceived Knowledge — one of the three primary psychological strings used to bind human consciousness to the simulation.",
-          "isCorrect": true,
-          "rationale": "Knowing the Moon's true function dismantles Perceived Knowledge, a primary psychological string binding consciousness to the simulation."
+          "text": "Only ice-wall tourism loyalty with no named role for Perceived Knowledge among the primary strings, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The named string is Perceived Knowledge, one of three primary psychological strings binding human consciousness."
         },
         {
           "label": "D",
-          "text": "Only G.A.A. membership rules that free NPCs without touching simulation-binding knowledge traps.",
-          "isCorrect": false,
-          "rationale": "Perceived Knowledge is dismantled by seeing the Moon's true function — a primary string binding consciousness to the simulation."
+          "text": "Perceived Knowledge — one of the three primary psychological strings used to bind human consciousness to the simulation.",
+          "isCorrect": true,
+          "rationale": "Knowing the Moon's true function dismantles Perceived Knowledge, a primary psychological string binding consciousness to the simulation."
         }
       ],
       "hint": "Dismantles Perceived Knowledge — primary psychological string.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 25,
@@ -808,7 +808,7 @@
         },
         {
           "label": "D",
-          "text": "Overlays and Venus illumination permanently disable; cosmos illusions melt into pixelation from Polaris downward; the Death-Star craft is exposed; 97% NPCs and unawakened face irreversible psychological collapse, terror, and catatonia.",
+          "text": "Overlays and Venus illumination permanently disable; cosmos illusions melt into pixelation from Polaris downward.",
           "isCorrect": true,
           "rationale": "EMF flash by G.A.A. kills 3rd-density overlays including Projection Dome and Venus light; Polaris-down pixelation; Death-Star exposure; 97% NPC/unawakened catatonia."
         }

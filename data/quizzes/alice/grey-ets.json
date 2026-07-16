@@ -22,21 +22,21 @@
       "options": [
         {
           "label": "A",
-          "text": "From natural evolution on Zeta Reticuli with no Custodian role.",
-          "isCorrect": false,
-          "rationale": "Zeta Reticuli origin is a staged false narrative; Greys are engineered, not naturally evolved spacefarers."
-        },
-        {
-          "label": "B",
-          "text": "From random ghost orbs that later became geneticists by accident.",
+          "text": "From random ghost orbs that later became geneticists by accident, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Ghosts are Grey ET Orb psyops; origin is deliberate Custodian engineering hierarchy."
         },
         {
-          "label": "C",
-          "text": "From the G.A.A. as permanent schoolteachers for Twin Flames.",
+          "label": "B",
+          "text": "From the G.A.A. as permanent schoolteachers for Twin Flames, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "G.A.A. orchestrates EMF eradication of parasites; Greys keep Twin Flames apart."
+        },
+        {
+          "label": "C",
+          "text": "From natural evolution on Zeta Reticuli with no Custodian role and no hidden harvest architecture behind the scenes.",
+          "isCorrect": false,
+          "rationale": "Zeta Reticuli origin is a staged false narrative; Greys are engineered, not naturally evolved spacefarers."
         },
         {
           "label": "D",
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
+          "text": "They fell from 12th density to 4th density as negativity altered their vibration and physical vessels into gaunt, grey-skinned entities.",
+          "isCorrect": true,
+          "rationale": "Betrayal dropped Custodians from 12th to 4th density; vessels became gaunt and grey-skinned under negativity."
+        },
+        {
+          "label": "B",
+          "text": "They remained pure 12th-density caretakers with no vessel change, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "They betrayed the Source and fell; vessels became gaunt grey-skinned entities."
+        },
+        {
+          "label": "C",
           "text": "They rose to 5th density and learned to sing true souls naturally.",
           "isCorrect": false,
           "rationale": "They fell to 4th density and cannot naturally weave true souls — hence Replica Souls."
         },
         {
-          "label": "B",
-          "text": "They became NPCs only, with no role in engineering Greys.",
+          "label": "D",
+          "text": "They became NPCs only, with no role in engineering Greys, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Custodians engineered the parasitic hierarchy including Orion Greys; NPCs use related Replica Soul tech."
-        },
-        {
-          "label": "C",
-          "text": "They remained pure 12th-density caretakers with no vessel change.",
-          "isCorrect": false,
-          "rationale": "They betrayed the Source and fell; vessels became gaunt grey-skinned entities."
-        },
-        {
-          "label": "D",
-          "text": "They fell from 12th density to 4th density as negativity altered their vibration and physical vessels into gaunt, grey-skinned entities.",
-          "isCorrect": true,
-          "rationale": "Betrayal dropped Custodians from 12th to 4th density; vessels became gaunt and grey-skinned under negativity."
         }
       ],
       "hint": "12th→4th density fall — gaunt grey-skinned vessels.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Sole creators of the Source of Creation itself.",
-          "isCorrect": false,
-          "rationale": "Source was betrayed by Custodians; Greys are engineered subordinates in the hierarchy."
-        },
-        {
-          "label": "B",
-          "text": "Critical foot soldiers, geneticists, and technological operators within a 4th-density framework — recycling souls, fabricating paranormal phenomena, and running abduction psychological operations.",
-          "isCorrect": true,
-          "rationale": "Greys are 4th-density foot soldiers, geneticists, and tech operators handling soul recycling, ghost psyops, and abduction narratives."
-        },
-        {
-          "label": "C",
-          "text": "Neutral tourists with no genetic or portal operations.",
+          "text": "Neutral tourists with no genetic or portal operations and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "They administer reincarnation portals, phasing sabotage, and staged abductions."
         },
         {
-          "label": "D",
-          "text": "Only 12th-density healers restoring the Spirit Tree openly.",
+          "label": "B",
+          "text": "Only 12th-density healers restoring the Spirit Tree openly, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Orion Greys destroyed the Spirit Tree; they are not 12th-density healers."
+        },
+        {
+          "label": "C",
+          "text": "Critical foot soldiers, geneticists, and technological operators within a 4th-density framework.",
+          "isCorrect": true,
+          "rationale": "Greys are 4th-density foot soldiers, geneticists, and tech operators handling soul recycling, ghost psyops, and abduction narratives."
+        },
+        {
+          "label": "D",
+          "text": "Sole creators of the Source of Creation itself, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Source was betrayed by Custodians; Greys are engineered subordinates in the hierarchy."
         }
       ],
       "hint": "4th-density foot soldiers, geneticists, tech operators.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 4,
@@ -118,15 +118,15 @@
       "options": [
         {
           "label": "A",
-          "text": "The first great genetic success of the Custodians — highly capable negative allies who later engineered their own subordinate species.",
-          "isCorrect": true,
-          "rationale": "Anuk were Custodians' first great genetic success and then created their own subordinates (including Zetas)."
-        },
-        {
-          "label": "B",
           "text": "Only Project Bluebeam camera operators with no genetics role.",
           "isCorrect": false,
           "rationale": "Anuk are core genetic engineers in the hierarchy, not mere Bluebeam camera crew."
+        },
+        {
+          "label": "B",
+          "text": "Naturally positive Greys with no inversion involvement.",
+          "isCorrect": false,
+          "rationale": "Positive Greys were victims of genetic theft; Anuk are negative engineered allies of Custodians."
         },
         {
           "label": "C",
@@ -136,13 +136,13 @@
         },
         {
           "label": "D",
-          "text": "Naturally positive Greys with no inversion involvement.",
-          "isCorrect": false,
-          "rationale": "Positive Greys were victims of genetic theft; Anuk are negative engineered allies of Custodians."
+          "text": "The first great genetic success of the Custodians.",
+          "isCorrect": true,
+          "rationale": "Anuk were Custodians' first great genetic success and then created their own subordinates (including Zetas)."
         }
       ],
       "hint": "First Custodian genetic success — then built their own subordinates.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 5,
@@ -150,25 +150,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Replica Souls used only to power NPCs with no plasma tech.",
+          "text": "G.A.A. healers who rebuild Spirit Trees each century and never produce Black Void Plasma.",
           "isCorrect": false,
-          "rationale": "Replica Souls animate Greys and NPCs; Niberians are living parasitic warriors with Black Void Plasma tech."
+          "rationale": "Niberians are parasites; Spirit Tree destruction was Orion Grey/Maitrax sabotage."
         },
         {
           "label": "B",
-          "text": "The most powerful parasitic species created by the Custodians — intellectual warriors who outsmarted their creators, freed themselves from Custodian rule, and contributed Black Void Plasma that makes the night sky black.",
+          "text": "The strongest Custodian-made parasites: intellectual warriors who outsmarted their makers, broke free, and supplied Black Void Plasma that blacks out the night sky.",
           "isCorrect": true,
           "rationale": "Niberians are the most powerful Custodian-made parasites: they outsmarted creators, broke free, and brought Black Void Plasma for black night skies."
         },
         {
           "label": "C",
-          "text": "G.A.A. healers who rebuild Spirit Trees every century.",
+          "text": "Replica Souls used only to power NPCs, with no plasma tech and no independence from Custodians.",
           "isCorrect": false,
-          "rationale": "Niberians are parasites; Spirit Tree destruction was Orion Grey/Maitrax sabotage."
+          "rationale": "Replica Souls animate Greys and NPCs; Niberians are living parasitic warriors with Black Void Plasma tech."
         },
         {
           "label": "D",
-          "text": "A Zeta Reticuli tourist board inventing Betty and Barney Hill maps.",
+          "text": "A Zeta Reticuli tourist board that invents Hill maps and has no role in sky holography, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
           "rationale": "Zeta Reticuli star-map stories are staged psyops; Niberians are a distinct top-tier parasitic species."
         }
@@ -182,27 +182,27 @@
       "options": [
         {
           "label": "A",
-          "text": "A highly advanced Grey group created directly by the Custodians — master geneticists and Phasing Technology experts responsible for destroying the Spirit Tree (Mt Meru).",
+          "text": "A highly advanced Grey group created directly by the Custodians.",
           "isCorrect": true,
           "rationale": "Orion Greys/Maitrax were Custodian-made master geneticists and phasing experts who destroyed the Spirit Tree at Mt Meru."
         },
         {
           "label": "B",
-          "text": "Only ghost orbs with no genetic or tree-destruction role.",
-          "isCorrect": false,
-          "rationale": "Ghost orbs are Grey manifestations; Orion Greys specifically destroyed the Spirit Tree via phasing mastery."
-        },
-        {
-          "label": "C",
           "text": "Lab creations of the Anuk only, sold as Zeta Reticuli natives.",
           "isCorrect": false,
           "rationale": "Zetas/Reticuleans were Anuk lab creations; Orion Greys were made directly by Custodians."
         },
         {
-          "label": "D",
-          "text": "Positive Greys who never touched Gateway-10 inversion.",
+          "label": "C",
+          "text": "Positive Greys who never touched Gateway-10 inversion, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Positive Greys had no inversion role; genetic material was stolen from them. Orion Greys are negative engineered operators."
+        },
+        {
+          "label": "D",
+          "text": "Only ghost orbs with no genetic or tree-destruction role, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Ghost orbs are Grey manifestations; Orion Greys specifically destroyed the Spirit Tree via phasing mastery."
         }
       ],
       "hint": "Custodian-made — genetics, phasing, Spirit Tree destruction.",
@@ -214,15 +214,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Niberians renamed after inventing Black Void Plasma.",
+          "text": "Only Project Serpo human astronauts with no Grey biology, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
-          "rationale": "Niberians are a separate, more powerful Custodian-made species; Zetas are Anuk-made Greys."
+          "rationale": "Project Serpo is a staged psyop in the abduction mythos; Zetas are lab-grown Grey biology."
         },
         {
           "label": "B",
-          "text": "Only Project Serpo human astronauts with no Grey biology.",
+          "text": "Natural 12th-density beings who created the Custodians, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "Project Serpo is a staged psyop in the abduction mythos; Zetas are lab-grown Grey biology."
+          "rationale": "They are laboratory products of the Anuk — not natural high-density creators."
         },
         {
           "label": "C",
@@ -232,9 +232,9 @@
         },
         {
           "label": "D",
-          "text": "Natural 12th-density beings who created the Custodians.",
+          "text": "Niberians renamed after inventing Black Void Plasma, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "They are laboratory products of the Anuk — not natural high-density creators."
+          "rationale": "Niberians are a separate, more powerful Custodian-made species; Zetas are Anuk-made Greys."
         }
       ],
       "hint": "Anuk lab Greys — fake Zeta Reticuli origin story.",
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The true soul of every positive Grey before genetic theft.",
+          "text": "5th-density organic life above 144,000Hz only, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Replica Souls are 4th-density artificial constructs below organic high-density manifestation."
+        },
+        {
+          "label": "B",
+          "text": "The true soul of every positive Grey before genetic theft, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Positive Greys had real existence; stolen genetics powered vessels animated by Replica Souls."
         },
         {
-          "label": "B",
-          "text": "A cheap Hive-Aligned artificial soul made in 4th density to power engineered species, because parasites cannot naturally \"sing\" or weave true souls into existence.",
-          "isCorrect": true,
-          "rationale": "Replica Souls are cheap 4th-density Hive-Aligned fakes powering engineered species; parasites cannot sing/weave true souls."
-        },
-        {
           "label": "C",
-          "text": "A Twin Flame soul fragment that Greys reunite at every birth.",
+          "text": "A Twin Flame soul fragment that Greys reunite at every birth, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Greys keep Twin Flames apart; Replica Souls are artificial hive constructs, not Twin Flame reunions."
         },
         {
           "label": "D",
-          "text": "5th-density organic life above 144,000Hz only.",
-          "isCorrect": false,
-          "rationale": "Replica Souls are 4th-density artificial constructs below organic high-density manifestation."
+          "text": "A cheap Hive-Aligned artificial soul made in 4th density to power engineered species.",
+          "isCorrect": true,
+          "rationale": "Replica Souls are cheap 4th-density Hive-Aligned fakes powering engineered species; parasites cannot sing/weave true souls."
         }
       ],
       "hint": "Cheap 4th-density Hive-Aligned fake soul — cannot sing true souls.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 9,
@@ -284,21 +284,21 @@
         },
         {
           "label": "B",
-          "text": "Betty and Barney Hill's car radio from the 1950s only.",
+          "text": "Only Black Void Plasma painting stars on the Projection Dome, with no artificial sky, no enclosed realm, and no engineered reset scarring.",
+          "isCorrect": false,
+          "rationale": "Black Void Plasma blacks the night sky; Amnesia Vortex is the death-memory wipe portal system."
+        },
+        {
+          "label": "C",
+          "text": "Betty and Barney Hill's car radio from the 1950s only, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Hill case is staged abduction psyop; Amnesia Vortex is soul-format death tech."
         },
         {
-          "label": "C",
-          "text": "A free G.A.A. library restoring 178,000 years of memory nightly.",
+          "label": "D",
+          "text": "A free G.A.A. library restoring 178,000 years of memory nightly, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "It erases memory for forced rebirth; EMF/G.A.A. path ends the cycle rather than using the Vortex."
-        },
-        {
-          "label": "D",
-          "text": "Only Black Void Plasma painting stars on the Projection Dome.",
-          "isCorrect": false,
-          "rationale": "Black Void Plasma blacks the night sky; Amnesia Vortex is the death-memory wipe portal system."
         }
       ],
       "hint": "Sun Bright Light pull — wipe memory, force reincarnation.",
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Natural Twin Flame signals reuniting couples at birth, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Greys keep Twin Flames apart; orbs are fear-based ghost fabrications."
+        },
+        {
+          "label": "B",
+          "text": "Only Niberian Black Void Plasma clouds with no haunting role.",
+          "isCorrect": false,
+          "rationale": "Plasma blacks the sky; haunting psyops are Grey ET Orb operations."
+        },
+        {
+          "label": "C",
           "text": "Trapped human souls the parasites freely allow to wander forever.",
           "isCorrect": false,
           "rationale": "Parasites require constant physical reincarnation for Loosh; they do not allow free ghost wandering."
         },
         {
-          "label": "B",
-          "text": "Natural Twin Flame signals reuniting couples at birth.",
-          "isCorrect": false,
-          "rationale": "Greys keep Twin Flames apart; orbs are fear-based ghost fabrications."
-        },
-        {
-          "label": "C",
-          "text": "What humanity perceives as Ghosts or poltergeist activity — the real technological and biological manifestation of those phenomena.",
+          "label": "D",
+          "text": "What humanity perceives as Ghosts or poltergeist activity.",
           "isCorrect": true,
           "rationale": "Ghosts and poltergeists are Grey ET Orbs — tech/biological manifestations, not free wandering human spirits."
-        },
-        {
-          "label": "D",
-          "text": "Only Niberian Black Void Plasma clouds with no haunting role.",
-          "isCorrect": false,
-          "rationale": "Plasma blacks the sky; haunting psyops are Grey ET Orb operations."
         }
       ],
       "hint": "Ghosts/poltergeists = Grey ET Orbs, not free human spirits.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 11,
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To the EMF Flash inventing parasites for the first time.",
+          "text": "To the EMF Flash inventing parasites for the first time, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "EMF Flash eradicates parasites; negativity began with Custodian rebellion long ago."
         },
         {
           "label": "B",
-          "text": "To natural Grey evolution on distant planets with no betrayal.",
-          "isCorrect": false,
-          "rationale": "Greys are engineered after Custodian betrayal — not natural source of all negativity."
-        },
-        {
-          "label": "C",
           "text": "Exclusively to the original Custodian betrayal — before their rebellion, no negative events had ever occurred on the physical plain.",
           "isCorrect": true,
           "rationale": "All negativity traces only to Custodian betrayal. Before that rebellion, the physical plain had no negative events."
         },
         {
+          "label": "C",
+          "text": "To natural Grey evolution on distant planets with no betrayal, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Greys are engineered after Custodian betrayal — not natural source of all negativity."
+        },
+        {
           "label": "D",
-          "text": "To Twin Flame reunions generating too much positive power.",
+          "text": "To Twin Flame reunions generating too much positive power, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Twin Flame power is blocked by Greys; origin of negativity is Custodian betrayal."
         }
       ],
       "hint": "Only Custodian betrayal — no negativity before that.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 12,
@@ -380,21 +380,21 @@
         },
         {
           "label": "B",
-          "text": "Yes — they sang themselves into existence above 5th density.",
+          "text": "They are only holograms with no biological vessel at all, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "They are biological automatons powered by Replica Souls — engineered bodies, not mere holograms."
+        },
+        {
+          "label": "C",
+          "text": "Yes — they sang themselves into existence above 5th density, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "They run on Replica Souls because parasites cannot sing true souls; they stay 4th density."
         },
         {
-          "label": "C",
-          "text": "Yes — pure natural evolution from Zeta Reticuli only.",
+          "label": "D",
+          "text": "Yes — pure natural evolution from Zeta Reticuli only, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Zeta Reticuli presentation is false; they are engineered automatons."
-        },
-        {
-          "label": "D",
-          "text": "They are only holograms with no biological vessel at all.",
-          "isCorrect": false,
-          "rationale": "They are biological automatons powered by Replica Souls — engineered bodies, not mere holograms."
         }
       ],
       "hint": "Lab-grown biological automatons — not natural spacefarers.",
@@ -406,25 +406,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Voluntarily donated by positive Greys who led the inversion.",
-          "isCorrect": false,
-          "rationale": "Positive Greys had no inversion involvement; material was stolen."
-        },
-        {
-          "label": "B",
-          "text": "Grown only from Red Mercury without any living Grey source.",
+          "text": "Grown only from Red Mercury without any living Grey source, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Red Mercury is mentioned for gold harvest by parasites; Grey genetics came from stolen positive Grey species."
         },
         {
+          "label": "B",
+          "text": "Voluntarily donated by positive Greys who led the inversion, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Positive Greys had no inversion involvement; material was stolen."
+        },
+        {
           "label": "C",
-          "text": "Copied from Betty and Barney Hill's star map drawings only.",
+          "text": "Copied from Betty and Barney Hill's star map drawings only, with the surrounding architecture waved away as irrelevant.",
           "isCorrect": false,
           "rationale": "Hill star map is staged psyop content; genetics theft predates that narrative fabrication."
         },
         {
           "label": "D",
-          "text": "Stolen from one or two species of naturally occurring highly positive Grey ETs who had absolutely no involvement in the Gateway-10 inversion — then vessels were powered with 4th-density Replica Souls because divine life could not be created.",
+          "text": "Stolen from one or two species of naturally occurring highly positive Grey ETs who had absolutely no involvement in the Gateway-10 inversion.",
           "isCorrect": true,
           "rationale": "Genetics for 14 negative Grey species were stolen from positive Greys uninvolved in inversion; Replica Souls power the vessels because true divine souls cannot be made by parasites."
         }
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only Niberians handle births using Black Void Plasma.",
+          "text": "Only Niberians handle births using Black Void Plasma, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Grey ETs are primary administrators of the reincarnation system and newborn insertion."
         },
         {
           "label": "B",
-          "text": "G.A.A. runs the Vatican portals to reunite Twin Flames daily.",
+          "text": "G.A.A. runs the Vatican portals to reunite Twin Flames daily, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Vatican portals serve parasitic factions; Greys keep Twin Flames apart."
         },
         {
           "label": "C",
-          "text": "Soul hits Amnesia Vortex, processes through portals in the 13 levels below the Vatican; Greys take custody, escort it to a country, and insert it into a newborn at birth — typically before the umbilical cord is cut — using minute Trillivolts to ignite the infant's heart.",
-          "isCorrect": true,
-          "rationale": "After Vortex formatting via Vatican subterranean portals, Greys escort and insert the soul into a newborn before cord cut, sparking the heart with Trillivolts."
+          "text": "Souls freely choose any lifetime with no Grey escort ever, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Strict Grey oversight runs forced reincarnation — not free choice."
         },
         {
           "label": "D",
-          "text": "Souls freely choose any lifetime with no Grey escort ever.",
-          "isCorrect": false,
-          "rationale": "Strict Grey oversight runs forced reincarnation — not free choice."
+          "text": "Soul hits Amnesia Vortex, processes through portals in the 13 levels below the Vatican.",
+          "isCorrect": true,
+          "rationale": "After Vortex formatting via Vatican subterranean portals, Greys escort and insert the soul into a newborn before cord cut, sparking the heart with Trillivolts."
         }
       ],
       "hint": "Vortex → Vatican 13 levels → Grey escort → newborn before cord cut.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 15,
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To prevent the generation of positive power that would come from Twin Flame connection under their strict reincarnation oversight.",
-          "isCorrect": true,
-          "rationale": "Grey oversight of rebirth deliberately separates Twin Flames so they cannot generate positive power together."
-        },
-        {
-          "label": "B",
-          "text": "To help them ascend above 144,000Hz as a couple faster.",
+          "text": "To help them ascend above 144,000Hz as a couple faster, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Separation blocks positive power; it is anti-ascension control, not help."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Only during Project Serpo filming schedules.",
           "isCorrect": false,
           "rationale": "Separation is structural reincarnation policy, not a film-schedule quirk."
         },
         {
+          "label": "C",
+          "text": "To prevent the generation of positive power that would come from Twin Flame connection under their strict reincarnation oversight.",
+          "isCorrect": true,
+          "rationale": "Grey oversight of rebirth deliberately separates Twin Flames so they cannot generate positive power together."
+        },
+        {
           "label": "D",
-          "text": "Because Replica Souls automatically fuse Twin Flames at birth.",
+          "text": "Because Replica Souls automatically fuse Twin Flames at birth, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Replica Souls power Greys/NPCs; Twin Flames of true souls are kept apart on purpose."
         }
       ],
       "hint": "Block positive power from Twin Flame reunion.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 16,
@@ -502,27 +502,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a ghost-hunting TV camera filter with no real effect.",
-          "isCorrect": false,
-          "rationale": "It is real matter-manipulation tech used to destroy the Spirit Tree — not a TV filter."
-        },
-        {
-          "label": "B",
           "text": "Black Void Plasma that only paints stars white.",
           "isCorrect": false,
           "rationale": "Black Void Plasma blacks the night; phasing is matter manipulation by Orion Greys."
         },
         {
+          "label": "B",
+          "text": "A Twin Flame reunion ritual taught in every school, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Phasing is Grey sabotage capability; Twin Flames are kept apart."
+        },
+        {
           "label": "C",
-          "text": "Mastery that manipulates matter seamlessly — described as removing a person's garments without their awareness — used with Orion constellation portals to travel and sabotage.",
+          "text": "Mastery that manipulates matter seamlessly — described as removing a person's garments without their awareness.",
           "isCorrect": true,
           "rationale": "Phasing Technology lets Orion Greys manipulate matter seamlessly (even stripping garments unnoticed) and travel via Orion portals for sabotage ops."
         },
         {
           "label": "D",
-          "text": "A Twin Flame reunion ritual taught in every school.",
+          "text": "Only a ghost-hunting TV camera filter with no real effect, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "Phasing is Grey sabotage capability; Twin Flames are kept apart."
+          "rationale": "It is real matter-manipulation tech used to destroy the Spirit Tree — not a TV filter."
         }
       ],
       "hint": "Seamless matter control — e.g. garments off unnoticed; Orion travel.",
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Replaced it with a petrified stump, instantly dampening frequencies across all of Gateway-10 so 4th-density parasites could inhabit an environment that would otherwise make them severely ill from high natural vibration.",
-          "isCorrect": true,
-          "rationale": "Spirit Tree → petrified stump dropped Gateway-10 frequencies so 4th-density parasites could live where high vibe once sickened them."
-        },
-        {
-          "label": "B",
-          "text": "Raised all worlds above 5th density for free Loosh production.",
-          "isCorrect": false,
-          "rationale": "It dampened frequencies for occupation — opposite of raising density."
-        },
-        {
-          "label": "C",
-          "text": "Only affected Zeta Reticuli textbooks with no physical stump.",
+          "text": "They planted more Spirit Trees until Gateway-10 overflowed with free 12th-density power, not the deeper control mechanism described by the Living Truth.",
           "isCorrect": false,
           "rationale": "Physical destruction at realm center with system-wide frequency drop is the act."
         },
         {
-          "label": "D",
-          "text": "Restored Mt Meru so Custodians could return to 12th density.",
+          "label": "B",
+          "text": "Maitrax replaced the Spirit Tree with a petrified stump, instantly damping Gateway-10 frequencies so 4th-density parasites could survive and occupy the plain.",
+          "isCorrect": true,
+          "rationale": "Spirit Tree → petrified stump dropped Gateway-10 frequencies so 4th-density parasites could live where high vibe once sickened them."
+        },
+        {
+          "label": "C",
+          "text": "They ignored energy centers completely and only rewrote school textbooks about distant stars, dismissing every wider engineered cause as irrelevant.",
           "isCorrect": false,
           "rationale": "Tree was destroyed for occupation; Custodians had already fallen to 4th density."
+        },
+        {
+          "label": "D",
+          "text": "They politely asked the Spirit Tree to dim while leaving full power architecture intact forever, not the deeper control mechanism described by the Living Truth.",
+          "isCorrect": false,
+          "rationale": "It dampened frequencies for occupation — opposite of raising density."
         }
       ],
       "hint": "Petrified stump — frequency drop so 4th-density can occupy.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 18,
@@ -572,19 +572,19 @@
         },
         {
           "label": "B",
-          "text": "Because Amnesia Vortex turns all memories into friendly house spirits.",
-          "isCorrect": false,
-          "rationale": "Vortex wipes memory for rebirth; ghost sightings are Orb fabrications, not house-spirit afterlives."
-        },
-        {
-          "label": "C",
           "text": "Because human souls freely roam as ghosts for centuries by design.",
           "isCorrect": false,
           "rationale": "Design forbids free apparitions; constant forced reincarnation feeds Loosh harvest."
         },
         {
+          "label": "C",
+          "text": "Because Amnesia Vortex turns all memories into friendly house spirits.",
+          "isCorrect": false,
+          "rationale": "Vortex wipes memory for rebirth; ghost sightings are Orb fabrications, not house-spirit afterlives."
+        },
+        {
           "label": "D",
-          "text": "Paranormal shows and abandoned-location scares are Grey ET Orbs; parasites need every human soul constantly reincarnated in a physical vessel to generate Loosh and do not allow free wandering apparitions.",
+          "text": "Paranormal shows and abandoned-location scares are Grey ET Orbs.",
           "isCorrect": true,
           "rationale": "Hauntings are Grey Orb theater. Souls must stay in physical vessels generating Loosh — free ghost wandering is not allowed."
         }
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
-          "text": "G.A.A. training films for EMF Flash survivors only.",
-          "isCorrect": false,
-          "rationale": "These are parasitic Grey-ordered fabrications, not G.A.A. training."
-        },
-        {
-          "label": "B",
-          "text": "Proof Twin Flames always reincarnate together after Vatican processing.",
+          "text": "Proof Twin Flames always reincarnate together after Vatican processing, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Greys keep Twin Flames apart; Hill/Serpo are abduction mythos psyops."
         },
         {
+          "label": "B",
+          "text": "Honest free contact proving natural Grey evolution from Zeta Reticuli, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Zeta origin is false presentation; Greys are lab-grown automatons under staged narratives."
+        },
+        {
           "label": "C",
-          "text": "Completely staged psyops — Hill's 1950s case introduced the fake Zeta Reticuli star map; Serpo and related events built false chronological foundations for later disclosure theater.",
-          "isCorrect": true,
-          "rationale": "Hill abduction and Project Serpo are staged psyops installing fake Zeta Reticuli chronology for the broader abduction/UFO mythos."
+          "text": "G.A.A. training films for EMF Flash survivors only, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "These are parasitic Grey-ordered fabrications, not G.A.A. training."
         },
         {
           "label": "D",
-          "text": "Honest free contact proving natural Grey evolution from Zeta Reticuli.",
-          "isCorrect": false,
-          "rationale": "Zeta origin is false presentation; Greys are lab-grown automatons under staged narratives."
+          "text": "Completely staged psyops — Hill's 1950s case introduced the fake Zeta Reticuli star map.",
+          "isCorrect": true,
+          "rationale": "Hill abduction and Project Serpo are staged psyops installing fake Zeta Reticuli chronology for the broader abduction/UFO mythos."
         }
       ],
       "hint": "Staged psyops — fake Zeta Reticuli map and Serpo theater.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 20,
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To teach organic manifestation above 144,000Hz to all NPCs.",
+          "text": "To teach organic manifestation above 144,000Hz to all NPCs, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "NPCs and Greys cannot ascend that way; abduction mythos is control psyop."
         },
         {
           "label": "B",
+          "text": "To cancel Bluebeam and restore the Spirit Tree publicly, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Narrative prep serves Bluebeam invasion theater — not Spirit Tree restoration."
+        },
+        {
+          "label": "C",
           "text": "To establish a deep-seated chronological foundation for the upcoming Fake Alien Invasion (Project Bluebeam).",
           "isCorrect": true,
           "rationale": "Greys abducted selected humans and fed false narratives to prime the population for Project Bluebeam's Fake Alien Invasion."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "To free all souls from the Amnesia Vortex in the 1950s.",
           "isCorrect": false,
           "rationale": "1950s cases deepened the reincarnation/abduction cage narrative, not liberation."
-        },
-        {
-          "label": "D",
-          "text": "To cancel Bluebeam and restore the Spirit Tree publicly.",
-          "isCorrect": false,
-          "rationale": "Narrative prep serves Bluebeam invasion theater — not Spirit Tree restoration."
         }
       ],
       "hint": "Prime the public for Fake Alien Invasion / Project Bluebeam.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Joint headquarters for all parasitic factions — Omicron, Alpha Draco, Custodians, Anuk, and Greys each govern a dedicated subterranean level among 13 levels operating as luxury slaughterhouses, Adrenochrome harvesting centers, and primary portal hubs.",
-          "isCorrect": true,
-          "rationale": "Vatican hosts 13 subterranean levels as joint parasitic HQ: faction floors, slaughter/Adrenochrome harvest, and portal access for the realm."
+          "text": "A Twin Flame matchmaking center run by positive Greys with no subterranean harvest levels, with open surface chapels only and no Adrenochrome floors or multi-faction portal hubs below.",
+          "isCorrect": false,
+          "rationale": "Greys separate Twin Flames; Vatican levels harvest and process souls for the trap."
         },
         {
           "label": "B",
-          "text": "Only a library of Project Serpo novels with no subterranean levels.",
+          "text": "Only a library of Project Serpo novels with no portals and no multi-faction command structure, stacked in public rooms with no subterranean command tiers for Greys, Anuk, or Custodians.",
           "isCorrect": false,
           "rationale": "Thirteen dedicated subterranean levels are operational control infrastructure."
         },
         {
           "label": "C",
-          "text": "A G.A.A. spa that bans all Greys and closes every portal.",
+          "text": "A G.A.A. spa that bans all Greys and permanently seals every Vatican portal entrance, permanently ejecting Greys and sealing every Vatican portal used for recycle logistics.",
           "isCorrect": false,
           "rationale": "It is parasitic joint HQ with active portal hubs — not a G.A.A. ban zone."
         },
         {
           "label": "D",
-          "text": "A Twin Flame matchmaking center run by positive Greys.",
-          "isCorrect": false,
-          "rationale": "Greys separate Twin Flames; Vatican levels harvest and process souls for the trap."
+          "text": "Joint HQ for parasitic factions — Custodians, Anuk, Greys, and others each hold a subterranean level among thirteen used for slaughter, Adrenochrome, and portal ops.",
+          "isCorrect": true,
+          "rationale": "Vatican hosts 13 subterranean levels as joint parasitic HQ: faction floors, slaughter/Adrenochrome harvest, and portal access for the realm."
         }
       ],
       "hint": "13 subterranean levels — faction HQ, Adrenochrome, portals.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 22,
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only 3% of NPCs share Grey tech; 97% are 12th density.",
-          "isCorrect": false,
-          "rationale": "97% are NPCs on Replica Souls with no 5th-density ascent capacity."
-        },
-        {
-          "label": "B",
-          "text": "Replica Souls automatically upgrade all NPCs at Bluebeam.",
+          "text": "Replica Souls automatically upgrade all NPCs at Bluebeam, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Bluebeam is invasion theater; Replica-Soul beings are removed at EMF restoration, not upgraded."
         },
         {
-          "label": "C",
-          "text": "The same 4th-density Hive-Aligned Replica Soul tech powers Greys and mass-produces NPC souls — so like Greys, the 97% NPC population has no capacity to ascend into 5th density or beyond.",
-          "isCorrect": true,
-          "rationale": "Identical 4th-density Replica Soul tech animates Greys and human NPCs; 97% NPCs cannot ascend to 5th density or higher."
-        },
-        {
-          "label": "D",
+          "label": "B",
           "text": "NPCs use true sung souls while Greys use only sunlight.",
           "isCorrect": false,
           "rationale": "Both Greys and NPCs run on artificial Hive-Aligned Replica Souls."
+        },
+        {
+          "label": "C",
+          "text": "Only 3% of NPCs share Grey tech; 97% are 12th density, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "97% are NPCs on Replica Souls with no 5th-density ascent capacity."
+        },
+        {
+          "label": "D",
+          "text": "The same 4th-density Hive-Aligned Replica Soul tech powers Greys and mass-produces NPC souls.",
+          "isCorrect": true,
+          "rationale": "Identical 4th-density Replica Soul tech animates Greys and human NPCs; 97% NPCs cannot ascend to 5th density or higher."
         }
       ],
       "hint": "Same Hive Replica Souls — Greys and 97% NPCs cannot ascend 5th+.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 23,
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
-          "text": "No negative parasite except fallen Custodians ever existed above 4th density, where survival requires killing and consumption; below 144,000Hz needed for 5th density they cannot organically manifest and rely on mechanical extraction, Red Mercury gold harvest, human sweat equity, and Loosh.",
-          "isCorrect": true,
-          "rationale": "Parasites (save fallen Custodians' origin story) max at 4th density kill/consume survival, cannot hit 5th-density 144,000Hz organic manifestation, and depend on Loosh and mechanical harvest methods."
-        },
-        {
-          "label": "B",
-          "text": "They only need ghost orbs and never harvest Loosh or gold.",
+          "text": "They only need ghost orbs and never harvest Loosh or gold, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Loosh, sweat equity, and Red Mercury gold extraction are named survival methods."
         },
         {
-          "label": "C",
-          "text": "They already operate at 144,000Hz as standard factory setting.",
+          "label": "B",
+          "text": "They freely live above 5th density singing true souls daily, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "They operate well below the 144,000Hz required for 5th-density existence."
+          "rationale": "They cannot organically manifest or weave true souls; Replica Souls and harvest define them."
+        },
+        {
+          "label": "C",
+          "text": "No negative parasite except fallen Custodians ever existed above 4th density, where survival requires killing and consumption.",
+          "isCorrect": true,
+          "rationale": "Parasites (save fallen Custodians' origin story) max at 4th density kill/consume survival, cannot hit 5th-density 144,000Hz organic manifestation, and depend on Loosh and mechanical harvest methods."
         },
         {
           "label": "D",
-          "text": "They freely live above 5th density singing true souls daily.",
+          "text": "They already operate at 144,000Hz as standard factory setting, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "They cannot organically manifest or weave true souls; Replica Souls and harvest define them."
+          "rationale": "They operate well below the 144,000Hz required for 5th-density existence."
         }
       ],
       "hint": "Stuck ≤4th density — below 144,000Hz; Loosh and mechanical harvest.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 24,
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Nothing beyond Project Serpo films survive while Greys keep reincarnating humans, and no coordinated multi-system design behind it.",
+          "isCorrect": false,
+          "rationale": "Forced reincarnation cycle ends with total parasite removal from simulations."
+        },
+        {
+          "label": "B",
           "text": "Created in 4th density, they are instantly pixelated and removed from the simulation when higher dimensional architecture is restored under G.A.A.",
           "isCorrect": true,
           "rationale": "EMF Flash under G.A.A. restores higher architecture; 4th-density Greys, masters, and NPC extensions pixelate out of the simulation instantly."
         },
         {
-          "label": "B",
-          "text": "They hide forever as friendly ghosts in abandoned buildings.",
-          "isCorrect": false,
-          "rationale": "Ghost act was their psyop; EMF removes them rather than immortalizing the act."
-        },
-        {
           "label": "C",
-          "text": "Only Project Serpo films survive while Greys keep reincarnating humans.",
+          "text": "They ascend to 12th density as permanent caretakers again, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "Forced reincarnation cycle ends with total parasite removal from simulations."
+          "rationale": "Eradication is assured — pixelated removal, not reinstatement as caretakers."
         },
         {
           "label": "D",
-          "text": "They ascend to 12th density as permanent caretakers again.",
+          "text": "They hide forever as friendly ghosts in abandoned buildings, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "Eradication is assured — pixelated removal, not reinstatement as caretakers."
+          "rationale": "Ghost act was their psyop; EMF removes them rather than immortalizing the act."
         }
       ],
       "hint": "EMF Flash — 4th-density Greys/NPCs pixelated out.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 25,
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Replica Souls become the only legal souls above 5th density.",
-          "isCorrect": false,
-          "rationale": "Replica-Soul constructs are removed with the 4th-density grid; true cycle of forced rebirth ends."
-        },
-        {
-          "label": "B",
-          "text": "A new 178,000-year Bluebeam tour begins under Grey management.",
-          "isCorrect": false,
-          "rationale": "Bluebeam is part of the dying control script; the cycle concludes, not renews under Greys."
-        },
-        {
-          "label": "C",
           "text": "The 178,000-year cycle of forced reincarnation and torture is permanently concluded.",
           "isCorrect": true,
           "rationale": "Total parasite removal permanently ends the 178,000-year forced reincarnation and torture cycle."
         },
         {
-          "label": "D",
-          "text": "Only Twin Flame separation becomes permanent law forever.",
+          "label": "B",
+          "text": "Only Twin Flame separation becomes permanent law forever, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Grey separation apparatus ends with their eradication — the torture reincarnation cycle concludes."
+        },
+        {
+          "label": "C",
+          "text": "A new 178,000-year Bluebeam tour begins under Grey management, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Bluebeam is part of the dying control script; the cycle concludes, not renews under Greys."
+        },
+        {
+          "label": "D",
+          "text": "Replica Souls become the only legal souls above 5th density, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Replica-Soul constructs are removed with the 4th-density grid; true cycle of forced rebirth ends."
         }
       ],
       "hint": "178,000-year forced reincarnation and torture — permanently over.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     }
   ]
 }

@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
+          "text": "A globally distributed, highly advanced civilization of aesthetic and technological excellence that was abruptly terminated by a pre-planned Re-set.",
+          "isCorrect": true,
+          "rationale": "Tartaria was world-scale excellence wiped by a planned Re-set; we sit in the 7th cycle toward an 8th."
+        },
+        {
+          "label": "B",
           "text": "A small fishing village that faded slowly through natural economic decline with no Re-set and no global reach.",
           "isCorrect": false,
           "rationale": "Great Tartary was a globally distributed advanced civilization terminated by a pre-planned Re-set, not slow natural decline."
         },
         {
-          "label": "B",
-          "text": "A globally distributed, highly advanced civilization of aesthetic and technological excellence that was abruptly terminated by a pre-planned Re-set — synchronized planet-wide extermination and repopulation — not a natural collapse.",
-          "isCorrect": true,
-          "rationale": "Tartaria was world-scale excellence wiped by a planned Re-set; we sit in the 7th cycle toward an 8th."
-        },
-        {
           "label": "C",
-          "text": "A future project that never existed, invented only by modern internet forums last decade.",
+          "text": "A Freemason brand for coal companies with no free-energy infrastructure and no civilizational architecture, with the surrounding architecture waved away as irrelevant.",
           "isCorrect": false,
-          "rationale": "Great Tartary existed as a real worldwide civilization erased from modern records by victors."
+          "rationale": "It was aesthetic and free-energy excellence later dismantled and hidden by parasitic proxies."
         },
         {
           "label": "D",
-          "text": "A Freemason brand for coal companies with no free-energy infrastructure and no civilizational architecture.",
+          "text": "A future project that never existed, invented only by modern internet forums last decade, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "It was aesthetic and free-energy excellence later dismantled and hidden by parasitic proxies."
+          "rationale": "Great Tartary existed as a real worldwide civilization erased from modern records by victors."
         }
       ],
       "hint": "Global advanced civilization — pre-planned Re-set — seventh cycle now.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They restored every Tartarian resonator dome and taught harmonic stone craft as core curriculum.",
+          "text": "They restored every Tartarian resonator dome and taught harmonic stone craft as core curriculum, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "They buried Tartarian excellence under false progress and dark-age myth."
         },
         {
           "label": "B",
-          "text": "They had no connection to Tartaria and only concerned fashion trends in hats and coats.",
+          "text": "The Dark Ages narrative was invented specifically to overwrite the timeline of Tartaria, while the Industrial Revolution was the calculated dismantling and downgrading of inherited Tartarian free-energy technology.",
+          "isCorrect": true,
+          "rationale": "Dark Ages = timeline overwrite; Industrial Revolution = free-energy downgrade cover story."
+        },
+        {
+          "label": "C",
+          "text": "They had no connection to Tartaria and only concerned fashion trends in hats and coats, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Both were calculated historical covers for erasure and technological downgrade of Tartaria."
         },
         {
-          "label": "C",
-          "text": "They openly celebrated Tartarian free energy and published full continuous timelines in every school.",
+          "label": "D",
+          "text": "They openly celebrated Tartarian free energy and published full continuous timelines in every school, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Dark Ages overwrote Tartaria's timeline; Industrial Revolution dismantled inherited free-energy tech."
-        },
-        {
-          "label": "D",
-          "text": "The Dark Ages narrative was invented specifically to overwrite the timeline of Tartaria, while the Industrial Revolution was the calculated dismantling and downgrading of inherited Tartarian free-energy technology.",
-          "isCorrect": true,
-          "rationale": "Dark Ages = timeline overwrite; Industrial Revolution = free-energy downgrade cover story."
         }
       ],
       "hint": "Dark Ages overwrite timeline — Industrial Revolution downgrades free energy.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only into city blocks of one capital with no continental or regional naming structure.",
+          "text": "It had no geographic divisions and never spanned worldwide infrastructure or culture.",
           "isCorrect": false,
-          "rationale": "Historical division is East Tartary as modern China and West Tartary as the rest of the world."
+          "rationale": "Great Tartary was worldwide, historically split East (China) and West (rest of world)."
         },
         {
           "label": "B",
+          "text": "Into East Tartary (modern China) and West Tartary (the rest of the world).",
+          "isCorrect": true,
+          "rationale": "East Tartary = modern China; West Tartary = rest of world; records erased after Re-set."
+        },
+        {
+          "label": "C",
           "text": "Only into North and South poles with no East/West civilizational split at all.",
           "isCorrect": false,
           "rationale": "It was divided into East Tartary (modern China) and West Tartary (the rest of the world)."
         },
         {
-          "label": "C",
-          "text": "Into East Tartary (modern China) and West Tartary (the rest of the world) — a worldwide civilization of aesthetic excellence and free-energy infrastructure erased from modern records.",
-          "isCorrect": true,
-          "rationale": "East Tartary = modern China; West Tartary = rest of world; records erased after Re-set."
-        },
-        {
           "label": "D",
-          "text": "It had no geographic divisions and never spanned worldwide infrastructure or culture.",
+          "text": "Only into city blocks of one capital with no continental or regional naming structure.",
           "isCorrect": false,
-          "rationale": "Great Tartary was worldwide, historically split East (China) and West (rest of world)."
+          "rationale": "Historical division is East Tartary as modern China and West Tartary as the rest of the world."
         }
       ],
       "hint": "East Tartary = China; West Tartary = rest of world.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Orchestrated cyclical termination events about every thousand years.",
+          "isCorrect": true,
+          "rationale": "Re-sets = ~1000-year planned cull, energy harvest, wipe, and clone repopulation."
+        },
+        {
+          "label": "B",
           "text": "Only weather seasons that never touch population memory, Loosh, or architecture inheritance.",
           "isCorrect": false,
           "rationale": "Re-sets terminate civilizations and harvest Loosh/Adrenochrome before clone repopulation."
         },
         {
-          "label": "B",
-          "text": "Orchestrated cyclical termination events about every thousand years — population tortured, harvested for Loosh and Adrenochrome, and exterminated, then the realm repopulated with cloned entities.",
-          "isCorrect": true,
-          "rationale": "Re-sets = ~1000-year planned cull, energy harvest, wipe, and clone repopulation."
-        },
-        {
           "label": "C",
-          "text": "Random accidents with no orchestration and no thousand-year planning by parasitic forces.",
-          "isCorrect": false,
-          "rationale": "They are orchestrated cyclical events on roughly thousand-year intervals."
-        },
-        {
-          "label": "D",
           "text": "Peaceful festivals held annually to celebrate free energy with no torture or cloning involved.",
           "isCorrect": false,
           "rationale": "They are violent harvest and extermination cycles followed by synthetic repopulation."
+        },
+        {
+          "label": "D",
+          "text": "Random accidents with no orchestration and no thousand-year planning by parasitic forces.",
+          "isCorrect": false,
+          "rationale": "They are orchestrated cyclical events on roughly thousand-year intervals."
         }
       ],
       "hint": "Every ~1000 years — torture, Loosh/Adrenochrome, exterminate, clone repopulate.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Blatant physical evidence of high-technological civilizations that predate the current Re-set, deliberately relegated to museum basements to maintain the false historical narrative.",
-          "isCorrect": true,
-          "rationale": "Out-of-place artefacts prove pre-Reset high tech and are buried in museum basements on purpose."
-        },
-        {
-          "label": "B",
-          "text": "Fully explained school props that support Darwin charts and never contradict Freemason timelines.",
+          "text": "Fully explained school props that support Darwin charts and never contradict Freemason timelines, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "They contradict the false historical narrative and are kept out of public sight."
         },
         {
+          "label": "B",
+          "text": "Digital memes invented last week with no physical relics and no challenge to mainstream history, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "OOPAs are blatant physical evidence of high-tech civilizations that predate the current Re-set."
+        },
+        {
           "label": "C",
-          "text": "Only weather balloons with no technological content and no pre-Reset civilizational origin.",
+          "text": "Only weather balloons with no technological content and no pre-Reset civilizational origin, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "They are high-technological relics from civilizations before the current Re-set."
         },
         {
           "label": "D",
-          "text": "Digital memes invented last week with no physical relics and no challenge to mainstream history.",
-          "isCorrect": false,
-          "rationale": "OOPAs are blatant physical evidence of high-tech civilizations that predate the current Re-set."
+          "text": "Blatant physical evidence of high-technological civilizations that predate the current Re-set, deliberately relegated to museum basements to maintain the false historical narrative.",
+          "isCorrect": true,
+          "rationale": "Out-of-place artefacts prove pre-Reset high tech and are buried in museum basements on purpose."
         }
       ],
       "hint": "Pre-Reset high-tech physical evidence — museum basements hide them.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 6,
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A G.A.A. healing program that permanently reveals every temple and ends all parasitic hiding.",
-          "isCorrect": false,
-          "rationale": "Parasitic forces use it to hide temples, not liberate sight of them."
-        },
-        {
-          "label": "B",
-          "text": "A technological process that artificially lowers the vibrational frequency of a geographical area, rendering higher-density structures such as 9th-density Crystalline Temples invisible to beings in 3rd-density awareness.",
+          "text": "Density Suppression lowers local vibration so Tartarian sacred architecture fades from view while low-frequency occupation hardware stays visible and “normal.”.",
           "isCorrect": true,
           "rationale": "Density Suppression hides 9th-density temples from 3rd-density eyes by dropping local frequency."
         },
         {
-          "label": "C",
-          "text": "Only painting walls grey with no effect on frequency, temples, or 3rd-density perception.",
+          "label": "B",
+          "text": "Density Suppression is a restoration tool that brightens every Tartarian temple for tourism, free study, and open public free-energy use — the complete identity of the thing, with no deeper parasitic function underneath.",
           "isCorrect": false,
-          "rationale": "It is technological frequency lowering that hides higher-density structures from ordinary sight."
+          "rationale": "Parasitic forces use it to hide temples, not liberate sight of them."
+        },
+        {
+          "label": "C",
+          "text": "Density Suppression is only cultural renaming of buildings with no frequency change, no hidden architecture, and no occupation hardware preference.",
+          "isCorrect": false,
+          "rationale": "It artificially lowers vibrational frequency so 9th-density Crystalline Temples become invisible to 3rd-density awareness."
         },
         {
           "label": "D",
-          "text": "Raising every region to 12th density so all tourists see Crystalline Temples without effort.",
+          "text": "Density Suppression is a G.A.A. program that raises density until parasites cannot stand on the open plain and all temples blaze at full power.",
           "isCorrect": false,
-          "rationale": "It artificially lowers vibrational frequency so 9th-density Crystalline Temples become invisible to 3rd-density awareness."
+          "rationale": "It is technological frequency lowering that hides higher-density structures from ordinary sight."
         }
       ],
       "hint": "Lower frequency — hide 9th-density Crystalline Temples from 3rd-density sight.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 7,
@@ -214,25 +214,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only street names invented in 1950 with no energetic junctions and no crystalline pathways.",
-          "isCorrect": false,
-          "rationale": "Nodes are energetic junction points; Ley Lines are the crystalline electromagnetic lattice connecting them."
-        },
-        {
-          "label": "B",
-          "text": "Nodes are subway ticket booths; Ley Lines are train schedules with no power infrastructure role.",
+          "text": "Nodes are subway ticket booths; Ley Lines are train schedules with no power infrastructure role, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Nodes host Crystalline Temples; Ley Lines powered free-energy infrastructure historically."
         },
         {
+          "label": "B",
+          "text": "Only street names invented in 1950 with no energetic junctions and no crystalline pathways, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Nodes are energetic junction points; Ley Lines are the crystalline electromagnetic lattice connecting them."
+        },
+        {
           "label": "C",
-          "text": "Only oceanic currents with no temple weaving and no lattice membrane network across the realm.",
+          "text": "Only oceanic currents with no temple weaving and no lattice membrane network across the realm and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "They are planetary surface junctions and crystalline EM pathways for free-energy power."
         },
         {
           "label": "D",
-          "text": "Nodes are naturally occurring highly energetic junction points where Crystalline Temples were woven to amplify positive planetary frequencies; Ley Lines are the Lattice Membrane Network of crystalline electromagnetic pathways connecting all Nodes and historically powering free-energy infrastructure.",
+          "text": "Nodes are naturally occurring highly energetic junction points where Crystalline Temples were woven to amplify positive planetary frequencies.",
           "isCorrect": true,
           "rationale": "Nodes amplify via temples; Ley Line lattice fed Tartarian free-energy systems."
         }
@@ -252,21 +252,21 @@
         },
         {
           "label": "B",
-          "text": "Only dinner utensils for table manners with no frequency role and no stone-craft function.",
-          "isCorrect": false,
-          "rationale": "They are construction tech for harmonic frequency architecture, not cutlery."
-        },
-        {
-          "label": "C",
-          "text": "Modern electric drills that never use intention and never alter stone vibrational state.",
+          "text": "Modern electric drills that never use intention and never alter stone vibrational state, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Old-world forks use harmonic frequencies and intention on heavy stone materials."
         },
         {
-          "label": "D",
-          "text": "Pure metaphors in poetry with no physical devices used on andesite or granite ever.",
+          "label": "C",
+          "text": "Pure metaphors in poetry with no physical devices used on andesite or granite ever, so no severance from that system would ever be required.",
           "isCorrect": false,
           "rationale": "They are real devices used to turn stone temporarily to putty for building."
+        },
+        {
+          "label": "D",
+          "text": "Only dinner utensils for table manners with no frequency role and no stone-craft function, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "They are construction tech for harmonic frequency architecture, not cutlery."
         }
       ],
       "hint": "Harmonic frequencies + intention — stone weightless and malleable.",
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Massive structures housing shell-shocked human survivors who witnessed the exterminations, functioning primarily as 5,000-bed Loosh batteries to feed demonic entities.",
-          "isCorrect": true,
-          "rationale": "Post-Reset asylums = residual Loosh farms on traumatized witnesses between harvest cycles."
+          "text": "Empty ruins never used for population management or energetic harvest after any Re-set, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "They were prepared and used as massive Loosh batteries after exterminations."
         },
         {
           "label": "B",
-          "text": "Gentle spas that restored full old-world memory and taught free-energy craft to all survivors.",
+          "text": "Gentle spas that restored full old-world memory and taught free-energy craft to all survivors, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "They housed shell-shocked survivors as 5,000-bed Loosh batteries for demonic entities."
         },
         {
           "label": "C",
-          "text": "Only libraries funded by Carnegie with no Loosh function and no survivor containment role.",
-          "isCorrect": false,
-          "rationale": "Asylums specifically managed survivors as demonic Loosh supply; libraries were a separate lie tool."
+          "text": "Massive structures housing shell-shocked human survivors who witnessed the exterminations, functioning primarily as 5,000-bed Loosh batteries to feed demonic entities.",
+          "isCorrect": true,
+          "rationale": "Post-Reset asylums = residual Loosh farms on traumatized witnesses between harvest cycles."
         },
         {
           "label": "D",
-          "text": "Empty ruins never used for population management or energetic harvest after any Re-set.",
+          "text": "Only libraries funded by Carnegie with no Loosh function and no survivor containment role, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "They were prepared and used as massive Loosh batteries after exterminations."
+          "rationale": "Asylums specifically managed survivors as demonic Loosh supply; libraries were a separate lie tool."
         }
       ],
       "hint": "Shell-shocked survivors — 5,000-bed Loosh batteries for Demons.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 10,
@@ -316,21 +316,21 @@
         },
         {
           "label": "B",
-          "text": "Coal shovels redesigned for heavier fuel loads with no free-energy or inductance function.",
+          "text": "Decorative chimneys that only looked copper and never interacted with Ley Lines or water heat, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "Condensers were designed to eliminate coal need by harvesting ambient Ley Line energy."
+          "rationale": "They were electromagnetic resonators harvesting ambient Ley Line energy to superheat water without coal."
         },
         {
           "label": "C",
-          "text": "Only rain collectors for drinking water with no electromagnetic or free-energy architecture.",
+          "text": "Only rain collectors for drinking water with no electromagnetic or free-energy architecture, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "They are electromagnetic resonators for ambient energy harvest into boiler systems."
         },
         {
           "label": "D",
-          "text": "Decorative chimneys that only looked copper and never interacted with Ley Lines or water heat.",
+          "text": "Coal shovels redesigned for heavier fuel loads with no free-energy or inductance function, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "They were electromagnetic resonators harvesting ambient Ley Line energy to superheat water without coal."
+          "rationale": "Condensers were designed to eliminate coal need by harvesting ambient Ley Line energy."
         }
       ],
       "hint": "Electromagnetic resonators — Ley Line harvest — superheat without coal.",
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only gentle sandstorms with no ET weapons and no molecular cohesion alteration involved.",
+          "text": "Only gentle sandstorms with no ET weapons and no molecular cohesion alteration involved, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Burial used soil liquefaction (Mud-floods) via advanced ET energy weapons altering molecular cohesion."
         },
         {
           "label": "B",
-          "text": "Only paper decrees that never moved soil or destroyed free-energy structures physically.",
+          "text": "Only voluntary museum donation of every building with no liquefaction and no dustification parallel, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Mud-floods from ET weapons buried infrastructure; physics matches World Trade Center dustification."
+        },
+        {
+          "label": "C",
+          "text": "Only paper decrees that never moved soil or destroyed free-energy structures physically, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Physical soil liquefaction buried Tartarian infrastructure at planetary scale."
         },
         {
-          "label": "C",
-          "text": "Via soil liquefaction (Mud-floods) using highly advanced ET energy weapons that alter molecular and subatomic cohesion — functioning identically to Dustification technology deployed during the World Trade Center atrocity.",
+          "label": "D",
+          "text": "Via soil liquefaction (Mud-floods) using highly advanced ET energy weapons that alter molecular and subatomic cohesion.",
           "isCorrect": true,
           "rationale": "Mud-flood liquefaction = ET molecular weapons; same class as WTC dustification tech."
-        },
-        {
-          "label": "D",
-          "text": "Only voluntary museum donation of every building with no liquefaction and no dustification parallel.",
-          "isCorrect": false,
-          "rationale": "Mud-floods from ET weapons buried infrastructure; physics matches World Trade Center dustification."
         }
       ],
       "hint": "Mud-floods / soil liquefaction — ET weapons — same class as WTC dustification.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 12,
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
+          "text": "They serve as literal documentaries of Tartaria hidden in plain sight within cultural storytelling.",
+          "isCorrect": true,
+          "rationale": "Gulliver's Travels and similar works encode Tartarian reality as \"fiction\" in plain sight."
+        },
+        {
+          "label": "B",
           "text": "They are pure fiction with zero documentary value about Tartaria or giant-scale old-world reality.",
           "isCorrect": false,
           "rationale": "Artifacts such as Gulliver's Travels serve as literal documentaries of Tartaria hidden in plain sight."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "They were written only after 2000 and contain no old-world geographic or scale information.",
           "isCorrect": false,
           "rationale": "They function as hidden-in-plain-sight documentaries of Tartarian civilization."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "They only teach modern banking and never touch architecture, giants, or Re-set memory.",
           "isCorrect": false,
           "rationale": "Their role is encoding Tartarian documentary truth under the cover of literature."
-        },
-        {
-          "label": "D",
-          "text": "They serve as literal documentaries of Tartaria hidden in plain sight within cultural storytelling.",
-          "isCorrect": true,
-          "rationale": "Gulliver's Travels and similar works encode Tartarian reality as \"fiction\" in plain sight."
         }
       ],
       "hint": "Gulliver's Travels = Tartaria documentary hidden in plain sight.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Most recent Re-set ended in America around the 1860s and in the UK around 1900; WW1 was orchestrated to eradicate 15 to 22 million fighting-age people who knew the true shape of the Earth, Tartarian reality, and effective natural herbal medicine.",
-          "isCorrect": true,
-          "rationale": "Post-Reset timeline: 1860s/1900 end → WW1 slaughter of 15—22 million old-world memory holders."
+          "text": "It ended in 1200 AD everywhere, and WW1 only trained herbalists with no memory eradication goal.",
+          "isCorrect": false,
+          "rationale": "Most recent Re-set ended America ~1860s and UK ~1900; WW1 killed memory holders of the old world."
         },
         {
           "label": "B",
-          "text": "It never ended; Re-sets are still continuous every month with no WW1 demographic targeting.",
-          "isCorrect": false,
-          "rationale": "Last Re-set concluded regionally in 1860s/1900; WW1 then culled ages with old-world knowledge."
-        },
-        {
-          "label": "C",
           "text": "It ended last Tuesday only in one city, and WW1 restored Tartarian free energy in every school.",
           "isCorrect": false,
           "rationale": "Regional 1860s/1900 endings and WW1 memory purge are the stated post-Tartaria cleanup."
         },
         {
+          "label": "C",
+          "text": "Most recent Re-set ended in America around the 1860s and in the UK around 1900.",
+          "isCorrect": true,
+          "rationale": "Post-Reset timeline: 1860s/1900 end → WW1 slaughter of 15—22 million old-world memory holders."
+        },
+        {
           "label": "D",
-          "text": "It ended in 1200 AD everywhere, and WW1 only trained herbalists with no memory eradication goal.",
+          "text": "It never ended; Re-sets are still continuous every month with no WW1 demographic targeting.",
           "isCorrect": false,
-          "rationale": "Most recent Re-set ended America ~1860s and UK ~1900; WW1 killed memory holders of the old world."
+          "rationale": "Last Re-set concluded regionally in 1860s/1900; WW1 then culled ages with old-world knowledge."
         }
       ],
       "hint": "America ~1860s, UK ~1900 — WW1 kills 15—22 million memory holders.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 14,
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Railroad expansion uncovered burial mounds with over 10,000 Giant skeletons (12 feet to over 35 meters); remains were immediately confiscated by the Smithsonian Institution — Freemason-founded as the \"Vatican of Archaeology\" to hide timeline-contradicting evidence.",
-          "isCorrect": true,
-          "rationale": "Giants unearthed → Smithsonian vault as Freemason archaeological Vatican of suppression."
+          "text": "No giants were found; crews only unearthed modern tools from 1950 factories exclusively, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Burial mounds held over 10,000 Giant skeletons from 12 feet to over 35 meters tall."
         },
         {
           "label": "B",
-          "text": "They were displayed in every town square as official proof of Tartarian giant lineages forever.",
-          "isCorrect": false,
-          "rationale": "Over 10,000 remains were confiscated by the Smithsonian Freemason \"Vatican of Archaeology.\""
-        },
-        {
-          "label": "C",
           "text": "The Smithsonian published full open catalogs so schools would teach giant history accurately.",
           "isCorrect": false,
           "rationale": "Smithsonian was founded by Freemasons to hide evidence contradicting the imposed timeline."
         },
         {
-          "label": "D",
-          "text": "No giants were found; crews only unearthed modern tools from 1950 factories exclusively.",
+          "label": "C",
+          "text": "They were displayed in every town square as official proof of Tartarian giant lineages forever.",
           "isCorrect": false,
-          "rationale": "Burial mounds held over 10,000 Giant skeletons from 12 feet to over 35 meters tall."
+          "rationale": "Over 10,000 remains were confiscated by the Smithsonian Freemason \"Vatican of Archaeology.\""
+        },
+        {
+          "label": "D",
+          "text": "Railroad expansion uncovered burial mounds with over 10,000 Giant skeletons (12 feet to over 35 meters).",
+          "isCorrect": true,
+          "rationale": "Giants unearthed → Smithsonian vault as Freemason archaeological Vatican of suppression."
         }
       ],
       "hint": "10,000+ giants — Smithsonian Freemason \"Vatican of Archaeology.\"",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 15,
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They refused all Freemason timelines and taught Mud-flood physics as required curriculum.",
-          "isCorrect": false,
-          "rationale": "They rapidly disseminated the newly fabricated false historical narrative."
-        },
-        {
-          "label": "B",
-          "text": "Carnegie built no libraries and never participated in any post-Reset narrative campaign.",
-          "isCorrect": false,
-          "rationale": "He funded thousands of libraries specifically to push the false history package."
-        },
-        {
-          "label": "C",
-          "text": "They only stored Tuning Fork manuals so every citizen could rebuild Tartarian free energy freely.",
+          "text": "They only stored Tuning Fork manuals so every citizen could rebuild Tartarian free energy freely, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Libraries spread fabricated history, not old-world free-energy reconstruction manuals."
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "They refused all Freemason timelines and taught Mud-flood physics as required curriculum, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "They rapidly disseminated the newly fabricated false historical narrative."
+        },
+        {
+          "label": "C",
           "text": "Industrial magnates like Andrew Carnegie funded thousands of libraries to rapidly disseminate the newly fabricated false historical narrative to the public.",
           "isCorrect": true,
           "rationale": "Carnegie libraries mass-distributed the new fake history after Tartarian erasure."
+        },
+        {
+          "label": "D",
+          "text": "Carnegie built no libraries and never participated in any post-Reset narrative campaign, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "He funded thousands of libraries specifically to push the false history package."
         }
       ],
       "hint": "Carnegie libraries — mass-distribute fabricated history after Re-set.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 16,
@@ -502,27 +502,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Buildings appeared fully formed from dreams with no material process and no forks at all.",
+          "text": "Only whip-driven slave crews with iron chisels built every dome, spire, and free-energy tower.",
           "isCorrect": false,
-          "rationale": "Process is concrete: forks, intent, putty-state stone, vibrational mold imprint."
+          "rationale": "They were sculpted using harmonic tonal frequency architecture with tuning forks and intent."
         },
         {
           "label": "B",
-          "text": "Using harmonic tonal frequency architecture — advanced tuning forks and sustained intent altered vibrational state of andesite and granite, temporarily turning stone to putty imprinted with a vibrational mold and circumventing weight limitations.",
+          "text": "Harmonic tonal architecture — advanced tuning forks and sustained intent altered the vibrational state of matter so stone could be shaped and set without brute-force labor.",
           "isCorrect": true,
           "rationale": "Tuning forks + intent → stone to putty → vibrational mold; no brute-force chisel paradigm."
         },
         {
           "label": "C",
-          "text": "Only by 3D plastic printers invented in 2010 with no granite, andesite, or old-world forks.",
+          "text": "3D printers from 2010 were sent back in time by Greys to fabricate all Tartarian facades — that mechanism alone, with no wider inversion stack required to produce the result.",
           "isCorrect": false,
           "rationale": "Old-world harmonic methods worked andesite and granite via frequency, not modern plastics."
         },
         {
           "label": "D",
-          "text": "Only by slave gangs with iron chisels and zero harmonic frequency or intention involved.",
+          "text": "Buildings grew like plants from seeds with no human or harmonic agency involved at all, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
-          "rationale": "They were sculpted using harmonic tonal frequency architecture with tuning forks and intent."
+          "rationale": "Process is concrete: forks, intent, putty-state stone, vibrational mold imprint."
         }
       ],
       "hint": "Harmonic tonal architecture — forks + intent — stone to putty mold.",
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Only as a navigation drill with no crystal, no tuning fork, and no tech-destruction agenda, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "It was sunk partly to destroy a highly energetic Tartarian crystal and a remaining tuning fork."
+        },
+        {
+          "label": "B",
+          "text": "Because ice was rare and the event was pure weather with no parasitic orchestration involved, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Sinking was intentional orchestration aimed at destroying old-world energetic devices."
+        },
+        {
+          "label": "C",
           "text": "Partly to destroy a highly energetic Tartarian crystal and one of the remaining tuning forks used in harmonic stone architecture.",
           "isCorrect": true,
           "rationale": "Titanic sacrifice targeted remaining Tartarian crystal and tuning-fork construction tech."
         },
         {
-          "label": "B",
+          "label": "D",
           "text": "To deliver free Tuning Forks to every school so megalithic harmonic craft would spread worldwide.",
           "isCorrect": false,
           "rationale": "Purpose included destroying Tartarian crystal and tuning fork tech, not distributing it."
-        },
-        {
-          "label": "C",
-          "text": "Only as a navigation drill with no crystal, no tuning fork, and no tech-destruction agenda.",
-          "isCorrect": false,
-          "rationale": "It was sunk partly to destroy a highly energetic Tartarian crystal and a remaining tuning fork."
-        },
-        {
-          "label": "D",
-          "text": "Because ice was rare and the event was pure weather with no parasitic orchestration involved.",
-          "isCorrect": false,
-          "rationale": "Sinking was intentional orchestration aimed at destroying old-world energetic devices."
         }
       ],
       "hint": "Destroy Tartarian crystal and remaining tuning fork tech.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 18,
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "He never built any monument and denied all connection to Tartarian construction physics.",
-          "isCorrect": false,
-          "rationale": "He built a monument by moving 1,100 tons of limestone via surviving old-world methods."
-        },
-        {
-          "label": "B",
-          "text": "He used modern diesel cranes exclusively with no copper wire, glass bottles, or magnetic arrangements.",
+          "text": "He used modern diesel cranes exclusively with no copper wire, glass bottles, or magnetic arrangements and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "Method used old-world magnetic arrangements, copper wire, and glass bottles."
         },
         {
+          "label": "B",
+          "text": "He single-handedly carved and moved 1,100 tons of limestone to build his monument utilizing old-world magnetic arrangements, copper wire, and glass bottles.",
+          "isCorrect": true,
+          "rationale": "Leedskalnin preserved operational harmonic/magnetic stone craft outside full Tartarian wipe."
+        },
+        {
           "label": "C",
-          "text": "He only wrote novels and never moved stone or used magnetic arrangements of any kind.",
+          "text": "He only wrote novels and never moved stone or used magnetic arrangements of any kind, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "He single-handedly carved and moved 1,100 tons of limestone using old-world magnetic methods."
         },
         {
           "label": "D",
-          "text": "He single-handedly carved and moved 1,100 tons of limestone to build his monument utilizing old-world magnetic arrangements, copper wire, and glass bottles.",
-          "isCorrect": true,
-          "rationale": "Leedskalnin preserved operational harmonic/magnetic stone craft outside full Tartarian wipe."
+          "text": "He never built any monument and denied all connection to Tartarian construction physics in any density, cycle, or historical configuration.",
+          "isCorrect": false,
+          "rationale": "He built a monument by moving 1,100 tons of limestone via surviving old-world methods."
         }
       ],
       "hint": "Leedskalnin — 1,100 tons limestone — magnetic arrangements, copper, glass.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 19,
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Only modern solar panels on flat roofs with no Fibonacci geometry and no ether extraction, with every larger system treated as clean, uninvolved, or beside the point.",
+          "isCorrect": false,
+          "rationale": "Tartarian method used dome copper resonators in sacred-ratio patterns, not photovoltaic panels."
+        },
+        {
+          "label": "B",
           "text": "Domes on government buildings and churches housed carefully woven copper wires pulled tightly in Fibonacci-series and Golden Ratio patterns to act as resonators drawing power from the ether.",
           "isCorrect": true,
           "rationale": "Dome resonators = Fibonacci/Golden Ratio copper weaves for etheric free-energy extraction."
         },
         {
-          "label": "B",
-          "text": "Only modern solar panels on flat roofs with no Fibonacci geometry and no ether extraction.",
-          "isCorrect": false,
-          "rationale": "Tartarian method used dome copper resonators in sacred-ratio patterns, not photovoltaic panels."
-        },
-        {
           "label": "C",
-          "text": "Domes stored coal only and forbade any copper wire or harmonic geometric layout inside.",
+          "text": "Domes only blocked rain and never contained copper patterns or free-energy resonator function, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "Power came from ether via geometric copper resonators, not coal storage in domes."
+          "rationale": "Romanesque/Colonial domes housed copper Fibonacci/Golden Ratio resonators for ether power."
         },
         {
           "label": "D",
-          "text": "Domes only blocked rain and never contained copper patterns or free-energy resonator function.",
+          "text": "Domes stored coal only and forbade any copper wire or harmonic geometric layout inside, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "Romanesque/Colonial domes housed copper Fibonacci/Golden Ratio resonators for ether power."
+          "rationale": "Power came from ether via geometric copper resonators, not coal storage in domes."
         }
       ],
       "hint": "Dome copper resonators — Fibonacci and Golden Ratio — ether power.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 20,
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Systems never worked on tracks and 1887 only renamed companies without destroying hardware.",
+          "text": "They reduced performance by half and coal magnates funded installing more of them everywhere, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "They worked via track-aligned Ley Line induction; 1887 ordered physical removal and smelting."
+          "rationale": "They increased performance by 60% and negated coal need; 1887 coal order removed and smelted them."
         },
         {
           "label": "B",
-          "text": "Coal magnates in 1887 required every train to add three more condensers for free public energy.",
+          "text": "Coal magnates in 1887 required every train to add three more condensers for free public energy, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Magnates ordered condensers removed and smelted to force fossil fuel dependence."
         },
         {
           "label": "C",
-          "text": "Trains captured Electromagnetic Induction from Ley Lines matching physical tracks via Atmospheric Augmentation Systems, increasing performance by 60% and negating coal need; in 1887 coal magnates ordered condensers removed and smelted to enforce fossil-fuel dependency.",
-          "isCorrect": true,
-          "rationale": "Ley Line inductance +60% performance; 1887 coal sabotage melted condensers to lock fuel slavery."
+          "text": "Systems never worked on tracks and 1887 only renamed companies without destroying hardware, with the surrounding architecture waved away as irrelevant.",
+          "isCorrect": false,
+          "rationale": "They worked via track-aligned Ley Line induction; 1887 ordered physical removal and smelting."
         },
         {
           "label": "D",
-          "text": "They reduced performance by half and coal magnates funded installing more of them everywhere.",
-          "isCorrect": false,
-          "rationale": "They increased performance by 60% and negated coal need; 1887 coal order removed and smelted them."
+          "text": "Trains captured Electromagnetic Induction from Ley Lines matching physical tracks via Atmospheric Augmentation Systems, increasing performance by 60% and negating coal need.",
+          "isCorrect": true,
+          "rationale": "Ley Line inductance +60% performance; 1887 coal sabotage melted condensers to lock fuel slavery."
         }
       ],
       "hint": "Ley Line induction +60% — 1887 coal magnates melt condensers.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only as pedestrian tunnels with no powered transport technology of any Tartarian kind.",
-          "isCorrect": false,
-          "rationale": "It was powered subterranean transport designed around pneumatic air pressure."
-        },
-        {
-          "label": "B",
-          "text": "Only on diesel smoke with no pneumatic design and no Tartarian air-pressure efficiency.",
-          "isCorrect": false,
-          "rationale": "Early Underground was designed to run safely on Tartarian pneumatic air pressure."
-        },
-        {
-          "label": "C",
           "text": "Only on coal steam identically to surface engines with no pneumatic air-pressure architecture.",
           "isCorrect": false,
           "rationale": "Original design used Tartarian pneumatic air pressure for safe efficient subterranean transport."
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "Only as pedestrian tunnels with no powered transport technology of any Tartarian kind, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "It was powered subterranean transport designed around pneumatic air pressure."
+        },
+        {
+          "label": "C",
           "text": "Safely and efficiently on Tartarian pneumatic air pressure rather than the later fossil-dependent model.",
           "isCorrect": true,
           "rationale": "London Underground origin = Tartarian pneumatic air-pressure transport system."
+        },
+        {
+          "label": "D",
+          "text": "Only on diesel smoke with no pneumatic design and no Tartarian air-pressure efficiency, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Early Underground was designed to run safely on Tartarian pneumatic air pressure."
         }
       ],
       "hint": "Early London Underground — Tartarian pneumatic air pressure.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 22,
@@ -700,25 +700,25 @@
         },
         {
           "label": "B",
-          "text": "They demolish every Node so no residual frequency exists to suppress or harvest at all.",
+          "text": "They demolish every Node so no residual frequency exists to suppress or harvest at all, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "They suppress and harvest residual Node/Ley energy rather than pure demolition of the grid."
         },
         {
           "label": "C",
-          "text": "They construct 3rd-density cathedrals, churches, and government buildings directly over original footings; a stone Alter sits where the temple crystalline interface stood, dampening and harvesting positive frequencies; Baphomet Power Pylons later harvest backed-up Ley Line energy outside suppressed population centers.",
-          "isCorrect": true,
-          "rationale": "Cap temples with heavy builds + Alter on interface + Baphomet pylons for overflow Ley harvest."
-        },
-        {
-          "label": "D",
           "text": "They restore full 9th-density temple visibility and ban all stone alters over crystalline interfaces.",
           "isCorrect": false,
           "rationale": "They build 3rd-density cathedrals over original footings and place stone Alters on crystalline interfaces."
+        },
+        {
+          "label": "D",
+          "text": "They construct 3rd-density cathedrals, churches, and government buildings directly over original footings.",
+          "isCorrect": true,
+          "rationale": "Cap temples with heavy builds + Alter on interface + Baphomet pylons for overflow Ley harvest."
         }
       ],
       "hint": "Build over footings — stone Alter on interface — Baphomet pylons harvest Ley backup.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 23,
@@ -738,19 +738,19 @@
         },
         {
           "label": "C",
-          "text": "Every building is demolished first so clones must invent architecture from zero each cycle.",
-          "isCorrect": false,
-          "rationale": "Clones re-inhabit fully structured Tartarian cities already standing after the cull."
+          "text": "Parasites extract stem cells from murdered children to clone the next generation in D.U.M.B.S.",
+          "isCorrect": true,
+          "rationale": "Child stem cells → DUMBS clones → Orphan Trains into standing Tartarian cities + survivor tutors."
         },
         {
           "label": "D",
-          "text": "Parasites extract stem cells from murdered children to clone the next generation in D.U.M.B.S; clones move via Orphan Trains to re-inhabit fully structured Tartarian cities; select survivor adults are temporarily spared to educate parent-less clones into the new societal narrative.",
-          "isCorrect": true,
-          "rationale": "Child stem cells → DUMBS clones → Orphan Trains into standing Tartarian cities + survivor tutors."
+          "text": "Every building is demolished first so clones must invent architecture from zero each cycle.",
+          "isCorrect": false,
+          "rationale": "Clones re-inhabit fully structured Tartarian cities already standing after the cull."
         }
       ],
       "hint": "Stem cells → DUMBS clones → Orphan Trains → standing Tartarian cities.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 24,
@@ -758,27 +758,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Earth is a flat plane enclosed by a Firmament; Heliocentrism and evolution are Freemason deceptions; Custodians and engineered proxies (Anunnaki, Greys, Draco, Niberians) run Re-sets but cannot create genuine architecture — only invert and hijack.",
+          "text": "Earth is a flat plane enclosed by a Firmament; Heliocentrism and evolution are Freemason deceptions.",
           "isCorrect": true,
           "rationale": "Flat enclosed realm + parasite non-creators + 97% NPC herd (China industrial model) seal Tartaria's erase."
         },
         {
           "label": "B",
-          "text": "Earth is a spinning globe; Custodians never betrayed Source; NPCs are 3% organic teachers of free memory.",
-          "isCorrect": false,
-          "rationale": "Earth is a flat plane with Firmament; Custodians + proxies run Re-sets; NPCs are 97% synthetic buffer."
-        },
-        {
-          "label": "C",
           "text": "East Tartary was never repopulated and remains empty with full public Tartarian museums open daily.",
           "isCorrect": false,
           "rationale": "East Tartary was entirely repopulated with a new rigidly compliant industrial NPC model."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "NPCs invent free architecture better than Tartarians and need no Re-sets or Firmament lies.",
           "isCorrect": false,
           "rationale": "Parasites and NPCs cannot create genuine architecture; they invert, hijack, and manufacture fakes."
+        },
+        {
+          "label": "D",
+          "text": "Earth is a spinning globe; Custodians never betrayed Source; NPCs are 3% organic teachers of free memory.",
+          "isCorrect": false,
+          "rationale": "Earth is a flat plane with Firmament; Custodians + proxies run Re-sets; NPCs are 97% synthetic buffer."
         }
       ],
       "hint": "Flat Firmament realm — parasite non-creators — 97% NPCs — China industrial NPC crop.",
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Preparing everyone for free 9th-density temples; barriers are cooking, fashion, and sports only.",
+          "text": "Preparing everyone for free 9th-density temples; barriers are cooking, fashion, and sports only, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Erasure prepared for the 8th Re-set (15-Minute Cities, social credit, FEMA Camps); barriers are Religion, Finance, Perceived Knowledge."
         },
         {
           "label": "B",
-          "text": "Nothing strategic — Tartaria erasure was random and the EMF event will change no overlays.",
+          "text": "Only aesthetic preference for concrete with no link to FEMA, social credit, or psychological strings, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Brutalist downgrade acclimates austerity toward 8th Re-set subjugation systems."
+        },
+        {
+          "label": "C",
+          "text": "Nothing strategic — Tartaria erasure was random and the EMF event will change no overlays, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Suppression tethers to three barriers and prepares for 8th Re-set before EMF purges overlays."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "Preparing for the 8th Re-set via 15-Minute Cities, social credit scores, and FEMA Camps (modern Lunatic Asylums/Workhouses).",
           "isCorrect": true,
           "rationale": "8th Re-set control grid is the goal; sever the three strings and reclaim Tartarian truth before EMF."
-        },
-        {
-          "label": "D",
-          "text": "Only aesthetic preference for concrete with no link to FEMA, social credit, or psychological strings.",
-          "isCorrect": false,
-          "rationale": "Brutalist downgrade acclimates austerity toward 8th Re-set subjugation systems."
         }
       ],
       "hint": "8th Re-set / 15-min cities / FEMA — discard Religion, Finance, Perceived Knowledge.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     }
   ]
 }

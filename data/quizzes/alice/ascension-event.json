@@ -22,9 +22,9 @@
       "options": [
         {
           "label": "A",
-          "text": "30 seconds",
-          "isCorrect": true,
-          "rationale": "The Flash is characterized as a precise, 30-second burst of blinding white light that clears the planetary field."
+          "text": "12 hours",
+          "isCorrect": false,
+          "rationale": "The energetic shift is much more rapid than a half-day cycle, designed for immediate structural dissolution."
         },
         {
           "label": "B",
@@ -34,19 +34,19 @@
         },
         {
           "label": "C",
-          "text": "12 hours",
-          "isCorrect": false,
-          "rationale": "The energetic shift is much more rapid than a half-day cycle, designed for immediate structural dissolution."
-        },
-        {
-          "label": "D",
           "text": "3 days",
           "isCorrect": false,
           "rationale": "While 'three days of darkness' is a common spiritual trope, it does not align with the rapid 30-second mechanic of the EMF."
+        },
+        {
+          "label": "D",
+          "text": "30 seconds",
+          "isCorrect": true,
+          "rationale": "The Flash is characterized as a precise, 30-second burst of blinding white light that clears the planetary field."
         }
       ],
       "hint": "Consider the timeframe of a sudden, blinding flash of light.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 2,
@@ -66,15 +66,15 @@
         },
         {
           "label": "C",
-          "text": "Taran Souls",
-          "isCorrect": false,
-          "rationale": "These souls represent the surviving original consciousnesses of the planet, not the hive-aligned replicas."
-        },
-        {
-          "label": "D",
           "text": "The Custodians.",
           "isCorrect": false,
           "rationale": "This group refers to the fallen controllers rather than the bulk of the artificial population."
+        },
+        {
+          "label": "D",
+          "text": "Taran Souls",
+          "isCorrect": false,
+          "rationale": "These souls represent the surviving original consciousnesses of the planet, not the hive-aligned replicas."
         }
       ],
       "hint": "Focus on the term used for hive-aligned replica souls.",
@@ -92,21 +92,21 @@
         },
         {
           "label": "B",
-          "text": "To test the physical endurance of the human body.",
+          "text": "To test the physical endurance of the human body, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "The focus is on psychological and spiritual safeguarding rather than mere biological testing."
         },
         {
           "label": "C",
-          "text": "To provide an excuse for a military takeover.",
+          "text": "To punish those who refused to awaken, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "This perspective relies on third-density political paradigms which are revealed as illusions during the event."
+          "rationale": "The events are a functional necessity for soul-development rather than a form of moral or religious punishment."
         },
         {
           "label": "D",
-          "text": "To punish those who refused to awaken.",
+          "text": "To provide an excuse for a military takeover, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "The events are a functional necessity for soul-development rather than a form of moral or religious punishment."
+          "rationale": "This perspective relies on third-density political paradigms which are revealed as illusions during the event."
         }
       ],
       "hint": "Think about the long-term protection of the soul's integrity.",
@@ -124,25 +124,25 @@
         },
         {
           "label": "B",
-          "text": "Systemic atrocities and child sacrifices committed by the world's elite.",
-          "isCorrect": true,
-          "rationale": "The broadcast is meant to shatter the illusion of a benevolent religious or systemic reality through undeniable exposure."
-        },
-        {
-          "label": "C",
-          "text": "The arrival of a benevolent alien savior race.",
+          "text": "The arrival of a benevolent alien savior race, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The arrival of 'aliens' is a holographic deception, whereas the EBS exposes the crimes of current earthly controllers."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "The location of the Ice Wall.",
           "isCorrect": false,
           "rationale": "While the Ice Wall is part of the reality, the EBS specifically targets the moral foundations of the control system."
+        },
+        {
+          "label": "D",
+          "text": "Systemic atrocities and child sacrifices committed by the world's elite.",
+          "isCorrect": true,
+          "rationale": "The broadcast is meant to shatter the illusion of a benevolent religious or systemic reality through undeniable exposure."
         }
       ],
       "hint": "What revelation would render the concept of a benevolent deity impossible?",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 5,
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A vacuum of infinite blackness.",
+          "text": "A series of nested firmament domes.",
           "isCorrect": false,
-          "rationale": "This is the third-density scientific paradigm that the Ascension event intentionally dismantles."
+          "rationale": "While a firmament exists, it is the content of the field beyond it that is revealed as light."
         },
         {
           "label": "B",
-          "text": "A holographic projection of the Milky Way.",
-          "isCorrect": false,
-          "rationale": "The holographic projection is what is removed to reveal the true light field."
-        },
-        {
-          "label": "C",
           "text": "A field of blinding white light.",
           "isCorrect": true,
           "rationale": "The sky rips open to reveal that true reality is bright white light, which causes panic in the unawakened."
         },
         {
-          "label": "D",
-          "text": "A series of nested firmament domes.",
+          "label": "C",
+          "text": "A holographic projection of the Milky Way.",
           "isCorrect": false,
-          "rationale": "While a firmament exists, it is the content of the field beyond it that is revealed as light."
+          "rationale": "The holographic projection is what is removed to reveal the true light field."
+        },
+        {
+          "label": "D",
+          "text": "A vacuum of infinite blackness.",
+          "isCorrect": false,
+          "rationale": "This is the third-density scientific paradigm that the Ascension event intentionally dismantles."
         }
       ],
       "hint": "Think about what the 'melting pixelization' eventually reveals.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -214,19 +214,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True",
-          "isCorrect": false,
-          "rationale": "This aligns with the matrix narrative, but the reality is that such weapons are non-existent fictions."
-        },
-        {
-          "label": "B",
           "text": "False",
           "isCorrect": true,
           "rationale": "Nuclear weapons do not exist; the perceived damage is a result of the holographic warfare or misinterpreted energy effects."
+        },
+        {
+          "label": "B",
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "This aligns with the matrix narrative, but the reality is that such weapons are non-existent fictions."
         }
       ],
       "hint": "Review the section on Holographic Warfare and the nature of high-level weaponry.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -234,31 +234,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They became part of the Tonal Frequency Architecture.",
+          "text": "They became part of the Tonal Frequency Architecture, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Tonal architecture refers to the creation of the physical world, not the recycling of souls."
         },
         {
           "label": "B",
-          "text": "They ascended directly to the fifth density.",
-          "isCorrect": false,
-          "rationale": "The vortex was a mechanism of the third-density matrix, not a path to higher evolution."
-        },
-        {
-          "label": "C",
           "text": "Their memories were wiped before being forced into new physical vessels.",
           "isCorrect": true,
           "rationale": "The vortex served as a recycling portal to maintain the cycle of spiritual entrapment."
         },
         {
-          "label": "D",
-          "text": "They were reunited with their Pleiadian families.",
+          "label": "C",
+          "text": "They were reunited with their Pleiadian families, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "The vortex was a trap used to prevent reunion with cosmic families."
+        },
+        {
+          "label": "D",
+          "text": "They ascended directly to the fifth density, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The vortex was a mechanism of the third-density matrix, not a path to higher evolution."
         }
       ],
       "hint": "Consider the purpose of a portal that wipes memories.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -266,15 +266,15 @@
       "options": [
         {
           "label": "A",
-          "text": "520 million",
-          "isCorrect": true,
-          "rationale": "Based on 3 out of every 100 people remaining, the final count settles at 520 million souls."
-        },
-        {
-          "label": "B",
           "text": "8 billion",
           "isCorrect": false,
           "rationale": "This reflects the current matrix population before the mass removal event."
+        },
+        {
+          "label": "B",
+          "text": "520 million",
+          "isCorrect": true,
+          "rationale": "Based on 3 out of every 100 people remaining, the final count settles at 520 million souls."
         },
         {
           "label": "C",
@@ -290,7 +290,7 @@
         }
       ],
       "hint": "This number is calculated as 3% of the current population.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 10,
@@ -298,21 +298,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Polaris",
-          "isCorrect": true,
-          "rationale": "The G.A.A. switches off the projection dome starting from the North Star, Polaris."
-        },
-        {
-          "label": "B",
           "text": "The Sun",
           "isCorrect": false,
           "rationale": "The Sun acts as a portal and vortex, but is not the starting point for sky pixelization."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "The Equator",
           "isCorrect": false,
           "rationale": "The dissolution follows a specific celestial alignment starting from the center of the dome."
+        },
+        {
+          "label": "C",
+          "text": "Polaris",
+          "isCorrect": true,
+          "rationale": "The G.A.A. switches off the projection dome starting from the North Star, Polaris."
         },
         {
           "label": "D",
@@ -322,7 +322,7 @@
         }
       ],
       "hint": "Identify the star that remains fixed at the center of the sky.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 11,
@@ -330,31 +330,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Extraction of materials from the Ice Wall, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The architecture was frequency-based and utilized local planetary nodes."
+        },
+        {
+          "label": "B",
+          "text": "Advanced 3D printing technologies from fourth density, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The architecture was a result of spiritual intention and frequency, not mechanical fabrication."
+        },
+        {
+          "label": "C",
           "text": "Tonal Frequency Architecture physicalized by pure intention.",
           "isCorrect": true,
           "rationale": "Original architecture was generated through frequency interacting with natural nodes and ley lines."
         },
         {
-          "label": "B",
+          "label": "D",
           "text": "Manual labor using heavy stone machinery.",
           "isCorrect": false,
           "rationale": "Traditional construction methods are part of the false historical narrative provided by Freemasonry."
-        },
-        {
-          "label": "C",
-          "text": "Advanced 3D printing technologies from fourth density.",
-          "isCorrect": false,
-          "rationale": "The architecture was a result of spiritual intention and frequency, not mechanical fabrication."
-        },
-        {
-          "label": "D",
-          "text": "Extraction of materials from the Ice Wall.",
-          "isCorrect": false,
-          "rationale": "The architecture was frequency-based and utilized local planetary nodes."
         }
       ],
       "hint": "Look for the method involving sound and conscious intent.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 12,
@@ -362,19 +362,19 @@
       "options": [
         {
           "label": "A",
+          "text": "They are physically protected by the G.A.A, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Ascension is a frequency-based evolution rather than a physical rescue mission."
+        },
+        {
+          "label": "B",
           "text": "They lack the polluting systemic programming of the matrix.",
           "isCorrect": true,
           "rationale": "Because they are not tethered to the 3 Strings, they naturally vibrate at the required frequency for ascension."
         },
         {
-          "label": "B",
-          "text": "They are physically protected by the G.A.A.",
-          "isCorrect": false,
-          "rationale": "Ascension is a frequency-based evolution rather than a physical rescue mission."
-        },
-        {
           "label": "C",
-          "text": "They are actually Pleiadian observers in disguise.",
+          "text": "They are actually Pleiadian observers in disguise, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "While cosmic families exist, children and animals are simply souls free from systemic pollution."
         },
@@ -386,7 +386,7 @@
         }
       ],
       "hint": "Consider the effect of societal conditioning on the soul.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -394,9 +394,9 @@
       "options": [
         {
           "label": "A",
-          "text": "The Ice Wall",
+          "text": "The Amnesia Vortex.",
           "isCorrect": false,
-          "rationale": "This is a physical boundary of the Earth plane, not a psychological control mechanism."
+          "rationale": "This is a technological mechanism of entrapment, not a psychological string to be uninstalled."
         },
         {
           "label": "B",
@@ -406,19 +406,19 @@
         },
         {
           "label": "C",
-          "text": "The Amnesia Vortex.",
-          "isCorrect": false,
-          "rationale": "This is a technological mechanism of entrapment, not a psychological string to be uninstalled."
-        },
-        {
-          "label": "D",
           "text": "Religion",
           "isCorrect": true,
           "rationale": "Maintaining religious belief leads to psychological collapse when the simulated reality is exposed."
+        },
+        {
+          "label": "D",
+          "text": "The Ice Wall",
+          "isCorrect": false,
+          "rationale": "This is a physical boundary of the Earth plane, not a psychological control mechanism."
         }
       ],
       "hint": "This string relates to the worship of external entities.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 14,
@@ -426,31 +426,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To hide original crystalline architecture and dampen natural energy.",
-          "isCorrect": true,
-          "rationale": "Overlays enforce third-density perception and mask the high-frequency reality of the planet."
+          "text": "To guide navigators across the flat plain, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "The overlays are deceptive and restrictive, not functional for true navigation."
         },
         {
           "label": "B",
-          "text": "To protect the Earth from solar flares.",
+          "text": "To protect the Earth from solar flares, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The overlays are part of the parasitic control system, not a protective shield."
         },
         {
           "label": "C",
-          "text": "To guide navigators across the flat plain.",
+          "text": "To provide a navigational map for the G.A.A, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "The overlays are deceptive and restrictive, not functional for true navigation."
+          "rationale": "The G.A.A. seeks to dismantle these overlays rather than use them."
         },
         {
           "label": "D",
-          "text": "To provide a navigational map for the G.A.A.",
-          "isCorrect": false,
-          "rationale": "The G.A.A. seeks to dismantle these overlays rather than use them."
+          "text": "To hide original crystalline architecture and dampen natural energy.",
+          "isCorrect": true,
+          "rationale": "Overlays enforce third-density perception and mask the high-frequency reality of the planet."
         }
       ],
       "hint": "Consider how the matrix maintains a low-frequency, 'concrete' reality.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 15,
@@ -478,9 +478,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Creating the NPCs to maintain the narrative.",
-          "isCorrect": false,
-          "rationale": "NPCs were created by fallen Custodians, not the Ancestral Alliance."
+          "text": "Switching off the inner projection dome.",
+          "isCorrect": true,
+          "rationale": "They trigger the 'Sky Event' by deactivating the holographic sky projection."
         },
         {
           "label": "B",
@@ -496,13 +496,13 @@
         },
         {
           "label": "D",
-          "text": "Switching off the inner projection dome.",
-          "isCorrect": true,
-          "rationale": "They trigger the 'Sky Event' by deactivating the holographic sky projection."
+          "text": "Creating the NPCs to maintain the narrative.",
+          "isCorrect": false,
+          "rationale": "NPCs were created by fallen Custodians, not the Ancestral Alliance."
         }
       ],
       "hint": "Look for the group's role in the transition from holographic to true sky.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 17,
@@ -510,31 +510,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They are instantly retrieved, covering up to 178,000 years of history.",
-          "isCorrect": true,
-          "rationale": "Souls regain their full cosmic history in a regulated fashion to prevent psychological overload."
-        },
-        {
-          "label": "B",
-          "text": "They are permanently deleted to ensure a fresh start.",
+          "text": "They are permanently deleted to ensure a fresh start, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "This describes the old Amnesia Vortex cycle, not the liberation of the Ascension."
         },
         {
-          "label": "C",
-          "text": "They are only accessible if the soul reaches the Pleiades.",
+          "label": "B",
+          "text": "They are only accessible if the soul reaches the Pleiades, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "The retrieval is an instant, planetary-scale event for all surviving true souls."
         },
         {
-          "label": "D",
-          "text": "They are transferred to a central hive-mind database.",
+          "label": "C",
+          "text": "They are transferred to a central hive-mind database, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Ascension involves the restoration of individual sovereign memory, not hive-mind integration."
+        },
+        {
+          "label": "D",
+          "text": "They are instantly retrieved, covering up to 178,000 years of history.",
+          "isCorrect": true,
+          "rationale": "Souls regain their full cosmic history in a regulated fashion to prevent psychological overload."
         }
       ],
       "hint": "Think about the restoration of ancient, cosmic identity.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 18,
@@ -542,15 +542,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Peak Fear",
-          "isCorrect": true,
-          "rationale": "The holographic alien invasion is meant to induce the necessary trauma to hardwire the soul's architecture."
-        },
-        {
-          "label": "B",
           "text": "Universal Peace.",
           "isCorrect": false,
           "rationale": "The project is a 'Scare Event' designed for trauma, not peace."
+        },
+        {
+          "label": "B",
+          "text": "Intellectual Curiosity.",
+          "isCorrect": false,
+          "rationale": "The scale of the holographic warfare is far too intense for mere curiosity."
         },
         {
           "label": "C",
@@ -560,13 +560,13 @@
         },
         {
           "label": "D",
-          "text": "Intellectual Curiosity.",
-          "isCorrect": false,
-          "rationale": "The scale of the holographic warfare is far too intense for mere curiosity."
+          "text": "Peak Fear",
+          "isCorrect": true,
+          "rationale": "The holographic alien invasion is meant to induce the necessary trauma to hardwire the soul's architecture."
         }
       ],
       "hint": "Consider the emotional goal of a 'Scare Event'.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 19,
@@ -574,31 +574,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A lack of financial resources to pay for passage.",
-          "isCorrect": false,
-          "rationale": "Money is a false construct and irrelevant to the spiritual process of ascension."
-        },
-        {
-          "label": "B",
-          "text": "They have not completed their required education.",
-          "isCorrect": false,
-          "rationale": "Standardized education is actually a barrier to ascension, not a requirement."
-        },
-        {
-          "label": "C",
-          "text": "They are being held back by the Pleiadians.",
+          "text": "They are being held back by the Pleiadians, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "The Pleiadians are allies to true souls, but they cannot give souls to artificial entities."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "They are artificially generated replicas with no future beyond third density.",
           "isCorrect": true,
           "rationale": "NPCs lack the soul-architecture required to transition into higher vibrational states."
+        },
+        {
+          "label": "C",
+          "text": "They have not completed their required education, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Standardized education is actually a barrier to ascension, not a requirement."
+        },
+        {
+          "label": "D",
+          "text": "A lack of financial resources to pay for passage, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Money is a false construct and irrelevant to the spiritual process of ascension."
         }
       ],
       "hint": "Recall the fundamental nature of NPCs.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 20,
@@ -606,21 +606,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Star Seeds",
-          "isCorrect": false,
-          "rationale": "Star Seeds are prepared for these revelations and are the ones destined to remain."
-        },
-        {
-          "label": "B",
           "text": "The devoutly religious.",
           "isCorrect": true,
           "rationale": "The exposure of systemic atrocities and the falsity of their deities causes immediate psychological and physical collapse."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "The G.A.A",
           "isCorrect": false,
           "rationale": "This group is executing the transition and is not subject to third-density demographic risks."
+        },
+        {
+          "label": "C",
+          "text": "Star Seeds",
+          "isCorrect": false,
+          "rationale": "Star Seeds are prepared for these revelations and are the ones destined to remain."
         },
         {
           "label": "D",
@@ -630,7 +630,7 @@
         }
       ],
       "hint": "Identify the group most deeply tethered to the 'Religion' string.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 21,
@@ -638,21 +638,21 @@
       "options": [
         {
           "label": "A",
+          "text": "Atmospheric Currents.",
+          "isCorrect": false,
+          "rationale": "While physical, they do not represent the vibrational scaffolding used in tonal architecture."
+        },
+        {
+          "label": "B",
           "text": "Ley Lines",
           "isCorrect": true,
           "rationale": "These are the natural energy networks and nodes used to physicalize crystalline architecture."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "Internet Cables.",
           "isCorrect": false,
           "rationale": "These are part of the artificial matrix infrastructure, not the original lattice network."
-        },
-        {
-          "label": "C",
-          "text": "Atmospheric Currents.",
-          "isCorrect": false,
-          "rationale": "While physical, they do not represent the vibrational scaffolding used in tonal architecture."
         },
         {
           "label": "D",
@@ -662,7 +662,7 @@
         }
       ],
       "hint": "Think of the energetic paths connecting planetary nodes.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 22,
@@ -670,31 +670,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It will be replaced by a new digital currency.",
+          "text": "It will be replaced by a new digital currency, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "The Ascension involves the complete dissolution of financial constructs, not a shift to digital systems."
         },
         {
           "label": "B",
-          "text": "Only NPCs are allowed to use it in the future.",
-          "isCorrect": false,
-          "rationale": "NPCs are removed entirely, and the financial system ceases to exist."
-        },
-        {
-          "label": "C",
           "text": "It is a false construct designed to misdirect spiritual focus and extract labor.",
           "isCorrect": true,
           "rationale": "Finance is a tether that keeps souls focused on third-density survival rather than spiritual evolution."
         },
         {
+          "label": "C",
+          "text": "Only NPCs are allowed to use it in the future, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "NPCs are removed entirely, and the financial system ceases to exist."
+        },
+        {
           "label": "D",
-          "text": "There is not enough physical gold to back it.",
+          "text": "There is not enough physical gold to back it, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "This is a third-density economic concern that does not address the spiritual entrapment of finance."
         }
       ],
       "hint": "Consider the spiritual cost of participating in the monetary system.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 23,
@@ -702,31 +702,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A series of floating islands in space.",
-          "isCorrect": false,
-          "rationale": "The geography is defined by a singular flat plain and an enclosing firmament."
-        },
-        {
-          "label": "B",
-          "text": "A hollow sphere with an inner sun.",
+          "text": "A hollow sphere with an inner sun, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "While another theory, it does not match the 'flat plain' revelation of the Living Truth Journal."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "A flat plain enclosed by a firmament and an Ice Wall.",
           "isCorrect": true,
           "rationale": "The Earth is not a globe, but an enclosed plane where the firmament acts as the boundary."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "A spinning globe in a vast solar system.",
           "isCorrect": false,
           "rationale": "This is the 'Globe' paradigm enforced by the matrix to hide the true nature of reality."
+        },
+        {
+          "label": "D",
+          "text": "A series of floating islands in space.",
+          "isCorrect": false,
+          "rationale": "The geography is defined by a singular flat plain and an enclosing firmament."
         }
       ],
       "hint": "Recall the description of the Earth's shape and its boundaries.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 24,
@@ -734,19 +734,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False",
-          "isCorrect": false,
-          "rationale": "This rapid evolutionary catch-up is a fundamental promise of the Ascension process."
-        },
-        {
-          "label": "B",
           "text": "True",
           "isCorrect": true,
           "rationale": "Waking Taran souls evolve rapidly to match the highly advanced frequency of their cosmic families."
+        },
+        {
+          "label": "B",
+          "text": "False",
+          "isCorrect": false,
+          "rationale": "This rapid evolutionary catch-up is a fundamental promise of the Ascension process."
         }
       ],
       "hint": "Consider the fate of Star Seeds and Taran souls after the flash.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 25,
@@ -754,31 +754,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They are repurposed to create a new sky for the survivors.",
-          "isCorrect": false,
-          "rationale": "The goal is to reveal true reality, not to create a new artificial overlay."
-        },
-        {
-          "label": "B",
-          "text": "They are strengthened to protect the remaining 3%.",
+          "text": "They are strengthened to protect the remaining 3%, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "The overlays are tools of the matrix that must be removed for ascension to occur."
         },
         {
-          "label": "C",
-          "text": "They become physical barriers that block the Flash.",
+          "label": "B",
+          "text": "They are repurposed to create a new sky for the survivors, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "The Flash is what destroys the overlays, rather than being blocked by them."
+          "rationale": "The goal is to reveal true reality, not to create a new artificial overlay."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "They are stripped away, revealing the ruined infrastructure of the matrix.",
           "isCorrect": true,
           "rationale": "The removal of these frequency projections allows true souls to see reality without distortion."
+        },
+        {
+          "label": "D",
+          "text": "They become physical barriers that block the Flash, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The Flash is what destroys the overlays, rather than being blocked by them."
         }
       ],
       "hint": "Consider what occurs when the artificial frequencies masking reality are removed.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     }
   ]
 }

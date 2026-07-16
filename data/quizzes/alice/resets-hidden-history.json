@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only rewrote weather charts while leaving all architecture, science, and soul memory completely untouched.",
+          "text": "Resets gently preserved all Tartarian records in public schools for continuous open study and free-energy apprenticeship programs.",
           "isCorrect": false,
           "rationale": "They erase civilization-scale history and keep people in a fabricated low-frequency control grid."
         },
         {
           "label": "B",
-          "text": "Systematically erased and replaced them through cyclic catastrophic destruction of advanced civilizations, suppressing The Great Spiritual Awakening and trapping the population in a heavily controlled, low-frequency 3rd density simulation.",
+          "text": "No resets ever occurred; history is a clean uninterrupted line from caves to smartphones with full archival continuity everywhere, so harvest logistics, density tech, and inverted narrative machinery play no part.",
+          "isCorrect": false,
+          "rationale": "Modern history is fabrication designed to hide advanced societies and maintain energy harvesting."
+        },
+        {
+          "label": "C",
+          "text": "Resets erased true chronology and memory through cyclic destruction of advanced civilizations, burying Tartaria under mud, myth, and inverted timelines.",
           "isCorrect": true,
           "rationale": "Resets wipe advanced civilization knowledge so parasitic low-frequency control can continue."
         },
         {
-          "label": "C",
-          "text": "Preserved every advanced civilization in open public museums with full continuous memory for all souls.",
+          "label": "D",
+          "text": "Resets only rearranged museum furniture and never touched populations, free-energy grids, or the true chronological timeline.",
           "isCorrect": false,
           "rationale": "Resets systematically erase and replace true timeline and history to trap people in a low-frequency simulation."
-        },
-        {
-          "label": "D",
-          "text": "Raised everyone into permanent 9th density with no fabrication of history and no energy harvest agenda.",
-          "isCorrect": false,
-          "rationale": "Modern history is fabrication designed to hide advanced societies and maintain energy harvesting."
         }
       ],
       "hint": "Cyclic erase-and-replace — suppress awakening — 3rd density trap.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only school curriculum updates that never kill anyone or destroy free-energy infrastructure.",
-          "isCorrect": false,
-          "rationale": "Resets are planetary-scale violence and memory wipe, not mere textbook edits."
-        },
-        {
-          "label": "B",
           "text": "Pre-planned, cyclic events of planetary-scale destruction, torture, and mass sacrifice orchestrated every thousand years to harvest human energy and erase all knowledge of the preceding advanced civilization.",
           "isCorrect": true,
           "rationale": "Every ~1000 years: planned destruction and sacrifice to harvest energy and wipe prior civilization knowledge."
         },
         {
+          "label": "B",
+          "text": "Only school curriculum updates that never kill anyone or destroy free-energy infrastructure, with every larger system treated as clean, uninvolved, or beside the point.",
+          "isCorrect": false,
+          "rationale": "Resets are planetary-scale violence and memory wipe, not mere textbook edits."
+        },
+        {
           "label": "C",
-          "text": "Random natural weather cycles with no planning, no sacrifice, and no knowledge erasure agenda.",
+          "text": "Random natural weather cycles with no planning, no sacrifice, and no knowledge erasure agenda, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Resets are pre-planned cyclic planetary destruction, torture, and mass sacrifice every thousand years."
         },
         {
           "label": "D",
-          "text": "Peaceful cultural festivals held once a century to celebrate free-energy technology for all.",
+          "text": "Peaceful cultural festivals held once a century to celebrate free-energy technology for all, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "They are violent harvest and erasure events, not peaceful free-energy festivals."
         }
       ],
       "hint": "Every thousand years — destruction, torture, sacrifice — harvest and erase.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 3,
@@ -86,9 +86,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a quiet book club that never touches physical liberation or planetary control systems.",
+          "text": "A plan to strengthen Resets forever so no soul ever recovers true cosmic memory again, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "It culminates in removal of the planetary control matrix and return of cosmic memory."
+          "rationale": "Awakening dismantles the control matrix and returns true cosmic memory."
         },
         {
           "label": "B",
@@ -98,13 +98,13 @@
         },
         {
           "label": "C",
-          "text": "A plan to strengthen Resets forever so no soul ever recovers true cosmic memory again.",
+          "text": "Only a quiet book club that never touches physical liberation or planetary control systems, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
-          "rationale": "Awakening dismantles the control matrix and returns true cosmic memory."
+          "rationale": "It culminates in removal of the planetary control matrix and return of cosmic memory."
         },
         {
           "label": "D",
-          "text": "A marketing slogan with no revelation, no matrix removal, and no return of cosmic memory.",
+          "text": "A marketing slogan with no revelation, no matrix removal, and no return of cosmic memory, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "It is the terminal period of revelation and liberation where suppressed truths are exposed."
         }
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A Freemason brand name for coal companies with no cities, temples, or free-energy inheritance.",
-          "isCorrect": false,
-          "rationale": "Tartaria left real advanced architecture later mislabeled by Industrial Revolution lies."
-        },
-        {
-          "label": "B",
-          "text": "A small fishing village with no advanced architecture and no worldwide civilizational reach.",
-          "isCorrect": false,
-          "rationale": "It was a worldwide civilization of excellence and resplendent architecture."
-        },
-        {
-          "label": "C",
-          "text": "Only a future project planned for next century with no prior existence before modern textbooks.",
+          "text": "Only a future project planned for next century with no prior existence before modern textbooks, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "It existed immediately prior to the current historical epoch and was erased/hidden by Resets."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "A highly advanced, worldwide civilization of excellence and resplendent architecture that existed immediately prior to the current historical epoch.",
           "isCorrect": true,
           "rationale": "Tartaria/Great Tartary was the advanced worldwide civilization right before the current fabricated epoch."
+        },
+        {
+          "label": "C",
+          "text": "A Freemason brand name for coal companies with no cities, temples, or free-energy inheritance, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Tartaria left real advanced architecture later mislabeled by Industrial Revolution lies."
+        },
+        {
+          "label": "D",
+          "text": "A small fishing village with no advanced architecture and no worldwide civilizational reach, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "It was a worldwide civilization of excellence and resplendent architecture."
         }
       ],
       "hint": "Advanced worldwide civilization — resplendent architecture — pre-current epoch.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Blatant physical evidence and ancient technological relics from previous high-technological civilizations that contradict the fabricated historical narrative.",
-          "isCorrect": true,
-          "rationale": "Out-of-place artefacts prove prior high-tech worlds and break the fake history story."
+          "text": "Museum labels invented last week with no physical relics and no challenge to mainstream history, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "OOPAs are blatant physical evidence and ancient technological relics from prior high-tech civilizations."
         },
         {
           "label": "B",
-          "text": "Only digital memes that never appear as physical objects in soil, stone, or buried tech layers.",
+          "text": "Only digital memes that never appear as physical objects in soil, stone, or buried tech layers, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "They are physical relics and technological evidence left from earlier advanced civilizations."
         },
         {
           "label": "C",
-          "text": "Museum labels invented last week with no physical relics and no challenge to mainstream history.",
-          "isCorrect": false,
-          "rationale": "OOPAs are blatant physical evidence and ancient technological relics from prior high-tech civilizations."
+          "text": "Blatant physical evidence and ancient technological relics from previous high-technological civilizations that contradict the fabricated historical narrative.",
+          "isCorrect": true,
+          "rationale": "Out-of-place artefacts prove prior high-tech worlds and break the fake history story."
         },
         {
           "label": "D",
-          "text": "Fully explained by school evolution charts with no contradiction to Freemason historical control.",
+          "text": "Fully explained by school evolution charts with no contradiction to Freemason historical control and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "They contradict the fabricated narrative maintained by controlled history institutions."
         }
       ],
       "hint": "Physical high-tech relics that contradict fabricated history.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 6,
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Loosh is the primary energy food for demons and parasites from human suffering, terror, trauma, and torture; Adrenochrome is a vital biochemical harvested from children during extreme terror and sacrifice.",
-          "isCorrect": true,
-          "rationale": "Resets maximize Loosh and Adrenochrome for the parasitic control structure."
+          "text": "Public supermarket vitamins that raise frequency and stop all demonic feeding forever, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Loosh is suffering-energy food; Adrenochrome is harvested from children in extreme terror."
         },
         {
           "label": "B",
-          "text": "Digital cryptocurrencies mined by computers with no emotional or sacrificial content at all.",
+          "text": "Digital cryptocurrencies mined by computers with no emotional or sacrificial content at all, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "They are energetic and biochemical harvests from human trauma and child sacrifice."
         },
         {
           "label": "C",
-          "text": "Only weather terms for fog and rain with no link to sacrifice, trauma, or parasitic survival.",
-          "isCorrect": false,
-          "rationale": "Both are harvest products of human suffering central to parasitic Reset operations."
+          "text": "Loosh is the primary energy food for demons and parasites from human suffering, terror, trauma, and torture.",
+          "isCorrect": true,
+          "rationale": "Resets maximize Loosh and Adrenochrome for the parasitic control structure."
         },
         {
           "label": "D",
-          "text": "Public supermarket vitamins that raise frequency and stop all demonic feeding forever.",
+          "text": "Only weather terms for fog and rain with no link to sacrifice, trauma, or parasitic survival, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "Loosh is suffering-energy food; Adrenochrome is harvested from children in extreme terror."
+          "rationale": "Both are harvest products of human suffering central to parasitic Reset operations."
         }
       ],
       "hint": "Loosh = suffering energy food; Adrenochrome = child terror harvest.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 7,
@@ -214,7 +214,7 @@
       "options": [
         {
           "label": "A",
-          "text": "G.A.A. free clinics that reverse all trauma and never grow replacement human crops underground.",
+          "text": "G.A.A. free clinics that reverse all trauma and never grow replacement human crops underground, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "DUMBS serve parasitic Reset logistics including laboratory cultivation of cloned humans."
         },
@@ -226,15 +226,15 @@
         },
         {
           "label": "C",
-          "text": "Empty caves abandoned centuries ago with no military, medical, or cloning function remaining.",
+          "text": "Nothing beyond tourist hotels with no containment, no organ harvest, and no clone cultivation role, and no coordinated multi-system design behind it.",
           "isCorrect": false,
-          "rationale": "They are active underground facilities for torture, harvest, execution, and clone labs."
+          "rationale": "They are used for containment, organ harvesting, mass torture, execution, and clone cultivation."
         },
         {
           "label": "D",
-          "text": "Only tourist hotels with no containment, no organ harvest, and no clone cultivation role.",
+          "text": "Empty caves abandoned centuries ago with no military, medical, or cloning function remaining, as if no adjacent systems participated at all.",
           "isCorrect": false,
-          "rationale": "They are used for containment, organ harvesting, mass torture, execution, and clone cultivation."
+          "rationale": "They are active underground facilities for torture, harvest, execution, and clone labs."
         }
       ],
       "hint": "Underground — containment, torture, organ harvest, clone labs.",
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Cooking, fashion, and sports as the only pillars of matrix imprisonment worldwide.",
+          "text": "Cooking, fashion, and sports as the only pillars of matrix imprisonment worldwide, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The named tethers are Religion, Finance, and Perceived Knowledge."
         },
         {
           "label": "B",
-          "text": "Pure love, free energy, and open Ice Wall exploration as the binding prison strings.",
+          "text": "Pure love, free energy, and open Ice Wall exploration as the binding prison strings, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Those liberate; the binding strings are religion, money, and false knowledge."
         },
         {
           "label": "C",
-          "text": "Religion, Finance, and Perceived Knowledge — the three primary psychological tethers of the false reality.",
-          "isCorrect": true,
-          "rationale": "The 3 Strings are Religion, Finance, and Perceived Knowledge holding consciousness in the lie."
+          "text": "Only military draft law with no temples, banks, schools, or scientific deception involved, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Psychological lock uses religion, finance, and perceived knowledge together."
         },
         {
           "label": "D",
-          "text": "Only military draft law with no temples, banks, schools, or scientific deception involved.",
-          "isCorrect": false,
-          "rationale": "Psychological lock uses religion, finance, and perceived knowledge together."
+          "text": "Religion, Finance, and Perceived Knowledge — the three primary psychological tethers of the false reality.",
+          "isCorrect": true,
+          "rationale": "The 3 Strings are Religion, Finance, and Perceived Knowledge holding consciousness in the lie."
         }
       ],
       "hint": "Religion — Finance — Perceived Knowledge.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 9,
@@ -278,15 +278,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Fully self-aware 12th-density teachers who never obey media, school, or peer pressure.",
+          "text": "Only digital avatars online that never walk physical streets or enforce any social narrative, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "NPCs are designed for compliance and consensus maintenance, not free high-density teaching."
+          "rationale": "They are population-scale synthetic vessels maintaining consensus in physical society."
         },
         {
           "label": "B",
-          "text": "Synthetically created 4th-density replica souls making up 97% of the global population, designed to enforce societal compliance and maintain consensus reality.",
-          "isCorrect": true,
-          "rationale": "NPCs = 97% synthetic replica-soul majority enforcing herd consensus."
+          "text": "Fully self-aware 12th-density teachers who never obey media, school, or peer pressure, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "NPCs are designed for compliance and consensus maintenance, not free high-density teaching."
         },
         {
           "label": "C",
@@ -296,13 +296,13 @@
         },
         {
           "label": "D",
-          "text": "Only digital avatars online that never walk physical streets or enforce any social narrative.",
-          "isCorrect": false,
-          "rationale": "They are population-scale synthetic vessels maintaining consensus in physical society."
+          "text": "Synthetically created 4th-density replica souls making up 97% of the global population, designed to enforce societal compliance and maintain consensus reality.",
+          "isCorrect": true,
+          "rationale": "NPCs = 97% synthetic replica-soul majority enforcing herd consensus."
         }
       ],
       "hint": "97% — 4th-density replica souls — enforce compliance.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 10,
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only since 2019, and only weather apps are controlled while all archaeology stays free.",
-          "isCorrect": false,
-          "rationale": "The foundation of mainstream historical and scientific knowledge is a multi-millennial deceit."
-        },
-        {
-          "label": "B",
-          "text": "Never — mainstream history and science are pure transparent truth with no control hierarchy.",
+          "text": "Never — mainstream history and science are pure transparent truth with no control hierarchy, so no severance from that system would ever be required.",
           "isCorrect": false,
           "rationale": "There is no truth to recorded history or modern science under Freemasonic institutional control."
         },
         {
-          "label": "C",
-          "text": "About five years by random bloggers with no Freemason structure and no multi-millennial plot.",
-          "isCorrect": false,
-          "rationale": "Purposeful deceit engineered over 70,000 years; institutions controlled by 33rd degree Freemasons."
-        },
-        {
-          "label": "D",
+          "label": "B",
           "text": "Purposeful deceit engineered over 70,000 years; recorded history and modern science are rigidly controlled by 33rd degree Freemasons to obscure reality.",
           "isCorrect": true,
           "rationale": "70,000-year engineered lie; 33rd degree Freemasons run the history/science cover."
+        },
+        {
+          "label": "C",
+          "text": "Only since 2019, and only weather apps are controlled while all archaeology stays free, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The foundation of mainstream historical and scientific knowledge is a multi-millennial deceit."
+        },
+        {
+          "label": "D",
+          "text": "About five years by random bloggers with no Freemason structure and no multi-millennial plot, disconnected from any deliberate long-game control design.",
+          "isCorrect": false,
+          "rationale": "Purposeful deceit engineered over 70,000 years; institutions controlled by 33rd degree Freemasons."
         }
       ],
       "hint": "70,000 years — 33rd degree Freemason institutional control.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 11,
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Evolution via Natural Selection is fabricated; true evolution occurs simultaneously across an entire species in a bright white light, with physical upgrades woven in high-density laboratories by benevolent ET soul families using harmonic tonal architecture — not natural mutation.",
-          "isCorrect": true,
-          "rationale": "Fake Darwin story hides lab-designed upgrades; early vessel trials optimized Adrenochrome harvest."
-        },
-        {
-          "label": "B",
-          "text": "Humans evolved from primates in oceans-to-land mutation steps exactly as textbooks teach with no lab design.",
-          "isCorrect": false,
-          "rationale": "Natural selection evolution is fabricated; true upgrades are designed in high-density labs via harmonic tonal architecture."
-        },
-        {
-          "label": "C",
-          "text": "There is no evolution of any kind ever, and no high-density laboratory design of physical upgrades.",
+          "text": "Darwinian natural selection is the complete true engine of all human and animal change, with no deliberate multi-generational control design behind the outcome at all.",
           "isCorrect": false,
           "rationale": "True evolution is simultaneous species-wide in bright white light, woven in high-density labs."
         },
         {
-          "label": "D",
-          "text": "True evolution occurs only for NPCs while organic souls never change form in any density.",
+          "label": "B",
+          "text": "Evolution via natural selection is fabricated; true species change happens simultaneously across a species in bright flashes of density, not slow random mutation over eons.",
+          "isCorrect": true,
+          "rationale": "Fake Darwin story hides lab-designed upgrades; early vessel trials optimized Adrenochrome harvest."
+        },
+        {
+          "label": "C",
+          "text": "Species never change at all; every form has been fixed since the first day of creation.",
           "isCorrect": false,
           "rationale": "True evolution occurs simultaneously across an entire species in bright white light via lab design."
+        },
+        {
+          "label": "D",
+          "text": "Only lab cloning by Greys creates new species; no density flash or simultaneous uplift exists.",
+          "isCorrect": false,
+          "rationale": "Natural selection evolution is fabricated; true upgrades are designed in high-density labs via harmonic tonal architecture."
         }
       ],
       "hint": "Fake natural selection — bright white simultaneous upgrade — harmonic lab design.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 12,
@@ -374,9 +374,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Earth is a horizontal flat plain surrounded by an Ice Wall and enclosed by a Firmament; true space (dark matter field) is a bright white spacious void; the black night sky is artificial Black Void Plasma from the Niberians.",
-          "isCorrect": true,
-          "rationale": "Flat enclosed plain + white true space; black night is Niberian plasma tech, not vacuum cosmos."
+          "text": "A cube floating in green fog with no Niberian tech and no Firmament architecture at all.",
+          "isCorrect": false,
+          "rationale": "Described geometry is flat plain, Ice Wall, Firmament, and plasma-faked night."
         },
         {
           "label": "B",
@@ -392,13 +392,13 @@
         },
         {
           "label": "D",
-          "text": "A cube floating in green fog with no Niberian tech and no Firmament architecture at all.",
-          "isCorrect": false,
-          "rationale": "Described geometry is flat plain, Ice Wall, Firmament, and plasma-faked night."
+          "text": "Earth is a horizontal flat plain surrounded by an Ice Wall and enclosed by a Firmament.",
+          "isCorrect": true,
+          "rationale": "Flat enclosed plain + white true space; black night is Niberian plasma tech, not vacuum cosmos."
         }
       ],
       "hint": "Flat plain + Ice Wall + Firmament — white true space — Black Void Plasma night.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 13,
@@ -406,27 +406,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Friendly G.A.A. hospitals that only heal children and never harvest Loosh or control frequency.",
-          "isCorrect": false,
-          "rationale": "Moon operated as negative ET harvest and frequency control station under holographic cover."
-        },
-        {
-          "label": "B",
-          "text": "Only weather balloons with no Overlay projections and no negative ET harvest function.",
+          "text": "Only weather balloons with no Overlay projections and no negative ET harvest function, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "They are technological Overlays and holographic projections in the controlled sky theater."
         },
         {
+          "label": "B",
+          "text": "Distant nuclear fusion balls and a pure natural rock moon with no holographic or station role and no hidden harvest architecture behind the scenes.",
+          "isCorrect": false,
+          "rationale": "Celestial bodies are localized tech Overlays and holograms; Venus lights/conceals the Moon station."
+        },
+        {
           "label": "C",
-          "text": "Localized technological Overlays and holographic projections; Planet Venus is the holographic generator that conceals and illuminates the Moon, which operated as a negative ET harvesting and frequency control space station.",
+          "text": "Localized technological Overlays and holographic projections; Planet Venus is the holographic generator that conceals and illuminates the Moon.",
           "isCorrect": true,
           "rationale": "Stars/planets = tech overlays; Venus generator + Moon harvest/frequency station."
         },
         {
           "label": "D",
-          "text": "Distant nuclear fusion balls and a pure natural rock moon with no holographic or station role.",
+          "text": "Friendly G.A.A. hospitals that only heal children and never harvest Loosh or control frequency, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Celestial bodies are localized tech Overlays and holograms; Venus lights/conceals the Moon station."
+          "rationale": "Moon operated as negative ET harvest and frequency control station under holographic cover."
         }
       ],
       "hint": "Overlay holograms — Venus generator — Moon ET harvest station.",
@@ -438,25 +438,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only the 1st Reset ever happened, and it was a gentle voluntary museum transfer of knowledge.",
-          "isCorrect": false,
-          "rationale": "Resets are violent artificial terminations; we are in the 7th approaching the intended 8th."
-        },
-        {
-          "label": "B",
-          "text": "Yes — purely natural decline with no artificial termination and no numbered Reset cycle.",
-          "isCorrect": false,
-          "rationale": "A Reset is violent artificial termination; current civilization is in the 7th Reset toward an intended 8th."
-        },
-        {
-          "label": "C",
           "text": "No numbered Resets exist; every culture freely keeps continuous memory without purge.",
           "isCorrect": false,
           "rationale": "Current cycle is the 7th Reset leading into what was intended as the final 8th Reset."
         },
         {
+          "label": "B",
+          "text": "Only the 1st Reset ever happened, and it was a gentle voluntary museum transfer of knowledge.",
+          "isCorrect": false,
+          "rationale": "Resets are violent artificial terminations; we are in the 7th approaching the intended 8th."
+        },
+        {
+          "label": "C",
+          "text": "Yes — purely natural decline with no artificial termination and no numbered Reset cycle.",
+          "isCorrect": false,
+          "rationale": "A Reset is violent artificial termination; current civilization is in the 7th Reset toward an intended 8th."
+        },
+        {
           "label": "D",
-          "text": "No — a Reset is violent artificial termination, not natural rise and fall; the current civilization is in the 7th Reset, leading into what was intended to be the final 8th Reset.",
+          "text": "No — a Reset is violent artificial termination, not natural rise and fall.",
           "isCorrect": true,
           "rationale": "Artificial violent end-cycle: 7th Reset now, intended 8th as the parasites' final plan."
         }
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Only adult volunteers sign up online and walk into empty cities with no stem-cell cultivation step, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Cultivation uses child stem cells in underground bases before Orphan Train distribution."
+        },
+        {
+          "label": "B",
           "text": "Survivors freely rebuild with full memory while no clones, no Orphan Trains, and no DUMBS labs operate.",
           "isCorrect": false,
           "rationale": "Replacement is lab-grown and distributed by Orphan Trains after free-energy purge."
         },
         {
-          "label": "B",
-          "text": "Before annihilation, stem cells are extracted from children to cultivate replacement humans in underground D.U.M.B.S.; after 3 to 5 years, once free-energy tech is purged from the landscape, lab-grown clones are distributed via Orphan Trains to repopulate empty pre-existing Tartarian cities.",
-          "isCorrect": true,
-          "rationale": "Child stem cells → DUMBS clones → 3—5 year wait → Orphan Trains into emptied Tartarian cities."
-        },
-        {
           "label": "C",
-          "text": "Only adult volunteers sign up online and walk into empty cities with no stem-cell cultivation step.",
+          "text": "Tartarian cities are demolished first so no pre-existing architecture remains for anyone to inherit, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Cultivation uses child stem cells in underground bases before Orphan Train distribution."
+          "rationale": "Clones repopulate empty pre-existing Tartarian cities after the surface purge."
         },
         {
           "label": "D",
-          "text": "Tartarian cities are demolished first so no pre-existing architecture remains for anyone to inherit.",
-          "isCorrect": false,
-          "rationale": "Clones repopulate empty pre-existing Tartarian cities after the surface purge."
+          "text": "Before annihilation, stem cells are extracted from children to cultivate replacement humans in underground D.U.M.B.S.",
+          "isCorrect": true,
+          "rationale": "Child stem cells → DUMBS clones → 3—5 year wait → Orphan Trains into emptied Tartarian cities."
         }
       ],
       "hint": "Stem cells → DUMBS clones → 3—5 years → Orphan Trains into Tartarian cities.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 16,
@@ -502,31 +502,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Rendered catatonic with shock; specialized Lunatic Asylums prepared in advance acted as 5,000-bed negative power stations to extract residual Loosh and sustain demonic entities between mass harvest cycles.",
-          "isCorrect": true,
-          "rationale": "Asylum \"care\" was 5,000-bed Loosh batteries farming residual terror between Resets."
+          "text": "They instantly ascended to 12th density with no asylum captivity and no residual Loosh extraction, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Catatonic survivors were managed in asylums for continuous demonic Loosh supply."
         },
         {
           "label": "B",
-          "text": "Asylums only taught herbal medicine and never functioned as negative power stations.",
+          "text": "Asylums only taught herbal medicine and never functioned as negative power stations, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Asylums were prepared as 5,000-bed negative power stations for demonic sustenance."
         },
         {
           "label": "C",
-          "text": "They were given full public platforms to teach flat earth and free energy with zero trauma management.",
-          "isCorrect": false,
-          "rationale": "They were rendered catatonic and herded into Lunatic Asylums as Loosh power stations."
+          "text": "Rendered catatonic with shock; specialized Lunatic Asylums prepared in advance acted as 5,000-bed negative power stations to extract residual Loosh and sustain demonic entities between mass harvest cycles.",
+          "isCorrect": true,
+          "rationale": "Asylum \"care\" was 5,000-bed Loosh batteries farming residual terror between Resets."
         },
         {
           "label": "D",
-          "text": "They instantly ascended to 12th density with no asylum captivity and no residual Loosh extraction.",
+          "text": "They were given full public platforms to teach flat earth and free energy with zero trauma management, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "Catatonic survivors were managed in asylums for continuous demonic Loosh supply."
+          "rationale": "They were rendered catatonic and herded into Lunatic Asylums as Loosh power stations."
         }
       ],
       "hint": "Catatonic survivors — 5,000-bed Lunatic Asylum Loosh batteries.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 17,
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It only trained soldiers in herbal medicine so Big Pharma would never gain power.",
-          "isCorrect": false,
-          "rationale": "It slaughtered 15—22 million to sever memory of flat earth and natural herbal remedies."
-        },
-        {
-          "label": "B",
-          "text": "It was a pure accident with no demographic targeting and no link to Old World memory holders.",
+          "text": "WW1 was a pure accident with no demographic targeting, no memory-holder purge, and no link to the post-Reset control grid at all.",
           "isCorrect": false,
           "rationale": "WW1 (1914—1918) was orchestrated to eradicate survivors aged 15—50 who remembered the Old World."
         },
         {
+          "label": "B",
+          "text": "After the last Reset (America ~1860, UK ~1900), WW1 killed 15–22 million aged 15–50 who still held Old World, flat-earth, and herbal knowledge.",
+          "isCorrect": true,
+          "rationale": "Post-Reset demographic kill: ages 15—50 memory holders wiped via trench slaughter."
+        },
+        {
           "label": "C",
-          "text": "It restored Tartarian free energy and published flat-earth maps in every school worldwide.",
+          "text": "WW1 restored Tartarian free energy and published flat-earth maps in every school while protecting herbal practitioners worldwide.",
           "isCorrect": false,
           "rationale": "WW1 permanently severed connection to Old World memory that threatened the new control grid."
         },
         {
           "label": "D",
-          "text": "After the last Reset (America ~1860, UK ~1900), WW1 (1914—1918) specifically eradicated the surviving population aged 15 to 50 who held vestigial memory of the Old World, flat earth, and herbal remedies threatening Big Pharma — slaughtering 15 to 22 million in the trenches.",
-          "isCorrect": true,
-          "rationale": "Post-Reset demographic kill: ages 15—50 memory holders wiped via trench slaughter."
+          "text": "WW1 only trained soldiers as master herbalists so Big Pharma could never gain institutional power after the Reset generation matured.",
+          "isCorrect": false,
+          "rationale": "It slaughtered 15—22 million to sever memory of flat earth and natural herbal remedies."
         }
       ],
       "hint": "Post-1860/1900 Reset — WW1 kills ages 15—50 Old World memory holders.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 18,
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Over 10,000 remains of Giants (12 feet to 35 meters) were unearthed, then immediately confiscated and hidden by the Smithsonian Institution — founded by Freemasons specifically as the sealed vault for suppressed archaeology.",
-          "isCorrect": true,
-          "rationale": "Railroad digs exposed giants; Freemason Smithsonian vaulted the evidence out of public view."
-        },
-        {
-          "label": "B",
-          "text": "They were displayed in every town square as official proof of Tartarian and giant human lineages.",
+          "text": "They were displayed in every town square as official proof of Tartarian and giant human lineages, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Over 10,000 giant remains were confiscated and hidden by the Smithsonian."
         },
         {
+          "label": "B",
+          "text": "The Smithsonian openly published full catalogs so schools would teach giant history accurately, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Smithsonian was founded by Freemasons as a sealed vault for suppressed archaeology."
+        },
+        {
           "label": "C",
-          "text": "No giants were ever found; railroad crews only discovered modern tools from 1950 factories.",
+          "text": "No giants were ever found; railroad crews only discovered modern tools from 1950 factories, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Over 10,000 giant remains from 12 feet to 35 meters tall were unearthed then suppressed."
         },
         {
           "label": "D",
-          "text": "The Smithsonian openly published full catalogs so schools would teach giant history accurately.",
-          "isCorrect": false,
-          "rationale": "Smithsonian was founded by Freemasons as a sealed vault for suppressed archaeology."
+          "text": "Over 10,000 remains of Giants (12 feet to 35 meters) were unearthed, then immediately confiscated and hidden by the Smithsonian Institution.",
+          "isCorrect": true,
+          "rationale": "Railroad digs exposed giants; Freemason Smithsonian vaulted the evidence out of public view."
         }
       ],
       "hint": "10,000+ giant remains — Smithsonian Freemason sealed vault.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 19,
@@ -598,15 +598,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a fashion trend in hats with no link to looms, railways, or grand architecture.",
+          "text": "A pure organic invention wave that built every Tartarian city from empty dirt with no prior civilization, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "It specifically rebranded Tartarian looms, pneumatic railways, and grand architecture."
+          "rationale": "Complex infrastructure was inherited from Tartaria, not spontaneously invented from nothing."
         },
         {
           "label": "B",
-          "text": "A pure organic invention wave that built every Tartarian city from empty dirt with no prior civilization.",
+          "text": "A G.A.A. gift program that openly credited Tartaria in every factory plaque worldwide, with the surrounding architecture waved away as irrelevant.",
           "isCorrect": false,
-          "rationale": "Complex infrastructure was inherited from Tartaria, not spontaneously invented from nothing."
+          "rationale": "The Revolution story was a cover lie, not open credit to Tartarian excellence."
         },
         {
           "label": "C",
@@ -616,9 +616,9 @@
         },
         {
           "label": "D",
-          "text": "A G.A.A. gift program that openly credited Tartaria in every factory plaque worldwide.",
+          "text": "Only a fashion trend in hats with no link to looms, railways, or grand architecture, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
-          "rationale": "The Revolution story was a cover lie, not open credit to Tartarian excellence."
+          "rationale": "It specifically rebranded Tartarian looms, pneumatic railways, and grand architecture."
         }
       ],
       "hint": "Industrial Revolution = lie covering Tartarian inherited infrastructure.",
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Locomotives ran only on prayer with no metal hardware and no interaction with energy grids.",
+          "text": "Locomotives ran only on prayer with no metal hardware and no interaction with energy grids, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Hardware was copper atmospheric systems using electromagnetic inductance on the natural grid."
         },
         {
           "label": "B",
-          "text": "They always needed massive coal only; no copper domes, no inductance, and no coal-company sabotage.",
-          "isCorrect": false,
-          "rationale": "Domed copper Atmospheric Augmentation Systems used Electromagnetic Inductance with the natural energy grid."
-        },
-        {
-          "label": "C",
-          "text": "Early locomotives used domed copper Atmospheric Augmentation Systems that superheated boiler water via Electromagnetic Inductance interacting with the natural energy grid; in 1887 the Consolidated Coal Company ordered these devices removed and melted down to force fossil-fuel reliance.",
+          "text": "Early locomotives used domed copper Atmospheric Augmentation Systems that superheated boiler water via Electromagnetic Inductance interacting with the natural energy grid.",
           "isCorrect": true,
           "rationale": "Atmospheric condensers tapped the grid; 1887 coal order destroyed them to lock in mined fuel dependence."
         },
         {
-          "label": "D",
-          "text": "Consolidated Coal funded free public installation of more atmospheric domes in every nation.",
+          "label": "C",
+          "text": "Consolidated Coal funded free public installation of more atmospheric domes in every nation, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "They ordered the devices removed and melted down to force coal reliance."
+        },
+        {
+          "label": "D",
+          "text": "They always needed massive coal only; no copper domes, no inductance, and no coal-company sabotage, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Domed copper Atmospheric Augmentation Systems used Electromagnetic Inductance with the natural energy grid."
         }
       ],
       "hint": "Copper atmospheric inductance systems — 1887 coal company melt-down order.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 21,
@@ -662,25 +662,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A pure navigation accident with no vessel swap, no Federal Reserve link, and no crystal destruction.",
-          "isCorrect": false,
-          "rationale": "It was an orchestrated sacrifice using the swapped vessel Olympic for control and tech destruction."
-        },
-        {
-          "label": "B",
-          "text": "A charity cruise that delivered free Tuning Forks to every school to teach megalithic harmonic stone craft.",
-          "isCorrect": false,
-          "rationale": "It destroyed an ancient crystal and Old World Tuning Fork used for harmonic megalithic work."
-        },
-        {
-          "label": "C",
-          "text": "A Freemason parade float that never sank and never carried any energetic technology aboard.",
+          "text": "A random iceberg accident with no elite targeting and no link to banking legislation at all, with no deliberate multi-generational control design behind the outcome at all.",
           "isCorrect": false,
           "rationale": "Sinking was real orchestrated sacrifice targeting politics and Old World harmonic devices."
         },
         {
+          "label": "B",
+          "text": "A G.A.A. rescue drill that saved every passenger and exposed the Federal Reserve publicly, as if liberating forces ran the prison architecture instead of dismantling it.",
+          "isCorrect": false,
+          "rationale": "It was an orchestrated sacrifice using the swapped vessel Olympic for control and tech destruction."
+        },
+        {
+          "label": "C",
+          "text": "A weather balloon test that never sank and never removed any political or financial opposition.",
+          "isCorrect": false,
+          "rationale": "It destroyed an ancient crystal and Old World Tuning Fork used for harmonic megalithic work."
+        },
+        {
           "label": "D",
-          "text": "An orchestrated sacrifice utilizing the swapped vessel Olympic — executed to eliminate opposition to the Federal Reserve and to destroy a massive highly energetic ancient crystal and an Old World Tuning Fork used to sculpt megalithic stone via harmonic frequencies.",
+          "text": "An orchestrated sacrifice using the swapped Olympic vessel to eliminate opposition to the Federal Reserve and other post-reset financial control structures.",
           "isCorrect": true,
           "rationale": "Olympic swap sacrifice: kill Fed opposition + destroy harmonic megalith tech (crystal and Tuning Fork)."
         }
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Open pit mining with dynamite only, never silent frequency liquidation from hovering craft.",
-          "isCorrect": false,
-          "rationale": "Hovering craft use directed liquidation frequencies for silent gold-seam extraction."
+          "text": "Highly advanced extraction technology used by hovering craft to silently extract gold seams via directed liquidation frequencies.",
+          "isCorrect": true,
+          "rationale": "Red Mercury = silent aerial gold liquidation leaving uniform mountain holes."
         },
         {
           "label": "B",
-          "text": "A children's toy brand with no mountain holes and no remote range mining signature.",
+          "text": "A children's toy brand with no mountain holes and no remote range mining signature, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "It leaves anomalous uniform holes in remote mountain ranges from silent gold extraction."
         },
         {
           "label": "C",
-          "text": "Highly advanced extraction technology used by hovering craft to silently extract gold seams via directed liquidation frequencies, leaving anomalous uniform holes in remote mountain ranges.",
-          "isCorrect": true,
-          "rationale": "Red Mercury = silent aerial gold liquidation leaving uniform mountain holes."
+          "text": "Open pit mining with dynamite only, never silent frequency liquidation from hovering craft, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Hovering craft use directed liquidation frequencies for silent gold-seam extraction."
         },
         {
           "label": "D",
-          "text": "Only painting barns red with no gold extraction and no hovering craft involvement.",
+          "text": "Only painting barns red with no gold extraction and no hovering craft involvement, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Red Mercury extraction tech on hovering craft silently extracts gold seams via directed liquidation frequencies."
         }
       ],
       "hint": "Hovering craft — silent gold liquidation frequencies — uniform mountain holes.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 23,
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Custodians planted more Spirit Trees so Gateway-10 energy overflowed into permanent 12th density for all.",
-          "isCorrect": false,
-          "rationale": "Greys destroyed the central Spirit Tree, critically crippling Gateway energy output."
-        },
-        {
-          "label": "B",
-          "text": "Only modern mayors rewrote maps with no Custodian betrayal and no Grey ET spirit tree attack.",
-          "isCorrect": false,
-          "rationale": "History obfuscation ties to Custodian inversion and Grey destruction of the Spirit Tree."
-        },
-        {
-          "label": "C",
-          "text": "Gateway-10 has only one world and no Hyperborea node, so no spirit tree strike was possible.",
+          "text": "Gateway-10 has only one world and no Hyperborea node, so no spirit tree strike was possible, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Gateway-10 comprises 178 worlds; Hyperborea/Mt Meru was the central power strike target."
         },
         {
-          "label": "D",
-          "text": "Custodians (fallen 12th-density betrayers) engineered parasites including Anunnaki, Omicron, Alpha Draco, and Greys; Realm-2/Known Lands sit at the center of Gateway-10 (178 worlds); Greys destroyed the central Spirit Tree at Hyperborea (North Pole / Mt Meru / Black Rock), crippling the energy grid across the Gateway.",
+          "label": "B",
+          "text": "Custodians (fallen 12th-density betrayers) engineered parasites including Anunnaki, Omicron, Alpha Draco, and Greys.",
           "isCorrect": true,
           "rationale": "Custodian betrayal + proxy races + Spirit Tree kill at Hyperborea crippled Gateway-10's grid."
+        },
+        {
+          "label": "C",
+          "text": "Only modern mayors rewrote maps with no Custodian betrayal and no Grey ET spirit tree attack, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "History obfuscation ties to Custodian inversion and Grey destruction of the Spirit Tree."
+        },
+        {
+          "label": "D",
+          "text": "Custodians planted more Spirit Trees so Gateway-10 energy overflowed into permanent 12th density for all.",
+          "isCorrect": false,
+          "rationale": "Greys destroyed the central Spirit Tree, critically crippling Gateway energy output."
         }
       ],
       "hint": "Custodian proxies — Gateway-10 center — Spirit Tree destroyed at Hyperborea.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 24,
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Heavy concrete and tarmac 3rd-density structures built precisely over footings of energetic Nodes, Ley Lines, and Lattice Membrane Networks suppress vibrational output; beneath churches, cathedrals, and monuments lie indestructible Crystalline Temples at Ultra High Frequency (UHF), invisible to 3rd-density perception.",
-          "isCorrect": true,
-          "rationale": "Density Suppression caps nodes with heavy builds; UHF temples remain under footings; mining steals grid tech."
-        },
-        {
-          "label": "B",
-          "text": "Crystalline Temples never existed; only Freemason stone was original architecture of the plain.",
+          "text": "Crystalline Temples never existed; only Freemason stone was original architecture of the plain, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Indestructible UHF Crystalline Temples sit beneath modern monuments, hidden from 3rd-density sight."
         },
         {
+          "label": "B",
+          "text": "Mining gold and silver was always spiritual best practice taught by high-density soul families, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Gold, silver, and crystals were never meant to be mined — they regulate Ley Line electromagnetics."
+        },
+        {
           "label": "C",
-          "text": "Parasites raise density to 9th so every tourist sees UHF temples without any concrete cap.",
+          "text": "Parasites raise density to 9th so every tourist sees UHF temples without any concrete cap, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "They suppress vibration by building heavy 3rd-density structures over Nodes, Ley Lines, and Lattice networks."
         },
         {
           "label": "D",
-          "text": "Mining gold and silver was always spiritual best practice taught by high-density soul families.",
-          "isCorrect": false,
-          "rationale": "Gold, silver, and crystals were never meant to be mined — they regulate Ley Line electromagnetics."
+          "text": "Heavy concrete and tarmac 3rd-density structures built precisely over footings of energetic Nodes, Ley Lines, and Lattice Membrane Networks suppress vibrational output.",
+          "isCorrect": true,
+          "rationale": "Density Suppression caps nodes with heavy builds; UHF temples remain under footings; mining steals grid tech."
         }
       ],
       "hint": "Heavy builds over nodes — UHF temples hidden — resources are grid tech not ore.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 25,
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
-          "text": "All 8 billion remain equally; discarding Religion, Finance, and Perceived Knowledge is unnecessary.",
+          "text": "All 8 billion remain equally; discarding Religion, Finance, and Perceived Knowledge is unnecessary, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "97% synthetic NPCs vaporize; survivors must discard the 3 Strings to hold the psychological collapse."
         },
         {
           "label": "B",
-          "text": "Only a gentle parade with no Bluebeam, no EBS, no flash, and every NPC upgraded into organic soul status.",
-          "isCorrect": false,
-          "rationale": "Scare events include Bluebeam, EBS, and 30-second EMF Flash that vaporizes synthetic NPCs."
-        },
-        {
-          "label": "C",
-          "text": "Project Bluebeam Fake Alien Invasion, EBS exposing satanic control and child sacrifice, then a 30-second EMF Flash; G.A.A.",
+          "text": "Project Bluebeam Fake Alien Invasion, EBS exposing satanic control and child sacrifice, then a 30-second EMF Flash.",
           "isCorrect": true,
           "rationale": "Bluebeam + EBS + EMF flash clear the matrix majority; ~520 million true souls remain if strings are cut."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "EBS only plays music videos while the Projection Dome stays on and no one ever pixelates or vaporizes.",
           "isCorrect": false,
           "rationale": "EBS reveals satanic depths; EMF flash and dome shutdown produce pixelation and NPC vaporization."
+        },
+        {
+          "label": "D",
+          "text": "Only a gentle parade with no Bluebeam, no EBS, no flash, and every NPC upgraded into organic soul status.",
+          "isCorrect": false,
+          "rationale": "Scare events include Bluebeam, EBS, and 30-second EMF Flash that vaporizes synthetic NPCs."
         }
       ],
       "hint": "Bluebeam → EBS → 30-sec EMF — 97% gone — max 520 million — discard 3 Strings.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     }
   ]
 }

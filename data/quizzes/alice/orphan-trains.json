@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A modern subway marketing campaign with no link to planetary purges or manufactured children.",
+          "text": "A modern subway marketing campaign with no link to planetary purges or manufactured children, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Orphan Trains are logistical networks distributing newly manufactured children after a Re-set purge."
         },
         {
           "label": "B",
-          "text": "A critical logistical component used to distribute a newly manufactured population of children across the landscape after a planetary purge (Re-set), erasing knowledge of Tartaria and rebooting awareness into absolute ignorance while supplying parasitic harvest systems.",
-          "isCorrect": true,
-          "rationale": "Orphan Trains move post-Reset clone children into emptied lands to wipe Tartaria memory and restock the harvest farm."
-        },
-        {
-          "label": "C",
-          "text": "G.A.A. rescue fleets that restore full old-world memory to every passenger upon arrival.",
+          "text": "G.A.A. rescue fleets that restore full old-world memory to every passenger upon arrival, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "They reboot awareness into ignorance, not restore Tartarian memory."
         },
         {
+          "label": "C",
+          "text": "A critical logistical component used to distribute a newly manufactured population of children across the landscape after a planetary purge (Re-set).",
+          "isCorrect": true,
+          "rationale": "Orphan Trains move post-Reset clone children into emptied lands to wipe Tartaria memory and restock the harvest farm."
+        },
+        {
           "label": "D",
-          "text": "Only holiday tourist trains that never repopulate cities and never touch clone logistics of any kind.",
+          "text": "Nothing beyond holiday tourist trains that never repopulate cities and never touch clone logistics of any kind, and no coordinated multi-system design behind it.",
           "isCorrect": false,
           "rationale": "They are post-purge repopulation logistics, not leisure tourism services."
         }
       ],
       "hint": "Post-Reset logistics — manufactured children — erase Tartaria — feed harvest.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -54,25 +54,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Because they were not a natural historical progression or philanthropic response to urban poverty, but a meticulously orchestrated system to erase Tartaria knowledge, reboot awareness to absolute ignorance, and supply energetic and physical sustenance for parasitic entities.",
+          "text": "They were not philanthropy for urban poverty but an orchestrated system to erase Tartaria knowledge, reboot awareness into ignorance, and restock parasitic harvest supply.",
           "isCorrect": true,
           "rationale": "Philanthropy is cover; real purpose is memory wipe, ignorance reboot, and parasitic supply."
         },
         {
           "label": "B",
-          "text": "Because trains never existed and no children were ever moved after any purge event.",
+          "text": "They were a natural, kind response to city poverty with no link to resets or clone logistics, with no deliberate multi-generational control design behind the outcome at all.",
           "isCorrect": false,
           "rationale": "Trains did move parentless manufactured populations; the philanthropy cover is the lie."
         },
         {
           "label": "C",
-          "text": "Because every orphan was a free organic survivor with full Tartarian memory and no re-education needed.",
+          "text": "They restored full Tartarian memory to every child and banned all fabricated school history — that mechanism alone, with no wider inversion stack required to produce the result.",
           "isCorrect": false,
           "rationale": "The system reboots awareness to absolute ignorance and erases Tartaria knowledge on purpose."
         },
         {
           "label": "D",
-          "text": "Because only adult bankers rode the trains and no children or clones were involved at all.",
+          "text": "They only moved tourists between resorts and never touched population or harvest systems.",
           "isCorrect": false,
           "rationale": "The cargo was newly generated parentless children for repopulation and control."
         }
@@ -86,21 +86,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Local horse carts that only moved furniture and never transported children after any Re-set.",
-          "isCorrect": false,
-          "rationale": "Definition centers on rail transport of parentless children for city repopulation."
-        },
-        {
-          "label": "B",
-          "text": "Virtual multiplayer games with no physical tracks and no real-world repopulation role.",
+          "text": "Virtual multiplayer games with no physical tracks and no real-world repopulation role and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "They are physical logistical rail networks after planetary purge events."
         },
         {
-          "label": "C",
-          "text": "Ocean freighters only, with no rail networks and no destination cities already built.",
+          "label": "B",
+          "text": "Ocean freighters only, with no rail networks and no destination cities already built, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "They are rail networks into fully functioning emptied cities, not solely ocean freighters."
+        },
+        {
+          "label": "C",
+          "text": "Local horse carts that only moved furniture and never transported children after any Re-set, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Definition centers on rail transport of parentless children for city repopulation."
         },
         {
           "label": "D",
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
+          "text": "A permanent freeze of all history so no civilization ever ends or restarts under any label, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Re-sets cyclically annihilate populations and reboot the narrative as natural decline."
+        },
+        {
+          "label": "B",
           "text": "A cyclical, planned planetary destruction and mass sacrifice event that annihilates the existing population, falsely recorded in historical narratives as the natural Rise and Fall of civilizations.",
           "isCorrect": true,
           "rationale": "Re-set = planned annihilation harvest disguised as natural civilizational rise and fall."
         },
         {
-          "label": "B",
-          "text": "A permanent freeze of all history so no civilization ever ends or restarts under any label.",
-          "isCorrect": false,
-          "rationale": "Re-sets cyclically annihilate populations and reboot the narrative as natural decline."
-        },
-        {
           "label": "C",
-          "text": "A purely natural cultural cycle with no planning, no sacrifice, and no population annihilation.",
+          "text": "A school field trip schedule with no link to planetary purge or historical cover stories, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "A Re-set is planned planetary destruction and mass sacrifice, falsely recorded as natural rise and fall."
+          "rationale": "It is planetary destruction and mass sacrifice with false historical packaging."
         },
         {
           "label": "D",
-          "text": "A school field trip schedule with no link to planetary purge or historical cover stories.",
+          "text": "A purely natural cultural cycle with no planning, no sacrifice, and no population annihilation, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "It is planetary destruction and mass sacrifice with false historical packaging."
+          "rationale": "A Re-set is planned planetary destruction and mass sacrifice, falsely recorded as natural rise and fall."
         }
       ],
       "hint": "Planned planetary destruction — mass sacrifice — fake \"rise and fall.\"",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Tourist caves with no clone cultivation and no connection to Orphan Train logistics.",
-          "isCorrect": false,
-          "rationale": "They are subterranean labs for artificially growing the new orphan population."
-        },
-        {
-          "label": "B",
-          "text": "Deep Underground Military Bases — subterranean facilities where the new orphan crop was artificially grown in laboratories using harvested stem cells.",
-          "isCorrect": true,
-          "rationale": "DUMBS = underground stem-cell labs manufacturing the parentless orphan generation."
-        },
-        {
-          "label": "C",
-          "text": "G.A.A. free clinics that restore Tartarian memory and never manufacture parentless children.",
+          "text": "G.A.A. free clinics that restore Tartarian memory and never manufacture parentless children, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "DUMBS grow the artificial orphan crop for post-Reset repopulation, not liberation clinics."
         },
         {
-          "label": "D",
-          "text": "Surface farms that only grow wheat and never use stem cells or underground laboratories.",
+          "label": "B",
+          "text": "Tourist caves with no clone cultivation and no connection to Orphan Train logistics, with no manufactured population pipeline and no blank-slate reboot.",
+          "isCorrect": false,
+          "rationale": "They are subterranean labs for artificially growing the new orphan population."
+        },
+        {
+          "label": "C",
+          "text": "Surface farms that only grow wheat and never use stem cells or underground laboratories in any density, cycle, or historical configuration.",
           "isCorrect": false,
           "rationale": "DUMBS are Deep Underground Military Bases where the orphan crop is grown from harvested stem cells."
+        },
+        {
+          "label": "D",
+          "text": "Deep Underground Military Bases — subterranean facilities where the new orphan crop was artificially grown in laboratories using harvested stem cells.",
+          "isCorrect": true,
+          "rationale": "DUMBS = underground stem-cell labs manufacturing the parentless orphan generation."
         }
       ],
       "hint": "Deep Underground Military Bases — stem-cell lab orphan crop.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 6,
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Fully explained props that support school evolution charts with no contradiction to Freemason history.",
+          "text": "Fully explained props that support school evolution charts with no contradiction to Freemason history, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "They contradict the fabricated historical timeline imposed after Re-sets."
         },
         {
           "label": "B",
-          "text": "Only digital stickers that never appear as physical architecture or buried technological remnants.",
-          "isCorrect": false,
-          "rationale": "They are physical anomalies and advanced architectural remnants in the real landscape."
+          "text": "Blatant physical anomalies and advanced architectural remnants that contradict the fabricated historical timeline and prove highly technological prior civilizations.",
+          "isCorrect": true,
+          "rationale": "OOPAs break the fake timeline the orphans are taught and expose prior high-tech worlds."
         },
         {
           "label": "C",
-          "text": "Weather balloons only, with no link to prior civilizations or timeline deception.",
+          "text": "Weather balloons only, with no link to prior civilizations or timeline deception and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "OOPAs are evidence of highly technological prior civilizations erased from the orphan narrative."
         },
         {
           "label": "D",
-          "text": "Blatant physical anomalies and advanced architectural remnants that contradict the fabricated historical timeline and prove highly technological prior civilizations.",
-          "isCorrect": true,
-          "rationale": "OOPAs break the fake timeline the orphans are taught and expose prior high-tech worlds."
+          "text": "Only digital stickers that never appear as physical architecture or buried technological remnants, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "They are physical anomalies and advanced architectural remnants in the real landscape."
         }
       ],
       "hint": "Physical high-tech anomalies that contradict the fabricated timeline.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a coal company brand with no free-energy infrastructure and no civilizational architecture.",
-          "isCorrect": false,
-          "rationale": "It was advanced free-energy global civilization, not a mere brand label."
-        },
-        {
-          "label": "B",
-          "text": "The advanced free-energy global civilization that existed prior to the current era, systematically destroyed and hidden during the most recent Re-set.",
-          "isCorrect": true,
-          "rationale": "Orphan Trains repopulate after Tartaria's destruction and help erase knowledge of that civilization."
-        },
-        {
-          "label": "C",
-          "text": "A future project that never existed before modern textbooks invented the name last decade.",
+          "text": "A future project that never existed before modern textbooks invented the name last decade, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Tartaria was the advanced free-energy global civilization destroyed and hidden in the most recent Re-set."
         },
         {
-          "label": "D",
-          "text": "A Freemason charity that ran Orphan Trains as pure philanthropy without any Re-set connection.",
+          "label": "B",
+          "text": "A Freemason charity that ran Orphan Trains as pure philanthropy without any Re-set connection, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Tartaria was the civilization wiped by Re-set; Orphan Trains serve the cover and repopulation."
+        },
+        {
+          "label": "C",
+          "text": "Only a coal company brand with no free-energy infrastructure and no civilizational architecture, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "It was advanced free-energy global civilization, not a mere brand label."
+        },
+        {
+          "label": "D",
+          "text": "The advanced free-energy global civilization that existed prior to the current era, systematically destroyed and hidden during the most recent Re-set.",
+          "isCorrect": true,
+          "rationale": "Orphan Trains repopulate after Tartaria's destruction and help erase knowledge of that civilization."
         }
       ],
       "hint": "Advanced free-energy civilization — destroyed and hidden in latest Re-set.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 8,
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The rare organic minority who alone remember Tartaria without any indoctrination resistance.",
-          "isCorrect": false,
-          "rationale": "NPCs are soulless artificially generated beings comprising the vast majority of new populations."
-        },
-        {
-          "label": "B",
-          "text": "Fully self-aware 12th-density teachers who openly teach free-energy Tartarian science in schools.",
+          "text": "Fully self-aware 12th-density teachers who openly teach free-energy Tartarian science in schools, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "NPCs uphold fabricated consensus; they are not free high-density truth teachers."
         },
         {
+          "label": "B",
+          "text": "Soulless, artificially generated beings that comprise the vast majority of the new populations, designed to uphold the fabricated consensus reality.",
+          "isCorrect": true,
+          "rationale": "NPCs = synthetic majority enforcing the fake consensus the orphan system installs."
+        },
+        {
           "label": "C",
-          "text": "Only online avatars that never walk emptied cities or uphold any consensus narrative offline.",
+          "text": "Only online avatars that never walk emptied cities or uphold any consensus narrative offline, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "They are physical population majority designed to uphold fabricated consensus reality."
         },
         {
           "label": "D",
-          "text": "Soulless, artificially generated beings that comprise the vast majority of the new populations, designed to uphold the fabricated consensus reality.",
-          "isCorrect": true,
-          "rationale": "NPCs = synthetic majority enforcing the fake consensus the orphan system installs."
+          "text": "The rare organic minority who alone remember Tartaria without any indoctrination resistance, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "NPCs are soulless artificially generated beings comprising the vast majority of new populations."
         }
       ],
       "hint": "Vast majority — soulless artificial beings — uphold fabricated consensus.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only weather terms for fog and rain with no sacrificial or trauma harvest meaning.",
-          "isCorrect": false,
-          "rationale": "Both are primary products of Re-set violence, with Adrenochrome specifically from child trauma."
-        },
-        {
-          "label": "B",
-          "text": "Loosh is negative energetic resonance from human suffering, terror, and trauma used as sustenance by parasites and demons; Adrenochrome is a biological substance extracted from children during extreme trauma and sacrifice — the primary harvestable product of a Re-set.",
+          "text": "Loosh is negative energetic resonance from human suffering, terror, and trauma used as sustenance by parasites and demons.",
           "isCorrect": true,
           "rationale": "Re-sets farm Loosh and child-sourced Adrenochrome as the core harvest products."
         },
         {
+          "label": "B",
+          "text": "Public vitamins that raise frequency and permanently end all parasitic feeding forever, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Loosh is suffering energy food; Adrenochrome is extracted from children in extreme trauma."
+        },
+        {
           "label": "C",
-          "text": "Digital currencies mined by computers with no emotional content and no child sacrifice link.",
+          "text": "Digital currencies mined by computers with no emotional content and no child sacrifice link, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "They are energetic and biological harvests from human and child suffering."
         },
         {
           "label": "D",
-          "text": "Public vitamins that raise frequency and permanently end all parasitic feeding forever.",
+          "text": "Only weather terms for fog and rain with no sacrificial or trauma harvest meaning, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "Loosh is suffering energy food; Adrenochrome is extracted from children in extreme trauma."
+          "rationale": "Both are primary products of Re-set violence, with Adrenochrome specifically from child trauma."
         }
       ],
       "hint": "Loosh = suffering energy food; Adrenochrome = child trauma primary harvest.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 10,
@@ -310,9 +310,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Only natural war refugees with living parents waiting at every station for reunion.",
+          "text": "Actors hired for staged photos with no real transport of any population after Re-sets, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "They were generated without parents in underground labs, not reunited family refugees."
+          "rationale": "Real clone crops were transported; photographs document the manufactured orphan population."
         },
         {
           "label": "B",
@@ -322,15 +322,15 @@
         },
         {
           "label": "C",
-          "text": "Fully memory-intact Tartarian heirs who taught free energy on every rail car openly.",
+          "text": "Only natural war refugees with living parents waiting at every station for reunion, as if no adjacent systems participated at all.",
           "isCorrect": false,
-          "rationale": "They were blank-slate clones without parents, not free Tartarian teachers."
+          "rationale": "They were generated without parents in underground labs, not reunited family refugees."
         },
         {
           "label": "D",
-          "text": "Actors hired for staged photos with no real transport of any population after Re-sets.",
+          "text": "Fully memory-intact Tartarian heirs who taught free energy on every rail car openly, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "Real clone crops were transported; photographs document the manufactured orphan population."
+          "rationale": "They were blank-slate clones without parents, not free Tartarian teachers."
         }
       ],
       "hint": "Primarily DUMBS clones without parents — not natural poverty survivors.",
@@ -342,25 +342,25 @@
       "options": [
         {
           "label": "A",
-          "text": "No violence occurs; Re-sets only rename cities on maps without touching bodies or energy harvest.",
+          "text": "Everyone receives free herbal medicine and keeps full family structure with zero sacrifice, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "Re-sets are mass torture and sacrifice plus stem-cell harvest for the next generation."
+          "rationale": "Entire surface population faces extreme torture, sexual violence, and mass sacrifice for Adrenochrome and Loosh."
         },
         {
           "label": "B",
-          "text": "The entire surface population — adults and children — is subjected to extreme torture, sexual violence, and mass sacrifice to extract Adrenochrome and Loosh; before children are sacrificed, their stem cells are harvested to engineer the next generation.",
+          "text": "The entire surface population — adults and children — is subjected to extreme torture, sexual violence, and mass sacrifice to extract Adrenochrome and Loosh.",
           "isCorrect": true,
           "rationale": "Total surface harvest violence + child stem cells taken before sacrifice to seed DUMBS clones."
         },
         {
           "label": "C",
-          "text": "Everyone receives free herbal medicine and keeps full family structure with zero sacrifice.",
+          "text": "No violence occurs; Re-sets only rename cities on maps without touching bodies or energy harvest, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "Entire surface population faces extreme torture, sexual violence, and mass sacrifice for Adrenochrome and Loosh."
+          "rationale": "Re-sets are mass torture and sacrifice plus stem-cell harvest for the next generation."
         },
         {
           "label": "D",
-          "text": "Only livestock are culled while humans watch safely from Arks with no stem-cell extraction.",
+          "text": "Only livestock are culled while humans watch safely from Arks with no stem-cell extraction, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Human adults and children are the sacrifice and stem-cell source for the next crop."
         }
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only one island is ever reset while the rest of Earth remains permanently untouched forever.",
+          "text": "They are executed country by country over several years, using dimensional Overlays and territory shielding to render active destruction invisible to neighboring regions or seafaring vessels.",
+          "isCorrect": true,
+          "rationale": "Staggered country-by-country Re-sets stay hidden behind Overlays and territory shields."
+        },
+        {
+          "label": "B",
+          "text": "Only one island is ever reset while the rest of Earth remains permanently untouched forever, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "Execution is multi-year, multi-country sequencing under shield tech, not a single-island exception."
         },
         {
-          "label": "B",
-          "text": "Yes — every continent is purged in the same hour with no shielding and full global live broadcast.",
-          "isCorrect": false,
-          "rationale": "Re-sets run country by country over several years using Overlays and territory shielding."
-        },
-        {
           "label": "C",
-          "text": "They never hide anything; neighboring regions always watch the full slaughter in real time openly.",
+          "text": "They never hide anything; neighboring regions always watch the full slaughter in real time openly, with the surrounding architecture waved away as irrelevant.",
           "isCorrect": false,
           "rationale": "Dimensional Overlays and territory shielding render active destruction invisible to neighbors and ships."
         },
         {
           "label": "D",
-          "text": "They are executed country by country over several years, using dimensional Overlays and territory shielding to render active destruction invisible to neighboring regions or seafaring vessels.",
-          "isCorrect": true,
-          "rationale": "Staggered country-by-country Re-sets stay hidden behind Overlays and territory shields."
+          "text": "Yes — every continent is purged in the same hour with no shielding and full global live broadcast, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Re-sets run country by country over several years using Overlays and territory shielding."
         }
       ],
       "hint": "Country by country over years — Overlays and territory shielding hide it.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 13,
@@ -406,9 +406,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Repopulation began in 1492 only, and no Gold Rush narrative was ever fabricated afterward.",
+          "text": "There was no American Re-set; Gold Rushes were pure spontaneous discovery with no orphan lineage.",
           "isCorrect": false,
-          "rationale": "Last American repopulation phase is dated around 1728 with later 1848/1851 Gold Rush fabrication."
+          "rationale": "Orphan-line grandchildren drove the fabricated Gold Rushes after 1728 repopulation."
         },
         {
           "label": "B",
@@ -418,19 +418,19 @@
         },
         {
           "label": "C",
-          "text": "There was no American Re-set; Gold Rushes were pure spontaneous discovery with no orphan lineage.",
-          "isCorrect": false,
-          "rationale": "Orphan-line grandchildren drove the fabricated Gold Rushes after 1728 repopulation."
+          "text": "The last Re-set in America began its repopulation phase around 1728.",
+          "isCorrect": true,
+          "rationale": "1728 orphan repopulation → generational cover → fabricated 1848/1851 Gold Rushes."
         },
         {
           "label": "D",
-          "text": "The last Re-set in America began its repopulation phase around 1728; the grandchildren of these original orphans eventually drove the fabricated Gold Rushes of 1848 and 1851.",
-          "isCorrect": true,
-          "rationale": "1728 orphan repopulation → generational cover → fabricated 1848/1851 Gold Rushes."
+          "text": "Repopulation began in 1492 only, and no Gold Rush narrative was ever fabricated afterward.",
+          "isCorrect": false,
+          "rationale": "Last American repopulation phase is dated around 1728 with later 1848/1851 Gold Rush fabrication."
         }
       ],
       "hint": "America ~1728 repopulation — grandchildren drive 1848/1851 fabricated Gold Rushes.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 14,
@@ -438,25 +438,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Free-energy systems are left fully public and taught as core curriculum on every Orphan Train car.",
-          "isCorrect": false,
-          "rationale": "Free-energy tech is dismantled or hidden during the multi-year suppression window."
-        },
-        {
-          "label": "B",
           "text": "No waiting period exists; trains leave during the massacre while cities are still under active fire.",
           "isCorrect": false,
           "rationale": "Repopulation logistics follow a 3—5 year post-Reset suppression period after the purge concludes."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Cities are demolished to dust first so orphans must invent architecture from zero with hand tools only.",
           "isCorrect": false,
           "rationale": "Destination cities are fully functioning and highly developed from previous inhabitants."
         },
         {
+          "label": "C",
+          "text": "Free-energy systems are left fully public and taught as core curriculum on every Orphan Train car.",
+          "isCorrect": false,
+          "rationale": "Free-energy tech is dismantled or hidden during the multi-year suppression window."
+        },
+        {
           "label": "D",
-          "text": "After a Re-set concludes, free-energy technology is dismantled or hidden for 3 to 5 years; then newly grown orphans are trained to cities that already have intricate infrastructure, harmonic architecture, and free-energy rail networks from previous inhabitants.",
+          "text": "After a Re-set concludes, free-energy technology is dismantled or hidden for 3 to 5 years.",
           "isCorrect": true,
           "rationale": "3—5 year tech suppression, then clones into fully built Tartarian-grade cities on trains."
         }
@@ -470,27 +470,27 @@
       "options": [
         {
           "label": "A",
-          "text": "G.A.A. Micro Suns who teach pure Tartarian free-energy science and true flat-earth cosmology only.",
+          "text": "Random street vendors with no Freemason link taught only trade skills and no history at all, so Freemason Arks and false Evolution doctrine never enter the clone re-education pipeline.",
           "isCorrect": false,
-          "rationale": "Re-education installs fabricated history and false evolution, not Tartarian truth."
+          "rationale": "Pre-selected Freemason survivors with prior knowledge were spared and deployed as educators."
         },
         {
           "label": "B",
-          "text": "Pre-selected survivors — often Freemasons with prior knowledge — were spared and hidden in temporary accommodations or Arks, then deployed to educate and indoctrinate parentless clones into a completely fabricated history, including the false biological doctrine of Evolution via natural selection.",
+          "text": "Pre-selected Freemason survivors hidden in Arks were deployed to indoctrinate parentless clones into fabricated history, including false Evolution via natural selection.",
           "isCorrect": true,
           "rationale": "Freemason survivors from Arks indoctrinate clones with fake history and Darwinian evolution cover."
         },
         {
           "label": "C",
-          "text": "No adults survive any Re-set, so clones teach themselves without any indoctrination apparatus.",
+          "text": "No adults survive any Re-set, so clones teach themselves without any indoctrination apparatus, leaving parentless clones without any indoctrination apparatus or fabricated history curriculum.",
           "isCorrect": false,
           "rationale": "Select adults are spared specifically to run the re-education apparatus on clones."
         },
         {
           "label": "D",
-          "text": "Random street vendors with no Freemason link and no fabricated history curriculum of any kind.",
+          "text": "G.A.A. Micro Suns teach pure Tartarian free-energy science and true flat-earth cosmology only, replacing Freemason re-education with pure Old World truth for every orphan arrival.",
           "isCorrect": false,
-          "rationale": "Pre-selected Freemason survivors with prior knowledge were spared and deployed as educators."
+          "rationale": "Re-education installs fabricated history and false evolution, not Tartarian truth."
         }
       ],
       "hint": "Freemason survivors / Arks — indoctrinate clones — fake history and evolution.",
@@ -502,27 +502,27 @@
       "options": [
         {
           "label": "A",
-          "text": "It trained 15 to 22 million people in flat-earth science and herbal medicine for public schools.",
+          "text": "It had no demographic target and only moved furniture between empty Tartarian cities peacefully, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "It was engineered specifically to cull remaining memory-holders aged 15 to 50."
+        },
+        {
+          "label": "B",
+          "text": "It trained 15 to 22 million people in flat-earth science and herbal medicine for public schools, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "WW1 culled ages 15—50 who still remembered flat earth, herbals, and old-world civilization."
         },
         {
-          "label": "B",
-          "text": "It restored Tartarian rail free energy and published true Re-set history in every newspaper.",
-          "isCorrect": false,
-          "rationale": "The war severed final links to pre-Re-set knowledge rather than restoring it."
-        },
-        {
           "label": "C",
-          "text": "WW1 was engineered to cull the remaining population aged 15 to 50 — Re-set survivors who still retained memories of the flat earth, natural herbal remedies, and old-world civilization — eliminating 15 to 22 million people and severing final links to pre-Re-set knowledge.",
+          "text": "WW1 was engineered to cull the remaining population aged 15 to 50 — Re-set survivors who still retained memories of the flat earth, natural herbal remedies, and old-world civilization.",
           "isCorrect": true,
           "rationale": "WW1 = demographic memory wipe of ages 15—50, 15—22 million dead, pre-Reset knowledge cut."
         },
         {
           "label": "D",
-          "text": "It had no demographic target and only moved furniture between empty Tartarian cities peacefully.",
+          "text": "It restored Tartarian rail free energy and published true Re-set history in every newspaper, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "It was engineered specifically to cull remaining memory-holders aged 15 to 50."
+          "rationale": "The war severed final links to pre-Re-set knowledge rather than restoring it."
         }
       ],
       "hint": "WW1 culls ages 15—50 memory holders — 15 to 22 million — cut pre-Reset knowledge.",
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Giants were celebrated in every school as official Tartarian lineage with full Smithsonian support.",
+          "text": "Giants were celebrated in every school as official Tartarian lineage with full Smithsonian support, with no blackmail structure and no proxy role for non-human overlords.",
           "isCorrect": false,
           "rationale": "Smithsonian confiscated and suppressed the artifacts to protect the false historical timeline."
         },
         {
           "label": "B",
-          "text": "Railroads never hit burial mounds; no giants were found and the Smithsonian displayed nothing related.",
+          "text": "Only modern cow bones were found, ranging under two meters, with no Freemason railroad link, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Remains were Giants 12 to 35+ meters; Freemason railroad magnates founded the suppressing Smithsonian."
+        },
+        {
+          "label": "C",
+          "text": "Railroads never hit burial mounds; no giants were found and the Smithsonian displayed nothing related, with no blackmail structure and no proxy role for non-human overlords.",
           "isCorrect": false,
           "rationale": "Expansion sliced ancient burial mounds and uncovered over 10,000 Giant skeletons."
         },
         {
-          "label": "C",
-          "text": "Railroad expansion facilitating Orphan Trains sliced ancient burial mounds from previous Re-sets, uncovering over 10,000 Giant skeletons (12 to 35+ meters); the Smithsonian — founded by the same Freemason railroad magnates managing the new infrastructure — immediately confiscated and suppressed the artifacts.",
+          "label": "D",
+          "text": "Railroad expansion facilitating Orphan Trains sliced ancient burial mounds from previous Re-sets, uncovering over 10,000 Giant skeletons (12 to 35+ meters).",
           "isCorrect": true,
           "rationale": "Orphan-train rail boom exposes giants; Freemason magnate Smithsonian vaults the evidence."
-        },
-        {
-          "label": "D",
-          "text": "Only modern cow bones were found, ranging under two meters, with no Freemason railroad link.",
-          "isCorrect": false,
-          "rationale": "Remains were Giants 12 to 35+ meters; Freemason railroad magnates founded the suppressing Smithsonian."
         }
       ],
       "hint": "Rails hit mounds — 10,000+ giants — Freemason railroad Smithsonian suppress.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 18,
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A landscape recently devastated by Mud-floods from advanced soil liquefaction and energy weaponry that buried Tartarian cities and turned organic matter into stone; surviving resplendent buildings were falsely attributed to the new primitive populations and repurposed as government buildings, libraries, and schools.",
+          "text": "An untouched paradise where no soil liquefaction occurred and every building was newly invented by orphans, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Landscape was Mud-flood devastated; buildings pre-existed from Tartaria and were repurposed."
+        },
+        {
+          "label": "B",
+          "text": "A landscape recently devastated by Mud-floods from advanced soil liquefaction and energy weaponry that buried Tartarian cities and turned organic matter into stone.",
           "isCorrect": true,
           "rationale": "Mud-flood weapon aftermath + stolen Tartarian buildings rebranded as new \"progress\" infrastructure."
         },
         {
-          "label": "B",
-          "text": "A pure ice field with no energy weapons, no stone conversion of organics, and no city burial.",
+          "label": "C",
+          "text": "A pure ice field with no energy weapons, no stone conversion of organics, and no city burial, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Mud-floods from liquefaction and energy weapons buried Tartarian cities in the train era landscape."
         },
         {
-          "label": "C",
-          "text": "Only empty desert with no repurposed architecture and no false attribution to primitive newcomers.",
+          "label": "D",
+          "text": "Nothing beyond empty desert with no repurposed architecture and no false attribution to primitive newcomers, and no coordinated multi-system design behind it.",
           "isCorrect": false,
           "rationale": "Surviving Tartarian structures were repurposed as modern government, library, and school buildings."
-        },
-        {
-          "label": "D",
-          "text": "An untouched paradise where no soil liquefaction occurred and every building was newly invented by orphans.",
-          "isCorrect": false,
-          "rationale": "Landscape was Mud-flood devastated; buildings pre-existed from Tartaria and were repurposed."
         }
       ],
       "hint": "Mud-floods bury Tartaria — survivors rebrand buildings as new primitive works.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 19,
@@ -598,19 +598,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Orphans mature in one week so asylums were never needed as interim energetic batteries.",
-          "isCorrect": false,
-          "rationale": "Maturation takes 20 to 30 years; asylums bridge that gap as Loosh Batteries."
-        },
-        {
-          "label": "B",
           "text": "Asylums only stored train schedules and never held human inmates or fed any demonic entities.",
           "isCorrect": false,
           "rationale": "They incarcerated shell-shocked survivors as continuous Loosh supply between harvest phases."
         },
         {
+          "label": "B",
+          "text": "Orphans mature in one week so asylums were never needed as interim energetic batteries in any density, cycle, or historical configuration.",
+          "isCorrect": false,
+          "rationale": "Maturation takes 20 to 30 years; asylums bridge that gap as Loosh Batteries."
+        },
+        {
           "label": "C",
-          "text": "Survivors who witnessed demon-led Re-set reality and were not used for re-education were incarcerated in massive repurposed Tartarian structures as Lunatic Asylums; because it takes 20 to 30 years for the new orphan population to mature enough for steady sacrifice and energy, these 5,000-bed asylums served as Loosh Batteries sustaining demons with concentrated terror of shell-shocked inmates in the interim.",
+          "text": "Survivors who witnessed demon-led Re-set reality and were not used for re-education were incarcerated in massive repurposed Tartarian structures as Lunatic Asylums.",
           "isCorrect": true,
           "rationale": "20—30 year maturation gap filled by 5,000-bed asylum Loosh Batteries of traumatized witnesses."
         },
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
+          "text": "A free democratic experiment with no parasitic design and no amnesia about prior civilizations, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Design goal is absolute control via ignorance and dependence, not free memory-intact society."
+        },
+        {
+          "label": "B",
+          "text": "A fully memory-intact Tartarian elite with independent free-energy sovereignty from day one, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Foundational population began as a blank slate entirely dependent on a fabricated parasitic system."
+        },
+        {
+          "label": "C",
           "text": "A mechanism of absolute control ensuring the foundational population of the current era began as a blank slate, entirely dependent on a fabricated, parasitic system.",
           "isCorrect": true,
           "rationale": "Blank-slate dependence on parasitic fabrication is the strategic purpose of Orphan Train repopulation."
         },
         {
-          "label": "B",
-          "text": "Only tourists who left after one week with no lasting demographic or control impact.",
+          "label": "D",
+          "text": "Only tourists who left after one week with no lasting demographic or control impact, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "Orphan Trains built the foundational population of the current era as controlled blank slate."
-        },
-        {
-          "label": "C",
-          "text": "A free democratic experiment with no parasitic design and no amnesia about prior civilizations.",
-          "isCorrect": false,
-          "rationale": "Design goal is absolute control via ignorance and dependence, not free memory-intact society."
-        },
-        {
-          "label": "D",
-          "text": "A fully memory-intact Tartarian elite with independent free-energy sovereignty from day one.",
-          "isCorrect": false,
-          "rationale": "Foundational population began as a blank slate entirely dependent on a fabricated parasitic system."
         }
       ],
       "hint": "Blank slate foundational population — total dependence on parasitic fabrication.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 21,
@@ -662,19 +662,19 @@
       "options": [
         {
           "label": "A",
-          "text": "As pure human progress inventing all harmonic architecture from empty dirt with no prior civilization.",
-          "isCorrect": false,
-          "rationale": "It is a deliberate inversion: the period marks the end of a superior civilization, not invention progress."
-        },
-        {
-          "label": "B",
-          "text": "As only a fashion trend in hats with no link to civilizational downgrade or orphan logistics.",
+          "text": "As only a fashion trend in hats with no link to civilizational downgrade or orphan logistics, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "It frames the Orphan Train era as progress while actually ending superior harmonic civilization."
         },
         {
+          "label": "B",
+          "text": "As pure human progress inventing all harmonic architecture from empty dirt with no prior civilization, so no severance from that system would ever be required.",
+          "isCorrect": false,
+          "rationale": "It is a deliberate inversion: the period marks the end of a superior civilization, not invention progress."
+        },
+        {
           "label": "C",
-          "text": "As a G.A.A. gift program that openly credited Tartaria on every factory plaque worldwide.",
+          "text": "As a G.A.A. gift program that openly credited Tartaria on every factory plaque worldwide, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "The narrative hides Tartaria's end; it does not credit the superior prior civilization."
         },
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They have no connection to Re-sets and only regulate sports leagues without memory effects.",
+          "text": "They were designed by the victors to maintain mass amnesia, suppress multidimensional awareness, and secure complete compliance from cloned populations until the next planned harvest.",
+          "isCorrect": true,
+          "rationale": "Education, finance, and religion = amnesia and compliance machines until the next harvest."
+        },
+        {
+          "label": "B",
+          "text": "They have no connection to Re-sets and only regulate sports leagues without memory effects, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Recognizing Orphan Trains as Re-set artifacts reveals these institutions' true amnesia purpose."
         },
         {
-          "label": "B",
-          "text": "They end all harvest cycles permanently so no next planned harvest can ever be scheduled.",
-          "isCorrect": false,
-          "rationale": "They secure compliance until the next planned harvest, not end the harvest cycle."
-        },
-        {
           "label": "C",
-          "text": "They restore full Tartarian free-energy science and encourage multidimensional awakening for all clones.",
+          "text": "They restore full Tartarian free-energy science and encourage multidimensional awakening for all clones, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "They suppress multidimensional awareness and maintain mass amnesia by design."
         },
         {
           "label": "D",
-          "text": "They were designed by the victors to maintain mass amnesia, suppress multidimensional awareness, and secure complete compliance from cloned populations until the next planned harvest.",
-          "isCorrect": true,
-          "rationale": "Education, finance, and religion = amnesia and compliance machines until the next harvest."
+          "text": "They end all harvest cycles permanently so no next planned harvest can ever be scheduled, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "They secure compliance until the next planned harvest, not end the harvest cycle."
         }
       ],
       "hint": "Education, finance, religion — mass amnesia — compliance until next harvest.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 23,
@@ -726,15 +726,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Underwater domes only, with no surface cities and no previous-inhabitant architecture remaining.",
+          "text": "Underwater domes only, with no surface cities and no previous-inhabitant architecture remaining and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "Surface cities remained fully structured from previous inhabitants for clone repopulation."
         },
         {
           "label": "B",
-          "text": "Only tent camps with no harmonic architecture and no rail networks of any prior design.",
+          "text": "Empty deserts with no infrastructure where orphans invented every rail and building from scratch, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Destinations were highly developed with prior free-energy rail and harmonic buildings."
+          "rationale": "Cities already possessed intricate infrastructure, harmonic architecture, and free-energy rail networks."
         },
         {
           "label": "C",
@@ -744,9 +744,9 @@
         },
         {
           "label": "D",
-          "text": "Empty deserts with no infrastructure where orphans invented every rail and building from scratch.",
+          "text": "Only tent camps with no harmonic architecture and no rail networks of any prior design, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
-          "rationale": "Cities already possessed intricate infrastructure, harmonic architecture, and free-energy rail networks."
+          "rationale": "Destinations were highly developed with prior free-energy rail and harmonic buildings."
         }
       ],
       "hint": "Already-built advanced cities — harmonic architecture and free-energy rails.",
@@ -758,13 +758,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Independent farmers seeking to display every giant skeleton publicly with full Tartarian context.",
+          "text": "No Freemasons were involved; the Smithsonian only cataloged train schedules without archaeology, with no blackmail structure and no proxy role for non-human overlords.",
           "isCorrect": false,
-          "rationale": "Freemason railroad magnates founded it to confiscate and suppress timeline-breaking artifacts."
+          "rationale": "Freemason railroad magnates founded it specifically to suppress giant and timeline evidence."
         },
         {
           "label": "B",
-          "text": "G.A.A. archivists who publish all OOPA evidence free and never suppress giant remains.",
+          "text": "G.A.A. archivists who publish all OOPA evidence free and never suppress giant remains, casting liberating forces as operators of the prison rather than its dismantlers.",
           "isCorrect": false,
           "rationale": "Same Freemason railroad magnates managing new infrastructure used it to protect false history."
         },
@@ -776,9 +776,9 @@
         },
         {
           "label": "D",
-          "text": "No Freemasons were involved; the Smithsonian only cataloged train schedules without archaeology.",
+          "text": "Independent farmers seeking to display every giant skeleton publicly with full Tartarian context, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "Freemason railroad magnates founded it specifically to suppress giant and timeline evidence."
+          "rationale": "Freemason railroad magnates founded it to confiscate and suppress timeline-breaking artifacts."
         }
       ],
       "hint": "Freemason railroad magnates — Smithsonian suppresses giants to protect false timeline.",
@@ -790,27 +790,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Absolute control from a blank-slate start, then global educational, financial, and religious systems maintain mass amnesia, suppress multidimensional awareness, and secure complete compliance from cloned populations until the next planned harvest.",
+          "text": "Absolute blank-slate control, then education, finance, and religion maintain mass amnesia and compliance until the next planned harvest cycle.",
           "isCorrect": true,
           "rationale": "Orphan Trains seed the blank slate; institutions hold amnesia until the next planned harvest."
         },
         {
           "label": "B",
-          "text": "Permanent liberation of every clone into 12th density with no further planned harvest cycles.",
+          "text": "Permanent liberation of every clone into 12th density with no further harvest cycles planned, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
-          "rationale": "Systems secure complete compliance from cloned populations until the next planned harvest."
+          "rationale": "Design goal is mass amnesia and compliance, not open Re-set literacy for resistance."
         },
         {
           "label": "C",
-          "text": "Only one generation of trains with no educational, financial, or religious amnesia machinery afterward.",
+          "text": "Open teaching of Re-set mechanics so clones refuse all future sacrifice systems immediately.",
           "isCorrect": false,
           "rationale": "Victors designed global institutions to maintain amnesia and compliance for ongoing harvest cycles."
         },
         {
           "label": "D",
-          "text": "Open teaching of Re-set mechanics so clones refuse all future sacrifice systems immediately.",
+          "text": "Only one generation of trains with no educational, financial, or religious amnesia machinery afterward.",
           "isCorrect": false,
-          "rationale": "Design goal is mass amnesia and compliance, not open Re-set literacy for resistance."
+          "rationale": "Systems secure complete compliance from cloned populations until the next planned harvest."
         }
       ],
       "hint": "Blank slate → institutional amnesia → compliance until next planned harvest.",

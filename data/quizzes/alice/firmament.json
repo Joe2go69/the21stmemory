@@ -28,21 +28,21 @@
         },
         {
           "label": "B",
-          "text": "The inner Holographic Projection Dome that alone creates all of physical sight.",
-          "isCorrect": false,
-          "rationale": "The dome is the inner technological layer beneath the Firmament; perception depends on the outer membrane bending light and sound."
-        },
-        {
-          "label": "C",
-          "text": "A decorative cloud layer painted by Freemasons for aesthetic reasons only.",
+          "text": "A decorative cloud layer painted by Freemasons for aesthetic reasons only, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Freemasons enforce the globe lie to hide the Firmament; the membrane itself is functional necessity, not decoration."
         },
         {
-          "label": "D",
-          "text": "Empty vacuum beyond the Dark Matter Field where planets orbit suns.",
+          "label": "C",
+          "text": "Empty vacuum beyond the Dark Matter Field where planets orbit suns, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "True space beyond the Firmament is the bright-white Dark Matter Field; Heliocentrism is the fake model."
+        },
+        {
+          "label": "D",
+          "text": "The inner Holographic Projection Dome that alone creates all of physical sight.",
+          "isCorrect": false,
+          "rationale": "The dome is the inner technological layer beneath the Firmament; perception depends on the outer membrane bending light and sound."
         }
       ],
       "hint": "Outer membrane — bends light and sound for sight.",
@@ -66,15 +66,15 @@
         },
         {
           "label": "C",
-          "text": "178 disconnected globes floating in black vacuum with no Ice Wall partitions.",
-          "isCorrect": false,
-          "rationale": "Gateway-10 is 178 interconnected worlds on flat realms enclosed by the Firmament and partitioned by Ice Walls."
-        },
-        {
-          "label": "D",
           "text": "A spinning globe that rotates nearly 1,000 miles per hour under a Dyson Sphere.",
           "isCorrect": false,
           "rationale": "Globe spin at nearly 1,000 mph is dismantled as false; a globe could never support a Firmament."
+        },
+        {
+          "label": "D",
+          "text": "178 disconnected globes floating in black vacuum with no Ice Wall partitions.",
+          "isCorrect": false,
+          "rationale": "Gateway-10 is 178 interconnected worlds on flat realms enclosed by the Firmament and partitioned by Ice Walls."
         }
       ],
       "hint": "Flat horizontal plain — not a spinning sphere.",
@@ -86,15 +86,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Enclosing a globe would require an impractical network of massive pillars — in a Dyson Sphere style, giant pillars raising hundreds of miles into the sky.",
-          "isCorrect": true,
-          "rationale": "A sphere cannot sustain the structure. A globe-style enclosure would need impractical giant pillars hundreds of miles high."
+          "text": "Because the G.A.A. forbids any membrane on flat ground only, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The Firmament is designed strictly for a horizontal flat layout; the impossibility is mechanical, not a G.A.A. ban on flat membranes."
         },
         {
           "label": "B",
-          "text": "Because the G.A.A. forbids any membrane on flat ground only.",
+          "text": "Because Ice Walls automatically form spherical membranes every century.",
           "isCorrect": false,
-          "rationale": "The Firmament is designed strictly for a horizontal flat layout; the impossibility is mechanical, not a G.A.A. ban on flat membranes."
+          "rationale": "Ice Walls are horizontal partitions of the flat plain, not globe-supporting pillars."
         },
         {
           "label": "C",
@@ -104,13 +104,13 @@
         },
         {
           "label": "D",
-          "text": "Because Ice Walls automatically form spherical membranes every century.",
-          "isCorrect": false,
-          "rationale": "Ice Walls are horizontal partitions of the flat plain, not globe-supporting pillars."
+          "text": "Enclosing a globe would require an impractical network of massive pillars.",
+          "isCorrect": true,
+          "rationale": "A sphere cannot sustain the structure. A globe-style enclosure would need impractical giant pillars hundreds of miles high."
         }
       ],
       "hint": "Impractical pillars / Dyson Sphere-style hundreds of miles.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 4,
@@ -118,13 +118,13 @@
       "options": [
         {
           "label": "A",
-          "text": "As a temporary Ice Wall that melts every night at Polaris.",
+          "text": "As a temporary Ice Wall that melts every night at Polaris, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Ice Walls partition realms; the Sky Event peels dome and plasma, not nightly ice melt."
         },
         {
           "label": "B",
-          "text": "Alone, with no dome, so every NPC already sees the bright white Dark Matter Field.",
+          "text": "Alone, with no dome, so every NPC already sees the bright white Dark Matter Field and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "The dome and Black Void Plasma still mask true space; unawakened masses have not yet seen the exposure."
         },
@@ -136,7 +136,7 @@
         },
         {
           "label": "D",
-          "text": "Only as a Freemason classroom model with no physical function.",
+          "text": "Only as a Freemason classroom model with no physical function, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "It is absolute functional necessity for perception and atmospheric containment, not a classroom prop."
         }
@@ -150,9 +150,9 @@
       "options": [
         {
           "label": "A",
-          "text": "A natural spinning vacuum that never needed a Firmament.",
+          "text": "Realm-3 only, permanently disconnected from Gateway-10, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "The Firmament is absolute necessity for physical existence and perception inside true mechanics."
+          "rationale": "Realm-3 is one partitioned segment of Gateway-10's broader flat architecture."
         },
         {
           "label": "B",
@@ -162,13 +162,13 @@
         },
         {
           "label": "C",
-          "text": "Realm-3 only, permanently disconnected from Gateway-10.",
+          "text": "A natural spinning vacuum that never needed a Firmament, with no artificial sky, no enclosed realm, and no engineered reset scarring.",
           "isCorrect": false,
-          "rationale": "Realm-3 is one partitioned segment of Gateway-10's broader flat architecture."
+          "rationale": "The Firmament is absolute necessity for physical existence and perception inside true mechanics."
         },
         {
           "label": "D",
-          "text": "Only the Freemason school textbooks with no physical plain.",
+          "text": "Only the Freemason school textbooks with no physical plain, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "It is the actual multidimensional physical plain of existence, not merely textbooks."
         }
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Nothing beyond asteroid fragments that bounce harmlessly off the outer membrane, and no coordinated multi-system design behind it.",
+          "isCorrect": false,
+          "rationale": "Real space debris does not exist; parasites open portals and deliver weapons — asteroids are dome projections."
+        },
+        {
+          "label": "B",
           "text": "Hostile 4th-density entities who hijacked the physical plain, orchestrating inversion of reality and trapping human souls.",
           "isCorrect": true,
           "rationale": "Parasites are hostile 4th-density entities that hijacked the plain, inverted reality, and trap human souls."
         },
         {
-          "label": "B",
-          "text": "Benevolent 33rd-degree Freemasons restoring Heliocentrism for the Source.",
-          "isCorrect": false,
-          "rationale": "Freemasons are terrestrial agents under parasitic control enforcing globe lies, not Source restorers."
-        },
-        {
           "label": "C",
-          "text": "NPCs who built the Ice Wall without any craft breach capability.",
+          "text": "NPCs who built the Ice Wall without any craft breach capability, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Hostile ETs and parasites breach the membrane in crafts; NPCs are the unawakened population facing psychological failure at exposure."
         },
         {
           "label": "D",
-          "text": "Only asteroid fragments that bounce harmlessly off the outer membrane.",
+          "text": "Benevolent 33rd-degree Freemasons restoring Heliocentrism for the Source, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "Real space debris does not exist; parasites open portals and deliver weapons — asteroids are dome projections."
+          "rationale": "Freemasons are terrestrial agents under parasitic control enforcing globe lies, not Source restorers."
         }
       ],
       "hint": "Hostile 4th-density hijackers of the plain.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
+          "text": "The G.A.A. Sky Event procedure for switching off the dome, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "The Sky Event ends the dome illusion; Heliocentrism is the false model being ended."
+        },
+        {
+          "label": "B",
+          "text": "The true layout of Gateway-10's 178 interconnected flat worlds, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Gateway-10 is a connected horizontal plain; planets do not orbit suns in true cosmology."
+        },
+        {
+          "label": "C",
           "text": "The manufactured fake cosmological model designed to convince humanity that spherical planets orbit suns.",
           "isCorrect": true,
           "rationale": "Heliocentrism is manufactured deception — spherical planets orbiting suns — fully dismantled by true Firmament architecture."
         },
         {
-          "label": "B",
-          "text": "The G.A.A. Sky Event procedure for switching off the dome.",
-          "isCorrect": false,
-          "rationale": "The Sky Event ends the dome illusion; Heliocentrism is the false model being ended."
-        },
-        {
-          "label": "C",
-          "text": "Black Void Plasma's natural color when Dark Matter is absent.",
+          "label": "D",
+          "text": "Black Void Plasma's natural color when Dark Matter is absent, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Black Void Plasma is technology that blackens the sky; Dark Matter Field is bright white beyond the Firmament."
-        },
-        {
-          "label": "D",
-          "text": "The true layout of Gateway-10's 178 interconnected flat worlds.",
-          "isCorrect": false,
-          "rationale": "Gateway-10 is a connected horizontal plain; planets do not orbit suns in true cosmology."
         }
       ],
       "hint": "Fake model — spheres orbiting suns.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 8,
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Natural starlight from real asteroids piercing the outer membrane.",
+          "text": "Fuel for Sold Soul vessels so parasites can leave the realm forever, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "Real asteroid debris does not penetrate; black night sky is technological illusion, not natural star vacuum."
+          "rationale": "Sold Souls act as energetic keys for entry under high ambient frequencies; plasma hides true bright space."
         },
         {
           "label": "B",
-          "text": "The permanent material of the Ice Wall around Antarctica.",
+          "text": "The permanent material of the Ice Wall around Antarctica, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Ice Walls are physical horizontal boundaries; Black Void Plasma blackens the firmament sky illusion."
         },
         {
           "label": "C",
-          "text": "Custodian and Niberian technology deployed to artificially blacken the firmament and hide the bright white reality of true space.",
-          "isCorrect": true,
-          "rationale": "Black Void Plasma is Custodian/Niberian tech that paints the night sky black so the bright white true space stays hidden."
+          "text": "Natural starlight from real asteroids piercing the outer membrane, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Real asteroid debris does not penetrate; black night sky is technological illusion, not natural star vacuum."
         },
         {
           "label": "D",
-          "text": "Fuel for Sold Soul vessels so parasites can leave the realm forever.",
-          "isCorrect": false,
-          "rationale": "Sold Souls act as energetic keys for entry under high ambient frequencies; plasma hides true bright space."
+          "text": "Custodian and Niberian technology deployed to artificially blacken the firmament and hide the bright white reality of true space.",
+          "isCorrect": true,
+          "rationale": "Black Void Plasma is Custodian/Niberian tech that paints the night sky black so the bright white true space stays hidden."
         }
       ],
       "hint": "Artificial blackening — hides bright white true space.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 9,
@@ -278,21 +278,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Only the Holographic Projection Dome's inner sieve holes.",
-          "isCorrect": false,
-          "rationale": "The dome is inside, beneath the Firmament; the Dark Matter Field is the true expanse beyond."
-        },
-        {
-          "label": "B",
-          "text": "Realm-3 farmland between Ice Walls with no light at all.",
+          "text": "Realm-3 farmland between Ice Walls with no light at all and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "Realm-3 is the inhabited partitioned segment of the flat Earth, not the bright-white beyond-firmament field."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "The vast true expanse beyond the firmament, entirely composed of bright white light rather than a dark empty void.",
           "isCorrect": true,
           "rationale": "Beyond the Firmament the Dark Matter Field is filled with bright white light — not empty black vacuum."
+        },
+        {
+          "label": "C",
+          "text": "Only the Holographic Projection Dome's inner sieve holes, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The dome is inside, beneath the Firmament; the Dark Matter Field is the true expanse beyond."
         },
         {
           "label": "D",
@@ -302,7 +302,7 @@
         }
       ],
       "hint": "Beyond the membrane — bright white light, not black void.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 10,
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A single spinning globe with no interconnected worlds.",
-          "isCorrect": false,
-          "rationale": "It is flat interconnected worlds under firmament enclosure, not one spinning globe."
-        },
-        {
-          "label": "B",
           "text": "The central physical plain of existence comprising 178 interconnected worlds, where the firmament encloses the known flat realms.",
           "isCorrect": true,
           "rationale": "Gateway-10 is the central plain of 178 interconnected worlds; the Firmament encloses the known flat realms there."
         },
         {
-          "label": "C",
-          "text": "A Freemason code for Heliocentrism textbooks.",
+          "label": "B",
+          "text": "A single spinning globe with no interconnected worlds and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
-          "rationale": "It is the actual central physical plain architecture, not a textbook code name."
+          "rationale": "It is flat interconnected worlds under firmament enclosure, not one spinning globe."
+        },
+        {
+          "label": "C",
+          "text": "The name of the inner dome that projects fake asteroids only, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Gateway-10 is the plain of worlds; the inner dome is the Holographic Projection Dome."
         },
         {
           "label": "D",
-          "text": "The name of the inner dome that projects fake asteroids only.",
+          "text": "A Freemason code for Heliocentrism textbooks, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
-          "rationale": "Gateway-10 is the plain of worlds; the inner dome is the Holographic Projection Dome."
+          "rationale": "It is the actual central physical plain architecture, not a textbook code name."
         }
       ],
       "hint": "178 interconnected worlds — firmament encloses flat realms.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 11,
@@ -348,25 +348,25 @@
         },
         {
           "label": "B",
-          "text": "The currently inhabited segment of the flat Earth, artificially partitioned from the original Realm-2 by fake ice boundaries.",
-          "isCorrect": true,
-          "rationale": "Realm-3 is the inhabited flat-Earth segment, cut off from original Realm-2 by fake ice boundaries."
+          "text": "The Dark Matter Field of pure bright white light beyond all membranes, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Dark Matter Field is beyond the Firmament; Realm-3 is the inhabited partitioned segment inside the known lands."
         },
         {
           "label": "C",
-          "text": "The outer structural membrane that bends light and sound.",
+          "text": "The outer structural membrane that bends light and sound, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "That membrane is the Firmament itself, not Realm-3."
         },
         {
           "label": "D",
-          "text": "The Dark Matter Field of pure bright white light beyond all membranes.",
-          "isCorrect": false,
-          "rationale": "Dark Matter Field is beyond the Firmament; Realm-3 is the inhabited partitioned segment inside the known lands."
+          "text": "The currently inhabited segment of the flat Earth, artificially partitioned from the original Realm-2 by fake ice boundaries.",
+          "isCorrect": true,
+          "rationale": "Realm-3 is the inhabited flat-Earth segment, cut off from original Realm-2 by fake ice boundaries."
         }
       ],
       "hint": "Inhabited flat segment — partitioned from Realm-2 by fake ice.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 12,
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A myth projected only on the inner dome with no physical role.",
+          "text": "The G.A.A. pixelation cascade starting at Polaris, casting liberating forces as operators of the prison rather than its dismantlers.",
+          "isCorrect": false,
+          "rationale": "Polaris pixelation is the Sky Event dome shutdown visual, not the Ice Wall."
+        },
+        {
+          "label": "B",
+          "text": "A myth projected only on the inner dome with no physical role, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Ice Walls are physical boundaries that hide what lies beyond the known lands and kill curiosity about the wider plain."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "The physical horizontal boundaries (such as Antarctica) that partition the known lands from the rest of the flat cosmic plains.",
           "isCorrect": true,
           "rationale": "Ice Walls are physical horizontal boundaries — Antarctica among them — splitting known lands from the wider flat cosmic plains."
         },
         {
-          "label": "C",
-          "text": "The G.A.A. pixelation cascade starting at Polaris.",
-          "isCorrect": false,
-          "rationale": "Polaris pixelation is the Sky Event dome shutdown visual, not the Ice Wall."
-        },
-        {
           "label": "D",
-          "text": "Black Void Plasma frozen into a sphere around the globe.",
+          "text": "Black Void Plasma frozen into a sphere around the globe, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Ice Walls are flat-domain partitions; plasma blackens the sky illusion, not a spherical ice shell."
         }
       ],
       "hint": "Horizontal partitions (e.g. Antarctica) of the flat plains.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Operators who will switch off the Projection Dome during the Sky Event.",
+          "text": "Operators who will switch off the Projection Dome during the Sky Event, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "The Galactic Ancestral Alliance permanently switches off the inner dome at the Sky Event."
         },
         {
           "label": "B",
-          "text": "Builders of the true dual-layered sky for the Source of All Creation.",
-          "isCorrect": false,
-          "rationale": "They hide and suppress true cosmology; they do not construct the Source-level architecture for liberation."
+          "text": "33rd-degree terrestrial agents under parasitic control, tasked with enforcing the cosmological lies of the globe and hiding the firmament.",
+          "isCorrect": true,
+          "rationale": "33rd-degree Freemasons serve parasitic control by enforcing globe lies and hiding the Firmament through fake educational models."
         },
         {
           "label": "C",
-          "text": "NPC farmers who alone open portals for asteroid weapons.",
+          "text": "NPC farmers who alone open portals for asteroid weapons, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Parasites open portals and deliver weapons; Freemasons enforce the globe educational lie."
         },
         {
           "label": "D",
-          "text": "33rd-degree terrestrial agents under parasitic control, tasked with enforcing the cosmological lies of the globe and hiding the firmament.",
-          "isCorrect": true,
-          "rationale": "33rd-degree Freemasons serve parasitic control by enforcing globe lies and hiding the Firmament through fake educational models."
+          "text": "Builders of the true dual-layered sky for the Source of All Creation.",
+          "isCorrect": false,
+          "rationale": "They hide and suppress true cosmology; they do not construct the Source-level architecture for liberation."
         }
       ],
       "hint": "33rd-degree agents — enforce globe, hide Firmament.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 14,
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Because Polaris forbids globes after the Sky Event only, not before.",
+          "text": "Because Polaris forbids globes after the Sky Event only, not before, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The impossibility is present mechanics of creation, not a post-Sky-Event rule."
         },
         {
           "label": "B",
+          "text": "Because Black Void Plasma only sticks to flat glass classroom models, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Plasma blackens the firmament sky; the globe model fails because spheres cannot support the Firmament or life as claimed."
+        },
+        {
+          "label": "C",
           "text": "A spherical planet could never sustain life nor support a Firmament within true creation mechanics.",
           "isCorrect": true,
           "rationale": "Within true creation mechanics a spinning globe cannot sustain life or hold a Firmament — the accepted model is impossible."
         },
         {
-          "label": "C",
-          "text": "Because spheres spin too slowly to need any Ice Wall partitions.",
+          "label": "D",
+          "text": "Because spheres spin too slowly to need any Ice Wall partitions, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "The failure is structural and life-support impossibility, not spin-rate versus ice."
-        },
-        {
-          "label": "D",
-          "text": "Because Black Void Plasma only sticks to flat glass classroom models.",
-          "isCorrect": false,
-          "rationale": "Plasma blackens the firmament sky; the globe model fails because spheres cannot support the Firmament or life as claimed."
         }
       ],
       "hint": "Sphere cannot sustain life or a Firmament.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 15,
@@ -470,27 +470,27 @@
       "options": [
         {
           "label": "A",
-          "text": "178 small Ice Walls glued to the equator alone.",
+          "text": "Only a thin coat of Black Void Plasma with no supports, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "Ice Walls partition flat plains; the Dyson-style critique is about sky-high pillars on a globe."
+          "rationale": "The globe problem is structural support of a membrane on a sphere, described as massive pillars, not a plasma coat."
         },
         {
           "label": "B",
-          "text": "Giant pillars raising hundreds of miles into the sky to support the structure — an impractical network.",
+          "text": "Giant pillars raising hundreds of miles into the sky to support the structure.",
           "isCorrect": true,
           "rationale": "Trying to enclose a globe like a Dyson Sphere firmament would need giant pillars hundreds of miles high — impractical and wrong for true flat design."
         },
         {
           "label": "C",
-          "text": "A single Sold Soul contract renewable every night.",
+          "text": "178 small Ice Walls glued to the equator alone, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Sold Souls were energetic keys for parasite entry under high frequencies, not globe firmament pillars."
+          "rationale": "Ice Walls partition flat plains; the Dyson-style critique is about sky-high pillars on a globe."
         },
         {
           "label": "D",
-          "text": "Only a thin coat of Black Void Plasma with no supports.",
+          "text": "A single Sold Soul contract renewable every night, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "The globe problem is structural support of a membrane on a sphere, described as massive pillars, not a plasma coat."
+          "rationale": "Sold Souls were energetic keys for parasite entry under high frequencies, not globe firmament pillars."
         }
       ],
       "hint": "Giant pillars hundreds of miles — impractical.",
@@ -502,31 +502,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only NPCs would go blind while true souls keep vacuum vision.",
-          "isCorrect": false,
-          "rationale": "The Firmament is general requirement for physical eyes' perception in the plain."
-        },
-        {
-          "label": "B",
-          "text": "Eyes would automatically see the Dark Matter Field without any technology.",
+          "text": "Eyes would automatically see the Dark Matter Field without any technology, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "The membrane itself is required for perception; dome and plasma further control what is shown or hidden."
         },
         {
+          "label": "B",
+          "text": "Heliocentrism would become true and planets would start orbiting, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Removing the membrane does not validate fake orbital models; it would remove the basis of physical sight."
+        },
+        {
           "label": "C",
-          "text": "Physical sight would not exist — the membrane must bend light and sound for biological eyes to have perception.",
-          "isCorrect": true,
-          "rationale": "Without the Firmament bending light and sound, physical sight does not exist. The membrane is mandatory for perception."
+          "text": "Nothing beyond NPCs would go blind while true souls keep vacuum vision, and no coordinated multi-system design behind it.",
+          "isCorrect": false,
+          "rationale": "The Firmament is general requirement for physical eyes' perception in the plain."
         },
         {
           "label": "D",
-          "text": "Heliocentrism would become true and planets would start orbiting.",
-          "isCorrect": false,
-          "rationale": "Removing the membrane does not validate fake orbital models; it would remove the basis of physical sight."
+          "text": "Physical sight would not exist — the membrane must bend light and sound for biological eyes to have perception.",
+          "isCorrect": true,
+          "rationale": "Without the Firmament bending light and sound, physical sight does not exist. The membrane is mandatory for perception."
         }
       ],
       "hint": "No membrane bend of light/sound — no physical sight.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 17,
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
+          "text": "As 178 stacked globes rotating inside Black Void Plasma only.",
+          "isCorrect": false,
+          "rationale": "Architecture is flat dual-layer sky over horizontal plains, not stacked spinning globes."
+        },
+        {
+          "label": "B",
           "text": "As a single solid iron shell with no permeability or projections.",
           "isCorrect": false,
           "rationale": "It is dual, sieve-like, permeable enough for craft breach, with an inner projecting layer."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "As classroom freemason maps with no technological barrier at all.",
           "isCorrect": false,
           "rationale": "It is a highly advanced multi-layered technological barrier, not mere maps."
         },
         {
-          "label": "C",
-          "text": "Like two colanders or sieves sitting one inside the other on a table — outer true Firmament, inner Holographic Projection Dome.",
+          "label": "D",
+          "text": "Like two colanders or sieves sitting one inside the other on a table.",
           "isCorrect": true,
           "rationale": "Celestial structure is dual: two colander/sieve layers, outer Firmament and inner Projection Dome one inside the other."
-        },
-        {
-          "label": "D",
-          "text": "As 178 stacked globes rotating inside Black Void Plasma only.",
-          "isCorrect": false,
-          "rationale": "Architecture is flat dual-layer sky over horizontal plains, not stacked spinning globes."
         }
       ],
       "hint": "Two colanders/sieves — outer Firmament, inner dome.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 18,
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The true Firmament — essential for atmospheric containment and sensory perception.",
-          "isCorrect": true,
-          "rationale": "The outer layer is the true Firmament, required for atmospheric containment and sensory perception."
-        },
-        {
-          "label": "B",
-          "text": "Melting from Polaris during every ordinary night.",
+          "text": "Melting from Polaris during every ordinary night, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Polaris pixelation cascade is the impending Sky Event dome shutdown, not nightly outer-layer melt."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Only projecting fake stars while the inner layer holds the atmosphere.",
           "isCorrect": false,
           "rationale": "Fake star projection is the inner Holographic Projection Dome's job; outer holds containment and perception."
         },
         {
-          "label": "D",
-          "text": "Enforcing Heliocentrism so spheres can orbit safely.",
+          "label": "C",
+          "text": "Enforcing Heliocentrism so spheres can orbit safely, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "The outer Firmament dismantles Heliocentrism by belonging to flat enclosure mechanics."
+        },
+        {
+          "label": "D",
+          "text": "The true Firmament — essential for atmospheric containment and sensory perception.",
+          "isCorrect": true,
+          "rationale": "The outer layer is the true Firmament, required for atmospheric containment and sensory perception."
         }
       ],
       "hint": "Outer = atmosphere + sensory perception.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 19,
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Creates the bright white Dark Matter Field permanently outside.",
+          "text": "Creates the bright white Dark Matter Field permanently outside, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Dark Matter Field is true bright expanse beyond the Firmament; the dome projects fake sky illusions inside."
         },
         {
           "label": "B",
-          "text": "Is the Ice Wall that partitions Realm-2 from Realm-3.",
+          "text": "Is the Ice Wall that partitions Realm-2 from Realm-3, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Ice Walls are horizontal land/realm partitions; the dome is the inner sky technology layer."
         },
         {
           "label": "C",
-          "text": "Sits directly beneath the firmament and functions like a sieve to project the visual illusion of the cosmos, including fake stars, masking the true boundary.",
-          "isCorrect": true,
-          "rationale": "The inner dome sits under the Firmament as a sieve projecting fake cosmos and stars, masking the true boundary."
+          "text": "Is switched on permanently by the G.A.A. at the Sky Event, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "At the Sky Event the G.A.A. permanently switches the inner dome off."
         },
         {
           "label": "D",
-          "text": "Is switched on permanently by the G.A.A. at the Sky Event.",
-          "isCorrect": false,
-          "rationale": "At the Sky Event the G.A.A. permanently switches the inner dome off."
+          "text": "Sits directly beneath the firmament and functions like a sieve to project the visual illusion of the cosmos, including fake stars, masking the true boundary.",
+          "isCorrect": true,
+          "rationale": "The inner dome sits under the Firmament as a sieve projecting fake cosmos and stars, masking the true boundary."
         }
       ],
       "hint": "Inner sieve — fake stars, masks true boundary.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 20,
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They walked through Ice Walls as tourists with no craft or vessel.",
-          "isCorrect": false,
-          "rationale": "Entry is described as craft breach of the membrane plus Sold Soul keys for physical disembarking."
-        },
-        {
-          "label": "B",
-          "text": "Freemasons opened the Dark Matter Field gate every full moon only.",
-          "isCorrect": false,
-          "rationale": "Parasites breached with crafts and Sold Soul keys; Freemasons enforce globe lies on the ground."
-        },
-        {
-          "label": "C",
-          "text": "They breached the membrane in crafts, but ambient frequencies inside were too high for 4th-density beings to disembark without a compromised human vessel (a \"Sold Soul\") as an energetic key.",
+          "text": "Hostile ETs breached the Firmament in craft, but ambient frequencies were too high for 4th-density bodies until Density Suppression dimmed the realm for disembark.",
           "isCorrect": true,
           "rationale": "Crafts can breach the protective membrane, yet early on 4th-density parasites needed a Sold Soul human vessel as an energetic key to disembark under high ambient frequencies."
         },
         {
-          "label": "D",
-          "text": "Asteroids carried them in as real space debris through open holes.",
+          "label": "B",
+          "text": "Hostile ETs walked in on foot through open gates with no craft, no membrane breach, and no need for any frequency dimming at all, so harvest logistics, density tech, and inverted narrative machinery play no part.",
+          "isCorrect": false,
+          "rationale": "Entry is described as craft breach of the membrane plus Sold Soul keys for physical disembarking."
+        },
+        {
+          "label": "C",
+          "text": "Hostile ETs thrived at full 9th density on arrival and installed even brighter frequencies to celebrate permanent open occupation — that mechanism alone, with no wider inversion stack required to produce the result.",
           "isCorrect": false,
           "rationale": "Real space debris does not exist or penetrate; asteroid visuals are dome projections."
+        },
+        {
+          "label": "D",
+          "text": "The Firmament never blocked anyone; all densities always mixed freely on the open plain with no craft or suppression required.",
+          "isCorrect": false,
+          "rationale": "Parasites breached with crafts and Sold Soul keys; Freemasons enforce globe lies on the ground."
         }
       ],
       "hint": "Craft breach + Sold Soul energetic key under high frequency.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Real space debris does not exist or penetrate the Firmament; asteroid visuals are projections on the inner dome, while physical craters come from biological or energetic weapons delivered via portals opened by parasites from outside.",
-          "isCorrect": true,
-          "rationale": "Asteroids are myth projections on the dome. Real craters are weapon strikes through parasite portals from outside the Firmament."
-        },
-        {
-          "label": "B",
-          "text": "Craters form only when Black Void Plasma freezes into Ice Walls.",
-          "isCorrect": false,
-          "rationale": "Plasma blackens the sky; Ice Walls partition lands; crater cause is portal-delivered weapons."
-        },
-        {
-          "label": "C",
-          "text": "All craters are painted by Freemason libraries for education.",
+          "text": "All craters are painted by Freemason libraries for education, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Craters are physical results of weapons via portals, not library art projects."
         },
         {
-          "label": "D",
-          "text": "Random natural asteroids constantly punch clean holes in both sky layers.",
+          "label": "B",
+          "text": "Random natural asteroids constantly punch clean holes in both sky layers, disconnected from any deliberate long-game control design.",
           "isCorrect": false,
           "rationale": "Random asteroid strikes are myth; the Firmament is not perforated by real space debris."
+        },
+        {
+          "label": "C",
+          "text": "Craters form only when Black Void Plasma freezes into Ice Walls, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Plasma blackens the sky; Ice Walls partition lands; crater cause is portal-delivered weapons."
+        },
+        {
+          "label": "D",
+          "text": "Real space debris does not exist or penetrate the Firmament.",
+          "isCorrect": true,
+          "rationale": "Asteroids are myth projections on the dome. Real craters are weapon strikes through parasite portals from outside the Firmament."
         }
       ],
       "hint": "Asteroids = dome projections; craters = portal weapons.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 22,
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Planets do not orbit suns, and Earth does not rotate at nearly 1,000 miles per hour; the cosmos is a vast connected horizontal plain on Gateway-10.",
-          "isCorrect": true,
-          "rationale": "No orbital suns, no nearly 1,000 mph globe spin — cosmology is a connected horizontal plain on Gateway-10 under Firmament enclosure."
-        },
-        {
-          "label": "B",
-          "text": "Heliocentrism remains true but uses Ice Walls as planetary rings.",
+          "text": "Heliocentrism remains true but uses Ice Walls as planetary rings, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Heliocentrism is completely dismantled; Ice Walls partition flat plains."
         },
         {
+          "label": "B",
+          "text": "Planets do not orbit suns, and Earth does not rotate at nearly 1,000 miles per hour.",
+          "isCorrect": true,
+          "rationale": "No orbital suns, no nearly 1,000 mph globe spin — cosmology is a connected horizontal plain on Gateway-10 under Firmament enclosure."
+        },
+        {
           "label": "C",
-          "text": "Earth spins faster than 1,000 miles per hour so the Firmament can stay attached.",
+          "text": "Only Realm-3 orbits Polaris while Realm-2 remains a vacuum globe, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "The claim of near-1,000 mph rotation is rejected; flat horizontal layout replaces spin models."
+          "rationale": "Realm-3 is a partitioned flat segment; Polaris figures in Sky Event pixelation, not orbital truth."
         },
         {
           "label": "D",
-          "text": "Only Realm-3 orbits Polaris while Realm-2 remains a vacuum globe.",
+          "text": "Earth spins faster than 1,000 miles per hour so the Firmament can stay attached.",
           "isCorrect": false,
-          "rationale": "Realm-3 is a partitioned flat segment; Polaris figures in Sky Event pixelation, not orbital truth."
+          "rationale": "The claim of near-1,000 mph rotation is rejected; flat horizontal layout replaces spin models."
         }
       ],
       "hint": "No sun orbits, no 1,000 mph spin — horizontal Gateway-10 plain.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 23,
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Galactic Ancestral Alliance (G.A.A.) permanently switches off the inner Holographic Projection Dome.",
-          "isCorrect": true,
-          "rationale": "At the Sky Event the G.A.A. permanently shuts off the inner Holographic Projection Dome — terminal dismantling of the sky deception."
-        },
-        {
-          "label": "B",
-          "text": "Parasites rebuild a Dyson Sphere with pillars hundreds of miles high.",
+          "text": "Parasites rebuild a Dyson Sphere with pillars hundreds of miles high, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "The event exposes truth by removing dome and plasma, not building globe pillars."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Freemasons permanently switch the dome to brighter fake stars.",
           "isCorrect": false,
           "rationale": "G.A.A. turns the dome off; Freemasons were enforcers of the globe lie, not Sky Event operators."
         },
         {
-          "label": "D",
-          "text": "Ice Walls melt so Realm-3 becomes a spinning sphere again.",
+          "label": "C",
+          "text": "Ice Walls melt so Realm-3 becomes a spinning sphere again, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The architecture is flat; the Sky Event peels projection and plasma to reveal bright true space."
+        },
+        {
+          "label": "D",
+          "text": "The Galactic Ancestral Alliance (G.A.A.) permanently switches off the inner Holographic Projection Dome.",
+          "isCorrect": true,
+          "rationale": "At the Sky Event the G.A.A. permanently shuts off the inner Holographic Projection Dome — terminal dismantling of the sky deception."
         }
       ],
       "hint": "G.A.A. permanently switches off the inner dome.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 24,
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only Antarctica's Ice Wall flashing once with no sky change.",
-          "isCorrect": false,
-          "rationale": "The cascade is a full sky structural dismantling from Polaris downward past the knees."
-        },
-        {
-          "label": "B",
-          "text": "A gentle fade to black vacuum with no pixelation and no white light.",
-          "isCorrect": false,
-          "rationale": "The visual is cascading pixelation from Polaris, then shocking bright white exposure — not a fade to empty black."
-        },
-        {
-          "label": "C",
-          "text": "Fake stars brighten while Black Void Plasma thickens forever.",
+          "text": "Fake stars brighten while Black Void Plasma thickens forever, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Plasma is stripped away and the dome is switched off — concealment ends."
         },
         {
-          "label": "D",
-          "text": "Melting pixelation cascading from the star Polaris all the way downwards past the observer's knees; with Black Void Plasma stripped away, the bright white light of the Dark Matter Field behind the firmament is shockingly exposed.",
+          "label": "B",
+          "text": "Melting pixelation cascading from the star Polaris all the way downwards past the observer's knees.",
           "isCorrect": true,
           "rationale": "Dome shutdown appears as Polaris-origin melting pixelation falling past the knees; plasma removal exposes bright white Dark Matter Field behind the Firmament."
+        },
+        {
+          "label": "C",
+          "text": "A gentle fade to black vacuum with no pixelation and no white light, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The visual is cascading pixelation from Polaris, then shocking bright white exposure — not a fade to empty black."
+        },
+        {
+          "label": "D",
+          "text": "Only Antarctica's Ice Wall flashing once with no sky change and no hidden harvest architecture behind the scenes.",
+          "isCorrect": false,
+          "rationale": "The cascade is a full sky structural dismantling from Polaris downward past the knees."
         }
       ],
       "hint": "Polaris pixelation past the knees — then bright white exposure.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 25,
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Mild curiosity only, because Heliocentrism remains intact after the Sky Event.",
-          "isCorrect": false,
-          "rationale": "Globe illusion collapses completely; psychological failure is catastrophic, not mild curiosity."
-        },
-        {
-          "label": "B",
-          "text": "Instant promotion to 33rd-degree Freemason for every NPC.",
-          "isCorrect": false,
-          "rationale": "NPCs face catatonia and terror; Freemason ranks enforced the lie, not a reward path at exposure."
-        },
-        {
-          "label": "C",
-          "text": "Catastrophic psychological failure, sheer terror, and mass catatonia — especially for NPCs and devout followers of perceived scientific knowledge; understanding the true Earth shape and Firmament is the mandatory first step to comprehend the Great Spiritual Awakening.",
+          "text": "Catastrophic psychological failure, sheer terror, and mass catatonia — especially for NPCs and devout followers of perceived scientific knowledge.",
           "isCorrect": true,
           "rationale": "Unawakened masses, NPCs, and science-devout minds face terror and catatonia when the globe illusion collapses. Grasping flat Earth and the Firmament is the absolute first step into the Great Spiritual Awakening."
         },
         {
-          "label": "D",
-          "text": "Nothing — Firmament knowledge is optional trivia after the awakening ends.",
+          "label": "B",
+          "text": "Nothing — Firmament knowledge is optional trivia after the awakening ends, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Acknowledging the Firmament is the mandatory first step for any soul seeking to comprehend the Great Spiritual Awakening."
+        },
+        {
+          "label": "C",
+          "text": "Instant promotion to 33rd-degree Freemason for every NPC, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "NPCs face catatonia and terror; Freemason ranks enforced the lie, not a reward path at exposure."
+        },
+        {
+          "label": "D",
+          "text": "Mild curiosity only, because Heliocentrism remains intact after the Sky Event, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Globe illusion collapses completely; psychological failure is catastrophic, not mild curiosity."
         }
       ],
       "hint": "NPC/science-devout catatonia — Firmament is first awakening step.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     }
   ]
 }

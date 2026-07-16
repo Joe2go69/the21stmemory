@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a monetary hobby that distracts people with debt and retirement while never touching education or ego.",
-          "isCorrect": false,
-          "rationale": "That tracks Finance (String 2); Perceived Knowledge is the intellect/education tether."
-        },
-        {
-          "label": "B",
-          "text": "A free open-source library of firmament science already taught in every university without deception.",
-          "isCorrect": false,
-          "rationale": "Universities weaponize deception; String 3 is the rigid shield, not free true cosmology."
-        },
-        {
-          "label": "C",
           "text": "A temporary password for Scare Events that grants NPC status without any intellectual pride.",
           "isCorrect": false,
           "rationale": "String 3 is the pride-and-certainty trap; NPCs are the 97% running scripted education paths."
         },
         {
-          "label": "D",
-          "text": "The final and most insidious psychological tether in The 3 Strings of Attachment — the sum of accepted education, intellectual pride, and societal understanding that solidifies into a rigid defensive shield for the ego.",
+          "label": "B",
+          "text": "Only a monetary hobby that distracts people with debt and retirement while never touching education or ego.",
+          "isCorrect": false,
+          "rationale": "That tracks Finance (String 2); Perceived Knowledge is the intellect/education tether."
+        },
+        {
+          "label": "C",
+          "text": "The final and most insidious psychological tether in The 3 Strings of Attachment.",
           "isCorrect": true,
           "rationale": "String 3 is intellect-as-armor: lifelong schooled understanding hardened into an ego shield that blocks true cosmology."
+        },
+        {
+          "label": "D",
+          "text": "A free open-source library of firmament science already taught in every university without deception.",
+          "isCorrect": false,
+          "rationale": "Universities weaponize deception; String 3 is the rigid shield, not free true cosmology."
         }
       ],
       "hint": "String 3 — intellect as rigid ego shield against true cosmology.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Three optional sports leagues that dissolve if you change the channel once.",
-          "isCorrect": false,
-          "rationale": "They are engineered constructs that bind consciousness: Religion, Finance, and Perceived Knowledge."
-        },
-        {
-          "label": "B",
-          "text": "Only Gravity, Evolution, and Linear Time as physical cables under the Ice Wall.",
-          "isCorrect": false,
-          "rationale": "Those are false paradigms inside String 3; the three Strings are Religion, Finance, and Perceived Knowledge."
-        },
-        {
-          "label": "C",
           "text": "Religion, Finance, and Perceived Knowledge — engineered constructs that bind human consciousness to the current planetary simulation.",
           "isCorrect": true,
           "rationale": "Three engineered tethers: Religion, Finance, Perceived Knowledge bind consciousness to the simulation."
         },
         {
+          "label": "B",
+          "text": "Only Gravity, Evolution, and Linear Time as physical cables under the Ice Wall, with every larger system treated as clean, uninvolved, or beside the point.",
+          "isCorrect": false,
+          "rationale": "Those are false paradigms inside String 3; the three Strings are Religion, Finance, and Perceived Knowledge."
+        },
+        {
+          "label": "C",
+          "text": "Three optional sports leagues that dissolve if you change the channel once, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "They are engineered constructs that bind consciousness: Religion, Finance, and Perceived Knowledge."
+        },
+        {
           "label": "D",
-          "text": "Carnegie libraries, museum basements, and television studios with no psychological function.",
+          "text": "Carnegie libraries, museum basements, and television studios with no psychological function, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Those are delivery systems for the lies; the Strings themselves are the three psychological anchors."
         }
       ],
       "hint": "Religion · Finance · Perceived Knowledge.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The absolute reality that all foundational human education, historical records, and scientific paradigms are purposefully fabricated — there is no hidden truth within the mainstream system to discover.",
-          "isCorrect": true,
-          "rationale": "The Lie = total fabrication of education/history/science; you do not mine truth from inside that system."
-        },
-        {
-          "label": "B",
-          "text": "A minor textbook typo that can be fixed by reading more mainstream science journals.",
-          "isCorrect": false,
-          "rationale": "The Lie is total: all foundational education, history, and science are purposefully fabricated."
-        },
-        {
-          "label": "C",
-          "text": "Only financial fraud in banks, with universities remaining pure sources of cosmic truth.",
+          "text": "Nothing beyond financial fraud in banks, with universities remaining pure sources of cosmic truth, and no coordinated multi-system design behind it.",
           "isCorrect": false,
           "rationale": "Educational institutions, books, and media all disseminate deliberately wrong information."
         },
         {
-          "label": "D",
-          "text": "A future rumor that only matters after the EMF flash already finishes without preparation.",
+          "label": "B",
+          "text": "The absolute reality that all foundational human education, historical records, and scientific paradigms are purposefully fabricated.",
+          "isCorrect": true,
+          "rationale": "The Lie = total fabrication of education/history/science; you do not mine truth from inside that system."
+        },
+        {
+          "label": "C",
+          "text": "A future rumor that only matters after the EMF flash already finishes without preparation, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Recognizing The Lie and releasing intellect-as-safety is preparation now for planetary uninstallation."
+        },
+        {
+          "label": "D",
+          "text": "A minor textbook typo that can be fixed by reading more mainstream science journals, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "The Lie is total: all foundational education, history, and science are purposefully fabricated."
         }
       ],
       "hint": "All education, history, and science are fabricated — no mainstream hidden truth.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A calm soul state that automatically accepts firmament truth without any ego defense.",
+          "text": "A calm soul state that automatically accepts firmament truth without any ego defense, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "It is the mechanism that makes fabricated intellect define being and forces defense of false narratives."
         },
         {
           "label": "B",
+          "text": "A Mind Camp rule that only applies to NPCs and never to anyone with intellectual pride in any density, cycle, or historical configuration.",
+          "isCorrect": false,
+          "rationale": "Intellectual pride is exactly who operates under Safety of Certainty as ego armor."
+        },
+        {
+          "label": "C",
           "text": "The psychological mechanism wherein fabricated intellectual understanding defines a person's awareness and being, causing reflexive defense of false narratives to protect the ego.",
           "isCorrect": true,
           "rationale": "Safety of Certainty = identity built on fake intellect → ego defends the lie at all costs."
         },
         {
-          "label": "C",
-          "text": "A Mind Camp rule that only applies to NPCs and never to anyone with intellectual pride.",
-          "isCorrect": false,
-          "rationale": "Intellectual pride is exactly who operates under Safety of Certainty as ego armor."
-        },
-        {
           "label": "D",
-          "text": "A finance product that guarantees retirement income without intellectual pride involved.",
+          "text": "A finance product that guarantees retirement income without intellectual pride involved, while spiritual attention and institutional trust stay fully intact.",
           "isCorrect": false,
           "rationale": "Safety of Certainty is psychological: intellect defining identity and ego defense."
         }
       ],
       "hint": "Fabricated intellect defines being — ego defends the false narrative.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A free-thinking academy that rewards people for questioning Gravity, Evolution, and linear time.",
+          "text": "A free-thinking academy that rewards people for questioning Gravity, Evolution, and linear time, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "It enforces conformity against free questioning of the false paradigms."
         },
         {
           "label": "B",
-          "text": "Only a summer sports program with no link to peer pressure, media, or education scripts.",
+          "text": "Only a summer sports program with no link to peer pressure, media, or education scripts, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "It is the conformity architecture around thought, reinforced by media and peers."
         },
         {
           "label": "C",
-          "text": "A subterranean vault of Oopa's opened to every student as required curriculum.",
-          "isCorrect": false,
-          "rationale": "Oopa's are hidden in museum basements; Mind Camp keeps people from facing that evidence."
-        },
-        {
-          "label": "D",
           "text": "Societal conformity boundaries defining where thoughts may roam, enforced by peer ridicule, potential ostracization, and subconscious programming.",
           "isCorrect": true,
           "rationale": "Mind Camp is the allowed thought perimeter — ridicule, ostracization, and programming keep minds inside."
+        },
+        {
+          "label": "D",
+          "text": "A subterranean vault of Oopa's opened to every student as required curriculum, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Oopa's are hidden in museum basements; Mind Camp keeps people from facing that evidence."
         }
       ],
       "hint": "Conformity perimeter — ridicule and programming limit thought.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 6,
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only library patrons who already severed all three Strings before the last reset.",
+          "text": "Only library patrons who already severed all three Strings before the last reset, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "NPCs are the deeply programmed majority still inside Mind Camp parameters."
         },
         {
           "label": "B",
+          "text": "They all hold advanced firmament degrees and reject mainstream education entirely, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "NPCs rely entirely on programmed scripted thought from mainstream education and media."
+        },
+        {
+          "label": "C",
           "text": "97% of the population who lack internal monologues or self-awareness, relying entirely on programmed, uniform scripted chains of thought from mainstream education and media.",
           "isCorrect": true,
           "rationale": "NPCs = 97% without internal monologue, running education/media scripts only."
         },
         {
-          "label": "C",
-          "text": "They all hold advanced firmament degrees and reject mainstream education entirely.",
-          "isCorrect": false,
-          "rationale": "NPCs rely entirely on programmed scripted thought from mainstream education and media."
-        },
-        {
           "label": "D",
-          "text": "A tiny 3% minority of free souls who never watch television or trust experts.",
+          "text": "A tiny 3% minority of free souls who never watch television or trust experts, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "97% are NPCs; the free-soul remnant is the small minority, not the reverse."
         }
       ],
       "hint": "97% — no internal monologue; education/media scripts only.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only modern art installations with no link to high-technological prior civilizations.",
+          "text": "Only modern art installations with no link to high-technological prior civilizations, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "They are physical evidence of high-tech civilizations like Great Tartary."
         },
         {
           "label": "B",
-          "text": "Official textbooks that already list every Tartarian free-energy device without suppression.",
-          "isCorrect": false,
-          "rationale": "Oopa's contradict the fabricated timeline and are hidden in museum basements."
-        },
-        {
-          "label": "C",
           "text": "Physical evidence of high-technological civilizations (like Great Tartary) that contradict the fabricated historical timeline and are subsequently hidden in museum basements.",
           "isCorrect": true,
           "rationale": "Oopa's = high-tech prior-civilization proof buried in basements so the false timeline holds."
         },
         {
-          "label": "D",
-          "text": "Carnegie library card catalogs that teach spinning-globe cosmology as absolute law only.",
+          "label": "C",
+          "text": "Carnegie library card catalogs that teach spinning-globe cosmology as absolute law only, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Carnegie libraries spread the new bullshit; Oopa's are the suppressed physical counter-evidence."
+        },
+        {
+          "label": "D",
+          "text": "Official textbooks that already list every Tartarian free-energy device without suppression, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Oopa's contradict the fabricated timeline and are hidden in museum basements."
         }
       ],
       "hint": "High-tech Tartary evidence — hidden in museum basements.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 8,
@@ -252,9 +252,9 @@
         },
         {
           "label": "B",
-          "text": "Over 70,000 years to plan and construct a completely falsified reality — there was never genuine truth left in the physical realm for humanity to discover.",
-          "isCorrect": true,
-          "rationale": "70,000+ years of planned false reality; no genuine discoverable truth was left on the table."
+          "text": "Zero years — truth was always fully available in mainstream curricula by design.",
+          "isCorrect": false,
+          "rationale": "There was never genuine truth left in the realm for humanity to discover inside the system."
         },
         {
           "label": "C",
@@ -264,13 +264,13 @@
         },
         {
           "label": "D",
-          "text": "Zero years — truth was always fully available in mainstream curricula by design.",
-          "isCorrect": false,
-          "rationale": "There was never genuine truth left in the realm for humanity to discover inside the system."
+          "text": "Over 70,000 years to plan and construct a completely falsified reality.",
+          "isCorrect": true,
+          "rationale": "70,000+ years of planned false reality; no genuine discoverable truth was left on the table."
         }
       ],
       "hint": "Over 70,000 years — no genuine truth left to discover in-system.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 9,
@@ -278,21 +278,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Optional hobby pamphlets with no effect on ego, survival, or planetary uninstallation.",
-          "isCorrect": false,
-          "rationale": "Clinging to them guarantees collapse when terminal events dismantle the constructs."
-        },
-        {
-          "label": "B",
           "text": "Weaponized deception designed to obscure the true nature of existence.",
           "isCorrect": true,
           "rationale": "Books, curricula, and timelines are weapons that hide true existence, not neutral scholarship."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Living documents that update instantly when the Projection Dome switches off.",
           "isCorrect": false,
           "rationale": "They are pre-built deception; the dome-off event shatters those who still trust them."
+        },
+        {
+          "label": "C",
+          "text": "Optional hobby pamphlets with no effect on ego, survival, or planetary uninstallation.",
+          "isCorrect": false,
+          "rationale": "Clinging to them guarantees collapse when terminal events dismantle the constructs."
         },
         {
           "label": "D",
@@ -302,7 +302,7 @@
         }
       ],
       "hint": "Weaponized deception — obscure true existence.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 10,
@@ -310,27 +310,27 @@
       "options": [
         {
           "label": "A",
+          "text": "Because they refused to attend Carnegie libraries and therefore missed the only true archives.",
+          "isCorrect": false,
+          "rationale": "Truth was deliberately kept off the table of education — experts were trained inside the lie."
+        },
+        {
+          "label": "B",
           "text": "Because they secretly all know the firmament and only pretend otherwise for Finance bonuses.",
           "isCorrect": false,
           "rationale": "They possess zero factual knowledge of reality under this design — not secret full knowing."
         },
         {
-          "label": "B",
-          "text": "Because Gravity and Evolution are natural laws they correctly measured without any fabrication.",
-          "isCorrect": false,
-          "rationale": "Gravity and Evolution are named fabrications inside the educational weapon system."
-        },
-        {
           "label": "C",
-          "text": "Because the actual truth was deliberately kept off the table of education — their expertise is mastery of the fabricated curriculum, not of reality.",
+          "text": "Because the actual truth was deliberately kept off the table of education.",
           "isCorrect": true,
           "rationale": "Experts know the approved false stack; real truth was never allowed onto the education table."
         },
         {
           "label": "D",
-          "text": "Because they refused to attend Carnegie libraries and therefore missed the only true archives.",
+          "text": "Because Gravity and Evolution are natural laws they correctly measured without any fabrication.",
           "isCorrect": false,
-          "rationale": "Truth was deliberately kept off the table of education — experts were trained inside the lie."
+          "rationale": "Gravity and Evolution are named fabrications inside the educational weapon system."
         }
       ],
       "hint": "Truth kept off the education table — expertise is mastery of the lie.",
@@ -342,15 +342,15 @@
       "options": [
         {
           "label": "A",
-          "text": "They are reflexively protecting a paradigm built by fraudulent forces — clinging to perceived knowledge by citing fabricated historical figures to defend concepts such as the spinning globe.",
+          "text": "They are reflexively protecting a paradigm built by fraudulent forces.",
           "isCorrect": true,
           "rationale": "Copernicus-citation is ego armor for a fraudulent spinning-globe paradigm, not truth-seeking."
         },
         {
           "label": "B",
-          "text": "They successfully prove true cosmology and sever String 3 without ego involvement.",
+          "text": "They automatically join the 3% free-soul remnant and exit Mind Camp permanently.",
           "isCorrect": false,
-          "rationale": "They are reflexively protecting a paradigm built by fraudulent forces to trap the mind."
+          "rationale": "That reflex keeps them inside the intellectual prison and NPC-compatible scripting."
         },
         {
           "label": "C",
@@ -360,9 +360,9 @@
         },
         {
           "label": "D",
-          "text": "They automatically join the 3% free-soul remnant and exit Mind Camp permanently.",
+          "text": "They successfully prove true cosmology and sever String 3 without ego involvement.",
           "isCorrect": false,
-          "rationale": "That reflex keeps them inside the intellectual prison and NPC-compatible scripting."
+          "rationale": "They are reflexively protecting a paradigm built by fraudulent forces to trap the mind."
         }
       ],
       "hint": "Cite Copernicus / spinning globe = defend fraudulent paradigm.",
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "That Safety of Certainty should be strengthened so the ego can weather pixelation calmly.",
-          "isCorrect": false,
-          "rationale": "Failing to release Safety of Certainty guarantees collapse when constructs dismantle."
-        },
-        {
-          "label": "B",
           "text": "That it needs only minor edits while 90% of schooled science remains trustworthy forever.",
           "isCorrect": false,
           "rationale": "One must accept the entirety of the intellectual foundation is a lie designed to trap them."
         },
         {
-          "label": "C",
-          "text": "That the entirety of their intellectual foundation is a lie designed to trap them — reliance on perceived intellect must be systematically eradicated.",
+          "label": "B",
+          "text": "That the entirety of their intellectual foundation is a lie designed to trap them.",
           "isCorrect": true,
           "rationale": "Full foundation is trap-lie; eradicate reliance on perceived intellect for clean exit survival."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "That experts will update the truth automatically after the EMF flash without personal release.",
           "isCorrect": false,
           "rationale": "Personal release of perceived intellect is required; experts are inside the lie."
+        },
+        {
+          "label": "D",
+          "text": "That Safety of Certainty should be strengthened so the ego can weather pixelation calmly.",
+          "isCorrect": false,
+          "rationale": "Failing to release Safety of Certainty guarantees collapse when constructs dismantle."
         }
       ],
       "hint": "Entire intellectual foundation is a trap-lie — release it.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It is made of literal Kevlar stored in Carnegie basements for physical combat only.",
-          "isCorrect": false,
-          "rationale": "The shield is psychological: rigid ego framing from perceived knowledge."
-        },
-        {
-          "label": "B",
           "text": "It forms a rigid frame of protection around the ego — a timid frightened interior hidden behind a false \"borrowed\" exterior shell built from socially accepted knowledge.",
           "isCorrect": true,
           "rationale": "Borrowed social knowledge shells the ego; pride and intellect frame a rigid defense."
         },
         {
-          "label": "C",
-          "text": "It dissolves all pride so people naturally step outside normality without fear.",
+          "label": "B",
+          "text": "It dissolves all pride so people naturally step outside normality without fear, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Ego and pride force rejection of truths that threaten the intellectual comfort zone."
         },
         {
+          "label": "C",
+          "text": "It is made of literal Kevlar stored in Carnegie basements for physical combat only, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "The shield is psychological: rigid ego framing from perceived knowledge."
+        },
+        {
           "label": "D",
-          "text": "It only protects bank accounts and never constructs any exterior intellectual shell.",
+          "text": "It only protects bank accounts and never constructs any exterior intellectual shell, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "The shield is intellectual/ego armor from accepted knowledge, not a finance vault."
         }
       ],
       "hint": "Rigid ego frame — borrowed knowledge shell over a frightened interior.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 14,
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Because linear time training makes independent opinions illegal by physical law.",
+          "text": "Because linear time training makes independent opinions illegal by physical law, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Linear time is another false bind; the rejection mechanism here is ego/normality fear."
         },
         {
           "label": "B",
-          "text": "Because they are inherently terrified of stepping outside \"normality\" and committing to independent opinions — the ego forces rejection of threatening truth.",
+          "text": "Because true cosmology is already fully comfortable inside every Mind Camp boundary, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "They are terrified of stepping outside normality and committing to independent opinions."
+        },
+        {
+          "label": "C",
+          "text": "Because they are inherently terrified of stepping outside \"normality\" and committing to independent opinions.",
           "isCorrect": true,
           "rationale": "Fear of leaving normality + ego protection = automatic rejection of threatening truth."
         },
         {
-          "label": "C",
-          "text": "Because Oopa's in basements already confirmed every school textbook without conflict.",
+          "label": "D",
+          "text": "Because Oopa's in basements already confirmed every school textbook without conflict, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Oopa's contradict the textbooks; ego rejects that conflict to keep comfort."
-        },
-        {
-          "label": "D",
-          "text": "Because true cosmology is already fully comfortable inside every Mind Camp boundary.",
-          "isCorrect": false,
-          "rationale": "They are terrified of stepping outside normality and committing to independent opinions."
         }
       ],
       "hint": "Fear of leaving normality — ego rejects threatening truth.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 15,
@@ -470,9 +470,9 @@
       "options": [
         {
           "label": "A",
-          "text": "He burned every library so no fabricated knowledge could spread to the lower classes.",
+          "text": "He only built free-energy temples and banned fake science from all public shelves, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "He funded over 2,500 public libraries to spread the new fabricated knowledge widely."
+          "rationale": "The libraries were a strategic maneuver to spread \"the new bullshit\" as prestigious commodity."
         },
         {
           "label": "B",
@@ -482,15 +482,15 @@
         },
         {
           "label": "C",
-          "text": "He personally switched off the Projection Dome and revealed the firmament to every patron.",
+          "text": "He personally switched off the Projection Dome and revealed the firmament to every patron, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "His role was prestige dissemination of the lie, not dome removal or firmament reveal."
         },
         {
           "label": "D",
-          "text": "He only built free-energy temples and banned fake science from all public shelves.",
+          "text": "He burned every library so no fabricated knowledge could spread to the lower classes, without a larger engineered system underneath.",
           "isCorrect": false,
-          "rationale": "The libraries were a strategic maneuver to spread \"the new bullshit\" as prestigious commodity."
+          "rationale": "He funded over 2,500 public libraries to spread the new fabricated knowledge widely."
         }
       ],
       "hint": "2,500+ libraries — spread the new bullshit after the reset.",
@@ -502,21 +502,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Weaponized philanthropy turned fake science and history into prestigious, highly sought-after commodities for the lower classes through mass public libraries.",
-          "isCorrect": true,
-          "rationale": "Philanthropy-as-weapon: prestige libraries made the lie desirable to the lower classes."
+          "text": "By making it illegal to read so prestige came from illiteracy alone, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "The strategy was wide dissemination as prestigious sought-after knowledge, not bans on reading."
         },
         {
           "label": "B",
-          "text": "By hiding it only in sealed Vatican vaults with no public access or social status attached.",
+          "text": "By hiding it only in sealed Vatican vaults with no public access or social status attached, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Libraries turned fake science and history into prestigious, highly sought-after commodities."
         },
         {
           "label": "C",
-          "text": "By making it illegal to read so prestige came from illiteracy alone.",
-          "isCorrect": false,
-          "rationale": "The strategy was wide dissemination as prestigious sought-after knowledge, not bans on reading."
+          "text": "Weaponized philanthropy turned fake science and history into prestigious, highly sought-after commodities for the lower classes through mass public libraries.",
+          "isCorrect": true,
+          "rationale": "Philanthropy-as-weapon: prestige libraries made the lie desirable to the lower classes."
         },
         {
           "label": "D",
@@ -526,7 +526,7 @@
         }
       ],
       "hint": "Weaponized philanthropy — fake knowledge as prestige commodity.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 17,
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
-          "text": "An immutable natural law correctly measured by experts with full knowledge of the firmament.",
-          "isCorrect": false,
-          "rationale": "Experts have zero factual knowledge of reality; Gravity is named as fabrication."
-        },
-        {
-          "label": "B",
-          "text": "Only a metaphor for financial debt with no link to cosmology or globe defense.",
+          "text": "Only a metaphor for financial debt with no link to cosmology or globe defense, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "It is a cosmological fiction propping the globe model inside String 3."
         },
         {
-          "label": "C",
-          "text": "A fictional thoughtform invented merely to explain how water could adhere to a spinning ball hurtling through space — not a scientific reality.",
+          "label": "B",
+          "text": "A fictional thoughtform invented merely to explain how water could adhere to a spinning ball hurtling through space.",
           "isCorrect": true,
           "rationale": "Gravity is fiction invented to prop up the spinning-ball water story — not real science."
         },
         {
-          "label": "D",
-          "text": "A free-energy effect from Lattice gold that libraries openly taught after Carnegie.",
+          "label": "C",
+          "text": "A free-energy effect from Lattice gold that libraries openly taught after Carnegie, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Educational fabrications include Gravity as spinning-ball cover story, not free-energy teaching."
+        },
+        {
+          "label": "D",
+          "text": "An immutable natural law correctly measured by experts with full knowledge of the firmament, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Experts have zero factual knowledge of reality; Gravity is named as fabrication."
         }
       ],
       "hint": "Fictional thoughtform — water on a spinning ball cover story.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 18,
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "That NPCs have rich internal monologues suppressed only by temporary radio static.",
-          "isCorrect": false,
-          "rationale": "NPCs lack internal monologues by design; Evolution is about vessel-origin fabrication."
-        },
-        {
-          "label": "B",
-          "text": "That clocks and schedules are the only real structures in true cosmology without aging.",
+          "text": "That clocks and schedules are the only real structures in true cosmology without aging, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "It masks that physical vessels were biologically engineered and upgraded in high-density labs."
         },
         {
-          "label": "C",
-          "text": "That physical vessels were biologically engineered and upgraded in high-density laboratories by advanced geneticists — Evolution is a complete fabrication.",
+          "label": "B",
+          "text": "That physical vessels were biologically engineered and upgraded in high-density laboratories by advanced geneticists.",
           "isCorrect": true,
           "rationale": "Evolution fakes natural origin to hide lab engineering and upgrades of physical vessels."
         },
         {
+          "label": "C",
+          "text": "That NPCs have rich internal monologues suppressed only by temporary radio static, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "NPCs lack internal monologues by design; Evolution is about vessel-origin fabrication."
+        },
+        {
           "label": "D",
-          "text": "That Carnegie libraries never existed and knowledge was never prestige-commodified.",
+          "text": "That Carnegie libraries never existed and knowledge was never prestige-commodified in any density, cycle, or historical configuration.",
           "isCorrect": false,
           "rationale": "Evolution is a specific scientific fabrication about biological origins, not library denial."
         }
       ],
       "hint": "Fabrication masking lab-engineered vessel upgrades.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 19,
@@ -598,25 +598,25 @@
       "options": [
         {
           "label": "A",
+          "text": "By removing all clocks so no one can form the illusion of rigid schedules ever again, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Clocks and schedules are tools that cement the linear-time illusion."
+        },
+        {
+          "label": "B",
+          "text": "By making aging optional only for those who still cite Copernicus in public debates, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "True reality operates without time constraints or aging; linear time is the bind for everyone schooled into it."
+        },
+        {
+          "label": "C",
           "text": "By teaching that true reality has no clocks and therefore schools ban all schedules immediately.",
           "isCorrect": false,
           "rationale": "Reduced daylight cycles, clocks, and schedules cement the illusion that time is rigid and inescapable."
         },
         {
-          "label": "B",
-          "text": "By removing all clocks so no one can form the illusion of rigid schedules ever again.",
-          "isCorrect": false,
-          "rationale": "Clocks and schedules are tools that cement the linear-time illusion."
-        },
-        {
-          "label": "C",
-          "text": "By making aging optional only for those who still cite Copernicus in public debates.",
-          "isCorrect": false,
-          "rationale": "True reality operates without time constraints or aging; linear time is the bind for everyone schooled into it."
-        },
-        {
           "label": "D",
-          "text": "Reduced daylight cycles, clocks, and schedules cement the illusion that time is rigid and inescapable, binding intellect to a false temporal prison.",
+          "text": "Reduced daylight cycles, clocks, and schedules cement the illusion that time is rigid and inescapable.",
           "isCorrect": true,
           "rationale": "Daylight reduction + clocks + schedules lock the mind into false linear time."
         }
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
-          "text": "With stricter clocks than third-density schools and mandatory aging for all eternal souls.",
-          "isCorrect": false,
-          "rationale": "True reality operates without time constraints or aging."
-        },
-        {
-          "label": "B",
-          "text": "Only through Gravity equations that require spinning globes to prevent water loss.",
+          "text": "Only through Gravity equations that require spinning globes to prevent water loss, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Gravity is fictional; true reality is not globe-and-clock physics."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Without time constraints or aging — the opposite of the rigid inescapable linear-time illusion cemented by clocks and schedules.",
           "isCorrect": true,
           "rationale": "True reality: no time cage, no aging — linear time is the String 3 bind to drop."
         },
         {
+          "label": "C",
+          "text": "With stricter clocks than third-density schools and mandatory aging for all eternal souls, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "True reality operates without time constraints or aging."
+        },
+        {
           "label": "D",
-          "text": "As a permanent Mind Camp where peer ridicule defines cosmic law forever.",
+          "text": "As a permanent Mind Camp where peer ridicule defines cosmic law forever, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Mind Camp is the conformity prison; true reality is free of that temporal/intellectual cage."
         }
       ],
       "hint": "True reality — no time constraints, no aging.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
+          "text": "They exclusively open museum basements and teach Tartary free energy as core liturgy, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Together they trap consciousness; they do not liberate Oopa/Tartary truth."
+        },
+        {
+          "label": "B",
+          "text": "Each String cancels the others so keeping only intellect is always safe during the EMF flash, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "They function in unison; intellectual tether alone still produces fatal dissonance at reveal."
+        },
+        {
+          "label": "C",
           "text": "Religion subdues cognitive autonomy via false deities, Finance blinds via pursuit of fake money, and Perceived Knowledge ensures the intellect violently rejects the truth of the realm's architecture.",
           "isCorrect": true,
           "rationale": "Three-String stack: Religion subdues, Finance blinds, Intellect rejects architectural truth."
         },
         {
-          "label": "B",
-          "text": "They exclusively open museum basements and teach Tartary free energy as core liturgy.",
-          "isCorrect": false,
-          "rationale": "Together they trap consciousness; they do not liberate Oopa/Tartary truth."
-        },
-        {
-          "label": "C",
-          "text": "Each String cancels the others so keeping only intellect is always safe during the EMF flash.",
-          "isCorrect": false,
-          "rationale": "They function in unison; intellectual tether alone still produces fatal dissonance at reveal."
-        },
-        {
           "label": "D",
-          "text": "They only affect NPCs and never touch anyone who owns a university degree.",
+          "text": "They only affect NPCs and never touch anyone who owns a university degree, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Degrees are the String 3 armor; genuine souls must sever them too."
         }
       ],
       "hint": "Religion subdues · Finance blinds · Intellect rejects realm architecture.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 22,
@@ -694,9 +694,9 @@
       "options": [
         {
           "label": "A",
-          "text": "By awarding Oopa custody to every household that watches more mainstream news.",
+          "text": "Through mandatory firmament labs that force courage to question reality daily, stopping the explanation at that boundary alone.",
           "isCorrect": false,
-          "rationale": "Oopa's stay basement-hidden; more mainstream media deepens the pickle, not liberation."
+          "rationale": "Reinforced by television, radio, and societal peer pressure inside Mind Camp parameters."
         },
         {
           "label": "B",
@@ -706,19 +706,19 @@
         },
         {
           "label": "C",
-          "text": "Through mandatory firmament labs that force courage to question reality daily.",
-          "isCorrect": false,
-          "rationale": "Reinforced by television, radio, and societal peer pressure inside Mind Camp parameters."
+          "text": "Television, radio, and societal peer pressure constantly reinforce their thought paths so they navigate only within acceptable Mind Camp parameters.",
+          "isCorrect": true,
+          "rationale": "Media + peers pickle NPCs in Mind Camp scripts; no courage to question the fabric."
         },
         {
           "label": "D",
-          "text": "Television, radio, and societal peer pressure constantly reinforce their thought paths so they navigate only within acceptable Mind Camp parameters — lacking depth or courage to question reality's fabric.",
-          "isCorrect": true,
-          "rationale": "Media + peers pickle NPCs in Mind Camp scripts; no courage to question the fabric."
+          "text": "By awarding Oopa custody to every household that watches more mainstream news, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Oopa's stay basement-hidden; more mainstream media deepens the pickle, not liberation."
         }
       ],
       "hint": "TV, radio, peer pressure — pickled inside Mind Camp.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 23,
@@ -726,21 +726,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Nothing visual — only a private finance seminar for those still holding retirement plans.",
+          "text": "Only deeper blackness confirming a vast natural empty universe with no firmament.",
           "isCorrect": false,
-          "rationale": "It is a visible sky and environment dismantling, not a private seminar."
+          "rationale": "The actual firmament and bright white reality of the dark matter field beyond are revealed."
         },
         {
           "label": "B",
-          "text": "The actual firmament and the bright white reality of the dark matter field beyond it — the visual dismantling that shatters black-universe and spinning-globe paradigms.",
+          "text": "The actual firmament and the bright white reality of the dark matter field beyond it.",
           "isCorrect": true,
           "rationale": "EMF + dome off → firmament and bright white dark-matter field exposed."
         },
         {
           "label": "C",
-          "text": "Only deeper blackness confirming a vast natural empty universe with no firmament.",
+          "text": "Nothing visual — only a private finance seminar for those still holding retirement plans.",
           "isCorrect": false,
-          "rationale": "The actual firmament and bright white reality of the dark matter field beyond are revealed."
+          "rationale": "It is a visible sky and environment dismantling, not a private seminar."
         },
         {
           "label": "D",
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Fatal cognitive dissonance — no mental pigeon-hole for visual sky dismantling and literal pixelation; stripped of rigid intellectual shields, they succumb to total psychological collapse.",
+          "text": "They automatically sever String 3 because dissonance feels pleasant and informative, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "They experience fatal cognitive dissonance and total psychological collapse."
+        },
+        {
+          "label": "B",
+          "text": "Fatal cognitive dissonance — no mental pigeon-hole for visual sky dismantling and literal pixelation.",
           "isCorrect": true,
           "rationale": "No pigeon-hole for the reveal → fatal dissonance, shield collapse, psychological destruction."
         },
         {
-          "label": "B",
-          "text": "They alone receive clean exit because citing Copernicus counts as preparation.",
+          "label": "C",
+          "text": "They alone receive clean exit because citing Copernicus counts as preparation, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Copernicus-defense is the trap; collapse and evaporation await the tethered."
         },
         {
-          "label": "C",
-          "text": "They calmly invent new equations and remain stable without any pigeon-hole problem.",
+          "label": "D",
+          "text": "They calmly invent new equations and remain stable without any pigeon-hole problem, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "They have no mental pigeon-hole for sky dismantling and environmental pixelation."
-        },
-        {
-          "label": "D",
-          "text": "They automatically sever String 3 because dissonance feels pleasant and informative.",
-          "isCorrect": false,
-          "rationale": "They experience fatal cognitive dissonance and total psychological collapse."
         }
       ],
       "hint": "No pigeon-hole — fatal dissonance, pixelation, total collapse.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 25,
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Because universities will grade the EMF flash and only degree-holders may remain embodied.",
+          "text": "Without it, individuals evaporate into the aether alongside the deeply asleep population when trusted scientific laws break down under terminal events.",
+          "isCorrect": true,
+          "rationale": "Keep the intellectual shield and you collapse/evaporate with the asleep when laws of the lie fail on camera."
+        },
+        {
+          "label": "B",
+          "text": "Because universities will grade the EMF flash and only degree-holders may remain embodied, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Degrees are the armor that fails; survival requires releasing that reliance."
         },
         {
-          "label": "B",
-          "text": "Because Gravity becomes more true after the dome falls and only believers can swim in space.",
+          "label": "C",
+          "text": "Because Gravity becomes more true after the dome falls and only believers can swim in space, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Gravity is fiction; the dome-off reveal destroys globe-and-black-void believers' frameworks."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "Because Mind Camp expands to include firmament truth automatically for anyone who waits.",
           "isCorrect": false,
           "rationale": "Waiting while tethered produces collapse; active severing is the prerequisite."
-        },
-        {
-          "label": "D",
-          "text": "Without it, individuals evaporate into the aether alongside the deeply asleep population when trusted scientific laws break down under terminal events.",
-          "isCorrect": true,
-          "rationale": "Keep the intellectual shield and you collapse/evaporate with the asleep when laws of the lie fail on camera."
         }
       ],
       "hint": "Sever or evaporate into the aether with the deeply asleep.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     }
   ]
 }

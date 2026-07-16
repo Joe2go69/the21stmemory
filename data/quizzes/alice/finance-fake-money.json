@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a bookkeeping method with no effect on life choices or consciousness.",
+          "text": "A temporary G.A.A. tool for funding Med-Beds during the EMF flash, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "Finance dictates life trajectories, locks people into survival and servitude, and misdirects consciousness."
+          "rationale": "Med-Beds and debt forgiveness will not save anyone; finance is a parasitic tether, not a liberation tool."
         },
         {
           "label": "B",
-          "text": "A natural cosmic law that funds crystalline homes in higher densities.",
+          "text": "A natural cosmic law that funds crystalline homes in higher densities, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Higher densities run as a Cash-Less Society; finance is artificial bondage, not natural cosmic law."
         },
         {
           "label": "C",
-          "text": "A temporary G.A.A. tool for funding Med-Beds during the EMF flash.",
-          "isCorrect": false,
-          "rationale": "Med-Beds and debt forgiveness will not save anyone; finance is a parasitic tether, not a liberation tool."
-        },
-        {
-          "label": "D",
           "text": "A primary psychological tether engineered to blind the human population and misdirect consciousness away from spiritual reality.",
           "isCorrect": true,
           "rationale": "Finance is String 2 — a fabricated psychological tether that blinds humanity and pulls attention off spiritual reality into the pursuit of wealth."
+        },
+        {
+          "label": "D",
+          "text": "Only a bookkeeping method with no effect on life choices or consciousness, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Finance dictates life trajectories, locks people into survival and servitude, and misdirects consciousness."
         }
       ],
       "hint": "Psychological tether — blinds and misdirects from spirit.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Gold, silver, and copper — natural metals that free the Lattice Membrane Networks, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Gold and silver were inverted into finance tools; the three strings are psychological tethers, not metals."
+        },
+        {
+          "label": "B",
+          "text": "Savings, retirements, and Med-Beds — soft ropes anyone can drop overnight, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The strings are stronger than Kevlar; savings and retirements are finance attachments, not the named triad."
+        },
+        {
+          "label": "C",
           "text": "Religion, Finance, and Perceived Knowledge — engineered psychological anchors stronger than Kevlar to sever.",
           "isCorrect": true,
           "rationale": "The triad is Religion, Finance, and Perceived Knowledge. These anchors bind awareness to the artificial simulation and prove stronger than Kevlar to cut."
         },
         {
-          "label": "B",
-          "text": "NESARA, GESARA, and banking crashes — temporary market cycles.",
+          "label": "D",
+          "text": "NESARA, GESARA, and banking crashes — temporary market cycles, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Those are finance-string weapons and lures; the three strings are Religion, Finance, and Perceived Knowledge."
-        },
-        {
-          "label": "C",
-          "text": "Gold, silver, and copper — natural metals that free the Lattice Membrane Networks.",
-          "isCorrect": false,
-          "rationale": "Gold and silver were inverted into finance tools; the three strings are psychological tethers, not metals."
-        },
-        {
-          "label": "D",
-          "text": "Savings, retirements, and Med-Beds — soft ropes anyone can drop overnight.",
-          "isCorrect": false,
-          "rationale": "The strings are stronger than Kevlar; savings and retirements are finance attachments, not the named triad."
         }
       ],
       "hint": "Religion + Finance + Perceived Knowledge — stronger than Kevlar.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 3,
@@ -86,19 +86,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Money is fully real while religion alone is the only fake string.",
-          "isCorrect": false,
-          "rationale": "Both are engineered strings; finance is as fake as religion."
-        },
-        {
-          "label": "B",
-          "text": "Money becomes real only after NESARA forgives all debt.",
+          "text": "Money becomes real only after NESARA forgives all debt, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "NESARA/GESARA is bait for enslavement; it does not make fake money real."
         },
         {
+          "label": "B",
+          "text": "Money is fully real while religion alone is the only fake string, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Both are engineered strings; finance is as fake as religion."
+        },
+        {
           "label": "C",
-          "text": "Money is pure spiritual technology equal to crystalline homes back home.",
+          "text": "Money is pure spiritual technology equal to crystalline homes back home, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Back home is Cash-Less; money is a third-density injection, not true spiritual living tech."
         },
@@ -118,15 +118,15 @@
       "options": [
         {
           "label": "A",
-          "text": "As a temporary training wheel that automatically lifts everyone into 9th density.",
+          "text": "As optional decoration that never changes career, family, or daily choices, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Finance binds people down; it does not elevate density."
+          "rationale": "It dictates life trajectories and blinds the direction of a whole life."
         },
         {
           "label": "B",
-          "text": "As the only honest path to equal crystalline homes for all.",
+          "text": "As a temporary training wheel that automatically lifts everyone into 9th density, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "Equal crystalline living is Cash-Less Society back home, not wealth-chasing here."
+          "rationale": "Finance binds people down; it does not elevate density."
         },
         {
           "label": "C",
@@ -136,9 +136,9 @@
         },
         {
           "label": "D",
-          "text": "As optional decoration that never changes career, family, or daily choices.",
+          "text": "As the only honest path to equal crystalline homes for all, held as a complete closed account of the events.",
           "isCorrect": false,
-          "rationale": "It dictates life trajectories and blinds the direction of a whole life."
+          "rationale": "Equal crystalline living is Cash-Less Society back home, not wealth-chasing here."
         }
       ],
       "hint": "Artificial gravity — survival and servitude loop.",
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Beg for NESARA/GESARA so debt forgiveness funds the exit.",
+          "text": "Wait for Med-Beds to dissolve the string automatically.",
           "isCorrect": false,
-          "rationale": "NESARA/GESARA is psychological bait toward enslavement, not a clean exit tool."
+          "rationale": "A Med-Bed will not fix you; uninstallation of financial obsession is mandatory personal work."
         },
         {
           "label": "B",
-          "text": "Double down on retirement accounts before the banking crash.",
-          "isCorrect": false,
-          "rationale": "Those still tethered to bank accounts and retirements face profound psychological collapse when crashes hit."
-        },
-        {
-          "label": "C",
           "text": "Entirely sever attachment to the illusion of finance.",
           "isCorrect": true,
           "rationale": "Success in the terminal awakening phase requires completely cutting attachment to the finance illusion — not refining or reforming it."
         },
         {
-          "label": "D",
-          "text": "Wait for Med-Beds to dissolve the string automatically.",
+          "label": "C",
+          "text": "Double down on retirement accounts before the banking crash.",
           "isCorrect": false,
-          "rationale": "A Med-Bed will not fix you; uninstallation of financial obsession is mandatory personal work."
+          "rationale": "Those still tethered to bank accounts and retirements face profound psychological collapse when crashes hit."
+        },
+        {
+          "label": "D",
+          "text": "Beg for NESARA/GESARA so debt forgiveness funds the exit.",
+          "isCorrect": false,
+          "rationale": "NESARA/GESARA is psychological bait toward enslavement, not a clean exit tool."
         }
       ],
       "hint": "Entirely sever — no half-cut of the illusion.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 6,
@@ -182,31 +182,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They are automatically promoted to Cash-Less Society managers.",
+          "text": "They receive priority crystalline homes after the EMF flash, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "Cash-Less Society is higher-density equality without currency; clinging to accounts is the opposite of that readiness."
+          "rationale": "Wealth becomes obsolete at Scare Events and the EMF flash; clinging does not buy priority homes."
         },
         {
           "label": "B",
-          "text": "Nothing — material assets survive the terminal deconstruction intact.",
+          "text": "Nothing — material assets survive the terminal deconstruction intact, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Physical wealth, bank accounts, and properties become instantly obsolete under Scare Events and the EMF flash."
         },
         {
           "label": "C",
-          "text": "They experience profound psychological collapse during the imminent orchestrated banking crashes and global uninstallation protocols.",
-          "isCorrect": true,
-          "rationale": "Remaining welded to banks, retirements, and assets sets up profound psychological collapse when planned banking crashes and uninstallation protocols hit."
+          "text": "They are automatically promoted to Cash-Less Society managers, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Cash-Less Society is higher-density equality without currency; clinging to accounts is the opposite of that readiness."
         },
         {
           "label": "D",
-          "text": "They receive priority crystalline homes after the EMF flash.",
-          "isCorrect": false,
-          "rationale": "Wealth becomes obsolete at Scare Events and the EMF flash; clinging does not buy priority homes."
+          "text": "They experience profound psychological collapse during the imminent orchestrated banking crashes and global uninstallation protocols.",
+          "isCorrect": true,
+          "rationale": "Remaining welded to banks, retirements, and assets sets up profound psychological collapse when planned banking crashes and uninstallation protocols hit."
         }
       ],
       "hint": "Psychological collapse when orchestrated crashes hit.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The original true existence \"back home,\" where all beings share an identical perfect standard of living, technology, and crystalline homes with no need for currency.",
-          "isCorrect": true,
-          "rationale": "Cash-Less Society is home truth: identical exceptional living, shared technology, crystalline homes, and zero currency."
-        },
-        {
-          "label": "B",
-          "text": "A deep-state digital wallet system enforced through FEMA Camps.",
+          "text": "A deep-state digital wallet system enforced through FEMA Camps, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "FEMA Camps and 15-minute cities are enslavement endpoints of finance bait — not true Cash-Less higher-density life."
         },
         {
+          "label": "B",
+          "text": "A temporary bank holiday until gold rushes restart commerce, disconnected from any deliberate long-game control design.",
+          "isCorrect": false,
+          "rationale": "Gold rushes engineered wealth-chasing; Cash-Less means no currency at all back home."
+        },
+        {
           "label": "C",
-          "text": "Only NPCs living without money while true souls keep central banks.",
+          "text": "Only NPCs living without money while true souls keep central banks, while spiritual attention and institutional trust stay fully intact.",
           "isCorrect": false,
           "rationale": "True higher realms give absolute equality to all beings there; it is not an NPC-only mode."
         },
         {
           "label": "D",
-          "text": "A temporary bank holiday until gold rushes restart commerce.",
-          "isCorrect": false,
-          "rationale": "Gold rushes engineered wealth-chasing; Cash-Less means no currency at all back home."
+          "text": "The original true existence \"back home,\" where all beings share an identical perfect standard of living, technology, and crystalline homes with no need for currency.",
+          "isCorrect": true,
+          "rationale": "Cash-Less Society is home truth: identical exceptional living, shared technology, crystalline homes, and zero currency."
         }
       ],
       "hint": "Back home — equal living, crystalline homes, no currency.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 8,
@@ -246,21 +246,21 @@
       "options": [
         {
           "label": "A",
+          "text": "Tiered retirements funded by Andrew Carnegie libraries, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Carnegie libraries spread fabricated knowledge; higher realms do not use retirement finance hierarchies."
+        },
+        {
+          "label": "B",
           "text": "Strict gold-and-silver mining quotas to power Lattice Membrane Networks.",
           "isCorrect": false,
           "rationale": "Gold and silver are meant to stay in the ground as spiritual technology — not mined as currency backing."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "Absolute equality — everyone has the same exceptional lifestyle and uses advanced manifestation abilities rather than commerce.",
           "isCorrect": true,
           "rationale": "Higher light realms run on absolute equality and advanced manifestation, not commerce or fake money."
-        },
-        {
-          "label": "C",
-          "text": "Tiered retirements funded by Andrew Carnegie libraries.",
-          "isCorrect": false,
-          "rationale": "Carnegie libraries spread fabricated knowledge; higher realms do not use retirement finance hierarchies."
         },
         {
           "label": "D",
@@ -270,7 +270,7 @@
         }
       ],
       "hint": "Equality + manifestation — not commerce.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 9,
@@ -278,9 +278,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Money is a complete waste of time; the awakening is absolutely not about savings, retirements, or the forgiveness of all debt.",
-          "isCorrect": true,
-          "rationale": "Foundational String 2 truth: money wastes time, and the Great Spiritual Awakening is not a savings, retirement, or debt-forgiveness event."
+          "text": "Debt forgiveness alone completes the Great Spiritual Awakening, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Forgiveness of debt will not save you; total detachment from finance obsession is mandatory."
         },
         {
           "label": "B",
@@ -290,19 +290,19 @@
         },
         {
           "label": "C",
-          "text": "Debt forgiveness alone completes the Great Spiritual Awakening.",
-          "isCorrect": false,
-          "rationale": "Forgiveness of debt will not save you; total detachment from finance obsession is mandatory."
+          "text": "Money is a complete waste of time; the awakening is absolutely not about savings, retirements, or the forgiveness of all debt.",
+          "isCorrect": true,
+          "rationale": "Foundational String 2 truth: money wastes time, and the Great Spiritual Awakening is not a savings, retirement, or debt-forgiveness event."
         },
         {
           "label": "D",
-          "text": "Only stock markets matter; religion and perceived knowledge are irrelevant strings.",
+          "text": "Only stock markets matter; religion and perceived knowledge are irrelevant strings, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "All three strings operate together; finance is not a solo market story."
         }
       ],
       "hint": "Money wastes time — awakening is not about savings or debt wipe.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 10,
@@ -310,15 +310,15 @@
       "options": [
         {
           "label": "A",
-          "text": "To prepare every soul for automatic Cash-Less Society without any severing work.",
+          "text": "To teach manifestation skills used back home in crystalline realms, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Individuals must actively uninstall financial obsession; the system itself is a trap, not prep class."
+          "rationale": "Fake money replaced manifestation with external institutions; it does not teach higher-realm skills."
         },
         {
           "label": "B",
-          "text": "To teach manifestation skills used back home in crystalline realms.",
+          "text": "To fund only honest free-energy Lattice Membrane restoration, as if no adjacent systems participated at all.",
           "isCorrect": false,
-          "rationale": "Fake money replaced manifestation with external institutions; it does not teach higher-realm skills."
+          "rationale": "Parasites mined lattice metals, made satanic idols, and sold natural energy back to the enslaved — the opposite of restoration."
         },
         {
           "label": "C",
@@ -328,9 +328,9 @@
         },
         {
           "label": "D",
-          "text": "To fund only honest free-energy Lattice Membrane restoration.",
+          "text": "To prepare every soul for automatic Cash-Less Society without any severing work.",
           "isCorrect": false,
-          "rationale": "Parasites mined lattice metals, made satanic idols, and sold natural energy back to the enslaved — the opposite of restoration."
+          "rationale": "Individuals must actively uninstall financial obsession; the system itself is a trap, not prep class."
         }
       ],
       "hint": "Pickled in toxicity just to survive.",
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Banks dissolved so manifestation could replace commerce immediately.",
-          "isCorrect": false,
-          "rationale": "The loop increased institutional dependence rather than dissolving it."
-        },
-        {
-          "label": "B",
-          "text": "Everyone instantly received identical crystalline homes without institutions.",
-          "isCorrect": false,
-          "rationale": "That is Cash-Less higher-density truth; third-density fake money did the opposite."
-        },
-        {
-          "label": "C",
           "text": "People deposit the entirety of their accumulated life energy (money) into a building controlled by someone else.",
           "isCorrect": true,
           "rationale": "Fake money forced reliance on easily manipulated external institutions, peaking in the absurdity of storing all life-energy wealth in someone else's building."
         },
         {
-          "label": "D",
-          "text": "Gold and silver returned themselves into the ground automatically.",
+          "label": "B",
+          "text": "Everyone instantly received identical crystalline homes without institutions, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "That is Cash-Less higher-density truth; third-density fake money did the opposite."
+        },
+        {
+          "label": "C",
+          "text": "Gold and silver returned themselves into the ground automatically, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Parasites extracted those metals; they did not self-return under the money system."
+        },
+        {
+          "label": "D",
+          "text": "Banks dissolved so manifestation could replace commerce immediately.",
+          "isCorrect": false,
+          "rationale": "The loop increased institutional dependence rather than dissolving it."
         }
       ],
       "hint": "All life energy parked in someone else's building.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 12,
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It automatically severs Religion and Perceived Knowledge first.",
+          "text": "It automatically severs Religion and Perceived Knowledge first, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Finance works in tandem with the other two strings; it does not cut them for you."
         },
         {
           "label": "B",
-          "text": "It only affects NPCs during library visits funded by Carnegie.",
+          "text": "It only affects NPCs during library visits funded by Carnegie, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "The blinding mechanism targets the broader population's life direction, not only library hour."
         },
         {
           "label": "C",
-          "text": "It briefly sharpens spiritual vision during banking crashes.",
-          "isCorrect": false,
-          "rationale": "Those still attached collapse psychologically in crashes; obsession blinds rather than sharpens."
+          "text": "Obsession with making and saving money acts as a blinder, altering a person's whole life direction.",
+          "isCorrect": true,
+          "rationale": "Money obsession blinds and reroutes an entire life, exactly like miners tunneling after a gold seam while missing cosmic reality and coming resets."
         },
         {
           "label": "D",
-          "text": "Obsession with making and saving money acts as a blinder, altering a person's whole life direction — like gold miners relentlessly chasing a seam through a mountainside, distracted from cosmic reality and impending planetary resets.",
-          "isCorrect": true,
-          "rationale": "Money obsession blinds and reroutes an entire life, exactly like miners tunneling after a gold seam while missing cosmic reality and coming resets."
+          "text": "It briefly sharpens spiritual vision during banking crashes, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Those still attached collapse psychologically in crashes; obsession blinds rather than sharpens."
         }
       ],
       "hint": "Blinder like miners chasing gold — miss cosmic reality.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Engineered historical events in America (1848) and Australia (1851) designed to manipulate people into chasing fabricated wealth.",
-          "isCorrect": true,
-          "rationale": "Those Gold Rushes were engineered on purpose — America 1848 and Australia 1851 — to lock populations into fabricated wealth pursuit."
-        },
-        {
-          "label": "B",
-          "text": "Accidental market bubbles with no link to orphan repopulation.",
+          "text": "Accidental market bubbles with no link to orphan repopulation, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "They were timed at the grandchildren of cloned orphans after the recent Re-set — fully orchestrated."
         },
         {
+          "label": "B",
+          "text": "Spontaneous spiritual festivals restoring Lattice Membrane Networks, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "They chased extracted metals for wealth; lattice metals are meant to stay in the ground."
+        },
+        {
           "label": "C",
-          "text": "G.A.A. operations funding Cash-Less crystalline homes.",
+          "text": "G.A.A. operations funding Cash-Less crystalline homes, casting liberating forces as operators of the prison rather than its dismantlers.",
           "isCorrect": false,
           "rationale": "They were parasitic financial engineering, not G.A.A. housing programs."
         },
         {
           "label": "D",
-          "text": "Spontaneous spiritual festivals restoring Lattice Membrane Networks.",
-          "isCorrect": false,
-          "rationale": "They chased extracted metals for wealth; lattice metals are meant to stay in the ground."
+          "text": "Engineered historical events in America (1848) and Australia (1851) designed to manipulate people into chasing fabricated wealth.",
+          "isCorrect": true,
+          "rationale": "Those Gold Rushes were engineered on purpose — America 1848 and Australia 1851 — to lock populations into fabricated wealth pursuit."
         }
       ],
       "hint": "Engineered 1848 America / 1851 Australia wealth chases.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 14,
@@ -438,31 +438,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The grandchildren of the original cloned orphans distributed after the most recent Re-set (which began in America around 1728), locking the new generational crop into physical capital pursuit.",
-          "isCorrect": true,
-          "rationale": "After the Re-set that began in America around 1728, cloned orphans were distributed; their grandchildren were hit by Gold Rushes so the new crop locked onto physical capital immediately."
+          "text": "Gold Rushes targeted only ancient Tartarian kings who already understood free-energy economics and needed no blank-slate wealth myth, so harvest logistics, density tech, and inverted narrative machinery play no part.",
+          "isCorrect": false,
+          "rationale": "Carnegie philanthropy is a separate weaponized wealth use; Gold Rush timing aims at orphan grandchildren post-1728 Re-set."
         },
         {
           "label": "B",
-          "text": "Only 33rd-density custodians returning gold to the ground.",
+          "text": "Gold Rushes were canceled charity events that redistributed free-energy devices instead of gold myths to every emptied township — the complete identity of the thing, with no deeper parasitic function underneath.",
           "isCorrect": false,
           "rationale": "The target was orphan-line grandchildren in the post-reset population, not custodians restoring metals."
         },
         {
           "label": "C",
-          "text": "NPC libraries built by Carnegie before any Re-set.",
+          "text": "Gold Rushes happened before any Re-set and only involved tourists collecting painted stage props with no clone-generation targeting, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
-          "rationale": "Carnegie philanthropy is a separate weaponized wealth use; Gold Rush timing aims at orphan grandchildren post-1728 Re-set."
+          "rationale": "1728 marks the Re-set start in America for orphan repopulation timing; FEMA/15-minute lures are modern finance-string weapons."
         },
         {
           "label": "D",
-          "text": "FEMA Camp wardens preparing 15-minute cities in 1728.",
-          "isCorrect": false,
-          "rationale": "1728 marks the Re-set start in America for orphan repopulation timing; FEMA/15-minute lures are modern finance-string weapons."
+          "text": "Gold Rushes targeted grandchildren of post-Reset cloned orphans (America ~mid-1800s), locking a blank-slate generation into mineral frenzy and fake wealth religion.",
+          "isCorrect": true,
+          "rationale": "After the Re-set that began in America around 1728, cloned orphans were distributed; their grandchildren were hit by Gold Rushes so the new crop locked onto physical capital immediately."
         }
       ],
       "hint": "Orphan grandchildren after ~1728 America Re-set.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 15,
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Ordinary decorative coins invented solely for NESARA payouts.",
-          "isCorrect": false,
-          "rationale": "They preexist as lattice spiritual technology; NESARA is enslavement bait, not their purpose."
-        },
-        {
-          "label": "B",
-          "text": "Fuel pellets for Med-Beds during the EMF flash.",
+          "text": "Fuel pellets for Med-Beds during the EMF flash, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Their role is lattice stabilization in the ground; Med-Beds will not fix the finance trap."
         },
         {
+          "label": "B",
+          "text": "Ordinary decorative coins invented solely for NESARA payouts, disconnected from any deliberate long-game control design.",
+          "isCorrect": false,
+          "rationale": "They preexist as lattice spiritual technology; NESARA is enslavement bait, not their purpose."
+        },
+        {
           "label": "C",
-          "text": "Highly advanced natural spiritual technology meant to remain in the ground to stabilize and interact with planetary Lattice Membrane Networks.",
-          "isCorrect": true,
-          "rationale": "Gold and silver are spiritual tech for Lattice Membrane Networks — designed to stay in the ground, not to be mined or hoarded as money backing."
+          "text": "Proof that money is real and awakening is about savings, while spiritual attention and institutional trust stay fully intact.",
+          "isCorrect": false,
+          "rationale": "Using them as money is inversion; awakening is not about savings."
         },
         {
           "label": "D",
-          "text": "Proof that money is real and awakening is about savings.",
-          "isCorrect": false,
-          "rationale": "Using them as money is inversion; awakening is not about savings."
+          "text": "Highly advanced natural spiritual technology meant to remain in the ground to stabilize and interact with planetary Lattice Membrane Networks.",
+          "isCorrect": true,
+          "rationale": "Gold and silver are spiritual tech for Lattice Membrane Networks — designed to stay in the ground, not to be mined or hoarded as money backing."
         }
       ],
       "hint": "Stay in the ground — Lattice Membrane spiritual tech.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 16,
@@ -502,31 +502,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Fund only honest history free of Carnegie's new bullshit.",
-          "isCorrect": false,
-          "rationale": "Weaponized fortunes later spread fabricated history; extraction itself powered satanic and frequency-suppression uses."
-        },
-        {
-          "label": "B",
-          "text": "Return every ounce into Lattice Membrane Networks the next day.",
+          "text": "Return every ounce into Lattice Membrane Networks the next day, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "They mined, hoarded, idolized, and monetized the metals instead of leaving them in the ground."
         },
         {
-          "label": "C",
-          "text": "Build free public crystalline homes for absolute equality.",
-          "isCorrect": false,
-          "rationale": "Equality without currency is higher-density Cash-Less truth; extraction served inversion and harvest, not free homes."
-        },
-        {
-          "label": "D",
+          "label": "B",
           "text": "Manufacture satanic idols, dampen ultra-high frequencies, and sell the planet's natural energy back to the enslaved population.",
           "isCorrect": true,
           "rationale": "Extracted metals became satanic idols and frequency dampeners, then the parasites sold the planet's natural energy back to the people they enslaved."
+        },
+        {
+          "label": "C",
+          "text": "Fund only honest history free of Carnegie's new bullshit, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Weaponized fortunes later spread fabricated history; extraction itself powered satanic and frequency-suppression uses."
+        },
+        {
+          "label": "D",
+          "text": "Build free public crystalline homes for absolute equality, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Equality without currency is higher-density Cash-Less truth; extraction served inversion and harvest, not free homes."
         }
       ],
       "hint": "Idols, UHF dampening, sell energy back to the enslaved.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 17,
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
-          "text": "He secretly funded EMF flash technology for the G.A.A.",
-          "isCorrect": false,
-          "rationale": "Carnegie is cited for weaponized philanthropy of fake knowledge, not EMF liberation tech."
-        },
-        {
-          "label": "B",
-          "text": "He returned all gold to Lattice Membrane Networks and ended banking.",
+          "text": "Carnegie secretly funded EMF Flash tech for the G.A.A. and stocked only free-energy engineering texts in every public reading room, as if liberating forces ran the prison architecture instead of dismantling it.",
           "isCorrect": false,
           "rationale": "His move solidified matrix programming through libraries of false narrative, not lattice restoration."
         },
         {
-          "label": "C",
-          "text": "He published only Cash-Less Society manuals for higher densities.",
+          "label": "B",
+          "text": "Carnegie refused all libraries and kept every steel dollar for private yachts with no public narrative influence of any kind, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
           "rationale": "The libraries spread third-density fabricated knowledge, not higher-density cash-less truth."
         },
         {
-          "label": "D",
-          "text": "He used his massive steel fortune to fund thousands of libraries, spreading fabricated historical and scientific narrative (\"the new bullshit\") and making fake knowledge look prestigious to the lower classes.",
+          "label": "C",
+          "text": "Carnegie converted steel fortune into thousands of libraries that spread fabricated history and science — financial empire reborn as narrative control labeled philanthropy.",
           "isCorrect": true,
           "rationale": "Carnegie's libraries were strategic: steel wealth bought thousands of outlets for fabricated history and science so fake knowledge looked prestigious to lower classes."
+        },
+        {
+          "label": "D",
+          "text": "Carnegie’s libraries taught flat earth, Mud-floods, and Anuk history as mandatory curriculum to accelerate mass awakening — that mechanism alone, with no wider inversion stack required to produce the result.",
+          "isCorrect": false,
+          "rationale": "Carnegie is cited for weaponized philanthropy of fake knowledge, not EMF liberation tech."
         }
       ],
       "hint": "Steel fortune → thousands of libraries of new bullshit.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 18,
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The official Cash-Less Society protocol already running back home.",
-          "isCorrect": false,
-          "rationale": "Cash-Less Society needs no NESARA theater; NESARA is a deep-state lure inside the fake-money matrix."
-        },
-        {
-          "label": "B",
-          "text": "An accidental rumor with no link to camps or cities of control.",
+          "text": "An accidental rumor with no link to camps or cities of control, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "The lure is designed so masses demand subjugation in 15-minute cities and FEMA Camps."
         },
         {
-          "label": "C",
-          "text": "A deceptive lure promising forgiveness of all debt and funding of humanitarian projects — psychological bait to make the population beg for its own enslavement.",
+          "label": "B",
+          "text": "A deceptive lure promising forgiveness of all debt and funding of humanitarian projects.",
           "isCorrect": true,
           "rationale": "NESARA/GESARA is not liberation finance; it is bait promising debt wipe and humanitarian funding so people beg for their own enslavement."
         },
         {
+          "label": "C",
+          "text": "The official Cash-Less Society protocol already running back home, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Cash-Less Society needs no NESARA theater; NESARA is a deep-state lure inside the fake-money matrix."
+        },
+        {
           "label": "D",
-          "text": "A required step before anyone can sever String 2.",
+          "text": "A required step before anyone can sever String 2, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Severing finance means rejecting such lures; debt forgiveness will not save you."
         }
       ],
       "hint": "Debt-forgiveness bait — beg for enslavement.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 19,
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Into gold rushes that heal Lattice Membrane Networks.",
-          "isCorrect": false,
-          "rationale": "Gold rushes locked orphan-line generations into capital chasing; NESARA is a separate modern enslavement lure."
-        },
-        {
-          "label": "B",
-          "text": "Into identical crystalline homes with advanced manifestation only.",
-          "isCorrect": false,
-          "rationale": "That is true Cash-Less higher-density life, not the NESARA trap endpoint."
-        },
-        {
-          "label": "C",
           "text": "Into willingly demanding their own subjugation within 15-minute cities and FEMA Camps (repurposed concentration camps).",
           "isCorrect": true,
           "rationale": "The debt-forgiveness lure is so irresistible that masses demand their own subjugation in 15-minute cities and FEMA Camps — repurposed concentration camps."
         },
         {
-          "label": "D",
-          "text": "Into Carnegie libraries that restore Tartarian free energy.",
+          "label": "B",
+          "text": "Into gold rushes that heal Lattice Membrane Networks, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Gold rushes locked orphan-line generations into capital chasing; NESARA is a separate modern enslavement lure."
+        },
+        {
+          "label": "C",
+          "text": "Into Carnegie libraries that restore Tartarian free energy, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Carnegie libraries spread fabricated narrative; NESARA steers toward cities and camps of control."
+        },
+        {
+          "label": "D",
+          "text": "Into identical crystalline homes with advanced manifestation only, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "That is true Cash-Less higher-density life, not the NESARA trap endpoint."
         }
       ],
       "hint": "15-minute cities + FEMA Camps as concentration endpoints.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 20,
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A G.A.A. gift that automatically installs Cash-Less Society for clingy account holders.",
-          "isCorrect": false,
-          "rationale": "Those who fail to cut the finance string are blindsided when life savings vaporize; it is trauma for the attached, not a gentle install."
-        },
-        {
-          "label": "B",
-          "text": "The imminent, planned destruction of the financial system designed to wipe out the savings and wealth of the deeply asleep population.",
-          "isCorrect": true,
-          "rationale": "The Banking Crash is not an accident — it is planned destruction meant to vaporize savings and wealth of the deeply asleep."
-        },
-        {
-          "label": "C",
-          "text": "Proof that money was always real spiritual technology.",
+          "text": "Proof that money was always real spiritual technology, while spiritual attention and institutional trust stay fully intact.",
           "isCorrect": false,
           "rationale": "Crash exposure confirms the system's deliberate trap nature, not money's sacredness."
         },
         {
-          "label": "D",
-          "text": "A random glitch that only affects gold miners in 1848.",
+          "label": "B",
+          "text": "A G.A.A. gift that automatically installs Cash-Less Society for clingy account holders, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Those who fail to cut the finance string are blindsided when life savings vaporize; it is trauma for the attached, not a gentle install."
+        },
+        {
+          "label": "C",
+          "text": "A random glitch that only affects gold miners in 1848, disconnected from any deliberate long-game control design.",
           "isCorrect": false,
           "rationale": "It is imminent and planned against today's asleep savers, not a 19th-century glitch."
+        },
+        {
+          "label": "D",
+          "text": "The imminent, planned destruction of the financial system designed to wipe out the savings and wealth of the deeply asleep population.",
+          "isCorrect": true,
+          "rationale": "The Banking Crash is not an accident — it is planned destruction meant to vaporize savings and wealth of the deeply asleep."
         }
       ],
       "hint": "Planned wipe of asleep population's savings.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Finance cancels the other two strings once a person opens a retirement account.",
+          "text": "Finance alone matters; Religion and Perceived Knowledge have no role in ego defense at all, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
-          "rationale": "Finance operates in tandem with Religion and Perceived Knowledge; it does not cancel them."
+          "rationale": "Finance specifically ensures physical enslavement and exhaustion."
         },
         {
           "label": "B",
-          "text": "NPCs already live Cash-Less, so the triad does not apply to them.",
+          "text": "The three dissolve each other automatically so every sleeper awakens without personal work, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
           "rationale": "The shield is built around the NPC ego inside the artificial simulation; finance is part of that grip."
         },
         {
           "label": "C",
-          "text": "Together they form an impenetrable shield: Religion surrenders cognition to False Gods, Perceived Knowledge defends fake science and history, and Finance ensures physical enslavement and exhaustion.",
-          "isCorrect": true,
-          "rationale": "The three strings shield the NPC ego — false gods, rigid fake knowledge, and finance that physically enslaves and exhausts."
+          "text": "Only sports fandom shields the ego; money, gods, and schooling are irrelevant to control.",
+          "isCorrect": false,
+          "rationale": "Finance operates in tandem with Religion and Perceived Knowledge; it does not cancel them."
         },
         {
           "label": "D",
-          "text": "Only Perceived Knowledge matters; finance never touches the body.",
-          "isCorrect": false,
-          "rationale": "Finance specifically ensures physical enslavement and exhaustion."
+          "text": "With Religion and Perceived Knowledge it forms a shield: deities take cognition, intellect defends faked history, and money locks attention so the ego never faces the Lie.",
+          "isCorrect": true,
+          "rationale": "The three strings shield the NPC ego — false gods, rigid fake knowledge, and finance that physically enslaves and exhausts."
         }
       ],
       "hint": "Three-string shield: gods, fake knowledge, physical enslavement.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 22,
@@ -694,9 +694,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Med-Beds convert gold idols back into Lattice Membrane Networks automatically.",
+          "text": "Debt forgiveness is the only string that must remain attached.",
           "isCorrect": false,
-          "rationale": "The demand is psychological uninstallation of finance obsession, not a Med-Bed metal fix."
+          "rationale": "Forgiveness of debt is named as something that will not save you."
         },
         {
           "label": "B",
@@ -706,15 +706,15 @@
         },
         {
           "label": "C",
-          "text": "Debt forgiveness is the only string that must remain attached.",
-          "isCorrect": false,
-          "rationale": "Forgiveness of debt is named as something that will not save you."
-        },
-        {
-          "label": "D",
           "text": "Med-Beds plus NESARA complete the clean exit without any detachment work.",
           "isCorrect": false,
           "rationale": "Those hopes keep the finance string tight; clean exit needs full detachment."
+        },
+        {
+          "label": "D",
+          "text": "Med-Beds convert gold idols back into Lattice Membrane Networks automatically.",
+          "isCorrect": false,
+          "rationale": "The demand is psychological uninstallation of finance obsession, not a Med-Bed metal fix."
         }
       ],
       "hint": "Med-Bed won't fix you; debt wipe won't save you.",
@@ -726,21 +726,21 @@
       "options": [
         {
           "label": "A",
+          "text": "They pause the Banking Crash until gold rushes finish, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The sequence drives terminal deconstruction; it does not preserve finance for miners."
+        },
+        {
+          "label": "B",
           "text": "They convert paper money into permanent crystalline homes only for Carnegie library patrons.",
           "isCorrect": false,
           "rationale": "Wealth becomes obsolete for everyone clinging to it; Carnegie libraries spread fake knowledge, not special flash privileges."
         },
         {
-          "label": "B",
-          "text": "They double every retirement account for the deeply asleep.",
+          "label": "C",
+          "text": "They double every retirement account for the deeply asleep, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The asleep face wipeout and collapse; wealth does not double through the flash."
-        },
-        {
-          "label": "C",
-          "text": "They pause the Banking Crash until gold rushes finish.",
-          "isCorrect": false,
-          "rationale": "The sequence drives terminal deconstruction; it does not preserve finance for miners."
         },
         {
           "label": "D",
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It only helps NPCs while true souls must stay pickled in toxicity.",
+          "text": "It only helps NPCs while true souls must stay pickled in toxicity, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Uninstallation of financial obsession is mandatory for a clean personal exit from the density loop."
         },
         {
           "label": "B",
-          "text": "It guarantees NESARA payouts and FEMA Camp luxury suites.",
+          "text": "It immunizes the psyche against trauma from the imminent economic collapse so consciousness stays stable and focused during the simulation's terminal deconstruction.",
+          "isCorrect": true,
+          "rationale": "Full detachment immunizes against collapse trauma and keeps consciousness stable through the physical simulation's terminal deconstruction."
+        },
+        {
+          "label": "C",
+          "text": "It guarantees NESARA payouts and FEMA Camp luxury suites, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Detachment rejects those enslavement lures; it does not cash them in."
         },
         {
-          "label": "C",
-          "text": "It forces you to hoard more gold and silver above ground.",
+          "label": "D",
+          "text": "It forces you to hoard more gold and silver above ground, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "True metal role is in-ground lattice tech; detachment is from finance obsession, not deeper hoarding."
-        },
-        {
-          "label": "D",
-          "text": "It immunizes the psyche against trauma from the imminent economic collapse so consciousness stays stable and focused during the simulation's terminal deconstruction.",
-          "isCorrect": true,
-          "rationale": "Full detachment immunizes against collapse trauma and keeps consciousness stable through the physical simulation's terminal deconstruction."
         }
       ],
       "hint": "Psyche immunization — stable through terminal deconstruction.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 25,
@@ -796,9 +796,9 @@
         },
         {
           "label": "B",
-          "text": "Total uninstallation of financial obsession.",
-          "isCorrect": true,
-          "rationale": "Clean exit requires total uninstallation of financial obsession — not reform, hedging, or waiting for debt theater."
+          "text": "Smarter diversified portfolios until the Banking Crash ends.",
+          "isCorrect": false,
+          "rationale": "Portfolios are the tether; planned crash wipes asleep wealth — obsession must be uninstalled."
         },
         {
           "label": "C",
@@ -808,13 +808,13 @@
         },
         {
           "label": "D",
-          "text": "Smarter diversified portfolios until the Banking Crash ends.",
-          "isCorrect": false,
-          "rationale": "Portfolios are the tether; planned crash wipes asleep wealth — obsession must be uninstalled."
+          "text": "Total uninstallation of financial obsession.",
+          "isCorrect": true,
+          "rationale": "Clean exit requires total uninstallation of financial obsession — not reform, hedging, or waiting for debt theater."
         }
       ],
       "hint": "Total uninstallation of financial obsession — mandatory.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     }
   ]
 }

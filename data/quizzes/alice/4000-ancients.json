@@ -21,9 +21,9 @@
       "options": [
         {
           "label": "A",
-          "text": "The Lattice Membrane Network.",
+          "text": "Gateway-10",
           "isCorrect": false,
-          "rationale": "This serves as the underlying structural grid of the realm rather than the initial point of creation."
+          "rationale": "This identifies the specific physical matrix where souls were ensnared rather than the source of all life."
         },
         {
           "label": "B",
@@ -33,9 +33,9 @@
         },
         {
           "label": "C",
-          "text": "Gateway-10",
+          "text": "The Lattice Membrane Network.",
           "isCorrect": false,
-          "rationale": "This identifies the specific physical matrix where souls were ensnared rather than the source of all life."
+          "rationale": "This serves as the underlying structural grid of the realm rather than the initial point of creation."
         },
         {
           "label": "D",
@@ -53,31 +53,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The tightly interwoven network of a cosmic soul family.",
-          "isCorrect": true,
-          "rationale": "True Sol-Systems are defined by familial bonds and interconnected consciousness rather than heliocentric celestial mechanics."
-        },
-        {
-          "label": "B",
-          "text": "The localized gravitational field of a Micro Sun.",
+          "text": "The localized gravitational field of a Micro Sun, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "This incorrectly applies physical gravitational concepts to the spiritual hierarchy of the Micro Suns."
         },
         {
+          "label": "B",
+          "text": "A collection of 4,000 Ancients within a specific density, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "While the Ancients belong to such systems, the term refers more broadly to the immediate familial network itself."
+        },
+        {
           "label": "C",
-          "text": "A central star orbited by spherical planetary bodies.",
+          "text": "A central star orbited by spherical planetary bodies, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "This definition is a parasitic recontextualization designed to obscure the spiritual nature of cosmic connections."
         },
         {
           "label": "D",
-          "text": "A collection of 4,000 Ancients within a specific density.",
-          "isCorrect": false,
-          "rationale": "While the Ancients belong to such systems, the term refers more broadly to the immediate familial network itself."
+          "text": "The tightly interwoven network of a cosmic soul family.",
+          "isCorrect": true,
+          "rationale": "True Sol-Systems are defined by familial bonds and interconnected consciousness rather than heliocentric celestial mechanics."
         }
       ],
       "hint": "Focus on the linguistic inversion where 'Sol' is synonymous with a specific spiritual element.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 3,
@@ -91,21 +91,21 @@
         },
         {
           "label": "B",
+          "text": "100,000 years.",
+          "isCorrect": false,
+          "rationale": "This is the time elapsed since the Pleiadian branch of the family successfully escaped the matrix."
+        },
+        {
+          "label": "C",
           "text": "15 billion years.",
           "isCorrect": false,
           "rationale": "This figure represents the age of the Micro Suns rather than the duration of the physical entrapment."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "20,000 years",
           "isCorrect": false,
           "rationale": "This number refers to the potential lifespan of 5th-density beings using specific technology."
-        },
-        {
-          "label": "D",
-          "text": "100,000 years.",
-          "isCorrect": false,
-          "rationale": "This is the time elapsed since the Pleiadian branch of the family successfully escaped the matrix."
         }
       ],
       "hint": "The timeline begins with a catastrophic parasitic inversion in the 3rd density.",
@@ -117,31 +117,31 @@
       "options": [
         {
           "label": "A",
-          "text": "To accelerate the evolution of Taran souls into Pleiadians.",
-          "isCorrect": false,
-          "rationale": "Evolution into Pleiadian states is a result of escaping the matrix rather than the function of the cluster itself."
-        },
-        {
-          "label": "B",
-          "text": "To facilitate collective memory retrieval of the 178,000-year cycle.",
-          "isCorrect": false,
-          "rationale": "Memories are suppressed during the cycle by the Amnesia Vortex, making collective retrieval impossible until the Flash."
-        },
-        {
-          "label": "C",
           "text": "To automate the upload of codes into the Lattice Membrane Network.",
           "isCorrect": false,
           "rationale": "This function is performed by the individual Soul Codex of an Ancient rather than the grouping mechanism."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "To allow soul families to incarnate together for mutual support.",
           "isCorrect": true,
           "rationale": "Groups of souls stay in close proximity across life loops to maintain bonds and survive the traumas of the matrix."
+        },
+        {
+          "label": "C",
+          "text": "To facilitate collective memory retrieval of the 178,000-year cycle.",
+          "isCorrect": false,
+          "rationale": "Memories are suppressed during the cycle by the Amnesia Vortex, making collective retrieval impossible until the Flash."
+        },
+        {
+          "label": "D",
+          "text": "To accelerate the evolution of Taran souls into Pleiadians.",
+          "isCorrect": false,
+          "rationale": "Evolution into Pleiadian states is a result of escaping the matrix rather than the function of the cluster itself."
         }
       ],
       "hint": "Think about how soul families stay together during repetitive incarnational loops.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 5,
@@ -155,9 +155,9 @@
         },
         {
           "label": "B",
-          "text": "Age regression technology.",
-          "isCorrect": false,
-          "rationale": "This technology is used in 5th density to extend life rather than to interface with the planetary grid."
+          "text": "The Soul Codex.",
+          "isCorrect": true,
+          "rationale": "This harmonic architecture allows Ancients to deposit balancing codes into the Lattice Membrane Network through physical proximity to nodes."
         },
         {
           "label": "C",
@@ -167,13 +167,13 @@
         },
         {
           "label": "D",
-          "text": "The Soul Codex.",
-          "isCorrect": true,
-          "rationale": "This harmonic architecture allows Ancients to deposit balancing codes into the Lattice Membrane Network through physical proximity to nodes."
+          "text": "Age regression technology.",
+          "isCorrect": false,
+          "rationale": "This technology is used in 5th density to extend life rather than to interface with the planetary grid."
         }
       ],
       "hint": "This involves a unique harmonic architecture embedded within the soul's structure.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 6,
@@ -181,31 +181,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Twin Flames only exist in 5th density and above.",
-          "isCorrect": false,
-          "rationale": "Twin Flames exist in all densities, but their connection is specifically targeted and suppressed in the 3rd-density simulation."
-        },
-        {
-          "label": "B",
-          "text": "It would trigger profound memory retrieval and lead to rebellion.",
-          "isCorrect": true,
-          "rationale": "Meeting a Twin Flame bypasses the suppression of the matrix, allowing souls to remember their true nature and fight back."
-        },
-        {
-          "label": "C",
           "text": "The Amnesia Vortex is unable to process two souls simultaneously.",
           "isCorrect": false,
           "rationale": "The vortex processes souls individually shortly after death, regardless of their soul family status."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "Their union would cause a physical imbalance in the planetary grid.",
           "isCorrect": false,
           "rationale": "The grid is stabilized by the Soul Codex; Twin Flame reunions affect consciousness rather than physical grid mechanics."
+        },
+        {
+          "label": "C",
+          "text": "Twin Flames only exist in 5th density and above, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Twin Flames exist in all densities, but their connection is specifically targeted and suppressed in the 3rd-density simulation."
+        },
+        {
+          "label": "D",
+          "text": "It would trigger profound memory retrieval and lead to rebellion.",
+          "isCorrect": true,
+          "rationale": "Meeting a Twin Flame bypasses the suppression of the matrix, allowing souls to remember their true nature and fight back."
         }
       ],
       "hint": "Consider the effect of this high-level connection on the parasitic control of the mind.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 7,
@@ -213,31 +213,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They utilize the Amnesia Vortex to maintain their 5th-density status.",
-          "isCorrect": false,
-          "rationale": "The Amnesia Vortex is a tool of the parasitic matrix, which the Pleiadians are no longer subject to."
-        },
-        {
-          "label": "B",
-          "text": "They are a different species created by the Micro Suns.",
-          "isCorrect": false,
-          "rationale": "Both groups are Taran souls; they share the same origin and creators."
-        },
-        {
-          "label": "C",
           "text": "They are Taran souls who escaped the matrix 100,000 years ago.",
           "isCorrect": true,
           "rationale": "Because they escaped suppression, they have evolved into advanced versions of their terrestrial counterparts."
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "They utilize the Amnesia Vortex to maintain their 5th-density status.",
+          "isCorrect": false,
+          "rationale": "The Amnesia Vortex is a tool of the parasitic matrix, which the Pleiadians are no longer subject to."
+        },
+        {
+          "label": "C",
           "text": "They were created directly by Source Creation instead of the 4,000.",
           "isCorrect": false,
           "rationale": "Pleiadians are Taran souls who are the creations and children of the 4,000 Ancients."
+        },
+        {
+          "label": "D",
+          "text": "They are a different species created by the Micro Suns, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Both groups are Taran souls; they share the same origin and creators."
         }
       ],
       "hint": "Look for the distinction based on their escape from the physical matrix.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -245,9 +245,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Parasitic overlays and frequency fences are dismantled.",
-          "isCorrect": true,
-          "rationale": "This planetary saturation permanently collapses the artificial simulation and its control mechanisms."
+          "text": "The 4,000 Ancients are executed to reset the cycle, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The Flash ends the cycle of execution and resets rather than continuing the parasitic patterns."
         },
         {
           "label": "B",
@@ -257,19 +257,19 @@
         },
         {
           "label": "C",
-          "text": "The 4,000 Ancients are executed to reset the cycle.",
-          "isCorrect": false,
-          "rationale": "The Flash ends the cycle of execution and resets rather than continuing the parasitic patterns."
-        },
-        {
-          "label": "D",
           "text": "All souls are processed by the Amnesia Vortex one final time.",
           "isCorrect": false,
           "rationale": "The Flash restores memories rather than wiping them, making the Amnesia Vortex obsolete."
+        },
+        {
+          "label": "D",
+          "text": "Parasitic overlays and frequency fences are dismantled.",
+          "isCorrect": true,
+          "rationale": "This planetary saturation permanently collapses the artificial simulation and its control mechanisms."
         }
       ],
       "hint": "This event involves the instant dismantling of artificial control structures.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 9,
@@ -277,21 +277,21 @@
       "options": [
         {
           "label": "A",
-          "text": "By reconnecting with the Micro Suns in the 5th density.",
+          "text": "By reconnecting with the Micro Suns in the 5th density, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "While the Micro Suns are part of the lineage, memory restoration is an internal process facilitated by the end of the EMF event."
         },
         {
           "label": "B",
-          "text": "In a sudden, overwhelming instantaneous flood of information.",
+          "text": "Only through the use of age regression technology, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "A sudden flood would cause catastrophic psychological shock due to the volume of trauma involved."
+          "rationale": "Age regression technology relates to biological longevity rather than the retrieval of past-life memories."
         },
         {
           "label": "C",
-          "text": "Only through the use of age regression technology.",
+          "text": "In a sudden, overwhelming instantaneous flood of information.",
           "isCorrect": false,
-          "rationale": "Age regression technology relates to biological longevity rather than the retrieval of past-life memories."
+          "rationale": "A sudden flood would cause catastrophic psychological shock due to the volume of trauma involved."
         },
         {
           "label": "D",
@@ -309,9 +309,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Commercial centers and modern skyscrapers.",
+          "text": "The Amnesia Vortex facilities.",
           "isCorrect": false,
-          "rationale": "These locations generally lack the specific historical or architectural alignment with the Lattice Membrane Network."
+          "rationale": "These are parasitic technological sites rather than natural nodal points of the planetary architecture."
         },
         {
           "label": "B",
@@ -321,9 +321,9 @@
         },
         {
           "label": "C",
-          "text": "The Amnesia Vortex facilities.",
+          "text": "Commercial centers and modern skyscrapers.",
           "isCorrect": false,
-          "rationale": "These are parasitic technological sites rather than natural nodal points of the planetary architecture."
+          "rationale": "These locations generally lack the specific historical or architectural alignment with the Lattice Membrane Network."
         },
         {
           "label": "D",
@@ -341,19 +341,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True",
-          "isCorrect": true,
-          "rationale": "Higher-density physics allow for the manipulation of timelines to synchronize with loved ones, removing the concept of loss."
-        },
-        {
-          "label": "B",
           "text": "False",
           "isCorrect": false,
           "rationale": "This capability is a fundamental difference between the artificial 3rd-density simulation and higher-order realities."
+        },
+        {
+          "label": "B",
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Higher-density physics allow for the manipulation of timelines to synchronize with loved ones, removing the concept of loss."
         }
       ],
       "hint": "Recall how higher densities contrast with the artificially elongated and linear time of the 3rd density.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 12,
@@ -361,31 +361,31 @@
       "options": [
         {
           "label": "A",
-          "text": "70 to 80 years.",
-          "isCorrect": false,
-          "rationale": "This represents the typical lifespan within the artificial 3rd-density simulation."
-        },
-        {
-          "label": "B",
           "text": "450 to 500 earth years.",
           "isCorrect": true,
           "rationale": "This is the standard natural lifespan in 5th density before considering age-regression enhancements."
         },
         {
-          "label": "C",
-          "text": "Up to 20,000 years.",
-          "isCorrect": false,
-          "rationale": "While possible, this extended duration requires the specific application of age regression technology."
-        },
-        {
-          "label": "D",
+          "label": "B",
           "text": "15 to 20 minutes.",
           "isCorrect": false,
           "rationale": "This is the time window in which souls are processed and recycled within the 3rd-density matrix."
+        },
+        {
+          "label": "C",
+          "text": "70 to 80 years.",
+          "isCorrect": false,
+          "rationale": "This represents the typical lifespan within the artificial 3rd-density simulation."
+        },
+        {
+          "label": "D",
+          "text": "Up to 20,000 years.",
+          "isCorrect": false,
+          "rationale": "While possible, this extended duration requires the specific application of age regression technology."
         }
       ],
       "hint": "The figure represents the natural duration of existence outside of 3rd-density suppression.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 13,
@@ -393,31 +393,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Source Creation.",
-          "isCorrect": false,
-          "rationale": "Source Creation directly produced the Micro Suns, who then created the Ancients."
-        },
-        {
-          "label": "B",
-          "text": "Taran Humans",
-          "isCorrect": false,
-          "rationale": "This is an inversion; the Ancients created the Tarans, not the other way around."
-        },
-        {
-          "label": "C",
           "text": "The Micro Suns.",
           "isCorrect": true,
           "rationale": "This elite tier of entities acted as the vanguard that birthed the 4,000 ancient souls."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "Pleiadians",
           "isCorrect": false,
           "rationale": "The Pleiadians are a branch of the Taran soul family rather than the creators of the Ancients."
+        },
+        {
+          "label": "C",
+          "text": "Source Creation.",
+          "isCorrect": false,
+          "rationale": "Source Creation directly produced the Micro Suns, who then created the Ancients."
+        },
+        {
+          "label": "D",
+          "text": "Taran Humans",
+          "isCorrect": false,
+          "rationale": "This is an inversion; the Ancients created the Tarans, not the other way around."
         }
       ],
       "hint": "Identify the tier of existence that sits between Source Creation and the Ancients.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 14,
@@ -425,31 +425,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They automatically enter 5th-density evolution.",
+          "text": "They are returned to the Micro Suns for debriefing, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "The simulation is designed to keep souls trapped in the 3rd density through the recycling process."
+          "rationale": "Souls are prevented from returning to their creators by the frequency fences of the matrix."
         },
         {
           "label": "B",
+          "text": "They are integrated into the Lattice Membrane Network, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "The network is a structural grid; souls are recycled into physical vessels rather than merged with the grid."
+        },
+        {
+          "label": "C",
           "text": "They are forcibly injected into new vessels in foreign countries.",
           "isCorrect": true,
           "rationale": "This rapid recycling ensures the continuation of suffering and prevents the retrieval of memories."
         },
         {
-          "label": "C",
-          "text": "They are returned to the Micro Suns for debriefing.",
-          "isCorrect": false,
-          "rationale": "Souls are prevented from returning to their creators by the frequency fences of the matrix."
-        },
-        {
           "label": "D",
-          "text": "They are integrated into the Lattice Membrane Network.",
+          "text": "They automatically enter 5th-density evolution, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "The network is a structural grid; souls are recycled into physical vessels rather than merged with the grid."
+          "rationale": "The simulation is designed to keep souls trapped in the 3rd density through the recycling process."
         }
       ],
       "hint": "Think about the mechanics of soul recycling used to maintain the cycle of suffering.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 15,
@@ -457,31 +457,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Their Soul Codex caused physical illness in the surrounding population.",
-          "isCorrect": false,
-          "rationale": "The Codex is a harmonic architecture for balancing the grid and does not cause illness."
-        },
-        {
-          "label": "B",
-          "text": "They were attempting to destroy the Lattice Membrane Network.",
-          "isCorrect": false,
-          "rationale": "Their mission was to preserve and stabilize the network, not destroy it."
-        },
-        {
-          "label": "C",
           "text": "Old souls inherently push back against corruption and cannot be bought.",
           "isCorrect": true,
           "rationale": "Their natural integrity made them a threat to corrupted structures of power like kings and clergy."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "They were identified as parasitic entities by the authorities.",
           "isCorrect": false,
           "rationale": "They were the stabilizers of the grid, while the 'authorities' were the ones representing the parasitic forces."
+        },
+        {
+          "label": "C",
+          "text": "Their Soul Codex caused physical illness in the surrounding population.",
+          "isCorrect": false,
+          "rationale": "The Codex is a harmonic architecture for balancing the grid and does not cause illness."
+        },
+        {
+          "label": "D",
+          "text": "They were attempting to destroy the Lattice Membrane Network.",
+          "isCorrect": false,
+          "rationale": "Their mission was to preserve and stabilize the network, not destroy it."
         }
       ],
       "hint": "Consider the relationship between ancient wisdom and established corrupt power structures.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 16,
@@ -489,15 +489,15 @@
       "options": [
         {
           "label": "A",
-          "text": "The etheric super-computer that initiated existence.",
+          "text": "A dark matter field comprised of magnetic frequencies, as a one-factor story with a tidy edge.",
           "isCorrect": false,
-          "rationale": "This describes Source Creation rather than the planetary grid system."
+          "rationale": "This field is the environment out of which Source Creation initiated existence."
         },
         {
           "label": "B",
-          "text": "A dark matter field comprised of magnetic frequencies.",
-          "isCorrect": false,
-          "rationale": "This field is the environment out of which Source Creation initiated existence."
+          "text": "The realm's underlying architecture that receives harmonic codes.",
+          "isCorrect": true,
+          "rationale": "This network serves as the structural foundation that the 4,000 Ancients interface with to balance the realm."
         },
         {
           "label": "C",
@@ -507,13 +507,13 @@
         },
         {
           "label": "D",
-          "text": "The realm's underlying architecture that receives harmonic codes.",
-          "isCorrect": true,
-          "rationale": "This network serves as the structural foundation that the 4,000 Ancients interface with to balance the realm."
+          "text": "The etheric super-computer that initiated existence, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "This describes Source Creation rather than the planetary grid system."
         }
       ],
       "hint": "This is the grid into which the Soul Codex deposits stabilizing information.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 17,
@@ -521,9 +521,9 @@
       "options": [
         {
           "label": "A",
-          "text": "178",
+          "text": "Millions of loops.",
           "isCorrect": false,
-          "rationale": "This figure likely confuses the count of loops with the 178,000-year total duration."
+          "rationale": "While the souls are billions of years old, their specific entrapment in this matrix involves over 600 loops."
         },
         {
           "label": "B",
@@ -533,9 +533,9 @@
         },
         {
           "label": "C",
-          "text": "Millions of loops.",
+          "text": "178",
           "isCorrect": false,
-          "rationale": "While the souls are billions of years old, their specific entrapment in this matrix involves over 600 loops."
+          "rationale": "This figure likely confuses the count of loops with the 178,000-year total duration."
         },
         {
           "label": "D",
@@ -553,19 +553,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False",
-          "isCorrect": false,
-          "rationale": "While used by parasites, the erasure also served the practical purpose of allowing the souls to continue their work without psychological collapse."
-        },
-        {
-          "label": "B",
           "text": "True",
           "isCorrect": true,
           "rationale": "Recalling hundreds of violent executions would have rendered the 4,000 unable to perform their mission of anchoring codes."
+        },
+        {
+          "label": "B",
+          "text": "False",
+          "isCorrect": false,
+          "rationale": "While used by parasites, the erasure also served the practical purpose of allowing the souls to continue their work without psychological collapse."
         }
       ],
       "hint": "Consider the impact of remembering hundreds of violent deaths on a soul's ability to function.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 19,
@@ -573,21 +573,21 @@
       "options": [
         {
           "label": "A",
+          "text": "An indigo spark of perpetual light.",
+          "isCorrect": true,
+          "rationale": "This non-physical spark emerged from a dark matter field to initiate existence."
+        },
+        {
+          "label": "B",
           "text": "A spherical star in a vacuum.",
           "isCorrect": false,
           "rationale": "This is part of the fake heliocentric model used to deceive humanity about the nature of space."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "A network of biological keys.",
           "isCorrect": false,
           "rationale": "This describes the 4,000 Ancients in their role as grid stabilizers."
-        },
-        {
-          "label": "C",
-          "text": "An indigo spark of perpetual light.",
-          "isCorrect": true,
-          "rationale": "This non-physical spark emerged from a dark matter field to initiate existence."
         },
         {
           "label": "D",
@@ -597,7 +597,7 @@
         }
       ],
       "hint": "It is described as a specific color of light and a spark.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 20,
@@ -611,25 +611,25 @@
         },
         {
           "label": "B",
+          "text": "It will remain linear and gradual over thousands of years, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The gradual nature of evolution is a constraint of the 3rd-density simulation."
+        },
+        {
+          "label": "C",
           "text": "It will match the speed and capabilities of the Pleiadians.",
           "isCorrect": true,
           "rationale": "Once the suppression is removed, Taran souls will rapidly accelerate to catch up with their escaped family members."
         },
         {
-          "label": "C",
-          "text": "It will return to the control of the Micro Suns.",
+          "label": "D",
+          "text": "It will return to the control of the Micro Suns, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "The Micro Suns are progenitors, but evolution is a self-actualized process for the Taran souls."
-        },
-        {
-          "label": "D",
-          "text": "It will remain linear and gradual over thousands of years.",
-          "isCorrect": false,
-          "rationale": "The gradual nature of evolution is a constraint of the 3rd-density simulation."
         }
       ],
       "hint": "Consider the relationship between the grounded Tarans and their advanced counterparts.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 21,
@@ -637,31 +637,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Lattice Membrane Network.",
-          "isCorrect": false,
-          "rationale": "The network is a structured grid within the realm, while dark matter is the primordial field."
-        },
-        {
-          "label": "B",
-          "text": "The remnants of previous dead universes.",
-          "isCorrect": false,
-          "rationale": "The material describes the field as the origin point, not as debris from prior existences."
-        },
-        {
-          "label": "C",
           "text": "A vacuum of empty space.",
           "isCorrect": false,
           "rationale": "The concept of a vacuum is part of the fake heliocentric model; the field is actually comprised of active frequencies."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "Magnetic frequencies.",
           "isCorrect": true,
           "rationale": "This field of magnetic energy provided the foundational environment for the indigo spark of Source to ignite."
+        },
+        {
+          "label": "C",
+          "text": "The remnants of previous dead universes.",
+          "isCorrect": false,
+          "rationale": "The material describes the field as the origin point, not as debris from prior existences."
+        },
+        {
+          "label": "D",
+          "text": "The Lattice Membrane Network.",
+          "isCorrect": false,
+          "rationale": "The network is a structured grid within the realm, while dark matter is the primordial field."
         }
       ],
       "hint": "Focus on the fundamental physical properties of the field mentioned in the genesis architecture.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 22,
@@ -669,31 +669,31 @@
       "options": [
         {
           "label": "A",
-          "text": "By reconnecting with their Twin Flames at these nodes.",
-          "isCorrect": false,
-          "rationale": "Twin Flame reunions were strictly prevented and were not the mechanism for grid stabilization."
-        },
-        {
-          "label": "B",
           "text": "Through intensive meditation and ritual.",
           "isCorrect": false,
           "rationale": "The interaction was automated and did not require conscious intent or specific rituals."
         },
         {
-          "label": "C",
-          "text": "By dismantling the parasitic overlays at each church.",
+          "label": "B",
+          "text": "By reconnecting with their Twin Flames at these nodes.",
           "isCorrect": false,
-          "rationale": "Their role was to deposit stabilizing codes rather than directly attacking the overlays."
+          "rationale": "Twin Flame reunions were strictly prevented and were not the mechanism for grid stabilization."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "By merely being in physical proximity to the sites.",
           "isCorrect": true,
           "rationale": "Simply visiting these locations triggered the upload of codes from their Soul Codex into the grid."
+        },
+        {
+          "label": "D",
+          "text": "By dismantling the parasitic overlays at each church.",
+          "isCorrect": false,
+          "rationale": "Their role was to deposit stabilizing codes rather than directly attacking the overlays."
         }
       ],
       "hint": "This process was automated and tied to their physical location.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 23,
@@ -701,15 +701,15 @@
       "options": [
         {
           "label": "A",
-          "text": "100,000 years.",
+          "text": "178,000 years.",
           "isCorrect": false,
-          "rationale": "This is the timing of the Pleiadian escape from the physical matrix."
+          "rationale": "This is the duration of the parasitic occupation, not the age of the Micro Suns."
         },
         {
           "label": "B",
-          "text": "500 years",
+          "text": "100,000 years.",
           "isCorrect": false,
-          "rationale": "This is the average lifespan of a 5th-density being, not the age of the ancient creators."
+          "rationale": "This is the timing of the Pleiadian escape from the physical matrix."
         },
         {
           "label": "C",
@@ -719,9 +719,9 @@
         },
         {
           "label": "D",
-          "text": "178,000 years.",
+          "text": "500 years",
           "isCorrect": false,
-          "rationale": "This is the duration of the parasitic occupation, not the age of the Micro Suns."
+          "rationale": "This is the average lifespan of a 5th-density being, not the age of the ancient creators."
         }
       ],
       "hint": "Their age is measured in billions of years, reflecting their status as the first handful of souls created.",
@@ -733,21 +733,21 @@
       "options": [
         {
           "label": "A",
-          "text": "They are the only souls allowed to evolve into Pleiadians.",
-          "isCorrect": false,
-          "rationale": "Any Taran soul can potentially escape or evolve; the Ancients have a specific stabilization function."
-        },
-        {
-          "label": "B",
           "text": "They act as planetary rulers under the guise of kings.",
           "isCorrect": false,
           "rationale": "They were persecuted by kings and clergy rather than serving as rulers themselves."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "They serve as covert stabilizers.",
           "isCorrect": true,
           "rationale": "Despite being trapped, they utilize their Soul Codex to maintain the integrity of the planetary grid."
+        },
+        {
+          "label": "C",
+          "text": "They are the only souls allowed to evolve into Pleiadians.",
+          "isCorrect": false,
+          "rationale": "Any Taran soul can potentially escape or evolve; the Ancients have a specific stabilization function."
         },
         {
           "label": "D",
@@ -757,7 +757,7 @@
         }
       ],
       "hint": "Their function is related to the preservation of the planetary architecture.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 25,

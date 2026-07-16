@@ -22,31 +22,31 @@
       "options": [
         {
           "label": "A",
+          "text": "One of 178 spinning spheres orbiting a distant thermodynamic sun, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Gateway-10's 178 worlds function horizontally; stars are not distant thermodynamic suns."
+        },
+        {
+          "label": "B",
           "text": "A temporary metaphor used only until Heliocentrism is proven by gravity.",
           "isCorrect": false,
           "rationale": "Gravity is fictional and Heliocentrism is fake; flat is the actual plane, not a metaphor."
         },
         {
-          "label": "B",
-          "text": "Only Antarctica's Ice Wall with open vacuum beyond every edge.",
-          "isCorrect": false,
-          "rationale": "Ice Walls partition known lands from wider flat realms of Gateway-10 — not empty vacuum edges of a lone disk myth."
-        },
-        {
           "label": "C",
-          "text": "One of 178 spinning spheres orbiting a distant thermodynamic sun.",
-          "isCorrect": false,
-          "rationale": "Gateway-10's 178 worlds function horizontally; stars are not distant thermodynamic suns."
-        },
-        {
-          "label": "D",
           "text": "The true horizontal physical plane of existence, directly contradicting the manufactured lie of a spinning globe.",
           "isCorrect": true,
           "rationale": "Flat Earth is the real horizontal physical plane. The spinning globe is manufactured lie, not architecture."
+        },
+        {
+          "label": "D",
+          "text": "Only Antarctica's Ice Wall with open vacuum beyond every edge, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Ice Walls partition known lands from wider flat realms of Gateway-10 — not empty vacuum edges of a lone disk myth."
         }
       ],
       "hint": "True horizontal plane — not a spinning globe.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "The Galactic Ancestral Alliance as a training game before the EMF flash.",
-          "isCorrect": false,
-          "rationale": "The G.A.A. dismantles the Simulation and projection dome; parasites engineered the globe lie."
-        },
-        {
-          "label": "B",
-          "text": "Local suns that vote each century on planetary shape.",
-          "isCorrect": false,
-          "rationale": "Illumination and shape are fixed true architecture vs engineered lie — not solar voting."
-        },
-        {
-          "label": "C",
-          "text": "Only modern media after Tartaria rebuilt itself as a globe.",
+          "text": "Only modern media after Tartaria rebuilt itself as a globe, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "Tartaria maps on a flat grid; the globe is a primary cage of the parasite system, not a Tartarian rebuild."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "4th-density parasites — a completely fabricated illusion to trap consciousness inside the multidimensional Simulation.",
           "isCorrect": true,
           "rationale": "The globe model is a fabricated illusion engineered by 4th-density parasites within the overarching Simulation."
+        },
+        {
+          "label": "C",
+          "text": "The Galactic Ancestral Alliance as a training game before the EMF flash, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "The G.A.A. dismantles the Simulation and projection dome; parasites engineered the globe lie."
+        },
+        {
+          "label": "D",
+          "text": "Local suns that vote each century on planetary shape, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Illumination and shape are fixed true architecture vs engineered lie — not solar voting."
         }
       ],
       "hint": "4th-density parasites fabricated the globe illusion.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 3,
@@ -86,21 +86,21 @@
       "options": [
         {
           "label": "A",
-          "text": "Because Mars refuses to join any Ice Wall on a globe.",
+          "text": "Because Mars refuses to join any Ice Wall on a globe, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Mars is joined to Realm-1's outer Ice Wall on the flat plane; that is layout truth, not the core sphere impossibility listed."
         },
         {
           "label": "B",
-          "text": "Spheres would automatically become Crystalline Temples on Nodes.",
+          "text": "Spheres spin too slowly for Black Void Plasma to stick, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Crystalline Temples and Nodes map across a flat geographic grid, not curved spheres."
+          "rationale": "The failure is Firmament support and local-sun illumination, not plasma adhesion speed."
         },
         {
           "label": "C",
-          "text": "Spheres spin too slowly for Black Void Plasma to stick.",
+          "text": "Spheres would automatically become Crystalline Temples on Nodes, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "The failure is Firmament support and local-sun illumination, not plasma adhesion speed."
+          "rationale": "Crystalline Temples and Nodes map across a flat geographic grid, not curved spheres."
         },
         {
           "label": "D",
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
+          "text": "To fund lattice Ley Lines on a curved sphere for freemason tourism, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Lattice Membrane Network maps on a flat grid; Freemasons hide flat truth for the prison matrix."
+        },
+        {
+          "label": "B",
           "text": "To prove gravity so ocean water can stick to a ball naturally.",
           "isCorrect": false,
           "rationale": "Gravity is fictional invention to prop the impossible sphere-water story — not a real reason for the lie's construction goal."
         },
         {
-          "label": "B",
-          "text": "To fund lattice Ley Lines on a curved sphere for freemason tourism.",
-          "isCorrect": false,
-          "rationale": "Lattice Membrane Network maps on a flat grid; Freemasons hide flat truth for the prison matrix."
-        },
-        {
           "label": "C",
-          "text": "To prevent humanity from discovering the Ice Wall and exploring the broader realms of Gateway-10.",
-          "isCorrect": true,
-          "rationale": "The lie blocks discovery of the Ice Wall and exploration of Gateway-10's broader flat realms."
+          "text": "To help everyone find soul families before learning Earth's shape, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Without flat-Earth understanding there is no point contemplating soul families — shape knowledge comes first."
         },
         {
           "label": "D",
-          "text": "To help everyone find soul families before learning Earth's shape.",
-          "isCorrect": false,
-          "rationale": "Without flat-Earth understanding there is no point contemplating soul families — shape knowledge comes first."
+          "text": "To prevent humanity from discovering the Ice Wall and exploring the broader realms of Gateway-10.",
+          "isCorrect": true,
+          "rationale": "The lie blocks discovery of the Ice Wall and exploration of Gateway-10's broader flat realms."
         }
       ],
       "hint": "Hide Ice Wall — block Gateway-10 exploration.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only useful for NPC educators writing Heliocentrism textbooks.",
-          "isCorrect": false,
-          "rationale": "Heliocentrism is the deception to unlearn; true shape is for souls exiting the matrix."
-        },
-        {
-          "label": "B",
           "text": "It is the absolute prerequisite and primary stepping-stone to comprehending the Great Spiritual Awakening and the wider cosmological deception.",
           "isCorrect": true,
           "rationale": "True Earth shape is the absolute prerequisite and primary stepping-stone into the Great Spiritual Awakening and wider cosmological deception."
         },
         {
-          "label": "C",
-          "text": "Irrelevant once Black Void Plasma thickens the night sky.",
+          "label": "B",
+          "text": "Irrelevant once Black Void Plasma thickens the night sky, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Plasma hides bright white true space; shape knowledge remains mandatory first step regardless."
         },
         {
+          "label": "C",
+          "text": "Nothing beyond useful for NPC educators writing Heliocentrism textbooks, and no coordinated multi-system design behind it.",
+          "isCorrect": false,
+          "rationale": "Heliocentrism is the deception to unlearn; true shape is for souls exiting the matrix."
+        },
+        {
           "label": "D",
-          "text": "Optional trivia after you master Finance and Religion strings only.",
+          "text": "Optional trivia after you master Finance and Religion strings only, while spiritual attention and institutional trust stay fully intact.",
           "isCorrect": false,
           "rationale": "Globe lie is a foundational Perceived Knowledge pillar; shape knowledge is first-step critical, not optional trivia."
         }
       ],
       "hint": "Absolute prerequisite / primary stepping-stone.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 6,
@@ -182,15 +182,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a school computer lab that projects Mars as a sky dot.",
-          "isCorrect": false,
-          "rationale": "It is the actual physical plane of existence; Mars is physically joined on the flat layout, not merely a lab projection myth alone."
+          "text": "The multidimensional etheric supercomputer and physical plane of existence.",
+          "isCorrect": true,
+          "rationale": "The Simulation is the multidimensional etheric supercomputer and physical plane where flat reality operates."
         },
         {
           "label": "B",
-          "text": "A natural spinning vacuum with no ethereal component.",
+          "text": "Only a school computer lab that projects Mars as a sky dot, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "It is etheric supercomputer plus physical plane — not a natural spinning vacuum globe setup."
+          "rationale": "It is the actual physical plane of existence; Mars is physically joined on the flat layout, not merely a lab projection myth alone."
         },
         {
           "label": "C",
@@ -200,13 +200,13 @@
         },
         {
           "label": "D",
-          "text": "The multidimensional etheric supercomputer and physical plane of existence.",
-          "isCorrect": true,
-          "rationale": "The Simulation is the multidimensional etheric supercomputer and physical plane where flat reality operates."
+          "text": "A natural spinning vacuum with no ethereal component, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "It is etheric supercomputer plus physical plane — not a natural spinning vacuum globe setup."
         }
       ],
       "hint": "Ethereic supercomputer + physical plane.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 7,
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It permanently shows the bright white field with no Black Void Plasma ever.",
-          "isCorrect": false,
-          "rationale": "True space is bright white but intentionally blacked out by Black Void Plasma under current control."
+          "text": "It is the structural membrane that bends light and sound, granting biological eyes their perception.",
+          "isCorrect": true,
+          "rationale": "The Firmament bends light and sound for perception and only fits flat architecture; a sphere would need immense impractical pillars."
         },
         {
           "label": "B",
-          "text": "It is fictional gravity holding ocean water to a spinning ball.",
-          "isCorrect": false,
-          "rationale": "Gravity is the fictional sphere prop; the Firmament is real membrane for light, sound, and sight."
-        },
-        {
-          "label": "C",
-          "text": "It is Sky-Net-1's only job: projecting thermodynamic distant suns.",
+          "text": "It is Sky-Net-1's only job: projecting thermodynamic distant suns, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Stars as Sky-Net-1 projectors cast Overlays; the Firmament itself is the structural membrane for perception."
         },
         {
+          "label": "C",
+          "text": "It permanently shows the bright white field with no Black Void Plasma ever, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "True space is bright white but intentionally blacked out by Black Void Plasma under current control."
+        },
+        {
           "label": "D",
-          "text": "It is the structural membrane that bends light and sound, granting biological eyes their perception — and it could not enclose a sphere without immense impractical pillars.",
-          "isCorrect": true,
-          "rationale": "The Firmament bends light and sound for perception and only fits flat architecture; a sphere would need immense impractical pillars."
+          "text": "It is fictional gravity holding ocean water to a spinning ball, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Gravity is the fictional sphere prop; the Firmament is real membrane for light, sound, and sight."
         }
       ],
       "hint": "Bends light and sound for sight — flat only.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -246,31 +246,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A single globe rotating anti-clockwise at nearly 1,000 miles per hour.",
+          "text": "A single globe rotating anti-clockwise at nearly 1,000 miles per hour, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "That spin story is the fabricated ball model; Gateway-10 is horizontal multi-world layout."
         },
         {
           "label": "B",
-          "text": "Only Antarctica with no other realms beyond the Ice Wall.",
+          "text": "Only Antarctica with no other realms beyond the Ice Wall, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Ice Walls section human reality from the rest of the flat horizontal realms of Gateway-10."
         },
         {
           "label": "C",
-          "text": "The name of the holographic projection dome alone.",
-          "isCorrect": false,
-          "rationale": "The dome is inner sky tech the G.A.A. will remove; Gateway-10 is the multi-world plane."
-        },
-        {
-          "label": "D",
           "text": "The central physical plane comprising 178 worlds, functioning horizontally, where the known Earth currently resides at the center.",
           "isCorrect": true,
           "rationale": "Gateway-10 is 178 horizontally functioning worlds; known Earth sits at the center of that central plane."
+        },
+        {
+          "label": "D",
+          "text": "The name of the holographic projection dome alone, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "The dome is inner sky tech the G.A.A. will remove; Gateway-10 is the multi-world plane."
         }
       ],
       "hint": "178 horizontal worlds — known Earth at center.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 9,
@@ -278,7 +278,7 @@
       "options": [
         {
           "label": "A",
-          "text": "All 178 worlds were erased so only a solar system vacuum remains.",
+          "text": "All 178 worlds were erased so only a solar system vacuum remains, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Solar system vastness is fallacy; 178 worlds still function horizontally on Gateway-10."
         },
@@ -296,7 +296,7 @@
         },
         {
           "label": "D",
-          "text": "Freemasons melted Realm-2 into Black Void Plasma last century.",
+          "text": "Freemasons melted Realm-2 into Black Void Plasma last century, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Freemasons hide flat truth; Realm-2/3 split is artificial Ice Wall partitioning, not plasma melting."
         }
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
-          "text": "A fake manufactured cosmological model designed to convince humanity that planets orbit suns.",
-          "isCorrect": true,
-          "rationale": "Heliocentrism is manufactured deception selling planets orbiting suns — not true layout."
-        },
-        {
-          "label": "B",
-          "text": "The true map of adjacent flat realms on Gateway-10.",
+          "text": "The true map of adjacent flat realms on Gateway-10, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "True map is horizontal adjacent realms; Heliocentrism is the fake orbital model."
         },
         {
+          "label": "B",
+          "text": "G.A.A. procedure for the EMF flash memory return.",
+          "isCorrect": false,
+          "rationale": "Unlearning heliocentric deception prepares for Gateway-10 placement and EMF memory return — Heliocentrism itself is the lie."
+        },
+        {
           "label": "C",
-          "text": "Natural law that invents gravity for flat oceans only.",
+          "text": "Natural law that invents gravity for flat oceans only, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Gravity is fictional to prop sphere oceans; Heliocentrism is the orbital fake model."
         },
         {
           "label": "D",
-          "text": "G.A.A. procedure for the EMF flash memory return.",
-          "isCorrect": false,
-          "rationale": "Unlearning heliocentric deception prepares for Gateway-10 placement and EMF memory return — Heliocentrism itself is the lie."
+          "text": "A fake manufactured cosmological model designed to convince humanity that planets orbit suns.",
+          "isCorrect": true,
+          "rationale": "Heliocentrism is manufactured deception selling planets orbiting suns — not true layout."
         }
       ],
       "hint": "Fake model — planets orbit suns.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 11,
@@ -342,31 +342,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Spin stops only during the educational curriculum each semester.",
-          "isCorrect": false,
-          "rationale": "The ball never was true architecture; education enforces the cage lie continuously."
-        },
-        {
-          "label": "B",
-          "text": "No — it is definitively not a spinning ball rotating anti-clockwise at nearly 1,000 miles per hour.",
-          "isCorrect": true,
-          "rationale": "Physical Earth is not a spinning ball at nearly 1,000 mph anti-clockwise; that claim is false."
-        },
-        {
-          "label": "C",
-          "text": "Yes — anti-clockwise at nearly 1,000 miles per hour is required for Firmament grip.",
+          "text": "Yes — anti-clockwise at nearly 1,000 miles per hour is required for Firmament grip, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Firmament needs flat architecture; the spin rate story is part of the fabricated ball model."
         },
         {
-          "label": "D",
-          "text": "Yes — but only Realm-3 spins while Mars stays still.",
+          "label": "B",
+          "text": "Spin stops only during the educational curriculum each semester, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "The ball never was true architecture; education enforces the cage lie continuously."
+        },
+        {
+          "label": "C",
+          "text": "Yes — but only Realm-3 spins while Mars stays still, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "There has never been a round planet; layout is horizontal adjacency, not partial spin."
+        },
+        {
+          "label": "D",
+          "text": "No — it is definitively not a spinning ball rotating anti-clockwise at nearly 1,000 miles per hour.",
+          "isCorrect": true,
+          "rationale": "Physical Earth is not a spinning ball at nearly 1,000 mph anti-clockwise; that claim is false."
         }
       ],
       "hint": "Not a spinning ball at nearly 1,000 mph anti-clockwise.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 12,
@@ -374,31 +374,31 @@
       "options": [
         {
           "label": "A",
-          "text": "As thermodynamic distant suns that cool into ice walls.",
+          "text": "As thermodynamic distant suns that cool into ice walls, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Stars are not thermodynamic distant suns; Ice Walls are physical partitions of flat realms."
         },
         {
           "label": "B",
-          "text": "As soul-family palaces that orbit Perceived Knowledge.",
+          "text": "As round balls until Freemasons flattened them 100 years ago.",
+          "isCorrect": false,
+          "rationale": "Freemasons have known the true flat shape for over 100 years — they did not invent flatness; they hide it."
+        },
+        {
+          "label": "C",
+          "text": "As soul-family palaces that orbit Perceived Knowledge, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Without flat-Earth understanding, contemplating soul families is pointless; planets are horizontal physical layout."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "Strictly as a horizontal situation — there has never been a round planet.",
           "isCorrect": true,
           "rationale": "Physical planets operate as a horizontal situation. There has never been a round planet."
-        },
-        {
-          "label": "D",
-          "text": "As round balls until Freemasons flattened them 100 years ago.",
-          "isCorrect": false,
-          "rationale": "Freemasons have known the true flat shape for over 100 years — they did not invent flatness; they hide it."
         }
       ],
       "hint": "Horizontal situation — never a round planet.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 13,
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It would need multiple suns positioned all around it.",
-          "isCorrect": true,
-          "rationale": "A globe could not be lit by one local sun without needing multiple suns all around it — another mark of structural impossibility."
-        },
-        {
-          "label": "B",
-          "text": "Because Sky-Net-1 projectors only work on curved glass.",
-          "isCorrect": false,
-          "rationale": "Sky-Net-1 casts Overlays onto the flat Earth; the multi-sun issue is about globe lighting physics."
-        },
-        {
-          "label": "C",
           "text": "Because Black Void Plasma eats all local suns on spheres only.",
           "isCorrect": false,
           "rationale": "Plasma blacks out true bright space visually; the illumination problem is geometry of a globe vs one local sun."
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "It would need multiple suns positioned all around it.",
+          "isCorrect": true,
+          "rationale": "A globe could not be lit by one local sun without needing multiple suns all around it — another mark of structural impossibility."
+        },
+        {
+          "label": "C",
           "text": "Because Antarctica reflects 178 suns automatically.",
           "isCorrect": false,
           "rationale": "Antarctica is the fake Ice Wall partition; the lighting critique is multiple suns around a globe."
+        },
+        {
+          "label": "D",
+          "text": "Because Sky-Net-1 projectors only work on curved glass.",
+          "isCorrect": false,
+          "rationale": "Sky-Net-1 casts Overlays onto the flat Earth; the multi-sun issue is about globe lighting physics."
         }
       ],
       "hint": "Globe lighting would need multiple suns all around.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 14,
@@ -438,9 +438,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Gravity only exists beyond the Ice Wall on Mars.",
+          "text": "Gravity is one of the three psychological strings beside Religion and Finance.",
           "isCorrect": false,
-          "rationale": "Gravity is entirely fictional for the sphere model — not a regional Mars force."
+          "rationale": "The three strings include Perceived Knowledge (where the globe lie sits), Religion, and Finance — not gravity as a named string."
         },
         {
           "label": "B",
@@ -450,13 +450,13 @@
         },
         {
           "label": "C",
-          "text": "Gravity is one of the three psychological strings beside Religion and Finance.",
+          "text": "Gravity only exists beyond the Ice Wall on Mars, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "The three strings include Perceived Knowledge (where the globe lie sits), Religion, and Finance — not gravity as a named string."
+          "rationale": "Gravity is entirely fictional for the sphere model — not a regional Mars force."
         },
         {
           "label": "D",
-          "text": "Gravity is real Firmament technology that bends light and sound.",
+          "text": "Gravity is real Firmament technology that bends light and sound, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Light and sound bending is the Firmament's job; gravity is the fictional sphere-water excuse."
         }
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Because the Ice Wall is only a Sky-Net-1 projector with nothing beyond.",
-          "isCorrect": false,
-          "rationale": "Ice Walls section known reality from the rest of the flat horizontal realms — there is a beyond to explore."
-        },
-        {
-          "label": "B",
-          "text": "Because G.A.A. already removed all realms past Antarctica.",
+          "text": "Because G.A.A. already removed all realms past Antarctica, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "G.A.A. prepares dome removal and awakening; broader Gateway-10 realms remain the hidden layout truth."
         },
         {
+          "label": "B",
+          "text": "Because ocean water gravity fails only at the equator of a globe, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Gravity is wholly fictional; Ice Wall secrecy is about blocking curiosity and exploration."
+        },
+        {
           "label": "C",
-          "text": "If the population knew an Ice Wall existed, it would naturally incite mass curiosity and exploration to see what lies beyond it.",
-          "isCorrect": true,
-          "rationale": "Hiding flat truth conceals the Ice Wall so people never get mass curiosity to explore what lies beyond."
+          "text": "Because the Ice Wall is only a Sky-Net-1 projector with nothing beyond, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Ice Walls section known reality from the rest of the flat horizontal realms — there is a beyond to explore."
         },
         {
           "label": "D",
-          "text": "Because ocean water gravity fails only at the equator of a globe.",
-          "isCorrect": false,
-          "rationale": "Gravity is wholly fictional; Ice Wall secrecy is about blocking curiosity and exploration."
+          "text": "If the population knew an Ice Wall existed, it would naturally incite mass curiosity and exploration to see what lies beyond it.",
+          "isCorrect": true,
+          "rationale": "Hiding flat truth conceals the Ice Wall so people never get mass curiosity to explore what lies beyond."
         }
       ],
       "hint": "Ice Wall knowledge → mass curiosity to explore beyond.",
-      "correctAnswer": "C"
+      "correctAnswer": "D"
     },
     {
       "number": 16,
@@ -502,13 +502,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Inside Realm-3 only, south of every Freemason lodge.",
+          "text": "Inside Realm-3 only, south of every Freemason lodge, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Realm-3 is the Known Lands partition; Mars joins Realm-1's outer Ice Wall."
         },
         {
           "label": "B",
-          "text": "A thermodynamic distant sun that projects Sky-Net-1.",
+          "text": "A thermodynamic distant sun that projects Sky-Net-1, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Stars (not Mars-as-planet myth) are Sky-Net-1 projectors; Mars is adjacent flat-realm geography."
         },
@@ -534,31 +534,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Holes in the Firmament where Black Void Plasma leaks out naturally.",
-          "isCorrect": false,
-          "rationale": "Plasma intentionally blacks out bright white true space; stars are projector tech of Sky-Net-1."
-        },
-        {
-          "label": "B",
-          "text": "Crystalline Temples sitting on major Nodes only.",
+          "text": "Crystalline Temples sitting on major Nodes only, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "Crystalline Temples on Nodes are suppressed flat-grid truths; stars are Sky-Net-1 projectors."
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Not distant thermodynamic suns — they are projectors of Sky-Net-1 casting frequency Overlays onto the flat Earth to hide original high-frequency structures.",
           "isCorrect": true,
           "rationale": "Stars are Sky-Net-1 projectors casting frequency Overlays on the flat Earth to hide high-frequency structures — not distant suns on thermodynamics."
         },
         {
+          "label": "C",
+          "text": "Holes in the Firmament where Black Void Plasma leaks out naturally, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Plasma intentionally blacks out bright white true space; stars are projector tech of Sky-Net-1."
+        },
+        {
           "label": "D",
-          "text": "178 freemason lighthouses beyond Antarctica with no overlays.",
+          "text": "178 freemason lighthouses beyond Antarctica with no overlays and no hidden harvest architecture behind the scenes.",
           "isCorrect": false,
           "rationale": "178 is Gateway-10 world count; star function is Overlay projection, not freemason lighthouses."
         }
       ],
       "hint": "Sky-Net-1 projectors — frequency Overlays on flat Earth.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 18,
@@ -566,19 +566,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True space is empty vacuum between solar-system planets only.",
+          "text": "True space is empty vacuum between solar-system planets only, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Solar-system vastness is fallacy; true space is bright white, not empty black vacuum."
         },
         {
           "label": "B",
-          "text": "True space is gravity holding water while plasma creates suns.",
+          "text": "True space is gravity holding water while plasma creates suns, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Gravity is fictional; plasma blacks the white field — it does not create thermodynamic suns."
         },
         {
           "label": "C",
-          "text": "True space appears only inside educational science outlets.",
+          "text": "True space appears only inside educational science outlets, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Education and science outlets enforce the globe cage; true bright space is hidden by plasma tech."
         },
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Giant pillars raising hundreds of miles into the sky — impractical for true creation physics.",
-          "isCorrect": true,
-          "rationale": "A globe-style Dyson Sphere Firmament would need giant pillars hundreds of miles high — impractical; flat plane is required instead."
-        },
-        {
-          "label": "B",
-          "text": "Sky-Net-1 projectors glued to Heliocentrism textbooks.",
-          "isCorrect": false,
-          "rationale": "The Dyson-style problem is physical pillar support of a membrane on a sphere."
-        },
-        {
-          "label": "C",
           "text": "178 Ice Walls stacked as a curved ladder.",
           "isCorrect": false,
           "rationale": "Ice Walls partition flat realms; the globe Firmament problem is sky-high pillars."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "Only a thin coat of gravity and ocean water.",
           "isCorrect": false,
           "rationale": "Gravity is fictional; the structural critique is immense pillars, not water coats."
+        },
+        {
+          "label": "C",
+          "text": "Sky-Net-1 projectors glued to Heliocentrism textbooks.",
+          "isCorrect": false,
+          "rationale": "The Dyson-style problem is physical pillar support of a membrane on a sphere."
+        },
+        {
+          "label": "D",
+          "text": "Giant pillars raising hundreds of miles into the sky.",
+          "isCorrect": true,
+          "rationale": "A globe-style Dyson Sphere Firmament would need giant pillars hundreds of miles high — impractical; flat plane is required instead."
         }
       ],
       "hint": "Giant pillars hundreds of miles — impractical.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 20,
@@ -630,27 +630,27 @@
       "options": [
         {
           "label": "A",
-          "text": "As Tartaria's official public map of Crystalline Temples.",
+          "text": "As a harmless bedtime story that no institution enforces and no mind treats as mandatory fact, with no deliberate multi-generational control design behind the outcome at all.",
+          "isCorrect": false,
+          "rationale": "33rd-degree Freemasons still guard the secret under negative entities; G.A.A. prepares dismantling of the Simulation."
+        },
+        {
+          "label": "B",
+          "text": "As a White Hat teaching tool that quickly leads everyone past the ice wall into free realms, as if liberating forces ran the prison architecture instead of dismantling it.",
           "isCorrect": false,
           "rationale": "Tartaria and temples are suppressed flat-grid truths; the globe lie hides that map."
         },
         {
-          "label": "B",
-          "text": "As optional entertainment that never touches schools or media.",
-          "isCorrect": false,
-          "rationale": "Enforcement runs through educational system, science outlets, and media — not optional side content."
-        },
-        {
           "label": "C",
-          "text": "As a primary psychological cage in the 3rd-density Simulation, heavily enforced through the educational system, science outlets, and the media so consciousness stays trapped, compliant, and ignorant.",
+          "text": "As a primary psychological cage inside the 3rd-density Simulation, enforced by schools, science, and media so horizontal reality and the ice wall stay unthinkable.",
           "isCorrect": true,
           "rationale": "The globe is a primary psychological cage in 3rd density, enforced via education, science, and media to keep minds trapped and compliant."
         },
         {
           "label": "D",
-          "text": "As a G.A.A. tutorial that already removed all Freemason secrecy.",
+          "text": "As a temporary joke meme with no educational system and no link to simulation control design, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
-          "rationale": "33rd-degree Freemasons still guard the secret under negative entities; G.A.A. prepares dismantling of the Simulation."
+          "rationale": "Enforcement runs through educational system, science outlets, and media — not optional side content."
         }
       ],
       "hint": "3rd-density psychological cage — school, science, media.",
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They publish free Ice Wall maps so everyone explores Gateway-10.",
+          "text": "They publish free Ice Wall maps so everyone explores Gateway-10, and declining any account that reaches past that point.",
           "isCorrect": false,
           "rationale": "They keep the secret to block curiosity and maintain the prison matrix — not open exploration."
         },
         {
           "label": "B",
-          "text": "They only learned flat Earth last week from public EMF flash broadcasts.",
-          "isCorrect": false,
-          "rationale": "The secret knowledge span is over 100 years; EMF flash is the impending memory-return event, not their source."
+          "text": "They have secretly known the true flat shape for over 100 years, operating under negative entities to maintain the loosh-harvesting prison matrix.",
+          "isCorrect": true,
+          "rationale": "33rd-degree Freemasons have known flat Earth for over 100 years and hide it under negative-entity command to keep the loosh-harvesting prison running."
         },
         {
           "label": "C",
-          "text": "They invented gravity as a real lattice force on Nodes.",
+          "text": "They invented gravity as a real lattice force on Nodes, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Gravity is fictional sphere prop; lattice Nodes and Ley Lines map flat, suppressed truths."
         },
         {
           "label": "D",
-          "text": "They have secretly known the true flat shape for over 100 years, operating under negative entities to maintain the loosh-harvesting prison matrix.",
-          "isCorrect": true,
-          "rationale": "33rd-degree Freemasons have known flat Earth for over 100 years and hide it under negative-entity command to keep the loosh-harvesting prison running."
+          "text": "They only learned flat Earth last week from public EMF flash broadcasts.",
+          "isCorrect": false,
+          "rationale": "The secret knowledge span is over 100 years; EMF flash is the impending memory-return event, not their source."
         }
       ],
       "hint": "100+ years of flat knowledge — loosh prison secrecy.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 22,
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only Heliocentrism textbooks and gravity equations.",
-          "isCorrect": false,
-          "rationale": "Those are cage tools of the globe lie, not suppressed flat-grid truths."
+          "text": "Tartaria, massive Crystalline Temples on major Nodes, and the Lattice Membrane Network (Ley Lines).",
+          "isCorrect": true,
+          "rationale": "Tartaria, Crystalline Temples on major Nodes, and the Lattice Membrane Network (Ley Lines) all map on a flat geographic grid."
         },
         {
           "label": "B",
-          "text": "Anti-clockwise spin rates of nearly 1,000 miles per hour.",
-          "isCorrect": false,
-          "rationale": "That spin claim is the fabricated ball model, not a flat-grid revelation."
-        },
-        {
-          "label": "C",
-          "text": "Black Void Plasma factories on spinning equators only.",
+          "text": "Black Void Plasma factories on spinning equators only, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Plasma blacks true white space; the flat-grid list is Tartaria, temples, and lattice lines."
         },
         {
+          "label": "C",
+          "text": "Only Heliocentrism textbooks and gravity equations, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Those are cage tools of the globe lie, not suppressed flat-grid truths."
+        },
+        {
           "label": "D",
-          "text": "Tartaria, massive Crystalline Temples on major Nodes, and the Lattice Membrane Network (Ley Lines).",
-          "isCorrect": true,
-          "rationale": "Tartaria, Crystalline Temples on major Nodes, and the Lattice Membrane Network (Ley Lines) all map on a flat geographic grid."
+          "text": "Anti-clockwise spin rates of nearly 1,000 miles per hour, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "That spin claim is the fabricated ball model, not a flat-grid revelation."
         }
       ],
       "hint": "Tartaria + Crystalline Temples + Lattice/Ley Lines.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 23,
@@ -726,31 +726,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Because Finance and Religion strings dissolve automatically if you keep the globe.",
+          "text": "Without this understanding, there is no point contemplating soul families or crystalline palaces.",
+          "isCorrect": true,
+          "rationale": "True shape is the critical first step out of the matrix; without it, soul families and crystalline palaces are pointless to contemplate."
+        },
+        {
+          "label": "B",
+          "text": "Because Finance and Religion strings dissolve automatically if you keep the globe, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Globe is part of Perceived Knowledge to sever alongside Religion and Finance — keeping the globe blocks awakening."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "Because soul families only reincarnate on spinning globes.",
           "isCorrect": false,
           "rationale": "Shape knowledge unlocks readiness for deeper truths — globe is the cage, not the soul-family home model."
         },
         {
-          "label": "C",
-          "text": "Because the Ice Wall disappears if you ignore flat Earth.",
+          "label": "D",
+          "text": "Because the Ice Wall disappears if you ignore flat Earth, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Ice Wall remains real partition; ignoring flat truth keeps you from exploring what lies beyond."
-        },
-        {
-          "label": "D",
-          "text": "Without this understanding, there is no point contemplating soul families or crystalline palaces.",
-          "isCorrect": true,
-          "rationale": "True shape is the critical first step out of the matrix; without it, soul families and crystalline palaces are pointless to contemplate."
         }
       ],
       "hint": "No flat understanding — no point on soul families/palaces.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 24,
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Outside all strings as harmless geography trivia.",
-          "isCorrect": false,
-          "rationale": "It is a foundational pillar of Perceived Knowledge control — not harmless trivia."
-        },
-        {
-          "label": "B",
-          "text": "Only under Finance, because globes are sold for money.",
+          "text": "Only under Finance, because globes are sold for money, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "It is named under Perceived Knowledge, though all three strings work the prison; globe is knowledge-cage foundation."
         },
         {
-          "label": "C",
-          "text": "Under Religion only as worship of distant thermodynamic suns.",
+          "label": "B",
+          "text": "Under Religion only as worship of distant thermodynamic suns, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Heliocentrism is cosmological deception under the knowledge cage; the three strings include Religion and Finance beside Perceived Knowledge."
         },
         {
-          "label": "D",
-          "text": "As a foundational pillar of the parasites' Perceived Knowledge control mechanism — one of the three main strings alongside Religion and Finance that must be severed to achieve awakening.",
+          "label": "C",
+          "text": "As a foundational pillar of the parasites' Perceived Knowledge control mechanism.",
           "isCorrect": true,
           "rationale": "The globe lie is a foundational Perceived Knowledge pillar. Perceived Knowledge, Religion, and Finance are the three strings that must be cut for awakening."
+        },
+        {
+          "label": "D",
+          "text": "Outside all strings as harmless geography trivia, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "It is a foundational pillar of Perceived Knowledge control — not harmless trivia."
         }
       ],
       "hint": "Perceived Knowledge pillar — with Religion and Finance.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 25,
@@ -790,27 +790,27 @@
       "options": [
         {
           "label": "A",
-          "text": "The G.A.A. permanently strengthens Heliocentrism and freezes all memories at the EMF flash.",
+          "text": "Nothing changes until gravity is taught harder in media, and declining any account that reaches past that point.",
           "isCorrect": false,
-          "rationale": "Dome comes down, flat truth is exposed, and EMF returns suppressed memories — Heliocentrism is unlearned, not strengthened."
+          "rationale": "Gravity is fiction; the strategic arc is dome removal, flat exposure, collapse of the unawakened, and EMF memory return."
         },
         {
           "label": "B",
-          "text": "Only Freemasons collapse while NPCs keep the globe forever.",
+          "text": "Only Freemasons collapse while NPCs keep the globe forever, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
           "rationale": "Unawakened masses face catastrophic psychological collapse; the secret-keepers do not get exclusive immunity narrative here."
         },
         {
           "label": "C",
-          "text": "Imminent removal of the holographic projection dome and exposure of true flat cosmology will cause catastrophic psychological collapse for the unawakened; only by unlearning heliocentric deception can a soul understand its placement in Gateway-10 and prepare for suppressed memory return at the EMF flash.",
+          "text": "Imminent removal of the holographic projection dome and exposure of true flat cosmology will cause catastrophic psychological collapse for the unawakened.",
           "isCorrect": true,
           "rationale": "G.A.A. dome removal exposes flat cosmology and breaks unawakened minds. Unlearning Heliocentrism is required to know Gateway-10 placement and ready for EMF flash memory return."
         },
         {
           "label": "D",
-          "text": "Nothing changes until gravity is taught harder in media.",
+          "text": "The G.A.A. permanently strengthens Heliocentrism and freezes all memories at the EMF flash, casting liberating forces as operators of the prison rather than its dismantlers.",
           "isCorrect": false,
-          "rationale": "Gravity is fiction; the strategic arc is dome removal, flat exposure, collapse of the unawakened, and EMF memory return."
+          "rationale": "Dome comes down, flat truth is exposed, and EMF returns suppressed memories — Heliocentrism is unlearned, not strengthened."
         }
       ],
       "hint": "Dome off → flat exposure → unlearn Heliocentrism before EMF.",

@@ -22,9 +22,9 @@
       "options": [
         {
           "label": "A",
-          "text": "A highly orchestrated demographic cull designed to permanently sever humanity's connection to the Old World — not a natural geopolitical conflict sparked by a political assassination.",
-          "isCorrect": true,
-          "rationale": "WW1 was engineered extermination of truth-bearing survivors, not spontaneous great-power accident."
+          "text": "A purely accidental border skirmish that killed almost no one and left Old World knowledge fully intact in every household.",
+          "isCorrect": false,
+          "rationale": "It was planetary-scale slaughter that erased generational knowledge, not a minor accident."
         },
         {
           "label": "B",
@@ -40,13 +40,13 @@
         },
         {
           "label": "D",
-          "text": "A purely accidental border skirmish that killed almost no one and left Old World knowledge fully intact in every household.",
-          "isCorrect": false,
-          "rationale": "It was planetary-scale slaughter that erased generational knowledge, not a minor accident."
+          "text": "A highly orchestrated demographic cull designed to permanently sever humanity's connection to the Old World.",
+          "isCorrect": true,
+          "rationale": "WW1 was engineered extermination of truth-bearing survivors, not spontaneous great-power accident."
         }
       ],
       "hint": "Orchestrated demographic cull — sever the Old World link.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 2,
@@ -54,31 +54,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Centuries before any Reset, and only elderly librarians who already rejected herbal medicine and flat-earth knowledge.",
-          "isCorrect": false,
-          "rationale": "It came immediately after the latest Reset and hit young adults and teenagers who still held suppressed truth."
-        },
-        {
-          "label": "B",
-          "text": "Only inside orphan train cars, where no military machinery and no trench warfare ever appeared.",
-          "isCorrect": false,
-          "rationale": "Orphan Trains repopulated after the cull; WW1 itself was mechanized slaughter of knowledge-bearers."
-        },
-        {
-          "label": "C",
-          "text": "Immediately after the most recent planetary Reset, engineered to eradicate surviving young adults and teenagers who still retained suppressed knowledge of reality, herbal medicine, and the true structure of the Flat Earth.",
+          "text": "Immediately after the latest planetary Reset, engineered to wipe surviving young adults who still carried Old World memory before the new inverted society locked in.",
           "isCorrect": true,
           "rationale": "Post-Reset cull of the youth generation that still knew reality, herbs, and Flat Earth architecture."
         },
         {
-          "label": "D",
-          "text": "During a future spiritual awakening only, with no link to herbalists, geography, or demographic planning.",
+          "label": "B",
+          "text": "Centuries before any Reset, as a random feud with no memory-purge or demographic targeting, with no deliberate multi-generational control design behind the outcome at all.",
           "isCorrect": false,
           "rationale": "WW1 was the historical sanitation step after Reset, not a future awakening event."
+        },
+        {
+          "label": "C",
+          "text": "As a G.A.A. exercise that spared all memory-holders and published Tartarian history afterward, as if liberating forces ran the prison architecture instead of dismantling it.",
+          "isCorrect": false,
+          "rationale": "Orphan Trains repopulated after the cull; WW1 itself was mechanized slaughter of knowledge-bearers."
+        },
+        {
+          "label": "D",
+          "text": "Only after full free-energy restoration, to celebrate peace with no slaughter of the young.",
+          "isCorrect": false,
+          "rationale": "It came immediately after the latest Reset and hit young adults and teenagers who still held suppressed truth."
         }
       ],
       "hint": "Right after Reset — kill youth who still knew herbs and Flat Earth.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 3,
@@ -86,31 +86,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only animal livestock were counted as casualties, while human populations stayed continuous without clones or NPCs.",
-          "isCorrect": false,
-          "rationale": "Human slaughter cleared the field for manufactured Orphans and NPCs, not livestock bookkeeping."
-        },
-        {
-          "label": "B",
           "text": "By exterminating 15 to 22 million individuals, controllers cleared the landscape to install a manufactured compliant society of cloned Orphans and NPCs, enabling total fabrication of modern historical, scientific, and medical paradigms.",
           "isCorrect": true,
           "rationale": "15—22 million dead opened the slot for clone/NPC society and fully fake modern paradigms."
         },
         {
-          "label": "C",
-          "text": "Exact zero civilian impact, because the war only rearranged museum labels without touching living knowledge-bearers.",
+          "label": "B",
+          "text": "Only animal livestock were counted as casualties, while human populations stayed continuous without clones or NPCs, with every larger system treated as clean, uninvolved, or beside the point.",
           "isCorrect": false,
-          "rationale": "Millions died and living memory was erased; this was population engineering, not museum relabeling."
+          "rationale": "Human slaughter cleared the field for manufactured Orphans and NPCs, not livestock bookkeeping."
+        },
+        {
+          "label": "C",
+          "text": "Fewer than one thousand deaths, after which free citizens rebuilt Tartaria with open elections and full memory of the Reset, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Deaths ran 15 to 22 million; replacement used cloned Orphans and NPCs under fabricated paradigms."
         },
         {
           "label": "D",
-          "text": "Fewer than one thousand deaths, after which free citizens rebuilt Tartaria with open elections and full memory of the Reset.",
+          "text": "Exact zero civilian impact, because the war only rearranged museum labels without touching living knowledge-bearers.",
           "isCorrect": false,
-          "rationale": "Deaths ran 15 to 22 million; replacement used cloned Orphans and NPCs under fabricated paradigms."
+          "rationale": "Millions died and living memory was erased; this was population engineering, not museum relabeling."
         }
       ],
       "hint": "15—22 million dead → cloned Orphans and NPCs installed.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 4,
@@ -118,31 +118,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It was needed only to invent better trench poetry with no relation to Tartary, progress myths, or historical fabrication.",
+          "text": "It funded only railroad tickets for orphan trains and never touched scientific or medical narratives, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "The cull cemented linear-progress illusion and hid Great Tartary's ruins, not poetry workshops."
+          "rationale": "Clearing truth-bearers enabled full fabrication of history, science, and medicine."
         },
         {
           "label": "B",
+          "text": "It restored Great Tartary openly so every school could teach free-energy architecture without resistance.",
+          "isCorrect": false,
+          "rationale": "Tartary was hidden and rebranded; the war buried witnesses, not celebrated free energy."
+        },
+        {
+          "label": "C",
           "text": "It cemented the illusion of linear human progress and hid the ruins of Great Tartary by removing anyone who could still contradict the new matrix of control.",
           "isCorrect": true,
           "rationale": "Kill the witnesses → sell linear progress → keep Tartarian ruins misframed and buried."
         },
         {
-          "label": "C",
-          "text": "It funded only railroad tickets for orphan trains and never touched scientific or medical narratives.",
-          "isCorrect": false,
-          "rationale": "Clearing truth-bearers enabled full fabrication of history, science, and medicine."
-        },
-        {
           "label": "D",
-          "text": "It restored Great Tartary openly so every school could teach free-energy architecture without resistance.",
+          "text": "It was needed only to invent better trench poetry with no relation to Tartary, progress myths, or historical fabrication, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Tartary was hidden and rebranded; the war buried witnesses, not celebrated free energy."
+          "rationale": "The cull cemented linear-progress illusion and hid Great Tartary's ruins, not poetry workshops."
         }
       ],
       "hint": "Linear-progress myth + hide Great Tartary — need the witnesses gone.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 5,
@@ -150,31 +150,31 @@
       "options": [
         {
           "label": "A",
+          "text": "No age targeting occurred because every adult with Old World knowledge was promoted to university chair.",
+          "isCorrect": false,
+          "rationale": "Knowledge-bearers were slaughtered or already confined — not promoted into academia."
+        },
+        {
+          "label": "B",
           "text": "The assassination restored Flat Earth schooling and emptied every Lunatic Asylum by royal decree overnight.",
           "isCorrect": false,
           "rationale": "Asylums held traumatized adults as Loosh sources; the war did not liberate truth schooling."
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "The conventional outbreak story — specifically the assassination of Arch Duke Ferdinand — is entirely fabricated.",
           "isCorrect": true,
           "rationale": "Ferdinand is cover narrative; real target was post-Reset survivors over 16 still free of asylums."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "Ferdinand's death alone caused every battle without planning, and only children under ten were ever drafted.",
           "isCorrect": false,
           "rationale": "Outbreak narrative is fabricated; the cull hit the over-16 knowledge-bearing cohort."
-        },
-        {
-          "label": "D",
-          "text": "No age targeting occurred because every adult with Old World knowledge was promoted to university chair.",
-          "isCorrect": false,
-          "rationale": "Knowledge-bearers were slaughtered or already confined — not promoted into academia."
         }
       ],
       "hint": "Ferdinand is fake cover — real target: free survivors over 16.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 6,
@@ -188,21 +188,21 @@
         },
         {
           "label": "B",
+          "text": "Copernican globe teaching was abandoned during WW1 so every survivor rebuilt Tartarian free-energy maps.",
+          "isCorrect": false,
+          "rationale": "The war enabled globe deception to stick by removing those who knew better."
+        },
+        {
+          "label": "C",
           "text": "In the 1860s homes taught only globe models, so WW1 soldiers already fully accepted Copernican cosmology without any need for erasure.",
           "isCorrect": false,
           "rationale": "1860s home teaching held Flat Earth truth; killing that generation installed Copernican deception."
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "Schools in 1860 already banned all geography talk, so WW1 had no connection to Earth-shape knowledge at all.",
           "isCorrect": false,
           "rationale": "Pre-standardization homes still taught Flat Earth; that is exactly why that generation was culled."
-        },
-        {
-          "label": "D",
-          "text": "Copernican globe teaching was abandoned during WW1 so every survivor rebuilt Tartarian free-energy maps.",
-          "isCorrect": false,
-          "rationale": "The war enabled globe deception to stick by removing those who knew better."
         }
       ],
       "hint": "1860s Flat Earth at home → that generation dies in trenches → globe sticks.",
@@ -214,31 +214,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It funded free herbal colleges in every capital and banned synthetic drugs for the next century.",
-          "isCorrect": false,
-          "rationale": "Herbalists were purged so future generations would depend on synthetic Big Pharma meds."
-        },
-        {
-          "label": "B",
-          "text": "Because the incoming control grid required a sickened population dependent on emerging Big Pharma, individuals with extensive herbal experience had to be removed from the gene pool so future generations would rely on synthetic medications with debilitating side effects.",
-          "isCorrect": true,
-          "rationale": "Cull the herbal knowledge-bearers → lock dependency on petrochemical synthetic medicine."
-        },
-        {
-          "label": "C",
-          "text": "Big Pharma donated atmospheric condensers to hospitals so natural healers could keep practicing openly forever.",
+          "text": "It trained every soldier as a master herbalist so Big Pharma could never form afterward, so Big Pharma never forms and natural medicine remains the global standard of care.",
           "isCorrect": false,
           "rationale": "Parasites planned pharma monopoly by eradicating traditional healers, not empowering them."
         },
         {
-          "label": "D",
-          "text": "It left healers untouched and only drafted accountants who had never worked with plants or remedies.",
+          "label": "B",
+          "text": "It banned all pharmaceuticals and restored Tartarian plant-medicine schools worldwide, reopening Tartarian plant-medicine schools in every city after the trenches emptied.",
+          "isCorrect": false,
+          "rationale": "Herbalists were purged so future generations would depend on synthetic Big Pharma meds."
+        },
+        {
+          "label": "C",
+          "text": "It had no medical angle; trenches were only about border maps with no knowledge purge, and Old World herbal memory-holders survive untouched by any demographic targeting.",
           "isCorrect": false,
           "rationale": "Millions with herbal experience were removed from the gene pool as part of the control grid."
+        },
+        {
+          "label": "D",
+          "text": "It removed people with extensive herbal and natural-medicine knowledge so the new control grid could install a sickened population dependent on emerging Big Pharma.",
+          "isCorrect": true,
+          "rationale": "Cull the herbal knowledge-bearers → lock dependency on petrochemical synthetic medicine."
         }
       ],
       "hint": "Purge herbalists → sickened, synthetic-dependent population.",
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     },
     {
       "number": 8,
@@ -252,15 +252,15 @@
         },
         {
           "label": "B",
-          "text": "The last major Reset concluded its destruction in America around 1860 and in the UK around 1900, leaving ruined landscapes and populations decimated through torture, rape, and mass sacrifice before the WW1 cull.",
-          "isCorrect": true,
-          "rationale": "1860 America / 1900 UK end the Reset wave; WW1 then kills remaining free knowledge-bearers."
-        },
-        {
-          "label": "C",
           "text": "Resets finished in the medieval period only, with continuous free-energy Tartaria operating openly through 1918.",
           "isCorrect": false,
           "rationale": "Recent Reset windows are 1860 America / 1900 UK, then WW1 sanitation of remaining witnesses."
+        },
+        {
+          "label": "C",
+          "text": "The last major Reset concluded its destruction in America around 1860 and in the UK around 1900.",
+          "isCorrect": true,
+          "rationale": "1860 America / 1900 UK end the Reset wave; WW1 then kills remaining free knowledge-bearers."
         },
         {
           "label": "D",
@@ -270,7 +270,7 @@
         }
       ],
       "hint": "America ~1860, UK ~1900 — then WW1 as follow-on cull.",
-      "correctAnswer": "B"
+      "correctAnswer": "C"
     },
     {
       "number": 9,
@@ -278,31 +278,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Vast, repurposed Old World architectural complexes used immediately post-Reset to imprison shell-shocked surviving adults who witnessed the carnage, converting them into 5,000-bed Loosh Batteries to feed demonic entities.",
-          "isCorrect": true,
-          "rationale": "Asylums were Tartarian-scale shells turned into mass Loosh farms for traumatized adult witnesses."
-        },
-        {
-          "label": "B",
-          "text": "Open museums that displayed atmospheric condensers and Carnegie-free histories without any imprisonment.",
+          "text": "Brand-new hotels built for tourists with no prisoners and no link to Reset trauma harvest, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
           "rationale": "They were containment and Loosh extraction, not free-energy museums."
         },
         {
-          "label": "C",
-          "text": "Temporary train stations for orphan trains that never held traumatized adults at all.",
+          "label": "B",
+          "text": "Schools that taught flat earth and free energy to every surviving adult without confinement, so harvest logistics, density tech, and inverted narrative machinery play no part.",
           "isCorrect": false,
           "rationale": "Orphan Trains moved clones; asylums locked adult witnesses as Loosh Batteries."
         },
         {
-          "label": "D",
-          "text": "Brand-new tiny clinics that taught Flat Earth geography and herbal medicine to every inmate as free curriculum.",
+          "label": "C",
+          "text": "Empty ruins ignored by Freemasons and never used for containment or loosh extraction.",
           "isCorrect": false,
           "rationale": "They contained and harvested trauma energy; they did not teach Old World truth."
+        },
+        {
+          "label": "D",
+          "text": "Vast repurposed Old World complexes used right after the Reset to imprison shell-shocked adult witnesses as interim Loosh batteries while orphan crops matured.",
+          "isCorrect": true,
+          "rationale": "Asylums were Tartarian-scale shells turned into mass Loosh farms for traumatized adult witnesses."
         }
       ],
       "hint": "Old World shells → 5,000-bed Loosh Batteries for shell-shocked adults.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 10,
@@ -310,31 +310,31 @@
       "options": [
         {
           "label": "A",
-          "text": "They were all drafted as generals who prevented WW1 and protected Old World knowledge by force of arms.",
-          "isCorrect": false,
-          "rationale": "Containment removed them from society; WW1 still culled the free mid-age cohort."
-        },
-        {
-          "label": "B",
-          "text": "They received stem-cell therapy in D.U.M.B.S. and returned as free-energy engineers rebuilding condensers.",
+          "text": "Witnesses were given microphones and national stages to describe the Reset in full detail — that mechanism alone, with no wider inversion stack required to produce the result.",
           "isCorrect": false,
           "rationale": "Stem cells fed clone production; witnesses were not restored as free-energy engineers."
         },
         {
-          "label": "C",
-          "text": "They were elected as city mayors and ordered to publish full reptilian timelines in every newspaper without censorship.",
+          "label": "B",
+          "text": "All adult witnesses were healed overnight and hired as official Tartarian history teachers — that mechanism alone, with no wider inversion stack required to produce the result.",
           "isCorrect": false,
           "rationale": "Witnesses were driven catatonic and incarcerated — not given media platforms."
         },
         {
-          "label": "D",
-          "text": "Adults who survived and witnessed overt reptilian and parasitic slaughter were driven catatonic by trauma, swept off the streets, and incarcerated in Lunatic Asylums where inmate agony was harvested as Loosh for demonic hosts of sold-soul proxies.",
+          "label": "C",
+          "text": "Adults who witnessed reptilian and parasitic slaughter were driven catatonic, swept off streets, and locked in asylums so their testimony could not seed public memory.",
           "isCorrect": true,
           "rationale": "Trauma → catatonia → asylum containment → continuous Loosh harvest for parasitic hosts."
+        },
+        {
+          "label": "D",
+          "text": "No adults witnessed anything; only children saw events and immediately forgot without force.",
+          "isCorrect": false,
+          "rationale": "Containment removed them from society; WW1 still culled the free mid-age cohort."
         }
       ],
       "hint": "Catatonic witnesses → asylums → Loosh for demonic proxy hosts.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 11,
@@ -342,9 +342,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Only foreign tourists were invited to settle empty cities while no underground labs or cloning occurred.",
-          "isCorrect": false,
-          "rationale": "Subterranean clone growth and Orphan Train logistics were the artificial repopulation path."
+          "text": "Stem cells taken from children prior to sacrifice were used to grow clones in subterranean D.U.M.B.S (Deep Underground Military Bases), then moved into the emptied realm as the new populace.",
+          "isCorrect": true,
+          "rationale": "Pre-sacrifice stem cells → underground clone growth → artificial repopulation without Old World memory."
         },
         {
           "label": "B",
@@ -354,19 +354,19 @@
         },
         {
           "label": "C",
-          "text": "Stem cells taken from children prior to sacrifice were used to grow clones in subterranean D.U.M.B.S (Deep Underground Military Bases), then moved into the emptied realm as the new populace.",
-          "isCorrect": true,
-          "rationale": "Pre-sacrifice stem cells → underground clone growth → artificial repopulation without Old World memory."
+          "text": "Giants were reawakened from burial mounds to serve as the sole new citizen class with full free-energy rights, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Repopulation used lab-grown clones, not revived mound giants as free citizens."
         },
         {
           "label": "D",
-          "text": "Giants were reawakened from burial mounds to serve as the sole new citizen class with full free-energy rights.",
+          "text": "Nothing beyond foreign tourists were invited to settle empty cities while no underground labs or cloning occurred, and no coordinated multi-system design behind it.",
           "isCorrect": false,
-          "rationale": "Repopulation used lab-grown clones, not revived mound giants as free citizens."
+          "rationale": "Subterranean clone growth and Orphan Train logistics were the artificial repopulation path."
         }
       ],
       "hint": "Stem cells → D.U.M.B.S. clones → replace the consumed.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 12,
@@ -374,15 +374,15 @@
       "options": [
         {
           "label": "A",
-          "text": "They only moved coal and never carried children, clones, or educational programming of any kind.",
+          "text": "They only moved coal and never carried children, clones, or educational programming of any kind, without extending the chain into harvest or inversion logistics.",
           "isCorrect": false,
           "rationale": "Orphan Trains were the child-distribution network for artificial repopulation."
         },
         {
           "label": "B",
-          "text": "They evacuated free-energy engineers to safe moons so Tartaria could restart without any fabricated schooling.",
+          "text": "They returned asylum inmates to open leadership so Loosh harvesting would end immediately after 1900, with the surrounding architecture waved away as irrelevant.",
           "isCorrect": false,
-          "rationale": "Trains distributed memory-blank clones into empty Tartarian cities under new programming."
+          "rationale": "Asylums kept adult witnesses; trains moved cloned children into emptied cities."
         },
         {
           "label": "C",
@@ -392,9 +392,9 @@
         },
         {
           "label": "D",
-          "text": "They returned asylum inmates to open leadership so Loosh harvesting would end immediately after 1900.",
+          "text": "They evacuated free-energy engineers to safe moons so Tartaria could restart without any fabricated schooling.",
           "isCorrect": false,
-          "rationale": "Asylums kept adult witnesses; trains moved cloned children into emptied cities."
+          "rationale": "Trains distributed memory-blank clones into empty Tartarian cities under new programming."
         }
       ],
       "hint": "Clones on rails into empty Tartarian cities — fabricated schooling.",
@@ -406,31 +406,31 @@
       "options": [
         {
           "label": "A",
+          "text": "Shell-shocked asylum inmates were released as teachers of pure Old World knowledge without any falsification, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Asylum populations were Loosh sources; indoctrination used saved NPC adults, not freed witnesses."
+        },
+        {
+          "label": "B",
           "text": "Specific NPC adults had been \"saved\" in temporary safe zones prior to the Reset and were brought in to indoctrinate the clones with new, falsified history.",
           "isCorrect": true,
           "rationale": "Preserved NPC caregivers from safe zones installed the fake timeline into clone children."
         },
         {
-          "label": "B",
-          "text": "Shell-shocked asylum inmates were released as teachers of pure Old World knowledge without any falsification.",
-          "isCorrect": false,
-          "rationale": "Asylum populations were Loosh sources; indoctrination used saved NPC adults, not freed witnesses."
-        },
-        {
           "label": "C",
-          "text": "Arch Duke Ferdinand personally adopted every clone and taught Flat Earth and herbal medicine as official doctrine.",
+          "text": "Arch Duke Ferdinand personally adopted every clone and taught Flat Earth and herbal medicine as official doctrine, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "Ferdinand is fabricated cover; clone rearing used NPC indoctrinators with fake history."
         },
         {
           "label": "D",
-          "text": "No adults were involved; clones self-taught free-energy engineering from intact Carnegie-free archives.",
+          "text": "No adults were involved; clones self-taught free-energy engineering from intact Carnegie-free archives, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "NPC adults delivered falsified history; Carnegie libraries later bound the deceit."
         }
       ],
       "hint": "Safe-zone NPC adults → indoctrinate clones with falsified history.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 14,
@@ -438,15 +438,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Only Carnegie librarians who already believed every page of fabricated globe science without doubt.",
-          "isCorrect": false,
-          "rationale": "Targets were people who could still dispute the narrative, not already-captured believers."
+          "text": "Those in their late teens to mid-50s who possessed Old World knowledge but avoided the asylums.",
+          "isCorrect": true,
+          "rationale": "Free knowledge-bearers from late teens through mid-50s were the WW1 kill window."
         },
         {
           "label": "B",
-          "text": "Those in their late teens to mid-50s who possessed Old World knowledge but avoided the asylums — the free cohort still capable of disputing the incoming narrative.",
-          "isCorrect": true,
-          "rationale": "Free knowledge-bearers from late teens through mid-50s were the WW1 kill window."
+          "text": "Only Carnegie librarians who already believed every page of fabricated globe science without doubt.",
+          "isCorrect": false,
+          "rationale": "Targets were people who could still dispute the narrative, not already-captured believers."
         },
         {
           "label": "C",
@@ -462,7 +462,7 @@
         }
       ],
       "hint": "Late teens to mid-50s — free Old World memory, not asylums.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 15,
@@ -470,31 +470,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Between 1914 and 1918 the conflict yielded 15 to 22 million deaths — about 9—11 million military and 6—13 million civilian — cleansing the realm of anyone capable of disputing the incoming narrative.",
-          "isCorrect": true,
-          "rationale": "15—22 million total (roughly 9—11M military, 6—13M civilian) as narrative-cleansing slaughter."
-        },
-        {
-          "label": "B",
-          "text": "Only 15 librarians died, which was enough to rewrite every science book without wider demographic impact.",
-          "isCorrect": false,
-          "rationale": "Tens of millions died; this was realm-scale cleansing, not a library staffing event."
-        },
-        {
-          "label": "C",
           "text": "Exactly equal military and civilian zero-casualty \"war games\" staged for newspapers without real slaughter.",
           "isCorrect": false,
           "rationale": "Real mass death: millions military and millions civilian within the 15—22 million band."
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "Between 1914 and 1918 the conflict yielded 15 to 22 million deaths — about 9.",
+          "isCorrect": true,
+          "rationale": "15—22 million total (roughly 9—11M military, 6—13M civilian) as narrative-cleansing slaughter."
+        },
+        {
+          "label": "C",
           "text": "Under one hundred total deaths, all accidental, with no military or civilian split worth recording.",
           "isCorrect": false,
           "rationale": "Scale is 15 to 22 million with multi-million military and civilian components."
+        },
+        {
+          "label": "D",
+          "text": "Only 15 librarians died, which was enough to rewrite every science book without wider demographic impact.",
+          "isCorrect": false,
+          "rationale": "Tens of millions died; this was realm-scale cleansing, not a library staffing event."
         }
       ],
       "hint": "15—22 million total — roughly 9—11M military, 6—13M civilian.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 16,
@@ -502,9 +502,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a fashion change in factory hats with no effect on locomotives, Ley Lines, or energy systems.",
+          "text": "A pure celebration of human ingenuity that invented free energy from nothing without dismantling any prior civilization.",
           "isCorrect": false,
-          "rationale": "Core free-energy systems were removed and smelted to force primitive resource dependency."
+          "rationale": "It was deliberate dismantling of Tartaria's advanced free-energy tech, not innocent invention."
         },
         {
           "label": "B",
@@ -514,15 +514,15 @@
         },
         {
           "label": "C",
-          "text": "Not human ingenuity but deliberate dismantling of Tartaria's advanced free-energy technologies — the violent transition mechanism between Tartarian remnants and the fully realized modern matrix, with WW1 as the bloody hinge.",
+          "text": "Not human ingenuity but deliberate dismantling of Tartaria's advanced free-energy technologies.",
           "isCorrect": true,
           "rationale": "Industrial Revolution = free-energy teardown; WW1 finishes the human-memory teardown."
         },
         {
           "label": "D",
-          "text": "A pure celebration of human ingenuity that invented free energy from nothing without dismantling any prior civilization.",
+          "text": "Only a fashion change in factory hats with no effect on locomotives, Ley Lines, or energy systems.",
           "isCorrect": false,
-          "rationale": "It was deliberate dismantling of Tartaria's advanced free-energy tech, not innocent invention."
+          "rationale": "Core free-energy systems were removed and smelted to force primitive resource dependency."
         }
       ],
       "hint": "Dismantle Tartarian free energy — WW1 as the bloody hinge.",
@@ -534,25 +534,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Atmospheric Condensers were mass-produced after 1918 so every family locomotive ran without coal forever.",
+          "text": "Condensers were upgraded and given free to every railway as permanent public infrastructure, not the deeper control mechanism described by the Living Truth.",
           "isCorrect": false,
           "rationale": "They were removed and smelted — opposite of postwar mass free-energy rollout."
         },
         {
           "label": "B",
-          "text": "Ley Lines were imaginary myths with no locomotive application, so coal was always the only possible fuel.",
-          "isCorrect": false,
-          "rationale": "Lattice/Ley induction powered condensers until corporate monopoly destroyed the devices."
-        },
-        {
-          "label": "C",
-          "text": "Coal companies donated condensers to orphan trains so clones would learn electromagnetic engineering first.",
+          "text": "Coal was banned and every locomotive was tuned back to full aether extraction after WW1, not the deeper control mechanism described by the Living Truth.",
           "isCorrect": false,
           "rationale": "Monopolies enforced coal; clones received fabricated education, not condenser craft."
         },
         {
+          "label": "C",
+          "text": "Rail never used free energy; condensers are a myth invented by modern conspiracy writers under any historical configuration of the realm.",
+          "isCorrect": false,
+          "rationale": "Lattice/Ley induction powered condensers until corporate monopoly destroyed the devices."
+        },
+        {
           "label": "D",
-          "text": "Atmospheric Condensers that powered steam locomotives by extracting electromagnetic energy from the Lattice Membrane Network (Ley Lines) were systematically removed and smelted down by corporate monopolies to enforce dependency on restricted resources like coal.",
+          "text": "Atmospheric Condensers that powered locomotives from Lattice electromagnetic energy were removed or destroyed so rail was forced onto coal and metered fuel dependence.",
           "isCorrect": true,
           "rationale": "Condensers rode Ley-line electromagnetics until monopolies melted them to lock coal dependency."
         }
@@ -566,31 +566,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Clean pneumatic transport systems like the original London Underground were suppressed as part of dismantling superior Tartarian-era technologies.",
-          "isCorrect": true,
-          "rationale": "Pneumatic Underground excellence was suppressed alongside other free/clean systems."
+          "text": "They were converted into Lunatic Asylums with 5,000 beds and no transport function remaining, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Asylums repurposed Old World architectural complexes; Underground suppression is a separate tech-erasure track."
         },
         {
           "label": "B",
-          "text": "They expanded freely as the global standard, replacing every coal system and teaching lattice physics in schools.",
+          "text": "They expanded freely as the global standard, replacing every coal system and teaching lattice physics in schools, as if no adjacent systems participated at all.",
           "isCorrect": false,
           "rationale": "Clean pneumatic systems like the original London Underground were suppressed."
         },
         {
           "label": "C",
-          "text": "They only ever existed as cartoon drawings in Carnegie libraries with no real pneumatic engineering history.",
-          "isCorrect": false,
-          "rationale": "Real superior systems were suppressed; libraries pushed fake history over living tech memory."
+          "text": "Clean pneumatic transport systems like the original London Underground were suppressed as part of dismantling superior Tartarian-era technologies.",
+          "isCorrect": true,
+          "rationale": "Pneumatic Underground excellence was suppressed alongside other free/clean systems."
         },
         {
           "label": "D",
-          "text": "They were converted into Lunatic Asylums with 5,000 beds and no transport function remaining.",
+          "text": "They only ever existed as cartoon drawings in Carnegie libraries with no real pneumatic engineering history, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "Asylums repurposed Old World architectural complexes; Underground suppression is a separate tech-erasure track."
+          "rationale": "Real superior systems were suppressed; libraries pushed fake history over living tech memory."
         }
       ],
       "hint": "Original pneumatic London Underground — suppressed.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 19,
@@ -598,31 +598,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Wealthy industrialists and 33rd-degree Freemasons like Andrew Carnegie used vast library-building philanthropy as a calculated distribution network for fabricated history and science, packaged in prestigious vaulted Tartarian architecture to bind the new populace intellectually.",
-          "isCorrect": true,
-          "rationale": "Carnegie libraries = attractive Tartarian shells filled with programmed fake history and science."
-        },
-        {
-          "label": "B",
-          "text": "They restored free-energy manuals to every shelf and openly admitted the Reset, Orphan Trains, and WW1 cull.",
-          "isCorrect": false,
-          "rationale": "Philanthropy packaged hyper-deceit, not full disclosure of Reset and cull mechanics."
-        },
-        {
-          "label": "C",
-          "text": "They burned every book and forbade reading so clones would have zero text-based programming of any kind.",
+          "text": "Carnegie burned every library so the blank-slate population could never be re-educated at all.",
           "isCorrect": false,
           "rationale": "They distributed prestige libraries of fake history/science inside Tartarian shells — binding deceit, not illiteracy."
         },
         {
-          "label": "D",
-          "text": "Carnegie only funded herbal clinics that reversed Big Pharma plans and banned globe models in every town.",
+          "label": "B",
+          "text": "Libraries stocked only free-energy manuals and exposed Masonic blood-oaths in every town.",
           "isCorrect": false,
           "rationale": "His network bound clones to fake paradigms; it did not restore herbal Old World medicine."
+        },
+        {
+          "label": "C",
+          "text": "33rd-degree figures like Carnegie used library philanthropy to install fabricated history and science at scale while the post-cull population was still a blank slate.",
+          "isCorrect": true,
+          "rationale": "Carnegie libraries = attractive Tartarian shells filled with programmed fake history and science."
+        },
+        {
+          "label": "D",
+          "text": "Philanthropy was pure charity with no narrative payload and no link to post-cull control, with no deliberate multi-generational control design behind the outcome at all.",
+          "isCorrect": false,
+          "rationale": "Philanthropy packaged hyper-deceit, not full disclosure of Reset and cull mechanics."
         }
       ],
       "hint": "Freemason industrialist libraries — fake history in Tartarian prestige shells.",
-      "correctAnswer": "A"
+      "correctAnswer": "C"
     },
     {
       "number": 20,
@@ -630,31 +630,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Strictly true free-energy schematics and honest Reset chronologies printed without any deceitful packaging.",
-          "isCorrect": false,
-          "rationale": "Hyper-bullshit means packaged fake history and fake science made to look prestigious and binding."
+          "text": "Packaging fake history and fake science inside prestigious, vaulted Tartarian architecture so the deceit became attractive and intellectually.",
+          "isCorrect": true,
+          "rationale": "Hyper-bullshit = seductive false canon in grand old shells so orphans never find their inheritance."
         },
         {
           "label": "B",
-          "text": "Only blank pages donated to empty cities with no historical or scientific claims at all.",
+          "text": "Only blank pages donated to empty cities with no historical or scientific claims at all, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "The libraries actively distributed false history and science to program the new populace."
         },
         {
           "label": "C",
-          "text": "Packaging fake history and fake science inside prestigious, vaulted Tartarian architecture so the deceit became attractive and intellectually binding to newly cloned orphans who never knew their true inheritance.",
-          "isCorrect": true,
-          "rationale": "Hyper-bullshit = seductive false canon in grand old shells so orphans never find their inheritance."
+          "text": "Strictly true free-energy schematics and honest Reset chronologies printed without any deceitful packaging, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Hyper-bullshit means packaged fake history and fake science made to look prestigious and binding."
         },
         {
           "label": "D",
-          "text": "Military trench manuals that admitted WW1 was a demographic cull and urged soldiers to desert with Old World knowledge intact.",
+          "text": "Military trench manuals that admitted WW1 was a demographic cull and urged soldiers to desert with Old World knowledge intact, as a one-factor story with a tidy edge.",
           "isCorrect": false,
           "rationale": "Library content bound people to deceit; it did not confess the cull or preserve Old World truth."
         }
       ],
       "hint": "Fake history/science in grand Tartarian libraries — binding the clones.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 21,
@@ -662,31 +662,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only gardening, folk dance, and pottery classes with no financial, religious, or knowledge control involved.",
-          "isCorrect": false,
-          "rationale": "The named triad is Religion, Finance, and Perceived Knowledge — full spectrum control."
-        },
-        {
-          "label": "B",
-          "text": "Orphan train schedules, coal prices, and trench poetry contests as the only lasting control mechanisms.",
+          "text": "Orphan train schedules, coal prices, and trench poetry contests as the only lasting control mechanisms, and that is treated as the entire mechanism.",
           "isCorrect": false,
           "rationale": "Strategic control is Religion, Finance, Perceived Knowledge — not peripheral logistics hobbies."
         },
         {
-          "label": "C",
-          "text": "Free herbal unions, open Flat Earth academies, and public condenser factories as the new global law.",
+          "label": "B",
+          "text": "Only gardening, folk dance, and pottery classes with no financial, religious, or knowledge control involved, and that is treated as the entire mechanism.",
           "isCorrect": false,
-          "rationale": "Those liberatory structures were suppressed; the three strings enforce dependency and deceit."
+          "rationale": "The named triad is Religion, Finance, and Perceived Knowledge — full spectrum control."
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "Religion, Finance, and Perceived Knowledge — the structural triad that keeps the buried true history from overturning the matrix.",
           "isCorrect": true,
           "rationale": "With truth-bearers dead in trenches, Religion, Finance, and Perceived Knowledge lock the grid."
+        },
+        {
+          "label": "D",
+          "text": "Free herbal unions, open Flat Earth academies, and public condenser factories as the new global law, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Those liberatory structures were suppressed; the three strings enforce dependency and deceit."
         }
       ],
       "hint": "Religion · Finance · Perceived Knowledge.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 22,
@@ -694,31 +694,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Zero NPCs remain because Carnegie libraries accidentally printed the full 178,000-year occupation timeline.",
+          "text": "97% of the current global population operates as heavily programmed NPCs, incapable of conceptualizing reality beyond parameters assigned by modern media, education, and science.",
+          "isCorrect": true,
+          "rationale": "Trench burial of truth-bearers left ~97% as parameter-bound NPCs under media/education/science."
+        },
+        {
+          "label": "B",
+          "text": "Zero NPCs remain because Carnegie libraries accidentally printed the full 178,000-year occupation timeline, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Libraries bound deceit; 97% still run as programmed NPCs inside assigned parameters."
         },
         {
-          "label": "B",
-          "text": "Under 3%, with 97% fully awake to Reset mechanics, Tartaria, and the WW1 sanitation operation.",
+          "label": "C",
+          "text": "Under 3%, with 97% fully awake to Reset mechanics, Tartaria, and the WW1 sanitation operation, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "97% operate as programmed NPCs; only a thin remainder can still conceptualize beyond assigned parameters."
         },
         {
-          "label": "C",
-          "text": "Exactly 50% NPCs and 50% free-energy engineers openly rebuilding Ley Line condensers in every capital.",
+          "label": "D",
+          "text": "Exactly 50% NPCs and 50% free-energy engineers openly rebuilding Ley Line condensers in every capital, with no further layer required beyond that account.",
           "isCorrect": false,
           "rationale": "The figure given is 97% programmed NPCs, not a half-and-half free-energy renaissance."
-        },
-        {
-          "label": "D",
-          "text": "97% of the current global population operates as heavily programmed NPCs, incapable of conceptualizing reality beyond parameters assigned by modern media, education, and science — because true history was buried in the trenches.",
-          "isCorrect": true,
-          "rationale": "Trench burial of truth-bearers left ~97% as parameter-bound NPCs under media/education/science."
         }
       ],
       "hint": "97% heavily programmed NPCs — truth buried in the trenches.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 23,
@@ -726,15 +726,15 @@
       "options": [
         {
           "label": "A",
-          "text": "As a calculated, post-Reset sanitation operation that exposed the structural deceit of modern civilization by clearing anyone who could still remember the prior realm.",
-          "isCorrect": true,
-          "rationale": "WW1 = planned post-Reset sanitation of memory-bearers so the modern deceit could harden."
+          "text": "As a random weather disaster with no parasitic planning, no Reset link, and no demographic design and no hidden harvest architecture behind the scenes.",
+          "isCorrect": false,
+          "rationale": "It was calculated post-Reset sanitation, not weather or mere political accident."
         },
         {
           "label": "B",
-          "text": "As a random weather disaster with no parasitic planning, no Reset link, and no demographic design.",
+          "text": "As a victorious restoration of Tartaria that reopened Old World knowledge for every orphan train child, with no further layer required beyond that account.",
           "isCorrect": false,
-          "rationale": "It was calculated post-Reset sanitation, not weather or mere political accident."
+          "rationale": "It transitioned into the modern matrix by killing remaining truth-bearers, not restoring Tartaria."
         },
         {
           "label": "C",
@@ -744,13 +744,13 @@
         },
         {
           "label": "D",
-          "text": "As a victorious restoration of Tartaria that reopened Old World knowledge for every orphan train child.",
-          "isCorrect": false,
-          "rationale": "It transitioned into the modern matrix by killing remaining truth-bearers, not restoring Tartaria."
+          "text": "As a calculated, post-Reset sanitation operation that exposed the structural deceit of modern civilization by clearing anyone who could still remember the prior realm.",
+          "isCorrect": true,
+          "rationale": "WW1 = planned post-Reset sanitation of memory-bearers so the modern deceit could harden."
         }
       ],
       "hint": "Calculated post-Reset sanitation — not tragic political accident.",
-      "correctAnswer": "A"
+      "correctAnswer": "D"
     },
     {
       "number": 24,
@@ -758,31 +758,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Only temporary tents that taught Flat Earth and herbal medicine until free energy returned unopposed.",
+          "text": "Only temporary tents that taught Flat Earth and herbal medicine until free energy returned unopposed, without a larger engineered system underneath.",
           "isCorrect": false,
           "rationale": "Modern control institutions rose over that void — medicine, banking, education, theoretical physics."
         },
         {
           "label": "B",
-          "text": "Nothing institutional — society remained without medical cartels, banks, schools, or physics doctrines.",
-          "isCorrect": false,
-          "rationale": "Every modern institution listed was built atop the void created by the slaughter."
-        },
-        {
-          "label": "C",
-          "text": "Only atmospheric condenser factories jointly owned by the clones and the asylum survivors as equal partners.",
+          "text": "Only atmospheric condenser factories jointly owned by the clones and the asylum survivors as equal partners, stopping the explanation at that boundary alone.",
           "isCorrect": false,
           "rationale": "Free-energy was dismantled; pharma, banks, education, and physics filled the knowledge gap."
         },
         {
-          "label": "D",
-          "text": "Every modern institution — from the medical-industrial complex and centralized banking system to public education and theoretical physics — was constructed directly over the intellectual void created by those millions of dead.",
+          "label": "C",
+          "text": "Every modern institution — from the medical-industrial complex and centralized banking system to public education and theoretical physics.",
           "isCorrect": true,
           "rationale": "Pharma, banks, schools, and physics doctrines stand on the grave of the culled knowledge-bearers."
+        },
+        {
+          "label": "D",
+          "text": "Nothing institutional — society remained without medical cartels, banks, schools, or physics doctrines, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Every modern institution listed was built atop the void created by the slaughter."
         }
       ],
       "hint": "Pharma, banks, schools, physics — built on the 1914—1918 void.",
-      "correctAnswer": "D"
+      "correctAnswer": "C"
     },
     {
       "number": 25,
@@ -790,31 +790,31 @@
       "options": [
         {
           "label": "A",
-          "text": "It shows the 178,000-year occupation already ended in 1918 when NPCs voluntarily restored Tartaria without further work.",
+          "text": "It shows the 178,000-year occupation already ended in 1918 when NPCs voluntarily restored Tartaria without further work, held as a complete closed account of the events.",
           "isCorrect": false,
           "rationale": "Occupation comprehension and awakening preparation remain necessary; 1918 sealed the modern matrix, not liberation."
         },
         {
           "label": "B",
-          "text": "It only matters for collecting trench medals and has no link to occupation timelines or spiritual awakening.",
-          "isCorrect": false,
-          "rationale": "Recognition is strategic preparation for wider occupation truth and chronological uninstallation."
-        },
-        {
-          "label": "C",
           "text": "It is critical for dismantling psychological barriers needed to comprehend the wider 178,000-year occupation and to prepare for total uninstallation of chronological history during the imminent spiritual awakening.",
           "isCorrect": true,
           "rationale": "See WW1 as sanitation → crack the mind-cage → face 178,000-year occupation and chronological uninstall at awakening."
         },
         {
+          "label": "C",
+          "text": "It only matters for collecting trench medals and has no link to occupation timelines or spiritual awakening, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Recognition is strategic preparation for wider occupation truth and chronological uninstallation."
+        },
+        {
           "label": "D",
-          "text": "It proves chronological history must remain permanently installed and that awakening should never uninstall the false timeline.",
+          "text": "It proves chronological history must remain permanently installed and that awakening should never uninstall the false timeline in any density, cycle, or historical configuration.",
           "isCorrect": false,
           "rationale": "Preparation is for uninstalling chronological history in the awakening — opposite of permanent install."
         }
       ],
       "hint": "Crack barriers → 178,000-year occupation → uninstall false chronology at awakening.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     }
   ]
 }
