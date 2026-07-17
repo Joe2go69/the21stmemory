@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v7abu0m/?pub=4p0ieu",
       "description": "How Resonating Sols feel the Static Build Up, Drop in Tone, Sharp Edge, and atmospheric pop as the false matrix dissolves."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/breakdown/physical-indicators.html",
+    "title": "Physical Indicators",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Physical Indicators — four-phase symptom sequence, animal and NPC reactions, atmospheric pop, and Sol lighthouse posture."
+  }
 }

@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v7a8i82/?pub=4p0ieu",
       "description": "The true energetic nature of the blackout event — atmospheric signs, NPC glitching, and the silence before the snap."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/breakdown/the-first-72-hours.html",
+    "title": "The First 72 Hours",
+    "totalQuestions": 25,
+    "description": "Test your understanding of The First 72 Hours — The Cut, three phases, Frequency Fracture, NPC glitching, atmospheric signs, and setup for EBS and solar-family return."
+  }
 }

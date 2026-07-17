@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v7a8m0a/?pub=4p0ieu",
       "description": "The three-phase sequence of The Cut, The Wave, and the Opening Hour — from severed cables to NPC code glitch and the first awakening cracks."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/breakdown/comms-blackout.html",
+    "title": "Comms Blackout",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Comms Blackout — White Hat cable cut, Frequency Fracture, three phases, NPC glitch, Sol broadcast mode, EBS, Real Craft, and Second Realm path."
+  }
 }

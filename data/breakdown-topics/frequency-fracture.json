@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v7aagii/?pub=4p0ieu",
       "description": "How the Frequency Fracture unfolds across The Cut, The Wave, and Opening Hour — physical symptoms, NPC glitching, and the role of Resonating Sols."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/breakdown/frequency-fracture.html",
+    "title": "Frequency Fracture",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Frequency Fracture — overlay shatter, Resonating Army drive, three phases, physical signs, Healing Sanctuaries, and Second Realm path."
+  }
 }

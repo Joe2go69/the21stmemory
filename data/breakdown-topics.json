@@ -349,7 +349,14 @@
                   "embed_url": "https://rumble.com/embed/v7a4wzq/?pub=4p0ieu",
                   "description": "How Phase Eight stabilization protocols, Truth Tribunals, and energetic grounding guide humanity through matrix collapse without societal destruction."
                 }
-              ]
+              ],
+              "quiz": {
+                "href": "quiz/breakdown/stabilization-process.html",
+                "title": "Stabilization Process",
+                "totalQuestions": 25,
+                "description": "Test your understanding of the Stabilization Process — Phase Seven to Phase Eight bridge, Truth Tribunals, Lockdown Window, atmospheric buffers, Healing Sanctuaries, and crystalline return."
+              },
+              "is_placeholder": false
             }
           ],
           "quiz": {
@@ -458,7 +465,14 @@
                   "embed_url": "https://rumble.com/embed/v7a8m0a/?pub=4p0ieu",
                   "description": "The three-phase sequence of The Cut, The Wave, and the Opening Hour — from severed cables to NPC code glitch and the first awakening cracks."
                 }
-              ]
+              ],
+              "quiz": {
+                "href": "quiz/breakdown/comms-blackout.html",
+                "title": "Comms Blackout",
+                "totalQuestions": 25,
+                "description": "Test your understanding of Comms Blackout — White Hat cable cut, Frequency Fracture, three phases, NPC glitch, Sol broadcast mode, EBS, Real Craft, and Second Realm path."
+              },
+              "is_placeholder": false
             },
             {
               "id": "npc-glitching",
@@ -480,7 +494,14 @@
                   "embed_url": "https://rumble.com/embed/v7aa2ss/?pub=4p0ieu",
                   "description": "The three-phase NPC Code Glitch across The Cut, The Wave, and Opening Hour — mechanical looping, fear loops, and guidance for Resonating Sols."
                 }
-              ]
+              ],
+              "quiz": {
+                "href": "quiz/breakdown/npc-glitching.html",
+                "title": "NPC Glitching",
+                "totalQuestions": 25,
+                "description": "Test your understanding of NPC Glitching — NPC Code Glitch, three blackout phases, Voice to Skull, dissolve-and-vanish fate, and Sol lighthouse strategy."
+              },
+              "is_placeholder": false
             },
             {
               "id": "frequency-fracture",
@@ -502,9 +523,23 @@
                   "embed_url": "https://rumble.com/embed/v7aagii/?pub=4p0ieu",
                   "description": "How the Frequency Fracture unfolds across The Cut, The Wave, and Opening Hour — physical symptoms, NPC glitching, and the role of Resonating Sols."
                 }
-              ]
+              ],
+              "quiz": {
+                "href": "quiz/breakdown/frequency-fracture.html",
+                "title": "Frequency Fracture",
+                "totalQuestions": 25,
+                "description": "Test your understanding of Frequency Fracture — overlay shatter, Resonating Army drive, three phases, physical signs, Healing Sanctuaries, and Second Realm path."
+              },
+              "is_placeholder": false
             }
-          ]
+          ],
+          "quiz": {
+            "href": "quiz/breakdown/the-first-72-hours.html",
+            "title": "The First 72 Hours",
+            "totalQuestions": 25,
+            "description": "Test your understanding of The First 72 Hours — The Cut, three phases, Frequency Fracture, NPC glitching, atmospheric signs, and setup for EBS and solar-family return."
+          },
+          "is_placeholder": false
         },
         {
           "id": "physical-indicators",
@@ -533,7 +568,14 @@
                   "embed_url": "https://rumble.com/embed/v7ac0c0/?pub=4p0ieu",
                   "description": "The Signs in Body sequence — skull buzzing, Drop in Tone, Sharp Edge, and Silence Before the Snap — as the false 3D reality fractures."
                 }
-              ]
+              ],
+              "quiz": {
+                "href": "quiz/breakdown/skull-buzzing.html",
+                "title": "Skull Buzzing",
+                "totalQuestions": 25,
+                "description": "Test your understanding of Skull Buzzing — Static Build Up, Opening Hour receiver role, organic vs Voice to Skull, body phases, and lighthouse strategy."
+              },
+              "is_placeholder": false
             },
             {
               "id": "muted-environment",
@@ -555,7 +597,14 @@
                   "embed_url": "https://rumble.com/embed/v7ac5z8/?pub=4p0ieu",
                   "description": "The physical and environmental signs of simulation collapse — Drop in Tone, Sharp Edge, and atmospheric muting as the false 3D reality dissolves."
                 }
-              ]
+              ],
+              "quiz": {
+                "href": "quiz/breakdown/muted-environment.html",
+                "title": "Muted Environment",
+                "totalQuestions": 25,
+                "description": "Test your understanding of Muted Environment — Parasite Overlay sky glitch, phase indicators, Opening Hour, true dome reveal path, and fearless light-anchoring."
+              },
+              "is_placeholder": false
             },
             {
               "id": "atmospheric-pop",
@@ -601,7 +650,14 @@
               "embed_url": "https://rumble.com/embed/v7abu0m/?pub=4p0ieu",
               "description": "How Resonating Sols feel the Static Build Up, Drop in Tone, Sharp Edge, and atmospheric pop as the false matrix dissolves."
             }
-          ]
+          ],
+          "quiz": {
+            "href": "quiz/breakdown/physical-indicators.html",
+            "title": "Physical Indicators",
+            "totalQuestions": 25,
+            "description": "Test your understanding of Physical Indicators — four-phase symptom sequence, animal and NPC reactions, atmospheric pop, and Sol lighthouse posture."
+          },
+          "is_placeholder": false
         },
         {
           "id": "ebs-operation",
@@ -630,7 +686,14 @@
                   "embed_url": "https://rumble.com/embed/v7adtv4/?pub=4p0ieu",
                   "description": "The deliberate 72-hour communications blackout and military stabilization lockdown that force the world to absorb the disclosures without collapse."
                 }
-              ]
+              ],
+              "quiz": {
+                "href": "quiz/breakdown/military-broadcasts.html",
+                "title": "Military Broadcasts",
+                "totalQuestions": 25,
+                "description": "Test your understanding of Military Broadcasts — EBS Operation, Truth Packages, White Hats, blackout, soft-to-hard rollout, and Mass Reveal preparation."
+              },
+              "is_placeholder": false
             },
             {
               "id": "mass-reveal",
@@ -652,7 +715,14 @@
                   "embed_url": "https://rumble.com/embed/v7aexl4/?pub=4p0ieu",
                   "description": "The calibrated awakening protocol — soft reassurance, hard truths, and seeded sols revelation during the Mass Reveal window."
                 }
-              ]
+              ],
+              "quiz": {
+                "href": "quiz/breakdown/mass-reveal.html",
+                "title": "Mass Reveal",
+                "totalQuestions": 25,
+                "description": "Test your understanding of Mass Reveal — EBS Operation, Truth Packages, phased sequence, Bloodline and Vaccine Truth, and Stage 3 Revelation."
+              },
+              "is_placeholder": false
             },
             {
               "id": "truth-packages",
@@ -698,9 +768,23 @@
               "embed_url": "https://rumble.com/embed/v7adro2/?pub=4p0ieu",
               "description": "How the staged blackout, Project Blue Beam scare events, and military-controlled E.B.S. rollout shatter the 3D illusion without full societal collapse."
             }
-          ]
+          ],
+          "quiz": {
+            "href": "quiz/breakdown/ebs-operation.html",
+            "title": "EBS Operation",
+            "totalQuestions": 25,
+            "description": "Test your understanding of EBS Operation — Communications Blackout sequence, Project Blue Beam, military truth rollout, Seeded Sols, and Great Awakening transition."
+          },
+          "is_placeholder": false
         }
-      ]
+      ],
+      "quiz": {
+        "href": "quiz/breakdown/blackout-timeline.html",
+        "title": "Blackout Timeline",
+        "totalQuestions": 25,
+        "description": "Test your understanding of the Blackout Timeline — The Cut, Frequency Fracture, three phases, NPC glitching, Blue Beam, EBS, and frequency-lock extraction."
+      },
+      "is_placeholder": false
     },
     {
       "id": "reality-constructs",
@@ -993,9 +1077,31 @@
             {
               "id": "crystalline-architecture",
               "title": "Crystalline Architecture",
-              "description": "Decoded analysis of Crystalline Architecture within the Mega Breakdown Board Notes & Highlights transmission.",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "report": "# Crystalline Architecture\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "description": "Crystalline Architecture is the living electro-magnetic framework of reality — Crystal Light-Worlds crystallized into the Original Realm and Great Dome, true Sol (Atlantian/Tartarian) geometry versus parasitic 3D cages, crystals as hard drives, and the reveal of the Crystalline Temple beneath the holographic overlay.",
+              "topic_image": "images/breakdown/crystalline-architecture.webp",
+              "report": "# Crystalline Architecture\n\n## Overview\n\nThe foundation of all existence and physical reality operates upon a massive, interwoven Crystalline Electro-Magnetic Framework. Before the descent into physical density, creation existed purely as frequency states known as the Crystal Light-Worlds, where sound vibrated and organized into the very first structures of reality. Through the deliberate lowering of vibration, these light structures crystallized to form the Original Realm and the Great Dome, providing a physical training ground to expand thought and mastery. What is currently perceived as a dense, fragmented, and concrete world is entirely an illusion; the true environment is a single, vast Crystalline Temple obscured by a holographic Parasitic Overlay.\n\n## Key Terminology\n\n- **Crystal Light-Worlds** — The original frequency states existing before physicality, where sound vibrated and organized into the first structures of creation.\n\n- **Crystalline Membranes** — The foundational grids formed when soul fields resonated together, weaving light lattices to hold the vision of creation stable.\n\n- **Perception-Based Solidity** — A low-frequency holographic projection field that tricks the human nervous system into perceiving dead matter, such as concrete or steel, as hard, heavy, and permanent.\n\n- **Solar Builders** — The ancient Lyran, Pleiadian, and Andromedan architects who designed the living light structures and grids of the physical realms.\n\n- **Harmonic Lenses** — Crystalline patterns that form around active nodes, functioning as the sensory and relay organs of the earth to shape, balance, and transmit energy between realms.\n\n- **Living Crafts** — Semi-conscious ships and transportation arks gestated from crystalline and plasmatic matter, which respond to telepathic intention rather than mechanical controls.\n\n## Core Revelations\n\nThe physical layer of the Known Lands was not created as a trap, but as a Frequency Amplifier. Its crystalline architecture hums at specific octaves, echoing learned resonance upwards to feed and expand the higher light worlds. True matter is not built; it is grown and sung into existence through the mastery of tone. The modern 3D world is a hijacked projection where dead construction materials are utilized as anti-resonance anchors to drain consciousness. In moments of high resonance, these modern structures reveal their true nature as hollow, nearly transparent scaffolding of frequency. Beneath this false skin lies the unbroken, radiant architecture of the original builders, waiting to be fully revealed.\n\n## Detailed Mechanics and Key Elements\n\n### The Genesis of Form\n\nCreation follows a precise mechanical pathway: Sound generates structure, which folds into Light to create vision, which finally crystallizes into physical form.\n\n### True Sol Architecture\n\nAlso known as Atlantian or Tartarian architecture, true building relies on flowing, harmonic geometry perfectly aligned to planetary resonance. Real construction materials are living conductors: Stone, Crystal, Granite, Frequency Bricks (red bricks), Copper Domes, and Quartz Inlay. Geometric shapes such as arches, domes, spirals, and Star Forts act as massive sound bowls that pull cosmic current into the ground grids and amplify frequency.\n\n### Parasite 3D Architecture\n\nThe parasitic construct utilizes boxes, flat roofs, and sharp right angles to deliberately break natural harmonics. Materials like concrete, steel, plastic, and synthetic glass act as dead frequency holders. Structures like schools, offices, and hospitals are strategically built as anti-resonance cages to cause fatigue, disconnection, and anxiety.\n\n### Crystals as Universal Hard Drives\n\nCrystals function as both physical and etheric hard drives for the entire grid network. They store memory, frequency, and ancient Source Codes. Planetary Crystals hum deep within the earth's core, while Surface Crystals (quartz veins, mountains, and rivers) act as antennas. Hidden Placed Crystals were seeded across the lands by Starseed Families to serve as activation keys.\n\n### Healing Sanctuaries\n\nAdvanced healing occurs within pure frequency spaces built from light, sound, and living crystal. Crystal Halls (often overlaid by modern cathedrals and churches) feature living crystal walls, glowing Rainbow Fractals, and crystal slabs that hum with harmonic frequency to realign the light body grid and dissolve parasitic mind control.\n\n## Broader Context and Interconnections\n\nThe crystalline architecture extends far beyond the surface terrain. The heavens themselves are part of this living lattice. Star-Nodes—what the unawakened view as distant burning suns—are actually multidimensional data crystals storing codes and frequency templates for the projection overlays. These celestial nodes anchor the background projections and act as literal gates and portals between realms like Tara, Andromeda, and Lyra.\n\nBelow the surface, the Sub-Crystalline Band passes energy faster than any wire, linking continents that are in reality just layered frequency fields within the Cube Containment. The entire ecosystem is connected to the Spirit Tree, the central axis node of the Great Dome, whose root system forms the web of harmonic lenses and crystals that power the seven outer domes.\n\n## Strategic Implications\n\nAs the frequency of the realm continues to rise, the parasitic projection grid is actively fracturing. The removal of this overlay will not result in humanity \"building back,\" but rather \"revealing back\". The true original realm will be uncovered: smooth crystalline grounds, natural walking paths, and pristine Crystalline Coastlines. Structures unaligned with the restored frequency—such as corporate buildings, traffic lights, and tarmac—will lose their anchor and vanish.\n\nResonating Sols must recognize that they are constantly walking across a living, humming architecture. By touching ancient sites, feeling the pulse of the grids, and holding their internal resonance, awakened beings act as living lenses themselves, amplifying the crystalline network and accelerating the total frequency collapse of the 3D density construct.\n",
+              "infographic_image": "images/breakdown/the-crystalline-blueprint-of-reality.webp",
+              "pdf_preview_image": "images/breakdown/awakening-the-crystal-light-worlds.webp",
+              "slide_deck_pdf_url": "https://drive.google.com/file/d/1KeltmeK1prTb8ZvOfgmbKTGytVVOAYSd/view?usp=sharing",
+              "rumble_videos": [
+                {
+                  "title": "The Living Crystalline Matrix Beneath Us",
+                  "embed_url": "https://rumble.com/embed/v7ao300/?pub=4p0ieu",
+                  "description": "The living crystalline matrix beneath us — how the Crystalline Electro-Magnetic Framework, Crystal Light-Worlds, and Frequency Amplifier design structure physical reality under the parasitic overlay."
+                },
+                {
+                  "title": "The Living Lattice",
+                  "embed_url": "https://rumble.com/embed/v7ao3hi/?pub=4p0ieu",
+                  "description": "The Living Lattice — true Sol architecture, crystals as universal hard drives, Star-Nodes, Sub-Crystalline Band, and the reveal of the Crystalline Temple as the overlay fractures."
+                }
+              ],
+              "is_placeholder": false,
+              "quiz": {
+                "href": "quiz/breakdown/crystalline-architecture.html",
+                "title": "Crystalline Architecture",
+                "totalQuestions": 25,
+                "description": "Test your understanding of Crystalline Architecture — Crystal Light-Worlds, Frequency Amplifier design, True Sol vs parasite geometry, crystals as hard drives, and the reveal of the Crystalline Temple."
+              }
             },
             {
               "id": "vibrant-reality",

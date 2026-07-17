@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v7aexl4/?pub=4p0ieu",
       "description": "The calibrated awakening protocol — soft reassurance, hard truths, and seeded sols revelation during the Mass Reveal window."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/breakdown/mass-reveal.html",
+    "title": "Mass Reveal",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Mass Reveal — EBS Operation, Truth Packages, phased sequence, Bloodline and Vaccine Truth, and Stage 3 Revelation."
+  }
 }

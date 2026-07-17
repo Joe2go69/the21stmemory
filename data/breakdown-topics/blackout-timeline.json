@@ -20,5 +20,11 @@
       "embed_url": "https://rumble.com/embed/v7a6qrk/?pub=4p0ieu",
       "description": "Atmospheric and biological signs during the blackout — static build-up, the drop in tone, and the silence before the snap."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/breakdown/blackout-timeline.html",
+    "title": "Blackout Timeline",
+    "totalQuestions": 25,
+    "description": "Test your understanding of the Blackout Timeline — The Cut, Frequency Fracture, three phases, NPC glitching, Blue Beam, EBS, and frequency-lock extraction."
+  }
 }
