@@ -111,6 +111,17 @@ const entries = [
   { path: '/quiz/breakdown/eight-domes.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/layered-simulations.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/the-purge-phases.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/original-realm.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/narrative-maintenance.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/trigger-events.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/lockdown-window.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/frequency-trick.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/3d-overlay.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/reality-constructs.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/phase-seven-eight.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/truth-disclosure.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/atmospheric-pop.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/truth-packages.html', priority: '0.75', changefreq: 'monthly' },
 ];
 
 const sourcesPath = path.join(ROOT, 'data', 'sources.json');

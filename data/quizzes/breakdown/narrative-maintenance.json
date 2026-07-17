@@ -1,0 +1,820 @@
+{
+  "id": "narrative-maintenance",
+  "topicId": "narrative-maintenance",
+  "sourceId": "breakdown",
+  "topicTitle": "Narrative Maintenance",
+  "title": "Narrative Maintenance",
+  "subtitle": "Test your grasp of Narrative Maintenance — Phase Four psychological holding, Controlled Stand-ins, Trigger Events, the Lockdown Window, and pacing sleepers toward absolute truth.",
+  "totalQuestions": 25,
+  "extractedAt": "2026-07-17T02:48:14.274Z",
+  "reflection": {
+    "title": "Reflection",
+    "body": "Narrative Maintenance is Phase Four of The Great Purge: a psychological holding pattern that keeps sleepers docile under fabricated leadership while the optical void after earlier removals is managed. Sit with what you missed, then return to the Narrative Maintenance deep-dive, infographics, and video transmissions. When Phase Six locks down the physical environment, meticulously managed perception leaves sleepers primed to receive the absolute truth."
+  },
+  "relatedTopic": {
+    "href": "/deep-dive.html?source=breakdown&topic=narrative-maintenance",
+    "label": "Return to Narrative Maintenance deep-dive"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "question": "Which phase of The Great Purge is Narrative Maintenance?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The fifth phase of The Great Purge, built entirely around air raid sirens and staged supply disruptions.",
+          "isCorrect": false,
+          "rationale": "That describes Trigger Events (Phase Five), which escalate after Narrative Maintenance holds the illusion."
+        },
+        {
+          "label": "B",
+          "text": "The sixth phase of The Great Purge, defined solely by visible military presence and internet blackouts.",
+          "isCorrect": false,
+          "rationale": "That describes the Lockdown Window (Phase Six), which follows Trigger Events rather than defining Phase Four."
+        },
+        {
+          "label": "C",
+          "text": "The first phase of The Great Purge, focused only on removing royals and corporate CEOs without any optics management.",
+          "isCorrect": false,
+          "rationale": "Phase One and Phase Two cover covert removal of parasitic leadership; Narrative Maintenance is Phase Four."
+        },
+        {
+          "label": "D",
+          "text": "The critical fourth phase of The Great Purge, holding sleepers with fabricated optics before Phases Five and Six.",
+          "isCorrect": true,
+          "rationale": "Narrative Maintenance is the critical fourth phase of The Great Purge and a psychological holding pattern before Trigger Events and the Lockdown Window."
+        }
+      ],
+      "hint": "Recall its place between the early covert dismantling and the later trigger and lockdown phases.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 2,
+      "question": "What primary function does Narrative Maintenance serve for the unawakened population?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It operates as a psychological holding pattern that keeps sleepers docile under fabricated leadership and normalcy.",
+          "isCorrect": true,
+          "rationale": "Narrative Maintenance is an essential psychological holding pattern that keeps the unawakened docile while fabricated leadership upholds normalcy."
+        },
+        {
+          "label": "B",
+          "text": "It immediately shatters the false reality by flooding every media network with the Emergency Broadcast System.",
+          "isCorrect": false,
+          "rationale": "The E.B.S. truth broadcast comes later; Phase Four holds the illusion rather than shattering it outright."
+        },
+        {
+          "label": "C",
+          "text": "It permanently abolishes all public ceremonies so sleepers never see leaders appear on screen again, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Controlled Stand-ins continue speeches, meetings, and ceremonies so the illusion of leadership remains intact."
+        },
+        {
+          "label": "D",
+          "text": "It replaces Phase Six military lockdown as the only tool used to contain physical streets and travel.",
+          "isCorrect": false,
+          "rationale": "Military lockdown belongs to Phase Six; Narrative Maintenance manages perception through fabricated optics."
+        }
+      ],
+      "hint": "Think psychological containment rather than open military force.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 3,
+      "question": "Who are the Sleepers in the Narrative Maintenance framework?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The architects of The Great Purge who stage geopolitical tensions and air raid sirens in Phase Five.",
+          "isCorrect": false,
+          "rationale": "Architects dictate pacing of awakening; Sleepers are the unawakened population being managed."
+        },
+        {
+          "label": "B",
+          "text": "The unawakened masses whose perception must be managed and held docile until the mass reveal window.",
+          "isCorrect": true,
+          "rationale": "Sleepers are the unawakened masses whose perception is managed and held docile until the mass reveal window."
+        },
+        {
+          "label": "C",
+          "text": "The Controlled Stand-ins who give speeches and attend ceremonies in place of removed leaders.",
+          "isCorrect": false,
+          "rationale": "Stand-ins are replacements for removed leaders; Sleepers are the audience whose perception is managed."
+        },
+        {
+          "label": "D",
+          "text": "The original parasitic royals and CEOs still freely governing after Phase One and Phase Two.",
+          "isCorrect": false,
+          "rationale": "Those parasitic power structures were removed and replaced; Sleepers are the unawakened masses, not the old rulers."
+        }
+      ],
+      "hint": "Identify whose perception is the primary target of Phase Four.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What are Controlled Stand-ins in this phase?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Replaced leaders, clones, biological copies, masked actors, holographic projections, and A.I. driven composites.",
+          "isCorrect": true,
+          "rationale": "Controlled Stand-ins include replaced leaders, clones, biological copies, masked actors, holographic projections, and A.I. driven composites."
+        },
+        {
+          "label": "B",
+          "text": "Only elected human officials who were never removed and still hold genuine legal authority as authentic global rulers.",
+          "isCorrect": false,
+          "rationale": "All true world leaders have already been replaced; stand-ins are fabricated optics, not intact genuine rulers."
+        },
+        {
+          "label": "C",
+          "text": "Emergency Broadcast System servers that rewrite news scripts without ever presenting any human-appearing stand-in form.",
+          "isCorrect": false,
+          "rationale": "The E.B.S. takes over media later; Controlled Stand-ins are human-appearing replacements for removed leaders."
+        },
+        {
+          "label": "D",
+          "text": "Exclusive military commanders who appear only during Phase Six street lockdowns and never in Phase Four public ceremonies.",
+          "isCorrect": false,
+          "rationale": "Stand-ins conduct fake meetings, speeches, and ceremonies in Phase Four, not solely Phase Six military roles."
+        }
+      ],
+      "hint": "List the forms used to mimic removed leaders in public optics.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 5,
+      "question": "What is Phase Five: Trigger Events designed to do?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Deploy only Controlled Stand-ins for awards and ceremonies while keeping all geopolitical conditions perfectly calm.",
+          "isCorrect": false,
+          "rationale": "Calm fabricated optics belong to Phase Four; Phase Five escalates with staged tensions and disruptions."
+        },
+        {
+          "label": "B",
+          "text": "Hand permanent control of every media network to the Emergency Broadcast System before any lockdown begins, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "E.B.S. takeover is prepared through the Lockdown Window environment, not as the sole definition of Trigger Events."
+        },
+        {
+          "label": "C",
+          "text": "Stage geopolitical tensions, air raid sirens, and supply disruptions to push sleepers toward awakening without full panic.",
+          "isCorrect": true,
+          "rationale": "Trigger Events stage geopolitical tensions, air raid sirens, and supply disruptions so sleepers reach the edge of questioning without full panic."
+        },
+        {
+          "label": "D",
+          "text": "Restore removed royals and corporate CEOs to public office so sleepers trust leadership again permanently, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Removed parasitic structures stay replaced; Phase Five escalates tension rather than restoring old rulers."
+        }
+      ],
+      "hint": "Connect staged tensions to the edge of public questioning.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 6,
+      "question": "What defines Phase Six: The Lockdown Window?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Immediate permanent cancellation of the Emergency Broadcast System so traditional media stays dominant forever.",
+          "isCorrect": false,
+          "rationale": "Phase Six prepares the exact environment for the E.B.S. to take over and initiate the truth broadcast."
+        },
+        {
+          "label": "B",
+          "text": "Silent continuation of business as usual with no military in the streets and no media disruption at all.",
+          "isCorrect": false,
+          "rationale": "Business as usual is Phase Four optics; Phase Six brings visible military and staged informational control."
+        },
+        {
+          "label": "C",
+          "text": "Visible military presence creates a controlled physical and informational environment for the truth broadcast.",
+          "isCorrect": true,
+          "rationale": "The Lockdown Window uses visible military presence to establish a controlled physical and informational environment for the truth broadcast."
+        },
+        {
+          "label": "D",
+          "text": "Exclusive focus on cloning new stand-ins without any internet restrictions or media self-exposure.",
+          "isCorrect": false,
+          "rationale": "Phase Six includes internet restrictions in stages and media exposing its own corruption, not only cloning."
+        }
+      ],
+      "hint": "Focus on physical and informational control for the truth broadcast.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 7,
+      "question": "What role does the E.B.S. play in this sequence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It restores traditional world police and corporate media as the permanent post-purge governance layer.",
+          "isCorrect": false,
+          "rationale": "Phase Six signals removal of world police and traditional media so the E.B.S. can initiate truth broadcast."
+        },
+        {
+          "label": "B",
+          "text": "It ultimately takes over media networks to shatter the false reality through the truth broadcast.",
+          "isCorrect": true,
+          "rationale": "The E.B.S. is the Emergency Broadcast System that ultimately takes over media networks to shatter the false reality."
+        },
+        {
+          "label": "C",
+          "text": "It stages air raid sirens alone during Phase Five without any connection to absolute truth disclosure.",
+          "isCorrect": false,
+          "rationale": "Air raid sirens are Trigger Event tools; the E.B.S. is defined as media takeover for truth broadcast."
+        },
+        {
+          "label": "D",
+          "text": "It only produces Controlled Stand-ins for awards shows and never touches media network control.",
+          "isCorrect": false,
+          "rationale": "Stand-ins maintain Phase Four optics; the E.B.S. takes over media for the truth broadcast later."
+        }
+      ],
+      "hint": "Connect the Emergency Broadcast System to shattering false reality.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 8,
+      "question": "What is true of everything presented as current global leadership during this phase?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is limited to holographic projections with no clones, actors, or A.I. composites involved at all.",
+          "isCorrect": false,
+          "rationale": "Controlled Stand-ins include clones, biological copies, masked actors, holographic projections, and A.I. composites."
+        },
+        {
+          "label": "B",
+          "text": "It remains fully authentic governance by the original royals, prime ministers, and corporate CEOs.",
+          "isCorrect": false,
+          "rationale": "Those parasitic power structures were completely removed and replaced by stand-ins in earlier phases."
+        },
+        {
+          "label": "C",
+          "text": "It is entirely fabricated theater because all true world leaders have already been replaced.",
+          "isCorrect": true,
+          "rationale": "Everything presented as current global leadership is fabricated theater; all true world leaders have already been replaced."
+        },
+        {
+          "label": "D",
+          "text": "It consists only of military officers who openly announce Phase Six lockdowns in every speech.",
+          "isCorrect": false,
+          "rationale": "Phase Four maintains illusion of normalcy through stand-ins, not open Phase Six military announcements."
+        }
+      ],
+      "hint": "Consider awards, ceremonies, public events, and speeches.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 9,
+      "question": "Why is the continuation of business as usual maintained?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is meant to permanently cancel Trigger Events so sleepers never face geopolitical tension or sirens, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Phase Four prepares the environment for Phase Five and Six rather than cancelling those escalations."
+        },
+        {
+          "label": "B",
+          "text": "It proves that no leaders were ever removed and that parasitic structures still govern without interruption.",
+          "isCorrect": false,
+          "rationale": "Leaders were already replaced; business as usual is fabricated optics, not proof of intact original rule."
+        },
+        {
+          "label": "C",
+          "text": "It is a deliberate illusion that prevents societal collapse while preparing consciousness for Phase Five and Six shocks.",
+          "isCorrect": true,
+          "rationale": "Business as usual is a deliberate illusion maintained to prevent societal collapse while preparing for Phase Five and Six shocks."
+        },
+        {
+          "label": "D",
+          "text": "It exists only to train sleepers to rebuild traditional media after the Emergency Broadcast System fails, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The sequence prepares sleepers for the truth broadcast, not for restoring traditional media after E.B.S. failure."
+        }
+      ],
+      "hint": "Link the deliberate illusion to societal stability before later shocks.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 10,
+      "question": "What is the primary target of Phase Four: Narrative Maintenance?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Strictly the perception of the sleepers, held manageable through Controlled Stand-in optics.",
+          "isCorrect": true,
+          "rationale": "The primary target of Phase Four is strictly the perception of the sleepers, managed via Controlled Stand-ins."
+        },
+        {
+          "label": "B",
+          "text": "Strictly the Emergency Broadcast System hardware before any psychological holding pattern begins.",
+          "isCorrect": false,
+          "rationale": "E.B.S. takeover is prepared later; Phase Four targets sleeper perception through fabricated leadership optics."
+        },
+        {
+          "label": "C",
+          "text": "Strictly the removal of Phase Five air raid sirens so no public tension can ever be staged.",
+          "isCorrect": false,
+          "rationale": "Phase Four holds the narrative so later Trigger Events can escalate; it does not cancel Phase Five tools."
+        },
+        {
+          "label": "D",
+          "text": "Strictly underground military bases with no attention to public speeches or ceremonies.",
+          "isCorrect": false,
+          "rationale": "Phase Four deploys stand-ins for speeches, meetings, and ceremonies aimed at sleeper perception."
+        }
+      ],
+      "hint": "Name whose perception the core action is strictly aimed at.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 11,
+      "question": "How do Controlled Stand-ins keep the leadership illusion intact?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They openly confess they are clones on live television during every Phase Four ceremony, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The point of stand-ins is to keep the illusion intact, not to reveal their artificial nature prematurely."
+        },
+        {
+          "label": "B",
+          "text": "They give speeches, hold fake meetings, and attend public ceremonies until the precise mass-reveal moment.",
+          "isCorrect": true,
+          "rationale": "Stand-ins give speeches, hold fake meetings, and attend public ceremonies to keep the illusion intact until the precise moment."
+        },
+        {
+          "label": "C",
+          "text": "They remain invisible while only air raid sirens communicate governance to the public, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Stand-ins appear in meetings, speeches, and ceremonies; sirens belong to Phase Five escalation tools."
+        },
+        {
+          "label": "D",
+          "text": "They permanently dissolve all awards and public events so no leadership optics remain at all.",
+          "isCorrect": false,
+          "rationale": "Awards, ceremonies, public events, and speeches continue as fabricated theater under stand-in control."
+        }
+      ],
+      "hint": "Recall the public performances used to mimic removed leaders.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 12,
+      "question": "What is the sole purpose of holding sleepers through Narrative Maintenance?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To permanently prevent any mass reveal so the 3D illusion never faces public disclosure.",
+          "isCorrect": false,
+          "rationale": "Phase Four times the holding pattern until the mass reveal window; it does not cancel revelation."
+        },
+        {
+          "label": "B",
+          "text": "To restore genuine original leaders before any Trigger Events can begin worldwide.",
+          "isCorrect": false,
+          "rationale": "True leaders are already replaced; the purpose is managed perception until mass reveal, not restoration of old rulers."
+        },
+        {
+          "label": "C",
+          "text": "To hold sleepers in a manageable state until the mass reveal window opens.",
+          "isCorrect": true,
+          "rationale": "The sole purpose is to hold sleepers in a manageable state until the mass reveal window opens."
+        },
+        {
+          "label": "D",
+          "text": "To replace the Lockdown Window so military forces never need to appear in the streets.",
+          "isCorrect": false,
+          "rationale": "Phase Six still brings visible military control; Phase Four only holds optics beforehand."
+        }
+      ],
+      "hint": "Connect manageable state to the opening of a specific window.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 13,
+      "question": "Which tools are listed for Phase Five staged escalation of public consciousness?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only holographic award ceremonies with no geopolitical tension, sirens, or supply pressure.",
+          "isCorrect": false,
+          "rationale": "Award and ceremony optics are Phase Four tools; Phase Five escalates with tensions, sirens, and disruptions."
+        },
+        {
+          "label": "B",
+          "text": "Permanent internet freedom expansions designed to calm sleepers away from any questioning.",
+          "isCorrect": false,
+          "rationale": "Internet restrictions begin in stages during Phase Six; Phase Five escalates tension rather than expanding free access."
+        },
+        {
+          "label": "C",
+          "text": "Immediate full panic protocols that intentionally collapse all order before any lockdown planning.",
+          "isCorrect": false,
+          "rationale": "Escalation pushes sleepers to the edge of questioning without inducing full panic."
+        },
+        {
+          "label": "D",
+          "text": "Staged geopolitical tensions, phased-in air raid sirens, and simulated supply disruptions.",
+          "isCorrect": true,
+          "rationale": "Phase Five stages geopolitical tensions, phases in air raid sirens, and simulates supply disruptions to escalate mass consciousness."
+        }
+      ],
+      "hint": "Name the three escalation elements tied to Trigger Events.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 14,
+      "question": "How far does Phase Five push sleepers psychologically?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To the absolute edge of questioning everything in their reality without inducing full panic.",
+          "isCorrect": true,
+          "rationale": "Phase Five pushes sleepers to the absolute edge of questioning everything without inducing full panic."
+        },
+        {
+          "label": "B",
+          "text": "Into total societal collapse so no Lockdown Window or E.B.S. broadcast is ever required.",
+          "isCorrect": false,
+          "rationale": "Full panic and uncontrolled collapse are avoided; later phases still contain and disclose truth deliberately."
+        },
+        {
+          "label": "C",
+          "text": "Only into celebrating Controlled Stand-in ceremonies with no geopolitical stress at all.",
+          "isCorrect": false,
+          "rationale": "Phase Five escalates mass public consciousness through staged tensions, not calm ceremonial focus alone."
+        },
+        {
+          "label": "D",
+          "text": "Back into deeper sleep so they never question fabricated leadership optics again.",
+          "isCorrect": false,
+          "rationale": "Trigger Events push toward awakening and questioning, not deeper uncritical sleep."
+        }
+      ],
+      "hint": "Balance awakening pressure against panic control.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 15,
+      "question": "What signal do visible military forces in the streets provide during Phase Six?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They restore original parasitic CEOs and royals as the permanent public face of government.",
+          "isCorrect": false,
+          "rationale": "Those structures were already removed; Phase Six prepares controlled conditions for truth broadcast, not restoration of old rulers."
+        },
+        {
+          "label": "B",
+          "text": "They cancel all internet restrictions so traditional media can expand without interruption.",
+          "isCorrect": false,
+          "rationale": "Internet restrictions begin in stages during the lockdown that prepares E.B.S. takeover."
+        },
+        {
+          "label": "C",
+          "text": "They maintain order while signaling the removal of world police and traditional media.",
+          "isCorrect": true,
+          "rationale": "Military forces become visible to maintain order, signaling removal of world police and traditional media."
+        },
+        {
+          "label": "D",
+          "text": "They exist only as holographic projections that never interact with physical street order.",
+          "isCorrect": false,
+          "rationale": "Phase Six describes visible military presence in the streets for physical and informational control."
+        }
+      ],
+      "hint": "Connect street presence to order and institutional removal.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 16,
+      "question": "Which informational steps accompany the Lockdown Window?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Traditional media is permanently strengthened as the sole channel after military forces leave the streets.",
+          "isCorrect": false,
+          "rationale": "Phase Six signals removal of traditional media so the E.B.S. can initiate the truth broadcast."
+        },
+        {
+          "label": "B",
+          "text": "Only Controlled Stand-in speeches continue with no change to internet access or media narratives.",
+          "isCorrect": false,
+          "rationale": "Phase Six transitions from psychological tension into physical and informational control beyond Phase Four optics."
+        },
+        {
+          "label": "C",
+          "text": "All networks stay fully open and media never admits corruption before any truth broadcast.",
+          "isCorrect": false,
+          "rationale": "The lockdown sequence includes staged internet restrictions and media exposing its own corruption."
+        },
+        {
+          "label": "D",
+          "text": "Internet restrictions begin in stages and media exposes its own corruption before E.B.S. takeover.",
+          "isCorrect": true,
+          "rationale": "During Phase Six, internet restrictions begin in stages, media exposes its own corruption, and conditions form for E.B.S. takeover."
+        }
+      ],
+      "hint": "Recall staged restrictions and media self-exposure before E.B.S. takeover.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 17,
+      "question": "How does Narrative Maintenance sit in the broader Great Purge sequence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It bridges covert takedowns of earlier phases and overt reality-shattering events of later phases.",
+          "isCorrect": true,
+          "rationale": "Narrative Maintenance is the essential bridge between covert earlier takedowns and overt later reality-shattering events."
+        },
+        {
+          "label": "B",
+          "text": "It is the final phase after the E.B.S. broadcast and has no link to earlier covert operations.",
+          "isCorrect": false,
+          "rationale": "It is Phase Four, anchoring the transition before Phases Five and Six and the truth broadcast."
+        },
+        {
+          "label": "C",
+          "text": "It replaces both Phase One removals and Phase Six lockdowns as a single standalone operation.",
+          "isCorrect": false,
+          "rationale": "It manages the optical void after Phase One and Two removals and prepares for Phases Five and Six."
+        },
+        {
+          "label": "D",
+          "text": "It only documents history after absolute truth is already fully accepted by every sleeper.",
+          "isCorrect": false,
+          "rationale": "It holds perception before mass reveal and later lockdown, not after truth is already universally accepted."
+        }
+      ],
+      "hint": "Name the bridge between earlier and later styles of operation.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 18,
+      "question": "What happened to original parasitic power structures before Phase Four became necessary?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Royals, prime ministers, and corporate CEOs retained full open authority through every later phase.",
+          "isCorrect": false,
+          "rationale": "Those structures were completely removed and replaced; Phase Four manages the optical void left behind."
+        },
+        {
+          "label": "B",
+          "text": "Royals, prime ministers, and corporate CEOs were completely removed and replaced by stand-ins.",
+          "isCorrect": true,
+          "rationale": "Parasitic power structures—including royals, prime ministers, and corporate CEOs—were completely removed and replaced by stand-ins in Phase One and Phase Two."
+        },
+        {
+          "label": "C",
+          "text": "Leaders removed themselves voluntarily on live E.B.S. broadcasts before any stand-ins appeared.",
+          "isCorrect": false,
+          "rationale": "Removal and replacement occurred in earlier covert phases; E.B.S. truth broadcast comes after lockdown preparation."
+        },
+        {
+          "label": "D",
+          "text": "Only media executives were removed while every political and royal office remained untouched.",
+          "isCorrect": false,
+          "rationale": "The report names royals, prime ministers, and corporate CEOs among the completely removed parasitic structures."
+        }
+      ],
+      "hint": "Recall who was removed in Phase One and Phase Two.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 19,
+      "question": "Why is Phase Four required after leadership removals in earlier phases?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Without it, sleepers would immediately receive absolute truth with no need for any further phases.",
+          "isCorrect": false,
+          "rationale": "Phase Four delays uncontrolled collapse so later phases can systematically shake, contain, and disclose truth."
+        },
+        {
+          "label": "B",
+          "text": "Without it, Phase Five air raid sirens would automatically cancel all military lockdown plans.",
+          "isCorrect": false,
+          "rationale": "Phase Four stabilizes the optical void after removals; it does not exist to cancel Phase Five or Six tools."
+        },
+        {
+          "label": "C",
+          "text": "Without it, sudden disappearance of world leadership would trigger premature chaos among the masses.",
+          "isCorrect": true,
+          "rationale": "Without Phase Four holding the illusion steady, sudden disappearance of world leadership would trigger premature chaos."
+        },
+        {
+          "label": "D",
+          "text": "Without it, Controlled Stand-ins could never be invented for any later Emergency Broadcast System role.",
+          "isCorrect": false,
+          "rationale": "Stand-ins already replace removed leaders; Phase Four manages optics so chaos does not erupt early."
+        }
+      ],
+      "hint": "Connect the optical void to premature chaos risk.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 20,
+      "question": "What is the overarching strategy of Narrative Maintenance?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Permanent freezing of the 3D illusion so Phase Five tensions and Phase Six lockdowns never begin.",
+          "isCorrect": false,
+          "rationale": "The illusion stays stable enough to prevent panic yet flexible enough to transition into Phase Five tensions."
+        },
+        {
+          "label": "B",
+          "text": "Exclusive physical demolition of cities with no attention to visual governance narratives at all.",
+          "isCorrect": false,
+          "rationale": "Narrative Maintenance completely controls the visual narrative of governance through stand-ins, not city demolition."
+        },
+        {
+          "label": "C",
+          "text": "Immediate uncontrolled panic so the masses invent their own timeline without any staged phases.",
+          "isCorrect": false,
+          "rationale": "The strategy prevents uncontrolled destructive panic and carefully paces awakening through managed phases."
+        },
+        {
+          "label": "D",
+          "text": "Psychological containment that lets Great Purge architects dictate the exact pacing of public awakening.",
+          "isCorrect": true,
+          "rationale": "The overarching strategy is psychological containment, dictating the exact pacing of the public's awakening through stand-in narrative control."
+        }
+      ],
+      "hint": "Name the containment style that sets awakening pace.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 21,
+      "question": "How must the 3D illusion behave during Narrative Maintenance?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Stable enough to prevent uncontrolled destructive panic, yet flexible enough to transition into Phase Five tensions.",
+          "isCorrect": true,
+          "rationale": "The 3D illusion remains stable enough to prevent uncontrolled destructive panic yet flexible enough to transition into staged Phase Five tensions."
+        },
+        {
+          "label": "B",
+          "text": "Irrelevant, because only military hardware—not perception—matters until the E.B.S. ends, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Phase Four is psychological and optical; managing perception is central to the whole strategy."
+        },
+        {
+          "label": "C",
+          "text": "Permanently rigid so no Trigger Events, sirens, or supply disruptions can ever be introduced, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Flexibility for Phase Five transition is required; the illusion is not meant to freeze the sequence forever."
+        },
+        {
+          "label": "D",
+          "text": "Fully collapsed so sleepers experience only rubble before any stand-in optics are deployed, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Phase Four upholds the illusion of normalcy; full collapse is not the Phase Four objective."
+        }
+      ],
+      "hint": "Balance stability against flexibility for the next phase.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 22,
+      "question": "What later environment is Narrative Maintenance meticulously preparing?",
+      "options": [
+        {
+          "label": "A",
+          "text": "An endless Phase Four loop where stand-in ceremonies continue with no Trigger Events ever staged.",
+          "isCorrect": false,
+          "rationale": "Narrative Maintenance is transitional; it prepares controlled escalation and lockdown rather than an endless holding loop."
+        },
+        {
+          "label": "B",
+          "text": "Immediate abolition of the Emergency Broadcast System as soon as fabricated leadership appears.",
+          "isCorrect": false,
+          "rationale": "Later phases create the controlled environment required for the E.B.S. to take over and broadcast truth."
+        },
+        {
+          "label": "C",
+          "text": "A permanent return of original parasitic CEOs without any truth broadcast or lockdown sequence.",
+          "isCorrect": false,
+          "rationale": "The sequence moves toward truth broadcast after containment, not restoration of removed parasitic structures."
+        },
+        {
+          "label": "D",
+          "text": "The global environment for Phases Five and Six and the final broadcast of absolute truth.",
+          "isCorrect": true,
+          "rationale": "Phase Four anchors the transition toward Phases Five and Six and meticulously prepares the global environment for the final broadcast of absolute truth."
+        }
+      ],
+      "hint": "Link Phase Four holding to the final absolute-truth delivery path.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 23,
+      "question": "Which forms can Controlled Stand-ins take when conducting fake public governance?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only audio-only radio announcers with no visual ceremonies, speeches, or public appearances, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Stand-ins conduct visual and public optics including speeches, meetings, and ceremonies."
+        },
+        {
+          "label": "B",
+          "text": "Clones, biological copies, masked actors, holographic projections, and A.I. driven composites among other stand-ins.",
+          "isCorrect": true,
+          "rationale": "Controlled Stand-ins include clones, biological copies, masked actors, holographic projections, and A.I. driven composites used for fake meetings, speeches, and ceremonies."
+        },
+        {
+          "label": "C",
+          "text": "Only elected officials verified as never replaced at any point during Phase One or Phase Two, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "All true world leaders have already been replaced; stand-ins are fabricated replacements, not untouched originals."
+        },
+        {
+          "label": "D",
+          "text": "Only Phase Six military units that never appear in awards, ceremonies, or political speeches, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Stand-ins are Phase Four leadership optics tools, not limited to Phase Six street military forces."
+        }
+      ],
+      "hint": "Recall the full set of replacement types listed in the terminology.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 24,
+      "question": "What institutional removals does the visible Phase Six military presence signal?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Removal of the Emergency Broadcast System so traditional media can expand unrestricted access.",
+          "isCorrect": false,
+          "rationale": "The lockdown creates the controlled environment required for the E.B.S. to take over media networks."
+        },
+        {
+          "label": "B",
+          "text": "Removal of world police and traditional media as control shifts toward the truth-broadcast environment.",
+          "isCorrect": true,
+          "rationale": "Visible military presence maintains order while signaling removal of world police and traditional media for the E.B.S. path."
+        },
+        {
+          "label": "C",
+          "text": "Removal of all military forces so only corporate CEOs manage street-level public order, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Military forces become visible in the streets; corporate CEOs were among structures already removed earlier."
+        },
+        {
+          "label": "D",
+          "text": "Removal of Controlled Stand-ins so original royals immediately resume televised governance.",
+          "isCorrect": false,
+          "rationale": "Phase Six prepares truth broadcast conditions; it does not restore removed parasitic leadership."
+        }
+      ],
+      "hint": "Name the policing and media structures being displaced.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 25,
+      "question": "What does meticulous perception management guarantee by the time Phase Six locks down the physical environment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sleepers immediately rebuild traditional media and world police as their only trusted authorities.",
+          "isCorrect": false,
+          "rationale": "Phase Six signals removal of those structures so the E.B.S. can deliver the truth broadcast."
+        },
+        {
+          "label": "B",
+          "text": "Sleepers are perfectly primed and safely positioned to receive the absolute truth.",
+          "isCorrect": true,
+          "rationale": "When Phase Six locks down the physical environment, sleepers are perfectly primed and safely positioned to receive the absolute truth."
+        },
+        {
+          "label": "C",
+          "text": "Sleepers are permanently sealed away from any truth broadcast for the rest of the purge sequence.",
+          "isCorrect": false,
+          "rationale": "The strategy primes them to receive absolute truth, not to block disclosure forever."
+        },
+        {
+          "label": "D",
+          "text": "Sleepers invent their own chaotic timeline with no staged pacing from Great Purge architects.",
+          "isCorrect": false,
+          "rationale": "Architects dictate exact pacing through psychological containment so awakening stays controlled, not chaotic."
+        }
+      ],
+      "hint": "Describe how sleepers are positioned for absolute truth.",
+      "correctAnswer": "B"
+    }
+  ]
+}

@@ -15,5 +15,11 @@
       "embed_url": "https://rumble.com/embed/v7adl6i/?pub=4p0ieu",
       "description": "The physical indicator sequence from Static Build Up through Drop in Tone, Sharp Edge, Silence Before the Snap, and the Atmospheric Pop itself."
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/breakdown/atmospheric-pop.html",
+    "title": "Atmospheric Pop",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Atmospheric Pop — physical indicator sequence, Frequency Fracture blackout, field clarity at cable severing, and Resonating Sol lighthouse strategy."
+  }
 }
