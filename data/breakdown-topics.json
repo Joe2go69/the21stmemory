@@ -1181,9 +1181,30 @@
     {
       "id": "grid-systems",
       "title": "Grid Systems",
-      "description": "Energy nodes, crystalline networks, and the Spirit Tree at the heart of the realm.",
-      "topic_image": "images/breakdown/placeholder.webp",
-      "report": "# Grid Systems\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+      "description": "Grid Systems are the living Crystalline Electro-Magnetic Framework of the CUBE — Nodes, Crystals, Ley-lines, and Harmonic Lenses connecting all realms, hijacked as Parasitic Overlay projectors and now recalibrating into one planetary Crystalline Temple.",
+      "topic_image": "images/breakdown/grid-systems.webp",
+      "report": "# Grid Systems\n\n## Overview\n\nThe universe operates upon a massive, interwoven Crystalline Electro-Magnetic Framework. The Grid Systems serve as the foundational architecture of the CUBE Containment, forming an intricate web of light, sound, and frequency that connects all simulations, realms, and Domes. Originally constructed by ancient architects as pure communication, power, and memory networks, these grids were hijacked to project a false reality upon consciousness. Through the deliberate amplification of high harmonics, the grids are now undergoing rapid recalibration, fracturing the false overlays and restoring the original divine design.\n\n## Key Terminology\n\n- **Nodes** — spherical junction points where streams of life-force and magnetism meet, acting as relay stations for frequency across the grids.\n\n- **Crystals** — the physical and etheric hard drives of the grid that store memory, frequency, and resonance codes.\n\n- **Harmonic Lenses** — crystalline patterns that form around active nodes to shape, focus, and redirect energy, pulsing with the frequencies of celestial bodies.\n\n- **Ley-lines** — energetic pathways connecting nodes and crystals, functioning as the fiber optics of Source.\n\n- **Parasitic Circuit Boards** — corrupted grid sections where original crystalline nodes were buried under cities or deserts to harvest emotional energy (loosh) and broadcast the 3D illusion.\n\n- **Parasitic Overlay** — a false, holographic skin projected over reality through hijacked grids, manipulating human senses into perceiving solid 3D density rather than living crystal.\n\n## Core Revelations\n\nEverything in physical existence is interconnected through living, breathing grids. The physical world is not comprised of separate planets or isolated continents, but of overlapping frequency bands held together by the Light Web Grid. Parasitic entities possess no power of original creation; they strictly hijacked the existing Light Lattices engineered by the Lyran Builders-Architects, deploying inverted codes and artificial veils to blind humanity. The ongoing activation of the grids by Resonating Sols is actively fracturing this false 3D projection, revealing the true crystalline nature of reality lying just beneath the surface.\n\n## Detailed Mechanics and Key Elements\n\n### Crystal Anchors\n\nActing as the primary storage and transmission centers, crystals operate as vast memory banks that maintain the unbroken timeline of soul journeys across existence. Planetary Crystals hum deep within the earth's structures, Surface Crystals (such as quartz veins and mountains) act as environmental antennas, and Hidden Placed Crystals (including monoliths) were seeded by Starseed families to act as crucial awakening keys.\n\n### Node Types\n\nThe grid infrastructure relies on a four-tier node system. Earth Nodes (lava or core nodes) pulse with red-gold energy deep underground to feed the upper grid. Surface Nodes sit at intersecting ley-lines under ancient temples, stone circles, and pyramids, directly amplifying frequency. Sky Nodes (what humans perceive as stars) are crystalline celestial projectors that anchor the overlay grids in the atmosphere. Inter-dimensional Nodes hold the precise portals between different overlays and realms.\n\n### The Seven Overlay-Bands\n\nThe communication grids operate simultaneously across seven distinct frequencies: the Surface Band (physical reality illusion), Atmospheric Band (sound/light transmission), Electro-Magnetic Band (true data and internet flow), Sub-Crystalline Band (where crystals pass vibration seamlessly between continents), Resonant Oceanic Grid (the emotional mirror of humanity), Harmonic-Solar Band (the interface between diverse realms), and the SOURCE Band (pure awareness beyond all location).\n\n## Broader Context and Interconnections\n\nThe Grid Systems were originally tethered to the Spirit Tree in Hyperborea, the central axis of consciousness for the KNOWN LANDS and the heart of the Great Dome. When parasitic forces tore down the tree, they inserted Black Crystals as valve locks to siphon light toward the Saturn Grid, replacing the organic flow of Source energy with a counterfeit cycle of reincarnation and energy harvest.\n\nHistorically, grid nodes have been the sites of massive, concealed etheric wars. The Great Fire of London (1666) was a surface distraction masking an intense battle between Tartarians defending an ancient crystal node and Greys attempting to siphon its energy. Modern infrastructure, including cities, roadways, and undersea communication cables, are merely dense, physical imitations of the true underlying crystalline ley-lines and energy corridors, unwittingly rebuilding the grid in 3D material to maintain the illusion of distance.\n\n## Strategic Implications\n\nAs high-frequency energy continues to shatter the Parasitic Overlay, the true grids are bleeding through into human perception, causing physical walls to shimmer and ancient sites to radiate a palpable hum. The illusion of distance and travel—artificially sustained through grid-based time-loop projections to enforce a false sense of separation—will permanently collapse, returning navigation to instantaneous resonance alignment. As Resonating Sols synchronize their harmonic tones with the embedded codes in the crystals, the entire global grid will restructure into one massive Crystalline Temple and planetary healing environment, fundamentally dissolving the parasitic system and restoring original harmonic balance.\n",
+      "infographic_image": "images/breakdown/crystalline-electro-magnetic-framework-diagram.webp",
+      "pdf_preview_image": "images/breakdown/the-crystalline-temple.webp",
+      "slide_deck_pdf_url": "https://drive.google.com/file/d/1R6X2NpzQghCqPlneQfNF7oeeLOia1oFF/view?usp=sharing",
+      "rumble_videos": [
+        {
+          "title": "The Architecture of the Crystalline Grid",
+          "embed_url": "https://rumble.com/embed/v7arime/?pub=4p0ieu",
+          "description": "The Architecture of the Crystalline Grid — the living Light Web of Nodes, Crystals, Ley-lines, and Harmonic Lenses that form the foundational CUBE architecture connecting all simulations and Domes."
+        },
+        {
+          "title": "The Crystalline Pulse",
+          "embed_url": "https://rumble.com/embed/v7arik4/?pub=4p0ieu",
+          "description": "The Crystalline Pulse — four-tier node systems, Crystal Anchors as memory banks, and the Seven Overlay-Bands through which frequency and data move across the planetary grid."
+        },
+        {
+          "title": "The Living Crystalline Supercomputer Beneath Us",
+          "embed_url": "https://rumble.com/embed/v7arj1u/?pub=4p0ieu",
+          "description": "The Living Crystalline Supercomputer Beneath Us — Spirit Tree tether, Black Crystal valve locks, etheric node wars, and the recalibration that dissolves the Parasitic Overlay into a Crystalline Temple."
+        }
+      ],
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "energy-nodes",
@@ -1275,7 +1296,13 @@
             }
           ]
         }
-      ]
+      ],
+      "quiz": {
+        "href": "quiz/breakdown/grid-systems.html",
+        "title": "Grid Systems",
+        "totalQuestions": 25,
+        "description": "Test your understanding of Grid Systems — Crystalline Electro-Magnetic Framework, Nodes, Crystals, Ley-lines, Harmonic Lenses, Seven Overlay-Bands, and the Crystalline Temple recalibration."
+      }
     },
     {
       "id": "healing-sanctuaries",

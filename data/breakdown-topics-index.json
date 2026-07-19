@@ -308,9 +308,9 @@
     {
       "id": "grid-systems",
       "title": "Grid Systems",
-      "description": "Energy nodes, crystalline networks, and the Spirit Tree at the heart of the realm.",
-      "topic_image": "images/breakdown/placeholder.webp",
-      "is_placeholder": true,
+      "description": "Grid Systems are the living Crystalline Electro-Magnetic Framework of the CUBE — Nodes, Crystals, Ley-lines, and Harmonic Lenses connecting all realms, hijacked as Parasitic Overlay projectors and now recalibrating into one planetary Crystalline Temple.",
+      "topic_image": "images/breakdown/grid-systems.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "energy-nodes",
