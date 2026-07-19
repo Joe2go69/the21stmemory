@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T20:29:07.435Z",
+  "generatedAt": "2026-07-19T21:43:56.264Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -705,7 +705,7 @@
       "sourceId": "breakdown",
       "topicId": "energy-nodes",
       "path": "/dive/breakdown/energy-nodes.html",
-      "live": false,
+      "live": true,
       "title": "Energy Nodes"
     },
     {

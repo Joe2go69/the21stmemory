@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-19T20:24:02.547Z",
-  "total": 100,
+  "generatedAt": "2026-07-19T21:43:55.676Z",
+  "total": 101,
   "sources": [
     {
       "id": "alice",
@@ -14,7 +14,7 @@
       "label": "Breakdown",
       "title": "Mega Breakdown Board Notes",
       "short": "Final-stage Great Awakening notes",
-      "count": 40
+      "count": 41
     }
   ],
   "quizzes": [
@@ -821,6 +821,18 @@
       "questionCount": 25,
       "href": "quiz/breakdown/eight-domes.html",
       "diveHref": "dive/breakdown/eight-domes.html"
+    },
+    {
+      "id": "energy-nodes",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Energy Nodes",
+      "subtitle": "Test your grasp of Energy Nodes — Crystalline Grid relays, four node types, Harmonic Lenses, Spirit Tree hijack, and the restoration of Star-Node gates.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/energy-nodes.html",
+      "diveHref": "dive/breakdown/energy-nodes.html"
     },
     {
       "id": "essence-of-the-transmission",

@@ -315,9 +315,9 @@
         {
           "id": "energy-nodes",
           "title": "Energy Nodes",
-          "description": "Decoded analysis of Energy Nodes within the Mega Breakdown Board Notes & Highlights transmission.",
-          "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true,
+          "description": "Energy Nodes are the critical relay stations of the Crystalline Grid — Earth, Surface, Sky, and Inter-dimensional junctions that gather and pass life-force across realms, now restoring after parasitic hijack of the original Tartarian network.",
+          "topic_image": "images/breakdown/energy-nodes.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "lava-core-nodes",
