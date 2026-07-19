@@ -1124,7 +1124,13 @@
                   "description": "Stepping into the Vibrant Reality — holographic pixelation, geographic reset, free energy systems, experiential split for sleepers, and anchoring the pure reality as a Resonating Sol."
                 }
               ],
-              "is_placeholder": false
+              "is_placeholder": false,
+              "quiz": {
+                "href": "quiz/breakdown/vibrant-reality.html",
+                "title": "Vibrant Reality",
+                "totalQuestions": 25,
+                "description": "Test your understanding of Vibrant Reality — Frequency Collapse, holographic pixelation, crystalline grounds, free energy, experiential split, and the Crystalline Temple as a global med bed."
+              }
             },
             {
               "id": "second-realm",

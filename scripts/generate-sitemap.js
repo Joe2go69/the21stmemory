@@ -117,6 +117,7 @@ const entries = [
   { path: '/quiz/breakdown/blackout-timeline.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/stabilization-process.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/crystalline-architecture.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/vibrant-reality.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/phase-one-three.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/targeting-parasites.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/infrastructure-sweep.html', priority: '0.75', changefreq: 'monthly' },
