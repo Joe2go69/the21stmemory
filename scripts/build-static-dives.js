@@ -245,9 +245,9 @@ function renderContinueLearning({ sourceId, quiz, lastUpdated, assetBase = ASSET
 
   return `
   <aside class="dive-continue content-card static-card rounded-3xl p-6 md:p-8 mt-8" aria-label="Continue learning">
-    <h2 class="dive-continue__title">Continue the remembering</h2>
+    <h2 class="dive-continue__title">Continue learning</h2>
     <p class="dive-continue__lead">
-      This archive is an AI-assisted bridge. For the living foundation, go to the original transmissions on the Network — then test your grasp with a quiz.
+      This archive is an AI-assisted bridge. For the source material, visit the original transmissions on the Network — then test your understanding with a quiz.
     </p>
     <div class="dive-continue__actions">
       ${quizBlock}
