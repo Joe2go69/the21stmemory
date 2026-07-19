@@ -1,14 +1,35 @@
-// Homepage — live archive stats, journey strip, essence entry
+// Homepage — live archive stats, dual journey strips, video facades
 
-const DEFAULT_SOURCE_ID = 'alice';
-const ESSENCE_TOPIC_ID = 'essence-of-the-transmission';
+const ARCHIVE_VIEW_ALL_HREF = 'codex.html';
 
-const JOURNEY_TOPIC_IDS = [
-  'nature-of-reality',
-  'parasitic-takeover',
-  'resets-hidden-history',
-  'ascension-event',
-  'npc-population'
+/** Per-transmission starting paths — add a new entry when a transmission ships. */
+const JOURNEY_PATHS = [
+  {
+    sourceId: 'alice',
+    label: 'Following Alice',
+    short: 'Foundational rabbit-hole series',
+    essenceId: 'essence-of-the-transmission',
+    topicIds: [
+      'nature-of-reality',
+      'parasitic-takeover',
+      'resets-hidden-history',
+      'ascension-event',
+      'npc-population'
+    ]
+  },
+  {
+    sourceId: 'breakdown',
+    label: 'Mega Breakdown',
+    short: 'Final-stage Great Awakening notes',
+    essenceId: 'essence-of-the-transmission',
+    topicIds: [
+      'the-purge-phases',
+      'mass-reveal',
+      '3d-overlay',
+      'matrix-scaffolding',
+      'ebs-operation'
+    ]
+  }
 ];
 
 function renderArchiveBadgeSkeleton() {
@@ -74,14 +95,14 @@ function renderJourneyCard(topic) {
       <a href="${topic.href}" class="journey-card journey-card--all" role="listitem">
         <div class="journey-card-all-body">
           <div class="journey-card-all-count">${topic.countLabel}</div>
-          <div class="journey-card-title">${topic.title}</div>
+          <div class="journey-card-title">${TopicUtils.escapeHtml(topic.title)}</div>
         </div>
       </a>
     `;
   }
 
   return `
-    <a href="deep-dive.html?source=${DEFAULT_SOURCE_ID}&topic=${topic.id}" class="journey-card${essenceClass}${allClass}" role="listitem">
+    <a href="${TopicUtils.diveUrl(topic.sourceId, topic.id)}" class="journey-card${essenceClass}${allClass}" role="listitem">
       <div class="journey-card-thumb">
         <img src="${TopicUtils.encodeAssetPath(topic.image)}" alt="" loading="lazy" width="184" height="138" data-img-fallback>
         <span class="journey-card-step">${stepLabel}</span>
@@ -93,54 +114,27 @@ function renderJourneyCard(topic) {
   `;
 }
 
-function renderJourneyStrip(topics, stats) {
-  const strip = document.getElementById('journey-strip');
-  if (!strip || !topics.length) return;
-
-  const cards = [...topics];
-  if (stats?.total) {
-    cards.push({
-      isViewAll: true,
-      href: `topics.html?source=${DEFAULT_SOURCE_ID}#explore-topics`,
-      countLabel: `${stats.total} topics`,
-      title: 'View full archive'
-    });
-  }
-
-  strip.innerHTML = `
-    <div class="codex-home-journey-head">
-      <div>
-        <h3 class="journey-strip-title">Recommended starting points</h3>
-        <p class="journey-strip-sub">Begin with the Essence transmission, then explore foundational topics — or open any entry in the archive.</p>
-      </div>
-    </div>
-    <div class="journey-scroll" role="list" aria-label="Recommended starting points">
-      ${cards.map(topic => renderJourneyCard(topic)).join('')}
-    </div>
-  `;
-  TopicUtils.setupImageFallbacks(strip);
-}
-
-function buildJourneyTopicsFromIndex(topicTree) {
+function buildJourneyTopicsFromIndex(sourceId, topicTree, pathConfig) {
   const topics = [];
-
-  const essence = TopicUtils.findTopicById(topicTree, ESSENCE_TOPIC_ID);
-  if (essence) {
+  const essence = TopicUtils.findTopicById(topicTree, pathConfig.essenceId);
+  if (essence && !essence.is_placeholder) {
     topics.push({
       step: 0,
       id: essence.id,
+      sourceId,
       title: essence.title,
       image: essence.topic_image || '',
       isEssence: true
     });
   }
 
-  JOURNEY_TOPIC_IDS.forEach((id, index) => {
+  (pathConfig.topicIds || []).forEach((id, index) => {
     const topic = TopicUtils.findTopicById(topicTree, id);
-    if (!topic) return;
+    if (!topic || topic.is_placeholder) return;
     topics.push({
       step: index + 1,
       id: topic.id,
+      sourceId,
       title: topic.title,
       image: topic.topic_image || ''
     });
@@ -149,20 +143,87 @@ function buildJourneyTopicsFromIndex(topicTree) {
   return topics;
 }
 
+function renderJourneyPathRow(pathConfig, topics, stats) {
+  const cards = [...topics];
+  if (stats) {
+    cards.push({
+      isViewAll: true,
+      href: `topics.html?source=${pathConfig.sourceId}#explore-topics`,
+      countLabel: `${stats.live || 0} ready`,
+      title: `All ${pathConfig.label} topics`
+    });
+  }
+
+  return `
+    <section class="journey-path-row" data-source="${TopicUtils.escapeAttr(pathConfig.sourceId)}" aria-labelledby="journey-${pathConfig.sourceId}-title">
+      <header class="journey-path-row__head">
+        <div>
+          <p class="journey-path-row__eyebrow">${TopicUtils.escapeHtml(pathConfig.short)}</p>
+          <h3 id="journey-${pathConfig.sourceId}-title" class="journey-path-row__title">${TopicUtils.escapeHtml(pathConfig.label)}</h3>
+        </div>
+        <a href="topics.html?source=${pathConfig.sourceId}#explore-topics" class="journey-path-row__link">Open transmission →</a>
+      </header>
+      <div class="journey-scroll" role="list" aria-label="${TopicUtils.escapeAttr(pathConfig.label)} starting points">
+        ${cards.map((topic) => renderJourneyCard(topic)).join('')}
+      </div>
+    </section>
+  `;
+}
+
+function renderJourneyStrip(pathBlocks, archiveStats) {
+  const strip = document.getElementById('journey-strip');
+  if (!strip || !pathBlocks.length) return;
+
+  const totalReady = archiveStats?.live || pathBlocks.reduce((n, b) => n + (b.stats?.live || 0), 0);
+
+  strip.innerHTML = `
+    <div class="codex-home-journey-head">
+      <div>
+        <h3 class="journey-strip-title">Recommended starting points</h3>
+        <p class="journey-strip-sub">Begin with each transmission’s Essence, then walk a short path of core topics. The full Codex keeps growing as new transmissions land.</p>
+      </div>
+      <a href="${ARCHIVE_VIEW_ALL_HREF}" class="journey-strip-codex-link">
+        Explore full Codex
+        <span class="journey-strip-codex-meta">${totalReady ? `${totalReady} ready` : ''}</span>
+      </a>
+    </div>
+    <div class="journey-path-stack">
+      ${pathBlocks.map((block) => renderJourneyPathRow(block.config, block.topics, block.stats)).join('')}
+    </div>
+  `;
+  TopicUtils.setupImageFallbacks(strip);
+}
+
 async function loadJourneyStrip() {
   const strip = document.getElementById('journey-strip');
   if (!strip) return;
 
   try {
-    const topicData = await TopicUtils.fetchSourceIndex(DEFAULT_SOURCE_ID);
-    const topics = buildJourneyTopicsFromIndex(topicData.topics || []);
-    const stats = TopicUtils.countTopicStats(
-      TopicUtils.normalizeTopicsFromIndex(topicData.topics || [])
-    );
+    const pathBlocks = [];
+    for (const config of JOURNEY_PATHS) {
+      try {
+        const topicData = await TopicUtils.fetchSourceIndex(config.sourceId);
+        const tree = TopicUtils.normalizeTopicsFromIndex(topicData.topics || []);
+        const topics = buildJourneyTopicsFromIndex(config.sourceId, tree, config);
+        const stats = TopicUtils.countTopicStats(tree);
+        if (topics.length) {
+          pathBlocks.push({ config, topics, stats });
+        }
+      } catch (err) {
+        console.warn(`Journey path unavailable for ${config.sourceId}:`, err);
+      }
+    }
 
-    if (topics.length) {
-      renderJourneyStrip(topics, stats);
-      return stats;
+    let archiveStats = null;
+    try {
+      archiveStats = await TopicUtils.fetchArchiveStats();
+    } catch (_) {
+      /* optional */
+    }
+
+    if (pathBlocks.length) {
+      renderJourneyStrip(pathBlocks, archiveStats);
+      return archiveStats;
     }
   } catch (error) {
     console.warn('Journey strip unavailable:', error);
@@ -177,7 +238,7 @@ async function loadJourneyStrip() {
   return null;
 }
 
-async function fetchArchiveStatsFromIndex(sourceId = DEFAULT_SOURCE_ID) {
+async function fetchArchiveStatsFromIndex(sourceId = 'alice') {
   const topicData = await TopicUtils.fetchSourceIndex(sourceId);
   const lightTopics = TopicUtils.normalizeTopicsFromIndex(topicData.topics || []);
   return TopicUtils.countTopicStats(lightTopics);
@@ -212,5 +273,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   const codexRoot = document.getElementById('codex');
   if (typeof hydrateSiteIcons === 'function' && codexRoot) {
     hydrateSiteIcons(codexRoot);
+  }
+
+  const rumbleGrid = document.getElementById('home-rumble-grid');
+  if (rumbleGrid && typeof TopicUtils !== 'undefined' && TopicUtils.setupClickToPlayVideos) {
+    TopicUtils.setupClickToPlayVideos(rumbleGrid);
   }
 });

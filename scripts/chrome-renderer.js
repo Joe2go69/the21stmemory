@@ -30,30 +30,39 @@ function navLinkClasses(link, baseClass) {
   return classes.join(' ');
 }
 
-function renderNavItem(link, className) {
+function withBasePath(url, basePath) {
+  if (!basePath || !url) return url;
+  if (/^(https?:|mailto:|#|\/\/|data:)/i.test(url)) return url;
+  return `${basePath}${url}`;
+}
+
+function renderNavItem(link, className, basePath = '') {
   const isExternal = link.external || link.newTab || link.target === '_blank';
+  const href = withBasePath(link.href, basePath);
   const attrs = isExternal ? ' target="_blank" rel="noopener noreferrer"' : '';
   const dataNav = link.href && !isExternal
     ? ` data-nav="${link.href.replace(/\.html.*$/, '').replace(/[^a-z0-9-]/gi, '-')}"`
     : '';
-  return `<a href="${link.href}" class="${navLinkClasses(link, className)}"${dataNav}${attrs}>${link.text}</a>`;
+  return `<a href="${href}" class="${navLinkClasses(link, className)}"${dataNav}${attrs}>${link.text}</a>`;
 }
 
-function renderNavbar(navbarData) {
-  const desktopLinksHTML = navbarData.links.map(link => renderNavItem(link, 'nav-link')).join('');
-  const ctaHTML = navbarData.cta ? renderNavItem(navbarData.cta, 'nav-cta') : '';
+function renderNavbar(navbarData, options = {}) {
+  const basePath = options.basePath || '';
+  const desktopLinksHTML = navbarData.links.map(link => renderNavItem(link, 'nav-link', basePath)).join('');
+  const ctaHTML = navbarData.cta ? renderNavItem(navbarData.cta, 'nav-cta', basePath) : '';
   const allNavItems = navbarData.cta
     ? [...navbarData.links, navbarData.cta]
     : navbarData.links;
   const mobileLinksHTML = allNavItems.map(link => {
     const isCta = navbarData.cta && link.href === navbarData.cta.href;
-    return renderNavItem(link, isCta ? 'nav-link nav-cta-mobile' : 'nav-link');
+    return renderNavItem(link, isCta ? 'nav-link nav-cta-mobile' : 'nav-link', basePath);
   }).join('');
+  const logoHref = withBasePath(navbarData.logo.href, basePath);
 
   return `<nav class="navbar">
       <div class="nav-container">
         <div class="nav-content">
-          <a href="${navbarData.logo.href}" class="nav-logo">
+          <a href="${logoHref}" class="nav-logo">
             <div class="nav-logo-icon">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
@@ -83,10 +92,11 @@ function renderNavbar(navbarData) {
     </nav>`;
 }
 
-function renderFooter(footerData) {
+function renderFooter(footerData, options = {}) {
+  const basePath = options.basePath || '';
   const quickLinksHTML = footerData.quickLinks
     ? footerData.quickLinks.map(link =>
-        `<a href="${link.href}" class="footer-link">${link.text}</a>`
+        `<a href="${withBasePath(link.href, basePath)}" class="footer-link">${link.text}</a>`
       ).join('')
     : '';
 
@@ -104,7 +114,7 @@ function renderFooter(footerData) {
     ? `<div class="footer-donate-card footer-donate-card--kofi">
                 <span class="footer-donate-label">Ko-fi</span>
                 <div class="footer-donate-media-wrap">
-                  <img src="${footerData.support.kofi.image}" alt="${footerData.support.kofi.imageAlt || 'Ko-fi support'}" class="footer-donate-media" width="160" height="100" loading="lazy" />
+                  <img src="${withBasePath(footerData.support.kofi.image, basePath)}" alt="${footerData.support.kofi.imageAlt || 'Ko-fi support'}" class="footer-donate-media" width="160" height="100" loading="lazy" />
                 </div>
                 <p class="footer-donate-desc">${footerData.support.kofi.hint}</p>
                 <a href="${footerData.support.kofi.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
@@ -118,7 +128,7 @@ function renderFooter(footerData) {
     ? `<div class="footer-donate-card footer-donate-card--gofundme">
                 <span class="footer-donate-label">GoFundMe</span>
                 <div class="footer-donate-media-wrap">
-                  <img src="${footerData.support.gofundme.image}" alt="${footerData.support.gofundme.imageAlt || 'GoFundMe campaign'}" class="footer-donate-media" width="160" height="100" loading="lazy" />
+                  <img src="${withBasePath(footerData.support.gofundme.image, basePath)}" alt="${footerData.support.gofundme.imageAlt || 'GoFundMe campaign'}" class="footer-donate-media" width="160" height="100" loading="lazy" />
                 </div>
                 <p class="footer-donate-desc">${footerData.support.gofundme.hint}</p>
                 <a href="${footerData.support.gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
@@ -142,7 +152,7 @@ function renderFooter(footerData) {
               <div class="footer-donate-card footer-donate-card--btc">
                 <span class="footer-donate-label">Bitcoin</span>
                 <div class="footer-donate-media-wrap footer-donate-media-wrap--qr">
-                  <img src="${footerData.support.qrImage}" alt="${footerData.support.qrAlt}" class="footer-donate-media footer-donate-media--qr" width="96" height="96" loading="lazy" />
+                  <img src="${withBasePath(footerData.support.qrImage, basePath)}" alt="${footerData.support.qrAlt}" class="footer-donate-media footer-donate-media--qr" width="96" height="96" loading="lazy" />
                 </div>
                 <p class="footer-donate-desc">${bitcoinHint}</p>
                 <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcDisplay}</code>

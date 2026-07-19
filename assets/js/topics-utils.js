@@ -96,6 +96,31 @@ const TopicUtils = {
     return `data/${sourceId}-topics/${topicId}.json`;
   },
 
+  /** Canonical static deep-dive path (root-relative for nested pages). */
+  divePath(sourceId, topicId) {
+    if (!sourceId || !topicId) return '/deep-dive.html';
+    return `/dive/${encodeURIComponent(sourceId)}/${encodeURIComponent(topicId)}.html`;
+  },
+
+  diveUrl(sourceId, topicId, options = {}) {
+    // Root-relative by default so quiz/dive nested pages resolve correctly.
+    if (options.basePath) {
+      return `${options.basePath}dive/${encodeURIComponent(sourceId)}/${encodeURIComponent(topicId)}.html`;
+    }
+    return this.divePath(sourceId, topicId);
+  },
+
+  /** Prefer static dive URL for ready topics; SPA fallback for placeholders. */
+  topicHref(sourceId, topicId, isPlaceholder = false, options = {}) {
+    if (isPlaceholder) {
+      if (options.basePath) {
+        return `${options.basePath}deep-dive.html?source=${encodeURIComponent(sourceId)}&topic=${encodeURIComponent(topicId)}`;
+      }
+      return `/deep-dive.html?source=${encodeURIComponent(sourceId)}&topic=${encodeURIComponent(topicId)}`;
+    }
+    return this.diveUrl(sourceId, topicId, options);
+  },
+
   async fetchSourceIndex(sourceId) {
     const response = await fetch(this.topicsIndexUrl(sourceId));
     if (!response.ok) throw new Error(`HTTP ${response.status} — topics index not found`);
@@ -354,7 +379,7 @@ const TopicUtils = {
           sourceTitle: meta.sourceTitle || '',
           pathTitles: currentPath.map(node => node.title),
           href: meta.sourceId && item.id
-            ? `deep-dive.html?source=${meta.sourceId}&topic=${item.id}`
+            ? this.topicHref(meta.sourceId, item.id, !!item.is_placeholder)
             : null
         });
         if (item.subtopics?.length) walk(item.subtopics, currentPath);
@@ -533,7 +558,16 @@ const TopicUtils = {
     if (!href || typeof href !== 'string') return null;
     try {
       const url = new URL(href, window.location.href);
-      const path = url.pathname.split('/').pop() || '';
+      const pathname = (url.pathname || '').replace(/\\/g, '/');
+      // Static dive pages: /dive/{source}/{topic}.html
+      const diveMatch = pathname.match(/\/dive\/([^/]+)\/([^/]+)\.html$/i);
+      if (diveMatch) {
+        return {
+          sourceId: decodeURIComponent(diveMatch[1]),
+          topicId: decodeURIComponent(diveMatch[2])
+        };
+      }
+      const path = pathname.split('/').pop() || '';
       if (path !== 'deep-dive.html') return null;
       const topicId = url.searchParams.get('topic');
       if (!topicId) return null;
@@ -674,7 +708,7 @@ const TopicUtils = {
       topicPath.slice(0, -1).forEach(item => {
         crumbs.push({
           label: item.title,
-          href: `deep-dive.html?source=${sourceId}&topic=${item.id}`
+          href: this.topicHref(sourceId, item.id, !!item.is_placeholder)
         });
       });
     }

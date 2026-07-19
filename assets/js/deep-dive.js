@@ -32,7 +32,7 @@ function updateTopicPageMeta({ topic, sourceId, fullData }) {
   const description = topic.description || `AI-decoded deep-dive on ${topic.title} from the ${fullData.title} transmission.`;
   const imagePath = topic.topic_image || topic.infographic_image || "images/21.webp";
   const image = new URL(TopicUtils.encodeAssetPath(imagePath), window.location.origin).href;
-  const url = `${window.location.origin}${window.location.pathname}?source=${sourceId}&topic=${topic.id}`;
+  const url = `${window.location.origin}${TopicUtils.divePath(sourceId, topic.id)}`;
 
   document.title = title;
   setPageMeta("description", description);
@@ -67,7 +67,7 @@ function renderTopicNav({ topics, sourceId, topicId }) {
     const safeTopic = encodeURIComponent(entry.id);
     const safeTitle = escapeHtml(entry.title);
     return `
-      <a href="deep-dive.html?source=${safeSource}&topic=${safeTopic}" class="topic-prev-next__link topic-prev-next__link--${direction}">
+      <a href="${TopicUtils.diveUrl(sourceId, entry.id)}" class="topic-prev-next__link topic-prev-next__link--${direction}">
         ${direction === "prev" ? `${icon}<span class="topic-prev-next__text"><span class="topic-prev-next__label">${label}</span><span class="topic-prev-next__title">${safeTitle}</span></span>` : `<span class="topic-prev-next__text"><span class="topic-prev-next__label">${label}</span><span class="topic-prev-next__title">${safeTitle}</span></span>${icon}`}
       </a>`;
   };
@@ -229,6 +229,7 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId, mediaFlag
                data-back-to-topics
                data-source-id="${escapeAttr(sourceId)}"
                data-topic-id="${escapeAttr(topic.id)}">← Back to Topics</a>
+            <a href="network.html" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">Network</a>
           </div>
         </div>
       </div>
@@ -301,6 +302,33 @@ function setupJumpToPills() {
 }
 
 /** Ensure "Back to Topics" restores the opened topic in the list. */
+function renderContinueLearning({ sourceId, topic }) {
+  const quiz = topic.quiz;
+  const quizHref = quiz?.href ? escapeAttr(quiz.href) : '';
+  const quizBlock = quizHref
+    ? `<a href="${quizHref}" class="btn-primary dive-continue__btn">
+        <span>Take the ${escapeHtml(quiz.title || 'Living Truth')} Quiz</span>
+      </a>
+      ${quiz.description ? `<p class="dive-continue__hint">${escapeHtml(quiz.description)}</p>` : ''}`
+    : `<a href="quizzes.html" class="btn-secondary dive-continue__btn">Browse Living Truth Quizzes</a>`;
+
+  return `
+  <aside class="dive-continue content-card static-card rounded-3xl p-6 md:p-8 mt-8" aria-label="Continue learning">
+    <h2 class="dive-continue__title">Continue the remembering</h2>
+    <p class="dive-continue__lead">
+      This archive is an AI-assisted bridge. For the living foundation, go to the original transmissions on the Network — then test your grasp with a quiz.
+    </p>
+    <div class="dive-continue__actions">
+      ${quizBlock}
+      <a href="network.html" class="btn-secondary dive-continue__btn">Open the Thalon Thor Network</a>
+      <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="text-link dive-continue__link">More topics in this transmission →</a>
+    </div>
+    <p class="dive-continue__disclaimer">
+      AI may miss higher-dimensional nuance. Prefer the raw transmissions when anything feels incomplete.
+    </p>
+  </aside>`;
+}
+
 function setupBackToTopicsLinks(sourceId, topicId) {
   document.querySelectorAll('[data-back-to-topics]').forEach((link) => {
     if (link.dataset.backBound === 'true') return;
@@ -329,7 +357,23 @@ function setupBackToTopicsLinks(sourceId, topicId) {
   });
 }
 
+function maybeRedirectToStaticDive() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const source = urlParams.get('source');
+  const topic = urlParams.get('topic');
+  if (!source || !topic) return false;
+  // Prefer SEO static pages when this shell is opened with query params
+  const path = (window.location.pathname || '').replace(/\\/g, '/');
+  if (!/deep-dive\.html$/i.test(path)) return false;
+  const target = TopicUtils.divePath(source, topic);
+  const next = `${window.location.origin}${target}${window.location.hash || ''}`;
+  window.location.replace(next);
+  return true;
+}
+
 async function loadLessonViewer() {
+  if (maybeRedirectToStaticDive()) return;
+
   const urlParams = new URLSearchParams(window.location.search);
   const rawSource = urlParams.get('source');
   const topicId = urlParams.get('topic');
@@ -569,6 +613,20 @@ async function loadLessonViewer() {
     } else if (tocContainer) {
       tocContainer.hidden = true;
       if (tocMobile) tocMobile.hidden = true;
+    }
+
+    // Trust / next-steps footer (quiz + network + AI disclaimer)
+    const reportSection = document.getElementById('report-section');
+    const topicNavEl = document.getElementById('topic-nav');
+    const continueHtml = renderContinueLearning({ sourceId, topic });
+    if (topicNavEl && !topicNavEl.hidden) {
+      topicNavEl.insertAdjacentHTML('afterend', continueHtml);
+    } else if (reportSection) {
+      reportSection.insertAdjacentHTML('beforeend',
+        `<div class="max-w-6xl mx-auto px-6">${continueHtml}</div>`);
+    } else {
+      headerContainer.insertAdjacentHTML('afterend',
+        `<div class="max-w-6xl mx-auto px-6 mb-12">${continueHtml}</div>`);
     }
   } catch (error) {
     console.error('Error loading lesson:', error);

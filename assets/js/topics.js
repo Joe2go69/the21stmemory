@@ -89,7 +89,7 @@ function renderTopicLeaf(sourceId, leaf, extraClass = '', staggerIndex = 0) {
     return `<span class="${leafClasses}" ${topicAttrs} aria-disabled="true" title="Coming soon">${label}</span>`;
   }
   return `
-    <a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(leaf.id)}" class="${leafClasses}" ${topicAttrs}>
+    <a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, leaf.id, leafPh))}" class="${leafClasses}" ${topicAttrs}>
       ${label}
     </a>
   `;
@@ -112,7 +112,7 @@ function renderSubtopic(sourceId, sub) {
 
     const viewLink = subPh
       ? ''
-      : `<a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(sub.id)}" class="topic-section-link" data-topic-id="${TopicUtils.escapeAttr(sub.id)}">View →</a>`;
+      : `<a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, sub.id, false))}" class="topic-section-link" data-topic-id="${TopicUtils.escapeAttr(sub.id)}">View →</a>`;
 
     return `
       <div class="topic-section-group" data-expanded="${expanded ? 'true' : 'false'}" data-section-id="${TopicUtils.escapeAttr(sectionId)}">
@@ -141,7 +141,7 @@ function renderSubtopic(sourceId, sub) {
     return `<span class="${leafClasses}" ${topicAttrs} aria-disabled="true" title="Coming soon">${label}</span>`;
   }
   return `
-    <a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(sub.id)}" class="${leafClasses}" ${topicAttrs}>
+    <a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, sub.id, false))}" class="${leafClasses}" ${topicAttrs}>
       ${label}
     </a>
   `;
@@ -171,7 +171,7 @@ function renderMainRootBlock(sourceId, root) {
 
   const card = isPh
     ? `<div class="topic-main-root-card channel-card surface-interactive topic-main-root-card--soon opacity-70" ${topicAttrs} aria-disabled="true">${cardInner}</div>`
-    : `<a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(root.id)}"
+    : `<a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, root.id, false))}"
          class="topic-main-root-card channel-card surface-interactive group no-underline" ${topicAttrs}>${cardInner}</a>`;
 
   return `
@@ -235,7 +235,7 @@ function renderCategoryBlock(sourceId, category) {
 
   const rootCard = isPh
     ? `<div class="${rootClasses}" ${topicAttrs} aria-disabled="true">${rootInner}</div>`
-    : `<a href="deep-dive.html?source=${TopicUtils.escapeAttr(sourceId)}&topic=${TopicUtils.escapeAttr(category.id)}"
+    : `<a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, category.id, false))}"
            class="${rootClasses}" ${topicAttrs}>${rootInner}</a>`;
 
   return `

@@ -69,6 +69,65 @@
     return { correct, answered, total, pct };
   }
 
+  /** Browser-only progress (no accounts). Survives reloads on this device. */
+  const PROGRESS_KEY = '21st-memory-quiz-progress-v1';
+
+  function resolveQuizKey(data, rootEl) {
+    let sourceId = data?.sourceId || data?.source || '';
+    const topicId = data?.topicId || data?.id || '';
+    if (!sourceId && rootEl?.getAttribute) {
+      const quizSrc = rootEl.getAttribute('data-quiz-src') || '';
+      const match = quizSrc.match(/\/quizzes\/([^/]+)\/([^/]+)\.json/i);
+      if (match) {
+        sourceId = match[1];
+        return `${match[1]}/${match[2].replace(/\.json$/i, '')}`;
+      }
+    }
+    if (sourceId && topicId) return `${sourceId}/${topicId}`;
+    return topicId || data?.title || 'unknown';
+  }
+
+  function readProgressMap() {
+    try {
+      const raw = localStorage.getItem(PROGRESS_KEY);
+      if (!raw) return {};
+      const parsed = JSON.parse(raw);
+      return parsed && typeof parsed === 'object' ? parsed : {};
+    } catch (_) {
+      return {};
+    }
+  }
+
+  function getSavedProgress(data, rootEl) {
+    const key = resolveQuizKey(data, rootEl);
+    const map = readProgressMap();
+    return map[key] || null;
+  }
+
+  function saveProgress(score) {
+    if (!state.data || !el.root) return;
+    const key = resolveQuizKey(state.data, el.root);
+    if (!key) return;
+    try {
+      const map = readProgressMap();
+      const prev = map[key] || {};
+      const bestPct = Math.max(prev.bestPct || 0, score.pct || 0);
+      const bestCorrect =
+        score.pct >= (prev.bestPct || 0) ? score.correct : (prev.bestCorrect || score.correct);
+      map[key] = {
+        bestPct,
+        bestCorrect: bestCorrect ?? score.correct,
+        total: score.total,
+        attempts: (prev.attempts || 0) + 1,
+        lastPlayed: new Date().toISOString(),
+        title: state.data.title || state.data.topicTitle || key
+      };
+      localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
+    } catch (err) {
+      console.warn('Could not save quiz progress', err);
+    }
+  }
+
   function optionByLabel(question, label) {
     return (question.options || []).find((o) => o.label === label) || null;
   }
@@ -140,6 +199,7 @@
     if (state.index >= totalCount() - 1) {
       state.phase = 'results';
       state.hintOpen = false;
+      saveProgress(computeScore());
       render();
       focusQuizCard();
       return;
@@ -166,6 +226,11 @@
   function renderStart() {
     const d = state.data;
     const count = totalCount();
+    const saved = getSavedProgress(d, el.root);
+    const progressChip = saved
+      ? `<span class="quiz-meta-chip quiz-meta-chip--score">Best ${saved.bestPct}% · ${saved.bestCorrect}/${saved.total}</span>
+         <span class="quiz-meta-chip">${saved.attempts || 1} attempt${(saved.attempts || 1) === 1 ? '' : 's'}</span>`
+      : `<span class="quiz-meta-chip">Not attempted yet</span>`;
     return `
       <div class="quiz-card" role="region" aria-label="Quiz introduction">
         <div class="quiz-kicker">Living Truth Quiz</div>
@@ -174,7 +239,7 @@
         <div class="quiz-meta-row">
           <span class="quiz-meta-chip">${count} questions</span>
           <span class="quiz-meta-chip">${escapeHtml(d.topicTitle || 'Topic quiz')}</span>
-          <span class="quiz-meta-chip">Multiple choice</span>
+          ${progressChip}
         </div>
         <p class="quiz-mode-label">Practice mode</p>
         <div class="quiz-mode-toggle" role="group" aria-label="Feedback mode">
@@ -380,6 +445,12 @@
     const d = state.data;
     const { correct, total, pct } = computeScore();
     const reflection = d.reflection || {};
+    const saved = getSavedProgress(d, el.root);
+    const bestNote = saved && saved.bestPct > pct
+      ? `<p class="quiz-score-best">Personal best on this device: <strong>${saved.bestPct}%</strong> (${saved.bestCorrect}/${saved.total})</p>`
+      : saved && saved.bestPct === pct
+        ? `<p class="quiz-score-best">New personal best on this device.</p>`
+        : '';
 
     return `
       <div class="quiz-card" role="region" aria-label="Quiz results">
@@ -396,6 +467,7 @@
             You scored <strong>${correct}</strong> out of <strong>${total}</strong>
           </p>
           <p class="quiz-score-message">${escapeHtml(scoreMessage(pct))}</p>
+          ${bestNote}
         </div>
         ${reflection.title || reflection.body ? `
           <div class="quiz-reflection">
@@ -405,7 +477,8 @@
         ` : ''}
         <div class="quiz-actions" style="margin-top:1.65rem;">
           <button type="button" class="btn-primary" data-action="restart"><span>Retake quiz</span></button>
-          ${d.relatedTopic?.href ? `<a href="${escapeHtml(d.relatedTopic.href)}" class="btn-secondary"><span>${escapeHtml(d.relatedTopic.label || 'Back to topic')}</span></a>` : ''}
+          <a href="${escapeHtml(resolveQuizzesHubHref())}" class="btn-secondary"><span>Back to Quizzes</span></a>
+          <a href="${escapeHtml(resolveTopicHref(d, el.root))}" class="btn-secondary"><span>Back to topic</span></a>
         </div>
         ${renderReview()}
       </div>
@@ -423,16 +496,27 @@
     // Prefer relatedTopic.href (has correct source). Never hardcode source=alice —
     // breakdown (and future) quizzes live under other sources and would 404 as "Topic not found".
     const topicHref = resolveTopicHref(state.data, el.root);
+    const quizzesHref = resolveQuizzesHubHref();
 
     el.root.innerHTML = `
       <div class="quiz-shell">
         <div class="quiz-back-row">
-          <a href="${escapeHtml(topicHref)}" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to topic</a>
-          <a href="/codex.html" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">Codex</a>
+          <a href="${escapeHtml(quizzesHref)}" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← All quizzes</a>
+          <a href="${escapeHtml(topicHref)}" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">Topic</a>
+          <a href="${escapeHtml(resolveCodexHref())}" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">Codex</a>
         </div>
         ${body}
       </div>
     `;
+  }
+
+  /** Root-relative paths work from /quiz/alice/*.html and root pages. */
+  function resolveQuizzesHubHref() {
+    return '/quizzes.html';
+  }
+
+  function resolveCodexHref() {
+    return '/codex.html';
   }
 
   /**
@@ -440,8 +524,6 @@
    * Order: relatedTopic.href → sourceId/source field → path segment of data-quiz-src → alice fallback.
    */
   function resolveTopicHref(data, rootEl) {
-    if (data?.relatedTopic?.href) return data.relatedTopic.href;
-
     const topicId = data?.topicId || data?.id || 'nature-of-reality';
     let sourceId = data?.sourceId || data?.source || '';
 
@@ -452,8 +534,20 @@
       if (match) sourceId = match[1];
     }
 
+    // Prefer relatedTopic only for source/topic extraction; always emit static dive URLs
+    if (data?.relatedTopic?.href && typeof TopicUtils !== 'undefined' && TopicUtils.parseDeepDiveLink) {
+      const parsed = TopicUtils.parseDeepDiveLink(data.relatedTopic.href);
+      if (parsed?.sourceId) sourceId = parsed.sourceId;
+      if (parsed?.topicId) {
+        return TopicUtils.diveUrl(parsed.sourceId || sourceId || 'alice', parsed.topicId);
+      }
+    }
+
     if (!sourceId) sourceId = 'alice';
-    return `/deep-dive.html?source=${encodeURIComponent(sourceId)}&topic=${encodeURIComponent(topicId)}`;
+    if (typeof TopicUtils !== 'undefined' && TopicUtils.diveUrl) {
+      return TopicUtils.diveUrl(sourceId, topicId);
+    }
+    return `/dive/${encodeURIComponent(sourceId)}/${encodeURIComponent(topicId)}.html`;
   }
 
   function onClick(event) {

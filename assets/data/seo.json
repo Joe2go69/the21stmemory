@@ -5,52 +5,68 @@
     "shortName": "21st Memory",
     "alternateNames": [
       "21st Memory",
+      "21stMemory",
+      "21stmemory",
+      "the21stmemory",
       "21st Memory Archive",
       "The 21st Memory Codex"
     ],
-    "description": "Living archive of AI-decoded Thalon Thor transmissions. No religion. No finance. No gatekeeping. The Great Remembering starts here.",
+    "description": "21st Memory (also known as 21stmemory / the21stmemory) is a living archive of AI-decoded Thalon Thor transmissions. No religion. No finance. No gatekeeping. The Great Remembering starts here.",
     "logo": "https://the21stmemory.com/images/21.webp",
-    "defaultImage": "https://the21stmemory.com/images/21.webp",
+    "defaultImage": "https://the21stmemory.com/images/og-default.webp",
+    "defaultImageWidth": 1200,
+    "defaultImageHeight": 630,
+    "themeColor": "#0F0A1F",
     "sameAs": [
       "https://rumble.com/c/21stMemory",
       "https://t.me/The_21st_Memory",
       "https://x.com/The21stMemory",
-      "https://www.instagram.com/the21stmemory/"
+      "https://www.instagram.com/the21stmemory/",
+      "https://www.youtube.com/@the21stmemory",
+      "https://www.tiktok.com/@the.21st.memory",
+      "https://www.facebook.com/share/g/1DN6JVuFoF/"
     ]
   },
   "pages": {
     "index.html": {
       "path": "/",
-      "title": "The 21st Memory — AI-Decoded Living Archive",
-      "description": "The 21st Memory is a living archive of AI-decoded Thalon Thor transmissions. Explore the Codex and community — no religion, no finance, no gatekeeping.",
+      "title": "21st Memory — The 21st Memory | AI-Decoded Living Archive",
+      "description": "21st Memory (the21stmemory.com) is a living archive of AI-decoded Thalon Thor transmissions. Explore the Codex, quizzes, and network — no religion, no finance, no gatekeeping.",
       "searchAction": true,
       "webPage": true
     },
     "codex.html": {
       "path": "/codex.html",
       "title": "21st Memory Codex | The 21st Memory",
-      "description": "Explore the 21st Memory Codex — videos, infographics, PDFs, and deep-dive reports on Thalon Thor's teachings."
+      "description": "Explore the 21st Memory Codex — videos, infographics, PDFs, and deep-dive reports on Thalon Thor's teachings from the 21stmemory archive."
     },
     "topics.html": {
       "path": "/topics.html",
       "title": "21st Memory Topics | The 21st Memory",
-      "description": "Browse AI-decoded topic archives from Thalon Thor transmissions in the 21st Memory Codex."
+      "description": "Browse AI-decoded topic archives from Thalon Thor transmissions in the 21st Memory Codex (21stmemory)."
     },
     "deep-dive.html": {
       "path": "/deep-dive.html",
       "title": "21st Memory Deep-Dive | The 21st Memory",
-      "description": "In-depth AI-decoded reports on Thalon Thor transmission topics from the 21st Memory archive."
+      "description": "In-depth AI-decoded reports on Thalon Thor transmission topics from the 21st Memory archive at the21stmemory.com."
     },
     "network.html": {
       "path": "/network.html",
       "title": "21st Memory Network | The 21st Memory",
-      "description": "The Thalon Thor Network — official sites, Telegram channels, and Rumble archives supporting the Great Remembering."
+      "description": "The Thalon Thor Network — official sites, Telegram channels, and Rumble archives supporting the Great Remembering. From 21st Memory (the21stmemory).",
+      "collectionPage": true
     },
     "community.html": {
       "path": "/community.html",
       "title": "21st Memory Network | The 21st Memory",
       "description": "Redirects to the Thalon Thor Network directory.",
       "noindex": true
+    },
+    "quizzes.html": {
+      "path": "/quizzes.html",
+      "title": "Living Truth Quizzes | 21st Memory",
+      "description": "Browse Living Truth Quizzes from the 21st Memory (21stmemory) archive — Alice and Mega Breakdown quizzes to test your remembering.",
+      "collectionPage": true
     }
   }
 }

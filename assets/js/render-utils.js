@@ -168,6 +168,14 @@ const RenderUtils = {
     `;
   },
 
+  sourcePlainLabel(sourceId) {
+    const map = {
+      alice: 'Foundational rabbit-hole series',
+      breakdown: 'Final-stage Great Awakening notes'
+    };
+    return map[sourceId] || 'Transmission archive';
+  },
+
   renderSourceCard(source, options = {}) {
     const soon = options.soonCount || 0;
     const showImage = options.showImage !== false;
@@ -183,6 +191,7 @@ const RenderUtils = {
 
     const safeId = TopicUtils.escapeAttr(source.id || 'source');
     const safeTitle = TopicUtils.escapeHtml(source.title || '');
+    const plain = this.sourcePlainLabel(source.id);
     const safeBlurb = TopicUtils.escapeHtml(source.subtitle || source.description || '');
 
     return `
@@ -192,8 +201,8 @@ const RenderUtils = {
         ${imageHTML}
         <div class="flex items-start justify-between mb-4">
           <div>
-            <span class="card-label">${TopicUtils.escapeHtml((source.id || 'source').toUpperCase())} TRANSMISSION</span>
-            <h3 class="text-2xl font-semibold mt-1 leading-none text-white">${safeTitle}</h3>
+            <span class="card-label">${TopicUtils.escapeHtml(plain)}</span>
+            <h3 class="text-2xl font-semibold mt-1 leading-snug text-white">${safeTitle}</h3>
           </div>
           ${typeof renderSiteIcon === 'function' ? renderSiteIcon('document', 'card-icon-lg') : ''}
         </div>
@@ -204,7 +213,7 @@ const RenderUtils = {
         </div>
         <div class="flex-grow"></div>
         <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium card-action mt-4">
-          Explore this source
+          Explore this transmission
           <span class="group-hover:translate-x-1 transition">→</span>
         </div>
       </a>

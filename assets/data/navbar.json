@@ -7,9 +7,8 @@
   "links": [
     { "text": "Home", "href": "index.html" },
     { "text": "Codex", "href": "codex.html", "primary": true },
-    { "text": "About", "href": "index.html#about" },
+    { "text": "Quizzes", "href": "quizzes.html" },
     { "text": "Network", "href": "network.html" },
-    { "text": "Media", "href": "index.html#explore" },
     { "text": "Support", "href": "#support" }
   ],
   "cta": {

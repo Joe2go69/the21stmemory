@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     './*.html',
+    './quiz/**/*.html',
     './assets/js/**/*.js',
     './scripts/**/*.js',
   ],

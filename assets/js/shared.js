@@ -5,6 +5,7 @@ const CODEX_PAGES = new Set([
   'topics.html',
   'deep-dive.html'
 ]);
+const QUIZ_PAGES = new Set(['quizzes.html']);
 const NETWORK_PAGES = new Set(['network.html', 'community.html']);
 const HOME_PAGES = new Set(['index.html']);
 const INDEX_SECTION_LINKS = new Set([
@@ -15,6 +16,13 @@ const INDEX_SECTION_LINKS = new Set([
 
 function isCodexFamilyPage(pageBasename) {
   if (CODEX_PAGES.has(pageBasename)) return true;
+  // Static dive pages live under /dive/{source}/{topic}.html
+  const path = (window.location.pathname || '').replace(/\\/g, '/');
+  return path.includes('/dive/');
+}
+
+function isQuizFamilyPage(pageBasename) {
+  if (QUIZ_PAGES.has(pageBasename)) return true;
   // Nested quizzes live under /quiz/ (e.g. quiz/alice/...)
   const path = (window.location.pathname || '').replace(/\\/g, '/');
   return path.includes('/quiz/');
@@ -234,6 +242,10 @@ function isNavLinkActive(href, currentPath, currentHash) {
   const linkHash = linkHashPart ? '#' + linkHashPart : '';
 
   if (linkPath === 'codex.html' && isCodexFamilyPage(currentPath)) {
+    return true;
+  }
+
+  if (linkPath === 'quizzes.html' && isQuizFamilyPage(currentPath)) {
     return true;
   }
 

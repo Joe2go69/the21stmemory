@@ -1,10 +1,10 @@
 {
   "tagline": "The Great Remembering Has Begun.",
   "subtitle": "May these transmissions serve as gentle guides on your journey home.",
-  "copyright": "© 2026 21st Memory",
+  "copyright": "© 2026 21st Memory · the21stmemory.com",
   "brand": {
     "name": "21ST MEMORY",
-    "description": "Living archive of AI-assisted interpretations and enhancements of Thalon Thor's transmissions — profound knowledge for humanity."
+    "description": "21st Memory (21stmemory) — living archive of AI-assisted interpretations of Thalon Thor's transmissions at the21stmemory.com. Profound knowledge for humanity."
   },
   "principle": "No religion · No finance · No gatekeeping",
   "quickLinks": [
@@ -13,16 +13,16 @@
       "href": "codex.html"
     },
     {
-      "text": "About",
-      "href": "index.html#about"
+      "text": "Quizzes",
+      "href": "quizzes.html"
     },
     {
       "text": "Network",
       "href": "network.html"
     },
     {
-      "text": "Media",
-      "href": "index.html#explore"
+      "text": "About",
+      "href": "index.html#about"
     }
   ],
   "socials": [

@@ -39,6 +39,7 @@ const entries = [
   { path: '/codex.html', priority: '0.95', changefreq: 'weekly' },
   { path: '/topics.html', priority: '0.9', changefreq: 'weekly' },
   { path: '/deep-dive.html', priority: '0.9', changefreq: 'weekly' },
+  { path: '/quizzes.html', priority: '0.92', changefreq: 'weekly' },
   { path: '/quiz/alice/nature-of-reality.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/alice/essence-of-the-transmission.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/alice/3rd-density-overlays.html', priority: '0.75', changefreq: 'monthly' },
@@ -149,22 +150,33 @@ for (const source of sourcesData.sources) {
     priority: '0.88',
     changefreq: 'weekly',
   });
+}
 
-  const indexPath = path.join(ROOT, 'data', `${source.id}-topics-index.json`);
-  if (!fs.existsSync(indexPath)) {
-    console.warn(`Skip topics for source "${source.id}": ${indexPath} not found`);
-    continue;
-  }
-
-  const indexData = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
-  const topicIds = collectTopicIds(indexData.topics || []);
-
-  for (const topicId of topicIds) {
+// Prefer dive-manifest.json (live static pages only). Fallback to index scan.
+const manifestPath = path.join(ROOT, 'data', 'dive-manifest.json');
+if (fs.existsSync(manifestPath)) {
+  const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+  for (const page of manifest.pages || []) {
+    if (!page.live || !page.path) continue;
     entries.push({
-      path: `/deep-dive.html?source=${source.id}&topic=${encodeURIComponent(topicId)}`,
-      priority: '0.7',
+      path: page.path,
+      priority: '0.8',
       changefreq: 'monthly',
     });
+  }
+} else {
+  for (const source of sourcesData.sources) {
+    const indexPath = path.join(ROOT, 'data', `${source.id}-topics-index.json`);
+    if (!fs.existsSync(indexPath)) continue;
+    const indexData = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+    const topicIds = collectTopicIds(indexData.topics || []);
+    for (const topicId of topicIds) {
+      entries.push({
+        path: `/dive/${source.id}/${encodeURIComponent(topicId)}.html`,
+        priority: '0.7',
+        changefreq: 'monthly',
+      });
+    }
   }
 }
 

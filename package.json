@@ -12,8 +12,14 @@
     "build:sitemap": "node scripts/generate-sitemap.js",
     "build:seo": "node scripts/inject-seo.js",
     "build:chrome": "node scripts/inline-chrome.js",
-    "chrome": "npm run build:chrome",
-    "build": "npm run build:data && npm run build:css && npm run build:chrome && npm run build:seo && npm run build:sitemap"
+    "build:quizzes": "node scripts/build-quizzes-hub.js",
+    "build:dives": "node scripts/build-static-dives.js",
+    "sync:quiz-chrome": "node scripts/sync-quiz-chrome.js",
+    "build:brand-assets": "node scripts/generate-brand-assets.js",
+    "verify": "node scripts/verify-phase6.js",
+    "verify:all": "node scripts/verify-phase2.js && node scripts/verify-phase3.js && node scripts/verify-phase4.js && node scripts/verify-phase5.js && node scripts/verify-phase6.js",
+    "chrome": "node scripts/inline-chrome.js",
+    "build": "node scripts/split-topics-data.js && node scripts/build-quizzes-hub.js && node scripts/build-static-dives.js && npx tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --minify && node scripts/inline-chrome.js && node scripts/sync-quiz-chrome.js && node scripts/inject-seo.js && node scripts/generate-sitemap.js"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17"
