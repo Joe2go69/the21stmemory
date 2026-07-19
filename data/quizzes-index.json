@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-19T07:40:35.825Z",
-  "total": 99,
+  "generatedAt": "2026-07-19T20:24:02.547Z",
+  "total": 100,
   "sources": [
     {
       "id": "alice",
@@ -14,7 +14,7 @@
       "label": "Breakdown",
       "title": "Mega Breakdown Board Notes",
       "short": "Final-stage Great Awakening notes",
-      "count": 39
+      "count": 40
     }
   ],
   "quizzes": [
@@ -1037,6 +1037,18 @@
       "questionCount": 25,
       "href": "quiz/breakdown/phase-seven-eight.html",
       "diveHref": "dive/breakdown/phase-seven-eight.html"
+    },
+    {
+      "id": "phase-four-six",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Phases Four - Six",
+      "subtitle": "Test your grasp of Phases Four - Six — narrative maintenance, trigger events, and the lockdown window that prepare sleepers for the mass reveal.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/phase-four-six.html",
+      "diveHref": "dive/breakdown/phase-four-six.html"
     },
     {
       "id": "physical-indicators",

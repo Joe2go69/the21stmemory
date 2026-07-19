@@ -276,7 +276,14 @@
               },
               "is_placeholder": false
             }
-          ]
+          ],
+          "quiz": {
+            "href": "quiz/breakdown/phase-four-six.html",
+            "title": "Phases Four - Six",
+            "totalQuestions": 25,
+            "description": "Test your understanding of Phases Four - Six — narrative maintenance, trigger events, and the lockdown window bridging covert neutralization to E.B.S. truth."
+          },
+          "is_placeholder": false
         },
         {
           "id": "phase-seven-eight",
