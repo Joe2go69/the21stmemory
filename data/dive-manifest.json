@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T21:43:56.264Z",
+  "generatedAt": "2026-07-20T06:14:30.424Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -712,7 +712,7 @@
       "sourceId": "breakdown",
       "topicId": "lava-core-nodes",
       "path": "/dive/breakdown/lava-core-nodes.html",
-      "live": false,
+      "live": true,
       "title": "Lava Core Nodes"
     },
     {

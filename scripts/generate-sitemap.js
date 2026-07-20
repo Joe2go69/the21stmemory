@@ -123,6 +123,7 @@ const entries = [
   { path: '/quiz/breakdown/second-realm.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/grid-systems.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/energy-nodes.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/lava-core-nodes.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/phase-one-three.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/targeting-parasites.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/infrastructure-sweep.html', priority: '0.75', changefreq: 'monthly' },

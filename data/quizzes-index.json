@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-19T21:43:55.676Z",
-  "total": 101,
+  "generatedAt": "2026-07-20T06:14:29.750Z",
+  "total": 102,
   "sources": [
     {
       "id": "alice",
@@ -14,7 +14,7 @@
       "label": "Breakdown",
       "title": "Mega Breakdown Board Notes",
       "short": "Final-stage Great Awakening notes",
-      "count": 41
+      "count": 42
     }
   ],
   "quizzes": [
@@ -905,6 +905,18 @@
       "questionCount": 25,
       "href": "quiz/breakdown/infrastructure-sweep.html",
       "diveHref": "dive/breakdown/infrastructure-sweep.html"
+    },
+    {
+      "id": "lava-core-nodes",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Lava Core Nodes",
+      "subtitle": "Test your grasp of Lava Core Nodes — deep Earth Nodes of the Crystalline Web, molten-fire power cores, ley-line feed, Harmonic Lenses, and living-lens alignment.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/lava-core-nodes.html",
+      "diveHref": "dive/breakdown/lava-core-nodes.html"
     },
     {
       "id": "layered-simulations",
