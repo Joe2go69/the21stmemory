@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T06:14:29.750Z",
-  "total": 102,
+  "generatedAt": "2026-07-20T21:45:42.447Z",
+  "total": 103,
   "sources": [
     {
       "id": "alice",
@@ -14,7 +14,7 @@
       "label": "Breakdown",
       "title": "Mega Breakdown Board Notes",
       "short": "Final-stage Great Awakening notes",
-      "count": 42
+      "count": 43
     }
   ],
   "quizzes": [
@@ -893,6 +893,18 @@
       "questionCount": 25,
       "href": "quiz/breakdown/hard-drive-framework.html",
       "diveHref": "dive/breakdown/hard-drive-framework.html"
+    },
+    {
+      "id": "harmonic-lenses",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Harmonic Lenses",
+      "subtitle": "Test your grasp of Harmonic Lenses — Energy Nodes and crystalline blooms, the Crystalline Grid, four node types, parasitic inversion, Thuban, and souls as living lenses.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/harmonic-lenses.html",
+      "diveHref": "dive/breakdown/harmonic-lenses.html"
     },
     {
       "id": "infrastructure-sweep",

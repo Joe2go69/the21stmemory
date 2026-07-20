@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T06:14:30.424Z",
+  "generatedAt": "2026-07-20T21:45:42.625Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -719,7 +719,7 @@
       "sourceId": "breakdown",
       "topicId": "harmonic-lenses",
       "path": "/dive/breakdown/harmonic-lenses.html",
-      "live": false,
+      "live": true,
       "title": "Harmonic Lenses"
     },
     {
