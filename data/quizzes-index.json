@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T21:45:42.447Z",
-  "total": 103,
+  "generatedAt": "2026-07-21T04:36:59.594Z",
+  "total": 104,
   "sources": [
     {
       "id": "alice",
@@ -14,7 +14,7 @@
       "label": "Breakdown",
       "title": "Mega Breakdown Board Notes",
       "short": "Final-stage Great Awakening notes",
-      "count": 43
+      "count": 44
     }
   ],
   "quizzes": [
@@ -773,6 +773,18 @@
       "questionCount": 25,
       "href": "quiz/breakdown/blackout-timeline.html",
       "diveHref": "dive/breakdown/blackout-timeline.html"
+    },
+    {
+      "id": "celestial-anchors",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Celestial Anchors",
+      "subtitle": "Test your grasp of Celestial Anchors — Sky Nodes and Crystalline Star-Nodes, Zodiac locks, Axis Laburnum, Thuban versus Polaris, four-tier nodes, and Resonating Sols as living lenses.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/celestial-anchors.html",
+      "diveHref": "dive/breakdown/celestial-anchors.html"
     },
     {
       "id": "comms-blackout",

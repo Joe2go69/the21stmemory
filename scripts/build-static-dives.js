@@ -91,7 +91,62 @@ function sanitizeReportHtml(html) {
 function renderMarkdown(md) {
   if (!md) return '';
   const html = markedParse(md);
-  return sanitizeReportHtml(html);
+  return enhanceTerminologyHtml(sanitizeReportHtml(html));
+}
+
+/**
+ * Transform Key Terminology <ul> into definition cards.
+ * Leaves original markup if parsing fails.
+ */
+function enhanceTerminologyHtml(html) {
+  if (!html || !/key\s+terminology/i.test(html)) return html;
+
+  return html.replace(
+    /(<h2[^>]*>\s*Key\s+Terminology\s*<\/h2>)\s*<ul>([\s\S]*?)<\/ul>/i,
+    (match, h2, ulInner) => {
+      const liMatches = [...ulInner.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)];
+      if (!liMatches.length) return match;
+
+      const cards = [];
+      for (const liMatch of liMatches) {
+        const liHtml = liMatch[1];
+        const strongMatch = liHtml.match(/<strong[^>]*>([\s\S]*?)<\/strong>/i);
+        if (!strongMatch) continue;
+        const term = strongMatch[1].replace(/<[^>]+>/g, '').trim();
+        if (!term) continue;
+        let defHtml = liHtml.slice(liHtml.indexOf(strongMatch[0]) + strongMatch[0].length);
+        defHtml = defHtml
+          .replace(/^(\s|&nbsp;|&#160;)*[-–—:&middot;·•]+\s*/i, '')
+          .replace(/^(\s|&nbsp;|&#160;)*/i, '')
+          .trim();
+        if (!defHtml) continue;
+        cards.push(
+          `<article class="term-card" role="listitem"><h3 class="term-card__term">${escapeHtml(term)}</h3><div class="term-card__def">${defHtml}</div></article>`
+        );
+      }
+
+      if (!cards.length) return match;
+      return `${h2}\n<div class="term-card-grid" role="list">\n${cards.join('\n')}\n</div>`;
+    }
+  );
+}
+
+function renderStudyToolbar() {
+  return `<div id="report-study-toolbar" class="report-study-toolbar" role="toolbar" aria-label="Report options">
+    <button type="button" class="report-study-btn" data-report-print aria-label="Print or save report as PDF">Print report</button>
+  </div>`;
+}
+
+function renderShareMenu({ canonical, title }) {
+  return `<div class="share-menu" data-share-url="${escapeAttr(canonical)}" data-share-title="${escapeAttr(title)}">
+    <button type="button" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5 share-menu__toggle" aria-expanded="false" aria-haspopup="true" aria-label="Share this topic">Share</button>
+    <div class="share-menu__panel" role="menu" hidden>
+      <button type="button" class="share-menu__item" role="menuitem" data-share-action="copy-link">Copy link</button>
+      <button type="button" class="share-menu__item" role="menuitem" data-share-action="copy-report">Copy report link</button>
+      <button type="button" class="share-menu__item" role="menuitem" data-share-action="copy-title">Copy title + URL</button>
+      <button type="button" class="share-menu__item" role="menuitem" data-share-action="native-share">Share…</button>
+    </div>
+  </div>`;
 }
 
 function divePath(sourceId, topicId) {
@@ -451,7 +506,7 @@ function buildPage({
                 <a href="${ASSET_BASE}codex.html#codex-pill" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Codex</a>
                 <a href="${ASSET_BASE}topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Topics</a>
                 <a href="${ASSET_BASE}network.html" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">Network</a>
-                <button type="button" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5 dive-copy-link" data-copy-url="${escapeAttr(canonical)}" aria-label="Copy link to this topic">Copy link</button>
+                ${renderShareMenu({ canonical, title })}
               </div>
             </div>
           </div>
@@ -555,7 +610,10 @@ function buildPage({
       </div>
       <div class="max-w-6xl mx-auto px-6">
         <div class="content-card static-card lesson-content-card rounded-3xl p-8 md:p-12 lg:p-16">
+          ${renderStudyToolbar()}
+          <div id="report-toc-mobile" class="report-toc-mobile" hidden></div>
           <div class="report-layout">
+            <aside id="report-toc" class="report-toc" hidden></aside>
             <div class="report-main">
               <div id="report-container" class="report-prerendered">
                 ${reportHtml}

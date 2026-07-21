@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T21:45:42.625Z",
+  "generatedAt": "2026-07-21T04:37:00.208Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -726,7 +726,7 @@
       "sourceId": "breakdown",
       "topicId": "celestial-anchors",
       "path": "/dive/breakdown/celestial-anchors.html",
-      "live": false,
+      "live": true,
       "title": "Celestial Anchors"
     },
     {

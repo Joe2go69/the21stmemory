@@ -405,13 +405,33 @@ const TopicUtils = {
       }));
   },
 
+  /** Extra clearance when sticky dive section nav is on screen (avoids overlapping section pills). */
+  getStickySectionNavOffset() {
+    const sticky = document.querySelector('.section-nav-sticky.is-visible, .section-nav-sticky');
+    if (!sticky) return 0;
+    const visible =
+      sticky.classList.contains('is-visible') ||
+      getComputedStyle(sticky).opacity === '1' ||
+      getComputedStyle(sticky).pointerEvents === 'auto';
+    if (!visible) {
+      // Jump pills open sticky almost immediately after scroll — reserve room on dive pages
+      if (document.body?.dataset?.diveStatic || document.getElementById('jump-to-pills')) {
+        return 52;
+      }
+      return 0;
+    }
+    return Math.ceil(sticky.getBoundingClientRect().height) + 16;
+  },
+
   scrollToAnchor(elementId, delay = 150, behavior = 'smooth') {
     setTimeout(() => {
       const target = document.getElementById(elementId);
       if (!target) return;
       const rect = target.getBoundingClientRect();
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      const offsetPosition = rect.top + scrollTop - this.NAVBAR_HEIGHT - this.SCROLL_EXTRA_OFFSET;
+      const stickyOffset = this.getStickySectionNavOffset();
+      const offsetPosition =
+        rect.top + scrollTop - this.NAVBAR_HEIGHT - this.SCROLL_EXTRA_OFFSET - stickyOffset;
       window.scrollTo({ top: Math.max(0, offsetPosition), behavior });
     }, delay);
   },
@@ -899,7 +919,7 @@ const TopicUtils = {
 
     const items = [];
     headings.forEach((heading, index) => {
-      const id = `report-section-${index}`;
+      const id = heading.id || `report-section-${index}`;
       heading.id = id;
       items.push({
         id,
@@ -946,6 +966,69 @@ const TopicUtils = {
         window.scrollTo({ top, behavior: 'smooth' });
       });
     });
+  },
+
+  /**
+   * Turn "Key Terminology" bullet lists into definition cards.
+   * Expects <li><strong>Term</strong> — definition</li> (em/en dash or colon).
+   * No-ops if section missing or parsing yields no cards.
+   */
+  enhanceTerminologyCards(reportContainer) {
+    if (!reportContainer || reportContainer.querySelector('.term-card-grid')) return;
+
+    const headings = reportContainer.querySelectorAll('h2');
+    let termHeading = null;
+    headings.forEach((h) => {
+      if (/key\s+terminology/i.test(h.textContent || '')) termHeading = h;
+    });
+    if (!termHeading) return;
+
+    let list = termHeading.nextElementSibling;
+    while (list && list.tagName !== 'UL' && list.tagName !== 'OL') {
+      if (/^H[1-6]$/.test(list.tagName)) return;
+      list = list.nextElementSibling;
+    }
+    if (!list) return;
+
+    const cards = [];
+    list.querySelectorAll(':scope > li').forEach((li) => {
+      const strong = li.querySelector('strong');
+      if (!strong) return;
+      const term = (strong.textContent || '').trim();
+      if (!term) return;
+
+      let defHtml = '';
+      const fullHtml = li.innerHTML;
+      const strongHtml = strong.outerHTML;
+      const afterStrong = fullHtml.slice(fullHtml.indexOf(strongHtml) + strongHtml.length);
+      defHtml = afterStrong
+        .replace(/^(\s|&nbsp;|&#160;)*[-–—:·•]+\s*/i, '')
+        .replace(/^(\s|&nbsp;|&#160;)*/i, '')
+        .trim();
+      if (!defHtml) {
+        const text = (li.textContent || '').trim();
+        const stripped = text.replace(term, '').replace(/^[\s\-–—:·•]+/, '').trim();
+        defHtml = this.escapeHtml(stripped);
+      }
+      if (!defHtml) return;
+      cards.push({ term, defHtml });
+    });
+
+    if (!cards.length) return;
+
+    const grid = document.createElement('div');
+    grid.className = 'term-card-grid';
+    grid.setAttribute('role', 'list');
+    grid.innerHTML = cards
+      .map(
+        (c) => `
+      <article class="term-card" role="listitem">
+        <h3 class="term-card__term">${this.escapeHtml(c.term)}</h3>
+        <div class="term-card__def">${c.defHtml}</div>
+      </article>`
+      )
+      .join('');
+    list.replaceWith(grid);
   }
 };
 

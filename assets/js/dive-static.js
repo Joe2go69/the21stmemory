@@ -8,7 +8,11 @@ function initDiveStatic() {
   initSlideDeckArtifacts();
   initClickToPlayVideos();
   initReadingProgress();
-  initCopyLink();
+  initReportToc();
+  initTerminologyCards();
+  initPrintReport();
+  initSectionNavSticky();
+  initShareMenu();
 }
 
 function initJumpPills() {
@@ -135,39 +139,238 @@ function initReadingProgress() {
   window.addEventListener('resize', update);
 }
 
-function initCopyLink() {
+function initReportToc() {
+  const reportContainer = document.getElementById('report-container');
+  const tocContainer = document.getElementById('report-toc');
+  const tocMobile = document.getElementById('report-toc-mobile');
+  if (!reportContainer || !tocContainer) return;
+  if (typeof TopicUtils === 'undefined' || !TopicUtils.buildReportToc) return;
+
+  TopicUtils.buildReportToc(reportContainer, tocContainer);
+
+  if (tocMobile && tocContainer && !tocContainer.hidden) {
+    tocMobile.innerHTML = tocContainer.innerHTML;
+    tocMobile.hidden = false;
+    tocMobile.querySelectorAll('[data-toc-link]').forEach((link) => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.getElementById(link.dataset.tocLink);
+        if (!target) return;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const top =
+          target.getBoundingClientRect().top +
+          scrollTop -
+          TopicUtils.NAVBAR_HEIGHT -
+          TopicUtils.SCROLL_EXTRA_OFFSET;
+        window.scrollTo({ top, behavior: 'smooth' });
+      });
+    });
+  }
+}
+
+function initTerminologyCards() {
+  const reportContainer = document.getElementById('report-container');
+  if (!reportContainer) return;
+  if (typeof TopicUtils !== 'undefined' && TopicUtils.enhanceTerminologyCards) {
+    TopicUtils.enhanceTerminologyCards(reportContainer);
+  }
+}
+
+function initPrintReport() {
+  document.querySelector('[data-report-print]')?.addEventListener('click', () => {
+    window.print();
+  });
+}
+
+function initSectionNavSticky() {
+  const heroPills = document.getElementById('jump-to-pills');
+  if (!heroPills) return;
+
+  const sectionIds = [...heroPills.querySelectorAll('[data-jump-section]')]
+    .map((btn) => btn.getAttribute('data-jump-section'))
+    .filter((id) => id && document.getElementById(id));
+
+  if (!sectionIds.length) return;
+
+  // Sticky clone that appears after hero jumps out of view
+  const sticky = document.createElement('div');
+  sticky.className = 'section-nav-sticky';
+  sticky.setAttribute('aria-label', 'Page sections');
+  sticky.innerHTML = sectionIds
+    .map((id) => {
+      const label =
+        heroPills.querySelector(`[data-jump-section="${id}"]`)?.textContent?.trim() || id;
+      return `<button type="button" data-jump-section="${id}" class="btn-jump-pill">${label}</button>`;
+    })
+    .join('');
+  document.body.appendChild(sticky);
+
+  sticky.querySelectorAll('[data-jump-section]').forEach((pill) => {
+    pill.addEventListener('click', () => {
+      const id = pill.getAttribute('data-jump-section');
+      if (typeof TopicUtils !== 'undefined' && TopicUtils.scrollToSection) {
+        TopicUtils.scrollToSection(id);
+      } else {
+        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+  const allPills = () =>
+    document.querySelectorAll('#jump-to-pills [data-jump-section], .section-nav-sticky [data-jump-section]');
+
+  const setActive = (activeId) => {
+    allPills().forEach((pill) => {
+      const on = pill.getAttribute('data-jump-section') === activeId;
+      pill.classList.toggle('is-active', on);
+      pill.classList.toggle('active', on);
+    });
+  };
+
+  const sections = sectionIds.map((id) => document.getElementById(id)).filter(Boolean);
+  if (sections.length) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+        if (visible.length) setActive(visible[0].target.id);
+      },
+      { threshold: [0.15, 0.35, 0.55], rootMargin: '-20% 0px -45% 0px' }
+    );
+    sections.forEach((s) => observer.observe(s));
+  }
+
+  const updateStickyVisibility = () => {
+    const rect = heroPills.getBoundingClientRect();
+    // Stay under the navbar; hide until hero jump pills leave the nav zone
+    const pastHero = rect.bottom < 72;
+    sticky.classList.toggle('is-visible', pastHero);
+  };
+
+  updateStickyVisibility();
+  window.addEventListener('scroll', updateStickyVisibility, { passive: true });
+  window.addEventListener('resize', updateStickyVisibility);
+}
+
+async function copyText(text) {
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch (_) {
+    /* fall through */
+  }
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.left = '-9999px';
+    document.body.appendChild(ta);
+    ta.select();
+    const ok = document.execCommand('copy');
+    document.body.removeChild(ta);
+    return ok;
+  } catch (_) {
+    return false;
+  }
+}
+
+function initShareMenu() {
+  // Support both new share menu and legacy single copy button
   document.querySelectorAll('.dive-copy-link').forEach((btn) => {
     const original = btn.textContent;
     btn.addEventListener('click', async () => {
       const url = btn.getAttribute('data-copy-url') || window.location.href;
-      let ok = false;
-      try {
-        if (navigator.clipboard?.writeText) {
-          await navigator.clipboard.writeText(url);
-          ok = true;
-        }
-      } catch (_) {
-        /* fall through */
-      }
-      if (!ok) {
-        const ta = document.createElement('textarea');
-        ta.value = url;
-        ta.setAttribute('readonly', '');
-        ta.style.position = 'fixed';
-        ta.style.left = '-9999px';
-        document.body.appendChild(ta);
-        ta.select();
-        try {
-          ok = document.execCommand('copy');
-        } catch (_) {
-          ok = false;
-        }
-        document.body.removeChild(ta);
-      }
+      const ok = await copyText(url);
       btn.textContent = ok ? 'Link copied' : 'Copy failed';
       setTimeout(() => {
         btn.textContent = original;
       }, 2000);
+    });
+  });
+
+  document.querySelectorAll('.share-menu').forEach((menu) => {
+    const toggle = menu.querySelector('.share-menu__toggle');
+    const panel = menu.querySelector('.share-menu__panel');
+    if (!toggle || !panel) return;
+
+    const pageUrl = menu.getAttribute('data-share-url') || window.location.href;
+    const pageTitle = menu.getAttribute('data-share-title') || document.title;
+    const reportUrl = pageUrl.includes('#')
+      ? pageUrl.replace(/#.*$/, '') + '#report-section'
+      : pageUrl + '#report-section';
+
+    const close = () => {
+      panel.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+    };
+
+    const open = () => {
+      panel.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+    };
+
+    toggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (panel.hidden) open();
+      else close();
+    });
+
+    panel.querySelectorAll('[data-share-action]').forEach((item) => {
+      item.addEventListener('click', async (e) => {
+        e.stopPropagation();
+        const action = item.getAttribute('data-share-action');
+        const original = item.textContent;
+        let ok = false;
+        let msg = original;
+
+        if (action === 'copy-link') {
+          ok = await copyText(pageUrl);
+          msg = ok ? 'Link copied' : 'Copy failed';
+        } else if (action === 'copy-report') {
+          ok = await copyText(reportUrl);
+          msg = ok ? 'Report link copied' : 'Copy failed';
+        } else if (action === 'copy-title') {
+          ok = await copyText(`${pageTitle}\n${pageUrl}`);
+          msg = ok ? 'Copied title + URL' : 'Copy failed';
+        } else if (action === 'native-share') {
+          if (navigator.share) {
+            try {
+              await navigator.share({ title: pageTitle, url: pageUrl });
+              ok = true;
+              msg = 'Shared';
+            } catch (_) {
+              ok = false;
+              msg = original;
+            }
+          } else {
+            ok = await copyText(pageUrl);
+            msg = ok ? 'Link copied' : 'Share unavailable';
+          }
+        }
+
+        item.textContent = msg;
+        setTimeout(() => {
+          item.textContent = original;
+          if (ok) close();
+        }, 1600);
+      });
+    });
+
+    // Hide native share when unavailable (desktop without Web Share)
+    const nativeBtn = panel.querySelector('[data-share-action="native-share"]');
+    if (nativeBtn && !navigator.share) {
+      nativeBtn.hidden = true;
+    }
+
+    document.addEventListener('click', (e) => {
+      if (!menu.contains(e.target)) close();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') close();
     });
   });
 }
