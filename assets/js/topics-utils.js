@@ -969,66 +969,112 @@ const TopicUtils = {
   },
 
   /**
-   * Turn "Key Terminology" bullet lists into definition cards.
+   * Turn definition-style bullet lists into term cards.
+   * Matches Key Terminology, Key Reminders, Guidance lists, etc.
    * Expects <li><strong>Term</strong> — definition</li> (em/en dash or colon).
-   * No-ops if section missing or parsing yields no cards.
+   * Safe to call multiple times; skips already-converted grids.
    */
   enhanceTerminologyCards(reportContainer) {
-    if (!reportContainer || reportContainer.querySelector('.term-card-grid')) return;
+    if (!reportContainer) return;
 
-    const headings = reportContainer.querySelectorAll('h2');
-    let termHeading = null;
-    headings.forEach((h) => {
-      if (/key\s+terminology/i.test(h.textContent || '')) termHeading = h;
-    });
-    if (!termHeading) return;
-
-    let list = termHeading.nextElementSibling;
-    while (list && list.tagName !== 'UL' && list.tagName !== 'OL') {
-      if (/^H[1-6]$/.test(list.tagName)) return;
-      list = list.nextElementSibling;
-    }
-    if (!list) return;
-
-    const cards = [];
-    list.querySelectorAll(':scope > li').forEach((li) => {
-      const strong = li.querySelector('strong');
-      if (!strong) return;
-      const term = (strong.textContent || '').trim();
-      if (!term) return;
-
-      let defHtml = '';
-      const fullHtml = li.innerHTML;
-      const strongHtml = strong.outerHTML;
-      const afterStrong = fullHtml.slice(fullHtml.indexOf(strongHtml) + strongHtml.length);
-      defHtml = afterStrong
-        .replace(/^(\s|&nbsp;|&#160;)*[-–—:·•]+\s*/i, '')
-        .replace(/^(\s|&nbsp;|&#160;)*/i, '')
-        .trim();
-      if (!defHtml) {
-        const text = (li.textContent || '').trim();
-        const stripped = text.replace(term, '').replace(/^[\s\-–—:·•]+/, '').trim();
-        defHtml = this.escapeHtml(stripped);
+    const headings = reportContainer.querySelectorAll('h2, h3');
+    headings.forEach((heading) => {
+      let list = heading.nextElementSibling;
+      while (list && list.tagName !== 'UL' && list.tagName !== 'OL') {
+        if (/^H[1-6]$/.test(list.tagName)) return;
+        // skip empty text nodes / whitespace-only
+        if (list.nodeType === 1 && list.classList?.contains('term-card-grid')) return;
+        list = list.nextElementSibling;
       }
-      if (!defHtml) return;
-      cards.push({ term, defHtml });
-    });
+      if (!list || list.closest('.term-card-grid')) return;
 
-    if (!cards.length) return;
+      const items = [...list.querySelectorAll(':scope > li')];
+      if (!items.length) return;
+      const withStrong = items.filter((li) => li.querySelector('strong'));
+      // Only promote lists that are mostly term/definition rows
+      if (withStrong.length < 2 || withStrong.length < items.length * 0.5) return;
 
-    const grid = document.createElement('div');
-    grid.className = 'term-card-grid';
-    grid.setAttribute('role', 'list');
-    grid.innerHTML = cards
-      .map(
-        (c) => `
+      const cards = [];
+      items.forEach((li) => {
+        const strong = li.querySelector('strong');
+        if (!strong) return;
+        const term = (strong.textContent || '').trim().replace(/[:：]\s*$/, '');
+        if (!term) return;
+
+        let defHtml = '';
+        const fullHtml = li.innerHTML;
+        const strongHtml = strong.outerHTML;
+        const afterStrong = fullHtml.slice(fullHtml.indexOf(strongHtml) + strongHtml.length);
+        defHtml = afterStrong
+          .replace(/^(\s|&nbsp;|&#160;)*[-–—:·•]+\s*/i, '')
+          .replace(/^(\s|&nbsp;|&#160;)*/i, '')
+          .trim();
+        if (!defHtml) {
+          const text = (li.textContent || '').trim();
+          const stripped = text.replace(term, '').replace(/^[\s\-–—:·•:]+/, '').trim();
+          defHtml = this.escapeHtml(stripped);
+        }
+        if (!defHtml) return;
+        cards.push({ term, defHtml });
+      });
+
+      if (cards.length < 2) return;
+
+      const grid = document.createElement('div');
+      grid.className = 'term-card-grid';
+      grid.setAttribute('role', 'list');
+      grid.innerHTML = cards
+        .map(
+          (c) => `
       <article class="term-card" role="listitem">
         <h3 class="term-card__term">${this.escapeHtml(c.term)}</h3>
         <div class="term-card__def">${c.defHtml}</div>
       </article>`
-      )
-      .join('');
-    list.replaceWith(grid);
+        )
+        .join('');
+      list.replaceWith(grid);
+    });
+
+    // Promote long blockquotes into insight cards (Essence-style reports)
+    reportContainer.querySelectorAll('blockquote').forEach((bq) => {
+      if (bq.classList.contains('report-insight-card')) return;
+      const text = (bq.textContent || '').trim();
+      if (text.length < 40) return;
+      bq.classList.add('report-insight-card');
+    });
+  },
+
+  /**
+   * Scroll-spy for dive section pills. Uses document position (not IO ratios)
+   * so the last section whose top has crossed the sticky offset wins — fixes
+   * Videos staying active while the Report header is on screen.
+   */
+  bindSectionPillSpy(sectionIds, setActive) {
+    if (!sectionIds?.length || typeof setActive !== 'function') return () => {};
+
+    const getMarkerY = () => {
+      const sticky = document.querySelector('.section-nav-sticky.is-visible');
+      const stickyH = sticky ? sticky.getBoundingClientRect().height : 0;
+      return this.NAVBAR_HEIGHT + stickyH + 28;
+    };
+
+    const update = () => {
+      const marker = getMarkerY();
+      let current = sectionIds[0];
+      for (const id of sectionIds) {
+        const el = document.getElementById(id);
+        if (!el) continue;
+        const top = el.getBoundingClientRect().top;
+        // Section has reached / passed the marker line under the sticky chrome
+        if (top - marker <= 8) current = id;
+      }
+      setActive(current);
+    };
+
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    return update;
   }
 };
 

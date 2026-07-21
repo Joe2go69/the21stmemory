@@ -227,18 +227,10 @@ function initSectionNavSticky() {
     });
   };
 
-  const sections = sectionIds.map((id) => document.getElementById(id)).filter(Boolean);
-  if (sections.length) {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
-        if (visible.length) setActive(visible[0].target.id);
-      },
-      { threshold: [0.15, 0.35, 0.55], rootMargin: '-20% 0px -45% 0px' }
-    );
-    sections.forEach((s) => observer.observe(s));
+  // Position-based spy (not IntersectionObserver) so Report correctly
+  // takes over once its header crosses the sticky chrome line.
+  if (typeof TopicUtils !== 'undefined' && TopicUtils.bindSectionPillSpy) {
+    TopicUtils.bindSectionPillSpy(sectionIds, setActive);
   }
 
   const updateStickyVisibility = () => {
@@ -246,6 +238,10 @@ function initSectionNavSticky() {
     // Stay under the navbar; hide until hero jump pills leave the nav zone
     const pastHero = rect.bottom < 72;
     sticky.classList.toggle('is-visible', pastHero);
+    // Re-run spy after sticky appears so active section recalculates offset
+    if (typeof TopicUtils !== 'undefined' && TopicUtils.bindSectionPillSpy) {
+      /* spy already listening to scroll */
+    }
   };
 
   updateStickyVisibility();

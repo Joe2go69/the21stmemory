@@ -95,24 +95,28 @@ function renderMarkdown(md) {
 }
 
 /**
- * Transform Key Terminology <ul> into definition cards.
- * Leaves original markup if parsing fails.
+ * Transform definition-style lists after h2/h3 into term cards.
+ * Covers Key Terminology, Key Reminders, Guidance lists, etc.
+ * Leaves original markup if parsing fails or list is not term-like.
  */
 function enhanceTerminologyHtml(html) {
-  if (!html || !/key\s+terminology/i.test(html)) return html;
+  if (!html) return html;
 
   return html.replace(
-    /(<h2[^>]*>\s*Key\s+Terminology\s*<\/h2>)\s*<ul>([\s\S]*?)<\/ul>/i,
-    (match, h2, ulInner) => {
+    /(<h[23][^>]*>[\s\S]*?<\/h[23]>)\s*<ul>([\s\S]*?)<\/ul>/gi,
+    (match, heading, ulInner) => {
       const liMatches = [...ulInner.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)];
-      if (!liMatches.length) return match;
+      if (liMatches.length < 2) return match;
 
       const cards = [];
       for (const liMatch of liMatches) {
         const liHtml = liMatch[1];
         const strongMatch = liHtml.match(/<strong[^>]*>([\s\S]*?)<\/strong>/i);
         if (!strongMatch) continue;
-        const term = strongMatch[1].replace(/<[^>]+>/g, '').trim();
+        const term = strongMatch[1]
+          .replace(/<[^>]+>/g, '')
+          .trim()
+          .replace(/[:：]\s*$/, '');
         if (!term) continue;
         let defHtml = liHtml.slice(liHtml.indexOf(strongMatch[0]) + strongMatch[0].length);
         defHtml = defHtml
@@ -125,8 +129,9 @@ function enhanceTerminologyHtml(html) {
         );
       }
 
-      if (!cards.length) return match;
-      return `${h2}\n<div class="term-card-grid" role="list">\n${cards.join('\n')}\n</div>`;
+      // Require majority of items to be term/definition rows
+      if (cards.length < 2 || cards.length < liMatches.length * 0.5) return match;
+      return `${heading}\n<div class="term-card-grid" role="list">\n${cards.join('\n')}\n</div>`;
     }
   );
 }

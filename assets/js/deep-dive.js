@@ -239,18 +239,8 @@ function initDeepDiveSectionNavSticky() {
     });
   };
 
-  const sections = sectionIds.map((id) => document.getElementById(id)).filter(Boolean);
-  if (sections.length) {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
-        if (visible.length) setActive(visible[0].target.id);
-      },
-      { threshold: [0.15, 0.35, 0.55], rootMargin: '-20% 0px -45% 0px' }
-    );
-    sections.forEach((s) => observer.observe(s));
+  if (typeof TopicUtils !== 'undefined' && TopicUtils.bindSectionPillSpy) {
+    TopicUtils.bindSectionPillSpy(sectionIds, setActive);
   }
 
   const updateStickyVisibility = () => {
