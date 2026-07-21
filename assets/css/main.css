@@ -2586,6 +2586,7 @@ textarea:focus-visible {
 
   /* Non-report pieces that live inside #report-section */
   #report-section .section-pill-wrap,
+  #report-section .dive-section-head,
   #report-section .report-study-toolbar,
   #report-section .report-toc,
   #report-section .report-toc-mobile,
@@ -3477,13 +3478,252 @@ textarea:focus-visible {
   letter-spacing: 0.04em;
 }
 
+/* Hero action hierarchy: segments → primary quiz → quiet text links */
+.dive-hero-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.15rem;
+  max-width: 100%;
+}
+
+.dive-hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.15rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+  max-width: 36rem;
+}
+
+.dive-hero-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--text-muted);
+  background: transparent;
+  border: 0;
+  border-radius: 0.35rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.dive-hero-link:hover,
+.dive-hero-link:focus-visible {
+  color: #e8e0ff;
+  outline: none;
+}
+
+.dive-hero-link:focus-visible {
+  box-shadow: 0 0 0 2px rgba(167, 139, 250, 0.45);
+}
+
+.dive-hero-link-sep {
+  color: rgba(184, 176, 212, 0.35);
+  font-size: 0.75rem;
+  user-select: none;
+  padding: 0 0.1rem;
+}
+
+.share-menu--inline {
+  display: inline-flex;
+  position: relative;
+}
+
+.share-menu--inline .share-menu__toggle {
+  font: inherit;
+}
+
 .deep-dive-quiz-cta {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   gap: 0.55rem;
-  max-width: 100%;
+  max-width: min(100%, 28rem);
   min-width: 0;
+  margin: 0;
+}
+
+/* Section headers — same family as segment control (not mixed pill chrome) */
+.dive-section-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.75rem;
+  scroll-margin-top: calc(4.5rem + 3.75rem + env(safe-area-inset-top, 0px));
+}
+
+@media (min-width: 768px) {
+  .dive-section-head {
+    scroll-margin-top: calc(5.35rem + 3.75rem + env(safe-area-inset-top, 0px));
+  }
+}
+
+.dive-section-head__line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(139, 61, 255, 0.12) 30%,
+    rgba(139, 61, 255, 0.35) 50%,
+    rgba(139, 61, 255, 0.12) 70%,
+    transparent 100%
+  );
+}
+
+.dive-section-head__label {
+  flex-shrink: 0;
+  padding: 0.4rem 1.15rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #c4b8e8;
+  border: 1px solid rgba(139, 61, 255, 0.3);
+  border-radius: 9999px;
+  background: #16102a;
+  white-space: nowrap;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+@media (max-width: 639px) {
+  .dive-section-head__label {
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    padding: 0.38rem 0.75rem;
+    white-space: normal;
+    text-align: center;
+    max-width: 70vw;
+  }
+}
+
+/* Media grid — equal frames, less empty void */
+.dive-media-grid {
+  align-items: stretch;
+}
+
+.dive-media-card {
+  min-height: 100%;
+  background: rgba(22, 16, 42, 0.92) !important;
+  border-color: rgba(139, 61, 255, 0.28) !important;
+}
+
+.dive-media-card__scrim,
+.dive-media-card .dive-media-card__scrim {
+  min-height: 260px;
+  background: #0c0818;
+}
+
+@media (min-width: 768px) {
+  .dive-media-card__scrim,
+  .dive-media-card .dive-media-card__scrim {
+    min-height: 380px;
+  }
+}
+
+.dive-media-card .infographic-artifact,
+.dive-media-card .slide-deck-artifact {
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+}
+
+.dive-media-card .infographic-artifact img,
+.dive-media-card .slide-deck-artifact img {
+  object-fit: contain;
+  background: #0c0818;
+}
+
+/* Video cards */
+.dive-video-grid {
+  align-items: stretch;
+}
+
+.dive-video-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: rgba(22, 16, 42, 0.92) !important;
+  border-color: rgba(139, 61, 255, 0.28) !important;
+  transition: border-color 0.2s ease;
+}
+
+.dive-video-card:hover {
+  border-color: rgba(167, 139, 250, 0.4) !important;
+  transform: none !important;
+}
+
+.dive-video-card__frame {
+  flex-shrink: 0;
+  background: #0c0818;
+}
+
+.dive-video-card__title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin: 0.85rem 0 0;
+  line-height: 1.35;
+}
+
+.dive-video-card__desc {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin: 0.4rem 0 0;
+  line-height: 1.5;
+}
+
+/* Report card / study toolbar calm rail */
+.dive-report-card {
+  position: relative;
+}
+
+.report-study-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin: 0 0 1.1rem;
+  padding: 0 0 0.85rem;
+  border-bottom: 1px solid rgba(124, 58, 237, 0.18);
+  background: transparent;
+  border-radius: 0;
+  position: static;
+}
+
+.report-study-btn {
+  min-height: 2rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #b8b0d4;
+  background: rgba(15, 10, 31, 0.65);
+  border: 1px solid rgba(139, 61, 255, 0.28);
+}
+
+.report-study-btn:hover {
+  color: #f0ebff;
+  background: rgba(40, 30, 72, 0.85);
+  border-color: rgba(139, 61, 255, 0.42);
+}
+
+.report-toc-inner {
+  background: rgba(15, 10, 31, 0.55) !important;
+  border: 1px solid rgba(139, 61, 255, 0.22);
+  box-shadow: none;
 }
 
 /* Override global .btn-primary nowrap so long topic titles wrap on mobile */
@@ -3545,36 +3785,79 @@ textarea:focus-visible {
   }
 }
 
-.jump-to-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+/* Dive section jump — professional segmented control (one system for hero + sticky) */
+.dive-jump-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.55rem;
+}
+
+.jump-to-pills,
+.dive-section-seg {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 0;
+  padding: 0.22rem;
+  border-radius: 9999px;
+  background: rgba(15, 10, 31, 0.72);
+  border: 1px solid rgba(139, 61, 255, 0.28);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 6px 18px -12px rgba(0, 0, 0, 0.55);
+  max-width: 100%;
 }
 
 .btn-jump-pill {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.45rem 0.85rem;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.48rem 0.95rem;
   border-radius: 9999px;
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
-  color: var(--text-soft);
-  background: linear-gradient(180deg, rgba(34, 26, 66, 0.85) 0%, rgba(15, 10, 31, 0.75) 100%);
-  border: 1px solid rgba(124, 58, 237, 0.3);
+  color: #b8b0d4;
+  background: transparent;
+  border: 1px solid transparent;
   cursor: pointer;
-  box-shadow: var(--surface-tier-control-sm);
-  transition: all 0.2s ease;
+  box-shadow: none;
+  transform: none;
+  transition: color 0.18s ease, background 0.18s ease, border-color 0.18s ease;
+  white-space: nowrap;
+  min-height: 2.15rem;
 }
 
 .btn-jump-pill:hover {
-  color: var(--text-primary);
-  border-color: rgba(139, 61, 255, 0.45);
-  background: linear-gradient(180deg, rgba(40, 30, 72, 0.9) 0%, rgba(20, 14, 40, 0.85) 100%);
-  box-shadow: var(--surface-tier-control-sm-hover);
-  transform: translateY(-1px);
+  color: #f0ebff;
+  background: rgba(91, 33, 182, 0.22);
+  border-color: transparent;
+  box-shadow: none;
+  transform: none;
+}
+
+/* Active segment — violet (site primary), never gold */
+.btn-jump-pill.is-active,
+.btn-jump-pill.active,
+.jump-to-pills .btn-jump-pill.is-active,
+.jump-to-pills .btn-jump-pill.active,
+.section-nav-sticky .btn-jump-pill.is-active,
+.section-nav-sticky .btn-jump-pill.active {
+  color: #f5f0ff;
+  background: linear-gradient(180deg, rgba(109, 40, 217, 0.72) 0%, rgba(76, 29, 149, 0.78) 100%);
+  border-color: rgba(167, 139, 250, 0.35);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  transform: none;
+}
+
+.btn-jump-pill:focus-visible {
+  outline: 2px solid rgba(167, 139, 250, 0.65);
+  outline-offset: 2px;
 }
 
 /* Infographic artifact frame */
@@ -6500,46 +6783,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   margin-bottom: 0;
 }
 
-/* --- Report study toolbar (print only) --- */
-.report-study-toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 0.5rem;
-  margin: 0 0 1.25rem;
-  padding: 0;
-  background: transparent;
-  border: 0;
-  position: static;
-}
 
-.report-study-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 2.25rem;
-  padding: 0.4rem 0.9rem;
-  border-radius: 0.55rem;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--text-soft);
-  background: rgba(34, 26, 66, 0.75);
-  border: 1px solid rgba(124, 58, 237, 0.3);
-  cursor: pointer;
-  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
-}
-
-.report-study-btn:hover {
-  color: var(--text-primary);
-  border-color: var(--accent-violet-hover);
-  background: rgba(91, 33, 182, 0.4);
-}
-
-.report-study-btn:focus-visible {
-  outline: 2px solid var(--accent-violet-hover);
-  outline-offset: 2px;
-}
 
 /* Dive section anchors — clear navbar + sticky section nav so "Deep dive report"
    and sibling section pills never sit under the floating jump control. */
@@ -6557,9 +6801,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   }
 }
 
-/* --- Sticky whole-page section nav (matches section-pill / archive chrome) ---
-   Must be fully opaque — translucent glass let video/report text bleed through
-   the floating pills while scrolling (looked broken on VIDEOS especially). */
+/* Sticky clone of the same segmented control — solid so page text never bleeds through */
 .section-nav-sticky {
   position: fixed;
   left: 50%;
@@ -6567,20 +6809,13 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   top: calc(4.35rem + env(safe-area-inset-top, 0px));
   z-index: 45; /* below .navbar (50), above page content */
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0.35rem;
   max-width: min(94vw, 28rem);
-  padding: 0.4rem 0.5rem;
-  border-radius: 9999px;
-  /* Solid cosmic surface — no see-through page content */
-  background: #16102a;
-  border: 1px solid rgba(139, 61, 255, 0.32);
-  box-shadow:
-    0 10px 32px -10px rgba(0, 0, 0, 0.72),
-    0 0 0 1px rgba(15, 10, 31, 0.9),
-    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
   isolation: isolate;
   opacity: 0;
   pointer-events: none;
@@ -6599,50 +6834,51 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   transform: translateX(-50%) translateY(0);
 }
 
+/* Subtle fade only — no bounce/lift on sticky appear */
+@media (prefers-reduced-motion: no-preference) {
+  .section-nav-sticky {
+    transition: opacity 0.22s ease;
+  }
+
+  .section-nav-sticky.is-visible {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.section-nav-sticky .dive-section-seg--sticky,
+.dive-section-seg--sticky {
+  background: #16102a;
+  border-color: rgba(139, 61, 255, 0.34);
+  box-shadow:
+    0 12px 36px -12px rgba(0, 0, 0, 0.75),
+    0 0 0 1px rgba(15, 10, 31, 0.95),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
 .section-nav-sticky .btn-jump-pill {
-  padding: 0.32rem 0.7rem;
-  font-size: 0.65rem;
-  letter-spacing: 0.08em;
-  min-height: 1.85rem;
-  min-width: auto;
-  color: #b8b0d4;
-  background: #0f0a1f;
-  border: 1px solid rgba(139, 61, 255, 0.28);
-  box-shadow: none;
-  transform: none;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.66rem;
+  min-height: 1.95rem;
 }
 
-.section-nav-sticky .btn-jump-pill:hover {
-  color: #f0ebff;
-  border-color: rgba(139, 61, 255, 0.48);
-  background: #1f1838;
-  box-shadow: none;
-  transform: none;
+@media (max-width: 639px) {
+  .dive-section-seg {
+    width: 100%;
+  }
+
+  .btn-jump-pill {
+    flex: 1 1 0;
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+    font-size: 0.62rem;
+    letter-spacing: 0.05em;
+  }
 }
 
-/* Active: soft gold edge (report emphasis) on solid fill — still opaque */
-.section-nav-sticky .btn-jump-pill.is-active,
-.section-nav-sticky .btn-jump-pill.active {
-  color: #e8d5b5;
-  border-color: rgba(166, 124, 76, 0.65);
-  background: #241a12;
-  box-shadow: inset 0 0 0 1px rgba(166, 124, 76, 0.2);
-  transform: none;
-}
-
-/* Hero jump pills keep a quieter active state (not gold-on-transparent) */
-.jump-to-pills .btn-jump-pill.is-active,
-.jump-to-pills .btn-jump-pill.active {
-  color: #e8d5b5;
-  border-color: rgba(166, 124, 76, 0.55);
-  background: linear-gradient(180deg, #2a2016 0%, #1a1410 100%);
-  box-shadow: inset 0 0 0 1px rgba(166, 124, 76, 0.15);
-  transform: none;
-}
-
-.section-nav-sticky .btn-jump-pill:hover,
-.jump-to-pills .btn-jump-pill:hover {
-  transform: none;
+@media (prefers-reduced-motion: reduce) {
+  .section-nav-sticky {
+    transition: none;
+  }
 }
 
 /* --- Share menu --- */

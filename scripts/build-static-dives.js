@@ -143,8 +143,8 @@ function renderStudyToolbar() {
 }
 
 function renderShareMenu({ canonical, title }) {
-  return `<div class="share-menu" data-share-url="${escapeAttr(canonical)}" data-share-title="${escapeAttr(title)}">
-    <button type="button" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5 share-menu__toggle" aria-expanded="false" aria-haspopup="true" aria-label="Share this topic">Share</button>
+  return `<div class="share-menu share-menu--inline" data-share-url="${escapeAttr(canonical)}" data-share-title="${escapeAttr(title)}">
+    <button type="button" class="dive-hero-link share-menu__toggle" aria-expanded="false" aria-haspopup="true" aria-label="Share this topic">Share</button>
     <div class="share-menu__panel" role="menu" hidden>
       <button type="button" class="share-menu__item" role="menuitem" data-share-action="copy-link">Copy link</button>
       <button type="button" class="share-menu__item" role="menuitem" data-share-action="copy-report">Copy report link</button>
@@ -152,6 +152,15 @@ function renderShareMenu({ canonical, title }) {
       <button type="button" class="share-menu__item" role="menuitem" data-share-action="native-share">Share…</button>
     </div>
   </div>`;
+}
+
+function renderSectionHeading(label, id) {
+  const idAttr = id ? ` id="${escapeAttr(id)}"` : '';
+  return `<div${idAttr} class="dive-section-head full-bleed-divider mb-8">
+      <div class="dive-section-head__line" aria-hidden="true"></div>
+      <div class="dive-section-head__label">${escapeHtml(label)}</div>
+      <div class="dive-section-head__line" aria-hidden="true"></div>
+    </div>`;
 }
 
 function divePath(sourceId, topicId) {
@@ -258,8 +267,8 @@ function renderJumpPills(flags) {
     );
   }
   if (!pills.length) return '';
-  return `<div class="text-xs tracking-wide text-mem-muted mb-2.5 font-semibold">Jump to</div>
-    <div class="jump-to-pills mb-4" id="jump-to-pills">${pills.join('')}</div>`;
+  return `<div class="dive-jump-label">In this topic</div>
+    <div class="jump-to-pills dive-section-seg mb-4" id="jump-to-pills" role="navigation" aria-label="Topic sections">${pills.join('')}</div>`;
 }
 
 function renderPrevNext({ prev, next, sourceId }) {
@@ -337,10 +346,10 @@ function renderVideos(videos) {
       const title = escapeHtml(video.title || 'Video transmission');
       const embed = escapeAttr(video.embed_url || '');
       const desc = video.description
-        ? `<p class="text-sm text-mem-muted mt-2">${escapeHtml(video.description)}</p>`
+        ? `<p class="dive-video-card__desc">${escapeHtml(video.description)}</p>`
         : '';
-      return `<div class="content-card static-card rounded-3xl p-4">
-        <div class="aspect-[16/10] bg-black rounded-2xl overflow-hidden relative">
+      return `<article class="dive-video-card content-card static-card rounded-3xl p-4">
+        <div class="dive-video-card__frame aspect-[16/10] bg-black rounded-2xl overflow-hidden relative">
           <div class="video-poster-wrap absolute inset-0 flex items-center justify-center bg-mem-inset"
                data-rumble-embed="${embed}"
                data-video-title="${title}"
@@ -349,9 +358,9 @@ function renderVideos(videos) {
             <div class="video-play-btn" aria-hidden="true"><span class="video-play-icon">▶</span></div>
           </div>
         </div>
-        <div class="font-semibold text-lg mt-3">${title}</div>
+        <h3 class="dive-video-card__title">${title}</h3>
         ${desc}
-      </div>`;
+      </article>`;
     })
     .join('\n');
 }
@@ -495,11 +504,11 @@ function buildPage({
                 .map((p) => `<p class="mb-3 last:mb-0">${escapeHtml(p)}</p>`)
                 .join('')}
             </div>
-            <div class="mt-7">
+            <div class="mt-7 dive-hero-actions">
               ${renderJumpPills(flags)}
               ${
                 quizHref
-                  ? `<div class="deep-dive-quiz-cta mb-4">
+                  ? `<div class="deep-dive-quiz-cta">
                 <a href="${escapeAttr(quizHref)}" class="btn-primary deep-dive-quiz-cta__btn">
                   <span>Take the ${escapeHtml(quiz.title || 'Living Truth')} Quiz</span>
                 </a>
@@ -507,12 +516,15 @@ function buildPage({
               </div>`
                   : ''
               }
-              <div class="flex flex-wrap gap-3 pt-1 border-t border-white/10">
-                <a href="${ASSET_BASE}codex.html#codex-pill" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Codex</a>
-                <a href="${ASSET_BASE}topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Topics</a>
-                <a href="${ASSET_BASE}network.html" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">Network</a>
+              <nav class="dive-hero-links" aria-label="Topic links">
+                <a href="${ASSET_BASE}codex.html#codex-pill" class="dive-hero-link">Codex</a>
+                <span class="dive-hero-link-sep" aria-hidden="true">·</span>
+                <a href="${ASSET_BASE}topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="dive-hero-link">Topics</a>
+                <span class="dive-hero-link-sep" aria-hidden="true">·</span>
+                <a href="${ASSET_BASE}network.html" class="dive-hero-link">Network</a>
+                <span class="dive-hero-link-sep" aria-hidden="true">·</span>
                 ${renderShareMenu({ canonical, title })}
-              </div>
+              </nav>
             </div>
           </div>
         </div>
@@ -522,19 +534,15 @@ function buildPage({
     ${
       flags.hasMediaPanel
         ? `
-    <div id="infographics-section" class="section-pill-wrap full-bleed-divider mb-8">
-      <div class="section-pill-line"></div>
-      <div class="section-pill">Infographics & slide decks</div>
-      <div class="section-pill-line"></div>
-    </div>
+    ${renderSectionHeading('Infographics & slide decks', 'infographics-section')}
     <div class="max-w-6xl mx-auto px-6">
-      <div class="grid md:grid-cols-12 gap-8 mb-8">
+      <div class="dive-media-grid grid md:grid-cols-12 gap-6 mb-10">
         ${
           flags.hasInfographic
             ? `<div class="md:col-span-6${flags.hasSlide ? '' : ' md:col-span-12 max-w-3xl mx-auto'}">
-          <div class="media-panel static-card surface-static rounded-card p-4 sm:p-6 h-full flex flex-col">
-            <div class="media-frame surface-media w-full max-w-none flex-1">
-              <div class="media-scrim rounded-card overflow-hidden min-h-[240px] md:min-h-[420px] flex items-center justify-center">
+          <div class="dive-media-card media-panel static-card surface-static rounded-card p-4 sm:p-5 h-full flex flex-col">
+            <div class="dive-media-card__frame media-frame surface-media w-full max-w-none flex-1">
+              <div class="media-scrim rounded-card overflow-hidden dive-media-card__scrim flex items-center justify-center">
                 <div class="infographic-artifact" role="button" tabindex="0" aria-label="Open full size infographic" data-infographic-src="${escapeAttr(infographicSrc)}">
                   <img src="${escapeAttr(infographicSrc)}" alt="${escapeHtml(title)} Infographic" loading="lazy" decoding="async" width="800" height="600">
                   <div class="infographic-artifact-caption">
@@ -551,9 +559,9 @@ function buildPage({
         ${
           flags.hasSlide
             ? `<div class="md:col-span-6${flags.hasInfographic ? '' : ' md:col-span-12 max-w-3xl mx-auto'}">
-          <div class="media-panel static-card surface-static rounded-card p-4 sm:p-6 h-full flex flex-col">
-            <div class="media-frame surface-media w-full max-w-none flex-1 mb-4">
-              <div class="media-scrim rounded-card overflow-hidden min-h-[240px] md:min-h-[420px] flex items-center justify-center">
+          <div class="dive-media-card media-panel static-card surface-static rounded-card p-4 sm:p-5 h-full flex flex-col">
+            <div class="dive-media-card__frame media-frame surface-media w-full max-w-none flex-1 mb-3">
+              <div class="media-scrim rounded-card overflow-hidden dive-media-card__scrim flex items-center justify-center">
                 ${
                   pdfPreview
                     ? `<div class="slide-deck-artifact" role="button" tabindex="0" aria-label="Open slide deck PDF" data-pdf-url="${escapeAttr(topic.slide_deck_pdf_url)}">
@@ -584,13 +592,9 @@ function buildPage({
       flags.hasVideos
         ? `
     <div id="videos-section" class="mb-8">
-      <div class="section-pill-wrap full-bleed-divider mb-8">
-        <div class="section-pill-line"></div>
-        <div class="section-pill">Video transmissions</div>
-        <div class="section-pill-line"></div>
-      </div>
+      ${renderSectionHeading('Video transmissions')}
       <div class="max-w-6xl mx-auto px-6">
-        <div id="videos-container" class="grid gap-6 ${
+        <div id="videos-container" class="dive-video-grid grid gap-6 ${
           topic.rumble_videos.length === 1
             ? 'grid-cols-1 max-w-2xl mx-auto'
             : topic.rumble_videos.length === 2
@@ -608,13 +612,9 @@ function buildPage({
       flags.hasReport
         ? `
     <div id="report-section" class="mb-8">
-      <div class="section-pill-wrap full-bleed-divider mb-8">
-        <div class="section-pill-line"></div>
-        <div class="section-pill">Deep dive report</div>
-        <div class="section-pill-line"></div>
-      </div>
+      ${renderSectionHeading('Deep dive report')}
       <div class="max-w-6xl mx-auto px-6">
-        <div class="content-card static-card lesson-content-card rounded-3xl p-8 md:p-12 lg:p-16">
+        <div class="content-card static-card lesson-content-card dive-report-card rounded-3xl p-8 md:p-12 lg:p-16">
           ${renderStudyToolbar()}
           <div id="report-toc-mobile" class="report-toc-mobile" hidden></div>
           <div class="report-layout">

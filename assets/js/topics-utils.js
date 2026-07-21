@@ -1046,8 +1046,9 @@ const TopicUtils = {
 
   /**
    * Scroll-spy for dive section pills. Uses document position (not IO ratios)
-   * so the last section whose top has crossed the sticky offset wins — fixes
-   * Videos staying active while the Report header is on screen.
+   * so the last section whose top has crossed the sticky offset wins.
+   * While the hero is still in view, no segment is active (avoids Infographics
+   * lighting up gold/violet on first paint before the reader has scrolled).
    */
   bindSectionPillSpy(sectionIds, setActive) {
     if (!sectionIds?.length || typeof setActive !== 'function') return () => {};
@@ -1059,15 +1060,25 @@ const TopicUtils = {
     };
 
     const update = () => {
+      const heroPills = document.getElementById('jump-to-pills');
+      // Still reading the hero — keep segments neutral
+      if (heroPills) {
+        const heroBottom = heroPills.getBoundingClientRect().bottom;
+        if (heroBottom > this.NAVBAR_HEIGHT + 24) {
+          setActive(null);
+          return;
+        }
+      }
+
       const marker = getMarkerY();
-      let current = sectionIds[0];
+      let current = null;
       for (const id of sectionIds) {
         const el = document.getElementById(id);
         if (!el) continue;
         const top = el.getBoundingClientRect().top;
-        // Section has reached / passed the marker line under the sticky chrome
         if (top - marker <= 8) current = id;
       }
+      // If nothing has crossed yet (rare after hero), leave clear
       setActive(current);
     };
 

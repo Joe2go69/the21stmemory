@@ -216,13 +216,13 @@ function initDeepDiveSectionNavSticky() {
 
   const sticky = document.createElement('div');
   sticky.className = 'section-nav-sticky';
-  sticky.setAttribute('aria-label', 'Page sections');
-  sticky.innerHTML = sectionIds
+  sticky.setAttribute('aria-label', 'Topic sections');
+  sticky.innerHTML = `<div class="dive-section-seg dive-section-seg--sticky">${sectionIds
     .map((id) => {
       const label = heroPills.querySelector(`[data-jump-section="${id}"]`)?.textContent?.trim() || id;
       return `<button type="button" data-jump-section="${id}" class="btn-jump-pill">${escapeHtml(label)}</button>`;
     })
-    .join('');
+    .join('')}</div>`;
   document.body.appendChild(sticky);
 
   sticky.querySelectorAll('[data-jump-section]').forEach((pill) => {
@@ -233,9 +233,11 @@ function initDeepDiveSectionNavSticky() {
     document.querySelectorAll('#jump-to-pills [data-jump-section], .section-nav-sticky [data-jump-section]');
   const setActive = (activeId) => {
     allPills().forEach((pill) => {
-      const on = pill.getAttribute('data-jump-section') === activeId;
+      const on = !!activeId && pill.getAttribute('data-jump-section') === activeId;
       pill.classList.toggle('is-active', on);
       pill.classList.toggle('active', on);
+      if (on) pill.setAttribute('aria-current', 'true');
+      else pill.removeAttribute('aria-current');
     });
   };
 
@@ -313,26 +315,20 @@ function renderJumpPills(flags) {
   const pills = [];
   if (flags.hasMediaPanel) {
     pills.push(`
-      <button type="button" data-jump-section="infographics-section" class="btn-jump-pill" aria-label="Scroll to infographics and slide decks section">
-        ${typeof renderSiteIcon === 'function' ? renderSiteIcon('chart', 'card-icon-sm') : ''} Infographics
-      </button>`);
+      <button type="button" data-jump-section="infographics-section" class="btn-jump-pill" aria-label="Scroll to infographics and slide decks section">Infographics</button>`);
   }
   if (flags.hasVideos) {
     pills.push(`
-      <button type="button" data-jump-section="videos-section" class="btn-jump-pill" aria-label="Scroll to video transmissions section">
-        ${typeof renderSiteIcon === 'function' ? renderSiteIcon('video', 'card-icon-sm') : ''} Videos
-      </button>`);
+      <button type="button" data-jump-section="videos-section" class="btn-jump-pill" aria-label="Scroll to video transmissions section">Videos</button>`);
   }
   if (flags.hasReport) {
     pills.push(`
-      <button type="button" data-jump-section="report-section" class="btn-jump-pill" aria-label="Scroll to deep dive report section">
-        ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} Report
-      </button>`);
+      <button type="button" data-jump-section="report-section" class="btn-jump-pill" aria-label="Scroll to deep dive report section">Report</button>`);
   }
   if (!pills.length) return '';
   return `
-    <div class="text-xs tracking-wide text-mem-muted mb-2.5 font-semibold">Jump to</div>
-    <div class="jump-to-pills mb-4" id="jump-to-pills">
+    <div class="dive-jump-label">In this topic</div>
+    <div class="jump-to-pills dive-section-seg mb-4" id="jump-to-pills" role="navigation" aria-label="Topic sections">
       ${pills.join('')}
     </div>`;
 }
@@ -365,27 +361,29 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId, mediaFlag
         <div class="text-[17px] text-mem-secondary max-w-[52ch] leading-relaxed">
           ${(topic.description || '').split('\n\n').map((p) => `<p class="mb-3 last:mb-0">${escapeHtml(p)}</p>`).join('')}
         </div>
-        <div class="mt-7">
+        <div class="mt-7 dive-hero-actions">
           ${renderJumpPills(flags)}
           ${topic.quiz?.href ? `
-          <div class="deep-dive-quiz-cta mb-4">
+          <div class="deep-dive-quiz-cta">
             <a href="${escapeAttr(topic.quiz.href)}" class="btn-primary deep-dive-quiz-cta__btn">
-              ${typeof renderSiteIcon === 'function' ? renderSiteIcon('sparkles', 'card-icon-sm') : ''}
               <span>Take the ${escapeHtml(topic.quiz.title || 'Living Truth')} Quiz</span>
             </a>
             ${topic.quiz.description ? `<p class="deep-dive-quiz-cta__desc">${escapeHtml(topic.quiz.description)}</p>` : ''}
           </div>
           ` : ''}
-          <div class="flex flex-wrap gap-3 pt-1 border-t border-white/10">
-            <a href="codex.html#codex-pill" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Codex</a>
+          <nav class="dive-hero-links" aria-label="Topic links">
+            <a href="codex.html#codex-pill" class="dive-hero-link">Codex</a>
+            <span class="dive-hero-link-sep" aria-hidden="true">·</span>
             <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics"
-               class="btn-topic-nav inline-flex items-center justify-center text-sm px-5"
+               class="dive-hero-link"
                data-back-to-topics
                data-source-id="${escapeAttr(sourceId)}"
-               data-topic-id="${escapeAttr(topic.id)}">← Back to Topics</a>
-            <a href="network.html" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">Network</a>
-            <div class="share-menu" data-share-url="${escapeAttr(`${window.location.origin}${TopicUtils.divePath(sourceId, topic.id)}`)}" data-share-title="${escapeAttr(topic.title)}">
-              <button type="button" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5 share-menu__toggle" aria-expanded="false" aria-haspopup="true" aria-label="Share this topic">Share</button>
+               data-topic-id="${escapeAttr(topic.id)}">Topics</a>
+            <span class="dive-hero-link-sep" aria-hidden="true">·</span>
+            <a href="network.html" class="dive-hero-link">Network</a>
+            <span class="dive-hero-link-sep" aria-hidden="true">·</span>
+            <div class="share-menu share-menu--inline" data-share-url="${escapeAttr(`${window.location.origin}${TopicUtils.divePath(sourceId, topic.id)}`)}" data-share-title="${escapeAttr(topic.title)}">
+              <button type="button" class="dive-hero-link share-menu__toggle" aria-expanded="false" aria-haspopup="true" aria-label="Share this topic">Share</button>
               <div class="share-menu__panel" role="menu" hidden>
                 <button type="button" class="share-menu__item" role="menuitem" data-share-action="copy-link">Copy link</button>
                 <button type="button" class="share-menu__item" role="menuitem" data-share-action="copy-report">Copy report link</button>
@@ -393,7 +391,7 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId, mediaFlag
                 <button type="button" class="share-menu__item" role="menuitem" data-share-action="native-share">Share…</button>
               </div>
             </div>
-          </div>
+          </nav>
         </div>
       </div>
     </div>

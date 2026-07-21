@@ -192,17 +192,17 @@ function initSectionNavSticky() {
 
   if (!sectionIds.length) return;
 
-  // Sticky clone that appears after hero jumps out of view
+  // Sticky segmented control (same language as hero jump pills)
   const sticky = document.createElement('div');
   sticky.className = 'section-nav-sticky';
-  sticky.setAttribute('aria-label', 'Page sections');
-  sticky.innerHTML = sectionIds
+  sticky.setAttribute('aria-label', 'Topic sections');
+  sticky.innerHTML = `<div class="dive-section-seg dive-section-seg--sticky">${sectionIds
     .map((id) => {
       const label =
         heroPills.querySelector(`[data-jump-section="${id}"]`)?.textContent?.trim() || id;
       return `<button type="button" data-jump-section="${id}" class="btn-jump-pill">${label}</button>`;
     })
-    .join('');
+    .join('')}</div>`;
   document.body.appendChild(sticky);
 
   sticky.querySelectorAll('[data-jump-section]').forEach((pill) => {
@@ -221,9 +221,11 @@ function initSectionNavSticky() {
 
   const setActive = (activeId) => {
     allPills().forEach((pill) => {
-      const on = pill.getAttribute('data-jump-section') === activeId;
+      const on = !!activeId && pill.getAttribute('data-jump-section') === activeId;
       pill.classList.toggle('is-active', on);
       pill.classList.toggle('active', on);
+      if (on) pill.setAttribute('aria-current', 'true');
+      else pill.removeAttribute('aria-current');
     });
   };
 
