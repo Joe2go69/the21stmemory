@@ -3575,12 +3575,12 @@ textarea:focus-visible {
   gap: 1rem;
   justify-content: center;
   margin-bottom: 1.75rem;
-  scroll-margin-top: calc(4.5rem + 3.75rem + env(safe-area-inset-top, 0px));
+  scroll-margin-top: calc(5rem + 3.25rem + 0.5rem + env(safe-area-inset-top, 0px));
 }
 
 @media (min-width: 768px) {
   .dive-section-head {
-    scroll-margin-top: calc(5.35rem + 3.75rem + env(safe-area-inset-top, 0px));
+    scroll-margin-top: calc(5rem + 3.25rem + 0.65rem + env(safe-area-inset-top, 0px));
   }
 }
 
@@ -3818,8 +3818,8 @@ textarea:focus-visible {
   display: inline-flex;
   flex-wrap: nowrap;
   align-items: stretch;
-  gap: 0;
-  padding: 0.22rem;
+  gap: 0.12rem;
+  padding: 0.28rem;
   border-radius: 9999px;
   background: rgba(15, 10, 31, 0.72);
   border: 1px solid rgba(139, 61, 255, 0.28);
@@ -3828,8 +3828,8 @@ textarea:focus-visible {
     0 6px 18px -12px rgba(0, 0, 0, 0.55);
   max-width: 100%;
   box-sizing: border-box;
-  /* Keep active pill edges/shadows inside rounded track on narrow screens */
-  overflow: hidden;
+  /* visible so active pill radius isn't clipped; track still contains layout */
+  overflow: visible;
 }
 
 .btn-jump-pill {
@@ -3855,6 +3855,7 @@ textarea:focus-visible {
   min-width: 0;
   flex: 1 1 auto;
   box-sizing: border-box;
+  line-height: 1.15;
 }
 
 .btn-jump-pill:hover {
@@ -6860,35 +6861,36 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 
 
 
-/* Dive section anchors — clear navbar + sticky section nav so "Deep dive report"
-   and sibling section pills never sit under the floating jump control. */
+/* Dive section anchors — clear navbar (5rem) + sticky section nav + gap */
 #infographics-section,
 #videos-section,
 #report-section {
-  scroll-margin-top: calc(4.5rem + 3.75rem + env(safe-area-inset-top, 0px));
+  scroll-margin-top: calc(5rem + 3.25rem + 0.5rem + env(safe-area-inset-top, 0px));
 }
 
 @media (min-width: 768px) {
   #infographics-section,
   #videos-section,
   #report-section {
-    scroll-margin-top: calc(5.35rem + 3.75rem + env(safe-area-inset-top, 0px));
+    scroll-margin-top: calc(5rem + 3.25rem + 0.65rem + env(safe-area-inset-top, 0px));
   }
 }
 
-/* Sticky clone of the same segmented control — solid so page text never bleeds through */
+/* Sticky clone of the same segmented control — solid so page text never bleeds through.
+   Must sit fully BELOW .navbar: nav-content is 5rem + safe-area padding-top. */
 .section-nav-sticky {
   position: fixed;
   left: 50%;
   transform: translateX(-50%) translateY(-120%);
-  top: calc(4.35rem + env(safe-area-inset-top, 0px));
+  /* navbar height (5rem) + safe-area + small gap so pills aren't clipped */
+  top: calc(5rem + 0.4rem + env(safe-area-inset-top, 0px));
   z-index: 45; /* below .navbar (50), above page content */
   display: flex;
   justify-content: center;
   align-items: center;
   /* Leave side gutters so edges aren't clipped by viewport / overflow-x:hidden */
-  width: min(calc(100vw - 1.25rem - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)), 28rem);
-  max-width: min(calc(100vw - 1.25rem - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)), 28rem);
+  width: min(calc(100vw - 1.5rem - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)), 28rem);
+  max-width: min(calc(100vw - 1.5rem - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)), 28rem);
   padding: 0;
   background: transparent;
   border: 0;
@@ -6902,7 +6904,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 
 @media (min-width: 768px) {
   .section-nav-sticky {
-    top: calc(5.15rem + env(safe-area-inset-top, 0px));
+    top: calc(5rem + 0.5rem + env(safe-area-inset-top, 0px));
   }
 }
 
@@ -6936,10 +6938,10 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 }
 
 .section-nav-sticky .btn-jump-pill {
-  padding: 0.4rem 0.75rem;
-  font-size: 0.66rem;
-  min-height: 1.95rem;
-  letter-spacing: 0.05em;
+  padding: 0.45rem 0.7rem;
+  font-size: 0.64rem;
+  min-height: 2.15rem;
+  letter-spacing: 0.04em;
 }
 
 @media (max-width: 639px) {
@@ -6947,22 +6949,27 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   .jump-to-pills {
     width: 100%;
     max-width: 100%;
+    padding: 0.3rem;
+    gap: 0.1rem;
   }
 
   .btn-jump-pill {
     flex: 1 1 0;
-    padding-left: 0.4rem;
-    padding-right: 0.4rem;
-    font-size: 0.6rem;
-    letter-spacing: 0.03em;
-    min-height: 2.5rem; /* touch target without overflowing the track */
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+    padding-top: 0.42rem;
+    padding-bottom: 0.42rem;
+    font-size: 0.58rem;
+    letter-spacing: 0.02em;
+    min-height: 2.35rem;
+    line-height: 1.1;
   }
 
   .section-nav-sticky .btn-jump-pill {
-    min-height: 2.25rem;
-    padding-left: 0.35rem;
-    padding-right: 0.35rem;
-    font-size: 0.58rem;
+    min-height: 2.2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    font-size: 0.56rem;
     letter-spacing: 0.02em;
   }
 }
