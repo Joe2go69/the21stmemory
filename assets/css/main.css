@@ -2022,17 +2022,31 @@ header.hero-gradient h1 {
   }
 }
 
-/* Mobile optimizations — wider effective reading area, reduced padding to fix cramped 3-4 word lines, touch-friendly sizing */
+/* Mobile report polish — one horizontal gutter (outer wrap), no double padding on body text */
 @media (max-width: 767px) {
-  #report-section .content-card {
-    padding: 1.5rem 1.25rem !important;
+  #report-section > .max-w-6xl {
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
   }
+
+  #report-section .content-card:not(.dive-continue),
+  #report-section .dive-report-card {
+    padding: 1.15rem 1rem !important;
+    border-radius: 1.15rem;
+  }
+
+  #report-section .content-card::after {
+    border-radius: 1.15rem;
+  }
+
   #report-container {
-    font-size: 1.15rem;
-    line-height: 1.85;
+    font-size: 1.05rem;
+    line-height: 1.72;
     max-width: 100%;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 }
 
@@ -2548,7 +2562,10 @@ textarea:focus-visible {
 
 /* =============================================
    PRINT / PDF — REPORT ONLY
-   Only the deep-dive report body prints (no hero, media, videos, chrome).
+   Only the deep-dive report body prints (no hero, media, videos,
+   "Continue learning", prev/next, footer, or page chrome).
+   Uses display:none (not visibility:hidden) so hidden blocks
+   take no page space and the PDF ends when the report ends.
    ============================================= */
 @media print {
   @page {
@@ -2560,58 +2577,58 @@ textarea:focus-visible {
     background: #ffffff !important;
     color: #111111 !important;
     height: auto !important;
+    min-height: 0 !important;
     overflow: visible !important;
-  }
-
-  /* Hide the full page chrome, then reveal only the report */
-  body * {
-    visibility: hidden !important;
-  }
-
-  #report-section,
-  #report-section * {
-    visibility: visible !important;
-  }
-
-  #report-section {
-    position: absolute !important;
-    left: 0 !important;
-    top: 0 !important;
-    width: 100% !important;
-    max-width: none !important;
-    margin: 0 !important;
     padding: 0 !important;
-    background: #ffffff !important;
+    margin: 0 !important;
   }
 
-  /* Non-report pieces that live inside #report-section */
-  #report-section .section-pill-wrap,
-  #report-section .dive-section-head,
-  #report-section .report-study-toolbar,
-  #report-section .report-toc,
-  #report-section .report-toc-mobile,
-  #report-section .topic-prev-next,
-  #report-section .dive-continue,
-  #report-section .report-toc-inner {
-    display: none !important;
-    visibility: hidden !important;
-  }
-
+  /* Drop all page chrome / non-report siblings from the layout */
+  body > *:not(main),
+  main > *:not(#report-section),
   .section-nav-sticky,
   .reading-progress,
   .navbar,
   .mobile-menu,
   .site-footer,
   #infographic-modal,
-  .skip-link {
+  .skip-link,
+  #back-to-top {
     display: none !important;
-    visibility: hidden !important;
+  }
+
+  main,
+  #report-section {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+    min-height: 0 !important;
+  }
+
+  /* Chrome that lives inside #report-section (must beat .content-card rules below) */
+  #report-section .section-pill-wrap,
+  #report-section .dive-section-head,
+  #report-section .report-study-toolbar,
+  #report-section .report-toc,
+  #report-section .report-toc-mobile,
+  #report-section .report-toc-inner,
+  #report-section .topic-prev-next,
+  #report-section .dive-continue,
+  #report-section aside.dive-continue,
+  #report-section .dive-continue.content-card,
+  #report-section .dive-continue * {
+    display: none !important;
   }
 
   #report-section .max-w-6xl,
-  #report-section .content-card,
+  #report-section .content-card:not(.dive-continue),
   #report-section .report-layout,
-  #report-section .report-main {
+  #report-section .report-main,
+  #report-section .dive-report-card {
     display: block !important;
     max-width: none !important;
     width: 100% !important;
@@ -2647,6 +2664,7 @@ textarea:focus-visible {
     color: #000000 !important;
     text-shadow: none !important;
     page-break-after: avoid;
+    break-after: avoid;
   }
 
   #report-container h1 {
@@ -3809,6 +3827,9 @@ textarea:focus-visible {
     inset 0 1px 0 rgba(255, 255, 255, 0.04),
     0 6px 18px -12px rgba(0, 0, 0, 0.55);
   max-width: 100%;
+  box-sizing: border-box;
+  /* Keep active pill edges/shadows inside rounded track on narrow screens */
+  overflow: hidden;
 }
 
 .btn-jump-pill {
@@ -3831,6 +3852,9 @@ textarea:focus-visible {
   transition: color 0.18s ease, background 0.18s ease, border-color 0.18s ease;
   white-space: nowrap;
   min-height: 2.15rem;
+  min-width: 0;
+  flex: 1 1 auto;
+  box-sizing: border-box;
 }
 
 .btn-jump-pill:hover {
@@ -5053,12 +5077,14 @@ textarea:focus-visible {
     margin-top: 0.25rem;
   }
 
-  .btn-jump-pill,
   .topic-control-btn {
     min-height: 44px;
     padding-top: 0.55rem;
     padding-bottom: 0.55rem;
   }
+
+  /* Jump pills keep their own mobile sizing (see max-width 639 block near sticky nav)
+     so a 44px min-height does not vertically clip labels inside the pill track. */
 
 }
 
@@ -6071,6 +6097,8 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   font-size: 1.85rem !important;
   margin-top: 0;
   margin-bottom: 1rem;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
 }
 
 #report-container h2,
@@ -6078,6 +6106,8 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   font-size: 1.35rem !important;
   margin-top: 1.75rem;
   margin-bottom: 0.65rem;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
 }
 
 #report-container h3,
@@ -6085,6 +6115,8 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   font-size: 1.15rem !important;
   margin-top: 1.35rem;
   margin-bottom: 0.5rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 #report-container p,
@@ -6098,11 +6130,54 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   color: var(--text-prose);
 }
 
-/* Touch targets */
+/* Nested markdown list paragraphs — avoid huge gaps between bullets */
+#report-container li > p {
+  margin-bottom: 0.45rem;
+}
+
+#report-container li > p:last-child {
+  margin-bottom: 0;
+}
+
+#report-container li {
+  margin-bottom: 0.65rem;
+}
+
+#report-container li:last-child {
+  margin-bottom: 0;
+}
+
+#report-container pre {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: pre-wrap;
+  word-break: break-word;
+  padding: 0.75rem 0.9rem;
+  font-size: 0.9em;
+}
+
+#report-container code {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+#report-container pre code {
+  white-space: inherit;
+  word-break: inherit;
+}
+
+#report-container table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92em;
+}
+
+/* Touch targets (jump pills size themselves via .btn-jump-pill rules) */
 .topic-control-btn,
 .network-filter-btn,
-.quiz-hub-filters .topic-control-btn,
-.btn-jump-pill {
+.quiz-hub-filters .topic-control-btn {
   min-height: 44px;
   min-width: 44px;
 }
@@ -6811,7 +6886,9 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: min(94vw, 28rem);
+  /* Leave side gutters so edges aren't clipped by viewport / overflow-x:hidden */
+  width: min(calc(100vw - 1.25rem - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)), 28rem);
+  max-width: min(calc(100vw - 1.25rem - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)), 28rem);
   padding: 0;
   background: transparent;
   border: 0;
@@ -6820,6 +6897,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
+  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
@@ -6847,6 +6925,8 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 
 .section-nav-sticky .dive-section-seg--sticky,
 .dive-section-seg--sticky {
+  width: 100%;
+  max-width: 100%;
   background: #16102a;
   border-color: rgba(139, 61, 255, 0.34);
   box-shadow:
@@ -6856,22 +6936,34 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 }
 
 .section-nav-sticky .btn-jump-pill {
-  padding: 0.4rem 0.85rem;
+  padding: 0.4rem 0.75rem;
   font-size: 0.66rem;
   min-height: 1.95rem;
+  letter-spacing: 0.05em;
 }
 
 @media (max-width: 639px) {
-  .dive-section-seg {
+  .dive-section-seg,
+  .jump-to-pills {
     width: 100%;
+    max-width: 100%;
   }
 
   .btn-jump-pill {
     flex: 1 1 0;
-    padding-left: 0.55rem;
-    padding-right: 0.55rem;
-    font-size: 0.62rem;
-    letter-spacing: 0.05em;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.03em;
+    min-height: 2.5rem; /* touch target without overflowing the track */
+  }
+
+  .section-nav-sticky .btn-jump-pill {
+    min-height: 2.25rem;
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+    font-size: 0.58rem;
+    letter-spacing: 0.02em;
   }
 }
 
@@ -6931,7 +7023,211 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   z-index: 2;
 }
 
+/* =============================================
+   DIVE REPORT — MOBILE READING EXPERIENCE
+   Headings, lists, cards, TOC, prev/next, continue
+   ============================================= */
+@media (max-width: 767px) {
+  /* Hierarchy scaled for phone width */
+  #report-container h1,
+  .report-prerendered h1 {
+    font-size: 1.45rem !important;
+    margin-bottom: 0.85rem;
+    padding-bottom: 0.7rem;
+    border-bottom-width: 2px;
+    letter-spacing: -0.02em;
+  }
 
+  #report-container h2,
+  .report-prerendered h2 {
+    font-size: 1.18rem !important;
+    margin-top: 1.5rem;
+    margin-bottom: 0.55rem;
+    padding-left: 0.65rem;
+    border-left-width: 4px;
+  }
+
+  #report-container h3,
+  .report-prerendered h3 {
+    font-size: 1.05rem !important;
+    margin-top: 1.15rem;
+    margin-bottom: 0.4rem;
+  }
+
+  #report-container p,
+  .report-prerendered p {
+    margin-bottom: 1.15rem;
+    line-height: 1.72;
+  }
+
+  #report-container .report-lead,
+  .report-prerendered > p:first-of-type {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  #report-container ul,
+  #report-container ol {
+    margin-bottom: 1.25rem;
+    padding-left: 1.15rem;
+  }
+
+  #report-container ul li::before {
+    left: -0.85rem;
+  }
+
+  #report-container blockquote,
+  #report-container blockquote.report-insight-card,
+  #report-container .report-insight-card {
+    padding: 0.9rem 0.95rem;
+    margin: 1.25rem 0;
+    border-radius: 0.75rem;
+    font-size: 0.98em;
+  }
+
+  #report-container hr {
+    margin: 1.75rem 0;
+  }
+
+  /* Terminology cards — full width, readable, no cramped 2-col on tiny screens */
+  .term-card-grid {
+    gap: 0.7rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .term-card {
+    padding: 0.85rem 0.9rem 0.9rem;
+    border-radius: 0.8rem;
+  }
+
+  #report-container .term-card__term,
+  .term-card__term {
+    font-size: 0.9rem !important;
+    margin-bottom: 0.35rem !important;
+  }
+
+  #report-container .term-card__def,
+  .term-card__def {
+    font-size: 0.92em;
+    line-height: 1.58;
+  }
+
+  /* Study toolbar — easy thumb target, full-width feel */
+  .report-study-toolbar {
+    justify-content: stretch;
+    margin-bottom: 0.85rem;
+    padding-bottom: 0.7rem;
+    gap: 0.45rem;
+  }
+
+  .report-study-btn {
+    flex: 1 1 auto;
+    min-height: 2.5rem;
+    padding: 0.45rem 0.9rem;
+    font-size: 0.78rem;
+    text-align: center;
+  }
+
+  /* Mobile TOC links — larger touch targets */
+  .report-toc-mobile {
+    margin-bottom: 1rem;
+  }
+
+  .report-toc-mobile .report-toc-link {
+    padding: 0.55rem 0.35rem 0.55rem 0.7rem;
+    font-size: 0.86rem;
+    line-height: 1.35;
+    min-height: 2.5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Prev / next topic cards */
+  .topic-prev-next {
+    gap: 0.65rem;
+    margin-top: 1.35rem;
+    padding-top: 1.15rem;
+  }
+
+  .topic-prev-next__link {
+    padding: 0.85rem 0.9rem;
+    border-radius: 12px;
+    min-height: 3.25rem;
+  }
+
+  .topic-prev-next__title {
+    font-size: 0.88rem;
+  }
+
+  /* Continue learning block under report */
+  #report-section .dive-continue {
+    margin-top: 1.25rem;
+    padding: 1.15rem 1rem !important;
+    border-radius: 1.15rem;
+  }
+
+  .dive-continue__title {
+    font-size: 1.15rem;
+  }
+
+  .dive-continue__lead {
+    font-size: 0.92rem;
+    margin-bottom: 0.95rem;
+  }
+
+  .dive-continue__btn {
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    line-height: 1.3;
+  }
+
+  .dive-continue__hint {
+    font-size: 0.82rem;
+  }
+
+  .dive-continue__disclaimer {
+    font-size: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  .dive-continue__updated {
+    white-space: normal;
+  }
+
+  /* Section label above report */
+  #report-section .dive-section-head {
+    margin-bottom: 1.15rem;
+    gap: 0.65rem;
+  }
+}
+
+/* Very small phones — maximize line length a bit more */
+@media (max-width: 379px) {
+  #report-section > .max-w-6xl {
+    padding-left: 0.65rem;
+    padding-right: 0.65rem;
+  }
+
+  #report-section .content-card:not(.dive-continue),
+  #report-section .dive-report-card {
+    padding: 1rem 0.85rem !important;
+  }
+
+  #report-container {
+    font-size: 1.02rem;
+  }
+
+  #report-container h1,
+  .report-prerendered h1 {
+    font-size: 1.32rem !important;
+  }
+
+  #report-container h2,
+  .report-prerendered h2 {
+    font-size: 1.1rem !important;
+  }
+}
 
 @media (prefers-reduced-motion: reduce) {
   .section-nav-sticky {
