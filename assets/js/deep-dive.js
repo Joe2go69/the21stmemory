@@ -296,10 +296,34 @@ const MediaEmpty = {
 
 window.MediaEmpty = MediaEmpty;
 
+function getTopicVideoLanguages(topic) {
+  if (Array.isArray(topic.video_languages) && topic.video_languages.length) {
+    return topic.video_languages.filter((l) => l && Array.isArray(l.videos) && l.videos.length);
+  }
+  return null;
+}
+
+function getDefaultTopicVideos(topic) {
+  const langs = getTopicVideoLanguages(topic);
+  if (langs?.length) {
+    const en = langs.find((l) => l.code === 'en');
+    return (en || langs[0]).videos || [];
+  }
+  return topic.rumble_videos || [];
+}
+
+function diveVideoGridClass(count) {
+  let videoGridClass = 'grid gap-6';
+  if (count === 1) videoGridClass += ' grid-cols-1 max-w-2xl mx-auto';
+  else if (count === 2) videoGridClass += ' md:grid-cols-2 max-w-5xl mx-auto justify-center';
+  else videoGridClass += ' md:grid-cols-2 lg:grid-cols-3';
+  return videoGridClass;
+}
+
 function getTopicMediaFlags(topic) {
   const hasInfographic = !!(topic.infographic_image && String(topic.infographic_image).trim());
   const hasSlide = !!(topic.slide_deck_pdf_url && String(topic.slide_deck_pdf_url).trim() && topic.slide_deck_pdf_url !== '#');
-  const hasVideos = !!(topic.rumble_videos && topic.rumble_videos.length > 0);
+  const hasVideos = getDefaultTopicVideos(topic).length > 0;
   const hasReport = !!(topic.report && String(topic.report).trim());
   return {
     hasInfographic,
@@ -731,18 +755,67 @@ async function loadLessonViewer() {
     // --- Videos ---
     if (flags.hasVideos) {
       setSectionHidden('videos-section', false);
-      const numVideos = topic.rumble_videos.length;
-      let videoGridClass = 'grid gap-6';
-      if (numVideos === 1) videoGridClass += ' grid-cols-1 max-w-2xl mx-auto';
-      else if (numVideos === 2) videoGridClass += ' md:grid-cols-2 max-w-5xl mx-auto justify-center';
-      else videoGridClass += ' md:grid-cols-2 lg:grid-cols-3';
+      const videoLangs = getTopicVideoLanguages(topic);
+      let videos = getDefaultTopicVideos(topic);
+      const sectionWrap = videosContainer.parentElement;
+      const existingBar = sectionWrap?.querySelector('#video-lang-bar');
+      if (existingBar) existingBar.remove();
+      const existingData = sectionWrap?.querySelector('#video-languages-data');
+      if (existingData) existingData.remove();
 
-      videosContainer.className = videoGridClass;
-      videosContainer.innerHTML = topic.rumble_videos
-        .map((video) => RenderUtils.renderLazyRumbleCard(video))
-        .join('');
-      TopicUtils.setupClickToPlayVideos(videosContainer);
-      RenderUtils.setupImageFallbacks(videosContainer, 'img[data-img-fallback]');
+      const renderVideoSet = (list) => {
+        videosContainer.className = diveVideoGridClass(list.length);
+        videosContainer.innerHTML = list
+          .map((video) => RenderUtils.renderLazyRumbleCard(video))
+          .join('');
+        TopicUtils.setupClickToPlayVideos(videosContainer);
+        RenderUtils.setupImageFallbacks(videosContainer, 'img[data-img-fallback]');
+      };
+
+      if (videoLangs && videoLangs.length > 1 && sectionWrap) {
+        const options = videoLangs
+          .map((lang) => {
+            const code = TopicUtils.escapeAttr(lang.code || '');
+            const label = TopicUtils.escapeHtml(lang.native_label || lang.label || lang.code || '');
+            return `<option value="${code}">${label}</option>`;
+          })
+          .join('');
+        const bar = document.createElement('div');
+        bar.className = 'video-lang-bar';
+        bar.id = 'video-lang-bar';
+        bar.innerHTML = `
+          <label class="video-lang-bar__label" for="video-lang-select">Watch in</label>
+          <div class="video-lang-bar__control">
+            <select id="video-lang-select" class="video-lang-select" aria-label="Video language">${options}</select>
+          </div>`;
+        sectionWrap.insertBefore(bar, videosContainer);
+
+        const STORAGE_KEY = '21st-memory-video-lang';
+        const select = bar.querySelector('#video-lang-select');
+        let initial = 'en';
+        try {
+          const stored = localStorage.getItem(STORAGE_KEY);
+          if (stored && videoLangs.some((l) => l.code === stored)) initial = stored;
+          else {
+            const nav = String(navigator.language || '').slice(0, 2).toLowerCase();
+            if (nav && nav !== 'en' && videoLangs.some((l) => l.code === nav)) initial = nav;
+          }
+        } catch { /* ignore */ }
+        if (select) {
+          select.value = initial;
+          const apply = (code) => {
+            const lang = videoLangs.find((l) => l.code === code) || videoLangs[0];
+            renderVideoSet(lang.videos || []);
+            try { localStorage.setItem(STORAGE_KEY, lang.code); } catch { /* ignore */ }
+          };
+          apply(select.value);
+          select.addEventListener('change', () => apply(select.value));
+        } else {
+          renderVideoSet(videos);
+        }
+      } else {
+        renderVideoSet(videos);
+      }
     }
 
     // --- Report ---

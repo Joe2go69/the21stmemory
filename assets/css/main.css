@@ -4958,10 +4958,17 @@ textarea:focus-visible {
   min-width: 0;
 }
 
+.topic-main-root-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.65rem;
+}
+
 .topic-main-root-badge {
   display: inline-flex;
   align-items: center;
-  margin-bottom: 0.65rem;
   padding: 0.28rem 0.75rem;
   border-radius: 9999px;
   font-size: 0.68rem;
@@ -4971,6 +4978,83 @@ textarea:focus-visible {
   color: #FDE68A;
   background: rgba(251, 191, 36, 0.12);
   border: 1px solid rgba(251, 191, 36, 0.22);
+}
+
+/* Sits beside Essence · Start Here on the root card */
+.topic-main-root-lang-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.28rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #c4b5fd;
+  background: rgba(139, 61, 255, 0.16);
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  white-space: nowrap;
+}
+
+/* Video language switcher (Essence multi-language) */
+.video-lang-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem 1rem;
+  margin: 0 0 1.35rem;
+}
+
+.video-lang-bar__label {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted, #a89bc4);
+}
+
+.video-lang-bar__control {
+  position: relative;
+  min-width: min(100%, 16rem);
+}
+
+.video-lang-select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  min-width: 12rem;
+  max-width: 20rem;
+  padding: 0.65rem 2.4rem 0.65rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(139, 61, 255, 0.32);
+  background-color: rgba(22, 16, 42, 0.95);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23a78bfa' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.9rem center;
+  background-size: 0.9rem;
+  color: #f5f0ff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.video-lang-select:hover {
+  border-color: rgba(167, 139, 250, 0.55);
+}
+
+.video-lang-select:focus {
+  outline: none;
+  border-color: rgba(167, 139, 250, 0.75);
+  box-shadow: 0 0 0 3px rgba(139, 61, 255, 0.2);
+}
+
+.video-lang-select option {
+  background: #160f2a;
+  color: #f5f0ff;
 }
 
 .topic-main-root-title {

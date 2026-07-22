@@ -148,6 +148,9 @@ const TopicUtils = {
         is_placeholder: this.isPlaceholder(item)
       };
       if (item.is_main_root) normalized.is_main_root = true;
+      if (item.video_language_count) {
+        normalized.video_language_count = item.video_language_count;
+      }
       if (item.subtopics?.length) {
         normalized.subtopics = this.normalizeTopicsFromIndex(item.subtopics);
       }
@@ -216,6 +219,58 @@ const TopicUtils = {
     };
   },
 
+  /**
+   * Stop every other Rumble player so only one video plays at a time.
+   * Restores poster/play UI for click-to-play wraps; removes orphan iframes.
+   */
+  stopOtherRumbleVideos(exceptEl = null) {
+    const isExcept = (el) => {
+      if (!exceptEl || !el) return false;
+      return el === exceptEl || (typeof exceptEl.contains === 'function' && exceptEl.contains(el))
+        || (typeof el.contains === 'function' && el.contains(exceptEl));
+    };
+
+    document.querySelectorAll('[data-rumble-embed]').forEach((wrap) => {
+      if (isExcept(wrap)) return;
+      const iframe = wrap.querySelector('iframe');
+      if (wrap.dataset.loaded !== 'true' && !iframe) return;
+
+      // Blank first so playback stops even if remove is delayed
+      if (iframe) {
+        try { iframe.src = 'about:blank'; } catch { /* ignore */ }
+      }
+
+      const title = wrap.dataset.videoTitle || '21st Memory video';
+      const hasFacadeLabel = wrap.querySelector('.video-play-label')
+        || wrap.classList.contains('video-facade')
+        || wrap.closest('.video-facade');
+
+      wrap.innerHTML = hasFacadeLabel
+        ? `<div class="video-facade-glow" aria-hidden="true"></div>
+           <div class="video-play-btn" aria-hidden="true">
+             <span class="video-play-icon">▶</span>
+           </div>
+           <span class="video-play-label">Play transmission</span>`
+        : `<div class="video-play-btn" aria-hidden="true">
+             <span class="video-play-icon">▶</span>
+           </div>`;
+
+      wrap.dataset.loaded = 'false';
+      wrap.classList.add('cursor-pointer');
+      wrap.setAttribute('role', 'button');
+      wrap.setAttribute('tabindex', '0');
+      wrap.setAttribute('aria-label', `Play video: ${title}`);
+    });
+
+    // Orphan embeds (e.g. replaced nodes or direct iframes)
+    document.querySelectorAll('iframe[src*="rumble.com"]').forEach((iframe) => {
+      if (isExcept(iframe)) return;
+      if (iframe.closest('[data-rumble-embed]')) return;
+      try { iframe.src = 'about:blank'; } catch { /* ignore */ }
+      iframe.remove();
+    });
+  },
+
   setupClickToPlayVideos(root = document) {
     const scope = root && root.querySelectorAll ? root : document;
     scope.querySelectorAll('[data-rumble-embed]').forEach((wrap) => {
@@ -228,9 +283,13 @@ const TopicUtils = {
         const title = wrap.dataset.videoTitle || '21st Memory video';
         if (!embedUrl) return;
 
+        // One video at a time across the page
+        this.stopOtherRumbleVideos(wrap);
+
         wrap.innerHTML = `
           <iframe src="${this.escapeHtml(embedUrl)}" width="100%" height="100%" allowfullscreen
-                  class="w-full h-full absolute inset-0 border-0" title="${this.escapeHtml(title)}"></iframe>
+                  class="w-full h-full absolute inset-0 border-0" title="${this.escapeHtml(title)}"
+                  allow="autoplay; encrypted-media; picture-in-picture; fullscreen"></iframe>
         `;
         wrap.dataset.loaded = 'true';
         wrap.classList.remove('cursor-pointer');

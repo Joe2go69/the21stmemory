@@ -230,6 +230,28 @@ function renderBreadcrumbs({ sourceId, sourceTitle, topicPath, currentTitle }) {
   </nav>`;
 }
 
+function getTopicVideoLanguages(topic) {
+  if (Array.isArray(topic.video_languages) && topic.video_languages.length) {
+    return topic.video_languages.filter((l) => l && Array.isArray(l.videos) && l.videos.length);
+  }
+  return null;
+}
+
+function getDefaultVideos(topic) {
+  const langs = getTopicVideoLanguages(topic);
+  if (langs?.length) {
+    const en = langs.find((l) => l.code === 'en');
+    return (en || langs[0]).videos || [];
+  }
+  return topic.rumble_videos || [];
+}
+
+function videoGridClass(count) {
+  if (count === 1) return 'dive-video-grid grid gap-6 grid-cols-1 max-w-2xl mx-auto';
+  if (count === 2) return 'dive-video-grid grid gap-6 md:grid-cols-2 max-w-5xl mx-auto';
+  return 'dive-video-grid grid gap-6 md:grid-cols-2 lg:grid-cols-3';
+}
+
 function mediaFlags(topic) {
   const hasInfographic = !!(topic.infographic_image && String(topic.infographic_image).trim());
   const hasSlide = !!(
@@ -237,7 +259,7 @@ function mediaFlags(topic) {
     String(topic.slide_deck_pdf_url).trim() &&
     topic.slide_deck_pdf_url !== '#'
   );
-  const hasVideos = !!(topic.rumble_videos && topic.rumble_videos.length > 0);
+  const hasVideos = getDefaultVideos(topic).length > 0;
   const hasReport = !!(topic.report && String(topic.report).trim() && !topic.report.includes('TODO'));
   return {
     hasInfographic,
@@ -363,6 +385,29 @@ function renderVideos(videos) {
       </article>`;
     })
     .join('\n');
+}
+
+function renderVideoLanguageBar(languages) {
+  if (!languages || languages.length < 2) return '';
+  const options = languages
+    .map((lang) => {
+      const code = escapeAttr(lang.code || '');
+      const label = escapeHtml(lang.native_label || lang.label || lang.code || '');
+      return `<option value="${code}">${label}</option>`;
+    })
+    .join('');
+  // Prevent </script> breakout inside JSON payload
+  const json = JSON.stringify(languages).replace(/</g, '\\u003c');
+  return `
+        <div class="video-lang-bar" id="video-lang-bar">
+          <label class="video-lang-bar__label" for="video-lang-select">Watch in</label>
+          <div class="video-lang-bar__control">
+            <select id="video-lang-select" class="video-lang-select" aria-label="Video language">
+              ${options}
+            </select>
+          </div>
+        </div>
+        <script type="application/json" id="video-languages-data">${json}</script>`;
 }
 
 function buildJsonLd({ title, description, url, image, sourceTitle, dateModified, isStub }) {
@@ -590,21 +635,20 @@ function buildPage({
 
     ${
       flags.hasVideos
-        ? `
+        ? (() => {
+            const defaultVideos = getDefaultVideos(topic);
+            const videoLangs = getTopicVideoLanguages(topic);
+            return `
     <div id="videos-section" class="mb-8">
       ${renderSectionHeading('Video transmissions')}
       <div class="max-w-6xl mx-auto px-6">
-        <div id="videos-container" class="dive-video-grid grid gap-6 ${
-          topic.rumble_videos.length === 1
-            ? 'grid-cols-1 max-w-2xl mx-auto'
-            : topic.rumble_videos.length === 2
-              ? 'md:grid-cols-2 max-w-5xl mx-auto'
-              : 'md:grid-cols-2 lg:grid-cols-3'
-        }">
-          ${renderVideos(topic.rumble_videos)}
+        ${renderVideoLanguageBar(videoLangs)}
+        <div id="videos-container" class="${videoGridClass(defaultVideos.length)}">
+          ${renderVideos(defaultVideos)}
         </div>
       </div>
-    </div>`
+    </div>`;
+          })()
         : ''
     }
 

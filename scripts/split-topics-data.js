@@ -12,6 +12,7 @@ const HEAVY_KEYS = [
   'pdf_preview_image',
   'slide_deck_pdf_url',
   'rumble_videos',
+  'video_languages',
   'quiz'
 ];
 
@@ -47,6 +48,7 @@ function stripTopic(node, outDir, written) {
     is_placeholder: isPlaceholder(node)
   };
   if (node.is_main_root) light.is_main_root = true;
+  if (node.video_language_count) light.video_language_count = node.video_language_count;
 
   if (node.subtopics?.length) {
     light.subtopics = node.subtopics.map(child => stripTopic(child, outDir, written));

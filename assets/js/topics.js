@@ -158,7 +158,12 @@ function renderMainRootBlock(sourceId, root) {
             ${renderTopicImage(root.topic_image, `${root.title} visual`, { loading: "eager", isPlaceholder: isPh })}
           </div>
           <div class="topic-main-root-card__body">
-            <div class="topic-main-root-badge">${isPh ? 'Coming soon' : 'Essence · Start Here'}</div>
+            <div class="topic-main-root-badges">
+              <div class="topic-main-root-badge">${isPh ? 'Coming soon' : 'Essence · Start Here'}</div>
+              ${!isPh && root.video_language_count
+                ? `<div class="topic-main-root-lang-chip" aria-label="Videos available in ${TopicUtils.escapeAttr(String(root.video_language_count))} languages">Videos in ${TopicUtils.escapeHtml(String(root.video_language_count))} languages</div>`
+                : ''}
+            </div>
             <h3 class="topic-main-root-title group-hover:text-mem-indigo transition-colors">${TopicUtils.escapeHtml(root.title)}</h3>
             <p class="topic-main-root-desc">${TopicUtils.escapeHtml(root.description || '')}</p>
           </div>

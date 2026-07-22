@@ -7,12 +7,126 @@ function initDiveStatic() {
   initInfographicModal();
   initSlideDeckArtifacts();
   initClickToPlayVideos();
+  // After click-to-play: may re-render non-English default and rebind that set only
+  initVideoLanguageSwitcher();
   initReadingProgress();
   initReportToc();
   initTerminologyCards();
   initPrintReport();
   initSectionNavSticky();
   initShareMenu();
+}
+
+const VIDEO_LANG_STORAGE_KEY = '21st-memory-video-lang';
+
+function escapeVideoHtml(value) {
+  if (typeof TopicUtils !== 'undefined' && TopicUtils.escapeHtml) {
+    return TopicUtils.escapeHtml(value);
+  }
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function escapeVideoAttr(value) {
+  if (typeof TopicUtils !== 'undefined' && TopicUtils.escapeAttr) {
+    return TopicUtils.escapeAttr(value);
+  }
+  return escapeVideoHtml(value).replace(/'/g, '&#39;');
+}
+
+function videoGridClassName(count) {
+  if (count === 1) return 'dive-video-grid grid gap-6 grid-cols-1 max-w-2xl mx-auto';
+  if (count === 2) return 'dive-video-grid grid gap-6 md:grid-cols-2 max-w-5xl mx-auto';
+  return 'dive-video-grid grid gap-6 md:grid-cols-2 lg:grid-cols-3';
+}
+
+function renderDiveVideoCards(videos) {
+  return (videos || [])
+    .map((video) => {
+      const title = escapeVideoHtml(video.title || 'Video transmission');
+      const embed = escapeVideoAttr(video.embed_url || '');
+      const desc = video.description
+        ? `<p class="dive-video-card__desc">${escapeVideoHtml(video.description)}</p>`
+        : '';
+      return `<article class="dive-video-card content-card static-card rounded-3xl p-4">
+        <div class="dive-video-card__frame aspect-[16/10] bg-black rounded-2xl overflow-hidden relative">
+          <div class="video-poster-wrap absolute inset-0 flex items-center justify-center bg-mem-inset"
+               data-rumble-embed="${embed}"
+               data-video-title="${title}"
+               role="button" tabindex="0"
+               aria-label="Play video: ${title}">
+            <div class="video-play-btn" aria-hidden="true"><span class="video-play-icon">▶</span></div>
+          </div>
+        </div>
+        <h3 class="dive-video-card__title">${title}</h3>
+        ${desc}
+      </article>`;
+    })
+    .join('');
+}
+
+function initVideoLanguageSwitcher() {
+  const dataEl = document.getElementById('video-languages-data');
+  const select = document.getElementById('video-lang-select');
+  const container = document.getElementById('videos-container');
+  if (!dataEl || !select || !container) return;
+
+  let languages;
+  try {
+    languages = JSON.parse(dataEl.textContent || '[]');
+  } catch {
+    return;
+  }
+  if (!Array.isArray(languages) || languages.length < 2) return;
+
+  const applyLanguage = (code) => {
+    const lang = languages.find((l) => l.code === code) || languages[0];
+    const videos = lang?.videos || [];
+    // Stop any playing video when switching languages
+    if (typeof TopicUtils !== 'undefined' && TopicUtils.stopOtherRumbleVideos) {
+      TopicUtils.stopOtherRumbleVideos();
+    }
+    container.className = videoGridClassName(videos.length);
+    container.innerHTML = renderDiveVideoCards(videos);
+    if (typeof TopicUtils !== 'undefined' && TopicUtils.setupClickToPlayVideos) {
+      TopicUtils.setupClickToPlayVideos(container);
+    } else {
+      initClickToPlayVideos();
+    }
+    try {
+      localStorage.setItem(VIDEO_LANG_STORAGE_KEY, lang.code);
+    } catch {
+      /* ignore */
+    }
+  };
+
+  let initial = select.value || 'en';
+  try {
+    const stored = localStorage.getItem(VIDEO_LANG_STORAGE_KEY);
+    if (stored && languages.some((l) => l.code === stored)) {
+      initial = stored;
+    } else {
+      const nav = String(navigator.language || '').slice(0, 2).toLowerCase();
+      if (nav && nav !== 'en' && languages.some((l) => l.code === nav)) {
+        initial = nav;
+      }
+    }
+  } catch {
+    /* ignore */
+  }
+
+  if (languages.some((l) => l.code === initial)) {
+    select.value = initial;
+  }
+  // Prerender is English; re-render only when starting on another language
+  if (select.value && select.value !== 'en') {
+    applyLanguage(select.value);
+  }
+
+  select.addEventListener('change', () => applyLanguage(select.value));
 }
 
 function initJumpPills() {
@@ -93,17 +207,46 @@ function initClickToPlayVideos() {
     return;
   }
 
+  // Fallback when TopicUtils is unavailable — still enforce one player at a time
   document.querySelectorAll('[data-rumble-embed]').forEach((el) => {
+    if (el.dataset.clickBound === 'true') return;
+    el.dataset.clickBound = 'true';
+
     const play = () => {
+      if (el.dataset.loaded === 'true') return;
       const embed = el.getAttribute('data-rumble-embed');
       if (!embed) return;
+
+      document.querySelectorAll('iframe[src*="rumble.com"]').forEach((iframe) => {
+        try { iframe.src = 'about:blank'; } catch { /* ignore */ }
+        const parent = iframe.closest('[data-rumble-embed]');
+        if (parent && parent !== el) {
+          const title = parent.getAttribute('data-video-title') || 'Video';
+          parent.innerHTML = `<div class="video-play-btn" aria-hidden="true"><span class="video-play-icon">▶</span></div>`;
+          parent.dataset.loaded = 'false';
+          parent.classList.add('cursor-pointer');
+          parent.setAttribute('role', 'button');
+          parent.setAttribute('tabindex', '0');
+          parent.setAttribute('aria-label', `Play video: ${title}`);
+        } else if (!parent) {
+          iframe.remove();
+        }
+      });
+
+      const title = el.getAttribute('data-video-title') || 'Video';
+      el.innerHTML = '';
       const iframe = document.createElement('iframe');
       iframe.src = embed;
-      iframe.title = el.getAttribute('data-video-title') || 'Video';
+      iframe.title = title;
       iframe.allowFullscreen = true;
       iframe.className = 'w-full h-full border-0 absolute inset-0';
-      iframe.setAttribute('loading', 'lazy');
-      el.replaceWith(iframe);
+      iframe.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture; fullscreen');
+      el.appendChild(iframe);
+      el.dataset.loaded = 'true';
+      el.classList.remove('cursor-pointer');
+      el.removeAttribute('role');
+      el.removeAttribute('tabindex');
+      el.removeAttribute('aria-label');
     };
     el.addEventListener('click', play);
     el.addEventListener('keydown', (e) => {

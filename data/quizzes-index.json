@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-21T04:36:59.594Z",
-  "total": 104,
+  "generatedAt": "2026-07-22T12:39:32.877Z",
+  "total": 105,
   "sources": [
     {
       "id": "alice",
@@ -14,7 +14,7 @@
       "label": "Breakdown",
       "title": "Mega Breakdown Board Notes",
       "short": "Final-stage Great Awakening notes",
-      "count": 44
+      "count": 45
     }
   ],
   "quizzes": [
@@ -809,6 +809,18 @@
       "questionCount": 25,
       "href": "quiz/breakdown/crystalline-architecture.html",
       "diveHref": "dive/breakdown/crystalline-architecture.html"
+    },
+    {
+      "id": "crystalline-networks",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Crystalline Networks",
+      "subtitle": "Test your grasp of Crystalline Networks — CUBE Containment, crystals as hard drives, Earth/Surface/Sky/Inter-dimensional Nodes, Harmonic Lenses, Spirit Tree inversion, and resonating souls as living beacons.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/crystalline-networks.html",
+      "diveHref": "dive/breakdown/crystalline-networks.html"
     },
     {
       "id": "ebs-operation",
