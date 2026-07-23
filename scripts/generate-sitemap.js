@@ -127,6 +127,7 @@ const entries = [
   { path: '/quiz/breakdown/harmonic-lenses.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/crystalline-networks.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/source-code-storage.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/ley-line-optics.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/celestial-anchors.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/phase-one-three.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/targeting-parasites.html', priority: '0.75', changefreq: 'monthly' },

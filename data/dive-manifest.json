@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T04:20:01.108Z",
+  "generatedAt": "2026-07-23T07:32:07.697Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -747,7 +747,7 @@
       "sourceId": "breakdown",
       "topicId": "ley-line-optics",
       "path": "/dive/breakdown/ley-line-optics.html",
-      "live": false,
+      "live": true,
       "title": "Ley Line Optics"
     },
     {

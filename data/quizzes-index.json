@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-23T04:20:00.510Z",
-  "total": 106,
+  "generatedAt": "2026-07-23T07:32:07.384Z",
+  "total": 107,
   "sources": [
     {
       "id": "alice",
@@ -14,7 +14,7 @@
       "label": "Breakdown",
       "title": "Mega Breakdown Board Notes",
       "short": "Final-stage Great Awakening notes",
-      "count": 46
+      "count": 47
     }
   ],
   "quizzes": [
@@ -965,6 +965,18 @@
       "questionCount": 25,
       "href": "quiz/breakdown/layered-simulations.html",
       "diveHref": "dive/breakdown/layered-simulations.html"
+    },
+    {
+      "id": "ley-line-optics",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Ley Line Optics",
+      "subtitle": "Test your grasp of Ley Line Optics — organic fibre optic lines of Source, Nodes and Harmonic Lenses, the Seven Overlay-Bands, Sub-Crystalline Band speed, and the fracture of the parasitic overlay.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/ley-line-optics.html",
+      "diveHref": "dive/breakdown/ley-line-optics.html"
     },
     {
       "id": "lockdown-window",
