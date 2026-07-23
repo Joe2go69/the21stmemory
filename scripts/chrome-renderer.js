@@ -171,7 +171,7 @@ function renderFooter(footerData, options = {}) {
                 </a>
               </div>` : ''}
             </div>
-            <p class="footer-support-note">Always free · Never required · Grateful for any form of support</p>
+            <p class="footer-support-note">Always free · Many ways to help · Grateful for every form of support</p>
           </div>`
     : '';
 
