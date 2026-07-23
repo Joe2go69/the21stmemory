@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T12:39:32.877Z",
-  "total": 105,
+  "generatedAt": "2026-07-23T04:20:00.510Z",
+  "total": 106,
   "sources": [
     {
       "id": "alice",
@@ -14,7 +14,7 @@
       "label": "Breakdown",
       "title": "Mega Breakdown Board Notes",
       "short": "Final-stage Great Awakening notes",
-      "count": 45
+      "count": 46
     }
   ],
   "quizzes": [
@@ -1157,6 +1157,18 @@
       "questionCount": 25,
       "href": "quiz/breakdown/skull-buzzing.html",
       "diveHref": "dive/breakdown/skull-buzzing.html"
+    },
+    {
+      "id": "source-code-storage",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Source Code Storage",
+      "subtitle": "Test your grasp of Source Code Storage — Crystalline Networks as hard drives of reality, Data Crystals, the Dome of Forgotten Gods, Source Codes, Galactic Libraries, and the collapse of parasitic amnesia overlays.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/source-code-storage.html",
+      "diveHref": "dive/breakdown/source-code-storage.html"
     },
     {
       "id": "stabilization-process",

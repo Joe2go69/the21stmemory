@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T12:41:58.279Z",
+  "generatedAt": "2026-07-23T04:20:01.108Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -740,7 +740,7 @@
       "sourceId": "breakdown",
       "topicId": "source-code-storage",
       "path": "/dive/breakdown/source-code-storage.html",
-      "live": false,
+      "live": true,
       "title": "Source Code Storage"
     },
     {
