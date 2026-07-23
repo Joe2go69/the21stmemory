@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://the21stmemory.com",
+  "baseUrl": "https://21stmemory.com",
   "brand": {
     "name": "The 21st Memory",
     "shortName": "21st Memory",
@@ -12,8 +12,8 @@
       "The 21st Memory Codex"
     ],
     "description": "21st Memory is a free living archive of AI-decoded Thalon Thor transmissions. No religion. No finance. No gatekeeping.",
-    "logo": "https://the21stmemory.com/images/21.webp",
-    "defaultImage": "https://the21stmemory.com/images/og-default.webp",
+    "logo": "https://21stmemory.com/images/21.webp",
+    "defaultImage": "https://21stmemory.com/images/og-default.webp",
     "defaultImageWidth": 1200,
     "defaultImageHeight": 630,
     "themeColor": "#0F0A1F",

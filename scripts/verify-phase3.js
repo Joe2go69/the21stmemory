@@ -16,7 +16,7 @@ if (fs.existsSync(liveSample)) {
   const h = fs.readFileSync(liveSample, 'utf8');
   check('live title', h.includes('Nature of Reality'));
   check('live report body', h.includes('Overview') || h.includes('report-prerendered'));
-  check('live canonical', h.includes('https://the21stmemory.com/dive/alice/nature-of-reality.html'));
+  check('live canonical', h.includes('https://21stmemory.com/dive/alice/nature-of-reality.html'));
   check('live Article schema', h.includes('"@type": "Article"'));
   check('live no noindex', !h.includes('noindex'));
   check('live copy link', h.includes('dive-copy-link'));

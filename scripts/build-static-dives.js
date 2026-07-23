@@ -14,7 +14,7 @@ const markedParse = markedLib.parse || markedLib.marked;
 const { renderNavbar, renderFooter } = require('./chrome-renderer');
 
 const ROOT = path.join(__dirname, '..');
-const BASE_URL = 'https://the21stmemory.com';
+const BASE_URL = 'https://21stmemory.com';
 const ASSET_BASE = '../../';
 const OUT_ROOT = path.join(ROOT, 'dive');
 

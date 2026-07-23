@@ -1,0 +1,28 @@
+﻿node : node:fs:561
+At line:1 char:1
++ node scripts/inspect-soul-quiz.js 2>&1 | Out-File -FilePath scripts/i ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (node:fs:561:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  return binding.open(
+                 ^
+
+Error: ENOENT: no such file or directory, open 'G:\My Drive\CH21\Website Files\New Downloads\soul-quiz.json'
+    at Object.openSync (node:fs:561:18)
+    at Object.readFileSync (node:fs:445:35)
+    at Object.<anonymous> (C:\Users\Joe\Desktop\21st Memory website\scripts\inspect-soul-quiz.js:7:19)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Object..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'G:\\My Drive\\CH21\\Website Files\\New Downloads\\soul-quiz.json'
+}
+
+Node.js v24.18.0

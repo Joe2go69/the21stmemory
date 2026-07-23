@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const BASE_URL = 'https://the21stmemory.com';
+const BASE_URL = 'https://21stmemory.com';
 const today = new Date().toISOString().split('T')[0];
 
 function escapeXml(value) {

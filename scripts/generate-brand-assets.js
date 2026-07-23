@@ -38,7 +38,7 @@ async function main() {
   <rect x="48" y="48" width="1104" height="534" rx="28" fill="none" stroke="#7C3AED" stroke-opacity="0.35" stroke-width="2"/>
   <text x="600" y="340" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" fill="#F8FAFC" letter-spacing="4">21ST MEMORY</text>
   <text x="600" y="400" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="500" fill="#C4B5FD">AI-Decoded Living Archive</text>
-  <text x="600" y="460" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#A78BFA">21stmemory · the21stmemory.com</text>
+  <text x="600" y="460" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#A78BFA">21stmemory · 21stmemory.com</text>
   <text x="600" y="520" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#6B5B95">No religion · No finance · No gatekeeping</text>
 </svg>`);
 

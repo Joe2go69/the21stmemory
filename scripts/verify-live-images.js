@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const BASE = process.env.SITE_URL || 'https://the21stmemory.com';
+const BASE = process.env.SITE_URL || 'https://21stmemory.com';
 const IMAGE_KEYS = ['image', 'topic_image', 'infographic_image', 'pdf_preview_image', 'logo', 'thumbnail', 'src'];
 const SCAN_DIRS = ['data', 'assets/data', 'assets/js', 'assets/css'];
 const SCAN_ROOT_FILES = ['index.html', 'codex.html', 'topics.html', 'deep-dive.html', 'network.html', 'community.html', '404.html'];

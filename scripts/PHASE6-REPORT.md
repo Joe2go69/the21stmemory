@@ -1,8 +1,8 @@
 # Phase 6 Verification Report
 
-Generated: 2026-07-19T07:18:43.122Z
+Generated: 2026-07-23T08:01:19.197Z
 
-**Result: PASSED** — 82/82 checks
+**Result: FAILED** — 78/82 checks
 
 ## P1 Brand SEO
 
@@ -24,16 +24,16 @@ Generated: 2026-07-19T07:18:43.122Z
 
 ## P2 Quizzes hub
 
-- Passed: 12
-- Failed: 0
+- Passed: 11
+- Failed: 1
 
 - ✅ quizzes.html exists
 - ✅ quizzes SEO title
 - ✅ quizzes nav link
-- ✅ quizzes cards present
+- ❌ quizzes cards present
 - ✅ quizzes filters
 - ✅ quizzes-index.json
-- ✅ quiz index count ~99 (99)
+- ✅ quiz index count ~99 (107)
 - ✅ index nav Quizzes
 - ✅ index quiz CTA
 - ✅ codex quiz link
@@ -42,19 +42,19 @@ Generated: 2026-07-19T07:18:43.122Z
 
 ## P3 Static dives
 
-- Passed: 20
-- Failed: 0
+- Passed: 19
+- Failed: 1
 
 - ✅ dive-manifest.json
-- ✅ live dives ~100 (100)
-- ✅ stub dives ~64 (64)
+- ✅ live dives ~100 (107)
+- ✅ stub dives ~64 (57)
 - ✅ live sample exists
 - ✅ live unique title
 - ✅ live report prerendered
 - ✅ live Article schema
 - ✅ live canonical path
 - ✅ live no noindex
-- ✅ live copy link
+- ❌ live copy link
 - ✅ stub sample exists
 - ✅ stub noindex
 - ✅ sitemap has dive URLs
@@ -68,8 +68,8 @@ Generated: 2026-07-19T07:18:43.122Z
 
 ## P4 Visual & perf
 
-- Passed: 14
-- Failed: 0
+- Passed: 13
+- Failed: 1
 
 - ✅ page-home
 - ✅ page-hero
@@ -78,7 +78,7 @@ Generated: 2026-07-19T07:18:43.122Z
 - ✅ no auto rumble iframe on home
 - ✅ safe-area navbar
 - ✅ 44px touch targets
-- ✅ report 70ch
+- ❌ report 70ch
 - ✅ source plain labels
 - ✅ codex.html page-interior
 - ✅ quizzes.html page-interior
@@ -88,18 +88,18 @@ Generated: 2026-07-19T07:18:43.122Z
 
 ## P5 Content hygiene
 
-- Passed: 9
-- Failed: 0
+- Passed: 8
+- Failed: 1
 
 - ✅ continue learning block
 - ✅ network CTA on dive
 - ✅ AI disclaimer
 - ✅ updated stamp
-- ✅ about methodology
+- ❌ about methodology
 - ✅ about AI bridge heading
 - ✅ stub browse ready CTA
 - ✅ SPA continue helper
-- ✅ sitemap dive count = live (100 vs 100)
+- ✅ sitemap dive count = live (107 vs 107)
 
 ## Integrity
 
@@ -116,7 +116,7 @@ Generated: 2026-07-19T07:18:43.122Z
 - ✅ network.html has Quizzes nav
 - ✅ topics.html has Quizzes nav
 - ✅ sitemap escaped ampersands
-- ✅ sitemap URL count > 150 (207)
+- ✅ sitemap URL count > 150 (222)
 - ✅ og image non-empty (20844)
 - ✅ community noindex
 - ✅ community redirects
@@ -124,7 +124,7 @@ Generated: 2026-07-19T07:18:43.122Z
 
 ## Post-deploy checklist (manual)
 
-1. Open https://the21stmemory.com/ — hero, nav (Quizzes), footer, support copy
+1. Open https://21stmemory.com/ — hero, nav (Quizzes), footer, support copy
 2. Open a dive URL e.g. /dive/alice/nature-of-reality.html — view-source shows report
 3. Share that URL in Telegram/X — preview title/image correct
 4. Google Search Console: submit sitemap.xml; inspect one dive URL

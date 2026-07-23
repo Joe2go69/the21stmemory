@@ -40,7 +40,7 @@ function exists(rel) {
   check(g, 'index og-default', index.includes('og-default.webp'));
   check(g, 'index 21stmemory copy', index.includes('21stmemory'));
   check(g, 'index JSON-LD alternateName', index.includes('"21stmemory"'));
-  check(g, 'footer domain copyright', index.includes('the21stmemory.com'));
+  check(g, 'footer domain copyright', index.includes('21stmemory.com'));
 
   const tw = read('tailwind.config.js');
   check(g, 'tailwind quiz content glob', tw.includes('./quiz/**/*.html'));
@@ -159,7 +159,7 @@ function exists(rel) {
 (function integrity() {
   const g = 'Integrity';
   check(g, 'robots.txt sitemap', read('robots.txt').includes('sitemap.xml'));
-  check(g, 'CNAME domain', read('CNAME').trim() === 'the21stmemory.com');
+  check(g, 'CNAME domain', read('CNAME').trim() === '21stmemory.com');
   check(g, 'dive-static.js', exists('assets/js/dive-static.js'));
   check(g, 'quizzes.js', exists('assets/js/quizzes.js'));
 
@@ -247,7 +247,7 @@ for (const [group, data] of Object.entries(byGroup)) {
 }
 reportLines.push('## Post-deploy checklist (manual)');
 reportLines.push('');
-reportLines.push('1. Open https://the21stmemory.com/ — hero, nav (Quizzes), footer, support copy');
+reportLines.push('1. Open https://21stmemory.com/ — hero, nav (Quizzes), footer, support copy');
 reportLines.push('2. Open a dive URL e.g. /dive/alice/nature-of-reality.html — view-source shows report');
 reportLines.push('3. Share that URL in Telegram/X — preview title/image correct');
 reportLines.push('4. Google Search Console: submit sitemap.xml; inspect one dive URL');

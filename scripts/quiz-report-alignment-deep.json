@@ -1,0 +1,2500 @@
+[
+  {
+    "src": "alice",
+    "id": "nature-of-reality",
+    "title": "Nature of Reality",
+    "topicTitle": "Nature of Reality",
+    "totalQ": 25,
+    "reportChars": 7103,
+    "weakQ": 15,
+    "strongQ": 4,
+    "weakRatio": 0.6,
+    "status": "FAIL",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 1,
+        "score": 0.31,
+        "tokenRatio": 0.56,
+        "gramRatio": 0,
+        "q": "What is the true physical architecture of the realm situated on the physical plain of Gateway-10?",
+        "a": "A horizontal, unmoving plain enclosed by an artificial Ice Wall and a solid Firmament.",
+        "missingGrams": [
+          "physical architecture",
+          "architecture realm",
+          "realm situated",
+          "situated physical",
+          "physical plain",
+          "plain gateway-10",
+          "gateway-10 horizontal",
+          "horizontal unmoving"
+        ]
+      },
+      {
+        "n": 2,
+        "score": 0.29,
+        "tokenRatio": 0.5,
+        "gramRatio": 0.02,
+        "q": "Which component is responsible for bending light and sound to enable visual perception within the realm?",
+        "a": "The Firmament",
+        "missingGrams": [
+          "component responsible",
+          "responsible bending",
+          "bending light",
+          "light sound",
+          "sound enable",
+          "enable visual",
+          "perception realm",
+          "realm firmament"
+        ]
+      },
+      {
+        "n": 3,
+        "score": 0.29,
+        "tokenRatio": 0.5,
+        "gramRatio": 0.03,
+        "q": "What is the actual duration of a single true day in the reality outside of 3rd-density suppression?",
+        "a": "3.9 Earth days",
+        "missingGrams": [
+          "actual duration",
+          "duration single",
+          "single reality",
+          "reality 3rd-density",
+          "3rd-density suppression",
+          "suppression earth",
+          "days artificial",
+          "artificial constraints"
+        ]
+      },
+      {
+        "n": 4,
+        "score": 0.28,
+        "tokenRatio": 0.5,
+        "gramRatio": 0,
+        "q": "How are new species introduced into the physical plain in true biological origin?",
+        "a": "Via pure light and DNA infusion in 9th-density physical labs.",
+        "missingGrams": [
+          "species introduced",
+          "introduced physical",
+          "physical plain",
+          "plain biological",
+          "biological origin",
+          "origin pure",
+          "pure light",
+          "light infusion"
+        ]
+      },
+      {
+        "n": 6,
+        "score": 0.26,
+        "tokenRatio": 0.44,
+        "gramRatio": 0.03,
+        "q": "Which vibrational density represents the level of human entrapment within the simulation?",
+        "a": "3rd density",
+        "missingGrams": [
+          "vibrational density",
+          "density represents",
+          "represents level",
+          "level human",
+          "human entrapment",
+          "entrapment simulation",
+          "simulation density",
+          "density humanity"
+        ]
+      },
+      {
+        "n": 7,
+        "score": 0.32,
+        "tokenRatio": 0.56,
+        "gramRatio": 0.02,
+        "q": "What mechanism do parasitic forces use to make 9th-density crystalline architecture invisible to the human eye?",
+        "a": "Ultra Low Frequencies (ULF) projected over major nodes",
+        "missingGrams": [
+          "mechanism parasitic",
+          "forces 9th-density",
+          "9th-density crystalline",
+          "crystalline architecture",
+          "architecture invisible",
+          "invisible human",
+          "human ultra",
+          "ultra frequencies"
+        ]
+      },
+      {
+        "n": 10,
+        "score": 0.24,
+        "tokenRatio": 0.43,
+        "gramRatio": 0,
+        "q": "What will occur during the 30-second EMF flash that marks the final reality restoration?",
+        "a": "Non-Player Characters (NPCs) will evaporate into the Aether.",
+        "missingGrams": [
+          "will occur",
+          "occur 30-second",
+          "30-second flash",
+          "flash marks",
+          "marks final",
+          "final reality",
+          "reality restoration",
+          "restoration non-player"
+        ]
+      },
+      {
+        "n": 11,
+        "score": 0.26,
+        "tokenRatio": 0.47,
+        "gramRatio": 0,
+        "q": "What is the localized sub-realm created after the artificial ice wall segregated the center world?",
+        "a": "Realm-3",
+        "missingGrams": [
+          "localized sub-realm",
+          "sub-realm created",
+          "created artificial",
+          "artificial wall",
+          "wall segregated",
+          "segregated center",
+          "center world",
+          "world realm-3"
+        ]
+      },
+      {
+        "n": 12,
+        "score": 0.24,
+        "tokenRatio": 0.4,
+        "gramRatio": 0.04,
+        "q": "Which location serves as the central node and emanation point for the highest frequencies in the realm?",
+        "a": "The Spirit Tree (Mt Meru) at the North Pole",
+        "missingGrams": [
+          "location serves",
+          "serves central",
+          "central node",
+          "node emanation",
+          "emanation point",
+          "point highest",
+          "highest frequencies",
+          "frequencies realm"
+        ]
+      },
+      {
+        "n": 16,
+        "score": 0.34,
+        "tokenRatio": 0.6,
+        "gramRatio": 0.03,
+        "q": "What is the primary purpose of the 'Overlays' utilized by parasitic forces?",
+        "a": "To dampen frequencies and obscure high-vibrational architecture from 3rd-density perception.",
+        "missingGrams": [
+          "purpose 'overlays'",
+          "'overlays' utilized",
+          "utilized parasitic",
+          "forces dampen",
+          "dampen frequencies",
+          "frequencies obscure",
+          "obscure high-vibrational",
+          "high-vibrational architecture"
+        ]
+      }
+    ],
+    "markerIssues": [
+      {
+        "n": 1,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "A horizontal, unmoving plain enclosed by an artificial Ice Wall and a solid Firmament."
+      },
+      {
+        "n": 3,
+        "markers": [
+          "96 hours"
+        ],
+        "a": "3.9 Earth days"
+      },
+      {
+        "n": 11,
+        "markers": [
+          "realm-3"
+        ],
+        "a": "Realm-3"
+      },
+      {
+        "n": 22,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "178"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "97-percent-population",
+    "title": "97 Percent Population",
+    "topicTitle": "97 Percent Population",
+    "totalQ": 25,
+    "reportChars": 5110,
+    "weakQ": 6,
+    "strongQ": 3,
+    "weakRatio": 0.24,
+    "status": "WARN",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 4,
+        "score": 0.24,
+        "tokenRatio": 0.41,
+        "gramRatio": 0.03,
+        "q": "What technological origin is used to weave 'Replica Souls' into existence?",
+        "a": "4th Density technology",
+        "missingGrams": [
+          "technological origin",
+          "origin weave",
+          "weave 'replica",
+          "'replica souls'",
+          "souls' existence",
+          "existence density",
+          "technology level",
+          "level density"
+        ]
+      },
+      {
+        "n": 11,
+        "score": 0.29,
+        "tokenRatio": 0.5,
+        "gramRatio": 0.03,
+        "q": "What motivates 97% of the 97 percent to obey authoritative instructions blindly?",
+        "a": "The promise of being kept 'safe'",
+        "missingGrams": [
+          "motivates percent",
+          "percent obey",
+          "obey authoritative",
+          "authoritative instructions",
+          "instructions blindly",
+          "blindly promise",
+          "promise kept",
+          "kept 'safe'"
+        ]
+      },
+      {
+        "n": 13,
+        "score": 0.13,
+        "tokenRatio": 0.24,
+        "gramRatio": 0,
+        "q": "What complex describes the underlying non-logic of NPC psychology?",
+        "a": "Non-Cognitive Chains of Non-Predetermined Non-Coherence",
+        "missingGrams": [
+          "complex describes",
+          "describes underlying",
+          "underlying non-logic",
+          "non-logic psychology",
+          "psychology non-cognitive",
+          "non-cognitive chains",
+          "chains non-predetermined",
+          "non-predetermined non-coherence"
+        ]
+      },
+      {
+        "n": 14,
+        "score": 0.33,
+        "tokenRatio": 0.57,
+        "gramRatio": 0.04,
+        "q": "Which of these is NOT listed as a component of the 97 percent population?",
+        "a": "Starseeds",
+        "missingGrams": [
+          "listed component",
+          "component percent",
+          "population starseeds",
+          "starseeds term",
+          "term refers",
+          "refers souls",
+          "souls whereas",
+          "whereas percent"
+        ]
+      },
+      {
+        "n": 19,
+        "score": 0.23,
+        "tokenRatio": 0.38,
+        "gramRatio": 0.04,
+        "q": "Which of these is a behavior associated with the 'Mind Camp'?",
+        "a": "Repeating herd-accepted slogans",
+        "missingGrams": [
+          "behavior associated",
+          "associated 'mind",
+          "'mind camp'",
+          "camp' repeating",
+          "repeating herd-accepted",
+          "herd-accepted slogans",
+          "slogans social",
+          "conformity dictates"
+        ]
+      },
+      {
+        "n": 22,
+        "score": 0.32,
+        "tokenRatio": 0.55,
+        "gramRatio": 0.05,
+        "q": "Which interest is mentioned as having specifically designed NPCs?",
+        "a": "Fly fishing",
+        "missingGrams": [
+          "interest mentioned",
+          "mentioned having",
+          "having specifically",
+          "specifically designed",
+          "designed npcs",
+          "npcs fishing",
+          "fishing designed",
+          "designed conceivable"
+        ]
+      }
+    ],
+    "markerIssues": [
+      {
+        "n": 3,
+        "markers": [
+          "30 seconds"
+        ],
+        "a": "30 seconds"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "antiquity-technology",
+    "title": "Antiquity Technology",
+    "topicTitle": "Antiquity Technology",
+    "totalQ": 25,
+    "reportChars": 7629,
+    "weakQ": 5,
+    "strongQ": 4,
+    "weakRatio": 0.2,
+    "status": "WARN",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 10,
+        "score": 0.34,
+        "tokenRatio": 0.59,
+        "gramRatio": 0.03,
+        "q": "Edward Leedskalnin's 20th-century work is cited as an example of what lingering technology?",
+        "a": "Magnetic Frequency Masonry.",
+        "missingGrams": [
+          "edward leedskalnin's",
+          "leedskalnin's 20th-century",
+          "20th-century work",
+          "work cited",
+          "cited example",
+          "example lingering",
+          "lingering technology",
+          "technology magnetic"
+        ]
+      },
+      {
+        "n": 15,
+        "score": 0.26,
+        "tokenRatio": 0.47,
+        "gramRatio": 0,
+        "q": "What replaced the 'resplendent public boulevards' of Tartaria after the re-sets?",
+        "a": "Austere, 'Battle-Ship Grey' architecture.",
+        "missingGrams": [
+          "replaced 'resplendent",
+          "'resplendent public",
+          "public boulevards'",
+          "boulevards' tartaria",
+          "tartaria re-sets",
+          "re-sets austere",
+          "austere 'battle-ship",
+          "'battle-ship grey'"
+        ]
+      },
+      {
+        "n": 20,
+        "score": 0.32,
+        "tokenRatio": 0.56,
+        "gramRatio": 0.03,
+        "q": "What were the 'Crystalline Temples' originally used for in the Tartarian civilization?",
+        "a": "To structurally amplify the energetic emanations of Nodes.",
+        "missingGrams": [
+          "'crystalline temples'",
+          "temples' originally",
+          "originally tartarian",
+          "tartarian civilization",
+          "civilization structurally",
+          "structurally amplify",
+          "amplify energetic",
+          "emanations nodes."
+        ]
+      },
+      {
+        "n": 21,
+        "score": 0.24,
+        "tokenRatio": 0.4,
+        "gramRatio": 0.05,
+        "q": "Which material was used for the domes of resonators because of its electromagnetic properties?",
+        "a": "Copper.",
+        "missingGrams": [
+          "material domes",
+          "domes resonators",
+          "resonators electromagnetic",
+          "electromagnetic properties",
+          "properties copper.",
+          "copper. copper",
+          "dome intricate",
+          "intricate fibonacci-patterned"
+        ]
+      },
+      {
+        "n": 24,
+        "score": 0.21,
+        "tokenRatio": 0.38,
+        "gramRatio": 0,
+        "q": "What modern concept is the term 'Aether' equated to in the explanation of manifestation?",
+        "a": "Simulation software.",
+        "missingGrams": [
+          "modern concept",
+          "concept term",
+          "term 'aether'",
+          "'aether' equated",
+          "equated explanation",
+          "explanation manifestation",
+          "manifestation simulation",
+          "simulation software."
+        ]
+      }
+    ],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "gateway-10-system",
+    "title": "Gateway-10 System",
+    "topicTitle": "Gateway-10 System",
+    "totalQ": 25,
+    "reportChars": 6774,
+    "weakQ": 0,
+    "strongQ": 10,
+    "weakRatio": 0,
+    "status": "WARN",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 1,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The central physical plane of existence encompassing 178 interconnected, horizontal flat worlds."
+      },
+      {
+        "n": 2,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "That the cosmos is a localized horizontal physical plane — Gateway-10 — powered on a massive Toroid field of energy, not spherical planets o"
+      },
+      {
+        "n": 3,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The Source of All Creation — a vast non-physical etheric supercomputer and intellect — built it as a perfect manifestation environment for t"
+      },
+      {
+        "n": 4,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "4th-density Custodians and their engineered parasitic forces — after the Custodians betrayed the Source to claim the plane for themselves."
+      },
+      {
+        "n": 5,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "By physically partitioning the known lands and destroying the central energetic architecture — threatening structural and operational integr"
+      },
+      {
+        "n": 6,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The primary energy vortex and electromagnetic system powering the Gateway, centering exactly on the realm currently inhabited by humanity."
+      },
+      {
+        "n": 7,
+        "markers": [
+          "realm-3"
+        ],
+        "a": "The currently inhabited, heavily partitioned segment of the flat Earth, forcefully carved out of the original central realm via the fake Ant"
+      },
+      {
+        "n": 8,
+        "markers": [
+          "realm-2",
+          "gateway-10"
+        ],
+        "a": "The original, vastly wider physical plane located at the very center of Gateway-10 before partitioning."
+      },
+      {
+        "n": 9,
+        "markers": [
+          "realm-1"
+        ],
+        "a": "An adjacent flat world whose outer ice boundary is physically joined to the landmass that manufactured science falsely labels as the distant"
+      },
+      {
+        "n": 10,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The enormously powerful energetic and structural core present at the center of all realms; the primary tree powering Gateway-10 was destroye"
+      },
+      {
+        "n": 11,
+        "markers": [
+          "realm-3"
+        ],
+        "a": "Because Realm-3 sits at the absolute center of the Toroid field — historically and mechanically the most powerful location on the entire Gat"
+      },
+      {
+        "n": 12,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "They created numerous negative species, such as the Anunnaki and Grey ETs, to execute the takeover after plotting over millennia for absolut"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "3rd-density-overlays",
+    "title": "3rd Density Overlays",
+    "topicTitle": "3rd Density Overlays",
+    "totalQ": 25,
+    "reportChars": 6396,
+    "weakQ": 4,
+    "strongQ": 2,
+    "weakRatio": 0.16,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 7,
+        "score": 0.32,
+        "tokenRatio": 0.56,
+        "gramRatio": 0.03,
+        "q": "Which of the following describes the state of time in the true reality beyond the simulation?",
+        "a": "Non-linear and maneuverable by the individual",
+        "missingGrams": [
+          "following describes",
+          "describes state",
+          "state time",
+          "time reality",
+          "reality beyond",
+          "beyond simulation",
+          "simulation non-linear",
+          "non-linear maneuverable"
+        ]
+      },
+      {
+        "n": 11,
+        "score": 0.35,
+        "tokenRatio": 0.5,
+        "gramRatio": 0.16,
+        "q": "What is the duration of the Electro Magnetic Frequency (EMF) flash that will strip away the layers of Overlays?",
+        "a": "30 seconds",
+        "missingGrams": [
+          "duration electro",
+          "flash will",
+          "will strip",
+          "away layers",
+          "layers overlays",
+          "overlays seconds",
+          "seconds final",
+          "final stripping"
+        ]
+      },
+      {
+        "n": 13,
+        "score": 0.35,
+        "tokenRatio": 0.63,
+        "gramRatio": 0,
+        "q": "What provides the physical structure that enables perception by bending light and sound within the simulation?",
+        "a": "The Firmament",
+        "missingGrams": [
+          "provides physical",
+          "physical structure",
+          "structure enables",
+          "enables perception",
+          "perception bending",
+          "bending light",
+          "light sound",
+          "sound simulation"
+        ]
+      },
+      {
+        "n": 18,
+        "score": 0.31,
+        "tokenRatio": 0.57,
+        "gramRatio": 0,
+        "q": "What describes the physical architecture that exists at 9th density and remains present despite the simulation?",
+        "a": "Unmovable high-frequency architecture",
+        "missingGrams": [
+          "describes physical",
+          "physical architecture",
+          "architecture exists",
+          "exists density",
+          "density remains",
+          "remains present",
+          "present despite",
+          "despite simulation"
+        ]
+      }
+    ],
+    "markerIssues": [
+      {
+        "n": 1,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "Gateway-10"
+      },
+      {
+        "n": 3,
+        "markers": [
+          "net-1"
+        ],
+        "a": "The stars in the night sky"
+      },
+      {
+        "n": 11,
+        "markers": [
+          "30 seconds"
+        ],
+        "a": "30 seconds"
+      },
+      {
+        "n": 12,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "False"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "4000-ancients",
+    "title": "4,000 Ancients",
+    "topicTitle": "4,000 Ancients",
+    "totalQ": 25,
+    "reportChars": 7978,
+    "weakQ": 4,
+    "strongQ": 3,
+    "weakRatio": 0.16,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": true,
+    "weak": [
+      {
+        "n": 9,
+        "score": 0.31,
+        "tokenRatio": 0.55,
+        "gramRatio": 0.03,
+        "q": "How will the 178,000 years of missing memories be accessed by survivors after the Flash?",
+        "a": "Sequentially and singularly as needed to prevent shock",
+        "missingGrams": [
+          "will years",
+          "years missing",
+          "memories accessed",
+          "accessed survivors",
+          "survivors flash",
+          "flash sequentially",
+          "sequentially singularly",
+          "singularly needed"
+        ]
+      },
+      {
+        "n": 11,
+        "score": 0.17,
+        "tokenRatio": 0.31,
+        "gramRatio": 0,
+        "q": "True or False: In 5th density, time can be bent to eliminate the separation caused by the death of a partner.",
+        "a": "True",
+        "missingGrams": [
+          "density time",
+          "bent eliminate",
+          "eliminate separation",
+          "separation caused",
+          "caused death",
+          "death partner.",
+          "partner. higher-density",
+          "higher-density physics"
+        ]
+      },
+      {
+        "n": 12,
+        "score": 0.29,
+        "tokenRatio": 0.5,
+        "gramRatio": 0.04,
+        "q": "What is the typical lifespan of a being in 5th density without the use of specialized technology?",
+        "a": "450 to 500 earth years",
+        "missingGrams": [
+          "typical lifespan",
+          "lifespan density",
+          "density specialized",
+          "specialized technology",
+          "technology earth",
+          "years standard",
+          "standard natural",
+          "natural lifespan"
+        ]
+      },
+      {
+        "n": 15,
+        "score": 0.31,
+        "tokenRatio": 0.53,
+        "gramRatio": 0.05,
+        "q": "What was the primary reason the 4,000 Ancients were frequently executed throughout history?",
+        "a": "Old souls inherently push back against corruption and cannot be bought",
+        "missingGrams": [
+          "reason ancients",
+          "ancients frequently",
+          "frequently executed",
+          "executed throughout",
+          "throughout history",
+          "history souls",
+          "souls inherently",
+          "back corruption"
+        ]
+      }
+    ],
+    "markerIssues": [
+      {
+        "n": 3,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "178,000 years"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "amnesia-vortex",
+    "title": "Amnesia Vortex",
+    "topicTitle": "Amnesia Vortex",
+    "totalQ": 25,
+    "reportChars": 6929,
+    "weakQ": 4,
+    "strongQ": 2,
+    "weakRatio": 0.16,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 4,
+        "score": 0.35,
+        "tokenRatio": 0.57,
+        "gramRatio": 0.08,
+        "q": "Why has there been a recent surge in children recalling accurate past-life memories and missions?",
+        "a": "The Amnesia Vortex was successfully deactivated in 2019.",
+        "missingGrams": [
+          "recent surge",
+          "surge children",
+          "children recalling",
+          "accurate past-life",
+          "past-life memories",
+          "memories missions",
+          "missions amnesia",
+          "vortex successfully"
+        ]
+      },
+      {
+        "n": 11,
+        "score": 0.32,
+        "tokenRatio": 0.53,
+        "gramRatio": 0.06,
+        "q": "How are the populations replaced following a mass depopulation event?",
+        "a": "Using laboratory-grown clones transported via Orphan Trains.",
+        "missingGrams": [
+          "populations replaced",
+          "replaced following",
+          "following mass",
+          "mass depopulation",
+          "depopulation event",
+          "event laboratory-grown",
+          "laboratory-grown clones",
+          "transported orphan"
+        ]
+      },
+      {
+        "n": 13,
+        "score": 0.31,
+        "tokenRatio": 0.54,
+        "gramRatio": 0.04,
+        "q": "What percentage of the current population consists of Non-Player Characters (NPCs)?",
+        "a": "97%",
+        "missingGrams": [
+          "percentage current",
+          "current population",
+          "population consists",
+          "consists non-player",
+          "non-player characters",
+          "vast majority",
+          "majority population",
+          "population hive-aligned"
+        ]
+      },
+      {
+        "n": 14,
+        "score": 0.35,
+        "tokenRatio": 0.59,
+        "gramRatio": 0.05,
+        "q": "What will occur immediately before the 30-second EMF Flash that vaporizes the NPC population?",
+        "a": "The Projection Dome will be switched off, causing the fake sky to pixelate.",
+        "missingGrams": [
+          "will occur",
+          "occur immediately",
+          "immediately 30-second",
+          "30-second flash",
+          "flash vaporizes",
+          "vaporizes population",
+          "population projection",
+          "will switched"
+        ]
+      }
+    ],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "anunnaki",
+    "title": "Anunnaki",
+    "topicTitle": "Anunnaki",
+    "totalQ": 25,
+    "reportChars": 6053,
+    "weakQ": 4,
+    "strongQ": 5,
+    "weakRatio": 0.16,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 3,
+        "score": 0.33,
+        "tokenRatio": 0.5,
+        "gramRatio": 0.12,
+        "q": "In the context of the Living Truth, what does the era known as 'Zep Tepi' signify?",
+        "a": "The period when the Anuk physically lived alongside humanity during early resets.",
+        "missingGrams": [
+          "context living",
+          "living truth",
+          "truth 'zep",
+          "'zep tepi'",
+          "tepi' signify",
+          "signify period",
+          "period anuk",
+          "anuk physically"
+        ]
+      },
+      {
+        "n": 8,
+        "score": 0.33,
+        "tokenRatio": 0.58,
+        "gramRatio": 0.02,
+        "q": "How did the Anuk establish a system of human proxies to manage the realm on their behalf?",
+        "a": "By initiating 'Royal Families' and 'Priestly Class' systems through bloodline infiltration.",
+        "missingGrams": [
+          "anuk establish",
+          "establish system",
+          "system human",
+          "proxies manage",
+          "manage realm",
+          "realm behalf",
+          "behalf initiating",
+          "initiating 'royal"
+        ]
+      },
+      {
+        "n": 10,
+        "score": 0.34,
+        "tokenRatio": 0.59,
+        "gramRatio": 0.03,
+        "q": "What describes the soul composition of the manufactured Anuk entities?",
+        "a": "They are powered by cheap, replicated, 'Hive-Aligned' NPC souls.",
+        "missingGrams": [
+          "describes soul",
+          "soul composition",
+          "composition manufactured",
+          "manufactured anuk",
+          "anuk entities",
+          "entities powered",
+          "powered cheap",
+          "replicated 'hive-aligned'"
+        ]
+      },
+      {
+        "n": 19,
+        "score": 0.3,
+        "tokenRatio": 0.55,
+        "gramRatio": 0,
+        "q": "How is the existence of the Anuk tied to the cyclical thousand-year Re-sets?",
+        "a": "During Re-sets, humanity is mass-harvested for Loosh and Adrenochrome that sustain the Anuk power grid.",
+        "missingGrams": [
+          "existence anuk",
+          "tied cyclical",
+          "cyclical thousand-year",
+          "thousand-year re-sets",
+          "re-sets re-sets",
+          "re-sets humanity",
+          "humanity mass-harvested",
+          "mass-harvested loosh"
+        ]
+      }
+    ],
+    "markerIssues": [
+      {
+        "n": 20,
+        "markers": [
+          "realm-3"
+        ],
+        "a": "Successful suppression of the Known Lands (Realm-3) and continuous extraction of human energy."
+      }
+    ]
+  },
+  {
+    "src": "breakdown",
+    "id": "perception-solidity",
+    "title": "Perception Solidity",
+    "topicTitle": "Perception Solidity",
+    "totalQ": 25,
+    "reportChars": 4630,
+    "weakQ": 3,
+    "strongQ": 2,
+    "weakRatio": 0.12,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 9,
+        "score": 0.32,
+        "tokenRatio": 0.53,
+        "gramRatio": 0.07,
+        "q": "How are NPCs (Non-Player Characters) distinguished from 'Resonating Sols' in this context?",
+        "a": "They lack organic memory and are highly susceptible to the 3D projection",
+        "missingGrams": [
+          "npcs non-player",
+          "non-player characters",
+          "characters distinguished",
+          "distinguished 'resonating",
+          "'resonating sols'",
+          "sols' context",
+          "context lack",
+          "lack organic"
+        ]
+      },
+      {
+        "n": 14,
+        "score": 0.3,
+        "tokenRatio": 0.52,
+        "gramRatio": 0.02,
+        "q": "What is the ultimate goal of the 'Great Dome' simulation?",
+        "a": "To enforce separation and fixed matter while siphoning energy",
+        "missingGrams": [
+          "ultimate goal",
+          "goal 'great",
+          "'great dome'",
+          "dome' simulation",
+          "simulation enforce",
+          "enforce separation",
+          "separation fixed",
+          "matter siphoning"
+        ]
+      },
+      {
+        "n": 20,
+        "score": 0.25,
+        "tokenRatio": 0.43,
+        "gramRatio": 0.02,
+        "q": "How does the illusion of 3D solidity affect the evolution of manifestation abilities?",
+        "a": "It severely slows down and manipulates the development of these skills",
+        "missingGrams": [
+          "illusion solidity",
+          "solidity affect",
+          "affect evolution",
+          "evolution manifestation",
+          "abilities severely",
+          "severely slows",
+          "slows down",
+          "down manipulates"
+        ]
+      }
+    ],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "ascension-event",
+    "title": "Ascension Event",
+    "topicTitle": "Ascension Event",
+    "totalQ": 25,
+    "reportChars": 7386,
+    "weakQ": 2,
+    "strongQ": 3,
+    "weakRatio": 0.08,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 8,
+        "score": 0.33,
+        "tokenRatio": 0.55,
+        "gramRatio": 0.05,
+        "q": "What historically happened to souls when they entered the 'Amnesia Vortex' located in the Sun?",
+        "a": "Their memories were wiped before being forced into new physical vessels",
+        "missingGrams": [
+          "historically happened",
+          "happened souls",
+          "souls entered",
+          "entered 'amnesia",
+          "'amnesia vortex'",
+          "vortex' located",
+          "located memories",
+          "memories wiped"
+        ]
+      },
+      {
+        "n": 10,
+        "score": 0.17,
+        "tokenRatio": 0.29,
+        "gramRatio": 0.03,
+        "q": "The 'melting pixelization' of the sky begins at which celestial point before moving downward?",
+        "a": "Polaris",
+        "missingGrams": [
+          "'melting pixelization'",
+          "pixelization' begins",
+          "begins celestial",
+          "celestial point",
+          "point moving",
+          "moving downward",
+          "downward polaris",
+          "polaris g.a.a."
+        ]
+      }
+    ],
+    "markerIssues": [
+      {
+        "n": 1,
+        "markers": [
+          "30 seconds"
+        ],
+        "a": "30 seconds"
+      },
+      {
+        "n": 14,
+        "markers": [
+          "net-1"
+        ],
+        "a": "To hide original crystalline architecture and dampen natural energy"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "essence-of-the-transmission",
+    "title": "Essence of the Transmission",
+    "topicTitle": "Essence of the Transmission",
+    "totalQ": 25,
+    "reportChars": 12367,
+    "weakQ": 2,
+    "strongQ": 3,
+    "weakRatio": 0.08,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 8,
+        "score": 0.26,
+        "tokenRatio": 0.44,
+        "gramRatio": 0.03,
+        "q": "What was the specific purpose of orchestrating World War 1?",
+        "a": "To eliminate those who remembered the pre-reset world",
+        "missingGrams": [
+          "purpose orchestrating",
+          "orchestrating world",
+          "world eliminate",
+          "eliminate remembered",
+          "remembered pre-reset",
+          "pre-reset world",
+          "world targeted",
+          "targeted slaughter"
+        ]
+      },
+      {
+        "n": 16,
+        "score": 0.31,
+        "tokenRatio": 0.52,
+        "gramRatio": 0.05,
+        "q": "How are the 'Orphan Trains' of the late 19th century explained in the context of the Re-set cycle?",
+        "a": "The repopulation of emptied cities with lab-grown clones",
+        "missingGrams": [
+          "'orphan trains'",
+          "trains' late",
+          "century explained",
+          "explained context",
+          "context re-set",
+          "re-set cycle",
+          "cycle repopulation",
+          "repopulation emptied"
+        ]
+      }
+    ],
+    "markerIssues": [
+      {
+        "n": 1,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "9th-density"
+      },
+      {
+        "n": 10,
+        "markers": [
+          "net-1"
+        ],
+        "a": "Part of an artificial security grid called Sky-Net-1"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "mud-floods",
+    "title": "Mud-floods",
+    "topicTitle": "Mud-floods",
+    "totalQ": 25,
+    "reportChars": 10620,
+    "weakQ": 2,
+    "strongQ": 9,
+    "weakRatio": 0.08,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 14,
+        "score": 0.32,
+        "tokenRatio": 0.52,
+        "gramRatio": 0.09,
+        "q": "What is \"Dustification\" as observed in the Mudflood energy-weapon pattern?",
+        "a": "The same energy-weapon effect that instantly reduces structures weighing hundreds of millions of tons to particulate dust — matching modern ",
+        "missingGrams": [
+          "dustification observed",
+          "observed mudflood",
+          "mudflood energy-weapon",
+          "energy-weapon pattern",
+          "pattern energy-weapon",
+          "energy-weapon effect",
+          "effect instantly",
+          "instantly reduces"
+        ]
+      },
+      {
+        "n": 19,
+        "score": 0.34,
+        "tokenRatio": 0.6,
+        "gramRatio": 0.03,
+        "q": "What did Edward Leedskalnin demonstrate with residual old-world knowledge?",
+        "a": "He single-handedly cut, moved, and perfectly balanced 1,100 tons of limestone, replicating lost pre-Re-set laws of weight and leverage via m",
+        "missingGrams": [
+          "leedskalnin demonstrate",
+          "demonstrate residual",
+          "residual old-world",
+          "old-world knowledge",
+          "knowledge single-handedly",
+          "single-handedly moved",
+          "moved perfectly",
+          "perfectly balanced"
+        ]
+      }
+    ],
+    "markerIssues": [
+      {
+        "n": 11,
+        "markers": [
+          "past-200"
+        ],
+        "a": "Merely the leftover infrastructure of the previous Re-set — not the product of sudden natural progress."
+      },
+      {
+        "n": 20,
+        "markers": [
+          "pre-1880"
+        ],
+        "a": "The Consolidated Coal Company ordered their removal and complete smelting to eradicate free-energy technology and enforce total reliance on "
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "adrenochrome-trade",
+    "title": "Adrenochrome Trade",
+    "topicTitle": "Adrenochrome Trade",
+    "totalQ": 25,
+    "reportChars": 8560,
+    "weakQ": 1,
+    "strongQ": 11,
+    "weakRatio": 0.04,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 21,
+        "score": 0.32,
+        "tokenRatio": 0.54,
+        "gramRatio": 0.04,
+        "q": "Where was the 500 million reduced-population target documented?",
+        "a": "On the now-destroyed Georgia Guidestones",
+        "missingGrams": [
+          "million reduced-population",
+          "reduced-population target",
+          "target documented",
+          "documented now-destroyed",
+          "now-destroyed georgia",
+          "guidestones million",
+          "million figure",
+          "figure documentation"
+        ]
+      }
+    ],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "Atmospheric-condensers",
+    "title": "Atmospheric Condensers",
+    "topicTitle": "Atmospheric Condensers",
+    "totalQ": 25,
+    "reportChars": 6645,
+    "weakQ": 1,
+    "strongQ": 14,
+    "weakRatio": 0.04,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 14,
+        "score": 0.32,
+        "tokenRatio": 0.52,
+        "gramRatio": 0.08,
+        "q": "What approximate dimensions and crowning feature define the copper condenser unit?",
+        "a": "About 3 feet in diameter and 3 feet in height, crowned with a 2-foot upward-pointing spire.",
+        "missingGrams": [
+          "approximate dimensions",
+          "dimensions crowning",
+          "crowning feature",
+          "feature define",
+          "define copper",
+          "copper condenser",
+          "condenser unit",
+          "feet diameter"
+        ]
+      }
+    ],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "cosmology",
+    "title": "Cosmology",
+    "topicTitle": "Cosmology",
+    "totalQ": 25,
+    "reportChars": 6665,
+    "weakQ": 1,
+    "strongQ": 17,
+    "weakRatio": 0.04,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 18,
+        "score": 0.32,
+        "tokenRatio": 0.58,
+        "gramRatio": 0,
+        "q": "What are Realm-3 and Realm-2 in relation to Antarctica?",
+        "a": "Realm-3 is the known Earth, created when the fake ice wall of Antarctica was established to partition it from original Realm-2.",
+        "missingGrams": [
+          "realm-3 realm-2",
+          "realm-2 relation",
+          "relation antarctica",
+          "antarctica realm-3",
+          "realm-3 earth",
+          "earth created",
+          "created fake",
+          "wall antarctica"
+        ]
+      }
+    ],
+    "markerIssues": [
+      {
+        "n": 6,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The central physical plain of existence consisting of 178 worlds, with Earth at the center of a toroid energy field."
+      },
+      {
+        "n": 11,
+        "markers": [
+          "net-1"
+        ],
+        "a": "A network of security-system-like entities perceived as stars that project overlays and suppress geographical density."
+      },
+      {
+        "n": 17,
+        "markers": [
+          "realm-1"
+        ],
+        "a": "Mars is not a distant celestial body in deep space but is physically joined to the outer ice wall of Realm-1."
+      },
+      {
+        "n": 18,
+        "markers": [
+          "realm-3",
+          "realm-2"
+        ],
+        "a": "Realm-3 is the known Earth, created when the fake ice wall of Antarctica was established to partition it from original Realm-2."
+      },
+      {
+        "n": 19,
+        "markers": [
+          "net-1"
+        ],
+        "a": "They cast localized frequency blankets downward, hiding ultra-high-frequency Crystalline Temples beneath overlays of ultra-low frequencies."
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "evidence-of-resets",
+    "title": "Evidence of Resets",
+    "topicTitle": "Evidence of Resets",
+    "totalQ": 25,
+    "reportChars": 8985,
+    "weakQ": 1,
+    "strongQ": 8,
+    "weakRatio": 0.04,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 25,
+        "score": 0.35,
+        "tokenRatio": 0.6,
+        "gramRatio": 0.03,
+        "q": "What happens when the EMF flash and projection-dome removal expose the Re-set matrix?",
+        "a": "97% (NPCs and sleepers) evaporate; trusted institutions' genocidal child-sacrificing nature triggers mass shock; G.A.A.",
+        "missingGrams": [
+          "happens flash",
+          "flash projection-dome",
+          "projection-dome removal",
+          "removal expose",
+          "expose re-set",
+          "re-set matrix",
+          "matrix npcs",
+          "npcs sleepers"
+        ]
+      }
+    ],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "giant-skeletons",
+    "title": "Giant Skeletons",
+    "topicTitle": "Giant Skeletons",
+    "totalQ": 25,
+    "reportChars": 9339,
+    "weakQ": 1,
+    "strongQ": 7,
+    "weakRatio": 0.04,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 25,
+        "score": 0.34,
+        "tokenRatio": 0.6,
+        "gramRatio": 0.02,
+        "q": "Why must parasites suppress reset evidence, and why is exposure inevitable?",
+        "a": "They need linear natural-progress illusion so people stay docile in a multi-millennial harvest loop for energy and genetic material; yet ten",
+        "missingGrams": [
+          "must parasites",
+          "parasites suppress",
+          "suppress reset",
+          "reset evidence",
+          "evidence exposure",
+          "exposure inevitable",
+          "inevitable need",
+          "need linear"
+        ]
+      }
+    ],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "reptilians",
+    "title": "Reptilians",
+    "topicTitle": "Reptilians",
+    "totalQ": 25,
+    "reportChars": 7151,
+    "weakQ": 1,
+    "strongQ": 12,
+    "weakRatio": 0.04,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 10,
+        "score": 0.34,
+        "tokenRatio": 0.57,
+        "gramRatio": 0.06,
+        "q": "What are Demons in relation to Sold Souls and the Vatican?",
+        "a": "Non-physical entities that host within top-tier sold souls, feed exclusively on Loosh, and operate heavily out of the Vatican.",
+        "missingGrams": [
+          "demons relation",
+          "relation sold",
+          "souls vatican",
+          "vatican non-physical",
+          "non-physical entities",
+          "entities host",
+          "host top-tier",
+          "top-tier sold"
+        ]
+      }
+    ],
+    "markerIssues": []
+  },
+  {
+    "src": "breakdown",
+    "id": "the-cube-system",
+    "title": "The Cube System",
+    "topicTitle": "The Cube System",
+    "totalQ": 25,
+    "reportChars": 6534,
+    "weakQ": 1,
+    "strongQ": 3,
+    "weakRatio": 0.04,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [
+      {
+        "n": 24,
+        "score": 0.18,
+        "tokenRatio": 0.25,
+        "gramRatio": 0.1,
+        "q": "The term 'Hard Drive' is another name for which concept?",
+        "a": "The Cube System",
+        "missingGrams": [
+          "term 'hard",
+          "'hard drive'",
+          "drive' name",
+          "name concept",
+          "concept cube",
+          "system cube",
+          "system cube",
+          "containment described"
+        ]
+      }
+    ],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "Control-mechanisms",
+    "title": "Control Mechanisms",
+    "topicTitle": "Control Mechanisms",
+    "totalQ": 25,
+    "reportChars": 8757,
+    "weakQ": 0,
+    "strongQ": 15,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 1,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "To permanently enslave Taran human souls within Gateway-10 (the Known Lands) for endless Loosh and Adrenochrome harvest."
+      },
+      {
+        "n": 9,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "They physically severed the Spirit Tree (Mt Meru / Northern Rock / Hyperborea) and replaced it with a petrified stump."
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "culling-survivors",
+    "title": "Culling Survivors",
+    "topicTitle": "Culling Survivors",
+    "totalQ": 25,
+    "reportChars": 5523,
+    "weakQ": 0,
+    "strongQ": 12,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "custodians",
+    "title": "Custodians",
+    "topicTitle": "Custodians",
+    "totalQ": 25,
+    "reportChars": 5395,
+    "weakQ": 0,
+    "strongQ": 14,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "density-suppression",
+    "title": "Density Suppression",
+    "topicTitle": "Density Suppression",
+    "totalQ": 25,
+    "reportChars": 8936,
+    "weakQ": 0,
+    "strongQ": 10,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 1,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "To lower an original 9th-density environment to 3rd density so parasites that cannot survive high frequency could occupy and quarantine the "
+      },
+      {
+        "n": 3,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The parasitic takeover and energetic reversal of the central realm from a harmonious 9th-density environment into a negative looping 3rd-den"
+      },
+      {
+        "n": 8,
+        "markers": [
+          "realm-3"
+        ],
+        "a": "A human vessel hosting a demon or deeply negative entity, hijacked as a \"Key\" so 4th-density entities can bypass frequency barriers into Rea"
+      },
+      {
+        "n": 25,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "Final destruction of the 3rd-density prison and absolute restoration of physical perfection on Gateway-10."
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "ebs-disclosure",
+    "title": "EBS Disclosure",
+    "topicTitle": "EBS Disclosure",
+    "totalQ": 25,
+    "reportChars": 7934,
+    "weakQ": 0,
+    "strongQ": 12,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 1,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "It is the critical psychological catalyst precipitating the climax of the Ascension Event on Gateway-10."
+      },
+      {
+        "n": 18,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "Custodians — former 12th-density caretakers who rebelled and engineered predatory 4th-density species such as Anuk and Draco over 100,000 Ea"
+      },
+      {
+        "n": 25,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "Complete permanent eradication of parasitic influence from physical creation, neutralizing the threat and securing the physical realms for e"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "eliminating-old-knowledge",
+    "title": "Eliminating Old Knowledge",
+    "topicTitle": "Eliminating Old Knowledge",
+    "totalQ": 25,
+    "reportChars": 6866,
+    "weakQ": 0,
+    "strongQ": 9,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "fake-alien-invasion",
+    "title": "Fake Alien Invasion",
+    "topicTitle": "Fake Alien Invasion",
+    "totalQ": 25,
+    "reportChars": 7792,
+    "weakQ": 0,
+    "strongQ": 18,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 21,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "A 178,000-year conflict against 4th-density parasites such as Custodians, Anuk/Anunnaki, and Grey ETs who ran Gateway-10 as a Loosh and Adre"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "fake-linear-time",
+    "title": "Fake Linear Time",
+    "topicTitle": "Fake Linear Time",
+    "totalQ": 25,
+    "reportChars": 6453,
+    "weakQ": 0,
+    "strongQ": 16,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 1,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "A multidimensional etheric supercomputer designed by the Source of All Creation, inverted after parasites took over Gateway-10 into a 3rd-de"
+      },
+      {
+        "n": 6,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "On Gateway-10 — the central physical plane of 178 worlds where reality inversion and temporal manipulation occur."
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "false-history",
+    "title": "False History",
+    "topicTitle": "False History",
+    "totalQ": 25,
+    "reportChars": 9840,
+    "weakQ": 0,
+    "strongQ": 13,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 21,
+        "markers": [
+          "realm-2",
+          "gateway-10"
+        ],
+        "a": "Originally 12th density caretakers, they betrayed Source, allied with Anuk, Niberians, Omicron, and Alpha Draco, seized Realm-2 (Known Lands"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "finance-fake-money",
+    "title": "Finance (Fake Money)",
+    "topicTitle": "Finance (Fake Money)",
+    "totalQ": 25,
+    "reportChars": 6357,
+    "weakQ": 0,
+    "strongQ": 15,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "firmament",
+    "title": "Firmament",
+    "topicTitle": "Firmament",
+    "totalQ": 25,
+    "reportChars": 6656,
+    "weakQ": 0,
+    "strongQ": 17,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 10,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The central physical plain of existence comprising 178 interconnected worlds, where the firmament encloses the known flat realms."
+      },
+      {
+        "n": 11,
+        "markers": [
+          "realm-3",
+          "realm-2"
+        ],
+        "a": "The currently inhabited segment of the flat Earth, artificially partitioned from the original Realm-2 by fake ice boundaries."
+      },
+      {
+        "n": 22,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "Planets do not orbit suns, and Earth does not rotate at nearly 1,000 miles per hour; the cosmos is a vast connected horizontal plain on Gate"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "flat-earth",
+    "title": "Flat Earth",
+    "topicTitle": "Flat Earth",
+    "totalQ": 25,
+    "reportChars": 5728,
+    "weakQ": 0,
+    "strongQ": 13,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 4,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "To prevent humanity from discovering the Ice Wall and exploring the broader realms of Gateway-10."
+      },
+      {
+        "n": 8,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The central physical plane comprising 178 worlds, functioning horizontally, where the known Earth currently resides at the center."
+      },
+      {
+        "n": 9,
+        "markers": [
+          "realm-3",
+          "realm-2"
+        ],
+        "a": "Realm-3 (the Known Lands) was artificially partitioned from original Realm-2 by the fake Ice Wall known as Antarctica."
+      },
+      {
+        "n": 16,
+        "markers": [
+          "realm-1"
+        ],
+        "a": "Not a distant celestial body in the sky — it is physically joined to the outer Ice Wall of Realm-1."
+      },
+      {
+        "n": 17,
+        "markers": [
+          "net-1"
+        ],
+        "a": "Not distant thermodynamic suns — they are projectors of Sky-Net-1 casting frequency Overlays onto the flat Earth to hide original high-frequ"
+      },
+      {
+        "n": 25,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "Imminent removal of the holographic projection dome and exposure of true flat cosmology will cause catastrophic psychological collapse for t"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "free-energy-architecture",
+    "title": "Free Energy Architecture",
+    "topicTitle": "Free Energy Architecture",
+    "totalQ": 25,
+    "reportChars": 8048,
+    "weakQ": 0,
+    "strongQ": 15,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "freemasonry",
+    "title": "Freemasonry",
+    "topicTitle": "Freemasonry",
+    "totalQ": 25,
+    "reportChars": 8817,
+    "weakQ": 0,
+    "strongQ": 12,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "frequency-fences",
+    "title": "Frequency Fences",
+    "topicTitle": "Frequency Fences",
+    "totalQ": 25,
+    "reportChars": 7700,
+    "weakQ": 0,
+    "strongQ": 11,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 16,
+        "markers": [
+          "net-1"
+        ],
+        "a": "They project a blanket of Ultra Low Frequencies (ULF) over indestructible crystalline temples, rendering them completely invisible to 3rd-de"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "grey-ets",
+    "title": "Grey ETs",
+    "topicTitle": "Grey ETs",
+    "totalQ": 25,
+    "reportChars": 8669,
+    "weakQ": 0,
+    "strongQ": 5,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 1,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "From the ancient betrayal of the Source of Creation by the Custodians, who inverted Gateway-10 out of greed and desire for absolute autonomy"
+      },
+      {
+        "n": 13,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "Stolen from one or two species of naturally occurring highly positive Grey ETs who had absolutely no involvement in the Gateway-10 inversion"
+      },
+      {
+        "n": 17,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "Replaced it with a petrified stump, instantly dampening frequencies across all of Gateway-10 so 4th-density parasites could inhabit an envir"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "holographic-projection-dome",
+    "title": "Holographic Projection Dome",
+    "topicTitle": "Holographic Projection Dome",
+    "totalQ": 25,
+    "reportChars": 5415,
+    "weakQ": 0,
+    "strongQ": 8,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 12,
+        "markers": [
+          "net-1"
+        ],
+        "a": "Sky-Net-1 projectors — not distant suns on thermodynamics or gravity — casting overlays and suppressing geographic density."
+      },
+      {
+        "n": 13,
+        "markers": [
+          "net-1"
+        ],
+        "a": "They cast localized overlays onto the Earth, blanketing those temples under low-density frequencies so they stay invisible in 3rd Density pe"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "ice-wall",
+    "title": "Ice Wall",
+    "topicTitle": "Ice Wall",
+    "totalQ": 25,
+    "reportChars": 5935,
+    "weakQ": 0,
+    "strongQ": 2,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 2,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "On a highly suppressed horizontal flat plain at the center of Gateway-10 — not a spherical planet spinning in a vacuum."
+      },
+      {
+        "n": 4,
+        "markers": [
+          "realm-3",
+          "realm-2"
+        ],
+        "a": "The specific fake ice wall engineered to sever human reality from the broader plain, artificially creating Realm-3 (the Known Lands)."
+      },
+      {
+        "n": 9,
+        "markers": [
+          "realm-3",
+          "realm-2"
+        ],
+        "a": "Realm-3 was forcefully carved from original Realm-2 by creating the fake ice wall of Antarctica, quarantining the human population."
+      },
+      {
+        "n": 10,
+        "markers": [
+          "realm-1"
+        ],
+        "a": "Not a distant sky planet — it is physically attached to the outer Ice Wall of Realm-1 on the horizontal plain."
+      },
+      {
+        "n": 11,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The central physical plain of existence comprising 178 interconnected horizontal worlds."
+      },
+      {
+        "n": 16,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "Even high-ranking terrestrial agents often know only that the world is flat and enclosed, remaining blind to the other 177 worlds of Gateway"
+      },
+      {
+        "n": 23,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "A soul can begin to understand its true placement within Gateway-10 and prepare to exit the matrix."
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "inversion-tactics",
+    "title": "Inversion Tactics",
+    "topicTitle": "Inversion Tactics",
+    "totalQ": 25,
+    "reportChars": 8400,
+    "weakQ": 0,
+    "strongQ": 5,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 1,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "A meticulously planned multidimensional inversion from Custodian betrayal that suppressed Gateway-10 into an engineered prison matrix throug"
+      },
+      {
+        "n": 3,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "Destruction of primary energetic architecture, Density Suppression technology, and complete rewriting of physical laws, history, and biology"
+      },
+      {
+        "n": 5,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "Grey ET factions destroyed it and replaced it with a petrified stump, instantly cutting Gateway-10 primary energy like a SWAT team cutting p"
+      },
+      {
+        "n": 22,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "Gateway-10 would have completely fallen — ultimate victory of evil over physical creation, necessitating total destruction of the multi-bill"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "loosh-harvesting",
+    "title": "Loosh Harvesting",
+    "topicTitle": "Loosh Harvesting",
+    "totalQ": 25,
+    "reportChars": 12313,
+    "weakQ": 0,
+    "strongQ": 7,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 2,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "For subjugation, energy extraction, and consumption — maximizing traumatic harvest of Loosh and Adrenochrome from human vessels via multi-la"
+      },
+      {
+        "n": 7,
+        "markers": [
+          "1000"
+        ],
+        "a": "Recurring planned culls roughly every thousand years harvesting massive Adrenochrome and Loosh, then repopulating with cloned parentless Orp"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "lucifer-light-bearer",
+    "title": "Lucifer as Light Bearer",
+    "topicTitle": "Lucifer as Light Bearer",
+    "totalQ": 25,
+    "reportChars": 6013,
+    "weakQ": 0,
+    "strongQ": 17,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 17,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The Sun acts as Amnesia Vortex wiping memory and sequential-time illusion, while the mobile ET station behind Lucifer's light traverses the "
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "moon-et-space-station",
+    "title": "Moon as ET Space Station",
+    "topicTitle": "Moon as ET Space Station",
+    "totalQ": 25,
+    "reportChars": 6754,
+    "weakQ": 0,
+    "strongQ": 15,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 10,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "Gateway-10 is the central physical plain of 178 interconnected worlds, 65 of which are traversed and managed by this mobile lunar station."
+      },
+      {
+        "n": 18,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "It can instantly materialize and dematerialize in situ, phase out of its holographic shell, travel Gateway-10 to manage frequencies and gath"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "negative-entities",
+    "title": "Negative Entities",
+    "topicTitle": "Negative Entities",
+    "totalQ": 25,
+    "reportChars": 8472,
+    "weakQ": 0,
+    "strongQ": 10,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 1,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The treasonous Custodians — former caretakers who systematically orchestrated genetic creation of subservient parasitic proxy races to invad"
+      },
+      {
+        "n": 4,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The original 12th-density caretakers who plotted to seize Gateway-10 for total autonomy, becoming the source of all negativity in the univer"
+      },
+      {
+        "n": 25,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The entire 4th-density parasitic infrastructure, including the 97% animated by Replica Souls, instantly pixelates and evaporates into the ae"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "oopa-artifacts",
+    "title": "Oopa Artifacts",
+    "topicTitle": "Oopa Artifacts",
+    "totalQ": 25,
+    "reportChars": 9710,
+    "weakQ": 0,
+    "strongQ": 8,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "orphan-trains",
+    "title": "Orphan Trains",
+    "topicTitle": "Orphan Trains",
+    "totalQ": 25,
+    "reportChars": 7320,
+    "weakQ": 0,
+    "strongQ": 9,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 14,
+        "markers": [
+          "to-5"
+        ],
+        "a": "After a Re-set concludes, free-energy technology is dismantled or hidden for 3 to 5 years; then newly grown orphans are trained to cities th"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "parasitic-takeover",
+    "title": "The Parasitic Takeover",
+    "topicTitle": "The Parasitic Takeover",
+    "totalQ": 25,
+    "reportChars": 9985,
+    "weakQ": 0,
+    "strongQ": 11,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 1,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The Custodians — originally highly trusted, benevolent 12th-density caretakers who launched a catastrophic, millennia-spanning betrayal."
+      },
+      {
+        "n": 2,
+        "markers": [
+          "realm-2"
+        ],
+        "a": "It was inverted into a localized prison matrix designed exclusively for eternal energetic harvesting and soul enslavement."
+      },
+      {
+        "n": 5,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "The enormously powerful central crystalline energetic generator of Gateway-10; its destruction was the paramount tactical strike used to sup"
+      },
+      {
+        "n": 14,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "With SWAT-team precision they cut the power: advanced phasing technology destroyed the Spirit Tree and replaced it with a petrified tree stu"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "resets-hidden-history",
+    "title": "Resets and Hidden History",
+    "topicTitle": "Resets and Hidden History",
+    "totalQ": 25,
+    "reportChars": 11220,
+    "weakQ": 0,
+    "strongQ": 14,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 2,
+        "markers": [
+          "1000 years"
+        ],
+        "a": "Pre-planned, cyclic events of planetary-scale destruction, torture, and mass sacrifice orchestrated every thousand years to harvest human en"
+      },
+      {
+        "n": 23,
+        "markers": [
+          "gateway-10",
+          "realm-2"
+        ],
+        "a": "Custodians (fallen 12th-density betrayers) engineered parasites including Anunnaki, Omicron, Alpha Draco, and Greys; Realm-2/Known Lands sit"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "simulation-reality",
+    "title": "Simulation Reality",
+    "topicTitle": "Simulation Reality",
+    "totalQ": 25,
+    "reportChars": 7944,
+    "weakQ": 0,
+    "strongQ": 7,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 20,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "A highly vibrant 9th-density physical plain on Gateway-10; Custodians destroyed the Spirit Tree (Mt Meru / Hyperborea) and deployed massive "
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "sol-soul-portal",
+    "title": "Sol as a Soul Portal",
+    "topicTitle": "Sol as a Soul Portal",
+    "totalQ": 25,
+    "reportChars": 5918,
+    "weakQ": 0,
+    "strongQ": 5,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": []
+  },
+  {
+    "src": "alice",
+    "id": "sun-and-moon",
+    "title": "The Sun and Moon",
+    "topicTitle": "The Sun and Moon",
+    "totalQ": 25,
+    "reportChars": 6793,
+    "weakQ": 0,
+    "strongQ": 9,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 18,
+        "markers": [
+          "gateway-10"
+        ],
+        "a": "To any of the other 65 worlds across Gateway-10 that the parasites also controlled, gathering loosh and managing frequency outputs across mu"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "tartaria",
+    "title": "Tartaria",
+    "topicTitle": "Tartaria",
+    "totalQ": 25,
+    "reportChars": 9455,
+    "weakQ": 0,
+    "strongQ": 10,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": [
+      {
+        "n": 4,
+        "markers": [
+          "1000"
+        ],
+        "a": "Orchestrated cyclical termination events about every thousand years — population tortured, harvested for Loosh and Adrenochrome, and extermi"
+      }
+    ]
+  },
+  {
+    "src": "alice",
+    "id": "world-war-i",
+    "title": "World War I",
+    "topicTitle": "World War I",
+    "totalQ": 25,
+    "reportChars": 8280,
+    "weakQ": 0,
+    "strongQ": 7,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": []
+  },
+  {
+    "src": "breakdown",
+    "id": "hard-drive-framework",
+    "title": "Hard Drive Framework",
+    "topicTitle": "Hard Drive Framework",
+    "totalQ": 25,
+    "reportChars": 6048,
+    "weakQ": 0,
+    "strongQ": 8,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": []
+  },
+  {
+    "src": "breakdown",
+    "id": "matrix-scaffolding",
+    "title": "Matrix Scaffolding",
+    "topicTitle": "Matrix Scaffolding",
+    "totalQ": 25,
+    "reportChars": 5679,
+    "weakQ": 0,
+    "strongQ": 1,
+    "weakRatio": 0,
+    "status": "PASS",
+    "titleMismatch": false,
+    "titleLooksOff": false,
+    "weak": [],
+    "markerIssues": []
+  }
+]
