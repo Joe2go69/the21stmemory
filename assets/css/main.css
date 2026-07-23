@@ -10368,3 +10368,122 @@ button.footer-donate-btn {
     max-width: 11rem;
   }
 }
+
+/* =============================================
+   Support cards: Ko-fi / GoFundMe full-bleed backgrounds
+   ============================================= */
+
+.footer-donate-card--bg {
+  position: relative !important;
+  overflow: hidden !important;
+  min-height: 22rem;
+  border: 1px solid rgba(167, 139, 250, 0.35) !important;
+  background: #0a0614 !important;
+  text-align: left !important;
+  align-items: stretch !important;
+  padding: 0 !important;
+  gap: 0 !important;
+}
+
+.footer-donate-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.footer-donate-bg__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
+
+/* Dark gradient so text stays readable over 9:16 art */
+.footer-donate-bg__scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(8, 5, 18, 0.35) 0%,
+      rgba(8, 5, 18, 0.55) 35%,
+      rgba(8, 5, 18, 0.88) 68%,
+      rgba(8, 5, 18, 0.96) 100%
+    ),
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(109, 40, 217, 0.2) 0%, transparent 60%);
+}
+
+.footer-donate-body {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
+  height: 100%;
+  min-height: 22rem;
+  padding: 1.25rem 1.15rem 1.2rem;
+  box-sizing: border-box;
+}
+
+.footer-donate-card--bg .footer-donate-label {
+  color: #fff !important;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.45);
+}
+
+.footer-donate-card--bg .footer-donate-desc {
+  color: rgba(237, 228, 255, 0.9) !important;
+  text-align: left !important;
+  min-height: 0;
+  flex: 1 1 auto !important;
+  max-width: 22ch;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.footer-donate-card--bg .footer-donate-icon {
+  background: rgba(15, 10, 31, 0.55) !important;
+  border-color: rgba(255, 255, 255, 0.18) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.5);
+}
+
+.footer-donate-card--bg .footer-donate-btn {
+  width: 100% !important;
+  margin-top: auto !important;
+  box-shadow: 0 8px 20px -8px rgba(0, 0, 0, 0.55) !important;
+}
+
+.footer-donate-card--bg:hover {
+  border-color: rgba(196, 181, 253, 0.5) !important;
+  transform: none !important;
+}
+
+.footer-donate-card--bg:hover .footer-donate-bg__img {
+  transform: scale(1.03);
+  transition: transform 0.45s ease;
+}
+
+.footer-donate-bg__img {
+  transition: transform 0.45s ease;
+}
+
+/* Hide old inset media wraps on bg cards if any remain */
+.footer-donate-card--bg .footer-donate-media-wrap {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .footer-donate-card--bg,
+  .footer-donate-card--bg .footer-donate-body {
+    min-height: 24rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .footer-donate-card--bg:hover .footer-donate-bg__img {
+    transform: none;
+  }
+}

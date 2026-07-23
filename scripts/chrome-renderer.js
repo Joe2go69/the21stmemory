@@ -138,16 +138,19 @@ function renderFooter(footerData, options = {}) {
               ${fundsHTML}
             </div>
             <div class="footer-donate-grid">
-              ${kofi ? `<div class="footer-donate-card footer-donate-card--kofi">
-                <div class="footer-donate-icon" aria-hidden="true">${SITE_ICON_SVGS.kofi}</div>
-                <span class="footer-donate-label">Ko-fi</span>
-                ${kofi.image ? `<div class="footer-donate-media-wrap">
-                  <img src="${withBasePath(kofi.image, basePath)}" alt="${kofi.imageAlt || 'Ko-fi'}" class="footer-donate-media" width="180" height="320" loading="lazy" decoding="async" />
+              ${kofi ? `<div class="footer-donate-card footer-donate-card--kofi footer-donate-card--bg${kofi.image ? ' has-bg' : ''}">
+                ${kofi.image ? `<div class="footer-donate-bg" aria-hidden="true">
+                  <img src="${withBasePath(kofi.image, basePath)}" alt="" class="footer-donate-bg__img" width="720" height="1280" loading="lazy" decoding="async" />
+                  <div class="footer-donate-bg__scrim"></div>
                 </div>` : ''}
-                <p class="footer-donate-desc">${kofi.hint}</p>
-                <a href="${kofi.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span>${kofi.buttonText}</span>
-                </a>
+                <div class="footer-donate-body">
+                  <div class="footer-donate-icon" aria-hidden="true">${SITE_ICON_SVGS.kofi}</div>
+                  <span class="footer-donate-label">Ko-fi</span>
+                  <p class="footer-donate-desc">${kofi.hint}</p>
+                  <a href="${kofi.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
+                    <span>${kofi.buttonText}</span>
+                  </a>
+                </div>
               </div>` : ''}
               <div class="footer-donate-card footer-donate-card--btc">
                 <div class="footer-donate-icon footer-donate-icon--btc" aria-hidden="true">${btcIcon}</div>
@@ -159,16 +162,19 @@ function renderFooter(footerData, options = {}) {
                 <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcAddress}</code>
                 <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address">Copy address</button>
               </div>
-              ${gofundme ? `<div class="footer-donate-card footer-donate-card--gofundme">
-                <div class="footer-donate-icon footer-donate-icon--heart" aria-hidden="true">${SITE_ICON_SVGS.heart}</div>
-                <span class="footer-donate-label">GoFundMe</span>
-                ${gofundme.image ? `<div class="footer-donate-media-wrap">
-                  <img src="${withBasePath(gofundme.image, basePath)}" alt="${gofundme.imageAlt || 'GoFundMe'}" class="footer-donate-media" width="180" height="320" loading="lazy" decoding="async" />
+              ${gofundme ? `<div class="footer-donate-card footer-donate-card--gofundme footer-donate-card--bg${gofundme.image ? ' has-bg' : ''}">
+                ${gofundme.image ? `<div class="footer-donate-bg" aria-hidden="true">
+                  <img src="${withBasePath(gofundme.image, basePath)}" alt="" class="footer-donate-bg__img" width="720" height="1280" loading="lazy" decoding="async" />
+                  <div class="footer-donate-bg__scrim"></div>
                 </div>` : ''}
-                <p class="footer-donate-desc">${gofundme.hint}</p>
-                <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span>${gofundme.buttonText}</span>
-                </a>
+                <div class="footer-donate-body">
+                  <div class="footer-donate-icon footer-donate-icon--heart" aria-hidden="true">${SITE_ICON_SVGS.heart}</div>
+                  <span class="footer-donate-label">GoFundMe</span>
+                  <p class="footer-donate-desc">${gofundme.hint}</p>
+                  <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
+                    <span>${gofundme.buttonText}</span>
+                  </a>
+                </div>
               </div>` : ''}
             </div>
             <p class="footer-support-note">Always free · Many ways to help · Grateful for every form of support</p>
