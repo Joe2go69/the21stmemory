@@ -137,8 +137,15 @@ function enhanceTerminologyHtml(html) {
 }
 
 function renderStudyToolbar() {
-  return `<div id="report-study-toolbar" class="report-study-toolbar" role="toolbar" aria-label="Report options">
-    <button type="button" class="report-study-btn" data-report-print aria-label="Print or save report as PDF">Print report</button>
+  return `<div id="report-study-toolbar" class="report-study-toolbar" role="toolbar" aria-label="Reading comfort">
+    <div class="report-study-group" role="group" aria-label="Text size">
+      <span class="report-study-label" id="report-size-label">Text</span>
+      <button type="button" class="report-study-btn report-study-btn--size" data-report-size="sm" aria-pressed="false" aria-labelledby="report-size-label" title="Smaller text">A</button>
+      <button type="button" class="report-study-btn report-study-btn--size report-study-btn--size-md" data-report-size="md" aria-pressed="true" aria-labelledby="report-size-label" title="Default text">A</button>
+      <button type="button" class="report-study-btn report-study-btn--size report-study-btn--size-lg" data-report-size="lg" aria-pressed="false" aria-labelledby="report-size-label" title="Larger text">A</button>
+    </div>
+    <button type="button" class="report-study-btn report-study-btn--focus" data-report-focus aria-pressed="false" aria-label="Enter focus mode for calm reading"><span class="report-study-btn__label">Focus</span></button>
+    <button type="button" class="report-study-btn" data-report-print aria-label="Print or save report as PDF">Print</button>
   </div>`;
 }
 

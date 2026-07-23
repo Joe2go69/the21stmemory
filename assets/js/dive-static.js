@@ -12,9 +12,16 @@ function initDiveStatic() {
   initReadingProgress();
   initReportToc();
   initTerminologyCards();
-  initPrintReport();
   initSectionNavSticky();
   initShareMenu();
+  // Print + font size + focus mode (replaces standalone initPrintReport)
+  initReadingComfort();
+}
+
+function initReadingComfort() {
+  if (typeof TopicUtils !== 'undefined' && TopicUtils.initReadingComfort) {
+    TopicUtils.initReadingComfort();
+  }
 }
 
 const VIDEO_LANG_STORAGE_KEY = '21st-memory-video-lang';

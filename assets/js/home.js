@@ -49,6 +49,35 @@ function renderArchiveBadgeSkeleton() {
   `;
 }
 
+/** Soft count-up for metric numbers (skipped when reduced-motion). */
+function animateMetricCounts(root) {
+  const nodes = root.querySelectorAll('[data-count-to]');
+  if (!nodes.length) return;
+
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  nodes.forEach((el) => {
+    const target = parseInt(el.getAttribute('data-count-to'), 10);
+    if (!Number.isFinite(target)) return;
+    if (reduced) {
+      el.textContent = String(target);
+      return;
+    }
+
+    const duration = 900;
+    const start = performance.now();
+    el.textContent = '0';
+
+    const tick = (now) => {
+      const t = Math.min(1, (now - start) / duration);
+      // ease-out cubic
+      const eased = 1 - Math.pow(1 - t, 3);
+      el.textContent = String(Math.round(target * eased));
+      if (t < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  });
+}
+
 function renderLiveArchiveBadge(live, total) {
   const badge = document.getElementById('live-archive-badge');
   if (!badge) return;
@@ -60,15 +89,15 @@ function renderLiveArchiveBadge(live, total) {
   badge.innerHTML = `
     <div class="codex-home-metrics-grid">
       <div class="codex-home-metric">
-        <div class="codex-home-metric-value">${total}</div>
+        <div class="codex-home-metric-value" data-count-to="${total}">${total}</div>
         <div class="codex-home-metric-label">Topics archived</div>
       </div>
       <div class="codex-home-metric">
-        <div class="codex-home-metric-value">${live}</div>
+        <div class="codex-home-metric-value codex-home-metric-value--accent" data-count-to="${live}">${live}</div>
         <div class="codex-home-metric-label">Ready now</div>
       </div>
       <div class="codex-home-metric">
-        <div class="codex-home-metric-value">${soon}</div>
+        <div class="codex-home-metric-value" data-count-to="${soon}">${soon}</div>
         <div class="codex-home-metric-label">Coming soon</div>
       </div>
     </div>
@@ -83,6 +112,7 @@ function renderLiveArchiveBadge(live, total) {
     </div>
   `;
   TopicUtils.animateProgressBars(badge);
+  animateMetricCounts(badge);
 }
 
 function renderJourneyCard(topic) {
@@ -198,6 +228,8 @@ async function loadJourneyStrip() {
   const strip = document.getElementById('journey-strip');
   if (!strip) return;
 
+  renderJourneySkeleton();
+
   try {
     const pathBlocks = [];
     for (const config of JOURNEY_PATHS) {
@@ -230,12 +262,51 @@ async function loadJourneyStrip() {
   }
 
   strip.innerHTML = `
-    <div class="codex-home-journey-head">
-      <h3 class="journey-strip-title">Recommended starting points</h3>
-      <p class="journey-strip-sub text-mem-muted">Loading topics…</p>
+    <div class="journey-empty">
+      <div class="journey-empty__icon" aria-hidden="true">◎</div>
+      <h3 class="journey-strip-title">Starting paths temporarily unavailable</h3>
+      <p class="journey-strip-sub">The Codex is still open — browse the full archive while journeys reload.</p>
+      <a href="${ARCHIVE_VIEW_ALL_HREF}" class="btn-secondary journey-empty__cta">Explore the Codex</a>
     </div>
   `;
   return null;
+}
+
+/** One soft play-button pulse when a facade first enters the viewport. */
+function initVideoPlayPulse(root) {
+  if (!root) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  const wraps = root.querySelectorAll('.video-poster-wrap');
+  if (!wraps.length) return;
+
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      // Pulse the circular icon (the visible control), not the transparent wrap
+      const icon = entry.target.querySelector('.video-play-icon');
+      if (icon) icon.classList.add('is-pulse-once');
+      obs.unobserve(entry.target);
+    });
+  }, { threshold: 0.45 });
+
+  wraps.forEach((wrap) => observer.observe(wrap));
+}
+
+function renderJourneySkeleton() {
+  const strip = document.getElementById('journey-strip');
+  if (!strip) return;
+  strip.innerHTML = `
+    <div class="codex-home-journey-head">
+      <div>
+        <h3 class="journey-strip-title">Recommended starting points</h3>
+        <p class="journey-strip-sub">Loading curated paths…</p>
+      </div>
+    </div>
+    <div class="journey-skeleton" aria-hidden="true">
+      <span class="skeleton skeleton-bar" style="width:100%;height:7.5rem;border-radius:1rem"></span>
+    </div>
+  `;
 }
 
 async function fetchArchiveStatsFromIndex(sourceId = 'alice') {
@@ -279,4 +350,5 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (rumbleGrid && typeof TopicUtils !== 'undefined' && TopicUtils.setupClickToPlayVideos) {
     TopicUtils.setupClickToPlayVideos(rumbleGrid);
   }
+  initVideoPlayPulse(rumbleGrid);
 });

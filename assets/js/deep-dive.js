@@ -99,7 +99,13 @@ function setupReadingProgress() {
 }
 
 function initDeepDiveStudyToolbar(toolbar) {
-  if (!toolbar || toolbar.dataset.bound === '1') return;
+  if (!toolbar) return;
+  // Phase 4: font size + focus mode + print (shared with static dives)
+  if (typeof TopicUtils !== 'undefined' && TopicUtils.initReadingComfort) {
+    TopicUtils.initReadingComfort({ toolbar });
+    return;
+  }
+  if (toolbar.dataset.bound === '1') return;
   toolbar.dataset.bound = '1';
   toolbar.querySelector('[data-report-print]')?.addEventListener('click', () => window.print());
 }

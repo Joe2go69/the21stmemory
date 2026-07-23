@@ -54,11 +54,145 @@ function initDeferredAnalytics() {
 function initSharedComponents() {
   setActiveNavLink();
   initSectionScrollSpy();
+  initSkipToContent();
   initMobileMenu();
+  initNavbarScrollState();
   initBackToTop();
   initFooterSupportCopy();
+  initSupportAnchorScroll();
   initDeferredAnalytics();
   setTimeout(initScrollAnimations, 250);
+}
+
+/**
+ * Scroll #support so its top sits cleanly just under the fixed navbar.
+ * CSS scroll-margin alone fights html scroll-padding; measure nav height instead.
+ */
+function getFixedNavOffset() {
+  const nav = document.querySelector('.navbar');
+  const h = nav ? nav.getBoundingClientRect().height : 80;
+  return h + 16; // small gap under nav
+}
+
+function scrollToSupport({ smooth = true } = {}) {
+  const target = document.getElementById('support');
+  if (!target) return false;
+  const top = target.getBoundingClientRect().top + window.scrollY - getFixedNavOffset();
+  window.scrollTo({
+    top: Math.max(0, top),
+    behavior: smooth && !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      ? 'smooth'
+      : 'auto'
+  });
+  return true;
+}
+
+function initSupportAnchorScroll() {
+  // Same-page Support clicks (nav uses href="#support")
+  document.querySelectorAll('a[href="#support"], a[href$="#support"]').forEach((link) => {
+    link.addEventListener('click', (e) => {
+      const href = link.getAttribute('href') || '';
+      const target = document.getElementById('support');
+      if (!target) return;
+
+      // Cross-document links (e.g. ../../index.html#support) — only intercept if same page
+      if (href !== '#support') {
+        try {
+          const url = new URL(href, window.location.href);
+          const here = window.location.pathname.replace(/\/$/, '') || '/';
+          const there = url.pathname.replace(/\/$/, '') || '/';
+          if (url.origin !== window.location.origin || there !== here) return;
+        } catch (_) {
+          return;
+        }
+      }
+
+      e.preventDefault();
+      scrollToSupport({ smooth: true });
+      if (history.pushState) {
+        history.pushState(null, '', '#support');
+      } else {
+        window.location.hash = 'support';
+      }
+      setActiveNavLink();
+    });
+  });
+
+  // Landing with #support (or browser back/forward)
+  const alignIfSupportHash = () => {
+    if (window.location.hash !== '#support') return;
+    // Let layout settle, then correct under fixed nav
+    requestAnimationFrame(() => {
+      scrollToSupport({ smooth: false });
+      setTimeout(() => scrollToSupport({ smooth: false }), 50);
+    });
+  };
+
+  if (document.readyState === 'complete') {
+    alignIfSupportHash();
+  } else {
+    window.addEventListener('load', alignIfSupportHash, { once: true });
+  }
+  window.addEventListener('hashchange', () => {
+    if (window.location.hash === '#support') alignIfSupportHash();
+  });
+}
+
+/**
+ * Skip link: real value is keyboard tab-order (bypass nav), not scroll distance.
+ * Ensures #main can receive focus so the next Tab lands in content.
+ */
+function initSkipToContent() {
+  const skip = document.querySelector('.skip-link');
+  const main = document.getElementById('main');
+  if (!skip || !main) return;
+
+  if (!main.hasAttribute('tabindex')) {
+    main.setAttribute('tabindex', '-1');
+  }
+
+  skip.addEventListener('click', (e) => {
+    // Focus main so keyboard users leave the chrome behind
+    e.preventDefault();
+    main.focus({ preventScroll: false });
+    // Nudge slightly so fixed navbar never covers the focus target
+    const top = main.getBoundingClientRect().top + window.scrollY - 8;
+    if (Math.abs(window.scrollY - top) > 2) {
+      window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+    }
+    // Keep hash in URL for consistency
+    if (history.replaceState) {
+      history.replaceState(null, '', '#main');
+    } else {
+      window.location.hash = 'main';
+    }
+  });
+}
+
+/** Adds .is-scrolled to navbar after leaving the top — denser glass, stronger edge glow. */
+function initNavbarScrollState() {
+  const navbar = document.querySelector('.navbar');
+  if (!navbar) return;
+
+  const threshold = 12;
+  let ticking = false;
+
+  const update = () => {
+    const scrolled = window.scrollY > threshold;
+    navbar.classList.toggle('is-scrolled', scrolled);
+    ticking = false;
+  };
+
+  update();
+  window.addEventListener(
+    'scroll',
+    () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(update);
+    },
+    { passive: true }
+  );
 }
 
 function initFooterSupportCopy() {
@@ -150,10 +284,36 @@ function initBackToTop() {
   });
 }
 
-function closeMobileMenu(mobileBtn, mobileMenu) {
+function getMobileMenuFocusables(mobileMenu) {
+  return Array.from(
+    mobileMenu.querySelectorAll(
+      'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    )
+  ).filter((el) => !el.hasAttribute('disabled') && el.offsetParent !== null);
+}
+
+function ensureMobileMenuOverlay() {
+  let overlay = document.getElementById('mobile-menu-overlay');
+  if (overlay) return overlay;
+  overlay = document.createElement('div');
+  overlay.id = 'mobile-menu-overlay';
+  overlay.className = 'mobile-menu-overlay';
+  overlay.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(overlay);
+  return overlay;
+}
+
+function closeMobileMenu(mobileBtn, mobileMenu, overlay) {
+  if (!mobileMenu.classList.contains('open') && !document.body.classList.contains('menu-open')) {
+    return;
+  }
   mobileMenu.classList.remove('open');
   mobileBtn.setAttribute('aria-expanded', 'false');
   document.body.classList.remove('menu-open');
+  if (overlay) {
+    overlay.classList.remove('is-visible');
+    overlay.setAttribute('aria-hidden', 'true');
+  }
   const svg = mobileBtn.querySelector('svg');
   if (svg) {
     svg.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />`;
@@ -161,14 +321,37 @@ function closeMobileMenu(mobileBtn, mobileMenu) {
   mobileBtn.classList.remove('active-glow');
 }
 
+function openMobileMenu(mobileBtn, mobileMenu, overlay) {
+  mobileMenu.classList.add('open');
+  mobileBtn.setAttribute('aria-expanded', 'true');
+  document.body.classList.add('menu-open');
+  if (overlay) {
+    overlay.classList.add('is-visible');
+    overlay.setAttribute('aria-hidden', 'false');
+  }
+  const svg = mobileBtn.querySelector('svg');
+  if (svg) {
+    svg.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />`;
+  }
+  mobileBtn.classList.add('active-glow');
+
+  // Move focus into the drawer for keyboard users
+  const first = getMobileMenuFocusables(mobileMenu)[0];
+  if (first) {
+    requestAnimationFrame(() => first.focus());
+  }
+}
+
 function initMobileMenu() {
   const mobileBtn = document.getElementById('mobile-menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
   if (!mobileBtn || !mobileMenu) return;
 
+  const overlay = ensureMobileMenuOverlay();
+
   const syncMobileMenuState = () => {
     if (window.innerWidth >= 768) {
-      closeMobileMenu(mobileBtn, mobileMenu);
+      closeMobileMenu(mobileBtn, mobileMenu, overlay);
     }
   };
 
@@ -176,23 +359,50 @@ function initMobileMenu() {
 
   mobileBtn.addEventListener('click', () => {
     if (window.innerWidth >= 768) return;
-    const isOpen = mobileMenu.classList.toggle('open');
-    mobileBtn.setAttribute('aria-expanded', isOpen);
-    document.body.classList.toggle('menu-open', isOpen);
-    const svg = mobileBtn.querySelector('svg');
-    if (svg) {
-      if (isOpen) {
-        svg.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />`;
-        mobileBtn.classList.add('active-glow');
-      } else {
-        svg.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />`;
-        mobileBtn.classList.remove('active-glow');
-      }
+    if (mobileMenu.classList.contains('open')) {
+      closeMobileMenu(mobileBtn, mobileMenu, overlay);
+    } else {
+      openMobileMenu(mobileBtn, mobileMenu, overlay);
     }
   });
 
-  mobileMenu.querySelectorAll('.nav-link, .nav-cta-mobile').forEach(link => {
-    link.addEventListener('click', () => closeMobileMenu(mobileBtn, mobileMenu));
+  overlay.addEventListener('click', () => {
+    closeMobileMenu(mobileBtn, mobileMenu, overlay);
+    mobileBtn.focus();
+  });
+
+  mobileMenu.querySelectorAll('.nav-link, .nav-cta-mobile').forEach((link) => {
+    link.addEventListener('click', () => closeMobileMenu(mobileBtn, mobileMenu, overlay));
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (!mobileMenu.classList.contains('open')) return;
+
+    if (e.key === 'Escape') {
+      closeMobileMenu(mobileBtn, mobileMenu, overlay);
+      mobileBtn.focus();
+      return;
+    }
+
+    // Focus trap inside the open menu
+    if (e.key !== 'Tab') return;
+    const focusables = getMobileMenuFocusables(mobileMenu);
+    if (!focusables.length) return;
+
+    // Include the hamburger so Shift+Tab from first link can reach it… but keep loop in menu for simplicity
+    const first = focusables[0];
+    const last = focusables[focusables.length - 1];
+    const active = document.activeElement;
+
+    if (e.shiftKey) {
+      if (active === first || active === mobileBtn) {
+        e.preventDefault();
+        last.focus();
+      }
+    } else if (active === last) {
+      e.preventDefault();
+      first.focus();
+    }
   });
 }
 

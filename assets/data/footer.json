@@ -68,25 +68,28 @@
     }
   ],
   "support": {
-    "heading": "Support the Archive",
-    "message": "Everything here is free. Support can mean sharing the work, joining the community, or contributing if you are able. Financial gifts help cover the AI tools and hosting that keep the archive running.",
+    "heading": "Support the archive",
+    "eyebrow": "Optional",
+    "message": "21st Memory is free for everyone, always — no paywalls, no memberships, no pressure. If the work has helped you and you feel moved to give, voluntary support helps cover AI tools, hosting, and ongoing archive growth. Sharing the work is support too.",
+    "fundsLabel": "Where gifts go",
+    "funds": ["AI decoding tools", "Hosting & bandwidth", "New topics & quizzes"],
     "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
     "qrImage": "assets/images/bitcoin-qr.webp",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",
-    "bitcoinHint": "Scan or copy the address to send a direct BTC contribution.",
+    "bitcoinHint": "Scan with a wallet app, or copy the address below.",
     "kofi": {
       "href": "https://ko-fi.com/the21stmemory",
-      "buttonText": "Tip on Ko-fi",
-      "hint": "One-time tips or monthly support for the living archive.",
+      "buttonText": "Open Ko-fi",
+      "hint": "One-time tip or monthly support — simple and quick.",
       "image": "images/kofi.webp",
-      "imageAlt": "Ko-fi — Support The 21st Memory"
+      "imageAlt": "Ko-fi — support the living archive"
     },
     "gofundme": {
       "href": "https://gofund.me/bea823278",
-      "buttonText": "Support the Move",
-      "hint": "Help Joe & Spooky relocate to Vancouver Island so the archive can keep growing.",
+      "buttonText": "Open GoFundMe",
+      "hint": "Help Joe & Spooky relocate so the archive can keep expanding.",
       "image": "images/gofundme.webp",
-      "imageAlt": "GoFundMe — Help Joe & Spooky relocate to Vancouver Island"
+      "imageAlt": "GoFundMe — help the archive keep growing"
     }
   }
 }

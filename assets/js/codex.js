@@ -166,8 +166,8 @@ function renderToolbar() {
     <div class="codex-toolbar static-card rounded-2xl">
       <div class="codex-toolbar-header">
         <div>
-          <div class="topics-filter-title">Search the archive</div>
-          <p class="topics-filter-subtitle">Find transmissions and topics across the full Codex</p>
+          <div class="topics-filter-title">Search &amp; filter</div>
+          <p class="topics-filter-subtitle">Find topics across the archive, then open a transmission</p>
         </div>
       </div>
       <div class="codex-search-row">
@@ -194,7 +194,7 @@ function renderToolbar() {
       </div>
       <div class="topics-filter-section topics-filter-section--status">
         <span class="topics-filter-label">Status</span>
-        <div class="topics-filter-btn-group">${statusButtons}</div>
+        <div class="topics-filter-btn-group topics-filter-btn-group--spaced">${statusButtons}</div>
       </div>
     </div>
   `;
@@ -252,12 +252,35 @@ function renderSourcesGrid() {
   container.innerHTML = '';
 
   if (!sources.length) {
+    const hasQuery = !!TopicUtils.normalizeSearch(codexState.filters.query);
+    const hasStatus = codexState.filters.status !== 'all';
     container.innerHTML = `
-      <div class="col-span-full codex-empty-state">
-        <div class="text-lg font-semibold mb-2">No transmissions match your search</div>
-        <p class="text-mem-muted">Try a different keyword or clear the status filter.</p>
+      <div class="col-span-full">
+        ${RenderUtils.renderDiscoveryEmpty({
+          title: 'No transmissions match',
+          message: hasQuery
+            ? 'Try a different keyword, or clear filters to see the full archive.'
+            : hasStatus
+              ? 'No transmissions in this status. Switch to All to browse everything.'
+              : 'The Codex is loading sources — try again in a moment.',
+          icon: 'search',
+          actions: [
+            ...(hasQuery || hasStatus
+              ? [{ label: 'Clear filters', primary: true, attrs: 'data-codex-clear-filters' }]
+              : []),
+            { label: 'Browse quizzes', href: 'quizzes.html' }
+          ]
+        })}
       </div>
     `;
+    container.querySelector('[data-codex-clear-filters]')?.addEventListener('click', () => {
+      codexState.filters.query = '';
+      codexState.filters.status = 'all';
+      renderToolbar();
+      renderCodexViews();
+      syncCodexUrlFromState();
+      document.getElementById('codex-search-input')?.focus();
+    });
     return;
   }
 
@@ -281,12 +304,22 @@ function renderTopicSearchResults() {
   section.hidden = false;
 
   if (!results.length) {
-    list.innerHTML = `
-      <div class="codex-empty-state">
-        <div class="text-lg font-semibold mb-2">No topics found for this search</div>
-        <p class="text-mem-muted">Search titles, descriptions, or category names across the archive.</p>
-      </div>
-    `;
+    list.innerHTML = RenderUtils.renderDiscoveryEmpty({
+      title: 'No topics found',
+      message: 'Search titles, descriptions, or categories — or clear the query to browse transmissions.',
+      icon: 'search',
+      actions: [
+        { label: 'Clear search', primary: true, attrs: 'data-codex-clear-search' },
+        { label: 'Explore Alice', href: 'topics.html?source=alice' }
+      ]
+    });
+    list.querySelector('[data-codex-clear-search]')?.addEventListener('click', () => {
+      codexState.filters.query = '';
+      renderToolbar();
+      renderCodexViews();
+      syncCodexUrlFromState();
+      document.getElementById('codex-search-input')?.focus();
+    });
     return;
   }
 

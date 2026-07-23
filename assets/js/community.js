@@ -197,24 +197,32 @@ function renderNetworkGrid() {
   if (!channels.length) {
     const hasData = networkChannels.length > 0;
     const searching = networkSearchQuery.trim().length > 0;
+    const filtered = activeNetworkFilter !== 'all';
+
+    let title = 'No channels found';
+    let message = 'Try another filter or clear search.';
+    const actions = [];
+
+    if (!hasData) {
+      title = 'Directory unavailable';
+      message = 'Could not load the network directory. Check your connection and try again.';
+      actions.push({ label: 'Try again', primary: true, attrs: 'id="network-retry-btn"' });
+    } else if (searching) {
+      title = 'No channels match your search';
+      message = 'Try a shorter keyword, or clear search to browse the full directory.';
+      actions.push({ label: 'Clear search', primary: true, attrs: 'id="network-clear-search-btn"' });
+      if (filtered) {
+        actions.push({ label: 'Show all channels', attrs: 'id="network-reset-filter-btn"' });
+      }
+    } else if (filtered) {
+      title = 'Nothing in this section';
+      message = 'This filter has no channels right now. Browse all channels instead.';
+      actions.push({ label: 'Show all channels', primary: true, attrs: 'id="network-reset-filter-btn"' });
+    }
+
     grid.innerHTML = `
-      <div class="col-span-full text-center py-12 text-mem-muted network-empty-state">
-        <p class="mb-4">${
-          !hasData
-            ? 'Could not load network directory.'
-            : searching
-              ? 'No channels match your search.'
-              : 'No channels match this filter.'
-        }</p>
-        ${!hasData ? `
-          <button type="button" class="btn-primary network-retry-btn" id="network-retry-btn">
-            Try again
-          </button>
-        ` : searching ? `
-          <button type="button" class="btn-secondary network-retry-btn" id="network-clear-search-btn">
-            Clear search
-          </button>
-        ` : ''}
+      <div class="col-span-full">
+        ${RenderUtils.renderDiscoveryEmpty({ title, message, icon: 'network', actions })}
       </div>
     `;
 
@@ -228,6 +236,9 @@ function renderNetworkGrid() {
       renderNetworkGrid();
       announceNetworkResults();
       input?.focus();
+    });
+    document.getElementById('network-reset-filter-btn')?.addEventListener('click', () => {
+      setActiveNetworkFilter('all');
     });
     return;
   }

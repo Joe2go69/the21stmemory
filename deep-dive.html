@@ -217,8 +217,15 @@
         
         <div class="max-w-6xl mx-auto px-6">
             <div class="content-card static-card lesson-content-card rounded-3xl p-8 md:p-12 lg:p-16">
-                <div id="report-study-toolbar" class="report-study-toolbar" role="toolbar" aria-label="Report options" hidden>
-                  <button type="button" class="report-study-btn" data-report-print aria-label="Print or save report as PDF">Print report</button>
+                <div id="report-study-toolbar" class="report-study-toolbar" role="toolbar" aria-label="Reading comfort" hidden>
+                  <div class="report-study-group" role="group" aria-label="Text size">
+                    <span class="report-study-label" id="report-size-label">Text</span>
+                    <button type="button" class="report-study-btn report-study-btn--size" data-report-size="sm" aria-pressed="false" aria-labelledby="report-size-label" title="Smaller text">A</button>
+                    <button type="button" class="report-study-btn report-study-btn--size report-study-btn--size-md" data-report-size="md" aria-pressed="true" aria-labelledby="report-size-label" title="Default text">A</button>
+                    <button type="button" class="report-study-btn report-study-btn--size report-study-btn--size-lg" data-report-size="lg" aria-pressed="false" aria-labelledby="report-size-label" title="Larger text">A</button>
+                  </div>
+                  <button type="button" class="report-study-btn report-study-btn--focus" data-report-focus aria-pressed="false" aria-label="Enter focus mode for calm reading"><span class="report-study-btn__label">Focus</span></button>
+                  <button type="button" class="report-study-btn" data-report-print aria-label="Print or save report as PDF">Print</button>
                 </div>
                 <div id="report-toc-mobile" class="report-toc-mobile" hidden></div>
                 <div class="report-layout">
@@ -303,42 +310,50 @@
             </div>
           </div>
         </div>
-        <div class="footer-support" id="support" style="scroll-margin-top: 7rem;">
-            <div class="footer-heading">Support the Archive</div>
-            <p class="footer-support-message">Everything here is free. Support can mean sharing the work, joining the community, or contributing if you are able. Financial gifts help cover the AI tools and hosting that keep the archive running.</p>
+        <div class="footer-support" id="support">
+            <div class="footer-support-head">
+              <p class="footer-support-eyebrow">Optional</p>
+              <h2 class="footer-support-title">Support the archive</h2>
+              <p class="footer-support-message">21st Memory is free for everyone, always — no paywalls, no memberships, no pressure. If the work has helped you and you feel moved to give, voluntary support helps cover AI tools, hosting, and ongoing archive growth. Sharing the work is support too.</p>
+              <ul class="footer-support-funds" aria-label="Where gifts go">
+        <li>AI decoding tools</li><li>Hosting & bandwidth</li><li>New topics & quizzes</li>
+      </ul>
+            </div>
             <div class="footer-donate-grid">
-              <div class="footer-donate-card footer-donate-card--btc">
-                <span class="footer-donate-label">Bitcoin</span>
-                <div class="footer-donate-media-wrap footer-donate-media-wrap--qr">
-                  <img src="assets/images/bitcoin-qr.webp" alt="Bitcoin QR code for 21st Memory donations" class="footer-donate-media footer-donate-media--qr" width="96" height="96" loading="lazy" />
-                </div>
-                <p class="footer-donate-desc">Scan or copy the address to send a direct BTC contribution.</p>
-                <code class="footer-support-address" id="btc-address" title="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx">bc1qnwnapp…dc9ksx</code>
-                <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx" aria-label="Copy Bitcoin address">Copy address</button>
-              </div>
               <div class="footer-donate-card footer-donate-card--kofi">
+                <div class="footer-donate-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h10a4 4 0 0 1 0 8H9l-3 3V8z"/><path d="M18 5h1a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1V5z"/></svg></div>
                 <span class="footer-donate-label">Ko-fi</span>
                 <div class="footer-donate-media-wrap">
-                  <img src="images/kofi.webp" alt="Ko-fi — Support The 21st Memory" class="footer-donate-media" width="160" height="100" loading="lazy" />
+                  <img src="images/kofi.webp" alt="Ko-fi — support the living archive" class="footer-donate-media" width="180" height="320" loading="lazy" decoding="async" />
                 </div>
-                <p class="footer-donate-desc">One-time tips or monthly support for the living archive.</p>
+                <p class="footer-donate-desc">One-time tip or monthly support — simple and quick.</p>
                 <a href="https://ko-fi.com/the21stmemory" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span class="footer-donate-btn-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h10a4 4 0 0 1 0 8H9l-3 3V8z"/><path d="M18 5h1a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1V5z"/></svg></span>
-                  <span>Tip on Ko-fi</span>
+                  <span>Open Ko-fi</span>
                 </a>
               </div>
+              <div class="footer-donate-card footer-donate-card--btc">
+                <div class="footer-donate-icon footer-donate-icon--btc" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 8.5h4.2a2 2 0 0 1 0 4H9.5zm0 4h4.6a2 2 0 0 1 0 4H9.5z"/><path d="M11 7v1.5M13 7v1.5M11 15.5V17M13 15.5V17"/></svg></div>
+                <span class="footer-donate-label">Bitcoin</span>
+                <p class="footer-donate-desc">Scan with a wallet app, or copy the address below.</p>
+                <div class="footer-donate-qr-block">
+                  <img src="assets/images/bitcoin-qr.webp" alt="Bitcoin QR code for 21st Memory donations" class="footer-donate-qr" width="180" height="180" loading="lazy" decoding="async" />
+                </div>
+                <code class="footer-support-address" id="btc-address" title="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx">bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx</code>
+                <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx" aria-label="Copy Bitcoin address">Copy address</button>
+              </div>
               <div class="footer-donate-card footer-donate-card--gofundme">
+                <div class="footer-donate-icon footer-donate-icon--heart" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
                 <span class="footer-donate-label">GoFundMe</span>
                 <div class="footer-donate-media-wrap">
-                  <img src="images/gofundme.webp" alt="GoFundMe — Help Joe & Spooky relocate to Vancouver Island" class="footer-donate-media" width="160" height="100" loading="lazy" />
+                  <img src="images/gofundme.webp" alt="GoFundMe — help the archive keep growing" class="footer-donate-media" width="180" height="320" loading="lazy" decoding="async" />
                 </div>
-                <p class="footer-donate-desc">Help Joe & Spooky relocate to Vancouver Island so the archive can keep growing.</p>
+                <p class="footer-donate-desc">Help Joe & Spooky relocate so the archive can keep expanding.</p>
                 <a href="https://gofund.me/bea823278" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span class="footer-donate-btn-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></span>
-                  <span>Support the Move</span>
+                  <span>Open GoFundMe</span>
                 </a>
               </div>
             </div>
+            <p class="footer-support-note">Always free · Never required · Grateful for any form of support</p>
           </div>
         <div class="pt-8 border-t border-mem-subtle text-center">
           <p class="text-sm text-mem-dim">The Great Remembering Has Begun.</p>

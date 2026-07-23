@@ -110,57 +110,68 @@ function renderFooter(footerData, options = {}) {
       }).join('')
     : '';
 
-  const kofiCardHTML = footerData.support?.kofi
-    ? `<div class="footer-donate-card footer-donate-card--kofi">
-                <span class="footer-donate-label">Ko-fi</span>
-                <div class="footer-donate-media-wrap">
-                  <img src="${withBasePath(footerData.support.kofi.image, basePath)}" alt="${footerData.support.kofi.imageAlt || 'Ko-fi support'}" class="footer-donate-media" width="160" height="100" loading="lazy" />
-                </div>
-                <p class="footer-donate-desc">${footerData.support.kofi.hint}</p>
-                <a href="${footerData.support.kofi.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span class="footer-donate-btn-icon" aria-hidden="true">${SITE_ICON_SVGS.kofi}</span>
-                  <span>${footerData.support.kofi.buttonText}</span>
-                </a>
-              </div>`
-    : '';
-
-  const gofundmeCardHTML = footerData.support?.gofundme
-    ? `<div class="footer-donate-card footer-donate-card--gofundme">
-                <span class="footer-donate-label">GoFundMe</span>
-                <div class="footer-donate-media-wrap">
-                  <img src="${withBasePath(footerData.support.gofundme.image, basePath)}" alt="${footerData.support.gofundme.imageAlt || 'GoFundMe campaign'}" class="footer-donate-media" width="160" height="100" loading="lazy" />
-                </div>
-                <p class="footer-donate-desc">${footerData.support.gofundme.hint}</p>
-                <a href="${footerData.support.gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span class="footer-donate-btn-icon" aria-hidden="true">${SITE_ICON_SVGS.heart}</span>
-                  <span>${footerData.support.gofundme.buttonText}</span>
-                </a>
-              </div>`
-    : '';
-
   const bitcoinHint = footerData.support?.bitcoinHint
-    || 'Scan or copy the address to send a direct BTC contribution.';
+    || 'Direct contribution — scan the QR or copy the address.';
 
   const btcAddress = footerData.support?.bitcoinAddress || '';
   const btcDisplay = truncateMiddle(btcAddress, 10, 6);
+  const btcIcon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 8.5h4.2a2 2 0 0 1 0 4H9.5zm0 4h4.6a2 2 0 0 1 0 4H9.5z"/><path d="M11 7v1.5M13 7v1.5M11 15.5V17M13 15.5V17"/></svg>';
+
+  const funds = Array.isArray(footerData.support?.funds) ? footerData.support.funds : [];
+  const fundsHTML = funds.length
+    ? `<ul class="footer-support-funds" aria-label="${footerData.support.fundsLabel || 'What support covers'}">
+        ${funds.map((item) => `<li>${item}</li>`).join('')}
+      </ul>`
+    : '';
+
+  const kofi = footerData.support?.kofi;
+  const gofundme = footerData.support?.gofundme;
+  const eyebrow = footerData.support?.eyebrow || 'Optional';
+  const heading = footerData.support?.heading || 'Support the archive';
 
   const supportHTML = footerData.support
-    ? `<div class="footer-support" id="support" style="scroll-margin-top: 7rem;">
-            <div class="footer-heading">${footerData.support.heading}</div>
-            <p class="footer-support-message">${footerData.support.message}</p>
+    ? `<div class="footer-support" id="support">
+            <div class="footer-support-head">
+              <p class="footer-support-eyebrow">${eyebrow}</p>
+              <h2 class="footer-support-title">${heading}</h2>
+              <p class="footer-support-message">${footerData.support.message}</p>
+              ${fundsHTML}
+            </div>
             <div class="footer-donate-grid">
+              ${kofi ? `<div class="footer-donate-card footer-donate-card--kofi">
+                <div class="footer-donate-icon" aria-hidden="true">${SITE_ICON_SVGS.kofi}</div>
+                <span class="footer-donate-label">Ko-fi</span>
+                ${kofi.image ? `<div class="footer-donate-media-wrap">
+                  <img src="${withBasePath(kofi.image, basePath)}" alt="${kofi.imageAlt || 'Ko-fi'}" class="footer-donate-media" width="180" height="320" loading="lazy" decoding="async" />
+                </div>` : ''}
+                <p class="footer-donate-desc">${kofi.hint}</p>
+                <a href="${kofi.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
+                  <span>${kofi.buttonText}</span>
+                </a>
+              </div>` : ''}
               <div class="footer-donate-card footer-donate-card--btc">
+                <div class="footer-donate-icon footer-donate-icon--btc" aria-hidden="true">${btcIcon}</div>
                 <span class="footer-donate-label">Bitcoin</span>
-                <div class="footer-donate-media-wrap footer-donate-media-wrap--qr">
-                  <img src="${withBasePath(footerData.support.qrImage, basePath)}" alt="${footerData.support.qrAlt}" class="footer-donate-media footer-donate-media--qr" width="96" height="96" loading="lazy" />
-                </div>
                 <p class="footer-donate-desc">${bitcoinHint}</p>
-                <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcDisplay}</code>
+                <div class="footer-donate-qr-block">
+                  <img src="${withBasePath(footerData.support.qrImage, basePath)}" alt="${footerData.support.qrAlt}" class="footer-donate-qr" width="180" height="180" loading="lazy" decoding="async" />
+                </div>
+                <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcAddress}</code>
                 <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address">Copy address</button>
               </div>
-              ${kofiCardHTML}
-              ${gofundmeCardHTML}
+              ${gofundme ? `<div class="footer-donate-card footer-donate-card--gofundme">
+                <div class="footer-donate-icon footer-donate-icon--heart" aria-hidden="true">${SITE_ICON_SVGS.heart}</div>
+                <span class="footer-donate-label">GoFundMe</span>
+                ${gofundme.image ? `<div class="footer-donate-media-wrap">
+                  <img src="${withBasePath(gofundme.image, basePath)}" alt="${gofundme.imageAlt || 'GoFundMe'}" class="footer-donate-media" width="180" height="320" loading="lazy" decoding="async" />
+                </div>` : ''}
+                <p class="footer-donate-desc">${gofundme.hint}</p>
+                <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
+                  <span>${gofundme.buttonText}</span>
+                </a>
+              </div>` : ''}
             </div>
+            <p class="footer-support-note">Always free · Never required · Grateful for any form of support</p>
           </div>`
     : '';
 

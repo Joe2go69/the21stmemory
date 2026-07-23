@@ -265,12 +265,24 @@ function renderTopicsSearchResults() {
   matches = TopicUtils.filterEntriesByStatus(matches, filters.status);
 
   if (!matches.length) {
-    container.innerHTML = `
-      <div class="text-center py-16 codex-empty-state">
-        <div class="text-lg font-semibold mb-2">No topics found</div>
-        <p class="text-mem-muted">Try another keyword or adjust your status filter.</p>
-      </div>
-    `;
+    container.innerHTML = RenderUtils.renderDiscoveryEmpty({
+      title: 'No topics found',
+      message: 'Try another keyword, switch status to All, or clear search to browse categories.',
+      icon: 'search',
+      actions: [
+        { label: 'Clear search & filters', primary: true, attrs: 'data-topics-clear-filters' },
+        { label: 'Back to Codex', href: 'codex.html' }
+      ]
+    });
+    container.querySelector('[data-topics-clear-filters]')?.addEventListener('click', () => {
+      topicsPageState.filters.search = '';
+      topicsPageState.filters.status = 'all';
+      topicsPageState.filters.category = 'all';
+      renderFilterControls();
+      renderTopicsList();
+      syncTopicsUrlFromState();
+      document.getElementById('topics-search-input')?.focus();
+    });
     return;
   }
 
@@ -377,7 +389,23 @@ function renderTopicsList() {
 
   const html = categories.map(cat => renderCategoryBlock(sourceId, cat)).join('');
   if (!html.trim()) {
-    container.innerHTML = `<div class="text-center py-16 text-mem-muted">No topics match the current filter. Try a different view.</div>`;
+    container.innerHTML = RenderUtils.renderDiscoveryEmpty({
+      title: 'No topics in this view',
+      message: 'This category or status filter has nothing to show. Reset filters to explore the full transmission.',
+      icon: 'archive',
+      actions: [
+        { label: 'Show all topics', primary: true, attrs: 'data-topics-clear-filters' },
+        { label: 'Back to Codex', href: 'codex.html' }
+      ]
+    });
+    container.querySelector('[data-topics-clear-filters]')?.addEventListener('click', () => {
+      topicsPageState.filters.search = '';
+      topicsPageState.filters.status = 'all';
+      topicsPageState.filters.category = 'all';
+      renderFilterControls();
+      renderTopicsList();
+      syncTopicsUrlFromState();
+    });
   } else {
     container.innerHTML = html;
     setupCollapsibleSections(container);

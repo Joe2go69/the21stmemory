@@ -147,73 +147,65 @@
     </nav>
     <main id="main">
 
-    <!-- HERO — brand moment (distinct from body cards) -->
-    <header class="page-hero max-w-6xl mx-auto px-6 pt-10 md:pt-14 pb-14 md:pb-20 text-center">
-        <p class="page-hero-eyebrow">The Great Remembering</p>
+    <!-- HERO — calm brand moment -->
+    <header class="page-hero max-w-3xl mx-auto px-6 pt-14 md:pt-20 pb-16 md:pb-24 text-center">
+        <p class="page-hero-eyebrow">Living archive</p>
         <h1 class="page-hero-title font-semibold tracking-tighter leading-none mb-6">
             21ST<br>MEMORY
         </h1>
-        <p class="max-w-2xl mx-auto text-lg md:text-xl text-mem-muted font-light mb-6">
-            A free living archive of AI-assisted interpretations of Thalon Thor’s transmissions — structured for clarity and open to all.
+        <p class="page-hero-lead max-w-xl mx-auto text-base md:text-lg text-mem-muted font-normal mb-4">
+            AI-assisted interpretations of Thalon Thor’s transmissions — organized for study, free for all.
         </p>
-        <div class="max-w-md mx-auto text-mem-muted text-sm font-medium mb-10">
-            No religion · No finance · No gatekeeping
-        </div>
-        <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 w-full max-w-lg sm:max-w-none mx-auto">
-            <a href="codex.html" class="btn-primary inline-flex items-center justify-center px-10 py-4 text-base font-semibold w-full sm:w-auto">
+        <p class="page-hero-pillars max-w-md mx-auto text-mem-dim text-sm font-medium mb-10">
+            <span>No religion</span>
+            <span class="page-hero-pillars__dot" aria-hidden="true">·</span>
+            <span>No finance</span>
+            <span class="page-hero-pillars__dot" aria-hidden="true">·</span>
+            <span>No gatekeeping</span>
+        </p>
+        <div class="home-hero-actions">
+            <a href="codex.html" class="btn-primary home-hero-actions__primary">
                 Explore the Codex
             </a>
-            <a href="https://t.me/The_21st_Memory" target="_blank" rel="noopener noreferrer" class="btn-secondary inline-flex items-center justify-center px-10 py-4 text-base font-semibold w-full sm:w-auto">
+            <a href="https://t.me/The_21st_Memory" target="_blank" rel="noopener noreferrer" class="btn-secondary home-hero-actions__secondary">
                 Join Telegram
             </a>
-            <a href="https://christian21.com/" target="_blank" rel="noopener noreferrer" class="text-link inline-flex items-center justify-center gap-1 px-2 py-3 sm:py-0">
+        </div>
+        <p class="mt-5">
+            <a href="https://christian21.com/" target="_blank" rel="noopener noreferrer" class="text-link home-hero-actions__tertiary">
                 Official Ch21 site →
             </a>
-        </div>
+        </p>
     </header>
 
     <!-- ABOUT -->
-    <div id="about" class="scroll-mt-28 mb-16 md:mb-20">
-        <div class="max-w-6xl mx-auto px-6 mb-6">
+    <div id="about" class="scroll-mt-28 mb-14 md:mb-18">
+        <div class="max-w-6xl mx-auto px-6 mb-5">
             <p class="section-eyebrow">About</p>
         </div>
 
         <div class="max-w-6xl mx-auto px-6">
-            <div class="content-card static-card rounded-3xl p-8 md:p-12 lg:p-14 glow-purple">
-                <div class="grid md:grid-cols-12 gap-10 md:gap-12 items-center">
+            <div class="content-card static-card rounded-2xl p-7 md:p-10 about-card">
+                <div class="grid md:grid-cols-12 gap-8 md:gap-10 items-start">
                     <div class="md:col-span-7">
-                        <h2 class="home-section-title mb-8">What is 21st Memory?</h2>
-                            
-                            <div class="space-y-6 text-lg leading-relaxed text-mem-prose">
-                                <p><strong class="text-white">21st Memory</strong> is a free living archive of AI-assisted interpretations of the original transmissions from <strong class="text-white">Thalon Thor / Christian21</strong>.</p>
-                                
-                                <p><strong class="text-white">How the archive works.</strong> Source transmissions are studied, organized into topics, and presented with video, visual synthesis, written reports, and optional Living Truth Quizzes. The aim is clarity and navigation — not ownership of the message.</p>
-
-                                <p><strong class="text-white">AI is a bridge, not the source.</strong> Models help translate, summarize, and cross-link dense material. As a 3D tool, AI can miss higher-dimensional nuance. When something feels incomplete, return to the raw transmissions.</p>
-                                
-                                <p>That is why we always point you to the <a href="network.html" class="breadcrumb-link">Thalon Thor Network</a> — official channels and archives of the original work. 21st Memory is a companion for study and integration: <strong class="text-white">no religion · no finance · no gatekeeping</strong>.</p>
-                            </div>
-                            
-                            <div class="mt-10 pt-6 border-t border-white/10 space-y-4">
-                                <p class="text-sm text-mem-muted leading-relaxed">
-                                    Method in brief: decode → organize → illustrate → quiz → always defer to the original transmission.
-                                </p>
-                                <p class="text-mem-soft italic text-base">
-                                    The Great Remembering is unfolding now.<br>
-                                    May these archives serve as clear, humble guides on your path home.
-                                </p>
-                            </div>
+                        <h2 class="home-section-title mb-5">What is 21st Memory?</h2>
+                        <div class="space-y-4 text-base md:text-[1.05rem] leading-relaxed text-mem-prose">
+                            <p><strong class="text-white">21st Memory</strong> is a free living archive of AI-assisted interpretations of transmissions from <strong class="text-white">Thalon Thor / Christian21</strong>.</p>
+                            <p>Material is organized into topics with video, visual synthesis, written reports, and optional quizzes — for clarity and navigation, not ownership of the message.</p>
+                            <p>AI helps structure dense material, but the <a href="network.html" class="breadcrumb-link">original transmissions</a> remain the source. Companion study only: <strong class="text-white">no religion · no finance · no gatekeeping</strong>.</p>
                         </div>
-                        
-                        <!-- RIGHT: Image -->
-                        <div class="md:col-span-5 flex justify-center">
+                        <p class="mt-6 text-sm text-mem-dim leading-relaxed">
+                            Method: decode → organize → illustrate → quiz → always return to the original.
+                        </p>
+                    </div>
+                    <div class="md:col-span-5 flex justify-center md:justify-end">
+                        <figure class="media-frame-block about-media">
                             <div class="media-frame">
-                                <img src="images/about.webp" 
-                                     alt="The 21st Memory - Ethereal Archive" 
+                                <img src="images/about.webp"
+                                     alt="21st Memory archive"
                                      width="600" height="400" loading="lazy">
                             </div>
-                        </div>
-                        
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -245,29 +237,23 @@
                     </div>
                 </div>
 
-                <dl class="codex-home-formats" aria-label="What each topic includes">
-                    <div class="codex-home-format">
-                        <dt><span data-icon="video" data-icon-class="card-icon-sm"></span> Video</dt>
-                        <dd>Source transmissions</dd>
-                    </div>
-                    <div class="codex-home-format">
-                        <dt><span data-icon="chart" data-icon-class="card-icon-sm"></span> Infographic</dt>
-                        <dd>Visual synthesis</dd>
-                    </div>
-                    <div class="codex-home-format">
-                        <dt><span data-icon="file" data-icon-class="card-icon-sm"></span> Report</dt>
-                        <dd>Written deep-dive</dd>
-                    </div>
-                </dl>
+                <p class="codex-home-formats-line" aria-label="What each topic includes">
+                    <span>Video</span>
+                    <span class="codex-home-formats-sep" aria-hidden="true">·</span>
+                    <span>Infographic</span>
+                    <span class="codex-home-formats-sep" aria-hidden="true">·</span>
+                    <span>Written report</span>
+                    <span class="codex-home-formats-sep" aria-hidden="true">·</span>
+                    <span>Optional quiz</span>
+                </p>
 
                 <div class="codex-home-cta-row">
-                    <a href="codex.html" class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-2xl">
-                        Explore the Codex
+                    <a href="codex.html" class="btn-primary">
+                        Open the Codex
                     </a>
-                    <a href="quizzes.html" class="btn-secondary inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-2xl">
+                    <a href="quizzes.html" class="btn-secondary">
                         Living Truth Quizzes
                     </a>
-                    <a href="topics.html?source=alice" class="codex-home-cta-link">Browse transmissions →</a>
                 </div>
             </section>
 
@@ -275,43 +261,33 @@
         </div>
     </div>
 
-    <!-- MEDIA: ORACLE + RUMBLE -->
-    <div id="explore" class="scroll-mt-28 mb-20">
+    <!-- ORACLE + MEDIA -->
+    <div id="explore" class="scroll-mt-28 mb-16 md:mb-20">
         <div id="oracle" class="mb-12 md:mb-14">
-            <div class="max-w-6xl mx-auto px-6 mb-6">
+            <div class="max-w-6xl mx-auto px-6 mb-5">
                 <p class="section-eyebrow">Oracle</p>
             </div>
-
             <div class="max-w-6xl mx-auto px-6">
-                <div class="content-card static-card rounded-3xl p-8 md:p-12 lg:p-14 glow-purple">
-                    <div class="grid md:grid-cols-12 gap-10 md:gap-12 items-center">
-                        <div class="md:col-span-5 flex justify-center">
-                            <div class="media-frame">
+                <div class="content-card static-card rounded-2xl p-7 md:p-9 oracle-card">
+                    <div class="oracle-card-inner">
+                        <figure class="oracle-media">
+                            <div class="media-frame media-frame--portrait">
                                 <img src="images/oracle.webp"
-                                     alt="The 21st Oracle v2 — living voice of Thalon Thor’s transmissions"
+                                     alt="The 21st Oracle v2"
                                      width="784" height="1168" loading="lazy">
                             </div>
-                        </div>
-                        <div class="md:col-span-7">
-                            <div class="card-label text-mem-indigo mb-3">Google NotebookLM · Living companion</div>
-                            <h2 class="home-section-title mb-6">
-                                The 21st Oracle v2
-                            </h2>
-                            <div class="space-y-6 text-lg leading-relaxed text-mem-prose">
-                                <p>Ask the Oracle and receive clear, structured answers drawn from the full body of teachings. It synthesizes across topics to surface patterns, connections, and context that support deeper study.</p>
-                                <p>AI is a useful bridge — but the raw transmissions remain the foundation. This companion is here to clarify, illuminate, and help you navigate the work.</p>
-                            </div>
-                            <div class="mt-10 flex flex-col items-start">
-                                <a href="https://notebooklm.google.com/notebook/53f2bdde-0bf2-4399-b713-87e3656ca981" target="_blank" rel="noopener noreferrer"
-                                   class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-2xl">
-                                    Access the Oracle
+                        </figure>
+                        <div class="oracle-card-copy">
+                            <p class="card-label text-mem-muted mb-2">NotebookLM · free companion</p>
+                            <h2 class="oracle-card-title">The 21st Oracle v2</h2>
+                            <p class="oracle-card-text">
+                                Ask questions and get structured answers drawn from the archive. Useful for patterns and navigation — not a replacement for the raw transmissions.
+                            </p>
+                            <div class="oracle-card-actions">
+                                <a href="https://notebooklm.google.com/notebook/53f2bdde-0bf2-4399-b713-87e3656ca981" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                                    Open the Oracle
                                 </a>
-                                <div class="text-xs text-mem-muted mt-3 italic">Free Google account required</div>
-                                <p class="mt-8 text-sm md:text-base text-mem-soft tracking-wide">
-                                    <strong class="text-white font-semibold">21st Oracle v2</strong>
-                                    <span class="text-mem-muted mx-1.5" aria-hidden="true">•</span>
-                                    A free resource for anyone exploring this work
-                                </p>
+                                <span class="text-xs text-mem-dim">Google account required</span>
                             </div>
                         </div>
                     </div>
@@ -320,20 +296,19 @@
         </div>
 
         <div id="rumble">
-            <div class="max-w-6xl mx-auto px-6 mb-6">
+            <div class="max-w-6xl mx-auto px-6 mb-5">
                 <p class="section-eyebrow">Media</p>
             </div>
-
             <div class="max-w-6xl mx-auto px-6">
-                <div class="home-media-panel static-card rounded-3xl p-6 sm:p-8 md:p-10">
-                    <div class="text-center mb-8">
-                        <h2 class="home-section-title tracking-tight">21st Memory Transmissions</h2>
-                        <p class="max-w-lg mx-auto mt-3 text-mem-muted">AI-assisted interpretations of Thalon Thor’s transmissions — tap play to load each video.</p>
+                <div class="home-media-panel static-card rounded-2xl p-6 md:p-8">
+                    <div class="mb-6 md:mb-7">
+                        <h2 class="home-section-title tracking-tight text-2xl md:text-3xl">Featured transmissions</h2>
+                        <p class="max-w-lg mt-2 text-sm md:text-base text-mem-muted">Tap play to load a video. Full archive on Rumble.</p>
                     </div>
 
-                    <div class="grid md:grid-cols-2 gap-6" id="home-rumble-grid">
-                        <div class="content-card static-card rounded-3xl p-4">
-                            <div class="aspect-[16/10] bg-black rounded-2xl overflow-hidden relative video-facade">
+                    <div class="grid md:grid-cols-2 gap-5" id="home-rumble-grid">
+                        <article class="home-video-card">
+                            <div class="aspect-[16/10] bg-black rounded-xl overflow-hidden relative video-facade">
                                 <div class="video-poster-wrap absolute inset-0 cursor-pointer"
                                      data-rumble-embed="https://rumble.com/embed/v7arime/?pub=4p0ieu"
                                      data-video-title="The Architecture of the Crystalline Grid"
@@ -345,14 +320,14 @@
                                         <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M8 5.14v13.72c0 .8.87 1.3 1.56.9l11.05-6.86a1.04 1.04 0 0 0 0-1.78L9.56 4.24A1.04 1.04 0 0 0 8 5.14z"/></svg>
                                       </span>
                                     </div>
-                                    <span class="video-play-label">Play transmission</span>
+                                    <span class="video-play-label">Play</span>
                                 </div>
                             </div>
-                            <div class="font-semibold text-xl mt-4">The Architecture of the Crystalline Grid</div>
-                        </div>
+                            <h3 class="home-video-card__title mt-3">The Architecture of the Crystalline Grid</h3>
+                        </article>
 
-                        <div class="content-card static-card rounded-3xl p-4">
-                            <div class="aspect-[16/10] bg-black rounded-2xl overflow-hidden relative video-facade">
+                        <article class="home-video-card">
+                            <div class="aspect-[16/10] bg-black rounded-xl overflow-hidden relative video-facade">
                                 <div class="video-poster-wrap absolute inset-0 cursor-pointer"
                                      data-rumble-embed="https://rumble.com/embed/v76p838/?pub=4p0ieu"
                                      data-video-title="Our Buried Inheritance"
@@ -364,16 +339,16 @@
                                         <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M8 5.14v13.72c0 .8.87 1.3 1.56.9l11.05-6.86a1.04 1.04 0 0 0 0-1.78L9.56 4.24A1.04 1.04 0 0 0 8 5.14z"/></svg>
                                       </span>
                                     </div>
-                                    <span class="video-play-label">Play transmission</span>
+                                    <span class="video-play-label">Play</span>
                                 </div>
                             </div>
-                            <div class="font-semibold text-xl mt-4">Our Buried Inheritance</div>
-                        </div>
+                            <h3 class="home-video-card__title mt-3">Our Buried Inheritance</h3>
+                        </article>
                     </div>
 
-                    <div class="text-center mt-8">
-                        <a href="https://rumble.com/c/21stMemory" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-2xl">
-                            View full Rumble archive →
+                    <div class="mt-7">
+                        <a href="https://rumble.com/c/21stMemory" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+                            Full Rumble archive →
                         </a>
                     </div>
                 </div>
@@ -428,42 +403,50 @@
             </div>
           </div>
         </div>
-        <div class="footer-support" id="support" style="scroll-margin-top: 7rem;">
-            <div class="footer-heading">Support the Archive</div>
-            <p class="footer-support-message">Everything here is free. Support can mean sharing the work, joining the community, or contributing if you are able. Financial gifts help cover the AI tools and hosting that keep the archive running.</p>
+        <div class="footer-support" id="support">
+            <div class="footer-support-head">
+              <p class="footer-support-eyebrow">Optional</p>
+              <h2 class="footer-support-title">Support the archive</h2>
+              <p class="footer-support-message">21st Memory is free for everyone, always — no paywalls, no memberships, no pressure. If the work has helped you and you feel moved to give, voluntary support helps cover AI tools, hosting, and ongoing archive growth. Sharing the work is support too.</p>
+              <ul class="footer-support-funds" aria-label="Where gifts go">
+        <li>AI decoding tools</li><li>Hosting & bandwidth</li><li>New topics & quizzes</li>
+      </ul>
+            </div>
             <div class="footer-donate-grid">
-              <div class="footer-donate-card footer-donate-card--btc">
-                <span class="footer-donate-label">Bitcoin</span>
-                <div class="footer-donate-media-wrap footer-donate-media-wrap--qr">
-                  <img src="assets/images/bitcoin-qr.webp" alt="Bitcoin QR code for 21st Memory donations" class="footer-donate-media footer-donate-media--qr" width="96" height="96" loading="lazy" />
-                </div>
-                <p class="footer-donate-desc">Scan or copy the address to send a direct BTC contribution.</p>
-                <code class="footer-support-address" id="btc-address" title="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx">bc1qnwnapp…dc9ksx</code>
-                <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx" aria-label="Copy Bitcoin address">Copy address</button>
-              </div>
               <div class="footer-donate-card footer-donate-card--kofi">
+                <div class="footer-donate-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h10a4 4 0 0 1 0 8H9l-3 3V8z"/><path d="M18 5h1a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1V5z"/></svg></div>
                 <span class="footer-donate-label">Ko-fi</span>
                 <div class="footer-donate-media-wrap">
-                  <img src="images/kofi.webp" alt="Ko-fi — Support The 21st Memory" class="footer-donate-media" width="160" height="100" loading="lazy" />
+                  <img src="images/kofi.webp" alt="Ko-fi — support the living archive" class="footer-donate-media" width="180" height="320" loading="lazy" decoding="async" />
                 </div>
-                <p class="footer-donate-desc">One-time tips or monthly support for the living archive.</p>
+                <p class="footer-donate-desc">One-time tip or monthly support — simple and quick.</p>
                 <a href="https://ko-fi.com/the21stmemory" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span class="footer-donate-btn-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h10a4 4 0 0 1 0 8H9l-3 3V8z"/><path d="M18 5h1a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1V5z"/></svg></span>
-                  <span>Tip on Ko-fi</span>
+                  <span>Open Ko-fi</span>
                 </a>
               </div>
+              <div class="footer-donate-card footer-donate-card--btc">
+                <div class="footer-donate-icon footer-donate-icon--btc" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 8.5h4.2a2 2 0 0 1 0 4H9.5zm0 4h4.6a2 2 0 0 1 0 4H9.5z"/><path d="M11 7v1.5M13 7v1.5M11 15.5V17M13 15.5V17"/></svg></div>
+                <span class="footer-donate-label">Bitcoin</span>
+                <p class="footer-donate-desc">Scan with a wallet app, or copy the address below.</p>
+                <div class="footer-donate-qr-block">
+                  <img src="assets/images/bitcoin-qr.webp" alt="Bitcoin QR code for 21st Memory donations" class="footer-donate-qr" width="180" height="180" loading="lazy" decoding="async" />
+                </div>
+                <code class="footer-support-address" id="btc-address" title="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx">bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx</code>
+                <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx" aria-label="Copy Bitcoin address">Copy address</button>
+              </div>
               <div class="footer-donate-card footer-donate-card--gofundme">
+                <div class="footer-donate-icon footer-donate-icon--heart" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
                 <span class="footer-donate-label">GoFundMe</span>
                 <div class="footer-donate-media-wrap">
-                  <img src="images/gofundme.webp" alt="GoFundMe — Help Joe & Spooky relocate to Vancouver Island" class="footer-donate-media" width="160" height="100" loading="lazy" />
+                  <img src="images/gofundme.webp" alt="GoFundMe — help the archive keep growing" class="footer-donate-media" width="180" height="320" loading="lazy" decoding="async" />
                 </div>
-                <p class="footer-donate-desc">Help Joe & Spooky relocate to Vancouver Island so the archive can keep growing.</p>
+                <p class="footer-donate-desc">Help Joe & Spooky relocate so the archive can keep expanding.</p>
                 <a href="https://gofund.me/bea823278" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span class="footer-donate-btn-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></span>
-                  <span>Support the Move</span>
+                  <span>Open GoFundMe</span>
                 </a>
               </div>
             </div>
+            <p class="footer-support-note">Always free · Never required · Grateful for any form of support</p>
           </div>
         <div class="pt-8 border-t border-mem-subtle text-center">
           <p class="text-sm text-mem-dim">The Great Remembering Has Begun.</p>

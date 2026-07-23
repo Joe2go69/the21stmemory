@@ -118,6 +118,40 @@ const RenderUtils = {
     `;
   },
 
+  /**
+   * Discovery empty state for Codex / Topics / Network hubs.
+   * actions: [{ label, href?, primary?, attrs? }]
+   * attrs e.g. 'data-empty-action="clear-search"'
+   */
+  renderDiscoveryEmpty({
+    title = 'Nothing found',
+    message = 'Try adjusting your search or filters.',
+    icon = 'search',
+    actions = [],
+    extraClass = ''
+  } = {}) {
+    const iconHtml = typeof renderSiteIcon === 'function'
+      ? renderSiteIcon(icon, 'card-icon-lg')
+      : '◎';
+    const actionsHtml = (actions || []).map((a) => {
+      const cls = a.primary ? 'btn-primary' : 'btn-secondary';
+      const extra = a.attrs ? ` ${a.attrs}` : '';
+      if (a.href) {
+        return `<a href="${TopicUtils.escapeAttr(a.href)}" class="${cls} discovery-empty__btn"${extra}>${TopicUtils.escapeHtml(a.label)}</a>`;
+      }
+      return `<button type="button" class="${cls} discovery-empty__btn"${extra}>${TopicUtils.escapeHtml(a.label)}</button>`;
+    }).join('');
+
+    return `
+      <div class="discovery-empty ${extraClass}" role="status">
+        <div class="discovery-empty__icon" aria-hidden="true">${iconHtml}</div>
+        <h3 class="discovery-empty__title">${TopicUtils.escapeHtml(title)}</h3>
+        <p class="discovery-empty__message">${TopicUtils.escapeHtml(message)}</p>
+        ${actionsHtml ? `<div class="discovery-empty__actions">${actionsHtml}</div>` : ''}
+      </div>
+    `;
+  },
+
   renderChannelCard({
     href,
     label,
@@ -185,9 +219,19 @@ const RenderUtils = {
         ? `<div class="mb-6 h-40 bg-mem-inset rounded-t-3xl flex items-center justify-center">${typeof renderSiteIcon === 'function' ? renderSiteIcon('document', 'card-icon-lg') : ''}</div>`
         : '';
 
+    const live = source.stats?.live || 0;
+    const total = source.stats?.total || (live + soon);
+    const readyPct = total ? Math.round((live / total) * 100) : 0;
+    const statusTone = live === 0
+      ? 'source-card--soon'
+      : soon === 0
+        ? 'source-card--ready'
+        : 'source-card--mixed';
+
     const soonPill = soon
       ? `<span class="codex-meta-pill codex-meta-pill--soon">${soon} soon</span>`
       : '';
+    const readyPill = `<span class="codex-meta-pill codex-meta-pill--ready">${live} ready</span>`;
 
     const safeId = TopicUtils.escapeAttr(source.id || 'source');
     const safeTitle = TopicUtils.escapeHtml(source.title || '');
@@ -196,7 +240,7 @@ const RenderUtils = {
 
     return `
       <a href="topics.html?source=${safeId}"
-         class="memory-card content-card channel-card group flex flex-col h-full source-card p-6 sm:p-8"
+         class="memory-card content-card channel-card group flex flex-col h-full source-card p-6 sm:p-8 ${statusTone}"
          data-source-id="${safeId}">
         ${imageHTML}
         <div class="flex items-start justify-between mb-4">
@@ -208,8 +252,11 @@ const RenderUtils = {
         </div>
         <p class="flex-grow text-mem-prose leading-relaxed mb-4 line-clamp-3">${safeBlurb}</p>
         <div class="codex-source-meta">
-          <span class="codex-meta-pill">${source.stats.live} ready</span>
+          ${readyPill}
           ${soonPill}
+        </div>
+        <div class="source-card-progress" aria-hidden="true">
+          <div class="source-card-progress__fill" style="width:${readyPct}%"></div>
         </div>
         <div class="flex-grow"></div>
         <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium card-action mt-4">
