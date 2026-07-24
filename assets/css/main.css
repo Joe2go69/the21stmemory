@@ -2075,9 +2075,9 @@ h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(-
   .section-header { font-size: 3.35rem; }
 }
 
-/* Homepage brand hero — luminous wordmark
-   Vertical gradient: pure white on “21ST”, soft violet on “MEMORY”.
-   Visible on desktop AND mobile. No filter (breaks background-clip on mobile). */
+/* Homepage brand hero — dark metallic wordmark
+   Same colors on mobile and desktop: near-black charcoal → muted purple-gray.
+   Matches the soft embossed look from mobile; size scales, colors do not. */
 .page-hero-title,
 .page-home .page-hero-title {
   /* Block so it stays under the eyebrow; text-align center comes from .page-hero */
@@ -2088,42 +2088,34 @@ h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(-
   line-height: 0.95;
   letter-spacing: -0.04em;
   font-weight: 700;
-  /* Fallback if clip fails — always readable white */
-  color: #FFFFFF;
+  /* Fallback if clip fails — mid-tone of the gradient */
+  color: #4A3F65;
   background-color: transparent;
   background-image: linear-gradient(
     180deg,
-    #FFFFFF 0%,
-    #FFFFFF 36%,
-    #F5F3FF 52%,
-    #E9D5FF 68%,
-    #C4B5FD 86%,
-    #A78BFA 100%
+    #14101F 0%,
+    #1A1528 22%,
+    #2A2140 42%,
+    #3D3358 58%,
+    #5A4F75 78%,
+    #7A6F95 100%
   );
   background-size: 100% 100%;
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  /* No light glow — dark wordmark should sit quietly in the vault */
+  text-shadow: none;
   /* Ambient glow is page-hero::before only — do not use filter here */
 }
 
-/* Desktop: slightly deeper violet so the fade is obvious at large type size */
+/* Desktop/tablet: larger type only — same gradient colors as mobile */
 @media (min-width: 768px) {
   .page-hero-title,
   .page-home .page-hero-title {
     font-size: 5.5rem;
     letter-spacing: -0.055em;
-    background-image: linear-gradient(
-      180deg,
-      #FFFFFF 0%,
-      #FFFFFF 32%,
-      #F8FAFC 46%,
-      #EDE9FE 60%,
-      #DDD6FE 74%,
-      #C4B5FD 88%,
-      #A78BFA 100%
-    );
   }
 }
 
@@ -7776,7 +7768,7 @@ a.btn-primary:hover,
     0 -20px 48px -24px rgba(91, 33, 182, 0.25);
 }
 
-/* Phase 1 reduced-motion: kill page enter + menu slide + hero gradient text */
+/* Phase 1 reduced-motion: kill page enter + menu slide (wordmark colors stay shared) */
 @media (prefers-reduced-motion: reduce) {
   main#main {
     animation: none !important;
@@ -7791,17 +7783,6 @@ a.btn-primary:hover,
   .nav-link,
   .navbar {
     transition: none !important;
-  }
-
-  /* Keep solid white under reduced-motion — still readable, no clip paint issues */
-  .page-hero-title,
-  .page-home .page-hero-title {
-    color: #FFFFFF;
-    background-image: none;
-    -webkit-background-clip: unset;
-    background-clip: unset;
-    -webkit-text-fill-color: #FFFFFF;
-    text-shadow: 0 0 28px rgba(167, 139, 250, 0.35);
   }
 
   .cosmic-bg {
