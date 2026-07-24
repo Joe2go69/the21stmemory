@@ -9880,106 +9880,137 @@ a.btn-secondary:hover,
    Icon-only donate cards + flat filters + quieter media
    ============================================= */
 
-/* Oracle card — flex layout (avoids missing Tailwind col-span-8) */
-.oracle-card {
-  box-shadow: 0 12px 32px -16px rgba(0, 0, 0, 0.45) !important;
-}
-
-.oracle-card-inner {
+/* Oracle — media-first banner (matches About treatment) */
+.oracle-banner {
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
+  padding: 0 !important;
+  border-radius: 1.15rem;
+  background: #1A1433;
+  box-shadow:
+    0 16px 40px -18px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(124, 58, 237, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
 }
 
-.oracle-media {
-  margin: 0;
-  flex: 0 0 auto;
-  width: 100%;
-  max-width: 13.5rem;
+.oracle-banner > * {
+  position: relative;
+  z-index: 2;
 }
 
-.oracle-media .media-frame,
-.oracle-media .media-frame--portrait {
-  width: 100%;
-  max-width: 13.5rem;
-  margin: 0 auto;
+.oracle-banner-media {
+  position: relative;
+  z-index: 0;
+  height: clamp(11rem, 30vw, 16.5rem);
+  overflow: hidden;
+  background: #0c081c;
+  flex-shrink: 0;
 }
 
-.oracle-media img {
-  width: 100%;
-  height: auto;
+.oracle-banner-img {
   display: block;
-  vertical-align: middle;
-}
-
-.oracle-card-copy {
-  flex: 1 1 auto;
-  min-width: 0;
   width: 100%;
-  text-align: center;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 45%;
 }
 
-.oracle-card-title {
-  margin: 0 0 0.75rem;
-  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
-  font-size: clamp(1.65rem, 3.5vw, 2.15rem);
-  font-weight: 600;
-  letter-spacing: -0.03em;
-  line-height: 1.15;
-  color: var(--text-primary);
+.oracle-banner-media-fade {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(12, 8, 28, 0.08) 0%,
+      rgba(26, 20, 51, 0.32) 48%,
+      #1A1433 100%
+    ),
+    linear-gradient(
+      to right,
+      rgba(26, 20, 51, 0.22) 0%,
+      transparent 38%,
+      transparent 62%,
+      rgba(26, 20, 51, 0.18) 100%
+    );
 }
 
-.oracle-card-text {
-  margin: 0;
-  max-width: 36rem;
-  margin-inline: auto;
-  font-size: 1.02rem;
-  line-height: 1.65;
-  color: var(--text-prose);
-  /* override global .content-card p { flex-grow: 1 } */
-  flex-grow: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.oracle-card-actions {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.65rem;
-  margin-top: 1.35rem;
+.oracle-banner-body {
+  padding: 0.55rem 1.5rem 1.35rem;
 }
 
 @media (min-width: 768px) {
-  .oracle-card-inner {
-    flex-direction: row;
-    align-items: center;
-    gap: 2.25rem;
+  .oracle-banner-body {
+    padding: 0.45rem 2.15rem 1.55rem;
   }
+}
 
-  .oracle-media {
-    max-width: 15rem;
-  }
+.oracle-banner-label {
+  margin: 0 0 0.45rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-soft, #B8A9D4);
+}
 
-  .oracle-media .media-frame,
-  .oracle-media .media-frame--portrait {
-    max-width: 15rem;
-    margin: 0;
-  }
+.oracle-banner-title {
+  margin: 0 0 0.75rem;
+  font-family: 'Space Grotesk', Inter, system-ui, sans-serif;
+  font-size: clamp(1.85rem, 4vw, 2.55rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+  color: #fff;
+}
 
-  .oracle-card-copy {
-    text-align: left;
-  }
+.oracle-banner-copy {
+  margin: 0 !important;
+  flex-grow: 0 !important;
+  max-width: 42rem;
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: var(--text-prose, #E0D4FF);
+}
 
-  .oracle-card-text {
-    margin-inline: 0;
+@media (min-width: 768px) {
+  .oracle-banner-copy {
+    font-size: 1.05rem;
+    line-height: 1.7;
   }
+}
 
-  .oracle-card-actions {
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+.oracle-banner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.2rem;
+}
+
+.oracle-banner-footnote {
+  margin: 0;
+  padding: 0.85rem 1.5rem 1.1rem;
+  border-top: 1px solid rgba(124, 58, 237, 0.16);
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--text-muted, #9B8DB8);
+  background: rgba(12, 8, 28, 0.28);
+}
+
+@media (min-width: 768px) {
+  .oracle-banner-footnote {
+    padding: 0.9rem 2.15rem 1.2rem;
+    font-size: 0.84rem;
   }
+}
+
+.oracle-banner-footnote strong {
+  color: var(--text-soft, #B8A9D4);
+  font-weight: 600;
 }
 
 .home-media-panel {
