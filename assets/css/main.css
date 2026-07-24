@@ -9388,25 +9388,153 @@ a.btn-secondary:hover,
   display: none !important;
 }
 
-/* About: quieter, more professional card */
-.about-card {
+/* About — media-first brand banner */
+.about-banner {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 !important;
+  border-radius: 1.15rem;
+  background: #1A1433;
+  /* static-card zeros border; keep a quiet edge via ring in box-shadow */
   box-shadow:
-    0 12px 32px -16px rgba(0, 0, 0, 0.45),
-    inset 0 1px 0 rgba(255, 255, 255, 0.04) !important;
+    0 16px 40px -18px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(124, 58, 237, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
 }
 
-/* Remove any extra purple bloom if present */
-.about-card.glow-purple,
-.about-card {
-  /* intentionally quieter — no floating purple bloom */
+.about-banner > * {
+  position: relative;
+  z-index: 2; /* above .static-card::after gloss */
 }
 
-.about-media {
-  max-width: 18.5rem;
+.about-banner-media {
+  position: relative;
+  z-index: 0;
+  height: clamp(10.5rem, 28vw, 15.5rem);
+  overflow: hidden;
+  background: #0c081c;
+  flex-shrink: 0;
 }
 
-.about-media .media-frame {
-  max-width: 18.5rem;
+.about-banner-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+.about-banner-media-fade {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(12, 8, 28, 0.12) 0%,
+      rgba(26, 20, 51, 0.35) 45%,
+      #1A1433 100%
+    ),
+    linear-gradient(
+      to right,
+      rgba(26, 20, 51, 0.25) 0%,
+      transparent 40%,
+      transparent 60%,
+      rgba(26, 20, 51, 0.2) 100%
+    );
+}
+
+.about-banner-body {
+  padding: 0.55rem 1.5rem 1.35rem;
+}
+
+@media (min-width: 768px) {
+  .about-banner-body {
+    padding: 0.45rem 2.15rem 1.6rem;
+  }
+}
+
+.about-banner-title {
+  margin: 0 0 0.85rem;
+  font-family: 'Space Grotesk', Inter, system-ui, sans-serif;
+  font-size: clamp(1.85rem, 4vw, 2.55rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+  color: #fff;
+}
+
+.about-banner-copy {
+  max-width: 52rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.about-banner-copy p {
+  margin: 0 !important;
+  flex-grow: 0 !important;
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: var(--text-prose, #E0D4FF);
+}
+
+@media (min-width: 768px) {
+  .about-banner-copy p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+}
+
+.about-banner-copy strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.about-banner-chips {
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.about-banner-chips li {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #E9D5FF;
+  background: rgba(109, 40, 217, 0.16);
+  border: 1px solid rgba(167, 139, 250, 0.28);
+}
+
+.about-banner-footnote {
+  margin: 0;
+  padding: 0.85rem 1.5rem 1.1rem;
+  border-top: 1px solid rgba(124, 58, 237, 0.16);
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--text-muted, #9B8DB8);
+  background: rgba(12, 8, 28, 0.28);
+}
+
+@media (min-width: 768px) {
+  .about-banner-footnote {
+    padding: 0.9rem 2.15rem 1.2rem;
+    font-size: 0.84rem;
+  }
+}
+
+.about-banner-footnote strong {
+  color: var(--text-soft, #B8A9D4);
+  font-weight: 600;
 }
 
 /* Format legend: plain text, not hover cards */
@@ -9592,23 +9720,6 @@ a.btn-secondary:hover,
   .network-scroll-hint__arrow {
     animation: none;
   }
-}
-
-/* About AI note — calm professional disclaimer */
-.about-ai-note {
-  margin-top: 1.75rem;
-  padding: 0.95rem 1.1rem;
-  border-radius: 0.75rem;
-  border: 1px solid rgba(124, 58, 237, 0.18);
-  background: rgba(18, 10, 46, 0.38);
-  font-size: 0.9rem;
-  line-height: 1.55;
-  color: var(--text-soft);
-}
-
-.about-ai-note strong {
-  color: var(--text-primary);
-  font-weight: 600;
 }
 
 /* Status filters: more space, quieter active */

@@ -142,7 +142,7 @@ function exists(rel) {
   const about = read('index.html');
   check(g, 'about no process line', !about.includes('How this archive works'));
   check(g, 'about AI bridge heading', about.includes('AI is a bridge, not the source'));
-  check(g, 'about AI note', about.includes('about-ai-note'));
+  check(g, 'about AI note', about.includes('about-banner-footnote') || about.includes('about-ai-note'));
 
   const stub = read('dive/breakdown/ai-shells.html');
   check(g, 'stub browse ready CTA', stub.includes('Browse ready topics'));

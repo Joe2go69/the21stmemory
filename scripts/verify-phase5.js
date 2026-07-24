@@ -32,7 +32,7 @@ check('stub not in sitemap', !sm.includes('/dive/breakdown/ai-shells.html'));
 check('live in sitemap', sm.includes('/dive/alice/nature-of-reality.html'));
 check('about no process line', !about.includes('How this archive works'));
 check('about AI bridge', about.includes('AI is a bridge, not the source'));
-check('about AI note', about.includes('about-ai-note'));
+check('about AI note', about.includes('about-banner-footnote') || about.includes('about-ai-note'));
 check('about network link', about.includes('network.html'));
 check('SPA continue helper', dd.includes('renderContinueLearning'));
 check('SPA network in hero', dd.includes('href="network.html"'));
