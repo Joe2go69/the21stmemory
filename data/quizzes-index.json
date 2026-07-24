@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-24T02:09:32.770Z",
-  "total": 108,
+  "generatedAt": "2026-07-24T06:08:33.205Z",
+  "total": 109,
   "sources": [
     {
       "id": "alice",
@@ -14,7 +14,7 @@
       "label": "Breakdown",
       "title": "Mega Breakdown Board Notes",
       "short": "Final-stage Great Awakening notes",
-      "count": 48
+      "count": 49
     }
   ],
   "quizzes": [
@@ -1253,6 +1253,18 @@
       "questionCount": 25,
       "href": "quiz/breakdown/the-purge-phases.html",
       "diveHref": "dive/breakdown/the-purge-phases.html"
+    },
+    {
+      "id": "the-spirit-tree",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "The Spirit Tree",
+      "subtitle": "Test your grasp of The Spirit Tree — central axis of the Great Dome, Hyperborea, Valve Tech inversion, Axis Laburnum and Thuban, SEED codes, and the reawakening root web.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/the-spirit-tree.html",
+      "diveHref": "dive/breakdown/the-spirit-tree.html"
     },
     {
       "id": "trigger-events",

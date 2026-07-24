@@ -122,6 +122,7 @@ const entries = [
   { path: '/quiz/breakdown/vibrant-reality.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/second-realm.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/grid-systems.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/the-spirit-tree.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/energy-nodes.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/lava-core-nodes.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/harmonic-lenses.html', priority: '0.75', changefreq: 'monthly' },

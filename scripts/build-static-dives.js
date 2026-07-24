@@ -331,11 +331,18 @@ function resolveQuiz(topic, sourceId) {
   return null;
 }
 
+/** Avoid "Take the The Spirit Tree Quiz" for titles that already start with The. */
+function quizCtaLabel(title) {
+  const t = String(title || 'Living Truth').trim();
+  if (/^the\b/i.test(t)) return `Take ${t} Quiz`;
+  return `Take the ${t} Quiz`;
+}
+
 function renderContinueLearning({ sourceId, quiz, lastUpdated, assetBase = ASSET_BASE }) {
   const quizHref = quiz?.href ? withAsset(String(quiz.href).replace(/^\//, '')) : '';
   const quizBlock = quizHref
     ? `<a href="${escapeAttr(quizHref)}" class="btn-primary dive-continue__btn">
-        <span>Take the ${escapeHtml(quiz.title || 'Living Truth')} Quiz</span>
+        <span>${escapeHtml(quizCtaLabel(quiz.title || 'Living Truth'))}</span>
       </a>
       ${quiz.description ? `<p class="dive-continue__hint">${escapeHtml(quiz.description)}</p>` : ''}`
     : `<a href="${assetBase}quizzes.html" class="btn-secondary dive-continue__btn">Browse Living Truth Quizzes</a>`;
@@ -561,7 +568,7 @@ function buildPage({
                 quizHref
                   ? `<div class="deep-dive-quiz-cta">
                 <a href="${escapeAttr(quizHref)}" class="btn-primary deep-dive-quiz-cta__btn">
-                  <span>Take the ${escapeHtml(quiz.title || 'Living Truth')} Quiz</span>
+                  <span>${escapeHtml(quizCtaLabel(quiz.title || 'Living Truth'))}</span>
                 </a>
                 ${quiz.description ? `<p class="deep-dive-quiz-cta__desc">${escapeHtml(quiz.description)}</p>` : ''}
               </div>`

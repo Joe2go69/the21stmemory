@@ -27,6 +27,13 @@ function setPageMeta(name, content, attr = "name") {
   el.setAttribute("content", content);
 }
 
+/** Avoid "Take the The Spirit Tree Quiz" for titles that already start with The. */
+function quizCtaLabel(title) {
+  const t = String(title || "Living Truth").trim();
+  if (/^the\b/i.test(t)) return `Take ${t} Quiz`;
+  return `Take the ${t} Quiz`;
+}
+
 function updateTopicPageMeta({ topic, sourceId, fullData }) {
   const title = `${topic.title} | ${fullData.title} | The 21st Memory`;
   const description = topic.description || `AI-decoded deep-dive on ${topic.title} from the ${fullData.title} transmission.`;
@@ -396,7 +403,7 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId, mediaFlag
           ${topic.quiz?.href ? `
           <div class="deep-dive-quiz-cta">
             <a href="${escapeAttr(topic.quiz.href)}" class="btn-primary deep-dive-quiz-cta__btn">
-              <span>Take the ${escapeHtml(topic.quiz.title || 'Living Truth')} Quiz</span>
+              <span>${escapeHtml(quizCtaLabel(topic.quiz.title || 'Living Truth'))}</span>
             </a>
             ${topic.quiz.description ? `<p class="deep-dive-quiz-cta__desc">${escapeHtml(topic.quiz.description)}</p>` : ''}
           </div>
@@ -498,7 +505,7 @@ function renderContinueLearning({ sourceId, topic }) {
   const quizHref = quiz?.href ? escapeAttr(quiz.href) : '';
   const quizBlock = quizHref
     ? `<a href="${quizHref}" class="btn-primary dive-continue__btn">
-        <span>Take the ${escapeHtml(quiz.title || 'Living Truth')} Quiz</span>
+        <span>${escapeHtml(quizCtaLabel(quiz.title || 'Living Truth'))}</span>
       </a>
       ${quiz.description ? `<p class="dive-continue__hint">${escapeHtml(quiz.description)}</p>` : ''}`
     : `<a href="quizzes.html" class="btn-secondary dive-continue__btn">Browse Living Truth Quizzes</a>`;
