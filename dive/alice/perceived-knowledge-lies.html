@@ -129,7 +129,7 @@
     </nav>
     <main id="main">
 
-    <div class="max-w-6xl mx-auto px-6 pt-8 pb-4">
+    <div class="max-w-6xl mx-auto px-6 page-shell pb-4">
       <div id="lesson-header" class="mb-12">
         <nav aria-label="Breadcrumb" class="mb-5">
     <ol class="breadcrumb flex flex-wrap items-center gap-x-1 gap-y-1 text-sm text-mem-muted">
@@ -418,42 +418,56 @@
             </div>
           </div>
         </div>
-        <div class="footer-support" id="support" style="scroll-margin-top: 7rem;">
-            <div class="footer-heading">Support the Archive</div>
-            <p class="footer-support-message">Everything here is free. Support can mean sharing the work, joining the community, or contributing if you are able. Financial gifts help cover the AI tools and hosting that keep the archive running.</p>
+        <div class="footer-support" id="support">
+            <div class="footer-support-head">
+              <p class="footer-support-eyebrow">Optional</p>
+              <h2 class="footer-support-title">Support the archive</h2>
+              <p class="footer-support-message">21st Memory is free for everyone, always — no paywalls, no memberships, no pressure. Support can take many forms: sharing a topic, inviting someone into the work, joining the community, or contributing if you choose. Financial contributions help cover the operating costs of the archive — AI tools used to organize and decode transmissions, internet and power, hosting, and the infrastructure that keeps this work freely available. Every form of support helps the archive reach more people.</p>
+              <ul class="footer-support-funds" aria-label="Ways to support">
+        <li>Share the work</li><li>Join the community</li><li>Help cover AI, hosting & operations</li>
+      </ul>
+            </div>
             <div class="footer-donate-grid">
-              <div class="footer-donate-card footer-donate-card--btc">
-                <span class="footer-donate-label">Bitcoin</span>
-                <div class="footer-donate-media-wrap footer-donate-media-wrap--qr">
-                  <img src="../../assets/images/bitcoin-qr.webp" alt="Bitcoin QR code for 21st Memory donations" class="footer-donate-media footer-donate-media--qr" width="96" height="96" loading="lazy" />
+              <div class="footer-donate-card footer-donate-card--kofi footer-donate-card--bg has-bg">
+                <div class="footer-donate-bg" aria-hidden="true">
+                  <img src="../../images/kofi.webp" alt="" class="footer-donate-bg__img" width="720" height="1280" loading="lazy" decoding="async" />
+                  <div class="footer-donate-bg__scrim"></div>
                 </div>
-                <p class="footer-donate-desc">Scan or copy the address to send a direct BTC contribution.</p>
-                <code class="footer-support-address" id="btc-address" title="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx">bc1qnwnapp…dc9ksx</code>
+                <div class="footer-donate-body">
+                  <div class="footer-donate-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h10a4 4 0 0 1 0 8H9l-3 3V8z"/><path d="M18 5h1a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1V5z"/></svg></div>
+                  <span class="footer-donate-label">Ko-fi</span>
+                  <p class="footer-donate-desc">One-time tip or monthly support — simple and quick.</p>
+                  <a href="https://ko-fi.com/the21stmemory" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
+                    <span>Open Ko-fi</span>
+                  </a>
+                </div>
+              </div>
+              <div class="footer-donate-card footer-donate-card--btc">
+                <div class="footer-donate-icon footer-donate-icon--btc" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 8.5h4.2a2 2 0 0 1 0 4H9.5zm0 4h4.6a2 2 0 0 1 0 4H9.5z"/><path d="M11 7v1.5M13 7v1.5M11 15.5V17M13 15.5V17"/></svg></div>
+                <span class="footer-donate-label">Bitcoin</span>
+                <p class="footer-donate-desc">Scan with a wallet app, or copy the address below.</p>
+                <div class="footer-donate-qr-block">
+                  <img src="../../assets/images/bitcoin-qr.webp" alt="Bitcoin QR code for 21st Memory donations" class="footer-donate-qr" width="180" height="180" loading="lazy" decoding="async" />
+                </div>
+                <code class="footer-support-address" id="btc-address" title="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx">bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx</code>
                 <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx" aria-label="Copy Bitcoin address">Copy address</button>
               </div>
-              <div class="footer-donate-card footer-donate-card--kofi">
-                <span class="footer-donate-label">Ko-fi</span>
-                <div class="footer-donate-media-wrap">
-                  <img src="../../images/kofi.webp" alt="Ko-fi — Support The 21st Memory" class="footer-donate-media" width="160" height="100" loading="lazy" />
+              <div class="footer-donate-card footer-donate-card--gofundme footer-donate-card--bg has-bg">
+                <div class="footer-donate-bg" aria-hidden="true">
+                  <img src="../../images/gofundme.webp" alt="" class="footer-donate-bg__img" width="720" height="1280" loading="lazy" decoding="async" />
+                  <div class="footer-donate-bg__scrim"></div>
                 </div>
-                <p class="footer-donate-desc">One-time tips or monthly support for the living archive.</p>
-                <a href="https://ko-fi.com/the21stmemory" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span class="footer-donate-btn-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h10a4 4 0 0 1 0 8H9l-3 3V8z"/><path d="M18 5h1a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1V5z"/></svg></span>
-                  <span>Tip on Ko-fi</span>
-                </a>
-              </div>
-              <div class="footer-donate-card footer-donate-card--gofundme">
-                <span class="footer-donate-label">GoFundMe</span>
-                <div class="footer-donate-media-wrap">
-                  <img src="../../images/gofundme.webp" alt="GoFundMe — Help Joe & Spooky relocate to Vancouver Island" class="footer-donate-media" width="160" height="100" loading="lazy" />
+                <div class="footer-donate-body">
+                  <div class="footer-donate-icon footer-donate-icon--heart" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+                  <span class="footer-donate-label">GoFundMe</span>
+                  <p class="footer-donate-desc">Help Joe & Spooky relocate so the archive can keep expanding.</p>
+                  <a href="https://gofund.me/bea823278" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
+                    <span>Open GoFundMe</span>
+                  </a>
                 </div>
-                <p class="footer-donate-desc">Help Joe & Spooky relocate to Vancouver Island so the archive can keep growing.</p>
-                <a href="https://gofund.me/bea823278" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span class="footer-donate-btn-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></span>
-                  <span>Support the Move</span>
-                </a>
               </div>
             </div>
+            <p class="footer-support-note">Always free · Many ways to help · Grateful for every form of support</p>
           </div>
         <div class="pt-8 border-t border-mem-subtle text-center">
           <p class="text-sm text-mem-dim">The Great Remembering Has Begun.</p>

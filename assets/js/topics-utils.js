@@ -1147,14 +1147,14 @@ const TopicUtils = {
     return update;
   },
 
-  /* ── Phase 4: reading comfort (font size + focus mode) ── */
+  /* ── Phase 4: reading comfort (font size) ── */
   REPORT_SIZE_KEY: '21st-memory-report-size-v1',
-  REPORT_FOCUS_KEY: '21st-memory-reading-focus-v1',
   REPORT_SIZES: ['sm', 'md', 'lg'],
 
   /**
-   * Ensures the study toolbar has size + focus controls (works on old
+   * Ensures the study toolbar has size controls (works on old
    * static dive HTML that only has Print), then binds localStorage prefs.
+   * Focus mode was removed — text size + print remain.
    */
   initReadingComfort(options = {}) {
     const toolbar =
@@ -1168,16 +1168,18 @@ const TopicUtils = {
     // Always show when report exists
     toolbar.hidden = false;
 
+    // Remove any legacy Focus controls still present in cached HTML
+    toolbar.querySelectorAll('[data-report-focus], .report-study-btn--focus').forEach((el) => el.remove());
+    document.body.classList.remove('reading-focus');
+
     this.ensureReadingComfortControls(toolbar);
     if (toolbar.dataset.comfortBound === '1') return;
     toolbar.dataset.comfortBound = '1';
 
     let size = 'md';
-    let focusOn = false;
     try {
       const storedSize = localStorage.getItem(this.REPORT_SIZE_KEY);
       if (this.REPORT_SIZES.includes(storedSize)) size = storedSize;
-      focusOn = localStorage.getItem(this.REPORT_FOCUS_KEY) === '1';
     } catch (_) { /* ignore */ }
 
     const applySize = (next) => {
@@ -1194,50 +1196,24 @@ const TopicUtils = {
       } catch (_) { /* ignore */ }
     };
 
-    const applyFocus = (on) => {
-      focusOn = !!on;
-      document.body.classList.toggle('reading-focus', focusOn);
-      const focusBtn = toolbar.querySelector('[data-report-focus]');
-      if (focusBtn) {
-        focusBtn.classList.toggle('is-active', focusOn);
-        focusBtn.setAttribute('aria-pressed', focusOn ? 'true' : 'false');
-        focusBtn.setAttribute(
-          'aria-label',
-          focusOn ? 'Exit focus mode' : 'Enter focus mode for calm reading'
-        );
-        const label = focusBtn.querySelector('.report-study-btn__label');
-        if (label) label.textContent = focusOn ? 'Exit focus' : 'Focus';
-      }
-      try {
-        localStorage.setItem(this.REPORT_FOCUS_KEY, focusOn ? '1' : '0');
-      } catch (_) { /* ignore */ }
-    };
-
     applySize(size);
-    applyFocus(focusOn);
 
     toolbar.querySelectorAll('[data-report-size]').forEach((btn) => {
       btn.addEventListener('click', () => applySize(btn.getAttribute('data-report-size')));
     });
 
-    toolbar.querySelector('[data-report-focus]')?.addEventListener('click', () => {
-      applyFocus(!focusOn);
-    });
-
     toolbar.querySelector('[data-report-print]')?.addEventListener('click', () => {
       window.print();
-    });
-
-    // Esc exits focus mode
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && focusOn) {
-        applyFocus(false);
-      }
     });
   },
 
   ensureReadingComfortControls(toolbar) {
-    if (!toolbar || toolbar.querySelector('[data-report-size]')) return;
+    if (!toolbar) return;
+
+    // Strip legacy Focus button if present
+    toolbar.querySelectorAll('[data-report-focus], .report-study-btn--focus').forEach((el) => el.remove());
+
+    if (toolbar.querySelector('[data-report-size]')) return;
 
     const printBtn = toolbar.querySelector('[data-report-print]');
     const group = document.createElement('div');
@@ -1251,19 +1227,8 @@ const TopicUtils = {
       <button type="button" class="report-study-btn report-study-btn--size report-study-btn--size-lg" data-report-size="lg" aria-pressed="false" aria-labelledby="report-size-label" title="Larger text">A</button>
     `;
 
-    const focusBtn = document.createElement('button');
-    focusBtn.type = 'button';
-    focusBtn.className = 'report-study-btn report-study-btn--focus';
-    focusBtn.setAttribute('data-report-focus', '');
-    focusBtn.setAttribute('aria-pressed', 'false');
-    focusBtn.setAttribute('aria-label', 'Enter focus mode for calm reading');
-    focusBtn.innerHTML = `<span class="report-study-btn__label">Focus</span>`;
-
     toolbar.insertBefore(group, toolbar.firstChild);
-    if (printBtn) {
-      toolbar.insertBefore(focusBtn, printBtn);
-    } else {
-      toolbar.appendChild(focusBtn);
+    if (!printBtn) {
       const print = document.createElement('button');
       print.type = 'button';
       print.className = 'report-study-btn';

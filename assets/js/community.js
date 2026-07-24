@@ -348,7 +348,42 @@ async function loadNetworkData() {
   renderNoscriptList(networkChannels);
 }
 
+/** Mobile: show/hide “Swipe for more” based on filter bar overflow + scroll position. */
+function updateNetworkScrollHint() {
+  const bar = document.getElementById('network-filters');
+  const wrap = bar?.closest('.network-filters-scroll');
+  const hint = wrap?.querySelector('.network-scroll-hint');
+  if (!bar || !wrap || !hint) return;
+
+  const canScroll = bar.scrollWidth > bar.clientWidth + 8;
+  const scrolled = bar.scrollLeft > 12;
+  const nearEnd = bar.scrollLeft + bar.clientWidth >= bar.scrollWidth - 12;
+  wrap.classList.toggle('is-scrollable', canScroll);
+  wrap.classList.toggle('has-scrolled', scrolled || nearEnd);
+  hint.hidden = !canScroll || nearEnd;
+}
+
+function bindNetworkScrollHint() {
+  const bar = document.getElementById('network-filters');
+  const wrap = bar?.closest('.network-filters-scroll');
+  const hint = wrap?.querySelector('.network-scroll-hint');
+  if (!bar || !wrap || !hint) return;
+
+  if (!bar.dataset.scrollHintBound) {
+    bar.dataset.scrollHintBound = 'true';
+    bar.addEventListener('scroll', updateNetworkScrollHint, { passive: true });
+    window.addEventListener('resize', updateNetworkScrollHint, { passive: true });
+  }
+
+  // Safe to call after filters re-render; always remeasure overflow
+  updateNetworkScrollHint();
+  requestAnimationFrame(() => requestAnimationFrame(updateNetworkScrollHint));
+  setTimeout(updateNetworkScrollHint, 120);
+  setTimeout(updateNetworkScrollHint, 400);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   bindNetworkSearch();
-  loadNetworkData();
+  bindNetworkScrollHint();
+  Promise.resolve(loadNetworkData()).finally(() => bindNetworkScrollHint());
 });

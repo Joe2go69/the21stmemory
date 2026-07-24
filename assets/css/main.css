@@ -1775,9 +1775,12 @@ button.btn-secondary:disabled,
   font-family: 'Space Grotesk', Inter, system-ui, sans-serif;
   font-size: 1.22rem;
   font-weight: 600;
-  color: var(--text-primary);
   letter-spacing: -0.02em;
   line-height: 1;
+  /* Solid high-contrast white — gradients made the wordmark hard to read on mobile */
+  color: #F8FAFC;
+  background: none;
+  -webkit-text-fill-color: #F8FAFC;
 }
 
 .nav-logo-subtitle {
@@ -2072,36 +2075,61 @@ h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(-
   .section-header { font-size: 3.35rem; }
 }
 
-/* Homepage brand hero — luminous sacred wordmark */
+/* Homepage brand hero — luminous wordmark
+   Vertical gradient: pure white on “21ST”, soft violet on “MEMORY”.
+   Visible on desktop AND mobile. No filter (breaks background-clip on mobile). */
 .page-hero-title,
 .page-home .page-hero-title {
+  /* Block so it stays under the eyebrow; text-align center comes from .page-hero */
+  display: block;
+  width: 100%;
+  max-width: 100%;
   font-size: 3.4rem;
   line-height: 0.95;
   letter-spacing: -0.04em;
   font-weight: 700;
-  color: #F8FAFC;
-  background: linear-gradient(
+  /* Fallback if clip fails — always readable white */
+  color: #FFFFFF;
+  background-color: transparent;
+  background-image: linear-gradient(
     180deg,
-    #ffffff 0%,
-    #F5F3FF 45%,
-    #E9D5FF 78%,
-    #C4B5FD 100%
+    #FFFFFF 0%,
+    #FFFFFF 36%,
+    #F5F3FF 52%,
+    #E9D5FF 68%,
+    #C4B5FD 86%,
+    #A78BFA 100%
   );
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* Ambient glow comes from .page-hero::before bloom behind the title */
+  /* Ambient glow is page-hero::before only — do not use filter here */
 }
 
+/* Desktop: slightly deeper violet so the fade is obvious at large type size */
 @media (min-width: 768px) {
-  .page-hero-title {
+  .page-hero-title,
+  .page-home .page-hero-title {
     font-size: 5.5rem;
     letter-spacing: -0.055em;
+    background-image: linear-gradient(
+      180deg,
+      #FFFFFF 0%,
+      #FFFFFF 32%,
+      #F8FAFC 46%,
+      #EDE9FE 60%,
+      #DDD6FE 74%,
+      #C4B5FD 88%,
+      #A78BFA 100%
+    );
   }
 }
 
 @media (min-width: 1024px) {
-  .page-hero-title {
+  .page-hero-title,
+  .page-home .page-hero-title {
     font-size: 6.5rem;
   }
 }
@@ -6423,7 +6451,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   position: relative;
 }
 
-/* Ambient hero bloom behind brand title */
+/* Ambient hero bloom behind brand title — soft violet halo so wordmark reads luminous */
 .page-hero::before {
   content: '';
   position: absolute;
@@ -6432,7 +6460,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   width: min(42rem, 92vw);
   height: min(18rem, 48vw);
   transform: translateX(-50%);
-  background: radial-gradient(ellipse at center, var(--hero-glow) 0%, transparent 68%);
+  background: radial-gradient(ellipse at center, rgba(167, 139, 250, 0.28) 0%, rgba(124, 58, 237, 0.12) 42%, transparent 70%);
   pointer-events: none;
   z-index: 0;
   opacity: 0.55;
@@ -6444,9 +6472,12 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
 }
 
 .page-hero-eyebrow {
-  display: inline-flex;
+  /* Block-level flex so it never sits beside the inline-block hero title */
+  display: flex;
   align-items: center;
   justify-content: center;
+  width: fit-content;
+  max-width: 100%;
   margin: 0 auto 1.35rem;
   padding: 0.45rem 1.15rem;
   border-radius: 9999px;
@@ -7762,14 +7793,15 @@ a.btn-primary:hover,
     transition: none !important;
   }
 
+  /* Keep solid white under reduced-motion — still readable, no clip paint issues */
   .page-hero-title,
   .page-home .page-hero-title {
-    color: var(--text-primary);
-    background: none;
+    color: #FFFFFF;
+    background-image: none;
     -webkit-background-clip: unset;
     background-clip: unset;
-    -webkit-text-fill-color: unset;
-    text-shadow: 0 2px 18px rgba(91, 33, 182, 0.3);
+    -webkit-text-fill-color: #FFFFFF;
+    text-shadow: 0 0 28px rgba(167, 139, 250, 0.35);
   }
 
   .cosmic-bg {
@@ -8548,17 +8580,14 @@ body.menu-open {
   font-size: 1.08rem;
 }
 
-.report-study-toolbar .report-study-btn--focus,
 .report-study-toolbar [data-report-print] {
   margin-left: auto;
 }
 
-.report-study-toolbar .report-study-btn--focus {
-  margin-left: auto;
-}
-
-.report-study-toolbar [data-report-print] {
-  margin-left: 0;
+/* Legacy Focus control — hidden if any cached HTML still includes it */
+.report-study-btn--focus,
+[data-report-focus] {
+  display: none !important;
 }
 
 @media (max-width: 479px) {
@@ -8566,7 +8595,6 @@ body.menu-open {
     justify-content: center;
   }
 
-  .report-study-toolbar .report-study-btn--focus,
   .report-study-toolbar [data-report-print] {
     margin-left: 0;
   }
@@ -9227,9 +9255,18 @@ a.btn-secondary:hover,
   color: var(--text-soft);
 }
 
-/* Hero: more air, less stack */
+/* Hero: tight to navbar, calm brand moment */
 .page-hero {
   max-width: 40rem;
+  padding-top: 1.75rem !important;
+  padding-bottom: 2.75rem !important;
+}
+
+@media (min-width: 768px) {
+  .page-hero {
+    padding-top: 2.25rem !important;
+    padding-bottom: 3.25rem !important;
+  }
 }
 
 .page-hero-eyebrow {
@@ -9238,12 +9275,13 @@ a.btn-secondary:hover,
   box-shadow: none;
   color: var(--text-muted);
   letter-spacing: 0.14em;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .page-hero::before {
-  opacity: 0.28;
-  height: min(14rem, 40vw);
+  opacity: 0.85;
+  height: min(16rem, 48vw);
+  top: 10%;
 }
 
 .home-hero-actions {
@@ -9314,11 +9352,25 @@ a.btn-secondary:hover,
   cursor: default;
 }
 
-/* Codex page intro */
+/* Unified interior page intro — one pattern for Codex, Quizzes, Network, etc. */
+.page-intro,
 .codex-page-intro {
-  max-width: 38rem;
+  max-width: 40rem;
+  margin-bottom: 0;
 }
 
+.page-intro--center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 42rem;
+}
+
+.page-intro--center .section-eyebrow {
+  justify-content: center;
+}
+
+.page-intro-title,
 .codex-page-title {
   margin: 0.35rem 0 0.85rem;
   font-family: "Space Grotesk", Inter, system-ui, sans-serif;
@@ -9329,20 +9381,145 @@ a.btn-secondary:hover,
   color: var(--text-primary);
 }
 
+.page-intro-deck,
 .codex-page-deck {
   margin: 0 0 0.75rem;
   font-size: 1.02rem;
   line-height: 1.65;
   color: var(--text-prose);
-  max-width: 42ch;
+  max-width: 48ch;
 }
 
+.page-intro--center .page-intro-deck,
+.page-intro--center .codex-page-deck {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-intro-meta,
 .codex-page-meta {
   margin: 0;
   font-size: 0.8rem;
   font-weight: 500;
   color: var(--text-dim);
   letter-spacing: 0.02em;
+}
+
+/* Shared top spacing under fixed navbar for all interior pages */
+.page-shell {
+  padding-top: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .page-shell {
+    padding-top: 1.5rem;
+  }
+}
+
+/* Mid-page section pills only — not used as page tops */
+.section-pill-wrap {
+  margin-top: 0.25rem;
+}
+
+/* Network filter horizontal scroll — clear “more” affordance on mobile */
+.network-filters-scroll {
+  position: relative;
+}
+
+.network-scroll-hint {
+  display: none;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0.45rem 0 0;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--text-dim);
+}
+
+.network-scroll-hint__arrow {
+  display: inline-block;
+  animation: network-scroll-nudge 1.6s ease-in-out infinite;
+}
+
+@keyframes network-scroll-nudge {
+  0%, 100% { transform: translateX(0); opacity: 0.7; }
+  50% { transform: translateX(4px); opacity: 1; }
+}
+
+@media (max-width: 639px) {
+  .network-filters-scroll {
+    margin-inline: -0.15rem;
+  }
+
+  .network-filter-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+    gap: 0.5rem;
+    padding: 0.15rem 1.75rem 0.45rem 0.15rem;
+    scrollbar-width: none;
+    mask-image: linear-gradient(90deg, #000 0%, #000 calc(100% - 2.25rem), transparent 100%);
+    -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 calc(100% - 2.25rem), transparent 100%);
+  }
+
+  .network-filter-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .network-filter-bar > * {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+  }
+
+  .network-scroll-hint {
+    display: inline-flex;
+  }
+
+  .network-scroll-hint[hidden] {
+    display: none !important;
+  }
+
+  .network-filters-scroll.has-scrolled .network-scroll-hint {
+    opacity: 0.55;
+  }
+
+  /* Fade edge + chevron cue while more content is off-screen */
+  .network-filters-scroll.is-scrollable:not(.has-scrolled)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 1.6rem;
+    width: 2.5rem;
+    pointer-events: none;
+    background: linear-gradient(90deg, transparent 0%, rgba(15, 10, 31, 0.88) 70%, rgba(15, 10, 31, 0.98) 100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .network-scroll-hint__arrow {
+    animation: none;
+  }
+}
+
+/* About AI note — calm professional disclaimer */
+.about-ai-note {
+  margin-top: 1.25rem;
+  padding: 0.9rem 1rem;
+  border-radius: 0.85rem;
+  border: 1px solid rgba(124, 58, 237, 0.22);
+  background: rgba(18, 10, 46, 0.45);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-soft);
+}
+
+.about-ai-note strong {
+  color: var(--text-primary);
+  font-weight: 600;
 }
 
 /* Status filters: more space, quieter active */
@@ -10079,7 +10256,7 @@ html {
 }
 
 /* =============================================
-   Support donate cards � equal columns, large QR, matching CTAs
+   Support donate cards � equal columns, large QR, matching CTAs
    ============================================= */
 
 .footer-donate-grid,
@@ -10124,7 +10301,7 @@ html {
   box-shadow: none !important;
 }
 
-/* No �primary� spotlight card � all equal */
+/* No �primary� spotlight card � all equal */
 .footer-donate-card--primary {
   order: 0 !important;
   background: rgba(12, 8, 26, 0.55) !important;
@@ -10282,7 +10459,7 @@ button.footer-donate-btn {
   gap: 0.55rem !important;
 }
 
-/* Support Ko-fi / GoFundMe � 9:16 portrait media */
+/* Support Ko-fi / GoFundMe � 9:16 portrait media */
 .footer-donate-card--kofi .footer-donate-media-wrap,
 .footer-donate-card--gofundme .footer-donate-media-wrap {
   display: flex !important;

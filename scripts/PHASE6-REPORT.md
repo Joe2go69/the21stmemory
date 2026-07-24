@@ -1,8 +1,8 @@
 # Phase 6 Verification Report
 
-Generated: 2026-07-23T08:01:19.197Z
+Generated: 2026-07-24T01:13:11.718Z
 
-**Result: FAILED** — 78/82 checks
+**Result: FAILED** — 79/82 checks
 
 ## P1 Brand SEO
 
@@ -88,14 +88,14 @@ Generated: 2026-07-23T08:01:19.197Z
 
 ## P5 Content hygiene
 
-- Passed: 8
-- Failed: 1
+- Passed: 9
+- Failed: 0
 
 - ✅ continue learning block
 - ✅ network CTA on dive
 - ✅ AI disclaimer
 - ✅ updated stamp
-- ❌ about methodology
+- ✅ about methodology
 - ✅ about AI bridge heading
 - ✅ stub browse ready CTA
 - ✅ SPA continue helper

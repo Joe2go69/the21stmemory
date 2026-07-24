@@ -144,7 +144,6 @@ function renderStudyToolbar() {
       <button type="button" class="report-study-btn report-study-btn--size report-study-btn--size-md" data-report-size="md" aria-pressed="true" aria-labelledby="report-size-label" title="Default text">A</button>
       <button type="button" class="report-study-btn report-study-btn--size report-study-btn--size-lg" data-report-size="lg" aria-pressed="false" aria-labelledby="report-size-label" title="Larger text">A</button>
     </div>
-    <button type="button" class="report-study-btn report-study-btn--focus" data-report-focus aria-pressed="false" aria-label="Enter focus mode for calm reading"><span class="report-study-btn__label">Focus</span></button>
     <button type="button" class="report-study-btn" data-report-print aria-label="Print or save report as PDF">Print</button>
   </div>`;
 }
@@ -494,8 +493,8 @@ function buildPage({
 
   if (isStubTopic || !flags.hasAny) {
     bodyMain = `
-    <div class="max-w-6xl mx-auto px-6 pt-8 pb-4">
-      <div id="lesson-header" class="mb-12">
+    <div class="max-w-6xl mx-auto px-6 page-shell pb-4">
+      <div id="lesson-header" class="mb-10">
         ${breadcrumbs}
         <div class="deep-dive-hero">
           <div class="deep-dive-hero-bg" ${bgStyle}></div>
@@ -534,8 +533,8 @@ function buildPage({
     });
 
     bodyMain = `
-    <div class="max-w-6xl mx-auto px-6 pt-8 pb-4">
-      <div id="lesson-header" class="mb-12">
+    <div class="max-w-6xl mx-auto px-6 page-shell pb-4">
+      <div id="lesson-header" class="mb-10">
         ${breadcrumbs}
         <div class="deep-dive-hero">
           <div class="deep-dive-hero-bg" ${bgStyle}></div>
