@@ -172,7 +172,6 @@
   --prose-measure: 48rem;
   --section-gap: clamp(3.5rem, 6vw, 5.5rem);
   --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
-  --duration-enter: 0.7s;
 
   /* Legacy aliases — kept for existing references */
   --shadow-elevated: var(--depth-elev-3);
@@ -298,7 +297,10 @@ html {
   color: var(--selection-fg);
 }
 
-/* Layered atmospheric background — lit-from-above sacred vault */
+/* Layered atmospheric background — lit-from-above sacred vault
+   Always scroll-attached: fixed body backgrounds cause GPU horizontal
+   banding on first paint (Chrome/Windows) and are hidden only when
+   content is already covering the canvas. */
 .cosmic-bg {
   background:
     radial-gradient(ellipse 100% 70% at 50% -12%, rgba(124, 58, 237, 0.22) 0%, transparent 55%),
@@ -308,7 +310,7 @@ html {
     radial-gradient(ellipse 42% 32% at 4% 88%, rgba(76, 29, 149, 0.12) 0%, transparent 52%),
     radial-gradient(ellipse 80% 50% at 50% 100%, rgba(30, 17, 53, 0.55) 0%, transparent 70%),
     var(--deep-bg);
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 /* Soft paper-vault grain (CSS-only, no image) — sits behind all content */
@@ -331,35 +333,6 @@ main#main,
 .skip-link {
   position: relative;
   z-index: 1;
-}
-
-/* Default scroll; fixed parallax-style vault only on desktop with motion OK */
-.cosmic-bg {
-  background-attachment: scroll;
-}
-
-@media (min-width: 768px) and (prefers-reduced-motion: no-preference) {
-  .cosmic-bg {
-    background-attachment: fixed;
-  }
-}
-
-/* Soft page enter — main content settles into the vault */
-@media (prefers-reduced-motion: no-preference) {
-  main#main {
-    animation: page-enter var(--duration-enter) var(--ease-out-soft) both;
-  }
-
-  @keyframes page-enter {
-    from {
-      opacity: 0;
-      transform: translateY(10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
 }
 
 /* Elevated surface highlight — floating tier (violet rim + ambient bloom) */
