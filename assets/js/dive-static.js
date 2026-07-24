@@ -149,27 +149,336 @@ function initJumpPills() {
   });
 }
 
+/**
+ * Infographic lightbox with wheel / pinch / double-click zoom + pan.
+ * Static dive pages only load dive-static.js (not deep-dive.js), so zoom
+ * must live here — otherwise Expand opens a non-zoomable full image.
+ */
 function initInfographicModal() {
   const modal = document.getElementById('infographic-modal');
   const modalImg = document.getElementById('modal-image');
-  const closeBtn = document.getElementById('close-modal');
+  const closeBtn =
+    document.getElementById('close-modal') ||
+    document.getElementById('infographic-modal-close');
   if (!modal || !modalImg) return;
 
+  const zoomState = {
+    scale: 1,
+    fitScale: 1,
+    panX: 0,
+    panY: 0,
+    dragging: false,
+    pointerStartX: 0,
+    pointerStartY: 0,
+    panStartX: 0,
+    panStartY: 0,
+    lastPinchDistance: 0
+  };
+  let zoomListenerAbort = null;
+  let modalTrigger = null;
+
+  const touchDistance = (touches) => {
+    const dx = touches[0].clientX - touches[1].clientX;
+    const dy = touches[0].clientY - touches[1].clientY;
+    return Math.hypot(dx, dy);
+  };
+
+  const getViewport = () =>
+    document.getElementById('infographic-modal-viewport') || modalImg.parentElement;
+
+  const computeFitScale = () => {
+    const viewport = getViewport();
+    if (!viewport || !modalImg.naturalWidth || !modalImg.naturalHeight) return 1;
+    const { width, height } = viewport.getBoundingClientRect();
+    if (width <= 0 || height <= 0) return 1;
+    return Math.min(width / modalImg.naturalWidth, height / modalImg.naturalHeight, 1);
+  };
+
+  const getMaxZoom = () => {
+    const fitScale = zoomState.fitScale || 1;
+    return Math.max(4, (1 / fitScale) * 1.05);
+  };
+
+  const applyZoomTransform = () => {
+    const naturalWidth = modalImg.naturalWidth;
+    const naturalHeight = modalImg.naturalHeight;
+
+    if (!naturalWidth || !naturalHeight) {
+      modalImg.style.transform = `translate3d(${zoomState.panX}px, ${zoomState.panY}px, 0) scale(${zoomState.scale})`;
+      modalImg.style.cursor =
+        zoomState.scale > 1 ? (zoomState.dragging ? 'grabbing' : 'grab') : 'zoom-in';
+      return;
+    }
+
+    const fitScale = Math.max(zoomState.fitScale || computeFitScale(), 0.01);
+    const totalScale = fitScale * zoomState.scale;
+
+    modalImg.style.width = `${naturalWidth * totalScale}px`;
+    modalImg.style.height = `${naturalHeight * totalScale}px`;
+    modalImg.style.maxWidth = 'none';
+    modalImg.style.maxHeight = 'none';
+    modalImg.style.transform = `translate3d(${zoomState.panX}px, ${zoomState.panY}px, 0)`;
+    modalImg.style.cursor =
+      zoomState.scale > 1 ? (zoomState.dragging ? 'grabbing' : 'grab') : 'zoom-in';
+  };
+
+  const clearImageSizing = () => {
+    modalImg.style.width = '';
+    modalImg.style.height = '';
+    modalImg.style.maxWidth = '';
+    modalImg.style.maxHeight = '';
+    modalImg.style.transform = '';
+  };
+
+  const clampPan = () => {
+    if (zoomState.scale <= 1) {
+      zoomState.scale = 1;
+      zoomState.panX = 0;
+      zoomState.panY = 0;
+      return;
+    }
+    const viewport = getViewport();
+    if (!viewport) return;
+    const vpRect = viewport.getBoundingClientRect();
+    const imgRect = modalImg.getBoundingClientRect();
+    const maxPanX = Math.max(0, (imgRect.width - vpRect.width) / 2 + 24);
+    const maxPanY = Math.max(0, (imgRect.height - vpRect.height) / 2 + 24);
+    zoomState.panX = Math.max(-maxPanX, Math.min(maxPanX, zoomState.panX));
+    zoomState.panY = Math.max(-maxPanY, Math.min(maxPanY, zoomState.panY));
+  };
+
+  const zoomAtPoint = (clientX, clientY, newScale) => {
+    const viewport = getViewport();
+    if (!viewport) return;
+    const vpRect = viewport.getBoundingClientRect();
+    const focalX = clientX - vpRect.left - vpRect.width / 2;
+    const focalY = clientY - vpRect.top - vpRect.height / 2;
+    const ratio = newScale / zoomState.scale;
+
+    zoomState.panX = focalX - (focalX - zoomState.panX) * ratio;
+    zoomState.panY = focalY - (focalY - zoomState.panY) * ratio;
+    zoomState.scale = newScale;
+
+    if (zoomState.scale <= 1) {
+      zoomState.scale = 1;
+      zoomState.panX = 0;
+      zoomState.panY = 0;
+    }
+
+    clampPan();
+    applyZoomTransform();
+  };
+
+  const resetZoom = () => {
+    zoomState.scale = 1;
+    zoomState.panX = 0;
+    zoomState.panY = 0;
+    zoomState.dragging = false;
+    zoomState.lastPinchDistance = 0;
+    applyZoomTransform();
+  };
+
+  const teardownZoom = () => {
+    if (zoomListenerAbort) {
+      zoomListenerAbort.abort();
+      zoomListenerAbort = null;
+    }
+    zoomState.dragging = false;
+    zoomState.lastPinchDistance = 0;
+    modalImg.dataset.zoomReady = 'false';
+  };
+
+  const setupZoom = () => {
+    if (!modalImg.naturalWidth || !modalImg.naturalHeight) return;
+
+    teardownZoom();
+
+    zoomState.fitScale = computeFitScale();
+    modalImg.style.transition = 'none';
+    modalImg.style.transformOrigin = 'center center';
+    modalImg.style.willChange = 'transform, width, height';
+    modalImg.style.touchAction = 'none';
+    resetZoom();
+
+    zoomListenerAbort = new AbortController();
+    const { signal } = zoomListenerAbort;
+    modalImg.dataset.zoomReady = 'true';
+    const viewport = getViewport();
+
+    viewport?.addEventListener(
+      'wheel',
+      (e) => {
+        e.preventDefault();
+        const factor = e.deltaY < 0 ? 1.1 : 0.91;
+        const nextScale = Math.max(1, Math.min(getMaxZoom(), zoomState.scale * factor));
+        zoomAtPoint(e.clientX, e.clientY, nextScale);
+      },
+      { passive: false, signal }
+    );
+
+    modalImg.addEventListener(
+      'mousedown',
+      (e) => {
+        if (zoomState.scale <= 1) return;
+        zoomState.dragging = true;
+        zoomState.pointerStartX = e.clientX;
+        zoomState.pointerStartY = e.clientY;
+        zoomState.panStartX = zoomState.panX;
+        zoomState.panStartY = zoomState.panY;
+        modalImg.style.cursor = 'grabbing';
+        e.preventDefault();
+      },
+      { signal }
+    );
+
+    window.addEventListener(
+      'mousemove',
+      (e) => {
+        if (!zoomState.dragging || zoomState.scale <= 1) return;
+        zoomState.panX = zoomState.panStartX + (e.clientX - zoomState.pointerStartX);
+        zoomState.panY = zoomState.panStartY + (e.clientY - zoomState.pointerStartY);
+        clampPan();
+        applyZoomTransform();
+      },
+      { signal }
+    );
+
+    window.addEventListener(
+      'mouseup',
+      () => {
+        if (!zoomState.dragging) return;
+        zoomState.dragging = false;
+        applyZoomTransform();
+      },
+      { signal }
+    );
+
+    viewport?.addEventListener(
+      'touchstart',
+      (e) => {
+        if (e.touches.length === 2) {
+          zoomState.lastPinchDistance = touchDistance(e.touches);
+          e.preventDefault();
+        } else if (e.touches.length === 1 && zoomState.scale > 1) {
+          zoomState.dragging = true;
+          zoomState.pointerStartX = e.touches[0].clientX;
+          zoomState.pointerStartY = e.touches[0].clientY;
+          zoomState.panStartX = zoomState.panX;
+          zoomState.panStartY = zoomState.panY;
+        }
+      },
+      { passive: false, signal }
+    );
+
+    viewport?.addEventListener(
+      'touchmove',
+      (e) => {
+        if (e.touches.length === 2) {
+          const dist = touchDistance(e.touches);
+          if (zoomState.lastPinchDistance > 0) {
+            const midX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+            const midY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+            const nextScale = Math.max(
+              1,
+              Math.min(getMaxZoom(), zoomState.scale * (dist / zoomState.lastPinchDistance))
+            );
+            zoomAtPoint(midX, midY, nextScale);
+          }
+          zoomState.lastPinchDistance = dist;
+          e.preventDefault();
+        } else if (zoomState.dragging && e.touches.length === 1 && zoomState.scale > 1) {
+          zoomState.panX = zoomState.panStartX + (e.touches[0].clientX - zoomState.pointerStartX);
+          zoomState.panY = zoomState.panStartY + (e.touches[0].clientY - zoomState.pointerStartY);
+          clampPan();
+          applyZoomTransform();
+          e.preventDefault();
+        }
+      },
+      { passive: false, signal }
+    );
+
+    viewport?.addEventListener(
+      'touchend',
+      () => {
+        zoomState.dragging = false;
+        zoomState.lastPinchDistance = 0;
+      },
+      { signal }
+    );
+
+    modalImg.addEventListener(
+      'dblclick',
+      (e) => {
+        if (zoomState.scale > 1) {
+          resetZoom();
+        } else {
+          const nativeZoom = Math.min(1 / (zoomState.fitScale || 1), getMaxZoom());
+          zoomAtPoint(e.clientX, e.clientY, Math.max(2, nativeZoom));
+        }
+      },
+      { signal }
+    );
+
+    window.addEventListener(
+      'resize',
+      () => {
+        if (modal.classList.contains('hidden')) return;
+        zoomState.fitScale = computeFitScale();
+        applyZoomTransform();
+        clampPan();
+        applyZoomTransform();
+      },
+      { signal }
+    );
+  };
+
   const open = (src, trigger) => {
-    modalImg.src = src;
+    if (!src) return;
+    modalTrigger = trigger || document.activeElement;
+
+    clearImageSizing();
+    zoomState.scale = 1;
+    zoomState.fitScale = 1;
+    zoomState.panX = 0;
+    zoomState.panY = 0;
+    zoomState.dragging = false;
+
     modal.classList.remove('hidden');
+    modal.classList.add('flex');
     modal.setAttribute('aria-hidden', 'false');
     document.body.classList.add('menu-open');
-    closeBtn?.focus();
-    modal._trigger = trigger;
+    document.body.style.overflow = 'hidden';
+
+    const onReady = () => {
+      if (!modalImg.naturalWidth || !modalImg.naturalHeight) return;
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => setupZoom());
+      });
+    };
+
+    modalImg.loading = 'eager';
+    modalImg.onload = onReady;
+    modalImg.src = src;
+    if (modalImg.complete && modalImg.naturalWidth) onReady();
+
+    setTimeout(() => closeBtn?.focus(), 50);
   };
 
   const close = () => {
+    teardownZoom();
+    clearImageSizing();
+    modalImg.onload = null;
+    modalImg.removeAttribute('src');
+
     modal.classList.add('hidden');
+    modal.classList.remove('flex');
     modal.setAttribute('aria-hidden', 'true');
     document.body.classList.remove('menu-open');
-    modalImg.src = '';
-    modal._trigger?.focus?.();
+    document.body.style.overflow = '';
+
+    const restore = modalTrigger;
+    modalTrigger = null;
+    restore?.focus?.();
   };
 
   document.querySelectorAll('[data-infographic-src]').forEach((el) => {
