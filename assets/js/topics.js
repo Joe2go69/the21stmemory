@@ -152,39 +152,34 @@ function renderMainRootBlock(sourceId, root) {
   const isPh = !!root.is_placeholder;
   const topicAttrs = `data-topic-id="${TopicUtils.escapeAttr(root.id)}" id="topic-${TopicUtils.escapeAttr(root.id)}"`;
   const cardInner = `
-        <div class="topic-main-root-card__glow" aria-hidden="true"></div>
-        <div class="topic-main-root-card__header">
-          <div class="topic-main-root-icon flex-shrink-0 overflow-hidden">
-            ${renderTopicImage(root.topic_image, `${root.title} visual`, { loading: "eager", isPlaceholder: isPh })}
-          </div>
-          <div class="topic-main-root-card__body">
-            <div class="topic-main-root-badges">
-              <div class="topic-main-root-badge">${isPh ? 'Coming soon' : 'Essence · Start Here'}</div>
-              ${!isPh && root.video_language_count
-                ? `<div class="topic-main-root-lang-chip" aria-label="Videos available in ${TopicUtils.escapeAttr(String(root.video_language_count))} languages">Videos in ${TopicUtils.escapeHtml(String(root.video_language_count))} languages</div>`
-                : ''}
-            </div>
-            <h3 class="topic-main-root-title group-hover:text-mem-indigo transition-colors">${TopicUtils.escapeHtml(root.title)}</h3>
-            <p class="topic-main-root-desc">${TopicUtils.escapeHtml(root.description || '')}</p>
-          </div>
+        <div class="topic-main-root-media">
+          ${renderTopicImage(root.topic_image, `${root.title} visual`, { loading: 'eager', isPlaceholder: isPh })}
+          <span class="topic-main-root-media-fade" aria-hidden="true"></span>
         </div>
-        <div class="topic-main-root-footer">
-          <div class="topic-main-root-explore inline-flex items-center justify-center gap-2 text-xs font-bold tracking-[1.5px] w-full">
-            ${isPh ? 'Coming soon' : 'Begin the transmission <span class="text-lg leading-none">→</span>'}
+        <div class="topic-main-root-content">
+          <div class="topic-main-root-badges">
+            <div class="topic-main-root-badge">${isPh ? 'Coming soon' : 'Essence · Start here'}</div>
+            ${!isPh && root.video_language_count
+              ? `<div class="topic-main-root-lang-chip" aria-label="Videos available in ${TopicUtils.escapeAttr(String(root.video_language_count))} languages">Videos in ${TopicUtils.escapeHtml(String(root.video_language_count))} languages</div>`
+              : ''}
+          </div>
+          <h3 class="topic-main-root-title">${TopicUtils.escapeHtml(root.title)}</h3>
+          <p class="topic-main-root-desc">${TopicUtils.escapeHtml(root.description || '')}</p>
+          <div class="topic-main-root-footer">
+            <span class="topic-main-root-explore">
+              ${isPh ? 'Coming soon' : 'Begin the transmission <span aria-hidden="true">→</span>'}
+            </span>
           </div>
         </div>`;
 
   const card = isPh
-    ? `<div class="topic-main-root-card channel-card surface-interactive topic-main-root-card--soon opacity-70" ${topicAttrs} aria-disabled="true">${cardInner}</div>`
+    ? `<div class="topic-main-root-card topic-main-root-card--soon" ${topicAttrs} aria-disabled="true">${cardInner}</div>`
     : `<a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, root.id, false))}"
-         class="topic-main-root-card channel-card surface-interactive group no-underline" ${topicAttrs}>${cardInner}</a>`;
+         class="topic-main-root-card group" ${topicAttrs}>${cardInner}</a>`;
 
   return `
     <div class="topic-main-root-block" data-category-id="${root.id}">
-      <div class="topic-main-root-eyebrow" aria-hidden="true">
-        ${typeof renderSiteIcon === 'function' ? renderSiteIcon('star', 'card-icon-sm') : ''}
-        Root transmission
-      </div>
+      <p class="topic-main-root-eyebrow">Root transmission</p>
       ${card}
     </div>
   `;
@@ -204,7 +199,7 @@ function renderCategoryBlock(sourceId, category) {
   }
 
   const subCount = category.subtopics ? category.subtopics.length : 0;
-  const rootClasses = `topic-root-card channel-card surface-interactive group no-underline mb-6 p-6 sm:p-8${isPh ? ' topic-root-card--soon' : ''}`;
+  const rootClasses = `topic-root-card group mb-6${isPh ? ' topic-root-card--soon' : ''}`;
   const placeholderBadge = isPh ? '<div class="topic-badge topic-badge--corner">Soon</div>' : '';
   const topicAttrs = `data-topic-id="${TopicUtils.escapeAttr(category.id)}" id="topic-${TopicUtils.escapeAttr(category.id)}"`;
 
@@ -220,22 +215,20 @@ function renderCategoryBlock(sourceId, category) {
   if (!showRoot && !subsHTML) return '';
 
   const rootInner = `
-          <div class="topic-root-card__header">
-            <div class="root-icon flex-shrink-0 overflow-hidden border-2 border-mem-accent/60 shadow-[0_10px_30px_rgba(109,40,217,0.35)]">
-              ${renderTopicImage(category.topic_image, `${category.title} visual`, { isPlaceholder: isPh, compact: true })}
-            </div>
-            <div class="topic-root-card__body">
-              <h3 class="topic-category-title group-hover:text-mem-indigo transition-colors">${TopicUtils.escapeHtml(category.title)}</h3>
-              <span class="topic-category-count">${subCount} ${subCount === 1 ? 'category' : 'categories'}</span>
-              <p class="topic-category-desc">${TopicUtils.escapeHtml(category.description || '')}</p>
+          <div class="topic-root-media">
+            ${renderTopicImage(category.topic_image, `${category.title} visual`, { isPlaceholder: isPh, compact: true })}
+            <span class="topic-root-media-fade" aria-hidden="true"></span>
+          </div>
+          <div class="topic-root-content">
+            <h3 class="topic-category-title">${TopicUtils.escapeHtml(category.title)}</h3>
+            <span class="topic-category-count">${subCount} ${subCount === 1 ? 'category' : 'categories'}</span>
+            <p class="topic-category-desc">${TopicUtils.escapeHtml(category.description || '')}</p>
+            <div class="topic-root-footer">
+              <span class="explore-badge ${isPh ? 'explore-badge--soon' : ''}">
+                ${isPh ? 'Coming soon' : 'Explore category <span aria-hidden="true">→</span>'}
+              </span>
             </div>
           </div>
-          <div class="mt-auto pt-5">
-            <div class="explore-badge ${isPh ? 'explore-badge--soon' : ''} inline-flex items-center justify-center gap-2 text-xs font-bold tracking-[1.5px] w-full">
-              ${isPh ? 'Coming soon' : 'Explore category <span class="text-lg leading-none">→</span>'}
-            </div>
-          </div>
-          <div class="topic-root-shimmer"></div>
           ${placeholderBadge}`;
 
   const rootCard = isPh
