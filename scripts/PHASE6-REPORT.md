@@ -1,8 +1,8 @@
 # Phase 6 Verification Report
 
-Generated: 2026-07-24T01:13:11.718Z
+Generated: 2026-07-24T08:19:30.229Z
 
-**Result: FAILED** — 79/82 checks
+**Result: FAILED** — 80/83 checks
 
 ## P1 Brand SEO
 
@@ -33,7 +33,7 @@ Generated: 2026-07-24T01:13:11.718Z
 - ❌ quizzes cards present
 - ✅ quizzes filters
 - ✅ quizzes-index.json
-- ✅ quiz index count ~99 (107)
+- ✅ quiz index count ~99 (109)
 - ✅ index nav Quizzes
 - ✅ index quiz CTA
 - ✅ codex quiz link
@@ -46,8 +46,8 @@ Generated: 2026-07-24T01:13:11.718Z
 - Failed: 1
 
 - ✅ dive-manifest.json
-- ✅ live dives ~100 (107)
-- ✅ stub dives ~64 (57)
+- ✅ live dives ~100 (109)
+- ✅ stub dives ~64 (55)
 - ✅ live sample exists
 - ✅ live unique title
 - ✅ live report prerendered
@@ -88,18 +88,19 @@ Generated: 2026-07-24T01:13:11.718Z
 
 ## P5 Content hygiene
 
-- Passed: 9
+- Passed: 10
 - Failed: 0
 
 - ✅ continue learning block
 - ✅ network CTA on dive
 - ✅ AI disclaimer
 - ✅ updated stamp
-- ✅ about methodology
+- ✅ about no process line
 - ✅ about AI bridge heading
+- ✅ about AI note
 - ✅ stub browse ready CTA
 - ✅ SPA continue helper
-- ✅ sitemap dive count = live (107 vs 107)
+- ✅ sitemap dive count = live (109 vs 109)
 
 ## Integrity
 
@@ -116,7 +117,7 @@ Generated: 2026-07-24T01:13:11.718Z
 - ✅ network.html has Quizzes nav
 - ✅ topics.html has Quizzes nav
 - ✅ sitemap escaped ampersands
-- ✅ sitemap URL count > 150 (222)
+- ✅ sitemap URL count > 150 (226)
 - ✅ og image non-empty (20844)
 - ✅ community noindex
 - ✅ community redirects

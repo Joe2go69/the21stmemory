@@ -9254,24 +9254,25 @@ a.btn-secondary:hover,
   display: none !important;
 }
 
-/* About: quieter card, less bulk */
+/* About: quieter, more professional card */
 .about-card {
   box-shadow:
     0 12px 32px -16px rgba(0, 0, 0, 0.45),
     inset 0 1px 0 rgba(255, 255, 255, 0.04) !important;
 }
 
+/* Remove any extra purple bloom if present */
 .about-card.glow-purple,
 .about-card {
-  /* no floating purple bloom */
+  /* intentionally quieter — no floating purple bloom */
 }
 
 .about-media {
-  max-width: 18rem;
+  max-width: 18.5rem;
 }
 
 .about-media .media-frame {
-  max-width: 18rem;
+  max-width: 18.5rem;
 }
 
 /* Format legend: plain text, not hover cards */
@@ -9461,13 +9462,13 @@ a.btn-secondary:hover,
 
 /* About AI note — calm professional disclaimer */
 .about-ai-note {
-  margin-top: 1.25rem;
-  padding: 0.9rem 1rem;
-  border-radius: 0.85rem;
-  border: 1px solid rgba(124, 58, 237, 0.22);
-  background: rgba(18, 10, 46, 0.45);
+  margin-top: 1.75rem;
+  padding: 0.95rem 1.1rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(124, 58, 237, 0.18);
+  background: rgba(18, 10, 46, 0.38);
   font-size: 0.9rem;
-  line-height: 1.6;
+  line-height: 1.55;
   color: var(--text-soft);
 }
 
