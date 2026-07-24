@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-23T08:00:18.712Z",
-  "total": 107,
+  "generatedAt": "2026-07-24T02:09:32.770Z",
+  "total": 108,
   "sources": [
     {
       "id": "alice",
@@ -14,7 +14,7 @@
       "label": "Breakdown",
       "title": "Mega Breakdown Board Notes",
       "short": "Final-stage Great Awakening notes",
-      "count": 47
+      "count": 48
     }
   ],
   "quizzes": [
@@ -1193,6 +1193,18 @@
       "questionCount": 25,
       "href": "quiz/breakdown/stabilization-process.html",
       "diveHref": "dive/breakdown/stabilization-process.html"
+    },
+    {
+      "id": "starseed-keys",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Starseed Keys",
+      "subtitle": "Test your grasp of Starseed Keys — hidden crystalline activators, Resonance Codes, Monolith tuning forks, Parasitic Overlay collapse, and the Crystalline Network restoring original realm travel and telepathy.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/starseed-keys.html",
+      "diveHref": "dive/breakdown/starseed-keys.html"
     },
     {
       "id": "targeting-parasites",
