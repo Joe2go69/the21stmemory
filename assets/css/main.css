@@ -9412,7 +9412,8 @@ a.btn-secondary:hover,
 .about-banner-media {
   position: relative;
   z-index: 0;
-  height: clamp(10.5rem, 28vw, 15.5rem);
+  height: clamp(8rem, 16vw, 11rem);
+  max-height: 11rem;
   overflow: hidden;
   background: #0c081c;
   flex-shrink: 0;
@@ -9422,6 +9423,7 @@ a.btn-secondary:hover,
   display: block;
   width: 100%;
   height: 100%;
+  max-height: 11rem;
   object-fit: cover;
   object-position: center 40%;
 }
@@ -9903,7 +9905,9 @@ a.btn-secondary:hover,
 .oracle-banner-media {
   position: relative;
   z-index: 0;
-  height: clamp(11rem, 30vw, 16.5rem);
+  /* Compact hero band — matches About scale, never dominates the viewport */
+  height: clamp(8rem, 16vw, 11rem);
+  max-height: 11rem;
   overflow: hidden;
   background: #0c081c;
   flex-shrink: 0;
@@ -9913,8 +9917,9 @@ a.btn-secondary:hover,
   display: block;
   width: 100%;
   height: 100%;
+  max-height: 11rem;
   object-fit: cover;
-  object-position: center 45%;
+  object-position: center 55%;
 }
 
 .oracle-banner-media-fade {
