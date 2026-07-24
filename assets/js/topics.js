@@ -521,44 +521,67 @@ function renderFilterControls() {
 
 function renderSourceHeader(data, sourceId, stats) {
   const breadcrumbs = TopicUtils.renderSourceBreadcrumbs({ sourceTitle: data.title });
+  const live = stats.live || 0;
+  const total = stats.total || 0;
+  const soon = Math.max(0, total - live);
+  const readyPct = total ? Math.round((live / total) * 100) : 0;
+  const statusMeta = typeof RenderUtils.sourceStatusMeta === 'function'
+    ? RenderUtils.sourceStatusMeta(live, total, soon)
+    : `${live} of ${total} ready`;
+  const seriesLabel = typeof RenderUtils.sourcePlainLabel === 'function'
+    ? RenderUtils.sourcePlainLabel(sourceId)
+    : 'Transmission archive';
+  // Text-free card art for the hero (same as Codex cards); keep data.image for other uses
+  const heroImage = (typeof RenderUtils.sourceCardImage === 'function'
+    ? RenderUtils.sourceCardImage({ id: sourceId, image: data.image })
+    : data.image) || data.image || '';
+  const descHtml = (data.description || '')
+    .split('\n\n')
+    .filter(Boolean)
+    .map((p) => `<p>${TopicUtils.escapeHtml(p)}</p>`)
+    .join('');
+  const pdfBtn = data.pdf_url
+    ? `<a href="${TopicUtils.escapeAttr(data.pdf_url)}" target="_blank" rel="noopener noreferrer" class="btn-secondary source-hero-pdf">
+         ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''}
+         View original PDF
+       </a>`
+    : '';
 
   document.getElementById('source-header').innerHTML = `
     ${breadcrumbs}
-    <div class="grid md:grid-cols-12 gap-6 md:gap-12 items-start">
-      <div class="md:col-span-7 flex flex-col h-full">
-        <div class="source-text-block">
-          <div class="inline-flex items-center px-4 py-1 rounded-full bg-mem-violet/10 text-mem-indigo text-xs font-semibold tracking-wide mb-4">
-            Codex archive · ${stats.live} of ${stats.total} topics live
+    <article class="source-hero static-card" aria-labelledby="source-hero-title">
+      <div class="source-hero-grid">
+        <div class="source-hero-copy">
+          <p class="source-hero-eyebrow">${TopicUtils.escapeHtml(seriesLabel)}</p>
+          <h1 id="source-hero-title" class="source-hero-title">${TopicUtils.escapeHtml(data.title)}</h1>
+          ${data.subtitle ? `<p class="source-hero-deck">${TopicUtils.escapeHtml(data.subtitle)}</p>` : ''}
+          <p class="source-hero-meta">${TopicUtils.escapeHtml(statusMeta)}</p>
+          <div class="source-hero-progress" aria-hidden="true">
+            <div class="source-hero-progress__fill" style="width:${readyPct}%"></div>
           </div>
-          <h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tighter leading-none">${TopicUtils.escapeHtml(data.title)}</h1>
-          <p class="text-lg md:text-2xl text-mem-muted mt-3">${TopicUtils.escapeHtml(data.subtitle || '')}</p>
-          <div class="mt-4">
-            <div class="archive-progress-bar" role="progressbar" aria-valuenow="${stats.live}" aria-valuemin="0" aria-valuemax="${stats.total}" aria-label="Archive progress">
-              <div class="archive-progress-fill" data-progress="${stats.total ? Math.round((stats.live / stats.total) * 100) : 0}" style="width: ${stats.total ? Math.round((stats.live / stats.total) * 100) : 0}%"></div>
-            </div>
-            <p class="text-sm text-mem-muted mt-2">${stats.live} of ${stats.total} topics available now • ${stats.total - stats.live} coming soon</p>
-          </div>
-          <div class="text-lg leading-relaxed text-mem-soft mt-6">
-            ${(data.description || '').split('\n\n').map(p => `<p class="mb-4 last:mb-0">${TopicUtils.escapeHtml(p)}</p>`).join('')}
+          <div class="source-hero-desc">${descHtml}</div>
+          <div class="source-hero-actions">
+            <a href="#explore-topics" class="btn-primary">Explore topics ↓</a>
+            <a href="codex.html" class="btn-secondary">← Back to Codex</a>
+            ${pdfBtn}
           </div>
         </div>
-        <div class="flex flex-wrap gap-4 mt-auto pt-10">
-          <a href="#explore-topics" class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold">Explore topics ↓</a>
-          <a href="codex.html" class="btn-secondary inline-flex items-center justify-center px-8 py-4 text-base font-semibold">← Back to Codex</a>
+        <div class="source-hero-media">
+          ${heroImage
+            ? `<img src="${TopicUtils.encodeAssetPath(heroImage)}"
+                    alt="${TopicUtils.escapeAttr(data.title)}"
+                    class="source-hero-img"
+                    width="640" height="800" loading="eager" decoding="async" data-img-fallback>`
+            : ''}
+          <span class="source-hero-media-fade" aria-hidden="true"></span>
         </div>
       </div>
-      <div class="md:col-span-5 flex flex-col h-full items-center md:items-end">
-        ${RenderUtils.renderMediaFrame(TopicUtils.encodeAssetPath(data.image), data.title, { loading: 'eager', className: 'w-full max-w-md md:max-w-sm' })}
-        ${data.pdf_url ? `
-        <div class="mt-auto pt-6">
-          <a href="${TopicUtils.escapeAttr(data.pdf_url)}" target="_blank" rel="noopener noreferrer"
-             class="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-semibold w-full max-w-[260px]">
-            ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} View original PDF
-          </a>
-        </div>` : ''}
-      </div>
-    </div>
+    </article>
   `;
+
+  if (typeof RenderUtils.setupImageFallbacks === 'function') {
+    RenderUtils.setupImageFallbacks(document.getElementById('source-header'), 'img[data-img-fallback]');
+  }
 }
 
 function getTopicsNavExtraState() {

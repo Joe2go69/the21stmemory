@@ -210,7 +210,7 @@ const RenderUtils = {
     return map[sourceId] || 'Transmission archive';
   },
 
-  /** Codex grid only — text-free card art. Topic pages keep source.image. */
+  /** Text-free card art for Codex grid + source hero. Topic images keep source.image. */
   sourceCardImage(source) {
     const map = {
       alice: 'images/alice-codex-card.webp',

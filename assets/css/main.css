@@ -2265,6 +2265,235 @@ header.hero-gradient h1 {
 }
 
 /* =============================================
+   SOURCE HERO — split editorial (topics page)
+   Left: copy  |  Right: full-bleed text-free art
+   ============================================= */
+.source-hero-host {
+  margin-bottom: 0;
+}
+
+.source-hero {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  padding: 0 !important;
+  border-radius: 1.15rem;
+  background: #1A1433;
+  box-shadow:
+    0 16px 40px -18px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(124, 58, 237, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+}
+
+.source-hero > * {
+  position: relative;
+  z-index: 2;
+}
+
+.source-hero-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 0;
+}
+
+@media (min-width: 900px) {
+  .source-hero-grid {
+    grid-template-columns: minmax(0, 1.15fr) minmax(14rem, 0.85fr);
+    align-items: stretch;
+  }
+}
+
+.source-hero-copy {
+  display: flex;
+  flex-direction: column;
+  padding: 1.35rem 1.4rem 1.5rem;
+  order: 2;
+}
+
+@media (min-width: 640px) {
+  .source-hero-copy {
+    padding: 1.65rem 1.85rem 1.75rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .source-hero-copy {
+    order: 1;
+    padding: 1.85rem 1.75rem 1.85rem 2rem;
+  }
+}
+
+.source-hero-eyebrow {
+  margin: 0 0 0.55rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-soft, #B8A9D4);
+}
+
+.source-hero-title {
+  margin: 0;
+  font-family: 'Space Grotesk', Inter, system-ui, sans-serif;
+  font-size: clamp(1.85rem, 4.2vw, 2.75rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+  color: #fff;
+}
+
+.source-hero-deck {
+  margin: 0.65rem 0 0;
+  font-size: 1.02rem;
+  line-height: 1.4;
+  color: var(--text-muted, #9B8DB8);
+}
+
+@media (min-width: 768px) {
+  .source-hero-deck {
+    font-size: 1.12rem;
+  }
+}
+
+.source-hero-meta {
+  margin: 1rem 0 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--text-muted, #9B8DB8);
+}
+
+.source-hero-progress {
+  height: 4px;
+  margin-top: 0.55rem;
+  max-width: 16rem;
+  border-radius: 9999px;
+  background: rgba(12, 8, 28, 0.85);
+  border: 1px solid rgba(124, 58, 237, 0.14);
+  overflow: hidden;
+}
+
+.source-hero-progress__fill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #4C1D95 0%, #7C3AED 55%, #A78BFA 100%);
+  box-shadow: 0 0 8px rgba(124, 58, 237, 0.32);
+}
+
+.source-hero-desc {
+  margin-top: 1.15rem;
+  display: grid;
+  gap: 0.75rem;
+  max-width: 48rem;
+}
+
+.source-hero-desc p {
+  margin: 0 !important;
+  flex-grow: 0 !important;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-prose, #E0D4FF);
+}
+
+@media (min-width: 768px) {
+  .source-hero-desc p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}
+
+.source-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: auto;
+  padding-top: 1.35rem;
+}
+
+.source-hero-actions .btn-primary,
+.source-hero-actions .btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.source-hero-pdf .card-icon {
+  margin-right: 0.15rem;
+}
+
+/* Full-bleed media panel — mobile top band, desktop right column */
+.source-hero-media {
+  position: relative;
+  z-index: 0;
+  order: 1;
+  height: clamp(9rem, 28vw, 12rem);
+  max-height: 12rem;
+  overflow: hidden;
+  background: #0c081c;
+  flex-shrink: 0;
+}
+
+@media (min-width: 900px) {
+  .source-hero-media {
+    order: 2;
+    height: auto;
+    max-height: none;
+    min-height: 100%;
+    align-self: stretch;
+  }
+}
+
+.source-hero-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (min-width: 900px) {
+  .source-hero-img {
+    position: absolute;
+    inset: 0;
+  }
+}
+
+.source-hero-media-fade {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(12, 8, 28, 0.05) 0%,
+      rgba(26, 20, 51, 0.25) 55%,
+      #1A1433 100%
+    );
+}
+
+@media (min-width: 900px) {
+  .source-hero-media-fade {
+    background:
+      linear-gradient(
+        to left,
+        transparent 0%,
+        transparent 42%,
+        rgba(26, 20, 51, 0.55) 78%,
+        #1A1433 100%
+      ),
+      linear-gradient(
+        to bottom,
+        rgba(12, 8, 28, 0.12) 0%,
+        transparent 35%,
+        rgba(26, 20, 51, 0.35) 100%
+      );
+  }
+}
+
+/* =============================================
    DEEP DIVE REPORT — MAXIMUM READABILITY & PROFESSIONALISM (REFINED)
    ============================================= */
 
