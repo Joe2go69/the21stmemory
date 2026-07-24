@@ -219,6 +219,20 @@ const TopicUtils = {
     };
   },
 
+  /** Site-relative path to the default video poster (play button is drawn on the image). */
+  defaultVideoPosterPath() {
+    const path = (typeof window !== 'undefined' && window.location && window.location.pathname) || '';
+    const normalized = String(path).replace(/\\/g, '/');
+    const base = (normalized.includes('/dive/') || normalized.includes('/quiz/')) ? '../../' : '';
+    return `${base}images/video-poster.webp`;
+  },
+
+  /** Markup for a branded click-to-play poster (no CSS play overlay). */
+  renderVideoPosterMarkup(posterSrc) {
+    const src = this.escapeAttr(posterSrc || this.defaultVideoPosterPath());
+    return `<img src="${src}" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">`;
+  },
+
   /**
    * Stop every other Rumble player so only one video plays at a time.
    * Restores poster/play UI for click-to-play wraps; removes orphan iframes.
@@ -241,19 +255,9 @@ const TopicUtils = {
       }
 
       const title = wrap.dataset.videoTitle || '21st Memory video';
-      const hasFacadeLabel = wrap.querySelector('.video-play-label')
-        || wrap.classList.contains('video-facade')
-        || wrap.closest('.video-facade');
-
-      wrap.innerHTML = hasFacadeLabel
-        ? `<div class="video-facade-glow" aria-hidden="true"></div>
-           <div class="video-play-btn" aria-hidden="true">
-             <span class="video-play-icon">▶</span>
-           </div>
-           <span class="video-play-label">Play transmission</span>`
-        : `<div class="video-play-btn" aria-hidden="true">
-             <span class="video-play-icon">▶</span>
-           </div>`;
+      const posterSrc = wrap.dataset.posterSrc || this.defaultVideoPosterPath();
+      if (!wrap.dataset.posterSrc) wrap.dataset.posterSrc = posterSrc;
+      wrap.innerHTML = this.renderVideoPosterMarkup(posterSrc);
 
       wrap.dataset.loaded = 'false';
       wrap.classList.add('cursor-pointer');

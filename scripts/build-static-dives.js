@@ -376,6 +376,8 @@ function renderStubActions({ sourceId, assetBase = ASSET_BASE }) {
 
 function renderVideos(videos) {
   if (!videos?.length) return '';
+  const posterSrc = withAsset('images/video-poster.webp');
+  const posterAttr = escapeAttr(posterSrc);
   return videos
     .map((video) => {
       const title = escapeHtml(video.title || 'Video transmission');
@@ -385,12 +387,13 @@ function renderVideos(videos) {
         : '';
       return `<article class="dive-video-card content-card static-card rounded-3xl p-4">
         <div class="dive-video-card__frame aspect-[16/10] bg-black rounded-2xl overflow-hidden relative">
-          <div class="video-poster-wrap absolute inset-0 flex items-center justify-center bg-mem-inset"
+          <div class="video-poster-wrap absolute inset-0 cursor-pointer"
                data-rumble-embed="${embed}"
                data-video-title="${title}"
+               data-poster-src="${posterAttr}"
                role="button" tabindex="0"
                aria-label="Play video: ${title}">
-            <div class="video-play-btn" aria-hidden="true"><span class="video-play-icon">▶</span></div>
+            <img src="${posterAttr}" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">
           </div>
         </div>
         <h3 class="dive-video-card__title">${title}</h3>

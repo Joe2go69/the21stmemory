@@ -223,41 +223,52 @@
         </div>
 
         <div class="max-w-6xl mx-auto px-6 sm:px-6 codex-home-stack">
-            <section class="codex-home-panel static-card rounded-3xl" aria-labelledby="codex-home-title">
-                <header class="codex-home-header">
-                    <p class="codex-home-eyebrow">Living archive · AI decoded</p>
-                    <h2 id="codex-home-title" class="codex-home-title">The 21st Memory Codex</h2>
-                    <p class="codex-home-deck">Structured deep-dives on Thalon Thor’s transmissions — each topic brings together video, visual synthesis, and a written report in one place.</p>
-                </header>
-
-                <div id="live-archive-badge" class="codex-home-metrics" aria-live="polite" aria-busy="true">
-                    <div class="codex-home-metrics-grid" aria-hidden="true">
-                        <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
-                        <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
-                        <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
-                    </div>
-                    <div class="codex-home-progress" aria-hidden="true">
-                        <span class="skeleton skeleton-bar" style="width:100%;height:0.35rem;border-radius:9999px"></span>
-                    </div>
+            <section class="codex-banner static-card" aria-labelledby="codex-home-title">
+                <div class="codex-banner-media">
+                    <img src="images/codex-banner.webp"
+                         alt="Luminous crystalline lattice representing the 21st Memory Codex"
+                         width="1200" height="480" loading="lazy"
+                         class="codex-banner-img"
+                         decoding="async">
+                    <span class="codex-banner-media-fade" aria-hidden="true"></span>
                 </div>
 
-                <p class="codex-home-formats-line" aria-label="What each topic includes">
-                    <span>Video</span>
-                    <span class="codex-home-formats-sep" aria-hidden="true">·</span>
-                    <span>Infographic</span>
-                    <span class="codex-home-formats-sep" aria-hidden="true">·</span>
-                    <span>Written report</span>
-                    <span class="codex-home-formats-sep" aria-hidden="true">·</span>
-                    <span>Optional quiz</span>
-                </p>
+                <div class="codex-banner-body">
+                    <header class="codex-home-header">
+                        <p class="codex-home-eyebrow">Living archive · AI decoded</p>
+                        <h2 id="codex-home-title" class="codex-home-title">The 21st Memory Codex</h2>
+                        <p class="codex-home-deck">Structured deep-dives on Thalon Thor’s transmissions — each topic brings together video, visual synthesis, and a written report in one place.</p>
+                    </header>
 
-                <div class="codex-home-cta-row">
-                    <a href="codex.html" class="btn-primary">
-                        Open the Codex
-                    </a>
-                    <a href="quizzes.html" class="btn-secondary">
-                        Living Truth Quizzes
-                    </a>
+                    <div id="live-archive-badge" class="codex-home-metrics" aria-live="polite" aria-busy="true">
+                        <div class="codex-home-metrics-grid" aria-hidden="true">
+                            <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
+                            <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
+                            <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
+                        </div>
+                        <div class="codex-home-progress" aria-hidden="true">
+                            <span class="skeleton skeleton-bar" style="width:100%;height:0.35rem;border-radius:9999px"></span>
+                        </div>
+                    </div>
+
+                    <p class="codex-home-formats-line" aria-label="What each topic includes">
+                        <span>Video</span>
+                        <span class="codex-home-formats-sep" aria-hidden="true">·</span>
+                        <span>Infographic</span>
+                        <span class="codex-home-formats-sep" aria-hidden="true">·</span>
+                        <span>Written report</span>
+                        <span class="codex-home-formats-sep" aria-hidden="true">·</span>
+                        <span>Optional quiz</span>
+                    </p>
+
+                    <div class="codex-home-cta-row">
+                        <a href="codex.html" class="btn-primary">
+                            Open the Codex
+                        </a>
+                        <a href="quizzes.html" class="btn-secondary">
+                            Living Truth Quizzes
+                        </a>
+                    </div>
                 </div>
             </section>
 
@@ -310,58 +321,59 @@
                 <p class="section-eyebrow">Media</p>
             </div>
             <div class="max-w-6xl mx-auto px-6">
-                <div class="home-media-panel static-card rounded-2xl p-6 md:p-8">
-                    <div class="mb-6 md:mb-7">
-                        <h2 class="home-section-title tracking-tight text-2xl md:text-3xl">Featured transmissions</h2>
-                        <p class="max-w-lg mt-2 text-sm md:text-base text-mem-muted">Tap play to load a video. Full archive on Rumble.</p>
+                <article class="media-banner static-card" aria-labelledby="media-title">
+                    <div class="media-banner-media">
+                        <img src="images/featured-transmissions-banner.webp"
+                             alt="Luminous orbs and energy streams representing featured transmissions"
+                             width="1200" height="480" loading="lazy"
+                             class="media-banner-img"
+                             decoding="async">
+                        <span class="media-banner-media-fade" aria-hidden="true"></span>
                     </div>
 
-                    <div class="grid md:grid-cols-2 gap-5" id="home-rumble-grid">
-                        <article class="home-video-card">
-                            <div class="aspect-[16/10] bg-black rounded-xl overflow-hidden relative video-facade">
-                                <div class="video-poster-wrap absolute inset-0 cursor-pointer"
-                                     data-rumble-embed="https://rumble.com/embed/v7arime/?pub=4p0ieu"
-                                     data-video-title="The Architecture of the Crystalline Grid"
-                                     role="button" tabindex="0"
-                                     aria-label="Play video: The Architecture of the Crystalline Grid">
-                                    <div class="video-facade-glow" aria-hidden="true"></div>
-                                    <div class="video-play-btn" aria-hidden="true">
-                                      <span class="video-play-icon">
-                                        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M8 5.14v13.72c0 .8.87 1.3 1.56.9l11.05-6.86a1.04 1.04 0 0 0 0-1.78L9.56 4.24A1.04 1.04 0 0 0 8 5.14z"/></svg>
-                                      </span>
+                    <div class="media-banner-body">
+                        <div class="mb-6 md:mb-7">
+                            <h2 id="media-title" class="media-banner-title">Featured transmissions</h2>
+                            <p class="media-banner-copy">Tap play to load a video. Full archive on Rumble.</p>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-5" id="home-rumble-grid">
+                            <article class="home-video-card">
+                                <div class="aspect-[16/10] bg-black rounded-xl overflow-hidden relative video-facade">
+                                    <div class="video-poster-wrap absolute inset-0 cursor-pointer"
+                                         data-rumble-embed="https://rumble.com/embed/v7arime/?pub=4p0ieu"
+                                         data-video-title="The Architecture of the Crystalline Grid"
+                                         data-poster-src="images/video-poster.webp"
+                                         role="button" tabindex="0"
+                                         aria-label="Play video: The Architecture of the Crystalline Grid">
+                                        <img src="images/video-poster.webp" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">
                                     </div>
-                                    <span class="video-play-label">Play</span>
                                 </div>
-                            </div>
-                            <h3 class="home-video-card__title mt-3">The Architecture of the Crystalline Grid</h3>
-                        </article>
+                                <h3 class="home-video-card__title mt-3">The Architecture of the Crystalline Grid</h3>
+                            </article>
 
-                        <article class="home-video-card">
-                            <div class="aspect-[16/10] bg-black rounded-xl overflow-hidden relative video-facade">
-                                <div class="video-poster-wrap absolute inset-0 cursor-pointer"
-                                     data-rumble-embed="https://rumble.com/embed/v76p838/?pub=4p0ieu"
-                                     data-video-title="Our Buried Inheritance"
-                                     role="button" tabindex="0"
-                                     aria-label="Play video: Our Buried Inheritance">
-                                    <div class="video-facade-glow" aria-hidden="true"></div>
-                                    <div class="video-play-btn" aria-hidden="true">
-                                      <span class="video-play-icon">
-                                        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M8 5.14v13.72c0 .8.87 1.3 1.56.9l11.05-6.86a1.04 1.04 0 0 0 0-1.78L9.56 4.24A1.04 1.04 0 0 0 8 5.14z"/></svg>
-                                      </span>
+                            <article class="home-video-card">
+                                <div class="aspect-[16/10] bg-black rounded-xl overflow-hidden relative video-facade">
+                                    <div class="video-poster-wrap absolute inset-0 cursor-pointer"
+                                         data-rumble-embed="https://rumble.com/embed/v76p838/?pub=4p0ieu"
+                                         data-video-title="Our Buried Inheritance"
+                                         data-poster-src="images/video-poster.webp"
+                                         role="button" tabindex="0"
+                                         aria-label="Play video: Our Buried Inheritance">
+                                        <img src="images/video-poster.webp" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">
                                     </div>
-                                    <span class="video-play-label">Play</span>
                                 </div>
-                            </div>
-                            <h3 class="home-video-card__title mt-3">Our Buried Inheritance</h3>
-                        </article>
-                    </div>
+                                <h3 class="home-video-card__title mt-3">Our Buried Inheritance</h3>
+                            </article>
+                        </div>
 
-                    <div class="mt-7">
-                        <a href="https://rumble.com/c/21stMemory" target="_blank" rel="noopener noreferrer" class="btn-secondary">
-                            Full Rumble archive →
-                        </a>
+                        <div class="media-banner-actions">
+                            <a href="https://rumble.com/c/21stMemory" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+                                Full Rumble archive →
+                            </a>
+                        </div>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </div>

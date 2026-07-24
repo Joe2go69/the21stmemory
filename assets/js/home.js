@@ -272,7 +272,7 @@ async function loadJourneyStrip() {
   return null;
 }
 
-/** One soft play-button pulse when a facade first enters the viewport. */
+/** One soft poster pulse when a facade first enters the viewport. */
 function initVideoPlayPulse(root) {
   if (!root) return;
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -283,9 +283,9 @@ function initVideoPlayPulse(root) {
   const observer = new IntersectionObserver((entries, obs) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
-      // Pulse the circular icon (the visible control), not the transparent wrap
-      const icon = entry.target.querySelector('.video-play-icon');
-      if (icon) icon.classList.add('is-pulse-once');
+      const poster = entry.target.querySelector('.video-poster-img')
+        || entry.target.querySelector('.video-play-icon');
+      if (poster) poster.classList.add('is-pulse-once');
       obs.unobserve(entry.target);
     });
   }, { threshold: 0.45 });

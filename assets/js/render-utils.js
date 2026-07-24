@@ -72,23 +72,23 @@ const RenderUtils = {
   renderLazyRumbleCard(video) {
     const embed = TopicUtils.escapeAttr(video.embed_url || '');
     const title = TopicUtils.escapeHtml(video.title || '21st Memory video');
-    const poster = video.poster || video.thumbnail || '';
-    const posterSrc = poster ? TopicUtils.encodeAssetPath(poster) : '';
+    const customPoster = video.poster || video.thumbnail || '';
+    const posterSrc = TopicUtils.encodeAssetPath(
+      customPoster || (typeof TopicUtils.defaultVideoPosterPath === 'function'
+        ? TopicUtils.defaultVideoPosterPath()
+        : 'images/video-poster.webp')
+    );
+    const posterAttr = TopicUtils.escapeAttr(posterSrc);
 
-    const playerHtml = posterSrc
-      ? `<div class="video-poster-wrap absolute inset-0"
+    const playerHtml = `<div class="video-poster-wrap absolute inset-0 cursor-pointer"
                data-rumble-embed="${embed}"
                data-video-title="${title}"
+               data-poster-src="${posterAttr}"
                role="button"
                tabindex="0"
                aria-label="Play video: ${title}">
-            <img src="${posterSrc}" alt="" loading="lazy" data-img-fallback>
-            <div class="video-play-btn" aria-hidden="true">
-              <span class="video-play-icon">▶</span>
-            </div>
-          </div>`
-      : `<iframe src="${embed}" width="100%" height="100%" allowfullscreen
-                  class="w-full h-full border-0 absolute inset-0" title="${title}" loading="lazy"></iframe>`;
+            <img src="${posterAttr}" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async" data-img-fallback>
+          </div>`;
 
     return `
       <div class="channel-card video-card rounded-3xl overflow-hidden flex flex-col border border-mem-subtle">

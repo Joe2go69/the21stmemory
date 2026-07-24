@@ -50,7 +50,16 @@ function videoGridClassName(count) {
   return 'dive-video-grid grid gap-6 md:grid-cols-2 lg:grid-cols-3';
 }
 
+function defaultVideoPosterSrc() {
+  if (typeof TopicUtils !== 'undefined' && TopicUtils.defaultVideoPosterPath) {
+    return TopicUtils.defaultVideoPosterPath();
+  }
+  return '../../images/video-poster.webp';
+}
+
 function renderDiveVideoCards(videos) {
+  const posterSrc = defaultVideoPosterSrc();
+  const posterAttr = escapeVideoAttr(posterSrc);
   return (videos || [])
     .map((video) => {
       const title = escapeVideoHtml(video.title || 'Video transmission');
@@ -60,12 +69,13 @@ function renderDiveVideoCards(videos) {
         : '';
       return `<article class="dive-video-card content-card static-card rounded-3xl p-4">
         <div class="dive-video-card__frame aspect-[16/10] bg-black rounded-2xl overflow-hidden relative">
-          <div class="video-poster-wrap absolute inset-0 flex items-center justify-center bg-mem-inset"
+          <div class="video-poster-wrap absolute inset-0 cursor-pointer"
                data-rumble-embed="${embed}"
                data-video-title="${title}"
+               data-poster-src="${posterAttr}"
                role="button" tabindex="0"
                aria-label="Play video: ${title}">
-            <div class="video-play-btn" aria-hidden="true"><span class="video-play-icon">▶</span></div>
+            <img src="${posterAttr}" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">
           </div>
         </div>
         <h3 class="dive-video-card__title">${title}</h3>
@@ -538,7 +548,11 @@ function initClickToPlayVideos() {
         const parent = iframe.closest('[data-rumble-embed]');
         if (parent && parent !== el) {
           const title = parent.getAttribute('data-video-title') || 'Video';
-          parent.innerHTML = `<div class="video-play-btn" aria-hidden="true"><span class="video-play-icon">▶</span></div>`;
+          const posterSrc = parent.getAttribute('data-poster-src') || defaultVideoPosterSrc();
+          if (!parent.getAttribute('data-poster-src')) {
+            parent.setAttribute('data-poster-src', posterSrc);
+          }
+          parent.innerHTML = `<img src="${posterSrc}" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">`;
           parent.dataset.loaded = 'false';
           parent.classList.add('cursor-pointer');
           parent.setAttribute('role', 'button');
