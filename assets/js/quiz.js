@@ -163,11 +163,17 @@
 
   function focusQuizCard() {
     const card = el.root?.querySelector('.quiz-card');
-    if (card) {
-      card.setAttribute('tabindex', '-1');
-      card.focus({ preventScroll: true });
-      card.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    if (!card) return;
+    card.setAttribute('tabindex', '-1');
+    card.focus({ preventScroll: true });
+    // Prefer nearest so we don't yank the card under the fixed navbar;
+    // scroll-margin-top on .quiz-card still clears the nav when scrolling is needed.
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    card.scrollIntoView({
+      behavior: reduceMotion ? 'auto' : 'smooth',
+      block: 'nearest',
+      inline: 'nearest'
+    });
   }
 
   function selectOption(label) {
