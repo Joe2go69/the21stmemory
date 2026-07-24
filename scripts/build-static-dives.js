@@ -475,6 +475,10 @@ function buildPage({
   const description =
     topic.description ||
     `AI-decoded deep-dive on ${title} from the ${sourceTitle} transmission in the 21st Memory archive.`;
+  // Meta/OG/Twitter only — keep body description unchanged when topic text is short.
+  const metaDescription = /21st Memory/i.test(description)
+    ? description
+    : `${description.replace(/\s+$/, '')} — from the 21st Memory archive.`;
   const pageTitle = `${title} | ${sourceTitle} | 21st Memory`;
   const canonical = diveUrl(sourceId, topic.id);
   const ogImage = absoluteImage(
@@ -707,7 +711,7 @@ function buildPage({
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(pageTitle)}</title>
-    <meta name="description" content="${escapeAttr(description)}">
+    <meta name="description" content="${escapeAttr(metaDescription)}">
     <meta name="application-name" content="The 21st Memory">
     <meta name="theme-color" content="#0F0A1F">
 ${robots}    <link rel="canonical" href="${canonical}">
@@ -719,11 +723,11 @@ ${robots}    <link rel="canonical" href="${canonical}">
     <meta property="og:site_name" content="The 21st Memory">
     <meta property="og:locale" content="en_US">
     <meta property="og:title" content="${escapeAttr(pageTitle)}">
-    <meta property="og:description" content="${escapeAttr(description)}">
+    <meta property="og:description" content="${escapeAttr(metaDescription)}">
     <meta property="og:image" content="${escapeAttr(ogImage)}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${escapeAttr(pageTitle)}">
-    <meta name="twitter:description" content="${escapeAttr(description)}">
+    <meta name="twitter:description" content="${escapeAttr(metaDescription)}">
     <meta name="twitter:image" content="${escapeAttr(ogImage)}">
 ${jsonLd}
     <link rel="preconnect" href="https://fonts.googleapis.com">

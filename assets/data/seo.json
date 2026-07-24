@@ -31,7 +31,7 @@
     "index.html": {
       "path": "/",
       "title": "21st Memory — AI-Decoded Living Archive",
-      "description": "A free living archive of AI-decoded Thalon Thor transmissions. Explore the Codex, quizzes, and network — no religion, no finance, no gatekeeping.",
+      "description": "21st Memory is a free living archive of AI-decoded Thalon Thor transmissions. Explore the Codex, quizzes, and network — no religion, no finance, no gatekeeping.",
       "searchAction": true,
       "webPage": true
     },
@@ -53,13 +53,13 @@
     "network.html": {
       "path": "/network.html",
       "title": "21st Memory Network | The 21st Memory",
-      "description": "The Thalon Thor Network — official sites, Telegram channels, and Rumble archives supporting the Great Remembering.",
+      "description": "21st Memory Network — official Thalon Thor sites, Telegram channels, and Rumble archives supporting the Great Remembering.",
       "collectionPage": true
     },
     "community.html": {
       "path": "/community.html",
       "title": "21st Memory Network | The 21st Memory",
-      "description": "Redirects to the Thalon Thor Network directory.",
+      "description": "Redirects to the 21st Memory Network directory.",
       "noindex": true
     },
     "quizzes.html": {
