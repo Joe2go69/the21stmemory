@@ -210,13 +210,33 @@ const RenderUtils = {
     return map[sourceId] || 'Transmission archive';
   },
 
+  /** Codex grid only — text-free card art. Topic pages keep source.image. */
+  sourceCardImage(source) {
+    const map = {
+      alice: 'images/alice-codex-card.webp',
+      breakdown: 'images/breakdown-codex-card.webp'
+    };
+    return map[source?.id] || source?.image || '';
+  },
+
+  sourceStatusMeta(live, total, soon) {
+    if (!total && !live) return 'Topics coming soon';
+    if (live === 0) return `${total} topics · Coming soon`;
+    if (soon === 0) return `${live} topics · Complete`;
+    return `${live} of ${total} ready`;
+  },
+
   renderSourceCard(source, options = {}) {
     const soon = options.soonCount || 0;
     const showImage = options.showImage !== false;
-    const imageHTML = showImage && source.image
-      ? `<div class="mb-6"><img src="${TopicUtils.encodeAssetPath(source.image)}" alt="${TopicUtils.escapeHtml(source.title)}" class="w-full h-40 max-h-48 object-cover rounded-t-3xl source-card-img" width="400" height="160" loading="lazy" data-img-fallback></div>`
+    const cardImage = this.sourceCardImage(source);
+    const imageHTML = showImage && cardImage
+      ? `<div class="source-card-media">
+           <img src="${TopicUtils.encodeAssetPath(cardImage)}" alt="${TopicUtils.escapeHtml(source.title)}" class="source-card-img" width="400" height="180" loading="lazy" data-img-fallback>
+           <span class="source-card-media-fade" aria-hidden="true"></span>
+         </div>`
       : showImage
-        ? `<div class="mb-6 h-40 bg-mem-inset rounded-t-3xl flex items-center justify-center">${typeof renderSiteIcon === 'function' ? renderSiteIcon('document', 'card-icon-lg') : ''}</div>`
+        ? `<div class="source-card-media source-card-media--placeholder" aria-hidden="true"></div>`
         : '';
 
     const live = source.stats?.live || 0;
@@ -228,40 +248,29 @@ const RenderUtils = {
         ? 'source-card--ready'
         : 'source-card--mixed';
 
-    const soonPill = soon
-      ? `<span class="codex-meta-pill codex-meta-pill--soon">${soon} soon</span>`
-      : '';
-    const readyPill = `<span class="codex-meta-pill codex-meta-pill--ready">${live} ready</span>`;
-
     const safeId = TopicUtils.escapeAttr(source.id || 'source');
     const safeTitle = TopicUtils.escapeHtml(source.title || '');
     const plain = this.sourcePlainLabel(source.id);
-    const safeBlurb = TopicUtils.escapeHtml(source.subtitle || source.description || '');
+    const safeDeck = TopicUtils.escapeHtml(source.subtitle || '');
+    const statusMeta = this.sourceStatusMeta(live, total, soon);
 
     return `
       <a href="topics.html?source=${safeId}"
-         class="memory-card content-card channel-card group flex flex-col h-full source-card p-6 sm:p-8 ${statusTone}"
+         class="memory-card content-card channel-card group source-card ${statusTone}"
          data-source-id="${safeId}">
         ${imageHTML}
-        <div class="flex items-start justify-between mb-4">
-          <div>
-            <span class="card-label">${TopicUtils.escapeHtml(plain)}</span>
-            <h3 class="text-2xl font-semibold mt-1 leading-snug text-white">${safeTitle}</h3>
+        <div class="source-card-body">
+          <span class="card-label">${TopicUtils.escapeHtml(plain)}</span>
+          <h3 class="source-card-title">${safeTitle}</h3>
+          ${safeDeck ? `<p class="source-card-deck">${safeDeck}</p>` : ''}
+          <p class="source-card-meta">${TopicUtils.escapeHtml(statusMeta)}</p>
+          <div class="source-card-progress" aria-hidden="true">
+            <div class="source-card-progress__fill" style="width:${readyPct}%"></div>
           </div>
-          ${typeof renderSiteIcon === 'function' ? renderSiteIcon('document', 'card-icon-lg') : ''}
-        </div>
-        <p class="flex-grow text-mem-prose leading-relaxed mb-4 line-clamp-3">${safeBlurb}</p>
-        <div class="codex-source-meta">
-          ${readyPill}
-          ${soonPill}
-        </div>
-        <div class="source-card-progress" aria-hidden="true">
-          <div class="source-card-progress__fill" style="width:${readyPct}%"></div>
-        </div>
-        <div class="flex-grow"></div>
-        <div class="inline-flex items-center gap-2 text-mem-soft group-hover:text-white font-medium card-action mt-4">
-          Explore this transmission
-          <span class="group-hover:translate-x-1 transition">→</span>
+          <div class="source-card-action card-action">
+            Explore this transmission
+            <span class="source-card-action-arrow" aria-hidden="true">→</span>
+          </div>
         </div>
       </a>
     `;

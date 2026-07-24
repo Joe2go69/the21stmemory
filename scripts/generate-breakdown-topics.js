@@ -378,7 +378,7 @@ const topics = [
 const payload = {
   id: 'breakdown',
   title: 'Mega Breakdown Board Notes & Highlights',
-  subtitle: 'Codex Archive • Great Awakening Final Stages',
+  subtitle: 'Great Awakening Final Stages',
   image: 'images/breakdown/breakdown.webp',
   pdf_url: '',
   description: DESCRIPTION,

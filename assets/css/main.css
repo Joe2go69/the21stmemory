@@ -480,7 +480,6 @@ main#main,
 /* Unified interactive card hover */
 .memory-card:not(.static-card):not(.topics-filter-panel):hover,
 .content-card:not(.static-card):not(.topics-filter-panel):hover,
-.source-card:not(.static-card):hover,
 .lesson-content-card:not(.static-card):hover,
 .topic-root-card:hover {
   transform: translateY(-4px);
@@ -488,7 +487,15 @@ main#main,
   box-shadow: var(--surface-tier-base-hover);
 }
 
-.channel-card:not(.static-card):not(.video-card):not(.topics-filter-panel):hover {
+/* Source cards: calm editorial lift (not the larger network-card motion) */
+a.source-card:not(.static-card):hover,
+.source-card:not(.static-card):hover {
+  transform: translateY(-3px);
+  border-color: var(--accent-violet-hover);
+  box-shadow: var(--surface-tier-base-hover);
+}
+
+.channel-card:not(.static-card):not(.video-card):not(.topics-filter-panel):not(.source-card):hover {
   transform: translateY(-7px) scale(1.015);
   box-shadow: var(--surface-tier-elevated-hover);
   border-color: #6B21A8;
@@ -2593,10 +2600,137 @@ iframe:focus-visible {
    CONSOLIDATED REUSABLE CLASSES
    ============================================= */
 
+/* Transmission source cards — editorial full-bleed treatment */
 .source-card {
-  padding: 2rem;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 !important;
   text-decoration: none;
+  min-height: 0;
+}
+
+.source-card > * {
+  position: relative;
+  z-index: 2;
+}
+
+.source-card-media {
+  position: relative;
+  flex-shrink: 0;
+  height: 11rem;
+  overflow: hidden;
+  background: rgba(12, 8, 28, 0.9);
+  z-index: 0;
+}
+
+.source-card-media--placeholder {
+  background:
+    linear-gradient(135deg, rgba(76, 29, 149, 0.35) 0%, rgba(26, 20, 51, 0.95) 100%);
+}
+
+.source-card-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.45s var(--ease-out-soft, cubic-bezier(0.4, 0, 0.2, 1));
+}
+
+a.source-card:hover .source-card-img {
+  transform: scale(1.03);
+}
+
+.source-card-media-fade {
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 55%;
+  background: linear-gradient(
+    to top,
+    #1A1433 0%,
+    rgba(26, 20, 51, 0.72) 42%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+.source-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 1.15rem 1.5rem 1.5rem;
+  gap: 0;
+}
+
+.source-card .card-label {
+  display: block;
+  margin-bottom: 0.45rem;
+  line-height: 1.35;
+}
+
+.source-card-title {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+@media (min-width: 640px) {
+  .source-card-title {
+    font-size: 1.45rem;
+  }
+}
+
+.source-card-deck {
+  margin: 0.55rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--text-soft, #B8A9D4);
+  flex-grow: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.source-card-meta {
+  margin: 0.9rem 0 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--text-muted, #9B8DB8);
+  flex-grow: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.source-card-body .source-card-progress {
+  margin-top: 0.65rem;
+  margin-bottom: 0;
+}
+
+.source-card-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: auto;
+  padding-top: 1.15rem;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--text-soft, #B8A9D4);
+  transition: color 0.2s ease;
+}
+
+a.source-card:hover .source-card-action {
+  color: #fff;
+}
+
+.source-card-action-arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+a.source-card:hover .source-card-action-arrow {
+  transform: translateX(0.2rem);
 }
 
 /* =============================================
@@ -8890,11 +9024,11 @@ body.reading-focus .section-nav-sticky {
 }
 
 .source-card-progress {
-  height: 3px;
-  margin-top: 0.85rem;
+  height: 4px;
+  margin-top: 0.65rem;
   border-radius: 9999px;
   background: rgba(12, 8, 28, 0.85);
-  border: 1px solid rgba(124, 58, 237, 0.16);
+  border: 1px solid rgba(124, 58, 237, 0.14);
   overflow: hidden;
 }
 
@@ -8902,7 +9036,7 @@ body.reading-focus .section-nav-sticky {
   height: 100%;
   border-radius: inherit;
   background: linear-gradient(90deg, #4C1D95 0%, #7C3AED 55%, #A78BFA 100%);
-  box-shadow: 0 0 10px rgba(124, 58, 237, 0.4);
+  box-shadow: 0 0 8px rgba(124, 58, 237, 0.32);
   transition: width 0.4s var(--ease-out-soft, ease);
 }
 
