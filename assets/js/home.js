@@ -93,7 +93,7 @@ function renderLiveArchiveBadge(live, total) {
         <div class="codex-home-metric-label">Topics archived</div>
       </div>
       <div class="codex-home-metric">
-        <div class="codex-home-metric-value codex-home-metric-value--accent" data-count-to="${live}">${live}</div>
+        <div class="codex-home-metric-value" data-count-to="${live}">${live}</div>
         <div class="codex-home-metric-label">Ready now</div>
       </div>
       <div class="codex-home-metric">

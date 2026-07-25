@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-24T06:08:33.205Z",
-  "total": 109,
+  "generatedAt": "2026-07-25T07:21:44.957Z",
+  "total": 110,
   "sources": [
     {
       "id": "alice",
@@ -14,7 +14,7 @@
       "label": "Breakdown",
       "title": "Mega Breakdown Board Notes",
       "short": "Final-stage Great Awakening notes",
-      "count": 49
+      "count": 50
     }
   ],
   "quizzes": [
@@ -785,6 +785,18 @@
       "questionCount": 25,
       "href": "quiz/breakdown/celestial-anchors.html",
       "diveHref": "dive/breakdown/celestial-anchors.html"
+    },
+    {
+      "id": "central-axis",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Central Axis",
+      "subtitle": "Test your grasp of Central Axis — Spirit Tree as main axis of consciousness, Axis Labernum, Hyperborea, Thuban (Aru-el-nai), Valve hijack, Seed Codes, and root-web reawakening.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/central-axis.html",
+      "diveHref": "dive/breakdown/central-axis.html"
     },
     {
       "id": "comms-blackout",

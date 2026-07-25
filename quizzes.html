@@ -94,6 +94,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
+    <style>html,body{background-color:#0F0A1F}</style>
     <link rel="preload" href="assets/css/main.css" as="style">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap">
     <link rel="stylesheet" href="assets/css/tailwind.css">
@@ -159,7 +161,7 @@
         <!-- QUIZZES-STATS-START -->
 <div class="quiz-hub-stats" aria-label="Quiz archive totals">
   <button type="button" class="quiz-hub-stat is-active" data-quiz-filter="all" aria-pressed="true">
-    <div class="quiz-hub-stat__value">109</div>
+    <div class="quiz-hub-stat__value">110</div>
     <div class="quiz-hub-stat__label">All quizzes</div>
   </button>
   <button type="button" class="quiz-hub-stat" data-quiz-filter="alice" aria-pressed="false">
@@ -167,7 +169,7 @@
     <div class="quiz-hub-stat__label">Alice transmission</div>
   </button>
   <button type="button" class="quiz-hub-stat" data-quiz-filter="breakdown" aria-pressed="false">
-    <div class="quiz-hub-stat__value">49</div>
+    <div class="quiz-hub-stat__value">50</div>
     <div class="quiz-hub-stat__label">Mega Breakdown</div>
   </button>
 </div>
@@ -689,7 +691,7 @@
     <div>
       <p class="quiz-hub-section__eyebrow">Final-stage Great Awakening notes</p>
       <h2 class="quiz-hub-section__title">Mega Breakdown Board Notes</h2>
-      <p class="quiz-hub-section__meta"><span class="quiz-hub-section__count" data-section-count>49</span> quizzes in this transmission</p>
+      <p class="quiz-hub-section__meta"><span class="quiz-hub-section__count" data-section-count>50</span> quizzes in this transmission</p>
     </div>
     <a href="topics.html?source=breakdown" class="quiz-hub-section__link">Browse topics →</a>
   </header>
@@ -720,6 +722,14 @@
 </a>
 <a href="quiz/breakdown/celestial-anchors.html" class="quiz-hub-row" data-source="breakdown" data-quiz-key="breakdown/celestial-anchors" data-search="celestial anchors test your grasp of celestial anchors — sky nodes and crystalline star-nodes, zodiac locks, axis laburnum, thuban versus polaris, four-tier nodes, and resonating sols as living lenses. breakdown mega breakdown board notes">
   <span class="quiz-hub-row__title">Celestial Anchors</span>
+  <span class="quiz-hub-row__meta">
+    <span class="quiz-hub-row__count">25 Q</span>
+    <span class="quiz-hub-row__score" data-quiz-score hidden></span>
+    <span class="quiz-hub-row__cta">Open →</span>
+  </span>
+</a>
+<a href="quiz/breakdown/central-axis.html" class="quiz-hub-row" data-source="breakdown" data-quiz-key="breakdown/central-axis" data-search="central axis test your grasp of central axis — spirit tree as main axis of consciousness, axis labernum, hyperborea, thuban (aru-el-nai), valve hijack, seed codes, and root-web reawakening. breakdown mega breakdown board notes">
+  <span class="quiz-hub-row__title">Central Axis</span>
   <span class="quiz-hub-row__meta">
     <span class="quiz-hub-row__count">25 Q</span>
     <span class="quiz-hub-row__score" data-quiz-score hidden></span>

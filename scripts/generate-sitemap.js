@@ -131,6 +131,7 @@ const entries = [
   { path: '/quiz/breakdown/ley-line-optics.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/starseed-keys.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/celestial-anchors.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/central-axis.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/phase-one-three.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/targeting-parasites.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/infrastructure-sweep.html', priority: '0.75', changefreq: 'monthly' },
