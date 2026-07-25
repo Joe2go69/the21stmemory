@@ -374,26 +374,36 @@ function renderStubActions({ sourceId, assetBase = ASSET_BASE }) {
   </div>`;
 }
 
+function renderParticleFacade(rawTitle) {
+  const safe = escapeAttr(rawTitle || 'Video transmission');
+  return (
+    `<canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="${safe}" aria-hidden="true"></canvas>` +
+    `<div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>` +
+    `<div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">` +
+    `<div class="play-button">` +
+    `<svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true">` +
+    `<path d="M8 5v14l11-7z"/></svg></div></div>`
+  );
+}
+
 function renderVideos(videos) {
   if (!videos?.length) return '';
-  const posterSrc = withAsset('images/video-poster.webp');
-  const posterAttr = escapeAttr(posterSrc);
   return videos
     .map((video) => {
-      const title = escapeHtml(video.title || 'Video transmission');
+      const rawTitle = video.title || 'Video transmission';
+      const title = escapeHtml(rawTitle);
       const embed = escapeAttr(video.embed_url || '');
       const desc = video.description
         ? `<p class="dive-video-card__desc">${escapeHtml(video.description)}</p>`
         : '';
-      return `<article class="dive-video-card content-card static-card rounded-3xl p-4">
-        <div class="dive-video-card__frame aspect-[16/10] bg-black rounded-2xl overflow-hidden relative">
+      return `<article class="dive-video-card content-card static-card rounded-3xl p-4 group">
+        <div class="dive-video-card__frame aspect-[16/10] bg-[#0F0A1F] rounded-2xl overflow-hidden relative">
           <div class="video-poster-wrap absolute inset-0 cursor-pointer"
                data-rumble-embed="${embed}"
                data-video-title="${title}"
-               data-poster-src="${posterAttr}"
                role="button" tabindex="0"
                aria-label="Play video: ${title}">
-            <img src="${posterAttr}" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">
+            ${renderParticleFacade(rawTitle)}
           </div>
         </div>
         <h3 class="dive-video-card__title">${title}</h3>
@@ -765,6 +775,7 @@ ${bodyMain}
     <script src="${ASSET_BASE}assets/js/icons.js"></script>
     <script src="${ASSET_BASE}assets/js/topics-utils.js"></script>
     <script src="${ASSET_BASE}assets/js/shared.js"></script>
+    <script src="${ASSET_BASE}assets/js/particle-backgrounds.js" defer></script>
     <script src="${ASSET_BASE}assets/js/dive-static.js"></script>
 </body>
 </html>

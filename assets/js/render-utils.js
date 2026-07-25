@@ -71,28 +71,24 @@ const RenderUtils = {
 
   renderLazyRumbleCard(video) {
     const embed = TopicUtils.escapeAttr(video.embed_url || '');
-    const title = TopicUtils.escapeHtml(video.title || '21st Memory video');
-    const customPoster = video.poster || video.thumbnail || '';
-    const posterSrc = TopicUtils.encodeAssetPath(
-      customPoster || (typeof TopicUtils.defaultVideoPosterPath === 'function'
-        ? TopicUtils.defaultVideoPosterPath()
-        : 'images/video-poster.webp')
-    );
-    const posterAttr = TopicUtils.escapeAttr(posterSrc);
+    const rawTitle = video.title || '21st Memory video';
+    const title = TopicUtils.escapeHtml(rawTitle);
+    const facade = typeof TopicUtils.renderVideoPosterMarkup === 'function'
+      ? TopicUtils.renderVideoPosterMarkup(rawTitle)
+      : '';
 
-    const playerHtml = `<div class="video-poster-wrap absolute inset-0 cursor-pointer"
+    const playerHtml = `<div class="video-poster-wrap absolute inset-0 cursor-pointer group"
                data-rumble-embed="${embed}"
                data-video-title="${title}"
-               data-poster-src="${posterAttr}"
                role="button"
                tabindex="0"
                aria-label="Play video: ${title}">
-            <img src="${posterAttr}" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async" data-img-fallback>
+            ${facade}
           </div>`;
 
     return `
       <div class="channel-card video-card rounded-3xl overflow-hidden flex flex-col border border-mem-subtle">
-        <div class="aspect-video bg-black relative overflow-hidden">
+        <div class="aspect-video bg-[#0F0A1F] relative overflow-hidden">
           ${playerHtml}
         </div>
         <div class="px-4 py-3 flex-shrink-0 border-t border-mem-subtle/50">

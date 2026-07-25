@@ -57,25 +57,38 @@ function defaultVideoPosterSrc() {
   return '../../images/video-poster.webp';
 }
 
+function renderParticleFacade(rawTitle) {
+  if (typeof TopicUtils !== 'undefined' && TopicUtils.renderVideoPosterMarkup) {
+    return TopicUtils.renderVideoPosterMarkup(rawTitle);
+  }
+  const safe = escapeVideoAttr(rawTitle || 'Video transmission');
+  return (
+    `<canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="${safe}" aria-hidden="true"></canvas>` +
+    `<div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>` +
+    `<div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">` +
+    `<div class="play-button">` +
+    `<svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true">` +
+    `<path d="M8 5v14l11-7z"/></svg></div></div>`
+  );
+}
+
 function renderDiveVideoCards(videos) {
-  const posterSrc = defaultVideoPosterSrc();
-  const posterAttr = escapeVideoAttr(posterSrc);
   return (videos || [])
     .map((video) => {
-      const title = escapeVideoHtml(video.title || 'Video transmission');
+      const rawTitle = video.title || 'Video transmission';
+      const title = escapeVideoHtml(rawTitle);
       const embed = escapeVideoAttr(video.embed_url || '');
       const desc = video.description
         ? `<p class="dive-video-card__desc">${escapeVideoHtml(video.description)}</p>`
         : '';
-      return `<article class="dive-video-card content-card static-card rounded-3xl p-4">
-        <div class="dive-video-card__frame aspect-[16/10] bg-black rounded-2xl overflow-hidden relative">
+      return `<article class="dive-video-card content-card static-card rounded-3xl p-4 group">
+        <div class="dive-video-card__frame aspect-[16/10] bg-[#0F0A1F] rounded-2xl overflow-hidden relative">
           <div class="video-poster-wrap absolute inset-0 cursor-pointer"
                data-rumble-embed="${embed}"
                data-video-title="${title}"
-               data-poster-src="${posterAttr}"
                role="button" tabindex="0"
                aria-label="Play video: ${title}">
-            <img src="${posterAttr}" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">
+            ${renderParticleFacade(rawTitle)}
           </div>
         </div>
         <h3 class="dive-video-card__title">${title}</h3>
@@ -112,6 +125,9 @@ function initVideoLanguageSwitcher() {
       TopicUtils.setupClickToPlayVideos(container);
     } else {
       initClickToPlayVideos();
+    }
+    if (typeof window.initParticleBackgrounds === 'function') {
+      requestAnimationFrame(() => window.initParticleBackgrounds(container));
     }
     try {
       localStorage.setItem(VIDEO_LANG_STORAGE_KEY, lang.code);
@@ -548,16 +564,15 @@ function initClickToPlayVideos() {
         const parent = iframe.closest('[data-rumble-embed]');
         if (parent && parent !== el) {
           const title = parent.getAttribute('data-video-title') || 'Video';
-          const posterSrc = parent.getAttribute('data-poster-src') || defaultVideoPosterSrc();
-          if (!parent.getAttribute('data-poster-src')) {
-            parent.setAttribute('data-poster-src', posterSrc);
-          }
-          parent.innerHTML = `<img src="${posterSrc}" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">`;
+          parent.innerHTML = renderParticleFacade(title);
           parent.dataset.loaded = 'false';
           parent.classList.add('cursor-pointer');
           parent.setAttribute('role', 'button');
           parent.setAttribute('tabindex', '0');
           parent.setAttribute('aria-label', `Play video: ${title}`);
+          if (typeof window.initParticleBackgrounds === 'function') {
+            requestAnimationFrame(() => window.initParticleBackgrounds(parent));
+          }
         } else if (!parent) {
           iframe.remove();
         }

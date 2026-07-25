@@ -272,7 +272,7 @@ async function loadJourneyStrip() {
   return null;
 }
 
-/** One soft poster pulse when a facade first enters the viewport. */
+/** One soft play-button pulse when a facade first enters the viewport. */
 function initVideoPlayPulse(root) {
   if (!root) return;
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -283,9 +283,10 @@ function initVideoPlayPulse(root) {
   const observer = new IntersectionObserver((entries, obs) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
-      const poster = entry.target.querySelector('.video-poster-img')
+      const pulseTarget = entry.target.querySelector('.play-button')
+        || entry.target.querySelector('.video-poster-img')
         || entry.target.querySelector('.video-play-icon');
-      if (poster) poster.classList.add('is-pulse-once');
+      if (pulseTarget) pulseTarget.classList.add('is-pulse-once');
       obs.unobserve(entry.target);
     });
   }, { threshold: 0.45 });

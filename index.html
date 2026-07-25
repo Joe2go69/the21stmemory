@@ -340,29 +340,43 @@
                         </div>
 
                         <div class="grid md:grid-cols-2 gap-5" id="home-rumble-grid">
-                            <article class="home-video-card">
-                                <div class="aspect-[16/10] bg-black rounded-xl overflow-hidden relative video-facade">
+                            <article class="home-video-card group">
+                                <div class="aspect-[16/10] bg-[#0F0A1F] rounded-xl overflow-hidden relative video-facade">
                                     <div class="video-poster-wrap absolute inset-0 cursor-pointer"
                                          data-rumble-embed="https://rumble.com/embed/v7arime/?pub=4p0ieu"
                                          data-video-title="The Architecture of the Crystalline Grid"
-                                         data-poster-src="images/video-poster.webp"
                                          role="button" tabindex="0"
                                          aria-label="Play video: The Architecture of the Crystalline Grid">
-                                        <img src="images/video-poster.webp" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">
+                                        <canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="The Architecture of the Crystalline Grid" aria-hidden="true"></canvas>
+                                        <div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>
+                                        <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">
+                                            <div class="play-button">
+                                                <svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true">
+                                                    <path d="M8 5v14l11-7z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <h3 class="home-video-card__title mt-3">The Architecture of the Crystalline Grid</h3>
                             </article>
 
-                            <article class="home-video-card">
-                                <div class="aspect-[16/10] bg-black rounded-xl overflow-hidden relative video-facade">
+                            <article class="home-video-card group">
+                                <div class="aspect-[16/10] bg-[#0F0A1F] rounded-xl overflow-hidden relative video-facade">
                                     <div class="video-poster-wrap absolute inset-0 cursor-pointer"
                                          data-rumble-embed="https://rumble.com/embed/v76p838/?pub=4p0ieu"
                                          data-video-title="Our Buried Inheritance"
-                                         data-poster-src="images/video-poster.webp"
                                          role="button" tabindex="0"
                                          aria-label="Play video: Our Buried Inheritance">
-                                        <img src="images/video-poster.webp" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">
+                                        <canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="Our Buried Inheritance" aria-hidden="true"></canvas>
+                                        <div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>
+                                        <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">
+                                            <div class="play-button">
+                                                <svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true">
+                                                    <path d="M8 5v14l11-7z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <h3 class="home-video-card__title mt-3">Our Buried Inheritance</h3>
@@ -488,6 +502,7 @@
     <script src="assets/js/icons.js"></script>
     <script src="assets/js/topics-utils.js"></script>
     <script src="assets/js/shared.js"></script>
+    <script src="assets/js/particle-backgrounds.js" defer></script>
     <script src="assets/js/home.js"></script>
 </body>
 </html>

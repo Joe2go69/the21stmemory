@@ -219,7 +219,7 @@ const TopicUtils = {
     };
   },
 
-  /** Site-relative path to the default video poster (play button is drawn on the image). */
+  /** Site-relative path to the legacy default video poster image. */
   defaultVideoPosterPath() {
     const path = (typeof window !== 'undefined' && window.location && window.location.pathname) || '';
     const normalized = String(path).replace(/\\/g, '/');
@@ -227,15 +227,30 @@ const TopicUtils = {
     return `${base}images/video-poster.webp`;
   },
 
-  /** Markup for a branded click-to-play poster (no CSS play overlay). */
-  renderVideoPosterMarkup(posterSrc) {
-    const src = this.escapeAttr(posterSrc || this.defaultVideoPosterPath());
-    return `<img src="${src}" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">`;
+  /**
+   * Title-seeded particle facade + clean minimal play button.
+   * Used for click-to-play wraps; replaced by iframe on play.
+   */
+  renderVideoPosterMarkup(titleOrPosterSrc) {
+    // Accept legacy poster path calls — prefer title for seeding
+    const raw = String(titleOrPosterSrc || '');
+    const looksLikePath = /\.(webp|png|jpe?g|gif|svg)(\?|$)/i.test(raw) || raw.includes('images/');
+    const title = looksLikePath ? '21st Memory video' : (raw || '21st Memory video');
+    const safeTitle = this.escapeAttr(title);
+    return (
+      `<canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="${safeTitle}" aria-hidden="true"></canvas>` +
+      `<div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>` +
+      `<div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">` +
+      `<div class="play-button">` +
+      `<svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true">` +
+      `<path d="M8 5v14l11-7z"/>` +
+      `</svg></div></div>`
+    );
   },
 
   /**
    * Stop every other Rumble player so only one video plays at a time.
-   * Restores poster/play UI for click-to-play wraps; removes orphan iframes.
+   * Restores particle facade + play UI for click-to-play wraps; removes orphan iframes.
    */
   stopOtherRumbleVideos(exceptEl = null) {
     const isExcept = (el) => {
@@ -244,6 +259,7 @@ const TopicUtils = {
         || (typeof el.contains === 'function' && el.contains(exceptEl));
     };
 
+    const restored = [];
     document.querySelectorAll('[data-rumble-embed]').forEach((wrap) => {
       if (isExcept(wrap)) return;
       const iframe = wrap.querySelector('iframe');
@@ -255,15 +271,14 @@ const TopicUtils = {
       }
 
       const title = wrap.dataset.videoTitle || '21st Memory video';
-      const posterSrc = wrap.dataset.posterSrc || this.defaultVideoPosterPath();
-      if (!wrap.dataset.posterSrc) wrap.dataset.posterSrc = posterSrc;
-      wrap.innerHTML = this.renderVideoPosterMarkup(posterSrc);
+      wrap.innerHTML = this.renderVideoPosterMarkup(title);
 
       wrap.dataset.loaded = 'false';
       wrap.classList.add('cursor-pointer');
       wrap.setAttribute('role', 'button');
       wrap.setAttribute('tabindex', '0');
       wrap.setAttribute('aria-label', `Play video: ${title}`);
+      restored.push(wrap);
     });
 
     // Orphan embeds (e.g. replaced nodes or direct iframes)
@@ -273,6 +288,13 @@ const TopicUtils = {
       try { iframe.src = 'about:blank'; } catch { /* ignore */ }
       iframe.remove();
     });
+
+    if (restored.length && typeof window.initParticleBackgrounds === 'function') {
+      // Draw after layout so canvas has non-zero bounds
+      requestAnimationFrame(() => {
+        restored.forEach((wrap) => window.initParticleBackgrounds(wrap));
+      });
+    }
   },
 
   setupClickToPlayVideos(root = document) {

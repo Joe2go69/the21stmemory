@@ -86,6 +86,8 @@
 </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
+    <style>html,body{background-color:#0F0A1F}</style>
     <link rel="preload" href="../../assets/css/main.css" as="style">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap">
     <link rel="stylesheet" href="../../assets/css/tailwind.css">
@@ -259,29 +261,27 @@
       <div class="max-w-6xl mx-auto px-6">
         
         <div id="videos-container" class="dive-video-grid grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
-          <article class="dive-video-card content-card static-card rounded-3xl p-4">
-        <div class="dive-video-card__frame aspect-[16/10] bg-black rounded-2xl overflow-hidden relative">
+          <article class="dive-video-card content-card static-card rounded-3xl p-4 group">
+        <div class="dive-video-card__frame aspect-[16/10] bg-[#0F0A1F] rounded-2xl overflow-hidden relative">
           <div class="video-poster-wrap absolute inset-0 cursor-pointer"
                data-rumble-embed="https://rumble.com/embed/v79sa46/?pub=4p0ieu"
                data-video-title="The Ascension Event"
-               data-poster-src="../../images/video-poster.webp"
                role="button" tabindex="0"
                aria-label="Play video: The Ascension Event">
-            <img src="../../images/video-poster.webp" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">
+            <canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="The Ascension Event" aria-hidden="true"></canvas><div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div><div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true"><div class="play-button"><svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></div></div>
           </div>
         </div>
         <h3 class="dive-video-card__title">The Ascension Event</h3>
         <p class="dive-video-card__desc">Core revelations about the Ascension Event and EBS disclosure.</p>
       </article>
-<article class="dive-video-card content-card static-card rounded-3xl p-4">
-        <div class="dive-video-card__frame aspect-[16/10] bg-black rounded-2xl overflow-hidden relative">
+<article class="dive-video-card content-card static-card rounded-3xl p-4 group">
+        <div class="dive-video-card__frame aspect-[16/10] bg-[#0F0A1F] rounded-2xl overflow-hidden relative">
           <div class="video-poster-wrap absolute inset-0 cursor-pointer"
                data-rumble-embed="https://rumble.com/embed/v79sbly/?pub=4p0ieu"
                data-video-title="The 178,000 year Gateway-10 deception ends"
-               data-poster-src="../../images/video-poster.webp"
                role="button" tabindex="0"
                aria-label="Play video: The 178,000 year Gateway-10 deception ends">
-            <img src="../../images/video-poster.webp" alt="" class="video-poster-img" width="640" height="400" loading="lazy" decoding="async">
+            <canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="The 178,000 year Gateway-10 deception ends" aria-hidden="true"></canvas><div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div><div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true"><div class="play-button"><svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></div></div>
           </div>
         </div>
         <h3 class="dive-video-card__title">The 178,000 year Gateway-10 deception ends</h3>
@@ -498,6 +498,7 @@
     <script src="../../assets/js/icons.js"></script>
     <script src="../../assets/js/topics-utils.js"></script>
     <script src="../../assets/js/shared.js"></script>
+    <script src="../../assets/js/particle-backgrounds.js" defer></script>
     <script src="../../assets/js/dive-static.js"></script>
 </body>
 </html>

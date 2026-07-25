@@ -4418,7 +4418,7 @@ a.topic-root-card:hover .explore-badge {
 
 .dive-video-card__frame {
   flex-shrink: 0;
-  background: #0c0818;
+  background: #0F0A1F;
 }
 
 .dive-video-card__title {
@@ -6100,15 +6100,97 @@ a.topic-main-root-card:hover .topic-main-root-explore {
   }
 }
 
-/* Click-to-play video — branded poster (play button is drawn on the image) */
+/* Click-to-play video — title-seeded particle facade + clean minimal play button */
 .video-poster-wrap {
   position: relative;
   width: 100%;
   height: 100%;
   cursor: pointer;
-  background: #0c081c;
+  background: #0F0A1F;
   border-radius: 1rem;
   overflow: hidden;
+}
+
+.particle-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.video-particle-vignette {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.4) 0%,
+    transparent 45%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  z-index: 1;
+}
+
+/* Clean Minimal play button */
+.play-button {
+  width: 56px;
+  height: 56px;
+  border-radius: 9999px;
+  background: rgba(15, 10, 31, 0.72);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.12),
+    0 0 20px rgba(167, 139, 250, 0.25);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.play-button__icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-left: 0.125rem;
+}
+
+.video-poster-wrap:hover .play-button,
+.group:hover .play-button {
+  transform: scale(1.08);
+  background: rgba(15, 10, 31, 0.85);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.2),
+    0 0 28px rgba(167, 139, 250, 0.4);
+}
+
+.play-button.is-pulse-once {
+  animation: play-button-pulse-once 1.4s var(--ease-out-soft, ease) 1;
+}
+
+@keyframes play-button-pulse-once {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.12),
+      0 0 20px rgba(167, 139, 250, 0.25);
+  }
+  50% {
+    transform: scale(1.06);
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.2),
+      0 0 32px rgba(167, 139, 250, 0.45);
+  }
+}
+
+@media (min-width: 768px) {
+  .play-button {
+    width: 64px;
+    height: 64px;
+  }
+
+  .play-button__icon {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
 }
 
 .video-poster-wrap img,
@@ -6139,7 +6221,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
   min-height: 10rem;
 }
 
-/* Legacy CSS play control — kept for any residual markup; poster image is preferred */
+/* Legacy CSS play control — kept for residual markup */
 .video-play-btn {
   position: absolute;
   inset: 0;
@@ -6174,10 +6256,13 @@ a.topic-main-root-card:hover .topic-main-root-explore {
   transform: scale(1.08);
 }
 
-/* Hide legacy CSS play UI when the branded poster image is present */
+/* Hide legacy CSS play UI when particle facade or branded poster is present */
 .video-poster-wrap:has(.video-poster-img) .video-play-btn,
 .video-poster-wrap:has(.video-poster-img) .video-play-label,
-.video-poster-wrap:has(.video-poster-img) .video-facade-glow {
+.video-poster-wrap:has(.video-poster-img) .video-facade-glow,
+.video-poster-wrap:has(.particle-canvas) .video-play-btn,
+.video-poster-wrap:has(.particle-canvas) .video-play-label,
+.video-poster-wrap:has(.particle-canvas) .video-facade-glow {
   display: none;
 }
 
@@ -6190,7 +6275,10 @@ a.topic-main-root-card:hover .topic-main-root-explore {
   .video-poster-wrap:hover .video-poster-img,
   .video-poster-wrap:focus-visible img,
   .video-poster-wrap:focus-visible .video-poster-img,
-  .video-poster-img.is-pulse-once {
+  .video-poster-img.is-pulse-once,
+  .video-poster-wrap:hover .play-button,
+  .group:hover .play-button,
+  .play-button.is-pulse-once {
     transform: none !important;
     filter: none !important;
     animation: none !important;
@@ -7141,9 +7229,9 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   margin-top: 1.5rem;
 }
 
-/* Homepage video facades — branded poster image */
+/* Homepage video facades — particle background base */
 #home-rumble-grid .video-poster-wrap {
-  background: #0c081c;
+  background: #0F0A1F;
 }
 
 /* Report reading comfort (dive + SPA) — full card width, not a skinny centered column */
