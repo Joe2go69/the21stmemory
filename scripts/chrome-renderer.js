@@ -174,7 +174,7 @@ function renderFooter(footerData, options = {}) {
   const gofundmePanel = gofundme
     ? `<div class="footer-tabpanel footer-tabpanel--blend footer-tabpanel--blend-right${gofundme.image ? ' has-media' : ''}${defaultTab === 'gofundme' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-gofundme" aria-labelledby="footer-tab-gofundme"${defaultTab === 'gofundme' ? '' : ' hidden'}>
               ${gofundme.image ? `<div class="footer-tab-media" aria-hidden="true">
-                <img src="${withBasePath(gofundme.image, basePath)}" alt="" class="footer-tab-media__img" width="720" height="960" loading="lazy" decoding="async" />
+                <img src="${withBasePath(gofundme.image, basePath)}" alt="" class="footer-tab-media__img" width="1280" height="720" loading="lazy" decoding="async" />
                 <div class="footer-tab-media__scrim"></div>
               </div>` : ''}
               <div class="footer-tab-body">
@@ -190,7 +190,7 @@ function renderFooter(footerData, options = {}) {
   const kofiPanel = kofi
     ? `<div class="footer-tabpanel footer-tabpanel--blend footer-tabpanel--blend-left${kofi.image ? ' has-media' : ''}${defaultTab === 'kofi' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-kofi" aria-labelledby="footer-tab-kofi"${defaultTab === 'kofi' ? '' : ' hidden'}>
               ${kofi.image ? `<div class="footer-tab-media" aria-hidden="true">
-                <img src="${withBasePath(kofi.image, basePath)}" alt="" class="footer-tab-media__img" width="720" height="960" loading="lazy" decoding="async" />
+                <img src="${withBasePath(kofi.image, basePath)}" alt="" class="footer-tab-media__img" width="1280" height="720" loading="lazy" decoding="async" />
                 <div class="footer-tab-media__scrim"></div>
               </div>` : ''}
               <div class="footer-tab-body">

@@ -12740,7 +12740,8 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   box-shadow:
     0 10px 28px -14px rgba(0, 0, 0, 0.55),
     inset 0 1px 0 rgba(255, 255, 255, 0.07);
-  min-height: 11.5rem;
+  /* Tall enough for 16:9 support art to read (pathway / crystal) */
+  min-height: 14rem;
 }
 
 .footer-tabpanel.is-active,
@@ -12765,11 +12766,12 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 30%;
+  /* 16:9 support art — keep subject centered in the wide panel */
+  object-position: center center;
   display: block;
   opacity: 1;
-  filter: saturate(1.06) brightness(0.92);
-  transform: scale(1.03);
+  filter: saturate(1.05) brightness(0.98);
+  transform: scale(1.01);
 }
 
 /* Long soft veil — image still reads on one side, text side fully readable */
@@ -12833,7 +12835,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   gap: 0.55rem;
   padding: 1.4rem 1.4rem 1.45rem;
   min-width: 0;
-  min-height: 11.5rem;
+  min-height: 14rem;
   box-sizing: border-box;
 }
 
@@ -12874,7 +12876,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   .footer-tabpanel--blend-left .footer-tab-body {
     max-width: none;
     margin: 0;
-    min-height: 12.5rem;
+    min-height: 15rem;
     justify-content: flex-end;
     padding: 1.15rem 1.15rem 1.25rem;
   }
