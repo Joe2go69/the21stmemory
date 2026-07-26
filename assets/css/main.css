@@ -3101,13 +3101,16 @@ a.topic-root-card:hover .topic-root-media .topic-card-img {
   inset: 0;
   z-index: 1;
   pointer-events: none;
+  /* Long soft stops — avoid hard color cliffs */
   background: linear-gradient(
     to bottom,
     transparent 0%,
-    transparent 28%,
-    rgba(26, 20, 51, 0.55) 58%,
-    rgba(26, 20, 51, 0.94) 84%,
-    #1A1433 100%
+    transparent 22%,
+    rgba(26, 20, 51, 0.2) 42%,
+    rgba(26, 20, 51, 0.55) 62%,
+    rgba(26, 20, 51, 0.82) 80%,
+    rgba(26, 20, 51, 0.96) 92%,
+    rgba(26, 20, 51, 1) 100%
   );
 }
 
@@ -3116,10 +3119,12 @@ a.topic-root-card:hover .topic-root-media .topic-card-img {
     background: linear-gradient(
       to right,
       transparent 0%,
-      transparent 18%,
-      rgba(26, 20, 51, 0.5) 52%,
-      rgba(26, 20, 51, 0.9) 78%,
-      #1A1433 100%
+      transparent 12%,
+      rgba(26, 20, 51, 0.18) 32%,
+      rgba(26, 20, 51, 0.48) 52%,
+      rgba(26, 20, 51, 0.78) 72%,
+      rgba(26, 20, 51, 0.94) 88%,
+      rgba(26, 20, 51, 1) 100%
     );
   }
 }
@@ -4193,8 +4198,9 @@ a.topic-root-card:hover .explore-badge {
   inset: 0;
   background: linear-gradient(
     135deg,
-    rgba(15, 10, 31, 0.82) 0%,
-    rgba(26, 20, 51, 0.62) 45%,
+    rgba(15, 10, 31, 0.88) 0%,
+    rgba(26, 20, 51, 0.68) 38%,
+    rgba(26, 20, 51, 0.52) 62%,
     rgba(15, 10, 31, 0.78) 100%
   );
 }
@@ -4659,7 +4665,13 @@ a.topic-root-card:hover .explore-badge {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-soft);
-  background: linear-gradient(to top, rgba(15, 10, 31, 0.95), transparent);
+  background: linear-gradient(
+    to top,
+    rgba(15, 10, 31, 0.96) 0%,
+    rgba(15, 10, 31, 0.72) 45%,
+    rgba(15, 10, 31, 0.28) 75%,
+    transparent 100%
+  );
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -4717,7 +4729,13 @@ a.topic-root-card:hover .explore-badge {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-soft);
-  background: linear-gradient(to top, rgba(15, 10, 31, 0.95), transparent);
+  background: linear-gradient(
+    to top,
+    rgba(15, 10, 31, 0.96) 0%,
+    rgba(15, 10, 31, 0.72) 45%,
+    rgba(15, 10, 31, 0.28) 75%,
+    transparent 100%
+  );
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -5767,10 +5785,12 @@ a.topic-main-root-card:hover .topic-main-root-media .topic-card-img {
   background: linear-gradient(
     to bottom,
     transparent 0%,
-    transparent 28%,
-    rgba(26, 20, 51, 0.55) 58%,
-    rgba(26, 20, 51, 0.94) 84%,
-    #1A1433 100%
+    transparent 22%,
+    rgba(26, 20, 51, 0.2) 42%,
+    rgba(26, 20, 51, 0.55) 62%,
+    rgba(26, 20, 51, 0.82) 80%,
+    rgba(26, 20, 51, 0.96) 92%,
+    rgba(26, 20, 51, 1) 100%
   );
 }
 
@@ -5779,10 +5799,12 @@ a.topic-main-root-card:hover .topic-main-root-media .topic-card-img {
     background: linear-gradient(
       to right,
       transparent 0%,
-      transparent 22%,
-      rgba(26, 20, 51, 0.5) 55%,
-      rgba(26, 20, 51, 0.9) 80%,
-      #1A1433 100%
+      transparent 14%,
+      rgba(26, 20, 51, 0.18) 34%,
+      rgba(26, 20, 51, 0.48) 54%,
+      rgba(26, 20, 51, 0.78) 74%,
+      rgba(26, 20, 51, 0.94) 90%,
+      rgba(26, 20, 51, 1) 100%
     );
   }
 }
@@ -9954,11 +9976,12 @@ a.btn-secondary:hover,
   pointer-events: none;
   background: linear-gradient(
     to bottom,
-    rgba(12, 8, 28, 0.05) 0%,
-    rgba(26, 20, 51, 0.2) 35%,
-    rgba(26, 20, 51, 0.72) 68%,
-    rgba(26, 20, 51, 0.96) 88%,
-    #1A1433 100%
+    rgba(12, 8, 28, 0.02) 0%,
+    rgba(26, 20, 51, 0.12) 28%,
+    rgba(26, 20, 51, 0.42) 52%,
+    rgba(26, 20, 51, 0.72) 72%,
+    rgba(26, 20, 51, 0.9) 88%,
+    rgba(26, 20, 51, 0.98) 100%
   );
 }
 
@@ -11332,19 +11355,21 @@ button.footer-donate-btn {
   display: block;
 }
 
-/* Dark gradient so text stays readable over 9:16 art */
+/* Dark gradient so text stays readable over 9:16 art — soft multi-stop, no hard band */
 .footer-donate-bg__scrim {
   position: absolute;
   inset: 0;
   background:
     linear-gradient(
       180deg,
-      rgba(8, 5, 18, 0.35) 0%,
-      rgba(8, 5, 18, 0.55) 35%,
-      rgba(8, 5, 18, 0.88) 68%,
-      rgba(8, 5, 18, 0.96) 100%
+      rgba(8, 5, 18, 0.2) 0%,
+      rgba(8, 5, 18, 0.38) 28%,
+      rgba(8, 5, 18, 0.62) 52%,
+      rgba(8, 5, 18, 0.82) 74%,
+      rgba(8, 5, 18, 0.94) 90%,
+      rgba(8, 5, 18, 0.98) 100%
     ),
-    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(109, 40, 217, 0.2) 0%, transparent 60%);
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(109, 40, 217, 0.18) 0%, transparent 65%);
 }
 
 .footer-donate-body {
@@ -11463,18 +11488,18 @@ button.footer-donate-btn {
 
 .nav-logo-mark-img {
   display: block;
-  width: 2.65rem;
-  height: 2.65rem;
+  width: 2.55rem;
+  height: 2.55rem;
   object-fit: contain;
-  object-position: center;
-  /* Tight crop fills the plate; light lift for dark-on-dark glass mark */
-  transform: scale(1.12);
+  /* Nudge mark up slightly so the 21 sits optically centered in the plate */
+  object-position: center 42%;
+  transform: scale(1.08) translateY(-1px);
   filter:
-    brightness(1.22)
-    contrast(1.12)
-    saturate(1.12)
-    drop-shadow(0 0 6px rgba(196, 181, 253, 0.45))
-    drop-shadow(0 2px 6px rgba(91, 33, 182, 0.4));
+    brightness(1.08)
+    contrast(1.06)
+    saturate(1.08)
+    drop-shadow(0 0 8px rgba(139, 92, 246, 0.45))
+    drop-shadow(0 2px 6px rgba(56, 189, 248, 0.25));
 }
 
 .nav-logo-copy {
@@ -11915,16 +11940,17 @@ a.btn-secondary:hover,
 
 .footer-brand-mark {
   display: block;
-  width: 3.1rem;
-  height: 3.1rem;
+  width: 3rem;
+  height: 3rem;
   object-fit: contain;
-  transform: scale(1.1);
+  object-position: center 42%;
+  transform: scale(1.06) translateY(-1px);
   filter:
-    brightness(1.2)
-    contrast(1.1)
-    saturate(1.1)
-    drop-shadow(0 0 8px rgba(196, 181, 253, 0.4))
-    drop-shadow(0 2px 8px rgba(91, 33, 182, 0.4));
+    brightness(1.08)
+    contrast(1.06)
+    saturate(1.08)
+    drop-shadow(0 0 8px rgba(139, 92, 246, 0.45))
+    drop-shadow(0 2px 8px rgba(56, 189, 248, 0.25));
 }
 
 .footer-brand-name {
@@ -12703,147 +12729,242 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   position: relative;
 }
 
-/* Panel: framed media card + body — not awkward full-bleed crop */
+/* Panel: full-bleed image + seamless soft scrim (no hard side seams) */
 .footer-tabpanel {
   display: none;
-  grid-template-columns: 1fr;
-  gap: 0;
-  align-items: stretch;
+  position: relative;
   border-radius: 14px;
   overflow: hidden;
-  border: 1px solid rgba(76, 61, 107, 0.5);
-  background:
-    linear-gradient(165deg, rgba(255, 255, 255, 0.04) 0%, transparent 45%),
-    rgba(12, 8, 26, 0.72);
-  min-height: 0;
+  border: 1px solid rgba(124, 58, 237, 0.28);
+  background: #0e0a1c;
+  box-shadow:
+    0 10px 28px -14px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.07);
+  min-height: 11.5rem;
 }
 
 .footer-tabpanel.is-active,
 .footer-tabpanel:not([hidden]) {
-  display: grid;
+  display: block;
 }
 
 .footer-tabpanel[hidden] {
   display: none !important;
 }
 
-@media (min-width: 640px) {
-  .footer-tabpanel.is-active,
-  .footer-tabpanel:not([hidden]) {
-    grid-template-columns: minmax(9.5rem, 12.5rem) minmax(0, 1fr);
-  }
-}
-
-.footer-tab-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.85rem;
-  background:
-    radial-gradient(ellipse 70% 60% at 50% 40%, rgba(91, 33, 182, 0.16) 0%, transparent 70%),
-    rgba(8, 5, 18, 0.55);
-  border-bottom: 1px solid rgba(76, 61, 107, 0.4);
-}
-
-@media (min-width: 640px) {
-  .footer-tab-media {
-    border-bottom: none;
-    border-right: 1px solid rgba(76, 61, 107, 0.4);
-    padding: 1rem;
-  }
-}
-
-/* Framed portrait card for Ko-fi / GoFundMe art */
-.footer-tab-media-frame {
-  position: relative;
-  width: 100%;
-  max-width: 11rem;
-  aspect-ratio: 3 / 4;
-  border-radius: 12px;
+/* Full-bleed art across the whole panel */
+.footer-tabpanel--blend .footer-tab-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
   overflow: hidden;
-  border: 1px solid rgba(167, 139, 250, 0.28);
-  box-shadow:
-    0 12px 28px -14px rgba(0, 0, 0, 0.65),
-    inset 0 1px 0 rgba(255, 255, 255, 0.08);
-  background: #0a0614;
 }
 
-.footer-tab-media-frame--qr {
-  aspect-ratio: 1 / 1;
-  max-width: 10rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.65rem;
-  background: #fff;
-  border-color: rgba(255, 255, 255, 0.2);
-}
-
-.footer-tab-media__img {
+.footer-tabpanel--blend .footer-tab-media__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 18%;
+  object-position: center 30%;
   display: block;
+  opacity: 1;
+  filter: saturate(1.06) brightness(0.92);
+  transform: scale(1.03);
 }
 
-.footer-tab-media--qr {
+/* Long soft veil — image still reads on one side, text side fully readable */
+.footer-tabpanel--blend .footer-tab-media__scrim {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+/* Image emphasis on the right; copy on left */
+.footer-tabpanel--blend-right .footer-tab-media__scrim {
   background:
-    radial-gradient(circle at 50% 45%, rgba(245, 158, 11, 0.14) 0%, transparent 62%),
-    rgba(8, 5, 18, 0.55);
+    linear-gradient(
+      100deg,
+      rgba(12, 8, 26, 0.96) 0%,
+      rgba(12, 8, 26, 0.9) 18%,
+      rgba(12, 8, 26, 0.72) 36%,
+      rgba(12, 8, 26, 0.42) 52%,
+      rgba(12, 8, 26, 0.18) 68%,
+      rgba(12, 8, 26, 0.06) 82%,
+      transparent 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(12, 8, 26, 0.25) 0%,
+      transparent 35%,
+      transparent 70%,
+      rgba(12, 8, 26, 0.35) 100%
+    );
+}
+
+/* Image emphasis on the left; copy on right */
+.footer-tabpanel--blend-left .footer-tab-media__scrim {
+  background:
+    linear-gradient(
+      260deg,
+      rgba(12, 8, 26, 0.96) 0%,
+      rgba(12, 8, 26, 0.9) 18%,
+      rgba(12, 8, 26, 0.72) 36%,
+      rgba(12, 8, 26, 0.42) 52%,
+      rgba(12, 8, 26, 0.18) 68%,
+      rgba(12, 8, 26, 0.06) 82%,
+      transparent 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(12, 8, 26, 0.25) 0%,
+      transparent 35%,
+      transparent 70%,
+      rgba(12, 8, 26, 0.35) 100%
+    );
+}
+
+.footer-tab-body {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 1.4rem 1.4rem 1.45rem;
+  min-width: 0;
+  min-height: 11.5rem;
+  box-sizing: border-box;
+}
+
+.footer-tabpanel--blend-right .footer-tab-body {
+  max-width: min(22rem, 58%);
+  margin-right: auto;
+}
+
+.footer-tabpanel--blend-left .footer-tab-body {
+  max-width: min(22rem, 58%);
+  margin-left: auto;
+}
+
+@media (max-width: 639px) {
+  .footer-tabpanel--blend {
+    min-height: 0;
+  }
+
+  .footer-tabpanel--blend .footer-tab-media {
+    position: absolute;
+    inset: 0;
+  }
+
+  /* Mobile: top art, seamless fade into copy below */
+  .footer-tabpanel--blend-right .footer-tab-media__scrim,
+  .footer-tabpanel--blend-left .footer-tab-media__scrim {
+    background: linear-gradient(
+      180deg,
+      rgba(12, 8, 26, 0.15) 0%,
+      rgba(12, 8, 26, 0.35) 28%,
+      rgba(12, 8, 26, 0.72) 52%,
+      rgba(12, 8, 26, 0.92) 72%,
+      rgba(12, 8, 26, 0.98) 100%
+    );
+  }
+
+  .footer-tabpanel--blend-right .footer-tab-body,
+  .footer-tabpanel--blend-left .footer-tab-body {
+    max-width: none;
+    margin: 0;
+    min-height: 12.5rem;
+    justify-content: flex-end;
+    padding: 1.15rem 1.15rem 1.25rem;
+  }
+}
+
+.footer-tab-body .footer-donate-label {
+  margin: 0 !important;
+  font-family: 'Space Grotesk', Inter, system-ui, sans-serif;
+  font-size: 1.05rem !important;
+  font-weight: 600;
+  color: #fff !important;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35);
+}
+
+.footer-tab-body .footer-donate-desc {
+  margin: 0 !important;
+  font-size: 0.92rem !important;
+  line-height: 1.6 !important;
+  color: rgba(237, 228, 255, 0.92) !important;
+  max-width: 34ch;
+  min-height: 0 !important;
+  flex: 0 1 auto !important;
+  text-align: left !important;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-tab-body .footer-donate-btn {
+  margin-top: 0.4rem !important;
+  width: auto !important;
+  min-width: 9.5rem;
+  align-self: flex-start;
+  box-shadow: 0 8px 20px -8px rgba(0, 0, 0, 0.55) !important;
+}
+
+/* Bitcoin: QR + copy in one glass row (no photo atmosphere) */
+.footer-tabpanel--btc {
+  min-height: 0;
+}
+
+.footer-tab-body--btc {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+  max-width: none;
+  padding: 1.2rem 1.25rem;
+}
+
+@media (min-width: 560px) {
+  .footer-tab-body--btc {
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
+  }
+}
+
+.footer-btc-qr-wrap {
+  flex-shrink: 0;
+  width: 7.5rem;
+  height: 7.5rem;
+  padding: 0.4rem;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 10px 24px -12px rgba(0, 0, 0, 0.55);
+  align-self: center;
 }
 
 .footer-tab-media__qr {
   width: 100%;
   height: 100%;
-  max-width: 9rem;
-  max-height: 9rem;
   object-fit: contain;
   display: block;
   background: #fff;
 }
 
-.footer-tab-body {
+.footer-btc-copy {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  gap: 0.6rem;
-  padding: 1.2rem 1.25rem 1.25rem;
+  gap: 0.5rem;
   min-width: 0;
+  flex: 1;
 }
 
-.footer-tab-body .footer-donate-label {
-  margin: 0 !important;
-  font-size: 1rem !important;
-  font-weight: 600;
-  color: #fff !important;
-  letter-spacing: 0.03em;
-  text-transform: none;
-}
-
-.footer-tab-body .footer-donate-desc {
-  margin: 0 !important;
-  font-size: 0.9rem !important;
-  line-height: 1.55 !important;
+.footer-btc-copy .footer-donate-desc {
   color: var(--text-secondary) !important;
-  max-width: 36ch;
-  min-height: 0 !important;
-  flex: 0 1 auto !important;
-  text-align: left !important;
   text-shadow: none !important;
-}
-
-.footer-tab-body .footer-donate-btn {
-  margin-top: 0.35rem !important;
-  width: auto !important;
-  min-width: 9.5rem;
-  align-self: flex-start;
-}
-
-/* Legacy inline QR class — never show (single QR only in media frame) */
-.footer-donate-qr--inline {
-  display: none !important;
 }
 
 .footer-tabpanel--btc .footer-support-address {
@@ -12858,6 +12979,12 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   border: 1px solid rgba(76, 61, 107, 0.5);
   color: var(--text-soft);
   margin: 0;
+}
+
+/* Legacy classes kept inert */
+.footer-tab-media-frame,
+.footer-donate-qr--inline {
+  display: none !important;
 }
 
 .footer-support-head {

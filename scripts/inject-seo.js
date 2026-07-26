@@ -28,7 +28,7 @@ const ogWidth = brand.defaultImageWidth || 1200;
 const ogHeight = brand.defaultImageHeight || 630;
 const themeColor = brand.themeColor || '#0F0A1F';
 const appleTouch = `${baseUrl}/images/apple-touch-icon.png`;
-const favicon = `${baseUrl}/images/21.webp`;
+const favicon = `${baseUrl}/images/favicon.webp`;
 
 function escapeAttr(value) {
   return String(value)

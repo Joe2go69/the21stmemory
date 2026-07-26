@@ -729,7 +729,7 @@ function buildPage({
     <meta name="theme-color" content="#0F0A1F">
 ${robots}    <link rel="canonical" href="${canonical}">
     <link rel="home" href="${BASE_URL}/">
-    <link rel="icon" href="${BASE_URL}/images/21.webp" type="image/webp">
+    <link rel="icon" href="${BASE_URL}/images/favicon.webp" type="image/webp">
     <link rel="apple-touch-icon" href="${BASE_URL}/images/apple-touch-icon.png">
     <meta property="og:type" content="article">
     <meta property="og:url" content="${canonical}">

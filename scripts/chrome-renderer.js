@@ -150,17 +150,17 @@ function renderFooter(footerData, options = {}) {
       </ul>`
     : '';
 
-  // Clean icons in tabs (photo thumbs looked muddy at 24px)
+  // Tab order: GoFundMe → Ko-fi → Bitcoin (default = first)
   const tabItems = [];
+  if (gofundme) {
+    tabItems.push({ id: 'gofundme', label: 'GoFundMe', icon: SITE_ICON_SVGS.heart, iconMod: ' footer-tab-icon--heart' });
+  }
   if (kofi) {
     tabItems.push({ id: 'kofi', label: 'Ko-fi', icon: SITE_ICON_SVGS.kofi, iconMod: '' });
   }
   tabItems.push({ id: 'btc', label: 'Bitcoin', icon: btcIcon, iconMod: ' footer-tab-icon--btc' });
-  if (gofundme) {
-    tabItems.push({ id: 'gofundme', label: 'GoFundMe', icon: SITE_ICON_SVGS.heart, iconMod: ' footer-tab-icon--heart' });
-  }
 
-  const defaultTab = tabItems[0]?.id || 'kofi';
+  const defaultTab = tabItems[0]?.id || 'gofundme';
 
   const tabsHTML = tabItems.map((tab) => {
     const selected = tab.id === defaultTab;
@@ -170,12 +170,28 @@ function renderFooter(footerData, options = {}) {
             </button>`;
   }).join('');
 
+  // Side-blend panels: image visible in the box on left or right, fading into copy
+  const gofundmePanel = gofundme
+    ? `<div class="footer-tabpanel footer-tabpanel--blend footer-tabpanel--blend-right${gofundme.image ? ' has-media' : ''}${defaultTab === 'gofundme' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-gofundme" aria-labelledby="footer-tab-gofundme"${defaultTab === 'gofundme' ? '' : ' hidden'}>
+              ${gofundme.image ? `<div class="footer-tab-media" aria-hidden="true">
+                <img src="${withBasePath(gofundme.image, basePath)}" alt="" class="footer-tab-media__img" width="720" height="960" loading="lazy" decoding="async" />
+                <div class="footer-tab-media__scrim"></div>
+              </div>` : ''}
+              <div class="footer-tab-body">
+                <span class="footer-donate-label">GoFundMe</span>
+                <p class="footer-donate-desc">${gofundme.hint}</p>
+                <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
+                  <span>${gofundme.buttonText}</span>
+                </a>
+              </div>
+            </div>`
+    : '';
+
   const kofiPanel = kofi
-    ? `<div class="footer-tabpanel${defaultTab === 'kofi' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-kofi" aria-labelledby="footer-tab-kofi"${defaultTab === 'kofi' ? '' : ' hidden'}>
-              ${kofi.image ? `<div class="footer-tab-media">
-                <div class="footer-tab-media-frame">
-                  <img src="${withBasePath(kofi.image, basePath)}" alt="${kofi.imageAlt || ''}" class="footer-tab-media__img" width="360" height="480" loading="lazy" decoding="async" />
-                </div>
+    ? `<div class="footer-tabpanel footer-tabpanel--blend footer-tabpanel--blend-left${kofi.image ? ' has-media' : ''}${defaultTab === 'kofi' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-kofi" aria-labelledby="footer-tab-kofi"${defaultTab === 'kofi' ? '' : ' hidden'}>
+              ${kofi.image ? `<div class="footer-tab-media" aria-hidden="true">
+                <img src="${withBasePath(kofi.image, basePath)}" alt="" class="footer-tab-media__img" width="720" height="960" loading="lazy" decoding="async" />
+                <div class="footer-tab-media__scrim"></div>
               </div>` : ''}
               <div class="footer-tab-body">
                 <span class="footer-donate-label">Ko-fi</span>
@@ -187,37 +203,20 @@ function renderFooter(footerData, options = {}) {
             </div>`
     : '';
 
-  // Single QR only (left plate) — no duplicate in the body
+  // Bitcoin: clean glass row — single QR + copy (no atmosphere image)
   const btcPanel = `<div class="footer-tabpanel footer-tabpanel--btc${defaultTab === 'btc' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-btc" aria-labelledby="footer-tab-btc"${defaultTab === 'btc' ? '' : ' hidden'}>
-              <div class="footer-tab-media footer-tab-media--qr">
-                <div class="footer-tab-media-frame footer-tab-media-frame--qr">
-                  <img src="${withBasePath(footerData.support.qrImage, basePath)}" alt="${footerData.support.qrAlt || 'Bitcoin QR code'}" class="footer-tab-media__qr" width="168" height="168" loading="lazy" decoding="async" />
+              <div class="footer-tab-body footer-tab-body--btc">
+                <div class="footer-btc-qr-wrap">
+                  <img src="${withBasePath(footerData.support.qrImage, basePath)}" alt="${footerData.support.qrAlt || 'Bitcoin QR code'}" class="footer-tab-media__qr" width="140" height="140" loading="lazy" decoding="async" />
                 </div>
-              </div>
-              <div class="footer-tab-body">
-                <span class="footer-donate-label">Bitcoin</span>
-                <p class="footer-donate-desc">${bitcoinHint}</p>
-                <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcDisplay}</code>
-                <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address">Copy address</button>
+                <div class="footer-btc-copy">
+                  <span class="footer-donate-label">Bitcoin</span>
+                  <p class="footer-donate-desc">${bitcoinHint}</p>
+                  <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcDisplay}</code>
+                  <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address">Copy address</button>
+                </div>
               </div>
             </div>`;
-
-  const gofundmePanel = gofundme
-    ? `<div class="footer-tabpanel${defaultTab === 'gofundme' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-gofundme" aria-labelledby="footer-tab-gofundme"${defaultTab === 'gofundme' ? '' : ' hidden'}>
-              ${gofundme.image ? `<div class="footer-tab-media">
-                <div class="footer-tab-media-frame">
-                  <img src="${withBasePath(gofundme.image, basePath)}" alt="${gofundme.imageAlt || ''}" class="footer-tab-media__img" width="360" height="480" loading="lazy" decoding="async" />
-                </div>
-              </div>` : ''}
-              <div class="footer-tab-body">
-                <span class="footer-donate-label">GoFundMe</span>
-                <p class="footer-donate-desc">${gofundme.hint}</p>
-                <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span>${gofundme.buttonText}</span>
-                </a>
-              </div>
-            </div>`
-    : '';
 
   const supportHTML = footerData.support
     ? `<div class="footer-support" id="support">
@@ -232,9 +231,9 @@ function renderFooter(footerData, options = {}) {
                 ${tabsHTML}
               </div>
               <div class="footer-tabpanels">
+                ${gofundmePanel}
                 ${kofiPanel}
                 ${btcPanel}
-                ${gofundmePanel}
               </div>
             </div>
             <p class="footer-support-note">${supportNote}</p>

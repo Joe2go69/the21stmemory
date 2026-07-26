@@ -1,6 +1,6 @@
 # Phase 6 Verification Report
 
-Generated: 2026-07-26T04:23:29.204Z
+Generated: 2026-07-26T10:03:17.538Z
 
 **Result: PASSED** — 83/83 checks
 
@@ -118,7 +118,7 @@ Generated: 2026-07-26T04:23:29.204Z
 - ✅ topics.html has Quizzes nav
 - ✅ sitemap escaped ampersands
 - ✅ sitemap URL count > 150 (228)
-- ✅ og image non-empty (22830)
+- ✅ og image non-empty (19856)
 - ✅ community noindex
 - ✅ community redirects
 - ✅ community not full nav chrome
