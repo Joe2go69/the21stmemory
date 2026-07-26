@@ -8,7 +8,7 @@ const path = require('path');
 const sharp = require('sharp');
 
 const ROOT = path.join(__dirname, '..');
-const LOGO = path.join(ROOT, 'images', '21.webp');
+const LOGO = path.join(ROOT, 'images', '21st-mark.webp');
 const OUT_OG = path.join(ROOT, 'images', 'og-default.webp');
 const OUT_APPLE = path.join(ROOT, 'images', 'apple-touch-icon.png');
 
@@ -17,8 +17,17 @@ async function main() {
     throw new Error(`Logo not found: ${LOGO}`);
   }
 
-  const logo280 = await sharp(LOGO).resize(280, 280, { fit: 'cover' }).png().toBuffer();
-  const logo120 = await sharp(LOGO).resize(120, 120, { fit: 'cover' }).png().toBuffer();
+  // Source mark is a tight square crop; brighten slightly so glass "21st" reads at small sizes
+  const logo280 = await sharp(LOGO)
+    .resize(280, 280, { fit: 'cover' })
+    .modulate({ brightness: 1.18, saturation: 1.1 })
+    .png()
+    .toBuffer();
+  const logo152 = await sharp(LOGO)
+    .resize(152, 152, { fit: 'cover' })
+    .modulate({ brightness: 1.22, saturation: 1.12 })
+    .png()
+    .toBuffer();
 
   const ogSvg = Buffer.from(`<?xml version="1.0" encoding="UTF-8"?>
 <svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
@@ -47,19 +56,26 @@ async function main() {
     .webp({ quality: 88 })
     .toFile(OUT_OG);
 
+  // Brighter violet plate + larger mark fill so home-screen icon is readable
   const appleSvg = Buffer.from(`<?xml version="1.0" encoding="UTF-8"?>
 <svg width="180" height="180" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="ibg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1E1135"/>
-      <stop offset="100%" stop-color="#4C1D95"/>
+      <stop offset="0%" stop-color="#2E1065"/>
+      <stop offset="55%" stop-color="#4C1D95"/>
+      <stop offset="100%" stop-color="#1E1135"/>
     </linearGradient>
+    <radialGradient id="iglow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
   </defs>
   <rect width="180" height="180" rx="36" fill="url(#ibg)"/>
+  <rect width="180" height="180" rx="36" fill="url(#iglow)"/>
 </svg>`);
 
   await sharp(appleSvg)
-    .composite([{ input: logo120, top: 30, left: 30 }])
+    .composite([{ input: logo152, top: 14, left: 14 }])
     .png()
     .toFile(OUT_APPLE);
 

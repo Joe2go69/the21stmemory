@@ -19,7 +19,7 @@ if (fs.existsSync(liveSample)) {
   check('live canonical', h.includes('https://21stmemory.com/dive/alice/nature-of-reality.html'));
   check('live Article schema', h.includes('"@type": "Article"'));
   check('live no noindex', !h.includes('noindex'));
-  check('live copy link', h.includes('dive-copy-link'));
+  check('live copy link', h.includes('data-share-action="copy-link"') || h.includes('dive-copy-link'));
   check('live quiz path', h.includes('../../quiz/alice/nature-of-reality.html'));
   check('live asset base', h.includes('../../assets/css/main.css'));
 }

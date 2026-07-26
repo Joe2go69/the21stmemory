@@ -95,13 +95,13 @@ function renderCard(quiz) {
     .join(' ')
     .toLowerCase();
 
-  return `<a href="${escapeAttr(quiz.href)}" class="quiz-hub-row" data-source="${escapeAttr(quiz.sourceId)}" data-quiz-key="${escapeAttr(quiz.sourceId + '/' + quiz.id)}" data-search="${escapeAttr(searchBlob)}">
-  <span class="quiz-hub-row__title">${escapeHtml(quiz.title)}</span>
-  <span class="quiz-hub-row__meta">
-    <span class="quiz-hub-row__count">${quiz.questionCount} Q</span>
-    <span class="quiz-hub-row__score" data-quiz-score hidden></span>
-    <span class="quiz-hub-row__cta">Open →</span>
+  return `<a href="${escapeAttr(quiz.href)}" class="quiz-hub-card" role="listitem" data-source="${escapeAttr(quiz.sourceId)}" data-quiz-key="${escapeAttr(quiz.sourceId + '/' + quiz.id)}" data-search="${escapeAttr(searchBlob)}">
+  <span class="quiz-hub-card__title">${escapeHtml(quiz.title)}</span>
+  <span class="quiz-hub-card__meta">
+    <span class="quiz-hub-card__count">${quiz.questionCount} Q</span>
+    <span class="quiz-hub-card__score" data-quiz-score hidden></span>
   </span>
+  <span class="quiz-hub-card__cta">Open quiz →</span>
 </a>`;
 }
 
@@ -122,7 +122,7 @@ function renderSourceSection(sourceId, quizzes) {
     </div>
     <a href="topics.html?source=${escapeAttr(sourceId)}" class="quiz-hub-section__link">Browse topics →</a>
   </header>
-  <div class="quiz-hub-section__list" role="list">
+  <div class="quiz-hub-section__grid" role="list">
 ${cards}
   </div>
 </section>`;

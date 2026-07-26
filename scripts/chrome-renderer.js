@@ -12,6 +12,9 @@ const SITE_ICON_SVGS = {
   heart: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>',
 };
 
+/** Official frosted-glass “21st” brand mark (relative to site root). */
+const BRAND_MARK = 'images/21st-mark.webp';
+
 function truncateMiddle(str, head = 10, tail = 6) {
   if (!str || str.length <= head + tail + 1) return str || '';
   return `${str.slice(0, head)}…${str.slice(-tail)}`;
@@ -46,6 +49,18 @@ function renderNavItem(link, className, basePath = '') {
   return `<a href="${href}" class="${navLinkClasses(link, className)}"${dataNav}${attrs}>${link.text}</a>`;
 }
 
+function renderBrandMark(basePath, options = {}) {
+  const {
+    className = 'brand-mark',
+    width = 48,
+    height = 48,
+    lazy = false,
+  } = options;
+  const src = withBasePath(BRAND_MARK, basePath);
+  const loading = lazy ? ' loading="lazy"' : '';
+  return `<img src="${src}" alt="" class="${className}" width="${width}" height="${height}" decoding="async"${loading} />`;
+}
+
 function renderNavbar(navbarData, options = {}) {
   const basePath = options.basePath || '';
   const desktopLinksHTML = navbarData.links.map(link => renderNavItem(link, 'nav-link', basePath)).join('');
@@ -58,22 +73,24 @@ function renderNavbar(navbarData, options = {}) {
     return renderNavItem(link, isCta ? 'nav-link nav-cta-mobile' : 'nav-link', basePath);
   }).join('');
   const logoHref = withBasePath(navbarData.logo.href, basePath);
+  const markHTML = renderBrandMark(basePath, {
+    className: 'nav-logo-mark-img',
+    width: 48,
+    height: 48,
+    lazy: false,
+  });
 
   return `<nav class="navbar">
       <div class="nav-container">
         <div class="nav-content">
-          <a href="${logoHref}" class="nav-logo">
-            <div class="nav-logo-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
-                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
-                <circle cx="13.5" cy="10.5" r="0.7" fill="var(--text-bright)" opacity="0.85"/>
-              </svg>
-            </div>
-            <div>
-              <div class="nav-logo-text">${navbarData.logo.text}</div>
-              <div class="nav-logo-subtitle">${navbarData.logo.subtitle}</div>
-            </div>
+          <a href="${logoHref}" class="nav-logo" aria-label="21st Memory home">
+            <span class="nav-logo-mark" aria-hidden="true">
+              ${markHTML}
+            </span>
+            <span class="nav-logo-copy">
+              <span class="nav-logo-text">${navbarData.logo.text}</span>
+              <span class="nav-logo-subtitle">${navbarData.logo.subtitle}</span>
+            </span>
           </a>
           <div class="nav-links">
             ${desktopLinksHTML}
@@ -94,6 +111,8 @@ function renderNavbar(navbarData, options = {}) {
 
 function renderFooter(footerData, options = {}) {
   const basePath = options.basePath || '';
+  const homeHref = withBasePath('index.html', basePath);
+  const brandSubtitle = footerData.brand?.subtitle || 'Living Archive';
   const quickLinksHTML = footerData.quickLinks
     ? footerData.quickLinks.map(link =>
         `<a href="${withBasePath(link.href, basePath)}" class="footer-link">${link.text}</a>`
@@ -104,80 +123,121 @@ function renderFooter(footerData, options = {}) {
     ? footerData.socials.map(social => {
         const iconHTML = renderSiteIcon(social.icon, 'card-icon-sm');
         const label = social.name || 'Social';
-        return `<a href="${social.href}" target="_blank" rel="noopener noreferrer" class="footer-social" title="${label}" aria-label="${label}">
-      ${iconHTML}<span>${label}</span>
+        return `<a href="${social.href}" target="_blank" rel="noopener noreferrer" class="footer-social footer-social--icon" title="${label}" aria-label="${label}">
+      ${iconHTML}<span class="footer-social-label">${label}</span>
     </a>`;
       }).join('')
     : '';
 
   const bitcoinHint = footerData.support?.bitcoinHint
-    || 'Direct contribution — scan the QR or copy the address.';
-
+    || 'Scan with a wallet app, or copy the address below.';
   const btcAddress = footerData.support?.bitcoinAddress || '';
-  const btcDisplay = truncateMiddle(btcAddress, 10, 6);
+  const btcDisplay = truncateMiddle(btcAddress, 12, 8);
   const btcIcon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 8.5h4.2a2 2 0 0 1 0 4H9.5zm0 4h4.6a2 2 0 0 1 0 4H9.5z"/><path d="M11 7v1.5M13 7v1.5M11 15.5V17M13 15.5V17"/></svg>';
-
-  const funds = Array.isArray(footerData.support?.funds) ? footerData.support.funds : [];
-  const fundsHTML = funds.length
-    ? `<ul class="footer-support-funds" aria-label="${footerData.support.fundsLabel || 'What support covers'}">
-        ${funds.map((item) => `<li>${item}</li>`).join('')}
-      </ul>`
-    : '';
 
   const kofi = footerData.support?.kofi;
   const gofundme = footerData.support?.gofundme;
   const eyebrow = footerData.support?.eyebrow || 'Optional';
   const heading = footerData.support?.heading || 'Support the archive';
+  const supportNote = footerData.support?.note || 'Always free · Many ways to help · Grateful for every form of support';
+  const supportMessage = footerData.support?.message
+    || '21st Memory is free for everyone, always — no paywalls, no pressure. Support comes in many forms: sharing a topic, inviting others into the work, joining the community, or contributing if you choose. Contributions help cover the costs of keeping this archive available.';
+
+  const funds = Array.isArray(footerData.support?.funds) ? footerData.support.funds : [];
+  const fundsHTML = funds.length
+    ? `<ul class="footer-support-funds" aria-label="${footerData.support.fundsLabel || 'Ways to support'}">
+        ${funds.map((item) => `<li>${item}</li>`).join('')}
+      </ul>`
+    : '';
+
+  // Clean icons in tabs (photo thumbs looked muddy at 24px)
+  const tabItems = [];
+  if (kofi) {
+    tabItems.push({ id: 'kofi', label: 'Ko-fi', icon: SITE_ICON_SVGS.kofi, iconMod: '' });
+  }
+  tabItems.push({ id: 'btc', label: 'Bitcoin', icon: btcIcon, iconMod: ' footer-tab-icon--btc' });
+  if (gofundme) {
+    tabItems.push({ id: 'gofundme', label: 'GoFundMe', icon: SITE_ICON_SVGS.heart, iconMod: ' footer-tab-icon--heart' });
+  }
+
+  const defaultTab = tabItems[0]?.id || 'kofi';
+
+  const tabsHTML = tabItems.map((tab) => {
+    const selected = tab.id === defaultTab;
+    return `<button type="button" class="footer-tab${selected ? ' is-active' : ''}" role="tab" id="footer-tab-${tab.id}" aria-controls="footer-panel-${tab.id}" aria-selected="${selected ? 'true' : 'false'}" tabindex="${selected ? '0' : '-1'}" data-footer-tab="${tab.id}">
+              <span class="footer-tab-icon${tab.iconMod || ''}" aria-hidden="true">${tab.icon}</span>
+              <span class="footer-tab-label">${tab.label}</span>
+            </button>`;
+  }).join('');
+
+  const kofiPanel = kofi
+    ? `<div class="footer-tabpanel${defaultTab === 'kofi' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-kofi" aria-labelledby="footer-tab-kofi"${defaultTab === 'kofi' ? '' : ' hidden'}>
+              ${kofi.image ? `<div class="footer-tab-media">
+                <div class="footer-tab-media-frame">
+                  <img src="${withBasePath(kofi.image, basePath)}" alt="${kofi.imageAlt || ''}" class="footer-tab-media__img" width="360" height="480" loading="lazy" decoding="async" />
+                </div>
+              </div>` : ''}
+              <div class="footer-tab-body">
+                <span class="footer-donate-label">Ko-fi</span>
+                <p class="footer-donate-desc">${kofi.hint}</p>
+                <a href="${kofi.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
+                  <span>${kofi.buttonText}</span>
+                </a>
+              </div>
+            </div>`
+    : '';
+
+  // Single QR only (left plate) — no duplicate in the body
+  const btcPanel = `<div class="footer-tabpanel footer-tabpanel--btc${defaultTab === 'btc' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-btc" aria-labelledby="footer-tab-btc"${defaultTab === 'btc' ? '' : ' hidden'}>
+              <div class="footer-tab-media footer-tab-media--qr">
+                <div class="footer-tab-media-frame footer-tab-media-frame--qr">
+                  <img src="${withBasePath(footerData.support.qrImage, basePath)}" alt="${footerData.support.qrAlt || 'Bitcoin QR code'}" class="footer-tab-media__qr" width="168" height="168" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="footer-tab-body">
+                <span class="footer-donate-label">Bitcoin</span>
+                <p class="footer-donate-desc">${bitcoinHint}</p>
+                <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcDisplay}</code>
+                <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address">Copy address</button>
+              </div>
+            </div>`;
+
+  const gofundmePanel = gofundme
+    ? `<div class="footer-tabpanel${defaultTab === 'gofundme' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-gofundme" aria-labelledby="footer-tab-gofundme"${defaultTab === 'gofundme' ? '' : ' hidden'}>
+              ${gofundme.image ? `<div class="footer-tab-media">
+                <div class="footer-tab-media-frame">
+                  <img src="${withBasePath(gofundme.image, basePath)}" alt="${gofundme.imageAlt || ''}" class="footer-tab-media__img" width="360" height="480" loading="lazy" decoding="async" />
+                </div>
+              </div>` : ''}
+              <div class="footer-tab-body">
+                <span class="footer-donate-label">GoFundMe</span>
+                <p class="footer-donate-desc">${gofundme.hint}</p>
+                <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
+                  <span>${gofundme.buttonText}</span>
+                </a>
+              </div>
+            </div>`
+    : '';
 
   const supportHTML = footerData.support
     ? `<div class="footer-support" id="support">
             <div class="footer-support-head">
               <p class="footer-support-eyebrow">${eyebrow}</p>
               <h2 class="footer-support-title">${heading}</h2>
-              <p class="footer-support-message">${footerData.support.message}</p>
+              <p class="footer-support-message">${supportMessage}</p>
               ${fundsHTML}
             </div>
-            <div class="footer-donate-grid">
-              ${kofi ? `<div class="footer-donate-card footer-donate-card--kofi footer-donate-card--bg${kofi.image ? ' has-bg' : ''}">
-                ${kofi.image ? `<div class="footer-donate-bg" aria-hidden="true">
-                  <img src="${withBasePath(kofi.image, basePath)}" alt="" class="footer-donate-bg__img" width="720" height="1280" loading="lazy" decoding="async" />
-                  <div class="footer-donate-bg__scrim"></div>
-                </div>` : ''}
-                <div class="footer-donate-body">
-                  <div class="footer-donate-icon" aria-hidden="true">${SITE_ICON_SVGS.kofi}</div>
-                  <span class="footer-donate-label">Ko-fi</span>
-                  <p class="footer-donate-desc">${kofi.hint}</p>
-                  <a href="${kofi.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                    <span>${kofi.buttonText}</span>
-                  </a>
-                </div>
-              </div>` : ''}
-              <div class="footer-donate-card footer-donate-card--btc">
-                <div class="footer-donate-icon footer-donate-icon--btc" aria-hidden="true">${btcIcon}</div>
-                <span class="footer-donate-label">Bitcoin</span>
-                <p class="footer-donate-desc">${bitcoinHint}</p>
-                <div class="footer-donate-qr-block">
-                  <img src="${withBasePath(footerData.support.qrImage, basePath)}" alt="${footerData.support.qrAlt}" class="footer-donate-qr" width="180" height="180" loading="lazy" decoding="async" />
-                </div>
-                <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcAddress}</code>
-                <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address">Copy address</button>
+            <div class="footer-support-tabs" data-footer-tabs>
+              <div class="footer-tablist" role="tablist" aria-label="Ways to support">
+                ${tabsHTML}
               </div>
-              ${gofundme ? `<div class="footer-donate-card footer-donate-card--gofundme footer-donate-card--bg${gofundme.image ? ' has-bg' : ''}">
-                ${gofundme.image ? `<div class="footer-donate-bg" aria-hidden="true">
-                  <img src="${withBasePath(gofundme.image, basePath)}" alt="" class="footer-donate-bg__img" width="720" height="1280" loading="lazy" decoding="async" />
-                  <div class="footer-donate-bg__scrim"></div>
-                </div>` : ''}
-                <div class="footer-donate-body">
-                  <div class="footer-donate-icon footer-donate-icon--heart" aria-hidden="true">${SITE_ICON_SVGS.heart}</div>
-                  <span class="footer-donate-label">GoFundMe</span>
-                  <p class="footer-donate-desc">${gofundme.hint}</p>
-                  <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                    <span>${gofundme.buttonText}</span>
-                  </a>
-                </div>
-              </div>` : ''}
+              <div class="footer-tabpanels">
+                ${kofiPanel}
+                ${btcPanel}
+                ${gofundmePanel}
+              </div>
             </div>
-            <p class="footer-support-note">Always free · Many ways to help · Grateful for every form of support</p>
+            <p class="footer-support-note">${supportNote}</p>
           </div>`
     : '';
 
@@ -185,44 +245,50 @@ function renderFooter(footerData, options = {}) {
     ? `<p class="footer-copyright">${footerData.copyright}</p>`
     : '';
 
+  const markHTML = renderBrandMark(basePath, {
+    className: 'footer-brand-mark',
+    width: 56,
+    height: 56,
+    lazy: true,
+  });
+
   return `<footer class="site-footer">
-      <div class="max-w-5xl mx-auto px-6">
-        <div class="grid md:grid-cols-12 gap-10 text-left mb-10">
-          <div class="md:col-span-4">
-            <div class="flex items-center gap-3 mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-mem-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
-                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
-                <circle cx="13.5" cy="10.5" r="0.7" fill="var(--text-prose)" opacity="0.9"/>
-              </svg>
-              <div class="text-2xl font-semibold tracking-[0.5px] text-white">${footerData.brand.name}</div>
-            </div>
-            <p class="text-mem-secondary text-[15px] max-w-md leading-relaxed mb-4">
-              ${footerData.brand.description}
-            </p>
-            <p class="text-xs text-mem-muted tracking-wide font-medium">${footerData.principle}</p>
+      <div class="footer-inner max-w-6xl mx-auto px-6">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <a href="${homeHref}" class="footer-brand-link" aria-label="21st Memory home">
+              <span class="footer-brand-mark-wrap" aria-hidden="true">${markHTML}</span>
+              <span class="footer-brand-copy">
+                <span class="footer-brand-name">${footerData.brand.name}</span>
+                <span class="footer-brand-subtitle">${brandSubtitle}</span>
+              </span>
+            </a>
+            <p class="footer-brand-desc">${footerData.brand.description}</p>
           </div>
-          <div class="md:col-span-3">
-            <div class="footer-heading">Quick links</div>
-            <div class="space-y-1">
+          <div class="footer-col footer-col--links">
+            <div class="footer-heading">Explore</div>
+            <div class="footer-link-list">
               ${quickLinksHTML}
             </div>
           </div>
-          <div class="md:col-span-5">
+          <div class="footer-col footer-col--connect">
             <div class="footer-heading">Connect</div>
-            <div class="footer-social-grid">
+            <div class="footer-social-row">
               ${socialsHTML}
             </div>
           </div>
         </div>
         ${supportHTML}
-        <div class="pt-8 border-t border-mem-subtle text-center">
-          <p class="text-sm text-mem-dim">${footerData.tagline}</p>
-          <p class="text-xs text-mem-muted mt-1">${footerData.subtitle}</p>
-          ${copyrightHTML}
+        <div class="footer-bottom">
+          <p class="footer-tagline">${footerData.tagline}</p>
+          <p class="footer-subtitle">${footerData.subtitle}</p>
+          <div class="footer-bottom-bar">
+            ${copyrightHTML}
+            <p class="footer-bottom-principles">${footerData.principle}</p>
+          </div>
         </div>
       </div>
     </footer>`;
 }
 
-module.exports = { renderNavbar, renderFooter };
+module.exports = { renderNavbar, renderFooter, BRAND_MARK };

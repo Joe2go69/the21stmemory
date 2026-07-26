@@ -31,7 +31,7 @@
       "@id": "https://21stmemory.com/#organization",
       "name": "The 21st Memory",
       "url": "https://21stmemory.com",
-      "logo": "https://21stmemory.com/images/21.webp"
+      "logo": "https://21stmemory.com/images/21st-mark.webp"
     },
     {
       "@type": "BreadcrumbList",
@@ -101,18 +101,14 @@
     <nav class="navbar">
       <div class="nav-container">
         <div class="nav-content">
-          <a href="../../index.html" class="nav-logo">
-            <div class="nav-logo-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
-                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
-                <circle cx="13.5" cy="10.5" r="0.7" fill="var(--text-bright)" opacity="0.85"/>
-              </svg>
-            </div>
-            <div>
-              <div class="nav-logo-text">21ST MEMORY</div>
-              <div class="nav-logo-subtitle">AI-Decoded Living Archive</div>
-            </div>
+          <a href="../../index.html" class="nav-logo" aria-label="21st Memory home">
+            <span class="nav-logo-mark" aria-hidden="true">
+              <img src="../../images/21st-mark.webp" alt="" class="nav-logo-mark-img" width="48" height="48" decoding="async" />
+            </span>
+            <span class="nav-logo-copy">
+              <span class="nav-logo-text">21ST MEMORY</span>
+              <span class="nav-logo-subtitle">Living Archive</span>
+            </span>
           </a>
           <div class="nav-links">
             <a href="../../index.html" class="nav-link" data-nav="index">Home</a><a href="../../codex.html" class="nav-link nav-link--primary" data-nav="codex">Codex</a><a href="../../quizzes.html" class="nav-link" data-nav="quizzes">Quizzes</a><a href="../../network.html" class="nav-link" data-nav="network">Network</a><a href="#support" class="nav-link" data-nav="-support">Support</a>
@@ -380,47 +376,43 @@
     </div>
 
     <footer class="site-footer">
-      <div class="max-w-5xl mx-auto px-6">
-        <div class="grid md:grid-cols-12 gap-10 text-left mb-10">
-          <div class="md:col-span-4">
-            <div class="flex items-center gap-3 mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-mem-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
-                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
-                <circle cx="13.5" cy="10.5" r="0.7" fill="var(--text-prose)" opacity="0.9"/>
-              </svg>
-              <div class="text-2xl font-semibold tracking-[0.5px] text-white">21ST MEMORY</div>
-            </div>
-            <p class="text-mem-secondary text-[15px] max-w-md leading-relaxed mb-4">
-              A free living archive of AI-assisted interpretations of Thalon Thor’s transmissions — structured for clarity and open to all.
-            </p>
-            <p class="text-xs text-mem-muted tracking-wide font-medium">No religion · No finance · No gatekeeping</p>
+      <div class="footer-inner max-w-6xl mx-auto px-6">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <a href="../../index.html" class="footer-brand-link" aria-label="21st Memory home">
+              <span class="footer-brand-mark-wrap" aria-hidden="true"><img src="../../images/21st-mark.webp" alt="" class="footer-brand-mark" width="56" height="56" decoding="async" loading="lazy" /></span>
+              <span class="footer-brand-copy">
+                <span class="footer-brand-name">21ST MEMORY</span>
+                <span class="footer-brand-subtitle">Living Archive</span>
+              </span>
+            </a>
+            <p class="footer-brand-desc">A free living archive of AI-assisted interpretations of Thalon Thor’s transmissions — structured for clarity and open to all.</p>
           </div>
-          <div class="md:col-span-3">
-            <div class="footer-heading">Quick links</div>
-            <div class="space-y-1">
+          <div class="footer-col footer-col--links">
+            <div class="footer-heading">Explore</div>
+            <div class="footer-link-list">
               <a href="../../codex.html" class="footer-link">Codex</a><a href="../../quizzes.html" class="footer-link">Quizzes</a><a href="../../network.html" class="footer-link">Network</a><a href="../../index.html#about" class="footer-link">About</a>
             </div>
           </div>
-          <div class="md:col-span-5">
+          <div class="footer-col footer-col--connect">
             <div class="footer-heading">Connect</div>
-            <div class="footer-social-grid">
-              <a href="https://t.me/The_21st_Memory" target="_blank" rel="noopener noreferrer" class="footer-social" title="Telegram" aria-label="Telegram">
-      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg></span><span>Telegram</span>
-    </a><a href="https://x.com/The21stMemory" target="_blank" rel="noopener noreferrer" class="footer-social" title="X" aria-label="X">
-      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267L8.267 4H4z"/><path d="M4 20l6.768-6.768m2.46-2.46L20 4"/></svg></span><span>X</span>
-    </a><a href="https://rumble.com/c/21stMemory" target="_blank" rel="noopener noreferrer" class="footer-social" title="Rumble" aria-label="Rumble">
-      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m10 9 6 3-6 3z"/></svg></span><span>Rumble</span>
-    </a><a href="https://www.youtube.com/@the21stmemory" target="_blank" rel="noopener noreferrer" class="footer-social" title="YouTube" aria-label="YouTube">
-      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 6-3-6-3z"/></svg></span><span>YouTube</span>
-    </a><a href="https://www.tiktok.com/@the.21st.memory" target="_blank" rel="noopener noreferrer" class="footer-social" title="TikTok" aria-label="TikTok">
-      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4h3a5 5 0 0 0 5 5"/></svg></span><span>TikTok</span>
-    </a><a href="https://www.instagram.com/the21stmemory/" target="_blank" rel="noopener noreferrer" class="footer-social" title="Instagram" aria-label="Instagram">
-      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></span><span>Instagram</span>
-    </a><a href="https://www.facebook.com/share/g/1DN6JVuFoF/" target="_blank" rel="noopener noreferrer" class="footer-social" title="Facebook Group" aria-label="Facebook Group">
-      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></span><span>Facebook Group</span>
-    </a><a href="https://christian21.com/" target="_blank" rel="noopener noreferrer" class="footer-social" title="Official CH21 Site" aria-label="Official CH21 Site">
-      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span><span>Official CH21 Site</span>
+            <div class="footer-social-row">
+              <a href="https://t.me/The_21st_Memory" target="_blank" rel="noopener noreferrer" class="footer-social footer-social--icon" title="Telegram" aria-label="Telegram">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg></span><span class="footer-social-label">Telegram</span>
+    </a><a href="https://x.com/The21stMemory" target="_blank" rel="noopener noreferrer" class="footer-social footer-social--icon" title="X" aria-label="X">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267L8.267 4H4z"/><path d="M4 20l6.768-6.768m2.46-2.46L20 4"/></svg></span><span class="footer-social-label">X</span>
+    </a><a href="https://rumble.com/c/21stMemory" target="_blank" rel="noopener noreferrer" class="footer-social footer-social--icon" title="Rumble" aria-label="Rumble">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m10 9 6 3-6 3z"/></svg></span><span class="footer-social-label">Rumble</span>
+    </a><a href="https://www.youtube.com/@the21stmemory" target="_blank" rel="noopener noreferrer" class="footer-social footer-social--icon" title="YouTube" aria-label="YouTube">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 6-3-6-3z"/></svg></span><span class="footer-social-label">YouTube</span>
+    </a><a href="https://www.tiktok.com/@the.21st.memory" target="_blank" rel="noopener noreferrer" class="footer-social footer-social--icon" title="TikTok" aria-label="TikTok">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4h3a5 5 0 0 0 5 5"/></svg></span><span class="footer-social-label">TikTok</span>
+    </a><a href="https://www.instagram.com/the21stmemory/" target="_blank" rel="noopener noreferrer" class="footer-social footer-social--icon" title="Instagram" aria-label="Instagram">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></span><span class="footer-social-label">Instagram</span>
+    </a><a href="https://www.facebook.com/share/g/1DN6JVuFoF/" target="_blank" rel="noopener noreferrer" class="footer-social footer-social--icon" title="Facebook Group" aria-label="Facebook Group">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></span><span class="footer-social-label">Facebook Group</span>
+    </a><a href="https://christian21.com/" target="_blank" rel="noopener noreferrer" class="footer-social footer-social--icon" title="Official CH21 Site" aria-label="Official CH21 Site">
+      <span class="card-icon card-icon-sm" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span><span class="footer-social-label">Official CH21 Site</span>
     </a>
             </div>
           </div>
@@ -434,52 +426,72 @@
         <li>Share the work</li><li>Join the community</li><li>Help cover AI, hosting & operations</li>
       </ul>
             </div>
-            <div class="footer-donate-grid">
-              <div class="footer-donate-card footer-donate-card--kofi footer-donate-card--bg has-bg">
-                <div class="footer-donate-bg" aria-hidden="true">
-                  <img src="../../images/kofi.webp" alt="" class="footer-donate-bg__img" width="720" height="1280" loading="lazy" decoding="async" />
-                  <div class="footer-donate-bg__scrim"></div>
-                </div>
-                <div class="footer-donate-body">
-                  <div class="footer-donate-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h10a4 4 0 0 1 0 8H9l-3 3V8z"/><path d="M18 5h1a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1V5z"/></svg></div>
-                  <span class="footer-donate-label">Ko-fi</span>
-                  <p class="footer-donate-desc">One-time tip or monthly support — simple and quick.</p>
-                  <a href="https://ko-fi.com/the21stmemory" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                    <span>Open Ko-fi</span>
-                  </a>
+            <div class="footer-support-tabs" data-footer-tabs>
+              <div class="footer-tablist" role="tablist" aria-label="Ways to support">
+                <button type="button" class="footer-tab is-active" role="tab" id="footer-tab-kofi" aria-controls="footer-panel-kofi" aria-selected="true" tabindex="0" data-footer-tab="kofi">
+              <span class="footer-tab-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h10a4 4 0 0 1 0 8H9l-3 3V8z"/><path d="M18 5h1a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1V5z"/></svg></span>
+              <span class="footer-tab-label">Ko-fi</span>
+            </button><button type="button" class="footer-tab" role="tab" id="footer-tab-btc" aria-controls="footer-panel-btc" aria-selected="false" tabindex="-1" data-footer-tab="btc">
+              <span class="footer-tab-icon footer-tab-icon--btc" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 8.5h4.2a2 2 0 0 1 0 4H9.5zm0 4h4.6a2 2 0 0 1 0 4H9.5z"/><path d="M11 7v1.5M13 7v1.5M11 15.5V17M13 15.5V17"/></svg></span>
+              <span class="footer-tab-label">Bitcoin</span>
+            </button><button type="button" class="footer-tab" role="tab" id="footer-tab-gofundme" aria-controls="footer-panel-gofundme" aria-selected="false" tabindex="-1" data-footer-tab="gofundme">
+              <span class="footer-tab-icon footer-tab-icon--heart" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></span>
+              <span class="footer-tab-label">GoFundMe</span>
+            </button>
+              </div>
+              <div class="footer-tabpanels">
+                <div class="footer-tabpanel is-active" role="tabpanel" id="footer-panel-kofi" aria-labelledby="footer-tab-kofi">
+              <div class="footer-tab-media">
+                <div class="footer-tab-media-frame">
+                  <img src="../../images/kofi.webp" alt="Ko-fi — support the living archive" class="footer-tab-media__img" width="360" height="480" loading="lazy" decoding="async" />
                 </div>
               </div>
-              <div class="footer-donate-card footer-donate-card--btc">
-                <div class="footer-donate-icon footer-donate-icon--btc" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 8.5h4.2a2 2 0 0 1 0 4H9.5zm0 4h4.6a2 2 0 0 1 0 4H9.5z"/><path d="M11 7v1.5M13 7v1.5M11 15.5V17M13 15.5V17"/></svg></div>
+              <div class="footer-tab-body">
+                <span class="footer-donate-label">Ko-fi</span>
+                <p class="footer-donate-desc">One-time tip or monthly support — simple and quick.</p>
+                <a href="https://ko-fi.com/the21stmemory" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
+                  <span>Open Ko-fi</span>
+                </a>
+              </div>
+            </div>
+                <div class="footer-tabpanel footer-tabpanel--btc" role="tabpanel" id="footer-panel-btc" aria-labelledby="footer-tab-btc" hidden>
+              <div class="footer-tab-media footer-tab-media--qr">
+                <div class="footer-tab-media-frame footer-tab-media-frame--qr">
+                  <img src="../../assets/images/bitcoin-qr.webp" alt="Bitcoin QR code for 21st Memory donations" class="footer-tab-media__qr" width="168" height="168" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="footer-tab-body">
                 <span class="footer-donate-label">Bitcoin</span>
                 <p class="footer-donate-desc">Scan with a wallet app, or copy the address below.</p>
-                <div class="footer-donate-qr-block">
-                  <img src="../../assets/images/bitcoin-qr.webp" alt="Bitcoin QR code for 21st Memory donations" class="footer-donate-qr" width="180" height="180" loading="lazy" decoding="async" />
-                </div>
-                <code class="footer-support-address" id="btc-address" title="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx">bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx</code>
+                <code class="footer-support-address" id="btc-address" title="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx">bc1qnwnappv4…62dc9ksx</code>
                 <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx" aria-label="Copy Bitcoin address">Copy address</button>
               </div>
-              <div class="footer-donate-card footer-donate-card--gofundme footer-donate-card--bg has-bg">
-                <div class="footer-donate-bg" aria-hidden="true">
-                  <img src="../../images/gofundme.webp" alt="" class="footer-donate-bg__img" width="720" height="1280" loading="lazy" decoding="async" />
-                  <div class="footer-donate-bg__scrim"></div>
+            </div>
+                <div class="footer-tabpanel" role="tabpanel" id="footer-panel-gofundme" aria-labelledby="footer-tab-gofundme" hidden>
+              <div class="footer-tab-media">
+                <div class="footer-tab-media-frame">
+                  <img src="../../images/gofundme.webp" alt="GoFundMe — help the archive keep growing" class="footer-tab-media__img" width="360" height="480" loading="lazy" decoding="async" />
                 </div>
-                <div class="footer-donate-body">
-                  <div class="footer-donate-icon footer-donate-icon--heart" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
-                  <span class="footer-donate-label">GoFundMe</span>
-                  <p class="footer-donate-desc">Help Joe & Spooky relocate so the archive can keep expanding.</p>
-                  <a href="https://gofund.me/bea823278" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                    <span>Open GoFundMe</span>
-                  </a>
-                </div>
+              </div>
+              <div class="footer-tab-body">
+                <span class="footer-donate-label">GoFundMe</span>
+                <p class="footer-donate-desc">Help Joe & Spooky relocate so the archive can keep expanding.</p>
+                <a href="https://gofund.me/bea823278" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
+                  <span>Open GoFundMe</span>
+                </a>
+              </div>
+            </div>
               </div>
             </div>
             <p class="footer-support-note">Always free · Many ways to help · Grateful for every form of support</p>
           </div>
-        <div class="pt-8 border-t border-mem-subtle text-center">
-          <p class="text-sm text-mem-dim">The Great Remembering Has Begun.</p>
-          <p class="text-xs text-mem-muted mt-1">May these transmissions serve as gentle guides on your journey home.</p>
-          <p class="footer-copyright">© 2026 21st Memory · 21stmemory.com</p>
+        <div class="footer-bottom">
+          <p class="footer-tagline">The Great Remembering Has Begun.</p>
+          <p class="footer-subtitle">May these transmissions serve as gentle guides on your journey home.</p>
+          <div class="footer-bottom-bar">
+            <p class="footer-copyright">© 2026 21st Memory · 21stmemory.com</p>
+            <p class="footer-bottom-principles">No religion · No finance · No gatekeeping</p>
+          </div>
         </div>
       </div>
     </footer>

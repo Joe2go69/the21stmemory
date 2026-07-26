@@ -1,8 +1,8 @@
 # Phase 6 Verification Report
 
-Generated: 2026-07-24T08:19:30.229Z
+Generated: 2026-07-26T04:23:29.204Z
 
-**Result: FAILED** — 80/83 checks
+**Result: PASSED** — 83/83 checks
 
 ## P1 Brand SEO
 
@@ -24,16 +24,16 @@ Generated: 2026-07-24T08:19:30.229Z
 
 ## P2 Quizzes hub
 
-- Passed: 11
-- Failed: 1
+- Passed: 12
+- Failed: 0
 
 - ✅ quizzes.html exists
 - ✅ quizzes SEO title
 - ✅ quizzes nav link
-- ❌ quizzes cards present
+- ✅ quizzes cards present
 - ✅ quizzes filters
 - ✅ quizzes-index.json
-- ✅ quiz index count ~99 (109)
+- ✅ quiz index count ~99 (110)
 - ✅ index nav Quizzes
 - ✅ index quiz CTA
 - ✅ codex quiz link
@@ -42,19 +42,19 @@ Generated: 2026-07-24T08:19:30.229Z
 
 ## P3 Static dives
 
-- Passed: 19
-- Failed: 1
+- Passed: 20
+- Failed: 0
 
 - ✅ dive-manifest.json
-- ✅ live dives ~100 (109)
-- ✅ stub dives ~64 (55)
+- ✅ live dives ~100 (110)
+- ✅ stub dives ~64 (54)
 - ✅ live sample exists
 - ✅ live unique title
 - ✅ live report prerendered
 - ✅ live Article schema
 - ✅ live canonical path
 - ✅ live no noindex
-- ❌ live copy link
+- ✅ live copy link
 - ✅ stub sample exists
 - ✅ stub noindex
 - ✅ sitemap has dive URLs
@@ -68,8 +68,8 @@ Generated: 2026-07-24T08:19:30.229Z
 
 ## P4 Visual & perf
 
-- Passed: 13
-- Failed: 1
+- Passed: 14
+- Failed: 0
 
 - ✅ page-home
 - ✅ page-hero
@@ -78,7 +78,7 @@ Generated: 2026-07-24T08:19:30.229Z
 - ✅ no auto rumble iframe on home
 - ✅ safe-area navbar
 - ✅ 44px touch targets
-- ❌ report 70ch
+- ✅ report 70ch
 - ✅ source plain labels
 - ✅ codex.html page-interior
 - ✅ quizzes.html page-interior
@@ -100,7 +100,7 @@ Generated: 2026-07-24T08:19:30.229Z
 - ✅ about AI note
 - ✅ stub browse ready CTA
 - ✅ SPA continue helper
-- ✅ sitemap dive count = live (109 vs 109)
+- ✅ sitemap dive count = live (110 vs 110)
 
 ## Integrity
 
@@ -117,8 +117,8 @@ Generated: 2026-07-24T08:19:30.229Z
 - ✅ network.html has Quizzes nav
 - ✅ topics.html has Quizzes nav
 - ✅ sitemap escaped ampersands
-- ✅ sitemap URL count > 150 (226)
-- ✅ og image non-empty (20844)
+- ✅ sitemap URL count > 150 (228)
+- ✅ og image non-empty (22830)
 - ✅ community noindex
 - ✅ community redirects
 - ✅ community not full nav chrome

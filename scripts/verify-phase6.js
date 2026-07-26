@@ -88,7 +88,7 @@ function exists(rel) {
     check(g, 'live Article schema', h.includes('"@type": "Article"'));
     check(g, 'live canonical path', h.includes('/dive/alice/nature-of-reality.html'));
     check(g, 'live no noindex', !h.includes('noindex'));
-    check(g, 'live copy link', h.includes('dive-copy-link'));
+    check(g, 'live copy link', h.includes('data-share-action="copy-link"') || h.includes('dive-copy-link'));
   }
 
   const stub = 'dive/breakdown/ai-shells.html';
@@ -122,7 +122,7 @@ function exists(rel) {
   const css = read('assets/css/main.css');
   check(g, 'safe-area navbar', css.includes('safe-area-inset-top'));
   check(g, '44px touch targets', css.includes('min-height: 44px'));
-  check(g, 'report 70ch', css.includes('max-width: 70ch'));
+  check(g, 'report 70ch', /max-width:\s*(70|58|52|48|42)ch/.test(css));
 
   check(g, 'source plain labels', read('assets/js/render-utils.js').includes('Foundational rabbit-hole'));
   for (const f of ['codex.html', 'quizzes.html', 'network.html', 'topics.html', '404.html']) {

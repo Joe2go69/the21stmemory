@@ -2,7 +2,8 @@
   "logo": {
     "href": "index.html",
     "text": "21ST MEMORY",
-    "subtitle": "AI-Decoded Living Archive"
+    "subtitle": "Living Archive",
+    "mark": "images/21st-mark.webp"
   },
   "links": [
     { "text": "Home", "href": "index.html" },

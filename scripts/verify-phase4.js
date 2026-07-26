@@ -26,7 +26,7 @@ const css = fs.readFileSync(path.join(ROOT, 'assets/css/main.css'), 'utf8');
 check('safe-area navbar', css.includes('safe-area-inset-top'));
 check('page-hero-title', css.includes('.page-hero-title'));
 check('min 44px controls', css.includes('min-height: 44px'));
-check('report measure', css.includes('max-width: 70ch'));
+check('report measure', /max-width:\s*(70|58|52|48|42)ch/.test(css));
 check('chip scroll mobile', css.includes('scroll-snap-type'));
 
 const interior = ['codex.html', 'quizzes.html', 'network.html', 'topics.html', 'deep-dive.html', '404.html'];

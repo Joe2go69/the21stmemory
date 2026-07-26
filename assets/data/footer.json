@@ -4,6 +4,7 @@
   "copyright": "© 2026 21st Memory · 21stmemory.com",
   "brand": {
     "name": "21ST MEMORY",
+    "subtitle": "Living Archive",
     "description": "A free living archive of AI-assisted interpretations of Thalon Thor’s transmissions — structured for clarity and open to all."
   },
   "principle": "No religion · No finance · No gatekeeping",
@@ -73,6 +74,7 @@
     "message": "21st Memory is free for everyone, always — no paywalls, no pressure. Support comes in many forms: sharing a topic, inviting others into the work, joining the community, or contributing if you choose. Contributions help cover the costs of keeping this archive available.",
     "fundsLabel": "Ways to support",
     "funds": ["Share the work", "Join the community", "Help cover AI, hosting & operations"],
+    "note": "Always free · Many ways to help · Grateful for every form of support",
     "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
     "qrImage": "assets/images/bitcoin-qr.webp",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",
