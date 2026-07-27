@@ -562,6 +562,7 @@ function initSectionScrollSpy() {
   const sections = [
     { id: 'about', href: 'index.html#about' },
     { id: 'codex', href: 'index.html#codex' },
+    { id: 'oracle', href: 'index.html#oracle' },
     { id: 'explore', href: 'index.html#explore' }
   ];
 

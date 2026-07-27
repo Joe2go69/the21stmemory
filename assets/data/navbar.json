@@ -10,6 +10,7 @@
     { "text": "Codex", "href": "codex.html", "primary": true },
     { "text": "Quizzes", "href": "quizzes.html" },
     { "text": "Network", "href": "network.html" },
+    { "text": "Oracle", "href": "index.html#oracle" },
     { "text": "Support", "href": "#support" }
   ],
   "cta": {

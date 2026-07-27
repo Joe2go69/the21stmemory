@@ -39,13 +39,25 @@ function withBasePath(url, basePath) {
   return `${basePath}${url}`;
 }
 
+function dataNavValue(href) {
+  if (!href) return '';
+  // Pure hash anchors (e.g. #support) → "-support"
+  if (href.startsWith('#')) {
+    return href.replace(/[^a-z0-9-]/gi, '-');
+  }
+  // Page + hash (e.g. index.html#oracle) → section id so it doesn't collide with Home
+  const hashMatch = href.match(/#([a-z0-9_-]+)/i);
+  if (hashMatch) return hashMatch[1].toLowerCase();
+  // Plain page → basename without .html
+  return href.replace(/\.html.*$/i, '').replace(/[^a-z0-9-]/gi, '-');
+}
+
 function renderNavItem(link, className, basePath = '') {
   const isExternal = link.external || link.newTab || link.target === '_blank';
   const href = withBasePath(link.href, basePath);
   const attrs = isExternal ? ' target="_blank" rel="noopener noreferrer"' : '';
-  const dataNav = link.href && !isExternal
-    ? ` data-nav="${link.href.replace(/\.html.*$/, '').replace(/[^a-z0-9-]/gi, '-')}"`
-    : '';
+  const navKey = !isExternal ? dataNavValue(link.href) : '';
+  const dataNav = navKey ? ` data-nav="${navKey}"` : '';
   return `<a href="${href}" class="${navLinkClasses(link, className)}"${dataNav}${attrs}>${link.text}</a>`;
 }
 

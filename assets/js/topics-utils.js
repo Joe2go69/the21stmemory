@@ -909,13 +909,13 @@ const TopicUtils = {
 
     const layouts = {
       'codex-stats': `
-        <div class="skeleton-panel static-card rounded-2xl">
+        <div class="skeleton-panel codex-hub-panel rounded-2xl">
           <div class="skeleton-grid skeleton-grid--4">${block('3.5rem')}${block('3.5rem')}${block('3.5rem')}${block('3.5rem')}</div>
           ${bar('100%')}
         </div>`,
       'codex-grid': `
         <div class="skeleton-grid skeleton-grid--sources">
-          ${Array(2).fill(`<div class="skeleton skeleton-source-card static-card rounded-3xl">${block('10rem')}${bar('70%')}${bar('90%')}</div>`).join('')}
+          ${Array(2).fill(`<div class="skeleton skeleton-source-card rounded-3xl">${block('10rem')}${bar('70%')}${bar('90%')}</div>`).join('')}
         </div>`,
       'topics-header': `
         <div class="skeleton-panel static-card rounded-3xl glow-purple">

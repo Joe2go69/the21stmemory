@@ -298,23 +298,21 @@ html {
 }
 
 /* Layered atmospheric background — lit-from-above sacred vault
-   Always scroll-attached: fixed body backgrounds cause GPU horizontal
-   banding on first paint (Chrome/Windows) and are hidden only when
-   content is already covering the canvas. */
+   Body stays a solid deep color so short hubs (Codex) and long pages
+   (Home / Quizzes) share the exact same canvas. Atmosphere lives on a
+   viewport-tall ::after only — never scaled to document height, never
+   bottom-anchored (those washed Codex lighter when the page was short).
+   No background-attachment:fixed (Chrome/Windows banding). */
+html {
+  background-color: var(--deep-bg);
+}
+
 .cosmic-bg {
   position: relative;
   min-height: 100vh;
-  /* Solid base first so first paint never shows a transparent/banded canvas */
+  /* Solid only — gradients are on ::after so content/compositing cannot re-tint the vault */
   background-color: var(--deep-bg);
-  background-image:
-    radial-gradient(ellipse 100% 70% at 50% -12%, rgba(124, 58, 237, 0.22) 0%, transparent 55%),
-    radial-gradient(ellipse 55% 40% at 88% 18%, rgba(99, 102, 241, 0.08) 0%, transparent 50%),
-    linear-gradient(168deg, rgba(255, 255, 255, 0.03) 0%, transparent 38%),
-    radial-gradient(ellipse 50% 38% at 94% 92%, rgba(99, 102, 241, 0.09) 0%, transparent 55%),
-    radial-gradient(ellipse 42% 32% at 4% 88%, rgba(76, 29, 149, 0.12) 0%, transparent 52%),
-    radial-gradient(ellipse 80% 50% at 50% 100%, rgba(30, 17, 53, 0.55) 0%, transparent 70%);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-image: none;
 }
 
 /* Soft paper-vault grain (CSS-only) — sits behind content.
@@ -328,10 +326,29 @@ html {
   min-height: 100%;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.04;
+  opacity: 0.022;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-repeat: repeat;
   background-size: 180px 180px;
+}
+
+/* Viewport-tall vault light — identical on every page regardless of content length */
+.cosmic-bg::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  height: 100dvh;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(ellipse 120% 400px at 50% -40px, rgba(124, 58, 237, 0.12) 0%, transparent 62%),
+    radial-gradient(ellipse 48% 200px at 90% 8%, rgba(99, 102, 241, 0.04) 0%, transparent 55%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.012) 0%, transparent 240px);
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 /* Content above grain — do NOT set position on children (would break fixed navbar) */
@@ -6830,13 +6847,14 @@ a.topic-main-root-card:hover .topic-main-root-explore {
 }
 
 #codex-toolbar .codex-toolbar {
-  background: rgba(26, 20, 51, 0.94);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  /* Solid sticky tray — see .codex-hub-panel (no glass / no GPU wash) */
+  background: #1A1433;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
   border: 1px solid rgba(124, 58, 237, 0.22);
   box-shadow:
-    var(--surface-tier-recessed-tray),
-    0 12px 36px -18px rgba(0, 0, 0, 0.5);
+    0 10px 24px -14px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 @media (max-width: 767px) {
@@ -7080,19 +7098,20 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   position: relative;
 }
 
-/* Ambient hero bloom behind brand title — soft violet halo so wordmark reads luminous */
+/* Ambient hero bloom behind brand title — soft violet halo so wordmark reads luminous.
+   Keep tight and low-opacity so short hubs (Codex) don’t read as a lighter purple panel. */
 .page-hero::before {
   content: '';
   position: absolute;
   left: 50%;
-  top: 18%;
-  width: min(42rem, 92vw);
-  height: min(18rem, 48vw);
+  top: 20%;
+  width: min(28rem, 78vw);
+  height: min(11rem, 34vw);
   transform: translateX(-50%);
-  background: radial-gradient(ellipse at center, rgba(167, 139, 250, 0.28) 0%, rgba(124, 58, 237, 0.12) 42%, transparent 70%);
+  background: radial-gradient(ellipse at center, rgba(167, 139, 250, 0.16) 0%, rgba(124, 58, 237, 0.06) 45%, transparent 72%);
   pointer-events: none;
   z-index: 0;
-  opacity: 0.55;
+  opacity: 0.42;
 }
 
 .page-hero > * {
@@ -9913,9 +9932,9 @@ a.btn-secondary:hover,
 }
 
 .page-hero::before {
-  opacity: 0.85;
-  height: min(16rem, 48vw);
-  top: 10%;
+  opacity: 0.42;
+  height: min(11rem, 34vw);
+  top: 16%;
 }
 
 .home-hero-actions {
@@ -10347,12 +10366,18 @@ a.btn-secondary:hover,
   margin-bottom: 0;
 }
 
+.page-hero-note,
 .page-hero--interior .page-hero-note {
   margin: 1rem auto 0;
   max-width: 28rem;
   font-size: 0.875rem;
   color: var(--text-dim);
   text-align: center;
+}
+
+.page-hero .home-hero-actions {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
 }
 
 /* Soften bloom slightly on multi-word titles (less “logo” intensity) */
@@ -12023,13 +12048,15 @@ button.footer-donate-btn {
 }
 
 .static-card {
-  /* Keep one real glass pass for hero vault panels only */
+  /* Solid acrylic vault panels — avoid backdrop-filter on page chrome.
+     Frosting over .cosmic-bg lightens the whole canvas after paint (Chrome),
+     which made Codex look washed when arriving from other hubs. */
   background:
-    radial-gradient(ellipse 90% 55% at 50% -5%, rgba(124, 58, 237, 0.12) 0%, transparent 55%),
-    linear-gradient(165deg, rgba(255, 255, 255, 0.06) 0%, transparent 45%),
-    rgba(26, 20, 51, 0.88) !important;
-  backdrop-filter: blur(14px) saturate(1.12) !important;
-  -webkit-backdrop-filter: blur(14px) saturate(1.12) !important;
+    radial-gradient(ellipse 90% 55% at 50% -5%, rgba(124, 58, 237, 0.1) 0%, transparent 55%),
+    linear-gradient(165deg, rgba(255, 255, 255, 0.05) 0%, transparent 45%),
+    rgba(26, 20, 51, 0.97) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
   box-shadow:
     var(--surface-tier-floating),
     0 0 0 1px rgba(167, 139, 250, 0.08) !important;
@@ -12124,18 +12151,62 @@ a.btn-secondary:hover,
   letter-spacing: 0.16em;
 }
 
-/* Atmosphere: slightly richer vault light (still professional) */
-.cosmic-bg {
-  background-image:
-    radial-gradient(ellipse 100% 65% at 50% -10%, rgba(124, 58, 237, 0.2) 0%, transparent 55%),
-    radial-gradient(ellipse 50% 36% at 90% 16%, rgba(99, 102, 241, 0.07) 0%, transparent 50%),
-    linear-gradient(168deg, rgba(255, 255, 255, 0.025) 0%, transparent 36%),
-    radial-gradient(ellipse 48% 34% at 6% 90%, rgba(76, 29, 149, 0.1) 0%, transparent 52%),
-    radial-gradient(ellipse 75% 48% at 50% 100%, rgba(30, 17, 53, 0.5) 0%, transparent 70%) !important;
+/* Hub wordmarks (Codex / Network / Quizzes): same metallic fill as home, calmer scale */
+.page-hero-title.page-hero-title--hub {
+  font-size: clamp(2.35rem, 8.5vw, 3.65rem);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  margin-bottom: 1.25rem;
+  text-wrap: balance;
 }
 
-.cosmic-bg::before {
-  opacity: 0.035;
+@media (min-width: 768px) {
+  .page-hero-title.page-hero-title--hub {
+    font-size: clamp(3.35rem, 5.8vw, 4.65rem);
+    letter-spacing: -0.05em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-hero-title.page-hero-title--hub {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-hero-title.page-hero-title--hub {
+    font-size: 2.55rem !important;
+    line-height: 1.05 !important;
+  }
+}
+
+/* Codex hub panels — plain solid surfaces (NOT .static-card).
+   .static-card / floating glass promotes a GPU layer that lightens the
+   entire Codex canvas in Chrome, including the vault above the cards. */
+.codex-hub-panel,
+.codex-stats-bar.codex-hub-panel,
+#codex-toolbar .codex-toolbar,
+#codex-toolbar .codex-hub-panel {
+  position: relative;
+  background: #1A1433 !important;
+  border: 1px solid rgba(124, 58, 237, 0.22) !important;
+  border-radius: 1rem;
+  box-shadow:
+    0 10px 24px -14px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  transform: none !important;
+  isolation: auto !important;
+  filter: none !important;
+}
+
+.codex-hub-panel::before,
+.codex-hub-panel::after,
+#codex-toolbar .codex-toolbar::before,
+#codex-toolbar .codex-toolbar::after {
+  display: none !important;
+  content: none !important;
 }
 
 /* -- Footer overhaul: high-end closing statement -- */
