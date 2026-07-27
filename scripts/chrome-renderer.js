@@ -221,9 +221,9 @@ function renderFooter(footerData, options = {}) {
   const supportHTML = footerData.support
     ? `<div class="footer-support" id="support">
             <div class="footer-support-head">
-              <p class="footer-support-eyebrow">${eyebrow}</p>
-              <h2 class="footer-support-title">${heading}</h2>
-              <p class="footer-support-message">${supportMessage}</p>
+              <p class="footer-support-eyebrow page-hero-eyebrow">${eyebrow}</p>
+              <h2 class="footer-support-title page-hero-title--page">${heading}</h2>
+              <p class="footer-support-message page-hero-lead">${supportMessage}</p>
               ${fundsHTML}
             </div>
             <div class="footer-support-tabs" data-footer-tabs>

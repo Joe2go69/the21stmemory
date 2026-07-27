@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-26T03:45:54.087Z",
-  "total": 110,
+  "generatedAt": "2026-07-27T01:10:47.628Z",
+  "total": 111,
   "sources": [
     {
       "id": "alice",
@@ -14,7 +14,7 @@
       "label": "Breakdown",
       "title": "Mega Breakdown Board Notes",
       "short": "Final-stage Great Awakening notes",
-      "count": 50
+      "count": 51
     }
   ],
   "quizzes": [
@@ -941,6 +941,18 @@
       "questionCount": 25,
       "href": "quiz/breakdown/harmonic-lenses.html",
       "diveHref": "dive/breakdown/harmonic-lenses.html"
+    },
+    {
+      "id": "hyperborean-heart",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Hyperborean Heart",
+      "subtitle": "Test your grasp of Hyperborean Heart — Antarctica as ice mask, Spirit Tree and Lyran builders, Black Cube valve hijack, lunar/Saturn siphon, Aru-el-nai versus Polaris, living roots, SEED codes, and garden restoration.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/hyperborean-heart.html",
+      "diveHref": "dive/breakdown/hyperborean-heart.html"
     },
     {
       "id": "infrastructure-sweep",

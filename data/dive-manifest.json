@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T09:38:35.337Z",
+  "generatedAt": "2026-07-27T01:10:48.094Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -775,7 +775,7 @@
       "sourceId": "breakdown",
       "topicId": "hyperborean-heart",
       "path": "/dive/breakdown/hyperborean-heart.html",
-      "live": false,
+      "live": true,
       "title": "Hyperborean Heart"
     },
     {
