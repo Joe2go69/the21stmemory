@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-27T01:10:47.628Z",
-  "total": 111,
+  "generatedAt": "2026-07-29T23:28:26.353Z",
+  "total": 112,
   "sources": [
     {
       "id": "alice",
@@ -14,7 +14,7 @@
       "label": "Breakdown",
       "title": "Mega Breakdown Board Notes",
       "short": "Final-stage Great Awakening notes",
-      "count": 51
+      "count": 52
     }
   ],
   "quizzes": [
@@ -1193,6 +1193,18 @@
       "questionCount": 25,
       "href": "quiz/breakdown/skull-buzzing.html",
       "diveHref": "dive/breakdown/skull-buzzing.html"
+    },
+    {
+      "id": "source-bridge",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Source Bridge",
+      "subtitle": "Test your grasp of Source Bridge — Spirit Tree as Harmonic Chord of pure light, KNOWN LANDS anchor, Axis Laburnum, Lyran Builders-Architects, Black Cube and Saturn Moon inversion, surviving roots, Resonating Sols, and restoration of pure Source flow.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/source-bridge.html",
+      "diveHref": "dive/breakdown/source-bridge.html"
     },
     {
       "id": "source-code-storage",

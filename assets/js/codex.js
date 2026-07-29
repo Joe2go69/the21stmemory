@@ -172,7 +172,9 @@ function renderToolbar() {
       </div>
       <div class="codex-search-row">
         <label class="codex-search-field" for="codex-search-input">
-          <span class="codex-search-icon" aria-hidden="true">⌕</span>
+          <span class="codex-search-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          </span>
           <input
             id="codex-search-input"
             type="search"
@@ -185,7 +187,7 @@ function renderToolbar() {
         </label>
         <div class="codex-sort-wrap">
           <label class="codex-sort-label" for="codex-sort-select">Sort</label>
-          <select id="codex-sort-select" class="codex-sort-select">
+          <select id="codex-sort-select" class="codex-sort-select" aria-label="Sort transmissions">
             <option value="alpha" ${sort === 'alpha' ? 'selected' : ''}>A–Z</option>
             <option value="topics" ${sort === 'topics' ? 'selected' : ''}>Most topics</option>
             <option value="live" ${sort === 'live' ? 'selected' : ''}>Most ready</option>
@@ -194,7 +196,7 @@ function renderToolbar() {
       </div>
       <div class="topics-filter-section topics-filter-section--status">
         <span class="topics-filter-label">Status</span>
-        <div class="topics-filter-btn-group topics-filter-btn-group--spaced">${statusButtons}</div>
+        <div class="topics-filter-btn-group topics-filter-btn-group--spaced" role="group" aria-label="Filter by status">${statusButtons}</div>
       </div>
     </div>
   `;

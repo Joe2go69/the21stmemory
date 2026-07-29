@@ -132,6 +132,7 @@ const entries = [
   { path: '/quiz/breakdown/starseed-keys.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/celestial-anchors.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/hyperborean-heart.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/source-bridge.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/central-axis.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/phase-one-three.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/targeting-parasites.html', priority: '0.75', changefreq: 'monthly' },

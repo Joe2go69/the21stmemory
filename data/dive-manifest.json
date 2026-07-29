@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T01:10:48.094Z",
+  "generatedAt": "2026-07-29T23:28:27.029Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -782,7 +782,7 @@
       "sourceId": "breakdown",
       "topicId": "source-bridge",
       "path": "/dive/breakdown/source-bridge.html",
-      "live": false,
+      "live": true,
       "title": "Source Bridge"
     },
     {
