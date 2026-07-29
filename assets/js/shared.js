@@ -11,8 +11,13 @@ const HOME_PAGES = new Set(['index.html']);
 const INDEX_SECTION_LINKS = new Set([
   'index.html#about',
   'index.html#codex',
-  'index.html#explore'
+  'index.html#oracle',
+  'index.html#media',
+  'index.html#support'
 ]);
+
+/** Home (and footer) hash targets that need measured scroll under the fixed nav */
+const MEASURED_SCROLL_HASHES = new Set(['oracle', 'media', 'support', 'about', 'codex']);
 
 function isCodexFamilyPage(pageBasename) {
   if (CODEX_PAGES.has(pageBasename)) return true;
@@ -60,23 +65,25 @@ function initSharedComponents() {
   initBackToTop();
   initFooterSupportCopy();
   initFooterSupportTabs();
-  initSupportAnchorScroll();
+  initMeasuredSectionScroll();
   initDeferredAnalytics();
   setTimeout(initScrollAnimations, 250);
 }
 
 /**
- * Scroll #support so its top sits cleanly just under the fixed navbar.
- * CSS scroll-margin alone fights html scroll-padding; measure nav height instead.
+ * Scroll a section so its top sits cleanly just under the fixed navbar.
+ * CSS scroll-margin + html scroll-padding stack and misalign (Oracle showed
+ * Codex CTAs under the nav). Measure nav height instead.
  */
 function getFixedNavOffset() {
   const nav = document.querySelector('.navbar');
   const h = nav ? nav.getBoundingClientRect().height : 80;
-  return h + 16; // small gap under nav
+  return h + 12; // tight gap under nav — section eyebrow lands cleanly
 }
 
-function scrollToSupport({ smooth = true } = {}) {
-  const target = document.getElementById('support');
+function scrollToSectionId(id, { smooth = true } = {}) {
+  if (!id) return false;
+  const target = document.getElementById(id);
   if (!target) return false;
   const top = target.getBoundingClientRect().top + window.scrollY - getFixedNavOffset();
   window.scrollTo({
@@ -88,55 +95,78 @@ function scrollToSupport({ smooth = true } = {}) {
   return true;
 }
 
-function initSupportAnchorScroll() {
-  // Same-page Support clicks (nav uses href="#support")
-  document.querySelectorAll('a[href="#support"], a[href$="#support"]').forEach((link) => {
+/** @deprecated use scrollToSectionId('support') */
+function scrollToSupport(opts) {
+  return scrollToSectionId('support', opts);
+}
+
+function hashIdFromHref(href) {
+  if (!href) return '';
+  const i = href.lastIndexOf('#');
+  if (i < 0) return '';
+  return href.slice(i + 1).split('?')[0].trim().toLowerCase();
+}
+
+function isSameDocumentHref(href) {
+  if (!href || href.startsWith('#')) return true;
+  try {
+    const url = new URL(href, window.location.href);
+    if (url.origin !== window.location.origin) return false;
+    const here = (window.location.pathname.replace(/\/$/, '') || '/').toLowerCase();
+    const there = (url.pathname.replace(/\/$/, '') || '/').toLowerCase();
+    // Treat / and /index.html as the same page
+    const normalize = (p) => {
+      if (p.endsWith('/index.html')) return p.slice(0, -10) || '/';
+      if (p.endsWith('index.html')) return p.slice(0, -10) || '/';
+      return p;
+    };
+    return normalize(there) === normalize(here);
+  } catch (_) {
+    return false;
+  }
+}
+
+function initMeasuredSectionScroll() {
+  const selector = Array.from(MEASURED_SCROLL_HASHES)
+    .map((id) => `a[href="#${id}"], a[href$="#${id}"]`)
+    .join(', ');
+
+  document.querySelectorAll(selector).forEach((link) => {
     link.addEventListener('click', (e) => {
       const href = link.getAttribute('href') || '';
-      const target = document.getElementById('support');
-      if (!target) return;
-
-      // Cross-document links (e.g. ../../index.html#support) — only intercept if same page
-      if (href !== '#support') {
-        try {
-          const url = new URL(href, window.location.href);
-          const here = window.location.pathname.replace(/\/$/, '') || '/';
-          const there = url.pathname.replace(/\/$/, '') || '/';
-          if (url.origin !== window.location.origin || there !== here) return;
-        } catch (_) {
-          return;
-        }
-      }
+      const id = hashIdFromHref(href);
+      if (!MEASURED_SCROLL_HASHES.has(id)) return;
+      if (!document.getElementById(id)) return;
+      if (!isSameDocumentHref(href)) return;
 
       e.preventDefault();
-      scrollToSupport({ smooth: true });
+      scrollToSectionId(id, { smooth: true });
       if (history.pushState) {
-        history.pushState(null, '', '#support');
+        history.pushState(null, '', `#${id}`);
       } else {
-        window.location.hash = 'support';
+        window.location.hash = id;
       }
-      setActiveNavLink();
+      setActiveNavLink(`index.html#${id}`);
     });
   });
 
-  // Landing with #support (or browser back/forward)
-  const alignIfSupportHash = () => {
-    if (window.location.hash !== '#support') return;
-    // Let layout settle, then correct under fixed nav
+  const alignIfMeasuredHash = () => {
+    const id = (window.location.hash || '').replace(/^#/, '').toLowerCase();
+    if (!MEASURED_SCROLL_HASHES.has(id)) return;
+    if (!document.getElementById(id)) return;
     requestAnimationFrame(() => {
-      scrollToSupport({ smooth: false });
-      setTimeout(() => scrollToSupport({ smooth: false }), 50);
+      scrollToSectionId(id, { smooth: false });
+      setTimeout(() => scrollToSectionId(id, { smooth: false }), 50);
     });
   };
 
   if (document.readyState === 'complete') {
-    alignIfSupportHash();
+    alignIfMeasuredHash();
   } else {
-    window.addEventListener('load', alignIfSupportHash, { once: true });
+    window.addEventListener('load', alignIfMeasuredHash, { once: true });
   }
-  window.addEventListener('hashchange', () => {
-    if (window.location.hash === '#support') alignIfSupportHash();
-  });
+  window.addEventListener('hashchange', alignIfMeasuredHash);
+  window.addEventListener('popstate', alignIfMeasuredHash);
 }
 
 /**
@@ -563,7 +593,7 @@ function initSectionScrollSpy() {
     { id: 'about', href: 'index.html#about' },
     { id: 'codex', href: 'index.html#codex' },
     { id: 'oracle', href: 'index.html#oracle' },
-    { id: 'explore', href: 'index.html#explore' }
+    { id: 'media', href: 'index.html#media' }
   ];
 
   const observed = sections

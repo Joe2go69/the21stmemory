@@ -85,13 +85,7 @@
       "hint": "One-time tip or monthly support — simple and quick.",
       "image": "images/kofi.webp",
       "imageAlt": "Ko-fi — support the living archive"
-    },
-    "gofundme": {
-      "href": "https://gofund.me/bea823278",
-      "buttonText": "Open GoFundMe",
-      "hint": "Help Joe & Spooky relocate so the archive can keep expanding.",
-      "image": "images/gofundme.webp",
-      "imageAlt": "GoFundMe — help the archive keep growing"
     }
   }
 }
+

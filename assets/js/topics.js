@@ -440,7 +440,7 @@ function renderFilterControls() {
 
   controls.innerHTML = `
     <div class="topics-filter-sticky-wrap">
-      <div class="topics-filter-panel static-card rounded-2xl">
+      <div class="topics-filter-panel rounded-2xl">
         <div class="topics-filter-header">
           <div>
             <div class="topics-filter-title">Browse the Archive</div>

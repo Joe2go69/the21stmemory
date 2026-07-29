@@ -114,7 +114,7 @@
     <link rel="stylesheet" href="assets/css/tailwind.css">
     <link rel="stylesheet" href="assets/css/main.css">
     </head>
-<body class="cosmic-bg font-sans page-home">
+<body class="cosmic-bg page-home">
     <a href="#main" class="skip-link">Skip to content</a>
     <nav class="navbar">
       <div class="nav-container">
@@ -129,7 +129,7 @@
             </span>
           </a>
           <div class="nav-links">
-            <a href="index.html" class="nav-link" data-nav="index">Home</a><a href="codex.html" class="nav-link nav-link--primary" data-nav="codex">Codex</a><a href="quizzes.html" class="nav-link" data-nav="quizzes">Quizzes</a><a href="network.html" class="nav-link" data-nav="network">Network</a><a href="index.html#oracle" class="nav-link" data-nav="oracle">Oracle</a><a href="#support" class="nav-link" data-nav="-support">Support</a>
+            <a href="index.html" class="nav-link" data-nav="index">Home</a><a href="codex.html" class="nav-link nav-link--primary" data-nav="codex">Codex</a><a href="quizzes.html" class="nav-link" data-nav="quizzes">Quizzes</a><a href="network.html" class="nav-link" data-nav="network">Network</a><a href="index.html#oracle" class="nav-link" data-nav="oracle">Oracle</a><a href="index.html#media" class="nav-link" data-nav="media">Media</a><a href="#support" class="nav-link" data-nav="-support">Support</a>
             <a href="https://t.me/The_21st_Memory" class="nav-cta" target="_blank" rel="noopener noreferrer">Telegram</a>
           </div>
           <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
@@ -140,7 +140,7 @@
         </div>
       </div>
       <div id="mobile-menu" class="mobile-menu">
-        <a href="index.html" class="nav-link" data-nav="index">Home</a><a href="codex.html" class="nav-link nav-link--primary" data-nav="codex">Codex</a><a href="quizzes.html" class="nav-link" data-nav="quizzes">Quizzes</a><a href="network.html" class="nav-link" data-nav="network">Network</a><a href="index.html#oracle" class="nav-link" data-nav="oracle">Oracle</a><a href="#support" class="nav-link" data-nav="-support">Support</a><a href="https://t.me/The_21st_Memory" class="nav-link nav-cta-mobile" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="index.html" class="nav-link" data-nav="index">Home</a><a href="codex.html" class="nav-link nav-link--primary" data-nav="codex">Codex</a><a href="quizzes.html" class="nav-link" data-nav="quizzes">Quizzes</a><a href="network.html" class="nav-link" data-nav="network">Network</a><a href="index.html#oracle" class="nav-link" data-nav="oracle">Oracle</a><a href="index.html#media" class="nav-link" data-nav="media">Media</a><a href="#support" class="nav-link" data-nav="-support">Support</a><a href="https://t.me/The_21st_Memory" class="nav-link nav-cta-mobile" target="_blank" rel="noopener noreferrer">Telegram</a>
       </div>
     </nav>
     <main id="main">
@@ -177,7 +177,7 @@
     </header>
 
     <!-- ABOUT -->
-    <div id="about" class="scroll-mt-28 mb-14 md:mb-18">
+    <div id="about" class="home-section-anchor mb-14 md:mb-18">
         <div class="max-w-6xl mx-auto px-6 mb-5">
             <p class="section-eyebrow">About</p>
         </div>
@@ -199,11 +199,6 @@
                         <p><strong>21st Memory</strong> is a free living archive of AI-assisted interpretations of transmissions from <strong>Thalon Thor / Christian21</strong>.</p>
                         <p>Material is organized into topics with video, visual synthesis, written reports, and optional quizzes — for clarity and navigation, not ownership of the message. AI helps structure dense material, but the <a href="network.html" class="text-link about-banner-inline-link">original transmissions</a> remain the source.</p>
                     </div>
-                    <ul class="about-banner-chips" aria-label="Guiding principles">
-                        <li>No religion</li>
-                        <li>No finance</li>
-                        <li>No gatekeeping</li>
-                    </ul>
                 </div>
 
                 <p class="about-banner-footnote" role="note">
@@ -215,12 +210,12 @@
     </div>
 
     <!-- CODEX -->
-    <div id="codex" class="scroll-mt-28 mb-16 md:mb-20">
+    <div id="codex" class="home-section-anchor mb-16 md:mb-20">
         <div class="max-w-6xl mx-auto px-6 mb-6">
             <p class="section-eyebrow">Codex</p>
         </div>
 
-        <div class="max-w-6xl mx-auto px-6 sm:px-6 codex-home-stack">
+        <div class="max-w-6xl mx-auto px-6">
             <section class="codex-banner static-card" aria-labelledby="codex-home-title">
                 <div class="codex-banner-media">
                     <img src="images/codex-banner.webp"
@@ -269,124 +264,121 @@
                     </div>
                 </div>
             </section>
-
-            <div id="journey-strip" class="codex-home-journey-panel"></div>
         </div>
     </div>
 
-    <!-- ORACLE + MEDIA -->
-    <div id="explore" class="scroll-mt-28 mb-16 md:mb-20">
-        <div id="oracle" class="scroll-mt-28 mb-12 md:mb-14">
-            <div class="max-w-6xl mx-auto px-6 mb-5">
-                <p class="section-eyebrow">Oracle</p>
-            </div>
-            <div class="max-w-6xl mx-auto px-6">
-                <article class="oracle-banner static-card" aria-labelledby="oracle-title">
-                    <div class="oracle-banner-media">
-                        <img src="images/oracle-banner.webp"
-                             alt="Luminous geometric portal over a cosmic sea"
-                             width="1200" height="480" loading="lazy"
-                             class="oracle-banner-img"
-                             decoding="async">
-                        <span class="oracle-banner-media-fade" aria-hidden="true"></span>
-                    </div>
-
-                    <div class="oracle-banner-body">
-                        <p class="oracle-banner-label">NotebookLM · free companion</p>
-                        <h2 id="oracle-title" class="oracle-banner-title">The 21st Oracle v2</h2>
-                        <p class="oracle-banner-copy">
-                            Ask questions and get structured answers drawn from the archive. Useful for patterns and navigation — not a replacement for the raw transmissions.
-                        </p>
-                        <div class="oracle-banner-actions">
-                            <a href="https://notebooklm.google.com/notebook/53f2bdde-0bf2-4399-b713-87e3656ca981"
-                               target="_blank" rel="noopener noreferrer"
-                               class="btn-primary">
-                                Open the Oracle
-                            </a>
-                        </div>
-                    </div>
-
-                    <p class="oracle-banner-footnote" role="note">
-                        <strong>Google account required.</strong>
-                        Companion study only — always confirm important points with the original transmissions.
-                    </p>
-                </article>
-            </div>
+    <!-- ORACLE — peer section so nav #oracle lands cleanly on the card -->
+    <div id="oracle" class="home-section-anchor mb-16 md:mb-20">
+        <div class="max-w-6xl mx-auto px-6 mb-5">
+            <p class="section-eyebrow">Oracle</p>
         </div>
+        <div class="max-w-6xl mx-auto px-6">
+            <article class="oracle-banner static-card" aria-labelledby="oracle-title">
+                <div class="oracle-banner-media">
+                    <img src="images/oracle-banner.webp"
+                         alt="Luminous geometric portal over a cosmic sea"
+                         width="1200" height="480" loading="lazy"
+                         class="oracle-banner-img"
+                         decoding="async">
+                    <span class="oracle-banner-media-fade" aria-hidden="true"></span>
+                </div>
 
-        <div id="rumble">
-            <div class="max-w-6xl mx-auto px-6 mb-5">
-                <p class="section-eyebrow">Media</p>
-            </div>
-            <div class="max-w-6xl mx-auto px-6">
-                <article class="media-banner static-card" aria-labelledby="media-title">
-                    <div class="media-banner-media">
-                        <img src="images/featured-transmissions-banner.webp"
-                             alt="Luminous orbs and energy streams representing featured transmissions"
-                             width="1200" height="480" loading="lazy"
-                             class="media-banner-img"
-                             decoding="async">
-                        <span class="media-banner-media-fade" aria-hidden="true"></span>
+                <div class="oracle-banner-body">
+                    <p class="oracle-banner-label">NotebookLM · free companion</p>
+                    <h2 id="oracle-title" class="oracle-banner-title">The 21st Oracle v2</h2>
+                    <p class="oracle-banner-copy">
+                        Ask questions and get structured answers drawn from the archive. Useful for patterns and navigation — not a replacement for the raw transmissions.
+                    </p>
+                    <div class="oracle-banner-actions">
+                        <a href="https://notebooklm.google.com/notebook/53f2bdde-0bf2-4399-b713-87e3656ca981"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-primary">
+                            Open the Oracle
+                        </a>
+                    </div>
+                </div>
+
+                <p class="oracle-banner-footnote" role="note">
+                    <strong>Google account required.</strong>
+                    Companion study only — always confirm important points with the original transmissions.
+                </p>
+            </article>
+        </div>
+    </div>
+
+    <!-- MEDIA -->
+    <div id="media" class="home-section-anchor mb-16 md:mb-20">
+        <div class="max-w-6xl mx-auto px-6 mb-5">
+            <p class="section-eyebrow">Media</p>
+        </div>
+        <div class="max-w-6xl mx-auto px-6">
+            <article class="media-banner static-card" aria-labelledby="media-title">
+                <div class="media-banner-media">
+                    <img src="images/featured-transmissions-banner.webp"
+                         alt="Luminous orbs and energy streams representing featured transmissions"
+                         width="1200" height="480" loading="lazy"
+                         class="media-banner-img"
+                         decoding="async">
+                    <span class="media-banner-media-fade" aria-hidden="true"></span>
+                </div>
+
+                <div class="media-banner-body">
+                    <div class="mb-6 md:mb-7">
+                        <h2 id="media-title" class="media-banner-title">Featured transmissions</h2>
+                        <p class="media-banner-copy">Tap play to load a video. Full archive on Rumble.</p>
                     </div>
 
-                    <div class="media-banner-body">
-                        <div class="mb-6 md:mb-7">
-                            <h2 id="media-title" class="media-banner-title">Featured transmissions</h2>
-                            <p class="media-banner-copy">Tap play to load a video. Full archive on Rumble.</p>
-                        </div>
-
-                        <div class="grid md:grid-cols-2 gap-5" id="home-rumble-grid">
-                            <article class="home-video-card group">
-                                <div class="aspect-[16/10] bg-[#0F0A1F] rounded-xl overflow-hidden relative video-facade">
-                                    <div class="video-poster-wrap absolute inset-0 cursor-pointer"
-                                         data-rumble-embed="https://rumble.com/embed/v7arime/?pub=4p0ieu"
-                                         data-video-title="The Architecture of the Crystalline Grid"
-                                         role="button" tabindex="0"
-                                         aria-label="Play video: The Architecture of the Crystalline Grid">
-                                        <canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="The Architecture of the Crystalline Grid" aria-hidden="true"></canvas>
-                                        <div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>
-                                        <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">
-                                            <div class="play-button">
-                                                <svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true">
-                                                    <path d="M8 5v14l11-7z"/>
-                                                </svg>
-                                            </div>
+                    <div class="grid md:grid-cols-2 gap-5" id="home-rumble-grid">
+                        <article class="home-video-card group">
+                            <div class="aspect-[16/10] bg-[#0F0A1F] rounded-xl overflow-hidden relative video-facade">
+                                <div class="video-poster-wrap absolute inset-0 cursor-pointer"
+                                     data-rumble-embed="https://rumble.com/embed/v7arime/?pub=4p0ieu"
+                                     data-video-title="The Architecture of the Crystalline Grid"
+                                     role="button" tabindex="0"
+                                     aria-label="Play video: The Architecture of the Crystalline Grid">
+                                    <canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="The Architecture of the Crystalline Grid" aria-hidden="true"></canvas>
+                                    <div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>
+                                    <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true">
+                                                <path d="M8 5v14l11-7z"/>
+                                            </svg>
                                         </div>
                                     </div>
                                 </div>
-                                <h3 class="home-video-card__title mt-3">The Architecture of the Crystalline Grid</h3>
-                            </article>
+                            </div>
+                            <h3 class="home-video-card__title mt-3">The Architecture of the Crystalline Grid</h3>
+                        </article>
 
-                            <article class="home-video-card group">
-                                <div class="aspect-[16/10] bg-[#0F0A1F] rounded-xl overflow-hidden relative video-facade">
-                                    <div class="video-poster-wrap absolute inset-0 cursor-pointer"
-                                         data-rumble-embed="https://rumble.com/embed/v76p838/?pub=4p0ieu"
-                                         data-video-title="Our Buried Inheritance"
-                                         role="button" tabindex="0"
-                                         aria-label="Play video: Our Buried Inheritance">
-                                        <canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="Our Buried Inheritance" aria-hidden="true"></canvas>
-                                        <div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>
-                                        <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">
-                                            <div class="play-button">
-                                                <svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true">
-                                                    <path d="M8 5v14l11-7z"/>
-                                                </svg>
-                                            </div>
+                        <article class="home-video-card group">
+                            <div class="aspect-[16/10] bg-[#0F0A1F] rounded-xl overflow-hidden relative video-facade">
+                                <div class="video-poster-wrap absolute inset-0 cursor-pointer"
+                                     data-rumble-embed="https://rumble.com/embed/v76p838/?pub=4p0ieu"
+                                     data-video-title="Our Buried Inheritance"
+                                     role="button" tabindex="0"
+                                     aria-label="Play video: Our Buried Inheritance">
+                                    <canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="Our Buried Inheritance" aria-hidden="true"></canvas>
+                                    <div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>
+                                    <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true">
+                                                <path d="M8 5v14l11-7z"/>
+                                            </svg>
                                         </div>
                                     </div>
                                 </div>
-                                <h3 class="home-video-card__title mt-3">Our Buried Inheritance</h3>
-                            </article>
-                        </div>
-
-                        <div class="media-banner-actions">
-                            <a href="https://rumble.com/c/21stMemory" target="_blank" rel="noopener noreferrer" class="btn-secondary">
-                                Full Rumble archive →
-                            </a>
-                        </div>
+                            </div>
+                            <h3 class="home-video-card__title mt-3">Our Buried Inheritance</h3>
+                        </article>
                     </div>
-                </article>
-            </div>
+
+                    <div class="media-banner-actions">
+                        <a href="https://rumble.com/c/21stMemory" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+                            Full Rumble archive →
+                        </a>
+                    </div>
+                </div>
+            </article>
         </div>
     </div>
 
@@ -444,10 +436,7 @@
             </div>
             <div class="footer-support-tabs" data-footer-tabs>
               <div class="footer-tablist" role="tablist" aria-label="Ways to support">
-                <button type="button" class="footer-tab is-active" role="tab" id="footer-tab-gofundme" aria-controls="footer-panel-gofundme" aria-selected="true" tabindex="0" data-footer-tab="gofundme">
-              <span class="footer-tab-icon footer-tab-icon--heart" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></span>
-              <span class="footer-tab-label">GoFundMe</span>
-            </button><button type="button" class="footer-tab" role="tab" id="footer-tab-kofi" aria-controls="footer-panel-kofi" aria-selected="false" tabindex="-1" data-footer-tab="kofi">
+                <button type="button" class="footer-tab is-active" role="tab" id="footer-tab-kofi" aria-controls="footer-panel-kofi" aria-selected="true" tabindex="0" data-footer-tab="kofi">
               <span class="footer-tab-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h10a4 4 0 0 1 0 8H9l-3 3V8z"/><path d="M18 5h1a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1V5z"/></svg></span>
               <span class="footer-tab-label">Ko-fi</span>
             </button><button type="button" class="footer-tab" role="tab" id="footer-tab-btc" aria-controls="footer-panel-btc" aria-selected="false" tabindex="-1" data-footer-tab="btc">
@@ -456,20 +445,8 @@
             </button>
               </div>
               <div class="footer-tabpanels">
-                <div class="footer-tabpanel footer-tabpanel--blend footer-tabpanel--blend-right has-media is-active" role="tabpanel" id="footer-panel-gofundme" aria-labelledby="footer-tab-gofundme">
-              <div class="footer-tab-media" aria-hidden="true">
-                <img src="images/gofundme.webp" alt="" class="footer-tab-media__img" width="1280" height="720" loading="lazy" decoding="async" />
-                <div class="footer-tab-media__scrim"></div>
-              </div>
-              <div class="footer-tab-body">
-                <span class="footer-donate-label">GoFundMe</span>
-                <p class="footer-donate-desc">Help Joe & Spooky relocate so the archive can keep expanding.</p>
-                <a href="https://gofund.me/bea823278" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span>Open GoFundMe</span>
-                </a>
-              </div>
-            </div>
-                <div class="footer-tabpanel footer-tabpanel--blend footer-tabpanel--blend-left has-media" role="tabpanel" id="footer-panel-kofi" aria-labelledby="footer-tab-kofi" hidden>
+                
+                <div class="footer-tabpanel footer-tabpanel--blend footer-tabpanel--blend-left has-media is-active" role="tabpanel" id="footer-panel-kofi" aria-labelledby="footer-tab-kofi">
               <div class="footer-tab-media" aria-hidden="true">
                 <img src="images/kofi.webp" alt="" class="footer-tab-media__img" width="1280" height="720" loading="lazy" decoding="async" />
                 <div class="footer-tab-media__scrim"></div>
