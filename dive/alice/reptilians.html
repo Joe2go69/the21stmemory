@@ -84,14 +84,12 @@
   ]
 }
 </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
     <style>html,body{background-color:#0F0A1F}</style>
-    <link rel="preload" href="../../assets/css/main.css" as="style">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap">
+    <link rel="preload" href="../../assets/css/main.min.css" as="style">
     <link rel="stylesheet" href="../../assets/css/tailwind.css">
-    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/fonts.css">
+    <link rel="stylesheet" href="../../assets/css/main.min.css">
 </head>
 <body class="cosmic-bg page-interior" data-dive-static="true" data-source="alice" data-topic="reptilians">
     <div id="reading-progress" class="reading-progress" aria-hidden="true" hidden>
@@ -426,7 +424,8 @@
             <div class="footer-support-head">
               <p class="footer-support-eyebrow page-hero-eyebrow">Optional</p>
               <h2 class="footer-support-title page-hero-title--page">Support the archive</h2>
-              <p class="footer-support-message page-hero-lead">21st Memory is free for everyone, always — no paywalls, no pressure. Support comes in many forms: sharing a topic, inviting others into the work, joining the community, or contributing if you choose. Contributions help cover the costs of keeping this archive available.</p>
+              <p class="footer-support-message footer-support-message--long page-hero-lead">21st Memory is free for everyone, always — no paywalls, no pressure. Support comes in many forms: sharing a topic, inviting others into the work, joining the community, or contributing if you choose. Contributions help cover the costs of keeping this archive available.</p>
+              <p class="footer-support-message footer-support-message--short page-hero-lead">Free for everyone, always. Share the work, join the community, or contribute if you choose — every form of support helps keep the archive open.</p>
               <ul class="footer-support-funds" aria-label="Ways to support">
         <li>Share the work</li><li>Join the community</li><li>Help cover AI, hosting & operations</li>
       </ul>
@@ -483,10 +482,10 @@
         </div>
       </div>
     </footer>
-    <script src="../../assets/js/icons.js"></script>
-    <script src="../../assets/js/topics-utils.js"></script>
-    <script src="../../assets/js/shared.js"></script>
+    <script src="../../assets/js/icons.js" defer></script>
+    <script src="../../assets/js/topics-utils.js" defer></script>
+    <script src="../../assets/js/shared.js" defer></script>
     <script src="../../assets/js/particle-backgrounds.js" defer></script>
-    <script src="../../assets/js/dive-static.js"></script>
+    <script src="../../assets/js/dive-static.js" defer></script>
 </body>
 </html>

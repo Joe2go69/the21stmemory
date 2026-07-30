@@ -105,14 +105,12 @@
 }
 </script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
     <style>html,body{background-color:#0F0A1F}</style>
-    <link rel="preload" href="assets/css/main.css" as="style">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap">
+    <link rel="preload" href="assets/css/main.min.css" as="style">
     <link rel="stylesheet" href="assets/css/tailwind.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/main.min.css">
     </head>
 <body class="cosmic-bg page-home">
     <a href="#main" class="skip-link">Skip to content</a>
@@ -182,9 +180,11 @@
         </div>
 
         <div class="max-w-6xl mx-auto px-6">
-            <article class="about-banner static-card" aria-labelledby="about-title">
+            <article class="about-banner static-card home-banner home-banner--editorial" aria-labelledby="about-title">
                 <div class="about-banner-media">
                     <img src="images/about.webp"
+                         srcset="images/about-640.webp 640w, images/about-960.webp 960w, images/about.webp 1200w"
+                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1152px"
                          alt="Abstract luminous network representing the 21st Memory living archive"
                          width="1200" height="480" loading="lazy"
                          class="about-banner-img"
@@ -215,9 +215,11 @@
         </div>
 
         <div class="max-w-6xl mx-auto px-6">
-            <section class="codex-banner static-card" aria-labelledby="codex-home-title">
+            <section class="codex-banner static-card home-banner home-banner--metrics" aria-labelledby="codex-home-title">
                 <div class="codex-banner-media">
                     <img src="images/codex-banner.webp"
+                         srcset="images/codex-banner-640.webp 640w, images/codex-banner-960.webp 960w, images/codex-banner.webp 1200w"
+                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1152px"
                          alt="Luminous crystalline lattice representing the 21st Memory Codex"
                          width="1200" height="480" loading="lazy"
                          class="codex-banner-img"
@@ -272,9 +274,11 @@
             <p class="section-eyebrow">Oracle</p>
         </div>
         <div class="max-w-6xl mx-auto px-6">
-            <article class="oracle-banner static-card" aria-labelledby="oracle-title">
+            <article class="oracle-banner static-card home-banner home-banner--focus" aria-labelledby="oracle-title">
                 <div class="oracle-banner-media">
                     <img src="images/oracle-banner.webp"
+                         srcset="images/oracle-banner-640.webp 640w, images/oracle-banner-960.webp 960w, images/oracle-banner.webp 1200w"
+                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1152px"
                          alt="Luminous geometric portal over a cosmic sea"
                          width="1200" height="480" loading="lazy"
                          class="oracle-banner-img"
@@ -311,9 +315,11 @@
             <p class="section-eyebrow">Media</p>
         </div>
         <div class="max-w-6xl mx-auto px-6">
-            <article class="media-banner static-card" aria-labelledby="media-title">
+            <article class="media-banner static-card home-banner home-banner--media" aria-labelledby="media-title">
                 <div class="media-banner-media">
                     <img src="images/featured-transmissions-banner.webp"
+                         srcset="images/featured-transmissions-banner-640.webp 640w, images/featured-transmissions-banner-960.webp 960w, images/featured-transmissions-banner.webp 1200w"
+                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1152px"
                          alt="Luminous orbs and energy streams representing featured transmissions"
                          width="1200" height="480" loading="lazy"
                          class="media-banner-img"
@@ -428,7 +434,8 @@
             <div class="footer-support-head">
               <p class="footer-support-eyebrow page-hero-eyebrow">Optional</p>
               <h2 class="footer-support-title page-hero-title--page">Support the archive</h2>
-              <p class="footer-support-message page-hero-lead">21st Memory is free for everyone, always — no paywalls, no pressure. Support comes in many forms: sharing a topic, inviting others into the work, joining the community, or contributing if you choose. Contributions help cover the costs of keeping this archive available.</p>
+              <p class="footer-support-message footer-support-message--long page-hero-lead">21st Memory is free for everyone, always — no paywalls, no pressure. Support comes in many forms: sharing a topic, inviting others into the work, joining the community, or contributing if you choose. Contributions help cover the costs of keeping this archive available.</p>
+              <p class="footer-support-message footer-support-message--short page-hero-lead">Free for everyone, always. Share the work, join the community, or contribute if you choose — every form of support helps keep the archive open.</p>
               <ul class="footer-support-funds" aria-label="Ways to support">
         <li>Share the work</li><li>Join the community</li><li>Help cover AI, hosting & operations</li>
       </ul>
@@ -485,10 +492,9 @@
         </div>
       </div>
     </footer>
-    <script src="assets/js/icons.js"></script>
-    <script src="assets/js/topics-utils.js"></script>
-    <script src="assets/js/shared.js"></script>
+    <script src="assets/js/icons.js" defer></script>
+    <script src="assets/js/shared.js" defer></script>
     <script src="assets/js/particle-backgrounds.js" defer></script>
-    <script src="assets/js/home.js"></script>
+    <script src="assets/js/home.js" defer></script>
 </body>
 </html>

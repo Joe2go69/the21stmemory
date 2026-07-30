@@ -154,6 +154,8 @@ function renderFooter(footerData, options = {}) {
   const supportNote = footerData.support?.note || 'Always free · Many ways to help · Grateful for every form of support';
   const supportMessage = footerData.support?.message
     || '21st Memory is free for everyone, always — no paywalls, no pressure. Support comes in many forms: sharing a topic, inviting others into the work, joining the community, or contributing if you choose. Contributions help cover the costs of keeping this archive available.';
+  const supportMessageShort = footerData.support?.messageShort
+    || 'Free for everyone, always. Share the work, join the community, or contribute if you choose — every form of support helps keep the archive open.';
 
   const funds = Array.isArray(footerData.support?.funds) ? footerData.support.funds : [];
   const fundsHTML = funds.length
@@ -235,7 +237,8 @@ function renderFooter(footerData, options = {}) {
             <div class="footer-support-head">
               <p class="footer-support-eyebrow page-hero-eyebrow">${eyebrow}</p>
               <h2 class="footer-support-title page-hero-title--page">${heading}</h2>
-              <p class="footer-support-message page-hero-lead">${supportMessage}</p>
+              <p class="footer-support-message footer-support-message--long page-hero-lead">${supportMessage}</p>
+              <p class="footer-support-message footer-support-message--short page-hero-lead">${supportMessageShort}</p>
               ${fundsHTML}
             </div>
             <div class="footer-support-tabs" data-footer-tabs>

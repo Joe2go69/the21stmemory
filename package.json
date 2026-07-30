@@ -3,6 +3,11 @@
   "private": true,
   "scripts": {
     "build:css": "npx tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --minify",
+    "build:fonts": "node scripts/download-fonts.js",
+    "minify:css": "node scripts/minify-css.js",
+    "optimize:images": "node scripts/optimize-images-phase3.js",
+    "apply:perf": "node scripts/apply-perf-assets.js",
+    "defer:scripts": "node scripts/defer-nested-scripts.js",
     "split:css": "node scripts/split-main-css.js",
     "normalize:images": "node scripts/normalize-image-assets.js",
     "build:data": "node scripts/split-topics-data.js",
@@ -17,9 +22,10 @@
     "sync:quiz-chrome": "node scripts/sync-quiz-chrome.js",
     "build:brand-assets": "node scripts/generate-brand-assets.js",
     "verify": "node scripts/verify-phase6.js",
-    "verify:all": "node scripts/verify-phase2.js && node scripts/verify-phase3.js && node scripts/verify-phase4.js && node scripts/verify-phase5.js && node scripts/verify-phase6.js",
+    "verify:elevation": "node scripts/verify-elevation.js",
+    "verify:all": "node scripts/verify-phase2.js && node scripts/verify-phase3.js && node scripts/verify-phase4.js && node scripts/verify-phase5.js && node scripts/verify-phase6.js && node scripts/verify-elevation.js",
     "chrome": "node scripts/inline-chrome.js",
-    "build": "node scripts/split-topics-data.js && node scripts/build-quizzes-hub.js && node scripts/build-static-dives.js && npx tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --minify && node scripts/inline-chrome.js && node scripts/sync-quiz-chrome.js && node scripts/inject-seo.js && node scripts/generate-sitemap.js"
+    "build": "node scripts/split-topics-data.js && node scripts/build-quizzes-hub.js && node scripts/build-static-dives.js && npx tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --minify && node scripts/minify-css.js && node scripts/inline-chrome.js && node scripts/sync-quiz-chrome.js && node scripts/inject-seo.js && node scripts/generate-sitemap.js && node scripts/apply-perf-assets.js && node scripts/defer-nested-scripts.js"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17"

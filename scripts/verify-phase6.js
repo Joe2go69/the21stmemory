@@ -53,11 +53,15 @@ function exists(rel) {
   const q = read('quizzes.html');
   check(g, 'quizzes SEO title', q.includes('Living Truth Quizzes'));
   check(g, 'quizzes nav link', /href="quizzes\.html"[^>]*>Quizzes</.test(q));
-  check(g, 'quizzes cards present', (q.match(/class="quiz-hub-card/g) || []).length >= 90);
+  // Elevation redesign: path-first + featured in HTML; full catalog lazy from JSON
+  check(g, 'quizzes path cards', q.includes('quiz-hub-path-card') || q.includes('data-quiz-path'));
+  check(g, 'quizzes featured or overview', q.includes('quiz-hub-featured') || q.includes('QUIZZES-OVERVIEW'));
+  check(g, 'quizzes lazy catalog shell', q.includes('data-quiz-lazy-shell') || q.includes('quiz-hub-lazy'));
   check(g, 'quizzes filters', q.includes('data-quiz-filter'));
   check(g, 'quizzes-index.json', exists('data/quizzes-index.json'));
   const qi = JSON.parse(read('data/quizzes-index.json'));
-  check(g, 'quiz index count ~99', qi.total >= 90 && qi.total <= 110, String(qi.total));
+  check(g, 'quiz index count >= 100', qi.total >= 100 && qi.total <= 200, String(qi.total));
+  check(g, 'quiz index has quiz list', Array.isArray(qi.quizzes) && qi.quizzes.length >= 100);
 
   const index = read('index.html');
   check(g, 'index nav Quizzes', /href="quizzes\.html"[^>]*>Quizzes</.test(index));
@@ -106,7 +110,13 @@ function exists(rel) {
   check(g, 'topics-utils diveUrl', read('assets/js/topics-utils.js').includes('diveUrl'));
   check(g, 'deep-dive redirect', read('assets/js/deep-dive.js').includes('maybeRedirectToStaticDive'));
   check(g, 'shell redirect /dive/', read('deep-dive.html').includes("/dive/'"));
-  check(g, 'home uses diveUrl', read('assets/js/home.js').includes('diveUrl'));
+  // Home is self-contained (no topics-utils); stats fetch + video facades live in home.js
+  check(
+    g,
+    'home self-contained stats/video',
+    read('assets/js/home.js').includes('archive-stats.json') &&
+      read('assets/js/home.js').includes('setupHomeVideos')
+  );
 })();
 
 // ── Phase 4: Visual / perf ──────────────────────────────────────

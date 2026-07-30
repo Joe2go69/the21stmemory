@@ -1,20 +1,54 @@
-// Quizzes hub — search + transmission filters over grouped sections
+// Quizzes hub — path-first overview, continue strip, lazy catalog, sort, pagination
+
+const QUIZ_PAGE_SIZE = 18;
+const QUIZ_INDEX_URL = 'data/quizzes-index.json';
 
 function initQuizzesHub() {
+  const browse = document.getElementById('quiz-browse');
   const root = document.getElementById('quizzes-grid');
   const empty = document.getElementById('quizzes-empty');
   const countEl = document.getElementById('quizzes-visible-count');
   const searchInput = document.getElementById('quizzes-search');
-  if (!root) return;
+  const backBtn = document.querySelector('[data-quiz-show-overview]');
+  const continueRoot = document.getElementById('quiz-continue');
+  const continueTrack = document.getElementById('quiz-continue-track');
+  const sortSelect = document.getElementById('quizzes-sort');
+  const moreBtn = document.getElementById('quizzes-show-more');
+  const moreWrap = document.getElementById('quizzes-more-wrap');
+  const viewToggle = document.getElementById('quizzes-view-toggle');
+  if (!root || !browse) return;
 
-  const cards = Array.from(root.querySelectorAll('.quiz-hub-row, .quiz-hub-card'));
-  const sections = Array.from(root.querySelectorAll('[data-source-section]'));
-  const filterControls = Array.from(
-    document.querySelectorAll('[data-quiz-filter]')
-  );
+  let cards = Array.from(root.querySelectorAll('.quiz-hub-row, .quiz-hub-card'));
+  let sections = Array.from(root.querySelectorAll('[data-source-section]'));
+  const filterControls = Array.from(document.querySelectorAll('[data-quiz-filter]'));
+  const statusControls = Array.from(document.querySelectorAll('[data-quiz-status]'));
 
   let activeSource = 'all';
+  let activeStatus = 'all';
   let query = '';
+  let mode = 'overview';
+  let sortMode = 'az';
+  let pageLimit = QUIZ_PAGE_SIZE;
+  let viewMode = 'list';
+  let catalogLoaded = cards.length > 0;
+  let catalogLoading = false;
+  let quizIndex = null;
+
+  cards.forEach((card, i) => {
+    card.setAttribute('data-orig-order', String(i));
+  });
+
+  function escapeHtml(value) {
+    return String(value || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function escapeAttr(value) {
+    return escapeHtml(value).replace(/'/g, '&#39;');
+  }
 
   function readProgressMap() {
     try {
@@ -25,6 +59,16 @@ function initQuizzesHub() {
     } catch (_) {
       return {};
     }
+  }
+
+  function refreshCardLists() {
+    cards = Array.from(root.querySelectorAll('.quiz-hub-row, .quiz-hub-card'));
+    sections = Array.from(root.querySelectorAll('[data-source-section]'));
+    cards.forEach((card, i) => {
+      if (!card.hasAttribute('data-orig-order')) {
+        card.setAttribute('data-orig-order', String(i));
+      }
+    });
   }
 
   function paintScores() {
@@ -39,13 +83,192 @@ function initQuizzesHub() {
         scoreEl.textContent = `${entry.bestPct}% best`;
         scoreEl.classList.add('is-set');
         card.classList.add('has-score');
+        card.setAttribute('data-quiz-done', entry.bestPct >= 70 ? '1' : '0');
+        card.setAttribute('data-has-progress', '1');
+        card.setAttribute('data-best-pct', String(entry.bestPct));
+        if (entry.lastPlayed) card.setAttribute('data-last-played', entry.lastPlayed);
       } else {
         scoreEl.hidden = true;
         scoreEl.textContent = '';
         scoreEl.classList.remove('is-set');
         card.classList.remove('has-score');
+        card.removeAttribute('data-quiz-done');
+        card.removeAttribute('data-has-progress');
+        card.removeAttribute('data-best-pct');
+        card.removeAttribute('data-last-played');
       }
     });
+  }
+
+  function paintContinueStrip() {
+    if (!continueRoot || !continueTrack) return;
+    const map = readProgressMap();
+    const entries = Object.entries(map)
+      .filter(([, v]) => v && v.lastPlayed)
+      .sort((a, b) => {
+        const ta = Date.parse(a[1].lastPlayed) || 0;
+        const tb = Date.parse(b[1].lastPlayed) || 0;
+        return tb - ta;
+      })
+      .slice(0, 6);
+
+    if (!entries.length) {
+      continueRoot.hidden = true;
+      continueTrack.innerHTML = '';
+      return;
+    }
+
+    const hrefByKey = new Map();
+    const titleByKey = new Map();
+    cards.forEach((card) => {
+      const key = card.getAttribute('data-quiz-key') || '';
+      if (!key) return;
+      hrefByKey.set(key, card.getAttribute('href') || '#');
+      const titleEl = card.querySelector('.quiz-hub-row__title, .quiz-hub-card__title');
+      titleByKey.set(key, titleEl ? titleEl.textContent.trim() : key);
+    });
+    if (quizIndex && Array.isArray(quizIndex.quizzes)) {
+      quizIndex.quizzes.forEach((q) => {
+        const key = q.key || `${q.sourceId}/${q.id}`;
+        if (q.href) hrefByKey.set(key, q.href);
+        if (q.title) titleByKey.set(key, q.title);
+      });
+    }
+
+    continueTrack.innerHTML = entries
+      .map(([key, entry]) => {
+        const href = hrefByKey.get(key) || `quiz/${key}.html`;
+        const title = entry.title || titleByKey.get(key) || key;
+        const pct = typeof entry.bestPct === 'number' ? entry.bestPct : null;
+        const badge = pct != null ? `<span class="quiz-continue-card__score">${pct}%</span>` : '';
+        return `<a href="${escapeAttr(href)}" class="quiz-continue-card">
+  <span class="quiz-continue-card__label">Continue</span>
+  <span class="quiz-continue-card__title">${escapeHtml(title)}</span>
+  ${badge}
+</a>`;
+      })
+      .join('');
+
+    continueRoot.hidden = false;
+  }
+
+  function renderRow(quiz) {
+    const key = quiz.key || `${quiz.sourceId}/${quiz.id}`;
+    const searchBlob = [quiz.title, quiz.subtitle, quiz.sourceLabel, quiz.sourceTitle]
+      .join(' ')
+      .toLowerCase();
+    return `<a href="${escapeAttr(quiz.href)}" class="quiz-hub-row quiz-hub-card" role="listitem" data-source="${escapeAttr(quiz.sourceId)}" data-quiz-key="${escapeAttr(key)}" data-search="${escapeAttr(searchBlob)}">
+  <span class="quiz-hub-row__body">
+    <span class="quiz-hub-card__title quiz-hub-row__title">${escapeHtml(quiz.title)}</span>
+    <span class="quiz-hub-card__meta quiz-hub-row__meta">
+      <span class="quiz-hub-card__count quiz-hub-row__count">${quiz.questionCount || 0} Q</span>
+      <span class="quiz-hub-card__score quiz-hub-row__score" data-quiz-score hidden></span>
+    </span>
+  </span>
+  <span class="quiz-hub-card__cta quiz-hub-row__cta">Open →</span>
+</a>`;
+  }
+
+  function renderCatalogFromIndex(index) {
+    const sources = index.sources || [];
+    const bySource = {};
+    (index.quizzes || []).forEach((q) => {
+      const sid = q.sourceId || 'other';
+      if (!bySource[sid]) bySource[sid] = [];
+      bySource[sid].push(q);
+    });
+
+    const order = sources.map((s) => s.id).filter(Boolean);
+    Object.keys(bySource).forEach((id) => {
+      if (!order.includes(id)) order.push(id);
+    });
+
+    const html = order
+      .map((sourceId) => {
+        const list = bySource[sourceId] || [];
+        if (!list.length) return '';
+        const meta = sources.find((s) => s.id === sourceId) || {
+          id: sourceId,
+          label: sourceId,
+          title: sourceId,
+          short: '',
+        };
+        list.sort((a, b) => String(a.title || '').localeCompare(String(b.title || '')));
+        const rows = list.map(renderRow).join('\n');
+        return `<section class="quiz-hub-section" data-source-section="${escapeAttr(sourceId)}" id="quiz-source-${escapeAttr(sourceId)}">
+  <header class="quiz-hub-section__head">
+    <div>
+      <p class="quiz-hub-section__eyebrow">${escapeHtml(meta.short || meta.label || '')}</p>
+      <h2 class="quiz-hub-section__title">${escapeHtml(meta.title || meta.label || sourceId)}</h2>
+      <p class="quiz-hub-section__meta"><span class="quiz-hub-section__count" data-section-count>${list.length}</span> quizzes in this transmission</p>
+    </div>
+    <a href="topics.html?source=${escapeAttr(sourceId)}" class="quiz-hub-section__link">Browse topics →</a>
+  </header>
+  <div class="quiz-hub-section__grid" role="list">
+${rows}
+  </div>
+</section>`;
+      })
+      .filter(Boolean)
+      .join('\n');
+
+    root.innerHTML = html;
+    catalogLoaded = true;
+    refreshCardLists();
+    paintScores();
+    paintContinueStrip();
+  }
+
+  async function ensureCatalog() {
+    if (catalogLoaded) return true;
+    if (catalogLoading) return false;
+    catalogLoading = true;
+    root.setAttribute('aria-busy', 'true');
+    const shell = root.querySelector('[data-quiz-lazy-shell]');
+    if (shell) {
+      shell.setAttribute('aria-busy', 'true');
+      const note = shell.querySelector('.quiz-hub-lazy-note');
+      if (note) note.textContent = 'Loading catalog…';
+    }
+    try {
+      if (!quizIndex) {
+        const res = await fetch(QUIZ_INDEX_URL, { credentials: 'same-origin' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        quizIndex = await res.json();
+      }
+      renderCatalogFromIndex(quizIndex);
+      root.removeAttribute('aria-busy');
+      return true;
+    } catch (err) {
+      console.warn('Quiz catalog failed to load', err);
+      root.innerHTML =
+        '<p class="text-sm text-mem-muted p-4" role="alert">Could not load the quiz catalog. Please refresh and try again.</p>';
+      root.removeAttribute('aria-busy');
+      return false;
+    } finally {
+      catalogLoading = false;
+    }
+  }
+
+  // Prefetch index in idle time so Continue strip + first catalog open are fast
+  function prefetchIndex() {
+    const run = () => {
+      if (quizIndex) return;
+      fetch(QUIZ_INDEX_URL, { credentials: 'same-origin' })
+        .then((r) => (r.ok ? r.json() : null))
+        .then((data) => {
+          if (data) {
+            quizIndex = data;
+            paintContinueStrip();
+          }
+        })
+        .catch(() => {});
+    };
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(run, { timeout: 2500 });
+    } else {
+      setTimeout(run, 900);
+    }
   }
 
   function setActiveFilter(source) {
@@ -60,64 +283,282 @@ function initQuizzesHub() {
     });
   }
 
-  function applyFilters() {
-    const q = query.trim().toLowerCase();
-    let visible = 0;
+  function setActiveStatus(status) {
+    activeStatus = status || 'all';
+    statusControls.forEach((el) => {
+      const on = (el.getAttribute('data-quiz-status') || 'all') === activeStatus;
+      el.classList.toggle('is-active', on);
+      el.classList.toggle('active', on);
+      if (el.hasAttribute('aria-pressed')) {
+        el.setAttribute('aria-pressed', on ? 'true' : 'false');
+      }
+    });
+  }
 
-    cards.forEach((card) => {
-      const source = card.getAttribute('data-source') || '';
-      const blob = (card.getAttribute('data-search') || card.textContent || '').toLowerCase();
-      const sourceOk = activeSource === 'all' || source === activeSource;
-      const queryOk = !q || blob.includes(q);
-      const show = sourceOk && queryOk;
-      card.hidden = !show;
-      card.style.display = show ? '' : 'none';
-      if (show) visible += 1;
+  function cardMatchesStatus(card) {
+    if (activeStatus === 'all') return true;
+    const hasProgress = card.getAttribute('data-has-progress') === '1';
+    if (activeStatus === 'new') return !hasProgress;
+    if (activeStatus === 'done') return hasProgress;
+    return true;
+  }
+
+  function cardMatchesFilters(card) {
+    const q = query.trim().toLowerCase();
+    const source = card.getAttribute('data-source') || '';
+    const blob = (card.getAttribute('data-search') || card.textContent || '').toLowerCase();
+    const sourceOk = activeSource === 'all' || source === activeSource;
+    const queryOk = !q || blob.includes(q);
+    const statusOk = cardMatchesStatus(card);
+    return sourceOk && queryOk && statusOk;
+  }
+
+  function sortValue(card) {
+    if (sortMode === 'score') {
+      return -(parseInt(card.getAttribute('data-best-pct') || '-1', 10));
+    }
+    if (sortMode === 'recent') {
+      const t = Date.parse(card.getAttribute('data-last-played') || '') || 0;
+      return -t;
+    }
+    if (sortMode === 'new') {
+      const has = card.getAttribute('data-has-progress') === '1' ? 1 : 0;
+      const title = (
+        card.querySelector('.quiz-hub-row__title, .quiz-hub-card__title')?.textContent || ''
+      ).toLowerCase();
+      return `${has}|${title}`;
+    }
+    const title = (
+      card.querySelector('.quiz-hub-row__title, .quiz-hub-card__title')?.textContent || ''
+    ).toLowerCase();
+    return title;
+  }
+
+  function reorderWithinSections() {
+    sections.forEach((section) => {
+      const grid = section.querySelector('.quiz-hub-section__grid');
+      if (!grid) return;
+      const sectionCards = Array.from(grid.querySelectorAll('.quiz-hub-row, .quiz-hub-card'));
+      sectionCards.sort((a, b) => {
+        const va = sortValue(a);
+        const vb = sortValue(b);
+        if (va < vb) return -1;
+        if (va > vb) return 1;
+        return (
+          parseInt(a.getAttribute('data-orig-order') || '0', 10) -
+          parseInt(b.getAttribute('data-orig-order') || '0', 10)
+        );
+      });
+      sectionCards.forEach((c) => grid.appendChild(c));
+    });
+  }
+
+  function applyFilters() {
+    if (!catalogLoaded) {
+      if (countEl) countEl.textContent = '';
+      if (moreWrap) moreWrap.hidden = true;
+      if (empty) empty.hidden = true;
+      return;
+    }
+
+    reorderWithinSections();
+
+    const orderedCards = Array.from(root.querySelectorAll('.quiz-hub-row, .quiz-hub-card'));
+    const matching = orderedCards.filter(cardMatchesFilters);
+    const totalMatch = matching.length;
+    let shown = 0;
+
+    orderedCards.forEach((card) => {
+      card.hidden = true;
+      card.style.display = 'none';
+      card.classList.remove('is-paginated-out');
+    });
+
+    matching.forEach((card, index) => {
+      if (index < pageLimit) {
+        card.hidden = false;
+        card.style.display = '';
+        shown += 1;
+      } else {
+        card.hidden = true;
+        card.style.display = 'none';
+        card.classList.add('is-paginated-out');
+      }
     });
 
     sections.forEach((section) => {
       const sourceId = section.getAttribute('data-source-section') || '';
-      const sectionCards = Array.from(
-        section.querySelectorAll('.quiz-hub-row, .quiz-hub-card')
-      );
-      const sectionVisible = sectionCards.filter((c) => !c.hidden).length;
+      const sectionCards = Array.from(section.querySelectorAll('.quiz-hub-row, .quiz-hub-card'));
+      const sectionMatch = sectionCards.filter(cardMatchesFilters).length;
       const sourceOk = activeSource === 'all' || sourceId === activeSource;
-      const showSection = sourceOk && sectionVisible > 0;
+      const anyVisible = sectionCards.some((c) => !c.hidden);
+      const showSection = mode === 'catalog' && sourceOk && sectionMatch > 0 && anyVisible;
       section.hidden = !showSection;
       section.style.display = showSection ? '' : 'none';
       const countNode = section.querySelector('[data-section-count]');
-      if (countNode) {
-        countNode.textContent = String(sectionVisible);
-      }
+      if (countNode) countNode.textContent = String(sectionMatch);
     });
 
     if (countEl) {
-      countEl.textContent =
-        visible === cards.length
-          ? `${visible} quizzes`
-          : `${visible} of ${cards.length} quizzes`;
+      if (mode !== 'catalog') countEl.textContent = '';
+      else if (shown < totalMatch) countEl.textContent = `Showing ${shown} of ${totalMatch} quizzes`;
+      else
+        countEl.textContent =
+          totalMatch === orderedCards.length
+            ? `${totalMatch} quizzes`
+            : `${totalMatch} of ${orderedCards.length} quizzes`;
     }
-    if (empty) empty.hidden = visible > 0;
+
+    if (moreWrap && moreBtn) {
+      const hasMore = mode === 'catalog' && shown < totalMatch;
+      moreWrap.hidden = !hasMore;
+      if (hasMore) moreBtn.textContent = `Show more (${totalMatch - shown} remaining)`;
+    }
+
+    if (empty) empty.hidden = mode !== 'catalog' || totalMatch > 0;
   }
 
-  // Filter via stats chips OR toolbar buttons
+  function setViewMode(next) {
+    viewMode = next === 'grid' ? 'grid' : 'list';
+    root.classList.toggle('quiz-hub-catalog--grid', viewMode === 'grid');
+    root.classList.toggle('quiz-hub-catalog--list', viewMode === 'list');
+    if (viewToggle) {
+      viewToggle.querySelectorAll('[data-quiz-view]').forEach((btn) => {
+        const on = btn.getAttribute('data-quiz-view') === viewMode;
+        btn.classList.toggle('is-active', on);
+        btn.classList.toggle('active', on);
+        if (btn.hasAttribute('aria-pressed')) {
+          btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        }
+      });
+    }
+  }
+
+  async function setMode(next, options = {}) {
+    mode = next === 'catalog' ? 'catalog' : 'overview';
+    browse.classList.toggle('is-overview', mode === 'overview');
+    browse.classList.toggle('is-catalog', mode === 'catalog');
+    if (backBtn) backBtn.hidden = mode !== 'catalog';
+
+    if (mode === 'catalog') {
+      if (options.resetPage !== false) pageLimit = QUIZ_PAGE_SIZE;
+      const ok = await ensureCatalog();
+      if (!ok) return;
+    }
+
+    if (mode === 'catalog' && options.scroll !== false) {
+      const top = browse.getBoundingClientRect().top + window.scrollY - 96;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+
+    applyFilters();
+
+    try {
+      const url = new URL(window.location.href);
+      if (mode === 'catalog') {
+        if (activeSource && activeSource !== 'all') url.searchParams.set('source', activeSource);
+        else url.searchParams.delete('source');
+        url.searchParams.set('browse', '1');
+      } else {
+        url.searchParams.delete('browse');
+        url.searchParams.delete('source');
+      }
+      window.history.replaceState({}, '', url);
+    } catch (_) {
+      /* ignore */
+    }
+  }
+
+  async function openCatalog(source) {
+    if (source) setActiveFilter(source);
+    await setMode('catalog');
+  }
+
   document.addEventListener('click', (event) => {
-    const btn = event.target.closest('[data-quiz-filter]');
-    if (!btn || !document.contains(btn)) return;
-    // Only handle filters that belong to this hub
-    if (!filterControls.includes(btn) && !btn.closest('#quizzes-toolbar') && !btn.closest('.quiz-hub-stats')) {
+    const pathBtn = event.target.closest('[data-quiz-path]');
+    if (pathBtn && document.contains(pathBtn)) {
+      event.preventDefault();
+      openCatalog(pathBtn.getAttribute('data-quiz-path') || 'all');
       return;
     }
-    event.preventDefault();
-    setActiveFilter(btn.getAttribute('data-quiz-filter') || 'all');
-    applyFilters();
+
+    const showCatalog = event.target.closest('[data-quiz-show-catalog]');
+    if (showCatalog && document.contains(showCatalog)) {
+      event.preventDefault();
+      openCatalog(showCatalog.getAttribute('data-quiz-filter') || 'all');
+      return;
+    }
+
+    const showOverview = event.target.closest('[data-quiz-show-overview]');
+    if (showOverview && document.contains(showOverview)) {
+      event.preventDefault();
+      setActiveFilter('all');
+      setActiveStatus('all');
+      sortMode = 'az';
+      if (sortSelect) sortSelect.value = 'az';
+      if (searchInput) {
+        searchInput.value = '';
+        query = '';
+      }
+      pageLimit = QUIZ_PAGE_SIZE;
+      setMode('overview', { scroll: true });
+      return;
+    }
+
+    const viewBtn = event.target.closest('[data-quiz-view]');
+    if (viewBtn && document.contains(viewBtn)) {
+      event.preventDefault();
+      setViewMode(viewBtn.getAttribute('data-quiz-view') || 'list');
+      return;
+    }
+
+    if (moreBtn && (event.target === moreBtn || moreBtn.contains(event.target))) {
+      event.preventDefault();
+      pageLimit += QUIZ_PAGE_SIZE;
+      applyFilters();
+      return;
+    }
+
+    const filterBtn = event.target.closest('[data-quiz-filter]');
+    if (filterBtn && document.contains(filterBtn)) {
+      if (filterBtn.hasAttribute('data-quiz-show-catalog') || filterBtn.hasAttribute('data-quiz-path')) {
+        return;
+      }
+      if (
+        !filterControls.includes(filterBtn) &&
+        !filterBtn.closest('#quizzes-toolbar') &&
+        !filterBtn.closest('.quiz-hub-stats')
+      ) {
+        return;
+      }
+      event.preventDefault();
+      setActiveFilter(filterBtn.getAttribute('data-quiz-filter') || 'all');
+      pageLimit = QUIZ_PAGE_SIZE;
+      if (mode !== 'catalog') setMode('catalog', { scroll: false, resetPage: false });
+      else applyFilters();
+      return;
+    }
+
+    const statusBtn = event.target.closest('[data-quiz-status]');
+    if (statusBtn && document.contains(statusBtn)) {
+      event.preventDefault();
+      setActiveStatus(statusBtn.getAttribute('data-quiz-status') || 'all');
+      pageLimit = QUIZ_PAGE_SIZE;
+      if (mode !== 'catalog') setMode('catalog', { scroll: false, resetPage: false });
+      else applyFilters();
+    }
   });
 
   if (searchInput) {
     let timer = null;
     const onSearch = () => {
       query = searchInput.value || '';
-      applyFilters();
+      pageLimit = QUIZ_PAGE_SIZE;
+      if (query.trim() && mode !== 'catalog') {
+        setMode('catalog', { scroll: false, resetPage: false });
+      } else {
+        applyFilters();
+      }
     };
     searchInput.addEventListener('input', () => {
       clearTimeout(timer);
@@ -126,9 +567,47 @@ function initQuizzesHub() {
     searchInput.addEventListener('search', onSearch);
   }
 
-  setActiveFilter('all');
+  if (sortSelect) {
+    sortSelect.addEventListener('change', () => {
+      sortMode = sortSelect.value || 'az';
+      pageLimit = QUIZ_PAGE_SIZE;
+      if (mode !== 'catalog') setMode('catalog', { scroll: false, resetPage: false });
+      else applyFilters();
+    });
+  }
+
+  let initialSource = 'all';
+  let startCatalog = false;
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const src = params.get('source');
+    if (src === 'alice' || src === 'breakdown') {
+      initialSource = src;
+      startCatalog = true;
+    }
+    if (params.get('browse') === '1' || params.get('q')) startCatalog = true;
+    const qParam = params.get('q');
+    if (qParam && searchInput) {
+      searchInput.value = qParam;
+      query = qParam;
+      startCatalog = true;
+    }
+    const sortParam = params.get('sort');
+    if (sortParam && sortSelect) {
+      sortSelect.value = sortParam;
+      sortMode = sortParam;
+    }
+  } catch (_) {
+    /* ignore */
+  }
+
+  setActiveFilter(initialSource);
+  setActiveStatus('all');
+  setViewMode('list');
   paintScores();
-  applyFilters();
+  paintContinueStrip();
+  prefetchIndex();
+  setMode(startCatalog ? 'catalog' : 'overview', { scroll: false });
 }
 
 if (document.readyState === 'loading') {

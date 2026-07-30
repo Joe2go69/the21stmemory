@@ -138,7 +138,11 @@ function drawParticleBackground(canvas, title) {
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
 
-  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  // Cap DPR on small screens / mobile to cut pixel fill cost without visible loss
+  const isCoarse = window.matchMedia('(pointer: coarse)').matches;
+  const isNarrow = window.matchMedia('(max-width: 767px)').matches;
+  const dprCap = isCoarse || isNarrow ? 1.25 : 2;
+  const dpr = Math.min(window.devicePixelRatio || 1, dprCap);
   const rect = canvas.getBoundingClientRect();
   const width = Math.max(1, Math.round(rect.width));
   const height = Math.max(1, Math.round(rect.height));
@@ -448,30 +452,74 @@ function drawParticleBackground(canvas, title) {
   ctx.fillRect(0, 0, width, height);
 }
 
-function initParticleBackgrounds(root = document) {
-  const scope = root && root.querySelectorAll ? root : document;
-  scope.querySelectorAll('.particle-canvas').forEach((canvas) => {
-    const wrap = canvas.closest('[data-rumble-embed]');
-    if (wrap && wrap.dataset.loaded === 'true') return;
+function paintCanvas(canvas) {
+  const wrap = canvas.closest('[data-rumble-embed]');
+  if (wrap && wrap.dataset.loaded === 'true') return;
 
-    const title =
-      canvas.dataset.title ||
-      canvas.closest('.video-card, .dive-video-card, .home-video-card')?.querySelector('h3')?.textContent ||
-      wrap?.dataset?.videoTitle ||
-      'default';
-    drawParticleBackground(canvas, String(title).trim());
+  const title =
+    canvas.dataset.title ||
+    canvas.closest('.video-card, .dive-video-card, .home-video-card')?.querySelector('h3')?.textContent ||
+    wrap?.dataset?.videoTitle ||
+    'default';
+  drawParticleBackground(canvas, String(title).trim());
+  canvas.dataset.painted = 'true';
+}
+
+/** Draw only when visible (or force for a scoped root after DOM rebuild). */
+function initParticleBackgrounds(root = document, options = {}) {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches && !options.force) {
+    // Still paint one static frame for reduced-motion users (no animation loop exists)
+  }
+
+  const scope = root && root.querySelectorAll ? root : document;
+  const canvases = Array.from(scope.querySelectorAll('.particle-canvas'));
+  if (!canvases.length) return;
+
+  // Scoped re-init (e.g. after video poster restore) — paint immediately
+  if (options.force || root !== document) {
+    canvases.forEach(paintCanvas);
+    return;
+  }
+
+  if (!('IntersectionObserver' in window)) {
+    canvases.forEach(paintCanvas);
+    return;
+  }
+
+  const observer = new IntersectionObserver(
+    (entries, obs) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        paintCanvas(entry.target);
+        obs.unobserve(entry.target);
+      });
+    },
+    { rootMargin: '120px 0px', threshold: 0.05 }
+  );
+
+  canvases.forEach((canvas) => {
+    if (canvas.dataset.painted === 'true') return;
+    observer.observe(canvas);
   });
 }
 
 let resizeTimeout;
+function onResizePaint() {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(() => {
+    document.querySelectorAll('.particle-canvas[data-painted="true"]').forEach((canvas) => {
+      // Allow repaint at new size
+      delete canvas.dataset.painted;
+      paintCanvas(canvas);
+    });
+  }, 220);
+}
+
 if (document.readyState === 'loading') {
-  window.addEventListener('load', () => initParticleBackgrounds());
+  document.addEventListener('DOMContentLoaded', () => initParticleBackgrounds());
 } else {
   initParticleBackgrounds();
 }
-window.addEventListener('resize', () => {
-  clearTimeout(resizeTimeout);
-  resizeTimeout = setTimeout(() => initParticleBackgrounds(), 200);
-});
+window.addEventListener('resize', onResizePaint, { passive: true });
 
-window.initParticleBackgrounds = initParticleBackgrounds;
+window.initParticleBackgrounds = (root) => initParticleBackgrounds(root || document, { force: !!root && root !== document });

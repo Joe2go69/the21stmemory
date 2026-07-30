@@ -743,14 +743,12 @@ ${robots}    <link rel="canonical" href="${canonical}">
     <meta name="twitter:description" content="${escapeAttr(metaDescription)}">
     <meta name="twitter:image" content="${escapeAttr(ogImage)}">
 ${jsonLd}
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
+        <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
     <style>html,body{background-color:#0F0A1F}</style>
-    <link rel="preload" href="${ASSET_BASE}assets/css/main.css" as="style">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap">
+    <link rel="preload" href="${ASSET_BASE}assets/css/main.min.css" as="style">
+    <link rel="stylesheet" href="${ASSET_BASE}assets/css/fonts.css">
     <link rel="stylesheet" href="${ASSET_BASE}assets/css/tailwind.css">
-    <link rel="stylesheet" href="${ASSET_BASE}assets/css/main.css">
+    <link rel="stylesheet" href="${ASSET_BASE}assets/css/main.min.css">
 </head>
 <body class="cosmic-bg page-interior" data-dive-static="true" data-source="${escapeAttr(sourceId)}" data-topic="${escapeAttr(topic.id)}">
     <div id="reading-progress" class="reading-progress" aria-hidden="true" hidden>
@@ -772,11 +770,11 @@ ${bodyMain}
     </div>
 
     ${footerHTML}
-    <script src="${ASSET_BASE}assets/js/icons.js"></script>
-    <script src="${ASSET_BASE}assets/js/topics-utils.js"></script>
-    <script src="${ASSET_BASE}assets/js/shared.js"></script>
+    <script src="${ASSET_BASE}assets/js/icons.js" defer></script>
+    <script src="${ASSET_BASE}assets/js/topics-utils.js" defer></script>
+    <script src="${ASSET_BASE}assets/js/shared.js" defer></script>
     <script src="${ASSET_BASE}assets/js/particle-backgrounds.js" defer></script>
-    <script src="${ASSET_BASE}assets/js/dive-static.js"></script>
+    <script src="${ASSET_BASE}assets/js/dive-static.js" defer></script>
 </body>
 </html>
 `;

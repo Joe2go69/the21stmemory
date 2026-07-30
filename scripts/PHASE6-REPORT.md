@@ -1,8 +1,8 @@
 # Phase 6 Verification Report
 
-Generated: 2026-07-26T10:03:17.538Z
+Generated: 2026-07-30T00:38:54.872Z
 
-**Result: PASSED** — 83/83 checks
+**Result: PASSED** — 86/86 checks
 
 ## P1 Brand SEO
 
@@ -24,16 +24,19 @@ Generated: 2026-07-26T10:03:17.538Z
 
 ## P2 Quizzes hub
 
-- Passed: 12
+- Passed: 15
 - Failed: 0
 
 - ✅ quizzes.html exists
 - ✅ quizzes SEO title
 - ✅ quizzes nav link
-- ✅ quizzes cards present
+- ✅ quizzes path cards
+- ✅ quizzes featured or overview
+- ✅ quizzes lazy catalog shell
 - ✅ quizzes filters
 - ✅ quizzes-index.json
-- ✅ quiz index count ~99 (110)
+- ✅ quiz index count >= 100 (112)
+- ✅ quiz index has quiz list
 - ✅ index nav Quizzes
 - ✅ index quiz CTA
 - ✅ codex quiz link
@@ -46,8 +49,8 @@ Generated: 2026-07-26T10:03:17.538Z
 - Failed: 0
 
 - ✅ dive-manifest.json
-- ✅ live dives ~100 (110)
-- ✅ stub dives ~64 (54)
+- ✅ live dives ~100 (112)
+- ✅ stub dives ~64 (52)
 - ✅ live sample exists
 - ✅ live unique title
 - ✅ live report prerendered
@@ -64,7 +67,7 @@ Generated: 2026-07-26T10:03:17.538Z
 - ✅ topics-utils diveUrl
 - ✅ deep-dive redirect
 - ✅ shell redirect /dive/
-- ✅ home uses diveUrl
+- ✅ home self-contained stats/video
 
 ## P4 Visual & perf
 
@@ -100,7 +103,7 @@ Generated: 2026-07-26T10:03:17.538Z
 - ✅ about AI note
 - ✅ stub browse ready CTA
 - ✅ SPA continue helper
-- ✅ sitemap dive count = live (110 vs 110)
+- ✅ sitemap dive count = live (112 vs 112)
 
 ## Integrity
 
@@ -117,8 +120,8 @@ Generated: 2026-07-26T10:03:17.538Z
 - ✅ network.html has Quizzes nav
 - ✅ topics.html has Quizzes nav
 - ✅ sitemap escaped ampersands
-- ✅ sitemap URL count > 150 (228)
-- ✅ og image non-empty (19856)
+- ✅ sitemap URL count > 150 (232)
+- ✅ og image non-empty (19976)
 - ✅ community noindex
 - ✅ community redirects
 - ✅ community not full nav chrome
