@@ -11265,12 +11265,6 @@ a.source-card:hover .source-card-progress__fill {
   flex-grow: 1;
 }
 
-.footer-donate-btn {
-  min-height: 2.5rem;
-  border-radius: 8px;
-  font-size: 0.85rem;
-}
-
 /* Network social chips: quieter */
 .footer-social {
   border-radius: 8px;
@@ -16418,7 +16412,7 @@ a.quiz-continue-card:focus-visible,
     linear-gradient(180deg, rgba(32, 24, 56, 0.98) 0%, rgba(20, 14, 40, 0.99) 100%) !important;
 }
 
-/* Support CTAs = same 3D primary as Codex / Oracle / hero */
+/* Support CTAs = identical tokens to site primary (Ko-fi + Bitcoin copy) */
 .footer-support a.btn-primary.footer-donate-btn,
 .footer-support button.btn-primary.footer-donate-btn,
 .footer-tab-body a.btn-primary.footer-donate-btn,
@@ -16431,15 +16425,12 @@ a.quiz-continue-card:focus-visible,
   font-size: 0.9375rem !important;
   font-weight: 600 !important;
   letter-spacing: 0.01em !important;
+  line-height: 1.25 !important;
   color: #ffffff !important;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35) !important;
-  background: linear-gradient(165deg, #5B21B6 0%, #4C1D95 40%, #2E1065 100%) !important;
+  background: var(--btn-fill-primary) !important;
   border: none !important;
-  box-shadow:
-    0 12px 26px -8px rgba(0, 0, 0, 0.62),
-    0 6px 14px -4px rgba(59, 7, 100, 0.45),
-    inset 0 2px 0 rgba(255, 255, 255, 0.34),
-    inset 0 -4px 0 rgba(30, 17, 53, 0.7) !important;
+  box-shadow: var(--surface-tier-btn) !important;
   filter: none !important;
   width: auto !important;
 }
@@ -16450,23 +16441,23 @@ a.quiz-continue-card:focus-visible,
 .footer-tab-body button.btn-primary.footer-donate-btn:hover,
 .footer-tab-body .btn-primary.footer-donate-btn:hover,
 .footer-support .footer-donate-btn.btn-primary:hover {
-  background: linear-gradient(165deg, #6D28D9 0%, #5B21B6 40%, #3B0764 100%) !important;
+  background: var(--btn-fill-primary-hover) !important;
   color: #ffffff !important;
   transform: translateY(-2px) !important;
-  box-shadow:
-    0 16px 32px -10px rgba(0, 0, 0, 0.68),
-    0 8px 18px -5px rgba(91, 33, 182, 0.5),
-    0 0 28px -8px rgba(139, 61, 255, 0.45),
-    inset 0 2.5px 0 rgba(255, 255, 255, 0.4),
-    inset 0 -4px 0 rgba(30, 17, 53, 0.65) !important;
+  box-shadow: var(--surface-tier-btn-hover) !important;
   filter: none !important;
 }
 
 .footer-support a.btn-primary.footer-donate-btn:active,
 .footer-support button.btn-primary.footer-donate-btn:active,
-.footer-tab-body .btn-primary.footer-donate-btn:active {
+.footer-tab-body a.btn-primary.footer-donate-btn:active,
+.footer-tab-body button.btn-primary.footer-donate-btn:active,
+.footer-tab-body .btn-primary.footer-donate-btn:active,
+.footer-support .footer-donate-btn.btn-primary:active {
+  background: var(--btn-fill-primary-active) !important;
   transform: translateY(1px) !important;
   box-shadow: var(--surface-tier-btn-active) !important;
+  filter: none !important;
 }
 
 .footer-support .footer-donate-btn::before,
@@ -16912,6 +16903,8 @@ a.nav-cta:hover {
 button.btn-primary:active,
 a.btn-primary:active,
 .btn-primary:active,
+.footer-donate-btn.btn-primary:active,
+.site-footer .footer-donate-btn:active,
 .nav-cta:active {
   background: var(--btn-fill-primary-active) !important;
   transform: translateY(1px) !important;
