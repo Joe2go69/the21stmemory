@@ -44,7 +44,8 @@ function fileSize(rel) {
 
   const quizzes = read('quizzes.html');
   check(g, 'quizzes path-first markup', quizzes.includes('quiz-hub-path-card') || quizzes.includes('data-quiz-path'));
-  check(g, 'quizzes featured section', quizzes.includes('quiz-hub-featured') || quizzes.includes('Start here'));
+  check(g, 'quizzes no featured start-here', !quizzes.includes('quiz-hub-featured') && !quizzes.includes('Start here'));
+  check(g, 'quizzes no hero featured CTAs', !quizzes.includes('Start with a featured quiz') && !quizzes.includes('Browse Alice quizzes'));
 })();
 
 // ── Phase 2: Quiz scale tools, home banners, network filters ────
@@ -54,10 +55,10 @@ function fileSize(rel) {
   check(g, 'continue strip mount', quizzes.includes('quiz-continue'));
   check(g, 'sort control', quizzes.includes('quizzes-sort'));
   check(g, 'view toggle', quizzes.includes('quizzes-view-toggle') || quizzes.includes('data-quiz-view'));
-  check(g, 'show more control', quizzes.includes('quizzes-show-more') || quizzes.includes('quizzes-more-wrap'));
+  check(g, 'no show more control', !quizzes.includes('quizzes-show-more') && !quizzes.includes('quizzes-more-wrap'));
 
   const qjs = read('assets/js/quizzes.js');
-  check(g, 'quizzes.js pagination', qjs.includes('QUIZ_PAGE_SIZE') || qjs.includes('pageLimit'));
+  check(g, 'quizzes.js no pagination', !qjs.includes('QUIZ_PAGE_SIZE') && !qjs.includes('pageLimit'));
   check(g, 'quizzes.js continue strip', qjs.includes('paintContinueStrip'));
 
   const index = read('index.html');

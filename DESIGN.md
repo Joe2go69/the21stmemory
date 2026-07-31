@@ -46,9 +46,9 @@ Do **not** hand-edit `<nav class="navbar">` / `<footer class="site-footer">` acr
 
 ### Quizzes hub
 1. Quiz JSON lives under `data/quizzes/{source}/`.  
-2. Run `npm run build:quizzes` → updates `data/quizzes-index.json` + overview inject in `quizzes.html`.  
+2. Run `npm run build:quizzes` → updates `data/quizzes-index.json` + path-card inject in `quizzes.html`.  
 3. Full catalog is **lazy-loaded** in the browser from the index JSON (keeps the hub HTML light).  
-4. Featured list is curated in `scripts/build-quizzes-hub.js` (`FEATURED_KEYS`).
+4. Overview is path-first (Alice / Breakdown cards); no curated “Start here” featured grid.
 
 ### Fonts
 - Self-hosted in `assets/fonts/` + `assets/css/fonts.css`.  

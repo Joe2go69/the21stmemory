@@ -1,6 +1,5 @@
-// Quizzes hub — path-first overview, continue strip, lazy catalog, sort, pagination
+// Quizzes hub — path-first overview, continue strip, lazy catalog, sort
 
-const QUIZ_PAGE_SIZE = 18;
 const QUIZ_INDEX_URL = 'data/quizzes-index.json';
 
 function initQuizzesHub() {
@@ -13,8 +12,6 @@ function initQuizzesHub() {
   const continueRoot = document.getElementById('quiz-continue');
   const continueTrack = document.getElementById('quiz-continue-track');
   const sortSelect = document.getElementById('quizzes-sort');
-  const moreBtn = document.getElementById('quizzes-show-more');
-  const moreWrap = document.getElementById('quizzes-more-wrap');
   const viewToggle = document.getElementById('quizzes-view-toggle');
   if (!root || !browse) return;
 
@@ -28,7 +25,6 @@ function initQuizzesHub() {
   let query = '';
   let mode = 'overview';
   let sortMode = 'az';
-  let pageLimit = QUIZ_PAGE_SIZE;
   let viewMode = 'list';
   let catalogLoaded = cards.length > 0;
   let catalogLoading = false;
@@ -356,7 +352,6 @@ ${rows}
   function applyFilters() {
     if (!catalogLoaded) {
       if (countEl) countEl.textContent = '';
-      if (moreWrap) moreWrap.hidden = true;
       if (empty) empty.hidden = true;
       return;
     }
@@ -366,24 +361,13 @@ ${rows}
     const orderedCards = Array.from(root.querySelectorAll('.quiz-hub-row, .quiz-hub-card'));
     const matching = orderedCards.filter(cardMatchesFilters);
     const totalMatch = matching.length;
-    let shown = 0;
+    const matchSet = new Set(matching);
 
     orderedCards.forEach((card) => {
-      card.hidden = true;
-      card.style.display = 'none';
+      const show = matchSet.has(card);
+      card.hidden = !show;
+      card.style.display = show ? '' : 'none';
       card.classList.remove('is-paginated-out');
-    });
-
-    matching.forEach((card, index) => {
-      if (index < pageLimit) {
-        card.hidden = false;
-        card.style.display = '';
-        shown += 1;
-      } else {
-        card.hidden = true;
-        card.style.display = 'none';
-        card.classList.add('is-paginated-out');
-      }
     });
 
     sections.forEach((section) => {
@@ -401,18 +385,11 @@ ${rows}
 
     if (countEl) {
       if (mode !== 'catalog') countEl.textContent = '';
-      else if (shown < totalMatch) countEl.textContent = `Showing ${shown} of ${totalMatch} quizzes`;
       else
         countEl.textContent =
           totalMatch === orderedCards.length
             ? `${totalMatch} quizzes`
             : `${totalMatch} of ${orderedCards.length} quizzes`;
-    }
-
-    if (moreWrap && moreBtn) {
-      const hasMore = mode === 'catalog' && shown < totalMatch;
-      moreWrap.hidden = !hasMore;
-      if (hasMore) moreBtn.textContent = `Show more (${totalMatch - shown} remaining)`;
     }
 
     if (empty) empty.hidden = mode !== 'catalog' || totalMatch > 0;
@@ -441,7 +418,6 @@ ${rows}
     if (backBtn) backBtn.hidden = mode !== 'catalog';
 
     if (mode === 'catalog') {
-      if (options.resetPage !== false) pageLimit = QUIZ_PAGE_SIZE;
       const ok = await ensureCatalog();
       if (!ok) return;
     }
@@ -500,7 +476,6 @@ ${rows}
         searchInput.value = '';
         query = '';
       }
-      pageLimit = QUIZ_PAGE_SIZE;
       setMode('overview', { scroll: true });
       return;
     }
@@ -509,13 +484,6 @@ ${rows}
     if (viewBtn && document.contains(viewBtn)) {
       event.preventDefault();
       setViewMode(viewBtn.getAttribute('data-quiz-view') || 'list');
-      return;
-    }
-
-    if (moreBtn && (event.target === moreBtn || moreBtn.contains(event.target))) {
-      event.preventDefault();
-      pageLimit += QUIZ_PAGE_SIZE;
-      applyFilters();
       return;
     }
 
@@ -533,8 +501,7 @@ ${rows}
       }
       event.preventDefault();
       setActiveFilter(filterBtn.getAttribute('data-quiz-filter') || 'all');
-      pageLimit = QUIZ_PAGE_SIZE;
-      if (mode !== 'catalog') setMode('catalog', { scroll: false, resetPage: false });
+      if (mode !== 'catalog') setMode('catalog', { scroll: false });
       else applyFilters();
       return;
     }
@@ -543,8 +510,7 @@ ${rows}
     if (statusBtn && document.contains(statusBtn)) {
       event.preventDefault();
       setActiveStatus(statusBtn.getAttribute('data-quiz-status') || 'all');
-      pageLimit = QUIZ_PAGE_SIZE;
-      if (mode !== 'catalog') setMode('catalog', { scroll: false, resetPage: false });
+      if (mode !== 'catalog') setMode('catalog', { scroll: false });
       else applyFilters();
     }
   });
@@ -553,9 +519,8 @@ ${rows}
     let timer = null;
     const onSearch = () => {
       query = searchInput.value || '';
-      pageLimit = QUIZ_PAGE_SIZE;
       if (query.trim() && mode !== 'catalog') {
-        setMode('catalog', { scroll: false, resetPage: false });
+        setMode('catalog', { scroll: false });
       } else {
         applyFilters();
       }
@@ -570,8 +535,7 @@ ${rows}
   if (sortSelect) {
     sortSelect.addEventListener('change', () => {
       sortMode = sortSelect.value || 'az';
-      pageLimit = QUIZ_PAGE_SIZE;
-      if (mode !== 'catalog') setMode('catalog', { scroll: false, resetPage: false });
+      if (mode !== 'catalog') setMode('catalog', { scroll: false });
       else applyFilters();
     });
   }

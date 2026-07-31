@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T00:32:28.240Z",
+  "generatedAt": "2026-07-31T04:52:03.278Z",
   "total": 112,
   "sources": [
     {
@@ -21,17 +21,6 @@
       "count": 52
     }
   ],
-  "featured": [
-    "alice/essence-of-the-transmission",
-    "alice/3rd-density-overlays",
-    "alice/amnesia-vortex",
-    "alice/fake-linear-time",
-    "alice/firmament",
-    "alice/control-mechanisms",
-    "breakdown/essence-of-the-transmission",
-    "breakdown/crystalline-architecture",
-    "breakdown/frequency-trick"
-  ],
   "quizzes": [
     {
       "id": "3rd-density-overlays",
@@ -44,7 +33,6 @@
       "questionCount": 25,
       "href": "quiz/alice/3rd-density-overlays.html",
       "diveHref": "dive/alice/3rd-density-overlays.html",
-      "featured": true,
       "key": "alice/3rd-density-overlays"
     },
     {
@@ -58,7 +46,6 @@
       "questionCount": 25,
       "href": "quiz/alice/4000-ancients.html",
       "diveHref": "dive/alice/4000-ancients.html",
-      "featured": false,
       "key": "alice/4000-ancients"
     },
     {
@@ -72,7 +59,6 @@
       "questionCount": 25,
       "href": "quiz/alice/97-percent-population.html",
       "diveHref": "dive/alice/97-percent-population.html",
-      "featured": false,
       "key": "alice/97-percent-population"
     },
     {
@@ -86,7 +72,6 @@
       "questionCount": 25,
       "href": "quiz/alice/adrenochrome-trade.html",
       "diveHref": "dive/alice/adrenochrome-trade.html",
-      "featured": false,
       "key": "alice/adrenochrome-trade"
     },
     {
@@ -100,7 +85,6 @@
       "questionCount": 25,
       "href": "quiz/alice/amnesia-vortex.html",
       "diveHref": "dive/alice/amnesia-vortex.html",
-      "featured": true,
       "key": "alice/amnesia-vortex"
     },
     {
@@ -114,7 +98,6 @@
       "questionCount": 25,
       "href": "quiz/alice/antiquity-technology.html",
       "diveHref": "dive/alice/antiquity-technology.html",
-      "featured": false,
       "key": "alice/antiquity-technology"
     },
     {
@@ -128,7 +111,6 @@
       "questionCount": 25,
       "href": "quiz/alice/anunnaki.html",
       "diveHref": "dive/alice/anunnaki.html",
-      "featured": false,
       "key": "alice/anunnaki"
     },
     {
@@ -142,7 +124,6 @@
       "questionCount": 25,
       "href": "quiz/alice/ascension-event.html",
       "diveHref": "dive/alice/ascension-event.html",
-      "featured": false,
       "key": "alice/ascension-event"
     },
     {
@@ -156,7 +137,6 @@
       "questionCount": 25,
       "href": "quiz/alice/atmospheric-condensers.html",
       "diveHref": "dive/alice/atmospheric-condensers.html",
-      "featured": false,
       "key": "alice/atmospheric-condensers"
     },
     {
@@ -170,7 +150,6 @@
       "questionCount": 25,
       "href": "quiz/alice/control-mechanisms.html",
       "diveHref": "dive/alice/control-mechanisms.html",
-      "featured": true,
       "key": "alice/control-mechanisms"
     },
     {
@@ -184,7 +163,6 @@
       "questionCount": 25,
       "href": "quiz/alice/cosmology.html",
       "diveHref": "dive/alice/cosmology.html",
-      "featured": false,
       "key": "alice/cosmology"
     },
     {
@@ -198,7 +176,6 @@
       "questionCount": 25,
       "href": "quiz/alice/culling-survivors.html",
       "diveHref": "dive/alice/culling-survivors.html",
-      "featured": false,
       "key": "alice/culling-survivors"
     },
     {
@@ -212,7 +189,6 @@
       "questionCount": 25,
       "href": "quiz/alice/custodians.html",
       "diveHref": "dive/alice/custodians.html",
-      "featured": false,
       "key": "alice/custodians"
     },
     {
@@ -226,7 +202,6 @@
       "questionCount": 25,
       "href": "quiz/alice/density-suppression.html",
       "diveHref": "dive/alice/density-suppression.html",
-      "featured": false,
       "key": "alice/density-suppression"
     },
     {
@@ -240,7 +215,6 @@
       "questionCount": 25,
       "href": "quiz/alice/ebs-disclosure.html",
       "diveHref": "dive/alice/ebs-disclosure.html",
-      "featured": false,
       "key": "alice/ebs-disclosure"
     },
     {
@@ -254,7 +228,6 @@
       "questionCount": 25,
       "href": "quiz/alice/eliminating-old-knowledge.html",
       "diveHref": "dive/alice/eliminating-old-knowledge.html",
-      "featured": false,
       "key": "alice/eliminating-old-knowledge"
     },
     {
@@ -268,7 +241,6 @@
       "questionCount": 25,
       "href": "quiz/alice/emf-white-flash.html",
       "diveHref": "dive/alice/emf-white-flash.html",
-      "featured": false,
       "key": "alice/emf-white-flash"
     },
     {
@@ -282,7 +254,6 @@
       "questionCount": 25,
       "href": "quiz/alice/essence-of-the-transmission.html",
       "diveHref": "dive/alice/essence-of-the-transmission.html",
-      "featured": true,
       "key": "alice/essence-of-the-transmission"
     },
     {
@@ -296,7 +267,6 @@
       "questionCount": 25,
       "href": "quiz/alice/evidence-of-resets.html",
       "diveHref": "dive/alice/evidence-of-resets.html",
-      "featured": false,
       "key": "alice/evidence-of-resets"
     },
     {
@@ -310,7 +280,6 @@
       "questionCount": 25,
       "href": "quiz/alice/fake-alien-invasion.html",
       "diveHref": "dive/alice/fake-alien-invasion.html",
-      "featured": false,
       "key": "alice/fake-alien-invasion"
     },
     {
@@ -324,7 +293,6 @@
       "questionCount": 25,
       "href": "quiz/alice/fake-linear-time.html",
       "diveHref": "dive/alice/fake-linear-time.html",
-      "featured": true,
       "key": "alice/fake-linear-time"
     },
     {
@@ -338,7 +306,6 @@
       "questionCount": 25,
       "href": "quiz/alice/false-history.html",
       "diveHref": "dive/alice/false-history.html",
-      "featured": false,
       "key": "alice/false-history"
     },
     {
@@ -352,7 +319,6 @@
       "questionCount": 25,
       "href": "quiz/alice/finance-fake-money.html",
       "diveHref": "dive/alice/finance-fake-money.html",
-      "featured": false,
       "key": "alice/finance-fake-money"
     },
     {
@@ -366,7 +332,6 @@
       "questionCount": 25,
       "href": "quiz/alice/firmament.html",
       "diveHref": "dive/alice/firmament.html",
-      "featured": true,
       "key": "alice/firmament"
     },
     {
@@ -380,7 +345,6 @@
       "questionCount": 25,
       "href": "quiz/alice/flat-earth.html",
       "diveHref": "dive/alice/flat-earth.html",
-      "featured": false,
       "key": "alice/flat-earth"
     },
     {
@@ -394,7 +358,6 @@
       "questionCount": 25,
       "href": "quiz/alice/free-energy-architecture.html",
       "diveHref": "dive/alice/free-energy-architecture.html",
-      "featured": false,
       "key": "alice/free-energy-architecture"
     },
     {
@@ -408,7 +371,6 @@
       "questionCount": 25,
       "href": "quiz/alice/freemasonry.html",
       "diveHref": "dive/alice/freemasonry.html",
-      "featured": false,
       "key": "alice/freemasonry"
     },
     {
@@ -422,7 +384,6 @@
       "questionCount": 25,
       "href": "quiz/alice/frequency-fences.html",
       "diveHref": "dive/alice/frequency-fences.html",
-      "featured": false,
       "key": "alice/frequency-fences"
     },
     {
@@ -436,7 +397,6 @@
       "questionCount": 25,
       "href": "quiz/alice/gateway-10-system.html",
       "diveHref": "dive/alice/gateway-10-system.html",
-      "featured": false,
       "key": "alice/gateway-10-system"
     },
     {
@@ -450,7 +410,6 @@
       "questionCount": 25,
       "href": "quiz/alice/giant-skeletons.html",
       "diveHref": "dive/alice/giant-skeletons.html",
-      "featured": false,
       "key": "alice/giant-skeletons"
     },
     {
@@ -464,7 +423,6 @@
       "questionCount": 25,
       "href": "quiz/alice/grey-ets.html",
       "diveHref": "dive/alice/grey-ets.html",
-      "featured": false,
       "key": "alice/grey-ets"
     },
     {
@@ -478,7 +436,6 @@
       "questionCount": 25,
       "href": "quiz/alice/holographic-projection-dome.html",
       "diveHref": "dive/alice/holographic-projection-dome.html",
-      "featured": false,
       "key": "alice/holographic-projection-dome"
     },
     {
@@ -492,7 +449,6 @@
       "questionCount": 25,
       "href": "quiz/alice/ice-wall.html",
       "diveHref": "dive/alice/ice-wall.html",
-      "featured": false,
       "key": "alice/ice-wall"
     },
     {
@@ -506,7 +462,6 @@
       "questionCount": 25,
       "href": "quiz/alice/inversion-tactics.html",
       "diveHref": "dive/alice/inversion-tactics.html",
-      "featured": false,
       "key": "alice/inversion-tactics"
     },
     {
@@ -520,7 +475,6 @@
       "questionCount": 25,
       "href": "quiz/alice/loosh-harvesting.html",
       "diveHref": "dive/alice/loosh-harvesting.html",
-      "featured": false,
       "key": "alice/loosh-harvesting"
     },
     {
@@ -534,7 +488,6 @@
       "questionCount": 25,
       "href": "quiz/alice/lucifer-light-bearer.html",
       "diveHref": "dive/alice/lucifer-light-bearer.html",
-      "featured": false,
       "key": "alice/lucifer-light-bearer"
     },
     {
@@ -548,7 +501,6 @@
       "questionCount": 25,
       "href": "quiz/alice/moon-et-space-station.html",
       "diveHref": "dive/alice/moon-et-space-station.html",
-      "featured": false,
       "key": "alice/moon-et-space-station"
     },
     {
@@ -562,7 +514,6 @@
       "questionCount": 25,
       "href": "quiz/alice/mud-floods.html",
       "diveHref": "dive/alice/mud-floods.html",
-      "featured": false,
       "key": "alice/mud-floods"
     },
     {
@@ -576,7 +527,6 @@
       "questionCount": 25,
       "href": "quiz/alice/nature-of-reality.html",
       "diveHref": "dive/alice/nature-of-reality.html",
-      "featured": false,
       "key": "alice/nature-of-reality"
     },
     {
@@ -590,7 +540,6 @@
       "questionCount": 25,
       "href": "quiz/alice/negative-entities.html",
       "diveHref": "dive/alice/negative-entities.html",
-      "featured": false,
       "key": "alice/negative-entities"
     },
     {
@@ -604,7 +553,6 @@
       "questionCount": 25,
       "href": "quiz/alice/non-player-characters.html",
       "diveHref": "dive/alice/non-player-characters.html",
-      "featured": false,
       "key": "alice/non-player-characters"
     },
     {
@@ -618,7 +566,6 @@
       "questionCount": 25,
       "href": "quiz/alice/npc-population.html",
       "diveHref": "dive/alice/npc-population.html",
-      "featured": false,
       "key": "alice/npc-population"
     },
     {
@@ -632,7 +579,6 @@
       "questionCount": 25,
       "href": "quiz/alice/oopa-artifacts.html",
       "diveHref": "dive/alice/oopa-artifacts.html",
-      "featured": false,
       "key": "alice/oopa-artifacts"
     },
     {
@@ -646,7 +592,6 @@
       "questionCount": 25,
       "href": "quiz/alice/orphan-trains.html",
       "diveHref": "dive/alice/orphan-trains.html",
-      "featured": false,
       "key": "alice/orphan-trains"
     },
     {
@@ -660,7 +605,6 @@
       "questionCount": 25,
       "href": "quiz/alice/perceived-knowledge-lies.html",
       "diveHref": "dive/alice/perceived-knowledge-lies.html",
-      "featured": false,
       "key": "alice/perceived-knowledge-lies"
     },
     {
@@ -674,7 +618,6 @@
       "questionCount": 25,
       "href": "quiz/alice/recycled-souls.html",
       "diveHref": "dive/alice/recycled-souls.html",
-      "featured": false,
       "key": "alice/recycled-souls"
     },
     {
@@ -688,7 +631,6 @@
       "questionCount": 25,
       "href": "quiz/alice/religion-false-gods.html",
       "diveHref": "dive/alice/religion-false-gods.html",
-      "featured": false,
       "key": "alice/religion-false-gods"
     },
     {
@@ -702,7 +644,6 @@
       "questionCount": 25,
       "href": "quiz/alice/reptilians.html",
       "diveHref": "dive/alice/reptilians.html",
-      "featured": false,
       "key": "alice/reptilians"
     },
     {
@@ -716,7 +657,6 @@
       "questionCount": 25,
       "href": "quiz/alice/resets-hidden-history.html",
       "diveHref": "dive/alice/resets-hidden-history.html",
-      "featured": false,
       "key": "alice/resets-hidden-history"
     },
     {
@@ -730,7 +670,6 @@
       "questionCount": 25,
       "href": "quiz/alice/simulation-reality.html",
       "diveHref": "dive/alice/simulation-reality.html",
-      "featured": false,
       "key": "alice/simulation-reality"
     },
     {
@@ -744,7 +683,6 @@
       "questionCount": 25,
       "href": "quiz/alice/sol-soul-portal.html",
       "diveHref": "dive/alice/sol-soul-portal.html",
-      "featured": false,
       "key": "alice/sol-soul-portal"
     },
     {
@@ -758,7 +696,6 @@
       "questionCount": 25,
       "href": "quiz/alice/soul-family.html",
       "diveHref": "dive/alice/soul-family.html",
-      "featured": false,
       "key": "alice/soul-family"
     },
     {
@@ -772,7 +709,6 @@
       "questionCount": 25,
       "href": "quiz/alice/spiritual-awakening.html",
       "diveHref": "dive/alice/spiritual-awakening.html",
-      "featured": false,
       "key": "alice/spiritual-awakening"
     },
     {
@@ -786,7 +722,6 @@
       "questionCount": 25,
       "href": "quiz/alice/star-seeds.html",
       "diveHref": "dive/alice/star-seeds.html",
-      "featured": false,
       "key": "alice/star-seeds"
     },
     {
@@ -800,7 +735,6 @@
       "questionCount": 25,
       "href": "quiz/alice/tartaria.html",
       "diveHref": "dive/alice/tartaria.html",
-      "featured": false,
       "key": "alice/tartaria"
     },
     {
@@ -814,7 +748,6 @@
       "questionCount": 25,
       "href": "quiz/alice/3-strings-of-attachment.html",
       "diveHref": "dive/alice/3-strings-of-attachment.html",
-      "featured": false,
       "key": "alice/3-strings-of-attachment"
     },
     {
@@ -828,7 +761,6 @@
       "questionCount": 25,
       "href": "quiz/alice/parasitic-takeover.html",
       "diveHref": "dive/alice/parasitic-takeover.html",
-      "featured": false,
       "key": "alice/parasitic-takeover"
     },
     {
@@ -842,7 +774,6 @@
       "questionCount": 25,
       "href": "quiz/alice/sun-and-moon.html",
       "diveHref": "dive/alice/sun-and-moon.html",
-      "featured": false,
       "key": "alice/sun-and-moon"
     },
     {
@@ -856,7 +787,6 @@
       "questionCount": 25,
       "href": "quiz/alice/twin-flames.html",
       "diveHref": "dive/alice/twin-flames.html",
-      "featured": false,
       "key": "alice/twin-flames"
     },
     {
@@ -870,7 +800,6 @@
       "questionCount": 25,
       "href": "quiz/alice/world-war-i.html",
       "diveHref": "dive/alice/world-war-i.html",
-      "featured": false,
       "key": "alice/world-war-i"
     },
     {
@@ -884,7 +813,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/3d-overlay.html",
       "diveHref": "dive/breakdown/3d-overlay.html",
-      "featured": false,
       "key": "breakdown/3d-overlay"
     },
     {
@@ -898,7 +826,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/atmospheric-pop.html",
       "diveHref": "dive/breakdown/atmospheric-pop.html",
-      "featured": false,
       "key": "breakdown/atmospheric-pop"
     },
     {
@@ -912,7 +839,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/blackout-timeline.html",
       "diveHref": "dive/breakdown/blackout-timeline.html",
-      "featured": false,
       "key": "breakdown/blackout-timeline"
     },
     {
@@ -926,7 +852,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/celestial-anchors.html",
       "diveHref": "dive/breakdown/celestial-anchors.html",
-      "featured": false,
       "key": "breakdown/celestial-anchors"
     },
     {
@@ -940,7 +865,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/central-axis.html",
       "diveHref": "dive/breakdown/central-axis.html",
-      "featured": false,
       "key": "breakdown/central-axis"
     },
     {
@@ -954,7 +878,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/comms-blackout.html",
       "diveHref": "dive/breakdown/comms-blackout.html",
-      "featured": false,
       "key": "breakdown/comms-blackout"
     },
     {
@@ -968,7 +891,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/crystalline-architecture.html",
       "diveHref": "dive/breakdown/crystalline-architecture.html",
-      "featured": true,
       "key": "breakdown/crystalline-architecture"
     },
     {
@@ -982,7 +904,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/crystalline-networks.html",
       "diveHref": "dive/breakdown/crystalline-networks.html",
-      "featured": false,
       "key": "breakdown/crystalline-networks"
     },
     {
@@ -996,7 +917,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/ebs-operation.html",
       "diveHref": "dive/breakdown/ebs-operation.html",
-      "featured": false,
       "key": "breakdown/ebs-operation"
     },
     {
@@ -1010,7 +930,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/eight-domes.html",
       "diveHref": "dive/breakdown/eight-domes.html",
-      "featured": false,
       "key": "breakdown/eight-domes"
     },
     {
@@ -1024,7 +943,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/energy-nodes.html",
       "diveHref": "dive/breakdown/energy-nodes.html",
-      "featured": false,
       "key": "breakdown/energy-nodes"
     },
     {
@@ -1038,7 +956,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/essence-of-the-transmission.html",
       "diveHref": "dive/breakdown/essence-of-the-transmission.html",
-      "featured": true,
       "key": "breakdown/essence-of-the-transmission"
     },
     {
@@ -1052,7 +969,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/frequency-fracture.html",
       "diveHref": "dive/breakdown/frequency-fracture.html",
-      "featured": false,
       "key": "breakdown/frequency-fracture"
     },
     {
@@ -1066,7 +982,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/frequency-trick.html",
       "diveHref": "dive/breakdown/frequency-trick.html",
-      "featured": true,
       "key": "breakdown/frequency-trick"
     },
     {
@@ -1080,7 +995,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/grid-systems.html",
       "diveHref": "dive/breakdown/grid-systems.html",
-      "featured": false,
       "key": "breakdown/grid-systems"
     },
     {
@@ -1094,7 +1008,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/hard-drive-framework.html",
       "diveHref": "dive/breakdown/hard-drive-framework.html",
-      "featured": false,
       "key": "breakdown/hard-drive-framework"
     },
     {
@@ -1108,7 +1021,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/harmonic-lenses.html",
       "diveHref": "dive/breakdown/harmonic-lenses.html",
-      "featured": false,
       "key": "breakdown/harmonic-lenses"
     },
     {
@@ -1122,7 +1034,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/hyperborean-heart.html",
       "diveHref": "dive/breakdown/hyperborean-heart.html",
-      "featured": false,
       "key": "breakdown/hyperborean-heart"
     },
     {
@@ -1136,7 +1047,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/infrastructure-sweep.html",
       "diveHref": "dive/breakdown/infrastructure-sweep.html",
-      "featured": false,
       "key": "breakdown/infrastructure-sweep"
     },
     {
@@ -1150,7 +1060,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/lava-core-nodes.html",
       "diveHref": "dive/breakdown/lava-core-nodes.html",
-      "featured": false,
       "key": "breakdown/lava-core-nodes"
     },
     {
@@ -1164,7 +1073,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/layered-simulations.html",
       "diveHref": "dive/breakdown/layered-simulations.html",
-      "featured": false,
       "key": "breakdown/layered-simulations"
     },
     {
@@ -1178,7 +1086,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/ley-line-optics.html",
       "diveHref": "dive/breakdown/ley-line-optics.html",
-      "featured": false,
       "key": "breakdown/ley-line-optics"
     },
     {
@@ -1192,7 +1099,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/lockdown-window.html",
       "diveHref": "dive/breakdown/lockdown-window.html",
-      "featured": false,
       "key": "breakdown/lockdown-window"
     },
     {
@@ -1206,7 +1112,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/mass-reveal.html",
       "diveHref": "dive/breakdown/mass-reveal.html",
-      "featured": false,
       "key": "breakdown/mass-reveal"
     },
     {
@@ -1220,7 +1125,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/matrix-scaffolding.html",
       "diveHref": "dive/breakdown/matrix-scaffolding.html",
-      "featured": false,
       "key": "breakdown/matrix-scaffolding"
     },
     {
@@ -1234,7 +1138,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/military-broadcasts.html",
       "diveHref": "dive/breakdown/military-broadcasts.html",
-      "featured": false,
       "key": "breakdown/military-broadcasts"
     },
     {
@@ -1248,7 +1151,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/muted-environment.html",
       "diveHref": "dive/breakdown/muted-environment.html",
-      "featured": false,
       "key": "breakdown/muted-environment"
     },
     {
@@ -1262,7 +1164,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/narrative-maintenance.html",
       "diveHref": "dive/breakdown/narrative-maintenance.html",
-      "featured": false,
       "key": "breakdown/narrative-maintenance"
     },
     {
@@ -1276,7 +1177,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/npc-glitching.html",
       "diveHref": "dive/breakdown/npc-glitching.html",
-      "featured": false,
       "key": "breakdown/npc-glitching"
     },
     {
@@ -1290,7 +1190,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/original-realm.html",
       "diveHref": "dive/breakdown/original-realm.html",
-      "featured": false,
       "key": "breakdown/original-realm"
     },
     {
@@ -1304,7 +1203,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/perception-solidity.html",
       "diveHref": "dive/breakdown/perception-solidity.html",
-      "featured": false,
       "key": "breakdown/perception-solidity"
     },
     {
@@ -1318,7 +1216,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/phase-one-three.html",
       "diveHref": "dive/breakdown/phase-one-three.html",
-      "featured": false,
       "key": "breakdown/phase-one-three"
     },
     {
@@ -1332,7 +1229,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/phase-seven-eight.html",
       "diveHref": "dive/breakdown/phase-seven-eight.html",
-      "featured": false,
       "key": "breakdown/phase-seven-eight"
     },
     {
@@ -1346,7 +1242,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/phase-four-six.html",
       "diveHref": "dive/breakdown/phase-four-six.html",
-      "featured": false,
       "key": "breakdown/phase-four-six"
     },
     {
@@ -1360,7 +1255,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/physical-indicators.html",
       "diveHref": "dive/breakdown/physical-indicators.html",
-      "featured": false,
       "key": "breakdown/physical-indicators"
     },
     {
@@ -1374,7 +1268,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/reality-constructs.html",
       "diveHref": "dive/breakdown/reality-constructs.html",
-      "featured": false,
       "key": "breakdown/reality-constructs"
     },
     {
@@ -1388,7 +1281,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/second-realm.html",
       "diveHref": "dive/breakdown/second-realm.html",
-      "featured": false,
       "key": "breakdown/second-realm"
     },
     {
@@ -1402,7 +1294,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/skull-buzzing.html",
       "diveHref": "dive/breakdown/skull-buzzing.html",
-      "featured": false,
       "key": "breakdown/skull-buzzing"
     },
     {
@@ -1416,7 +1307,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/source-bridge.html",
       "diveHref": "dive/breakdown/source-bridge.html",
-      "featured": false,
       "key": "breakdown/source-bridge"
     },
     {
@@ -1430,7 +1320,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/source-code-storage.html",
       "diveHref": "dive/breakdown/source-code-storage.html",
-      "featured": false,
       "key": "breakdown/source-code-storage"
     },
     {
@@ -1444,7 +1333,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/stabilization-process.html",
       "diveHref": "dive/breakdown/stabilization-process.html",
-      "featured": false,
       "key": "breakdown/stabilization-process"
     },
     {
@@ -1458,7 +1346,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/starseed-keys.html",
       "diveHref": "dive/breakdown/starseed-keys.html",
-      "featured": false,
       "key": "breakdown/starseed-keys"
     },
     {
@@ -1472,7 +1359,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/targeting-parasites.html",
       "diveHref": "dive/breakdown/targeting-parasites.html",
-      "featured": false,
       "key": "breakdown/targeting-parasites"
     },
     {
@@ -1486,7 +1372,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/the-cube-system.html",
       "diveHref": "dive/breakdown/the-cube-system.html",
-      "featured": false,
       "key": "breakdown/the-cube-system"
     },
     {
@@ -1500,7 +1385,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/the-first-72-hours.html",
       "diveHref": "dive/breakdown/the-first-72-hours.html",
-      "featured": false,
       "key": "breakdown/the-first-72-hours"
     },
     {
@@ -1514,7 +1398,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/the-purge-phases.html",
       "diveHref": "dive/breakdown/the-purge-phases.html",
-      "featured": false,
       "key": "breakdown/the-purge-phases"
     },
     {
@@ -1528,7 +1411,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/the-spirit-tree.html",
       "diveHref": "dive/breakdown/the-spirit-tree.html",
-      "featured": false,
       "key": "breakdown/the-spirit-tree"
     },
     {
@@ -1542,7 +1424,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/trigger-events.html",
       "diveHref": "dive/breakdown/trigger-events.html",
-      "featured": false,
       "key": "breakdown/trigger-events"
     },
     {
@@ -1556,7 +1437,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/truth-disclosure.html",
       "diveHref": "dive/breakdown/truth-disclosure.html",
-      "featured": false,
       "key": "breakdown/truth-disclosure"
     },
     {
@@ -1570,7 +1450,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/truth-packages.html",
       "diveHref": "dive/breakdown/truth-packages.html",
-      "featured": false,
       "key": "breakdown/truth-packages"
     },
     {
@@ -1584,7 +1463,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/underground-dismantling.html",
       "diveHref": "dive/breakdown/underground-dismantling.html",
-      "featured": false,
       "key": "breakdown/underground-dismantling"
     },
     {
@@ -1598,7 +1476,6 @@
       "questionCount": 25,
       "href": "quiz/breakdown/vibrant-reality.html",
       "diveHref": "dive/breakdown/vibrant-reality.html",
-      "featured": false,
       "key": "breakdown/vibrant-reality"
     }
   ]

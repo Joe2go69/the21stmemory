@@ -1621,18 +1621,15 @@ button.btn-secondary:disabled,
   justify-content: center;
   gap: 0.45rem;
   align-self: stretch;
-  padding: 10px 16px !important;
-  font-size: 0.8125rem !important;
-  border-radius: 14px !important;
+  /* Geometry + material come from .btn-primary (one CTA language) */
   cursor: pointer;
   text-decoration: none;
   white-space: nowrap;
   margin-top: auto;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
 .footer-donate-btn::before {
-  border-radius: 14px !important;
+  border-radius: inherit !important;
 }
 
 .site-footer .footer-donate-btn,
@@ -11725,17 +11722,13 @@ html {
   min-height: 0;
 }
 
+/* Layout helpers only — size/material from global .btn-primary */
 .footer-donate-btn {
-  width: 100%;
   margin-top: 0.35rem;
-  min-height: 2.65rem;
-  border-radius: 10px;
-  font-size: 0.88rem;
-  font-weight: 600;
 }
 
-.footer-donate-card--primary .footer-donate-btn {
-  min-height: 2.85rem;
+.footer-donate-card .footer-donate-btn {
+  width: 100%;
 }
 
 .footer-donate-qr-row {
@@ -11945,32 +11938,20 @@ html {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
-/* Footer CTAs inherit soft 3D primary material */
+/* Footer CTAs: layout only — material comes from global .btn-primary */
 .footer-donate-btn,
 .footer-donate-card .btn-primary,
 .footer-donate-card .btn-secondary,
 a.footer-donate-btn,
 button.footer-donate-btn {
-  width: 100% !important;
   margin-top: auto !important;
-  min-height: 2.65rem !important;
-  border-radius: 9999px !important;
-  font-size: 0.88rem !important;
-  font-weight: 600 !important;
-  background: linear-gradient(180deg, #7C3AED 0%, #5B21B6 42%, #3B0764 100%) !important;
-  color: #fff !important;
   border: none !important;
-  box-shadow: var(--surface-tier-btn) !important;
+  border-color: transparent !important;
 }
 
-.footer-donate-btn:hover,
-.footer-donate-card .btn-primary:hover,
-.footer-donate-card .btn-secondary:hover {
-  background: linear-gradient(180deg, #8B5CF6 0%, #6D28D9 42%, #4C1D95 100%) !important;
-  color: #fff !important;
-  border-color: transparent !important;
-  transform: translateY(-2px) !important;
-  box-shadow: var(--surface-tier-btn-hover) !important;
+.footer-donate-card .footer-donate-btn,
+.footer-donate-card .btn-primary {
+  width: 100% !important;
 }
 
 @media (max-width: 767px) {
@@ -13529,9 +13510,12 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   flex-wrap: wrap;
   gap: 0.4rem;
   padding: 0.3rem;
-  border-radius: 12px;
-  background: rgba(8, 5, 18, 0.45);
-  border: 1px solid rgba(76, 61, 107, 0.45);
+  border-radius: 9999px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, transparent 100%),
+    rgba(12, 8, 26, 0.65);
+  border: none;
+  box-shadow: var(--surface-tier-recessed);
 }
 
 .footer-tab {
@@ -13541,9 +13525,9 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   gap: 0.45rem;
   flex: 1 1 auto;
   min-height: 2.55rem;
-  padding: 0.4rem 0.85rem;
-  border-radius: 9px;
-  border: 1px solid transparent;
+  padding: 0.4rem 0.95rem;
+  border-radius: 9999px;
+  border: none;
   background: transparent;
   color: var(--text-muted);
   font-size: 0.82rem;
@@ -13553,25 +13537,26 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   transition:
     color 0.18s ease,
     background 0.18s ease,
-    border-color 0.18s ease,
-    box-shadow 0.18s ease;
+    box-shadow 0.18s ease,
+    transform 0.18s ease;
 }
 
 .footer-tab:hover {
   color: var(--text-primary);
-  background: rgba(91, 33, 182, 0.12);
+  background: rgba(91, 33, 182, 0.16);
 }
 
 .footer-tab.is-active,
 .footer-tab[aria-selected='true'] {
   color: #fff;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, transparent 100%),
-    rgba(91, 33, 182, 0.28);
-  border-color: rgba(167, 139, 250, 0.4);
+  background: linear-gradient(165deg, #8B5CF6 0%, #6D28D9 42%, #4C1D95 100%);
+  border: none;
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.1),
-    0 0 16px -8px rgba(124, 58, 237, 0.5);
+    0 8px 18px -8px rgba(0, 0, 0, 0.55),
+    0 0 18px -8px rgba(124, 58, 237, 0.45),
+    inset 0 1.5px 0 rgba(255, 255, 255, 0.28),
+    inset 0 -3px 0 rgba(30, 17, 53, 0.5);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .footer-tab:focus-visible {
@@ -13586,11 +13571,12 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   justify-content: center;
   width: 1.5rem;
   height: 1.5rem;
-  border-radius: 7px;
+  border-radius: 9999px;
   flex-shrink: 0;
   color: var(--text-soft);
-  background: rgba(124, 58, 237, 0.16);
-  border: 1px solid rgba(124, 58, 237, 0.28);
+  background: rgba(124, 58, 237, 0.18);
+  border: none;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
 .footer-tab-icon svg {
@@ -13600,20 +13586,26 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
 
 .footer-tab-icon--btc {
   color: #F59E0B;
-  background: rgba(180, 83, 9, 0.14);
-  border-color: rgba(217, 119, 6, 0.3);
+  background: rgba(180, 83, 9, 0.16);
 }
 
 .footer-tab-icon--heart {
   color: #f9a8d4;
   background: rgba(219, 39, 119, 0.12);
-  border-color: rgba(236, 72, 153, 0.28);
 }
 
 .footer-tab.is-active .footer-tab-icon,
 .footer-tab[aria-selected='true'] .footer-tab-icon {
-  border-color: rgba(196, 181, 253, 0.4);
-  box-shadow: 0 0 10px -4px rgba(167, 139, 250, 0.5);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.16);
+  border: none;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.footer-tab.is-active .footer-tab-icon--btc,
+.footer-tab[aria-selected='true'] .footer-tab-icon--btc {
+  color: #FDE68A;
+  background: rgba(0, 0, 0, 0.18);
 }
 
 .footer-tab-label {
@@ -13624,17 +13616,17 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   position: relative;
 }
 
-/* Panel: full-bleed image + seamless soft scrim (no hard side seams) */
+/* Panel: elevated vault card (matches index static/elevated surfaces) */
 .footer-tabpanel {
   display: none;
   position: relative;
-  border-radius: 14px;
+  border-radius: 1rem;
   overflow: hidden;
-  border: 1px solid rgba(124, 58, 237, 0.28);
-  background: #0e0a1c;
-  box-shadow:
-    0 10px 28px -14px rgba(0, 0, 0, 0.55),
-    inset 0 1px 0 rgba(255, 255, 255, 0.07);
+  border: none;
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.07) 0%, transparent 42%),
+    linear-gradient(180deg, rgba(32, 24, 56, 0.98) 0%, rgba(20, 14, 40, 0.99) 100%);
+  box-shadow: var(--surface-tier-elevated);
   /* Tall enough for 16:9 support art to read (pathway / crystal) */
   min-height: 14rem;
 }
@@ -13646,6 +13638,11 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
 
 .footer-tabpanel[hidden] {
   display: none !important;
+}
+
+/* Photo panels: keep art surface, same elevation language as source cards */
+.footer-tabpanel--blend {
+  background: #0e0a1c;
 }
 
 /* Full-bleed art across the whole panel */
@@ -13805,7 +13802,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   width: auto !important;
   min-width: 9.5rem;
   align-self: flex-start;
-  box-shadow: 0 8px 20px -8px rgba(0, 0, 0, 0.55) !important;
+  /* Keep full .btn-primary 3D material — do not flatten shadow here */
 }
 
 /* Bitcoin: QR + copy in one glass row (no photo atmosphere) */
@@ -14131,38 +14128,43 @@ button.quiz-hub-stat[aria-pressed="true"] {
     inset 0 -3px 0 rgba(30, 17, 53, 0.55) !important;
 }
 
-/* Topic root cards */
+/* Topic root cards — elevated vault, no stroke ring */
 .topic-root-card {
-  box-shadow:
-    0 16px 40px -16px rgba(0, 0, 0, 0.55),
-    0 0 0 1px rgba(124, 58, 237, 0.24),
-    inset 0 1.5px 0 rgba(255, 255, 255, 0.08) !important;
+  border: none !important;
+  box-shadow: var(--surface-tier-elevated) !important;
 }
 
 .topic-root-card:hover {
-  box-shadow:
-    0 22px 48px -14px rgba(0, 0, 0, 0.62),
-    0 0 0 1px rgba(167, 139, 250, 0.38),
-    0 0 28px -12px rgba(91, 33, 182, 0.35),
-    inset 0 1.5px 0 rgba(255, 255, 255, 0.1) !important;
+  border: none !important;
+  box-shadow: var(--surface-tier-elevated-hover) !important;
 }
 
-/* Leaf / toggle controls â€” small 3D chips */
+/* Leaf / toggle controls — soft 3D (same language as secondary CTAs), no stroke */
 .topic-leaf-btn,
 .category-toggle,
 .category-toggle-btn {
-  background: linear-gradient(145deg, #2E2348 0%, #1E1634 100%) !important;
-  border: 1px solid rgba(124, 58, 237, 0.28) !important;
-  box-shadow: var(--surface-tier-control) !important;
+  background: linear-gradient(180deg, #2E2348 0%, #1A1433 48%, #120D24 100%) !important;
+  border: none !important;
+  border-color: transparent !important;
+  box-shadow:
+    0 10px 22px -10px rgba(0, 0, 0, 0.6),
+    0 4px 12px -6px rgba(0, 0, 0, 0.4),
+    inset 0 2px 0 rgba(255, 255, 255, 0.14),
+    inset 0 -4px 0 rgba(8, 5, 18, 0.65) !important;
 }
 
 .topic-leaf-btn:hover,
 .category-toggle:hover,
 .category-toggle-btn:hover {
-  background: linear-gradient(145deg, #3D2A5C 0%, #2A1F40 100%) !important;
-  border-color: rgba(167, 139, 250, 0.45) !important;
+  background: linear-gradient(180deg, #3D2A5C 0%, #241A40 48%, #1A1433 100%) !important;
+  border: none !important;
+  border-color: transparent !important;
   transform: translateY(-2px) !important;
-  box-shadow: var(--surface-tier-control-hover) !important;
+  box-shadow:
+    0 14px 28px -10px rgba(0, 0, 0, 0.62),
+    0 6px 16px -6px rgba(91, 33, 182, 0.35),
+    inset 0 2.5px 0 rgba(255, 255, 255, 0.18),
+    inset 0 -4px 0 rgba(8, 5, 18, 0.55) !important;
 }
 
 /* Filter pills â€” subtle emboss (not flat ghosts) */
@@ -14498,7 +14500,11 @@ a.btn-secondary,
 .topic-control-btn,
 .network-filter-btn,
 .btn-jump-pill,
-.breadcrumb-link {
+.breadcrumb-link,
+.topic-leaf-btn,
+.category-toggle,
+.category-toggle-btn,
+.topic-section-link {
   border: none !important;
   border-color: transparent !important;
 }
@@ -15796,4 +15802,334 @@ a.quiz-continue-card:focus-visible,
 .skip-link:focus,
 .skip-link:focus-visible {
   z-index: 10001;
+}
+
+/* =============================================
+   SUPPORT SECTION — match index vault cards + primary CTAs
+   Final cascade: tab panels + donate buttons
+   ============================================= */
+
+.footer-support {
+  border: none !important;
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.05) 0%, transparent 42%),
+    radial-gradient(ellipse 70% 50% at 50% 0%, rgba(109, 40, 217, 0.12) 0%, transparent 65%),
+    linear-gradient(180deg, rgba(28, 20, 50, 0.92) 0%, rgba(16, 10, 32, 0.96) 100%) !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+  border-radius: 1.15rem !important;
+}
+
+.footer-tablist {
+  border: none !important;
+  box-shadow: var(--surface-tier-recessed) !important;
+}
+
+.footer-tab {
+  border: none !important;
+}
+
+.footer-tab.is-active,
+.footer-tab[aria-selected='true'] {
+  color: #fff !important;
+  background: linear-gradient(165deg, #8B5CF6 0%, #6D28D9 42%, #4C1D95 100%) !important;
+  border: none !important;
+  box-shadow:
+    0 8px 18px -8px rgba(0, 0, 0, 0.55),
+    0 0 18px -8px rgba(124, 58, 237, 0.45),
+    inset 0 1.5px 0 rgba(255, 255, 255, 0.28),
+    inset 0 -3px 0 rgba(30, 17, 53, 0.5) !important;
+}
+
+.footer-tabpanel {
+  border: none !important;
+  border-radius: 1rem !important;
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.07) 0%, transparent 42%),
+    linear-gradient(180deg, rgba(32, 24, 56, 0.98) 0%, rgba(20, 14, 40, 0.99) 100%) !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+}
+
+.footer-tabpanel--blend {
+  background: #0e0a1c !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+}
+
+.footer-tabpanel--btc {
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.07) 0%, transparent 42%),
+    linear-gradient(180deg, rgba(32, 24, 56, 0.98) 0%, rgba(20, 14, 40, 0.99) 100%) !important;
+}
+
+/* Support CTAs = same 3D primary as Codex / Oracle / hero */
+.footer-support a.btn-primary.footer-donate-btn,
+.footer-support button.btn-primary.footer-donate-btn,
+.footer-tab-body a.btn-primary.footer-donate-btn,
+.footer-tab-body button.btn-primary.footer-donate-btn,
+.footer-tab-body .btn-primary.footer-donate-btn,
+.footer-support .footer-donate-btn.btn-primary {
+  min-height: 2.75rem !important;
+  padding: 0.68rem 1.5rem !important;
+  border-radius: 9999px !important;
+  font-size: 0.9375rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.01em !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35) !important;
+  background: linear-gradient(165deg, #8B5CF6 0%, #6D28D9 38%, #4C1D95 100%) !important;
+  border: none !important;
+  box-shadow:
+    0 12px 26px -8px rgba(0, 0, 0, 0.62),
+    0 6px 14px -4px rgba(59, 7, 100, 0.45),
+    inset 0 2px 0 rgba(255, 255, 255, 0.34),
+    inset 0 -4px 0 rgba(30, 17, 53, 0.7) !important;
+  filter: none !important;
+  width: auto !important;
+}
+
+.footer-support a.btn-primary.footer-donate-btn:hover,
+.footer-support button.btn-primary.footer-donate-btn:hover,
+.footer-tab-body a.btn-primary.footer-donate-btn:hover,
+.footer-tab-body button.btn-primary.footer-donate-btn:hover,
+.footer-tab-body .btn-primary.footer-donate-btn:hover,
+.footer-support .footer-donate-btn.btn-primary:hover {
+  background: linear-gradient(165deg, #A78BFA 0%, #7C3AED 40%, #5B21B6 100%) !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+  box-shadow:
+    0 16px 32px -10px rgba(0, 0, 0, 0.68),
+    0 8px 18px -5px rgba(91, 33, 182, 0.5),
+    0 0 28px -8px rgba(139, 61, 255, 0.45),
+    inset 0 2.5px 0 rgba(255, 255, 255, 0.4),
+    inset 0 -4px 0 rgba(30, 17, 53, 0.65) !important;
+  filter: none !important;
+}
+
+.footer-support a.btn-primary.footer-donate-btn:active,
+.footer-support button.btn-primary.footer-donate-btn:active,
+.footer-tab-body .btn-primary.footer-donate-btn:active {
+  transform: translateY(1px) !important;
+  box-shadow: var(--surface-tier-btn-active) !important;
+}
+
+.footer-support .footer-donate-btn::before,
+.footer-tab-body .footer-donate-btn::before {
+  border-radius: inherit !important;
+}
+
+.footer-tabpanel--btc .footer-support-address {
+  border: none !important;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, transparent 100%),
+    rgba(8, 5, 18, 0.55) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+  border-radius: 0.65rem !important;
+}
+
+.footer-btc-qr-wrap {
+  border: none !important;
+  box-shadow:
+    0 10px 24px -12px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .footer-support a.btn-primary.footer-donate-btn:hover,
+  .footer-support button.btn-primary.footer-donate-btn:hover,
+  .footer-tab-body .btn-primary.footer-donate-btn:hover {
+    transform: none !important;
+  }
+}
+
+/* =============================================
+   CODEX “TOPICS BY CATEGORY” — match site vault language
+   Final cascade: root cards + section toggles + leaf pills
+   ============================================= */
+
+/* Editorial root cards: photo surface + elevated depth (no violet stroke ring) */
+.topic-root-card,
+a.topic-root-card {
+  border: none !important;
+  border-color: transparent !important;
+  border-radius: 1.15rem !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+  background: #12101f !important;
+}
+
+.topic-root-card:hover,
+a.topic-root-card:hover {
+  border: none !important;
+  border-color: transparent !important;
+  transform: translateY(-3px) !important;
+  box-shadow: var(--surface-tier-elevated-hover) !important;
+}
+
+/* “Explore category →” stays a calm text-link, not a third button style */
+.topic-root-card .explore-badge,
+a.topic-root-card .explore-badge {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: var(--text-soft) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.01em !important;
+}
+
+a.topic-root-card:hover .explore-badge {
+  color: #fff !important;
+}
+
+/* Category row toggles — soft 3D secondary material, full-width pill */
+.category-toggle,
+.category-toggle-btn,
+button.category-toggle-btn {
+  min-height: 2.75rem !important;
+  padding: 0.62rem 1.15rem !important;
+  border-radius: 9999px !important;
+  border: none !important;
+  border-color: transparent !important;
+  color: #EDE4FF !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.01em !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+  background: linear-gradient(180deg, #2E2348 0%, #1A1433 48%, #120D24 100%) !important;
+  box-shadow:
+    0 10px 22px -10px rgba(0, 0, 0, 0.6),
+    0 4px 12px -6px rgba(0, 0, 0, 0.4),
+    inset 0 2px 0 rgba(255, 255, 255, 0.14),
+    inset 0 -4px 0 rgba(8, 5, 18, 0.65) !important;
+}
+
+.category-toggle:hover,
+.category-toggle-btn:hover,
+button.category-toggle-btn:hover {
+  color: #ffffff !important;
+  border: none !important;
+  background: linear-gradient(180deg, #3D2A5C 0%, #241A40 48%, #1A1433 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow:
+    0 14px 28px -10px rgba(0, 0, 0, 0.62),
+    0 6px 16px -6px rgba(91, 33, 182, 0.35),
+    inset 0 2.5px 0 rgba(255, 255, 255, 0.18),
+    inset 0 -4px 0 rgba(8, 5, 18, 0.55) !important;
+}
+
+.category-toggle:active,
+.category-toggle-btn:active,
+button.category-toggle-btn:active {
+  transform: translateY(1px) !important;
+}
+
+.category-toggle::before,
+.category-toggle-btn::before {
+  border-radius: inherit !important;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.14) 0%,
+    rgba(255, 255, 255, 0.04) 32%,
+    transparent 58%
+  ) !important;
+}
+
+.category-toggle .chevron,
+.category-toggle-btn .chevron {
+  color: #C4B5FD !important;
+}
+
+/* Count chip inside toggle — recessed, not flat Tailwind ghost */
+.category-toggle-btn .text-xs.rounded-full,
+.category-toggle-btn .bg-white\/10 {
+  background: rgba(8, 5, 18, 0.45) !important;
+  border: none !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+  color: var(--text-soft) !important;
+}
+
+/* Leaf topic pills — same secondary CTA geometry as the rest of the site */
+a.topic-leaf-btn,
+.topic-leaf-btn,
+span.topic-leaf-btn {
+  min-height: 2.65rem !important;
+  padding: 0.55rem 1.25rem !important;
+  border-radius: 9999px !important;
+  border: none !important;
+  border-color: transparent !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  letter-spacing: 0.01em !important;
+  color: #EDE4FF !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+  background: linear-gradient(180deg, #2E2348 0%, #1A1433 48%, #120D24 100%) !important;
+  box-shadow:
+    0 10px 22px -10px rgba(0, 0, 0, 0.6),
+    0 4px 12px -6px rgba(0, 0, 0, 0.4),
+    inset 0 2px 0 rgba(255, 255, 255, 0.14),
+    inset 0 -4px 0 rgba(8, 5, 18, 0.65) !important;
+}
+
+a.topic-leaf-btn:hover,
+.topic-leaf-btn:hover {
+  color: #ffffff !important;
+  border: none !important;
+  background: linear-gradient(180deg, #3D2A5C 0%, #241A40 48%, #1A1433 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow:
+    0 14px 28px -10px rgba(0, 0, 0, 0.62),
+    0 6px 16px -6px rgba(91, 33, 182, 0.35),
+    inset 0 2.5px 0 rgba(255, 255, 255, 0.18),
+    inset 0 -4px 0 rgba(8, 5, 18, 0.55) !important;
+}
+
+a.topic-leaf-btn:active,
+.topic-leaf-btn:active {
+  transform: translateY(1px) !important;
+}
+
+.topic-leaf-btn::before {
+  border-radius: inherit !important;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.14) 0%,
+    rgba(255, 255, 255, 0.04) 32%,
+    transparent 58%
+  ) !important;
+}
+
+/* “View →” — text-link tertiary, not a third outlined button */
+a.topic-section-link,
+.topic-section-link {
+  border: none !important;
+  border-color: transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0.35rem 0.5rem !important;
+  border-radius: 0.5rem !important;
+  color: var(--text-soft) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em !important;
+}
+
+a.topic-section-link:hover,
+.topic-section-link:hover {
+  color: #fff !important;
+  background: rgba(91, 33, 182, 0.16) !important;
+  border: none !important;
+}
+
+/* Soften the category tree rail */
+.topic-section-children {
+  border-left-color: rgba(124, 58, 237, 0.18) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .topic-root-card:hover,
+  a.topic-root-card:hover,
+  .category-toggle:hover,
+  .category-toggle-btn:hover,
+  button.category-toggle-btn:hover,
+  a.topic-leaf-btn:hover,
+  .topic-leaf-btn:hover {
+    transform: none !important;
+  }
 }

@@ -1,7 +1,7 @@
 /**
  * Builds the Living Truth Quizzes hub:
  *  - data/quizzes-index.json
- *  - Injects path cards, featured set, and compact catalog into quizzes.html
+ *  - Injects path cards and compact catalog shell into quizzes.html
  *
  * Run: node scripts/build-quizzes-hub.js
  */
@@ -31,19 +31,6 @@ const SOURCE_META = {
     image: 'images/breakdown-codex-card.webp',
   },
 };
-
-/** Curated “Start here” keys (sourceId/id). Falls back if missing. */
-const FEATURED_KEYS = [
-  'alice/essence-of-the-transmission',
-  'alice/3rd-density-overlays',
-  'alice/amnesia-vortex',
-  'alice/fake-linear-time',
-  'alice/firmament',
-  'alice/control-mechanisms',
-  'breakdown/essence-of-the-transmission',
-  'breakdown/crystalline-architecture',
-  'breakdown/frequency-trick',
-];
 
 const OVERVIEW_START = '<!-- QUIZZES-OVERVIEW-START -->';
 const OVERVIEW_END = '<!-- QUIZZES-OVERVIEW-END -->';
@@ -87,7 +74,6 @@ function collectQuizzes() {
         (Array.isArray(raw.questions) ? raw.questions.length : 0);
       const href = `quiz/${sourceId}/${id}.html`;
       const key = `${sourceId}/${id}`;
-      const featured = FEATURED_KEYS.includes(key);
 
       quizzes.push({
         id,
@@ -100,7 +86,6 @@ function collectQuizzes() {
         questionCount,
         href,
         diveHref: `dive/${sourceId}/${id}.html`,
-        featured,
         key,
       });
     }
@@ -112,23 +97,6 @@ function collectQuizzes() {
   });
 
   return quizzes;
-}
-
-function pickFeatured(quizzes) {
-  const byKey = new Map(quizzes.map((q) => [q.key, q]));
-  const picked = [];
-  for (const key of FEATURED_KEYS) {
-    const q = byKey.get(key);
-    if (q) picked.push(q);
-  }
-  // Fallback fill from Alice then Breakdown if curated list is short
-  if (picked.length < 6) {
-    for (const q of quizzes) {
-      if (picked.length >= 9) break;
-      if (!picked.includes(q)) picked.push(q);
-    }
-  }
-  return picked.slice(0, 9);
 }
 
 function renderPathCards(quizzes) {
@@ -154,39 +122,8 @@ ${cards}
 </div>`;
 }
 
-function renderFeatured(featured) {
-  if (!featured.length) return '';
-  const cards = featured
-    .map((quiz) => {
-      const badgeMod =
-        quiz.sourceId === 'breakdown' ? ' quiz-hub-featured-card__badge--breakdown' : '';
-      return `<a href="${escapeAttr(quiz.href)}" class="quiz-hub-featured-card" data-source="${escapeAttr(quiz.sourceId)}" data-quiz-key="${escapeAttr(quiz.key)}">
-  <span class="quiz-hub-featured-card__badge${badgeMod}">${escapeHtml(quiz.sourceLabel)}</span>
-  <span class="quiz-hub-featured-card__title">${escapeHtml(quiz.title)}</span>
-  <p class="quiz-hub-featured-card__sub">${escapeHtml(quiz.subtitle)}</p>
-  <span class="quiz-hub-featured-card__foot">
-    <span class="quiz-hub-featured-card__count">${quiz.questionCount} questions</span>
-    <span class="quiz-hub-featured-card__cta">Start quiz →</span>
-  </span>
-</a>`;
-    })
-    .join('\n');
-
-  return `<section class="quiz-hub-featured" aria-labelledby="quiz-featured-title">
-  <div class="quiz-hub-featured__head">
-    <h2 id="quiz-featured-title" class="quiz-hub-featured__title">Start here</h2>
-    <p class="quiz-hub-featured__hint">Curated entry points · ${featured.length} picks</p>
-  </div>
-  <div class="quiz-hub-featured__grid">
-${cards}
-  </div>
-</section>`;
-}
-
 function renderOverview(quizzes) {
-  const featured = pickFeatured(quizzes);
-  return `${renderPathCards(quizzes)}
-${renderFeatured(featured)}`;
+  return renderPathCards(quizzes);
 }
 
 function renderRow(quiz) {
@@ -237,7 +174,7 @@ function renderGroupedGrid(quizzes) {
   <p class="quiz-hub-lazy-note text-sm text-mem-muted">Loading catalog…</p>
 </div>
 <noscript>
-  <p class="text-sm text-mem-muted mt-4">JavaScript is required to browse the full quiz catalog. Featured quizzes above work without it, or open <a href="data/quizzes-index.json">quizzes-index.json</a>.</p>
+  <p class="text-sm text-mem-muted mt-4">JavaScript is required to browse the full quiz catalog. You can also open <a href="data/quizzes-index.json">quizzes-index.json</a>.</p>
 </noscript>`;
 }
 
@@ -300,7 +237,6 @@ function ensureOverviewMarkers(html) {
 
 function main() {
   const quizzes = collectQuizzes();
-  const featured = pickFeatured(quizzes);
   const sources = Object.values(SOURCE_META).map((meta) => ({
     ...meta,
     count: quizzes.filter((q) => q.sourceId === meta.id).length,
@@ -310,11 +246,10 @@ function main() {
     generatedAt: new Date().toISOString(),
     total: quizzes.length,
     sources,
-    featured: featured.map((q) => q.key),
     quizzes,
   };
   fs.writeFileSync(INDEX_OUT, JSON.stringify(index, null, 2), 'utf8');
-  console.log(`Wrote data/quizzes-index.json (${quizzes.length} quizzes, ${featured.length} featured)`);
+  console.log(`Wrote data/quizzes-index.json (${quizzes.length} quizzes)`);
 
   if (!fs.existsSync(HUB_HTML)) {
     console.warn('quizzes.html not found — index only');
@@ -332,7 +267,7 @@ function main() {
   html = injectBlock(html, GRID_START, GRID_END, renderGroupedGrid(quizzes));
   fs.writeFileSync(HUB_HTML, html, 'utf8');
   console.log(
-    `Injected overview + lazy catalog shell (${quizzes.length} quizzes in index, ${sources.length} sources) → quizzes.html`
+    `Injected path cards + lazy catalog shell (${quizzes.length} quizzes in index, ${sources.length} sources) → quizzes.html`
   );
 }
 
