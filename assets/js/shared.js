@@ -232,7 +232,13 @@ function initFooterSupportCopy() {
 
   const targetId = copyBtn.getAttribute('data-copy-target');
   const target = targetId ? document.getElementById(targetId) : null;
-  const originalLabel = copyBtn.textContent;
+  // Prefer inner label span so button sheen/stacking stays intact
+  const labelEl = copyBtn.querySelector('span') || copyBtn;
+  const originalLabel = (labelEl.textContent || '').trim() || 'Copy address';
+
+  const setLabel = (value) => {
+    labelEl.textContent = value;
+  };
 
   copyBtn.addEventListener('click', async () => {
     // Prefer full address from data-copy-text (display may be truncated)
@@ -269,18 +275,18 @@ function initFooterSupportCopy() {
     }
 
     if (copied) {
-      copyBtn.textContent = 'Copied';
+      setLabel('Copied');
       copyBtn.classList.add('copied');
       copyBtn.setAttribute('aria-live', 'polite');
       setTimeout(() => {
-        copyBtn.textContent = originalLabel;
+        setLabel(originalLabel);
         copyBtn.classList.remove('copied');
       }, 2000);
     } else {
-      copyBtn.textContent = 'Copy failed';
+      setLabel('Copy failed');
       copyBtn.setAttribute('aria-live', 'assertive');
       setTimeout(() => {
-        copyBtn.textContent = originalLabel;
+        setLabel(originalLabel);
       }, 2500);
     }
   });

@@ -750,14 +750,22 @@ a.btn-primary:focus-visible,
   pointer-events: none;
 }
 
-.btn-primary span,
+/* Arrow micro-nudge only — never slide full button labels (e.g. “Open Ko-fi”) */
+.btn-primary > span:not(:only-child),
 .group-hover\:translate-x-1 {
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-primary:hover span,
+.btn-primary:hover > span:not(:only-child),
 .group:hover .group-hover\:translate-x-1 {
   transform: translateX(3px);
+}
+
+/* Footer support CTAs: labels stay locked; whole button lifts */
+.footer-donate-btn > span,
+.footer-donate-btn.btn-primary:hover > span,
+.footer-support .btn-primary:hover > span {
+  transform: none !important;
 }
 
 /* Secondary — identical chrome; darker fill + soft text */
@@ -1604,10 +1612,13 @@ button.btn-secondary:disabled,
   color: #fff;
 }
 
-.footer-support-copy.copied {
-  box-shadow:
-    0 0 0 1px rgba(167, 139, 250, 0.45),
-    0 0 20px -4px rgba(139, 92, 246, 0.55) !important;
+/* Success feedback keeps the same 3D button chrome (no flat neon ring) */
+.footer-support-copy.copied,
+.footer-support-copy.copied:hover {
+  background: var(--btn-fill-primary-hover) !important;
+  box-shadow: var(--surface-tier-btn-hover) !important;
+  filter: none !important;
+  transform: none !important;
 }
 
 .footer-copyright {

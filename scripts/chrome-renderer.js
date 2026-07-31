@@ -232,7 +232,7 @@ function renderFooter(footerData, options = {}) {
                   <span class="footer-donate-label">Bitcoin</span>
                   <p class="footer-donate-desc">${bitcoinHint}</p>
                   <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcDisplay}</code>
-                  <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address">Copy address</button>
+                  <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address"><span>Copy address</span></button>
                 </div>
               </div>
             </div>`;
