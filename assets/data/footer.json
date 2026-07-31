@@ -40,7 +40,7 @@
     {
       "name": "Rumble",
       "href": "https://rumble.com/c/21stMemory",
-      "icon": "video"
+      "icon": "rumble"
     },
     {
       "name": "YouTube",
@@ -70,12 +70,12 @@
   ],
   "support": {
     "heading": "Support the archive",
-    "eyebrow": "Optional",
-    "message": "21st Memory is free for everyone, always — no paywalls, no pressure. Support comes in many forms: sharing a topic, inviting others into the work, joining the community, or contributing if you choose. Contributions help cover the costs of keeping this archive available.",
-    "messageShort": "Free for everyone, always. Share the work, join the community, or contribute if you choose — every form of support helps keep the archive open.",
-    "fundsLabel": "Ways to support",
-    "funds": ["Share the work", "Join the community", "Help cover AI, hosting & operations"],
-    "note": "Always free · Many ways to help · Grateful for every form of support",
+    "eyebrow": "",
+    "message": "21st Memory is free for everyone — no paywalls, no accounts required. If this archive has been useful, you can help keep it open by sharing a topic, inviting others in, or contributing to hosting and AI costs.",
+    "messageShort": "Free for everyone. Share a topic, invite others, or contribute to keep the archive open.",
+    "fundsLabel": "How people help",
+    "funds": ["Share a topic", "Join the community", "Cover hosting & AI"],
+    "note": "Always free · No obligation · Every form of support matters",
     "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
     "qrImage": "assets/images/bitcoin-qr.webp",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",
@@ -83,7 +83,7 @@
     "kofi": {
       "href": "https://ko-fi.com/the21stmemory",
       "buttonText": "Open Ko-fi",
-      "hint": "One-time tip or monthly support — simple and quick.",
+      "hint": "One-time or monthly — simple and quick.",
       "image": "images/kofi.webp",
       "imageAlt": "Ko-fi — support the living archive"
     }

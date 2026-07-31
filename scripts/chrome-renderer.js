@@ -3,6 +3,8 @@ const SITE_ICON_SVGS = {
   chat: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg>',
   x: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267L8.267 4H4z"/><path d="M4 20l6.768-6.768m2.46-2.46L20 4"/></svg>',
   video: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m10 9 6 3-6 3z"/></svg>',
+  /* Rumble: circular play mark — distinct from YouTube’s landscape screen */
+  rumble: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 8.75v6.5L16.25 12 10 8.75z"/></svg>',
   youtube: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 6-3-6-3z"/></svg>',
   tiktok: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4h3a5 5 0 0 0 5 5"/></svg>',
   instagram: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>',
@@ -149,13 +151,16 @@ function renderFooter(footerData, options = {}) {
 
   const kofi = footerData.support?.kofi;
   const gofundme = footerData.support?.gofundme;
-  const eyebrow = footerData.support?.eyebrow || 'Optional';
+  const eyebrow = (footerData.support?.eyebrow || '').trim();
   const heading = footerData.support?.heading || 'Support the archive';
-  const supportNote = footerData.support?.note || 'Always free · Many ways to help · Grateful for every form of support';
+  const supportNote = footerData.support?.note || 'Always free · No obligation · Every form of support matters';
   const supportMessage = footerData.support?.message
-    || '21st Memory is free for everyone, always — no paywalls, no pressure. Support comes in many forms: sharing a topic, inviting others into the work, joining the community, or contributing if you choose. Contributions help cover the costs of keeping this archive available.';
+    || '21st Memory is free for everyone — no paywalls, no accounts required. If this archive has been useful, you can help keep it open by sharing a topic, inviting others in, or contributing to hosting and AI costs.';
   const supportMessageShort = footerData.support?.messageShort
-    || 'Free for everyone, always. Share the work, join the community, or contribute if you choose — every form of support helps keep the archive open.';
+    || 'Free for everyone. Share a topic, invite others, or contribute to keep the archive open.';
+  const eyebrowHTML = eyebrow
+    ? `<p class="footer-support-eyebrow page-hero-eyebrow">${eyebrow}</p>`
+    : '';
 
   const funds = Array.isArray(footerData.support?.funds) ? footerData.support.funds : [];
   const fundsHTML = funds.length
@@ -235,7 +240,7 @@ function renderFooter(footerData, options = {}) {
   const supportHTML = footerData.support
     ? `<div class="footer-support" id="support">
             <div class="footer-support-head">
-              <p class="footer-support-eyebrow page-hero-eyebrow">${eyebrow}</p>
+              ${eyebrowHTML}
               <h2 class="footer-support-title page-hero-title--page">${heading}</h2>
               <p class="footer-support-message footer-support-message--long page-hero-lead">${supportMessage}</p>
               <p class="footer-support-message footer-support-message--short page-hero-lead">${supportMessageShort}</p>

@@ -120,7 +120,7 @@ function renderSubtopic(sourceId, sub) {
           <button type="button" class="category-toggle-btn" aria-expanded="${expanded ? 'true' : 'false'}" aria-controls="${TopicUtils.escapeAttr(sectionId)}-children" data-toggle-section>
             <span class="chevron" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('chevron', 'card-icon-sm') : ''}</span>
             <span class="category-toggle-btn__label flex-1 min-w-0">${TopicUtils.escapeHtml(sub.title)}</span>${subBadge}
-            <span class="text-xs px-2.5 py-0.5 bg-white/10 rounded-full text-mem-muted flex-shrink-0">${visibleLeaves.length}</span>
+            <span class="topic-control-count flex-shrink-0">${visibleLeaves.length}</span>
           </button>
           ${viewLink}
         </div>
@@ -649,9 +649,9 @@ async function loadSourceViewer() {
       <div id="topics-controls"></div>
       <div id="topics-main-root-section" hidden></div>
       <div class="topics-categories-section">
-        <div class="flex items-center justify-between mb-10">
+        <div class="flex items-center justify-between gap-4 mb-10">
           <h2 class="text-4xl font-semibold tracking-tight">Topics by Category</h2>
-          <div class="hidden md:block text-xs px-4 py-1.5 bg-mem-violet/10 text-mem-muted rounded-full tracking-wide">Click any card to dive deep</div>
+          <p class="hidden md:block text-xs text-mem-dim tracking-wide m-0">Click any card to dive deep</p>
         </div>
         <div id="topics-list"></div>
       </div>

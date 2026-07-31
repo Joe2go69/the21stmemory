@@ -69,15 +69,6 @@
     },
     {
       "section": "telegram",
-      "label": "VELMA SHORTS",
-      "title": "Velma Shorts",
-      "description": "Short videos featuring Velma's insights and transmissions.",
-      "action": "Join Channel",
-      "icon": "mobile",
-      "href": "https://t.me/velmashorts"
-    },
-    {
-      "section": "telegram",
       "label": "CURATED POSTS",
       "title": "21 Posts",
       "description": "Curated key posts and excerpts from the transmissions.",
@@ -96,12 +87,25 @@
     },
     {
       "section": "telegram",
-      "label": "DEEP DIVES",
+      "label": "LEON SINCLAIR",
       "title": "Leon's Synopsis",
-      "description": "Official summaries and deep-dive breakdowns by Leon Sinclair.",
+      "description": "Official summaries, deep-dive breakdowns, and videos by Leon Sinclair.",
       "action": "Join Channel",
       "icon": "book",
-      "href": "https://t.me/leonsynopsis"
+      "href": "https://t.me/leonsynopsis",
+      "featured": true,
+      "priority": 3
+    },
+    {
+      "section": "telegram",
+      "label": "VELMA",
+      "title": "Velma Shorts",
+      "description": "Short videos featuring Velma's insights and transmissions.",
+      "action": "Join Channel",
+      "icon": "mobile",
+      "href": "https://t.me/velmashorts",
+      "featured": true,
+      "priority": 4
     },
     {
       "section": "telegram",
@@ -113,7 +117,7 @@
       "href": "https://t.me/The_21st_Memory",
       "badge": "This archive",
       "featured": true,
-      "priority": 4
+      "priority": 6
     },
     {
       "section": "rumble",
@@ -124,7 +128,7 @@
       "icon": "mic",
       "href": "https://rumble.com/user/sibley22",
       "featured": true,
-      "priority": 3
+      "priority": 5
     },
     {
       "section": "rumble",

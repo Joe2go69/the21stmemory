@@ -156,7 +156,7 @@ function renderFeaturedRow() {
 }
 
 function renderFeaturedSkeleton() {
-  return Array.from({ length: 4 }, () => `
+  return Array.from({ length: 6 }, () => `
     <div class="skeleton network-skeleton-card" aria-hidden="true">
       <div class="skeleton-bar" style="width:35%;height:0.65rem;margin-bottom:0.75rem;"></div>
       <div class="skeleton-bar" style="width:60%;height:1.1rem;margin-bottom:0.85rem;"></div>
