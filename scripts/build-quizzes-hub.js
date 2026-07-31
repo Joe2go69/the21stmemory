@@ -104,14 +104,23 @@ function renderPathCards(quizzes) {
     .map((meta) => {
       const count = quizzes.filter((q) => q.sourceId === meta.id).length;
       if (!count) return '';
-      return `<button type="button" class="quiz-hub-path-card quiz-hub-path-card--${escapeAttr(meta.id)}" data-quiz-path="${escapeAttr(meta.id)}" aria-controls="quiz-browse">
-  <p class="quiz-hub-path-card__eyebrow">${escapeHtml(meta.short)}</p>
-  <h2 class="quiz-hub-path-card__title">${escapeHtml(meta.title)}</h2>
-  <p class="quiz-hub-path-card__desc">${escapeHtml(meta.desc || meta.short)}</p>
-  <div class="quiz-hub-path-card__meta">
-    <span class="quiz-hub-path-card__count">${count} quizzes</span>
-    <span class="quiz-hub-path-card__cta">Browse path →</span>
-  </div>
+      const img = meta.image
+        ? `<span class="quiz-hub-path-card__media" aria-hidden="true">
+  <img src="${escapeAttr(meta.image)}" alt="" class="quiz-hub-path-card__img" width="640" height="360" loading="lazy" decoding="async" />
+  <span class="quiz-hub-path-card__scrim"></span>
+</span>`
+        : '';
+      return `<button type="button" class="quiz-hub-path-card quiz-hub-path-card--${escapeAttr(meta.id)}${meta.image ? ' quiz-hub-path-card--has-media' : ''}" data-quiz-path="${escapeAttr(meta.id)}" aria-controls="quiz-browse">
+  ${img}
+  <span class="quiz-hub-path-card__body">
+    <p class="quiz-hub-path-card__eyebrow">${escapeHtml(meta.short)}</p>
+    <h2 class="quiz-hub-path-card__title">${escapeHtml(meta.title)}</h2>
+    <p class="quiz-hub-path-card__desc">${escapeHtml(meta.desc || meta.short)}</p>
+    <span class="quiz-hub-path-card__meta">
+      <span class="quiz-hub-path-card__count">${count} quizzes</span>
+      <span class="quiz-hub-path-card__cta">Browse path →</span>
+    </span>
+  </span>
 </button>`;
     })
     .filter(Boolean)
@@ -178,29 +187,9 @@ function renderGroupedGrid(quizzes) {
 </noscript>`;
 }
 
-function renderStats(quizzes) {
-  const bySource = {};
-  for (const q of quizzes) {
-    bySource[q.sourceId] = (bySource[q.sourceId] || 0) + 1;
-  }
-  const alice = bySource.alice || 0;
-  const breakdown = bySource.breakdown || 0;
-
-  // Compact totals kept for filter affordance (hidden in overview CSS if needed)
-  return `<div class="quiz-hub-stats quiz-hub-stats--compact" aria-label="Quiz archive totals" hidden>
-  <button type="button" class="quiz-hub-stat is-active" data-quiz-filter="all" aria-pressed="true">
-    <div class="quiz-hub-stat__value">${quizzes.length}</div>
-    <div class="quiz-hub-stat__label">All quizzes</div>
-  </button>
-  <button type="button" class="quiz-hub-stat" data-quiz-filter="alice" aria-pressed="false">
-    <div class="quiz-hub-stat__value">${alice}</div>
-    <div class="quiz-hub-stat__label">Alice transmission</div>
-  </button>
-  <button type="button" class="quiz-hub-stat" data-quiz-filter="breakdown" aria-pressed="false">
-    <div class="quiz-hub-stat__value">${breakdown}</div>
-    <div class="quiz-hub-stat__label">Mega Breakdown</div>
-  </button>
-</div>`;
+/** Stats strip removed — path cards + toolbar filters cover the same ground. */
+function renderStats() {
+  return '';
 }
 
 function injectBlock(html, start, end, content) {
@@ -261,7 +250,7 @@ function main() {
   html = injectBlock(html, OVERVIEW_START, OVERVIEW_END, renderOverview(quizzes));
 
   if (html.includes(STATS_START) && html.includes(STATS_END)) {
-    html = injectBlock(html, STATS_START, STATS_END, renderStats(quizzes));
+    html = injectBlock(html, STATS_START, STATS_END, renderStats());
   }
 
   html = injectBlock(html, GRID_START, GRID_END, renderGroupedGrid(quizzes));

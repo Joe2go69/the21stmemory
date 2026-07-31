@@ -494,8 +494,7 @@ ${rows}
       }
       if (
         !filterControls.includes(filterBtn) &&
-        !filterBtn.closest('#quizzes-toolbar') &&
-        !filterBtn.closest('.quiz-hub-stats')
+        !filterBtn.closest('#quizzes-toolbar')
       ) {
         return;
       }
