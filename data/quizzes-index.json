@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T03:09:40.186Z",
-  "total": 113,
+  "generatedAt": "2026-08-10T11:17:44.747Z",
+  "total": 114,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 53
+      "count": 54
     }
   ],
   "quizzes": [
@@ -1490,6 +1490,19 @@
       "href": "quiz/breakdown/vibrant-reality.html",
       "diveHref": "dive/breakdown/vibrant-reality.html",
       "key": "breakdown/vibrant-reality"
+    },
+    {
+      "id": "water-domes",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Water Domes",
+      "subtitle": "Test your grasp of Water Domes — liquid sound and emotional density extraction, Ground Healers from the Council of 12 Suns, Crystal Halls and Star Pods, Spirit Tree axis, cloaking fields, and sovereign choice after heart restoration.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/water-domes.html",
+      "diveHref": "dive/breakdown/water-domes.html",
+      "key": "breakdown/water-domes"
     }
   ]
 }
