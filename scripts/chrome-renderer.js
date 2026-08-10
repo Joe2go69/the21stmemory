@@ -152,12 +152,12 @@ function renderFooter(footerData, options = {}) {
   const kofi = footerData.support?.kofi;
   const gofundme = footerData.support?.gofundme;
   const eyebrow = (footerData.support?.eyebrow || '').trim();
-  const heading = footerData.support?.heading || 'Support the archive';
-  const supportNote = footerData.support?.note || 'Always free · No obligation · Every form of support matters';
+  const heading = footerData.support?.heading || 'Help the archive grow';
+  const supportNote = footerData.support?.note || 'Always free · Entirely optional · Sharing, community, and contributions all count';
   const supportMessage = footerData.support?.message
-    || '21st Memory is free for everyone — no paywalls, no accounts required. If this archive has been useful, you can help keep it open by sharing a topic, inviting others in, or contributing to hosting and AI costs.';
+    || '21st Memory is free for everyone — no paywalls, no accounts. It is independently built and maintained, and the ongoing costs of hosting, tools, and AI currently exceed what the project can cover on its own. If this archive has been useful, sharing a topic, inviting others into the community, or contributing toward operating costs helps it stay available and keep expanding.';
   const supportMessageShort = footerData.support?.messageShort
-    || 'Free for everyone. Share a topic, invite others, or contribute to keep the archive open.';
+    || 'Free for all, independently run. Operating costs currently outpace what the project covers alone. Sharing, community, and contributions help it stay available and keep growing.';
   const eyebrowHTML = eyebrow
     ? `<p class="footer-support-eyebrow page-hero-eyebrow">${eyebrow}</p>`
     : '';

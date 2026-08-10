@@ -73,10 +73,10 @@
     }
   ],
   "support": {
-    "heading": "Keep the archive open",
+    "heading": "Help the archive grow",
     "eyebrow": "Independent · Always free",
-    "message": "21st Memory is free for everyone — no paywalls, no accounts. It is independently built and maintained, and the ongoing costs of hosting, tools, and AI currently exceed what the project can cover on its own. If this archive has been useful, you can help by sharing a topic, inviting others into the community, or contributing toward operating costs — every form of support keeps it available to all.",
-    "messageShort": "Free for all, independently run. Costs currently outpace what the project covers alone. Sharing, community, and contributions all help keep it open.",
+    "message": "21st Memory is free for everyone — no paywalls, no accounts. It is independently built and maintained, and the ongoing costs of hosting, tools, and AI currently exceed what the project can cover on its own. If this archive has been useful, sharing a topic, inviting others into the community, or contributing toward operating costs helps it stay available and keep expanding.",
+    "messageShort": "Free for all, independently run. Operating costs currently outpace what the project covers alone. Sharing, community, and contributions help it stay available and keep growing.",
     "fundsLabel": "How people help",
     "funds": ["Share a topic", "Join the community", "Help fund hosting & AI"],
     "note": "Always free · Entirely optional · Sharing, community, and contributions all count",
@@ -87,7 +87,7 @@
     "gofundme": {
       "href": "https://gofund.me/7e47141e0",
       "buttonText": "Open GoFundMe",
-      "hint": "Campaign for hosting, tools, and keeping the archive free.",
+      "hint": "Toward hosting, tools, and expanding the archive.",
       "image": "images/gofundme.webp",
       "imageAlt": "GoFundMe — support the living archive"
     },
