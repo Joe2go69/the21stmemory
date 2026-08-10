@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-31T06:16:54.110Z",
-  "total": 112,
+  "generatedAt": "2026-08-10T03:09:40.186Z",
+  "total": 113,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 52
+      "count": 53
     }
   ],
   "quizzes": [
@@ -1022,6 +1022,19 @@
       "href": "quiz/breakdown/harmonic-lenses.html",
       "diveHref": "dive/breakdown/harmonic-lenses.html",
       "key": "breakdown/harmonic-lenses"
+    },
+    {
+      "id": "healing-sanctuaries",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Healing Sanctuaries",
+      "subtitle": "Test your grasp of Healing Sanctuaries — Water Domes, Crystal Halls, and Star Pods; Saferons from the Council of 12 Suns; projection cloaking; Spirit Tree light feed; planetary crystal memory; and sovereign choice after stabilization.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/healing-sanctuaries.html",
+      "diveHref": "dive/breakdown/healing-sanctuaries.html",
+      "key": "breakdown/healing-sanctuaries"
     },
     {
       "id": "hyperborean-heart",

@@ -407,9 +407,9 @@
     {
       "id": "healing-sanctuaries",
       "title": "Healing Sanctuaries",
-      "description": "Water Domes, Crystal Halls, and Star Pods for restoration through the final transition.",
-      "topic_image": "images/breakdown/placeholder.webp",
-      "is_placeholder": true,
+      "description": "Healing Sanctuaries are pure frequency chambers of light, sound, and living crystal — Water Domes, Crystal Halls, and Star Pods — where traumatized true human souls stabilize, clear energetic damage, and prepare for higher evolutionary paths after the Mega Breakdown.",
+      "topic_image": "images/breakdown/healing-sanctuaries.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "water-domes",
