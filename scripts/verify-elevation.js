@@ -62,8 +62,9 @@ function fileSize(rel) {
   check(g, 'quizzes.js continue strip', qjs.includes('paintContinueStrip'));
 
   const index = read('index.html');
-  check(g, 'home banner modifiers', index.includes('home-banner--editorial') && index.includes('home-banner--focus'));
-  check(g, 'home banner srcset', index.includes('about-640.webp') && index.includes('srcset'));
+  // Product hierarchy: Codex hero + Oracle focus pair (About is editorial lower, not a banner)
+  check(g, 'home banner modifiers', index.includes('home-banner--product') && index.includes('home-banner--focus'));
+  check(g, 'home banner srcset', index.includes('codex-banner') && index.includes('srcset'));
 
   const network = read('network.html');
   check(g, 'network filter bar no flex-wrap util', !/id="network-filters"[^>]*flex-wrap/.test(network));
@@ -80,7 +81,7 @@ function fileSize(rel) {
   check(g, 'index uses main.min.css', index.includes('main.min.css'));
   check(g, 'index uses fonts.css', index.includes('fonts.css'));
   check(g, 'index no google fonts', !index.includes('fonts.googleapis.com'));
-  check(g, 'index scripts deferred', /icons\.js" defer/.test(index) && /home\.js" defer/.test(index));
+  check(g, 'index scripts deferred', /icons\.js(?:\?[^"]*)?" defer/.test(index) && /home\.js(?:\?[^"]*)?" defer/.test(index));
 
   const minSize = fileSize('assets/css/main.min.css');
   const fullSize = fileSize('assets/css/main.css');

@@ -40,9 +40,23 @@ function get(url) {
 async function main() {
   fs.mkdirSync(FONT_DIR, { recursive: true });
   let css = (await get(CSS_URL)).toString('utf8');
+
+  // Keep only latin faces (English site) — drop cyrillic/greek/vietnamese/latin-ext bulk
+  const faces = css.match(/\/\* [^*]+ \*\/\s*@font-face\s*\{[\s\S]*?\}/g) || [];
+  const latinFaces = faces.filter((block) => /\/\* latin \*\//.test(block));
+  css =
+    '/* Self-hosted type — latin only (from Google Fonts download) */\n\n' +
+    (latinFaces.length ? latinFaces.join('\n\n') : css) +
+    '\n';
+
   const re = /url\((https:\/\/fonts\.gstatic\.com\/[^)]+)\)/g;
   const urls = [...css.matchAll(re)].map((m) => m[1]);
-  console.log(`Found ${urls.length} font files`);
+  console.log(`Found ${urls.length} latin font files`);
+
+  // Clear unused subset files so the fonts folder stays lean
+  for (const name of fs.readdirSync(FONT_DIR)) {
+    if (name.endsWith('.woff2')) fs.unlinkSync(path.join(FONT_DIR, name));
+  }
 
   for (const url of urls) {
     const file = url.split('/').pop().split('?')[0];

@@ -8,6 +8,14 @@ Short guide for keeping the living-archive look consistent after the elevation p
 2. **Performance** (min CSS, local fonts, lazy quiz catalog, compressed images)  
 3. **Maintainability** (one button language, chrome from JSON, rebuild scripts)
 
+## Navigation (IA)
+
+Primary bar (from `assets/data/navbar.json`): **Codex · Quizzes · Network · Support · [Telegram]**  
+- Logo = Home (no separate Home link)  
+- Oracle / Media / About live on the homepage and in footer Explore — not top nav  
+- Support always uses `index.html#support` (works from every page)  
+- After editing JSON: `npm run build:chrome` (+ quiz/dive chrome sync, or full `npm run build`)
+
 ## Design tokens (CSS)
 
 Source of truth: `assets/css/main.css` (`:root`).
@@ -35,7 +43,8 @@ Source of truth: `assets/css/main.css` (`:root`).
 ### Styles
 1. Edit **`assets/css/main.css` only** (source).  
 2. Run **`npm run minify:css`** so `assets/css/main.min.css` stays in sync.  
-3. Pages load **`main.min.css`** — not the full source.
+3. Pages load **`main.min.css`** — not the full source.  
+4. Optional cleanup after large CSS edits: **`npm run prune:css`** (dedupe last-wins + drop unused selectors). Backups land as `main.css.pre-*.bak`.
 
 ### Shared nav / footer
 1. Edit `assets/data/navbar.json` and/or `assets/data/footer.json`.  
@@ -51,13 +60,14 @@ Do **not** hand-edit `<nav class="navbar">` / `<footer class="site-footer">` acr
 4. Overview is path-first (Alice / Breakdown cards); no curated “Start here” featured grid.
 
 ### Fonts
-- Self-hosted in `assets/fonts/` + `assets/css/fonts.css`.  
-- Refresh with `npm run build:fonts` then `npm run apply:perf` if HTML heads regress.
+- Self-hosted in `assets/fonts/` + `assets/css/fonts.css` — **latin only** (English site).  
+- Refresh with `npm run build:fonts` (script strips non-latin subsets) then `npm run apply:perf` if HTML heads regress.
 
 ### Images
 - Prefer WebP; keep display sizes honest.  
 - Home banners use `srcset` (`*-640.webp`, `*-960.webp`).  
-- Bulk recompress: `npm run optimize:images`.
+- Bulk recompress: `npm run optimize:images`.  
+- Do not commit intermediate brand files (`*.prev.webp`, `*.tmp`, `*-source.webp`, ref JPGs).
 
 ## Full production build
 

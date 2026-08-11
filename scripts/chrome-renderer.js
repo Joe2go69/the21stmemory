@@ -165,7 +165,19 @@ function renderFooter(footerData, options = {}) {
   const funds = Array.isArray(footerData.support?.funds) ? footerData.support.funds : [];
   const fundsHTML = funds.length
     ? `<ul class="footer-support-funds" aria-label="${footerData.support.fundsLabel || 'Ways to support'}">
-        ${funds.map((item) => `<li>${item}</li>`).join('')}
+        ${funds
+          .map((item) => {
+            if (item && typeof item === 'object') {
+              const title = item.title || item.label || '';
+              const desc = item.desc || item.description || '';
+              return `<li class="footer-support-fund">
+          <span class="footer-support-fund__title">${title}</span>
+          ${desc ? `<span class="footer-support-fund__desc">${desc}</span>` : ''}
+        </li>`;
+            }
+            return `<li class="footer-support-fund"><span class="footer-support-fund__title">${item}</span></li>`;
+          })
+          .join('')}
       </ul>`
     : '';
 
@@ -275,13 +287,15 @@ function renderFooter(footerData, options = {}) {
       <div class="footer-inner max-w-6xl mx-auto px-6">
         <div class="footer-main">
           <div class="footer-brand">
-            <a href="${homeHref}" class="footer-brand-link" aria-label="21st Memory home">
+            <div class="footer-brand-row">
               <span class="footer-brand-mark-wrap" aria-hidden="true">${markHTML}</span>
-              <span class="footer-brand-copy">
-                <span class="footer-brand-name">${footerData.brand.name}</span>
-                <span class="footer-brand-subtitle">${brandSubtitle}</span>
-              </span>
-            </a>
+              <a href="${homeHref}" class="footer-brand-link" aria-label="21st Memory home">
+                <span class="footer-brand-copy">
+                  <span class="footer-brand-name">${footerData.brand.name}</span>
+                  <span class="footer-brand-subtitle">${brandSubtitle}</span>
+                </span>
+              </a>
+            </div>
             <p class="footer-brand-desc">${footerData.brand.description}</p>
           </div>
           <div class="footer-col footer-col--links">

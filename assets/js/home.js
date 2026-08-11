@@ -108,8 +108,9 @@ function renderLiveArchiveBadge(live, total) {
 
 function renderVideoPoster(title) {
   const safe = escapeHtml(title || 'Video');
+  // Single brand poster for all home facades — no per-video thumbnail hunt
   return `
-    <canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="${safe}" aria-hidden="true"></canvas>
+    <img src="images/video-poster.webp" alt="" class="home-video-poster-img absolute inset-0 w-full h-full object-cover" width="960" height="540" decoding="async" />
     <div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>
     <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">
       <div class="play-button">
@@ -121,7 +122,7 @@ function renderVideoPoster(title) {
   `;
 }
 
-/** Lightweight click-to-play for homepage facades (2 videos). */
+/** Lightweight click-to-play for homepage featured video facade. */
 function setupHomeVideos(root) {
   if (!root) return;
   const wraps = Array.from(root.querySelectorAll('[data-rumble-embed]'));
@@ -146,9 +147,6 @@ function setupHomeVideos(root) {
         other.setAttribute('role', 'button');
         other.setAttribute('tabindex', '0');
         other.setAttribute('aria-label', `Play video: ${otherTitle}`);
-        if (typeof window.initParticleBackgrounds === 'function') {
-          window.initParticleBackgrounds(other);
-        }
       });
 
       wrap.innerHTML = `

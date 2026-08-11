@@ -1,6 +1,6 @@
 /* =============================================
-   21st Memory â€” Main CSS (Professional Serious Archive Theme)
-   Serious â€¢ Important â€¢ Humanity Knowledge
+   21st Memory Ã¢â‚¬â€ Main CSS (Professional Serious Archive Theme)
+   Serious Ã¢â‚¬Â¢ Important Ã¢â‚¬Â¢ Humanity Knowledge
    ============================================= */
 /* Fonts loaded via <link> in each HTML page for faster discovery (see head preconnect) */
 
@@ -38,75 +38,73 @@
   --surface-inset: #120A2E;
   --link-hover: #C026D3;
   --surface-gloss: linear-gradient(to bottom, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0.03) 38%, transparent 68%);
-  /* Soft edge glow â€” never a hard 1px stroke outline */
-  --surface-rim: 0 0 32px -14px rgba(91, 33, 182, 0.28);
+  /* Soft edge glow — never a hard 1px stroke outline */
+  --surface-rim: 0 0 28px -16px rgba(91, 33, 182, 0.16);
 
-  /* â”€â”€ 3D depth design tokens (lit-from-above, consistent material tiers) â”€â”€ */
-  --depth-inset-top: inset 0 1.5px 0 rgba(255, 255, 255, 0.12);
-  --depth-inset-top-strong: inset 0 2.5px 0 rgba(255, 255, 255, 0.36);
-  --depth-inset-bottom: inset 0 -1.5px 0 rgba(0, 0, 0, 0.28);
-  --depth-inset-bottom-strong: inset 0 -5px 0 rgba(30, 17, 53, 0.72);
-  --depth-ambient: 0 0 48px -12px rgba(91, 33, 182, 0.22);
-  --depth-elev-1: 0 10px 28px -12px rgba(0, 0, 0, 0.55);
+  /* —— Soft professional depth (lit-from-above, one material family) ——
+     Resting surfaces: soft cast + light rim. No purple halo stack.
+     Hover may add a quiet violet breath. Buttons: thin bevel, not plastic slab. */
+  --depth-inset-top: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  --depth-inset-top-strong: inset 0 1.5px 0 rgba(255, 255, 255, 0.18);
+  --depth-inset-bottom: inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+  --depth-inset-bottom-strong: inset 0 -2px 0 rgba(30, 17, 53, 0.42);
+  --depth-ambient: 0 0 32px -18px rgba(91, 33, 182, 0.12);
+  --depth-elev-1: 0 8px 22px -12px rgba(0, 0, 0, 0.45);
   --depth-elev-1-hover:
-    0 18px 36px -8px rgba(0, 0, 0, 0.65),
-    0 0 28px -12px rgba(91, 33, 182, 0.28);
+    0 12px 28px -12px rgba(0, 0, 0, 0.52),
+    0 0 22px -14px rgba(91, 33, 182, 0.14);
   --depth-elev-2:
-    0 16px 42px -14px rgba(0, 0, 0, 0.68),
-    0 8px 22px -10px rgba(0, 0, 0, 0.42);
+    0 14px 36px -16px rgba(0, 0, 0, 0.52),
+    0 4px 12px -6px rgba(0, 0, 0, 0.28);
   --depth-elev-2-hover:
-    0 26px 56px -14px rgba(0, 0, 0, 0.78),
-    0 12px 28px -8px rgba(91, 33, 182, 0.28);
+    0 18px 42px -16px rgba(0, 0, 0, 0.58),
+    0 6px 16px -8px rgba(0, 0, 0, 0.32),
+    0 0 24px -16px rgba(91, 33, 182, 0.14);
   --depth-elev-3:
-    0 22px 50px -14px rgba(0, 0, 0, 0.68),
-    0 10px 28px -10px rgba(0, 0, 0, 0.45);
+    0 16px 40px -16px rgba(0, 0, 0, 0.54),
+    0 6px 16px -8px rgba(0, 0, 0, 0.3);
   --depth-recessed:
-    inset 0 3px 8px rgba(0, 0, 0, 0.35),
+    inset 0 2px 6px rgba(0, 0, 0, 0.28),
     inset 0 1px 0 rgba(255, 255, 255, 0.04);
-  --gloss-surface: linear-gradient(to bottom, rgba(255, 255, 255, 0.08) 0%, transparent 45%);
+  --gloss-surface: linear-gradient(to bottom, rgba(255, 255, 255, 0.07) 0%, transparent 45%);
 
-  /* Tier composites â€” realistic 3D material without thin stroke borders.
-     Depth comes from cast shadow + top highlight + bottom undercut. */
+  /* Tier composites — soft elevation, not multi-glow 3D fights.
+     Depth = one cast stack + light top rim + soft undercut. Ambient only on hover. */
   --surface-tier-recessed: var(--depth-recessed);
   --surface-tier-base:
     var(--depth-elev-2),
-    var(--depth-ambient),
     var(--depth-inset-top),
     var(--depth-inset-bottom);
   --surface-tier-base-hover:
     var(--depth-elev-2-hover),
-    inset 0 2px 0 rgba(255, 255, 255, 0.16),
-    inset 0 -2px 0 rgba(0, 0, 0, 0.28),
-    0 0 32px -12px rgba(91, 33, 182, 0.38);
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.2);
   --surface-tier-elevated:
     var(--depth-elev-2),
-    var(--depth-ambient),
     var(--depth-inset-top),
     var(--depth-inset-bottom);
   --surface-tier-elevated-hover:
     var(--depth-elev-2-hover),
-    inset 0 2px 0 rgba(255, 255, 255, 0.16),
-    inset 0 -2px 0 rgba(0, 0, 0, 0.28),
-    0 0 36px -10px rgba(91, 33, 182, 0.42);
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.2);
   --surface-tier-floating:
-    var(--depth-ambient),
     var(--depth-elev-3),
-    inset 0 2px 0 rgba(255, 255, 255, 0.1),
-    inset 0 -1.5px 0 rgba(0, 0, 0, 0.22);
+    var(--depth-inset-top),
+    var(--depth-inset-bottom);
   /* One shadow recipe for ALL buttons (primary + secondary + chips) */
   --surface-tier-btn:
-    0 10px 22px -10px rgba(0, 0, 0, 0.6),
-    0 4px 12px -6px rgba(0, 0, 0, 0.4),
-    inset 0 2px 0 rgba(255, 255, 255, 0.14),
-    inset 0 -4px 0 rgba(8, 5, 18, 0.65);
+    0 8px 18px -8px rgba(0, 0, 0, 0.5),
+    0 2px 6px -2px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.16),
+    inset 0 -2px 0 rgba(8, 5, 18, 0.45);
   --surface-tier-btn-hover:
-    0 14px 28px -10px rgba(0, 0, 0, 0.62),
-    0 6px 16px -6px rgba(91, 33, 182, 0.28),
-    inset 0 2.5px 0 rgba(255, 255, 255, 0.18),
-    inset 0 -4px 0 rgba(8, 5, 18, 0.55);
+    0 12px 24px -10px rgba(0, 0, 0, 0.52),
+    0 4px 12px -4px rgba(76, 29, 149, 0.26),
+    inset 0 1.5px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -2px 0 rgba(8, 5, 18, 0.4);
   --surface-tier-btn-active:
-    0 4px 12px -6px rgba(0, 0, 0, 0.5),
-    inset 0 2px 5px rgba(0, 0, 0, 0.4),
+    0 2px 8px -4px rgba(0, 0, 0, 0.42),
+    inset 0 2px 4px rgba(0, 0, 0, 0.32),
     inset 0 1px 0 rgba(255, 255, 255, 0.08);
   --btn-fill-primary: linear-gradient(180deg, #5B21B6 0%, #4C1D95 42%, #2E1065 100%);
   --btn-fill-primary-hover: linear-gradient(180deg, #6D28D9 0%, #5B21B6 42%, #3B0764 100%);
@@ -114,47 +112,33 @@
   --btn-fill-secondary: linear-gradient(180deg, #2E2348 0%, #1A1433 48%, #120D24 100%);
   --btn-fill-secondary-hover: linear-gradient(180deg, #3D2A5C 0%, #241A40 48%, #1A1433 100%);
   --surface-tier-topic-hover:
-    0 20px 48px -12px rgba(0, 0, 0, 0.75),
-    0 10px 26px -8px rgba(91, 33, 182, 0.18),
-    inset 0 2px 0 rgba(255, 255, 255, 0.13),
-    inset 0 -1.5px 0 rgba(0, 0, 0, 0.22);
-  --surface-tier-control:
-    0 9px 20px -8px rgba(0, 0, 0, 0.6),
-    0 4px 11px -5px rgba(0, 0, 0, 0.4),
-    var(--depth-inset-top),
-    var(--depth-inset-bottom);
-  --surface-tier-control-hover:
-    0 14px 28px -10px rgba(0, 0, 0, 0.65),
-    0 7px 16px -6px rgba(59, 7, 100, 0.25),
-    inset 0 2px 0 rgba(255, 255, 255, 0.15),
-    inset 0 -1.5px 0 rgba(0, 0, 0, 0.2);
-  --surface-tier-control-sm:
-    0 4px 14px -4px rgba(0, 0, 0, 0.55),
-    inset 0 1px 0 rgba(255, 255, 255, 0.08),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.25);
-  --surface-tier-control-sm-hover:
-    0 8px 20px -6px rgba(109, 40, 217, 0.45),
+    var(--depth-elev-2-hover),
     inset 0 1px 0 rgba(255, 255, 255, 0.12),
     inset 0 -1px 0 rgba(0, 0, 0, 0.2);
-  /* Active control uses the same shadow recipe as all buttons */
-  --surface-tier-control-active: var(--surface-tier-btn);
   --surface-tier-control: var(--surface-tier-btn);
   --surface-tier-control-hover: var(--surface-tier-btn-hover);
+  --surface-tier-control-sm:
+    0 4px 12px -4px rgba(0, 0, 0, 0.42),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+  --surface-tier-control-sm-hover:
+    0 6px 16px -6px rgba(0, 0, 0, 0.48),
+    0 0 16px -10px rgba(91, 33, 182, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.18);
+  --surface-tier-control-active: var(--surface-tier-btn);
   --surface-tier-pill:
-    0 6px 18px -10px rgba(0, 0, 0, 0.55),
-    0 0 20px -12px rgba(91, 33, 182, 0.35),
+    0 4px 14px -8px rgba(0, 0, 0, 0.42),
     var(--depth-inset-top);
   --surface-tier-pill-lg:
-    0 8px 22px -10px rgba(0, 0, 0, 0.58),
-    0 0 28px -10px rgba(91, 33, 182, 0.4),
-    inset 0 1.5px 0 rgba(255, 255, 255, 0.14);
+    0 6px 16px -8px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
   --surface-tier-frame:
     var(--depth-elev-2),
-    var(--surface-rim),
     var(--depth-inset-top);
-  --surface-tier-frame-inner: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  --surface-tier-frame-inner: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
   --surface-tier-navbar:
-    0 8px 28px -6px rgba(0, 0, 0, 0.55),
+    0 6px 20px -8px rgba(0, 0, 0, 0.42),
     var(--depth-inset-top);
   --surface-tier-dock: var(--surface-tier-btn);
   --surface-tier-dock-hover: var(--surface-tier-btn-hover);
@@ -162,23 +146,23 @@
     var(--depth-elev-1),
     var(--depth-inset-top);
   --surface-tier-journey-hover:
-    0 16px 32px -12px rgba(109, 40, 217, 0.32),
-    0 0 20px -10px rgba(124, 58, 237, 0.25),
-    inset 0 1.5px 0 rgba(255, 255, 255, 0.12);
+    var(--depth-elev-1-hover),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
   --surface-tier-chip:
-    0 4px 12px -6px rgba(0, 0, 0, 0.45),
+    0 3px 10px -4px rgba(0, 0, 0, 0.38),
     var(--depth-inset-top);
   --surface-tier-chip-hover:
-    0 6px 16px -6px rgba(91, 33, 182, 0.3),
-    inset 0 1.5px 0 rgba(255, 255, 255, 0.12);
+    0 5px 14px -6px rgba(0, 0, 0, 0.42),
+    0 0 14px -10px rgba(91, 33, 182, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
   --surface-tier-recessed-tray:
     var(--depth-recessed),
-    0 4px 14px -8px rgba(0, 0, 0, 0.35);
+    0 3px 10px -6px rgba(0, 0, 0, 0.28);
 
-  /* â”€â”€ Phase 1: sacred archive atmosphere tokens â”€â”€ */
+  /* Ã¢â€â‚¬Ã¢â€â‚¬ Phase 1: sacred archive atmosphere tokens Ã¢â€â‚¬Ã¢â€â‚¬ */
   --hero-glow: rgba(124, 58, 237, 0.42);
   --hero-title-glow: 0 2px 28px rgba(91, 33, 182, 0.4), 0 0 60px -12px rgba(124, 58, 237, 0.35);
-  /* Solid vault bar — same opacity desktop + mobile (no frosted glass) */
+  /* Solid vault bar â€” same opacity desktop + mobile (no frosted glass) */
   --nav-glass: #0F0A1F;
   --nav-glass-scrolled: #0F0A1F;
   --nav-edge-glow: linear-gradient(90deg, transparent 0%, rgba(124, 58, 237, 0.45) 35%, rgba(167, 139, 250, 0.55) 50%, rgba(124, 58, 237, 0.45) 65%, transparent 100%);
@@ -188,12 +172,12 @@
   --section-gap: clamp(3.5rem, 6vw, 5.5rem);
   --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
 
-  /* Legacy aliases â€” kept for existing references */
+  /* Legacy aliases Ã¢â‚¬â€ kept for existing references */
   --shadow-elevated: var(--depth-elev-3);
   --shadow-ambient: var(--depth-ambient);
 }
 
-/* Smooth transitions â€” scoped to interactive elements only (avoids global repaint cost) */
+/* Smooth transitions Ã¢â‚¬â€ scoped to interactive elements only (avoids global repaint cost) */
 a, button, input, select, textarea,
 [role="button"], [role="link"],
 .nav-link, .btn-primary, .btn-secondary, .text-link, .btn-topic-nav,
@@ -224,7 +208,7 @@ a, button, input, select, textarea,
   border-radius: 0 0 0.65rem 0.65rem;
   border: 1px solid rgba(196, 181, 253, 0.4);
   box-shadow: 0 10px 28px -10px rgba(0, 0, 0, 0.55);
-  /* Visually hidden until focused â€” still focusable */
+  /* Visually hidden until focused Ã¢â‚¬â€ still focusable */
   clip: rect(0, 0, 0, 0);
   clip-path: inset(50%);
   width: 1px;
@@ -306,16 +290,16 @@ html {
   }
 }
 
-/* Text selection â€” violet, on-brand */
+/* Text selection Ã¢â‚¬â€ violet, on-brand */
 ::selection {
   background: var(--selection-bg);
   color: var(--selection-fg);
 }
 
-/* Layered atmospheric background â€” lit-from-above sacred vault
+/* Layered atmospheric background Ã¢â‚¬â€ lit-from-above sacred vault
    Body stays a solid deep color so short hubs (Codex) and long pages
    (Home / Quizzes) share the exact same canvas. Atmosphere lives on a
-   viewport-tall ::after only â€” never scaled to document height, never
+   viewport-tall ::after only Ã¢â‚¬â€ never scaled to document height, never
    bottom-anchored (those washed Codex lighter when the page was short).
    No background-attachment:fixed (Chrome/Windows banding). */
 html {
@@ -325,12 +309,12 @@ html {
 .cosmic-bg {
   position: relative;
   min-height: 100vh;
-  /* Solid only â€” gradients are on ::after so content/compositing cannot re-tint the vault */
+  /* Solid only Ã¢â‚¬â€ gradients are on ::after so content/compositing cannot re-tint the vault */
   background-color: var(--deep-bg);
   background-image: none;
 }
 
-/* Soft paper-vault grain (CSS-only) â€” sits behind content.
+/* Soft paper-vault grain (CSS-only) Ã¢â‚¬â€ sits behind content.
    Must NOT use position:fixed + mix-blend-mode together: Chrome/Windows
    paints horizontal purple scanlines on first paint with that combo. */
 .cosmic-bg::before {
@@ -347,7 +331,7 @@ html {
   background-size: 180px 180px;
 }
 
-/* Viewport-tall vault light â€” identical on every page regardless of content length */
+/* Viewport-tall vault light Ã¢â‚¬â€ identical on every page regardless of content length */
 .cosmic-bg::after {
   content: '';
   position: absolute;
@@ -366,7 +350,7 @@ html {
   background-position: center top;
 }
 
-/* Content above grain â€” do NOT set position on children (would break fixed navbar) */
+/* Content above grain Ã¢â‚¬â€ do NOT set position on children (would break fixed navbar) */
 main#main,
 .site-footer,
 .skip-link {
@@ -374,7 +358,7 @@ main#main,
   z-index: 1;
 }
 
-/* Elevated surface highlight â€” floating tier (violet rim + ambient bloom) */
+/* Elevated surface highlight Ã¢â‚¬â€ floating tier (violet rim + ambient bloom) */
 .glow-purple {
   box-shadow: var(--surface-tier-floating);
 }
@@ -415,13 +399,13 @@ main#main,
 }
 
 /* =============================================
-   3D SURFACE TIERS â€” shared material depth system
-   Recessed â†’ inputs/wells | Base â†’ content cards
-   Elevated â†’ channel/topic cards | Floating â†’ static vault panels
+   3D SURFACE TIERS Ã¢â‚¬â€ shared material depth system
+   Recessed Ã¢â€ â€™ inputs/wells | Base Ã¢â€ â€™ content cards
+   Elevated Ã¢â€ â€™ channel/topic cards | Floating Ã¢â€ â€™ static vault panels
    ============================================= */
 
 /* =============================================
-   PROFESSIONAL SERIOUS CARDS â€” Base tier
+   PROFESSIONAL SERIOUS CARDS Ã¢â‚¬â€ Base tier
    :where() fallbacks let Tailwind padding/layout utilities win
    ============================================= */
 :where(.memory-card, .content-card, .source-card, .lesson-content-card) {
@@ -467,7 +451,7 @@ main#main,
 }
 
 /* =============================================
-   NETWORK CHANNEL CARDS â€” Elevated tier (reference 3D treatment)
+   NETWORK CHANNEL CARDS Ã¢â‚¬â€ Elevated tier (reference 3D treatment)
    ============================================= */
 
 :where(.channel-card) {
@@ -490,7 +474,7 @@ main#main,
   -webkit-backdrop-filter: blur(12px);
 }
 
-/* Directory cards â€” balanced height, not tall slabs */
+/* Directory cards Ã¢â‚¬â€ balanced height, not tall slabs */
 .network-directory-grid > a.channel-card {
   min-height: 13.5rem;
   height: 100%;
@@ -516,7 +500,7 @@ main#main,
   z-index: 1;
 }
 
-/* Unified interactive card hover â€” lift + depth, no stroke outline */
+/* Unified interactive card hover Ã¢â‚¬â€ lift + depth, no stroke outline */
 .memory-card:not(.static-card):not(.topics-filter-panel):hover,
 .content-card:not(.static-card):not(.topics-filter-panel):hover,
 .lesson-content-card:not(.static-card):hover,
@@ -548,7 +532,7 @@ a.source-card:not(.static-card):hover,
     var(--depth-inset-top);
 }
 
-/* Video transmission cards on deep-dive page â€” calm, no lift or enhanced hover (embeds should stay static) */
+/* Video transmission cards on deep-dive page Ã¢â‚¬â€ calm, no lift or enhanced hover (embeds should stay static) */
 .video-card:hover {
   transform: none !important;
   box-shadow: var(--surface-tier-elevated) !important;
@@ -583,7 +567,7 @@ a.source-card:not(.static-card):hover,
    END NETWORK 3D BUTTON CARDS
    ============================================= */
 
-/* Static card â€” floating vault panels (heavier / more sacred than browse cards) */
+/* Static card Ã¢â‚¬â€ floating vault panels (heavier / more sacred than browse cards) */
 .static-card {
   transform: none !important;
   box-shadow: var(--surface-tier-floating) !important;
@@ -640,9 +624,9 @@ a.source-card:not(.static-card):hover,
   margin-bottom: 1.25rem;
 }
 
-/* Buttons â€” realistic 3D CTAs (no thin stroke outlines)
+/* Buttons Ã¢â‚¬â€ realistic 3D CTAs (no thin stroke outlines)
    Lit-from-above bevel, soft cast shadow, press-in active state. */
-/* Shared geometry — primary + secondary are the same physical control */
+/* Shared geometry â€” primary + secondary are the same physical control */
 button.btn-primary,
 a.btn-primary,
 button.btn-secondary,
@@ -684,7 +668,7 @@ a.btn-secondary,
   vertical-align: middle;
 }
 
-/* Shared top-face sheen — identical on both roles */
+/* Shared top-face sheen â€” identical on both roles */
 button.btn-primary::before,
 a.btn-primary::before,
 .btn-primary::before,
@@ -705,7 +689,7 @@ a.btn-secondary::before,
   z-index: 0;
 }
 
-/* Primary — same chrome as secondary; only fill + text color differ */
+/* Primary â€” same chrome as secondary; only fill + text color differ */
 button.btn-primary,
 a.btn-primary,
 .btn-primary {
@@ -750,7 +734,7 @@ a.btn-primary:focus-visible,
   pointer-events: none;
 }
 
-/* Arrow micro-nudge only — never slide full button labels (e.g. “Open Ko-fi”) */
+/* Arrow micro-nudge only â€” never slide full button labels (e.g. â€œOpen Ko-fiâ€) */
 .btn-primary > span:not(:only-child),
 .group-hover\:translate-x-1 {
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -768,7 +752,7 @@ a.btn-primary:focus-visible,
   transform: none !important;
 }
 
-/* Secondary — identical chrome; darker fill + soft text */
+/* Secondary â€” identical chrome; darker fill + soft text */
 button.btn-secondary,
 a.btn-secondary,
 .btn-secondary {
@@ -824,7 +808,7 @@ button.btn-secondary:disabled,
   color: var(--text-primary);
 }
 
-/* Section divider pills â€” unified across pages */
+/* Section divider pills Ã¢â‚¬â€ unified across pages */
 .section-pill-wrap {
   display: flex;
   align-items: center;
@@ -893,7 +877,7 @@ button.btn-secondary:disabled,
   color: #fff;
 }
 
-/* Network channel cards â€” subtle platform identity */
+/* Network channel cards Ã¢â‚¬â€ subtle platform identity */
 .channel-card[data-section="telegram"] {
   box-shadow: var(--surface-tier-elevated), 0 0 0 1px rgba(34, 158, 217, 0.18);
 }
@@ -943,13 +927,13 @@ button.btn-secondary:disabled,
   border-color: rgba(212, 168, 75, 0.45);
 }
 
-/* â”€â”€ Network page layout system (CSS-owned grids; no Tailwind dependency) â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Network page layout system (CSS-owned grids; no Tailwind dependency) Ã¢â€â‚¬Ã¢â€â‚¬ */
 .network-featured-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
   align-items: stretch;
-  /* room for card glow so first/last tiles arenâ€™t clipped */
+  /* room for card glow so first/last tiles arenÃ¢â‚¬â„¢t clipped */
   padding: 0.35rem 0.15rem 0.65rem;
   overflow: visible;
 }
@@ -963,7 +947,7 @@ button.btn-secondary:disabled,
 
 @media (min-width: 1024px) {
   .network-featured-grid {
-    /* Six start-here cards: 3×2 on desktop */
+    /* Six start-here cards: 3Ã—2 on desktop */
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1.25rem;
   }
@@ -989,7 +973,7 @@ button.btn-secondary:disabled,
   }
 }
 
-/* Start-here compact cards â€” equal elevation, soft 3D (no stroke outline) */
+/* Start-here compact cards Ã¢â‚¬â€ equal elevation, soft 3D (no stroke outline) */
 .network-start-card {
   position: relative;
   display: flex;
@@ -1044,7 +1028,7 @@ button.btn-secondary:disabled,
   outline-offset: 3px;
 }
 
-/* Section accents â€” soft ambient tint (no stroke outline) */
+/* Section accents Ã¢â‚¬â€ soft ambient tint (no stroke outline) */
 .network-start-card[data-section="official"] {
   box-shadow:
     var(--surface-tier-elevated),
@@ -1243,7 +1227,7 @@ button.btn-secondary:disabled,
   max-width: 18rem;
 }
 
-/* Match Codex/Quiz recessed search field — no stroke outline */
+/* Match Codex/Quiz recessed search field â€” no stroke outline */
 .network-search-input {
   width: 100%;
   min-height: 2.75rem;
@@ -1389,7 +1373,7 @@ button.btn-secondary:disabled,
   color: var(--link-hover);
 }
 
-/* Connect socials — base rules; elevated 3D override lives in FOOTER REDESIGN block */
+/* Connect socials â€” base rules; elevated 3D override lives in FOOTER REDESIGN block */
 .footer-social-grid {
   display: flex;
   flex-wrap: wrap;
@@ -1662,7 +1646,7 @@ button.btn-secondary:disabled,
   }
 }
 
-/* Topic nav buttons — same solid secondary 3D as site CTAs (no stroke border) */
+/* Topic nav buttons â€” same solid secondary 3D as site CTAs (no stroke border) */
 .btn-topic-nav {
   position: relative;
   display: inline-flex;
@@ -1733,7 +1717,7 @@ button.btn-secondary:disabled,
     inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
-/* Navbar — solid vault bar (desktop + mobile; no glass / no blur) */
+/* Navbar â€” solid vault bar (desktop + mobile; no glass / no blur) */
 .navbar {
   position: fixed;
   top: 0;
@@ -1833,7 +1817,7 @@ button.btn-secondary:disabled,
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1;
-  /* Solid high-contrast white â€” gradients made the wordmark hard to read on mobile */
+  /* Solid high-contrast white Ã¢â‚¬â€ gradients made the wordmark hard to read on mobile */
   color: #F8FAFC;
   background: none;
   -webkit-text-fill-color: #F8FAFC;
@@ -1859,7 +1843,7 @@ button.btn-secondary:disabled,
   color: var(--text-secondary);
   font-family: 'Inter', system-ui, sans-serif;
   font-weight: 500;
-  /* em of navbar's fixed 16px â€” same size on every page */
+  /* em of navbar's fixed 16px Ã¢â‚¬â€ same size on every page */
   font-size: 0.875em;
   letter-spacing: 0.01em;
   text-decoration: none;
@@ -1930,7 +1914,7 @@ button.btn-secondary:disabled,
   background: rgba(124, 58, 237, 0.12);
 }
 
-/* Same weight as idle â€” bold active text reflows the whole bar */
+/* Same weight as idle Ã¢â‚¬â€ bold active text reflows the whole bar */
 .nav-link.active {
   color: var(--text-primary);
   font-weight: 500;
@@ -1961,7 +1945,7 @@ button.btn-secondary:disabled,
 }
 
 /* =============================================
-   MOBILE MENU â€” drawer + dimmed overlay
+   MOBILE MENU Ã¢â‚¬â€ drawer + dimmed overlay
    ============================================= */
 .mobile-menu-overlay {
   display: none;
@@ -2078,7 +2062,7 @@ button.btn-secondary:disabled,
   justify-content: center;
 }
 
-/* Hamburger button â€” mobile only (display controlled by breakpoint) */
+/* Hamburger button Ã¢â‚¬â€ mobile only (display controlled by breakpoint) */
 .mobile-menu-btn {
   display: none;
   align-items: center;
@@ -2097,7 +2081,7 @@ button.btn-secondary:disabled,
   height: 26px;
 }
 
-/* Navbar responsive behavior â€” single source of truth */
+/* Navbar responsive behavior Ã¢â‚¬â€ single source of truth */
 @media (max-width: 767px) {
   .nav-links {
     display: none !important;
@@ -2130,7 +2114,7 @@ h1, h2, h3, .section-header {
 h1 { font-size: 2.75rem; line-height: 1.08; letter-spacing: -0.03em; color: var(--text-primary); font-weight: 700; }
 h2 { font-size: 1.85rem; line-height: 1.2; letter-spacing: -0.025em; color: var(--text-primary); font-weight: 700; }
 h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(--text-secondary); font-weight: 600; }
-/* Interior page display titles â€” calmer than homepage brand hero */
+/* Interior page display titles Ã¢â‚¬â€ calmer than homepage brand hero */
 .section-header {
   font-size: 2.35rem;
   line-height: 1.08;
@@ -2151,8 +2135,8 @@ h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(-
   .section-header { font-size: 3.35rem; }
 }
 
-/* Homepage brand hero â€” dark metallic wordmark
-   Same colors on mobile and desktop: near-black charcoal â†’ muted purple-gray.
+/* Homepage brand hero Ã¢â‚¬â€ dark metallic wordmark
+   Same colors on mobile and desktop: near-black charcoal Ã¢â€ â€™ muted purple-gray.
    Matches the soft embossed look from mobile; size scales, colors do not. */
 .page-hero-title,
 .page-home .page-hero-title {
@@ -2164,7 +2148,7 @@ h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(-
   line-height: 0.95;
   letter-spacing: -0.04em;
   font-weight: 700;
-  /* Fallback if clip fails â€” mid-tone of the gradient (outdoor-readable) */
+  /* Fallback if clip fails Ã¢â‚¬â€ mid-tone of the gradient (outdoor-readable) */
   color: #A89FBE;
   background-color: transparent;
   /* Soft vault gradient: keeps the fade effect, lifted for sun/mobile legibility */
@@ -2182,10 +2166,10 @@ h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(-
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: none;
-  /* Ambient glow is page-hero::before only â€” do not use filter here */
+  /* Ambient glow is page-hero::before only Ã¢â‚¬â€ do not use filter here */
 }
 
-/* Desktop/tablet: larger type only â€” same gradient colors as mobile */
+/* Desktop/tablet: larger type only Ã¢â‚¬â€ same gradient colors as mobile */
 @media (min-width: 768px) {
   .page-hero-title,
   .page-home .page-hero-title {
@@ -2209,7 +2193,7 @@ h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(-
 
 /* Utility */
 
-/* Full-bleed dividers â€” Robust mobile fix to prevent any horizontal overflow */
+/* Full-bleed dividers Ã¢â‚¬â€ Robust mobile fix to prevent any horizontal overflow */
 .full-bleed-divider {
   position: relative;
   left: 50%;
@@ -2252,7 +2236,7 @@ h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(-
   background-position: center;
 }
 
-/* Hero spotlight â€” soft radial glow behind title block */
+/* Hero spotlight Ã¢â‚¬â€ soft radial glow behind title block */
 .hero-spotlight {
   isolation: isolate;
 }
@@ -2292,7 +2276,7 @@ header.hero-gradient h1 {
   filter: drop-shadow(0 2px 14px rgba(91, 33, 182, 0.35));
 }
 
-/* Mounted media â€” sacred picture-frame bezel */
+/* Mounted media Ã¢â‚¬â€ sacred picture-frame bezel */
 .media-frame {
   position: relative;
   width: 100%;
@@ -2360,7 +2344,7 @@ header.hero-gradient h1 {
 }
 
 /* =============================================
-   SOURCE HERO â€” one continuous editorial card
+   SOURCE HERO Ã¢â‚¬â€ one continuous editorial card
    Art is the surface; copy rides a soft scrim (not a flat purple slab)
    ============================================= */
 .source-hero-host {
@@ -2373,7 +2357,7 @@ header.hero-gradient h1 {
   display: block;
   padding: 0 !important;
   border-radius: 1.15rem;
-  /* Match cosmic art blacks â€” not mid purple */
+  /* Match cosmic art blacks Ã¢â‚¬â€ not mid purple */
   background: #0e0a1c;
   box-shadow:
     0 18px 44px -16px rgba(0, 0, 0, 0.58),
@@ -2417,7 +2401,7 @@ header.hero-gradient h1 {
   position: relative;
   z-index: 2;
   margin-top: -1.75rem;
-  /* Soft scrim â€” continuous with the image, not a painted panel */
+  /* Soft scrim Ã¢â‚¬â€ continuous with the image, not a painted panel */
   background: linear-gradient(
     180deg,
     rgba(12, 8, 28, 0.2) 0%,
@@ -2547,7 +2531,7 @@ header.hero-gradient h1 {
   margin-right: 0.15rem;
 }
 
-/* Full-bleed media â€” mobile top band, desktop right column */
+/* Full-bleed media Ã¢â‚¬â€ mobile top band, desktop right column */
 .source-hero-media {
   position: relative;
   z-index: 0;
@@ -2601,7 +2585,7 @@ header.hero-gradient h1 {
 
 @media (min-width: 900px) {
   .source-hero-media-fade {
-    /* Long soft dissolve into copy â€” no hard purple seam */
+    /* Long soft dissolve into copy Ã¢â‚¬â€ no hard purple seam */
     background: linear-gradient(
       to left,
       transparent 0%,
@@ -2615,7 +2599,7 @@ header.hero-gradient h1 {
 }
 
 /* =============================================
-   DEEP DIVE REPORT â€” MAXIMUM READABILITY & PROFESSIONALISM (REFINED)
+   DEEP DIVE REPORT Ã¢â‚¬â€ MAXIMUM READABILITY & PROFESSIONALISM (REFINED)
    ============================================= */
 
 #report-section .content-card {
@@ -2665,7 +2649,7 @@ header.hero-gradient h1 {
   }
 }
 
-/* Mobile report polish â€” one horizontal gutter (outer wrap), no double padding on body text */
+/* Mobile report polish Ã¢â‚¬â€ one horizontal gutter (outer wrap), no double padding on body text */
 @media (max-width: 767px) {
   #report-section > .max-w-6xl {
     padding-left: 0.85rem;
@@ -2758,7 +2742,7 @@ header.hero-gradient h1 {
 }
 
 #report-container ul li::before {
-  content: 'â€¢';
+  content: 'Ã¢â‚¬Â¢';
   color: var(--accent-violet-hover);
   font-weight: 700;
   position: absolute;
@@ -2818,7 +2802,7 @@ header.hero-gradient h1 {
   border-color: rgba(124, 58, 237, 0.2);
 }
 
-/* Back to Top â€” Professional floating button (visible on scroll) */
+/* Back to Top Ã¢â‚¬â€ Professional floating button (visible on scroll) */
 #back-to-top {
   position: fixed;
   bottom: 2rem;
@@ -2950,7 +2934,7 @@ iframe:focus-visible {
    CONSOLIDATED REUSABLE CLASSES
    ============================================= */
 
-/* Transmission source cards â€” editorial full-bleed, soft 3D (no stroke) */
+/* Transmission source cards Ã¢â‚¬â€ editorial full-bleed, soft 3D (no stroke) */
 .source-card {
   display: flex;
   flex-direction: column;
@@ -2970,7 +2954,7 @@ iframe:focus-visible {
   -webkit-backdrop-filter: none !important;
 }
 
-/* No gloss overlay â€” it draws a hard top/bottom band over the photo */
+/* No gloss overlay Ã¢â‚¬â€ it draws a hard top/bottom band over the photo */
 .source-card::before,
 .source-card.memory-card::before,
 .source-card.content-card::before,
@@ -3178,11 +3162,11 @@ textarea:focus-visible {
 }
 
 /* =============================================
-   SOURCE VIEWER â€” 3D TOPIC BUTTONS (Premium Archive Treatment)
+   SOURCE VIEWER Ã¢â‚¬â€ 3D TOPIC BUTTONS (Premium Archive Treatment)
    Subtler material depth, realistic matte cardstock/metal finish, calm premium lift
    ============================================= */
 
-/* Category root cards â€” split editorial (image dissolves into copy) */
+/* Category root cards Ã¢â‚¬â€ split editorial (image dissolves into copy) */
 .topic-root-card {
   background: #12101f;
   border: none;
@@ -3409,7 +3393,7 @@ a.topic-root-card:hover .explore-badge {
   color: var(--text-muted, #9B8DB8);
 }
 
-/* Category toggle buttons â€” Clean professional deep purple with refined 3D */
+/* Category toggle buttons Ã¢â‚¬â€ Clean professional deep purple with refined 3D */
 .category-toggle {
   display: flex;
   align-items: center;
@@ -3468,7 +3452,7 @@ a.topic-root-card:hover .explore-badge {
   transform: translateX(4px);
 }
 
-/* Leaf topic buttons (pills) â€” Premium refined 3D with generous whitespace */
+/* Leaf topic buttons (pills) Ã¢â‚¬â€ Premium refined 3D with generous whitespace */
 .topic-leaf-btn {
   display: inline-flex;
   align-items: center;
@@ -3524,7 +3508,7 @@ a.topic-root-card:hover .explore-badge {
 }
 
 /* =============================================
-   PRINT / PDF â€” REPORT ONLY
+   PRINT / PDF Ã¢â‚¬â€ REPORT ONLY
    Only the deep-dive report body prints (no hero, media, videos,
    "Continue learning", prev/next, footer, or page chrome).
    Uses display:none (not visibility:hidden) so hidden blocks
@@ -3690,7 +3674,7 @@ a.topic-root-card:hover .explore-badge {
 }
 
 /* =============================================
-   DYNAMIC THEME ACCENTS â€” Subtle 3D Breathing Effect (Professional, Non-Neon, No Overwhelm)
+   DYNAMIC THEME ACCENTS Ã¢â‚¬â€ Subtle 3D Breathing Effect (Professional, Non-Neon, No Overwhelm)
    Uses lightweight CSS keyframes for hover/scroll-responsive depth without JS or neon
    ============================================= */
 
@@ -3704,7 +3688,7 @@ a.topic-root-card:hover .explore-badge {
               box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Hero gradient â€” static atmospheric depth */
+/* Hero gradient Ã¢â‚¬â€ static atmospheric depth */
 .hero-gradient {
   background-size: 100% 100%;
 }
@@ -3747,7 +3731,7 @@ a.topic-root-card:hover .explore-badge {
 }
 
 .topics-filter-panel {
-  /* Quiet utility tray â€” soft 3D, no stroke outline */
+  /* Quiet utility tray Ã¢â‚¬â€ soft 3D, no stroke outline */
   background: #141022;
   border: none;
   box-shadow:
@@ -3907,7 +3891,7 @@ a.topic-root-card:hover .explore-badge {
   }
 }
 
-/* Filter chips — solid secondary 3D (no stroke / hairline rim) */
+/* Filter chips â€” solid secondary 3D (no stroke / hairline rim) */
 .topic-control-btn,
 .network-filter-btn {
   position: relative;
@@ -4047,7 +4031,7 @@ a.topic-root-card:hover .explore-badge {
 }
 
 /* =============================================
-   CODEX ARCHIVE â€” Stats, search, topic results
+   CODEX ARCHIVE Ã¢â‚¬â€ Stats, search, topic results
    ============================================= */
 .codex-stats-bar {
   padding: 1.35rem 1.5rem;
@@ -4096,7 +4080,7 @@ a.topic-root-card:hover .explore-badge {
 .codex-toolbar {
   padding: 1.15rem 1.25rem 1.25rem;
   border-radius: 1.15rem;
-  /* Visible so status chips (e.g. “Coming soon”) are never clipped on mobile */
+  /* Visible so status chips (e.g. â€œComing soonâ€) are never clipped on mobile */
   overflow: visible;
 }
 
@@ -4126,7 +4110,7 @@ a.topic-root-card:hover .explore-badge {
   }
 }
 
-/* Search is a tool, not a CTA — recessed well, quiet focus only */
+/* Search is a tool, not a CTA â€” recessed well, quiet focus only */
 .codex-search-field {
   display: flex;
   align-items: center;
@@ -4231,7 +4215,7 @@ a.topic-root-card:hover .explore-badge {
   flex-shrink: 0;
 }
 
-/* Native <select> — solid fill + dark color-scheme (avoids white Windows control) */
+/* Native <select> â€” solid fill + dark color-scheme (avoids white Windows control) */
 .codex-sort-select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -4291,7 +4275,7 @@ a.topic-root-card:hover .explore-badge {
   color: #F1EBFF;
 }
 
-/* Status row under search — never overlaps the search row */
+/* Status row under search â€” never overlaps the search row */
 .codex-toolbar .topics-filter-section--status {
   display: flex;
   flex-wrap: wrap;
@@ -4318,7 +4302,7 @@ a.topic-root-card:hover .explore-badge {
   flex: 1 1 auto;
 }
 
-/* Compact status chips — still solid 3D, never outlined */
+/* Compact status chips â€” still solid 3D, never outlined */
 .codex-toolbar .topic-control-btn {
   min-height: 2.15rem;
   height: auto;
@@ -4388,7 +4372,7 @@ a.topic-root-card:hover .explore-badge {
   }
 
   .codex-toolbar .topics-filter-btn-group {
-    /* Wrap so “Coming soon” isn’t clipped by a tight horizontal scroller */
+    /* Wrap so â€œComing soonâ€ isnâ€™t clipped by a tight horizontal scroller */
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem;
@@ -4417,7 +4401,7 @@ a.topic-root-card:hover .explore-badge {
     font-size: 16px; /* prevent iOS zoom */
   }
 
-  /* Search-result “Coming soon” pill — don’t let flex shrink cut the label */
+  /* Search-result â€œComing soonâ€ pill â€” donâ€™t let flex shrink cut the label */
   .codex-search-card-top .codex-meta-pill {
     flex-shrink: 0;
     white-space: nowrap;
@@ -4511,7 +4495,7 @@ a.topic-root-card:hover .explore-badge {
 }
 
 /* =============================================
-   WAVE 1 â€” Skeletons, search cards, deep-dive hero
+   WAVE 1 Ã¢â‚¬â€ Skeletons, search cards, deep-dive hero
    ============================================= */
 @keyframes skeleton-shimmer {
   0% { background-position: 200% 0; }
@@ -4660,7 +4644,7 @@ a.topic-root-card:hover .explore-badge {
 }
 
 .codex-search-card-thumb--fallback::after {
-  content: 'â—ˆ';
+  content: 'Ã¢â€”Ë†';
   position: absolute;
   inset: 0;
   display: flex;
@@ -4793,7 +4777,7 @@ a.topic-root-card:hover .explore-badge {
   letter-spacing: 0.04em;
 }
 
-/* Hero action hierarchy: segments â†’ primary quiz â†’ quiet text links */
+/* Hero action hierarchy: segments Ã¢â€ â€™ primary quiz Ã¢â€ â€™ quiet text links */
 .dive-hero-actions {
   display: flex;
   flex-direction: column;
@@ -4865,7 +4849,7 @@ a.topic-root-card:hover .explore-badge {
   margin: 0;
 }
 
-/* Section headers â€” same family as segment control (not mixed pill chrome) */
+/* Section headers Ã¢â‚¬â€ same family as segment control (not mixed pill chrome) */
 .dive-section-head {
   display: flex;
   align-items: center;
@@ -4920,7 +4904,7 @@ a.topic-root-card:hover .explore-badge {
   }
 }
 
-/* Media grid â€” equal frames, less empty void */
+/* Media grid Ã¢â‚¬â€ equal frames, less empty void */
 .dive-media-grid {
   align-items: stretch;
 }
@@ -5100,7 +5084,7 @@ a.topic-root-card:hover .explore-badge {
   }
 }
 
-/* Dive section jump â€” professional segmented control (one system for hero + sticky) */
+/* Dive section jump Ã¢â‚¬â€ professional segmented control (one system for hero + sticky) */
 .dive-jump-label {
   font-size: 0.68rem;
   font-weight: 700;
@@ -5163,7 +5147,7 @@ a.topic-root-card:hover .explore-badge {
   transform: none;
 }
 
-/* Active segment — solid violet 3D, never a ring glow */
+/* Active segment â€” solid violet 3D, never a ring glow */
 .btn-jump-pill.is-active,
 .btn-jump-pill.active,
 .jump-to-pills .btn-jump-pill.is-active,
@@ -5240,7 +5224,7 @@ a.topic-root-card:hover .explore-badge {
   font-size: 0.85rem;
 }
 
-/* Slide deck preview â€” matches infographic artifact treatment */
+/* Slide deck preview Ã¢â‚¬â€ matches infographic artifact treatment */
 .slide-deck-artifact {
   position: relative;
   width: 100%;
@@ -5322,7 +5306,7 @@ a.topic-root-card:hover .explore-badge {
   min-height: 100%;
 }
 
-/* Report layout â€” single column by default.
+/* Report layout Ã¢â‚¬â€ single column by default.
    Only switch to TOC + body when a visible TOC sidebar is present.
    (Static dive pages have no TOC; a bare 220px 1fr grid was crushing text into the first track.) */
 .report-layout {
@@ -5508,7 +5492,7 @@ a.topic-root-card:hover .explore-badge {
   }
 }
 
-/* Homepage â€” hero, chapters, essence, codex panel */
+/* Homepage Ã¢â‚¬â€ hero, chapters, essence, codex panel */
 .hero-home-grid {
   display: grid;
   gap: 2rem;
@@ -5847,7 +5831,7 @@ a.topic-root-card:hover .explore-badge {
   box-shadow: var(--surface-tier-floating);
 }
 
-/* Homepage codex card â€” matches about / oracle banner style */
+/* Homepage codex card — same soft elevation as other vault panels */
 .codex-banner {
   position: relative;
   overflow: hidden;
@@ -5856,11 +5840,7 @@ a.topic-root-card:hover .explore-badge {
   padding: 0 !important;
   border-radius: 1.15rem;
   background: #1A1433;
-  box-shadow:
-    0 18px 44px -16px rgba(0, 0, 0, 0.58),
-    0 8px 22px -12px rgba(0, 0, 0, 0.4),
-    inset 0 1.5px 0 rgba(255, 255, 255, 0.08),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.18) !important;
+  box-shadow: var(--surface-tier-elevated) !important;
 }
 
 .codex-banner-media {
@@ -6185,7 +6165,7 @@ a.topic-root-card:hover .explore-badge {
   }
 }
 
-/* Main root transmission â€” dedicated section above category blocks */
+/* Main root transmission Ã¢â‚¬â€ dedicated section above category blocks */
 .topics-main-root-section {
   margin-top: 0.5rem;
   margin-bottom: 0;
@@ -6261,7 +6241,7 @@ a.topic-root-card:hover .explore-badge {
   color: var(--text-soft, #B8A9D4);
 }
 
-/* Essence / main root â€” image dissolves into copy */
+/* Essence / main root Ã¢â‚¬â€ image dissolves into copy */
 .topic-main-root-card {
   position: relative;
   display: grid;
@@ -6744,7 +6724,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
   }
 }
 
-/* Click-to-play video â€” title-seeded particle facade + clean minimal play button */
+/* Click-to-play video Ã¢â‚¬â€ title-seeded particle facade + clean minimal play button */
 .video-poster-wrap {
   position: relative;
   width: 100%;
@@ -6865,7 +6845,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
   min-height: 10rem;
 }
 
-/* Legacy CSS play control â€” kept for residual markup */
+/* Legacy CSS play control Ã¢â‚¬â€ kept for residual markup */
 .video-play-btn {
   position: absolute;
   inset: 0;
@@ -6965,7 +6945,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
 
 
 /* =============================================
-   NOSCRIPT NOTICE â€” JS-dependent pages
+   NOSCRIPT NOTICE Ã¢â‚¬â€ JS-dependent pages
    ============================================= */
 
 .noscript-notice {
@@ -6991,7 +6971,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
 }
 
 /* =============================================
-   ERROR PAGE â€” embossed numerals
+   ERROR PAGE Ã¢â‚¬â€ embossed numerals
    ============================================= */
 
 .error-page-code {
@@ -7003,7 +6983,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
 }
 
 /* =============================================
-   TOPIC PAGE POLISH â€” badges, nav, reading progress
+   TOPIC PAGE POLISH Ã¢â‚¬â€ badges, nav, reading progress
    ============================================= */
 
 .topic-badge {
@@ -7279,7 +7259,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
 }
 
 /* =============================================
-   NAV RETURN â€” scroll restore highlight
+   NAV RETURN Ã¢â‚¬â€ scroll restore highlight
    ============================================= */
 [data-topic-id] {
   scroll-margin-top: 7rem;
@@ -7336,7 +7316,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
 }
 
 /* =============================================
-   POLISH â€” sticky filters, leaf entrances, codex hero
+   POLISH Ã¢â‚¬â€ sticky filters, leaf entrances, codex hero
    ============================================= */
 
 .topics-filter-sticky-wrap {
@@ -7452,7 +7432,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
 }
 
 #codex-toolbar .codex-toolbar {
-  /* Solid sticky tray â€” soft 3D, no stroke outline */
+  /* Solid sticky tray Ã¢â‚¬â€ soft 3D, no stroke outline */
   background: #1A1433;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
@@ -7501,7 +7481,7 @@ a.codex-search-card:hover {
   letter-spacing: 0.02em;
 }
 
-/* â”€â”€ Quizzes hub â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Quizzes hub Ã¢â€â‚¬Ã¢â€â‚¬ */
 .quiz-hub-stats {
   display: grid;
   grid-template-columns: 1fr;
@@ -7714,8 +7694,8 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   position: relative;
 }
 
-/* Ambient hero bloom behind brand title â€” soft violet halo so wordmark reads luminous.
-   Keep tight and low-opacity so short hubs (Codex) donâ€™t read as a lighter purple panel. */
+/* Ambient hero bloom behind brand title Ã¢â‚¬â€ soft violet halo so wordmark reads luminous.
+   Keep tight and low-opacity so short hubs (Codex) donÃ¢â‚¬â„¢t read as a lighter purple panel. */
 .page-hero::before {
   content: '';
   position: absolute;
@@ -7730,12 +7710,9 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   opacity: 0.42;
 }
 
-.page-hero > * {
-  position: relative;
-  z-index: 1;
-}
+.page-hero > *:not(.home-hero-media) { position: relative; z-index: 1; }
 
-/* Editorial text label â€” no pill box (cleaner, more archive-grade) */
+/* Editorial text label Ã¢â‚¬â€ no pill box (cleaner, more archive-grade) */
 .page-hero-eyebrow {
   display: block;
   width: fit-content;
@@ -7784,7 +7761,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   box-shadow: var(--surface-tier-base);
 }
 
-/* Homepage featured transmissions â€” matches about / oracle banner style */
+/* Homepage featured transmissions Ã¢â‚¬â€ matches about / oracle banner style */
 .media-banner {
   position: relative;
   overflow: hidden;
@@ -7882,12 +7859,12 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   margin-top: 1.5rem;
 }
 
-/* Homepage video facades â€” particle background base */
+/* Homepage video facades Ã¢â‚¬â€ particle background base */
 #home-rumble-grid .video-poster-wrap {
   background: #0F0A1F;
 }
 
-/* Report reading comfort (dive + SPA) â€” full card width, not a skinny centered column */
+/* Report reading comfort (dive + SPA) Ã¢â‚¬â€ full card width, not a skinny centered column */
 #report-container,
 .report-prerendered {
   max-width: min(100%, 48rem);
@@ -7933,7 +7910,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   color: var(--text-prose);
 }
 
-/* Nested markdown list paragraphs â€” avoid huge gaps between bullets */
+/* Nested markdown list paragraphs Ã¢â‚¬â€ avoid huge gaps between bullets */
 #report-container li > p {
   margin-bottom: 0.45rem;
 }
@@ -7991,7 +7968,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   align-items: center;
 }
 
-/* Sticky toolbars / filters ï¿½ safe area */
+/* Sticky toolbars / filters Ã¯Â¿Â½ safe area */
 .quiz-hub-toolbar,
 #codex-toolbar,
 .topics-filter-sticky-wrap {
@@ -8243,7 +8220,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   color: var(--link-hover);
 }
 
-/* Premium video facades â€” branded poster fills the frame */
+/* Premium video facades Ã¢â‚¬â€ branded poster fills the frame */
 .video-facade .video-poster-wrap,
 #home-rumble-grid .video-poster-wrap {
   display: block;
@@ -8530,7 +8507,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 
 
 /* =============================================
-   PHASE 1 ï¿½ Archive reader (TOC, terms, toolbar, share)
+   PHASE 1 Ã¯Â¿Â½ Archive reader (TOC, terms, toolbar, share)
    ============================================= */
 
 /* --- Terminology definition cards --- */
@@ -8590,7 +8567,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   margin-bottom: 0;
 }
 
-/* Essence-style insight quotes â€” same card language as terminology */
+/* Essence-style insight quotes Ã¢â‚¬â€ same card language as terminology */
 #report-container blockquote.report-insight-card,
 #report-container .report-insight-card {
   border-left: 4px solid rgba(166, 124, 76, 0.75);
@@ -8616,7 +8593,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 
 
 
-/* Dive section anchors â€” clear navbar (5rem) + sticky section nav + gap */
+/* Dive section anchors Ã¢â‚¬â€ clear navbar (5rem) + sticky section nav + gap */
 #infographics-section,
 #videos-section,
 #report-section {
@@ -8631,7 +8608,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   }
 }
 
-/* Sticky clone of the same segmented control â€” solid so page text never bleeds through.
+/* Sticky clone of the same segmented control Ã¢â‚¬â€ solid so page text never bleeds through.
    Must sit fully BELOW .navbar: nav-content is 5rem + safe-area padding-top. */
 .section-nav-sticky {
   position: fixed;
@@ -8669,7 +8646,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   transform: translateX(-50%) translateY(0);
 }
 
-/* Subtle fade only â€” no bounce/lift on sticky appear */
+/* Subtle fade only Ã¢â‚¬â€ no bounce/lift on sticky appear */
 @media (prefers-reduced-motion: no-preference) {
   .section-nav-sticky {
     transition: opacity 0.22s ease;
@@ -8786,7 +8763,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 }
 
 /* =============================================
-   DIVE REPORT â€” MOBILE READING EXPERIENCE
+   DIVE REPORT Ã¢â‚¬â€ MOBILE READING EXPERIENCE
    Headings, lists, cards, TOC, prev/next, continue
    ============================================= */
 @media (max-width: 767px) {
@@ -8851,7 +8828,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
     margin: 1.75rem 0;
   }
 
-  /* Terminology cards â€” full width, readable, no cramped 2-col on tiny screens */
+  /* Terminology cards Ã¢â‚¬â€ full width, readable, no cramped 2-col on tiny screens */
   .term-card-grid {
     gap: 0.7rem;
     margin-bottom: 1.5rem;
@@ -8874,7 +8851,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
     line-height: 1.58;
   }
 
-  /* Study toolbar â€” easy thumb target, full-width feel */
+  /* Study toolbar Ã¢â‚¬â€ easy thumb target, full-width feel */
   .report-study-toolbar {
     justify-content: stretch;
     margin-bottom: 0.85rem;
@@ -8890,7 +8867,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
     text-align: center;
   }
 
-  /* Mobile TOC links â€” larger touch targets */
+  /* Mobile TOC links Ã¢â‚¬â€ larger touch targets */
   .report-toc-mobile {
     margin-bottom: 1rem;
   }
@@ -8964,7 +8941,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   }
 }
 
-/* Very small phones â€” maximize line length a bit more */
+/* Very small phones Ã¢â‚¬â€ maximize line length a bit more */
 @media (max-width: 379px) {
   #report-section > .max-w-6xl {
     padding-left: 0.65rem;
@@ -8998,10 +8975,10 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 }
 
 /* =============================================
-   PHASE 1 â€” Sacred cosmic archive polish
+   PHASE 1 Ã¢â‚¬â€ Sacred cosmic archive polish
    ============================================= */
 
-/* Custom scrollbar â€” subtle violet */
+/* Custom scrollbar Ã¢â‚¬â€ subtle violet */
 body {
   scrollbar-width: thin;
   scrollbar-color: rgba(109, 40, 217, 0.45) transparent;
@@ -9028,7 +9005,7 @@ body::-webkit-scrollbar-thumb:hover {
   background-clip: padding-box;
 }
 
-/* Primary buttons â€” richer fill & edge light */
+/* Primary buttons Ã¢â‚¬â€ richer fill & edge light */
 button.btn-primary,
 a.btn-primary,
 .btn-primary {
@@ -9052,7 +9029,7 @@ a.btn-primary:hover,
     inset 0 1px 0 rgba(255, 255, 255, 0.32);
 }
 
-/* Back-to-top â€” luminous control */
+/* Back-to-top Ã¢â‚¬â€ luminous control */
 #back-to-top {
   background: linear-gradient(165deg, rgba(91, 33, 182, 0.95) 0%, rgba(59, 7, 100, 0.95) 100%);
   border: 1px solid rgba(196, 181, 253, 0.35);
@@ -9077,7 +9054,7 @@ a.btn-primary:hover,
   padding-top: 0;
 }
 
-/* Footer top edge â€” slightly brighter sacred line */
+/* Footer top edge Ã¢â‚¬â€ slightly brighter sacred line */
 .site-footer {
   box-shadow:
     0 -3px 12px rgba(0, 0, 0, 0.3),
@@ -9107,7 +9084,7 @@ a.btn-primary:hover,
 }
 
 /* =============================================
-   PHASE 2 â€” Homepage first impression
+   PHASE 2 Ã¢â‚¬â€ Homepage first impression
    Hero, start path, media frames, codex, video, footer
    ============================================= */
 
@@ -9285,7 +9262,7 @@ a.btn-primary:hover,
   text-align: center;
 }
 
-/* Codex home â€” clearer story arc: metrics â†’ formats â†’ CTA */
+/* Codex home Ã¢â‚¬â€ clearer story arc: metrics Ã¢â€ â€™ formats Ã¢â€ â€™ CTA */
 .codex-home-panel {
   position: relative;
   overflow: hidden;
@@ -9424,7 +9401,7 @@ a.btn-primary:hover,
     rgba(26, 20, 51, 0.78);
 }
 
-/* Footer donate cards â€” clearer hierarchy */
+/* Footer donate cards Ã¢â‚¬â€ clearer hierarchy */
 .footer-donate-card {
   position: relative;
   overflow: hidden;
@@ -9462,7 +9439,7 @@ a.btn-primary:hover,
   max-width: 42rem;
 }
 
-/* Homepage section spacing â€” calmer chapter rhythm */
+/* Homepage section spacing Ã¢â‚¬â€ calmer chapter rhythm */
 .page-home #about,
 .page-home #codex,
 .page-home #explore {
@@ -9504,7 +9481,7 @@ a.btn-primary:hover,
 
 
 /* =============================================
-   PHASE 3 ï¿½ Mobile experience pass
+   PHASE 3 Ã¯Â¿Â½ Mobile experience pass
    Drawer polish, touch targets, filters, inputs
    ============================================= */
 
@@ -9528,7 +9505,7 @@ a.btn-primary:hover,
   }
 }
 
-/* Mobile hamburger ï¿½ clearer hit area */
+/* Mobile hamburger Ã¯Â¿Â½ clearer hit area */
 .mobile-menu-btn {
   border-radius: 12px;
   -webkit-tap-highlight-color: transparent;
@@ -9538,7 +9515,7 @@ a.btn-primary:hover,
   background: rgba(124, 58, 237, 0.2);
 }
 
-/* Body lock when menu open (already overflow:hidden) ï¿½ safer overscroll */
+/* Body lock when menu open (already overflow:hidden) Ã¯Â¿Â½ safer overscroll */
 body.menu-open {
   overflow: hidden;
   /* Keep touch scrolling available inside the open drawer */
@@ -9592,7 +9569,7 @@ body.menu-open {
   }
 }
 
-/* Topic leaf buttons ï¿½ larger tap targets */
+/* Topic leaf buttons Ã¯Â¿Â½ larger tap targets */
 @media (max-width: 767px) {
   .topic-leaf-btn {
     min-height: 3rem;
@@ -9612,7 +9589,7 @@ body.menu-open {
   }
 }
 
-/* Journey cards on home ï¿½ easier horizontal scroll */
+/* Journey cards on home Ã¯Â¿Â½ easier horizontal scroll */
 @media (max-width: 767px) {
   .codex-home-journey-panel .journey-scroll {
     gap: 0.75rem;
@@ -9638,7 +9615,7 @@ body.menu-open {
   }
 }
 
-/* Quiz hub cards ï¿½ denser, thumb-friendly */
+/* Quiz hub cards Ã¯Â¿Â½ denser, thumb-friendly */
 @media (max-width: 639px) {
   .quiz-hub-grid {
     gap: 0.85rem;
@@ -9658,7 +9635,7 @@ body.menu-open {
   }
 }
 
-/* Dive sticky section pills ï¿½ readable on small phones */
+/* Dive sticky section pills Ã¯Â¿Â½ readable on small phones */
 @media (max-width: 639px) {
   .section-nav-sticky {
     width: calc(100% - 1rem);
@@ -9737,11 +9714,11 @@ body.menu-open {
 }
 
 /* =============================================
-   PHASE 4 ï¿½ Deep-dive reading luxury
+   PHASE 4 Ã¯Â¿Â½ Deep-dive reading luxury
    Study toolbar, font size, focus mode, report polish
    ============================================= */
 
-/* Reading progress ï¿½ thin luminous line under navbar */
+/* Reading progress Ã¯Â¿Â½ thin luminous line under navbar */
 .reading-progress {
   top: 0;
   height: 2px;
@@ -9769,7 +9746,7 @@ body.menu-open {
   }
 }
 
-/* Study toolbar ï¿½ calm tool strip */
+/* Study toolbar Ã¯Â¿Â½ calm tool strip */
 .report-study-toolbar {
   display: flex;
   flex-wrap: wrap;
@@ -9860,7 +9837,7 @@ body.menu-open {
   margin-left: auto;
 }
 
-/* Legacy Focus control â€” hidden if any cached HTML still includes it */
+/* Legacy Focus control Ã¢â‚¬â€ hidden if any cached HTML still includes it */
 .report-study-btn--focus,
 [data-report-focus] {
   display: none !important;
@@ -9974,7 +9951,7 @@ body[data-report-size="lg"] #report-container {
   color: var(--text-prose);
 }
 
-/* Focus mode ï¿½ calm archive reading */
+/* Focus mode Ã¯Â¿Â½ calm archive reading */
 body.reading-focus .navbar {
   background: #0F0A1F !important;
   -webkit-backdrop-filter: none !important;
@@ -10023,7 +10000,7 @@ body.reading-focus .report-layout {
 }
 
 body.reading-focus .report-toc {
-  /* TOC still useful in focus ï¿½ keep interactive */
+  /* TOC still useful in focus Ã¯Â¿Â½ keep interactive */
   opacity: 1;
   filter: none;
   pointer-events: auto;
@@ -10044,7 +10021,7 @@ body.reading-focus .section-nav-sticky {
   opacity: 0.92;
 }
 
-/* Active jump control — solid 3D, no ring glow */
+/* Active jump control â€” solid 3D, no ring glow */
 .btn-jump-pill.is-active,
 .btn-jump-pill.active,
 .jump-to-pills .btn-jump-pill.is-active,
@@ -10059,7 +10036,7 @@ body.reading-focus .section-nav-sticky {
     inset 0 -3px 0 rgba(30, 17, 53, 0.55) !important;
 }
 
-/* Continue learning — solid vault card */
+/* Continue learning â€” solid vault card */
 .dive-continue {
   border-radius: 1.25rem;
   border: none;
@@ -10082,7 +10059,7 @@ body.reading-focus .section-nav-sticky {
   color: var(--text-prose);
 }
 
-/* Hero ï¿½ slightly calmer on small screens */
+/* Hero Ã¯Â¿Â½ slightly calmer on small screens */
 @media (max-width: 767px) {
   .deep-dive-hero {
     min-height: 0;
@@ -10133,7 +10110,7 @@ body.reading-focus .section-nav-sticky {
 }
 
 /* =============================================
-   PHASE 5 ï¿½ Browse & discovery polish
+   PHASE 5 Ã¯Â¿Â½ Browse & discovery polish
    Empty states, source cards, filters, 404, network
    ============================================= */
 
@@ -10250,7 +10227,7 @@ a.source-card:hover .source-card-progress__fill {
   box-shadow: 0 0 14px rgba(139, 61, 255, 0.55);
 }
 
-/* Filter trays — solid elevated surfaces (no stroke outline) */
+/* Filter trays â€” solid elevated surfaces (no stroke outline) */
 .codex-toolbar,
 .topics-filter-panel {
   border: none !important;
@@ -10269,7 +10246,7 @@ a.source-card:hover .source-card-progress__fill {
   border-bottom-color: rgba(124, 58, 237, 0.18) !important;
 }
 
-/* Network controls tray — solid elevated surface (matches codex hub panels) */
+/* Network controls tray â€” solid elevated surface (matches codex hub panels) */
 .network-controls {
   padding: 0.95rem 1rem;
   border-radius: 1.1rem;
@@ -10299,7 +10276,7 @@ a.source-card:hover .source-card-progress__fill {
   letter-spacing: 0.12em;
 }
 
-/* Featured start cards: shared glow defined above â€” do not flatten here */
+/* Featured start cards: shared glow defined above Ã¢â‚¬â€ do not flatten here */
 
 /* 404 error page */
 .error-page-card {
@@ -10392,12 +10369,12 @@ a.source-card:hover .source-card-progress__fill {
   }
 }
 
-/* Topic search cards ï¿½ ready/soon clarity */
+/* Topic search cards Ã¯Â¿Â½ ready/soon clarity */
 .codex-topic-result .codex-meta-pill--ready {
   box-shadow: 0 0 12px -6px rgba(139, 61, 255, 0.45);
 }
 
-/* Skeleton grids ï¿½ consistent hub loading */
+/* Skeleton grids Ã¯Â¿Â½ consistent hub loading */
 .skeleton-grid,
 #sources-grid[aria-busy="true"],
 #network-grid[aria-busy="true"] {
@@ -10415,11 +10392,11 @@ a.source-card:hover .source-card-progress__fill {
 }
 
 /* =============================================
-   PROFESSIONAL REFINE ï¿½ calmer chrome & controls
+   PROFESSIONAL REFINE Ã¯Â¿Â½ calmer chrome & controls
    Editorial archive, less glow / less "app pill"
    ============================================= */
 
-/* ï¿½ï¿½ Navbar: text links, not candy pills ï¿½ï¿½ */
+/* Ã¯Â¿Â½Ã¯Â¿Â½ Navbar: text links, not candy pills Ã¯Â¿Â½Ã¯Â¿Â½ */
 .nav-links {
   gap: 0.15rem;
 }
@@ -10442,7 +10419,7 @@ a.source-card:hover .source-card-progress__fill {
 
 .nav-link.active {
   color: var(--text-primary) !important;
-  font-weight: 500 !important; /* match idle â€” no width jump */
+  font-weight: 500 !important; /* match idle Ã¢â‚¬â€ no width jump */
   background: transparent !important;
 }
 
@@ -10460,7 +10437,7 @@ a.source-card:hover .source-card-progress__fill {
   opacity: 1;
 }
 
-/* Nav CTA sizing — material comes from the soft-3D nav-cta block later */
+/* Nav CTA sizing â€” material comes from the soft-3D nav-cta block later */
 .nav-cta {
   margin-left: 0.75rem;
   padding: 0.45rem 1.05rem;
@@ -10470,7 +10447,7 @@ a.source-card:hover .source-card-progress__fill {
   border-radius: 9999px;
 }
 
-/* Flat-button pass removed — CTAs use soft 3D material sitewide */
+/* Flat-button pass removed â€” CTAs use soft 3D material sitewide */
 
 .text-link {
   font-size: 0.875rem;
@@ -10496,7 +10473,7 @@ a.source-card:hover .source-card-progress__fill {
   }
 }
 
-/* Interior hubs (Codex, Quizzesâ€¦): less empty air under the fixed nav */
+/* Interior hubs (Codex, QuizzesÃ¢â‚¬Â¦): less empty air under the fixed nav */
 .page-interior .page-hero {
   padding-top: 0.85rem !important;
   padding-bottom: 1.75rem !important;
@@ -10548,7 +10525,7 @@ a.source-card:hover .source-card-progress__fill {
   display: none !important;
 }
 
-/* About â€” media-first brand banner (reference 3D material for all vault panels) */
+/* About Ã¢â‚¬â€ media-first brand banner (reference 3D material for all vault panels) */
 .about-banner {
   position: relative;
   overflow: hidden;
@@ -10583,7 +10560,7 @@ a.source-card:hover .source-card-progress__fill {
   object-position: center 40%;
 }
 
-/* Soft image â†’ copy blend (no hard seam) */
+/* Soft image Ã¢â€ â€™ copy blend (no hard seam) */
 .about-banner-media-fade {
   position: absolute;
   inset: 0;
@@ -10651,7 +10628,7 @@ a.source-card:hover .source-card-progress__fill {
   font-weight: 600;
 }
 
-/* Inline prose links â€” never a mid-sentence pill (breadcrumb-link is for nav chips) */
+/* Inline prose links Ã¢â‚¬â€ never a mid-sentence pill (breadcrumb-link is for nav chips) */
 .about-banner-copy a,
 .about-banner-inline-link {
   display: inline !important;
@@ -10812,7 +10789,7 @@ a.source-card:hover .source-card-progress__fill {
   cursor: default;
 }
 
-/* Unified interior page intro â€” legacy left-aligned (topics / deep-dive may still use) */
+/* Unified interior page intro Ã¢â‚¬â€ legacy left-aligned (topics / deep-dive may still use) */
 .page-intro,
 .codex-page-intro {
   max-width: 40rem;
@@ -10868,7 +10845,7 @@ a.source-card:hover .source-card-progress__fill {
 /* ------------------------------------------------------------------
    Interior hub heroes (Codex / Quizzes / Network)
    Match the homepage calm brand moment: centered pill, metallic title,
-   ambient bloom, balanced mobile stack â€” without the giant brand wordmark.
+   ambient bloom, balanced mobile stack Ã¢â‚¬â€ without the giant brand wordmark.
    ------------------------------------------------------------------ */
 .page-hero--interior {
   max-width: 40rem;
@@ -10976,7 +10953,7 @@ a.source-card:hover .source-card-progress__fill {
   margin-bottom: 0;
 }
 
-/* Soften bloom slightly on multi-word titles (less â€œlogoâ€ intensity) */
+/* Soften bloom slightly on multi-word titles (less Ã¢â‚¬Å“logoÃ¢â‚¬Â intensity) */
 .page-hero--interior::before {
   opacity: 0.72;
   top: 8%;
@@ -10984,7 +10961,7 @@ a.source-card:hover .source-card-progress__fill {
   width: min(36rem, 94vw);
 }
 
-/* Optional soft line-break in long page titles â€” hide on wide screens when one line fits */
+/* Optional soft line-break in long page titles Ã¢â‚¬â€ hide on wide screens when one line fits */
 .page-hero-br {
   display: none;
 }
@@ -11063,7 +11040,7 @@ a.source-card:hover .source-card-progress__fill {
   }
 }
 
-/* Very narrow phones â€” prevent title edge-clipping */
+/* Very narrow phones Ã¢â‚¬â€ prevent title edge-clipping */
 @media (max-width: 380px) {
   .page-hero-title--page {
     font-size: 1.35rem !important;
@@ -11071,12 +11048,12 @@ a.source-card:hover .source-card-progress__fill {
   }
 }
 
-/* Mid-page section pills only â€” not used as page tops */
+/* Mid-page section pills only Ã¢â‚¬â€ not used as page tops */
 .section-pill-wrap {
   margin-top: 0.25rem;
 }
 
-/* Network filter horizontal scroll â€” clear â€œmoreâ€ affordance on mobile */
+/* Network filter horizontal scroll Ã¢â‚¬â€ clear Ã¢â‚¬Å“moreÃ¢â‚¬Â affordance on mobile */
 .network-filters-scroll {
   position: relative;
 }
@@ -11312,7 +11289,7 @@ a.source-card:hover .source-card-progress__fill {
    Icon-only donate cards + flat filters + quieter media
    ============================================= */
 
-/* Oracle â€” media-first banner (matches About treatment) */
+/* Oracle Ã¢â‚¬â€ media-first banner (matches About treatment) */
 .oracle-banner {
   position: relative;
   overflow: hidden;
@@ -11603,7 +11580,7 @@ a.source-card:hover .source-card-progress__fill {
   font-weight: 600 !important;
 }
 
-/* Quiz mode buttons already denser ï¿½ keep flat */
+/* Quiz mode buttons already denser Ã¯Â¿Â½ keep flat */
 .quiz-mode-btn {
   box-shadow: none !important;
 }
@@ -11617,7 +11594,7 @@ a.source-card:hover .source-card-progress__fill {
 }
 
 /* =============================================
-   Support section ï¿½ inviting, professional, conversion-focused
+   Support section Ã¯Â¿Â½ inviting, professional, conversion-focused
    ============================================= */
 
 .footer-support {
@@ -11635,7 +11612,7 @@ a.source-card:hover .source-card-progress__fill {
   box-shadow:
     0 20px 48px -24px rgba(0, 0, 0, 0.55),
     inset 0 1px 0 rgba(255, 255, 255, 0.06);
-  /* scroll-margin set once below â€” avoid stacking with html scroll-padding */
+  /* scroll-margin set once below Ã¢â‚¬â€ avoid stacking with html scroll-padding */
 }
 
 /*
@@ -11864,7 +11841,7 @@ html {
   min-height: 0;
 }
 
-/* Layout helpers only — size/material from global .btn-primary */
+/* Layout helpers only â€” size/material from global .btn-primary */
 .footer-donate-btn {
   margin-top: 0.35rem;
 }
@@ -11947,7 +11924,7 @@ html {
 }
 
 /* =============================================
-   Support donate cards ï¿½ equal columns, large QR, matching CTAs
+   Support donate cards Ã¯Â¿Â½ equal columns, large QR, matching CTAs
    ============================================= */
 
 .footer-donate-grid,
@@ -11992,7 +11969,7 @@ html {
   box-shadow: none !important;
 }
 
-/* No ï¿½primaryï¿½ spotlight card ï¿½ all equal */
+/* No Ã¯Â¿Â½primaryÃ¯Â¿Â½ spotlight card Ã¯Â¿Â½ all equal */
 .footer-donate-card--primary {
   order: 0 !important;
   background: rgba(12, 8, 26, 0.55) !important;
@@ -12080,7 +12057,7 @@ html {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
-/* Footer CTAs: layout only — material comes from global .btn-primary */
+/* Footer CTAs: layout only â€” material comes from global .btn-primary */
 .footer-donate-btn,
 .footer-donate-card .btn-primary,
 .footer-donate-card .btn-secondary,
@@ -12137,7 +12114,7 @@ button.footer-donate-btn {
   gap: 0.55rem !important;
 }
 
-/* Support Ko-fi / GoFundMe ï¿½ 9:16 portrait media */
+/* Support Ko-fi / GoFundMe Ã¯Â¿Â½ 9:16 portrait media */
 .footer-donate-card--kofi .footer-donate-media-wrap,
 .footer-donate-card--gofundme .footer-donate-media-wrap {
   display: flex !important;
@@ -12255,7 +12232,7 @@ button.footer-donate-btn {
   display: block;
 }
 
-/* Dark gradient so text stays readable over 9:16 art â€” soft multi-stop, no hard band */
+/* Dark gradient so text stays readable over 9:16 art Ã¢â‚¬â€ soft multi-stop, no hard band */
 .footer-donate-bg__scrim {
   position: absolute;
   inset: 0;
@@ -12346,7 +12323,7 @@ button.footer-donate-btn {
 }
 
 /* =============================================
-   BRAND GLASS UPGRADE ï¿½ 21st mark ï¿½ navbar ï¿½ footer
+   BRAND GLASS UPGRADE Ã¯Â¿Â½ 21st mark Ã¯Â¿Â½ navbar Ã¯Â¿Â½ footer
    Realistic glass materials, efficient depth, card grids
    ============================================= */
 
@@ -12372,7 +12349,7 @@ button.footer-donate-btn {
   width: 2.85rem;
   height: 2.85rem;
   flex-shrink: 0;
-  /* No plate â€” the mark already carries its own soft-edged icon shape */
+  /* No plate Ã¢â‚¬â€ the mark already carries its own soft-edged icon shape */
   border-radius: 0;
   background: transparent;
   border: none;
@@ -12421,7 +12398,7 @@ button.footer-donate-btn {
   opacity: 0.9;
 }
 
-/* Quiet brand mark ï¿½ not a competing button */
+/* Quiet brand mark Ã¯Â¿Â½ not a competing button */
 .nav-logo-icon {
   display: none !important; /* legacy eye container removed */
 }
@@ -12492,7 +12469,7 @@ button.footer-donate-btn {
 
 .nav-link.active {
   color: var(--text-primary) !important;
-  font-weight: 500 !important; /* match idle â€” no width jump */
+  font-weight: 500 !important; /* match idle Ã¢â‚¬â€ no width jump */
   background: transparent !important;
 }
 
@@ -12516,7 +12493,7 @@ button.footer-donate-btn {
   opacity: 1;
 }
 
-/* Secondary Telegram CTA ï¿½ glass chip, not primary hero */
+/* Secondary Telegram CTA Ã¯Â¿Â½ glass chip, not primary hero */
 .nav-cta {
   margin-left: 0.65rem !important;
   padding: 0.42rem 0.95rem !important;
@@ -12610,7 +12587,7 @@ button.footer-donate-btn {
 }
 
 .channel-card {
-  /* Solid acrylic look — no stroke outline */
+  /* Solid acrylic look â€” no stroke outline */
   background:
     linear-gradient(165deg, rgba(255, 255, 255, 0.06) 0%, transparent 40%),
     linear-gradient(180deg, rgba(32, 22, 56, 0.98) 0%, rgba(20, 14, 40, 0.99) 100%) !important;
@@ -12630,7 +12607,7 @@ button.footer-donate-btn {
 }
 
 .static-card {
-  /* Solid acrylic vault panels — no faint ring border */
+  /* Solid acrylic vault panels â€” no faint ring border */
   background:
     radial-gradient(ellipse 90% 55% at 50% -5%, rgba(124, 58, 237, 0.1) 0%, transparent 55%),
     linear-gradient(165deg, rgba(255, 255, 255, 0.05) 0%, transparent 45%),
@@ -12756,7 +12733,7 @@ a.btn-secondary:hover,
   }
 }
 
-/* Codex hub panels â€” plain solid surfaces (NOT .static-card).
+/* Codex hub panels Ã¢â‚¬â€ plain solid surfaces (NOT .static-card).
    .static-card / floating glass promotes a GPU layer that lightens the
    entire Codex canvas in Chrome, including the vault above the cards. */
 .codex-hub-panel,
@@ -12926,9 +12903,9 @@ a.btn-secondary:hover,
   color: #fff;
 }
 
-/* Legacy social grid — superseded by .footer-social-row in redesign block */
+/* Legacy social grid â€” superseded by .footer-social-row in redesign block */
 
-/* Support panel ï¿½ quieter elevated glass */
+/* Support panel Ã¯Â¿Â½ quieter elevated glass */
 .footer-support {
   border-radius: 16px !important;
   border: 1px solid rgba(124, 58, 237, 0.22) !important;
@@ -13177,7 +13154,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   display: none;
 }
 
-/* Codex topic results ï¿½ card grid consistency */
+/* Codex topic results Ã¯Â¿Â½ card grid consistency */
 .codex-topic-results-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -13196,7 +13173,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   }
 }
 
-/* Network directory already uses cards ï¿½ refine glass edges */
+/* Network directory already uses cards Ã¯Â¿Â½ refine glass edges */
 .network-directory-grid > a.channel-card {
   min-height: 12.5rem;
 }
@@ -13225,7 +13202,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
 }
 
 /* =============================================
-   FOOTER REDESIGN â€” editorial + tabbed support
+   FOOTER REDESIGN Ã¢â‚¬â€ editorial + tabbed support
    Icon-only socials, slim support tabs, image accents
    ============================================= */
 
@@ -13354,7 +13331,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   color: #fff !important;
 }
 
-/* Connect: icon buttons — same secondary 3D material as site CTAs */
+/* Connect: icon buttons â€” same secondary 3D material as site CTAs */
 .footer-social-row,
 .footer-social-grid {
   display: flex !important;
@@ -13395,7 +13372,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
     transform 0.2s ease;
 }
 
-/* Top-face sheen — matches .btn-secondary */
+/* Top-face sheen â€” matches .btn-secondary */
 .footer-social::before,
 .footer-social--icon::before {
   content: '' !important;
@@ -13466,7 +13443,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   outline-offset: 3px;
 }
 
-/* Support â€” slim panel + tabs */
+/* Support Ã¢â‚¬â€ slim panel + tabs */
 .footer-support {
   border-radius: 16px !important;
   border: 1px solid rgba(124, 58, 237, 0.22) !important;
@@ -13491,7 +13468,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   display: none !important;
 }
 
-/* Support head â€” same calm brand moment as page-hero interiors */
+/* Support head Ã¢â‚¬â€ same calm brand moment as page-hero interiors */
 .footer-support-head {
   position: relative !important;
   z-index: 1;
@@ -13528,7 +13505,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   z-index: 1;
 }
 
-/* Text eyebrow — section label, not a disclaimer pill */
+/* Text eyebrow â€” section label, not a disclaimer pill */
 .footer-support-eyebrow {
   display: inline-flex !important;
   align-items: center !important;
@@ -13559,7 +13536,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   flex-shrink: 0 !important;
 }
 
-/* Metallic title â€” same gradient as .page-hero-title--page */
+/* Metallic title Ã¢â‚¬â€ same gradient as .page-hero-title--page */
 .footer-support-title {
   display: block !important;
   width: 100% !important;
@@ -13721,7 +13698,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   outline-offset: 2px;
 }
 
-/* Clean SVG icons in tabs â€” no photo thumbs */
+/* Clean SVG icons in tabs Ã¢â‚¬â€ no photo thumbs */
 .footer-tab-icon {
   display: flex;
   align-items: center;
@@ -13815,7 +13792,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* 16:9 support art â€” keep subject centered in the wide panel */
+  /* 16:9 support art Ã¢â‚¬â€ keep subject centered in the wide panel */
   object-position: center center;
   display: block;
   opacity: 1;
@@ -13823,7 +13800,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   transform: scale(1.01);
 }
 
-/* Long soft veil â€” image still reads on one side, text side fully readable */
+/* Long soft veil Ã¢â‚¬â€ image still reads on one side, text side fully readable */
 .footer-tabpanel--blend .footer-tab-media__scrim {
   position: absolute;
   inset: 0;
@@ -13959,7 +13936,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   width: auto !important;
   min-width: 9.5rem;
   align-self: flex-start;
-  /* Keep full .btn-primary 3D material — do not flatten shadow here */
+  /* Keep full .btn-primary 3D material â€” do not flatten shadow here */
 }
 
 /* Bitcoin: QR + copy in one glass row (no photo atmosphere) */
@@ -14135,7 +14112,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
    Final cascade wins over earlier "flat professional" overrides.
    ============================================= */
 
-/* Solid acrylic tiles (not photo-led cards) — soft 3D, no stroke */
+/* Solid acrylic tiles (not photo-led cards) â€” soft 3D, no stroke */
 .memory-card:not(.static-card):not(.topics-filter-panel),
 .content-card:not(.static-card):not(.topics-filter-panel),
 .lesson-content-card:not(.static-card),
@@ -14180,7 +14157,7 @@ button.quiz-hub-stat,
     radial-gradient(circle at 88% 92%, rgba(255, 255, 255, 0.04) 0%, transparent 55%) !important;
 }
 
-/* Interactive lift — depth only, no stroke outline */
+/* Interactive lift â€” depth only, no stroke outline */
 .memory-card:not(.static-card):not(.topics-filter-panel):hover,
 .content-card:not(.static-card):not(.topics-filter-panel):hover,
 .lesson-content-card:not(.static-card):hover,
@@ -14202,7 +14179,7 @@ a.source-card:not(.static-card),
   border: none !important;
 }
 
-/* Floating vault panels (main-page banners) — strongest tier */
+/* Floating vault panels (main-page banners) â€” strongest tier */
 .static-card {
   background:
     radial-gradient(ellipse 90% 55% at 50% -5%, rgba(124, 58, 237, 0.12) 0%, transparent 55%),
@@ -14252,7 +14229,7 @@ a.quiz-hub-card > * {
   z-index: 1 !important;
 }
 
-/* Stats chips (codex / quizzes) â€” compact elevated tiles */
+/* Stats chips (codex / quizzes) Ã¢â‚¬â€ compact elevated tiles */
 .codex-stat,
 .quiz-hub-stat,
 button.quiz-hub-stat {
@@ -14285,7 +14262,7 @@ button.quiz-hub-stat[aria-pressed="true"] {
     inset 0 -3px 0 rgba(30, 17, 53, 0.55) !important;
 }
 
-/* Topic root cards — elevated vault, no stroke ring */
+/* Topic root cards â€” elevated vault, no stroke ring */
 .topic-root-card {
   border: none !important;
   box-shadow: var(--surface-tier-elevated) !important;
@@ -14296,7 +14273,7 @@ button.quiz-hub-stat[aria-pressed="true"] {
   box-shadow: var(--surface-tier-elevated-hover) !important;
 }
 
-/* Leaf / toggle controls — soft 3D (same language as secondary CTAs), no stroke */
+/* Leaf / toggle controls â€” soft 3D (same language as secondary CTAs), no stroke */
 .topic-leaf-btn,
 .category-toggle,
 .category-toggle-btn {
@@ -14324,7 +14301,7 @@ button.quiz-hub-stat[aria-pressed="true"] {
     inset 0 -4px 0 rgba(8, 5, 18, 0.55) !important;
 }
 
-/* Filter pills â€” subtle emboss (not flat ghosts) */
+/* Filter pills Ã¢â‚¬â€ subtle emboss (not flat ghosts) */
 .topic-control-btn,
 .quiz-hub-filters .topic-control-btn,
 .network-filter-btn.topic-control-btn,
@@ -14355,7 +14332,7 @@ button.quiz-hub-stat[aria-pressed="true"] {
   transform: translateY(-1px) !important;
 }
 
-/* Active filters — solid primary 3D, no ring/glow border */
+/* Active filters â€” solid primary 3D, no ring/glow border */
 .topic-control-btn.active,
 .topic-control-btn.is-active,
 .topic-control-btn[aria-pressed="true"],
@@ -14378,7 +14355,7 @@ button.quiz-hub-stat[aria-pressed="true"] {
     inset 0 -3px 0 rgba(30, 17, 53, 0.55) !important;
 }
 
-/* Quiz mode tiles — no stroke outline */
+/* Quiz mode tiles â€” no stroke outline */
 .quiz-mode-btn {
   background:
     linear-gradient(165deg, rgba(42, 31, 64, 0.55) 0%, rgba(18, 10, 46, 0.7) 100%) !important;
@@ -14408,7 +14385,7 @@ button.quiz-hub-stat[aria-pressed="true"] {
     inset 0 -3px 0 rgba(0, 0, 0, 0.3) !important;
 }
 
-/* Primary / secondary CTAs — refined 3D bevel (not oversized) */
+/* Primary / secondary CTAs â€” refined 3D bevel (not oversized) */
 button.btn-primary,
 a.btn-primary,
 .btn-primary {
@@ -14485,7 +14462,7 @@ a.btn-secondary:active,
     inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
 }
 
-/* Nav Telegram CTA — soft 3D pill, no stroke */
+/* Nav Telegram CTA â€” soft 3D pill, no stroke */
 .nav-cta {
   background: linear-gradient(180deg, #5B21B6 0%, #4C1D95 42%, #2E1065 100%) !important;
   border: none !important;
@@ -14543,7 +14520,7 @@ a.btn-secondary:active,
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, transparent 45%) !important;
 }
 
-/* Jump pills / breadcrumb chips â€” soft 3D chips, no stroke */
+/* Jump pills / breadcrumb chips Ã¢â‚¬â€ soft 3D chips, no stroke */
 .btn-jump-pill,
 .breadcrumb-link {
   box-shadow:
@@ -14566,7 +14543,7 @@ a.btn-secondary:active,
   transform: translateY(-1px) !important;
 }
 
-/* Keep utility trays quiet â€” soft 3D, no stroke */
+/* Keep utility trays quiet Ã¢â‚¬â€ soft 3D, no stroke */
 .topics-filter-panel,
 .topics-filter-panel.static-card {
   background: #141022 !important;
@@ -14621,7 +14598,7 @@ a.btn-secondary:active,
 }
 
 /* =============================================
-   GLOBAL SOFT-3D MATERIAL PASS (final — wins over earlier !important)
+   GLOBAL SOFT-3D MATERIAL PASS (final â€” wins over earlier !important)
    Kill hard stroke outlines. Depth = shadow + top light + bottom undercut.
    ============================================= */
 :is(
@@ -14710,7 +14687,7 @@ a.quiz-hub-card.has-score {
 }
 
 /* =============================================
-   CODEX TOOLBAR — select/control safety (final)
+   CODEX TOOLBAR â€” select/control safety (final)
    Prevent Windows/Chrome native white <select>
    ============================================= */
 #codex-toolbar .codex-sort-select,
@@ -14743,9 +14720,9 @@ select.codex-sort-select {
 }
 
 /* =============================================
-   PHASE 1 — Visual elevation quick wins (2026-07)
-   Buttons · Mobile footer · Quiz hub scale
-   Final cascade — wins over earlier phase layers
+   PHASE 1 â€” Visual elevation quick wins (2026-07)
+   Buttons Â· Mobile footer Â· Quiz hub scale
+   Final cascade â€” wins over earlier phase layers
    ============================================= */
 
 /* --- Buttons: one material language --- */
@@ -14890,7 +14867,7 @@ a.btn-secondary:active,
     font-size: 0.85rem !important;
     line-height: 1.55 !important;
     max-width: none !important;
-    /* Full description — never clamp/truncate on mobile */
+    /* Full description â€” never clamp/truncate on mobile */
     display: block !important;
     -webkit-line-clamp: unset !important;
     line-clamp: unset !important;
@@ -14981,13 +14958,13 @@ a.btn-secondary:active,
   }
 
   .footer-support-funds li:not(:last-child)::after {
-    content: '·';
+    content: 'Â·';
     margin-left: 0.4rem;
     margin-right: 0.25rem;
     opacity: 0.65;
   }
 
-  /* Quieter tab media — prioritize CTA; keep copy fully readable */
+  /* Quieter tab media â€” prioritize CTA; keep copy fully readable */
   .footer-tabpanel--blend {
     min-height: 0 !important;
   }
@@ -15104,7 +15081,7 @@ a.btn-secondary:active,
   isolation: isolate;
 }
 
-/* Essence art — full-bleed under copy (Alice / Breakdown codex cards) */
+/* Essence art â€” full-bleed under copy (Alice / Breakdown codex cards) */
 .quiz-hub-path-card__media {
   position: absolute;
   inset: 0;
@@ -15256,7 +15233,7 @@ a.btn-secondary:active,
   color: #fff;
 }
 
-/* Legacy stats strip — never re-surface (path cards own path entry) */
+/* Legacy stats strip â€” never re-surface (path cards own path entry) */
 .quiz-hub-stats,
 .quiz-hub-stats--compact {
   display: none !important;
@@ -15677,8 +15654,8 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 }
 
 /* =============================================
-   PHASE 2 — Visual elevation + quiz scale
-   Home banners · Network filters · Quiz tools · CTAs
+   PHASE 2 â€” Visual elevation + quiz scale
+   Home banners Â· Network filters Â· Quiz tools Â· CTAs
    ============================================= */
 
 /* --- Home section differentiation --- */
@@ -16238,7 +16215,7 @@ select.quiz-hub-sort-select {
     inset 0 -4px 0 rgba(30, 17, 53, 0.65) !important;
 }
 
-/* Quiz player start button — same material, slightly larger */
+/* Quiz player start button â€” same material, slightly larger */
 .quiz-page .btn-primary,
 .quiz-actions .btn-primary,
 .quiz-actions--end .btn-primary {
@@ -16274,7 +16251,7 @@ select.quiz-hub-sort-select {
 }
 
 /* =============================================
-   PHASE 4 — Hardening: a11y, focus, reduced motion
+   PHASE 4 â€” Hardening: a11y, focus, reduced motion
    ============================================= */
 
 /* Unified focus ring for new interactive surfaces */
@@ -16320,7 +16297,7 @@ a.quiz-continue-card:focus-visible,
   position: relative;
 }
 
-/* Reduced motion: kill lifts on Phase 1–2 surfaces */
+/* Reduced motion: kill lifts on Phase 1â€“2 surfaces */
 @media (prefers-reduced-motion: reduce) {
   .quiz-hub-path-card:hover,
   a.quiz-hub-featured-card:hover,
@@ -16372,7 +16349,7 @@ a.quiz-continue-card:focus-visible,
 }
 
 /* =============================================
-   SUPPORT SECTION — match index vault cards + primary CTAs
+   SUPPORT SECTION â€” match index vault cards + primary CTAs
    Final cascade: tab panels + donate buttons
    ============================================= */
 
@@ -16503,7 +16480,7 @@ a.quiz-continue-card:focus-visible,
 }
 
 /* =============================================
-   CODEX “TOPICS BY CATEGORY” — match site vault language
+   CODEX â€œTOPICS BY CATEGORYâ€ â€” match site vault language
    Final cascade: root cards + section toggles + leaf pills
    ============================================= */
 
@@ -16525,7 +16502,7 @@ a.topic-root-card:hover {
   box-shadow: var(--surface-tier-elevated-hover) !important;
 }
 
-/* “Explore category →” stays a calm text-link, not a third button style */
+/* â€œExplore category â†’â€ stays a calm text-link, not a third button style */
 .topic-root-card .explore-badge,
 a.topic-root-card .explore-badge {
   background: transparent !important;
@@ -16540,7 +16517,7 @@ a.topic-root-card:hover .explore-badge {
   color: #fff !important;
 }
 
-/* Category row toggles — soft 3D card material (not stadium pills) */
+/* Category row toggles â€” soft 3D card material (not stadium pills) */
 .category-toggle,
 .category-toggle-btn,
 button.category-toggle-btn {
@@ -16597,7 +16574,7 @@ button.category-toggle-btn:active {
   color: #C4B5FD !important;
 }
 
-/* Count chip inside toggle — recessed, not flat Tailwind ghost */
+/* Count chip inside toggle â€” recessed, not flat Tailwind ghost */
 .category-toggle-btn .text-xs.rounded-full,
 .category-toggle-btn .bg-white\/10 {
   background: rgba(8, 5, 18, 0.45) !important;
@@ -16606,7 +16583,7 @@ button.category-toggle-btn:active {
   color: var(--text-soft) !important;
 }
 
-/* Leaf topic chips — card radius, same secondary material as category rows */
+/* Leaf topic chips â€” card radius, same secondary material as category rows */
 a.topic-leaf-btn,
 .topic-leaf-btn,
 span.topic-leaf-btn {
@@ -16656,7 +16633,7 @@ a.topic-leaf-btn:active,
   ) !important;
 }
 
-/* “View →” — text-link tertiary, not a third outlined button */
+/* â€œView â†’â€ â€” text-link tertiary, not a third outlined button */
 a.topic-section-link,
 .topic-section-link {
   border: none !important;
@@ -16697,7 +16674,7 @@ a.topic-section-link:hover,
 
 /* =============================================
    KILL FAINT GLOW RINGS ON CONTROLS (final)
-   Matches solid 3D CTAs — no hairline / outer ring
+   Matches solid 3D CTAs â€” no hairline / outer ring
    ============================================= */
 .topic-control-btn.active,
 .topic-control-btn.is-active,
@@ -16734,7 +16711,7 @@ a.topic-section-link:hover,
 
 /* =============================================
    BTN-TOPIC-NAV SOLID 3D FINAL
-   Quiz page “All quizzes / Topic / Codex” chips
+   Quiz page â€œAll quizzes / Topic / Codexâ€ chips
    ============================================= */
 a.btn-topic-nav,
 button.btn-topic-nav,
@@ -16781,7 +16758,7 @@ button.btn-topic-nav:hover,
 
 /* =============================================
    VAULT-MATCHED PRIMARY CTAs (final)
-   Same material family as secondary — deeper violet,
+   Same material family as secondary â€” deeper violet,
    not bright lilac plastic. Still clearly primary.
    ============================================= */
 button.btn-primary,
@@ -16833,7 +16810,7 @@ a.btn-primary:active,
   filter: none !important;
 }
 
-/* Mobile nav CTA — same vault primary, no outline */
+/* Mobile nav CTA â€” same vault primary, no outline */
 .nav-cta-mobile {
   background: linear-gradient(180deg, #5B21B6 0%, #4C1D95 42%, #2E1065 100%) !important;
   border: none !important;
@@ -16875,7 +16852,7 @@ a.nav-cta,
   filter: none !important;
 }
 
-/* Primary role — deep vault violet */
+/* Primary role â€” deep vault violet */
 button.btn-primary,
 a.btn-primary,
 .btn-primary,
@@ -16923,7 +16900,7 @@ a.btn-primary:active,
   filter: none !important;
 }
 
-/* Secondary role — same chrome, darker plate */
+/* Secondary role â€” same chrome, darker plate */
 button.btn-secondary,
 a.btn-secondary,
 .btn-secondary,
@@ -16964,7 +16941,7 @@ a.btn-topic-nav:active,
   box-shadow: var(--surface-tier-btn-active) !important;
 }
 
-/* Size modifiers — shared */
+/* Size modifiers â€” shared */
 .btn-primary--lg,
 .btn-secondary--lg,
 .home-hero-actions__primary,
@@ -16997,7 +16974,7 @@ a.btn-topic-nav:active,
   border: none !important;
 }
 
-/* Compact chips (filters / jump) — same material family, slightly smaller */
+/* Compact chips (filters / jump) â€” same material family, slightly smaller */
 .topic-control-btn,
 .network-filter-btn,
 .btn-jump-pill,
@@ -17021,7 +16998,7 @@ a.btn-topic-nav:active,
   border: none !important;
 }
 
-/* Active filter / jump — primary fill, same shadow recipe */
+/* Active filter / jump â€” primary fill, same shadow recipe */
 .topic-control-btn.active,
 .topic-control-btn.is-active,
 .topic-control-btn[aria-pressed="true"],
@@ -17082,7 +17059,7 @@ a.btn-topic-nav:active,
   border-radius: 0.55rem !important;
 }
 
-/* Quiz page topic nav chips — match secondary size slightly smaller is OK on mobile */
+/* Quiz page topic nav chips â€” match secondary size slightly smaller is OK on mobile */
 .quiz-back-row .btn-topic-nav {
   min-height: 2.5rem !important;
   padding: 0.55rem 1.15rem !important;
@@ -17142,4 +17119,2032 @@ body.reading-focus .navbar {
   -webkit-backdrop-filter: none !important;
   backdrop-filter: none !important;
   border-top: none !important;
+}
+
+/* =============================================
+   CEO elevation â€” homepage hero, proof, feature pair
+   ============================================= */
+
+.home-hero {
+  position: relative;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+}
+
+.home-hero-mark-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.1rem;
+}
+
+.home-hero-mark {
+  width: 4.5rem;
+  height: 4.5rem;
+  object-fit: contain;
+  opacity: 0.92;
+  filter: drop-shadow(0 8px 24px rgba(91, 33, 182, 0.35));
+}
+
+@media (min-width: 768px) {
+  .home-hero-mark {
+    width: 5.25rem;
+    height: 5.25rem;
+  }
+}
+
+/* Proof metrics strip under hero */
+.home-proof-strip {
+  margin-top: 0.5rem;
+  margin-bottom: clamp(2.5rem, 5vw, 3.75rem);
+}
+
+.home-proof-card {
+  padding: 1.25rem 1.35rem 1.15rem;
+  max-width: 52rem;
+  margin: 0 auto;
+}
+
+.home-proof-card.codex-home-metrics {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.home-proof-formats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35rem 0.55rem;
+  margin: 1rem auto 0;
+  max-width: 36rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.home-proof-formats__sep {
+  opacity: 0.55;
+  user-select: none;
+}
+
+/* About inline note (replaces heavy footnote) */
+.about-banner-note {
+  display: inline;
+  color: var(--text-soft);
+  font-size: 0.95em;
+}
+
+.about-banner-note::before {
+  content: ' ';
+}
+
+/* Product Codex card â€” richer media, no nested metrics */
+.home-banner--product .codex-banner-media {
+  height: clamp(8.5rem, 18vw, 12.5rem);
+  max-height: 12.5rem;
+}
+
+.home-banner--product .codex-banner-img {
+  max-height: 12.5rem;
+  object-position: center 42%;
+}
+
+.home-banner--product .codex-home-cta-row {
+  margin-top: 1.35rem;
+}
+
+/* Oracle + Media â€” side-by-side peers, natural height (no forced equal stretch) */
+.home-feature-pair__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(1.5rem, 3.5vw, 1.75rem);
+  align-items: start;
+}
+
+.home-feature-pair__col {
+  min-width: 0;
+}
+
+.home-feature-pair__col > .section-eyebrow {
+  margin-bottom: 0.85rem !important;
+}
+
+.home-feature-pair .home-banner--pair,
+.home-feature-pair .home-banner--focus.oracle-banner,
+.home-feature-pair .home-banner--media {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 0;
+}
+
+.home-feature-pair .oracle-banner-media,
+.home-feature-pair .media-banner-media {
+  flex: 0 0 auto;
+  height: clamp(6.5rem, 11vw, 8.25rem);
+  max-height: 8.25rem;
+  min-height: 0;
+}
+
+.home-feature-pair .oracle-banner-img,
+.home-feature-pair .media-banner-img {
+  max-height: 8.25rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.home-feature-pair .oracle-banner-media-fade,
+.home-feature-pair .media-banner-media-fade {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(26, 20, 51, 0.15) 40%,
+    rgba(26, 20, 51, 0.85) 78%,
+    #1A1433 100%
+  );
+}
+
+.home-feature-pair .oracle-banner-body,
+.home-feature-pair .media-banner-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin-top: 0;
+  padding: 1.15rem 1.25rem 1.25rem;
+}
+
+.home-feature-pair .oracle-banner-actions,
+.home-feature-pair .media-banner-actions {
+  margin-top: 0.35rem;
+  padding-top: 0;
+}
+
+.home-feature-pair .home-banner--focus.oracle-banner {
+  grid-template-columns: none;
+}
+
+@media (min-width: 960px) {
+  .home-feature-pair__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.35rem;
+    align-items: start;
+  }
+}
+
+.home-banner--compact .oracle-banner-title,
+.home-banner--compact .media-banner-title {
+  font-size: clamp(1.28rem, 2.2vw, 1.55rem);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.home-banner--compact .oracle-banner-copy,
+.home-banner--compact .media-banner-copy {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Mirror oracle label style on media card */
+.media-banner-label {
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.home-feature-pair .oracle-banner-label {
+  margin: 0;
+}
+
+.oracle-banner-footnote--inline {
+  margin-top: 0.35rem;
+  margin-bottom: 0;
+  padding: 0.55rem 0 0;
+  border-top: 1px solid rgba(76, 61, 107, 0.4);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--text-dim);
+  background: none;
+  box-shadow: none;
+}
+
+.home-video-featured {
+  margin-top: 0.35rem;
+  margin-bottom: 0.15rem;
+}
+
+.home-video-featured .home-video-card__title {
+  font-size: 0.9rem;
+  line-height: 1.3;
+  margin-top: 0.55rem !important;
+}
+
+.home-banner--compact.home-banner--media .media-banner-media {
+  display: block;
+}
+
+.home-banner--compact .media-banner-actions {
+  margin-top: 0.25rem;
+}
+
+/* Slimmer nav after IA cut â€” roomier mid desktop */
+@media (min-width: 900px) {
+  .nav-links {
+    gap: 0.35rem;
+  }
+
+  .nav-link {
+    padding: 0.45rem 0.75rem;
+  }
+}
+
+/* Footer Connect â€” icon-first density on wide screens */
+@media (min-width: 768px) {
+  .footer-social-row {
+    gap: 0.45rem;
+  }
+  .footer-social-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  .footer-social--icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    justify-content: center;
+  }
+}
+
+/* =============================================
+   POLISH REPAIR â€” lock critical UI after elevation
+   Final cascade: fixes nav, tabs, contrast, media, dives
+   ============================================= */
+
+/* --- Navbar: solid bar, one row, links right --- */
+.navbar {
+  background: #0F0A1F !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  background-color: #0F0A1F !important;
+}
+
+.navbar.is-scrolled {
+  background: #0F0A1F !important;
+  background-color: #0F0A1F !important;
+}
+
+.nav-content {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100%;
+  min-height: 4.75rem;
+  height: auto !important;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+  gap: 0.75rem;
+}
+
+.nav-logo {
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    margin-left: auto;
+    gap: 0.2rem !important;
+  }
+
+  .mobile-menu-btn {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-links {
+    display: none !important;
+  }
+
+  .mobile-menu-btn {
+    display: flex !important;
+    margin-left: auto;
+  }
+}
+
+/* --- Section eyebrows: readable, not ghost text --- */
+.section-eyebrow {
+  color: #C4B5FD !important;
+  font-size: 0.78rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.14em !important;
+  opacity: 1 !important;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.45);
+}
+
+.section-eyebrow::before {
+  background: #A78BFA !important;
+  box-shadow: 0 0 14px rgba(167, 139, 250, 0.85) !important;
+  width: 0.45rem !important;
+  height: 0.45rem !important;
+}
+
+/* --- Support tabs: never mush labels together --- */
+.footer-tablist {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: stretch !important;
+  gap: 0.45rem !important;
+  padding: 0.35rem !important;
+}
+
+.footer-tab {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.5rem !important;
+  flex: 1 1 7.5rem !important;
+  min-width: 7.25rem !important;
+  min-height: 2.65rem !important;
+  padding: 0.45rem 1rem !important;
+  white-space: nowrap !important;
+  font-size: 0.84rem !important;
+  line-height: 1.2 !important;
+}
+
+.footer-tab-icon {
+  display: inline-flex !important;
+  flex-shrink: 0 !important;
+  width: 1.45rem !important;
+  height: 1.45rem !important;
+}
+
+.footer-tab-label {
+  display: inline !important;
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  clip: auto !important;
+  clip-path: none !important;
+  white-space: nowrap !important;
+  font-size: inherit !important;
+  color: inherit !important;
+}
+
+/* --- Quiz toolbar / search: solid, not washed glass --- */
+.quiz-hub-toolbar {
+  background: #1A1433 !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  border: none !important;
+  box-shadow:
+    0 16px 40px -16px rgba(0, 0, 0, 0.55),
+    0 8px 20px -12px rgba(0, 0, 0, 0.35),
+    inset 0 1.5px 0 rgba(255, 255, 255, 0.1) !important;
+}
+
+.quiz-hub-search .codex-search-field,
+.codex-search-field,
+.quiz-hub-toolbar input[type="search"],
+.quiz-hub-toolbar input[type="text"] {
+  background: #120A2E !important;
+  color: #F1EBFF !important;
+  border: none !important;
+  box-shadow:
+    inset 0 2px 6px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+  opacity: 1 !important;
+}
+
+.quiz-hub-search .codex-search-field::placeholder,
+.codex-search-field::placeholder {
+  color: #8B7BB5 !important;
+  opacity: 1 !important;
+}
+
+/* --- Path cards: force art visible + elevated shell --- */
+.quiz-hub-path-card {
+  position: relative !important;
+  min-height: 15rem !important;
+  overflow: hidden !important;
+  isolation: isolate !important;
+  background: #16102c !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+}
+
+.quiz-hub-path-card__media {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 0 !important;
+  display: block !important;
+  opacity: 1 !important;
+}
+
+.quiz-hub-path-card__img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  opacity: 1 !important;
+  filter: saturate(1.08) brightness(0.95) !important;
+}
+
+.quiz-hub-path-card__scrim {
+  z-index: 1 !important;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(12, 8, 26, 0.22) 0%,
+      rgba(12, 8, 26, 0.42) 40%,
+      rgba(12, 8, 26, 0.88) 100%
+    ) !important;
+}
+
+.quiz-hub-path-card__body {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+/* --- Topic root cards: images must show --- */
+.topic-root-card {
+  position: relative !important;
+  overflow: hidden !important;
+  background: #16102c !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+}
+
+.topic-root-media {
+  display: block !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.topic-root-media img,
+.topic-root-media .topic-card-img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  filter: saturate(1.05) brightness(0.96) !important;
+}
+
+/* --- Codex transmission cards: richer photo + depth --- */
+a.source-card,
+.source-card {
+  overflow: hidden !important;
+  border-radius: 1.15rem !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+  background: #12101f !important;
+  transform: translateZ(0);
+}
+
+a.source-card:hover,
+.source-card:hover {
+  box-shadow: var(--surface-tier-elevated-hover) !important;
+  transform: translateY(-3px);
+}
+
+.source-card-media img,
+.source-card-img {
+  opacity: 1 !important;
+  filter: saturate(1.06) brightness(0.94) !important;
+  object-fit: cover !important;
+}
+
+.source-card-media-fade {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(12, 8, 26, 0.25) 35%,
+    rgba(12, 8, 26, 0.88) 78%,
+    rgba(12, 8, 26, 0.96) 100%
+  ) !important;
+}
+
+/* --- Dive hero: less purple â€œfilmâ€, more art + readable type --- */
+.deep-dive-hero-scrim {
+  background: linear-gradient(
+    105deg,
+    rgba(15, 10, 31, 0.86) 0%,
+    rgba(15, 10, 31, 0.62) 42%,
+    rgba(15, 10, 31, 0.38) 72%,
+    rgba(15, 10, 31, 0.55) 100%
+  ) !important;
+}
+
+.deep-dive-hero-bg {
+  filter: saturate(1.12) brightness(1.02) contrast(1.04) !important;
+}
+
+.deep-dive-hero-content {
+  color: #F8FAFC;
+  text-shadow: 0 1px 18px rgba(0, 0, 0, 0.45);
+}
+
+/* --- Infographic: clearer, no muddy filter --- */
+.infographic-artifact img,
+#infographic-container img,
+.infographic-modal-image,
+.media-frame img {
+  opacity: 1 !important;
+  filter: none !important;
+  image-rendering: auto;
+}
+
+.infographic-artifact {
+  box-shadow: var(--surface-tier-elevated) !important;
+  background: #0a0614 !important;
+}
+
+/* --- Report body: clean paper, no white haze --- */
+#report-section,
+#report-container,
+.report-prose,
+.dive-report,
+.lesson-report {
+  background: transparent !important;
+  color: var(--text-body, #F1EBFF) !important;
+}
+
+#report-container,
+.report-prose {
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.03) 0%, transparent 40%),
+    rgba(22, 16, 40, 0.92) !important;
+  box-shadow: var(--surface-tier-base) !important;
+  border-radius: 1rem;
+}
+
+/* --- Oracle + Media twins: professional equal cards --- */
+.home-feature-pair .oracle-banner,
+.home-feature-pair .media-banner {
+  background: #1A1433 !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+  border-radius: 1.15rem !important;
+  overflow: hidden !important;
+}
+
+.home-feature-pair .oracle-banner-title,
+.home-feature-pair .media-banner-title {
+  color: #F8FAFC !important;
+  font-weight: 650;
+}
+
+.home-feature-pair .oracle-banner-copy,
+.home-feature-pair .media-banner-copy {
+  color: #C4B5FD !important;
+}
+
+.home-feature-pair .media-banner-label,
+.home-feature-pair .oracle-banner-label {
+  color: #A78BFA !important;
+}
+
+.home-video-featured .home-video-card__frame {
+  box-shadow:
+    0 12px 28px -14px rgba(0, 0, 0, 0.65),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* --- Static cards default depth --- */
+.static-card {
+  box-shadow: var(--surface-tier-elevated) !important;
+}
+
+/* Topic root + codex cards: force split layout + visible art */
+.topic-root-card,
+a.topic-root-card {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  overflow: hidden !important;
+}
+
+@media (min-width: 640px) {
+  .topic-root-card,
+  a.topic-root-card {
+    grid-template-columns: minmax(8.5rem, 0.62fr) minmax(0, 1.38fr) !important;
+    min-height: 11rem !important;
+    align-items: stretch !important;
+  }
+}
+
+.topic-root-media {
+  display: block !important;
+  position: relative !important;
+  height: 9.5rem !important;
+  min-height: 9.5rem !important;
+  overflow: hidden !important;
+  background: #0c081c !important;
+}
+
+@media (min-width: 640px) {
+  .topic-root-media {
+    height: auto !important;
+    min-height: 100% !important;
+    align-self: stretch !important;
+  }
+
+  .topic-root-media img,
+  .topic-root-media .topic-card-img {
+    position: absolute !important;
+    inset: 0 !important;
+  }
+}
+
+.source-card-media {
+  display: block !important;
+  position: relative !important;
+  min-height: 11rem !important;
+  overflow: hidden !important;
+}
+
+.source-card-media img,
+.source-card-img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 11rem !important;
+  object-fit: cover !important;
+}
+
+/* =============================================
+   FOOTER LAYERS â€” utility vs support band
+   ============================================= */
+
+.site-footer {
+  margin-top: clamp(2.5rem, 5vw, 3.5rem);
+}
+
+.footer-main {
+  padding-bottom: 1.75rem !important;
+  margin-bottom: 0 !important;
+  border-bottom: 1px solid rgba(76, 61, 107, 0.28);
+}
+
+.footer-brand-desc {
+  max-width: 22rem;
+  font-size: 0.9rem !important;
+  line-height: 1.55 !important;
+  color: var(--text-soft) !important;
+}
+
+.footer-heading {
+  letter-spacing: 0.1em !important;
+  font-size: 0.68rem !important;
+  color: var(--text-muted) !important;
+  margin-bottom: 0.65rem !important;
+}
+
+.footer-link-list {
+  gap: 0.35rem 0 !important;
+}
+
+.footer-social-row {
+  max-width: 16rem;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.4rem !important;
+}
+
+/* Support band â€” calmer, clearly separate from utility footer */
+.footer-support,
+#support.footer-support {
+  margin-top: 1.75rem !important;
+  padding: 1.5rem 1.35rem 1.4rem !important;
+  border-radius: 1.1rem !important;
+  max-width: 52rem;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.footer-support-head {
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 1.15rem !important;
+}
+
+.footer-support-title,
+.footer-support .footer-support-title {
+  font-size: clamp(1.45rem, 3vw, 1.85rem) !important;
+  margin-bottom: 0.55rem !important;
+  line-height: 1.2 !important;
+}
+
+.footer-support-message,
+.footer-support-message--long,
+.footer-support-message--short {
+  font-size: 0.92rem !important;
+  line-height: 1.55 !important;
+  max-width: 34rem;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  color: var(--text-soft) !important;
+}
+
+.footer-support-funds {
+  justify-content: center !important;
+  margin-top: 0.85rem !important;
+  margin-bottom: 0.25rem !important;
+  gap: 0.45rem !important;
+}
+
+.footer-support-funds li {
+  font-size: 0.75rem !important;
+  padding: 0.35rem 0.75rem !important;
+}
+
+.footer-support-note {
+  margin-top: 1rem !important;
+  font-size: 0.75rem !important;
+  opacity: 0.85;
+  text-align: center;
+}
+
+.footer-bottom {
+  margin-top: 1.75rem !important;
+  padding-top: 1.35rem !important;
+  border-top: 1px solid rgba(76, 61, 107, 0.22);
+  text-align: center;
+}
+
+.footer-tagline {
+  font-size: 0.95rem !important;
+  margin-bottom: 0.35rem !important;
+}
+
+.footer-subtitle {
+  font-size: 0.85rem !important;
+  color: var(--text-dim) !important;
+  margin-bottom: 0.85rem !important;
+}
+
+.footer-bottom-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.25rem;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+}
+
+/* Pair polish overrides from earlier equal-height repair */
+.home-feature-pair .oracle-banner,
+.home-feature-pair .media-banner {
+  height: auto !important;
+}
+
+.home-feature-pair .oracle-banner-actions,
+.home-feature-pair .media-banner-actions {
+  margin-top: 0.35rem !important;
+}
+
+/* Final: never stretch Oracle/Media to equal empty height */
+.home-feature-pair__grid {
+  align-items: start !important;
+}
+.home-feature-pair .oracle-banner,
+.home-feature-pair .media-banner,
+.home-feature-pair .home-banner--pair {
+  height: auto !important;
+  flex: none !important;
+}
+.home-feature-pair .oracle-banner-actions,
+.home-feature-pair .media-banner-actions {
+  margin-top: 0.35rem !important;
+}
+
+/* =============================================
+   FOOTER V2 â€” balanced utility + rich support ways
+   ============================================= */
+
+.footer-inner {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Utility row: brand | explore | connect â€” even, professional */
+.footer-main {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 1.75rem 2rem !important;
+  align-items: start !important;
+  text-align: left !important;
+  padding-bottom: 2rem !important;
+  margin-bottom: 0 !important;
+  border-bottom: 1px solid rgba(124, 58, 237, 0.18) !important;
+}
+
+@media (min-width: 768px) {
+  .footer-main {
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.7fr) minmax(0, 1fr) !important;
+    gap: 2rem 2.5rem !important;
+  }
+}
+
+.footer-brand {
+  max-width: 22rem;
+}
+
+.footer-brand-desc {
+  margin-top: 0.75rem !important;
+  font-size: 0.9rem !important;
+  line-height: 1.55 !important;
+  color: var(--text-soft) !important;
+}
+
+.footer-col {
+  min-width: 0;
+}
+
+.footer-heading {
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  color: #A78BFA !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.footer-link-list {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.15rem !important;
+}
+
+.footer-link {
+  display: inline-block !important;
+  padding: 0.28rem 0 !important;
+  font-size: 0.9rem !important;
+  color: #E0D4FF !important;
+}
+
+.footer-link:hover {
+  color: #fff !important;
+}
+
+/* Socials: one clean wrap row, equal tiles */
+.footer-social-row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.45rem !important;
+  max-width: none !important;
+}
+
+.footer-social--icon,
+.footer-social {
+  width: 2.55rem !important;
+  height: 2.55rem !important;
+  padding: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 0.85rem !important;
+}
+
+.footer-social-label {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Support band â€” full story + three way cards */
+.footer-support,
+#support.footer-support {
+  max-width: none !important;
+  margin-top: 2rem !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 1.85rem 1.5rem 1.55rem !important;
+  text-align: center !important;
+}
+
+.footer-support-head {
+  max-width: 40rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 1.35rem !important;
+}
+
+.footer-support-title {
+  font-size: clamp(1.55rem, 3.5vw, 2.15rem) !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.footer-support-message,
+.footer-support-message--long,
+.footer-support-message--short {
+  max-width: 38rem !important;
+  font-size: 0.95rem !important;
+  line-height: 1.65 !important;
+  color: #C4B5FD !important;
+  margin-bottom: 1.15rem !important;
+}
+
+/* Three support forms â€” real cards, not tiny chips */
+.footer-support-funds {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 0.65rem !important;
+  list-style: none !important;
+  margin: 0 auto 0.25rem !important;
+  padding: 0 !important;
+  max-width: 48rem !important;
+  justify-content: stretch !important;
+}
+
+@media (min-width: 700px) {
+  .footer-support-funds {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 0.75rem !important;
+  }
+}
+
+.footer-support-fund,
+.footer-support-funds li {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 0.3rem !important;
+  text-align: left !important;
+  padding: 0.85rem 1rem !important;
+  border-radius: 0.9rem !important;
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.06) 0%, transparent 50%),
+    rgba(12, 8, 26, 0.55) !important;
+  box-shadow:
+    0 8px 20px -12px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+  border: none !important;
+  font-size: inherit !important;
+  white-space: normal !important;
+  min-height: 0 !important;
+}
+
+.footer-support-fund__title {
+  display: block !important;
+  font-size: 0.88rem !important;
+  font-weight: 600 !important;
+  color: #F1EBFF !important;
+  letter-spacing: 0.01em !important;
+  line-height: 1.25 !important;
+}
+
+.footer-support-fund__desc {
+  display: block !important;
+  font-size: 0.78rem !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+  color: #A78BFA !important;
+}
+
+.footer-support-tabs {
+  margin-top: 1.35rem !important;
+}
+
+.footer-support-note {
+  margin-top: 1.15rem !important;
+  font-size: 0.78rem !important;
+  color: var(--text-dim) !important;
+}
+
+.footer-bottom {
+  margin-top: 2rem !important;
+  padding-top: 1.5rem !important;
+  border-top: 1px solid rgba(76, 61, 107, 0.25) !important;
+  text-align: center !important;
+}
+
+/* =============================================
+   HOMEPAGE TRACK 1 â€” vault hero + hierarchy
+   ============================================= */
+
+.home-hero--vault {
+  position: relative;
+  padding: clamp(1.5rem, 4vw, 2.75rem) 0 clamp(1.25rem, 3vw, 2rem);
+  overflow: hidden;
+}
+
+.home-hero-atmosphere {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.home-hero-atmosphere__glow {
+  position: absolute;
+  left: 50%;
+  top: 8%;
+  transform: translateX(-50%);
+  width: min(92vw, 42rem);
+  height: min(52vw, 22rem);
+  background:
+    radial-gradient(ellipse at center, rgba(124, 58, 237, 0.28) 0%, rgba(91, 33, 182, 0.12) 42%, transparent 72%);
+  filter: blur(2px);
+}
+
+.home-hero-atmosphere__ring {
+  position: absolute;
+  left: 50%;
+  top: 18%;
+  transform: translateX(-50%);
+  width: min(70vw, 28rem);
+  height: min(70vw, 28rem);
+  border-radius: 50%;
+  border: 1px solid rgba(167, 139, 250, 0.12);
+  box-shadow:
+    0 0 60px -20px rgba(124, 58, 237, 0.35),
+    inset 0 0 40px -20px rgba(124, 58, 237, 0.2);
+  opacity: 0.7;
+}
+
+.home-hero-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.home-hero--vault .home-hero-mark {
+  width: 5rem;
+  height: 5rem;
+  filter: drop-shadow(0 10px 32px rgba(91, 33, 182, 0.45));
+}
+
+@media (min-width: 768px) {
+  .home-hero--vault .home-hero-mark {
+    width: 5.75rem;
+    height: 5.75rem;
+  }
+}
+
+.home-hero-kicker {
+  margin: 0 0 0.85rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #C4B5FD;
+}
+
+.home-hero--vault .page-hero-title {
+  margin-bottom: 1.15rem !important;
+}
+
+.home-hero-lead {
+  margin-bottom: 1rem !important;
+  font-size: clamp(1.05rem, 2.2vw, 1.2rem) !important;
+  line-height: 1.55 !important;
+  color: #C4B5FD !important;
+}
+
+.home-hero--vault .page-hero-pillars {
+  margin-bottom: 1.75rem !important;
+}
+
+.home-hero-actions--solo {
+  justify-content: center;
+  margin-bottom: 0.85rem;
+}
+
+.home-hero-actions--solo .home-hero-actions__primary {
+  min-width: min(100%, 16rem);
+}
+
+.home-hero-secondary {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Proof HUD â€” quieter than a full static-card stack */
+.home-proof-card--hud {
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.04) 0%, transparent 50%),
+    rgba(22, 16, 40, 0.72) !important;
+  box-shadow:
+    0 12px 32px -18px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+  border-radius: 1rem !important;
+  padding: 1rem 1.15rem 0.95rem !important;
+  max-width: 40rem !important;
+}
+
+.home-proof-strip {
+  margin-bottom: clamp(2.25rem, 5vw, 3.25rem) !important;
+}
+
+/* About editorial split */
+.home-about-editorial {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+@media (min-width: 860px) {
+  .home-about-editorial {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    gap: 2.25rem;
+  }
+}
+
+.home-about-editorial__title {
+  margin: 0 0 1rem;
+  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
+  font-size: clamp(1.55rem, 3vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #F8FAFC;
+  line-height: 1.15;
+}
+
+.home-about-editorial__body {
+  display: grid;
+  gap: 0.85rem;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #E0D4FF;
+  max-width: 36rem;
+}
+
+.home-about-editorial__body p {
+  margin: 0;
+}
+
+.home-about-editorial__note {
+  font-size: 0.9rem !important;
+  color: #A78BFA !important;
+  padding-top: 0.35rem;
+  border-top: 1px solid rgba(76, 61, 107, 0.4);
+}
+
+.home-about-editorial__media {
+  position: relative;
+  border-radius: 1.15rem;
+  overflow: hidden;
+  min-height: 12rem;
+  box-shadow: var(--surface-tier-elevated);
+  background: #0c081c;
+}
+
+.home-about-editorial__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 14rem;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+@media (min-width: 860px) {
+  .home-about-editorial__img {
+    min-height: 16rem;
+    max-height: 18rem;
+  }
+}
+
+/* Codex product hero â€” largest homepage surface */
+.home-banner--product-hero .codex-banner-media {
+  height: clamp(10rem, 22vw, 15rem) !important;
+  max-height: 15rem !important;
+}
+
+.home-banner--product-hero .codex-banner-img {
+  max-height: 15rem !important;
+  object-position: center 40% !important;
+}
+
+.home-banner--product-hero .codex-banner-body {
+  padding: 1.65rem 1.5rem 1.75rem !important;
+}
+
+.home-banner--product-hero .codex-home-title {
+  font-size: clamp(1.55rem, 3vw, 2.05rem) !important;
+}
+
+.home-banner--product-hero .codex-home-deck {
+  font-size: 1.02rem !important;
+  max-width: 40rem;
+}
+
+/* Lite companion cards (Oracle / Media) â€” no top banner strip */
+.home-banner--lite .oracle-banner-media,
+.home-banner--lite .media-banner-media {
+  display: none !important;
+}
+
+.home-banner--lite .oracle-banner-body,
+.home-banner--lite .media-banner-body {
+  padding: 1.35rem 1.35rem 1.4rem !important;
+}
+
+.home-video-poster-img {
+  object-fit: cover;
+  object-position: center center;
+}
+
+.home-video-featured .video-particle-vignette {
+  background: linear-gradient(
+    180deg,
+    rgba(15, 10, 31, 0.15) 0%,
+    rgba(15, 10, 31, 0.35) 55%,
+    rgba(15, 10, 31, 0.55) 100%
+  );
+}
+
+/* =============================================
+   HERO VAULT MEDIA â€” still + muted loop (no audio)
+   ============================================= */
+
+.home-hero--vault {
+  position: relative;
+  isolation: isolate;
+  padding: clamp(2.25rem, 6vw, 4rem) 0 clamp(1.75rem, 4vw, 2.75rem) !important;
+  min-height: clamp(28rem, 72vh, 36rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-hero-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: #0F0A1F;
+}
+
+.home-hero-media__still,
+.home-hero-media__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.home-hero-media__still {
+  z-index: 0;
+}
+
+.home-hero-media__video {
+  z-index: 1;
+  opacity: 0.88;
+}
+
+.home-hero-media__video.is-static {
+  display: none;
+}
+
+.home-hero-media__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background:
+    radial-gradient(ellipse 70% 55% at 50% 38%, rgba(15, 10, 31, 0.25) 0%, rgba(15, 10, 31, 0.72) 55%, rgba(15, 10, 31, 0.94) 100%),
+    linear-gradient(180deg, rgba(15, 10, 31, 0.55) 0%, rgba(15, 10, 31, 0.35) 35%, rgba(15, 10, 31, 0.88) 100%);
+}
+
+.home-hero-inner {
+  position: relative;
+  z-index: 3;
+}
+
+.home-hero--vault .home-hero-mark {
+  filter: drop-shadow(0 12px 36px rgba(91, 33, 182, 0.55));
+}
+
+.home-hero--vault .page-hero-title {
+  text-shadow: 0 2px 28px rgba(0, 0, 0, 0.55);
+}
+
+.home-hero-kicker {
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.45);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-hero-media__video {
+    display: none !important;
+  }
+}
+
+/* =============================================
+   DEEP-DIVE CRAFT PASS â€” museum-grade reading
+   ============================================= */
+
+.deep-dive-hero {
+  border: none !important;
+  border-radius: 1.25rem !important;
+  box-shadow:
+    0 24px 56px -18px rgba(0, 0, 0, 0.7),
+    0 0 0 1px rgba(255, 255, 255, 0.04),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+  min-height: 20rem !important;
+}
+
+@media (min-width: 768px) {
+  .deep-dive-hero {
+    min-height: 24rem !important;
+  }
+}
+
+.deep-dive-hero-bg {
+  transform: scale(1.04) !important;
+  filter: saturate(1.12) brightness(1.04) contrast(1.05) !important;
+}
+
+/* Readable type without washing out the art */
+.deep-dive-hero-scrim {
+  background: linear-gradient(
+    105deg,
+    rgba(10, 6, 22, 0.9) 0%,
+    rgba(12, 8, 28, 0.72) 38%,
+    rgba(12, 8, 28, 0.42) 68%,
+    rgba(12, 8, 28, 0.55) 100%
+  ) !important;
+}
+
+.deep-dive-hero-content {
+  max-width: 44rem;
+}
+
+.deep-dive-hero-content h1 {
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.55);
+  letter-spacing: -0.035em;
+}
+
+.deep-dive-hero-content .text-mem-secondary,
+.deep-dive-hero-content p {
+  color: rgba(224, 212, 255, 0.92) !important;
+  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.4);
+}
+
+.deep-dive-hero-meta {
+  gap: 0.5rem 0.75rem !important;
+}
+
+.deep-dive-reading-time {
+  color: rgba(196, 181, 253, 0.85) !important;
+  font-weight: 500;
+}
+
+/* Section jump pills â€” calm segmented control */
+.dive-jump-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #A78BFA;
+  margin-bottom: 0.45rem;
+}
+
+.jump-to-pills.dive-section-seg,
+.dive-section-seg {
+  display: inline-flex !important;
+  flex-wrap: wrap;
+  gap: 0.35rem !important;
+  padding: 0.3rem !important;
+  border-radius: 9999px !important;
+  background: rgba(8, 5, 18, 0.55) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+  border: none !important;
+}
+
+.btn-jump-pill {
+  min-height: 2.35rem !important;
+  padding: 0.4rem 0.95rem !important;
+  border-radius: 9999px !important;
+  border: none !important;
+  background: transparent !important;
+  color: #C4B5FD !important;
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  box-shadow: none !important;
+}
+
+.btn-jump-pill:hover,
+.btn-jump-pill:focus-visible {
+  color: #fff !important;
+  background: rgba(91, 33, 182, 0.35) !important;
+}
+
+.btn-jump-pill.is-active,
+.btn-jump-pill[aria-current="true"] {
+  color: #fff !important;
+  background: linear-gradient(180deg, #5B21B6 0%, #4C1D95 50%, #2E1065 100%) !important;
+  box-shadow: var(--surface-tier-btn) !important;
+}
+
+/* Infographic: crystal clear, no muddy filters */
+.infographic-artifact {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #080512 !important;
+  box-shadow:
+    0 16px 40px -16px rgba(0, 0, 0, 0.65),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+  cursor: zoom-in;
+}
+
+.infographic-artifact img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 1 !important;
+  filter: none !important;
+  image-rendering: auto;
+}
+
+.infographic-artifact-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem 0.9rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #EDE4FF;
+  background: linear-gradient(180deg, transparent 0%, rgba(8, 5, 18, 0.88) 100%);
+}
+
+.infographic-artifact-zoom {
+  color: #C4B5FD;
+}
+
+.slide-deck-artifact img {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Report body: calm paper, no white film */
+#report-section .content-card:not(.dive-continue),
+#report-section .dive-report-card {
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.035) 0%, transparent 42%),
+    #161028 !important;
+  border: none !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+}
+
+#report-section .content-card::after {
+  opacity: 0.35;
+}
+
+#report-container {
+  color: #F1EBFF !important;
+  max-width: min(100%, 42rem) !important;
+  /* Default = md; size buttons set data-report-size and must win */
+  font-size: 1.125rem !important;
+  line-height: 1.78 !important;
+}
+
+#report-container[data-report-size="sm"],
+body[data-report-size="sm"] #report-container {
+  font-size: 0.98rem !important;
+  line-height: 1.7 !important;
+}
+
+#report-container[data-report-size="md"],
+body[data-report-size="md"] #report-container {
+  font-size: 1.125rem !important;
+  line-height: 1.78 !important;
+}
+
+#report-container[data-report-size="lg"],
+body[data-report-size="lg"] #report-container {
+  font-size: 1.32rem !important;
+  line-height: 1.88 !important;
+}
+
+@media (min-width: 768px) {
+  #report-container {
+    font-size: 1.175rem !important;
+    line-height: 1.82 !important;
+  }
+
+  #report-container[data-report-size="sm"],
+  body[data-report-size="sm"] #report-container {
+    font-size: 1.05rem !important;
+    line-height: 1.72 !important;
+  }
+
+  #report-container[data-report-size="md"],
+  body[data-report-size="md"] #report-container {
+    font-size: 1.175rem !important;
+    line-height: 1.82 !important;
+  }
+
+  #report-container[data-report-size="lg"],
+  body[data-report-size="lg"] #report-container {
+    font-size: 1.4rem !important;
+    line-height: 1.9 !important;
+  }
+}
+
+#report-container h1 {
+  border-bottom-color: rgba(139, 61, 255, 0.55) !important;
+  border-bottom-width: 2px !important;
+}
+
+#report-container h2 {
+  border-left-width: 4px !important;
+  margin-top: 2.75rem !important;
+}
+
+#report-container p {
+  color: #EDE4FF !important;
+}
+
+/* Reading progress â€” thin, elegant */
+.reading-progress {
+  height: 3px !important;
+  background: rgba(15, 10, 31, 0.4) !important;
+}
+
+.reading-progress-fill {
+  background: linear-gradient(90deg, #5B21B6, #A78BFA) !important;
+  box-shadow: 0 0 12px rgba(139, 61, 255, 0.45);
+}
+
+/* Dive continue / next topic */
+.dive-continue {
+  border: none !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.05) 0%, transparent 45%),
+    #1A1433 !important;
+}
+
+.dive-media-card {
+  border: none !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+}
+
+.dive-section-head__label {
+  letter-spacing: 0.14em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #C4B5FD;
+}
+
+/* Sticky section awareness on dive â€” subtle */
+.dive-section-head {
+  scroll-margin-top: 5.5rem;
+}
+
+#infographics-section,
+#videos-section,
+#report-section {
+  scroll-margin-top: 5.5rem;
+}
+
+/* =============================================
+   FIX: full-bleed centered vault hero + oracle media
+   ============================================= */
+
+/* Global .page-hero { max-width: 40rem } was pinning the home vault left */
+.page-home .page-hero.home-hero--vault,
+.home-hero.home-hero--vault.page-hero {
+  max-width: none !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.home-hero--vault .home-hero-inner {
+  width: 100% !important;
+  max-width: 40rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  position: relative !important;
+  z-index: 3 !important;
+}
+
+.home-hero--vault .home-hero-media {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 0 !important;
+}
+
+.home-hero--vault .home-hero-media__still,
+.home-hero--vault .home-hero-media__video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+/* Oracle: always show top art on home pair cards */
+.home-feature-pair .oracle-banner-media,
+.home-banner--pair .oracle-banner-media {
+  display: block !important;
+}
+
+.home-feature-pair .home-banner--lite.oracle-banner .oracle-banner-media {
+  display: block !important;
+}
+
+/* Undo lite hide for oracle specifically if class still present */
+.oracle-banner .oracle-banner-media {
+  display: block !important;
+}
+
+.home-banner--lite .oracle-banner-media {
+  display: block !important;
+  height: clamp(6.5rem, 11vw, 8.25rem) !important;
+  max-height: 8.25rem !important;
+  overflow: hidden;
+}
+
+.home-banner--lite .oracle-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* =============================================
+   HERO FIX â€” full-bleed media + visible muted loop
+   Bug: .page-hero > * { position:relative } broke absolute media
+   ============================================= */
+
+.page-home .home-hero--vault.page-hero,
+.page-home header.home-hero--vault {
+  position: relative !important;
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  min-height: clamp(26rem, 62vh, 34rem) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  padding: clamp(2rem, 5vw, 3.5rem) 1.5rem !important;
+  isolation: isolate !important;
+}
+
+/* Must win over .page-hero > * { position: relative } */
+.page-home .home-hero--vault > .home-hero-media {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
+.page-home .home-hero--vault > .home-hero-inner {
+  position: relative !important;
+  z-index: 3 !important;
+  width: 100% !important;
+  max-width: 40rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+.page-home .home-hero-media__still,
+.page-home .home-hero-media__video {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  /* never stretch/distort */
+  object-fit: cover !important;
+}
+
+.page-home .home-hero-media__still {
+  z-index: 0 !important;
+}
+
+.page-home .home-hero-media__video {
+  z-index: 1 !important;
+  opacity: 1 !important;
+}
+
+.page-home .home-hero-media__video.is-static {
+  display: none !important;
+}
+
+/* Lighter scrim so art + subtle motion read; type still clear */
+.page-home .home-hero-media__scrim {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 2 !important;
+  background:
+    radial-gradient(ellipse 55% 50% at 50% 42%, rgba(15, 10, 31, 0.15) 0%, rgba(15, 10, 31, 0.45) 50%, rgba(15, 10, 31, 0.78) 100%),
+    linear-gradient(180deg, rgba(15, 10, 31, 0.4) 0%, rgba(15, 10, 31, 0.22) 40%, rgba(15, 10, 31, 0.82) 100%) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-home .home-hero-media__video {
+    display: none !important;
+  }
+}
+
+/* Footer mark is decorative — not a home button */
+.footer-brand-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer-brand-mark-wrap {
+  display: inline-flex;
+  flex-shrink: 0;
+  pointer-events: none;
+  cursor: default;
+}
+
+.footer-brand-mark-wrap .footer-brand-mark,
+.footer-brand-mark {
+  pointer-events: none !important;
+  cursor: default !important;
+}
+
+.footer-brand-link {
+  display: inline-flex;
+  text-decoration: none;
+  min-width: 0;
+}
+
+.footer-brand-link:hover .footer-brand-name {
+  color: #fff;
+}
+
+/* Tailwind preflight breaks hero video — force override after tailwind bundle */
+#home-vault video.home-hero-media__video,
+#home-vault .home-hero-media__video {
+  max-width: none !important;
+  height: 100% !important;
+  width: 100% !important;
+  aspect-ratio: auto !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+#home-vault .home-hero-media {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Home: seamless nav → hero (kill gap band under navbar) */
+body.page-home {
+  padding-top: 5rem !important;
+}
+body.page-home .navbar {
+  background: #0F0A1F !important;
+  border-bottom: none !important;
+}
+body.page-home .navbar::after {
+  height: 1px !important;
+  opacity: 0.35 !important;
+  background: linear-gradient(90deg, transparent, rgba(124, 58, 237, 0.35), transparent) !important;
+}
+body.page-home #home-vault {
+  margin-top: 0 !important;
+}
+body.page-home #main {
+  padding-top: 0 !important;
+}
+/* Hide unused loop asset rules if any remain */
+#home-hero-loop,
+.home-hero-media__video {
+  display: none !important;
+}
+
+/* =============================================
+   SOFT ELEVATION UNIFY (final — wins all prior stacks)
+   One material language: soft cast + light rim.
+   No purple halo stacks, no thick plastic undercuts.
+   ============================================= */
+
+/* Panels / cards — resting elevated tier */
+.static-card,
+.memory-card:not(.topics-filter-panel),
+.content-card:not(.topics-filter-panel),
+.source-card,
+.lesson-content-card,
+.channel-card:not(.topics-filter-panel),
+.topic-root-card,
+a.topic-root-card,
+.topic-main-root-card,
+.codex-banner,
+.about-banner,
+.oracle-banner,
+.media-banner,
+.network-start-card,
+.journey-card,
+.codex-search-card,
+a.quiz-hub-card,
+.quiz-card,
+.footer-donate-card,
+.home-media-panel,
+.codex-home-panel,
+.codex-hub-panel,
+.codex-stats-bar,
+.codex-toolbar,
+.topics-filter-panel,
+.source-hero,
+.dive-continue,
+.dive-media-card,
+#report-section .content-card:not(.dive-continue),
+#report-section .dive-report-card {
+  box-shadow: var(--surface-tier-elevated) !important;
+  border: none !important;
+}
+
+/* Product banners + floating vault panels share the same soft stack */
+.static-card,
+.codex-banner,
+.about-banner,
+.oracle-banner,
+.media-banner,
+.source-hero.static-card,
+.source-hero {
+  box-shadow: var(--surface-tier-elevated) !important;
+}
+
+/* Quiet HUD / proof strip — lighter than full cards */
+.home-proof-card,
+.home-proof-card--hud,
+.home-proof-card.codex-home-metrics {
+  box-shadow:
+    0 10px 28px -16px rgba(0, 0, 0, 0.48),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+}
+
+/* Compact stats tiles */
+.codex-stat,
+.quiz-hub-stat,
+button.quiz-hub-stat {
+  box-shadow:
+    0 8px 20px -12px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.18) !important;
+}
+
+/* Interactive card hover — soft lift, quiet violet breath only on motion */
+.memory-card:not(.static-card):not(.topics-filter-panel):hover,
+.content-card:not(.static-card):not(.topics-filter-panel):hover,
+.lesson-content-card:not(.static-card):hover,
+.channel-card:not(.static-card):not(.video-card):not(.topics-filter-panel):not(.source-card):hover,
+a.source-card:not(.static-card):hover,
+.source-card:not(.static-card):hover,
+a.quiz-hub-card:hover,
+.journey-card:hover,
+.topic-root-card:hover,
+a.topic-root-card:hover,
+.network-start-card:hover {
+  box-shadow: var(--surface-tier-elevated-hover) !important;
+}
+
+/* Static / product panels stay put (no hover shadow fight) */
+.static-card:hover,
+.codex-banner:hover,
+.about-banner:hover,
+.oracle-banner:hover,
+.media-banner:hover {
+  box-shadow: var(--surface-tier-elevated) !important;
+  transform: none !important;
+}
+
+/* Photo frames / about media */
+.home-about-editorial__media,
+.infographic-artifact {
+  box-shadow:
+    0 14px 36px -16px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+}
+
+/* Buttons + filled controls — one soft chrome recipe */
+button.btn-primary,
+a.btn-primary,
+.btn-primary,
+button.btn-secondary,
+a.btn-secondary,
+.btn-secondary,
+a.btn-topic-nav,
+button.btn-topic-nav,
+.btn-topic-nav,
+.nav-cta,
+a.nav-cta,
+.nav-cta-mobile,
+.footer-donate-btn.btn-primary,
+.site-footer .footer-donate-btn,
+.topic-control-btn,
+.network-filter-btn,
+.topic-leaf-btn,
+.category-toggle,
+.category-toggle-btn {
+  box-shadow: var(--surface-tier-btn) !important;
+  border: none !important;
+  filter: none !important;
+}
+
+button.btn-primary:hover,
+a.btn-primary:hover,
+.btn-primary:hover,
+button.btn-secondary:hover,
+a.btn-secondary:hover,
+.btn-secondary:hover,
+a.btn-topic-nav:hover,
+button.btn-topic-nav:hover,
+.btn-topic-nav:hover,
+.nav-cta:hover,
+a.nav-cta:hover,
+.footer-donate-btn.btn-primary:hover,
+.site-footer .footer-donate-btn:hover,
+.topic-control-btn:hover,
+.network-filter-btn:hover,
+.topic-leaf-btn:hover,
+.category-toggle:hover,
+.category-toggle-btn:hover {
+  box-shadow: var(--surface-tier-btn-hover) !important;
+  filter: none !important;
+}
+
+button.btn-primary:active,
+a.btn-primary:active,
+.btn-primary:active,
+button.btn-secondary:active,
+a.btn-secondary:active,
+.btn-secondary:active,
+.nav-cta:active,
+.topic-leaf-btn:active,
+.category-toggle:active {
+  box-shadow: var(--surface-tier-btn-active) !important;
+  filter: none !important;
+}
+
+/* Active filter chips stay soft (not glow rings) */
+.topic-control-btn.active,
+.topic-control-btn.is-active,
+.topic-control-btn[aria-pressed="true"],
+.network-filter-btn.active,
+.btn-jump-pill.is-active,
+.btn-jump-pill[aria-current="true"] {
+  box-shadow: var(--surface-tier-btn) !important;
+}
+
+/* Jump pills default flat inside tray; active uses button chrome */
+.btn-jump-pill:not(.is-active):not([aria-current="true"]) {
+  box-shadow: none !important;
 }

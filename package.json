@@ -5,6 +5,7 @@
     "build:css": "npx tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --minify",
     "build:fonts": "node scripts/download-fonts.js",
     "minify:css": "node scripts/minify-css.js",
+    "prune:css": "echo Prune disabled — unsafe. See scripts/prune-main-css.js",
     "optimize:images": "node scripts/optimize-images-phase3.js",
     "apply:perf": "node scripts/apply-perf-assets.js",
     "defer:scripts": "node scripts/defer-nested-scripts.js",
