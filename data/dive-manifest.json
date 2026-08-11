@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T11:17:45.027Z",
+  "generatedAt": "2026-08-11T03:34:25.575Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -803,7 +803,7 @@
       "sourceId": "breakdown",
       "topicId": "emotional-mending",
       "path": "/dive/breakdown/emotional-mending.html",
-      "live": false,
+      "live": true,
       "title": "Emotional Mending"
     },
     {

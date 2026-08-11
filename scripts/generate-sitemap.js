@@ -134,6 +134,7 @@ const entries = [
   { path: '/quiz/breakdown/hyperborean-heart.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/healing-sanctuaries.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/water-domes.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/emotional-mending.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/source-bridge.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/central-axis.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/phase-one-three.html', priority: '0.75', changefreq: 'monthly' },

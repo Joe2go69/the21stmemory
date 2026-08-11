@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T11:17:44.747Z",
-  "total": 114,
+  "generatedAt": "2026-08-11T03:34:25.349Z",
+  "total": 115,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 54
+      "count": 55
     }
   ],
   "quizzes": [
@@ -931,6 +931,19 @@
       "href": "quiz/breakdown/eight-domes.html",
       "diveHref": "dive/breakdown/eight-domes.html",
       "key": "breakdown/eight-domes"
+    },
+    {
+      "id": "emotional-mending",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Emotional Mending",
+      "subtitle": "Test your grasp of Emotional Mending — Water Domes heart restoration, liquid sound density extraction, Saferins from the Council of 12 Suns, Source memory codes, tripartite sanctuaries, and sovereign choice after amnesia dissolves.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/emotional-mending.html",
+      "diveHref": "dive/breakdown/emotional-mending.html",
+      "key": "breakdown/emotional-mending"
     },
     {
       "id": "energy-nodes",
