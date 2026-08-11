@@ -27,8 +27,11 @@ const ogImage = brand.defaultImage || brand.logo;
 const ogWidth = brand.defaultImageWidth || 1200;
 const ogHeight = brand.defaultImageHeight || 630;
 const themeColor = brand.themeColor || '#0F0A1F';
-const appleTouch = `${baseUrl}/images/apple-touch-icon.png`;
-const favicon = `${baseUrl}/images/favicon.webp`;
+// Cache-bust query when the mark is replaced (browsers pin favicons aggressively).
+const iconV = '20260811';
+const appleTouch = `${baseUrl}/images/apple-touch-icon.png?v=${iconV}`;
+const favicon = `${baseUrl}/images/favicon.webp?v=${iconV}`;
+const faviconPng = `${baseUrl}/images/favicon-48.png?v=${iconV}`;
 
 function escapeAttr(value) {
   return String(value)
@@ -124,6 +127,7 @@ function buildSeoHead(page) {
     <meta name="theme-color" content="${escapeAttr(themeColor)}">
     <link rel="canonical" href="${pageUrl}">
 ${homeLink}${robots}    <link rel="icon" href="${favicon}" type="image/webp">
+    <link rel="icon" href="${faviconPng}" type="image/png" sizes="48x48">
     <link rel="apple-touch-icon" href="${appleTouch}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="${pageUrl}">
@@ -162,14 +166,15 @@ function injectSeo(html, seoHead) {
  * (older pages often had them after stylesheets).
  */
 function dedupeHeadTags(html) {
-  let seenIcon = false;
   let seenTheme = false;
   let seenApple = false;
+  const seenIconHrefs = new Set();
 
   return html
     .replace(/<link\s+rel="icon"[^>]*>\s*/gi, (match) => {
-      if (seenIcon) return '';
-      seenIcon = true;
+      const href = (match.match(/href="([^"]*)"/i) || [])[1] || match;
+      if (seenIconHrefs.has(href)) return '';
+      seenIconHrefs.add(href);
       return match;
     })
     .replace(/<meta\s+name="theme-color"[^>]*>\s*/gi, (match) => {

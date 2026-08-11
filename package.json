@@ -21,6 +21,7 @@
     "build:dives": "node scripts/build-static-dives.js",
     "sync:quiz-chrome": "node scripts/sync-quiz-chrome.js",
     "build:brand-assets": "node scripts/generate-brand-assets.js",
+    "build:favicon": "node scripts/generate-favicon.js",
     "verify": "node scripts/verify-phase6.js",
     "verify:elevation": "node scripts/verify-elevation.js",
     "verify:all": "node scripts/verify-phase2.js && node scripts/verify-phase3.js && node scripts/verify-phase4.js && node scripts/verify-phase5.js && node scripts/verify-phase6.js && node scripts/verify-elevation.js",

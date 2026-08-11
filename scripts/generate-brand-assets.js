@@ -3,6 +3,10 @@
  *   images/og-default.webp (1200x630)
  *   images/apple-touch-icon.png (180x180)
  *
+ * Favicon (tab icon) is a separate high-contrast badge:
+ *   node scripts/generate-favicon.js
+ * (generate-favicon also refreshes apple-touch-icon.png)
+ *
  * Mark is expected to be a soft-edged square with alpha that blends
  * into the deep-purple site background.
  */
