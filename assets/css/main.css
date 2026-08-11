@@ -13970,12 +13970,15 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   flex-shrink: 0;
   width: 7.5rem;
   height: 7.5rem;
-  padding: 0.4rem;
+  /* Quiet zone for scanners; keep total box size fixed */
+  padding: 0.5rem;
   border-radius: 12px;
   background: #fff;
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 10px 24px -12px rgba(0, 0, 0, 0.55);
   align-self: center;
+  /* Avoid rounded-clip soft edges eating finder patterns */
+  overflow: hidden;
 }
 
 .footer-tab-media__qr {
@@ -13984,6 +13987,15 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   object-fit: contain;
   display: block;
   background: #fff;
+  /* Prevent browser bilinear blur that breaks module edges */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  /* Kill accidental CSS filters/opacity from parent stacks */
+  opacity: 1;
+  filter: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .footer-btc-copy {

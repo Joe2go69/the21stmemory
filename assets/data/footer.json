@@ -98,7 +98,7 @@
     ],
     "note": "Always free · Entirely optional · Sharing, community, and contributions all count",
     "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
-    "qrImage": "assets/images/bitcoin-qr.webp",
+    "qrImage": "assets/images/bitcoin-qr.png",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",
     "bitcoinHint": "Scan with a wallet app, or copy the address below.",
     "gofundme": {
