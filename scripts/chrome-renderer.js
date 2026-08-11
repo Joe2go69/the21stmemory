@@ -256,8 +256,13 @@ function renderFooter(footerData, options = {}) {
             </div>`
     : '';
 
-  // Bitcoin: clean glass row — single QR + copy (no atmosphere image)
-  const btcPanel = `<div class="footer-tabpanel footer-tabpanel--btc${defaultTab === 'btc' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-btc" aria-labelledby="footer-tab-btc"${defaultTab === 'btc' ? '' : ' hidden'}>
+  // Bitcoin: blend atmosphere (optional) + QR + copy
+  const btcImage = footerData.support?.bitcoinImage || '';
+  const btcPanel = `<div class="footer-tabpanel footer-tabpanel--btc${btcImage ? ' footer-tabpanel--blend footer-tabpanel--blend-left has-media' : ''}${defaultTab === 'btc' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-btc" aria-labelledby="footer-tab-btc"${defaultTab === 'btc' ? '' : ' hidden'}>
+              ${btcImage ? `<div class="footer-tab-media" aria-hidden="true">
+                <img src="${withBasePath(btcImage, basePath)}" alt="" class="footer-tab-media__img" width="1280" height="720" loading="lazy" decoding="async" />
+                <div class="footer-tab-media__scrim"></div>
+              </div>` : ''}
               <div class="footer-tab-body footer-tab-body--btc">
                 <div class="footer-btc-qr-wrap">
                   <img src="${withBasePath(footerData.support.qrImage, basePath)}" alt="${footerData.support.qrAlt || 'Bitcoin QR code'}" class="footer-tab-media__qr" width="140" height="140" loading="lazy" decoding="async" />

@@ -101,6 +101,8 @@
     "qrImage": "assets/images/bitcoin-qr.png",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",
     "bitcoinHint": "Scan with a wallet app, or copy the address below.",
+    "bitcoinImage": "images/bitcoin-preview.jpg",
+    "bitcoinImageAlt": "Bitcoin — support the living archive",
     "gofundme": {
       "href": "https://gofund.me/7e47141e0",
       "buttonText": "Open GoFundMe",
@@ -124,4 +126,3 @@
     }
   }
 }
-
