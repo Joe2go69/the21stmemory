@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T03:34:25.575Z",
+  "generatedAt": "2026-08-11T04:50:44.837Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -810,7 +810,7 @@
       "sourceId": "breakdown",
       "topicId": "liquid-sound",
       "path": "/dive/breakdown/liquid-sound.html",
-      "live": false,
+      "live": true,
       "title": "Liquid Sound"
     },
     {

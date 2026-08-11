@@ -28,7 +28,7 @@ const ogWidth = brand.defaultImageWidth || 1200;
 const ogHeight = brand.defaultImageHeight || 630;
 const themeColor = brand.themeColor || '#0F0A1F';
 // Cache-bust query when the mark is replaced (browsers pin favicons aggressively).
-const iconV = '20260811';
+const iconV = '20260811b';
 const appleTouch = `${baseUrl}/images/apple-touch-icon.png?v=${iconV}`;
 const favicon = `${baseUrl}/images/favicon.webp?v=${iconV}`;
 const faviconPng = `${baseUrl}/images/favicon-48.png?v=${iconV}`;

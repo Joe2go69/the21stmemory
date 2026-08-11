@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-11T03:34:25.349Z",
-  "total": 115,
+  "generatedAt": "2026-08-11T04:50:44.102Z",
+  "total": 116,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 55
+      "count": 56
     }
   ],
   "quizzes": [
@@ -1113,6 +1113,19 @@
       "href": "quiz/breakdown/ley-line-optics.html",
       "diveHref": "dive/breakdown/ley-line-optics.html",
       "key": "breakdown/ley-line-optics"
+    },
+    {
+      "id": "liquid-sound",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Liquid Sound",
+      "subtitle": "Test your grasp of Liquid Sound — super-conductive vibrational water, emotional density extraction, Source memory codes, color-frequency tuning, Saferons, and immunization after heart restoration.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/liquid-sound.html",
+      "diveHref": "dive/breakdown/liquid-sound.html",
+      "key": "breakdown/liquid-sound"
     },
     {
       "id": "lockdown-window",
