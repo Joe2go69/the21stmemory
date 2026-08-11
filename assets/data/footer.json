@@ -93,7 +93,7 @@
       },
       {
         "title": "Help fund the archive",
-        "desc": "Hosting, tools & AI — GoFundMe, Ko-fi, or Bitcoin below"
+        "desc": "Hosting, tools & AI — GoFundMe, Ko-fi, Bitcoin, or Starlink below"
       }
     ],
     "note": "Always free · Entirely optional · Sharing, community, and contributions all count",
@@ -114,6 +114,13 @@
       "hint": "One-time or monthly — toward hosting, tools, and AI.",
       "image": "images/kofi.webp",
       "imageAlt": "Ko-fi — support the living archive"
+    },
+    "starlink": {
+      "href": "https://starlink.com/residential?referral=RC-DF-13754617-58626-7",
+      "buttonText": "Open Starlink",
+      "hint": "Sign up through this referral link — you get a free month, and it helps cover the archive’s connectivity.",
+      "image": "images/starlink.webp",
+      "imageAlt": "Starlink referral — free month for you and the archive"
     }
   }
 }

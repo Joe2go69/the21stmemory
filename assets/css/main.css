@@ -13723,6 +13723,11 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   background: rgba(180, 83, 9, 0.16);
 }
 
+.footer-tab-icon--starlink {
+  color: #A5B4FC;
+  background: rgba(99, 102, 241, 0.16);
+}
+
 .footer-tab-icon--heart {
   color: #f9a8d4;
   background: rgba(219, 39, 119, 0.12);
