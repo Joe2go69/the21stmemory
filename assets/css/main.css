@@ -69,16 +69,19 @@
   --gloss-surface: linear-gradient(to bottom, rgba(255, 255, 255, 0.07) 0%, transparent 45%);
 
   /* Tier composites — soft elevation, not multi-glow 3D fights.
-     Depth = one cast stack + light top rim + soft undercut. Ambient only on hover. */
+     Depth = one cast stack + light top rim + soft undercut. Ambient only on hover.
+     IMPORTANT: tiers must read differently (base < elevated < floating). */
   --surface-tier-recessed: var(--depth-recessed);
+  /* Nested / inner chips, term cards, compact tiles */
   --surface-tier-base:
-    var(--depth-elev-2),
+    var(--depth-elev-1),
     var(--depth-inset-top),
     var(--depth-inset-bottom);
   --surface-tier-base-hover:
-    var(--depth-elev-2-hover),
+    var(--depth-elev-1-hover),
     inset 0 1px 0 rgba(255, 255, 255, 0.12),
     inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+  /* Primary browse cards (codex, network, quizzes, sources) */
   --surface-tier-elevated:
     var(--depth-elev-2),
     var(--depth-inset-top),
@@ -87,10 +90,24 @@
     var(--depth-elev-2-hover),
     inset 0 1px 0 rgba(255, 255, 255, 0.12),
     inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+  /* Sacred / static vault panels (report, static-card, major banners) */
   --surface-tier-floating:
     var(--depth-elev-3),
-    var(--depth-inset-top),
+    0 22px 48px -20px rgba(0, 0, 0, 0.42),
+    inset 0 1.5px 0 rgba(255, 255, 255, 0.12),
     var(--depth-inset-bottom);
+
+  /* One fill language for solid vault surfaces (no hard strokes) */
+  --surface-fill-elevated:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.055) 0%, transparent 44%),
+    #1A1433;
+  --surface-fill-floating:
+    radial-gradient(ellipse 90% 55% at 50% -8%, rgba(124, 58, 237, 0.12) 0%, transparent 55%),
+    linear-gradient(165deg, rgba(255, 255, 255, 0.065) 0%, transparent 42%),
+    #1A1433;
+  --surface-fill-nested:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.04) 0%, transparent 48%),
+    rgba(18, 12, 36, 0.92);
   /* One shadow recipe for ALL buttons (primary + secondary + chips) */
   --surface-tier-btn:
     0 8px 18px -8px rgba(0, 0, 0, 0.5),
@@ -418,10 +435,10 @@ main#main,
 .content-card,
 .source-card,
 .lesson-content-card {
-  background: #1A1433;
+  background: var(--surface-fill-elevated);
   border: none;
   border-radius: 16px;
-  box-shadow: var(--surface-tier-base);
+  box-shadow: var(--surface-tier-elevated);
   position: relative;
   overflow: hidden;
 }
@@ -461,7 +478,7 @@ main#main,
 }
 
 .channel-card {
-  background: var(--card-bg);
+  background: var(--surface-fill-elevated);
   border: none;
   border-radius: 16px;
   position: relative;
@@ -500,14 +517,14 @@ main#main,
   z-index: 1;
 }
 
-/* Unified interactive card hover Ã¢â‚¬â€ lift + depth, no stroke outline */
+/* Unified interactive card hover — lift + depth, no stroke outline */
 .memory-card:not(.static-card):not(.topics-filter-panel):hover,
 .content-card:not(.static-card):not(.topics-filter-panel):hover,
 .lesson-content-card:not(.static-card):hover,
 .topic-root-card:hover {
   transform: translateY(-4px);
   border-color: transparent;
-  box-shadow: var(--surface-tier-base-hover);
+  box-shadow: var(--surface-tier-elevated-hover);
 }
 
 /* Source cards: calm editorial lift (not the larger network-card motion) */
@@ -515,7 +532,7 @@ a.source-card:not(.static-card):hover,
 .source-card:not(.static-card):hover {
   transform: translateY(-3px);
   border-color: transparent;
-  box-shadow: var(--surface-tier-base-hover);
+  box-shadow: var(--surface-tier-elevated-hover);
 }
 
 .channel-card:not(.static-card):not(.video-card):not(.topics-filter-panel):not(.source-card):hover {
@@ -567,7 +584,7 @@ a.source-card:not(.static-card):hover,
    END NETWORK 3D BUTTON CARDS
    ============================================= */
 
-/* Static card Ã¢â‚¬â€ floating vault panels (heavier / more sacred than browse cards) */
+/* Static card — floating vault panels (heavier / more sacred than browse cards) */
 .static-card {
   transform: none !important;
   box-shadow: var(--surface-tier-floating) !important;
@@ -575,9 +592,7 @@ a.source-card:not(.static-card):hover,
   backdrop-filter: blur(22px) saturate(1.15);
   -webkit-backdrop-filter: blur(22px) saturate(1.15);
   min-height: 0;
-  background:
-    radial-gradient(ellipse 90% 55% at 50% -5%, rgba(124, 58, 237, 0.1) 0%, transparent 55%),
-    var(--card-bg);
+  background: var(--surface-fill-floating) !important;
 }
 
 .static-card::after {
@@ -2276,7 +2291,7 @@ header.hero-gradient h1 {
   filter: drop-shadow(0 2px 14px rgba(91, 33, 182, 0.35));
 }
 
-/* Mounted media Ã¢â‚¬â€ sacred picture-frame bezel */
+/* Mounted media — vault picture-frame bezel (no hard stroke outline) */
 .media-frame {
   position: relative;
   width: 100%;
@@ -2284,11 +2299,10 @@ header.hero-gradient h1 {
   padding: 0.4rem;
   border-radius: 1.2rem;
   background:
-    linear-gradient(145deg, rgba(76, 29, 149, 0.35) 0%, rgba(18, 10, 46, 0.4) 100%);
-  border: 1px solid rgba(167, 139, 250, 0.22);
-  box-shadow:
-    var(--surface-tier-frame),
-    0 0 36px -14px rgba(91, 33, 182, 0.4);
+    linear-gradient(165deg, rgba(255, 255, 255, 0.06) 0%, transparent 48%),
+    linear-gradient(145deg, rgba(76, 29, 149, 0.28) 0%, rgba(18, 10, 46, 0.55) 100%);
+  border: none;
+  box-shadow: var(--surface-tier-elevated);
 }
 
 .media-frame::before {
@@ -2602,37 +2616,86 @@ header.hero-gradient h1 {
    DEEP DIVE REPORT Ã¢â‚¬â€ MAXIMUM READABILITY & PROFESSIONALISM (REFINED)
    ============================================= */
 
-#report-section .content-card {
-    background: #1F1A35; /* slightly warmer, lighter deep charcoal/navy for reduced eye fatigue & premium archival feel */
-    border: 1px solid #4C3D6B;
-    box-shadow: 
-      0 20px 50px -15px rgba(0, 0, 0, 0.6);
-    position: relative;
-    overflow: hidden;
+/* Report vault panel — floating 3D material (not a flat bordered slab) */
+#report-section .content-card:not(.dive-continue),
+#report-section .dive-report-card {
+  position: relative;
+  overflow: hidden;
+  border: none !important;
+  background:
+    radial-gradient(ellipse 90% 55% at 50% -8%, rgba(124, 58, 237, 0.12) 0%, transparent 55%),
+    linear-gradient(165deg, rgba(255, 255, 255, 0.06) 0%, transparent 42%),
+    #1A1433 !important;
+  box-shadow: var(--surface-tier-floating) !important;
+  /* Professional reading margins — text never kisses the card edge */
+  padding: 1.75rem 1.6rem !important;
 }
 
-/* Very faint paper grain texture (<2% opacity) for subtle readability depth without distraction */
-#report-section .content-card::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image: 
-      linear-gradient(rgba(255,255,255,0.012) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255,255,255,0.012) 1px, transparent 1px);
-    background-size: 2.5px 2.5px;
-    pointer-events: none;
-    z-index: 1;
-    border-radius: 24px; /* matches rounded-3xl in deep-dive.html */
+@media (min-width: 768px) {
+  #report-section .content-card:not(.dive-continue),
+  #report-section .dive-report-card {
+    padding: 2.25rem 2.5rem !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  #report-section .content-card:not(.dive-continue),
+  #report-section .dive-report-card {
+    padding: 2.75rem 3.25rem !important;
+  }
+}
+
+/* Soft gloss + depth film (matches static vault cards) */
+#report-section .content-card:not(.dive-continue)::before,
+#report-section .dive-report-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    var(--gloss-surface),
+    radial-gradient(ellipse 70% 45% at 50% 0%, rgba(124, 58, 237, 0.1) 0%, transparent 65%),
+    radial-gradient(ellipse 50% 40% at 100% 100%, rgba(99, 102, 241, 0.05) 0%, transparent 55%);
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Very faint paper grain for archival texture (below content, above fill) */
+#report-section .content-card:not(.dive-continue)::after,
+#report-section .dive-report-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.012) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.012) 1px, transparent 1px);
+  background-size: 2.5px 2.5px;
+  pointer-events: none;
+  z-index: 1;
+  border-radius: inherit;
+  opacity: 0.85;
+}
+
+/* Keep report content above gloss layers */
+#report-section .dive-report-card > *,
+#report-section .content-card:not(.dive-continue) > * {
+  position: relative;
+  z-index: 2;
 }
 
 #report-container {
   font-size: 1.18rem;
   line-height: 1.90;
-  color: #F6F2FF; /* cooler, higher-contrast off-white for superior long-form readability on dark archival backgrounds */
+  color: #F6F2FF;
   max-width: min(100%, 48rem);
   width: 100%;
   margin-left: 0;
   margin-right: 0;
+  /* Text lives on the outer vault card — no nested flat panel */
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
   font-feature-settings: "kern" 1, "liga" 1, "ss03" 1, "ss04" 1;
   text-rendering: optimizeLegibility;
 }
@@ -2649,20 +2712,23 @@ header.hero-gradient h1 {
   }
 }
 
-/* Mobile report polish Ã¢â‚¬â€ one horizontal gutter (outer wrap), no double padding on body text */
+/* Mobile report polish — keep outer page gutter modest; card holds the real margins */
 @media (max-width: 767px) {
   #report-section > .max-w-6xl {
-    padding-left: 0.85rem;
-    padding-right: 0.85rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
   }
 
   #report-section .content-card:not(.dive-continue),
   #report-section .dive-report-card {
-    padding: 1.15rem 1rem !important;
+    padding: 1.55rem 1.35rem !important;
     border-radius: 1.15rem;
   }
 
-  #report-section .content-card::after {
+  #report-section .content-card:not(.dive-continue)::before,
+  #report-section .content-card:not(.dive-continue)::after,
+  #report-section .dive-report-card::before,
+  #report-section .dive-report-card::after {
     border-radius: 1.15rem;
   }
 
@@ -2670,8 +2736,6 @@ header.hero-gradient h1 {
     font-size: 1.05rem;
     line-height: 1.72;
     max-width: 100%;
-    padding-left: 0;
-    padding-right: 0;
     overflow-wrap: anywhere;
     word-break: break-word;
   }
@@ -4909,16 +4973,63 @@ a.topic-root-card:hover .explore-badge {
   align-items: stretch;
 }
 
+/* Outer media card — same elevated vault shell as other site cards */
 .dive-media-card {
   min-height: 100%;
-  background: rgba(22, 16, 42, 0.92) !important;
-  border-color: rgba(139, 61, 255, 0.28) !important;
+  position: relative;
+  overflow: hidden;
+  background: var(--surface-fill-elevated) !important;
+  border: none !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+  border-radius: 1.15rem;
+}
+
+.dive-media-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    var(--gloss-surface),
+    radial-gradient(circle at 16% 12%, var(--glow-subtle) 0%, transparent 52%),
+    radial-gradient(circle at 84% 88%, var(--light-scrim) 0%, transparent 58%);
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.dive-media-card > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Inner bezel frame — soft rim, no hard purple stroke */
+.dive-media-card .dive-media-card__frame,
+.dive-media-card .media-frame {
+  max-width: none !important;
+  padding: 0.35rem !important;
+  border: none !important;
+  border-radius: 1rem !important;
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.06) 0%, transparent 48%),
+    rgba(12, 8, 26, 0.72) !important;
+  box-shadow:
+    var(--surface-tier-recessed),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+}
+
+.dive-media-card .media-frame::before,
+.dive-media-card .media-frame::after {
+  inset: 0.35rem;
+  border-radius: 0.85rem;
 }
 
 .dive-media-card__scrim,
 .dive-media-card .dive-media-card__scrim {
   min-height: 260px;
-  background: #0c0818;
+  background:
+    linear-gradient(180deg, rgba(15, 10, 31, 0.35) 0%, rgba(8, 5, 18, 0.92) 100%);
+  border-radius: 0.85rem;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
@@ -4933,12 +5044,17 @@ a.topic-root-card:hover .explore-badge {
   width: 100%;
   height: 100%;
   min-height: inherit;
+  border: none !important;
+  border-radius: 0.85rem;
+  box-shadow: none !important;
+  background: transparent !important;
 }
 
 .dive-media-card .infographic-artifact img,
 .dive-media-card .slide-deck-artifact img {
   object-fit: contain;
-  background: #0c0818;
+  background: transparent;
+  border-radius: 0.85rem;
 }
 
 /* Video cards */
@@ -4950,13 +5066,15 @@ a.topic-root-card:hover .explore-badge {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background: rgba(22, 16, 42, 0.92) !important;
-  border-color: rgba(139, 61, 255, 0.28) !important;
-  transition: border-color 0.2s ease;
+  background: var(--surface-fill-elevated) !important;
+  border: none !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+  transition: box-shadow 0.2s ease;
 }
 
 .dive-video-card:hover {
-  border-color: rgba(167, 139, 250, 0.4) !important;
+  border: none !important;
+  box-shadow: var(--surface-tier-elevated-hover) !important;
   transform: none !important;
 }
 
@@ -4982,47 +5100,23 @@ a.topic-root-card:hover .explore-badge {
   line-height: 1.5;
 }
 
-/* Report card / study toolbar calm rail */
+/* Report card / study toolbar */
 .dive-report-card {
   position: relative;
 }
 
+/* Early toolbar baseline — Phase 4 block below is the full treatment */
 .report-study-toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 0.5rem;
-  margin: 0 0 1.1rem;
-  padding: 0 0 0.85rem;
-  border-bottom: 1px solid rgba(124, 58, 237, 0.18);
-  background: transparent;
-  border-radius: 0;
   position: static;
 }
 
-.report-study-btn {
-  min-height: 2rem;
-  padding: 0.35rem 0.85rem;
-  border-radius: 9999px;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  color: #b8b0d4;
-  background: rgba(15, 10, 31, 0.65);
-  border: 1px solid rgba(139, 61, 255, 0.28);
-}
-
-.report-study-btn:hover {
-  color: #f0ebff;
-  background: rgba(40, 30, 72, 0.85);
-  border-color: rgba(139, 61, 255, 0.42);
-}
-
 .report-toc-inner {
-  background: rgba(15, 10, 31, 0.55) !important;
-  border: 1px solid rgba(139, 61, 255, 0.22);
-  box-shadow: none;
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.05) 0%, transparent 45%),
+    rgba(15, 10, 31, 0.72) !important;
+  border: none !important;
+  box-shadow: var(--surface-tier-base) !important;
+  border-radius: 0.9rem;
 }
 
 /* Override global .btn-primary nowrap so long topic titles wrap on mobile */
@@ -5170,61 +5264,8 @@ a.topic-root-card:hover .explore-badge {
   outline-offset: 2px;
 }
 
-/* Infographic artifact frame */
-.infographic-artifact {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-  border-radius: 1rem;
-  overflow: hidden;
-  border: 1px solid rgba(124, 58, 237, 0.35);
-  box-shadow:
-    var(--surface-tier-frame),
-    inset 0 0 40px rgba(124, 58, 237, 0.08);
-}
-
-.infographic-artifact img {
-  width: 100%;
-  height: auto;
-  max-height: 520px;
-  object-fit: contain;
-  transition: transform 0.35s ease;
-}
-
-.infographic-artifact:hover img {
-  transform: scale(1.02);
-}
-
-.infographic-artifact-caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 0.65rem 1rem;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-soft);
-  background: linear-gradient(
-    to top,
-    rgba(15, 10, 31, 0.96) 0%,
-    rgba(15, 10, 31, 0.72) 45%,
-    rgba(15, 10, 31, 0.28) 75%,
-    transparent 100%
-  );
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.infographic-artifact-zoom {
-  opacity: 0.7;
-  font-size: 0.85rem;
-}
-
-/* Slide deck preview Ã¢â‚¬â€ matches infographic artifact treatment */
+/* Infographic + slide deck — shared vault media artifact (no hard stroke outline) */
+.infographic-artifact,
 .slide-deck-artifact {
   position: relative;
   width: 100%;
@@ -5232,21 +5273,18 @@ a.topic-root-card:hover .explore-badge {
   cursor: pointer;
   border-radius: 1rem;
   overflow: hidden;
-  border: 1px solid rgba(124, 58, 237, 0.35);
-  box-shadow:
-    var(--surface-tier-frame),
-    inset 0 0 40px rgba(124, 58, 237, 0.08);
-  background: #120A2E;
-  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  border: none;
+  background: var(--surface-fill-elevated);
+  box-shadow: var(--surface-tier-elevated);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
 
+.infographic-artifact:hover,
 .slide-deck-artifact:hover {
-  border-color: rgba(167, 139, 250, 0.55);
-  box-shadow:
-    var(--surface-tier-elevated-hover),
-    inset 0 0 40px rgba(124, 58, 237, 0.12);
+  box-shadow: var(--surface-tier-elevated-hover);
 }
 
+.infographic-artifact img,
 .slide-deck-artifact img {
   width: 100%;
   height: auto;
@@ -5254,43 +5292,59 @@ a.topic-root-card:hover .explore-badge {
   object-fit: contain;
   display: block;
   transition: transform 0.35s ease;
+  filter: none;
+  opacity: 1;
 }
 
+.infographic-artifact:hover img,
 .slide-deck-artifact:hover img {
   transform: scale(1.02);
 }
 
+/* Soft glass caption rail — matches site toolbars, not a flat sticker */
+.infographic-artifact-caption,
 .slide-deck-artifact-caption {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 0.65rem 1rem;
+  z-index: 3;
+  padding: 0.7rem 1rem;
   font-size: 0.7rem;
   font-weight: 600;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--text-soft);
-  background: linear-gradient(
-    to top,
-    rgba(15, 10, 31, 0.96) 0%,
-    rgba(15, 10, 31, 0.72) 45%,
-    rgba(15, 10, 31, 0.28) 75%,
-    transparent 100%
-  );
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 0.75rem;
+  background:
+    linear-gradient(
+      to top,
+      rgba(10, 7, 22, 0.96) 0%,
+      rgba(10, 7, 22, 0.78) 48%,
+      rgba(10, 7, 22, 0.2) 78%,
+      transparent 100%
+    );
+  border-top: none;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.infographic-artifact-zoom {
+  opacity: 0.75;
+  font-size: 0.85rem;
+  color: #C4B5FD;
 }
 
 .slide-deck-artifact-action {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  opacity: 0.85;
+  opacity: 0.9;
   font-size: 0.68rem;
   letter-spacing: 0.08em;
+  color: #C4B5FD;
 }
 
 .slide-deck-artifact:hover .slide-deck-artifact-action {
@@ -8531,9 +8585,9 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   margin: 0;
   padding: 1rem 1.15rem 1.1rem;
   border-radius: 0.9rem;
-  background: rgba(15, 10, 31, 0.55);
-  border: 1px solid rgba(124, 58, 237, 0.28);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  background: var(--surface-fill-nested);
+  border: none;
+  box-shadow: var(--surface-tier-base);
 }
 
 #report-container .term-card__term,
@@ -8941,16 +8995,16 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   }
 }
 
-/* Very small phones Ã¢â‚¬â€ maximize line length a bit more */
+/* Very small phones — still keep professional inner margins */
 @media (max-width: 379px) {
   #report-section > .max-w-6xl {
-    padding-left: 0.65rem;
-    padding-right: 0.65rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
   }
 
   #report-section .content-card:not(.dive-continue),
   #report-section .dive-report-card {
-    padding: 1rem 0.85rem !important;
+    padding: 1.4rem 1.2rem !important;
   }
 
   #report-container {
@@ -9746,22 +9800,22 @@ body.menu-open {
   }
 }
 
-/* Study toolbar Ã¯Â¿Â½ calm tool strip */
+/* Study toolbar — recessed 3D tray (matches site controls) */
 .report-study-toolbar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 0.65rem 1rem;
-  margin: 0 0 1.25rem;
-  padding: 0.55rem 0.65rem;
+  margin: 0 0 1.5rem;
+  padding: 0.6rem 0.75rem;
   border-radius: 0.95rem;
-  border: 1px solid rgba(124, 58, 237, 0.22);
+  border: none !important;
   background:
-    radial-gradient(ellipse 70% 80% at 0% 50%, rgba(109, 40, 217, 0.1) 0%, transparent 55%),
-    rgba(12, 8, 26, 0.55);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
-  border-bottom: 1px solid rgba(124, 58, 237, 0.22);
+    radial-gradient(ellipse 70% 80% at 0% 50%, rgba(109, 40, 217, 0.12) 0%, transparent 55%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, transparent 55%),
+    rgba(12, 8, 26, 0.72);
+  box-shadow: var(--surface-tier-recessed-tray, var(--surface-tier-recessed)) !important;
 }
 
 .report-study-group {
@@ -9791,29 +9845,31 @@ body.menu-open {
   font-weight: 600;
   letter-spacing: 0.04em;
   color: #b8b0d4;
-  background: rgba(15, 10, 31, 0.55);
-  border: 1px solid rgba(139, 61, 255, 0.28);
+  background: var(--btn-fill-secondary);
+  border: none;
+  box-shadow: var(--surface-tier-control-sm);
   cursor: pointer;
   transition:
     color 0.2s ease,
     background 0.2s ease,
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
+    box-shadow 0.2s ease,
+    transform 0.18s ease;
   -webkit-tap-highlight-color: transparent;
 }
 
 .report-study-btn:hover {
   color: #f0ebff;
-  background: rgba(40, 30, 72, 0.9);
-  border-color: rgba(139, 61, 255, 0.45);
+  background: var(--btn-fill-secondary-hover);
+  box-shadow: var(--surface-tier-control-sm-hover);
+  transform: translateY(-1px);
 }
 
 .report-study-btn.is-active,
 .report-study-btn[aria-pressed="true"] {
   color: #fff;
-  background: linear-gradient(165deg, rgba(109, 40, 217, 0.55) 0%, rgba(76, 29, 149, 0.65) 100%);
-  border-color: rgba(196, 181, 253, 0.4);
-  box-shadow: 0 0 16px -6px rgba(139, 61, 255, 0.55);
+  background: var(--btn-fill-primary);
+  box-shadow: var(--surface-tier-btn);
+  transform: none;
 }
 
 .report-study-btn--size {
@@ -17707,8 +17763,9 @@ a.source-card:hover,
   text-shadow: 0 1px 18px rgba(0, 0, 0, 0.45);
 }
 
-/* --- Infographic: clearer, no muddy filter --- */
+/* --- Infographic / slide: clear art, vault material (not flat black plate) --- */
 .infographic-artifact img,
+.slide-deck-artifact img,
 #infographic-container img,
 .infographic-modal-image,
 .media-frame img {
@@ -17717,28 +17774,38 @@ a.source-card:hover,
   image-rendering: auto;
 }
 
-.infographic-artifact {
+.infographic-artifact,
+.slide-deck-artifact {
+  background: var(--surface-fill-elevated) !important;
   box-shadow: var(--surface-tier-elevated) !important;
-  background: #0a0614 !important;
+  border: none !important;
 }
 
-/* --- Report body: clean paper, no white haze --- */
+/* --- Report body: sits on the elevated vault card, not a nested flat panel --- */
 #report-section,
 #report-container,
 .report-prose,
 .dive-report,
 .lesson-report {
-  background: transparent !important;
   color: var(--text-body, #F1EBFF) !important;
 }
 
 #report-container,
 .report-prose {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+/* Outer report card keeps floating 3D material (do not flatten with late overrides) */
+#report-section .content-card:not(.dive-continue),
+#report-section .dive-report-card {
   background:
-    linear-gradient(165deg, rgba(255, 255, 255, 0.03) 0%, transparent 40%),
-    rgba(22, 16, 40, 0.92) !important;
-  box-shadow: var(--surface-tier-base) !important;
-  border-radius: 1rem;
+    radial-gradient(ellipse 90% 55% at 50% -8%, rgba(124, 58, 237, 0.12) 0%, transparent 55%),
+    linear-gradient(165deg, rgba(255, 255, 255, 0.06) 0%, transparent 42%),
+    #1A1433 !important;
+  box-shadow: var(--surface-tier-floating) !important;
+  border: none !important;
 }
 
 /* --- Oracle + Media twins: professional equal cards --- */
@@ -18611,19 +18678,24 @@ a.topic-root-card {
   box-shadow: var(--surface-tier-btn) !important;
 }
 
-/* Infographic: crystal clear, no muddy filters */
-.infographic-artifact {
+/* Infographic + slide deck: crystal-clear art, vault elevated frame */
+.infographic-artifact,
+.slide-deck-artifact {
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
-  background: #080512 !important;
-  box-shadow:
-    0 16px 40px -16px rgba(0, 0, 0, 0.65),
-    inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+  background: var(--surface-fill-elevated) !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+  border: none !important;
   cursor: zoom-in;
 }
 
-.infographic-artifact img {
+.slide-deck-artifact {
+  cursor: pointer;
+}
+
+.infographic-artifact img,
+.slide-deck-artifact img {
   display: block;
   width: 100%;
   height: auto;
@@ -18632,44 +18704,30 @@ a.topic-root-card {
   image-rendering: auto;
 }
 
-.infographic-artifact-caption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0.65rem 0.9rem;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
+.infographic-artifact-caption,
+.slide-deck-artifact-caption {
   color: #EDE4FF;
-  background: linear-gradient(180deg, transparent 0%, rgba(8, 5, 18, 0.88) 100%);
 }
 
-.infographic-artifact-zoom {
+.infographic-artifact-zoom,
+.slide-deck-artifact-action {
   color: #C4B5FD;
 }
 
-.slide-deck-artifact img {
-  opacity: 1 !important;
-  filter: none !important;
-}
-
-/* Report body: calm paper, no white film */
+/* Report body: elevated vault material (must stay 3D — no flat slab) */
 #report-section .content-card:not(.dive-continue),
 #report-section .dive-report-card {
   background:
-    linear-gradient(165deg, rgba(255, 255, 255, 0.035) 0%, transparent 42%),
-    #161028 !important;
+    radial-gradient(ellipse 90% 55% at 50% -8%, rgba(124, 58, 237, 0.12) 0%, transparent 55%),
+    linear-gradient(165deg, rgba(255, 255, 255, 0.06) 0%, transparent 42%),
+    #1A1433 !important;
   border: none !important;
-  box-shadow: var(--surface-tier-elevated) !important;
+  box-shadow: var(--surface-tier-floating) !important;
 }
 
-#report-section .content-card::after {
-  opacity: 0.35;
+#report-section .content-card:not(.dive-continue)::after,
+#report-section .dive-report-card::after {
+  opacity: 0.55;
 }
 
 #report-container {
@@ -18759,6 +18817,7 @@ body[data-report-size="lg"] #report-container {
 
 .dive-media-card {
   border: none !important;
+  background: var(--surface-fill-elevated) !important;
   box-shadow: var(--surface-tier-elevated) !important;
 }
 
@@ -19011,25 +19070,23 @@ body.page-home #main {
 }
 
 /* =============================================
-   SOFT ELEVATION UNIFY (final — wins all prior stacks)
-   One material language: soft cast + light rim.
-   No purple halo stacks, no thick plastic undercuts.
+   VAULT MATERIAL UNIFY (final — wins all prior stacks)
+   One professional 3D language sitewide:
+   · Elevated = browse cards (soft cast + top rim + undercut)
+   · Floating = sacred panels (deeper cast + stronger rim)
+   · Nested   = chips / term tiles (lighter base tier)
+   No hard stroke outlines. No mixed shadow recipes.
    ============================================= */
 
-/* Panels / cards — resting elevated tier */
-.static-card,
-.memory-card:not(.topics-filter-panel),
-.content-card:not(.topics-filter-panel),
-.source-card,
-.lesson-content-card,
-.channel-card:not(.topics-filter-panel),
+/* —— Elevated: primary interactive / browse surfaces —— */
+.memory-card:not(.topics-filter-panel):not(.static-card),
+.content-card:not(.topics-filter-panel):not(.static-card):not(.dive-report-card),
+.source-card:not(.static-card),
+.lesson-content-card:not(.static-card):not(.dive-report-card),
+.channel-card:not(.topics-filter-panel):not(.static-card),
 .topic-root-card,
 a.topic-root-card,
 .topic-main-root-card,
-.codex-banner,
-.about-banner,
-.oracle-banner,
-.media-banner,
 .network-start-card,
 .journey-card,
 .codex-search-card,
@@ -19042,49 +19099,86 @@ a.quiz-hub-card,
 .codex-stats-bar,
 .codex-toolbar,
 .topics-filter-panel,
-.source-hero,
 .dive-continue,
 .dive-media-card,
-#report-section .content-card:not(.dive-continue),
-#report-section .dive-report-card {
+.dive-video-card,
+.video-card,
+.footer-tabpanel,
+.footer-support,
+.home-feature-pair .oracle-banner,
+.home-feature-pair .media-banner {
   box-shadow: var(--surface-tier-elevated) !important;
   border: none !important;
 }
 
-/* Product banners + floating vault panels share the same soft stack */
+/* Solid fill only on non-photo elevated cards (preserve media art surfaces) */
+.memory-card:not(.topics-filter-panel):not(.static-card),
+.content-card:not(.topics-filter-panel):not(.static-card):not(.dive-report-card):not(.source-card),
+.lesson-content-card:not(.static-card):not(.dive-report-card),
+.channel-card:not(.topics-filter-panel):not(.static-card):not(.video-card):not(.dive-media-card),
+.network-start-card,
+.journey-card,
+.codex-search-card,
+a.quiz-hub-card,
+.quiz-card,
+.footer-donate-card,
+.home-media-panel,
+.codex-home-panel,
+.codex-hub-panel,
+.topics-filter-panel,
+.dive-continue,
+.dive-video-card,
+.footer-tabpanel:not(.has-media),
+.footer-support {
+  background: var(--surface-fill-elevated) !important;
+}
+
+/* —— Floating: sacred / static vault panels —— */
 .static-card,
 .codex-banner,
 .about-banner,
 .oracle-banner,
 .media-banner,
+.source-hero,
 .source-hero.static-card,
-.source-hero {
+#report-section .content-card:not(.dive-continue),
+#report-section .dive-report-card {
+  box-shadow: var(--surface-tier-floating) !important;
+  border: none !important;
+}
+
+/* Homepage feature twins stay elevated (paired cards, not hero banners) */
+.home-feature-pair .oracle-banner,
+.home-feature-pair .media-banner {
   box-shadow: var(--surface-tier-elevated) !important;
 }
 
-/* Quiet HUD / proof strip — lighter than full cards */
-.home-proof-card,
-.home-proof-card--hud,
-.home-proof-card.codex-home-metrics {
-  box-shadow:
-    0 10px 28px -16px rgba(0, 0, 0, 0.48),
-    inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+.static-card,
+#report-section .content-card:not(.dive-continue),
+#report-section .dive-report-card {
+  background: var(--surface-fill-floating) !important;
 }
 
-/* Compact stats tiles */
+/* —— Nested / compact tiles (base tier — lighter lift) —— */
+.term-card,
+#report-container .term-card,
 .codex-stat,
 .quiz-hub-stat,
-button.quiz-hub-stat {
-  box-shadow:
-    0 8px 20px -12px rgba(0, 0, 0, 0.45),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.18) !important;
+button.quiz-hub-stat,
+.home-proof-card,
+.home-proof-card--hud,
+.home-proof-card.codex-home-metrics,
+.footer-support-fund,
+.report-toc-inner {
+  box-shadow: var(--surface-tier-base) !important;
+  border: none !important;
+  background: var(--surface-fill-nested) !important;
 }
 
-/* Interactive card hover — soft lift, quiet violet breath only on motion */
+/* Interactive hover — one elevated-hover recipe */
 .memory-card:not(.static-card):not(.topics-filter-panel):hover,
-.content-card:not(.static-card):not(.topics-filter-panel):hover,
-.lesson-content-card:not(.static-card):hover,
+.content-card:not(.static-card):not(.topics-filter-panel):not(.dive-report-card):hover,
+.lesson-content-card:not(.static-card):not(.dive-report-card):hover,
 .channel-card:not(.static-card):not(.video-card):not(.topics-filter-panel):not(.source-card):hover,
 a.source-card:not(.static-card):hover,
 .source-card:not(.static-card):hover,
@@ -19092,26 +19186,94 @@ a.quiz-hub-card:hover,
 .journey-card:hover,
 .topic-root-card:hover,
 a.topic-root-card:hover,
-.network-start-card:hover {
+.network-start-card:hover,
+.dive-video-card:hover {
   box-shadow: var(--surface-tier-elevated-hover) !important;
 }
 
-/* Static / product panels stay put (no hover shadow fight) */
+/* Static / floating panels stay put (no hover shadow fight) */
 .static-card:hover,
 .codex-banner:hover,
 .about-banner:hover,
 .oracle-banner:hover,
-.media-banner:hover {
-  box-shadow: var(--surface-tier-elevated) !important;
+.media-banner:hover,
+.source-hero:hover,
+#report-section .content-card:not(.dive-continue):hover,
+#report-section .dive-report-card:hover {
+  box-shadow: var(--surface-tier-floating) !important;
   transform: none !important;
 }
 
-/* Photo frames / about media */
+/* Photo frames / media artifacts — elevated vault frame, no hard stroke */
 .home-about-editorial__media,
-.infographic-artifact {
-  box-shadow:
-    0 14px 36px -16px rgba(0, 0, 0, 0.55),
-    inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+.infographic-artifact,
+.slide-deck-artifact,
+.media-frame,
+.dive-video-card__frame,
+.dive-media-card {
+  box-shadow: var(--surface-tier-elevated) !important;
+  border: none !important;
+}
+
+.infographic-artifact,
+.slide-deck-artifact,
+.dive-media-card {
+  background: var(--surface-fill-elevated) !important;
+}
+
+/* When artifact sits inside dive media card, depth lives on the outer card */
+.dive-media-card .infographic-artifact,
+.dive-media-card .slide-deck-artifact {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Shared gloss film + positioning for solid elevated cards */
+.channel-card:not(.static-card),
+.memory-card:not(.static-card),
+.content-card:not(.static-card):not(.dive-report-card),
+.lesson-content-card:not(.static-card):not(.dive-report-card),
+a.quiz-hub-card,
+.journey-card,
+.network-start-card,
+.dive-video-card,
+.quiz-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.channel-card:not(.static-card)::before,
+.memory-card:not(.static-card)::before,
+.content-card:not(.static-card):not(.dive-report-card)::before,
+.lesson-content-card:not(.static-card):not(.dive-report-card)::before,
+a.quiz-hub-card::before,
+.journey-card::before,
+.network-start-card::before,
+.dive-video-card::before,
+.quiz-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    var(--gloss-surface),
+    radial-gradient(circle at 16% 12%, var(--glow-subtle) 0%, transparent 52%),
+    radial-gradient(circle at 84% 88%, var(--light-scrim) 0%, transparent 58%);
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.channel-card > *,
+.memory-card > *,
+.content-card > *,
+.lesson-content-card > *,
+a.quiz-hub-card > *,
+.journey-card > *,
+.network-start-card > *,
+.dive-video-card > *,
+.quiz-card > * {
+  position: relative;
+  z-index: 2;
 }
 
 /* Buttons + filled controls — one soft chrome recipe */
