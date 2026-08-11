@@ -5,6 +5,8 @@
 
   const state = {
     data: null,
+    /** Unshuffled copy from JSON; reshuffles always start from this. */
+    originalQuestions: null,
     mode: 'instant', // 'instant' | 'submit'
     index: 0,
     answers: {}, // number -> selected label
@@ -141,7 +143,34 @@
     render();
   }
 
+  /** Fisher–Yates shuffle (copy). */
+  function shuffleArray(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const tmp = a[i];
+      a[i] = a[j];
+      a[j] = tmp;
+    }
+    return a;
+  }
+
+  /** New random question order for this playthrough. Answers stay keyed by q.number. */
+  function shuffleQuestions() {
+    if (!state.data) return;
+    const source =
+      state.originalQuestions && state.originalQuestions.length
+        ? state.originalQuestions
+        : state.data.questions || [];
+    if (!source.length) return;
+    if (!state.originalQuestions) {
+      state.originalQuestions = source.slice();
+    }
+    state.data.questions = shuffleArray(state.originalQuestions);
+  }
+
   function startQuiz() {
+    shuffleQuestions();
     state.phase = 'playing';
     state.index = 0;
     state.answers = {};
@@ -157,6 +186,10 @@
     state.answers = {};
     state.revealed = {};
     state.hintOpen = false;
+    // Restore original order on the start screen; next Begin shuffles again.
+    if (state.data && state.originalQuestions) {
+      state.data.questions = state.originalQuestions.slice();
+    }
     render();
     focusQuizCard();
   }
@@ -377,10 +410,11 @@
       ? (state.mode === 'submit' ? 'Submit & see results' : 'See results')
       : 'Next question';
 
+    const playNum = state.index + 1;
     return `
-      <div class="quiz-card" role="region" aria-label="Quiz question ${state.index + 1}">
+      <div class="quiz-card" role="region" aria-label="Quiz question ${playNum}">
         ${renderProgress()}
-        <div class="quiz-question-num">Question ${q.number}</div>
+        <div class="quiz-question-num">Question ${playNum}</div>
         <h2 class="quiz-question-text">${escapeHtml(q.question)}</h2>
         ${renderOptions(q)}
         ${renderFeedback(q)}
@@ -411,7 +445,7 @@
     return `
       <div class="quiz-review">
         <h3 class="quiz-review__title">Full answer review</h3>
-        ${questions.map((q) => {
+        ${questions.map((q, i) => {
           const selected = state.answers[q.number];
           const right = correctOption(q);
           const chosen = optionByLabel(q, selected);
@@ -429,7 +463,7 @@
           const rationale = right?.rationale || chosen?.rationale || '';
           return `
             <article class="quiz-review-item">
-              <p class="quiz-review-item__q">${q.number}. ${escapeHtml(q.question)}</p>
+              <p class="quiz-review-item__q">${i + 1}. ${escapeHtml(q.question)}</p>
               <div class="quiz-review-item__meta">
                 <span class="quiz-badge ${badgeClass}">${badgeText}</span>
               </div>
@@ -589,6 +623,8 @@
       const data = await res.json();
       if (!data.questions?.length) throw new Error('Quiz has no questions');
       state.data = data;
+      // Stable source for reshuffles; play order is randomized on Begin.
+      state.originalQuestions = data.questions.slice();
       state.phase = 'start';
       render();
     } catch (err) {
