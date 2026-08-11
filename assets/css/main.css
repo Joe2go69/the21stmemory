@@ -2742,7 +2742,7 @@ header.hero-gradient h1 {
 }
 
 #report-container ul li::before {
-  content: 'Ã¢â‚¬Â¢';
+  content: '\2022';
   color: var(--accent-violet-hover);
   font-weight: 700;
   position: absolute;
@@ -4644,7 +4644,7 @@ a.topic-root-card:hover .explore-badge {
 }
 
 .codex-search-card-thumb--fallback::after {
-  content: 'Ã¢â€”Ë†';
+  content: '\2588';
   position: absolute;
   inset: 0;
   display: flex;
@@ -14943,25 +14943,9 @@ a.btn-secondary:active,
     margin-bottom: 0.25rem !important;
   }
 
-  .footer-support-funds li {
-    width: auto !important;
-    max-width: 100% !important;
-    padding: 0 !important;
-    border: none !important;
-    background: none !important;
-    border-radius: 0 !important;
-    font-size: 0.72rem !important;
-    font-weight: 500 !important;
-    color: var(--text-dim) !important;
-    letter-spacing: 0.02em;
-    white-space: normal !important;
-  }
-
+  /* Fund cards keep V2 card chrome (title + desc); no chip separators */
   .footer-support-funds li:not(:last-child)::after {
-    content: 'Â·';
-    margin-left: 0.4rem;
-    margin-right: 0.25rem;
-    opacity: 0.65;
+    content: none !important;
   }
 
   /* Quieter tab media â€” prioritize CTA; keep copy fully readable */
