@@ -1,5 +1,6 @@
 /**
  * Sync navbar + footer on all quiz pages with path prefix ../../
+ * Also ensures vault critical-paint CSS is present (prevents white FOUC).
  * Run after build:chrome, or as part of full build.
  */
 const fs = require('fs');
@@ -21,6 +22,9 @@ const footerHTML = renderFooter(footerData, { basePath: BASE });
 
 const NAV_REGEX = /<nav class="navbar">[\s\S]*?<\/nav>/;
 const FOOTER_REGEX = /<footer class="site-footer">[\s\S]*?<\/footer>/;
+const CRITICAL_PAINT = `    <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
+    <style>html,body{background-color:#0F0A1F}</style>
+`;
 
 function walk(dir, acc = []) {
   for (const name of fs.readdirSync(dir)) {
@@ -32,12 +36,39 @@ function walk(dir, acc = []) {
   return acc;
 }
 
+/** Keep first paint vault-colored even before main.min.css arrives. */
+function ensureCriticalPaint(html) {
+  if (html.includes('html,body{background-color:#0F0A1F}')) return html;
+
+  const markers = [
+    '    <link rel="preload" href="../../assets/css/main.min.css" as="style">',
+    '    <link rel="stylesheet" href="../../assets/css/tailwind.css">',
+    '    <link rel="stylesheet" href="../../assets/css/main.min.css">',
+    '    <link rel="stylesheet" href="../../assets/css/quiz.css">',
+  ];
+  for (const marker of markers) {
+    if (html.includes(marker)) {
+      return html.replace(marker, CRITICAL_PAINT + marker);
+    }
+  }
+  return html;
+}
+
+function ensureThemeColor(html) {
+  if (/name=["']theme-color["']/.test(html)) return html;
+  return html.replace(
+    /(<meta name=["']viewport["'][^>]*>)/i,
+    '$1\n    <meta name="theme-color" content="#0F0A1F">'
+  );
+}
+
 const quizFiles = walk(path.join(ROOT, 'quiz'));
 let updated = 0;
 let skipped = 0;
 
 for (const file of quizFiles) {
   let html = fs.readFileSync(file, 'utf8');
+  const before = html;
   let changed = false;
 
   if (NAV_REGEX.test(html)) {
@@ -48,6 +79,10 @@ for (const file of quizFiles) {
     html = html.replace(FOOTER_REGEX, footerHTML);
     changed = true;
   }
+
+  html = ensureCriticalPaint(html);
+  html = ensureThemeColor(html);
+  if (html !== before) changed = true;
 
   if (!changed) {
     skipped++;

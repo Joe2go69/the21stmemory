@@ -137,6 +137,7 @@ const entries = [
   { path: '/quiz/breakdown/emotional-mending.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/liquid-sound.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/memory-restoration.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/crystal-halls.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/source-bridge.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/central-axis.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/phase-one-three.html', priority: '0.75', changefreq: 'monthly' },

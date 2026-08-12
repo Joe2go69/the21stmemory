@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T00:33:08.663Z",
+  "generatedAt": "2026-08-12T01:52:44.184Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -824,7 +824,7 @@
       "sourceId": "breakdown",
       "topicId": "crystal-halls",
       "path": "/dive/breakdown/crystal-halls.html",
-      "live": false,
+      "live": true,
       "title": "Crystal Halls"
     },
     {

@@ -193,6 +193,21 @@
           "embed_url": "https://rumble.com/embed/v7aws54/?pub=4p0ieu"
         }
       ]
+    },
+    {
+      "code": "it",
+      "label": "Italian",
+      "native_label": "Italiano",
+      "videos": [
+        {
+          "title": "Il Velo di Cristallo",
+          "embed_url": "https://rumble.com/embed/v7bv9ca/?pub=4p0ieu"
+        },
+        {
+          "title": "Uscire dalla prigione olografica e dai reset",
+          "embed_url": "https://rumble.com/embed/v7bv9io/?pub=4p0ieu"
+        }
+      ]
     }
   ],
   "quiz": {

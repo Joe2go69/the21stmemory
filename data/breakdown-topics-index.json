@@ -444,9 +444,9 @@
         {
           "id": "crystal-halls",
           "title": "Crystal Halls",
-          "description": "Decoded analysis of Crystal Halls within the Mega Breakdown Board Notes & Highlights transmission.",
-          "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true,
+          "description": "Crystal Halls are living crystal temples of mental and energetic healing hidden beneath cathedral and abbey overlays — crystal slabs hum harmonic frequencies, rainbow fractals dissolve mind-control damage, and Saferons stabilize souls in their crystalline body selves.",
+          "topic_image": "images/breakdown/crystal-halls.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "mental-realignment",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T00:33:08.461Z",
-  "total": 117,
+  "generatedAt": "2026-08-12T01:46:30.661Z",
+  "total": 118,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 57
+      "count": 58
     }
   ],
   "quizzes": [
@@ -879,6 +879,19 @@
       "href": "quiz/breakdown/comms-blackout.html",
       "diveHref": "dive/breakdown/comms-blackout.html",
       "key": "breakdown/comms-blackout"
+    },
+    {
+      "id": "crystal-halls",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Crystal Halls",
+      "subtitle": "Test your grasp of Crystal Halls — cathedral overlays hiding living crystal temples, humming slabs, rainbow fractals, Lungs of Light, Saferons, Giants, and the Water Domes / Crystal Halls / Star Pods triad.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/crystal-halls.html",
+      "diveHref": "dive/breakdown/crystal-halls.html",
+      "key": "breakdown/crystal-halls"
     },
     {
       "id": "crystalline-architecture",
