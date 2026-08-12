@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T04:50:44.837Z",
+  "generatedAt": "2026-08-12T00:33:08.663Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -817,7 +817,7 @@
       "sourceId": "breakdown",
       "topicId": "memory-restoration",
       "path": "/dive/breakdown/memory-restoration.html",
-      "live": false,
+      "live": true,
       "title": "Memory Restoration"
     },
     {

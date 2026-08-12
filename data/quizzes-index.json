@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-11T04:50:44.102Z",
-  "total": 116,
+  "generatedAt": "2026-08-12T00:33:08.461Z",
+  "total": 117,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 56
+      "count": 57
     }
   ],
   "quizzes": [
@@ -1165,6 +1165,19 @@
       "href": "quiz/breakdown/matrix-scaffolding.html",
       "diveHref": "dive/breakdown/matrix-scaffolding.html",
       "key": "breakdown/matrix-scaffolding"
+    },
+    {
+      "id": "memory-restoration",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Memory Restoration",
+      "subtitle": "Test your grasp of Memory Restoration — Water Domes heart-mending, Liquid Sound density extraction, Memory Codes of Source, Ground Healers (Saferins/Saferons), vision and sound recall, and sovereign path selection after true memory returns.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/memory-restoration.html",
+      "diveHref": "dive/breakdown/memory-restoration.html",
+      "key": "breakdown/memory-restoration"
     },
     {
       "id": "military-broadcasts",
