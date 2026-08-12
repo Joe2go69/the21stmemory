@@ -214,6 +214,24 @@
   gap: 1rem;
 }
 
+/* Mobile: stack primary CTAs full-width so they stay centered and aligned */
+@media (max-width: 639px) {
+  .quiz-actions,
+  .quiz-actions--end {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .quiz-actions .btn-primary,
+  .quiz-actions .btn-secondary,
+  .quiz-actions--end .btn-primary,
+  .quiz-actions--end .btn-secondary {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 /* Quiz CTAs: match refined global button size */
 .quiz-page .btn-primary,
 .quiz-page .btn-secondary,

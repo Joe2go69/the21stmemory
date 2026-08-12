@@ -19350,3 +19350,213 @@ a.btn-secondary:active,
 .btn-jump-pill:not(.is-active):not([aria-current="true"]) {
   box-shadow: none !important;
 }
+
+/* ============================================================
+   Dive hero actions: one aligned column (mobile + desktop)
+   Jump segment + quiz CTA share the same width so nothing
+   looks left-skewed or “floating” off the button stack.
+   ============================================================ */
+.dive-hero-actions {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  width: 100% !important;
+  max-width: min(100%, 28rem) !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  gap: 0.85rem !important;
+  box-sizing: border-box !important;
+}
+
+.dive-hero-actions .dive-jump-label {
+  width: 100% !important;
+  margin: 0 !important;
+  text-align: center !important;
+  letter-spacing: 0.14em !important;
+}
+
+/* Segment track = full width of the action column (matches quiz CTA) */
+.dive-hero-actions .jump-to-pills,
+.dive-hero-actions .jump-to-pills.dive-section-seg,
+.dive-hero-actions .dive-section-seg {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: stretch !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0.28rem !important;
+  gap: 0.15rem !important;
+  box-sizing: border-box !important;
+  border-radius: 9999px !important;
+  background: rgba(8, 5, 18, 0.62) !important;
+  border: 1px solid rgba(139, 61, 255, 0.22) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    inset 0 2px 8px rgba(0, 0, 0, 0.28) !important;
+  overflow: hidden !important;
+}
+
+/* Equal-width segments; inactive = flat in tray; active = primary 3D */
+.dive-hero-actions .btn-jump-pill {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  width: auto !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 2.45rem !important;
+  padding: 0.45rem 0.5rem !important;
+  border-radius: 9999px !important;
+  border: none !important;
+  font-size: clamp(0.62rem, 2.6vw, 0.78rem) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  line-height: 1.15 !important;
+  white-space: nowrap !important;
+  transform: none !important;
+  filter: none !important;
+  text-shadow: none !important;
+}
+
+.dive-hero-actions .btn-jump-pill:not(.is-active):not(.active):not([aria-current="true"]) {
+  background: transparent !important;
+  color: #c4b5fd !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.dive-hero-actions .btn-jump-pill:not(.is-active):not(.active):not([aria-current="true"]):hover,
+.dive-hero-actions .btn-jump-pill:not(.is-active):not(.active):not([aria-current="true"]):focus-visible {
+  background: rgba(91, 33, 182, 0.28) !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.dive-hero-actions .btn-jump-pill.is-active,
+.dive-hero-actions .btn-jump-pill.active,
+.dive-hero-actions .btn-jump-pill[aria-current="true"] {
+  background: var(--btn-fill-primary) !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35) !important;
+  box-shadow: var(--surface-tier-btn) !important;
+  transform: none !important;
+}
+
+/* Quiz CTA — full width of same column as jump segment */
+.dive-hero-actions .deep-dive-quiz-cta {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  gap: 0.55rem !important;
+}
+
+.dive-hero-actions .deep-dive-quiz-cta__btn,
+.dive-hero-actions .deep-dive-quiz-cta .btn-primary {
+  display: inline-flex !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+  white-space: normal !important;
+}
+
+.dive-hero-actions .deep-dive-quiz-cta__btn span,
+.dive-hero-actions .deep-dive-quiz-cta .btn-primary span {
+  flex: 0 1 auto !important;
+  text-align: center !important;
+}
+
+.dive-hero-actions .deep-dive-quiz-cta__desc {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  text-align: left !important;
+}
+
+/* Quiet text links under CTA — same column width, centered row */
+.dive-hero-actions .dive-hero-links {
+  width: 100% !important;
+  max-width: 100% !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+}
+
+/* Mobile: use full hero content width so stack is balanced in the card */
+@media (max-width: 639px) {
+  .dive-hero-actions {
+    max-width: 100% !important;
+  }
+
+  .dive-hero-actions .btn-jump-pill {
+    min-height: 2.55rem !important;
+    padding-left: 0.35rem !important;
+    padding-right: 0.35rem !important;
+    font-size: 0.62rem !important;
+    letter-spacing: 0.04em !important;
+  }
+
+  .dive-hero-actions .deep-dive-quiz-cta__btn,
+  .dive-hero-actions .deep-dive-quiz-cta .btn-primary {
+    min-height: 3.05rem !important;
+  }
+}
+
+/* Desktop: keep shared column; still stretch children so edges match */
+@media (min-width: 640px) {
+  .dive-hero-actions {
+    max-width: min(100%, 28rem) !important;
+  }
+
+  .dive-hero-actions .deep-dive-quiz-cta__btn,
+  .dive-hero-actions .deep-dive-quiz-cta .btn-primary {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Sticky clone of jump segment: full available width, equal pills */
+.section-nav-sticky .dive-section-seg--sticky,
+.dive-section-seg--sticky {
+  display: flex !important;
+  width: 100% !important;
+  max-width: min(100%, 36rem) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.section-nav-sticky .btn-jump-pill {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  justify-content: center !important;
+}
+
+/* Quiz hub cards — same elevated vault material as site cards */
+a.quiz-hub-card {
+  border: none !important;
+  background: var(--surface-fill-elevated) !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+  border-radius: 16px !important;
+}
+
+a.quiz-hub-card:hover {
+  border: none !important;
+  box-shadow: var(--surface-tier-elevated-hover) !important;
+}
+
+/* Slide deck download under media card — full-width primary-family secondary CTA */
+.dive-media-card .slide-deck-download-btn.btn-secondary,
+.dive-media-card a.slide-deck-download-btn {
+  width: 100% !important;
+  justify-content: center !important;
+  text-align: center !important;
+  border-radius: 9999px !important;
+  min-height: 2.75rem !important;
+}
