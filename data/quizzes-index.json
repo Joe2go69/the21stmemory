@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T01:46:30.661Z",
-  "total": 118,
+  "generatedAt": "2026-08-12T04:22:09.758Z",
+  "total": 119,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 58
+      "count": 59
     }
   ],
   "quizzes": [
@@ -1191,6 +1191,19 @@
       "href": "quiz/breakdown/memory-restoration.html",
       "diveHref": "dive/breakdown/memory-restoration.html",
       "key": "breakdown/memory-restoration"
+    },
+    {
+      "id": "mental-realignment",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Mental Realignment",
+      "subtitle": "Test your grasp of Mental Realignment — Crystal Halls mind mending, harmonic crystal slabs, Lungs of Light, rainbow fractals, photonic prisms, light body grid restoration, and the Water Domes / Crystal Halls / Star Pods cycle.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/mental-realignment.html",
+      "diveHref": "dive/breakdown/mental-realignment.html",
+      "key": "breakdown/mental-realignment"
     },
     {
       "id": "military-broadcasts",
