@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-13T05:10:24.993Z",
-  "total": 120,
+  "generatedAt": "2026-08-13T07:10:09.686Z",
+  "total": 121,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 60
+      "count": 61
     }
   ],
   "quizzes": [
@@ -1269,6 +1269,19 @@
       "href": "quiz/breakdown/original-realm.html",
       "diveHref": "dive/breakdown/original-realm.html",
       "key": "breakdown/original-realm"
+    },
+    {
+      "id": "overlay-clearing",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Overlay Clearing",
+      "subtitle": "Test your grasp of Overlay Clearing — Crystal Halls under cathedral camouflage, parasitic overlays, humming slabs and conscious orbs, Saferins, Water Domes and Star Pods, memory restoration, and the Resonating Army stepping off the 3rd-density band.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/overlay-clearing.html",
+      "diveHref": "dive/breakdown/overlay-clearing.html",
+      "key": "breakdown/overlay-clearing"
     },
     {
       "id": "perception-solidity",
