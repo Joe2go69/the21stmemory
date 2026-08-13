@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T09:46:15.068Z",
+  "generatedAt": "2026-08-13T11:40:14.667Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -859,7 +859,7 @@
       "sourceId": "breakdown",
       "topicId": "timeline-healing",
       "path": "/dive/breakdown/timeline-healing.html",
-      "live": false,
+      "live": true,
       "title": "Timeline Healing"
     },
     {

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-13T09:46:14.855Z",
-  "total": 122,
+  "generatedAt": "2026-08-13T11:40:14.397Z",
+  "total": 123,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 62
+      "count": 63
     }
   ],
   "quizzes": [
@@ -1529,6 +1529,19 @@
       "href": "quiz/breakdown/the-spirit-tree.html",
       "diveHref": "dive/breakdown/the-spirit-tree.html",
       "key": "breakdown/the-spirit-tree"
+    },
+    {
+      "id": "timeline-healing",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Timeline Healing",
+      "subtitle": "Test your grasp of Timeline Healing — etheric Star Pods and the Womb of Light, soul fractures and karmic wounds, Water Domes / Crystal Halls / Star Pods, Red Sea doubt, loosh collapse, and sovereign return to the Known Lands.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/timeline-healing.html",
+      "diveHref": "dive/breakdown/timeline-healing.html",
+      "key": "breakdown/timeline-healing"
     },
     {
       "id": "trigger-events",
