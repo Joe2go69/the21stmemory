@@ -77,15 +77,15 @@
     }
   ],
   "support": {
-    "heading": "Help the archive grow",
+    "heading": "Awaken the 21st Memory",
     "eyebrow": "Independent · Always free",
-    "message": "21st Memory is free for everyone — no paywalls, no accounts. The archive is independently built and maintained, and hosting, tools, and AI currently cost more than the project covers alone. If it’s been useful, you can help in more than one way: share a topic, invite someone into the community, or contribute toward operating costs. Each one helps keep the archive open and growing.",
-    "messageShort": "Free for all, independently run. Share a topic, join the community, or help fund hosting and AI — every form of support keeps the archive available.",
+    "message": "21st Memory is free for everyone — no paywalls, no accounts. The archive is independently built and maintained, and hosting, tools, and AI currently cost more than the project covers on its own. If it has been useful, you can help it reach further: share a topic, invite someone into the community, or contribute toward operating costs. The more people who remember, the stronger the 21st Memory becomes.",
+    "messageShort": "Free for all, independently run. Share a topic, join the community, or help fund hosting and AI. The more people who remember, the stronger the 21st Memory becomes.",
     "fundsLabel": "Three ways people help",
     "funds": [
       {
         "title": "Share a topic",
-        "desc": "Pass a deep-dive to someone ready for it"
+        "desc": "Pass a deep-dive to someone ready to remember"
       },
       {
         "title": "Join the community",
@@ -96,7 +96,7 @@
         "desc": "Hosting, tools & AI — GoFundMe, Ko-fi, Bitcoin, or Starlink below"
       }
     ],
-    "note": "Always free · Entirely optional · Sharing, community, and contributions all count",
+    "note": "Always free · Entirely optional · Every form of support counts",
     "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
     "qrImage": "assets/images/bitcoin-qr.png",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",
