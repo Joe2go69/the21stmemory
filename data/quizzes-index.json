@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-13T07:10:09.686Z",
-  "total": 121,
+  "generatedAt": "2026-08-13T09:46:14.855Z",
+  "total": 122,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 61
+      "count": 62
     }
   ],
   "quizzes": [
@@ -1438,6 +1438,19 @@
       "href": "quiz/breakdown/stabilization-process.html",
       "diveHref": "dive/breakdown/stabilization-process.html",
       "key": "breakdown/stabilization-process"
+    },
+    {
+      "id": "star-pods",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Star Pods",
+      "subtitle": "Test your grasp of Star Pods — etheric soul-restoration chambers, timeline trauma and soul fractures, the womb of light and cosmic looms, Water Domes / Crystal Halls / Star Pods, and sovereign choice after Vatican amnesia loops dissolve.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/star-pods.html",
+      "diveHref": "dive/breakdown/star-pods.html",
+      "key": "breakdown/star-pods"
     },
     {
       "id": "starseed-keys",

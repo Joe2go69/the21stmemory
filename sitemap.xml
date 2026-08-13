@@ -750,6 +750,13 @@
   </url>
 
   <url>
+    <loc>https://21stmemory.com/quiz/breakdown/star-pods.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
     <loc>https://21stmemory.com/quiz/breakdown/source-bridge.html</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -1745,6 +1752,13 @@
 
   <url>
     <loc>https://21stmemory.com/dive/breakdown/overlay-clearing.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://21stmemory.com/dive/breakdown/star-pods.html</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

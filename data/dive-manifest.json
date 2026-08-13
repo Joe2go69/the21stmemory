@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T07:10:09.932Z",
+  "generatedAt": "2026-08-13T09:46:15.068Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -852,7 +852,7 @@
       "sourceId": "breakdown",
       "topicId": "star-pods",
       "path": "/dive/breakdown/star-pods.html",
-      "live": false,
+      "live": true,
       "title": "Star Pods"
     },
     {

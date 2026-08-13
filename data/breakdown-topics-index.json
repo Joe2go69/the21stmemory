@@ -474,9 +474,9 @@
         {
           "id": "star-pods",
           "title": "Star Pods",
-          "description": "Decoded analysis of Star Pods within the Mega Breakdown Board Notes & Highlights transmission.",
-          "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true,
+          "description": "Star Pods are specialized multidimensional chambers floating in etheric nebulae cocoons — the final restoration tier that reweaves soul fractures and timeline trauma, neutralizing 3D matrix damage and restoring sovereign wholeness.",
+          "topic_image": "images/breakdown/star-pods.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "timeline-healing",

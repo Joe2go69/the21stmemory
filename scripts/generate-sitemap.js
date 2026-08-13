@@ -141,6 +141,7 @@ const entries = [
   { path: '/quiz/breakdown/mental-realignment.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/rainbow-fractals.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/overlay-clearing.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/star-pods.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/source-bridge.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/central-axis.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/phase-one-three.html', priority: '0.75', changefreq: 'monthly' },
