@@ -207,7 +207,7 @@ function renderCategoryBlock(sourceId, category) {
   if (category.subtopics?.length) {
     subsHTML = category.subtopics.map(sub => renderSubtopic(sourceId, sub)).join('');
     if (subsHTML) {
-      subsHTML = `<div class="pl-4 md:pl-8 border-l-2 border-mem-violet/20">${subsHTML}</div>`;
+      subsHTML = `<div class="topic-section-subs">${subsHTML}</div>`;
     }
   }
 
@@ -440,7 +440,7 @@ function renderFilterControls() {
 
   controls.innerHTML = `
     <div class="topics-filter-sticky-wrap">
-      <div class="topics-filter-panel rounded-2xl">
+      <div class="topics-filter-panel">
         <div class="topics-filter-header">
           <div>
             <div class="topics-filter-title">Browse the Archive</div>
@@ -691,7 +691,7 @@ async function loadSourceViewer() {
         <p class="text-mem-soft max-w-md mx-auto">${TopicUtils.escapeHtml(e.message)}</p>
         <p class="text-sm mt-8 text-mem-muted">Check the browser console (F12) for more details.<br>
         Make sure <strong>data/${TopicUtils.escapeHtml(sourceId)}-topics-index.json</strong> exists and is valid JSON.</p>
-        <a href="codex.html" class="btn-primary inline-flex items-center justify-center px-8 py-3 mt-8 text-sm font-semibold">← Back to Codex</a>
+        <a href="codex.html" class="btn-primary">← Back to Codex</a>
       </div>`;
     if (headerEl) headerEl.innerHTML = errorHtml;
     if (container) container.innerHTML = errorHtml;

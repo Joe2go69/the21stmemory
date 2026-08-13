@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="color-scheme:dark;background-color:#0F0A1F">
 <head>
     <meta charset="UTF-8">
+    <meta name="color-scheme" content="dark">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Living Truth Quizzes | 21st Memory</title>
     <meta name="description" content="Browse Living Truth Quizzes from the 21st Memory archive — Alice and Mega Breakdown quizzes to test your understanding.">
@@ -94,7 +95,7 @@
 </script>
 
     <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
-    <style>html,body{background-color:#0F0A1F}</style>
+    <style>html,body{background-color:#0F0A1F;color-scheme:dark}</style>
     <link rel="preload" href="assets/css/main.min.css" as="style">
     <link rel="stylesheet" href="assets/css/tailwind.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
@@ -132,7 +133,7 @@
     <main id="main">
 
     <!-- Page hero — same calm brand moment as homepage / codex -->
-    <header class="page-hero max-w-3xl mx-auto px-6 text-center">
+    <header class="page-hero page-hero--interior max-w-3xl mx-auto px-6 text-center">
         <h1 class="page-hero-title page-hero-title--hub font-semibold tracking-tighter leading-none mb-5">
             LIVING TRUTH<br>QUIZZES
         </h1>
@@ -156,20 +157,22 @@
             <div class="quiz-hub-toolbar__row">
                 <label class="quiz-hub-search">
                     <span class="sr-only">Search quizzes</span>
-                    <input id="quizzes-search" type="search" class="codex-search-field" placeholder="Search by topic (e.g. firmament, purge, NPC)…" autocomplete="off">
+                    <input id="quizzes-search" type="search" class="codex-search-field" placeholder="Search by topic (e.g. firmament, purge, NPC)…" data-placeholder-long="Search by topic (e.g. firmament, purge, NPC)…" data-placeholder-short="Search quizzes…" autocomplete="off">
                 </label>
+            </div>
+            <div class="quiz-hub-chips">
                 <div id="quizzes-filters" class="quiz-hub-filters" role="group" aria-label="Filter by transmission">
                     <button type="button" class="topic-control-btn is-active active" data-quiz-filter="all" aria-pressed="true">All</button>
                     <button type="button" class="topic-control-btn" data-quiz-filter="alice" aria-pressed="false">Alice</button>
                     <button type="button" class="topic-control-btn" data-quiz-filter="breakdown" aria-pressed="false">Breakdown</button>
                 </div>
-            </div>
-            <div class="quiz-hub-toolbar__meta">
                 <div class="quiz-hub-status" role="group" aria-label="Filter by progress">
                     <button type="button" class="topic-control-btn is-active active" data-quiz-status="all" aria-pressed="true">All</button>
                     <button type="button" class="topic-control-btn" data-quiz-status="new" aria-pressed="false">Not started</button>
                     <button type="button" class="topic-control-btn" data-quiz-status="done" aria-pressed="false">Completed</button>
                 </div>
+            </div>
+            <div class="quiz-hub-toolbar__meta">
                 <div class="quiz-hub-toolbar__tools">
                     <label class="quiz-hub-sort">
                         <span class="sr-only">Sort quizzes</span>
@@ -181,8 +184,12 @@
                         </select>
                     </label>
                     <div id="quizzes-view-toggle" class="quiz-hub-view-toggle" role="group" aria-label="Catalog layout">
-                        <button type="button" class="topic-control-btn is-active active" data-quiz-view="list" aria-pressed="true">List</button>
-                        <button type="button" class="topic-control-btn" data-quiz-view="grid" aria-pressed="false">Grid</button>
+                        <button type="button" class="quiz-view-btn is-active" data-quiz-view="list" aria-pressed="true" aria-label="List view" title="List">
+                          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+                        </button>
+                        <button type="button" class="quiz-view-btn" data-quiz-view="grid" aria-pressed="false" aria-label="Grid view" title="Grid">
+                          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -216,7 +223,7 @@
     <h2 class="quiz-hub-path-card__title">Mega Breakdown Board Notes</h2>
     <p class="quiz-hub-path-card__desc">Board-note deep dives on the grid, timelines, and the architecture of the shift.</p>
     <span class="quiz-hub-path-card__meta">
-      <span class="quiz-hub-path-card__count">59 quizzes</span>
+      <span class="quiz-hub-path-card__count">60 quizzes</span>
       <span class="quiz-hub-path-card__cta">Browse path →</span>
     </span>
   </span>
@@ -273,7 +280,7 @@
 <!-- QUIZZES-GRID-END -->
         </div>
 
-        <div id="quizzes-empty" class="codex-empty-state content-card static-card rounded-3xl p-10 mt-6" hidden>
+        <div id="quizzes-empty" class="codex-empty-state content-card static-card p-10 mt-6" hidden>
             <p class="text-lg text-mem-soft">No quizzes match that filter. Try another transmission or clear your search.</p>
         </div>
         </div><!-- /.quiz-hub-browse -->

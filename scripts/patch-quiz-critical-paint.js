@@ -9,7 +9,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const CRITICAL = `    <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
-    <style>html,body{background-color:#0F0A1F}</style>
+    <style>html,body{background-color:#0F0A1F;color-scheme:dark}</style>
 `;
 
 function walk(dir, acc = []) {

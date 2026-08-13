@@ -23,7 +23,7 @@ const footerHTML = renderFooter(footerData, { basePath: BASE });
 const NAV_REGEX = /<nav class="navbar">[\s\S]*?<\/nav>/;
 const FOOTER_REGEX = /<footer class="site-footer">[\s\S]*?<\/footer>/;
 const CRITICAL_PAINT = `    <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
-    <style>html,body{background-color:#0F0A1F}</style>
+    <style>html,body{background-color:#0F0A1F;color-scheme:dark}</style>
 `;
 
 function walk(dir, acc = []) {
@@ -62,6 +62,14 @@ function ensureThemeColor(html) {
   );
 }
 
+function ensurePageInterior(html) {
+  if (/<body[^>]*\bpage-interior\b/.test(html)) return html;
+  return html.replace(
+    /<body class="cosmic-bg"/,
+    '<body class="cosmic-bg page-interior"'
+  );
+}
+
 const quizFiles = walk(path.join(ROOT, 'quiz'));
 let updated = 0;
 let skipped = 0;
@@ -82,6 +90,7 @@ for (const file of quizFiles) {
 
   html = ensureCriticalPaint(html);
   html = ensureThemeColor(html);
+  html = ensurePageInterior(html);
   if (html !== before) changed = true;
 
   if (!changed) {

@@ -81,8 +81,8 @@ function renderDiveVideoCards(videos) {
       const desc = video.description
         ? `<p class="dive-video-card__desc">${escapeVideoHtml(video.description)}</p>`
         : '';
-      return `<article class="dive-video-card content-card static-card rounded-3xl p-4 group">
-        <div class="dive-video-card__frame aspect-[16/10] bg-[#0F0A1F] rounded-2xl overflow-hidden relative">
+      return `<article class="dive-video-card content-card static-card p-4">
+        <div class="dive-video-card__frame aspect-[16/10] overflow-hidden relative">
           <div class="video-poster-wrap absolute inset-0 cursor-pointer"
                data-rumble-embed="${embed}"
                data-video-title="${title}"

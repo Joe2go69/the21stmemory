@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="color-scheme:dark;background-color:#0F0A1F">
 <head>
     <meta charset="UTF-8">
+    <meta name="color-scheme" content="dark">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>21st Memory Deep-Dive | The 21st Memory</title>
     <meta name="description" content="In-depth AI-decoded reports on Thalon Thor transmission topics from the 21st Memory archive.">
@@ -81,7 +82,7 @@
 </script>
 
     <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
-    <style>html,body{background-color:#0F0A1F}</style>
+    <style>html,body{background-color:#0F0A1F;color-scheme:dark}</style>
     <link rel="preload" href="assets/css/main.min.css" as="style">
     <link rel="stylesheet" href="assets/css/tailwind.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
@@ -163,9 +164,9 @@
             
             <!-- LEFT: Infographic -->
             <div class="md:col-span-6">
-                <div class="media-panel static-card surface-static rounded-card p-4 sm:p-6 h-full flex flex-col">
+                <div class="dive-media-card media-panel static-card surface-static p-4 sm:p-6 h-full flex flex-col">
                     <div class="media-frame surface-media w-full max-w-none flex-1">
-                        <div id="infographic-container" class="media-scrim rounded-card overflow-hidden min-h-[240px] md:min-h-[420px] flex items-center justify-center">
+                        <div id="infographic-container" class="media-scrim overflow-hidden min-h-[240px] md:min-h-[420px] flex items-center justify-center">
                             <!-- Populated by JS -->
                         </div>
                     </div>
@@ -174,9 +175,9 @@
 
             <!-- RIGHT: Slide Deck PDF -->
             <div class="md:col-span-6">
-                <div class="media-panel static-card surface-static rounded-card p-4 sm:p-6 h-full flex flex-col">
+                <div class="dive-media-card media-panel static-card surface-static p-4 sm:p-6 h-full flex flex-col">
                     <div class="media-frame surface-media w-full max-w-none flex-1 mb-4">
-                        <div id="pdf-preview-container" class="media-scrim rounded-card overflow-hidden min-h-[240px] md:min-h-[420px] flex items-center justify-center">
+                        <div id="pdf-preview-container" class="media-scrim overflow-hidden min-h-[240px] md:min-h-[420px] flex items-center justify-center">
                             <!-- Populated dynamically by JS -->
                         </div>
                     </div>
@@ -213,7 +214,7 @@
         </div>
         
         <div class="max-w-6xl mx-auto px-6">
-            <div class="content-card static-card lesson-content-card rounded-3xl p-8 md:p-12 lg:p-16">
+            <div class="content-card static-card lesson-content-card dive-report-card p-8 md:p-12 lg:p-16">
                 <div id="report-study-toolbar" class="report-study-toolbar" role="toolbar" aria-label="Reading comfort" hidden>
                   <div class="report-study-group" role="group" aria-label="Text size">
                     <span class="report-study-label" id="report-size-label">Text</span>
@@ -248,7 +249,7 @@
             
             <!-- Close button - LARGER on mobile, professional outside positioning -->
             <button type="button" id="infographic-modal-close" aria-label="Close infographic modal"
-                    class="absolute -top-3 -right-3 md:-top-5 md:-right-5 bg-mem-card hover:bg-mem-accent text-white hover:text-white rounded-full w-14 h-14 md:w-12 md:h-12 flex items-center justify-center shadow-2xl z-10 transition-all hover:scale-110 border border-mem-accent/50">
+                    class="icon-control icon-control--close absolute -top-3 -right-3 md:-top-5 md:-right-5 z-10">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" class="w-6 h-6 md:w-5 md:h-5" aria-hidden="true">
                   <path d="M18 6 6 18M6 6l12 12"/>
                 </svg>

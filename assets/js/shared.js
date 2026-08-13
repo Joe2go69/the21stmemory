@@ -336,32 +336,69 @@ function initFooterSupportTabs() {
 }
 
 function initBackToTop() {
-  if (document.getElementById('back-to-top')) return;
+  let btn = document.getElementById('back-to-top');
+  if (!btn) {
+    btn = document.createElement('button');
+    btn.id = 'back-to-top';
+    btn.type = 'button';
+    btn.setAttribute('aria-label', 'Back to top');
+    btn.innerHTML =
+      '<svg class="back-to-top__icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>';
+    document.body.appendChild(btn);
+  }
 
-  const btn = document.createElement('button');
-  btn.id = 'back-to-top';
-  btn.innerHTML = '↑';
-  btn.setAttribute('aria-label', 'Back to top');
-  btn.setAttribute('role', 'button');
-  document.body.appendChild(btn);
+  // Inline positioning so overflow / late CSS cannot pin the control off-screen.
+  btn.style.setProperty('position', 'fixed', 'important');
+  btn.style.setProperty('right', 'calc(1.1rem + env(safe-area-inset-right, 0px))', 'important');
+  btn.style.setProperty('bottom', 'calc(1.1rem + env(safe-area-inset-bottom, 0px))', 'important');
+  btn.style.setProperty('left', 'auto', 'important');
+  btn.style.setProperty('top', 'auto', 'important');
+  btn.style.setProperty('z-index', '2147483646', 'important');
 
+  const SHOW_AFTER = 220;
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   let scrollTicking = false;
+
+  const scrollY = () =>
+    window.pageYOffset ||
+    document.documentElement.scrollTop ||
+    document.body.scrollTop ||
+    0;
+
+  const sync = () => {
+    const show = scrollY() > SHOW_AFTER;
+    btn.classList.toggle('is-visible', show);
+    btn.classList.toggle('visible', show);
+    btn.setAttribute('aria-hidden', show ? 'false' : 'true');
+    btn.style.setProperty('opacity', show ? '1' : '0', 'important');
+    btn.style.setProperty('visibility', show ? 'visible' : 'hidden', 'important');
+    btn.style.setProperty('pointer-events', show ? 'auto' : 'none', 'important');
+    scrollTicking = false;
+  };
+
   window.addEventListener('scroll', () => {
     if (scrollTicking) return;
     scrollTicking = true;
-    requestAnimationFrame(() => {
-      if (window.scrollY > 400) {
-        btn.classList.add('visible');
-      } else {
-        btn.classList.remove('visible');
-      }
-      scrollTicking = false;
-    });
+    requestAnimationFrame(sync);
   }, { passive: true });
+  document.addEventListener('scroll', () => {
+    if (scrollTicking) return;
+    scrollTicking = true;
+    requestAnimationFrame(sync);
+  }, { passive: true, capture: true });
 
   btn.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    const behavior = reduceMotion ? 'auto' : 'smooth';
+    try {
+      window.scrollTo({ top: 0, behavior });
+    } catch (_e) {
+      window.scrollTo(0, 0);
+    }
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
   });
+
+  sync();
 }
 
 function getMobileMenuFocusables(mobileMenu) {

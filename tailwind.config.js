@@ -33,6 +33,7 @@ module.exports = {
       borderRadius: {
         card: 'var(--radius-card)',
         button: 'var(--radius-button)',
+        chip: 'var(--radius-chip)',
       },
     },
   },

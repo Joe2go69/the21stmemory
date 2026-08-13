@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T04:22:09.758Z",
-  "total": 119,
+  "generatedAt": "2026-08-13T05:10:24.993Z",
+  "total": 120,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 59
+      "count": 60
     }
   ],
   "quizzes": [
@@ -1334,6 +1334,19 @@
       "href": "quiz/breakdown/physical-indicators.html",
       "diveHref": "dive/breakdown/physical-indicators.html",
       "key": "breakdown/physical-indicators"
+    },
+    {
+      "id": "rainbow-fractals",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Rainbow Fractals",
+      "subtitle": "Test your grasp of Rainbow Fractals — living crystal walls, frequency mirrors, color-codes and pineal restoration, lungs of light, crystal prisms, Northern Lights, Vatican loop dismantling, and manifestation through thought and tone.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/rainbow-fractals.html",
+      "diveHref": "dive/breakdown/rainbow-fractals.html",
+      "key": "breakdown/rainbow-fractals"
     },
     {
       "id": "reality-constructs",

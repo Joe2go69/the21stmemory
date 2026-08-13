@@ -5,7 +5,7 @@ const RenderUtils = {
     if (options.featured) {
       return this.renderFeaturedNetworkCard(channel);
     }
-    const extra = ['rounded-3xl'];
+    const extra = [];
     if (options.extraClass) extra.push(options.extraClass);
     return this.renderChannelCard({
       ...channel,
@@ -87,12 +87,12 @@ const RenderUtils = {
           </div>`;
 
     return `
-      <div class="channel-card video-card rounded-3xl overflow-hidden flex flex-col border border-mem-subtle">
-        <div class="aspect-video bg-[#0F0A1F] relative overflow-hidden">
+      <div class="dive-video-card video-card overflow-hidden">
+        <div class="dive-video-card__frame aspect-[16/10] overflow-hidden relative">
           ${playerHtml}
         </div>
-        <div class="px-4 py-3 flex-shrink-0 border-t border-mem-subtle/50">
-          <div class="font-semibold text-[15px] tracking-tight leading-tight text-mem-body line-clamp-2">${title}</div>
+        <div class="dive-video-card__body">
+          <h3 class="dive-video-card__title">${title}</h3>
         </div>
       </div>
     `;

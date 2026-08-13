@@ -603,7 +603,7 @@ const TopicUtils = {
         <div class="text-red-400 text-xl mb-4">Transmission not found</div>
         <p class="text-mem-soft max-w-md mx-auto">${message}</p>
         ${list}
-        <a href="codex.html" class="btn-primary inline-flex items-center justify-center px-8 py-3 mt-8 text-sm font-semibold">← Back to Codex</a>
+        <a href="codex.html" class="btn-primary">← Back to Codex</a>
       </div>
     `;
   },
@@ -909,16 +909,16 @@ const TopicUtils = {
 
     const layouts = {
       'codex-stats': `
-        <div class="skeleton-panel codex-hub-panel rounded-2xl">
+        <div class="skeleton-panel codex-hub-panel">
           <div class="skeleton-grid skeleton-grid--4">${block('3.5rem')}${block('3.5rem')}${block('3.5rem')}${block('3.5rem')}</div>
           ${bar('100%')}
         </div>`,
       'codex-grid': `
         <div class="skeleton-grid skeleton-grid--sources">
-          ${Array(2).fill(`<div class="skeleton skeleton-source-card rounded-3xl">${block('10rem')}${bar('70%')}${bar('90%')}</div>`).join('')}
+          ${Array(2).fill(`<div class="skeleton skeleton-source-card">${block('10rem')}${bar('70%')}${bar('90%')}</div>`).join('')}
         </div>`,
       'topics-header': `
-        <div class="skeleton-panel static-card rounded-3xl glow-purple">
+        <div class="skeleton-panel static-card">
           <div class="skeleton-grid skeleton-grid--header">
             <div>${bar('40%')}${block('2.5rem')}${block('1.5rem')}${bar('100%')}${bar('85%')}</div>
             <div class="skeleton skeleton-block skeleton-block--image"></div>
@@ -927,7 +927,7 @@ const TopicUtils = {
       'topics-list': `
         <div class="skeleton-panel">
           ${bar('50%')}
-          ${Array(3).fill(`<div class="skeleton skeleton-category-card static-card rounded-3xl mt-6">${block('5rem')}${bar('60%')}</div>`).join('')}
+          ${Array(3).fill(`<div class="skeleton skeleton-category-card static-card mt-6">${block('5rem')}${bar('60%')}</div>`).join('')}
         </div>`,
       'deep-dive': `
         <div class="skeleton-deep-dive">
@@ -1015,7 +1015,7 @@ const TopicUtils = {
 
     tocContainer.hidden = false;
     tocContainer.innerHTML = `
-      <div class="report-toc-inner static-card rounded-2xl">
+      <div class="report-toc-inner static-card">
         <div class="report-toc-label">On this page</div>
         <nav aria-label="Report sections">
           <ul class="report-toc-list">

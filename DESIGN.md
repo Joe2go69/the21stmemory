@@ -25,13 +25,29 @@ Source of truth: `assets/css/main.css` (`:root`).
 | Vault background | `--deep-bg` / `#0F0A1F` |
 | Card surface | `--card-bg` / `#1A1433` |
 | Primary text | `--text-primary` |
+| Bright / scrim | `--text-bright`, `--surface-scrim` |
 | Muted / soft | `--text-muted`, `--text-soft`, `--text-dim` |
 | Elevation | `--surface-tier-*` (base, elevated, floating, btn) |
+| Card radius | `--radius-card` / `1rem` — all panels, banners, browse tiles |
+| Button radius | `--radius-button` / pill — primary + secondary only |
+| Chip radius | `--radius-chip` / `0.65rem` — filters, tabs, jump pills |
+| Icon radius | `--radius-icon` / `14px` — social, back-to-top |
 | CTA primary | `.btn-primary` — violet 3D gradient, pill |
 | CTA secondary | `.btn-secondary` — recessed dark, same geometry |
 | Tertiary | `.text-link` |
 
 **Do not** invent a third button outline style for marketing CTAs. Use primary / secondary / text-link only.
+
+**Do not** pile Tailwind size/radius on `.btn-primary` / `.btn-secondary` (`px-8 py-3`, `rounded-xl`). Size only with `.btn-primary--lg` / `--sm`.
+
+**Do not** add a new radius, a third outline CTA, or another “FINAL unification” appendix at the bottom of `main.css`. Edit the existing source of truth:
+
+- `:root` tokens
+- Canonical buttons/cards (early `.btn-primary` / `.memory-card` blocks)
+- Phase 1 radius lock
+- Phase 3 interior/mobile composure
+
+`.btn-topic-nav` is a leftover alias of `.btn-secondary`. Prefer `btn-secondary btn-secondary--sm` in new markup.
 
 ### Size modifiers
 - Default: in-card actions  
@@ -44,7 +60,7 @@ Source of truth: `assets/css/main.css` (`:root`).
 1. Edit **`assets/css/main.css` only** (source).  
 2. Run **`npm run minify:css`** so `assets/css/main.min.css` stays in sync.  
 3. Pages load **`main.min.css`** — not the full source.  
-4. Optional cleanup after large CSS edits: **`npm run prune:css`** (dedupe last-wins + drop unused selectors). Backups land as `main.css.pre-*.bak`.
+4. Keep `main.css` UTF-8. Do **not** run `npm run prune:css` — it is marked unsafe.
 
 ### Shared nav / footer
 1. Edit `assets/data/navbar.json` and/or `assets/data/footer.json`.  

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="color-scheme:dark;background-color:#0F0A1F">
 <head>
     <meta charset="UTF-8">
+    <meta name="color-scheme" content="dark">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>21st Memory Codex | The 21st Memory</title>
     <meta name="description" content="Explore the 21st Memory Codex — videos, infographics, PDFs, and deep-dive reports on Thalon Thor’s teachings.">
@@ -81,7 +82,7 @@
 </script>
 
     <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
-    <style>html,body{background-color:#0F0A1F}</style>
+    <style>html,body{background-color:#0F0A1F;color-scheme:dark}</style>
     <link rel="preload" href="assets/css/main.min.css" as="style">
     <link rel="stylesheet" href="assets/css/tailwind.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
@@ -124,7 +125,7 @@
     </noscript>
 
     <!-- Page hero — same calm brand moment as homepage -->
-    <header class="page-hero max-w-3xl mx-auto px-6 text-center">
+    <header class="page-hero page-hero--interior max-w-3xl mx-auto px-6 text-center">
         <h1 class="page-hero-title page-hero-title--hub font-semibold tracking-tighter leading-none mb-4">
             21ST MEMORY<br>CODEX
         </h1>
@@ -132,13 +133,16 @@
             Search topics or open a transmission. Each topic can include video, visual synthesis, and a written report.
             AI helps organize the material; original transmissions remain the source.
         </p>
-        <p class="page-hero-pillars max-w-md mx-auto text-mem-dim text-sm font-medium mb-0">
+        <p class="page-hero-pillars max-w-md mx-auto text-mem-dim text-sm font-medium mb-8">
             <span>No religion</span>
             <span class="page-hero-pillars__dot" aria-hidden="true">·</span>
             <span>No finance</span>
             <span class="page-hero-pillars__dot" aria-hidden="true">·</span>
             <span>No gatekeeping</span>
         </p>
+        <div class="home-hero-actions">
+            <a href="#codex-toolbar" class="btn-primary home-hero-actions__primary">Browse transmissions</a>
+        </div>
     </header>
 
     <div class="max-w-6xl mx-auto px-6 page-shell page-shell--after-hero pb-20">

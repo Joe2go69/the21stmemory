@@ -106,7 +106,7 @@ function renderArchiveStats() {
   const pct = total ? Math.round((live / total) * 100) : 0;
 
   el.innerHTML = `
-    <div class="codex-stats-bar codex-hub-panel rounded-2xl">
+    <div class="codex-stats-bar codex-hub-panel">
       <div class="codex-stats-grid">
         <div class="codex-stat">
           <div class="codex-stat-value">${sources}</div>
@@ -163,7 +163,7 @@ function renderToolbar() {
   }).join('');
 
   el.innerHTML = `
-    <div class="codex-toolbar codex-hub-panel rounded-2xl">
+    <div class="codex-toolbar codex-hub-panel">
       <div class="codex-toolbar-header">
         <div>
           <div class="topics-filter-title">Search &amp; filter</div>

@@ -120,7 +120,7 @@ function renderNetworkFilters() {
 
 function renderNetworkSkeleton(count = 8) {
   return Array.from({ length: count }, () => `
-    <div class="skeleton skeleton-panel channel-card rounded-3xl network-skeleton-card" aria-hidden="true">
+    <div class="skeleton skeleton-panel channel-card network-skeleton-card" aria-hidden="true">
       <div class="skeleton-bar" style="width:40%;height:0.7rem;margin-bottom:1rem;"></div>
       <div class="skeleton-bar" style="width:70%;height:1.25rem;margin-bottom:1.25rem;"></div>
       <div class="skeleton-bar" style="width:100%;height:0.75rem;margin-bottom:0.5rem;"></div>

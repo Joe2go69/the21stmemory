@@ -1,6 +1,6 @@
 /* =============================================
-   21st Memory Ã¢â‚¬â€ Main CSS (Professional Serious Archive Theme)
-   Serious Ã¢â‚¬Â¢ Important Ã¢â‚¬Â¢ Humanity Knowledge
+   21st Memory — Main CSS (Professional Serious Archive Theme)
+   Serious • Important • Humanity Knowledge
    ============================================= */
 /* Fonts loaded via <link> in each HTML page for faster discovery (see head preconnect) */
 
@@ -176,10 +176,10 @@
     var(--depth-recessed),
     0 3px 10px -6px rgba(0, 0, 0, 0.28);
 
-  /* Ã¢â€â‚¬Ã¢â€â‚¬ Phase 1: sacred archive atmosphere tokens Ã¢â€â‚¬Ã¢â€â‚¬ */
+  /* ── Phase 1: sacred archive atmosphere tokens ── */
   --hero-glow: rgba(124, 58, 237, 0.42);
   --hero-title-glow: 0 2px 28px rgba(91, 33, 182, 0.4), 0 0 60px -12px rgba(124, 58, 237, 0.35);
-  /* Solid vault bar â€” same opacity desktop + mobile (no frosted glass) */
+  /* Solid vault bar — same opacity desktop + mobile (no frosted glass) */
   --nav-glass: #0F0A1F;
   --nav-glass-scrolled: #0F0A1F;
   --nav-edge-glow: linear-gradient(90deg, transparent 0%, rgba(124, 58, 237, 0.45) 35%, rgba(167, 139, 250, 0.55) 50%, rgba(124, 58, 237, 0.45) 65%, transparent 100%);
@@ -189,12 +189,20 @@
   --section-gap: clamp(3.5rem, 6vw, 5.5rem);
   --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
 
-  /* Legacy aliases Ã¢â‚¬â€ kept for existing references */
+  /* One-body radii — Tailwind rounded-card / rounded-button resolve here */
+  --radius-button: 9999px;
+  --radius-card: 1rem;
+  --radius-chip: 0.65rem;
+  --radius-icon: 14px;
+  --text-bright: #F8FAFC;
+  --surface-scrim: rgba(12, 8, 28, 0.88);
+
+  /* Legacy aliases — kept for existing references */
   --shadow-elevated: var(--depth-elev-3);
   --shadow-ambient: var(--depth-ambient);
 }
 
-/* Smooth transitions Ã¢â‚¬â€ scoped to interactive elements only (avoids global repaint cost) */
+/* Smooth transitions — scoped to interactive elements only (avoids global repaint cost) */
 a, button, input, select, textarea,
 [role="button"], [role="link"],
 .nav-link, .btn-primary, .btn-secondary, .text-link, .btn-topic-nav,
@@ -225,7 +233,7 @@ a, button, input, select, textarea,
   border-radius: 0 0 0.65rem 0.65rem;
   border: 1px solid rgba(196, 181, 253, 0.4);
   box-shadow: 0 10px 28px -10px rgba(0, 0, 0, 0.55);
-  /* Visually hidden until focused Ã¢â‚¬â€ still focusable */
+  /* Visually hidden until focused — still focusable */
   clip: rect(0, 0, 0, 0);
   clip-path: inset(50%);
   width: 1px;
@@ -277,7 +285,7 @@ body {
   font-size: 1.05rem;
   font-feature-settings: "ss03" 1, "ss04" 1; /* premium rounded g/a + ss04 for expensive printed-book feel */
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
+  overflow-x: clip;
   max-width: 100%;
   padding-top: 5rem; /* space for fixed navbar */
 }
@@ -294,8 +302,10 @@ body.menu-open {
 }
 
 html {
-  overflow-x: hidden;
+  overflow-x: clip;
   max-width: 100%;
+  color-scheme: dark;
+  background-color: var(--deep-bg, #0F0A1F);
   scroll-behavior: smooth;
   /* Final value refined later for Support + fixed nav; keep a sensible default */
   scroll-padding-top: calc(5.75rem + env(safe-area-inset-top, 0px));
@@ -307,16 +317,16 @@ html {
   }
 }
 
-/* Text selection Ã¢â‚¬â€ violet, on-brand */
+/* Text selection — violet, on-brand */
 ::selection {
   background: var(--selection-bg);
   color: var(--selection-fg);
 }
 
-/* Layered atmospheric background Ã¢â‚¬â€ lit-from-above sacred vault
+/* Layered atmospheric background — lit-from-above sacred vault
    Body stays a solid deep color so short hubs (Codex) and long pages
    (Home / Quizzes) share the exact same canvas. Atmosphere lives on a
-   viewport-tall ::after only Ã¢â‚¬â€ never scaled to document height, never
+   viewport-tall ::after only — never scaled to document height, never
    bottom-anchored (those washed Codex lighter when the page was short).
    No background-attachment:fixed (Chrome/Windows banding). */
 html {
@@ -326,12 +336,12 @@ html {
 .cosmic-bg {
   position: relative;
   min-height: 100vh;
-  /* Solid only Ã¢â‚¬â€ gradients are on ::after so content/compositing cannot re-tint the vault */
+  /* Solid only — gradients are on ::after so content/compositing cannot re-tint the vault */
   background-color: var(--deep-bg);
   background-image: none;
 }
 
-/* Soft paper-vault grain (CSS-only) Ã¢â‚¬â€ sits behind content.
+/* Soft paper-vault grain (CSS-only) — sits behind content.
    Must NOT use position:fixed + mix-blend-mode together: Chrome/Windows
    paints horizontal purple scanlines on first paint with that combo. */
 .cosmic-bg::before {
@@ -348,7 +358,7 @@ html {
   background-size: 180px 180px;
 }
 
-/* Viewport-tall vault light Ã¢â‚¬â€ identical on every page regardless of content length */
+/* Viewport-tall vault light — identical on every page regardless of content length */
 .cosmic-bg::after {
   content: '';
   position: absolute;
@@ -367,7 +377,7 @@ html {
   background-position: center top;
 }
 
-/* Content above grain Ã¢â‚¬â€ do NOT set position on children (would break fixed navbar) */
+/* Content above grain — do NOT set position on children (would break fixed navbar) */
 main#main,
 .site-footer,
 .skip-link {
@@ -375,7 +385,7 @@ main#main,
   z-index: 1;
 }
 
-/* Elevated surface highlight Ã¢â‚¬â€ floating tier (violet rim + ambient bloom) */
+/* Elevated surface highlight — floating tier (violet rim + ambient bloom) */
 .glow-purple {
   box-shadow: var(--surface-tier-floating);
 }
@@ -416,13 +426,13 @@ main#main,
 }
 
 /* =============================================
-   3D SURFACE TIERS Ã¢â‚¬â€ shared material depth system
-   Recessed Ã¢â€ â€™ inputs/wells | Base Ã¢â€ â€™ content cards
-   Elevated Ã¢â€ â€™ channel/topic cards | Floating Ã¢â€ â€™ static vault panels
+   3D SURFACE TIERS — shared material depth system
+   Recessed → inputs/wells | Base → content cards
+   Elevated → channel/topic cards | Floating → static vault panels
    ============================================= */
 
 /* =============================================
-   PROFESSIONAL SERIOUS CARDS Ã¢â‚¬â€ Base tier
+   PROFESSIONAL SERIOUS CARDS — Base tier
    :where() fallbacks let Tailwind padding/layout utilities win
    ============================================= */
 :where(.memory-card, .content-card, .source-card, .lesson-content-card) {
@@ -437,7 +447,7 @@ main#main,
 .lesson-content-card {
   background: var(--surface-fill-elevated);
   border: none;
-  border-radius: 16px;
+  border-radius: var(--radius-card);
   box-shadow: var(--surface-tier-elevated);
   position: relative;
   overflow: hidden;
@@ -462,13 +472,13 @@ main#main,
     var(--gloss-surface),
     radial-gradient(circle at 15% 15%, var(--glow-subtle) 0%, transparent 55%),
     radial-gradient(circle at 85% 85%, var(--light-scrim) 0%, transparent 60%);
-  border-radius: 16px;
+  border-radius: inherit;
   pointer-events: none;
   z-index: 1;
 }
 
 /* =============================================
-   NETWORK CHANNEL CARDS Ã¢â‚¬â€ Elevated tier (reference 3D treatment)
+   NETWORK CHANNEL CARDS — Elevated tier (reference 3D treatment)
    ============================================= */
 
 :where(.channel-card) {
@@ -480,7 +490,7 @@ main#main,
 .channel-card {
   background: var(--surface-fill-elevated);
   border: none;
-  border-radius: 16px;
+  border-radius: var(--radius-card);
   position: relative;
   overflow: hidden;
   min-height: 0;
@@ -491,7 +501,7 @@ main#main,
   -webkit-backdrop-filter: blur(12px);
 }
 
-/* Directory cards Ã¢â‚¬â€ balanced height, not tall slabs */
+/* Directory cards — balanced height, not tall slabs */
 .network-directory-grid > a.channel-card {
   min-height: 13.5rem;
   height: 100%;
@@ -512,7 +522,7 @@ main#main,
     var(--gloss-surface),
     radial-gradient(circle at 18% 12%, var(--glow-subtle) 0%, transparent 50%),
     radial-gradient(circle at 82% 88%, var(--light-scrim) 0%, transparent 55%);
-  border-radius: 16px;
+  border-radius: inherit;
   pointer-events: none;
   z-index: 1;
 }
@@ -549,7 +559,7 @@ a.source-card:not(.static-card):hover,
     var(--depth-inset-top);
 }
 
-/* Video transmission cards on deep-dive page Ã¢â‚¬â€ calm, no lift or enhanced hover (embeds should stay static) */
+/* Video transmission cards on deep-dive page — calm, no lift or enhanced hover (embeds should stay static) */
 .video-card:hover {
   transform: none !important;
   box-shadow: var(--surface-tier-elevated) !important;
@@ -639,9 +649,9 @@ a.source-card:not(.static-card):hover,
   margin-bottom: 1.25rem;
 }
 
-/* Buttons Ã¢â‚¬â€ realistic 3D CTAs (no thin stroke outlines)
+/* Buttons — realistic 3D CTAs (no thin stroke outlines)
    Lit-from-above bevel, soft cast shadow, press-in active state. */
-/* Shared geometry â€” primary + secondary are the same physical control */
+/* Shared geometry — primary + secondary are the same physical control */
 button.btn-primary,
 a.btn-primary,
 button.btn-secondary,
@@ -661,7 +671,7 @@ a.btn-secondary,
   font-family: inherit;
   letter-spacing: 0.01em;
   line-height: 1.25;
-  border-radius: 9999px;
+  border-radius: var(--radius-button);
   border: none;
   text-decoration: none;
   text-align: center;
@@ -683,7 +693,7 @@ a.btn-secondary,
   vertical-align: middle;
 }
 
-/* Shared top-face sheen â€” identical on both roles */
+/* Shared top-face sheen — identical on both roles */
 button.btn-primary::before,
 a.btn-primary::before,
 .btn-primary::before,
@@ -704,7 +714,7 @@ a.btn-secondary::before,
   z-index: 0;
 }
 
-/* Primary â€” same chrome as secondary; only fill + text color differ */
+/* Primary — same chrome as secondary; only fill + text color differ */
 button.btn-primary,
 a.btn-primary,
 .btn-primary {
@@ -749,7 +759,7 @@ a.btn-primary:focus-visible,
   pointer-events: none;
 }
 
-/* Arrow micro-nudge only â€” never slide full button labels (e.g. â€œOpen Ko-fiâ€) */
+/* Arrow micro-nudge only — never slide full button labels (e.g. "Open Ko-fi") */
 .btn-primary > span:not(:only-child),
 .group-hover\:translate-x-1 {
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -767,7 +777,7 @@ a.btn-primary:focus-visible,
   transform: none !important;
 }
 
-/* Secondary â€” identical chrome; darker fill + soft text */
+/* Secondary — identical chrome; darker fill + soft text */
 button.btn-secondary,
 a.btn-secondary,
 .btn-secondary {
@@ -823,7 +833,7 @@ button.btn-secondary:disabled,
   color: var(--text-primary);
 }
 
-/* Section divider pills Ã¢â‚¬â€ unified across pages */
+/* Section divider pills — unified across pages */
 .section-pill-wrap {
   display: flex;
   align-items: center;
@@ -892,7 +902,7 @@ button.btn-secondary:disabled,
   color: #fff;
 }
 
-/* Network channel cards Ã¢â‚¬â€ subtle platform identity */
+/* Network channel cards — subtle platform identity */
 .channel-card[data-section="telegram"] {
   box-shadow: var(--surface-tier-elevated), 0 0 0 1px rgba(34, 158, 217, 0.18);
 }
@@ -942,13 +952,13 @@ button.btn-secondary:disabled,
   border-color: rgba(212, 168, 75, 0.45);
 }
 
-/* Ã¢â€â‚¬Ã¢â€â‚¬ Network page layout system (CSS-owned grids; no Tailwind dependency) Ã¢â€â‚¬Ã¢â€â‚¬ */
+/* ── Network page layout system (CSS-owned grids; no Tailwind dependency) ── */
 .network-featured-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
   align-items: stretch;
-  /* room for card glow so first/last tiles arenÃ¢â‚¬â„¢t clipped */
+  /* room for card glow so first/last tiles aren't clipped */
   padding: 0.35rem 0.15rem 0.65rem;
   overflow: visible;
 }
@@ -962,7 +972,7 @@ button.btn-secondary:disabled,
 
 @media (min-width: 1024px) {
   .network-featured-grid {
-    /* Six start-here cards: 3Ã—2 on desktop */
+    /* Six start-here cards: 3×2 on desktop */
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1.25rem;
   }
@@ -988,7 +998,7 @@ button.btn-secondary:disabled,
   }
 }
 
-/* Start-here compact cards Ã¢â‚¬â€ equal elevation, soft 3D (no stroke outline) */
+/* Start-here compact cards — equal elevation, soft 3D (no stroke outline) */
 .network-start-card {
   position: relative;
   display: flex;
@@ -999,7 +1009,7 @@ button.btn-secondary:disabled,
   padding: 1.15rem 1.2rem 1.1rem;
   text-decoration: none;
   color: inherit;
-  border-radius: 1.1rem;
+  border-radius: var(--radius-card);
   background:
     linear-gradient(165deg, rgba(42, 31, 72, 0.95) 0%, rgba(26, 20, 51, 0.98) 55%, rgba(20, 14, 40, 1) 100%);
   box-shadow:
@@ -1043,7 +1053,7 @@ button.btn-secondary:disabled,
   outline-offset: 3px;
 }
 
-/* Section accents Ã¢â‚¬â€ soft ambient tint (no stroke outline) */
+/* Section accents — soft ambient tint (no stroke outline) */
 .network-start-card[data-section="official"] {
   box-shadow:
     var(--surface-tier-elevated),
@@ -1242,7 +1252,7 @@ button.btn-secondary:disabled,
   max-width: 18rem;
 }
 
-/* Match Codex/Quiz recessed search field â€” no stroke outline */
+/* Match Codex/Quiz recessed search field — no stroke outline */
 .network-search-input {
   width: 100%;
   min-height: 2.75rem;
@@ -1388,7 +1398,7 @@ button.btn-secondary:disabled,
   color: var(--link-hover);
 }
 
-/* Connect socials â€” base rules; elevated 3D override lives in FOOTER REDESIGN block */
+/* Connect socials — base rules; elevated 3D override lives in FOOTER REDESIGN block */
 .footer-social-grid {
   display: flex;
   flex-wrap: wrap;
@@ -1661,7 +1671,7 @@ button.btn-secondary:disabled,
   }
 }
 
-/* Topic nav buttons â€” same solid secondary 3D as site CTAs (no stroke border) */
+/* Topic nav buttons — same solid secondary 3D as site CTAs (no stroke border) */
 .btn-topic-nav {
   position: relative;
   display: inline-flex;
@@ -1732,7 +1742,7 @@ button.btn-secondary:disabled,
     inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
-/* Navbar â€” solid vault bar (desktop + mobile; no glass / no blur) */
+/* Navbar — solid vault bar (desktop + mobile; no glass / no blur) */
 .navbar {
   position: fixed;
   top: 0;
@@ -1832,7 +1842,7 @@ button.btn-secondary:disabled,
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1;
-  /* Solid high-contrast white Ã¢â‚¬â€ gradients made the wordmark hard to read on mobile */
+  /* Solid high-contrast white — gradients made the wordmark hard to read on mobile */
   color: #F8FAFC;
   background: none;
   -webkit-text-fill-color: #F8FAFC;
@@ -1858,7 +1868,7 @@ button.btn-secondary:disabled,
   color: var(--text-secondary);
   font-family: 'Inter', system-ui, sans-serif;
   font-weight: 500;
-  /* em of navbar's fixed 16px Ã¢â‚¬â€ same size on every page */
+  /* em of navbar's fixed 16px — same size on every page */
   font-size: 0.875em;
   letter-spacing: 0.01em;
   text-decoration: none;
@@ -1929,7 +1939,7 @@ button.btn-secondary:disabled,
   background: rgba(124, 58, 237, 0.12);
 }
 
-/* Same weight as idle Ã¢â‚¬â€ bold active text reflows the whole bar */
+/* Same weight as idle — bold active text reflows the whole bar */
 .nav-link.active {
   color: var(--text-primary);
   font-weight: 500;
@@ -1960,7 +1970,7 @@ button.btn-secondary:disabled,
 }
 
 /* =============================================
-   MOBILE MENU Ã¢â‚¬â€ drawer + dimmed overlay
+   MOBILE MENU — drawer + dimmed overlay
    ============================================= */
 .mobile-menu-overlay {
   display: none;
@@ -2077,7 +2087,7 @@ button.btn-secondary:disabled,
   justify-content: center;
 }
 
-/* Hamburger button Ã¢â‚¬â€ mobile only (display controlled by breakpoint) */
+/* Hamburger button — mobile only (display controlled by breakpoint) */
 .mobile-menu-btn {
   display: none;
   align-items: center;
@@ -2096,7 +2106,7 @@ button.btn-secondary:disabled,
   height: 26px;
 }
 
-/* Navbar responsive behavior Ã¢â‚¬â€ single source of truth */
+/* Navbar responsive behavior — single source of truth */
 @media (max-width: 767px) {
   .nav-links {
     display: none !important;
@@ -2129,7 +2139,7 @@ h1, h2, h3, .section-header {
 h1 { font-size: 2.75rem; line-height: 1.08; letter-spacing: -0.03em; color: var(--text-primary); font-weight: 700; }
 h2 { font-size: 1.85rem; line-height: 1.2; letter-spacing: -0.025em; color: var(--text-primary); font-weight: 700; }
 h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(--text-secondary); font-weight: 600; }
-/* Interior page display titles Ã¢â‚¬â€ calmer than homepage brand hero */
+/* Interior page display titles — calmer than homepage brand hero */
 .section-header {
   font-size: 2.35rem;
   line-height: 1.08;
@@ -2150,8 +2160,8 @@ h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(-
   .section-header { font-size: 3.35rem; }
 }
 
-/* Homepage brand hero Ã¢â‚¬â€ dark metallic wordmark
-   Same colors on mobile and desktop: near-black charcoal Ã¢â€ â€™ muted purple-gray.
+/* Homepage brand hero — dark metallic wordmark
+   Same colors on mobile and desktop: near-black charcoal → muted purple-gray.
    Matches the soft embossed look from mobile; size scales, colors do not. */
 .page-hero-title,
 .page-home .page-hero-title {
@@ -2163,7 +2173,7 @@ h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(-
   line-height: 0.95;
   letter-spacing: -0.04em;
   font-weight: 700;
-  /* Fallback if clip fails Ã¢â‚¬â€ mid-tone of the gradient (outdoor-readable) */
+  /* Fallback if clip fails — mid-tone of the gradient (outdoor-readable) */
   color: #A89FBE;
   background-color: transparent;
   /* Soft vault gradient: keeps the fade effect, lifted for sun/mobile legibility */
@@ -2181,10 +2191,10 @@ h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(-
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: none;
-  /* Ambient glow is page-hero::before only Ã¢â‚¬â€ do not use filter here */
+  /* Ambient glow is page-hero::before only — do not use filter here */
 }
 
-/* Desktop/tablet: larger type only Ã¢â‚¬â€ same gradient colors as mobile */
+/* Desktop/tablet: larger type only — same gradient colors as mobile */
 @media (min-width: 768px) {
   .page-hero-title,
   .page-home .page-hero-title {
@@ -2208,7 +2218,7 @@ h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(-
 
 /* Utility */
 
-/* Full-bleed dividers Ã¢â‚¬â€ Robust mobile fix to prevent any horizontal overflow */
+/* Full-bleed dividers — Robust mobile fix to prevent any horizontal overflow */
 .full-bleed-divider {
   position: relative;
   left: 50%;
@@ -2251,7 +2261,7 @@ h3 { font-size: 1.35rem; line-height: 1.3; letter-spacing: -0.02em; color: var(-
   background-position: center;
 }
 
-/* Hero spotlight Ã¢â‚¬â€ soft radial glow behind title block */
+/* Hero spotlight — soft radial glow behind title block */
 .hero-spotlight {
   isolation: isolate;
 }
@@ -2358,7 +2368,7 @@ header.hero-gradient h1 {
 }
 
 /* =============================================
-   SOURCE HERO Ã¢â‚¬â€ one continuous editorial card
+   SOURCE HERO — one continuous editorial card
    Art is the surface; copy rides a soft scrim (not a flat purple slab)
    ============================================= */
 .source-hero-host {
@@ -2370,8 +2380,8 @@ header.hero-gradient h1 {
   overflow: hidden;
   display: block;
   padding: 0 !important;
-  border-radius: 1.15rem;
-  /* Match cosmic art blacks Ã¢â‚¬â€ not mid purple */
+  border-radius: var(--radius-card);
+  /* Match cosmic art blacks — not mid purple */
   background: #0e0a1c;
   box-shadow:
     0 18px 44px -16px rgba(0, 0, 0, 0.58),
@@ -2415,7 +2425,7 @@ header.hero-gradient h1 {
   position: relative;
   z-index: 2;
   margin-top: -1.75rem;
-  /* Soft scrim Ã¢â‚¬â€ continuous with the image, not a painted panel */
+  /* Soft scrim — continuous with the image, not a painted panel */
   background: linear-gradient(
     180deg,
     rgba(12, 8, 28, 0.2) 0%,
@@ -2545,7 +2555,7 @@ header.hero-gradient h1 {
   margin-right: 0.15rem;
 }
 
-/* Full-bleed media Ã¢â‚¬â€ mobile top band, desktop right column */
+/* Full-bleed media — mobile top band, desktop right column */
 .source-hero-media {
   position: relative;
   z-index: 0;
@@ -2599,7 +2609,7 @@ header.hero-gradient h1 {
 
 @media (min-width: 900px) {
   .source-hero-media-fade {
-    /* Long soft dissolve into copy Ã¢â‚¬â€ no hard purple seam */
+    /* Long soft dissolve into copy — no hard purple seam */
     background: linear-gradient(
       to left,
       transparent 0%,
@@ -2613,7 +2623,7 @@ header.hero-gradient h1 {
 }
 
 /* =============================================
-   DEEP DIVE REPORT Ã¢â‚¬â€ MAXIMUM READABILITY & PROFESSIONALISM (REFINED)
+   DEEP DIVE REPORT — MAXIMUM READABILITY & PROFESSIONALISM (REFINED)
    ============================================= */
 
 /* Report vault panel — floating 3D material (not a flat bordered slab) */
@@ -2866,7 +2876,7 @@ header.hero-gradient h1 {
   border-color: rgba(124, 58, 237, 0.2);
 }
 
-/* Back to Top Ã¢â‚¬â€ Professional floating button (visible on scroll) */
+/* Back to Top — Professional floating button (visible on scroll) */
 #back-to-top {
   position: fixed;
   bottom: 2rem;
@@ -2923,12 +2933,40 @@ header.hero-gradient h1 {
   box-shadow: 0 0 0 6px rgba(168, 85, 247, 0.55);
 }
 
+.icon-control,
+#close-modal,
 #infographic-modal-close {
-  box-shadow: var(--surface-tier-btn) !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: none;
+  border-radius: 9999px;
+  background: var(--btn-fill-secondary);
+  color: #ffffff;
+  box-shadow: var(--surface-tier-btn);
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 1.05rem;
 }
 
+.icon-control:hover,
+#close-modal:hover,
 #infographic-modal-close:hover {
-  box-shadow: var(--surface-tier-btn-hover) !important;
+  background: var(--btn-fill-secondary-hover);
+  color: #ffffff;
+  box-shadow: var(--surface-tier-btn-hover);
+  transform: translateY(-1px);
+}
+
+.icon-control:active,
+#close-modal:active,
+#infographic-modal-close:active {
+  transform: translateY(1px);
+  box-shadow: var(--surface-tier-btn-active);
 }
 
 .infographic-modal-viewport {
@@ -2998,7 +3036,7 @@ iframe:focus-visible {
    CONSOLIDATED REUSABLE CLASSES
    ============================================= */
 
-/* Transmission source cards Ã¢â‚¬â€ editorial full-bleed, soft 3D (no stroke) */
+/* Transmission source cards — editorial full-bleed, soft 3D (no stroke) */
 .source-card {
   display: flex;
   flex-direction: column;
@@ -3018,7 +3056,7 @@ iframe:focus-visible {
   -webkit-backdrop-filter: none !important;
 }
 
-/* No gloss overlay Ã¢â‚¬â€ it draws a hard top/bottom band over the photo */
+/* No gloss overlay — it draws a hard top/bottom band over the photo */
 .source-card::before,
 .source-card.memory-card::before,
 .source-card.content-card::before,
@@ -3226,15 +3264,15 @@ textarea:focus-visible {
 }
 
 /* =============================================
-   SOURCE VIEWER Ã¢â‚¬â€ 3D TOPIC BUTTONS (Premium Archive Treatment)
+   SOURCE VIEWER — 3D TOPIC BUTTONS (Premium Archive Treatment)
    Subtler material depth, realistic matte cardstock/metal finish, calm premium lift
    ============================================= */
 
-/* Category root cards Ã¢â‚¬â€ split editorial (image dissolves into copy) */
+/* Category root cards — split editorial (image dissolves into copy) */
 .topic-root-card {
   background: #12101f;
   border: none;
-  border-radius: 1.15rem;
+  border-radius: var(--radius-card);
   padding: 0 !important;
   box-shadow:
     0 16px 40px -16px rgba(0, 0, 0, 0.58),
@@ -3457,7 +3495,7 @@ a.topic-root-card:hover .explore-badge {
   color: var(--text-muted, #9B8DB8);
 }
 
-/* Category toggle buttons Ã¢â‚¬â€ Clean professional deep purple with refined 3D */
+/* Category toggle buttons — Clean professional deep purple with refined 3D */
 .category-toggle {
   display: flex;
   align-items: center;
@@ -3516,7 +3554,7 @@ a.topic-root-card:hover .explore-badge {
   transform: translateX(4px);
 }
 
-/* Leaf topic buttons (pills) Ã¢â‚¬â€ Premium refined 3D with generous whitespace */
+/* Leaf topic buttons (pills) — Premium refined 3D with generous whitespace */
 .topic-leaf-btn {
   display: inline-flex;
   align-items: center;
@@ -3572,7 +3610,7 @@ a.topic-root-card:hover .explore-badge {
 }
 
 /* =============================================
-   PRINT / PDF Ã¢â‚¬â€ REPORT ONLY
+   PRINT / PDF — REPORT ONLY
    Only the deep-dive report body prints (no hero, media, videos,
    "Continue learning", prev/next, footer, or page chrome).
    Uses display:none (not visibility:hidden) so hidden blocks
@@ -3738,7 +3776,7 @@ a.topic-root-card:hover .explore-badge {
 }
 
 /* =============================================
-   DYNAMIC THEME ACCENTS Ã¢â‚¬â€ Subtle 3D Breathing Effect (Professional, Non-Neon, No Overwhelm)
+   DYNAMIC THEME ACCENTS — Subtle 3D Breathing Effect (Professional, Non-Neon, No Overwhelm)
    Uses lightweight CSS keyframes for hover/scroll-responsive depth without JS or neon
    ============================================= */
 
@@ -3752,7 +3790,7 @@ a.topic-root-card:hover .explore-badge {
               box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Hero gradient Ã¢â‚¬â€ static atmospheric depth */
+/* Hero gradient — static atmospheric depth */
 .hero-gradient {
   background-size: 100% 100%;
 }
@@ -3795,7 +3833,7 @@ a.topic-root-card:hover .explore-badge {
 }
 
 .topics-filter-panel {
-  /* Quiet utility tray Ã¢â‚¬â€ soft 3D, no stroke outline */
+  /* Quiet utility tray — soft 3D, no stroke outline */
   background: #141022;
   border: none;
   box-shadow:
@@ -3955,7 +3993,7 @@ a.topic-root-card:hover .explore-badge {
   }
 }
 
-/* Filter chips â€” solid secondary 3D (no stroke / hairline rim) */
+/* Filter chips — solid secondary 3D (no stroke / hairline rim) */
 .topic-control-btn,
 .network-filter-btn {
   position: relative;
@@ -3963,7 +4001,7 @@ a.topic-root-card:hover .explore-badge {
   align-items: center;
   gap: 0.4rem;
   padding: 0.5rem 1rem;
-  border-radius: 0.65rem;
+  border-radius: var(--radius-chip);
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.3px;
@@ -4095,7 +4133,7 @@ a.topic-root-card:hover .explore-badge {
 }
 
 /* =============================================
-   CODEX ARCHIVE Ã¢â‚¬â€ Stats, search, topic results
+   CODEX ARCHIVE — Stats, search, topic results
    ============================================= */
 .codex-stats-bar {
   padding: 1.35rem 1.5rem;
@@ -4144,7 +4182,7 @@ a.topic-root-card:hover .explore-badge {
 .codex-toolbar {
   padding: 1.15rem 1.25rem 1.25rem;
   border-radius: 1.15rem;
-  /* Visible so status chips (e.g. â€œComing soonâ€) are never clipped on mobile */
+  /* Visible so status chips (e.g. "Coming soon") are never clipped on mobile */
   overflow: visible;
 }
 
@@ -4174,7 +4212,7 @@ a.topic-root-card:hover .explore-badge {
   }
 }
 
-/* Search is a tool, not a CTA â€” recessed well, quiet focus only */
+/* Search is a tool, not a CTA — recessed well, quiet focus only */
 .codex-search-field {
   display: flex;
   align-items: center;
@@ -4279,7 +4317,7 @@ a.topic-root-card:hover .explore-badge {
   flex-shrink: 0;
 }
 
-/* Native <select> â€” solid fill + dark color-scheme (avoids white Windows control) */
+/* Native <select> — solid fill + dark color-scheme (avoids white Windows control) */
 .codex-sort-select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -4339,7 +4377,7 @@ a.topic-root-card:hover .explore-badge {
   color: #F1EBFF;
 }
 
-/* Status row under search â€” never overlaps the search row */
+/* Status row under search — never overlaps the search row */
 .codex-toolbar .topics-filter-section--status {
   display: flex;
   flex-wrap: wrap;
@@ -4366,7 +4404,7 @@ a.topic-root-card:hover .explore-badge {
   flex: 1 1 auto;
 }
 
-/* Compact status chips â€” still solid 3D, never outlined */
+/* Compact status chips — still solid 3D, never outlined */
 .codex-toolbar .topic-control-btn {
   min-height: 2.15rem;
   height: auto;
@@ -4436,7 +4474,7 @@ a.topic-root-card:hover .explore-badge {
   }
 
   .codex-toolbar .topics-filter-btn-group {
-    /* Wrap so â€œComing soonâ€ isnâ€™t clipped by a tight horizontal scroller */
+    /* Wrap so "Coming soon" isn't clipped by a tight horizontal scroller */
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem;
@@ -4465,7 +4503,7 @@ a.topic-root-card:hover .explore-badge {
     font-size: 16px; /* prevent iOS zoom */
   }
 
-  /* Search-result â€œComing soonâ€ pill â€” donâ€™t let flex shrink cut the label */
+  /* Search-result "Coming soon" pill — don't let flex shrink cut the label */
   .codex-search-card-top .codex-meta-pill {
     flex-shrink: 0;
     white-space: nowrap;
@@ -4559,7 +4597,7 @@ a.topic-root-card:hover .explore-badge {
 }
 
 /* =============================================
-   WAVE 1 Ã¢â‚¬â€ Skeletons, search cards, deep-dive hero
+   WAVE 1 — Skeletons, search cards, deep-dive hero
    ============================================= */
 @keyframes skeleton-shimmer {
   0% { background-position: 200% 0; }
@@ -4841,7 +4879,7 @@ a.topic-root-card:hover .explore-badge {
   letter-spacing: 0.04em;
 }
 
-/* Hero action hierarchy: segments Ã¢â€ â€™ primary quiz Ã¢â€ â€™ quiet text links */
+/* Hero action hierarchy: segments → primary quiz → quiet text links */
 .dive-hero-actions {
   display: flex;
   flex-direction: column;
@@ -4913,7 +4951,7 @@ a.topic-root-card:hover .explore-badge {
   margin: 0;
 }
 
-/* Section headers Ã¢â‚¬â€ same family as segment control (not mixed pill chrome) */
+/* Section headers — same family as segment control (not mixed pill chrome) */
 .dive-section-head {
   display: flex;
   align-items: center;
@@ -4968,7 +5006,7 @@ a.topic-root-card:hover .explore-badge {
   }
 }
 
-/* Media grid Ã¢â‚¬â€ equal frames, less empty void */
+/* Media grid — equal frames, less empty void */
 .dive-media-grid {
   align-items: stretch;
 }
@@ -5078,9 +5116,16 @@ a.topic-root-card:hover .explore-badge {
   transform: none !important;
 }
 
-.dive-video-card__frame {
+.dive-video-card__frame,
+.home-video-card__frame {
   flex-shrink: 0;
   background: #0F0A1F;
+  overflow: hidden;
+  border-radius: calc(var(--radius-card) - 4px);
+}
+
+.dive-video-card__body {
+  padding: 0.85rem 0.15rem 0.1rem;
 }
 
 .dive-video-card__title {
@@ -5178,7 +5223,7 @@ a.topic-root-card:hover .explore-badge {
   }
 }
 
-/* Dive section jump Ã¢â‚¬â€ professional segmented control (one system for hero + sticky) */
+/* Dive section jump — professional segmented control (one system for hero + sticky) */
 .dive-jump-label {
   font-size: 0.68rem;
   font-weight: 700;
@@ -5241,7 +5286,7 @@ a.topic-root-card:hover .explore-badge {
   transform: none;
 }
 
-/* Active segment â€” solid violet 3D, never a ring glow */
+/* Active segment — solid violet 3D, never a ring glow */
 .btn-jump-pill.is-active,
 .btn-jump-pill.active,
 .jump-to-pills .btn-jump-pill.is-active,
@@ -5360,7 +5405,7 @@ a.topic-root-card:hover .explore-badge {
   min-height: 100%;
 }
 
-/* Report layout Ã¢â‚¬â€ single column by default.
+/* Report layout — single column by default.
    Only switch to TOC + body when a visible TOC sidebar is present.
    (Static dive pages have no TOC; a bare 220px 1fr grid was crushing text into the first track.) */
 .report-layout {
@@ -5546,7 +5591,7 @@ a.topic-root-card:hover .explore-badge {
   }
 }
 
-/* Homepage Ã¢â‚¬â€ hero, chapters, essence, codex panel */
+/* Homepage — hero, chapters, essence, codex panel */
 .hero-home-grid {
   display: grid;
   gap: 2rem;
@@ -5700,129 +5745,6 @@ a.topic-root-card:hover .explore-badge {
 .codex-how-arrow {
   color: rgba(167, 139, 250, 0.5);
   font-size: 0.75rem;
-}
-
-.home-essence-block {
-  padding-top: 0.25rem;
-}
-
-.home-essence-header {
-  margin-bottom: 1.25rem;
-}
-
-.home-essence-sub {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: var(--text-muted);
-  max-width: 52ch;
-  margin-top: 0.5rem;
-}
-
-.home-essence-card {
-  position: relative;
-  display: block;
-  border-radius: 1.35rem;
-  padding: 1.5rem 1.65rem;
-  border: 2px solid rgba(251, 191, 36, 0.38);
-  background: linear-gradient(145deg, rgba(30, 20, 58, 0.96) 0%, rgba(18, 10, 46, 0.96) 100%);
-  box-shadow:
-    0 18px 44px -16px rgba(0, 0, 0, 0.7),
-    0 0 36px -10px rgba(251, 191, 36, 0.18);
-  overflow: hidden;
-  transition: transform 0.28s ease, border-color 0.28s ease, box-shadow 0.28s ease;
-}
-
-.home-essence-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(251, 191, 36, 0.55);
-  box-shadow:
-    0 24px 52px -14px rgba(0, 0, 0, 0.75),
-    0 0 44px -8px rgba(251, 191, 36, 0.28);
-}
-
-.home-essence-card__glow {
-  position: absolute;
-  inset: -30% auto auto -10%;
-  width: 60%;
-  height: 70%;
-  background: radial-gradient(ellipse at center, rgba(251, 191, 36, 0.12) 0%, transparent 70%);
-  pointer-events: none;
-}
-
-.home-essence-card__inner {
-  display: flex;
-  gap: 1.25rem;
-  align-items: flex-start;
-  position: relative;
-  z-index: 1;
-}
-
-.home-essence-icon {
-  width: 6.5rem;
-  height: 6.5rem;
-  flex-shrink: 0;
-  border-radius: 1rem;
-  overflow: hidden;
-  border: 2px solid rgba(251, 191, 36, 0.45);
-  background: #120A2E;
-}
-
-.home-essence-icon-fallback {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  color: rgba(251, 191, 36, 0.7);
-}
-
-.home-essence-badge {
-  display: inline-flex;
-  margin-bottom: 0.5rem;
-  padding: 0.22rem 0.65rem;
-  border-radius: 9999px;
-  font-size: 0.62rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #FDE68A;
-  background: rgba(251, 191, 36, 0.1);
-  border: 1px solid rgba(251, 191, 36, 0.22);
-}
-
-.home-essence-title {
-  font-size: clamp(1.35rem, 3vw, 1.85rem);
-  font-weight: 800;
-  letter-spacing: -0.025em;
-  line-height: 1.1;
-  color: #fff;
-  margin-bottom: 0.55rem;
-}
-
-.home-essence-desc {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: var(--text-secondary, #C4B5FD);
-  margin-bottom: 0.85rem;
-}
-
-.home-essence-cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #FDE68A;
-}
-
-.home-essence-footnote {
-  margin-top: 0.85rem;
-  font-size: 0.82rem;
-  color: var(--text-muted);
 }
 
 .oracle-home-card {
@@ -6170,15 +6092,6 @@ a.topic-root-card:hover .explore-badge {
     justify-content: center;
   }
 
-  .home-essence-card__inner {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .home-essence-icon {
-    width: 5.5rem;
-    height: 5.5rem;
-  }
 }
 
 @media (max-width: 767px) {
@@ -6219,7 +6132,7 @@ a.topic-root-card:hover .explore-badge {
   }
 }
 
-/* Main root transmission Ã¢â‚¬â€ dedicated section above category blocks */
+/* Main root transmission — dedicated section above category blocks */
 .topics-main-root-section {
   margin-top: 0.5rem;
   margin-bottom: 0;
@@ -6295,13 +6208,13 @@ a.topic-root-card:hover .explore-badge {
   color: var(--text-soft, #B8A9D4);
 }
 
-/* Essence / main root Ã¢â‚¬â€ image dissolves into copy */
+/* Essence / main root — image dissolves into copy */
 .topic-main-root-card {
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
   padding: 0 !important;
-  border-radius: 1.15rem;
+  border-radius: var(--radius-card);
   background: #12101f;
   border: none;
   box-shadow:
@@ -6778,7 +6691,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
   }
 }
 
-/* Click-to-play video Ã¢â‚¬â€ title-seeded particle facade + clean minimal play button */
+/* Click-to-play video — title-seeded particle facade + clean minimal play button */
 .video-poster-wrap {
   position: relative;
   width: 100%;
@@ -6899,7 +6812,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
   min-height: 10rem;
 }
 
-/* Legacy CSS play control Ã¢â‚¬â€ kept for residual markup */
+/* Legacy CSS play control — kept for residual markup */
 .video-play-btn {
   position: absolute;
   inset: 0;
@@ -6999,7 +6912,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
 
 
 /* =============================================
-   NOSCRIPT NOTICE Ã¢â‚¬â€ JS-dependent pages
+   NOSCRIPT NOTICE — JS-dependent pages
    ============================================= */
 
 .noscript-notice {
@@ -7025,7 +6938,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
 }
 
 /* =============================================
-   ERROR PAGE Ã¢â‚¬â€ embossed numerals
+   ERROR PAGE — embossed numerals
    ============================================= */
 
 .error-page-code {
@@ -7037,7 +6950,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
 }
 
 /* =============================================
-   TOPIC PAGE POLISH Ã¢â‚¬â€ badges, nav, reading progress
+   TOPIC PAGE POLISH — badges, nav, reading progress
    ============================================= */
 
 .topic-badge {
@@ -7313,7 +7226,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
 }
 
 /* =============================================
-   NAV RETURN Ã¢â‚¬â€ scroll restore highlight
+   NAV RETURN — scroll restore highlight
    ============================================= */
 [data-topic-id] {
   scroll-margin-top: 7rem;
@@ -7370,7 +7283,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
 }
 
 /* =============================================
-   POLISH Ã¢â‚¬â€ sticky filters, leaf entrances, codex hero
+   POLISH — sticky filters, leaf entrances, codex hero
    ============================================= */
 
 .topics-filter-sticky-wrap {
@@ -7486,7 +7399,7 @@ a.topic-main-root-card:hover .topic-main-root-explore {
 }
 
 #codex-toolbar .codex-toolbar {
-  /* Solid sticky tray Ã¢â‚¬â€ soft 3D, no stroke outline */
+  /* Solid sticky tray — soft 3D, no stroke outline */
   background: #1A1433;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
@@ -7535,7 +7448,7 @@ a.codex-search-card:hover {
   letter-spacing: 0.02em;
 }
 
-/* Ã¢â€â‚¬Ã¢â€â‚¬ Quizzes hub Ã¢â€â‚¬Ã¢â€â‚¬ */
+/* ── Quizzes hub ── */
 .quiz-hub-stats {
   display: grid;
   grid-template-columns: 1fr;
@@ -7748,8 +7661,8 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   position: relative;
 }
 
-/* Ambient hero bloom behind brand title Ã¢â‚¬â€ soft violet halo so wordmark reads luminous.
-   Keep tight and low-opacity so short hubs (Codex) donÃ¢â‚¬â„¢t read as a lighter purple panel. */
+/* Ambient hero bloom behind brand title — soft violet halo so wordmark reads luminous.
+   Keep tight and low-opacity so short hubs (Codex) don't read as a lighter purple panel. */
 .page-hero::before {
   content: '';
   position: absolute;
@@ -7766,7 +7679,13 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
 
 .page-hero > *:not(.home-hero-media) { position: relative; z-index: 1; }
 
-/* Editorial text label Ã¢â‚¬â€ no pill box (cleaner, more archive-grade) */
+/* Editorial text label — no pill box (cleaner, more archive-grade) */
+.deep-dive-hero .page-hero-eyebrow,
+.deep-dive-hero-meta .page-hero-eyebrow {
+  margin: 0;
+  width: auto;
+}
+
 .page-hero-eyebrow {
   display: block;
   width: fit-content;
@@ -7815,7 +7734,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   box-shadow: var(--surface-tier-base);
 }
 
-/* Homepage featured transmissions Ã¢â‚¬â€ matches about / oracle banner style */
+/* Homepage featured transmissions — matches about / oracle banner style */
 .media-banner {
   position: relative;
   overflow: hidden;
@@ -7913,12 +7832,12 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   margin-top: 1.5rem;
 }
 
-/* Homepage video facades Ã¢â‚¬â€ particle background base */
+/* Homepage video facades — particle background base */
 #home-rumble-grid .video-poster-wrap {
   background: #0F0A1F;
 }
 
-/* Report reading comfort (dive + SPA) Ã¢â‚¬â€ full card width, not a skinny centered column */
+/* Report reading comfort (dive + SPA) — full card width, not a skinny centered column */
 #report-container,
 .report-prerendered {
   max-width: min(100%, 48rem);
@@ -7964,7 +7883,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   color: var(--text-prose);
 }
 
-/* Nested markdown list paragraphs Ã¢â‚¬â€ avoid huge gaps between bullets */
+/* Nested markdown list paragraphs — avoid huge gaps between bullets */
 #report-container li > p {
   margin-bottom: 0.45rem;
 }
@@ -8022,7 +7941,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   align-items: center;
 }
 
-/* Sticky toolbars / filters Ã¯Â¿Â½ safe area */
+/* Sticky toolbars / filters — safe area */
 .quiz-hub-toolbar,
 #codex-toolbar,
 .topics-filter-sticky-wrap {
@@ -8274,7 +8193,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   color: var(--link-hover);
 }
 
-/* Premium video facades Ã¢â‚¬â€ branded poster fills the frame */
+/* Premium video facades — branded poster fills the frame */
 .video-facade .video-poster-wrap,
 #home-rumble-grid .video-poster-wrap {
   display: block;
@@ -8561,7 +8480,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 
 
 /* =============================================
-   PHASE 1 Ã¯Â¿Â½ Archive reader (TOC, terms, toolbar, share)
+   PHASE 1 — Archive reader (TOC, terms, toolbar, share)
    ============================================= */
 
 /* --- Terminology definition cards --- */
@@ -8621,7 +8540,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   margin-bottom: 0;
 }
 
-/* Essence-style insight quotes Ã¢â‚¬â€ same card language as terminology */
+/* Essence-style insight quotes — same card language as terminology */
 #report-container blockquote.report-insight-card,
 #report-container .report-insight-card {
   border-left: 4px solid rgba(166, 124, 76, 0.75);
@@ -8647,7 +8566,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 
 
 
-/* Dive section anchors Ã¢â‚¬â€ clear navbar (5rem) + sticky section nav + gap */
+/* Dive section anchors — clear navbar (5rem) + sticky section nav + gap */
 #infographics-section,
 #videos-section,
 #report-section {
@@ -8662,7 +8581,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   }
 }
 
-/* Sticky clone of the same segmented control Ã¢â‚¬â€ solid so page text never bleeds through.
+/* Sticky clone of the same segmented control — solid so page text never bleeds through.
    Must sit fully BELOW .navbar: nav-content is 5rem + safe-area padding-top. */
 .section-nav-sticky {
   position: fixed;
@@ -8700,7 +8619,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
   transform: translateX(-50%) translateY(0);
 }
 
-/* Subtle fade only Ã¢â‚¬â€ no bounce/lift on sticky appear */
+/* Subtle fade only — no bounce/lift on sticky appear */
 @media (prefers-reduced-motion: no-preference) {
   .section-nav-sticky {
     transition: opacity 0.22s ease;
@@ -8817,7 +8736,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 }
 
 /* =============================================
-   DIVE REPORT Ã¢â‚¬â€ MOBILE READING EXPERIENCE
+   DIVE REPORT — MOBILE READING EXPERIENCE
    Headings, lists, cards, TOC, prev/next, continue
    ============================================= */
 @media (max-width: 767px) {
@@ -8882,7 +8801,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
     margin: 1.75rem 0;
   }
 
-  /* Terminology cards Ã¢â‚¬â€ full width, readable, no cramped 2-col on tiny screens */
+  /* Terminology cards — full width, readable, no cramped 2-col on tiny screens */
   .term-card-grid {
     gap: 0.7rem;
     margin-bottom: 1.5rem;
@@ -8905,7 +8824,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
     line-height: 1.58;
   }
 
-  /* Study toolbar Ã¢â‚¬â€ easy thumb target, full-width feel */
+  /* Study toolbar — easy thumb target, full-width feel */
   .report-study-toolbar {
     justify-content: stretch;
     margin-bottom: 0.85rem;
@@ -8921,7 +8840,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
     text-align: center;
   }
 
-  /* Mobile TOC links Ã¢â‚¬â€ larger touch targets */
+  /* Mobile TOC links — larger touch targets */
   .report-toc-mobile {
     margin-bottom: 1rem;
   }
@@ -9029,10 +8948,10 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 }
 
 /* =============================================
-   PHASE 1 Ã¢â‚¬â€ Sacred cosmic archive polish
+   PHASE 1 — Sacred cosmic archive polish
    ============================================= */
 
-/* Custom scrollbar Ã¢â‚¬â€ subtle violet */
+/* Custom scrollbar — subtle violet */
 body {
   scrollbar-width: thin;
   scrollbar-color: rgba(109, 40, 217, 0.45) transparent;
@@ -9059,7 +8978,7 @@ body::-webkit-scrollbar-thumb:hover {
   background-clip: padding-box;
 }
 
-/* Primary buttons Ã¢â‚¬â€ richer fill & edge light */
+/* Primary buttons — richer fill & edge light */
 button.btn-primary,
 a.btn-primary,
 .btn-primary {
@@ -9083,7 +9002,7 @@ a.btn-primary:hover,
     inset 0 1px 0 rgba(255, 255, 255, 0.32);
 }
 
-/* Back-to-top Ã¢â‚¬â€ luminous control */
+/* Back-to-top — luminous control */
 #back-to-top {
   background: linear-gradient(165deg, rgba(91, 33, 182, 0.95) 0%, rgba(59, 7, 100, 0.95) 100%);
   border: 1px solid rgba(196, 181, 253, 0.35);
@@ -9108,7 +9027,7 @@ a.btn-primary:hover,
   padding-top: 0;
 }
 
-/* Footer top edge Ã¢â‚¬â€ slightly brighter sacred line */
+/* Footer top edge — slightly brighter sacred line */
 .site-footer {
   box-shadow:
     0 -3px 12px rgba(0, 0, 0, 0.3),
@@ -9138,7 +9057,7 @@ a.btn-primary:hover,
 }
 
 /* =============================================
-   PHASE 2 Ã¢â‚¬â€ Homepage first impression
+   PHASE 2 — Homepage first impression
    Hero, start path, media frames, codex, video, footer
    ============================================= */
 
@@ -9316,7 +9235,7 @@ a.btn-primary:hover,
   text-align: center;
 }
 
-/* Codex home Ã¢â‚¬â€ clearer story arc: metrics Ã¢â€ â€™ formats Ã¢â€ â€™ CTA */
+/* Codex home — clearer story arc: metrics → formats → CTA */
 .codex-home-panel {
   position: relative;
   overflow: hidden;
@@ -9455,7 +9374,7 @@ a.btn-primary:hover,
     rgba(26, 20, 51, 0.78);
 }
 
-/* Footer donate cards Ã¢â‚¬â€ clearer hierarchy */
+/* Footer donate cards — clearer hierarchy */
 .footer-donate-card {
   position: relative;
   overflow: hidden;
@@ -9493,7 +9412,7 @@ a.btn-primary:hover,
   max-width: 42rem;
 }
 
-/* Homepage section spacing Ã¢â‚¬â€ calmer chapter rhythm */
+/* Homepage section spacing — calmer chapter rhythm */
 .page-home #about,
 .page-home #codex,
 .page-home #explore {
@@ -9535,7 +9454,7 @@ a.btn-primary:hover,
 
 
 /* =============================================
-   PHASE 3 Ã¯Â¿Â½ Mobile experience pass
+   PHASE 3 — Mobile experience pass
    Drawer polish, touch targets, filters, inputs
    ============================================= */
 
@@ -9559,7 +9478,7 @@ a.btn-primary:hover,
   }
 }
 
-/* Mobile hamburger Ã¯Â¿Â½ clearer hit area */
+/* Mobile hamburger — clearer hit area */
 .mobile-menu-btn {
   border-radius: 12px;
   -webkit-tap-highlight-color: transparent;
@@ -9569,7 +9488,7 @@ a.btn-primary:hover,
   background: rgba(124, 58, 237, 0.2);
 }
 
-/* Body lock when menu open (already overflow:hidden) Ã¯Â¿Â½ safer overscroll */
+/* Body lock when menu open (already overflow:hidden) — safer overscroll */
 body.menu-open {
   overflow: hidden;
   /* Keep touch scrolling available inside the open drawer */
@@ -9623,7 +9542,7 @@ body.menu-open {
   }
 }
 
-/* Topic leaf buttons Ã¯Â¿Â½ larger tap targets */
+/* Topic leaf buttons — larger tap targets */
 @media (max-width: 767px) {
   .topic-leaf-btn {
     min-height: 3rem;
@@ -9643,7 +9562,7 @@ body.menu-open {
   }
 }
 
-/* Journey cards on home Ã¯Â¿Â½ easier horizontal scroll */
+/* Journey cards on home — easier horizontal scroll */
 @media (max-width: 767px) {
   .codex-home-journey-panel .journey-scroll {
     gap: 0.75rem;
@@ -9669,7 +9588,7 @@ body.menu-open {
   }
 }
 
-/* Quiz hub cards Ã¯Â¿Â½ denser, thumb-friendly */
+/* Quiz hub cards — denser, thumb-friendly */
 @media (max-width: 639px) {
   .quiz-hub-grid {
     gap: 0.85rem;
@@ -9689,7 +9608,7 @@ body.menu-open {
   }
 }
 
-/* Dive sticky section pills Ã¯Â¿Â½ readable on small phones */
+/* Dive sticky section pills — readable on small phones */
 @media (max-width: 639px) {
   .section-nav-sticky {
     width: calc(100% - 1rem);
@@ -9768,11 +9687,11 @@ body.menu-open {
 }
 
 /* =============================================
-   PHASE 4 Ã¯Â¿Â½ Deep-dive reading luxury
+   PHASE 4 — Deep-dive reading luxury
    Study toolbar, font size, focus mode, report polish
    ============================================= */
 
-/* Reading progress Ã¯Â¿Â½ thin luminous line under navbar */
+/* Reading progress — thin luminous line under navbar */
 .reading-progress {
   top: 0;
   height: 2px;
@@ -9893,7 +9812,7 @@ body.menu-open {
   margin-left: auto;
 }
 
-/* Legacy Focus control Ã¢â‚¬â€ hidden if any cached HTML still includes it */
+/* Legacy Focus control — hidden if any cached HTML still includes it */
 .report-study-btn--focus,
 [data-report-focus] {
   display: none !important;
@@ -10007,7 +9926,7 @@ body[data-report-size="lg"] #report-container {
   color: var(--text-prose);
 }
 
-/* Focus mode Ã¯Â¿Â½ calm archive reading */
+/* Focus mode — calm archive reading */
 body.reading-focus .navbar {
   background: #0F0A1F !important;
   -webkit-backdrop-filter: none !important;
@@ -10056,7 +9975,7 @@ body.reading-focus .report-layout {
 }
 
 body.reading-focus .report-toc {
-  /* TOC still useful in focus Ã¯Â¿Â½ keep interactive */
+  /* TOC still useful in focus — keep interactive */
   opacity: 1;
   filter: none;
   pointer-events: auto;
@@ -10077,7 +9996,7 @@ body.reading-focus .section-nav-sticky {
   opacity: 0.92;
 }
 
-/* Active jump control â€” solid 3D, no ring glow */
+/* Active jump control — solid 3D, no ring glow */
 .btn-jump-pill.is-active,
 .btn-jump-pill.active,
 .jump-to-pills .btn-jump-pill.is-active,
@@ -10092,7 +10011,7 @@ body.reading-focus .section-nav-sticky {
     inset 0 -3px 0 rgba(30, 17, 53, 0.55) !important;
 }
 
-/* Continue learning â€” solid vault card */
+/* Continue learning — solid vault card */
 .dive-continue {
   border-radius: 1.25rem;
   border: none;
@@ -10115,7 +10034,7 @@ body.reading-focus .section-nav-sticky {
   color: var(--text-prose);
 }
 
-/* Hero Ã¯Â¿Â½ slightly calmer on small screens */
+/* Hero — slightly calmer on small screens */
 @media (max-width: 767px) {
   .deep-dive-hero {
     min-height: 0;
@@ -10166,7 +10085,7 @@ body.reading-focus .section-nav-sticky {
 }
 
 /* =============================================
-   PHASE 5 Ã¯Â¿Â½ Browse & discovery polish
+   PHASE 5 — Browse & discovery polish
    Empty states, source cards, filters, 404, network
    ============================================= */
 
@@ -10283,7 +10202,7 @@ a.source-card:hover .source-card-progress__fill {
   box-shadow: 0 0 14px rgba(139, 61, 255, 0.55);
 }
 
-/* Filter trays â€” solid elevated surfaces (no stroke outline) */
+/* Filter trays — solid elevated surfaces (no stroke outline) */
 .codex-toolbar,
 .topics-filter-panel {
   border: none !important;
@@ -10302,7 +10221,7 @@ a.source-card:hover .source-card-progress__fill {
   border-bottom-color: rgba(124, 58, 237, 0.18) !important;
 }
 
-/* Network controls tray â€” solid elevated surface (matches codex hub panels) */
+/* Network controls tray — solid elevated surface (matches codex hub panels) */
 .network-controls {
   padding: 0.95rem 1rem;
   border-radius: 1.1rem;
@@ -10332,7 +10251,7 @@ a.source-card:hover .source-card-progress__fill {
   letter-spacing: 0.12em;
 }
 
-/* Featured start cards: shared glow defined above Ã¢â‚¬â€ do not flatten here */
+/* Featured start cards: shared glow defined above — do not flatten here */
 
 /* 404 error page */
 .error-page-card {
@@ -10425,12 +10344,12 @@ a.source-card:hover .source-card-progress__fill {
   }
 }
 
-/* Topic search cards Ã¯Â¿Â½ ready/soon clarity */
+/* Topic search cards — ready/soon clarity */
 .codex-topic-result .codex-meta-pill--ready {
   box-shadow: 0 0 12px -6px rgba(139, 61, 255, 0.45);
 }
 
-/* Skeleton grids Ã¯Â¿Â½ consistent hub loading */
+/* Skeleton grids — consistent hub loading */
 .skeleton-grid,
 #sources-grid[aria-busy="true"],
 #network-grid[aria-busy="true"] {
@@ -10448,11 +10367,11 @@ a.source-card:hover .source-card-progress__fill {
 }
 
 /* =============================================
-   PROFESSIONAL REFINE Ã¯Â¿Â½ calmer chrome & controls
+   PROFESSIONAL REFINE — calmer chrome & controls
    Editorial archive, less glow / less "app pill"
    ============================================= */
 
-/* Ã¯Â¿Â½Ã¯Â¿Â½ Navbar: text links, not candy pills Ã¯Â¿Â½Ã¯Â¿Â½ */
+/* —— Navbar: text links, not candy pills —— */
 .nav-links {
   gap: 0.15rem;
 }
@@ -10475,7 +10394,7 @@ a.source-card:hover .source-card-progress__fill {
 
 .nav-link.active {
   color: var(--text-primary) !important;
-  font-weight: 500 !important; /* match idle Ã¢â‚¬â€ no width jump */
+  font-weight: 500 !important; /* match idle — no width jump */
   background: transparent !important;
 }
 
@@ -10493,7 +10412,7 @@ a.source-card:hover .source-card-progress__fill {
   opacity: 1;
 }
 
-/* Nav CTA sizing â€” material comes from the soft-3D nav-cta block later */
+/* Nav CTA sizing — material comes from the soft-3D nav-cta block later */
 .nav-cta {
   margin-left: 0.75rem;
   padding: 0.45rem 1.05rem;
@@ -10503,7 +10422,7 @@ a.source-card:hover .source-card-progress__fill {
   border-radius: 9999px;
 }
 
-/* Flat-button pass removed â€” CTAs use soft 3D material sitewide */
+/* Flat-button pass removed — CTAs use soft 3D material sitewide */
 
 .text-link {
   font-size: 0.875rem;
@@ -10529,7 +10448,7 @@ a.source-card:hover .source-card-progress__fill {
   }
 }
 
-/* Interior hubs (Codex, QuizzesÃ¢â‚¬Â¦): less empty air under the fixed nav */
+/* Interior hubs (Codex, Quizzes…): less empty air under the fixed nav */
 .page-interior .page-hero {
   padding-top: 0.85rem !important;
   padding-bottom: 1.75rem !important;
@@ -10581,7 +10500,7 @@ a.source-card:hover .source-card-progress__fill {
   display: none !important;
 }
 
-/* About Ã¢â‚¬â€ media-first brand banner (reference 3D material for all vault panels) */
+/* About — media-first brand banner (reference 3D material for all vault panels) */
 .about-banner {
   position: relative;
   overflow: hidden;
@@ -10616,7 +10535,7 @@ a.source-card:hover .source-card-progress__fill {
   object-position: center 40%;
 }
 
-/* Soft image Ã¢â€ â€™ copy blend (no hard seam) */
+/* Soft image → copy blend (no hard seam) */
 .about-banner-media-fade {
   position: absolute;
   inset: 0;
@@ -10684,7 +10603,7 @@ a.source-card:hover .source-card-progress__fill {
   font-weight: 600;
 }
 
-/* Inline prose links Ã¢â‚¬â€ never a mid-sentence pill (breadcrumb-link is for nav chips) */
+/* Inline prose links — never a mid-sentence pill (breadcrumb-link is for nav chips) */
 .about-banner-copy a,
 .about-banner-inline-link {
   display: inline !important;
@@ -10845,7 +10764,7 @@ a.source-card:hover .source-card-progress__fill {
   cursor: default;
 }
 
-/* Unified interior page intro Ã¢â‚¬â€ legacy left-aligned (topics / deep-dive may still use) */
+/* Unified interior page intro — legacy left-aligned (topics / deep-dive may still use) */
 .page-intro,
 .codex-page-intro {
   max-width: 40rem;
@@ -10901,7 +10820,7 @@ a.source-card:hover .source-card-progress__fill {
 /* ------------------------------------------------------------------
    Interior hub heroes (Codex / Quizzes / Network)
    Match the homepage calm brand moment: centered pill, metallic title,
-   ambient bloom, balanced mobile stack Ã¢â‚¬â€ without the giant brand wordmark.
+   ambient bloom, balanced mobile stack — without the giant brand wordmark.
    ------------------------------------------------------------------ */
 .page-hero--interior {
   max-width: 40rem;
@@ -11009,7 +10928,7 @@ a.source-card:hover .source-card-progress__fill {
   margin-bottom: 0;
 }
 
-/* Soften bloom slightly on multi-word titles (less Ã¢â‚¬Å“logoÃ¢â‚¬Â intensity) */
+/* Soften bloom slightly on multi-word titles (less "logo" intensity) */
 .page-hero--interior::before {
   opacity: 0.72;
   top: 8%;
@@ -11017,7 +10936,7 @@ a.source-card:hover .source-card-progress__fill {
   width: min(36rem, 94vw);
 }
 
-/* Optional soft line-break in long page titles Ã¢â‚¬â€ hide on wide screens when one line fits */
+/* Optional soft line-break in long page titles — hide on wide screens when one line fits */
 .page-hero-br {
   display: none;
 }
@@ -11096,7 +11015,7 @@ a.source-card:hover .source-card-progress__fill {
   }
 }
 
-/* Very narrow phones Ã¢â‚¬â€ prevent title edge-clipping */
+/* Very narrow phones — prevent title edge-clipping */
 @media (max-width: 380px) {
   .page-hero-title--page {
     font-size: 1.35rem !important;
@@ -11104,12 +11023,12 @@ a.source-card:hover .source-card-progress__fill {
   }
 }
 
-/* Mid-page section pills only Ã¢â‚¬â€ not used as page tops */
+/* Mid-page section pills only — not used as page tops */
 .section-pill-wrap {
   margin-top: 0.25rem;
 }
 
-/* Network filter horizontal scroll Ã¢â‚¬â€ clear Ã¢â‚¬Å“moreÃ¢â‚¬Â affordance on mobile */
+/* Network filter horizontal scroll — clear "more" affordance on mobile */
 .network-filters-scroll {
   position: relative;
 }
@@ -11193,58 +11112,13 @@ a.source-card:hover .source-card-progress__fill {
   }
 }
 
-/* Status filters: more space, quieter active */
-.topics-filter-btn-group,
-.topics-filter-btn-group--spaced {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem !important;
-}
-
-.topic-control-btn {
-  min-height: 2.5rem !important;
-  padding: 0.45rem 0.95rem !important;
-  border-radius: 9999px !important;
-  font-size: 0.8125rem !important;
-  font-weight: 500 !important;
-  background: transparent !important;
-  border: 1px solid rgba(124, 58, 237, 0.32) !important;
-  color: var(--text-muted) !important;
-  box-shadow: none !important;
-  transform: none !important;
-}
-
-.topic-control-btn:hover {
-  background: rgba(91, 33, 182, 0.1) !important;
-  color: var(--text-primary) !important;
-  border-color: rgba(167, 139, 250, 0.45) !important;
-  transform: none !important;
-  box-shadow: none !important;
-}
-
-.topic-control-btn.active {
-  background: rgba(91, 33, 182, 0.22) !important;
-  color: var(--text-primary) !important;
-  border-color: rgba(167, 139, 250, 0.5) !important;
-  box-shadow: none !important;
-  font-weight: 600 !important;
-}
-
 .topic-control-count {
   margin-left: 0.35rem;
   opacity: 0.75;
   font-variant-numeric: tabular-nums;
 }
 
-/* Support scroll target finalized near end of file (with JS measurement in shared.js) */
-
-.footer-support {
-  padding: 1.75rem 1.35rem 1.5rem;
-  border-radius: 14px;
-  border: 1px solid rgba(76, 61, 107, 0.4);
-  background: rgba(18, 12, 36, 0.55);
-  box-shadow: none;
-}
+/* Support scroll target is owned by the later .footer-support block + shared.js */
 
 .footer-support::before {
   display: none;
@@ -11345,7 +11219,7 @@ a.source-card:hover .source-card-progress__fill {
    Icon-only donate cards + flat filters + quieter media
    ============================================= */
 
-/* Oracle Ã¢â‚¬â€ media-first banner (matches About treatment) */
+/* Oracle — media-first banner (matches About treatment) */
 .oracle-banner {
   position: relative;
   overflow: hidden;
@@ -11591,66 +11465,8 @@ a.source-card:hover .source-card-progress__fill {
   display: none;
 }
 
-/* Flat quiz hub + network filters (site-wide control language) */
-.quiz-hub-filters,
-.network-filter-bar,
-.topics-filter-btn-group {
-  gap: 0.55rem !important;
-}
-
-.quiz-hub-filters .topic-control-btn,
-.network-filter-btn.topic-control-btn,
-.network-filter-btn,
-.quiz-hub-filters button {
-  min-height: 2.5rem !important;
-  padding: 0.45rem 0.95rem !important;
-  border-radius: 9999px !important;
-  font-size: 0.8125rem !important;
-  font-weight: 500 !important;
-  background: transparent !important;
-  border: 1px solid rgba(124, 58, 237, 0.32) !important;
-  color: var(--text-muted) !important;
-  box-shadow: none !important;
-  transform: none !important;
-}
-
-.quiz-hub-filters .topic-control-btn:hover,
-.network-filter-btn:hover,
-.quiz-hub-filters button:hover {
-  background: rgba(91, 33, 182, 0.1) !important;
-  color: var(--text-primary) !important;
-  border-color: rgba(167, 139, 250, 0.45) !important;
-  transform: none !important;
-  box-shadow: none !important;
-}
-
-.quiz-hub-filters .topic-control-btn.active,
-.quiz-hub-filters .topic-control-btn.is-active,
-.quiz-hub-filters .topic-control-btn[aria-pressed="true"],
-.network-filter-btn.active,
-.quiz-hub-filters button.active {
-  background: rgba(91, 33, 182, 0.22) !important;
-  color: var(--text-primary) !important;
-  border-color: rgba(167, 139, 250, 0.5) !important;
-  box-shadow: none !important;
-  font-weight: 600 !important;
-}
-
-/* Quiz mode buttons already denser Ã¯Â¿Â½ keep flat */
-.quiz-mode-btn {
-  box-shadow: none !important;
-}
-
-.quiz-mode-btn:hover {
-  transform: none !important;
-}
-
-.quiz-mode-btn.is-active {
-  box-shadow: none !important;
-}
-
 /* =============================================
-   Support section Ã¯Â¿Â½ inviting, professional, conversion-focused
+   Support section — inviting, professional, conversion-focused
    ============================================= */
 
 .footer-support {
@@ -11668,7 +11484,7 @@ a.source-card:hover .source-card-progress__fill {
   box-shadow:
     0 20px 48px -24px rgba(0, 0, 0, 0.55),
     inset 0 1px 0 rgba(255, 255, 255, 0.06);
-  /* scroll-margin set once below Ã¢â‚¬â€ avoid stacking with html scroll-padding */
+  /* scroll-margin set once below — avoid stacking with html scroll-padding */
 }
 
 /*
@@ -11897,7 +11713,7 @@ html {
   min-height: 0;
 }
 
-/* Layout helpers only â€” size/material from global .btn-primary */
+/* Layout helpers only — size/material from global .btn-primary */
 .footer-donate-btn {
   margin-top: 0.35rem;
 }
@@ -11980,7 +11796,7 @@ html {
 }
 
 /* =============================================
-   Support donate cards Ã¯Â¿Â½ equal columns, large QR, matching CTAs
+   Support donate cards — equal columns, large QR, matching CTAs
    ============================================= */
 
 .footer-donate-grid,
@@ -12025,7 +11841,7 @@ html {
   box-shadow: none !important;
 }
 
-/* No Ã¯Â¿Â½primaryÃ¯Â¿Â½ spotlight card Ã¯Â¿Â½ all equal */
+/* No —primary— spotlight card — all equal */
 .footer-donate-card--primary {
   order: 0 !important;
   background: rgba(12, 8, 26, 0.55) !important;
@@ -12113,7 +11929,7 @@ html {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
-/* Footer CTAs: layout only â€” material comes from global .btn-primary */
+/* Footer CTAs: layout only — material comes from global .btn-primary */
 .footer-donate-btn,
 .footer-donate-card .btn-primary,
 .footer-donate-card .btn-secondary,
@@ -12170,7 +11986,7 @@ button.footer-donate-btn {
   gap: 0.55rem !important;
 }
 
-/* Support Ko-fi / GoFundMe Ã¯Â¿Â½ 9:16 portrait media */
+/* Support Ko-fi / GoFundMe — 9:16 portrait media */
 .footer-donate-card--kofi .footer-donate-media-wrap,
 .footer-donate-card--gofundme .footer-donate-media-wrap {
   display: flex !important;
@@ -12288,7 +12104,7 @@ button.footer-donate-btn {
   display: block;
 }
 
-/* Dark gradient so text stays readable over 9:16 art Ã¢â‚¬â€ soft multi-stop, no hard band */
+/* Dark gradient so text stays readable over 9:16 art — soft multi-stop, no hard band */
 .footer-donate-bg__scrim {
   position: absolute;
   inset: 0;
@@ -12379,7 +12195,7 @@ button.footer-donate-btn {
 }
 
 /* =============================================
-   BRAND GLASS UPGRADE Ã¯Â¿Â½ 21st mark Ã¯Â¿Â½ navbar Ã¯Â¿Â½ footer
+   BRAND GLASS UPGRADE — 21st mark — navbar — footer
    Realistic glass materials, efficient depth, card grids
    ============================================= */
 
@@ -12405,7 +12221,7 @@ button.footer-donate-btn {
   width: 2.85rem;
   height: 2.85rem;
   flex-shrink: 0;
-  /* No plate Ã¢â‚¬â€ the mark already carries its own soft-edged icon shape */
+  /* No plate — the mark already carries its own soft-edged icon shape */
   border-radius: 0;
   background: transparent;
   border: none;
@@ -12454,7 +12270,7 @@ button.footer-donate-btn {
   opacity: 0.9;
 }
 
-/* Quiet brand mark Ã¯Â¿Â½ not a competing button */
+/* Quiet brand mark — not a competing button */
 .nav-logo-icon {
   display: none !important; /* legacy eye container removed */
 }
@@ -12525,7 +12341,7 @@ button.footer-donate-btn {
 
 .nav-link.active {
   color: var(--text-primary) !important;
-  font-weight: 500 !important; /* match idle Ã¢â‚¬â€ no width jump */
+  font-weight: 500 !important; /* match idle — no width jump */
   background: transparent !important;
 }
 
@@ -12547,32 +12363,6 @@ button.footer-donate-btn {
   box-shadow: 0 0 10px rgba(139, 61, 255, 0.45);
   border-radius: 2px;
   opacity: 1;
-}
-
-/* Secondary Telegram CTA Ã¯Â¿Â½ glass chip, not primary hero */
-.nav-cta {
-  margin-left: 0.65rem !important;
-  padding: 0.42rem 0.95rem !important;
-  min-height: 2.2rem;
-  font-size: 0.8rem !important;
-  font-weight: 600;
-  border-radius: 9999px !important;
-  background: rgba(91, 33, 182, 0.35) !important;
-  border: 1px solid rgba(167, 139, 250, 0.38) !important;
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.12),
-    0 4px 12px -6px rgba(0, 0, 0, 0.4) !important;
-  transform: none !important;
-  color: #F8FAFC !important;
-}
-
-.nav-cta:hover {
-  background: rgba(109, 40, 217, 0.5) !important;
-  border-color: rgba(196, 181, 253, 0.5) !important;
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.16),
-    0 6px 16px -6px rgba(91, 33, 182, 0.45) !important;
-  transform: none !important;
 }
 
 /* Mobile menu: solid vault drawer */
@@ -12643,7 +12433,7 @@ button.footer-donate-btn {
 }
 
 .channel-card {
-  /* Solid acrylic look â€” no stroke outline */
+  /* Solid acrylic look — no stroke outline */
   background:
     linear-gradient(165deg, rgba(255, 255, 255, 0.06) 0%, transparent 40%),
     linear-gradient(180deg, rgba(32, 22, 56, 0.98) 0%, rgba(20, 14, 40, 0.99) 100%) !important;
@@ -12663,7 +12453,7 @@ button.footer-donate-btn {
 }
 
 .static-card {
-  /* Solid acrylic vault panels â€” no faint ring border */
+  /* Solid acrylic vault panels — no faint ring border */
   background:
     radial-gradient(ellipse 90% 55% at 50% -5%, rgba(124, 58, 237, 0.1) 0%, transparent 55%),
     linear-gradient(165deg, rgba(255, 255, 255, 0.05) 0%, transparent 45%),
@@ -12789,7 +12579,7 @@ a.btn-secondary:hover,
   }
 }
 
-/* Codex hub panels Ã¢â‚¬â€ plain solid surfaces (NOT .static-card).
+/* Codex hub panels — plain solid surfaces (NOT .static-card).
    .static-card / floating glass promotes a GPU layer that lightens the
    entire Codex canvas in Chrome, including the vault above the cards. */
 .codex-hub-panel,
@@ -12959,9 +12749,9 @@ a.btn-secondary:hover,
   color: #fff;
 }
 
-/* Legacy social grid â€” superseded by .footer-social-row in redesign block */
+/* Legacy social grid — superseded by .footer-social-row in redesign block */
 
-/* Support panel Ã¯Â¿Â½ quieter elevated glass */
+/* Support panel — quieter elevated glass */
 .footer-support {
   border-radius: 16px !important;
   border: 1px solid rgba(124, 58, 237, 0.22) !important;
@@ -13210,7 +13000,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   display: none;
 }
 
-/* Codex topic results Ã¯Â¿Â½ card grid consistency */
+/* Codex topic results — card grid consistency */
 .codex-topic-results-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -13229,7 +13019,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   }
 }
 
-/* Network directory already uses cards Ã¯Â¿Â½ refine glass edges */
+/* Network directory already uses cards — refine glass edges */
 .network-directory-grid > a.channel-card {
   min-height: 12.5rem;
 }
@@ -13258,7 +13048,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
 }
 
 /* =============================================
-   FOOTER REDESIGN Ã¢â‚¬â€ editorial + tabbed support
+   FOOTER REDESIGN — editorial + tabbed support
    Icon-only socials, slim support tabs, image accents
    ============================================= */
 
@@ -13387,7 +13177,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   color: #fff !important;
 }
 
-/* Connect: icon buttons â€” same secondary 3D material as site CTAs */
+/* Connect: icon buttons — same secondary 3D material as site CTAs */
 .footer-social-row,
 .footer-social-grid {
   display: flex !important;
@@ -13428,7 +13218,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
     transform 0.2s ease;
 }
 
-/* Top-face sheen â€” matches .btn-secondary */
+/* Top-face sheen — matches .btn-secondary */
 .footer-social::before,
 .footer-social--icon::before {
   content: '' !important;
@@ -13499,7 +13289,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   outline-offset: 3px;
 }
 
-/* Support Ã¢â‚¬â€ slim panel + tabs */
+/* Support — slim panel + tabs */
 .footer-support {
   border-radius: 16px !important;
   border: 1px solid rgba(124, 58, 237, 0.22) !important;
@@ -13524,7 +13314,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   display: none !important;
 }
 
-/* Support head Ã¢â‚¬â€ same calm brand moment as page-hero interiors */
+/* Support head — same calm brand moment as page-hero interiors */
 .footer-support-head {
   position: relative !important;
   z-index: 1;
@@ -13561,7 +13351,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   z-index: 1;
 }
 
-/* Text eyebrow â€” section label, not a disclaimer pill */
+/* Text eyebrow — section label, not a disclaimer pill */
 .footer-support-eyebrow {
   display: inline-flex !important;
   align-items: center !important;
@@ -13592,7 +13382,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   flex-shrink: 0 !important;
 }
 
-/* Metallic title Ã¢â‚¬â€ same gradient as .page-hero-title--page */
+/* Metallic title — same gradient as .page-hero-title--page */
 .footer-support-title {
   display: block !important;
   width: 100% !important;
@@ -13754,7 +13544,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   outline-offset: 2px;
 }
 
-/* Clean SVG icons in tabs Ã¢â‚¬â€ no photo thumbs */
+/* Clean SVG icons in tabs — no photo thumbs */
 .footer-tab-icon {
   display: flex;
   align-items: center;
@@ -13853,7 +13643,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* 16:9 support art Ã¢â‚¬â€ keep subject centered in the wide panel */
+  /* 16:9 support art — keep subject centered in the wide panel */
   object-position: center center;
   display: block;
   opacity: 1;
@@ -13861,7 +13651,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   transform: scale(1.01);
 }
 
-/* Long soft veil Ã¢â‚¬â€ image still reads on one side, text side fully readable */
+/* Long soft veil — image still reads on one side, text side fully readable */
 .footer-tabpanel--blend .footer-tab-media__scrim {
   position: absolute;
   inset: 0;
@@ -13997,7 +13787,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
   width: auto !important;
   min-width: 9.5rem;
   align-self: flex-start;
-  /* Keep full .btn-primary 3D material â€” do not flatten shadow here */
+  /* Keep full .btn-primary 3D material — do not flatten shadow here */
 }
 
 /* Bitcoin: QR + copy in one glass row (no photo atmosphere) */
@@ -14187,7 +13977,7 @@ a.quiz-hub-card:hover .quiz-hub-card__cta {
    Final cascade wins over earlier "flat professional" overrides.
    ============================================= */
 
-/* Solid acrylic tiles (not photo-led cards) â€” soft 3D, no stroke */
+/* Solid acrylic tiles (not photo-led cards) — soft 3D, no stroke */
 .memory-card:not(.static-card):not(.topics-filter-panel),
 .content-card:not(.static-card):not(.topics-filter-panel),
 .lesson-content-card:not(.static-card),
@@ -14232,7 +14022,7 @@ button.quiz-hub-stat,
     radial-gradient(circle at 88% 92%, rgba(255, 255, 255, 0.04) 0%, transparent 55%) !important;
 }
 
-/* Interactive lift â€” depth only, no stroke outline */
+/* Interactive lift — depth only, no stroke outline */
 .memory-card:not(.static-card):not(.topics-filter-panel):hover,
 .content-card:not(.static-card):not(.topics-filter-panel):hover,
 .lesson-content-card:not(.static-card):hover,
@@ -14254,7 +14044,7 @@ a.source-card:not(.static-card),
   border: none !important;
 }
 
-/* Floating vault panels (main-page banners) â€” strongest tier */
+/* Floating vault panels (main-page banners) — strongest tier */
 .static-card {
   background:
     radial-gradient(ellipse 90% 55% at 50% -5%, rgba(124, 58, 237, 0.12) 0%, transparent 55%),
@@ -14304,7 +14094,7 @@ a.quiz-hub-card > * {
   z-index: 1 !important;
 }
 
-/* Stats chips (codex / quizzes) Ã¢â‚¬â€ compact elevated tiles */
+/* Stats chips (codex / quizzes) — compact elevated tiles */
 .codex-stat,
 .quiz-hub-stat,
 button.quiz-hub-stat {
@@ -14337,7 +14127,7 @@ button.quiz-hub-stat[aria-pressed="true"] {
     inset 0 -3px 0 rgba(30, 17, 53, 0.55) !important;
 }
 
-/* Topic root cards â€” elevated vault, no stroke ring */
+/* Topic root cards — elevated vault, no stroke ring */
 .topic-root-card {
   border: none !important;
   box-shadow: var(--surface-tier-elevated) !important;
@@ -14348,7 +14138,7 @@ button.quiz-hub-stat[aria-pressed="true"] {
   box-shadow: var(--surface-tier-elevated-hover) !important;
 }
 
-/* Leaf / toggle controls â€” soft 3D (same language as secondary CTAs), no stroke */
+/* Leaf / toggle controls — soft 3D (same language as secondary CTAs), no stroke */
 .topic-leaf-btn,
 .category-toggle,
 .category-toggle-btn {
@@ -14376,38 +14166,7 @@ button.quiz-hub-stat[aria-pressed="true"] {
     inset 0 -4px 0 rgba(8, 5, 18, 0.55) !important;
 }
 
-/* Filter pills Ã¢â‚¬â€ subtle emboss (not flat ghosts) */
-.topic-control-btn,
-.quiz-hub-filters .topic-control-btn,
-.network-filter-btn.topic-control-btn,
-.network-filter-btn,
-.quiz-hub-filters button {
-  background:
-    linear-gradient(180deg, rgba(42, 31, 64, 0.55) 0%, rgba(22, 16, 42, 0.7) 100%) !important;
-  border: 1px solid rgba(124, 58, 237, 0.32) !important;
-  color: var(--text-soft) !important;
-  box-shadow:
-    0 4px 12px -6px rgba(0, 0, 0, 0.45),
-    inset 0 1px 0 rgba(255, 255, 255, 0.08),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.2) !important;
-  transform: none !important;
-}
-
-.topic-control-btn:hover,
-.quiz-hub-filters .topic-control-btn:hover,
-.network-filter-btn:hover,
-.quiz-hub-filters button:hover {
-  background:
-    linear-gradient(180deg, rgba(59, 7, 100, 0.4) 0%, rgba(42, 31, 64, 0.65) 100%) !important;
-  color: var(--text-primary) !important;
-  border-color: rgba(167, 139, 250, 0.5) !important;
-  box-shadow:
-    0 6px 16px -8px rgba(0, 0, 0, 0.5),
-    inset 0 1px 0 rgba(255, 255, 255, 0.12) !important;
-  transform: translateY(-1px) !important;
-}
-
-/* Active filters â€” solid primary 3D, no ring/glow border */
+/* Active filters — solid primary 3D, no ring/glow border */
 .topic-control-btn.active,
 .topic-control-btn.is-active,
 .topic-control-btn[aria-pressed="true"],
@@ -14430,37 +14189,38 @@ button.quiz-hub-stat[aria-pressed="true"] {
     inset 0 -3px 0 rgba(30, 17, 53, 0.55) !important;
 }
 
-/* Quiz mode tiles â€” no stroke outline */
+/* Quiz mode tiles — selected by fill, not a halo */
 .quiz-mode-btn {
-  background:
-    linear-gradient(165deg, rgba(42, 31, 64, 0.55) 0%, rgba(18, 10, 46, 0.7) 100%) !important;
+  background: rgba(18, 12, 36, 0.72) !important;
   border: none !important;
   box-shadow:
-    0 8px 18px -10px rgba(0, 0, 0, 0.5),
-    inset 0 1.5px 0 rgba(255, 255, 255, 0.08),
-    inset 0 -2px 0 rgba(0, 0, 0, 0.28) !important;
+    0 8px 18px -12px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
 }
 
 .quiz-mode-btn:hover {
-  transform: translateY(-2px) !important;
+  transform: none !important;
   border: none !important;
+  background: rgba(36, 24, 64, 0.82) !important;
   box-shadow:
-    0 12px 24px -12px rgba(0, 0, 0, 0.55),
-    inset 0 1.5px 0 rgba(255, 255, 255, 0.12),
-    inset 0 -2px 0 rgba(0, 0, 0, 0.25) !important;
+    0 8px 18px -12px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
 }
 
 .quiz-mode-btn.is-active {
   border: none !important;
-  background:
-    linear-gradient(165deg, rgba(76, 29, 149, 0.55) 0%, rgba(30, 17, 53, 0.78) 100%) !important;
+  background: linear-gradient(180deg, rgba(76, 29, 149, 0.38) 0%, rgba(22, 14, 42, 0.92) 100%) !important;
   box-shadow:
-    0 14px 28px -14px rgba(91, 33, 182, 0.55),
-    inset 0 2px 0 rgba(255, 255, 255, 0.14),
-    inset 0 -3px 0 rgba(0, 0, 0, 0.3) !important;
+    0 8px 18px -12px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.28) !important;
 }
 
-/* Primary / secondary CTAs â€” refined 3D bevel (not oversized) */
+.quiz-mode-btn.is-active .quiz-mode-btn__label {
+  color: #F8FAFC !important;
+}
+
+/* Primary / secondary CTAs — refined 3D bevel (not oversized) */
 button.btn-primary,
 a.btn-primary,
 .btn-primary {
@@ -14537,7 +14297,7 @@ a.btn-secondary:active,
     inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
 }
 
-/* Nav Telegram CTA â€” soft 3D pill, no stroke */
+/* Nav Telegram CTA — soft 3D pill, no stroke */
 .nav-cta {
   background: linear-gradient(180deg, #5B21B6 0%, #4C1D95 42%, #2E1065 100%) !important;
   border: none !important;
@@ -14595,7 +14355,7 @@ a.btn-secondary:active,
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, transparent 45%) !important;
 }
 
-/* Jump pills / breadcrumb chips Ã¢â‚¬â€ soft 3D chips, no stroke */
+/* Jump pills / breadcrumb chips — soft 3D chips, no stroke */
 .btn-jump-pill,
 .breadcrumb-link {
   box-shadow:
@@ -14618,7 +14378,7 @@ a.btn-secondary:active,
   transform: translateY(-1px) !important;
 }
 
-/* Keep utility trays quiet Ã¢â‚¬â€ soft 3D, no stroke */
+/* Keep utility trays quiet — soft 3D, no stroke */
 .topics-filter-panel,
 .topics-filter-panel.static-card {
   background: #141022 !important;
@@ -14673,7 +14433,7 @@ a.btn-secondary:active,
 }
 
 /* =============================================
-   GLOBAL SOFT-3D MATERIAL PASS (final â€” wins over earlier !important)
+   GLOBAL SOFT-3D MATERIAL PASS (final — wins over earlier !important)
    Kill hard stroke outlines. Depth = shadow + top light + bottom undercut.
    ============================================= */
 :is(
@@ -14762,7 +14522,7 @@ a.quiz-hub-card.has-score {
 }
 
 /* =============================================
-   CODEX TOOLBAR â€” select/control safety (final)
+   CODEX TOOLBAR — select/control safety (final)
    Prevent Windows/Chrome native white <select>
    ============================================= */
 #codex-toolbar .codex-sort-select,
@@ -14795,9 +14555,9 @@ select.codex-sort-select {
 }
 
 /* =============================================
-   PHASE 1 â€” Visual elevation quick wins (2026-07)
+   PHASE 1 — Visual elevation quick wins (2026-07)
    Buttons Â· Mobile footer Â· Quiz hub scale
-   Final cascade â€” wins over earlier phase layers
+   Final cascade — wins over earlier phase layers
    ============================================= */
 
 /* --- Buttons: one material language --- */
@@ -14942,7 +14702,7 @@ a.btn-secondary:active,
     font-size: 0.85rem !important;
     line-height: 1.55 !important;
     max-width: none !important;
-    /* Full description â€” never clamp/truncate on mobile */
+    /* Full description — never clamp/truncate on mobile */
     display: block !important;
     -webkit-line-clamp: unset !important;
     line-clamp: unset !important;
@@ -15023,7 +14783,7 @@ a.btn-secondary:active,
     content: none !important;
   }
 
-  /* Quieter tab media â€” prioritize CTA; keep copy fully readable */
+  /* Quieter tab media — prioritize CTA; keep copy fully readable */
   .footer-tabpanel--blend {
     min-height: 0 !important;
   }
@@ -15122,7 +14882,7 @@ a.btn-secondary:active,
   justify-content: flex-end;
   min-height: 14.5rem;
   padding: 0;
-  border-radius: 1.15rem;
+  border-radius: var(--radius-card);
   text-decoration: none;
   color: inherit;
   overflow: hidden;
@@ -15140,7 +14900,7 @@ a.btn-secondary:active,
   isolation: isolate;
 }
 
-/* Essence art â€” full-bleed under copy (Alice / Breakdown codex cards) */
+/* Essence art — full-bleed under copy (Alice / Breakdown codex cards) */
 .quiz-hub-path-card__media {
   position: absolute;
   inset: 0;
@@ -15292,7 +15052,7 @@ a.btn-secondary:active,
   color: #fff;
 }
 
-/* Legacy stats strip â€” never re-surface (path cards own path entry) */
+/* Legacy stats strip — never re-surface (path cards own path entry) */
 .quiz-hub-stats,
 .quiz-hub-stats--compact {
   display: none !important;
@@ -15713,7 +15473,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 }
 
 /* =============================================
-   PHASE 2 â€” Visual elevation + quiz scale
+   PHASE 2 — Visual elevation + quiz scale
    Home banners Â· Network filters Â· Quiz tools Â· CTAs
    ============================================= */
 
@@ -16274,7 +16034,7 @@ select.quiz-hub-sort-select {
     inset 0 -4px 0 rgba(30, 17, 53, 0.65) !important;
 }
 
-/* Quiz player start button â€” same material, slightly larger */
+/* Quiz player start button — same material, slightly larger */
 .quiz-page .btn-primary,
 .quiz-actions .btn-primary,
 .quiz-actions--end .btn-primary {
@@ -16310,7 +16070,7 @@ select.quiz-hub-sort-select {
 }
 
 /* =============================================
-   PHASE 4 â€” Hardening: a11y, focus, reduced motion
+   PHASE 4 — Hardening: a11y, focus, reduced motion
    ============================================= */
 
 /* Unified focus ring for new interactive surfaces */
@@ -16356,7 +16116,7 @@ a.quiz-continue-card:focus-visible,
   position: relative;
 }
 
-/* Reduced motion: kill lifts on Phase 1â€“2 surfaces */
+/* Reduced motion: kill lifts on Phase 1–2 surfaces */
 @media (prefers-reduced-motion: reduce) {
   .quiz-hub-path-card:hover,
   a.quiz-hub-featured-card:hover,
@@ -16408,7 +16168,7 @@ a.quiz-continue-card:focus-visible,
 }
 
 /* =============================================
-   SUPPORT SECTION â€” match index vault cards + primary CTAs
+   SUPPORT SECTION — match index vault cards + primary CTAs
    Final cascade: tab panels + donate buttons
    ============================================= */
 
@@ -16576,7 +16336,7 @@ a.quiz-continue-card:focus-visible,
 }
 
 /* =============================================
-   CODEX â€œTOPICS BY CATEGORYâ€ â€” match site vault language
+   CODEX "TOPICS BY CATEGORY" — match site vault language
    Final cascade: root cards + section toggles + leaf pills
    ============================================= */
 
@@ -16598,7 +16358,7 @@ a.topic-root-card:hover {
   box-shadow: var(--surface-tier-elevated-hover) !important;
 }
 
-/* â€œExplore category â†’â€ stays a calm text-link, not a third button style */
+/* "Explore category →" stays a calm text-link, not a third button style */
 .topic-root-card .explore-badge,
 a.topic-root-card .explore-badge {
   background: transparent !important;
@@ -16613,7 +16373,7 @@ a.topic-root-card:hover .explore-badge {
   color: #fff !important;
 }
 
-/* Category row toggles â€” soft 3D card material (not stadium pills) */
+/* Category row toggles — soft 3D card material (not stadium pills) */
 .category-toggle,
 .category-toggle-btn,
 button.category-toggle-btn {
@@ -16670,7 +16430,7 @@ button.category-toggle-btn:active {
   color: #C4B5FD !important;
 }
 
-/* Count chip inside toggle â€” recessed, not flat Tailwind ghost */
+/* Count chip inside toggle — recessed, not flat Tailwind ghost */
 .category-toggle-btn .text-xs.rounded-full,
 .category-toggle-btn .bg-white\/10 {
   background: rgba(8, 5, 18, 0.45) !important;
@@ -16679,7 +16439,7 @@ button.category-toggle-btn:active {
   color: var(--text-soft) !important;
 }
 
-/* Leaf topic chips â€” card radius, same secondary material as category rows */
+/* Leaf topic chips — card radius, same secondary material as category rows */
 a.topic-leaf-btn,
 .topic-leaf-btn,
 span.topic-leaf-btn {
@@ -16729,7 +16489,7 @@ a.topic-leaf-btn:active,
   ) !important;
 }
 
-/* â€œView â†’â€ â€” text-link tertiary, not a third outlined button */
+/* "View →" — text-link tertiary, not a third outlined button */
 a.topic-section-link,
 .topic-section-link {
   border: none !important;
@@ -16770,7 +16530,7 @@ a.topic-section-link:hover,
 
 /* =============================================
    KILL FAINT GLOW RINGS ON CONTROLS (final)
-   Matches solid 3D CTAs â€” no hairline / outer ring
+   Matches solid 3D CTAs — no hairline / outer ring
    ============================================= */
 .topic-control-btn.active,
 .topic-control-btn.is-active,
@@ -16807,7 +16567,7 @@ a.topic-section-link:hover,
 
 /* =============================================
    BTN-TOPIC-NAV SOLID 3D FINAL
-   Quiz page â€œAll quizzes / Topic / Codexâ€ chips
+   Quiz page "All quizzes / Topic / Codex" chips
    ============================================= */
 a.btn-topic-nav,
 button.btn-topic-nav,
@@ -16854,7 +16614,7 @@ button.btn-topic-nav:hover,
 
 /* =============================================
    VAULT-MATCHED PRIMARY CTAs (final)
-   Same material family as secondary â€” deeper violet,
+   Same material family as secondary — deeper violet,
    not bright lilac plastic. Still clearly primary.
    ============================================= */
 button.btn-primary,
@@ -16906,7 +16666,7 @@ a.btn-primary:active,
   filter: none !important;
 }
 
-/* Mobile nav CTA â€” same vault primary, no outline */
+/* Mobile nav CTA — same vault primary, no outline */
 .nav-cta-mobile {
   background: linear-gradient(180deg, #5B21B6 0%, #4C1D95 42%, #2E1065 100%) !important;
   border: none !important;
@@ -16948,7 +16708,7 @@ a.nav-cta,
   filter: none !important;
 }
 
-/* Primary role â€” deep vault violet */
+/* Primary role — deep vault violet */
 button.btn-primary,
 a.btn-primary,
 .btn-primary,
@@ -16959,7 +16719,7 @@ a.nav-cta,
 .nav-cta-mobile {
   min-height: 2.75rem !important;
   padding: 0.68rem 1.5rem !important;
-  border-radius: 9999px !important;
+  border-radius: var(--radius-button) !important;
   font-size: 0.9375rem !important;
   font-weight: 600 !important;
   letter-spacing: 0.01em !important;
@@ -16996,7 +16756,7 @@ a.btn-primary:active,
   filter: none !important;
 }
 
-/* Secondary role â€” same chrome, darker plate */
+/* Secondary role — same chrome, darker plate */
 button.btn-secondary,
 a.btn-secondary,
 .btn-secondary,
@@ -17005,7 +16765,7 @@ button.btn-topic-nav,
 .btn-topic-nav {
   min-height: 2.75rem !important;
   padding: 0.68rem 1.5rem !important;
-  border-radius: 9999px !important;
+  border-radius: var(--radius-button) !important;
   font-size: 0.9375rem !important;
   font-weight: 600 !important;
   letter-spacing: 0.01em !important;
@@ -17037,7 +16797,7 @@ a.btn-topic-nav:active,
   box-shadow: var(--surface-tier-btn-active) !important;
 }
 
-/* Size modifiers â€” shared */
+/* Size modifiers — shared */
 .btn-primary--lg,
 .btn-secondary--lg,
 .home-hero-actions__primary,
@@ -17064,13 +16824,13 @@ a.btn-topic-nav:active,
 .nav-cta-mobile {
   min-height: 2.75rem !important;
   padding: 0.68rem 1.5rem !important;
-  border-radius: 9999px !important;
+  border-radius: var(--radius-button) !important;
   margin-top: 0.5rem !important;
   justify-content: center !important;
   border: none !important;
 }
 
-/* Compact chips (filters / jump) â€” same material family, slightly smaller */
+/* Compact chips (filters / jump) — same material family, slightly smaller */
 .topic-control-btn,
 .network-filter-btn,
 .btn-jump-pill,
@@ -17094,7 +16854,7 @@ a.btn-topic-nav:active,
   border: none !important;
 }
 
-/* Active filter / jump â€” primary fill, same shadow recipe */
+/* Active filter / jump — primary fill, same shadow recipe */
 .topic-control-btn.active,
 .topic-control-btn.is-active,
 .topic-control-btn[aria-pressed="true"],
@@ -17155,8 +16915,9 @@ a.btn-topic-nav:active,
   border-radius: 0.55rem !important;
 }
 
-/* Quiz page topic nav chips â€” match secondary size slightly smaller is OK on mobile */
-.quiz-back-row .btn-topic-nav {
+/* Quiz page back row — compact secondary */
+.quiz-back-row .btn-topic-nav,
+.quiz-back-row .btn-secondary {
   min-height: 2.5rem !important;
   padding: 0.55rem 1.15rem !important;
   font-size: 0.875rem !important;
@@ -17218,7 +16979,7 @@ body.reading-focus .navbar {
 }
 
 /* =============================================
-   CEO elevation â€” homepage hero, proof, feature pair
+   CEO elevation — homepage hero, proof, feature pair
    ============================================= */
 
 .home-hero {
@@ -17297,7 +17058,7 @@ body.reading-focus .navbar {
   content: ' ';
 }
 
-/* Product Codex card â€” richer media, no nested metrics */
+/* Product Codex card — richer media, no nested metrics */
 .home-banner--product .codex-banner-media {
   height: clamp(8.5rem, 18vw, 12.5rem);
   max-height: 12.5rem;
@@ -17312,7 +17073,7 @@ body.reading-focus .navbar {
   margin-top: 1.35rem;
 }
 
-/* Oracle + Media â€” side-by-side peers, natural height (no forced equal stretch) */
+/* Oracle + Media — side-by-side peers, natural height (no forced equal stretch) */
 .home-feature-pair__grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -17450,7 +17211,7 @@ body.reading-focus .navbar {
   margin-top: 0.25rem;
 }
 
-/* Slimmer nav after IA cut â€” roomier mid desktop */
+/* Slimmer nav after IA cut — roomier mid desktop */
 @media (min-width: 900px) {
   .nav-links {
     gap: 0.35rem;
@@ -17461,7 +17222,7 @@ body.reading-focus .navbar {
   }
 }
 
-/* Footer Connect â€” icon-first density on wide screens */
+/* Footer Connect — icon-first density on wide screens */
 @media (min-width: 768px) {
   .footer-social-row {
     gap: 0.45rem;
@@ -17486,7 +17247,7 @@ body.reading-focus .navbar {
 }
 
 /* =============================================
-   POLISH REPAIR â€” lock critical UI after elevation
+   POLISH REPAIR — lock critical UI after elevation
    Final cascade: fixes nav, tabs, contrast, media, dives
    ============================================= */
 
@@ -17743,7 +17504,7 @@ a.source-card:hover,
   ) !important;
 }
 
-/* --- Dive hero: less purple â€œfilmâ€, more art + readable type --- */
+/* --- Dive hero: less purple "film", more art + readable type --- */
 .deep-dive-hero-scrim {
   background: linear-gradient(
     105deg,
@@ -17901,7 +17662,7 @@ a.topic-root-card {
 }
 
 /* =============================================
-   FOOTER LAYERS â€” utility vs support band
+   FOOTER LAYERS — utility vs support band
    ============================================= */
 
 .site-footer {
@@ -17939,7 +17700,7 @@ a.topic-root-card {
   gap: 0.4rem !important;
 }
 
-/* Support band â€” calmer, clearly separate from utility footer */
+/* Support band — calmer, clearly separate from utility footer */
 .footer-support,
 #support.footer-support {
   margin-top: 1.75rem !important;
@@ -18049,7 +17810,7 @@ a.topic-root-card {
 }
 
 /* =============================================
-   FOOTER V2 â€” balanced utility + rich support ways
+   FOOTER V2 — balanced utility + rich support ways
    ============================================= */
 
 .footer-inner {
@@ -18059,7 +17820,7 @@ a.topic-root-card {
   padding-right: 1.5rem;
 }
 
-/* Utility row: brand | explore | connect â€” even, professional */
+/* Utility row: brand | explore | connect — even, professional */
 .footer-main {
   display: grid !important;
   grid-template-columns: 1fr !important;
@@ -18150,7 +17911,7 @@ a.topic-root-card {
   border: 0 !important;
 }
 
-/* Support band â€” full story + three way cards */
+/* Support band — full story + three way cards */
 .footer-support,
 #support.footer-support {
   max-width: none !important;
@@ -18183,7 +17944,7 @@ a.topic-root-card {
   margin-bottom: 1.15rem !important;
 }
 
-/* Three support forms â€” real cards, not tiny chips */
+/* Three support forms — real cards, not tiny chips */
 .footer-support-funds {
   display: grid !important;
   grid-template-columns: 1fr !important;
@@ -18258,7 +18019,7 @@ a.topic-root-card {
 }
 
 /* =============================================
-   HOMEPAGE TRACK 1 â€” vault hero + hierarchy
+   HOMEPAGE TRACK 1 — vault hero + hierarchy
    ============================================= */
 
 .home-hero--vault {
@@ -18357,7 +18118,7 @@ a.topic-root-card {
   font-size: 0.9rem;
 }
 
-/* Proof HUD â€” quieter than a full static-card stack */
+/* Proof HUD — quieter than a full static-card stack */
 .home-proof-card--hud {
   background:
     linear-gradient(165deg, rgba(255, 255, 255, 0.04) 0%, transparent 50%),
@@ -18444,7 +18205,7 @@ a.topic-root-card {
   }
 }
 
-/* Codex product hero â€” largest homepage surface */
+/* Codex product hero — largest homepage surface */
 .home-banner--product-hero .codex-banner-media {
   height: clamp(10rem, 22vw, 15rem) !important;
   max-height: 15rem !important;
@@ -18468,7 +18229,7 @@ a.topic-root-card {
   max-width: 40rem;
 }
 
-/* Lite companion cards (Oracle / Media) â€” no top banner strip */
+/* Lite companion cards (Oracle / Media) — no top banner strip */
 .home-banner--lite .oracle-banner-media,
 .home-banner--lite .media-banner-media {
   display: none !important;
@@ -18494,7 +18255,7 @@ a.topic-root-card {
 }
 
 /* =============================================
-   HERO VAULT MEDIA â€” still + muted loop (no audio)
+   HERO VAULT MEDIA — still + muted loop (no audio)
    ============================================= */
 
 .home-hero--vault {
@@ -18572,7 +18333,7 @@ a.topic-root-card {
 }
 
 /* =============================================
-   DEEP-DIVE CRAFT PASS â€” museum-grade reading
+   DEEP-DIVE CRAFT PASS — museum-grade reading
    ============================================= */
 
 .deep-dive-hero {
@@ -18631,7 +18392,7 @@ a.topic-root-card {
   font-weight: 500;
 }
 
-/* Section jump pills â€” calm segmented control */
+/* Section jump pills — calm segmented control */
 .dive-jump-label {
   font-size: 0.7rem;
   font-weight: 600;
@@ -18795,7 +18556,7 @@ body[data-report-size="lg"] #report-container {
   color: #EDE4FF !important;
 }
 
-/* Reading progress â€” thin, elegant */
+/* Reading progress — thin, elegant */
 .reading-progress {
   height: 3px !important;
   background: rgba(15, 10, 31, 0.4) !important;
@@ -18829,7 +18590,7 @@ body[data-report-size="lg"] #report-container {
   color: #C4B5FD;
 }
 
-/* Sticky section awareness on dive â€” subtle */
+/* Sticky section awareness on dive — subtle */
 .dive-section-head {
   scroll-margin-top: 5.5rem;
 }
@@ -18912,7 +18673,7 @@ body[data-report-size="lg"] #report-container {
 }
 
 /* =============================================
-   HERO FIX â€” full-bleed media + visible muted loop
+   HERO FIX — full-bleed media + visible muted loop
    Bug: .page-hero > * { position:relative } broke absolute media
    ============================================= */
 
@@ -19117,7 +18878,6 @@ a.quiz-hub-card,
 .lesson-content-card:not(.static-card):not(.dive-report-card),
 .channel-card:not(.topics-filter-panel):not(.static-card):not(.video-card):not(.dive-media-card),
 .network-start-card,
-.journey-card,
 .codex-search-card,
 a.quiz-hub-card,
 .quiz-card,
@@ -19543,7 +19303,7 @@ a.quiz-hub-card {
   border: none !important;
   background: var(--surface-fill-elevated) !important;
   box-shadow: var(--surface-tier-elevated) !important;
-  border-radius: 16px !important;
+  border-radius: var(--radius-card) !important;
 }
 
 a.quiz-hub-card:hover {
@@ -19557,6 +19317,814 @@ a.quiz-hub-card:hover {
   width: 100% !important;
   justify-content: center !important;
   text-align: center !important;
-  border-radius: 9999px !important;
+  border-radius: var(--radius-button) !important;
   min-height: 2.75rem !important;
+}
+
+/* =============================================
+   PHASE 1 — one-body radius lock
+   Pills = --radius-button. Surfaces = --radius-card.
+   Chips = --radius-chip. Icon controls = --radius-icon.
+   Do not add another radius pass after this block.
+   ============================================= */
+
+button.btn-primary,
+a.btn-primary,
+.btn-primary,
+button.btn-secondary,
+a.btn-secondary,
+.btn-secondary,
+a.btn-topic-nav,
+button.btn-topic-nav,
+.btn-topic-nav,
+.nav-cta,
+a.nav-cta,
+.nav-cta-mobile,
+.footer-donate-btn,
+.site-footer .footer-donate-btn,
+.home-hero-actions__primary,
+.home-hero-actions__secondary {
+  border-radius: var(--radius-button) !important;
+}
+
+.topic-control-btn,
+.network-filter-btn,
+.btn-jump-pill,
+.footer-tab,
+.report-study-btn {
+  border-radius: var(--radius-chip) !important;
+}
+
+.footer-social,
+#back-to-top {
+  border-radius: var(--radius-icon) !important;
+}
+
+.memory-card,
+.content-card,
+.source-card,
+.channel-card,
+.lesson-content-card,
+.static-card,
+.quiz-card,
+a.quiz-hub-card,
+.quiz-hub-card,
+.quiz-hub-path-card,
+.topic-root-card,
+.topic-main-root-card,
+.network-start-card,
+.home-banner,
+.codex-banner,
+.oracle-banner,
+.media-banner,
+.source-hero,
+.footer-donate-card,
+.footer-support,
+.dive-continue,
+.error-page-card,
+.codex-hub-panel,
+.codex-stats-bar,
+.codex-toolbar,
+.topics-filter-panel,
+.dive-media-card,
+.dive-video-card,
+.home-proof-card,
+.codex-search-card,
+.journey-card {
+  border-radius: var(--radius-card) !important;
+}
+
+/* btn-topic-nav is a secondary CTA alias until generated dives rebuild */
+a.btn-topic-nav,
+button.btn-topic-nav,
+.btn-topic-nav {
+  background: var(--btn-fill-secondary) !important;
+  color: #EDE4FF !important;
+}
+
+button.text-link {
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0.45rem 0.35rem;
+  cursor: pointer;
+  font: inherit;
+  box-shadow: none;
+}
+
+/* =============================================
+   PHASE 3 — interior recipe + mobile composure
+   Layout only. Radii stay on the Phase 1 tokens.
+   ============================================= */
+
+/* Hub CTA cluster — stack full-width below 640px, row above */
+.page-hero .home-hero-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  max-width: 22rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.35rem;
+}
+
+.page-hero .home-hero-actions .btn-primary,
+.page-hero .home-hero-actions .btn-secondary,
+.page-hero .home-hero-actions__primary,
+.page-hero .home-hero-actions__secondary {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .page-hero .home-hero-actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: none;
+    gap: 0.85rem 1rem;
+  }
+
+  .page-hero .home-hero-actions .btn-primary,
+  .page-hero .home-hero-actions .btn-secondary,
+  .page-hero .home-hero-actions__primary,
+  .page-hero .home-hero-actions__secondary {
+    width: auto;
+  }
+}
+
+/* Dive titles — hub scale, solid white on photo heroes (not metallic wordmark) */
+.deep-dive-hero h1,
+.page-hero-title--dive {
+  font-size: clamp(1.85rem, 5.2vw, 3.15rem) !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.035em !important;
+  line-height: 1.12 !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background: none !important;
+  text-wrap: balance;
+}
+
+/* Copy wraps; never clip */
+.page-hero-lead,
+.home-hero-lead,
+.codex-home-metric-label,
+.network-start-card__desc {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: normal;
+}
+
+/* Quiz hub: chips in one scroll row; sort/view on the next */
+.quiz-hub-chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem 0.85rem;
+  margin-top: 0.75rem;
+}
+
+.quiz-hub-chips .quiz-hub-filters,
+.quiz-hub-chips .quiz-hub-status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0;
+}
+
+.quiz-hub-search .codex-search-field {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 639px) {
+  .quiz-hub-chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 0.75rem;
+    padding-bottom: 0.2rem;
+    scrollbar-width: none;
+  }
+
+  .quiz-hub-chips::-webkit-scrollbar {
+    display: none;
+  }
+
+  .quiz-hub-chips .quiz-hub-filters,
+  .quiz-hub-chips .quiz-hub-status {
+    flex-wrap: nowrap;
+    flex: 0 0 auto;
+  }
+
+  .quiz-hub-toolbar__meta {
+    margin-top: 0.65rem;
+  }
+}
+
+/* Support tabs = chip family; one horizontal row on phones */
+.footer-tab {
+  background: var(--btn-fill-secondary) !important;
+  color: #EDE4FF !important;
+  box-shadow: var(--surface-tier-btn) !important;
+}
+
+.footer-tab:hover {
+  background: var(--btn-fill-secondary-hover) !important;
+  color: #ffffff !important;
+}
+
+.footer-tab.is-active,
+.footer-tab[aria-selected='true'] {
+  background: var(--btn-fill-primary) !important;
+  color: #ffffff !important;
+  box-shadow: var(--surface-tier-btn) !important;
+}
+
+@media (max-width: 639px) {
+  .footer-tablist {
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .footer-tablist::-webkit-scrollbar {
+    display: none;
+  }
+
+  .footer-tab {
+    flex: 0 0 auto !important;
+    min-width: auto !important;
+  }
+}
+
+/* 44px tap targets after earlier compact chip sizes */
+@media (max-width: 767px) {
+  .topic-control-btn,
+  .network-filter-btn,
+  .btn-jump-pill,
+  .footer-tab {
+    min-height: 44px !important;
+  }
+
+  .report-study-toolbar {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    background: #1A1433 !important;
+  }
+}
+
+/* Back-to-top — icon-control material, no scale bounce */
+#back-to-top {
+  background: var(--btn-fill-secondary) !important;
+  color: #ffffff !important;
+  border-radius: var(--radius-icon) !important;
+  box-shadow: var(--surface-tier-btn) !important;
+}
+
+#back-to-top:hover {
+  background: var(--btn-fill-secondary-hover) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: var(--surface-tier-btn-hover) !important;
+}
+
+#back-to-top:active {
+  transform: translateY(1px) !important;
+  box-shadow: var(--surface-tier-btn-active) !important;
+}
+
+/* =============================================
+   Segmented controls — one track, one selected piece
+   Support tabs + quiz List/Grid. Not standalone 3D pills.
+   ============================================= */
+
+.footer-tablist,
+.quiz-hub-view-toggle {
+  display: inline-flex !important;
+  flex-wrap: nowrap !important;
+  align-items: stretch !important;
+  gap: 0 !important;
+  width: 100%;
+  max-width: 100%;
+  padding: 0.2rem !important;
+  border-radius: 9999px !important;
+  background: rgba(8, 5, 18, 0.55) !important;
+  border: none !important;
+  box-shadow: var(--depth-recessed) !important;
+}
+
+.quiz-hub-view-toggle {
+  width: auto;
+  flex: 0 0 auto;
+}
+
+.footer-tab,
+.quiz-view-btn,
+.quiz-hub-view-toggle .topic-control-btn {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  min-height: 2.4rem !important;
+  padding: 0.4rem 0.85rem !important;
+  border: none !important;
+  border-radius: 9999px !important;
+  background: transparent !important;
+  color: var(--text-muted) !important;
+  box-shadow: none !important;
+  transform: none !important;
+  text-shadow: none !important;
+  font-weight: 600 !important;
+}
+
+.quiz-view-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem !important;
+  padding: 0.4rem 0.7rem !important;
+  color: inherit;
+  cursor: pointer;
+}
+
+.quiz-view-btn svg {
+  display: block;
+}
+
+.footer-tab:hover,
+.quiz-view-btn:hover,
+.quiz-hub-view-toggle .topic-control-btn:hover {
+  background: rgba(91, 33, 182, 0.16) !important;
+  color: var(--text-primary) !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.footer-tab.is-active,
+.footer-tab[aria-selected='true'],
+.quiz-view-btn.is-active,
+.quiz-view-btn.active,
+.quiz-hub-view-toggle .topic-control-btn.is-active,
+.quiz-hub-view-toggle .topic-control-btn.active,
+.quiz-hub-view-toggle .topic-control-btn[aria-pressed='true'] {
+  background: var(--btn-fill-primary) !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.footer-tab:focus-visible,
+.quiz-view-btn:focus-visible {
+  outline: 2px solid rgba(167, 139, 250, 0.7);
+  outline-offset: 2px;
+}
+
+@media (max-width: 639px) {
+  .footer-tablist {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .footer-tablist::-webkit-scrollbar {
+    display: none;
+  }
+
+  .footer-tab {
+    flex: 1 0 auto !important;
+    min-height: 44px !important;
+  }
+}
+
+a.quiz-hub-row,
+a.quiz-hub-card {
+  scroll-margin-top: calc(6.5rem + env(safe-area-inset-top, 0px));
+}
+
+/* =============================================
+   Quiet back-to-top — same on every page
+   overflow-x:clip above keeps position:fixed on the viewport
+   ============================================= */
+
+html, body {
+  overflow-x: clip;
+}
+
+#back-to-top {
+  position: fixed !important;
+  right: calc(1.1rem + env(safe-area-inset-right, 0px)) !important;
+  bottom: calc(1.1rem + env(safe-area-inset-bottom, 0px)) !important;
+  left: auto !important;
+  top: auto !important;
+  z-index: 2147483646 !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem !important;
+  height: 2.75rem !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 1px solid rgba(196, 181, 253, 0.38) !important;
+  border-radius: 9999px !important;
+  background: linear-gradient(165deg, #6D28D9 0%, #4C1D95 55%, #3B0764 100%) !important;
+  color: #F8F5FF !important;
+  box-shadow:
+    0 10px 28px -10px rgba(0, 0, 0, 0.7),
+    0 0 22px -8px rgba(124, 58, 237, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22) !important;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition:
+    opacity 0.22s var(--ease-out-soft, cubic-bezier(0.22, 1, 0.36, 1)),
+    transform 0.22s var(--ease-out-soft, cubic-bezier(0.22, 1, 0.36, 1)),
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+#back-to-top.is-visible,
+#back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+#back-to-top:hover {
+  background: linear-gradient(165deg, #7C3AED 0%, #5B21B6 55%, #4C1D95 100%) !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow:
+    0 14px 32px -10px rgba(0, 0, 0, 0.72),
+    0 0 28px -6px rgba(139, 61, 255, 0.6),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28) !important;
+}
+
+#back-to-top:active {
+  transform: translateY(1px);
+}
+
+#back-to-top:focus-visible {
+  outline: 2px solid rgba(167, 139, 250, 0.75);
+  outline-offset: 3px;
+}
+
+.back-to-top__icon {
+  display: block;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #back-to-top {
+    transition: opacity 0.15s ease;
+    transform: none !important;
+  }
+
+  #back-to-top:hover,
+  #back-to-top:active {
+    transform: none !important;
+  }
+}
+
+/* =============================================
+   Codex topic cards — kill the hairline rail / inset
+   ============================================= */
+
+.topic-section-children,
+.topic-section-subs,
+.topic-category-block .border-l-2 {
+  border-left: none !important;
+  border-left-width: 0 !important;
+  border-left-color: transparent !important;
+}
+
+.topic-section-subs {
+  padding-left: 0.35rem;
+}
+
+.topic-main-root-card,
+.topic-main-root-card:hover {
+  box-shadow:
+    0 18px 44px -16px rgba(0, 0, 0, 0.58),
+    0 8px 22px -12px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* =============================================
+   Native selects — vault fill, quiet focus, dark list
+   ============================================= */
+
+.quiz-hub-sort-select,
+select.quiz-hub-sort-select,
+.codex-sort-select,
+select.codex-sort-select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  color-scheme: dark !important;
+  border: none !important;
+  outline: none !important;
+  color: #F1EBFF !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+  background-color: #1A1433 !important;
+  background-image:
+    linear-gradient(180deg, #2A1F48 0%, #1A1433 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23A78BFA' stroke-width='2.25' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat, no-repeat !important;
+  background-position: center, right 0.7rem center !important;
+  background-size: 100% 100%, 12px 12px !important;
+  box-shadow:
+    0 6px 14px -6px rgba(0, 0, 0, 0.5),
+    inset 0 1.5px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.28) !important;
+}
+
+.codex-sort-select,
+select.codex-sort-select {
+  min-height: 2.75rem !important;
+  height: 2.75rem !important;
+  padding: 0 2.15rem 0 0.9rem !important;
+  border-radius: 12px !important;
+  font-size: 0.88rem !important;
+}
+
+.quiz-hub-sort-select,
+select.quiz-hub-sort-select {
+  min-height: 2.4rem !important;
+  height: 2.4rem !important;
+  padding: 0 2rem 0 0.85rem !important;
+  border-radius: 9999px !important;
+  font-size: 0.78rem !important;
+}
+
+.quiz-hub-sort-select:hover,
+select.quiz-hub-sort-select:hover,
+.codex-sort-select:hover,
+select.codex-sort-select:hover {
+  background-color: #221A42 !important;
+  background-image:
+    linear-gradient(180deg, #332656 0%, #221A42 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C4B5FD' stroke-width='2.25' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") !important;
+}
+
+.quiz-hub-sort-select:focus,
+.quiz-hub-sort-select:focus-visible,
+select.quiz-hub-sort-select:focus,
+select.quiz-hub-sort-select:focus-visible,
+.codex-sort-select:focus,
+.codex-sort-select:focus-visible,
+select.codex-sort-select:focus,
+select.codex-sort-select:focus-visible {
+  outline: none !important;
+  border: none !important;
+  box-shadow:
+    0 6px 14px -6px rgba(0, 0, 0, 0.5),
+    inset 0 1.5px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.28),
+    0 0 0 2px rgba(124, 58, 237, 0.38) !important;
+}
+
+.quiz-hub-sort-select option,
+.codex-sort-select option,
+.video-lang-select option,
+select option {
+  background-color: #1A1433;
+  color: #F1EBFF;
+}
+
+.video-lang-select,
+select.video-lang-select {
+  color-scheme: dark !important;
+  background-color: #1A1433 !important;
+  color: #F1EBFF !important;
+}
+
+/* =============================================
+   One stats HUD language (home / Codex / quizzes)
+   ============================================= */
+
+.home-proof-card--hud,
+.codex-stats-bar,
+.quiz-hub-stats {
+  padding: 1.2rem 1.25rem 1.15rem !important;
+  border-radius: var(--radius-card) !important;
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.05) 0%, transparent 44%),
+    rgba(18, 12, 36, 0.78) !important;
+  box-shadow: var(--surface-tier-elevated) !important;
+  border: none !important;
+}
+
+.codex-home-metric-value,
+.codex-stat-value,
+.quiz-hub-stat__value {
+  font-family: 'Space Grotesk', Inter, system-ui, sans-serif !important;
+  font-size: clamp(1.4rem, 2.6vw, 1.7rem) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1.1 !important;
+  color: #F8FAFC !important;
+  font-variant-numeric: tabular-nums;
+}
+
+.codex-home-metric-label,
+.codex-stat-label,
+.quiz-hub-stat__label {
+  margin-top: 0.3rem !important;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  color: var(--text-muted) !important;
+}
+
+.codex-stat,
+.quiz-hub-stat {
+  padding: 0.7rem 0.65rem !important;
+  border-radius: 0.75rem !important;
+  background: rgba(8, 5, 18, 0.4) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+}
+
+.archive-progress-bar,
+.quiz-hub-stats__bar,
+.codex-home-progress .archive-progress-bar {
+  height: 0.35rem !important;
+  border-radius: 9999px !important;
+}
+
+/* =============================================
+   Dive jump pills — same segmented track
+   ============================================= */
+
+.jump-to-pills,
+.dive-section-seg,
+.section-nav-sticky .dive-section-seg--sticky {
+  display: inline-flex !important;
+  flex-wrap: nowrap !important;
+  align-items: stretch !important;
+  gap: 0 !important;
+  width: 100%;
+  max-width: min(100%, 28rem);
+  padding: 0.2rem !important;
+  border-radius: 9999px !important;
+  background: rgba(8, 5, 18, 0.55) !important;
+  border: none !important;
+  box-shadow: var(--depth-recessed) !important;
+  overflow: hidden;
+}
+
+.jump-to-pills .btn-jump-pill,
+.dive-section-seg .btn-jump-pill,
+.section-nav-sticky .btn-jump-pill {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  min-height: 2.35rem !important;
+  padding: 0.4rem 0.7rem !important;
+  border: none !important;
+  border-radius: 9999px !important;
+  background: transparent !important;
+  color: var(--text-muted) !important;
+  box-shadow: none !important;
+  transform: none !important;
+  text-shadow: none !important;
+  letter-spacing: 0.06em !important;
+}
+
+.jump-to-pills .btn-jump-pill:hover,
+.dive-section-seg .btn-jump-pill:hover,
+.section-nav-sticky .btn-jump-pill:hover {
+  background: rgba(91, 33, 182, 0.16) !important;
+  color: var(--text-primary) !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.jump-to-pills .btn-jump-pill.is-active,
+.jump-to-pills .btn-jump-pill.active,
+.dive-section-seg .btn-jump-pill.is-active,
+.section-nav-sticky .btn-jump-pill.is-active,
+.section-nav-sticky .btn-jump-pill.active {
+  background: var(--btn-fill-primary) !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+@media (max-width: 639px) {
+  .jump-to-pills .btn-jump-pill,
+  .dive-section-seg .btn-jump-pill,
+  .section-nav-sticky .btn-jump-pill {
+    min-height: 44px !important;
+    font-size: 0.68rem !important;
+    padding-left: 0.45rem !important;
+    padding-right: 0.45rem !important;
+  }
+}
+
+/* =============================================
+   Browse cards — path-card rhythm (eyebrow / title / action)
+   ============================================= */
+
+.source-card .card-label,
+.network-start-card__label,
+.quiz-hub-path-card__eyebrow {
+  font-size: 0.68rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+}
+
+.source-card-title,
+.network-start-card__title,
+.quiz-hub-path-card__title {
+  font-family: 'Space Grotesk', Inter, system-ui, sans-serif;
+  font-weight: 600 !important;
+  letter-spacing: -0.025em !important;
+  line-height: 1.22 !important;
+}
+
+.source-card-action,
+.network-start-card__action,
+.quiz-hub-path-card__cta {
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.01em;
+}
+
+/* =============================================
+   Long-read report — one paper, one type ladder
+   ============================================= */
+
+.report-prerendered,
+#report-container {
+  max-width: min(100%, var(--prose-measure, 48rem));
+}
+
+#report-container h1,
+.report-prerendered h1 {
+  font-size: clamp(1.55rem, 2.6vw, 1.85rem) !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1.2 !important;
+  margin: 0 0 0.9rem !important;
+}
+
+#report-container h2,
+.report-prerendered h2 {
+  font-size: clamp(1.18rem, 2vw, 1.32rem) !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.02em !important;
+  line-height: 1.28 !important;
+  margin: 1.65rem 0 0.55rem !important;
+}
+
+#report-container h3,
+.report-prerendered h3 {
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.015em !important;
+  line-height: 1.35 !important;
+  margin: 1.25rem 0 0.4rem !important;
+}
+
+#report-container p,
+.report-prerendered p {
+  line-height: 1.74 !important;
+  color: var(--text-body-tint);
+}
+
+.term-card,
+#report-container .term-card {
+  background: var(--surface-fill-nested) !important;
+  box-shadow: var(--surface-tier-base) !important;
+  border: none !important;
+  border-radius: var(--radius-card) !important;
+}
+
+#report-container .term-card__term,
+.term-card__term {
+  color: var(--text-soft) !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.015em !important;
+}
+
+/* Practice-mode cards — selected by fill, never a colored halo */
+.quiz-mode-btn,
+.quiz-mode-btn:hover,
+.quiz-mode-btn.is-active {
+  transform: none !important;
+}
+
+.quiz-mode-btn.is-active {
+  background: linear-gradient(180deg, rgba(76, 29, 149, 0.38) 0%, rgba(22, 14, 42, 0.92) 100%) !important;
+  box-shadow:
+    0 8px 18px -12px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.28) !important;
 }

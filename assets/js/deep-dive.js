@@ -388,12 +388,10 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId, mediaFlag
       <div class="deep-dive-hero-scrim"></div>
       <div class="deep-dive-hero-content">
         <div class="deep-dive-hero-meta">
-          <div class="inline-flex items-center px-4 py-1 rounded-full bg-black/40 text-mem-muted text-xs font-semibold tracking-[2px] border border-white/10">
-            ${escapeHtml(fullData.title)}
-          </div>
+          <p class="page-hero-eyebrow">${escapeHtml(fullData.title)}</p>
           ${readingTime ? `<span class="deep-dive-reading-time">${escapeHtml(readingTime)}</span>` : ''}
         </div>
-        <h1 class="text-4xl md:text-6xl font-semibold tracking-tighter leading-none text-white">${escapeHtml(topic.title)}</h1>
+        <h1 class="page-hero-title--dive">${escapeHtml(topic.title)}</h1>
         <div class="deep-dive-hero-accent" aria-hidden="true"></div>
         <div class="text-[17px] text-mem-secondary max-w-[52ch] leading-relaxed">
           ${(topic.description || '').split('\n\n').map((p) => `<p class="mb-3 last:mb-0">${escapeHtml(p)}</p>`).join('')}
@@ -511,7 +509,7 @@ function renderContinueLearning({ sourceId, topic }) {
     : `<a href="quizzes.html" class="btn-secondary dive-continue__btn">Browse Living Truth Quizzes</a>`;
 
   return `
-  <aside class="dive-continue content-card static-card rounded-3xl p-6 md:p-8 mt-8" aria-label="Continue learning">
+  <aside class="dive-continue content-card static-card p-6 md:p-8 mt-8" aria-label="Continue learning">
     <h2 class="dive-continue__title">Continue learning</h2>
     <p class="dive-continue__lead">
       This archive is an AI-assisted bridge. For the source material, visit the original transmissions on the Network — then test your understanding with a quiz.
@@ -599,7 +597,7 @@ async function loadLessonViewer() {
     headerContainer.innerHTML = `
       <div class="text-center py-12">
         <p class="text-red-400 mb-4">No topic specified.</p>
-        <a href="codex.html" class="btn-primary inline-flex items-center justify-center px-8 py-3 text-sm font-semibold">← Back to Codex</a>
+        <a href="codex.html" class="btn-primary">← Back to Codex</a>
       </div>`;
     return;
   }
@@ -623,7 +621,7 @@ async function loadLessonViewer() {
       headerContainer.innerHTML = `
         <div class="text-center py-12">
           <p class="text-red-400 mb-4">Topic not found: ${escapeHtml(topicId)}</p>
-          <a href="topics.html?source=${encodeURIComponent(sourceId)}" class="btn-primary inline-flex items-center justify-center px-8 py-3 text-sm font-semibold">← Back to topics</a>
+          <a href="topics.html?source=${encodeURIComponent(sourceId)}" class="btn-primary">← Back to topics</a>
         </div>`;
       return;
     }
@@ -642,7 +640,7 @@ async function loadLessonViewer() {
     });
 
     headerContainer.innerHTML = renderCinematicHero({ breadcrumbs, fullData, topic, sourceId, mediaFlags: flags });
-    headerContainer.classList.remove('content-card', 'static-card', 'rounded-3xl', 'p-8', 'md:p-12');
+    headerContainer.classList.remove('content-card', 'static-card', 'rounded-3xl', 'rounded-card', 'p-8', 'md:p-12');
     setupJumpToPills();
 
     const topicNav = document.getElementById("topic-nav");
@@ -667,7 +665,7 @@ async function loadLessonViewer() {
             The Great Remembering reveals its wisdom in perfect timing.
           </p>
           <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics"
-             class="btn-primary inline-flex items-center justify-center px-10 py-4 text-base font-semibold"
+             class="btn-primary"
              data-back-to-topics
              data-source-id="${escapeAttr(sourceId)}"
              data-topic-id="${escapeAttr(topicId)}">← Back to topics</a>
@@ -743,7 +741,7 @@ async function loadLessonViewer() {
           }
           pdfContainer.innerHTML = `
             <a href="${escapeAttr(topic.slide_deck_pdf_url)}" target="_blank" rel="noopener noreferrer"
-               class="slide-deck-download-btn btn-secondary w-full inline-flex items-center justify-center gap-x-2 px-6 py-3 text-sm font-semibold rounded-xl">
+               class="slide-deck-download-btn btn-secondary">
               ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} Download slide deck PDF
             </a>
           `;

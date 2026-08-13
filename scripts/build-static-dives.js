@@ -348,7 +348,7 @@ function renderContinueLearning({ sourceId, quiz, lastUpdated, assetBase = ASSET
     : `<a href="${assetBase}quizzes.html" class="btn-secondary dive-continue__btn">Browse Living Truth Quizzes</a>`;
 
   return `
-  <aside class="dive-continue content-card static-card rounded-3xl p-6 md:p-8 mt-8" aria-label="Continue learning">
+  <aside class="dive-continue content-card static-card p-6 md:p-8 mt-8" aria-label="Continue learning">
     <h2 class="dive-continue__title">Continue learning</h2>
     <p class="dive-continue__lead">
       This archive is an AI-assisted bridge. For the source material, visit the original transmissions on the Network — then test your understanding with a quiz.
@@ -396,8 +396,8 @@ function renderVideos(videos) {
       const desc = video.description
         ? `<p class="dive-video-card__desc">${escapeHtml(video.description)}</p>`
         : '';
-      return `<article class="dive-video-card content-card static-card rounded-3xl p-4 group">
-        <div class="dive-video-card__frame aspect-[16/10] bg-[#0F0A1F] rounded-2xl overflow-hidden relative">
+      return `<article class="dive-video-card content-card static-card p-4">
+        <div class="dive-video-card__frame aspect-[16/10] overflow-hidden relative">
           <div class="video-poster-wrap absolute inset-0 cursor-pointer"
                data-rumble-embed="${embed}"
                data-video-title="${title}"
@@ -524,15 +524,13 @@ function buildPage({
           <div class="deep-dive-hero-bg" ${bgStyle}></div>
           <div class="deep-dive-hero-scrim"></div>
           <div class="deep-dive-hero-content">
-            <div class="inline-flex items-center px-4 py-1 rounded-full bg-black/40 text-mem-muted text-xs font-semibold tracking-[2px] border border-white/10 mb-4">
-              ${escapeHtml(sourceTitle)} · Coming soon
-            </div>
-            <h1 class="text-4xl md:text-6xl font-semibold tracking-tighter leading-none text-white">${escapeHtml(title)}</h1>
+            <p class="page-hero-eyebrow">${escapeHtml(sourceTitle)} · Coming soon</p>
+            <h1 class="page-hero-title--dive">${escapeHtml(title)}</h1>
             <div class="deep-dive-hero-accent" aria-hidden="true"></div>
             <p class="text-[17px] text-mem-secondary max-w-[52ch] leading-relaxed mt-4">${escapeHtml(description)}</p>
             <div class="mt-8 flex flex-wrap gap-3">
-              <a href="${ASSET_BASE}codex.html" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Codex</a>
-              <a href="${ASSET_BASE}topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← Back to Topics</a>
+              <a href="${ASSET_BASE}codex.html" class="btn-secondary btn-secondary--sm">← Back to Codex</a>
+              <a href="${ASSET_BASE}topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="btn-secondary btn-secondary--sm">← Back to Topics</a>
             </div>
           </div>
         </div>
@@ -565,13 +563,11 @@ function buildPage({
           <div class="deep-dive-hero-scrim"></div>
           <div class="deep-dive-hero-content">
             <div class="deep-dive-hero-meta">
-              <div class="inline-flex items-center px-4 py-1 rounded-full bg-black/40 text-mem-muted text-xs font-semibold tracking-[2px] border border-white/10">
-                ${escapeHtml(sourceTitle)}
-              </div>
+              <p class="page-hero-eyebrow">${escapeHtml(sourceTitle)}</p>
               ${readingTime ? `<span class="deep-dive-reading-time">${escapeHtml(readingTime)}</span>` : ''}
               ${lastUpdated ? `<span class="deep-dive-reading-time" title="Content last updated">Updated ${escapeHtml(lastUpdated)}</span>` : ''}
             </div>
-            <h1 class="text-4xl md:text-6xl font-semibold tracking-tighter leading-none text-white">${escapeHtml(title)}</h1>
+            <h1 class="page-hero-title--dive">${escapeHtml(title)}</h1>
             <div class="deep-dive-hero-accent" aria-hidden="true"></div>
             <div class="text-[17px] text-mem-secondary max-w-[52ch] leading-relaxed">
               ${(description || '')
@@ -615,9 +611,9 @@ function buildPage({
         ${
           flags.hasInfographic
             ? `<div class="md:col-span-6${flags.hasSlide ? '' : ' md:col-span-12 max-w-3xl mx-auto'}">
-          <div class="dive-media-card media-panel static-card surface-static rounded-card p-4 sm:p-5 h-full flex flex-col">
+          <div class="dive-media-card media-panel static-card surface-static p-4 sm:p-5 h-full flex flex-col">
             <div class="dive-media-card__frame media-frame surface-media w-full max-w-none flex-1">
-              <div class="media-scrim rounded-card overflow-hidden dive-media-card__scrim flex items-center justify-center">
+              <div class="media-scrim overflow-hidden dive-media-card__scrim flex items-center justify-center">
                 <div class="infographic-artifact" role="button" tabindex="0" aria-label="Open full size infographic" data-infographic-src="${escapeAttr(infographicSrc)}">
                   <img src="${escapeAttr(infographicSrc)}" alt="${escapeHtml(title)} Infographic" loading="lazy" decoding="async" width="800" height="600">
                   <div class="infographic-artifact-caption">
@@ -634,9 +630,9 @@ function buildPage({
         ${
           flags.hasSlide
             ? `<div class="md:col-span-6${flags.hasInfographic ? '' : ' md:col-span-12 max-w-3xl mx-auto'}">
-          <div class="dive-media-card media-panel static-card surface-static rounded-card p-4 sm:p-5 h-full flex flex-col">
+          <div class="dive-media-card media-panel static-card surface-static p-4 sm:p-5 h-full flex flex-col">
             <div class="dive-media-card__frame media-frame surface-media w-full max-w-none flex-1 mb-3">
-              <div class="media-scrim rounded-card overflow-hidden dive-media-card__scrim flex items-center justify-center">
+              <div class="media-scrim overflow-hidden dive-media-card__scrim flex items-center justify-center">
                 ${
                   pdfPreview
                     ? `<div class="slide-deck-artifact" role="button" tabindex="0" aria-label="Open slide deck PDF" data-pdf-url="${escapeAttr(topic.slide_deck_pdf_url)}">
@@ -651,7 +647,7 @@ function buildPage({
               </div>
             </div>
             <a href="${escapeAttr(topic.slide_deck_pdf_url)}" target="_blank" rel="noopener noreferrer"
-               class="slide-deck-download-btn btn-secondary w-full inline-flex items-center justify-center gap-x-2 px-6 py-3 text-sm font-semibold rounded-xl">
+               class="slide-deck-download-btn btn-secondary">
               Download slide deck PDF
             </a>
           </div>
@@ -688,7 +684,7 @@ function buildPage({
     <div id="report-section" class="mb-8">
       ${renderSectionHeading('Deep dive report')}
       <div class="max-w-6xl mx-auto px-6">
-        <div class="content-card static-card lesson-content-card dive-report-card rounded-3xl p-8 md:p-12 lg:p-16">
+        <div class="content-card static-card lesson-content-card dive-report-card p-8 md:p-12 lg:p-16">
           ${renderStudyToolbar()}
           <div id="report-toc-mobile" class="report-toc-mobile" hidden></div>
           <div class="report-layout">
@@ -719,9 +715,10 @@ function buildPage({
   });
 
   return `<!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="color-scheme:dark;background-color:#0F0A1F">
 <head>
     <meta charset="UTF-8">
+    <meta name="color-scheme" content="dark">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(pageTitle)}</title>
     <meta name="description" content="${escapeAttr(metaDescription)}">
@@ -745,7 +742,7 @@ ${robots}    <link rel="canonical" href="${canonical}">
     <meta name="twitter:image" content="${escapeAttr(ogImage)}">
 ${jsonLd}
         <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
-    <style>html,body{background-color:#0F0A1F}</style>
+    <style>html,body{background-color:#0F0A1F;color-scheme:dark}</style>
     <link rel="preload" href="${ASSET_BASE}assets/css/main.min.css" as="style">
     <link rel="stylesheet" href="${ASSET_BASE}assets/css/fonts.css">
     <link rel="stylesheet" href="${ASSET_BASE}assets/css/tailwind.css">
@@ -766,7 +763,7 @@ ${bodyMain}
             <div id="infographic-modal-viewport" class="infographic-modal-viewport">
                 <img id="modal-image" src="" alt="Full size infographic" class="infographic-modal-image">
             </div>
-            <button type="button" id="close-modal" class="absolute -top-1 -right-1 md:top-0 md:right-0 z-10 p-2 rounded-full bg-black/60 text-white" aria-label="Close">✕</button>
+            <button type="button" id="close-modal" class="icon-control icon-control--close absolute -top-1 -right-1 md:top-0 md:right-0 z-10" aria-label="Close">✕</button>
         </div>
     </div>
 

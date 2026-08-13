@@ -427,7 +427,7 @@
           <div class="quiz-nav-left">
             <button type="button" class="btn-secondary" data-action="prev" ${state.index === 0 ? 'disabled' : ''}><span>Previous</span></button>
             ${q.hint && !revealed ? `
-              <button type="button" class="quiz-btn-ghost" data-action="hint" aria-expanded="${state.hintOpen}">
+              <button type="button" class="text-link" data-action="hint" aria-expanded="${state.hintOpen}">
                 ${state.hintOpen ? 'Hide hint' : 'Show hint'}
               </button>
             ` : ''}
@@ -541,9 +541,12 @@
     el.root.innerHTML = `
       <div class="quiz-shell">
         <div class="quiz-back-row">
-          <a href="${escapeHtml(quizzesHref)}" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">← All quizzes</a>
-          <a href="${escapeHtml(topicHref)}" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">Topic</a>
-          <a href="${escapeHtml(resolveCodexHref())}" class="btn-topic-nav inline-flex items-center justify-center text-sm px-5">Codex</a>
+          <a href="${escapeHtml(quizzesHref)}" class="text-link quiz-back-link">← Quizzes</a>
+          <span class="quiz-back-row__more">
+            <a href="${escapeHtml(topicHref)}" class="text-link">Topic</a>
+            <span class="quiz-back-row__dot" aria-hidden="true">·</span>
+            <a href="${escapeHtml(resolveCodexHref())}" class="text-link">Codex</a>
+          </span>
         </div>
         ${body}
       </div>
@@ -552,7 +555,16 @@
 
   /** Root-relative paths work from /quiz/alice/*.html and root pages. */
   function resolveQuizzesHubHref() {
-    return '/quizzes.html';
+    const key = resolveQuizKey(state.data, el.root);
+    const parts = String(key).split('/');
+    const sourceId = parts[0] === 'alice' || parts[0] === 'breakdown' ? parts[0] : '';
+    const topicId = parts[1] || state.data?.topicId || state.data?.id || '';
+    const params = new URLSearchParams();
+    params.set('browse', '1');
+    if (sourceId) params.set('source', sourceId);
+    if (topicId) params.set('focus', topicId);
+    const hash = topicId ? `#quiz-${sourceId ? `${sourceId}-` : ''}${topicId}` : '';
+    return `/quizzes.html?${params.toString()}${hash}`;
   }
 
   function resolveCodexHref() {

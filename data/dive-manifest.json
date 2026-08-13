@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T04:22:09.952Z",
+  "generatedAt": "2026-08-13T05:10:25.657Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -838,7 +838,7 @@
       "sourceId": "breakdown",
       "topicId": "rainbow-fractals",
       "path": "/dive/breakdown/rainbow-fractals.html",
-      "live": false,
+      "live": true,
       "title": "Rainbow Fractals"
     },
     {

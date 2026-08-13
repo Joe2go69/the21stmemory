@@ -2,6 +2,7 @@
 
 const QUIZ_INDEX_URL = 'data/quizzes-index.json';
 const QUIZ_PROGRESS_KEY = '21st-memory-quiz-progress-v1';
+const QUIZ_HUB_STATE_KEY = '21st-memory-quiz-hub-state-v1';
 const QUIZ_PASS_PCT = 70;
 
 function initQuizzesHub() {
@@ -10,6 +11,14 @@ function initQuizzesHub() {
   const empty = document.getElementById('quizzes-empty');
   const countEl = document.getElementById('quizzes-visible-count');
   const searchInput = document.getElementById('quizzes-search');
+  function syncSearchPlaceholder() {
+    if (!searchInput) return;
+    const long = searchInput.getAttribute('data-placeholder-long') || searchInput.placeholder;
+    const short = searchInput.getAttribute('data-placeholder-short') || 'Search quizzes…';
+    searchInput.placeholder = window.matchMedia('(max-width: 639px)').matches ? short : long;
+  }
+  syncSearchPlaceholder();
+  window.addEventListener('resize', syncSearchPlaceholder);
   const backBtn = document.querySelector('[data-quiz-show-overview]');
   const continueRoot = document.getElementById('quiz-continue');
   const continueTrack = document.getElementById('quiz-continue-track');
@@ -320,7 +329,8 @@ function initQuizzesHub() {
     const searchBlob = [quiz.title, quiz.subtitle, quiz.sourceLabel, quiz.sourceTitle]
       .join(' ')
       .toLowerCase();
-    return `<a href="${escapeAttr(quiz.href)}" class="quiz-hub-row quiz-hub-card" role="listitem" data-source="${escapeAttr(quiz.sourceId)}" data-quiz-key="${escapeAttr(key)}" data-search="${escapeAttr(searchBlob)}">
+    const focusId = `quiz-${escapeAttr(String(key).replace(/[^\w-]+/g, '-'))}`;
+    return `<a href="${escapeAttr(quiz.href)}" class="quiz-hub-row quiz-hub-card" role="listitem" id="${focusId}" data-source="${escapeAttr(quiz.sourceId)}" data-quiz-key="${escapeAttr(key)}" data-search="${escapeAttr(searchBlob)}">
   <span class="quiz-hub-row__status" data-quiz-status-label hidden>Not started</span>
   <span class="quiz-hub-row__body">
     <span class="quiz-hub-card__title quiz-hub-row__title">${escapeHtml(quiz.title)}</span>
@@ -580,6 +590,47 @@ ${rows}
     }
 
     if (empty) empty.hidden = mode !== 'catalog' || totalMatch > 0;
+    persistHubState();
+  }
+
+  function persistHubState(extra = {}) {
+    try {
+      sessionStorage.setItem(QUIZ_HUB_STATE_KEY, JSON.stringify({
+        mode,
+        source: activeSource,
+        status: activeStatus,
+        query,
+        sort: sortMode,
+        view: viewMode,
+        ...extra
+      }));
+    } catch (_) {
+      /* ignore */
+    }
+  }
+
+  function readHubState() {
+    try {
+      const raw = sessionStorage.getItem(QUIZ_HUB_STATE_KEY);
+      return raw ? JSON.parse(raw) : null;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  function focusDomId(key) {
+    return `quiz-${String(key || '').replace(/[^\w-]+/g, '-')}`;
+  }
+
+  function scrollToFocus(focus) {
+    if (!focus) return;
+    const byId = document.getElementById(focusDomId(focus))
+      || document.getElementById(focus)
+      || document.querySelector(`[data-quiz-key="${focus}"]`)
+      || document.querySelector(`[data-quiz-key$="/${focus}"]`);
+    if (byId) {
+      byId.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    }
   }
 
   function setViewMode(next) {
@@ -596,6 +647,7 @@ ${rows}
         }
       });
     }
+    persistHubState();
   }
 
   async function setMode(next, options = {}) {
@@ -635,6 +687,7 @@ ${rows}
     } catch (_) {
       /* ignore */
     }
+    persistHubState();
   }
 
   async function openCatalog(source) {
@@ -643,6 +696,11 @@ ${rows}
   }
 
   document.addEventListener('click', (event) => {
+    const catalogLink = event.target.closest('a.quiz-hub-row, a.quiz-hub-card');
+    if (catalogLink && root.contains(catalogLink)) {
+      persistHubState({ focus: catalogLink.getAttribute('data-quiz-key') || '' });
+    }
+
     const pathBtn = event.target.closest('[data-quiz-path]');
     if (pathBtn && document.contains(pathBtn)) {
       event.preventDefault();
@@ -738,36 +796,50 @@ ${rows}
   });
 
   let initialSource = 'all';
+  let initialStatus = 'all';
   let startCatalog = false;
+  let initialFocus = '';
+  const saved = readHubState() || {};
   try {
     const params = new URLSearchParams(window.location.search);
-    const src = params.get('source');
+    const src = params.get('source') || saved.source;
     if (src === 'alice' || src === 'breakdown') {
       initialSource = src;
       startCatalog = true;
     }
-    if (params.get('browse') === '1' || params.get('q')) startCatalog = true;
-    const qParam = params.get('q');
+    if (params.get('browse') === '1' || params.get('q') || saved.mode === 'catalog') {
+      startCatalog = true;
+    }
+    const qParam = params.get('q') || saved.query || '';
     if (qParam && searchInput) {
       searchInput.value = qParam;
       query = qParam;
       startCatalog = true;
     }
-    const sortParam = params.get('sort');
+    const sortParam = params.get('sort') || saved.sort;
     if (sortParam && sortSelect) {
       sortSelect.value = sortParam;
       sortMode = sortParam;
     }
+    if (saved.status) initialStatus = saved.status;
+    if (saved.view === 'grid' || saved.view === 'list') viewMode = saved.view;
+    const hashFocus = (window.location.hash || '').replace(/^#/, '');
+    initialFocus = params.get('focus') || saved.focus || hashFocus || '';
+    if (initialFocus) startCatalog = true;
   } catch (_) {
     /* ignore */
   }
 
   setActiveFilter(initialSource);
-  setActiveStatus('all');
-  setViewMode('list');
+  setActiveStatus(initialStatus);
+  setViewMode(viewMode);
   paintAllProgress();
   prefetchIndex();
-  setMode(startCatalog ? 'catalog' : 'overview', { scroll: false });
+  setMode(startCatalog ? 'catalog' : 'overview', { scroll: !initialFocus }).then(() => {
+    if (initialFocus) {
+      window.setTimeout(() => scrollToFocus(initialFocus), 80);
+    }
+  });
 }
 
 if (document.readyState === 'loading') {

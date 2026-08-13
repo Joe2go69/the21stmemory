@@ -124,6 +124,7 @@ function buildSeoHead(page) {
   return `    <title>${escapeAttr(page.title)}</title>
     <meta name="description" content="${escapeAttr(page.description)}">
     <meta name="application-name" content="${escapeAttr(brand.name)}">
+    <meta name="color-scheme" content="dark">
     <meta name="theme-color" content="${escapeAttr(themeColor)}">
     <link rel="canonical" href="${pageUrl}">
 ${homeLink}${robots}    <link rel="icon" href="${favicon}" type="image/webp">
