@@ -162,10 +162,23 @@ function initVideoLanguageSwitcher() {
   select.addEventListener('change', () => applyLanguage(select.value));
 }
 
+function setJumpPillsActive(activeId) {
+  document
+    .querySelectorAll('#jump-to-pills [data-jump-section], .section-nav-sticky [data-jump-section]')
+    .forEach((pill) => {
+      const on = !!activeId && pill.getAttribute('data-jump-section') === activeId;
+      pill.classList.toggle('is-active', on);
+      pill.classList.toggle('active', on);
+      if (on) pill.setAttribute('aria-current', 'true');
+      else pill.removeAttribute('aria-current');
+    });
+}
+
 function initJumpPills() {
   document.querySelectorAll('[data-jump-section]').forEach((pill) => {
     pill.addEventListener('click', () => {
       const id = pill.getAttribute('data-jump-section');
+      setJumpPillsActive(id);
       if (typeof TopicUtils !== 'undefined' && TopicUtils.scrollToSection) {
         TopicUtils.scrollToSection(id);
       } else {
@@ -696,6 +709,7 @@ function initSectionNavSticky() {
   sticky.querySelectorAll('[data-jump-section]').forEach((pill) => {
     pill.addEventListener('click', () => {
       const id = pill.getAttribute('data-jump-section');
+      setJumpPillsActive(id);
       if (typeof TopicUtils !== 'undefined' && TopicUtils.scrollToSection) {
         TopicUtils.scrollToSection(id);
       } else {
@@ -704,18 +718,7 @@ function initSectionNavSticky() {
     });
   });
 
-  const allPills = () =>
-    document.querySelectorAll('#jump-to-pills [data-jump-section], .section-nav-sticky [data-jump-section]');
-
-  const setActive = (activeId) => {
-    allPills().forEach((pill) => {
-      const on = !!activeId && pill.getAttribute('data-jump-section') === activeId;
-      pill.classList.toggle('is-active', on);
-      pill.classList.toggle('active', on);
-      if (on) pill.setAttribute('aria-current', 'true');
-      else pill.removeAttribute('aria-current');
-    });
-  };
+  const setActive = (activeId) => setJumpPillsActive(activeId);
 
   // Position-based spy (not IntersectionObserver) so Report correctly
   // takes over once its header crosses the sticky chrome line.

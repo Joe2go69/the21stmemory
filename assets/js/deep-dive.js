@@ -238,10 +238,6 @@ function initDeepDiveSectionNavSticky() {
     .join('')}</div>`;
   document.body.appendChild(sticky);
 
-  sticky.querySelectorAll('[data-jump-section]').forEach((pill) => {
-    pill.addEventListener('click', () => TopicUtils.scrollToSection(pill.getAttribute('data-jump-section')));
-  });
-
   const allPills = () =>
     document.querySelectorAll('#jump-to-pills [data-jump-section], .section-nav-sticky [data-jump-section]');
   const setActive = (activeId) => {
@@ -253,6 +249,14 @@ function initDeepDiveSectionNavSticky() {
       else pill.removeAttribute('aria-current');
     });
   };
+
+  sticky.querySelectorAll('[data-jump-section]').forEach((pill) => {
+    pill.addEventListener('click', () => {
+      const id = pill.getAttribute('data-jump-section');
+      setActive(id);
+      TopicUtils.scrollToSection(id);
+    });
+  });
 
   if (typeof TopicUtils !== 'undefined' && TopicUtils.bindSectionPillSpy) {
     TopicUtils.bindSectionPillSpy(sectionIds, setActive);
@@ -483,18 +487,34 @@ function setupSlideDeckArtifact(container) {
 }
 
 function setupJumpToPills() {
-  const pills = document.querySelectorAll('[data-jump-section]');
-  pills.forEach(pill => {
+  const pills = document.querySelectorAll('#jump-to-pills [data-jump-section]');
+  const sectionIds = [...pills]
+    .map((pill) => pill.getAttribute('data-jump-section'))
+    .filter((id) => id && document.getElementById(id));
+
+  const setActive = (activeId) => {
+    document
+      .querySelectorAll('#jump-to-pills [data-jump-section], .section-nav-sticky [data-jump-section]')
+      .forEach((pill) => {
+        const on = !!activeId && pill.getAttribute('data-jump-section') === activeId;
+        pill.classList.toggle('is-active', on);
+        pill.classList.toggle('active', on);
+        if (on) pill.setAttribute('aria-current', 'true');
+        else pill.removeAttribute('aria-current');
+      });
+  };
+
+  pills.forEach((pill) => {
     pill.addEventListener('click', () => {
-      TopicUtils.scrollToSection(pill.dataset.jumpSection);
+      const id = pill.getAttribute('data-jump-section');
+      setActive(id);
+      TopicUtils.scrollToSection(id);
     });
   });
 
-  const sections = ['infographics-section', 'videos-section', 'report-section']
-    .map(id => document.getElementById(id))
-    .filter(Boolean);
-
-  TopicUtils.setupJumpToSpy(pills, sections);
+  if (TopicUtils.bindSectionPillSpy) {
+    TopicUtils.bindSectionPillSpy(sectionIds, setActive);
+  }
 }
 
 /** Ensure "Back to Topics" restores the opened topic in the list. */

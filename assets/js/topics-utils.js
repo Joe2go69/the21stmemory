@@ -492,31 +492,39 @@ const TopicUtils = {
 
   /** Extra clearance when sticky dive section nav is on screen (avoids overlapping section pills). */
   getStickySectionNavOffset() {
-    const sticky = document.querySelector('.section-nav-sticky.is-visible, .section-nav-sticky');
-    if (!sticky) return 0;
-    const visible =
-      sticky.classList.contains('is-visible') ||
-      getComputedStyle(sticky).opacity === '1' ||
-      getComputedStyle(sticky).pointerEvents === 'auto';
-    if (!visible) {
-      // Jump pills open sticky almost immediately after scroll — reserve room on dive pages
-      if (document.body?.dataset?.diveStatic || document.getElementById('jump-to-pills')) {
-        return 52;
-      }
-      return 0;
+    const sticky = document.querySelector('.section-nav-sticky');
+    if (sticky) {
+      const h = sticky.getBoundingClientRect().height;
+      return h > 8 ? Math.ceil(h) : 52;
     }
-    return Math.ceil(sticky.getBoundingClientRect().height) + 16;
+    if (document.body?.dataset?.diveStatic || document.getElementById('jump-to-pills')) {
+      return 52;
+    }
+    return 0;
+  },
+
+  /** Navbar + sticky pills + a tight gap — one number for jump and spy. */
+  getDiveChromeOffset() {
+    const nav = document.querySelector('.navbar');
+    const navH = nav ? Math.ceil(nav.getBoundingClientRect().height) : this.NAVBAR_HEIGHT;
+    return navH + this.getStickySectionNavOffset() + 10;
+  },
+
+  /** Prefer the visual divider so Infographics / Videos / Report land on the same line. */
+  resolveSectionTarget(sectionId) {
+    const target = document.getElementById(sectionId);
+    if (!target) return null;
+    if (target.classList.contains('dive-section-head')) return target;
+    return target.querySelector(':scope > .dive-section-head') || target;
   },
 
   scrollToAnchor(elementId, delay = 150, behavior = 'smooth') {
     setTimeout(() => {
-      const target = document.getElementById(elementId);
+      const target = this.resolveSectionTarget(elementId) || document.getElementById(elementId);
       if (!target) return;
       const rect = target.getBoundingClientRect();
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      const stickyOffset = this.getStickySectionNavOffset();
-      const offsetPosition =
-        rect.top + scrollTop - this.NAVBAR_HEIGHT - this.SCROLL_EXTRA_OFFSET - stickyOffset;
+      const offsetPosition = rect.top + scrollTop - this.getDiveChromeOffset();
       window.scrollTo({ top: Math.max(0, offsetPosition), behavior });
     }, delay);
   },
@@ -1138,18 +1146,16 @@ const TopicUtils = {
   bindSectionPillSpy(sectionIds, setActive) {
     if (!sectionIds?.length || typeof setActive !== 'function') return () => {};
 
-    const getMarkerY = () => {
-      const sticky = document.querySelector('.section-nav-sticky.is-visible');
-      const stickyH = sticky ? sticky.getBoundingClientRect().height : 0;
-      return this.NAVBAR_HEIGHT + stickyH + 28;
-    };
+    const getMarkerY = () => this.getDiveChromeOffset();
 
     const update = () => {
       const heroPills = document.getElementById('jump-to-pills');
       // Still reading the hero — keep segments neutral
       if (heroPills) {
         const heroBottom = heroPills.getBoundingClientRect().bottom;
-        if (heroBottom > this.NAVBAR_HEIGHT + 24) {
+        const nav = document.querySelector('.navbar');
+        const navH = nav ? nav.getBoundingClientRect().height : this.NAVBAR_HEIGHT;
+        if (heroBottom > navH + 24) {
           setActive(null);
           return;
         }
@@ -1158,7 +1164,7 @@ const TopicUtils = {
       const marker = getMarkerY();
       let current = null;
       for (const id of sectionIds) {
-        const el = document.getElementById(id);
+        const el = this.resolveSectionTarget(id);
         if (!el) continue;
         const top = el.getBoundingClientRect().top;
         if (top - marker <= 8) current = id;
