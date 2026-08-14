@@ -423,7 +423,7 @@ function renderFilterControls() {
   ];
 
   const statusButtons = ['all', 'ready', 'soon'].map(f => {
-    const label = f === 'all' ? 'All Topics' : f === 'ready' ? 'Ready' : 'Coming Soon';
+    const label = f === 'all' ? 'All' : f === 'ready' ? 'Ready' : 'Soon';
     const count = f === 'all' ? stats.total : f === 'ready' ? stats.live : soonCount;
     return `
       <button type="button" data-filter-status="${f}" class="topic-control-btn ${filters.status === f ? 'active' : ''}">
@@ -434,32 +434,21 @@ function renderFilterControls() {
 
   const categoryButtons = categoryTabs.map(tab => `
     <button type="button" data-filter-category="${TopicUtils.escapeAttr(tab.id)}" class="topic-control-btn topic-control-btn-sm ${filters.category === tab.id ? 'active' : ''}">
-      ${TopicUtils.escapeHtml(tab.label)}
+      ${TopicUtils.escapeHtml(tab.id === 'all' ? 'All' : tab.label)}
     </button>
   `).join('');
 
   controls.innerHTML = `
     <div class="topics-filter-sticky-wrap">
-      <div class="topics-filter-panel">
-        <div class="topics-filter-header">
-          <div>
-            <div class="topics-filter-title">Browse the Archive</div>
-            <p class="topics-filter-subtitle">Search topics or filter by availability and category</p>
-          </div>
-          <div class="topics-filter-summary">
-            <span class="topics-filter-stat"><strong>${stats.live}</strong> ready</span>
-            <span class="topics-filter-stat-divider" aria-hidden="true"></span>
-            <span class="topics-filter-stat"><strong>${soonCount}</strong> coming soon</span>
-          </div>
-        </div>
-        <div class="codex-search-row mb-4">
+      <div class="topics-filter-panel archive-toolbar codex-hub-panel">
+        <div class="codex-search-row">
           <label class="codex-search-field" for="topics-search-input">
-            <span class="codex-search-icon" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('search', 'card-icon-sm') : ''}</span>
+            <span class="codex-search-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
             <input
               id="topics-search-input"
               type="search"
               class="codex-search-input"
-              placeholder="Search topics in this transmission…"
+              placeholder="Search this transmission…"
               value="${TopicUtils.escapeAttr(filters.search)}"
               autocomplete="off"
               spellcheck="false"
@@ -467,13 +456,13 @@ function renderFilterControls() {
           </label>
         </div>
         <div class="topics-filter-toolbar">
-          <div class="topics-filter-section topics-filter-section--status">
+          <div class="topics-filter-section topics-filter-section--status archive-filter-row">
             <span class="topics-filter-label">Status</span>
             <div class="topics-filter-btn-group">${statusButtons}</div>
           </div>
-          <div class="topics-filter-section topics-filter-section--category ${TopicUtils.normalizeSearch(filters.search) ? 'opacity-50 pointer-events-none' : ''}">
+          <div class="topics-filter-section topics-filter-section--category archive-filter-row ${TopicUtils.normalizeSearch(filters.search) ? 'is-disabled' : ''}">
             <span class="topics-filter-label">Category</span>
-            <div class="topics-filter-btn-group topics-filter-btn-group--scroll">${categoryButtons}</div>
+            <div class="topics-filter-btn-group topics-filter-btn-group--scroll archive-chip-scroll">${categoryButtons}</div>
           </div>
         </div>
       </div>
@@ -503,6 +492,11 @@ function renderFilterControls() {
       syncTopicsUrlFromState();
     });
   });
+
+  const categoryScroll = controls.querySelector('.archive-chip-scroll');
+  if (typeof bindOverflowFade === 'function') {
+    bindOverflowFade(categoryScroll);
+  }
 
   if (shouldRefocusSearch && searchInput) {
     searchInput.focus();

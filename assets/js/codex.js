@@ -149,7 +149,7 @@ function renderToolbar() {
 
   const { query, status, sort } = codexState.filters;
   const statusButtons = ['all', 'ready', 'soon'].map(value => {
-    const label = value === 'all' ? 'All' : value === 'ready' ? 'Ready' : 'Coming soon';
+    const label = value === 'all' ? 'All' : value === 'ready' ? 'Ready' : 'Soon';
     const count = value === 'all'
       ? codexState.archiveStats.total
       : value === 'ready'
@@ -163,13 +163,7 @@ function renderToolbar() {
   }).join('');
 
   el.innerHTML = `
-    <div class="codex-toolbar codex-hub-panel">
-      <div class="codex-toolbar-header">
-        <div>
-          <div class="topics-filter-title">Search &amp; filter</div>
-          <p class="topics-filter-subtitle">Find topics across the archive, then open a transmission</p>
-        </div>
-      </div>
+    <div class="codex-toolbar codex-hub-panel archive-toolbar">
       <div class="codex-search-row">
         <label class="codex-search-field" for="codex-search-input">
           <span class="codex-search-icon" aria-hidden="true">
@@ -179,7 +173,7 @@ function renderToolbar() {
             id="codex-search-input"
             type="search"
             class="codex-search-input"
-            placeholder="Search topics, sources, or keywords…"
+            placeholder="Search topics…"
             value="${TopicUtils.escapeAttr(query)}"
             autocomplete="off"
             spellcheck="false"
@@ -194,7 +188,7 @@ function renderToolbar() {
           </select>
         </div>
       </div>
-      <div class="topics-filter-section topics-filter-section--status">
+      <div class="topics-filter-section topics-filter-section--status archive-filter-row">
         <span class="topics-filter-label">Status</span>
         <div class="topics-filter-btn-group topics-filter-btn-group--spaced" role="group" aria-label="Filter by status">${statusButtons}</div>
       </div>

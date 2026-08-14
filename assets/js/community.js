@@ -1,7 +1,7 @@
 // Community / Network page — filterable channel directory
 
 const NETWORK_FILTERS = [
-  { id: 'all', label: 'All channels' },
+  { id: 'all', label: 'All' },
   { id: 'official', label: 'Official' },
   { id: 'telegram', label: 'Telegram' },
   { id: 'rumble', label: 'Rumble' }
@@ -348,38 +348,29 @@ async function loadNetworkData() {
   renderNoscriptList(networkChannels);
 }
 
-/** Mobile: show/hide “Swipe for more” based on filter bar overflow + scroll position. */
-function updateNetworkScrollHint() {
-  const bar = document.getElementById('network-filters');
-  const wrap = bar?.closest('.network-filters-scroll');
-  const hint = wrap?.querySelector('.network-scroll-hint');
-  if (!bar || !wrap || !hint) return;
-
-  const canScroll = bar.scrollWidth > bar.clientWidth + 8;
-  const scrolled = bar.scrollLeft > 12;
-  const nearEnd = bar.scrollLeft + bar.clientWidth >= bar.scrollWidth - 12;
-  wrap.classList.toggle('is-scrollable', canScroll);
-  wrap.classList.toggle('has-scrolled', scrolled || nearEnd);
-  hint.hidden = !canScroll || nearEnd;
-}
-
 function bindNetworkScrollHint() {
   const bar = document.getElementById('network-filters');
   const wrap = bar?.closest('.network-filters-scroll');
-  const hint = wrap?.querySelector('.network-scroll-hint');
-  if (!bar || !wrap || !hint) return;
-
+  if (typeof bindOverflowFade === 'function') {
+    bindOverflowFade(bar, wrap);
+    return;
+  }
+  if (!bar || !wrap) return;
+  const update = () => {
+    const canScroll = bar.scrollWidth > bar.clientWidth + 8;
+    const scrolled = bar.scrollLeft > 8;
+    const nearEnd = bar.scrollLeft + bar.clientWidth >= bar.scrollWidth - 8;
+    wrap.classList.toggle('is-scrollable', canScroll);
+    wrap.classList.toggle('has-scrolled', scrolled);
+    wrap.classList.toggle('is-at-end', nearEnd || !canScroll);
+  };
   if (!bar.dataset.scrollHintBound) {
     bar.dataset.scrollHintBound = 'true';
-    bar.addEventListener('scroll', updateNetworkScrollHint, { passive: true });
-    window.addEventListener('resize', updateNetworkScrollHint, { passive: true });
+    bar.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update, { passive: true });
   }
-
-  // Safe to call after filters re-render; always remeasure overflow
-  updateNetworkScrollHint();
-  requestAnimationFrame(() => requestAnimationFrame(updateNetworkScrollHint));
-  setTimeout(updateNetworkScrollHint, 120);
-  setTimeout(updateNetworkScrollHint, 400);
+  update();
+  requestAnimationFrame(() => requestAnimationFrame(update));
 }
 
 document.addEventListener('DOMContentLoaded', () => {

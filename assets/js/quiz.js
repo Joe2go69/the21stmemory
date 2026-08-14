@@ -155,7 +155,27 @@
     return a;
   }
 
-  /** New random question order for this playthrough. Answers stay keyed by q.number. */
+  function cloneQuestion(question) {
+    return {
+      ...question,
+      options: (question.options || []).map((opt) => ({ ...opt }))
+    };
+  }
+
+  /** Shuffle A–D and reletter so the first shown choice is always A. */
+  function shuffleQuestionOptions(question) {
+    const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+    const options = shuffleArray(question.options || []);
+    options.forEach((opt, i) => {
+      opt.label = letters[i] || String(i + 1);
+    });
+    const correct = options.find((opt) => opt.isCorrect);
+    if (correct) question.correctAnswer = correct.label;
+    question.options = options;
+    return question;
+  }
+
+  /** New random question + answer order for this playthrough. Answers stay keyed by q.number. */
   function shuffleQuestions() {
     if (!state.data) return;
     const source =
@@ -166,7 +186,9 @@
     if (!state.originalQuestions) {
       state.originalQuestions = source.slice();
     }
-    state.data.questions = shuffleArray(state.originalQuestions);
+    state.data.questions = shuffleArray(state.originalQuestions).map((question) =>
+      shuffleQuestionOptions(cloneQuestion(question))
+    );
   }
 
   function startQuiz() {
@@ -635,7 +657,7 @@
       const data = await res.json();
       if (!data.questions?.length) throw new Error('Quiz has no questions');
       state.data = data;
-      // Stable source for reshuffles; play order is randomized on Begin.
+      // Stable source for reshuffles; question and answer order randomize on Begin.
       state.originalQuestions = data.questions.slice();
       state.phase = 'start';
       render();

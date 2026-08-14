@@ -56,6 +56,31 @@ function initDeferredAnalytics() {
   }
 }
 
+/** Fade + peek for horizontal chip rows that overflow. */
+function bindOverflowFade(scroller, wrap) {
+  if (!scroller) return;
+  const host = wrap || scroller;
+  const update = () => {
+    const canScroll = scroller.scrollWidth > scroller.clientWidth + 8;
+    const scrolled = scroller.scrollLeft > 8;
+    const nearEnd = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 8;
+    host.classList.toggle('is-scrollable', canScroll);
+    host.classList.toggle('has-scrolled', scrolled);
+    host.classList.toggle('is-at-end', nearEnd || !canScroll);
+  };
+  if (!scroller.dataset.overflowFadeBound) {
+    scroller.dataset.overflowFadeBound = 'true';
+    scroller.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update, { passive: true });
+  }
+  update();
+  requestAnimationFrame(() => requestAnimationFrame(update));
+}
+
+if (typeof window !== 'undefined') {
+  window.bindOverflowFade = bindOverflowFade;
+}
+
 function initSharedComponents() {
   setActiveNavLink();
   initSectionScrollSpy();

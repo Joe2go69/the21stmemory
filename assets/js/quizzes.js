@@ -11,14 +11,6 @@ function initQuizzesHub() {
   const empty = document.getElementById('quizzes-empty');
   const countEl = document.getElementById('quizzes-visible-count');
   const searchInput = document.getElementById('quizzes-search');
-  function syncSearchPlaceholder() {
-    if (!searchInput) return;
-    const long = searchInput.getAttribute('data-placeholder-long') || searchInput.placeholder;
-    const short = searchInput.getAttribute('data-placeholder-short') || 'Search quizzes…';
-    searchInput.placeholder = window.matchMedia('(max-width: 639px)').matches ? short : long;
-  }
-  syncSearchPlaceholder();
-  window.addEventListener('resize', syncSearchPlaceholder);
   const backBtn = document.querySelector('[data-quiz-show-overview]');
   const continueRoot = document.getElementById('quiz-continue');
   const continueTrack = document.getElementById('quiz-continue-track');
