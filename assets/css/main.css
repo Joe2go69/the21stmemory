@@ -17359,10 +17359,9 @@ body.reading-focus .navbar {
     inset 0 1.5px 0 rgba(255, 255, 255, 0.1) !important;
 }
 
+.quiz-hub-search.codex-search-field,
 .quiz-hub-search .codex-search-field,
-.codex-search-field,
-.quiz-hub-toolbar input[type="search"],
-.quiz-hub-toolbar input[type="text"] {
+.codex-search-field {
   background: #120A2E !important;
   color: #F1EBFF !important;
   border: none !important;
@@ -17370,6 +17369,25 @@ body.reading-focus .navbar {
     inset 0 2px 6px rgba(0, 0, 0, 0.35),
     inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
   opacity: 1 !important;
+}
+
+.codex-search-input,
+.quiz-hub-toolbar input[type="search"],
+.quiz-hub-toolbar input[type="text"],
+.network-search-input,
+#network-search,
+#quizzes-search,
+#codex-search-input,
+#topics-search-input {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+  height: auto !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
 }
 
 .quiz-hub-search .codex-search-field::placeholder,
