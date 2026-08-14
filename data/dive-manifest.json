@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T06:52:40.822Z",
+  "generatedAt": "2026-08-14T09:31:59.584Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -873,7 +873,7 @@
       "sourceId": "breakdown",
       "topicId": "nebulae-resting",
       "path": "/dive/breakdown/nebulae-resting.html",
-      "live": false,
+      "live": true,
       "title": "Nebulae Resting"
     },
     {

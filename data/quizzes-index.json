@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T06:52:40.635Z",
-  "total": 124,
+  "generatedAt": "2026-08-14T09:31:59.292Z",
+  "total": 125,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 64
+      "count": 65
     }
   ],
   "quizzes": [
@@ -1243,6 +1243,19 @@
       "href": "quiz/breakdown/narrative-maintenance.html",
       "diveHref": "dive/breakdown/narrative-maintenance.html",
       "key": "breakdown/narrative-maintenance"
+    },
+    {
+      "id": "nebulae-resting",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Nebulae Resting",
+      "subtitle": "Test your grasp of Nebulae Resting — Star Pods and the Womb of Light, soul fractures and timeline trauma, Water Domes / Crystal Halls / Starlight Pods, Red Sea doubt, loosh collapse, and sovereign choice after restoration.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/nebulae-resting.html",
+      "diveHref": "dive/breakdown/nebulae-resting.html",
+      "key": "breakdown/nebulae-resting"
     },
     {
       "id": "npc-glitching",
