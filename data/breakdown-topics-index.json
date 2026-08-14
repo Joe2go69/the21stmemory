@@ -506,9 +506,9 @@
     {
       "id": "population-types",
       "title": "Population Types",
-      "description": "NPC programs, human Sols, and ET Sols — who remains and who dissolves through the final window.",
-      "topic_image": "images/breakdown/placeholder.webp",
-      "is_placeholder": true,
+      "description": "The population of this realm is a divided assortment of NPCs, Human Sols, and Resonating Sols — plus Sleepers, Seeded Sols, and Traitors — each with a different origin, energetic architecture, and destiny inside the CUBE Containment.",
+      "topic_image": "images/breakdown/population-types.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "npc-programs",

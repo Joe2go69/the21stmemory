@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T09:31:59.292Z",
-  "total": 125,
+  "generatedAt": "2026-08-14T11:29:12.487Z",
+  "total": 126,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 65
+      "count": 66
     }
   ],
   "quizzes": [
@@ -1360,6 +1360,19 @@
       "href": "quiz/breakdown/physical-indicators.html",
       "diveHref": "dive/breakdown/physical-indicators.html",
       "key": "breakdown/physical-indicators"
+    },
+    {
+      "id": "population-types",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Population Types",
+      "subtitle": "Test your grasp of Population Types — NPCs, Human Sols, Resonating Sols, Sleepers, Seeded Sols, and Traitors inside the CUBE Containment; sanctuary paths; sol frequency lock; and the Event Cycle strategy of starving the overlay.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/population-types.html",
+      "diveHref": "dive/breakdown/population-types.html",
+      "key": "breakdown/population-types"
     },
     {
       "id": "rainbow-fractals",

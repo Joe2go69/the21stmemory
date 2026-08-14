@@ -1,0 +1,820 @@
+{
+  "id": "population-types",
+  "topicId": "population-types",
+  "sourceId": "breakdown",
+  "topicTitle": "Population Types",
+  "title": "Population Types",
+  "subtitle": "Test your grasp of Population Types — NPCs, Human Sols, Resonating Sols, Sleepers, Seeded Sols, and Traitors inside the CUBE Containment; sanctuary paths; sol frequency lock; and the Event Cycle strategy of starving the overlay.",
+  "totalQuestions": 25,
+  "extractedAt": "2026-08-14T09:42:27.795Z",
+  "reflection": {
+    "title": "Reflection",
+    "body": "This realm is not one uniform population. Sit with NPCs as soulless background programs, Human Sols inverted from Tara, Resonating Sols listening then locking frequency home, Sleepers held manageable, Seeded Sols fracturing bloodlines from inside, and Traitors who sell resonance for power. Return to the Population Types deep-dive, infographic, and video transmissions as you hold high resonance and refuse the loosh feed."
+  },
+  "relatedTopic": {
+    "href": "/deep-dive.html?source=breakdown&topic=population-types",
+    "label": "Return to Population Types deep-dive"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the primary function of Non-Player Characters (NPCs) within the CUBE Containment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They act as soulless background programs that hold the simulation together and keep the matrix structure functional.",
+          "isCorrect": true,
+          "rationale": "NPCs are soulless, empty biological vessels that function as repeating background programs to maintain the stability of the simulation."
+        },
+        {
+          "label": "B",
+          "text": "They are extraterrestrial observers who entered with a mission and then forgot their original home realms.",
+          "isCorrect": false,
+          "rationale": "Mission-based awakened beings are Resonating Sols; NPCs are locally generated artificial shells seeded through solar bands."
+        },
+        {
+          "label": "C",
+          "text": "They are early-stage human souls waiting for their first activation codes before they can carry organic Source memory.",
+          "isCorrect": false,
+          "rationale": "NPCs have no true souls, no ancestral lineage, and no existence outside this simulated matrix; they are not developing human spirits."
+        },
+        {
+          "label": "D",
+          "text": "They serve as energetic anchors for the crystalline grid, holding high-frequency fields stable during every frequency shift.",
+          "isCorrect": false,
+          "rationale": "NPCs have no organic memory lineage and no crystalline-grid anchor; when high frequencies collapse the overlay, they dissolve rather than stabilize the grid."
+        }
+      ],
+      "hint": "Consider their role in the underlying software of the reality framework.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 2,
+      "question": "Which population group consists of genuine spark-beings who have been energetically inverted by parasitic systems?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Saferons — tall holographic light beings from the Council of 12 Suns who guide sanctuary transitions, not inverted human sparks.",
+          "isCorrect": false,
+          "rationale": "Saferons are non-physical holographic light beings from the Council of 12 Suns, not inverted human spirits."
+        },
+        {
+          "label": "B",
+          "text": "Human Sols — genuine spark-beings from the pre-fall world of Tara, captured and energetically inverted by parasites.",
+          "isCorrect": true,
+          "rationale": "Human Sols are true spiritual sparks from Tara who carry original Source codes but have been captured and energetically inverted by parasites."
+        },
+        {
+          "label": "C",
+          "text": "Resonating Sols — already awakened extraterrestrial souls who entered as a rescue army rather than inverted captives.",
+          "isCorrect": false,
+          "rationale": "Resonating Sols are already awakened Returners here to liberate Human Sols; they are not the inverted captive sparks."
+        },
+        {
+          "label": "D",
+          "text": "Seeded Sols — high-frequency lineages placed inside parasitic bloodlines to fracture control, not the general inverted population.",
+          "isCorrect": false,
+          "rationale": "Seeded Sols are a specialized placement inside prominent bloodline systems; they are not the general captive Human Sol population."
+        }
+      ],
+      "hint": "Focus on the group that originates from the pre-fall world of Tara.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 3,
+      "question": "What occurs during the process known as 'selling your soul'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A systematic, progressive severing of the soul's connection to Source as resonance is traded for wealth, fame, or power.",
+          "isCorrect": true,
+          "rationale": "Selling your soul is a literal energetic process: a progressive, systematic severing of the soul's connection to Source, not an instant death."
+        },
+        {
+          "label": "B",
+          "text": "An instantaneous physical death followed by a forced reincarnation into a new vessel in the same overlay, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Selling a soul is not an instantaneous death; it is a progressive, systematic severing of the soul's connection to Source."
+        },
+        {
+          "label": "C",
+          "text": "A temporary loss of memory that is automatically restored during the next solar cycle without lasting fracture.",
+          "isCorrect": false,
+          "rationale": "Selling a soul is a progressive Source-sever, not a temporary memory wipe restored on the next solar cycle."
+        },
+        {
+          "label": "D",
+          "text": "The replacement of a human spark with an NPC autopilot program injected through the artificial solar bands.",
+          "isCorrect": false,
+          "rationale": "NPC shells are seeded through artificial solar bands; selling a soul is a true human soul choosing to sever its own Source connection."
+        }
+      ],
+      "hint": "Think of it as an energetic erosion rather than a quick transaction.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 4,
+      "question": "How do NPCs enter the physical realm of the containment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "By hitchhiking on the frequency fields of Resonating Sols as those beings enter the dome to begin their mission.",
+          "isCorrect": false,
+          "rationale": "Resonating Sols carry high-frequency codes that fracture the overlay and make NPC software malfunction; they are not an entry vehicle for NPC shells."
+        },
+        {
+          "label": "B",
+          "text": "By manifesting directly from the thoughts of the human collective whenever enough people imagine a new extra body.",
+          "isCorrect": false,
+          "rationale": "NPCs are deliberately seeded by parasites through technical hardware at the sun's gateway, not thought-form manifestations of the human collective."
+        },
+        {
+          "label": "C",
+          "text": "Through four to five artificial entry bands installed around the sun's natural gateway as custom parasitic filters.",
+          "isCorrect": true,
+          "rationale": "NPCs are generated through four to five artificial entry bands around the sun's natural gateway; those bands inject shells carrying parasitic software instead of organic memory lineages."
+        },
+        {
+          "label": "D",
+          "text": "Through the organic reincarnation cycles of the Spirit Tree, which still feeds every true soul into a new body.",
+          "isCorrect": false,
+          "rationale": "The Spirit Tree originally linked true souls to Source; parasites ripped it out and seeded NPC shells through artificial solar bands, not organic Spirit Tree cycles."
+        }
+      ],
+      "hint": "Look for the mechanical filters used by the parasites to control the population flow.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What is the specific purpose of the Water Domes located in healing sanctuaries?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To extract emotional density such as grief, fear, and guilt, and replace it with the memory codes of Source.",
+          "isCorrect": true,
+          "rationale": "Water Domes vibrate like liquid sound; floating in those pools extracts emotional density and replaces it with the memory codes of Source."
+        },
+        {
+          "label": "B",
+          "text": "To store the Akashic fragments taken from the Vatican vaults so parasites can keep recycling those records.",
+          "isCorrect": false,
+          "rationale": "Vatican vaults are parasitic storage for copied Akashic fragments; Water Domes are liberation chambers that insert Source memory codes."
+        },
+        {
+          "label": "C",
+          "text": "To shield the physical body from the scalar-wave burst that triggers Resonating Sols into broadcast mode.",
+          "isCorrect": false,
+          "rationale": "Water Domes repair emotional density through liquid sound; the scalar wave burst is a trigger signal for Resonating Sols, not a Water Dome function."
+        },
+        {
+          "label": "D",
+          "text": "To provide physical hydration to souls who have completed their mission and now need ordinary biological water.",
+          "isCorrect": false,
+          "rationale": "Water Domes are cloaked crystalline sanctuaries for etheric and emotional restoration, not biological hydration stations."
+        }
+      ],
+      "hint": "Identify which dome focuses on the vibration of liquid sound and the removal of grief.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 6,
+      "question": "Which group is referred to as the 'Resonating Army' or 'Returners'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Human Sols who have successfully resisted every parasitic contract and now lead the extraction of their own kind.",
+          "isCorrect": false,
+          "rationale": "Human Sols are the inverted sparks the Resonating Army came to liberate; they are not the primary pre-awakened rescue force."
+        },
+        {
+          "label": "B",
+          "text": "Already awakened extraterrestrial souls who entered this density to restore the original design and liberate Human Sols.",
+          "isCorrect": true,
+          "rationale": "Resonating Sols are already awakened extraterrestrial souls, also known as the Resonating Army or Returners, here to anchor high frequencies and activate human souls."
+        },
+        {
+          "label": "C",
+          "text": "NPCs that the Council of 12 Suns reprogrammed into a spiritual army once the overlay began to fracture, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "NPCs are soulless programs with no spark to awaken; they cannot be turned into a Resonating Army."
+        },
+        {
+          "label": "D",
+          "text": "The early Custodians who ordered the Greys to rip out the Spirit Tree and install the Amnesia Vortex, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The early Custodians craved control and ordered the Greys to rip the Spirit Tree out; they are not the Resonating Army rescue force."
+        }
+      ],
+      "hint": "Identify the group that entered the simulation with embedded, pre-awakened codes.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 7,
+      "question": "During the initial stages of a communications blackout, how might an NPC demonstrate 'physical glitching'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dazed silence, erratic panic, and sudden emotional outbursts such as screaming or weeping as their software loops.",
+          "isCorrect": true,
+          "rationale": "During the initial communications blackout, NPCs experience severe program loops that manifest as dazed silence, erratic panic, and sudden screaming or weeping."
+        },
+        {
+          "label": "B",
+          "text": "Immediately ascending onto the high-frequency crystalline grid as soon as the blackout begins, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "NPCs have no frequency anchor outside the low-frequency overlay; they dissolve rather than ascend when that overlay fails."
+        },
+        {
+          "label": "C",
+          "text": "Forming organized groups to protect 3D structures and coordinate a strategic defense of the overlay.",
+          "isCorrect": false,
+          "rationale": "NPCs default to highly visible, repetitive panic behaviors, not coordinated strategic defense of 3D structures."
+        },
+        {
+          "label": "D",
+          "text": "Gaining the ability to communicate telepathically with Human Sols as their programs attempt a last upgrade.",
+          "isCorrect": false,
+          "rationale": "Telepathic soul connection requires a spark NPCs do not have; glitching is program-loop panic, not a new communication gift."
+        }
+      ],
+      "hint": "Think about how a program behaves when its operating environment fails.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 8,
+      "question": "What is the role of Seeded Sols like Princess Diana and Barron Trump?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To lead the public political transition of the 3D matrix and keep the overlay's official story intact.",
+          "isCorrect": false,
+          "rationale": "Their roles are energetic and disruptive — Diana's staged extraction and Barron as a silent guardian — not public political maintenance of the matrix."
+        },
+        {
+          "label": "B",
+          "text": "To collect the Akashic fragments of the human population and deliver them into the Vatican vaults, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Copying Akashic fragments into Vatican vaults is a parasitic tactic; Seeded Sols work to fracture those bloodline systems."
+        },
+        {
+          "label": "C",
+          "text": "To act as hosts for the return of the early Custodians so those controllers can reclaim the Spirit Tree wound.",
+          "isCorrect": false,
+          "rationale": "Seeded Sols are high-frequency souls placed to sabotage control mechanics, not hosts for returning Custodians."
+        },
+        {
+          "label": "D",
+          "text": "To fracture parasitic bloodline control structures from the inside by carrying solar codes inside those families.",
+          "isCorrect": true,
+          "rationale": "High councils seeded high-frequency souls such as Princess Diana and Barron Trump into key familial lines to fracture parasitic bloodlines from the inside."
+        }
+      ],
+      "hint": "Consider the strategic advantage of placing a high-frequency soul inside a dark lineage.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 9,
+      "question": "What happens to Resonating Sols at the apex of the event through the 'sol frequency lock'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are permanently merged with the physical vessels of NPCs so those shells can survive the overlay collapse.",
+          "isCorrect": false,
+          "rationale": "The frequency gap between a Resonating Sol and an NPC shell is not bridged by merging; NPCs dissolve when the overlay drops."
+        },
+        {
+          "label": "B",
+          "text": "They are sent to Crystal Halls to begin a staged healing process before they are allowed to leave the dome.",
+          "isCorrect": false,
+          "rationale": "Resonating Sols already carry pre-awakened codes and return home without passing through any healing sanctuaries."
+        },
+        {
+          "label": "C",
+          "text": "They lose their individual forms and become part of the Spirit Tree's surviving roots as a single planetary field.",
+          "isCorrect": false,
+          "rationale": "They return to their original point of origin as individual beings; they are not absorbed into the Spirit Tree roots."
+        },
+        {
+          "label": "D",
+          "text": "Their physical vessels phase out of the dome and return to their original point of origin, skipping the sanctuaries.",
+          "isCorrect": true,
+          "rationale": "At sol frequency lock, crystal and Earth grids create an electromagnetic threshold that phases Resonating Sols out of the dome to their origin without passing through healing sanctuaries."
+        }
+      ],
+      "hint": "Determine the final destination for the rescue team after the mission is complete.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 10,
+      "question": "Which healing sanctuary is specifically tuned for souls carrying timeline trauma and deep soul fractures?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Water Domes — aqua, blue, and silver sanctuaries that extract grief, fear, and guilt through liquid sound.",
+          "isCorrect": false,
+          "rationale": "Water Domes specialize in emotional-density extraction, not timeline and soul-fracture reweaving."
+        },
+        {
+          "label": "B",
+          "text": "Crystal Halls — humming crystal temples that clear mind-control damage and realign the light body grid.",
+          "isCorrect": false,
+          "rationale": "Crystal Halls focus on mental energetic healing and overlay clearing, not multi-lifetime soul-fracture reweaving."
+        },
+        {
+          "label": "C",
+          "text": "Star Pods — floating cocoons in etheric space that reweave timeline trauma, karmic wounds, and soul fractures.",
+          "isCorrect": true,
+          "rationale": "Star Pods are specifically tuned for souls carrying timeline trauma, karmic wounds, and deep soul fractures across multiple lifetimes."
+        },
+        {
+          "label": "D",
+          "text": "The Amnesia Vortex — the parasitic station at the sun's transit band designed to fragment memory, not restore it.",
+          "isCorrect": false,
+          "rationale": "The Amnesia Vortex is a parasitic installation that forced reincarnation loops; it does not heal timeline trauma."
+        }
+      ],
+      "hint": "Think of a cocoon-like environment in etheric space.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 11,
+      "question": "What does it mean for a Resonating Sol's codes to be 'dormant active'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The codes are already broadcasting high-frequency signals into NPC shells to convert them into allies.",
+          "isCorrect": false,
+          "rationale": "Broadcasting begins only after the trigger signals; NPCs cannot receive those codes as organic allies."
+        },
+        {
+          "label": "B",
+          "text": "The codes are temporarily disabled by the Saturn Moon Frequency Station until the overlay fully collapses.",
+          "isCorrect": false,
+          "rationale": "Dormant-active status is a preparatory listening phase, not a parasitic disable by the Saturn Moon Frequency Station."
+        },
+        {
+          "label": "C",
+          "text": "The soul is listening to the energetic field rather than actively broadcasting, waiting for the trigger signals.",
+          "isCorrect": true,
+          "rationale": "Throughout the preparatory phases, Resonating Sol codes remain dormant active: listening to the energetic field rather than actively broadcasting."
+        },
+        {
+          "label": "D",
+          "text": "The soul is asleep and unaware of its extraterrestrial origin, locked in the same amnesia as Sleepers.",
+          "isCorrect": false,
+          "rationale": "Resonating Sols entered with embedded, pre-awakened soul codes; they are not asleep Sleepers caught in the overlay."
+        }
+      ],
+      "hint": "Distinguish between listening for a signal and sending one out.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 12,
+      "question": "Who are the Saferons?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Parasitic guards who maintain the Amnesia Vortex at the sun's transit band and keep souls looping, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Saferons are benevolent sanctuary healers; they are not the parasitic guards of the Amnesia Vortex."
+        },
+        {
+          "label": "B",
+          "text": "A specialized group of NPCs designed to look like light beings so the overlay can fake a homecoming.",
+          "isCorrect": false,
+          "rationale": "NPCs have no capacity for holographic light work or vibrational healing; Saferons are Council of 12 Suns beings."
+        },
+        {
+          "label": "C",
+          "text": "The original human inhabitants of the Spirit Tree gardens before the Greys ripped the tree out, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Pre-fall humans are Human Sols from Tara; Saferons are non-physical guides from the Council of 12 Suns."
+        },
+        {
+          "label": "D",
+          "text": "Tall holographic light beings from the Council of 12 Suns who act as ground healers and guides in the sanctuaries.",
+          "isCorrect": true,
+          "rationale": "Saferons are tall, radiant, non-physical holographic light beings sent from the Council of 12 Suns to act as ground healers and guides in the transition sanctuaries."
+        }
+      ],
+      "hint": "Identify the gentle, radiant beings who mirror the soul's original family.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 13,
+      "question": "What triggers the transition of Resonating Sols from dormant to active broadcast mode?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A scalar wave burst from allied space forces and a deep harmonic tone felt as a call in the chest.",
+          "isCorrect": true,
+          "rationale": "The transition to active duty occurs through two simultaneous triggers: a scalar wave burst from allied space forces and a deep, familiar harmonic tone felt in the chest from the solar family."
+        },
+        {
+          "label": "B",
+          "text": "A massive protest by the majority of the NPC population as their programs begin to loop in the streets.",
+          "isCorrect": false,
+          "rationale": "NPCs operate on pre-coded autopilot and cannot trigger spiritual activation; the call is a scalar burst plus a chest harmonic."
+        },
+        {
+          "label": "C",
+          "text": "The physical destruction of the Vatican's underground vaults where Akashic fragments were copied and stored.",
+          "isCorrect": false,
+          "rationale": "Activation is frequency-based — scalar burst and chest harmonic — not dependent on destroying the Vatican vaults."
+        },
+        {
+          "label": "D",
+          "text": "The completion of the healing process inside Star Pods after timeline trauma has been fully rewoven.",
+          "isCorrect": false,
+          "rationale": "Star Pods restore Human Sols after the event; Resonating Sols are triggered into broadcast before they exit, and they skip the sanctuaries."
+        }
+      ],
+      "hint": "Look for a combination of an external frequency burst and an internal resonance.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 14,
+      "question": "How does the rising frequency of the population affect physical materials like concrete and steel?",
+      "options": [
+        {
+          "label": "A",
+          "text": "These materials flicker, bend, and lose their perceived density as perception-based solidity fails.",
+          "isCorrect": true,
+          "rationale": "Concrete, brick, and steel are low-frequency matter held by perception-based solidity; rising population frequency makes them flicker, bend, and lose density."
+        },
+        {
+          "label": "B",
+          "text": "It reinforces their density, locking the matrix in place and making the overlay harder than ever to leave.",
+          "isCorrect": false,
+          "rationale": "Rising frequency breaks perception-based solidity; it does not reinforce the density of concrete, brick, and steel."
+        },
+        {
+          "label": "C",
+          "text": "There is no effect on physical matter because the entire transition is spiritual and leaves streets untouched.",
+          "isCorrect": false,
+          "rationale": "The 3D overlay is an electromagnetic framework; physical matter is held by perception-based solidity and is directly affected as frequency rises."
+        },
+        {
+          "label": "D",
+          "text": "It turns every artificial structure into a permanent crystalline healing center that remains standing in place.",
+          "isCorrect": false,
+          "rationale": "Low-frequency materials flicker, bend, and lose density; they do not convert into standing crystalline healing centers."
+        }
+      ],
+      "hint": "Recall the concept of 'perception-based solidity' and what happens when perception changes.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 15,
+      "question": "Where were human Akashic fragments stored to keep the population manageable?",
+      "options": [
+        {
+          "label": "A",
+          "text": "In the surviving roots of the Spirit Tree in Hyperborea, used as a prison for siphoned soul records.",
+          "isCorrect": false,
+          "rationale": "The Spirit Tree originally anchored a pure flow of light for true souls; Vatican vaults, not the tree roots, stored copied Akashic fragments."
+        },
+        {
+          "label": "B",
+          "text": "Inside the artificial solar bands surrounding the sun, where NPC shells are injected into the physical realm.",
+          "isCorrect": false,
+          "rationale": "Those bands seed empty NPC shells; they are not the storage vaults for human Akashic fragments."
+        },
+        {
+          "label": "C",
+          "text": "Within the heart of the Resonating Army, which carries every human fragment as part of the rescue payload.",
+          "isCorrect": false,
+          "rationale": "The Resonating Army carries its own pre-awakened codes and came to liberate Human Sols; parasitic storage is under the Vatican."
+        },
+        {
+          "label": "D",
+          "text": "In vaults beneath the Vatican, where copied Akashic fragments kept human souls docile in reincarnation loops.",
+          "isCorrect": true,
+          "rationale": "Parasites copied and stored Akashic fragments in vaults beneath the Vatican to keep true human souls docile and manageable in reincarnation loops."
+        }
+      ],
+      "hint": "Identify the historical center where soul data was siphoned and copied.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 16,
+      "question": "What is the defining characteristic of the group known as Sleepers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are soulless vessels that only simulate human sleep patterns to pad the background of the overlay.",
+          "isCorrect": false,
+          "rationale": "Sleepers possess true souls; soulless background vessels are NPCs."
+        },
+        {
+          "label": "B",
+          "text": "They are true soul-bearing individuals whose perceptions are held in a heavily manipulated, manageable state.",
+          "isCorrect": true,
+          "rationale": "Sleepers are true soul-bearing individuals whose perceptions are actively held in a manageable, heavily manipulated state to prevent premature panic or awakening."
+        },
+        {
+          "label": "C",
+          "text": "They are beings from the Council of 12 Suns currently held in stasis until the sanctuaries open.",
+          "isCorrect": false,
+          "rationale": "Council of 12 Suns beings in this report are the Saferons, active ground healers, not manipulated Sleepers."
+        },
+        {
+          "label": "D",
+          "text": "They are humans who have sold their souls for physical wealth, fame, power, or immortality, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Souls who trade natural resonance for wealth, fame, power, or immortality are Traitors, not Sleepers."
+        }
+      ],
+      "hint": "Think of soul-bearing individuals who are still under the influence of the matrix control.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 17,
+      "question": "What happened to the Spirit Tree of Hyperborea?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was ripped out by the Greys under orders from the early Custodians who craved control of the light flow.",
+          "isCorrect": true,
+          "rationale": "When the early Custodians craved control, they ordered the Greys to rip the Spirit Tree out and installed the Saturn Moon Frequency Station and Amnesia Vortex."
+        },
+        {
+          "label": "B",
+          "text": "It grew into the crystalline Water Domes now projected over oceans as the primary emotional healing halls.",
+          "isCorrect": false,
+          "rationale": "Water Domes are cloaked crystalline sanctuaries of the liberation path; the Spirit Tree was the original central light anchor that parasites ripped out."
+        },
+        {
+          "label": "C",
+          "text": "It was transformed into the Saturn Moon Frequency Station so the same tree could keep broadcasting Source light.",
+          "isCorrect": false,
+          "rationale": "The Saturn Moon Frequency Station was an artificial installation that replaced the tree's organic function; the tree was ripped out, not transformed into the station."
+        },
+        {
+          "label": "D",
+          "text": "It was moved intact into the Vatican vaults to power the Amnesia Vortex with its original Source current.",
+          "isCorrect": false,
+          "rationale": "The Vatican vaults store copied Akashic fragments; the tree was ripped from Hyperborea, not relocated into those vaults."
+        }
+      ],
+      "hint": "Recall the actions taken by the Greys and the Custodians' desire for control.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 18,
+      "question": "Which healing center utilizes living crystal walls and rainbow fractals to clear mind-control damage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Star Pods — etheric cocoons that reweave karmic wounds and timeline trauma across multiple lifetimes, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Star Pods mend soul fractures and timeline trauma; rainbow-fractal mental clearing belongs to Crystal Halls."
+        },
+        {
+          "label": "B",
+          "text": "The Hyperborean Gardens — the original seven outer gardens fed by the Spirit Tree before the fall, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Those gardens were the original Spirit Tree architecture; current mental-energetic clearing happens in Crystal Halls."
+        },
+        {
+          "label": "C",
+          "text": "Crystal Halls — crystalline temples with rainbow-fractal walls and breathing columns that clear mind-control damage.",
+          "isCorrect": true,
+          "rationale": "In Crystal Halls, living crystal walls glow with rainbow fractals and columns breathe with light to realign the light body grid, clear parasitic overlays, and dissolve mind-control damage."
+        },
+        {
+          "label": "D",
+          "text": "Water Domes — liquid-sound pools that extract grief, fear, heartbreak, and guilt from the emotional field.",
+          "isCorrect": false,
+          "rationale": "Water Domes extract emotional density through liquid sound; they do not use rainbow-fractal crystal walls for mind-control clearing."
+        }
+      ],
+      "hint": "Focus on the location described as crystalline temples often overlaid by 3D perceptions of cathedrals.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 19,
+      "question": "What is 'loosh' within the context of the parasitic matrix?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The scalar-wave frequency used by allied space forces to extract Resonating Sols from the dome.",
+          "isCorrect": false,
+          "rationale": "The scalar wave burst is a liberation trigger for Resonating Sols; loosh is the dense emotional harvest that feeds parasites."
+        },
+        {
+          "label": "B",
+          "text": "The biological software used to generate new NPC shells through the artificial solar bands.",
+          "isCorrect": false,
+          "rationale": "NPC shells are seeded through artificial solar bands; loosh is the emotional energy harvested from true souls."
+        },
+        {
+          "label": "C",
+          "text": "Emotional energy siphoned from true souls that feeds the parasitic grid and keeps the overlay running.",
+          "isCorrect": true,
+          "rationale": "By holding high resonance and refusing fear, true souls cut off the flow of loosh — emotional energy — that feeds the parasitic grid."
+        },
+        {
+          "label": "D",
+          "text": "The high-frequency light originally emitted by the Spirit Tree through the seven outer gardens.",
+          "isCorrect": false,
+          "rationale": "The Spirit Tree anchored a pure flow of Source light; loosh is the dense emotional energy siphoned by the parasitic grid."
+        }
+      ],
+      "hint": "Consider what is siphoned from humans through fear and conflict.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 20,
+      "question": "How can Human Sols strategically contribute to the collapse of the NPC systems?",
+      "options": [
+        {
+          "label": "A",
+          "text": "By engaging in physical combat with NPCs to reclaim streets, buildings, and the visible 3D grid.",
+          "isCorrect": false,
+          "rationale": "Physical opposition is not the strategy; fighting feeds loosh, while holding high resonance starves the parasitic grid."
+        },
+        {
+          "label": "B",
+          "text": "By ignoring and starving the NPC systems, holding high resonance, and rejecting false matrix contracts.",
+          "isCorrect": true,
+          "rationale": "True souls do not need to fight NPCs; the strategy is to ignore and starve those systems by holding high resonance, refusing fear, and rejecting false matrix contracts, cutting off loosh."
+        },
+        {
+          "label": "C",
+          "text": "By attempting to teach NPCs how to connect to Source so those vessels can awaken and join the rescue.",
+          "isCorrect": false,
+          "rationale": "NPCs have no soul spark and no existence outside the overlay; teaching them to connect to Source cannot work."
+        },
+        {
+          "label": "D",
+          "text": "By destroying the artificial solar bands through mental intention so no new NPC shells can be injected.",
+          "isCorrect": false,
+          "rationale": "The emphasized strategy is personal resonance, refusing fear, and starving the loosh feed — not a mental assault on the solar bands."
+        }
+      ],
+      "hint": "The best way to defeat a parasite is to stop feeding it.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 21,
+      "question": "What is the destiny of NPCs when the 3D overlay completely drops?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are upgraded with soul codes by the Council of 12 Suns so they can survive in higher-frequency realms.",
+          "isCorrect": false,
+          "rationale": "NPCs are strictly tied to the low-frequency overlay and have no capacity for higher-frequency existence; they dissolve."
+        },
+        {
+          "label": "B",
+          "text": "They are relocated to a new dome for further programming so the background population can continue.",
+          "isCorrect": false,
+          "rationale": "NPC existence is tied to the low-frequency 3D overlay; when that overlay drops, those vessels dissolve rather than relocate."
+        },
+        {
+          "label": "C",
+          "text": "They become the new healers in the Water Domes, replacing Saferons as the overlay ends.",
+          "isCorrect": false,
+          "rationale": "Healing is performed by Saferons and resonant beings; soulless autopilot vessels dissolve when the overlay drops."
+        },
+        {
+          "label": "D",
+          "text": "They experience the dissolution of their physical vessels, like shadows when the light hits.",
+          "isCorrect": true,
+          "rationale": "When the parasitic 3D overlay collapses, NPCs have no anchor to sustain them and simply dissolve like shadows when the light hits."
+        }
+      ],
+      "hint": "Think about what happens to a shadow when the light hits it directly.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 22,
+      "question": "What technological weapon is easily used to manipulate NPC consciousness?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Voice to Skull technology, which projects artificial thoughts, voices, and actions into their consciousness.",
+          "isCorrect": true,
+          "rationale": "Because NPC shells carry parasitic software instead of organic memory, Voice to Skull technology easily projects artificial thoughts, voices, and actions into their consciousness."
+        },
+        {
+          "label": "B",
+          "text": "Crystalline grid transmissions, which NPCs receive as organic Source codes through the planet's nodes.",
+          "isCorrect": false,
+          "rationale": "NPCs cannot interface with crystalline grids; they lack organic resonance and Source codes."
+        },
+        {
+          "label": "C",
+          "text": "Scalar wave bursts, which allied space forces use to lock NPC software into a permanent command mode.",
+          "isCorrect": false,
+          "rationale": "Scalar wave bursts are used by allied space forces to activate Resonating Sols, not to manipulate NPC consciousness."
+        },
+        {
+          "label": "D",
+          "text": "Akashic memory retrieval, which pulls ancestral records from the Vatican vaults into the NPC shell.",
+          "isCorrect": false,
+          "rationale": "NPCs have no ancestral lineage or Akashic records; those fragments belong to true human souls stored under the Vatican."
+        }
+      ],
+      "hint": "Look for the technology that targets the 'pre-coded autopilot software' of the shell.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 23,
+      "question": "Why did Princess Diana's extraction involve a staged death?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To prevent her from revealing the location of the Spirit Tree roots still pulsing under Hyperborea.",
+          "isCorrect": false,
+          "rationale": "Her mission was bloodline sabotage and a clean harmonic line, not concealment of the Spirit Tree roots."
+        },
+        {
+          "label": "B",
+          "text": "To allow her to reincarnate into a more powerful royal family still inside the same parasitic network.",
+          "isCorrect": false,
+          "rationale": "The goal was to exit that network and seed a clean line beyond parasitic control, not to re-enter another royal cage."
+        },
+        {
+          "label": "C",
+          "text": "To test the effectiveness of the Star Pod healing sanctuaries on a high-profile Seeded Sol, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "The extraction was a staged operation against a parasitic bloodline, not a medical test of Star Pods."
+        },
+        {
+          "label": "D",
+          "text": "To move her to a safety zone so she could fracture the royal parasitic network and seed a clean harmonic line.",
+          "isCorrect": true,
+          "rationale": "Princess Diana's death was a staged extraction to a safety zone, allowing her to fracture the royal parasitic network from within and seed her clean harmonic line beyond their control."
+        }
+      ],
+      "hint": "Focus on the strategic purpose of removing a Seeded Sol from a parasitic lineage.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 24,
+      "question": "Do Human Sols go through a healing sanctuary before choosing their next destination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yes, but only after they retrieve their own Akashic fragments from the Vatican vaults in a physical raid, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Restoration happens in the cloaked sanctuaries with Saferon support; Vatican vaults are parasitic storage, not a required human raid."
+        },
+        {
+          "label": "B",
+          "text": "No. Human Sols skip every sanctuary and phase out of the dome through a sol frequency lock, just as Resonating Sols do.",
+          "isCorrect": false,
+          "rationale": "Sol frequency lock is the Resonating Sol exit; Human Sols require the staged sanctuary restoration to repair inversion damage."
+        },
+        {
+          "label": "C",
+          "text": "No. Only Resonating Sols enter Water Domes, Crystal Halls, and Star Pods; Human Sols choose immediately when the overlay drops.",
+          "isCorrect": false,
+          "rationale": "The sanctuaries are for inverted Human Sols; Resonating Sols return to origin without passing through any healing sanctuaries."
+        },
+        {
+          "label": "D",
+          "text": "Yes. Human Sols undergo a staged restoration through the sanctuaries to repair matrix damage before they choose their next path.",
+          "isCorrect": true,
+          "rationale": "True human souls undergo a precise, staged awakening and restoration through Water Domes, Crystal Halls, and Star Pods; Resonating Sols are the ones who bypass those halls."
+        }
+      ],
+      "hint": "Consider the extent of the damage inflicted by the parasitic matrix on the local population.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 25,
+      "question": "What is the ultimate choice presented to human souls after the false layers dissolve?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They must remain to repair the physical structures of the 3D matrix — concrete, brick, and steel — as their only path.",
+          "isCorrect": false,
+          "rationale": "Those materials lose density as the overlay collapses; souls are not required to stay behind and rebuild the 3D matrix."
+        },
+        {
+          "label": "B",
+          "text": "They are forced to merge into the collective consciousness of the Council of 12 Suns and lose individuality.",
+          "isCorrect": false,
+          "rationale": "The process restores sovereign choice; it does not force a merger into the Council of 12 Suns."
+        },
+        {
+          "label": "C",
+          "text": "They can ascend to higher realms, transition to other domes, or reincarnate in a restored crystalline Earth.",
+          "isCorrect": true,
+          "rationale": "Once the false layers dissolve, human souls may ascend to higher realms, transition to other domes, or reincarnate in a fresh cycle on a fully restored crystalline Earth without parasitic control."
+        },
+        {
+          "label": "D",
+          "text": "They must return to the Vatican vaults to reclaim their fragments before any other path can open.",
+          "isCorrect": false,
+          "rationale": "Healing sanctuaries restore the soul; the Vatican vaults are parasitic storage, not a required destination after the overlay dissolves."
+        }
+      ],
+      "hint": "Identify the three paths of freedom mentioned for the liberated souls.",
+      "correctAnswer": "C"
+    }
+  ]
+}
