@@ -813,6 +813,7 @@ ${rows}
       sortSelect.value = sortParam;
       sortMode = sortParam;
     }
+    if (typeof initVaultSelects === 'function') initVaultSelects();
     if (saved.status) initialStatus = saved.status;
     if (saved.view === 'grid' || saved.view === 'list') viewMode = saved.view;
     const hashFocus = (window.location.hash || '').replace(/^#/, '');

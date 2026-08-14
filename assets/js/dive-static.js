@@ -160,6 +160,7 @@ function initVideoLanguageSwitcher() {
   }
 
   select.addEventListener('change', () => applyLanguage(select.value));
+  if (typeof initVaultSelects === 'function') initVaultSelects();
 }
 
 function setJumpPillsActive(activeId) {

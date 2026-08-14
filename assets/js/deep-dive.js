@@ -844,6 +844,7 @@ async function loadLessonViewer() {
           };
           apply(select.value);
           select.addEventListener('change', () => apply(select.value));
+          if (typeof initVaultSelects === 'function') initVaultSelects(bar);
         } else {
           renderVideoSet(videos);
         }

@@ -218,6 +218,8 @@ function renderToolbar() {
     });
   });
 
+  if (typeof initVaultSelects === 'function') initVaultSelects(el);
+
   if (shouldRefocusSearch && searchInput) {
     searchInput.focus();
     if (selectionStart != null && selectionEnd != null) {

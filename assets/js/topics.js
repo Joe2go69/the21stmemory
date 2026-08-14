@@ -462,7 +462,7 @@ function renderFilterControls() {
           </div>
           <div class="topics-filter-section topics-filter-section--category archive-filter-row ${TopicUtils.normalizeSearch(filters.search) ? 'is-disabled' : ''}">
             <span class="topics-filter-label">Category</span>
-            <div class="topics-filter-btn-group topics-filter-btn-group--scroll archive-chip-scroll">${categoryButtons}</div>
+            <div class="topics-filter-btn-group">${categoryButtons}</div>
           </div>
         </div>
       </div>
@@ -492,11 +492,6 @@ function renderFilterControls() {
       syncTopicsUrlFromState();
     });
   });
-
-  const categoryScroll = controls.querySelector('.archive-chip-scroll');
-  if (typeof bindOverflowFade === 'function') {
-    bindOverflowFade(categoryScroll);
-  }
 
   if (shouldRefocusSearch && searchInput) {
     searchInput.focus();

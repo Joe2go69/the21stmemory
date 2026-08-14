@@ -57,10 +57,17 @@ function initDeferredAnalytics() {
 }
 
 /** Fade + peek for horizontal chip rows that overflow. */
+const overflowFadeEntries = new Set();
+
 function bindOverflowFade(scroller, wrap) {
   if (!scroller) return;
   const host = wrap || scroller;
+  const entry = { scroller, host };
   const update = () => {
+    if (!scroller.isConnected) {
+      overflowFadeEntries.delete(entry);
+      return;
+    }
     const canScroll = scroller.scrollWidth > scroller.clientWidth + 8;
     const scrolled = scroller.scrollLeft > 8;
     const nearEnd = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 8;
@@ -68,10 +75,27 @@ function bindOverflowFade(scroller, wrap) {
     host.classList.toggle('has-scrolled', scrolled);
     host.classList.toggle('is-at-end', nearEnd || !canScroll);
   };
+  overflowFadeEntries.add(entry);
   if (!scroller.dataset.overflowFadeBound) {
     scroller.dataset.overflowFadeBound = 'true';
     scroller.addEventListener('scroll', update, { passive: true });
-    window.addEventListener('resize', update, { passive: true });
+  }
+  if (!window.__overflowFadeResizeBound) {
+    window.__overflowFadeResizeBound = true;
+    window.addEventListener('resize', () => {
+      overflowFadeEntries.forEach((item) => {
+        if (!item.scroller.isConnected) {
+          overflowFadeEntries.delete(item);
+          return;
+        }
+        const canScroll = item.scroller.scrollWidth > item.scroller.clientWidth + 8;
+        const scrolled = item.scroller.scrollLeft > 8;
+        const nearEnd = item.scroller.scrollLeft + item.scroller.clientWidth >= item.scroller.scrollWidth - 8;
+        item.host.classList.toggle('is-scrollable', canScroll);
+        item.host.classList.toggle('has-scrolled', scrolled);
+        item.host.classList.toggle('is-at-end', nearEnd || !canScroll);
+      });
+    }, { passive: true });
   }
   update();
   requestAnimationFrame(() => requestAnimationFrame(update));
@@ -79,6 +103,176 @@ function bindOverflowFade(scroller, wrap) {
 
 if (typeof window !== 'undefined') {
   window.bindOverflowFade = bindOverflowFade;
+}
+
+const VAULT_SELECT_SELECTOR = 'select.codex-sort-select, select.quiz-hub-sort-select, select.video-lang-select';
+const VAULT_CHEVRON = '<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
+
+function escapeVaultText(value) {
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function closeVaultSelects(except) {
+  document.querySelectorAll('.vault-select.is-open').forEach((wrap) => {
+    if (except && wrap === except) return;
+    wrap.classList.remove('is-open');
+    const trigger = wrap.querySelector('.vault-select__trigger');
+    const menu = wrap.querySelector('.vault-select__menu');
+    if (trigger) trigger.setAttribute('aria-expanded', 'false');
+    if (menu) menu.hidden = true;
+  });
+}
+
+function paintVaultSelect(wrap) {
+  const select = wrap.querySelector('select');
+  const trigger = wrap.querySelector('.vault-select__trigger');
+  const menu = wrap.querySelector('.vault-select__menu');
+  if (!select || !trigger || !menu) return;
+
+  const current = select.options[select.selectedIndex];
+  const label = current ? current.textContent.trim() : '';
+  trigger.innerHTML = `<span class="vault-select__value">${escapeVaultText(label)}</span><span class="vault-select__chevron">${VAULT_CHEVRON}</span>`;
+
+  menu.innerHTML = Array.from(select.options).map((opt) => {
+    const selected = opt.value === select.value;
+    return `<li role="option" class="vault-select__option${selected ? ' is-selected' : ''}" data-value="${escapeVaultText(opt.value)}" aria-selected="${selected ? 'true' : 'false'}" tabindex="-1">${escapeVaultText(opt.textContent.trim())}</li>`;
+  }).join('');
+}
+
+function setVaultSelectValue(wrap, value) {
+  const select = wrap.querySelector('select');
+  if (!select || select.value === value) {
+    closeVaultSelects();
+    wrap.querySelector('.vault-select__trigger')?.focus();
+    return;
+  }
+  select.value = value;
+  select.dispatchEvent(new Event('change', { bubbles: true }));
+  paintVaultSelect(wrap);
+  closeVaultSelects();
+  wrap.querySelector('.vault-select__trigger')?.focus();
+}
+
+function openVaultSelect(wrap) {
+  closeVaultSelects(wrap);
+  paintVaultSelect(wrap);
+  wrap.classList.add('is-open');
+  const trigger = wrap.querySelector('.vault-select__trigger');
+  const menu = wrap.querySelector('.vault-select__menu');
+  if (trigger) trigger.setAttribute('aria-expanded', 'true');
+  if (menu) menu.hidden = false;
+  const selected = menu?.querySelector('.is-selected') || menu?.querySelector('[role="option"]');
+  selected?.focus();
+}
+
+function enhanceVaultSelect(select) {
+  if (!select || select.closest('.vault-select')) return;
+
+  const wrap = document.createElement('div');
+  wrap.className = 'vault-select';
+  if (select.classList.contains('video-lang-select')) wrap.classList.add('vault-select--lang');
+
+  const parent = select.parentNode;
+  if (parent && parent.tagName === 'LABEL') {
+    parent.parentNode.insertBefore(wrap, parent.nextSibling);
+  } else {
+    parent.insertBefore(wrap, select);
+  }
+  wrap.appendChild(select);
+  if (select.id) {
+    document.querySelectorAll(`label[for="${select.id}"]`).forEach((label) => {
+      label.removeAttribute('for');
+    });
+  }
+  select.classList.add('vault-select__native');
+  select.setAttribute('tabindex', '-1');
+  select.setAttribute('aria-hidden', 'true');
+
+  const trigger = document.createElement('button');
+  trigger.type = 'button';
+  trigger.className = 'vault-select__trigger';
+  trigger.setAttribute('aria-haspopup', 'listbox');
+  trigger.setAttribute('aria-expanded', 'false');
+  trigger.setAttribute('aria-label', select.getAttribute('aria-label') || 'Choose an option');
+
+  const menu = document.createElement('ul');
+  menu.className = 'vault-select__menu';
+  menu.setAttribute('role', 'listbox');
+  menu.hidden = true;
+
+  wrap.appendChild(trigger);
+  wrap.appendChild(menu);
+  paintVaultSelect(wrap);
+
+  trigger.addEventListener('click', (event) => {
+    event.preventDefault();
+    if (wrap.classList.contains('is-open')) closeVaultSelects();
+    else openVaultSelect(wrap);
+  });
+
+  trigger.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowDown' || event.key === 'ArrowUp' || event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      openVaultSelect(wrap);
+    }
+  });
+
+  menu.addEventListener('click', (event) => {
+    const option = event.target.closest('[data-value]');
+    if (!option) return;
+    event.preventDefault();
+    setVaultSelectValue(wrap, option.getAttribute('data-value'));
+  });
+
+  menu.addEventListener('keydown', (event) => {
+    const options = Array.from(menu.querySelectorAll('[role="option"]'));
+    const index = options.indexOf(document.activeElement);
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      closeVaultSelects();
+      trigger.focus();
+      return;
+    }
+    if (event.key === 'ArrowDown') {
+      event.preventDefault();
+      options[Math.min(options.length - 1, index + 1)]?.focus();
+      return;
+    }
+    if (event.key === 'ArrowUp') {
+      event.preventDefault();
+      options[Math.max(0, index - 1)]?.focus();
+      return;
+    }
+    if (event.key === 'Home') {
+      event.preventDefault();
+      options[0]?.focus();
+      return;
+    }
+    if (event.key === 'End') {
+      event.preventDefault();
+      options[options.length - 1]?.focus();
+      return;
+    }
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      const active = document.activeElement?.closest('[data-value]');
+      if (active) setVaultSelectValue(wrap, active.getAttribute('data-value'));
+    }
+  });
+
+  select.addEventListener('change', () => paintVaultSelect(wrap));
+}
+
+function initVaultSelects(root = document) {
+  root.querySelectorAll(VAULT_SELECT_SELECTOR).forEach(enhanceVaultSelect);
+}
+
+if (typeof window !== 'undefined') {
+  window.initVaultSelects = initVaultSelects;
 }
 
 function initSharedComponents() {
@@ -92,6 +286,13 @@ function initSharedComponents() {
   initFooterSupportTabs();
   initMeasuredSectionScroll();
   initDeferredAnalytics();
+  initVaultSelects();
+  document.addEventListener('pointerdown', (event) => {
+    if (!event.target.closest('.vault-select')) closeVaultSelects();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closeVaultSelects();
+  });
   setTimeout(initScrollAnimations, 250);
 }
 
