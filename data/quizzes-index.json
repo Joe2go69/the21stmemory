@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-13T11:40:14.397Z",
-  "total": 123,
+  "generatedAt": "2026-08-14T06:52:40.635Z",
+  "total": 124,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 63
+      "count": 64
     }
   ],
   "quizzes": [
@@ -1399,6 +1399,19 @@
       "href": "quiz/breakdown/skull-buzzing.html",
       "diveHref": "dive/breakdown/skull-buzzing.html",
       "key": "breakdown/skull-buzzing"
+    },
+    {
+      "id": "soul-reweaving",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Soul Reweaving",
+      "subtitle": "Test your grasp of Soul Reweaving — star pods and the Womb of Light, soul fractures and timeline trauma, Water Domes / Crystal Halls / Star Pods, Saferons, Red Sea doubt, and sovereign choice after restoration.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/soul-reweaving.html",
+      "diveHref": "dive/breakdown/soul-reweaving.html",
+      "key": "breakdown/soul-reweaving"
     },
     {
       "id": "source-bridge",

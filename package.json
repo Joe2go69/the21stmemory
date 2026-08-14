@@ -30,6 +30,7 @@
     "build": "node scripts/split-topics-data.js && node scripts/build-quizzes-hub.js && node scripts/build-static-dives.js && npx tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --minify && node scripts/minify-css.js && node scripts/inline-chrome.js && node scripts/sync-quiz-chrome.js && node scripts/inject-seo.js && node scripts/generate-sitemap.js && node scripts/apply-perf-assets.js && node scripts/defer-nested-scripts.js"
   },
   "devDependencies": {
+    "sharp": "^0.35.3",
     "tailwindcss": "^3.4.17"
   }
 }

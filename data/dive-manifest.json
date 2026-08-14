@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T11:40:14.667Z",
+  "generatedAt": "2026-08-14T06:52:40.822Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -866,7 +866,7 @@
       "sourceId": "breakdown",
       "topicId": "soul-reweaving",
       "path": "/dive/breakdown/soul-reweaving.html",
-      "live": false,
+      "live": true,
       "title": "Soul Reweaving"
     },
     {
