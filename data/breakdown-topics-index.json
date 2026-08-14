@@ -513,9 +513,9 @@
         {
           "id": "npc-programs",
           "title": "NPC Programs",
-          "description": "Decoded analysis of NPC Programs within the Mega Breakdown Board Notes & Highlights transmission.",
-          "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true,
+          "description": "NPC Programs are non-soul background scripts that hold the 3D simulation together — empty of sovereign consciousness, seeded through artificial solar bands, and destined to dissolve when frequency collapse removes the system’s power source.",
+          "topic_image": "images/breakdown/npc-programs.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "background-fragments",

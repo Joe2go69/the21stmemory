@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T11:29:12.769Z",
+  "generatedAt": "2026-08-14T14:34:40.287Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -887,7 +887,7 @@
       "sourceId": "breakdown",
       "topicId": "npc-programs",
       "path": "/dive/breakdown/npc-programs.html",
-      "live": false,
+      "live": true,
       "title": "NPC Programs"
     },
     {

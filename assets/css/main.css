@@ -17904,37 +17904,37 @@ a.topic-root-card {
   border: 0 !important;
 }
 
-/* Support band — full story + three way cards */
+/* Support band — short proposition + three way cards */
 .footer-support,
 #support.footer-support {
   max-width: none !important;
   margin-top: 2rem !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
-  padding: 1.85rem 1.5rem 1.55rem !important;
+  padding: 1.65rem 1.5rem 1.4rem !important;
   text-align: center !important;
 }
 
 .footer-support-head {
-  max-width: 40rem !important;
+  max-width: 36rem !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  margin-bottom: 1.35rem !important;
+  margin-bottom: 1.1rem !important;
 }
 
 .footer-support-title {
   font-size: clamp(1.55rem, 3.5vw, 2.15rem) !important;
-  margin-bottom: 0.75rem !important;
+  margin-bottom: 0.55rem !important;
 }
 
 .footer-support-message,
 .footer-support-message--long,
 .footer-support-message--short {
-  max-width: 38rem !important;
+  max-width: 32rem !important;
   font-size: 0.95rem !important;
-  line-height: 1.65 !important;
+  line-height: 1.55 !important;
   color: #C4B5FD !important;
-  margin-bottom: 1.15rem !important;
+  margin-bottom: 0.95rem !important;
 }
 
 /* Three support forms — real cards, not tiny chips */
@@ -17945,7 +17945,7 @@ a.topic-root-card {
   list-style: none !important;
   margin: 0 auto 0.25rem !important;
   padding: 0 !important;
-  max-width: 48rem !important;
+  max-width: none !important;
   justify-content: stretch !important;
 }
 
@@ -17995,7 +17995,7 @@ a.topic-root-card {
 }
 
 .footer-support-tabs {
-  margin-top: 1.35rem !important;
+  margin-top: 1.15rem !important;
 }
 
 .footer-support-note {
@@ -20435,4 +20435,49 @@ iframe,
 
 .video-embed-cover.is-gone {
   opacity: 0;
+}
+
+/* Support head — compact 3-up tiles on small screens */
+@media (max-width: 640px) {
+  .footer-support-head {
+    margin-bottom: 0.85rem !important;
+  }
+
+  .footer-support-message,
+  .footer-support-message--long,
+  .footer-support-message--short {
+    margin-bottom: 0.7rem !important;
+    max-width: none !important;
+  }
+
+  .footer-support-funds {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 0.4rem !important;
+    max-width: none !important;
+  }
+
+  .footer-support-fund,
+  .footer-support-funds li {
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 0.55rem 0.35rem !important;
+    gap: 0 !important;
+    min-height: 2.6rem !important;
+  }
+
+  .footer-support-fund__title {
+    font-size: 0.68rem !important;
+    line-height: 1.25 !important;
+    letter-spacing: 0.01em !important;
+  }
+
+  .footer-support-fund__desc {
+    display: none !important;
+  }
+
+  .footer-support-tabs {
+    margin-top: 0.95rem !important;
+  }
 }

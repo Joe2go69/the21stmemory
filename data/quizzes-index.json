@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T11:29:12.487Z",
-  "total": 126,
+  "generatedAt": "2026-08-14T14:34:40.083Z",
+  "total": 127,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 66
+      "count": 67
     }
   ],
   "quizzes": [
@@ -1269,6 +1269,19 @@
       "href": "quiz/breakdown/npc-glitching.html",
       "diveHref": "dive/breakdown/npc-glitching.html",
       "key": "breakdown/npc-glitching"
+    },
+    {
+      "id": "npc-programs",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "NPC Programs",
+      "subtitle": "Test your grasp of NPC Programs — background scripts in the Great Dome, artificial entry bands, Scalar Frequency Weapons, Sleepers versus empty shells, and the strategy of starving the programs.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/npc-programs.html",
+      "diveHref": "dive/breakdown/npc-programs.html",
+      "key": "breakdown/npc-programs"
     },
     {
       "id": "original-realm",

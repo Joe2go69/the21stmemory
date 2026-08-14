@@ -77,50 +77,50 @@
     }
   ],
   "support": {
-    "heading": "Awaken the 21st Memory",
+    "heading": "Keep the archive growing",
     "eyebrow": "Independent · Always free",
-    "message": "21st Memory is free for everyone — no paywalls, no accounts. The archive is independently built and maintained, and hosting, tools, and AI currently cost more than the project covers on its own. If it has been useful, you can help it reach further: share a topic, invite someone into the community, or contribute toward operating costs. The more people who remember, the stronger the 21st Memory becomes.",
-    "messageShort": "Free for all, independently run. Share a topic, join the community, or help fund hosting and AI. The more people who remember, the stronger the 21st Memory becomes.",
+    "message": "Every video, report, and quiz stays free. Hosting, tools, and AI cost real money — share a topic, join the community, or help it grow.",
+    "messageShort": "Every video, report, and quiz stays free. Hosting, tools, and AI cost real money — share a topic, join the community, or help it grow.",
     "fundsLabel": "Three ways people help",
     "funds": [
       {
         "title": "Share a topic",
-        "desc": "Pass a deep-dive to someone ready to remember"
+        "desc": "Pass a deep-dive on."
       },
       {
         "title": "Join the community",
-        "desc": "Telegram, Network, and the wider circle"
+        "desc": "Telegram and the Network."
       },
       {
-        "title": "Help fund the archive",
-        "desc": "Hosting, tools & AI — GoFundMe, Ko-fi, Bitcoin, or Starlink below"
+        "title": "Fund the archive",
+        "desc": "Hosting, tools, and the next topics."
       }
     ],
-    "note": "Always free · Entirely optional · Every form of support counts",
+    "note": "Entirely optional · Every form counts",
     "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
     "qrImage": "assets/images/bitcoin-qr.png",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",
-    "bitcoinHint": "Scan with a wallet app, or copy the address below.",
+    "bitcoinHint": "Scan or copy the address.",
     "bitcoinImage": "images/bitcoin-preview.jpg",
     "bitcoinImageAlt": "Bitcoin — support the living archive",
     "gofundme": {
       "href": "https://gofund.me/a1603af10",
       "buttonText": "Open GoFundMe",
-      "hint": "Toward hosting, tools, and expanding the archive.",
+      "hint": "Hosting, tools, and the next topics.",
       "image": "images/gofundme.webp",
       "imageAlt": "GoFundMe — support the living archive"
     },
     "kofi": {
       "href": "https://ko-fi.com/the21stmemory",
       "buttonText": "Open Ko-fi",
-      "hint": "One-time or monthly — toward hosting, tools, and AI.",
+      "hint": "One-time or monthly.",
       "image": "images/kofi.webp",
       "imageAlt": "Ko-fi — support the living archive"
     },
     "starlink": {
       "href": "https://starlink.com/residential?referral=RC-DF-13754617-58626-7",
       "buttonText": "Open Starlink",
-      "hint": "Sign up through this referral link — you get a free month, and it helps cover the archive’s connectivity.",
+      "hint": "A free month for you. Connectivity for the archive.",
       "image": "images/starlink.webp",
       "imageAlt": "Starlink referral — free month for you and the archive"
     }

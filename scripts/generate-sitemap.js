@@ -146,6 +146,7 @@ const entries = [
   { path: '/quiz/breakdown/soul-reweaving.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/nebulae-resting.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/population-types.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/npc-programs.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/source-bridge.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/central-axis.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/phase-one-three.html', priority: '0.75', changefreq: 'monthly' },

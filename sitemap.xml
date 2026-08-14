@@ -785,6 +785,13 @@
   </url>
 
   <url>
+    <loc>https://21stmemory.com/quiz/breakdown/npc-programs.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
     <loc>https://21stmemory.com/quiz/breakdown/source-bridge.html</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1815,6 +1822,13 @@
 
   <url>
     <loc>https://21stmemory.com/dive/breakdown/population-types.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://21stmemory.com/dive/breakdown/npc-programs.html</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
