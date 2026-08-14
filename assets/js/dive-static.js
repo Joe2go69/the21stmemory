@@ -574,7 +574,6 @@ function initClickToPlayVideos() {
       if (!embed) return;
 
       document.querySelectorAll('iframe[src*="rumble.com"]').forEach((iframe) => {
-        try { iframe.src = 'about:blank'; } catch { /* ignore */ }
         const parent = iframe.closest('[data-rumble-embed]');
         if (parent && parent !== el) {
           const title = parent.getAttribute('data-video-title') || 'Video';
@@ -593,19 +592,30 @@ function initClickToPlayVideos() {
       });
 
       const title = el.getAttribute('data-video-title') || 'Video';
-      el.innerHTML = '';
-      const iframe = document.createElement('iframe');
-      iframe.src = embed;
-      iframe.title = title;
-      iframe.allowFullscreen = true;
-      iframe.className = 'w-full h-full border-0 absolute inset-0';
-      iframe.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture; fullscreen');
-      el.appendChild(iframe);
+      el.innerHTML = (typeof window.renderRumbleEmbedHtml === 'function')
+        ? window.renderRumbleEmbedHtml(embed, title)
+        : '';
+      if (!el.innerHTML) {
+        const iframe = document.createElement('iframe');
+        iframe.src = embed;
+        iframe.title = title;
+        iframe.allowFullscreen = true;
+        iframe.className = 'w-full h-full border-0 absolute inset-0 video-embed-frame';
+        iframe.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture; fullscreen');
+        iframe.style.colorScheme = 'dark';
+        iframe.style.backgroundColor = '#0F0A1F';
+        el.appendChild(iframe);
+        const cover = document.createElement('div');
+        cover.className = 'video-embed-cover';
+        cover.setAttribute('aria-hidden', 'true');
+        el.appendChild(cover);
+      }
       el.dataset.loaded = 'true';
       el.classList.remove('cursor-pointer');
       el.removeAttribute('role');
       el.removeAttribute('tabindex');
       el.removeAttribute('aria-label');
+      if (typeof window.revealRumbleEmbed === 'function') window.revealRumbleEmbed(el);
     };
     el.addEventListener('click', play);
     el.addEventListener('keydown', (e) => {

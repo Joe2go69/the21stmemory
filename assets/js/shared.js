@@ -749,6 +749,48 @@ function initMobileMenu() {
   });
 }
 
+function escapeRumbleText(value) {
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+/** Dark-first Rumble iframe so about:blank / player chrome cannot flash white. */
+function renderRumbleEmbedHtml(embedUrl, title) {
+  const safeUrl = escapeRumbleText(embedUrl);
+  const safeTitle = escapeRumbleText(title || 'Video');
+  return (
+    `<iframe src="${safeUrl}" width="100%" height="100%" allowfullscreen` +
+    ` class="w-full h-full absolute inset-0 border-0 video-embed-frame"` +
+    ` title="${safeTitle}"` +
+    ` style="color-scheme:dark;background-color:#0F0A1F"` +
+    ` allow="autoplay; encrypted-media; picture-in-picture; fullscreen"></iframe>` +
+    `<div class="video-embed-cover" aria-hidden="true"></div>`
+  );
+}
+
+function revealRumbleEmbed(wrap) {
+  const cover = wrap && wrap.querySelector('.video-embed-cover');
+  if (!cover) return;
+  let hidden = false;
+  const hide = () => {
+    if (hidden || !cover.isConnected) return;
+    hidden = true;
+    cover.classList.add('is-gone');
+    setTimeout(() => cover.remove(), 320);
+  };
+  const iframe = wrap.querySelector('iframe');
+  if (iframe) iframe.addEventListener('load', () => setTimeout(hide, 300), { once: true });
+  setTimeout(hide, 2400);
+}
+
+if (typeof window !== 'undefined') {
+  window.renderRumbleEmbedHtml = renderRumbleEmbedHtml;
+  window.revealRumbleEmbed = revealRumbleEmbed;
+}
+
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', initSharedComponents);
 } else {

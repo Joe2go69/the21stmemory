@@ -149,16 +149,19 @@ function setupHomeVideos(root) {
         other.setAttribute('aria-label', `Play video: ${otherTitle}`);
       });
 
-      wrap.innerHTML = `
-        <iframe src="${escapeHtml(embedUrl)}" width="100%" height="100%" allowfullscreen
-                class="w-full h-full absolute inset-0 border-0" title="${escapeHtml(title)}"
-                allow="autoplay; encrypted-media; picture-in-picture; fullscreen" loading="lazy"></iframe>
-      `;
+      wrap.innerHTML = (typeof window.renderRumbleEmbedHtml === 'function')
+        ? window.renderRumbleEmbedHtml(embedUrl, title)
+        : `<iframe src="${escapeHtml(embedUrl)}" width="100%" height="100%" allowfullscreen
+                class="w-full h-full absolute inset-0 border-0 video-embed-frame" title="${escapeHtml(title)}"
+                style="color-scheme:dark;background-color:#0F0A1F"
+                allow="autoplay; encrypted-media; picture-in-picture; fullscreen"></iframe>
+           <div class="video-embed-cover" aria-hidden="true"></div>`;
       wrap.dataset.loaded = 'true';
       wrap.classList.remove('cursor-pointer');
       wrap.removeAttribute('role');
       wrap.removeAttribute('tabindex');
       wrap.removeAttribute('aria-label');
+      if (typeof window.revealRumbleEmbed === 'function') window.revealRumbleEmbed(wrap);
     };
 
     wrap.addEventListener('click', loadEmbed);

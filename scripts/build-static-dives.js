@@ -743,6 +743,8 @@ ${robots}    <link rel="canonical" href="${canonical}">
 ${jsonLd}
         <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
     <style>html,body{background-color:#0F0A1F;color-scheme:dark}</style>
+    <link rel="preload" href="${ASSET_BASE}assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="${ASSET_BASE}assets/fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="${ASSET_BASE}assets/css/main.min.css" as="style">
     <link rel="stylesheet" href="${ASSET_BASE}assets/css/fonts.css">
     <link rel="stylesheet" href="${ASSET_BASE}assets/css/tailwind.css">

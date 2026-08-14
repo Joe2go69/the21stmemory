@@ -265,9 +265,9 @@ const TopicUtils = {
       const iframe = wrap.querySelector('iframe');
       if (wrap.dataset.loaded !== 'true' && !iframe) return;
 
-      // Blank first so playback stops even if remove is delayed
+      // Remove the player node — do not park it on about:blank (white flash)
       if (iframe) {
-        try { iframe.src = 'about:blank'; } catch { /* ignore */ }
+        try { iframe.remove(); } catch { /* ignore */ }
       }
 
       const title = wrap.dataset.videoTitle || '21st Memory video';
@@ -285,7 +285,6 @@ const TopicUtils = {
     document.querySelectorAll('iframe[src*="rumble.com"]').forEach((iframe) => {
       if (isExcept(iframe)) return;
       if (iframe.closest('[data-rumble-embed]')) return;
-      try { iframe.src = 'about:blank'; } catch { /* ignore */ }
       iframe.remove();
     });
 
@@ -312,16 +311,19 @@ const TopicUtils = {
         // One video at a time across the page
         this.stopOtherRumbleVideos(wrap);
 
-        wrap.innerHTML = `
-          <iframe src="${this.escapeHtml(embedUrl)}" width="100%" height="100%" allowfullscreen
-                  class="w-full h-full absolute inset-0 border-0" title="${this.escapeHtml(title)}"
+        wrap.innerHTML = (typeof window.renderRumbleEmbedHtml === 'function')
+          ? window.renderRumbleEmbedHtml(embedUrl, title)
+          : `<iframe src="${this.escapeHtml(embedUrl)}" width="100%" height="100%" allowfullscreen
+                  class="w-full h-full absolute inset-0 border-0 video-embed-frame" title="${this.escapeHtml(title)}"
+                  style="color-scheme:dark;background-color:#0F0A1F"
                   allow="autoplay; encrypted-media; picture-in-picture; fullscreen"></iframe>
-        `;
+             <div class="video-embed-cover" aria-hidden="true"></div>`;
         wrap.dataset.loaded = 'true';
         wrap.classList.remove('cursor-pointer');
         wrap.removeAttribute('role');
         wrap.removeAttribute('tabindex');
         wrap.removeAttribute('aria-label');
+        if (typeof window.revealRumbleEmbed === 'function') window.revealRumbleEmbed(wrap);
       };
 
       wrap.addEventListener('click', loadEmbed);
