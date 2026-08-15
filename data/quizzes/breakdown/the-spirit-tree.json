@@ -374,31 +374,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — Valve Tech fully replaced the root web so no dormant organic pathway remains under any dome.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Valve Tech was installed in the wound to siphon energy, but the Spirit Tree's root system survived as a dormant living web across realms."
         },
         {
           "label": "B",
-          "text": "False — because the tree was never removed and still stands fully visible above Hyperborea's ice.",
-          "isCorrect": false,
-          "rationale": "Parasites did orchestrate removal and installed Valve Tech in the wound; what survives is the dormant root web, not an intact visible trunk."
-        },
-        {
-          "label": "C",
-          "text": "True — every root, node, and crystal tied to the tree was erased when Greys tore it from Hyperborea.",
-          "isCorrect": false,
-          "rationale": "Despite removal of the main structure, the root system survived and still forms the foundational energetic web awaiting reactivation."
-        },
-        {
-          "label": "D",
-          "text": "False — its roots extended across realms as a dormant but living web of lenses, nodes, and crystals.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "The essence of the Spirit Tree was not completely eradicated; its roots extended across all realms and domes, forming a dormant but living web of harmonic lenses, nodes, and crystals."
         }
       ],
       "hint": "The main trunk was torn out, yet something foundational still waits to wake.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -566,31 +554,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — Surface Nodes exist only as red-gold plasma junctions deep underground with no surface markers.",
-          "isCorrect": false,
-          "rationale": "Red-gold deep junctions are Earth Nodes; Surface Nodes are at crossings often marked by temples or stone circles with blue or white tones."
-        },
-        {
-          "label": "B",
-          "text": "True — but only after Valve Tech converted every temple into a black crystalline monolith lock.",
-          "isCorrect": false,
-          "rationale": "Surface Nodes were marked by temples and stone circles as organic grid points; monoliths are hijacked frequency block locks of the parasitic inversion."
-        },
-        {
-          "label": "C",
-          "text": "True — Surface Nodes sit where energy lines cross and are often marked by ancient temples or stone circles.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "Surface Nodes are points where energy lines cross, often marked by ancient temples or stone circles, humming in blue or white tones to connect earth and sky."
         },
         {
-          "label": "D",
-          "text": "False — temples and stone circles mark only Inter-dimensional Nodes that appear as liquid silver orbs.",
+          "label": "B",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Temples and stone circles mark Surface Nodes at energy crossings; Inter-dimensional Nodes appear as rainbow balls or liquid silver orbs."
+          "rationale": "Red-gold deep junctions are Earth Nodes; Surface Nodes are at crossings often marked by temples or stone circles with blue or white tones."
         }
       ],
       "hint": "Surface crossings hum in blue or white and host ancient landmarks.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 19,

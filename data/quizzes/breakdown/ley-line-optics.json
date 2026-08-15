@@ -694,27 +694,15 @@
       "options": [
         {
           "label": "A",
-          "text": "False — because the Sub-Crystalline Band does not exist and only Surface Band cables ever move data.",
-          "isCorrect": false,
-          "rationale": "The Sub-Crystalline Band is a real deep layer of the Seven Overlay-Bands and is the faster true carrier beneath continents and oceans."
-        },
-        {
-          "label": "B",
-          "text": "False — the Sub-Crystalline Band carries vibration between continents much faster than any artificial wire.",
-          "isCorrect": true,
-          "rationale": "When cables seem to transmit data, the underlying Sub-Crystalline Band is actually carrying vibration between continents much faster than any artificial wire ever could."
-        },
-        {
-          "label": "C",
-          "text": "True — mineral density forces the Sub-Crystalline Band to lag far behind every ocean-floor fibre cable.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "The Sub-Crystalline Band outpaces artificial wires; mineral resonance enables instantaneous passage, not a density-forced slowdown."
         },
         {
-          "label": "D",
-          "text": "True — only physical 3D technology can move codes between continents while buried crystals stay silent.",
-          "isCorrect": false,
-          "rationale": "Buried crystalline minerals pass codes instantaneously; artificial wires are the slower dense echo, not the true high-speed path."
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "When cables seem to transmit data, the underlying Sub-Crystalline Band is actually carrying vibration between continents much faster than any artificial wire ever could."
         }
       ],
       "hint": "Compare mineral resonance speed to man-made cable speed.",
@@ -790,27 +778,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — structured water and silica crystals are deployed with O.R.M.E. to repair electro-magnetic fields.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "Advanced benevolent atmospheric stabilization programs deploy O.R.M.E., structured water, and silica crystals as frequency balancers and atmospheric software patches that repair electro-magnetic fields."
         },
         {
           "label": "B",
-          "text": "False — only concrete and steel dust is sprayed into the sky to permanently seal every Sky Node offline.",
+          "text": "False",
           "isCorrect": false,
           "rationale": "Stabilization uses O.R.M.E., structured water, and silica crystals to repair fields, not concrete and steel to seal Sky Nodes."
-        },
-        {
-          "label": "C",
-          "text": "False — atmospheric programs deploy only artificial satellite relays and never use silica or structured water.",
-          "isCorrect": false,
-          "rationale": "The programs specifically deploy structured water and silica crystals with O.R.M.E. as atmospheric software patches for field repair."
-        },
-        {
-          "label": "D",
-          "text": "True — but only as a currency system, with no effect on electro-magnetic fields or pineal conductivity.",
-          "isCorrect": false,
-          "rationale": "These materials act as frequency balancers that repair electro-magnetic fields and raise pineal conductivity, not as currency."
         }
       ],
       "hint": "Check which materials are deployed as atmospheric software patches.",

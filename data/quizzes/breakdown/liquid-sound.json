@@ -214,31 +214,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — Water Domes are solid visible buildings stacked from lake crystal blocks with opaque walls only.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Domes are projected translucent and often invisible enclosures, not solid opaque buildings of lake crystal."
         },
         {
           "label": "B",
-          "text": "True — Water Domes are purely mental visualizations with no energetic enclosure around any water body.",
-          "isCorrect": false,
-          "rationale": "They are real projected sanctuaries housing Liquid Sound pools, described as vast translucent enclosures over waters."
-        },
-        {
-          "label": "C",
-          "text": "True — Water Domes exist only as underground bunkers with no projection over lakes or oceans at all.",
-          "isCorrect": false,
-          "rationale": "They are projected over crystalline lakes, oceans, and valleys as shimmering translucent enclosures."
-        },
-        {
-          "label": "D",
-          "text": "False — Water Domes are vast shimmering invisible translucent enclosures projected over crystalline waters.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "Water Domes are vast, shimmering, invisible translucent enclosures projected over crystalline lakes, oceans, and valleys—not solid visible lake-built structures."
         }
       ],
       "hint": "Invisible translucent projected enclosures over waters.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 8,
@@ -470,27 +458,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — soul coding interacting with Liquid Sound triggers spontaneous visions and ancient sound recall.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "Tonal Awakening: interaction between the soul's coding and liquid sound triggers spontaneous visions and ancient sound recall."
         },
         {
           "label": "B",
-          "text": "False — Saferons must manually inject synthetic memories because liquid never triggers recall alone.",
+          "text": "False",
           "isCorrect": false,
           "rationale": "Exposure and coding—liquid interaction mechanically trigger remembrance; Saferons guide without forcing synthetic memory injection."
-        },
-        {
-          "label": "C",
-          "text": "False — ancient sound recall is impossible until the soul leaves Water Domes and re-enters 3D oceans.",
-          "isCorrect": false,
-          "rationale": "Recall is triggered inside the pools during interaction with Liquid Sound, not after return to suppressed 3D oceans."
-        },
-        {
-          "label": "D",
-          "text": "False — sound recall only happens after Crystal Hall slabs erase every vibrational code from the field.",
-          "isCorrect": false,
-          "rationale": "Sound recall is triggered by interaction with Liquid Sound itself during tonal awakening, not by code erasure in Crystal Halls."
         }
       ],
       "hint": "Tonal Awakening and spontaneous visions.",
@@ -662,31 +638,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — remembrance requires parasites to approve each vision before any code can activate.",
-          "isCorrect": false,
-          "rationale": "Liquid Sound repels parasitic technologies and triggers remembrance directly; parasite approval is not part of the process."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Spontaneous Memory Restoration: exposure to Liquid Sound is a direct mechanical trigger for ancient remembrance, bridging the amnesia gap through visions and sound recall."
         },
         {
           "label": "B",
-          "text": "False — mechanical triggers are forbidden; Saferons must rewrite memory by force after every pool.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Saferons offer non-forceful guidance; the medium itself mechanically triggers remembrance without forced rewrites."
-        },
-        {
-          "label": "C",
-          "text": "False — Liquid Sound never triggers remembrance; only Crystal Hall lectures can restore any memory.",
-          "isCorrect": false,
-          "rationale": "Liquid Sound itself is the mechanical trigger for ancient remembrance and amnesia bridging."
-        },
-        {
-          "label": "D",
-          "text": "True — exposure acts as a direct mechanical trigger for ancient remembrance and amnesia bridging.",
-          "isCorrect": true,
-          "rationale": "Spontaneous Memory Restoration: exposure to Liquid Sound is a direct mechanical trigger for ancient remembrance, bridging the amnesia gap through visions and sound recall."
+          "rationale": "Liquid Sound repels parasitic technologies and triggers remembrance directly; parasite approval is not part of the process."
         }
       ],
       "hint": "Direct trigger bridging the amnesia gap.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 22,

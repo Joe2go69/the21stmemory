@@ -470,27 +470,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — Greys grew it as organic timber inside Hyperborea to feed only the Saturn Moon Station, and that is treated as the entire mechanism.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Greys helped tear the Tree down; Lyrans engineered it as light frequency, not as Grey-grown organic timber for Saturn harvest."
         },
         {
           "label": "B",
-          "text": "False — it is a multidimensional Harmonic Chord of pure light engineered by Lyran Builders-Architects, not Greys.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "The Spirit Tree is not biological; it is a Harmonic Chord of pure light planted and engineered by Lyran Builders-Architects. Greys aided removal, not creation."
-        },
-        {
-          "label": "C",
-          "text": "True — Custodians built it as a biological harvest organism long before any Lyran involvement, as a one-factor story with a tidy edge.",
-          "isCorrect": false,
-          "rationale": "Custodians ordered its destruction and installed Black Cube valve tech; Lyran Builders-Architects created the original Tree."
-        },
-        {
-          "label": "D",
-          "text": "False — because the Tree never existed except as a brand logo on 21st Memory slides, and that is treated as the entire mechanism.",
-          "isCorrect": false,
-          "rationale": "The Tree is described as the supreme Source Bridge and central axis of the KNOWN LANDS, not a brand logo only."
         }
       ],
       "hint": "Check both its nature as light and who planted it.",
@@ -790,27 +778,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — Hyperborea is the living resonance field and core of the Cube system where the central Spirit Tree originally stood.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "Hyperborea is defined as the living resonance field and core of the Cube system where the central Spirit Tree originally stood."
         },
         {
           "label": "B",
-          "text": "False — Hyperborea is another name for the Saturn Moon Frequency Station alone, and that is treated as the entire mechanism.",
+          "text": "False",
           "isCorrect": false,
           "rationale": "The Saturn Moon Frequency Station is parasitic valve tech; Hyperborea is the living field where the Tree stood."
-        },
-        {
-          "label": "C",
-          "text": "True — but only as a temporary brand slogan with no Cube-system or Spirit Tree meaning, as if no adjacent systems participated at all.",
-          "isCorrect": false,
-          "rationale": "Hyperborea is substantive cosmology in the Key Terminology of the Source Bridge report, not a slogan without meaning."
-        },
-        {
-          "label": "D",
-          "text": "False — Hyperborea is only an outer Garden Dome listed beside Hiva and Five Peaks, and that is treated as the entire mechanism.",
-          "isCorrect": false,
-          "rationale": "Hyperborea is the core resonance field of the Cube system, not one of the seven outer Garden Domes."
         }
       ],
       "hint": "Recall Key Terminology on the living resonance field at the Cube core.",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T14:34:40.083Z",
-  "total": 127,
+  "generatedAt": "2026-08-15T08:22:31.188Z",
+  "total": 128,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 67
+      "count": 68
     }
   ],
   "quizzes": [
@@ -827,6 +827,19 @@
       "href": "quiz/breakdown/atmospheric-pop.html",
       "diveHref": "dive/breakdown/atmospheric-pop.html",
       "key": "breakdown/atmospheric-pop"
+    },
+    {
+      "id": "background-fragments",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Background Fragments",
+      "subtitle": "Test your grasp of Background Fragments — soulless light-force projections, artificial entry bands, Voice to Skull, coded one-life inserts, glitching under frequency fracture, and starving the programs as the overlay dissolves.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/background-fragments.html",
+      "diveHref": "dive/breakdown/background-fragments.html",
+      "key": "breakdown/background-fragments"
     },
     {
       "id": "blackout-timeline",

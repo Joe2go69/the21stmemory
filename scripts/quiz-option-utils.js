@@ -75,13 +75,78 @@ function tightenCorrect(text, medianWrongLen) {
   return t;
 }
 
+/** Option text that is only a True/False polarity, optionally followed by an em-dash gloss. */
+const TF_OPTION_RE = /^(true|false)(\s*[—–\-:].*)?$/i;
+
+function polarityOf(text) {
+  const m = String(text || '')
+    .trim()
+    .match(/^(true|false)\b/i);
+  return m ? (m[1].toLowerCase() === 'true' ? 'True' : 'False') : null;
+}
+
+function isTrueFalseQuestion(question, options) {
+  if (/^\s*true\s+or\s+false\b/i.test(question || '')) return true;
+  const texts = (options || []).map((o) => String(o.text || '').trim());
+  return texts.length >= 2 && texts.every((t) => TF_OPTION_RE.test(t));
+}
+
+/**
+ * Collapse padded True/False items to A=True, B=False.
+ * Extra True/False glosses stay in the matching rationale, not as extra choices.
+ */
+function collapseTrueFalseOptions(options) {
+  const opts = (options || []).map((o) => ({
+    label: o.label,
+    text: String(o.text || '').trim(),
+    isCorrect: !!o.isCorrect,
+    rationale: String(o.rationale || '').trim(),
+  }));
+  const correct = opts.find((o) => o.isCorrect);
+  if (!correct) {
+    throw new Error('collapseTrueFalseOptions: need exactly 1 correct');
+  }
+  const correctPol = polarityOf(correct.text);
+  if (!correctPol) {
+    throw new Error(
+      `collapseTrueFalseOptions: correct option must start with True or False (${correct.text})`
+    );
+  }
+  const wrongPol = correctPol === 'True' ? 'False' : 'True';
+  const wrong =
+    opts.find((o) => !o.isCorrect && polarityOf(o.text) === wrongPol) ||
+    opts.find((o) => !o.isCorrect);
+  if (!wrong) {
+    throw new Error('collapseTrueFalseOptions: missing the opposite polarity');
+  }
+
+  return {
+    options: [
+      {
+        label: 'A',
+        text: 'True',
+        isCorrect: correctPol === 'True',
+        rationale: correctPol === 'True' ? correct.rationale : wrong.rationale,
+      },
+      {
+        label: 'B',
+        text: 'False',
+        isCorrect: correctPol === 'False',
+        rationale: correctPol === 'False' ? correct.rationale : wrong.rationale,
+      },
+    ],
+    correctAnswer: correctPol === 'True' ? 'A' : 'B',
+  };
+}
+
 /**
  * Map raw options → balanced, shuffled A–D options + correctAnswer letter.
+ * True/False items stay two options (True / False) and are never padded to four.
  * @param {Array} rawOptions options with text, isCorrect, rationale (label optional)
  * @param {string|number} seedKey stable seed (topicId + question number)
+ * @param {string} [question] question stem; used to detect True/False items
  */
-function finalizeOptions(rawOptions, seedKey) {
-  const rand = mulberry32(hashSeed(String(seedKey)));
+function finalizeOptions(rawOptions, seedKey, question) {
   let options = rawOptions.map((o) => ({
     label: o.label,
     text: String(o.text || '').trim(),
@@ -92,6 +157,12 @@ function finalizeOptions(rawOptions, seedKey) {
   if (options.filter((o) => o.isCorrect).length !== 1) {
     throw new Error(`finalizeOptions: need exactly 1 correct (seed ${seedKey})`);
   }
+
+  if (isTrueFalseQuestion(question, options)) {
+    return collapseTrueFalseOptions(options);
+  }
+
+  const rand = mulberry32(hashSeed(String(seedKey)));
 
   const wrongs = options.filter((o) => !o.isCorrect);
   const wrongLens = wrongs.map((o) => o.text.length).sort((a, b) => a - b);
@@ -125,4 +196,7 @@ module.exports = {
   tightenCorrect,
   hashSeed,
   LABELS,
+  isTrueFalseQuestion,
+  collapseTrueFalseOptions,
+  polarityOf,
 };

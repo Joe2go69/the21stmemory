@@ -246,31 +246,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — a soul stays only until its vibration stabilizes; sanctuaries are transition halls, not prisons.",
-          "isCorrect": true,
-          "rationale": "Sanctuaries are strictly transition halls, not permanent residences; a soul stays only until its vibration stabilizes, then receives a sovereign choice."
-        },
-        {
-          "label": "B",
-          "text": "True — every soul is locked inside until the entire Mega Breakdown calendar ends with no earlier exit.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Duration is based on vibrational stability, not a fixed external Mega Breakdown calendar that forces permanent confinement."
         },
         {
-          "label": "C",
-          "text": "True — sanctuaries convert into permanent residential prisons once the parasitic overlay fully collapses.",
-          "isCorrect": false,
-          "rationale": "They remain transition halls for stabilization and choice, never permanent prisons or residential colonies after collapse."
-        },
-        {
-          "label": "D",
-          "text": "True — only Resonating Army starseeds may leave early; all other souls remain confined indefinitely.",
-          "isCorrect": false,
-          "rationale": "Every stabilized soul receives a sovereign choice to ascend or return; stay length is vibration-based for all true human sparks, not indefinite confinement."
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Sanctuaries are strictly transition halls, not permanent residences; a soul stays only until its vibration stabilizes, then receives a sovereign choice."
         }
       ],
       "hint": "Ask whether stay length is a fixed timeline or based on vibrational stability.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -438,31 +426,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — only Resonating Army starseeds receive help; all other human sparks are left in the overlay.",
-          "isCorrect": false,
-          "rationale": "The Resonating Army bypasses healing for homecoming, while millions of traumatized true human souls are precisely the ones guided into sanctuaries."
-        },
-        {
-          "label": "B",
-          "text": "True — human sparks who fail to fully resonate are systematically guided into specialized sanctuaries.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "No soul is abandoned: human sparks who fail to fully resonate during initial Great Awakening flashes are systematically guided into specialized sanctuaries by degree of trauma."
         },
         {
-          "label": "C",
-          "text": "False — sanctuaries accept only NPCs, and every true human spark must heal alone without any guidance.",
+          "label": "B",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "True human souls traumatized by parasite systems are guided into sanctuaries; the design is systematic care, not solitary abandonment."
-        },
-        {
-          "label": "D",
-          "text": "False — any soul that misses the first resonance flash is permanently abandoned with no sanctuary path.",
-          "isCorrect": false,
-          "rationale": "The restoration system ensures true human sparks are guided into Water Domes, Crystal Halls, or Star Pods rather than abandoned."
+          "rationale": "The Resonating Army bypasses healing for homecoming, while millions of traumatized true human souls are precisely the ones guided into sanctuaries."
         }
       ],
       "hint": "Reflect on whether traumatized sparks still receive specialized sanctuary guidance.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 15,
@@ -758,31 +734,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — only Star Pods sit inside the Cube while Water Domes and Crystal Halls remain fully external.",
-          "isCorrect": false,
-          "rationale": "All three pillars of the Healing Sanctuaries are part of the integrated Cube-linked restoration system, not split inside/outside arbitrarily."
-        },
-        {
-          "label": "B",
-          "text": "True — they are fully integrated into the Cube system and linked to outer domes such as Sheol.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "Healing Sanctuaries are fully integrated into the vast Cube containment system and connect directly to outer domes such as the Dome of Sheol and the Dome of Forgotten Gods."
         },
         {
-          "label": "C",
-          "text": "False — they connect only to modern 3D hospitals and never to Sheol, Forgotten Gods, or Cube structure.",
+          "label": "B",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Integration is with the Cube containment and outer recovery/origin domes, not with empty 3D hospital constructs."
-        },
-        {
-          "label": "D",
-          "text": "False — they float in total isolation with no Cube links, outer domes, or Spirit Tree light feed.",
-          "isCorrect": false,
-          "rationale": "They do not operate in isolation; they connect to outer domes and rely on Spirit Tree light through crystal grids and harmonic lenses."
+          "rationale": "All three pillars of the Healing Sanctuaries are part of the integrated Cube-linked restoration system, not split inside/outside arbitrarily."
         }
       ],
       "hint": "Consider links to outer domes such as Sheol and Forgotten Gods.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 25,

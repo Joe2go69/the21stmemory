@@ -246,31 +246,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — true healing needs light-body realignment with precise sound and light frequencies, not medical science alone.",
-          "isCorrect": true,
-          "rationale": "True healing cannot be accomplished through human medical science; it requires energetic realignment of the light body grid using precise sound and light frequencies."
-        },
-        {
-          "label": "B",
-          "text": "True — modern medical science alone is the most effective path to fully mend the multi-dimensional light body grid without crystal halls.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Medical science cannot accomplish true light-body realignment; sound and light frequency work in Crystal Halls is required."
         },
         {
-          "label": "C",
-          "text": "True — pharmaceutical protocols alone restore harmonic coding without any crystal slab, photonic prism, or frequency work.",
-          "isCorrect": false,
-          "rationale": "Harmonic coding reactivation uses humming crystal slabs and photonic prism purification, not pharmaceutical medical protocols alone."
-        },
-        {
-          "label": "D",
-          "text": "True — surgery on the physical brain fully replaces Mental Realignment of the light body grid inside Crystal Halls entirely.",
-          "isCorrect": false,
-          "rationale": "Mental Realignment mends mind and light body grid through crystal frequencies, not physical brain surgery as a substitute."
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "True healing cannot be accomplished through human medical science; it requires energetic realignment of the light body grid using precise sound and light frequencies."
         }
       ],
       "hint": "Consider whether physical medical tools can repair non-physical, frequency-based blueprints.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -470,31 +458,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — the halls never store cosmic history and have no hard-drive, solar-family, or interstellar light-web connection at all.",
-          "isCorrect": false,
-          "rationale": "The halls are explicitly physical and etheric hard drives linked to the interstellar light web as cosmic-history download portals."
-        },
-        {
-          "label": "B",
-          "text": "True — hall crystals act as physical and etheric hard drives on the interstellar light web for cosmic history.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "Crystals function as physical and etheric hard drives connected to the interstellar light web and unbroken timeline of solar families, serving as download portals for cosmic history."
         },
         {
-          "label": "C",
-          "text": "False — crystals only decorate interiors and never connect to solar-family unbroken timelines or cosmic-history download portals.",
+          "label": "B",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Crystals connect to the unbroken timeline maintained by solar families and serve as download portals, not mere decoration."
-        },
-        {
-          "label": "D",
-          "text": "False — only Water Domes hold hard-drive networks while Crystal Halls remain empty of interstellar memory storage entirely.",
-          "isCorrect": false,
-          "rationale": "Interstellar hard-drive networks are described for crystals within the Crystal Halls during Mental Realignment context, not as Water Dome-only storage."
+          "rationale": "The halls are explicitly physical and etheric hard drives linked to the interstellar light web as cosmic-history download portals."
         }
       ],
       "hint": "Think about how these temples preserve cosmic history across the universe.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 16,
@@ -694,31 +670,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — a realigned mind remains fully open to media-driven fear loops and low-frequency implants without immunity.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Strategic immunization against parasitic control is a primary result; realigned minds are not left open to fear loops."
         },
         {
           "label": "B",
-          "text": "True — immunity covers only physical implants while media fear loops continue to dominate the realigned mind.",
-          "isCorrect": false,
-          "rationale": "Immunity explicitly includes media-driven fear loops as well as implants and dream manipulation after realignment."
-        },
-        {
-          "label": "C",
-          "text": "False — realignment immunizes against parasitic control so media-driven fear loops lose their anchoring point.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "Once the mind is realigned, parasitic whispers lose their anchoring point, making the individual completely immune to low-frequency implants, dream manipulation, or media-driven fear loops."
-        },
-        {
-          "label": "D",
-          "text": "True — realignment strengthens fear-loop susceptibility so the soul can practice resisting whispers indefinitely.",
-          "isCorrect": false,
-          "rationale": "Whispers lose their anchoring point; the outcome is immunity, not strengthened susceptibility for endless practice."
         }
       ],
       "hint": "Think about the strategic consequence of no longer having an anchoring point for parasitic whispers.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 23,

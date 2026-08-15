@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T14:34:40.287Z",
+  "generatedAt": "2026-08-15T08:22:31.408Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -894,7 +894,7 @@
       "sourceId": "breakdown",
       "topicId": "background-fragments",
       "path": "/dive/breakdown/background-fragments.html",
-      "live": false,
+      "live": true,
       "title": "Background Fragments"
     },
     {

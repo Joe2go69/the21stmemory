@@ -409,7 +409,64 @@ const TRUNCATION_REPAIRS = {
   },
 };
 
+function isTrueFalseQuestion(question, options) {
+  if (/^\s*true\s+or\s+false\b/i.test(question || '')) return true;
+  const texts = (options || []).map((o) => String(o.text || '').trim());
+  return (
+    texts.length >= 2 &&
+    texts.every((t) => /^(true|false)(\s*[—–\-:].*)?$/i.test(t))
+  );
+}
+
+function collapseTrueFalse(q) {
+  const opts = q.options || [];
+  const correct = opts.find((o) => o.isCorrect);
+  if (!correct) throw new Error(`T/F Q${q.number}: no correct option`);
+  const polMatch = String(correct.text || '')
+    .trim()
+    .match(/^(true|false)\b/i);
+  if (!polMatch) {
+    throw new Error(`T/F Q${q.number}: correct option must start with True or False`);
+  }
+  const correctPol = polMatch[1].toLowerCase() === 'true' ? 'True' : 'False';
+  const wrongPol = correctPol === 'True' ? 'False' : 'True';
+  const wrong =
+    opts.find(
+      (o) =>
+        !o.isCorrect &&
+        new RegExp(`^${wrongPol}\\b`, 'i').test(String(o.text || '').trim())
+    ) || opts.find((o) => !o.isCorrect);
+  if (!wrong) throw new Error(`T/F Q${q.number}: missing opposite polarity`);
+
+  return {
+    ...q,
+    options: [
+      {
+        label: 'A',
+        text: 'True',
+        isCorrect: correctPol === 'True',
+        rationale: correctPol === 'True' ? correct.rationale : wrong.rationale,
+      },
+      {
+        label: 'B',
+        text: 'False',
+        isCorrect: correctPol === 'False',
+        rationale: correctPol === 'False' ? correct.rationale : wrong.rationale,
+      },
+    ],
+    correctAnswer: correctPol === 'True' ? 'A' : 'B',
+  };
+}
+
 function rebalanceQuestion(q, quizId) {
+  if (isTrueFalseQuestion(q.question, q.options)) {
+    return {
+      question: collapseTrueFalse(q),
+      tightened: false,
+      expanded: 0,
+    };
+  }
+
   const seed = hashSeed(`${quizId}::${q.number}::len-rebalance-v6`);
   const rand = mulberry32(seed);
 

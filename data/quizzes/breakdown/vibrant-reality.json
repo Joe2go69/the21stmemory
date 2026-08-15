@@ -406,31 +406,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — The realm is deleted entirely, so neither rebuilding nor revealing has any meaning after the flash, without a larger engineered system underneath.",
-          "isCorrect": false,
-          "rationale": "The Original Realm is not deleted; it is already present beneath the overlay and is unveiled through Frequency Collapse."
-        },
-        {
-          "label": "B",
-          "text": "True — After collapse, solar builders hand humanity blueprints so crews can reconstruct cities over decades, and that is treated as the entire mechanism.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "There is no multi-decade reconstruction project. The Vibrant Reality emerges instantly for those at the correct frequency."
         },
         {
-          "label": "C",
-          "text": "True — Humanity must actively rebuild earth infrastructure with dense materials after the matrix collapses, as a one-factor story with a tidy edge.",
-          "isCorrect": false,
-          "rationale": "Rebuilding with dense 3D construction is futile. The Original Realm is already present and is revealed, not constructed."
-        },
-        {
-          "label": "D",
-          "text": "False — Humanity does not rebuild after the collapse; humanity reveals back the Original Realm already functioning underneath.",
+          "label": "B",
+          "text": "False",
           "isCorrect": true,
           "rationale": "Restoration is an instantaneous revelation of what already exists. Humanity does not build back; it reveals back the Original Realm."
         }
       ],
       "hint": "Decide whether the process is construction or unveiling of what already exists.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 14,
@@ -598,31 +586,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — The Vibrant Reality is created only after the Frequency Collapse and did not exist beforehand, as a one-factor story with a tidy edge.",
-          "isCorrect": false,
-          "rationale": "The Original Realm has always existed beneath the parasitic overlays; collapse reveals it rather than inventing it."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "The most profound revelation is that the Original Realm is already present, functioning constantly beneath the false physical world."
         },
         {
           "label": "B",
-          "text": "True — The 3rd density world and Vibrant Reality never coexist; one replaces the other only after total planetary demolition.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The Original Realm coexists underneath the holographic overlay the whole time. Collapse is revelation, not demolition."
-        },
-        {
-          "label": "C",
-          "text": "False — The Original Realm is generated from scratch by NPCs after they finish healing simulations, and that is treated as the entire mechanism.",
-          "isCorrect": false,
-          "rationale": "NPCs do not generate the realm. The Original Realm already exists; deep sleepers are guided out of healing simulations toward it."
-        },
-        {
-          "label": "D",
-          "text": "True — The Original Realm is already present and functioning constantly beneath the false 3rd density physical world.",
-          "isCorrect": true,
-          "rationale": "The most profound revelation is that the Original Realm is already present, functioning constantly beneath the false physical world."
+          "rationale": "The Original Realm has always existed beneath the parasitic overlays; collapse reveals it rather than inventing it."
         }
       ],
       "hint": "Decide whether the Original Realm is being created now or is already present but hidden.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 20,

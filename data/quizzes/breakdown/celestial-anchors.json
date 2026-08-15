@@ -470,27 +470,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — they are permanent hardware failures of the projection dome with no communication function.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Northern Lights are intentional visual communication — Photonic Song between upper domes and the Crystalline Grid — not permanent hardware failures of the dome."
         },
         {
           "label": "B",
-          "text": "False — they are Photonic Song and the breath of the overlays communicating with Earth's Crystalline Grid.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "The Northern Lights are not mere solar radiation on a physical magnetic sphere; they are Photonic Song and the breath of the overlays where upper domes communicate with Earth's Crystalline Grid through magnetic nodes."
-        },
-        {
-          "label": "C",
-          "text": "False — they are only reflections of city lights with no magnetic nodes or crystalline grid contact.",
-          "isCorrect": false,
-          "rationale": "They are not city-light reflections; they are Photonic Song and the breath of the overlays bleeding bridge frequencies through magnetic nodes into the Crystalline Grid."
-        },
-        {
-          "label": "D",
-          "text": "True — they are only solar radiation striking a physical spherical planet's magnetic field with no photonic grid role.",
-          "isCorrect": false,
-          "rationale": "That is the conventional materialist explanation; the auroras are Photonic Song and the breath of the overlays communicating with the Crystalline Grid."
         }
       ],
       "hint": "Contrast materialist auroras with Photonic Song and the breath of the overlays.",
@@ -502,31 +490,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — only Sky Nodes can bridge tiers; human consciousness has no nodal role in the Light Web.",
-          "isCorrect": false,
-          "rationale": "Humans as Resonating Sols are powerful nodes bridging subterranean lava nodes and celestial sky nodes; consciousness is central to unlocking the Star Gate network."
-        },
-        {
-          "label": "B",
-          "text": "True — Resonating Sols act as powerful nodes bridging subterranean lava nodes and celestial sky nodes.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "Resonating Sols incarnated on Earth act as powerful nodes themselves, forming a critical bridge between subterranean lava nodes and celestial sky nodes, becoming living harmonic lenses when aligned in stillness."
         },
         {
-          "label": "C",
-          "text": "True — Resonating Sols only store history in star-nodes and never bridge subterranean and celestial tiers.",
+          "label": "B",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Crystalline Star-Nodes store codes and history; Resonating Sols specifically bridge lava nodes and sky nodes as living nodes and harmonic lenses."
-        },
-        {
-          "label": "D",
-          "text": "False — Resonating Sols remain fully disconnected from lava and sky nodes until they leave the body.",
-          "isCorrect": false,
-          "rationale": "Incarnated Resonating Sols already act as powerful nodes bridging lava and sky nodes; connection is active in embodiment through heart alignment and stillness."
+          "rationale": "Humans as Resonating Sols are powerful nodes bridging subterranean lava nodes and celestial sky nodes; consciousness is central to unlocking the Star Gate network."
         }
       ],
       "hint": "Think about the role of human consciousness as a bridge in the grid system.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 17,
@@ -726,27 +702,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — reality is built on an invisible framework of Energy Nodes as neutral relay stations of living energy.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "The architecture of reality is constructed upon an invisible, dynamic framework of Energy Nodes — neutral relay stations and spheres of living energy forming crystalline grids that balance the physical plane with higher realms."
         },
         {
           "label": "B",
-          "text": "True — the architecture uses only Polaris as a single physical beam with no multi-node relay network.",
-          "isCorrect": false,
-          "rationale": "Polaris is a redirected parasitic beacon; the architecture is a multi-node Energy Node framework of crystalline grids, not a single Polaris beam system."
-        },
-        {
-          "label": "C",
-          "text": "False — reality has no Energy Node framework and runs only on random physical particles without relays.",
+          "text": "False",
           "isCorrect": false,
           "rationale": "Reality is constructed on Energy Nodes as the invisible relay framework of crystalline grids; the claim that no such framework exists is false."
-        },
-        {
-          "label": "D",
-          "text": "False — Energy Nodes exist only as metaphors and never function as actual neutral relay stations.",
-          "isCorrect": false,
-          "rationale": "Energy Nodes are actual spheres of living energy and neutral relay stations where life-force and magnetism converge in the crystalline grids."
         }
       ],
       "hint": "This is the foundational definition of nodes in the Overview.",
@@ -790,31 +754,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — stars are burning balls of gas in an empty vacuum with no crystalline projector function.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "That conventional model is rejected; stars are crystalline projectors and multidimensional data crystals anchoring the holographic dome."
         },
         {
           "label": "B",
-          "text": "True — stars are only icy firmament reflections with no codes, gates, or projector architecture.",
-          "isCorrect": false,
-          "rationale": "Stars are active Crystalline Star-Nodes and projectors storing codes and templates, not mere icy reflections without gate function."
-        },
-        {
-          "label": "C",
-          "text": "False — stars are highly advanced crystalline projectors and data centers, not burning gas in a vacuum.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "Far from being random balls of burning gas in an empty vacuum, the stars are highly advanced crystalline projectors that sustain the simulation of the cosmos as multidimensional Crystalline Star-Nodes."
-        },
-        {
-          "label": "D",
-          "text": "False — stars do not exist at all and every night sky point is only a random empty-space glitch.",
-          "isCorrect": false,
-          "rationale": "Stars exist as Crystalline Star-Nodes and projectors; the falsehood is the burning-gas vacuum model, not the non-existence of celestial anchors."
         }
       ],
       "hint": "The transmission offers a crystalline projector explanation for celestial bodies.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     }
   ]
 }

@@ -502,31 +502,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — they exist only as thought-forms with no crystal body anywhere in the Known Lands.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "They are hidden placed crystals with both physical and etheric presence across the Known Lands, not thought-forms alone."
         },
         {
           "label": "B",
-          "text": "False — because they are made only of modern concrete poured after the cycles of amnesia.",
-          "isCorrect": false,
-          "rationale": "They predate current amnesia cycles as ancient crystals; concrete is part of the masking illusion, not the substance of the keys."
-        },
-        {
-          "label": "C",
-          "text": "False — they are vital physical and etheric components seeded as hidden crystals across the lands.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "Starseed Keys are ancient hidden crystals and vital physical and etheric components of the Crystalline Network, not purely etheric without physical presence."
-        },
-        {
-          "label": "D",
-          "text": "True — they appear only inside Vatican archives as digital files with no landscape presence.",
-          "isCorrect": false,
-          "rationale": "The keys are seeded across the Known Lands as crystals and bypass Vatican archives; they are not archive-only digital files."
         }
       ],
       "hint": "Hidden crystals carry both physical and etheric roles.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 17,
@@ -598,31 +586,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — Monoliths are advanced embedded tuning-fork tech and are not built by humans.",
-          "isCorrect": true,
-          "rationale": "To ensure required amplitude, Monoliths were embedded as advanced backup tech; these structures are not built by humans but designed as tuning forks mirroring Starseed Key vibration."
-        },
-        {
-          "label": "B",
-          "text": "True — human engineers poured and wired every Monolith after the cycles of amnesia began.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Monoliths are advanced backup tech embedded in the realm and not built by humans; they are tuning forks of the crystalline restoration system."
         },
         {
-          "label": "C",
-          "text": "True — Monoliths are ordinary radio towers humans raised to replace all surface crystal antennas.",
-          "isCorrect": false,
-          "rationale": "Monoliths mirror and echo Starseed Key vibration as non-human backup tech; surface crystals remain the massive antennas of the grid."
-        },
-        {
-          "label": "D",
-          "text": "False — because Monoliths do not exist and only Vatican servers amplify grid frequency waves.",
-          "isCorrect": false,
-          "rationale": "Monoliths are real embedded tuning-fork backups that boost crystal signals until the frequency wave can split the Parasitic Overlay."
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "To ensure required amplitude, Monoliths were embedded as advanced backup tech; these structures are not built by humans but designed as tuning forks mirroring Starseed Key vibration."
         }
       ],
       "hint": "Check whether these tuning forks are human-built hardware.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 20,
@@ -726,31 +702,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — because the keys store no memory at all and only amplify empty sound without data, as a one-factor story with a tidy edge.",
-          "isCorrect": false,
-          "rationale": "They are central memory banks recording every moment of existence; they are not empty amplifiers without stored data."
-        },
-        {
-          "label": "B",
-          "text": "True — only Lyran-lineage individuals have any memory recorded inside any Starseed Key crystal.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Although the architecture is Lyran Lineage, the keys store soul-journey timelines and Source memory codes for the realm's existence, not a single-lineage-only archive."
         },
         {
-          "label": "C",
-          "text": "False — they store the unbroken timeline of soul journeys and pristine Source memory codes for the realm.",
+          "label": "B",
+          "text": "False",
           "isCorrect": true,
           "rationale": "The crystals function as physical and etheric hard drives storing the unbroken timeline of soul journeys and the pristine memory codes of Source, not only Lyran individuals."
-        },
-        {
-          "label": "D",
-          "text": "True — non-Lyran souls are written only into Vatican archives and never into crystalline hard drives.",
-          "isCorrect": false,
-          "rationale": "Starseed Keys log existence into Galactic Libraries and hold soul-journey memory amnesia tech tries to suppress; storage is not limited to Lyran-only records."
         }
       ],
       "hint": "Memory banks cover soul journeys and Source codes for the realm.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 24,

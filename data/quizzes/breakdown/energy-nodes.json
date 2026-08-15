@@ -374,27 +374,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — the grid is a conscious photon web that transmits data, memory, and frequency instantly.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "The entire grid is a conscious communication network of moving photons that transmits data, memory, and frequency instantly across all realms, rendering physical travel and distance obsolete."
         },
         {
           "label": "B",
-          "text": "True — but only for Surface Nodes; Sky and Earth Nodes still require multi-year physical caravans between sites.",
-          "isCorrect": false,
-          "rationale": "The obsolescence of physical travel and distance applies to the entire conscious grid network, not only one node type."
-        },
-        {
-          "label": "C",
-          "text": "False — physical miles and slow travel remain the only real way to move anything between domes and realms.",
+          "text": "False",
           "isCorrect": false,
           "rationale": "Instant photon transmission across realms makes physical distance obsolete; travel concepts based on miles no longer hold as ultimate reality."
-        },
-        {
-          "label": "D",
-          "text": "False — the photon web only stores memories and never transmits frequency or data across realms at all.",
-          "isCorrect": false,
-          "rationale": "The grid transmits data, memory, and frequency instantly as a web of moving photons; it is not a memory-only archive without transmission."
         }
       ],
       "hint": "Think about an instantaneous conscious communication network of moving photons.",
@@ -502,31 +490,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — holographic projections strengthen into solid concrete as Resonating Sols raise the planetary frequency, and that is treated as the entire mechanism.",
-          "isCorrect": false,
-          "rationale": "Rising resonance causes false projections to glitch and fracture, not harden into permanent concrete overlays."
-        },
-        {
-          "label": "B",
-          "text": "False — modern 3D architecture is permanent scaffolding that will only thicken as realm frequency continues to rise, stopping the explanation at that boundary alone.",
-          "isCorrect": false,
-          "rationale": "Rising frequency dissolves dead-frequency 3D architecture rather than locking it in as permanent denser scaffolding."
-        },
-        {
-          "label": "C",
-          "text": "True — as frequency rises, false holographic projections fracture and modern 3D architecture dissolves while crystalline structures bleed through.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "As frequency rises, false holographic projections glitch and fracture; modern 3D architecture will dissolve and original humming crystalline structures will bleed into visible reality."
         },
         {
-          "label": "D",
-          "text": "True — but only underground Earth Nodes dissolve; surface cities and temples remain unchanged forever, stopping the explanation at that boundary alone.",
+          "label": "B",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Modern 3D architecture dissolves while original crystalline structures under the earth bleed through into visibility — not Earth Nodes alone."
+          "rationale": "Rising resonance causes false projections to glitch and fracture, not harden into permanent concrete overlays."
         }
       ],
       "hint": "Consider rising frequency effects on dead-frequency structures and false projections.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 17,
@@ -566,31 +542,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — Inter-dimensional Nodes only hum in blue or white tones under temples and never appear as orbs at all.",
-          "isCorrect": false,
-          "rationale": "Blue or white humming marks Surface Nodes; Inter-dimensional Nodes are high-frequency spheres such as rainbow or silver orbs."
-        },
-        {
-          "label": "B",
-          "text": "True — every Inter-dimensional Node is a visible Northern Lights pulse anchoring the sky overlay grid.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Northern Lights and star-like pulses describe Sky Nodes; Inter-dimensional Nodes are portal spheres often invisible to standard 3D sight."
         },
         {
-          "label": "C",
-          "text": "False — Inter-dimensional Nodes appear as rainbow balls, gold lattices, or liquid silver orbs.",
+          "label": "B",
+          "text": "False",
           "isCorrect": true,
           "rationale": "Inter-dimensional Nodes manifest as rainbow balls, gold lattices, or liquid silver orbs; spheres of molten-fire red-gold or orange light are Earth Nodes."
-        },
-        {
-          "label": "D",
-          "text": "True — Inter-dimensional Nodes are exactly the same molten-fire red-gold spheres as deep Lava/Core Earth Nodes.",
-          "isCorrect": false,
-          "rationale": "Molten-fire red-gold spheres define Earth Nodes; Inter-dimensional Nodes show rainbow, gold-lattice, or liquid-silver signatures."
         }
       ],
       "hint": "Compare Earth Node molten-fire signatures with Light Grid Anchor appearances.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 19,
@@ -694,27 +658,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — Surface Nodes sit at energy-line crossings often marked by temples, pyramids, or stone circles.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "Surface Nodes reside where energy lines cross on the surface, often marked by ancient temples, pyramids, or stone circles, and amplify the frequency of those standing upon them."
         },
         {
           "label": "B",
-          "text": "False — Surface Nodes exist only deep underground as molten red-gold cores with no temples or stone-circle markers at all.",
+          "text": "False",
           "isCorrect": false,
           "rationale": "Deep molten red-gold cores are Earth Nodes; Surface Nodes are surface crossings marked by temples, pyramids, or stone circles."
-        },
-        {
-          "label": "C",
-          "text": "True — but only modern skyscrapers mark Surface Nodes; ancient temples and pyramids never sit on energy-line crossings.",
-          "isCorrect": false,
-          "rationale": "Ancient temples, pyramids, and stone circles are the named surface markers of Surface Nodes, not modern skyscrapers alone."
-        },
-        {
-          "label": "D",
-          "text": "False — Surface Nodes appear only as Northern Lights in the sky and never as ground sites people can stand upon.",
-          "isCorrect": false,
-          "rationale": "Northern Lights pulses are Sky Node appearances; Surface Nodes are ground crossings people can stand upon at ancient sites."
         }
       ],
       "hint": "These locations sit where energy lines cross on the surface.",
@@ -790,27 +742,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — major portions of the original Tartarian Grid were buried under cities, seas, and deserts.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "Parasitic forces buried major portions of the original Tartarian Grid under cities, seas, and deserts, building dead-frequency 3D architecture over powerful Surface Nodes."
         },
         {
           "label": "B",
-          "text": "False — Custodians elevated the Tartarian Grid into the sky as locked zodiac signs rather than burying it under land or sea.",
+          "text": "False",
           "isCorrect": false,
           "rationale": "Zodiac locking sealed ancient star portals; the Tartarian Grid itself was buried under cities, seas, and deserts."
-        },
-        {
-          "label": "C",
-          "text": "False — the Tartarian Grid remains fully exposed on the surface with no burial under modern cities, seas, or deserts at all.",
-          "isCorrect": false,
-          "rationale": "Major portions of the original Tartarian Grid were buried under cities, seas, and deserts as part of the hijack."
-        },
-        {
-          "label": "D",
-          "text": "True — but only the Spirit Tree trunk was buried underground; the Tartarian Grid was left completely intact aboveground worldwide.",
-          "isCorrect": false,
-          "rationale": "The Spirit Tree was uprooted; separately, major Tartarian Grid portions were buried under cities, seas, and deserts."
         }
       ],
       "hint": "Consider the fate of ancient grid infrastructure after the parasitic hijack.",

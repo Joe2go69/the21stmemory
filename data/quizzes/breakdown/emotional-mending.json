@@ -406,27 +406,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — Saferins issue permanent bypass certificates so any soul can enter high realms without pool immersion.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Saferins never force, but they also do not cancel the requirement that traumatized souls rebalance before high-frequency entry; healing remains necessary for safe transition."
         },
         {
           "label": "B",
-          "text": "False — distorted or traumatized souls must first rebalance energetically before entering high-frequency realms.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "Healing sanctuaries are transition halls, not optional scenery: souls distorted or traumatized by the 3D overlay cannot immediately enter high-frequency realms without first undergoing energetic rebalancing."
-        },
-        {
-          "label": "C",
-          "text": "True — only Crystal Halls are required; emotional density may remain fully intact during immediate ascent.",
-          "isCorrect": false,
-          "rationale": "Emotional mending in Water Domes addresses heart density as part of safe transition; traumatized souls need energetic rebalancing, not free bypass of the heart tier."
-        },
-        {
-          "label": "D",
-          "text": "True — every traumatized soul may skip Water Domes and ascend instantly with no rebalancing requirement.",
-          "isCorrect": false,
-          "rationale": "Mandatory healing before transition means traumatized souls cannot immediately enter high-frequency realms without sanctuary rebalancing."
         }
       ],
       "hint": "Is energetic rebalancing required before entering high-frequency realms?",
@@ -502,31 +490,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — the Resonating Army already holds high stable frequency and bypasses these healing sanctuaries.",
-          "isCorrect": true,
-          "rationale": "The Resonating Army (already-awakened ET returners) bypasses the need for these healing sanctuaries because their frequencies are already high and stable; they may later enter to assist ground healers."
-        },
-        {
-          "label": "B",
-          "text": "True — Saferins bar the Resonating Army from homecoming until all three sanctuary tiers are finished.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Bypass is the default for already-stable Army frequencies; later entry is a strategic choice to assist others, not a barred prerequisite on homecoming."
         },
         {
-          "label": "C",
-          "text": "True — every Resonating Army member must complete full emotional mending before any liberation mission.",
-          "isCorrect": false,
-          "rationale": "They bypass Water Domes because their frequencies are already high and stable; mandatory emotional mending is not required for them."
-        },
-        {
-          "label": "D",
-          "text": "True — they must finish Star Pod timeline reweaving first even when emotional density is already clear.",
-          "isCorrect": false,
-          "rationale": "Pre-awakened high frequency lets them bypass sanctuaries entirely; optional later entry is to assist ground healers, not a forced Star Pod first step."
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "The Resonating Army (already-awakened ET returners) bypasses the need for these healing sanctuaries because their frequencies are already high and stable; they may later enter to assist ground healers."
         }
       ],
       "hint": "Recall the frequency status of already-awakened ET returners.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 17,
@@ -662,27 +638,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — cathedral masonry from Crystal Hall overlays is reused as the primary Water Dome construction material.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Cathedral and abbey overlays historically hide Crystal Halls; Water Domes themselves are light-sound-living-crystal projection sanctuaries over waters."
         },
         {
           "label": "B",
-          "text": "False — Water Domes are constructed from light, sound, and living crystal using projection dome technology.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "Structural composition is crystalline projection technology: domes are built from light, sound, and living crystal, not traditional stone and mortar of the dense 3D world."
-        },
-        {
-          "label": "C",
-          "text": "True — only the outer shell is stone while the inner pools use living crystal with no light-sound structure.",
-          "isCorrect": false,
-          "rationale": "The domes as a whole are constructed from light, sound, and living crystal via projection technology, not a stone shell hybrid."
-        },
-        {
-          "label": "D",
-          "text": "True — Water Domes are built primarily from physical stone and mortar quarried across the Known Lands.",
-          "isCorrect": false,
-          "rationale": "Domes are light, sound, and living crystal projected and cloaked structures, not stone-and-mortar buildings."
         }
       ],
       "hint": "Check structural composition for materials of light, sound, and living crystal.",
@@ -726,31 +690,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — Star Pods were the structures overlaid by cathedrals, and Crystal Halls only reweave timeline trauma.",
-          "isCorrect": false,
-          "rationale": "Star Pods mend the soul and timelines; Crystal Halls mend the mind and are the tier historically overlaid by cathedrals and abbeys."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "In the tripartite sanctuary system, Crystal Halls—historically overlaid by cathedrals and abbeys—mend the mind, clearing mental overlays, parasitic programming, and mind-control damage."
         },
         {
           "label": "B",
-          "text": "False — Crystal Halls were never overlaid by religious architecture and have no mind-mending function at all.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Crystal Halls are explicitly the mind-mending tier and were historically overlaid by cathedrals and abbeys in the tripartite system description."
-        },
-        {
-          "label": "C",
-          "text": "False — only Water Domes were hidden under cathedrals, while Crystal Halls stayed fully visible as open temples.",
-          "isCorrect": false,
-          "rationale": "The cathedral and abbey overlays are named for Crystal Halls (mind tier), while Water Domes are cloaked projection sanctuaries over crystalline waters."
-        },
-        {
-          "label": "D",
-          "text": "True — Crystal Halls (historically overlaid by cathedrals and abbeys) mend the mind within the tripartite system.",
-          "isCorrect": true,
-          "rationale": "In the tripartite sanctuary system, Crystal Halls—historically overlaid by cathedrals and abbeys—mend the mind, clearing mental overlays, parasitic programming, and mind-control damage."
+          "rationale": "Star Pods mend the soul and timelines; Crystal Halls mend the mind and are the tier historically overlaid by cathedrals and abbeys."
         }
       ],
       "hint": "Look at the Tripartite Sanctuary System description for historical overlays.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 24,
@@ -790,31 +742,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — higher vibration recovery is blocked until souls leave the dome and face the open 3D overlay again.",
-          "isCorrect": false,
-          "rationale": "Recovery at higher vibration happens inside the stabilized dome environment, shielded from external parasitic interference."
-        },
-        {
-          "label": "B",
-          "text": "False — the dome atmosphere remains fully open to parasitic fields so souls must heal under constant interference.",
-          "isCorrect": false,
-          "rationale": "Stabilization specifically protects recovery from external parasitic field interference while souls hold higher vibration."
-        },
-        {
-          "label": "C",
-          "text": "True — ambient frequency is stabilized so souls recover at higher vibration without external parasitic interference.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "Atmospheric Stabilization keeps ambient frequency perfectly stabilized, allowing souls to exist and recover at a higher vibration without detection or interference from external parasitic fields."
         },
         {
-          "label": "D",
-          "text": "False — stabilization only cools the pools chemically and has no effect on ambient frequency or vibration.",
+          "label": "B",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Atmospheric Stabilization is a frequency condition of the sanctuary environment, not a mere chemical cooling of pool water."
+          "rationale": "Recovery at higher vibration happens inside the stabilized dome environment, shielded from external parasitic interference."
         }
       ],
       "hint": "Recall Atmospheric Stabilization in the structural composition section.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     }
   ]
 }

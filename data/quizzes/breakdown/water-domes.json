@@ -214,31 +214,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — the healing process is entirely voluntary and benevolent, rooted in sovereign soul choice.",
-          "isCorrect": true,
-          "rationale": "The healing process is entirely voluntary and benevolent, completely mending heart, mind, and soul for a seamless transition out of the parasitic matrix."
-        },
-        {
-          "label": "B",
-          "text": "True — Ground Healers mandate entry for all souls, including the Resonating Army, before any homecoming.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "The Resonating Army bypasses healing sanctuaries due to pre-awakened high frequency; mandatory entry for all is not the design."
         },
         {
-          "label": "C",
-          "text": "True — Vatican and Saturnian systems still require every soul to complete forced Water Dome cycles forever.",
-          "isCorrect": false,
-          "rationale": "Sanctuaries dismantle forced reincarnation loops; the Water Domes process is voluntary healing, not a new forced cycle under those systems."
-        },
-        {
-          "label": "D",
-          "text": "True — every soul exiting the 3D matrix is forced into Water Domes with no right to refuse immersion.",
-          "isCorrect": false,
-          "rationale": "Healing is entirely voluntary and benevolent; sovereignty and free choice remain central after stabilization as well."
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "The healing process is entirely voluntary and benevolent, completely mending heart, mind, and soul for a seamless transition out of the parasitic matrix."
         }
       ],
       "hint": "Does the system respect the soul's individual will and freedom of choice?",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 8,
@@ -374,31 +362,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — Ground Healers bar homecoming until the Resonating Army finishes mandatory Crystal Hall cycles.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Bypass is the default for the Resonating Army; later sanctuary entry is a strategic option to assist others, not a mandatory bar on homecoming."
         },
         {
           "label": "B",
-          "text": "True — every Resonating Army member must complete full Water Dome immersion before any homecoming path.",
-          "isCorrect": false,
-          "rationale": "They bypass the healing sanctuaries entirely because of their pre-awakened high-frequency state; immersion is not a required prerequisite."
-        },
-        {
-          "label": "C",
-          "text": "False — they bypass sanctuaries due to pre-awakened high frequency, with optional later entry to assist.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "The Resonating Army bypasses healing sanctuaries entirely due to their pre-awakened, high-frequency state, yet may enter later after homecoming to assist recovery of souls they came to liberate."
-        },
-        {
-          "label": "D",
-          "text": "True — they are forced into Star Pods first so timeline trauma is rewoven before any liberation mission.",
-          "isCorrect": false,
-          "rationale": "Pre-awakened high frequency lets them bypass entirely; Star Pods serve traumatized souls needing soul and timeline reweaving, not mandatory Army boot camp."
         }
       ],
       "hint": "Consider the state of awakening and frequency characteristic of this specific group.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -694,31 +670,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — only Resonating Army members receive help, while all other true human souls are left in the overlay.",
-          "isCorrect": false,
-          "rationale": "The Resonating Army bypasses because already awakened; traumatized true human souls are precisely those guided into sanctuaries rather than abandoned."
-        },
-        {
-          "label": "B",
-          "text": "False — sanctuaries accept only artificial programs, and every true human spark must heal alone without guidance.",
-          "isCorrect": false,
-          "rationale": "True human souls carrying emotional density are guided into Water Domes and related sanctuaries; no true human soul is abandoned."
-        },
-        {
-          "label": "C",
-          "text": "True — no true human soul is abandoned; those not fully resonating are automatically guided to safety.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "No true human soul is abandoned during the fracture and collapse of the 3D overlay; those not fully resonating are automatically guided to these safe frequency domains."
         },
         {
-          "label": "D",
-          "text": "False — any soul that misses full resonance is permanently abandoned with no sanctuary guidance path at all.",
+          "label": "B",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Core revelation is that no true human soul is abandoned; non-resonating souls are automatically guided to safe frequency domains."
+          "rationale": "The Resonating Army bypasses because already awakened; traumatized true human souls are precisely those guided into sanctuaries rather than abandoned."
         }
       ],
       "hint": "Does the system allow for any true human souls to be forgotten or lost during the transition?",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 23,

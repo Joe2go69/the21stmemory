@@ -150,27 +150,15 @@
       "options": [
         {
           "label": "A",
-          "text": "False — The overlay never collapses regionally; it freezes forever as a permanent 3D projection skin.",
-          "isCorrect": false,
-          "rationale": "The parasitic overlay does dissolve through Frequency Collapse; the process is sequential, not frozen forever."
-        },
-        {
-          "label": "B",
-          "text": "False — The collapse clears regions in sequences at slightly different times based on local consciousness levels.",
-          "isCorrect": true,
-          "rationale": "The collapse occurs in sequences, clearing different regions and simulated areas at slightly different times based on local consciousness levels."
-        },
-        {
-          "label": "C",
-          "text": "True — The overlay only collapses once every human agrees telepathically on a single shared calendar second.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Collapse is driven by frequency and local consciousness sequencing, not a planet-wide telepathic vote on a shared second."
         },
         {
-          "label": "D",
-          "text": "True — Every region on earth experiences the full overlay collapse at the exact same microsecond, without a larger engineered system underneath.",
-          "isCorrect": false,
-          "rationale": "Timing is not globally simultaneous; local consciousness levels sequence the clearing of different regions."
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "The collapse occurs in sequences, clearing different regions and simulated areas at slightly different times based on local consciousness levels."
         }
       ],
       "hint": "Recall whether the transition is one simultaneous flash or a sequenced process by local consciousness.",
@@ -470,31 +458,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — Lyran builders must pour new crystal foundations after every city is leveled by physical demolition crews.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "There is no physical demolition-and-rebuild cycle. Ancient architecture was buried and inverted, then unearthed by frequency return."
         },
         {
           "label": "B",
-          "text": "False — Ancient architecture never existed; the Second Realm is a brand-new map invented after the collapse.",
-          "isCorrect": false,
-          "rationale": "KNOWN LANDS were built as one giant Crystalline Temple by the Lyran Lineage; the architecture was always present beneath the overlay."
-        },
-        {
-          "label": "C",
-          "text": "False — The ancient architecture was never destroyed; it was buried and inverted into parasitic circuit boards.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "The Crystalline Temple was never destroyed. Return of the Original Realm is an unearthing of architecture that already exists and operates seamlessly."
-        },
-        {
-          "label": "D",
-          "text": "True — Parasites demolished the ancient temple, so Solar Families must rebuild the KNOWN LANDS from scratch.",
-          "isCorrect": false,
-          "rationale": "The temple was never demolished. It was buried and inverted; the return is revelation and unearthing, not reconstruction."
         }
       ],
       "hint": "Decide whether the return is reconstruction or unearthing of what already exists.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 16,
@@ -726,31 +702,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — The Second Realm never existed and cannot appear even after total Frequency Alignment.",
-          "isCorrect": false,
-          "rationale": "Frequency Alignment is how souls perceive the Second Realm that was always present beneath the dense manipulated illusion."
-        },
-        {
-          "label": "B",
-          "text": "True — The Second Realm is brand-new construction that only begins once humans hit a consciousness threshold.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "The realm is not newly built. It is foundational reality revealed by frequency shift, not a construction project started at a consciousness milestone."
         },
         {
-          "label": "C",
-          "text": "False — The Second Realm was always present but rendered invisible under the Parasitic Overlay.",
+          "label": "B",
+          "text": "False",
           "isCorrect": true,
           "rationale": "The Second Realm is the restored crystalline reality that was always present but invisible to human perception until the overlay collapses."
-        },
-        {
-          "label": "D",
-          "text": "True — Engineers assemble the Second Realm from corporate materials after Frequency Collapse finishes.",
-          "isCorrect": false,
-          "rationale": "Corporate materials and control infrastructure vanish because they hold no anchor; the realm is revealed, not assembled from 3D materials."
         }
       ],
       "hint": "Decide whether the realm is newly built or a revelation of what was always present.",
-      "correctAnswer": "C"
+      "correctAnswer": "B"
     },
     {
       "number": 24,

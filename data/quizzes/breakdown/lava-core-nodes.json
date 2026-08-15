@@ -342,31 +342,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — but only after Surface Nodes first generate all molten power and send it downward to the core.",
-          "isCorrect": false,
-          "rationale": "Power originates in the deep Lava/Core Nodes and is pushed upward; Surface Nodes refine and relay that energy, they do not generate the molten foundation."
-        },
-        {
-          "label": "B",
-          "text": "False — only Sky Nodes push energy downward; Earth Nodes never contribute to upper-grid support.",
-          "isCorrect": false,
-          "rationale": "Earth Nodes push life force upward and feed the upper grid; Sky Nodes form a two-way relay with earth nodes rather than replacing their upward feed."
-        },
-        {
-          "label": "C",
-          "text": "True — Lava/Core Nodes push vital energy upward to feed the upper grid and sustain the realm.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "Deep-subterranean Lava/Core Nodes push vital energy upward to sustain the physical and energetic infrastructure, feeding the upper grid and stabilizing magnetic resonance."
         },
         {
-          "label": "D",
-          "text": "False — Lava/Core energy only sinks deeper into the core and never rises to feed any upper grid.",
+          "label": "B",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Lava/Core Nodes actively push life force upward through ley-lines and feed the upper grid rather than only sinking energy deeper."
+          "rationale": "Earth Nodes push life force upward and feed the upper grid; Sky Nodes form a two-way relay with earth nodes rather than replacing their upward feed."
         }
       ],
       "hint": "Recall the direction of the fiery heart's output relative to the upper grids.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 12,
@@ -470,31 +458,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — Surface Nodes pulse only with red-gold or orange molten-fire light like the deep cores.",
-          "isCorrect": false,
-          "rationale": "Red-gold or orange molten-fire light marks Earth Nodes; Surface Nodes hum in blue or white crystalline tones."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Surface Nodes (Harmonic Nodes) are blue or white crystalline humming spheres where energy lines cross, often marked by ancient temples, stone circles, or pyramids."
         },
         {
           "label": "B",
-          "text": "False — Surface Nodes are invisible high-frequency spheres that never hum in blue or white at all.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Invisible high-frequency spheres are Inter-dimensional Nodes; Surface Nodes are blue or white crystalline humming spheres."
-        },
-        {
-          "label": "C",
-          "text": "True — but only after they sink deep underground and merge with plasma and crystalline veins.",
-          "isCorrect": false,
-          "rationale": "Deep plasma—crystalline junctions are Earth Nodes; Surface Nodes remain surface crossings with blue or white humming spheres."
-        },
-        {
-          "label": "D",
-          "text": "True — Surface Nodes are blue or white crystalline humming spheres at energy-line crossings.",
-          "isCorrect": true,
-          "rationale": "Surface Nodes (Harmonic Nodes) are blue or white crystalline humming spheres where energy lines cross, often marked by ancient temples, stone circles, or pyramids."
+          "rationale": "Red-gold or orange molten-fire light marks Earth Nodes; Surface Nodes hum in blue or white crystalline tones."
         }
       ],
       "hint": "Consider the visual and auditory descriptors of the surface energy points.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 16,
@@ -630,31 +606,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — plasma and crystalline veins meet only at Inter-dimensional portal spheres above the dome.",
-          "isCorrect": false,
-          "rationale": "The plasma—crystalline junction defines deep Earth Nodes; Inter-dimensional Nodes are invisible high-frequency portal spheres between overlays."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Earth Nodes (Lava/Core Nodes) sit deep underground at the intersection where the earth's plasma merges with its crystalline veins."
         },
         {
           "label": "B",
-          "text": "False — Earth Nodes float only as projected sky points and never meet plasma or crystalline veins.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Projected sky points are Sky Nodes; Earth Nodes form exactly at the deep plasma—crystalline vein junction."
-        },
-        {
-          "label": "C",
-          "text": "True — but only at surface temples where blue or white humming spheres mark the plasma junction.",
-          "isCorrect": false,
-          "rationale": "Surface temples mark Surface Nodes; the plasma and crystalline-vein meeting point is the deep location of Earth Nodes."
-        },
-        {
-          "label": "D",
-          "text": "True — Earth Nodes sit where the earth's plasma merges with its crystalline veins deep underground.",
-          "isCorrect": true,
-          "rationale": "Earth Nodes (Lava/Core Nodes) sit deep underground at the intersection where the earth's plasma merges with its crystalline veins."
+          "rationale": "The plasma—crystalline junction defines deep Earth Nodes; Inter-dimensional Nodes are invisible high-frequency portal spheres between overlays."
         }
       ],
       "hint": "Confirm the deep geological and energetic meeting point of the fiery foundation.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 21,
@@ -790,27 +754,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — Inter-dimensional Nodes are invisible, high-frequency spheres holding portals between overlays.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "Inter-dimensional Nodes (Light Grid Anchors) are invisible, high-frequency spheres holding the portals between different overlays."
         },
         {
           "label": "B",
-          "text": "True — but only when they hum blue or white at temples, stone circles, and pyramids on the ground.",
-          "isCorrect": false,
-          "rationale": "Blue or white humming at temples marks Surface Nodes; Inter-dimensional Nodes are invisible high-frequency spheres, not surface temple markers."
-        },
-        {
-          "label": "C",
-          "text": "False — Inter-dimensional Nodes are bright red-gold molten spheres visible as open lava on the surface.",
+          "text": "False",
           "isCorrect": false,
           "rationale": "Red-gold molten-fire light marks Earth Nodes; Inter-dimensional Nodes are invisible high-frequency portal spheres."
-        },
-        {
-          "label": "D",
-          "text": "False — Inter-dimensional Nodes are always fully visible stars that never act as portal anchors.",
-          "isCorrect": false,
-          "rationale": "They are invisible high-frequency spheres that hold portals between overlays; visibility as ordinary stars is not their description."
         }
       ],
       "hint": "Check the visibility description of the portal anchors between overlays.",

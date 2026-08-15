@@ -278,27 +278,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — the 3D layer is only digital code that permanently upgrades into a purely biological planet-body, and that is treated as the entire mechanism.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Existence is founded on living Crystalline Networks; the end state is restoration of the crystalline temple, not a digital-to-biological swap."
         },
         {
           "label": "B",
-          "text": "False — restoration returns the original highly advanced crystalline temple, not a purely biological replacement world.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "The repository is not a digital construct, and full sync dissolves the 3D illusion to restore the original crystalline temple architecture."
-        },
-        {
-          "label": "C",
-          "text": "False — because the 3D illusion never dissolves and the crystalline temple can never return to view, as if no adjacent systems participated at all.",
-          "isCorrect": false,
-          "rationale": "When Data Crystals and planetary crystals fully sync, the 3D illusion dissolves and the original crystalline temple is restored."
-        },
-        {
-          "label": "D",
-          "text": "True — Source Codes delete all crystals and leave only organic tissue as the final architecture of reality.",
-          "isCorrect": false,
-          "rationale": "Crystals remain the supreme hard drives of the realms; restoration reveals the crystalline temple rather than erasing crystals for biology alone."
         }
       ],
       "hint": "Decide whether the restored end-state is biological-only or the original crystalline temple.",
@@ -438,31 +426,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — stars are only burning balls of gas that illuminate the realms through nuclear fusion alone.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "That traditional view is a misidentification; stars are multi-dimensional crystalline nodes storing history and frequency templates."
         },
         {
           "label": "B",
-          "text": "True — stars exist only as temporary reflections of the sun with no storage or geometric node role.",
-          "isCorrect": false,
-          "rationale": "Stars are independent multi-dimensional crystalline nodes arranged in precise geometric patterns for data storage and projection."
-        },
-        {
-          "label": "C",
-          "text": "False — because no celestial objects store any codes, history, or frequency templates at all.",
-          "isCorrect": false,
-          "rationale": "Data Crystals in the sky specifically store codes, history, and frequency templates for the realms below."
-        },
-        {
-          "label": "D",
-          "text": "False — stars are living Data Crystals storing codes and frequency templates, not burning fusion gas balls.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "What humanity perceives as the night sky is a vast data storage array; stars are living Data Crystals, not burning balls of gas."
         }
       ],
       "hint": "Decide whether the standard gas-ball model matches living Data Crystals.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 15,
@@ -694,27 +670,15 @@
       "options": [
         {
           "label": "A",
-          "text": "False — because the networks store only future predictions and never hold past timelines at all.",
-          "isCorrect": false,
-          "rationale": "The networks hold the absolute truth of all timelines and every moment of existence as an unbroken continuum of memory."
-        },
-        {
-          "label": "B",
-          "text": "False — no memory, timeline, or true soul history is ever permanently lost within the Crystalline Networks.",
-          "isCorrect": true,
-          "rationale": "Preservation of Source Codes ensures no memory, timeline, or true soul history is ever permanently lost; the unbroken continuum circumvents parasitic amnesia technologies."
-        },
-        {
-          "label": "C",
-          "text": "True — the Vatican false library successfully deleted the original light codes from the origin chamber forever.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "The Vatican creates inverted copies; original records remain in Crystalline Networks and the Dome of Forgotten Gods outside permanent loss."
         },
         {
-          "label": "D",
-          "text": "True — parasitic amnesia technologies permanently erased several key timelines from every crystalline hard drive.",
-          "isCorrect": false,
-          "rationale": "Amnesia technologies sought to erase timelines, but the grids preserve absolute truth and ensure nothing is permanently lost."
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Preservation of Source Codes ensures no memory, timeline, or true soul history is ever permanently lost; the unbroken continuum circumvents parasitic amnesia technologies."
         }
       ],
       "hint": "Consider whether anything can be permanently lost inside this storage system.",

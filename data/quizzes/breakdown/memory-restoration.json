@@ -246,31 +246,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — they must first re-enter the Vatican loop to recycle fragments before any dome supervision role, without a larger engineered system underneath.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Water Domes help dismantle the Vatican loop for recovering souls; the Resonating Army does not need that loop and is not required to re-enter it."
         },
         {
           "label": "B",
-          "text": "True — Saferins bar the Resonating Army from home realms until Starlight Pods finish every timeline reweave.",
-          "isCorrect": false,
-          "rationale": "Army members return to home realms with stable frequencies; optional Water Dome visits are to supervise others, not a barred prerequisite of Starlight Pod completion."
-        },
-        {
-          "label": "C",
-          "text": "True — every Resonating Army member must complete full Water Dome density extraction before any further mission.",
-          "isCorrect": false,
-          "rationale": "They do not require healing sanctuaries because their frequencies are already highly active and stable; mandatory Water Dome healing is not their path."
-        },
-        {
-          "label": "D",
-          "text": "False — Resonating Army members already hold highly active, stable frequencies and do not require healing sanctuaries.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "Once they depart through frequency gates, Resonating Army members do not require healing sanctuaries; they may visit Water Domes to supervise and speed recovery of human souls they came to free."
         }
       ],
       "hint": "Consider the state of those who come to liberate versus those who are being freed.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -406,31 +394,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — restoration is primarily an intellectual quiz of facts with no vibrational heart-mending required at all.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "The process is explicitly vibrational heart-mending and density clearing, not primary intellectual fact retrieval."
         },
         {
           "label": "B",
-          "text": "True — Ground Healers lecture each soul on timelines until intellectual mastery alone triggers full recall.",
-          "isCorrect": false,
-          "rationale": "Healers stabilize with bio-fields and calm; memory streams re-emerge when density clears and codes interface—not via intellectual lecture mastery."
-        },
-        {
-          "label": "C",
-          "text": "True — only Crystal Halls use vibration; Water Domes restore memory solely through written pre-incarnational contracts.",
-          "isCorrect": false,
-          "rationale": "Water Domes restore memory through liquid sound, density extraction, and Source codes—vibrational heart-mending—not written-contract study alone."
-        },
-        {
-          "label": "D",
-          "text": "False — recovery is a vibrational consequence of heart-mending, not intellectual fact retrieval.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "Within Water Domes, memory recovery is not an intellectual retrieval process but a direct vibrational consequence of heart-mending after emotional density clears."
         }
       ],
       "hint": "Consider whether the domes focus on the mind or the heart.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 14,
@@ -694,31 +670,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — only Water Domes ever healed; Sheol was built solely as a Vatican fragment recycling chamber.",
-          "isCorrect": false,
-          "rationale": "Sheol's original role is healing and recovery within the seven-dome network, not a Vatican recycling chamber designation."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "All seven domes outside the Great Dome, including the Dome of Sheol which originally served as a healing and recovery dome, were linked to the central Spirit Tree."
         },
         {
           "label": "B",
-          "text": "False — Sheol was never a healing or recovery dome and had no link to the seven-dome Spirit Tree feed.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Sheol is named as originally a healing and recovery dome among the seven outer domes fed by the Spirit Tree."
-        },
-        {
-          "label": "C",
-          "text": "False — Sheol was a Starlight Pod factory and never part of the outer dome healing network at all.",
-          "isCorrect": false,
-          "rationale": "Sheol is listed among the seven outer domes as an original healing and recovery dome, not as a Starlight Pod factory outside that network."
-        },
-        {
-          "label": "D",
-          "text": "True — the Dome of Sheol originally served as a healing and recovery dome among the seven outer domes.",
-          "isCorrect": true,
-          "rationale": "All seven domes outside the Great Dome, including the Dome of Sheol which originally served as a healing and recovery dome, were linked to the central Spirit Tree."
+          "rationale": "Sheol's original role is healing and recovery within the seven-dome network, not a Vatican recycling chamber designation."
         }
       ],
       "hint": "Consider the original purpose of the seven domes before the parasitic intervention.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 23,

@@ -342,31 +342,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — but only after the valve was installed did the tree begin feeding seven gardens with Source Light.",
-          "isCorrect": false,
-          "rationale": "Feeding the seven Gardens was the original Spirit Tree design; the valve hijack wilted those gardens into inverted prisons rather than creating the feed."
-        },
-        {
-          "label": "B",
-          "text": "True — the Spirit Tree was the central trunk feeding Source Light into seven outer domes called the Gardens.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "The tree acted as the central trunk, with roots and branches feeding Source Light directly into the seven outer domes (the Gardens), including the Dome of Forgotten Gods, Sheol, Silence, Hiva, Titans, Portals, and Five Peaks."
         },
         {
-          "label": "C",
-          "text": "False — the Spirit Tree never fed any outer domes and had no trunk relationship to garden realms at all.",
+          "label": "B",
+          "text": "False",
           "isCorrect": false,
           "rationale": "The report explicitly describes the tree as the bridge and central trunk feeding Source Light into seven outer garden domes."
-        },
-        {
-          "label": "D",
-          "text": "False — only one outer dome ever received Source Light, and it was never called a Garden in any architecture.",
-          "isCorrect": false,
-          "rationale": "Seven outer domes are named as the Gardens fed by the tree; the architecture is multi-dome, not a single unnamed sphere."
         }
       ],
       "hint": "This relates the Great Dome trunk to the surrounding garden domes.",
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     },
     {
       "number": 12,

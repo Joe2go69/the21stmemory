@@ -374,31 +374,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — the roots remain alive as an interconnected web of nodes and lenses still being reactivated.",
-          "isCorrect": true,
-          "rationale": "Although the physical manifestation of the tree was forcefully removed, its roots remain alive, forming the interconnected web of nodes and lenses currently being reactivated by resonating sols; the essence and root system were never fully destroyed."
-        },
-        {
-          "label": "B",
-          "text": "True — parasitic removal completely destroyed every root, node, and light-grid connection forever.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Removal was forceful, yet the roots remain alive and the essence was never fully destroyed; reactivation of the living root web is underway."
         },
         {
-          "label": "C",
-          "text": "True — only the Valve survived, and no Spirit Tree root, node, or lens remains under any overlay.",
-          "isCorrect": false,
-          "rationale": "The Valve was installed into the wound, but the Spirit Tree roots remain alive as a web of nodes and lenses rather than being fully annihilated."
-        },
-        {
-          "label": "D",
-          "text": "False — the roots died completely, yet new artificial roots were grown from pure Valve Black Cube Tech.",
-          "isCorrect": false,
-          "rationale": "The living root system of the Spirit Tree was never fully destroyed; reactivation restores original roots rather than replacing them with Valve-grown artificial roots."
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Although the physical manifestation of the tree was forcefully removed, its roots remain alive, forming the interconnected web of nodes and lenses currently being reactivated by resonating sols; the essence and root system were never fully destroyed."
         }
       ],
       "hint": "The physical trunk was removed, yet something foundational still lives and reactivates.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -630,31 +618,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — reactivation is energetic realignment of living roots and lenses, not physical trunk regrowth.",
-          "isCorrect": true,
-          "rationale": "The reawakening of the Axis Labernum does not require a physical repair; because the essence and root system were never fully destroyed, resonating sols can reactivate these grids as tree roots light up again."
-        },
-        {
-          "label": "B",
-          "text": "True — grids only wake after a full solid wood trunk is rebuilt by Lyran Builders on the surface.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Physical repair is not required; the living root system and essence remain and can be reactivated through resonance and cooperation with the vertical current."
         },
         {
-          "label": "C",
-          "text": "False — roots died completely, so any \"reactivation\" is only a metaphor with no real grid effect.",
-          "isCorrect": false,
-          "rationale": "Roots remain alive as an interconnected web; as false overlays fracture, the tree roots light up again in a real energetic reactivation."
-        },
-        {
-          "label": "D",
-          "text": "True — every reactivated node proves a solid physical trunk is already growing back in Hyperborea.",
-          "isCorrect": false,
-          "rationale": "Reactivation involves realigning thought and activating the existing root system; physical trunk repair is not required for the roots to light up again."
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "The reawakening of the Axis Labernum does not require a physical repair; because the essence and root system were never fully destroyed, resonating sols can reactivate these grids as tree roots light up again."
         }
       ],
       "hint": "Physical repair is not required because the root essence remains.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 21,

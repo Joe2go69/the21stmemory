@@ -342,27 +342,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True — The Great Dome is a physical training ground that functions as a frequency amplifier echoing solid creation upward.",
+          "text": "True",
           "isCorrect": true,
           "rationale": "The Great Dome is a physical training ground containing 178 worlds and functions as a frequency amplifier echoing solid creation upward into higher realms."
         },
         {
           "label": "B",
-          "text": "False — Only the Dome of Forgotten Gods amplifies solid creation; The Great Dome merely seals travelers outside.",
+          "text": "False",
           "isCorrect": false,
           "rationale": "Dome of Forgotten Gods is the root tone and memory vault; frequency amplification of solid creation is The Great Dome’s role."
-        },
-        {
-          "label": "C",
-          "text": "False — Amplification is performed solely by star-nodes in the sky, never by The Great Dome’s structure, as a one-factor story with a tidy edge.",
-          "isCorrect": false,
-          "rationale": "Star-nodes store codes and project the holographic dome; The Great Dome itself is the solid-creation frequency amplifier."
-        },
-        {
-          "label": "D",
-          "text": "False — The Great Dome only stores dormant maps and never amplifies frequency or echoes creation upward at all.",
-          "isCorrect": false,
-          "rationale": "The Great Dome is explicitly a frequency amplifier for solid creation, not a silent map warehouse."
         }
       ],
       "hint": "Recall the definition of the physical training ground that holds 178 worlds.",
@@ -502,31 +490,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — Dome of Titans was built from the start as a fractured war zone dedicated to training soldiers only.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "That war-zone state is parasitic inversion; the original role was an architect’s playground, not a soldier factory."
         },
         {
           "label": "B",
-          "text": "True — Dome of Titans never existed among the eight primary structures listed inside the CUBE system rather than beginning as an architect playground later inverted.",
-          "isCorrect": false,
-          "rationale": "Dome of Titans is explicitly one of the eight primary structures of the containment system."
-        },
-        {
-          "label": "C",
-          "text": "True — Dome of Titans was always identical to Dome of Sheol as a twin prison of trauma loops and war rather than beginning as an architect playground later inverted.",
-          "isCorrect": false,
-          "rationale": "Sheol’s inversion is trauma prison from healing; Titans’ inversion is war zone from architect playground — different paths."
-        },
-        {
-          "label": "D",
-          "text": "False — Dome of Titans began as an architect’s playground and only later inverted into a fractured war zone.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "Dome of Titans was inverted from an architect’s playground into a fractured war zone; war was not its original design."
         }
       ],
       "hint": "Compare the original architect’s playground role with the inverted war-zone state.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 17,
@@ -790,31 +766,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — linkage only appears after the parasitic field dissolves; until then every Dome is fully isolated forever.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Distinct-yet-linked harmonic pulsing is the present architecture of the eight Domes, not a future-only condition."
         },
         {
           "label": "B",
-          "text": "True — the eight Domes are sealed so completely that no harmonic wave or Spirit Tree current can ever link them.",
-          "isCorrect": false,
-          "rationale": "They are kept distinct yet linked by electromagnetic harmonic waves and Spirit Tree feed through the grids."
-        },
-        {
-          "label": "C",
-          "text": "True — each Dome is a separate outer-space planet with no shared containment inside The CUBE at all, as a one-factor story with a tidy edge.",
-          "isCorrect": false,
-          "rationale": "All eight primary Domes sit layered within the CUBE containment, not as unrelated outer-space planets."
-        },
-        {
-          "label": "D",
-          "text": "False — the eight primary Domes stay distinct by frequency yet remain linked through electromagnetic harmonic waves.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "The CUBE’s eight primary Domes are layered atop one another, pulsing with electromagnetic harmonic waves that keep the worlds distinct yet linked."
         }
       ],
       "hint": "Recall that electromagnetic harmonic waves keep the worlds distinct yet linked.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     }
   ]
 }

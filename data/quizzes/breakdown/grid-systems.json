@@ -598,31 +598,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — Parasitic entities possess no power of original creation; they only hijacked existing Light Lattices.",
-          "isCorrect": true,
-          "rationale": "Parasitic entities possess no power of original creation; they strictly hijacked the Light Lattices engineered by the Lyran Builders-Architects."
-        },
-        {
-          "label": "B",
-          "text": "False — Parasites never interacted with grids at all and left every Light Lattice untouched forever.",
-          "isCorrect": false,
-          "rationale": "Parasites did hijack the grids with inverted codes and veils; the false claim is that they never touched them, not that they created them."
-        },
-        {
-          "label": "C",
-          "text": "True — Parasites designed the full Crystalline Electro-Magnetic Framework from scratch before any Lyran involvement.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "The original framework was built by ancient architects and Lyran Builders-Architects; parasites only hijacked what already existed."
         },
         {
-          "label": "D",
-          "text": "True — Parasitic entities originally engineered the Light Lattices as their own creative architecture.",
-          "isCorrect": false,
-          "rationale": "Parasites did not create the lattices. Lyran Builders-Architects engineered them; parasites only hijacked with inverted codes and artificial veils."
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Parasitic entities possess no power of original creation; they strictly hijacked the Light Lattices engineered by the Lyran Builders-Architects."
         }
       ],
       "hint": "Decide whether parasites are original architects or hijackers of existing lattices.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 20,
@@ -758,31 +746,19 @@
       "options": [
         {
           "label": "A",
-          "text": "True — Continents float as sealed islands of matter with no shared frequency bands between them, held as a complete closed account of the events.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "Continents are held together by overlapping frequency bands of the Light Web Grid, not sealed isolation."
         },
         {
           "label": "B",
-          "text": "False — Planets and continents never appear solid because grids block all perception of landmasses, keeping every neighboring mechanism off the board.",
-          "isCorrect": false,
-          "rationale": "Solidity and separation are projected; landmasses and realms still appear, but they are frequency bands rather than isolated objects."
-        },
-        {
-          "label": "C",
-          "text": "True — Physical reality is made of fully separate planets and isolated continents with no frequency interconnection, as a one-factor story with a tidy edge.",
-          "isCorrect": false,
-          "rationale": "Separation is an illusion of the grid projection; everything interconnects through living grids and the Light Web Grid."
-        },
-        {
-          "label": "D",
-          "text": "False — The physical world is overlapping frequency bands held by the Light Web Grid, not separate planets and isolated continents.",
+          "text": "False",
           "isCorrect": true,
           "rationale": "The physical world is not comprised of separate planets or isolated continents, but of overlapping frequency bands held together by the Light Web Grid."
         }
       ],
       "hint": "Ask whether separation is solid fact or a Light Web frequency presentation.",
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     },
     {
       "number": 25,

@@ -374,31 +374,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — physical distance and travel are manufactured illusions; the sub-crystalline band moves energy and data instantly.",
-          "isCorrect": true,
-          "rationale": "Physical distance and travel are a manufactured illusion projected through the grid; the sub-crystalline band passes energy and data instantly beneath the earth, outperforming undersea fiber-optic cables."
-        },
-        {
-          "label": "B",
-          "text": "True — only undersea fiber-optic cables can ever move information, and they always outrank the grid, without a larger engineered system underneath.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "The sub-crystalline band vastly outperforms physical undersea fiber-optic cables; dense 3D tech is not the superior path of true communication."
         },
         {
-          "label": "C",
-          "text": "True — distance is an unchangeable natural law that no crystalline band or portal can ever bypass, stopping the explanation at that boundary alone.",
-          "isCorrect": false,
-          "rationale": "Distance is a manufactured illusion; natural travel returns to immediate resonance alignment through crystalline portals as artificial locks break."
-        },
-        {
-          "label": "D",
-          "text": "False — because space travel between planets is the only real way energy ever moves in the CUBE, without a larger engineered system underneath.",
-          "isCorrect": false,
-          "rationale": "The CUBE houses layered realms and grids, not infinite outer-space travel as the primary transfer path; the sub-crystalline band moves energy instantly beneath the earth."
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Physical distance and travel are a manufactured illusion projected through the grid; the sub-crystalline band passes energy and data instantly beneath the earth, outperforming undersea fiber-optic cables."
         }
       ],
       "hint": "Consider the role of the sub-crystalline band in transmitting data and energy.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -566,31 +554,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False — they are upper dome frequencies bleeding through as a photonic song with the earth's crystalline grid.",
-          "isCorrect": true,
-          "rationale": "Northern Lights are not distant solar fires; they are the visual bleeding-through of upper dome frequencies interacting with the earth's crystalline grid, a photonic song of communication."
-        },
-        {
-          "label": "B",
-          "text": "False — because Northern Lights are only street lamps reflected off low clouds in modern cities.",
-          "isCorrect": false,
-          "rationale": "They are atmospheric phenomena of upper dome frequencies meeting the crystalline grid, not urban light reflection."
-        },
-        {
-          "label": "C",
-          "text": "True — they are only distant solar fires from the sun's radiation with no grid or dome communication role.",
+          "text": "True",
           "isCorrect": false,
           "rationale": "That is the false explanation; Northern Lights are upper dome frequencies interacting with the crystalline grid as photonic song."
         },
         {
-          "label": "D",
-          "text": "True — they prove that infinite outer space alone generates all atmospheric light without crystalline grids.",
-          "isCorrect": false,
-          "rationale": "The sky is a layered projection field of star-nodes within the CUBE; Northern Lights are photonic communication with the earth's crystalline grid."
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Northern Lights are not distant solar fires; they are the visual bleeding-through of upper dome frequencies interacting with the earth's crystalline grid, a photonic song of communication."
         }
       ],
       "hint": "Think about the photonic song of communication between upper domes and the earth's grid.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 19,

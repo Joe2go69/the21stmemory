@@ -438,31 +438,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Only major historical events are stored; personal soul journeys are discarded after death.",
-          "isCorrect": false,
-          "rationale": "Crystalline hard drives capture every interaction, timeline, and soul experience without loss."
-        },
-        {
-          "label": "B",
-          "text": "Amnesia technology permanently erases origin codes from the crystalline grid.",
-          "isCorrect": false,
-          "rationale": "Parasitic amnesia can filter awareness, but origin codes remain stored in the crystalline hard drives."
-        },
-        {
-          "label": "C",
           "text": "True",
           "isCorrect": true,
           "rationale": "The crystalline hard drives throughout the grids capture and store the unbroken memory of every timeline."
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "False",
           "isCorrect": false,
           "rationale": "While parasites use amnesia filters, they cannot erase the data stored in the underlying crystalline framework."
         }
       ],
       "hint": "Recall how crystalline hard drives permanently store every soul timeline.",
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     },
     {
       "number": 15,
@@ -630,31 +618,19 @@
       "options": [
         {
           "label": "A",
-          "text": "False",
-          "isCorrect": true,
-          "rationale": "The physical plane was dreamed into form by external architects using the console to bend light and sound; parasites only hacked it later."
-        },
-        {
-          "label": "B",
-          "text": "Parasites built the CUBE first, then invited external architects to decorate the domes.",
-          "isCorrect": false,
-          "rationale": "Parasites cannot create a framework of this magnitude; they only hacked a pre-existing system."
-        },
-        {
-          "label": "C",
-          "text": "The physical plane formed accidentally when random frequencies collided in empty space.",
-          "isCorrect": false,
-          "rationale": "The physical plane was dreamed into form by external architects bending light and sound through the console."
-        },
-        {
-          "label": "D",
           "text": "True",
           "isCorrect": false,
           "rationale": "Parasites only hacked and warped the system; they did not create the original framework."
+        },
+        {
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "The physical plane was dreamed into form by external architects using the console to bend light and sound; parasites only hacked it later."
         }
       ],
       "hint": "Differentiate between the 'architects' and the 'parasites'.",
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "number": 21,
@@ -758,31 +734,19 @@
       "options": [
         {
           "label": "A",
-          "text": "The Dome of Forgotten Gods sits only above The Great Dome and never below it.",
-          "isCorrect": false,
-          "rationale": "The root dome sits both above and below The Great Dome to power and stabilize the CUBE."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "The Dome of Forgotten Gods sits above and below The Great Dome, wrapping the CUBE with stabilizing harmonic waves."
         },
         {
           "label": "B",
           "text": "False",
           "isCorrect": false,
           "rationale": "The Dome of Forgotten Gods wraps the CUBE and sits both above and below The Great Dome — it is not limited to one side."
-        },
-        {
-          "label": "C",
-          "text": "The Dome of Titans wraps The Great Dome while the Dome of Forgotten Gods remains external.",
-          "isCorrect": false,
-          "rationale": "It is the Dome of Forgotten Gods that wraps the CUBE and stabilizes The Great Dome, not the Dome of Titans."
-        },
-        {
-          "label": "D",
-          "text": "True",
-          "isCorrect": true,
-          "rationale": "The Dome of Forgotten Gods sits above and below The Great Dome, wrapping the CUBE with stabilizing harmonic waves."
         }
       ],
       "hint": "Recall the structural relationship between the root dome and the CUBE's internal structures.",
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     },
     {
       "number": 25,
