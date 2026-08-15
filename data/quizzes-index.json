@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-15T08:22:31.188Z",
-  "total": 128,
+  "generatedAt": "2026-08-15T09:51:15.737Z",
+  "total": 129,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 68
+      "count": 69
     }
   ],
   "quizzes": [
@@ -814,6 +814,19 @@
       "href": "quiz/breakdown/3d-overlay.html",
       "diveHref": "dive/breakdown/3d-overlay.html",
       "key": "breakdown/3d-overlay"
+    },
+    {
+      "id": "ai-shells",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "A.I. Shells",
+      "subtitle": "Test your grasp of A.I. Shells — non-sentient NPC vessels, artificial entry bands, Voice to Skull and scalar weapons, mimics and A.I. composites, and starving the programs as the overlay dissolves.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/ai-shells.html",
+      "diveHref": "dive/breakdown/ai-shells.html",
+      "key": "breakdown/ai-shells"
     },
     {
       "id": "atmospheric-pop",

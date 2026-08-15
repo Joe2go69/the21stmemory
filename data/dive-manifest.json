@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T08:22:31.408Z",
+  "generatedAt": "2026-08-15T09:51:15.970Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -901,7 +901,7 @@
       "sourceId": "breakdown",
       "topicId": "ai-shells",
       "path": "/dive/breakdown/ai-shells.html",
-      "live": false,
+      "live": true,
       "title": "A.I. Shells"
     },
     {
