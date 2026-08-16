@@ -3973,7 +3973,7 @@ a.topic-root-card:hover .explore-badge {
   position: relative;
   flex-wrap: nowrap;
   overflow-x: auto;
-  overflow-y: hidden;
+  overflow-y: clip;
   max-height: none;
   padding-right: 1.75rem;
   scrollbar-width: none;
@@ -20481,4 +20481,27 @@ iframe,
   .footer-support-tabs {
     margin-top: 0.95rem !important;
   }
+}
+
+/* Topic / quiz / transmission cards clip art to the radius, but must NOT
+   become wheel scrollports. overflow:hidden creates a scroll container
+   when content is even 1px taller, so the wheel moves the card instead
+   of the page. overflow:clip still masks the photo and lets the page scroll. */
+.source-card,
+a.source-card,
+.topic-root-card,
+a.topic-root-card,
+a.quiz-hub-card,
+a.quiz-hub-row,
+.quiz-hub-path-card,
+.quiz-hub-path-card__media,
+.topic-root-media,
+.source-card-media {
+  overflow: clip !important;
+  overscroll-behavior: auto;
+}
+
+.topics-filter-btn-group--scroll,
+.archive-chip-scroll {
+  overflow-y: clip;
 }
