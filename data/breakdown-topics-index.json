@@ -557,9 +557,9 @@
             {
               "id": "healing-path",
               "title": "Healing Path",
-              "description": "Decoded analysis of Healing Path within the Mega Breakdown Board Notes & Highlights transmission.",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "description": "The Healing Path is a structured, multi-dimensional restorative sequence for human sols — Water Domes, Crystal Halls, and Star Pods under Saferon ground healers — that mends heart, mind, and soul after the parasitic overlay collapses.",
+              "topic_image": "images/breakdown/healing-path.webp",
+              "is_placeholder": false
             },
             {
               "id": "spirit-inversion",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T06:40:44.426Z",
+  "generatedAt": "2026-08-16T08:43:14.329Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -929,7 +929,7 @@
       "sourceId": "breakdown",
       "topicId": "healing-path",
       "path": "/dive/breakdown/healing-path.html",
-      "live": false,
+      "live": true,
       "title": "Healing Path"
     },
     {

@@ -152,6 +152,7 @@ const entries = [
   { path: '/quiz/breakdown/code-dissolution.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/human-sols.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/true-sparks.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/healing-path.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/source-bridge.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/central-axis.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/phase-one-three.html', priority: '0.75', changefreq: 'monthly' },

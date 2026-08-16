@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-16T06:40:44.213Z",
-  "total": 132,
+  "generatedAt": "2026-08-16T08:43:14.047Z",
+  "total": 133,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 72
+      "count": 73
     }
   ],
   "quizzes": [
@@ -1087,6 +1087,19 @@
       "href": "quiz/breakdown/harmonic-lenses.html",
       "diveHref": "dive/breakdown/harmonic-lenses.html",
       "key": "breakdown/harmonic-lenses"
+    },
+    {
+      "id": "healing-path",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Healing Path",
+      "subtitle": "Test your grasp of the Healing Path — Water Domes, Crystal Halls, and Star Pods under Saferon ground healers; Lyran giants; Spirit Tree restoration; loosh neutralization; and the sovereign choice after sanctuary stabilization.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/healing-path.html",
+      "diveHref": "dive/breakdown/healing-path.html",
+      "key": "breakdown/healing-path"
     },
     {
       "id": "healing-sanctuaries",
