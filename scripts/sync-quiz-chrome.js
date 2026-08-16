@@ -23,7 +23,7 @@ const footerHTML = renderFooter(footerData, { basePath: BASE });
 const NAV_REGEX = /<nav class="navbar">[\s\S]*?<\/nav>/;
 const FOOTER_REGEX = /<footer class="site-footer">[\s\S]*?<\/footer>/;
 const CRITICAL_PAINT = `    <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
-    <style>html,body{background-color:#0F0A1F;color-scheme:dark}</style>
+    <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}</style>
 `;
 
 function walk(dir, acc = []) {

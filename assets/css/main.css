@@ -10502,15 +10502,15 @@ a.source-card:hover .source-card-progress__fill {
   }
 }
 
-/* Interior hubs (Codex, Quizzes…): less empty air under the fixed nav */
+/* Interior hubs (Codex, Quizzes, Network): room under the fixed nav */
 .page-interior .page-hero {
-  padding-top: 0.85rem !important;
+  padding-top: 1.75rem !important;
   padding-bottom: 1.75rem !important;
 }
 
 @media (min-width: 768px) {
   .page-interior .page-hero {
-    padding-top: 1.1rem !important;
+    padding-top: 2.25rem !important;
     padding-bottom: 2rem !important;
   }
 }
@@ -12544,9 +12544,11 @@ a.btn-secondary:hover,
 /* Hub wordmarks (Codex / Network / Quizzes): same metallic fill as home, calmer scale */
 .page-hero-title.page-hero-title--hub {
   font-size: clamp(2.35rem, 8.5vw, 3.65rem);
-  line-height: 1.02;
+  line-height: 1.08;
   letter-spacing: -0.04em;
   margin-bottom: 1.25rem;
+  padding-top: 0.08em;
+  overflow: visible;
   text-wrap: balance;
 }
 
@@ -12566,7 +12568,8 @@ a.btn-secondary:hover,
 @media (max-width: 640px) {
   .page-hero-title.page-hero-title--hub {
     font-size: 2.55rem !important;
-    line-height: 1.05 !important;
+    line-height: 1.1 !important;
+    padding-top: 0.1em;
   }
 }
 
@@ -20373,10 +20376,8 @@ html {
   background-color: #0F0A1F;
 }
 
-body {
-  padding-top: calc(5rem + env(safe-area-inset-top, 0px));
-}
-
+body,
+body.page-interior,
 body.page-home {
   padding-top: calc(5rem + env(safe-area-inset-top, 0px)) !important;
 }

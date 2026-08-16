@@ -16,8 +16,11 @@ function minifyCss(input) {
   css = css.replace(/\/\*[\s\S]*?\*\//g, '');
   // Collapse whitespace
   css = css.replace(/\s+/g, ' ');
-  // Tighten around symbols
-  css = css.replace(/\s*([{}:;,>~\+])\s*/g, '$1');
+  // Tighten around symbols. Do NOT strip spaces around + or - —
+  // calc() requires them (`calc(5rem + env(...))`). Stripping them
+  // makes the declaration invalid-at-computed-value-time and padding
+  // falls back to 0, sliding interior heroes under the fixed navbar.
+  css = css.replace(/\s*([{}:;,>~])\s*/g, '$1');
   // Keep space after "and" / "or" in media queries already collapsed carefully:
   css = css.replace(/and\(/g, 'and (');
   css = css.replace(/or\(/g, 'or (');
