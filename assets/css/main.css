@@ -17470,11 +17470,10 @@ body.reading-focus .navbar {
 /* --- Codex transmission cards: richer photo + depth --- */
 a.source-card,
 .source-card {
-  overflow: hidden !important;
+  overflow: clip !important;
   border-radius: 1.15rem !important;
   box-shadow: var(--surface-tier-elevated) !important;
   background: #12101f !important;
-  transform: translateZ(0);
 }
 
 a.source-card:hover,
@@ -20483,10 +20482,8 @@ iframe,
   }
 }
 
-/* Topic / quiz / transmission cards clip art to the radius, but must NOT
-   become wheel scrollports. overflow:hidden creates a scroll container
-   when content is even 1px taller, so the wheel moves the card instead
-   of the page. overflow:clip still masks the photo and lets the page scroll. */
+/* Archive cards stay static: clip photos to the radius, never become
+   a nested scrollport. Hover lift / photo zoom is unchanged. */
 .source-card,
 a.source-card,
 .topic-root-card,
@@ -20498,7 +20495,12 @@ a.quiz-hub-row,
 .topic-root-media,
 .source-card-media {
   overflow: clip !important;
-  overscroll-behavior: auto;
+  overscroll-behavior: none !important;
+}
+
+.source-card-media,
+.quiz-hub-path-card__media {
+  pointer-events: none;
 }
 
 .topics-filter-btn-group--scroll,

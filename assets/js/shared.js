@@ -287,6 +287,7 @@ function initSharedComponents() {
   initMeasuredSectionScroll();
   initDeferredAnalytics();
   initVaultSelects();
+  initStaticArchiveCards();
   document.addEventListener('pointerdown', (event) => {
     if (!event.target.closest('.vault-select')) closeVaultSelects();
   });
@@ -795,6 +796,43 @@ if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', initSharedComponents);
 } else {
   initSharedComponents();
+}
+
+/**
+ * Codex / Quizzes / topic cards must never become a nested scrollport.
+ * Hover lift and photo zoom stay; the wheel always moves the page.
+ */
+function initStaticArchiveCards() {
+  const SELECTOR = [
+    '.source-card',
+    '.quiz-hub-path-card',
+    '.topic-root-card',
+    'a.quiz-hub-card',
+    'a.quiz-hub-row'
+  ].join(',');
+
+  const resetInnerScroll = (root) => {
+    if (!root) return;
+    if (root.scrollTop) root.scrollTop = 0;
+    if (root.scrollLeft) root.scrollLeft = 0;
+    const nodes = root.querySelectorAll('*');
+    for (let i = 0; i < nodes.length; i += 1) {
+      const node = nodes[i];
+      if (node.scrollTop) node.scrollTop = 0;
+      if (node.scrollLeft) node.scrollLeft = 0;
+    }
+  };
+
+  document.addEventListener('wheel', (event) => {
+    const card = event.target.closest(SELECTOR);
+    if (!card) return;
+    resetInnerScroll(card);
+    let dy = event.deltaY;
+    if (event.deltaMode === 1) dy *= 16;
+    else if (event.deltaMode === 2) dy *= window.innerHeight;
+    event.preventDefault();
+    window.scrollBy(0, dy);
+  }, { passive: false, capture: true });
 }
 
 function initScrollAnimations() {
