@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-16T01:54:46.033Z",
-  "total": 130,
+  "generatedAt": "2026-08-16T03:01:34.199Z",
+  "total": 131,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 70
+      "count": 71
     }
   ],
   "quizzes": [
@@ -1100,6 +1100,19 @@
       "href": "quiz/breakdown/healing-sanctuaries.html",
       "diveHref": "dive/breakdown/healing-sanctuaries.html",
       "key": "breakdown/healing-sanctuaries"
+    },
+    {
+      "id": "human-sols",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Human Sols",
+      "subtitle": "Test your grasp of Human Sols — true spiritual sparks inverted by parasites, Taran lineage, the Amnesia Vortex and Vatican archive, solar pulses, Water Domes, Crystal Halls, Star Pods, and the sovereign choice after restoration.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/human-sols.html",
+      "diveHref": "dive/breakdown/human-sols.html",
+      "key": "breakdown/human-sols"
     },
     {
       "id": "hyperborean-heart",

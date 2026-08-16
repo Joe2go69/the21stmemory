@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T01:54:46.240Z",
+  "generatedAt": "2026-08-16T03:01:34.399Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -915,7 +915,7 @@
       "sourceId": "breakdown",
       "topicId": "human-sols",
       "path": "/dive/breakdown/human-sols.html",
-      "live": false,
+      "live": true,
       "title": "Human Sols"
     },
     {
