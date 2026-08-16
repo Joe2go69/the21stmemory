@@ -7359,8 +7359,8 @@ a.topic-main-root-card:hover .topic-main-root-explore {
    ============================================= */
 
 .topics-filter-sticky-wrap {
-  position: sticky;
-  top: 5.25rem;
+  position: relative;
+  top: auto;
   z-index: 45;
   margin-bottom: 2rem;
   /* Isolate so hover transforms on children don't escape */
@@ -7463,10 +7463,10 @@ a.topic-main-root-card:hover .topic-main-root-explore {
   }
 }
 
-/* Codex toolbar sticky while browsing results */
+/* Codex toolbar scrolls with the page — do not pin it over the cards */
 #codex-toolbar {
-  position: sticky;
-  top: 5.25rem;
+  position: relative;
+  top: auto;
   z-index: 40;
 }
 
@@ -7561,8 +7561,8 @@ a.codex-search-card:hover {
 }
 
 .quiz-hub-toolbar {
-  position: sticky;
-  top: 5.25rem;
+  position: relative;
+  top: auto;
   z-index: 40;
   padding: 0.95rem 1rem;
   border-radius: 1.1rem;
@@ -15960,11 +15960,11 @@ select.quiz-hub-sort-select {
   min-width: min(100%, 18rem);
 }
 
-/* Sticky toolkit while browsing catalog */
+/* Catalog toolkit — same surface, scrolls with the page */
 @media (min-width: 768px) {
   .quiz-hub-browse.is-catalog .quiz-hub-toolbar {
-    position: sticky;
-    top: 5.25rem;
+    position: relative;
+    top: auto;
     z-index: 20;
     padding: 0.75rem 0.9rem;
     margin-bottom: 1rem;
@@ -20501,6 +20501,15 @@ a.quiz-hub-row,
 .source-card-media,
 .quiz-hub-path-card__media {
   pointer-events: none;
+}
+
+/* Archive search trays must scroll away with the page, not pin over cards */
+#codex-toolbar,
+.quiz-hub-toolbar,
+.quiz-hub-browse.is-catalog .quiz-hub-toolbar,
+.topics-filter-sticky-wrap {
+  position: relative !important;
+  top: auto !important;
 }
 
 .topics-filter-btn-group--scroll,
