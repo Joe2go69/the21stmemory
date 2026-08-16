@@ -1003,25 +1003,60 @@ const TopicUtils = {
     sections.forEach(section => observer.observe(section));
   },
 
-  buildReportToc(reportContainer, tocContainer) {
-    if (!reportContainer || !tocContainer) return;
+  collectReportTocItems(reportContainer) {
+    if (!reportContainer) return [];
 
-    const headings = reportContainer.querySelectorAll('h2, h3');
-    if (!headings.length) {
-      tocContainer.hidden = true;
-      return;
-    }
+    const headings = [...reportContainer.querySelectorAll('h2, h3')].filter((heading) => {
+      if (heading.classList.contains('term-card__term')) return false;
+      if (heading.closest('.term-card, .term-card-grid')) return false;
+      return Boolean(heading.textContent && heading.textContent.trim());
+    });
 
-    const items = [];
-    headings.forEach((heading, index) => {
+    return headings.map((heading, index) => {
       const id = heading.id || `report-section-${index}`;
       heading.id = id;
-      items.push({
+      return {
+        heading,
         id,
         text: heading.textContent.trim(),
         level: heading.tagName === 'H3' ? 3 : 2
-      });
+      };
     });
+  },
+
+  renderReportTocList(items) {
+    return items.map((item) => `
+              <li class="report-toc-item report-toc-item--h${item.level}">
+                <a href="#${item.id}" class="report-toc-link" data-toc-link="${item.id}">${this.escapeHtml(item.text)}</a>
+              </li>
+            `).join('');
+  },
+
+  scrollToReportHeading(id) {
+    const target = document.getElementById(id);
+    if (!target) return;
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const top = target.getBoundingClientRect().top + scrollTop - this.getDiveChromeOffset() - 8;
+    window.scrollTo({ top, behavior: 'smooth' });
+    if (history.replaceState) {
+      history.replaceState(null, '', `#${id}`);
+    }
+  },
+
+  buildReportToc(reportContainer, tocContainer, tocMobile) {
+    if (!reportContainer || !tocContainer) return;
+
+    const items = this.collectReportTocItems(reportContainer);
+    if (!items.length) {
+      tocContainer.hidden = true;
+      if (tocMobile) {
+        tocMobile.hidden = true;
+        tocMobile.innerHTML = '';
+      }
+      return;
+    }
+
+    const listHtml = this.renderReportTocList(items);
 
     tocContainer.hidden = false;
     tocContainer.innerHTML = `
@@ -1029,36 +1064,67 @@ const TopicUtils = {
         <div class="report-toc-label">On this page</div>
         <nav aria-label="Report sections">
           <ul class="report-toc-list">
-            ${items.map(item => `
-              <li class="report-toc-item report-toc-item--h${item.level}">
-                <a href="#${item.id}" class="report-toc-link" data-toc-link="${item.id}">${this.escapeHtml(item.text)}</a>
-              </li>
-            `).join('')}
+            ${listHtml}
           </ul>
         </nav>
       </div>
     `;
 
-    const links = tocContainer.querySelectorAll('[data-toc-link]');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        links.forEach(link => {
-          link.classList.toggle('active', link.dataset.tocLink === entry.target.id);
-        });
+    if (tocMobile) {
+      tocMobile.hidden = false;
+      tocMobile.innerHTML = `
+        <details class="report-toc-mobile-panel">
+          <summary class="report-toc-mobile-summary">
+            <span class="report-toc-mobile-kicker">On this page</span>
+            <span class="report-toc-mobile-current" data-toc-current>${this.escapeHtml(items[0].text)}</span>
+            <svg class="report-toc-mobile-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </summary>
+          <nav class="report-toc-mobile-nav" aria-label="Report sections">
+            <ul class="report-toc-list">
+              ${listHtml}
+            </ul>
+          </nav>
+        </details>
+      `;
+    }
+
+    const desktopLinks = tocContainer.querySelectorAll('[data-toc-link]');
+    const mobileLinks = tocMobile ? tocMobile.querySelectorAll('[data-toc-link]') : [];
+    const allLinks = [...desktopLinks, ...mobileLinks];
+    const currentEl = tocMobile ? tocMobile.querySelector('[data-toc-current]') : null;
+    const mobilePanel = tocMobile ? tocMobile.querySelector('.report-toc-mobile-panel') : null;
+
+    const setActive = (id) => {
+      allLinks.forEach((link) => {
+        const on = link.dataset.tocLink === id;
+        link.classList.toggle('active', on);
+        if (on) link.setAttribute('aria-current', 'location');
+        else link.removeAttribute('aria-current');
       });
-    }, { threshold: 0.35, rootMargin: '-20% 0px -55% 0px' });
+      if (currentEl) {
+        const match = items.find((item) => item.id === id);
+        if (match) currentEl.textContent = match.text;
+      }
+    };
 
-    headings.forEach(heading => observer.observe(heading));
+    const visibleIds = new Set();
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) visibleIds.add(entry.target.id);
+        else visibleIds.delete(entry.target.id);
+      });
+      const firstVisible = items.find((item) => visibleIds.has(item.id));
+      if (firstVisible) setActive(firstVisible.id);
+    }, { threshold: [0.12, 0.35], rootMargin: '-22% 0px -58% 0px' });
 
-    links.forEach(link => {
+    items.forEach((item) => observer.observe(item.heading));
+    setActive(items[0].id);
+
+    allLinks.forEach((link) => {
       link.addEventListener('click', (e) => {
         e.preventDefault();
-        const target = document.getElementById(link.dataset.tocLink);
-        if (!target) return;
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const top = target.getBoundingClientRect().top + scrollTop - this.NAVBAR_HEIGHT - this.SCROLL_EXTRA_OFFSET;
-        window.scrollTo({ top, behavior: 'smooth' });
+        if (mobilePanel) mobilePanel.open = false;
+        this.scrollToReportHeading(link.dataset.tocLink);
       });
     });
   },

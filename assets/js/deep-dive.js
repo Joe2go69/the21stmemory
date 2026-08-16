@@ -868,21 +868,7 @@ async function loadLessonViewer() {
         el.classList.add('tracking-tight', 'font-semibold');
         if (el.tagName === 'H1') el.classList.add('font-bold');
       });
-      TopicUtils.buildReportToc(reportContainer, tocContainer);
-      if (tocMobile && tocContainer && !tocContainer.hidden) {
-        tocMobile.innerHTML = tocContainer.innerHTML;
-        tocMobile.hidden = false;
-        tocMobile.querySelectorAll('[data-toc-link]').forEach(link => {
-          link.addEventListener('click', (e) => {
-            e.preventDefault();
-            const target = document.getElementById(link.dataset.tocLink);
-            if (!target) return;
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            const top = target.getBoundingClientRect().top + scrollTop - TopicUtils.NAVBAR_HEIGHT - TopicUtils.SCROLL_EXTRA_OFFSET;
-            window.scrollTo({ top, behavior: 'smooth' });
-          });
-        });
-      }
+      TopicUtils.buildReportToc(reportContainer, tocContainer, tocMobile);
       if (studyToolbar) {
         studyToolbar.hidden = false;
         initDeepDiveStudyToolbar(studyToolbar);

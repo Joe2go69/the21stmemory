@@ -658,26 +658,7 @@ function initReportToc() {
   if (!reportContainer || !tocContainer) return;
   if (typeof TopicUtils === 'undefined' || !TopicUtils.buildReportToc) return;
 
-  TopicUtils.buildReportToc(reportContainer, tocContainer);
-
-  if (tocMobile && tocContainer && !tocContainer.hidden) {
-    tocMobile.innerHTML = tocContainer.innerHTML;
-    tocMobile.hidden = false;
-    tocMobile.querySelectorAll('[data-toc-link]').forEach((link) => {
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
-        const target = document.getElementById(link.dataset.tocLink);
-        if (!target) return;
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const top =
-          target.getBoundingClientRect().top +
-          scrollTop -
-          TopicUtils.NAVBAR_HEIGHT -
-          TopicUtils.SCROLL_EXTRA_OFFSET;
-        window.scrollTo({ top, behavior: 'smooth' });
-      });
-    });
-  }
+  TopicUtils.buildReportToc(reportContainer, tocContainer, tocMobile);
 }
 
 function initTerminologyCards() {

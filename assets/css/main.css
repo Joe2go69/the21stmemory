@@ -3663,6 +3663,7 @@ a.topic-root-card:hover .explore-badge {
   #report-section .report-study-toolbar,
   #report-section .report-toc,
   #report-section .report-toc-mobile,
+  #report-section .report-toc-mobile-panel,
   #report-section .report-toc-inner,
   #report-section .topic-prev-next,
   #report-section .dive-continue,
@@ -5558,12 +5559,142 @@ a.topic-root-card:hover .explore-badge {
 
 .report-toc-mobile {
   display: block;
-  margin-bottom: 1.25rem;
+  position: relative;
+  z-index: 3;
+  margin: 0 0 1.15rem;
 }
 
 @media (min-width: 1024px) {
   .report-toc-mobile {
     display: none;
+  }
+}
+
+/* Compact mobile/tablet "On this page" disclosure — not a dumped sidebar */
+.report-toc-mobile-panel {
+  margin: 0;
+  border-radius: 0.95rem;
+  background:
+    radial-gradient(ellipse 70% 80% at 0% 50%, rgba(109, 40, 217, 0.12) 0%, transparent 55%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, transparent 55%),
+    #1A1433;
+  box-shadow: var(--surface-tier-recessed-tray, var(--surface-tier-recessed));
+  overflow: hidden;
+}
+
+.report-toc-mobile-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-height: 2.75rem;
+  padding: 0.55rem 0.75rem 0.55rem 0.9rem;
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.report-toc-mobile-summary::-webkit-details-marker,
+.report-toc-mobile-summary::marker {
+  display: none;
+}
+
+.report-toc-mobile-kicker {
+  flex: 0 0 auto;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.report-toc-mobile-current {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+
+.report-toc-mobile-panel[open] .report-toc-mobile-current {
+  display: none;
+}
+
+.report-toc-mobile-panel[open] .report-toc-mobile-summary {
+  justify-content: space-between;
+}
+
+.report-toc-mobile-chevron {
+  flex: 0 0 auto;
+  width: 1rem;
+  height: 1rem;
+  color: var(--text-muted);
+  transition: transform 0.2s ease;
+}
+
+.report-toc-mobile-panel[open] .report-toc-mobile-chevron {
+  transform: rotate(180deg);
+}
+
+.report-toc-mobile-summary:focus-visible {
+  outline: 2px solid var(--accent-violet-hover);
+  outline-offset: -2px;
+  border-radius: 0.95rem;
+}
+
+.report-toc-mobile-nav {
+  padding: 0.2rem 0.4rem 0.5rem;
+  max-height: min(58vh, 22rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border-top: 1px solid rgba(124, 58, 237, 0.16);
+  -webkit-overflow-scrolling: touch;
+}
+
+.report-toc-mobile .report-toc-link {
+  display: flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 0.45rem 0.55rem 0.45rem 0.7rem;
+  font-size: 0.86rem;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--text-soft);
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  border-radius: 0 0.45rem 0.45rem 0;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.report-toc-mobile .report-toc-item--h3 .report-toc-link {
+  padding-left: 1.2rem;
+  font-size: 0.8rem;
+  min-height: 2.25rem;
+  color: var(--text-muted);
+}
+
+.report-toc-mobile .report-toc-link:hover,
+.report-toc-mobile .report-toc-link.active {
+  color: var(--text-primary);
+  border-left-color: var(--accent-violet-hover);
+  background: rgba(91, 33, 182, 0.16);
+}
+
+@media (max-width: 1023px) {
+  #report-container h2,
+  #report-container h3:not(.term-card__term) {
+    scroll-margin-top: calc(5rem + 3.75rem + env(safe-area-inset-top, 0px));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .report-toc-mobile-chevron,
+  .report-toc-mobile .report-toc-link {
+    transition: none;
   }
 }
 
@@ -7252,23 +7383,6 @@ a.topic-main-root-card:hover .topic-main-root-explore {
   margin-bottom: 1.75rem;
 }
 
-.report-toc-mobile .report-toc-link {
-  display: block;
-  padding: 0.35rem 0;
-  font-size: 0.82rem;
-  color: var(--text-muted);
-  text-decoration: none;
-  border-left: 2px solid transparent;
-  padding-left: 0.65rem;
-  transition: color 0.2s ease, border-color 0.2s ease;
-}
-
-.report-toc-mobile .report-toc-link:hover,
-.report-toc-mobile .report-toc-link.active {
-  color: var(--text-primary);
-  border-left-color: var(--accent-violet);
-}
-
 @media (max-width: 640px) {
   .topic-prev-next {
     grid-template-columns: 1fr;
@@ -8910,18 +9024,9 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
     text-align: center;
   }
 
-  /* Mobile TOC links — larger touch targets */
+  /* Mobile TOC — keep the disclosure compact under the study toolbar */
   .report-toc-mobile {
     margin-bottom: 1rem;
-  }
-
-  .report-toc-mobile .report-toc-link {
-    padding: 0.55rem 0.35rem 0.55rem 0.7rem;
-    font-size: 0.86rem;
-    line-height: 1.35;
-    min-height: 2.5rem;
-    display: flex;
-    align-items: center;
   }
 
   /* Prev / next topic cards */
