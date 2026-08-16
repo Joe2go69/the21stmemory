@@ -8,7 +8,7 @@ function check(name, ok, detail = '') {
 }
 
 const liveSample = path.join(ROOT, 'dive', 'alice', 'nature-of-reality.html');
-const stubSample = path.join(ROOT, 'dive', 'breakdown', 'code-dissolution.html');
+const stubSample = path.join(ROOT, 'dive', 'breakdown', 'human-sols.html');
 check('live sample exists', fs.existsSync(liveSample));
 check('stub sample exists', fs.existsSync(stubSample));
 
@@ -41,7 +41,7 @@ check('manifest stubs ~64', stubs.length >= 50, String(stubs.length));
 const sm = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
 check('sitemap has dive url', sm.includes('/dive/alice/nature-of-reality.html'));
 check('sitemap no query deep-dive', !sm.includes('deep-dive.html?'));
-check('sitemap no stub code-dissolution', !sm.includes('/dive/breakdown/code-dissolution.html'));
+check('sitemap no stub human-sols', !sm.includes('/dive/breakdown/human-sols.html'));
 
 const tu = fs.readFileSync(path.join(ROOT, 'assets/js/topics-utils.js'), 'utf8');
 check('topics-utils diveUrl', tu.includes('diveUrl'));

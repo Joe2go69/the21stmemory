@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-15T09:51:15.737Z",
-  "total": 129,
+  "generatedAt": "2026-08-16T01:54:46.033Z",
+  "total": 130,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 69
+      "count": 70
     }
   ],
   "quizzes": [
@@ -892,6 +892,19 @@
       "href": "quiz/breakdown/central-axis.html",
       "diveHref": "dive/breakdown/central-axis.html",
       "key": "breakdown/central-axis"
+    },
+    {
+      "id": "code-dissolution",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Code Dissolution",
+      "subtitle": "Test your grasp of Code Dissolution — NPC programs as soulless background fragments, frequency-fracture stages, dissolving loops, perception-based solidity, and starving the parasitic grid as the overlay collapses.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/code-dissolution.html",
+      "diveHref": "dive/breakdown/code-dissolution.html",
+      "key": "breakdown/code-dissolution"
     },
     {
       "id": "comms-blackout",
