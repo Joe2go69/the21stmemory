@@ -8819,7 +8819,7 @@ a.quiz-hub-row:hover .quiz-hub-row__cta {
 .dive-section-seg--sticky {
   width: 100%;
   max-width: 100%;
-  background: #16102a;
+  background: #1A1433;
   border-color: rgba(139, 61, 255, 0.34);
   box-shadow:
     0 12px 36px -12px rgba(0, 0, 0, 0.75),
@@ -10153,7 +10153,7 @@ body.reading-focus .cosmic-bg::before {
 }
 
 body.reading-focus .section-nav-sticky {
-  opacity: 0.92;
+  opacity: 1;
 }
 
 /* Active jump control — solid 3D, no ring glow */
@@ -19961,8 +19961,7 @@ select.video-lang-select {
    ============================================= */
 
 .jump-to-pills,
-.dive-section-seg,
-.section-nav-sticky .dive-section-seg--sticky {
+.dive-section-seg {
   display: inline-flex !important;
   flex-wrap: nowrap !important;
   align-items: stretch !important;
@@ -21561,4 +21560,20 @@ body[data-report-size="lg"] #report-container {
   .report-coda__text {
     color: #222 !important;
   }
+}
+
+/* Sticky section nav is chrome over scrolling report text.
+   Shared .dive-section-seg glass stays on the hero only. */
+.section-nav-sticky .dive-section-seg,
+.section-nav-sticky .dive-section-seg--sticky {
+  background: #1A1433 !important;
+  background-image: none !important;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border: none !important;
+  box-shadow:
+    0 16px 40px -16px rgba(0, 0, 0, 0.7),
+    0 8px 20px -12px rgba(0, 0, 0, 0.45),
+    inset 0 1.5px 0 rgba(255, 255, 255, 0.08),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
 }
