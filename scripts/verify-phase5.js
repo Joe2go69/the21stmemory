@@ -12,7 +12,7 @@ const live = fs.readFileSync(
   'utf8'
 );
 const stub = fs.readFileSync(
-  path.join(ROOT, 'dive', 'breakdown', 'et-sols.html'),
+  path.join(ROOT, 'dive', 'breakdown', 'resonating-army.html'),
   'utf8'
 );
 const about = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
@@ -28,7 +28,7 @@ check('live no noindex', !live.includes('noindex'));
 check('stub noindex', stub.includes('noindex'));
 check('stub coming soon label', stub.includes('Coming soon'));
 check('stub browse ready', stub.includes('Browse ready topics'));
-check('stub not in sitemap', !sm.includes('/dive/breakdown/et-sols.html'));
+check('stub not in sitemap', !sm.includes('/dive/breakdown/resonating-army.html'));
 check('live in sitemap', sm.includes('/dive/alice/nature-of-reality.html'));
 check('about no process line', !about.includes('How this archive works'));
 check('about AI bridge', about.includes('AI is a bridge, not the source'));

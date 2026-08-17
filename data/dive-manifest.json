@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T02:36:22.514Z",
+  "generatedAt": "2026-08-17T08:00:45.375Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -943,7 +943,7 @@
       "sourceId": "breakdown",
       "topicId": "et-sols",
       "path": "/dive/breakdown/et-sols.html",
-      "live": false,
+      "live": true,
       "title": "ET Sols"
     },
     {
