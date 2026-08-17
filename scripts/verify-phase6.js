@@ -95,7 +95,7 @@ function exists(rel) {
     check(g, 'live copy link', h.includes('data-share-action="copy-link"') || h.includes('dive-copy-link'));
   }
 
-  const stub = 'dive/breakdown/resonating-army.html';
+  const stub = 'dive/breakdown/lyran-lineage.html';
   check(g, 'stub sample exists', exists(stub));
   if (exists(stub)) {
     check(g, 'stub noindex', read(stub).includes('noindex'));
@@ -104,7 +104,7 @@ function exists(rel) {
   const sm = read('sitemap.xml');
   check(g, 'sitemap has dive URLs', sm.includes('/dive/alice/nature-of-reality.html'));
   check(g, 'sitemap no query deep-dives', !sm.includes('deep-dive.html?'));
-  check(g, 'sitemap excludes stub', !sm.includes('/dive/breakdown/resonating-army.html'));
+  check(g, 'sitemap excludes stub', !sm.includes('/dive/breakdown/lyran-lineage.html'));
   check(g, 'sitemap has quizzes hub', sm.includes('/quizzes.html'));
 
   check(g, 'topics-utils diveUrl', read('assets/js/topics-utils.js').includes('diveUrl'));
@@ -154,7 +154,7 @@ function exists(rel) {
   check(g, 'about AI bridge heading', about.includes('AI is a bridge, not the source'));
   check(g, 'about AI note', about.includes('about-banner-footnote') || about.includes('about-ai-note'));
 
-  const stub = read('dive/breakdown/resonating-army.html');
+  const stub = read('dive/breakdown/lyran-lineage.html');
   check(g, 'stub browse ready CTA', stub.includes('Browse ready topics'));
 
   check(g, 'SPA continue helper', read('assets/js/deep-dive.js').includes('renderContinueLearning'));

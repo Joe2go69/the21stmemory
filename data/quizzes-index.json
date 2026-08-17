@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T08:00:45.155Z",
-  "total": 135,
+  "generatedAt": "2026-08-17T10:25:32.096Z",
+  "total": 136,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 75
+      "count": 76
     }
   ],
   "quizzes": [
@@ -1490,6 +1490,19 @@
       "href": "quiz/breakdown/reality-constructs.html",
       "diveHref": "dive/breakdown/reality-constructs.html",
       "key": "breakdown/reality-constructs"
+    },
+    {
+      "id": "resonating-army",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Resonating Army",
+      "subtitle": "Test your understanding of Resonating Army — pre-awakened ET souls as frequency beacons, Embedded Codes, parasitic overlays, the A.I. War Theatre, the sanctuary-bypassing homecoming path, and the Sol Frequency Lock.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/resonating-army.html",
+      "diveHref": "dive/breakdown/resonating-army.html",
+      "key": "breakdown/resonating-army"
     },
     {
       "id": "second-realm",

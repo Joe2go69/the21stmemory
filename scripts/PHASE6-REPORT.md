@@ -1,8 +1,8 @@
 # Phase 6 Verification Report
 
-Generated: 2026-07-30T00:38:54.872Z
+Generated: 2026-08-17T10:17:32.872Z
 
-**Result: PASSED** — 86/86 checks
+**Result: FAILED** — 83/86 checks
 
 ## P1 Brand SEO
 
@@ -35,7 +35,7 @@ Generated: 2026-07-30T00:38:54.872Z
 - ✅ quizzes lazy catalog shell
 - ✅ quizzes filters
 - ✅ quizzes-index.json
-- ✅ quiz index count >= 100 (112)
+- ✅ quiz index count >= 100 (135)
 - ✅ quiz index has quiz list
 - ✅ index nav Quizzes
 - ✅ index quiz CTA
@@ -45,12 +45,12 @@ Generated: 2026-07-30T00:38:54.872Z
 
 ## P3 Static dives
 
-- Passed: 20
-- Failed: 0
+- Passed: 18
+- Failed: 2
 
 - ✅ dive-manifest.json
-- ✅ live dives ~100 (112)
-- ✅ stub dives ~64 (52)
+- ❌ live dives ~100 (136)
+- ❌ stub dives ~64 (28)
 - ✅ live sample exists
 - ✅ live unique title
 - ✅ live report prerendered
@@ -91,8 +91,8 @@ Generated: 2026-07-30T00:38:54.872Z
 
 ## P5 Content hygiene
 
-- Passed: 10
-- Failed: 0
+- Passed: 9
+- Failed: 1
 
 - ✅ continue learning block
 - ✅ network CTA on dive
@@ -100,10 +100,10 @@ Generated: 2026-07-30T00:38:54.872Z
 - ✅ updated stamp
 - ✅ about no process line
 - ✅ about AI bridge heading
-- ✅ about AI note
+- ❌ about AI note
 - ✅ stub browse ready CTA
 - ✅ SPA continue helper
-- ✅ sitemap dive count = live (112 vs 112)
+- ✅ sitemap dive count = live (136 vs 136)
 
 ## Integrity
 
@@ -120,7 +120,7 @@ Generated: 2026-07-30T00:38:54.872Z
 - ✅ network.html has Quizzes nav
 - ✅ topics.html has Quizzes nav
 - ✅ sitemap escaped ampersands
-- ✅ sitemap URL count > 150 (232)
+- ✅ sitemap URL count > 150 (279)
 - ✅ og image non-empty (19976)
 - ✅ community noindex
 - ✅ community redirects
