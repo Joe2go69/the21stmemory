@@ -505,6 +505,35 @@ const TopicUtils = {
     return 0;
   },
 
+  /**
+   * Thin top bar tracks the report column only (not videos / continue).
+   * Hidden until the reader reaches the report; fills through the prose.
+   */
+  initReportReadingProgress() {
+    const bar = document.getElementById('reading-progress');
+    const fill = bar?.querySelector('.reading-progress-fill');
+    const report = document.getElementById('report-container');
+    if (!bar || !fill || !report) return;
+    if (bar.dataset.progressBound === '1') return;
+    bar.dataset.progressBound = '1';
+
+    const update = () => {
+      const rect = report.getBoundingClientRect();
+      const chrome = this.getDiveChromeOffset();
+      const start = window.scrollY + rect.top - chrome;
+      const readable = Math.max(report.offsetHeight - (window.innerHeight - chrome), 1);
+      const progress = Math.min(1, Math.max(0, (window.scrollY - start) / readable));
+      fill.style.width = `${Math.round(progress * 100)}%`;
+      const active = progress > 0 && progress < 1;
+      bar.hidden = !active;
+      bar.setAttribute('aria-hidden', active ? 'false' : 'true');
+    };
+
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+  },
+
   /** Navbar + sticky pills + a tight gap — one number for jump and spy. */
   getDiveChromeOffset() {
     const nav = document.querySelector('.navbar');
@@ -1130,6 +1159,27 @@ const TopicUtils = {
   },
 
   /**
+   * Strip list-item leftovers after the term <strong>.
+   * Never put HTML entities inside a [] class — "&middot;" matches letters.
+   */
+  cleanTermDefinition(defHtml) {
+    let html = String(defHtml || '');
+    const leadSpace = /^(?:\s|&nbsp;|&#160;)+/i;
+    const leadWrap = /^(?:<\/p>|<p\b[^>]*>)+/i;
+    const trailWrap = /(?:<\/p>|<p\b[^>]*>)+\s*$/i;
+    const separators = /^(?:[-–—:·•]|&middot;)+/i;
+
+    html = html.replace(leadSpace, '');
+    html = html.replace(leadWrap, '');
+    html = html.replace(leadSpace, '');
+    html = html.replace(separators, '');
+    html = html.replace(leadSpace, '');
+    html = html.replace(leadWrap, '');
+    html = html.replace(trailWrap, '');
+    return html.trim();
+  },
+
+  /**
    * Turn definition-style bullet lists into term cards.
    * Matches Key Terminology, Key Reminders, Guidance lists, etc.
    * Expects <li><strong>Term</strong> — definition</li> (em/en dash or colon).
@@ -1166,13 +1216,10 @@ const TopicUtils = {
         const fullHtml = li.innerHTML;
         const strongHtml = strong.outerHTML;
         const afterStrong = fullHtml.slice(fullHtml.indexOf(strongHtml) + strongHtml.length);
-        defHtml = afterStrong
-          .replace(/^(\s|&nbsp;|&#160;)*[-–—:·•]+\s*/i, '')
-          .replace(/^(\s|&nbsp;|&#160;)*/i, '')
-          .trim();
+        defHtml = this.cleanTermDefinition(afterStrong);
         if (!defHtml) {
           const text = (li.textContent || '').trim();
-          const stripped = text.replace(term, '').replace(/^[\s\-–—:·•:]+/, '').trim();
+          const stripped = text.replace(term, '').replace(/^[\s\-–—:·•]+/, '').trim();
           defHtml = this.escapeHtml(stripped);
         }
         if (!defHtml) return;
@@ -1181,13 +1228,15 @@ const TopicUtils = {
 
       if (cards.length < 2) return;
 
+      const voice = this.classifyTermVoice(heading.textContent);
       const grid = document.createElement('div');
-      grid.className = 'term-card-grid';
+      grid.className = `term-card-grid term-card-grid--${voice}`;
+      grid.setAttribute('data-term-voice', voice);
       grid.setAttribute('role', 'list');
       grid.innerHTML = cards
         .map(
           (c) => `
-      <article class="term-card" role="listitem">
+      <article class="term-card term-card--${voice}" role="listitem">
         <h3 class="term-card__term">${this.escapeHtml(c.term)}</h3>
         <div class="term-card__def">${c.defHtml}</div>
       </article>`
@@ -1196,13 +1245,148 @@ const TopicUtils = {
       list.replaceWith(grid);
     });
 
-    // Promote long blockquotes into insight cards (Essence-style reports)
-    reportContainer.querySelectorAll('blockquote').forEach((bq) => {
-      if (bq.classList.contains('report-insight-card')) return;
-      const text = (bq.textContent || '').trim();
-      if (text.length < 40) return;
-      bq.classList.add('report-insight-card');
+    this.enhanceReportFolio(reportContainer);
+  },
+
+  collectReportFigures(text) {
+    const found = [];
+    const add = (value, label) => {
+      if (found.some((item) => item.value === value)) return;
+      found.push({ value, label });
+    };
+    const src = String(text || '');
+    if (/178,000/.test(src)) add('178,000', 'year cycle');
+    if (/\b97\s*%/.test(src)) add('97%', 'NPC overlay');
+    if (/520\s*million/i.test(src)) add('520 million', 'souls remaining');
+    if (/4,000/.test(src) && /ancient/i.test(src)) add('4,000', 'Ancients');
+    if (/30[-\s]?second/i.test(src)) add('30 seconds', 'EMF flash');
+    return found.slice(0, 4);
+  },
+
+  renderReportFigures(figures) {
+    return `<aside class="report-figures" aria-label="Key figures">${figures
+      .map(
+        (fig) =>
+          `<div class="report-figure"><span class="report-figure__value">${this.escapeHtml(
+            fig.value
+          )}</span><span class="report-figure__label">${this.escapeHtml(fig.label)}</span></div>`
+      )
+      .join('')}</aside>`;
+  },
+
+  classifyTermVoice(headingText) {
+    const t = String(headingText || '').toLowerCase();
+    if (/guid(e|ance)|remembrance|integration|practice/.test(t)) return 'guidance';
+    if (/nuance|caveat|further exploration/.test(t)) return 'caveat';
+    if (/reminder|takeaway|revelation|insight|dot connection/.test(t)) return 'takeaway';
+    if (/terminolog|glossary|definition/.test(t)) return 'glossary';
+    return 'glossary';
+  },
+
+  enhanceReportFolio(reportContainer) {
+    if (!reportContainer) return;
+
+    const firstH1 = reportContainer.querySelector(':scope > h1');
+    if (firstH1) firstH1.remove();
+
+    const firstP = reportContainer.querySelector(':scope > p');
+    if (firstP) firstP.classList.add('report-lead');
+
+    if (firstP && !reportContainer.querySelector('.report-figures')) {
+      const figures = this.collectReportFigures(reportContainer.textContent);
+      if (figures.length >= 2) {
+        firstP.insertAdjacentHTML('afterend', this.renderReportFigures(figures));
+      }
+    }
+
+    reportContainer.querySelectorAll('.term-card-grid').forEach((grid) => {
+      if (grid.dataset.termVoice) return;
+      let heading = grid.previousElementSibling;
+      while (heading && !/^H[23]$/.test(heading.tagName)) {
+        heading = heading.previousElementSibling;
+      }
+      const voice = this.classifyTermVoice(heading ? heading.textContent : '');
+      grid.dataset.termVoice = voice;
+      grid.classList.add(`term-card-grid--${voice}`);
+      grid.querySelectorAll('.term-card').forEach((card) => card.classList.add(`term-card--${voice}`));
     });
+
+    const quotes = [...reportContainer.querySelectorAll('blockquote')];
+    if (quotes.length) {
+      const headings = [...reportContainer.querySelectorAll('h2')];
+      const passage = headings.find((h) => /notable|passage|direct insight/i.test(h.textContent || ''));
+      let pool = quotes;
+      if (passage) {
+        const after = quotes.filter((q) => passage.compareDocumentPosition(q) & Node.DOCUMENT_POSITION_FOLLOWING);
+        if (after.length) pool = after;
+      }
+      const monument = pool.reduce((best, cur) =>
+        (cur.textContent || '').trim().length > (best.textContent || '').trim().length ? cur : best
+      );
+      quotes.forEach((bq) => {
+        if ((bq.textContent || '').trim().length < 40) return;
+        if (bq === monument && (bq.textContent || '').trim().length >= 80) {
+          bq.classList.add('report-pullquote');
+          bq.classList.remove('report-insight-card');
+          if (!bq.querySelector('.report-pullquote__source')) {
+            const foot = document.createElement('footer');
+            foot.className = 'report-pullquote__source';
+            foot.textContent = 'Thalon Thor · transmission';
+            bq.appendChild(foot);
+          }
+        } else {
+          bq.classList.add('report-insight-card');
+        }
+      });
+    }
+
+    this.enhanceReportCoda(reportContainer);
+    this.ensureFolioMasthead();
+  },
+
+  enhanceReportCoda(reportContainer) {
+    if (!reportContainer || reportContainer.querySelector('.report-coda')) return;
+    const closeH2 = [...reportContainer.querySelectorAll('h2')].find((h) =>
+      /closing invitation/i.test(h.textContent || '')
+    );
+    if (!closeH2) return;
+    const p = closeH2.nextElementSibling;
+    if (!p || p.tagName !== 'P') return;
+    const markSrc =
+      document.querySelector('.report-folio-mark, .nav-logo-mark-img')?.getAttribute('src') ||
+      'images/21st-mark.webp';
+    const coda = document.createElement('footer');
+    coda.className = 'report-coda';
+    coda.innerHTML = `<div class="report-coda__rule" aria-hidden="true"></div><p class="report-coda__text">${p.innerHTML}</p><img class="report-coda__mark" src="${this.escapeHtml(markSrc)}" alt="" width="40" height="40" decoding="async" />`;
+    closeH2.replaceWith(coda);
+    p.remove();
+  },
+
+  ensureFolioMasthead() {
+    if (document.querySelector('.report-folio-masthead')) return;
+    const card = document.querySelector('.dive-report-card');
+    const toolbar = document.getElementById('report-study-toolbar');
+    if (!card || !toolbar) return;
+
+    const path =
+      document.querySelector('.deep-dive-hero-meta__path')?.textContent?.trim() ||
+      document.querySelector('.deep-dive-hero .page-hero-eyebrow')?.textContent?.trim() ||
+      '';
+    const time =
+      [...document.querySelectorAll('.deep-dive-hero-meta__item, .deep-dive-reading-time')]
+        .map((el) => el.textContent.trim())
+        .find((t) => /min read/i.test(t)) || '';
+    const markSrc =
+      document.querySelector('.nav-logo-mark-img')?.getAttribute('src') || 'images/21st-mark.webp';
+
+    const parts = ['<span class="report-folio-kicker">Decoded report</span>'];
+    if (path) parts.push(`<span class="report-folio-path">${this.escapeHtml(path)}</span>`);
+    if (time) parts.push(`<span class="report-folio-time">${this.escapeHtml(time)}</span>`);
+
+    const header = document.createElement('header');
+    header.className = 'report-folio-masthead';
+    header.innerHTML = `<img src="${this.escapeHtml(markSrc)}" alt="" class="report-folio-mark" width="36" height="36" decoding="async" /><div class="report-folio-meta">${parts.join('<span class="report-folio-dot" aria-hidden="true">·</span>')}</div>`;
+    card.insertBefore(header, toolbar);
   },
 
   /**
@@ -1251,10 +1435,10 @@ const TopicUtils = {
   REPORT_SIZE_KEY: '21st-memory-report-size-v1',
   REPORT_SIZES: ['sm', 'md', 'lg'],
 
+  REPORT_FOCUS_KEY: '21st-memory-report-focus-v1',
+
   /**
-   * Ensures the study toolbar has size controls (works on old
-   * static dive HTML that only has Print), then binds localStorage prefs.
-   * Focus mode was removed — text size + print remain.
+   * Size controls, Focus mode, and print. Safe to call twice.
    */
   initReadingComfort(options = {}) {
     const toolbar =
@@ -1265,13 +1449,7 @@ const TopicUtils = {
       document.getElementById('report-container');
     if (!toolbar || !reportRoot) return;
 
-    // Always show when report exists
     toolbar.hidden = false;
-
-    // Remove any legacy Focus controls still present in cached HTML
-    toolbar.querySelectorAll('[data-report-focus], .report-study-btn--focus').forEach((el) => el.remove());
-    document.body.classList.remove('reading-focus');
-
     this.ensureReadingComfortControls(toolbar);
     if (toolbar.dataset.comfortBound === '1') return;
     toolbar.dataset.comfortBound = '1';
@@ -1302,6 +1480,28 @@ const TopicUtils = {
       btn.addEventListener('click', () => applySize(btn.getAttribute('data-report-size')));
     });
 
+    let focusOn = false;
+    try {
+      focusOn = localStorage.getItem(this.REPORT_FOCUS_KEY) === '1';
+    } catch (_) { /* ignore */ }
+
+    const applyFocus = (on) => {
+      focusOn = !!on;
+      document.body.classList.toggle('reading-focus', focusOn);
+      toolbar.querySelectorAll('[data-report-focus]').forEach((btn) => {
+        btn.classList.toggle('is-active', focusOn);
+        btn.setAttribute('aria-pressed', focusOn ? 'true' : 'false');
+      });
+      try {
+        localStorage.setItem(this.REPORT_FOCUS_KEY, focusOn ? '1' : '0');
+      } catch (_) { /* ignore */ }
+    };
+
+    applyFocus(focusOn);
+    toolbar.querySelectorAll('[data-report-focus]').forEach((btn) => {
+      btn.addEventListener('click', () => applyFocus(!focusOn));
+    });
+
     toolbar.querySelector('[data-report-print]')?.addEventListener('click', () => {
       window.print();
     });
@@ -1310,32 +1510,40 @@ const TopicUtils = {
   ensureReadingComfortControls(toolbar) {
     if (!toolbar) return;
 
-    // Strip legacy Focus button if present
-    toolbar.querySelectorAll('[data-report-focus], .report-study-btn--focus').forEach((el) => el.remove());
-
-    if (toolbar.querySelector('[data-report-size]')) return;
-
-    const printBtn = toolbar.querySelector('[data-report-print]');
-    const group = document.createElement('div');
-    group.className = 'report-study-group';
-    group.setAttribute('role', 'group');
-    group.setAttribute('aria-label', 'Text size');
-    group.innerHTML = `
+    if (!toolbar.querySelector('[data-report-size]')) {
+      const printBtn = toolbar.querySelector('[data-report-print]');
+      const group = document.createElement('div');
+      group.className = 'report-study-group';
+      group.setAttribute('role', 'group');
+      group.setAttribute('aria-label', 'Text size');
+      group.innerHTML = `
       <span class="report-study-label" id="report-size-label">Text</span>
       <button type="button" class="report-study-btn report-study-btn--size" data-report-size="sm" aria-pressed="false" aria-labelledby="report-size-label" title="Smaller text">A</button>
       <button type="button" class="report-study-btn report-study-btn--size report-study-btn--size-md" data-report-size="md" aria-pressed="true" aria-labelledby="report-size-label" title="Default text">A</button>
       <button type="button" class="report-study-btn report-study-btn--size report-study-btn--size-lg" data-report-size="lg" aria-pressed="false" aria-labelledby="report-size-label" title="Larger text">A</button>
     `;
+      toolbar.insertBefore(group, toolbar.firstChild);
+      if (!printBtn) {
+        const print = document.createElement('button');
+        print.type = 'button';
+        print.className = 'report-study-btn';
+        print.setAttribute('data-report-print', '');
+        print.setAttribute('aria-label', 'Print or save report as PDF');
+        print.textContent = 'Print';
+        toolbar.appendChild(print);
+      }
+    }
 
-    toolbar.insertBefore(group, toolbar.firstChild);
-    if (!printBtn) {
-      const print = document.createElement('button');
-      print.type = 'button';
-      print.className = 'report-study-btn';
-      print.setAttribute('data-report-print', '');
-      print.setAttribute('aria-label', 'Print or save report as PDF');
-      print.textContent = 'Print';
-      toolbar.appendChild(print);
+    if (!toolbar.querySelector('[data-report-focus]')) {
+      const focus = document.createElement('button');
+      focus.type = 'button';
+      focus.className = 'report-study-btn report-study-btn--focus';
+      focus.setAttribute('data-report-focus', '');
+      focus.setAttribute('aria-pressed', 'false');
+      focus.textContent = 'Focus';
+      const printBtn = toolbar.querySelector('[data-report-print]');
+      if (printBtn) toolbar.insertBefore(focus, printBtn);
+      else toolbar.appendChild(focus);
     }
   }
 };

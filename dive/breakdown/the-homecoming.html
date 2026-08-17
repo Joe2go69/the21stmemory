@@ -119,12 +119,17 @@
     </div>
     </main>
 
-    <div id="infographic-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Full size infographic viewer" class="hidden fixed inset-0 bg-black/90 z-[100] flex items-center justify-center p-2 md:p-4">
+    <div id="infographic-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Full size plate viewer" class="hidden fixed inset-0 z-[100] flex items-center justify-center p-2 md:p-4">
         <div id="infographic-modal-inner" class="relative w-full max-w-[98vw] md:max-w-[96vw] max-h-[96vh]">
             <div id="infographic-modal-viewport" class="infographic-modal-viewport">
-                <img id="modal-image" src="" alt="Full size infographic" class="infographic-modal-image">
+                <img id="modal-image" src="" alt="Full size plate" class="infographic-modal-image">
             </div>
-            <button type="button" id="close-modal" class="icon-control icon-control--close absolute -top-1 -right-1 md:top-0 md:right-0 z-10" aria-label="Close">✕</button>
+            <button type="button" id="infographic-modal-close" class="icon-control icon-control--close dive-plate-modal-close" aria-label="Close plate">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" aria-hidden="true">
+                <path d="M18 6 6 18M6 6l12 12"/>
+              </svg>
+            </button>
+            <div class="dive-plate-modal-hint md:hidden">Pinch or scroll to zoom · Drag to pan</div>
         </div>
     </div>
 

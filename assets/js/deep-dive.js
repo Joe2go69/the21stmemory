@@ -83,19 +83,21 @@ function renderTopicNav({ topics, sourceId, topicId }) {
 }
 
 function setupReadingProgress() {
+  if (typeof TopicUtils !== "undefined" && TopicUtils.initReportReadingProgress) {
+    TopicUtils.initReportReadingProgress();
+    return;
+  }
   const bar = document.getElementById("reading-progress");
   const fill = bar?.querySelector(".reading-progress-fill");
-  const reportSection = document.getElementById("report-section");
-  if (!bar || !fill || !reportSection) return;
+  const report = document.getElementById("report-container");
+  if (!bar || !fill || !report) return;
 
   const update = () => {
-    const rect = reportSection.getBoundingClientRect();
-    const sectionTop = rect.top + window.scrollY;
-    const sectionHeight = reportSection.offsetHeight;
-    const viewportBottom = window.scrollY + window.innerHeight;
-    const start = sectionTop;
-    const end = sectionTop + sectionHeight;
-    const progress = Math.min(1, Math.max(0, (viewportBottom - start) / (end - start)));
+    const rect = report.getBoundingClientRect();
+    const chrome = 96;
+    const start = window.scrollY + rect.top - chrome;
+    const readable = Math.max(report.offsetHeight - (window.innerHeight - chrome), 1);
+    const progress = Math.min(1, Math.max(0, (window.scrollY - start) / readable));
     fill.style.width = `${Math.round(progress * 100)}%`;
     bar.hidden = progress <= 0 || progress >= 1;
   };
@@ -369,7 +371,7 @@ function renderJumpPills(flags) {
   if (!pills.length) return '';
   return `
     <div class="dive-jump-label">In this topic</div>
-    <div class="jump-to-pills dive-section-seg mb-4" id="jump-to-pills" role="navigation" aria-label="Topic sections">
+    <div class="jump-to-pills dive-section-seg" id="jump-to-pills" role="navigation" aria-label="Topic sections">
       ${pills.join('')}
     </div>`;
 }
@@ -392,15 +394,17 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId, mediaFlag
       <div class="deep-dive-hero-scrim"></div>
       <div class="deep-dive-hero-content">
         <div class="deep-dive-hero-meta">
-          <p class="page-hero-eyebrow">${escapeHtml(fullData.title)}</p>
-          ${readingTime ? `<span class="deep-dive-reading-time">${escapeHtml(readingTime)}</span>` : ''}
+          <span class="deep-dive-hero-meta__path">${escapeHtml(fullData.title)}</span>
+          ${readingTime ? `<span class="deep-dive-hero-meta__dot" aria-hidden="true">·</span><span class="deep-dive-hero-meta__item">${escapeHtml(readingTime)}</span>` : ''}
         </div>
         <h1 class="page-hero-title--dive">${escapeHtml(topic.title)}</h1>
         <div class="deep-dive-hero-accent" aria-hidden="true"></div>
-        <div class="text-[17px] text-mem-secondary max-w-[52ch] leading-relaxed">
-          ${(topic.description || '').split('\n\n').map((p) => `<p class="mb-3 last:mb-0">${escapeHtml(p)}</p>`).join('')}
-        </div>
-        <div class="mt-7 dive-hero-actions">
+        ${
+          (topic.description || '').trim()
+            ? `<p class="deep-dive-hero-deck">${escapeHtml(String(topic.description).split(/\n\n+/)[0].trim())}</p>`
+            : ''
+        }
+        <div class="dive-hero-actions">
           ${renderJumpPills(flags)}
           ${topic.quiz?.href ? `
           <div class="deep-dive-quiz-cta">
@@ -455,14 +459,17 @@ function renderSlideDeckArtifact({ pdfUrl, previewSrc, topicTitle }) {
   const safePreviewSrc = escapeAttr(previewSrc);
   const safeTitle = escapeHtml(topicTitle);
   const actionIcon = typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : '';
-  return `
-    <div class="slide-deck-artifact" role="button" tabindex="0" aria-label="Open slide deck PDF" data-pdf-url="${safeUrl}">
-      <img src="${safePreviewSrc}" alt="Slide deck preview - ${safeTitle}"
+  const preview = safePreviewSrc
+    ? `<img src="${safePreviewSrc}" alt="Slide deck preview - ${safeTitle}"
            width="600" height="400" loading="lazy"
-           onerror="MediaEmpty.replace(this,'file','Preview image unavailable',true)">
-      <div class="slide-deck-artifact-caption">
-        <span>Slide deck preview</span>
-        <span class="slide-deck-artifact-action">${actionIcon} Open PDF</span>
+           onerror="MediaEmpty.replace(this,'file','Preview image unavailable',true)">`
+    : `<div class="dive-plate__void" aria-hidden="true"></div>`;
+  return `
+    <div class="slide-deck-artifact dive-plate${safePreviewSrc ? '' : ' dive-plate--empty'}" role="button" tabindex="0" aria-label="Open slide deck PDF" data-pdf-url="${safeUrl}">
+      ${preview}
+      <div class="slide-deck-artifact-caption dive-plate-caption">
+        <span>Deck</span>
+        <span class="slide-deck-artifact-action dive-plate-action">${actionIcon} Open PDF</span>
       </div>
     </div>
   `;
@@ -520,8 +527,11 @@ function setupJumpToPills() {
 /** Ensure "Back to Topics" restores the opened topic in the list. */
 function renderContinueLearning({ sourceId, topic }) {
   const quiz = topic.quiz;
+  const hideQuizCta = Boolean(quiz?.href);
   const quizHref = quiz?.href ? escapeAttr(quiz.href) : '';
-  const quizBlock = quizHref
+  const quizBlock = hideQuizCta
+    ? ''
+    : quizHref
     ? `<a href="${quizHref}" class="btn-primary dive-continue__btn">
         <span>${escapeHtml(quizCtaLabel(quiz.title || 'Living Truth'))}</span>
       </a>
@@ -532,7 +542,7 @@ function renderContinueLearning({ sourceId, topic }) {
   <aside class="dive-continue content-card static-card p-6 md:p-8 mt-8" aria-label="Continue learning">
     <h2 class="dive-continue__title">Continue learning</h2>
     <p class="dive-continue__lead">
-      This archive is an AI-assisted bridge. For the source material, visit the original transmissions on the Network — then test your understanding with a quiz.
+      This archive is an AI-assisted bridge. For the source material, visit the original transmissions on the Network.
     </p>
     <div class="dive-continue__actions">
       ${quizBlock}
@@ -708,13 +718,13 @@ async function loadLessonViewer() {
       if (flags.hasInfographic) {
         const infographicSrc = TopicUtils.encodeAssetPath(topic.infographic_image);
         infographicContainer.innerHTML = `
-          <div class="infographic-artifact" role="button" tabindex="0" aria-label="Open full size infographic" data-infographic-src="${escapeAttr(infographicSrc)}">
-            <img src="${escapeAttr(infographicSrc)}" alt="${escapeHtml(topic.title)} Infographic"
+          <div class="infographic-artifact dive-plate" role="button" tabindex="0" aria-label="Open full size plate" data-infographic-src="${escapeAttr(infographicSrc)}">
+            <img src="${escapeAttr(infographicSrc)}" alt="${escapeHtml(topic.title)} infographic"
                  loading="lazy" decoding="async"
                  onerror="MediaEmpty.replace(this,'archive','Infographic coming soon')">
-            <div class="infographic-artifact-caption">
-              <span>Decoded infographic</span>
-              <span class="infographic-artifact-zoom" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('expand', 'card-icon-sm') : ''} Expand</span>
+            <div class="infographic-artifact-caption dive-plate-caption">
+              <span>Plate</span>
+              <span class="infographic-artifact-zoom dive-plate-action" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('expand', 'card-icon-sm') : ''} Expand</span>
             </div>
           </div>
         `;
@@ -756,15 +766,15 @@ async function loadLessonViewer() {
               });
               setupSlideDeckArtifact(pdfPreviewContainer);
             } else {
-              pdfPreviewContainer.innerHTML = renderCompactComingSoon('Slide preview unavailable — use download below');
+              pdfPreviewContainer.innerHTML = renderSlideDeckArtifact({
+                pdfUrl: topic.slide_deck_pdf_url,
+                previewSrc: '',
+                topicTitle: topic.title
+              });
+              setupSlideDeckArtifact(pdfPreviewContainer);
             }
           }
-          pdfContainer.innerHTML = `
-            <a href="${escapeAttr(topic.slide_deck_pdf_url)}" target="_blank" rel="noopener noreferrer"
-               class="slide-deck-download-btn btn-secondary">
-              ${typeof renderSiteIcon === 'function' ? renderSiteIcon('file', 'card-icon-sm') : ''} Download slide deck PDF
-            </a>
-          `;
+          if (pdfContainer) pdfContainer.innerHTML = '';
         } else if (pdfCol) {
           pdfCol.hidden = true;
         } else {

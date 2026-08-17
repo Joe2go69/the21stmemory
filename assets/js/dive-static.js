@@ -9,7 +9,11 @@ function initDiveStatic() {
   initClickToPlayVideos();
   // After click-to-play: may re-render non-English default and rebind that set only
   initVideoLanguageSwitcher();
-  initReadingProgress();
+  if (typeof TopicUtils !== 'undefined' && TopicUtils.initReportReadingProgress) {
+    TopicUtils.initReportReadingProgress();
+  } else {
+    initReadingProgress();
+  }
   initReportToc();
   initTerminologyCards();
   initSectionNavSticky();
@@ -45,9 +49,9 @@ function escapeVideoAttr(value) {
 }
 
 function videoGridClassName(count) {
-  if (count === 1) return 'dive-video-grid grid gap-6 grid-cols-1 max-w-2xl mx-auto';
-  if (count === 2) return 'dive-video-grid grid gap-6 md:grid-cols-2 max-w-5xl mx-auto';
-  return 'dive-video-grid grid gap-6 md:grid-cols-2 lg:grid-cols-3';
+  if (count === 1) return 'dive-video-grid dive-video-grid--1';
+  if (count === 2) return 'dive-video-grid dive-video-grid--2';
+  return 'dive-video-grid dive-video-grid--3';
 }
 
 function defaultVideoPosterSrc() {
@@ -81,9 +85,9 @@ function renderDiveVideoCards(videos) {
       const desc = video.description
         ? `<p class="dive-video-card__desc">${escapeVideoHtml(video.description)}</p>`
         : '';
-      return `<article class="dive-video-card content-card static-card p-4">
-        <div class="dive-video-card__frame aspect-[16/10] overflow-hidden relative">
-          <div class="video-poster-wrap absolute inset-0 cursor-pointer"
+      return `<article class="dive-video-card content-card static-card">
+        <div class="dive-video-card__frame">
+          <div class="video-poster-wrap"
                data-rumble-embed="${embed}"
                data-video-title="${title}"
                role="button" tabindex="0"
@@ -91,8 +95,10 @@ function renderDiveVideoCards(videos) {
             ${renderParticleFacade(rawTitle)}
           </div>
         </div>
-        <h3 class="dive-video-card__title">${title}</h3>
-        ${desc}
+        <div class="dive-video-card__body">
+          <h3 class="dive-video-card__title">${title}</h3>
+          ${desc}
+        </div>
       </article>`;
     })
     .join('');
@@ -630,18 +636,15 @@ function initClickToPlayVideos() {
 function initReadingProgress() {
   const bar = document.getElementById('reading-progress');
   const fill = bar?.querySelector('.reading-progress-fill');
-  const reportSection = document.getElementById('report-section');
-  if (!bar || !fill || !reportSection) return;
+  const report = document.getElementById('report-container');
+  if (!bar || !fill || !report) return;
 
   const update = () => {
-    const rect = reportSection.getBoundingClientRect();
-    const sectionTop = rect.top + window.scrollY;
-    const sectionHeight = reportSection.offsetHeight;
-    const viewportBottom = window.scrollY + window.innerHeight;
-    const progress = Math.min(
-      1,
-      Math.max(0, (viewportBottom - sectionTop) / Math.max(sectionHeight, 1))
-    );
+    const rect = report.getBoundingClientRect();
+    const chrome = 96;
+    const start = window.scrollY + rect.top - chrome;
+    const readable = Math.max(report.offsetHeight - (window.innerHeight - chrome), 1);
+    const progress = Math.min(1, Math.max(0, (window.scrollY - start) / readable));
     fill.style.width = `${Math.round(progress * 100)}%`;
     bar.hidden = progress <= 0 || progress >= 1;
   };

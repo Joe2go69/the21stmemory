@@ -80,6 +80,44 @@ function estimateReadingTime(text) {
   return `${Math.max(1, Math.ceil(words / 200))} min read`;
 }
 
+function formatHeroDate(isoDate) {
+  const raw = String(isoDate || '').trim();
+  const match = raw.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!match) return raw;
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const month = months[Number(match[2]) - 1];
+  if (!month) return raw;
+  return `${Number(match[3])} ${month} ${match[1]}`;
+}
+
+function renderHeroMeta({ sourceTitle, readingTime, lastUpdated }) {
+  const parts = [];
+  if (sourceTitle) {
+    parts.push(`<span class="deep-dive-hero-meta__path">${escapeHtml(sourceTitle)}</span>`);
+  }
+  if (readingTime) {
+    parts.push(`<span class="deep-dive-hero-meta__item">${escapeHtml(readingTime)}</span>`);
+  }
+  if (lastUpdated) {
+    parts.push(
+      `<time class="deep-dive-hero-meta__item" datetime="${escapeAttr(lastUpdated)}">Updated ${escapeHtml(formatHeroDate(lastUpdated))}</time>`
+    );
+  }
+  if (!parts.length) return '';
+  return `<div class="deep-dive-hero-meta">${parts.join(
+    '<span class="deep-dive-hero-meta__dot" aria-hidden="true">·</span>'
+  )}</div>`;
+}
+
+function renderHeroDeck(description) {
+  const first = String(description || '')
+    .split(/\n\n+/)
+    .map((p) => p.trim())
+    .find(Boolean);
+  if (!first) return '';
+  return `<p class="deep-dive-hero-deck">${escapeHtml(first)}</p>`;
+}
+
 function sanitizeReportHtml(html) {
   return String(html || '')
     .replace(/<script[\s\S]*?<\/script>/gi, '')
@@ -88,10 +126,159 @@ function sanitizeReportHtml(html) {
     .replace(/javascript:/gi, '');
 }
 
+function classifyTermVoice(headingText) {
+  const t = String(headingText || '')
+    .replace(/<[^>]+>/g, '')
+    .toLowerCase();
+  if (/guid(e|ance)|remembrance|integration|practice/.test(t)) return 'guidance';
+  if (/nuance|caveat|further exploration/.test(t)) return 'caveat';
+  if (/reminder|takeaway|revelation|insight|dot connection/.test(t)) return 'takeaway';
+  if (/terminolog|glossary|definition/.test(t)) return 'glossary';
+  return 'glossary';
+}
+
+function collectReportFigures(text) {
+  const found = [];
+  const add = (value, label) => {
+    if (found.some((item) => item.value === value)) return;
+    found.push({ value, label });
+  };
+  const src = String(text || '');
+  if (/178,000/.test(src)) add('178,000', 'year cycle');
+  if (/\b97\s*%/.test(src)) add('97%', 'NPC overlay');
+  if (/520\s*million/i.test(src)) add('520 million', 'souls remaining');
+  if (/4,000/.test(src) && /ancient/i.test(src)) add('4,000', 'Ancients');
+  if (/30[-\s]?second/i.test(src)) add('30 seconds', 'EMF flash');
+  return found.slice(0, 4);
+}
+
+function renderReportFigures(figures) {
+  if (!figures || figures.length < 2) return '';
+  return `<aside class="report-figures" aria-label="Key figures">${figures
+    .map(
+      (fig) =>
+        `<div class="report-figure"><span class="report-figure__value">${escapeHtml(
+          fig.value
+        )}</span><span class="report-figure__label">${escapeHtml(fig.label)}</span></div>`
+    )
+    .join('')}</aside>`;
+}
+
+function stripDuplicateReportTitle(html) {
+  return String(html || '').replace(/^\s*<h1\b[^>]*>[\s\S]*?<\/h1>\s*/i, '');
+}
+
+function markReportLead(html) {
+  let done = false;
+  return String(html || '').replace(/<p(\s[^>]*)?>/i, (match, attrs = '') => {
+    if (done) return match;
+    done = true;
+    if (/\bclass\s*=/.test(attrs)) {
+      return `<p${attrs.replace(/class=(["'])([^"']*)\1/, 'class=$1$2 report-lead$1')}>`;
+    }
+    return `<p class="report-lead"${attrs}>`;
+  });
+}
+
+function insertReportFigures(html, figures) {
+  const block = renderReportFigures(figures);
+  if (!block) return html;
+  if (/\breport-figures\b/.test(html)) return html;
+  const leadClose = html.search(/class="[^"]*\breport-lead\b[^"]*"/i);
+  if (leadClose < 0) return html;
+  const endP = html.indexOf('</p>', leadClose);
+  if (endP < 0) return html;
+  return `${html.slice(0, endP + 4)}\n${block}${html.slice(endP + 4)}`;
+}
+
+function enhanceReportQuotes(html) {
+  const blocks = [...String(html || '').matchAll(/<blockquote\b[^>]*>[\s\S]*?<\/blockquote>/gi)];
+  if (!blocks.length) return html;
+
+  let pick = blocks[0];
+  const passageIdx = html.search(/<h2\b[^>]*>[\s\S]*?(notable|passage|direct insight)[\s\S]*?<\/h2>/i);
+  const inPassages = passageIdx >= 0
+    ? blocks.filter((m) => m.index > passageIdx)
+    : blocks;
+  const pool = inPassages.length ? inPassages : blocks;
+  pick = pool.reduce((best, cur) => {
+    const a = (best[0].replace(/<[^>]+>/g, '') || '').length;
+    const b = (cur[0].replace(/<[^>]+>/g, '') || '').length;
+    return b > a ? cur : best;
+  }, pool[0]);
+
+  if ((pick[0].replace(/<[^>]+>/g, '') || '').trim().length < 80) return html;
+
+  return html.replace(pick[0], (orig) => {
+    if (/\breport-pullquote\b/.test(orig)) return orig;
+    const inner = orig.replace(/^<blockquote\b[^>]*>/i, '').replace(/<\/blockquote>\s*$/i, '');
+    return `<blockquote class="report-pullquote">${inner}<footer class="report-pullquote__source">Thalon Thor · transmission</footer></blockquote>`;
+  });
+}
+
+function enhanceReportCoda(html, assetBase = ASSET_BASE) {
+  const mark = escapeAttr(`${assetBase}images/21st-mark.webp`);
+  return String(html || '').replace(
+    /<h2\b[^>]*>\s*Closing Invitation\s*<\/h2>\s*(<p\b[^>]*>[\s\S]*?<\/p>)/i,
+    (_, paragraph) => {
+      const text = paragraph.replace(/^<p\b[^>]*>/i, '').replace(/<\/p>\s*$/i, '');
+      return `<footer class="report-coda"><div class="report-coda__rule" aria-hidden="true"></div><p class="report-coda__text">${text}</p><img class="report-coda__mark" src="${mark}" alt="" width="40" height="40" decoding="async" /></footer>`;
+    }
+  );
+}
+
+function enhanceReportHtml(html, sourceText) {
+  let out = stripDuplicateReportTitle(sanitizeReportHtml(html));
+  out = enhanceTerminologyHtml(out);
+  out = markReportLead(out);
+  out = insertReportFigures(out, collectReportFigures(sourceText || out.replace(/<[^>]+>/g, ' ')));
+  out = enhanceReportQuotes(out);
+  out = enhanceReportCoda(out);
+  return out;
+}
+
 function renderMarkdown(md) {
   if (!md) return '';
   const html = markedParse(md);
-  return enhanceTerminologyHtml(sanitizeReportHtml(html));
+  return enhanceReportHtml(html, md);
+}
+
+function renderFolioMasthead({ sourceTitle, readingTime, assetBase = ASSET_BASE }) {
+  const parts = ['<span class="report-folio-kicker">Decoded report</span>'];
+  if (sourceTitle) {
+    parts.push(`<span class="report-folio-path">${escapeHtml(sourceTitle)}</span>`);
+  }
+  if (readingTime) {
+    parts.push(`<span class="report-folio-time">${escapeHtml(readingTime)}</span>`);
+  }
+  return `<header class="report-folio-masthead">
+    <img src="${escapeAttr(assetBase + 'images/21st-mark.webp')}" alt="" class="report-folio-mark" width="36" height="36" decoding="async" />
+    <div class="report-folio-meta">${parts.join(
+      '<span class="report-folio-dot" aria-hidden="true">·</span>'
+    )}</div>
+  </header>`;
+}
+
+/**
+ * Strip list-item leftovers after the term <strong>.
+ * Never put HTML entities inside a [] class — "&middot;" matches the
+ * letters m/i/d/o/t (and D/T/O with the i flag), which ate "Death" → "eath".
+ */
+function cleanTermDefinition(defHtml) {
+  let html = String(defHtml || '');
+  const leadSpace = /^(?:\s|&nbsp;|&#160;)+/i;
+  const leadWrap = /^(?:<\/p>|<p\b[^>]*>)+/i;
+  const trailWrap = /(?:<\/p>|<p\b[^>]*>)+\s*$/i;
+  const separators = /^(?:[-–—:·•]|&middot;)+/i;
+
+  html = html.replace(leadSpace, '');
+  html = html.replace(leadWrap, '');
+  html = html.replace(leadSpace, '');
+  html = html.replace(separators, '');
+  html = html.replace(leadSpace, '');
+  html = html.replace(leadWrap, '');
+  html = html.replace(trailWrap, '');
+  return html.trim();
 }
 
 /**
@@ -118,11 +305,9 @@ function enhanceTerminologyHtml(html) {
           .trim()
           .replace(/[:：]\s*$/, '');
         if (!term) continue;
-        let defHtml = liHtml.slice(liHtml.indexOf(strongMatch[0]) + strongMatch[0].length);
-        defHtml = defHtml
-          .replace(/^(\s|&nbsp;|&#160;)*[-–—:&middot;·•]+\s*/i, '')
-          .replace(/^(\s|&nbsp;|&#160;)*/i, '')
-          .trim();
+        let defHtml = cleanTermDefinition(
+          liHtml.slice(liHtml.indexOf(strongMatch[0]) + strongMatch[0].length)
+        );
         if (!defHtml) continue;
         cards.push(
           `<article class="term-card" role="listitem"><h3 class="term-card__term">${escapeHtml(term)}</h3><div class="term-card__def">${defHtml}</div></article>`
@@ -131,7 +316,11 @@ function enhanceTerminologyHtml(html) {
 
       // Require majority of items to be term/definition rows
       if (cards.length < 2 || cards.length < liMatches.length * 0.5) return match;
-      return `${heading}\n<div class="term-card-grid" role="list">\n${cards.join('\n')}\n</div>`;
+      const voice = classifyTermVoice(heading);
+      const voiced = cards.map((card) =>
+        card.replace('class="term-card"', `class="term-card term-card--${voice}"`)
+      );
+      return `${heading}\n<div class="term-card-grid term-card-grid--${voice}" data-term-voice="${voice}" role="list">\n${voiced.join('\n')}\n</div>`;
     }
   );
 }
@@ -144,6 +333,7 @@ function renderStudyToolbar() {
       <button type="button" class="report-study-btn report-study-btn--size report-study-btn--size-md" data-report-size="md" aria-pressed="true" aria-labelledby="report-size-label" title="Default text">A</button>
       <button type="button" class="report-study-btn report-study-btn--size report-study-btn--size-lg" data-report-size="lg" aria-pressed="false" aria-labelledby="report-size-label" title="Larger text">A</button>
     </div>
+    <button type="button" class="report-study-btn report-study-btn--focus" data-report-focus aria-pressed="false">Focus</button>
     <button type="button" class="report-study-btn" data-report-print aria-label="Print or save report as PDF">Print</button>
   </div>`;
 }
@@ -160,9 +350,41 @@ function renderShareMenu({ canonical, title }) {
   </div>`;
 }
 
+function renderPlateCaption(kind, action) {
+  const isPlate = kind === 'plate';
+  return `<div class="dive-plate-caption ${isPlate ? 'infographic-artifact-caption' : 'slide-deck-artifact-caption'}">
+                    <span>${isPlate ? 'Plate' : 'Deck'}</span>
+                    <span class="${isPlate ? 'infographic-artifact-zoom' : 'slide-deck-artifact-action'} dive-plate-action">${escapeHtml(action)}</span>
+                  </div>`;
+}
+
+function renderPlateCard({ kind, src, alt, href, action, openLabel, solo }) {
+  const isPlate = kind === 'plate';
+  const artifactClass = isPlate ? 'infographic-artifact' : 'slide-deck-artifact';
+  const dataAttr = isPlate
+    ? `data-infographic-src="${escapeAttr(src)}"`
+    : `data-pdf-url="${escapeAttr(href)}"`;
+  const colClass = solo ? 'md:col-span-12 max-w-3xl mx-auto' : 'md:col-span-6';
+  const media = src
+    ? `<img src="${escapeAttr(src)}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async" width="800" height="600">`
+    : `<div class="dive-plate__void" aria-hidden="true"></div>`;
+  return `<div class="${colClass}">
+          <div class="dive-media-card media-panel static-card surface-static p-4 sm:p-5 h-full flex flex-col">
+            <div class="dive-media-card__frame media-frame surface-media w-full max-w-none flex-1">
+              <div class="media-scrim overflow-hidden dive-media-card__scrim flex items-center justify-center">
+                <div class="${artifactClass} dive-plate${src ? '' : ' dive-plate--empty'}" role="button" tabindex="0" aria-label="${escapeAttr(openLabel)}" ${dataAttr}>
+                  ${media}
+                  ${renderPlateCaption(kind, action)}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>`;
+}
+
 function renderSectionHeading(label, id) {
   const idAttr = id ? ` id="${escapeAttr(id)}"` : '';
-  return `<div${idAttr} class="dive-section-head full-bleed-divider mb-8">
+  return `<div${idAttr} class="dive-section-head full-bleed-divider">
       <div class="dive-section-head__line" aria-hidden="true"></div>
       <div class="dive-section-head__label">${escapeHtml(label)}</div>
       <div class="dive-section-head__line" aria-hidden="true"></div>
@@ -253,9 +475,9 @@ function getDefaultVideos(topic) {
 }
 
 function videoGridClass(count) {
-  if (count === 1) return 'dive-video-grid grid gap-6 grid-cols-1 max-w-2xl mx-auto';
-  if (count === 2) return 'dive-video-grid grid gap-6 md:grid-cols-2 max-w-5xl mx-auto';
-  return 'dive-video-grid grid gap-6 md:grid-cols-2 lg:grid-cols-3';
+  if (count === 1) return 'dive-video-grid dive-video-grid--1';
+  if (count === 2) return 'dive-video-grid dive-video-grid--2';
+  return 'dive-video-grid dive-video-grid--3';
 }
 
 function mediaFlags(topic) {
@@ -296,7 +518,7 @@ function renderJumpPills(flags) {
   }
   if (!pills.length) return '';
   return `<div class="dive-jump-label">In this topic</div>
-    <div class="jump-to-pills dive-section-seg mb-4" id="jump-to-pills" role="navigation" aria-label="Topic sections">${pills.join('')}</div>`;
+    <div class="jump-to-pills dive-section-seg" id="jump-to-pills" role="navigation" aria-label="Topic sections">${pills.join('')}</div>`;
 }
 
 function renderPrevNext({ prev, next, sourceId }) {
@@ -338,20 +560,23 @@ function quizCtaLabel(title) {
   return `Take the ${t} Quiz`;
 }
 
-function renderContinueLearning({ sourceId, quiz, lastUpdated, assetBase = ASSET_BASE }) {
+function renderContinueLearning({ sourceId, quiz, lastUpdated, assetBase = ASSET_BASE, hideQuizCta = false }) {
   const quizHref = quiz?.href ? withAsset(String(quiz.href).replace(/^\//, '')) : '';
-  const quizBlock = quizHref
-    ? `<a href="${escapeAttr(quizHref)}" class="btn-primary dive-continue__btn">
+  let quizBlock = '';
+  if (!hideQuizCta) {
+    quizBlock = quizHref
+      ? `<a href="${escapeAttr(quizHref)}" class="btn-primary dive-continue__btn">
         <span>${escapeHtml(quizCtaLabel(quiz.title || 'Living Truth'))}</span>
       </a>
       ${quiz.description ? `<p class="dive-continue__hint">${escapeHtml(quiz.description)}</p>` : ''}`
-    : `<a href="${assetBase}quizzes.html" class="btn-secondary dive-continue__btn">Browse Living Truth Quizzes</a>`;
+      : `<a href="${assetBase}quizzes.html" class="btn-secondary dive-continue__btn">Browse Living Truth Quizzes</a>`;
+  }
 
   return `
   <aside class="dive-continue content-card static-card p-6 md:p-8 mt-8" aria-label="Continue learning">
     <h2 class="dive-continue__title">Continue learning</h2>
     <p class="dive-continue__lead">
-      This archive is an AI-assisted bridge. For the source material, visit the original transmissions on the Network — then test your understanding with a quiz.
+      This archive is an AI-assisted bridge. For the source material, visit the original transmissions on the Network.
     </p>
     <div class="dive-continue__actions">
       ${quizBlock}
@@ -396,9 +621,9 @@ function renderVideos(videos) {
       const desc = video.description
         ? `<p class="dive-video-card__desc">${escapeHtml(video.description)}</p>`
         : '';
-      return `<article class="dive-video-card content-card static-card p-4">
-        <div class="dive-video-card__frame aspect-[16/10] overflow-hidden relative">
-          <div class="video-poster-wrap absolute inset-0 cursor-pointer"
+      return `<article class="dive-video-card content-card static-card">
+        <div class="dive-video-card__frame">
+          <div class="video-poster-wrap"
                data-rumble-embed="${embed}"
                data-video-title="${title}"
                role="button" tabindex="0"
@@ -406,8 +631,10 @@ function renderVideos(videos) {
             ${renderParticleFacade(rawTitle)}
           </div>
         </div>
-        <h3 class="dive-video-card__title">${title}</h3>
-        ${desc}
+        <div class="dive-video-card__body">
+          <h3 class="dive-video-card__title">${title}</h3>
+          ${desc}
+        </div>
       </article>`;
     })
     .join('\n');
@@ -426,6 +653,7 @@ function renderVideoLanguageBar(languages) {
   const json = JSON.stringify(languages).replace(/</g, '\\u003c');
   return `
         <div class="video-lang-bar" id="video-lang-bar">
+          <span class="video-lang-bar__kicker">Language</span>
           <label class="video-lang-bar__label" for="video-lang-select">Watch in</label>
           <div class="video-lang-bar__control">
             <select id="video-lang-select" class="video-lang-select" aria-label="Video language">
@@ -552,30 +780,22 @@ function buildPage({
       sourceId,
       quiz,
       lastUpdated,
+      hideQuizCta: Boolean(quiz),
     });
 
     bodyMain = `
-    <div class="max-w-6xl mx-auto px-6 page-shell pb-4">
-      <div id="lesson-header" class="mb-10">
+    <div class="max-w-6xl mx-auto px-6 page-shell dive-hero-shell">
+      <div id="lesson-header">
         ${breadcrumbs}
         <div class="deep-dive-hero">
           <div class="deep-dive-hero-bg" ${bgStyle}></div>
           <div class="deep-dive-hero-scrim"></div>
           <div class="deep-dive-hero-content">
-            <div class="deep-dive-hero-meta">
-              <p class="page-hero-eyebrow">${escapeHtml(sourceTitle)}</p>
-              ${readingTime ? `<span class="deep-dive-reading-time">${escapeHtml(readingTime)}</span>` : ''}
-              ${lastUpdated ? `<span class="deep-dive-reading-time" title="Content last updated">Updated ${escapeHtml(lastUpdated)}</span>` : ''}
-            </div>
+            ${renderHeroMeta({ sourceTitle, readingTime, lastUpdated })}
             <h1 class="page-hero-title--dive">${escapeHtml(title)}</h1>
             <div class="deep-dive-hero-accent" aria-hidden="true"></div>
-            <div class="text-[17px] text-mem-secondary max-w-[52ch] leading-relaxed">
-              ${(description || '')
-                .split('\n\n')
-                .map((p) => `<p class="mb-3 last:mb-0">${escapeHtml(p)}</p>`)
-                .join('')}
-            </div>
-            <div class="mt-7 dive-hero-actions">
+            ${renderHeroDeck(description)}
+            <div class="dive-hero-actions">
               ${renderJumpPills(flags)}
               ${
                 quizHref
@@ -605,56 +825,37 @@ function buildPage({
     ${
       flags.hasMediaPanel
         ? `
-    ${renderSectionHeading('Infographics & slide decks', 'infographics-section')}
+    <div id="infographics-section" class="dive-zone">
+    ${renderSectionHeading('Infographics & slide decks')}
     <div class="max-w-6xl mx-auto px-6">
-      <div class="dive-media-grid grid md:grid-cols-12 gap-6 mb-10">
+      <div class="dive-media-grid grid md:grid-cols-12 gap-6">
         ${
           flags.hasInfographic
-            ? `<div class="md:col-span-6${flags.hasSlide ? '' : ' md:col-span-12 max-w-3xl mx-auto'}">
-          <div class="dive-media-card media-panel static-card surface-static p-4 sm:p-5 h-full flex flex-col">
-            <div class="dive-media-card__frame media-frame surface-media w-full max-w-none flex-1">
-              <div class="media-scrim overflow-hidden dive-media-card__scrim flex items-center justify-center">
-                <div class="infographic-artifact" role="button" tabindex="0" aria-label="Open full size infographic" data-infographic-src="${escapeAttr(infographicSrc)}">
-                  <img src="${escapeAttr(infographicSrc)}" alt="${escapeHtml(title)} Infographic" loading="lazy" decoding="async" width="800" height="600">
-                  <div class="infographic-artifact-caption">
-                    <span>Decoded infographic</span>
-                    <span class="infographic-artifact-zoom" aria-hidden="true">Expand</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>`
+            ? renderPlateCard({
+                kind: 'plate',
+                src: infographicSrc,
+                alt: `${title} infographic`,
+                action: 'Expand',
+                openLabel: 'Open full size plate',
+                solo: !flags.hasSlide,
+              })
             : ''
         }
         ${
           flags.hasSlide
-            ? `<div class="md:col-span-6${flags.hasInfographic ? '' : ' md:col-span-12 max-w-3xl mx-auto'}">
-          <div class="dive-media-card media-panel static-card surface-static p-4 sm:p-5 h-full flex flex-col">
-            <div class="dive-media-card__frame media-frame surface-media w-full max-w-none flex-1 mb-3">
-              <div class="media-scrim overflow-hidden dive-media-card__scrim flex items-center justify-center">
-                ${
-                  pdfPreview
-                    ? `<div class="slide-deck-artifact" role="button" tabindex="0" aria-label="Open slide deck PDF" data-pdf-url="${escapeAttr(topic.slide_deck_pdf_url)}">
-                  <img src="${escapeAttr(pdfPreview)}" alt="Slide deck preview - ${escapeHtml(title)}" width="600" height="400" loading="lazy">
-                  <div class="slide-deck-artifact-caption">
-                    <span>Slide deck preview</span>
-                    <span class="slide-deck-artifact-action">Open PDF</span>
-                  </div>
-                </div>`
-                    : `<div class="media-coming-soon-note text-center py-6 px-4 text-sm text-mem-muted">Slide preview — use download below</div>`
-                }
-              </div>
-            </div>
-            <a href="${escapeAttr(topic.slide_deck_pdf_url)}" target="_blank" rel="noopener noreferrer"
-               class="slide-deck-download-btn btn-secondary">
-              Download slide deck PDF
-            </a>
-          </div>
-        </div>`
+            ? renderPlateCard({
+                kind: 'deck',
+                src: pdfPreview,
+                alt: `Slide deck preview — ${title}`,
+                href: topic.slide_deck_pdf_url,
+                action: 'Open PDF',
+                openLabel: 'Open slide deck PDF',
+                solo: !flags.hasInfographic,
+              })
             : ''
         }
       </div>
+    </div>
     </div>`
         : ''
     }
@@ -665,7 +866,7 @@ function buildPage({
             const defaultVideos = getDefaultVideos(topic);
             const videoLangs = getTopicVideoLanguages(topic);
             return `
-    <div id="videos-section" class="mb-8">
+    <div id="videos-section" class="dive-zone">
       ${renderSectionHeading('Video transmissions')}
       <div class="max-w-6xl mx-auto px-6">
         ${renderVideoLanguageBar(videoLangs)}
@@ -681,10 +882,19 @@ function buildPage({
     ${
       flags.hasReport
         ? `
-    <div id="report-section" class="mb-8">
+    <div id="report-section" class="dive-zone">
       ${renderSectionHeading('Deep dive report')}
       <div class="max-w-6xl mx-auto px-6">
         <div class="content-card static-card lesson-content-card dive-report-card p-8 md:p-12 lg:p-16">
+          <div class="report-print-banner" aria-hidden="true">
+            <img src="${escapeAttr(ASSET_BASE + 'images/21st-mark.webp')}" alt="" class="report-print-banner__mark" width="40" height="40" />
+            <div class="report-print-banner__copy">
+              <div class="report-print-banner__kicker">The 21st Memory · Decoded report</div>
+              <div class="report-print-banner__title">${escapeHtml(title)}</div>
+              <div class="report-print-banner__url">${escapeHtml(canonical)}</div>
+            </div>
+          </div>
+          ${renderFolioMasthead({ sourceTitle, readingTime })}
           ${renderStudyToolbar()}
           <div id="report-toc-mobile" class="report-toc-mobile" hidden></div>
           <div class="report-layout">
@@ -760,12 +970,17 @@ ${jsonLd}
 ${bodyMain}
     </main>
 
-    <div id="infographic-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Full size infographic viewer" class="hidden fixed inset-0 bg-black/90 z-[100] flex items-center justify-center p-2 md:p-4">
+    <div id="infographic-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Full size plate viewer" class="hidden fixed inset-0 z-[100] flex items-center justify-center p-2 md:p-4">
         <div id="infographic-modal-inner" class="relative w-full max-w-[98vw] md:max-w-[96vw] max-h-[96vh]">
             <div id="infographic-modal-viewport" class="infographic-modal-viewport">
-                <img id="modal-image" src="" alt="Full size infographic" class="infographic-modal-image">
+                <img id="modal-image" src="" alt="Full size plate" class="infographic-modal-image">
             </div>
-            <button type="button" id="close-modal" class="icon-control icon-control--close absolute -top-1 -right-1 md:top-0 md:right-0 z-10" aria-label="Close">✕</button>
+            <button type="button" id="infographic-modal-close" class="icon-control icon-control--close dive-plate-modal-close" aria-label="Close plate">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" aria-hidden="true">
+                <path d="M18 6 6 18M6 6l12 12"/>
+              </svg>
+            </button>
+            <div class="dive-plate-modal-hint md:hidden">Pinch or scroll to zoom · Drag to pan</div>
         </div>
     </div>
 

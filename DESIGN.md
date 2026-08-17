@@ -46,6 +46,7 @@ Source of truth: `assets/css/main.css` (`:root`).
 - Canonical buttons/cards (early `.btn-primary` / `.memory-card` blocks)
 - Phase 1 radius lock
 - Phase 3 interior/mobile composure
+- Dive page visuals: `DIVE PAGE — SOURCE OF TRUTH` at the end of `main.css` (hero, plates, videos, report type). Do not re-declare those selectors later.
 
 `.btn-topic-nav` is a leftover alias of `.btn-secondary`. Prefer `btn-secondary btn-secondary--sm` in new markup.
 
