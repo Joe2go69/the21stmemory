@@ -20526,34 +20526,52 @@ a.quiz-hub-row,
   scroll-margin-top: calc(5rem + 3.25rem + 0.5rem + env(safe-area-inset-top, 0px));
 }
 
-/* Plates */
+/* Plates — one picture plane. Art fills the card; expand/open for the full artifact. */
 .dive-media-grid {
   align-items: stretch;
 }
 
 .dive-media-card {
+  padding: 0 !important;
+  overflow: hidden;
   border: none !important;
-  background: var(--surface-fill-elevated) !important;
+  background: #0F0A1F !important;
   box-shadow: var(--surface-tier-elevated) !important;
 }
 
 .dive-media-card .dive-media-card__frame,
-.dive-media-card .media-frame {
-  margin-bottom: 0 !important;
+.dive-media-card .media-frame,
+.dive-media-card__scrim,
+.dive-media-card .dive-media-card__scrim {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: #0F0A1F !important;
+  box-shadow: none !important;
+}
+
+.dive-media-card__scrim,
+.dive-media-card .dive-media-card__scrim {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  height: auto;
+  overflow: hidden;
 }
 
 .infographic-artifact,
 .slide-deck-artifact,
 .dive-plate {
-  position: relative;
-  display: flex;
-  flex-direction: column;
+  position: absolute;
+  inset: 0;
+  display: block;
   width: 100%;
   height: 100%;
-  min-height: inherit;
-  border-radius: 0.85rem;
+  min-height: 0;
+  border-radius: 0;
   overflow: hidden;
-  background: transparent !important;
+  background: #0F0A1F !important;
   box-shadow: none !important;
   border: none !important;
   cursor: zoom-in;
@@ -20569,37 +20587,28 @@ a.quiz-hub-row,
 #infographic-container img {
   display: block;
   width: 100%;
-  height: auto;
-  max-height: 420px;
-  object-fit: contain;
-  object-position: center;
+  height: 100%;
+  max-height: none !important;
+  object-fit: cover;
+  object-position: center center;
   opacity: 1 !important;
   filter: none !important;
   image-rendering: auto;
 }
 
-@media (min-width: 768px) {
-  .infographic-artifact img,
-  .slide-deck-artifact img,
-  .dive-plate img,
-  #infographic-container img {
-    max-height: 480px;
-  }
+.infographic-artifact img {
+  object-position: center top;
 }
 
 .dive-plate__void {
-  flex: 1 1 auto;
-  min-height: 240px;
+  position: absolute;
+  inset: 0;
+  min-height: 0;
   width: 100%;
+  height: 100%;
   background:
     radial-gradient(ellipse 70% 55% at 50% 42%, rgba(124, 58, 237, 0.14) 0%, transparent 58%),
     linear-gradient(180deg, rgba(26, 20, 51, 0.25) 0%, rgba(8, 5, 18, 0.88) 100%);
-}
-
-@media (min-width: 768px) {
-  .dive-plate__void {
-    min-height: 380px;
-  }
 }
 
 .infographic-artifact-caption,
