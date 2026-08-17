@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-16T08:43:14.047Z",
-  "total": 133,
+  "generatedAt": "2026-08-17T02:36:22.291Z",
+  "total": 134,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 73
+      "count": 74
     }
   ],
   "quizzes": [
@@ -1542,6 +1542,19 @@
       "href": "quiz/breakdown/source-code-storage.html",
       "diveHref": "dive/breakdown/source-code-storage.html",
       "key": "breakdown/source-code-storage"
+    },
+    {
+      "id": "spirit-inversion",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Spirit Inversion",
+      "subtitle": "Test your grasp of Spirit Inversion — Human Sols bound in a fabricated 3D simulation, Consol, the Amnesia Vortex and Vatican archive, Saturn's energy valve, Resonating Army seed codes, Water Domes, Crystal Halls, Star Pods, and the sovereign choice after restoration.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/spirit-inversion.html",
+      "diveHref": "dive/breakdown/spirit-inversion.html",
+      "key": "breakdown/spirit-inversion"
     },
     {
       "id": "stabilization-process",
