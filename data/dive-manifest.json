@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T08:03:42.683Z",
+  "generatedAt": "2026-08-18T11:32:41.548Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -964,7 +964,7 @@
       "sourceId": "breakdown",
       "topicId": "homecoming-path",
       "path": "/dive/breakdown/homecoming-path.html",
-      "live": false,
+      "live": true,
       "title": "Homecoming Path"
     },
     {

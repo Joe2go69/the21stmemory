@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-18T08:03:42.260Z",
-  "total": 137,
+  "generatedAt": "2026-08-18T11:32:41.329Z",
+  "total": 138,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 77
+      "count": 78
     }
   ],
   "quizzes": [
@@ -1126,6 +1126,19 @@
       "href": "quiz/breakdown/healing-sanctuaries.html",
       "diveHref": "dive/breakdown/healing-sanctuaries.html",
       "key": "breakdown/healing-sanctuaries"
+    },
+    {
+      "id": "homecoming-path",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Homecoming Path",
+      "subtitle": "Test your understanding of Homecoming Path — the sanctuary-bypassing extraction of the Resonating Army through the resonance bridge, Sol Frequency Lock, crystalline living craft, and the instantaneous return to original realms of origin.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/homecoming-path.html",
+      "diveHref": "dive/breakdown/homecoming-path.html",
+      "key": "breakdown/homecoming-path"
     },
     {
       "id": "human-sols",
