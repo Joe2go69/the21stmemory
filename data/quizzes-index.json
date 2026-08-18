@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T10:25:32.096Z",
-  "total": 136,
+  "generatedAt": "2026-08-18T08:03:42.260Z",
+  "total": 137,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 76
+      "count": 77
     }
   ],
   "quizzes": [
@@ -1230,6 +1230,19 @@
       "href": "quiz/breakdown/lockdown-window.html",
       "diveHref": "dive/breakdown/lockdown-window.html",
       "key": "breakdown/lockdown-window"
+    },
+    {
+      "id": "lyran-lineage",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Lyran Lineage",
+      "subtitle": "Test your understanding of Lyran Lineage — primordial builders and Custodians, the True Lyran Current, Sefrin Councils, the Spirit Tree in Hyperborea, embedded Lyran codes, and the homecoming path.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/lyran-lineage.html",
+      "diveHref": "dive/breakdown/lyran-lineage.html",
+      "key": "breakdown/lyran-lineage"
     },
     {
       "id": "mass-reveal",

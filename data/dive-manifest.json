@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T10:25:32.339Z",
+  "generatedAt": "2026-08-18T08:03:42.683Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -957,7 +957,7 @@
       "sourceId": "breakdown",
       "topicId": "lyran-lineage",
       "path": "/dive/breakdown/lyran-lineage.html",
-      "live": false,
+      "live": true,
       "title": "Lyran Lineage"
     },
     {
