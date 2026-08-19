@@ -612,9 +612,9 @@
         {
           "id": "mind-weapons",
           "title": "Mind Weapons",
-          "description": "Decoded analysis of Mind Weapons within the Mega Breakdown Board Notes & Highlights transmission.",
-          "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true,
+          "description": "Mind Weapons are specialized instruments of frequency manipulation and neurological interference — scalar weapons, Voice to Skull, Vision to Skull, and Black Cube A.I. tech that hijack brain-wave patterns, harvest loosh, and block organic multi-dimensional memory.",
+          "topic_image": "images/breakdown/mind-weapons.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "voice-to-skull",

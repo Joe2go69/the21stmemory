@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T07:31:32.930Z",
-  "total": 139,
+  "generatedAt": "2026-08-19T10:45:19.567Z",
+  "total": 140,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 79
+      "count": 80
     }
   ],
   "quizzes": [
@@ -1321,6 +1321,19 @@
       "href": "quiz/breakdown/military-broadcasts.html",
       "diveHref": "dive/breakdown/military-broadcasts.html",
       "key": "breakdown/military-broadcasts"
+    },
+    {
+      "id": "mind-weapons",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Mind Weapons",
+      "subtitle": "Test your understanding of Mind Weapons — scalar frequency weapons, Voice to Skull, Vision to Skull, Black Cube A.I. tech, nocturnal locking, and the atmospheric counter-agents that block parasitic mind-weapon signals.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/mind-weapons.html",
+      "diveHref": "dive/breakdown/mind-weapons.html",
+      "key": "breakdown/mind-weapons"
     },
     {
       "id": "muted-environment",

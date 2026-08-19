@@ -156,6 +156,7 @@ const entries = [
   { path: '/quiz/breakdown/lyran-lineage.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/homecoming-path.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/parasite-mechanics.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/mind-weapons.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/true-sparks.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/healing-path.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/spirit-inversion.html', priority: '0.75', changefreq: 'monthly' },

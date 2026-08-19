@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T07:31:33.125Z",
+  "generatedAt": "2026-08-19T10:45:19.828Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -978,7 +978,7 @@
       "sourceId": "breakdown",
       "topicId": "mind-weapons",
       "path": "/dive/breakdown/mind-weapons.html",
-      "live": false,
+      "live": true,
       "title": "Mind Weapons"
     },
     {
