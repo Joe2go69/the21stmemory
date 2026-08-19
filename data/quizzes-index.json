@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-18T11:32:41.329Z",
-  "total": 138,
+  "generatedAt": "2026-08-19T07:31:32.930Z",
+  "total": 139,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 78
+      "count": 79
     }
   ],
   "quizzes": [
@@ -1412,6 +1412,19 @@
       "href": "quiz/breakdown/overlay-clearing.html",
       "diveHref": "dive/breakdown/overlay-clearing.html",
       "key": "breakdown/overlay-clearing"
+    },
+    {
+      "id": "parasite-mechanics",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Parasite Mechanics",
+      "subtitle": "Test your understanding of Parasite Mechanics — the holographic overlay, loosh harvest, Amnesia Vortex, Black Cube A.I., Council of Parasitic Races, inverted outer domes, and the frequency collapse of the farm.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/parasite-mechanics.html",
+      "diveHref": "dive/breakdown/parasite-mechanics.html",
+      "key": "breakdown/parasite-mechanics"
     },
     {
       "id": "perception-solidity",

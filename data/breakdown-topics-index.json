@@ -605,9 +605,9 @@
     {
       "id": "parasite-mechanics",
       "title": "Parasite Mechanics",
-      "description": "Mind weapons, control technology, and historic resets that maintained the inverted matrix.",
-      "topic_image": "images/breakdown/placeholder.webp",
-      "is_placeholder": true,
+      "description": "Parasite Mechanics are frequency-based control systems that project a holographic overlay over the original crystalline world — harvesting loosh, stripping memory through the Amnesia Vortex, and locking 3D perception via the Saturn Grid, Black Cube A.I., and the Council of Parasitic Races.",
+      "topic_image": "images/breakdown/parasite-mechanics.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "mind-weapons",
