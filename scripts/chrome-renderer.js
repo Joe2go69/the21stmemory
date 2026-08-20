@@ -10,7 +10,6 @@ const SITE_ICON_SVGS = {
   instagram: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>',
   facebook: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>',
   globe: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
-  kofi: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h10a4 4 0 0 1 0 8H9l-3 3V8z"/><path d="M18 5h1a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1V5z"/></svg>',
   heart: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>',
   satellite: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M13 7 9 3 5 7l4 4"/><path d="m17 11 4 4-4 4-4-4"/><path d="m8 12 4 4"/><circle cx="19" cy="5" r="2"/><path d="M15 15a6 6 0 0 1-6 6"/></svg>',
 };
@@ -150,7 +149,6 @@ function renderFooter(footerData, options = {}) {
   const btcDisplay = truncateMiddle(btcAddress, 12, 8);
   const btcIcon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 8.5h4.2a2 2 0 0 1 0 4H9.5zm0 4h4.6a2 2 0 0 1 0 4H9.5z"/><path d="M11 7v1.5M13 7v1.5M11 15.5V17M13 15.5V17"/></svg>';
 
-  const kofi = footerData.support?.kofi;
   const gofundme = footerData.support?.gofundme;
   const starlink = footerData.support?.starlink;
   const eyebrow = (footerData.support?.eyebrow || '').trim();
@@ -183,13 +181,10 @@ function renderFooter(footerData, options = {}) {
       </ul>`
     : '';
 
-  // Tab order: GoFundMe → Ko-fi → Starlink → Bitcoin (default = first)
+  // Tab order: GoFundMe → Starlink → Bitcoin (default = first)
   const tabItems = [];
   if (gofundme) {
     tabItems.push({ id: 'gofundme', label: 'GoFundMe', icon: SITE_ICON_SVGS.heart, iconMod: ' footer-tab-icon--heart' });
-  }
-  if (kofi) {
-    tabItems.push({ id: 'kofi', label: 'Ko-fi', icon: SITE_ICON_SVGS.kofi, iconMod: '' });
   }
   if (starlink) {
     tabItems.push({ id: 'starlink', label: 'Starlink', icon: SITE_ICON_SVGS.satellite, iconMod: ' footer-tab-icon--starlink' });
@@ -223,25 +218,9 @@ function renderFooter(footerData, options = {}) {
             </div>`
     : '';
 
-  const kofiPanel = kofi
-    ? `<div class="footer-tabpanel footer-tabpanel--blend footer-tabpanel--blend-left${kofi.image ? ' has-media' : ''}${defaultTab === 'kofi' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-kofi" aria-labelledby="footer-tab-kofi"${defaultTab === 'kofi' ? '' : ' hidden'}>
-              ${kofi.image ? `<div class="footer-tab-media" aria-hidden="true">
-                <img src="${withBasePath(kofi.image, basePath)}" alt="" class="footer-tab-media__img" width="1280" height="720" loading="lazy" decoding="async" />
-                <div class="footer-tab-media__scrim"></div>
-              </div>` : ''}
-              <div class="footer-tab-body">
-                <span class="footer-donate-label">Ko-fi</span>
-                <p class="footer-donate-desc">${kofi.hint}</p>
-                <a href="${kofi.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span>${kofi.buttonText}</span>
-                </a>
-              </div>
-            </div>`
-    : '';
-
-  // Alternate blend side from Ko-fi so consecutive image tabs feel balanced
+  // Alternate blend side from GoFundMe so consecutive image tabs feel balanced
   const starlinkPanel = starlink
-    ? `<div class="footer-tabpanel footer-tabpanel--blend footer-tabpanel--blend-right${starlink.image ? ' has-media' : ''}${defaultTab === 'starlink' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-starlink" aria-labelledby="footer-tab-starlink"${defaultTab === 'starlink' ? '' : ' hidden'}>
+    ? `<div class="footer-tabpanel footer-tabpanel--blend footer-tabpanel--blend-left${starlink.image ? ' has-media' : ''}${defaultTab === 'starlink' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-starlink" aria-labelledby="footer-tab-starlink"${defaultTab === 'starlink' ? '' : ' hidden'}>
               ${starlink.image ? `<div class="footer-tab-media" aria-hidden="true">
                 <img src="${withBasePath(starlink.image, basePath)}" alt="" class="footer-tab-media__img" width="1280" height="720" loading="lazy" decoding="async" />
                 <div class="footer-tab-media__scrim"></div>
@@ -258,7 +237,7 @@ function renderFooter(footerData, options = {}) {
 
   // Bitcoin: blend atmosphere (optional) + QR + copy
   const btcImage = footerData.support?.bitcoinImage || '';
-  const btcPanel = `<div class="footer-tabpanel footer-tabpanel--btc${btcImage ? ' footer-tabpanel--blend footer-tabpanel--blend-left has-media' : ''}${defaultTab === 'btc' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-btc" aria-labelledby="footer-tab-btc"${defaultTab === 'btc' ? '' : ' hidden'}>
+  const btcPanel = `<div class="footer-tabpanel footer-tabpanel--btc${btcImage ? ' footer-tabpanel--blend footer-tabpanel--blend-right has-media' : ''}${defaultTab === 'btc' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-btc" aria-labelledby="footer-tab-btc"${defaultTab === 'btc' ? '' : ' hidden'}>
               ${btcImage ? `<div class="footer-tab-media" aria-hidden="true">
                 <img src="${withBasePath(btcImage, basePath)}" alt="" class="footer-tab-media__img" width="1280" height="720" loading="lazy" decoding="async" />
                 <div class="footer-tab-media__scrim"></div>
@@ -286,12 +265,11 @@ function renderFooter(footerData, options = {}) {
               ${fundsHTML}
             </div>
             <div class="footer-support-tabs" data-footer-tabs>
-              <div class="footer-tablist" role="tablist" aria-label="Ways to support">
+              <div class="footer-tablist footer-tablist--${tabItems.length}" role="tablist" aria-label="Ways to support">
                 ${tabsHTML}
               </div>
               <div class="footer-tabpanels">
                 ${gofundmePanel}
-                ${kofiPanel}
                 ${starlinkPanel}
                 ${btcPanel}
               </div>

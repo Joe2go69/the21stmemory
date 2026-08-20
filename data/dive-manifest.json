@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T10:45:19.828Z",
+  "generatedAt": "2026-08-20T07:34:40.044Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -985,7 +985,7 @@
       "sourceId": "breakdown",
       "topicId": "voice-to-skull",
       "path": "/dive/breakdown/voice-to-skull.html",
-      "live": false,
+      "live": true,
       "title": "Voice to Skull"
     },
     {

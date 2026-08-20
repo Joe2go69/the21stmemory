@@ -180,6 +180,7 @@ const entries = [
   { path: '/quiz/breakdown/truth-disclosure.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/atmospheric-pop.html', priority: '0.75', changefreq: 'monthly' },
   { path: '/quiz/breakdown/truth-packages.html', priority: '0.75', changefreq: 'monthly' },
+  { path: '/quiz/breakdown/voice-to-skull.html', priority: '0.75', changefreq: 'monthly' },
 ];
 
 const sourcesPath = path.join(ROOT, 'data', 'sources.json');

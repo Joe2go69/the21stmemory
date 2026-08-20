@@ -16311,8 +16311,17 @@ a.quiz-continue-card:focus-visible,
 @media (min-width: 641px) {
   .footer-tabpanel--btc.has-media .footer-tab-body--btc {
     max-width: min(26rem, 62%);
-    margin-left: auto;
     min-height: 14rem;
+  }
+
+  .footer-tabpanel--btc.has-media.footer-tabpanel--blend-left .footer-tab-body--btc {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .footer-tabpanel--btc.has-media.footer-tabpanel--blend-right .footer-tab-body--btc {
+    margin-right: auto;
+    margin-left: 0;
   }
 }
 
@@ -16331,7 +16340,7 @@ a.quiz-continue-card:focus-visible,
   transform: none !important;
 }
 
-/* Support CTAs = identical tokens to site primary (Ko-fi + Bitcoin copy) */
+/* Support CTAs = identical tokens to site primary */
 .footer-support a.btn-primary.footer-donate-btn,
 .footer-support button.btn-primary.footer-donate-btn,
 .footer-tab-body a.btn-primary.footer-donate-btn,
@@ -19281,7 +19290,7 @@ button.text-link {
   min-width: 0;
 }
 
-/* Support tabs inherit the segmented track; phones use a 2x2 grid below. */
+/* Support tabs inherit the segmented track; 3 options stay equal on phones. */
 .footer-tab {
   background: transparent !important;
   color: var(--text-muted) !important;
@@ -19422,13 +19431,13 @@ button.text-link {
 @media (max-width: 767px) {
   .footer-tablist {
     display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    gap: 0.28rem !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 0.18rem !important;
     width: 100% !important;
     max-width: 100% !important;
     overflow: visible !important;
-    border-radius: 1.1rem !important;
-    padding: 0.28rem !important;
+    border-radius: 9999px !important;
+    padding: 0.2rem !important;
   }
 
   .footer-tab {
@@ -19437,12 +19446,33 @@ button.text-link {
     min-width: 0 !important;
     min-height: 44px !important;
     justify-content: center !important;
-    padding: 0.4rem 0.55rem !important;
+    padding: 0.4rem 0.28rem !important;
+    gap: 0.28rem !important;
+    font-size: 0.76rem !important;
+    letter-spacing: 0.01em !important;
   }
 
   .footer-tab-label {
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+  .footer-tablist--4 {
+    grid-template-columns: 1fr 1fr !important;
+    border-radius: 1.1rem !important;
+    padding: 0.28rem !important;
+    gap: 0.28rem !important;
+  }
+}
+
+@media (max-width: 419px) {
+  .footer-tablist--3 .footer-tab-icon {
+    display: none !important;
+  }
+
+  .footer-tablist--3 .footer-tab {
+    font-size: 0.72rem !important;
+    padding: 0.4rem 0.2rem !important;
   }
 }
 

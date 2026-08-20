@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T10:45:19.567Z",
-  "total": 140,
+  "generatedAt": "2026-08-20T07:34:39.429Z",
+  "total": 141,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 80
+      "count": 81
     }
   ],
   "quizzes": [
@@ -1828,6 +1828,19 @@
       "href": "quiz/breakdown/vibrant-reality.html",
       "diveHref": "dive/breakdown/vibrant-reality.html",
       "key": "breakdown/vibrant-reality"
+    },
+    {
+      "id": "voice-to-skull",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Voice to Skull",
+      "subtitle": "Test your understanding of Voice to Skull — the parasitic frequency weapon that projects artificial thoughts, commands, and voices into the mind.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/voice-to-skull.html",
+      "diveHref": "dive/breakdown/voice-to-skull.html",
+      "key": "breakdown/voice-to-skull"
     },
     {
       "id": "water-domes",

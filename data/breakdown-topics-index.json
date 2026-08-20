@@ -619,9 +619,9 @@
             {
               "id": "voice-to-skull",
               "title": "Voice to Skull",
-              "description": "Decoded analysis of Voice to Skull within the Mega Breakdown Board Notes & Highlights transmission.",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "description": "A parasitic frequency weapon that projects artificial thoughts and voices into the mind to control, distract, and harvest loosh.",
+              "topic_image": "images/breakdown/voice-to-skull.webp",
+              "is_placeholder": false
             },
             {
               "id": "scalar-frequencies",

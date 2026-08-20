@@ -76,7 +76,7 @@ const checks = [
   'bc1qnwnapp…dc9ksx',
   'href="../../codex.html"',
   'src="../../assets/images/bitcoin-qr.webp"',
-  'src="../../images/kofi.webp"',
+  'src="../../images/starlink.webp"',
 ];
 console.log('\nSample nature-of-reality.html checks:');
 for (const c of checks) {

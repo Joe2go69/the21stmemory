@@ -100,26 +100,19 @@
     "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
     "qrImage": "assets/images/bitcoin-qr.png",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",
-    "bitcoinHint": "Scan or copy the address.",
+    "bitcoinHint": "Scan the QR or copy the address. Direct, no middleman.",
     "bitcoinImage": "images/bitcoin-preview.jpg",
     "bitcoinImageAlt": "Bitcoin — support the living archive",
     "gofundme": {
       "href": "https://gofund.me/a1603af10",
-      "buttonText": "Open GoFundMe",
-      "hint": "Hosting, tools, and the next topics.",
+      "buttonText": "Donate on GoFundMe",
+      "hint": "Card or bank transfer. Covers hosting, tools, and new topics.",
       "image": "images/gofundme.webp",
       "imageAlt": "GoFundMe — support the living archive"
     },
-    "kofi": {
-      "href": "https://ko-fi.com/the21stmemory",
-      "buttonText": "Open Ko-fi",
-      "hint": "One-time or monthly.",
-      "image": "images/kofi.webp",
-      "imageAlt": "Ko-fi — support the living archive"
-    },
     "starlink": {
       "href": "https://starlink.com/residential?referral=RC-DF-13754617-58626-7",
-      "buttonText": "Open Starlink",
+      "buttonText": "Claim a free month",
       "hint": "A free month for you. Connectivity for the archive.",
       "image": "images/starlink.webp",
       "imageAlt": "Starlink referral — free month for you and the archive"
