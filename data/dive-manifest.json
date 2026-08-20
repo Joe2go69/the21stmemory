@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T07:34:40.044Z",
+  "generatedAt": "2026-08-20T10:27:23.936Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -992,7 +992,7 @@
       "sourceId": "breakdown",
       "topicId": "scalar-frequencies",
       "path": "/dive/breakdown/scalar-frequencies.html",
-      "live": false,
+      "live": true,
       "title": "Scalar Frequencies"
     },
     {

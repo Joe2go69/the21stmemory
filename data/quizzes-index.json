@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-20T07:34:39.429Z",
-  "total": 141,
+  "generatedAt": "2026-08-20T10:27:23.703Z",
+  "total": 142,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 81
+      "count": 82
     }
   ],
   "quizzes": [
@@ -1555,6 +1555,19 @@
       "href": "quiz/breakdown/resonating-army.html",
       "diveHref": "dive/breakdown/resonating-army.html",
       "key": "breakdown/resonating-army"
+    },
+    {
+      "id": "scalar-frequencies",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Scalar Frequencies",
+      "subtitle": "Test your understanding of Scalar Frequencies — mind-altering waves, voice-to-skull, and the Black Cube AI grid.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/scalar-frequencies.html",
+      "diveHref": "dive/breakdown/scalar-frequencies.html",
+      "key": "breakdown/scalar-frequencies"
     },
     {
       "id": "second-realm",
