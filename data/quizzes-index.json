@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21T09:52:27.946Z",
-  "total": 144,
+  "generatedAt": "2026-08-21T12:10:16.503Z",
+  "total": 145,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 84
+      "count": 85
     }
   ],
   "quizzes": [
@@ -1854,6 +1854,19 @@
       "href": "quiz/breakdown/underground-dismantling.html",
       "diveHref": "dive/breakdown/underground-dismantling.html",
       "key": "breakdown/underground-dismantling"
+    },
+    {
+      "id": "vatican-archive",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Vatican Archive",
+      "subtitle": "Test your understanding of Vatican Archive — the subterranean soul-tracking grid, inverted portal network, and collapsing amnesia loops beneath Rome.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/vatican-archive.html",
+      "diveHref": "dive/breakdown/vatican-archive.html",
+      "key": "breakdown/vatican-archive"
     },
     {
       "id": "vibrant-reality",
