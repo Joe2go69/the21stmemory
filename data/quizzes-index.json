@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21T08:02:42.652Z",
-  "total": 143,
+  "generatedAt": "2026-08-21T09:52:27.946Z",
+  "total": 144,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 83
+      "count": 84
     }
   ],
   "quizzes": [
@@ -931,6 +931,19 @@
       "href": "quiz/breakdown/comms-blackout.html",
       "diveHref": "dive/breakdown/comms-blackout.html",
       "key": "breakdown/comms-blackout"
+    },
+    {
+      "id": "control-tech",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Control Tech",
+      "subtitle": "Test your understanding of Control Tech — frequency weapons, holographic overlays, and the collapse of the containment grid.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/control-tech.html",
+      "diveHref": "dive/breakdown/control-tech.html",
+      "key": "breakdown/control-tech"
     },
     {
       "id": "crystal-halls",

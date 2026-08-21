@@ -1006,7 +1006,7 @@
       "sourceId": "breakdown",
       "topicId": "control-tech",
       "path": "/dive/breakdown/control-tech.html",
-      "live": false,
+      "live": true,
       "title": "Control Tech"
     },
     {

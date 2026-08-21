@@ -642,9 +642,9 @@
         {
           "id": "control-tech",
           "title": "Control Tech",
-          "description": "Decoded analysis of Control Tech within the Mega Breakdown Board Notes & Highlights transmission.",
-          "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true,
+          "description": "A suite of frequency, neurological, and holographic systems that overlay a false 3D skin, hijack solar and lunar gates, and trap consciousness in looping amnesia.",
+          "topic_image": "images/breakdown/control-tech.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "vatican-archive",
