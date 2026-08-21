@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T10:27:23.936Z",
+  "generatedAt": "2026-08-21T08:02:42.878Z",
   "pages": [
     {
       "sourceId": "alice",
@@ -999,7 +999,7 @@
       "sourceId": "breakdown",
       "topicId": "amnesia-vortex",
       "path": "/dive/breakdown/amnesia-vortex.html",
-      "live": false,
+      "live": true,
       "title": "Amnesia Vortex"
     },
     {

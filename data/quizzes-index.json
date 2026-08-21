@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-20T10:27:23.703Z",
-  "total": 142,
+  "generatedAt": "2026-08-21T08:02:42.652Z",
+  "total": 143,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 82
+      "count": 83
     }
   ],
   "quizzes": [
@@ -827,6 +827,19 @@
       "href": "quiz/breakdown/ai-shells.html",
       "diveHref": "dive/breakdown/ai-shells.html",
       "key": "breakdown/ai-shells"
+    },
+    {
+      "id": "amnesia-vortex",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Amnesia Vortex",
+      "subtitle": "Test your understanding of Amnesia Vortex — the parasitic solar memory-wipe, Vatican archive, and collapsing entry bands.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/amnesia-vortex.html",
+      "diveHref": "dive/breakdown/amnesia-vortex.html",
+      "key": "breakdown/amnesia-vortex"
     },
     {
       "id": "atmospheric-pop",
