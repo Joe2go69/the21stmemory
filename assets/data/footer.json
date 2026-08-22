@@ -79,8 +79,8 @@
   "support": {
     "heading": "Keep the archive growing",
     "eyebrow": "Independent · Always free",
-    "message": "Every video, report, and quiz stays free. Hosting, tools, and AI cost real money — share a topic, join the community, or help it grow.",
-    "messageShort": "Every video, report, and quiz stays free. Hosting, tools, and AI cost real money — share a topic, join the community, or help it grow.",
+    "message": "The 21st Memory is free and always will be. This is the work I do — organizing and making the transmissions clearer because I love it and because it helps people remember. Support can look like sharing a topic, joining the community, or doing your own remembering. If you feel moved to contribute financially, that helps sustain this free work. I’m not trying to get rich — I’m simply covering the basics of living simply so I can keep doing this. Any amount makes a real difference.",
+    "messageShort": "The 21st Memory is free and always will be. This is the work I do. Support can look like sharing, joining the community, or contributing. I’m not trying to get rich — just covering the basics so the free work can continue.",
     "fundsLabel": "Three ways people help",
     "funds": [
       {
@@ -92,8 +92,8 @@
         "desc": "Telegram and the Network."
       },
       {
-        "title": "Fund the archive",
-        "desc": "Hosting, tools, and the next topics."
+        "title": "Support the work",
+        "desc": "Helps sustain the free archive."
       }
     ],
     "note": "Entirely optional · Every form counts",
@@ -105,8 +105,8 @@
     "bitcoinImageAlt": "Bitcoin — support the living archive",
     "gofundme": {
       "href": "https://gofund.me/a1603af10",
-      "buttonText": "Donate on GoFundMe",
-      "hint": "Card or bank transfer. Covers hosting, tools, and new topics.",
+      "buttonText": "Support on GoFundMe",
+      "hint": "Card or bank transfer. Helps sustain the free work.",
       "image": "images/gofundme.webp",
       "imageAlt": "GoFundMe — support the living archive"
     },

@@ -155,7 +155,7 @@ function renderFooter(footerData, options = {}) {
   const heading = footerData.support?.heading || 'Keep the archive growing';
   const supportNote = footerData.support?.note || 'Entirely optional · Every form counts';
   const supportMessage = footerData.support?.message
-    || 'Every video, report, and quiz stays free. Hosting, tools, and AI cost real money — share a topic, join the community, or help it grow.';
+    || 'The 21st Memory is free and always will be. This is the work I do — organizing and making the transmissions clearer because I love it and because it helps people remember. Support can look like sharing a topic, joining the community, or doing your own remembering. If you feel moved to contribute financially, that helps sustain this free work. I’m not trying to get rich — I’m simply covering the basics of living simply so I can keep doing this. Any amount makes a real difference.';
   const supportMessageShort = footerData.support?.messageShort
     || supportMessage;
   const eyebrowHTML = eyebrow
