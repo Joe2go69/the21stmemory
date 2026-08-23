@@ -79,8 +79,14 @@
   "support": {
     "heading": "Keep the archive growing",
     "eyebrow": "Independent · Always free",
-    "message": "The 21st Memory is free and always will be. This is the work I do — organizing and making the transmissions clearer because I love it and because it helps people remember. Support can look like sharing a topic, joining the community, or doing your own remembering. If you feel moved to contribute financially, that helps sustain this free work. I’m not trying to get rich — I’m simply covering the basics of living simply so I can keep doing this. Any amount makes a real difference.",
-    "messageShort": "The 21st Memory is free and always will be. This is the work I do. Support can look like sharing, joining the community, or contributing. I’m not trying to get rich — just covering the basics so the free work can continue.",
+    "message": [
+      "The 21st Memory is free and always will be. This is the work I do — organizing and making the transmissions clearer because I love it and because it helps people remember. Support can look like sharing a topic, joining the community, or doing your own remembering.",
+      "I’m not trying to get rich — I’m covering the basics so I can keep doing this. Any amount makes a real difference."
+    ],
+    "messageShort": [
+      "The 21st Memory is free and always will be. This is the work I do. Support can look like sharing, joining the community, or contributing.",
+      "I’m not trying to get rich — just covering the basics so the free work can continue."
+    ],
     "fundsLabel": "Three ways people help",
     "funds": [
       {
@@ -89,11 +95,11 @@
       },
       {
         "title": "Join the community",
-        "desc": "Telegram and the Network."
+        "desc": "Telegram · Network."
       },
       {
         "title": "Support the work",
-        "desc": "Helps sustain the free archive."
+        "desc": "Sustain the free archive."
       }
     ],
     "note": "Entirely optional · Every form counts",

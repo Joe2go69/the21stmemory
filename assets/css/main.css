@@ -21607,3 +21607,51 @@ body[data-report-size="lg"] #report-container {
     inset 0 1.5px 0 rgba(255, 255, 255, 0.08),
     inset 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
 }
+
+/* Support — two-beat message, readable contrast, even 3-up cards */
+.footer-support-head {
+  max-width: 46rem !important;
+}
+
+.footer-support-message,
+.footer-support-message--long,
+.footer-support-message--short {
+  max-width: 36rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 0.6rem !important;
+  color: #D4C6F5 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.62 !important;
+}
+
+.footer-support-message--beat {
+  color: #E8DEFF !important;
+  margin-bottom: 1.05rem !important;
+}
+
+@media (min-width: 700px) {
+  .footer-support-funds {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 0.75rem !important;
+    max-width: none !important;
+  }
+
+  .footer-support-fund__desc {
+    white-space: nowrap !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-support-message,
+  .footer-support-message--long,
+  .footer-support-message--short {
+    font-size: 0.9rem !important;
+    line-height: 1.55 !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .footer-support-message--beat {
+    margin-bottom: 0.75rem !important;
+  }
+}

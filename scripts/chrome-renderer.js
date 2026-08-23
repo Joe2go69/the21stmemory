@@ -22,6 +22,25 @@ function truncateMiddle(str, head = 10, tail = 6) {
   return `${str.slice(0, head)}…${str.slice(-tail)}`;
 }
 
+function supportMessageParts(text, fallback) {
+  if (Array.isArray(text)) {
+    return text.map((part) => String(part || '').trim()).filter(Boolean);
+  }
+  if (typeof text === 'string' && text.trim()) return [text.trim()];
+  return fallback;
+}
+
+function renderSupportMessages(parts, variant) {
+  return parts
+    .map((para, i) => {
+      const beat = parts.length > 1 && i === parts.length - 1
+        ? ' footer-support-message--beat'
+        : '';
+      return `<p class="footer-support-message footer-support-message--${variant}${beat} page-hero-lead">${para}</p>`;
+    })
+    .join('\n              ');
+}
+
 function renderSiteIcon(name, extraClass = '') {
   const svg = SITE_ICON_SVGS[name];
   if (!svg) return '';
@@ -154,10 +173,17 @@ function renderFooter(footerData, options = {}) {
   const eyebrow = (footerData.support?.eyebrow || '').trim();
   const heading = footerData.support?.heading || 'Keep the archive growing';
   const supportNote = footerData.support?.note || 'Entirely optional · Every form counts';
-  const supportMessage = footerData.support?.message
-    || 'The 21st Memory is free and always will be. This is the work I do — organizing and making the transmissions clearer because I love it and because it helps people remember. Support can look like sharing a topic, joining the community, or doing your own remembering. If you feel moved to contribute financially, that helps sustain this free work. I’m not trying to get rich — I’m simply covering the basics of living simply so I can keep doing this. Any amount makes a real difference.';
-  const supportMessageShort = footerData.support?.messageShort
-    || supportMessage;
+  const supportMessagePartsLong = supportMessageParts(
+    footerData.support?.message,
+    [
+      'The 21st Memory is free and always will be. This is the work I do — organizing and making the transmissions clearer because I love it and because it helps people remember. Support can look like sharing a topic, joining the community, or doing your own remembering.',
+      'I’m not trying to get rich — I’m covering the basics so I can keep doing this. Any amount makes a real difference.',
+    ]
+  );
+  const supportMessagePartsShort = supportMessageParts(
+    footerData.support?.messageShort,
+    supportMessagePartsLong
+  );
   const eyebrowHTML = eyebrow
     ? `<p class="footer-support-eyebrow page-hero-eyebrow">${eyebrow}</p>`
     : '';
@@ -260,8 +286,8 @@ function renderFooter(footerData, options = {}) {
             <div class="footer-support-head">
               ${eyebrowHTML}
               <h2 class="footer-support-title page-hero-title--page">${heading}</h2>
-              <p class="footer-support-message footer-support-message--long page-hero-lead">${supportMessage}</p>
-              <p class="footer-support-message footer-support-message--short page-hero-lead">${supportMessageShort}</p>
+              ${renderSupportMessages(supportMessagePartsLong, 'long')}
+              ${renderSupportMessages(supportMessagePartsShort, 'short')}
               ${fundsHTML}
             </div>
             <div class="footer-support-tabs" data-footer-tabs>
