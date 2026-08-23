@@ -1024,17 +1024,107 @@ function rimrafDir(dir) {
   fs.rmSync(dir, { recursive: true, force: true });
 }
 
-function main() {
+function parseOnlyArg(argv) {
+  const only = [];
+  for (let i = 2; i < argv.length; i++) {
+    if (argv[i] === '--only' && argv[i + 1]) {
+      const raw = argv[++i];
+      const slash = raw.indexOf('/');
+      if (slash < 1) throw new Error(`--only expects source/id (got ${raw})`);
+      only.push({ source: raw.slice(0, slash), id: raw.slice(slash + 1) });
+    }
+  }
+  return only;
+}
+
+function writeDivePage(bundle, entry) {
+  const { prev, next } = findAdjacent(bundle.entries, entry.item.id);
+  const html = buildPage({
+    sourceId: bundle.sourceId,
+    sourceTitle: bundle.sourceTitle,
+    topic: entry.item,
+    topicPath: entry.path,
+    isStubTopic: entry.isStub,
+    prev,
+    next,
+    lastUpdated: entry.lastUpdated,
+  });
+  const outDir = path.join(OUT_ROOT, bundle.sourceId);
+  fs.mkdirSync(outDir, { recursive: true });
+  const outFile = path.join(outDir, `${entry.item.id}.html`);
+  fs.writeFileSync(outFile, html, 'utf8');
+  return {
+    sourceId: bundle.sourceId,
+    topicId: entry.item.id,
+    path: `/${divePath(bundle.sourceId, entry.item.id)}`,
+    live: !entry.isStub,
+    title: entry.item.title,
+  };
+}
+
+function patchManifest(pages) {
+  const manifestPath = path.join(ROOT, 'data', 'dive-manifest.json');
+  let manifest = { pages: [] };
+  if (fs.existsSync(manifestPath)) {
+    try {
+      manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+    } catch {
+      manifest = { pages: [] };
+    }
+  }
+  if (!Array.isArray(manifest.pages)) manifest.pages = [];
+  for (const page of pages) {
+    const idx = manifest.pages.findIndex(
+      (p) => p.sourceId === page.sourceId && p.topicId === page.topicId
+    );
+    if (idx >= 0) manifest.pages[idx] = page;
+    else manifest.pages.push(page);
+  }
+  fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n', 'utf8');
+}
+
+/**
+ * @param {{ only?: Array<{ source: string, id: string }> }} [opts]
+ *   If `only` is set, rebuild those topics plus live prev/next neighbors.
+ *   Does not delete other dive pages or restamp their dates.
+ */
+function buildDives({ only = [] } = {}) {
   const sourcesPath = path.join(ROOT, 'data', 'sources.json');
   const sourcesData = JSON.parse(fs.readFileSync(sourcesPath, 'utf8'));
   const sources = (sourcesData.sources || []).map((s) => s.id);
+  const incremental = only.length > 0;
 
-  rimrafDir(OUT_ROOT);
+  if (!incremental) {
+    rimrafDir(OUT_ROOT);
+  }
   fs.mkdirSync(OUT_ROOT, { recursive: true });
+
+  if (incremental) {
+    const rebuilt = [];
+    const seen = new Set();
+    for (const spec of only) {
+      const bundle = loadSource(spec.source);
+      if (!bundle) throw new Error(`Unknown source ${spec.source}`);
+      const entry = bundle.entries.find((e) => e.item.id === spec.id);
+      if (!entry) throw new Error(`${spec.id} not found in ${spec.source} index`);
+      const { prev, next } = findAdjacent(bundle.entries, spec.id);
+      for (const target of [entry, prev, next]) {
+        if (!target) continue;
+        const key = `${bundle.sourceId}/${target.item.id}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        rebuilt.push(writeDivePage(bundle, target));
+        console.log(`Rebuilt dive/${key}.html${target === entry ? '' : ' (neighbor)'}`);
+      }
+    }
+    patchManifest(rebuilt);
+    console.log(`build-static-dives incremental — ${rebuilt.length} page(s)`);
+    return { incremental: true, pages: rebuilt };
+  }
 
   let liveCount = 0;
   let stubCount = 0;
-  const manifest = { generatedAt: new Date().toISOString(), pages: [] };
+  const manifest = { pages: [] };
 
   for (const sourceId of sources) {
     const bundle = loadSource(sourceId);
@@ -1042,32 +1132,12 @@ function main() {
       console.warn(`Skip source ${sourceId}: index missing`);
       continue;
     }
-    const outDir = path.join(OUT_ROOT, sourceId);
-    fs.mkdirSync(outDir, { recursive: true });
 
     for (const entry of bundle.entries) {
-      const { prev, next } = findAdjacent(bundle.entries, entry.item.id);
-      const html = buildPage({
-        sourceId,
-        sourceTitle: bundle.sourceTitle,
-        topic: entry.item,
-        topicPath: entry.path,
-        isStubTopic: entry.isStub,
-        prev,
-        next,
-        lastUpdated: entry.lastUpdated,
-      });
-      const outFile = path.join(outDir, `${entry.item.id}.html`);
-      fs.writeFileSync(outFile, html, 'utf8');
+      const page = writeDivePage(bundle, entry);
       if (entry.isStub) stubCount++;
       else liveCount++;
-      manifest.pages.push({
-        sourceId,
-        topicId: entry.item.id,
-        path: `/${divePath(sourceId, entry.item.id)}`,
-        live: !entry.isStub,
-        title: entry.item.title,
-      });
+      manifest.pages.push(page);
     }
     console.log(
       `${sourceId}: ${bundle.entries.length} pages (${bundle.entries.filter((e) => !e.isStub).length} live)`
@@ -1076,13 +1146,18 @@ function main() {
 
   fs.writeFileSync(
     path.join(ROOT, 'data', 'dive-manifest.json'),
-    JSON.stringify(manifest, null, 2),
+    JSON.stringify(manifest, null, 2) + '\n',
     'utf8'
   );
 
   console.log(
     `build-static-dives complete — ${liveCount} live, ${stubCount} stub → dive/`
   );
+  return { incremental: false, liveCount, stubCount };
 }
 
-main();
+if (require.main === module) {
+  buildDives({ only: parseOnlyArg(process.argv) });
+}
+
+module.exports = { buildDives, parseOnlyArg };

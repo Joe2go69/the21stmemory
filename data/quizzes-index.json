@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21T12:10:16.503Z",
-  "total": 145,
+  "generatedAt": "2026-08-23T09:05:28.849Z",
+  "total": 146,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 85
+      "count": 86
     }
   ],
   "quizzes": [
@@ -1581,6 +1581,19 @@
       "href": "quiz/breakdown/resonating-army.html",
       "diveHref": "dive/breakdown/resonating-army.html",
       "key": "breakdown/resonating-army"
+    },
+    {
+      "id": "saturn-cube",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Saturn Cube",
+      "subtitle": "Test your understanding of Saturn Cube — the AI frequency hub, soul trap, and collapsing overlay.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/saturn-cube.html",
+      "diveHref": "dive/breakdown/saturn-cube.html",
+      "key": "breakdown/saturn-cube"
     },
     {
       "id": "scalar-frequencies",

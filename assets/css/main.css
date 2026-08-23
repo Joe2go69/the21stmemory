@@ -21638,7 +21638,7 @@ body[data-report-size="lg"] #report-container {
   }
 
   .footer-support-fund__desc {
-    white-space: nowrap !important;
+    white-space: normal !important;
   }
 }
 
@@ -21653,5 +21653,46 @@ body[data-report-size="lg"] #report-container {
 
   .footer-support-message--beat {
     margin-bottom: 0.75rem !important;
+  }
+
+  /* Pillars: one card each, keep the human sentence (do not collapse to chips). */
+  .footer-support-funds {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 0.55rem !important;
+    max-width: none !important;
+  }
+
+  .footer-support-fund,
+  .footer-support-funds li {
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+    padding: 0.8rem 0.95rem !important;
+    gap: 0.28rem !important;
+    min-height: 0 !important;
+  }
+
+  .footer-support-fund__title {
+    font-size: 0.88rem !important;
+    line-height: 1.25 !important;
+  }
+
+  .footer-support-fund__desc {
+    display: block !important;
+    white-space: normal !important;
+    font-size: 0.78rem !important;
+    line-height: 1.4 !important;
+  }
+}
+
+.footer-tab-body .footer-donate-desc {
+  max-width: 38ch !important;
+  white-space: normal !important;
+}
+
+@media (max-width: 639px) {
+  .footer-tab-body .footer-donate-desc {
+    max-width: none !important;
   }
 }

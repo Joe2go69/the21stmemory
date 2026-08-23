@@ -636,6 +636,27 @@ function qualityFlags(quiz, file) {
   return flags;
 }
 
+function rebalanceQuizFile(quizPath, { dry = false } = {}) {
+  const quiz = JSON.parse(fs.readFileSync(quizPath, 'utf8'));
+  const id = quiz.id || quiz.topicId || path.basename(quizPath, '.json');
+  const before = lengthStats(quiz);
+
+  let tightened = 0;
+  let expanded = 0;
+  quiz.questions = (quiz.questions || []).map((q) => {
+    const r = rebalanceQuestion(q, id);
+    if (r.tightened) tightened++;
+    expanded += r.expanded;
+    return r.question;
+  });
+
+  const after = lengthStats(quiz);
+  if (!dry) {
+    fs.writeFileSync(quizPath, JSON.stringify(quiz, null, 2) + '\n', 'utf8');
+  }
+  return { quiz, before, after, tightened, expanded };
+}
+
 function main() {
   const dry = process.argv.includes('--dry-run');
   const paths = loadQuizPaths(process.argv);
@@ -652,20 +673,7 @@ function main() {
       console.warn('Skip missing', p);
       continue;
     }
-    const quiz = JSON.parse(fs.readFileSync(p, 'utf8'));
-    const id = quiz.id || quiz.topicId || path.basename(p, '.json');
-    const before = lengthStats(quiz);
-
-    let tightened = 0;
-    let expanded = 0;
-    quiz.questions = (quiz.questions || []).map((q) => {
-      const r = rebalanceQuestion(q, id);
-      if (r.tightened) tightened++;
-      expanded += r.expanded;
-      return r.question;
-    });
-
-    const after = lengthStats(quiz);
+    const { quiz, before, after, tightened, expanded } = rebalanceQuizFile(p, { dry });
     beforeUL += before.uniqueLongest;
     afterUL += after.uniqueLongest;
     totalQ += after.total;
@@ -674,10 +682,6 @@ function main() {
     files++;
 
     allFlags.push(...qualityFlags(quiz, path.basename(p)));
-
-    if (!dry) {
-      fs.writeFileSync(p, JSON.stringify(quiz, null, 2) + '\n', 'utf8');
-    }
 
     console.log(
       path.relative(ROOT, p),
@@ -708,4 +712,8 @@ function main() {
   }
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = { rebalanceQuizFile, rebalanceQuestion };

@@ -108,18 +108,27 @@ function splitSource(sourceId) {
   return stats;
 }
 
-const sourcesPath = path.join(ROOT, 'data', 'sources.json');
-const sources = JSON.parse(fs.readFileSync(sourcesPath, 'utf8'));
-const archiveTotals = { sources: sources.sources.length, live: 0, total: 0 };
+function splitAll() {
+  const sourcesPath = path.join(ROOT, 'data', 'sources.json');
+  const sources = JSON.parse(fs.readFileSync(sourcesPath, 'utf8'));
+  const archiveTotals = { sources: sources.sources.length, live: 0, total: 0 };
 
-for (const source of sources.sources) {
-  const stats = splitSource(source.id);
-  if (stats) {
-    archiveTotals.live += stats.live;
-    archiveTotals.total += stats.total;
+  for (const source of sources.sources) {
+    const stats = splitSource(source.id);
+    if (stats) {
+      archiveTotals.live += stats.live;
+      archiveTotals.total += stats.total;
+    }
   }
+
+  const archiveStatsPath = path.join(ROOT, 'data', 'archive-stats.json');
+  fs.writeFileSync(archiveStatsPath, JSON.stringify(archiveTotals, null, 2) + '\n', 'utf8');
+  console.log(`archive-stats → ${path.relative(ROOT, archiveStatsPath)} (${archiveTotals.live}/${archiveTotals.total} live)`);
+  return archiveTotals;
 }
 
-const archiveStatsPath = path.join(ROOT, 'data', 'archive-stats.json');
-fs.writeFileSync(archiveStatsPath, JSON.stringify(archiveTotals, null, 2) + '\n', 'utf8');
-console.log(`archive-stats → ${path.relative(ROOT, archiveStatsPath)} (${archiveTotals.live}/${archiveTotals.total} live)`);
+if (require.main === module) {
+  splitAll();
+}
+
+module.exports = { splitAll, splitSource, countTopicStats };

@@ -20,6 +20,7 @@
     "build:chrome": "node scripts/inline-chrome.js",
     "build:quizzes": "node scripts/build-quizzes-hub.js",
     "build:dives": "node scripts/build-static-dives.js",
+    "install:content": "node scripts/install.js",
     "sync:quiz-chrome": "node scripts/sync-quiz-chrome.js",
     "build:brand-assets": "node scripts/generate-brand-assets.js",
     "build:favicon": "node scripts/generate-favicon.js",
