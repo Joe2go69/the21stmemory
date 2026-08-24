@@ -21696,3 +21696,45 @@ body[data-report-size="lg"] #report-container {
     max-width: none !important;
   }
 }
+
+/* Support body — one Inter column, left-aligned (eyebrow + title stay centered) */
+.footer-support-message,
+.footer-support-message--long,
+.footer-support-message--short,
+.footer-support-message--beat {
+  font-family: Inter, system-ui, sans-serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 400 !important;
+  line-height: 1.65 !important;
+  letter-spacing: 0 !important;
+  color: #D4C6F5 !important;
+  text-align: left !important;
+  max-width: 36rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 0.75rem !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: none !important;
+}
+
+.footer-support-message--beat {
+  margin-bottom: 1.05rem !important;
+}
+
+@media (max-width: 640px) {
+  .footer-support-message,
+  .footer-support-message--long,
+  .footer-support-message--short,
+  .footer-support-message--beat {
+    font-size: 0.9rem !important;
+    line-height: 1.62 !important;
+    padding-left: 0.35rem !important;
+    padding-right: 0.35rem !important;
+    margin-bottom: 0.65rem !important;
+  }
+
+  .footer-support-message--beat {
+    margin-bottom: 0.85rem !important;
+  }
+}

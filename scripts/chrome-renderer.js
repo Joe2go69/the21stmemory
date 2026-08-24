@@ -36,7 +36,7 @@ function renderSupportMessages(parts, variant) {
       const beat = parts.length > 1 && i === parts.length - 1
         ? ' footer-support-message--beat'
         : '';
-      return `<p class="footer-support-message footer-support-message--${variant}${beat} page-hero-lead">${para}</p>`;
+      return `<p class="footer-support-message footer-support-message--${variant}${beat}">${para}</p>`;
     })
     .join('\n              ');
 }
