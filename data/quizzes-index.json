@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T09:05:28.849Z",
-  "total": 146,
+  "generatedAt": "2026-08-24T07:17:55.712Z",
+  "total": 147,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 86
+      "count": 87
     }
   ],
   "quizzes": [
@@ -1269,6 +1269,19 @@
       "href": "quiz/breakdown/lockdown-window.html",
       "diveHref": "dive/breakdown/lockdown-window.html",
       "key": "breakdown/lockdown-window"
+    },
+    {
+      "id": "lunar-inversion",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Lunar Inversion",
+      "subtitle": "Test your understanding of Lunar Inversion — the moon hijack, Amnesia Vortex, Saturn-Moon Grid, and the recycling of soul consciousness.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/lunar-inversion.html",
+      "diveHref": "dive/breakdown/lunar-inversion.html",
+      "key": "breakdown/lunar-inversion"
     },
     {
       "id": "lyran-lineage",

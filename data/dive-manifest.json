@@ -1027,7 +1027,7 @@
       "sourceId": "breakdown",
       "topicId": "lunar-inversion",
       "path": "/dive/breakdown/lunar-inversion.html",
-      "live": false,
+      "live": true,
       "title": "Lunar Inversion"
     },
     {
