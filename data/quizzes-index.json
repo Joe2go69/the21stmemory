@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T09:57:40.923Z",
-  "total": 148,
+  "generatedAt": "2026-08-24T11:33:52.892Z",
+  "total": 149,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 88
+      "count": 89
     }
   ],
   "quizzes": [
@@ -1828,6 +1828,19 @@
       "href": "quiz/breakdown/timeline-healing.html",
       "diveHref": "dive/breakdown/timeline-healing.html",
       "key": "breakdown/timeline-healing"
+    },
+    {
+      "id": "titanic-op",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Titanic Op",
+      "subtitle": "Test your understanding of Titanic Op — the 1912 sabotage, Federal Reserve assassinations, Atlantian crystal heist, and mass death ritual on water.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/titanic-op.html",
+      "diveHref": "dive/breakdown/titanic-op.html",
+      "key": "breakdown/titanic-op"
     },
     {
       "id": "trigger-events",
