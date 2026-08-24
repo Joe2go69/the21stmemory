@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T07:17:55.712Z",
-  "total": 147,
+  "generatedAt": "2026-08-24T09:57:40.923Z",
+  "total": 148,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 87
+      "count": 88
     }
   ],
   "quizzes": [
@@ -1152,6 +1152,19 @@
       "href": "quiz/breakdown/healing-sanctuaries.html",
       "diveHref": "dive/breakdown/healing-sanctuaries.html",
       "key": "breakdown/healing-sanctuaries"
+    },
+    {
+      "id": "historic-resets",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Historic Resets",
+      "subtitle": "Test your understanding of Historic Resets — cyclical parasitic purges, overlay farms, loosh harvest, and the collapse that reveals the Second Realm.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/historic-resets.html",
+      "diveHref": "dive/breakdown/historic-resets.html",
+      "key": "breakdown/historic-resets"
     },
     {
       "id": "homecoming-path",
