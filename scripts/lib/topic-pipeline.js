@@ -5,6 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
+const { attachRumblePosters } = require('./rumble-poster');
 
 const ROOT = path.join(__dirname, '..', '..');
 
@@ -209,6 +210,13 @@ async function applyTopic(payload) {
   if (!videos.length) throw new Error('Need at least 1 rumble video');
   if (!payload.slide_deck_pdf_url) throw new Error('Missing slide_deck_pdf_url');
 
+  const posterStats = await attachRumblePosters(videos);
+  if (Array.isArray(payload.video_languages)) {
+    for (const lang of payload.video_languages) {
+      if (Array.isArray(lang?.videos)) await attachRumblePosters(lang.videos);
+    }
+  }
+
   const next = {
     id: topicId,
     title: payload.title,
@@ -294,6 +302,10 @@ async function applyTopic(payload) {
   console.log('  pdf_preview_image:', pdfPreview);
   console.log('  infographic_image:', infographic);
   console.log('  videos:', videos.length);
+  console.log(
+    '  posters:',
+    `${posterStats.attached} fetched, ${posterStats.skipped} kept, ${posterStats.failed} missing`
+  );
   console.log('  PDF:', payload.slide_deck_pdf_url);
   console.log('  other topics image paths unchanged:', beforeOthers.length);
   return { topicImage, pdfPreview, infographic, videos: videos.length };

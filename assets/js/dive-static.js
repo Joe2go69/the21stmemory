@@ -61,18 +61,27 @@ function defaultVideoPosterSrc() {
   return '../../images/video-poster.webp';
 }
 
-function renderParticleFacade(rawTitle) {
+function renderParticleFacade(rawTitle, posterUrl) {
   if (typeof TopicUtils !== 'undefined' && TopicUtils.renderVideoPosterMarkup) {
-    return TopicUtils.renderVideoPosterMarkup(rawTitle);
+    return TopicUtils.renderVideoPosterMarkup(rawTitle, posterUrl);
   }
   const safe = escapeVideoAttr(rawTitle || 'Video transmission');
-  return (
-    `<canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="${safe}" aria-hidden="true"></canvas>` +
+  const overlay =
     `<div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>` +
     `<div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">` +
     `<div class="play-button">` +
     `<svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true">` +
-    `<path d="M8 5v14l11-7z"/></svg></div></div>`
+    `<path d="M8 5v14l11-7z"/></svg></div></div>`;
+  const thumb = String(posterUrl || '').trim();
+  if (/^https?:\/\//i.test(thumb)) {
+    return (
+      `<img src="${escapeVideoAttr(thumb)}" alt="" class="video-poster-img absolute inset-0 w-full h-full object-cover" width="1280" height="720" loading="lazy" decoding="async">` +
+      overlay
+    );
+  }
+  return (
+    `<canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="${safe}" aria-hidden="true"></canvas>` +
+    overlay
   );
 }
 
@@ -82,6 +91,8 @@ function renderDiveVideoCards(videos) {
       const rawTitle = video.title || 'Video transmission';
       const title = escapeVideoHtml(rawTitle);
       const embed = escapeVideoAttr(video.embed_url || '');
+      const posterUrl = video.poster_url || '';
+      const posterAttr = posterUrl ? ` data-poster-url="${escapeVideoAttr(posterUrl)}"` : '';
       const desc = video.description
         ? `<p class="dive-video-card__desc">${escapeVideoHtml(video.description)}</p>`
         : '';
@@ -89,10 +100,10 @@ function renderDiveVideoCards(videos) {
         <div class="dive-video-card__frame">
           <div class="video-poster-wrap"
                data-rumble-embed="${embed}"
-               data-video-title="${title}"
+               data-video-title="${title}"${posterAttr}
                role="button" tabindex="0"
                aria-label="Play video: ${title}">
-            ${renderParticleFacade(rawTitle)}
+            ${renderParticleFacade(rawTitle, posterUrl)}
           </div>
         </div>
         <div class="dive-video-card__body">
@@ -583,7 +594,7 @@ function initClickToPlayVideos() {
         const parent = iframe.closest('[data-rumble-embed]');
         if (parent && parent !== el) {
           const title = parent.getAttribute('data-video-title') || 'Video';
-          parent.innerHTML = renderParticleFacade(title);
+          parent.innerHTML = renderParticleFacade(title, parent.getAttribute('data-poster-url'));
           parent.dataset.loaded = 'false';
           parent.classList.add('cursor-pointer');
           parent.setAttribute('role', 'button');

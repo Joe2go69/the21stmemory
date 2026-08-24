@@ -73,13 +73,17 @@ const RenderUtils = {
     const embed = TopicUtils.escapeAttr(video.embed_url || '');
     const rawTitle = video.title || '21st Memory video';
     const title = TopicUtils.escapeHtml(rawTitle);
+    const posterUrl = video.poster_url || '';
     const facade = typeof TopicUtils.renderVideoPosterMarkup === 'function'
-      ? TopicUtils.renderVideoPosterMarkup(rawTitle)
+      ? TopicUtils.renderVideoPosterMarkup(rawTitle, posterUrl)
+      : '';
+    const posterAttr = posterUrl
+      ? ` data-poster-url="${TopicUtils.escapeAttr(posterUrl)}"`
       : '';
 
     const playerHtml = `<div class="video-poster-wrap absolute inset-0 cursor-pointer group"
                data-rumble-embed="${embed}"
-               data-video-title="${title}"
+               data-video-title="${title}"${posterAttr}
                role="button"
                tabindex="0"
                aria-label="Play video: ${title}">

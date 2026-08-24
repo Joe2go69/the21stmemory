@@ -106,11 +106,10 @@ function renderLiveArchiveBadge(live, total) {
   animateMetricCounts(badge);
 }
 
-function renderVideoPoster(title) {
-  const safe = escapeHtml(title || 'Video');
-  // Single brand poster for all home facades — no per-video thumbnail hunt
+function renderVideoPoster(title, wrap) {
+  const poster = (wrap && wrap.dataset.posterUrl) || 'images/video-poster.webp';
   return `
-    <img src="images/video-poster.webp" alt="" class="home-video-poster-img absolute inset-0 w-full h-full object-cover" width="960" height="540" decoding="async" />
+    <img src="${escapeHtml(poster)}" alt="" class="home-video-poster-img video-poster-img absolute inset-0 w-full h-full object-cover" width="960" height="540" decoding="async" data-poster-fallback="brand" />
     <div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>
     <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">
       <div class="play-button">
@@ -120,6 +119,21 @@ function renderVideoPoster(title) {
       </div>
     </div>
   `;
+}
+
+function bindHomePosterFallback(root) {
+  if (!root) return;
+  root.querySelectorAll('.home-video-poster-img').forEach((img) => {
+    if (img.dataset.fallbackBound === 'true') return;
+    img.dataset.fallbackBound = 'true';
+    const useBrand = () => {
+      if (img.dataset.usedBrand === 'true') return;
+      img.dataset.usedBrand = 'true';
+      img.src = 'images/video-poster.webp';
+    };
+    img.addEventListener('error', useBrand);
+    if (img.complete && img.naturalWidth === 0 && img.getAttribute('src')) useBrand();
+  });
 }
 
 /** Lightweight click-to-play for homepage featured video facade. */
@@ -141,7 +155,8 @@ function setupHomeVideos(root) {
       wraps.forEach((other) => {
         if (other === wrap || other.dataset.loaded !== 'true') return;
         const otherTitle = other.dataset.videoTitle || '21st Memory video';
-        other.innerHTML = renderVideoPoster(otherTitle);
+        other.innerHTML = renderVideoPoster(otherTitle, other);
+        bindHomePosterFallback(other);
         other.dataset.loaded = 'false';
         other.classList.add('cursor-pointer');
         other.setAttribute('role', 'button');
@@ -231,5 +246,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const rumbleGrid = document.getElementById('home-rumble-grid');
   setupHomeVideos(rumbleGrid);
+  bindHomePosterFallback(rumbleGrid);
   initVideoPlayPulse(rumbleGrid);
 });

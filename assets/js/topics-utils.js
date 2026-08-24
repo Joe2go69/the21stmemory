@@ -227,18 +227,8 @@ const TopicUtils = {
     return `${base}images/video-poster.webp`;
   },
 
-  /**
-   * Title-seeded particle facade + clean minimal play button.
-   * Used for click-to-play wraps; replaced by iframe on play.
-   */
-  renderVideoPosterMarkup(titleOrPosterSrc) {
-    // Accept legacy poster path calls — prefer title for seeding
-    const raw = String(titleOrPosterSrc || '');
-    const looksLikePath = /\.(webp|png|jpe?g|gif|svg)(\?|$)/i.test(raw) || raw.includes('images/');
-    const title = looksLikePath ? '21st Memory video' : (raw || '21st Memory video');
-    const safeTitle = this.escapeAttr(title);
+  videoPlayOverlayHtml() {
     return (
-      `<canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="${safeTitle}" aria-hidden="true"></canvas>` +
       `<div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>` +
       `<div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">` +
       `<div class="play-button">` +
@@ -246,6 +236,49 @@ const TopicUtils = {
       `<path d="M8 5v14l11-7z"/>` +
       `</svg></div></div>`
     );
+  },
+
+  /**
+   * Click-to-play facade: Rumble still when posterUrl is set, else title-seeded particles.
+   */
+  renderVideoPosterMarkup(titleOrPosterSrc, posterUrl) {
+    const raw = String(titleOrPosterSrc || '');
+    const looksLikePath = /\.(webp|png|jpe?g|gif|svg)(\?|$)/i.test(raw) || raw.includes('images/');
+    const title = looksLikePath ? '21st Memory video' : (raw || '21st Memory video');
+    const safeTitle = this.escapeAttr(title);
+    const overlay = this.videoPlayOverlayHtml();
+    const thumb = String(posterUrl || (looksLikePath ? raw : '') || '').trim();
+    if (/^https?:\/\//i.test(thumb) || (thumb.includes('images/') && /\.(webp|png|jpe?g|gif)$/i.test(thumb))) {
+      return (
+        `<img src="${this.escapeAttr(thumb)}" alt="" class="video-poster-img absolute inset-0 w-full h-full object-cover" width="1280" height="720" loading="lazy" decoding="async">` +
+        overlay
+      );
+    }
+    return (
+      `<canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="${safeTitle}" aria-hidden="true"></canvas>` +
+      overlay
+    );
+  },
+
+  bindPosterFallbacks(root = document) {
+    const scope = root && root.querySelectorAll ? root : document;
+    scope.querySelectorAll('img.video-poster-img').forEach((img) => {
+      if (img.dataset.posterFallback === 'brand') return;
+      if (img.dataset.fallbackBound === 'true') return;
+      img.dataset.fallbackBound = 'true';
+      const toParticle = () => {
+        const wrap = img.closest('[data-rumble-embed]');
+        if (!wrap) return;
+        const title = wrap.dataset.videoTitle || '21st Memory video';
+        wrap.dataset.posterUrl = '';
+        wrap.innerHTML = this.renderVideoPosterMarkup(title);
+        if (typeof window.initParticleBackgrounds === 'function') {
+          requestAnimationFrame(() => window.initParticleBackgrounds(wrap));
+        }
+      };
+      img.addEventListener('error', toParticle);
+      if (img.complete && img.naturalWidth === 0 && img.getAttribute('src')) toParticle();
+    });
   },
 
   /**
@@ -271,7 +304,8 @@ const TopicUtils = {
       }
 
       const title = wrap.dataset.videoTitle || '21st Memory video';
-      wrap.innerHTML = this.renderVideoPosterMarkup(title);
+      wrap.innerHTML = this.renderVideoPosterMarkup(title, wrap.dataset.posterUrl);
+      this.bindPosterFallbacks(wrap);
 
       wrap.dataset.loaded = 'false';
       wrap.classList.add('cursor-pointer');
@@ -288,10 +322,10 @@ const TopicUtils = {
       iframe.remove();
     });
 
-    if (restored.length && typeof window.initParticleBackgrounds === 'function') {
-      // Draw after layout so canvas has non-zero bounds
+    const needPaint = restored.filter((wrap) => wrap.querySelector('.particle-canvas'));
+    if (needPaint.length && typeof window.initParticleBackgrounds === 'function') {
       requestAnimationFrame(() => {
-        restored.forEach((wrap) => window.initParticleBackgrounds(wrap));
+        needPaint.forEach((wrap) => window.initParticleBackgrounds(wrap));
       });
     }
   },
@@ -333,6 +367,7 @@ const TopicUtils = {
           loadEmbed();
         }
       });
+      this.bindPosterFallbacks(wrap);
     });
   },
 
