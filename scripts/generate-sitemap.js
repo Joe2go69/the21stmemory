@@ -103,7 +103,8 @@ function staticEntries() {
     { path: '/codex.html', priority: '0.95', changefreq: 'weekly' },
     { path: '/topics.html', priority: '0.9', changefreq: 'weekly' },
     { path: '/deep-dive.html', priority: '0.9', changefreq: 'weekly' },
-    { path: '/quizzes.html', priority: '0.92', changefreq: 'weekly' }
+    { path: '/quizzes.html', priority: '0.92', changefreq: 'weekly' },
+    { path: '/support.html', priority: '0.85', changefreq: 'monthly' }
   ];
 }
 

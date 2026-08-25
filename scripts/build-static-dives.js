@@ -587,7 +587,8 @@ function renderContinueLearning({ sourceId, quiz, lastUpdated, assetBase = ASSET
       AI may miss higher-dimensional nuance. Prefer the raw transmissions when anything feels incomplete.
       ${lastUpdated ? `<span class="dive-continue__updated"> · Updated ${escapeHtml(lastUpdated)}</span>` : ''}
     </p>
-  </aside>`;
+  </aside>
+  <p class="dive-support-note">This topic is free to share. <a href="${assetBase}support.html" class="text-link">Support the archive →</a></p>`;
 }
 
 function renderStubActions({ sourceId, assetBase = ASSET_BASE }) {

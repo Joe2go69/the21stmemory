@@ -30,15 +30,13 @@ function supportMessageParts(text, fallback) {
   return fallback;
 }
 
-function renderSupportMessages(parts, variant) {
-  return parts
-    .map((para, i) => {
-      const beat = parts.length > 1 && i === parts.length - 1
-        ? ' footer-support-message--beat'
-        : '';
-      return `<p class="footer-support-message footer-support-message--${variant}${beat}">${para}</p>`;
-    })
-    .join('\n              ');
+function isExternalHref(href, explicit) {
+  if (explicit) return true;
+  return /^(https?:|mailto:)/i.test(href || '');
+}
+
+function bitcoinIconSvg() {
+  return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 8.5h4.2a2 2 0 0 1 0 4H9.5zm0 4h4.6a2 2 0 0 1 0 4H9.5z"/><path d="M11 7v1.5M13 7v1.5M11 15.5V17M13 15.5V17"/></svg>';
 }
 
 function renderSiteIcon(name, extraClass = '') {
@@ -142,6 +140,132 @@ function renderNavbar(navbarData, options = {}) {
     </nav>`;
 }
 
+function renderSupportCta(footerData, basePath = '') {
+  const cta = footerData.support?.cta;
+  if (!cta) return '';
+  const href = withBasePath(cta.href || 'support.html', basePath);
+  const text = cta.text || 'This archive is free';
+  const linkText = cta.linkText || 'Support the work →';
+  return `<p class="footer-support-cta">
+            <span class="footer-support-cta__text">${text}</span>
+            <span class="footer-support-cta__dot" aria-hidden="true">·</span>
+            <a href="${href}" class="text-link footer-support-cta__link">${linkText}</a>
+          </p>`;
+}
+
+function renderSupportPage(footerData, options = {}) {
+  const basePath = options.basePath || '';
+  const s = footerData.support || {};
+  const heading = s.heading || 'This archive is free';
+  const eyebrow = (s.eyebrow || '').trim();
+  const resolver = (s.resolver || '').trim();
+  const supportNote = s.note || 'A gift is never required. Thank you for being here.';
+  const messages = supportMessageParts(s.message, [
+    'The transmissions are already free — at the source, and here. That will not change.',
+    'Sitting with a topic, sharing one, or showing up in the community is already support. If you are moved to give, it covers power, internet, and the AI tools that keep this Codex running.',
+  ]);
+  const funds = Array.isArray(s.funds) ? s.funds : [];
+  const gofundme = s.gofundme;
+  const starlink = s.starlink;
+  const btcAddress = s.bitcoinAddress || '';
+  const btcDisplay = truncateMiddle(btcAddress, 12, 8);
+  const bitcoinHint = s.bitcoinHint || 'Direct, no platform in between. Scan the QR or copy the address.';
+
+  const messageHTML = messages
+    .map((para) => `<p class="page-hero-lead support-lead">${para}</p>`)
+    .join('\n        ');
+
+  const cardMedia = (src) => {
+    if (!src) return '';
+    return `<span class="support-card-media" aria-hidden="true">
+            <img src="${withBasePath(src, basePath)}" alt="" class="support-card-media__img" width="960" height="540" loading="lazy" decoding="async" />
+            <span class="support-card-media__scrim"></span>
+          </span>`;
+  };
+
+  const fundsHTML = funds
+    .map((item) => {
+      if (!item || typeof item !== 'object') return '';
+      const rawHref = item.href || '#';
+      const href = withBasePath(rawHref, basePath);
+      const external = isExternalHref(rawHref, item.external);
+      const attrs = external ? ' target="_blank" rel="noopener noreferrer"' : '';
+      const title = item.title || item.label || '';
+      const desc = item.desc || item.description || '';
+      const media = cardMedia(item.image);
+      return `<li>
+          <a class="support-way memory-card static-card${media ? ' has-media' : ''}" href="${href}"${attrs}>
+            ${media}
+            <span class="support-way__title">${title}</span>
+            ${desc ? `<span class="support-way__desc">${desc}</span>` : ''}
+          </a>
+        </li>`;
+    })
+    .join('');
+
+  const gofundmeMedia = cardMedia(gofundme?.image);
+  const gofundmeCard = gofundme
+    ? `<article class="support-give-card memory-card static-card${gofundmeMedia ? ' has-media' : ''}">
+            ${gofundmeMedia}
+            <span class="support-give-icon support-give-icon--heart" aria-hidden="true">${SITE_ICON_SVGS.heart}</span>
+            <span class="support-give-label">Card or bank</span>
+            <p class="support-give-desc">${gofundme.hint}</p>
+            <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
+              <span>${gofundme.buttonText || 'Continue on GoFundMe'}</span>
+            </a>
+          </article>`
+    : '';
+
+  const starlinkMedia = cardMedia(starlink?.image);
+  const starlinkCard = starlink
+    ? `<article class="support-give-card memory-card static-card${starlinkMedia ? ' has-media' : ''}">
+            ${starlinkMedia}
+            <span class="support-give-icon support-give-icon--starlink" aria-hidden="true">${SITE_ICON_SVGS.satellite}</span>
+            <span class="support-give-label">Starlink</span>
+            <p class="support-give-desc">${starlink.hint}</p>
+            <a href="${starlink.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
+              <span>${starlink.buttonText || 'Claim a free month'}</span>
+            </a>
+          </article>`
+    : '';
+
+  const qrSrc = withBasePath(s.qrImage || 'assets/images/bitcoin-qr.png', basePath);
+  const qrAlt = s.qrAlt || 'Bitcoin QR code for 21st Memory donations';
+  const btcMedia = cardMedia(s.bitcoinImage);
+  const btcCard = `<article class="support-give-card memory-card static-card support-give-card--btc${btcMedia ? ' has-media' : ''}">
+            ${btcMedia}
+            <span class="support-give-icon support-give-icon--btc" aria-hidden="true">${bitcoinIconSvg()}</span>
+            <span class="support-give-label">Bitcoin</span>
+            <p class="support-give-desc">${bitcoinHint}</p>
+            <div class="support-give-qr">
+              <img src="${qrSrc}" alt="${qrAlt}" width="148" height="148" loading="lazy" decoding="async" />
+            </div>
+            <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcDisplay}</code>
+            <button type="button" class="btn-primary footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address"><span>Copy address</span></button>
+          </article>`;
+
+  return `    <header class="page-hero page-hero--interior max-w-3xl mx-auto px-6 text-center" id="support">
+        ${eyebrow ? `<p class="page-hero-eyebrow">${eyebrow}</p>` : ''}
+        <h1 class="page-hero-title page-hero-title--page font-semibold tracking-tighter leading-none mb-5">${heading}</h1>
+        ${messageHTML}
+        ${resolver ? `<p class="support-resolver" role="note">${resolver}</p>` : ''}
+    </header>
+    <div class="max-w-6xl mx-auto px-6 page-shell page-shell--after-hero pb-16">
+      <ul class="support-ways" aria-label="${s.fundsLabel || 'Three ways people help'}">
+        ${fundsHTML}
+      </ul>
+      <section id="give" class="support-give home-section-anchor" aria-labelledby="give-heading">
+        <p class="section-eyebrow mb-5" id="give-heading">Ways to give</p>
+        <div class="support-give-grid">
+          ${gofundmeCard}
+          ${starlinkCard}
+          ${btcCard}
+        </div>
+        <p class="support-note">${supportNote}</p>
+      </section>
+    </div>`;
+}
+
 function renderFooter(footerData, options = {}) {
   const basePath = options.basePath || '';
   const homeHref = withBasePath('index.html', basePath);
@@ -162,147 +286,7 @@ function renderFooter(footerData, options = {}) {
       }).join('')
     : '';
 
-  const bitcoinHint = footerData.support?.bitcoinHint
-    || 'Scan with a wallet app, or copy the address below.';
-  const btcAddress = footerData.support?.bitcoinAddress || '';
-  const btcDisplay = truncateMiddle(btcAddress, 12, 8);
-  const btcIcon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 8.5h4.2a2 2 0 0 1 0 4H9.5zm0 4h4.6a2 2 0 0 1 0 4H9.5z"/><path d="M11 7v1.5M13 7v1.5M11 15.5V17M13 15.5V17"/></svg>';
-
-  const gofundme = footerData.support?.gofundme;
-  const starlink = footerData.support?.starlink;
-  const eyebrow = (footerData.support?.eyebrow || '').trim();
-  const heading = footerData.support?.heading || 'Keep the archive growing';
-  const supportNote = footerData.support?.note || 'Entirely optional · Every form counts';
-  const supportMessagePartsLong = supportMessageParts(
-    footerData.support?.message,
-    [
-      'The 21st Memory is free and always will be. This is the work I do — organizing and making the transmissions clearer because I love it and because it helps people remember. Support can look like sharing a topic, joining the community, or doing your own remembering.',
-      'I’m not trying to get rich — I’m covering the basics so I can keep doing this. Any amount makes a real difference.',
-    ]
-  );
-  const supportMessagePartsShort = supportMessageParts(
-    footerData.support?.messageShort,
-    supportMessagePartsLong
-  );
-  const eyebrowHTML = eyebrow
-    ? `<p class="footer-support-eyebrow page-hero-eyebrow">${eyebrow}</p>`
-    : '';
-
-  const funds = Array.isArray(footerData.support?.funds) ? footerData.support.funds : [];
-  const fundsHTML = funds.length
-    ? `<ul class="footer-support-funds" aria-label="${footerData.support.fundsLabel || 'Ways to support'}">
-        ${funds
-          .map((item) => {
-            if (item && typeof item === 'object') {
-              const title = item.title || item.label || '';
-              const desc = item.desc || item.description || '';
-              return `<li class="footer-support-fund">
-          <span class="footer-support-fund__title">${title}</span>
-          ${desc ? `<span class="footer-support-fund__desc">${desc}</span>` : ''}
-        </li>`;
-            }
-            return `<li class="footer-support-fund"><span class="footer-support-fund__title">${item}</span></li>`;
-          })
-          .join('')}
-      </ul>`
-    : '';
-
-  // Tab order: GoFundMe → Starlink → Bitcoin (default = first)
-  const tabItems = [];
-  if (gofundme) {
-    tabItems.push({ id: 'gofundme', label: 'GoFundMe', icon: SITE_ICON_SVGS.heart, iconMod: ' footer-tab-icon--heart' });
-  }
-  if (starlink) {
-    tabItems.push({ id: 'starlink', label: 'Starlink', icon: SITE_ICON_SVGS.satellite, iconMod: ' footer-tab-icon--starlink' });
-  }
-  tabItems.push({ id: 'btc', label: 'Bitcoin', icon: btcIcon, iconMod: ' footer-tab-icon--btc' });
-
-  const defaultTab = tabItems[0]?.id || 'gofundme';
-
-  const tabsHTML = tabItems.map((tab) => {
-    const selected = tab.id === defaultTab;
-    return `<button type="button" class="footer-tab${selected ? ' is-active' : ''}" role="tab" id="footer-tab-${tab.id}" aria-controls="footer-panel-${tab.id}" aria-selected="${selected ? 'true' : 'false'}" tabindex="${selected ? '0' : '-1'}" data-footer-tab="${tab.id}">
-              <span class="footer-tab-icon${tab.iconMod || ''}" aria-hidden="true">${tab.icon}</span>
-              <span class="footer-tab-label">${tab.label}</span>
-            </button>`;
-  }).join('');
-
-  // Side-blend panels: image visible in the box on left or right, fading into copy
-  const gofundmePanel = gofundme
-    ? `<div class="footer-tabpanel footer-tabpanel--blend footer-tabpanel--blend-right${gofundme.image ? ' has-media' : ''}${defaultTab === 'gofundme' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-gofundme" aria-labelledby="footer-tab-gofundme"${defaultTab === 'gofundme' ? '' : ' hidden'}>
-              ${gofundme.image ? `<div class="footer-tab-media" aria-hidden="true">
-                <img src="${withBasePath(gofundme.image, basePath)}" alt="" class="footer-tab-media__img" width="1280" height="720" loading="lazy" decoding="async" />
-                <div class="footer-tab-media__scrim"></div>
-              </div>` : ''}
-              <div class="footer-tab-body">
-                <span class="footer-donate-label">GoFundMe</span>
-                <p class="footer-donate-desc">${gofundme.hint}</p>
-                <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span>${gofundme.buttonText}</span>
-                </a>
-              </div>
-            </div>`
-    : '';
-
-  // Alternate blend side from GoFundMe so consecutive image tabs feel balanced
-  const starlinkPanel = starlink
-    ? `<div class="footer-tabpanel footer-tabpanel--blend footer-tabpanel--blend-left${starlink.image ? ' has-media' : ''}${defaultTab === 'starlink' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-starlink" aria-labelledby="footer-tab-starlink"${defaultTab === 'starlink' ? '' : ' hidden'}>
-              ${starlink.image ? `<div class="footer-tab-media" aria-hidden="true">
-                <img src="${withBasePath(starlink.image, basePath)}" alt="" class="footer-tab-media__img" width="1280" height="720" loading="lazy" decoding="async" />
-                <div class="footer-tab-media__scrim"></div>
-              </div>` : ''}
-              <div class="footer-tab-body">
-                <span class="footer-donate-label">Starlink</span>
-                <p class="footer-donate-desc">${starlink.hint}</p>
-                <a href="${starlink.href}" target="_blank" rel="noopener noreferrer" class="btn-primary footer-donate-btn">
-                  <span>${starlink.buttonText}</span>
-                </a>
-              </div>
-            </div>`
-    : '';
-
-  // Bitcoin: blend atmosphere (optional) + QR + copy
-  const btcImage = footerData.support?.bitcoinImage || '';
-  const btcPanel = `<div class="footer-tabpanel footer-tabpanel--btc${btcImage ? ' footer-tabpanel--blend footer-tabpanel--blend-right has-media' : ''}${defaultTab === 'btc' ? ' is-active' : ''}" role="tabpanel" id="footer-panel-btc" aria-labelledby="footer-tab-btc"${defaultTab === 'btc' ? '' : ' hidden'}>
-              ${btcImage ? `<div class="footer-tab-media" aria-hidden="true">
-                <img src="${withBasePath(btcImage, basePath)}" alt="" class="footer-tab-media__img" width="1280" height="720" loading="lazy" decoding="async" />
-                <div class="footer-tab-media__scrim"></div>
-              </div>` : ''}
-              <div class="footer-tab-body footer-tab-body--btc">
-                <div class="footer-btc-qr-wrap">
-                  <img src="${withBasePath(footerData.support.qrImage, basePath)}" alt="${footerData.support.qrAlt || 'Bitcoin QR code'}" class="footer-tab-media__qr" width="140" height="140" loading="lazy" decoding="async" />
-                </div>
-                <div class="footer-btc-copy">
-                  <span class="footer-donate-label">Bitcoin</span>
-                  <p class="footer-donate-desc">${bitcoinHint}</p>
-                  <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcDisplay}</code>
-                  <button type="button" class="btn-primary footer-donate-btn footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address"><span>Copy address</span></button>
-                </div>
-              </div>
-            </div>`;
-
-  const supportHTML = footerData.support
-    ? `<div class="footer-support" id="support">
-            <div class="footer-support-head">
-              ${eyebrowHTML}
-              <h2 class="footer-support-title page-hero-title--page">${heading}</h2>
-              ${renderSupportMessages(supportMessagePartsLong, 'long')}
-              ${renderSupportMessages(supportMessagePartsShort, 'short')}
-              ${fundsHTML}
-            </div>
-            <div class="footer-support-tabs" data-footer-tabs>
-              <div class="footer-tablist footer-tablist--${tabItems.length}" role="tablist" aria-label="Ways to support">
-                ${tabsHTML}
-              </div>
-              <div class="footer-tabpanels">
-                ${gofundmePanel}
-                ${starlinkPanel}
-                ${btcPanel}
-              </div>
-            </div>
-            <p class="footer-support-note">${supportNote}</p>
-          </div>`
-    : '';
+  const supportCtaHTML = renderSupportCta(footerData, basePath);
 
   const copyrightHTML = footerData.copyright
     ? `<p class="footer-copyright">${footerData.copyright}</p>`
@@ -343,10 +327,9 @@ function renderFooter(footerData, options = {}) {
             </div>
           </div>
         </div>
-        ${supportHTML}
         <div class="footer-bottom">
+          ${supportCtaHTML}
           <p class="footer-tagline">${footerData.tagline}</p>
-          <p class="footer-subtitle">${footerData.subtitle}</p>
           <div class="footer-bottom-bar">
             ${copyrightHTML}
             <p class="footer-bottom-principles">${footerData.principle}</p>
@@ -356,4 +339,4 @@ function renderFooter(footerData, options = {}) {
     </footer>`;
 }
 
-module.exports = { renderNavbar, renderFooter, BRAND_MARK };
+module.exports = { renderNavbar, renderFooter, renderSupportPage, BRAND_MARK };

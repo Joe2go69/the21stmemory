@@ -552,7 +552,8 @@ function renderContinueLearning({ sourceId, topic }) {
     <p class="dive-continue__disclaimer">
       AI may miss higher-dimensional nuance. Prefer the raw transmissions when anything feels incomplete.
     </p>
-  </aside>`;
+  </aside>
+  <p class="dive-support-note">This topic is free to share. <a href="support.html" class="text-link">Support the archive →</a></p>`;
 }
 
 function setupBackToTopicsLinks(sourceId, topicId) {

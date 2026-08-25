@@ -11,13 +11,14 @@
  */
 const fs = require('fs');
 const path = require('path');
-const { renderNavbar, renderFooter } = require('./chrome-renderer');
+const { renderNavbar, renderFooter, renderSupportPage } = require('./chrome-renderer');
 
 const ROOT = path.join(__dirname, '..');
 const NAV_MARKER = '<!-- SITE-NAV -->';
 const FOOTER_MARKER = '<!-- SITE-FOOTER -->';
 const NAV_REGEX = /<nav class="navbar">[\s\S]*?<\/nav>/;
 const FOOTER_REGEX = /<footer class="site-footer">[\s\S]*?<\/footer>/;
+const SUPPORT_BLOCK = /<!-- SITE-SUPPORT-START -->[\s\S]*?<!-- SITE-SUPPORT-END -->/;
 
 const navbarData = JSON.parse(
   fs.readFileSync(path.join(ROOT, 'assets/data/navbar.json'), 'utf8')
@@ -47,6 +48,14 @@ function inlineChrome(html) {
   } else if (FOOTER_REGEX.test(html)) {
     html = html.replace(FOOTER_REGEX, footerHTML);
     footerUpdated = true;
+  }
+
+  if (SUPPORT_BLOCK.test(html)) {
+    const body = renderSupportPage(footerData);
+    html = html.replace(
+      SUPPORT_BLOCK,
+      `<!-- SITE-SUPPORT-START -->\n${body}\n    <!-- SITE-SUPPORT-END -->`
+    );
   }
 
   if (!navUpdated || !footerUpdated) {

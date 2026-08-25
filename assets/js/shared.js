@@ -12,12 +12,12 @@ const INDEX_SECTION_LINKS = new Set([
   'index.html#about',
   'index.html#codex',
   'index.html#oracle',
-  'index.html#media',
-  'index.html#support'
+  'index.html#media'
 ]);
+const SUPPORT_PAGES = new Set(['support.html']);
 
 /** Home (and footer) hash targets that need measured scroll under the fixed nav */
-const MEASURED_SCROLL_HASHES = new Set(['oracle', 'media', 'support', 'about', 'codex']);
+const MEASURED_SCROLL_HASHES = new Set(['oracle', 'media', 'about', 'codex', 'give', 'support']);
 
 function isCodexFamilyPage(pageBasename) {
   if (CODEX_PAGES.has(pageBasename)) return true;
@@ -275,7 +275,41 @@ if (typeof window !== 'undefined') {
   window.initVaultSelects = initVaultSelects;
 }
 
+function supportPageUrl() {
+  const navHref = document.querySelector('a.nav-link[data-nav="support"]')?.getAttribute('href') || 'support.html';
+  const dest = navHref.split('#')[0];
+  return /support\.html$/i.test(dest) ? dest : 'support.html';
+}
+
+function onSupportHub() {
+  return SUPPORT_PAGES.has(normalizePage(window.location.pathname));
+}
+
+/** Old bookmarks and leftover #support links go to the dedicated Support page. */
+function initSupportHashRedirect() {
+  const go = () => {
+    const hash = (window.location.hash || '').replace(/^#/, '').toLowerCase();
+    if (hash !== 'support') return;
+    if (onSupportHub()) return;
+    window.location.replace(supportPageUrl());
+  };
+
+  document.addEventListener('click', (e) => {
+    const link = e.target.closest('a[href]');
+    if (!link) return;
+    const id = hashIdFromHref(link.getAttribute('href') || '');
+    if (id !== 'support') return;
+    if (onSupportHub() && document.getElementById('support')) return;
+    e.preventDefault();
+    window.location.href = supportPageUrl();
+  });
+
+  go();
+  window.addEventListener('hashchange', go);
+}
+
 function initSharedComponents() {
+  initSupportHashRedirect();
   setActiveNavLink();
   initSectionScrollSpy();
   initSkipToContent();
@@ -322,9 +356,13 @@ function scrollToSectionId(id, { smooth = true } = {}) {
   return true;
 }
 
-/** @deprecated use scrollToSectionId('support') */
+/** @deprecated Support is a page; prefer support.html or #give */
 function scrollToSupport(opts) {
-  return scrollToSectionId('support', opts);
+  if (document.getElementById('give')) return scrollToSectionId('give', opts);
+  if (onSupportHub() && document.getElementById('support')) {
+    return scrollToSectionId('support', opts);
+  }
+  return false;
 }
 
 function hashIdFromHref(href) {
@@ -808,7 +846,8 @@ function initStaticArchiveCards() {
     '.quiz-hub-path-card',
     '.topic-root-card',
     'a.quiz-hub-card',
-    'a.quiz-hub-row'
+    'a.quiz-hub-row',
+    'a.support-way'
   ].join(',');
 
   const resetInnerScroll = (root) => {
@@ -883,6 +922,10 @@ function isNavLinkActive(href, currentPath, currentHash) {
   }
 
   if ((linkPath === 'network.html' || linkPath === 'community.html') && NETWORK_PAGES.has(currentPath)) {
+    return true;
+  }
+
+  if (linkPath === 'support.html' && SUPPORT_PAGES.has(currentPath)) {
     return true;
   }
 

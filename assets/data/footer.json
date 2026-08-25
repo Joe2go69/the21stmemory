@@ -22,6 +22,10 @@
       "href": "network.html"
     },
     {
+      "text": "Support",
+      "href": "support.html"
+    },
+    {
       "text": "Oracle",
       "href": "index.html#oracle"
     },
@@ -71,37 +75,44 @@
       "icon": "facebook"
     },
     {
-      "name": "Official CH21 Site",
+      "name": "CH21 source",
       "href": "https://christian21.com/",
       "icon": "globe"
     }
   ],
   "support": {
-    "heading": "This Codex is free",
+    "heading": "This archive is free",
     "eyebrow": "Independent · Always free",
+    "cta": {
+      "text": "This archive is free",
+      "linkText": "Support the work →",
+      "href": "support.html"
+    },
     "message": [
-      "The transmissions are already free — at the source, and here. I organize them into a Codex, with AI as a bridge, because I love this work. That will not change.",
-      "Your own remembering is already support. Sit with a topic. Let it land. Sharing a topic, or showing up in the community, is the same work.",
-      "If you are moved to give, it is a way of being paid for work I love. It covers power, internet, and the AI tools."
+      "The transmissions are already free — at the source, and here. That will not change.",
+      "Sitting with a topic, sharing one, or showing up in the community is already support. If you are moved to give, it covers power, internet, and the AI tools that keep this Codex running."
     ],
-    "messageShort": [
-      "The transmissions are already free — at the source, and here. I organize them into a Codex, with AI as a bridge, because I love this work. That will not change.",
-      "Your own remembering is already support. Sit with a topic. Let it land. Sharing a topic, or showing up in the community, is the same work.",
-      "If you are moved to give, it is a way of being paid for work I love. It covers power, internet, and the AI tools."
-    ],
+    "resolver": "No finance means this is not a product, a course, or a paywall. A gift is never required, and nothing is gated.",
     "fundsLabel": "Three ways people help",
     "funds": [
       {
         "title": "Share a topic",
-        "desc": "Pass a deep-dive to someone who needs it."
+        "desc": "Pass a deep-dive to someone who needs it.",
+        "href": "codex.html",
+        "image": "images/codex-banner.webp"
       },
       {
         "title": "Join the community",
-        "desc": "Telegram and the Network — we remember better together."
+        "desc": "Telegram and the Network — we remember better together.",
+        "href": "https://t.me/The_21st_Memory",
+        "external": true,
+        "image": "images/oracle-banner.webp"
       },
       {
         "title": "Give if you are moved",
-        "desc": "Power, internet, and AI tools — the knowledge stays free."
+        "desc": "Power, internet, and AI tools — the knowledge stays free.",
+        "href": "#give",
+        "image": "images/about.webp"
       }
     ],
     "note": "A gift is never required. Thank you for being here.",
@@ -109,12 +120,12 @@
     "qrImage": "assets/images/bitcoin-qr.png",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",
     "bitcoinHint": "Direct, no platform in between. Scan the QR or copy the address.",
-    "bitcoinImage": "images/bitcoin-preview.jpg",
+    "bitcoinImage": "images/bitcoin-preview.webp",
     "bitcoinImageAlt": "Bitcoin — support the living archive",
     "gofundme": {
       "href": "https://gofund.me/a1603af10",
-      "buttonText": "Support on GoFundMe",
-      "hint": "Card or bank. Goes to power, internet, and AI tools — the knowledge stays free.",
+      "buttonText": "Continue on GoFundMe",
+      "hint": "Goes to power, internet, and AI tools — the knowledge stays free.",
       "image": "images/gofundme.webp",
       "imageAlt": "GoFundMe — support the living archive"
     },

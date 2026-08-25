@@ -33,11 +33,21 @@ function fileSize(rel) {
   const g = 'Elev P1';
   const css = read('assets/css/main.css');
   check(g, 'btn-primary unified cascade present', css.includes('PHASE 1') || css.includes('btn-primary--lg'));
-  check(g, 'footer short message support CSS', css.includes('footer-support-message--short'));
-  check(g, 'footer.json has messageShort', JSON.parse(read('assets/data/footer.json')).support?.messageShort);
+  const navData = JSON.parse(read('assets/data/navbar.json'));
+  const footerData = JSON.parse(read('assets/data/footer.json'));
+  check(g, 'nav Support is a page', navData.links.some((l) => l.text === 'Support' && l.href === 'support.html'));
+  check(g, 'footer slim CTA href', footerData.support?.cta?.href === 'support.html');
+  check(g, 'support.html exists', exists('support.html'));
 
   const index = read('index.html');
-  check(g, 'index footer short message class', index.includes('footer-support-message--short'));
+  check(g, 'index has no campaign widget', !index.includes('footer-support-tabs') && !index.includes('footer-support-message--short'));
+  check(g, 'index slim support line', index.includes('footer-support-cta') && index.includes('support.html'));
+  const supportPage = read('support.html');
+  check(g, 'support page has giving methods', supportPage.includes('btc-address') && supportPage.includes('gofund.me'));
+  check(g, 'support page has linked ways', supportPage.includes('support-ways') && supportPage.includes('id="give"'));
+  check(g, 'support Starlink is a peer card', supportPage.includes('starlink.com') && supportPage.includes('support-give-grid') && !supportPage.includes('support-other'));
+  check(g, 'support heading is a fact not a plea', supportPage.includes('This archive is free') && !supportPage.includes('Keep this archive free'));
+  check(g, 'support cards have atmosphere', supportPage.includes('support-card-media') && supportPage.includes('gofundme.webp') && supportPage.includes('starlink.webp'));
   check(g, 'index no topics-utils', !index.includes('topics-utils.js'));
   check(g, 'brand mark small', fileSize('images/21st-mark.webp') < 20 * 1024, `${fileSize('images/21st-mark.webp')} B`);
   check(g, 'favicon small', fileSize('images/favicon.webp') < 10 * 1024, `${fileSize('images/favicon.webp')} B`);
@@ -46,6 +56,12 @@ function fileSize(rel) {
   check(g, 'quizzes path-first markup', quizzes.includes('quiz-hub-path-card') || quizzes.includes('data-quiz-path'));
   check(g, 'quizzes no featured start-here', !quizzes.includes('quiz-hub-featured') && !quizzes.includes('Start here'));
   check(g, 'quizzes no hero featured CTAs', !quizzes.includes('Start with a featured quiz') && !quizzes.includes('Browse Alice quizzes'));
+  check(g, 'quizzes pillars are product, not filler', quizzes.includes('After the deep-dive') && !quizzes.includes('Test your understanding'));
+
+  const network = read('network.html');
+  const networkHero = network.split('id="network-hero"')[1]?.split('</header>')[0] || '';
+  check(g, 'network hero has no fake manifesto pillars', !networkHero.includes('page-hero-pillars'));
+  check(g, 'footer CH21 label is short', footerData.socials?.some((s) => s.name === 'CH21 source'));
 })();
 
 // ── Phase 2: Quiz scale tools, home banners, network filters ────
@@ -96,6 +112,7 @@ function fileSize(rel) {
   const dive = read('dive/alice/firmament.html');
   check(g, 'dive uses main.min.css', dive.includes('main.min.css'));
   check(g, 'dive uses fonts.css', dive.includes('fonts.css'));
+  check(g, 'dive has quiet support line', dive.includes('dive-support-note') && dive.includes('support.html'));
 
   check(g, 'banner 640 variant', exists('images/about-640.webp'));
   check(g, 'banner 960 variant', exists('images/about-960.webp'));
@@ -111,7 +128,9 @@ function fileSize(rel) {
   const qjs = read('assets/js/quizzes.js');
   check(g, 'catalog aria-busy', qjs.includes('aria-busy'));
 
-  for (const page of ['codex.html', 'network.html', 'topics.html', '404.html']) {
+  check(g, '404 has Codex and Support paths', read('404.html').includes('codex.html') && read('404.html').includes('href="support.html"') && !read('404.html').includes('footer-support-tabs'));
+
+  for (const page of ['codex.html', 'network.html', 'topics.html', '404.html', 'support.html']) {
     const html = read(page);
     check(g, `${page} scripts deferred`, /<script src="assets\/js\/[^"]+" defer>/.test(html));
     check(g, `${page} skip-link or redirect`, html.includes('skip-link') || html.includes('location.replace') || page === '404.html');

@@ -67,6 +67,12 @@
       "title": "Living Truth Quizzes | 21st Memory",
       "description": "Browse Living Truth Quizzes from the 21st Memory archive — Alice and Mega Breakdown quizzes to test your understanding.",
       "collectionPage": true
+    },
+    "support.html": {
+      "path": "/support.html",
+      "title": "Support the Archive | 21st Memory",
+      "description": "21st Memory is a free living archive. Sharing a topic, joining the community, or giving if you are moved keeps the Codex open — no paywall, no gatekeeping.",
+      "webPage": true
     }
   }
 }

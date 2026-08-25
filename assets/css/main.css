@@ -212,7 +212,7 @@ a, button, input, select, textarea,
 .mobile-menu .nav-link,
 .topic-control-btn, .breadcrumb-link,
 .section-pill, .media-frame, .journey-card, .btn-jump-pill,
-.nav-cta, .nav-logo-mark, .nav-logo, a.quiz-hub-card {
+.nav-cta, .nav-logo-mark, .nav-logo, a.quiz-hub-card, a.support-way {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, transform, box-shadow, opacity, filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms;
@@ -1500,14 +1500,6 @@ button.btn-secondary:disabled,
     0 14px 32px -10px rgba(0, 0, 0, 0.55),
     0 0 0 1px rgba(180, 83, 9, 0.15),
     0 0 28px -8px rgba(217, 119, 6, 0.22);
-}
-
-.footer-donate-card--kofi:hover {
-  border-color: rgba(167, 139, 250, 0.55);
-  box-shadow:
-    0 14px 32px -10px rgba(0, 0, 0, 0.55),
-    0 0 0 1px rgba(139, 92, 246, 0.14),
-    0 0 28px -8px rgba(139, 92, 246, 0.3);
 }
 
 .footer-donate-card--gofundme:hover {
@@ -9572,10 +9564,6 @@ a.btn-primary:hover,
   background: linear-gradient(90deg, transparent, rgba(217, 119, 6, 0.7), transparent);
 }
 
-.footer-donate-card--kofi::before {
-  background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.75), transparent);
-}
-
 .footer-donate-card--gofundme::before {
   background: linear-gradient(90deg, transparent, rgba(192, 38, 211, 0.65), transparent);
 }
@@ -10457,9 +10445,9 @@ a.source-card:hover .source-card-progress__fill {
 
 .error-page-paths {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.55rem;
-  max-width: 26rem;
+  max-width: 22rem;
   margin: 0 auto;
   padding-top: 1.25rem;
   border-top: 1px solid rgba(124, 58, 237, 0.2);
@@ -11911,7 +11899,6 @@ html {
 
 .footer-donate-card,
 .footer-donate-card--primary,
-.footer-donate-card--kofi,
 .footer-donate-card--btc,
 .footer-donate-card--gofundme {
   display: flex !important;
@@ -12075,13 +12062,11 @@ button.footer-donate-btn {
 }
 
 /* Keep icon + label above image, button at bottom */
-.footer-donate-card--kofi,
 .footer-donate-card--gofundme {
   gap: 0.55rem !important;
 }
 
 /* Support Ko-fi / GoFundMe — 9:16 portrait media */
-.footer-donate-card--kofi .footer-donate-media-wrap,
 .footer-donate-card--gofundme .footer-donate-media-wrap {
   display: flex !important;
   align-items: center;
@@ -12102,7 +12087,6 @@ button.footer-donate-btn {
     0 0 24px -10px rgba(109, 40, 217, 0.35);
 }
 
-.footer-donate-card--kofi .footer-donate-media,
 .footer-donate-card--gofundme .footer-donate-media {
   width: 100% !important;
   height: 100% !important;
@@ -12113,26 +12097,21 @@ button.footer-donate-btn {
 }
 
 /* Keep cards balanced: icon/label ? portrait ? desc ? button */
-.footer-donate-card--kofi,
 .footer-donate-card--gofundme {
   text-align: center;
   align-items: center !important;
 }
 
-.footer-donate-card--kofi .footer-donate-label,
 .footer-donate-card--gofundme .footer-donate-label,
-.footer-donate-card--kofi .footer-donate-desc,
 .footer-donate-card--gofundme .footer-donate-desc {
   text-align: center;
   width: 100%;
 }
 
-.footer-donate-card--kofi .footer-donate-desc,
 .footer-donate-card--gofundme .footer-donate-desc {
   min-height: 2.5rem;
 }
 
-.footer-donate-card--kofi .footer-donate-btn,
 .footer-donate-card--gofundme .footer-donate-btn {
   width: 100% !important;
 }
@@ -12154,14 +12133,12 @@ button.footer-donate-btn {
 }
 
 @media (min-width: 768px) {
-  .footer-donate-card--kofi .footer-donate-media-wrap,
   .footer-donate-card--gofundme .footer-donate-media-wrap {
     max-width: 9.75rem;
   }
 }
 
 @media (max-width: 767px) {
-  .footer-donate-card--kofi .footer-donate-media-wrap,
   .footer-donate-card--gofundme .footer-donate-media-wrap {
     max-width: 11rem;
   }
@@ -21736,5 +21713,419 @@ body[data-report-size="lg"] #report-container {
 
   .footer-support-message--beat {
     margin-bottom: 0.85rem !important;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Support hub + slim footer CTA (campaign lives on support.html only)
+   ------------------------------------------------------------------ */
+.footer-support-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem 0.65rem;
+  margin: 1.35rem 0 0;
+  padding: 1.1rem 0 0;
+  border-top: 1px solid rgba(76, 61, 107, 0.35);
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.footer-support-cta__dot {
+  color: var(--text-dim);
+  opacity: 0.85;
+}
+
+.page-support .footer-support-cta {
+  display: none;
+}
+
+.support-lead {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.85rem;
+  max-width: 36rem;
+}
+
+.support-resolver {
+  margin: 1.15rem auto 0;
+  max-width: 34rem;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--text-dim);
+}
+
+.support-ways {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  list-style: none;
+  margin: 0 0 2.25rem;
+  padding: 0;
+}
+
+@media (min-width: 700px) {
+  .support-ways {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.85rem;
+  }
+}
+
+a.support-way {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  height: 100%;
+  min-height: 8.25rem;
+  padding: 1.05rem 1.1rem 1.1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+a.support-way:hover {
+  transform: translateY(-2px);
+}
+
+a.support-way:focus-visible {
+  outline: 2px solid var(--accent-violet-hover);
+  outline-offset: 3px;
+}
+
+.support-way__title {
+  font-size: 0.98rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--text-primary);
+}
+
+.support-way__desc {
+  font-size: 0.82rem;
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--text-muted);
+}
+
+.support-give .section-eyebrow {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.support-give-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+  align-items: stretch;
+}
+
+@media (min-width: 700px) {
+  .support-give-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.85rem;
+  }
+}
+
+.support-give-card,
+a.support-way.has-media {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.support-card-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.support-card-media__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.support-card-media__scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(12, 8, 26, 0.38) 0%,
+      rgba(12, 8, 26, 0.62) 42%,
+      rgba(12, 8, 26, 0.88) 78%,
+      rgba(10, 6, 22, 0.96) 100%
+    );
+}
+
+.support-give-card > :not(.support-card-media),
+a.support-way > :not(.support-card-media) {
+  position: relative;
+  z-index: 1;
+}
+
+a.support-way.has-media .support-way__title {
+  color: #F8FAFC;
+}
+
+a.support-way.has-media .support-way__desc {
+  color: #E0D4FF;
+}
+
+.support-give-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.45rem;
+  height: 100%;
+  min-height: 18.5rem;
+  padding: 1.15rem 1.2rem 1.2rem;
+}
+
+.support-give-card .btn-primary {
+  width: 100%;
+  margin-top: auto;
+}
+
+.support-give-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--radius-icon, 14px);
+  color: var(--text-soft);
+  background: rgba(91, 33, 182, 0.16);
+  border: 1px solid rgba(124, 58, 237, 0.28);
+}
+
+.support-give-icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.support-give-icon--heart {
+  color: #F0ABFC;
+  background: rgba(192, 38, 211, 0.12);
+  border-color: rgba(192, 38, 211, 0.28);
+}
+
+.support-give-icon--starlink {
+  color: var(--text-soft);
+  background: rgba(99, 102, 241, 0.14);
+  border-color: rgba(99, 102, 241, 0.32);
+}
+
+.support-give-icon--btc {
+  color: #FBBF24;
+  background: rgba(180, 83, 9, 0.14);
+  border-color: rgba(217, 119, 6, 0.35);
+}
+
+.support-give-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.support-give-desc {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+  flex: 1 1 auto;
+}
+
+.support-give-qr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  width: auto;
+  padding: 0.7rem;
+  border-radius: 0.85rem;
+  background: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow:
+    0 12px 28px -14px rgba(0, 0, 0, 0.7),
+    0 0 0 1px rgba(15, 10, 31, 0.12);
+}
+
+.support-give-qr img {
+  display: block;
+  width: 7.75rem;
+  height: 7.75rem;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  background: #fff;
+}
+
+.support-give-card--btc .footer-support-address {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  color: #F1EBFF;
+  background: rgba(0, 0, 0, 0.45);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.page-support .footer-support-address {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.dive-support-note {
+  margin: 1.15rem auto 0;
+  max-width: 34rem;
+  text-align: center;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--text-dim);
+}
+
+.support-note {
+  margin: 1.15rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(124, 58, 237, 0.18);
+  text-align: center;
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--text-dim);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a.support-way:hover {
+    transform: none;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Footer — compact utility band (one rule, wrapping Explore, 4×2 icons)
+   ------------------------------------------------------------------ */
+.site-footer {
+  padding-top: 2rem !important;
+  padding-bottom: 1.65rem !important;
+}
+
+.footer-main {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 1.15rem 2rem !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+  align-items: start !important;
+}
+
+@media (min-width: 860px) {
+  .footer-main {
+    grid-template-columns: minmax(15rem, 1.2fr) minmax(12rem, 1.15fr) auto !important;
+    gap: 1.25rem 2.25rem !important;
+  }
+}
+
+.footer-brand-desc {
+  max-width: 24rem !important;
+  font-size: 0.86rem !important;
+  line-height: 1.5 !important;
+}
+
+.footer-heading {
+  margin-bottom: 0.5rem !important;
+}
+
+.footer-link-list {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.2rem 1.05rem !important;
+  max-width: 22rem;
+}
+
+.footer-link {
+  display: inline !important;
+  padding: 0.12rem 0 !important;
+  font-size: 0.88rem !important;
+}
+
+.footer-social-row,
+.footer-social-grid {
+  max-width: 11.4rem !important;
+  gap: 0.4rem !important;
+}
+
+.footer-social,
+.footer-social--icon {
+  width: 2.4rem !important;
+  height: 2.4rem !important;
+  min-height: 2.4rem !important;
+}
+
+.footer-support-cta {
+  display: flex !important;
+  justify-content: flex-start;
+  margin: 0 0 0.55rem !important;
+  padding: 0 !important;
+  border: none !important;
+  font-size: 0.88rem !important;
+}
+
+.page-support .footer-support-cta {
+  display: none !important;
+}
+
+.footer-bottom {
+  margin-top: 1.2rem !important;
+  padding-top: 1.05rem !important;
+  border-top: 1px solid rgba(76, 61, 107, 0.38) !important;
+  border-image: none !important;
+  text-align: left !important;
+}
+
+.footer-tagline {
+  font-size: 0.88rem !important;
+  margin: 0 0 0.45rem !important;
+}
+
+.footer-subtitle {
+  display: none !important;
+}
+
+.footer-bottom-bar {
+  margin-top: 0.15rem !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: 0.35rem 1.25rem !important;
+}
+
+@media (max-width: 859px) {
+  .footer-link-list {
+    max-width: none !important;
+  }
+
+  .footer-support-cta,
+  .footer-bottom {
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 639px) {
+  .footer-support-cta {
+    justify-content: flex-start;
+  }
+
+  .footer-bottom-bar {
+    flex-direction: column !important;
+    align-items: flex-start !important;
   }
 }
