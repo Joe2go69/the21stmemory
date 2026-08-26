@@ -162,8 +162,14 @@ function renderSupportPage(footerData, options = {}) {
   const supportNote = s.note || 'A gift is never required. Thank you for being here.';
   const messages = supportMessageParts(s.message, [
     'The transmissions are already free — at the source, and here. That will not change.',
-    'Sitting with a topic, sharing one, or showing up in the community is already support. If you are moved to give, it covers power, internet, and the AI tools that keep this Codex running.',
+    'I created The 21st Memory as a living archive: an organized, AI-assisted companion so people can more easily find their way through the dense material. The originals remain the source. I point everyone back to them because their frequencies carry something no summary can fully replace.',
+    'I tend this archive from a quiet corner of Vancouver Island with my cat Spooky. Most days I try to finish one or two categories. It’s work I love, offered freely because charging for humanity’s free information would feel wrong.',
+    'Sitting with a topic, sharing one, or showing up in the community is already real support. The Great Remembering happens through all of us.',
+    'If you are moved to give, it covers the practical side — power, internet, AI tools, and the basic costs of keeping the work going — so the archive can continue without interruption. A gift is never required. Nothing is gated.',
   ]);
+  const lead = messages[0] || '';
+  const story = messages.slice(1);
+  const fundsLabel = s.fundsLabel || 'Ways to support';
   const funds = Array.isArray(s.funds) ? s.funds : [];
   const gofundme = s.gofundme;
   const starlink = s.starlink;
@@ -171,9 +177,14 @@ function renderSupportPage(footerData, options = {}) {
   const btcDisplay = truncateMiddle(btcAddress, 12, 8);
   const bitcoinHint = s.bitcoinHint || 'Direct, no platform in between. Scan the QR or copy the address.';
 
-  const messageHTML = messages
-    .map((para) => `<p class="page-hero-lead support-lead">${para}</p>`)
-    .join('\n        ');
+  const leadHTML = lead
+    ? `<p class="page-hero-lead support-lead">${lead}</p>`
+    : '';
+  const storyHTML = story.length
+    ? `<div class="support-story">
+        ${story.map((para) => `<p>${para}</p>`).join('\n        ')}
+      </div>`
+    : '';
 
   const cardMedia = (src) => {
     if (!src) return '';
@@ -244,16 +255,23 @@ function renderSupportPage(footerData, options = {}) {
             <button type="button" class="btn-primary footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address"><span>Copy address</span></button>
           </article>`;
 
+  const resolverHTML = resolver
+    ? `\n        <p class="support-resolver" role="note">${resolver}</p>`
+    : '';
+
   return `    <header class="page-hero page-hero--interior max-w-3xl mx-auto px-6 text-center" id="support">
         ${eyebrow ? `<p class="page-hero-eyebrow">${eyebrow}</p>` : ''}
         <h1 class="page-hero-title page-hero-title--page font-semibold tracking-tighter leading-none mb-5">${heading}</h1>
-        ${messageHTML}
-        ${resolver ? `<p class="support-resolver" role="note">${resolver}</p>` : ''}
+        ${leadHTML}${resolverHTML}
+        ${storyHTML}
     </header>
     <div class="max-w-6xl mx-auto px-6 page-shell page-shell--after-hero pb-16">
-      <ul class="support-ways" aria-label="${s.fundsLabel || 'Three ways people help'}">
+      <section class="support-ways-section" aria-labelledby="support-ways-heading">
+        <p class="section-eyebrow mb-5" id="support-ways-heading">${fundsLabel}</p>
+        <ul class="support-ways">
         ${fundsHTML}
-      </ul>
+        </ul>
+      </section>
       <section id="give" class="support-give home-section-anchor" aria-labelledby="give-heading">
         <p class="section-eyebrow mb-5" id="give-heading">Ways to give</p>
         <div class="support-give-grid">

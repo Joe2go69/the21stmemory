@@ -90,10 +90,13 @@
     },
     "message": [
       "The transmissions are already free — at the source, and here. That will not change.",
-      "Sitting with a topic, sharing one, or showing up in the community is already support. If you are moved to give, it covers power, internet, and the AI tools that keep this Codex running."
+      "I created The 21st Memory as a living archive: an organized, AI-assisted companion so people can more easily find their way through the dense material. The originals remain the source. I point everyone back to them because their frequencies carry something no summary can fully replace.",
+      "I tend this archive from a quiet corner of Vancouver Island with my cat Spooky. Most days I try to finish one or two categories. It’s work I love, offered freely because charging for humanity’s free information would feel wrong.",
+      "Sitting with a topic, sharing one, or showing up in the community is already real support. The Great Remembering happens through all of us.",
+      "If you are moved to give, it covers the practical side — power, internet, AI tools, and the basic costs of keeping the work going — so the archive can continue without interruption. A gift is never required. Nothing is gated."
     ],
-    "resolver": "No finance means this is not a product, a course, or a paywall. A gift is never required, and nothing is gated.",
-    "fundsLabel": "Three ways people help",
+    "resolver": "",
+    "fundsLabel": "Ways to support",
     "funds": [
       {
         "title": "Share a topic",
@@ -103,14 +106,14 @@
       },
       {
         "title": "Join the community",
-        "desc": "Telegram and the Network — we remember better together.",
+        "desc": "Telegram and the Network. We remember better together.",
         "href": "https://t.me/The_21st_Memory",
         "external": true,
         "image": "images/oracle-banner.webp"
       },
       {
         "title": "Give if you are moved",
-        "desc": "Power, internet, and AI tools — the knowledge stays free.",
+        "desc": "Power, internet, tools, and the quiet ability to keep showing up. The knowledge stays free.",
         "href": "#give",
         "image": "images/about.webp"
       }
