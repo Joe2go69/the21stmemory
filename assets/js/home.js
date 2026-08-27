@@ -132,7 +132,7 @@ function bindHomePosterFallback(root) {
       img.src = 'images/video-poster.webp';
     };
     img.addEventListener('error', useBrand);
-    if (img.complete && img.naturalWidth === 0 && img.getAttribute('src')) useBrand();
+    if (img.complete && img.naturalWidth === 0 && img.currentSrc) useBrand();
   });
 }
 

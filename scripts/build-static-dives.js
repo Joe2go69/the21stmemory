@@ -601,7 +601,6 @@ function renderStubActions({ sourceId, assetBase = ASSET_BASE }) {
 }
 
 function renderParticleFacade(rawTitle, posterUrl) {
-  const safe = escapeAttr(rawTitle || 'Video transmission');
   const overlay =
     `<div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>` +
     `<div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">` +
@@ -609,14 +608,9 @@ function renderParticleFacade(rawTitle, posterUrl) {
     `<svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true">` +
     `<path d="M8 5v14l11-7z"/></svg></div></div>`;
   const thumb = String(posterUrl || '').trim();
-  if (/^https?:\/\//i.test(thumb)) {
-    return (
-      `<img src="${escapeAttr(thumb)}" alt="" class="video-poster-img absolute inset-0 w-full h-full object-cover" width="1280" height="720" loading="lazy" decoding="async">` +
-      overlay
-    );
-  }
+  const src = /^https?:\/\//i.test(thumb) ? thumb : `${ASSET_BASE}images/video-poster.webp`;
   return (
-    `<canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="${safe}" aria-hidden="true"></canvas>` +
+    `<img src="${escapeAttr(src)}" alt="" class="video-poster-img absolute inset-0 w-full h-full object-cover" width="1280" height="720" loading="lazy" decoding="async">` +
     overlay
   );
 }
@@ -1000,7 +994,6 @@ ${bodyMain}
     <script src="${ASSET_BASE}assets/js/icons.js" defer></script>
     <script src="${ASSET_BASE}assets/js/topics-utils.js" defer></script>
     <script src="${ASSET_BASE}assets/js/shared.js" defer></script>
-    <script src="${ASSET_BASE}assets/js/particle-backgrounds.js" defer></script>
     <script src="${ASSET_BASE}assets/js/dive-static.js" defer></script>
 </body>
 </html>

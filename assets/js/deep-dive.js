@@ -812,9 +812,6 @@ async function loadLessonViewer() {
           .join('');
         TopicUtils.setupClickToPlayVideos(videosContainer);
         RenderUtils.setupImageFallbacks(videosContainer, 'img[data-img-fallback]');
-        if (typeof window.initParticleBackgrounds === 'function') {
-          requestAnimationFrame(() => window.initParticleBackgrounds(videosContainer));
-        }
       };
 
       if (videoLangs && videoLangs.length > 1 && sectionWrap) {

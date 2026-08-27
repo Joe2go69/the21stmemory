@@ -238,24 +238,22 @@ const TopicUtils = {
     );
   },
 
+  isUsablePosterSrc(src) {
+    const thumb = String(src || '').trim();
+    return /^https?:\/\//i.test(thumb) || (thumb.includes('images/') && /\.(webp|png|jpe?g|gif)$/i.test(thumb));
+  },
+
   /**
-   * Click-to-play facade: Rumble still when posterUrl is set, else title-seeded particles.
+   * Click-to-play facade: Rumble still when posterUrl is set, else the brand poster.
    */
   renderVideoPosterMarkup(titleOrPosterSrc, posterUrl) {
     const raw = String(titleOrPosterSrc || '');
     const looksLikePath = /\.(webp|png|jpe?g|gif|svg)(\?|$)/i.test(raw) || raw.includes('images/');
-    const title = looksLikePath ? '21st Memory video' : (raw || '21st Memory video');
-    const safeTitle = this.escapeAttr(title);
     const overlay = this.videoPlayOverlayHtml();
     const thumb = String(posterUrl || (looksLikePath ? raw : '') || '').trim();
-    if (/^https?:\/\//i.test(thumb) || (thumb.includes('images/') && /\.(webp|png|jpe?g|gif)$/i.test(thumb))) {
-      return (
-        `<img src="${this.escapeAttr(thumb)}" alt="" class="video-poster-img absolute inset-0 w-full h-full object-cover" width="1280" height="720" loading="lazy" decoding="async">` +
-        overlay
-      );
-    }
+    const src = this.isUsablePosterSrc(thumb) ? thumb : this.defaultVideoPosterPath();
     return (
-      `<canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="${safeTitle}" aria-hidden="true"></canvas>` +
+      `<img src="${this.escapeAttr(src)}" alt="" class="video-poster-img absolute inset-0 w-full h-full object-cover" width="1280" height="720" loading="lazy" decoding="async">` +
       overlay
     );
   },
@@ -266,24 +264,23 @@ const TopicUtils = {
       if (img.dataset.posterFallback === 'brand') return;
       if (img.dataset.fallbackBound === 'true') return;
       img.dataset.fallbackBound = 'true';
-      const toParticle = () => {
-        const wrap = img.closest('[data-rumble-embed]');
-        if (!wrap) return;
-        const title = wrap.dataset.videoTitle || '21st Memory video';
-        wrap.dataset.posterUrl = '';
-        wrap.innerHTML = this.renderVideoPosterMarkup(title);
-        if (typeof window.initParticleBackgrounds === 'function') {
-          requestAnimationFrame(() => window.initParticleBackgrounds(wrap));
-        }
+      const useBrand = () => {
+        if (img.dataset.usedBrand === 'true') return;
+        const brand = this.defaultVideoPosterPath();
+        img.dataset.usedBrand = 'true';
+        if (img.getAttribute('src') === brand) return;
+        img.src = brand;
       };
-      img.addEventListener('error', toParticle);
-      if (img.complete && img.naturalWidth === 0 && img.getAttribute('src')) toParticle();
+      img.addEventListener('error', useBrand);
+      // Lazy images that have not been requested yet report complete + naturalWidth 0.
+      // Only treat as broken when the browser actually selected a source.
+      if (img.complete && img.naturalWidth === 0 && img.currentSrc) useBrand();
     });
   },
 
   /**
    * Stop every other Rumble player so only one video plays at a time.
-   * Restores particle facade + play UI for click-to-play wraps; removes orphan iframes.
+   * Restores the poster facade + play UI for click-to-play wraps; removes orphan iframes.
    */
   stopOtherRumbleVideos(exceptEl = null) {
     const isExcept = (el) => {
@@ -292,7 +289,6 @@ const TopicUtils = {
         || (typeof el.contains === 'function' && el.contains(exceptEl));
     };
 
-    const restored = [];
     document.querySelectorAll('[data-rumble-embed]').forEach((wrap) => {
       if (isExcept(wrap)) return;
       const iframe = wrap.querySelector('iframe');
@@ -312,7 +308,6 @@ const TopicUtils = {
       wrap.setAttribute('role', 'button');
       wrap.setAttribute('tabindex', '0');
       wrap.setAttribute('aria-label', `Play video: ${title}`);
-      restored.push(wrap);
     });
 
     // Orphan embeds (e.g. replaced nodes or direct iframes)
@@ -322,12 +317,6 @@ const TopicUtils = {
       iframe.remove();
     });
 
-    const needPaint = restored.filter((wrap) => wrap.querySelector('.particle-canvas'));
-    if (needPaint.length && typeof window.initParticleBackgrounds === 'function') {
-      requestAnimationFrame(() => {
-        needPaint.forEach((wrap) => window.initParticleBackgrounds(wrap));
-      });
-    }
   },
 
   setupClickToPlayVideos(root = document) {

@@ -65,7 +65,6 @@ function renderParticleFacade(rawTitle, posterUrl) {
   if (typeof TopicUtils !== 'undefined' && TopicUtils.renderVideoPosterMarkup) {
     return TopicUtils.renderVideoPosterMarkup(rawTitle, posterUrl);
   }
-  const safe = escapeVideoAttr(rawTitle || 'Video transmission');
   const overlay =
     `<div class="video-particle-vignette absolute inset-0 pointer-events-none" aria-hidden="true"></div>` +
     `<div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none" aria-hidden="true">` +
@@ -73,14 +72,9 @@ function renderParticleFacade(rawTitle, posterUrl) {
     `<svg viewBox="0 0 24 24" fill="currentColor" class="play-button__icon" aria-hidden="true">` +
     `<path d="M8 5v14l11-7z"/></svg></div></div>`;
   const thumb = String(posterUrl || '').trim();
-  if (/^https?:\/\//i.test(thumb)) {
-    return (
-      `<img src="${escapeVideoAttr(thumb)}" alt="" class="video-poster-img absolute inset-0 w-full h-full object-cover" width="1280" height="720" loading="lazy" decoding="async">` +
-      overlay
-    );
-  }
+  const src = /^https?:\/\//i.test(thumb) ? thumb : defaultVideoPosterSrc();
   return (
-    `<canvas class="particle-canvas absolute inset-0 w-full h-full" data-title="${safe}" aria-hidden="true"></canvas>` +
+    `<img src="${escapeVideoAttr(src)}" alt="" class="video-poster-img absolute inset-0 w-full h-full object-cover" width="1280" height="720" loading="lazy" decoding="async">` +
     overlay
   );
 }
@@ -142,9 +136,6 @@ function initVideoLanguageSwitcher() {
       TopicUtils.setupClickToPlayVideos(container);
     } else {
       initClickToPlayVideos();
-    }
-    if (typeof window.initParticleBackgrounds === 'function') {
-      requestAnimationFrame(() => window.initParticleBackgrounds(container));
     }
     try {
       localStorage.setItem(VIDEO_LANG_STORAGE_KEY, lang.code);
@@ -600,9 +591,6 @@ function initClickToPlayVideos() {
           parent.setAttribute('role', 'button');
           parent.setAttribute('tabindex', '0');
           parent.setAttribute('aria-label', `Play video: ${title}`);
-          if (typeof window.initParticleBackgrounds === 'function') {
-            requestAnimationFrame(() => window.initParticleBackgrounds(parent));
-          }
         } else if (!parent) {
           iframe.remove();
         }

@@ -48,7 +48,11 @@ async function attachRumblePosters(videos, { force = false, delayMs = 0 } = {}) 
       skipped += 1;
       continue;
     }
-    const url = await fetchRumblePosterUrl(video.embed_url);
+    let url = await fetchRumblePosterUrl(video.embed_url);
+    if (!url) {
+      await sleep(Math.max(delayMs, 250));
+      url = await fetchRumblePosterUrl(video.embed_url);
+    }
     if (url) {
       video.poster_url = url;
       attached += 1;
