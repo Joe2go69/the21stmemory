@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T06:55:19.478Z",
-  "total": 150,
+  "generatedAt": "2026-08-27T04:46:08.712Z",
+  "total": 151,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 90
+      "count": 91
     }
   ],
   "quizzes": [
@@ -1776,6 +1776,19 @@
       "href": "quiz/breakdown/targeting-parasites.html",
       "diveHref": "dive/breakdown/targeting-parasites.html",
       "key": "breakdown/targeting-parasites"
+    },
+    {
+      "id": "tartarian-erasure",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Tartarian Erasure",
+      "subtitle": "Test your understanding of Tartarian Erasure — Historic Resets, Real Sol Architecture, and the overlay that hides the living temple.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/tartarian-erasure.html",
+      "diveHref": "dive/breakdown/tartarian-erasure.html",
+      "key": "breakdown/tartarian-erasure"
     },
     {
       "id": "the-cube-system",
