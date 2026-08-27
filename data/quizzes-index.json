@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T07:21:51.350Z",
-  "total": 152,
+  "generatedAt": "2026-08-27T22:08:18.839Z",
+  "total": 153,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 92
+      "count": 93
     }
   ],
   "quizzes": [
@@ -853,6 +853,19 @@
       "href": "quiz/breakdown/amnesia-vortex.html",
       "diveHref": "dive/breakdown/amnesia-vortex.html",
       "key": "breakdown/amnesia-vortex"
+    },
+    {
+      "id": "ascension-event",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Ascension Event",
+      "subtitle": "Test your understanding of Ascension Event — the frequency collapse of the 3D overlay, the Portal of Vibration Alignment, and The Homecoming.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/ascension-event.html",
+      "diveHref": "dive/breakdown/ascension-event.html",
+      "key": "breakdown/ascension-event"
     },
     {
       "id": "atmospheric-pop",

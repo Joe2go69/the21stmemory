@@ -1068,7 +1068,7 @@
       "sourceId": "breakdown",
       "topicId": "ascension-event",
       "path": "/dive/breakdown/ascension-event.html",
-      "live": false,
+      "live": true,
       "title": "Ascension Event"
     },
     {
