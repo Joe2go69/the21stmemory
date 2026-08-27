@@ -103,7 +103,8 @@ function verifyInstall({ source, id, kind = 'all' }) {
       add('MC items have 4 options', mcOk);
       add('T/F items are True then False only', tfOk, tfCount ? `${tfCount} T/F` : 'none');
     }
-    const cta = `Take the ${title} Quiz`;
+    const t = String(title || '').trim();
+    const cta = /^the\b/i.test(t) ? `Take ${t} Quiz` : `Take the ${t} Quiz`;
     add(`dive CTA: ${cta}`, dive.includes(cta));
   }
 

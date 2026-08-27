@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T04:46:08.712Z",
-  "total": 151,
+  "generatedAt": "2026-08-27T07:21:51.350Z",
+  "total": 152,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 91
+      "count": 92
     }
   ],
   "quizzes": [
@@ -1815,6 +1815,19 @@
       "href": "quiz/breakdown/the-first-72-hours.html",
       "diveHref": "dive/breakdown/the-first-72-hours.html",
       "key": "breakdown/the-first-72-hours"
+    },
+    {
+      "id": "the-homecoming",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "The Homecoming",
+      "subtitle": "Test your understanding of The Homecoming — the sovereign return of the Resonating Army through the resonance bridge, solar gates, and frequency phase out.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/the-homecoming.html",
+      "diveHref": "dive/breakdown/the-homecoming.html",
+      "key": "breakdown/the-homecoming"
     },
     {
       "id": "the-purge-phases",
