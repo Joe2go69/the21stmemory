@@ -73,6 +73,12 @@
       "title": "Support the Archive | 21st Memory",
       "description": "The 21st Memory is a free living archive. Sitting with a topic, sharing one, or showing up is already support. A gift is never required — nothing is gated.",
       "webPage": true
+    },
+    "source.html": {
+      "path": "/source.html",
+      "title": "The Source | Original Thalon Thor Transmissions",
+      "description": "Sit with original Thalon Thor transmissions from Christian21. The harmonic tones in the source videos carry something no summary can fully replace.",
+      "webPage": true
     }
   }
 }

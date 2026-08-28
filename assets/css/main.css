@@ -22044,6 +22044,198 @@ a.support-way.has-media .support-way__desc {
 }
 
 /* ------------------------------------------------------------------
+   Source listening room (source.html)
+   ------------------------------------------------------------------ */
+.page-source .page-hero--interior {
+  padding-bottom: 1.75rem !important;
+}
+
+@media (min-width: 768px) {
+  .page-source .page-hero--interior {
+    padding-bottom: 2rem !important;
+  }
+}
+
+.page-source .page-hero--interior .source-lead {
+  margin-bottom: 1.2rem;
+  max-width: none;
+}
+
+.source-story {
+  display: grid;
+  gap: 0.95rem;
+  max-width: none;
+  margin: 0;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-prose);
+}
+
+.source-story p {
+  margin: 0;
+}
+
+.source-doors-section .section-eyebrow,
+.source-videos-section .section-eyebrow {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.source-doors {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  list-style: none;
+  margin: 0 0 2.5rem;
+  padding: 0;
+}
+
+@media (min-width: 700px) {
+  .source-doors {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85rem;
+  }
+}
+
+.source-videos-section {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.source-video-stack {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.source-plate {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: var(--radius-card);
+}
+
+@media (min-width: 640px) {
+  .source-plate {
+    padding: 1.25rem;
+  }
+}
+
+.source-plate__frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  padding: 0.35rem;
+  border-radius: 1rem;
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.06) 0%, transparent 48%),
+    rgba(12, 8, 26, 0.72);
+  box-shadow:
+    var(--surface-tier-recessed),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.source-plate .video-poster-wrap {
+  position: absolute;
+  inset: 0.35rem;
+  overflow: hidden;
+  border-radius: 0.85rem;
+  cursor: pointer;
+  background-color: #0F0A1F;
+}
+
+.source-plate__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+  padding: 0.95rem 0.15rem 0.1rem;
+}
+
+.source-plate__title {
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  color: var(--text-primary);
+}
+
+.source-plate__meta {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.source-plate__note {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--text-muted);
+}
+
+.source-plate .play-button {
+  width: 3.5rem;
+  height: 3.5rem;
+  background: rgba(15, 10, 31, 0.78);
+  box-shadow:
+    0 8px 18px -10px rgba(0, 0, 0, 0.7),
+    inset 0 1px 0 rgba(255, 255, 255, 0.14);
+}
+
+.source-plate .video-poster-wrap:hover .play-button,
+.source-plate .play-button.is-pulse-once {
+  background: rgba(15, 10, 31, 0.9);
+}
+
+.source-close {
+  max-width: 36rem;
+  margin: 2.5rem auto 0;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(124, 58, 237, 0.18);
+  text-align: center;
+}
+
+.source-close p {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.source-listen-callout .section-eyebrow {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.source-listen-card {
+  min-height: 9.75rem;
+  padding: 1.25rem 1.25rem 1.35rem;
+}
+
+a.source-listen-card .support-way__title {
+  font-size: 1.12rem;
+}
+
+a.source-listen-card .support-way__desc {
+  font-size: 0.9rem;
+  max-width: 34rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .source-plate .play-button.is-pulse-once {
+    transform: none;
+  }
+}
+
+/* ------------------------------------------------------------------
    Footer — compact utility band (one rule, wrapping Explore, 4×2 icons)
    ------------------------------------------------------------------ */
 .site-footer {
