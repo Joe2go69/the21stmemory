@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T22:08:18.839Z",
-  "total": 153,
+  "generatedAt": "2026-08-28T09:35:14.250Z",
+  "total": 154,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 93
+      "count": 94
     }
   ],
   "quizzes": [
@@ -1100,6 +1100,19 @@
       "href": "quiz/breakdown/frequency-fracture.html",
       "diveHref": "dive/breakdown/frequency-fracture.html",
       "key": "breakdown/frequency-fracture"
+    },
+    {
+      "id": "frequency-lock",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Frequency Lock",
+      "subtitle": "Test your understanding of Frequency Lock — the extraction-point seal that makes aligned departure un-jammable.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/frequency-lock.html",
+      "diveHref": "dive/breakdown/frequency-lock.html",
+      "key": "breakdown/frequency-lock"
     },
     {
       "id": "frequency-trick",

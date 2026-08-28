@@ -1075,7 +1075,7 @@
       "sourceId": "breakdown",
       "topicId": "frequency-lock",
       "path": "/dive/breakdown/frequency-lock.html",
-      "live": false,
+      "live": true,
       "title": "Frequency Lock"
     },
     {
