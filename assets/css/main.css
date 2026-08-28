@@ -22314,10 +22314,14 @@ a.source-series-door:hover .source-series-door__cta {
   text-decoration: none;
 }
 
-.source-hero-actions .text-link,
-.media-banner-actions .text-link {
+.source-hero-actions .text-link {
   width: 100%;
   margin-top: 0.1rem;
+}
+
+.oracle-banner-footnote .text-link {
+  font-size: inherit;
+  font-weight: 600;
 }
 
 .source-listen-callout .section-eyebrow {
