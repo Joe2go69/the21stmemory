@@ -14,6 +14,7 @@ Primary bar (from `assets/data/navbar.json`): **Codex · Quizzes · Source · Ne
 - Logo = Home (no separate Home link)  
 - Oracle / Media / About live on the homepage and in footer Explore — not top nav  
 - Source is `source.html` (original CH21 / Rumble transmissions). Top nav + footer Explore. Homepage Media and the Network callout stay as contextual doors. Do not add extra Source buttons on Codex/Quizzes hubs.  
+- Mega Breakdown series is `mega-breakdown.html` — a Source child (not top nav). Linked from Source, the Mega Breakdown path hero, and breakdown dive continue rows.  
 - Support is `support.html` (dedicated hub). Old `#support` hashes redirect there.  
 - After editing JSON: `npm run build:chrome` (+ quiz/dive chrome sync, or full `npm run build`)
 

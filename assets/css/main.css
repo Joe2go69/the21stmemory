@@ -22154,6 +22154,19 @@ a.support-way.has-media .support-way__desc {
   padding: 0.95rem 0.15rem 0.1rem;
 }
 
+.source-plate[id^="part-"] {
+  scroll-margin-top: calc(5.5rem + env(safe-area-inset-top, 0px));
+}
+
+.source-plate__num {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
 .source-plate__title {
   margin: 0;
   font-family: 'Space Grotesk', sans-serif;
@@ -22207,6 +22220,89 @@ a.support-way.has-media .support-way__desc {
   font-size: 1.05rem;
   line-height: 1.6;
   color: var(--text-muted);
+}
+
+.source-close__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem 1.25rem;
+}
+
+.source-series-meta {
+  margin: 0 0 1.15rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.page-series .home-hero-actions {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.page-series .source-story {
+  text-align: center;
+}
+
+.source-series-section {
+  max-width: 48rem;
+  margin: 0 auto 2.5rem;
+}
+
+.source-series-section .section-eyebrow {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.source-series-door {
+  min-height: 10.5rem;
+  padding: 1.35rem 1.3rem 1.4rem;
+}
+
+a.source-series-door .support-way__title {
+  font-size: 1.12rem;
+}
+
+a.source-series-door .support-way__desc {
+  font-size: 0.9rem;
+  max-width: 34rem;
+}
+
+.source-series-door__cta {
+  margin-top: auto;
+  padding-top: 0.55rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-soft);
+}
+
+a.source-series-door:hover .source-series-door__cta {
+  color: #F8FAFC;
+}
+
+.series-jump {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.4rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  padding: 0.1rem 0 0.55rem;
+  margin: 0 0 1.35rem;
+}
+
+.series-jump .btn-jump-pill {
+  flex: 0 0 auto;
+  text-decoration: none;
+}
+
+.source-hero-actions .text-link {
+  width: 100%;
+  margin-top: 0.1rem;
 }
 
 .source-listen-callout .section-eyebrow {

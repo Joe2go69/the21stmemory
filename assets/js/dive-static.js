@@ -1,5 +1,21 @@
 // Progressive enhancement for prerendered dive/*.html pages
 
+function initBreakdownSeriesLink() {
+  if (document.body?.dataset?.source !== 'breakdown') return;
+  const actions = document.querySelector('.dive-continue__actions');
+  if (!actions || actions.querySelector('[data-series-link]')) return;
+
+  const link = document.createElement('a');
+  link.href = '../../mega-breakdown.html';
+  link.className = 'text-link dive-continue__link';
+  link.dataset.seriesLink = 'true';
+  link.textContent = 'Watch the Mega Breakdown series →';
+
+  const more = actions.querySelector('a.dive-continue__link');
+  if (more) actions.insertBefore(link, more);
+  else actions.appendChild(link);
+}
+
 function initDiveStatic() {
   if (!document.body?.dataset?.diveStatic) return;
 
@@ -7,6 +23,7 @@ function initDiveStatic() {
   initInfographicModal();
   initSlideDeckArtifacts();
   initClickToPlayVideos();
+  initBreakdownSeriesLink();
   // After click-to-play: may re-render non-English default and rebind that set only
   initVideoLanguageSwitcher();
   if (typeof TopicUtils !== 'undefined' && TopicUtils.initReportReadingProgress) {

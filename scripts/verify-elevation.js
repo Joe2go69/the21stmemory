@@ -133,7 +133,7 @@ function fileSize(rel) {
 
   check(g, '404 has Codex and Support paths', read('404.html').includes('codex.html') && read('404.html').includes('href="support.html"') && !read('404.html').includes('footer-support-tabs'));
 
-  for (const page of ['codex.html', 'network.html', 'topics.html', '404.html', 'support.html', 'source.html']) {
+  for (const page of ['codex.html', 'network.html', 'topics.html', '404.html', 'support.html', 'source.html', 'mega-breakdown.html']) {
     const html = read(page);
     check(g, `${page} scripts deferred`, /<script src="assets\/js\/[^"]+" defer>/.test(html));
     check(g, `${page} skip-link or redirect`, html.includes('skip-link') || html.includes('location.replace') || page === '404.html');

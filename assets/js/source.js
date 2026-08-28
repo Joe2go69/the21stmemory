@@ -113,9 +113,44 @@ function initSourcePlayPulse(root) {
   wraps.forEach((wrap) => observer.observe(wrap));
 }
 
+function initSeriesJump(stack) {
+  const nav = document.querySelector('.series-jump');
+  if (!nav || !stack) return;
+
+  const chips = Array.from(nav.querySelectorAll('a[href^="#part-"]'));
+  const parts = Array.from(stack.querySelectorAll('.source-plate[id^="part-"]'));
+  if (!chips.length || !parts.length) return;
+
+  const setActive = (id) => {
+    chips.forEach((chip) => {
+      const on = chip.getAttribute('href') === `#${id}`;
+      chip.classList.toggle('is-active', on);
+      if (on) chip.setAttribute('aria-current', 'true');
+      else chip.removeAttribute('aria-current');
+    });
+  };
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      const visible = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+      if (!visible.length) return;
+      setActive(visible[0].target.id);
+    },
+    { rootMargin: '-30% 0px -55% 0px', threshold: [0.15, 0.4, 0.7] }
+  );
+
+  parts.forEach((part) => observer.observe(part));
+  const initial = (window.location.hash || '').replace(/^#/, '');
+  setActive(parts.some((part) => part.id === initial) ? initial : parts[0].id);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
-  const stack = document.getElementById('source-video-stack');
+  const stack = document.getElementById('source-video-stack')
+    || document.getElementById('series-video-stack');
   setupSourceVideos(stack);
   bindSourcePosterFallback(stack);
   initSourcePlayPulse(stack);
+  initSeriesJump(stack);
 });

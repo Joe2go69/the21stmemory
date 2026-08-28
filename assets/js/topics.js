@@ -528,6 +528,9 @@ function renderSourceHeader(data, sourceId, stats) {
          View original PDF
        </a>`
     : '';
+  const seriesLink = sourceId === 'breakdown'
+    ? `<a href="mega-breakdown.html" class="text-link">Watch the original 13-part series →</a>`
+    : '';
 
   document.getElementById('source-header').innerHTML = `
     ${breadcrumbs}
@@ -546,6 +549,7 @@ function renderSourceHeader(data, sourceId, stats) {
             <a href="#explore-topics" class="btn-primary">Explore topics ↓</a>
             <a href="codex.html" class="btn-secondary">← Back to Codex</a>
             ${pdfBtn}
+            ${seriesLink}
           </div>
         </div>
         <div class="source-hero-media">

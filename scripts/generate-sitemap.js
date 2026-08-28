@@ -105,7 +105,8 @@ function staticEntries() {
     { path: '/deep-dive.html', priority: '0.9', changefreq: 'weekly' },
     { path: '/quizzes.html', priority: '0.92', changefreq: 'weekly' },
     { path: '/support.html', priority: '0.85', changefreq: 'monthly' },
-    { path: '/source.html', priority: '0.86', changefreq: 'monthly' }
+    { path: '/source.html', priority: '0.86', changefreq: 'monthly' },
+    { path: '/mega-breakdown.html', priority: '0.84', changefreq: 'monthly' }
   ];
 }
 

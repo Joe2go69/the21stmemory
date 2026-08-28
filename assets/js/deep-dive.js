@@ -547,6 +547,9 @@ function renderContinueLearning({ sourceId, topic }) {
     <div class="dive-continue__actions">
       ${quizBlock}
       <a href="source.html" class="btn-secondary dive-continue__btn">Sit with the Source</a>
+      ${sourceId === 'breakdown'
+        ? `<a href="mega-breakdown.html" class="text-link dive-continue__link">Watch the Mega Breakdown series →</a>`
+        : ''}
       <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="text-link dive-continue__link">More topics in this transmission →</a>
     </div>
     <p class="dive-continue__disclaimer">
