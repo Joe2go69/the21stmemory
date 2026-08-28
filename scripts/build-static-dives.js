@@ -576,11 +576,11 @@ function renderContinueLearning({ sourceId, quiz, lastUpdated, assetBase = ASSET
   <aside class="dive-continue content-card static-card p-6 md:p-8 mt-8" aria-label="Continue learning">
     <h2 class="dive-continue__title">Continue learning</h2>
     <p class="dive-continue__lead">
-      This archive is an AI-assisted bridge. For the source material, visit the original transmissions on the Network.
+      This archive is an AI-assisted bridge. For the source material, sit with the original transmissions.
     </p>
     <div class="dive-continue__actions">
       ${quizBlock}
-      <a href="${assetBase}network.html" class="btn-secondary dive-continue__btn">Open the Thalon Thor Network</a>
+      <a href="${assetBase}source.html" class="btn-secondary dive-continue__btn">Sit with the Source</a>
       <a href="${assetBase}topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="text-link dive-continue__link">More topics in this transmission →</a>
     </div>
     <p class="dive-continue__disclaimer">

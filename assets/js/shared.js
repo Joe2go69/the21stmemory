@@ -15,6 +15,7 @@ const INDEX_SECTION_LINKS = new Set([
   'index.html#media'
 ]);
 const SUPPORT_PAGES = new Set(['support.html']);
+const SOURCE_PAGES = new Set(['source.html']);
 
 /** Home (and footer) hash targets that need measured scroll under the fixed nav */
 const MEASURED_SCROLL_HASHES = new Set(['oracle', 'media', 'about', 'codex', 'give', 'support']);
@@ -926,6 +927,10 @@ function isNavLinkActive(href, currentPath, currentHash) {
   }
 
   if (linkPath === 'support.html' && SUPPORT_PAGES.has(currentPath)) {
+    return true;
+  }
+
+  if (linkPath === 'source.html' && SOURCE_PAGES.has(currentPath)) {
     return true;
   }
 

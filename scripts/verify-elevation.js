@@ -36,6 +36,9 @@ function fileSize(rel) {
   const navData = JSON.parse(read('assets/data/navbar.json'));
   const footerData = JSON.parse(read('assets/data/footer.json'));
   check(g, 'nav Support is a page', navData.links.some((l) => l.text === 'Support' && l.href === 'support.html'));
+  check(g, 'nav Source is a page', navData.links.some((l) => l.text === 'Source' && l.href === 'source.html'));
+  const navTexts = navData.links.map((l) => l.text);
+  check(g, 'nav order Codex Quizzes Source Network Support', navTexts.join(' ') === 'Codex Quizzes Source Network Support');
   check(g, 'footer slim CTA href', footerData.support?.cta?.href === 'support.html');
   check(g, 'support.html exists', exists('support.html'));
 

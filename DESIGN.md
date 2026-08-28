@@ -10,10 +10,10 @@ Short guide for keeping the living-archive look consistent after the elevation p
 
 ## Navigation (IA)
 
-Primary bar (from `assets/data/navbar.json`): **Codex · Quizzes · Network · Support · [Telegram]**  
+Primary bar (from `assets/data/navbar.json`): **Codex · Quizzes · Source · Network · Support · [Telegram]**  
 - Logo = Home (no separate Home link)  
 - Oracle / Media / About live on the homepage and in footer Explore — not top nav  
-- Source is `source.html` (original CH21 / Rumble transmissions). Footer Explore + homepage Media + Network callout — not top nav.  
+- Source is `source.html` (original CH21 / Rumble transmissions). Top nav + footer Explore. Homepage Media and the Network callout stay as contextual doors. Do not add extra Source buttons on Codex/Quizzes hubs.  
 - Support is `support.html` (dedicated hub). Old `#support` hashes redirect there.  
 - After editing JSON: `npm run build:chrome` (+ quiz/dive chrome sync, or full `npm run build`)
 
