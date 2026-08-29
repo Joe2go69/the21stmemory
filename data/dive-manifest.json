@@ -1082,7 +1082,7 @@
       "sourceId": "breakdown",
       "topicId": "solar-gate",
       "path": "/dive/breakdown/solar-gate.html",
-      "live": false,
+      "live": true,
       "title": "Solar Gate"
     },
     {

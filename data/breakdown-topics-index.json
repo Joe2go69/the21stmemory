@@ -725,9 +725,9 @@
             {
               "id": "solar-gate",
               "title": "Solar Gate",
-              "description": "Decoded analysis of Solar Gate within the Mega Breakdown Board Notes & Highlights transmission.",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "description": "A multi-banded crystalline stargate through the sun that restores original memory codes, collapses the amnesia vortex, and opens the homecoming pathway for awakened souls.",
+              "topic_image": "images/breakdown/solar-gate.webp",
+              "is_placeholder": false
             },
             {
               "id": "resonance-bridge",
