@@ -179,13 +179,15 @@ function initVideoLanguageSwitcher() {
   if (languages.some((l) => l.code === initial)) {
     select.value = initial;
   }
-  // Prerender is English; re-render only when starting on another language
-  if (select.value && select.value !== 'en') {
-    applyLanguage(select.value);
-  }
 
   select.addEventListener('change', () => applyLanguage(select.value));
   if (typeof initVaultSelects === 'function') initVaultSelects();
+
+  // Prerender is English. Dispatch so videos and the custom trigger both
+  // pick up a stored/detected language — setting .value does not fire change.
+  if (select.value && select.value !== 'en') {
+    select.dispatchEvent(new Event('change', { bubbles: true }));
+  }
 }
 
 function setJumpPillsActive(activeId) {

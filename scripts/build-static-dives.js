@@ -659,10 +659,9 @@ function renderVideoLanguageBar(languages) {
   const json = JSON.stringify(languages).replace(/</g, '\\u003c');
   return `
         <div class="video-lang-bar" id="video-lang-bar">
-          <span class="video-lang-bar__kicker">Language</span>
           <label class="video-lang-bar__label" for="video-lang-select">Watch in</label>
           <div class="video-lang-bar__control">
-            <select id="video-lang-select" class="video-lang-select" aria-label="Video language">
+            <select id="video-lang-select" class="video-lang-select" aria-label="Watch in">
               ${options}
             </select>
           </div>

@@ -831,7 +831,7 @@ async function loadLessonViewer() {
         bar.innerHTML = `
           <label class="video-lang-bar__label" for="video-lang-select">Watch in</label>
           <div class="video-lang-bar__control">
-            <select id="video-lang-select" class="video-lang-select" aria-label="Video language">${options}</select>
+            <select id="video-lang-select" class="video-lang-select" aria-label="Watch in">${options}</select>
           </div>`;
         sectionWrap.insertBefore(bar, videosContainer);
 

@@ -136,7 +136,12 @@ function paintVaultSelect(wrap) {
 
   const current = select.options[select.selectedIndex];
   const label = current ? current.textContent.trim() : '';
-  trigger.innerHTML = `<span class="vault-select__value">${escapeVaultText(label)}</span><span class="vault-select__chevron">${VAULT_CHEVRON}</span>`;
+  const isLang = wrap.classList.contains('vault-select--lang');
+  const prefix = isLang ? '<span class="vault-select__prefix">Watch in</span>' : '';
+  trigger.innerHTML = `${prefix}<span class="vault-select__value">${escapeVaultText(label)}</span><span class="vault-select__chevron">${VAULT_CHEVRON}</span>`;
+  if (isLang) {
+    trigger.setAttribute('aria-label', label ? `Watch in ${label}` : 'Video language');
+  }
 
   menu.innerHTML = Array.from(select.options).map((opt) => {
     const selected = opt.value === select.value;
