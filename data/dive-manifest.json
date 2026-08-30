@@ -1110,7 +1110,7 @@
       "sourceId": "breakdown",
       "topicId": "origin-point",
       "path": "/dive/breakdown/origin-point.html",
-      "live": false,
+      "live": true,
       "title": "Origin Point"
     },
     {

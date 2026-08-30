@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T07:14:27.228Z",
-  "total": 158,
+  "generatedAt": "2026-08-30T08:52:17.736Z",
+  "total": 159,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 98
+      "count": 99
     }
   ],
   "quizzes": [
@@ -1490,6 +1490,19 @@
       "href": "quiz/breakdown/npc-programs.html",
       "diveHref": "dive/breakdown/npc-programs.html",
       "key": "breakdown/npc-programs"
+    },
+    {
+      "id": "origin-point",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Origin Point",
+      "subtitle": "Test your understanding of Origin Point — Reunion Mechanics, the Sol Frequency Lock, and the Seamless Frequency Phase Out back to the un-fragmented source domain.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/origin-point.html",
+      "diveHref": "dive/breakdown/origin-point.html",
+      "key": "breakdown/origin-point"
     },
     {
       "id": "original-realm",
