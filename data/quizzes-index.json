@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T05:24:10.666Z",
-  "total": 157,
+  "generatedAt": "2026-08-30T07:14:27.228Z",
+  "total": 158,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 97
+      "count": 98
     }
   ],
   "quizzes": [
@@ -1737,6 +1737,19 @@
       "href": "quiz/breakdown/solar-gate.html",
       "diveHref": "dive/breakdown/solar-gate.html",
       "key": "breakdown/solar-gate"
+    },
+    {
+      "id": "solar-parents",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Solar Parents",
+      "subtitle": "Test your understanding of Solar Parents — Reunion Mechanics, embedded codes, and restoration of the unbroken timeline.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/solar-parents.html",
+      "diveHref": "dive/breakdown/solar-parents.html",
+      "key": "breakdown/solar-parents"
     },
     {
       "id": "soul-reweaving",
