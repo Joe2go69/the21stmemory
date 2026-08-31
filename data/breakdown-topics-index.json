@@ -771,9 +771,9 @@
         {
           "id": "living-crafts",
           "title": "Living Crafts",
-          "description": "Decoded analysis of Living Crafts within the Mega Breakdown Board Notes & Highlights transmission.",
-          "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true,
+          "description": "Semi-conscious organic vessels grown from crystalline plasma and bonded to their pilots, navigating by sound + light = motion rather than engines, fuel, or metal.",
+          "topic_image": "images/breakdown/living-crafts.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "crystalline-arks",

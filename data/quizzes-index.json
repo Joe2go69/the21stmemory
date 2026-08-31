@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T04:07:32.087Z",
-  "total": 160,
+  "generatedAt": "2026-08-31T11:12:44.572Z",
+  "total": 161,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 100
+      "count": 101
     }
   ],
   "quizzes": [
@@ -1308,6 +1308,19 @@
       "href": "quiz/breakdown/liquid-sound.html",
       "diveHref": "dive/breakdown/liquid-sound.html",
       "key": "breakdown/liquid-sound"
+    },
+    {
+      "id": "living-crafts",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Living Crafts",
+      "subtitle": "Test your understanding of Living Crafts — organic crystalline vessels, sound + light = motion, motherships, and resonance-based travel.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/living-crafts.html",
+      "diveHref": "dive/breakdown/living-crafts.html",
+      "key": "breakdown/living-crafts"
     },
     {
       "id": "lockdown-window",
