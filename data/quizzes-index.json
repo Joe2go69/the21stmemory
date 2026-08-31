@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T08:52:17.736Z",
-  "total": 159,
+  "generatedAt": "2026-08-31T04:07:32.087Z",
+  "total": 160,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 99
+      "count": 100
     }
   ],
   "quizzes": [
@@ -1373,6 +1373,19 @@
       "href": "quiz/breakdown/matrix-scaffolding.html",
       "diveHref": "dive/breakdown/matrix-scaffolding.html",
       "key": "breakdown/matrix-scaffolding"
+    },
+    {
+      "id": "memory-flood",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Memory Flood",
+      "subtitle": "Test your understanding of Memory Flood — the sudden restoration of original multi-dimensional consciousness, the collapse of the Amnesia Vortex, and the return to unaltered solar records.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/memory-flood.html",
+      "diveHref": "dive/breakdown/memory-flood.html",
+      "key": "breakdown/memory-flood"
     },
     {
       "id": "memory-restoration",
