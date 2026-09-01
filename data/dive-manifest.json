@@ -1138,7 +1138,7 @@
       "sourceId": "breakdown",
       "topicId": "pilot-bonding",
       "path": "/dive/breakdown/pilot-bonding.html",
-      "live": false,
+      "live": true,
       "title": "Pilot Bonding"
     },
     {

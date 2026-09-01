@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T06:24:52.226Z",
-  "total": 162,
+  "generatedAt": "2026-09-01T09:30:19.348Z",
+  "total": 163,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 102
+      "count": 103
     }
   ],
   "quizzes": [
@@ -1646,6 +1646,19 @@
       "href": "quiz/breakdown/physical-indicators.html",
       "diveHref": "dive/breakdown/physical-indicators.html",
       "key": "breakdown/physical-indicators"
+    },
+    {
+      "id": "pilot-bonding",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Pilot Bonding",
+      "subtitle": "Test your understanding of Pilot Bonding — frequency fusion with a living crystalline vessel, sol bonding, and thought-steered navigation.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/pilot-bonding.html",
+      "diveHref": "dive/breakdown/pilot-bonding.html",
+      "key": "breakdown/pilot-bonding"
     },
     {
       "id": "population-types",
