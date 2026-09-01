@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T11:12:44.572Z",
-  "total": 161,
+  "generatedAt": "2026-09-01T06:24:52.226Z",
+  "total": 162,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 101
+      "count": 102
     }
   ],
   "quizzes": [
@@ -996,6 +996,19 @@
       "href": "quiz/breakdown/crystalline-architecture.html",
       "diveHref": "dive/breakdown/crystalline-architecture.html",
       "key": "breakdown/crystalline-architecture"
+    },
+    {
+      "id": "crystalline-arks",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Crystalline Arks",
+      "subtitle": "Test your understanding of Crystalline Arks — living motherships grown from crystalline plasma, sound-weave architecture, and telepathic navigation.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/crystalline-arks.html",
+      "diveHref": "dive/breakdown/crystalline-arks.html",
+      "key": "breakdown/crystalline-arks"
     },
     {
       "id": "crystalline-networks",
