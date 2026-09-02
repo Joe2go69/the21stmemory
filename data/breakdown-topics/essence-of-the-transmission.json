@@ -29,5 +29,219 @@
     "title": "Essence of the Transmission",
     "totalQuestions": 25,
     "description": "Test your grasp of Essence of the Transmission — CUBE containment, Second Realm crystal, scare sequence, and the return to solar-creator resonance."
-  }
+  },
+  "video_languages": [
+    {
+      "code": "en",
+      "label": "English",
+      "native_label": "English",
+      "videos": [
+        {
+          "title": "Our Reality is a Hijacked Crystalline Cube",
+          "embed_url": "https://rumble.com/embed/v79xm6c/?pub=4p0ieu",
+          "description": "Core revelations on our reality as a hijacked crystalline cube containment system.",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/bf/s8/6/m/s/r/C/msrCA.qR4e.jpg"
+        },
+        {
+          "title": "Return to Living Crystal",
+          "embed_url": "https://rumble.com/embed/v79xmmu/?pub=4p0ieu",
+          "description": "The transition from simulated overlay back to living crystalline reality.",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/19/s8/6/E/B/r/C/EBrCA.qR4e.jpg"
+        },
+        {
+          "title": "The Crystal Awakening",
+          "embed_url": "https://rumble.com/embed/v79xn1i/?pub=4p0ieu",
+          "description": "The culminating crystal awakening and collapse of the parasitic 3D illusion.",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/70/s8/6/U/J/r/C/UJrCA.qR4e.jpg"
+        }
+      ]
+    },
+    {
+      "code": "sv",
+      "label": "Swedish",
+      "native_label": "Svenska",
+      "videos": [
+        {
+          "title": "Kristallin hemkomst",
+          "embed_url": "https://rumble.com/embed/v7csjt8/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/f9/s8/6/c/r/I/U/crIUA.qR4e.jpg"
+        },
+        {
+          "title": "Så monteras den parasitära 3D-illusionen ned",
+          "embed_url": "https://rumble.com/embed/v7csjum/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/4d/s8/6/0/r/I/U/0rIUA.faa.jpg"
+        }
+      ]
+    },
+    {
+      "code": "es",
+      "label": "Spanish",
+      "native_label": "Español",
+      "videos": [
+        {
+          "title": "El colapso de la matriz parasitaria tridimensional",
+          "embed_url": "https://rumble.com/embed/v7csjoc/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/2c/s8/6/s/o/I/U/soIUA.gaa.jpg"
+        },
+        {
+          "title": "Fracturando la Matriz",
+          "embed_url": "https://rumble.com/embed/v7csjqw/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/ed/s8/6/U/p/I/U/UpIUA.qR4e.jpg"
+        }
+      ]
+    },
+    {
+      "code": "ru",
+      "label": "Russian",
+      "native_label": "Русский",
+      "videos": [
+        {
+          "title": "Возвращение к Истине",
+          "embed_url": "https://rumble.com/embed/v7csjj4/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/6b/s8/6/w/l/I/U/wlIUA.qR4e.jpg"
+        },
+        {
+          "title": "Крах 3D матрицы и пробуждение кристаллической реальности",
+          "embed_url": "https://rumble.com/embed/v7csjks/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/66/s8/6/s/m/I/U/smIUA.gaa.jpg"
+        }
+      ]
+    },
+    {
+      "code": "pt",
+      "label": "Portuguese",
+      "native_label": "Português",
+      "videos": [
+        {
+          "title": "A Farsa do Cubo Negro Holográfico",
+          "embed_url": "https://rumble.com/embed/v7cpihw/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/cf/s8/6/A/R/_/T/AR_TA.gaa.jpg"
+        },
+        {
+          "title": "Quebrando a Ilusão",
+          "embed_url": "https://rumble.com/embed/v7cpili/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/f9/s8/6/C/T/_/T/CT_TA.qR4e.jpg"
+        }
+      ]
+    },
+    {
+      "code": "pl",
+      "label": "Polish",
+      "native_label": "Polski",
+      "videos": [
+        {
+          "title": "Demontaż pasożytniczej matrycy krystalicznego Sześcianu",
+          "embed_url": "https://rumble.com/embed/v7cr45e/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/01/s8/6/4/6/r/U/46rUA.gaa.jpg"
+        },
+        {
+          "title": "Krystaliczna Prawda",
+          "embed_url": "https://rumble.com/embed/v7cr47i/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/2c/s8/6/e/8/r/U/e8rUA.qR4e.jpg"
+        }
+      ]
+    },
+    {
+      "code": "nl",
+      "label": "Dutch",
+      "native_label": "Nederlands",
+      "videos": [
+        {
+          "title": "Breken van de Illusie",
+          "embed_url": "https://rumble.com/embed/v7cr40o/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/e2/s8/6/o/4/r/U/o4rUA.qR4e.jpg"
+        },
+        {
+          "title": "De bevrijding uit de holografische CUBE",
+          "embed_url": "https://rumble.com/embed/v7cr42k/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/a2/s8/6/s/5/r/U/s5rUA.faa.jpg"
+        }
+      ]
+    },
+    {
+      "code": "ja",
+      "label": "Japanese",
+      "native_label": "日本語",
+      "videos": [
+        {
+          "title": "3Dの偽りを砕きクリスタルの共鳴へ帰る",
+          "embed_url": "https://rumble.com/embed/v7cqzxs/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/11/s8/6/M/L/q/U/MLqUA.qR4e.jpg"
+        },
+        {
+          "title": "剥がれ落ちる3Dホログラムの正体",
+          "embed_url": "https://rumble.com/embed/v7cr036/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/73/s8/6/O/O/q/U/OOqUA.gaa.jpg"
+        }
+      ]
+    },
+    {
+      "code": "de",
+      "label": "German",
+      "native_label": "Deutsch",
+      "videos": [
+        {
+          "title": "Der Zusammenbruch der parasitären 3D-Matrix",
+          "embed_url": "https://rumble.com/embed/v7cqzo4/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/cd/s8/6/k/G/q/U/kGqUA.faa.jpg"
+        },
+        {
+          "title": "Erwachen der Resonanz",
+          "embed_url": "https://rumble.com/embed/v7cqzsw/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/32/s8/6/2/I/q/U/2IqUA.qR4e.jpg"
+        }
+      ]
+    },
+    {
+      "code": "fr",
+      "label": "French",
+      "native_label": "Français",
+      "videos": [
+        {
+          "title": "L'effondrement de la matrice 3D",
+          "embed_url": "https://rumble.com/embed/v7cpjqs/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/7e/s8/6/Q/e/a/U/QeaUA.gaa.jpg"
+        },
+        {
+          "title": "Le grand souvenir",
+          "embed_url": "https://rumble.com/embed/v7cpjuw/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/85/s8/6/-/g/a/U/-gaUA.qR4e.jpg"
+        }
+      ]
+    },
+    {
+      "code": "cs",
+      "label": "Czech",
+      "native_label": "Čeština",
+      "videos": [
+        {
+          "title": "Rozbití 3D iluze",
+          "embed_url": "https://rumble.com/embed/v7cpjkg/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/78/s8/6/g/b/a/U/gbaUA.qR4e.jpg"
+        },
+        {
+          "title": "Žijeme uvnitř gigantického elektromagnetického serveru",
+          "embed_url": "https://rumble.com/embed/v7cpjo2/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/b1/s8/6/i/d/a/U/idaUA.faa.jpg"
+        }
+      ]
+    },
+    {
+      "code": "it",
+      "label": "Italian",
+      "native_label": "Italiano",
+      "videos": [
+        {
+          "title": "Il crollo della falsa realtà olografica",
+          "embed_url": "https://rumble.com/embed/v7cpioq/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/c1/s8/6/q/V/_/T/qV_TA.gaa.jpg"
+        },
+        {
+          "title": "Ritorno al Cristallo",
+          "embed_url": "https://rumble.com/embed/v7cpir0/?pub=4p0ieu",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/b0/s8/6/I/W/_/T/IW_TA.qR4e.jpg"
+        }
+      ]
+    }
+  ]
 }

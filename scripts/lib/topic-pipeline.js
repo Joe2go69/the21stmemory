@@ -148,9 +148,22 @@ function findAndUpdate(topics, topicId, next) {
     if (topics[i].id === topicId) {
       const existingSubtopics = topics[i].subtopics;
       const existingQuiz = topics[i].quiz;
+      const existingMainRoot = topics[i].is_main_root;
+      const existingLangs = topics[i].video_languages;
+      const existingLangCount = topics[i].video_language_count;
       topics[i] = { ...next };
       if (existingSubtopics) topics[i].subtopics = existingSubtopics;
       if (existingQuiz) topics[i].quiz = existingQuiz;
+      if (existingMainRoot) topics[i].is_main_root = existingMainRoot;
+      if (Array.isArray(next.video_languages) && next.video_languages.length) {
+        topics[i].video_languages = next.video_languages;
+        topics[i].video_language_count = next.video_languages.filter(
+          (l) => l && Array.isArray(l.videos) && l.videos.length
+        ).length;
+      } else if (existingLangs) {
+        topics[i].video_languages = existingLangs;
+        if (existingLangCount) topics[i].video_language_count = existingLangCount;
+      }
       return true;
     }
     if (topics[i].subtopics && findAndUpdate(topics[i].subtopics, topicId, next)) {
@@ -229,6 +242,12 @@ async function applyTopic(payload) {
     rumble_videos: videos,
     is_placeholder: false
   };
+  if (Array.isArray(payload.video_languages) && payload.video_languages.length) {
+    next.video_languages = payload.video_languages;
+    next.video_language_count = payload.video_languages.filter(
+      (l) => l && Array.isArray(l.videos) && l.videos.length
+    ).length;
+  }
 
   const sourceFile = path.join(ROOT, 'data', `${source}-topics.json`);
   const tree = JSON.parse(fs.readFileSync(sourceFile, 'utf8'));
@@ -280,6 +299,8 @@ async function applyTopic(payload) {
   const sourceNode = findNode(tree.topics, topicId);
   if (sourceNode?.quiz) heavy.quiz = sourceNode.quiz;
   else if (existingHeavy.quiz) heavy.quiz = existingHeavy.quiz;
+  if (next.video_languages) heavy.video_languages = next.video_languages;
+  else if (existingHeavy.video_languages) heavy.video_languages = existingHeavy.video_languages;
 
   fs.writeFileSync(topicFile, JSON.stringify(heavy, null, 2) + '\n', 'utf8');
 
@@ -350,12 +371,15 @@ function refreshTopicIndex(source, topicId) {
     throw new Error(`Missing ${path.relative(ROOT, indexPath)}`);
   }
   const index = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
-  const ok = patchIndexNode(index.topics, topicId, {
+  const indexPatch = {
     title: node.title,
     description: node.description || '',
     topic_image: node.topic_image || '',
     is_placeholder: !!node.is_placeholder
-  });
+  };
+  if (node.is_main_root) indexPatch.is_main_root = true;
+  if (node.video_language_count) indexPatch.video_language_count = node.video_language_count;
+  const ok = patchIndexNode(index.topics, topicId, indexPatch);
   if (!ok) {
     throw new Error(`${topicId} not found in data/${source}-topics-index.json`);
   }

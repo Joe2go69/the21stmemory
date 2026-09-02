@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T09:30:19.348Z",
-  "total": 163,
+  "generatedAt": "2026-09-02T04:43:48.590Z",
+  "total": 164,
   "sources": [
     {
       "id": "alice",
@@ -18,7 +18,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
-      "count": 103
+      "count": 104
     }
   ],
   "quizzes": [
@@ -1659,6 +1659,19 @@
       "href": "quiz/breakdown/pilot-bonding.html",
       "diveHref": "dive/breakdown/pilot-bonding.html",
       "key": "breakdown/pilot-bonding"
+    },
+    {
+      "id": "plasma-membranes",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Plasma Membranes",
+      "subtitle": "Test your understanding of Plasma Membranes — living bio-crystal skins, cloaking, and the boundaries that stabilize sound-light into physical realms.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/plasma-membranes.html",
+      "diveHref": "dive/breakdown/plasma-membranes.html",
+      "key": "breakdown/plasma-membranes"
     },
     {
       "id": "population-types",

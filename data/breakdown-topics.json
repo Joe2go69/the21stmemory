@@ -43,7 +43,222 @@
         "totalQuestions": 25,
         "description": "Test your grasp of Essence of the Transmission — CUBE containment, Second Realm crystal, scare sequence, and the return to solar-creator resonance."
       },
-      "is_placeholder": false
+      "is_placeholder": false,
+      "video_languages": [
+        {
+          "code": "en",
+          "label": "English",
+          "native_label": "English",
+          "videos": [
+            {
+              "title": "Our Reality is a Hijacked Crystalline Cube",
+              "embed_url": "https://rumble.com/embed/v79xm6c/?pub=4p0ieu",
+              "description": "Core revelations on our reality as a hijacked crystalline cube containment system.",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/bf/s8/6/m/s/r/C/msrCA.qR4e.jpg"
+            },
+            {
+              "title": "Return to Living Crystal",
+              "embed_url": "https://rumble.com/embed/v79xmmu/?pub=4p0ieu",
+              "description": "The transition from simulated overlay back to living crystalline reality.",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/19/s8/6/E/B/r/C/EBrCA.qR4e.jpg"
+            },
+            {
+              "title": "The Crystal Awakening",
+              "embed_url": "https://rumble.com/embed/v79xn1i/?pub=4p0ieu",
+              "description": "The culminating crystal awakening and collapse of the parasitic 3D illusion.",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/70/s8/6/U/J/r/C/UJrCA.qR4e.jpg"
+            }
+          ]
+        },
+        {
+          "code": "sv",
+          "label": "Swedish",
+          "native_label": "Svenska",
+          "videos": [
+            {
+              "title": "Kristallin hemkomst",
+              "embed_url": "https://rumble.com/embed/v7csjt8/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/f9/s8/6/c/r/I/U/crIUA.qR4e.jpg"
+            },
+            {
+              "title": "Så monteras den parasitära 3D-illusionen ned",
+              "embed_url": "https://rumble.com/embed/v7csjum/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/4d/s8/6/0/r/I/U/0rIUA.faa.jpg"
+            }
+          ]
+        },
+        {
+          "code": "es",
+          "label": "Spanish",
+          "native_label": "Español",
+          "videos": [
+            {
+              "title": "El colapso de la matriz parasitaria tridimensional",
+              "embed_url": "https://rumble.com/embed/v7csjoc/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/2c/s8/6/s/o/I/U/soIUA.gaa.jpg"
+            },
+            {
+              "title": "Fracturando la Matriz",
+              "embed_url": "https://rumble.com/embed/v7csjqw/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/ed/s8/6/U/p/I/U/UpIUA.qR4e.jpg"
+            }
+          ]
+        },
+        {
+          "code": "ru",
+          "label": "Russian",
+          "native_label": "Русский",
+          "videos": [
+            {
+              "title": "Возвращение к Истине",
+              "embed_url": "https://rumble.com/embed/v7csjj4/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/6b/s8/6/w/l/I/U/wlIUA.qR4e.jpg"
+            },
+            {
+              "title": "Крах 3D матрицы и пробуждение кристаллической реальности",
+              "embed_url": "https://rumble.com/embed/v7csjks/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/66/s8/6/s/m/I/U/smIUA.gaa.jpg"
+            }
+          ]
+        },
+        {
+          "code": "pt",
+          "label": "Portuguese",
+          "native_label": "Português",
+          "videos": [
+            {
+              "title": "A Farsa do Cubo Negro Holográfico",
+              "embed_url": "https://rumble.com/embed/v7cpihw/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/cf/s8/6/A/R/_/T/AR_TA.gaa.jpg"
+            },
+            {
+              "title": "Quebrando a Ilusão",
+              "embed_url": "https://rumble.com/embed/v7cpili/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/f9/s8/6/C/T/_/T/CT_TA.qR4e.jpg"
+            }
+          ]
+        },
+        {
+          "code": "pl",
+          "label": "Polish",
+          "native_label": "Polski",
+          "videos": [
+            {
+              "title": "Demontaż pasożytniczej matrycy krystalicznego Sześcianu",
+              "embed_url": "https://rumble.com/embed/v7cr45e/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/01/s8/6/4/6/r/U/46rUA.gaa.jpg"
+            },
+            {
+              "title": "Krystaliczna Prawda",
+              "embed_url": "https://rumble.com/embed/v7cr47i/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/2c/s8/6/e/8/r/U/e8rUA.qR4e.jpg"
+            }
+          ]
+        },
+        {
+          "code": "nl",
+          "label": "Dutch",
+          "native_label": "Nederlands",
+          "videos": [
+            {
+              "title": "Breken van de Illusie",
+              "embed_url": "https://rumble.com/embed/v7cr40o/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/e2/s8/6/o/4/r/U/o4rUA.qR4e.jpg"
+            },
+            {
+              "title": "De bevrijding uit de holografische CUBE",
+              "embed_url": "https://rumble.com/embed/v7cr42k/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/a2/s8/6/s/5/r/U/s5rUA.faa.jpg"
+            }
+          ]
+        },
+        {
+          "code": "ja",
+          "label": "Japanese",
+          "native_label": "日本語",
+          "videos": [
+            {
+              "title": "3Dの偽りを砕きクリスタルの共鳴へ帰る",
+              "embed_url": "https://rumble.com/embed/v7cqzxs/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/11/s8/6/M/L/q/U/MLqUA.qR4e.jpg"
+            },
+            {
+              "title": "剥がれ落ちる3Dホログラムの正体",
+              "embed_url": "https://rumble.com/embed/v7cr036/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/73/s8/6/O/O/q/U/OOqUA.gaa.jpg"
+            }
+          ]
+        },
+        {
+          "code": "de",
+          "label": "German",
+          "native_label": "Deutsch",
+          "videos": [
+            {
+              "title": "Der Zusammenbruch der parasitären 3D-Matrix",
+              "embed_url": "https://rumble.com/embed/v7cqzo4/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/cd/s8/6/k/G/q/U/kGqUA.faa.jpg"
+            },
+            {
+              "title": "Erwachen der Resonanz",
+              "embed_url": "https://rumble.com/embed/v7cqzsw/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/32/s8/6/2/I/q/U/2IqUA.qR4e.jpg"
+            }
+          ]
+        },
+        {
+          "code": "fr",
+          "label": "French",
+          "native_label": "Français",
+          "videos": [
+            {
+              "title": "L'effondrement de la matrice 3D",
+              "embed_url": "https://rumble.com/embed/v7cpjqs/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/7e/s8/6/Q/e/a/U/QeaUA.gaa.jpg"
+            },
+            {
+              "title": "Le grand souvenir",
+              "embed_url": "https://rumble.com/embed/v7cpjuw/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/85/s8/6/-/g/a/U/-gaUA.qR4e.jpg"
+            }
+          ]
+        },
+        {
+          "code": "cs",
+          "label": "Czech",
+          "native_label": "Čeština",
+          "videos": [
+            {
+              "title": "Rozbití 3D iluze",
+              "embed_url": "https://rumble.com/embed/v7cpjkg/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/78/s8/6/g/b/a/U/gbaUA.qR4e.jpg"
+            },
+            {
+              "title": "Žijeme uvnitř gigantického elektromagnetického serveru",
+              "embed_url": "https://rumble.com/embed/v7cpjo2/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/b1/s8/6/i/d/a/U/idaUA.faa.jpg"
+            }
+          ]
+        },
+        {
+          "code": "it",
+          "label": "Italian",
+          "native_label": "Italiano",
+          "videos": [
+            {
+              "title": "Il crollo della falsa realtà olografica",
+              "embed_url": "https://rumble.com/embed/v7cpioq/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/c1/s8/6/q/V/_/T/qV_TA.gaa.jpg"
+            },
+            {
+              "title": "Ritorno al Cristallo",
+              "embed_url": "https://rumble.com/embed/v7cpir0/?pub=4p0ieu",
+              "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/b0/s8/6/I/W/_/T/IW_TA.qR4e.jpg"
+            }
+          ]
+        }
+      ],
+      "video_language_count": 12
     },
     {
       "id": "the-purge-phases",
@@ -3389,9 +3604,32 @@
             {
               "id": "plasma-membranes",
               "title": "Plasma Membranes",
-              "description": "Decoded analysis of Plasma Membranes within the Mega Breakdown Board Notes & Highlights transmission.",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "report": "# Plasma Membranes\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "description": "Living bio-crystal skins grown from crystalline plasma — the semi-conscious outer hulls of organic vessels and the structural boundaries that stabilize sound-light into physical realms.",
+              "topic_image": "images/breakdown/plasma-membranes.webp",
+              "report": "# Plasma Membranes\n\n## Overview\nPlasma membranes are the living, highly responsive outer boundaries that define both the structure of advanced organic technology and the foundational architecture of reality itself. In their physical manifestation, these structures exist as a living bio-crystal skin grown from crystalline plasma, functioning as the outer hull for self-conscious vessels. These membranes represent the primary structural envelope of living crafts, which are organic vessels grown rather than mechanically constructed. Rather than being inert barriers, these membranes are semi-conscious, dynamic entities that operate in direct, telepathic alignment with the consciousness and frequency of their operators. On a cosmic scale, these boundaries represent the structural matrices generated by crystalline grids to stabilize sound-light resonances, allowing raw vision to consolidate into stable physical domains. These boundaries serve as the primary interface through which light, sound, and intention are modulated to interact with the density of any given realm.\n\n## Key Terminology\n- **Plasma Membranes** — The highly responsive, semi-conscious outer boundaries grown from crystalline and plasmatic matter that form the protective and functional skins of living vessels.\n- **Bio-crystal Skin** — The living outer surface of advanced vessels that dynamically shifts, morphs, and adapts in direct response to thought and intent.\n- **Crystalline Membranes** — Structural boundaries woven by primary energy grids that stabilize projected light lattices and allow energetic patterns to solidify into matter.\n- **Shadow Membranes** — Discordant boundary layers created in out-of-sync frequency zones where memory is fractured.\n- **Crystalline Plasma** — The condensed liquid crystal fire and light-derived substrate from which living membranes and hulls are gestated.\n- **Arks of Toive** — Advanced living vessels that ride acoustic vibrations across the boundary membranes of different realms.\n\n## Core Revelations\nMembranes are fundamentally alive and are grown or gestated rather than constructed with physical tools. They possess a unique multidimensional nature, vibrating at frequencies faster than standard three-dimensional density, which allows them to appear entirely solid from one perspective and transparent from another. The living outer skin of a vessel is telepathically and harmonically bonded with the operator's personal frequency, requiring no physical buttons, switches, or levers to manipulate. Furthermore, cosmic history reveals that all stable physical creations, including whole realms and domes, were originally projected as harmonic notes into crystalline membranes to hold them in stable form. When discordant frequencies arose during early creation cycles, they naturally separated into shadow membranes, creating isolated pockets of fractured memory.\n\n## Detailed Mechanics and Key Elements\n### Gestation and Composition\nThese boundaries are birthed directly in higher harmonic worlds. They are gestated from crystalline plasma, which behaves as a condensed liquid crystal fire that sings, bends, and vibrates. This living tissue is highly conductive, allowing it to act as an energetic conduit that translates the raw consciousness of a pilot directly into physical and mechanical action.\n\n### Intention-Driven Adaptation\nBecause the bio-crystal skin is semi-conscious and harmonically bonded to its operator, the outer layer shifts and morphs in real time based on intention and heart coherence. The pilot does not steer but instead merges with the membrane, which dynamically alters its density, texture, and coloration to align with the surrounding environment or specific operational needs.\n\n### Light and Sound Bending (Cloaking)\nThe membrane functions as a highly sophisticated holographic camouflage mechanism. By dynamically shifting and bending incoming light and sound waves around its structure, the membrane can render a vessel completely invisible to the physical senses of lower-vibrational observers. This enables vessels to disguise themselves as lenticular cloud formations, storm banks, or stars, or to phase entirely out of the local visible frequency band. These shifts are imperceptible to low-vibrational entities whose perception cannot lock onto their vibration.\n\n### Defensive Shielding\nThe living skin projects frequency fields that serve as active defense shields. These shields do not simply absorb physical impacts; instead, they vibrate in constantly shifting tones. This active tonal shift prevents external targeting systems from establishing a frequency lock on the vessel, effectively deflecting both physical and energetic attacks.\n\n### Crystalline Stabilization of Reality\nDuring the early phases of creation, primary energy grids weave light lattices into stable patterns. Crystalline membranes form the protective boundaries that wrap around these lattices, holding the vision stable so that it can solidify into skies, oceans, and landmasses. Without these membranes to stabilize the underlying harmonic structures, the raw energy would collapse back into unformed consciousness.\n\n## Broader Context and Interconnections\nThe function of these boundaries is inextricably linked to the crystalline grids that span across the domes and realms of the larger containment system. The grids supply the vital free energy that keeps these membranes stable and activated, while the membranes record and preserve the memory codes of the soul journeys passing through them. This relationship is also mirrored in water-based craft, which possess crystalline plasma skins that resonate directly with the ocean's acoustic tone, allowing them to remain completely stable during environmental storms. Upwardly, these structures are ultimately supported by the zero-point harmonic tones projected from the primordial creative layers.\n\n## Strategic Implications\n### Frequency Filtering and Extraction\nBecause these membranes operate on specific vibrational bands, they act as natural frequency filters. During cosmic transition events, only consciousnesses that match the high-frequency resonance of the membrane can phase through its boundary, ensuring a clean and secure homecoming for aligned souls while leaving lower-vibrational entities behind in their localized loops.\n\n### Evasion of Surveillance\nThe adaptive nature of the bio-crystal skin makes it entirely impervious to parasitic monitoring systems and artificial intelligence networks. Because the membrane fluctuates in shifting tones, parasitic constructs cannot lock onto its energetic signature, rendering their control grids and surveillance technologies completely obsolete.\n\n### Immediate Resonance Travel\nThe dissolution of artificial three-dimensional boundaries allows these membranes to facilitate immediate resonance travel. Rather than traveling across physical miles, consciousness simply shifts its focus, and the membrane responds by immediately phasing the observer into a different simulated overlay.\n",
+              "infographic_image": "images/breakdown/the-living-skin-plasma-membranes.webp",
+              "pdf_preview_image": "images/breakdown/living-bio-crystal-membranes.webp",
+              "slide_deck_pdf_url": "https://drive.google.com/file/d/1gq0aPxoaA3fBrOlHcLDWSfDfUQ6byYOj/view?usp=sharing",
+              "rumble_videos": [
+                {
+                  "title": "Plasma Membranes",
+                  "embed_url": "https://rumble.com/embed/v7csk80/?pub=4p0ieu",
+                  "description": "Plasma Membranes — living bio-crystal skins that form the hulls of organic vessels and stabilize sound-light into physical realms.",
+                  "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/24/s8/6/w/z/I/U/wzIUA.qR4e.jpg"
+                },
+                {
+                  "title": "Bio Crystal Membranes and Harmonic Reality",
+                  "embed_url": "https://rumble.com/embed/v7cskb0/?pub=4p0ieu",
+                  "description": "Bio Crystal Membranes and Harmonic Reality — how crystalline membranes hold harmonic notes as stable matter and filter consciousness across realm boundaries."
+                }
+              ],
+              "is_placeholder": false,
+              "quiz": {
+                "href": "quiz/breakdown/plasma-membranes.html",
+                "title": "Plasma Membranes",
+                "totalQuestions": 25,
+                "description": "Test your understanding of Plasma Membranes — living bio-crystal skins, cloaking, and the boundaries that stabilize sound-light into physical realms."
+              }
             }
           ],
           "quiz": {

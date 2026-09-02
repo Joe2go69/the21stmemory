@@ -13,7 +13,8 @@
       "description": "The cornerstone summary of the Mega Breakdown transmission — the final stages of the Great Awakening, the Great Purge, and the path home for resonating souls.",
       "topic_image": "images/breakdown/mega-breakdown-essense.webp",
       "is_placeholder": false,
-      "is_main_root": true
+      "is_main_root": true,
+      "video_language_count": 12
     },
     {
       "id": "the-purge-phases",
@@ -792,9 +793,9 @@
             {
               "id": "plasma-membranes",
               "title": "Plasma Membranes",
-              "description": "Decoded analysis of Plasma Membranes within the Mega Breakdown Board Notes & Highlights transmission.",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "description": "Living bio-crystal skins grown from crystalline plasma — the semi-conscious outer hulls of organic vessels and the structural boundaries that stabilize sound-light into physical realms.",
+              "topic_image": "images/breakdown/plasma-membranes.webp",
+              "is_placeholder": false
             }
           ]
         }
