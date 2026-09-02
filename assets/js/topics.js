@@ -52,10 +52,10 @@ function topicImageComingSoonHtml({ compact = false } = {}) {
 }
 
 function renderTopicImage(topicImage, alt, { loading = "lazy", isPlaceholder = false, compact = false } = {}) {
-  if (isPlaceholder || TopicUtils.isPlaceholderImage(topicImage)) {
-    return topicImageComingSoonHtml({ compact });
+  const hasArt = topicImage && !TopicUtils.isPlaceholderImage(topicImage);
+  if (!hasArt) {
+    return isPlaceholder ? topicImageComingSoonHtml({ compact }) : topicImageFallbackHtml();
   }
-  if (!topicImage) return topicImageFallbackHtml();
   return `<img src="${TopicUtils.encodeAssetPath(topicImage)}" alt="${TopicUtils.escapeAttr(alt)}" class="topic-card-img w-full h-full object-cover" loading="${loading}">`;
 }
 
@@ -133,17 +133,16 @@ function renderSubtopic(sourceId, sub) {
 
   if (!shouldShowTopic(sub, topicsPageState.filters.status)) return '';
   const subPh = sub.is_placeholder;
-  const leafClasses = `topic-leaf-btn mb-3 inline-flex max-w-md${subPh ? ' topic-leaf-btn--soon opacity-50 grayscale-[0.5]' : ''}`;
-  const leafBadge = subPh ? '<span class="topic-badge topic-badge--inline">Soon</span>' : '';
+  const subBadge = subPh ? '<span class="topic-badge topic-badge--section">Soon</span>' : '';
   const topicAttrs = `data-topic-id="${TopicUtils.escapeAttr(sub.id)}" id="topic-${TopicUtils.escapeAttr(sub.id)}"`;
-  const label = `<span class="topic-leaf-btn__label">${TopicUtils.escapeHtml(sub.title)}</span>${leafBadge}`;
-  if (subPh) {
-    return `<span class="${leafClasses}" ${topicAttrs} aria-disabled="true" title="Coming soon">${label}</span>`;
-  }
+  const label = `<span class="category-toggle-btn__label flex-1 min-w-0">${TopicUtils.escapeHtml(sub.title)}</span>${subBadge}`;
+  const row = subPh
+    ? `<div class="category-toggle-btn category-toggle-btn--static" aria-disabled="true" title="Coming soon">${label}</div>`
+    : `<a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, sub.id, false))}" class="category-toggle-btn" ${topicAttrs}>${label}</a>`;
   return `
-    <a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, sub.id, false))}" class="${leafClasses}" ${topicAttrs}>
-      ${label}
-    </a>
+    <div class="topic-section-group"${subPh ? ` ${topicAttrs}` : ''}>
+      <div class="topic-section-header">${row}</div>
+    </div>
   `;
 }
 
@@ -530,7 +529,9 @@ function renderSourceHeader(data, sourceId, stats) {
     : '';
   const seriesLink = sourceId === 'breakdown'
     ? `<a href="mega-breakdown.html" class="text-link">Watch the original 13-part series →</a>`
-    : '';
+    : sourceId === 'ascension'
+      ? `<a href="source.html#long-awaited-ascension-process" class="text-link">Watch the original transmission →</a>`
+      : '';
 
   document.getElementById('source-header').innerHTML = `
     ${breadcrumbs}
@@ -546,7 +547,6 @@ function renderSourceHeader(data, sourceId, stats) {
           </div>
           <div class="source-hero-desc">${descHtml}</div>
           <div class="source-hero-actions">
-            <a href="#explore-topics" class="btn-primary">Explore topics ↓</a>
             <a href="codex.html" class="btn-secondary">← Back to Codex</a>
             ${pdfBtn}
             ${seriesLink}

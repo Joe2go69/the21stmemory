@@ -157,7 +157,9 @@ function applyQuiz(payload) {
   if (!source || !topicId || !title) {
     throw new Error('Payload needs source, id, title');
   }
-  if (!['alice', 'breakdown'].includes(source)) {
+  const sourcesPath = path.join(ROOT, 'data', 'sources.json');
+  const allowed = JSON.parse(fs.readFileSync(sourcesPath, 'utf8')).sources.map((s) => s.id);
+  if (!allowed.includes(source)) {
     throw new Error(`Unknown source: ${source}`);
   }
 

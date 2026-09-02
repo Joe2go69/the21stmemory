@@ -205,7 +205,8 @@ const RenderUtils = {
   sourcePlainLabel(sourceId) {
     const map = {
       alice: 'Foundational rabbit-hole series',
-      breakdown: 'Final-stage Great Awakening notes'
+      breakdown: 'Final-stage Great Awakening notes',
+      ascension: 'EMF ascension process'
     };
     return map[sourceId] || 'Transmission archive';
   },
@@ -214,7 +215,8 @@ const RenderUtils = {
   sourceCardImage(source) {
     const map = {
       alice: 'images/alice-codex-card.webp',
-      breakdown: 'images/breakdown-codex-card.webp'
+      breakdown: 'images/breakdown-codex-card.webp',
+      ascension: 'images/ascension-codex-card.webp'
     };
     return map[source?.id] || source?.image || '';
   },

@@ -23,6 +23,12 @@ const REQUIRED_SECTIONS = [
   '## Strategic Implications'
 ];
 
+function knownSources() {
+  const sourcesPath = path.join(ROOT, 'data', 'sources.json');
+  const data = JSON.parse(fs.readFileSync(sourcesPath, 'utf8'));
+  return (data.sources || []).map((s) => s.id);
+}
+
 function toKebab(filename) {
   const ext = path.extname(filename);
   const base = filename.slice(0, -ext.length);
@@ -198,7 +204,7 @@ async function applyTopic(payload) {
   if (!source || !topicId || !payload.title || !payload.report) {
     throw new Error('Payload needs source, id, title, report');
   }
-  if (!['alice', 'breakdown'].includes(source)) {
+  if (!knownSources().includes(source)) {
     throw new Error(`Unknown source: ${source}`);
   }
 
@@ -418,6 +424,7 @@ function refreshTopicIndex(source, topicId) {
 
 module.exports = {
   ROOT,
+  knownSources,
   toKebab,
   normalizeImage,
   compressImage,

@@ -1,15 +1,15 @@
 /**
  * Install a topic and/or quiz from scripts/payloads/{id}.{topic|quiz}.js
  *
- *   node scripts/install.js topic <alice|breakdown> <id>
- *   node scripts/install.js quiz  <alice|breakdown> <id>
- *   node scripts/install.js all   <alice|breakdown> <id>
+ *   node scripts/install.js topic <source> <id>
+ *   node scripts/install.js quiz  <source> <id>
+ *   node scripts/install.js all   <source> <id>
  *
  * Rebuilds only this dive page (plus prev/next). Does not restamp dates
  * on the rest of the archive. Sitemap lastmod is patched for new/changed URLs only.
  */
 const path = require('path');
-const { applyTopic, refreshTopicIndex } = require('./lib/topic-pipeline');
+const { applyTopic, refreshTopicIndex, knownSources } = require('./lib/topic-pipeline');
 const { applyQuiz } = require('./lib/quiz-pipeline');
 const { buildDives } = require('./build-static-dives');
 const { buildQuizzesHub } = require('./build-quizzes-hub');
@@ -31,8 +31,9 @@ async function run(kind, source, id) {
   if (!['topic', 'quiz', 'all'].includes(kind)) {
     throw new Error('Kind must be topic, quiz, or all');
   }
-  if (!['alice', 'breakdown'].includes(source) || !id) {
-    throw new Error('Usage: node scripts/install.js <topic|quiz|all> <alice|breakdown> <id>');
+  const allowed = knownSources();
+  if (!allowed.includes(source) || !id) {
+    throw new Error(`Usage: node scripts/install.js <topic|quiz|all> <${allowed.join('|')}> <id>`);
   }
 
   const doTopic = kind === 'topic' || kind === 'all';

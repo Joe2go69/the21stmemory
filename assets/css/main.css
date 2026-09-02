@@ -5727,6 +5727,16 @@ a.topic-root-card:hover .explore-badge {
   background: rgba(91, 33, 182, 0.22);
 }
 
+.category-toggle-btn--static {
+  cursor: default;
+  pointer-events: none;
+}
+
+a.category-toggle-btn {
+  text-decoration: none;
+  color: inherit;
+}
+
 .category-toggle-btn .chevron {
   flex-shrink: 0;
   transition: transform 0.25s ease;
@@ -6107,7 +6117,7 @@ a.topic-root-card:hover .explore-badge {
 
 .codex-home-metrics-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem 1.25rem;
 }
 
@@ -6300,6 +6310,7 @@ a.topic-root-card:hover .explore-badge {
   }
 
   .codex-home-metrics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.75rem;
   }
 

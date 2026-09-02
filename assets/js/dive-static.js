@@ -1,15 +1,27 @@
 // Progressive enhancement for prerendered dive/*.html pages
 
 function initBreakdownSeriesLink() {
-  if (document.body?.dataset?.source !== 'breakdown') return;
+  const source = document.body?.dataset?.source;
   const actions = document.querySelector('.dive-continue__actions');
   if (!actions || actions.querySelector('[data-series-link]')) return;
 
+  let href = '';
+  let label = '';
+  if (source === 'breakdown') {
+    href = '../../mega-breakdown.html';
+    label = 'Watch the Mega Breakdown series →';
+  } else if (source === 'ascension') {
+    href = '../../source.html#long-awaited-ascension-process';
+    label = 'Watch the original transmission →';
+  } else {
+    return;
+  }
+
   const link = document.createElement('a');
-  link.href = '../../mega-breakdown.html';
+  link.href = href;
   link.className = 'text-link dive-continue__link';
   link.dataset.seriesLink = 'true';
-  link.textContent = 'Watch the Mega Breakdown series →';
+  link.textContent = label;
 
   const more = actions.querySelector('a.dive-continue__link');
   if (more) actions.insertBefore(link, more);

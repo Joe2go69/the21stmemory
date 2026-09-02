@@ -12,7 +12,7 @@ function main() {
   const source = process.argv[2];
   const topicId = process.argv[3];
   if (!source || !topicId) {
-    console.error('Usage: node scripts/apply-quiz.js <alice|breakdown> <topicId>');
+    console.error('Usage: node scripts/apply-quiz.js <source> <topicId>');
     process.exit(1);
   }
 

@@ -18,6 +18,7 @@ function renderArchiveBadgeSkeleton() {
       <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
       <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
       <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
+      <div class="codex-home-metric"><span class="skeleton skeleton-bar" style="width:3rem;height:2rem"></span><span class="skeleton skeleton-bar" style="width:5rem;height:0.65rem;margin-top:0.5rem"></span></div>
     </div>
     <div class="codex-home-progress" aria-hidden="true">
       <span class="skeleton skeleton-bar" style="width:100%;height:0.35rem;border-radius:9999px"></span>
@@ -69,19 +70,24 @@ function animateProgressBars(root) {
   });
 }
 
-function renderLiveArchiveBadge(live, total) {
+function renderLiveArchiveBadge(live, total, sources) {
   const badge = document.getElementById('live-archive-badge');
   if (!badge) return;
 
   const pct = total ? Math.round((live / total) * 100) : 0;
   const soon = Math.max(0, total - live);
+  const sourceCount = Number.isFinite(sources) ? sources : 0;
   badge.setAttribute('aria-busy', 'false');
 
   badge.innerHTML = `
     <div class="codex-home-metrics-grid">
       <div class="codex-home-metric">
+        <div class="codex-home-metric-value" data-count-to="${sourceCount}">${sourceCount}</div>
+        <div class="codex-home-metric-label">Transmissions</div>
+      </div>
+      <div class="codex-home-metric">
         <div class="codex-home-metric-value" data-count-to="${total}">${total}</div>
-        <div class="codex-home-metric-label">Topics archived</div>
+        <div class="codex-home-metric-label">Topics</div>
       </div>
       <div class="codex-home-metric">
         <div class="codex-home-metric-value" data-count-to="${live}">${live}</div>
@@ -221,7 +227,7 @@ async function loadHomeArchiveStats() {
     const response = await fetch('data/archive-stats.json', { credentials: 'same-origin' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const stats = await response.json();
-    renderLiveArchiveBadge(stats.live, stats.total);
+    renderLiveArchiveBadge(stats.live, stats.total, stats.sources);
     return stats;
   } catch (error) {
     console.warn('Archive stats unavailable:', error);
