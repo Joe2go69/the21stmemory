@@ -443,7 +443,7 @@
         {
           "id": "organizational-alliances",
           "title": "Organizational Alliances",
-          "description": "Space Force, the Galactic Ancestral Association, and White Hats back the process on the ground.",
+          "description": "Space Force, the Galactic Ancestral Alliance, and White Hats back the process on the ground.",
           "topic_image": "",
           "is_placeholder": true,
           "subtopics": [
@@ -455,8 +455,8 @@
               "is_placeholder": true
             },
             {
-              "id": "galactic-ancestral-association",
-              "title": "Galactic Ancestral Association",
+              "id": "galactic-ancestral-alliance",
+              "title": "Galactic Ancestral Alliance",
               "description": "G.A.A. among the trusted people helping with the process.",
               "topic_image": "",
               "is_placeholder": true
