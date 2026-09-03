@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-02T04:43:48.590Z",
-  "total": 164,
+  "generatedAt": "2026-09-03T08:03:58.448Z",
+  "total": 165,
   "sources": [
     {
       "id": "alice",
@@ -19,6 +19,15 @@
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card.webp",
       "count": 104
+    },
+    {
+      "id": "ascension",
+      "label": "Ascension",
+      "title": "The Long-Awaited Ascension Process",
+      "short": "EMF ascension process",
+      "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
+      "image": "images/ascension-codex-card.webp",
+      "count": 1
     }
   ],
   "quizzes": [
@@ -801,6 +810,19 @@
       "href": "quiz/alice/world-war-i.html",
       "diveHref": "dive/alice/world-war-i.html",
       "key": "alice/world-war-i"
+    },
+    {
+      "id": "essence-of-the-transmission",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Essence of the Transmission",
+      "subtitle": "Test your understanding of Essence of the Transmission — quartz conductors, the solar pulse, three flashes, the portal, and the dual path of homecoming or sanctuary.",
+      "questionCount": 25,
+      "href": "quiz/ascension/essence-of-the-transmission.html",
+      "diveHref": "dive/ascension/essence-of-the-transmission.html",
+      "key": "ascension/essence-of-the-transmission"
     },
     {
       "id": "1666-node-war",

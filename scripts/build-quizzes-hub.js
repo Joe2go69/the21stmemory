@@ -30,6 +30,14 @@ const SOURCE_META = {
     desc: 'Board-note deep dives on the grid, timelines, and the architecture of the shift.',
     image: 'images/breakdown-codex-card.webp',
   },
+  ascension: {
+    id: 'ascension',
+    label: 'Ascension',
+    title: 'The Long-Awaited Ascension Process',
+    short: 'EMF ascension process',
+    desc: 'Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.',
+    image: 'images/ascension-codex-card.webp',
+  },
 };
 
 const OVERVIEW_START = '<!-- QUIZZES-OVERVIEW-START -->';
@@ -117,7 +125,7 @@ function renderPathCards(quizzes) {
     <h2 class="quiz-hub-path-card__title">${escapeHtml(meta.title)}</h2>
     <p class="quiz-hub-path-card__desc">${escapeHtml(meta.desc || meta.short)}</p>
     <span class="quiz-hub-path-card__meta">
-      <span class="quiz-hub-path-card__count">${count} quizzes</span>
+      <span class="quiz-hub-path-card__count">${count} ${count === 1 ? 'quiz' : 'quizzes'}</span>
       <span class="quiz-hub-path-card__cta">Browse path →</span>
     </span>
   </span>
@@ -165,7 +173,7 @@ function renderSourceSection(sourceId, quizzes) {
     <div>
       <p class="quiz-hub-section__eyebrow">${escapeHtml(meta.short || meta.label)}</p>
       <h2 class="quiz-hub-section__title">${escapeHtml(meta.title)}</h2>
-      <p class="quiz-hub-section__meta"><span class="quiz-hub-section__count" data-section-count>${quizzes.length}</span> quizzes in this transmission</p>
+      <p class="quiz-hub-section__meta"><span class="quiz-hub-section__count" data-section-count>${quizzes.length}</span> ${quizzes.length === 1 ? 'quiz' : 'quizzes'} in this transmission</p>
     </div>
     <a href="topics.html?source=${escapeAttr(sourceId)}" class="quiz-hub-section__link">Browse topics →</a>
   </header>
