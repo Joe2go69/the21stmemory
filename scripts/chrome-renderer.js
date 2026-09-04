@@ -214,25 +214,33 @@ function renderSupportPage(footerData, options = {}) {
     })
     .join('');
 
-  const gofundmeMedia = cardMedia(gofundme?.image);
-  const gofundmeCard = gofundme
-    ? `<article class="support-give-card memory-card static-card${gofundmeMedia ? ' has-media' : ''}">
-            ${gofundmeMedia}
-            <span class="support-give-icon support-give-icon--heart" aria-hidden="true">${SITE_ICON_SVGS.heart}</span>
-            <span class="support-give-label">Card or bank</span>
-            <p class="support-give-desc">${gofundme.hint}</p>
-            <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
-              <span>${gofundme.buttonText || 'Continue on GoFundMe'}</span>
-            </a>
-          </article>`
-    : '';
-
   const qrPlate = (src, alt, width, height) =>
     src
       ? `<div class="support-give-qr">
               <img src="${src}" alt="${alt}" width="${width}" height="${height}" decoding="async" />
             </div>`
       : '';
+
+  const gofundmeMedia = cardMedia(gofundme?.image);
+  const gofundmeQrSrc = gofundme?.qrImage ? withBasePath(gofundme.qrImage, basePath) : '';
+  const gofundmeQr = qrPlate(
+    gofundmeQrSrc,
+    gofundme?.qrAlt || 'GoFundMe QR code for 21st Memory donations',
+    528,
+    528
+  );
+  const gofundmeCard = gofundme
+    ? `<article class="support-give-card memory-card static-card support-give-card--gofundme${gofundmeMedia ? ' has-media' : ''}${gofundmeQrSrc ? ' support-give-card--qr' : ''}">
+            ${gofundmeMedia}
+            <span class="support-give-icon support-give-icon--heart" aria-hidden="true">${SITE_ICON_SVGS.heart}</span>
+            <span class="support-give-label">Card or bank</span>
+            <p class="support-give-desc">${gofundme.hint}</p>
+            ${gofundmeQr}
+            <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
+              <span>${gofundme.buttonText || 'Continue on GoFundMe'}</span>
+            </a>
+          </article>`
+    : '';
 
   const starlinkMedia = cardMedia(starlink?.image);
   const starlinkQrSrc = starlink?.qrImage ? withBasePath(starlink.qrImage, basePath) : '';

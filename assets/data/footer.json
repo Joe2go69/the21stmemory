@@ -132,9 +132,11 @@
     "gofundme": {
       "href": "https://gofund.me/a1603af10",
       "buttonText": "Continue on GoFundMe",
-      "hint": "Goes to power, internet, and AI tools — the knowledge stays free.",
+      "hint": "Scan the QR or tap below. Goes to power, internet, and AI tools — the knowledge stays free.",
       "image": "images/gofundme.webp",
-      "imageAlt": "GoFundMe — support the living archive"
+      "imageAlt": "GoFundMe — support the living archive",
+      "qrImage": "assets/images/gofundme-qr.png",
+      "qrAlt": "GoFundMe QR code for 21st Memory donations"
     },
     "starlink": {
       "href": "https://starlink.com/residential?referral=RC-DF-13754617-58626-7",
