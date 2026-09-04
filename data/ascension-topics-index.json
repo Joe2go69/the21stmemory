@@ -18,9 +18,9 @@
     {
       "id": "quartz-crystal-technology",
       "title": "Quartz Crystal Technology",
-      "description": "Implanted quartz conductors, placed by time-travel preparation, hold memory and react to the new aether.",
-      "topic_image": "",
-      "is_placeholder": true,
+      "description": "Pre-implanted subterranean quartz conductors, seeded by Looking Glass time travel, store cosmic memory, ignite a planetary EMP Grid, and restore original vessels.",
+      "topic_image": "images/ascension/quartz-crystal-technology.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "implanted-conductors",

@@ -1154,6 +1154,13 @@
       "path": "/dive/ascension/essence-of-the-transmission.html",
       "live": true,
       "title": "Essence of the Transmission"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "quartz-crystal-technology",
+      "path": "/dive/ascension/quartz-crystal-technology.html",
+      "live": true,
+      "title": "Quartz Crystal Technology"
     }
   ]
 }
