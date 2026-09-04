@@ -14998,7 +14998,7 @@ a.btn-secondary:active,
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  justify-content: flex-end;
+  justify-content: flex-start;
   min-height: 14.5rem;
   padding: 0;
   border-radius: var(--radius-card);
@@ -15103,6 +15103,8 @@ a.btn-secondary:active,
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  flex: 1 1 auto;
+  width: 100%;
   gap: 0.55rem;
   padding: 1.35rem 1.35rem 1.4rem;
   min-width: 0;
@@ -15131,6 +15133,8 @@ a.btn-secondary:active,
   font-size: 0.68rem;
   font-weight: 600;
   letter-spacing: 0.14em;
+  line-height: 1.35;
+  min-height: 2lh;
   text-transform: uppercase;
   color: rgba(196, 181, 253, 0.92);
   text-shadow: 0 1px 10px rgba(0, 0, 0, 0.45);
@@ -15144,6 +15148,7 @@ a.btn-secondary:active,
   letter-spacing: -0.02em;
   color: #fff;
   line-height: 1.2;
+  min-height: 2lh;
   text-shadow: 0 1px 14px rgba(0, 0, 0, 0.45);
 }
 
@@ -15151,6 +15156,7 @@ a.btn-secondary:active,
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.5;
+  min-height: 2lh;
   color: rgba(237, 228, 255, 0.9);
   max-width: 28rem;
   text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
@@ -15160,7 +15166,8 @@ a.btn-secondary:active,
   display: flex;
   align-items: center;
   gap: 0.65rem;
-  margin-top: 0.25rem;
+  margin-top: auto;
+  width: 100%;
   flex-wrap: wrap;
 }
 
@@ -17571,6 +17578,8 @@ body.reading-focus .navbar {
 .quiz-hub-path-card__body {
   position: relative !important;
   z-index: 2 !important;
+  flex: 1 1 auto;
+  width: 100%;
 }
 
 /* --- Topic root cards: images must show --- */
