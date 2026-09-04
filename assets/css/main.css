@@ -21942,7 +21942,7 @@ a.support-way:focus-visible {
   align-items: stretch;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1024px) {
   .support-give-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.85rem;
@@ -22007,6 +22007,10 @@ a.support-way.has-media .support-way__desc {
   padding: 1.15rem 1.2rem 1.2rem;
 }
 
+.support-give-card--qr {
+  min-height: 24rem;
+}
+
 .support-give-card .btn-primary {
   width: 100%;
   margin-top: auto;
@@ -22060,7 +22064,7 @@ a.support-way.has-media .support-way__desc {
   font-size: 0.88rem;
   line-height: 1.5;
   color: var(--text-muted);
-  flex: 1 1 auto;
+  flex: 0 1 auto;
 }
 
 .support-give-qr {
@@ -22068,24 +22072,101 @@ a.support-way.has-media .support-way__desc {
   align-items: center;
   justify-content: center;
   align-self: center;
-  width: auto;
-  padding: 0.7rem;
-  border-radius: 0.85rem;
+  box-sizing: border-box;
+  width: min(22rem, 100%);
+  margin-top: auto;
+  padding: 1.05rem;
+  border-radius: 1.1rem;
   background: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.92);
   box-shadow:
-    0 12px 28px -14px rgba(0, 0, 0, 0.7),
-    0 0 0 1px rgba(15, 10, 31, 0.12);
+    0 16px 36px -16px rgba(0, 0, 0, 0.72),
+    0 0 0 1px rgba(15, 10, 31, 0.14);
+  filter: none;
+  mix-blend-mode: normal;
+  isolation: isolate;
 }
 
 .support-give-qr img {
   display: block;
-  width: 7.75rem;
-  height: 7.75rem;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
   object-fit: contain;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
   background: #fff;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  filter: none;
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+
+.support-give-card--qr .btn-primary {
+  margin-top: 0.4rem;
+}
+
+.support-give-card--qr .footer-support-address {
+  margin-top: 0.45rem;
+}
+
+@media (min-width: 1024px) {
+  .support-give-qr {
+    width: min(16.75rem, 100%);
+    padding: 0.95rem;
+    border-radius: 1rem;
+  }
+
+  /*
+    Side-by-side QR cards: pin the plates to the same row so Starlink
+    lines up with Bitcoin (which has an address field under the code).
+  */
+  .support-give-card--qr {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows:
+      auto
+      auto
+      auto
+      1fr
+      auto
+      minmax(calc((0.68rem * 1.45) + 1.1rem + 2px), auto)
+      auto;
+    align-items: start;
+    justify-items: stretch;
+  }
+
+  .support-give-card--qr > .support-give-icon {
+    grid-row: 1;
+  }
+
+  .support-give-card--qr > .support-give-label {
+    grid-row: 2;
+  }
+
+  .support-give-card--qr > .support-give-desc {
+    grid-row: 3;
+  }
+
+  .support-give-card--qr > .support-give-qr {
+    grid-row: 5;
+    margin-top: 0;
+    justify-self: center;
+    align-self: start;
+  }
+
+  .support-give-card--qr > .footer-support-address {
+    grid-row: 6;
+    margin-top: 0;
+    align-self: stretch;
+  }
+
+  .support-give-card--qr > .btn-primary {
+    grid-row: 7;
+    margin-top: 0;
+    width: 100%;
+    justify-self: stretch;
+  }
 }
 
 .support-give-card--btc .footer-support-address {

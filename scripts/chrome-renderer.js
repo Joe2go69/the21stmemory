@@ -227,13 +227,28 @@ function renderSupportPage(footerData, options = {}) {
           </article>`
     : '';
 
+  const qrPlate = (src, alt, width, height) =>
+    src
+      ? `<div class="support-give-qr">
+              <img src="${src}" alt="${alt}" width="${width}" height="${height}" decoding="async" />
+            </div>`
+      : '';
+
   const starlinkMedia = cardMedia(starlink?.image);
+  const starlinkQrSrc = starlink?.qrImage ? withBasePath(starlink.qrImage, basePath) : '';
+  const starlinkQr = qrPlate(
+    starlinkQrSrc,
+    starlink?.qrAlt || 'Starlink referral QR code for 21st Memory',
+    720,
+    720
+  );
   const starlinkCard = starlink
-    ? `<article class="support-give-card memory-card static-card${starlinkMedia ? ' has-media' : ''}">
+    ? `<article class="support-give-card memory-card static-card support-give-card--starlink${starlinkMedia ? ' has-media' : ''}${starlinkQrSrc ? ' support-give-card--qr' : ''}">
             ${starlinkMedia}
             <span class="support-give-icon support-give-icon--starlink" aria-hidden="true">${SITE_ICON_SVGS.satellite}</span>
             <span class="support-give-label">Starlink</span>
             <p class="support-give-desc">${starlink.hint}</p>
+            ${starlinkQr}
             <a href="${starlink.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
               <span>${starlink.buttonText || 'Claim a free month'}</span>
             </a>
@@ -243,14 +258,12 @@ function renderSupportPage(footerData, options = {}) {
   const qrSrc = withBasePath(s.qrImage || 'assets/images/bitcoin-qr.png', basePath);
   const qrAlt = s.qrAlt || 'Bitcoin QR code for 21st Memory donations';
   const btcMedia = cardMedia(s.bitcoinImage);
-  const btcCard = `<article class="support-give-card memory-card static-card support-give-card--btc${btcMedia ? ' has-media' : ''}">
+  const btcCard = `<article class="support-give-card memory-card static-card support-give-card--btc support-give-card--qr${btcMedia ? ' has-media' : ''}">
             ${btcMedia}
             <span class="support-give-icon support-give-icon--btc" aria-hidden="true">${bitcoinIconSvg()}</span>
             <span class="support-give-label">Bitcoin</span>
             <p class="support-give-desc">${bitcoinHint}</p>
-            <div class="support-give-qr">
-              <img src="${qrSrc}" alt="${qrAlt}" width="148" height="148" loading="lazy" decoding="async" />
-            </div>
+            ${qrPlate(qrSrc, qrAlt, 592, 592)}
             <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcDisplay}</code>
             <button type="button" class="btn-primary footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address"><span>Copy address</span></button>
           </article>`;

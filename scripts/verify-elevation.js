@@ -49,6 +49,7 @@ function fileSize(rel) {
   check(g, 'support page has giving methods', supportPage.includes('btc-address') && supportPage.includes('gofund.me'));
   check(g, 'support page has linked ways', supportPage.includes('support-ways') && supportPage.includes('id="give"'));
   check(g, 'support Starlink is a peer card', supportPage.includes('starlink.com') && supportPage.includes('support-give-grid') && !supportPage.includes('support-other'));
+  check(g, 'support Starlink has scannable QR', supportPage.includes('starlink-qr.png') && supportPage.includes('support-give-qr'));
   check(g, 'support heading is a fact not a plea', supportPage.includes('This archive is free') && !supportPage.includes('Keep this archive free'));
   check(g, 'support cards have atmosphere', supportPage.includes('support-card-media') && supportPage.includes('gofundme.webp') && supportPage.includes('starlink.webp'));
   check(g, 'index no topics-utils', !index.includes('topics-utils.js'));
