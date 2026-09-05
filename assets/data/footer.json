@@ -94,35 +94,37 @@
     },
     "message": [
       "The transmissions are already free — at the source, and here. That will not change.",
-      "I created The 21st Memory as a living archive: an organized, AI-assisted companion so people can more easily find their way through the dense material. The originals remain the source. I point everyone back to them because their frequencies carry something no summary can fully replace.",
-      "I tend this archive from a quiet corner of Vancouver Island with my cat Spooky. Most days I try to finish one or two categories. It’s work I love, offered freely because charging for humanity’s free information would feel wrong.",
-      "Sitting with a topic, sharing one, or showing up in the community is already real support. The Great Remembering happens through all of us.",
-      "If you are moved to give, it covers the practical side — power, internet, AI tools, and the basic costs of keeping the work going — so the archive can continue without interruption. A gift is never required. Nothing is gated."
+      "The 21st Memory is a living archive I tend so people can find their way through dense material a little more easily. I am not the source. I am a small branch of it. I point everyone back to the originals, because their frequencies carry something no summary can fully replace.",
+      "I do this from a quiet corner of Vancouver Island with my cat Spooky. Most days I finish one or two categories. It is work I love. Charging for humanity’s free information would feel wrong, so the doors stay open.",
+      "If a topic helped you, sitting with it is already support. Sharing one is support. Showing up in the community is support. The Great Remembering happens through all of us.",
+      "If you are also moved to leave a tip or a gift, it matters more than it may look. It goes into the real, ordinary costs of keeping this going — power, internet, the tools I use to build the pages and videos, and the simple life here with Spooky. I live as simply as I can. Any amount is genuinely felt.",
+      "A gift is never required. Nothing is gated. Thank you for being here."
     ],
     "resolver": "",
     "fundsLabel": "Ways to support",
     "funds": [
       {
         "title": "Share a topic",
-        "desc": "Pass a deep-dive to someone who needs it.",
+        "desc": "Pass a deep-dive to someone who needs it. That already helps the remembering travel.",
         "href": "codex.html",
         "image": "images/codex-banner.webp"
       },
       {
         "title": "Join the community",
-        "desc": "Telegram and the Network. We remember better together.",
+        "desc": "Telegram and the Network. Showing up is support. We remember better together.",
         "href": "https://t.me/The_21st_Memory",
         "external": true,
         "image": "images/oracle-banner.webp"
       },
       {
-        "title": "Give if you are moved",
-        "desc": "Power, internet, tools, and the quiet ability to keep showing up. The knowledge stays free.",
+        "title": "Leave a tip if you are moved",
+        "desc": "It goes to power, internet, tools, and the simple costs of keeping this house and this work going. The knowledge stays free.",
         "href": "#give",
         "image": "images/about.webp"
       }
     ],
-    "note": "A gift is never required. Thank you for being here.",
+    "giveLabel": "If you want to leave a tip",
+    "note": "A tip is never required. If you leave one, it is felt. Thank you for being here.",
     "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
     "qrImage": "assets/images/bitcoin-qr.png",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",
@@ -132,7 +134,7 @@
     "gofundme": {
       "href": "https://gofund.me/a1603af10",
       "buttonText": "Continue on GoFundMe",
-      "hint": "Scan the QR or tap below. Goes to power, internet, and AI tools — the knowledge stays free.",
+      "hint": "Scan the QR or tap below. Goes toward power, internet, tools, and the ordinary costs of living here with Spooky. The knowledge stays free.",
       "image": "images/gofundme.webp",
       "imageAlt": "GoFundMe — support the living archive",
       "qrImage": "assets/images/gofundme-qr.png",

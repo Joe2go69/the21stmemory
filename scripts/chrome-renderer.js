@@ -159,17 +159,19 @@ function renderSupportPage(footerData, options = {}) {
   const heading = s.heading || 'This archive is free';
   const eyebrow = (s.eyebrow || '').trim();
   const resolver = (s.resolver || '').trim();
-  const supportNote = s.note || 'A gift is never required. Thank you for being here.';
+  const supportNote = s.note || 'A tip is never required. If you leave one, it is felt. Thank you for being here.';
   const messages = supportMessageParts(s.message, [
     'The transmissions are already free — at the source, and here. That will not change.',
-    'I created The 21st Memory as a living archive: an organized, AI-assisted companion so people can more easily find their way through the dense material. The originals remain the source. I point everyone back to them because their frequencies carry something no summary can fully replace.',
-    'I tend this archive from a quiet corner of Vancouver Island with my cat Spooky. Most days I try to finish one or two categories. It’s work I love, offered freely because charging for humanity’s free information would feel wrong.',
-    'Sitting with a topic, sharing one, or showing up in the community is already real support. The Great Remembering happens through all of us.',
-    'If you are moved to give, it covers the practical side — power, internet, AI tools, and the basic costs of keeping the work going — so the archive can continue without interruption. A gift is never required. Nothing is gated.',
+    'The 21st Memory is a living archive I tend so people can find their way through dense material a little more easily. I am not the source. I am a small branch of it. I point everyone back to the originals, because their frequencies carry something no summary can fully replace.',
+    'I do this from a quiet corner of Vancouver Island with my cat Spooky. Most days I finish one or two categories. It is work I love. Charging for humanity’s free information would feel wrong, so the doors stay open.',
+    'If a topic helped you, sitting with it is already support. Sharing one is support. Showing up in the community is support. The Great Remembering happens through all of us.',
+    'If you are also moved to leave a tip or a gift, it matters more than it may look. It goes into the real, ordinary costs of keeping this going — power, internet, the tools I use to build the pages and videos, and the simple life here with Spooky. I live as simply as I can. Any amount is genuinely felt.',
+    'A gift is never required. Nothing is gated. Thank you for being here.',
   ]);
   const lead = messages[0] || '';
   const story = messages.slice(1);
   const fundsLabel = s.fundsLabel || 'Ways to support';
+  const giveLabel = s.giveLabel || 'If you want to leave a tip';
   const funds = Array.isArray(s.funds) ? s.funds : [];
   const gofundme = s.gofundme;
   const starlink = s.starlink;
@@ -294,7 +296,7 @@ function renderSupportPage(footerData, options = {}) {
         </ul>
       </section>
       <section id="give" class="support-give home-section-anchor" aria-labelledby="give-heading">
-        <p class="section-eyebrow mb-5" id="give-heading">Ways to give</p>
+        <p class="section-eyebrow mb-5" id="give-heading">${giveLabel}</p>
         <div class="support-give-grid">
           ${gofundmeCard}
           ${starlinkCard}
