@@ -40,6 +40,198 @@ module.exports = {
         'The Architecture of the Transition — quartz planting, solar pulse, EMP grid, plasma crystalline coating, and the three-flash sequence.'
     }
   ],
+  video_languages: [
+    {
+      code: 'en',
+      label: 'English',
+      native_label: 'English',
+      videos: [
+        {
+          title: 'When Reality Glitches and the Portal Opens',
+          embed_url: 'https://rumble.com/embed/v7cubt2/?pub=4p0ieu',
+          description:
+            'When Reality Glitches and the Portal Opens — the dome pixelates, scare events unfold, and the portal opens once the quartz conductors rise.'
+        },
+        {
+          title: 'Our Imminent Return',
+          embed_url: 'https://rumble.com/embed/v7cuc4o/?pub=4p0ieu',
+          description:
+            'Our Imminent Return — the dual path of portal homecoming or sanctuary healing, and the emptiness that is the homing signal of the true vessel.'
+        },
+        {
+          title: 'The Architecture of the Transition',
+          embed_url: 'https://rumble.com/embed/v7cuc9i/?pub=4p0ieu',
+          description:
+            'The Architecture of the Transition — quartz planting, solar pulse, EMP grid, plasma crystalline coating, and the three-flash sequence.'
+        }
+      ]
+    },
+    {
+      code: 'sv',
+      label: 'Swedish',
+      native_label: 'Svenska',
+      videos: [
+        {
+          title: 'Kristallerna i jordskorpan som bryter simuleringen',
+          embed_url: 'https://rumble.com/embed/v7cxgzw/?pub=4p0ieu'
+        },
+        {
+          title: 'Kristalluppstigningen',
+          embed_url: 'https://rumble.com/embed/v7cxh14/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'es',
+      label: 'Spanish',
+      native_label: 'Español',
+      videos: [
+        {
+          title: 'El colapso de la simulación holográfica',
+          embed_url: 'https://rumble.com/embed/v7cxgwe/?pub=4p0ieu'
+        },
+        {
+          title: 'El Despertar del Cristal',
+          embed_url: 'https://rumble.com/embed/v7cxgyu/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'ru',
+      label: 'Russian',
+      native_label: 'Русский',
+      videos: [
+        {
+          title: 'Великое Вспоминание',
+          embed_url: 'https://rumble.com/embed/v7cxgta/?pub=4p0ieu'
+        },
+        {
+          title: 'Кварцевая сеть и три вспышки света',
+          embed_url: 'https://rumble.com/embed/v7cxgus/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'pt',
+      label: 'Portuguese',
+      native_label: 'Português',
+      videos: [
+        {
+          title: 'A ativação da rede cristalina terrestre',
+          embed_url: 'https://rumble.com/embed/v7cxdyc/?pub=4p0ieu'
+        },
+        {
+          title: 'Mitologia e Metodologia',
+          embed_url: 'https://rumble.com/embed/v7cxe0s/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'pl',
+      label: 'Polish',
+      native_label: 'Polski',
+      videos: [
+        {
+          title: 'Aktywacja kwarcowych kotwic i koniec symulacji',
+          embed_url: 'https://rumble.com/embed/v7cxdtc/?pub=4p0ieu'
+        },
+        {
+          title: 'Plan Wzniesienia',
+          embed_url: 'https://rumble.com/embed/v7cxdwk/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'nl',
+      label: 'Dutch',
+      native_label: 'Nederlands',
+      videos: [
+        {
+          title: 'De Grote Herinnering',
+          embed_url: 'https://rumble.com/embed/v7cvpxo/?pub=4p0ieu'
+        },
+        {
+          title: 'Wanneer onze fysieke realiteit definitief hapert',
+          embed_url: 'https://rumble.com/embed/v7cvq1i/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'ja',
+      label: 'Japanese',
+      native_label: '日本語',
+      videos: [
+        {
+          title: '大いなる記憶の目覚め',
+          embed_url: 'https://rumble.com/embed/v7cvpt6/?pub=4p0ieu'
+        },
+        {
+          title: '空のバグと真の故郷への帰還',
+          embed_url: 'https://rumble.com/embed/v7cvpuk/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'de',
+      label: 'German',
+      native_label: 'Deutsch',
+      videos: [
+        {
+          title: 'Drei Lichtblitze beenden die 3D Simulation',
+          embed_url: 'https://rumble.com/embed/v7cudcq/?pub=4p0ieu'
+        },
+        {
+          title: 'Kosmischer Aufstieg',
+          embed_url: 'https://rumble.com/embed/v7cudfe/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'fr',
+      label: 'French',
+      native_label: 'Français',
+      videos: [
+        {
+          title: 'Activation du Réseau',
+          embed_url: 'https://rumble.com/embed/v7cud6o/?pub=4p0ieu'
+        },
+        {
+          title: "L'activation du réseau de quartz planétaire",
+          embed_url: 'https://rumble.com/embed/v7cud9m/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'cs',
+      label: 'Czech',
+      native_label: 'Čeština',
+      videos: [
+        {
+          title: 'Pixelace reality a pád holografické kupole',
+          embed_url: 'https://rumble.com/embed/v7cual4/?pub=4p0ieu'
+        },
+        {
+          title: 'Velké rozpomenutí',
+          embed_url: 'https://rumble.com/embed/v7cuao2/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'it',
+      label: 'Italian',
+      native_label: 'Italiano',
+      videos: [
+        {
+          title: 'Il Grande Risveglio',
+          embed_url: 'https://rumble.com/embed/v7cuaqi/?pub=4p0ieu'
+        },
+        {
+          title: 'La fine della simulazione di terza densità',
+          embed_url: 'https://rumble.com/embed/v7cuary/?pub=4p0ieu'
+        }
+      ]
+    }
+  ],
   report: `# Essence of the Transmission
 
 ## Overview
