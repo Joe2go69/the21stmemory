@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-05T06:49:03.075Z",
-  "total": 167,
+  "generatedAt": "2026-09-05T08:59:26.353Z",
+  "total": 168,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 3
+      "count": 4
     }
   ],
   "quizzes": [
@@ -823,6 +823,19 @@
       "href": "quiz/ascension/essence-of-the-transmission.html",
       "diveHref": "dive/ascension/essence-of-the-transmission.html",
       "key": "ascension/essence-of-the-transmission"
+    },
+    {
+      "id": "ground-placement",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Ground Placement",
+      "subtitle": "Test your understanding of Ground Placement — quartz conductors, Looking Glass planting, the EMP grid, and the three-flash sequence.",
+      "questionCount": 25,
+      "href": "quiz/ascension/ground-placement.html",
+      "diveHref": "dive/ascension/ground-placement.html",
+      "key": "ascension/ground-placement"
     },
     {
       "id": "implanted-conductors",

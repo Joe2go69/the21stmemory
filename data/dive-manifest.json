@@ -1168,6 +1168,13 @@
       "path": "/dive/ascension/implanted-conductors.html",
       "live": true,
       "title": "Implanted Conductors"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "ground-placement",
+      "path": "/dive/ascension/ground-placement.html",
+      "live": true,
+      "title": "Ground Placement"
     }
   ]
 }
