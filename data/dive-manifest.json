@@ -1161,6 +1161,13 @@
       "path": "/dive/ascension/quartz-crystal-technology.html",
       "live": true,
       "title": "Quartz Crystal Technology"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "implanted-conductors",
+      "path": "/dive/ascension/implanted-conductors.html",
+      "live": true,
+      "title": "Implanted Conductors"
     }
   ]
 }

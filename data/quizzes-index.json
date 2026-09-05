@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T04:42:43.742Z",
-  "total": 166,
+  "generatedAt": "2026-09-05T06:49:03.075Z",
+  "total": 167,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 2
+      "count": 3
     }
   ],
   "quizzes": [
@@ -823,6 +823,19 @@
       "href": "quiz/ascension/essence-of-the-transmission.html",
       "diveHref": "dive/ascension/essence-of-the-transmission.html",
       "key": "ascension/essence-of-the-transmission"
+    },
+    {
+      "id": "implanted-conductors",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Implanted Conductors",
+      "subtitle": "Test your understanding of Implanted Conductors — quartz memory devices, Looking Glass planting, the EMP grid, and the three-flash sequence.",
+      "questionCount": 25,
+      "href": "quiz/ascension/implanted-conductors.html",
+      "diveHref": "dive/ascension/implanted-conductors.html",
+      "key": "ascension/implanted-conductors"
     },
     {
       "id": "quartz-crystal-technology",
