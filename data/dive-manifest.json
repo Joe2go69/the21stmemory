@@ -1175,6 +1175,13 @@
       "path": "/dive/ascension/ground-placement.html",
       "live": true,
       "title": "Ground Placement"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "time-travel-preparation",
+      "path": "/dive/ascension/time-travel-preparation.html",
+      "live": true,
+      "title": "Time Travel Preparation"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-05T08:59:26.353Z",
-  "total": 168,
+  "generatedAt": "2026-09-06T06:32:15.334Z",
+  "total": 169,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 4
+      "count": 5
     }
   ],
   "quizzes": [
@@ -862,6 +862,19 @@
       "href": "quiz/ascension/quartz-crystal-technology.html",
       "diveHref": "dive/ascension/quartz-crystal-technology.html",
       "key": "ascension/quartz-crystal-technology"
+    },
+    {
+      "id": "time-travel-preparation",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Time Travel Preparation",
+      "subtitle": "Test your understanding of Time Travel Preparation — the Looking Glass jump, implanted quartz conductors, and the three-flash sequence that opens the portal.",
+      "questionCount": 25,
+      "href": "quiz/ascension/time-travel-preparation.html",
+      "diveHref": "dive/ascension/time-travel-preparation.html",
+      "key": "ascension/time-travel-preparation"
     },
     {
       "id": "1666-node-war",
