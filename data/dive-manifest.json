@@ -1196,6 +1196,13 @@
       "path": "/dive/ascension/crystalline-storage.html",
       "live": true,
       "title": "Crystalline Storage"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "plasma-connection",
+      "path": "/dive/ascension/plasma-connection.html",
+      "live": true,
+      "title": "Plasma Connection"
     }
   ]
 }
