@@ -1189,6 +1189,13 @@
       "path": "/dive/ascension/memory-technology.html",
       "live": true,
       "title": "Memory Technology"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "crystalline-storage",
+      "path": "/dive/ascension/crystalline-storage.html",
+      "live": true,
+      "title": "Crystalline Storage"
     }
   ]
 }

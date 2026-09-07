@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T01:09:24.466Z",
-  "total": 170,
+  "generatedAt": "2026-09-07T05:03:07.581Z",
+  "total": 171,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 6
+      "count": 7
     }
   ],
   "quizzes": [
@@ -810,6 +810,19 @@
       "href": "quiz/alice/world-war-i.html",
       "diveHref": "dive/alice/world-war-i.html",
       "key": "alice/world-war-i"
+    },
+    {
+      "id": "crystalline-storage",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Crystalline Storage",
+      "subtitle": "Test your understanding of Crystalline Storage — quartz memory conductors, the EMP grid, and the three-flash restoration sequence.",
+      "questionCount": 25,
+      "href": "quiz/ascension/crystalline-storage.html",
+      "diveHref": "dive/ascension/crystalline-storage.html",
+      "key": "ascension/crystalline-storage"
     },
     {
       "id": "essence-of-the-transmission",
