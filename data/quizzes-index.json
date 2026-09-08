@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T07:20:57.360Z",
-  "total": 172,
+  "generatedAt": "2026-09-08T07:16:19.647Z",
+  "total": 173,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 8
+      "count": 9
     }
   ],
   "quizzes": [
@@ -862,6 +862,19 @@
       "href": "quiz/ascension/implanted-conductors.html",
       "diveHref": "dive/ascension/implanted-conductors.html",
       "key": "ascension/implanted-conductors"
+    },
+    {
+      "id": "internal-timers",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Internal Timers",
+      "subtitle": "Test your understanding of Internal Timers — pre-programmed quartz triggers, crystal emergence, and the unstoppable physical sequence of planetary ascension.",
+      "questionCount": 25,
+      "href": "quiz/ascension/internal-timers.html",
+      "diveHref": "dive/ascension/internal-timers.html",
+      "key": "ascension/internal-timers"
     },
     {
       "id": "memory-technology",
