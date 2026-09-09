@@ -1224,6 +1224,13 @@
       "path": "/dive/ascension/sun-flash-event.html",
       "live": true,
       "title": "Sun Flash Event"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "kai-activation",
+      "path": "/dive/ascension/kai-activation.html",
+      "live": true,
+      "title": "Kai Activation"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T09:10:27.711Z",
-  "total": 175,
+  "generatedAt": "2026-09-09T10:08:04.881Z",
+  "total": 176,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 11
+      "count": 12
     }
   ],
   "quizzes": [
@@ -875,6 +875,19 @@
       "href": "quiz/ascension/internal-timers.html",
       "diveHref": "dive/ascension/internal-timers.html",
       "key": "ascension/internal-timers"
+    },
+    {
+      "id": "kai-activation",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Kai Activation",
+      "subtitle": "Test your understanding of Kai Activation — the boom command, quartz grid, three flashes, and dual-path extraction.",
+      "questionCount": 25,
+      "href": "quiz/ascension/kai-activation.html",
+      "diveHref": "dive/ascension/kai-activation.html",
+      "key": "ascension/kai-activation"
     },
     {
       "id": "memory-technology",
