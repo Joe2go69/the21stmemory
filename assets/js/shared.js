@@ -853,7 +853,7 @@ function initStaticArchiveCards() {
     '.topic-root-card',
     'a.quiz-hub-card',
     'a.quiz-hub-row',
-    'a.support-way'
+    '.support-way'
   ].join(',');
 
   const resetInnerScroll = (root) => {

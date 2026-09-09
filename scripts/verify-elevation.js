@@ -51,7 +51,7 @@ function fileSize(rel) {
   check(g, 'support Starlink is a peer card', supportPage.includes('starlink.com') && supportPage.includes('support-give-grid') && !supportPage.includes('support-other'));
   check(g, 'support Starlink has scannable QR', supportPage.includes('starlink-qr.png') && supportPage.includes('support-give-qr'));
   check(g, 'support GoFundMe has scannable QR', supportPage.includes('gofundme-qr.png') && supportPage.includes('support-give-card--gofundme'));
-  check(g, 'support heading is a fact not a plea', supportPage.includes('This archive is free') && !supportPage.includes('Keep this archive free'));
+  check(g, 'support heading is a fact not a plea', /<h1[^>]*>The archive stays open<\/h1>/.test(supportPage) && !supportPage.includes('Keep this archive free'));
   check(g, 'support cards have atmosphere', supportPage.includes('support-card-media') && supportPage.includes('gofundme.webp') && supportPage.includes('starlink.webp'));
   check(g, 'index no topics-utils', !index.includes('topics-utils.js'));
   check(g, 'brand mark small', fileSize('images/21st-mark.webp') < 20 * 1024, `${fileSize('images/21st-mark.webp')} B`);

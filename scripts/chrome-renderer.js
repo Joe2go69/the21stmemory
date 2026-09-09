@@ -153,23 +153,38 @@ function renderSupportCta(footerData, basePath = '') {
           </p>`;
 }
 
+function supportWayLinks(item, basePath) {
+  const links = Array.isArray(item.links) && item.links.length
+    ? item.links
+    : item.href
+      ? [{ text: item.linkText || item.link || item.title, href: item.href, external: item.external }]
+      : [];
+  if (!links.length) return '';
+  const parts = links.map((link) => {
+    const rawHref = link.href || '#';
+    const href = withBasePath(rawHref, basePath);
+    const external = isExternalHref(rawHref, link.external);
+    const attrs = external ? ' target="_blank" rel="noopener noreferrer"' : '';
+    const text = link.text || link.label || rawHref;
+    return `<a href="${href}" class="text-link support-way__link"${attrs}>${text}</a>`;
+  });
+  return `<p class="support-way__links">${parts.join('<span class="support-way__dot" aria-hidden="true"> · </span>')}</p>`;
+}
+
 function renderSupportPage(footerData, options = {}) {
   const basePath = options.basePath || '';
   const s = footerData.support || {};
-  const heading = s.heading || 'This archive is free';
+  const heading = s.heading || 'The archive stays open';
   const eyebrow = (s.eyebrow || '').trim();
   const resolver = (s.resolver || '').trim();
-  const supportNote = s.note || 'A tip is never required. If you leave one, it is felt. Thank you for being here.';
+  const supportNote = s.note || 'Thank you for being here.';
   const messages = supportMessageParts(s.message, [
-    'The transmissions are already free — at the source, and here. That will not change.',
-    'The 21st Memory is a living archive I tend so people can find their way through dense material a little more easily. I am not the source. I am a small branch of it. I point everyone back to the originals, because their frequencies carry something no summary can fully replace.',
-    'I do this from a quiet corner of Vancouver Island with my cat Spooky. Most days I finish one or two categories. It is work I love. Charging for humanity’s free information would feel wrong, so the doors stay open.',
-    'If a topic helped you, sitting with it is already support. Sharing one is support. Showing up in the community is support. The Great Remembering happens through all of us.',
-    'If you are also moved to leave a tip or a gift, it matters more than it may look. It goes into the real, ordinary costs of keeping this going — power, internet, the tools I use to build the pages and videos, and the simple life here with Spooky. I live as simply as I can. Any amount is genuinely felt.',
-    'A gift is never required. Nothing is gated. Thank you for being here.',
+    'The transmissions were free at the source. They are free here.',
+    '21st Memory is a living archive I tend so this material is easier to find your way through. I am not the source. I am a small branch of it. I point everyone back to the originals — their frequencies still carry what no page of mine can replace.',
+    'Most days I finish one or two categories from a quiet corner of Vancouver Island, with my cat Spooky nearby and the work open on the desk. It is work I love.',
+    'If something here helped you, sit with it, pass it on, or show up in the community. That is already support. The Great Remembering runs through all of us.',
+    'If you are moved to leave a tip, it goes to power, internet, and the tools behind the pages and videos. Any amount is felt. Nothing is gated.',
   ]);
-  const lead = messages[0] || '';
-  const story = messages.slice(1);
   const fundsLabel = s.fundsLabel || 'Ways to support';
   const giveLabel = s.giveLabel || 'If you want to leave a tip';
   const funds = Array.isArray(s.funds) ? s.funds : [];
@@ -177,14 +192,11 @@ function renderSupportPage(footerData, options = {}) {
   const starlink = s.starlink;
   const btcAddress = s.bitcoinAddress || '';
   const btcDisplay = truncateMiddle(btcAddress, 12, 8);
-  const bitcoinHint = s.bitcoinHint || 'Direct, no platform in between. Scan the QR or copy the address.';
+  const bitcoinHint = s.bitcoinHint || 'Direct. No platform in the middle.';
 
-  const leadHTML = lead
-    ? `<p class="page-hero-lead support-lead">${lead}</p>`
-    : '';
-  const storyHTML = story.length
+  const storyHTML = messages.length
     ? `<div class="support-story">
-        ${story.map((para) => `<p>${para}</p>`).join('\n        ')}
+        ${messages.map((para) => `<p>${para}</p>`).join('\n        ')}
       </div>`
     : '';
 
@@ -199,29 +211,32 @@ function renderSupportPage(footerData, options = {}) {
   const fundsHTML = funds
     .map((item) => {
       if (!item || typeof item !== 'object') return '';
-      const rawHref = item.href || '#';
-      const href = withBasePath(rawHref, basePath);
-      const external = isExternalHref(rawHref, item.external);
-      const attrs = external ? ' target="_blank" rel="noopener noreferrer"' : '';
       const title = item.title || item.label || '';
       const desc = item.desc || item.description || '';
       const media = cardMedia(item.image);
       return `<li>
-          <a class="support-way memory-card static-card${media ? ' has-media' : ''}" href="${href}"${attrs}>
+          <article class="support-way memory-card static-card${media ? ' has-media' : ''}">
             ${media}
-            <span class="support-way__title">${title}</span>
-            ${desc ? `<span class="support-way__desc">${desc}</span>` : ''}
-          </a>
+            <h3 class="support-way__title">${title}</h3>
+            ${desc ? `<p class="support-way__desc">${desc}</p>` : ''}
+            ${supportWayLinks(item, basePath)}
+          </article>
         </li>`;
     })
     .join('');
 
   const qrPlate = (src, alt, width, height) =>
     src
-      ? `<div class="support-give-qr">
-              <img src="${src}" alt="${alt}" width="${width}" height="${height}" decoding="async" />
-            </div>`
+      ? `<figure class="support-give-qr-wrap">
+              <div class="support-give-qr">
+                <img src="${src}" alt="${alt}" width="${width}" height="${height}" decoding="async" />
+              </div>
+              <figcaption class="support-give-qr__hint">Scan from another device</figcaption>
+            </figure>`
       : '';
+
+  const giveActions = (inner) =>
+    `<div class="support-give-main">${inner}</div>`;
 
   const gofundmeMedia = cardMedia(gofundme?.image);
   const gofundmeQrSrc = gofundme?.qrImage ? withBasePath(gofundme.qrImage, basePath) : '';
@@ -237,10 +252,12 @@ function renderSupportPage(footerData, options = {}) {
             <span class="support-give-icon support-give-icon--heart" aria-hidden="true">${SITE_ICON_SVGS.heart}</span>
             <span class="support-give-label">Card or bank</span>
             <p class="support-give-desc">${gofundme.hint}</p>
-            ${gofundmeQr}
-            <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
-              <span>${gofundme.buttonText || 'Continue on GoFundMe'}</span>
-            </a>
+            ${giveActions(`${gofundmeQr}
+              <div class="support-give-actions">
+                <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                  <span>${gofundme.buttonText || 'Continue on GoFundMe'}</span>
+                </a>
+              </div>`)}
           </article>`
     : '';
 
@@ -258,10 +275,12 @@ function renderSupportPage(footerData, options = {}) {
             <span class="support-give-icon support-give-icon--starlink" aria-hidden="true">${SITE_ICON_SVGS.satellite}</span>
             <span class="support-give-label">Starlink</span>
             <p class="support-give-desc">${starlink.hint}</p>
-            ${starlinkQr}
-            <a href="${starlink.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
-              <span>${starlink.buttonText || 'Claim a free month'}</span>
-            </a>
+            ${giveActions(`${starlinkQr}
+              <div class="support-give-actions">
+                <a href="${starlink.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                  <span>${starlink.buttonText || 'Claim a free month'}</span>
+                </a>
+              </div>`)}
           </article>`
     : '';
 
@@ -273,9 +292,11 @@ function renderSupportPage(footerData, options = {}) {
             <span class="support-give-icon support-give-icon--btc" aria-hidden="true">${bitcoinIconSvg()}</span>
             <span class="support-give-label">Bitcoin</span>
             <p class="support-give-desc">${bitcoinHint}</p>
-            ${qrPlate(qrSrc, qrAlt, 592, 592)}
-            <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcDisplay}</code>
-            <button type="button" class="btn-primary footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address"><span>Copy address</span></button>
+            ${giveActions(`${qrPlate(qrSrc, qrAlt, 592, 592)}
+              <div class="support-give-actions">
+                <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcDisplay}</code>
+                <button type="button" class="btn-primary footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address"><span>Copy address</span></button>
+              </div>`)}
           </article>`;
 
   const resolverHTML = resolver
@@ -284,8 +305,7 @@ function renderSupportPage(footerData, options = {}) {
 
   return `    <header class="page-hero page-hero--interior max-w-3xl mx-auto px-6 text-center" id="support">
         ${eyebrow ? `<p class="page-hero-eyebrow">${eyebrow}</p>` : ''}
-        <h1 class="page-hero-title page-hero-title--page font-semibold tracking-tighter leading-none mb-5">${heading}</h1>
-        ${leadHTML}${resolverHTML}
+        <h1 class="page-hero-title page-hero-title--page font-semibold tracking-tighter leading-none mb-5">${heading}</h1>${resolverHTML}
         ${storyHTML}
     </header>
     <div class="max-w-6xl mx-auto px-6 page-shell page-shell--after-hero pb-16">

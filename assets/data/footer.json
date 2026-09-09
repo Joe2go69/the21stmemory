@@ -85,7 +85,7 @@
     }
   ],
   "support": {
-    "heading": "This archive is free",
+    "heading": "The archive stays open",
     "eyebrow": "Independent · Always free",
     "cta": {
       "text": "This archive is free",
@@ -93,48 +93,53 @@
       "href": "support.html"
     },
     "message": [
-      "The transmissions are already free — at the source, and here. That will not change.",
-      "The 21st Memory is a living archive I tend so people can find their way through dense material a little more easily. I am not the source. I am a small branch of it. I point everyone back to the originals, because their frequencies carry something no summary can fully replace.",
-      "I do this from a quiet corner of Vancouver Island with my cat Spooky. Most days I finish one or two categories. It is work I love. Charging for humanity’s free information would feel wrong, so the doors stay open.",
-      "If a topic helped you, sitting with it is already support. Sharing one is support. Showing up in the community is support. The Great Remembering happens through all of us.",
-      "If you are also moved to leave a tip or a gift, it matters more than it may look. It goes into the real, ordinary costs of keeping this going — power, internet, the tools I use to build the pages and videos, and the simple life here with Spooky. I live as simply as I can. Any amount is genuinely felt.",
-      "A gift is never required. Nothing is gated. Thank you for being here."
+      "The transmissions were free at the source. They are free here.",
+      "21st Memory is a living archive I tend so this material is easier to find your way through. I am not the source. I am a small branch of it. I point everyone back to the originals — their frequencies still carry what no page of mine can replace.",
+      "Most days I finish one or two categories from a quiet corner of Vancouver Island, with my cat Spooky nearby and the work open on the desk. It is work I love.",
+      "If something here helped you, sit with it, pass it on, or show up in the community. That is already support. The Great Remembering runs through all of us.",
+      "If you are moved to leave a tip, it goes to power, internet, and the tools behind the pages and videos. Any amount is felt. Nothing is gated."
     ],
     "resolver": "",
     "fundsLabel": "Ways to support",
     "funds": [
       {
         "title": "Share a topic",
-        "desc": "Pass a deep-dive to someone who needs it. That already helps the remembering travel.",
-        "href": "codex.html",
+        "desc": "Send one deep-dive to someone who needs it.",
+        "links": [
+          { "text": "Codex", "href": "codex.html" }
+        ],
         "image": "images/codex-banner.webp"
       },
       {
-        "title": "Join the community",
-        "desc": "Telegram and the Network. Showing up is support. We remember better together.",
-        "href": "https://t.me/The_21st_Memory",
-        "external": true,
+        "title": "Show up",
+        "desc": "Telegram and the Network. We remember better together.",
+        "links": [
+          { "text": "Telegram", "href": "https://t.me/The_21st_Memory", "external": true },
+          { "text": "Network", "href": "network.html" }
+        ],
         "image": "images/oracle-banner.webp"
       },
       {
-        "title": "Leave a tip if you are moved",
-        "desc": "It goes to power, internet, tools, and the simple costs of keeping this house and this work going. The knowledge stays free.",
-        "href": "#give",
+        "title": "Leave a tip",
+        "desc": "Only if you want to. It keeps this going.",
+        "links": [
+          { "text": "Leave a tip", "href": "#give" }
+        ],
         "image": "images/about.webp"
       }
     ],
     "giveLabel": "If you want to leave a tip",
-    "note": "A tip is never required. If you leave one, it is felt. Thank you for being here.",
+    "note": "Thank you for being here.",
     "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
     "qrImage": "assets/images/bitcoin-qr.png",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",
-    "bitcoinHint": "Direct, no platform in between. Scan the QR or copy the address.",
+    "bitcoinHint": "Direct. No platform in the middle.",
     "bitcoinImage": "images/bitcoin-preview.webp",
     "bitcoinImageAlt": "Bitcoin — support the living archive",
     "gofundme": {
       "href": "https://gofund.me/a1603af10",
       "buttonText": "Continue on GoFundMe",
-      "hint": "Scan the QR or tap below. Goes toward power, internet, tools, and the ordinary costs of living here with Spooky. The knowledge stays free.",
+      "hint": "The simple path.",
       "image": "images/gofundme.webp",
       "imageAlt": "GoFundMe — support the living archive",
       "qrImage": "assets/images/gofundme-qr.png",
@@ -143,7 +148,7 @@
     "starlink": {
       "href": "https://starlink.com/residential?referral=RC-DF-13754617-58626-7",
       "buttonText": "Claim a free month",
-      "hint": "Scan the QR or tap below. We both get a free month of internet — a gift both ways.",
+      "hint": "You get a free month. So does the archive. A gift both ways.",
       "image": "images/starlink.webp",
       "imageAlt": "Starlink referral — a free month for you and for the archive",
       "qrImage": "assets/images/starlink-qr.png",

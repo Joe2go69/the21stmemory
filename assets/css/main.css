@@ -212,7 +212,7 @@ a, button, input, select, textarea,
 .mobile-menu .nav-link,
 .topic-control-btn, .breadcrumb-link,
 .section-pill, .media-frame, .journey-card, .btn-jump-pill,
-.nav-cta, .nav-logo-mark, .nav-logo, a.quiz-hub-card, a.support-way {
+.nav-cta, .nav-logo-mark, .nav-logo, a.quiz-hub-card, a.support-way, .support-way {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, transform, box-shadow, opacity, filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms;
@@ -21846,9 +21846,8 @@ body[data-report-size="lg"] #report-container {
   }
 }
 
-.page-support .page-hero--interior .support-lead {
-  margin-bottom: 1.2rem;
-  max-width: none;
+.page-support #give {
+  scroll-margin-top: calc(5.5rem + env(safe-area-inset-top, 0px));
 }
 
 .support-lead {
@@ -21861,8 +21860,8 @@ body[data-report-size="lg"] #report-container {
 .support-story {
   display: grid;
   gap: 0.95rem;
-  max-width: none;
-  margin: 0;
+  max-width: 38rem;
+  margin: 0 auto;
   text-align: left;
   font-size: 1rem;
   line-height: 1.7;
@@ -21903,6 +21902,7 @@ body[data-report-size="lg"] #report-container {
   }
 }
 
+.support-way,
 a.support-way {
   display: flex;
   flex-direction: column;
@@ -21925,17 +21925,69 @@ a.support-way:focus-visible {
 }
 
 .support-way__title {
+  margin: 0;
+  font-family: inherit;
   font-size: 0.98rem;
   font-weight: 600;
+  line-height: 1.3;
   letter-spacing: 0.01em;
   color: var(--text-primary);
 }
 
 .support-way__desc {
+  margin: 0;
   font-size: 0.82rem;
   font-weight: 500;
   line-height: 1.45;
   color: var(--text-muted);
+}
+
+.support-way__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.1rem 0.2rem;
+  margin: 0.2rem 0 0;
+}
+
+.support-way__link {
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.support-way__dot {
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+@media (max-width: 699px) {
+  .page-support .support-way {
+    min-height: 5.75rem;
+    padding: 1.2rem 1.15rem 1.15rem;
+  }
+
+  .page-support .support-way__links {
+    margin-top: 0.35rem;
+    gap: 0.15rem 0.45rem;
+  }
+
+  .page-support .support-way__link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (hover: hover) and (min-width: 700px) {
+  .page-support .support-ways .support-way:hover {
+    transform: translateY(-2px) !important;
+  }
+}
+
+.page-support .support-give-card,
+.page-support .support-give-card:hover {
+  transform: none !important;
 }
 
 .support-give .section-eyebrow {
@@ -21959,6 +22011,7 @@ a.support-way:focus-visible {
 }
 
 .support-give-card,
+.support-way.has-media,
 a.support-way.has-media {
   position: relative;
   isolation: isolate;
@@ -21993,17 +22046,29 @@ a.support-way.has-media {
 }
 
 .support-give-card > :not(.support-card-media),
+.support-way > :not(.support-card-media),
 a.support-way > :not(.support-card-media) {
   position: relative;
   z-index: 1;
 }
 
+.support-way.has-media .support-way__title,
 a.support-way.has-media .support-way__title {
   color: #F8FAFC;
 }
 
+.support-way.has-media .support-way__desc,
 a.support-way.has-media .support-way__desc {
   color: #E0D4FF;
+}
+
+.support-way.has-media .support-way__link {
+  color: #E0D4FF;
+}
+
+.support-way.has-media .support-way__link:hover,
+.support-way.has-media .support-way__link:focus-visible {
+  color: #F8FAFC;
 }
 
 .support-give-card {
@@ -22012,17 +22077,13 @@ a.support-way.has-media .support-way__desc {
   align-items: flex-start;
   gap: 0.45rem;
   height: 100%;
-  min-height: 18.5rem;
+  min-height: 0;
   padding: 1.15rem 1.2rem 1.2rem;
-}
-
-.support-give-card--qr {
-  min-height: 24rem;
 }
 
 .support-give-card .btn-primary {
   width: 100%;
-  margin-top: auto;
+  margin-top: 0;
 }
 
 .support-give-icon {
@@ -22076,16 +22137,42 @@ a.support-way.has-media .support-way__desc {
   flex: 0 1 auto;
 }
 
+.support-give-main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.85rem;
+  width: 100%;
+  margin-top: 0.55rem;
+}
+
+.support-give-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  width: 100%;
+  order: -1;
+}
+
+.support-give-qr-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  width: 100%;
+  margin: 0;
+  order: 1;
+}
+
 .support-give-qr {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-self: center;
   box-sizing: border-box;
-  width: min(22rem, 100%);
-  margin-top: auto;
-  padding: 1.05rem;
-  border-radius: 1.1rem;
+  width: min(10.5rem, 58vw);
+  margin: 0;
+  padding: 0.7rem;
+  border-radius: 0.95rem;
   background: #fff;
   border: 1px solid rgba(255, 255, 255, 0.92);
   box-shadow:
@@ -22111,70 +22198,68 @@ a.support-way.has-media .support-way__desc {
   opacity: 1;
 }
 
-.support-give-card--qr .btn-primary {
-  margin-top: 0.4rem;
-}
-
-.support-give-card--qr .footer-support-address {
-  margin-top: 0.45rem;
+.support-give-qr__hint {
+  margin: 0;
+  font-size: 0.72rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.35;
+  color: var(--text-dim);
+  text-align: center;
 }
 
 @media (min-width: 1024px) {
-  .support-give-qr {
-    width: min(16.75rem, 100%);
-    padding: 0.95rem;
-    border-radius: 1rem;
-  }
-
   /*
-    Side-by-side QR cards: pin the plates to the same row so Starlink
-    lines up with Bitcoin (which has an address field under the code).
+    Pin QR / address / button to the same rows across the three cards.
+    Bitcoin's address occupies row 2; the other cards leave that row empty
+    so every plate and every button share a line.
   */
-  .support-give-card--qr {
+  .support-give-main {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     grid-template-rows:
       auto
-      auto
-      auto
-      1fr
-      auto
-      minmax(calc((0.68rem * 1.45) + 1.1rem + 2px), auto)
+      minmax(calc((0.75rem * 1.45) + 1rem + 2px), auto)
       auto;
     align-items: start;
     justify-items: stretch;
+    gap: 0.5rem;
+    margin-top: auto;
+    width: 100%;
   }
 
-  .support-give-card--qr > .support-give-icon {
+  .support-give-qr-wrap {
     grid-row: 1;
-  }
-
-  .support-give-card--qr > .support-give-label {
-    grid-row: 2;
-  }
-
-  .support-give-card--qr > .support-give-desc {
-    grid-row: 3;
-  }
-
-  .support-give-card--qr > .support-give-qr {
-    grid-row: 5;
-    margin-top: 0;
+    order: 0;
     justify-self: center;
-    align-self: start;
   }
 
-  .support-give-card--qr > .footer-support-address {
-    grid-row: 6;
-    margin-top: 0;
-    align-self: stretch;
+  .support-give-actions {
+    display: contents;
   }
 
-  .support-give-card--qr > .btn-primary {
-    grid-row: 7;
+  .support-give-card--qr .footer-support-address {
+    grid-row: 2;
+    margin: 0;
+  }
+
+  .support-give-card--qr .btn-primary {
+    grid-row: 3;
     margin-top: 0;
     width: 100%;
     justify-self: stretch;
+  }
+
+  .support-give-qr {
+    width: 13rem;
+    max-width: 100%;
+    padding: 0.9rem;
+    border-radius: 1rem;
+  }
+
+  .support-give-qr__hint {
+    display: none;
   }
 }
 
@@ -22202,18 +22287,26 @@ a.support-way.has-media .support-way__desc {
 }
 
 .support-note {
-  margin: 1.15rem 0 0;
-  padding-top: 1rem;
+  margin: 1.75rem 0 0;
+  padding: 1.35rem 0 0.5rem;
   border-top: 1px solid rgba(124, 58, 237, 0.18);
   text-align: center;
-  font-size: 0.84rem;
-  line-height: 1.5;
-  color: var(--text-dim);
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--text-soft);
+}
+
+@media (max-width: 699px) {
+  .support-note {
+    margin-top: 2.15rem;
+    padding: 1.6rem 0 2.75rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  a.support-way:hover {
-    transform: none;
+  a.support-way:hover,
+  .page-support .support-ways .support-way:hover {
+    transform: none !important;
   }
 }
 
