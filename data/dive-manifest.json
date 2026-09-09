@@ -1217,6 +1217,13 @@
       "path": "/dive/ascension/solar-activation.html",
       "live": true,
       "title": "Solar Activation"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "sun-flash-event",
+      "path": "/dive/ascension/sun-flash-event.html",
+      "live": true,
+      "title": "Sun Flash Event"
     }
   ]
 }

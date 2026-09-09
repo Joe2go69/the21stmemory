@@ -88,9 +88,9 @@
         {
           "id": "sun-flash-event",
           "title": "Sun Flash Event",
-          "description": "Kai gives the boom; the sun flash reacts to the new aether.",
-          "topic_image": "",
-          "is_placeholder": true,
+          "description": "The unalterable solar ignition that charges emerged quartz crystals, seals a realm-wide EMP grid, and runs the three-flash sequence that restores memory, collapses the 3rd-realm overlay, and opens the homecoming portal.",
+          "topic_image": "images/ascension/sun-flash-event.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "kai-activation",
