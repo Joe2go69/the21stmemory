@@ -81,9 +81,9 @@
     {
       "id": "solar-activation",
       "title": "Solar Activation",
-      "description": "ET activation of the sun charges the quartz with bright light and positive frequencies for the three flashes.",
-      "topic_image": "",
-      "is_placeholder": true,
+      "description": "Kai ignites the sun as an operational device, charging the risen quartz into an EMP grid and three flashes that open the celestial portal.",
+      "topic_image": "images/ascension/solar-activation.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "sun-flash-event",

@@ -1210,6 +1210,13 @@
       "path": "/dive/ascension/internal-timers.html",
       "live": true,
       "title": "Internal Timers"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "solar-activation",
+      "path": "/dive/ascension/solar-activation.html",
+      "live": true,
+      "title": "Solar Activation"
     }
   ]
 }

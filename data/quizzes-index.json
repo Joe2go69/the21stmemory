@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-08T07:16:19.647Z",
-  "total": 173,
+  "generatedAt": "2026-09-09T01:44:35.888Z",
+  "total": 174,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 9
+      "count": 10
     }
   ],
   "quizzes": [
@@ -914,6 +914,19 @@
       "href": "quiz/ascension/quartz-crystal-technology.html",
       "diveHref": "dive/ascension/quartz-crystal-technology.html",
       "key": "ascension/quartz-crystal-technology"
+    },
+    {
+      "id": "solar-activation",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Solar Activation",
+      "subtitle": "Test your understanding of Solar Activation — Kai’s ignition, the charging light, the EMP grid, and the three flashes.",
+      "questionCount": 25,
+      "href": "quiz/ascension/solar-activation.html",
+      "diveHref": "dive/ascension/solar-activation.html",
+      "key": "ascension/solar-activation"
     },
     {
       "id": "time-travel-preparation",
