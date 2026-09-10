@@ -1231,6 +1231,13 @@
       "path": "/dive/ascension/kai-activation.html",
       "live": true,
       "title": "Kai Activation"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "bright-light-charge",
+      "path": "/dive/ascension/bright-light-charge.html",
+      "live": true,
+      "title": "Bright Light Charge"
     }
   ]
 }

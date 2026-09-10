@@ -102,9 +102,9 @@
             {
               "id": "bright-light-charge",
               "title": "Bright Light Charge",
-              "description": "The first light is not a flash — a bright light that charges and activates the quartz crystals.",
-              "topic_image": "",
-              "is_placeholder": true
+              "description": "The first light is not a flash — a sustained illumination that charges subterranean quartz conductors, locks the EMP grid, and pre-charges every vessel before the tri-flash transition.",
+              "topic_image": "images/ascension/bright-light-charge.webp",
+              "is_placeholder": false
             }
           ]
         },
