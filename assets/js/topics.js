@@ -110,19 +110,24 @@ function renderSubtopic(sourceId, sub) {
     let leavesHTML = visibleLeaves.map((leaf, i) => renderTopicLeaf(sourceId, leaf, '', i)).join('');
     if (!leavesHTML) return '';
 
-    const viewLink = subPh
-      ? ''
-      : `<a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, sub.id, false))}" class="topic-section-link" data-topic-id="${TopicUtils.escapeAttr(sub.id)}">View →</a>`;
+    const topicAttrs = `data-topic-id="${TopicUtils.escapeAttr(sub.id)}" id="topic-${TopicUtils.escapeAttr(sub.id)}"`;
+    const disclosureLabel = expanded
+      ? `Hide nested topics in ${sub.title}`
+      : `Show nested topics in ${sub.title}`;
+    const nameInner = `<span class="category-toggle-btn__label flex-1 min-w-0">${TopicUtils.escapeHtml(sub.title)}</span>${subBadge}<span class="topic-control-count flex-shrink-0" aria-hidden="true">${visibleLeaves.length}</span>`;
+    const name = subPh
+      ? `<span class="topic-section-name topic-section-name--static">${nameInner}</span>`
+      : `<a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, sub.id, false))}" class="topic-section-name">${nameInner}</a>`;
 
     return `
       <div class="topic-section-group" data-expanded="${expanded ? 'true' : 'false'}" data-section-id="${TopicUtils.escapeAttr(sectionId)}">
         <div class="topic-section-header">
-          <button type="button" class="category-toggle-btn" aria-expanded="${expanded ? 'true' : 'false'}" aria-controls="${TopicUtils.escapeAttr(sectionId)}-children" data-toggle-section>
-            <span class="chevron" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('chevron', 'card-icon-sm') : ''}</span>
-            <span class="category-toggle-btn__label flex-1 min-w-0">${TopicUtils.escapeHtml(sub.title)}</span>${subBadge}
-            <span class="topic-control-count flex-shrink-0">${visibleLeaves.length}</span>
-          </button>
-          ${viewLink}
+          <div class="topic-section-row category-toggle-btn" ${topicAttrs}>
+            <button type="button" class="topic-section-disclosure" aria-expanded="${expanded ? 'true' : 'false'}" aria-controls="${TopicUtils.escapeAttr(sectionId)}-children" data-toggle-section aria-label="${TopicUtils.escapeAttr(disclosureLabel)}">
+              <span class="chevron" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('chevron', 'card-icon-sm') : ''}</span>
+            </button>
+            ${name}
+          </div>
         </div>
         <div id="${sectionId}-children" class="topic-section-children" data-section-children${expanded ? '' : ' style="max-height:0"'}>
           ${leavesHTML}
@@ -294,12 +299,16 @@ function setupCollapsibleSections(container) {
   const sourceId = topicsPageState.sourceId;
 
   container.querySelectorAll('[data-toggle-section]').forEach(btn => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', (event) => {
+      event.preventDefault();
+      event.stopPropagation();
       const group = btn.closest('.topic-section-group');
       if (!group) return;
       const expanded = group.dataset.expanded !== 'true';
       group.dataset.expanded = expanded ? 'true' : 'false';
       btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+      const title = group.querySelector('.category-toggle-btn__label')?.textContent?.trim() || 'section';
+      btn.setAttribute('aria-label', expanded ? `Hide nested topics in ${title}` : `Show nested topics in ${title}`);
       const children = group.querySelector('[data-section-children]');
       if (children && expanded) {
         children.style.maxHeight = `${children.scrollHeight}px`;
