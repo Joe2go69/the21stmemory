@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T06:23:46.301Z",
-  "total": 178,
+  "generatedAt": "2026-09-10T07:30:10.231Z",
+  "total": 179,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 14
+      "count": 15
     }
   ],
   "quizzes": [
@@ -927,6 +927,19 @@
       "href": "quiz/ascension/memory-technology.html",
       "diveHref": "dive/ascension/memory-technology.html",
       "key": "ascension/memory-technology"
+    },
+    {
+      "id": "new-aether-reaction",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "New Aether Reaction",
+      "subtitle": "Test your understanding of New Aether Reaction — solar E.M. pulses, quartz, the EMP grid, plasma crystalline, and the three-flash sequence.",
+      "questionCount": 25,
+      "href": "quiz/ascension/new-aether-reaction.html",
+      "diveHref": "dive/ascension/new-aether-reaction.html",
+      "key": "ascension/new-aether-reaction"
     },
     {
       "id": "plasma-connection",

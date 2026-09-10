@@ -118,9 +118,9 @@
             {
               "id": "new-aether-reaction",
               "title": "New Aether Reaction",
-              "description": "The new aether created for this moment reacts to the quartz and holds the charge.",
-              "topic_image": "",
-              "is_placeholder": true
+              "description": "Solar E.M. pulses couple with New Aether, charge subterranean quartz, lock the EMP grid, and convert the atmosphere to plasma crystalline for the three-flash portal sequence.",
+              "topic_image": "images/ascension/new-aether-reaction.webp",
+              "is_placeholder": false
             },
             {
               "id": "positive-frequencies",

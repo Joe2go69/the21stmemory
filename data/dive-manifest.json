@@ -1245,6 +1245,13 @@
       "path": "/dive/ascension/aether-interaction.html",
       "live": true,
       "title": "Aether Interaction"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "new-aether-reaction",
+      "path": "/dive/ascension/new-aether-reaction.html",
+      "live": true,
+      "title": "New Aether Reaction"
     }
   ]
 }
