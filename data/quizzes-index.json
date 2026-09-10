@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T09:14:45.733Z",
-  "total": 180,
+  "generatedAt": "2026-09-10T12:17:51.547Z",
+  "total": 181,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 16
+      "count": 17
     }
   ],
   "quizzes": [
@@ -849,6 +849,19 @@
       "href": "quiz/ascension/crystalline-storage.html",
       "diveHref": "dive/ascension/crystalline-storage.html",
       "key": "ascension/crystalline-storage"
+    },
+    {
+      "id": "em-pulses",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "E.M. Pulses",
+      "subtitle": "Test your understanding of E.M. Pulses — solar ignition, the EMP Grid, quartz coupling, and the three-flash sequence.",
+      "questionCount": 25,
+      "href": "quiz/ascension/em-pulses.html",
+      "diveHref": "dive/ascension/em-pulses.html",
+      "key": "ascension/em-pulses"
     },
     {
       "id": "essence-of-the-transmission",
