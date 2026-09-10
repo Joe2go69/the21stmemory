@@ -795,7 +795,7 @@ ${rows}
   try {
     const params = new URLSearchParams(window.location.search);
     const src = params.get('source') || saved.source;
-    if (src === 'alice' || src === 'breakdown') {
+    if (src && src !== 'all') {
       initialSource = src;
       startCatalog = true;
     }

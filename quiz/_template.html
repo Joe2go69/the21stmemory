@@ -46,10 +46,7 @@
 
     <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
     <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}</style>
-    <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
-    <style>html,body{background-color:#0F0A1F}</style>
     <link rel="preload" href="../../assets/css/main.min.css" as="style">
-    <link rel="stylesheet" href="../../assets/css/tailwind.css">
     <link rel="stylesheet" href="../../assets/css/fonts.css">
     <link rel="stylesheet" href="../../assets/css/main.min.css">
     <link rel="stylesheet" href="../../assets/css/quiz.css">
@@ -88,18 +85,19 @@
     </nav>
     <main id="main">
     <noscript>
-      <div class="noscript-notice max-w-6xl mx-auto px-6 pt-6">
+      <div class="noscript-notice quiz-noscript">
         <p><strong>JavaScript is required</strong> to take this interactive quiz. Please enable JavaScript, or study the <a href="../../deep-dive.html?source=__SOURCE__&amp;topic=__TOPIC_ID__">__TOPIC_TITLE__ deep-dive</a>.</p>
       </div>
     </noscript>
 
-    <div class="max-w-6xl mx-auto px-6 page-shell pb-20 quiz-page">
+    <div class="page-shell quiz-page">
+        <script type="application/json" id="quiz-data">__QUIZ_JSON__</script>
         <div id="quiz-root" data-quiz-src="../../data/quizzes/__SOURCE__/__TOPIC_ID__.json" aria-live="polite"></div>
     </div>
 
     </main>
     <footer class="site-footer">
-      <div class="footer-inner max-w-6xl mx-auto px-6">
+      <div class="footer-inner">
         <div class="footer-main">
           <div class="footer-brand">
             <div class="footer-brand-row">

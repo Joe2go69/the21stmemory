@@ -98,18 +98,30 @@ function collectImageFields(topics, out = []) {
   return out;
 }
 
-function renderQuizHtml({ source, topicId, title, topicImage, seoDesc }) {
+function embedQuizJson(quiz) {
+  if (!quiz || typeof quiz !== 'object') return '{}';
+  return JSON.stringify(quiz)
+    .replace(/</g, '\\u003c')
+    .replace(/>/g, '\\u003e')
+    .replace(/&/g, '\\u0026');
+}
+
+function renderQuizHtml({ source, topicId, title, topicImage, seoDesc, quiz }) {
   const templatePath = path.join(ROOT, 'quiz', '_template.html');
   if (!fs.existsSync(templatePath)) {
     throw new Error('Missing quiz/_template.html');
   }
-  return fs
+  const html = fs
     .readFileSync(templatePath, 'utf8')
     .replace(/__TOPIC_TITLE__/g, title)
     .replace(/__SOURCE__/g, source)
     .replace(/__TOPIC_ID__/g, topicId)
     .replace(/__TOPIC_IMAGE__/g, topicImage)
     .replace(/__SEO_DESC__/g, seoDesc);
+  if (!html.includes('__QUIZ_JSON__')) {
+    throw new Error('quiz/_template.html is missing __QUIZ_JSON__ placeholder');
+  }
+  return html.split('__QUIZ_JSON__').join(embedQuizJson(quiz));
 }
 
 function reportHits(reportLower, text) {
@@ -329,7 +341,8 @@ function applyQuiz(payload) {
     topicId,
     title,
     topicImage,
-    seoDesc
+    seoDesc,
+    quiz: rebalanced.quiz
   });
   const htmlDir = path.join(ROOT, 'quiz', source);
   fs.mkdirSync(htmlDir, { recursive: true });
@@ -349,5 +362,6 @@ module.exports = {
   absoluteVoice,
   applyQuiz,
   renderQuizHtml,
+  embedQuizJson,
   assertGrounded
 };

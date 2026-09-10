@@ -28,6 +28,7 @@ const CRITICAL_PAINT = `    <!-- Critical paint: solid vault color before main.c
 
 function walk(dir, acc = []) {
   for (const name of fs.readdirSync(dir)) {
+    if (name.startsWith('_')) continue;
     const p = path.join(dir, name);
     const st = fs.statSync(p);
     if (st.isDirectory()) walk(p, acc);
@@ -36,13 +37,19 @@ function walk(dir, acc = []) {
   return acc;
 }
 
+function stripFooterUtilities(html) {
+  return html.replace(
+    /<div class="footer-inner[^"]*">/g,
+    '<div class="footer-inner">'
+  );
+}
+
 /** Keep first paint vault-colored even before main.min.css arrives. */
 function ensureCriticalPaint(html) {
   if (html.includes('html,body{background-color:#0F0A1F}')) return html;
 
   const markers = [
     '    <link rel="preload" href="../../assets/css/main.min.css" as="style">',
-    '    <link rel="stylesheet" href="../../assets/css/tailwind.css">',
     '    <link rel="stylesheet" href="../../assets/css/main.min.css">',
     '    <link rel="stylesheet" href="../../assets/css/quiz.css">',
   ];
@@ -88,6 +95,7 @@ for (const file of quizFiles) {
     changed = true;
   }
 
+  html = stripFooterUtilities(html);
   html = ensureCriticalPaint(html);
   html = ensureThemeColor(html);
   html = ensurePageInterior(html);
