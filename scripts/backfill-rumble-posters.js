@@ -5,10 +5,10 @@
 const fs = require('fs');
 const path = require('path');
 const { attachRumblePosters, collectVideoLists, fetchRumblePosterUrl } = require('./lib/rumble-poster');
+const { knownSources } = require('./lib/topic-pipeline');
 const { buildDives } = require('./build-static-dives');
 
 const ROOT = path.join(__dirname, '..');
-const SOURCES = ['breakdown', 'alice'];
 const DELAY_MS = 40;
 
 function walkTopics(topics, fn) {
@@ -44,7 +44,7 @@ function patchHomeFeatured(posterUrl) {
 async function backfillSource(source) {
   const sourceFile = path.join(ROOT, 'data', `${source}-topics.json`);
   const tree = JSON.parse(fs.readFileSync(sourceFile, 'utf8'));
-  const totals = { attached: 0, skipped: 0, failed: 0, topics: 0 };
+  const totals = { attached: 0, skipped: 0, failed: 0, topics: 0, changedIds: [] };
 
   const nodes = [];
   walkTopics(tree.topics, (node) => nodes.push(node));
@@ -53,13 +53,17 @@ async function backfillSource(source) {
     const lists = collectVideoLists(node);
     if (!lists.length) continue;
     totals.topics += 1;
+    let attachedHere = 0;
     for (const list of lists) {
       const stats = await attachRumblePosters(list, { delayMs: DELAY_MS });
       totals.attached += stats.attached;
       totals.skipped += stats.skipped;
       totals.failed += stats.failed;
+      attachedHere += stats.attached;
     }
+    if (!attachedHere) continue;
 
+    totals.changedIds.push(node.id);
     const heavyPath = path.join(ROOT, 'data', `${source}-topics`, `${node.id}.json`);
     if (fs.existsSync(heavyPath)) {
       const heavy = JSON.parse(fs.readFileSync(heavyPath, 'utf8'));
@@ -69,7 +73,9 @@ async function backfillSource(source) {
     }
   }
 
-  fs.writeFileSync(sourceFile, JSON.stringify(tree, null, 2) + '\n', 'utf8');
+  if (totals.attached) {
+    fs.writeFileSync(sourceFile, JSON.stringify(tree, null, 2) + '\n', 'utf8');
+  }
   console.log(
     `${source}: ${totals.topics} topics, ${totals.attached} posters fetched, ${totals.skipped} kept, ${totals.failed} missing`
   );
@@ -77,10 +83,12 @@ async function backfillSource(source) {
 }
 
 async function main() {
-  for (const source of SOURCES) {
+  const changed = [];
+  for (const source of knownSources()) {
     const sourceFile = path.join(ROOT, 'data', `${source}-topics.json`);
     if (!fs.existsSync(sourceFile)) continue;
-    await backfillSource(source);
+    const totals = await backfillSource(source);
+    for (const id of totals.changedIds) changed.push({ source, id });
   }
 
   const homePoster = await fetchRumblePosterUrl('https://rumble.com/embed/v7bz6xu/');
@@ -90,7 +98,11 @@ async function main() {
     console.log('Home featured poster unchanged');
   }
 
-  buildDives();
+  if (changed.length) {
+    buildDives({ only: changed });
+  } else {
+    console.log('No missing posters to attach; dives unchanged');
+  }
 }
 
 main().catch((err) => {

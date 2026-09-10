@@ -5,6 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const { ROOT, REQUIRED_SECTIONS, findNode } = require('./topic-pipeline');
+const { collectVideoLists } = require('./rumble-poster');
 
 function exists(rel) {
   return fs.existsSync(path.join(ROOT, rel));
@@ -69,6 +70,23 @@ function verifyInstall({ source, id, kind = 'all' }) {
     add('PDF preview file', topic.pdf_preview_image && exists(topic.pdf_preview_image), topic.pdf_preview_image);
     add('PDF URL', !!topic.slide_deck_pdf_url, topic.slide_deck_pdf_url);
     add('at least one Rumble video', Array.isArray(topic.rumble_videos) && topic.rumble_videos.length > 0);
+    const posterMissing = [];
+    const posterUrls = [];
+    for (const list of collectVideoLists(topic)) {
+      for (const video of list) {
+        if (!video?.embed_url) continue;
+        const poster = String(video.poster_url || '').trim();
+        if (!/^https:\/\//i.test(poster)) posterMissing.push(video.title || video.embed_url);
+        else posterUrls.push(poster);
+      }
+    }
+    add('every Rumble video has a poster', posterMissing.length === 0, posterMissing.join(', '));
+    if (posterUrls.length) {
+      add(
+        'posters in dive',
+        posterUrls.every((url) => dive.includes(url))
+      );
+    }
   }
 
   add('dive is not a stub', dive && !dive.includes('dive-stub-actions'));

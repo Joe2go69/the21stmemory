@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T04:16:07.342Z",
-  "total": 177,
+  "generatedAt": "2026-09-10T06:23:46.301Z",
+  "total": 178,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 13
+      "count": 14
     }
   ],
   "quizzes": [
@@ -810,6 +810,19 @@
       "href": "quiz/alice/world-war-i.html",
       "diveHref": "dive/alice/world-war-i.html",
       "key": "alice/world-war-i"
+    },
+    {
+      "id": "aether-interaction",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Aether Interaction",
+      "subtitle": "Test your understanding of Aether Interaction — the New Aether, plasma crystalline, EMP grid, density upgrades, and the four-stage flash sequence.",
+      "questionCount": 25,
+      "href": "quiz/ascension/aether-interaction.html",
+      "diveHref": "dive/ascension/aether-interaction.html",
+      "key": "ascension/aether-interaction"
     },
     {
       "id": "bright-light-charge",

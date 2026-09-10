@@ -229,11 +229,27 @@ async function applyTopic(payload) {
   if (!videos.length) throw new Error('Need at least 1 rumble video');
   if (!payload.slide_deck_pdf_url) throw new Error('Missing slide_deck_pdf_url');
 
-  const posterStats = await attachRumblePosters(videos);
+  const posterLists = [videos];
   if (Array.isArray(payload.video_languages)) {
     for (const lang of payload.video_languages) {
-      if (Array.isArray(lang?.videos)) await attachRumblePosters(lang.videos);
+      if (Array.isArray(lang?.videos) && lang.videos.length) posterLists.push(lang.videos);
     }
+  }
+  const posterStats = { attached: 0, skipped: 0, failed: 0 };
+  for (const list of posterLists) {
+    const stats = await attachRumblePosters(list);
+    posterStats.attached += stats.attached;
+    posterStats.skipped += stats.skipped;
+    posterStats.failed += stats.failed;
+  }
+  const missingPosters = posterLists
+    .flat()
+    .filter((v) => v && v.embed_url && !/^https:\/\//i.test(String(v.poster_url || '').trim()))
+    .map((v) => v.title || v.embed_url);
+  if (missingPosters.length) {
+    throw new Error(
+      `Rumble poster missing for: ${missingPosters.join(', ')}. Wait for Rumble's thumbnail and rerun install.`
+    );
   }
 
   const next = {

@@ -1238,6 +1238,13 @@
       "path": "/dive/ascension/bright-light-charge.html",
       "live": true,
       "title": "Bright Light Charge"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "aether-interaction",
+      "path": "/dive/ascension/aether-interaction.html",
+      "live": true,
+      "title": "Aether Interaction"
     }
   ]
 }

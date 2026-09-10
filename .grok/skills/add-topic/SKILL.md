@@ -74,4 +74,5 @@ Image `source` is the filename as dropped in `images/{source}/`. `target` is keb
 - Card compress q=80, max edge 1400; PDF q=82 full-res; infographic q=85 full-res
 - Required report headings listed above; no `TODO`; `is_placeholder: false`
 - Existing subtopics and `quiz` preserved
-- At least one Rumble video; PDF URL required
+- At least one Rumble video; every video must have a Rumble poster (missing posters fail install — rerun once Rumble's thumbnail is ready)
+- PDF URL required
