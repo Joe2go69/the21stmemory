@@ -6,6 +6,6 @@ When adding a **quiz**: follow `.grok/skills/add-quiz/SKILL.md`. Do not open oth
 
 Allowed reads for those tasks: the matching skill, `scripts/install.js`, `scripts/lib/*-pipeline.js`, `scripts/apply-topic.js` / `scripts/apply-quiz.js`, `data/{source}-topics/{id}.json`, the user paste or NotebookLM file, and this topic’s images.
 
-Forbidden: exploring “how other topics work,” reading sibling reports/HTML, or cloning old install scripts. Do not run a full-site dive rebuild for a single topic. If the topic id is not already in `data/{source}-topics.json`, stop and say so — do not scan the tree to find a parent.
+Forbidden: exploring “how other topics work,” reading sibling reports/HTML, or cloning old install scripts. Do not run a full-site dive rebuild for a single topic. If the topic id is not already in `data/{source}-topics.json`, stop and say so — do not scan the tree to find a parent. Do not use Playwright, a browser, or a local server for topic/quiz installs — `Verify passed` from `scripts/install.js` is the check.
 
 Commit message style for these: `Add {Title} topic and Living Truth quiz.` (or topic-only / quiz-only as appropriate).

@@ -9,6 +9,8 @@ description: >
 # Add topic
 
 Do not grep the repo. Do not open other topics. Do not copy `scripts/update-*.js`.
+Do not use Playwright, browser tools, or a local HTTP server. Do not click the dive page.
+`Verify passed` from the installer is the only check — this workflow is not browser-verified.
 
 Allowed reads: this skill, `scripts/install.js`, `scripts/apply-topic.js`, `scripts/lib/topic-pipeline.js`, `data/{source}-topics/{id}.json`, the user paste, images under `images/{source}/`.
 
@@ -21,6 +23,7 @@ If `{id}` is missing from `data/{source}-topics.json`, stop. Do not invent a par
 3. `node scripts/install.js topic {source} {id}`
    - If a matching `{id}.quiz.js` payload is also ready in this turn, run `node scripts/install.js all {source} {id}` instead (one rebuild).
 4. If verify fails, fix the payload and rerun install. Do not rebuild the whole site. Do not repo-wide grep.
+5. Stop after `Verify passed`. Do not start a server, open the page, or walk the UI.
 
 The installer applies the payload, refreshes this topic's index/stats, rebuilds this dive page plus prev/next, patches only this sitemap URL, and prints a checklist. It does not restamp dates on other pages.
 

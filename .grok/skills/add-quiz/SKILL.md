@@ -9,6 +9,8 @@ description: >
 # Add quiz
 
 Do not grep the repo. Do not open other quizzes or other topic reports. Do not copy `scripts/install-*-quiz.js`.
+Do not use Playwright, browser tools, or a local HTTP server. Do not click the quiz or dive page.
+`Verify passed` from the installer is the only check — this workflow is not browser-verified.
 
 Allowed reads: this skill, `scripts/install.js`, `scripts/apply-quiz.js`, `scripts/lib/quiz-pipeline.js`, `scripts/quiz-option-utils.js`, `data/{source}-topics/{id}.json` (this topic only), the NotebookLM file.
 
@@ -22,6 +24,7 @@ Title must match the topic title in that JSON exactly.
 4. `node scripts/install.js quiz {source} {id}`
    - If a matching `{id}.topic.js` was also written in this turn, run `node scripts/install.js all {source} {id}` instead.
 5. If verify fails, fix the payload and rerun install. Do not rebuild the whole site.
+6. Stop after `Verify passed`. Do not start a server, open the page, or walk the UI.
 
 The installer applies the quiz, rebalances option length, rebuilds this dive page plus prev/next, updates the quizzes hub, patches only this sitemap URL, and checks MC/T/F shape plus the dive CTA.
 
