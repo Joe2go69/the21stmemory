@@ -1287,6 +1287,13 @@
       "path": "/dive/ascension/jump-backward.html",
       "live": true,
       "title": "Jump Backward"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "memory-upload",
+      "path": "/dive/ascension/memory-upload.html",
+      "live": true,
+      "title": "Memory Upload"
     }
   ]
 }
