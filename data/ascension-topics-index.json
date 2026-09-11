@@ -144,8 +144,8 @@
       "id": "the-three-flashes",
       "title": "The Three Flashes",
       "description": "Three pulses — back, forward, then the portal — restore memory, vessel, and the way home.",
-      "topic_image": "",
-      "is_placeholder": true,
+      "topic_image": "images/ascension/the-three-flashes.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "first-flash",

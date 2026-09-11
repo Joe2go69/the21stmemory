@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T12:17:51.547Z",
-  "total": 181,
+  "generatedAt": "2026-09-11T01:30:15.802Z",
+  "total": 182,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 17
+      "count": 18
     }
   ],
   "quizzes": [
@@ -1018,6 +1018,19 @@
       "href": "quiz/ascension/sun-flash-event.html",
       "diveHref": "dive/ascension/sun-flash-event.html",
       "key": "ascension/sun-flash-event"
+    },
+    {
+      "id": "the-three-flashes",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "The Three Flashes",
+      "subtitle": "Test your understanding of The Three Flashes — solar-quartz EMP coupling, the three-pulse sequence, portal elevation, and terrestrial healing.",
+      "questionCount": 25,
+      "href": "quiz/ascension/the-three-flashes.html",
+      "diveHref": "dive/ascension/the-three-flashes.html",
+      "key": "ascension/the-three-flashes"
     },
     {
       "id": "time-travel-preparation",

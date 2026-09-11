@@ -1266,6 +1266,13 @@
       "path": "/dive/ascension/em-pulses.html",
       "live": true,
       "title": "E.M. Pulses"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "the-three-flashes",
+      "path": "/dive/ascension/the-three-flashes.html",
+      "live": true,
+      "title": "The Three Flashes"
     }
   ]
 }
