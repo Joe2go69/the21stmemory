@@ -157,9 +157,9 @@
             {
               "id": "jump-backward",
               "title": "Jump Backward",
-              "description": "The first flash takes you back on the timeline to reclaim vessel and past self.",
-              "topic_image": "",
-              "is_placeholder": true
+              "description": "The First Flash jumps consciousness backward along the timeline to reclaim the original vessel and upload latent memory.",
+              "topic_image": "images/ascension/jump-backward.webp",
+              "is_placeholder": false
             },
             {
               "id": "memory-upload",

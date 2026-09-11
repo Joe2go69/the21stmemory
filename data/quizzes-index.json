@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T06:53:41.873Z",
-  "total": 183,
+  "generatedAt": "2026-09-11T07:31:17.859Z",
+  "total": 184,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 19
+      "count": 20
     }
   ],
   "quizzes": [
@@ -927,6 +927,19 @@
       "href": "quiz/ascension/internal-timers.html",
       "diveHref": "dive/ascension/internal-timers.html",
       "key": "ascension/internal-timers"
+    },
+    {
+      "id": "jump-backward",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Jump Backward",
+      "subtitle": "Test your understanding of Jump Backward — the First Flash temporal reversal that restores original consciousness and uploads latent memory.",
+      "questionCount": 25,
+      "href": "quiz/ascension/jump-backward.html",
+      "diveHref": "dive/ascension/jump-backward.html",
+      "key": "ascension/jump-backward"
     },
     {
       "id": "kai-activation",
