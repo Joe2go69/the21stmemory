@@ -150,9 +150,9 @@
         {
           "id": "first-flash",
           "title": "First Flash",
-          "description": "Jump backward; memory uploads into the original vessel.",
-          "topic_image": "",
-          "is_placeholder": true,
+          "description": "The first pulse jumps consciousness backward along the timeline to recover memory and restore the original vessel.",
+          "topic_image": "images/ascension/first-flash.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "jump-backward",

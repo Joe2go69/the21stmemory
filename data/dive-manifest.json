@@ -1273,6 +1273,13 @@
       "path": "/dive/ascension/the-three-flashes.html",
       "live": true,
       "title": "The Three Flashes"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "first-flash",
+      "path": "/dive/ascension/first-flash.html",
+      "live": true,
+      "title": "First Flash"
     }
   ]
 }
