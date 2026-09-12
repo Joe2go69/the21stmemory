@@ -23,6 +23,12 @@ module.exports = {
       embed_url: 'https://rumble.com/embed/v7d8528/',
       description:
         'The Second Flash and Cellular Timeline Convergence — how the forward-vector flash completes timeline convergence and locks original memory into the biological vessel.'
+    },
+    {
+      title: 'Timeline Convergence',
+      embed_url: 'https://rumble.com/embed/v7d85a2/?pub=4p0ieu',
+      description:
+        'Timeline Convergence — the Second Flash snaps past, present, and future self-coordinates into one present moment and collapses the artificial 3D matrix.'
     }
   ],
   report: `# Second Flash
