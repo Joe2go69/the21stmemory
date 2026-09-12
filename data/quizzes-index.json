@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T08:12:41.296Z",
-  "total": 185,
+  "generatedAt": "2026-09-12T03:47:04.002Z",
+  "total": 186,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 21
+      "count": 22
     }
   ],
   "quizzes": [
@@ -1031,6 +1031,19 @@
       "href": "quiz/ascension/quartz-crystal-technology.html",
       "diveHref": "dive/ascension/quartz-crystal-technology.html",
       "key": "ascension/quartz-crystal-technology"
+    },
+    {
+      "id": "second-flash",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Second Flash",
+      "subtitle": "Test your understanding of Second Flash — the forward-vector pulse, timeline convergence, and vessel restoration that close the temporal loop.",
+      "questionCount": 25,
+      "href": "quiz/ascension/second-flash.html",
+      "diveHref": "dive/ascension/second-flash.html",
+      "key": "ascension/second-flash"
     },
     {
       "id": "solar-activation",

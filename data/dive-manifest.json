@@ -1294,6 +1294,13 @@
       "path": "/dive/ascension/memory-upload.html",
       "live": true,
       "title": "Memory Upload"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "second-flash",
+      "path": "/dive/ascension/second-flash.html",
+      "live": true,
+      "title": "Second Flash"
     }
   ]
 }
