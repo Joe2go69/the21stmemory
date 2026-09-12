@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T03:47:04.002Z",
-  "total": 186,
+  "generatedAt": "2026-09-12T04:30:37.685Z",
+  "total": 187,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 22
+      "count": 23
     }
   ],
   "quizzes": [
@@ -1083,6 +1083,19 @@
       "href": "quiz/ascension/the-three-flashes.html",
       "diveHref": "dive/ascension/the-three-flashes.html",
       "key": "ascension/the-three-flashes"
+    },
+    {
+      "id": "third-flash",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Third Flash",
+      "subtitle": "Test your understanding of Third Flash — the final pulse that opens the portal, lifts those of the right vibration, and leaves the surface as a 2nd-realm healing sanctuary.",
+      "questionCount": 25,
+      "href": "quiz/ascension/third-flash.html",
+      "diveHref": "dive/ascension/third-flash.html",
+      "key": "ascension/third-flash"
     },
     {
       "id": "time-travel-preparation",

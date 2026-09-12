@@ -1301,6 +1301,13 @@
       "path": "/dive/ascension/second-flash.html",
       "live": true,
       "title": "Second Flash"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "third-flash",
+      "path": "/dive/ascension/third-flash.html",
+      "live": true,
+      "title": "Third Flash"
     }
   ]
 }

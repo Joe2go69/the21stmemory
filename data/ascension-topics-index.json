@@ -5,7 +5,7 @@
   "image": "images/ascension.webp",
   "pdf_url": "https://drive.google.com/file/d/1U_fF_oFK637MRL5FHsncGJy60EVXhTC4/view?usp=sharing",
   "description": "This transmission lays out the mechanics of the long-awaited ascension process: quartz crystals implanted by time-travel preparation, a solar activation from Kai that charges a new aether, and three flashes — back, forward, then the portal. It maps how an EMF grid forms across the 3rd realm so no sol escapes, how Project Looking Glass was used to plant the crystals in the future Great Awakening, and why the 3rd-realm dome will glitch, pixelate, and drop back into the 2nd realm.\n\nEssential for anyone who wants to understand the crystal grid, the three-flash sequence, the healing sanctuaries that follow, and the homecoming through the portal for those on the right vibration — love, empathy, and the ancient frequency the Resonating Army has been holding.",
-  "total_topics": 33,
+  "total_topics": 32,
   "topics": [
     {
       "id": "essence-of-the-transmission",
@@ -180,9 +180,9 @@
         {
           "id": "third-flash",
           "title": "Third Flash",
-          "description": "The portal appears; those on the right vibration lift through; the rest stay until healed.",
-          "topic_image": "",
-          "is_placeholder": true
+          "description": "The final atmospheric burst in the tri-flash sequence that opens the portal, lifts those of the right vibration, and leaves the surface as a 2nd-realm healing sanctuary.",
+          "topic_image": "images/ascension/third-flash.webp",
+          "is_placeholder": false
         }
       ]
     },
@@ -204,13 +204,6 @@
           "id": "ascension-criteria",
           "title": "Ascension Criteria",
           "description": "Right vibration: love, empathy, kindness — the ancient frequency the Resonating Army has been holding.",
-          "topic_image": "",
-          "is_placeholder": true
-        },
-        {
-          "id": "supervised-evolution",
-          "title": "Supervised Evolution",
-          "description": "Everyone has to ascend to claim memory and vessels; most people will be here again.",
           "topic_image": "",
           "is_placeholder": true
         }
