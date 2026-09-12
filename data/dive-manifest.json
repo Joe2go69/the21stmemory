@@ -1308,6 +1308,13 @@
       "path": "/dive/ascension/third-flash.html",
       "live": true,
       "title": "Third Flash"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "healing-and-ascension",
+      "path": "/dive/ascension/healing-and-ascension.html",
+      "live": true,
+      "title": "Healing and Ascension"
     }
   ]
 }

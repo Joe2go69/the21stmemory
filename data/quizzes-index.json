@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T04:30:37.685Z",
-  "total": 187,
+  "generatedAt": "2026-09-12T23:51:20.065Z",
+  "total": 188,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 23
+      "count": 24
     }
   ],
   "quizzes": [
@@ -901,6 +901,19 @@
       "href": "quiz/ascension/ground-placement.html",
       "diveHref": "dive/ascension/ground-placement.html",
       "key": "ascension/ground-placement"
+    },
+    {
+      "id": "healing-and-ascension",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Healing and Ascension",
+      "subtitle": "Test your understanding of Healing and Ascension — quartz grids, the three-flash sequence, portal lift, and continental healing sanctuaries that restore every soul.",
+      "questionCount": 25,
+      "href": "quiz/ascension/healing-and-ascension.html",
+      "diveHref": "dive/ascension/healing-and-ascension.html",
+      "key": "ascension/healing-and-ascension"
     },
     {
       "id": "implanted-conductors",

@@ -189,9 +189,9 @@
     {
       "id": "healing-and-ascension",
       "title": "Healing and Ascension",
-      "description": "All hands on. Everyone ascends; some go through the portal, some stay for healing.",
-      "topic_image": "",
-      "is_placeholder": true,
+      "description": "Ascension restores every human soul through a quartz-powered EMP grid, a three-flash memory sequence, and dual pathways of portal lift or continental healing sanctuaries.",
+      "topic_image": "images/ascension/healing-and-ascension.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "healing-sanctuaries",
