@@ -1329,6 +1329,13 @@
       "path": "/dive/ascension/ascension-criteria.html",
       "live": true,
       "title": "Ascension Criteria"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "supervisory-oversight",
+      "path": "/dive/ascension/supervisory-oversight.html",
+      "live": true,
+      "title": "Supervisory Oversight"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-13T05:24:45.357Z",
-  "total": 190,
+  "generatedAt": "2026-09-13T13:58:25.067Z",
+  "total": 191,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 26
+      "count": 27
     }
   ],
   "quizzes": [
@@ -1109,6 +1109,19 @@
       "href": "quiz/ascension/sun-flash-event.html",
       "diveHref": "dive/ascension/sun-flash-event.html",
       "key": "ascension/sun-flash-event"
+    },
+    {
+      "id": "supervisory-oversight",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Supervisory Oversight",
+      "subtitle": "Test your understanding of Supervisory Oversight — compassionate higher-density governance, healing sanctuaries, and the alliances that restore the new known lands.",
+      "questionCount": 25,
+      "href": "quiz/ascension/supervisory-oversight.html",
+      "diveHref": "dive/ascension/supervisory-oversight.html",
+      "key": "ascension/supervisory-oversight"
     },
     {
       "id": "the-three-flashes",
