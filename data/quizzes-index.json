@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T23:51:20.065Z",
-  "total": 188,
+  "generatedAt": "2026-09-13T01:29:14.796Z",
+  "total": 189,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 24
+      "count": 25
     }
   ],
   "quizzes": [
@@ -914,6 +914,19 @@
       "href": "quiz/ascension/healing-and-ascension.html",
       "diveHref": "dive/ascension/healing-and-ascension.html",
       "key": "ascension/healing-and-ascension"
+    },
+    {
+      "id": "healing-sanctuaries",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Healing Sanctuaries",
+      "subtitle": "Test your understanding of Healing Sanctuaries — continental post-flash restoration, 2nd-realm supervision, and the path that leaves no soul behind.",
+      "questionCount": 25,
+      "href": "quiz/ascension/healing-sanctuaries.html",
+      "diveHref": "dive/ascension/healing-sanctuaries.html",
+      "key": "ascension/healing-sanctuaries"
     },
     {
       "id": "implanted-conductors",

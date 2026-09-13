@@ -1315,6 +1315,13 @@
       "path": "/dive/ascension/healing-and-ascension.html",
       "live": true,
       "title": "Healing and Ascension"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "healing-sanctuaries",
+      "path": "/dive/ascension/healing-sanctuaries.html",
+      "live": true,
+      "title": "Healing Sanctuaries"
     }
   ]
 }
