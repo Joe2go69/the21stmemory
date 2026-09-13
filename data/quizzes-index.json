@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-13T01:29:14.796Z",
-  "total": 189,
+  "generatedAt": "2026-09-13T05:24:45.357Z",
+  "total": 190,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 25
+      "count": 26
     }
   ],
   "quizzes": [
@@ -823,6 +823,19 @@
       "href": "quiz/ascension/aether-interaction.html",
       "diveHref": "dive/ascension/aether-interaction.html",
       "key": "ascension/aether-interaction"
+    },
+    {
+      "id": "ascension-criteria",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Ascension Criteria",
+      "subtitle": "Test your understanding of Ascension Criteria — the vibrational threshold of love, empathy, and kindness that qualifies 3rd Flash Portal transit or sanctuary healing.",
+      "questionCount": 25,
+      "href": "quiz/ascension/ascension-criteria.html",
+      "diveHref": "dive/ascension/ascension-criteria.html",
+      "key": "ascension/ascension-criteria"
     },
     {
       "id": "bright-light-charge",

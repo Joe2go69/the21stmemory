@@ -1322,6 +1322,13 @@
       "path": "/dive/ascension/healing-sanctuaries.html",
       "live": true,
       "title": "Healing Sanctuaries"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "ascension-criteria",
+      "path": "/dive/ascension/ascension-criteria.html",
+      "live": true,
+      "title": "Ascension Criteria"
     }
   ]
 }
