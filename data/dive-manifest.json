@@ -1343,6 +1343,13 @@
       "path": "/dive/ascension/et-support.html",
       "live": true,
       "title": "ET Support"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "organizational-alliances",
+      "path": "/dive/ascension/organizational-alliances.html",
+      "live": true,
+      "title": "Organizational Alliances"
     }
   ]
 }
