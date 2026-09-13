@@ -1,0 +1,86 @@
+module.exports = {
+  source: 'ascension',
+  id: 'et-support',
+  title: 'ET Support',
+  description:
+    'Benevolent off-world civilizations administer solar triggers, quartz-grid infrastructure, and post-flash sanctuary governance to restore organic timelines without leaving any soul behind.',
+  images: {
+    topic: { source: 'ET Support.webp', target: 'et-support.webp' },
+    pdfPreview: { source: 'Restorative_Architecture.webp', target: 'restorative-architecture.webp' },
+    infographic: {
+      source: 'Restorative_Architecture_of_ET_Support.webp',
+      target: 'restorative-architecture-of-et-support.webp'
+    }
+  },
+  slide_deck_pdf_url:
+    'https://drive.google.com/file/d/1nXnrx5rm1Q-Fl0V09ukphon9AoUxXgSP/view?usp=sharing',
+  rumble_videos: [
+    {
+      title: 'Securing the timeline with subterranean quartz',
+      embed_url: 'https://rumble.com/embed/v7dalyc/?pub=4p0ieu',
+      description:
+        'Securing the timeline with subterranean quartz — Project Looking Glass time-jumps implant quartz conductors beneath the earth so the ascension sequence cannot be halted.'
+    },
+    {
+      title: 'Quartz Grids & Solar Triggers',
+      embed_url: 'https://rumble.com/embed/v7damem/?pub=4p0ieu',
+      description:
+        'Quartz Grids & Solar Triggers — ET operatives trigger solar electromagnetic flashes that energize the planetary quartz grid into a realm-wide EMP network.'
+    }
+  ],
+  report: `# ET Support
+
+## Overview
+ET Support represents the advanced, multi-realm operational and spiritual assistance deployed by benevolent off-world civilizations to guide humanity and the planetary vessel through the ascension process. Operating from higher vibrational densities, primary extraterrestrial personnel administer technological, energetic, and administrative interventions required to collapse artificial simulation matrices and restore original organic timelines. This intervention operates under the higher authority of Supervisory Oversight to ensure stability across all territorial sectors.
+
+Rather than enforcing dominance or coercive control, ET Support functions as an empathetic, highly organized restorative architecture designed to uplift all conscious entities within the realm. Through coordinated cosmic alliances, extraterrestrial intelligence manages solar triggers, time-travel crystal grid networks, planetary monitoring systems, and specialized post-transition rehabilitation infrastructure.
+
+## Key Terminology
+- **ET Support** — The overarching operational, technological, and spiritual assistance provided by benevolent extraterrestrial intelligence to guide humanity through ascension and realm restoration.
+- **2nd Realm ET Supervisors** — Higher-density extraterrestrial overseers responsible for administering post-transition land management, societal stability, and trauma rehabilitation.
+- **Galactic Ancestral Alliance (GAA)** — The primary exopolitical governing coalition of benevolent off-world civilizations collaborating with ground forces to orchestrate timeline realignment.
+- **Space Force** — The surface-level and exo-atmospheric military alliance branch backing off-world supervisory forces in maintaining order and security during ascension.
+- **Sun Activation** — The operational event wherein extraterrestrial entities trigger solar electromagnetic flashes to energize implanted planetary quartz grids.
+- **Healing Sanctuaries** — Specialized continental facilities established under extraterrestrial oversight to rehabilitate human psychological and vibrational distortions.
+- **Project Looking Glass** — Advanced time-travel technology utilized by positive forces to jump forward in time and pre-implant quartz crystal conductors beneath the earth.
+- **Resonating Army** — The grounded collective of high-vibrational human souls working in direct energetic alignment with off-world extraterrestrial oversight.
+
+## Core Revelations
+Benevolent off-world intelligence operates with absolute commitment to planetary restoration, executing a master plan that guarantees no soul is left behind or destroyed during the energetic transition. The overarching mission relies on the structural shift from artificial 3D simulation overlays back into the organic frequency of the 2nd Realm.
+
+Extraterrestrial intervention is anchored in inviolable mechanics rather than fallible strategies. By employing advanced temporal technology, positive forces secured the planet's energetic foundation prior to the surface activation sequence. This technical preparation renders the ascension process immune to surface-level interference, sabotage, or low-vibrational resistance.
+
+Furthermore, administrative oversight during the post-flash era replaces punitive governance with compassionate rehabilitation. Extraterrestrial personnel work side-by-side with terrestrial alliances to establish structured environments where unawakened or traumatized populations receive targeted energetic healing.
+
+## Detailed Mechanics and Key Elements
+### Off-World Governance and Entity Alliances
+The operational framework of extraterrestrial assistance relies on a unified exopolitical structure comprising specific off-world soul groups and terrestrial military components. Key off-world civilizations including the Pleiadians and Andromedans direct higher-density logistics and grid activation procedures. High-level extraterrestrial operatives fulfill specialized roles: the entity Kai serves as the primary operational trigger for solar activation and portal initiation, while operatives such as Barron leverage Pleiadian origin technology to execute temporal deployment operations.
+
+Extraterrestrial personnel execute their duties in direct partnership with institutional surface alliances, specifically the Galactic Ancestral Alliance (GAA), Space Force, and White Hats. This coalition operates in tandem with the Resonating Army, a surface collective of human souls maintaining the ancient vibrational frequency of love and empathy required to ground higher-density aethers onto the planet.
+
+### Solar Triggering and Quartz Crystal Grid Mechanics
+The technical execution of the ascension event requires coordinated cosmic engineering. Extraterrestrial intelligence initiates the process by triggering a directed energy flash from the Sun. This solar discharge reacts with newly introduced Aether currents, emitting high-frequency E.M. Pulses that sweep across the realm.
+
+These electromagnetic pulses instantly energize millions of subterranean Quartz Crystals that emerge from the earth on automated timers. Upon charging, the crystal network forms a realm-wide EMP Grid. This grid operates under the principle of No Sol Escapes, enveloping the entire atmospheric dome in a protective, conductive plasma network that stabilizes the planetary vessel during simulation pixelation and timeline convergence.
+
+### Time-Travel Pre-Implantation and Process Inviolability
+The deployment of the conductive crystal network was accomplished through advanced temporal technology. Positive extraterrestrial forces utilized Project Looking Glass to execute a forward time-jump into the future prior to the Great Awakening. Operatives implanted the conductive Quartz Crystals deep within the earth's crust across all continents before jumping back to the present moment to oversee the surface playout.
+
+Because this deployment initiated an active, self-executing technological process rather than a static plan, the transition cannot be halted, modified, or derailed by negative factions. The implanted crystals act as automated temporal anchors, emerging precisely on schedule to facilitate the triple-flash sequence: past memory restoration, future vessel integration, and present-moment unified grounding.
+
+### Post-Flash Supervisory Oversight and Trauma Rehabilitation
+Following the primary solar flashes and simulation collapse, extraterrestrial supervisors from the 2nd Realm assume administrative management over the New Known Lands. Backed by Space Force and the GAA, these supervisors implement a structured social order designed to prevent chaos while prioritizing full population restoration.
+
+This administrative framework operates on a strict policy of non-violence and non-coercion. No individuals are subjected to harm, military oppression, or arbitrary authority. Instead, populations affected by 3D vibrational decay, fear, jealousy, or compulsive behaviors are guided to specialized Healing Sanctuaries distributed across different continents. Under an All Hands On protocol, extraterrestrial specialists and human support teams deliver tailored frequency therapies and trauma resolution, allowing every soul to incrementally evolve and integrate into the newly unified realm.
+
+## Broader Context and Interconnections
+ET Support forms the essential operational bridge connecting cosmic soul origin groups to the physical surface realm. The presence of off-world intelligence directly correlates with the awakening of dormant human DNA strands and the elevation of planetary frequency. The energetic grid constructed by extraterrestrial technology interfaces directly with individual pineal glands, organs, and physical vessels, enabling seamless adaptation to higher-density aethers.
+
+Furthermore, extraterrestrial oversight manages the operation of celestial Ships stationed outside the atmospheric portal. When the primary Portal is energized, extraterrestrial transport vessels receive aligned souls who have fulfilled their surface contracts, transferring them into higher dimensional homeworlds such as Pleiades and Andromeda. Simultaneously, ground-based extraterrestrial supervisors remain connected to surface populations to ensure the ongoing stability of the terrestrial sanctuary network.
+
+## Strategic Implications
+The active deployment of extraterrestrial oversight neutralizes deception strategies employed by lingering 3D control structures. Prior to the final portal opening, surface populations will witness widespread celestial craft displays, framed by mainstream narrative apparatuses as hostile invasion threats or alien scare events. Knowledge of genuine ET Support allows aligned individuals to remain calm, avoid low-vibrational fear reactions, and recognize these occurrences as precursor stages of planetary liberation.
+
+Ultimately, extraterrestrial assistance guarantees the successful completion of the ascension timeline and the permanent eradication of parasitic influence. By uniting temporal crystal infrastructure, solar grid mechanics, and compassionate sanctuary governance, off-world forces ensure that the realm undergoes a flawless transition into a balanced, harmonious, and unified multidimensional reality.
+`
+};
