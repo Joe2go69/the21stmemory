@@ -93,11 +93,10 @@
       "href": "support.html"
     },
     "message": [
-      "The transmissions were free at the source. They are free here.",
-      "21st Memory is a living archive I tend so this material is easier to find your way through. I am not the source. I am a small branch of it. I point everyone back to the originals — their frequencies still carry what no page of mine can replace.",
-      "Most days I finish one or two categories from a quiet corner of Vancouver Island, with my cat Spooky nearby and the work open on the desk. It is work I love.",
-      "If something here helped you, sit with it, pass it on, or show up in the community. That is already support. The Great Remembering runs through all of us.",
-      "If you are moved to leave a tip, it goes to power, internet, and the tools behind the pages and videos. Any amount is felt. Nothing is gated."
+      "The transmissions were free at the source. They are free here. Nothing gated. Nothing owed.",
+      "21st Memory is a living archive I tend so this material is easier to find your way through — videos, reports, quizzes — then I point you back to the originals. I’m not the source. I’m a small branch of it.",
+      "If something here helped you, that already counts. Sit with it. Pass a page on. Show up. The Great Remembering runs through all of us.",
+      "A tip is optional. It keeps the lights on and the archive growing: power, internet, and the AI tools I use to add more for you to try. Any amount is felt."
     ],
     "resolver": "",
     "fundsLabel": "Ways to support",
@@ -106,13 +105,13 @@
         "title": "Share a topic",
         "desc": "Send one deep-dive to someone who needs it.",
         "links": [
-          { "text": "Codex", "href": "codex.html" }
+          { "text": "Open Codex", "href": "codex.html" }
         ],
         "image": "images/codex-banner.webp"
       },
       {
         "title": "Show up",
-        "desc": "Telegram and the Network. We remember better together.",
+        "desc": "Telegram and the Network — we remember better together.",
         "links": [
           { "text": "Telegram", "href": "https://t.me/The_21st_Memory", "external": true },
           { "text": "Network", "href": "network.html" }
@@ -121,7 +120,7 @@
       },
       {
         "title": "Leave a tip",
-        "desc": "Only if you want to. It keeps this going.",
+        "desc": "Only if you want to. Keeps the archive open and growing.",
         "links": [
           { "text": "Leave a tip", "href": "#give" }
         ],
@@ -129,7 +128,11 @@
       }
     ],
     "giveLabel": "If you want to leave a tip",
-    "note": "Thank you for being here.",
+    "note": [
+      "Thank you for being here.",
+      "Joe",
+      "21stmemory.com"
+    ],
     "bitcoinAddress": "bc1qnwnappv4zjpvd24jmgyr67jagvcdl962dc9ksx",
     "qrImage": "assets/images/bitcoin-qr.png",
     "qrAlt": "Bitcoin QR code for 21st Memory donations",
@@ -139,7 +142,8 @@
     "gofundme": {
       "href": "https://gofund.me/a1603af10",
       "buttonText": "Continue on GoFundMe",
-      "hint": "The simple path.",
+      "hint": "The simple path. Opens GoFundMe.",
+      "quiet": "Campaign details live there — this page is thanks.",
       "image": "images/gofundme.webp",
       "imageAlt": "GoFundMe — support the living archive",
       "qrImage": "assets/images/gofundme-qr.png",

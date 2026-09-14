@@ -30,6 +30,19 @@ function supportMessageParts(text, fallback) {
   return fallback;
 }
 
+function renderSupportNote(parts) {
+  const lines = Array.isArray(parts) ? parts.filter(Boolean) : [];
+  if (!lines.length) return '';
+  if (lines.length === 1) {
+    return `<p class="support-note">${lines[0]}</p>`;
+  }
+  const [thanks, ...sign] = lines;
+  return `<div class="support-note">
+        <p>${thanks}</p>
+        <p class="support-note__sign">${sign.join('<br>')}</p>
+      </div>`;
+}
+
 function isExternalHref(href, explicit) {
   if (explicit) return true;
   return /^(https?:|mailto:)/i.test(href || '');
@@ -177,13 +190,12 @@ function renderSupportPage(footerData, options = {}) {
   const heading = s.heading || 'The archive stays open';
   const eyebrow = (s.eyebrow || '').trim();
   const resolver = (s.resolver || '').trim();
-  const supportNote = s.note || 'Thank you for being here.';
+  const noteParts = supportMessageParts(s.note, ['Thank you for being here.']);
   const messages = supportMessageParts(s.message, [
-    'The transmissions were free at the source. They are free here.',
-    '21st Memory is a living archive I tend so this material is easier to find your way through. I am not the source. I am a small branch of it. I point everyone back to the originals — their frequencies still carry what no page of mine can replace.',
-    'Most days I finish one or two categories from a quiet corner of Vancouver Island, with my cat Spooky nearby and the work open on the desk. It is work I love.',
-    'If something here helped you, sit with it, pass it on, or show up in the community. That is already support. The Great Remembering runs through all of us.',
-    'If you are moved to leave a tip, it goes to power, internet, and the tools behind the pages and videos. Any amount is felt. Nothing is gated.',
+    'The transmissions were free at the source. They are free here. Nothing gated. Nothing owed.',
+    '21st Memory is a living archive I tend so this material is easier to find your way through — videos, reports, quizzes — then I point you back to the originals. I’m not the source. I’m a small branch of it.',
+    'If something here helped you, that already counts. Sit with it. Pass a page on. Show up. The Great Remembering runs through all of us.',
+    'A tip is optional. It keeps the lights on and the archive growing: power, internet, and the AI tools I use to add more for you to try. Any amount is felt.',
   ]);
   const fundsLabel = s.fundsLabel || 'Ways to support';
   const giveLabel = s.giveLabel || 'If you want to leave a tip';
@@ -246,12 +258,16 @@ function renderSupportPage(footerData, options = {}) {
     528,
     528
   );
+  const gofundmeQuiet = (gofundme?.quiet || '').trim()
+    ? `<p class="support-give-quiet">${gofundme.quiet.trim()}</p>`
+    : '';
   const gofundmeCard = gofundme
     ? `<article class="support-give-card memory-card static-card support-give-card--gofundme${gofundmeMedia ? ' has-media' : ''}${gofundmeQrSrc ? ' support-give-card--qr' : ''}">
             ${gofundmeMedia}
             <span class="support-give-icon support-give-icon--heart" aria-hidden="true">${SITE_ICON_SVGS.heart}</span>
             <span class="support-give-label">Card or bank</span>
             <p class="support-give-desc">${gofundme.hint}</p>
+            ${gofundmeQuiet}
             ${giveActions(`${gofundmeQr}
               <div class="support-give-actions">
                 <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
@@ -322,7 +338,7 @@ function renderSupportPage(footerData, options = {}) {
           ${starlinkCard}
           ${btcCard}
         </div>
-        <p class="support-note">${supportNote}</p>
+        ${renderSupportNote(noteParts)}
       </section>
     </div>`;
 }
