@@ -91,6 +91,8 @@ function splitSource(sourceId) {
     subtitle: raw.subtitle || '',
     image: raw.image || '',
     pdf_url: raw.pdf_url || '',
+    ...(raw.source_url ? { source_url: raw.source_url } : {}),
+    ...(raw.source_url_label ? { source_url_label: raw.source_url_label } : {}),
     description: raw.description || '',
     total_topics: raw.total_topics || 0,
     topics: (raw.topics || []).map(topic => stripTopic(topic, outDir, written))

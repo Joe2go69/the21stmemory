@@ -551,7 +551,9 @@ function renderContinueLearning({ sourceId, topic }) {
         ? `<a href="mega-breakdown.html" class="text-link dive-continue__link">Watch the Mega Breakdown series →</a>`
         : sourceId === 'ascension'
           ? `<a href="source.html#long-awaited-ascension-process" class="text-link dive-continue__link">Watch the original transmission →</a>`
-          : ''}
+          : sourceId === 'revelations'
+            ? `<a href="https://christian21.com/revelations-part-1/" target="_blank" rel="noopener noreferrer" class="text-link dive-continue__link">Read Part 1 on Christian21 →</a>`
+            : ''}
       <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="text-link dive-continue__link">More topics in this transmission →</a>
     </div>
     <p class="dive-continue__disclaimer">

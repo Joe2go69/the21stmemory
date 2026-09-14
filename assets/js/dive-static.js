@@ -13,6 +13,9 @@ function initBreakdownSeriesLink() {
   } else if (source === 'ascension') {
     href = '../../source.html#long-awaited-ascension-process';
     label = 'Watch the original transmission →';
+  } else if (source === 'revelations') {
+    href = 'https://christian21.com/revelations-part-1/';
+    label = 'Read Part 1 on Christian21 →';
   } else {
     return;
   }
@@ -22,6 +25,10 @@ function initBreakdownSeriesLink() {
   link.className = 'text-link dive-continue__link';
   link.dataset.seriesLink = 'true';
   link.textContent = label;
+  if (/^https?:\/\//i.test(href)) {
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+  }
 
   const more = actions.querySelector('a.dive-continue__link');
   if (more) actions.insertBefore(link, more);

@@ -1357,6 +1357,559 @@
       "path": "/dive/ascension/the-homecoming.html",
       "live": true,
       "title": "The Homecoming"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "essence-of-the-transmission",
+      "path": "/dive/revelations/essence-of-the-transmission.html",
+      "live": false,
+      "title": "Essence of the Transmission"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "soul-architecture",
+      "path": "/dive/revelations/soul-architecture.html",
+      "live": false,
+      "title": "Soul Architecture"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "proximal-sols",
+      "path": "/dive/revelations/proximal-sols.html",
+      "live": false,
+      "title": "Proximal Sols"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "taran-vessels",
+      "path": "/dive/revelations/taran-vessels.html",
+      "live": false,
+      "title": "Taran Vessels"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "intelligence-first",
+      "path": "/dive/revelations/intelligence-first.html",
+      "live": false,
+      "title": "Intelligence First"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "fifteen-attributes",
+      "path": "/dive/revelations/fifteen-attributes.html",
+      "live": false,
+      "title": "Fifteen Attributes"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "arc-pod-protocol",
+      "path": "/dive/revelations/arc-pod-protocol.html",
+      "live": false,
+      "title": "Arc Pod Protocol"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "clueless-protocol",
+      "path": "/dive/revelations/clueless-protocol.html",
+      "live": false,
+      "title": "Clueless Protocol"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "mission-insertion",
+      "path": "/dive/revelations/mission-insertion.html",
+      "live": false,
+      "title": "Mission Insertion"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "homecoming-reunion",
+      "path": "/dive/revelations/homecoming-reunion.html",
+      "live": false,
+      "title": "Homecoming Reunion"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "simulation-field",
+      "path": "/dive/revelations/simulation-field.html",
+      "live": false,
+      "title": "Simulation Field"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "overlay-geography",
+      "path": "/dive/revelations/overlay-geography.html",
+      "live": false,
+      "title": "Overlay Geography"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "digital-inserts",
+      "path": "/dive/revelations/digital-inserts.html",
+      "live": false,
+      "title": "Digital Inserts"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "npc-ratio",
+      "path": "/dive/revelations/npc-ratio.html",
+      "live": false,
+      "title": "NPC Ratio"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "holographic-sleeves",
+      "path": "/dive/revelations/holographic-sleeves.html",
+      "live": false,
+      "title": "Holographic Sleeves"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "inner-illusion",
+      "path": "/dive/revelations/inner-illusion.html",
+      "live": false,
+      "title": "Inner Illusion"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "quantum-interface",
+      "path": "/dive/revelations/quantum-interface.html",
+      "live": false,
+      "title": "Quantum Interface"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "pineal-crossover",
+      "path": "/dive/revelations/pineal-crossover.html",
+      "live": false,
+      "title": "Pineal Crossover"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "five-brainwaves",
+      "path": "/dive/revelations/five-brainwaves.html",
+      "live": false,
+      "title": "Five Brainwaves"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "sovereign-accord",
+      "path": "/dive/revelations/sovereign-accord.html",
+      "live": false,
+      "title": "Sovereign Accord"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "field-law",
+      "path": "/dive/revelations/field-law.html",
+      "live": false,
+      "title": "Field Law"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "manufactured-wants",
+      "path": "/dive/revelations/manufactured-wants.html",
+      "live": false,
+      "title": "Manufactured Wants"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "choice-architecture",
+      "path": "/dive/revelations/choice-architecture.html",
+      "live": false,
+      "title": "Choice Architecture"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "fifteen-minute-cities",
+      "path": "/dive/revelations/fifteen-minute-cities.html",
+      "live": false,
+      "title": "Fifteen-Minute Cities"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "mk-ultra-craft",
+      "path": "/dive/revelations/mk-ultra-craft.html",
+      "live": false,
+      "title": "MK-Ultra Craft"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "emotional-scoring",
+      "path": "/dive/revelations/emotional-scoring.html",
+      "live": false,
+      "title": "Emotional Scoring"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "gat-programs",
+      "path": "/dive/revelations/gat-programs.html",
+      "live": false,
+      "title": "GAT Programs"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "subtle-help",
+      "path": "/dive/revelations/subtle-help.html",
+      "live": false,
+      "title": "Subtle Help"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "ayahuasca-vine",
+      "path": "/dive/revelations/ayahuasca-vine.html",
+      "live": false,
+      "title": "Ayahuasca Vine"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "pineal-dmt",
+      "path": "/dive/revelations/pineal-dmt.html",
+      "live": false,
+      "title": "Pineal DMT"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "custodian-control",
+      "path": "/dive/revelations/custodian-control.html",
+      "live": false,
+      "title": "Custodian Control"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "legal-capture",
+      "path": "/dive/revelations/legal-capture.html",
+      "live": false,
+      "title": "Legal Capture"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "birth-bond",
+      "path": "/dive/revelations/birth-bond.html",
+      "live": false,
+      "title": "Birth Bond"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "usury-trap",
+      "path": "/dive/revelations/usury-trap.html",
+      "live": false,
+      "title": "Usury Trap"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "occult-orders",
+      "path": "/dive/revelations/occult-orders.html",
+      "live": false,
+      "title": "Occult Orders"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "freemasonic-orders",
+      "path": "/dive/revelations/freemasonic-orders.html",
+      "live": false,
+      "title": "Freemasonic Orders"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "owl-current",
+      "path": "/dive/revelations/owl-current.html",
+      "live": false,
+      "title": "Owl Current"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "counterfeit-systems",
+      "path": "/dive/revelations/counterfeit-systems.html",
+      "live": false,
+      "title": "Counterfeit Systems"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "re-legion",
+      "path": "/dive/revelations/re-legion.html",
+      "live": false,
+      "title": "Re-Legion"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "world-wide-web",
+      "path": "/dive/revelations/world-wide-web.html",
+      "live": false,
+      "title": "World Wide Web"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "academic-distortion",
+      "path": "/dive/revelations/academic-distortion.html",
+      "live": false,
+      "title": "Academic Distortion"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "medical-harvest",
+      "path": "/dive/revelations/medical-harvest.html",
+      "live": false,
+      "title": "Medical Harvest"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "iatrogenic-death",
+      "path": "/dive/revelations/iatrogenic-death.html",
+      "live": false,
+      "title": "Iatrogenic Death"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "human-2-0",
+      "path": "/dive/revelations/human-2-0.html",
+      "live": false,
+      "title": "Human 2.0"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "bone-vaults",
+      "path": "/dive/revelations/bone-vaults.html",
+      "live": false,
+      "title": "Bone Vaults"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "reset-harvest",
+      "path": "/dive/revelations/reset-harvest.html",
+      "live": false,
+      "title": "Reset Harvest"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "reset-sequence",
+      "path": "/dive/revelations/reset-sequence.html",
+      "live": false,
+      "title": "Reset Sequence"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "stone-age-restart",
+      "path": "/dive/revelations/stone-age-restart.html",
+      "live": false,
+      "title": "Stone Age Restart"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "story-stages",
+      "path": "/dive/revelations/story-stages.html",
+      "live": false,
+      "title": "Story Stages"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "harvest-toll",
+      "path": "/dive/revelations/harvest-toll.html",
+      "live": false,
+      "title": "Harvest Toll"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "clone-genetics",
+      "path": "/dive/revelations/clone-genetics.html",
+      "live": false,
+      "title": "Clone Genetics"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "dumb-repopulation",
+      "path": "/dive/revelations/dumb-repopulation.html",
+      "live": false,
+      "title": "DUMB Repopulation"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "weaponized-species",
+      "path": "/dive/revelations/weaponized-species.html",
+      "live": false,
+      "title": "Weaponized Species"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "roswell-checkmate",
+      "path": "/dive/revelations/roswell-checkmate.html",
+      "live": false,
+      "title": "Roswell Checkmate"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "anukim-strike",
+      "path": "/dive/revelations/anukim-strike.html",
+      "live": false,
+      "title": "Anukim Strike"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "transistor-leak",
+      "path": "/dive/revelations/transistor-leak.html",
+      "live": false,
+      "title": "Transistor Leak"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "invasion-script",
+      "path": "/dive/revelations/invasion-script.html",
+      "live": false,
+      "title": "Invasion Script"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "tartarian-memory",
+      "path": "/dive/revelations/tartarian-memory.html",
+      "live": false,
+      "title": "Tartarian Memory"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "square-mile",
+      "path": "/dive/revelations/square-mile.html",
+      "live": false,
+      "title": "Square Mile"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "population-math",
+      "path": "/dive/revelations/population-math.html",
+      "live": false,
+      "title": "Population Math"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "banks-as-current",
+      "path": "/dive/revelations/banks-as-current.html",
+      "live": false,
+      "title": "Banks as Current"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "harmonic-architecture",
+      "path": "/dive/revelations/harmonic-architecture.html",
+      "live": false,
+      "title": "Harmonic Architecture"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "living-fabric",
+      "path": "/dive/revelations/living-fabric.html",
+      "live": false,
+      "title": "Living Fabric"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "sound-masonry",
+      "path": "/dive/revelations/sound-masonry.html",
+      "live": false,
+      "title": "Sound Masonry"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "moorish-metropolis",
+      "path": "/dive/revelations/moorish-metropolis.html",
+      "live": false,
+      "title": "Moorish Metropolis"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "lemurian-tongue",
+      "path": "/dive/revelations/lemurian-tongue.html",
+      "live": false,
+      "title": "Lemurian Tongue"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "tpc-mirrors",
+      "path": "/dive/revelations/tpc-mirrors.html",
+      "live": false,
+      "title": "TPC Mirrors"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "organic-circuitboard",
+      "path": "/dive/revelations/organic-circuitboard.html",
+      "live": false,
+      "title": "Organic Circuitboard"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "axis-mundi",
+      "path": "/dive/revelations/axis-mundi.html",
+      "live": false,
+      "title": "Axis Mundi"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "spirit-tree",
+      "path": "/dive/revelations/spirit-tree.html",
+      "live": false,
+      "title": "Spirit Tree"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "cain-periphery",
+      "path": "/dive/revelations/cain-periphery.html",
+      "live": false,
+      "title": "Cain Periphery"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "mineral-components",
+      "path": "/dive/revelations/mineral-components.html",
+      "live": false,
+      "title": "Mineral Components"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "living-garden",
+      "path": "/dive/revelations/living-garden.html",
+      "live": false,
+      "title": "Living Garden"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "miracle-soil",
+      "path": "/dive/revelations/miracle-soil.html",
+      "live": false,
+      "title": "Miracle Soil"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "impossible-trees",
+      "path": "/dive/revelations/impossible-trees.html",
+      "live": false,
+      "title": "Impossible Trees"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "plane-of-worlds",
+      "path": "/dive/revelations/plane-of-worlds.html",
+      "live": false,
+      "title": "Plane of Worlds"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "the-cube",
+      "path": "/dive/revelations/the-cube.html",
+      "live": false,
+      "title": "The Cube"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "density-stack",
+      "path": "/dive/revelations/density-stack.html",
+      "live": false,
+      "title": "Density Stack"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "terrarium-seal",
+      "path": "/dive/revelations/terrarium-seal.html",
+      "live": false,
+      "title": "Terrarium Seal"
     }
   ]
 }

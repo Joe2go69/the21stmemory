@@ -536,11 +536,16 @@ function renderSourceHeader(data, sourceId, stats) {
          View original PDF
        </a>`
     : '';
-  const seriesLink = sourceId === 'breakdown'
-    ? `<a href="mega-breakdown.html" class="text-link">Watch the original 13-part series →</a>`
-    : sourceId === 'ascension'
-      ? `<a href="source.html#long-awaited-ascension-process" class="text-link">Watch the original transmission →</a>`
-      : '';
+  let seriesLink = '';
+  if (data.source_url) {
+    const label = data.source_url_label || 'Read the source documents →';
+    const extra = /^https?:\/\//i.test(data.source_url) ? ' target="_blank" rel="noopener noreferrer"' : '';
+    seriesLink = `<a href="${TopicUtils.escapeAttr(data.source_url)}"${extra} class="text-link">${TopicUtils.escapeHtml(label)}</a>`;
+  } else if (sourceId === 'breakdown') {
+    seriesLink = `<a href="mega-breakdown.html" class="text-link">Watch the original 13-part series →</a>`;
+  } else if (sourceId === 'ascension') {
+    seriesLink = `<a href="source.html#long-awaited-ascension-process" class="text-link">Watch the original transmission →</a>`;
+  }
 
   document.getElementById('source-header').innerHTML = `
     ${breadcrumbs}
