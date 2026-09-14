@@ -1350,6 +1350,13 @@
       "path": "/dive/ascension/organizational-alliances.html",
       "live": true,
       "title": "Organizational Alliances"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "the-homecoming",
+      "path": "/dive/ascension/the-homecoming.html",
+      "live": true,
+      "title": "The Homecoming"
     }
   ]
 }

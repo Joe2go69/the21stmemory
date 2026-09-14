@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-13T23:20:42.836Z",
-  "total": 193,
+  "generatedAt": "2026-09-14T05:21:47.247Z",
+  "total": 194,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 29
+      "count": 30
     }
   ],
   "quizzes": [
@@ -1148,6 +1148,19 @@
       "href": "quiz/ascension/supervisory-oversight.html",
       "diveHref": "dive/ascension/supervisory-oversight.html",
       "key": "ascension/supervisory-oversight"
+    },
+    {
+      "id": "the-homecoming",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "The Homecoming",
+      "subtitle": "Test your understanding of The Homecoming — three flashes, original-vessel restoration, portal transit, and Healing Sanctuaries with zero harm.",
+      "questionCount": 25,
+      "href": "quiz/ascension/the-homecoming.html",
+      "diveHref": "dive/ascension/the-homecoming.html",
+      "key": "ascension/the-homecoming"
     },
     {
       "id": "the-three-flashes",

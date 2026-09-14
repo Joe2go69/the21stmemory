@@ -235,9 +235,9 @@
     {
       "id": "the-homecoming",
       "title": "The Homecoming",
-      "description": "Portal, ships, become one — frequencies and crystals are the way home.",
-      "topic_image": "",
-      "is_placeholder": true,
+      "description": "The Homecoming is the Long-Awaited Ascension’s operational climax: three flashes restore original vessel and memory, a planetary portal lifts high-frequency souls, and Healing Sanctuaries restore everyone else with zero harm.",
+      "topic_image": "images/ascension/the-homecoming.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "portal-transition",
