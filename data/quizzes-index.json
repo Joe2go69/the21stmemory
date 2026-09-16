@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T05:21:47.247Z",
-  "total": 194,
+  "generatedAt": "2026-09-16T10:40:54.108Z",
+  "total": 195,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 30
+      "count": 31
     }
   ],
   "quizzes": [
@@ -1070,6 +1070,19 @@
       "href": "quiz/ascension/plasma-connection.html",
       "diveHref": "dive/ascension/plasma-connection.html",
       "key": "ascension/plasma-connection"
+    },
+    {
+      "id": "portal-transition",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Portal Transition",
+      "subtitle": "Test your understanding of Portal Transition — the plasma-crystalline gateway, three flashes, and the Homecoming lift through the portal.",
+      "questionCount": 25,
+      "href": "quiz/ascension/portal-transition.html",
+      "diveHref": "dive/ascension/portal-transition.html",
+      "key": "ascension/portal-transition"
     },
     {
       "id": "positive-frequencies",

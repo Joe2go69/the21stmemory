@@ -1910,6 +1910,13 @@
       "path": "/dive/revelations/terrarium-seal.html",
       "live": false,
       "title": "Terrarium Seal"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "portal-transition",
+      "path": "/dive/ascension/portal-transition.html",
+      "live": true,
+      "title": "Portal Transition"
     }
   ]
 }
