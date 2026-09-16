@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-16T10:40:54.108Z",
-  "total": 195,
+  "generatedAt": "2026-09-16T11:19:32.971Z",
+  "total": 196,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
-      "count": 31
+      "count": 32
     }
   ],
   "quizzes": [
@@ -1213,6 +1213,19 @@
       "href": "quiz/ascension/time-travel-preparation.html",
       "diveHref": "dive/ascension/time-travel-preparation.html",
       "key": "ascension/time-travel-preparation"
+    },
+    {
+      "id": "unified-reality",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Unified Reality",
+      "subtitle": "Test your understanding of Unified Reality — the 3rd realm collapse into the 2nd realm, three flashes, and The Homecoming.",
+      "questionCount": 25,
+      "href": "quiz/ascension/unified-reality.html",
+      "diveHref": "dive/ascension/unified-reality.html",
+      "key": "ascension/unified-reality"
     },
     {
       "id": "1666-node-war",
