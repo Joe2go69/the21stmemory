@@ -30,43 +30,19 @@ function animateMetricCounts(root) {
   const nodes = root.querySelectorAll('[data-count-to]');
   if (!nodes.length) return;
 
-  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   nodes.forEach((el) => {
     const target = parseInt(el.getAttribute('data-count-to'), 10);
     if (!Number.isFinite(target)) return;
-    if (reduced) {
-      el.textContent = String(target);
-      return;
-    }
-
-    const duration = 900;
-    const start = performance.now();
-    el.textContent = '0';
-
-    const tick = (now) => {
-      const t = Math.min(1, (now - start) / duration);
-      const eased = 1 - Math.pow(1 - t, 3);
-      el.textContent = String(Math.round(target * eased));
-      if (t < 1) requestAnimationFrame(tick);
-    };
-    requestAnimationFrame(tick);
+    el.textContent = String(target);
   });
 }
 
 function animateProgressBars(root) {
   const bars = root.querySelectorAll('.archive-progress-fill[data-progress]');
   if (!bars.length) return;
-  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   bars.forEach((fill) => {
     const target = fill.dataset.progress || '0';
-    if (reduced) {
-      fill.style.width = `${target}%`;
-      return;
-    }
-    fill.style.width = '0%';
-    requestAnimationFrame(() => {
-      fill.style.width = `${target}%`;
-    });
+    fill.style.width = `${target}%`;
   });
 }
 

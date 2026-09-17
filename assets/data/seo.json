@@ -30,8 +30,8 @@
   "pages": {
     "index.html": {
       "path": "/",
-      "title": "21st Memory — AI-Decoded Living Archive",
-      "description": "21st Memory is a free living archive of AI-decoded Thalon Thor transmissions. Explore the Codex, quizzes, and network — no religion, no finance, no gatekeeping.",
+      "title": "21st Memory — Living Archive",
+      "description": "A free living archive of AI-assisted readings of Thalon Thor / Christian21 transmissions. Search the Codex, then return to the originals. No religion, no finance, no gatekeeping.",
       "searchAction": true,
       "webPage": true
     },
