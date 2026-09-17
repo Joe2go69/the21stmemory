@@ -104,6 +104,7 @@ function renderArchiveStats() {
   const { sources, live, total } = codexState.archiveStats;
   const soon = Math.max(0, total - live);
   const pct = total ? Math.round((live / total) * 100) : 0;
+  el.setAttribute('aria-busy', 'false');
 
   el.innerHTML = `
     <div class="codex-stats-bar codex-hub-panel">
@@ -266,7 +267,7 @@ function renderSourcesGrid() {
             ...(hasQuery || hasStatus
               ? [{ label: 'Clear filters', primary: true, attrs: 'data-codex-clear-filters' }]
               : []),
-            { label: 'Browse quizzes', href: 'quizzes.html' }
+            { label: 'Explore Alice', href: 'topics.html?source=alice' }
           ]
         })}
       </div>
@@ -402,12 +403,23 @@ function finishCodexScrollRestore() {
   });
 }
 
+function sourceGridSkeletonHtml(count) {
+  const n = Math.max(1, count || 4);
+  const card = `<div class="skeleton skeleton-source-card" aria-hidden="true" style="background-color:#0F0A1F"><div class="skeleton skeleton-block" style="height:10rem"></div><div class="skeleton skeleton-bar" style="width:70%"></div><div class="skeleton skeleton-bar" style="width:90%"></div></div>`;
+  return card.repeat(n);
+}
+
 async function loadSources() {
   const statsEl = document.getElementById('codex-archive-stats');
   const gridEl = document.getElementById('sources-grid');
 
-  if (statsEl) statsEl.innerHTML = TopicUtils.skeleton('codex-stats');
-  if (gridEl) gridEl.innerHTML = TopicUtils.skeleton('codex-grid');
+  if (statsEl && !statsEl.querySelector('.codex-stats-bar')) {
+    statsEl.setAttribute('aria-busy', 'true');
+    statsEl.innerHTML = TopicUtils.skeleton('codex-stats');
+  }
+  if (gridEl && !gridEl.querySelector('.source-card, .skeleton-source-card')) {
+    gridEl.innerHTML = sourceGridSkeletonHtml(4);
+  }
 
   try {
     const [sourcesResponse, quickStats] = await Promise.all([
@@ -416,24 +428,35 @@ async function loadSources() {
     ]);
     if (!sourcesResponse.ok) throw new Error(`HTTP ${sourcesResponse.status} — sources.json not found`);
     const sourcesData = await sourcesResponse.json();
+    const sourceList = sourcesData.sources || [];
 
-    if (quickStats) {
-      codexState.archiveStats = quickStats;
+    if (quickStats && Number.isFinite(quickStats.sources)) {
+      codexState.archiveStats = {
+        sources: quickStats.sources,
+        live: quickStats.live,
+        total: quickStats.total
+      };
       renderArchiveStats();
     }
 
-    const bundles = await Promise.all(sourcesData.sources.map(loadSourceBundle));
+    if (gridEl && !gridEl.querySelector('.source-card')) {
+      gridEl.innerHTML = sourceGridSkeletonHtml(sourceList.length);
+    }
+
+    const bundles = await Promise.all(sourceList.map(loadSourceBundle));
 
     codexState.sources = bundles;
     codexState.allTopics = [];
     codexState.searchIndexBuilt = false;
     codexState.searchIndexPromise = null;
-    codexState.archiveStats = bundles.reduce((acc, bundle) => {
-      acc.sources += 1;
-      acc.live += bundle.stats.live;
-      acc.total += bundle.stats.total;
-      return acc;
-    }, { sources: 0, live: 0, total: 0 });
+    if (!quickStats || !Number.isFinite(quickStats.sources)) {
+      codexState.archiveStats = bundles.reduce((acc, bundle) => {
+        acc.sources += 1;
+        acc.live += bundle.stats.live;
+        acc.total += bundle.stats.total;
+        return acc;
+      }, { sources: 0, live: 0, total: 0 });
+    }
     codexState.loading = false;
 
     // URL applied in init; nav-return overrides for Back fidelity
@@ -460,7 +483,10 @@ async function loadSources() {
   } catch (error) {
     console.error('Failed to load sources:', error);
     codexState.loading = false;
-    if (statsEl) statsEl.innerHTML = '';
+    if (statsEl) {
+      statsEl.setAttribute('aria-busy', 'false');
+      statsEl.innerHTML = '';
+    }
     if (gridEl) {
       gridEl.innerHTML = `
         <div class="col-span-full text-center py-12 codex-empty-state">

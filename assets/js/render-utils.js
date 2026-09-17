@@ -235,12 +235,12 @@ const RenderUtils = {
     const showImage = options.showImage !== false;
     const cardImage = this.sourceCardImage(source);
     const imageHTML = showImage && cardImage
-      ? `<div class="source-card-media">
+      ? `<div class="source-card-media" style="background-color:#0F0A1F">
            <img src="${TopicUtils.encodeAssetPath(cardImage)}" alt="${TopicUtils.escapeHtml(source.title)}" class="source-card-img" width="400" height="180" loading="lazy" data-img-fallback>
            <span class="source-card-media-fade" aria-hidden="true"></span>
          </div>`
       : showImage
-        ? `<div class="source-card-media source-card-media--placeholder" aria-hidden="true"></div>`
+        ? `<div class="source-card-media source-card-media--placeholder" aria-hidden="true" style="background-color:#0F0A1F"></div>`
         : '';
 
     const live = source.stats?.live || 0;

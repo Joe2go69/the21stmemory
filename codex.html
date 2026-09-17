@@ -83,7 +83,7 @@
 </script>
 
     <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
-    <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}</style>
+    <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}#sources-grid .skeleton-source-card,.source-card-media{background-color:#0F0A1F}</style>
     <link rel="preload" href="assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/css/main.min.css" as="style">
@@ -149,7 +149,17 @@
     </header>
 
     <div class="max-w-6xl mx-auto px-6 page-shell page-shell--after-hero pb-20">
-        <div id="codex-archive-stats" class="mb-6" aria-live="polite"></div>
+        <div id="codex-archive-stats" class="mb-6" aria-live="polite" aria-busy="true">
+            <div class="skeleton-panel codex-hub-panel" aria-hidden="true">
+                <div class="skeleton-grid skeleton-grid--4">
+                    <div class="skeleton skeleton-block" style="height:3.5rem"></div>
+                    <div class="skeleton skeleton-block" style="height:3.5rem"></div>
+                    <div class="skeleton skeleton-block" style="height:3.5rem"></div>
+                    <div class="skeleton skeleton-block" style="height:3.5rem"></div>
+                </div>
+                <div class="skeleton skeleton-bar" style="width:100%"></div>
+            </div>
+        </div>
         <div id="codex-toolbar" class="mb-8"></div>
 
         <section id="codex-topic-results" class="mb-10" hidden>
@@ -162,7 +172,10 @@
 
         <h3 class="text-xl font-semibold mb-4">Transmissions</h3>
         <div id="sources-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
-            <!-- Populated by JavaScript -->
+            <div class="skeleton skeleton-source-card" aria-hidden="true"><div class="skeleton skeleton-block" style="height:10rem"></div><div class="skeleton skeleton-bar" style="width:70%"></div><div class="skeleton skeleton-bar" style="width:90%"></div></div>
+            <div class="skeleton skeleton-source-card" aria-hidden="true"><div class="skeleton skeleton-block" style="height:10rem"></div><div class="skeleton skeleton-bar" style="width:70%"></div><div class="skeleton skeleton-bar" style="width:90%"></div></div>
+            <div class="skeleton skeleton-source-card" aria-hidden="true"><div class="skeleton skeleton-block" style="height:10rem"></div><div class="skeleton skeleton-bar" style="width:70%"></div><div class="skeleton skeleton-bar" style="width:90%"></div></div>
+            <div class="skeleton skeleton-source-card" aria-hidden="true"><div class="skeleton skeleton-block" style="height:10rem"></div><div class="skeleton skeleton-bar" style="width:70%"></div><div class="skeleton skeleton-bar" style="width:90%"></div></div>
         </div>
 
     </div>

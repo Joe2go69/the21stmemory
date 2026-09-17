@@ -549,7 +549,7 @@ function renderSourceHeader(data, sourceId, stats) {
 
   document.getElementById('source-header').innerHTML = `
     ${breadcrumbs}
-    <article class="source-hero static-card" aria-labelledby="source-hero-title">
+    <article class="source-hero static-card" aria-labelledby="source-hero-title" style="background-color:#0F0A1F;min-height:12rem">
       <div class="source-hero-grid">
         <div class="source-hero-copy">
           <p class="source-hero-eyebrow">${TopicUtils.escapeHtml(seriesLabel)}</p>
@@ -566,12 +566,13 @@ function renderSourceHeader(data, sourceId, stats) {
             ${seriesLink}
           </div>
         </div>
-        <div class="source-hero-media">
+        <div class="source-hero-media" style="background-color:#0F0A1F;min-height:12rem">
           ${heroImage
             ? `<img src="${TopicUtils.encodeAssetPath(heroImage)}"
                     alt="${TopicUtils.escapeAttr(data.title)}"
                     class="source-hero-img"
-                    width="640" height="800" loading="eager" decoding="async" data-img-fallback>`
+                    width="640" height="800" loading="eager" decoding="async" data-img-fallback
+                    style="background-color:#0F0A1F">`
             : ''}
           <span class="source-hero-media-fade" aria-hidden="true"></span>
         </div>
@@ -616,21 +617,110 @@ function finishTopicsScrollRestore() {
 
 let topicsPendingHash = null;
 
+async function loadSourceShelf(sourceId) {
+  try {
+    const topicData = await TopicUtils.fetchSourceIndex(sourceId);
+    const lightTopics = TopicUtils.normalizeTopicsFromIndex(topicData.topics || []);
+    const stats = TopicUtils.countTopicStats(lightTopics);
+    return {
+      id: sourceId,
+      title: topicData.title,
+      subtitle: topicData.subtitle || '',
+      description: topicData.description || '',
+      image: topicData.image || '',
+      stats
+    };
+  } catch (error) {
+    console.error(`Failed to load topics for ${sourceId}:`, error);
+    return {
+      id: sourceId,
+      title: `${sourceId.charAt(0).toUpperCase()}${sourceId.slice(1)} Transmission`,
+      subtitle: '',
+      description: '',
+      image: '',
+      stats: { live: 0, total: 0 }
+    };
+  }
+}
+
+function getSoonCount(stats) {
+  return Math.max(0, (stats?.total || 0) - (stats?.live || 0));
+}
+
+async function renderTransmissionChooser(ids) {
+  const headerEl = document.getElementById('source-header');
+  const container = document.getElementById('topics-container');
+  const exploreEl = document.getElementById('explore-topics');
+  const sourceIds = Array.isArray(ids) ? ids.filter(Boolean) : [];
+
+  topicsPageState.sourceId = '';
+  document.title = 'Choose a transmission | 21st Memory';
+
+  if (exploreEl) exploreEl.hidden = true;
+
+  if (headerEl) {
+    headerEl.setAttribute('aria-busy', 'false');
+    headerEl.innerHTML = `
+      <header class="page-hero page-hero--interior max-w-3xl mx-auto text-center">
+        <h1 class="page-hero-title page-hero-title--hub font-semibold tracking-tighter leading-none mb-4">Choose a transmission</h1>
+        <p class="page-hero-lead max-w-xl mx-auto text-base md:text-lg text-mem-muted font-normal mb-3">Each Codex shelf is one source series. Open one to browse its topics.</p>
+        <p class="mb-0"><a href="codex.html" class="text-link">← Back to Codex</a></p>
+      </header>
+    `;
+  }
+
+  if (!container) return;
+  container.setAttribute('aria-busy', 'true');
+  container.className = 'grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch min-h-[400px]';
+  container.innerHTML = sourceIds.map(() => (
+    `<div class="skeleton skeleton-source-card" aria-hidden="true" style="background-color:#0F0A1F"><div class="skeleton skeleton-block" style="height:10rem"></div><div class="skeleton skeleton-bar" style="width:70%"></div><div class="skeleton skeleton-bar" style="width:90%"></div></div>`
+  )).join('');
+
+  const shelves = await Promise.all(sourceIds.map(loadSourceShelf));
+  container.innerHTML = '';
+  shelves.forEach((source) => {
+    const wrapper = document.createElement('div');
+    wrapper.innerHTML = RenderUtils.renderSourceCard(
+      source,
+      { soonCount: getSoonCount(source.stats) }
+    );
+    if (wrapper.firstElementChild) container.appendChild(wrapper.firstElementChild);
+  });
+  RenderUtils.setupImageFallbacks(container, 'img[data-img-fallback], .source-card-img');
+  container.setAttribute('aria-busy', 'false');
+}
+
 async function loadSourceViewer() {
   const urlParams = new URLSearchParams(window.location.search);
   const rawSource = urlParams.get('source');
   const container = document.getElementById('topics-container');
   const headerEl = document.getElementById('source-header');
 
-  if (headerEl) headerEl.innerHTML = TopicUtils.skeleton('topics-header');
-  if (container) container.innerHTML = TopicUtils.skeleton('topics-list');
+  if (headerEl && !headerEl.querySelector('.source-hero, .page-hero')) {
+    headerEl.setAttribute('aria-busy', 'true');
+    headerEl.innerHTML = TopicUtils.skeleton('topics-header');
+  }
+  if (container && !container.querySelector('.skeleton, #topics-controls')) {
+    container.setAttribute('aria-busy', 'true');
+    container.innerHTML = TopicUtils.skeleton('topics-list');
+  }
 
   try {
     const resolved = await TopicUtils.resolveSourceId(rawSource);
     if (!resolved.ok) {
+      if (resolved.reason === 'missing') {
+        await renderTransmissionChooser(resolved.ids);
+        return;
+      }
       const errorHtml = TopicUtils.renderSourceError(resolved);
-      if (headerEl) headerEl.innerHTML = errorHtml;
-      if (container) container.innerHTML = '';
+      if (headerEl) {
+        headerEl.setAttribute('aria-busy', 'false');
+        headerEl.innerHTML = errorHtml;
+      }
+      if (container) {
+        container.setAttribute('aria-busy', 'false');
+        container.innerHTML = '';
+      }
       document.title = 'Transmission not found | The 21st Memory';
       return;
     }
@@ -650,6 +740,7 @@ async function loadSourceViewer() {
     const stats = TopicUtils.countTopicStats(data.topics);
     topicsPageState.stats = stats;
     renderSourceHeader(data, sourceId, stats);
+    if (headerEl) headerEl.setAttribute('aria-busy', 'false');
     RenderUtils.setupImageFallbacks(headerEl);
 
     container.innerHTML = `
@@ -676,6 +767,7 @@ async function loadSourceViewer() {
     }
     renderFilterControls();
     renderTopicsList();
+    if (container) container.setAttribute('aria-busy', 'false');
     syncTopicsUrlFromState();
     TopicUtils.animateProgressBars(headerEl);
 
@@ -700,8 +792,14 @@ async function loadSourceViewer() {
         Make sure <strong>data/${TopicUtils.escapeHtml(sourceId)}-topics-index.json</strong> exists and is valid JSON.</p>
         <a href="codex.html" class="btn-primary">← Back to Codex</a>
       </div>`;
-    if (headerEl) headerEl.innerHTML = errorHtml;
-    if (container) container.innerHTML = errorHtml;
+    if (headerEl) {
+      headerEl.setAttribute('aria-busy', 'false');
+      headerEl.innerHTML = errorHtml;
+    }
+    if (container) {
+      container.setAttribute('aria-busy', 'false');
+      container.innerHTML = errorHtml;
+    }
   }
 }
 
