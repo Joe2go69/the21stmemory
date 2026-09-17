@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" style="color-scheme:dark;background-color:#0F0A1F">
+<html lang="en" class="dive-door-only" style="color-scheme:dark;background-color:#0F0A1F">
 <head>
     <meta charset="UTF-8">
     <meta name="color-scheme" content="dark">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>21st Memory Deep-Dive | The 21st Memory</title>
-    <meta name="description" content="In-depth AI-decoded reports on Thalon Thor transmission topics from the 21st Memory archive.">
+    <title>Topic pages live in the Codex | 21st Memory</title>
+    <meta name="description" content="Deep-dive reports are static Codex pages. This leftover address points you back to the library — then to the original transmissions.">
     <meta name="application-name" content="The 21st Memory">
     <meta name="color-scheme" content="dark">
     <meta name="theme-color" content="#0F0A1F">
@@ -18,15 +18,15 @@
     <meta property="og:url" content="https://21stmemory.com/deep-dive.html">
     <meta property="og:site_name" content="The 21st Memory">
     <meta property="og:locale" content="en_US">
-    <meta property="og:title" content="21st Memory Deep-Dive | The 21st Memory">
-    <meta property="og:description" content="In-depth AI-decoded reports on Thalon Thor transmission topics from the 21st Memory archive.">
+    <meta property="og:title" content="Topic pages live in the Codex | 21st Memory">
+    <meta property="og:description" content="Deep-dive reports are static Codex pages. This leftover address points you back to the library — then to the original transmissions.">
     <meta property="og:image" content="https://21stmemory.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="21st Memory">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="21st Memory Deep-Dive | The 21st Memory">
-    <meta name="twitter:description" content="In-depth AI-decoded reports on Thalon Thor transmission topics from the 21st Memory archive.">
+    <meta name="twitter:title" content="Topic pages live in the Codex | 21st Memory">
+    <meta name="twitter:description" content="Deep-dive reports are static Codex pages. This leftover address points you back to the library — then to the original transmissions.">
     <meta name="twitter:image" content="https://21stmemory.com/images/og-default.webp">
 
 <script type="application/ld+json">
@@ -83,7 +83,19 @@
 </script>
 
     <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
-    <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}</style>
+    <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}html.dive-door-only main > *:not(#dive-leftover-door){display:none!important}</style>
+    <script>
+      (function () {
+        try {
+          var params = new URLSearchParams(window.location.search);
+          if (params.get('source') && params.get('topic')) {
+            document.documentElement.classList.remove('dive-door-only');
+            var target = '/dive/' + encodeURIComponent(params.get('source')) + '/' + encodeURIComponent(params.get('topic')) + '.html';
+            window.location.replace(target + (window.location.hash || ''));
+          }
+        } catch (e) { /* keep SPA fallback */ }
+      })();
+    </script>
     <link rel="preload" href="assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/css/main.min.css" as="style">
@@ -129,23 +141,20 @@
     <main id="main">
     <noscript>
       <div class="noscript-notice max-w-6xl mx-auto px-6 pt-6">
-        <p><strong>JavaScript is required</strong> for this legacy topic shell. Prefer the static Codex dive pages under <code>/dive/</code>, or return to the <a href="codex.html">Codex</a>.</p>
+        <p><strong>JavaScript is required</strong> for this leftover address. Prefer the static Codex dive pages under <code>/dive/</code>, or return to the <a href="codex.html">Codex</a>.</p>
       </div>
     </noscript>
-    <script>
-      // Immediate redirect to static dive URLs when opened with ?source=&topic=
-      (function () {
-        try {
-          var params = new URLSearchParams(window.location.search);
-          var source = params.get('source');
-          var topic = params.get('topic');
-          if (source && topic) {
-            var target = '/dive/' + encodeURIComponent(source) + '/' + encodeURIComponent(topic) + '.html';
-            window.location.replace(target + (window.location.hash || ''));
-          }
-        } catch (e) { /* keep SPA fallback */ }
-      })();
-    </script>
+
+    <header id="dive-leftover-door" class="page-hero page-hero--interior max-w-3xl mx-auto px-6 text-center">
+        <p class="page-hero-eyebrow">Archive</p>
+        <h1 class="page-hero-title page-hero-title--page font-semibold tracking-tighter leading-none mb-5">This topic lives in the Codex</h1>
+        <p class="page-hero-lead max-w-xl mx-auto text-base md:text-lg text-mem-muted font-normal mb-4">
+            Deep-dive reports are static pages under /dive/. Open a transmission from the Codex instead of this leftover address.
+        </p>
+        <div class="home-hero-actions">
+            <a href="codex.html" class="btn-primary home-hero-actions__primary">Explore the Codex</a>
+        </div>
+    </header>
 
     <!-- MAIN CONTENT -->
     <div class="max-w-6xl mx-auto px-6 page-shell pb-4">
