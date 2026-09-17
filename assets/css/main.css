@@ -20351,23 +20351,68 @@ a.quiz-hub-row,
 
 @media (min-width: 768px) {
   .deep-dive-hero {
-    min-height: 26rem !important;
+    min-height: 30rem !important;
   }
 }
 
 .deep-dive-hero-bg {
-  transform: scale(1.04) !important;
-  filter: saturate(1.12) brightness(1.04) contrast(1.05) !important;
+  transform: none !important;
+  filter: saturate(1.08) brightness(1.02) contrast(1.04) !important;
   background-color: #0F0A1F;
+  background-size: cover !important;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+}
+
+/* Tall tree + eye (Revelations Essence): pin canopy, not the mid-trunk slice. */
+body[data-source="revelations"][data-topic="essence-of-the-transmission"] .deep-dive-hero-bg {
+  background-position: center 26%;
+}
+
+/* Two faces sit in the upper half. */
+body[data-topic="custodians"] .deep-dive-hero-bg {
+  background-position: center 28%;
+}
+
+/* Street crowd lives in the lower third of the landscape. */
+body[data-topic="blackout-timeline"] .deep-dive-hero-bg {
+  background-position: center 68%;
+}
+
+/* Standing figure on the crystal floor, not the empty vortex. */
+body[data-source="ascension"][data-topic="essence-of-the-transmission"] .deep-dive-hero-bg {
+  background-position: center 58%;
+}
+
+@media (max-width: 767px) {
+  .deep-dive-hero-bg {
+    background-position: center 36%;
+  }
+
+  body[data-source="revelations"][data-topic="essence-of-the-transmission"] .deep-dive-hero-bg {
+    background-position: center 22%;
+  }
+
+  body[data-topic="custodians"] .deep-dive-hero-bg {
+    background-position: center 30%;
+  }
+
+  body[data-topic="blackout-timeline"] .deep-dive-hero-bg {
+    background-position: center 62%;
+  }
+
+  body[data-source="ascension"][data-topic="essence-of-the-transmission"] .deep-dive-hero-bg {
+    background-position: center 55%;
+  }
 }
 
 .deep-dive-hero-scrim {
   background: linear-gradient(
     108deg,
-    rgba(8, 5, 18, 0.96) 0%,
-    rgba(10, 6, 22, 0.9) 34%,
-    rgba(12, 8, 28, 0.66) 68%,
-    rgba(12, 8, 28, 0.78) 100%
+    rgba(8, 5, 18, 0.97) 0%,
+    rgba(10, 6, 22, 0.92) 32%,
+    rgba(12, 8, 28, 0.7) 64%,
+    rgba(12, 8, 28, 0.8) 100%
   ) !important;
 }
 
@@ -20537,18 +20582,19 @@ a.quiz-hub-row,
   .deep-dive-hero .jump-to-pills,
   .deep-dive-hero .dive-section-seg {
     display: flex !important;
-    flex-wrap: nowrap !important;
+    flex-wrap: wrap !important;
     width: 100%;
     max-width: 100%;
   }
 
   .deep-dive-hero .btn-jump-pill {
-    flex: 1 1 0;
-    min-width: 0;
-    padding-left: 0.28rem;
-    padding-right: 0.28rem;
-    font-size: 0.62rem !important;
-    letter-spacing: 0.03em;
+    flex: 1 1 auto;
+    min-width: 5.5rem;
+    min-height: 44px !important;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    font-size: 0.78rem !important;
+    letter-spacing: 0.04em;
   }
 }
 
@@ -20709,10 +20755,14 @@ a.quiz-hub-row,
   opacity: 1 !important;
   filter: none !important;
   image-rendering: auto;
+  background-color: #0F0A1F;
 }
 
-.infographic-artifact img {
-  object-position: center top;
+/* Hero covers; the plate shows the whole artifact for zoom. */
+.infographic-artifact img,
+.dive-plate img {
+  object-fit: contain;
+  object-position: center center;
 }
 
 .dive-plate__void {
@@ -20768,12 +20818,21 @@ a.quiz-hub-row,
   box-shadow: 0 24px 48px -20px rgba(0, 0, 0, 0.65);
 }
 
+.infographic-modal-image:not([src]),
+.infographic-modal-image[src=""] {
+  display: none;
+}
+
 .dive-plate-modal-close,
 #infographic-modal-close.icon-control--close {
   position: absolute;
   top: 0.65rem;
   right: 0.65rem;
   z-index: 12;
+  min-width: 44px;
+  min-height: 44px;
+  width: 44px;
+  height: 44px;
 }
 
 .dive-plate-modal-close svg,
@@ -21135,7 +21194,7 @@ body.reading-focus .site-footer {
 #report-container,
 .report-prerendered {
   color: #F1EBFF !important;
-  max-width: min(100%, 42rem) !important;
+  max-width: min(100%, 66ch) !important;
   background: transparent !important;
   box-shadow: none !important;
   border-radius: 0 !important;
@@ -21293,8 +21352,24 @@ body[data-report-size="lg"] #report-container {
 .report-folio-masthead {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.75rem;
   margin: 0 0 1rem;
+}
+
+.report-folio-source {
+  margin-left: auto;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+@media (max-width: 639px) {
+  .report-folio-source {
+    flex-basis: 100%;
+    margin-left: 2.9rem;
+  }
 }
 
 .report-folio-mark {

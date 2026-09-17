@@ -1359,6 +1359,20 @@
       "title": "The Homecoming"
     },
     {
+      "sourceId": "ascension",
+      "topicId": "portal-transition",
+      "path": "/dive/ascension/portal-transition.html",
+      "live": true,
+      "title": "Portal Transition"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "unified-reality",
+      "path": "/dive/ascension/unified-reality.html",
+      "live": true,
+      "title": "Unified Reality"
+    },
+    {
       "sourceId": "revelations",
       "topicId": "essence-of-the-transmission",
       "path": "/dive/revelations/essence-of-the-transmission.html",
@@ -1910,20 +1924,6 @@
       "path": "/dive/revelations/terrarium-seal.html",
       "live": false,
       "title": "Terrarium Seal"
-    },
-    {
-      "sourceId": "ascension",
-      "topicId": "portal-transition",
-      "path": "/dive/ascension/portal-transition.html",
-      "live": true,
-      "title": "Portal Transition"
-    },
-    {
-      "sourceId": "ascension",
-      "topicId": "unified-reality",
-      "path": "/dive/ascension/unified-reality.html",
-      "live": true,
-      "title": "Unified Reality"
     }
   ]
 }

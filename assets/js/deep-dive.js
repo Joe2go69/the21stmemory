@@ -423,6 +423,8 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId, mediaFlag
                data-source-id="${escapeAttr(sourceId)}"
                data-topic-id="${escapeAttr(topic.id)}">Topics</a>
             <span class="dive-hero-link-sep" aria-hidden="true">·</span>
+            <a href="source.html" class="dive-hero-link">Source</a>
+            <span class="dive-hero-link-sep" aria-hidden="true">·</span>
             <a href="network.html" class="dive-hero-link">Network</a>
             <span class="dive-hero-link-sep" aria-hidden="true">·</span>
             <div class="share-menu share-menu--inline" data-share-url="${escapeAttr(`${window.location.origin}${TopicUtils.divePath(sourceId, topic.id)}`)}" data-share-title="${escapeAttr(topic.title)}">
@@ -1235,8 +1237,6 @@ function closeInfographicModal() {
     resetImageZoomState(img);
     clearModalImageSizing(img);
     img.onload = null;
-    // Drop src to free memory when closed
-    img.removeAttribute('src');
   }
 
   modal.classList.remove('flex');

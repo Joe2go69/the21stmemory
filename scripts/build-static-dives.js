@@ -256,6 +256,7 @@ function renderFolioMasthead({ sourceTitle, readingTime, assetBase = ASSET_BASE 
     <div class="report-folio-meta">${parts.join(
       '<span class="report-folio-dot" aria-hidden="true">·</span>'
     )}</div>
+    <a href="${escapeAttr(assetBase + 'source.html')}" class="text-link report-folio-source">Original transmissions →</a>
   </header>`;
 }
 
@@ -817,6 +818,8 @@ function buildPage({
                 <span class="dive-hero-link-sep" aria-hidden="true">·</span>
                 <a href="${ASSET_BASE}topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="dive-hero-link">Topics</a>
                 <span class="dive-hero-link-sep" aria-hidden="true">·</span>
+                <a href="${ASSET_BASE}source.html" class="dive-hero-link">Source</a>
+                <span class="dive-hero-link-sep" aria-hidden="true">·</span>
                 <a href="${ASSET_BASE}network.html" class="dive-hero-link">Network</a>
                 <span class="dive-hero-link-sep" aria-hidden="true">·</span>
                 ${renderShareMenu({ canonical, title })}
@@ -957,7 +960,7 @@ ${robots}    <link rel="canonical" href="${canonical}">
     <meta name="twitter:image" content="${escapeAttr(ogImage)}">
 ${jsonLd}
         <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
-    <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}</style>
+    <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}.deep-dive-hero,.deep-dive-hero-bg{background-color:#0F0A1F}.deep-dive-hero{min-height:22rem}@media (min-width:768px){.deep-dive-hero{min-height:30rem}}</style>
     <link rel="preload" href="${ASSET_BASE}assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="${ASSET_BASE}assets/fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="${ASSET_BASE}assets/css/main.min.css" as="style">
@@ -978,7 +981,7 @@ ${bodyMain}
     <div id="infographic-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Full size plate viewer" class="hidden fixed inset-0 z-[100] flex items-center justify-center p-2 md:p-4">
         <div id="infographic-modal-inner" class="relative w-full max-w-[98vw] md:max-w-[96vw] max-h-[96vh]">
             <div id="infographic-modal-viewport" class="infographic-modal-viewport">
-                <img id="modal-image" src="" alt="Full size plate" class="infographic-modal-image">
+                <img id="modal-image" alt="Full size plate" class="infographic-modal-image">
             </div>
             <button type="button" id="infographic-modal-close" class="icon-control icon-control--close dive-plate-modal-close" aria-label="Close plate">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" aria-hidden="true">

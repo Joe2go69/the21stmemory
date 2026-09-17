@@ -544,23 +544,46 @@ function initInfographicModal() {
 
     modalImg.loading = 'eager';
     modalImg.onload = onReady;
-    modalImg.src = src;
+    if (modalImg.getAttribute('src') !== src) {
+      modalImg.src = src;
+    }
     if (modalImg.complete && modalImg.naturalWidth) onReady();
 
+    document.addEventListener('keydown', trapFocus);
     setTimeout(() => closeBtn?.focus(), 50);
+  };
+
+  const getFocusables = () =>
+    [...modal.querySelectorAll(
+      'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    )].filter((el) => el.offsetParent !== null || el === closeBtn);
+
+  const trapFocus = (event) => {
+    if (modal.classList.contains('hidden') || event.key !== 'Tab') return;
+    const focusables = getFocusables();
+    if (!focusables.length) return;
+    const first = focusables[0];
+    const last = focusables[focusables.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
   };
 
   const close = () => {
     teardownZoom();
     clearImageSizing();
     modalImg.onload = null;
-    modalImg.removeAttribute('src');
 
     modal.classList.add('hidden');
     modal.classList.remove('flex');
     modal.setAttribute('aria-hidden', 'true');
     document.body.classList.remove('menu-open');
     document.body.style.overflow = '';
+    document.removeEventListener('keydown', trapFocus);
 
     const restore = modalTrigger;
     modalTrigger = null;
