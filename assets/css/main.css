@@ -2364,6 +2364,12 @@ header.hero-gradient h1 {
    ============================================= */
 .source-hero-host {
   margin-bottom: 0;
+  background-color: #0F0A1F;
+}
+
+html.has-source-shelf .source-hero-host,
+.source-hero {
+  min-height: 20rem;
 }
 
 .source-hero {
@@ -2402,6 +2408,11 @@ header.hero-gradient h1 {
 }
 
 @media (min-width: 900px) {
+  html.has-source-shelf .source-hero-host,
+  .source-hero {
+    min-height: 24rem;
+  }
+
   .source-hero-grid {
     grid-template-columns: minmax(0, 1.2fr) minmax(13rem, 0.8fr);
     align-items: stretch;
@@ -11138,8 +11149,8 @@ a.source-card:hover .source-card-progress__fill {
 /* Mobile: keep interior heroes comfortable and matched to home */
 @media (max-width: 640px) {
   .page-hero--interior {
-    padding-top: 1.35rem !important;
-    padding-bottom: 1.65rem !important;
+    padding-top: 0.85rem !important;
+    padding-bottom: 1.15rem !important;
     /* Slightly tighter sides so long titles still clear the frame */
     padding-left: 1.15rem !important;
     padding-right: 1.15rem !important;
@@ -11165,13 +11176,15 @@ a.source-card:hover .source-card-progress__fill {
   }
 
   .page-hero--interior .page-hero-pillars {
-    font-size: 0.78rem;
+    font-size: 0.8rem;
     gap: 0.25rem 0.4rem;
     padding: 0 0.25rem;
+    margin-bottom: 0.85rem !important;
   }
 
   .page-hero--interior .home-hero-actions {
     max-width: 18rem;
+    margin-top: 0.85rem;
   }
 
   .page-hero--interior .home-hero-actions__primary,
@@ -12671,6 +12684,7 @@ a.btn-secondary:hover,
     font-size: 2.55rem !important;
     line-height: 1.1 !important;
     padding-top: 0.1em;
+    margin-bottom: 0.75rem;
   }
 }
 
@@ -18102,6 +18116,12 @@ a.topic-root-card {
   overflow: hidden;
 }
 
+@media (max-width: 640px) {
+  .home-hero--vault {
+    padding: 1.1rem 0 1.15rem;
+  }
+}
+
 .home-hero-atmosphere {
   position: absolute;
   inset: 0;
@@ -18336,10 +18356,18 @@ a.topic-root-card {
   position: relative;
   isolation: isolate;
   padding: clamp(2.25rem, 6vw, 4rem) 0 clamp(1.75rem, 4vw, 2.75rem) !important;
-  min-height: clamp(28rem, 72vh, 36rem);
+  min-height: clamp(22rem, 52vh, 36rem);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 640px) {
+  .home-hero--vault {
+    min-height: 0;
+    padding: 1.1rem 0 1.2rem !important;
+    align-items: flex-start;
+  }
 }
 
 .home-hero-media {
@@ -19279,6 +19307,18 @@ button.text-link {
 }
 
 @media (max-width: 767px) {
+  .quiz-hub-toolbar .codex-search-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .quiz-hub-filters,
+  .quiz-hub-status,
+  .archive-filter-row .quiz-hub-filters,
+  .archive-filter-row .quiz-hub-status {
+    flex-wrap: wrap;
+  }
+
   .archive-filter-row,
   .topics-filter-section,
   .codex-toolbar .topics-filter-section--status {
@@ -22440,6 +22480,23 @@ a.support-way.has-media .support-way__desc {
   align-items: flex-start;
   gap: 0.4rem;
   padding: 0.95rem 0.15rem 0.1rem;
+}
+
+@media (min-width: 900px) {
+  .source-videos-section {
+    max-width: 64rem;
+  }
+
+  .source-plate {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(14rem, 0.9fr);
+    gap: 0 1.35rem;
+    align-items: center;
+  }
+
+  .source-plate__body {
+    padding: 0.15rem 0.15rem 0.1rem;
+  }
 }
 
 .source-plate[id^="part-"] {

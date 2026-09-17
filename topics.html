@@ -83,7 +83,8 @@
 </script>
 
     <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
-    <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}.source-hero-host,.source-hero,.source-hero-media,.source-hero-img,.source-card-media{background-color:#0F0A1F}.source-hero,.source-hero-media{min-height:12rem}</style>
+    <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}.source-hero-host,.source-hero,.source-hero-media,.source-hero-img,.source-card-media{background-color:#0F0A1F}.source-hero-media{min-height:12rem}html.has-source-shelf .source-hero-host,.source-hero{min-height:20rem}@media (min-width:900px){html.has-source-shelf .source-hero-host,.source-hero{min-height:24rem}}</style>
+    <script>if(/[?&]source=/.test(location.search))document.documentElement.classList.add('has-source-shelf');</script>
     <link rel="preload" href="assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/css/main.min.css" as="style">
@@ -128,14 +129,7 @@
     </noscript>
 
     <div class="max-w-6xl mx-auto px-6 page-shell pb-12">
-        <div id="source-header" class="source-hero-host mb-0" aria-busy="true">
-            <div class="skeleton-panel static-card" aria-hidden="true" style="background-color:#0F0A1F;min-height:12rem">
-                <div class="skeleton-grid skeleton-grid--header">
-                    <div><div class="skeleton skeleton-bar" style="width:40%"></div><div class="skeleton skeleton-block" style="height:2.5rem"></div><div class="skeleton skeleton-block" style="height:1.5rem"></div></div>
-                    <div class="skeleton skeleton-block skeleton-block--image" style="background-color:#0F0A1F;min-height:12rem"></div>
-                </div>
-            </div>
-        </div>
+        <div id="source-header" class="source-hero-host mb-0" aria-busy="true"></div>
     </div>
 
     <div class="max-w-6xl mx-auto px-6 pb-20">

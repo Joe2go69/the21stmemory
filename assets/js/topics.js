@@ -647,6 +647,36 @@ function getSoonCount(stats) {
   return Math.max(0, (stats?.total || 0) - (stats?.live || 0));
 }
 
+function paintSourceHeroShell(sourceId) {
+  const headerEl = document.getElementById('source-header');
+  if (!headerEl || !sourceId) return;
+
+  const image = typeof RenderUtils.sourceCardImage === 'function'
+    ? RenderUtils.sourceCardImage({ id: sourceId })
+    : '';
+  const label = typeof RenderUtils.sourcePlainLabel === 'function'
+    ? RenderUtils.sourcePlainLabel(sourceId)
+    : '';
+
+  headerEl.setAttribute('aria-busy', 'true');
+  headerEl.innerHTML = `
+    <article class="source-hero" aria-busy="true" style="background-color:#0F0A1F">
+      <div class="source-hero-grid">
+        <div class="source-hero-copy">
+          ${label ? `<p class="source-hero-eyebrow">${TopicUtils.escapeHtml(label)}</p>` : ''}
+          <h1 id="source-hero-title" class="source-hero-title"></h1>
+        </div>
+        <div class="source-hero-media" style="background-color:#0F0A1F">
+          ${image
+            ? `<img src="${TopicUtils.encodeAssetPath(image)}" alt="" class="source-hero-img" width="640" height="800" decoding="async" style="background-color:#0F0A1F">`
+            : ''}
+          <span class="source-hero-media-fade" aria-hidden="true"></span>
+        </div>
+      </div>
+    </article>
+  `;
+}
+
 async function renderTransmissionChooser(ids) {
   const headerEl = document.getElementById('source-header');
   const container = document.getElementById('topics-container');
@@ -695,10 +725,11 @@ async function loadSourceViewer() {
   const rawSource = urlParams.get('source');
   const container = document.getElementById('topics-container');
   const headerEl = document.getElementById('source-header');
+  let indexPromise = null;
 
-  if (headerEl && !headerEl.querySelector('.source-hero, .page-hero')) {
-    headerEl.setAttribute('aria-busy', 'true');
-    headerEl.innerHTML = TopicUtils.skeleton('topics-header');
+  if (rawSource) {
+    paintSourceHeroShell(rawSource);
+    indexPromise = TopicUtils.fetchSourceIndex(rawSource);
   }
   if (container && !container.querySelector('.skeleton, #topics-controls')) {
     container.setAttribute('aria-busy', 'true');
@@ -708,6 +739,7 @@ async function loadSourceViewer() {
   try {
     const resolved = await TopicUtils.resolveSourceId(rawSource);
     if (!resolved.ok) {
+      if (indexPromise) indexPromise.catch(() => {});
       if (resolved.reason === 'missing') {
         await renderTransmissionChooser(resolved.ids);
         return;
@@ -728,8 +760,12 @@ async function loadSourceViewer() {
     const sourceId = resolved.sourceId;
     topicsPageState.sourceId = sourceId;
 
-    const fullData = await TopicUtils.fetchSourceIndex(sourceId);
+    const fullData = indexPromise
+      ? await indexPromise
+      : await TopicUtils.fetchSourceIndex(sourceId);
     document.title = `21st Memory Topics | ${fullData.title}`;
+    const titleEl = document.getElementById('source-hero-title');
+    if (titleEl && fullData.title) titleEl.textContent = fullData.title;
 
     const data = {
       ...fullData,

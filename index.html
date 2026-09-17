@@ -135,11 +135,14 @@
         width:100%!important;
         max-width:none!important;
         margin:0!important;
-        min-height:clamp(28rem,72vh,40rem)!important;
+        min-height:clamp(22rem,52vh,36rem)!important;
         overflow:hidden!important;
         border-radius:0!important;
         box-shadow:none!important;
         box-sizing:border-box!important;
+      }
+      @media (max-width:640px){
+        #home-vault .home-hero-stage{min-height:0!important}
       }
       #home-vault .home-hero-media{
         position:absolute!important;
@@ -173,9 +176,19 @@
         width:100%!important;
         max-width:40rem!important;
         margin:0 auto!important;
-        min-height:clamp(28rem,72vh,40rem)!important;
+        min-height:clamp(22rem,52vh,36rem)!important;
         padding:3.5rem 1.5rem 3.25rem!important;
         box-sizing:border-box!important;
+      }
+      @media (max-width:640px){
+        #home-vault .home-hero-inner{
+          min-height:0!important;
+          justify-content:flex-start!important;
+          padding:1.15rem 1.25rem 1.4rem!important;
+        }
+        #home-vault .page-hero-title{margin:0 0 .65rem!important}
+        #home-vault .home-hero-lead{margin:0 auto .7rem!important}
+        #home-vault .page-hero-pillars{margin-bottom:1rem!important}
       }
       @media (min-width:768px){
         #home-vault .home-hero-inner{padding:4rem 1.5rem 3.75rem!important}
@@ -275,7 +288,7 @@
           </h1>
           <p class="page-hero-lead home-hero-lead">
             The transmissions, structured.<br>
-            Search, study, remember — companion readings of Thalon Thor / Christian21, then back to the originals.
+            A free companion archive of Thalon Thor / Christian21. Search, study, remember — then return to the originals.
           </p>
           <p class="page-hero-pillars text-mem-dim text-sm font-medium">
             <span>No religion</span>
@@ -340,7 +353,7 @@
                     <header class="codex-home-header">
                         <p class="codex-home-eyebrow">The main library</p>
                         <h2 id="codex-home-title" class="codex-home-title">The 21st Memory Codex</h2>
-                        <p class="codex-home-deck">Deep-dives on Thalon Thor’s transmissions — each topic brings video, visual synthesis, and a written report into one place.</p>
+                        <p class="codex-home-deck">Deep-dives on Thalon Thor’s transmissions — each topic brings videos, visual synthesis, and a written report into one place.</p>
                     </header>
 
                     <div class="codex-home-cta-row">
@@ -453,7 +466,7 @@
                     <h2 id="about-title" class="home-about-editorial__title">What is 21st Memory?</h2>
                     <div class="home-about-editorial__body">
                         <p><strong>21st Memory</strong> is a free living archive of AI-assisted interpretations of transmissions from <strong>Thalon Thor / Christian21</strong>.</p>
-                        <p>Topics are organized for study — video, visual synthesis, written reports, and optional quizzes — for clarity and navigation, not ownership of the message. The <a href="source.html" class="text-link">original transmissions</a> remain the source.</p>
+                        <p>Topics are organized for study — videos, visual synthesis, written reports, and optional quizzes — for clarity and navigation, not ownership of the message. The <a href="source.html" class="text-link">original transmissions</a> remain the source.</p>
                         <p class="home-about-editorial__note" role="note"><strong>AI is a bridge, not the source.</strong> Confirm important points with the originals.</p>
                     </div>
                 </div>
