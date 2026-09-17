@@ -38,6 +38,14 @@ const SOURCE_META = {
     desc: 'Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.',
     image: 'images/ascension-codex-card.webp',
   },
+  revelations: {
+    id: 'revelations',
+    label: 'Revelations',
+    title: 'A Brief Synopsis of Revelations',
+    short: 'Six-part revelations synopsis',
+    desc: 'Physical existence, inversion, and the return of memory — one live quiz so far.',
+    image: 'images/revelations-codex-card.webp',
+  },
 };
 
 const OVERVIEW_START = '<!-- QUIZZES-OVERVIEW-START -->';
@@ -144,7 +152,7 @@ function renderOverview(quizzes) {
 }
 
 function renderRow(quiz) {
-  const searchBlob = [quiz.title, quiz.subtitle, quiz.sourceLabel, quiz.sourceTitle]
+  const searchBlob = [quiz.title, quiz.subtitle, quiz.sourceId, quiz.sourceLabel, quiz.sourceTitle, quiz.sourceShort]
     .join(' ')
     .toLowerCase();
 

@@ -23,7 +23,7 @@ function initQuizzesHub() {
 
   let cards = Array.from(root.querySelectorAll('.quiz-hub-row, .quiz-hub-card'));
   let sections = Array.from(root.querySelectorAll('[data-source-section]'));
-  const filterControls = Array.from(document.querySelectorAll('[data-quiz-filter]'));
+  let filterControls = Array.from(document.querySelectorAll('[data-quiz-filter]'));
   const statusControls = Array.from(document.querySelectorAll('[data-quiz-status]'));
 
   let activeSource = 'all';
@@ -318,7 +318,7 @@ function initQuizzesHub() {
 
   function renderRow(quiz) {
     const key = quiz.key || `${quiz.sourceId}/${quiz.id}`;
-    const searchBlob = [quiz.title, quiz.subtitle, quiz.sourceLabel, quiz.sourceTitle]
+    const searchBlob = [quiz.title, quiz.subtitle, quiz.sourceId, quiz.sourceLabel, quiz.sourceTitle, quiz.sourceShort]
       .join(' ')
       .toLowerCase();
     const focusId = `quiz-${escapeAttr(String(key).replace(/[^\w-]+/g, '-'))}`;
@@ -411,6 +411,7 @@ ${rows}
         const res = await fetch(QUIZ_INDEX_URL, { credentials: 'same-origin' });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         quizIndex = await res.json();
+        paintPathFilters(quizIndex);
       }
       renderCatalogFromIndex(quizIndex);
       root.removeAttribute('aria-busy');
@@ -437,6 +438,7 @@ ${rows}
         .then((data) => {
           if (data) {
             quizIndex = data;
+            paintPathFilters(quizIndex);
             paintAllProgress();
           }
         })
@@ -449,6 +451,23 @@ ${rows}
     } else {
       setTimeout(run, 400);
     }
+  }
+
+  function paintPathFilters(index) {
+    const host = document.getElementById('quizzes-filters');
+    if (!host || !index) return;
+    const sources = (index.sources || []).filter((s) => s.id && (s.count || 0) > 0);
+    if (!sources.length) return;
+    const chips = [{ id: 'all', label: 'All' }].concat(
+      sources.map((s) => ({ id: s.id, label: s.label || s.id }))
+    );
+    host.innerHTML = chips
+      .map((c) => {
+        const on = c.id === activeSource;
+        return `<button type="button" class="topic-control-btn${on ? ' is-active active' : ''}" data-quiz-filter="${escapeAttr(c.id)}" aria-pressed="${on ? 'true' : 'false'}">${escapeHtml(c.label)}</button>`;
+      })
+      .join('');
+    filterControls = Array.from(document.querySelectorAll('[data-quiz-filter]'));
   }
 
   function setActiveFilter(source) {

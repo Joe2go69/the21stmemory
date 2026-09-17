@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T00:16:19.850Z",
+  "generatedAt": "2026-09-17T03:08:46.401Z",
   "total": 197,
   "sources": [
     {
@@ -28,6 +28,15 @@
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card.webp",
       "count": 32
+    },
+    {
+      "id": "revelations",
+      "label": "Revelations",
+      "title": "A Brief Synopsis of Revelations",
+      "short": "Six-part revelations synopsis",
+      "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
+      "image": "images/revelations-codex-card.webp",
+      "count": 1
     }
   ],
   "quizzes": [
@@ -2582,9 +2591,9 @@
     {
       "id": "essence-of-the-transmission",
       "sourceId": "revelations",
-      "sourceLabel": "revelations",
-      "sourceTitle": "revelations",
-      "sourceShort": "",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
       "title": "Essence of the Transmission",
       "subtitle": "Test your understanding of Essence of the Transmission — consciousness before architecture, the organic motherboard, and the inverted control matrix.",
       "questionCount": 25,
