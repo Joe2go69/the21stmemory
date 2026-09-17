@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-16T11:19:32.971Z",
-  "total": 196,
+  "generatedAt": "2026-09-17T00:16:19.850Z",
+  "total": 197,
   "sources": [
     {
       "id": "alice",
@@ -2578,6 +2578,19 @@
       "href": "quiz/breakdown/water-domes.html",
       "diveHref": "dive/breakdown/water-domes.html",
       "key": "breakdown/water-domes"
+    },
+    {
+      "id": "essence-of-the-transmission",
+      "sourceId": "revelations",
+      "sourceLabel": "revelations",
+      "sourceTitle": "revelations",
+      "sourceShort": "",
+      "title": "Essence of the Transmission",
+      "subtitle": "Test your understanding of Essence of the Transmission — consciousness before architecture, the organic motherboard, and the inverted control matrix.",
+      "questionCount": 25,
+      "href": "quiz/revelations/essence-of-the-transmission.html",
+      "diveHref": "dive/revelations/essence-of-the-transmission.html",
+      "key": "revelations/essence-of-the-transmission"
     }
   ]
 }
