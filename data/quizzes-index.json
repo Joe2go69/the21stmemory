@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18T04:16:09.174Z",
-  "total": 198,
+  "generatedAt": "2026-09-18T22:58:55.291Z",
+  "total": 199,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 2
+      "count": 3
     }
   ],
   "quizzes": [
@@ -2600,6 +2600,19 @@
       "href": "quiz/revelations/essence-of-the-transmission.html",
       "diveHref": "dive/revelations/essence-of-the-transmission.html",
       "key": "revelations/essence-of-the-transmission"
+    },
+    {
+      "id": "proximal-sols",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Proximal Sols",
+      "subtitle": "Test your understanding of Proximal Sols — the original twelve beings, dual-polarity pairing, soul architecture, and the four thousand unique soul lineages.",
+      "questionCount": 25,
+      "href": "quiz/revelations/proximal-sols.html",
+      "diveHref": "dive/revelations/proximal-sols.html",
+      "key": "revelations/proximal-sols"
     },
     {
       "id": "soul-architecture",

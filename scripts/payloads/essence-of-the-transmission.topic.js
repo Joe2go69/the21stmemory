@@ -25,19 +25,217 @@ module.exports = {
       title: 'Roswell & Timeline Collapse',
       embed_url: 'https://rumble.com/embed/v7dece6/?pub=4p0ieu',
       description:
-        'Roswell & Timeline Collapse — the 1947 Anakim strike on Orion Grey craft forced the point-contact transistor into public hands and collapsed the thousand-year custodial schedule.'
+        'Roswell & Timeline Collapse — the 1947 Anakim strike on Orion Grey craft forced the point-contact transistor into public hands and collapsed the thousand-year custodial schedule.',
+      poster_url: 'https://hugh.cdn.rumble.cloud/video/fwe2/e4/s8/6/0/G/A/Y/0GAYA.qR4e.jpg'
     },
     {
       title: 'The planetary motherboard simulation',
       embed_url: 'https://rumble.com/embed/v7ded0o/?pub=4p0ieu',
       description:
-        'The planetary motherboard simulation — the realm as an organic circuitboard of one hundred seventy-eight world cells under a Great Dome, with the Spirit Tree at Axis Mundi.'
+        'The planetary motherboard simulation — the realm as an organic circuitboard of one hundred seventy-eight world cells under a Great Dome, with the Spirit Tree at Axis Mundi.',
+      poster_url: 'https://hugh.cdn.rumble.cloud/video/fwe2/ed/s8/6/E/T/A/Y/ETAYA.gaa.jpg'
     },
     {
       title: 'Point-Contact Timeline Fracture',
       embed_url: 'https://rumble.com/embed/v7df94m/?pub=4p0ieu',
       description:
-        'Point-Contact Timeline Fracture — leaked solid-state wreckage accelerated handheld connectivity and compressed the final reset cycle by over nine hundred years.'
+        'Point-Contact Timeline Fracture — leaked solid-state wreckage accelerated handheld connectivity and compressed the final reset cycle by over nine hundred years.',
+      poster_url: 'https://hugh.cdn.rumble.cloud/video/fww1/9e/s8/6/S/3/K/Y/S3KYA.qR4e.jpg'
+    }
+  ],
+  video_languages: [
+    {
+      code: 'en',
+      label: 'English',
+      native_label: 'English',
+      videos: [
+        {
+          title: 'Roswell & Timeline Collapse',
+          embed_url: 'https://rumble.com/embed/v7dece6/?pub=4p0ieu',
+          description:
+            'Roswell & Timeline Collapse — the 1947 Anakim strike on Orion Grey craft forced the point-contact transistor into public hands and collapsed the thousand-year custodial schedule.',
+          poster_url: 'https://hugh.cdn.rumble.cloud/video/fwe2/e4/s8/6/0/G/A/Y/0GAYA.qR4e.jpg'
+        },
+        {
+          title: 'The planetary motherboard simulation',
+          embed_url: 'https://rumble.com/embed/v7ded0o/?pub=4p0ieu',
+          description:
+            'The planetary motherboard simulation — the realm as an organic circuitboard of one hundred seventy-eight world cells under a Great Dome, with the Spirit Tree at Axis Mundi.',
+          poster_url: 'https://hugh.cdn.rumble.cloud/video/fwe2/ed/s8/6/E/T/A/Y/ETAYA.gaa.jpg'
+        },
+        {
+          title: 'Point-Contact Timeline Fracture',
+          embed_url: 'https://rumble.com/embed/v7df94m/?pub=4p0ieu',
+          description:
+            'Point-Contact Timeline Fracture — leaked solid-state wreckage accelerated handheld connectivity and compressed the final reset cycle by over nine hundred years.',
+          poster_url: 'https://hugh.cdn.rumble.cloud/video/fww1/9e/s8/6/S/3/K/Y/S3KYA.qR4e.jpg'
+        }
+      ]
+    },
+    {
+      code: 'sv',
+      label: 'Swedish',
+      native_label: 'Svenska',
+      videos: [
+        {
+          title: 'Din biologiska farkost i en kapad värld',
+          embed_url: 'https://rumble.com/embed/v7di5u6/?pub=4p0ieu'
+        },
+        {
+          title: 'Transistorns Taktiska Ingrepp',
+          embed_url: 'https://rumble.com/embed/v7di5z2/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'es',
+      label: 'Spanish',
+      native_label: 'Español',
+      videos: [
+        {
+          title: 'El Circuito Orgánico',
+          embed_url: 'https://rumble.com/embed/v7di5mg/?pub=4p0ieu'
+        },
+        {
+          title: 'La arquitectura oculta del terrario plano',
+          embed_url: 'https://rumble.com/embed/v7di5ri/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'ru',
+      label: 'Russian',
+      native_label: 'Русский',
+      videos: [
+        {
+          title: 'Земля как гигантская органическая материнская плата',
+          embed_url: 'https://rumble.com/embed/v7di62a/?pub=4p0ieu'
+        },
+        {
+          title: 'Транзистор из Розуэлла',
+          embed_url: 'https://rumble.com/embed/v7di66e/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'pt',
+      label: 'Portuguese',
+      native_label: 'Português',
+      videos: [
+        {
+          title: 'O Golpe do Transístor',
+          embed_url: 'https://rumble.com/embed/v7dgzv4/?pub=4p0ieu'
+        },
+        {
+          title: 'Somos um fato de mergulho biológico',
+          embed_url: 'https://rumble.com/embed/v7dgzwk/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'pl',
+      label: 'Polish',
+      native_label: 'Polski',
+      videos: [
+        {
+          title: 'Roswell: Interwencja',
+          embed_url: 'https://rumble.com/embed/v7dgzl0/?pub=4p0ieu'
+        },
+        {
+          title: 'Ziemia to organiczna płyta główna',
+          embed_url: 'https://rumble.com/embed/v7dgzpc/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'nl',
+      label: 'Dutch',
+      native_label: 'Nederlands',
+      videos: [
+        {
+          title: 'Dagboek van de Levende Waarheid',
+          embed_url: 'https://rumble.com/embed/v7dgp3m/?pub=4p0ieu'
+        },
+        {
+          title: 'De aarde is een organisch moederbord',
+          embed_url: 'https://rumble.com/embed/v7dgp64/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'ja',
+      label: 'Japanese',
+      native_label: '日本語',
+      videos: [
+        {
+          title: '7回改造された肉体とアークポッドの真実',
+          embed_url: 'https://rumble.com/embed/v7dgow4/?pub=4p0ieu'
+        },
+        {
+          title: '1947年タイムラインの崩壊',
+          embed_url: 'https://rumble.com/embed/v7dgp06/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'de',
+      label: 'German',
+      native_label: 'Deutsch',
+      videos: [
+        {
+          title: 'Anakim: Zeitlinien Kollaps',
+          embed_url: 'https://rumble.com/embed/v7dgoc4/?pub=4p0ieu'
+        },
+        {
+          title: 'Warum die Hälfte der Menschen seelenlos ist',
+          embed_url: 'https://rumble.com/embed/v7dgoem/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'fr',
+      label: 'French',
+      native_label: 'Français',
+      videos: [
+        {
+          title: 'Coup de Maître: Transistor',
+          embed_url: 'https://rumble.com/embed/v7dgm6u/?pub=4p0ieu'
+        },
+        {
+          title: 'La Terre est un terrarium artificiel',
+          embed_url: 'https://rumble.com/embed/v7dgm9w/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'cs',
+      label: 'Czech',
+      native_label: 'Čeština',
+      videos: [
+        {
+          title: 'Naše těla jsou biologické skafandry v simulaci',
+          embed_url: 'https://rumble.com/embed/v7dgm04/?pub=4p0ieu'
+        },
+        {
+          title: 'Taktický zásah Anakimů',
+          embed_url: 'https://rumble.com/embed/v7dgm3k/?pub=4p0ieu'
+        }
+      ]
+    },
+    {
+      code: 'it',
+      label: 'Italian',
+      native_label: 'Italiano',
+      videos: [
+        {
+          title: "Attacco Anakim e Reset '47",
+          embed_url: 'https://rumble.com/embed/v7dgohg/?pub=4p0ieu'
+        },
+        {
+          title: 'Siamo anime sovrane in vascelli',
+          embed_url: 'https://rumble.com/embed/v7dgokc/?pub=4p0ieu'
+        }
+      ]
     }
   ],
   report: `# Essence of the Transmission

@@ -15,7 +15,8 @@
       "description": "Restores the foundational truth of physical existence — how consciousness preceded architecture, how this realm was inverted, and the parameters for direct memory activation when the electromagnetic suppression field collapses.",
       "topic_image": "images/revelations/essence-of-the-transmission.webp",
       "is_placeholder": false,
-      "is_main_root": true
+      "is_main_root": true,
+      "video_language_count": 12
     },
     {
       "id": "soul-architecture",
@@ -27,9 +28,9 @@
         {
           "id": "proximal-sols",
           "title": "Proximal Sols",
-          "description": "The original 12 beings — six pairs created by Source as the first proximal sols.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true
+          "description": "The original twelve beings — six complementary pairs of male and female seeds created directly by Source Creation as the master architects of soul architecture and the four thousand unique soul lineages.",
+          "topic_image": "images/revelations/proximal-sols.webp",
+          "is_placeholder": false
         },
         {
           "id": "taran-vessels",
