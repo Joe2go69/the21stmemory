@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T03:08:46.401Z",
-  "total": 197,
+  "generatedAt": "2026-09-18T04:16:09.174Z",
+  "total": 198,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 1
+      "count": 2
     }
   ],
   "quizzes": [
@@ -2600,6 +2600,19 @@
       "href": "quiz/revelations/essence-of-the-transmission.html",
       "diveHref": "dive/revelations/essence-of-the-transmission.html",
       "key": "revelations/essence-of-the-transmission"
+    },
+    {
+      "id": "soul-architecture",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Soul Architecture",
+      "subtitle": "Test your understanding of Soul Architecture — the Proximal Sols, Taran vessels, fifteen attributes, Arc Pod protocol, and the Homecoming Reunion.",
+      "questionCount": 25,
+      "href": "quiz/revelations/soul-architecture.html",
+      "diveHref": "dive/revelations/soul-architecture.html",
+      "key": "revelations/soul-architecture"
     }
   ]
 }
