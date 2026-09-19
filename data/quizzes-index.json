@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-19T05:27:04.093Z",
-  "total": 201,
+  "generatedAt": "2026-09-19T22:14:24.580Z",
+  "total": 202,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 5
+      "count": 6
     }
   ],
   "quizzes": [
@@ -2600,6 +2600,19 @@
       "href": "quiz/revelations/essence-of-the-transmission.html",
       "diveHref": "dive/revelations/essence-of-the-transmission.html",
       "key": "revelations/essence-of-the-transmission"
+    },
+    {
+      "id": "fifteen-attributes",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Fifteen Attributes",
+      "subtitle": "Test your understanding of Fifteen Attributes — soul firmware, weaponized inversion, Aktun and Taran vessels, and how farm management inverts human faculties.",
+      "questionCount": 25,
+      "href": "quiz/revelations/fifteen-attributes.html",
+      "diveHref": "dive/revelations/fifteen-attributes.html",
+      "key": "revelations/fifteen-attributes"
     },
     {
       "id": "intelligence-first",
