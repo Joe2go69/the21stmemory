@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18T22:58:55.291Z",
-  "total": 199,
+  "generatedAt": "2026-09-19T00:33:16.442Z",
+  "total": 200,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 3
+      "count": 4
     }
   ],
   "quizzes": [
@@ -2626,6 +2626,19 @@
       "href": "quiz/revelations/soul-architecture.html",
       "diveHref": "dive/revelations/soul-architecture.html",
       "key": "revelations/soul-architecture"
+    },
+    {
+      "id": "taran-vessels",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Taran Vessels",
+      "subtitle": "Test your understanding of Taran Vessels — the Aktun blueprint, fifteen firmware attributes, downsizing into the new-human vessel, and the pineal restoration.",
+      "questionCount": 25,
+      "href": "quiz/revelations/taran-vessels.html",
+      "diveHref": "dive/revelations/taran-vessels.html",
+      "key": "revelations/taran-vessels"
     }
   ]
 }
