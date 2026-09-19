@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-19T00:33:16.442Z",
-  "total": 200,
+  "generatedAt": "2026-09-19T05:27:04.093Z",
+  "total": 201,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 4
+      "count": 5
     }
   ],
   "quizzes": [
@@ -2600,6 +2600,19 @@
       "href": "quiz/revelations/essence-of-the-transmission.html",
       "diveHref": "dive/revelations/essence-of-the-transmission.html",
       "key": "revelations/essence-of-the-transmission"
+    },
+    {
+      "id": "intelligence-first",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Intelligence First",
+      "subtitle": "Test your understanding of Intelligence First — consciousness before matter, the Proximal Sols, Aktun and the Taran blueprint, and the fifteen soul attributes.",
+      "questionCount": 25,
+      "href": "quiz/revelations/intelligence-first.html",
+      "diveHref": "dive/revelations/intelligence-first.html",
+      "key": "revelations/intelligence-first"
     },
     {
       "id": "proximal-sols",
