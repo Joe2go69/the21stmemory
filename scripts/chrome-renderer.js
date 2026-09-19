@@ -194,11 +194,11 @@ function renderSupportPage(footerData, options = {}) {
   const messages = supportMessageParts(s.message, [
     'The transmissions were free at the source. They are free here. Nothing gated. Nothing owed.',
     '21st Memory is a living archive I tend so this material is easier to find your way through — videos, reports, quizzes — then I point you back to the originals. I’m not the source. I’m a small branch of it.',
-    'If something here helped you, that already counts. Sit with it. Pass a page on. Show up. The Great Remembering runs through all of us.',
-    'A tip is optional. It keeps the lights on and the archive growing: power, internet, and the AI tools I use to add more for you to try. Any amount is felt.',
+    'I do this from a simple life on Vancouver Island with my cat Spooky. Spreading a page matters. So does the inner work: the higher you resonate, the more you remember, and the more the field can move.',
+    'A gift is never required. If you leave one, it goes to the ordinary 3D costs of keeping the lights on and the work growing — power, connection, tools, and food.',
   ]);
   const fundsLabel = s.fundsLabel || 'Ways to support';
-  const giveLabel = s.giveLabel || 'If you want to leave a tip';
+  const giveLabel = s.giveLabel || 'Ways to give';
   const funds = Array.isArray(s.funds) ? s.funds : [];
   const gofundme = s.gofundme;
   const starlink = s.starlink;
@@ -265,13 +265,13 @@ function renderSupportPage(footerData, options = {}) {
     ? `<article class="support-give-card memory-card static-card support-give-card--gofundme${gofundmeMedia ? ' has-media' : ''}${gofundmeQrSrc ? ' support-give-card--qr' : ''}">
             ${gofundmeMedia}
             <span class="support-give-icon support-give-icon--heart" aria-hidden="true">${SITE_ICON_SVGS.heart}</span>
-            <span class="support-give-label">Card or bank</span>
+            <span class="support-give-label">${gofundme.label || 'GoFundMe'}</span>
             <p class="support-give-desc">${gofundme.hint}</p>
             ${gofundmeQuiet}
             ${giveActions(`${gofundmeQr}
               <div class="support-give-actions">
                 <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
-                  <span>${gofundme.buttonText || 'Continue on GoFundMe'}</span>
+                  <span>${gofundme.buttonText || 'Give on GoFundMe'}</span>
                 </a>
               </div>`)}
           </article>`

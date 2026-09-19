@@ -95,15 +95,15 @@
     "message": [
       "The transmissions were free at the source. They are free here. Nothing gated. Nothing owed.",
       "21st Memory is a living archive I tend so this material is easier to find your way through — videos, reports, quizzes — then I point you back to the originals. I’m not the source. I’m a small branch of it.",
-      "If something here helped you, that already counts. Sit with it. Pass a page on. Show up. The Great Remembering runs through all of us.",
-      "A tip is optional. If you leave one, it covers power, internet, and the AI tools I use to keep the archive growing. Any amount is felt."
+      "I do this from a simple life on Vancouver Island with my cat Spooky. Spreading a page matters. So does the inner work: the higher you resonate, the more you remember, and the more the field can move.",
+      "A gift is never required. If you leave one, it goes to the ordinary 3D costs of keeping the lights on and the work growing — power, connection, tools, and food."
     ],
     "resolver": "",
     "fundsLabel": "Ways to support",
     "funds": [
       {
         "title": "Share a topic",
-        "desc": "Send one deep-dive to someone who needs it.",
+        "desc": "Send one page to someone who is ready for it. That is how the field grows.",
         "links": [
           { "text": "Open Codex", "href": "codex.html" }
         ],
@@ -111,7 +111,7 @@
       },
       {
         "title": "Show up",
-        "desc": "Telegram and the Network — we remember better together.",
+        "desc": "Telegram and the Network. Remembering is easier together.",
         "links": [
           { "text": "Telegram", "href": "https://t.me/The_21st_Memory", "external": true },
           { "text": "Network", "href": "network.html" }
@@ -119,15 +119,15 @@
         "image": "images/oracle-banner.webp"
       },
       {
-        "title": "Leave a tip",
-        "desc": "Only if you want to. Keeps the archive open and growing.",
+        "title": "Support the work",
+        "desc": "A gift covers the ordinary costs of keeping this archive online and growing.",
         "links": [
-          { "text": "Leave a tip", "href": "#give" }
+          { "text": "Ways to give", "href": "#give" }
         ],
         "image": "images/about.webp"
       }
     ],
-    "giveLabel": "If you want to leave a tip",
+    "giveLabel": "Ways to give",
     "note": [
       "Thank you for being here.",
       "Joe",
@@ -141,9 +141,10 @@
     "bitcoinImageAlt": "Bitcoin — support the living archive",
     "gofundme": {
       "href": "https://gofund.me/a1603af10",
-      "buttonText": "Continue on GoFundMe",
-      "hint": "The simple path. Opens GoFundMe.",
-      "quiet": "Campaign details live there — this page is thanks.",
+      "label": "GoFundMe",
+      "buttonText": "Give on GoFundMe",
+      "hint": "Card or bank. The main way to help with power, connection, tools, and food.",
+      "quiet": "The full story lives on the campaign page.",
       "image": "images/gofundme.webp",
       "imageAlt": "GoFundMe — support the living archive",
       "qrImage": "assets/images/gofundme-qr.png",
@@ -152,7 +153,7 @@
     "starlink": {
       "href": "https://starlink.com/residential?referral=RC-DF-13754617-58626-7",
       "buttonText": "Claim a free month",
-      "hint": "You get a free month. So does the archive. A gift both ways.",
+      "hint": "Referral — you get a free month. The archive gets one too.",
       "image": "images/starlink.webp",
       "imageAlt": "Starlink referral — a free month for you and for the archive",
       "qrImage": "assets/images/starlink-qr.png",
