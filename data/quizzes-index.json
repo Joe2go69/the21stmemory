@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T03:52:46.567Z",
-  "total": 204,
+  "generatedAt": "2026-09-20T09:53:27.831Z",
+  "total": 205,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 8
+      "count": 9
     }
   ],
   "quizzes": [
@@ -2652,6 +2652,19 @@
       "href": "quiz/revelations/intelligence-first.html",
       "diveHref": "dive/revelations/intelligence-first.html",
       "key": "revelations/intelligence-first"
+    },
+    {
+      "id": "mission-insertion",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Mission Insertion",
+      "subtitle": "Test your understanding of Mission Insertion — the pre-colonization incarnational deployment of the 4,000 ancient souls under the Sovereign Accord.",
+      "questionCount": 25,
+      "href": "quiz/revelations/mission-insertion.html",
+      "diveHref": "dive/revelations/mission-insertion.html",
+      "key": "revelations/mission-insertion"
     },
     {
       "id": "proximal-sols",

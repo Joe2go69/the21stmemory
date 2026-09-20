@@ -72,9 +72,9 @@
             {
               "id": "mission-insertion",
               "title": "Mission Insertion",
-              "description": "The insertion of mission-bearing sols into Taran vessels for the awakening window.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Pre-colonization incarnational deployment of the 4,000 ancient souls onto the physical plane to establish a legally compliant, internal rescue mechanism.",
+              "topic_image": "images/revelations/mission-insertion.webp",
+              "is_placeholder": false
             }
           ]
         },

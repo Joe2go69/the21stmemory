@@ -1432,7 +1432,7 @@
       "sourceId": "revelations",
       "topicId": "mission-insertion",
       "path": "/dive/revelations/mission-insertion.html",
-      "live": false,
+      "live": true,
       "title": "Mission Insertion"
     },
     {
