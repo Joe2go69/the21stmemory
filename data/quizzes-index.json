@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-19T22:14:24.580Z",
-  "total": 202,
+  "generatedAt": "2026-09-20T02:14:21.176Z",
+  "total": 203,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 6
+      "count": 7
     }
   ],
   "quizzes": [
@@ -2587,6 +2587,19 @@
       "href": "quiz/breakdown/water-domes.html",
       "diveHref": "dive/breakdown/water-domes.html",
       "key": "breakdown/water-domes"
+    },
+    {
+      "id": "arc-pod-protocol",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Arc Pod Protocol",
+      "subtitle": "Test your understanding of Arc Pod Protocol — Oversoul containment in atmospheric pods, frequency compression, Clueless Protocol, Arc Trajectories, and homecoming snap-back.",
+      "questionCount": 25,
+      "href": "quiz/revelations/arc-pod-protocol.html",
+      "diveHref": "dive/revelations/arc-pod-protocol.html",
+      "key": "revelations/arc-pod-protocol"
     },
     {
       "id": "essence-of-the-transmission",

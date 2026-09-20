@@ -58,9 +58,9 @@
         {
           "id": "arc-pod-protocol",
           "title": "Arc Pod Protocol",
-          "description": "How sols were inserted into the farm without knowing the mission they signed up for.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "The Arc Pod Protocol houses the complete Oversoul matrix in atmospheric containment pods while a fractional projection enters the 3rd-density avatar without triggering parasitic amnesia traps.",
+          "topic_image": "images/revelations/arc-pod-protocol.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "clueless-protocol",
