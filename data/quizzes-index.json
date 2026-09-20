@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T09:53:27.831Z",
-  "total": 205,
+  "generatedAt": "2026-09-20T22:58:35.877Z",
+  "total": 206,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 9
+      "count": 10
     }
   ],
   "quizzes": [
@@ -2639,6 +2639,19 @@
       "href": "quiz/revelations/fifteen-attributes.html",
       "diveHref": "dive/revelations/fifteen-attributes.html",
       "key": "revelations/fifteen-attributes"
+    },
+    {
+      "id": "homecoming-reunion",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Homecoming Reunion",
+      "subtitle": "Test your understanding of Homecoming Reunion — the EMF drop, the Wizard of Oz moment, plasma portal extraction, and the snap-back into original ET stasis vessels.",
+      "questionCount": 25,
+      "href": "quiz/revelations/homecoming-reunion.html",
+      "diveHref": "dive/revelations/homecoming-reunion.html",
+      "key": "revelations/homecoming-reunion"
     },
     {
       "id": "intelligence-first",
