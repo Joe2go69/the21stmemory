@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T02:14:21.176Z",
-  "total": 203,
+  "generatedAt": "2026-09-20T03:52:46.567Z",
+  "total": 204,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 7
+      "count": 8
     }
   ],
   "quizzes": [
@@ -2600,6 +2600,19 @@
       "href": "quiz/revelations/arc-pod-protocol.html",
       "diveHref": "dive/revelations/arc-pod-protocol.html",
       "key": "revelations/arc-pod-protocol"
+    },
+    {
+      "id": "clueless-protocol",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Clueless Protocol",
+      "subtitle": "Test your understanding of Clueless Protocol — calculated amnesia, Arc Pod steering, and the 4,000 ancient souls in Realm-3.",
+      "questionCount": 25,
+      "href": "quiz/revelations/clueless-protocol.html",
+      "diveHref": "dive/revelations/clueless-protocol.html",
+      "key": "revelations/clueless-protocol"
     },
     {
       "id": "essence-of-the-transmission",
