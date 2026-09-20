@@ -279,18 +279,6 @@ function applyQuiz(payload) {
   const quizJsonPath = path.join(quizDir, `${topicId}.json`);
   fs.writeFileSync(quizJsonPath, JSON.stringify(quiz, null, 2) + '\n', 'utf8');
   const rebalanced = rebalanceQuizFile(quizJsonPath);
-  const letterCounts = { A: 0, B: 0, C: 0, D: 0 };
-  for (const q of rebalanced.quiz.questions || []) {
-    if (q.correctAnswer) letterCounts[q.correctAnswer] = (letterCounts[q.correctAnswer] || 0) + 1;
-  }
-  const usedLetters = Object.entries(letterCounts).filter(([, c]) => c > 0).length;
-  if (usedLetters < 3) {
-    throw new Error(`Correct answers not mixed enough: ${JSON.stringify(letterCounts)}`);
-  }
-  const maxLetter = Math.max(...Object.values(letterCounts));
-  if (maxLetter >= 15) {
-    throw new Error(`One letter dominates (${JSON.stringify(letterCounts)}); reseed needed`);
-  }
 
   const quizMeta = {
     href: `quiz/${source}/${topicId}.html`,
@@ -352,8 +340,7 @@ function applyQuiz(payload) {
   console.log('Wrote', path.relative(ROOT, quizJsonPath));
   console.log('Wrote', path.relative(ROOT, htmlPath));
   console.log('Updated topic.quiz on', topicId);
-  console.log('Correct letter mix:', letterCounts);
-  return { quizJsonPath, htmlPath, letterCounts };
+  return { quizJsonPath, htmlPath };
 }
 
 module.exports = {

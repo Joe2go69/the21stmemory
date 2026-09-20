@@ -7,6 +7,12 @@ Backups/
 # Cursor / Grok tooling (not part of the site)
 mcps/
 terminals/
+.playwright-mcp/
+
+# Local CSS backups and unused hero sources
+assets/css/*.bak
+images/hero-atmosphere-src.png
+images/hero-loop.mp4
 
 # OS files
 .DS_Store

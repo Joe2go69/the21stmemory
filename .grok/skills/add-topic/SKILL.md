@@ -1,7 +1,8 @@
 ---
 name: add-topic
 description: >
-  Add or fill a Mega Breakdown (breakdown) or Alice (alice) topic from a paste.
+  Add or fill a Mega Breakdown (breakdown), Alice (alice), or Revelations
+  (revelations) topic from a paste.
   Use when the user says "Add this topic", "follow add-topic", pastes a Grok Build
   topic template, or runs /add-topic. Do not explore other topics.
 ---
@@ -9,23 +10,24 @@ description: >
 # Add topic
 
 Do not grep the repo. Do not open other topics. Do not copy `scripts/update-*.js`.
-Do not use Playwright, browser tools, or a local HTTP server. Do not click the dive page.
+Do not use Playwright, browser tools, or a local HTTP server.
 `Verify passed` from the installer is the only check — this workflow is not browser-verified.
 
-Allowed reads: this skill, `scripts/install.js`, `scripts/apply-topic.js`, `scripts/lib/topic-pipeline.js`, `data/{source}-topics/{id}.json`, the user paste, images under `images/{source}/`.
+Allowed reads: this skill, `data/{source}-topics/{id}.json`, the user paste, images under `images/{source}/`.
+Do not read `install.js` or pipeline files unless Verify fails.
 
 If `{id}` is missing from `data/{source}-topics.json`, stop. Do not invent a parent.
 
 ## Steps
 
-1. Source is `breakdown` or `alice`. `id` is kebab-case of the title (`Mind Weapons` → `mind-weapons`).
-2. Write **data only** to `scripts/payloads/{id}.topic.js` (see schema). Do not duplicate pipeline helpers.
+1. Source is `breakdown`, `alice`, or `revelations`. `id` is kebab-case of the title (`Mind Weapons` → `mind-weapons`).
+2. Write **data only** to `scripts/payloads/{id}.topic.js` (see schema). Keep the pasted report wording; only normalize required `##` headings and Key Terminology bullets.
 3. `node scripts/install.js topic {source} {id}`
    - If a matching `{id}.quiz.js` payload is also ready in this turn, run `node scripts/install.js all {source} {id}` instead (one rebuild).
-4. If verify fails, fix the payload and rerun install. Do not rebuild the whole site. Do not repo-wide grep.
-5. Stop after `Verify passed`. Do not start a server, open the page, or walk the UI.
+4. If verify fails, fix the payload and rerun install. Do not rebuild the whole site.
+5. Stop after `Verify passed`. Do not start a server, open the page, walk the UI, or launch `/review`.
 
-The installer applies the payload, refreshes this topic's index/stats, rebuilds this dive page plus prev/next, patches only this sitemap URL, and prints a checklist. It does not restamp dates on other pages.
+When asked to review, commit, and push after this install: do not launch the review skill. Confirm Verify passed, stage only this topic’s payload, data, images, dive, and sitemap files (neighbor dive rebuilds are expected), commit, and push if asked. Do not write long memory notes.
 
 ## Payload schema
 
@@ -33,7 +35,7 @@ The installer applies the payload, refreshes this topic's index/stats, rebuilds 
 
 ```js
 module.exports = {
-  source: 'breakdown', // or 'alice'
+  source: 'breakdown', // or 'alice' or 'revelations'
   id: 'topic-id',
   title: 'Exact Title',
   description: 'One-sentence card deck.',

@@ -84,7 +84,7 @@ async function main() {
   const source = process.argv[3];
   const id = process.argv[4];
   if (!kind || !source || !id) {
-    console.error('Usage: node scripts/install.js <topic|quiz|all> <alice|breakdown> <id>');
+    console.error(`Usage: node scripts/install.js <topic|quiz|all> <${knownSources().join('|')}> <id>`);
     process.exit(1);
   }
   await run(kind, source, id);
