@@ -1446,7 +1446,7 @@
       "sourceId": "revelations",
       "topicId": "simulation-field",
       "path": "/dive/revelations/simulation-field.html",
-      "live": false,
+      "live": true,
       "title": "Simulation Field"
     },
     {

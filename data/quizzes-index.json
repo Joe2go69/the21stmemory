@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T22:58:35.877Z",
-  "total": 206,
+  "generatedAt": "2026-09-21T01:51:07.154Z",
+  "total": 207,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 10
+      "count": 11
     }
   ],
   "quizzes": [
@@ -2691,6 +2691,19 @@
       "href": "quiz/revelations/proximal-sols.html",
       "diveHref": "dive/revelations/proximal-sols.html",
       "key": "revelations/proximal-sols"
+    },
+    {
+      "id": "simulation-field",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Simulation Field",
+      "subtitle": "Test your understanding of Simulation Field — scrolling geography, Sky-Net 1 inserts, pineal suppression, and the inner illusion that contains true spiritual consciousness.",
+      "questionCount": 25,
+      "href": "quiz/revelations/simulation-field.html",
+      "diveHref": "dive/revelations/simulation-field.html",
+      "key": "revelations/simulation-field"
     },
     {
       "id": "soul-architecture",
