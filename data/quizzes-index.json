@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T03:23:35.710Z",
-  "total": 208,
+  "generatedAt": "2026-09-21T08:37:23.901Z",
+  "total": 209,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 12
+      "count": 13
     }
   ],
   "quizzes": [
@@ -2613,6 +2613,19 @@
       "href": "quiz/revelations/clueless-protocol.html",
       "diveHref": "dive/revelations/clueless-protocol.html",
       "key": "revelations/clueless-protocol"
+    },
+    {
+      "id": "digital-inserts",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Digital Inserts",
+      "subtitle": "Test your understanding of Digital Inserts — holographic sleeves, Sky-Net 1 projections, and the artificial majority in public space.",
+      "questionCount": 25,
+      "href": "quiz/revelations/digital-inserts.html",
+      "diveHref": "dive/revelations/digital-inserts.html",
+      "key": "revelations/digital-inserts"
     },
     {
       "id": "essence-of-the-transmission",

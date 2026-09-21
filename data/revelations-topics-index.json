@@ -104,9 +104,9 @@
         {
           "id": "digital-inserts",
           "title": "Digital Inserts",
-          "description": "Holographic people, sleeves, and digital inserts used to populate and steer the farm.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "Non-biological holographic constructs projected as crowd stock-fillers, comprising 30% to 40% of the perceived planetary population.",
+          "topic_image": "images/revelations/digital-inserts.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "npc-ratio",
