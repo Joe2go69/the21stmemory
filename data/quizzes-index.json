@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T01:51:07.154Z",
-  "total": 207,
+  "generatedAt": "2026-09-21T03:23:35.710Z",
+  "total": 208,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 11
+      "count": 12
     }
   ],
   "quizzes": [
@@ -2678,6 +2678,19 @@
       "href": "quiz/revelations/mission-insertion.html",
       "diveHref": "dive/revelations/mission-insertion.html",
       "key": "revelations/mission-insertion"
+    },
+    {
+      "id": "overlay-geography",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Overlay Geography",
+      "subtitle": "Test your understanding of Overlay Geography — scrolling scenery tiles, time-phased corridors, mirrored grid nodes, and guarded natural portals.",
+      "questionCount": 25,
+      "href": "quiz/revelations/overlay-geography.html",
+      "diveHref": "dive/revelations/overlay-geography.html",
+      "key": "revelations/overlay-geography"
     },
     {
       "id": "proximal-sols",

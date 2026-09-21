@@ -97,9 +97,9 @@
         {
           "id": "overlay-geography",
           "title": "Overlay Geography",
-          "description": "Continuous-scrolling overlays that blend the inner illusion into seamless spatial geography.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true
+          "description": "The real-time quantum rendering that tiles physical scenery around the observer, inflates distance with time-phased corridors, and mirrors the same planetary grid nodes into the illusion of a vast globe.",
+          "topic_image": "images/revelations/overlay-geography.webp",
+          "is_placeholder": false
         },
         {
           "id": "digital-inserts",
