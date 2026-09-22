@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T00:41:52.703Z",
-  "total": 210,
+  "generatedAt": "2026-09-22T03:20:06.742Z",
+  "total": 211,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 14
+      "count": 15
     }
   ],
   "quizzes": [
@@ -2652,6 +2652,19 @@
       "href": "quiz/revelations/fifteen-attributes.html",
       "diveHref": "dive/revelations/fifteen-attributes.html",
       "key": "revelations/fifteen-attributes"
+    },
+    {
+      "id": "holographic-sleeves",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Holographic Sleeves",
+      "subtitle": "Test your understanding of Holographic Sleeves — senescent holograms, Sky-Net 1 data streams, and simulation furniture in the public crowd.",
+      "questionCount": 25,
+      "href": "quiz/revelations/holographic-sleeves.html",
+      "diveHref": "dive/revelations/holographic-sleeves.html",
+      "key": "revelations/holographic-sleeves"
     },
     {
       "id": "homecoming-reunion",
