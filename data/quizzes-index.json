@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T04:07:55.227Z",
-  "total": 212,
+  "generatedAt": "2026-09-22T08:10:20.592Z",
+  "total": 213,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 16
+      "count": 17
     }
   ],
   "quizzes": [
@@ -2756,6 +2756,19 @@
       "href": "quiz/revelations/proximal-sols.html",
       "diveHref": "dive/revelations/proximal-sols.html",
       "key": "revelations/proximal-sols"
+    },
+    {
+      "id": "quantum-interface",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Quantum Interface",
+      "subtitle": "Test your understanding of Quantum Interface — the pineal crossover, conscious observation, neural oscillation bands, and direct aetheric manifestation.",
+      "questionCount": 25,
+      "href": "quiz/revelations/quantum-interface.html",
+      "diveHref": "dive/revelations/quantum-interface.html",
+      "key": "revelations/quantum-interface"
     },
     {
       "id": "simulation-field",

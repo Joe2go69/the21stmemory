@@ -134,9 +134,9 @@
         {
           "id": "quantum-interface",
           "title": "Quantum Interface",
-          "description": "The pineal-brainwave interface through which consciousness powers the simulation.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "The Quantum Interface is the foundational biological and spiritual mechanism where the macrocosm of classical physical laws meets the microcosm of subatomic quantum probabilities.",
+          "topic_image": "images/revelations/quantum-interface.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "pineal-crossover",
