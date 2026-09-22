@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T03:20:06.742Z",
-  "total": 211,
+  "generatedAt": "2026-09-22T04:07:55.227Z",
+  "total": 212,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 15
+      "count": 16
     }
   ],
   "quizzes": [
@@ -2678,6 +2678,19 @@
       "href": "quiz/revelations/homecoming-reunion.html",
       "diveHref": "dive/revelations/homecoming-reunion.html",
       "key": "revelations/homecoming-reunion"
+    },
+    {
+      "id": "inner-illusion",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Inner Illusion",
+      "subtitle": "Test your understanding of Inner Illusion — the subrutean script, the cookie jar allegory, the space hoax, and the perceptual cage.",
+      "questionCount": 25,
+      "href": "quiz/revelations/inner-illusion.html",
+      "diveHref": "dive/revelations/inner-illusion.html",
+      "key": "revelations/inner-illusion"
     },
     {
       "id": "intelligence-first",
