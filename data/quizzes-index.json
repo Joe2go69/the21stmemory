@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T08:10:20.592Z",
-  "total": 213,
+  "generatedAt": "2026-09-22T22:47:57.128Z",
+  "total": 214,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 17
+      "count": 18
     }
   ],
   "quizzes": [
@@ -2743,6 +2743,19 @@
       "href": "quiz/revelations/overlay-geography.html",
       "diveHref": "dive/revelations/overlay-geography.html",
       "key": "revelations/overlay-geography"
+    },
+    {
+      "id": "pineal-crossover",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Pineal Crossover",
+      "subtitle": "Test your understanding of Pineal Crossover — the bi-directional transceiver, endogenous DMT, aetheric manifestation, fluoridation, and the brainwave bands that lock or open the gland.",
+      "questionCount": 25,
+      "href": "quiz/revelations/pineal-crossover.html",
+      "diveHref": "dive/revelations/pineal-crossover.html",
+      "key": "revelations/pineal-crossover"
     },
     {
       "id": "proximal-sols",
