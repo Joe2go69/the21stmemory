@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T08:37:23.901Z",
-  "total": 209,
+  "generatedAt": "2026-09-22T00:41:52.703Z",
+  "total": 210,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 13
+      "count": 14
     }
   ],
   "quizzes": [
@@ -2691,6 +2691,19 @@
       "href": "quiz/revelations/mission-insertion.html",
       "diveHref": "dive/revelations/mission-insertion.html",
       "key": "revelations/mission-insertion"
+    },
+    {
+      "id": "npc-ratio",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "NPC Ratio",
+      "subtitle": "Test your understanding of NPC Ratio — the 97/3 demographic baseline, soul light parasitism, and narrative enforcement by non-player characters.",
+      "questionCount": 25,
+      "href": "quiz/revelations/npc-ratio.html",
+      "diveHref": "dive/revelations/npc-ratio.html",
+      "key": "revelations/npc-ratio"
     },
     {
       "id": "overlay-geography",

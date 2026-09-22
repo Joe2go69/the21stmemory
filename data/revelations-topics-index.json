@@ -111,9 +111,9 @@
             {
               "id": "npc-ratio",
               "title": "NPC Ratio",
-              "description": "The proportion of true sols versus inserted characters maintaining the simulation.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "The structural demographic baseline where 97% of the population consists of non-player characters and only 3% possess an authentic soul architecture.",
+              "topic_image": "images/revelations/npc-ratio.webp",
+              "is_placeholder": false
             },
             {
               "id": "holographic-sleeves",

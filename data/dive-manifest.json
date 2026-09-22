@@ -1467,7 +1467,7 @@
       "sourceId": "revelations",
       "topicId": "npc-ratio",
       "path": "/dive/revelations/npc-ratio.html",
-      "live": false,
+      "live": true,
       "title": "NPC Ratio"
     },
     {
