@@ -166,9 +166,9 @@
         {
           "id": "field-law",
           "title": "Field Law",
-          "description": "The Sovereign Accord — the law this world is sealed in, prior to manufactured choice.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true
+          "description": "Field Law operates as the energetic and operational seal governing this realm, establishing that spiritual and physical fields cannot be overridden from external origins once internal coherence is sustained.",
+          "topic_image": "images/revelations/field-law.webp",
+          "is_placeholder": false
         },
         {
           "id": "manufactured-wants",

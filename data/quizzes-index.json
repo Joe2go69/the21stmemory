@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T09:41:39.939Z",
-  "total": 216,
+  "generatedAt": "2026-09-23T10:02:59.002Z",
+  "total": 217,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 20
+      "count": 21
     }
   ],
   "quizzes": [
@@ -2639,6 +2639,19 @@
       "href": "quiz/revelations/essence-of-the-transmission.html",
       "diveHref": "dive/revelations/essence-of-the-transmission.html",
       "key": "revelations/essence-of-the-transmission"
+    },
+    {
+      "id": "field-law",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Field Law",
+      "subtitle": "Test your understanding of Field Law — the seal of support without override, manufactured consent, and help that must arise from within.",
+      "questionCount": 25,
+      "href": "quiz/revelations/field-law.html",
+      "diveHref": "dive/revelations/field-law.html",
+      "key": "revelations/field-law"
     },
     {
       "id": "fifteen-attributes",
