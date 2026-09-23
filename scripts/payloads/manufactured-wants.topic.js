@@ -1,0 +1,72 @@
+module.exports = {
+  source: 'revelations',
+  id: 'manufactured-wants',
+  title: 'Manufactured Wants',
+  description: 'Manufactured Wants is the psychological control system that installs artificial desires so high-intelligence souls voluntarily consent to containment inside the Human Farm.',
+  images: {
+    topic: { source: 'Manufactured Wants.webp', target: 'manufactured-wants.webp' },
+    pdfPreview: { source: 'Luminous_Labyrinth.webp', target: 'luminous-labyrinth.webp' },
+    infographic: { source: 'Engineering_Consent_Through_Artificial_Desire.webp', target: 'engineering-consent-through-artificial-desire.webp' }
+  },
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/13R-941Sy8u0GjlUqp8E1yu2wET-v7hbW/view?usp=sharing',
+  rumble_videos: [
+    {
+      title: 'The Choice Architecture Lure',
+      embed_url: 'https://rumble.com/embed/v7dq2iw/?pub=4p0ieu',
+      description: 'The Choice Architecture Lure — irresistible economic, technical, and spiritual enticements engineered to induce voluntary self-surrender into control systems.'
+    },
+    {
+      title: 'Choice Architecture: The Human Farm',
+      embed_url: 'https://rumble.com/embed/v7dq2nk/?pub=4p0ieu',
+      description: 'Choice Architecture: The Human Farm — the pre-curated menu of illusionary options that keeps high-density souls contentedly trapped inside the decorated farm.'
+    },
+    {
+      title: 'Escaping the Global Human Farm',
+      embed_url: 'https://rumble.com/embed/v7dq36o/?pub=4p0ieu',
+      description: 'Escaping the Global Human Farm — severing the tethers of Perceived Knowledge, Religion, and Finance so a soul can reclaim energetic sovereignty.'
+    }
+  ],
+  report: `# Manufactured Wants
+
+## Overview
+Manufactured Wants represents the sophisticated psychological control system engineered by the parasitic Farm Management Team to harvest human energy and secure compliance within a population of high-intelligence souls. Because human beings possess complex cognitive attributes and long-term aspirations, they cannot be successfully held in crude physical captivity without experiencing severe psychological breakdowns and open rebellion. To overcome this operational barrier, the controllers constructed the Human Farm as an opulent, entertainment-filled realm decorated with material wealth, career goals, consumer attractions, and endless lifestyle choices. Under the foundational field law of the Sovereign Accord—which strictly dictates that no domain can be overridden from the outside and that all consequences must arise from internal choice—the parasitic management team is legally bound to obtain voluntary consent and subconscious acceptance for its containment agendas. By systematically generating artificial desires and channeling them through controlled media networks, the controllers ensure that humanity voluntarily selects pre-curated options, effectively choosing its own perpetual enslavement under the impression of personal free will.
+
+## Key Terminology
+- **Manufactured Wants** — The engineered set of artificial desires, goals, and consumer choices installed into human consciousness to guide behavior and secure subconscious consent.
+- **Sovereign Accord** — The universal field law stipulating that no domain shall be overridden from outside itself once coherent internal harmonics exist, requiring controllers to gain voluntary choice and consent from inhabitants.
+- **Choice Architecture** — The pre-curated framework of endless illusionary options designed to give human targets a false sense of free will while restricting outcomes to predefined agendas.
+- **Human Farm** — The artificial 3rd-density physical environment decorated with consumer attractions, entertainment, and material incentives to keep high-density souls contentedly trapped and breeding.
+- **Designed Noise** — The deliberate introduction of incessant micro-level administrative tasks, financial stresses, and bureaucratic requirements engineered to swamp cognitive bandwidth and prevent spiritual questioning.
+- **Fifteen-Minute Cities** — Urban containment zones deceptively marketed under the guise of public safety and convenience to physically restrict human mobility and enforce digital oversight.
+- **Social Credit Score System** — An inverted financial and behavioral tracking mechanism that replaces physical currency to enforce total behavioral compliance through automated penalties and resource restrictions.
+- **The Lure** — Irresistible economic, technical, or spiritual enticements—such as debt forgiveness or quantum financial assets—engineered to induce voluntary self-surrender into control systems.
+
+## Core Revelations
+Environment Decoration for Soul Retention: Elevated human intellect and the innate Firmware of fifteen human attributes make humans inherently curious, problem-solving, and forward-planning beings. To prevent these faculties from discovering the simulation boundaries or seeking escape, the farm managers decorate the reality matrix with lights, lasers, colors, musical tones, places to visit, and career trajectories.
+
+The Inversion of Free Will: True free will is subverted by supplying humans with infinite secondary choices while secretly controlling the primary menu. Individuals believe they are exercising personal freedom when selecting between nineteen coffee varieties, dozens of car options, or competing political parties, unaware that all available paths lead to the same energetic harvest.
+
+Incremental Acclimatization: The controllers utilize multi-generational timelines to introduce future containment mechanisms. By gradually getting populations accustomed to easy-option lifestyles—such as doorstep food delivery and e-commerce—humanity is conditioned to accept physical restrictions like fifteen-minute cities as natural extensions of convenience rather than totalitarian imprisonment.
+
+Cognitive Bandwidth Swamping: The primary operational tool of manufactured wants is the systemic depletion of human attention. By filling daily life with rigid work schedules, endless bill payments, fluctuating traffic speed limits, complex recycling rules, and mandatory customer interactions, human consciousness is kept in a perpetual state of administrative exhaustion, leaving no cognitive bandwidth for spiritual introspection or reality analysis.
+
+## Detailed Mechanics and Key Elements
+### Media Delivery and Desire Guidance
+The management team operates a complete monopoly over all global media, publishing, and broadcasting networks to continuously manipulate the changing variables of human desire. Through advertising, television programming, radio, magazines, and digital platforms, specific cultural trends and material aspirations are broadcast directly into the human subconscious. This continuous stream of Tell-A-Vision programming creates artificial needs—ranging from high-fashion apparel and luxury vehicles to the latest consumer electronics—prompting humans to dedicate their life force, time, and labor toward acquiring these symbols. As humans labor diligently to fulfill these manufactured goals, they generate vast quantities of emotional energy and loosh, while remaining thoroughly convinced that they are pursuing their own authentic dreams.
+
+### Choice Architecture and Options Within Options
+Within the physical simulation, control is maintained by constructing intricate tiers of options within options and choices within choices. Rather than imposing outright restrictions, which would provoke immediate psychological resistance, the controllers flood every market sector with hyper-specific variations. Consumer choices range from nineteen distinct coffee formulations in urban centers—such as the Iced Quad-Shot Venti, Nitro Cold Brew, Flat White, or Cortado—to vast arrays of shampoos, car models, insurance policies, university courses, and financial loan structures. This overwhelming abundance creates a psychological illusion of total individual liberty. However, because all choices are structurally bounded within the parasitic paradigm, every selected path requires financial expenditure, time commitments, and compliance with corporate or legal statutes.
+
+### Designed Noise and Administrative Friction
+To ensure that human consciousness remains anchored in the 3rd-density physical plane, the controllers introduce endless layers of designed noise into daily routines. At the micro-level, this involves artificial environmental frictions: chaotic traffic congestion, arbitrary speed limit shifts (alternating rapidly between 70, 60, and 40 mph on motorways), emission zones, red routes, MOT vehicle inspections, parking fines, and complex tax requirements such as VAT, income tax, and death taxes. Further mental fatigue is induced through enforced administrative rituals, such as sorting household waste into precise recycling bins (paper, plastic, garden debris) or adhering to scripted customer service questions like allergen box-ticking. At the macro-level, engineered news cycles regarding geopolitical wars, economic recessions, and global panics maintain an underlying baseline anxiety. This continuous onslaught forces the human prefrontal cortex to consume its energy on emotional regulation and daily survival, successfully stifling metacognition and spiritual awakening.
+
+### Transition to Fifteen-Minute Cities and Cashless Control
+The long-term objective of manufactured wants is the voluntary transition of human populations into fifteen-minute cities and a fully cashless society. The process begins by artificially inflating the cost of traditional living—such as spiking fuel prices to force the adoption of electric vehicles—while promoting digital delivery services and home-working models. Once populations become thoroughly dependent on digital infrastructure and easy-option conveniences, legal fictions like Maritime Admiralty Law and compulsory land purchases are used to displace communities into dense urban containment blocks. Deceptively advertised as eco-friendly, walkable utopias centered on Public Safety, these cities function as physical prisons. Simultaneously, physical currency is eliminated and replaced by a Social Credit Score System. Under this framework, any deviation from established statutes or minor infractions—such as loitering on a public bench—results in immediate, automated financial deductions or detention in internment facilities.
+
+## Broader Context and Interconnections
+Manufactured wants directly interface with the financial control grid established through Birth Certificate registration and Cestui Que Vie bonds. By generating artificial financial needs—such as mortgages, credit card debts, and consumer loans—humans are driven into lifelong labor to service corporate debts, allowing the controllers to trade their underlying legal bonds on global stock markets. Furthermore, cultural programming and entertainment serve as the broad-spectrum delivery mechanism for MK-Ultra emotional conditioning. Film scores, narrative tropes (such as the staged stages of the Wild West mythos), and rapid shifts between happy, sad, and violent scenes are engineered to manipulate human brain chemistry, evoke specific emotional responses, and establish pre-programmed behavioral triggers. When human dissatisfaction with manufactured wants inevitably surfaces, the control structure deploys sophisticated lure mechanisms—including promises of quantum financial systems, debt cancellation, and technological salvation. These lures trick awakening individuals into voluntarily submitting their personal identification and financial assets to centralized authorities, thereby re-securing consent under the Sovereign Accord without violating field laws.
+
+## Strategic Implications
+Escaping the matrix of manufactured wants requires individuals to consciously sever the three core foundational tethers: Perceived Knowledge, Religion, and Finance. Recognizing that modern educational narratives, institutional spiritualities, and monetary systems are synthetic lures allows a soul to reclaim its energetic sovereignty. Individuals must actively resist acclimatization to digital convenience traps, automated compliance systems, and cashless financial structures. Refusing to participate in voluntary administrative noise—such as behavioral profiling or digital identity tracking—disrupts the consent loop required by the controllers. By identifying artificial stressors, bureaucratic distractions, and media-generated anxieties as intentional bandwidth drains, true souls can disengage emotional investment from manufactured crises. Silencing external noise enables the activation of endogenous spiritual hardware, restoring direct pineal communication with the natural aether and securing the necessary conditions for soul ascension.
+`
+};

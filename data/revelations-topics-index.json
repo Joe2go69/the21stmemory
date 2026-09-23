@@ -173,9 +173,9 @@
         {
           "id": "manufactured-wants",
           "title": "Manufactured Wants",
-          "description": "You can choose what you want, but your wants are chosen for you.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "Manufactured Wants is the psychological control system that installs artificial desires so high-intelligence souls voluntarily consent to containment inside the Human Farm.",
+          "topic_image": "images/revelations/manufactured-wants.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "choice-architecture",

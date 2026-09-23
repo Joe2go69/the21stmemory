@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T10:02:59.002Z",
-  "total": 217,
+  "generatedAt": "2026-09-23T22:56:15.694Z",
+  "total": 218,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 21
+      "count": 22
     }
   ],
   "quizzes": [
@@ -2730,6 +2730,19 @@
       "href": "quiz/revelations/intelligence-first.html",
       "diveHref": "dive/revelations/intelligence-first.html",
       "key": "revelations/intelligence-first"
+    },
+    {
+      "id": "manufactured-wants",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Manufactured Wants",
+      "subtitle": "Test your understanding of Manufactured Wants — artificial desires, choice architecture, and designed noise that secure voluntary consent inside the Human Farm.",
+      "questionCount": 25,
+      "href": "quiz/revelations/manufactured-wants.html",
+      "diveHref": "dive/revelations/manufactured-wants.html",
+      "key": "revelations/manufactured-wants"
     },
     {
       "id": "mission-insertion",
