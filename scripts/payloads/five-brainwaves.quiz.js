@@ -1,0 +1,688 @@
+module.exports = {
+  source: 'revelations',
+  id: 'five-brainwaves',
+  title: 'Five Brainwaves',
+  description: 'Test your understanding of Five Brainwaves — Gamma, Beta, Alpha, Theta, and Delta as the vessel\'s operational bands, plus lunar fencing, 440 Hz dissonance, and the nocturnal memory wipe.',
+  seoDescription: 'Interactive Living Truth Quiz on Five Brainwaves: neural oscillations, frequency compression, the Karaoke Chewbacca Protocol, and 432 Hz versus 440 Hz.',
+  reflection: {
+    title: 'Reflection',
+    body: 'Beta waves foster stress and susceptibility to artificial narratives, while Alpha and Theta can be cultivated through meditation and harmonious sound. Reverting personal media from 440 Hz to 432 Hz reduces artificial Beta stimulation and restores natural neural coherence. Memory loss after sleep is a mission-safety wipe, and restoring pineal function widens the receptive bandwidth of these oscillations.'
+  },
+  questions: [
+    {
+      number: 1,
+      question: 'What primary function do neural oscillations serve within the human vessel?',
+      hint: 'Consider how electrical patterns in the brain dictate the operational states of consciousness.',
+      options: [
+        {
+          text: 'Neural oscillations modulate human cognitive functions, emotional states, and subconscious access.',
+          isCorrect: true,
+          rationale: 'These frequency bands are rhythmic synchronized electrical activity and serve as the baseline operational parameters for consciousness in 3rd density.'
+        },
+        {
+          text: 'Neural oscillations provide a localized electromagnetic shield that prevents soul detachment during waking hours.',
+          isCorrect: false,
+          rationale: 'The disincarnate Neshama detaches when brainwaves slow into Theta and Delta. Waking oscillations are not a shield against that departure.'
+        },
+        {
+          text: 'Neural oscillations serve as a physical cooling mechanism for the dense tissues of the central nervous system.',
+          isCorrect: false,
+          rationale: 'They are rhythmic electrical activity produced by communicating masses of neurons. They are not a thermal system.'
+        },
+        {
+          text: 'Neural oscillations function exclusively as a backup power source for the heart and the autonomic systems.',
+          isCorrect: false,
+          rationale: 'These bands govern operational states of consciousness. They are not a redundant power supply for the heart.'
+        }
+      ]
+    },
+    {
+      number: 2,
+      question: 'Which frequency band operates above 30 Hz and is required for rapid information synthesis and peak concentration?',
+      hint: 'Identify the band associated with the highest levels of cognitive processing.',
+      options: [
+        {
+          text: 'The Alpha band operates above 30 Hz and drives rapid information synthesis and states of peak concentration.',
+          isCorrect: false,
+          rationale: 'Alpha corresponds to relaxed alertness and calm reflection. It is the bridge, not the highest band.'
+        },
+        {
+          text: 'The Beta band operates above 30 Hz and drives rapid information synthesis and states of peak concentration.',
+          isCorrect: false,
+          rationale: 'Beta operates between 12 Hz and 30 Hz and is dominant during active thinking, focus, and alertness.'
+        },
+        {
+          text: 'The Gamma band drives rapid information synthesis, complex problem-solving, and states of peak concentration.',
+          isCorrect: true,
+          rationale: 'Gamma is the neural oscillation band operating above 30 Hz, associated with high-level cognitive processing, information synthesis, problem-solving, and peak concentration.'
+        },
+        {
+          text: 'The Theta band operates above 30 Hz and drives rapid information synthesis and states of peak concentration.',
+          isCorrect: false,
+          rationale: 'Theta operates between 4 Hz and 8 Hz and is present during deep relaxation, daydreaming, and REM sleep.'
+        }
+      ]
+    },
+    {
+      number: 3,
+      question: 'What occurs when Beta oscillations are elevated into their upper thresholds?',
+      hint: 'Think about the physiological consequences of constant hyper-alertness.',
+      options: [
+        {
+          text: 'Beta oscillations reflect heightened stress, nervous system agitation, and systemic anxiety.',
+          isCorrect: true,
+          rationale: 'When elevated into upper thresholds, Beta oscillations reflect heightened stress, nervous system agitation, and systemic anxiety.'
+        },
+        {
+          text: 'Upper-threshold Beta carries the vessel into deep meditative stillness and enhanced intuitive creativity.',
+          isCorrect: false,
+          rationale: 'Meditation and intuitive creativity belong to Alpha and Theta. Upper Beta reflects stress and systemic anxiety.'
+        },
+        {
+          text: 'Upper-threshold Beta initiates the Karaoke Chewbacca Protocol and clears disincarnate memory on its own.',
+          isCorrect: false,
+          rationale: 'Memory-wiping protocols trigger upon return to higher-frequency waking bands after sleep. High Beta alone is not that protocol.'
+        },
+        {
+          text: 'Upper-threshold Beta tunes the pineal gland to natural 432 Hz harmonic standards.',
+          isCorrect: false,
+          rationale: 'Dissonant 440 Hz tuning drives brainwaves into low-level Beta agitation. It does not restore 432 Hz harmony.'
+        }
+      ]
+    },
+    {
+      number: 4,
+      question: 'How is the Alpha band (8–12 Hz) best described in terms of its operational role?',
+      hint: 'Look for the band that facilitates calmness and meditative reflection.',
+      options: [
+        {
+          text: 'Alpha is the frequency band responsible for rapid problem-solving and states of peak concentration.',
+          isCorrect: false,
+          rationale: 'Rapid information synthesis and peak concentration belong to Gamma, the highest frequency band.'
+        },
+        {
+          text: 'Alpha is the primary state for deep dreamless cellular restoration and somatic repair.',
+          isCorrect: false,
+          rationale: 'Cellular restoration, physical healing, and deep somatic repair are mandatory work of Delta waves.'
+        },
+        {
+          text: 'Alpha functions as the bridge between conscious alertness and subconscious depth.',
+          isCorrect: true,
+          rationale: 'Alpha waves correspond to relaxed alertness, calm reflection, mental idle states, and deep meditation.'
+        },
+        {
+          text: 'Alpha is the state where the Neshama entirely detaches from the physical vessel.',
+          isCorrect: false,
+          rationale: 'The disincarnate Neshama temporarily detaches when brainwaves slow into Theta and Delta, not in the Alpha bridge.'
+        }
+      ]
+    },
+    {
+      number: 5,
+      question: 'What is the primary significance of the Theta band (4–8 Hz) during the sleep cycle?',
+      hint: 'Consider the state associated with dreaming and creative intuition.',
+      options: [
+        {
+          text: 'Theta maintains a rigid barrier that prevents all subconscious access during sleep.',
+          isCorrect: false,
+          rationale: 'As brainwaves slow into Theta, rigid boundaries dissolve into fluid interplay. Theta does not lock the subconscious shut.'
+        },
+        {
+          text: 'Theta governs outward task orientation and sensory alertness during the sleep cycle.',
+          isCorrect: false,
+          rationale: 'Outward task orientation and sensory alertness are the dominant work of Beta during waking focus.'
+        },
+        {
+          text: 'Theta represents the highest frequency of neural activity inside the vessel.',
+          isCorrect: false,
+          rationale: 'Gamma is the highest frequency band. Theta operates between 4 Hz and 8 Hz.'
+        },
+        {
+          text: 'Theta is intrinsically tied to intuitive creativity, memory consolidation, and subconscious processing.',
+          isCorrect: true,
+          rationale: 'Theta is dominant during deep relaxation, vivid daydreaming, and REM sleep.'
+        }
+      ]
+    },
+    {
+      number: 6,
+      question: 'Why are Delta waves below 4 Hz considered mandatory for the health of the 3rd-density vessel?',
+      hint: 'Focus on the biological necessity of the slowest brainwave state.',
+      options: [
+        {
+          text: 'Delta waves supply the high-frequency energy required for complex social interactions.',
+          isCorrect: false,
+          rationale: 'Delta is the slowest neural oscillation wave. Social alertness belongs to faster waking bands.'
+        },
+        {
+          text: 'Delta waves let the vessel maintain constant alertness against external threats.',
+          isCorrect: false,
+          rationale: 'Sensory alertness is a Beta function. Delta is active during deep, dreamless sleep.'
+        },
+        {
+          text: 'Delta waves are mandatory for cellular restoration, physical healing, and deep somatic repair.',
+          isCorrect: true,
+          rationale: 'Delta is the slowest neural oscillation wave, active during deep, dreamless sleep required for physical healing and bodily restoration.'
+        },
+        {
+          text: 'Delta waves store waking memories into long-term biological hardware during dreamless sleep.',
+          isCorrect: false,
+          rationale: 'Memory consolidation and subconscious processing are tied to Theta. Delta is for cellular restoration and somatic repair.'
+        }
+      ]
+    },
+    {
+      number: 7,
+      question: 'What is the purpose of Frequency Compression in 3rd-density human biology?',
+      hint: 'Think about how spiritual luminosity is damped so the vessel can blend into a dense population.',
+      options: [
+        {
+          text: 'Frequency compression packages spiritual luminosity and wave states to match dense 3rd-density vessel parameters.',
+          isCorrect: true,
+          rationale: 'A fraction of the oversoul powers the incarnate vessel, requiring frequency compression so the emitted light and neurological frequency profile blend into the ambient population without attracting hostile detection.'
+        },
+        {
+          text: 'Frequency compression lets the vessel function without any Delta wave restoration cycle.',
+          isCorrect: false,
+          rationale: 'Delta waves remain mandatory for cellular restoration and deep somatic repair. Compression does not replace that cycle.'
+        },
+        {
+          text: 'Frequency compression speeds neural transmissions until they match off-world processing rates.',
+          isCorrect: false,
+          rationale: 'Frequency compression is damping and packaging of spiritual luminosity. It is not an acceleration of neural speed.'
+        },
+        {
+          text: 'Frequency compression amplifies the pineal signal until it reaches soul family clusters.',
+          isCorrect: false,
+          rationale: 'Compression damps and packages luminosity to match dense vessel parameters. It is not an amplification of the pineal signal.'
+        }
+      ]
+    },
+    {
+      number: 8,
+      question: 'The Karaoke Chewbacca Protocol is a safety mechanism designed to accomplish which of the following?',
+      hint: 'Consider the necessity of forgetting surreal or off-world experiences upon waking.',
+      options: [
+        {
+          text: 'The Karaoke Chewbacca Protocol is the deliberate wiping of disincarnate memory and multidimensional nocturnal interactions.',
+          isCorrect: true,
+          rationale: 'That wipe protects the incarnate operative and preserves overall mission safety, including erasure of surreal events such as watching Chewbacca on karaoke.'
+        },
+        {
+          text: 'The Karaoke Chewbacca Protocol converts every subconscious dream into a linear 3rd-density file the avatar can keep.',
+          isCorrect: false,
+          rationale: 'The protocol wipes disincarnate memory because the waking avatar cannot safely hold hyper-dimensional experiences.'
+        },
+        {
+          text: 'The Karaoke Chewbacca Protocol enhances recall of nocturnal meetings with the oversoul for clearer guidance.',
+          isCorrect: false,
+          rationale: 'It is a memory-wiping protocol triggered upon return to higher-frequency waking bands. It does not enhance that recall.'
+        },
+        {
+          text: 'The Karaoke Chewbacca Protocol synchronizes the internal clock of the vessel with lunar frequency transmissions.',
+          isCorrect: false,
+          rationale: 'The protocol wipes disincarnate memory for mission safety. It does not set a biological clock to the lunar broadcast.'
+        }
+      ]
+    },
+    {
+      number: 9,
+      question: 'What happens to the Neshama (soul) when brainwaves settle into the lower Delta and Theta thresholds during sleep?',
+      hint: 'Recall the nocturnal activities of the soul when the body is in deep rest.',
+      options: [
+        {
+          text: 'The Neshama initiates a complete reboot of the biological hardware of the vessel and then stays inside it.',
+          isCorrect: false,
+          rationale: 'The body performs cellular restoration in Delta. The soul temporarily detaches rather than rebooting the hardware from within.'
+        },
+        {
+          text: 'The Neshama enters a dormancy in which no learning and no off-world interaction can occur.',
+          isCorrect: false,
+          rationale: 'While disincarnate, the soul conducts off-world operations, communes with soul family members, and receives guidance from the oversoul.'
+        },
+        {
+          text: 'The Neshama becomes permanently tethered to the pineal gland for the entire night.',
+          isCorrect: false,
+          rationale: 'Lower Theta and Delta alter the pineal interface so the disincarnate Neshama can temporarily detach from the physical vessel.'
+        },
+        {
+          text: 'The disincarnate Neshama temporarily detaches from the physical vessel.',
+          isCorrect: true,
+          rationale: 'While disincarnate, the soul conducts essential off-world operations, communes with soul family members, or interfaces with higher-density architectures.'
+        }
+      ]
+    },
+    {
+      number: 10,
+      question: 'How does the shift from natural 432 Hz resonance to artificial 440 Hz dissonance affect human consciousness?',
+      hint: 'Consider why a dissonant tuning standard would be preferred by external control systems.',
+      options: [
+        {
+          text: 'The shift to 440 Hz speeds the transition into restorative Delta and Theta states.',
+          isCorrect: false,
+          rationale: 'Dissonant 440 Hz tuning drives brainwaves out of restorative Alpha and Theta states into perpetual Beta agitation.'
+        },
+        {
+          text: 'The shift keeps humanity oscillating between hyper-alert anxiety and suppressed recall.',
+          isCorrect: true,
+          rationale: 'Artificial dissonance such as the 440 Hz Devil\'s Interval disrupts natural brainwave coherence and drives low-level Beta agitation.'
+        },
+        {
+          text: 'The shift to 440 Hz enhances the pineal gland as the primary quantum transducer of the vessel.',
+          isCorrect: false,
+          rationale: 'Acoustic dissonance targets these bands to suppress spiritual awareness. It does not enhance the pineal transducer.'
+        },
+        {
+          text: 'The shift to 440 Hz removes the need for frequency compression inside the soul architecture.',
+          isCorrect: false,
+          rationale: 'Frequency compression still packages spiritual luminosity to match dense 3rd-density vessel parameters regardless of acoustic tuning.'
+        }
+      ]
+    },
+    {
+      number: 11,
+      question: 'What role does the pineal gland play in relation to neural oscillations?',
+      hint: 'Focus on the gland as the interface between the vessel and the aether.',
+      options: [
+        {
+          text: 'The pineal gland is the primary generator of the 440 Hz dissonance standard inside the skull.',
+          isCorrect: false,
+          rationale: '440 Hz is an external acoustic retuning. The pineal gland is the primary quantum transducer of the vessel, not the source of that dissonance.'
+        },
+        {
+          text: 'The pineal gland is the primary quantum transducer of the vessel.',
+          isCorrect: true,
+          rationale: 'When neural oscillations settle into lower Delta and Theta thresholds, the pineal gland\'s capacity to interact with the aether is altered, and energetic inputs are translated into linear physical perception or multidimensional awareness.'
+        },
+        {
+          text: 'The pineal gland stores the memories that the Karaoke Chewbacca Protocol is said to wipe.',
+          isCorrect: false,
+          rationale: 'The protocol is the deliberate wiping of disincarnate memory. It does not archive those encounters inside the pineal gland.'
+        },
+        {
+          text: 'The pineal gland filters out Delta waves so the vessel cannot oversleep.',
+          isCorrect: false,
+          rationale: 'Delta waves are mandatory for physical healing. The pineal interface changes with Delta and Theta. It does not filter those waves out.'
+        }
+      ]
+    },
+    {
+      number: 12,
+      question: 'What is the strategic purpose of Perimetral Fencing generated by lunar frequencies?',
+      hint: 'Think about how external forces might limit soul travel during the night.',
+      options: [
+        {
+          text: 'Perimetral fencing keeps dreamtime confined to localized or simulated environments.',
+          isCorrect: true,
+          rationale: 'Lunar frequency emissions establish an energetic perimeter that limits the spatial distance and height a disincarnate soul can travel during low-frequency sleep states.'
+        },
+        {
+          text: 'Perimetral fencing shields the planet from solar radiation and high-frequency cosmic wind.',
+          isCorrect: false,
+          rationale: 'The fencing is an energetic perimeter around disincarnate travel. It is not a physical radiation shield for the planet.'
+        },
+        {
+          text: 'Perimetral fencing amplifies the natural 432 Hz resonance of the planetary core.',
+          isCorrect: false,
+          rationale: 'Lunar transmissions are distorted overlays that disrupt natural balance. They do not amplify 432 Hz resonance.'
+        },
+        {
+          text: 'Perimetral fencing locks every human brainwave into one shared Gamma state.',
+          isCorrect: false,
+          rationale: 'The perimeter limits how far a disincarnate soul can travel. It does not gather the population into Gamma.'
+        }
+      ]
+    },
+    {
+      number: 13,
+      question: 'Which of the following is a strategic advantage of understanding the mechanics of the five brainwaves?',
+      hint: 'Consider how state regulation can lead to greater mental and spiritual autonomy.',
+      options: [
+        {
+          text: 'Understanding the bands grants the power to disable the Karaoke Chewbacca Protocol without the oversoul.',
+          isCorrect: false,
+          rationale: 'The protocol protects the incarnate operative and preserves mission safety. Disabling it is not the strategic advantage named.'
+        },
+        {
+          text: 'Individuals can deliberately cultivate Alpha and Theta states through meditation, reflection, and harmonious acoustic environments.',
+          isCorrect: true,
+          rationale: 'Beta waves foster stress and susceptibility to artificial narratives, so waking operatives cultivate Alpha and Theta instead.'
+        },
+        {
+          text: 'Understanding the bands lets an operative bypass physical restoration in the Delta state.',
+          isCorrect: false,
+          rationale: 'Delta waves are mandatory for cellular restoration, physical healing, and deep somatic repair. They are not optional.'
+        },
+        {
+          text: 'Understanding the bands makes it possible to remain in Gamma for twenty-four hours without another band.',
+          isCorrect: false,
+          rationale: 'Each band fulfills a specialized function, including Delta restoration. Constant Gamma is not the operational advantage.'
+        }
+      ]
+    },
+    {
+      number: 14,
+      question: 'Why is it recommended to eliminate fluoride and other external dampeners to optimize brainwave function?',
+      hint: 'Think about the relationship between pineal clarity and receptive bandwidth.',
+      options: [
+        {
+          text: 'Eliminating fluoride permanently shifts the vessel into a Beta-dominant frequency for sharper focus.',
+          isCorrect: false,
+          rationale: 'The aim is to leave perpetual Beta agitation. Fluoride removal restores pineal function rather than locking the vessel in Beta.'
+        },
+        {
+          text: 'Eliminating fluoride increases the physical weight of the brain so it absorbs frequency more easily.',
+          isCorrect: false,
+          rationale: 'Optimization restores pineal function and the receptive bandwidth of neural oscillations. It does not add brain mass.'
+        },
+        {
+          text: 'Eliminating fluoridated water restores pineal function and enhances the clarity and receptive bandwidth of neural oscillations.',
+          isCorrect: true,
+          rationale: 'That hardware optimization facilitates direct connection with soul family and higher-density guidance.'
+        },
+        {
+          text: 'Eliminating fluoride ensures that every 440 Hz signal is amplified inside the circuitry of the vessel.',
+          isCorrect: false,
+          rationale: 'Mitigating external dampeners reduces artificial interference. It does not amplify 440 Hz dissonance.'
+        }
+      ]
+    },
+    {
+      number: 15,
+      question: 'What happens to the boundaries between the waking personality and the subconscious during deep sleep?',
+      hint: 'Reflect on how slowing brainwaves affects the compartmentalization of the mind.',
+      options: [
+        {
+          text: 'The boundaries grow more rigid during deep sleep so mission-critical data cannot leak.',
+          isCorrect: false,
+          rationale: 'As brainwaves slow into Theta and Delta, the rigid boundaries dissolve into fluid interplay.'
+        },
+        {
+          text: 'The oversoul reinforces the boundaries so the vessel stays anchored to the bed all night.',
+          isCorrect: false,
+          rationale: 'The decrease in wave frequency allows the disincarnate Neshama to temporarily detach. Anchoring is not the aim.'
+        },
+        {
+          text: 'The rigid boundaries separating conscious, subconscious, and long-term memory pools dissolve into fluid interplay.',
+          isCorrect: true,
+          rationale: 'That decrease in wave frequency alters the pineal interface and lets the soul interface with higher-density architectures.'
+        },
+        {
+          text: 'The boundaries stay unchanged because brainwaves affect only physical motor skills.',
+          isCorrect: false,
+          rationale: 'These bands govern operational states of consciousness, emotional states, and subconscious access. They are not limited to motor skills.'
+        }
+      ]
+    },
+    {
+      number: 16,
+      question: 'Where does the disincarnate soul receive guidance while traveling during sleep states?',
+      hint: 'Identify where the oversoul gives guidance outside the waking avatar.',
+      options: [
+        {
+          text: 'The disincarnate soul receives guidance from local social media streams that steer collective consciousness.',
+          isCorrect: false,
+          rationale: 'Guidance comes from the oversoul in the ark pod and from soul family clusters. Social media is not that source.'
+        },
+        {
+          text: 'The disincarnate soul receives guidance from the oversoul in the ark pod.',
+          isCorrect: true,
+          rationale: 'When deep sleep lowers compartmentalized boundaries, the soul exits the physical vessel to receive guidance from the oversoul in the ark pod or to meet soul family clusters.'
+        },
+        {
+          text: 'The disincarnate soul receives guidance from the biological memory banks of the 3rd-density avatar.',
+          isCorrect: false,
+          rationale: 'The soul communes with soul family and the oversoul outside the avatar. The avatar memory banks are not that guidance.'
+        },
+        {
+          text: 'The disincarnate soul receives guidance from artificial lunar broadcasts designed to aid spiritual awakening.',
+          isCorrect: false,
+          rationale: 'Modified lunar frequencies act as a broad-spectrum dampener to prevent widespread spiritual awakening. They are not the guidance source.'
+        }
+      ]
+    },
+    {
+      number: 17,
+      question: 'Which frequency band is most associated with daydreaming and the processing of subconscious memories?',
+      hint: 'Think of the band active between relaxed alertness and deep dreamless sleep.',
+      options: [
+        {
+          text: 'Theta is present during vivid daydreaming and is tied to memory consolidation and subconscious processing.',
+          isCorrect: true,
+          rationale: 'The Theta band operates between 4 Hz and 8 Hz and is present during deep relaxation, daydreaming, REM sleep, creativity, and memory processing.'
+        },
+        {
+          text: 'Gamma is present during vivid daydreaming and is tied to memory consolidation and subconscious processing.',
+          isCorrect: false,
+          rationale: 'Gamma drives high-level cognitive processing, rapid information synthesis, and states of peak concentration.'
+        },
+        {
+          text: 'Delta is present during vivid daydreaming and is tied to memory consolidation and subconscious processing.',
+          isCorrect: false,
+          rationale: 'Delta is active during deep, dreamless sleep and is mandatory for cellular restoration and deep somatic repair.'
+        },
+        {
+          text: 'Beta is present during vivid daydreaming and is tied to memory consolidation and subconscious processing.',
+          isCorrect: false,
+          rationale: 'Beta is dominant during active thinking, waking focus, outward task orientation, and sensory alertness.'
+        }
+      ]
+    },
+    {
+      number: 18,
+      question: 'What constitutes the Five Brainwaves in the context of 3rd-density human biology?',
+      hint: 'Identify the biological and conscious role of these frequency bands.',
+      options: [
+        {
+          text: 'Five Brainwaves are external radio waves that medical teams use to talk to the brain from outside the vessel.',
+          isCorrect: false,
+          rationale: 'They are rhythmic electrical activity produced by communicating masses of neurons in the central nervous system.'
+        },
+        {
+          text: 'Five Brainwaves are the only five frequencies that exist in the entire energetic universe.',
+          isCorrect: false,
+          rationale: 'Their standard operational range is merely a truncated subset of a vastly wider energetic frequency spectrum.'
+        },
+        {
+          text: 'Five Brainwaves are the primary spectrum of neural oscillations that govern the operational states of consciousness.',
+          isCorrect: true,
+          rationale: 'In 3rd density, human perception and brainwave monitoring recognize only five primary bands: Gamma, Beta, Alpha, Theta, and Delta.'
+        },
+        {
+          text: 'Five Brainwaves are a specialized group of neurons that activate only during emergency situations.',
+          isCorrect: false,
+          rationale: 'They are frequency bands present across cognitive synthesis, emotional states, sleep, and physical restoration. They are not an emergency-only cell group.'
+        }
+      ]
+    },
+    {
+      number: 19,
+      question: 'What is the frequency range typically associated with the Alpha band?',
+      hint: 'Recall the frequency range that serves as the meditative bridge.',
+      options: [
+        {
+          text: 'The Alpha band operates above 30 Hz, the range of high-level cognitive processing and peak concentration.',
+          isCorrect: false,
+          rationale: 'Above 30 Hz is the Gamma band. Alpha operates between 8 Hz and 12 Hz.'
+        },
+        {
+          text: 'The Alpha band operates below 4 Hz, the range of deep dreamless sleep and somatic repair.',
+          isCorrect: false,
+          rationale: 'Below 4 Hz is the Delta band. Alpha is the bridge of relaxed alertness, not dreamless sleep.'
+        },
+        {
+          text: 'The Alpha band operates between 8 Hz and 12 Hz and corresponds to relaxed alertness, calm reflection, mental idle states.',
+          isCorrect: true,
+          rationale: 'Alpha waves correspond to relaxed alertness, calm reflection, mental idle states, and deep meditation.'
+        },
+        {
+          text: 'The Alpha band operates between 12 Hz and 30 Hz, the range of active thinking and sensory alertness.',
+          isCorrect: false,
+          rationale: 'Between 12 Hz and 30 Hz is the Beta band. Alpha sits below that range.'
+        }
+      ]
+    },
+    {
+      number: 20,
+      question: 'Why are artificial lunar frequencies described as targeting neural oscillations?',
+      hint: 'Consider the goals of an external parasitic control system.',
+      options: [
+        {
+          text: 'Artificial lunar frequencies harmonize human thought with the natural resonance of the galaxy.',
+          isCorrect: false,
+          rationale: 'These broadcasts disrupt natural brainwave coherence. They move humanity away from natural resonance such as 432 Hz.'
+        },
+        {
+          text: 'Artificial lunar frequencies increase the capacity of the vessel to process hyper-dimensional experiences.',
+          isCorrect: false,
+          rationale: 'The waking avatar lacks the capacity to safely hold those experiences, and lunar fencing further confines dreamtime travel.'
+        },
+        {
+          text: 'Artificial lunar frequencies help the soul find its way back into the vessel upon waking.',
+          isCorrect: false,
+          rationale: 'Modified lunar frequencies act as a broad-spectrum dampener across all five bands to prevent widespread spiritual awakening.'
+        },
+        {
+          text: 'Artificial lunar frequencies target these specific bands to suppress spiritual awareness and enforce cognitive containment.',
+          isCorrect: true,
+          rationale: 'The modification of lunar frequencies following civilisational revolts directly targets neural oscillations to enforce cognitive containment and restrict soul travel.'
+        }
+      ]
+    },
+    {
+      number: 21,
+      question: 'How does reverting media and sound to 432 Hz serve the waking operative?',
+      hint: 'Think about the benefits of natural harmonics versus artificial dissonance.',
+      options: [
+        {
+          text: 'Reverting to 432 Hz automatically bypasses the Karaoke Chewbacca memory wipe.',
+          isCorrect: false,
+          rationale: 'The wipe is a mission-safety protocol on return from sleep. Harmonic retuning does not switch that protocol off.'
+        },
+        {
+          text: 'Reverting to 432 Hz lets the vessel exist without any soul architecture.',
+          isCorrect: false,
+          rationale: 'Brainwaves are bound to the vessel\'s soul architecture and arc pod protocol. Harmonic sound does not remove that architecture.'
+        },
+        {
+          text: 'Reverting to 432 Hz eliminates the need for sleep and for Delta wave restoration.',
+          isCorrect: false,
+          rationale: 'Delta remains mandatory for cellular restoration and deep somatic repair no matter the acoustic environment.'
+        },
+        {
+          text: 'Reverting personal media from 440 Hz back to 432 Hz harmonic frequencies reduces artificial Beta stimulation.',
+          isCorrect: true,
+          rationale: 'That reversion restores natural neural coherence and emotional stability by leaving perpetual low-level Beta agitation.'
+        }
+      ]
+    },
+    {
+      number: 22,
+      question: 'Which frequency band is most active during deep, dreamless sleep?',
+      hint: 'Identify the slowest band on the EEG spectrum.',
+      options: [
+        {
+          text: 'Alpha is the slowest neural oscillation wave and is active during deep, dreamless sleep.',
+          isCorrect: false,
+          rationale: 'Alpha is relaxed alertness, calm reflection, and deep meditation. It is not dreamless sleep.'
+        },
+        {
+          text: 'Beta is the slowest neural oscillation wave and is active during deep, dreamless sleep.',
+          isCorrect: false,
+          rationale: 'Beta is the dominant state of active thinking and sensory alertness. It is not the dreamless-sleep band.'
+        },
+        {
+          text: 'Theta is the slowest neural oscillation wave and is active during deep, dreamless sleep.',
+          isCorrect: false,
+          rationale: 'Theta is dominant during REM sleep, vivid daydreaming, and subconscious processing. Dreamless repair belongs to Delta.'
+        },
+        {
+          text: 'Delta is the slowest neural oscillation wave and is active during deep, dreamless sleep.',
+          isCorrect: true,
+          rationale: 'Delta waves are mandatory for cellular restoration, physical healing, and deep somatic repair.'
+        }
+      ]
+    },
+    {
+      number: 23,
+      question: 'What does the existence of unacknowledged frequencies used by controlling entities suggest about the standard five bands?',
+      hint: 'Consider the relationship between what human monitoring recognizes and what remains outside that set.',
+      options: [
+        {
+          text: 'Unacknowledged frequencies show that the brain functions only when an external broadcast is present.',
+          isCorrect: false,
+          rationale: 'Neural oscillations are produced by communicating masses of neurons. External broadcasts modulate them. They do not create the brain\'s only activity.'
+        },
+        {
+          text: 'Unacknowledged frequencies show that medical EEG devices are built to invent new brainwaves.',
+          isCorrect: false,
+          rationale: 'An electroencephalogram detects and measures electrical frequency bands within the brain. It does not create those bands.'
+        },
+        {
+          text: 'The standard operational range is merely a truncated subset of a vastly wider energetic frequency spectrum.',
+          isCorrect: true,
+          rationale: 'Controlling entities utilize the five primary bands alongside unacknowledged frequencies to steer public sentiment, manage emotional output, and alter collective consciousness.'
+        },
+        {
+          text: 'Unacknowledged frequencies show that the standard five bands are dangerous and should be avoided entirely.',
+          isCorrect: false,
+          rationale: 'Gamma, Beta, Alpha, Theta, and Delta are the operational bands of the vessel, including restoration. They are a truncated set, not a hazard to abandon.'
+        }
+      ]
+    },
+    {
+      number: 24,
+      question: 'Why is memory-wiping necessary for an incarnate operative returning from nocturnal soul travel?',
+      hint: 'Think about the capacity of 3rd-density hardware to hold hyper-dimensional events.',
+      options: [
+        {
+          text: 'Memory-wiping is necessary so the operative remains in perpetual fear and systemic anxiety.',
+          isCorrect: false,
+          rationale: 'Perpetual anxiety is the effect of 440 Hz Beta agitation. The wipe is a mission-safety protocol, not a fear program.'
+        },
+        {
+          text: 'Memory-wiping is necessary so the brain can generate only Gamma waves after waking.',
+          isCorrect: false,
+          rationale: 'The wipe preserves operational stability across the bands. It is not a method for locking the vessel in Gamma.'
+        },
+        {
+          text: '3rd-density neurological hardware cannot safely reconcile these off-world experiences with daily survival parameters.',
+          isCorrect: true,
+          rationale: 'Memory recall of these encounters is systematically wiped before brainwaves accelerate back into Alpha and Beta bands upon waking, which prevents cognitive dissonance and shields incarnate operatives from revealing covert mission details.'
+        },
+        {
+          text: 'Memory-wiping is necessary so the soul will refuse to return to its physical vessel.',
+          isCorrect: false,
+          rationale: 'The soul returns and the wipe protects the waking avatar. The protocol does not strand the soul outside the vessel.'
+        }
+      ]
+    },
+    {
+      number: 25,
+      question: 'What is the primary method used by controlling forces to manage collective emotional output?',
+      hint: 'Look for the method involving targeted frequency broadcasts.',
+      options: [
+        {
+          text: 'Controlling forces use Delta waves to keep the entire population awake for several days at a time.',
+          isCorrect: false,
+          rationale: 'Delta is active during deep, dreamless sleep. It is not a tool for holding a population awake.'
+        },
+        {
+          text: 'Controlling forces manage emotion by physical restraint and by removing every form of digital media.',
+          isCorrect: false,
+          rationale: 'Emotional output is managed by frequency manipulation, including artificial broadcasting into specific frequency windows.'
+        },
+        {
+          text: 'Artificial broadcasting targets specific frequency windows to amplify collective fear, herd compliance, and reactive emotional responses.',
+          isCorrect: true,
+          rationale: 'Controlling entities utilize the five bands alongside unacknowledged frequencies to steer public sentiment, manage emotional output, and alter collective consciousness.'
+        },
+        {
+          text: 'Controlling forces manage emotion by encouraging the widespread use of 432 Hz meditation music.',
+          isCorrect: false,
+          rationale: '432 Hz is the natural harmonic standard that restores neural coherence. Control systems use dissonant 440 Hz tuning instead.'
+        }
+      ]
+    }
+  ]
+};

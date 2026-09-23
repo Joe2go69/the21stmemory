@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T22:47:57.128Z",
-  "total": 214,
+  "generatedAt": "2026-09-23T00:14:57.752Z",
+  "total": 215,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 18
+      "count": 19
     }
   ],
   "quizzes": [
@@ -2652,6 +2652,19 @@
       "href": "quiz/revelations/fifteen-attributes.html",
       "diveHref": "dive/revelations/fifteen-attributes.html",
       "key": "revelations/fifteen-attributes"
+    },
+    {
+      "id": "five-brainwaves",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Five Brainwaves",
+      "subtitle": "Test your understanding of Five Brainwaves — Gamma, Beta, Alpha, Theta, and Delta as the vessel's operational bands, plus lunar fencing, 440 Hz dissonance, and the nocturnal memory wipe.",
+      "questionCount": 25,
+      "href": "quiz/revelations/five-brainwaves.html",
+      "diveHref": "dive/revelations/five-brainwaves.html",
+      "key": "revelations/five-brainwaves"
     },
     {
       "id": "holographic-sleeves",
