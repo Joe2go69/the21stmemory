@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T00:14:57.752Z",
-  "total": 215,
+  "generatedAt": "2026-09-23T09:41:39.939Z",
+  "total": 216,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 19
+      "count": 20
     }
   ],
   "quizzes": [
@@ -2821,6 +2821,19 @@
       "href": "quiz/revelations/soul-architecture.html",
       "diveHref": "dive/revelations/soul-architecture.html",
       "key": "revelations/soul-architecture"
+    },
+    {
+      "id": "sovereign-accord",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Sovereign Accord",
+      "subtitle": "Test your understanding of Sovereign Accord — the field law sealing this realm, manufactured wants, and liberation that must arise from within.",
+      "questionCount": 25,
+      "href": "quiz/revelations/sovereign-accord.html",
+      "diveHref": "dive/revelations/sovereign-accord.html",
+      "key": "revelations/sovereign-accord"
     },
     {
       "id": "taran-vessels",

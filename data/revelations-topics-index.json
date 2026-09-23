@@ -159,9 +159,9 @@
     {
       "id": "sovereign-accord",
       "title": "Sovereign Accord",
-      "description": "Field law of this sealed realm, manufactured wants, MK-Ultra craft, GAT programs, and the subtle help of ayahuasca and pineal DMT.",
-      "topic_image": "images/revelations/placeholder.webp",
-      "is_placeholder": true,
+      "description": "The Sovereign Accord is the fundamental energetic law and legal boundary governing the physical simulation field.",
+      "topic_image": "images/revelations/sovereign-accord.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "field-law",
