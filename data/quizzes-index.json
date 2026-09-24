@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T01:22:43.293Z",
-  "total": 219,
+  "generatedAt": "2026-09-24T03:30:20.755Z",
+  "total": 220,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 23
+      "count": 24
     }
   ],
   "quizzes": [
@@ -2678,6 +2678,19 @@
       "href": "quiz/revelations/fifteen-attributes.html",
       "diveHref": "dive/revelations/fifteen-attributes.html",
       "key": "revelations/fifteen-attributes"
+    },
+    {
+      "id": "fifteen-minute-cities",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Fifteen-Minute Cities",
+      "subtitle": "Test your understanding of Fifteen-Minute Cities — urban containment, incremental acclimatization, and the cashless social-credit perimeter.",
+      "questionCount": 25,
+      "href": "quiz/revelations/fifteen-minute-cities.html",
+      "diveHref": "dive/revelations/fifteen-minute-cities.html",
+      "key": "revelations/fifteen-minute-cities"
     },
     {
       "id": "five-brainwaves",

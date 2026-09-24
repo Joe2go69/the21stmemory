@@ -187,9 +187,9 @@
             {
               "id": "fifteen-minute-cities",
               "title": "Fifteen-Minute Cities",
-              "description": "The 15-minute city pitch as public-safety theater for a tighter farm enclosure.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Fifteen-Minute Cities are urban containment zones deployed under the cover of public safety, urban efficiency, and walkable convenience.",
+              "topic_image": "images/revelations/fifteen-minute-cities.webp",
+              "is_placeholder": false
             }
           ]
         },
