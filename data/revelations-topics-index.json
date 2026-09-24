@@ -203,9 +203,9 @@
             {
               "id": "emotional-scoring",
               "title": "Emotional Scoring",
-              "description": "How empathy and emotion are scored, redirected, and used as MK-Ultra payload.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Emotional scoring is the systematic deployment of engineered auditory frequencies, musical arrangements, and visual scene sequences designed to directly manipulate human cognitive function, alter brain chemistry, and hone targeted emotional responses.",
+              "topic_image": "images/revelations/emotional-scoring.webp",
+              "is_placeholder": false
             },
             {
               "id": "gat-programs",

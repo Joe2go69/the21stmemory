@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T05:42:37.483Z",
-  "total": 221,
+  "generatedAt": "2026-09-24T10:50:42.326Z",
+  "total": 222,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 25
+      "count": 26
     }
   ],
   "quizzes": [
@@ -2639,6 +2639,19 @@
       "href": "quiz/revelations/digital-inserts.html",
       "diveHref": "dive/revelations/digital-inserts.html",
       "key": "revelations/digital-inserts"
+    },
+    {
+      "id": "emotional-scoring",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Emotional Scoring",
+      "subtitle": "Test your understanding of Emotional Scoring — how engineered auditory frequencies, tempos, and visual sequences dictate emotional states and steer behavior.",
+      "questionCount": 25,
+      "href": "quiz/revelations/emotional-scoring.html",
+      "diveHref": "dive/revelations/emotional-scoring.html",
+      "key": "revelations/emotional-scoring"
     },
     {
       "id": "essence-of-the-transmission",
