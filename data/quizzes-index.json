@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T22:56:15.694Z",
-  "total": 218,
+  "generatedAt": "2026-09-24T01:22:43.293Z",
+  "total": 219,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 22
+      "count": 23
     }
   ],
   "quizzes": [
@@ -2600,6 +2600,19 @@
       "href": "quiz/revelations/arc-pod-protocol.html",
       "diveHref": "dive/revelations/arc-pod-protocol.html",
       "key": "revelations/arc-pod-protocol"
+    },
+    {
+      "id": "choice-architecture",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Choice Architecture",
+      "subtitle": "Test your understanding of Choice Architecture — designed noise, options within options, and the consent trap that drains cognitive bandwidth.",
+      "questionCount": 25,
+      "href": "quiz/revelations/choice-architecture.html",
+      "diveHref": "dive/revelations/choice-architecture.html",
+      "key": "revelations/choice-architecture"
     },
     {
       "id": "clueless-protocol",

@@ -180,9 +180,9 @@
             {
               "id": "choice-architecture",
               "title": "Choice Architecture",
-              "description": "Endless options inside options — shampoo, cities, careers — as the farm's control surface.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Choice Architecture presents illusionary freedom while strictly dictating human decision-making through an intricate maze of options within options.",
+              "topic_image": "images/revelations/choice-architecture.webp",
+              "is_placeholder": false
             },
             {
               "id": "fifteen-minute-cities",
