@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T10:50:42.326Z",
-  "total": 222,
+  "generatedAt": "2026-09-24T11:25:54.248Z",
+  "total": 223,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 26
+      "count": 27
     }
   ],
   "quizzes": [
@@ -2717,6 +2717,19 @@
       "href": "quiz/revelations/five-brainwaves.html",
       "diveHref": "dive/revelations/five-brainwaves.html",
       "key": "revelations/five-brainwaves"
+    },
+    {
+      "id": "gat-programs",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "GAT Programs",
+      "subtitle": "Test your understanding of GAT Programs — how gifted-and-talented screening identifies children and sorts them into covert asset tracks.",
+      "questionCount": 25,
+      "href": "quiz/revelations/gat-programs.html",
+      "diveHref": "dive/revelations/gat-programs.html",
+      "key": "revelations/gat-programs"
     },
     {
       "id": "holographic-sleeves",

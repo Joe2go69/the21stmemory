@@ -210,9 +210,9 @@
             {
               "id": "gat-programs",
               "title": "GAT Programs",
-              "description": "Gifted and Talented programs launched after Sputnik to harvest and steer high-capacity minds.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "GAT Programs (Gifted and Talented Programs) represent a specialized educational screening apparatus established to systematically identify, track, and recruit children displaying exceptional intelligence, mathematical and scientific aptitude, and advanced problem-solving capabilities from early childhood.",
+              "topic_image": "images/revelations/gat-programs.webp",
+              "is_placeholder": false
             }
           ]
         },
