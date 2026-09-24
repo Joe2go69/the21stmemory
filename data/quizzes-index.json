@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T03:30:20.755Z",
-  "total": 220,
+  "generatedAt": "2026-09-24T05:42:37.483Z",
+  "total": 221,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 24
+      "count": 25
     }
   ],
   "quizzes": [
@@ -2782,6 +2782,19 @@
       "href": "quiz/revelations/mission-insertion.html",
       "diveHref": "dive/revelations/mission-insertion.html",
       "key": "revelations/mission-insertion"
+    },
+    {
+      "id": "mk-ultra-craft",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "MK-Ultra Craft",
+      "subtitle": "Test your understanding of MK-Ultra Craft — how manufactured choice, emotional scoring, severe trauma, and gifted pipelines steer consent inside the Sovereign Accord.",
+      "questionCount": 25,
+      "href": "quiz/revelations/mk-ultra-craft.html",
+      "diveHref": "dive/revelations/mk-ultra-craft.html",
+      "key": "revelations/mk-ultra-craft"
     },
     {
       "id": "npc-ratio",

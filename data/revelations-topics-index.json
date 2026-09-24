@@ -196,9 +196,9 @@
         {
           "id": "mk-ultra-craft",
           "title": "MK-Ultra Craft",
-          "description": "Emotional scoring and GAT programs as the craft of mind control inside the overlay.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "MK-Ultra Craft is a comprehensive psychological, frequency-based, and behavioral modification technology deployed to steer human consciousness, alter brain chemistry, and manipulate societal consensus.",
+          "topic_image": "images/revelations/mk-ultra-craft.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "emotional-scoring",
