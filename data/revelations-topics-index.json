@@ -244,9 +244,9 @@
     {
       "id": "custodian-control",
       "title": "Custodian Control",
-      "description": "Legal capture through birth bonds and usury, occult orders, counterfeit systems, medical harvest, and bone vaults.",
-      "topic_image": "images/revelations/placeholder.webp",
-      "is_placeholder": true,
+      "description": "The systematic administrative apparatus deployed by parasitic realm managers to govern the human farm through inverted societal institutions, manufactured noise, and continuous resource extraction.",
+      "topic_image": "images/revelations/custodian-control.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "legal-capture",

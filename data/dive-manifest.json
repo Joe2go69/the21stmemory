@@ -1586,7 +1586,7 @@
       "sourceId": "revelations",
       "topicId": "custodian-control",
       "path": "/dive/revelations/custodian-control.html",
-      "live": false,
+      "live": true,
       "title": "Custodian Control"
     },
     {

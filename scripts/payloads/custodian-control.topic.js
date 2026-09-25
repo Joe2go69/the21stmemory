@@ -1,0 +1,102 @@
+module.exports = {
+  source: 'revelations',
+  id: 'custodian-control',
+  title: 'Custodian Control',
+  description: 'The systematic administrative apparatus deployed by parasitic realm managers to govern the human farm through inverted societal institutions, manufactured noise, and continuous resource extraction.',
+  images: {
+    topic: { source: 'Custodian Control.webp', target: 'custodian-control.webp' },
+    pdfPreview: { source: 'Architectures_of_Enclosure.webp', target: 'architectures-of-enclosure.webp' },
+    infographic: { source: 'Anatomy_of_Systemic_Human_Enclosure.webp', target: 'anatomy-of-systemic-human-enclosure.webp' }
+  },
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/19fEej9c4FUbridh-Bu5jRjGC7Gc8ba5V/view?usp=sharing',
+  rumble_videos: [
+    {
+      title: 'Loosh Harvest and Birth Certificate Fraud',
+      embed_url: 'https://rumble.com/embed/v7dshug/?pub=4p0ieu',
+      description: 'Loosh Harvest and Birth Certificate Fraud — Birth registration creates a corporate fiction and Cestui Que Vie bond while emotional energy is continuously harvested as Loosh.'
+    },
+    {
+      title: 'The Cestui Que Vie Bond',
+      embed_url: 'https://rumble.com/embed/v7dshzm/?pub=4p0ieu',
+      description: 'The Cestui Que Vie Bond — A fraudulent maritime trust that monetizes a living soul as corporate collateral, initialized at fifty million dollars and liquidated at death.'
+    },
+    {
+      title: 'Severing Custodian Control',
+      embed_url: 'https://rumble.com/embed/v7dsi4m/?pub=4p0ieu',
+      description: 'Severing Custodian Control — Liberation requires cutting the three strings of enslavement: perceived knowledge, religion, and finance, and withdrawing consent under the Sovereign Accord.'
+    }
+  ],
+  report: `# Custodian Control
+
+## Overview
+
+Custodian Control defines the overarching operational framework and administrative matrix established by parasitic realm managers—known as the Custodians or the Farm Management Team—who assumed total governance over the physical plane roughly 150,000 years ago. Operating through a dense network of legal fictions, occult orders, inverted priesthoods, falsified history, and medical extraction, Custodian Control functions to contain, monitor, and harvest the human population within a closed planetary system. By systematically downsizing the human physical vessel across successive resets and inverting the innate faculties of human consciousness, the Custodians maintain a continuous harvest of emotional energy known as Loosh, while extracting financial, biological, and energetic assets from subjugated souls.
+
+## Key Terminology
+
+- **Custodian Control** — The systematic administrative apparatus deployed by parasitic realm managers to govern the human farm through inverted societal institutions, manufactured noise, and continuous resource extraction.
+- **Cestui Que Vie Bond** — A fraudulent maritime financial trust established upon birth registration that monetizes a living human soul as a corporate fiction and collateral asset.
+- **Usury Trap** — A financial confidence trick wherein parasitic banking institutions lend an individual's own bond equity back to them while demanding interest on the loan.
+- **Re-Legion** — Counterfeit spiritual frameworks engineered by the Custodians to replace direct pineal connection to the organic aether with dogmatic, legion-based division and war.
+- **Skull & Bones 322** — An elite occult lodge designation referencing subterranean vaulted trophy rooms constructed from the stacked skeletal remains of harvested human populations from past resets.
+- **Owl Current** — An occult ritual requirement operating within secret societies that demands the sacrifice of a family member or loved one in exchange for institutional elevation, fame, and temporal power.
+- **World Wide Web** — The synthetic digital containment network, corresponding in Hebrew gematria to Vav Vav Vav (666), engineered to harvest human attention and replace natural spiritual faculties.
+- **Iatrogenic Death** — Mortality directly induced by medical intervention, pharmaceutical toxins, and hospital protocols, serving as a primary culling and bond-realization mechanism.
+- **Human 2.0** — The intended endgame of Custodian Control involving the conversion of human beings into lobotomized, cybernetic entities (half-man, half-machine) stripped of independent thought.
+- **Bone Vaults** — Underground ossuaries and public monuments built from or dedicated to mass human skeletal remains, erected as symbolic mockery of the subjugated population.
+
+## Core Revelations
+
+Custodian Control operates under the strict legal boundary of the Sovereign Accord, a cosmic field law stipulating that no external force may directly override a self-sustaining harmonic field without local choice. To bypass this universal law without incurring direct field conflict, the Custodians rely entirely on Deceit and Subversion. By constructing deceptive societal choices, legal traps, and "manufactured wants," the Custodians ensure that human targets voluntarily consent to their own economic bondage, medical degradation, and physical containment.
+
+The entire organizational infrastructure of modern civilization—encompassing government, central banking, corporate media, institutional academia, and organized religion—was deliberately constructed as an inverted replacement for natural human capabilities. Rather than fostering human advancement, these structures operate as systematic filters and energetic drains designed to consume mental bandwidth through artificial Designed Noise, preventing individuals from contemplating the reality of their enclosure.
+
+Human physical biology has been systematically downgraded across seven major planetary resets. In addition to reducing physical stature, the Custodians genetically shrunk and calcified the human Pineal Gland through public water fluoridation, effectively severing direct telepathic communication with the organic Aether and trapping human perception within a restricted 3rd-density frequency band.
+
+## Detailed Mechanics and Key Elements
+
+### Legal Capture and Financial Exploitation
+
+The core mechanism of legal capture relies on the Birth Certificate Scam and the creation of the Cestui Que Vie 1666 Birth Certificate Bond. Upon the registration of a newborn child, government authorities establish a corporate fiction in the infant's name, effectively converting the living soul into a corporate asset and chattel. This corporate fiction is assigned an initial bond value—automatically initialized at fifty million United States dollars—which is traded on international stock exchanges and accrues interest into billions over an individual's lifetime. When a registered individual dies, the signing of the death certificate liquidates the bond, returning the full accumulated value directly into parasitic financial coffers.
+
+To maintain economic enslavement during physical life, the Custodians enforce the Maritime Admiralty Unlawful-Law System, treating living beings as property and land as corporate real estate. Through the Usury Trap, financial institutions leverage an individual's own bond equity to issue mortgages, student loans, and commercial credit. The banking system then demands repayment with interest on capital that was already owned by the borrower, executing a massive confidence trick grounded in absolute information asymmetry.
+
+### Occult Orders and Secret Lodges
+
+Administrative execution of Custodian Control is carried out through secret society networks, primarily 33rd Degree Freemasonry, the 322 Skull & Bones Club, the Reform Club, and the Charlton Club. These lodges function as cogs within the machine of power, placing initiates into decision-making positions across the judiciary, military, law enforcement, banking, medical, and media sectors. High-level initiation requires total submission to Satanic ritual abuse and child sacrifice, binding members through severe blackmail and shared criminal culpability.
+
+Under the Owl Current, aspirants seeking top-tier institutional elevation or global fame must undergo the mandatory sacrifice of a close family member or loved one. This ritual act permanently locks the initiate into the club, replacing their moral autonomy with total compliance. The numerical designation 322 within Skull & Bones explicitly references the subterranean vaulted trophy rooms—referred to as Cathedrals of the Dead—constructed from the stacked skeletal remains of human populations harvested during previous resets.
+
+### Counterfeit Systems and Information Control
+
+To prevent human beings from accessing direct spiritual Oneness, the Custodians established Re-Legion as a counterfeit spiritual substitute. By fabricating thousands of competing religious doctrines, the Custodians generated endless historical conflicts, land grabs, and emotional trauma, creating vast reservoirs of Loosh while ensuring that human pineal connection remained dormant.
+
+Historical narrative control is maintained through the Rockefeller Education System, which systematically inserted up to two thousand years of fabricated history into the human timeline. This addition was executed to conceal the recent existence of the advanced Tartaria civilization and mask the mechanics of periodic planetary resets. In academia, foundational cover stories such as Plato's Academy and the olive grove of Akademos were invented to lend historical legitimacy to falsified scientific paradigms. Furthermore, the deployment of the World Wide Web (WWW / Vav Vav Vav = 666) created a global synthetic web designed to trap human consciousness in digital noise and continuous scrolling distraction.
+
+### Medical Harvest and Biological Degradation
+
+The industrial medical complex operates as a vital harvest and culling system for Custodian Control. Iatrogenic Death—mortality caused directly by physician error, toxic pharmaceutical regimens, and hospital protocols—stands as a leading cause of death worldwide. Emergency medical services, air ambulances, and heroic surgical professions are heavily publicized to serve as a credibility shield, preserving public trust in an overarching medical system that functions primarily to generate disease and liquidate Cestui Que Vie bonds.
+
+Biological suppression is further enforced through municipal water fluoridation. Fluoride intentionally calcifies the human pineal gland, inhibiting endogenous DMT (N,N-Dimethyltryptamine) release and neutralizing human telepathic and multidimensional faculties. The ultimate biological goal of Custodian Control is Human 2.0, converting human beings into cybernetic, lobotomized workers (half-man, half-machine) stripped of independent thought, spiritual awareness, and past-life recall.
+
+### Bone Vaults and Structural Mockery
+
+A major hallmark of Custodian Control is the construction of subterranean bone vaults and public monuments as explicit mockery of the human harvest. Following major planetary resets, millions of human skeletal remains are gathered and stacked into vaulted underground chambers beneath cathedrals, occult lodges, and sacred nodal sites. Public monuments and artistic installations depicting human dismemberment or mass graves—such as the execution sites of the Cambodian Killing Fields—are deliberately placed across the globe to mock the harvested population while subtly broadcasting parasitic dominance.
+
+## Broader Context and Interconnections
+
+Custodian Control does not exist in isolation; it intersects directly with the periodic Reset Sequence. The Custodians utilize engineered wars, artificial famines, weather manipulation, and staged pandemics as mini-resets to clear specific geographical fields, displace populations, harvest trauma energy, and repopulate regions with cloned descendants.
+
+Containment is maintained through psychological control systems including MK-Ultra broadcasting, emotional scoring via media soundtracks, and the physical implementation of Fifteen-Minute Cities enforced by Social Credit Systems. Furthermore, Custodian Control relies on the ambient presence of Non-Player Characters (NPCs) and Holographic Sleeves, which make up to 90% of the public population. These entities lack true spiritual architecture and exist solely to enforce social consensus, mimic emotional responses, and suppress true-souled human inquiry.
+
+## Strategic Implications
+
+Full liberation from Custodian Control requires the deliberate severing of the Three Strings of Enslavement: Perceived Knowledge (falsified history and institutional science), Religion (counterfeit spiritual dogma), and Finance (fiat debt and bond traps).
+
+Exposing the fraudulent mechanics of the Cestui Que Vie Bond and maritime legal capture neutralizes the psychological authority of Custodian governance and financial intimidation.
+
+Reclaiming biological sovereignty through the elimination of fluoridated water and toxic pharmaceutical inputs decalcifies the pineal gland, restoring endogenous DMT production and reactivating natural spiritual hardware.
+
+Recognizing the operational reliance on implied consent under the Sovereign Accord empowers individuals to withdraw consent from choice architecture, effectively dismantling the foundational mechanism of Custodian Control.
+`
+};

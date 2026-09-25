@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T09:42:22.233Z",
-  "total": 226,
+  "generatedAt": "2026-09-25T11:46:59.580Z",
+  "total": 227,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 30
+      "count": 31
     }
   ],
   "quizzes": [
@@ -2639,6 +2639,19 @@
       "href": "quiz/revelations/clueless-protocol.html",
       "diveHref": "dive/revelations/clueless-protocol.html",
       "key": "revelations/clueless-protocol"
+    },
+    {
+      "id": "custodian-control",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Custodian Control",
+      "subtitle": "Test your understanding of Custodian Control — how parasitic realm managers contain, monitor, and harvest the human population inside a closed planetary system.",
+      "questionCount": 25,
+      "href": "quiz/revelations/custodian-control.html",
+      "diveHref": "dive/revelations/custodian-control.html",
+      "key": "revelations/custodian-control"
     },
     {
       "id": "digital-inserts",
