@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T11:25:54.248Z",
-  "total": 223,
+  "generatedAt": "2026-09-25T08:04:48.046Z",
+  "total": 224,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 27
+      "count": 28
     }
   ],
   "quizzes": [
@@ -2925,6 +2925,19 @@
       "href": "quiz/revelations/sovereign-accord.html",
       "diveHref": "dive/revelations/sovereign-accord.html",
       "key": "revelations/sovereign-accord"
+    },
+    {
+      "id": "subtle-help",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Subtle Help",
+      "subtitle": "Test your understanding of Subtle Help — non-overt assistance that stays inside field law so choice and consequence still arise from within.",
+      "questionCount": 25,
+      "href": "quiz/revelations/subtle-help.html",
+      "diveHref": "dive/revelations/subtle-help.html",
+      "key": "revelations/subtle-help"
     },
     {
       "id": "taran-vessels",
