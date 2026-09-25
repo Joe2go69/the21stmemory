@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T08:04:48.046Z",
-  "total": 224,
+  "generatedAt": "2026-09-25T08:39:45.152Z",
+  "total": 225,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 28
+      "count": 29
     }
   ],
   "quizzes": [
@@ -2600,6 +2600,19 @@
       "href": "quiz/revelations/arc-pod-protocol.html",
       "diveHref": "dive/revelations/arc-pod-protocol.html",
       "key": "revelations/arc-pod-protocol"
+    },
+    {
+      "id": "ayahuasca-vine",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Ayahuasca Vine",
+      "subtitle": "Test your understanding of Ayahuasca Vine — the Vine of the Soul as chemical catalyst and non-overt sacrament of subtle help.",
+      "questionCount": 25,
+      "href": "quiz/revelations/ayahuasca-vine.html",
+      "diveHref": "dive/revelations/ayahuasca-vine.html",
+      "key": "revelations/ayahuasca-vine"
     },
     {
       "id": "choice-architecture",
