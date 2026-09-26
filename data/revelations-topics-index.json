@@ -251,9 +251,9 @@
         {
           "id": "legal-capture",
           "title": "Legal Capture",
-          "description": "Birth certificates, Cestui Que Vie bonds, and the usury trap as legal ownership of the vessel.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "Legal Capture is the systematic conversion of a living human soul into a financialized corporate asset at the moment of physical birth.",
+          "topic_image": "images/revelations/legal-capture.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "birth-bond",

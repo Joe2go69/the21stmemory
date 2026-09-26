@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T11:46:59.580Z",
-  "total": 227,
+  "generatedAt": "2026-09-26T03:50:25.996Z",
+  "total": 228,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 31
+      "count": 32
     }
   ],
   "quizzes": [
@@ -2808,6 +2808,19 @@
       "href": "quiz/revelations/intelligence-first.html",
       "diveHref": "dive/revelations/intelligence-first.html",
       "key": "revelations/intelligence-first"
+    },
+    {
+      "id": "legal-capture",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Legal Capture",
+      "subtitle": "Test your understanding of Legal Capture — the conversion of a living soul into a financialized corporate asset through the Birth Certificate, the corporate fiction, and the Cestui Que Vie 1666 Bond.",
+      "questionCount": 25,
+      "href": "quiz/revelations/legal-capture.html",
+      "diveHref": "dive/revelations/legal-capture.html",
+      "key": "revelations/legal-capture"
     },
     {
       "id": "manufactured-wants",

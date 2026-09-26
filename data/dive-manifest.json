@@ -1593,7 +1593,7 @@
       "sourceId": "revelations",
       "topicId": "legal-capture",
       "path": "/dive/revelations/legal-capture.html",
-      "live": false,
+      "live": true,
       "title": "Legal Capture"
     },
     {
