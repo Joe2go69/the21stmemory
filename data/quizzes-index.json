@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T05:33:08.541Z",
-  "total": 230,
+  "generatedAt": "2026-09-26T08:24:08.843Z",
+  "total": 231,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 34
+      "count": 35
     }
   ],
   "quizzes": [
@@ -2886,6 +2886,19 @@
       "href": "quiz/revelations/npc-ratio.html",
       "diveHref": "dive/revelations/npc-ratio.html",
       "key": "revelations/npc-ratio"
+    },
+    {
+      "id": "occult-orders",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Occult Orders",
+      "subtitle": "Test your understanding of Occult Orders — clandestine ritual networks that manage population dynamics and enforce systemic deception.",
+      "questionCount": 25,
+      "href": "quiz/revelations/occult-orders.html",
+      "diveHref": "dive/revelations/occult-orders.html",
+      "key": "revelations/occult-orders"
     },
     {
       "id": "overlay-geography",

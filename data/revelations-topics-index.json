@@ -275,9 +275,9 @@
         {
           "id": "occult-orders",
           "title": "Occult Orders",
-          "description": "Freemasonic gatekeepers and the owl current behind public institutions.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "Occult Orders represent the operational backbone of elite subversion, functioning as an interconnected network of secret societies, ritual clubs, and institutional gatekeepers designed to manage population dynamics and enforce systemic deception.",
+          "topic_image": "images/revelations/occult-orders.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "freemasonic-orders",
