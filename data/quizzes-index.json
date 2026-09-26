@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T08:24:08.843Z",
-  "total": 231,
+  "generatedAt": "2026-09-26T23:06:08.993Z",
+  "total": 232,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 35
+      "count": 36
     }
   ],
   "quizzes": [
@@ -2756,6 +2756,19 @@
       "href": "quiz/revelations/five-brainwaves.html",
       "diveHref": "dive/revelations/five-brainwaves.html",
       "key": "revelations/five-brainwaves"
+    },
+    {
+      "id": "freemasonic-orders",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Freemasonic Orders",
+      "subtitle": "Test your understanding of Freemasonic Orders — the esoteric secret society network that infiltrates governance, finance, media, and academia and maintains His Story.",
+      "questionCount": 25,
+      "href": "quiz/revelations/freemasonic-orders.html",
+      "diveHref": "dive/revelations/freemasonic-orders.html",
+      "key": "revelations/freemasonic-orders"
     },
     {
       "id": "gat-programs",
