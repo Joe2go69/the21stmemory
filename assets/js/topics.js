@@ -546,6 +546,9 @@ function renderSourceHeader(data, sourceId, stats) {
   } else if (sourceId === 'ascension') {
     seriesLink = `<a href="source.html#long-awaited-ascension-process" class="text-link">Watch the original transmission →</a>`;
   }
+  const playlistLink = data.playlist_url
+    ? `<a href="${TopicUtils.escapeAttr(data.playlist_url)}" target="_blank" rel="noopener noreferrer" class="text-link">${TopicUtils.escapeHtml(data.playlist_label || 'Watch the full playlist on Rumble →')}</a>`
+    : '';
 
   document.getElementById('source-header').innerHTML = `
     ${breadcrumbs}
@@ -564,6 +567,7 @@ function renderSourceHeader(data, sourceId, stats) {
             <a href="codex.html" class="btn-secondary">← Back to Codex</a>
             ${pdfBtn}
             ${seriesLink}
+            ${playlistLink}
           </div>
         </div>
         <div class="source-hero-media" style="background-color:#0F0A1F;min-height:12rem">

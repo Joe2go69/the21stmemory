@@ -324,6 +324,7 @@ const payload = {
   pdf_url: 'https://drive.google.com/file/d/1-odKLFuMW9cM8fibGzenSXSQKfF0T2yG/view?usp=sharing',
   source_url: 'https://christian21.com/revelations-part-1/',
   source_url_label: 'Read Part 1 on Christian21 →',
+  playlist_url: 'https://rumble.com/playlists/XW8d4WbTAko',
   description: DESCRIPTION,
   total_topics: countTopics(topics),
   topics
