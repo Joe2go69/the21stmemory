@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T03:50:25.996Z",
-  "total": 228,
+  "generatedAt": "2026-09-26T04:39:13.872Z",
+  "total": 229,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 32
+      "count": 33
     }
   ],
   "quizzes": [
@@ -2613,6 +2613,19 @@
       "href": "quiz/revelations/ayahuasca-vine.html",
       "diveHref": "dive/revelations/ayahuasca-vine.html",
       "key": "revelations/ayahuasca-vine"
+    },
+    {
+      "id": "birth-bond",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Birth Bond",
+      "subtitle": "Test your understanding of Birth Bond — the Cestui Que Vie 1666 Birth Certificate Bond that monetizes human existence as financial collateral.",
+      "questionCount": 25,
+      "href": "quiz/revelations/birth-bond.html",
+      "diveHref": "dive/revelations/birth-bond.html",
+      "key": "revelations/birth-bond"
     },
     {
       "id": "choice-architecture",

@@ -3132,4 +3132,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
+  <url>
+    <loc>https://21stmemory.com/dive/revelations/birth-bond.html</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://21stmemory.com/quiz/revelations/birth-bond.html</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
 </urlset>

@@ -258,9 +258,9 @@
             {
               "id": "birth-bond",
               "title": "Birth Bond",
-              "description": "The birth-certificate scam and Cestui Que Vie bonding of the living into a legal dead estate.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "The Birth Bond—officially recognized as the Cestui Que Vie 1666 Birth Certificate Bond and colloquially termed Cester KV—is the foundational financial instrument through which the legal system monetizes human existence.",
+              "topic_image": "images/revelations/birth-bond.webp",
+              "is_placeholder": false
             },
             {
               "id": "usury-trap",
