@@ -1628,7 +1628,7 @@
       "sourceId": "revelations",
       "topicId": "owl-current",
       "path": "/dive/revelations/owl-current.html",
-      "live": false,
+      "live": true,
       "title": "Owl Current"
     },
     {

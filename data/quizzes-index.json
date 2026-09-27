@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T23:06:08.993Z",
-  "total": 232,
+  "generatedAt": "2026-09-27T00:07:33.978Z",
+  "total": 233,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 36
+      "count": 37
     }
   ],
   "quizzes": [
@@ -2925,6 +2925,19 @@
       "href": "quiz/revelations/overlay-geography.html",
       "diveHref": "dive/revelations/overlay-geography.html",
       "key": "revelations/overlay-geography"
+    },
+    {
+      "id": "owl-current",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Owl Current",
+      "subtitle": "Test your understanding of Owl Current — the operational stream of occult entrainment, psychological trapping, and energetic harvest that binds public figures inside The Club.",
+      "questionCount": 25,
+      "href": "quiz/revelations/owl-current.html",
+      "diveHref": "dive/revelations/owl-current.html",
+      "key": "revelations/owl-current"
     },
     {
       "id": "pineal-crossover",
