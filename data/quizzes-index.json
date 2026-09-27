@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-27T08:15:12.783Z",
-  "total": 235,
+  "generatedAt": "2026-09-27T08:53:57.301Z",
+  "total": 236,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 39
+      "count": 40
     }
   ],
   "quizzes": [
@@ -3094,6 +3094,19 @@
       "href": "quiz/revelations/usury-trap.html",
       "diveHref": "dive/revelations/usury-trap.html",
       "key": "revelations/usury-trap"
+    },
+    {
+      "id": "world-wide-web",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "World Wide Web",
+      "subtitle": "Test your understanding of World Wide Web — the parasitic digital lure that inverts pineal access to the Aether and holds seekers inside a counterfeit memory grid.",
+      "questionCount": 25,
+      "href": "quiz/revelations/world-wide-web.html",
+      "diveHref": "dive/revelations/world-wide-web.html",
+      "key": "revelations/world-wide-web"
     }
   ]
 }
