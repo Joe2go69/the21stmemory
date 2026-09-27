@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-27T00:07:33.978Z",
-  "total": 233,
+  "generatedAt": "2026-09-27T03:27:07.223Z",
+  "total": 234,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 37
+      "count": 38
     }
   ],
   "quizzes": [
@@ -2652,6 +2652,19 @@
       "href": "quiz/revelations/clueless-protocol.html",
       "diveHref": "dive/revelations/clueless-protocol.html",
       "key": "revelations/clueless-protocol"
+    },
+    {
+      "id": "counterfeit-systems",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Counterfeit Systems",
+      "subtitle": "Test your understanding of Counterfeit Systems — synthetic frameworks that replace organic spiritual abilities, natural energetic currents, authentic history, and direct cosmic connection.",
+      "questionCount": 25,
+      "href": "quiz/revelations/counterfeit-systems.html",
+      "diveHref": "dive/revelations/counterfeit-systems.html",
+      "key": "revelations/counterfeit-systems"
     },
     {
       "id": "custodian-control",
