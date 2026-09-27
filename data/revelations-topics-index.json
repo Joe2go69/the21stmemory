@@ -305,9 +305,9 @@
             {
               "id": "re-legion",
               "title": "Re-Legion",
-              "description": "Religion as re-legion — a counterfeit spiritual operating system installed after the reset.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Re-Legion is an inverted, artificial construct instantiated by the Custodians to operate as counterfeit spirituality across the planetary plane.",
+              "topic_image": "images/revelations/re-legion.webp",
+              "is_placeholder": false
             },
             {
               "id": "world-wide-web",

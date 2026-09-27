@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-27T03:27:07.223Z",
-  "total": 234,
+  "generatedAt": "2026-09-27T08:15:12.783Z",
+  "total": 235,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 38
+      "count": 39
     }
   ],
   "quizzes": [
@@ -3003,6 +3003,19 @@
       "href": "quiz/revelations/quantum-interface.html",
       "diveHref": "dive/revelations/quantum-interface.html",
       "key": "revelations/quantum-interface"
+    },
+    {
+      "id": "re-legion",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Re-Legion",
+      "subtitle": "Test your understanding of Re-Legion — the inverted spiritual construct that replaces direct aetheric communication with externalized dogma and worship of Custodian farm managers.",
+      "questionCount": 25,
+      "href": "quiz/revelations/re-legion.html",
+      "diveHref": "dive/revelations/re-legion.html",
+      "key": "revelations/re-legion"
     },
     {
       "id": "simulation-field",
