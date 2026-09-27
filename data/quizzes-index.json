@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-27T08:53:57.301Z",
-  "total": 236,
+  "generatedAt": "2026-09-27T09:33:35.670Z",
+  "total": 237,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 40
+      "count": 41
     }
   ],
   "quizzes": [
@@ -2587,6 +2587,19 @@
       "href": "quiz/breakdown/water-domes.html",
       "diveHref": "dive/breakdown/water-domes.html",
       "key": "breakdown/water-domes"
+    },
+    {
+      "id": "academic-distortion",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Academic Distortion",
+      "subtitle": "Test your understanding of Academic Distortion — false timelines, the erasure of Tartaria, and the university pipeline that builds a superior cage.",
+      "questionCount": 25,
+      "href": "quiz/revelations/academic-distortion.html",
+      "diveHref": "dive/revelations/academic-distortion.html",
+      "key": "revelations/academic-distortion"
     },
     {
       "id": "arc-pod-protocol",
