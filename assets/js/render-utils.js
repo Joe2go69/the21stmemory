@@ -220,12 +220,12 @@ const RenderUtils = {
       ascension: 'images/ascension-codex-card.webp',
       revelations: 'images/revelations-codex-card.webp'
     };
-    return map[source?.id] || source?.image || '';
+    return map[source?.id] || (source?.id ? `images/${source.id}-codex-card.webp` : '') || source?.image || '';
   },
 
   sourceStatusMeta(live, total, soon) {
-    if (!total && !live) return 'Topics coming soon';
-    if (live === 0) return `${total} topics · Coming soon`;
+    if (!total && !live) return 'Topics on the way';
+    if (live === 0) return `${total} topics · On the way`;
     if (soon === 0) return `${live} topics · Complete`;
     return `${live} of ${total} ready`;
   },
@@ -234,9 +234,14 @@ const RenderUtils = {
     const soon = options.soonCount || 0;
     const showImage = options.showImage !== false;
     const cardImage = this.sourceCardImage(source);
+    const sized = cardImage && cardImage.match(/^(images\/[\w-]+)\.webp$/);
+    const src960 = TopicUtils.encodeAssetPath(sized ? `${sized[1]}-960.webp` : cardImage);
+    const srcsetAttr = sized
+      ? ` srcset="${TopicUtils.encodeAssetPath(`${sized[1]}-640.webp`)} 640w, ${src960} 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 46vw, 360px"`
+      : '';
     const imageHTML = showImage && cardImage
       ? `<div class="source-card-media" style="background-color:#0F0A1F">
-           <img src="${TopicUtils.encodeAssetPath(cardImage)}" alt="${TopicUtils.escapeHtml(source.title)}" class="source-card-img" width="400" height="180" loading="lazy" data-img-fallback>
+           <img src="${src960}"${srcsetAttr} alt="${TopicUtils.escapeHtml(source.title)}" class="source-card-img" width="960" height="523" loading="lazy" decoding="async" data-img-fallback>
            <span class="source-card-media-fade" aria-hidden="true"></span>
          </div>`
       : showImage
@@ -272,7 +277,7 @@ const RenderUtils = {
             <div class="source-card-progress__fill" style="width:${readyPct}%"></div>
           </div>
           <div class="source-card-action card-action">
-            Explore this transmission
+            Open this series
             <span class="source-card-action-arrow" aria-hidden="true">→</span>
           </div>
         </div>

@@ -1,16 +1,20 @@
 {
   "sources": [
     {
-      "id": "alice"
+      "id": "alice",
+      "title": "Following Alice in the Rabbit Hole"
     },
     {
-      "id": "breakdown"
+      "id": "breakdown",
+      "title": "Mega Breakdown Board Notes & Highlights"
     },
     {
-      "id": "ascension"
+      "id": "ascension",
+      "title": "The Long-Awaited Ascension Process"
     },
     {
-      "id": "revelations"
+      "id": "revelations",
+      "title": "A Brief Synopsis of Revelations"
     }
   ]
 }

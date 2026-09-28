@@ -83,9 +83,9 @@ function fileSize(rel) {
   check(g, 'quizzes.js continue strip', qjs.includes('paintContinueStrip'));
 
   const index = read('index.html');
-  // Product hierarchy: Codex hero + Oracle focus pair (About is editorial lower, not a banner)
+  // Product hierarchy: series row + Oracle focus pair (About is editorial lower, not a banner)
   check(g, 'home banner modifiers', index.includes('home-banner--product') && index.includes('home-banner--focus'));
-  check(g, 'home banner srcset', index.includes('codex-banner') && index.includes('srcset'));
+  check(g, 'home series srcset', index.includes('home-series') && index.includes('srcset'));
 
   const network = read('network.html');
   check(g, 'network filter bar no flex-wrap util', !/id="network-filters"[^>]*flex-wrap/.test(network));

@@ -59,7 +59,7 @@ function renderLiveArchiveBadge(live, total, sources) {
     <div class="codex-home-metrics-grid">
       <div class="codex-home-metric">
         <div class="codex-home-metric-value" data-count-to="${sourceCount}">${sourceCount}</div>
-        <div class="codex-home-metric-label">Transmissions</div>
+        <div class="codex-home-metric-label">Series</div>
       </div>
       <div class="codex-home-metric">
         <div class="codex-home-metric-value" data-count-to="${total}">${total}</div>
@@ -71,12 +71,12 @@ function renderLiveArchiveBadge(live, total, sources) {
       </div>
       <div class="codex-home-metric">
         <div class="codex-home-metric-value" data-count-to="${soon}">${soon}</div>
-        <div class="codex-home-metric-label">Coming soon</div>
+        <div class="codex-home-metric-label">On the way</div>
       </div>
     </div>
     <div class="codex-home-progress">
       <div class="codex-home-progress-meta">
-        <span>${live} of ${total} revelations decoded</span>
+        <span>${live} of ${total} topics ready</span>
         <span>${pct}% complete</span>
       </div>
       <div class="archive-progress-bar" role="progressbar" aria-valuenow="${live}" aria-valuemin="0" aria-valuemax="${total}" aria-label="Archive progress">
@@ -218,8 +218,86 @@ async function loadHomeArchiveStats() {
   }
 }
 
+function seriesStatus(live, total) {
+  const soon = Math.max(0, total - live);
+  if (!total && !live) return { text: 'Topics on the way', tone: 'source-card--soon' };
+  if (live === 0) return { text: `${total} topics · On the way`, tone: 'source-card--soon' };
+  if (soon === 0) return { text: `${live} topics · Complete`, tone: 'source-card--ready' };
+  return { text: `${live} of ${total} ready`, tone: 'source-card--mixed' };
+}
+
+function renderHomeSeriesCard(source, stats) {
+  const id = String(source.id || '');
+  const title = source.title || id;
+  const live = Number(stats?.live) || 0;
+  const total = Number(stats?.total) || 0;
+  const status = seriesStatus(live, total);
+  const safeId = escapeHtml(id);
+  const stem = `images/${safeId}-codex-card`;
+  return `
+    <a href="topics.html?source=${safeId}" class="memory-card content-card source-card ${status.tone} home-series-card">
+      <div class="source-card-media" style="background-color:#0F0A1F">
+        <img src="${stem}-960.webp"
+             srcset="${stem}-640.webp 640w, ${stem}-960.webp 960w"
+             sizes="(max-width: 720px) 100vw, 320px"
+             alt=""
+             class="source-card-img"
+             width="960" height="523" loading="lazy" decoding="async">
+        <span class="source-card-media-fade" aria-hidden="true"></span>
+      </div>
+      <div class="source-card-body">
+        <h3 class="source-card-title">${escapeHtml(title)}</h3>
+        <p class="source-card-meta">${escapeHtml(status.text)}</p>
+        <div class="source-card-action card-action">Open this series <span class="source-card-action-arrow" aria-hidden="true">→</span></div>
+      </div>
+    </a>`;
+}
+
+function bindHomeSeriesImages(root) {
+  root.querySelectorAll('.source-card-img').forEach((img) => {
+    img.addEventListener('error', () => {
+      img.remove();
+    }, { once: true });
+  });
+}
+
+async function loadHomeSeries() {
+  const grid = document.getElementById('home-series-grid');
+  if (!grid) return;
+
+  try {
+    const response = await fetch('data/sources.json', { credentials: 'same-origin', cache: 'no-cache' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    const sources = (Array.isArray(data.sources) ? data.sources : [])
+      .filter((source) => source && /^[\w-]+$/.test(source.id))
+      .sort((a, b) => (a.title || a.id).localeCompare(b.title || b.id));
+
+    if (!sources.length) throw new Error('No series');
+
+    const statsList = await Promise.all(sources.map(async (source) => {
+      try {
+        const statsResponse = await fetch(`data/${source.id}-stats.json`, { credentials: 'same-origin', cache: 'no-cache' });
+        if (!statsResponse.ok) return null;
+        return statsResponse.json();
+      } catch (error) {
+        console.warn(`Series stats unavailable for ${source.id}:`, error);
+        return null;
+      }
+    }));
+
+    grid.innerHTML = sources.map((source, index) => renderHomeSeriesCard(source, statsList[index])).join('');
+    grid.setAttribute('aria-busy', 'false');
+    bindHomeSeriesImages(grid);
+  } catch (error) {
+    console.warn('Series list unavailable:', error);
+    grid.setAttribute('aria-busy', 'false');
+    grid.innerHTML = '<p class="home-series-fallback">The series list is temporarily unavailable.</p>';
+  }
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
-  await loadHomeArchiveStats();
+  await Promise.all([loadHomeArchiveStats(), loadHomeSeries()]);
 
   const codexRoot = document.getElementById('codex');
   if (typeof hydrateSiteIcons === 'function' && codexRoot) {

@@ -111,7 +111,7 @@ function renderArchiveStats() {
       <div class="codex-stats-grid">
         <div class="codex-stat">
           <div class="codex-stat-value">${sources}</div>
-          <div class="codex-stat-label">Transmissions</div>
+          <div class="codex-stat-label">Series</div>
         </div>
         <div class="codex-stat">
           <div class="codex-stat-value">${total}</div>
@@ -123,12 +123,12 @@ function renderArchiveStats() {
         </div>
         <div class="codex-stat">
           <div class="codex-stat-value">${soon}</div>
-          <div class="codex-stat-label">Coming soon</div>
+          <div class="codex-stat-label">On the way</div>
         </div>
       </div>
       <div class="codex-stats-progress">
         <div class="flex items-center justify-between text-xs text-mem-muted mb-2">
-          <span>Archive progress</span>
+          <span>${live} of ${total} topics ready</span>
           <span>${pct}% complete</span>
         </div>
         <div class="archive-progress-bar" role="progressbar" aria-valuenow="${live}" aria-valuemin="0" aria-valuemax="${total}" aria-label="Archive progress">

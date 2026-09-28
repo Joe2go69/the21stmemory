@@ -135,7 +135,7 @@
         width:100%!important;
         max-width:none!important;
         margin:0!important;
-        min-height:clamp(22rem,52vh,36rem)!important;
+        min-height:clamp(18rem,42vh,26rem)!important;
         overflow:hidden!important;
         border-radius:0!important;
         box-shadow:none!important;
@@ -160,10 +160,8 @@
         inset:0!important;
         z-index:1!important;
         background:
-          /* Soft lift behind type stack so wordmark stays crisp */
-          radial-gradient(ellipse 42% 48% at 50% 44%,rgba(15,10,31,.12) 0%,rgba(15,10,31,.38) 50%,rgba(15,10,31,.72) 100%),
-          /* Fade into page color at bottom — no hard card edge */
-          linear-gradient(180deg,rgba(15,10,31,.5) 0%,rgba(15,10,31,.18) 32%,rgba(15,10,31,.42) 68%,#0F0A1F 100%)!important;
+          radial-gradient(ellipse 34% 42% at 50% 44%,rgba(15,10,31,.58) 0%,rgba(15,10,31,.22) 48%,rgba(15,10,31,.06) 74%),
+          linear-gradient(180deg,rgba(15,10,31,.28) 0%,rgba(15,10,31,.06) 36%,rgba(15,10,31,.18) 70%,#0F0A1F 100%)!important;
       }
       #home-vault .home-hero-inner{
         position:relative!important;
@@ -176,8 +174,8 @@
         width:100%!important;
         max-width:40rem!important;
         margin:0 auto!important;
-        min-height:clamp(22rem,52vh,36rem)!important;
-        padding:3.5rem 1.5rem 3.25rem!important;
+        min-height:clamp(18rem,42vh,26rem)!important;
+        padding:2.25rem 1.5rem 2rem!important;
         box-sizing:border-box!important;
       }
       @media (max-width:640px){
@@ -191,7 +189,7 @@
         #home-vault .page-hero-pillars{margin-bottom:1rem!important}
       }
       @media (min-width:768px){
-        #home-vault .home-hero-inner{padding:4rem 1.5rem 3.75rem!important}
+        #home-vault .home-hero-inner{padding:2.75rem 1.5rem 2.25rem!important}
       }
       #home-vault .home-hero-kicker{
         margin:0 0 .75rem!important;
@@ -333,37 +331,15 @@
         </div>
     </div>
 
-    <!-- CODEX — primary product first (sell the library before the essay) -->
+    <!-- LIBRARY — the four series are the next click -->
     <div id="codex" class="home-section-anchor">
         <div class="max-w-6xl mx-auto px-6">
-            <p class="section-eyebrow mb-5">Codex</p>
-            <section class="codex-banner static-card home-banner home-banner--product home-banner--product-hero" aria-labelledby="codex-home-title">
-                <div class="codex-banner-media">
-                    <img src="images/codex-banner-960.webp"
-                         srcset="images/codex-banner-640.webp 640w, images/codex-banner-960.webp 960w"
-                         sizes="(max-width: 640px) 100vw, 960px"
-                         alt="Luminous crystalline lattice representing the 21st Memory Codex"
-                         width="1200" height="480" loading="lazy"
-                         class="codex-banner-img"
-                         decoding="async">
-                    <span class="codex-banner-media-fade" aria-hidden="true"></span>
-                </div>
-
-                <div class="codex-banner-body">
-                    <header class="codex-home-header">
-                        <p class="codex-home-eyebrow">The main library</p>
-                        <h2 id="codex-home-title" class="codex-home-title">The 21st Memory Codex</h2>
-                        <p class="codex-home-deck">Deep-dives on Thalon Thor’s transmissions — each topic brings videos, visual synthesis, and a written report into one place.</p>
-                    </header>
-
-                    <div class="codex-home-cta-row">
-                        <a href="codex.html" class="btn-primary">
-                            Open the Codex
-                        </a>
-                        <a href="quizzes.html" class="btn-secondary">
-                            Quizzes
-                        </a>
-                    </div>
+            <p class="section-eyebrow mb-5">The library</p>
+            <section class="home-series home-banner home-banner--product" aria-labelledby="home-series-title">
+                <h2 id="home-series-title" class="home-series-title">Series</h2>
+                <p class="home-series-deck">Each topic holds the videos, an infographic, and a written report. The original transmissions stay the source.</p>
+                <div id="home-series-grid" class="home-series-grid" aria-busy="true">
+                    <p class="home-series-fallback">The series list loads with the page.</p>
                 </div>
             </section>
         </div>
@@ -388,9 +364,9 @@
                         </div>
                         <div class="oracle-banner-body">
                             <p class="oracle-banner-label">Ask the archive</p>
-                            <h2 id="oracle-title" class="oracle-banner-title">The 21st Oracle v2</h2>
+                            <h2 id="oracle-title" class="oracle-banner-title">The 21st Oracle</h2>
                             <p class="oracle-banner-copy">
-                                Structured answers drawn from the archive — for patterns and navigation, not a replacement for the raw transmissions.
+                                Questions answered from this archive, so you can find your way.
                             </p>
                             <div class="oracle-banner-actions">
                                 <a href="https://notebooklm.google.com/notebook/53f2bdde-0bf2-4399-b713-87e3656ca981"
@@ -400,7 +376,7 @@
                                 </a>
                             </div>
                             <p class="oracle-banner-footnote oracle-banner-footnote--inline" role="note">
-                                <strong>Google account required.</strong> Confirm important points with the originals.
+                                <strong>Google account required.</strong> The originals still decide.
                             </p>
                         </div>
                     </article>
@@ -412,7 +388,7 @@
                         <div class="media-banner-body">
                             <p class="media-banner-label">Rumble</p>
                             <h2 id="media-title" class="media-banner-title">Featured transmission</h2>
-                            <p class="media-banner-copy">One flagship piece from the archive. Full channel on Rumble.</p>
+                            <p class="media-banner-copy">An archive decode. The original frequencies are on <a href="source.html" class="text-link">The Source</a>.</p>
 
                             <div class="home-video-featured" id="home-rumble-grid">
                                 <article class="home-video-card group">
@@ -447,9 +423,7 @@
                                     Full Rumble archive →
                                 </a>
                             </div>
-                            <p class="oracle-banner-footnote oracle-banner-footnote--inline" role="note">
-                                The video above is an archive decode. Original frequencies live on <a href="source.html" class="text-link">The Source</a>.
-                            </p>
+
                         </div>
                     </article>
                 </div>
@@ -465,8 +439,7 @@
                 <div class="home-about-editorial__copy">
                     <h2 id="about-title" class="home-about-editorial__title">What is 21st Memory?</h2>
                     <div class="home-about-editorial__body">
-                        <p><strong>21st Memory</strong> is a free living archive of AI-assisted interpretations of transmissions from <strong>Thalon Thor / Christian21</strong>.</p>
-                        <p>Topics are organized for study — videos, visual synthesis, written reports, and optional quizzes — for clarity and navigation, not ownership of the message. The <a href="source.html" class="text-link">original transmissions</a> remain the source.</p>
+                        <p>Open a topic, study the videos, the infographic, and the written report, then return to the <a href="source.html" class="text-link">original transmission</a>.</p>
                         <p class="home-about-editorial__note" role="note"><strong>AI is a bridge, not the source.</strong> Confirm important points with the originals.</p>
                     </div>
                 </div>
@@ -497,7 +470,7 @@
                 </span>
               </a>
             </div>
-            <p class="footer-brand-desc">A free living archive of AI-assisted interpretations of Thalon Thor’s transmissions — structured for clarity and open to all.</p>
+            <p class="footer-brand-desc">A free companion archive of Thalon Thor’s transmissions.</p>
           </div>
           <div class="footer-col footer-col--links">
             <div class="footer-heading">Explore</div>
@@ -544,6 +517,6 @@
     </footer>
     <script src="assets/js/icons.js" defer></script>
     <script src="assets/js/shared.js" defer></script>
-    <script src="assets/js/home.js?v=8" defer></script>
+    <script src="assets/js/home.js?v=10" defer></script>
 </body>
 </html>

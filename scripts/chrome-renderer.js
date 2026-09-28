@@ -214,8 +214,14 @@ function renderSupportPage(footerData, options = {}) {
 
   const cardMedia = (src) => {
     if (!src) return '';
+    const full = withBasePath(src, basePath);
+    const sized = /^(.*)\.webp$/.exec(src);
+    const known = sized && /(?:codex-banner|oracle-banner|about|featured-transmissions-banner|alice-codex-card|breakdown-codex-card|ascension-codex-card|revelations-codex-card)\.webp$/.test(src);
+    const img = known
+      ? `<img src="${withBasePath(`${sized[1]}-960.webp`, basePath)}" srcset="${withBasePath(`${sized[1]}-640.webp`, basePath)} 640w, ${withBasePath(`${sized[1]}-960.webp`, basePath)} 960w" sizes="(max-width: 720px) 100vw, 380px" alt="" class="support-card-media__img" width="960" height="523" loading="lazy" decoding="async" />`
+      : `<img src="${full}" alt="" class="support-card-media__img" width="960" height="540" loading="lazy" decoding="async" />`;
     return `<span class="support-card-media" aria-hidden="true">
-            <img src="${withBasePath(src, basePath)}" alt="" class="support-card-media__img" width="960" height="540" loading="lazy" decoding="async" />
+            ${img}
             <span class="support-card-media__scrim"></span>
           </span>`;
   };
