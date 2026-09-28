@@ -18273,18 +18273,30 @@ a.topic-root-card {
   line-height: 1.25;
 }
 
-/* About editorial split */
+/* About editorial — essay beside a plate tall enough for the copy */
 .home-about-editorial {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.5rem;
-  align-items: center;
+  gap: 1.75rem;
+  align-items: start;
 }
 
 @media (min-width: 860px) {
   .home-about-editorial {
-    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
-    gap: 2.25rem;
+    grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.85fr);
+    gap: 2.5rem;
+    align-items: start;
+  }
+}
+
+.home-about-editorial__copy {
+  max-width: 42rem;
+  min-width: 0;
+}
+
+@media (min-width: 860px) {
+  .home-about-editorial__copy {
+    max-width: none;
   }
 }
 
@@ -18298,31 +18310,60 @@ a.topic-root-card {
   line-height: 1.15;
 }
 
+.home-about-editorial__heading {
+  margin: 1.15rem 0 0;
+  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
+  font-size: clamp(1.2rem, 2.2vw, 1.45rem);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: #F8FAFC;
+  line-height: 1.25;
+}
+
 .home-about-editorial__body {
   display: grid;
   gap: 0.85rem;
   font-size: 1rem;
   line-height: 1.65;
   color: #E0D4FF;
-  max-width: 36rem;
 }
 
 .home-about-editorial__body p {
   margin: 0;
 }
 
+.home-about-editorial__list {
+  margin: 0.15rem 0;
+  padding: 0 0 0 1.15rem;
+  display: grid;
+  gap: 0.65rem;
+  list-style: disc;
+}
+
+.home-about-editorial__list li::marker {
+  color: #A78BFA;
+}
+
+.home-about-editorial__start {
+  list-style: none;
+  padding-left: 0;
+  gap: 0.5rem;
+}
+
 .home-about-editorial__note {
-  font-size: 0.9rem !important;
-  color: #A78BFA !important;
-  padding-top: 0.35rem;
+  font-size: 1rem !important;
+  color: #E0D4FF !important;
+  padding-top: 0.85rem;
   border-top: 1px solid rgba(76, 61, 107, 0.4);
 }
 
 .home-about-editorial__media {
   position: relative;
+  order: -1;
+  width: 100%;
   border-radius: 1.15rem;
   overflow: hidden;
-  min-height: 12rem;
+  aspect-ratio: 3 / 2;
   box-shadow: var(--surface-tier-elevated);
   background: #0c081c;
 }
@@ -18331,15 +18372,19 @@ a.topic-root-card {
   display: block;
   width: 100%;
   height: 100%;
-  min-height: 14rem;
   object-fit: cover;
-  object-position: center 40%;
+  object-position: center center;
 }
 
 @media (min-width: 860px) {
-  .home-about-editorial__img {
-    min-height: 16rem;
-    max-height: 18rem;
+  .home-about-editorial__media {
+    order: 0;
+    align-self: start;
+    position: sticky;
+    top: 6rem;
+    aspect-ratio: auto;
+    height: min(40rem, calc(100vh - 8rem));
+    min-height: 18rem;
   }
 }
 
