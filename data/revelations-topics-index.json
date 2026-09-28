@@ -335,9 +335,9 @@
             {
               "id": "iatrogenic-death",
               "title": "Iatrogenic Death",
-              "description": "Medicine as harvest — a patient cured is a customer lost.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Iatrogenic Death defines the phenomenon wherein medical personnel, general practitioners, and the broader institutional treatment infrastructure accidentally or purposely terminate human life.",
+              "topic_image": "images/revelations/iatrogenic-death.webp",
+              "is_placeholder": false
             },
             {
               "id": "human-2-0",

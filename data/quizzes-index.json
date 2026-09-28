@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-28T04:07:54.962Z",
-  "total": 238,
+  "generatedAt": "2026-09-28T04:34:46.554Z",
+  "total": 239,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 42
+      "count": 43
     }
   ],
   "quizzes": [
@@ -2834,6 +2834,19 @@
       "href": "quiz/revelations/homecoming-reunion.html",
       "diveHref": "dive/revelations/homecoming-reunion.html",
       "key": "revelations/homecoming-reunion"
+    },
+    {
+      "id": "iatrogenic-death",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Iatrogenic Death",
+      "subtitle": "Test your understanding of Iatrogenic Death — medically induced mortality as the leading cause of death in the industrialized world.",
+      "questionCount": 25,
+      "href": "quiz/revelations/iatrogenic-death.html",
+      "diveHref": "dive/revelations/iatrogenic-death.html",
+      "key": "revelations/iatrogenic-death"
     },
     {
       "id": "inner-illusion",

@@ -1670,7 +1670,7 @@
       "sourceId": "revelations",
       "topicId": "iatrogenic-death",
       "path": "/dive/revelations/iatrogenic-death.html",
-      "live": false,
+      "live": true,
       "title": "Iatrogenic Death"
     },
     {
