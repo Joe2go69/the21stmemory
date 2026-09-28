@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-27T09:33:35.670Z",
-  "total": 237,
+  "generatedAt": "2026-09-28T04:07:54.962Z",
+  "total": 238,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 41
+      "count": 42
     }
   ],
   "quizzes": [
@@ -2886,6 +2886,19 @@
       "href": "quiz/revelations/manufactured-wants.html",
       "diveHref": "dive/revelations/manufactured-wants.html",
       "key": "revelations/manufactured-wants"
+    },
+    {
+      "id": "medical-harvest",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Medical Harvest",
+      "subtitle": "Test your understanding of Medical Harvest — the institutional extraction of loosh, adrenochrome, and human organs behind the facade of healthcare.",
+      "questionCount": 25,
+      "href": "quiz/revelations/medical-harvest.html",
+      "diveHref": "dive/revelations/medical-harvest.html",
+      "key": "revelations/medical-harvest"
     },
     {
       "id": "mission-insertion",

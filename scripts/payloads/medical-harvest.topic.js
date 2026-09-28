@@ -1,0 +1,82 @@
+module.exports = {
+  source: 'revelations',
+  id: 'medical-harvest',
+  title: 'Medical Harvest',
+  description: 'Medical Harvest is the systematic exploitation, physical degradation, and ultimate technological conversion of biological vessels within the inverted simulation realm.',
+  images: {
+    topic: { source: 'Medical Harvest.webp', target: 'medical-harvest.webp' },
+    pdfPreview: { source: 'Medical_Harvest pdf.webp', target: 'medical-harvest-pdf.webp' },
+    infographic: { source: 'Institutional_Exploitation_Engine_Infographic.webp', target: 'institutional-exploitation-engine-infographic.webp' }
+  },
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/1z49uznvblZ6FnZJmb1FMQavQCD414Svc/view?usp=sharing',
+  rumble_videos: [
+    {
+      title: 'The Medical Harvest',
+      embed_url: 'https://rumble.com/embed/v7dwi3o/?pub=4p0ieu',
+      description: 'The Medical Harvest — Institutional healthcare as an extraction engine for loosh, organs, and Human 2.0 conversion.'
+    },
+    {
+      title: 'Hospitals are industrial soul extraction engines',
+      embed_url: 'https://rumble.com/embed/v7dwibc/?pub=4p0ieu',
+      description: 'Hospitals are industrial soul extraction engines — Frontline emergency care supplies the credibility shield over iatrogenic death.'
+    },
+    {
+      title: 'The Human 2',
+      embed_url: 'https://rumble.com/embed/v7dwqno/?pub=4p0ieu',
+      description: 'The Human 2 — True-soul vessels converted into technologically lobotomized cyborg workers.'
+    }
+  ],
+  report: `# Medical Harvest
+
+## Overview
+
+Medical Harvest is the systematic exploitation, physical degradation, and ultimate technological conversion of biological vessels within the inverted simulation realm. Operating behind a carefully constructed facade of life-saving care, this mechanism functions as an industrial-scale extraction engine targeting true souls for loosh, adrenochrome, and human organs, while steering the population toward total physical and mental subjugation. Rather than serving a therapeutic purpose, the institutional healthcare apparatus acts as the primary vehicle for premature mortality and physical harvesting. Under Custodian Control, this system manages the human farm by culling non-playable entities and converting true soul vessels into Human 2.0—a technologically lobotomized cyborg workforce.
+
+## Key Terminology
+
+- **Medical Harvest** — The institutionalized system designed to exploit biological human vessels for energy, organs, and physical containment under the guise of healthcare.
+- **Iatrogenic Death** — Mortality caused directly by medical practitioners and treatment systems, representing the leading cause of death in the industrialized world.
+- **Credibility Shield** — The psychological illusion created by real frontline emergency workers, surgeons, and air ambulance crews to grant moral legitimacy to the broader medical apparatus.
+- **Human 2.0** — A half-man, half-machine cyborg vessel powered by a true soul but technologically lobotomized and stripped of autonomous thought.
+- **Bioweapon COVID Jab** — A lethal injectable medical deployment engineered to execute the systematic die-off of non-playable characters, inserts, and holographic sleeves.
+- **Microchip Implantation** — The preliminary stage of transhumanist integration, involving subdermal extremity implants that condition the population to accept physical cybernetic merging.
+
+## Core Revelations
+
+The fundamental purpose of the modern healthcare framework is the covert extraction of physical and subtle-energy resources from human vessels. Far from being a benevolent sanctuary of healing, the institutional medical grid operates as the primary vector of mortality in modern society, surpassing all natural illnesses in total casualties. This systemic mortality is deliberately masked by genuine frontline medical personnel whose heroic actions build unearned public trust in the overarching system.
+
+Behind this institutional shield lies a far more sinister objective aimed at the permanent subjugation of true souls. While non-souled entities are targeted for physical elimination via pharmaceutical deployments, true soul vessels are designated for conversion into Human 2.0. This cybernetic state strips the individual of independent cognitive processing while retaining their soul energy to power industrial labor in off-world or underground facilities.
+
+## Detailed Mechanics and Key Elements
+
+### The Mechanics of Iatrogenic Mortality and the Credibility Shield
+
+The public perception of healthcare relies heavily on the Emergency Services Illusion. Highly skilled professionals—including rapid response medical helicopter air crews, ambulance services, and trauma surgeons—perform genuine life-saving interventions in horrific accidents and collisions. These individuals act as unwitting heroes whose selfless actions furnish the National Health Service and equivalent international medical bodies with their total public credibility.
+
+Behind this operational shield, Iatrogenic Illness and death operate as the single largest killer in the industrialized world, outstripping cancer and cardiovascular disease. Whether executed through medical negligence, pharmaceutical toxicity, or deliberate misdirection, GP and hospital treatments systematically reduce lifespan and generate continuous physical suffering. This perpetual state of illness and medical panic produces massive volumes of negative emotional energy, feeding the overarching loosh harvest. Furthermore, military conflicts and controlled medical crises provide direct avenues for the illicit collection of human organs and adrenochrome.
+
+### The Human 2.0 Cyborg Agenda
+
+The long-term physical objective of the Custodians is the realization of Human 2.0. This state is defined as a half man, half machine cyborg where a true soul animates a vessel that has been rendered incapable of autonomous thought. Through advanced genetic modification and technological lobotomization, the vessel is transformed into a mindless worker engineered specifically to operate in factories & mines.
+
+The conditioning for this physical merging was initiated decades prior through the incremental normalization of microchip implants. By introducing subdermal chips in extremities for simple tasks like keyless door access, the population was entrained to accept cybernetic hardware inside the biological vessel. This technological integration serves as a stepping stone toward total neural and physical subjugation, aligning with broader transhumanism agendas.
+
+### The Bioweapon Culling Mechanism
+
+In contrast to true soul vessels designated for cybernetic conversion, non-playable characters, holographic sleeves, and digital inserts were targeted for mass eradication. The bioweapon COVID jab was deployed as the primary culling agent for these non-souled entities, resulting in over 1+ billion deaths and more than 2+ billion permanent side effects following the 2021 rollout.
+
+When these non-playable vessels expire, the minor spark of soul luminosity that animated them is released and returned to the collective chest of true-souled beings. This mass culling clears the population landscape while isolating the remaining true soul vessels for final conversion into the Human 2.0 workforce.
+
+## Broader Context and Interconnections
+
+Medical Harvest intersects directly with the broader infrastructure of societal control and energetic exploitation. The generation of loosh through physical trauma, chronic illness, and fear of death directly feeds parasitic entities residing within the simulation. This physical degradation is reinforced by financial entrapment systems, such as the Cestui Que Vie Birth Certificate Bond, which ensure that individuals remain dependent on state-managed healthcare and benefits.
+
+Additionally, the physical alteration of human vessels connects to the occult Baphomet and Trans Sexual agendas, where biological inversion and genetic destabilization serve as physical representations of demonic mockery. Advanced genetics engineered by breakaway scientists on Mars continuously feed new biological weapons and modified genetics into the realm to maintain physical degradation across successive resets.
+
+## Strategic Implications
+
+The deployment of the Medical Harvest apparatus presents immediate tactical and existential consequences for all entities within the realm. Understanding the duality of the medical system breaks the psychological reliance on institutional authority, dismantling the credibility shield that protects medical tyranny. Recognizing that frontline emergency response is leveraged to disguise industrial-scale iatrogenic death allows individuals to evaluate medical interventions critically rather than accepting them out of entrained trust.
+
+Furthermore, awareness of the Human 2.0 trajectory and the true nature of pharmaceutical deployments provides vital defense against transhumanist cybernetic integration. Rejecting subdermal technology and genetic injections preserves the purity of the biological vessel and its pineal connectivity, preventing the technological lobotomization designed to bind true souls into eternal physical servitude.
+`
+};

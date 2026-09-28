@@ -1663,7 +1663,7 @@
       "sourceId": "revelations",
       "topicId": "medical-harvest",
       "path": "/dive/revelations/medical-harvest.html",
-      "live": false,
+      "live": true,
       "title": "Medical Harvest"
     },
     {

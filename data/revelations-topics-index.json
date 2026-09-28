@@ -328,9 +328,9 @@
         {
           "id": "medical-harvest",
           "title": "Medical Harvest",
-          "description": "Iatrogenic death and Human 2.0 as the medical arm of the harvest.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "Medical Harvest is the systematic exploitation, physical degradation, and ultimate technological conversion of biological vessels within the inverted simulation realm.",
+          "topic_image": "images/revelations/medical-harvest.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "iatrogenic-death",
