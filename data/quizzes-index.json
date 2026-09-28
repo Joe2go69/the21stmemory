@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-28T04:34:46.554Z",
-  "total": 239,
+  "generatedAt": "2026-09-28T22:20:28.209Z",
+  "total": 240,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 43
+      "count": 44
     }
   ],
   "quizzes": [
@@ -2639,6 +2639,19 @@
       "href": "quiz/revelations/birth-bond.html",
       "diveHref": "dive/revelations/birth-bond.html",
       "key": "revelations/birth-bond"
+    },
+    {
+      "id": "bone-vaults",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Bone Vaults",
+      "subtitle": "Test your understanding of Bone Vaults — subterranean trophy rooms of stacked human skeletal remains built after planetary resets.",
+      "questionCount": 25,
+      "href": "quiz/revelations/bone-vaults.html",
+      "diveHref": "dive/revelations/bone-vaults.html",
+      "key": "revelations/bone-vaults"
     },
     {
       "id": "choice-architecture",

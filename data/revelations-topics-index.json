@@ -351,9 +351,9 @@
         {
           "id": "bone-vaults",
           "title": "Bone Vaults",
-          "description": "Cathedrals of the dead — vaulted rooms of human bone as monuments to the harvest.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true
+          "description": "Bone Vaults are subterranean, cavernous chambers constructed from the stacked skeletal remains of harvested human populations following major planetary resets.",
+          "topic_image": "images/revelations/bone-vaults.webp",
+          "is_placeholder": false
         }
       ]
     },
