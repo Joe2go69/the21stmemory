@@ -360,9 +360,9 @@
     {
       "id": "reset-harvest",
       "title": "Reset Harvest",
-      "description": "Reset sequence and story stages, harvest toll, clone genetics, DUMB repopulation, and the Roswell checkmate.",
-      "topic_image": "images/revelations/placeholder.webp",
-      "is_placeholder": true,
+      "description": "The Reset Harvest is the systematic, periodic culling, wiping, and repopulation of the human species inside this realm by parasitic control entities.",
+      "topic_image": "images/revelations/reset-harvest.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "reset-sequence",

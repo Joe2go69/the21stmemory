@@ -1691,7 +1691,7 @@
       "sourceId": "revelations",
       "topicId": "reset-harvest",
       "path": "/dive/revelations/reset-harvest.html",
-      "live": false,
+      "live": true,
       "title": "Reset Harvest"
     },
     {
