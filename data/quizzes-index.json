@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-28T22:20:28.209Z",
-  "total": 240,
+  "generatedAt": "2026-09-29T01:45:59.126Z",
+  "total": 241,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 44
+      "count": 45
     }
   ],
   "quizzes": [
@@ -2847,6 +2847,19 @@
       "href": "quiz/revelations/homecoming-reunion.html",
       "diveHref": "dive/revelations/homecoming-reunion.html",
       "key": "revelations/homecoming-reunion"
+    },
+    {
+      "id": "human-2-0",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Human 2.0",
+      "subtitle": "Test your understanding of Human 2.0 — the conversion of true soul-bearing humans into a technologically lobotomized cyborg workforce.",
+      "questionCount": 25,
+      "href": "quiz/revelations/human-2-0.html",
+      "diveHref": "dive/revelations/human-2-0.html",
+      "key": "revelations/human-2-0"
     },
     {
       "id": "iatrogenic-death",
