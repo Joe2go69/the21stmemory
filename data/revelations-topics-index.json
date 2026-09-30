@@ -374,9 +374,9 @@
             {
               "id": "stone-age-restart",
               "title": "Stone Age Restart",
-              "description": "The post-reset restart that dumps survivors into a primitive cover story.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "The Stone Age Restart is the foundational control mechanism that returns human civilization to zero tools after a planetary or localized reset.",
+              "topic_image": "images/revelations/stone-age-restart.webp",
+              "is_placeholder": false
             },
             {
               "id": "story-stages",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T02:36:48.532Z",
-  "total": 243,
+  "generatedAt": "2026-09-30T11:01:23.810Z",
+  "total": 244,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 47
+      "count": 48
     }
   ],
   "quizzes": [
@@ -3146,6 +3146,19 @@
       "href": "quiz/revelations/sovereign-accord.html",
       "diveHref": "dive/revelations/sovereign-accord.html",
       "key": "revelations/sovereign-accord"
+    },
+    {
+      "id": "stone-age-restart",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Stone Age Restart",
+      "subtitle": "Test your understanding of Stone Age Restart — the artificial zero-tool baseline imposed after a reset.",
+      "questionCount": 25,
+      "href": "quiz/revelations/stone-age-restart.html",
+      "diveHref": "dive/revelations/stone-age-restart.html",
+      "key": "revelations/stone-age-restart"
     },
     {
       "id": "subtle-help",
