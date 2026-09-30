@@ -381,9 +381,9 @@
             {
               "id": "story-stages",
               "title": "Story Stages",
-              "description": "Stagecoach to spaghetti western — the three-stage rewrite of American and world history.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Story Stages is the multi-generational installation of manufactured historical narratives that builds an artificial reality for post-reset cloned populations.",
+              "topic_image": "images/revelations/story-stages.webp",
+              "is_placeholder": false
             }
           ]
         },

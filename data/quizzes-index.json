@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T11:01:23.810Z",
-  "total": 244,
+  "generatedAt": "2026-09-30T11:32:09.324Z",
+  "total": 245,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 48
+      "count": 49
     }
   ],
   "quizzes": [
@@ -3159,6 +3159,19 @@
       "href": "quiz/revelations/stone-age-restart.html",
       "diveHref": "dive/revelations/stone-age-restart.html",
       "key": "revelations/stone-age-restart"
+    },
+    {
+      "id": "story-stages",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Story Stages",
+      "subtitle": "Test your understanding of Story Stages — the phased media installation that builds a counterfeit past after a reset.",
+      "questionCount": 25,
+      "href": "quiz/revelations/story-stages.html",
+      "diveHref": "dive/revelations/story-stages.html",
+      "key": "revelations/story-stages"
     },
     {
       "id": "subtle-help",
