@@ -367,9 +367,9 @@
         {
           "id": "reset-sequence",
           "title": "Reset Sequence",
-          "description": "How a reset is staged: stone-age restart, then narrative installation in three story stages.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "The Reset Sequence is the structured, multi-phase operational protocol deployed following a population wipe to restore order, restock the realm with cloned human stock, and systematically institute psychological compliance across generations.",
+          "topic_image": "images/revelations/reset-sequence.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "stone-age-restart",

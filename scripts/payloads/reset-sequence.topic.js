@@ -1,0 +1,82 @@
+module.exports = {
+  source: 'revelations',
+  id: 'reset-sequence',
+  title: 'Reset Sequence',
+  description: 'The Reset Sequence is the structured, multi-phase operational protocol deployed following a population wipe to restore order, restock the realm with cloned human stock, and systematically institute psychological compliance across generations.',
+  images: {
+    topic: { source: 'Reset Sequence.webp', target: 'reset-sequence.webp' },
+    pdfPreview: { source: 'Engineered_History_Erasure.webp', target: 'engineered-history-erasure.webp' },
+    infographic: { source: 'Post-Reset_Repopulation_Control_Protocol.webp', target: 'post-reset-repopulation-control-protocol.webp' }
+  },
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/1YheZsOvrJs_Rcs5T-cfI_DYWkuERUXUN/view?usp=sharing',
+  rumble_videos: [
+    {
+      title: 'Reset Sequence Blueprint',
+      embed_url: 'https://rumble.com/embed/v7dzuiu/?pub=4p0ieu',
+      description: 'Reset Sequence Blueprint — The multi-stage protocol that restores order, restocks cloned human stock, and installs psychological compliance after a population wipe.'
+    },
+    {
+      title: 'The Secret History of Orphan Train Clones',
+      embed_url: 'https://rumble.com/embed/v7dzuu4/?pub=4p0ieu',
+      description: 'The Secret History of Orphan Train Clones — How underground-raised clone children were transported into repurposed stone cities and rural frontiers.'
+    },
+    {
+      title: 'The Stone Age Restart Protocol',
+      embed_url: 'https://rumble.com/embed/v7dzuyc/?pub=4p0ieu',
+      description: 'The Stone Age Restart Protocol — The deliberate return of human technological access to a zero-tool baseline after a reset.'
+    }
+  ],
+  report: `# Reset Sequence
+
+## Overview
+The Reset Sequence is the structured, multi-phase operational protocol deployed following a population wipe to restore order, restock the realm with cloned human stock, and systematically institute psychological compliance across generations. At its functional core, every reset begins with a Stone Age Restart, forcing surviving or newly deployed populations back to a zero-tool baseline to prevent humanity from discovering or replicating the advanced harmonic technologies of predecessor civilisations like Tartaria. The sequence operates as an engineered timeline where authentic historical memory is systematically erased and replaced by multi-generational cultural narratives, cinema, and engineered social frameworks. By managing repopulation through underground cloning facilities and distributing new populations into repurposed stone infrastructure, the control architecture ensures that each incoming human generation accepts a completely fabricated reality as established truth.
+
+## Key Terminology
+- **Reset Sequence** — The multi-stage operational protocol executed following a population wipe, encompassing physical repopulation, historical erasure, and multi-generational narrative installation.
+- **Stone Age Restart** — The deliberate resetting of human technological access to absolute zero following a reset, preventing public awareness or replication of Tartarian-level technology.
+- **DUMB Repopulation** — The process of gestating and raising cloned children within Deep Underground Military Bases (DUMBs) until surface cleanup operations are complete.
+- **Orphan Trains** — The historical transport systems used to deploy underground-raised clone children across repopulated surface cities and rural frontiers.
+- **Story Stages** — The phased, multi-generational installation of manufactured historical and cultural narratives delivered through literature, media, and cinema.
+- **15-Minute Cities** — Urban containment zones designed under the guise of local convenience to enforce absolute spatial restriction and digital credit monitoring.
+
+## Core Revelations
+Historical Eras as Manufactured Programming: Accepted historical periods, such as the American Old West, were never organic eras of human expansion but carefully scripted narrative installations designed to provide a plausible backstory for newly deployed clone populations.
+
+Clone Repopulation and Genetic Recombination: Modern surface populations originate from clone stock raised in underground facilities; while the initial waves were exact genetic duplicates, subsequent sexual reproduction introduced genetic recombination, generating unique individuals while preserving ancestral atavisms and temporal lookalikes.
+
+Incremental Conditioning and the Convenience Trap: Major societal and technological shifts are never enforced overnight; rather, they are introduced over decades through "easy-option" lifestyle conveniences that gradually condition the population to accept total urban containment and social credit monitoring.
+
+## Detailed Mechanics and Key Elements
+### Repopulation and Underground Deployment
+Following the physical devastation of a reset, cloned human children are gestated and raised to ages three or four within Deep Underground Military Bases (DUMBs). This subterranean holding period allows surface clean-up crews to clear structural wreckage, mudflood debris, and petrified remains from prior civilisations. Once surface conditions stabilize, these children are transported via Orphan Trains into repurposed stone cities and rural settlements. To anchor the new narrative, a small percentage of permitted migrants or overseers are interspersed among the clone populations, providing false continuity and historical documentation. As these initial clone generations mature and reproduce sexually, genetic recombination shuffles their DNA, creating unique genetic individuals whose facial features are progressively sculpted over time by soul harmonics, though genetic doppelgängers and atavistic throwbacks frequently recur.
+
+### The Three Stages of Narrative Installation
+To rewrite the history of repopulated territories, the sequence utilizes a three-stage cultural installation process, historically demonstrated through the American Old West paradigm:
+
+Stage 1: The Classical Era (1920s–1950s) — Delivered through black-and-white cinema featuring strict White Hat vs. Black Hat moral tropes, such as Stagecoach and High Noon. This stage establishes a romanticized frontier myth of an empty, arid wilderness inhabited only by native tribes, overriding the living memories of Tartarian architecture and giant populations held by surviving elders.
+
+Stage 2: The Revisionist Era (Late 1950s–1970s) — Utilizes Technicolor and complex Grey Hat anti-heroes in films like The Searchers, The Wild Bunch, and Unforgiven. By flooding the screen with saturated desert hues, sweat, and visceral gunfights, this stage imparts a gritty, tactile realism that embeds the manufactured history deep into the subconscious mind.
+
+Stage 3: The Spaghetti Western Era (1960s Onward) — Aggressive, amoral subgenres directed by Italian filmmakers like Sergio Leone, featuring archetypes such as Clint Eastwood’s "Man with No Name" in A Fistful of Dollars. Operatic music scores and extreme close-ups complete the multi-layered tapestry, leaving the population with a dense, unquestioned cultural memory of an era that never actually occurred.
+
+### Suburbia, Screen Life, and Containment
+As the frontier myth matures, the sequence advances the population from agrarian settlement into suburban development, digital screen saturation, and automated consumerism. Modern "easy-option" technologies—such as online retail platforms, door-to-door food delivery, and electric vehicles—are incrementally introduced under the banner of public safety and time-saving convenience. This multi-generational acclimatization breaks long-standing communal habits and self-sufficient rituals, seamlessly preparing the populace for transition into 15-Minute Cities managed by automated Social Credit Score Systems.
+
+### Micro-Resets Versus Master Resets
+The operational execution of the sequence operates across two distinct scales:
+
+Master Resets — Occur globally approximately every 1,000 to 1,500 years, during which the entirety of the surface plane is cleared, Tartarian architecture is submerged or petrified, and a further downgraded, smaller human vessel is introduced.
+
+Mini-Resets — Continuous, localized cycles sweeping across individual regions or continents disguised as natural disasters, engineered famines, or geopolitical conflicts (such as the 1816–1819 mini ice age or regional wars in Bosnia and Somalia). These targeted operations displace local populations, destroy remaining heritage structures, and facilitate covert population harvesting.
+
+## Broader Context and Interconnections
+The Reset Sequence functions as the primary repopulation and social engineering mechanism executing under the overarching framework of the Reset Harvest. Horizontally, it integrates with atmospheric holographic inserts, Non-Player Characters (NPCs), and inverted grid infrastructure to maintain seamless environmental control. Downward, the sequence relies upon the genetic downsizing of the Taran Human vessel and the continuous operation of the post-mortem amnesia vortex to prevent past-life recollection from disrupting the newly installed narrative.
+
+## Strategic Implications
+Total Erasure of Heritage: By stripping technological tools and installing staged media histories, the human population remains permanently isolated from its true multidimensional origins and predecessor achievements.
+
+Consensual Enslavement via Convenience: By staging societal shifts over extended periods, populations willingly opt into spatial containment zones and digital monitoring systems, believing they are choosing greater personal comfort.
+
+Deconstruction of Manufactured Reality: Identifying the structured stages of narrative installation breaks the psychological hooks binding human consciousness, enabling individuals to recognize manufactured cultural history as deliberate simulation design.
+`
+};

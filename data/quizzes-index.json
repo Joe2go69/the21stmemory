@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T04:59:42.115Z",
-  "total": 242,
+  "generatedAt": "2026-09-30T02:36:48.532Z",
+  "total": 243,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 46
+      "count": 47
     }
   ],
   "quizzes": [
@@ -3094,6 +3094,19 @@
       "href": "quiz/revelations/reset-harvest.html",
       "diveHref": "dive/revelations/reset-harvest.html",
       "key": "revelations/reset-harvest"
+    },
+    {
+      "id": "reset-sequence",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Reset Sequence",
+      "subtitle": "Test your understanding of Reset Sequence — the multi-phase protocol that restores order after a population wipe, restarts technology at zero, and installs manufactured history.",
+      "questionCount": 25,
+      "href": "quiz/revelations/reset-sequence.html",
+      "diveHref": "dive/revelations/reset-sequence.html",
+      "key": "revelations/reset-sequence"
     },
     {
       "id": "simulation-field",

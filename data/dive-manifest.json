@@ -1698,7 +1698,7 @@
       "sourceId": "revelations",
       "topicId": "reset-sequence",
       "path": "/dive/revelations/reset-sequence.html",
-      "live": false,
+      "live": true,
       "title": "Reset Sequence"
     },
     {
