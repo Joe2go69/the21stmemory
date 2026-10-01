@@ -1719,7 +1719,7 @@
       "sourceId": "revelations",
       "topicId": "harvest-toll",
       "path": "/dive/revelations/harvest-toll.html",
-      "live": false,
+      "live": true,
       "title": "Harvest Toll"
     },
     {

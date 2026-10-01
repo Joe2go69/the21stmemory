@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T11:32:09.324Z",
-  "total": 245,
+  "generatedAt": "2026-10-01T01:21:09.835Z",
+  "total": 246,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory — one live quiz so far.",
       "image": "images/revelations-codex-card.webp",
-      "count": 49
+      "count": 50
     }
   ],
   "quizzes": [
@@ -2821,6 +2821,19 @@
       "href": "quiz/revelations/gat-programs.html",
       "diveHref": "dive/revelations/gat-programs.html",
       "key": "revelations/gat-programs"
+    },
+    {
+      "id": "harvest-toll",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Harvest Toll",
+      "subtitle": "Test your understanding of Harvest Toll — the quantified cumulative human loss, biological extraction, and negative energetic yield from manufactured mini-resets.",
+      "questionCount": 25,
+      "href": "quiz/revelations/harvest-toll.html",
+      "diveHref": "dive/revelations/harvest-toll.html",
+      "key": "revelations/harvest-toll"
     },
     {
       "id": "holographic-sleeves",

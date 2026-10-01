@@ -390,9 +390,9 @@
         {
           "id": "harvest-toll",
           "title": "Harvest Toll",
-          "description": "The human cost of each reset — loosh, adrenochrome, and the body count the farm requires.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true
+          "description": "The systematic, quantified biological extraction, physical slaughter, and negative energetic yield forced upon humanity through manufactured global and localized mini-resets.",
+          "topic_image": "images/revelations/harvest-toll.webp",
+          "is_placeholder": false
         },
         {
           "id": "clone-genetics",
