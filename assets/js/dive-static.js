@@ -35,9 +35,27 @@ function initBreakdownSeriesLink() {
   else actions.appendChild(link);
 }
 
+function rememberLastDive() {
+  const path = (window.location.pathname || '').replace(/\\/g, '/');
+  const match = path.match(/\/dive\/([^/]+)\/([^/]+)\.html$/i);
+  if (!match) return;
+  const title = (document.querySelector('h1')?.textContent || match[2]).replace(/\s+/g, ' ').trim();
+  const href = `dive/${match[1]}/${match[2]}.html`;
+  try {
+    localStorage.setItem('21st-memory-last-dive-v1', JSON.stringify({
+      href,
+      title,
+      savedAt: Date.now()
+    }));
+  } catch (_) {
+    /* private mode */
+  }
+}
+
 function initDiveStatic() {
   if (!document.body?.dataset?.diveStatic) return;
 
+  rememberLastDive();
   initJumpPills();
   initInfographicModal();
   initSlideDeckArtifacts();

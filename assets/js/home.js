@@ -255,9 +255,11 @@ function renderHomeSeriesCard(source, stats) {
 
 function bindHomeSeriesImages(root) {
   root.querySelectorAll('.source-card-img').forEach((img) => {
-    img.addEventListener('error', () => {
-      img.remove();
-    }, { once: true });
+    const dropBroken = () => img.remove();
+    img.addEventListener('error', dropBroken, { once: true });
+    // Lazy images that have not been requested yet report complete + naturalWidth 0.
+    // Only treat as broken when the browser actually selected a source.
+    if (img.complete && img.naturalWidth === 0 && img.currentSrc) dropBroken();
   });
 }
 
@@ -288,15 +290,62 @@ async function loadHomeSeries() {
 
     grid.innerHTML = sources.map((source, index) => renderHomeSeriesCard(source, statsList[index])).join('');
     grid.setAttribute('aria-busy', 'false');
+    if (typeof window.realignMeasuredHash === 'function') window.realignMeasuredHash();
     bindHomeSeriesImages(grid);
   } catch (error) {
     console.warn('Series list unavailable:', error);
     grid.setAttribute('aria-busy', 'false');
     grid.innerHTML = '<p class="home-series-fallback">The series list is temporarily unavailable.</p>';
+    if (typeof window.realignMeasuredHash === 'function') window.realignMeasuredHash();
   }
 }
 
+function readUnfinishedQuiz() {
+  try {
+    const map = JSON.parse(localStorage.getItem('21st-memory-quiz-resume-v1') || '{}');
+    const maxAge = 7 * 24 * 60 * 60 * 1000;
+    const entries = Object.entries(map).filter(([, blob]) => {
+      if (!blob || blob.v !== 1 || !blob.savedAt) return false;
+      return Date.now() - Number(blob.savedAt) <= maxAge;
+    });
+    entries.sort((a, b) => Number(b[1].savedAt) - Number(a[1].savedAt));
+    if (!entries.length) return null;
+    const [key, blob] = entries[0];
+    if (!/^[\w-]+\/[\w-]+$/.test(key)) return null;
+    const title = String(blob.title || '').trim();
+    if (!title) return null;
+    return { href: `quiz/${key}.html`, title, label: 'Continue' };
+  } catch (_) {
+    return null;
+  }
+}
+
+function readLastDive() {
+  try {
+    const blob = JSON.parse(localStorage.getItem('21st-memory-last-dive-v1') || 'null');
+    if (!blob || !blob.href || !blob.title) return null;
+    if (!/^dive\/[\w-]+\/[\w-]+\.html$/.test(blob.href)) return null;
+    return { href: blob.href, title: String(blob.title), label: 'Return to' };
+  } catch (_) {
+    return null;
+  }
+}
+
+function paintHomeResume() {
+  const el = document.getElementById('home-resume');
+  if (!el) return;
+  const item = readUnfinishedQuiz() || readLastDive();
+  if (!item) {
+    el.hidden = true;
+    el.textContent = '';
+    return;
+  }
+  el.hidden = false;
+  el.innerHTML = `<a class="text-link" href="${escapeHtml(item.href)}">${escapeHtml(item.label)} · ${escapeHtml(item.title)}</a>`;
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
+  paintHomeResume();
   await Promise.all([loadHomeArchiveStats(), loadHomeSeries()]);
 
   const codexRoot = document.getElementById('codex');

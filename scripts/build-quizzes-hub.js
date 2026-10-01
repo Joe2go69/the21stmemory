@@ -18,17 +18,17 @@ const SOURCE_META = {
     id: 'alice',
     label: 'Alice',
     title: 'Following Alice in the Rabbit Hole',
-    short: 'Foundational rabbit-hole transmission',
+    short: 'Foundational rabbit-hole series',
     desc: 'Core rabbit-hole topics — density, history, control systems, and the path of remembering.',
-    image: 'images/alice-codex-card.webp',
+    image: 'images/alice-codex-card-960.webp',
   },
   breakdown: {
     id: 'breakdown',
     label: 'Breakdown',
-    title: 'Mega Breakdown Board Notes',
+    title: 'Mega Breakdown Board Notes & Highlights',
     short: 'Final-stage Great Awakening notes',
     desc: 'Board-note deep dives on the grid, timelines, and the architecture of the shift.',
-    image: 'images/breakdown-codex-card.webp',
+    image: 'images/breakdown-codex-card-960.webp',
   },
   ascension: {
     id: 'ascension',
@@ -36,15 +36,15 @@ const SOURCE_META = {
     title: 'The Long-Awaited Ascension Process',
     short: 'EMF ascension process',
     desc: 'Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.',
-    image: 'images/ascension-codex-card.webp',
+    image: 'images/ascension-codex-card-960.webp',
   },
   revelations: {
     id: 'revelations',
     label: 'Revelations',
     title: 'A Brief Synopsis of Revelations',
     short: 'Six-part revelations synopsis',
-    desc: 'Physical existence, inversion, and the return of memory — one live quiz so far.',
-    image: 'images/revelations-codex-card.webp',
+    desc: 'Physical existence, inversion, and the return of memory.',
+    image: 'images/revelations-codex-card-960.webp',
   },
 };
 
@@ -120,22 +120,22 @@ function renderPathCards(quizzes) {
     .map((meta) => {
       const count = quizzes.filter((q) => q.sourceId === meta.id).length;
       if (!count) return '';
-      const img = meta.image
-        ? `<span class="quiz-hub-path-card__media" aria-hidden="true">
-  <img src="${escapeAttr(meta.image)}" alt="" class="quiz-hub-path-card__img" width="640" height="360" loading="lazy" decoding="async" />
-  <span class="quiz-hub-path-card__scrim"></span>
-</span>`
+      const src960 = meta.image || '';
+      const src640 = src960.replace(/-960\.webp$/, '-640.webp');
+      const img = src960
+        ? `<span class="source-card-media" style="background-color:#0F0A1F">
+    <img src="${escapeAttr(src960)}" srcset="${escapeAttr(src640)} 640w, ${escapeAttr(src960)} 960w" sizes="(max-width: 720px) 100vw, 360px" alt="" class="source-card-img" width="960" height="523" loading="lazy" decoding="async" />
+    <span class="source-card-media-fade" aria-hidden="true"></span>
+  </span>`
         : '';
-      return `<button type="button" class="quiz-hub-path-card quiz-hub-path-card--${escapeAttr(meta.id)}${meta.image ? ' quiz-hub-path-card--has-media' : ''}" data-quiz-path="${escapeAttr(meta.id)}" aria-controls="quiz-browse">
+      const countLabel = `${count} ${count === 1 ? 'quiz' : 'quizzes'}`;
+      return `<button type="button" class="memory-card content-card source-card quiz-hub-path-card" data-quiz-path="${escapeAttr(meta.id)}" aria-controls="quiz-browse">
   ${img}
-  <span class="quiz-hub-path-card__body">
-    <p class="quiz-hub-path-card__eyebrow">${escapeHtml(meta.short)}</p>
-    <h2 class="quiz-hub-path-card__title">${escapeHtml(meta.title)}</h2>
-    <p class="quiz-hub-path-card__desc">${escapeHtml(meta.desc || meta.short)}</p>
-    <span class="quiz-hub-path-card__meta">
-      <span class="quiz-hub-path-card__count">${count} ${count === 1 ? 'quiz' : 'quizzes'}</span>
-      <span class="quiz-hub-path-card__cta">Browse path →</span>
-    </span>
+  <span class="source-card-body">
+    <span class="card-label">${escapeHtml(meta.short)}</span>
+    <h2 class="source-card-title">${escapeHtml(meta.title)}</h2>
+    <p class="source-card-meta quiz-hub-path-card__count">${countLabel}</p>
+    <span class="source-card-action card-action">Browse quizzes <span class="source-card-action-arrow" aria-hidden="true">→</span></span>
   </span>
 </button>`;
     })

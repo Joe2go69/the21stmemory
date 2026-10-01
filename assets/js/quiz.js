@@ -250,6 +250,7 @@
         mode: state.mode,
         length: state.length,
         runKind: state.runKind,
+        title: state.data.title || '',
         numbers: questions.map((q) => q.number),
         optionOrder
       };

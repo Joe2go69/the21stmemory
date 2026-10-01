@@ -348,6 +348,13 @@ function getFixedNavOffset() {
   return h + 12; // tight gap under nav — section eyebrow lands cleanly
 }
 
+function realignMeasuredHash() {
+  const id = (window.location.hash || '').replace(/^#/, '').toLowerCase();
+  if (!MEASURED_SCROLL_HASHES.has(id)) return false;
+  if (!document.getElementById(id)) return false;
+  return scrollToSectionId(id, { smooth: false });
+}
+
 function scrollToSectionId(id, { smooth = true } = {}) {
   if (!id) return false;
   const target = document.getElementById(id);
@@ -422,14 +429,13 @@ function initMeasuredSectionScroll() {
   });
 
   const alignIfMeasuredHash = () => {
-    const id = (window.location.hash || '').replace(/^#/, '').toLowerCase();
-    if (!MEASURED_SCROLL_HASHES.has(id)) return;
-    if (!document.getElementById(id)) return;
     requestAnimationFrame(() => {
-      scrollToSectionId(id, { smooth: false });
-      setTimeout(() => scrollToSectionId(id, { smooth: false }), 50);
+      realignMeasuredHash();
+      setTimeout(realignMeasuredHash, 50);
     });
   };
+
+  window.realignMeasuredHash = realignMeasuredHash;
 
   if (document.readyState === 'complete') {
     alignIfMeasuredHash();

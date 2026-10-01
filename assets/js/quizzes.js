@@ -145,7 +145,7 @@ function initQuizzesHub() {
       if (!pathId || pathId === 'all') return;
       const pathQuizzes = quizzes.filter((q) => q.sourceId === pathId);
       const total = pathQuizzes.length || parseInt(
-        (card.querySelector('.quiz-hub-path-card__count')?.textContent || '').replace(/\D/g, ''),
+        (card.querySelector('.quiz-hub-path-card__count, .source-card-meta')?.textContent || '').replace(/\D/g, ''),
         10
       ) || 0;
       let attempted = 0;
@@ -159,7 +159,7 @@ function initQuizzesHub() {
         }
       });
       const avg = attempted ? Math.round(sumPct / attempted) : null;
-      const countEl = card.querySelector('.quiz-hub-path-card__count');
+      const countEl = card.querySelector('.quiz-hub-path-card__count, .source-card-meta');
       if (countEl && total) {
         countEl.textContent =
           attempted > 0
@@ -169,14 +169,14 @@ function initQuizzesHub() {
       let progressEl = card.querySelector('[data-path-progress]');
       if (attempted > 0) {
         if (!progressEl) {
-          progressEl = document.createElement('span');
-          progressEl.className = 'quiz-hub-path-card__progress';
+          progressEl = document.createElement('div');
+          progressEl.className = 'source-card-progress';
           progressEl.setAttribute('data-path-progress', '');
-          const meta = card.querySelector('.quiz-hub-path-card__meta');
-          if (meta) meta.insertBefore(progressEl, meta.firstChild);
+          const action = card.querySelector('.source-card-action');
+          if (action) action.before(progressEl);
         }
         const pctDone = total ? Math.round((attempted / total) * 100) : 0;
-        progressEl.innerHTML = `<span class="quiz-hub-path-card__progress-fill" style="width:${pctDone}%"></span>`;
+        progressEl.innerHTML = `<div class="source-card-progress__fill" style="width:${pctDone}%"></div>`;
         progressEl.title = `${attempted} of ${total} attempted on this device`;
       } else if (progressEl) {
         progressEl.remove();
