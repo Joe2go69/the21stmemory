@@ -397,9 +397,9 @@
         {
           "id": "clone-genetics",
           "title": "Clone Genetics",
-          "description": "Clones, orphans, and weaponized species used to refill emptied cities.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "Clone Genetics defines the synthetic biological architecture and batch-reproduction framework utilized to restock human surface populations following major civilisational wipes.",
+          "topic_image": "images/revelations/clone-genetics.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "dumb-repopulation",

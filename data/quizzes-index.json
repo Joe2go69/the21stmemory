@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T02:48:12.486Z",
-  "total": 246,
+  "generatedAt": "2026-10-01T04:46:55.820Z",
+  "total": 247,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 50
+      "count": 51
     }
   ],
   "quizzes": [
@@ -2665,6 +2665,19 @@
       "href": "quiz/revelations/choice-architecture.html",
       "diveHref": "dive/revelations/choice-architecture.html",
       "key": "revelations/choice-architecture"
+    },
+    {
+      "id": "clone-genetics",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Clone Genetics",
+      "subtitle": "Test your understanding of Clone Genetics — the synthetic batch-reproduction framework that restocks surface populations after civilisational wipes.",
+      "questionCount": 25,
+      "href": "quiz/revelations/clone-genetics.html",
+      "diveHref": "dive/revelations/clone-genetics.html",
+      "key": "revelations/clone-genetics"
     },
     {
       "id": "clueless-protocol",
