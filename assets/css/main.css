@@ -23178,6 +23178,109 @@ a.topic-section-row.category-toggle-btn:hover {
   }
 }
 
+/* Quiz catalog: one short line. Status only after a score. */
+a.quiz-hub-row,
+a.quiz-hub-card {
+  position: relative !important;
+  align-items: center !important;
+  gap: 0.65rem 0.85rem !important;
+  padding: 0.5rem 0.85rem !important;
+  min-height: 0 !important;
+}
+
+.quiz-hub-row__body {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem 0.7rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.quiz-hub-card__title,
+.quiz-hub-row__title {
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.quiz-hub-card__meta,
+.quiz-hub-row__meta {
+  margin-top: 0 !important;
+  flex-shrink: 0;
+}
+
+.quiz-hub-card__count,
+.quiz-hub-row__count {
+  padding: 0 !important;
+  border: 0 !important;
+  background: none !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.quiz-hub-row__status[hidden] {
+  display: none !important;
+}
+
+.quiz-hub-row__progress {
+  position: absolute;
+  left: 0.85rem;
+  right: 0.85rem;
+  bottom: 0.22rem;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.quiz-hub-row__progress-fill {
+  display: block;
+  height: 100%;
+  background: #c4b5fd;
+}
+
+a.quiz-hub-row.has-resume,
+a.quiz-hub-card.has-resume {
+  padding-bottom: 0.7rem !important;
+}
+
+.quiz-hub-catalog--grid a.quiz-hub-row,
+.quiz-hub-catalog--grid a.quiz-hub-card {
+  min-height: 0 !important;
+  padding: 0.7rem 0.85rem !important;
+}
+
+.quiz-hub-catalog--grid .quiz-hub-row__body {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  width: 100%;
+}
+
+.quiz-hub-catalog--grid .quiz-hub-card__title,
+.quiz-hub-catalog--grid .quiz-hub-row__title {
+  white-space: normal;
+}
+
+.quiz-hub-catalog--grid .quiz-hub-card__cta,
+.quiz-hub-catalog--grid .quiz-hub-row__cta {
+  margin-top: 0.35rem;
+}
+
+@media (max-width: 640px) {
+  .quiz-hub-row__body {
+    flex-wrap: wrap;
+  }
+
+  .quiz-hub-card__title,
+  .quiz-hub-row__title {
+    white-space: normal;
+  }
+}
+
 /* Wins over the later !important card lift (same specificity, last in the file). */
 @media (prefers-reduced-motion: reduce) {
   .memory-card:not(.static-card):not(.topics-filter-panel):hover,

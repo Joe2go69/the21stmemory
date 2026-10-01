@@ -63,6 +63,17 @@ function initQuizzesHub() {
     }
   }
 
+  function readResumeMap() {
+    try {
+      const raw = localStorage.getItem('21st-memory-quiz-resume-v1');
+      if (!raw) return {};
+      const parsed = JSON.parse(raw);
+      return parsed && typeof parsed === 'object' ? parsed : {};
+    } catch (_) {
+      return {};
+    }
+  }
+
   function scoreTier(pct) {
     if (pct >= 90) return 'excellent';
     if (pct >= QUIZ_PASS_PCT) return 'strong';
@@ -184,8 +195,32 @@ function initQuizzesHub() {
     });
   }
 
+  function paintResumeBar(card, resume) {
+    let bar = card.querySelector('[data-quiz-progress]');
+    const maxAge = 7 * 24 * 60 * 60 * 1000;
+    const fresh = resume && resume.v === 1 && resume.savedAt && (Date.now() - Number(resume.savedAt) <= maxAge);
+    if (!fresh) {
+      if (bar) bar.remove();
+      card.classList.remove('has-resume');
+      return false;
+    }
+    const total = Number(resume.length) || (Array.isArray(resume.numbers) ? resume.numbers.length : 0);
+    const answered = resume.answers ? Object.keys(resume.answers).length : 0;
+    const pct = total ? Math.min(100, Math.round((answered / total) * 100)) : 0;
+    if (!bar) {
+      bar = document.createElement('span');
+      bar.className = 'quiz-hub-row__progress';
+      bar.setAttribute('data-quiz-progress', '');
+      card.appendChild(bar);
+    }
+    bar.innerHTML = `<span class="quiz-hub-row__progress-fill" style="width:${pct}%"></span>`;
+    card.classList.add('has-resume');
+    return true;
+  }
+
   function paintScores() {
     const map = readProgressMap();
+    const resumes = readResumeMap();
     cards.forEach((card) => {
       const key = card.getAttribute('data-quiz-key') || '';
       const scoreEl = card.querySelector('[data-quiz-score]');
@@ -195,6 +230,7 @@ function initQuizzesHub() {
       if (!key) return;
 
       const entry = map[key];
+      const resumed = paintResumeBar(card, resumes[key]);
       if (entry && typeof entry.bestPct === 'number') {
         const tier = scoreTier(entry.bestPct);
         if (scoreEl) {
@@ -215,7 +251,7 @@ function initQuizzesHub() {
           attemptsEl.hidden = false;
           attemptsEl.textContent = n === 1 ? '1 attempt' : `${n} attempts`;
         }
-        if (ctaEl) ctaEl.textContent = 'Retake →';
+        if (ctaEl) ctaEl.textContent = resumed ? 'Continue →' : 'Retake →';
         card.classList.add('has-score');
         card.classList.toggle('is-passed', entry.bestPct >= QUIZ_PASS_PCT);
         card.setAttribute('data-quiz-done', entry.bestPct >= QUIZ_PASS_PCT ? '1' : '0');
@@ -230,16 +266,16 @@ function initQuizzesHub() {
           delete scoreEl.dataset.tier;
         }
         if (statusEl) {
-          statusEl.hidden = false;
-          statusEl.textContent = 'Not started';
-          statusEl.classList.add('is-set');
-          statusEl.dataset.tier = 'new';
+          statusEl.hidden = true;
+          statusEl.textContent = '';
+          statusEl.classList.remove('is-set');
+          delete statusEl.dataset.tier;
         }
         if (attemptsEl) {
           attemptsEl.hidden = true;
           attemptsEl.textContent = '';
         }
-        if (ctaEl) ctaEl.textContent = 'Start →';
+        if (ctaEl) ctaEl.textContent = resumed ? 'Continue →' : 'Start →';
         card.classList.remove('has-score', 'is-passed');
         card.removeAttribute('data-quiz-done');
         card.removeAttribute('data-has-progress');
