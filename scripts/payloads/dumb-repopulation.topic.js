@@ -1,0 +1,74 @@
+module.exports = {
+  source: 'revelations',
+  id: 'dumb-repopulation',
+  title: 'DUMB Repopulation',
+  description: 'DUMB repopulation is the subterranean cultivation and surface deployment of manufactured human clones to restock the physical plane following a surface reset.',
+  images: {
+    topic: { source: 'DUMB Repopulation.webp', target: 'dumb-repopulation.webp' },
+    pdfPreview: { source: 'Subterranean_Repopulation.webp', target: 'subterranean-repopulation.webp' },
+    infographic: { source: 'Subterranean_Clones_Restock_the_Surface.webp', target: 'subterranean-clones-restock-the-surface.webp' }
+  },
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/16jf4yQwmGPmfB6jtCX0iDoAOX_bw9Mp_/view?usp=sharing',
+  rumble_videos: [
+    {
+      title: 'Underground Clones Replaced Humanity After 1900',
+      embed_url: 'https://rumble.com/embed/v7e3ds2/?pub=4p0ieu',
+      description: 'Underground Clones Replaced Humanity After 1900 — Cloned children raised in DUMBs were released by Orphan Train after the reset of circa 1900 to restock repurposed surface towns.'
+    },
+    {
+      title: 'DUMB Repopulation',
+      embed_url: 'https://rumble.com/embed/v7e3f32/?pub=4p0ieu',
+      description: 'DUMB Repopulation — Subterranean clone cohorts restock cleared surface domains, then genetic recombination hides their manufactured origin within one generation.'
+    }
+  ],
+  report: `# DUMB Repopulation
+
+## Overview
+DUMB repopulation is the subterranean cultivation and surface deployment of manufactured human clones to restock the physical plane following a surface reset. Operating out of Deep Underground Military Bases (DUMBs), this protocol bridges the gap between catastrophic depopulation and the establishment of a new human population overlay. Through orchestrated subterranean rearing, delayed release onto the surface, and subsequent genetic recombination via natural reproduction, the custodians restore human numerical density while maintaining complete control over historical and cultural narratives.
+
+## Key Terminology
+- **DUMB Repopulation** — The subterranean cultivation and subsequent surface distribution of cloned children to restock depopulated regions following a reset event.
+- **Deep Underground Military Bases (DUMBs)** — Subterranean staging facilities where cloned human populations are grown, maintained, and educated prior to surface deployment.
+- **Genetic Recombination** — The natural biological process during sexual reproduction where DNA from two cloned parents is randomly mixed, producing genetically unique offspring from cloned ancestry.
+- **Orphan Trains** — The surface distribution system utilized during resets, specifically circa 1900, to transport young cloned children into repurposed towns and cities.
+- **Subterranean Staging Period** — The 3-to-4-year developmental window during which cloned children are raised underground while surface carnage and devastation are cleared.
+- **Temporal Doppelgänger** — A historical lookalike phenomenon occurring when facial genes or clone templates align across generations or eras within a lineage.
+- **Repurposed Locations** — Scrubbed Tartarian architecture and urban environments prepared by custodians to house incoming cloned cohorts under artificial narratives.
+
+## Core Revelations
+Subterranean Batch Production: Every child deployed to repopulate the surface during the reset of circa 1900 originated as a clone grown in underground bases, with 5 to 10 duplicate copies produced for each template.
+
+Generation-One Genetic Masking: Although the initial repopulating wave consists entirely of exact clones, their offspring become fully unique biological individuals through sexual reproduction, concealing the artificial origin of the population within a single generation.
+
+Subterranean Custodial Workforce: Cloned cohorts are raised underground by a specialized workforce consisting of 33rd-degree Freemasons, human clones retained from preceding resets, and synthetic AI humanoid facsimiles.
+
+Free Will Exploitation: By presenting surface handlers as compassionate rescuers who saved the children from disaster, custodians secure immediate, uncritical acceptance of installed social and historical narratives.
+
+## Detailed Mechanics and Key Elements
+### Subterranean Gestation and Rearing Protocol
+Cloned human cohorts are created and nurtured within deep subterranean facilities following a planetary or regional reset. During this initial phase, the infants are maintained underground until reaching ages 3-4. This holding period is dictated by surface logistics: it requires several years for custodial crews to clean up the wreckage, carnage, and structural devastation left behind by the reset. The subterranean facilities are staffed by an array of compromised personnel, including 33rd-degree Freemasons who traded alignment for survival, surviving clones from prior reset cycles, and AI humanoid facsimiles. Under their supervision, the cloned children are raised in total isolation from true history, ensuring they possess zero awareness of the surface catastrophe or the nature of their creation.
+
+### Surface Deployment and Redistribution Logistics
+Once surface infrastructure is scrubbed and prepared, the cloned cohorts are transferred above ground for distribution. During the reset of circa 1900, this mass transit operation was carried out using Orphan Trains. These transport networks moved thousands of young cloned children into repurposed cities, towns, and suburban settlements. Upon arrival at their destinations, the children were met by curated groups of surface caretakers—survivors from prior regions who had been allowed to evacuate before their own areas were reset. These existing residents occupied repurposed locations, predominantly surviving stone structures from the Tartarian era, and acted as foster parents and community figures to integrate the children into the new societal narrative.
+
+### Biological Transition: From Clones to Unique Lineages
+A foundational mechanic of DUMB repopulation is the engineered shift from artificial genetic duplication to natural genetic variation. Each template selected for underground cloning is created in batches of 5-10 duplicate copies. When these clone cohorts reach maturity on the surface and pair with one another, sexual reproduction fundamentally transforms the genetic pool. Each clone parent passes on 50% of their DNA, and genetic recombination mixes the genetic material randomly. Consequently, the children born to clone parents are completely unique genetic individuals rather than clones. This biological mechanism accounts for atavistic traits, genetic throwbacks, and temporal doppelgängers, where identical facial configurations or structural features reappear across distant historical eras or generational lines.
+
+### Narrative Inoculation and Consent Mechanics
+The psychological integration of cloned cohorts relies on immediate, unquestioned acceptance of installed cultural frameworks. Because the young clones emerge into clean environments and are greeted by seemingly benevolent handlers who provide food and shelter, they accept the provided historical and civic explanations without resistance. This dynamic leverages the law of Free Will: because the incoming population willingly accepts assistance from their handlers, their consent to the artificial reality and its accompanying constraints becomes legally and operationally established within the field.
+
+## Broader Context and Interconnections
+Functional Link to Surface Resets: DUMB repopulation serves as the essential recovery mechanism following surface depopulation, rapidly supplying a replacement human population to inhabit cleared surface domains.
+
+Integration with Repurposed Infrastructure: Incoming cloned populations are placed directly into surviving Tartarian stone architecture, which is re-labeled and repurposed as conventional housing, schools, and civic buildings.
+
+Substrate for Population Overlays: Deploying cloned cohorts provides the baseline physical population necessary to sustain societal structures and maintain Non-Player Character (NPC) density across the simulation field.
+
+## Strategic Implications
+Eradication of Generational Memory: By stocking the surface plane with underground-reared clones who have no knowledge of prior events, custodians successfully wipe out historical continuity and past civilisational memory.
+
+Baseline Engineered Consensus: Because the repopulating cohort absorbs installed educational curricula and historical narratives from childhood, societal consensus is established without requiring ongoing coercion.
+
+Biological Obfuscation of Reset Cycles: Genetic recombination ensures that within a single generation, the artificial, cloned origin of the population is hidden behind standard biological inheritance patterns, preventing scientific detection of the artificial repopulation cycle.
+`
+};

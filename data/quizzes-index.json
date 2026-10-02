@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T04:46:55.820Z",
-  "total": 247,
+  "generatedAt": "2026-10-02T07:30:18.890Z",
+  "total": 248,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 51
+      "count": 52
     }
   ],
   "quizzes": [
@@ -2730,6 +2730,19 @@
       "href": "quiz/revelations/digital-inserts.html",
       "diveHref": "dive/revelations/digital-inserts.html",
       "key": "revelations/digital-inserts"
+    },
+    {
+      "id": "dumb-repopulation",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "DUMB Repopulation",
+      "subtitle": "Test your understanding of DUMB Repopulation — how cloned children raised in Deep Underground Military Bases restock a cleared surface, and how genetic recombination conceals that artificial origin within a single generation.",
+      "questionCount": 25,
+      "href": "quiz/revelations/dumb-repopulation.html",
+      "diveHref": "dive/revelations/dumb-repopulation.html",
+      "key": "revelations/dumb-repopulation"
     },
     {
       "id": "emotional-scoring",

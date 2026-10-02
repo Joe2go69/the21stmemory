@@ -404,9 +404,9 @@
             {
               "id": "dumb-repopulation",
               "title": "DUMB Repopulation",
-              "description": "Deep-underground production and orphan-train style refill of the surface after a reset.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "DUMB repopulation is the subterranean cultivation and surface deployment of manufactured human clones to restock the physical plane following a surface reset.",
+              "topic_image": "images/revelations/dumb-repopulation.webp",
+              "is_placeholder": false
             },
             {
               "id": "weaponized-species",
