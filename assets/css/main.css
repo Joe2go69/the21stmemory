@@ -15235,9 +15235,27 @@ a.btn-secondary:active,
   flex-wrap: wrap;
 }
 
-.quiz-hub-path-card__count {
+.quiz-hub-path-card .card-label {
+  min-height: 2.7em;
+}
+
+.quiz-hub-path-card .source-card-title {
+  min-height: 3.66em;
+}
+
+.quiz-hub-path-card .quiz-hub-path-card__count {
+  flex: 0 0 auto !important;
+  align-self: stretch;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  min-height: 2.05rem;
+  margin-bottom: 0 !important;
+  white-space: nowrap;
   font-size: 0.8rem;
   font-weight: 600;
+  font-variant-numeric: tabular-nums;
   color: #EDE4FF;
   padding: 0.32rem 0.75rem;
   border-radius: 9999px;
