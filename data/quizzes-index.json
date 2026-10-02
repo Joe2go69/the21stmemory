@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T08:35:00.316Z",
-  "total": 249,
+  "generatedAt": "2026-10-02T14:19:27.472Z",
+  "total": 250,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 53
+      "count": 54
     }
   ],
   "quizzes": [
@@ -3146,6 +3146,19 @@
       "href": "quiz/revelations/reset-sequence.html",
       "diveHref": "dive/revelations/reset-sequence.html",
       "key": "revelations/reset-sequence"
+    },
+    {
+      "id": "roswell-checkmate",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Roswell Checkmate",
+      "subtitle": "Test your understanding of Roswell Checkmate — the 1947 Anakim interdiction that forced solid-state technology into human civilization and compressed the Reset Harvest timeline.",
+      "questionCount": 25,
+      "href": "quiz/revelations/roswell-checkmate.html",
+      "diveHref": "dive/revelations/roswell-checkmate.html",
+      "key": "revelations/roswell-checkmate"
     },
     {
       "id": "simulation-field",

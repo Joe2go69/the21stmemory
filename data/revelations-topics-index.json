@@ -420,9 +420,9 @@
         {
           "id": "roswell-checkmate",
           "title": "Roswell Checkmate",
-          "description": "The 1947 H1 Orion incident as the quintessential checkmate of the overlay story.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "The Roswell Checkmate represents a decisive interdiction executed in 1947, wherein two hostile Grey H1 Orion craft were brought down over New Mexico by the Anakim Giants under authorization from the Galactic Ancestral Alliance (G.A.A.).",
+          "topic_image": "images/revelations/roswell-checkmate.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "anukim-strike",
