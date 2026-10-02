@@ -411,9 +411,9 @@
             {
               "id": "weaponized-species",
               "title": "Weaponized Species",
-              "description": "Giant panda, sasquatch, and other engineered species as tools, not accidents of evolution.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Weaponized species are synthetic biological entities, lab-engineered organisms, and targeted genetic offshoots manufactured to enforce containment, eradication, mockery, and social control.",
+              "topic_image": "images/revelations/weaponized-species.webp",
+              "is_placeholder": false
             }
           ]
         },

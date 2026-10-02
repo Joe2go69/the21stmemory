@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T07:30:18.890Z",
-  "total": 248,
+  "generatedAt": "2026-10-02T08:35:00.316Z",
+  "total": 249,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 52
+      "count": 53
     }
   ],
   "quizzes": [
@@ -3250,6 +3250,19 @@
       "href": "quiz/revelations/usury-trap.html",
       "diveHref": "dive/revelations/usury-trap.html",
       "key": "revelations/usury-trap"
+    },
+    {
+      "id": "weaponized-species",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Weaponized Species",
+      "subtitle": "Test your understanding of Weaponized Species — lab-engineered organisms, predatory reset assets, and genetic offshoots used for containment, mockery, eradication, and social control.",
+      "questionCount": 25,
+      "href": "quiz/revelations/weaponized-species.html",
+      "diveHref": "dive/revelations/weaponized-species.html",
+      "key": "revelations/weaponized-species"
     },
     {
       "id": "world-wide-web",
