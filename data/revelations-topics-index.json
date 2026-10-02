@@ -426,10 +426,10 @@
           "subtopics": [
             {
               "id": "anukim-strike",
-              "title": "Anukim Strike",
-              "description": "Anakim giants bringing down the crafts over Roswell — the event the weather-balloon story buried.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "title": "Anakim Strike",
+              "description": "The Anakim Strike was a covert, tactical physical intervention executed by the Anakim Giants in July 1947 near Roswell, New Mexico, acting under explicit clearance from the Galactic Ancestral Alliance (G.A.A.).",
+              "topic_image": "images/revelations/anakim-strike.webp",
+              "is_placeholder": false
             },
             {
               "id": "transistor-leak",

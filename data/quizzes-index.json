@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T14:19:27.472Z",
-  "total": 250,
+  "generatedAt": "2026-10-02T14:54:52.942Z",
+  "total": 251,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 54
+      "count": 55
     }
   ],
   "quizzes": [
@@ -2600,6 +2600,19 @@
       "href": "quiz/revelations/academic-distortion.html",
       "diveHref": "dive/revelations/academic-distortion.html",
       "key": "revelations/academic-distortion"
+    },
+    {
+      "id": "anukim-strike",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Anakim Strike",
+      "subtitle": "Test your understanding of Anakim Strike — the July 1947 interception that downed two H1 Orion craft on Mac Brazel's farm and leaked the point-contact transistor.",
+      "questionCount": 25,
+      "href": "quiz/revelations/anukim-strike.html",
+      "diveHref": "dive/revelations/anukim-strike.html",
+      "key": "revelations/anukim-strike"
     },
     {
       "id": "arc-pod-protocol",
