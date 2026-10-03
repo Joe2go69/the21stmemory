@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T14:54:52.942Z",
-  "total": 251,
+  "generatedAt": "2026-10-03T12:33:31.327Z",
+  "total": 252,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 55
+      "count": 56
     }
   ],
   "quizzes": [
@@ -3263,6 +3263,19 @@
       "href": "quiz/revelations/taran-vessels.html",
       "diveHref": "dive/revelations/taran-vessels.html",
       "key": "revelations/taran-vessels"
+    },
+    {
+      "id": "transistor-leak",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Transistor Leak",
+      "subtitle": "Test your understanding of Transistor Leak — the forced premature release of off-world solid-state semiconductor technology that shattered the custodial control timeline.",
+      "questionCount": 25,
+      "href": "quiz/revelations/transistor-leak.html",
+      "diveHref": "dive/revelations/transistor-leak.html",
+      "key": "revelations/transistor-leak"
     },
     {
       "id": "usury-trap",

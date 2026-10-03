@@ -434,9 +434,9 @@
             {
               "id": "transistor-leak",
               "title": "Transistor Leak",
-              "description": "The point-contact transistor as recovered tech that collapsed the cost of computing.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "The Transistor Leak represents the forced, premature release of off-world solid-state semiconductor technology into public time during the mid-20th century.",
+              "topic_image": "images/revelations/transistor-leak.webp",
+              "is_placeholder": false
             },
             {
               "id": "invasion-script",

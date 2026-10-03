@@ -1761,7 +1761,7 @@
       "sourceId": "revelations",
       "topicId": "transistor-leak",
       "path": "/dive/revelations/transistor-leak.html",
-      "live": false,
+      "live": true,
       "title": "Transistor Leak"
     },
     {
