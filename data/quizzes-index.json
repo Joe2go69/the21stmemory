@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T04:38:12.580Z",
-  "total": 254,
+  "generatedAt": "2026-10-04T06:03:21.448Z",
+  "total": 255,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 58
+      "count": 59
     }
   ],
   "quizzes": [
@@ -3224,6 +3224,19 @@
       "href": "quiz/revelations/sovereign-accord.html",
       "diveHref": "dive/revelations/sovereign-accord.html",
       "key": "revelations/sovereign-accord"
+    },
+    {
+      "id": "square-mile",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Square Mile",
+      "subtitle": "Test your understanding of Square Mile — London's Tartarian aetheric circuitboard and its inversion into a financial control center after 1666.",
+      "questionCount": 25,
+      "href": "quiz/revelations/square-mile.html",
+      "diveHref": "dive/revelations/square-mile.html",
+      "key": "revelations/square-mile"
     },
     {
       "id": "stone-age-restart",

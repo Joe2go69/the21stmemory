@@ -459,9 +459,9 @@
         {
           "id": "square-mile",
           "title": "Square Mile",
-          "description": "London's Square Mile as the current-control node of the farm.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "The Square Mile is London's 1.12-square-mile Tartarian aetheric power grid, retrofitted after 1666 from a harmonic circuitboard into a financial control center.",
+          "topic_image": "images/revelations/square-mile.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "population-math",
