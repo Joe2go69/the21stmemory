@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T03:14:50.711Z",
-  "total": 253,
+  "generatedAt": "2026-10-04T04:38:12.580Z",
+  "total": 254,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 57
+      "count": 58
     }
   ],
   "quizzes": [
@@ -3276,6 +3276,19 @@
       "href": "quiz/revelations/taran-vessels.html",
       "diveHref": "dive/revelations/taran-vessels.html",
       "key": "revelations/taran-vessels"
+    },
+    {
+      "id": "tartarian-memory",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Tartarian Memory",
+      "subtitle": "Test your understanding of Tartarian Memory — the suppressed record of the last high global civilization and the resets that buried its aetheric architecture.",
+      "questionCount": 25,
+      "href": "quiz/revelations/tartarian-memory.html",
+      "diveHref": "dive/revelations/tartarian-memory.html",
+      "key": "revelations/tartarian-memory"
     },
     {
       "id": "transistor-leak",

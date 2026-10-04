@@ -452,9 +452,9 @@
     {
       "id": "tartarian-memory",
       "title": "Tartarian Memory",
-      "description": "The Square Mile, harmonic architecture, Moorish metropolis, Lemurian tongue, and TPC mirrors.",
-      "topic_image": "images/revelations/placeholder.webp",
-      "is_placeholder": true,
+      "description": "Tartarian Memory is the suppressed record of the physical plane's last high global civilization, which ran on aetheric energy and harmonic architecture before artificial resets erased it.",
+      "topic_image": "images/revelations/tartarian-memory.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "square-mile",
