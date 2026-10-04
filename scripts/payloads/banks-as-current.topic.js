@@ -8,7 +8,7 @@ module.exports = {
     pdfPreview: { source: 'Aetheric_Current_to_Currency.webp', target: 'aetheric-current-to-currency.webp' },
     infographic: { source: 'Architectural_Inversion_of_Energy_Grid.webp', target: 'architectural-inversion-of-energy-grid.webp' }
   },
-  slide_deck_pdf_url: 'https://drive.google.com/file/d/14nkY1o6v8BEPK3wd79E_cH7J_P5POJQ2/view?usp=sharing',
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/1McNTrhTlSIe5WT2rXHNh9DtvzW5gA0zk/view?usp=sharing',
   rumble_videos: [
     {
       title: 'Banks as Current',
