@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T06:03:21.448Z",
-  "total": 255,
+  "generatedAt": "2026-10-04T09:25:54.028Z",
+  "total": 256,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 59
+      "count": 60
     }
   ],
   "quizzes": [
@@ -3107,6 +3107,19 @@
       "href": "quiz/revelations/pineal-dmt.html",
       "diveHref": "dive/revelations/pineal-dmt.html",
       "key": "revelations/pineal-dmt"
+    },
+    {
+      "id": "population-math",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Population Math",
+      "subtitle": "Test your understanding of Population Math — the spatial, structural, and demographic calculations that expose official Square Mile population claims as physical impossibilities.",
+      "questionCount": 25,
+      "href": "quiz/revelations/population-math.html",
+      "diveHref": "dive/revelations/population-math.html",
+      "key": "revelations/population-math"
     },
     {
       "id": "proximal-sols",

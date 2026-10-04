@@ -466,9 +466,9 @@
             {
               "id": "population-math",
               "title": "Population Math",
-              "description": "The numbers that do not add up — population, cities, and the scale of the last refill.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Population Math is the precise analytical framework that applies fundamental spatial, structural, and demographic calculations to official urban histories, exposing them as physical impossibilities.",
+              "topic_image": "images/revelations/population-math.webp",
+              "is_placeholder": false
             },
             {
               "id": "banks-as-current",
