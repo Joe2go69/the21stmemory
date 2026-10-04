@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T09:25:54.028Z",
-  "total": 256,
+  "generatedAt": "2026-10-04T11:22:21.087Z",
+  "total": 257,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 60
+      "count": 61
     }
   ],
   "quizzes": [
@@ -2639,6 +2639,19 @@
       "href": "quiz/revelations/ayahuasca-vine.html",
       "diveHref": "dive/revelations/ayahuasca-vine.html",
       "key": "revelations/ayahuasca-vine"
+    },
+    {
+      "id": "banks-as-current",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Banks as Current",
+      "subtitle": "Test your understanding of Banks as Current — Tartarian architectural nodes that directed aetheric current, and their inversion into financial institutions that store currency.",
+      "questionCount": 25,
+      "href": "quiz/revelations/banks-as-current.html",
+      "diveHref": "dive/revelations/banks-as-current.html",
+      "key": "revelations/banks-as-current"
     },
     {
       "id": "birth-bond",
