@@ -17407,6 +17407,11 @@ body.reading-focus .navbar {
   margin-top: 0.25rem;
 }
 
+.home-banner--compact .media-banner-playlist {
+  margin: 0.05rem 0 0;
+  line-height: 1.4;
+}
+
 /* Slimmer nav after IA cut — roomier mid desktop */
 @media (min-width: 900px) {
   .nav-links {
