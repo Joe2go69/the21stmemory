@@ -441,9 +441,9 @@
             {
               "id": "invasion-script",
               "title": "Invasion Script",
-              "description": "War of the Worlds to Bluebeam — the long invasion script installed in public consciousness.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "The Invasion Script is a multi-generational psychological operation that stages a fake alien invasion at the end of an EBS lockdown to induce panic and coerce surrender of human sovereignty.",
+              "topic_image": "images/revelations/invasion-script.webp",
+              "is_placeholder": false
             }
           ]
         }

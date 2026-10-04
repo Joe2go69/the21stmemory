@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T12:33:31.327Z",
-  "total": 252,
+  "generatedAt": "2026-10-04T03:14:50.711Z",
+  "total": 253,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 56
+      "count": 57
     }
   ],
   "quizzes": [
@@ -2951,6 +2951,19 @@
       "href": "quiz/revelations/intelligence-first.html",
       "diveHref": "dive/revelations/intelligence-first.html",
       "key": "revelations/intelligence-first"
+    },
+    {
+      "id": "invasion-script",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Invasion Script",
+      "subtitle": "Test your understanding of Invasion Script — the staged fake alien invasion that uses predictive programming, holographic projections, and salvaged craft to coerce surrender of human sovereignty.",
+      "questionCount": 25,
+      "href": "quiz/revelations/invasion-script.html",
+      "diveHref": "dive/revelations/invasion-script.html",
+      "key": "revelations/invasion-script"
     },
     {
       "id": "legal-capture",
