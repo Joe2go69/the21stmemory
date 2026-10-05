@@ -489,9 +489,9 @@
             {
               "id": "living-fabric",
               "title": "Living Fabric",
-              "description": "Harmonically grown buildings as living fabric of the original Tartarian world.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Living Fabric is the self-sustaining climate, hot-water, and food-preservation system built into ancient stone structures through their blueprint, numerical dimensions, and field orientation.",
+              "topic_image": "images/revelations/living-fabric.webp",
+              "is_placeholder": false
             },
             {
               "id": "sound-masonry",

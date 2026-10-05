@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T06:07:28.340Z",
-  "total": 258,
+  "generatedAt": "2026-10-05T13:22:06.951Z",
+  "total": 259,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 62
+      "count": 63
     }
   ],
   "quizzes": [
@@ -3003,6 +3003,19 @@
       "href": "quiz/revelations/legal-capture.html",
       "diveHref": "dive/revelations/legal-capture.html",
       "key": "revelations/legal-capture"
+    },
+    {
+      "id": "living-fabric",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Living Fabric",
+      "subtitle": "Test your understanding of Living Fabric — stone structures that regulate climate, supply hot water, and preserve food through blueprint, numerical dimensions, and field orientation.",
+      "questionCount": 25,
+      "href": "quiz/revelations/living-fabric.html",
+      "diveHref": "dive/revelations/living-fabric.html",
+      "key": "revelations/living-fabric"
     },
     {
       "id": "manufactured-wants",
