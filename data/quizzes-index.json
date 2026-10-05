@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T11:22:21.087Z",
-  "total": 257,
+  "generatedAt": "2026-10-05T06:07:28.340Z",
+  "total": 258,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 61
+      "count": 62
     }
   ],
   "quizzes": [
@@ -2873,6 +2873,19 @@
       "href": "quiz/revelations/gat-programs.html",
       "diveHref": "dive/revelations/gat-programs.html",
       "key": "revelations/gat-programs"
+    },
+    {
+      "id": "harmonic-architecture",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Harmonic Architecture",
+      "subtitle": "Test your understanding of Harmonic Architecture — how intentional sound frequencies, sound masonry, and aetheric harvesting grow structures on planetary nodes.",
+      "questionCount": 25,
+      "href": "quiz/revelations/harmonic-architecture.html",
+      "diveHref": "dive/revelations/harmonic-architecture.html",
+      "key": "revelations/harmonic-architecture"
     },
     {
       "id": "harvest-toll",

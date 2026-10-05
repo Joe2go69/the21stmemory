@@ -1,0 +1,688 @@
+module.exports = {
+  source: 'revelations',
+  id: 'harmonic-architecture',
+  title: 'Harmonic Architecture',
+  description: 'Test your understanding of Harmonic Architecture — how intentional sound frequencies, sound masonry, and aetheric harvesting grow structures on planetary nodes.',
+  seoDescription: 'Interactive Living Truth Quiz on Harmonic Architecture: solfeggio scales, sound masonry, nodal lattices, and aetheric energy harvesting.',
+  reflection: {
+    title: 'Reflection',
+    body: 'Harmonic buildings were grown on the footprints of crystalline healing temples and drew wireless current from the aether. Replacing 432Hz with 440Hz acoustic dissonance, together with pineal calcification through public water fluoridation, severed the link between human consciousness, those buildings, and the aether. Sound masonry and solfeggio resonance remain the blueprint for re-engaging planetary energy nodes without fossil fuel infrastructure.'
+  },
+  questions: [
+    {
+      number: 1,
+      question: 'By what primary mechanism were true harmonic architectural edifices constructed upon primary planetary nodes?',
+      hint: 'The edifices were grown by sound directed into the natural aether, without hammers or pulleys.',
+      options: [
+        {
+          text: 'Pre-cut granite blocks were assembled with mechanical pulleys, hydraulic lifts, and scaffold crews.',
+          isCorrect: false,
+          rationale: 'Harmonic edifices were grown and dressed by sound frequencies in the aether, not by pulley assembly.'
+        },
+        {
+          text: 'Combustion-driven thermal masonry fused glass and iron directly onto foundation stones.',
+          isCorrect: false,
+          rationale: 'Assembly used frequency manipulation without combustion, fuel lines, or thermal fusing.'
+        },
+        {
+          text: 'Liquid geopolymer stone was cast inside metallic scaffolding aligned to planetary grid lines.',
+          isCorrect: false,
+          rationale: 'Stone was dressed by sound levitation and resonant frequency, not poured in geopolymer molds.'
+        },
+        {
+          text: 'These stone, iron, and glass edifices were harmonically grown and dressed by projecting intentional sound frequencies into the realm\'s natural aether.',
+          isCorrect: true,
+          rationale: 'Stone, iron, and glass edifices were harmonically grown and dressed by projecting intentional sound frequencies into the realm\'s natural aether.'
+        }
+      ]
+    },
+    {
+      number: 2,
+      question: 'What original structures initially occupied the primary planetary energy nodes prior to density suppression?',
+      hint: 'Those first structures stood on the nodes and were later capped with heavy stone shells.',
+      options: [
+        {
+          text: 'These coordinates originally hosted crystalline healing temples before being subjected to density suppression and rebuilt with heavy stone shells.',
+          isCorrect: true,
+          rationale: 'The coordinates originally hosted crystalline healing temples before density suppression and heavy stone shells.'
+        },
+        {
+          text: 'Monolithic stone astronomical markers were raised on the nodes by manual labor and simple surveying.',
+          isCorrect: false,
+          rationale: 'The nodes hosted crystalline healing temples, not manual astronomical markers.'
+        },
+        {
+          text: 'Defensive iron fortresses were built on the nodes to guard subterranean energy arteries.',
+          isCorrect: false,
+          rationale: 'The original structures were crystalline healing temples, not military fortresses.'
+        },
+        {
+          text: 'Subterranean steam aqueducts occupied the nodes as the first thermal distribution network.',
+          isCorrect: false,
+          rationale: 'Steam aqueducts were not the original installations on primary planetary energy nodes.'
+        }
+      ]
+    },
+    {
+      number: 3,
+      question: 'What was the direct functional consequence of applying density suppression to positive nodal locations?',
+      hint: 'Suppression dampened how the sites looked, healed, and resonated.',
+      options: [
+        {
+          text: 'The intentional energetic dampening applied to positive nodal locations diminished their visual apparency, healing capacity, and spiritual resonance.',
+          isCorrect: true,
+          rationale: 'Density suppression diminishes visual apparency, healing capacity, and spiritual resonance at positive nodal locations.'
+        },
+        {
+          text: 'Density suppression forced an immediate tectonic realignment across the entire global geometric grid.',
+          isCorrect: false,
+          rationale: 'Suppression dampened apparency, healing, and resonance without moving the geometric grid.'
+        },
+        {
+          text: 'Density suppression changed subterranean spring water into a heavy mineral brine at every node.',
+          isCorrect: false,
+          rationale: 'Suppression targeted energetic resonance, not the chemical makeup of spring water.'
+        },
+        {
+          text: 'Density suppression reversed piezoelectric polarity until the stone blocks crumbled in place.',
+          isCorrect: false,
+          rationale: 'Suppression dampened resonance and visual apparency without disintegrating the stone fabric.'
+        }
+      ]
+    },
+    {
+      number: 4,
+      question: 'How did master builders dress and set ashlar piezoelectric granite without relying on physical tools?',
+      hint: 'Tuning forks and a natural frequency produced standing waves that negated mass.',
+      options: [
+        {
+          text: 'Acid washes dissolved raw faces until each block settled into a uniform ashlar profile.',
+          isCorrect: false,
+          rationale: 'Stone was dressed by resonant frequency and tuning forks, not by chemical erosion.'
+        },
+        {
+          text: 'By combining harmonic conducting tuning forks with natural 432Hz frequencies, builders generated acoustic standing waves that negated gravitational mass.',
+          isCorrect: true,
+          rationale: 'Harmonic conducting tuning forks with natural 432Hz frequencies generated acoustic standing waves that negated gravitational mass.'
+        },
+        {
+          text: 'Pressurized water from subterranean springs cut and seated the blocks along the foundation line.',
+          isCorrect: false,
+          rationale: 'Springs kept contact with crystalline veins, while dressing was done by acoustic standing waves.'
+        },
+        {
+          text: 'Copper domes threw concentrated thermal beams that melted stone edges into tight joints.',
+          isCorrect: false,
+          rationale: 'Metallic domes captured ambient electrical charges rather than cutting stone with heat.'
+        }
+      ]
+    },
+    {
+      number: 5,
+      question: 'What primary function did metallic domes, roof spires, and copper finials perform in harmonic structures?',
+      hint: 'Those exterior parts collected charge from the environment for the building.',
+      options: [
+        {
+          text: 'They served as ornamental emblems of regional style and of the century that commissioned the work.',
+          isCorrect: false,
+          rationale: 'Roof spires, metallic domes, and copper finials captured ambient electrical charges rather than serving as ornament alone.'
+        },
+        {
+          text: 'They reflected solar heat so piezoelectric granite would not expand, crack, or lose its set.',
+          isCorrect: false,
+          rationale: 'Those exterior parts captured ambient electrical charges from the environment, not solar heat.'
+        },
+        {
+          text: 'Roof spires, metallic domes, copper finials, and precise structural alignments captured ambient electrical charges from the environment.',
+          isCorrect: true,
+          rationale: 'Roof spires, metallic domes, copper finials, and precise structural alignments captured ambient electrical charges from the environment.'
+        },
+        {
+          text: 'They diverted lightning away from the organ pipes so the internal grid could not be struck.',
+          isCorrect: false,
+          rationale: 'These components captured ambient electrical charges rather than acting as lightning diversion.'
+        }
+      ]
+    },
+    {
+      number: 6,
+      question: 'What acoustic alteration was deliberately introduced to disrupt natural harmonic resonance and disable aetheric energy harvesting?',
+      hint: 'A forced tuning shift on music and sound systems broke the natural harmonic.',
+      options: [
+        {
+          text: 'The forced acoustic alteration was imposed on global music and sound systems to disrupt natural harmonic resonance, disable aetheric harvesting, and induce cognitive dissonance.',
+          isCorrect: true,
+          rationale: 'The 440Hz frequency inversion was imposed on global music and sound systems to disrupt natural harmonic resonance and disable aetheric harvesting.'
+        },
+        {
+          text: 'Lead-lined interior plaster was applied to cathedral walls to choke the standing waves inside.',
+          isCorrect: false,
+          rationale: 'The break came from a frequency inversion on music and sound systems, not from lead-lined plaster.'
+        },
+        {
+          text: 'Every internal organ pipe was pulled from cathedrals and stone halls and left out of the fabric.',
+          isCorrect: false,
+          rationale: 'Organ pipes were shortened and retuned to the dissonant 440Hz frequency rather than removed wholesale.'
+        },
+        {
+          text: 'Ultrasonic generators were buried under primary nodes to jam the lattice from below.',
+          isCorrect: false,
+          rationale: 'Disruption was the 440Hz frequency inversion imposed on global music and sound systems.'
+        }
+      ]
+    },
+    {
+      number: 7,
+      question: 'Why did styles such as Beaux-Arts, Imperial Baroque, and Renaissance Revival share identical underlying construction methods?',
+      hint: 'The named styles are surface dressing over one shared construction method.',
+      options: [
+        {
+          text: 'Conventional classifications represent superficial regional styling over identical underlying Fibonacci series construction methods.',
+          isCorrect: true,
+          rationale: 'Beaux-Arts, Imperial Baroque, and Renaissance Revival represent superficial regional styling over identical underlying Fibonacci series construction methods.'
+        },
+        {
+          text: 'Each style was copied from Roman blueprints carried along later European trade routes.',
+          isCorrect: false,
+          rationale: 'Shared construction is identical underlying Fibonacci series method, not copied Roman blueprints.'
+        },
+        {
+          text: 'One guild of manual masons raised them all with a secret system of pulleys and barrows.',
+          isCorrect: false,
+          rationale: 'The shared method is Fibonacci series construction by sound, not guild labor with pulleys.'
+        },
+        {
+          text: 'Standard industrial plans from 19th-century trade fairs fixed one blueprint for every region.',
+          isCorrect: false,
+          rationale: 'Revivalist and trade-fair stories conceal Fibonacci series construction rather than explain it.'
+        }
+      ]
+    },
+    {
+      number: 8,
+      question: 'How were harmonic edifices targeted and destroyed during events such as World Fairs or military bombardments?',
+      hint: 'Piezoelectric granite, iron, and specialized glass did not yield to ordinary fire.',
+      options: [
+        {
+          text: 'Subterranean chambers were flooded until the spring channels collapsed and the shells fell.',
+          isCorrect: false,
+          rationale: 'Destruction was executed using advanced energy weapons, not by flooding spring channels.'
+        },
+        {
+          text: 'Sustained incendiary bombing set timber frames and glass alight until the structures failed.',
+          isCorrect: false,
+          rationale: 'Piezoelectric granite, iron, and specialized glass could not burn through conventional fire.'
+        },
+        {
+          text: 'Conventional dynamite was packed into load points and fired as a standard demolition.',
+          isCorrect: false,
+          rationale: 'The widespread destruction was executed using advanced energy weapons, not conventional explosives.'
+        },
+        {
+          text: 'Their widespread destruction during events like the World Fairs or military bombardments was executed using advanced energy weapons to eradicate free-energy infrastructure.',
+          isCorrect: true,
+          rationale: 'Widespread destruction during events like the World Fairs or military bombardments was executed using advanced energy weapons to eradicate free-energy infrastructure.'
+        }
+      ]
+    },
+    {
+      number: 9,
+      question: 'What internal role did massive organ pipe arrays perform within a harmonic building\'s energetic grid?',
+      hint: 'The pipes were the building\'s frequency modulators, not pumps or lamps.',
+      options: [
+        {
+          text: 'Massive organ pipe arrays served as active frequency modulators for the building\'s energetic grid.',
+          isCorrect: true,
+          rationale: 'Massive organ pipe arrays served as active frequency modulators for the building\'s energetic grid.'
+        },
+        {
+          text: 'The pipes pumped subterranean water into wall channels to drive a radiant cooling loop.',
+          isCorrect: false,
+          rationale: 'Organ pipes modulated frequency for the energetic grid rather than pumping water.'
+        },
+        {
+          text: 'The pipes broadcast a canceling tone that acoustic-dampened street noise from the city outside.',
+          isCorrect: false,
+          rationale: 'The pipes served as active frequency modulators for the energetic grid, not as urban soundproofing.'
+        },
+        {
+          text: 'The pipes turned structural vibration into light that illuminated the glass without lamps.',
+          isCorrect: false,
+          rationale: 'Their role was frequency modulation of the energetic grid, not conversion of vibration into light.'
+        }
+      ]
+    },
+    {
+      number: 10,
+      question: 'Which geometric mapping system reflects the spatial coordinates and primary nodes of the global harmonic network?',
+      hint: 'The map named for this grid places the network\'s primary geometric nodes.',
+      options: [
+        {
+          text: 'The Solfeggio Acoustic Frequency Chart plots the bands used in sound levitation.',
+          isCorrect: false,
+          rationale: 'Solfeggio scales are frequency bands, while nodal positions are on the Becker Hagens UVG 120 grid map.'
+        },
+        {
+          text: 'The Mercator Projection Grid System is the navigational map of those same energy nodes.',
+          isCorrect: false,
+          rationale: 'Nodal positioning is represented on the Becker Hagens UVG 120 grid map, not the Mercator projection.'
+        },
+        {
+          text: 'The Fibonacci Spiral Quadrant Map is the global coordinate chart of the sixty nodes.',
+          isCorrect: false,
+          rationale: 'Fibonacci series methods shape the buildings, while the Becker Hagens UVG 120 grid map places the nodes.'
+        },
+        {
+          text: 'The spatial positioning of harmonic architecture follows strict geometric grid mathematics, as represented on the Becker Hagens UVG 120 grid map.',
+          isCorrect: true,
+          rationale: 'Spatial positioning follows strict geometric grid mathematics, as represented on the Becker Hagens UVG 120 grid map.'
+        }
+      ]
+    },
+    {
+      number: 11,
+      question: 'What function did stepped-down internal currents serve within the living spaces of harmonic buildings?',
+      hint: 'The routed charge warmed the rooms, supplied hot water, and kept food without fuel.',
+      options: [
+        {
+          text: 'The currents drove high-speed pneumatic elevators stacked inside the central spire towers.',
+          isCorrect: false,
+          rationale: 'Charges were routed to warm stone walls, power hot water fonts, and maintain food recesses, not elevators.'
+        },
+        {
+          text: 'The currents charged chemical battery banks kept in subterranean crystalline storage vaults.',
+          isCorrect: false,
+          rationale: 'Currents were stepped down for immediate heating, hot water, and food recesses without chemical storage.'
+        },
+        {
+          text: 'These charges were stepped down and routed through structural rooms to warm stone walls, power instant hot water fonts, and maintain unperishing food recesses without combustion or external fuel lines.',
+          isCorrect: true,
+          rationale: 'Charges were stepped down and routed through structural rooms to warm stone walls, power instant hot water fonts, and maintain unperishing food recesses without combustion or external fuel lines.'
+        },
+        {
+          text: 'The currents lit metallic filaments inside sealed glass bulbs with no internal wiring at all.',
+          isCorrect: false,
+          rationale: 'The routed charges warmed stone walls, powered hot water fonts, and maintained unperishing food recesses.'
+        }
+      ]
+    },
+    {
+      number: 12,
+      question: 'What underlying physical material formed the primary structural blocks shaped and set by sound masonry?',
+      hint: 'Sound masonry dresses a specific granite and other dense stone by resonance.',
+      options: [
+        {
+          text: 'Layered compressed limestone sealed with natural bitumen formed the load-bearing blocks.',
+          isCorrect: false,
+          rationale: 'Sound masonry dresses and positions ashlar piezoelectric granite, not bitumen-sealed limestone.'
+        },
+        {
+          text: 'Forged cast-iron blocks coated with resonant lead silicate carried the standing waves.',
+          isCorrect: false,
+          rationale: 'Iron is part of the edifices, while sound masonry positions ashlar piezoelectric granite and dense stone.'
+        },
+        {
+          text: 'Synthetic geopolymer concrete impregnated with copper shavings formed the acoustic blocks.',
+          isCorrect: false,
+          rationale: 'The blocks are ashlar piezoelectric granite and dense stone, not synthetic copper concrete.'
+        },
+        {
+          text: 'The physical assembly of harmonic edifices relied on sound masonry to dress and position ashlar piezoelectric granite.',
+          isCorrect: true,
+          rationale: 'Sound masonry dresses and positions ashlar piezoelectric granite and dense stone through resonant frequency manipulation.'
+        }
+      ]
+    },
+    {
+      number: 13,
+      question: 'Besides the shift away from natural 432Hz, what additional method disconnected human consciousness from harmonic buildings and the aether?',
+      hint: 'A public-water treatment calcified a specific gland while tuning was inverted.',
+      options: [
+        {
+          text: 'Synthetic electromagnetic shielding was built into ordinary residential walls and roofs.',
+          isCorrect: false,
+          rationale: 'The added method was chemical calcification of the human pineal gland via public water fluoridation.'
+        },
+        {
+          text: 'Choral singing and pipe-organ performance were banned from public gathering spaces.',
+          isCorrect: false,
+          rationale: 'Pipes were retuned to 440Hz, and pineal calcification via public water fluoridation completed the break.'
+        },
+        {
+          text: 'Copper piping was stripped from urban water mains so buildings lost their conductive path.',
+          isCorrect: false,
+          rationale: 'The disconnection used pineal calcification via public water fluoridation, not removal of copper piping.'
+        },
+        {
+          text: 'By replacing the natural 432Hz frequency with 440Hz acoustic dissonance and combining it with the chemical calcification of the human pineal gland via public water fluoridation, controlling forces severed the acoustic link between human consciousness, harmonic buildings, and the aether.',
+          isCorrect: true,
+          rationale: 'Chemical calcification of the human pineal gland via public water fluoridation, combined with 440Hz acoustic dissonance, severed the acoustic link between human consciousness, harmonic buildings, and the aether.'
+        }
+      ]
+    },
+    {
+      number: 14,
+      question: 'What anchors the global geometric grid network of primary nodes in nodal lattice mapping?',
+      hint: 'One ancient stone structure is the anchor for the whole geometric network.',
+      options: [
+        {
+          text: 'The global network consists of 60 primary geometric nodes, anchored by the Great Pyramid, which act as focal points for terrestrial energy distribution.',
+          isCorrect: true,
+          rationale: 'The global network consists of 60 primary geometric nodes, anchored by the Great Pyramid.'
+        },
+        {
+          text: 'The Cathedral of Notre-Dame is the prime coordinate that fixes every other node on the lattice.',
+          isCorrect: false,
+          rationale: 'Cathedrals sit on nodes, while the network of primary geometric nodes is anchored by the Great Pyramid.'
+        },
+        {
+          text: 'The Himalayan crystalline vaults are the central anchor of the Becker Hagens coordinates.',
+          isCorrect: false,
+          rationale: 'The primary geometric nodes are anchored by the Great Pyramid.'
+        },
+        {
+          text: 'The Stonehenge stone circle is the prime global anchor for the entire energy lattice.',
+          isCorrect: false,
+          rationale: 'The global network of primary geometric nodes is anchored by the Great Pyramid.'
+        }
+      ]
+    },
+    {
+      number: 15,
+      question: 'What shows that multi-hundred-year-old edifices in distant regions share one technological origin?',
+      hint: 'The same edifices stand in places as far apart as Germany and Japan.',
+      options: [
+        {
+          text: 'Written guild records describe pre-cut granite shipped across oceans on wooden sailing ships.',
+          isCorrect: false,
+          rationale: 'The shared origin is identical edifices in distant regions, not ocean shipment of cut stone.'
+        },
+        {
+          text: 'Uniform tax marks show one centralized fiscal authority directing every continental project.',
+          isCorrect: false,
+          rationale: 'The link is a shared technological origin in the edifices themselves, not a tax authority.'
+        },
+        {
+          text: 'Identical multi-hundred-year-old edifices in distant regions like Germany and Japan demonstrate a shared technological origin that predates modern historical timelines.',
+          isCorrect: true,
+          rationale: 'Identical multi-hundred-year-old edifices in distant regions like Germany and Japan demonstrate a shared technological origin that predates modern historical timelines.'
+        },
+        {
+          text: 'Standardized steam engines preserved under cathedral foundations prove one industrial source.',
+          isCorrect: false,
+          rationale: 'The shared origin is harmonic technology, not concealed steam engines under the foundations.'
+        }
+      ]
+    },
+    {
+      number: 16,
+      question: 'What became possible after acoustic standing waves negated gravitational mass?',
+      hint: 'Mass negation let immense blocks be fitted without mechanical friction or tool wear.',
+      options: [
+        {
+          text: 'The outer layer of each block liquefied and acted as a lubricant between the courses.',
+          isCorrect: false,
+          rationale: 'Standing waves negated gravitational mass so blocks were fitted without mechanical friction, without melting the stone.'
+        },
+        {
+          text: 'Magnetic repulsion between the blocks and the soil lifted each course off the ground.',
+          isCorrect: false,
+          rationale: 'Placement followed from acoustic standing waves that negated gravitational mass, not from magnetic repulsion.'
+        },
+        {
+          text: 'Surrounding air was thinned until atmospheric drag no longer held the blocks in place.',
+          isCorrect: false,
+          rationale: 'The standing waves negated gravitational mass rather than changing the density of the air.'
+        },
+        {
+          text: 'This allowed immense stone blocks to be shaped and fitted with perfect precision without mechanical friction or tool degradation.',
+          isCorrect: true,
+          rationale: 'Acoustic standing waves that negated gravitational mass allowed immense stone blocks to be shaped and fitted with perfect precision without mechanical friction or tool degradation.'
+        }
+      ]
+    },
+    {
+      number: 17,
+      question: 'What provides the blueprint for re-engaging planetary energy nodes and restoring environmental equilibrium?',
+      hint: 'The blueprint is acoustic, tied to sound masonry and solfeggio resonance.',
+      options: [
+        {
+          text: 'Understanding the acoustic mechanics of sound masonry and solfeggio resonance provides the blueprint for re-engaging planetary energy nodes, eliminating dependence on fossil fuel infrastructure, and restoring environmental equilibrium through 432Hz resonance.',
+          isCorrect: true,
+          rationale: 'Understanding the acoustic mechanics of sound masonry and solfeggio resonance provides the blueprint for re-engaging planetary energy nodes and restoring environmental equilibrium through 432Hz resonance.'
+        },
+        {
+          text: 'Rebuilding mechanical steam turbines on the old ruins is the practical path back to nodal power.',
+          isCorrect: false,
+          rationale: 'The blueprint is sound masonry and solfeggio resonance, not combustion turbines on the ruins.'
+        },
+        {
+          text: 'Deep subterranean concrete barriers around geological fault lines would restart the nodal flow.',
+          isCorrect: false,
+          rationale: 'Re-engaging nodes depends on sound masonry and solfeggio resonance, not concrete barriers.'
+        },
+        {
+          text: 'Replacing present wiring with high-voltage direct-current copper lines would restore the grid.',
+          isCorrect: false,
+          rationale: 'The blueprint restores wireless resonance through sound masonry, not a new wired copper grid.'
+        }
+      ]
+    },
+    {
+      number: 18,
+      question: 'Why were stone harmonic buildings erected on the footprints of crystalline healing temples over springs and crystalline veins?',
+      hint: 'The footprints keep the stone fabric in contact with water conduits below.',
+      options: [
+        {
+          text: 'Spring pressure was needed to run hydraulic hammers whenever the stone fabric needed repair.',
+          isCorrect: false,
+          rationale: 'Buildings were erected on these footprints to maintain contact with subterranean water conduits, not to power hammers.'
+        },
+        {
+          text: 'The springs flushed waste into nearby rivers so the buildings needed no pumping equipment.',
+          isCorrect: false,
+          rationale: 'Placement maintained contact with subterranean water conduits and crystalline veins, not a waste flush.'
+        },
+        {
+          text: 'Original crystalline healing temples were anchored over natural spring emanations and crystalline veins, and stone harmonic buildings were erected on these exact footprints to maintain contact with subterranean water conduits.',
+          isCorrect: true,
+          rationale: 'Crystalline healing temples were anchored over natural spring emanations and crystalline veins, and stone harmonic buildings were erected on these exact footprints to maintain contact with subterranean water conduits.'
+        },
+        {
+          text: 'Spring water was circulated to cool iron circuitry and keep metallic domes from overheating.',
+          isCorrect: false,
+          rationale: 'The footprints maintain contact with subterranean water conduits and crystalline veins, not an industrial cooling loop.'
+        }
+      ]
+    },
+    {
+      number: 19,
+      question: 'What outcome follows from attributing harmonic edifices to primitive manual labor or 19th-century Revivalist movements?',
+      hint: 'That attribution hides sound-shaping technology and a global energy network.',
+      options: [
+        {
+          text: 'The attribution encourages new crystalline healing temples on the primary planetary coordinates.',
+          isCorrect: false,
+          rationale: 'The Revivalist attribution conceals sound-shaping technologies and global energy networks.'
+        },
+        {
+          text: 'Attributing harmonic edifices to primitive manual labor or 19th-century Revivalist movements conceals the existence of advanced sound-shaping technologies and global energy networks.',
+          isCorrect: true,
+          rationale: 'Attributing harmonic edifices to primitive manual labor or 19th-century Revivalist movements conceals the existence of advanced sound-shaping technologies and global energy networks.'
+        },
+        {
+          text: 'The attribution proves that primitive chisels alone can produce perfect structural alignment.',
+          isCorrect: false,
+          rationale: 'Calling the work manual labor conceals sound-shaping technologies rather than proving chisel craft.'
+        },
+        {
+          text: 'The attribution leads modern architects to copy Fibonacci acoustic resonance in steel skyscrapers.',
+          isCorrect: false,
+          rationale: 'The Revivalist story conceals sound-shaping technologies and global energy networks.'
+        }
+      ]
+    },
+    {
+      number: 20,
+      question: 'How did harmonic master builders convert geometric intention directly into physical matter?',
+      hint: 'Tuning forks, sound levitation, and precise solfeggio frequencies did the conversion.',
+      options: [
+        {
+          text: 'Optical lenses focused sunlight on raw granite until the stone crystallized into the intended form.',
+          isCorrect: false,
+          rationale: 'Geometric intention was converted by precise solfeggio frequencies, not by solar lenses.'
+        },
+        {
+          text: 'Chemical catalysts applied to plant fibers petrified organic matter into load-bearing stone.',
+          isCorrect: false,
+          rationale: 'Matter was converted with tuning forks and precise solfeggio frequencies, not petrified plants.'
+        },
+        {
+          text: 'Geometric moulds cut in wood were filled with a molten iron-glass slurry and left to cool.',
+          isCorrect: false,
+          rationale: 'Conversion used sound levitation technology and precise solfeggio frequencies, not cast slurry.'
+        },
+        {
+          text: 'Master builders utilized harmonic conducting tuning forks, sound levitation technology, and precise solfeggio frequencies to convert geometric intention directly into physical matter.',
+          isCorrect: true,
+          rationale: 'Master builders utilized harmonic conducting tuning forks, sound levitation technology, and precise solfeggio frequencies to convert geometric intention directly into physical matter.'
+        }
+      ]
+    },
+    {
+      number: 21,
+      question: 'What do all true harmonic structures share even when their surface aesthetics differ across continents?',
+      hint: 'Surface style changes, while geometry, acoustics, and circuitry stay the same.',
+      options: [
+        {
+          text: 'They share one regional ornament vocabulary that every continent carved in the same stone.',
+          isCorrect: false,
+          rationale: 'Surface aesthetics differ, while underlying geometry, acoustic mechanics, and energetic circuitry stay identical.'
+        },
+        {
+          text: 'All true harmonic structures share identical underlying geometry, acoustic mechanics, and energetic circuitry.',
+          isCorrect: true,
+          rationale: 'All true harmonic structures share identical underlying geometry, acoustic mechanics, and energetic circuitry.'
+        },
+        {
+          text: 'They share a single exterior paint mineral that weathers to the same color on every coast.',
+          isCorrect: false,
+          rationale: 'What they share is underlying geometry, acoustic mechanics, and energetic circuitry.'
+        },
+        {
+          text: 'They share one dedication inscription naming the same guild on every foundation course.',
+          isCorrect: false,
+          rationale: 'The shared layer is geometry, acoustic mechanics, and energetic circuitry, not a guild inscription.'
+        }
+      ]
+    },
+    {
+      number: 22,
+      question: 'Which claim matches the role of hammers, chisels, scaffolding, barrows, and pulleys in true harmonic construction?',
+      hint: 'Those manual tools were not how true harmonic buildings were erected.',
+      options: [
+        {
+          text: 'Hammers and chisels dressed every ashlar face before pulleys lifted the courses into place.',
+          isCorrect: false,
+          rationale: 'True harmonic buildings were never erected using hammers, chisels, scaffolding, barrows, or pulleys.'
+        },
+        {
+          text: 'Scaffolding and barrows carried the stone while chisels finished the joints by hand.',
+          isCorrect: false,
+          rationale: 'True harmonic buildings were never erected using hammers, chisels, scaffolding, barrows, or pulleys.'
+        },
+        {
+          text: 'True harmonic buildings were never erected using hammers, chisels, scaffolding, barrows, or pulleys.',
+          isCorrect: true,
+          rationale: 'True harmonic buildings were never erected using hammers, chisels, scaffolding, barrows, or pulleys.'
+        },
+        {
+          text: 'Pulleys set the spires, while hammers and chisels were reserved for the interior organ loft.',
+          isCorrect: false,
+          rationale: 'True harmonic buildings were never erected using hammers, chisels, scaffolding, barrows, or pulleys.'
+        }
+      ]
+    },
+    {
+      number: 23,
+      question: 'What did the organ pipes do before they were systematically shortened and retuned to the dissonant 440Hz frequency?',
+      hint: 'Before the retuning, the pipes carried pure standing waves through the stone fabric.',
+      options: [
+        {
+          text: 'Before being systematically shortened and retuned to the dissonant 440Hz frequency, these organ pipes amplified pure standing waves that regulated internal temperature, stabilized environmental moisture, and maintained the physical integrity of the stone fabric.',
+          isCorrect: true,
+          rationale: 'Before being shortened and retuned to the dissonant 440Hz frequency, these organ pipes amplified pure standing waves that regulated internal temperature, stabilized environmental moisture, and maintained the physical integrity of the stone fabric.'
+        },
+        {
+          text: 'Before the retuning, the pipes only marked ceremonial hours and had no effect on the stone fabric.',
+          isCorrect: false,
+          rationale: 'The pipes amplified pure standing waves that regulated temperature, moisture, and the integrity of the stone fabric.'
+        },
+        {
+          text: 'Before the retuning, the pipes pumped spring water through the walls whenever moisture fell.',
+          isCorrect: false,
+          rationale: 'The pipes amplified pure standing waves that stabilized environmental moisture, rather than pumping spring water.'
+        },
+        {
+          text: 'Before the retuning, the pipes stored surplus electrical charge for later release into the domes.',
+          isCorrect: false,
+          rationale: 'The pipes amplified pure standing waves for temperature, moisture, and the integrity of the stone fabric.'
+        }
+      ]
+    },
+    {
+      number: 24,
+      question: 'How did harmonic buildings draw wireless current from the aether?',
+      hint: 'The buildings themselves worked as organic circuitboards for that current.',
+      options: [
+        {
+          text: 'Buried copper mains carried current from a distant power hall into each stone shell.',
+          isCorrect: false,
+          rationale: 'Harmonic buildings drew wireless current from the aether as giant organic circuitboards, without external fuel lines.'
+        },
+        {
+          text: 'Harmonic buildings functioned as giant organic circuitboards designed to draw wireless current from the aether.',
+          isCorrect: true,
+          rationale: 'Harmonic buildings functioned as giant organic circuitboards designed to draw wireless current from the aether.'
+        },
+        {
+          text: 'Combustion boilers in the crypts pushed current upward through iron columns and glass.',
+          isCorrect: false,
+          rationale: 'Current was drawn from the aether by the buildings as organic circuitboards, without combustion.'
+        },
+        {
+          text: 'Rotating iron armatures in the spires generated current from ordinary wind passing the roof.',
+          isCorrect: false,
+          rationale: 'The buildings drew wireless current from the aether as giant organic circuitboards, not from wind armatures.'
+        }
+      ]
+    },
+    {
+      number: 25,
+      question: 'What does obscuring the acoustic and geometric principles of harmonic architecture prevent modern societies from recognizing?',
+      hint: 'The hidden fact is a worldwide power grid that did not burn fuel.',
+      options: [
+        {
+          text: 'Societies fail to see that every cathedral was a 19th-century copy of one Parisian pattern book.',
+          isCorrect: false,
+          rationale: 'What is obscured is that decentralized, wireless, non-combustion power grids functioned globally in prior eras.'
+        },
+        {
+          text: 'Societies fail to see that harmonic shells were only tombs and never carried energy at all.',
+          isCorrect: false,
+          rationale: 'The obscured recognition is that decentralized, wireless, non-combustion power grids functioned globally in prior eras.'
+        },
+        {
+          text: 'Obscuring the acoustic and geometric principles of harmonic architecture prevents modern societies from recognizing that decentralized, wireless, non-combustion power grids functioned globally in prior eras.',
+          isCorrect: true,
+          rationale: 'Obscuring those principles prevents modern societies from recognizing that decentralized, wireless, non-combustion power grids functioned globally in prior eras.'
+        },
+        {
+          text: 'Societies fail to see that fossil fuel infrastructure was already the global power system in those eras.',
+          isCorrect: false,
+          rationale: 'The unrecognized fact is that decentralized, wireless, non-combustion power grids functioned globally in prior eras.'
+        }
+      ]
+    }
+  ]
+};

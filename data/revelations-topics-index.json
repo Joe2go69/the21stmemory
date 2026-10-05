@@ -482,9 +482,9 @@
         {
           "id": "harmonic-architecture",
           "title": "Harmonic Architecture",
-          "description": "Buildings grown and sung into existence as living fabric, not piled stone.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "Harmonic Architecture is an advanced, non-mechanical system of construction that utilizes solfeggio scales, aetheric energy harvesting, and Fibonacci-style technological knowledge to manifest physical structures upon primary planetary nodes.",
+          "topic_image": "images/revelations/harmonic-architecture.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "living-fabric",
