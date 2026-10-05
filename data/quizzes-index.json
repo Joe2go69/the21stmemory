@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T13:22:06.951Z",
-  "total": 259,
+  "generatedAt": "2026-10-05T14:02:07.558Z",
+  "total": 260,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 63
+      "count": 64
     }
   ],
   "quizzes": [
@@ -3263,6 +3263,19 @@
       "href": "quiz/revelations/soul-architecture.html",
       "diveHref": "dive/revelations/soul-architecture.html",
       "key": "revelations/soul-architecture"
+    },
+    {
+      "id": "sound-masonry",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Sound Masonry",
+      "subtitle": "Test your understanding of Sound Masonry — acoustic frequencies that cut, dress, and levitate piezoelectric quartz granite into a self-sustaining Air-to-Earth circuit.",
+      "questionCount": 25,
+      "href": "quiz/revelations/sound-masonry.html",
+      "diveHref": "dive/revelations/sound-masonry.html",
+      "key": "revelations/sound-masonry"
     },
     {
       "id": "sovereign-accord",
