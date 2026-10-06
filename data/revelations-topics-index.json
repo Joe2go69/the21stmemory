@@ -505,9 +505,9 @@
         {
           "id": "moorish-metropolis",
           "title": "Moorish Metropolis",
-          "description": "The Moorish layer of the true cities, overwritten by the post-reset story.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true
+          "description": "The high-technology, anti-gravity-equipped urban civilization of African Tartarians across Africa and Al-Andalus, erased about 150 years ago and recast as a medieval domain.",
+          "topic_image": "images/revelations/moorish-metropolis.webp",
+          "is_placeholder": false
         },
         {
           "id": "lemurian-tongue",

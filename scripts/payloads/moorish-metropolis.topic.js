@@ -1,0 +1,114 @@
+module.exports = {
+  source: 'revelations',
+  id: 'moorish-metropolis',
+  title: 'Moorish Metropolis',
+  description: 'The high-technology, anti-gravity-equipped urban civilization of African Tartarians across Africa and Al-Andalus, erased about 150 years ago and recast as a medieval domain.',
+  images: {
+    topic: { source: 'Moorish Metropolis.webp', target: 'moorish-metropolis.webp' },
+    pdfPreview: { source: 'The_Moorish_Reset.webp', target: 'the-moorish-reset.webp' },
+    infographic: { source: 'Lost_Frequency_of_Aetheric_Power.webp', target: 'lost-frequency-of-aetheric-power.webp' }
+  },
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/1VxC-5ZlRLEVh02UBi79XG5omcIiiqEds/view?usp=sharing',
+  rumble_videos: [
+    {
+      title: 'How Sound Masonry Powered Tartarian Cities',
+      embed_url: 'https://rumble.com/embed/v7e8vt0/?pub=4p0ieu',
+      description: 'How Sound Masonry Powered Tartarian Cities — harmonic sound masonry dressed piezoelectric granite into self-sustaining aetheric power structures.'
+    },
+    {
+      title: 'The Aetheric Grid of the Moorish Metropolis',
+      embed_url: 'https://rumble.com/embed/v7e8wi8/?pub=4p0ieu',
+      description: 'The Aetheric Grid of the Moorish Metropolis — cities on the Becker Hagens UVG120 Grid harvested free atmospheric energy through spires, domes, and resonance chambers.'
+    },
+    {
+      title: 'The Moorish Metropolis',
+      embed_url: 'https://rumble.com/embed/v7e9qeo/?pub=4p0ieu',
+      description: 'The Moorish Metropolis — African Tartarian urban centers ran on anti-gravity craft and free aetheric energy until 19th-century resets erased them.'
+    }
+  ],
+  report: `# Moorish Metropolis
+
+## Overview
+The Moorish Metropolis refers to the high-technology, anti-gravity-equipped urban centers constructed and inhabited by African Tartarians prior to their systematic erasure approximately 150 years ago. Far from primitive regional settlements, these metropolitan hubs comprised a magnificent series of advanced civilisations spanning Africa and the Iberian kingdom of Al-Andalus. These urban centers were governed by benevolent Moorish rulers, visionary inventors, artisans, metalworkers, and technological geniuses who commanded anti-gravity levitation craft, free aetheric energy harvesting, and harmonically engineered architecture. Within the framework of historical reality, the Moorish Metropolis represents a pinnacle of pre-reset human civilization.
+
+The conventional historical narrative surrounding these metropolises has been deliberately falsified by the Rockefeller Education System and Freemasonic controllers. The ruling class re-framed these high-technology centers as primitive medieval domains, attributing colossal aetheric power-generating palaces to feudal sultans and reducing an advanced, global population to nomadic tribes or regional conquerors. Through periodic reset sequences, forced population displacements, and the insertion of fabricated timelines, the true physical and technological reality of the Moorish Metropolis was obscured from public memory.
+
+## Key Terminology
+- **Moorish Metropolis** — The high-technology, anti-gravity-equipped urban civilization of African Tartarians that flourished across Africa and southern Europe prior to the 19th-century resets.
+- **African Tartarians** — The original Black Moorish inhabitants and rulers of pre-reset high civilisations, possessing advanced technological, metallurgical, and architectural capabilities.
+- **Anti-Gravity Levitation Craft** — Advanced aerial vessels piloted by Moorish citizens and rulers utilizing atmospheric energetic principles, recorded in remnant archival media prior to their suppression.
+- **Al-Andalus** — The flourishing Moorish technological kingdom on the Iberian Peninsula, falsely categorized by conventional historians as a medieval feudal domain.
+- **Moorish-Tartar Architecture** — Colossal stone and piezoelectric structures designed with precise geometric proportions to harvest free aetheric energy and generate continuous power and environmental heating.
+- **Free Aetheric Energy** — Environmental wireless electromagnetic and vibrational power extracted directly from the atmospheric field using specialized building spires, domes, and resonator circuitry.
+- **Fu Dog** — A real chimera-like guardian creature from pre-reset epochs, historically sculpted holding a geodesic sphere (xiuqiu) that explicitly maps the planetary Ley-Line nodal network.
+- **Colour Cine Film** — Surviving visual archival footage from the mid-to-late 19th century documenting Moorish levitation craft and high-technology African infrastructure prior to final reset clearance.
+- **Reset Sequence** — Periodic catastrophic interventions executed by parasitic controllers to destroy high civilisations, collapse technological timelines, and forcibly reduce human survivors to primitive conditions.
+- **Rockefeller Education System** — The institutional framework established by ruling bloodline families to fabricate historical timelines, insert false medieval eras, and obscure pre-reset human achievements.
+
+## Core Revelations
+The true historical reality of the Moorish Metropolis stands in complete opposition to institutional academia. Africa was not an undeveloped wilderness, but rather a continent of magnificent, interconnected Tartarian civilisations populated by African Tartarians who shared a unified spiritual mindset, advanced scientific understanding, and high-density technological mastery. These Moorish societies functioned without fossil fuels or combustion engines, operating sophisticated municipal infrastructure powered entirely by free aetheric energy. Citizens navigated metropolitan centers using personal and commercial anti-gravity levitation craft, demonstrating that conventional gravitational theories were fabricated primarily to justify physical confinement on a globe model.
+
+Institutional history claims that monuments like the Alhambra in Granada were constructed in the 13th and 14th centuries by sultans such as Muhammad I Ibn al-Ahmar, Yusuf I, and Muhammad V. This narrative is a complete fabrication. These colossal structures are Tartarian power generators and harmonic healing complexes built over 700 to 1,000 years ago using sound levitation technology and acoustic resonance. They were subsequently re-dated during the deliberate insertion of up to 2,000 years of fake history designed to hide the recent existence of high Tartarian civilization.
+
+Furthermore, Black genetics represent the foundational human stock on the physical plane, possessing a robust physical build and a larger pineal gland tuned to atmospheric aetheric frequencies. The Moorish Metropolis reflected this original biological state before subterranean repopulation programs introduced newer phenotypes into reset zones.
+
+## Detailed Mechanics and Key Elements
+### Aetheric Energy Harvesting and Harmonic Construction
+Moorish metropolitan architecture was engineered to function as a wireless, self-sustaining power grid. Structures were grown and erected using piezoelectric granite, dressed and positioned via harmonic sound masonry rather than manual labor, hammers, or pulleys. Architects applied the Fibonacci series and sacred geometry, aligning key structures directly over the planetary nodal network defined by the Becker Hagens UVG120 Grid.
+
+\`\`\`
+Atmospheric Aetheric Field
+       │
+       ▼
+[ Spires & Domes ] (Copper & Brass Conductors)
+       │
+       ▼
+[ Piezoelectric Masonry ] (Frequency-Dressed Granite)
+       │
+       ▼
+[ Acoustic Circuitry ] (Resonance Chambers & Water Courses)
+       │
+       ▼
+Continuous Wireless Power, Heating, & Harmonic Healing
+\`\`\`
+
+Major architectural elements served precise mechanical functions:
+
+Domes and Spires: Fitted with copper and brass conducting rods to collect electrostatic and aetheric charge from the atmosphere.
+
+Resonance Chambers: Vaulted stone rooms designed to maintain acoustic frequencies that provided environmental warmth, unperishing food storage, and continuous hot water.
+
+Piezoelectric Granite: Dressed using specific solfeggio scales to generate clean electric current when compressed under heavy architectural loads.
+
+### Anti-Gravity Dynamics and Cine Film Evidence
+The anti-gravity levitation craft utilized by Moorish citizens operated by modulating local electromagnetic frequencies, neutralizing the atmospheric density gradient without acoustic noise or thermal exhaust. Visual evidence of this technology survived into the modern era via rare colour cine film footage captured immediately prior to the final 19th-century reset. This film footage documents high-technology Moorish urban centers and operational levitation vessels before the population was forcibly cleared and the technology confiscated.
+
+### The Fu Dog and Ley-Line Mapping
+The Imperial Lion sculpture known as the Fu Dog is an explicit representation of a real chimera guardian creature that existed during pre-reset epochs. Sculpted pairs of Fu Dogs were placed at palace entryways to guard high-energy junctions. The male Fu Dog is depicted resting its paw on a geodesic sphere (xiuqiu), which is not a decorative ball, but an precise geometric map of the Earth's Ley-Line power grid network and nodal energy points.
+
+### Systematic Reset, Mudfloods, and Script Erasure
+The destruction of the Moorish Metropolis was accomplished through orchestrated military campaigns, artificial energy-weapon fires, and engineered mudfloods. Following the physical destruction of their cities, surviving Moorish populations were stripped of their technological apparatus and reset to primitive conditions.
+
+To ensure complete erasure of the Moorish Metropolis:
+
+All Tartarian written scripts were systematically confiscated and destroyed, leaving no public written records.
+
+Between 1840 and 1850, exactly 18,745 pristine, fake medieval manuscripts were inserted into European libraries to establish a fictitious 1,000-year historical gap.
+
+Global musical tuning was altered from the natural 432Hz solfeggio scale to the dissonant 440Hz standard (the Devils Interval), severing the acoustic resonance required to operate Tartarian aetheric technology.
+
+## Broader Context and Interconnections
+The Moorish Metropolis was intimately connected to the global planetary energy lattice. Every major Moorish city was built directly over a primary or secondary node on the Becker Hagens UVG120 Grid, allowing cities on different continents to operate in harmonic synchrony. The architecture of Al-Andalus shares identical Fibonacci design ratios, piezoelectric stone masonry, and spired energy receivers with Tartarian structures found in Asia, North America, and Russia.
+
+Following the collapse of the Moorish Metropolis, parasitic control systems instituted a global frequency inversion. By shifting global acoustics to 440Hz and calcifying the human pineal gland through water fluoridation, the functional operation of remnant Tartarian energy devices was rendered impossible, while human consciousness was locked into 3rd-density sensory limitations.
+
+## Strategic Implications
+Reclaiming the truth of the Moorish Metropolis provides critical strategic leverage in dismantling artificial control systems:
+
+Elimination of Historical Deception: Recognizing the recent existence of advanced African Tartarian civilisations completely invalidates the false timeline imposed by the Rockefeller Education System.
+
+Recovery of Free Energy Concepts: Understanding that Moorish urban centers ran on wireless free aetheric energy exposes the artificial nature of resource scarcity, utility taxation, and fossil-fuel dependence.
+
+Severing Perceived Knowledge: Deconstructing the fabricated historical narrative fulfills a mandatory requirement for spiritual liberation — cutting the string of perceived knowledge to allow uninhibited alignment with true historical reality.
+`
+};

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T14:02:07.558Z",
-  "total": 260,
+  "generatedAt": "2026-10-06T01:44:12.643Z",
+  "total": 261,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 64
+      "count": 65
     }
   ],
   "quizzes": [
@@ -3068,6 +3068,19 @@
       "href": "quiz/revelations/mk-ultra-craft.html",
       "diveHref": "dive/revelations/mk-ultra-craft.html",
       "key": "revelations/mk-ultra-craft"
+    },
+    {
+      "id": "moorish-metropolis",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Moorish Metropolis",
+      "subtitle": "Test your understanding of Moorish Metropolis — African Tartarian cities run on free aetheric energy and anti-gravity craft, then erased and recast as a medieval domain.",
+      "questionCount": 25,
+      "href": "quiz/revelations/moorish-metropolis.html",
+      "diveHref": "dive/revelations/moorish-metropolis.html",
+      "key": "revelations/moorish-metropolis"
     },
     {
       "id": "npc-ratio",
