@@ -512,9 +512,9 @@
         {
           "id": "lemurian-tongue",
           "title": "Lemurian Tongue",
-          "description": "The Lemurian language current still sitting under the overlay's languages.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true
+          "description": "The Lemurian Tongue is the original, singular universal language spoken across the entire physical plane prior to custodial post-reset intervention.",
+          "topic_image": "images/revelations/lemurian-tongue.webp",
+          "is_placeholder": false
         },
         {
           "id": "tpc-mirrors",

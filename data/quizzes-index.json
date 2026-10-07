@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T01:44:12.643Z",
-  "total": 261,
+  "generatedAt": "2026-10-07T05:42:01.276Z",
+  "total": 262,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 65
+      "count": 66
     }
   ],
   "quizzes": [
@@ -3003,6 +3003,19 @@
       "href": "quiz/revelations/legal-capture.html",
       "diveHref": "dive/revelations/legal-capture.html",
       "key": "revelations/legal-capture"
+    },
+    {
+      "id": "lemurian-tongue",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Lemurian Tongue",
+      "subtitle": "Test your understanding of Lemurian Tongue — the singular universal language and the Babel event that fractured it into mutually unintelligible dialects.",
+      "questionCount": 25,
+      "href": "quiz/revelations/lemurian-tongue.html",
+      "diveHref": "dive/revelations/lemurian-tongue.html",
+      "key": "revelations/lemurian-tongue"
     },
     {
       "id": "living-fabric",
