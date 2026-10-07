@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T05:42:01.276Z",
-  "total": 262,
+  "generatedAt": "2026-10-07T07:09:58.046Z",
+  "total": 263,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 66
+      "count": 67
     }
   ],
   "quizzes": [
@@ -3393,6 +3393,19 @@
       "href": "quiz/revelations/tartarian-memory.html",
       "diveHref": "dive/revelations/tartarian-memory.html",
       "key": "revelations/tartarian-memory"
+    },
+    {
+      "id": "tpc-mirrors",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "TPC Mirrors",
+      "subtitle": "Test your understanding of TPC Mirrors — Time-Phase Conjugated mirrors, Red Mercury, and the post-1728 collapse into Mirror Madness.",
+      "questionCount": 25,
+      "href": "quiz/revelations/tpc-mirrors.html",
+      "diveHref": "dive/revelations/tpc-mirrors.html",
+      "key": "revelations/tpc-mirrors"
     },
     {
       "id": "transistor-leak",

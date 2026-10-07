@@ -519,9 +519,9 @@
         {
           "id": "tpc-mirrors",
           "title": "TPC Mirrors",
-          "description": "TPC mirrors as remaining Tartarian memory devices in the public landscape.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true
+          "description": "TPC Mirrors, or Time-Phase Conjugated Mirrors, were high-fidelity spiritual technology used in the Tartarian era for instantaneous long-distance aetheric communication.",
+          "topic_image": "images/revelations/tpc-mirrors.webp",
+          "is_placeholder": false
         }
       ]
     },

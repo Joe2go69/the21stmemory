@@ -1838,7 +1838,7 @@
       "sourceId": "revelations",
       "topicId": "tpc-mirrors",
       "path": "/dive/revelations/tpc-mirrors.html",
-      "live": false,
+      "live": true,
       "title": "TPC Mirrors"
     },
     {
