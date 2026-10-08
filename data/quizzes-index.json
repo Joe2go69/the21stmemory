@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T09:16:05.980Z",
-  "total": 267,
+  "generatedAt": "2026-10-08T09:58:31.712Z",
+  "total": 268,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 71
+      "count": 72
     }
   ],
   "quizzes": [
@@ -3107,6 +3107,19 @@
       "href": "quiz/revelations/moorish-metropolis.html",
       "diveHref": "dive/revelations/moorish-metropolis.html",
       "key": "revelations/moorish-metropolis"
+    },
+    {
+      "id": "nesara-gesara",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "NESARA / GESARA",
+      "subtitle": "Test your understanding of NESARA / GESARA — the debt-forgiveness Salvation Lure that captures free will through an effortless financial reset.",
+      "questionCount": 25,
+      "href": "quiz/revelations/nesara-gesara.html",
+      "diveHref": "dive/revelations/nesara-gesara.html",
+      "key": "revelations/nesara-gesara"
     },
     {
       "id": "npc-ratio",

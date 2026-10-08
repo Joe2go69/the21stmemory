@@ -1,0 +1,71 @@
+module.exports = {
+  source: 'revelations',
+  id: 'nesara-gesara',
+  title: 'NESARA / GESARA',
+  description: 'NESARA / GESARA is an engineered Salvation Lure that pitches total debt forgiveness to keep people passive and capture individual free will.',
+  images: {
+    topic: { source: 'NESARA  GESARA.webp', target: 'nesara-gesara.webp' },
+    pdfPreview: { source: 'The_Debt_Forgiveness_Trap.webp', target: 'the-debt-forgiveness-trap.webp' },
+    infographic: { source: 'Bypassing_Custodial_Financial_Trap.webp', target: 'bypassing-the-custodial-financial-trap.webp' }
+  },
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/1Fcn9Ogu6zSwLod86zYQ8Wu0tnwtXFCxR/view?usp=sharing',
+  rumble_videos: [
+    {
+      title: 'The NESARA Debt Forgiveness Trap',
+      embed_url: 'https://rumble.com/embed/v7edwgk/?pub=4p0ieu',
+      description: 'The NESARA Debt Forgiveness Trap — a debt-forgiveness narrative that keeps people passive and captures free will through the promise of an effortless financial reset.'
+    },
+    {
+      title: 'Financial Salvation Trap',
+      embed_url: 'https://rumble.com/embed/v7edwky/?pub=4p0ieu',
+      description: 'Financial Salvation Trap — redemption-centre appointments and Tier 4B payouts stall expectation while people consent to oversight and custodial containment.'
+    }
+  ],
+  report: `# NESARA / GESARA
+
+## Overview
+Within the broader framework of custodial management mechanisms, NESARA / GESARA functions as a primary debt-forgiveness narrative. Promoted in alternative circles under the title of the Global Economic Security and Recovery Act, the narrative promises total debt forgiveness, the abolition of predatory loans, and the universal distribution of wealth. In operational reality, NESARA / GESARA is not a working statute, nor does it exist as an enacted legal framework. Instead, it is an engineered Salvation Lure designed to capitalize on human financial exhaustion and capture individual free will.
+
+The construct functions as psychological bait, pitching an effortless financial reset to keep target populations passive and expectant. By offering a pre-packaged resolution to systemic economic oppression, the narrative encourages individuals to await external intervention rather than exercising sovereign self-reliance. Operating in tandem with companion lures across healthcare and technology, NESARA / GESARA serves as a temporal trap that pacifies public discontent while coaxing individuals into consenting to new forms of oversight.
+
+## Key Terminology
+- **NESARA / GESARA** — The public acronym for the Global Economic Security and Recovery Act (and its global counterpart), framed in popular media as a legal mandate granting total debt forgiveness, but operating in truth as a manufactured Salvation Lure and financial bait.
+- **Global Economic Security and Recovery Act** — The nominal title assigned to the fictional debt-clearing legislation used to exploit human material needs and extract free will consent.
+- **Redemption Centre** — A promised physical facility where individuals expect to process currency exchanges or redeem financial bonds, serving in practice as an operational stall and a physical vector toward custodial containment.
+- **Tier 4B** — The narrative classification applied to internet-informed citizens awaiting private redemption-centre appointments and sovereign wealth payouts.
+- **Salvation Lure** — An artificial psychological construct deployed by custodial managers to leverage human hope and vulnerability, enticing individuals to voluntarily yield their free will.
+- **Quantum Financial System (QFS)** — A companion narrative apparatus marketed as an unhackable, quantum-backed digital banking network designed to manage wealth distribution and integrate with specialized Q-phones.
+
+## Core Revelations
+Absence of Statutory Reality: NESARA / GESARA is entirely a narrative fiction and financial bait; it is never presented across the six-part synopsis as a functioning legal statute or working economic system.
+
+Systemic Multi-Industry Bundling: The debt-forgiveness story is systematically bundled alongside the Covid pandemic narrative, MedBeds, the Quantum Financial System (QFS), Q-phones, and humanitarian projects to form an all-encompassing salvation package.
+
+The Appointment Stall: The persistent promise of redemption-centre appointments and Tier 4B payouts is a deliberate operational stall designed to keep target audiences trapped in endless cycles of expectation and passivity.
+
+Free Will Extraction: The lure functions as a mechanism to obtain explicit human authorization. By coaxing individuals to report to redemption centers or claim digital financial assets, the system entices people to walk voluntarily into custodial containment structures, such as a FEMA camp or a social credit score system.
+
+## Detailed Mechanics and Key Elements
+The operational framework of NESARA / GESARA relies on exploiting human psychological vulnerabilities under financial usury. By broadcasting promises of clearing mortgages, credit lines, and tax obligations, the narrative creates an intense emotional pull. However, an examination of the structural mechanics demonstrates that NESARA / GESARA possesses no legal reality or statutory implementation. It exists purely as a conceptual lure deployed to manage public perception during periods of systemic instability.
+
+To maximize its reach, the debt-forgiveness story is integrated into a broader ecosystem of manufactured wants. Financial rescue via NESARA / GESARA and the QFS is linked directly with biological renewal via MedBeds (promising physical restoration and age regression) and moral fulfillment via humanitarian projects. This multi-vector approach ensures that regardless of an individual's primary motivation—whether material survival, physical health, or altruistic ambition—a tailored entry point is available to capture their attention and consent.
+
+A central mechanical element of this lure is the redemption centre cycle. For years, public commentators and controlled truther figures have claimed that Tier 1, 2, 3, and Tier 4B bondholders are on the threshold of receiving official appointment notifications. This perpetual delay acts as a temporal stall, locking researchers into repetitive information loops and preventing independent sovereign action. When projected deadlines pass without execution, the narrative adapts by issuing new timelines or falsely asserting that quiet redemptions are actively underway behind closed doors.
+
+The ultimate mechanic of the NESARA / GESARA construct is the extraction of free will. Under Universal field laws, custodial entities cannot impose direct compliance without consent. By designing a scenario where individuals actively seek out redemption packages, accept trackable Q-phones operating on 5G networks, and register their personal details for project funding, the system secures voluntary submission. In extreme applications, individuals following redemption directives would physically transport themselves to designated intake facilities or FEMA camp locations under the impression that they are arriving to collect financial disbursements.
+
+## Broader Context and Interconnections
+NESARA / GESARA does not operate in isolation; it is deeply interconnected with digital banking infrastructure and surveillance frameworks. The narrative reliance on the Quantum Financial System conditions the public to accept cashless transactions, digital identification, and central bank monitoring. Under the guise of receiving unhackable, sovereign wealth, participants are led directly into the architecture required to enforce a social credit score system.
+
+The narrative is propagated continuously across the World Wide Web (Vaf Vaf Vaf or 666), which serves as the primary distribution network for custodial lures. Online platforms, public influencers, and fake truther channels circulate updates regarding NESARA / GESARA to build follower bases, monetize attention, and maintain public distraction. This digital ecosystem ensures that as legacy financial systems erode, public curiosity is diverted into artificial salvation constructs rather than genuine spiritual awakening.
+
+The necessity of these lures stems directly from the Sovereign Accord, the foundational field law governing this realm. Because external forces are prohibited from overriding a self-sustained field directly, all management interventions must arise through localized choice and consequence. Manufactured wants like NESARA / GESARA, MedBeds, and the QFS are the primary tools used to manipulate choice, dressing custodial containment up as golden-age liberation so that target souls willingly sign away their autonomy.
+
+## Strategic Implications
+The deployment of NESARA / GESARA carries severe strategic consequences for human populations. By establishing the expectation of an imminent, effortless financial rescue, the narrative effectively neutralizes public pushback. Individuals who believe that sovereign wealth distribution is being handled by secret benevolent factions are far less likely to take direct, practical steps to secure their own independence or challenge local authority structures.
+
+Furthermore, chasing false financial salvation creates a direct vector for voluntary enslavement. By agreeing to digital registration, project tracking, and device adoption in exchange for promised funds, individuals unknowingly consent to stringent custodial parameters. This compliance trades real sovereign awareness for artificial paper wealth and digital credits that remain entirely under external control.
+
+Achieving true sovereign independence requires cutting the three primary structural attachments: perceived knowledge, religion, and finance. Recognizing NESARA / GESARA as a manufactured lure allows the Resonating Army to dismantle false economic expectations. By rejecting the debt-forgiveness bait, individuals preserve their free will, avoid custodial intake traps, and maintain uncompromised consciousness during the ascensional transition.
+`
+};
