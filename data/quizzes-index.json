@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T09:58:31.712Z",
-  "total": 268,
+  "generatedAt": "2026-10-08T11:00:13.646Z",
+  "total": 269,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 72
+      "count": 73
     }
   ],
   "quizzes": [
@@ -3055,6 +3055,19 @@
       "href": "quiz/revelations/manufactured-wants.html",
       "diveHref": "dive/revelations/manufactured-wants.html",
       "key": "revelations/manufactured-wants"
+    },
+    {
+      "id": "medbeds",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "MedBeds",
+      "subtitle": "Test your understanding of MedBeds — the health half of the Salvation Lure that promises a body thirty years younger and never arrives.",
+      "questionCount": 25,
+      "href": "quiz/revelations/medbeds.html",
+      "diveHref": "dive/revelations/medbeds.html",
+      "key": "revelations/medbeds"
     },
     {
       "id": "medical-harvest",

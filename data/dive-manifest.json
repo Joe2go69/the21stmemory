@@ -1985,7 +1985,7 @@
       "sourceId": "revelations",
       "topicId": "medbeds",
       "path": "/dive/revelations/medbeds.html",
-      "live": false,
+      "live": true,
       "title": "MedBeds"
     },
     {
