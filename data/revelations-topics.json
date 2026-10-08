@@ -8,7 +8,7 @@
   "source_url_label": "Read Part 1 on Christian21 →",
   "playlist_url": "https://rumble.com/playlists/XW8d4WbTAko",
   "description": "This transmission is the six-part brief synopsis of Christian21's revelations for the Great Spiritual Awakening — next-level intel on soul architecture, the simulation field, and the parasitic farm built around the fifteen human attributes. It maps how intelligence preceded physicality, how the 12 Proximal Sols and 4,000 Taran vessels were created, and how overlays, digital inserts, MK-Ultra, legal capture, and reset harvest keep the inner illusion running.\n\nEssential for anyone who wants to understand Sovereign Accord, Custodian control systems, Tartarian memory, the organic circuitboard of this realm, and why the original writings on Christian21 remain the place to sit with the source documents.",
-  "total_topics": 79,
+  "total_topics": 106,
   "topics": [
     {
       "id": "essence-of-the-transmission",
@@ -536,6 +536,13 @@
                 "totalQuestions": 25,
                 "description": "Test your understanding of Mission Insertion — the pre-colonization incarnational deployment of the 4,000 ancient souls under the Sovereign Accord."
               }
+            },
+            {
+              "id": "anunnaki-and-draco",
+              "title": "Anunnaki and Draco",
+              "description": "Anunnaki and Draco",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Anunnaki and Draco\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "quiz": {
@@ -580,7 +587,23 @@
             "title": "Homecoming Reunion",
             "totalQuestions": 25,
             "description": "Test your understanding of Homecoming Reunion — the EMF drop, the Wizard of Oz moment, plasma portal extraction, and the snap-back into original ET stasis vessels."
-          }
+          },
+          "subtopics": [
+            {
+              "id": "going-home",
+              "title": "Going Home",
+              "description": "Going Home",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Going Home\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "time-traveller-faces",
+              "title": "Time Traveller Faces",
+              "description": "Time Traveller Faces",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Time Traveller Faces\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            }
+          ]
         }
       ],
       "quiz": {
@@ -656,7 +679,23 @@
             "title": "Overlay Geography",
             "totalQuestions": 25,
             "description": "Test your understanding of Overlay Geography — scrolling scenery tiles, time-phased corridors, mirrored grid nodes, and guarded natural portals."
-          }
+          },
+          "subtopics": [
+            {
+              "id": "chemtrail-portals",
+              "title": "Chemtrail Portals",
+              "description": "Chemtrail Portals",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Chemtrail Portals\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "portal-guards",
+              "title": "Portal Guards",
+              "description": "Portal Guards",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Portal Guards\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            }
+          ]
         },
         {
           "id": "digital-inserts",
@@ -1071,6 +1110,50 @@
                 "totalQuestions": 25,
                 "description": "Test your understanding of Fifteen-Minute Cities — urban containment, incremental acclimatization, and the cashless social-credit perimeter."
               }
+            },
+            {
+              "id": "salvation-lure",
+              "title": "Salvation Lure",
+              "description": "Salvation Lure",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Salvation Lure\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "subtopics": [
+                {
+                  "id": "qfs",
+                  "title": "QFS",
+                  "description": "QFS",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# QFS\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "nesara-gesara",
+                  "title": "NESARA / GESARA",
+                  "description": "NESARA / GESARA",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# NESARA / GESARA\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "medbeds",
+                  "title": "MedBeds",
+                  "description": "MedBeds",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# MedBeds\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "trump-1989",
+                  "title": "Trump 1989",
+                  "description": "Trump 1989",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# Trump 1989\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "white-hats",
+                  "title": "White Hats",
+                  "description": "White Hats",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# White Hats\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             }
           ],
           "quiz": {
@@ -1172,6 +1255,13 @@
                 "totalQuestions": 25,
                 "description": "Test your understanding of GAT Programs — how gifted-and-talented screening identifies children and sorts them into covert asset tracks."
               }
+            },
+            {
+              "id": "empathy-trap",
+              "title": "Empathy Trap",
+              "description": "Empathy Trap",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Empathy Trap\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "quiz": {
@@ -1645,7 +1735,23 @@
                 "title": "Academic Distortion",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Academic Distortion — false timelines, the erasure of Tartaria, and the university pipeline that builds a superior cage."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "rockefeller-schools",
+                  "title": "Rockefeller Schools",
+                  "description": "Rockefeller Schools",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# Rockefeller Schools\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "mars-ticket",
+                  "title": "Mars Ticket",
+                  "description": "Mars Ticket",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# Mars Ticket\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             }
           ],
           "quiz": {
@@ -1747,6 +1853,20 @@
                 "totalQuestions": 25,
                 "description": "Test your understanding of Human 2.0 — the conversion of true soul-bearing humans into a technologically lobotomized cyborg workforce."
               }
+            },
+            {
+              "id": "covid-vaccine",
+              "title": "Covid Vaccine",
+              "description": "Covid Vaccine",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Covid Vaccine\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "watch-the-water",
+              "title": "Watch the Water",
+              "description": "Watch the Water",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Watch the Water\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "quiz": {
@@ -1968,7 +2088,23 @@
             "title": "Harvest Toll",
             "totalQuestions": 25,
             "description": "Test your understanding of Harvest Toll — the quantified cumulative human loss, biological extraction, and negative energetic yield from manufactured mini-resets."
-          }
+          },
+          "subtopics": [
+            {
+              "id": "loosh",
+              "title": "Loosh",
+              "description": "Loosh",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Loosh\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "organ-harvest",
+              "title": "Organ Harvest",
+              "description": "Organ Harvest",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Organ Harvest\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            }
+          ]
         },
         {
           "id": "clone-genetics",
@@ -2131,7 +2267,23 @@
                 "title": "Anakim Strike",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Anakim Strike — the July 1947 interception that downed two H1 Orion craft on Mac Brazel's farm and leaked the point-contact transistor."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "inner-earth",
+                  "title": "Inner Earth",
+                  "description": "Inner Earth",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# Inner Earth\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "petrified-giants",
+                  "title": "Petrified Giants",
+                  "description": "Petrified Giants",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# Petrified Giants\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             },
             {
               "id": "transistor-leak",
@@ -2199,7 +2351,23 @@
                 "title": "Invasion Script",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Invasion Script — the staged fake alien invasion that uses predictive programming, holographic projections, and salvaged craft to coerce surrender of human sovereignty."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "ssp-psyops",
+                  "title": "SSP Psyops",
+                  "description": "SSP Psyops",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# SSP Psyops\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "fema-camps",
+                  "title": "FEMA Camps",
+                  "description": "FEMA Camps",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# FEMA Camps\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             }
           ],
           "quiz": {
@@ -2208,6 +2376,13 @@
             "totalQuestions": 25,
             "description": "Test your understanding of Roswell Checkmate — the 1947 Anakim interdiction that forced solid-state technology into human civilization and compressed the Reset Harvest timeline."
           }
+        },
+        {
+          "id": "great-reset",
+          "title": "Great Reset",
+          "description": "Great Reset",
+          "topic_image": "images/revelations/placeholder.webp",
+          "report": "# Great Reset\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
         }
       ],
       "quiz": {
@@ -2340,6 +2515,13 @@
                 "totalQuestions": 25,
                 "description": "Test your understanding of Banks as Current — Tartarian architectural nodes that directed aetheric current, and their inversion into financial institutions that store currency."
               }
+            },
+            {
+              "id": "free-energy",
+              "title": "Free Energy",
+              "description": "Free Energy",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Free Energy\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "quiz": {
@@ -2441,6 +2623,13 @@
                 "totalQuestions": 25,
                 "description": "Test your understanding of Sound Masonry — acoustic frequencies that cut, dress, and levitate piezoelectric quartz granite into a self-sustaining Air-to-Earth circuit."
               }
+            },
+            {
+              "id": "432-hertz",
+              "title": "432 Hertz",
+              "description": "432 Hertz",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# 432 Hertz\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "quiz": {
@@ -2572,9 +2761,33 @@
     {
       "id": "organic-circuitboard",
       "title": "Organic Circuitboard",
-      "description": "Axis mundi and the Spirit Tree, mineral components, the living garden, and the plane of worlds — the Cube, density stack, and terrarium seal.",
-      "topic_image": "images/revelations/placeholder.webp",
-      "report": "# Organic Circuitboard\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+      "description": "The Organic Circuitboard is the grown living motherboard of this plane, routing atmospheric aether through minerals, roots, caves, and water in a closed air-to-earth circuit.",
+      "topic_image": "images/revelations/organic-circuitboard.webp",
+      "report": "# Organic Circuitboard\n\n## Overview\nThe Organic Circuitboard is the macro-scale physical architecture of the plane, functioning as a grown living motherboard composed of geological strata, mineral deposits, crystalline caves, root networks, and surface waters. Designed through high-density intelligence prior to physical condensation, this system represents a self-sustaining spiritual technology that operates in direct contrast to modern entropic technology. Rather than generating heat, radiation, or waste, the organic circuitry completes a closed air-to-earth circuit where atmospheric aether is captured by surface vegetation and routed down into subterranean conductive pathways. Electromagnetic field currents, energetic telluric currents, and natural liquid channels flow through this living system to maintain planetary resonance and support multi-density consciousness expansion.\n\n## Key Terminology\n- **Organic Circuitboard** — The living, grown planetary architecture formed by integrated mineral veins, tree root networks, ley line grids, and water channels that function as a global motherboard.\n- **Axis Mundi** — The central vertical cosmic pillar located at the geographic center of the physical plane, through which divine energy ascends and descends.\n- **Spirit Tree** — The supermassive central biological antenna rooted at Mount Meru whose subterranean root system spans across the physical plane to route aetheric energy.\n- **Cain Periphery** — The unstable, spinning outer boundary of the physical plane to which Cain was banished after severing his connection to the central vertical axis.\n- **Hydrothermal Deposits** — Concentrated lines of conductive metals formed when superheated, mineral-rich water is driven through crustal fissures.\n- **Disseminated Deposits** — Microscopic metal particles evenly distributed throughout massive rock bodies, creating diffuse conductive matrices.\n- **Magmatic Reefs** — Wide, horizontal underground layers of platinum group metals formed during the cooling of molten magma bodies.\n- **Terra Preta** — A self-regenerating, biochar-infused living soil matrix created across the Amazon Basin to support high-yield agroforestry.\n- **Agouti** — A specialized rainforest rodent possessing enamel-reinforced teeth capable of cracking fallen Brazil nut pods to propagate seeds.\n- **Peach Palm** — A fully domesticated Amazonian palm tree producing high-calorie food clusters and hard spined wood, lacking any wild evolutionary progenitor.\n- **The Cube** — The multi-dimensional structural enclosure housing all physical and non-physical realms stacked across quadrillions of horizontal frequency bands.\n- **Density Stack** — The vertical hierarchy of dimensional frequencies descending from Source Consciousness down to the 3rd-density physical realm.\n- **Terrarium Seal** — The physical firmament and Antarctic ice wall enclosure containing 178 distinct world domains over a shared ocean.\n\n## Core Revelations\nIntelligence and energetic design preceded physical geometry; every metal, mineral, crystal, and biological species was placed into the realm's crust as a functional electronic component rather than formed through random geological accretion. The extraction of precious metals and industrial mining operations strips vital hardware from the living motherboard, causing planetary energy degradation, field instability, and spiritual decoupling.\n\nThe Amazon Rainforest serves as prime physical evidence of this global circuitry, existing not as an unmanaged jungle, but as a vast, pre-Tartarian permaculture garden engineered with dark soils and complex multi-species biological locks. Furthermore, the physical plane is structured as a vast flat realm sealed within a Terrarium Seal, sharing a subterranean fluid system and energy grid with 178 other distinct world domains inside The Cube.\n\n## Detailed Mechanics and Key Elements\n### The Central Axis and Primary Root Grid\nAt the absolute geographic center of the physical plane lies Mount Meru, the site of the original Spirit Tree. This supermassive biological structure functioned as the supreme Axis Mundi, drawing atmospheric aether through its high canopy and branches into deep subterranean root systems that span the entire plane.\n\n              [ Atmospheric Aether ]\n                         │\n                         ▼\n             [ Central Spirit Tree ]  <-- Axis Mundi\n                         │\n                         ▼\n        ┌────────────────┴────────────────┐\n        │   Subterranean Root Network    │\n        └────────────────┬────────────────┘\n                         │\n      ┌──────────────────┼──────────────────┐\n      ▼                  ▼                  ▼\n[Hydrothermal]     [Disseminated]     [Magmatic Reefs]\n   Veins              Deposits          (PGM Sheets)\n      │                  │                  │\n      └──────────────────┼──────────────────┘\n                         ▼\n               [ Ley Line Grid Nodes ]\n                         │\n                         ▼\n            [ Piezoelectric Granite ]  <-- Tartarian Masonry\n\n### Mineral Crust and Conductor Types\nThe Earth's crust was systematically seeded with specific mineral deposits that act as circuit components, traces, resistors, and capacitors:\nHydrothermal Deposits: Formed when superheated fluid forces dissolved gold, silver, and quartz into crustal fractures, creating concentrated conductive ribbons.\nDisseminated Deposits: Microscopic particles of metal, such as Carlin-type gold, scattered evenly across rock masses to form broad conductive fields.\nMagmatic Reefs: Expansive, horizontal subterranean sheets of platinum group metals (platinum, palladium, rhodium, iridium) formed within magmatic intrusions, such as the Bushveld Complex.\nAlluvial Gold: Dense metal particles washed into riverbeds and caught in natural traps, completing surface fluid circuits.\nHumanity has extracted over 700 million metric tons of copper from the Earth's crust, removing fundamental conductive wiring from the planetary motherboard and forcing surface civilization to rely on hazardous external power grids.\n\n### Biological Permaculture and Soil Matrix\nThe Living Garden of the Amazon Basin demonstrates large-scale organic engineering across 2.7 million square miles. Over 90 percent of this terrain features Terra Preta (Black Earth), an artificial soil matrix reaching depths of 0.5 to 2 meters.\nThe soil matrix consists of four essential engineered components:\nBiochar (Pyrogenic Carbon): Porous charcoal created via low-oxygen biomass burning that holds water, stores carbon, and prevents nutrient leaching.\nDissolved Bones: Animal and fish bone inputs that supply high concentrations of phosphorus and calcium.\nCrushed Terracotta Shards: Millions of microscopic fired clay fragments acting as microbial reefs for beneficial mycorrhizal fungi.\nOrganic Layering: Plant residues and compost continuously integrated into the living soil matrix.\nCreating this soil across the Amazon required manufacturing over 70 billion metric tons of clay pottery—equating to 140 trillion individual pots—a feat impossible for primitive manual labor and requiring advanced planetary permaculture design.\n\n### Multi-Species Ecological Locks\nThe Organic Circuitboard utilizes complex biological locks to maintain ecosystem stability without human intervention:\nThe Brazil Nut Tree: Growing to 150 meters in height, this species relies on a strict three-way dependency. Female Orchid Bees (Euglossine) are the only insects strong enough to pry open the coiled flower hood during its single 24-hour bloom. Male orchid bees must first gather fragrance compounds from wild canopy orchids (Coryanthes) to court the females. Once pollinated, the tree produces cannonball pods that can only be opened by the Agouti, a forest rodent with enamel-reinforced, self-sharpening incisors. The agouti buries seeds in natural sunlight gaps created by fallen trees, ensuring controlled propagation.\nThe Peach Palm (Bactris gasipaes): A fully domesticated palm providing high-energy fatty acid fruit and black spined wood (marajá) used for tools. It possesses no wild ancestor in the botanical record, having been engineered specifically for pre-Columbian agroforestry.\n\n[ Wild Canopy Orchids ] ──► (Male Scents) ──► [ Male Orchid Bees ]\n                                                    │\n                                             (Courting Pair)\n                                                    ▼\n[ Fallen Tree Canopy Gap ] ◄── (Buries Seed) ◄── [ Agouti ] ◄── (Cracks Pod) ◄── [ Brazil Nut Tree ]\n\n### Plane Geometry and Spatial Architecture\nThe physical plane is one of 178 flat world domains enclosed under a single Terrarium Seal and Great Dome. These worlds share a single subterranean Super-Ocean and petroleum reservoir system, with volcanic structures acting as pressure regulation valves. The physical plane rests at the base of the Density Stack inside The Cube, an outer spatial framework containing stacked physical and light realms.\n\n## Broader Context and Interconnections\nThe Organic Circuitboard directly supported the Harmonic Architecture of Tartaria. Tartarian builders erected structures out of piezoelectric quartz granite blocks set deep into water tables, tapping into underlying ley lines and aetheric currents to distribute wireless heating, light, and energy.\n\nSeverance from this central organic system is illustrated by the historical exile of Cain. When Cain's agricultural sacrifice produced horizontal smoke that failed to ascend the vertical Axis Mundi, he was cast off into the Cain Periphery (the Land of Nod), marking the departure from central harmonic alignment into peripheral instability.\n\nInward telluric currents connect the physical motherboard to five external Great Domes:\nDome of Titans\nSheol\nSilence\n5 Peaks\nCelestial Lands\n\nHarmonic instructions generated in non-physical realms travel through telluric currents to planetary nodes, allowing frequency code to manifest physical changes—such as plant enzyme synthesis—directly through the aetheric grid.\n\n## Strategic Implications\nRecognizing the physical plane as an engineered, living motherboard transforms the understanding of natural resources and planetary stewardship. Industrial mining and resource stripping are direct attacks on the plane's energetic hardware, systematically disconnecting surface life from free aetheric power and locking humanity into entropic technology.\n\nBy understanding the geometric layout of the plane, the function of ley line nodes, and the biological design of the realm, individual consciousness can reactivate pineal interface capabilities. Re-establishing resonance with the Organic Circuitboard bypasses artificial control structures, restoring direct telluric field communication and alignment with the greater cosmic stack.\n",
+      "infographic_image": "images/revelations/hardware-of-the-living-realm.webp",
+      "pdf_preview_image": "images/revelations/telluric-cybernetics.webp",
+      "slide_deck_pdf_url": "https://drive.google.com/file/d/1bBhoJtMfNt0Xhuv-q6OnARbAIf9_8Ycc/view?usp=sharing",
+      "rumble_videos": [
+        {
+          "title": "Organic Circuitboard",
+          "embed_url": "https://rumble.com/embed/v7edh6u/?pub=4p0ieu",
+          "description": "Organic Circuitboard — The plane is a grown living motherboard of minerals, roots, caves, and water that routes atmospheric aether into the earth.",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/ee/s8/6/8/S/Q/4/8SQ4A.qR4e.jpg"
+        },
+        {
+          "title": "The Earth Is an Engineered Circuitboard",
+          "embed_url": "https://rumble.com/embed/v7edhj6/?pub=4p0ieu",
+          "description": "The Earth Is an Engineered Circuitboard — Metals, crystals, and species were placed as circuit components before physical geometry condensed.",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/2c/s8/6/4/Z/Q/4/4ZQ4A.gaa.jpg"
+        },
+        {
+          "title": "Organic Circuitboard of the Realm",
+          "embed_url": "https://rumble.com/embed/v7edhuk/?pub=4p0ieu",
+          "description": "Organic Circuitboard of the Realm — Vegetation captures atmospheric aether and feeds it through subterranean veins, reefs, and ley-line nodes.",
+          "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/59/s8/6/s/6/Q/4/s6Q4A.qR4e.jpg"
+        }
+      ],
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "axis-mundi",
@@ -2655,11 +2868,33 @@
               "title": "Terrarium Seal",
               "description": "The sealed terrarium of this realm — firmament, ice, and the law that holds the farm in.",
               "topic_image": "images/revelations/placeholder.webp",
-              "report": "# Terrarium Seal\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# Terrarium Seal\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "subtopics": [
+                {
+                  "id": "ice-wall",
+                  "title": "Ice Wall",
+                  "description": "Ice Wall",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# Ice Wall\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "projection-dome",
+                  "title": "Projection Dome",
+                  "description": "Projection Dome",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# Projection Dome\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             }
           ]
         }
-      ]
+      ],
+      "quiz": {
+        "href": "quiz/revelations/organic-circuitboard.html",
+        "title": "Organic Circuitboard",
+        "totalQuestions": 25,
+        "description": "Test your understanding of Organic Circuitboard — the grown living motherboard, mineral conductors, Terra Preta, biological locks, and the Terrarium Seal."
+      }
     }
   ]
 }

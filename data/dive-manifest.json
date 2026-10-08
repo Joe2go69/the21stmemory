@@ -1845,7 +1845,7 @@
       "sourceId": "revelations",
       "topicId": "organic-circuitboard",
       "path": "/dive/revelations/organic-circuitboard.html",
-      "live": false,
+      "live": true,
       "title": "Organic Circuitboard"
     },
     {
@@ -1924,6 +1924,195 @@
       "path": "/dive/revelations/terrarium-seal.html",
       "live": false,
       "title": "Terrarium Seal"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "anunnaki-and-draco",
+      "path": "/dive/revelations/anunnaki-and-draco.html",
+      "live": false,
+      "title": "Anunnaki and Draco"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "going-home",
+      "path": "/dive/revelations/going-home.html",
+      "live": false,
+      "title": "Going Home"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "time-traveller-faces",
+      "path": "/dive/revelations/time-traveller-faces.html",
+      "live": false,
+      "title": "Time Traveller Faces"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "chemtrail-portals",
+      "path": "/dive/revelations/chemtrail-portals.html",
+      "live": false,
+      "title": "Chemtrail Portals"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "portal-guards",
+      "path": "/dive/revelations/portal-guards.html",
+      "live": false,
+      "title": "Portal Guards"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "salvation-lure",
+      "path": "/dive/revelations/salvation-lure.html",
+      "live": false,
+      "title": "Salvation Lure"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "qfs",
+      "path": "/dive/revelations/qfs.html",
+      "live": false,
+      "title": "QFS"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "nesara-gesara",
+      "path": "/dive/revelations/nesara-gesara.html",
+      "live": false,
+      "title": "NESARA / GESARA"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "medbeds",
+      "path": "/dive/revelations/medbeds.html",
+      "live": false,
+      "title": "MedBeds"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "trump-1989",
+      "path": "/dive/revelations/trump-1989.html",
+      "live": false,
+      "title": "Trump 1989"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "white-hats",
+      "path": "/dive/revelations/white-hats.html",
+      "live": false,
+      "title": "White Hats"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "empathy-trap",
+      "path": "/dive/revelations/empathy-trap.html",
+      "live": false,
+      "title": "Empathy Trap"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "rockefeller-schools",
+      "path": "/dive/revelations/rockefeller-schools.html",
+      "live": false,
+      "title": "Rockefeller Schools"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "mars-ticket",
+      "path": "/dive/revelations/mars-ticket.html",
+      "live": false,
+      "title": "Mars Ticket"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "covid-vaccine",
+      "path": "/dive/revelations/covid-vaccine.html",
+      "live": false,
+      "title": "Covid Vaccine"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "watch-the-water",
+      "path": "/dive/revelations/watch-the-water.html",
+      "live": false,
+      "title": "Watch the Water"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "loosh",
+      "path": "/dive/revelations/loosh.html",
+      "live": false,
+      "title": "Loosh"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "organ-harvest",
+      "path": "/dive/revelations/organ-harvest.html",
+      "live": false,
+      "title": "Organ Harvest"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "inner-earth",
+      "path": "/dive/revelations/inner-earth.html",
+      "live": false,
+      "title": "Inner Earth"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "petrified-giants",
+      "path": "/dive/revelations/petrified-giants.html",
+      "live": false,
+      "title": "Petrified Giants"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "ssp-psyops",
+      "path": "/dive/revelations/ssp-psyops.html",
+      "live": false,
+      "title": "SSP Psyops"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "fema-camps",
+      "path": "/dive/revelations/fema-camps.html",
+      "live": false,
+      "title": "FEMA Camps"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "great-reset",
+      "path": "/dive/revelations/great-reset.html",
+      "live": false,
+      "title": "Great Reset"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "free-energy",
+      "path": "/dive/revelations/free-energy.html",
+      "live": false,
+      "title": "Free Energy"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "432-hertz",
+      "path": "/dive/revelations/432-hertz.html",
+      "live": false,
+      "title": "432 Hertz"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "ice-wall",
+      "path": "/dive/revelations/ice-wall.html",
+      "live": false,
+      "title": "Ice Wall"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "projection-dome",
+      "path": "/dive/revelations/projection-dome.html",
+      "live": false,
+      "title": "Projection Dome"
     }
   ]
 }

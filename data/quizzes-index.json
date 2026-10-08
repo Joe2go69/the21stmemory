@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T07:09:58.046Z",
-  "total": 263,
+  "generatedAt": "2026-10-08T02:04:05.338Z",
+  "total": 264,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 67
+      "count": 68
     }
   ],
   "quizzes": [
@@ -3120,6 +3120,19 @@
       "href": "quiz/revelations/occult-orders.html",
       "diveHref": "dive/revelations/occult-orders.html",
       "key": "revelations/occult-orders"
+    },
+    {
+      "id": "organic-circuitboard",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Organic Circuitboard",
+      "subtitle": "Test your understanding of Organic Circuitboard — the grown living motherboard, mineral conductors, Terra Preta, biological locks, and the Terrarium Seal.",
+      "questionCount": 25,
+      "href": "quiz/revelations/organic-circuitboard.html",
+      "diveHref": "dive/revelations/organic-circuitboard.html",
+      "key": "revelations/organic-circuitboard"
     },
     {
       "id": "overlay-geography",

@@ -78,6 +78,11 @@ function shouldShowTopic(item, statusFilter) {
   return true;
 }
 
+function topicOrDescendantMatches(item, statusFilter) {
+  if (shouldShowTopic(item, statusFilter)) return true;
+  return (item.subtopics || []).some((child) => topicOrDescendantMatches(child, statusFilter));
+}
+
 function renderTopicLeaf(sourceId, leaf, extraClass = '', staggerIndex = 0) {
   if (!shouldShowTopic(leaf, topicsPageState.filters.status)) return '';
   const leafPh = leaf.is_placeholder;
@@ -95,32 +100,37 @@ function renderTopicLeaf(sourceId, leaf, extraClass = '', staggerIndex = 0) {
   `;
 }
 
-function renderSubtopic(sourceId, sub) {
+function renderSubtopic(sourceId, sub, options = {}) {
   const hasChildren = sub.subtopics && sub.subtopics.length > 0;
+  const spanAttr = options.span ? ' style="grid-column:1 / -1"' : '';
 
   if (hasChildren) {
-    const visibleLeaves = sub.subtopics.filter(leaf => shouldShowTopic(leaf, topicsPageState.filters.status));
-    if (!shouldShowTopic(sub, topicsPageState.filters.status) && visibleLeaves.length === 0) return '';
+    const visibleLeaves = sub.subtopics.filter((leaf) =>
+      topicOrDescendantMatches(leaf, topicsPageState.filters.status)
+    );
+    if (visibleLeaves.length && topicOrDescendantMatches(sub, topicsPageState.filters.status)) {
+      const subPh = sub.is_placeholder;
+      const subBadge = subPh ? '<span class="topic-badge topic-badge--section">Soon</span>' : '';
+      const sectionId = `section-${sub.id}`;
+      const expanded = TopicUtils.isSectionExpanded(sourceId, sectionId, true);
 
-    const subPh = sub.is_placeholder;
-    const subBadge = subPh ? '<span class="topic-badge topic-badge--section">Soon</span>' : '';
-    const sectionId = `section-${sub.id}`;
-    const expanded = TopicUtils.isSectionExpanded(sourceId, sectionId, true);
+      let leavesHTML = visibleLeaves.map((leaf, i) => {
+        if (leaf.subtopics?.length) return renderSubtopic(sourceId, leaf, { span: true });
+        return renderTopicLeaf(sourceId, leaf, '', i);
+      }).join('');
+      if (!leavesHTML) return '';
 
-    let leavesHTML = visibleLeaves.map((leaf, i) => renderTopicLeaf(sourceId, leaf, '', i)).join('');
-    if (!leavesHTML) return '';
+      const topicAttrs = `data-topic-id="${TopicUtils.escapeAttr(sub.id)}" id="topic-${TopicUtils.escapeAttr(sub.id)}"`;
+      const disclosureLabel = expanded
+        ? `Hide nested topics in ${sub.title}`
+        : `Show nested topics in ${sub.title}`;
+      const nameInner = `<span class="category-toggle-btn__label flex-1 min-w-0">${TopicUtils.escapeHtml(sub.title)}</span>${subBadge}<span class="topic-control-count flex-shrink-0" aria-hidden="true">${visibleLeaves.length}</span>`;
+      const name = subPh
+        ? `<span class="topic-section-name topic-section-name--static">${nameInner}</span>`
+        : `<a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, sub.id, false))}" class="topic-section-name">${nameInner}</a>`;
 
-    const topicAttrs = `data-topic-id="${TopicUtils.escapeAttr(sub.id)}" id="topic-${TopicUtils.escapeAttr(sub.id)}"`;
-    const disclosureLabel = expanded
-      ? `Hide nested topics in ${sub.title}`
-      : `Show nested topics in ${sub.title}`;
-    const nameInner = `<span class="category-toggle-btn__label flex-1 min-w-0">${TopicUtils.escapeHtml(sub.title)}</span>${subBadge}<span class="topic-control-count flex-shrink-0" aria-hidden="true">${visibleLeaves.length}</span>`;
-    const name = subPh
-      ? `<span class="topic-section-name topic-section-name--static">${nameInner}</span>`
-      : `<a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, sub.id, false))}" class="topic-section-name">${nameInner}</a>`;
-
-    return `
-      <div class="topic-section-group" data-expanded="${expanded ? 'true' : 'false'}" data-section-id="${TopicUtils.escapeAttr(sectionId)}">
+      return `
+      <div class="topic-section-group"${spanAttr} data-expanded="${expanded ? 'true' : 'false'}" data-section-id="${TopicUtils.escapeAttr(sectionId)}">
         <div class="topic-section-header">
           <div class="topic-section-row category-toggle-btn" ${topicAttrs}>
             <button type="button" class="topic-section-disclosure" aria-expanded="${expanded ? 'true' : 'false'}" aria-controls="${TopicUtils.escapeAttr(sectionId)}-children" data-toggle-section aria-label="${TopicUtils.escapeAttr(disclosureLabel)}">
@@ -134,6 +144,7 @@ function renderSubtopic(sourceId, sub) {
         </div>
       </div>
     `;
+    }
   }
 
   if (!shouldShowTopic(sub, topicsPageState.filters.status)) return '';
@@ -145,7 +156,7 @@ function renderSubtopic(sourceId, sub) {
     ? `<div class="category-toggle-btn category-toggle-btn--static" aria-disabled="true" title="Coming soon">${label}</div>`
     : `<a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, sub.id, false))}" class="category-toggle-btn" ${topicAttrs}>${label}</a>`;
   return `
-    <div class="topic-section-group"${subPh ? ` ${topicAttrs}` : ''}>
+    <div class="topic-section-group"${spanAttr}${subPh ? ` ${topicAttrs}` : ''}>
       <div class="topic-section-header">${row}</div>
     </div>
   `;
@@ -192,13 +203,9 @@ function renderMainRootBlock(sourceId, root) {
 function renderCategoryBlock(sourceId, category) {
   const isPh = category.is_placeholder;
   if (!shouldShowTopic(category, topicsPageState.filters.status) && topicsPageState.filters.status !== 'all') {
-    const hasVisibleChildren = category.subtopics?.some(sub => {
-      if (sub.subtopics?.length) {
-        return sub.subtopics.some(leaf => shouldShowTopic(leaf, topicsPageState.filters.status)) ||
-          shouldShowTopic(sub, topicsPageState.filters.status);
-      }
-      return shouldShowTopic(sub, topicsPageState.filters.status);
-    });
+    const hasVisibleChildren = category.subtopics?.some((sub) =>
+      topicOrDescendantMatches(sub, topicsPageState.filters.status)
+    );
     if (!hasVisibleChildren) return '';
   }
 

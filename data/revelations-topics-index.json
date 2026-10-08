@@ -8,7 +8,7 @@
   "source_url_label": "Read Part 1 on Christian21 →",
   "playlist_url": "https://rumble.com/playlists/XW8d4WbTAko",
   "description": "This transmission is the six-part brief synopsis of Christian21's revelations for the Great Spiritual Awakening — next-level intel on soul architecture, the simulation field, and the parasitic farm built around the fifteen human attributes. It maps how intelligence preceded physicality, how the 12 Proximal Sols and 4,000 Taran vessels were created, and how overlays, digital inserts, MK-Ultra, legal capture, and reset harvest keep the inner illusion running.\n\nEssential for anyone who wants to understand Sovereign Accord, Custodian control systems, Tartarian memory, the organic circuitboard of this realm, and why the original writings on Christian21 remain the place to sit with the source documents.",
-  "total_topics": 79,
+  "total_topics": 106,
   "topics": [
     {
       "id": "essence-of-the-transmission",
@@ -76,6 +76,13 @@
               "description": "Pre-colonization incarnational deployment of the 4,000 ancient souls onto the physical plane to establish a legally compliant, internal rescue mechanism.",
               "topic_image": "images/revelations/mission-insertion.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "anunnaki-and-draco",
+              "title": "Anunnaki and Draco",
+              "description": "Anunnaki and Draco",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -84,7 +91,23 @@
           "title": "Homecoming Reunion",
           "description": "The universal event after EMF dissipation where true souls recognize their eternal soul family, dissolve 3rd-density avatars through plasma portals, and snap back into original ET stasis vessels.",
           "topic_image": "images/revelations/homecoming-reunion.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "going-home",
+              "title": "Going Home",
+              "description": "Going Home",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "time-traveller-faces",
+              "title": "Time Traveller Faces",
+              "description": "Time Traveller Faces",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
+            }
+          ]
         }
       ]
     },
@@ -100,7 +123,23 @@
           "title": "Overlay Geography",
           "description": "The real-time quantum rendering that tiles physical scenery around the observer, inflates distance with time-phased corridors, and mirrors the same planetary grid nodes into the illusion of a vast globe.",
           "topic_image": "images/revelations/overlay-geography.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "chemtrail-portals",
+              "title": "Chemtrail Portals",
+              "description": "Chemtrail Portals",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "portal-guards",
+              "title": "Portal Guards",
+              "description": "Portal Guards",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
+            }
+          ]
         },
         {
           "id": "digital-inserts",
@@ -191,6 +230,50 @@
               "description": "Fifteen-Minute Cities are urban containment zones deployed under the cover of public safety, urban efficiency, and walkable convenience.",
               "topic_image": "images/revelations/fifteen-minute-cities.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "salvation-lure",
+              "title": "Salvation Lure",
+              "description": "Salvation Lure",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true,
+              "subtopics": [
+                {
+                  "id": "qfs",
+                  "title": "QFS",
+                  "description": "QFS",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "nesara-gesara",
+                  "title": "NESARA / GESARA",
+                  "description": "NESARA / GESARA",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "medbeds",
+                  "title": "MedBeds",
+                  "description": "MedBeds",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "trump-1989",
+                  "title": "Trump 1989",
+                  "description": "Trump 1989",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "white-hats",
+                  "title": "White Hats",
+                  "description": "White Hats",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             }
           ]
         },
@@ -214,6 +297,13 @@
               "description": "GAT Programs (Gifted and Talented Programs) represent a specialized educational screening apparatus established to systematically identify, track, and recruit children displaying exceptional intelligence, mathematical and scientific aptitude, and advanced problem-solving capabilities from early childhood.",
               "topic_image": "images/revelations/gat-programs.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "empathy-trap",
+              "title": "Empathy Trap",
+              "description": "Empathy Trap",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -321,7 +411,23 @@
               "title": "Academic Distortion",
               "description": "Academic Distortion is the systematic institutionalization of false timelines, fabricated historical records, and inverted knowledge frameworks designed to sever human consciousness from reality.",
               "topic_image": "images/revelations/academic-distortion.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "rockefeller-schools",
+                  "title": "Rockefeller Schools",
+                  "description": "Rockefeller Schools",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "mars-ticket",
+                  "title": "Mars Ticket",
+                  "description": "Mars Ticket",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             }
           ]
         },
@@ -345,6 +451,20 @@
               "description": "Human 2.0 is the ultimate structural end-state of the parasitic transhumanist agenda designed to transform true soul-bearing human beings into a cybernetic, fully subjugated workforce.",
               "topic_image": "images/revelations/human-2-0.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "covid-vaccine",
+              "title": "Covid Vaccine",
+              "description": "Covid Vaccine",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "watch-the-water",
+              "title": "Watch the Water",
+              "description": "Watch the Water",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -392,7 +512,23 @@
           "title": "Harvest Toll",
           "description": "The systematic, quantified biological extraction, physical slaughter, and negative energetic yield forced upon humanity through manufactured global and localized mini-resets.",
           "topic_image": "images/revelations/harvest-toll.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "loosh",
+              "title": "Loosh",
+              "description": "Loosh",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "organ-harvest",
+              "title": "Organ Harvest",
+              "description": "Organ Harvest",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
+            }
+          ]
         },
         {
           "id": "clone-genetics",
@@ -429,7 +565,23 @@
               "title": "Anakim Strike",
               "description": "The Anakim Strike was a covert, tactical physical intervention executed by the Anakim Giants in July 1947 near Roswell, New Mexico, acting under explicit clearance from the Galactic Ancestral Alliance (G.A.A.).",
               "topic_image": "images/revelations/anakim-strike.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "inner-earth",
+                  "title": "Inner Earth",
+                  "description": "Inner Earth",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "petrified-giants",
+                  "title": "Petrified Giants",
+                  "description": "Petrified Giants",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "transistor-leak",
@@ -443,9 +595,32 @@
               "title": "Invasion Script",
               "description": "The Invasion Script is a multi-generational psychological operation that stages a fake alien invasion at the end of an EBS lockdown to induce panic and coerce surrender of human sovereignty.",
               "topic_image": "images/revelations/invasion-script.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "ssp-psyops",
+                  "title": "SSP Psyops",
+                  "description": "SSP Psyops",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "fema-camps",
+                  "title": "FEMA Camps",
+                  "description": "FEMA Camps",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             }
           ]
+        },
+        {
+          "id": "great-reset",
+          "title": "Great Reset",
+          "description": "Great Reset",
+          "topic_image": "images/revelations/placeholder.webp",
+          "is_placeholder": true
         }
       ]
     },
@@ -476,6 +651,13 @@
               "description": "Banks as Current defines the original energetic function of Tartarian architectural nodes and their later inversion into financial institutions that store currency instead of aetheric current.",
               "topic_image": "images/revelations/banks-as-current.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "free-energy",
+              "title": "Free Energy",
+              "description": "Free Energy",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -499,6 +681,13 @@
               "description": "Sound Masonry is the frequency-driven method that cuts, dresses, and positions piezoelectric quartz granite without force, then runs the finished building as a self-sustaining Air-to-Earth circuit.",
               "topic_image": "images/revelations/sound-masonry.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "432-hertz",
+              "title": "432 Hertz",
+              "description": "432 Hertz",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -528,9 +717,9 @@
     {
       "id": "organic-circuitboard",
       "title": "Organic Circuitboard",
-      "description": "Axis mundi and the Spirit Tree, mineral components, the living garden, and the plane of worlds — the Cube, density stack, and terrarium seal.",
-      "topic_image": "images/revelations/placeholder.webp",
-      "is_placeholder": true,
+      "description": "The Organic Circuitboard is the grown living motherboard of this plane, routing atmospheric aether through minerals, roots, caves, and water in a closed air-to-earth circuit.",
+      "topic_image": "images/revelations/organic-circuitboard.webp",
+      "is_placeholder": false,
       "subtopics": [
         {
           "id": "axis-mundi",
@@ -611,7 +800,23 @@
               "title": "Terrarium Seal",
               "description": "The sealed terrarium of this realm — firmament, ice, and the law that holds the farm in.",
               "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "subtopics": [
+                {
+                  "id": "ice-wall",
+                  "title": "Ice Wall",
+                  "description": "Ice Wall",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "projection-dome",
+                  "title": "Projection Dome",
+                  "description": "Projection Dome",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             }
           ]
         }

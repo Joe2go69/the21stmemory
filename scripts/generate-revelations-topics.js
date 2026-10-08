@@ -54,10 +54,19 @@ const MIND_MAP = [
         description: 'How sols were inserted into the farm without knowing the mission they signed up for.',
         children: [
           { id: 'clueless-protocol', title: 'Clueless Protocol', description: 'Incarnation with the mission memory stripped so the work can be done from inside the overlay.' },
-          { id: 'mission-insertion', title: 'Mission Insertion', description: 'The insertion of mission-bearing sols into Taran vessels for the awakening window.' }
+          { id: 'mission-insertion', title: 'Mission Insertion', description: 'The insertion of mission-bearing sols into Taran vessels for the awakening window.' },
+          { id: 'anunnaki-and-draco', title: 'Anunnaki and Draco', description: 'Anunnaki and Draco' }
         ]
       },
-      { id: 'homecoming-reunion', title: 'Homecoming Reunion', description: 'The return path for sols who remember — reunion with the original soul architecture.' }
+      {
+        id: 'homecoming-reunion',
+        title: 'Homecoming Reunion',
+        description: 'The return path for sols who remember — reunion with the original soul architecture.',
+        children: [
+          { id: 'going-home', title: 'Going Home', description: 'Going Home' },
+          { id: 'time-traveller-faces', title: 'Time Traveller Faces', description: 'Time Traveller Faces' }
+        ]
+      }
     ]
   },
   {
@@ -65,7 +74,15 @@ const MIND_MAP = [
     title: 'Simulation Field',
     description: 'Overlay geography, digital inserts and holographic sleeves, the inner illusion, and the quantum interface through pineal crossover and five brainwaves.',
     children: [
-      { id: 'overlay-geography', title: 'Overlay Geography', description: 'Continuous-scrolling overlays that blend the inner illusion into seamless spatial geography.' },
+      {
+        id: 'overlay-geography',
+        title: 'Overlay Geography',
+        description: 'Continuous-scrolling overlays that blend the inner illusion into seamless spatial geography.',
+        children: [
+          { id: 'chemtrail-portals', title: 'Chemtrail Portals', description: 'Chemtrail Portals' },
+          { id: 'portal-guards', title: 'Portal Guards', description: 'Portal Guards' }
+        ]
+      },
       {
         id: 'digital-inserts',
         title: 'Digital Inserts',
@@ -99,7 +116,19 @@ const MIND_MAP = [
         description: 'You can choose what you want, but your wants are chosen for you.',
         children: [
           { id: 'choice-architecture', title: 'Choice Architecture', description: 'Endless options inside options — shampoo, cities, careers — as the farm\'s control surface.' },
-          { id: 'fifteen-minute-cities', title: 'Fifteen-Minute Cities', description: 'The 15-minute city pitch as public-safety theater for a tighter farm enclosure.' }
+          { id: 'fifteen-minute-cities', title: 'Fifteen-Minute Cities', description: 'The 15-minute city pitch as public-safety theater for a tighter farm enclosure.' },
+          {
+            id: 'salvation-lure',
+            title: 'Salvation Lure',
+            description: 'Salvation Lure',
+            children: [
+              { id: 'qfs', title: 'QFS', description: 'QFS' },
+              { id: 'nesara-gesara', title: 'NESARA / GESARA', description: 'NESARA / GESARA' },
+              { id: 'medbeds', title: 'MedBeds', description: 'MedBeds' },
+              { id: 'trump-1989', title: 'Trump 1989', description: 'Trump 1989' },
+              { id: 'white-hats', title: 'White Hats', description: 'White Hats' }
+            ]
+          }
         ]
       },
       {
@@ -108,7 +137,8 @@ const MIND_MAP = [
         description: 'Emotional scoring and GAT programs as the craft of mind control inside the overlay.',
         children: [
           { id: 'emotional-scoring', title: 'Emotional Scoring', description: 'How empathy and emotion are scored, redirected, and used as MK-Ultra payload.' },
-          { id: 'gat-programs', title: 'GAT Programs', description: 'Gifted and Talented programs launched after Sputnik to harvest and steer high-capacity minds.' }
+          { id: 'gat-programs', title: 'GAT Programs', description: 'Gifted and Talented programs launched after Sputnik to harvest and steer high-capacity minds.' },
+          { id: 'empathy-trap', title: 'Empathy Trap', description: 'Empathy Trap' }
         ]
       },
       {
@@ -152,7 +182,15 @@ const MIND_MAP = [
         children: [
           { id: 're-legion', title: 'Re-Legion', description: 'Religion as re-legion — a counterfeit spiritual operating system installed after the reset.' },
           { id: 'world-wide-web', title: 'World Wide Web', description: 'The web as a counterfeit nervous system for the overlay, not a free library.' },
-          { id: 'academic-distortion', title: 'Academic Distortion', description: 'Education and perceived knowledge as the third string — a curriculum of fabricated dots.' }
+          {
+            id: 'academic-distortion',
+            title: 'Academic Distortion',
+            description: 'Education and perceived knowledge as the third string — a curriculum of fabricated dots.',
+            children: [
+              { id: 'rockefeller-schools', title: 'Rockefeller Schools', description: 'Rockefeller Schools' },
+              { id: 'mars-ticket', title: 'Mars Ticket', description: 'Mars Ticket' }
+            ]
+          }
         ]
       },
       {
@@ -161,7 +199,9 @@ const MIND_MAP = [
         description: 'Iatrogenic death and Human 2.0 as the medical arm of the harvest.',
         children: [
           { id: 'iatrogenic-death', title: 'Iatrogenic Death', description: 'Medicine as harvest — a patient cured is a customer lost.' },
-          { id: 'human-2-0', title: 'Human 2.0', description: 'The Human 2.0 upgrade path as a DNA war on the original Taran vessel.' }
+          { id: 'human-2-0', title: 'Human 2.0', description: 'The Human 2.0 upgrade path as a DNA war on the original Taran vessel.' },
+          { id: 'covid-vaccine', title: 'Covid Vaccine', description: 'Covid Vaccine' },
+          { id: 'watch-the-water', title: 'Watch the Water', description: 'Watch the Water' }
         ]
       },
       { id: 'bone-vaults', title: 'Bone Vaults', description: 'Cathedrals of the dead — vaulted rooms of human bone as monuments to the harvest.' }
@@ -181,7 +221,15 @@ const MIND_MAP = [
           { id: 'story-stages', title: 'Story Stages', description: 'Stagecoach to spaghetti western — the three-stage rewrite of American and world history.' }
         ]
       },
-      { id: 'harvest-toll', title: 'Harvest Toll', description: 'The human cost of each reset — loosh, adrenochrome, and the body count the farm requires.' },
+      {
+        id: 'harvest-toll',
+        title: 'Harvest Toll',
+        description: 'The human cost of each reset — loosh, adrenochrome, and the body count the farm requires.',
+        children: [
+          { id: 'loosh', title: 'Loosh', description: 'Loosh' },
+          { id: 'organ-harvest', title: 'Organ Harvest', description: 'Organ Harvest' }
+        ]
+      },
       {
         id: 'clone-genetics',
         title: 'Clone Genetics',
@@ -196,11 +244,28 @@ const MIND_MAP = [
         title: 'Roswell Checkmate',
         description: 'The 1947 H1 Orion incident as the quintessential checkmate of the overlay story.',
         children: [
-          { id: 'anukim-strike', title: 'Anukim Strike', description: 'Anakim giants bringing down the crafts over Roswell — the event the weather-balloon story buried.' },
+          {
+            id: 'anukim-strike',
+            title: 'Anukim Strike',
+            description: 'Anakim giants bringing down the crafts over Roswell — the event the weather-balloon story buried.',
+            children: [
+              { id: 'inner-earth', title: 'Inner Earth', description: 'Inner Earth' },
+              { id: 'petrified-giants', title: 'Petrified Giants', description: 'Petrified Giants' }
+            ]
+          },
           { id: 'transistor-leak', title: 'Transistor Leak', description: 'The point-contact transistor as recovered tech that collapsed the cost of computing.' },
-          { id: 'invasion-script', title: 'Invasion Script', description: 'War of the Worlds to Bluebeam — the long invasion script installed in public consciousness.' }
+          {
+            id: 'invasion-script',
+            title: 'Invasion Script',
+            description: 'War of the Worlds to Bluebeam — the long invasion script installed in public consciousness.',
+            children: [
+              { id: 'ssp-psyops', title: 'SSP Psyops', description: 'SSP Psyops' },
+              { id: 'fema-camps', title: 'FEMA Camps', description: 'FEMA Camps' }
+            ]
+          }
         ]
-      }
+      },
+      { id: 'great-reset', title: 'Great Reset', description: 'Great Reset' }
     ]
   },
   {
@@ -214,7 +279,8 @@ const MIND_MAP = [
         description: 'London\'s Square Mile as the current-control node of the farm.',
         children: [
           { id: 'population-math', title: 'Population Math', description: 'The numbers that do not add up — population, cities, and the scale of the last refill.' },
-          { id: 'banks-as-current', title: 'Banks as Current', description: 'Banks as current, not money — the Square Mile as a frequency and claim node.' }
+          { id: 'banks-as-current', title: 'Banks as Current', description: 'Banks as current, not money — the Square Mile as a frequency and claim node.' },
+          { id: 'free-energy', title: 'Free Energy', description: 'Free Energy' }
         ]
       },
       {
@@ -223,7 +289,8 @@ const MIND_MAP = [
         description: 'Buildings grown and sung into existence as living fabric, not piled stone.',
         children: [
           { id: 'living-fabric', title: 'Living Fabric', description: 'Harmonically grown buildings as living fabric of the original Tartarian world.' },
-          { id: 'sound-masonry', title: 'Sound Masonry', description: 'Sound as the masonry — frequency used to raise and tune the original cities.' }
+          { id: 'sound-masonry', title: 'Sound Masonry', description: 'Sound as the masonry — frequency used to raise and tune the original cities.' },
+          { id: '432-hertz', title: '432 Hertz', description: '432 Hertz' }
         ]
       },
       { id: 'moorish-metropolis', title: 'Moorish Metropolis', description: 'The Moorish layer of the true cities, overwritten by the post-reset story.' },
@@ -262,7 +329,15 @@ const MIND_MAP = [
         children: [
           { id: 'the-cube', title: 'The Cube', description: 'The Cube as a structural principle of the enclosed plane, not a distant space object.' },
           { id: 'density-stack', title: 'Density Stack', description: 'The stacked densities of this plane — from the 3rd overlay up through the original Taran world.' },
-          { id: 'terrarium-seal', title: 'Terrarium Seal', description: 'The sealed terrarium of this realm — firmament, ice, and the law that holds the farm in.' }
+          {
+            id: 'terrarium-seal',
+            title: 'Terrarium Seal',
+            description: 'The sealed terrarium of this realm — firmament, ice, and the law that holds the farm in.',
+            children: [
+              { id: 'ice-wall', title: 'Ice Wall', description: 'Ice Wall' },
+              { id: 'projection-dome', title: 'Projection Dome', description: 'Projection Dome' }
+            ]
+          }
         ]
       }
     ]
