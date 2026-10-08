@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T05:02:39.334Z",
-  "total": 266,
+  "generatedAt": "2026-10-08T09:16:05.980Z",
+  "total": 267,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 70
+      "count": 71
     }
   ],
   "quizzes": [
@@ -3224,6 +3224,19 @@
       "href": "quiz/revelations/proximal-sols.html",
       "diveHref": "dive/revelations/proximal-sols.html",
       "key": "revelations/proximal-sols"
+    },
+    {
+      "id": "qfs",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "QFS",
+      "subtitle": "Test your understanding of QFS — the counterfeit banking rail that captures Free Will through a fake gold-backed payout.",
+      "questionCount": 25,
+      "href": "quiz/revelations/qfs.html",
+      "diveHref": "dive/revelations/qfs.html",
+      "key": "revelations/qfs"
     },
     {
       "id": "quantum-interface",

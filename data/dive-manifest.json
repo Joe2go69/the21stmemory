@@ -1971,7 +1971,7 @@
       "sourceId": "revelations",
       "topicId": "qfs",
       "path": "/dive/revelations/qfs.html",
-      "live": false,
+      "live": true,
       "title": "QFS"
     },
     {
