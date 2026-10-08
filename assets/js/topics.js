@@ -304,6 +304,57 @@ function renderTopicsSearchResults() {
 function setupCollapsibleSections(container) {
   if (!container) return;
   const sourceId = topicsPageState.sourceId;
+  const openTokens = new WeakMap();
+
+  function directChildren(group) {
+    return group.querySelector(':scope > [data-section-children]');
+  }
+
+  function releaseOpenLock(children) {
+    const token = {};
+    openTokens.set(children, token);
+    const finish = (event) => {
+      if (event && (event.target !== children || event.propertyName !== 'max-height')) return;
+      if (openTokens.get(children) !== token) {
+        children.removeEventListener('transitionend', finish);
+        return;
+      }
+      openTokens.delete(children);
+      children.removeEventListener('transitionend', finish);
+      if (children.closest('.topic-section-group')?.dataset.expanded === 'true') {
+        children.style.maxHeight = 'none';
+      }
+    };
+    children.addEventListener('transitionend', finish);
+    window.setTimeout(finish, 500);
+  }
+
+  function syncAncestorHeights(children) {
+    let ancestor = children.parentElement?.closest('[data-section-children]') || null;
+    while (ancestor) {
+      const group = ancestor.closest('.topic-section-group');
+      const maxHeight = ancestor.style.maxHeight;
+      const locked = maxHeight && maxHeight !== 'none' && maxHeight !== '0' && maxHeight !== '0px';
+      if (group?.dataset.expanded === 'true' && locked) {
+        ancestor.style.maxHeight = 'none';
+        const height = ancestor.scrollHeight;
+        ancestor.style.maxHeight = `${height}px`;
+        releaseOpenLock(ancestor);
+      }
+      ancestor = ancestor.parentElement?.closest('[data-section-children]') || null;
+    }
+  }
+
+  function expandChildren(children) {
+    // A collapsed grid reports a short scrollHeight, which clips the bottom rows on reopen.
+    children.style.maxHeight = 'none';
+    const height = children.scrollHeight;
+    children.style.maxHeight = '0px';
+    void children.offsetHeight;
+    children.style.maxHeight = `${height}px`;
+    releaseOpenLock(children);
+    syncAncestorHeights(children);
+  }
 
   container.querySelectorAll('[data-toggle-section]').forEach(btn => {
     btn.addEventListener('click', (event) => {
@@ -312,28 +363,29 @@ function setupCollapsibleSections(container) {
       const group = btn.closest('.topic-section-group');
       if (!group) return;
       const expanded = group.dataset.expanded !== 'true';
+      const children = directChildren(group);
+      if (children && !expanded) {
+        openTokens.delete(children);
+        if (!children.style.maxHeight || children.style.maxHeight === 'none') {
+          children.style.maxHeight = `${children.scrollHeight}px`;
+        }
+        void children.offsetHeight;
+      }
       group.dataset.expanded = expanded ? 'true' : 'false';
       btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
       const title = group.querySelector('.category-toggle-btn__label')?.textContent?.trim() || 'section';
       btn.setAttribute('aria-label', expanded ? `Hide nested topics in ${title}` : `Show nested topics in ${title}`);
-      const children = group.querySelector('[data-section-children]');
       if (children && expanded) {
-        children.style.maxHeight = `${children.scrollHeight}px`;
+        expandChildren(children);
       } else if (children) {
-        children.style.maxHeight = '0';
+        children.style.maxHeight = '0px';
+        syncAncestorHeights(children);
       }
       const sectionId = group.dataset.sectionId;
       if (sectionId) {
         TopicUtils.setSectionExpanded(sourceId, sectionId, expanded);
       }
     });
-  });
-
-  container.querySelectorAll('[data-section-children]').forEach(children => {
-    const group = children.closest('.topic-section-group');
-    if (group?.dataset.expanded === 'true') {
-      children.style.maxHeight = `${children.scrollHeight}px`;
-    }
   });
 }
 
