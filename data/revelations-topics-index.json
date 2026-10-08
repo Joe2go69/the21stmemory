@@ -234,9 +234,9 @@
             {
               "id": "salvation-lure",
               "title": "Salvation Lure",
-              "description": "Salvation Lure",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true,
+              "description": "The Salvation Lure is a free-will signature trap that promises gold, debt cancellation, and MedBeds so people sign away sovereign consent.",
+              "topic_image": "images/revelations/salvation-lure.webp",
+              "is_placeholder": false,
               "subtopics": [
                 {
                   "id": "qfs",

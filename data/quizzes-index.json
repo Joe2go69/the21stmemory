@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T03:44:40.518Z",
-  "total": 265,
+  "generatedAt": "2026-10-08T05:02:39.334Z",
+  "total": 266,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 69
+      "count": 70
     }
   ],
   "quizzes": [
@@ -3289,6 +3289,19 @@
       "href": "quiz/revelations/roswell-checkmate.html",
       "diveHref": "dive/revelations/roswell-checkmate.html",
       "key": "revelations/roswell-checkmate"
+    },
+    {
+      "id": "salvation-lure",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Salvation Lure",
+      "subtitle": "Test your understanding of Salvation Lure — the free-will signature trap, the Sovereign Accord, Tier 4B appointments, and the three strings of matrix captivity.",
+      "questionCount": 25,
+      "href": "quiz/revelations/salvation-lure.html",
+      "diveHref": "dive/revelations/salvation-lure.html",
+      "key": "revelations/salvation-lure"
     },
     {
       "id": "simulation-field",
