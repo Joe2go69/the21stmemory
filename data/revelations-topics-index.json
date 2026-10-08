@@ -724,9 +724,9 @@
         {
           "id": "axis-mundi",
           "title": "Axis Mundi",
-          "description": "The Spirit Tree as the central axis, with Cain at the periphery of the original garden.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
+          "description": "The Axis Mundi is the original central vertical channel at the North Pole, the Spirit Tree that anchors the Organic Circuitboard and links this plane to the divine realms.",
+          "topic_image": "images/revelations/axis-mundi.webp",
+          "is_placeholder": false,
           "subtopics": [
             {
               "id": "spirit-tree",

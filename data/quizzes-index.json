@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T02:04:05.338Z",
-  "total": 264,
+  "generatedAt": "2026-10-08T03:44:40.518Z",
+  "total": 265,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 68
+      "count": 69
     }
   ],
   "quizzes": [
@@ -2626,6 +2626,19 @@
       "href": "quiz/revelations/arc-pod-protocol.html",
       "diveHref": "dive/revelations/arc-pod-protocol.html",
       "key": "revelations/arc-pod-protocol"
+    },
+    {
+      "id": "axis-mundi",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Axis Mundi",
+      "subtitle": "Test your understanding of Axis Mundi — the central vertical channel, the Spirit Tree at the North Pole, and the Cain Periphery.",
+      "questionCount": 25,
+      "href": "quiz/revelations/axis-mundi.html",
+      "diveHref": "dive/revelations/axis-mundi.html",
+      "key": "revelations/axis-mundi"
     },
     {
       "id": "ayahuasca-vine",
