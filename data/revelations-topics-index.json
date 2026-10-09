@@ -103,9 +103,9 @@
             {
               "id": "time-traveller-faces",
               "title": "Time Traveller Faces",
-              "description": "Time Traveller Faces",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "The phenomenon of Time Traveller Faces refers to the striking visual alignment between modern public figures or celebrities and historical individuals recorded in archival photographs or artwork.",
+              "topic_image": "images/revelations/time-traveller-faces.webp",
+              "is_placeholder": false
             }
           ]
         }

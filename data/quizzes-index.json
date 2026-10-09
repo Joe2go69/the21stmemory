@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T09:17:08.745Z",
-  "total": 272,
+  "generatedAt": "2026-10-09T09:58:36.147Z",
+  "total": 273,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 76
+      "count": 77
     }
   ],
   "quizzes": [
@@ -3497,6 +3497,19 @@
       "href": "quiz/revelations/tartarian-memory.html",
       "diveHref": "dive/revelations/tartarian-memory.html",
       "key": "revelations/tartarian-memory"
+    },
+    {
+      "id": "time-traveller-faces",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Time Traveller Faces",
+      "subtitle": "Test your understanding of Time Traveller Faces — clone atavism, software-specific faces, and the 520 million true soul quota.",
+      "questionCount": 25,
+      "href": "quiz/revelations/time-traveller-faces.html",
+      "diveHref": "dive/revelations/time-traveller-faces.html",
+      "key": "revelations/time-traveller-faces"
     },
     {
       "id": "tpc-mirrors",
