@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T08:35:47.101Z",
-  "total": 271,
+  "generatedAt": "2026-10-09T09:17:08.745Z",
+  "total": 272,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 75
+      "count": 76
     }
   ],
   "quizzes": [
@@ -2613,6 +2613,19 @@
       "href": "quiz/revelations/anukim-strike.html",
       "diveHref": "dive/revelations/anukim-strike.html",
       "key": "revelations/anukim-strike"
+    },
+    {
+      "id": "anunnaki-and-draco",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Anunnaki and Draco",
+      "subtitle": "Test your understanding of Anunnaki and Draco — the amnesia vortex, hosted bloodlines, and the custodial harvest farm.",
+      "questionCount": 25,
+      "href": "quiz/revelations/anunnaki-and-draco.html",
+      "diveHref": "dive/revelations/anunnaki-and-draco.html",
+      "key": "revelations/anunnaki-and-draco"
     },
     {
       "id": "arc-pod-protocol",
