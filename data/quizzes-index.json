@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T08:00:04.265Z",
-  "total": 270,
+  "generatedAt": "2026-10-09T08:35:47.101Z",
+  "total": 271,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 74
+      "count": 75
     }
   ],
   "quizzes": [
@@ -2886,6 +2886,19 @@
       "href": "quiz/revelations/gat-programs.html",
       "diveHref": "dive/revelations/gat-programs.html",
       "key": "revelations/gat-programs"
+    },
+    {
+      "id": "going-home",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Going Home",
+      "subtitle": "Test your understanding of Going Home — the plasma portal extraction, three-part soul recombination, and the Wizard of Oz moment.",
+      "questionCount": 25,
+      "href": "quiz/revelations/going-home.html",
+      "diveHref": "dive/revelations/going-home.html",
+      "key": "revelations/going-home"
     },
     {
       "id": "harmonic-architecture",
