@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T11:00:13.646Z",
-  "total": 269,
+  "generatedAt": "2026-10-09T08:00:04.265Z",
+  "total": 270,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 73
+      "count": 74
     }
   ],
   "quizzes": [
@@ -3497,6 +3497,19 @@
       "href": "quiz/revelations/transistor-leak.html",
       "diveHref": "dive/revelations/transistor-leak.html",
       "key": "revelations/transistor-leak"
+    },
+    {
+      "id": "trump-1989",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Trump 1989",
+      "subtitle": "Test your understanding of Trump 1989 — the manufactured focal entity, the three public reads, and the free-will signature trap.",
+      "questionCount": 25,
+      "href": "quiz/revelations/trump-1989.html",
+      "diveHref": "dive/revelations/trump-1989.html",
+      "key": "revelations/trump-1989"
     },
     {
       "id": "usury-trap",
