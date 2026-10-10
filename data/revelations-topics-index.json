@@ -301,9 +301,9 @@
             {
               "id": "empathy-trap",
               "title": "Empathy Trap",
-              "description": "Empathy Trap",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "The systematic weaponization of organic human empathy that redirects compassion toward fraudulent causes, harvests loosh, and siphons money into parasitic structures.",
+              "topic_image": "images/revelations/empathy-trap.webp",
+              "is_placeholder": false
             }
           ]
         },

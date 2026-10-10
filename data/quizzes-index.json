@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-10T04:40:56.842Z",
-  "total": 276,
+  "generatedAt": "2026-10-10T05:57:21.573Z",
+  "total": 277,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 80
+      "count": 81
     }
   ],
   "quizzes": [
@@ -2821,6 +2821,19 @@
       "href": "quiz/revelations/emotional-scoring.html",
       "diveHref": "dive/revelations/emotional-scoring.html",
       "key": "revelations/emotional-scoring"
+    },
+    {
+      "id": "empathy-trap",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Empathy Trap",
+      "subtitle": "Test your understanding of the Empathy Trap — how organic empathy is turned toward charity fraud, NPC mimicry, and loosh.",
+      "questionCount": 25,
+      "href": "quiz/revelations/empathy-trap.html",
+      "diveHref": "dive/revelations/empathy-trap.html",
+      "key": "revelations/empathy-trap"
     },
     {
       "id": "essence-of-the-transmission",
