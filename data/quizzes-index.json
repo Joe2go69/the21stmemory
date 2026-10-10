@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-10T05:57:21.573Z",
-  "total": 277,
+  "generatedAt": "2026-10-10T07:22:05.079Z",
+  "total": 278,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 81
+      "count": 82
     }
   ],
   "quizzes": [
@@ -3380,6 +3380,19 @@
       "href": "quiz/revelations/reset-sequence.html",
       "diveHref": "dive/revelations/reset-sequence.html",
       "key": "revelations/reset-sequence"
+    },
+    {
+      "id": "rockefeller-schools",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Rockefeller Schools",
+      "subtitle": "Test your understanding of Rockefeller Schools — the education system that installs a fake timeline and cages consciousness in perceived knowledge.",
+      "questionCount": 25,
+      "href": "quiz/revelations/rockefeller-schools.html",
+      "diveHref": "dive/revelations/rockefeller-schools.html",
+      "key": "revelations/rockefeller-schools"
     },
     {
       "id": "roswell-checkmate",
