@@ -423,9 +423,9 @@
                 {
                   "id": "mars-ticket",
                   "title": "Mars Ticket",
-                  "description": "Mars Ticket",
-                  "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true
+                  "description": "The corrupt clearance through which premier scientists trade ethics for unredacted physics and then build the weapons of realm control.",
+                  "topic_image": "images/revelations/mars-ticket.webp",
+                  "is_placeholder": false
                 }
               ]
             }
