@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-10T03:23:28.758Z",
-  "total": 275,
+  "generatedAt": "2026-10-10T04:40:56.842Z",
+  "total": 276,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 79
+      "count": 80
     }
   ],
   "quizzes": [
@@ -3276,6 +3276,19 @@
       "href": "quiz/revelations/population-math.html",
       "diveHref": "dive/revelations/population-math.html",
       "key": "revelations/population-math"
+    },
+    {
+      "id": "portal-guards",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Portal Guards",
+      "subtitle": "Test your understanding of Portal Guards — bio-engineered sentries that hold land gates and sea gates against unpermitted traversal.",
+      "questionCount": 25,
+      "href": "quiz/revelations/portal-guards.html",
+      "diveHref": "dive/revelations/portal-guards.html",
+      "key": "revelations/portal-guards"
     },
     {
       "id": "proximal-sols",

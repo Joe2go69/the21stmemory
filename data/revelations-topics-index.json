@@ -135,9 +135,9 @@
             {
               "id": "portal-guards",
               "title": "Portal Guards",
-              "description": "Portal Guards",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Specialized bio-engineered security entities that patrol land and sea gates so unpermitted humans cannot cross dimensional portals.",
+              "topic_image": "images/revelations/portal-guards.webp",
+              "is_placeholder": false
             }
           ]
         },
