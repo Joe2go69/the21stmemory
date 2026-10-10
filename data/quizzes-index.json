@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-10T07:22:05.079Z",
-  "total": 278,
+  "generatedAt": "2026-10-10T08:17:39.853Z",
+  "total": 279,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 82
+      "count": 83
     }
   ],
   "quizzes": [
@@ -3107,6 +3107,19 @@
       "href": "quiz/revelations/manufactured-wants.html",
       "diveHref": "dive/revelations/manufactured-wants.html",
       "key": "revelations/manufactured-wants"
+    },
+    {
+      "id": "mars-ticket",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Mars Ticket",
+      "subtitle": "Test your understanding of the Mars Ticket — the clearance through which sell-out scientists trade ethics for unredacted physics and realm-control weapons.",
+      "questionCount": 25,
+      "href": "quiz/revelations/mars-ticket.html",
+      "diveHref": "dive/revelations/mars-ticket.html",
+      "key": "revelations/mars-ticket"
     },
     {
       "id": "medbeds",

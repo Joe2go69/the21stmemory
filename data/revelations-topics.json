@@ -2085,7 +2085,13 @@
                       "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/a4/s8/6/i/b/w/5/ibw5A.qR4e.jpg"
                     }
                   ],
-                  "is_placeholder": false
+                  "is_placeholder": false,
+                  "quiz": {
+                    "href": "quiz/revelations/mars-ticket.html",
+                    "title": "Mars Ticket",
+                    "totalQuestions": 25,
+                    "description": "Test your understanding of the Mars Ticket — the clearance through which sell-out scientists trade ethics for unredacted physics and realm-control weapons."
+                  }
                 }
               ]
             }
