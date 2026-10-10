@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-10T01:01:01.069Z",
-  "total": 274,
+  "generatedAt": "2026-10-10T03:23:28.758Z",
+  "total": 275,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 78
+      "count": 79
     }
   ],
   "quizzes": [
@@ -3588,6 +3588,19 @@
       "href": "quiz/revelations/weaponized-species.html",
       "diveHref": "dive/revelations/weaponized-species.html",
       "key": "revelations/weaponized-species"
+    },
+    {
+      "id": "white-hats",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "White Hats",
+      "subtitle": "Test your understanding of White Hats — the manufactured story shape that stalls people in passive anticipation of external rescue.",
+      "questionCount": 25,
+      "href": "quiz/revelations/white-hats.html",
+      "diveHref": "dive/revelations/white-hats.html",
+      "key": "revelations/white-hats"
     },
     {
       "id": "world-wide-web",

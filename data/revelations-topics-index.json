@@ -269,9 +269,9 @@
                 {
                   "id": "white-hats",
                   "title": "White Hats",
-                  "description": "White Hats",
-                  "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true
+                  "description": "An operational construct under the Salvation Lure that frames White Hats versus Black Hats as a manufactured story shape and stalls the public in passive anticipation of external rescue.",
+                  "topic_image": "images/revelations/white-hats.webp",
+                  "is_placeholder": false
                 }
               ]
             }
