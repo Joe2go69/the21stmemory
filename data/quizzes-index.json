@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T09:58:36.147Z",
-  "total": 273,
+  "generatedAt": "2026-10-10T01:01:01.069Z",
+  "total": 274,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 77
+      "count": 78
     }
   ],
   "quizzes": [
@@ -2704,6 +2704,19 @@
       "href": "quiz/revelations/bone-vaults.html",
       "diveHref": "dive/revelations/bone-vaults.html",
       "key": "revelations/bone-vaults"
+    },
+    {
+      "id": "chemtrail-portals",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Chemtrail Portals",
+      "subtitle": "Test your understanding of Chemtrail Portals — compact aerial gates that portal pilots fly while commercial crews receive a weather story.",
+      "questionCount": 25,
+      "href": "quiz/revelations/chemtrail-portals.html",
+      "diveHref": "dive/revelations/chemtrail-portals.html",
+      "key": "revelations/chemtrail-portals"
     },
     {
       "id": "choice-architecture",

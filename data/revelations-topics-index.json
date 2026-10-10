@@ -128,9 +128,9 @@
             {
               "id": "chemtrail-portals",
               "title": "Chemtrail Portals",
-              "description": "Chemtrail Portals",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Specialized, localized dimensional transfer points used in high-altitude flight so portal pilots can shift across the realm while commercial crews receive a weather story.",
+              "topic_image": "images/revelations/chemtrail-portals.webp",
+              "is_placeholder": false
             },
             {
               "id": "portal-guards",
