@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-11T02:40:21.114Z",
-  "total": 280,
+  "generatedAt": "2026-10-11T04:04:52.526Z",
+  "total": 281,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 84
+      "count": 85
     }
   ],
   "quizzes": [
@@ -3016,6 +3016,19 @@
       "href": "quiz/revelations/iatrogenic-death.html",
       "diveHref": "dive/revelations/iatrogenic-death.html",
       "key": "revelations/iatrogenic-death"
+    },
+    {
+      "id": "inner-earth",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Inner Earth",
+      "subtitle": "Test your understanding of Inner Earth — subterranean simulations, the Anakim sanctuary, and the 1947 interception that exposed the base.",
+      "questionCount": 25,
+      "href": "quiz/revelations/inner-earth.html",
+      "diveHref": "dive/revelations/inner-earth.html",
+      "key": "revelations/inner-earth"
     },
     {
       "id": "inner-illusion",

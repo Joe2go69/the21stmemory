@@ -616,9 +616,9 @@
                 {
                   "id": "inner-earth",
                   "title": "Inner Earth",
-                  "description": "Inner Earth",
-                  "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true
+                  "description": "The Inner Earth consists of subterranean inner-earth simulations maintained within the physical realm, functioning as specialized environmental pockets shielded from surface atmospheric purges and periodic reset cycles.",
+                  "topic_image": "images/revelations/inner-earth.webp",
+                  "is_placeholder": false
                 },
                 {
                   "id": "petrified-giants",
