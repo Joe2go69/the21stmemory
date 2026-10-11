@@ -8,7 +8,7 @@
   "source_url_label": "Read Part 1 on Christian21 →",
   "playlist_url": "https://rumble.com/playlists/XW8d4WbTAko",
   "description": "This transmission is the six-part brief synopsis of Christian21's revelations for the Great Spiritual Awakening — next-level intel on soul architecture, the simulation field, and the parasitic farm built around the fifteen human attributes. It maps how intelligence preceded physicality, how the 12 Proximal Sols and 4,000 Taran vessels were created, and how overlays, digital inserts, MK-Ultra, legal capture, and reset harvest keep the inner illusion running.\n\nEssential for anyone who wants to understand Sovereign Accord, Custodian control systems, Tartarian memory, the organic circuitboard of this realm, and why the original writings on Christian21 remain the place to sit with the source documents.",
-  "total_topics": 106,
+  "total_topics": 118,
   "topics": [
     {
       "id": "essence-of-the-transmission",
@@ -304,6 +304,13 @@
               "description": "The systematic weaponization of organic human empathy that redirects compassion toward fraudulent causes, harvests loosh, and siphons money into parasitic structures.",
               "topic_image": "images/revelations/empathy-trap.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "ghost-stories",
+              "title": "Ghost Stories",
+              "description": "Ghost Stories",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -381,7 +388,16 @@
               "title": "Owl Current",
               "description": "The Owl Current is the operational stream of occult entrainment, psychological trapping, and energetic harvest utilized by elite structures to bind influential public figures and cultural icons into total systemic compliance.",
               "topic_image": "images/revelations/owl-current.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "vril-club",
+                  "title": "Vril Club",
+                  "description": "Vril Club",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             }
           ]
         },
@@ -450,7 +466,16 @@
               "title": "Human 2.0",
               "description": "Human 2.0 is the ultimate structural end-state of the parasitic transhumanist agenda designed to transform true soul-bearing human beings into a cybernetic, fully subjugated workforce.",
               "topic_image": "images/revelations/human-2-0.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "hate-chip",
+                  "title": "Hate Chip",
+                  "description": "Hate Chip",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "covid-vaccine",
@@ -504,6 +529,20 @@
               "description": "Story Stages is the multi-generational installation of manufactured historical narratives that builds an artificial reality for post-reset cloned populations.",
               "topic_image": "images/revelations/story-stages.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "mudfloods",
+              "title": "Mudfloods",
+              "description": "Mudfloods",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "world-fairs",
+              "title": "World Fairs",
+              "description": "World Fairs",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -525,6 +564,13 @@
               "id": "organ-harvest",
               "title": "Organ Harvest",
               "description": "Organ Harvest",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "positive-loosh",
+              "title": "Positive Loosh",
+              "description": "Positive Loosh",
               "topic_image": "images/revelations/placeholder.webp",
               "is_placeholder": true
             }
@@ -588,7 +634,16 @@
               "title": "Transistor Leak",
               "description": "The Transistor Leak represents the forced, premature release of off-world solid-state semiconductor technology into public time during the mid-20th century.",
               "topic_image": "images/revelations/transistor-leak.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "technology-swaps",
+                  "title": "Technology Swaps",
+                  "description": "Technology Swaps",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "invasion-script",
@@ -610,6 +665,13 @@
                   "description": "FEMA Camps",
                   "topic_image": "images/revelations/placeholder.webp",
                   "is_placeholder": true
+                },
+                {
+                  "id": "sky-net-1",
+                  "title": "Sky-Net 1",
+                  "description": "Sky-Net 1",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
                 }
               ]
             }
@@ -620,7 +682,16 @@
           "title": "Great Reset",
           "description": "Great Reset",
           "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "8th-reset",
+              "title": "8th Reset",
+              "description": "8th Reset",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
+            }
+          ]
         }
       ]
     },
@@ -686,6 +757,13 @@
               "id": "432-hertz",
               "title": "432 Hertz",
               "description": "432 Hertz",
+              "topic_image": "images/revelations/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "becker-hagens-grid",
+              "title": "Becker Hagens Grid",
+              "description": "Becker Hagens Grid",
               "topic_image": "images/revelations/placeholder.webp",
               "is_placeholder": true
             }
@@ -786,7 +864,16 @@
               "title": "The Cube",
               "description": "The Cube as a structural principle of the enclosed plane, not a distant space object.",
               "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "subtopics": [
+                {
+                  "id": "external-domes",
+                  "title": "External Domes",
+                  "description": "External Domes",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "density-stack",
@@ -807,7 +894,16 @@
                   "title": "Ice Wall",
                   "description": "Ice Wall",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true
+                  "is_placeholder": true,
+                  "subtopics": [
+                    {
+                      "id": "oil-as-grease",
+                      "title": "Oil as Grease",
+                      "description": "Oil as Grease",
+                      "topic_image": "images/revelations/placeholder.webp",
+                      "is_placeholder": true
+                    }
+                  ]
                 },
                 {
                   "id": "projection-dome",

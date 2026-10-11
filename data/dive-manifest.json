@@ -2113,6 +2113,90 @@
       "path": "/dive/revelations/projection-dome.html",
       "live": false,
       "title": "Projection Dome"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "ghost-stories",
+      "path": "/dive/revelations/ghost-stories.html",
+      "live": false,
+      "title": "Ghost Stories"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "vril-club",
+      "path": "/dive/revelations/vril-club.html",
+      "live": false,
+      "title": "Vril Club"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "hate-chip",
+      "path": "/dive/revelations/hate-chip.html",
+      "live": false,
+      "title": "Hate Chip"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "mudfloods",
+      "path": "/dive/revelations/mudfloods.html",
+      "live": false,
+      "title": "Mudfloods"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "world-fairs",
+      "path": "/dive/revelations/world-fairs.html",
+      "live": false,
+      "title": "World Fairs"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "positive-loosh",
+      "path": "/dive/revelations/positive-loosh.html",
+      "live": false,
+      "title": "Positive Loosh"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "technology-swaps",
+      "path": "/dive/revelations/technology-swaps.html",
+      "live": false,
+      "title": "Technology Swaps"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "sky-net-1",
+      "path": "/dive/revelations/sky-net-1.html",
+      "live": false,
+      "title": "Sky-Net 1"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "8th-reset",
+      "path": "/dive/revelations/8th-reset.html",
+      "live": false,
+      "title": "8th Reset"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "becker-hagens-grid",
+      "path": "/dive/revelations/becker-hagens-grid.html",
+      "live": false,
+      "title": "Becker Hagens Grid"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "external-domes",
+      "path": "/dive/revelations/external-domes.html",
+      "live": false,
+      "title": "External Domes"
+    },
+    {
+      "sourceId": "revelations",
+      "topicId": "oil-as-grease",
+      "path": "/dive/revelations/oil-as-grease.html",
+      "live": false,
+      "title": "Oil as Grease"
     }
   ]
 }

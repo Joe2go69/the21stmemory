@@ -8,7 +8,7 @@
   "source_url_label": "Read Part 1 on Christian21 →",
   "playlist_url": "https://rumble.com/playlists/XW8d4WbTAko",
   "description": "This transmission is the six-part brief synopsis of Christian21's revelations for the Great Spiritual Awakening — next-level intel on soul architecture, the simulation field, and the parasitic farm built around the fifteen human attributes. It maps how intelligence preceded physicality, how the 12 Proximal Sols and 4,000 Taran vessels were created, and how overlays, digital inserts, MK-Ultra, legal capture, and reset harvest keep the inner illusion running.\n\nEssential for anyone who wants to understand Sovereign Accord, Custodian control systems, Tartarian memory, the organic circuitboard of this realm, and why the original writings on Christian21 remain the place to sit with the source documents.",
-  "total_topics": 106,
+  "total_topics": 118,
   "topics": [
     {
       "id": "essence-of-the-transmission",
@@ -1556,6 +1556,13 @@
                 "totalQuestions": 25,
                 "description": "Test your understanding of the Empathy Trap — how organic empathy is turned toward charity fraud, NPC mimicry, and loosh."
               }
+            },
+            {
+              "id": "ghost-stories",
+              "title": "Ghost Stories",
+              "description": "Ghost Stories",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Ghost Stories\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "quiz": {
@@ -1892,6 +1899,15 @@
                 }
               ],
               "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "vril-club",
+                  "title": "Vril Club",
+                  "description": "Vril Club",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# Vril Club\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ],
               "quiz": {
                 "href": "quiz/revelations/owl-current.html",
                 "title": "Owl Current",
@@ -2189,6 +2205,15 @@
                 }
               ],
               "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "hate-chip",
+                  "title": "Hate Chip",
+                  "description": "Hate Chip",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# Hate Chip\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ],
               "quiz": {
                 "href": "quiz/revelations/human-2-0.html",
                 "title": "Human 2.0",
@@ -2410,6 +2435,20 @@
                 "totalQuestions": 25,
                 "description": "Test your understanding of Story Stages — the phased media installation that builds a counterfeit past after a reset."
               }
+            },
+            {
+              "id": "mudfloods",
+              "title": "Mudfloods",
+              "description": "Mudfloods",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Mudfloods\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "world-fairs",
+              "title": "World Fairs",
+              "description": "World Fairs",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# World Fairs\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "quiz": {
@@ -2469,6 +2508,13 @@
               "description": "Organ Harvest",
               "topic_image": "images/revelations/placeholder.webp",
               "report": "# Organ Harvest\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "positive-loosh",
+              "title": "Positive Loosh",
+              "description": "Positive Loosh",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Positive Loosh\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ]
         },
@@ -2675,6 +2721,15 @@
                 }
               ],
               "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "technology-swaps",
+                  "title": "Technology Swaps",
+                  "description": "Technology Swaps",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# Technology Swaps\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ],
               "quiz": {
                 "href": "quiz/revelations/transistor-leak.html",
                 "title": "Transistor Leak",
@@ -2732,6 +2787,13 @@
                   "description": "FEMA Camps",
                   "topic_image": "images/revelations/placeholder.webp",
                   "report": "# FEMA Camps\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "sky-net-1",
+                  "title": "Sky-Net 1",
+                  "description": "Sky-Net 1",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# Sky-Net 1\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
                 }
               ]
             }
@@ -2748,7 +2810,16 @@
           "title": "Great Reset",
           "description": "Great Reset",
           "topic_image": "images/revelations/placeholder.webp",
-          "report": "# Great Reset\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+          "report": "# Great Reset\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+          "subtopics": [
+            {
+              "id": "8th-reset",
+              "title": "8th Reset",
+              "description": "8th Reset",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# 8th Reset\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            }
+          ]
         }
       ],
       "quiz": {
@@ -2996,6 +3067,13 @@
               "description": "432 Hertz",
               "topic_image": "images/revelations/placeholder.webp",
               "report": "# 432 Hertz\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "becker-hagens-grid",
+              "title": "Becker Hagens Grid",
+              "description": "Becker Hagens Grid",
+              "topic_image": "images/revelations/placeholder.webp",
+              "report": "# Becker Hagens Grid\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "quiz": {
@@ -3250,7 +3328,16 @@
               "title": "The Cube",
               "description": "The Cube as a structural principle of the enclosed plane, not a distant space object.",
               "topic_image": "images/revelations/placeholder.webp",
-              "report": "# The Cube\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# The Cube\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "subtopics": [
+                {
+                  "id": "external-domes",
+                  "title": "External Domes",
+                  "description": "External Domes",
+                  "topic_image": "images/revelations/placeholder.webp",
+                  "report": "# External Domes\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             },
             {
               "id": "density-stack",
@@ -3271,7 +3358,16 @@
                   "title": "Ice Wall",
                   "description": "Ice Wall",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "report": "# Ice Wall\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                  "report": "# Ice Wall\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+                  "subtopics": [
+                    {
+                      "id": "oil-as-grease",
+                      "title": "Oil as Grease",
+                      "description": "Oil as Grease",
+                      "topic_image": "images/revelations/placeholder.webp",
+                      "report": "# Oil as Grease\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                    }
+                  ]
                 },
                 {
                   "id": "projection-dome",

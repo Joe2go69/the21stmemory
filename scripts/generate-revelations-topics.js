@@ -138,7 +138,8 @@ const MIND_MAP = [
         children: [
           { id: 'emotional-scoring', title: 'Emotional Scoring', description: 'How empathy and emotion are scored, redirected, and used as MK-Ultra payload.' },
           { id: 'gat-programs', title: 'GAT Programs', description: 'Gifted and Talented programs launched after Sputnik to harvest and steer high-capacity minds.' },
-          { id: 'empathy-trap', title: 'Empathy Trap', description: 'Empathy Trap' }
+          { id: 'empathy-trap', title: 'Empathy Trap', description: 'Empathy Trap' },
+          { id: 'ghost-stories', title: 'Ghost Stories', description: 'Ghost Stories' }
         ]
       },
       {
@@ -172,7 +173,14 @@ const MIND_MAP = [
         description: 'Freemasonic gatekeepers and the owl current behind public institutions.',
         children: [
           { id: 'freemasonic-orders', title: 'Freemasonic Orders', description: 'Freemasonry as the public-facing order that gates science, media, history, and travel.' },
-          { id: 'owl-current', title: 'Owl Current', description: 'The owl current — 322, Skull & Bones, and the occult layer above the lodge.' }
+          {
+            id: 'owl-current',
+            title: 'Owl Current',
+            description: 'The owl current — 322, Skull & Bones, and the occult layer above the lodge.',
+            children: [
+              { id: 'vril-club', title: 'Vril Club', description: 'Vril Club' }
+            ]
+          }
         ]
       },
       {
@@ -199,7 +207,14 @@ const MIND_MAP = [
         description: 'Iatrogenic death and Human 2.0 as the medical arm of the harvest.',
         children: [
           { id: 'iatrogenic-death', title: 'Iatrogenic Death', description: 'Medicine as harvest — a patient cured is a customer lost.' },
-          { id: 'human-2-0', title: 'Human 2.0', description: 'The Human 2.0 upgrade path as a DNA war on the original Taran vessel.' },
+          {
+            id: 'human-2-0',
+            title: 'Human 2.0',
+            description: 'The Human 2.0 upgrade path as a DNA war on the original Taran vessel.',
+            children: [
+              { id: 'hate-chip', title: 'Hate Chip', description: 'Hate Chip' }
+            ]
+          },
           { id: 'covid-vaccine', title: 'Covid Vaccine', description: 'Covid Vaccine' },
           { id: 'watch-the-water', title: 'Watch the Water', description: 'Watch the Water' }
         ]
@@ -218,7 +233,9 @@ const MIND_MAP = [
         description: 'How a reset is staged: stone-age restart, then narrative installation in three story stages.',
         children: [
           { id: 'stone-age-restart', title: 'Stone Age Restart', description: 'The post-reset restart that dumps survivors into a primitive cover story.' },
-          { id: 'story-stages', title: 'Story Stages', description: 'Stagecoach to spaghetti western — the three-stage rewrite of American and world history.' }
+          { id: 'story-stages', title: 'Story Stages', description: 'Stagecoach to spaghetti western — the three-stage rewrite of American and world history.' },
+          { id: 'mudfloods', title: 'Mudfloods', description: 'Mudfloods' },
+          { id: 'world-fairs', title: 'World Fairs', description: 'World Fairs' }
         ]
       },
       {
@@ -227,7 +244,8 @@ const MIND_MAP = [
         description: 'The human cost of each reset — loosh, adrenochrome, and the body count the farm requires.',
         children: [
           { id: 'loosh', title: 'Loosh', description: 'Loosh' },
-          { id: 'organ-harvest', title: 'Organ Harvest', description: 'Organ Harvest' }
+          { id: 'organ-harvest', title: 'Organ Harvest', description: 'Organ Harvest' },
+          { id: 'positive-loosh', title: 'Positive Loosh', description: 'Positive Loosh' }
         ]
       },
       {
@@ -253,19 +271,34 @@ const MIND_MAP = [
               { id: 'petrified-giants', title: 'Petrified Giants', description: 'Petrified Giants' }
             ]
           },
-          { id: 'transistor-leak', title: 'Transistor Leak', description: 'The point-contact transistor as recovered tech that collapsed the cost of computing.' },
+          {
+            id: 'transistor-leak',
+            title: 'Transistor Leak',
+            description: 'The point-contact transistor as recovered tech that collapsed the cost of computing.',
+            children: [
+              { id: 'technology-swaps', title: 'Technology Swaps', description: 'Technology Swaps' }
+            ]
+          },
           {
             id: 'invasion-script',
             title: 'Invasion Script',
             description: 'War of the Worlds to Bluebeam — the long invasion script installed in public consciousness.',
             children: [
               { id: 'ssp-psyops', title: 'SSP Psyops', description: 'SSP Psyops' },
-              { id: 'fema-camps', title: 'FEMA Camps', description: 'FEMA Camps' }
+              { id: 'fema-camps', title: 'FEMA Camps', description: 'FEMA Camps' },
+              { id: 'sky-net-1', title: 'Sky-Net 1', description: 'Sky-Net 1' }
             ]
           }
         ]
       },
-      { id: 'great-reset', title: 'Great Reset', description: 'Great Reset' }
+      {
+        id: 'great-reset',
+        title: 'Great Reset',
+        description: 'Great Reset',
+        children: [
+          { id: '8th-reset', title: '8th Reset', description: '8th Reset' }
+        ]
+      }
     ]
   },
   {
@@ -290,7 +323,8 @@ const MIND_MAP = [
         children: [
           { id: 'living-fabric', title: 'Living Fabric', description: 'Harmonically grown buildings as living fabric of the original Tartarian world.' },
           { id: 'sound-masonry', title: 'Sound Masonry', description: 'Sound as the masonry — frequency used to raise and tune the original cities.' },
-          { id: '432-hertz', title: '432 Hertz', description: '432 Hertz' }
+          { id: '432-hertz', title: '432 Hertz', description: '432 Hertz' },
+          { id: 'becker-hagens-grid', title: 'Becker Hagens Grid', description: 'Becker Hagens Grid' }
         ]
       },
       { id: 'moorish-metropolis', title: 'Moorish Metropolis', description: 'The Moorish layer of the true cities, overwritten by the post-reset story.' },
@@ -327,14 +361,28 @@ const MIND_MAP = [
         title: 'Plane of Worlds',
         description: 'The Cube, the density stack, and the terrarium seal of this enclosed plane.',
         children: [
-          { id: 'the-cube', title: 'The Cube', description: 'The Cube as a structural principle of the enclosed plane, not a distant space object.' },
+          {
+            id: 'the-cube',
+            title: 'The Cube',
+            description: 'The Cube as a structural principle of the enclosed plane, not a distant space object.',
+            children: [
+              { id: 'external-domes', title: 'External Domes', description: 'External Domes' }
+            ]
+          },
           { id: 'density-stack', title: 'Density Stack', description: 'The stacked densities of this plane — from the 3rd overlay up through the original Taran world.' },
           {
             id: 'terrarium-seal',
             title: 'Terrarium Seal',
             description: 'The sealed terrarium of this realm — firmament, ice, and the law that holds the farm in.',
             children: [
-              { id: 'ice-wall', title: 'Ice Wall', description: 'Ice Wall' },
+              {
+                id: 'ice-wall',
+                title: 'Ice Wall',
+                description: 'Ice Wall',
+                children: [
+                  { id: 'oil-as-grease', title: 'Oil as Grease', description: 'Oil as Grease' }
+                ]
+              },
               { id: 'projection-dome', title: 'Projection Dome', description: 'Projection Dome' }
             ]
           }
