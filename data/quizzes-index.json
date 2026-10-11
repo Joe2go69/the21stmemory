@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-10T08:17:39.853Z",
-  "total": 279,
+  "generatedAt": "2026-10-11T02:40:21.114Z",
+  "total": 280,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 83
+      "count": 84
     }
   ],
   "quizzes": [
@@ -3627,6 +3627,19 @@
       "href": "quiz/revelations/usury-trap.html",
       "diveHref": "dive/revelations/usury-trap.html",
       "key": "revelations/usury-trap"
+    },
+    {
+      "id": "watch-the-water",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Watch the Water",
+      "subtitle": "Test your understanding of Watch the Water — the chemical attack on the municipal supply that calcifies spiritual hardware, and the separate Going Home plasma portal.",
+      "questionCount": 25,
+      "href": "quiz/revelations/watch-the-water.html",
+      "diveHref": "dive/revelations/watch-the-water.html",
+      "key": "revelations/watch-the-water"
     },
     {
       "id": "weaponized-species",
