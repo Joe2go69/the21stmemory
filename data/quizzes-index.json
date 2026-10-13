@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-13T05:32:29.919Z",
-  "total": 283,
+  "generatedAt": "2026-10-13T07:33:04.877Z",
+  "total": 284,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 87
+      "count": 88
     }
   ],
   "quizzes": [
@@ -3224,6 +3224,19 @@
       "href": "quiz/revelations/moorish-metropolis.html",
       "diveHref": "dive/revelations/moorish-metropolis.html",
       "key": "revelations/moorish-metropolis"
+    },
+    {
+      "id": "mudfloods",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Mudfloods",
+      "subtitle": "Test your understanding of Mudfloods — the 1728 wipe, bury, retell protocol that buried Tartarian stone and reset the historical record.",
+      "questionCount": 25,
+      "href": "quiz/revelations/mudfloods.html",
+      "diveHref": "dive/revelations/mudfloods.html",
+      "key": "revelations/mudfloods"
     },
     {
       "id": "nesara-gesara",

@@ -1,0 +1,688 @@
+module.exports = {
+  source: 'revelations',
+  id: 'mudfloods',
+  title: 'Mudfloods',
+  description: 'Test your understanding of Mudfloods — the 1728 wipe, bury, retell protocol that buried Tartarian stone and reset the historical record.',
+  seoDescription: 'Interactive Living Truth Quiz on Mudfloods: the 1728 protocol, Tartarian burial, medieval wood, and the custodial reset clock.',
+  reflection: {
+    title: 'Reflection',
+    body: 'Mudfloods are an orchestrated environmental wipe that buried Tartarian sound masonry and node-based harvesters. The 1728 protocol follows wipe, bury, retell. The 1947 Roswell checkmate shattered the custodial timeline.'
+  },
+  questions: [
+    {
+      number: 1,
+      question: 'What is the primary function of mudfloods within the broader framework of the reset sequence?',
+      hint: 'Consider whether these cataclysms are random geological events or deliberate custodial operations.',
+      options: [
+        {
+          text: 'They clean structural foundations after industrial mining accidents in subterranean caverns.',
+          isCorrect: false,
+          rationale: 'Mudfloods are an engineered planetary cataclysm rather than an accidental byproduct of mining.'
+        },
+        {
+          text: 'They cause gradual silt accumulation that naturally elevates street levels over several centuries.',
+          isCorrect: false,
+          rationale: 'Gradual silt over centuries does not match the rapid slurry surges of this environmental wipe.'
+        },
+        {
+          text: 'They constitute an orchestrated environmental wipe designed to submerge Tartarian streets and force an artificial Stone Age restart.',
+          isCorrect: true,
+          rationale: 'This wipe engulfs piezoelectric stone architecture and obscures wireless aetheric power systems.'
+        },
+        {
+          text: 'They serve as natural geological soil liquefactions triggered by unexpected seismic shifts.',
+          isCorrect: false,
+          rationale: 'Ordinary geological soil liquefactions are the cover story for an orchestrated environmental wipe.'
+        }
+      ]
+    },
+    {
+      number: 2,
+      question: 'In the planetary reset protocol, what does the designation 1728 represent?',
+      hint: 'Think about the chronological marker used to time the major planetary wipe cycle.',
+      options: [
+        {
+          text: '1728 is the anchor benchmark year designating the major planetary wipe cycle.',
+          isCorrect: true,
+          rationale: 'That year executed the physical burial and narrative revision of Tartarian civilization.'
+        },
+        {
+          text: '1728 is the total count of documented localized mini-resets before the industrial era.',
+          isCorrect: false,
+          rationale: 'The figure is a benchmark year for the wipe cycle rather than a tally of mini-resets.'
+        },
+        {
+          text: '1728 is the operational frequency in hertz used by piezoelectric stone to harvest wireless energy.',
+          isCorrect: false,
+          rationale: 'Piezoelectric stone drew aetheric current, while 1728 designates the planetary wipe cycle.'
+        },
+        {
+          text: '1728 is the key code institutional gatekeepers used to decipher pre-reset Lemurian manuscripts.',
+          isCorrect: false,
+          rationale: '1728 anchors the environmental wipe rather than serving as a decipherment code.'
+        }
+      ]
+    },
+    {
+      number: 3,
+      question: 'Why was the Medieval Wood historical narrative introduced after the mudflood resets?',
+      hint: 'Reflect on how controllers explain the stone windows left at street level.',
+      options: [
+        {
+          text: 'It hides the precise location of underground military bases built during the 19th century.',
+          isCorrect: false,
+          rationale: 'The narrative masks Tartarian stone masonry rather than subterranean military sites.'
+        },
+        {
+          text: 'It pushes modern planners to abandon heavy stone masonry in favor of sustainable timber.',
+          isCorrect: false,
+          rationale: 'The narrative is a post-reset cover story rather than a modern building policy.'
+        },
+        {
+          text: 'It commemorates medieval carpentry guilds for discovering anti-gravity levitation techniques.',
+          isCorrect: false,
+          rationale: 'Post-reset conditioning framed earlier builders as primitive rather than as levitation experts.'
+        },
+        {
+          text: 'Medieval Wood is the deceptive historical narrative installed to falsely explain away exposed stone foundations as primitive timber construction.',
+          isCorrect: true,
+          rationale: 'The public was conditioned to treat buried stone buildings as crude timber framing.'
+        }
+      ]
+    },
+    {
+      number: 4,
+      question: 'How were Tartarian cities positioned to harvest ambient environmental power?',
+      hint: 'Focus on the geometric grid named with harmonic stone architecture.',
+      options: [
+        {
+          text: 'They sat concentrically around volcanic fault lines to capture geothermal steam.',
+          isCorrect: false,
+          rationale: 'Harvesting centered on planetary grid nodes rather than geothermal fault lines.'
+        },
+        {
+          text: 'They lined major oceanic trade channels to use kinetic wave energy.',
+          isCorrect: false,
+          rationale: 'Tartarian power used global energetic grid nodes rather than coastal water currents.'
+        },
+        {
+          text: 'Tartarian cities were built as harmonic architecture directly over the Becker Hagens UVG120 Grid.',
+          isCorrect: true,
+          rationale: 'The buildings functioned as living energy harvesters that drew aetheric current from the environment.'
+        },
+        {
+          text: 'They hid in deep mountain valleys so piezoelectric masonry would escape directed energy weapons.',
+          isCorrect: false,
+          rationale: 'The cities occupied urban streetscapes over major grid nodes rather than mountain hideouts.'
+        }
+      ]
+    },
+    {
+      number: 5,
+      question: 'What are the three core phases of the custodial operational sequence?',
+      hint: 'Recall the sequence tied to the historical clock of 1728.',
+      options: [
+        {
+          text: 'Wipe then bury then retell is the recurring three-phase custodial operation designed to physically destroy advanced infrastructure.',
+          isCorrect: true,
+          rationale: 'The same clock submerges the physical evidence and rewrites historical memory.'
+        },
+        {
+          text: 'Construct then resonate then multiply is the custodial sequence for a planetary wipe.',
+          isCorrect: false,
+          rationale: 'That progression describes expansion of a living civilization rather than the custodial reset cycle.'
+        },
+        {
+          text: 'Isolate then subdue then standardize is the named three-phase custodial operation.',
+          isCorrect: false,
+          rationale: 'Social control is involved, while the named sequence is wipe then bury then retell.'
+        },
+        {
+          text: 'Inundate then excavate then rebuild is the named three-phase custodial operation.',
+          isCorrect: false,
+          rationale: 'Custodians conceal submerged levels under slurry and administrative structures rather than excavating them.'
+        }
+      ]
+    },
+    {
+      number: 6,
+      question: 'Which forces are deployed alongside slurry surges to execute a mudflood burial?',
+      hint: 'Look for the destructive energy tools and the particulate agent used with the slurry.',
+      options: [
+        {
+          text: 'Acoustic resonance cannons and high-altitude aerosol dispersal ride with the slurry surges.',
+          isCorrect: false,
+          rationale: 'Resonance belongs to Tartarian architecture, while the burial uses directed energy weapons and black dust.'
+        },
+        {
+          text: 'Atmospheric vacuum charges and localized sub-zero flash freezing ride with the slurry surges.',
+          isCorrect: false,
+          rationale: 'Flash freezing and vacuum charges are not part of the liquefaction mechanics.'
+        },
+        {
+          text: 'Tectonic plate displacement charges and orbital kinetic strikes ride with the slurry surges.',
+          isCorrect: false,
+          rationale: 'The burial uses targeted energy weapons and liquefied sediment rather than tectonic plate bombs.'
+        },
+        {
+          text: 'The mudflood uses environmental liquefaction combined with directed energy weapons and black dust.',
+          isCorrect: true,
+          rationale: 'These forces melt upper masonry layers while triggering massive slurry surges.'
+        }
+      ]
+    },
+    {
+      number: 7,
+      question: 'What accounts for the subterranean street-level windows in post-reset urban architecture?',
+      hint: 'Consider what happens to multi-story buildings when street levels are raised by slurry.',
+      options: [
+        {
+          text: 'Heavy granite buildings sank gradually into unstable topsoil over a few decades.',
+          isCorrect: false,
+          rationale: 'The record rejects slow structural settling in favor of rapid engineered slurry inundation.'
+        },
+        {
+          text: 'Builders intentionally cut light wells to illuminate underground storage vaults.',
+          isCorrect: false,
+          rationale: 'The light-well story is the conventional cover for former ground floors buried in sediment.'
+        },
+        {
+          text: 'The resulting sediment layer buries piezoelectric granite structures and creates characteristic submerged subterranean windows.',
+          isCorrect: true,
+          rationale: 'Street levels were artificially raised by compacted slurry and entombed the ground floors.'
+        },
+        {
+          text: 'Foundations included subterranean flood channels meant to deflect river overflow.',
+          isCorrect: false,
+          rationale: 'Those windows were original living spaces buried during the mudflood rather than flood channels.'
+        }
+      ]
+    },
+    {
+      number: 8,
+      question: 'How did social controllers neutralize the positive natural resonance of exposed Tartarian stone after the flood?',
+      hint: 'Think about the institutional buildings placed on pre-existing stone.',
+      options: [
+        {
+          text: 'They demolished every remaining stone edifice down to bedrock.',
+          isCorrect: false,
+          rationale: 'Custodians preserved structural shells to reuse them as administrative centers and banks.'
+        },
+        {
+          text: 'Custodians blanketed the positive natural resonance by covering the remaining exposed stone with cathedrals and administrative edifices.',
+          isCorrect: true,
+          rationale: 'That overlay replaced clean wireless current with entropic electrical systems.'
+        },
+        {
+          text: 'They filled subterranean vaults with water to stop piezoelectric charges.',
+          isCorrect: false,
+          rationale: 'Suppression capped the nodes with administrative edifices and replaced clean current with metered lines.'
+        },
+        {
+          text: 'They coated all masonry in thick lead paint to neutralize electromagnetic emissions.',
+          isCorrect: false,
+          rationale: 'Suppression came through structural overlay and narrative reframing rather than lead paint.'
+        }
+      ]
+    },
+    {
+      number: 9,
+      question: 'Which group was positioned across academia and publishing to enforce narrative control after the reset?',
+      hint: 'Identify the fraternal agents named as history managers.',
+      options: [
+        {
+          text: 'Lemurian linguists were positioned throughout academia to keep the old tongue alive.',
+          isCorrect: false,
+          rationale: 'The Lemurian tongue was erased during language confoundment events rather than kept in academia.'
+        },
+        {
+          text: 'Freemasonic gatekeepers were positioned throughout academia to install fabricated historical epochs.',
+          isCorrect: true,
+          rationale: 'They were also placed in archaeology and publishing to cover the buried stone record.'
+        },
+        {
+          text: 'Roswell scientists were positioned throughout academia to manage the post-reset story.',
+          isCorrect: false,
+          rationale: 'Roswell names a 1947 timeline intervention rather than the academic gatekeepers of the reset.'
+        },
+        {
+          text: 'Tartarian archivists were positioned throughout academia to preserve the pre-reset record.',
+          isCorrect: false,
+          rationale: 'Tartarian records were eliminated during the wipe so historical memory could be rewritten.'
+        }
+      ]
+    },
+    {
+      number: 10,
+      question: 'How was the repopulation of cleared Tartarian urban centers carried out after the burial phase?',
+      hint: 'Recall the transport and the artificial groups used to fill empty stone cities.',
+      options: [
+        {
+          text: 'Repopulation clones and orphan trains were deployed across various continents to occupy the cleared cities.',
+          isCorrect: true,
+          rationale: 'Those populations were then indoctrinated through stage-managed cultural narratives.'
+        },
+        {
+          text: 'Rural tribes who survived the environmental wipe migrated naturally into the empty cities.',
+          isCorrect: false,
+          rationale: 'Repopulation was an orchestrated custodial effort rather than an organic migration of survivors.'
+        },
+        {
+          text: 'Foreign merchant guilds were invited to buy the abandoned real estate.',
+          isCorrect: false,
+          rationale: 'The cities were filled with newly introduced populations rather than external merchant alliances.'
+        },
+        {
+          text: 'Subterranean enclaves preserved in deep vaults were released onto the surface at once.',
+          isCorrect: false,
+          rationale: 'Surface cities were occupied through orphan trains and repopulation clones.'
+        }
+      ]
+    },
+    {
+      number: 11,
+      question: 'Which fabricated cultural narrative accounted for grand stone architecture amid sparse populations in North America?',
+      hint: 'Consider the frontier era named with the burial of Tartarian centers.',
+      options: [
+        {
+          text: 'The Renaissance revival of classical masonry techniques explained the western stone cities.',
+          isCorrect: false,
+          rationale: 'The named cover for those cities is the Wild West frontier myth rather than a Renaissance revival.'
+        },
+        {
+          text: 'The Industrial Revolution manufacturing boom explained the western stone cities.',
+          isCorrect: false,
+          rationale: 'Industry was taught later, while the frontier myth severed ancestral ties to the pre-flood world.'
+        },
+        {
+          text: 'The Wild West frontier myth and the Stagecoach and High Noon era masked the cleared cities.',
+          isCorrect: true,
+          rationale: 'Those stage-managed cultural narratives occupied the public after Tartarian centers were buried.'
+        },
+        {
+          text: 'The agrarian plantation charter system explained the western stone cities.',
+          isCorrect: false,
+          rationale: 'Agrarian charters are not the stage-managed narrative named for masking those stone cities.'
+        }
+      ]
+    },
+    {
+      number: 12,
+      question: 'What followed from combining record destruction with language confoundment events?',
+      hint: 'Focus on the ancient language and the technical knowledge lost with the records.',
+      options: [
+        {
+          text: 'The public rapidly adopted standardized global trade languages.',
+          isCorrect: false,
+          rationale: 'Language confoundment destroyed ancestral knowledge rather than speeding global trade.'
+        },
+        {
+          text: 'Academic institutions built digital archives of the surviving pre-reset record.',
+          isCorrect: false,
+          rationale: 'Pre-reset records were destroyed to install amnesia rather than digitized for storage.'
+        },
+        {
+          text: 'Public education moved into monastic scriptoriums that preserved the old tongue.',
+          isCorrect: false,
+          rationale: 'Monastic preservation cuts against the destruction of pre-reset records.'
+        },
+        {
+          text: 'Language confoundment events permanently erased the Lemurian tongue and Tartarian technological understandings from public consciousness.',
+          isCorrect: true,
+          rationale: 'The mudflood protocol works in tandem with those events and with the destruction of pre-reset records.'
+        }
+      ]
+    },
+    {
+      number: 13,
+      question: 'What is the standard time span for a major macro-reset cycle?',
+      hint: 'Identify the millennial range given for macro-scale custodial wipes.',
+      options: [
+        {
+          text: 'Macro-resets follow this exact structural progression once every 25,000 years.',
+          isCorrect: false,
+          rationale: 'The custodial clock uses a shorter millennial interval than axial precession.'
+        },
+        {
+          text: 'Macro-resets follow this exact structural progression once every 5,000 to 7,000 years.',
+          isCorrect: false,
+          rationale: 'That span is longer than the 1,000 to 1,500-year cycle of a major macro-reset.'
+        },
+        {
+          text: 'Macro-resets follow this exact structural progression once every 100 to 250 years.',
+          isCorrect: false,
+          rationale: 'That shorter span fits localized mini-resets more than a full macro-reset cycle.'
+        },
+        {
+          text: 'Macro-resets follow this exact structural progression on a 1,000 to 1,500-year cycle.',
+          isCorrect: true,
+          rationale: 'Ongoing localized mini-resets follow that same progression on a smaller scale.'
+        }
+      ]
+    },
+    {
+      number: 14,
+      question: 'What energy dependency replaced the Tartarian wireless grid after the mudflood protocol?',
+      hint: 'Contrast clean wireless power with the fee-based energy systems used afterward.',
+      options: [
+        {
+          text: 'Geothermal steam generators managed by municipal utility boards replaced the wireless grid.',
+          isCorrect: false,
+          rationale: 'Post-reset power moved to metered electrical grids and commercial fuel rather than geothermal steam.'
+        },
+        {
+          text: 'Burial forced humanity into dependence on metered utility grids and commercial fuel monopolies.',
+          isCorrect: true,
+          rationale: 'The physical burial of Tartarian sound masonry and node-based harvesters under mud created that dependence.'
+        },
+        {
+          text: 'Solar radiation arrays built on industrial rooftops replaced the wireless grid.',
+          isCorrect: false,
+          rationale: 'The replacement was a metered fire-hazardous electrical network rather than clean rooftop solar.'
+        },
+        {
+          text: 'Atmospheric kinetic harvesters mounted on cathedrals replaced the wireless grid.',
+          isCorrect: false,
+          rationale: 'Cathedrals covered the nodes, while power was redirected onto metered wired grids.'
+        }
+      ]
+    },
+    {
+      number: 15,
+      question: 'Which modern event disrupted the custodial reset clock and accelerated public technological exposure?',
+      hint: 'Look for a 20th-century intervention that broke the custodial timeline.',
+      options: [
+        {
+          text: 'The 1914 breakout of world war across European centers shattered the custodial timeline.',
+          isCorrect: false,
+          rationale: 'Large military conflicts align with wipe procedures rather than an outside break in the clock.'
+        },
+        {
+          text: 'The 1851 Great Exhibition of industrial technology in London shattered the custodial timeline.',
+          isCorrect: false,
+          rationale: 'World fairs showcased the post-reset world rather than breaking the custodial reset clock.'
+        },
+        {
+          text: 'The 1929 stock market crash and global depression shattered the custodial timeline.',
+          isCorrect: false,
+          rationale: 'Financial crashes sit inside the control matrix rather than outside the custodial clock.'
+        },
+        {
+          text: 'The 1947 Roswell checkmate shattered the custodial timeline while accelerating public technological exposure.',
+          isCorrect: true,
+          rationale: 'That intervention prevented the seamless execution of future mudflood wipes.'
+        }
+      ]
+    },
+    {
+      number: 16,
+      question: 'What architectural material let Tartarian buildings function as living energy harvesters?',
+      hint: 'Identify the crystalline stone tied to charge under mechanical stress.',
+      options: [
+        {
+          text: 'Petrified timber coated in volcanic ash mortar drew the aetheric current.',
+          isCorrect: false,
+          rationale: 'Timber-origin claims are the medieval wood cover, while Tartarian edifices were stone masonry.'
+        },
+        {
+          text: 'Reinforced steel framing covered in decorative terracotta tiles drew the aetheric current.',
+          isCorrect: false,
+          rationale: 'Steel framing belongs to post-reset industrial building rather than pre-flood sound masonry.'
+        },
+        {
+          text: 'Piezoelectric granite structures and harmonic stone masonry functioned as living energy harvesters that drew aetheric current.',
+          isCorrect: true,
+          rationale: 'Those structures stood directly over the major nodes of the Becker Hagens UVG120 Grid.'
+        },
+        {
+          text: 'Conductive copper plating over soft limestone bricks drew the aetheric current.',
+          isCorrect: false,
+          rationale: 'The harvesting component named for these buildings is piezoelectric granite masonry.'
+        }
+      ]
+    },
+    {
+      number: 17,
+      question: 'Why do custodians preserve the structural shells of buried Tartarian buildings instead of demolishing them?',
+      hint: 'Consider the administrative use of heavy stone edifices after the wipe.',
+      options: [
+        {
+          text: 'They want the hidden pre-reset gold reserves stored in lower subterranean vaults.',
+          isCorrect: false,
+          rationale: 'The stated advantage is immediate reuse for administrative and institutional control.'
+        },
+        {
+          text: 'They want historic monuments kept for educational research by the repopulated public.',
+          isCorrect: false,
+          rationale: 'Educational preservation cuts against historical amnesia and total narrative control.'
+        },
+        {
+          text: 'Sound granite masonry is completely indestructible by directed energy weapons.',
+          isCorrect: false,
+          rationale: 'Energy weapons melted upper masonry layers, while lower shells stayed usable for institutions.'
+        },
+        {
+          text: 'Custodians reuse the buried stone edifices as bank buildings without needing to reconstruct basic urban infrastructure.',
+          isCorrect: true,
+          rationale: 'The same shells also became administrative centers and prisons.'
+        }
+      ]
+    },
+    {
+      number: 18,
+      question: 'What is the primary objective of the initial Wipe phase during a custodial reset?',
+      hint: 'Think about what must happen to the existing population before burial begins.',
+      options: [
+        {
+          text: 'Wipe distributes orphan trains across newly established municipal districts.',
+          isCorrect: false,
+          rationale: 'Orphan train deployment comes after burial during repopulation and the retell phase.'
+        },
+        {
+          text: 'Wipe builds cathedrals over suppressed ley-line nodes.',
+          isCorrect: false,
+          rationale: 'Religious and administrative overlays come after the physical wipe and the mud burial.'
+        },
+        {
+          text: 'Wipe uses targeted destructive cataclysms and energy weapon strikes to dissolve the existing societal structure and eliminate the native population.',
+          isCorrect: true,
+          rationale: 'Wars join those strikes in breaking the society that occupied the stone cities.'
+        },
+        {
+          text: 'Wipe compacts slurry sediment across rural agricultural fields.',
+          isCorrect: false,
+          rationale: 'Sediment deposition belongs to the bury phase rather than the opening wipe.'
+        }
+      ]
+    },
+    {
+      number: 19,
+      question: 'What role do DUMB-raised populations play in the custodial reset model?',
+      hint: 'Recall how groups raised below ground are used during repopulation.',
+      options: [
+        {
+          text: 'They are academic historians assigned to author genuine historical archives.',
+          isCorrect: false,
+          rationale: 'Institutional gatekeeping sat with Freemasonic networks, while these populations received the installed narrative.'
+        },
+        {
+          text: 'They are frontline military units sent to execute environmental liquefaction.',
+          isCorrect: false,
+          rationale: 'Liquefaction is carried out with energy weapons and environmental tools rather than surface troops.'
+        },
+        {
+          text: 'A DUMB-raised population is installed into pre-existing stone cities and taught an entirely fictitious history.',
+          isCorrect: true,
+          rationale: 'Institutional gatekeepers rewrite history for that newly introduced population.'
+        },
+        {
+          text: 'They are underground maintenance crews who keep pre-reset grid nodes running.',
+          isCorrect: false,
+          rationale: 'These populations are part of controlled repopulation rather than keepers of pre-reset technology.'
+        }
+      ]
+    },
+    {
+      number: 20,
+      question: 'How do institutional gatekeepers explain massive stone buildings among supposedly primitive populations?',
+      hint: 'Consider how academic narratives move historical timelines to shrink ancient engineering.',
+      options: [
+        {
+          text: 'They claim the structures were temporary wooden pavilions built for world trade fairs.',
+          isCorrect: false,
+          rationale: 'The cover for exposed stone foundations was primitive historical construction rather than fair pavilions.'
+        },
+        {
+          text: 'They assert that every stone edifice was a naturally formed geological monolith.',
+          isCorrect: false,
+          rationale: 'The buildings were treated as human work and then dated to recent primitive construction.'
+        },
+        {
+          text: 'They admit that prior civilizations possessed advanced anti-gravity building tools.',
+          isCorrect: false,
+          rationale: 'Gatekeepers deny pre-reset technological capabilities in order to enforce amnesia.'
+        },
+        {
+          text: 'They introduced fabricated historical epochs and altered European medieval timelines to account for massive stone architecture amidst supposedly primitive populations.',
+          isCorrect: true,
+          rationale: 'The Wild West frontier myth served the same cover on another continent.'
+        }
+      ]
+    },
+    {
+      number: 21,
+      question: 'What happened to Tartarian transportation capability during the mudflood protocol?',
+      hint: 'Recall the levitation capability Tartaria held before its scheduled destruction.',
+      options: [
+        {
+          text: 'Tartarians introduced steam locomotives to resist environmental liquefaction.',
+          isCorrect: false,
+          rationale: 'Steam belongs to the post-reset restart forced on humanity rather than to Tartarian levitation.'
+        },
+        {
+          text: 'Canal transport replaced levitation before the mudfloods were executed.',
+          isCorrect: false,
+          rationale: 'Anti-gravity capability remained until the targeted execution of the wipe.'
+        },
+        {
+          text: 'Tartaria had anti-gravity levitation capabilities prior to its scheduled destruction.',
+          isCorrect: true,
+          rationale: 'The wipe reset human technological development to zero and buried the street levels that carried that capability.'
+        },
+        {
+          text: 'Levitation systems were folded into modern underground subway networks.',
+          isCorrect: false,
+          rationale: 'Tartarian levitation was suppressed and erased rather than adapted into modern transit.'
+        }
+      ]
+    },
+    {
+      number: 22,
+      question: 'Why were European medieval timelines altered after the reset?',
+      hint: 'Think about why controllers inserted artificial centuries into textbook history.',
+      options: [
+        {
+          text: 'The change aligned calendar systems across different religious denominations.',
+          isCorrect: false,
+          rationale: 'Timeline alteration served narrative control rather than calendar alignment between churches.'
+        },
+        {
+          text: 'Altered European medieval timelines account for massive stone architecture amidst supposedly primitive populations.',
+          isCorrect: true,
+          rationale: 'Those fabricated historical epochs created a false chronology for edifices that were already standing.'
+        },
+        {
+          text: 'The change justified the immediate installation of metered electrical utility lines.',
+          isCorrect: false,
+          rationale: 'Timeline changes targeted historical narrative, while utility grids were the physical result of energy suppression.'
+        },
+        {
+          text: 'The change hid astronomical evidence of past solar eclipses.',
+          isCorrect: false,
+          rationale: 'The narrative change masked Tartarian infrastructure and the reset cycle.'
+        }
+      ]
+    },
+    {
+      number: 23,
+      question: 'Which set of characteristics describes Tartarian civilization before its scheduled wipe?',
+      hint: 'Focus on Tartaria energy, architecture, and global structure.',
+      options: [
+        {
+          text: 'It was an agrarian empire that relied strictly on timber construction and ocean trade routes.',
+          isCorrect: false,
+          rationale: 'Timber construction is the medieval wood narrative installed after the reset rather than Tartarian masonry.'
+        },
+        {
+          text: 'It was a fragmented network of industrial states dependent on coal and petroleum.',
+          isCorrect: false,
+          rationale: 'Tartaria was unified and used clean aetheric power rather than fossil fuels.'
+        },
+        {
+          text: 'Tartaria was a technologically advanced global civilization with harmonic stone masonry and aetheric current networks and anti-gravity levitation capabilities.',
+          isCorrect: true,
+          rationale: 'That civilization stood prior to its scheduled destruction in the planetary wipe cycle.'
+        },
+        {
+          text: 'It was a subterranean society living in deep military bunkers to escape surface floods.',
+          isCorrect: false,
+          rationale: 'Tartaria was a surface global civilization whose stone cities were buried by engineered mudfloods.'
+        }
+      ]
+    },
+    {
+      number: 24,
+      question: 'How do localized mini-resets relate to major macro-resets in the custodial sequence?',
+      hint: 'Compare the pattern of smaller regional wipes with the larger millennial cycles.',
+      options: [
+        {
+          text: 'Localized mini-resets and every major macro-reset follow this exact structural progression.',
+          isCorrect: true,
+          rationale: 'Both run the same wipe bury and retell clock on different geographic scales.'
+        },
+        {
+          text: 'Mini-resets are executed by human governments while macro-resets run on full automation.',
+          isCorrect: false,
+          rationale: 'The reset clock is governed by custodial operators following the designated protocol.'
+        },
+        {
+          text: 'Mini-resets target rural villages while macro-resets affect only subterranean DUMBs.',
+          isCorrect: false,
+          rationale: 'Resets target urban centers stone infrastructure and energetic grid nodes.'
+        },
+        {
+          text: 'Mini-resets use natural geological floods while macro-resets use directed energy weapons.',
+          isCorrect: false,
+          rationale: 'Reset events are engineered custodial operations rather than ordinary geological floods.'
+        }
+      ]
+    },
+    {
+      number: 25,
+      question: 'What is the ultimate strategic outcome of the mudflood protocol for human self-awareness?',
+      hint: 'Consider the long-term effect on memory, origin, and self-reliance.',
+      options: [
+        {
+          text: 'Modern society gradually returns to original Lemurian linguistic patterns.',
+          isCorrect: false,
+          rationale: 'Language confoundment erased the Lemurian tongue rather than restoring it.'
+        },
+        {
+          text: 'The protocol successfully severed human consciousness from its true origin and innate capabilities.',
+          isCorrect: true,
+          rationale: 'Buried stone architecture was recast as medieval wood or crude colonial construction.'
+        },
+        {
+          text: 'Humanity gained rapid technological growth from each periodic environmental update.',
+          isCorrect: false,
+          rationale: 'The protocol resets technological development to zero and blocks a return to Tartarian heights.'
+        },
+        {
+          text: 'Global academic bodies united under open historical inquiry.',
+          isCorrect: false,
+          rationale: 'Academic bodies were used as gatekeepers to enforce fabricated history.'
+        }
+      ]
+    }
+  ]
+};

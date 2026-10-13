@@ -533,9 +533,9 @@
             {
               "id": "mudfloods",
               "title": "Mudfloods",
-              "description": "Mudfloods",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Mudfloods—also recognized under the designations mudflood, Tartaria, and the 1728 protocol—represent an engineered planetary cataclysm deployed to submerge and obliterate the physical remnants of advanced human civilization.",
+              "topic_image": "images/revelations/mudfloods.webp",
+              "is_placeholder": false
             },
             {
               "id": "world-fairs",
