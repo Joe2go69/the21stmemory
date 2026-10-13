@@ -308,9 +308,9 @@
             {
               "id": "ghost-stories",
               "title": "Ghost Stories",
-              "description": "Ghost Stories",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Ghost Stories represent a weaponised narrative and technological deception deployed to hijack human perception, validate the illusion of death, and systematically extract emotional energetic yield.",
+              "topic_image": "images/revelations/ghost-stories.webp",
+              "is_placeholder": false
             }
           ]
         },

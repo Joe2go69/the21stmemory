@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-11T04:04:52.526Z",
-  "total": 281,
+  "generatedAt": "2026-10-13T04:47:59.219Z",
+  "total": 282,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 85
+      "count": 86
     }
   ],
   "quizzes": [
@@ -2925,6 +2925,19 @@
       "href": "quiz/revelations/gat-programs.html",
       "diveHref": "dive/revelations/gat-programs.html",
       "key": "revelations/gat-programs"
+    },
+    {
+      "id": "ghost-stories",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Ghost Stories",
+      "subtitle": "Test your understanding of Ghost Stories — mineral playbacks in historical masonry, lunar triggering, and the media pipeline that harvests fear.",
+      "questionCount": 25,
+      "href": "quiz/revelations/ghost-stories.html",
+      "diveHref": "dive/revelations/ghost-stories.html",
+      "key": "revelations/ghost-stories"
     },
     {
       "id": "going-home",
