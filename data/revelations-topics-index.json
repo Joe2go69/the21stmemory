@@ -393,9 +393,9 @@
                 {
                   "id": "vril-club",
                   "title": "Vril Club",
-                  "description": "Vril Club",
-                  "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true
+                  "description": "The Vril Club represents the definitive sold-soul initiation rite operating within elite hidden networks, defining the biological and energetic surrender of human vessels to off-world governance.",
+                  "topic_image": "images/revelations/vril-club.webp",
+                  "is_placeholder": false
                 }
               ]
             }

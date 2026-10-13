@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-13T07:33:04.877Z",
-  "total": 284,
+  "generatedAt": "2026-10-13T09:20:55.011Z",
+  "total": 285,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 88
+      "count": 89
     }
   ],
   "quizzes": [
@@ -3679,6 +3679,19 @@
       "href": "quiz/revelations/usury-trap.html",
       "diveHref": "dive/revelations/usury-trap.html",
       "key": "revelations/usury-trap"
+    },
+    {
+      "id": "vril-club",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Vril Club",
+      "subtitle": "Test your understanding of Vril Club — the sold-soul rite, the Black-Eye Club tell, and the Draco hosting protocol behind elite black eyes.",
+      "questionCount": 25,
+      "href": "quiz/revelations/vril-club.html",
+      "diveHref": "dive/revelations/vril-club.html",
+      "key": "revelations/vril-club"
     },
     {
       "id": "watch-the-water",
