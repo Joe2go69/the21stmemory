@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-13T04:47:59.219Z",
-  "total": 282,
+  "generatedAt": "2026-10-13T05:32:29.919Z",
+  "total": 283,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 86
+      "count": 87
     }
   ],
   "quizzes": [
@@ -2769,6 +2769,19 @@
       "href": "quiz/revelations/counterfeit-systems.html",
       "diveHref": "dive/revelations/counterfeit-systems.html",
       "key": "revelations/counterfeit-systems"
+    },
+    {
+      "id": "covid-vaccine",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Covid Vaccine",
+      "subtitle": "Test your understanding of Covid Vaccine — the unauthorized bioweapon, the death-toll script test, and the early release that broke the mandate plan.",
+      "questionCount": 25,
+      "href": "quiz/revelations/covid-vaccine.html",
+      "diveHref": "dive/revelations/covid-vaccine.html",
+      "key": "revelations/covid-vaccine"
     },
     {
       "id": "custodian-control",

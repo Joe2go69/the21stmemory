@@ -480,9 +480,9 @@
             {
               "id": "covid-vaccine",
               "title": "Covid Vaccine",
-              "description": "Covid Vaccine",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "The Covid Vaccine is an unauthorized, officially unapproved bioweapon deployed under the deceptive guise of public health protection and pandemic mitigation.",
+              "topic_image": "images/revelations/covid-vaccine.webp",
+              "is_placeholder": false
             },
             {
               "id": "watch-the-water",

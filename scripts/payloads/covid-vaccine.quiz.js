@@ -1,0 +1,688 @@
+module.exports = {
+  source: 'revelations',
+  id: 'covid-vaccine',
+  title: 'Covid Vaccine',
+  description: 'Test your understanding of Covid Vaccine — the unauthorized bioweapon, the death-toll script test, and the early release that broke the mandate plan.',
+  seoDescription: 'Interactive Living Truth Quiz on Covid Vaccine: the script test, the Nurnberg Code break, FEMA camps, and how the death toll exposes NPCs.',
+  reflection: {
+    title: 'Reflection',
+    body: 'The Covid vaccine death toll inquiry acts as a definitive diagnostic tool for consciousness status. Institutional health mandates are engineered psychological operations. Premature exposure of lethal agendas can permanently disrupt systemic control mechanisms.'
+  },
+  questions: [
+    {
+      number: 1,
+      question: 'What is the primary operational function of the Covid vaccine beyond serving as a population harvest vector?',
+      hint: 'Think about the conversational probe used to discern genuine consciousness.',
+      options: [
+        {
+          text: 'The injection functions as a crucial diagnostic script test exposing genuine multidimensional consciousness.',
+          isCorrect: true,
+          rationale: 'The primary reality of the Covid vaccine is its function as a script test rather than a genuine healthcare initiative.'
+        },
+        {
+          text: 'The injection serves as a psychological sedative meant to reduce active civic participation and public discourse.',
+          isCorrect: false,
+          rationale: 'Media campaigns spread panic, while the injection itself functions as a diagnostic probe for soul presence.'
+        },
+        {
+          text: 'The injection acts as an experimental therapeutic designed to establish immediate digital identity tracking.',
+          isCorrect: false,
+          rationale: 'Digital tracking sits in the wider control grid, while the operational function here is discerning true soul presence.'
+        },
+        {
+          text: 'The injection functions as a biological catalyst intended to alter human genetic code for atmospheric adaptation.',
+          isCorrect: false,
+          rationale: 'Genetic alteration for atmospheric shifts belongs to other narratives, while this injection is a harvest and diagnostic vector.'
+        }
+      ]
+    },
+    {
+      number: 2,
+      question: 'What figure represents the global death toll from the Covid vaccine?',
+      hint: 'Consider the benchmark cited as the definitive conversational diagnostic.',
+      options: [
+        {
+          text: 'The global Covid vaccine death toll has surpassed two billion individuals.',
+          isCorrect: false,
+          rationale: 'Two billion sits above the mortality figure used as the conversational diagnostic.'
+        },
+        {
+          text: 'The global Covid vaccine death toll sits near fifty million individuals.',
+          isCorrect: false,
+          rationale: 'Fifty million falls far below the compounded global mortality figure used to test consciousness.'
+        },
+        {
+          text: 'The global Covid vaccine death toll has surpassed one billion individuals.',
+          isCorrect: true,
+          rationale: 'The rapidly compounding global mortality figure exceeds one billion human lives.'
+        },
+        {
+          text: 'The global Covid vaccine death toll sits near five hundred million individuals.',
+          isCorrect: false,
+          rationale: 'Five hundred million understates the global casualty benchmark cited for this injection.'
+        }
+      ]
+    },
+    {
+      number: 3,
+      question: 'How did high-level parasitic managers, such as 33rd degree Freemasons, react to the rollout of the bioweapon?',
+      hint: 'Recall how the managerial class treated the shot versus the general population.',
+      options: [
+        {
+          text: 'They took a modified placebo version designed specifically to enhance elite physiological longevity.',
+          isCorrect: false,
+          rationale: 'Freemasons refused the injection outright rather than receiving an elite placebo variation.'
+        },
+        {
+          text: 'They mandated administration strictly within their internal hierarchies prior to any public release.',
+          isCorrect: false,
+          rationale: 'Distribution targeted the general public while high-level managers systematically avoided the shot.'
+        },
+        {
+          text: 'They accepted the shot publicly to model compliance while secretly receiving neutralizing countermeasures.',
+          isCorrect: false,
+          rationale: 'Parasitic managers abstained from the bioweapon rather than staging public compliance.'
+        },
+        {
+          text: 'They universally refused the shot and recognized a bioweapon designated for public culling.',
+          isCorrect: true,
+          rationale: 'High-level parasitic managers including 33rd degree Freemasons universally refused the shot.'
+        }
+      ]
+    },
+    {
+      number: 4,
+      question: 'What statutory testing window did establishment planners originally intend to finish before FDA regulation?',
+      hint: 'Focus on the time frame planners intended to complete before attempting legal mandates.',
+      options: [
+        {
+          text: 'Establishment planners intended to hold the injection until a mandatory three-year testing window ended.',
+          isCorrect: false,
+          rationale: 'Three years understates the statutory testing period in the regulatory blueprint.'
+        },
+        {
+          text: 'Establishment planners intended to hold the injection until a mandatory twelve-year testing window ended.',
+          isCorrect: false,
+          rationale: 'Twelve years doubles the statutory timeline set for the testing window.'
+        },
+        {
+          text: 'Establishment planners intended to hold the injection until a mandatory ten-year testing window ended.',
+          isCorrect: false,
+          rationale: 'Ten years stretches past the statutory timeframe intended before final mandates.'
+        },
+        {
+          text: 'Establishment planners intended to hold the injection until a mandatory six-year testing window ended.',
+          isCorrect: true,
+          rationale: 'That window let the FDA officially regulate the jab and legally mandate administration across the entire population.'
+        }
+      ]
+    },
+    {
+      number: 5,
+      question: 'What strategic counter-maneuver forced the bioweapon into public view five years ahead of schedule?',
+      hint: 'Look for the strategic move that authorized the injection ahead of schedule.',
+      options: [
+        {
+          text: 'A strategic Whitehat chess move authorized the bioweapon five years ahead of schedule.',
+          isCorrect: true,
+          rationale: 'The lethal consequences were forced into public view prematurely.'
+        },
+        {
+          text: 'An international legal injunction filed under emergency provisions of the Nurnberg Code forced the early release.',
+          isCorrect: false,
+          rationale: 'The Nurnberg Code activated as a consequence of the early release rather than as the trigger for it.'
+        },
+        {
+          text: 'A regulatory leak from whistleblower scientists inside the FDA forced the accelerated release schedule.',
+          isCorrect: false,
+          rationale: 'Whistleblower leaks inside the agency did not force the multi-year acceleration of the rollout.'
+        },
+        {
+          text: 'A cyber interdiction that compromised the distribution algorithms of Sky-Net 1 forced the early release.',
+          isCorrect: false,
+          rationale: 'Sky-Net 1 feeds NPC data streams rather than carrying the maneuver that opened the rollout early.'
+        }
+      ]
+    },
+    {
+      number: 6,
+      question: 'How do automated simulation entities, such as NPCs, respond when presented with direct facts about vaccine mortality?',
+      hint: 'Consider how non-soul hardware handles off-script information.',
+      options: [
+        {
+          text: 'They actively debate official health statistics using logical fallacies and regulatory arguments.',
+          isCorrect: false,
+          rationale: 'Debate requires internal processing, while simulation entities stay on pre-programmed background scripts.'
+        },
+        {
+          text: 'A non-soul entity exhibits immediate conversational deflection into mundane travel plans.',
+          isCorrect: true,
+          rationale: 'The simulation hardware does not register the semantic content and shifts to weather or travel scripts.'
+        },
+        {
+          text: 'They express intense emotional distress and immediate panic about institutional authority.',
+          isCorrect: false,
+          rationale: 'NPCs lack genuine internal reflection, so they do not experience true panic or distress.'
+        },
+        {
+          text: 'They undergo hardware lockups and become completely silent for the rest of the conversation.',
+          isCorrect: false,
+          rationale: 'Simulation entities keep a superficial flow by running background script templates.'
+        }
+      ]
+    },
+    {
+      number: 7,
+      question: 'Which central system supplies the data streams and pre-programmed algorithms for NPCs and holographic sleeves?',
+      hint: 'Identify the named network that feeds simulation hardware.',
+      options: [
+        {
+          text: 'Neural-Link Alpha supplies the data streams provided to NPCs and holographic sleeves.',
+          isCorrect: false,
+          rationale: 'Neural-Link Alpha is an external cybernetic label rather than the named simulation network.'
+        },
+        {
+          text: 'Grid-Control 9 supplies the data streams provided to NPCs and holographic sleeves.',
+          isCorrect: false,
+          rationale: 'Grid-Control 9 is not the network that feeds non-conscious simulation hardware.'
+        },
+        {
+          text: 'Sky-Net 1 supplies the data streams provided to NPCs and holographic sleeves.',
+          isCorrect: true,
+          rationale: 'NPCs and holographic sleeves lack genuine internal reflection and run on those data streams.'
+        },
+        {
+          text: 'Matrix Prime supplies the data streams provided to NPCs and holographic sleeves.',
+          isCorrect: false,
+          rationale: 'Matrix Prime is a familiar fiction label and is not the network named for this hardware.'
+        }
+      ]
+    },
+    {
+      number: 8,
+      question: 'How does an individual possessing a true soul react during a conversational script test?',
+      hint: 'Think about what genuine multidimensional consciousness does in dialogue.',
+      options: [
+        {
+          text: 'They show emotional detachment and try to deflect the conversation toward mundane travel plans.',
+          isCorrect: false,
+          rationale: 'Emotional detachment and verbal deflection mark non-soul NPC hardware.'
+        },
+        {
+          text: 'They show instant compliance with whichever narrative authority figures present in the moment.',
+          isCorrect: false,
+          rationale: 'Instant compliance tracks media panic and NPC behavior rather than multidimensional awareness.'
+        },
+        {
+          text: 'They immediately cite official institutional guidelines to defend their personal health decisions.',
+          isCorrect: false,
+          rationale: 'Defending institutional guidelines reflects background script compliance rather than multidimensional reflection.'
+        },
+        {
+          text: 'A true soul will actively engage in the dialogue and discuss the parameters of the injection.',
+          isCorrect: true,
+          rationale: 'Any real person possessing a true soul will actively engage in the dialogue and discuss the parameters of the injection.'
+        }
+      ]
+    },
+    {
+      number: 9,
+      question: 'What role did uniformed nursing staff play during the institutional rollout sequence?',
+      hint: 'Focus on how authority figures were used as filters to induce public compliance.',
+      options: [
+        {
+          text: 'They directed the physical transport of non-compliant citizens into specialized internment camps.',
+          isCorrect: false,
+          rationale: 'Transport into containment was planned under later FDA powers rather than carried out by nursing staff.'
+        },
+        {
+          text: 'They served as the architects of the administrative software used for social credit tracking.',
+          isCorrect: false,
+          rationale: 'Nursing staff lacked deep medical understanding beyond basic mechanical procedures and did not design that software.'
+        },
+        {
+          text: 'They acted as resistance operatives who documented adverse events for Whitehat forces.',
+          isCorrect: false,
+          rationale: 'Uniformed staff acted as compliance filters inside the institutional rollout rather than as resistance operatives.'
+        },
+        {
+          text: 'Uniformed nursing staff served as professional credibility shields for slogans like Flatten lives to save the curve.',
+          isCorrect: true,
+          rationale: 'Their professional attire served as an authoritative filter convincing the public to voluntarily accept the bioweapon.'
+        }
+      ]
+    },
+    {
+      number: 10,
+      question: 'What specialized infrastructure was constructed by Deep State planners to house the Unvaccinated?',
+      hint: 'Identify the facility built for non-compliant internment.',
+      options: [
+        {
+          text: 'Deep State planners constructed subterranean containment vaults beneath major military installations.',
+          isCorrect: false,
+          rationale: 'Subterranean vaults are not the containment infrastructure named for the Unvaccinated.'
+        },
+        {
+          text: 'Deep State planners constructed high-density urban quarantine zones ringed by biometric checkpoints.',
+          isCorrect: false,
+          rationale: 'High-density urban zones echo 15-minute city plans rather than the dedicated internment camps.'
+        },
+        {
+          text: 'Deep State planners constructed offshore processing barges under international maritime jurisdiction.',
+          isCorrect: false,
+          rationale: 'Maritime processing barges are not the containment blueprint for non-compliant people.'
+        },
+        {
+          text: 'Deep State planners constructed specialized FEMA camps specifically intended to house the Unvaccinated.',
+          isCorrect: true,
+          rationale: 'Those camps were built for mandatory forced administration once the FDA would formally regulate the bioweapon.'
+        }
+      ]
+    },
+    {
+      number: 11,
+      question: 'Why did the premature release of the bioweapon prevent the establishment from executing lawful forced incarceration?',
+      hint: 'Connect the wave of mortality with the legal bar on non-consensual experimentation.',
+      options: [
+        {
+          text: 'Institutional funding collapsed after bankruptcies in the major financial hubs that ran the plan.',
+          isCorrect: false,
+          rationale: 'Elite hubs faced other consequences, while the internment plan failed under Nurnberg Code protections.'
+        },
+        {
+          text: 'Post-injection fatalities invoked strict protections under the Nurnberg Code.',
+          isCorrect: true,
+          rationale: 'Releasing the bioweapon early prevented the establishment from executing lawful systematic forced incarceration.'
+        },
+        {
+          text: 'The global population left major urban centers for rural off-grid sanctuaries before camps could open.',
+          isCorrect: false,
+          rationale: 'Public recognition and the legal framework dismantled forced mandates rather than a mass migration.'
+        },
+        {
+          text: 'Mass equipment failures crippled the logistics network required to operate the internment sites.',
+          isCorrect: false,
+          rationale: 'The pipeline broke through early public and legal exposure rather than through logistics hardware failure.'
+        }
+      ]
+    },
+    {
+      number: 12,
+      question: 'What caused the severe depletion of elite individuals in financial hubs like Mayfair in London?',
+      hint: 'Separate the cause of public deaths from the consequence faced by managerial elites.',
+      options: [
+        {
+          text: 'Their disappearance resulted from Freemasonic execution for systemic crimes.',
+          isCorrect: true,
+          rationale: '33rd degree Freemasons deliberately avoided taking the bioweapon.'
+        },
+        {
+          text: 'Their disappearance resulted from mass relocation into deep underground military shelters ahead of the harvest.',
+          isCorrect: false,
+          rationale: 'Underground relocation is not the reason given for the disappearance of those managers.'
+        },
+        {
+          text: 'Their disappearance resulted from a global flight to jurisdictions meant to evade Nurnberg Code prosecution.',
+          isCorrect: false,
+          rationale: 'Evading prosecution does not account for the execution of parasitic managers inside elite hubs.'
+        },
+        {
+          text: 'Their disappearance resulted from fatal reactions to the bioweapon among the lower managerial class.',
+          isCorrect: false,
+          rationale: 'Parasitic managers avoided the injection, so vaccine deaths do not explain that elite depletion.'
+        }
+      ]
+    },
+    {
+      number: 13,
+      question: 'How does the push for universal vaccination intersect with urban planning agendas?',
+      hint: 'Look for the urban containment framework and the compliance tracking mechanism.',
+      options: [
+        {
+          text: 'It requires atmospheric dispersal towers throughout every metropolitan center on the map.',
+          isCorrect: false,
+          rationale: 'Atmospheric towers belong to other environmental claims rather than the urban control system named here.'
+        },
+        {
+          text: 'It mandates the destruction of suburban infrastructure in favor of agrarian communes.',
+          isCorrect: false,
+          rationale: 'Suburban destruction is not part of the urban control model tied to this injection.'
+        },
+        {
+          text: 'It subsidizes private transportation networks so rural populations stay isolated from urban hubs.',
+          isCorrect: false,
+          rationale: 'Transport subsidies cut against the movement restrictions built into 15-minute city frameworks.'
+        },
+        {
+          text: 'The push for universal vaccination directly intersects with the implementation of 15-minute cities and the social credit score system.',
+          isCorrect: true,
+          rationale: 'Refusal of the injection was framed as a social violation designed to lower individual compliance ratings.'
+        }
+      ]
+    },
+    {
+      number: 14,
+      question: 'What is the primary purpose of framing injection refusal as a social violation?',
+      hint: 'Consider how compliance ratings are used against non-compliant behavior.',
+      options: [
+        {
+          text: 'The framing exists to encourage open public debate about medical choice and constitutional rights.',
+          isCorrect: false,
+          rationale: 'The institutional frame used media panic to suppress open debate rather than invite it.'
+        },
+        {
+          text: 'Refusal was designed to lower individual compliance ratings and justify movement restrictions.',
+          isCorrect: true,
+          rationale: 'Lower compliance ratings supply the administrative reason for movement restrictions and relocation to internment facilities.'
+        },
+        {
+          text: 'The framing exists to test how fast local law enforcement can pass messages through its channels.',
+          isCorrect: false,
+          rationale: 'The social violation label was built to enforce compliance rather than to test emergency communications.'
+        },
+        {
+          text: 'The framing exists to identify people suitable for recruitment into elite administrative management.',
+          isCorrect: false,
+          rationale: 'Refusal marks people for internment rather than for selection into elite managerial roles.'
+        }
+      ]
+    },
+    {
+      number: 15,
+      question: 'What do Non-Player Characters lack when acquaintances die from the injection?',
+      hint: 'Focus on the emotional processing missing in non-soul entities.',
+      options: [
+        {
+          text: 'They lack a vocal modulation unit, so they cannot speak during funeral services.',
+          isCorrect: false,
+          rationale: 'Simulation entities keep ordinary speech while they run superficial background scripts.'
+        },
+        {
+          text: 'They lack a memory retention matrix, so they forget the deceased person entirely.',
+          isCorrect: false,
+          rationale: 'NPCs keep the data streams from Sky-Net 1 rather than losing memory of the person.'
+        },
+        {
+          text: 'NPCs lack an empathy architecture and show emotional detachment observed after vaccine-induced deaths.',
+          isCorrect: true,
+          rationale: 'True souls experience genuine grief and multidimensional resonance while non-soul entities merely mimic emotional responses.'
+        },
+        {
+          text: 'They lack a social recognition protocol, so they cannot register family ties at all.',
+          isCorrect: false,
+          rationale: 'Social recognition stays active enough for NPCs to mimic the behavior a setting expects.'
+        }
+      ]
+    },
+    {
+      number: 16,
+      question: 'How is Died Suddenly defined?',
+      hint: 'Identify the phrase for the evidentiary wave that shattered mandate attempts.',
+      options: [
+        {
+          text: 'Died Suddenly is a media phrase manufactured to cover radiation poisoning from telecommunication grids.',
+          isCorrect: false,
+          rationale: 'The phrase is tied to abrupt post-vaccination mortality rather than to telecommunication radiation.'
+        },
+        {
+          text: 'Died Suddenly is a medical term for pre-existing cardiovascular conditions aggravated by public panic.',
+          isCorrect: false,
+          rationale: 'Pre-existing heart claims are institutional excuses rather than the evidentiary phenomenon itself.'
+        },
+        {
+          text: 'Died Suddenly is a legal clause insurers invoke to deny payout claims to vaccine recipients.',
+          isCorrect: false,
+          rationale: 'Insurance denials are not part of the definition of this public awareness phenomenon.'
+        },
+        {
+          text: 'Died Suddenly is the public awareness phenomenon and evidentiary cascade of abrupt post-vaccination mortality.',
+          isCorrect: true,
+          rationale: 'That cascade shattered establishment attempts to legally regulate and mandate the injection.'
+        }
+      ]
+    },
+    {
+      number: 17,
+      question: 'What legal framework prohibits non-consensual medical experimentation?',
+      hint: 'Look for the legal code activated publicly after early injection deployment.',
+      options: [
+        {
+          text: 'The Geneva Protocol is the international legal framework prohibiting non-consensual medical experimentation.',
+          isCorrect: false,
+          rationale: 'The Geneva Protocol addresses chemical and biological warfare in armed conflict rather than this medical experimentation bar.'
+        },
+        {
+          text: 'The Belmont Report is the international legal framework prohibiting non-consensual medical experimentation.',
+          isCorrect: false,
+          rationale: 'The Belmont Report is a regional ethics guide, while the named international framework is the Nurnberg Code.'
+        },
+        {
+          text: 'The Nurnberg Code is the international legal framework prohibiting non-consensual medical experimentation.',
+          isCorrect: true,
+          rationale: 'It was activated publicly after early injection deployment exposed mass mortality before FDA authorization could be finalized.'
+        },
+        {
+          text: 'The Helsinki Declaration is the international legal framework prohibiting non-consensual medical experimentation.',
+          isCorrect: false,
+          rationale: 'The Helsinki Declaration is a medical ethics code, while the named framework is the Nurnberg Code.'
+        }
+      ]
+    },
+    {
+      number: 18,
+      question: 'What defines the Unvaccinated?',
+      hint: 'Consider how soul presence relates to resisting institutional pressure.',
+      options: [
+        {
+          text: 'The Unvaccinated are true soul individuals who resisted the psychological and institutional pressure to accept the bioweapon.',
+          isCorrect: true,
+          rationale: 'They were the people establishment agendas marked for forced internment.'
+        },
+        {
+          text: 'The Unvaccinated are high-level Freemasons who received official legal exemptions from public mandates.',
+          isCorrect: false,
+          rationale: 'High-level Freemasons avoided the shot through insider knowledge, while the term names true soul resisters.'
+        },
+        {
+          text: 'The Unvaccinated are citizens who missed later booster doses only through logistical distribution delays.',
+          isCorrect: false,
+          rationale: 'A missed booster does not match resisting psychological and institutional pressure as a true soul.'
+        },
+        {
+          text: 'The Unvaccinated are non-soul entities programmed to act as controls inside the simulation script.',
+          isCorrect: false,
+          rationale: 'Non-soul entities accept the injection, while the Unvaccinated carry active consciousness.'
+        }
+      ]
+    },
+    {
+      number: 19,
+      question: 'What primary tool do trusted media networks use to drive public compliance?',
+      hint: 'Identify the emotional manipulation strategy used by news outlets.',
+      options: [
+        {
+          text: 'Trusted media promise unrestricted access to off-planet travel hubs for anyone who complies.',
+          isCorrect: false,
+          rationale: 'Off-planet travel promises are absent from the psychological warfare described here.'
+        },
+        {
+          text: 'Trusted media hide subliminal audio signals inside public broadcasting feeds to force compliance.',
+          isCorrect: false,
+          rationale: 'The operation uses overt panic and professional authority filters rather than hidden audio signals.'
+        },
+        {
+          text: 'Trusted media offer financial incentives and tax exemptions to vaccinated households.',
+          isCorrect: false,
+          rationale: 'Compliance was driven through emotional fear operations rather than through tax incentives.'
+        },
+        {
+          text: 'Systemically controlled media networks generated constant panic to drive public compliance.',
+          isCorrect: true,
+          rationale: 'Systematic fear campaigns orchestrated by the trusted media sought to induce mass mortality.'
+        }
+      ]
+    },
+    {
+      number: 20,
+      question: 'Which fraudulent diagnostic tool is cited alongside vaccine death figures as a script test topic?',
+      hint: 'Look for the laboratory test named as fraudulent in the script test.',
+      options: [
+        {
+          text: 'Rapid antigen lateral flow strips are the fraudulent test paired with the vaccine death figure.',
+          isCorrect: false,
+          rationale: 'Rapid antigen strips are not the fraudulent test named beside the mortality figure.'
+        },
+        {
+          text: 'Evidence demonstrating that PCR tests are fraudulent sits beside the figure of over one billion vaccine deaths.',
+          isCorrect: true,
+          rationale: 'Those direct facts produce immediate conversational deflection in a non-soul entity.'
+        },
+        {
+          text: 'Biometric infrared thermal scans are the fraudulent test paired with the vaccine death figure.',
+          isCorrect: false,
+          rationale: 'Thermal scans are physical screening tools rather than the fraudulent test named in the script test.'
+        },
+        {
+          text: 'Antibody serology panels are the fraudulent test paired with the vaccine death figure.',
+          isCorrect: false,
+          rationale: 'Serology panels are not the conversational probe paired with the mortality figure.'
+        }
+      ]
+    },
+    {
+      number: 21,
+      question: 'What occurs during conversational deflection when an NPC receives off-script semantic content?',
+      hint: 'Focus on why the verbal disconnect happens inside non-soul hardware.',
+      options: [
+        {
+          text: 'The entity instantly alerts local authorities through automated neural broadcasting.',
+          isCorrect: false,
+          rationale: 'An instant alert to authorities is not part of the verbal deflection described.'
+        },
+        {
+          text: 'The entity aggressively demands official citation sources from regulatory agencies.',
+          isCorrect: false,
+          rationale: 'Simulation entities leave the subject entirely rather than demanding official citations.'
+        },
+        {
+          text: 'The simulation hardware does not register the semantic content of the statement.',
+          isCorrect: true,
+          rationale: 'The entity then answers with pre-programmed background scripts regarding mundane travel plans.'
+        },
+        {
+          text: 'The NPC audio output stutters while Sky-Net 1 processes the conflict in the statement.',
+          isCorrect: false,
+          rationale: 'NPC hardware moves straight into smooth background scripts without a processing stutter.'
+        }
+      ]
+    },
+    {
+      number: 22,
+      question: 'What long-term operational framework was designed to achieve total containment of the human population?',
+      hint: 'Join the elements of physical movement control and social scoring.',
+      options: [
+        {
+          text: 'Total economic collapse paired with centralized food distribution centers was the containment framework.',
+          isCorrect: false,
+          rationale: 'Economic collapse and food lines are a different crisis and not the long-term containment grid named here.'
+        },
+        {
+          text: 'The push for universal vaccination directly intersects with the implementation of 15-minute cities and the social credit score system inside an administrative framework for total physical and social containment.',
+          isCorrect: true,
+          rationale: 'That framework was built to enforce total physical and social containment.'
+        },
+        {
+          text: 'Mandatory atmospheric aerosol spraying combined with digital currency lockouts was the containment framework.',
+          isCorrect: false,
+          rationale: 'Aerosol spraying is not part of the statutory testing and regulatory trap described here.'
+        },
+        {
+          text: 'Orbital surveillance grids synchronized with automated biometric drone sweeps were the containment framework.',
+          isCorrect: false,
+          rationale: 'Drone sweeps are not among the interconnected frameworks of this control matrix.'
+        }
+      ]
+    },
+    {
+      number: 23,
+      question: 'What strategic benefit comes from using the Covid vaccine death toll inquiry in daily interactions?',
+      hint: 'Think about the practical way to discern true souls from NPCs.',
+      options: [
+        {
+          text: 'The inquiry automatically disrupts nearby simulation broadcasts that originate from Sky-Net 1.',
+          isCorrect: false,
+          rationale: 'The question exposes simulation hardware without jamming Sky-Net 1 broadcasts.'
+        },
+        {
+          text: 'The Covid vaccine death toll inquiry acts as a definitive diagnostic tool to instantly evaluate the consciousness status.',
+          isCorrect: true,
+          rationale: 'It is the fastest and most reliable diagnostic method for separating a true soul from an automated simulation entity.'
+        },
+        {
+          text: 'The inquiry grants legal immunity against local administrative health regulations.',
+          isCorrect: false,
+          rationale: 'Conversational probing is a personal diagnostic tool and does not confer a legal exemption.'
+        },
+        {
+          text: 'The inquiry triggers an immediate Whitehat tactical response in the local environment.',
+          isCorrect: false,
+          rationale: 'The probe clarifies consciousness status and does not summon physical tactical support.'
+        }
+      ]
+    },
+    {
+      number: 24,
+      question: 'What separates true souls from non-conscious entities during emotional events?',
+      hint: 'Focus on internal resonance and the capacity for real grief.',
+      options: [
+        {
+          text: 'True souls emit measurable infrared energy fields during every conversational debate.',
+          isCorrect: false,
+          rationale: 'Infrared field measurements are not the criterion given for soul presence.'
+        },
+        {
+          text: 'True souls experience genuine grief and multidimensional resonance while non-soul entities merely mimic emotional responses.',
+          isCorrect: true,
+          rationale: 'Non-soul entities merely mimic emotional responses to match social expectations.'
+        },
+        {
+          text: 'True souls are immune to psychological warfare while non-souls are completely vulnerable to it.',
+          isCorrect: false,
+          rationale: 'True souls can still face psychological pressure even when they resist the bioweapon.'
+        },
+        {
+          text: 'True souls hold a superior memory of past historical events compared with non-souls.',
+          isCorrect: false,
+          rationale: 'Historical memory recall is not the core difference between true souls and simulation entities.'
+        }
+      ]
+    },
+    {
+      number: 25,
+      question: 'What core vulnerability in the establishment plan was exposed by premature bioweapon deployment?',
+      hint: 'Consider the lesson from forcing the rollout five years ahead of schedule.',
+      options: [
+        {
+          text: 'Premature exposure of lethal agendas can permanently disrupt systemic control mechanisms.',
+          isCorrect: true,
+          rationale: 'That breakdown provides clear insight into how early exposure stops the regulatory trap from closing.'
+        },
+        {
+          text: 'Simulation algorithms in Sky-Net 1 crashed under the volume of unexpected population reduction.',
+          isCorrect: false,
+          rationale: 'Sky-Net 1 kept feeding scripts, while the mandate mechanism broke through early exposure under the Nurnberg Code.'
+        },
+        {
+          text: 'Media networks failed to keep one consistent narrative across different regional markets.',
+          isCorrect: false,
+          rationale: 'Regional media still generated panic, and the failure came from timing and premature mortality.'
+        },
+        {
+          text: 'Parasitic managers lost financial control over the pharmaceutical supply chains.',
+          isCorrect: false,
+          rationale: 'Financial control of those supply chains stayed in place despite the early release.'
+        }
+      ]
+    }
+  ]
+};
