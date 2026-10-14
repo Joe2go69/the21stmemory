@@ -737,8 +737,14 @@ function buildPage({
   const heroImage = heroImageRel ? withAsset(heroImageRel) : '';
   // Clear banner image above the hero copy (no tint). width/height reserve a 16:9 box
   // to avoid CLS; CSS aspect-ratio + object-fit: cover set the real crop per breakpoint.
+  // Essence (main root) topics use a split hero: copy left, portrait art right (desktop).
+  const isEssence = Boolean(topic.is_main_root) || topic.id === 'essence-of-the-transmission';
+  const heroClass = heroImage
+    ? ` deep-dive-hero--banner${isEssence ? ' deep-dive-hero--split' : ''}`
+    : '';
+  const heroZoom = `<button type="button" class="hero-zoom-btn" data-hero-zoom aria-label="View full image"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></button>`;
   const heroBanner = heroImage
-    ? `<figure class="deep-dive-hero-banner"><img class="deep-dive-hero-banner__img" src="${escapeAttr(heroImage)}" alt="" width="1600" height="900" fetchpriority="high" decoding="async"></figure>`
+    ? `<figure class="deep-dive-hero-banner"><img class="deep-dive-hero-banner__img" src="${escapeAttr(heroImage)}" alt="" width="1600" height="900" fetchpriority="high" decoding="async">${heroZoom}</figure>`
     : '';
   const robots = isStubTopic ? '    <meta name="robots" content="noindex,follow">\n' : '';
   const quiz = resolveQuiz(topic, sourceId);
@@ -758,7 +764,7 @@ function buildPage({
     <div class="max-w-6xl mx-auto px-6 page-shell pb-4">
       <div id="lesson-header" class="mb-10">
         ${breadcrumbs}
-        <div class="deep-dive-hero${heroImage ? ' deep-dive-hero--banner' : ''}">
+        <div class="deep-dive-hero${heroClass}">
 ${heroBanner}
           <div class="deep-dive-hero-content">
             <p class="page-hero-eyebrow">${escapeHtml(sourceTitle)} · Coming soon</p>
@@ -796,7 +802,7 @@ ${heroBanner}
     <div class="max-w-6xl mx-auto px-6 page-shell dive-hero-shell">
       <div id="lesson-header">
         ${breadcrumbs}
-        <div class="deep-dive-hero${heroImage ? ' deep-dive-hero--banner' : ''}">
+        <div class="deep-dive-hero${heroClass}">
 ${heroBanner}
           <div class="deep-dive-hero-content">
             ${renderHeroMeta({ sourceTitle, readingTime, lastUpdated })}
