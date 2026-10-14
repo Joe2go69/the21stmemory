@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-13T09:20:55.011Z",
-  "total": 285,
+  "generatedAt": "2026-10-14T05:58:03.510Z",
+  "total": 286,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 89
+      "count": 90
     }
   ],
   "quizzes": [
@@ -2990,6 +2990,19 @@
       "href": "quiz/revelations/harvest-toll.html",
       "diveHref": "dive/revelations/harvest-toll.html",
       "key": "revelations/harvest-toll"
+    },
+    {
+      "id": "hate-chip",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Hate Chip",
+      "subtitle": "Test your understanding of Hate Chip — the absence of organic malice in a true soul and the cybernetic implant infrastructure that enforces cognitive subjugation.",
+      "questionCount": 25,
+      "href": "quiz/revelations/hate-chip.html",
+      "diveHref": "dive/revelations/hate-chip.html",
+      "key": "revelations/hate-chip"
     },
     {
       "id": "holographic-sleeves",

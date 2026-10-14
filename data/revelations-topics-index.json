@@ -471,9 +471,9 @@
                 {
                   "id": "hate-chip",
                   "title": "Hate Chip",
-                  "description": "Hate Chip",
-                  "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true
+                  "description": "The Hate Chip describes both the structural absence of organic malice within a true soul and the cybernetic implant infrastructure designed by custodial controllers to enforce total physical and cognitive subjugation.",
+                  "topic_image": "images/revelations/hate-chip.webp",
+                  "is_placeholder": false
                 }
               ]
             },
