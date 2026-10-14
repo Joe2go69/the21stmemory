@@ -23989,3 +23989,37 @@ body.hero-lightbox-open { overflow: hidden; }
     background: #12101f;
   }
 }
+
+/* =============================================
+   DIVE HERO — two-column body under the banner (non-Essence, >=1024px)
+   Left: meta, title, accent, deck. Right: actions panel.
+   ============================================= */
+@media (min-width: 1024px) {
+  .deep-dive-hero--banner:not(.deep-dive-hero--split) .deep-dive-hero-content {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    align-items: start;
+    gap: 2.5rem;
+    max-width: none;
+  }
+  .deep-dive-hero--banner:not(.deep-dive-hero--split) .deep-dive-hero-copy { min-width: 0; }
+  .deep-dive-hero--banner:not(.deep-dive-hero--split) .deep-dive-hero-copy .deep-dive-hero-deck { max-width: 40rem; }
+  .deep-dive-hero--banner:not(.deep-dive-hero--split) .dive-hero-actions {
+    min-width: 0;
+    padding: 1.35rem 1.5rem 1.4rem;
+    border-radius: 1.1rem;
+    border: 1px solid rgba(167, 139, 250, 0.22);
+    background: linear-gradient(180deg, rgba(91, 33, 182, 0.10), rgba(26, 20, 51, 0.55));
+    box-shadow: 0 16px 40px -24px rgba(0, 0, 0, 0.75), inset 0 1px 0 rgba(237, 233, 254, 0.04);
+    margin-top: 0;
+  }
+  .deep-dive-hero--banner:not(.deep-dive-hero--split) .dive-hero-links .share-menu__toggle { font-size: 0.82rem !important; }
+  .deep-dive-hero--banner:not(.deep-dive-hero--split) .dive-hero-actions .deep-dive-quiz-cta { width: 100%; }
+  .deep-dive-hero--banner:not(.deep-dive-hero--split) .dive-hero-actions .dive-hero-links { flex-wrap: wrap; column-gap: 0.35rem; }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .deep-dive-hero--banner:not(.deep-dive-hero--split) .deep-dive-hero-content {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 2rem;
+  }
+}
