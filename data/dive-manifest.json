@@ -947,6 +947,27 @@
     },
     {
       "sourceId": "breakdown",
+      "topicId": "drop-in-tone",
+      "path": "/dive/breakdown/drop-in-tone.html",
+      "live": false,
+      "title": "Drop in Tone"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "sharp-edge",
+      "path": "/dive/breakdown/sharp-edge.html",
+      "live": false,
+      "title": "Sharp Edge"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "silence-before-the-snap",
+      "path": "/dive/breakdown/silence-before-the-snap.html",
+      "live": false,
+      "title": "Silence Before the Snap"
+    },
+    {
+      "sourceId": "breakdown",
       "topicId": "ebs-operation",
       "path": "/dive/breakdown/ebs-operation.html",
       "live": true,
@@ -972,6 +993,55 @@
       "path": "/dive/breakdown/truth-packages.html",
       "live": true,
       "title": "Truth Packages"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "scare-sequence",
+      "path": "/dive/breakdown/scare-sequence.html",
+      "live": false,
+      "title": "Scare Sequence"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "ai-war-theatre",
+      "path": "/dive/breakdown/ai-war-theatre.html",
+      "live": false,
+      "title": "A.I. War Theatre"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "staged-world-war-iii",
+      "path": "/dive/breakdown/staged-world-war-iii.html",
+      "live": false,
+      "title": "Staged World War III"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "project-blue-beam",
+      "path": "/dive/breakdown/project-blue-beam.html",
+      "live": false,
+      "title": "Project Blue Beam"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "scripted-exposure",
+      "path": "/dive/breakdown/scripted-exposure.html",
+      "live": false,
+      "title": "Scripted Exposure"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "digital-id-script",
+      "path": "/dive/breakdown/digital-id-script.html",
+      "live": false,
+      "title": "Digital ID Script"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "scripted-virus",
+      "path": "/dive/breakdown/scripted-virus.html",
+      "live": false,
+      "title": "Scripted Virus"
     },
     {
       "sourceId": "breakdown",
@@ -1066,6 +1136,48 @@
     },
     {
       "sourceId": "breakdown",
+      "topicId": "sound-to-light",
+      "path": "/dive/breakdown/sound-to-light.html",
+      "live": false,
+      "title": "Sound to Light"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "travel-is-frequency",
+      "path": "/dive/breakdown/travel-is-frequency.html",
+      "live": false,
+      "title": "Travel Is Frequency"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "communication-cables",
+      "path": "/dive/breakdown/communication-cables.html",
+      "live": false,
+      "title": "Communication Cables"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "seven-overlay-bands",
+      "path": "/dive/breakdown/seven-overlay-bands.html",
+      "live": false,
+      "title": "Seven Overlay Bands"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "projection-dome-tech",
+      "path": "/dive/breakdown/projection-dome-tech.html",
+      "live": false,
+      "title": "Projection Dome Tech"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "inner-earth-layers",
+      "path": "/dive/breakdown/inner-earth-layers.html",
+      "live": false,
+      "title": "Inner Earth Layers"
+    },
+    {
+      "sourceId": "breakdown",
       "topicId": "grid-systems",
       "path": "/dive/breakdown/grid-systems.html",
       "live": true,
@@ -1098,6 +1210,13 @@
       "path": "/dive/breakdown/celestial-anchors.html",
       "live": true,
       "title": "Celestial Anchors"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "inter-dimensional-anchors",
+      "path": "/dive/breakdown/inter-dimensional-anchors.html",
+      "live": false,
+      "title": "Inter-dimensional Anchors"
     },
     {
       "sourceId": "breakdown",
@@ -1154,6 +1273,76 @@
       "path": "/dive/breakdown/source-bridge.html",
       "live": true,
       "title": "Source Bridge"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "hyperborea-valve",
+      "path": "/dive/breakdown/hyperborea-valve.html",
+      "live": false,
+      "title": "Hyperborea Valve"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "black-crystal-locks",
+      "path": "/dive/breakdown/black-crystal-locks.html",
+      "live": false,
+      "title": "Black Crystal Locks"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "star-forts-and-obelisks",
+      "path": "/dive/breakdown/star-forts-and-obelisks.html",
+      "live": false,
+      "title": "Star Forts and Obelisks"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "star-nodes",
+      "path": "/dive/breakdown/star-nodes.html",
+      "live": false,
+      "title": "Star Nodes"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "thuban-and-polaris",
+      "path": "/dive/breakdown/thuban-and-polaris.html",
+      "live": false,
+      "title": "Thuban and Polaris"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "axis-laburnum",
+      "path": "/dive/breakdown/axis-laburnum.html",
+      "live": false,
+      "title": "Axis Laburnum"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "colour-as-frequency",
+      "path": "/dive/breakdown/colour-as-frequency.html",
+      "live": false,
+      "title": "Colour as Frequency"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "council-of-12-suns",
+      "path": "/dive/breakdown/council-of-12-suns.html",
+      "live": false,
+      "title": "Council of 12 Suns"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "sun-and-moon",
+      "path": "/dive/breakdown/sun-and-moon.html",
+      "live": false,
+      "title": "Sun and Moon"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "solar-pulses",
+      "path": "/dive/breakdown/solar-pulses.html",
+      "live": false,
+      "title": "Solar Pulses"
     },
     {
       "sourceId": "breakdown",
@@ -1248,6 +1437,34 @@
     },
     {
       "sourceId": "breakdown",
+      "topicId": "ground-healers",
+      "path": "/dive/breakdown/ground-healers.html",
+      "live": false,
+      "title": "Ground Healers"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "atmospheric-repair",
+      "path": "/dive/breakdown/atmospheric-repair.html",
+      "live": false,
+      "title": "Atmospheric Repair"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "monatomic-gold",
+      "path": "/dive/breakdown/monatomic-gold.html",
+      "live": false,
+      "title": "Monatomic Gold"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "spray-craft",
+      "path": "/dive/breakdown/spray-craft.html",
+      "live": false,
+      "title": "Spray Craft"
+    },
+    {
+      "sourceId": "breakdown",
       "topicId": "population-types",
       "path": "/dive/breakdown/population-types.html",
       "live": true,
@@ -1311,6 +1528,20 @@
     },
     {
       "sourceId": "breakdown",
+      "topicId": "fracture-of-tara",
+      "path": "/dive/breakdown/fracture-of-tara.html",
+      "live": false,
+      "title": "Fracture of Tara"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "pleiadian-line",
+      "path": "/dive/breakdown/pleiadian-line.html",
+      "live": false,
+      "title": "Pleiadian Line"
+    },
+    {
+      "sourceId": "breakdown",
       "topicId": "et-sols",
       "path": "/dive/breakdown/et-sols.html",
       "live": true,
@@ -1332,10 +1563,45 @@
     },
     {
       "sourceId": "breakdown",
+      "topicId": "sirius-a-and-b",
+      "path": "/dive/breakdown/sirius-a-and-b.html",
+      "live": false,
+      "title": "Sirius A and B"
+    },
+    {
+      "sourceId": "breakdown",
       "topicId": "homecoming-path",
       "path": "/dive/breakdown/homecoming-path.html",
       "live": true,
       "title": "Homecoming Path"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "pollarians",
+      "path": "/dive/breakdown/pollarians.html",
+      "live": false,
+      "title": "Pollarians"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "the-giants",
+      "path": "/dive/breakdown/the-giants.html",
+      "live": false,
+      "title": "The Giants"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "ikaij",
+      "path": "/dive/breakdown/ikaij.html",
+      "live": false,
+      "title": "Ikaij"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "who-sells-their-sol",
+      "path": "/dive/breakdown/who-sells-their-sol.html",
+      "live": false,
+      "title": "Who Sells Their Sol"
     },
     {
       "sourceId": "breakdown",
@@ -1430,6 +1696,62 @@
     },
     {
       "sourceId": "breakdown",
+      "topicId": "guy-fawkes-night",
+      "path": "/dive/breakdown/guy-fawkes-night.html",
+      "live": false,
+      "title": "Guy Fawkes Night"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "custodian-sell-outs",
+      "path": "/dive/breakdown/custodian-sell-outs.html",
+      "live": false,
+      "title": "Custodian Sell-outs"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "five-parasitic-races",
+      "path": "/dive/breakdown/five-parasitic-races.html",
+      "live": false,
+      "title": "Five Parasitic Races"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "anunnaki",
+      "path": "/dive/breakdown/anunnaki.html",
+      "live": false,
+      "title": "Anunnaki"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "draconians",
+      "path": "/dive/breakdown/draconians.html",
+      "live": false,
+      "title": "Draconians"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "greys-and-the-rebellion",
+      "path": "/dive/breakdown/greys-and-the-rebellion.html",
+      "live": false,
+      "title": "Greys and the Rebellion"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "niburians",
+      "path": "/dive/breakdown/niburians.html",
+      "live": false,
+      "title": "Niburians"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "five-masters",
+      "path": "/dive/breakdown/five-masters.html",
+      "live": false,
+      "title": "Five Masters"
+    },
+    {
+      "sourceId": "breakdown",
       "topicId": "the-homecoming",
       "path": "/dive/breakdown/the-homecoming.html",
       "live": true,
@@ -1462,6 +1784,13 @@
       "path": "/dive/breakdown/resonance-bridge.html",
       "live": true,
       "title": "Resonance Bridge"
+    },
+    {
+      "sourceId": "breakdown",
+      "topicId": "phasing-out",
+      "path": "/dive/breakdown/phasing-out.html",
+      "live": false,
+      "title": "Phasing Out"
     },
     {
       "sourceId": "breakdown",

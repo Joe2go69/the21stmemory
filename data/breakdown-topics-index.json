@@ -6,7 +6,7 @@
   "pdf_url": "https://drive.google.com/file/d/1qD8iHWrkmNX-ozTVuI3wSM-xlJldktM6/view?usp=sharing",
   "playlist_url": "https://rumble.com/playlists/Ny_icOWyV8k",
   "description": "This transmission lays out the full mechanics of the final stages of the Great Awakening: the phased Great Purge and infrastructure sweep, the controlled 3rd realm collapse, the EBS lockdown window, and the final A.I. theatre of staged WW3 and fake alien invasion events. It reveals the real craft arrival on the correct frequency band, the extraction protocol and homecoming for resonating souls, the three healing sanctuaries (Water Domes, Crystal Halls, and Star Pods), projection dome technology, the living crystalline grid system with its nodes and harmonic lenses, the hidden history of the Lyran lineage and early Custodians, the removal of the Spirit Tree, and the precise sequence of the overlay collapse that returns the original second realm.\n\nEssential for anyone who wants to understand frequency and vibration as the true key to perception, choice, and liberation, and what it means to hold steady as a resonating soul through the final window.",
-  "total_topics": 104,
+  "total_topics": 151,
   "topics": [
     {
       "id": "essence-of-the-transmission",
@@ -173,6 +173,27 @@
               "description": "A sudden drop in atmospheric pressure at the exact moment main communication cables are severed — the definitive physical and energetic snap that pierces the Parasitic Overlay and reveals momentary field clarity.",
               "topic_image": "images/breakdown/atmospheric-pop.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "drop-in-tone",
+              "title": "Drop in Tone",
+              "description": "Drop in Tone",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "sharp-edge",
+              "title": "Sharp Edge",
+              "description": "Sharp Edge",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "silence-before-the-snap",
+              "title": "Silence Before the Snap",
+              "description": "Silence Before the Snap",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -203,6 +224,59 @@
               "description": "The E.B.S. operation disseminates Truth Packages over a 72+ hour period after military forces seize all media channels — the ultimate catalyst for the Great Awakening that forces the collective to confront the parasitic overlay and elite crimes.",
               "topic_image": "images/breakdown/truth-packages.webp",
               "is_placeholder": false
+            }
+          ]
+        },
+        {
+          "id": "scare-sequence",
+          "title": "Scare Sequence",
+          "description": "Scare Sequence",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "ai-war-theatre",
+              "title": "A.I. War Theatre",
+              "description": "A.I. War Theatre",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "staged-world-war-iii",
+              "title": "Staged World War III",
+              "description": "Staged World War III",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "project-blue-beam",
+              "title": "Project Blue Beam",
+              "description": "Project Blue Beam",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "scripted-exposure",
+              "title": "Scripted Exposure",
+              "description": "Scripted Exposure",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true,
+              "subtopics": [
+                {
+                  "id": "digital-id-script",
+                  "title": "Digital ID Script",
+                  "description": "Digital ID Script",
+                  "topic_image": "images/breakdown/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "scripted-virus",
+                  "title": "Scripted Virus",
+                  "description": "Scripted Virus",
+                  "topic_image": "images/breakdown/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             }
           ]
         }
@@ -304,6 +378,50 @@
               "is_placeholder": false
             }
           ]
+        },
+        {
+          "id": "sound-to-light",
+          "title": "Sound to Light",
+          "description": "Sound to Light",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true
+        },
+        {
+          "id": "travel-is-frequency",
+          "title": "Travel Is Frequency",
+          "description": "Travel Is Frequency",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "communication-cables",
+              "title": "Communication Cables",
+              "description": "Communication Cables",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "seven-overlay-bands",
+              "title": "Seven Overlay Bands",
+              "description": "Seven Overlay Bands",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "projection-dome-tech",
+          "title": "Projection Dome Tech",
+          "description": "Projection Dome Tech",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true
+        },
+        {
+          "id": "inner-earth-layers",
+          "title": "Inner Earth Layers",
+          "description": "Inner Earth Layers",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true
         }
       ]
     },
@@ -341,6 +459,13 @@
               "description": "Celestial Anchors are Sky Nodes — Crystalline Star-Nodes that project the holographic dome, once open stargates to higher realms, sealed as Zodiac locks by parasitic forces, and now reopening as living gates on the Light Web.",
               "topic_image": "images/breakdown/celestial-anchors.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "inter-dimensional-anchors",
+              "title": "Inter-dimensional Anchors",
+              "description": "Inter-dimensional Anchors",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -401,6 +526,80 @@
               "description": "The Spirit Tree as the supreme Source Bridge for the KNOWN LANDS — Axis Laburnum, Source Light, Lyran Builders-Architects, parasitic inversion via Black Cube Tech, and reactivation of the living root web by Resonating Sols.",
               "topic_image": "images/breakdown/source-bridge.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "hyperborea-valve",
+              "title": "Hyperborea Valve",
+              "description": "Hyperborea Valve",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "black-crystal-locks",
+              "title": "Black Crystal Locks",
+              "description": "Black Crystal Locks",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "star-forts-and-obelisks",
+          "title": "Star Forts and Obelisks",
+          "description": "Star Forts and Obelisks",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true
+        },
+        {
+          "id": "star-nodes",
+          "title": "Star Nodes",
+          "description": "Star Nodes",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "thuban-and-polaris",
+              "title": "Thuban and Polaris",
+              "description": "Thuban and Polaris",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "axis-laburnum",
+              "title": "Axis Laburnum",
+              "description": "Axis Laburnum",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "colour-as-frequency",
+          "title": "Colour as Frequency",
+          "description": "Colour as Frequency",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true
+        },
+        {
+          "id": "council-of-12-suns",
+          "title": "Council of 12 Suns",
+          "description": "Council of 12 Suns",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true
+        },
+        {
+          "id": "sun-and-moon",
+          "title": "Sun and Moon",
+          "description": "Sun and Moon",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "solar-pulses",
+              "title": "Solar Pulses",
+              "description": "Solar Pulses",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         }
@@ -502,6 +701,36 @@
               "is_placeholder": false
             }
           ]
+        },
+        {
+          "id": "ground-healers",
+          "title": "Ground Healers",
+          "description": "Ground Healers",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true
+        },
+        {
+          "id": "atmospheric-repair",
+          "title": "Atmospheric Repair",
+          "description": "Atmospheric Repair",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "monatomic-gold",
+              "title": "Monatomic Gold",
+              "description": "Monatomic Gold",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "spray-craft",
+              "title": "Spray Craft",
+              "description": "Spray Craft",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            }
+          ]
         }
       ]
     },
@@ -569,6 +798,20 @@
               "description": "Spirit Inversion is the systematic containment, vibrational reversal, and perceptual trapping of organic divine consciousness — Human Sols bound in a fabricated 3D simulation, memory-stripped at the Amnesia Vortex, and restored through Water Domes, Crystal Halls, and Star Pods.",
               "topic_image": "images/breakdown/spirit-inversion.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "fracture-of-tara",
+              "title": "Fracture of Tara",
+              "description": "Fracture of Tara",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "pleiadian-line",
+              "title": "Pleiadian Line",
+              "description": "Pleiadian Line",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -591,7 +834,16 @@
               "title": "Lyran Lineage",
               "description": "The Lyran Lineage is the primordial consciousness of original builders, architects, and early Custodians — heart-centered courage symbolized by the lion, the True Lyran Current coded in every soul, and the root frequency that coordinates awakening across the Great Dome.",
               "topic_image": "images/breakdown/lyran-lineage.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "sirius-a-and-b",
+                  "title": "Sirius A and B",
+                  "description": "Sirius A and B",
+                  "topic_image": "images/breakdown/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "homecoming-path",
@@ -599,8 +851,36 @@
               "description": "The Homecoming Path is the resonance-governed direct-departure route reserved for the Resonating Army and ET sols — bypassing healing sanctuaries via the resonance bridge, Sol Frequency Lock, and crystalline living craft that return stellar consciousness to original realms of origin.",
               "topic_image": "images/breakdown/homecoming-path.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "pollarians",
+              "title": "Pollarians",
+              "description": "Pollarians",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "the-giants",
+              "title": "The Giants",
+              "description": "The Giants",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "ikaij",
+              "title": "Ikaij",
+              "description": "Ikaij",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
             }
           ]
+        },
+        {
+          "id": "who-sells-their-sol",
+          "title": "Who Sells Their Sol",
+          "description": "Who Sells Their Sol",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true
         }
       ]
     },
@@ -698,8 +978,66 @@
               "description": "Coordinated Historic Resets that bury, burn, and rebrand crystalline Tartarian architecture so humanity stays blind inside a low-frequency, anti-resonant overlay.",
               "topic_image": "images/breakdown/tartarian-erasure.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "guy-fawkes-night",
+              "title": "Guy Fawkes Night",
+              "description": "Guy Fawkes Night",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
             }
           ]
+        },
+        {
+          "id": "custodian-sell-outs",
+          "title": "Custodian Sell-outs",
+          "description": "Custodian Sell-outs",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true
+        },
+        {
+          "id": "five-parasitic-races",
+          "title": "Five Parasitic Races",
+          "description": "Five Parasitic Races",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "anunnaki",
+              "title": "Anunnaki",
+              "description": "Anunnaki",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "draconians",
+              "title": "Draconians",
+              "description": "Draconians",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "greys-and-the-rebellion",
+              "title": "Greys and the Rebellion",
+              "description": "Greys and the Rebellion",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "niburians",
+              "title": "Niburians",
+              "description": "Niburians",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "five-masters",
+          "title": "Five Masters",
+          "description": "Five Masters",
+          "topic_image": "images/breakdown/placeholder.webp",
+          "is_placeholder": true
         }
       ]
     },
@@ -737,6 +1075,13 @@
               "description": "The direct, instantaneous homecoming path that lets the Resonating Army exit the KNOWN LANDS by frequency match rather than travel through the Cube.",
               "topic_image": "images/breakdown/resonance-bridge.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "phasing-out",
+              "title": "Phasing Out",
+              "description": "Phasing Out",
+              "topic_image": "images/breakdown/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
