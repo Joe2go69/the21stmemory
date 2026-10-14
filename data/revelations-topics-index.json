@@ -703,10 +703,10 @@
                 {
                   "id": "petrified-giants",
                   "title": "Petrified Giants",
-                  "description": "Petrified Giants",
-                  "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-07"
+                  "description": "Petrified Giants refers to the historical cataclysm during earlier planetary resets wherein hundreds of Anakim and other giant species were subjected to targeted attack by parasitic forces using advanced energy weapons, resulting in their physical bodies being literally turned to stone.",
+                  "topic_image": "images/revelations/petrified-giants.webp",
+                  "is_placeholder": false,
+                  "added": "2026-10-14"
                 }
               ]
             },

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T10:51:43.790Z",
-  "total": 290,
+  "generatedAt": "2026-10-14T15:22:30.357Z",
+  "total": 291,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 94
+      "count": 95
     }
   ],
   "quizzes": [
@@ -3354,6 +3354,19 @@
       "href": "quiz/revelations/owl-current.html",
       "diveHref": "dive/revelations/owl-current.html",
       "key": "revelations/owl-current"
+    },
+    {
+      "id": "petrified-giants",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Petrified Giants",
+      "subtitle": "Test your understanding of Petrified Giants — the energy-weapon cataclysm that turned giant bodies to stone, melted the Grand Canyon cities, and drove the Anakim resurgence behind the Roswell craft interception.",
+      "questionCount": 25,
+      "href": "quiz/revelations/petrified-giants.html",
+      "diveHref": "dive/revelations/petrified-giants.html",
+      "key": "revelations/petrified-giants"
     },
     {
       "id": "pineal-crossover",

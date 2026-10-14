@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "petrified-giants",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Petrified Giants",
+      "description": "Petrified Giants refers to the historical cataclysm during earlier planetary resets wherein hundreds of Anakim and other giant species were subjected to targeted attack by parasitic forces using advanced energy weapons, resulting in their physical bodies being literally turned to stone.",
+      "topic_image": "images/revelations/petrified-giants.webp",
+      "path": "dive/revelations/petrified-giants.html",
+      "added": "2026-10-14"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "positive-loosh",
       "series": "A Brief Synopsis of Revelations",
       "title": "Positive Loosh",
@@ -108,16 +118,6 @@
       "description": "The Covid Vaccine is an unauthorized, officially unapproved bioweapon deployed under the deceptive guise of public health protection and pandemic mitigation.",
       "topic_image": "images/revelations/covid-vaccine.webp",
       "path": "dive/revelations/covid-vaccine.html",
-      "added": "2026-10-07"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "mars-ticket",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Mars Ticket",
-      "description": "The corrupt clearance through which premier scientists trade ethics for unredacted physics and then build the weapons of realm control.",
-      "topic_image": "images/revelations/mars-ticket.webp",
-      "path": "dive/revelations/mars-ticket.html",
       "added": "2026-10-07"
     }
   ],
