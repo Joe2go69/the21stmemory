@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "technology-swaps",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Technology Swaps",
+      "description": "Technology Swaps represent the covert pipeline through which non-terrestrial hardware, exotic material science, and advanced electronic architectures are transferred into human society, replacing genuine internal research with reverse-engineered salvaged artifacts.",
+      "topic_image": "images/revelations/technology-swaps.webp",
+      "path": "dive/revelations/technology-swaps.html",
+      "added": "2026-10-14"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "petrified-giants",
       "series": "A Brief Synopsis of Revelations",
       "title": "Petrified Giants",
@@ -108,16 +118,6 @@
       "description": "Watch the Water defines the targeted chemical attack on the supply, an orchestrated deployment of liquid-borne toxins designed to compromise the organic vessel's spiritual hardware.",
       "topic_image": "images/revelations/watch-the-water.webp",
       "path": "dive/revelations/watch-the-water.html",
-      "added": "2026-10-07"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "covid-vaccine",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Covid Vaccine",
-      "description": "The Covid Vaccine is an unauthorized, officially unapproved bioweapon deployed under the deceptive guise of public health protection and pandemic mitigation.",
-      "topic_image": "images/revelations/covid-vaccine.webp",
-      "path": "dive/revelations/covid-vaccine.html",
       "added": "2026-10-07"
     }
   ],

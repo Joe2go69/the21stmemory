@@ -721,10 +721,10 @@
                 {
                   "id": "technology-swaps",
                   "title": "Technology Swaps",
-                  "description": "Technology Swaps",
-                  "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-10"
+                  "description": "Technology Swaps represent the covert pipeline through which non-terrestrial hardware, exotic material science, and advanced electronic architectures are transferred into human society, replacing genuine internal research with reverse-engineered salvaged artifacts.",
+                  "topic_image": "images/revelations/technology-swaps.webp",
+                  "is_placeholder": false,
+                  "added": "2026-10-14"
                 }
               ]
             },

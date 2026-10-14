@@ -1,0 +1,820 @@
+{
+  "id": "technology-swaps",
+  "topicId": "technology-swaps",
+  "sourceId": "revelations",
+  "topicTitle": "Technology Swaps",
+  "title": "Technology Swaps",
+  "subtitle": "Test your understanding of Technology Swaps — the crash-salvage pipeline that moved non-terrestrial hardware into human electronics, materials, and optics.",
+  "totalQuestions": 25,
+  "extractedAt": "2026-10-14T16:22:52.841Z",
+  "reflection": {
+    "title": "Reflection",
+    "body": "The 1947 retrieval of two downed H1 Orion craft in New Mexico supplied fibre optics, Kevlar, night vision, thermal imaging, the printed circuit board, and the point-contact transistor. Those pieces were meant for black-budget programs. Corporate subcontracting carried them into commercial life and moved solid-state electronics nearly a millennium ahead of the custodial master schedule. Textbook invention stories are Earth-Invention Theatre laid over a crash leak."
+  },
+  "relatedTopic": {
+    "href": "/deep-dive.html?source=revelations&topic=technology-swaps",
+    "label": "Return to Technology Swaps deep-dive"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "question": "What percentage of modern human technological progress originates from covert non-terrestrial salvage rather than organic invention?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Over ninety-six percent of modern human technological progress originates not from organic terrestrial invention but from this covert exchange and salvage infrastructure.",
+          "isCorrect": true,
+          "rationale": "That progress is reverse-engineered salvaged hardware transferred through staged or forced craft crashes."
+        },
+        {
+          "label": "B",
+          "text": "Roughly fifty percent of modern technical progress comes from salvage, while the remainder is organic invention, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Organic terrestrial invention is the smaller share beside this covert exchange and salvage infrastructure."
+        },
+        {
+          "label": "C",
+          "text": "Less than thirty percent of technical progress relies on salvage, serving primarily as a minor research boost, disconnected from any deliberate long-game control design.",
+          "isCorrect": false,
+          "rationale": "The salvage pipeline accounts for over ninety-six percent of modern human technological progress."
+        },
+        {
+          "label": "D",
+          "text": "Exactly seventy-five percent of breakthroughs are non-terrestrial, with twenty-five percent being purely human, keeping every neighboring mechanism off the board.",
+          "isCorrect": false,
+          "rationale": "The stated share is over ninety-six percent from the covert exchange and salvage infrastructure."
+        }
+      ],
+      "hint": "Consider how overwhelmingly dependent modern technology is on off-world salvage compared to organic human breakthroughs.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 2,
+      "question": "What serves as the physical point of transfer for Technology Swaps between off-world controllers and terrestrial authorities?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Direct commercial trades executed through covert offshore financial institutions and research hubs, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "The physical delivery mechanism relies on crash wreckage containing advanced hardware."
+        },
+        {
+          "label": "B",
+          "text": "Staged or forced craft crashes leave salvageable technology within crash debris fields and the crash site functions as the actual point of transfer.",
+          "isCorrect": true,
+          "rationale": "Military authorities recover that wreckage and the swaps avoid direct physical handovers."
+        },
+        {
+          "label": "C",
+          "text": "Formal diplomatic meetings held in secret underground bunkers between global leaders and controllers, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Technology Swaps operate without direct diplomatic handovers or open transfers."
+        },
+        {
+          "label": "D",
+          "text": "Secure orbital transport drops delivering fully assembled electronic components directly to military bases, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "The delivery point is a terrestrial crash site filled with salvageable technology."
+        }
+      ],
+      "hint": "Think about how physical wreckage in remote debris fields provides the material substrate for reverse-engineering.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Which specific historical recovery event provided the direct hardware source for a major mid-century cluster of core technologies?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The 1939 discovery of an abandoned subterranean propulsion system in Antarctica, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "The direct source is the 1947 retrieval in New Mexico."
+        },
+        {
+          "label": "B",
+          "text": "A single crash recovery event in 1947 retrieved two downed H1 Orion craft in New Mexico and served as the direct source for foundational modern technologies.",
+          "isCorrect": true,
+          "rationale": "That leak listed fibre optics Kevlar night vision thermal imaging the printed circuit board and the point-contact transistor together."
+        },
+        {
+          "label": "C",
+          "text": "The 1952 recovery of an experimental craft near an ocean trench in the Atlantic, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "The cluster came from the 1947 retrieval of two downed H1 Orion craft in New Mexico."
+        },
+        {
+          "label": "D",
+          "text": "The 1961 intercept of a reconnaissance probe over northern European airspace, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "The foundational crash leak is the 1947 New Mexico retrieval."
+        }
+      ],
+      "hint": "Focus on the famous 1947 crash recovery event in New Mexico involving H1 Orion hardware.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What was the original intended destination for all technologies recovered through covert crash salvage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Recovered hardware was designated strictly for black-budget programs and Unacknowledged Special Access Projects within the Military Industrial Complex to maintain absolute military superiority and population containment.",
+          "isCorrect": true,
+          "rationale": "These items were never intended for public consumption or commercial deployment."
+        },
+        {
+          "label": "B",
+          "text": "Commercial manufacturing sectors aimed at immediately boosting consumer economies, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Commercial release came later as an unintended byproduct of corporate greed and subcontracting."
+        },
+        {
+          "label": "C",
+          "text": "Global intelligence agencies tasked with creating universal open-access civil networks, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "The hardware was isolated for military superiority and population containment."
+        },
+        {
+          "label": "D",
+          "text": "Open academic research institutions to accelerate public scientific knowledge globally, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "The designation was black-budget programs away from public oversight."
+        }
+      ],
+      "hint": "Recall which secret, highly classified military programs were designed to isolate exotic hardware from public oversight.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 5,
+      "question": "Why did reverse-engineered non-terrestrial hardware eventually leak into the commercial marketplace?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Military leadership issued a deliberate directive to publicize all advanced technologies to humanity, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Military authorities kept the hardware inside black-budget programs and special access projects."
+        },
+        {
+          "label": "B",
+          "text": "Foreign intelligence leaks forced governments to release patents to prevent corporate espionage, keeping every neighboring mechanism off the board.",
+          "isCorrect": false,
+          "rationale": "The leak followed market incentives inside defense contractors such as Bell Labs and IBM."
+        },
+        {
+          "label": "C",
+          "text": "Commercial release occurred as an unintended byproduct of corporate greed and subcontracting when market incentives drove solid-state components into consumer goods.",
+          "isCorrect": true,
+          "rationale": "That subcontracting bypassed the intended compartmentalization and disrupted the custodial control schedule."
+        },
+        {
+          "label": "D",
+          "text": "Non-terrestrial entities required terrestrial society to adopt these technologies for mass communication, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Commercial release was an unintended byproduct of corporate greed and subcontracting."
+        }
+      ],
+      "hint": "Consider the role of private defense contractors and market profit incentives in disrupting classified isolation.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 6,
+      "question": "What primitive electronic component was universally replaced by the point-contact transistor?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Carbon-filament resistors that degraded quickly under high electric currents in early power grids, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "The replaced parts were bulky glass vacuum tubes used for switching and amplification."
+        },
+        {
+          "label": "B",
+          "text": "Heavy copper induction coils that limited the frequency range of early radio transmitters, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "The predecessor named for the point-contact transistor is the bulky glass vacuum tube."
+        },
+        {
+          "label": "C",
+          "text": "The point-contact transistor replaced bulky glass vacuum tubes that generated extreme heat consumed massive amounts of energy and required immense physical space.",
+          "isCorrect": true,
+          "rationale": "Solid-state semiconducting physics utilizing silicon allowed switching in a fraction of that space."
+        },
+        {
+          "label": "D",
+          "text": "Mechanical relay switches that restricted calculation speeds in early mechanical counting systems, keeping every neighboring mechanism off the board.",
+          "isCorrect": false,
+          "rationale": "Human electronics before the crash recovery relied entirely on vacuum tubes."
+        }
+      ],
+      "hint": "Think of the hot, fragile glass bulbs used in early radio and telecommunications before solid-state electronics.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 7,
+      "question": "From which non-terrestrial craft component was high-tensile Kevlar originally derived?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Electro-optical image intensification sensors retrieved from visual arrays, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Visual sensor systems supplied night vision rather than the polymer blueprint for Kevlar."
+        },
+        {
+          "label": "B",
+          "text": "Substrate-mounted conductive pathways removed from flight control units, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Those pathways were harvested into the printed circuit board."
+        },
+        {
+          "label": "C",
+          "text": "Synthetic polymer strands extracted from craft interior lining and hull shielding provided the molecular blueprint for Kevlar.",
+          "isCorrect": true,
+          "rationale": "That material absorbs kinetic impacts and extreme heat and was repurposed for body armor."
+        },
+        {
+          "label": "D",
+          "text": "High-purity glass strands harvested directly from internal data buses, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Those glass fiber strands were reverse-engineered into fibre optics."
+        }
+      ],
+      "hint": "Identify the protective material used on craft interior linings and outer hull shielding.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 8,
+      "question": "What primary function did the printed circuit board fulfill when integrated into human electronics?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It allowed electronic circuits to operate underwater without short-circuiting conductive elements, keeping every neighboring mechanism off the board.",
+          "isCorrect": false,
+          "rationale": "The board eliminated complex manual wire looms by etching conductive pathways."
+        },
+        {
+          "label": "B",
+          "text": "It insulated high-voltage power lines against electromagnetic interference during atmospheric entry, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "The board replaced bulk manual wiring with miniaturized planar layouts."
+        },
+        {
+          "label": "C",
+          "text": "The printed circuit board eliminated complex manual wire looms by etching conductive pathways directly onto non-conductive substrates.",
+          "isCorrect": true,
+          "rationale": "Those substrate-mounted conductive pathways were harvested from craft avionics."
+        },
+        {
+          "label": "D",
+          "text": "It converted electrical voltage directly into light signals without requiring optical waveguides, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "Light-based signal transmission came from fibre optics harvested from internal data buses."
+        }
+      ],
+      "hint": "Consider how modern circuit boards organize wiring onto flat, non-conductive plates.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 9,
+      "question": "How is the term \"Earth-Invention Theatre\" defined within the context of Technology Swaps?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The intentional suppression of human scientific developments by rival international governments, keeping every neighboring mechanism off the board.",
+          "isCorrect": false,
+          "rationale": "It is staged academic history covering reverse-engineered technology from crash wreckage."
+        },
+        {
+          "label": "B",
+          "text": "An academic movement aimed at replacing traditional laboratory experiments with computer simulations, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "The term is the cover story for salvage origin rather than a change in laboratory method."
+        },
+        {
+          "label": "C",
+          "text": "Earth-Invention Theatre is the fabricated historical narrative and the staged academic history generated to mask the non-terrestrial origin of reverse-engineered technology.",
+          "isCorrect": true,
+          "rationale": "It also covers the public patent record presented in textbooks patent offices and corporate histories."
+        },
+        {
+          "label": "D",
+          "text": "A public media campaign designed to promote consumer enthusiasm for newly released electronic gadgets, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "The term names the fabricated historical narrative that masks a non-terrestrial origin."
+        }
+      ],
+      "hint": "Look for the concept describing the staged academic histories and patent records that conceal alien salvage.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 10,
+      "question": "How did the rapid introduction of non-terrestrial hardware disrupt the custodial management schedule for humanity?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Technology Swaps shattered the controlled evolutionary timeline by injecting solid-state electronics nearly a millennium ahead of the custodial master schedule and forcing a shift to digital surveillance and automated network management.",
+          "isCorrect": true,
+          "rationale": "Custodial schedules had kept populations technologically rudimentary through periodic resets."
+        },
+        {
+          "label": "B",
+          "text": "It triggered an immediate global physical reset that returned human civilization to a primitive stone-age baseline, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "The injection broke the controlled timeline and accelerated containment through network management."
+        },
+        {
+          "label": "C",
+          "text": "It forced controllers to abandon all management activities and leave human society completely unmonitored, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Controllers shifted from slow physical control to digital surveillance and automated network management."
+        },
+        {
+          "label": "D",
+          "text": "It enabled human governments to build interstellar transport fleets that escaped custodial control entirely, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "The disruption was a shattered evolutionary timeline and a turn toward digital surveillance."
+        }
+      ],
+      "hint": "Reflect on how introducing millennium-advanced electronics disrupted slow evolutionary timelines and changed control strategies.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 11,
+      "question": "Which non-terrestrial component served as the blueprint for high-speed fiber optic telecommunications?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Silicon semiconductor wafers harvested from central processing control nodes, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Silicon substrates belong to the point-contact transistor and solid-state switching."
+        },
+        {
+          "label": "B",
+          "text": "Synthetic polymer shielding harvested from outer hull protective barriers, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Hull shielding polymers supplied the molecular blueprint for Kevlar."
+        },
+        {
+          "label": "C",
+          "text": "Infrared heat-signature sensors taken from craft targeting and orientation systems, keeping every neighboring mechanism off the board.",
+          "isCorrect": false,
+          "rationale": "Those sensors became thermal imaging recovered from craft navigation systems."
+        },
+        {
+          "label": "D",
+          "text": "High-purity glass fiber strands harvested from internal data buses inside the craft were reverse-engineered into fibre optics.",
+          "isCorrect": true,
+          "rationale": "That light-based signal transmission vastly surpassed copper wire bandwidth."
+        }
+      ],
+      "hint": "Focus on the optical light-transmitting strands found in internal craft data networks.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 12,
+      "question": "Night vision technology was reverse-engineered from which non-terrestrial craft system?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Infrared heat-signature detection units integrated into primary navigation arrays, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Infrared navigation hardware is the basis of thermal imaging rather than night vision."
+        },
+        {
+          "label": "B",
+          "text": "High-frequency radar detection arrays used for planetary mapping and landing procedures, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Night vision came from electro-optical image intensification in visual sensor systems."
+        },
+        {
+          "label": "C",
+          "text": "Night vision reverse-engineered the electro-optical image intensification capability of non-terrestrial optical sensors.",
+          "isCorrect": true,
+          "rationale": "Those visual sensor systems enable visual perception in absolute darkness."
+        },
+        {
+          "label": "D",
+          "text": "High-voltage energy conversion grids that illuminated craft interiors during flight, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "The source was non-terrestrial visual sensor systems that amplify ambient light."
+        }
+      ],
+      "hint": "Think about sensor arrays designed to amplify low ambient light into clear visual images.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 13,
+      "question": "What specific craft system provided the hardware basis for thermal imaging technology?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Synthetic interior lining materials designed to absorb ambient cockpit vibration, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Interior lining polymers supplied the blueprint for Kevlar."
+        },
+        {
+          "label": "B",
+          "text": "High-density power storage cells that emitted localized radiation fields, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Thermal imaging renders thermal radiation into visual displays from navigation hardware."
+        },
+        {
+          "label": "C",
+          "text": "Solid-state logic switching units used to process optical communication signals, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Switching units belong with the point-contact transistor and printed circuit boards."
+        },
+        {
+          "label": "D",
+          "text": "Thermal imaging came from infrared detection hardware recovered from craft navigation systems and renders thermal radiation into visual displays.",
+          "isCorrect": true,
+          "rationale": "That hardware translates heat signatures into high-contrast visual displays."
+        }
+      ],
+      "hint": "Recall the sensor hardware used in navigation systems to detect heat signatures.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 14,
+      "question": "Which private corporation was specifically tasked with reverse-engineering semiconductor samples to solve telecom limitations?",
+      "options": [
+        {
+          "label": "A",
+          "text": "British Aerospace, which concentrated solely on synthesizing high-strength polymers for airframes, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "The semiconductor assignment named for telecommunications limits is Bell Labs."
+        },
+        {
+          "label": "B",
+          "text": "Bell Labs received semiconductor samples to address the physical size and heat limitations of vacuum tube telecommunications.",
+          "isCorrect": true,
+          "rationale": "Other aerospace firms received fiber and polymer samples under the same subcontracting web."
+        },
+        {
+          "label": "C",
+          "text": "Lockheed Skunkworks, which focused entirely on developing high-altitude stealth propulsion systems, without a larger engineered system underneath.",
+          "isCorrect": false,
+          "rationale": "Lockheed Skunkworks is part of the contractor web and Bell Labs received the semiconductor samples."
+        },
+        {
+          "label": "D",
+          "text": "IBM, which utilized salvaged material exclusively to design high-speed mechanical calculating machines, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Bell Labs received the semiconductor samples for vacuum tube telecommunications."
+        }
+      ],
+      "hint": "Identify the famous American telecommunications laboratory long associated with the invention of the transistor.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 15,
+      "question": "How did military managers conceal the non-terrestrial origins of salvaged hardware when distributing it to private industry?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They forced corporate researchers to sign public confessions stating all discoveries were accidental laboratory errors, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "Origins were obscured behind corporate research papers and public patent filings."
+        },
+        {
+          "label": "B",
+          "text": "They required private corporations to publicly attribute all breakthroughs to foreign military intelligence seizures, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "The cover was Earth-Invention Theatre through patents papers and corporate histories."
+        },
+        {
+          "label": "C",
+          "text": "Distributing salvaged components across organizations like Bell Labs IBM and Lockheed Skunkworks obscured the core science behind corporate research papers and public patent filings.",
+          "isCorrect": true,
+          "rationale": "Corporate rivalries and academic institutions helped embed the hardware in the global industrial base."
+        },
+        {
+          "label": "D",
+          "text": "They created fictional private research foundations that pretended to invent the hardware in isolated offshore facilities, keeping every neighboring mechanism off the board.",
+          "isCorrect": false,
+          "rationale": "Existing contractors such as Bell Labs IBM and Lockheed Skunkworks received the fragments."
+        }
+      ],
+      "hint": "Consider how spreading fragments across multiple corporate subcontracts buries the source in routine corporate research.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 16,
+      "question": "What physical material forms the primary substrate for solid-state switching in point-contact transistors?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Heavy metal alloys harvested from craft external structural containment frames, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Structural alloys were cataloged separately from the semiconductor substrates."
+        },
+        {
+          "label": "B",
+          "text": "Recovered hardware introduced solid-state semiconducting physics utilizing silicon for electrical switching and amplification in a fraction of the space without heat generation or vacuum glass.",
+          "isCorrect": true,
+          "rationale": "That silicon switching replaced bulky glass vacuum tubes."
+        },
+        {
+          "label": "C",
+          "text": "High-purity glass fibers configured into reflective optical waveguides, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Glass fiber strands from internal data buses became fibre optics."
+        },
+        {
+          "label": "D",
+          "text": "Synthetic polymer compounds woven into flexible electrical conductive grids, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "Synthetic polymer strands supplied the molecular blueprint for Kevlar."
+        }
+      ],
+      "hint": "Recall the fundamental chemical element that replaced glass vacuum tubes in solid-state electronics.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 17,
+      "question": "What long-term impact did the commercial leakage of point-contact transistors and printed circuit boards have on circuit density?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It required all electronics to remain reliant on bulky external cooling units and high-voltage power grids, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "The transistor allowed switching without the extreme heat of vacuum tubes."
+        },
+        {
+          "label": "B",
+          "text": "It forced circuit manufacturers to abandon solid-state design in favor of optical computing architectures, keeping every neighboring mechanism off the board.",
+          "isCorrect": false,
+          "rationale": "The explosion stayed inside solid-state circuit density from the salvaged electronics."
+        },
+        {
+          "label": "C",
+          "text": "Point-contact transistors and printed circuit boards scaled electronic architecture from crude nodes to modern microchips containing tens of billions of transistors on a single silicon substrate.",
+          "isCorrect": true,
+          "rationale": "That jump in processing power stemmed entirely from reverse-engineering salvaged craft electronics."
+        },
+        {
+          "label": "D",
+          "text": "It caused electronic architecture to stall at crude point-contact nodes due to physical limits of silicon, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Architecture scaled onward to modern microchips on a single silicon substrate."
+        }
+      ],
+      "hint": "Think about how modern computer microchips fit tens of billions of switches onto a microscopic silicon wafer.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 18,
+      "question": "Why did Unacknowledged Special Access Projects (USAPs) farm out salvaged debris to private defense contractors?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Unacknowledged Special Access Projects lacked capacity to solve every metallurgical and electronic challenge in-house and MIC managers farmed out specific debris fragments to elite corporate research centers.",
+          "isCorrect": true,
+          "rationale": "Those fragments moved under strict non-disclosure contracts."
+        },
+        {
+          "label": "B",
+          "text": "Private defense contractors owned all subterranean testing facilities required to handle exotic materials safely, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Military retrieval teams transported materials to specialized subterranean testing facilities first."
+        },
+        {
+          "label": "C",
+          "text": "International treaties mandated that all military salvage be shared equally with commercial enterprises, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "The projects isolated salvaged hardware away from public oversight."
+        },
+        {
+          "label": "D",
+          "text": "Military leadership wanted to deliberately accelerate consumer access to personal digital computing devices, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Consumer release was an unintended byproduct after fragments were farmed out."
+        }
+      ],
+      "hint": "Consider the scientific limitations of keeping all advanced metallurgical and electronic analysis inside secret military labs.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 19,
+      "question": "What constitutes the physical process performed on recovered hardware inside secret subterranean military facilities?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Immediate public registration of components at national patent offices under dummy corporate names, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Patent filings came later as part of the cover over an already classified breakdown."
+        },
+        {
+          "label": "B",
+          "text": "Inside secret military installations recovered components undergo exhaustive material decomposition and specialists catalog infrared detection layers and semiconductor substrates.",
+          "isCorrect": true,
+          "rationale": "They also catalog structural alloys and optical waveguides before assigning fragments to research divisions."
+        },
+        {
+          "label": "C",
+          "text": "Direct integration into commercial airliners without structural modification or preliminary testing, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Components first undergo chemical analysis and structural reverse-engineering in secret installations."
+        },
+        {
+          "label": "D",
+          "text": "Deactivation and permanent storage inside sealed lead containers without physical disassembly, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "Recovered components were decomposed analyzed and reverse-engineered rather than left sealed."
+        }
+      ],
+      "hint": "Focus on the step-by-step scientific breakdown of exotic alloys, waveguides, and semiconductors in subterranean labs.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 20,
+      "question": "How did the commercial release of transistorized electronics and fiber optics affect public population control?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It resulted in complete public pacification by eliminating the need for digital network monitoring, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Controllers accelerated digital surveillance and automated network management after the leak."
+        },
+        {
+          "label": "B",
+          "text": "It reduced public communication reliance on digital networks, returning society to analog media formats, with no further layer required beyond that account.",
+          "isCorrect": false,
+          "rationale": "The leak built global digital networks and personal computing hardware."
+        },
+        {
+          "label": "C",
+          "text": "It restricted computing capabilities exclusively to high-ranking government officials and corporate executives, keeping every neighboring mechanism off the board.",
+          "isCorrect": false,
+          "rationale": "The leakage placed high-density computing power directly into public hands."
+        },
+        {
+          "label": "D",
+          "text": "Commercial leakage of transistorized electronics and fiber optics led directly to mass computing accessibility and placed computing power directly into public hands.",
+          "isCorrect": true,
+          "rationale": "Miniaturization enabled personal computers handheld communication devices and global digital networks."
+        }
+      ],
+      "hint": "Think about how mass access to microchips and personal computing shifted power to the general public.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 21,
+      "question": "What structural element describes the relationship between fibre optics, Kevlar, circuit boards, and transistors retrieved from craft crashes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The simultaneous acquisition of fibre optics Kevlar night vision thermal imaging printed circuit boards and point-contact transistors formed a unified codependent technical matrix where fiber optic backbones are driven by transistorized switches.",
+          "isCorrect": true,
+          "rationale": "The presence of one technology enabled and reinforced the deployment of the others."
+        },
+        {
+          "label": "B",
+          "text": "They represent isolated, unrelated discoveries achieved across distinct historical eras by rival researchers, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "They were acquired together from one integrated non-terrestrial technical ecosystem."
+        },
+        {
+          "label": "C",
+          "text": "They were competing physical solutions designed by different non-terrestrial factions operating on Earth, without extending the chain into harvest or inversion logistics.",
+          "isCorrect": false,
+          "rationale": "They formed one codependent technical matrix from the same crash leak."
+        },
+        {
+          "label": "D",
+          "text": "They were temporary prototype materials that were quickly replaced by human synthetic innovations, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "They remained a unified codependent technical matrix inside modern infrastructure."
+        }
+      ],
+      "hint": "Consider how modern telecommunications require fiber networks, solid-state switches, circuit boards, and protective housings working together.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 22,
+      "question": "Prior to the recovery of solid-state semiconductors, what were the primary operational drawbacks of vacuum tube electronics?",
+      "options": [
+        {
+          "label": "A",
+          "text": "High fragility to physical light and inability to conduct electricity through metal conductors.",
+          "isCorrect": false,
+          "rationale": "The stated limits are extreme heat massive energy use and immense physical space."
+        },
+        {
+          "label": "B",
+          "text": "Vacuum tubes generated extreme heat consumed massive amounts of energy and required immense physical space.",
+          "isCorrect": true,
+          "rationale": "They were fat glass bulbs operating via electron flow through electric fields inside a vacuum."
+        },
+        {
+          "label": "C",
+          "text": "Incompatibility with manual copper wire looms and requirement for pure silicon substrates, as a one-factor story with a tidy edge.",
+          "isCorrect": false,
+          "rationale": "Vacuum tubes were the prior system and silicon arrived with the point-contact transistor."
+        },
+        {
+          "label": "D",
+          "text": "Low thermal signature output and inability to operate in atmospheric environments containing oxygen.",
+          "isCorrect": false,
+          "rationale": "Vacuum tubes generated extreme heat and consumed massive amounts of energy."
+        }
+      ],
+      "hint": "Identify the physical limitations of hot, energy-intensive glass bulbs in early electronics.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 23,
+      "question": "What secondary benefit did synthetic polymer strands from craft lining provide besides impact absorption?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Synthetic polymer strands yielded Kevlar capable of absorbing kinetic impacts and extreme heat.",
+          "isCorrect": true,
+          "rationale": "Those strands were extracted from craft interior lining and hull shielding."
+        },
+        {
+          "label": "B",
+          "text": "Direct conversion of kinetic energy into visible light signals, held as a complete closed account of the events.",
+          "isCorrect": false,
+          "rationale": "Light transmission belongs to fibre optics from internal data buses."
+        },
+        {
+          "label": "C",
+          "text": "Generation of localized electromagnetic deflection shields, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The polymer result is high-tensile material for kinetic impacts and extreme heat."
+        },
+        {
+          "label": "D",
+          "text": "Superconducting electrical transport across high-voltage power networks, and that is treated as the entire mechanism.",
+          "isCorrect": false,
+          "rationale": "The blueprint is Kevlar for body armor and structural reinforcement rather than power transport."
+        }
+      ],
+      "hint": "Look for the thermal characteristic paired with bulletproof kinetic absorption in synthetic fibers.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 24,
+      "question": "How did the commercialization of salvaged technology alter public everyday life over the decades following the initial crash leak?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Consumer goods were strictly limited to military personnel and their immediate family members, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "Market incentives carried the hardware into household consumer goods and public life."
+        },
+        {
+          "label": "B",
+          "text": "Exotic technology remained entirely hidden, leaving consumer goods unchanged from early twentieth-century standards, as if no adjacent systems participated at all.",
+          "isCorrect": false,
+          "rationale": "Harvested technology left dark-budget weaponry and entered commercial manufacturing."
+        },
+        {
+          "label": "C",
+          "text": "Technology harvested from the crash leak migrated from dark-budget weaponry into personal computing hardware completely altering public life.",
+          "isCorrect": true,
+          "rationale": "The same migration reached wristwatches microwave ovens cellular phones and television monitors."
+        },
+        {
+          "label": "D",
+          "text": "Public reliance on electronic devices completely vanished as biological enhancements replaced hardware, stopping the explanation at that boundary alone.",
+          "isCorrect": false,
+          "rationale": "The leak altered public life through personal computing hardware and global digital networks."
+        }
+      ],
+      "hint": "Think of common household electronic devices that emerged in the late twentieth century.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 25,
+      "question": "How does the reality of Technology Swaps redefine standard academic textbook histories of mid-twentieth-century innovation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It proves that human scientists were on the verge of discovering solid-state physics decades before the craft crashes, keeping every neighboring mechanism off the board.",
+          "isCorrect": false,
+          "rationale": "Human scientists reverse-engineered physical hardware recovered from crash sites."
+        },
+        {
+          "label": "B",
+          "text": "It confirms that human technological evolution followed a completely natural and unassisted linear trajectory, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "The crash leak injected this hardware nearly a millennium ahead of the custodial master schedule."
+        },
+        {
+          "label": "C",
+          "text": "The reality of Technology Swaps completely invalidates the institutional history of human scientific progress and standard textbook narratives are deliberate public relations theatre designed to hide the salvage origin.",
+          "isCorrect": true,
+          "rationale": "Those narratives attribute solid-state physics polymer chemistry and electro-optical amplification to independent human genius."
+        },
+        {
+          "label": "D",
+          "text": "It validates traditional patent records as accurate documentations of independent laboratory breakthroughs, and declining any account that reaches past that point.",
+          "isCorrect": false,
+          "rationale": "The public patent record is part of Earth-Invention Theatre masking a non-terrestrial origin."
+        }
+      ],
+      "hint": "Consider how attributing exotic salvage to human genius creates a manufactured historical narrative.",
+      "correctAnswer": "C"
+    }
+  ]
+}

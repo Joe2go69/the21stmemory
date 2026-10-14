@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T15:22:30.357Z",
-  "total": 291,
+  "generatedAt": "2026-10-14T16:22:54.257Z",
+  "total": 292,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 95
+      "count": 96
     }
   ],
   "quizzes": [
@@ -3679,6 +3679,19 @@
       "href": "quiz/revelations/tartarian-memory.html",
       "diveHref": "dive/revelations/tartarian-memory.html",
       "key": "revelations/tartarian-memory"
+    },
+    {
+      "id": "technology-swaps",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Technology Swaps",
+      "subtitle": "Test your understanding of Technology Swaps — the crash-salvage pipeline that moved non-terrestrial hardware into human electronics, materials, and optics.",
+      "questionCount": 25,
+      "href": "quiz/revelations/technology-swaps.html",
+      "diveHref": "dive/revelations/technology-swaps.html",
+      "key": "revelations/technology-swaps"
     },
     {
       "id": "time-traveller-faces",
