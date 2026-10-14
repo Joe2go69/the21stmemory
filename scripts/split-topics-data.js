@@ -6,6 +6,25 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
+const { execFileSync } = require('child_process');
+
+// added = first commit of the series data file, updated = latest commit.
+// Falls back to values already in the stats file (e.g. shallow CI clones).
+function gitSeriesDates(sourceId, previous) {
+  const rel = `data/${sourceId}-topics.json`;
+  const run = (args) => {
+    try {
+      return execFileSync('git', args, { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim();
+    } catch (_) {
+      return '';
+    }
+  };
+  const shallow = run(['rev-parse', '--is-shallow-repository']) === 'true';
+  const updated = run(['log', '-1', '--format=%cI', '--', rel]) || previous.updated || '';
+  const addedLog = shallow ? '' : run(['log', '--diff-filter=A', '--format=%cI', '--', rel]).split('\n').filter(Boolean).pop();
+  const added = addedLog || previous.added || '';
+  return { ...(added ? { added } : {}), ...(updated ? { updated } : {}) };
+}
 const HEAVY_KEYS = [
   'report',
   'infographic_image',
@@ -103,8 +122,10 @@ function splitSource(sourceId) {
   const indexPath = path.join(ROOT, 'data', `${sourceId}-topics-index.json`);
   fs.writeFileSync(indexPath, JSON.stringify(index, null, 2) + '\n', 'utf8');
 
-  const stats = countTopicStats(index.topics);
   const statsPath = path.join(ROOT, 'data', `${sourceId}-stats.json`);
+  let previous = {};
+  try { previous = JSON.parse(fs.readFileSync(statsPath, 'utf8')); } catch (_) {}
+  const stats = { ...countTopicStats(index.topics), ...gitSeriesDates(sourceId, previous) };
   fs.writeFileSync(statsPath, JSON.stringify(stats, null, 2) + '\n', 'utf8');
 
   console.log(`${sourceId}: index → ${path.relative(ROOT, indexPath)} (${written.length} topic files)`);

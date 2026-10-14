@@ -2,7 +2,8 @@
   "sources": [
     {
       "id": "alice",
-      "title": "Following Alice in the Rabbit Hole"
+      "title": "Following Alice in the Rabbit Hole",
+      "start_here": true
     },
     {
       "id": "breakdown",
