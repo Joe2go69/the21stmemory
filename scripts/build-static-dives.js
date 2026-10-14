@@ -735,7 +735,11 @@ function buildPage({
   const readingTime = flags.hasReport ? estimateReadingTime(topic.report) : '';
   const heroImageRel = (topic.topic_image || topic.infographic_image || '').replace(/\\/g, '/');
   const heroImage = heroImageRel ? withAsset(heroImageRel) : '';
-  const bgStyle = heroImage ? `style="background-image: url('${escapeAttr(heroImage)}')"` : '';
+  // Clear banner image above the hero copy (no tint). width/height reserve a 16:9 box
+  // to avoid CLS; CSS aspect-ratio + object-fit: cover set the real crop per breakpoint.
+  const heroBanner = heroImage
+    ? `<figure class="deep-dive-hero-banner"><img class="deep-dive-hero-banner__img" src="${escapeAttr(heroImage)}" alt="" width="1600" height="900" fetchpriority="high" decoding="async"></figure>`
+    : '';
   const robots = isStubTopic ? '    <meta name="robots" content="noindex,follow">\n' : '';
   const quiz = resolveQuiz(topic, sourceId);
   const quizHref = quiz?.href ? withAsset(String(quiz.href).replace(/^\//, '')) : '';
@@ -754,9 +758,8 @@ function buildPage({
     <div class="max-w-6xl mx-auto px-6 page-shell pb-4">
       <div id="lesson-header" class="mb-10">
         ${breadcrumbs}
-        <div class="deep-dive-hero">
-          <div class="deep-dive-hero-bg" ${bgStyle}></div>
-          <div class="deep-dive-hero-scrim"></div>
+        <div class="deep-dive-hero${heroImage ? ' deep-dive-hero--banner' : ''}">
+${heroBanner}
           <div class="deep-dive-hero-content">
             <p class="page-hero-eyebrow">${escapeHtml(sourceTitle)} · Coming soon</p>
             <h1 class="page-hero-title--dive">${escapeHtml(title)}</h1>
@@ -793,9 +796,8 @@ function buildPage({
     <div class="max-w-6xl mx-auto px-6 page-shell dive-hero-shell">
       <div id="lesson-header">
         ${breadcrumbs}
-        <div class="deep-dive-hero">
-          <div class="deep-dive-hero-bg" ${bgStyle}></div>
-          <div class="deep-dive-hero-scrim"></div>
+        <div class="deep-dive-hero${heroImage ? ' deep-dive-hero--banner' : ''}">
+${heroBanner}
           <div class="deep-dive-hero-content">
             ${renderHeroMeta({ sourceTitle, readingTime, lastUpdated })}
             <h1 class="page-hero-title--dive">${escapeHtml(title)}</h1>
