@@ -56,14 +56,15 @@ function renderLiveArchiveBadge(live, total, sources) {
   badge.setAttribute('aria-busy', 'false');
 
   badge.innerHTML = `
+    <p class="home-proof-explainer">${sourceCount} series of original transmissions, broken into ${total} study topics.</p>
     <div class="codex-home-metrics-grid">
       <div class="codex-home-metric">
         <div class="codex-home-metric-value" data-count-to="${sourceCount}">${sourceCount}</div>
-        <div class="codex-home-metric-label">Series</div>
+        <div class="codex-home-metric-label">Source series</div>
       </div>
       <div class="codex-home-metric">
         <div class="codex-home-metric-value" data-count-to="${total}">${total}</div>
-        <div class="codex-home-metric-label">Topics</div>
+        <div class="codex-home-metric-label">Study topics</div>
       </div>
       <div class="codex-home-metric">
         <div class="codex-home-metric-value" data-count-to="${live}">${live}</div>
@@ -76,7 +77,7 @@ function renderLiveArchiveBadge(live, total, sources) {
     </div>
     <div class="codex-home-progress">
       <div class="codex-home-progress-meta">
-        <span>${live} of ${total} topics ready</span>
+        <span>${live} of ${total} topics published</span>
         <span>${pct}% complete</span>
       </div>
       <div class="archive-progress-bar" role="progressbar" aria-valuenow="${live}" aria-valuemin="0" aria-valuemax="${total}" aria-label="Archive progress">
@@ -226,7 +227,7 @@ function seriesStatus(live, total) {
   return { text: `${live} of ${total} ready`, tone: 'source-card--mixed' };
 }
 
-function renderHomeSeriesCard(source, stats) {
+function renderHomeSeriesCard(source, stats, badge) {
   const id = String(source.id || '');
   const title = source.title || id;
   const live = Number(stats?.live) || 0;
@@ -236,6 +237,7 @@ function renderHomeSeriesCard(source, stats) {
   const stem = `images/${safeId}-codex-card`;
   return `
     <a href="topics.html?source=${safeId}" class="memory-card content-card source-card ${status.tone} home-series-card">
+      ${badge ? `<span class="home-series-badge">${escapeHtml(badge)}</span>` : ''}
       <div class="source-card-media" style="background-color:#0F0A1F">
         <img src="${stem}-960.webp"
              srcset="${stem}-640.webp 640w, ${stem}-960.webp 960w"
@@ -251,6 +253,33 @@ function renderHomeSeriesCard(source, stats) {
         <div class="source-card-action card-action">Open this series <span class="source-card-action-arrow" aria-hidden="true">→</span></div>
       </div>
     </a>`;
+}
+
+const HOME_SERIES_LIMIT = 3;
+
+function seriesTime(value) {
+  const t = Date.parse(value || '');
+  return Number.isFinite(t) ? t : 0;
+}
+
+// Pick up to 3 series: the start_here pin, the newest series, and the in-progress
+// series with the most recent activity. Overlaps fill from the next most active.
+function pickHomeSeries(items) {
+  const picked = [];
+  const take = (item, badge) => {
+    if (!item || picked.length >= HOME_SERIES_LIMIT || picked.some((p) => p.item === item)) return false;
+    picked.push({ item, badge });
+    return true;
+  };
+  const byActivity = [...items].sort((a, b) => seriesTime(b.stats?.updated) - seriesTime(a.stats?.updated));
+  const byNewest = [...items].sort((a, b) => seriesTime(b.stats?.added) - seriesTime(a.stats?.added));
+  const inProgress = byActivity.filter((i) => (Number(i.stats?.live) || 0) < (Number(i.stats?.total) || 0));
+
+  take(items.find((i) => i.source.start_here), 'Start here');
+  take(byNewest[0], 'Newest');
+  inProgress.some((i) => take(i, 'Most active'));
+  byActivity.forEach((i) => take(i, ''));
+  return picked;
 }
 
 function bindHomeSeriesImages(root) {
@@ -288,8 +317,18 @@ async function loadHomeSeries() {
       }
     }));
 
-    grid.innerHTML = sources.map((source, index) => renderHomeSeriesCard(source, statsList[index])).join('');
+    const items = sources.map((source, index) => ({ source, stats: statsList[index] }));
+    const picked = pickHomeSeries(items);
+    grid.innerHTML = picked.map(({ item, badge }) => renderHomeSeriesCard(item.source, item.stats, badge)).join('');
     grid.setAttribute('aria-busy', 'false');
+    grid.setAttribute('tabindex', '0');
+    grid.setAttribute('role', 'region');
+    grid.setAttribute('aria-label', 'Featured series');
+    const allLink = document.getElementById('home-series-all');
+    if (allLink) {
+      allLink.textContent = `View all ${sources.length} series →`;
+      allLink.hidden = false;
+    }
     if (typeof window.realignMeasuredHash === 'function') window.realignMeasuredHash();
     bindHomeSeriesImages(grid);
   } catch (error) {
