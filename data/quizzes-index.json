@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T10:01:24.469Z",
-  "total": 289,
+  "generatedAt": "2026-10-14T10:51:43.790Z",
+  "total": 290,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 93
+      "count": 94
     }
   ],
   "quizzes": [
@@ -3406,6 +3406,19 @@
       "href": "quiz/revelations/portal-guards.html",
       "diveHref": "dive/revelations/portal-guards.html",
       "key": "revelations/portal-guards"
+    },
+    {
+      "id": "positive-loosh",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Positive Loosh",
+      "subtitle": "Test your understanding of Positive Loosh — the high-vibrational current of love, joy, and calmness that powers benevolent higher-density life.",
+      "questionCount": 25,
+      "href": "quiz/revelations/positive-loosh.html",
+      "diveHref": "dive/revelations/positive-loosh.html",
+      "key": "revelations/positive-loosh"
     },
     {
       "id": "proximal-sols",
