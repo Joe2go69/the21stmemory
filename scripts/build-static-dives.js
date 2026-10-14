@@ -805,10 +805,12 @@ ${heroBanner}
         <div class="deep-dive-hero${heroClass}">
 ${heroBanner}
           <div class="deep-dive-hero-content">
+            <div class="deep-dive-hero-copy">
             ${renderHeroMeta({ sourceTitle, readingTime, lastUpdated })}
             <h1 class="page-hero-title--dive">${escapeHtml(title)}</h1>
             <div class="deep-dive-hero-accent" aria-hidden="true"></div>
             ${renderHeroDeck(description)}
+            </div>
             <div class="dive-hero-actions">
               ${renderJumpPills(flags)}
               ${
