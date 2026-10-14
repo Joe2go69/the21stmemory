@@ -236,7 +236,7 @@ function renderHomeSeriesCard(source, stats, badge) {
   const safeId = escapeHtml(id);
   const stem = `images/${safeId}-codex-card`;
   return `
-    <a href="topics.html?source=${safeId}" class="memory-card content-card source-card ${status.tone} home-series-card">
+    <a href="topics.html?source=${safeId}" class="memory-card content-card source-card ${status.tone} home-series-card series-card">
       ${badge ? `<span class="home-series-badge">${escapeHtml(badge)}</span>` : ''}
       <div class="source-card-media" style="background-color:#0F0A1F">
         <img src="${stem}-960.webp"

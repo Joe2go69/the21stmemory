@@ -23593,3 +23593,146 @@ a.quiz-hub-card.has-resume {
 .topics-main-root-heading { color: #ffffff; }
 .topics-main-root-subheading { color: rgba(196, 181, 253, 0.85); }
 .source-hero-back { font-size: 0.9rem; }
+
+/* =============================================
+   Unified series cards (topic series + quiz series)
+   .series-card-row on the container, .series-card on each card.
+   Mobile: tall-image topic look in an equal-height swipe row.
+   Desktop: quiz-hub path card look in an equal-height grid.
+   ============================================= */
+.series-card-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr));
+  align-items: stretch !important;
+  gap: 1.15rem;
+}
+
+.series-card-row > .series-card {
+  height: auto !important;
+  min-width: 0;
+}
+
+.series-card {
+  display: flex !important;
+  flex-direction: column;
+  position: relative;
+}
+
+.series-card .source-card-body {
+  flex: 1 1 auto;
+}
+
+.series-card .card-label {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.7em;
+  margin-bottom: 0.45rem;
+}
+
+.series-card .source-card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  min-height: 2.5em;
+}
+
+.series-card .source-card-deck {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.series-card .source-card-action {
+  margin-top: auto !important;
+}
+
+/* Mobile: swipe row, topic-series look, equal heights */
+@media (max-width: 639px) {
+  .series-card-row {
+    display: flex !important;
+    gap: 0.85rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    padding-bottom: 0.5rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .series-card-row > .series-card {
+    flex: 0 0 85% !important;
+    width: auto;
+    scroll-snap-align: start;
+  }
+  .series-card .source-card-media {
+    height: 12rem;
+  }
+  .series-card .source-card-title {
+    font-size: 1.35rem;
+    line-height: 1.25;
+  }
+}
+
+/* Desktop: quiz-hub path card look */
+@media (min-width: 640px) {
+  .series-card .source-card-media {
+    height: 11rem;
+  }
+  .series-card .source-card-body {
+    padding: 0.15rem 1.35rem 1.4rem;
+  }
+  .series-card .source-card-title {
+    font-family: 'Space Grotesk', Inter, system-ui, sans-serif;
+    font-size: 1.28rem;
+    line-height: 1.2;
+    min-height: 3.6em;
+  }
+  .series-card .source-card-deck {
+    min-height: 2.9em;
+  }
+  .series-card .source-card-meta {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    min-height: 2.05rem;
+    margin-top: 0.9rem;
+    padding: 0.32rem 0.75rem;
+    border-radius: 9999px;
+    background: rgba(8, 5, 18, 0.45);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.1),
+      0 4px 12px -6px rgba(0, 0, 0, 0.45);
+    color: #EDE4FF;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+}
+
+.series-card > .home-series-badge {
+  position: absolute !important;
+  top: 0.75rem;
+  left: 0.75rem;
+  right: auto;
+  width: auto;
+  z-index: 3;
+}
+
+@media (min-width: 640px) {
+  #home-series-grid.series-card-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 639px) {
+  .series-card.quiz-hub-path-card .quiz-hub-path-card__count {
+    min-height: 0;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+    font-weight: 500;
+    color: var(--text-muted, #9B8DB8);
+  }
+}
