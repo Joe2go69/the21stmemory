@@ -411,6 +411,8 @@ function refreshTopicIndex(source, topicId) {
     topic_image: node.topic_image || '',
     is_placeholder: !!node.is_placeholder
   };
+  // Homepage "Recently added" reads this index date via data/latest.json.
+  if (node.added) indexPatch.added = node.added;
   if (node.is_main_root) indexPatch.is_main_root = true;
   if (node.video_language_count) indexPatch.video_language_count = node.video_language_count;
   const ok = patchIndexNode(index.topics, topicId, indexPatch);
@@ -421,6 +423,13 @@ function refreshTopicIndex(source, topicId) {
 
   const stats = countIndexStats(index.topics);
   const statsPath = path.join(ROOT, 'data', `${source}-stats.json`);
+  let previousStats = {};
+  try {
+    previousStats = JSON.parse(fs.readFileSync(statsPath, 'utf8'));
+  } catch (_) {}
+  // Homepage series order reads these. A count refresh must not drop them.
+  if (previousStats.added) stats.added = previousStats.added;
+  if (previousStats.updated) stats.updated = previousStats.updated;
   fs.writeFileSync(statsPath, JSON.stringify(stats, null, 2) + '\n', 'utf8');
 
   const sourcesPath = path.join(ROOT, 'data', 'sources.json');

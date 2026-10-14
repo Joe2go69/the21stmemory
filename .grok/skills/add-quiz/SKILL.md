@@ -29,6 +29,7 @@ The quiz page shuffles question order and A–D labels on Begin. Do not spend ti
    - If a matching `{id}.topic.js` was also written in this turn, run `node scripts/install.js all {source} {id}` instead.
 5. If verify fails, fix the payload and rerun install. Do not rebuild the whole site.
 6. Stop after `Verify passed`. Do not start a server, open the page, walk the UI, or launch `/review`.
+7. Quiz install must not restamp `added`. The homepage "Recently added" date stays the topic publish day already on `data/{source}-topics-index.json` and `data/latest.json`.
 
 When asked to review, commit, and push after this install: do not launch the review skill. Confirm Verify passed, stage only this quiz’s payload, data, dive/quiz HTML, hub, and sitemap files (neighbor dive rebuilds are expected), commit, and push if asked. Do not write long memory notes.
 

@@ -26,6 +26,7 @@ If `{id}` is missing from `data/{source}-topics.json`, stop. Do not invent a par
    - If a matching `{id}.quiz.js` payload is also ready in this turn, run `node scripts/install.js all {source} {id}` instead (one rebuild).
 4. If verify fails, fix the payload and rerun install. Do not rebuild the whole site.
 5. Stop after `Verify passed`. Do not start a server, open the page, walk the UI, or launch `/review`.
+6. Homepage "Recently added" uses `added` (`YYYY-MM-DD`) on `data/{source}-topics-index.json`, via `data/latest.json`. First publish of a placeholder stamps today on the catalog and the installer copies it onto the index. Later edits keep that date. After install, confirm this topic is the first item in `data/latest.json` with that date.
 
 When asked to review, commit, and push after this install: do not launch the review skill. Confirm Verify passed, stage only this topic’s payload, data, images, dive, and sitemap files (neighbor dive rebuilds are expected), commit, and push if asked. Do not write long memory notes.
 
