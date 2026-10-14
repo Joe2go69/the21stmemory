@@ -52,10 +52,60 @@ function rememberLastDive() {
   }
 }
 
+
+function initHeroLightbox() {
+  const buttons = document.querySelectorAll('[data-hero-zoom]');
+  if (!buttons.length || typeof HTMLDialogElement === 'undefined') {
+    buttons.forEach((b) => { b.hidden = true; });
+    return;
+  }
+  let dialog = null;
+  let img = null;
+  let returnFocus = null;
+
+  function build() {
+    dialog = document.createElement('dialog');
+    dialog.className = 'hero-lightbox';
+    dialog.setAttribute('aria-label', 'Full image');
+    dialog.innerHTML = '<button type="button" class="hero-lightbox__close" aria-label="Close">\u00d7</button><img class="hero-lightbox__img" alt="">';
+    document.body.appendChild(dialog);
+    img = dialog.querySelector('img');
+    const closeBtn = dialog.querySelector('.hero-lightbox__close');
+    closeBtn.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+    dialog.addEventListener('keydown', (e) => {
+      if (e.key !== 'Tab') return;
+      // Only one focusable control: keep focus inside the dialog.
+      e.preventDefault();
+      closeBtn.focus();
+    });
+    dialog.addEventListener('close', () => {
+      document.body.classList.remove('hero-lightbox-open');
+      if (returnFocus) returnFocus.focus();
+    });
+  }
+
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const src = btn.closest('figure')?.querySelector('img')?.currentSrc || btn.closest('figure')?.querySelector('img')?.src;
+      if (!src) return;
+      if (!dialog) build();
+      returnFocus = btn;
+      img.src = src;
+      img.alt = (document.querySelector('h1')?.textContent || '').trim();
+      document.body.classList.add('hero-lightbox-open');
+      dialog.showModal();
+      dialog.querySelector('.hero-lightbox__close').focus();
+    });
+  });
+}
+
 function initDiveStatic() {
   if (!document.body?.dataset?.diveStatic) return;
 
   rememberLastDive();
+  initHeroLightbox();
   initJumpPills();
   initInfographicModal();
   initSlideDeckArtifacts();
