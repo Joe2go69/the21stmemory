@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T05:58:03.510Z",
-  "total": 286,
+  "generatedAt": "2026-10-14T07:08:41.803Z",
+  "total": 287,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 90
+      "count": 91
     }
   ],
   "quizzes": [
@@ -3146,6 +3146,19 @@
       "href": "quiz/revelations/living-fabric.html",
       "diveHref": "dive/revelations/living-fabric.html",
       "key": "revelations/living-fabric"
+    },
+    {
+      "id": "loosh",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Loosh",
+      "subtitle": "Test your understanding of Loosh — the Very Low Frequency negative energy harvested from human distress to power custodial technology.",
+      "questionCount": 25,
+      "href": "quiz/revelations/loosh.html",
+      "diveHref": "dive/revelations/loosh.html",
+      "key": "revelations/loosh"
     },
     {
       "id": "manufactured-wants",
