@@ -23834,7 +23834,7 @@ a.quiz-hub-card.has-resume {
   .deep-dive-hero--banner .deep-dive-hero-content { padding-top: 1rem; }
 }
 /* Per-topic focal points (carried over from the old background-position rules) */
-body[data-source="revelations"][data-topic="essence-of-the-transmission"] .deep-dive-hero-banner__img { object-position: center 26%; }
+body[data-source="revelations"][data-topic="essence-of-the-transmission"] .deep-dive-hero-banner__img { object-position: center 4%; }
 body[data-topic="custodians"] .deep-dive-hero-banner__img { object-position: center 28%; }
 body[data-topic="blackout-timeline"] .deep-dive-hero-banner__img { object-position: center 68%; }
 body[data-source="ascension"][data-topic="essence-of-the-transmission"] .deep-dive-hero-banner__img { object-position: center 58%; }
