@@ -16,6 +16,7 @@
       "description": "Restores the foundational truth of physical existence — how consciousness preceded architecture, how this realm was inverted, and the parameters for direct memory activation when the electromagnetic suppression field collapses.",
       "topic_image": "images/revelations/essence-of-the-transmission.webp",
       "is_placeholder": false,
+      "added": "2026-09-13",
       "is_main_root": true,
       "video_language_count": 12
     },
@@ -25,13 +26,15 @@
       "description": "The unique structural, geometric, and energetic blueprint of individualized consciousness — from the twelve Proximal Sols and four thousand original templates through Taran vessels, the fifteen attributes, Arc Pod protocol, and the Homecoming Reunion.",
       "topic_image": "images/revelations/soul-architecture.webp",
       "is_placeholder": false,
+      "added": "2026-09-13",
       "subtopics": [
         {
           "id": "proximal-sols",
           "title": "Proximal Sols",
           "description": "The original twelve beings — six complementary pairs of male and female seeds created directly by Source Creation as the master architects of soul architecture and the four thousand unique soul lineages.",
           "topic_image": "images/revelations/proximal-sols.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-13"
         },
         {
           "id": "taran-vessels",
@@ -39,20 +42,23 @@
           "description": "The original 9th-density Aktun hominid — fifteen to eighteen feet, fifteen firmware attributes, and the pineal interface — later downsized into the constrained 3rd-density new-human vessel.",
           "topic_image": "images/revelations/taran-vessels.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "intelligence-first",
               "title": "Intelligence First",
               "description": "Individual consciousness, volition, and thought existed billions of years before physical matter or brains; Taran Vessels were engineered later so that intelligence could inhabit form.",
               "topic_image": "images/revelations/intelligence-first.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "fifteen-attributes",
               "title": "Fifteen Attributes",
               "description": "The Fifteen Attributes are the unerasable cognitive, emotional, and spiritual faculties embedded as soul firmware at birth, which farm management inverts to keep the simulation under control.",
               "topic_image": "images/revelations/fifteen-attributes.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             }
           ]
         },
@@ -62,27 +68,31 @@
           "description": "The Arc Pod Protocol houses the complete Oversoul matrix in atmospheric containment pods while a fractional projection enters the 3rd-density avatar without triggering parasitic amnesia traps.",
           "topic_image": "images/revelations/arc-pod-protocol.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "clueless-protocol",
               "title": "Clueless Protocol",
               "description": "The mandatory operational failsafe after the fall of Atlantis and Lemuria that wipes incarnate mission memory so 4,000 ancient souls operate as blind 3rd-density avatars while the oversoul steers from an atmospheric Arc Pod.",
               "topic_image": "images/revelations/clueless-protocol.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "mission-insertion",
               "title": "Mission Insertion",
               "description": "Pre-colonization incarnational deployment of the 4,000 ancient souls onto the physical plane to establish a legally compliant, internal rescue mechanism.",
               "topic_image": "images/revelations/mission-insertion.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "anunnaki-and-draco",
               "title": "Anunnaki and Draco",
               "description": "The Anunnaki and Draco represent the primary parasitic non-human entities and negative extraterrestrial factions responsible for invading and colonizing this realm approximately 150,000 Earth years ago.",
               "topic_image": "images/revelations/anunnaki-and-draco.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-07"
             }
           ]
         },
@@ -92,20 +102,23 @@
           "description": "The universal event after EMF dissipation where true souls recognize their eternal soul family, dissolve 3rd-density avatars through plasma portals, and snap back into original ET stasis vessels.",
           "topic_image": "images/revelations/homecoming-reunion.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "going-home",
               "title": "Going Home",
               "description": "Going Home is the definitive extraction process and energetic ascension sequence through which an incarnated soul exits the 3rd-density matrix simulation and returns to its true galactic origin.",
               "topic_image": "images/revelations/going-home.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-07"
             },
             {
               "id": "time-traveller-faces",
               "title": "Time Traveller Faces",
               "description": "The phenomenon of Time Traveller Faces refers to the striking visual alignment between modern public figures or celebrities and historical individuals recorded in archival photographs or artwork.",
               "topic_image": "images/revelations/time-traveller-faces.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-07"
             }
           ]
         }
@@ -117,6 +130,7 @@
       "description": "The artificial holographic matrix that renders 3rd-density geography in real time, packs public space with NPCs and digital inserts, and suppresses pineal hardware to contain true spiritual consciousness.",
       "topic_image": "images/revelations/simulation-field.webp",
       "is_placeholder": false,
+      "added": "2026-09-13",
       "subtopics": [
         {
           "id": "overlay-geography",
@@ -124,20 +138,23 @@
           "description": "The real-time quantum rendering that tiles physical scenery around the observer, inflates distance with time-phased corridors, and mirrors the same planetary grid nodes into the illusion of a vast globe.",
           "topic_image": "images/revelations/overlay-geography.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "chemtrail-portals",
               "title": "Chemtrail Portals",
               "description": "Specialized, localized dimensional transfer points used in high-altitude flight so portal pilots can shift across the realm while commercial crews receive a weather story.",
               "topic_image": "images/revelations/chemtrail-portals.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-07"
             },
             {
               "id": "portal-guards",
               "title": "Portal Guards",
               "description": "Specialized bio-engineered security entities that patrol land and sea gates so unpermitted humans cannot cross dimensional portals.",
               "topic_image": "images/revelations/portal-guards.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-07"
             }
           ]
         },
@@ -147,20 +164,23 @@
           "description": "Non-biological holographic constructs projected as crowd stock-fillers, comprising 30% to 40% of the perceived planetary population.",
           "topic_image": "images/revelations/digital-inserts.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "npc-ratio",
               "title": "NPC Ratio",
               "description": "The structural demographic baseline where 97% of the population consists of non-player characters and only 3% possess an authentic soul architecture.",
               "topic_image": "images/revelations/npc-ratio.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "holographic-sleeves",
               "title": "Holographic Sleeves",
               "description": "Non-biological senescent holograms deployed as simulation furniture and visual stock-fillers, comprising 30% to 40% of the global population.",
               "topic_image": "images/revelations/holographic-sleeves.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             }
           ]
         },
@@ -169,7 +189,8 @@
           "title": "Inner Illusion",
           "description": "An inward-projected psychological overlay reflected into a subrutean that compels living souls to accept engineered consensus and doubt their own perceptions.",
           "topic_image": "images/revelations/inner-illusion.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-13"
         },
         {
           "id": "quantum-interface",
@@ -177,20 +198,23 @@
           "description": "The Quantum Interface is the foundational biological and spiritual mechanism where the macrocosm of classical physical laws meets the microcosm of subatomic quantum probabilities.",
           "topic_image": "images/revelations/quantum-interface.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "pineal-crossover",
               "title": "Pineal Crossover",
               "description": "The Pineal Crossover represents the exact physical and energetic nexus where quantum physics transitions into classical physics, bridging the probabilistic spectrum of linear superposition with observable, dense physical reality.",
               "topic_image": "images/revelations/pineal-crossover.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "five-brainwaves",
               "title": "Five Brainwaves",
               "description": "Five Brainwaves represent the primary spectrum of neural oscillations—rhythmic, synchronized electrical activity generated by masses of communicating neurons within the central nervous system of the human vessel.",
               "topic_image": "images/revelations/five-brainwaves.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             }
           ]
         }
@@ -202,13 +226,15 @@
       "description": "The Sovereign Accord is the fundamental energetic law and legal boundary governing the physical simulation field.",
       "topic_image": "images/revelations/sovereign-accord.webp",
       "is_placeholder": false,
+      "added": "2026-09-13",
       "subtopics": [
         {
           "id": "field-law",
           "title": "Field Law",
           "description": "Field Law operates as the energetic and operational seal governing this realm, establishing that spiritual and physical fields cannot be overridden from external origins once internal coherence is sustained.",
           "topic_image": "images/revelations/field-law.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-13"
         },
         {
           "id": "manufactured-wants",
@@ -216,20 +242,23 @@
           "description": "Manufactured Wants is the psychological control system that installs artificial desires so high-intelligence souls voluntarily consent to containment inside the Human Farm.",
           "topic_image": "images/revelations/manufactured-wants.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "choice-architecture",
               "title": "Choice Architecture",
               "description": "Choice Architecture presents illusionary freedom while strictly dictating human decision-making through an intricate maze of options within options.",
               "topic_image": "images/revelations/choice-architecture.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "fifteen-minute-cities",
               "title": "Fifteen-Minute Cities",
               "description": "Fifteen-Minute Cities are urban containment zones deployed under the cover of public safety, urban efficiency, and walkable convenience.",
               "topic_image": "images/revelations/fifteen-minute-cities.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "salvation-lure",
@@ -237,41 +266,47 @@
               "description": "The Salvation Lure is a free-will signature trap that promises gold, debt cancellation, and MedBeds so people sign away sovereign consent.",
               "topic_image": "images/revelations/salvation-lure.webp",
               "is_placeholder": false,
+              "added": "2026-10-07",
               "subtopics": [
                 {
                   "id": "qfs",
                   "title": "QFS",
                   "description": "The Quantum Financial System is a counterfeit banking rail engineered as a Deep-State deception to capture Free Will through a fake gold-backed wealth payout.",
                   "topic_image": "images/revelations/qfs.webp",
-                  "is_placeholder": false
+                  "is_placeholder": false,
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "nesara-gesara",
                   "title": "NESARA / GESARA",
                   "description": "NESARA / GESARA is an engineered Salvation Lure that pitches total debt forgiveness to keep people passive and capture individual free will.",
                   "topic_image": "images/revelations/nesara-gesara.webp",
-                  "is_placeholder": false
+                  "is_placeholder": false,
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "medbeds",
                   "title": "MedBeds",
                   "description": "MedBeds are an engineered internet lure that promises bodily restoration and age regression in order to capture Free Will and stall spiritual ascension.",
                   "topic_image": "images/revelations/medbeds.webp",
-                  "is_placeholder": false
+                  "is_placeholder": false,
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "trump-1989",
                   "title": "Trump 1989",
                   "description": "Trump 1989 identifies the foundational historical substitution event wherein the original public persona was replaced in 1989, establishing a manufactured focal entity to direct a controlled political rescue movement.",
                   "topic_image": "images/revelations/trump-1989.webp",
-                  "is_placeholder": false
+                  "is_placeholder": false,
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "white-hats",
                   "title": "White Hats",
                   "description": "An operational construct under the Salvation Lure that frames White Hats versus Black Hats as a manufactured story shape and stalls the public in passive anticipation of external rescue.",
                   "topic_image": "images/revelations/white-hats.webp",
-                  "is_placeholder": false
+                  "is_placeholder": false,
+                  "added": "2026-10-07"
                 }
               ]
             }
@@ -283,34 +318,39 @@
           "description": "MK-Ultra Craft is a comprehensive psychological, frequency-based, and behavioral modification technology deployed to steer human consciousness, alter brain chemistry, and manipulate societal consensus.",
           "topic_image": "images/revelations/mk-ultra-craft.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "emotional-scoring",
               "title": "Emotional Scoring",
               "description": "Emotional scoring is the systematic deployment of engineered auditory frequencies, musical arrangements, and visual scene sequences designed to directly manipulate human cognitive function, alter brain chemistry, and hone targeted emotional responses.",
               "topic_image": "images/revelations/emotional-scoring.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "gat-programs",
               "title": "GAT Programs",
               "description": "GAT Programs (Gifted and Talented Programs) represent a specialized educational screening apparatus established to systematically identify, track, and recruit children displaying exceptional intelligence, mathematical and scientific aptitude, and advanced problem-solving capabilities from early childhood.",
               "topic_image": "images/revelations/gat-programs.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "empathy-trap",
               "title": "Empathy Trap",
               "description": "The systematic weaponization of organic human empathy that redirects compassion toward fraudulent causes, harvests loosh, and siphons money into parasitic structures.",
               "topic_image": "images/revelations/empathy-trap.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-07"
             },
             {
               "id": "ghost-stories",
               "title": "Ghost Stories",
               "description": "Ghost Stories represent a weaponised narrative and technological deception deployed to hijack human perception, validate the illusion of death, and systematically extract emotional energetic yield.",
               "topic_image": "images/revelations/ghost-stories.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-10"
             }
           ]
         },
@@ -320,20 +360,23 @@
           "description": "Subtle Help is the legal framework of non-overt, indirect assistance provided by benevolent soul family and positive extraterrestrial intelligence to incarnated consciousness within a closed simulation field.",
           "topic_image": "images/revelations/subtle-help.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "ayahuasca-vine",
               "title": "Ayahuasca Vine",
               "description": "Ayahuasca Vine (scientifically classified as Banisteriopsis caapi), revered across indigenous Amazonian traditions as the Vine of the Soul, is a massive climbing vine that serves as the spiritual foundation and primary chemical catalyst for the sacred psychoactive brew.",
               "topic_image": "images/revelations/ayahuasca-vine.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "pineal-dmt",
               "title": "Pineal DMT",
               "description": "Pineal DMT is the endogenous chemical compound N,N-Dimethyltryptamine synthesized within the human pineal gland, serving as the primary spiritual hardware and master key that links physical consciousness directly to the multidimensional aether.",
               "topic_image": "images/revelations/pineal-dmt.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             }
           ]
         }
@@ -345,6 +388,7 @@
       "description": "The systematic administrative apparatus deployed by parasitic realm managers to govern the human farm through inverted societal institutions, manufactured noise, and continuous resource extraction.",
       "topic_image": "images/revelations/custodian-control.webp",
       "is_placeholder": false,
+      "added": "2026-09-13",
       "subtopics": [
         {
           "id": "legal-capture",
@@ -352,20 +396,23 @@
           "description": "Legal Capture is the systematic conversion of a living human soul into a financialized corporate asset at the moment of physical birth.",
           "topic_image": "images/revelations/legal-capture.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "birth-bond",
               "title": "Birth Bond",
               "description": "The Birth Bond—officially recognized as the Cestui Que Vie 1666 Birth Certificate Bond and colloquially termed Cester KV—is the foundational financial instrument through which the legal system monetizes human existence.",
               "topic_image": "images/revelations/birth-bond.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "usury-trap",
               "title": "Usury Trap",
               "description": "The Usury Trap is a fraudulent economic mechanism and confidence trick designed to extract real capital, personal labor, and negative emotional energy from living beings.",
               "topic_image": "images/revelations/usury-trap.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             }
           ]
         },
@@ -375,13 +422,15 @@
           "description": "Occult Orders represent the operational backbone of elite subversion, functioning as an interconnected network of secret societies, ritual clubs, and institutional gatekeepers designed to manage population dynamics and enforce systemic deception.",
           "topic_image": "images/revelations/occult-orders.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "freemasonic-orders",
               "title": "Freemasonic Orders",
               "description": "The Freemasonic Orders constitute the primary operational infrastructure of global parasitic control, functioning as an esoteric secret society network that infiltrates governance, finance, media, and academia.",
               "topic_image": "images/revelations/freemasonic-orders.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "owl-current",
@@ -389,13 +438,15 @@
               "description": "The Owl Current is the operational stream of occult entrainment, psychological trapping, and energetic harvest utilized by elite structures to bind influential public figures and cultural icons into total systemic compliance.",
               "topic_image": "images/revelations/owl-current.webp",
               "is_placeholder": false,
+              "added": "2026-09-13",
               "subtopics": [
                 {
                   "id": "vril-club",
                   "title": "Vril Club",
                   "description": "The Vril Club represents the definitive sold-soul initiation rite operating within elite hidden networks, defining the biological and energetic surrender of human vessels to off-world governance.",
                   "topic_image": "images/revelations/vril-club.webp",
-                  "is_placeholder": false
+                  "is_placeholder": false,
+                  "added": "2026-10-10"
                 }
               ]
             }
@@ -407,20 +458,23 @@
           "description": "Counterfeit Systems are synthetic, inverted institutional frameworks engineered to systematically replace organic human spiritual abilities, natural energetic currents, authentic historical memory, and direct cosmic connection.",
           "topic_image": "images/revelations/counterfeit-systems.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "re-legion",
               "title": "Re-Legion",
               "description": "Re-Legion is an inverted, artificial construct instantiated by the Custodians to operate as counterfeit spirituality across the planetary plane.",
               "topic_image": "images/revelations/re-legion.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "world-wide-web",
               "title": "World Wide Web",
               "description": "The World Wide Web is the central digital infrastructure of the modern artificial reality, functioning as the largest and most powerful parasitic lure ever deployed on the planet.",
               "topic_image": "images/revelations/world-wide-web.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "academic-distortion",
@@ -428,20 +482,23 @@
               "description": "Academic Distortion is the systematic institutionalization of false timelines, fabricated historical records, and inverted knowledge frameworks designed to sever human consciousness from reality.",
               "topic_image": "images/revelations/academic-distortion.webp",
               "is_placeholder": false,
+              "added": "2026-09-13",
               "subtopics": [
                 {
                   "id": "rockefeller-schools",
                   "title": "Rockefeller Schools",
                   "description": "The bloodline-owned education system that installs a fake timeline, empties schoolbooks of genuine truth, and cages consciousness in perceived knowledge.",
                   "topic_image": "images/revelations/rockefeller-schools.webp",
-                  "is_placeholder": false
+                  "is_placeholder": false,
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "mars-ticket",
                   "title": "Mars Ticket",
                   "description": "The corrupt clearance through which premier scientists trade ethics for unredacted physics and then build the weapons of realm control.",
                   "topic_image": "images/revelations/mars-ticket.webp",
-                  "is_placeholder": false
+                  "is_placeholder": false,
+                  "added": "2026-10-07"
                 }
               ]
             }
@@ -453,13 +510,15 @@
           "description": "Medical Harvest is the systematic exploitation, physical degradation, and ultimate technological conversion of biological vessels within the inverted simulation realm.",
           "topic_image": "images/revelations/medical-harvest.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "iatrogenic-death",
               "title": "Iatrogenic Death",
               "description": "Iatrogenic Death defines the phenomenon wherein medical personnel, general practitioners, and the broader institutional treatment infrastructure accidentally or purposely terminate human life.",
               "topic_image": "images/revelations/iatrogenic-death.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "human-2-0",
@@ -467,13 +526,15 @@
               "description": "Human 2.0 is the ultimate structural end-state of the parasitic transhumanist agenda designed to transform true soul-bearing human beings into a cybernetic, fully subjugated workforce.",
               "topic_image": "images/revelations/human-2-0.webp",
               "is_placeholder": false,
+              "added": "2026-09-13",
               "subtopics": [
                 {
                   "id": "hate-chip",
                   "title": "Hate Chip",
                   "description": "The Hate Chip describes both the structural absence of organic malice within a true soul and the cybernetic implant infrastructure designed by custodial controllers to enforce total physical and cognitive subjugation.",
                   "topic_image": "images/revelations/hate-chip.webp",
-                  "is_placeholder": false
+                  "is_placeholder": false,
+                  "added": "2026-10-10"
                 }
               ]
             },
@@ -482,14 +543,16 @@
               "title": "Covid Vaccine",
               "description": "The Covid Vaccine is an unauthorized, officially unapproved bioweapon deployed under the deceptive guise of public health protection and pandemic mitigation.",
               "topic_image": "images/revelations/covid-vaccine.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-07"
             },
             {
               "id": "watch-the-water",
               "title": "Watch the Water",
               "description": "Watch the Water defines the targeted chemical attack on the supply, an orchestrated deployment of liquid-borne toxins designed to compromise the organic vessel's spiritual hardware.",
               "topic_image": "images/revelations/watch-the-water.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-07"
             }
           ]
         },
@@ -498,7 +561,8 @@
           "title": "Bone Vaults",
           "description": "Bone Vaults are subterranean, cavernous chambers constructed from the stacked skeletal remains of harvested human populations following major planetary resets.",
           "topic_image": "images/revelations/bone-vaults.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-13"
         }
       ]
     },
@@ -508,6 +572,7 @@
       "description": "The Reset Harvest is the systematic, periodic culling, wiping, and repopulation of the human species inside this realm by parasitic control entities.",
       "topic_image": "images/revelations/reset-harvest.webp",
       "is_placeholder": false,
+      "added": "2026-09-13",
       "subtopics": [
         {
           "id": "reset-sequence",
@@ -515,34 +580,39 @@
           "description": "The Reset Sequence is the structured, multi-phase operational protocol deployed following a population wipe to restore order, restock the realm with cloned human stock, and systematically institute psychological compliance across generations.",
           "topic_image": "images/revelations/reset-sequence.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "stone-age-restart",
               "title": "Stone Age Restart",
               "description": "The Stone Age Restart is the foundational control mechanism that returns human civilization to zero tools after a planetary or localized reset.",
               "topic_image": "images/revelations/stone-age-restart.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "story-stages",
               "title": "Story Stages",
               "description": "Story Stages is the multi-generational installation of manufactured historical narratives that builds an artificial reality for post-reset cloned populations.",
               "topic_image": "images/revelations/story-stages.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "mudfloods",
               "title": "Mudfloods",
               "description": "Mudfloods—also recognized under the designations mudflood, Tartaria, and the 1728 protocol—represent an engineered planetary cataclysm deployed to submerge and obliterate the physical remnants of advanced human civilization.",
               "topic_image": "images/revelations/mudfloods.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-10"
             },
             {
               "id": "world-fairs",
               "title": "World Fairs",
               "description": "The World Fairs were grand public exhibitions designed to display the operational machinery, Tartarian tech, and harmonic architecture inherited from the previous overlay.",
               "topic_image": "images/revelations/world-fairs.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-10"
             }
           ]
         },
@@ -552,27 +622,31 @@
           "description": "The systematic, quantified biological extraction, physical slaughter, and negative energetic yield forced upon humanity through manufactured global and localized mini-resets.",
           "topic_image": "images/revelations/harvest-toll.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "loosh",
               "title": "Loosh",
               "description": "Loosh (also termed fear harvest or energetic yield alongside adrenochrome) is the Very Low Frequency (VLF) negative energy radiating directly off the human vessel.",
               "topic_image": "images/revelations/architecture-of-the-fear-harvest.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-07"
             },
             {
               "id": "organ-harvest",
               "title": "Organ Harvest",
               "description": "Organ Harvest is the systematic extraction and collection of human biological organs from physical vessels during engineered mass-mortality events.",
               "topic_image": "images/revelations/organ-harvest.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-07"
             },
             {
               "id": "positive-loosh",
               "title": "Positive Loosh",
               "description": "Positive Loosh—also designated as the positive current or positive energy—is the high-vibrational, uncorrupted energetic force generated through states of love, empathy, joy, happiness, pleasure, calmness, tranquility, sympathy, and kindness.",
               "topic_image": "images/revelations/positive-loosh.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-10-10"
             }
           ]
         },
@@ -582,20 +656,23 @@
           "description": "Clone Genetics defines the synthetic biological architecture and batch-reproduction framework utilized to restock human surface populations following major civilisational wipes.",
           "topic_image": "images/revelations/clone-genetics.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "dumb-repopulation",
               "title": "DUMB Repopulation",
               "description": "DUMB repopulation is the subterranean cultivation and surface deployment of manufactured human clones to restock the physical plane following a surface reset.",
               "topic_image": "images/revelations/dumb-repopulation.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "weaponized-species",
               "title": "Weaponized Species",
               "description": "Weaponized species are synthetic biological entities, lab-engineered organisms, and targeted genetic offshoots manufactured to enforce containment, eradication, mockery, and social control.",
               "topic_image": "images/revelations/weaponized-species.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             }
           ]
         },
@@ -605,6 +682,7 @@
           "description": "The Roswell Checkmate represents a decisive interdiction executed in 1947, wherein two hostile Grey H1 Orion craft were brought down over New Mexico by the Anakim Giants under authorization from the Galactic Ancestral Alliance (G.A.A.).",
           "topic_image": "images/revelations/roswell-checkmate.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "anukim-strike",
@@ -612,20 +690,23 @@
               "description": "The Anakim Strike was a covert, tactical physical intervention executed by the Anakim Giants in July 1947 near Roswell, New Mexico, acting under explicit clearance from the Galactic Ancestral Alliance (G.A.A.).",
               "topic_image": "images/revelations/anakim-strike.webp",
               "is_placeholder": false,
+              "added": "2026-09-13",
               "subtopics": [
                 {
                   "id": "inner-earth",
                   "title": "Inner Earth",
                   "description": "The Inner Earth consists of subterranean inner-earth simulations maintained within the physical realm, functioning as specialized environmental pockets shielded from surface atmospheric purges and periodic reset cycles.",
                   "topic_image": "images/revelations/inner-earth.webp",
-                  "is_placeholder": false
+                  "is_placeholder": false,
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "petrified-giants",
                   "title": "Petrified Giants",
                   "description": "Petrified Giants",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true
+                  "is_placeholder": true,
+                  "added": "2026-10-07"
                 }
               ]
             },
@@ -635,13 +716,15 @@
               "description": "The Transistor Leak represents the forced, premature release of off-world solid-state semiconductor technology into public time during the mid-20th century.",
               "topic_image": "images/revelations/transistor-leak.webp",
               "is_placeholder": false,
+              "added": "2026-09-13",
               "subtopics": [
                 {
                   "id": "technology-swaps",
                   "title": "Technology Swaps",
                   "description": "Technology Swaps",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true
+                  "is_placeholder": true,
+                  "added": "2026-10-10"
                 }
               ]
             },
@@ -651,27 +734,31 @@
               "description": "The Invasion Script is a multi-generational psychological operation that stages a fake alien invasion at the end of an EBS lockdown to induce panic and coerce surrender of human sovereignty.",
               "topic_image": "images/revelations/invasion-script.webp",
               "is_placeholder": false,
+              "added": "2026-09-13",
               "subtopics": [
                 {
                   "id": "ssp-psyops",
                   "title": "SSP Psyops",
                   "description": "SSP Psyops",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true
+                  "is_placeholder": true,
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "fema-camps",
                   "title": "FEMA Camps",
                   "description": "FEMA Camps",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true
+                  "is_placeholder": true,
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "sky-net-1",
                   "title": "Sky-Net 1",
                   "description": "Sky-Net 1",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true
+                  "is_placeholder": true,
+                  "added": "2026-10-10"
                 }
               ]
             }
@@ -683,13 +770,15 @@
           "description": "Great Reset",
           "topic_image": "images/revelations/placeholder.webp",
           "is_placeholder": true,
+          "added": "2026-10-07",
           "subtopics": [
             {
               "id": "8th-reset",
               "title": "8th Reset",
               "description": "8th Reset",
               "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-10"
             }
           ]
         }
@@ -701,6 +790,7 @@
       "description": "Tartarian Memory is the suppressed record of the physical plane's last high global civilization, which ran on aetheric energy and harmonic architecture before artificial resets erased it.",
       "topic_image": "images/revelations/tartarian-memory.webp",
       "is_placeholder": false,
+      "added": "2026-09-13",
       "subtopics": [
         {
           "id": "square-mile",
@@ -708,27 +798,31 @@
           "description": "The Square Mile is London's 1.12-square-mile Tartarian aetheric power grid, retrofitted after 1666 from a harmonic circuitboard into a financial control center.",
           "topic_image": "images/revelations/square-mile.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "population-math",
               "title": "Population Math",
               "description": "Population Math is the precise analytical framework that applies fundamental spatial, structural, and demographic calculations to official urban histories, exposing them as physical impossibilities.",
               "topic_image": "images/revelations/population-math.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "banks-as-current",
               "title": "Banks as Current",
               "description": "Banks as Current defines the original energetic function of Tartarian architectural nodes and their later inversion into financial institutions that store currency instead of aetheric current.",
               "topic_image": "images/revelations/banks-as-current.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "free-energy",
               "title": "Free Energy",
               "description": "Free Energy",
               "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-07"
             }
           ]
         },
@@ -738,34 +832,39 @@
           "description": "Harmonic Architecture is an advanced, non-mechanical system of construction that utilizes solfeggio scales, aetheric energy harvesting, and Fibonacci-style technological knowledge to manifest physical structures upon primary planetary nodes.",
           "topic_image": "images/revelations/harmonic-architecture.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "living-fabric",
               "title": "Living Fabric",
               "description": "Living Fabric is the self-sustaining climate, hot-water, and food-preservation system built into ancient stone structures through their blueprint, numerical dimensions, and field orientation.",
               "topic_image": "images/revelations/living-fabric.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "sound-masonry",
               "title": "Sound Masonry",
               "description": "Sound Masonry is the frequency-driven method that cuts, dresses, and positions piezoelectric quartz granite without force, then runs the finished building as a self-sustaining Air-to-Earth circuit.",
               "topic_image": "images/revelations/sound-masonry.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-13"
             },
             {
               "id": "432-hertz",
               "title": "432 Hertz",
               "description": "432 Hertz",
               "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-07"
             },
             {
               "id": "becker-hagens-grid",
               "title": "Becker Hagens Grid",
               "description": "Becker Hagens Grid",
               "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-10"
             }
           ]
         },
@@ -774,21 +873,24 @@
           "title": "Moorish Metropolis",
           "description": "The high-technology, anti-gravity-equipped urban civilization of African Tartarians across Africa and Al-Andalus, erased about 150 years ago and recast as a medieval domain.",
           "topic_image": "images/revelations/moorish-metropolis.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-13"
         },
         {
           "id": "lemurian-tongue",
           "title": "Lemurian Tongue",
           "description": "The Lemurian Tongue is the original, singular universal language spoken across the entire physical plane prior to custodial post-reset intervention.",
           "topic_image": "images/revelations/lemurian-tongue.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-13"
         },
         {
           "id": "tpc-mirrors",
           "title": "TPC Mirrors",
           "description": "TPC Mirrors, or Time-Phase Conjugated Mirrors, were high-fidelity spiritual technology used in the Tartarian era for instantaneous long-distance aetheric communication.",
           "topic_image": "images/revelations/tpc-mirrors.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-13"
         }
       ]
     },
@@ -798,6 +900,7 @@
       "description": "The Organic Circuitboard is the grown living motherboard of this plane, routing atmospheric aether through minerals, roots, caves, and water in a closed air-to-earth circuit.",
       "topic_image": "images/revelations/organic-circuitboard.webp",
       "is_placeholder": false,
+      "added": "2026-09-13",
       "subtopics": [
         {
           "id": "axis-mundi",
@@ -805,20 +908,23 @@
           "description": "The Axis Mundi is the original central vertical channel at the North Pole, the Spirit Tree that anchors the Organic Circuitboard and links this plane to the divine realms.",
           "topic_image": "images/revelations/axis-mundi.webp",
           "is_placeholder": false,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "spirit-tree",
               "title": "Spirit Tree",
               "description": "The Spirit Tree as the organic axis of this realm's circuitboard.",
               "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-09-13"
             },
             {
               "id": "cain-periphery",
               "title": "Cain Periphery",
               "description": "Cain and Abel as a periphery story of the original garden, not a desert morality tale.",
               "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-09-13"
             }
           ]
         },
@@ -827,7 +933,8 @@
           "title": "Mineral Components",
           "description": "The mineral layer of the organic circuitboard — crystals, metals, and ground current.",
           "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-09-13"
         },
         {
           "id": "living-garden",
@@ -835,20 +942,23 @@
           "description": "Miracle soil and impossible trees as leftover original-garden technology.",
           "topic_image": "images/revelations/placeholder.webp",
           "is_placeholder": true,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "miracle-soil",
               "title": "Miracle Soil",
               "description": "Amazonian soil and other miracle grounds that should not exist under the overlay story.",
               "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-09-13"
             },
             {
               "id": "impossible-trees",
               "title": "Impossible Trees",
               "description": "Brazil nut, peach palm, and other trees that do not fit the accepted botanical narrative.",
               "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-09-13"
             }
           ]
         },
@@ -858,6 +968,7 @@
           "description": "The Cube, the density stack, and the terrarium seal of this enclosed plane.",
           "topic_image": "images/revelations/placeholder.webp",
           "is_placeholder": true,
+          "added": "2026-09-13",
           "subtopics": [
             {
               "id": "the-cube",
@@ -865,13 +976,15 @@
               "description": "The Cube as a structural principle of the enclosed plane, not a distant space object.",
               "topic_image": "images/revelations/placeholder.webp",
               "is_placeholder": true,
+              "added": "2026-09-13",
               "subtopics": [
                 {
                   "id": "external-domes",
                   "title": "External Domes",
                   "description": "External Domes",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true
+                  "is_placeholder": true,
+                  "added": "2026-10-10"
                 }
               ]
             },
@@ -880,7 +993,8 @@
               "title": "Density Stack",
               "description": "The stacked densities of this plane — from the 3rd overlay up through the original Taran world.",
               "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-09-13"
             },
             {
               "id": "terrarium-seal",
@@ -888,6 +1002,7 @@
               "description": "The sealed terrarium of this realm — firmament, ice, and the law that holds the farm in.",
               "topic_image": "images/revelations/placeholder.webp",
               "is_placeholder": true,
+              "added": "2026-09-13",
               "subtopics": [
                 {
                   "id": "ice-wall",
@@ -895,13 +1010,15 @@
                   "description": "Ice Wall",
                   "topic_image": "images/revelations/placeholder.webp",
                   "is_placeholder": true,
+                  "added": "2026-10-07",
                   "subtopics": [
                     {
                       "id": "oil-as-grease",
                       "title": "Oil as Grease",
                       "description": "Oil as Grease",
                       "topic_image": "images/revelations/placeholder.webp",
-                      "is_placeholder": true
+                      "is_placeholder": true,
+                      "added": "2026-10-10"
                     }
                   ]
                 },
@@ -910,7 +1027,8 @@
                   "title": "Projection Dome",
                   "description": "Projection Dome",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true
+                  "is_placeholder": true,
+                  "added": "2026-10-07"
                 }
               ]
             }

@@ -339,6 +339,71 @@ async function loadHomeSeries() {
   }
 }
 
+function formatAdded(iso) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+  if (!m) return '';
+  const d = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+}
+
+function seriesShortName(title) {
+  const t = String(title || '');
+  if (/alice/i.test(t)) return 'Alice';
+  if (/breakdown/i.test(t)) return 'Mega Breakdown';
+  if (/ascension/i.test(t)) return 'Ascension';
+  if (/revelations/i.test(t)) return 'Revelations';
+  return t;
+}
+
+function renderShelfCard(c, { showDate }) {
+  const date = showDate ? formatAdded(c.added) : '';
+  const img = c.topic_image
+    ? `<img src="${escapeHtml(c.topic_image)}" alt="" class="home-shelf-card__img" width="640" height="360" loading="lazy" decoding="async">`
+    : '';
+  return `
+    <a href="${escapeHtml(c.path)}" class="memory-card content-card home-shelf-card">
+      <div class="home-shelf-card__media" style="background-color:#0F0A1F">${img}</div>
+      <div class="home-shelf-card__body">
+        <p class="home-shelf-card__meta"><span class="home-shelf-card__series">${escapeHtml(seriesShortName(c.series))}</span>${date ? `<span aria-hidden="true"> · </span><time datetime="${escapeHtml(c.added)}">${escapeHtml(date)}</time>` : ''}</p>
+        <h3 class="home-shelf-card__title">${escapeHtml(c.title)}</h3>
+        ${showDate ? '' : `<p class="home-shelf-card__desc">${escapeHtml(c.description)}</p>`}
+      </div>
+    </a>`;
+}
+
+async function loadHomeShelves() {
+  const recentGrid = document.getElementById('home-recent-grid');
+  const startGrid = document.getElementById('home-start-grid');
+  if (!recentGrid && !startGrid) return;
+  const fill = (grid, cards, opts, label) => {
+    if (!grid) return;
+    grid.setAttribute('aria-busy', 'false');
+    if (!cards.length) {
+      grid.closest('.home-shelf')?.setAttribute('hidden', '');
+      return;
+    }
+    grid.innerHTML = cards.map((c) => renderShelfCard(c, opts)).join('');
+    grid.setAttribute('role', 'region');
+    grid.setAttribute('tabindex', '0');
+    grid.setAttribute('aria-label', label);
+    grid.querySelectorAll('.home-shelf-card__img').forEach((img) => {
+      img.addEventListener('error', () => img.remove(), { once: true });
+    });
+  };
+  try {
+    const res = await fetch('data/latest.json', { credentials: 'same-origin', cache: 'no-cache' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    fill(recentGrid, (data.recent || []).slice(0, 3), { showDate: true }, 'Recently added topics');
+    fill(startGrid, (data.featured || []).slice(0, 3), { showDate: false }, 'Start here topics');
+  } catch (error) {
+    console.warn('Homepage shelves unavailable:', error);
+    fill(recentGrid, [], {}, '');
+    fill(startGrid, [], {}, '');
+  }
+  if (typeof window.realignMeasuredHash === 'function') window.realignMeasuredHash();
+}
+
 function readUnfinishedQuiz() {
   try {
     const map = JSON.parse(localStorage.getItem('21st-memory-quiz-resume-v1') || '{}');
@@ -385,7 +450,7 @@ function paintHomeResume() {
 
 document.addEventListener('DOMContentLoaded', async () => {
   paintHomeResume();
-  await Promise.all([loadHomeArchiveStats(), loadHomeSeries()]);
+  await Promise.all([loadHomeArchiveStats(), loadHomeShelves(), loadHomeSeries()]);
 
   const codexRoot = document.getElementById('codex');
   if (typeof hydrateSiteIcons === 'function' && codexRoot) {

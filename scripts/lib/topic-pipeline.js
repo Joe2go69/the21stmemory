@@ -279,6 +279,17 @@ async function applyTopic(payload) {
     .map((e) => `${e.id}|${e.key}|${e.path}`)
     .sort();
 
+  // `added` = publish day. Keep it if the topic was already live (edits never
+  // move it); stamp today when a placeholder/stub is published for the first time.
+  const existingNode = findNode(tree.topics, topicId);
+  const wasLive =
+    existingNode &&
+    !existingNode.is_placeholder &&
+    existingNode.report &&
+    !String(existingNode.report).includes('TODO');
+  next.added =
+    wasLive && existingNode.added ? existingNode.added : new Date().toISOString().slice(0, 10);
+
   if (!findAndUpdate(tree.topics, topicId, next)) {
     throw new Error(
       `${topicId} not found in data/${source}-topics.json. Stop — do not invent a parent.`
@@ -341,6 +352,7 @@ async function applyTopic(payload) {
   if (updated.report.includes('TODO')) throw new Error('Report still contains TODO');
 
   console.log('Updated', topicId);
+  console.log('  added:', next.added);
   console.log('  topic_image:', topicImage);
   console.log('  pdf_preview_image:', pdfPreview);
   console.log('  infographic_image:', infographic);
