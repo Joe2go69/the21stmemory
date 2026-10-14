@@ -232,7 +232,7 @@ function renderCategoryBlock(sourceId, category) {
           </div>
           <div class="topic-root-content">
             <h3 class="topic-category-title">${TopicUtils.escapeHtml(category.title)}</h3>
-            <span class="topic-category-count">${subCount} ${subCount === 1 ? 'category' : 'categories'}</span>
+            <span class="topic-category-count">${subCount} ${subCount === 1 ? 'topic' : 'topics'}</span>
             <p class="topic-category-desc">${TopicUtils.escapeHtml(category.description || '')}</p>
             <div class="topic-root-footer">
               <span class="explore-badge ${isPh ? 'explore-badge--soon' : ''}">
