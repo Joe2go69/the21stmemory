@@ -179,9 +179,10 @@ function applyQuiz(payload) {
   const topic = JSON.parse(fs.readFileSync(topicPath, 'utf8'));
   const report = topic.report || '';
   const reportLower = report.toLowerCase();
-  const topicImage =
-    payload.topicImage ||
-    `images/${source}/${topicId}.webp`;
+  const topicImage = [payload.topicImage, topic.topic_image, `images/${source}/${topicId}.webp`]
+    .filter(Boolean)
+    .map((p) => String(p).replace(/^\//, ''))
+    .find((p) => fs.existsSync(path.join(ROOT, p))) || 'images/21st-mark.webp';
 
   const questionsIn = payload.questions || [];
   if (questionsIn.length !== 25) {

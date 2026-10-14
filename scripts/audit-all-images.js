@@ -51,7 +51,7 @@ function collectFromText(text, file, refs) {
     pattern.lastIndex = 0;
     let match;
     while ((match = pattern.exec(text)) !== null) {
-      let p = match[1].replace(/\\/g, '/').replace(/^\.\.\//, '');
+      let p = match[1].replace(/\\/g, '/').replace(/^\.\.\//, '').split(/[?#]/)[0];
       if (p.startsWith('assets/') || p.startsWith('images/')) {
         refs.push({ file, path: p });
       }
@@ -84,7 +84,43 @@ function rel(file) {
   return path.relative(ROOT, file).replace(/\\/g, '/');
 }
 
+/**
+ * Every built HTML page (root, dive/, quiz/): og:image, twitter:image and <img src>
+ * must resolve to a real file. Relative srcs resolve against the page's folder.
+ */
+function auditBuiltPages() {
+  const pages = [];
+  for (const name of fs.readdirSync(ROOT)) if (name.endsWith('.html')) pages.push(path.join(ROOT, name));
+  for (const dir of ['dive', 'quiz']) listFiles(path.join(ROOT, dir)).forEach(f => { if (f.endsWith('.html')) pages.push(f); });
+  const issues = [];
+  const META = /<meta\s+(?:property|name)=["'](og:image|twitter:image)["']\s+content=["']([^"']+)["']/gi;
+  const IMG = /<img\b[^>]*?\ssrc=["']([^"']+)["']/gi;
+  for (const page of pages) {
+    if (path.basename(page).startsWith('_')) continue; // templates
+    const html = fs.readFileSync(page, 'utf8');
+    const check = (ref, kind) => {
+      if (/^(data:|blob:)/i.test(ref) || ref.includes('${') || ref.includes('__')) return;
+      let local;
+      const abs = ref.match(/^https?:\/\/(?:www\.)?21stmemory\.com(\/[^?#]*)/i);
+      if (abs) local = abs[1];
+      else if (/^(https?:)?\/\//i.test(ref)) return; // third-party host
+      else local = ref.split(/[?#]/)[0];
+      const target = local.startsWith('/')
+        ? path.join(ROOT, decodeURI(local))
+        : path.join(path.dirname(page), decodeURI(local));
+      if (!fs.existsSync(target) || !fs.statSync(target).isFile()) issues.push({ file: rel(page), ref, kind });
+    };
+    let m;
+    META.lastIndex = 0;
+    while ((m = META.exec(html))) check(m[2], m[1]);
+    IMG.lastIndex = 0;
+    while ((m = IMG.exec(html))) check(m[1], 'img');
+  }
+  return issues;
+}
+
 function main() {
+
   const files = new Set();
   for (const f of SCAN_ROOT_FILES) {
     const fp = path.join(ROOT, f);
@@ -146,7 +182,11 @@ function main() {
     }
   }
 
-  if (caseIssues.length || missing.length) process.exitCode = 1;
+  const pageIssues = auditBuiltPages();
+  console.log(`\nBuilt-page og/twitter/hero images unresolved: ${pageIssues.length}`);
+  for (const item of pageIssues) console.log(`- ${item.ref} (${item.file}: ${item.kind})`);
+
+  if (caseIssues.length || missing.length || pageIssues.length) process.exitCode = 1;
 }
 
 if (require.main === module) {
