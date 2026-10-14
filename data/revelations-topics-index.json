@@ -563,9 +563,9 @@
             {
               "id": "organ-harvest",
               "title": "Organ Harvest",
-              "description": "Organ Harvest",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "Organ Harvest is the systematic extraction and collection of human biological organs from physical vessels during engineered mass-mortality events.",
+              "topic_image": "images/revelations/organ-harvest.webp",
+              "is_placeholder": false
             },
             {
               "id": "positive-loosh",

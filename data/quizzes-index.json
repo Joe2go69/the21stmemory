@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T09:01:31.670Z",
-  "total": 288,
+  "generatedAt": "2026-10-14T10:01:24.469Z",
+  "total": 289,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 92
+      "count": 93
     }
   ],
   "quizzes": [
@@ -3302,6 +3302,19 @@
       "href": "quiz/revelations/occult-orders.html",
       "diveHref": "dive/revelations/occult-orders.html",
       "key": "revelations/occult-orders"
+    },
+    {
+      "id": "organ-harvest",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Organ Harvest",
+      "subtitle": "Test your understanding of Organ Harvest — the systematic extraction of human organs during engineered mass-mortality events, counted as the harvest toll.",
+      "questionCount": 25,
+      "href": "quiz/revelations/organ-harvest.html",
+      "diveHref": "dive/revelations/organ-harvest.html",
+      "key": "revelations/organ-harvest"
     },
     {
       "id": "organic-circuitboard",
