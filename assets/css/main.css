@@ -24045,3 +24045,18 @@ body.hero-lightbox-open { overflow: hidden; }
   height: 1.1rem;
   filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.95)) drop-shadow(0 0 4px rgba(0, 0, 0, 0.8));
 }
+/* Chevron on the LEFT, matching subtopic row disclosures */
+.topic-category-disclosure { right: auto !important; left: 0.35rem; }
+.topic-category-block.is-collapsed .topic-root-card {
+  padding: 0.6rem 0.9rem 0.6rem 3.1rem !important;
+}
+.topic-category-block.is-collapsed .topic-category-head > .topic-category-title--bare {
+  padding: 0.9rem 1rem 0.9rem 3.1rem;
+}
+.topic-category-block:not(.is-collapsed) .topic-category-disclosure { top: 0.5rem; left: 0.5rem; }
+.topic-category-block:not(.is-collapsed) .topic-category-disclosure {
+  color: #ffffff;
+  background: radial-gradient(circle, rgba(8, 5, 18, 0.78) 0%, rgba(8, 5, 18, 0.5) 50%, transparent 74%);
+}
+.topic-category-block:not(.is-collapsed) .topic-category-disclosure .chevron,
+.topic-category-block:not(.is-collapsed) .topic-category-disclosure .chevron .card-icon { color: #ffffff !important; }
