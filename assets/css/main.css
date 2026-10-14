@@ -379,11 +379,12 @@ html {
 
 /* Content above grain — do NOT set position on children (would break fixed navbar) */
 main#main,
-.site-footer,
-.skip-link {
+.site-footer {
   position: relative;
   z-index: 1;
 }
+/* .skip-link stays position: fixed (see above). Making it relative put it in
+   normal flow and left an empty ~28px strip under the fixed header on every page. */
 
 /* Elevated surface highlight — floating tier (violet rim + ambient bloom) */
 .glow-purple {

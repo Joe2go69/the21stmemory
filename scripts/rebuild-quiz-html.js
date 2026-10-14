@@ -9,7 +9,50 @@ const path = require('path');
 const { knownSources } = require('./lib/topic-pipeline');
 const { ROOT, renderQuizHtml } = require('./lib/quiz-pipeline');
 
+const indexImageCache = {};
+function findTopicImage(node, topicId) {
+  if (!node || typeof node !== 'object') return null;
+  if (Array.isArray(node)) {
+    for (const item of node) {
+      const hit = findTopicImage(item, topicId);
+      if (hit) return hit;
+    }
+    return null;
+  }
+  if (node.id === topicId && typeof node.topic_image === 'string' && node.topic_image) return node.topic_image;
+  for (const value of Object.values(node)) {
+    if (value && typeof value === 'object') {
+      const hit = findTopicImage(value, topicId);
+      if (hit) return hit;
+    }
+  }
+  return null;
+}
+
+function indexImageFor(source, topicId) {
+  if (!(source in indexImageCache)) {
+    const p = path.join(ROOT, 'data', `${source}-topics-index.json`);
+    indexImageCache[source] = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : null;
+  }
+  return findTopicImage(indexImageCache[source], topicId);
+}
+
+function existsRel(rel) {
+  return rel && fs.existsSync(path.join(ROOT, rel.replace(/^\//, '')));
+}
+
 function topicImageFor(source, topicId, quiz) {
+  // Prefer the first candidate that actually exists on disk, so pages never point at a 404.
+  const candidates = [rawTopicImageFor(source, topicId, quiz), indexImageFor(source, topicId)]
+    .filter(Boolean)
+    .map(p => String(p).replace(/^\//, ''));
+  const hit = candidates.find(existsRel);
+  if (hit) return hit;
+  console.warn(`No resolvable topic image for ${source}/${topicId}; using brand mark`);
+  return 'images/21st-mark.webp';
+}
+
+function rawTopicImageFor(source, topicId, quiz) {
   const heavyPath = path.join(ROOT, 'data', `${source}-topics`, `${topicId}.json`);
   if (fs.existsSync(heavyPath)) {
     try {
