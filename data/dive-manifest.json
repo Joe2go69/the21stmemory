@@ -37,10 +37,31 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "time-back-home",
+      "path": "/dive/alice/time-back-home.html",
+      "live": false,
+      "title": "Time Back Home"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "holographic-projection-dome",
       "path": "/dive/alice/holographic-projection-dome.html",
       "live": true,
       "title": "Holographic Projection Dome"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "stars-as-projectors",
+      "path": "/dive/alice/stars-as-projectors.html",
+      "live": false,
+      "title": "Stars as Projectors"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "gravity-story",
+      "path": "/dive/alice/gravity-story.html",
+      "live": false,
+      "title": "Gravity Story"
     },
     {
       "sourceId": "alice",
@@ -65,6 +86,20 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "asteroid-weapons",
+      "path": "/dive/alice/asteroid-weapons.html",
+      "live": false,
+      "title": "Asteroid Weapons"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "space-is-white",
+      "path": "/dive/alice/space-is-white.html",
+      "live": false,
+      "title": "Space Is White"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "ice-wall",
       "path": "/dive/alice/ice-wall.html",
       "live": true,
@@ -72,10 +107,24 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "oil-as-grease",
+      "path": "/dive/alice/oil-as-grease.html",
+      "live": false,
+      "title": "Oil as Grease"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "gateway-10-system",
       "path": "/dive/alice/gateway-10-system.html",
       "live": true,
       "title": "Gateway-10 System"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "centre-realm",
+      "path": "/dive/alice/centre-realm.html",
+      "live": false,
+      "title": "Centre Realm"
     },
     {
       "sourceId": "alice",
@@ -100,10 +149,66 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "lunatic-frequencies",
+      "path": "/dive/alice/lunatic-frequencies.html",
+      "live": false,
+      "title": "Lunatic Frequencies"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "lucifer-light-bearer",
       "path": "/dive/alice/lucifer-light-bearer.html",
       "live": true,
       "title": "Lucifer as Light Bearer"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "organic-circuit",
+      "path": "/dive/alice/organic-circuit.html",
+      "live": false,
+      "title": "Organic Circuit"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "spirit-tree",
+      "path": "/dive/alice/spirit-tree.html",
+      "live": false,
+      "title": "Spirit Tree"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "ley-lines-and-nodes",
+      "path": "/dive/alice/ley-lines-and-nodes.html",
+      "live": false,
+      "title": "Ley Lines and Nodes"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "crystal-alters",
+      "path": "/dive/alice/crystal-alters.html",
+      "live": false,
+      "title": "Crystal Alters"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "villages-on-nodes",
+      "path": "/dive/alice/villages-on-nodes.html",
+      "live": false,
+      "title": "Villages on Nodes"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "minerals-stay-down",
+      "path": "/dive/alice/minerals-stay-down.html",
+      "live": false,
+      "title": "Minerals Stay Down"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "red-mercury",
+      "path": "/dive/alice/red-mercury.html",
+      "live": false,
+      "title": "Red Mercury"
     },
     {
       "sourceId": "alice",
@@ -135,6 +240,13 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "zep-tepi-and-the-canyon",
+      "path": "/dive/alice/zep-tepi-and-the-canyon.html",
+      "live": false,
+      "title": "Zep Tepi and the Canyon"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "grey-ets",
       "path": "/dive/alice/grey-ets.html",
       "live": true,
@@ -142,10 +254,31 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "ghosts-are-a-gig",
+      "path": "/dive/alice/ghosts-are-a-gig.html",
+      "live": false,
+      "title": "Ghosts Are a Gig"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "reptilians",
       "path": "/dive/alice/reptilians.html",
       "live": true,
       "title": "Reptilians"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "niberians",
+      "path": "/dive/alice/niberians.html",
+      "live": false,
+      "title": "Niberians"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "demons-and-sold-souls",
+      "path": "/dive/alice/demons-and-sold-souls.html",
+      "live": false,
+      "title": "Demons and Sold Souls"
     },
     {
       "sourceId": "alice",
@@ -184,6 +317,13 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "vatican-thirteen",
+      "path": "/dive/alice/vatican-thirteen.html",
+      "live": false,
+      "title": "Vatican Thirteen"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "inversion-tactics",
       "path": "/dive/alice/inversion-tactics.html",
       "live": true,
@@ -205,10 +345,45 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "evolution-in-a-lab",
+      "path": "/dive/alice/evolution-in-a-lab.html",
+      "live": false,
+      "title": "Evolution in a Lab"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "path-of-invention",
+      "path": "/dive/alice/path-of-invention.html",
+      "live": false,
+      "title": "Path of Invention"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "language-inversion",
+      "path": "/dive/alice/language-inversion.html",
+      "live": false,
+      "title": "Language Inversion"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "freemasonry",
       "path": "/dive/alice/freemasonry.html",
       "live": true,
       "title": "Freemasonry"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "disclosure-psyop",
+      "path": "/dive/alice/disclosure-psyop.html",
+      "live": false,
+      "title": "Disclosure Psyop"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "tv-and-radio",
+      "path": "/dive/alice/tv-and-radio.html",
+      "live": false,
+      "title": "TV and Radio"
     },
     {
       "sourceId": "alice",
@@ -247,6 +422,34 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "sung-into-stone",
+      "path": "/dive/alice/sung-into-stone.html",
+      "live": false,
+      "title": "Sung into Stone"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "radium-and-kryptonite",
+      "path": "/dive/alice/radium-and-kryptonite.html",
+      "live": false,
+      "title": "Radium and Kryptonite"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "pneumatic-rail",
+      "path": "/dive/alice/pneumatic-rail.html",
+      "live": false,
+      "title": "Pneumatic Rail"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "drab-on-purpose",
+      "path": "/dive/alice/drab-on-purpose.html",
+      "live": false,
+      "title": "Drab on Purpose"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "evidence-of-resets",
       "path": "/dive/alice/evidence-of-resets.html",
       "live": true,
@@ -268,6 +471,13 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "dumb-nurseries",
+      "path": "/dive/alice/dumb-nurseries.html",
+      "live": false,
+      "title": "DUMB Nurseries"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "giant-skeletons",
       "path": "/dive/alice/giant-skeletons.html",
       "live": true,
@@ -279,6 +489,41 @@
       "path": "/dive/alice/oopa-artifacts.html",
       "live": true,
       "title": "Oopa Artifacts"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "titanic-switch",
+      "path": "/dive/alice/titanic-switch.html",
+      "live": false,
+      "title": "Titanic Switch"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "the-cover-up",
+      "path": "/dive/alice/the-cover-up.html",
+      "live": false,
+      "title": "The Cover-up"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "lunatic-asylums",
+      "path": "/dive/alice/lunatic-asylums.html",
+      "live": false,
+      "title": "Lunatic Asylums"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "dark-ages-leap",
+      "path": "/dive/alice/dark-ages-leap.html",
+      "live": false,
+      "title": "Dark Ages Leap"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "reset-seven-of-eight",
+      "path": "/dive/alice/reset-seven-of-eight.html",
+      "live": false,
+      "title": "Reset Seven of Eight"
     },
     {
       "sourceId": "alice",
@@ -303,6 +548,13 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "energy-weapons",
+      "path": "/dive/alice/energy-weapons.html",
+      "live": false,
+      "title": "Energy Weapons"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "3-strings-of-attachment",
       "path": "/dive/alice/3-strings-of-attachment.html",
       "live": true,
@@ -324,10 +576,38 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "not-the-payout",
+      "path": "/dive/alice/not-the-payout.html",
+      "live": false,
+      "title": "Not the Payout"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "perceived-knowledge-lies",
       "path": "/dive/alice/perceived-knowledge-lies.html",
       "live": true,
       "title": "Perceived Knowledge (Lies)"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "healthcare-compliance",
+      "path": "/dive/alice/healthcare-compliance.html",
+      "live": false,
+      "title": "Healthcare Compliance"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "truthers-without-the-intel",
+      "path": "/dive/alice/truthers-without-the-intel.html",
+      "live": false,
+      "title": "Truthers Without the Intel"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "trump-and-patton",
+      "path": "/dive/alice/trump-and-patton.html",
+      "live": false,
+      "title": "Trump and Patton"
     },
     {
       "sourceId": "alice",
@@ -366,6 +646,27 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "micro-suns",
+      "path": "/dive/alice/micro-suns.html",
+      "live": false,
+      "title": "Micro Suns"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "taran-vessels",
+      "path": "/dive/alice/taran-vessels.html",
+      "live": false,
+      "title": "Taran Vessels"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "pleiadians",
+      "path": "/dive/alice/pleiadians.html",
+      "live": false,
+      "title": "Pleiadians"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "ascension-event",
       "path": "/dive/alice/ascension-event.html",
       "live": true,
@@ -387,10 +688,59 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "project-blue-beam",
+      "path": "/dive/alice/project-blue-beam.html",
+      "live": false,
+      "title": "Project Blue Beam"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "craft-that-do-not-land",
+      "path": "/dive/alice/craft-that-do-not-land.html",
+      "live": false,
+      "title": "Craft That Do Not Land"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "emf-white-flash",
       "path": "/dive/alice/emf-white-flash.html",
       "live": true,
       "title": "EMF White Flash"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "social-media-window",
+      "path": "/dive/alice/social-media-window.html",
+      "live": false,
+      "title": "Social Media Window"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "scare-events",
+      "path": "/dive/alice/scare-events.html",
+      "live": false,
+      "title": "Scare Events"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "the-first-to-go",
+      "path": "/dive/alice/the-first-to-go.html",
+      "live": false,
+      "title": "The First to Go"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "the-sky-event",
+      "path": "/dive/alice/the-sky-event.html",
+      "live": false,
+      "title": "The Sky Event"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "520-million",
+      "path": "/dive/alice/520-million.html",
+      "live": false,
+      "title": "520 Million"
     },
     {
       "sourceId": "alice",
@@ -408,6 +758,13 @@
     },
     {
       "sourceId": "alice",
+      "topicId": "scripted-avenues",
+      "path": "/dive/alice/scripted-avenues.html",
+      "live": false,
+      "title": "Scripted Avenues"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "97-percent-population",
       "path": "/dive/alice/97-percent-population.html",
       "live": true,
@@ -419,6 +776,20 @@
       "path": "/dive/alice/recycled-souls.html",
       "live": true,
       "title": "Recycled Souls"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "child-npcs",
+      "path": "/dive/alice/child-npcs.html",
+      "live": false,
+      "title": "Child NPCs"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "monster-nightmares",
+      "path": "/dive/alice/monster-nightmares.html",
+      "live": false,
+      "title": "Monster Nightmares"
     },
     {
       "sourceId": "breakdown",

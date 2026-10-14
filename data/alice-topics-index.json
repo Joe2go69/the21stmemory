@@ -6,7 +6,7 @@
   "pdf_url": "https://drive.google.com/file/d/14mKHQDHnHiOoHyIS_yzc4xIzaH_MpBxM/view",
   "playlist_url": "https://rumble.com/playlists/CyKgxahaLx0",
   "description": "The foundational transmission that takes you deep down the rabbit hole into the true nature of reality and the parasitic system that has enslaved humanity for millennia. Discover the hidden history of multiple resets, the existence of giants, advanced ancient civilizations, the true origins of the Soul, and the mechanics of the Great Spiritual Awakening now in progress. \n\nThis powerful series exposes the dark truths of the Vatican’s underground operations, the real function of the Moon, the Amnesia Vortex, and provides the clear path to breaking free from this inverted matrix toward genuine spiritual liberation and awakening.",
-  "total_topics": 60,
+  "total_topics": 113,
   "topics": [
     {
       "id": "essence-of-the-transmission",
@@ -43,14 +43,39 @@
               "title": "Fake Linear Time",
               "description": "The physical reality currently inhabited by humanity operates within an engineered Simulation — a multidimensional etheric supercomputer originally designed by the Source of All Creation to manifest…",
               "topic_image": "images/faketime.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "time-back-home",
+                  "title": "Time Back Home",
+                  "description": "Time Back Home",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "holographic-projection-dome",
               "title": "Holographic Projection Dome",
               "description": "The reality currently inhabited by humanity is a highly manipulated Simulation controlled by 4th-density parasites.",
               "topic_image": "images/alice/holo.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "stars-as-projectors",
+                  "title": "Stars as Projectors",
+                  "description": "Stars as Projectors",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
+            },
+            {
+              "id": "gravity-story",
+              "title": "Gravity Story",
+              "description": "Gravity Story",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -73,21 +98,55 @@
               "title": "Firmament",
               "description": "Within the actual mechanics of the cosmos, the universe as presented by modern science is a manufactured illusion.",
               "topic_image": "images/alice/firm.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "asteroid-weapons",
+                  "title": "Asteroid Weapons",
+                  "description": "Asteroid Weapons",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "space-is-white",
+                  "title": "Space Is White",
+                  "description": "Space Is White",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "ice-wall",
               "title": "Ice Wall",
               "description": "Within the true Cosmology of the multidimensional Simulation, the Ice Wall stands as a critical physical and psychological perimeter.",
               "topic_image": "images/alice/icewall.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "oil-as-grease",
+                  "title": "Oil as Grease",
+                  "description": "Oil as Grease",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "gateway-10-system",
               "title": "Gateway-10 System",
               "description": "Within the true, suppressed reality of physical existence, the manufactured illusion of a vast, heliocentric universe hides the existence of the Gateway-10 System.",
               "topic_image": "images/alice/gate.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "centre-realm",
+                  "title": "Centre Realm",
+                  "description": "Centre Realm",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             }
           ]
         },
@@ -110,7 +169,16 @@
               "title": "Moon as ET Space Station",
               "description": "The Moon as a negative ET command and harvesting station.",
               "topic_image": "images/alice/moon.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "lunatic-frequencies",
+                  "title": "Lunatic Frequencies",
+                  "description": "Lunatic Frequencies",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "lucifer-light-bearer",
@@ -118,6 +186,61 @@
               "description": "The holographic illumination of the Moon by Venus as Lucifer, the Light Bearer.",
               "topic_image": "images/alice/lucifer.webp",
               "is_placeholder": false
+            }
+          ]
+        },
+        {
+          "id": "organic-circuit",
+          "title": "Organic Circuit",
+          "description": "Organic Circuit",
+          "topic_image": "images/alice/placeholder.webp",
+          "is_placeholder": true,
+          "subtopics": [
+            {
+              "id": "spirit-tree",
+              "title": "Spirit Tree",
+              "description": "Spirit Tree",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "ley-lines-and-nodes",
+              "title": "Ley Lines and Nodes",
+              "description": "Ley Lines and Nodes",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true,
+              "subtopics": [
+                {
+                  "id": "crystal-alters",
+                  "title": "Crystal Alters",
+                  "description": "Crystal Alters",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "villages-on-nodes",
+                  "title": "Villages on Nodes",
+                  "description": "Villages on Nodes",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
+            },
+            {
+              "id": "minerals-stay-down",
+              "title": "Minerals Stay Down",
+              "description": "Minerals Stay Down",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true,
+              "subtopics": [
+                {
+                  "id": "red-mercury",
+                  "title": "Red Mercury",
+                  "description": "Red Mercury",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             }
           ]
         }
@@ -149,14 +272,32 @@
               "title": "Anunnaki",
               "description": "The Anuk (Anunnaki) were the first great genetic success engineered by the Custodians, serving as foundational architects and key enforcers within the grand parasitic hierarchy of negative entities.",
               "topic_image": "images/alice/anuk.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "zep-tepi-and-the-canyon",
+                  "title": "Zep Tepi and the Canyon",
+                  "description": "Zep Tepi and the Canyon",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "grey-ets",
               "title": "Grey ETs",
               "description": "The reality of Grey ETs and the broader spectrum of Negative Entities (or Parasites) fundamentally originates from a singular, ancient betrayal of the Source of Creation by the Custodians.",
               "topic_image": "images/alice/greys.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "ghosts-are-a-gig",
+                  "title": "Ghosts Are a Gig",
+                  "description": "Ghosts Are a Gig",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "reptilians",
@@ -164,6 +305,20 @@
               "description": "The raw transmissions reveal that all negativity, subjugation, and suffering within this physical realm are the result of a highly orchestrated infiltration by Negative Entities, commonly referred to…",
               "topic_image": "images/alice/reptilian.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "niberians",
+              "title": "Niberians",
+              "description": "Niberians",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "demons-and-sold-souls",
+              "title": "Demons and Sold Souls",
+              "description": "Demons and Sold Souls",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -201,6 +356,13 @@
               "description": "The extraction, stockpiling, and consumption of Adrenochrome represents the central physical motivation for the parasitic occupation of the physical plane.",
               "topic_image": "images/alice/adreno.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "vatican-thirteen",
+              "title": "Vatican Thirteen",
+              "description": "Vatican Thirteen",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -223,7 +385,30 @@
               "title": "False History",
               "description": "In the operational framework of the matrix, the accepted chronological timeline of human existence is a complete fabrication, engineered to conceal the true reality of the prison planet.",
               "topic_image": "images/alice/false.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "evolution-in-a-lab",
+                  "title": "Evolution in a Lab",
+                  "description": "Evolution in a Lab",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "path-of-invention",
+                  "title": "Path of Invention",
+                  "description": "Path of Invention",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "language-inversion",
+                  "title": "Language Inversion",
+                  "description": "Language Inversion",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "freemasonry",
@@ -231,6 +416,20 @@
               "description": "Freemasonry functions as the primary terrestrial proxy organization executing Inversion Tactics on behalf of parasitic, non-human overlords.",
               "topic_image": "images/alice/freemasonry.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "disclosure-psyop",
+              "title": "Disclosure Psyop",
+              "description": "Disclosure Psyop",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "tv-and-radio",
+              "title": "TV and Radio",
+              "description": "TV and Radio",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         }
@@ -269,7 +468,37 @@
               "title": "Antiquity Technology",
               "description": "Great Tartary, also referred to as Tartaria, was a highly advanced, preceding civilisation of excellence that spanned the physical plain of existence prior to the current era.",
               "topic_image": "images/alice/antiquity-tech.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "sung-into-stone",
+                  "title": "Sung into Stone",
+                  "description": "Sung into Stone",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "radium-and-kryptonite",
+                  "title": "Radium and Kryptonite",
+                  "description": "Radium and Kryptonite",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "pneumatic-rail",
+                  "title": "Pneumatic Rail",
+                  "description": "Pneumatic Rail",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
+            },
+            {
+              "id": "drab-on-purpose",
+              "title": "Drab on Purpose",
+              "description": "Drab on Purpose",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -292,7 +521,16 @@
               "title": "Orphan Trains",
               "description": "The Orphan Trains are a critical logistical component revealing the true nature of historical timelines and the cyclical destruction of advanced human civilizations.",
               "topic_image": "images/alice/orphan.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "dumb-nurseries",
+                  "title": "DUMB Nurseries",
+                  "description": "DUMB Nurseries",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "giant-skeletons",
@@ -306,7 +544,44 @@
               "title": "Oopa Artifacts",
               "description": "The physical realm contains blatant physical evidence of high technological civilisations that existed prior to modern recorded history.",
               "topic_image": "images/alice/oopa.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "titanic-switch",
+                  "title": "Titanic Switch",
+                  "description": "Titanic Switch",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
+            },
+            {
+              "id": "the-cover-up",
+              "title": "The Cover-up",
+              "description": "The Cover-up",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "lunatic-asylums",
+              "title": "Lunatic Asylums",
+              "description": "Lunatic Asylums",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "dark-ages-leap",
+              "title": "Dark Ages Leap",
+              "description": "Dark Ages Leap",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "reset-seven-of-eight",
+              "title": "Reset Seven of Eight",
+              "description": "Reset Seven of Eight",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -330,6 +605,13 @@
               "description": "The conflict publicly recognized as World War 1 (1914-1918) was not triggered by geopolitical tensions or the assassination of Archduke Ferdinand, but was an orchestrated, planetary-scale culling…",
               "topic_image": "images/alice/culling-survivors.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "energy-weapons",
+              "title": "Energy Weapons",
+              "description": "Energy Weapons",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         }
@@ -354,14 +636,46 @@
           "title": "Finance (Fake Money)",
           "description": "String 2: Finance is a primary psychological tether engineered to blind the human population and misdirect their consciousness away from spiritual reality.",
           "topic_image": "images/alice/finance-fake-money.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "not-the-payout",
+              "title": "Not the Payout",
+              "description": "Not the Payout",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            }
+          ]
         },
         {
           "id": "perceived-knowledge-lies",
           "title": "Perceived Knowledge (Lies)",
           "description": "String 3: Perceived Knowledge / Intellect is the final and arguably most insidious psychological tether within The 3 Strings of Attachment—the engineered constructs that bind human consciousness to…",
           "topic_image": "images/alice/perceived-knowledge-lies.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "healthcare-compliance",
+              "title": "Healthcare Compliance",
+              "description": "Healthcare Compliance",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "truthers-without-the-intel",
+              "title": "Truthers Without the Intel",
+              "description": "Truthers Without the Intel",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "trump-and-patton",
+              "title": "Trump and Patton",
+              "description": "Trump and Patton",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            }
+          ]
         }
       ]
     },
@@ -399,6 +713,27 @@
               "description": "The true structure of cosmic lineage and interpersonal soul relationships has been deliberately obfuscated through linguistic manipulation and controlled reincarnation cycles.",
               "topic_image": "images/alice/twin-flames.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "micro-suns",
+              "title": "Micro Suns",
+              "description": "Micro Suns",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "taran-vessels",
+              "title": "Taran Vessels",
+              "description": "Taran Vessels",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "pleiadians",
+              "title": "Pleiadians",
+              "description": "Pleiadians",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -421,7 +756,23 @@
               "title": "Fake Alien Invasion",
               "description": "A staged holographic sky battle and mass abduction scenario engineered during the Ascension Event to induce maximum psychological trauma prior to the EMF flash and planetary reset.",
               "topic_image": "images/alice/fake-alien-invasion.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "project-blue-beam",
+                  "title": "Project Blue Beam",
+                  "description": "Project Blue Beam",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                },
+                {
+                  "id": "craft-that-do-not-land",
+                  "title": "Craft That Do Not Land",
+                  "description": "Craft That Do Not Land",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "emf-white-flash",
@@ -429,6 +780,41 @@
               "description": "The culminating 30-second white flash that purges the false matrix, removes 97% of NPCs, and restores ancient memories to surviving true souls.",
               "topic_image": "images/alice/emf-white-flash.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "social-media-window",
+              "title": "Social Media Window",
+              "description": "Social Media Window",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "scare-events",
+              "title": "Scare Events",
+              "description": "Scare Events",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "the-first-to-go",
+              "title": "The First to Go",
+              "description": "The First to Go",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "the-sky-event",
+              "title": "The Sky Event",
+              "description": "The Sky Event",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "520-million",
+              "title": "520 Million",
+              "description": "520 Million",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -444,7 +830,16 @@
               "title": "Non-Player Characters",
               "description": "The vast majority of the current global population does not consist of true humans or eternal spirits, but rather Non-Player Characters (NPCs), inserts, clones, and synthetics.",
               "topic_image": "images/alice/non-player-characters.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "scripted-avenues",
+                  "title": "Scripted Avenues",
+                  "description": "Scripted Avenues",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "97-percent-population",
@@ -459,6 +854,20 @@
               "description": "The vast majority of humanity currently occupying the physical plain of existence does not consist of eternal, organically incarnated beings.",
               "topic_image": "images/alice/recycled-souls.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "child-npcs",
+              "title": "Child NPCs",
+              "description": "Child NPCs",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
+            },
+            {
+              "id": "monster-nightmares",
+              "title": "Monster Nightmares",
+              "description": "Monster Nightmares",
+              "topic_image": "images/alice/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         }

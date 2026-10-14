@@ -6,7 +6,7 @@
   "pdf_url": "https://drive.google.com/file/d/14mKHQDHnHiOoHyIS_yzc4xIzaH_MpBxM/view",
   "playlist_url": "https://rumble.com/playlists/CyKgxahaLx0",
   "description": "The foundational transmission that takes you deep down the rabbit hole into the true nature of reality and the parasitic system that has enslaved humanity for millennia. Discover the hidden history of multiple resets, the existence of giants, advanced ancient civilizations, the true origins of the Soul, and the mechanics of the Great Spiritual Awakening now in progress. \n\nThis powerful series exposes the dark truths of the Vatican’s underground operations, the real function of the Moon, the Amnesia Vortex, and provides the clear path to breaking free from this inverted matrix toward genuine spiritual liberation and awakening.",
-  "total_topics": 60,
+  "total_topics": 113,
   "topics": [
     {
       "id": "essence-of-the-transmission",
@@ -328,7 +328,16 @@
                 "title": "Fake Linear Time",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Fake Linear Time — elastic true time, 96-hour days, clock anchors, Twin Flame bending, Amnesia Vortex, and EMF collapse of sequential time."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "time-back-home",
+                  "title": "Time Back Home",
+                  "description": "Time Back Home",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Time Back Home\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             },
             {
               "id": "holographic-projection-dome",
@@ -358,7 +367,23 @@
                 "title": "Holographic Projection Dome",
                 "totalQuestions": 25,
                 "description": "Test your grasp of the Holographic Projection Dome — Firmament dual sky, Sky-Net-1 stars, Moon shell, Bluebeam, Black Void Plasma, and the G.A.A. Sky Event."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "stars-as-projectors",
+                  "title": "Stars as Projectors",
+                  "description": "Stars as Projectors",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Stars as Projectors\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
+            },
+            {
+              "id": "gravity-story",
+              "title": "Gravity Story",
+              "description": "Gravity Story",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Gravity Story\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "infographic_image": "images/waking-from-the-artificial-reality.webp",
@@ -450,7 +475,23 @@
                 "title": "Firmament",
                 "totalQuestions": 25,
                 "description": "Test your grasp of the Firmament — flat enclosure, dual-layer sky, Black Void Plasma, Dark Matter Field, Ice Walls, Freemason globe lies, and the G.A.A. Sky Event exposure."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "asteroid-weapons",
+                  "title": "Asteroid Weapons",
+                  "description": "Asteroid Weapons",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Asteroid Weapons\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "space-is-white",
+                  "title": "Space Is White",
+                  "description": "Space Is White",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Space Is White\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             },
             {
               "id": "ice-wall",
@@ -480,7 +521,16 @@
                 "title": "Ice Wall",
                 "totalQuestions": 25,
                 "description": "Test your grasp of the Ice Wall — Antarctic Realm-3 partition, Mars adjacency, freemason flat secrecy, Emerald Palace ice dampening, and globe-cage psychology."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "oil-as-grease",
+                  "title": "Oil as Grease",
+                  "description": "Oil as Grease",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Oil as Grease\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             },
             {
               "id": "gateway-10-system",
@@ -510,7 +560,16 @@
                 "title": "Gateway-10 System",
                 "totalQuestions": 25,
                 "description": "Test your grasp of the Gateway-10 System — 178 flat worlds, Toroid center, Realm partitions, Spirit Tree sabotage, freemason compartmentalization, and G.A.A. Toroid restoration."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "centre-realm",
+                  "title": "Centre Realm",
+                  "description": "Centre Realm",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Centre Realm\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             }
           ],
           "infographic_image": "images/alice/engineered-reality-truth-blueprint.webp",
@@ -603,7 +662,16 @@
                 "title": "Moon as ET Space Station",
                 "totalQuestions": 25,
                 "description": "Test your grasp of Moon as ET Space Station — Death-Star craft, Venus Light Bearer shell, loosh/Black Sun harvest, Lunatic frequencies, hybrid staff, and G.A.A. EMF reveal."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "lunatic-frequencies",
+                  "title": "Lunatic Frequencies",
+                  "description": "Lunatic Frequencies",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Lunatic Frequencies\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             },
             {
               "id": "lucifer-light-bearer",
@@ -659,6 +727,61 @@
             "totalQuestions": 25,
             "description": "Test your grasp of The Sun and Moon — Amnesia Vortex, lunar ET station, Venus illumination, Black Sun loosh banks, heliocentrism, and the G.A.A. reveal."
           }
+        },
+        {
+          "id": "organic-circuit",
+          "title": "Organic Circuit",
+          "description": "Organic Circuit",
+          "topic_image": "images/alice/placeholder.webp",
+          "report": "# Organic Circuit\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+          "subtopics": [
+            {
+              "id": "spirit-tree",
+              "title": "Spirit Tree",
+              "description": "Spirit Tree",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Spirit Tree\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "ley-lines-and-nodes",
+              "title": "Ley Lines and Nodes",
+              "description": "Ley Lines and Nodes",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Ley Lines and Nodes\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "subtopics": [
+                {
+                  "id": "crystal-alters",
+                  "title": "Crystal Alters",
+                  "description": "Crystal Alters",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Crystal Alters\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "villages-on-nodes",
+                  "title": "Villages on Nodes",
+                  "description": "Villages on Nodes",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Villages on Nodes\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
+            },
+            {
+              "id": "minerals-stay-down",
+              "title": "Minerals Stay Down",
+              "description": "Minerals Stay Down",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Minerals Stay Down\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "subtopics": [
+                {
+                  "id": "red-mercury",
+                  "title": "Red Mercury",
+                  "description": "Red Mercury",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Red Mercury\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
+            }
+          ]
         }
       ],
       "infographic_image": "images/nature-of-reality-infographic.webp",
@@ -759,7 +882,16 @@
                 "title": "Anunnaki",
                 "totalQuestions": 25,
                 "description": "Test your understanding of the Anunnaki — Custodian-engineered Anuk proxy overlords, Zep Tepi, Grand Canyon headquarters, lab-grown Zetas, 4th-density limits, and the collapse of their control."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "zep-tepi-and-the-canyon",
+                  "title": "Zep Tepi and the Canyon",
+                  "description": "Zep Tepi and the Canyon",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Zep Tepi and the Canyon\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             },
             {
               "id": "grey-ets",
@@ -789,7 +921,16 @@
                 "title": "Grey ETs",
                 "totalQuestions": 25,
                 "description": "Test your grasp of Grey ETs — Custodian engineering, Orion Greys and Zetas, Replica Souls, Amnesia Vortex rebirth, ghost orbs, Spirit Tree sabotage, and EMF pixelation."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "ghosts-are-a-gig",
+                  "title": "Ghosts Are a Gig",
+                  "description": "Ghosts Are a Gig",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Ghosts Are a Gig\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             },
             {
               "id": "reptilians",
@@ -820,6 +961,20 @@
                 "totalQuestions": 25,
                 "description": "Test your grasp of Reptilians — Omicron and Alpha Draco, Custodian engineering, Vatican levels, shape-shifting, Re-set brutality, and their eradication."
               }
+            },
+            {
+              "id": "niberians",
+              "title": "Niberians",
+              "description": "Niberians",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Niberians\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "demons-and-sold-souls",
+              "title": "Demons and Sold Souls",
+              "description": "Demons and Sold Souls",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Demons and Sold Souls\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "infographic_image": "images/alice/the-end-of-parasitic-occupation.webp",
@@ -972,6 +1127,13 @@
                 "totalQuestions": 25,
                 "description": "Test your understanding of the adrenochrome trade — the harvest industry, blackmail matrix, Re-sets, and the forces dismantling it."
               }
+            },
+            {
+              "id": "vatican-thirteen",
+              "title": "Vatican Thirteen",
+              "description": "Vatican Thirteen",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Vatican Thirteen\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "infographic_image": "images/alice/blueprint-of-the-parasitic-takeover.webp",
@@ -1064,7 +1226,30 @@
                 "title": "False History",
                 "totalQuestions": 25,
                 "description": "Test your understanding of False History — Re-sets, Tartaria cover, Freemason evolution myth, WW1 culling, Titanic, Smithsonian giants, and inverted science and spirit."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "evolution-in-a-lab",
+                  "title": "Evolution in a Lab",
+                  "description": "Evolution in a Lab",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Evolution in a Lab\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "path-of-invention",
+                  "title": "Path of Invention",
+                  "description": "Path of Invention",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Path of Invention\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "language-inversion",
+                  "title": "Language Inversion",
+                  "description": "Language Inversion",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Language Inversion\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             },
             {
               "id": "freemasonry",
@@ -1095,6 +1280,20 @@
                 "totalQuestions": 25,
                 "description": "Test your grasp of Freemasonry — inversion proxy, 33rd Degree blackmail, reset custodians, globe and evolution lies, temple caps, Smithsonian giants, and the 3 Strings."
               }
+            },
+            {
+              "id": "disclosure-psyop",
+              "title": "Disclosure Psyop",
+              "description": "Disclosure Psyop",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Disclosure Psyop\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "tv-and-radio",
+              "title": "TV and Radio",
+              "description": "TV and Radio",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# TV and Radio\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "infographic_image": "images/alice/the-systematic-inversion-of-reality.webp",
@@ -1250,7 +1449,37 @@
                 "title": "Antiquity Technology",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Antiquity Technology — Great Tartary, harmonic construction, free energy, and the engineered Industrial Revolution cover story."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "sung-into-stone",
+                  "title": "Sung into Stone",
+                  "description": "Sung into Stone",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Sung into Stone\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "radium-and-kryptonite",
+                  "title": "Radium and Kryptonite",
+                  "description": "Radium and Kryptonite",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Radium and Kryptonite\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "pneumatic-rail",
+                  "title": "Pneumatic Rail",
+                  "description": "Pneumatic Rail",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Pneumatic Rail\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
+            },
+            {
+              "id": "drab-on-purpose",
+              "title": "Drab on Purpose",
+              "description": "Drab on Purpose",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Drab on Purpose\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "infographic_image": "images/alice/great-tartary-technology-and-erasure.webp",
@@ -1342,7 +1571,16 @@
                 "title": "Orphan Trains",
                 "totalQuestions": 25,
                 "description": "Test your grasp of Orphan Trains — post-Reset clone logistics, DUMBS stem-cell crops, Freemason re-education, WW1 memory purge, and blank-slate control."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "dumb-nurseries",
+                  "title": "DUMB Nurseries",
+                  "description": "DUMB Nurseries",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# DUMB Nurseries\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             },
             {
               "id": "giant-skeletons",
@@ -1402,7 +1640,44 @@
                 "title": "Oopa Artifacts",
                 "totalQuestions": 25,
                 "description": "Test your grasp of Oopa Artifacts — Out Of Place Artefacts, Energy Weapons, giants, Tuning Forks, Atmospheric Condensers, and the suppression of pre-reset proof."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "titanic-switch",
+                  "title": "Titanic Switch",
+                  "description": "Titanic Switch",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Titanic Switch\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
+            },
+            {
+              "id": "the-cover-up",
+              "title": "The Cover-up",
+              "description": "The Cover-up",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# The Cover-up\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "lunatic-asylums",
+              "title": "Lunatic Asylums",
+              "description": "Lunatic Asylums",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Lunatic Asylums\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "dark-ages-leap",
+              "title": "Dark Ages Leap",
+              "description": "Dark Ages Leap",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Dark Ages Leap\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "reset-seven-of-eight",
+              "title": "Reset Seven of Eight",
+              "description": "Reset Seven of Eight",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Reset Seven of Eight\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "infographic_image": "images/alice/the-seventh-iteration-infographic.webp",
@@ -1495,6 +1770,13 @@
                 "totalQuestions": 25,
                 "description": "Test your understanding of Culling Survivors — WW1 as planetary cull, Fighting Age purge, 15-22 million dead, asylums, Orphan Trains, and Big Pharma."
               }
+            },
+            {
+              "id": "energy-weapons",
+              "title": "Energy Weapons",
+              "description": "Energy Weapons",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Energy Weapons\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "infographic_image": "images/alice/the-1914-purge-infographic.webp",
@@ -1620,7 +1902,16 @@
             "title": "Finance (Fake Money)",
             "totalQuestions": 25,
             "description": "Test your grasp of Finance (Fake Money) — String 2 tether, Cash-Less Society, Gold Rushes, lattice metals, NESARA bait, Banking Crash, and total uninstallation before the EMF flash."
-          }
+          },
+          "subtopics": [
+            {
+              "id": "not-the-payout",
+              "title": "Not the Payout",
+              "description": "Not the Payout",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Not the Payout\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            }
+          ]
         },
         {
           "id": "perceived-knowledge-lies",
@@ -1650,7 +1941,30 @@
             "title": "Perceived Knowledge (Lies)",
             "totalQuestions": 25,
             "description": "Test your grasp of Perceived Knowledge (Lies) — String 3, The Lie, Safety of Certainty, Mind Camp, and releasing intellect for a clean exit."
-          }
+          },
+          "subtopics": [
+            {
+              "id": "healthcare-compliance",
+              "title": "Healthcare Compliance",
+              "description": "Healthcare Compliance",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Healthcare Compliance\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "truthers-without-the-intel",
+              "title": "Truthers Without the Intel",
+              "description": "Truthers Without the Intel",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Truthers Without the Intel\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "trump-and-patton",
+              "title": "Trump and Patton",
+              "description": "Trump and Patton",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Trump and Patton\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            }
+          ]
         }
       ],
       "infographic_image": "images/alice/severing-artificial-simulation-strings-infographic.webp",
@@ -1783,6 +2097,27 @@
                 "totalQuestions": 25,
                 "description": "Test your grasp of Twin Flames — Sol-Systems, enforced separation, Pod Clusters, Grey reincarnation routing, and liberation at the EMF flash."
               }
+            },
+            {
+              "id": "micro-suns",
+              "title": "Micro Suns",
+              "description": "Micro Suns",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Micro Suns\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "taran-vessels",
+              "title": "Taran Vessels",
+              "description": "Taran Vessels",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Taran Vessels\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "pleiadians",
+              "title": "Pleiadians",
+              "description": "Pleiadians",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Pleiadians\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "infographic_image": "images/alice/return-to-eternal-reality-guide.webp",
@@ -1874,7 +2209,23 @@
                 "title": "Fake Alien Invasion",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Fake Alien Invasion — Project Bluebeam, EBS trauma, Sky Event, EMF flash, 97% removal, and the soul-architecture fail-safe against future parasitic takeover."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "project-blue-beam",
+                  "title": "Project Blue Beam",
+                  "description": "Project Blue Beam",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Project Blue Beam\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                },
+                {
+                  "id": "craft-that-do-not-land",
+                  "title": "Craft That Do Not Land",
+                  "description": "Craft That Do Not Land",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Craft That Do Not Land\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             },
             {
               "id": "emf-white-flash",
@@ -1905,6 +2256,41 @@
                 "totalQuestions": 25,
                 "description": "Test your grasp of EMF White Flash — 30-second purge, 97% NPC deletion, G.A.A. overlay strip, and liberation of true souls."
               }
+            },
+            {
+              "id": "social-media-window",
+              "title": "Social Media Window",
+              "description": "Social Media Window",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Social Media Window\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "scare-events",
+              "title": "Scare Events",
+              "description": "Scare Events",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Scare Events\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "the-first-to-go",
+              "title": "The First to Go",
+              "description": "The First to Go",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# The First to Go\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "the-sky-event",
+              "title": "The Sky Event",
+              "description": "The Sky Event",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# The Sky Event\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "520-million",
+              "title": "520 Million",
+              "description": "520 Million",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# 520 Million\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "infographic_image": "images/alice/our-physical-reality-is-changing.webp",
@@ -1966,7 +2352,16 @@
                 "title": "Non-Player Characters",
                 "totalQuestions": 25,
                 "description": "Test your grasp of Non-Player Characters — 97% artificial mass, Replica Souls, Mind Camp, D.U.M.B.S., and deletion at the Flash."
-              }
+              },
+              "subtopics": [
+                {
+                  "id": "scripted-avenues",
+                  "title": "Scripted Avenues",
+                  "description": "Scripted Avenues",
+                  "topic_image": "images/alice/placeholder.webp",
+                  "report": "# Scripted Avenues\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                }
+              ]
             },
             {
               "id": "97-percent-population",
@@ -2027,6 +2422,20 @@
                 "totalQuestions": 25,
                 "description": "Test your grasp of Recycled Souls — 4th density replica power, reset orphan crops, ghost illusions, and the EMF purge of the artificial majority."
               }
+            },
+            {
+              "id": "child-npcs",
+              "title": "Child NPCs",
+              "description": "Child NPCs",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Child NPCs\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+            },
+            {
+              "id": "monster-nightmares",
+              "title": "Monster Nightmares",
+              "description": "Monster Nightmares",
+              "topic_image": "images/alice/placeholder.webp",
+              "report": "# Monster Nightmares\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
             }
           ],
           "infographic_image": "images/alice/97-percent-synthetic-population-reality.webp",
