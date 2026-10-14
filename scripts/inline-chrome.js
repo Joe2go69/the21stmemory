@@ -77,6 +77,11 @@ let skipped = 0;
 for (const file of htmlFiles) {
   const filePath = path.join(ROOT, file);
   const html = fs.readFileSync(filePath, 'utf8');
+  // Redirect-only pages (meta refresh) intentionally have no nav/footer.
+  if (/<meta[^>]+http-equiv=["']refresh["']/i.test(html)) {
+    console.log(`Redirect page, no chrome needed → ${file}`);
+    continue;
+  }
   const result = inlineChrome(html, file);
 
   if (!result) {
