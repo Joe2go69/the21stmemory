@@ -23477,37 +23477,44 @@ a.quiz-hub-card.has-resume {
    Topic tree — collapsible category cards (items 16–20)
    ============================================= */
 .topic-category-head {
-  display: flex;
-  align-items: stretch;
-  gap: 0.5rem;
+  position: relative;
 }
 .topic-category-head > .topic-root-card,
 .topic-category-head > .topic-category-title--bare {
-  flex: 1 1 auto;
+  display: grid;
+  width: 100%;
   min-width: 0;
   margin-bottom: 0 !important;
 }
 .topic-category-body { margin-top: 1.5rem; }
 .topic-category-body[hidden] { display: none !important; }
+/* Chevron lives inside the card: glass chip in the top-right corner */
 .topic-category-disclosure {
-  flex: 0 0 2.75rem;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 3;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.75rem;
-  min-height: 2.75rem;
+  width: 2.5rem;
+  height: 2.5rem;
   padding: 0;
-  border: 1px solid rgba(167, 139, 250, 0.22);
-  border-radius: 14px;
-  background: #12101f;
-  color: #EDE4FF;
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  border-radius: 999px;
+  background: rgba(15, 10, 31, 0.78);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  color: #C4B5FD;
   cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
 }
 .topic-category-disclosure:hover,
 .topic-category-disclosure:focus-visible {
-  border-color: rgba(167, 139, 250, 0.55);
+  border-color: rgba(167, 139, 250, 0.7);
+  background: rgba(91, 33, 182, 0.45);
   color: #ffffff;
 }
 .topic-category-disclosure:focus-visible {
@@ -23521,13 +23528,24 @@ a.quiz-hub-card.has-resume {
 .topic-category-block[data-expanded="true"] > .topic-category-head .topic-category-disclosure .chevron {
   transform: rotate(90deg);
 }
-/* Collapsed = compact header: title + count only */
+/* Collapsed = compact row: thumbnail + title/count + chevron */
 .topic-category-block.is-collapsed { margin-bottom: 1rem !important; }
 .topic-category-block.is-collapsed .topic-root-card {
-  grid-template-columns: 1fr !important;
+  grid-template-columns: 4.5rem minmax(0, 1fr) !important;
+  align-items: center !important;
+  gap: 0.9rem;
   min-height: 0 !important;
+  padding: 0.6rem 3.75rem 0.6rem 0.6rem !important;
 }
-.topic-category-block.is-collapsed .topic-root-media,
+.topic-category-block.is-collapsed .topic-root-media {
+  width: 4.5rem !important;
+  height: 4.5rem !important;
+  min-height: 0 !important;
+  border-radius: 12px;
+  border: 1px solid rgba(167, 139, 250, 0.22);
+  align-self: center !important;
+}
+.topic-category-block.is-collapsed .topic-root-media-fade { display: none !important; }
 .topic-category-block.is-collapsed .topic-category-desc,
 .topic-category-block.is-collapsed .topic-root-footer,
 .topic-category-block.is-collapsed .topic-badge--corner {
@@ -23538,13 +23556,21 @@ a.quiz-hub-card.has-resume {
   transform: none !important;
   min-height: 0 !important;
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.35rem 0.75rem;
-  padding-top: 0.8rem !important;
-  padding-bottom: 0.8rem !important;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+  padding: 0 !important;
 }
 .topic-category-block.is-collapsed .topic-category-title { margin: 0 !important; }
+.topic-category-block.is-collapsed .topic-category-disclosure {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.topic-category-block.is-collapsed .topic-category-head > .topic-category-title--bare {
+  padding: 0.9rem 3.75rem 0.9rem 1rem;
+  border-radius: var(--radius-card);
+  background: #12101f;
+}
 .topic-category-title--bare {
   display: flex;
   align-items: center;

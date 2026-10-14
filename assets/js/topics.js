@@ -246,7 +246,7 @@ function renderCategoryBlock(sourceId, category, index = 0) {
 
   const rootInner = `
           <div class="topic-root-media">
-            ${renderTopicImage(category.topic_image, `${category.title} visual`, { isPlaceholder: isPh, compact: true, deferred: !expanded })}
+            ${renderTopicImage(category.topic_image, `${category.title} visual`, { isPlaceholder: isPh, compact: true })}
             <span class="topic-root-media-fade" aria-hidden="true"></span>
           </div>
           <div class="topic-root-content">
@@ -274,8 +274,8 @@ function renderCategoryBlock(sourceId, category, index = 0) {
   return `
     <div class="mb-12 relative topic-category-block${expanded ? '' : ' is-collapsed'}" data-category-id="${TopicUtils.escapeAttr(category.id)}" data-category-state="${TopicUtils.escapeAttr(stateKey)}" data-expanded="${expanded ? 'true' : 'false'}">
       <div class="topic-category-head">
-        ${disclosure}
         ${showRoot ? rootCard : `<span class="topic-category-title topic-category-title--bare">${TopicUtils.escapeHtml(category.title)}</span>`}
+        ${disclosure}
       </div>
       <div id="${TopicUtils.escapeAttr(bodyId)}" class="topic-category-body" data-category-body${expanded ? '' : ' hidden'}>
         ${subsHTML}
