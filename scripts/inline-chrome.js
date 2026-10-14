@@ -27,10 +27,15 @@ const footerData = JSON.parse(
   fs.readFileSync(path.join(ROOT, 'assets/data/footer.json'), 'utf8')
 );
 
-const navbarHTML = renderNavbar(navbarData);
-const footerHTML = renderFooter(footerData);
+// 404.html is served at any depth (/dive/x/nope, /quiz/x/nope), so its chrome
+// must use root-absolute paths. Every other root page keeps relative paths.
+const ROOT_ABSOLUTE_FILES = new Set(['404.html']);
 
-function inlineChrome(html) {
+function inlineChrome(html, file) {
+  const basePath = ROOT_ABSOLUTE_FILES.has(file) ? '/' : '';
+  const navbarHTML = renderNavbar(navbarData, { basePath });
+  const footerHTML = renderFooter(footerData, { basePath });
+
   let navUpdated = false;
   let footerUpdated = false;
 
@@ -72,7 +77,7 @@ let skipped = 0;
 for (const file of htmlFiles) {
   const filePath = path.join(ROOT, file);
   const html = fs.readFileSync(filePath, 'utf8');
-  const result = inlineChrome(html);
+  const result = inlineChrome(html, file);
 
   if (!result) {
     console.warn(`Skip ${file}: nav/footer block not found`);
