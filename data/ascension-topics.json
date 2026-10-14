@@ -259,7 +259,8 @@
         "totalQuestions": 25,
         "description": "Test your understanding of Essence of the Transmission — quartz conductors, the solar pulse, three flashes, the portal, and the dual path of homecoming or sanctuary."
       },
-      "is_main_root": true
+      "is_main_root": true,
+      "added": "2026-09-03"
     },
     {
       "id": "quartz-crystal-technology",
@@ -352,7 +353,8 @@
                 "title": "Ground Placement",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Ground Placement — quartz conductors, Looking Glass planting, the EMP grid, and the three-flash sequence."
-              }
+              },
+              "added": "2026-09-05"
             },
             {
               "id": "time-travel-preparation",
@@ -383,7 +385,8 @@
                 "title": "Time Travel Preparation",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Time Travel Preparation — the Looking Glass jump, implanted quartz conductors, and the three-flash sequence that opens the portal."
-              }
+              },
+              "added": "2026-09-05"
             }
           ],
           "quiz": {
@@ -391,7 +394,8 @@
             "title": "Implanted Conductors",
             "totalQuestions": 25,
             "description": "Test your understanding of Implanted Conductors — quartz memory devices, Looking Glass planting, the EMP grid, and the three-flash sequence."
-          }
+          },
+          "added": "2026-09-04"
         },
         {
           "id": "memory-technology",
@@ -453,7 +457,8 @@
                 "title": "Crystalline Storage",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Crystalline Storage — quartz memory conductors, the EMP grid, and the three-flash restoration sequence."
-              }
+              },
+              "added": "2026-09-06"
             },
             {
               "id": "plasma-connection",
@@ -484,14 +489,16 @@
                 "title": "Plasma Connection",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Plasma Connection — new aether, rising quartz, plasma crystalline, the EMP grid, and the three flashes."
-              }
+              },
+              "added": "2026-09-07"
             },
             {
               "id": "other-world-conductors",
               "title": "Other-World Conductors",
               "description": "Other-World Conductors",
               "topic_image": "images/ascension/placeholder.webp",
-              "report": "# Other-World Conductors\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# Other-World Conductors\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "added": "2026-10-14"
             }
           ],
           "quiz": {
@@ -499,7 +506,8 @@
             "title": "Memory Technology",
             "totalQuestions": 25,
             "description": "Test your understanding of Memory Technology — quartz conductors, the cosmic memory bank, the EMP grid, and the three-flash sequence."
-          }
+          },
+          "added": "2026-09-06"
         },
         {
           "id": "internal-timers",
@@ -536,7 +544,8 @@
             "title": "Internal Timers",
             "totalQuestions": 25,
             "description": "Test your understanding of Internal Timers — pre-programmed quartz triggers, crystal emergence, and the unstoppable physical sequence of planetary ascension."
-          }
+          },
+          "added": "2026-09-08"
         }
       ],
       "quiz": {
@@ -544,7 +553,8 @@
         "title": "Quartz Crystal Technology",
         "totalQuestions": 25,
         "description": "Test your understanding of Quartz Crystal Technology — pre-implanted subterranean conductors, Looking Glass seeding, the EMP Grid, and the three flashes of transition."
-      }
+      },
+      "added": "2026-09-03"
     },
     {
       "id": "solar-activation",
@@ -637,7 +647,8 @@
                 "title": "Kai Activation",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Kai Activation — the boom command, quartz grid, three flashes, and dual-path extraction."
-              }
+              },
+              "added": "2026-09-09"
             },
             {
               "id": "bright-light-charge",
@@ -668,7 +679,8 @@
                 "title": "Bright Light Charge",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Bright Light Charge — the sustained solar illumination, quartz conductors, EMP grid, and tri-flash sequence."
-              }
+              },
+              "added": "2026-09-09"
             }
           ],
           "quiz": {
@@ -676,7 +688,8 @@
             "title": "Sun Flash Event",
             "totalQuestions": 25,
             "description": "Test your understanding of Sun Flash Event — solar ignition, the EMP grid, the three-flash sequence, and dual-path sorting."
-          }
+          },
+          "added": "2026-09-09"
         },
         {
           "id": "aether-interaction",
@@ -739,7 +752,8 @@
                   "title": "Free Energy",
                   "description": "Free Energy",
                   "topic_image": "images/ascension/placeholder.webp",
-                  "report": "# Free Energy\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                  "report": "# Free Energy\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+                  "added": "2026-10-14"
                 }
               ],
               "quiz": {
@@ -747,7 +761,8 @@
                 "title": "New Aether Reaction",
                 "totalQuestions": 25,
                 "description": "Test your understanding of New Aether Reaction — solar E.M. pulses, quartz, the EMP grid, plasma crystalline, and the three-flash sequence."
-              }
+              },
+              "added": "2026-09-10"
             },
             {
               "id": "positive-frequencies",
@@ -778,7 +793,8 @@
                 "title": "Positive Frequencies",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Positive Frequencies — New Aether, E.M. pulses, the EMP grid, plasma crystalline, and the three-flash sequence."
-              }
+              },
+              "added": "2026-09-10"
             }
           ],
           "quiz": {
@@ -786,7 +802,8 @@
             "title": "Aether Interaction",
             "totalQuestions": 25,
             "description": "Test your understanding of Aether Interaction — the New Aether, plasma crystalline, EMP grid, density upgrades, and the four-stage flash sequence."
-          }
+          },
+          "added": "2026-09-09"
         },
         {
           "id": "em-pulses",
@@ -823,7 +840,8 @@
             "title": "E.M. Pulses",
             "totalQuestions": 25,
             "description": "Test your understanding of E.M. Pulses — solar ignition, the EMP Grid, quartz coupling, and the three-flash sequence."
-          }
+          },
+          "added": "2026-09-10"
         }
       ],
       "quiz": {
@@ -831,7 +849,8 @@
         "title": "Solar Activation",
         "totalQuestions": 25,
         "description": "Test your understanding of Solar Activation — Kai’s ignition, the charging light, the EMP grid, and the three flashes."
-      }
+      },
+      "added": "2026-09-08"
     },
     {
       "id": "the-three-flashes",
@@ -924,7 +943,8 @@
                 "title": "Jump Backward",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Jump Backward — the First Flash temporal reversal that restores original consciousness and uploads latent memory."
-              }
+              },
+              "added": "2026-09-11"
             },
             {
               "id": "memory-upload",
@@ -955,7 +975,8 @@
                 "title": "Memory Upload",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Memory Upload — the bio-quantum restoration of original memory and divine identity into the physical vessel."
-              }
+              },
+              "added": "2026-09-11"
             }
           ],
           "quiz": {
@@ -963,7 +984,8 @@
             "title": "First Flash",
             "totalQuestions": 25,
             "description": "Test your understanding of First Flash — the backward temporal pulse that recovers original memory and restores the original vessel."
-          }
+          },
+          "added": "2026-09-10"
         },
         {
           "id": "second-flash",
@@ -994,7 +1016,8 @@
             "title": "Second Flash",
             "totalQuestions": 25,
             "description": "Test your understanding of Second Flash — the forward-vector pulse, timeline convergence, and vessel restoration that close the temporal loop."
-          }
+          },
+          "added": "2026-09-11"
         },
         {
           "id": "third-flash",
@@ -1025,7 +1048,8 @@
             "title": "Third Flash",
             "totalQuestions": 25,
             "description": "Test your understanding of Third Flash — the final pulse that opens the portal, lifts those of the right vibration, and leaves the surface as a 2nd-realm healing sanctuary."
-          }
+          },
+          "added": "2026-09-11"
         }
       ],
       "quiz": {
@@ -1033,7 +1057,8 @@
         "title": "The Three Flashes",
         "totalQuestions": 25,
         "description": "Test your understanding of The Three Flashes — solar-quartz EMP coupling, the three-pulse sequence, portal elevation, and terrestrial healing."
-      }
+      },
+      "added": "2026-09-10"
     },
     {
       "id": "healing-and-ascension",
@@ -1095,7 +1120,8 @@
             "title": "Healing Sanctuaries",
             "totalQuestions": 25,
             "description": "Test your understanding of Healing Sanctuaries — continental post-flash restoration, 2nd-realm supervision, and the path that leaves no soul behind."
-          }
+          },
+          "added": "2026-09-12"
         },
         {
           "id": "ascension-criteria",
@@ -1127,7 +1153,8 @@
               "title": "DNA Strand",
               "description": "DNA Strand",
               "topic_image": "images/ascension/placeholder.webp",
-              "report": "# DNA Strand\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# DNA Strand\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "added": "2026-10-14"
             }
           ],
           "quiz": {
@@ -1135,14 +1162,16 @@
             "title": "Ascension Criteria",
             "totalQuestions": 25,
             "description": "Test your understanding of Ascension Criteria — the vibrational threshold of love, empathy, and kindness that qualifies 3rd Flash Portal transit or sanctuary healing."
-          }
+          },
+          "added": "2026-09-12"
         },
         {
           "id": "do-not-react",
           "title": "Do Not React",
           "description": "Do Not React",
           "topic_image": "images/ascension/placeholder.webp",
-          "report": "# Do Not React\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+          "report": "# Do Not React\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+          "added": "2026-10-14"
         }
       ],
       "quiz": {
@@ -1150,7 +1179,8 @@
         "title": "Healing and Ascension",
         "totalQuestions": 25,
         "description": "Test your understanding of Healing and Ascension — quartz grids, the three-flash sequence, portal lift, and continental healing sanctuaries that restore every soul."
-      }
+      },
+      "added": "2026-09-12"
     },
     {
       "id": "supervisory-oversight",
@@ -1212,7 +1242,8 @@
             "title": "ET Support",
             "totalQuestions": 25,
             "description": "Test your understanding of ET Support — solar triggers, quartz-grid mechanics, and post-flash sanctuary governance."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "organizational-alliances",
@@ -1243,7 +1274,8 @@
             "title": "Organizational Alliances",
             "totalQuestions": 25,
             "description": "Test your understanding of Organizational Alliances — GAA, Space Force, 2nd Realm ETs, and continental healing sanctuaries."
-          }
+          },
+          "added": "2026-09-13"
         }
       ],
       "quiz": {
@@ -1251,7 +1283,8 @@
         "title": "Supervisory Oversight",
         "totalQuestions": 25,
         "description": "Test your understanding of Supervisory Oversight — compassionate higher-density governance, healing sanctuaries, and the alliances that restore the new known lands."
-      }
+      },
+      "added": "2026-09-13"
     },
     {
       "id": "the-homecoming",
@@ -1313,7 +1346,8 @@
             "title": "Portal Transition",
             "totalQuestions": 25,
             "description": "Test your understanding of Portal Transition — the plasma-crystalline gateway, three flashes, and the Homecoming lift through the portal."
-          }
+          },
+          "added": "2026-09-16"
         },
         {
           "id": "unified-reality",
@@ -1345,7 +1379,8 @@
               "title": "Pineal and Vessel",
               "description": "Pineal and Vessel",
               "topic_image": "images/ascension/placeholder.webp",
-              "report": "# Pineal and Vessel\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# Pineal and Vessel\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "added": "2026-10-14"
             }
           ],
           "quiz": {
@@ -1353,21 +1388,24 @@
             "title": "Unified Reality",
             "totalQuestions": 25,
             "description": "Test your understanding of Unified Reality — the 3rd realm collapse into the 2nd realm, three flashes, and The Homecoming."
-          }
+          },
+          "added": "2026-09-16"
         },
         {
           "id": "four-elements",
           "title": "Four Elements",
           "description": "Four Elements",
           "topic_image": "images/ascension/placeholder.webp",
-          "report": "# Four Elements\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+          "report": "# Four Elements\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+          "added": "2026-10-14"
         },
         {
           "id": "scare-events",
           "title": "Scare Events",
           "description": "Scare Events",
           "topic_image": "images/ascension/placeholder.webp",
-          "report": "# Scare Events\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+          "report": "# Scare Events\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+          "added": "2026-10-14"
         }
       ],
       "quiz": {
@@ -1375,7 +1413,8 @@
         "title": "The Homecoming",
         "totalQuestions": 25,
         "description": "Test your understanding of The Homecoming — three flashes, original-vessel restoration, portal transit, and Healing Sanctuaries with zero harm."
-      }
+      },
+      "added": "2026-09-13"
     }
   ]
 }

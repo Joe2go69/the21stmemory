@@ -66,6 +66,7 @@ function stripTopic(node, outDir, written) {
     topic_image: node.topic_image || '',
     is_placeholder: isPlaceholder(node)
   };
+  if (node.added) light.added = node.added;
   if (node.is_main_root) light.is_main_root = true;
   if (node.video_language_count) light.video_language_count = node.video_language_count;
 

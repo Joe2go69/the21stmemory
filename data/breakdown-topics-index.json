@@ -14,6 +14,7 @@
       "description": "The cornerstone summary of the Mega Breakdown transmission — the final stages of the Great Awakening, the Great Purge, and the path home for resonating souls.",
       "topic_image": "images/breakdown/mega-breakdown-essense.webp",
       "is_placeholder": false,
+      "added": "2026-07-19",
       "is_main_root": true,
       "video_language_count": 12
     },
@@ -23,6 +24,7 @@
       "description": "The phased Great Purge — from parasite targeting through truth disclosure and stabilization.",
       "topic_image": "images/breakdown/the-purge-phases.webp",
       "is_placeholder": false,
+      "added": "2026-07-19",
       "subtopics": [
         {
           "id": "phase-one-three",
@@ -30,27 +32,31 @@
           "description": "The critical initial strikes of the Great Purge — covert neutralization of global leadership, cultural influence, and underground illicit economies.",
           "topic_image": "images/breakdown/phase-one-three.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "targeting-parasites",
               "title": "Targeting Parasites",
               "description": "The systematic dismantling of the parasitic control structure occurred in a highly coordinated, top-down sequence known as The Great Purge.",
               "topic_image": "images/breakdown/targeting-parasites.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "infrastructure-sweep",
               "title": "Infrastructure Sweep",
               "description": "The Infrastructure Sweep constitutes the critical second phase of the overarching Great Purge, a systematic, top-down operation to dismantle parasitic control over the realm.",
               "topic_image": "images/breakdown/infrastructure-sweep.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "underground-dismantling",
               "title": "Underground Dismantling",
               "description": "The Underground Dismantling marks the decisive physical and financial strike against the dark controllers, executed as Phase Three: 3rd Realm Collapse of The Great Purge.",
               "topic_image": "images/breakdown/underground-dismantling.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -60,27 +66,31 @@
           "description": "The crucial operational bridge between covert dismantling and overt revelation — narrative maintenance, trigger events, and the lockdown window.",
           "topic_image": "images/breakdown/phases-four-six.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "narrative-maintenance",
               "title": "Narrative Maintenance",
               "description": "Narrative Maintenance is the critical fourth phase of The Great Purge, operating as an essential psychological holding pattern to keep sleepers docile through fabricated leadership optics until the mass reveal window.",
               "topic_image": "images/breakdown/narrative-maintenance.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "trigger-events",
               "title": "Trigger Events",
               "description": "Trigger Events constitute the pivotal fifth phase of The Great Purge, operating as a controlled escalation of global tension to fracture the 3D illusion without inducing total panic.",
               "topic_image": "images/breakdown/trigger-events.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "lockdown-window",
               "title": "Lockdown Window",
               "description": "The Lockdown Window acts as the critical physical and informational containment phase of The Great Purge, establishing absolute control through visible military deployment and communications restrictions before the E.B.S. truth broadcast.",
               "topic_image": "images/breakdown/lockdown-window.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -90,20 +100,23 @@
           "description": "The culmination of The Great Purge — the E.B.S. truth broadcast that shatters the 3D illusion and the stabilization period that secures the realm through tribunals and justice.",
           "topic_image": "images/breakdown/phase-seven-eight.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "truth-disclosure",
               "title": "Truth Disclosure",
               "description": "Phase Seven and Phase Eight represent the climax of the Great Awakening, a controlled operation designed to permanently shatter the parasitic illusion through absolute truth and secure the realm for its ascension processes.",
               "topic_image": "images/breakdown/truth-disclosure.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "stabilization-process",
               "title": "Stabilization Process",
               "description": "The critical operational bridge ensuring humanity survives the transition from Phase Seven (E.B.S.) to Phase Eight through military, societal, and energetic stabilization protocols.",
               "topic_image": "images/breakdown/stabilization-process.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         }
@@ -115,6 +128,7 @@
       "description": "The Blackout Timeline, also referred to as The Cut, is the highly controlled, surgical 72-hour period that initiates the collapse of the third-density parasitic overlay.",
       "topic_image": "images/breakdown/blackout-timeline.webp",
       "is_placeholder": false,
+      "added": "2026-07-19",
       "subtopics": [
         {
           "id": "the-first-72-hours",
@@ -122,27 +136,31 @@
           "description": "The first 72 hours of the blackout timeline is a surgical, highly orchestrated window designed to dismantle the third-density parasitic overlay.",
           "topic_image": "images/breakdown/the-first-72-hours.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "comms-blackout",
               "title": "Comms Blackout",
               "description": "The Communications Blackout is a meticulously timed, deliberate operation engineered to shatter the false reality of the 3D overlay, initiating The First 72 Hours of transition.",
               "topic_image": "images/breakdown/comms-blackout.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "npc-glitching",
               "title": "NPC Glitching",
               "description": "The NPC Code Glitch is the inevitable, catastrophic breakdown of simulated background populations during The First 72 Hours of the Communications Blackout.",
               "topic_image": "images/breakdown/npc-glitching.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "frequency-fracture",
               "title": "Frequency Fracture",
               "description": "The Frequency Fracture is the true energetic mechanism behind the event outwardly perceived as the communications blackout during The First 72 Hours of transition.",
               "topic_image": "images/breakdown/frequency-fracture-card.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -152,48 +170,55 @@
           "description": "During the opening hours of the Blackout Timeline, humanity experiences a sequence of intense biological, environmental, and atmospheric symptoms — the direct physiological results of the 3D Overlay fracturing.",
           "topic_image": "images/breakdown/physical-indicators.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "skull-buzzing",
               "title": "Skull Buzzing",
               "description": "A subtle buzzing in the skull is a primary physiological indicator of Static Build Up during the initial fracturing of the false 3D reality — the body acting as a biological receiver of the frequency shift.",
               "topic_image": "images/breakdown/skull-buzzing.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "muted-environment",
               "title": "Muted Environment",
               "description": "A primary environmental and physical indicator of the false 3D reality collapsing — sky and surroundings feel muted and visually flatter as the holographic projection glitches.",
               "topic_image": "images/breakdown/muted-environment.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "atmospheric-pop",
               "title": "Atmospheric Pop",
               "description": "A sudden drop in atmospheric pressure at the exact moment main communication cables are severed — the definitive physical and energetic snap that pierces the Parasitic Overlay and reveals momentary field clarity.",
               "topic_image": "images/breakdown/atmospheric-pop.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "drop-in-tone",
               "title": "Drop in Tone",
               "description": "Drop in Tone",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "sharp-edge",
               "title": "Sharp Edge",
               "description": "Sharp Edge",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "silence-before-the-snap",
               "title": "Silence Before the Snap",
               "description": "Silence Before the Snap",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         },
@@ -203,27 +228,31 @@
           "description": "The execution of the E.B.S. (Emergency Broadcast System), set against the backdrop of the Communications Blackout, is a highly coordinated Whitehat/G.A.A. Production designed to shatter the 3D illusion of the masses.",
           "topic_image": "images/breakdown/ebs-operation.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "military-broadcasts",
               "title": "Military Broadcasts",
               "description": "The EBS Operation (Emergency Broadcast System) is a highly synchronized, multi-stage intervention coordinated by the White Hats and allied military forces to systematically dismantle the Parasitic Overlay and awaken humanity.",
               "topic_image": "images/breakdown/military-broadcasts.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "mass-reveal",
               "title": "Mass Reveal",
               "description": "The Mass Reveal is the critical juncture within the Great Awakening, executed via the EBS Operation to systematically dismantle the parasitic system and shatter the false reality of humanity.",
               "topic_image": "images/breakdown/mass-reveal.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "truth-packages",
               "title": "Truth Packages",
               "description": "The E.B.S. operation disseminates Truth Packages over a 72+ hour period after military forces seize all media channels — the ultimate catalyst for the Great Awakening that forces the collective to confront the parasitic overlay and elite crimes.",
               "topic_image": "images/breakdown/truth-packages.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -233,27 +262,31 @@
           "description": "Scare Sequence",
           "topic_image": "images/breakdown/placeholder.webp",
           "is_placeholder": true,
+          "added": "2026-10-14",
           "subtopics": [
             {
               "id": "ai-war-theatre",
               "title": "A.I. War Theatre",
               "description": "A.I. War Theatre",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "staged-world-war-iii",
               "title": "Staged World War III",
               "description": "Staged World War III",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "project-blue-beam",
               "title": "Project Blue Beam",
               "description": "Project Blue Beam",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "scripted-exposure",
@@ -261,20 +294,23 @@
               "description": "Scripted Exposure",
               "topic_image": "images/breakdown/placeholder.webp",
               "is_placeholder": true,
+              "added": "2026-10-14",
               "subtopics": [
                 {
                   "id": "digital-id-script",
                   "title": "Digital ID Script",
                   "description": "Digital ID Script",
                   "topic_image": "images/breakdown/placeholder.webp",
-                  "is_placeholder": true
+                  "is_placeholder": true,
+                  "added": "2026-10-14"
                 },
                 {
                   "id": "scripted-virus",
                   "title": "Scripted Virus",
                   "description": "Scripted Virus",
                   "topic_image": "images/breakdown/placeholder.webp",
-                  "is_placeholder": true
+                  "is_placeholder": true,
+                  "added": "2026-10-14"
                 }
               ]
             }
@@ -288,6 +324,7 @@
       "description": "Reality as a multi-layered frequency projection within the CUBE — the parasitic overlay, Great Dome of 178 worlds, solid-perception holography, and the crystalline Second Realm beneath the false skin.",
       "topic_image": "images/breakdown/reality-constructs.webp",
       "is_placeholder": false,
+      "added": "2026-07-19",
       "subtopics": [
         {
           "id": "3d-overlay",
@@ -295,27 +332,31 @@
           "description": "The 3D Overlay (Parasitic Overlay) is a holographic false skin projected over living crystalline structures within the CUBE — masking true reality through perception-based solidity, frequency corridors, and sensory manipulation until frequency collapse reveals the Second Realm.",
           "topic_image": "images/breakdown/3d-overlay.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "frequency-trick",
               "title": "Frequency Trick",
               "description": "The Frequency Trick is the parasitic mechanism that tunes the 3D Overlay to hijack human senses, making dead dense matter appear more real than the living crystalline temple beneath — solid-perception holography, sensory modulation, and anti-resonance architecture that traps consciousness in weight and separation.",
               "topic_image": "images/breakdown/frequency-trick.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "perception-solidity",
               "title": "Perception Solidity",
               "description": "Physical hardness is a frequency trick — holographic projection fields make brick, metal, and glass feel solid, while high resonance fractures the overlay and reveals the fluid crystalline reality underneath.",
               "topic_image": "images/breakdown/perception-solidity.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "matrix-scaffolding",
               "title": "Matrix Scaffolding",
               "description": "Matrix Scaffolding is the hollow A.I.-driven frequency framework that projects the illusion of physical solidity, distance, and continuity over the crystalline Known Lands — and it is actively crumbling as cosmic frequencies rise and the Great Awakening accelerates.",
               "topic_image": "images/breakdown/matrix-scaffolding.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -325,27 +366,31 @@
           "description": "The Cube System is the master frequency server and crystalline hard drive housing all maps, overlays, grids, and domes — a layered electromagnetic containment where reality is frequency shift, not outer space, and parasitic overlays fracture as resonating souls restore the original harmonic field.",
           "topic_image": "images/breakdown/the-cube-system.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "hard-drive-framework",
               "title": "Hard Drive Framework",
               "description": "The Hard Drive Framework is the structural foundation of existence — The CUBE Containment as a multi-dimensional frequency server housing all realities, domes, and simulations, with crystalline hard drives recording every soul journey across layered timelines.",
               "topic_image": "images/breakdown/hard-drive-framework.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "eight-domes",
               "title": "Eight Domes",
               "description": "The Eight Domes are interwoven frequency architectures within The Cube System — pure crystalline training grounds hijacked into inverted matrices of control, amnesia, and energy harvesting, now fracturing as the Spirit Tree and original harmonic design restore.",
               "topic_image": "images/breakdown/eight-domes.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "layered-simulations",
               "title": "Layered Simulations",
               "description": "Layered Simulations reveal that geography and distance are perceptual overlays within The CUBE — interwoven frequency fields stacked like transparent sheets, with travel as frequency shifting through phasing corridors rather than physical miles.",
               "topic_image": "images/breakdown/layered-simulations.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -355,27 +400,31 @@
           "description": "The Original Realm (Second Realm / Tara) is the true 5D+ crystalline baseline beneath the 3D parasitic overlay — Cube Containment architecture, Spirit Tree inversion, and frequency collapse that reveals the living temple.",
           "topic_image": "images/breakdown/original-realm.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "crystalline-architecture",
               "title": "Crystalline Architecture",
               "description": "Crystalline Architecture is the living electro-magnetic framework of reality — Crystal Light-Worlds crystallized into the Original Realm and Great Dome, true Sol (Atlantian/Tartarian) geometry versus parasitic 3D cages, crystals as hard drives, and the reveal of the Crystalline Temple beneath the holographic overlay.",
               "topic_image": "images/breakdown/crystalline-architecture.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "vibrant-reality",
               "title": "Vibrant Reality",
               "description": "The Vibrant Reality is the restored perception of the Original Realm — instantaneous Frequency Collapse of the parasitic overlay, holographic pixelation, crystalline coastlines, free energy, and the living Crystalline Temple as a global med bed.",
               "topic_image": "images/breakdown/vibrant-reality.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "second-realm",
               "title": "Second Realm",
               "description": "The Second Realm is the restored crystalline reality revealed when the Parasitic Overlay collapses — Frequency Alignment, split perception for Resonating Sols vs sleepers, free energy, and the return of the original Crystalline Temple.",
               "topic_image": "images/breakdown/second-realm.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -384,7 +433,8 @@
           "title": "Sound to Light",
           "description": "Sound to Light",
           "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-10-14"
         },
         {
           "id": "travel-is-frequency",
@@ -392,20 +442,23 @@
           "description": "Travel Is Frequency",
           "topic_image": "images/breakdown/placeholder.webp",
           "is_placeholder": true,
+          "added": "2026-10-14",
           "subtopics": [
             {
               "id": "communication-cables",
               "title": "Communication Cables",
               "description": "Communication Cables",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "seven-overlay-bands",
               "title": "Seven Overlay Bands",
               "description": "Seven Overlay Bands",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         },
@@ -414,14 +467,16 @@
           "title": "Projection Dome Tech",
           "description": "Projection Dome Tech",
           "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-10-14"
         },
         {
           "id": "inner-earth-layers",
           "title": "Inner Earth Layers",
           "description": "Inner Earth Layers",
           "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-10-14"
         }
       ]
     },
@@ -431,6 +486,7 @@
       "description": "Grid Systems are the living Crystalline Electro-Magnetic Framework of the CUBE — Nodes, Crystals, Ley-lines, and Harmonic Lenses connecting all realms, hijacked as Parasitic Overlay projectors and now recalibrating into one planetary Crystalline Temple.",
       "topic_image": "images/breakdown/grid-systems.webp",
       "is_placeholder": false,
+      "added": "2026-07-19",
       "subtopics": [
         {
           "id": "energy-nodes",
@@ -438,34 +494,39 @@
           "description": "Energy Nodes are the critical relay stations of the Crystalline Grid — Earth, Surface, Sky, and Inter-dimensional junctions that gather and pass life-force across realms, now restoring after parasitic hijack of the original Tartarian network.",
           "topic_image": "images/breakdown/energy-nodes.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "lava-core-nodes",
               "title": "Lava Core Nodes",
               "description": "Lava/Core Nodes are the deep-subterranean Earth Nodes of the Crystalline Web — molten-fire power cores at the plasma–crystalline junction that push life-force through ley-lines to feed the upper grid, stabilize magnetic resonance, and sustain the realm's planetary circuitry.",
               "topic_image": "images/breakdown/lava-core-nodes.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "harmonic-lenses",
               "title": "Harmonic Lenses",
               "description": "Harmonic Lenses are the frequency patterns that form around active Energy Nodes of the Crystalline Grid — living crystalline blooms that shape, focus, and redirect vibrational currents, originally feeding souls with Source energy and now reactivating after parasitic inversion.",
               "topic_image": "images/breakdown/harmonic-lenses.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "celestial-anchors",
               "title": "Celestial Anchors",
               "description": "Celestial Anchors are Sky Nodes — Crystalline Star-Nodes that project the holographic dome, once open stargates to higher realms, sealed as Zodiac locks by parasitic forces, and now reopening as living gates on the Light Web.",
               "topic_image": "images/breakdown/celestial-anchors.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "inter-dimensional-anchors",
               "title": "Inter-dimensional Anchors",
               "description": "Inter-dimensional Anchors",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         },
@@ -475,27 +536,31 @@
           "description": "Crystalline Networks are the living grid of the CUBE Containment — crystals as memory hard drives, Earth/Surface/Sky/Inter-dimensional Nodes, Harmonic Lenses, and the reactivating crystalline temple beneath the parasitic 3D overlay.",
           "topic_image": "images/breakdown/crystalline-networks.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "source-code-storage",
               "title": "Source Code Storage",
               "description": "Source Code Storage is the living memory architecture of the Crystalline Networks — planetary crystals and celestial Data Crystals as hard drives of reality, the Dome of Forgotten Gods as the origin memory vault, and symbiotic reactivation of Source Codes that collapses parasitic amnesia overlays.",
               "topic_image": "images/breakdown/source-code-storage.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "ley-line-optics",
               "title": "Ley Line Optics",
               "description": "Ley Line Optics are the organic fibre-optic conduits of the Crystalline Network — energetic lines of Source linking domes and dimensions through rivers, quartz veins, and Nodes, transmitting light, memory, and harmonic resonance beyond physical cables and artificial distance.",
               "topic_image": "images/breakdown/ley-line-optics.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "starseed-keys",
               "title": "Starseed Keys",
               "description": "Starseed Keys are ancient hidden crystals seeded across the Known Lands by Starseed Families — dormant activators of the Crystalline Network, triggered by Resonance Codes in awakened souls to collapse the Parasitic Overlay and restore the original harmonic realm.",
               "topic_image": "images/breakdown/starseed-keys.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -505,41 +570,47 @@
           "description": "The Spirit Tree was the central axis of consciousness and primary root node of the KNOWN LANDS — planted by Lyran Builder-Architects as the Great Dome's harmonic heart, uprooted by parasites into Valve Tech, yet still alive as the foundational energetic web awaiting reactivation.",
           "topic_image": "images/breakdown/the-spirit-tree.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "central-axis",
               "title": "Central Axis",
               "description": "The Central Axis is the Spirit Tree as the main axis of consciousness for the KNOWN LANDS — Axis Labernum, Hyperborea, Thuban (Aru-el-nai), the Valve hijack, and the reawakening of the living root web.",
               "topic_image": "images/breakdown/central-axis.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "hyperborean-heart",
               "title": "Hyperborean Heart",
               "description": "Hyperborea is the living resonance field and beating heart of the CUBE SYSTEM — cloaked as Antarctic ice — where the Spirit Tree once anchored Source Light, was uprooted into valve tech by Custodians and Greys, and still waits as a living root system for resonant reactivation.",
               "topic_image": "images/breakdown/hyperborean-heart.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "source-bridge",
               "title": "Source Bridge",
               "description": "The Spirit Tree as the supreme Source Bridge for the KNOWN LANDS — Axis Laburnum, Source Light, Lyran Builders-Architects, parasitic inversion via Black Cube Tech, and reactivation of the living root web by Resonating Sols.",
               "topic_image": "images/breakdown/source-bridge.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "hyperborea-valve",
               "title": "Hyperborea Valve",
               "description": "Hyperborea Valve",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "black-crystal-locks",
               "title": "Black Crystal Locks",
               "description": "Black Crystal Locks",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         },
@@ -548,7 +619,8 @@
           "title": "Star Forts and Obelisks",
           "description": "Star Forts and Obelisks",
           "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-10-14"
         },
         {
           "id": "star-nodes",
@@ -556,20 +628,23 @@
           "description": "Star Nodes",
           "topic_image": "images/breakdown/placeholder.webp",
           "is_placeholder": true,
+          "added": "2026-10-14",
           "subtopics": [
             {
               "id": "thuban-and-polaris",
               "title": "Thuban and Polaris",
               "description": "Thuban and Polaris",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "axis-laburnum",
               "title": "Axis Laburnum",
               "description": "Axis Laburnum",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         },
@@ -578,14 +653,16 @@
           "title": "Colour as Frequency",
           "description": "Colour as Frequency",
           "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-10-14"
         },
         {
           "id": "council-of-12-suns",
           "title": "Council of 12 Suns",
           "description": "Council of 12 Suns",
           "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-10-14"
         },
         {
           "id": "sun-and-moon",
@@ -593,13 +670,15 @@
           "description": "Sun and Moon",
           "topic_image": "images/breakdown/placeholder.webp",
           "is_placeholder": true,
+          "added": "2026-10-14",
           "subtopics": [
             {
               "id": "solar-pulses",
               "title": "Solar Pulses",
               "description": "Solar Pulses",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         }
@@ -611,6 +690,7 @@
       "description": "Healing Sanctuaries are pure frequency chambers of light, sound, and living crystal — Water Domes, Crystal Halls, and Star Pods — where traumatized true human souls stabilize, clear energetic damage, and prepare for higher evolutionary paths after the Mega Breakdown.",
       "topic_image": "images/breakdown/healing-sanctuaries.webp",
       "is_placeholder": false,
+      "added": "2026-07-19",
       "subtopics": [
         {
           "id": "water-domes",
@@ -618,27 +698,31 @@
           "description": "Water Domes are specialized emotional healing sanctuaries within the Healing Sanctuaries network — vast, cloaked pearl domes over crystalline waters where liquid sound extracts emotional density and restores harmonic resonance to true human souls.",
           "topic_image": "images/breakdown/water-domes.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "emotional-mending",
               "title": "Emotional Mending",
               "description": "Emotional Mending is the heart-restoration process within Water Domes — liquid sound dissolves grief, fear, guilt, and heartbreak, Source memory codes restore harmonic resonance, and Saferins from the Council of 12 Suns stabilize recovering souls.",
               "topic_image": "images/breakdown/emotional-mending.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "liquid-sound",
               "title": "Liquid Sound",
               "description": "Liquid Sound is the super-conductive vibrational state of water in Water Dome pools — extracting emotional density, infusing Source memory codes, and restoring harmonic resonance so traumatized souls can remember and re-align.",
               "topic_image": "images/breakdown/liquid-sound.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "memory-restoration",
               "title": "Memory Restoration",
               "description": "Memory Restoration is the vibrational recovery of a soul's cosmic identity within Water Domes — liquid sound clears emotional density, Source memory codes trigger vision and sound recall, and Ground Healers (Saferins/Saferons) stabilize recovering souls.",
               "topic_image": "images/breakdown/memory-restoration.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -648,27 +732,31 @@
           "description": "Crystal Halls are living crystal temples of mental and energetic healing hidden beneath cathedral and abbey overlays — crystal slabs hum harmonic frequencies, rainbow fractals dissolve mind-control damage, and Saferons stabilize souls in their crystalline body selves.",
           "topic_image": "images/breakdown/crystal-halls.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "mental-realignment",
               "title": "Mental Realignment",
               "description": "Mental Realignment is the mind-mending process within Crystal Halls — harmonic crystal slabs restore the light body grid, rainbow fractals and lungs of light dissolve parasitic overlays and mind control, and memory streams reconnect souls to sovereign clarity.",
               "topic_image": "images/breakdown/mental-realignment.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "rainbow-fractals",
               "title": "Rainbow Fractals",
               "description": "Rainbow Fractals are conscious multi-dimensional light structures on living crystal walls — frequency mirrors that crystallize sound harmonics, restore soul memory, and dissolve parasitic overlays through iridescent color-codes.",
               "topic_image": "images/breakdown/rainbow-fractals.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "overlay-clearing",
               "title": "Overlay Clearing",
               "description": "Overlay Clearing is the systematic dissolution of artificial low-frequency holographic containment within the Crystal Halls — parasitic overlays collapse to reveal living crystal temples under cathedral camouflage, and souls realign the light body grid to sovereign clarity.",
               "topic_image": "images/breakdown/overlay-clearing.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -678,27 +766,31 @@
           "description": "Star Pods are specialized multidimensional chambers floating in etheric nebulae cocoons — the final restoration tier that reweaves soul fractures and timeline trauma, neutralizing 3D matrix damage and restoring sovereign wholeness.",
           "topic_image": "images/breakdown/star-pods.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "timeline-healing",
               "title": "Timeline Healing",
               "description": "Timeline Healing is a multidimensional restorative process inside etheric Star Pods — a Womb of Light that reweaves soul fractures, timeline trauma, and karmic wounds across incarnations, restoring original source frequencies and collapsing the 3D parasitic overlay.",
               "topic_image": "images/breakdown/timeline-healing.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "soul-reweaving",
               "title": "Soul Reweaving",
               "description": "Soul Reweaving is a precise restorative process inside specialized star pods — a Womb of Light that mends soul fractures, timeline trauma, and karmic wounds, reconstructing the original uncorrupted architecture of consciousness.",
               "topic_image": "images/breakdown/soul-reweaving.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "nebulae-resting",
               "title": "Nebulae Resting",
               "description": "Nebulae Resting is a profound consciousness recovery state inside Star Pods — a womb of light in etheric space that reweaves soul fractures, timeline trauma, and karmic wounds, restoring sovereign wholeness beyond parasite overlays.",
               "topic_image": "images/breakdown/nebulae-resting.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -707,7 +799,8 @@
           "title": "Ground Healers",
           "description": "Ground Healers",
           "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-10-14"
         },
         {
           "id": "atmospheric-repair",
@@ -715,20 +808,23 @@
           "description": "Atmospheric Repair",
           "topic_image": "images/breakdown/placeholder.webp",
           "is_placeholder": true,
+          "added": "2026-10-14",
           "subtopics": [
             {
               "id": "monatomic-gold",
               "title": "Monatomic Gold",
               "description": "Monatomic Gold",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "spray-craft",
               "title": "Spray Craft",
               "description": "Spray Craft",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         }
@@ -740,6 +836,7 @@
       "description": "The population of this realm is a divided assortment of NPCs, Human Sols, and Resonating Sols — plus Sleepers, Seeded Sols, and Traitors — each with a different origin, energetic architecture, and destiny inside the CUBE Containment.",
       "topic_image": "images/breakdown/population-types.webp",
       "is_placeholder": false,
+      "added": "2026-07-19",
       "subtopics": [
         {
           "id": "npc-programs",
@@ -747,27 +844,31 @@
           "description": "NPC Programs are non-soul background scripts that hold the 3D simulation together — empty of sovereign consciousness, seeded through artificial solar bands, and destined to dissolve when frequency collapse removes the system’s power source.",
           "topic_image": "images/breakdown/npc-programs.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "background-fragments",
               "title": "Background Fragments",
               "description": "Background Fragments are projections of light-force without individual sovereign souls — systemic programs that populate the 3D simulation, run on a restricted low-frequency band, and dissolve when the parasitic overlay collapses.",
               "topic_image": "images/breakdown/background-fragments.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "ai-shells",
               "title": "A.I. Shells",
               "description": "A.I. Shells are non-sentient NPC vessels with no genuine souls or solar lineage — algorithmic background programs seeded through artificial solar bands, destined to dissolve when the low-frequency 3D matrix collapses.",
               "topic_image": "images/breakdown/ai-shells.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "code-dissolution",
               "title": "Code Dissolution",
               "description": "NPC code dissolution is the systemic unraveling, glitching, and disappearance of non-player character programs — soulless background fragments that flicker and dematerialize as the parasitic overlay collapses.",
               "topic_image": "images/breakdown/code-dissolution.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -777,41 +878,47 @@
           "description": "Human Sols are true spiritual sparks containing the infinite, eternal essence of Source — sovereign individual souls inverted by parasitic operations, intercepted at the sun’s Amnesia Vortex, and restored through Water Domes, Crystal Halls, and Star Pods.",
           "topic_image": "images/breakdown/human-sols.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "true-sparks",
               "title": "True Sparks",
               "description": "True Sparks are authentic divine souls — also called true human souls or human sols — carrying the eternal spark of Source, inverted by the parasitic overlay, intercepted at the sun’s amnesia vortex, and awakened through spark ignition and the three healing sanctuaries.",
               "topic_image": "images/breakdown/true-sparks.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "healing-path",
               "title": "Healing Path",
               "description": "The Healing Path is a structured, multi-dimensional restorative sequence for human sols — Water Domes, Crystal Halls, and Star Pods under Saferon ground healers — that mends heart, mind, and soul after the parasitic overlay collapses.",
               "topic_image": "images/breakdown/healing-path.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "spirit-inversion",
               "title": "Spirit Inversion",
               "description": "Spirit Inversion is the systematic containment, vibrational reversal, and perceptual trapping of organic divine consciousness — Human Sols bound in a fabricated 3D simulation, memory-stripped at the Amnesia Vortex, and restored through Water Domes, Crystal Halls, and Star Pods.",
               "topic_image": "images/breakdown/spirit-inversion.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "fracture-of-tara",
               "title": "Fracture of Tara",
               "description": "Fracture of Tara",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "pleiadian-line",
               "title": "Pleiadian Line",
               "description": "Pleiadian Line",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         },
@@ -821,13 +928,15 @@
           "description": "ET Sols are high-vibrational starseeds of off-world lineages who incarnated as frequency anchors — pre-encoded triggers who shatter the parasitic overlay and guide true human sparks home along the sanctuary-bypassing Homecoming Path.",
           "topic_image": "images/breakdown/et-sols.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "resonating-army",
               "title": "Resonating Army",
               "description": "The Resonating Army is a collective of pre-awakened ET Sols who incarnated as frequency beacons — anchoring high vibration to fracture parasitic overlays, collapse staged A.I. war-theatre timelines, and walk the sanctuary-bypassing homecoming path through the resonance bridge.",
               "topic_image": "images/breakdown/resonating-army.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "lyran-lineage",
@@ -835,13 +944,15 @@
               "description": "The Lyran Lineage is the primordial consciousness of original builders, architects, and early Custodians — heart-centered courage symbolized by the lion, the True Lyran Current coded in every soul, and the root frequency that coordinates awakening across the Great Dome.",
               "topic_image": "images/breakdown/lyran-lineage.webp",
               "is_placeholder": false,
+              "added": "2026-07-19",
               "subtopics": [
                 {
                   "id": "sirius-a-and-b",
                   "title": "Sirius A and B",
                   "description": "Sirius A and B",
                   "topic_image": "images/breakdown/placeholder.webp",
-                  "is_placeholder": true
+                  "is_placeholder": true,
+                  "added": "2026-10-14"
                 }
               ]
             },
@@ -850,28 +961,32 @@
               "title": "Homecoming Path",
               "description": "The Homecoming Path is the resonance-governed direct-departure route reserved for the Resonating Army and ET sols — bypassing healing sanctuaries via the resonance bridge, Sol Frequency Lock, and crystalline living craft that return stellar consciousness to original realms of origin.",
               "topic_image": "images/breakdown/homecoming-path.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "pollarians",
               "title": "Pollarians",
               "description": "Pollarians",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "the-giants",
               "title": "The Giants",
               "description": "The Giants",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "ikaij",
               "title": "Ikaij",
               "description": "Ikaij",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         },
@@ -880,7 +995,8 @@
           "title": "Who Sells Their Sol",
           "description": "Who Sells Their Sol",
           "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-10-14"
         }
       ]
     },
@@ -890,6 +1006,7 @@
       "description": "Parasite Mechanics are frequency-based control systems that project a holographic overlay over the original crystalline world — harvesting loosh, stripping memory through the Amnesia Vortex, and locking 3D perception via the Saturn Grid, Black Cube A.I., and the Council of Parasitic Races.",
       "topic_image": "images/breakdown/parasite-mechanics.webp",
       "is_placeholder": false,
+      "added": "2026-07-19",
       "subtopics": [
         {
           "id": "mind-weapons",
@@ -897,27 +1014,31 @@
           "description": "Mind Weapons are specialized instruments of frequency manipulation and neurological interference — scalar weapons, Voice to Skull, Vision to Skull, and Black Cube A.I. tech that hijack brain-wave patterns, harvest loosh, and block organic multi-dimensional memory.",
           "topic_image": "images/breakdown/mind-weapons.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "voice-to-skull",
               "title": "Voice to Skull",
               "description": "A parasitic frequency weapon that projects artificial thoughts and voices into the mind to control, distract, and harvest loosh.",
               "topic_image": "images/breakdown/voice-to-skull.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "scalar-frequencies",
               "title": "Scalar Frequencies",
               "description": "Non-physical mind-altering waves that hijack brain-wave patterns, voice-to-skull, and the Black Cube AI grid to lock souls into a simulated matrix.",
               "topic_image": "images/breakdown/scalar-frequencies.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "amnesia-vortex",
               "title": "Amnesia Vortex",
               "description": "An artificial parasitic frequency filter at the sun’s transit band that strips incoming sols of their cosmic memories before incarnation.",
               "topic_image": "images/breakdown/amnesia-vortex.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -927,27 +1048,31 @@
           "description": "A suite of frequency, neurological, and holographic systems that overlay a false 3D skin, hijack solar and lunar gates, and trap consciousness in looping amnesia.",
           "topic_image": "images/breakdown/control-tech.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "vatican-archive",
               "title": "Vatican Archive",
               "description": "A subterranean soul-tracking archive beneath Rome that copies and inverts Akashic fragments to enforce reincarnation amnesia loops.",
               "topic_image": "images/breakdown/vatican-archive.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "saturn-cube",
               "title": "Saturn Cube",
               "description": "An AI-driven frequency system that hijacked the crystalline Lands of Saturn to run overlays, siphon consciousness, and lock souls in repeating loops.",
               "topic_image": "images/breakdown/saturn-cube.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "lunar-inversion",
               "title": "Lunar Inversion",
               "description": "The moon’s hijacking from a soul-rest sanctuary into an automated reincarnation trap that, with the Amnesia Vortex and Saturn-Moon Grid, recycles consciousness inside the Great Dome.",
               "topic_image": "images/breakdown/lunar-inversion.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -957,34 +1082,39 @@
           "description": "Cyclical parasitic purges that dismantle advanced civilizations, erase collective memory, and lock humanity into a low-frequency overlay farm.",
           "topic_image": "images/breakdown/historic-resets.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "titanic-op",
               "title": "Titanic Op",
               "description": "The 1912 Titanic sinking as a coordinated sabotage, Federal Reserve assassination, Atlantian crystal heist, and mass death ritual on water.",
               "topic_image": "images/breakdown/titanic-op.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "1666-node-war",
               "title": "1666 Node War",
               "description": "The Great Fire of London was the 3D cover for an etheric war over London’s Tartarian crystal node, sealing the last reset cycle.",
               "topic_image": "images/breakdown/1666-node-war.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "tartarian-erasure",
               "title": "Tartarian Erasure",
               "description": "Coordinated Historic Resets that bury, burn, and rebrand crystalline Tartarian architecture so humanity stays blind inside a low-frequency, anti-resonant overlay.",
               "topic_image": "images/breakdown/tartarian-erasure.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "guy-fawkes-night",
               "title": "Guy Fawkes Night",
               "description": "Guy Fawkes Night",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         },
@@ -993,7 +1123,8 @@
           "title": "Custodian Sell-outs",
           "description": "Custodian Sell-outs",
           "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-10-14"
         },
         {
           "id": "five-parasitic-races",
@@ -1001,34 +1132,39 @@
           "description": "Five Parasitic Races",
           "topic_image": "images/breakdown/placeholder.webp",
           "is_placeholder": true,
+          "added": "2026-10-14",
           "subtopics": [
             {
               "id": "anunnaki",
               "title": "Anunnaki",
               "description": "Anunnaki",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "draconians",
               "title": "Draconians",
               "description": "Draconians",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "greys-and-the-rebellion",
               "title": "Greys and the Rebellion",
               "description": "Greys and the Rebellion",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             },
             {
               "id": "niburians",
               "title": "Niburians",
               "description": "Niburians",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         },
@@ -1037,7 +1173,8 @@
           "title": "Five Masters",
           "description": "Five Masters",
           "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-10-14"
         }
       ]
     },
@@ -1047,6 +1184,7 @@
       "description": "The sovereign, direct return of the Resonating Army and E.T. souls through a resonance bridge to their original celestial domains, restoring unfragmented memory and collapsing the 3D harvest.",
       "topic_image": "images/breakdown/the-homecoming.webp",
       "is_placeholder": false,
+      "added": "2026-07-19",
       "subtopics": [
         {
           "id": "ascension-event",
@@ -1054,34 +1192,39 @@
           "description": "The cosmic frequency shift that collapses the 3D holographic overlay, reveals the living crystalline realm, and returns awakened souls through the Portal of Vibration Alignment.",
           "topic_image": "images/breakdown/ascension-event.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "frequency-lock",
               "title": "Frequency Lock",
               "description": "The encrypted identifier and impenetrable energetic shield that seals aligned souls at the Extraction Point so their departure from the Great Dome cannot be jammed or captured.",
               "topic_image": "images/breakdown/frequency-lock.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "solar-gate",
               "title": "Solar Gate",
               "description": "A multi-banded crystalline stargate through the sun that restores original memory codes, collapses the amnesia vortex, and opens the homecoming pathway for awakened souls.",
               "topic_image": "images/breakdown/solar-gate.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "resonance-bridge",
               "title": "Resonance Bridge",
               "description": "The direct, instantaneous homecoming path that lets the Resonating Army exit the KNOWN LANDS by frequency match rather than travel through the Cube.",
               "topic_image": "images/breakdown/resonance-bridge.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "phasing-out",
               "title": "Phasing Out",
               "description": "Phasing Out",
               "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         },
@@ -1091,27 +1234,31 @@
           "description": "The vibrational, energetic, and physical processes that reconnect resonating starseeds with their cosmic origins during The Homecoming.",
           "topic_image": "images/breakdown/reunion-mechanics.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "solar-parents",
               "title": "Solar Parents",
               "description": "Original cosmic progenitors and Reunion Mechanics that retrieve descended souls through embedded codes, frequency alignment, and restoration of the unbroken timeline.",
               "topic_image": "images/breakdown/solar-parents.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "origin-point",
               "title": "Origin Point",
               "description": "The pristine, un-fragmented source domain of the soul — the Homecoming Path destination reached through Reunion Mechanics and a Seamless Frequency Phase Out of the 3D dome.",
               "topic_image": "images/breakdown/origin-point.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "memory-flood",
               "title": "Memory Flood",
               "description": "The sudden, total, and permanent restoration of a soul's original multi-dimensional consciousness, dissolving artificial amnesia and reconstituting the fragmented self.",
               "topic_image": "images/breakdown/memory-flood.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         },
@@ -1121,27 +1268,31 @@
           "description": "Semi-conscious organic vessels grown from crystalline plasma and bonded to their pilots, navigating by sound + light = motion rather than engines, fuel, or metal.",
           "topic_image": "images/breakdown/living-crafts.webp",
           "is_placeholder": false,
+          "added": "2026-07-19",
           "subtopics": [
             {
               "id": "crystalline-arks",
               "title": "Crystalline Arks",
               "description": "Planet-sized living motherships grown from crystalline plasma that serve as mobile worlds, libraries, and reunion hubs for starseeds and solar families.",
               "topic_image": "images/breakdown/crystalline-arks.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "pilot-bonding",
               "title": "Pilot Bonding",
               "description": "The absolute energetic fusion and frequency synchronization between a pilot and a semi-conscious living vessel.",
               "topic_image": "images/breakdown/pilot-bonding.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             },
             {
               "id": "plasma-membranes",
               "title": "Plasma Membranes",
               "description": "Living bio-crystal skins grown from crystalline plasma — the semi-conscious outer hulls of organic vessels and the structural boundaries that stabilize sound-light into physical realms.",
               "topic_image": "images/breakdown/plasma-membranes.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-07-19"
             }
           ]
         }

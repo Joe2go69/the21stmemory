@@ -1,0 +1,8 @@
+{
+  "_note": "Homepage 'Start here' row. Three live dives, ideally from different series. Edit and rebuild (npm run build). Optional 'blurb' overrides the topic description.",
+  "featured": [
+    { "source": "alice", "topic": "essence-of-the-transmission" },
+    { "source": "breakdown", "topic": "the-cube-system" },
+    { "source": "revelations", "topic": "simulation-field" }
+  ]
+}

@@ -1066,7 +1066,76 @@ function writeDivePage(bundle, entry) {
     path: `/${divePath(bundle.sourceId, entry.item.id)}`,
     live: !entry.isStub,
     title: entry.item.title,
+    ...(entry.item.added ? { added: entry.item.added } : {}),
   };
+}
+
+const LATEST_COUNT = 12;
+
+/**
+ * data/latest.json — slim homepage feed built from the dated manifest:
+ *   recent:   newest live leaf topics by `added` (desc)
+ *   featured: "Start here" picks resolved from data/home-featured.json
+ * home.js renders both; nothing on the client crawls topic files or git.
+ */
+function writeLatest(pages) {
+  const byKey = new Map();
+  const seriesTitle = {};
+  const leaf = new Set();
+  const sourcesData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'sources.json'), 'utf8'));
+  const sourceOrder = (sourcesData.sources || []).map((s) => s.id);
+  for (const sourceId of sourceOrder) {
+    const bundle = loadSource(sourceId);
+    if (!bundle) continue;
+    seriesTitle[sourceId] = bundle.sourceTitle;
+    for (const e of bundle.entries) {
+      const key = `${sourceId}/${e.item.id}`;
+      byKey.set(key, e.item);
+      if (!e.item.subtopics?.length) leaf.add(key);
+    }
+  }
+  const card = (p) => {
+    const item = byKey.get(`${p.sourceId}/${p.topicId}`) || {};
+    return {
+      sourceId: p.sourceId,
+      topicId: p.topicId,
+      series: seriesTitle[p.sourceId] || p.sourceId,
+      title: p.title,
+      description: item.description || '',
+      topic_image: item.topic_image || '',
+      path: p.path.replace(/^\//, ''),
+      added: p.added || '',
+    };
+  };
+
+  const recent = pages
+    .map((p, i) => ({ p, i }))
+    .filter(({ p }) => p.live && p.added && leaf.has(`${p.sourceId}/${p.topicId}`))
+    .sort((a, b) => b.p.added.localeCompare(a.p.added) || b.i - a.i)
+    .slice(0, LATEST_COUNT)
+    .map(({ p }) => card(p));
+
+  let featured = [];
+  const featuredPath = path.join(ROOT, 'data', 'home-featured.json');
+  if (fs.existsSync(featuredPath)) {
+    const cfg = JSON.parse(fs.readFileSync(featuredPath, 'utf8'));
+    for (const pick of cfg.featured || []) {
+      const page = pages.find((p) => p.sourceId === pick.source && p.topicId === pick.topic);
+      if (!page || !page.live) {
+        throw new Error(`home-featured.json: ${pick.source}/${pick.topic} is not a live dive page`);
+      }
+      const c = card(page);
+      if (pick.blurb) c.description = pick.blurb;
+      featured.push(c);
+    }
+  }
+
+  fs.writeFileSync(
+    path.join(ROOT, 'data', 'latest.json'),
+    JSON.stringify({ recent, featured }, null, 2) + '\n',
+    'utf8'
+  );
+  console.log(`latest.json — ${recent.length} recent, ${featured.length} featured`);
 }
 
 function patchManifest(pages) {
@@ -1125,6 +1194,7 @@ function buildDives({ only = [] } = {}) {
       }
     }
     patchManifest(rebuilt);
+    writeLatest(JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'dive-manifest.json'), 'utf8')).pages);
     console.log(`build-static-dives incremental — ${rebuilt.length} page(s)`);
     return { incremental: true, pages: rebuilt };
   }
@@ -1156,6 +1226,7 @@ function buildDives({ only = [] } = {}) {
     JSON.stringify(manifest, null, 2) + '\n',
     'utf8'
   );
+  writeLatest(manifest.pages);
 
   console.log(
     `build-static-dives complete — ${liveCount} live, ${stubCount} stub → dive/`

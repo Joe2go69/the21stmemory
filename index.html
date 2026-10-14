@@ -298,6 +298,15 @@
       </div>
     </header>
 
+    <!-- WHAT IS — short version; the full About stays at #about -->
+    <section class="home-whatis home-section-anchor" aria-labelledby="home-whatis-title">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 id="home-whatis-title" class="home-whatis__title">What is 21st Memory?</h2>
+            <p class="home-whatis__body">21st Memory is a free living archive of AI-assisted interpretations of the original transmissions of <strong>Thalon Thor / Christian21</strong>. It exists so people can find their way through dense material and return to the source with clearer eyes. AI is a bridge, not the source — when something feels incomplete or off, return to the raw transmissions.</p>
+            <a href="#about" class="text-link home-whatis__more">Read more →</a>
+        </div>
+    </section>
+
     <!-- PROOF — compact status HUD -->
     <div class="home-proof-strip home-section-anchor" aria-label="Archive status">
         <div class="max-w-4xl mx-auto px-6">
@@ -322,6 +331,26 @@
                 <span class="home-proof-formats__sep" aria-hidden="true">·</span>
                 <span>Optional quiz</span>
             </p>
+        </div>
+    </div>
+
+    <!-- RECENTLY ADDED + START HERE — built from data/latest.json at build time -->
+    <div class="home-shelves home-section-anchor">
+        <div class="max-w-6xl mx-auto px-6">
+            <section class="home-shelf" aria-labelledby="home-recent-title">
+                <div class="home-shelf__head">
+                    <h2 id="home-recent-title" class="section-eyebrow home-shelf__title">Recently added</h2>
+                    <a href="codex.html" class="text-link home-shelf__more">Browse the Codex →</a>
+                </div>
+                <div id="home-recent-grid" class="home-shelf__grid" aria-busy="true"></div>
+            </section>
+            <section class="home-shelf" aria-labelledby="home-start-title">
+                <div class="home-shelf__head">
+                    <h2 id="home-start-title" class="section-eyebrow home-shelf__title">Start here</h2>
+                    <p class="home-shelf__deck">Three topics to open first.</p>
+                </div>
+                <div id="home-start-grid" class="home-shelf__grid" aria-busy="true"></div>
+            </section>
         </div>
     </div>
 

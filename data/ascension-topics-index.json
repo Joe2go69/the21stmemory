@@ -14,6 +14,7 @@
       "description": "The definitive blueprint of the imminent cosmic ascension: quartz conductors, the solar pulse, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "topic_image": "images/ascension/essence-of-the-transmission.webp",
       "is_placeholder": false,
+      "added": "2026-09-03",
       "is_main_root": true,
       "video_language_count": 12
     },
@@ -23,6 +24,7 @@
       "description": "Pre-implanted subterranean quartz conductors, seeded by Looking Glass time travel, store cosmic memory, ignite a planetary EMP Grid, and restore original vessels.",
       "topic_image": "images/ascension/quartz-crystal-technology.webp",
       "is_placeholder": false,
+      "added": "2026-09-03",
       "subtopics": [
         {
           "id": "implanted-conductors",
@@ -30,20 +32,23 @@
           "description": "High-purity quartz memory devices planted under the earth by Looking Glass time travel, timed to emerge and charge a planetary EMP grid for the three-flash ascension.",
           "topic_image": "images/ascension/implanted-conductors.webp",
           "is_placeholder": false,
+          "added": "2026-09-04",
           "subtopics": [
             {
               "id": "ground-placement",
               "title": "Ground Placement",
               "description": "The deep-subsurface embedding and timed emergence of quartz conductors that charge an EMP grid, upload original memory, and open the ascension portal.",
               "topic_image": "images/ascension/ground-placement.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-05"
             },
             {
               "id": "time-travel-preparation",
               "title": "Time Travel Preparation",
               "description": "Positive forces used Project Looking Glass to plant quartz conductors in the future Great Awakening, locking the three-flash solar transition onto an unstoppable timer.",
               "topic_image": "images/ascension/time-travel-preparation.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-05"
             }
           ]
         },
@@ -53,27 +58,31 @@
           "description": "Quartz crystal conductors store original consciousness like water and plasma, charge a planetary EMP grid, and restore memory and vessel through three solar flashes.",
           "topic_image": "images/ascension/memory-technology.webp",
           "is_placeholder": false,
+          "added": "2026-09-06",
           "subtopics": [
             {
               "id": "crystalline-storage",
               "title": "Crystalline Storage",
               "description": "Quartz memory conductors planted by time travel that rise on a timer, charge from the sun, form a realm-wide EMP grid, and restore original memories and vessels through three flashes.",
               "topic_image": "images/ascension/crystalline-storage.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-06"
             },
             {
               "id": "plasma-connection",
               "title": "Plasma Connection",
               "description": "New aether and rising quartz merge into plasma crystalline, forming a realm-wide EMP grid and a portal that restores original memories and vessels through three flashes.",
               "topic_image": "images/ascension/plasma-connection.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-07"
             },
             {
               "id": "other-world-conductors",
               "title": "Other-World Conductors",
               "description": "Other-World Conductors",
               "topic_image": "images/ascension/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         },
@@ -82,7 +91,8 @@
           "title": "Internal Timers",
           "description": "Pre-programmed chronological triggers inside implanted quartz crystals that force a synchronized global emergence and lock planetary ascension to an unstoppable physical sequence.",
           "topic_image": "images/ascension/internal-timers.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-08"
         }
       ]
     },
@@ -92,6 +102,7 @@
       "description": "Kai ignites the sun as an operational device, charging the risen quartz into an EMP grid and three flashes that open the celestial portal.",
       "topic_image": "images/ascension/solar-activation.webp",
       "is_placeholder": false,
+      "added": "2026-09-08",
       "subtopics": [
         {
           "id": "sun-flash-event",
@@ -99,20 +110,23 @@
           "description": "The unalterable solar ignition that charges emerged quartz crystals, seals a realm-wide EMP grid, and runs the three-flash sequence that restores memory, collapses the 3rd-realm overlay, and opens the homecoming portal.",
           "topic_image": "images/ascension/sun-flash-event.webp",
           "is_placeholder": false,
+          "added": "2026-09-09",
           "subtopics": [
             {
               "id": "kai-activation",
               "title": "Kai Activation",
               "description": "Kai’s boom command triggers the Sun Flash Event, charging quartz conductors into an EMP grid and three flashes that open the ascension portal.",
               "topic_image": "images/ascension/kai-activation.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-09"
             },
             {
               "id": "bright-light-charge",
               "title": "Bright Light Charge",
               "description": "The first light is not a flash — a sustained illumination that charges subterranean quartz conductors, locks the EMP grid, and pre-charges every vessel before the tri-flash transition.",
               "topic_image": "images/ascension/bright-light-charge.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-09"
             }
           ]
         },
@@ -122,6 +136,7 @@
           "description": "The New Aether is an active positive-frequency field that converts solar light into E.M. pulses, synthesizes plasma crystalline with quartz conductors, and upgrades biology through dimensional density shifts.",
           "topic_image": "images/ascension/aether-interaction.webp",
           "is_placeholder": false,
+          "added": "2026-09-09",
           "subtopics": [
             {
               "id": "new-aether-reaction",
@@ -129,13 +144,15 @@
               "description": "Solar E.M. pulses couple with New Aether, charge subterranean quartz, lock the EMP grid, and convert the atmosphere to plasma crystalline for the three-flash portal sequence.",
               "topic_image": "images/ascension/new-aether-reaction.webp",
               "is_placeholder": false,
+              "added": "2026-09-10",
               "subtopics": [
                 {
                   "id": "free-energy",
                   "title": "Free Energy",
                   "description": "Free Energy",
                   "topic_image": "images/ascension/placeholder.webp",
-                  "is_placeholder": true
+                  "is_placeholder": true,
+                  "added": "2026-10-14"
                 }
               ]
             },
@@ -144,7 +161,8 @@
               "title": "Positive Frequencies",
               "description": "High-vibrational E.M. pulses in the New Aether charge subterranean quartz, lock the EMP grid, and open the plasma crystalline portal through a three-flash sequence rooted in love and empathy.",
               "topic_image": "images/ascension/positive-frequencies.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-10"
             }
           ]
         },
@@ -153,7 +171,8 @@
           "title": "E.M. Pulses",
           "description": "High-frequency solar pulses couple with emerged quartz, form the EMP Grid, and fire three flashes that restore memory and open the portal.",
           "topic_image": "images/ascension/em-pulses.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-10"
         }
       ]
     },
@@ -163,6 +182,7 @@
       "description": "Three pulses — back, forward, then the portal — restore memory, vessel, and the way home.",
       "topic_image": "images/ascension/the-three-flashes.webp",
       "is_placeholder": false,
+      "added": "2026-09-10",
       "subtopics": [
         {
           "id": "first-flash",
@@ -170,20 +190,23 @@
           "description": "The first pulse jumps consciousness backward along the timeline to recover memory and restore the original vessel.",
           "topic_image": "images/ascension/first-flash.webp",
           "is_placeholder": false,
+          "added": "2026-09-10",
           "subtopics": [
             {
               "id": "jump-backward",
               "title": "Jump Backward",
               "description": "The First Flash jumps consciousness backward along the timeline to reclaim the original vessel and upload latent memory.",
               "topic_image": "images/ascension/jump-backward.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-11"
             },
             {
               "id": "memory-upload",
               "title": "Memory Upload",
               "description": "The bio-quantum transfer of original soul histories and vessel data from subterranean quartz into the physical body.",
               "topic_image": "images/ascension/memory-upload.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "added": "2026-09-11"
             }
           ]
         },
@@ -192,14 +215,16 @@
           "title": "Second Flash",
           "description": "The forward-vector electromagnetic wave that snaps consciousness into the present, locks original memory into the biological vessel, and collapses the artificial 3D matrix.",
           "topic_image": "images/ascension/second-flash.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-11"
         },
         {
           "id": "third-flash",
           "title": "Third Flash",
           "description": "The final atmospheric burst in the tri-flash sequence that opens the portal, lifts those of the right vibration, and leaves the surface as a 2nd-realm healing sanctuary.",
           "topic_image": "images/ascension/third-flash.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-11"
         }
       ]
     },
@@ -209,13 +234,15 @@
       "description": "Ascension restores every human soul through a quartz-powered EMP grid, a three-flash memory sequence, and dual pathways of portal lift or continental healing sanctuaries.",
       "topic_image": "images/ascension/healing-and-ascension.webp",
       "is_placeholder": false,
+      "added": "2026-09-12",
       "subtopics": [
         {
           "id": "healing-sanctuaries",
           "title": "Healing Sanctuaries",
           "description": "Continental post-flash centers where remaining souls resolve trauma and realign to the right vibration under ET, Space Force, and G.A.A. supervision until every individual ascends.",
           "topic_image": "images/ascension/healing-sanctuaries.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-12"
         },
         {
           "id": "ascension-criteria",
@@ -223,13 +250,15 @@
           "description": "The vibrational threshold of love, empathy, and kindness that qualifies immediate 3rd Flash Portal transit — or structured sanctuary healing for those not yet at frequency.",
           "topic_image": "images/ascension/ascension-criteria.webp",
           "is_placeholder": false,
+          "added": "2026-09-12",
           "subtopics": [
             {
               "id": "dna-strand",
               "title": "DNA Strand",
               "description": "DNA Strand",
               "topic_image": "images/ascension/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         },
@@ -238,7 +267,8 @@
           "title": "Do Not React",
           "description": "Do Not React",
           "topic_image": "images/ascension/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-10-14"
         }
       ]
     },
@@ -248,20 +278,23 @@
       "description": "2nd-realm ET supervise the new known lands, backed by Space Force, GAA, and White Hats.",
       "topic_image": "images/ascension/supervisory-oversight.webp",
       "is_placeholder": false,
+      "added": "2026-09-13",
       "subtopics": [
         {
           "id": "et-support",
           "title": "ET Support",
           "description": "Benevolent off-world civilizations administer solar triggers, quartz-grid infrastructure, and post-flash sanctuary governance to restore organic timelines without leaving any soul behind.",
           "topic_image": "images/ascension/et-support.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-13"
         },
         {
           "id": "organizational-alliances",
           "title": "Organizational Alliances",
           "description": "A unified GAA, Space Force, 2nd Realm ET, White Hat, and Resonating Army coalition administers the New Known Lands through non-punitive healing sanctuaries and territorial stabilization.",
           "topic_image": "images/ascension/organizational-alliances.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-13"
         }
       ]
     },
@@ -271,13 +304,15 @@
       "description": "The Homecoming is the Long-Awaited Ascension’s operational climax: three flashes restore original vessel and memory, a planetary portal lifts high-frequency souls, and Healing Sanctuaries restore everyone else with zero harm.",
       "topic_image": "images/ascension/the-homecoming.webp",
       "is_placeholder": false,
+      "added": "2026-09-13",
       "subtopics": [
         {
           "id": "portal-transition",
           "title": "Portal Transition",
           "description": "The multidimensional plasma-crystalline gateway that lifts resonating souls out of the 3rd Realm simulation into waiting origin vessels during The Homecoming.",
           "topic_image": "images/ascension/portal-transition.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "added": "2026-09-16"
         },
         {
           "id": "unified-reality",
@@ -285,13 +320,15 @@
           "description": "The restored, balanced state when the artificial 3rd realm simulation dissolves and collapses back into complete alignment with the 2nd realm.",
           "topic_image": "images/ascension/unified-reality.webp",
           "is_placeholder": false,
+          "added": "2026-09-16",
           "subtopics": [
             {
               "id": "pineal-and-vessel",
               "title": "Pineal and Vessel",
               "description": "Pineal and Vessel",
               "topic_image": "images/ascension/placeholder.webp",
-              "is_placeholder": true
+              "is_placeholder": true,
+              "added": "2026-10-14"
             }
           ]
         },
@@ -300,14 +337,16 @@
           "title": "Four Elements",
           "description": "Four Elements",
           "topic_image": "images/ascension/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-10-14"
         },
         {
           "id": "scare-events",
           "title": "Scare Events",
           "description": "Scare Events",
           "topic_image": "images/ascension/placeholder.webp",
-          "is_placeholder": true
+          "is_placeholder": true,
+          "added": "2026-10-14"
         }
       ]
     }

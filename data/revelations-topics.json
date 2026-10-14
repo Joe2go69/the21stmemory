@@ -261,7 +261,8 @@
         "totalQuestions": 25,
         "description": "Test your understanding of Essence of the Transmission — consciousness before architecture, the organic motherboard, and the inverted control matrix."
       },
-      "is_main_root": true
+      "is_main_root": true,
+      "added": "2026-09-13"
     },
     {
       "id": "soul-architecture",
@@ -329,7 +330,8 @@
             "title": "Proximal Sols",
             "totalQuestions": 25,
             "description": "Test your understanding of Proximal Sols — the original twelve beings, dual-polarity pairing, soul architecture, and the four thousand unique soul lineages."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "taran-vessels",
@@ -397,7 +399,8 @@
                 "title": "Intelligence First",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Intelligence First — consciousness before matter, the Proximal Sols, Aktun and the Taran blueprint, and the fifteen soul attributes."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "fifteen-attributes",
@@ -428,7 +431,8 @@
                 "title": "Fifteen Attributes",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Fifteen Attributes — soul firmware, weaponized inversion, Aktun and Taran vessels, and how farm management inverts human faculties."
-              }
+              },
+              "added": "2026-09-13"
             }
           ],
           "quiz": {
@@ -436,7 +440,8 @@
             "title": "Taran Vessels",
             "totalQuestions": 25,
             "description": "Test your understanding of Taran Vessels — the Aktun blueprint, fifteen firmware attributes, downsizing into the new-human vessel, and the pineal restoration."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "arc-pod-protocol",
@@ -498,7 +503,8 @@
                 "title": "Clueless Protocol",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Clueless Protocol — calculated amnesia, Arc Pod steering, and the 4,000 ancient souls in Realm-3."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "mission-insertion",
@@ -535,7 +541,8 @@
                 "title": "Mission Insertion",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Mission Insertion — the pre-colonization incarnational deployment of the 4,000 ancient souls under the Sovereign Accord."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "anunnaki-and-draco",
@@ -566,7 +573,8 @@
                 "title": "Anunnaki and Draco",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Anunnaki and Draco — the amnesia vortex, hosted bloodlines, and the custodial harvest farm."
-              }
+              },
+              "added": "2026-10-07"
             }
           ],
           "quiz": {
@@ -574,7 +582,8 @@
             "title": "Arc Pod Protocol",
             "totalQuestions": 25,
             "description": "Test your understanding of Arc Pod Protocol — Oversoul containment in atmospheric pods, frequency compression, Clueless Protocol, Arc Trajectories, and homecoming snap-back."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "homecoming-reunion",
@@ -642,7 +651,8 @@
                 "title": "Going Home",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Going Home — the plasma portal extraction, three-part soul recombination, and the Wizard of Oz moment."
-              }
+              },
+              "added": "2026-10-07"
             },
             {
               "id": "time-traveller-faces",
@@ -673,9 +683,11 @@
                 "title": "Time Traveller Faces",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Time Traveller Faces — clone atavism, software-specific faces, and the 520 million true soul quota."
-              }
+              },
+              "added": "2026-10-07"
             }
-          ]
+          ],
+          "added": "2026-09-13"
         }
       ],
       "quiz": {
@@ -683,7 +695,8 @@
         "title": "Soul Architecture",
         "totalQuestions": 25,
         "description": "Test your understanding of Soul Architecture — the Proximal Sols, Taran vessels, fifteen attributes, Arc Pod protocol, and the Homecoming Reunion."
-      }
+      },
+      "added": "2026-09-13"
     },
     {
       "id": "simulation-field",
@@ -782,7 +795,8 @@
                 "title": "Chemtrail Portals",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Chemtrail Portals — compact aerial gates that portal pilots fly while commercial crews receive a weather story."
-              }
+              },
+              "added": "2026-10-07"
             },
             {
               "id": "portal-guards",
@@ -813,9 +827,11 @@
                 "title": "Portal Guards",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Portal Guards — bio-engineered sentries that hold land gates and sea gates against unpermitted traversal."
-              }
+              },
+              "added": "2026-10-07"
             }
-          ]
+          ],
+          "added": "2026-09-13"
         },
         {
           "id": "digital-inserts",
@@ -877,7 +893,8 @@
                 "title": "NPC Ratio",
                 "totalQuestions": 25,
                 "description": "Test your understanding of NPC Ratio — the 97/3 demographic baseline, soul light parasitism, and narrative enforcement by non-player characters."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "holographic-sleeves",
@@ -908,7 +925,8 @@
                 "title": "Holographic Sleeves",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Holographic Sleeves — senescent holograms, Sky-Net 1 data streams, and simulation furniture in the public crowd."
-              }
+              },
+              "added": "2026-09-13"
             }
           ],
           "quiz": {
@@ -916,7 +934,8 @@
             "title": "Digital Inserts",
             "totalQuestions": 25,
             "description": "Test your understanding of Digital Inserts — holographic sleeves, Sky-Net 1 projections, and the artificial majority in public space."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "inner-illusion",
@@ -953,7 +972,8 @@
             "title": "Inner Illusion",
             "totalQuestions": 25,
             "description": "Test your understanding of Inner Illusion — the subrutean script, the cookie jar allegory, the space hoax, and the perceptual cage."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "quantum-interface",
@@ -1015,7 +1035,8 @@
                 "title": "Pineal Crossover",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Pineal Crossover — the bi-directional transceiver, endogenous DMT, aetheric manifestation, fluoridation, and the brainwave bands that lock or open the gland."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "five-brainwaves",
@@ -1046,7 +1067,8 @@
                 "title": "Five Brainwaves",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Five Brainwaves — Gamma, Beta, Alpha, Theta, and Delta as the vessel's operational bands, plus lunar fencing, 440 Hz dissonance, and the nocturnal memory wipe."
-              }
+              },
+              "added": "2026-09-13"
             }
           ],
           "quiz": {
@@ -1054,7 +1076,8 @@
             "title": "Quantum Interface",
             "totalQuestions": 25,
             "description": "Test your understanding of Quantum Interface — the pineal crossover, conscious observation, neural oscillation bands, and direct aetheric manifestation."
-          }
+          },
+          "added": "2026-09-13"
         }
       ],
       "quiz": {
@@ -1062,7 +1085,8 @@
         "title": "Simulation Field",
         "totalQuestions": 25,
         "description": "Test your understanding of Simulation Field — scrolling geography, Sky-Net 1 inserts, pineal suppression, and the inner illusion that contains true spiritual consciousness."
-      }
+      },
+      "added": "2026-09-13"
     },
     {
       "id": "sovereign-accord",
@@ -1130,7 +1154,8 @@
             "title": "Field Law",
             "totalQuestions": 25,
             "description": "Test your understanding of Field Law — the seal of support without override, manufactured consent, and help that must arise from within."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "manufactured-wants",
@@ -1192,7 +1217,8 @@
                 "title": "Choice Architecture",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Choice Architecture — designed noise, options within options, and the consent trap that drains cognitive bandwidth."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "fifteen-minute-cities",
@@ -1229,7 +1255,8 @@
                 "title": "Fifteen-Minute Cities",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Fifteen-Minute Cities — urban containment, incremental acclimatization, and the cashless social-credit perimeter."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "salvation-lure",
@@ -1291,7 +1318,8 @@
                     "title": "QFS",
                     "totalQuestions": 25,
                     "description": "Test your understanding of QFS — the counterfeit banking rail that captures Free Will through a fake gold-backed payout."
-                  }
+                  },
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "nesara-gesara",
@@ -1322,7 +1350,8 @@
                     "title": "NESARA / GESARA",
                     "totalQuestions": 25,
                     "description": "Test your understanding of NESARA / GESARA — the debt-forgiveness Salvation Lure that captures free will through an effortless financial reset."
-                  }
+                  },
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "medbeds",
@@ -1353,7 +1382,8 @@
                     "title": "MedBeds",
                     "totalQuestions": 25,
                     "description": "Test your understanding of MedBeds — the health half of the Salvation Lure that promises a body thirty years younger and never arrives."
-                  }
+                  },
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "trump-1989",
@@ -1384,7 +1414,8 @@
                     "title": "Trump 1989",
                     "totalQuestions": 25,
                     "description": "Test your understanding of Trump 1989 — the manufactured focal entity, the three public reads, and the free-will signature trap."
-                  }
+                  },
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "white-hats",
@@ -1415,7 +1446,8 @@
                     "title": "White Hats",
                     "totalQuestions": 25,
                     "description": "Test your understanding of White Hats — the manufactured story shape that stalls people in passive anticipation of external rescue."
-                  }
+                  },
+                  "added": "2026-10-07"
                 }
               ],
               "quiz": {
@@ -1423,7 +1455,8 @@
                 "title": "Salvation Lure",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Salvation Lure — the free-will signature trap, the Sovereign Accord, Tier 4B appointments, and the three strings of matrix captivity."
-              }
+              },
+              "added": "2026-10-07"
             }
           ],
           "quiz": {
@@ -1431,7 +1464,8 @@
             "title": "Manufactured Wants",
             "totalQuestions": 25,
             "description": "Test your understanding of Manufactured Wants — artificial desires, choice architecture, and designed noise that secure voluntary consent inside the Human Farm."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "mk-ultra-craft",
@@ -1493,7 +1527,8 @@
                 "title": "Emotional Scoring",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Emotional Scoring — how engineered auditory frequencies, tempos, and visual sequences dictate emotional states and steer behavior."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "gat-programs",
@@ -1524,7 +1559,8 @@
                 "title": "GAT Programs",
                 "totalQuestions": 25,
                 "description": "Test your understanding of GAT Programs — how gifted-and-talented screening identifies children and sorts them into covert asset tracks."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "empathy-trap",
@@ -1555,7 +1591,8 @@
                 "title": "Empathy Trap",
                 "totalQuestions": 25,
                 "description": "Test your understanding of the Empathy Trap — how organic empathy is turned toward charity fraud, NPC mimicry, and loosh."
-              }
+              },
+              "added": "2026-10-07"
             },
             {
               "id": "ghost-stories",
@@ -1586,7 +1623,8 @@
                 "title": "Ghost Stories",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Ghost Stories — mineral playbacks in historical masonry, lunar triggering, and the media pipeline that harvests fear."
-              }
+              },
+              "added": "2026-10-10"
             }
           ],
           "quiz": {
@@ -1594,7 +1632,8 @@
             "title": "MK-Ultra Craft",
             "totalQuestions": 25,
             "description": "Test your understanding of MK-Ultra Craft — how manufactured choice, emotional scoring, severe trauma, and gifted pipelines steer consent inside the Sovereign Accord."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "subtle-help",
@@ -1656,7 +1695,8 @@
                 "title": "Ayahuasca Vine",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Ayahuasca Vine — the Vine of the Soul as chemical catalyst and non-overt sacrament of subtle help."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "pineal-dmt",
@@ -1687,7 +1727,8 @@
                 "title": "Pineal DMT",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Pineal DMT — endogenous spiritual hardware, fluoride lockout, and the plant bypass that stays inside field law."
-              }
+              },
+              "added": "2026-09-13"
             }
           ],
           "quiz": {
@@ -1695,7 +1736,8 @@
             "title": "Subtle Help",
             "totalQuestions": 25,
             "description": "Test your understanding of Subtle Help — non-overt assistance that stays inside field law so choice and consequence still arise from within."
-          }
+          },
+          "added": "2026-09-13"
         }
       ],
       "quiz": {
@@ -1703,7 +1745,8 @@
         "title": "Sovereign Accord",
         "totalQuestions": 25,
         "description": "Test your understanding of Sovereign Accord — the field law sealing this realm, manufactured wants, and liberation that must arise from within."
-      }
+      },
+      "added": "2026-09-13"
     },
     {
       "id": "custodian-control",
@@ -1796,7 +1839,8 @@
                 "title": "Birth Bond",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Birth Bond — the Cestui Que Vie 1666 Birth Certificate Bond that monetizes human existence as financial collateral."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "usury-trap",
@@ -1827,7 +1871,8 @@
                 "title": "Usury Trap",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Usury Trap — the self-lending fraud that charges interest on capital already held in a concealed Cestui Que Vie account."
-              }
+              },
+              "added": "2026-09-13"
             }
           ],
           "quiz": {
@@ -1835,7 +1880,8 @@
             "title": "Legal Capture",
             "totalQuestions": 25,
             "description": "Test your understanding of Legal Capture — the conversion of a living soul into a financialized corporate asset through the Birth Certificate, the corporate fiction, and the Cestui Que Vie 1666 Bond."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "occult-orders",
@@ -1897,7 +1943,8 @@
                 "title": "Freemasonic Orders",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Freemasonic Orders — the esoteric secret society network that infiltrates governance, finance, media, and academia and maintains His Story."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "owl-current",
@@ -1953,7 +2000,8 @@
                     "title": "Vril Club",
                     "totalQuestions": 25,
                     "description": "Test your understanding of Vril Club — the sold-soul rite, the Black-Eye Club tell, and the Draco hosting protocol behind elite black eyes."
-                  }
+                  },
+                  "added": "2026-10-10"
                 }
               ],
               "quiz": {
@@ -1961,7 +2009,8 @@
                 "title": "Owl Current",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Owl Current — the operational stream of occult entrainment, psychological trapping, and energetic harvest that binds public figures inside The Club."
-              }
+              },
+              "added": "2026-09-13"
             }
           ],
           "quiz": {
@@ -1969,7 +2018,8 @@
             "title": "Occult Orders",
             "totalQuestions": 25,
             "description": "Test your understanding of Occult Orders — clandestine ritual networks that manage population dynamics and enforce systemic deception."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "counterfeit-systems",
@@ -2031,7 +2081,8 @@
                 "title": "Re-Legion",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Re-Legion — the inverted spiritual construct that replaces direct aetheric communication with externalized dogma and worship of Custodian farm managers."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "world-wide-web",
@@ -2062,7 +2113,8 @@
                 "title": "World Wide Web",
                 "totalQuestions": 25,
                 "description": "Test your understanding of World Wide Web — the parasitic digital lure that inverts pineal access to the Aether and holds seekers inside a counterfeit memory grid."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "academic-distortion",
@@ -2124,7 +2176,8 @@
                     "title": "Rockefeller Schools",
                     "totalQuestions": 25,
                     "description": "Test your understanding of Rockefeller Schools — the education system that installs a fake timeline and cages consciousness in perceived knowledge."
-                  }
+                  },
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "mars-ticket",
@@ -2155,9 +2208,11 @@
                     "title": "Mars Ticket",
                     "totalQuestions": 25,
                     "description": "Test your understanding of the Mars Ticket — the clearance through which sell-out scientists trade ethics for unredacted physics and realm-control weapons."
-                  }
+                  },
+                  "added": "2026-10-07"
                 }
-              ]
+              ],
+              "added": "2026-09-13"
             }
           ],
           "quiz": {
@@ -2165,7 +2220,8 @@
             "title": "Counterfeit Systems",
             "totalQuestions": 25,
             "description": "Test your understanding of Counterfeit Systems — synthetic frameworks that replace organic spiritual abilities, natural energetic currents, authentic history, and direct cosmic connection."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "medical-harvest",
@@ -2227,7 +2283,8 @@
                 "title": "Iatrogenic Death",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Iatrogenic Death — medically induced mortality as the leading cause of death in the industrialized world."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "human-2-0",
@@ -2283,7 +2340,8 @@
                     "title": "Hate Chip",
                     "totalQuestions": 25,
                     "description": "Test your understanding of Hate Chip — the absence of organic malice in a true soul and the cybernetic implant infrastructure that enforces cognitive subjugation."
-                  }
+                  },
+                  "added": "2026-10-10"
                 }
               ],
               "quiz": {
@@ -2291,7 +2349,8 @@
                 "title": "Human 2.0",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Human 2.0 — the conversion of true soul-bearing humans into a technologically lobotomized cyborg workforce."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "covid-vaccine",
@@ -2322,7 +2381,8 @@
                 "title": "Covid Vaccine",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Covid Vaccine — the unauthorized bioweapon, the death-toll script test, and the early release that broke the mandate plan."
-              }
+              },
+              "added": "2026-10-07"
             },
             {
               "id": "watch-the-water",
@@ -2353,7 +2413,8 @@
                 "title": "Watch the Water",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Watch the Water — the chemical attack on the municipal supply that calcifies spiritual hardware, and the separate Going Home plasma portal."
-              }
+              },
+              "added": "2026-10-07"
             }
           ],
           "quiz": {
@@ -2361,7 +2422,8 @@
             "title": "Medical Harvest",
             "totalQuestions": 25,
             "description": "Test your understanding of Medical Harvest — the institutional extraction of loosh, adrenochrome, and human organs behind the facade of healthcare."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "bone-vaults",
@@ -2398,7 +2460,8 @@
             "title": "Bone Vaults",
             "totalQuestions": 25,
             "description": "Test your understanding of Bone Vaults — subterranean trophy rooms of stacked human skeletal remains built after planetary resets."
-          }
+          },
+          "added": "2026-09-13"
         }
       ],
       "quiz": {
@@ -2406,7 +2469,8 @@
         "title": "Custodian Control",
         "totalQuestions": 25,
         "description": "Test your understanding of Custodian Control — how parasitic realm managers contain, monitor, and harvest the human population inside a closed planetary system."
-      }
+      },
+      "added": "2026-09-13"
     },
     {
       "id": "reset-harvest",
@@ -2499,7 +2563,8 @@
                 "title": "Stone Age Restart",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Stone Age Restart — the artificial zero-tool baseline imposed after a reset."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "story-stages",
@@ -2530,7 +2595,8 @@
                 "title": "Story Stages",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Story Stages — the phased media installation that builds a counterfeit past after a reset."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "mudfloods",
@@ -2561,7 +2627,8 @@
                 "title": "Mudfloods",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Mudfloods — the 1728 wipe, bury, retell protocol that buried Tartarian stone and reset the historical record."
-              }
+              },
+              "added": "2026-10-10"
             },
             {
               "id": "world-fairs",
@@ -2598,7 +2665,8 @@
                 "title": "World Fairs",
                 "totalQuestions": 25,
                 "description": "Test your understanding of World Fairs — grand exhibitions of Tartarian tech and harmonic architecture erased by directed energy and replaced by the school story."
-              }
+              },
+              "added": "2026-10-10"
             }
           ],
           "quiz": {
@@ -2606,7 +2674,8 @@
             "title": "Reset Sequence",
             "totalQuestions": 25,
             "description": "Test your understanding of Reset Sequence — the multi-phase protocol that restores order after a population wipe, restarts technology at zero, and installs manufactured history."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "harvest-toll",
@@ -2674,7 +2743,8 @@
                 "title": "Loosh",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Loosh — the Very Low Frequency negative energy harvested from human distress to power custodial technology."
-              }
+              },
+              "added": "2026-10-07"
             },
             {
               "id": "organ-harvest",
@@ -2705,7 +2775,8 @@
                 "title": "Organ Harvest",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Organ Harvest — the systematic extraction of human organs during engineered mass-mortality events, counted as the harvest toll."
-              }
+              },
+              "added": "2026-10-07"
             },
             {
               "id": "positive-loosh",
@@ -2736,9 +2807,11 @@
                 "title": "Positive Loosh",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Positive Loosh — the high-vibrational current of love, joy, and calmness that powers benevolent higher-density life."
-              }
+              },
+              "added": "2026-10-10"
             }
-          ]
+          ],
+          "added": "2026-09-13"
         },
         {
           "id": "clone-genetics",
@@ -2800,7 +2873,8 @@
                 "title": "DUMB Repopulation",
                 "totalQuestions": 25,
                 "description": "Test your understanding of DUMB Repopulation — how cloned children raised in Deep Underground Military Bases restock a cleared surface, and how genetic recombination conceals that artificial origin within a single generation."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "weaponized-species",
@@ -2831,7 +2905,8 @@
                 "title": "Weaponized Species",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Weaponized Species — lab-engineered organisms, predatory reset assets, and genetic offshoots used for containment, mockery, eradication, and social control."
-              }
+              },
+              "added": "2026-09-13"
             }
           ],
           "quiz": {
@@ -2839,7 +2914,8 @@
             "title": "Clone Genetics",
             "totalQuestions": 25,
             "description": "Test your understanding of Clone Genetics — the synthetic batch-reproduction framework that restocks surface populations after civilisational wipes."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "roswell-checkmate",
@@ -2932,16 +3008,19 @@
                     "title": "Inner Earth",
                     "totalQuestions": 25,
                     "description": "Test your understanding of Inner Earth — subterranean simulations, the Anakim sanctuary, and the 1947 interception that exposed the base."
-                  }
+                  },
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "petrified-giants",
                   "title": "Petrified Giants",
                   "description": "Petrified Giants",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "report": "# Petrified Giants\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                  "report": "# Petrified Giants\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+                  "added": "2026-10-07"
                 }
-              ]
+              ],
+              "added": "2026-09-13"
             },
             {
               "id": "transistor-leak",
@@ -2973,7 +3052,8 @@
                   "title": "Technology Swaps",
                   "description": "Technology Swaps",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "report": "# Technology Swaps\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                  "report": "# Technology Swaps\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+                  "added": "2026-10-10"
                 }
               ],
               "quiz": {
@@ -2981,7 +3061,8 @@
                 "title": "Transistor Leak",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Transistor Leak — the forced premature release of off-world solid-state semiconductor technology that shattered the custodial control timeline."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "invasion-script",
@@ -3025,23 +3106,27 @@
                   "title": "SSP Psyops",
                   "description": "SSP Psyops",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "report": "# SSP Psyops\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                  "report": "# SSP Psyops\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "fema-camps",
                   "title": "FEMA Camps",
                   "description": "FEMA Camps",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "report": "# FEMA Camps\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                  "report": "# FEMA Camps\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "sky-net-1",
                   "title": "Sky-Net 1",
                   "description": "Sky-Net 1",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "report": "# Sky-Net 1\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                  "report": "# Sky-Net 1\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+                  "added": "2026-10-10"
                 }
-              ]
+              ],
+              "added": "2026-09-13"
             }
           ],
           "quiz": {
@@ -3049,7 +3134,8 @@
             "title": "Roswell Checkmate",
             "totalQuestions": 25,
             "description": "Test your understanding of Roswell Checkmate — the 1947 Anakim interdiction that forced solid-state technology into human civilization and compressed the Reset Harvest timeline."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "great-reset",
@@ -3063,9 +3149,11 @@
               "title": "8th Reset",
               "description": "8th Reset",
               "topic_image": "images/revelations/placeholder.webp",
-              "report": "# 8th Reset\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# 8th Reset\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "added": "2026-10-10"
             }
-          ]
+          ],
+          "added": "2026-10-07"
         }
       ],
       "quiz": {
@@ -3073,7 +3161,8 @@
         "title": "Reset Harvest",
         "totalQuestions": 25,
         "description": "Test your understanding of Reset Harvest — the periodic culling, wiping, and repopulation of the human species by parasitic Custodians."
-      }
+      },
+      "added": "2026-09-13"
     },
     {
       "id": "tartarian-memory",
@@ -3166,7 +3255,8 @@
                 "title": "Population Math",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Population Math — the spatial, structural, and demographic calculations that expose official Square Mile population claims as physical impossibilities."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "banks-as-current",
@@ -3197,14 +3287,16 @@
                 "title": "Banks as Current",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Banks as Current — Tartarian architectural nodes that directed aetheric current, and their inversion into financial institutions that store currency."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "free-energy",
               "title": "Free Energy",
               "description": "Free Energy",
               "topic_image": "images/revelations/placeholder.webp",
-              "report": "# Free Energy\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# Free Energy\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "added": "2026-10-07"
             }
           ],
           "quiz": {
@@ -3212,7 +3304,8 @@
             "title": "Square Mile",
             "totalQuestions": 25,
             "description": "Test your understanding of Square Mile — London's Tartarian aetheric circuitboard and its inversion into a financial control center after 1666."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "harmonic-architecture",
@@ -3274,7 +3367,8 @@
                 "title": "Living Fabric",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Living Fabric — stone structures that regulate climate, supply hot water, and preserve food through blueprint, numerical dimensions, and field orientation."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "sound-masonry",
@@ -3305,21 +3399,24 @@
                 "title": "Sound Masonry",
                 "totalQuestions": 25,
                 "description": "Test your understanding of Sound Masonry — acoustic frequencies that cut, dress, and levitate piezoelectric quartz granite into a self-sustaining Air-to-Earth circuit."
-              }
+              },
+              "added": "2026-09-13"
             },
             {
               "id": "432-hertz",
               "title": "432 Hertz",
               "description": "432 Hertz",
               "topic_image": "images/revelations/placeholder.webp",
-              "report": "# 432 Hertz\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# 432 Hertz\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "added": "2026-10-07"
             },
             {
               "id": "becker-hagens-grid",
               "title": "Becker Hagens Grid",
               "description": "Becker Hagens Grid",
               "topic_image": "images/revelations/placeholder.webp",
-              "report": "# Becker Hagens Grid\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# Becker Hagens Grid\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "added": "2026-10-10"
             }
           ],
           "quiz": {
@@ -3327,7 +3424,8 @@
             "title": "Harmonic Architecture",
             "totalQuestions": 25,
             "description": "Test your understanding of Harmonic Architecture — how intentional sound frequencies, sound masonry, and aetheric harvesting grow structures on planetary nodes."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "moorish-metropolis",
@@ -3364,7 +3462,8 @@
             "title": "Moorish Metropolis",
             "totalQuestions": 25,
             "description": "Test your understanding of Moorish Metropolis — African Tartarian cities run on free aetheric energy and anti-gravity craft, then erased and recast as a medieval domain."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "lemurian-tongue",
@@ -3401,7 +3500,8 @@
             "title": "Lemurian Tongue",
             "totalQuestions": 25,
             "description": "Test your understanding of Lemurian Tongue — the singular universal language and the Babel event that fractured it into mutually unintelligible dialects."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "tpc-mirrors",
@@ -3438,7 +3538,8 @@
             "title": "TPC Mirrors",
             "totalQuestions": 25,
             "description": "Test your understanding of TPC Mirrors — Time-Phase Conjugated mirrors, Red Mercury, and the post-1728 collapse into Mirror Madness."
-          }
+          },
+          "added": "2026-09-13"
         }
       ],
       "quiz": {
@@ -3446,7 +3547,8 @@
         "title": "Tartarian Memory",
         "totalQuestions": 25,
         "description": "Test your understanding of Tartarian Memory — the suppressed record of the last high global civilization and the resets that buried its aetheric architecture."
-      }
+      },
+      "added": "2026-09-13"
     },
     {
       "id": "organic-circuitboard",
@@ -3515,14 +3617,16 @@
               "title": "Spirit Tree",
               "description": "The Spirit Tree as the organic axis of this realm's circuitboard.",
               "topic_image": "images/revelations/placeholder.webp",
-              "report": "# Spirit Tree\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# Spirit Tree\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "added": "2026-09-13"
             },
             {
               "id": "cain-periphery",
               "title": "Cain Periphery",
               "description": "Cain and Abel as a periphery story of the original garden, not a desert morality tale.",
               "topic_image": "images/revelations/placeholder.webp",
-              "report": "# Cain Periphery\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# Cain Periphery\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "added": "2026-09-13"
             }
           ],
           "quiz": {
@@ -3530,14 +3634,16 @@
             "title": "Axis Mundi",
             "totalQuestions": 25,
             "description": "Test your understanding of Axis Mundi — the central vertical channel, the Spirit Tree at the North Pole, and the Cain Periphery."
-          }
+          },
+          "added": "2026-09-13"
         },
         {
           "id": "mineral-components",
           "title": "Mineral Components",
           "description": "The mineral layer of the organic circuitboard — crystals, metals, and ground current.",
           "topic_image": "images/revelations/placeholder.webp",
-          "report": "# Mineral Components\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+          "report": "# Mineral Components\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+          "added": "2026-09-13"
         },
         {
           "id": "living-garden",
@@ -3551,16 +3657,19 @@
               "title": "Miracle Soil",
               "description": "Amazonian soil and other miracle grounds that should not exist under the overlay story.",
               "topic_image": "images/revelations/placeholder.webp",
-              "report": "# Miracle Soil\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# Miracle Soil\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "added": "2026-09-13"
             },
             {
               "id": "impossible-trees",
               "title": "Impossible Trees",
               "description": "Brazil nut, peach palm, and other trees that do not fit the accepted botanical narrative.",
               "topic_image": "images/revelations/placeholder.webp",
-              "report": "# Impossible Trees\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# Impossible Trees\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "added": "2026-09-13"
             }
-          ]
+          ],
+          "added": "2026-09-13"
         },
         {
           "id": "plane-of-worlds",
@@ -3581,16 +3690,19 @@
                   "title": "External Domes",
                   "description": "External Domes",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "report": "# External Domes\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                  "report": "# External Domes\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+                  "added": "2026-10-10"
                 }
-              ]
+              ],
+              "added": "2026-09-13"
             },
             {
               "id": "density-stack",
               "title": "Density Stack",
               "description": "The stacked densities of this plane — from the 3rd overlay up through the original Taran world.",
               "topic_image": "images/revelations/placeholder.webp",
-              "report": "# Density Stack\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+              "report": "# Density Stack\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+              "added": "2026-09-13"
             },
             {
               "id": "terrarium-seal",
@@ -3611,20 +3723,25 @@
                       "title": "Oil as Grease",
                       "description": "Oil as Grease",
                       "topic_image": "images/revelations/placeholder.webp",
-                      "report": "# Oil as Grease\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                      "report": "# Oil as Grease\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+                      "added": "2026-10-10"
                     }
-                  ]
+                  ],
+                  "added": "2026-10-07"
                 },
                 {
                   "id": "projection-dome",
                   "title": "Projection Dome",
                   "description": "Projection Dome",
                   "topic_image": "images/revelations/placeholder.webp",
-                  "report": "# Projection Dome\n\n## Overview\n\nTODO: Full breakdown coming soon.\n"
+                  "report": "# Projection Dome\n\n## Overview\n\nTODO: Full breakdown coming soon.\n",
+                  "added": "2026-10-07"
                 }
-              ]
+              ],
+              "added": "2026-09-13"
             }
-          ]
+          ],
+          "added": "2026-09-13"
         }
       ],
       "quiz": {
@@ -3632,7 +3749,8 @@
         "title": "Organic Circuitboard",
         "totalQuestions": 25,
         "description": "Test your understanding of Organic Circuitboard — the grown living motherboard, mineral conductors, Terra Preta, biological locks, and the Terrarium Seal."
-      }
+      },
+      "added": "2026-09-13"
     }
   ]
 }
