@@ -1906,6 +1906,13 @@
     },
     {
       "sourceId": "ascension",
+      "topicId": "other-world-conductors",
+      "path": "/dive/ascension/other-world-conductors.html",
+      "live": false,
+      "title": "Other-World Conductors"
+    },
+    {
+      "sourceId": "ascension",
       "topicId": "internal-timers",
       "path": "/dive/ascension/internal-timers.html",
       "live": true,
@@ -1952,6 +1959,13 @@
       "path": "/dive/ascension/new-aether-reaction.html",
       "live": true,
       "title": "New Aether Reaction"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "free-energy",
+      "path": "/dive/ascension/free-energy.html",
+      "live": false,
+      "title": "Free Energy"
     },
     {
       "sourceId": "ascension",
@@ -2032,6 +2046,20 @@
     },
     {
       "sourceId": "ascension",
+      "topicId": "dna-strand",
+      "path": "/dive/ascension/dna-strand.html",
+      "live": false,
+      "title": "DNA Strand"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "do-not-react",
+      "path": "/dive/ascension/do-not-react.html",
+      "live": false,
+      "title": "Do Not React"
+    },
+    {
+      "sourceId": "ascension",
       "topicId": "supervisory-oversight",
       "path": "/dive/ascension/supervisory-oversight.html",
       "live": true,
@@ -2071,6 +2099,27 @@
       "path": "/dive/ascension/unified-reality.html",
       "live": true,
       "title": "Unified Reality"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "pineal-and-vessel",
+      "path": "/dive/ascension/pineal-and-vessel.html",
+      "live": false,
+      "title": "Pineal and Vessel"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "four-elements",
+      "path": "/dive/ascension/four-elements.html",
+      "live": false,
+      "title": "Four Elements"
+    },
+    {
+      "sourceId": "ascension",
+      "topicId": "scare-events",
+      "path": "/dive/ascension/scare-events.html",
+      "live": false,
+      "title": "Scare Events"
     },
     {
       "sourceId": "revelations",

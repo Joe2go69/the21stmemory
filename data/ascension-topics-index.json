@@ -6,7 +6,7 @@
   "pdf_url": "https://drive.google.com/file/d/1U_fF_oFK637MRL5FHsncGJy60EVXhTC4/view?usp=sharing",
   "playlist_url": "https://rumble.com/playlists/GcNAXgVJCus",
   "description": "This transmission lays out the mechanics of the long-awaited ascension process: quartz crystals implanted by time-travel preparation, a solar activation from Kai that charges a new aether, and three flashes — back, forward, then the portal. It maps how an EMF grid forms across the 3rd realm so no sol escapes, how Project Looking Glass was used to plant the crystals in the future Great Awakening, and why the 3rd-realm dome will glitch, pixelate, and drop back into the 2nd realm.\n\nEssential for anyone who wants to understand the crystal grid, the three-flash sequence, the healing sanctuaries that follow, and the homecoming through the portal for those on the right vibration — love, empathy, and the ancient frequency the Resonating Army has been holding.",
-  "total_topics": 32,
+  "total_topics": 39,
   "topics": [
     {
       "id": "essence-of-the-transmission",
@@ -67,6 +67,13 @@
               "description": "New aether and rising quartz merge into plasma crystalline, forming a realm-wide EMP grid and a portal that restores original memories and vessels through three flashes.",
               "topic_image": "images/ascension/plasma-connection.webp",
               "is_placeholder": false
+            },
+            {
+              "id": "other-world-conductors",
+              "title": "Other-World Conductors",
+              "description": "Other-World Conductors",
+              "topic_image": "images/ascension/placeholder.webp",
+              "is_placeholder": true
             }
           ]
         },
@@ -121,7 +128,16 @@
               "title": "New Aether Reaction",
               "description": "Solar E.M. pulses couple with New Aether, charge subterranean quartz, lock the EMP grid, and convert the atmosphere to plasma crystalline for the three-flash portal sequence.",
               "topic_image": "images/ascension/new-aether-reaction.webp",
-              "is_placeholder": false
+              "is_placeholder": false,
+              "subtopics": [
+                {
+                  "id": "free-energy",
+                  "title": "Free Energy",
+                  "description": "Free Energy",
+                  "topic_image": "images/ascension/placeholder.webp",
+                  "is_placeholder": true
+                }
+              ]
             },
             {
               "id": "positive-frequencies",
@@ -206,7 +222,23 @@
           "title": "Ascension Criteria",
           "description": "The vibrational threshold of love, empathy, and kindness that qualifies immediate 3rd Flash Portal transit — or structured sanctuary healing for those not yet at frequency.",
           "topic_image": "images/ascension/ascension-criteria.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "dna-strand",
+              "title": "DNA Strand",
+              "description": "DNA Strand",
+              "topic_image": "images/ascension/placeholder.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "do-not-react",
+          "title": "Do Not React",
+          "description": "Do Not React",
+          "topic_image": "images/ascension/placeholder.webp",
+          "is_placeholder": true
         }
       ]
     },
@@ -252,7 +284,30 @@
           "title": "Unified Reality",
           "description": "The restored, balanced state when the artificial 3rd realm simulation dissolves and collapses back into complete alignment with the 2nd realm.",
           "topic_image": "images/ascension/unified-reality.webp",
-          "is_placeholder": false
+          "is_placeholder": false,
+          "subtopics": [
+            {
+              "id": "pineal-and-vessel",
+              "title": "Pineal and Vessel",
+              "description": "Pineal and Vessel",
+              "topic_image": "images/ascension/placeholder.webp",
+              "is_placeholder": true
+            }
+          ]
+        },
+        {
+          "id": "four-elements",
+          "title": "Four Elements",
+          "description": "Four Elements",
+          "topic_image": "images/ascension/placeholder.webp",
+          "is_placeholder": true
+        },
+        {
+          "id": "scare-events",
+          "title": "Scare Events",
+          "description": "Scare Events",
+          "topic_image": "images/ascension/placeholder.webp",
+          "is_placeholder": true
         }
       ]
     }
