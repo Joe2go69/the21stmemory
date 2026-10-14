@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T07:08:41.803Z",
-  "total": 287,
+  "generatedAt": "2026-10-14T09:01:31.670Z",
+  "total": 288,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 91
+      "count": 92
     }
   ],
   "quizzes": [
@@ -3757,6 +3757,19 @@
       "href": "quiz/revelations/white-hats.html",
       "diveHref": "dive/revelations/white-hats.html",
       "key": "revelations/white-hats"
+    },
+    {
+      "id": "world-fairs",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "World Fairs",
+      "subtitle": "Test your understanding of World Fairs — grand exhibitions of Tartarian tech and harmonic architecture erased by directed energy and replaced by the school story.",
+      "questionCount": 25,
+      "href": "quiz/revelations/world-fairs.html",
+      "diveHref": "dive/revelations/world-fairs.html",
+      "key": "revelations/world-fairs"
     },
     {
       "id": "world-wide-web",

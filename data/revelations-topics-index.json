@@ -540,9 +540,9 @@
             {
               "id": "world-fairs",
               "title": "World Fairs",
-              "description": "World Fairs",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true
+              "description": "The World Fairs were grand public exhibitions designed to display the operational machinery, Tartarian tech, and harmonic architecture inherited from the previous overlay.",
+              "topic_image": "images/revelations/world-fairs.webp",
+              "is_placeholder": false
             }
           ]
         },
