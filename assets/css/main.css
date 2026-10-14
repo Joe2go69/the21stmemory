@@ -5771,8 +5771,8 @@ a.category-toggle-btn {
   color: var(--text-muted);
 }
 
-.topic-section-group[data-expanded="true"] .category-toggle-btn .chevron,
-.topic-section-group[data-expanded="true"] .topic-section-disclosure .chevron {
+.topic-section-group[data-expanded="true"] > .topic-section-header .category-toggle-btn .chevron,
+.topic-section-group[data-expanded="true"] > .topic-section-header .topic-section-disclosure .chevron {
   transform: rotate(90deg) !important;
 }
 
