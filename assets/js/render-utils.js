@@ -265,7 +265,7 @@ const RenderUtils = {
 
     return `
       <a href="topics.html?source=${safeId}"
-         class="memory-card content-card channel-card group source-card ${statusTone}"
+         class="memory-card content-card channel-card group source-card series-card ${statusTone}"
          data-source-id="${safeId}">
         ${imageHTML}
         <div class="source-card-body">

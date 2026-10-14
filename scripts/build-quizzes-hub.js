@@ -129,7 +129,7 @@ function renderPathCards(quizzes) {
   </span>`
         : '';
       const countLabel = `${count} ${count === 1 ? 'quiz' : 'quizzes'}`;
-      return `<button type="button" class="memory-card content-card source-card quiz-hub-path-card" data-quiz-path="${escapeAttr(meta.id)}" aria-controls="quiz-browse">
+      return `<button type="button" class="memory-card content-card source-card series-card quiz-hub-path-card" data-quiz-path="${escapeAttr(meta.id)}" aria-controls="quiz-browse">
   ${img}
   <span class="source-card-body">
     <span class="card-label">${escapeHtml(meta.short)}</span>
@@ -142,7 +142,7 @@ function renderPathCards(quizzes) {
     .filter(Boolean)
     .join('\n');
 
-  return `<div class="quiz-hub-paths" role="navigation" aria-label="Quiz paths">
+  return `<div class="quiz-hub-paths series-card-row" role="navigation" aria-label="Quiz paths">
 ${cards}
 </div>`;
 }
