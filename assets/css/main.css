@@ -23488,41 +23488,44 @@ a.quiz-hub-card.has-resume {
 }
 .topic-category-body { margin-top: 1.5rem; }
 .topic-category-body[hidden] { display: none !important; }
-/* Chevron lives inside the card: glass chip in the top-right corner */
+/* Chevron lives inside the card: bare glyph matching subtopic row chevrons */
 .topic-category-disclosure {
   position: absolute;
-  top: 0.75rem;
-  right: 0.75rem;
+  top: 0.5rem;
+  right: 0.5rem;
   z-index: 3;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.75rem;
+  height: 2.75rem;
   padding: 0;
-  border: 1px solid rgba(167, 139, 250, 0.35);
-  border-radius: 999px;
-  background: rgba(15, 10, 31, 0.78);
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
+  border: none;
+  border-radius: 12px;
+  background: transparent;
   color: #C4B5FD;
   cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
-  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.topic-category-disclosure .chevron .card-icon {
+  width: 0.95rem;
+  height: 0.95rem;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.85)) drop-shadow(0 0 6px rgba(8, 5, 18, 0.7));
 }
 .topic-category-disclosure:hover,
 .topic-category-disclosure:focus-visible {
-  border-color: rgba(167, 139, 250, 0.7);
-  background: rgba(91, 33, 182, 0.45);
+  background: rgba(255, 255, 255, 0.08);
   color: #ffffff;
 }
 .topic-category-disclosure:focus-visible {
-  outline: 2px solid #A78BFA;
-  outline-offset: 2px;
+  outline: 2px solid #7C3AED;
+  outline-offset: -3px;
 }
 .topic-category-disclosure .chevron {
   display: inline-flex;
+  color: inherit;
   transition: transform 0.25s ease;
 }
 .topic-category-block[data-expanded="true"] > .topic-category-head .topic-category-disclosure .chevron {
@@ -23564,6 +23567,7 @@ a.quiz-hub-card.has-resume {
 .topic-category-block.is-collapsed .topic-category-title { margin: 0 !important; }
 .topic-category-block.is-collapsed .topic-category-disclosure {
   top: 50%;
+  right: 0.35rem;
   transform: translateY(-50%);
 }
 .topic-category-block.is-collapsed .topic-category-head > .topic-category-title--bare {
@@ -24022,4 +24026,22 @@ body.hero-lightbox-open { overflow: hidden; }
     grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
     gap: 2rem;
   }
+}
+
+/* Where to Begin: per-source Essence crop (Revelations eye sits at the very top) */
+.topics-main-root-section[data-source="revelations"] .topic-main-root-card .topic-main-root-media img,
+.topics-main-root-section[data-source="revelations"] .topic-main-root-card .topic-main-root-media .topic-card-img { object-position: center 4%; }
+@media (min-width: 720px) {
+  .topics-main-root-section[data-source="revelations"] .topic-main-root-card .topic-main-root-media img,
+  .topics-main-root-section[data-source="revelations"] .topic-main-root-card .topic-main-root-media .topic-card-img { object-position: center 6%; }
+}
+/* Open state: chevron sits over the banner image — brighten + soft scrim so it stays legible */
+.topic-category-block:not(.is-collapsed) .topic-category-disclosure {
+  color: #F5F3FF;
+  background: radial-gradient(circle, rgba(8, 5, 18, 0.55) 0%, rgba(8, 5, 18, 0.3) 45%, transparent 72%);
+}
+.topic-category-block:not(.is-collapsed) .topic-category-disclosure .chevron .card-icon {
+  width: 1.1rem;
+  height: 1.1rem;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.95)) drop-shadow(0 0 4px rgba(0, 0, 0, 0.8));
 }
