@@ -51,12 +51,13 @@ function topicImageComingSoonHtml({ compact = false } = {}) {
   return `<div class="topic-image-fallback topic-image-fallback--soon">${icon}<span>Coming soon</span></div>`;
 }
 
-function renderTopicImage(topicImage, alt, { loading = "lazy", isPlaceholder = false, compact = false } = {}) {
+function renderTopicImage(topicImage, alt, { loading = "lazy", isPlaceholder = false, compact = false, deferred = false } = {}) {
   const hasArt = topicImage && !TopicUtils.isPlaceholderImage(topicImage);
   if (!hasArt) {
     return isPlaceholder ? topicImageComingSoonHtml({ compact }) : topicImageFallbackHtml();
   }
-  return `<img src="${TopicUtils.encodeAssetPath(topicImage)}" alt="${TopicUtils.escapeAttr(alt)}" class="topic-card-img w-full h-full object-cover" loading="${loading}">`;
+  const srcAttr = deferred ? 'data-deferred-src' : 'src';
+  return `<img ${srcAttr}="${TopicUtils.encodeAssetPath(topicImage)}" alt="${TopicUtils.escapeAttr(alt)}" class="topic-card-img w-full h-full object-cover" loading="${loading}">`;
 }
 
 function setupTopicImageFallbacks(container) {
@@ -200,7 +201,19 @@ function renderMainRootBlock(sourceId, root) {
   `;
 }
 
-function renderCategoryBlock(sourceId, category) {
+const TREE_MOBILE_QUERY = '(max-width: 767px)';
+
+function categoryStateKey(categoryId) {
+  return `cat-${categoryId}`;
+}
+
+function defaultCategoryExpanded(index) {
+  const mobile = typeof window.matchMedia === 'function' && window.matchMedia(TREE_MOBILE_QUERY).matches;
+  if (mobile) return false;
+  return index === 0;
+}
+
+function renderCategoryBlock(sourceId, category, index = 0) {
   const isPh = category.is_placeholder;
   if (!shouldShowTopic(category, topicsPageState.filters.status) && topicsPageState.filters.status !== 'all') {
     const hasVisibleChildren = category.subtopics?.some((sub) =>
@@ -225,9 +238,15 @@ function renderCategoryBlock(sourceId, category) {
   const showRoot = shouldShowTopic(category, topicsPageState.filters.status) || topicsPageState.filters.status === 'all';
   if (!showRoot && !subsHTML) return '';
 
+  const stateKey = categoryStateKey(category.id);
+  const singleCategory = topicsPageState.filters.category === category.id;
+  const expanded = singleCategory || TopicUtils.isSectionExpanded(sourceId, stateKey, defaultCategoryExpanded(index));
+  const bodyId = `category-${category.id}-body`;
+  const disclosureLabel = `${expanded ? 'Hide' : 'Show'} topics in ${category.title}`;
+
   const rootInner = `
           <div class="topic-root-media">
-            ${renderTopicImage(category.topic_image, `${category.title} visual`, { isPlaceholder: isPh, compact: true })}
+            ${renderTopicImage(category.topic_image, `${category.title} visual`, { isPlaceholder: isPh, compact: true, deferred: !expanded })}
             <span class="topic-root-media-fade" aria-hidden="true"></span>
           </div>
           <div class="topic-root-content">
@@ -247,10 +266,20 @@ function renderCategoryBlock(sourceId, category) {
     : `<a href="${TopicUtils.escapeAttr(TopicUtils.topicHref(sourceId, category.id, false))}"
            class="${rootClasses}" ${topicAttrs}>${rootInner}</a>`;
 
+  const disclosure = `
+      <button type="button" class="topic-category-disclosure" aria-expanded="${expanded ? 'true' : 'false'}" aria-controls="${TopicUtils.escapeAttr(bodyId)}" data-toggle-category aria-label="${TopicUtils.escapeAttr(disclosureLabel)}">
+        <span class="chevron" aria-hidden="true">${typeof renderSiteIcon === 'function' ? renderSiteIcon('chevron', 'card-icon-sm') : ''}</span>
+      </button>`;
+
   return `
-    <div class="mb-12 relative topic-category-block" data-category-id="${category.id}">
-      ${showRoot ? rootCard : ''}
-      ${subsHTML}
+    <div class="mb-12 relative topic-category-block${expanded ? '' : ' is-collapsed'}" data-category-id="${TopicUtils.escapeAttr(category.id)}" data-category-state="${TopicUtils.escapeAttr(stateKey)}" data-expanded="${expanded ? 'true' : 'false'}">
+      <div class="topic-category-head">
+        ${disclosure}
+        ${showRoot ? rootCard : `<span class="topic-category-title topic-category-title--bare">${TopicUtils.escapeHtml(category.title)}</span>`}
+      </div>
+      <div id="${TopicUtils.escapeAttr(bodyId)}" class="topic-category-body" data-category-body${expanded ? '' : ' hidden'}>
+        ${subsHTML}
+      </div>
     </div>
   `;
 }
@@ -447,7 +476,7 @@ function renderTopicsList() {
     categories = categories.filter(c => c.id === filters.category);
   }
 
-  const html = categories.map(cat => renderCategoryBlock(sourceId, cat)).join('');
+  const html = categories.map((cat, i) => renderCategoryBlock(sourceId, cat, i)).join('');
   if (!html.trim()) {
     container.innerHTML = RenderUtils.renderDiscoveryEmpty({
       title: 'No topics in this view',
@@ -469,8 +498,166 @@ function renderTopicsList() {
   } else {
     container.innerHTML = html;
     setupCollapsibleSections(container);
+    setupCategoryDisclosures(container);
     setupTopicImageFallbacks(container);
   }
+  renderTreeToggleAll();
+}
+
+/* ---- Category-level disclosure (items 16–19) ---- */
+
+function loadDeferredImages(scope) {
+  scope.querySelectorAll('img[data-deferred-src]').forEach((img) => {
+    img.setAttribute('src', img.getAttribute('data-deferred-src'));
+    img.removeAttribute('data-deferred-src');
+  });
+}
+
+function setCategoryExpanded(block, expanded, { persist = true } = {}) {
+  if (!block) return;
+  const btn = block.querySelector(':scope > .topic-category-head > [data-toggle-category]');
+  const body = block.querySelector(':scope > [data-category-body]');
+  block.dataset.expanded = expanded ? 'true' : 'false';
+  block.classList.toggle('is-collapsed', !expanded);
+  if (body) body.hidden = !expanded;
+  if (expanded) loadDeferredImages(block);
+  if (btn) {
+    const title = block.querySelector('.topic-category-title')?.textContent?.trim() || 'category';
+    btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    btn.setAttribute('aria-label', `${expanded ? 'Hide' : 'Show'} topics in ${title}`);
+  }
+  if (persist && block.dataset.categoryState) {
+    TopicUtils.setSectionExpanded(topicsPageState.sourceId, block.dataset.categoryState, expanded);
+  }
+}
+
+function setSectionGroupExpanded(group, expanded, { persist = true } = {}) {
+  if (!group) return;
+  const btn = group.querySelector(':scope > .topic-section-header [data-toggle-section]');
+  const children = group.querySelector(':scope > [data-section-children]');
+  group.dataset.expanded = expanded ? 'true' : 'false';
+  if (children) children.style.maxHeight = expanded ? 'none' : '0px';
+  if (btn) {
+    const title = group.querySelector('.category-toggle-btn__label')?.textContent?.trim() || 'section';
+    btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    btn.setAttribute('aria-label', expanded ? `Hide nested topics in ${title}` : `Show nested topics in ${title}`);
+  }
+  if (persist && group.dataset.sectionId) {
+    TopicUtils.setSectionExpanded(topicsPageState.sourceId, group.dataset.sectionId, expanded);
+  }
+}
+
+function setupCategoryDisclosures(container) {
+  container.querySelectorAll('[data-toggle-category]').forEach((btn) => {
+    btn.addEventListener('click', (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      const block = btn.closest('.topic-category-block');
+      setCategoryExpanded(block, block?.dataset.expanded !== 'true');
+      renderTreeToggleAll();
+    });
+  });
+}
+
+function collapsibleTreeItems() {
+  const list = document.getElementById('topics-list');
+  if (!list) return [];
+  return [
+    ...list.querySelectorAll('.topic-category-block[data-category-state]'),
+    ...list.querySelectorAll('.topic-section-group[data-section-id]')
+  ];
+}
+
+function renderTreeToggleAll(announce) {
+  const slot = document.getElementById('topics-tree-toggle-slot');
+  if (!slot) return;
+  const items = collapsibleTreeItems();
+  if (items.length < 6) {
+    slot.hidden = true;
+    slot.querySelector('[data-tree-toggle-all]')?.remove();
+    return;
+  }
+  slot.hidden = false;
+  // Count an item as open only when it is actually visible (no collapsed ancestor)
+  const isEffectivelyOpen = (el) => {
+    if (el.dataset.expanded !== 'true') return false;
+    let up = el.parentElement?.closest('.topic-section-group, .topic-category-block');
+    while (up) {
+      if (up.dataset.expanded === 'false') return false;
+      up = up.parentElement?.closest('.topic-section-group, .topic-category-block');
+    }
+    return true;
+  };
+  const openCount = items.filter(isEffectivelyOpen).length;
+  // Majority open -> offer Collapse all; otherwise Expand all
+  const mode = openCount > items.length / 2 ? 'collapse' : 'expand';
+  let btn = slot.querySelector('[data-tree-toggle-all]');
+  if (!btn) {
+    btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'topic-control-btn topic-control-btn-sm topics-tree-toggle';
+    btn.setAttribute('data-tree-toggle-all', '');
+    btn.setAttribute('aria-controls', 'topics-list');
+    btn.addEventListener('click', () => {
+      const expand = btn.dataset.mode === 'expand';
+      collapsibleTreeItems().forEach((el) => {
+        if (el.classList.contains('topic-category-block')) setCategoryExpanded(el, expand);
+        else setSectionGroupExpanded(el, expand);
+      });
+      renderTreeToggleAll(expand ? 'All topics expanded' : 'All topics collapsed');
+    });
+    slot.insertBefore(btn, slot.firstChild);
+  }
+  btn.dataset.mode = mode;
+  btn.textContent = mode === 'expand' ? 'Expand all' : 'Collapse all';
+  const live = slot.querySelector('[data-tree-toggle-live]');
+  if (live && announce) {
+    live.textContent = '';
+    window.setTimeout(() => { live.textContent = announce; }, 30);
+  }
+}
+
+/** Scroll below the sticky navbar, restore the hash in the URL, and focus the target. */
+function scrollTreeTargetIntoView(targetId) {
+  try {
+    history.replaceState(history.state, '', `${location.pathname}${location.search}#${targetId}`);
+  } catch { /* ignore */ }
+  window.setTimeout(() => {
+    const target = document.getElementById(targetId);
+    if (!target) return;
+    const nav = document.querySelector('.navbar');
+    const offset = (nav ? nav.getBoundingClientRect().bottom : 80) + 16;
+    const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+    window.scrollTo({ top: Math.max(0, top), behavior: 'auto' });
+    // Re-align once late images/animations above the target have settled
+    window.setTimeout(() => {
+      const drift = target.getBoundingClientRect().top - offset;
+      if (Math.abs(drift) > 2) window.scrollBy({ top: drift, behavior: 'auto' });
+    }, 450);
+    if (!target.matches('a, button, [tabindex]')) target.setAttribute('tabindex', '-1');
+    target.focus({ preventScroll: true });
+  }, 80);
+}
+
+/** Open every collapsed ancestor of a deep-link target (ignores saved collapsed state; does not persist). */
+function openTreeAncestors(targetId) {
+  if (!targetId) return null;
+  const target = document.getElementById(targetId);
+  if (!target) return null;
+  let node = target;
+  while (node) {
+    const group = node.parentElement?.closest('.topic-section-group');
+    const block = node.parentElement?.closest('.topic-category-block');
+    const next = group && (!block || block.contains(group)) ? group : block;
+    if (!next) break;
+    if (next.dataset.expanded !== 'true') {
+      if (next.classList.contains('topic-category-block')) setCategoryExpanded(next, true, { persist: false });
+      else setSectionGroupExpanded(next, true, { persist: false });
+    }
+    node = next;
+  }
+  renderTreeToggleAll();
+  return target;
 }
 
 function renderFilterControls() {
@@ -526,6 +713,9 @@ function renderFilterControls() {
           <div class="topics-filter-section topics-filter-section--status archive-filter-row">
             <span class="topics-filter-label">Status</span>
             <div class="topics-filter-btn-group">${statusButtons}</div>
+            <div id="topics-tree-toggle-slot" class="topics-tree-toggle-slot" hidden>
+              <span class="sr-only" aria-live="polite" data-tree-toggle-live></span>
+            </div>
           </div>
           <div class="topics-filter-section topics-filter-section--category archive-filter-row ${TopicUtils.normalizeSearch(filters.search) ? 'is-disabled' : ''}">
             <span class="topics-filter-label">Category</span>
@@ -623,10 +813,11 @@ function renderSourceHeader(data, sourceId, stats) {
           </div>
           <div class="source-hero-desc">${descHtml}</div>
           <div class="source-hero-actions">
-            <a href="codex.html" class="btn-secondary">← Back to Codex</a>
+            <a href="#explore-topics" class="btn-primary source-hero-jump">Jump to topics <span aria-hidden="true">↓</span></a>
             ${pdfBtn}
             ${seriesLink}
             ${playlistLink}
+            <a href="codex.html" class="text-link source-hero-back">← Back to Codex</a>
           </div>
         </div>
         <div class="source-hero-media" style="background-color:#0F0A1F;min-height:12rem">
@@ -671,6 +862,8 @@ function applyPendingTopicsFilters() {
 }
 
 function finishTopicsScrollRestore() {
+  const pending = TopicUtils.peekNavReturnState();
+  if (pending?.topicId) openTreeAncestors(`topic-${pending.topicId}`);
   return TopicUtils.applyNavReturnAfterRender({
     page: 'topics',
     sourceId: topicsPageState.sourceId,
@@ -877,7 +1070,12 @@ async function loadSourceViewer() {
       ? finishTopicsScrollRestore()
       : null;
     if (!restored && topicsPendingHash) {
-      TopicUtils.applyCapturedHash(topicsPendingHash, { delay: 80 });
+      const target = openTreeAncestors(topicsPendingHash);
+      if (target) {
+        scrollTreeTargetIntoView(topicsPendingHash);
+      } else {
+        TopicUtils.applyCapturedHash(topicsPendingHash, { delay: 80 });
+      }
       topicsPendingHash = null;
     }
   } catch (e) {
