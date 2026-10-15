@@ -550,35 +550,23 @@
     },
     {
       "number": 18,
-      "question": "What makes the bio-crystal skin impervious to parasitic surveillance?",
+      "question": "True or False: According to the report, the bio-crystal skin escapes parasitic surveillance because its simple wooden frame is too ordinary to be scanned.",
       "options": [
         {
           "label": "A",
-          "text": "Its heavy lead plating, a dense three-dimensional material that blocks all sensors.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Lead is a dense three-dimensional material that does not provide the frequency-based protection of a plasma membrane."
+          "rationale": "False — The report says its constantly shifting tones keep parasitic constructs from locking onto its energetic signature."
         },
         {
           "label": "B",
-          "text": "Its ability to travel fast enough that monitoring grids never catch a usable image.",
-          "isCorrect": false,
-          "rationale": "Evasion is about vibrational invisibility and shifting tones, not just physical velocity."
-        },
-        {
-          "label": "C",
-          "text": "Its fluctuating, constantly shifting tones, which prevent parasitic constructs from locking onto its energetic signature.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Because the membrane fluctuates in shifting tones, parasitic constructs cannot lock onto its energetic signature, rendering their control grids and surveillance technologies obsolete."
-        },
-        {
-          "label": "D",
-          "text": "Its simple wooden frame, a primitive biological structure too ordinary to be scanned.",
-          "isCorrect": false,
-          "rationale": "These vessels are made of highly advanced crystalline plasma, not primitive biological materials like wood."
+          "rationale": "Correct — The report says its constantly shifting tones keep parasitic constructs from locking onto its energetic signature."
         }
       ],
-      "hint": "Parasitic systems require a stable signature to monitor, which these membranes do not provide.",
-      "correctAnswer": "C"
+      "hint": "Think back to how the report answers: “What makes the bio-crystal skin impervious to parasitic surveillance?”",
+      "correctAnswer": "B"
     },
     {
       "number": 19,

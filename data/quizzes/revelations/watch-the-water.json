@@ -442,34 +442,22 @@
     },
     {
       "number": 15,
-      "question": "Which two vectors form the dual-vector strategy employed by custodial control matrices?",
+      "question": "True or False: According to the report, the dual-vector strategy pairs chemtrail concoctions for atmospheric dispersion with a liquid chemical stack aimed at the body's internal fluid systems.",
       "options": [
         {
           "label": "A",
-          "text": "Chemtrail concoctions handle atmospheric dispersion and the liquid chemical stack targets the internal fluid systems.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "The external breathing environment and internal biological hydration remain saturated with suppressive elements."
+          "rationale": "Correct — The report names these two vectors."
         },
         {
           "label": "B",
-          "text": "Subterranean geological shifts and cosmic solar flares form the pair.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The described pair is chemtrail concoctions and the liquid chemical stack."
-        },
-        {
-          "label": "C",
-          "text": "Piezoelectric sound waves and orbital satellite surveillance form the pair.",
-          "isCorrect": false,
-          "rationale": "The paired vectors are atmospheric dispersion and the liquid chemical stack."
-        },
-        {
-          "label": "D",
-          "text": "Plasma portal openings and atmospheric Arc Pod deployments form the pair.",
-          "isCorrect": false,
-          "rationale": "The opening plasma portal and the atmospheric Arc Pod belong to the Going Home sequence."
+          "rationale": "This statement is true — The report names these two vectors."
         }
       ],
-      "hint": "Identify the two environmental pathways used to saturate the external and internal systems of the human vessel.",
+      "hint": "Think back to how the report answers: “Which two vectors form the dual-vector strategy employed by custodial control matrices?”",
       "correctAnswer": "A"
     },
     {

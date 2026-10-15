@@ -178,35 +178,23 @@
     },
     {
       "number": 6,
-      "question": "What are Oopa's (Out Of Place Artefacts)?",
+      "question": "True or False: According to the report, Oopa's (Out Of Place Artefacts) are displayed openly as required exhibits in Carnegie library wings.",
       "options": [
         {
           "label": "A",
-          "text": "Featured exhibits in Carnegie library wings, presented as curiosities from the early industrial period of the nineteenth century.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Libraries spread hyper-bullshit narrative; Oopa's are suppressed, not celebrated."
+          "rationale": "False — The report says Oopa's are physical evidence of high-tech pre-reset civilizations, hidden in museum basements."
         },
         {
           "label": "B",
-          "text": "Replicas made by the Freemasons to confuse researchers, so that genuine evidence would be dismissed along with the fakes.",
-          "isCorrect": false,
-          "rationale": "They are real contradicting physical evidence of prior tech ages."
-        },
-        {
-          "label": "C",
-          "text": "Blatant physical evidence of high-tech civilizations before the current reset, hidden in museum basements.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Oopa's are blatant physical evidence of pre-reset high technology that contradicts False History and is deliberately hidden in museum basements to protect the fabricated timeline."
-        },
-        {
-          "label": "D",
-          "text": "Tuning forks and harmonic tools still used in stone masonry classes, passed down from the builders of the old cathedrals.",
-          "isCorrect": false,
-          "rationale": "Advanced Tartarian tuning-fork tech was targeted cargo; Oopa's are broader suppressed artefacts."
+          "rationale": "Correct — The report says Oopa's are physical evidence of high-tech pre-reset civilizations, hidden in museum basements."
         }
       ],
-      "hint": "Pre-reset high-tech proof — basements, not display.",
-      "correctAnswer": "C"
+      "hint": "Think back to how the report answers: “What are Oopa's (Out Of Place Artefacts)?”",
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -274,34 +262,22 @@
     },
     {
       "number": 9,
-      "question": "How does true evolution actually occur?",
+      "question": "True or False: According to the report, true evolution happens through millions of years of random mutation, with no intelligence guiding the change.",
       "options": [
         {
           "label": "A",
-          "text": "As a slow process of education spread through Carnegie's libraries, which gradually raised the intelligence of the population.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Libraries disseminate fabricated history, not true lab upgrades."
+          "rationale": "False — The report says true evolution is an instantaneous, species-wide upgrade carried out in advanced 9th-density laboratories by benevolent ET soul families."
         },
         {
           "label": "B",
-          "text": "As an instantaneous, species-wide upgrade in advanced 9th-density laboratories run by benevolent ET soul families.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "True evolution is instantaneous species-wide upgrade conducted in advanced 9th density physical laboratories by benevolent extraterrestrial soul families."
-        },
-        {
-          "label": "C",
-          "text": "As millions of years of random mutation and natural selection, with no intelligence or design guiding the changes over time.",
-          "isCorrect": false,
-          "rationale": "That gradual random model is the fraudulent cover story."
-        },
-        {
-          "label": "D",
-          "text": "As gradual changes in posture and diet passed down through the generations of the Dark Ages, ending in the modern human.",
-          "isCorrect": false,
-          "rationale": "Dark Ages framing is False History; true upgrade is instant lab-based."
+          "rationale": "Correct — The report says true evolution is an instantaneous, species-wide upgrade carried out in advanced 9th-density laboratories by benevolent ET soul families."
         }
       ],
-      "hint": "Instant species-wide upgrade in 9th density ET labs.",
+      "hint": "Think back to how the report answers: “How does true evolution actually occur?”",
       "correctAnswer": "B"
     },
     {
@@ -754,35 +730,23 @@
     },
     {
       "number": 24,
-      "question": "How was spirituality inverted via Jesus as \"Bright and Morning Star\"?",
+      "question": "True or False: According to the report, calling Jesus the \"Bright and Morning Star\" links him to Lucifer and the planet Venus, so religions lead people to worship Satan without knowing it.",
       "options": [
         {
           "label": "A",
-          "text": "The title refers to the Moon, presenting the space station to believers as a benevolent guide watching over the faithful each night.",
-          "isCorrect": false,
-          "rationale": "The Moon is framed as a negative ET Death-Star-like station."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report says the title identifies Jesus with Lucifer / Venus, so religions force unwitting worship of Satan."
         },
         {
           "label": "B",
-          "text": "The title points worshippers to the Sun, so that devotion flows to the Amnesia Vortex rather than to the soul family.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "It is spiritual inversion tied to Venus hologram and Moon station."
-        },
-        {
-          "label": "C",
-          "text": "The title was given to the Tartarian free-energy lamps, which churches later replaced with candles and stained glass.",
-          "isCorrect": false,
-          "rationale": "Religion is a control string; naming encodes Luciferian inversion in plain sight."
-        },
-        {
-          "label": "D",
-          "text": "Religions force unwitting worship of Satan, since Jesus is named the Bright and Morning Star — Lucifer, the planet Venus.",
-          "isCorrect": true,
-          "rationale": "Spirituality was inverted into religions of unwitting Satan worship. Jesus as Bright and Morning Star (Lucifer/Venus) marks Venus as the holographic generator illuminating the Moon, a Death-Star-like negative ET space station."
+          "rationale": "This statement is true — The report says the title identifies Jesus with Lucifer / Venus, so religions force unwitting worship of Satan."
         }
       ],
-      "hint": "Bright and Morning Star = Lucifer/Venus generator for Moon station.",
-      "correctAnswer": "D"
+      "hint": "Think back to how the report answers: “How was spirituality inverted via Jesus as \"Bright and Morning Star\"?”",
+      "correctAnswer": "A"
     },
     {
       "number": 25,

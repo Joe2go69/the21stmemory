@@ -346,35 +346,23 @@
     },
     {
       "number": 12,
-      "question": "What is linear superposition as it relates to the Pineal Crossover?",
+      "question": "True or False: According to the report, linear superposition is the quantum state in which subatomic particles exist across all possible locations and states at once.",
       "options": [
         {
           "label": "A",
-          "text": "Linear superposition is the practice of stacking physical objects in a straight line so energy can flow more easily.",
-          "isCorrect": false,
-          "rationale": "The term names a quantum state of unmanifested possibility. It is not a way of arranging solid objects."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report defines linear superposition this way."
         },
         {
           "label": "B",
-          "text": "Linear superposition is the alignment of the pineal gland with the magnetic poles of the Earth.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Linear superposition is a state of subatomic particles. It is not a geographic or magnetic alignment of the gland."
-        },
-        {
-          "label": "C",
-          "text": "Linear superposition is a mathematical method for calculating how dense the aether is inside a chosen region.",
-          "isCorrect": false,
-          "rationale": "Linear superposition names the quantum state of particles across all possible locations and states. It is not a density formula."
-        },
-        {
-          "label": "D",
-          "text": "Linear superposition is the quantum state in which subatomic particles exist simultaneously across all possible locations and states.",
-          "isCorrect": true,
-          "rationale": "That state continues until acted upon by an observer or pineal interface, which collapses it into observable classical physical reality."
+          "rationale": "This statement is true — The report defines linear superposition this way."
         }
       ],
-      "hint": "Reflect on the quantum condition where multiple possibilities exist at once.",
-      "correctAnswer": "D"
+      "hint": "Think back to how the report answers: “What is linear superposition as it relates to the Pineal Crossover?”",
+      "correctAnswer": "A"
     },
     {
       "number": 13,

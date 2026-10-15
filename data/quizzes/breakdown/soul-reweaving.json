@@ -762,35 +762,23 @@
     },
     {
       "number": 25,
-      "question": "What is the terminal stage of the comprehensive rehabilitation process for souls?",
+      "question": "True or False: According to the report, the terminal stage of soul rehabilitation is recording the soul's lineage in the planetary hard drive.",
       "options": [
         {
           "label": "A",
-          "text": "Recording the soul's lineage in the planetary hard drive.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Recording is a supportive function that occurs throughout, rather than the terminal healing stage itself."
+          "rationale": "False — The report names soul reweaving within the Star Pods as the terminal restoration stage."
         },
         {
           "label": "B",
-          "text": "The integration of emotional wounds in the Water Domes.",
-          "isCorrect": false,
-          "rationale": "This is the first stage of the healing sequence."
-        },
-        {
-          "label": "C",
-          "text": "Soul reweaving within the star pods, the terminal restoration stage.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Soul reweaving represents the final phase of restoration for souls caught within dense physical illusions."
-        },
-        {
-          "label": "D",
-          "text": "Resting on humming crystal slabs in the Crystal Halls.",
-          "isCorrect": false,
-          "rationale": "This is the second stage, focusing on mental healing, not the final stage."
+          "rationale": "Correct — The report names soul reweaving within the Star Pods as the terminal restoration stage."
         }
       ],
-      "hint": "Think about the final step in the three-part healing sequence.",
-      "correctAnswer": "C"
+      "hint": "Think back to how the report answers: “What is the terminal stage of the comprehensive rehabilitation process for souls?”",
+      "correctAnswer": "B"
     }
   ]
 }

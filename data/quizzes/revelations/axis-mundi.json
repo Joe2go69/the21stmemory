@@ -186,35 +186,23 @@
     },
     {
       "number": 7,
-      "question": "Which modern corporate media logos continue to display the structural geometry of the central cosmic pillar?",
+      "question": "True or False: According to the report, the geometry of the central cosmic pillar appears in the Mercedes-Benz star, the National Geographic frame and the Shell emblem.",
       "options": [
         {
           "label": "A",
-          "text": "The Mercedes-Benz star, the National Geographic frame, and the Shell Corporation emblem.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Those emblems are not the media marks that display the mountain core and the central cosmic pillar."
+          "rationale": "False — The report names the Toblerone logo, the Paramount Pictures background and the Microsoft Outlook interface."
         },
         {
           "label": "B",
-          "text": "The AT&T globe, the Warner Bros shield, and the IBM multi-line block logo.",
-          "isCorrect": false,
-          "rationale": "Those marks depict horizontal networks rather than the vertical cosmic pillar."
-        },
-        {
-          "label": "C",
-          "text": "The structural geometry of this central cosmic pillar appears in the Toblerone logo, the Paramount Pictures background, and the Microsoft Outlook email interface.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "The central cosmic pillar appears in the Toblerone logo, the Paramount Pictures background, and the Microsoft Outlook email interface."
-        },
-        {
-          "label": "D",
-          "text": "The Apple icon, the Walt Disney castle, and the Google Chrome circular emblem.",
-          "isCorrect": false,
-          "rationale": "Those logos are not the Toblerone logo, the Paramount Pictures background, or the Microsoft Outlook email interface."
+          "rationale": "Correct — The report names the Toblerone logo, the Paramount Pictures background and the Microsoft Outlook interface."
         }
       ],
-      "hint": "Look for icons that depict triangular mountain peaks, stars encircling a central spire, or central gateway shapes.",
-      "correctAnswer": "C"
+      "hint": "Think back to how the report answers: “Which modern corporate media logos continue to display the structural geometry of the central cosmic pillar?”",
+      "correctAnswer": "B"
     },
     {
       "number": 8,

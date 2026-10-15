@@ -70,34 +70,22 @@
     },
     {
       "number": 3,
-      "question": "How did the quartz crystals reach their locations deep under the ground?",
+      "question": "True or False: According to the report, the quartz crystals were delivered to their underground positions by meteorites aimed at specific grid points.",
       "options": [
         {
           "label": "A",
-          "text": "They were naturally deposited by retreating glaciers during the last major ice age.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The crystals are part of a deliberate technological preparation rather than a result of natural historical glaciation."
+          "rationale": "False — The report says they were placed using time travel after positive forces secured Project Looking Glass."
         },
         {
           "label": "B",
-          "text": "They were placed there using time travel after positive forces secured Project Looking Glass.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Once positive forces secured Project Looking Glass, they jumped forward in time to implant these crystals under the ground."
-        },
-        {
-          "label": "C",
-          "text": "They were delivered by meteorites that were directed to impact specific grid points.",
-          "isCorrect": false,
-          "rationale": "The implantation was a precise strategic move using temporal technology to bypass negative control."
-        },
-        {
-          "label": "D",
-          "text": "They were grown in subterranean laboratories by the Galactic Ancestral Alliance.",
-          "isCorrect": false,
-          "rationale": "They were implanted via time travel, not cultivated in underground labs over long periods."
+          "rationale": "Correct — The report says they were placed using time travel after positive forces secured Project Looking Glass."
         }
       ],
-      "hint": "The method of placement involves a technology once controlled by negatives but now reclaimed by positive forces.",
+      "hint": "Think back to how the report answers: “How did the quartz crystals reach their locations deep under the ground?”",
       "correctAnswer": "B"
     },
     {

@@ -306,34 +306,22 @@
     },
     {
       "number": 10,
-      "question": "What is the core function of predictive programming?",
+      "question": "True or False: According to the report, predictive programming gives the public accurate technical instructions for surviving resets without panic.",
       "options": [
         {
           "label": "A",
-          "text": "Providing the public with accurate technological instructions to survive periodic resets without panic or containment.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Predictive programming ensures mass compliance and predictable cognitive reactions rather than offering survival guidance."
+          "rationale": "False — The report says predictive programming embeds narrative tropes and expectations so that people comply and react predictably."
         },
         {
           "label": "B",
-          "text": "Embedding specific narrative tropes and psychological expectations into public consciousness ensures mass compliance and predictable cognitive reactions.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Predictive programming is the long-term media strategy of embedding specific narrative tropes visual themes and psychological expectations into public consciousness decades prior to an orchestrated event."
-        },
-        {
-          "label": "C",
-          "text": "Gradually conditioning humanity to accept benevolent off-world interventions as the normal public narrative.",
-          "isCorrect": false,
-          "rationale": "Media conditioning suppressed benevolent off-world realities and maintained a high baseline of fear."
-        },
-        {
-          "label": "D",
-          "text": "Encouraging critical thinking and doubt toward mainstream media broadcasts so the public refuses staged events.",
-          "isCorrect": false,
-          "rationale": "The strategy ensures predictable cognitive reactions rather than independent questioning of the broadcast."
+          "rationale": "Correct — The report says predictive programming embeds narrative tropes and expectations so that people comply and react predictably."
         }
       ],
-      "hint": "Consider how long-term media narratives embed narrative tropes and psychological expectations decades before an orchestrated event.",
+      "hint": "Think back to how the report answers: “What is the core function of predictive programming?”",
       "correctAnswer": "B"
     },
     {
@@ -498,35 +486,23 @@
     },
     {
       "number": 16,
-      "question": "What demographic factor helps drive mass consensus and panic during the staged invasion?",
+      "question": "True or False: According to the report, an NPC Ratio above 50%, along with widespread Digital Inserts, helps drive mass consensus and panic during the staged invasion.",
       "options": [
         {
           "label": "A",
-          "text": "A complete public reliance on vacuum tube communication devices that cannot show the staged craft.",
-          "isCorrect": false,
-          "rationale": "Television networks and handheld screens carry the real-time visual rendering of the staged invasion."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report says NPCs and Digital Inserts automatically echo the panic responses dictated by the media."
         },
         {
           "label": "B",
-          "text": "Universal public understanding of the Sovereign Accord Law before the first simulated strike is shown.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Understanding the script retains emotional sovereignty and prevents voluntary surrender of human Free Will."
-        },
-        {
-          "label": "C",
-          "text": "An NPC Ratio exceeding 50% and widespread Digital Inserts means non-player entities automatically echo panic responses dictated by the media.",
-          "isCorrect": true,
-          "rationale": "That presence lets public consensus be artificially steered during the staged invasion."
-        },
-        {
-          "label": "D",
-          "text": "The active public presence of the Galactic Ancestral Alliance on broadcast screens during the staged attacks.",
-          "isCorrect": false,
-          "rationale": "The Galactic Ancestral Alliance intervened at Roswell and spread transistor technology rather than echoing media panic."
+          "rationale": "This statement is true — The report says NPCs and Digital Inserts automatically echo the panic responses dictated by the media."
         }
       ],
-      "hint": "Identify the non-player element in the population that automatically echoes media narratives.",
-      "correctAnswer": "C"
+      "hint": "Think back to how the report answers: “What demographic factor helps drive mass consensus and panic during the staged invasion?”",
+      "correctAnswer": "A"
     },
     {
       "number": 17,
@@ -626,35 +602,23 @@
     },
     {
       "number": 20,
-      "question": "Besides transistors which materials were recovered from the 1947 craft crash sites?",
+      "question": "True or False: According to the report, besides transistors, the 1947 crash recoveries yielded materials including fibre optics, Kevlar, night vision, printed circuit boards and thermal imaging.",
       "options": [
         {
           "label": "A",
-          "text": "Vacuum tubes analog meters tripod war machines and black dust filters were recovered from the crash sites.",
-          "isCorrect": false,
-          "rationale": "Vacuum tubes were the pre-1947 human standard and tripod war machines and black dust are archetypes from The War of the Worlds."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report lists these materials among the recoveries from the two crashed craft."
         },
         {
           "label": "B",
-          "text": "Q-Phones social credit chips and senescent holograms were recovered from the 1947 craft crash sites.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Q-Phones and senescent holograms belong to the later financial traps and visual simulation of the Invasion Script."
-        },
-        {
-          "label": "C",
-          "text": "Mercury switches heat-ray lenses and Project Mogul sensors were recovered from the crash sites.",
-          "isCorrect": false,
-          "rationale": "Heat-rays are tropes from the 1898 novel and Project Mogul was the conventional weather balloon retraction."
-        },
-        {
-          "label": "D",
-          "text": "Recovery of the two crashed craft yielded revolutionary materials including fibre optics Kevlar night vision printed circuit boards and thermal imaging.",
-          "isCorrect": true,
-          "rationale": "The physical recovery yielded fibre optics Kevlar night vision printed circuit boards thermal imaging and the point-contact transistor."
+          "rationale": "This statement is true — The report lists these materials among the recoveries from the two crashed craft."
         }
       ],
-      "hint": "Identify the suite of materials yielded by the physical recovery of the two crashed craft.",
-      "correctAnswer": "D"
+      "hint": "Think back to how the report answers: “Besides transistors which materials were recovered from the 1947 craft crash sites?”",
+      "correctAnswer": "A"
     },
     {
       "number": 21,

@@ -230,35 +230,23 @@
     },
     {
       "number": 8,
-      "question": "How were harmonic edifices targeted and destroyed during events such as World Fairs or military bombardments?",
+      "question": "True or False: According to the report, harmonic edifices were destroyed at World Fairs and in bombardments by incendiary bombing that set their timber frames and glass alight.",
       "options": [
         {
           "label": "A",
-          "text": "Their widespread destruction during events like the World Fairs or military bombardments was executed using advanced energy weapons to eradicate free-energy infrastructure.",
-          "isCorrect": true,
-          "rationale": "Widespread destruction during events like the World Fairs or military bombardments was executed using advanced energy weapons to eradicate free-energy infrastructure."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — The report says they were destroyed with advanced energy weapons in order to eradicate free-energy infrastructure."
         },
         {
           "label": "B",
-          "text": "Sustained incendiary bombing set timber frames and glass alight until the structures failed.",
-          "isCorrect": false,
-          "rationale": "Piezoelectric granite, iron, and specialized glass could not burn through conventional fire."
-        },
-        {
-          "label": "C",
-          "text": "Conventional dynamite was packed into load points and fired as a standard demolition.",
-          "isCorrect": false,
-          "rationale": "The widespread destruction was executed using advanced energy weapons, not conventional explosives."
-        },
-        {
-          "label": "D",
-          "text": "Subterranean chambers were flooded until the spring channels collapsed and the shells fell.",
-          "isCorrect": false,
-          "rationale": "Destruction was executed using advanced energy weapons, not by flooding spring channels."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — The report says they were destroyed with advanced energy weapons in order to eradicate free-energy infrastructure."
         }
       ],
-      "hint": "Piezoelectric granite, iron, and specialized glass did not yield to ordinary fire.",
-      "correctAnswer": "A"
+      "hint": "Think back to how the report answers: “How were harmonic edifices targeted and destroyed during events such as World Fairs or military bombardments?”",
+      "correctAnswer": "B"
     },
     {
       "number": 9,

@@ -666,34 +666,22 @@
     },
     {
       "number": 22,
-      "question": "Which element is described as an etheric cocoon for reweaving fragmented souls?",
+      "question": "True or False: According to the report, Star Pods are etheric cocoons suspended in space, resembling nebulae, that reweave fragmented aspects of the soul across multiple timelines of trauma.",
       "options": [
         {
           "label": "A",
-          "text": "Star Pods, etheric cocoons suspended in space, resembling nebulae, that reweave fragmented aspects of the soul across multiple timelines of trauma.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Star Pods are etheric cocoons that reweave fragmented aspects of the soul across multiple timelines of trauma."
+          "rationale": "Correct — The report describes Star Pods as nebula-like etheric cocoons that reweave fragmented soul aspects."
         },
         {
           "label": "B",
-          "text": "Sol Frequency Locks, personal recognition codes called by stellar kin during the final lift.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "A Sol Frequency Lock is a recognition code, not a healing structure."
-        },
-        {
-          "label": "C",
-          "text": "Crystal Halls, living temples with humming crystal slabs where prisms realign the light body grid.",
-          "isCorrect": false,
-          "rationale": "Crystal Halls are temples with slabs and prisms for mental realignment."
-        },
-        {
-          "label": "D",
-          "text": "Water Domes, pearlescent structures over crystalline waters that mend grief with liquid sound.",
-          "isCorrect": false,
-          "rationale": "Water Domes are pearlescent structures for emotional mending, not cocoons."
+          "rationale": "This statement is true — The report describes Star Pods as nebula-like etheric cocoons that reweave fragmented soul aspects."
         }
       ],
-      "hint": "Look for the sanctuary that handles trauma across multiple timelines.",
+      "hint": "Think back to how the report answers: “Which element is described as an etheric cocoon for reweaving fragmented souls?”",
       "correctAnswer": "A"
     },
     {

@@ -614,35 +614,23 @@
     },
     {
       "number": 20,
-      "question": "What was the Anuk's survival strictly tethered to within their 4th-density framework?",
+      "question": "True or False: According to the report, the Anuk's survival depended on an open alliance with the Galactic Ancestral Alliance and the White Hats.",
       "options": [
         {
           "label": "A",
-          "text": "Open alliance with the Galactic Ancestral Alliance and White Hats.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Those forces intervene against the parasites; they are not Anuk survival partners."
+          "rationale": "False — The report ties the Anuk's survival to suppressing the Known Lands (Realm-3) and continuously extracting human energy, not to any alliance with the G.A.A."
         },
         {
           "label": "B",
-          "text": "Voluntary worship from humanity without any density suppression.",
-          "isCorrect": false,
-          "rationale": "Their framework depends on density suppression and forced harvest, not free worship."
-        },
-        {
-          "label": "C",
-          "text": "Successful suppression of the Known Lands (Realm-3) and continuous extraction of human energy.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Anuk survival was strictly tethered to suppressing the Known Lands (Realm-3) and continuously extracting human energy."
-        },
-        {
-          "label": "D",
-          "text": "Natural evolution into pure 12th-density caretakers of the plain.",
-          "isCorrect": false,
-          "rationale": "They face a hard 4th-density ceiling and cannot become high-density caretakers."
+          "rationale": "Correct — The report ties the Anuk's survival to suppressing the Known Lands (Realm-3) and continuously extracting human energy, not to any alliance with the G.A.A."
         }
       ],
-      "hint": "Think about Realm-3 suppression and energy extraction, not ascension.",
-      "correctAnswer": "C"
+      "hint": "Think back to how the report answers: “What was the Anuk's survival strictly tethered to within their 4th-density framework?”",
+      "correctAnswer": "B"
     },
     {
       "number": 21,
@@ -710,35 +698,23 @@
     },
     {
       "number": 23,
-      "question": "What is the truth about 4th density as the ceiling for manufactured parasitic entities?",
+      "question": "True or False: According to the report, 4th density acts as a biological and vibrational ceiling for manufactured parasitic entities, marked by predatory consumption and an inability to reach higher harmonics.",
       "options": [
         {
           "label": "A",
-          "text": "As the density of the restored realm after the White Hats finish their work.",
-          "isCorrect": false,
-          "rationale": "The collapse of Anuk control ends the parasitic framework; 4th density is their limitation, not the restored outcome."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report describes 4th density as the ceiling for manufactured parasites: predatory consumption keeps them from reaching higher harmonics."
         },
         {
           "label": "B",
-          "text": "As the original density of the pure Custodians before any rebellion.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The Custodians were formerly pure 12th density caretakers before their fall into the parasitic hierarchy."
-        },
-        {
-          "label": "C",
-          "text": "As a biological and vibrational ceiling marked by predatory consumption and inability to reach higher harmonics.",
-          "isCorrect": true,
-          "rationale": "4th density is the biological and vibrational ceiling for manufactured parasites, with predatory consumption and no access to higher harmonic frequencies."
-        },
-        {
-          "label": "D",
-          "text": "As a temporary training band before automatic ascension to 9th density.",
-          "isCorrect": false,
-          "rationale": "The ceiling is absolute for manufactured parasites; they cannot attain higher harmonic frequencies."
+          "rationale": "This statement is true — The report describes 4th density as the ceiling for manufactured parasites: predatory consumption keeps them from reaching higher harmonics."
         }
       ],
-      "hint": "Recall the definition of 4th density.",
-      "correctAnswer": "C"
+      "hint": "Think back to how the report answers: “What is the truth about 4th density as the ceiling for manufactured parasitic entities?”",
+      "correctAnswer": "A"
     },
     {
       "number": 24,

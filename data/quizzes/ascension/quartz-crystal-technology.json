@@ -474,35 +474,23 @@
     },
     {
       "number": 16,
-      "question": "What happens to the physical dome of the 3rd realm during the 'Third Flash'?",
+      "question": "True or False: According to the report, during the Third Flash, plasma crystalline dissolves the physical dome of the 3rd realm and opens the ascension portal.",
       "options": [
         {
           "label": "A",
-          "text": "It expands to encompass the entire solar system.",
-          "isCorrect": false,
-          "rationale": "The Third Flash dissolves the physical dome of the 3rd realm. It does not expand that dome outward."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report says the Third Flash dissolves the 3rd realm's dome and opens the massive ascension portal."
         },
         {
           "label": "B",
-          "text": "Plasma crystalline dissolves the physical dome of the 3rd realm and opens the massive ascension portal.",
-          "isCorrect": true,
-          "rationale": "The Third Flash is the portal ignition, designated as 3rd Flash = PORTAL. The intense energy of the crystals interacting with the new aether forms a state of plasma crystalline, which dissolves the physical dome of the 3rd realm and opens the massive ascension portal."
-        },
-        {
-          "label": "C",
-          "text": "It turns into a transparent window that allows the viewing of other realms.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The dome does not remain as a window. Plasma crystalline dissolves the physical dome and opens the massive ascension portal."
-        },
-        {
-          "label": "D",
-          "text": "It solidifies into a permanent protective shield for the new earth.",
-          "isCorrect": false,
-          "rationale": "The dome is dissolved so the portal can open. It is not hardened into a lasting shield."
+          "rationale": "This statement is true — The report says the Third Flash dissolves the 3rd realm's dome and opens the massive ascension portal."
         }
       ],
-      "hint": "The third flash is portal ignition, formed when crystals and the new aether meet.",
-      "correctAnswer": "B"
+      "hint": "Think back to how the report answers: “What happens to the physical dome of the 3rd realm during the 'Third Flash'?”",
+      "correctAnswer": "A"
     },
     {
       "number": 17,
