@@ -12,7 +12,7 @@
     "body": "Living fabric shows that stone aligned to numerical proportions and energy nodes can warm rooms, deliver hot water, and preserve food without fuel, boilers, or mechanical cooling. Habitation built this way stands independent of centralized power grids and entropic infrastructure."
   },
   "relatedTopic": {
-    "href": "/deep-dive.html?source=revelations&topic=living-fabric",
+    "href": "/dive/revelations/living-fabric.html",
     "label": "Return to Living Fabric deep-dive"
   },
   "questions": [
@@ -22,7 +22,7 @@
       "options": [
         {
           "label": "A",
-          "text": "The application of chemical surface coatings to stone masonry to generate passive thermal resistance, without a larger engineered system underneath.",
+          "text": "The application of chemical surface coatings to stone masonry to generate passive thermal resistance.",
           "isCorrect": false,
           "rationale": "Environmental regulation stems from intrinsic structural geometry and field coupling rather than chemical wall treatments."
         },
@@ -40,7 +40,7 @@
         },
         {
           "label": "D",
-          "text": "The integration of subterranean combustion chambers that heat masonry walls through concealed ventilation shafts, as a one-factor story with a tidy edge.",
+          "text": "The integration of subterranean combustion chambers that heat masonry walls through concealed ventilation shafts.",
           "isCorrect": false,
           "rationale": "Mechanical combustion or hidden heating systems contradict the passive, non-combustive nature of living fabric."
         }
@@ -86,7 +86,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Autonomous structural designs that harvest natural field resonance to eliminate energy grids, and that is treated as the entire mechanism.",
+          "text": "Autonomous structural designs that harvest natural field resonance to eliminate energy grids.",
           "isCorrect": false,
           "rationale": "Autonomous field-harvesting architecture represents spiritual technology rather than entropic systems."
         },
@@ -156,7 +156,7 @@
         },
         {
           "label": "B",
-          "text": "A sealed glass and metal cabinet built into internal walls that utilizes chemical desiccants to dry food, as a one-factor story with a tidy edge.",
+          "text": "A sealed glass and metal cabinet built into internal walls that utilizes chemical desiccants to dry food.",
           "isCorrect": false,
           "rationale": "These recesses maintain open access and rely on field geometry rather than sealed enclosures or chemical agents."
         },
@@ -168,7 +168,7 @@
         },
         {
           "label": "D",
-          "text": "A deeply insulated wooden cupboard that traps ambient room heat to dehydrate perishable items, as if no adjacent systems participated at all.",
+          "text": "A deeply insulated wooden cupboard that traps ambient room heat to dehydrate perishable items.",
           "isCorrect": false,
           "rationale": "The alcoves lower internal temperatures and preserve freshness rather than heating or dehydrating food."
         }
@@ -278,19 +278,19 @@
       "options": [
         {
           "label": "A",
-          "text": "It operated effectively only in temperate climates, failing during extreme summer heatwaves, and declining any account that reaches past that point.",
+          "text": "It operated effectively only in temperate climates, failing during extreme summer heatwaves.",
           "isCorrect": false,
           "rationale": "The system successfully maintained cool interior temperatures even during extreme summer heat."
         },
         {
           "label": "B",
-          "text": "It was developed simultaneously alongside early electrical refrigeration systems in the mid-twentieth century, with no further layer required beyond that account.",
+          "text": "It was developed simultaneously alongside early electrical refrigeration systems in the mid-twentieth century.",
           "isCorrect": false,
           "rationale": "The technology predated commercial air conditioning and electrical refrigeration systems."
         },
         {
           "label": "C",
-          "text": "It required supplementary ice storage units until modern air conditioning was introduced to replace it, keeping every neighboring mechanism off the board.",
+          "text": "It required supplementary ice storage units until modern air conditioning was introduced to replace it.",
           "isCorrect": false,
           "rationale": "Passive cooling was entirely self-sufficient and did not rely on ice storage."
         },
@@ -328,7 +328,7 @@
         },
         {
           "label": "D",
-          "text": "The placement of secondary glass windows along northern and southern building facades, as a one-factor story with a tidy edge.",
+          "text": "The placement of secondary glass windows along northern and southern building facades.",
           "isCorrect": false,
           "rationale": "Window orientation is secondary to the overall numerical geometry and mineral matrix of the building."
         }
@@ -476,19 +476,19 @@
         },
         {
           "label": "B",
-          "text": "Water is preheated in atmospheric collector tanks situated on the upper levels of the building, stopping the explanation at that boundary alone.",
+          "text": "Water is preheated in atmospheric collector tanks situated on the upper levels of the building.",
           "isCorrect": false,
           "rationale": "Hot water arises directly from subterranean hydronic coupling, not rooftop tanks."
         },
         {
           "label": "C",
-          "text": "Chemical reactions between minerals in the stone wall and passing water generate rapid heat transfer, held as a complete closed account of the events.",
+          "text": "Chemical reactions between minerals in the stone wall and passing water generate rapid heat transfer.",
           "isCorrect": false,
           "rationale": "Water heating is a field resonance phenomenon rather than a chemical reaction."
         },
         {
           "label": "D",
-          "text": "High-frequency sound waves inside the stone conduits vibrate water molecules to produce steam, and declining any account that reaches past that point.",
+          "text": "High-frequency sound waves inside the stone conduits vibrate water molecules to produce steam.",
           "isCorrect": false,
           "rationale": "Heating occurs through passive field coupling rather than acoustic vibrational steam generation."
         }
@@ -502,13 +502,13 @@
       "options": [
         {
           "label": "A",
-          "text": "It emits concentrated ultraviolet radiation from reflective mineral crystals embedded in the stone, and that is treated as the entire mechanism.",
+          "text": "It emits concentrated ultraviolet radiation from reflective mineral crystals embedded in the stone.",
           "isCorrect": false,
           "rationale": "Preservation relies on a passive cooling field rather than ultraviolet radiation."
         },
         {
           "label": "B",
-          "text": "It creates a complete vacuum within the alcove to suffocate bacteria and mold spores, without a larger engineered system underneath.",
+          "text": "It creates a complete vacuum within the alcove to suffocate bacteria and mold spores.",
           "isCorrect": false,
           "rationale": "The alcove is open and doorless, operating without vacuum seals or pressure chambers."
         },
@@ -520,7 +520,7 @@
         },
         {
           "label": "D",
-          "text": "It circulates dry ozone gas through porous stone tiles to sterilize stored food surfaces, stopping the explanation at that boundary alone.",
+          "text": "It circulates dry ozone gas through porous stone tiles to sterilize stored food surfaces.",
           "isCorrect": false,
           "rationale": "Spoilage is prevented without chemical gases, ozone, or artificial sterilization mechanisms."
         }
@@ -534,13 +534,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Periodic re-coating of internal wall alcoves with organic sealants to preserve field conduction, as if no adjacent systems participated at all.",
+          "text": "Periodic re-coating of internal wall alcoves with organic sealants to preserve field conduction.",
           "isCorrect": false,
           "rationale": "Stone matrices retain their field properties permanently without needing protective sealants."
         },
         {
           "label": "B",
-          "text": "Quarterly flushing of subterranean wall conduits with saline solutions to clear mineral buildup, and that is treated as the entire mechanism.",
+          "text": "Quarterly flushing of subterranean wall conduits with saline solutions to clear mineral buildup.",
           "isCorrect": false,
           "rationale": "Natural field resonance keeps the system operating without flushing or cleaning solutions."
         },
@@ -552,7 +552,7 @@
         },
         {
           "label": "D",
-          "text": "Annual recalibration of stone block alignments using specialized geometric tuning instruments, keeping every neighboring mechanism off the board.",
+          "text": "Annual recalibration of stone block alignments using specialized geometric tuning instruments.",
           "isCorrect": false,
           "rationale": "Proper alignment during construction ensures permanent operation without recalibration."
         }
@@ -566,19 +566,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Soaking masonry blocks in mineral oil solutions to maximize thermal absorption rates, as if no adjacent systems participated at all.",
+          "text": "Soaking masonry blocks in mineral oil solutions to maximize thermal absorption rates.",
           "isCorrect": false,
           "rationale": "System capabilities stem from geometry and natural stone properties, not oil treatments."
         },
         {
           "label": "B",
-          "text": "Fitting metallic copper mesh beneath floor tiles to distribute electrical field currents, as a one-factor story with a tidy edge.",
+          "text": "Fitting metallic copper mesh beneath floor tiles to distribute electrical field currents.",
           "isCorrect": false,
           "rationale": "Energy distribution occurs through the stone matrix itself without embedded metallic meshes."
         },
         {
           "label": "C",
-          "text": "Installing secondary emergency boilers to back up thermal regulation during extreme weather, and that is treated as the entire mechanism.",
+          "text": "Installing secondary emergency boilers to back up thermal regulation during extreme weather.",
           "isCorrect": false,
           "rationale": "Living fabric functions autonomously without needing secondary mechanical backup systems."
         },
@@ -636,19 +636,19 @@
         },
         {
           "label": "B",
-          "text": "Residencies are arranged randomly along natural riverbanks to facilitate waste disposal, without a larger engineered system underneath.",
+          "text": "Residencies are arranged randomly along natural riverbanks to facilitate waste disposal.",
           "isCorrect": false,
           "rationale": "Spatial organization follows precise mathematical schematics rather than random geographical placement."
         },
         {
           "label": "C",
-          "text": "Structures are clustered in dense concentric circles surrounding a central fossil fuel power plant, as a one-factor story with a tidy edge.",
+          "text": "Structures are clustered in dense concentric circles surrounding a central fossil fuel power plant.",
           "isCorrect": false,
           "rationale": "Living fabric cities eliminate the need for centralized fossil fuel plants."
         },
         {
           "label": "D",
-          "text": "Buildings are positioned in rigid square grids to maximize vehicular transportation channels, as a one-factor story with a tidy edge.",
+          "text": "Buildings are positioned in rigid square grids to maximize vehicular transportation channels.",
           "isCorrect": false,
           "rationale": "Urban layouts utilize geometric Fibonacci schematics rather than simple transportation grids."
         }
@@ -668,19 +668,19 @@
         },
         {
           "label": "B",
-          "text": "It utilizes short-lived mechanical components that must be replaced every few decades, as if no adjacent systems participated at all.",
+          "text": "It utilizes short-lived mechanical components that must be replaced every few decades.",
           "isCorrect": false,
           "rationale": "Stone engineering functions perpetually without needing parts replacement or mechanical repairs."
         },
         {
           "label": "C",
-          "text": "It relies on higher voltage electrical generation derived from subterranean magnetic anomalies, stopping the explanation at that boundary alone.",
+          "text": "It relies on higher voltage electrical generation derived from subterranean magnetic anomalies.",
           "isCorrect": false,
           "rationale": "Living technology operates passively without high-voltage electrical currents."
         },
         {
           "label": "D",
-          "text": "It requires extensive chemical refining of groundwater before internal distribution can occur, as if no adjacent systems participated at all.",
+          "text": "It requires extensive chemical refining of groundwater before internal distribution can occur.",
           "isCorrect": false,
           "rationale": "Hydronic coupling processes natural water without chemical filtration or industrial refining."
         }
@@ -694,13 +694,13 @@
       "options": [
         {
           "label": "A",
-          "text": "It generates low-frequency electromagnetic fields that require occupants to wear protective gear, and that is treated as the entire mechanism.",
+          "text": "It generates low-frequency electromagnetic fields that require occupants to wear protective gear.",
           "isCorrect": false,
           "rationale": "Living fabric operates in natural energy harmony, producing no harmful electromagnetic stress."
         },
         {
           "label": "B",
-          "text": "It reduces indoor air humidity to near-zero levels, requiring artificial humidification systems, and that is treated as the entire mechanism.",
+          "text": "It reduces indoor air humidity to near-zero levels, requiring artificial humidification systems.",
           "isCorrect": false,
           "rationale": "Aseptic alcoves and living stone preserve natural moisture balance throughout interior spaces."
         },
@@ -712,7 +712,7 @@
         },
         {
           "label": "D",
-          "text": "It relies on radioactive mineral deposits within stone walls to generate ambient radiant heat, and that is treated as the entire mechanism.",
+          "text": "It relies on radioactive mineral deposits within stone walls to generate ambient radiant heat.",
           "isCorrect": false,
           "rationale": "Energy transduction utilizes natural background fields without harmful radioactive materials."
         }
@@ -726,7 +726,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Buildings can generate economic profit by selling surplus electrical current back to national grids, held as a complete closed account of the events.",
+          "text": "Buildings can generate economic profit by selling surplus electrical current back to national grids.",
           "isCorrect": false,
           "rationale": "The system provides passive utility directly within the building rather than generating commercial electricity for grids."
         },
@@ -738,13 +738,13 @@
         },
         {
           "label": "C",
-          "text": "Architectural design can prioritize aesthetic ornamentation over functional structural engineering, held as a complete closed account of the events.",
+          "text": "Architectural design can prioritize aesthetic ornamentation over functional structural engineering.",
           "isCorrect": false,
           "rationale": "Structural design inherently unifies physical utility, mathematics, and architectural form."
         },
         {
           "label": "D",
-          "text": "Urban centers must remain strictly tied to regional municipal authorities for energy distribution, without a larger engineered system underneath.",
+          "text": "Urban centers must remain strictly tied to regional municipal authorities for energy distribution.",
           "isCorrect": false,
           "rationale": "Living fabric enables decentralized, fully independent human settlements."
         }

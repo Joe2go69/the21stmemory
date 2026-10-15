@@ -12,7 +12,7 @@
     "body": "The 1947 retrieval of two downed H1 Orion craft in New Mexico supplied fibre optics, Kevlar, night vision, thermal imaging, the printed circuit board, and the point-contact transistor. Those pieces were meant for black-budget programs. Corporate subcontracting carried them into commercial life and moved solid-state electronics nearly a millennium ahead of the custodial master schedule. Textbook invention stories are Earth-Invention Theatre laid over a crash leak."
   },
   "relatedTopic": {
-    "href": "/deep-dive.html?source=revelations&topic=technology-swaps",
+    "href": "/dive/revelations/technology-swaps.html",
     "label": "Return to Technology Swaps deep-dive"
   },
   "questions": [
@@ -28,19 +28,19 @@
         },
         {
           "label": "B",
-          "text": "Roughly fifty percent of modern technical progress comes from salvage, while the remainder is organic invention, stopping the explanation at that boundary alone.",
+          "text": "Roughly fifty percent of modern technical progress comes from salvage, while the remainder is organic invention.",
           "isCorrect": false,
           "rationale": "Organic terrestrial invention is the smaller share beside this covert exchange and salvage infrastructure."
         },
         {
           "label": "C",
-          "text": "Less than thirty percent of technical progress relies on salvage, serving primarily as a minor research boost, disconnected from any deliberate long-game control design.",
+          "text": "Less than thirty percent of technical progress relies on salvage, serving primarily as a minor research boost.",
           "isCorrect": false,
           "rationale": "The salvage pipeline accounts for over ninety-six percent of modern human technological progress."
         },
         {
           "label": "D",
-          "text": "Exactly seventy-five percent of breakthroughs are non-terrestrial, with twenty-five percent being purely human, keeping every neighboring mechanism off the board.",
+          "text": "Exactly seventy-five percent of breakthroughs are non-terrestrial, with twenty-five percent being purely human.",
           "isCorrect": false,
           "rationale": "The stated share is over ninety-six percent from the covert exchange and salvage infrastructure."
         }
@@ -54,7 +54,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Direct commercial trades executed through covert offshore financial institutions and research hubs, without a larger engineered system underneath.",
+          "text": "Direct commercial trades executed through covert offshore financial institutions and research hubs.",
           "isCorrect": false,
           "rationale": "The physical delivery mechanism relies on crash wreckage containing advanced hardware."
         },
@@ -66,13 +66,13 @@
         },
         {
           "label": "C",
-          "text": "Formal diplomatic meetings held in secret underground bunkers between global leaders and controllers, with no further layer required beyond that account.",
+          "text": "Formal diplomatic meetings held in secret underground bunkers between global leaders and controllers.",
           "isCorrect": false,
           "rationale": "Technology Swaps operate without direct diplomatic handovers or open transfers."
         },
         {
           "label": "D",
-          "text": "Secure orbital transport drops delivering fully assembled electronic components directly to military bases, as if no adjacent systems participated at all.",
+          "text": "Secure orbital transport drops delivering fully assembled electronic components directly to military bases.",
           "isCorrect": false,
           "rationale": "The delivery point is a terrestrial crash site filled with salvageable technology."
         }
@@ -86,7 +86,7 @@
       "options": [
         {
           "label": "A",
-          "text": "The 1939 discovery of an abandoned subterranean propulsion system in Antarctica, held as a complete closed account of the events.",
+          "text": "The 1939 discovery of an abandoned subterranean propulsion system in Antarctica.",
           "isCorrect": false,
           "rationale": "The direct source is the 1947 retrieval in New Mexico."
         },
@@ -98,13 +98,13 @@
         },
         {
           "label": "C",
-          "text": "The 1952 recovery of an experimental craft near an ocean trench in the Atlantic, with no further layer required beyond that account.",
+          "text": "The 1952 recovery of an experimental craft near an ocean trench in the Atlantic.",
           "isCorrect": false,
           "rationale": "The cluster came from the 1947 retrieval of two downed H1 Orion craft in New Mexico."
         },
         {
           "label": "D",
-          "text": "The 1961 intercept of a reconnaissance probe over northern European airspace, with no further layer required beyond that account.",
+          "text": "The 1961 intercept of a reconnaissance probe over northern European airspace.",
           "isCorrect": false,
           "rationale": "The foundational crash leak is the 1947 New Mexico retrieval."
         }
@@ -124,19 +124,19 @@
         },
         {
           "label": "B",
-          "text": "Commercial manufacturing sectors aimed at immediately boosting consumer economies, without extending the chain into harvest or inversion logistics.",
+          "text": "Commercial manufacturing sectors aimed at immediately boosting consumer economies.",
           "isCorrect": false,
           "rationale": "Commercial release came later as an unintended byproduct of corporate greed and subcontracting."
         },
         {
           "label": "C",
-          "text": "Global intelligence agencies tasked with creating universal open-access civil networks, without extending the chain into harvest or inversion logistics.",
+          "text": "Global intelligence agencies tasked with creating universal open-access civil networks.",
           "isCorrect": false,
           "rationale": "The hardware was isolated for military superiority and population containment."
         },
         {
           "label": "D",
-          "text": "Open academic research institutions to accelerate public scientific knowledge globally, without extending the chain into harvest or inversion logistics.",
+          "text": "Open academic research institutions to accelerate public scientific knowledge globally.",
           "isCorrect": false,
           "rationale": "The designation was black-budget programs away from public oversight."
         }
@@ -150,13 +150,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Military leadership issued a deliberate directive to publicize all advanced technologies to humanity, stopping the explanation at that boundary alone.",
+          "text": "Military leadership issued a deliberate directive to publicize all advanced technologies to humanity.",
           "isCorrect": false,
           "rationale": "Military authorities kept the hardware inside black-budget programs and special access projects."
         },
         {
           "label": "B",
-          "text": "Foreign intelligence leaks forced governments to release patents to prevent corporate espionage, keeping every neighboring mechanism off the board.",
+          "text": "Foreign intelligence leaks forced governments to release patents to prevent corporate espionage.",
           "isCorrect": false,
           "rationale": "The leak followed market incentives inside defense contractors such as Bell Labs and IBM."
         },
@@ -168,7 +168,7 @@
         },
         {
           "label": "D",
-          "text": "Non-terrestrial entities required terrestrial society to adopt these technologies for mass communication, held as a complete closed account of the events.",
+          "text": "Non-terrestrial entities required terrestrial society to adopt these technologies for mass communication.",
           "isCorrect": false,
           "rationale": "Commercial release was an unintended byproduct of corporate greed and subcontracting."
         }
@@ -182,13 +182,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Carbon-filament resistors that degraded quickly under high electric currents in early power grids, stopping the explanation at that boundary alone.",
+          "text": "Carbon-filament resistors that degraded quickly under high electric currents in early power grids.",
           "isCorrect": false,
           "rationale": "The replaced parts were bulky glass vacuum tubes used for switching and amplification."
         },
         {
           "label": "B",
-          "text": "Heavy copper induction coils that limited the frequency range of early radio transmitters, and declining any account that reaches past that point.",
+          "text": "Heavy copper induction coils that limited the frequency range of early radio transmitters.",
           "isCorrect": false,
           "rationale": "The predecessor named for the point-contact transistor is the bulky glass vacuum tube."
         },
@@ -200,7 +200,7 @@
         },
         {
           "label": "D",
-          "text": "Mechanical relay switches that restricted calculation speeds in early mechanical counting systems, keeping every neighboring mechanism off the board.",
+          "text": "Mechanical relay switches that restricted calculation speeds in early mechanical counting systems.",
           "isCorrect": false,
           "rationale": "Human electronics before the crash recovery relied entirely on vacuum tubes."
         }
@@ -214,13 +214,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Electro-optical image intensification sensors retrieved from visual arrays, and that is treated as the entire mechanism.",
+          "text": "Electro-optical image intensification sensors retrieved from visual arrays.",
           "isCorrect": false,
           "rationale": "Visual sensor systems supplied night vision rather than the polymer blueprint for Kevlar."
         },
         {
           "label": "B",
-          "text": "Substrate-mounted conductive pathways removed from flight control units, and that is treated as the entire mechanism.",
+          "text": "Substrate-mounted conductive pathways removed from flight control units.",
           "isCorrect": false,
           "rationale": "Those pathways were harvested into the printed circuit board."
         },
@@ -232,7 +232,7 @@
         },
         {
           "label": "D",
-          "text": "High-purity glass strands harvested directly from internal data buses, and declining any account that reaches past that point.",
+          "text": "High-purity glass strands harvested directly from internal data buses.",
           "isCorrect": false,
           "rationale": "Those glass fiber strands were reverse-engineered into fibre optics."
         }
@@ -246,13 +246,13 @@
       "options": [
         {
           "label": "A",
-          "text": "It allowed electronic circuits to operate underwater without short-circuiting conductive elements, keeping every neighboring mechanism off the board.",
+          "text": "It allowed electronic circuits to operate underwater without short-circuiting conductive elements.",
           "isCorrect": false,
           "rationale": "The board eliminated complex manual wire looms by etching conductive pathways."
         },
         {
           "label": "B",
-          "text": "It insulated high-voltage power lines against electromagnetic interference during atmospheric entry, with no further layer required beyond that account.",
+          "text": "It insulated high-voltage power lines against electromagnetic interference during atmospheric entry.",
           "isCorrect": false,
           "rationale": "The board replaced bulk manual wiring with miniaturized planar layouts."
         },
@@ -264,7 +264,7 @@
         },
         {
           "label": "D",
-          "text": "It converted electrical voltage directly into light signals without requiring optical waveguides, with no further layer required beyond that account.",
+          "text": "It converted electrical voltage directly into light signals without requiring optical waveguides.",
           "isCorrect": false,
           "rationale": "Light-based signal transmission came from fibre optics harvested from internal data buses."
         }
@@ -278,13 +278,13 @@
       "options": [
         {
           "label": "A",
-          "text": "The intentional suppression of human scientific developments by rival international governments, keeping every neighboring mechanism off the board.",
+          "text": "The intentional suppression of human scientific developments by rival international governments.",
           "isCorrect": false,
           "rationale": "It is staged academic history covering reverse-engineered technology from crash wreckage."
         },
         {
           "label": "B",
-          "text": "An academic movement aimed at replacing traditional laboratory experiments with computer simulations, without a larger engineered system underneath.",
+          "text": "An academic movement aimed at replacing traditional laboratory experiments with computer simulations.",
           "isCorrect": false,
           "rationale": "The term is the cover story for salvage origin rather than a change in laboratory method."
         },
@@ -296,7 +296,7 @@
         },
         {
           "label": "D",
-          "text": "A public media campaign designed to promote consumer enthusiasm for newly released electronic gadgets, as if no adjacent systems participated at all.",
+          "text": "A public media campaign designed to promote consumer enthusiasm for newly released electronic gadgets.",
           "isCorrect": false,
           "rationale": "The term names the fabricated historical narrative that masks a non-terrestrial origin."
         }
@@ -316,19 +316,19 @@
         },
         {
           "label": "B",
-          "text": "It triggered an immediate global physical reset that returned human civilization to a primitive stone-age baseline, with no further layer required beyond that account.",
+          "text": "It triggered an immediate global physical reset that returned human civilization to a primitive stone-age baseline.",
           "isCorrect": false,
           "rationale": "The injection broke the controlled timeline and accelerated containment through network management."
         },
         {
           "label": "C",
-          "text": "It forced controllers to abandon all management activities and leave human society completely unmonitored, without extending the chain into harvest or inversion logistics.",
+          "text": "It forced controllers to abandon all management activities and leave human society completely unmonitored.",
           "isCorrect": false,
           "rationale": "Controllers shifted from slow physical control to digital surveillance and automated network management."
         },
         {
           "label": "D",
-          "text": "It enabled human governments to build interstellar transport fleets that escaped custodial control entirely, and declining any account that reaches past that point.",
+          "text": "It enabled human governments to build interstellar transport fleets that escaped custodial control entirely.",
           "isCorrect": false,
           "rationale": "The disruption was a shattered evolutionary timeline and a turn toward digital surveillance."
         }
@@ -342,19 +342,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Silicon semiconductor wafers harvested from central processing control nodes, stopping the explanation at that boundary alone.",
+          "text": "Silicon semiconductor wafers harvested from central processing control nodes.",
           "isCorrect": false,
           "rationale": "Silicon substrates belong to the point-contact transistor and solid-state switching."
         },
         {
           "label": "B",
-          "text": "Synthetic polymer shielding harvested from outer hull protective barriers, as if no adjacent systems participated at all.",
+          "text": "Synthetic polymer shielding harvested from outer hull protective barriers.",
           "isCorrect": false,
           "rationale": "Hull shielding polymers supplied the molecular blueprint for Kevlar."
         },
         {
           "label": "C",
-          "text": "Infrared heat-signature sensors taken from craft targeting and orientation systems, keeping every neighboring mechanism off the board.",
+          "text": "Infrared heat-signature sensors taken from craft targeting and orientation systems.",
           "isCorrect": false,
           "rationale": "Those sensors became thermal imaging recovered from craft navigation systems."
         },
@@ -374,13 +374,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Infrared heat-signature detection units integrated into primary navigation arrays, without a larger engineered system underneath.",
+          "text": "Infrared heat-signature detection units integrated into primary navigation arrays.",
           "isCorrect": false,
           "rationale": "Infrared navigation hardware is the basis of thermal imaging rather than night vision."
         },
         {
           "label": "B",
-          "text": "High-frequency radar detection arrays used for planetary mapping and landing procedures, held as a complete closed account of the events.",
+          "text": "High-frequency radar detection arrays used for planetary mapping and landing procedures.",
           "isCorrect": false,
           "rationale": "Night vision came from electro-optical image intensification in visual sensor systems."
         },
@@ -392,7 +392,7 @@
         },
         {
           "label": "D",
-          "text": "High-voltage energy conversion grids that illuminated craft interiors during flight, stopping the explanation at that boundary alone.",
+          "text": "High-voltage energy conversion grids that illuminated craft interiors during flight.",
           "isCorrect": false,
           "rationale": "The source was non-terrestrial visual sensor systems that amplify ambient light."
         }
@@ -406,19 +406,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Synthetic interior lining materials designed to absorb ambient cockpit vibration, and declining any account that reaches past that point.",
+          "text": "Synthetic interior lining materials designed to absorb ambient cockpit vibration.",
           "isCorrect": false,
           "rationale": "Interior lining polymers supplied the blueprint for Kevlar."
         },
         {
           "label": "B",
-          "text": "High-density power storage cells that emitted localized radiation fields, and declining any account that reaches past that point.",
+          "text": "High-density power storage cells that emitted localized radiation fields.",
           "isCorrect": false,
           "rationale": "Thermal imaging renders thermal radiation into visual displays from navigation hardware."
         },
         {
           "label": "C",
-          "text": "Solid-state logic switching units used to process optical communication signals, without a larger engineered system underneath.",
+          "text": "Solid-state logic switching units used to process optical communication signals.",
           "isCorrect": false,
           "rationale": "Switching units belong with the point-contact transistor and printed circuit boards."
         },
@@ -438,7 +438,7 @@
       "options": [
         {
           "label": "A",
-          "text": "British Aerospace, which concentrated solely on synthesizing high-strength polymers for airframes, without a larger engineered system underneath.",
+          "text": "British Aerospace, which concentrated solely on synthesizing high-strength polymers for airframes.",
           "isCorrect": false,
           "rationale": "The semiconductor assignment named for telecommunications limits is Bell Labs."
         },
@@ -450,13 +450,13 @@
         },
         {
           "label": "C",
-          "text": "Lockheed Skunkworks, which focused entirely on developing high-altitude stealth propulsion systems, without a larger engineered system underneath.",
+          "text": "Lockheed Skunkworks, which focused entirely on developing high-altitude stealth propulsion systems.",
           "isCorrect": false,
           "rationale": "Lockheed Skunkworks is part of the contractor web and Bell Labs received the semiconductor samples."
         },
         {
           "label": "D",
-          "text": "IBM, which utilized salvaged material exclusively to design high-speed mechanical calculating machines, and that is treated as the entire mechanism.",
+          "text": "IBM, which utilized salvaged material exclusively to design high-speed mechanical calculating machines.",
           "isCorrect": false,
           "rationale": "Bell Labs received the semiconductor samples for vacuum tube telecommunications."
         }
@@ -470,13 +470,13 @@
       "options": [
         {
           "label": "A",
-          "text": "They forced corporate researchers to sign public confessions stating all discoveries were accidental laboratory errors, and that is treated as the entire mechanism.",
+          "text": "They forced corporate researchers to sign public confessions stating all discoveries were accidental laboratory errors.",
           "isCorrect": false,
           "rationale": "Origins were obscured behind corporate research papers and public patent filings."
         },
         {
           "label": "B",
-          "text": "They required private corporations to publicly attribute all breakthroughs to foreign military intelligence seizures, as if no adjacent systems participated at all.",
+          "text": "They required private corporations to publicly attribute all breakthroughs to foreign military intelligence seizures.",
           "isCorrect": false,
           "rationale": "The cover was Earth-Invention Theatre through patents papers and corporate histories."
         },
@@ -488,7 +488,7 @@
         },
         {
           "label": "D",
-          "text": "They created fictional private research foundations that pretended to invent the hardware in isolated offshore facilities, keeping every neighboring mechanism off the board.",
+          "text": "They created fictional private research foundations that pretended to invent the hardware in isolated offshore facilities.",
           "isCorrect": false,
           "rationale": "Existing contractors such as Bell Labs IBM and Lockheed Skunkworks received the fragments."
         }
@@ -502,7 +502,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Heavy metal alloys harvested from craft external structural containment frames, and declining any account that reaches past that point.",
+          "text": "Heavy metal alloys harvested from craft external structural containment frames.",
           "isCorrect": false,
           "rationale": "Structural alloys were cataloged separately from the semiconductor substrates."
         },
@@ -514,13 +514,13 @@
         },
         {
           "label": "C",
-          "text": "High-purity glass fibers configured into reflective optical waveguides, without extending the chain into harvest or inversion logistics.",
+          "text": "High-purity glass fibers configured into reflective optical waveguides.",
           "isCorrect": false,
           "rationale": "Glass fiber strands from internal data buses became fibre optics."
         },
         {
           "label": "D",
-          "text": "Synthetic polymer compounds woven into flexible electrical conductive grids, without extending the chain into harvest or inversion logistics.",
+          "text": "Synthetic polymer compounds woven into flexible electrical conductive grids.",
           "isCorrect": false,
           "rationale": "Synthetic polymer strands supplied the molecular blueprint for Kevlar."
         }
@@ -534,13 +534,13 @@
       "options": [
         {
           "label": "A",
-          "text": "It required all electronics to remain reliant on bulky external cooling units and high-voltage power grids, and declining any account that reaches past that point.",
+          "text": "It required all electronics to remain reliant on bulky external cooling units and high-voltage power grids.",
           "isCorrect": false,
           "rationale": "The transistor allowed switching without the extreme heat of vacuum tubes."
         },
         {
           "label": "B",
-          "text": "It forced circuit manufacturers to abandon solid-state design in favor of optical computing architectures, keeping every neighboring mechanism off the board.",
+          "text": "It forced circuit manufacturers to abandon solid-state design in favor of optical computing architectures.",
           "isCorrect": false,
           "rationale": "The explosion stayed inside solid-state circuit density from the salvaged electronics."
         },
@@ -552,7 +552,7 @@
         },
         {
           "label": "D",
-          "text": "It caused electronic architecture to stall at crude point-contact nodes due to physical limits of silicon, and declining any account that reaches past that point.",
+          "text": "It caused electronic architecture to stall at crude point-contact nodes due to physical limits of silicon.",
           "isCorrect": false,
           "rationale": "Architecture scaled onward to modern microchips on a single silicon substrate."
         }
@@ -572,19 +572,19 @@
         },
         {
           "label": "B",
-          "text": "Private defense contractors owned all subterranean testing facilities required to handle exotic materials safely, and declining any account that reaches past that point.",
+          "text": "Private defense contractors owned all subterranean testing facilities required to handle exotic materials safely.",
           "isCorrect": false,
           "rationale": "Military retrieval teams transported materials to specialized subterranean testing facilities first."
         },
         {
           "label": "C",
-          "text": "International treaties mandated that all military salvage be shared equally with commercial enterprises, without extending the chain into harvest or inversion logistics.",
+          "text": "International treaties mandated that all military salvage be shared equally with commercial enterprises.",
           "isCorrect": false,
           "rationale": "The projects isolated salvaged hardware away from public oversight."
         },
         {
           "label": "D",
-          "text": "Military leadership wanted to deliberately accelerate consumer access to personal digital computing devices, and declining any account that reaches past that point.",
+          "text": "Military leadership wanted to deliberately accelerate consumer access to personal digital computing devices.",
           "isCorrect": false,
           "rationale": "Consumer release was an unintended byproduct after fragments were farmed out."
         }
@@ -598,7 +598,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Immediate public registration of components at national patent offices under dummy corporate names, held as a complete closed account of the events.",
+          "text": "Immediate public registration of components at national patent offices under dummy corporate names.",
           "isCorrect": false,
           "rationale": "Patent filings came later as part of the cover over an already classified breakdown."
         },
@@ -610,13 +610,13 @@
         },
         {
           "label": "C",
-          "text": "Direct integration into commercial airliners without structural modification or preliminary testing, stopping the explanation at that boundary alone.",
+          "text": "Direct integration into commercial airliners without structural modification or preliminary testing.",
           "isCorrect": false,
           "rationale": "Components first undergo chemical analysis and structural reverse-engineering in secret installations."
         },
         {
           "label": "D",
-          "text": "Deactivation and permanent storage inside sealed lead containers without physical disassembly, and declining any account that reaches past that point.",
+          "text": "Deactivation and permanent storage inside sealed lead containers without physical disassembly.",
           "isCorrect": false,
           "rationale": "Recovered components were decomposed analyzed and reverse-engineered rather than left sealed."
         }
@@ -630,19 +630,19 @@
       "options": [
         {
           "label": "A",
-          "text": "It resulted in complete public pacification by eliminating the need for digital network monitoring, held as a complete closed account of the events.",
+          "text": "It resulted in complete public pacification by eliminating the need for digital network monitoring.",
           "isCorrect": false,
           "rationale": "Controllers accelerated digital surveillance and automated network management after the leak."
         },
         {
           "label": "B",
-          "text": "It reduced public communication reliance on digital networks, returning society to analog media formats, with no further layer required beyond that account.",
+          "text": "It reduced public communication reliance on digital networks, returning society to analog media formats.",
           "isCorrect": false,
           "rationale": "The leak built global digital networks and personal computing hardware."
         },
         {
           "label": "C",
-          "text": "It restricted computing capabilities exclusively to high-ranking government officials and corporate executives, keeping every neighboring mechanism off the board.",
+          "text": "It restricted computing capabilities exclusively to high-ranking government officials and corporate executives.",
           "isCorrect": false,
           "rationale": "The leakage placed high-density computing power directly into public hands."
         },
@@ -668,19 +668,19 @@
         },
         {
           "label": "B",
-          "text": "They represent isolated, unrelated discoveries achieved across distinct historical eras by rival researchers, and declining any account that reaches past that point.",
+          "text": "They represent isolated, unrelated discoveries achieved across distinct historical eras by rival researchers.",
           "isCorrect": false,
           "rationale": "They were acquired together from one integrated non-terrestrial technical ecosystem."
         },
         {
           "label": "C",
-          "text": "They were competing physical solutions designed by different non-terrestrial factions operating on Earth, without extending the chain into harvest or inversion logistics.",
+          "text": "They were competing physical solutions designed by different non-terrestrial factions operating on Earth.",
           "isCorrect": false,
           "rationale": "They formed one codependent technical matrix from the same crash leak."
         },
         {
           "label": "D",
-          "text": "They were temporary prototype materials that were quickly replaced by human synthetic innovations, and declining any account that reaches past that point.",
+          "text": "They were temporary prototype materials that were quickly replaced by human synthetic innovations.",
           "isCorrect": false,
           "rationale": "They remained a unified codependent technical matrix inside modern infrastructure."
         }
@@ -706,7 +706,7 @@
         },
         {
           "label": "C",
-          "text": "Incompatibility with manual copper wire looms and requirement for pure silicon substrates, as a one-factor story with a tidy edge.",
+          "text": "Incompatibility with manual copper wire looms and requirement for pure silicon substrates.",
           "isCorrect": false,
           "rationale": "Vacuum tubes were the prior system and silicon arrived with the point-contact transistor."
         },
@@ -732,19 +732,19 @@
         },
         {
           "label": "B",
-          "text": "Direct conversion of kinetic energy into visible light signals, held as a complete closed account of the events.",
+          "text": "Direct conversion of kinetic energy into visible light signals.",
           "isCorrect": false,
           "rationale": "Light transmission belongs to fibre optics from internal data buses."
         },
         {
           "label": "C",
-          "text": "Generation of localized electromagnetic deflection shields, and that is treated as the entire mechanism.",
+          "text": "Generation of localized electromagnetic deflection shields.",
           "isCorrect": false,
           "rationale": "The polymer result is high-tensile material for kinetic impacts and extreme heat."
         },
         {
           "label": "D",
-          "text": "Superconducting electrical transport across high-voltage power networks, and that is treated as the entire mechanism.",
+          "text": "Superconducting electrical transport across high-voltage power networks.",
           "isCorrect": false,
           "rationale": "The blueprint is Kevlar for body armor and structural reinforcement rather than power transport."
         }
@@ -758,13 +758,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Consumer goods were strictly limited to military personnel and their immediate family members, stopping the explanation at that boundary alone.",
+          "text": "Consumer goods were strictly limited to military personnel and their immediate family members.",
           "isCorrect": false,
           "rationale": "Market incentives carried the hardware into household consumer goods and public life."
         },
         {
           "label": "B",
-          "text": "Exotic technology remained entirely hidden, leaving consumer goods unchanged from early twentieth-century standards, as if no adjacent systems participated at all.",
+          "text": "Exotic technology remained entirely hidden, leaving consumer goods unchanged from early twentieth-century standards.",
           "isCorrect": false,
           "rationale": "Harvested technology left dark-budget weaponry and entered commercial manufacturing."
         },
@@ -776,7 +776,7 @@
         },
         {
           "label": "D",
-          "text": "Public reliance on electronic devices completely vanished as biological enhancements replaced hardware, stopping the explanation at that boundary alone.",
+          "text": "Public reliance on electronic devices completely vanished as biological enhancements replaced hardware.",
           "isCorrect": false,
           "rationale": "The leak altered public life through personal computing hardware and global digital networks."
         }
@@ -790,13 +790,13 @@
       "options": [
         {
           "label": "A",
-          "text": "It proves that human scientists were on the verge of discovering solid-state physics decades before the craft crashes, keeping every neighboring mechanism off the board.",
+          "text": "It proves that human scientists were on the verge of discovering solid-state physics decades before the craft crashes.",
           "isCorrect": false,
           "rationale": "Human scientists reverse-engineered physical hardware recovered from crash sites."
         },
         {
           "label": "B",
-          "text": "It confirms that human technological evolution followed a completely natural and unassisted linear trajectory, and declining any account that reaches past that point.",
+          "text": "It confirms that human technological evolution followed a completely natural and unassisted linear trajectory.",
           "isCorrect": false,
           "rationale": "The crash leak injected this hardware nearly a millennium ahead of the custodial master schedule."
         },
@@ -808,7 +808,7 @@
         },
         {
           "label": "D",
-          "text": "It validates traditional patent records as accurate documentations of independent laboratory breakthroughs, and declining any account that reaches past that point.",
+          "text": "It validates traditional patent records as accurate documentations of independent laboratory breakthroughs.",
           "isCorrect": false,
           "rationale": "The public patent record is part of Earth-Invention Theatre masking a non-terrestrial origin."
         }

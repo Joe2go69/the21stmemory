@@ -500,6 +500,26 @@
     }
     render();
     persistResume();
+    if (state.mode === 'instant') revealFeedback();
+  }
+
+  /**
+   * After an instant-feedback answer, bring the feedback panel (and the
+   * Next button) into view. On phones the panel renders below the four
+   * options and is otherwise off-screen, so answering looked like nothing
+   * happened. scroll-margin-bottom in quiz.css keeps it clear of the
+   * sticky action bar.
+   */
+  function revealFeedback() {
+    const panel = el.root?.querySelector('.quiz-feedback');
+    if (!panel || typeof panel.getBoundingClientRect !== 'function') return;
+    const rect = panel.getBoundingClientRect();
+    const bar = el.root.querySelector('.quiz-actions--play');
+    const barH = bar && getComputedStyle(bar).position === 'sticky' ? bar.offsetHeight : 0;
+    const viewH = window.innerHeight || document.documentElement.clientHeight;
+    if (rect.top >= 0 && rect.bottom <= viewH - barH) return; // already visible
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    panel.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'nearest' });
   }
 
   function toggleHint() {
@@ -612,7 +632,7 @@
           <button type="button" class="btn-secondary" data-action="start"><span>Start over</span></button>`
               : `<button type="button" class="btn-primary" data-action="start"><span>Begin quiz</span></button>`
           }
-          ${d.relatedTopic?.href ? `<a href="${escapeHtml(d.relatedTopic.href)}" class="btn-secondary"><span>Study the topic first</span></a>` : ''}
+          <a href="${escapeHtml(resolveTopicHref(d, el.root))}" class="btn-secondary"><span>Study the topic first</span></a>
         </div>
       </div>
     `;
@@ -859,7 +879,6 @@
               <span class="quiz-score-ring__label">${escapeHtml(band.name)}</span>
             </div>
           </div>
-          <p class="quiz-band-tag">${escapeHtml(band.name)}</p>
           <p class="quiz-score-summary">
             You scored <strong>${correct}</strong> out of <strong>${total}</strong>
           </p>
@@ -908,7 +927,18 @@
     const sourceId = parts[1] ? parts[0] : state.data?.sourceId || state.data?.source || '';
     const topicId = parts[1] || state.data?.topicId || state.data?.id || '';
     if (!sourceId || !topicId) return null;
-    const list = (index?.quizzes || []).filter((q) => q && q.sourceId === sourceId && q.href);
+    // Follow the series' topic-tree order (same walk as dive prev/next),
+    // not the A–Z order the hub index is sorted in. `order` is written by
+    // build-quizzes-hub.js; entries without it fall back to index order.
+    const list = (index?.quizzes || [])
+      .filter((q) => q && q.sourceId === sourceId && q.href)
+      .map((q, pos) => ({ q, pos }))
+      .sort((a, b) => {
+        const ao = Number.isFinite(a.q.order) ? a.q.order : Infinity;
+        const bo = Number.isFinite(b.q.order) ? b.q.order : Infinity;
+        return ao - bo || a.pos - b.pos;
+      })
+      .map((x) => x.q);
     const i = list.findIndex((q) => q.id === topicId || q.key === key);
     if (i < 0 || i >= list.length - 1) return null;
     const next = list[i + 1];

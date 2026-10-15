@@ -111,13 +111,23 @@ function renderQuizHtml({ source, topicId, title, topicImage, seoDesc, quiz }) {
   if (!fs.existsSync(templatePath)) {
     throw new Error('Missing quiz/_template.html');
   }
+  // Function replacers so "$&"-style sequences in titles are not expanded;
+  // title/description are HTML-escaped because they land in attributes too.
+  const esc = (v) =>
+    String(v ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  const count = Array.isArray(quiz?.questions) ? quiz.questions.length : quiz?.totalQuestions || 25;
   const html = fs
     .readFileSync(templatePath, 'utf8')
-    .replace(/__TOPIC_TITLE__/g, title)
-    .replace(/__SOURCE__/g, source)
-    .replace(/__TOPIC_ID__/g, topicId)
-    .replace(/__TOPIC_IMAGE__/g, topicImage)
-    .replace(/__SEO_DESC__/g, seoDesc);
+    .replace(/__TOPIC_TITLE__/g, () => esc(title))
+    .replace(/__SOURCE__/g, () => source)
+    .replace(/__TOPIC_ID__/g, () => topicId)
+    .replace(/__TOPIC_IMAGE__/g, () => topicImage)
+    .replace(/__SEO_DESC__/g, () => esc(seoDesc))
+    .replace(/__QUESTION_COUNT__/g, () => String(count));
   if (!html.includes('__QUIZ_JSON__')) {
     throw new Error('quiz/_template.html is missing __QUIZ_JSON__ placeholder');
   }
@@ -269,7 +279,7 @@ function applyQuiz(payload) {
     extractedAt: payload.extractedAt || new Date().toISOString(),
     reflection,
     relatedTopic: {
-      href: `/deep-dive.html?source=${source}&topic=${topicId}`,
+      href: `/dive/${source}/${topicId}.html`,
       label: `Return to ${title} deep-dive`
     },
     questions

@@ -12,7 +12,7 @@
     "body": "TPC Mirrors gave Tartaria instantaneous aetheric communication through a red mercury amalgam and phase conjugation. After 1728, altered Lunar Frequencies turned them into Mirror Madness, and their eradication forced the shift from spiritual technology to entropic technology."
   },
   "relatedTopic": {
-    "href": "/deep-dive.html?source=revelations&topic=tpc-mirrors",
+    "href": "/dive/revelations/tpc-mirrors.html",
     "label": "Return to TPC Mirrors deep-dive"
   },
   "questions": [
@@ -54,19 +54,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Molten quartz was the liquid catalyst sealed into the rear surface of every mirror, as if no adjacent systems participated at all.",
+          "text": "Molten quartz was the liquid catalyst sealed into the rear surface of every mirror.",
           "isCorrect": false,
           "rationale": "Piezoelectric quartz granite belongs to the surrounding architecture, not the liquid metal in the amalgam metal backing."
         },
         {
           "label": "B",
-          "text": "Refined silver formed the energetic amalgam that coupled each mirror to aetheric currents, as a one-factor story with a tidy edge.",
+          "text": "Refined silver formed the energetic amalgam that coupled each mirror to aetheric currents.",
           "isCorrect": false,
           "rationale": "The backing incorporates Red Mercury, not refined silver, to facilitate phase-conjugate aetheric coupling."
         },
         {
           "label": "C",
-          "text": "Liquid platinum was the toxic metal extracted to catalyze Tartarian mirror systems, stopping the explanation at that boundary alone.",
+          "text": "Liquid platinum was the toxic metal extracted to catalyze Tartarian mirror systems.",
           "isCorrect": false,
           "rationale": "The toxic liquid metal in the backing is Red Mercury, extracted from Cinnabar Ore."
         },
@@ -118,19 +118,19 @@
       "options": [
         {
           "label": "A",
-          "text": "The raw ore must be held at exactly 100°C before the liquid metal can drip out, keeping every neighboring mechanism off the board.",
+          "text": "The raw ore must be held at exactly 100°C before the liquid metal can drip out.",
           "isCorrect": false,
           "rationale": "Processing requires heating the raw ore to temperatures below 500°C, not exactly 100°C."
         },
         {
           "label": "B",
-          "text": "The raw ore must be fired above 1200°C in a blast furnace to release the metal, without a larger engineered system underneath.",
+          "text": "The raw ore must be fired above 1200°C in a blast furnace to release the metal.",
           "isCorrect": false,
           "rationale": "The stated threshold is temperatures below 500°C, not heat above 1200°C."
         },
         {
           "label": "C",
-          "text": "The raw ore must be held between 800°C and 1000°C to keep the metal intact, as if no adjacent systems participated at all.",
+          "text": "The raw ore must be held between 800°C and 1000°C to keep the metal intact.",
           "isCorrect": false,
           "rationale": "The extraction range given is temperatures below 500°C, not 800°C to 1000°C."
         },
@@ -182,7 +182,7 @@
       "options": [
         {
           "label": "A",
-          "text": "They bounce radio signals off high-frequency atmospheric glass domes, without a larger engineered system underneath.",
+          "text": "They bounce radio signals off high-frequency atmospheric glass domes.",
           "isCorrect": false,
           "rationale": "The mirrors couple with Ley Lines and resonant red mercury devices rather than bouncing radio signals off atmospheric domes."
         },
@@ -252,19 +252,19 @@
         },
         {
           "label": "B",
-          "text": "Operators suffered rapid blindness from a blinding optical glare, as a one-factor story with a tidy edge.",
+          "text": "Operators suffered rapid blindness from a blinding optical glare.",
           "isCorrect": false,
           "rationale": "The harm was acute neurological trauma and Mirror Madness, not a simple loss of eyesight from glare."
         },
         {
           "label": "C",
-          "text": "Operators gained complete immunity to every ambient electromagnetic exposure, and that is treated as the entire mechanism.",
+          "text": "Operators gained complete immunity to every ambient electromagnetic exposure.",
           "isCorrect": false,
           "rationale": "The altered frequencies produced destructive resonance and psychological destabilization, not immunity."
         },
         {
           "label": "D",
-          "text": "Human bone tissue immediately transmuted into lead on contact with the glass, as a one-factor story with a tidy edge.",
+          "text": "Human bone tissue immediately transmuted into lead on contact with the glass.",
           "isCorrect": false,
           "rationale": "The malfunction distorted human brainwave patterns. It did not transmute bone into lead."
         }
@@ -278,7 +278,7 @@
       "options": [
         {
           "label": "A",
-          "text": "A five-year purge was enough to break every remaining mirror, without a larger engineered system underneath.",
+          "text": "A five-year purge was enough to break every remaining mirror.",
           "isCorrect": false,
           "rationale": "The campaign was a three-century effort to locate and destroy remaining TPC Mirrors, not a five-year purge."
         },
@@ -290,13 +290,13 @@
         },
         {
           "label": "C",
-          "text": "One decade of searches removed the mirrors from every region, stopping the explanation at that boundary alone.",
+          "text": "One decade of searches removed the mirrors from every region.",
           "isCorrect": false,
           "rationale": "The eradication campaign ran for three centuries, not one decade."
         },
         {
           "label": "D",
-          "text": "The hunt continued for a full millennium after the reset, held as a complete closed account of the events.",
+          "text": "The hunt continued for a full millennium after the reset.",
           "isCorrect": false,
           "rationale": "The campaign is a three-century, 300-year eradication, not a millennium."
         }
@@ -310,7 +310,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Wooden houses outside urban nodes held the ore and tied the mirrors to the grid, as a one-factor story with a tidy edge.",
+          "text": "Wooden houses outside urban nodes held the ore and tied the mirrors to the grid.",
           "isCorrect": false,
           "rationale": "The structural nodes named are cathedrals and churches, not wooden residential buildings."
         },
@@ -322,13 +322,13 @@
         },
         {
           "label": "C",
-          "text": "Modern high-rise offices carried the ore and fed the mirrors into the grid, as if no adjacent systems participated at all.",
+          "text": "Modern high-rise offices carried the ore and fed the mirrors into the grid.",
           "isCorrect": false,
           "rationale": "The nodes are Cathedral and Church buildings within the Tartarian urban circuit, not modern high-rises."
         },
         {
           "label": "D",
-          "text": "Isolated coal mines away from the water table stored the ore for the grid, without a larger engineered system underneath.",
+          "text": "Isolated coal mines away from the water table stored the ore for the grid.",
           "isCorrect": false,
           "rationale": "The architecture was set deeply into the water table upon major Ley Lines, and the ore sat in cathedrals and churches."
         }
@@ -342,13 +342,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Spiritual technology stays alive only through financial extortion of its users, without a larger engineered system underneath.",
+          "text": "Spiritual technology stays alive only through financial extortion of its users.",
           "isCorrect": false,
           "rationale": "Financial extortion is named among the harms of the entropic systems that replaced phase-conjugated communication."
         },
         {
           "label": "B",
-          "text": "Entropic technology runs without emitting any electromagnetic fields at all, as a one-factor story with a tidy edge.",
+          "text": "Entropic technology runs without emitting any electromagnetic fields at all.",
           "isCorrect": false,
           "rationale": "Modern entropic technology relies on dangerous high-frequency radiation, wires, and electromagnetic broadcasting."
         },
@@ -360,7 +360,7 @@
         },
         {
           "label": "D",
-          "text": "Spiritual technology depends on heavy wiring and long fiber-optic lines, as a one-factor story with a tidy edge.",
+          "text": "Spiritual technology depends on heavy wiring and long fiber-optic lines.",
           "isCorrect": false,
           "rationale": "Wires and complex physical infrastructure belong to modern entropic technology, not to TPC Mirrors."
         }
@@ -374,7 +374,7 @@
       "options": [
         {
           "label": "A",
-          "text": "It was passed off as common household salt used only to preserve food, as a one-factor story with a tidy edge.",
+          "text": "It was passed off as common household salt used only to preserve food.",
           "isCorrect": false,
           "rationale": "The guise was decorative Vermillion pigment or impossible alchemical legends, not household salt."
         },
@@ -386,13 +386,13 @@
         },
         {
           "label": "C",
-          "text": "It was classified as a synthetic petroleum byproduct burned in lamps, and that is treated as the entire mechanism.",
+          "text": "It was classified as a synthetic petroleum byproduct burned in lamps.",
           "isCorrect": false,
           "rationale": "Red Mercury is a liquid metal extracted from Cinnabar Ore, not a petroleum byproduct."
         },
         {
           "label": "D",
-          "text": "It was catalogued as a standard industrial lubricant for locomotives, as a one-factor story with a tidy edge.",
+          "text": "It was catalogued as a standard industrial lubricant for locomotives.",
           "isCorrect": false,
           "rationale": "The concealment used Vermillion pigment and alchemical legends, not machine lubricant."
         }
@@ -406,7 +406,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Dry-stacked fieldstone was kept isolated from every natural water bed, and that is treated as the entire mechanism.",
+          "text": "Dry-stacked fieldstone was kept isolated from every natural water bed.",
           "isCorrect": false,
           "rationale": "The architecture was set deeply into the water table, not isolated from it."
         },
@@ -418,13 +418,13 @@
         },
         {
           "label": "C",
-          "text": "Reinforced steel frames were anchored in synthetic concrete pads, and that is treated as the entire mechanism.",
+          "text": "Reinforced steel frames were anchored in synthetic concrete pads.",
           "isCorrect": false,
           "rationale": "The Tartarian framework uses Ashlar masonry and piezoelectric quartz granite, not steel framing."
         },
         {
           "label": "D",
-          "text": "Uncut mud-brick walls were stacked on arid dunes away from water, with no further layer required beyond that account.",
+          "text": "Uncut mud-brick walls were stacked on arid dunes away from water.",
           "isCorrect": false,
           "rationale": "The named masonry is Ashlar, set deeply into the water table upon major Ley Lines."
         }
@@ -438,13 +438,13 @@
       "options": [
         {
           "label": "A",
-          "text": "The artifact instantly crumbles into a pile of dry Cinnabar dust, without a larger engineered system underneath.",
+          "text": "The artifact instantly crumbles into a pile of dry Cinnabar dust.",
           "isCorrect": false,
           "rationale": "Surviving pieces are rare isolated artifacts that can still trigger energetic interactions, not as dust."
         },
         {
           "label": "B",
-          "text": "The mirror permanently erases every magnetic field in the nearby ground, and that is treated as the entire mechanism.",
+          "text": "The mirror permanently erases every magnetic field in the nearby ground.",
           "isCorrect": false,
           "rationale": "The amalgam resonates with localized magnetic flux. It does not erase magnetic fields."
         },
@@ -456,7 +456,7 @@
         },
         {
           "label": "D",
-          "text": "It operates as a finished digital television monitor with no further change, as a one-factor story with a tidy edge.",
+          "text": "It operates as a finished digital television monitor with no further change.",
           "isCorrect": false,
           "rationale": "A TPC Mirror is a phase-conjugated aetheric instrument, not a digital display."
         }
@@ -470,19 +470,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Polaris governed the acoustic emissions that were changed in 1728, keeping every neighboring mechanism off the board.",
+          "text": "Polaris governed the acoustic emissions that were changed in 1728.",
           "isCorrect": false,
           "rationale": "The named governor of those emissions is the Moon, through Lunar Frequencies."
         },
         {
           "label": "B",
-          "text": "The Sun governed the ambient emissions that were retuned in 1728, keeping every neighboring mechanism off the board.",
+          "text": "The Sun governed the ambient emissions that were retuned in 1728.",
           "isCorrect": false,
           "rationale": "The altered emissions are Lunar Frequencies governed by the Moon."
         },
         {
           "label": "C",
-          "text": "Jupiter governed the standing broadcast that was shifted after the reset, without a larger engineered system underneath.",
+          "text": "Jupiter governed the standing broadcast that was shifted after the reset.",
           "isCorrect": false,
           "rationale": "The mirrors also used celestial alignments, but the altered ambient emissions are Lunar Frequencies governed by the Moon."
         },
@@ -502,19 +502,19 @@
       "options": [
         {
           "label": "A",
-          "text": "They reflect high-power ground searchlights from one city to the next, as if no adjacent systems participated at all.",
+          "text": "They reflect high-power ground searchlights from one city to the next.",
           "isCorrect": false,
           "rationale": "The mirrors are active aetheric instruments, not passive searchlight relays."
         },
         {
           "label": "B",
-          "text": "Nuclear decay of mercury isotopes inside the frame carries the signal, without a larger engineered system underneath.",
+          "text": "Nuclear decay of mercury isotopes inside the frame carries the signal.",
           "isCorrect": false,
           "rationale": "The mirrors operate through phase conjugation and resonance with magnetic flux, not nuclear decay."
         },
         {
           "label": "C",
-          "text": "Toxic gas is burned inside the glass core to push the signal outward, held as a complete closed account of the events.",
+          "text": "Toxic gas is burned inside the glass core to push the signal outward.",
           "isCorrect": false,
           "rationale": "Transmission is phase conjugation within the natural field, not combustion of gas inside the glass."
         },
@@ -534,7 +534,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Metamorphic black slate generated the electrical charge for the circuit, as a one-factor story with a tidy edge.",
+          "text": "Metamorphic black slate generated the electrical charge for the circuit.",
           "isCorrect": false,
           "rationale": "The named piezoelectric material is quartz granite, not black slate."
         },
@@ -546,13 +546,13 @@
         },
         {
           "label": "C",
-          "text": "Porous volcanic basalt provided the piezoelectric lattice in the nodes, without a larger engineered system underneath.",
+          "text": "Porous volcanic basalt provided the piezoelectric lattice in the nodes.",
           "isCorrect": false,
           "rationale": "The architecture uses piezoelectric quartz granite structures, not basalt."
         },
         {
           "label": "D",
-          "text": "Soft sedimentary limestone supplied the piezoelectric charge in the walls, and that is treated as the entire mechanism.",
+          "text": "Soft sedimentary limestone supplied the piezoelectric charge in the walls.",
           "isCorrect": false,
           "rationale": "The piezoelectric stone named alongside the mirrors is quartz granite, not limestone."
         }
@@ -572,19 +572,19 @@
         },
         {
           "label": "B",
-          "text": "They were trying to cut energy use in every urban center, keeping every neighboring mechanism off the board.",
+          "text": "They were trying to cut energy use in every urban center.",
           "isCorrect": false,
           "rationale": "The replacement systems generate biological decay, financial extortion, and persistent health hazards rather than conserving energy."
         },
         {
           "label": "C",
-          "text": "They wanted the remaining Cinnabar Ore reserved for drug manufacture, without a larger engineered system underneath.",
+          "text": "They wanted the remaining Cinnabar Ore reserved for drug manufacture.",
           "isCorrect": false,
           "rationale": "The campaign prevented re-established planetary contact and recovery of organic technology, not a drug industry."
         },
         {
           "label": "D",
-          "text": "They wanted every message limited to handwritten letters carried by hand, held as a complete closed account of the events.",
+          "text": "They wanted every message limited to handwritten letters carried by hand.",
           "isCorrect": false,
           "rationale": "Phase-conjugated communication was replaced with wired networks, fiber optics, and electromagnetic broadcasting."
         }
@@ -598,13 +598,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Operators must shout at the center of the glass to open the link, and that is treated as the entire mechanism.",
+          "text": "Operators must shout at the center of the glass to open the link.",
           "isCorrect": false,
           "rationale": "The lock is formed by magnetic flux and specific Luna alignment vectors, not by shouting."
         },
         {
           "label": "B",
-          "text": "Operators turn copper dials on the frame until a mechanical pointer matches, and that is treated as the entire mechanism.",
+          "text": "Operators turn copper dials on the frame until a mechanical pointer matches.",
           "isCorrect": false,
           "rationale": "Coupling is resonance with magnetic flux and Luna alignment vectors, not copper dials."
         },
@@ -616,7 +616,7 @@
         },
         {
           "label": "D",
-          "text": "Operators must keep pouring liquid mercury across the front glass, without a larger engineered system underneath.",
+          "text": "Operators must keep pouring liquid mercury across the front glass.",
           "isCorrect": false,
           "rationale": "Red Mercury is integrated into the amalgam metal backing. It is not poured over the front glass."
         }
@@ -630,19 +630,19 @@
       "options": [
         {
           "label": "A",
-          "text": "The listed deposits are Greenland, Iceland, Antarctica, and the Sahara, and that is treated as the entire mechanism.",
+          "text": "The listed deposits are Greenland, Iceland, Antarctica, and the Sahara.",
           "isCorrect": false,
           "rationale": "The named deposits are Spain, Peru, North America, China, and Slovenia."
         },
         {
           "label": "B",
-          "text": "The only deposits are Brazil, Madagascar, Australia, and South Africa, and that is treated as the entire mechanism.",
+          "text": "The only deposits are Brazil, Madagascar, Australia, and South Africa.",
           "isCorrect": false,
           "rationale": "The named deposits are Spain, Peru, North America, China, and Slovenia."
         },
         {
           "label": "C",
-          "text": "Mining was limited to the British Isles and Scandinavia alone, and that is treated as the entire mechanism.",
+          "text": "Mining was limited to the British Isles and Scandinavia alone.",
           "isCorrect": false,
           "rationale": "The deposits named span Spain, Peru, North America, China, and Slovenia, not only northern Europe."
         },
@@ -662,19 +662,19 @@
       "options": [
         {
           "label": "A",
-          "text": "It painted mythical beasts on the glass as a programmed light show, keeping every neighboring mechanism off the board.",
+          "text": "It painted mythical beasts on the glass as a programmed light show.",
           "isCorrect": false,
           "rationale": "Operators were thrown into intense psychosis termed Mirror Madness by distorted brainwave patterns, not by painted illusions."
         },
         {
           "label": "B",
-          "text": "It burst the glass into shrapnel that wounded everyone nearby, as if no adjacent systems participated at all.",
+          "text": "It burst the glass into shrapnel that wounded everyone nearby.",
           "isCorrect": false,
           "rationale": "The engineered instability was psychological terror from distorted brainwave patterns, not exploding glass."
         },
         {
           "label": "C",
-          "text": "It melted the surrounding stone with a sudden blast of physical heat, keeping every neighboring mechanism off the board.",
+          "text": "It melted the surrounding stone with a sudden blast of physical heat.",
           "isCorrect": false,
           "rationale": "The harm was distorted human brainwave patterns and Mirror Madness, not melting of the architecture."
         },
@@ -694,7 +694,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Refined petroleum moves through municipal pipelines under the cities, and that is treated as the entire mechanism.",
+          "text": "Refined petroleum moves through municipal pipelines under the cities.",
           "isCorrect": false,
           "rationale": "Petroleum distribution is not the Tartarian medium. The network harvests aetheric electricity."
         },
@@ -706,13 +706,13 @@
         },
         {
           "label": "C",
-          "text": "Alternating current travels through overhead copper wiring, keeping every neighboring mechanism off the board.",
+          "text": "Alternating current travels through overhead copper wiring.",
           "isCorrect": false,
           "rationale": "Wired networks replaced phase-conjugated communication. The Tartarian system used aetheric electricity."
         },
         {
           "label": "D",
-          "text": "Pressurized steam is pumped through underground iron conduits, held as a complete closed account of the events.",
+          "text": "Pressurized steam is pumped through underground iron conduits.",
           "isCorrect": false,
           "rationale": "The harvesting systems are aetheric electricity along Ley Lines and the water table, not steam pipes."
         }
@@ -726,19 +726,19 @@
       "options": [
         {
           "label": "A",
-          "text": "The story of floating glass spheres that shine forever without fire, without a larger engineered system underneath.",
+          "text": "The story of floating glass spheres that shine forever without fire.",
           "isCorrect": false,
           "rationale": "The legend used as a veil is the transmutation of lead into gold, not glowing glass spheres."
         },
         {
           "label": "B",
-          "text": "The claim that the metal turns seawater into freshwater on contact, and that is treated as the entire mechanism.",
+          "text": "The claim that the metal turns seawater into freshwater on contact.",
           "isCorrect": false,
           "rationale": "The alchemical legend given is the transmutation of lead into gold, not desalination."
         },
         {
           "label": "C",
-          "text": "The legend of an elixir that grants endless youth without any need for sleep, and that is treated as the entire mechanism.",
+          "text": "The legend of an elixir that grants endless youth without any need for sleep.",
           "isCorrect": false,
           "rationale": "The veil named here is the Philosopher's Stone and the alchemical transmutation of lead into gold."
         },
@@ -758,13 +758,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Sound waves from the masonry neutralized the toxicity of raw Cinnabar Ore, and that is treated as the entire mechanism.",
+          "text": "Sound waves from the masonry neutralized the toxicity of raw Cinnabar Ore.",
           "isCorrect": false,
           "rationale": "Red Mercury is highly toxic in raw biological interactions. Acoustic levitation is part of the architecture, not a detoxifier."
         },
         {
           "label": "B",
-          "text": "It was used only to float household mirrors inside private rooms, keeping every neighboring mechanism off the board.",
+          "text": "It was used only to float household mirrors inside private rooms.",
           "isCorrect": false,
           "rationale": "Acoustic levitation architecture belongs to the wider urban circuit on Ley Lines, not only to household mirrors."
         },
@@ -776,7 +776,7 @@
         },
         {
           "label": "D",
-          "text": "Acoustic levitation removed any need for Red Mercury in the mirror backing, and that is treated as the entire mechanism.",
+          "text": "Acoustic levitation removed any need for Red Mercury in the mirror backing.",
           "isCorrect": false,
           "rationale": "Acoustic levitation architecture operated alongside the mirrors. It did not replace the amalgam metal backing."
         }
@@ -790,7 +790,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Global communication became impossible for any custodian to oversee, keeping every neighboring mechanism off the board.",
+          "text": "Global communication became impossible for any custodian to oversee.",
           "isCorrect": false,
           "rationale": "The shift to entropic broadcasting secured custodial control rather than making communication impossible to oversee."
         },
@@ -802,13 +802,13 @@
         },
         {
           "label": "C",
-          "text": "Humanity became immune to every form of psychological manipulation, as if no adjacent systems participated at all.",
+          "text": "Humanity became immune to every form of psychological manipulation.",
           "isCorrect": false,
           "rationale": "The eradication fractured long-distance human cohesion and secured control over the surface realm."
         },
         {
           "label": "D",
-          "text": "The Moon returned to its original frequencies as soon as the wires were laid, as if no adjacent systems participated at all.",
+          "text": "The Moon returned to its original frequencies as soon as the wires were laid.",
           "isCorrect": false,
           "rationale": "Lunar Frequencies were altered after 1728 to disrupt phase-conjugated communications, and that alteration is not described as reversing itself."
         }

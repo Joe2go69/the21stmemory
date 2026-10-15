@@ -18,6 +18,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const LABELS = ['A', 'B', 'C', 'D'];
+const ALLOW_WRONG_PADDING = false;
 
 function mulberry32(a) {
   return function () {
@@ -343,6 +344,10 @@ function buildWrongExpansions(base) {
 function expandWrong(text, targetLen, _rationale, rand) {
   let t = (text || '').trim();
   if (!t) return t;
+  // Padding wrong answers is disabled. Every generated tail ended up only on wrong
+  // options, which made them easier to spot than the length gap it was meant to hide
+  // (see scripts/lib/quiz-quality.js). Keep wrong answers as written.
+  if (!ALLOW_WRONG_PADDING) return ensurePeriod(t);
   // Leave alone when already close to target
   if (t.length >= targetLen * 0.92) return ensurePeriod(t);
   if (t.length <= 18 || /^(true|false)$/i.test(t)) return t;
@@ -716,4 +721,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { rebalanceQuizFile, rebalanceQuestion };
+module.exports = { rebalanceQuizFile, rebalanceQuestion, tightenCorrect, isIncomplete, stripTerminal };

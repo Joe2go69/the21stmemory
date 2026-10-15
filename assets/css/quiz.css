@@ -20,8 +20,16 @@
   padding: 1.5rem 1.5rem 0;
 }
 
-body.quiz-is-playing .site-footer {
-  display: none;
+body.quiz-is-playing .site-footer,
+body.quiz-is-playing #back-to-top {
+  display: none !important;
+}
+
+/* Keep the revealed feedback panel clear of the sticky mobile action bar
+   when quiz.js scrolls it into view. */
+.quiz-feedback {
+  scroll-margin-top: 5rem;
+  scroll-margin-bottom: 6.5rem;
 }
 
 body.quiz-is-playing .quiz-page {
