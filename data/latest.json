@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "sky-net-1",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Sky-Net 1",
+      "description": "Sky-Net 1 is the planetary projection rig stationed within the celestial architecture of the stars, functioning as the primary technological engine for matrix illusion, population padding, and staged reality events.",
+      "topic_image": "images/revelations/sky-net-1.webp",
+      "path": "dive/revelations/sky-net-1.html",
+      "added": "2026-10-15"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "fema-camps",
       "series": "A Brief Synopsis of Revelations",
       "title": "FEMA Camps",
@@ -108,16 +118,6 @@
       "description": "The Inner Earth consists of subterranean inner-earth simulations maintained within the physical realm, functioning as specialized environmental pockets shielded from surface atmospheric purges and periodic reset cycles.",
       "topic_image": "images/revelations/inner-earth.webp",
       "path": "dive/revelations/inner-earth.html",
-      "added": "2026-10-07"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "organ-harvest",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Organ Harvest",
-      "description": "Organ Harvest is the systematic extraction and collection of human biological organs from physical vessels during engineered mass-mortality events.",
-      "topic_image": "images/revelations/organ-harvest.webp",
-      "path": "dive/revelations/organ-harvest.html",
       "added": "2026-10-07"
     }
   ],

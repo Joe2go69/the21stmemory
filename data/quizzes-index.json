@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-15T14:17:34.526Z",
-  "total": 294,
+  "generatedAt": "2026-10-15T16:49:14.037Z",
+  "total": 295,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 98
+      "count": 99
     }
   ],
   "quizzes": [
@@ -3575,6 +3575,19 @@
       "href": "quiz/revelations/simulation-field.html",
       "diveHref": "dive/revelations/simulation-field.html",
       "key": "revelations/simulation-field"
+    },
+    {
+      "id": "sky-net-1",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Sky-Net 1",
+      "subtitle": "Test your understanding of Sky-Net 1 — the planetary projection rig that stages matrix illusion, population padding, and the fake invasion during the EBS lockdown.",
+      "questionCount": 25,
+      "href": "quiz/revelations/sky-net-1.html",
+      "diveHref": "dive/revelations/sky-net-1.html",
+      "key": "revelations/sky-net-1"
     },
     {
       "id": "soul-architecture",

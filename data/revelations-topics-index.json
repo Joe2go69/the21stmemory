@@ -755,10 +755,10 @@
                 {
                   "id": "sky-net-1",
                   "title": "Sky-Net 1",
-                  "description": "Sky-Net 1",
-                  "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-10"
+                  "description": "Sky-Net 1 is the planetary projection rig stationed within the celestial architecture of the stars, functioning as the primary technological engine for matrix illusion, population padding, and staged reality events.",
+                  "topic_image": "images/revelations/sky-net-1.webp",
+                  "is_placeholder": false,
+                  "added": "2026-10-15"
                 }
               ]
             }

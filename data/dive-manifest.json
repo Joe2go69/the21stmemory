@@ -3116,9 +3116,9 @@
       "sourceId": "revelations",
       "topicId": "sky-net-1",
       "path": "/dive/revelations/sky-net-1.html",
-      "live": false,
+      "live": true,
       "title": "Sky-Net 1",
-      "added": "2026-10-10"
+      "added": "2026-10-15"
     },
     {
       "sourceId": "revelations",
