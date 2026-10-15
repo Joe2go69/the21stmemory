@@ -486,19 +486,19 @@
           "label": "B",
           "text": "From about 50 pounds up to 500-pound slabs.",
           "isCorrect": false,
-          "rationale": "This range represents small masonry units, whereas sound masonry handles multi-ton stone blocks."
+          "rationale": "Not what the report says. That span covers the quartz granite blocks dressed and positioned by acoustic frequencies."
         },
         {
           "label": "C",
           "text": "From about 10 tons up to 50-ton monoliths.",
           "isCorrect": false,
-          "rationale": "Sound masonry specifies blocks ranging from a quarter ton to 4-ton megaliths."
+          "rationale": "Not what the report says. That span covers the quartz granite blocks dressed and positioned by acoustic frequencies."
         },
         {
           "label": "D",
           "text": "From about 100 tons up to 500-ton foundation stones.",
           "isCorrect": false,
-          "rationale": "This exceeds the block size range used for sound masonry."
+          "rationale": "Not what the report says. That span covers the quartz granite blocks dressed and positioned by acoustic frequencies."
         }
       ],
       "hint": "Recall the specific tonnage range mentioned for multi-ton quartz granite blocks.",
@@ -754,7 +754,7 @@
           "label": "D",
           "text": "Aluminum plates, distilled water, and pulverized mica.",
           "isCorrect": false,
-          "rationale": "Aluminum and mica are not the secondary conductive materials of copper wiring, red mercury, and time-phase conjugated mirrors."
+          "rationale": "Not what the report says. Time-phase conjugated mirrors join those materials in integrated networks for power generation, wireless light, and long-range communication."
         }
       ],
       "hint": "Identify the conductive metal, the cinnabar derivative, and the optical device used with the stone networks.",
