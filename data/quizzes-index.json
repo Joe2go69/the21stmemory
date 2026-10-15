@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T16:22:54.257Z",
-  "total": 292,
+  "generatedAt": "2026-10-15T13:39:43.952Z",
+  "total": 293,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 96
+      "count": 97
     }
   ],
   "quizzes": [
@@ -2860,6 +2860,19 @@
       "href": "quiz/revelations/essence-of-the-transmission.html",
       "diveHref": "dive/revelations/essence-of-the-transmission.html",
       "key": "revelations/essence-of-the-transmission"
+    },
+    {
+      "id": "fema-camps",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "FEMA Camps",
+      "subtitle": "Test your understanding of FEMA Camps — designated containment facilities built to detain the unvaccinated until the statutory FDA clock enabled systematic forced vaccination.",
+      "questionCount": 25,
+      "href": "quiz/revelations/fema-camps.html",
+      "diveHref": "dive/revelations/fema-camps.html",
+      "key": "revelations/fema-camps"
     },
     {
       "id": "field-law",

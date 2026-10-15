@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "fema-camps",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "FEMA Camps",
+      "description": "FEMA Camps are designated containment facilities constructed to house the unvaccinated until official regulatory approval enabled systematic forced vaccination.",
+      "topic_image": "images/revelations/fema-camps.webp",
+      "path": "dive/revelations/fema-camps.html",
+      "added": "2026-10-15"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "technology-swaps",
       "series": "A Brief Synopsis of Revelations",
       "title": "Technology Swaps",
@@ -108,16 +118,6 @@
       "description": "Loosh (also termed fear harvest or energetic yield alongside adrenochrome) is the Very Low Frequency (VLF) negative energy radiating directly off the human vessel.",
       "topic_image": "images/revelations/architecture-of-the-fear-harvest.webp",
       "path": "dive/revelations/loosh.html",
-      "added": "2026-10-07"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "watch-the-water",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Watch the Water",
-      "description": "Watch the Water defines the targeted chemical attack on the supply, an orchestrated deployment of liquid-borne toxins designed to compromise the organic vessel's spiritual hardware.",
-      "topic_image": "images/revelations/watch-the-water.webp",
-      "path": "dive/revelations/watch-the-water.html",
       "added": "2026-10-07"
     }
   ],

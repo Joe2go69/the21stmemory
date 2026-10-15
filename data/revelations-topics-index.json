@@ -747,10 +747,10 @@
                 {
                   "id": "fema-camps",
                   "title": "FEMA Camps",
-                  "description": "FEMA Camps",
-                  "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-07"
+                  "description": "FEMA Camps are designated containment facilities constructed to house the unvaccinated until official regulatory approval enabled systematic forced vaccination.",
+                  "topic_image": "images/revelations/fema-camps.webp",
+                  "is_placeholder": false,
+                  "added": "2026-10-15"
                 },
                 {
                   "id": "sky-net-1",
