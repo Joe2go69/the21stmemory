@@ -12,7 +12,7 @@
     "body": "Lava/Core Nodes are the fiery heart below — deep Earth Nodes where plasma meets crystalline veins, pulsing red-gold molten fire and pushing life-force upward through ley-lines to feed the upper grid. Sit with Harmonic Lenses as the patterns that shape energy into the realm's heartbeat, Surface and Sky Nodes as the two-way relay, and yourself as a living lens that can clear blockage so the Crystalline Web restores true harmony. Return to the Lava Core Nodes deep-dive, infographic, and video transmissions to lock into the molten heartbeat of the planetary circuitry."
   },
   "relatedTopic": {
-    "href": "/deep-dive.html?source=breakdown&topic=lava-core-nodes",
+    "href": "/dive/breakdown/lava-core-nodes.html",
     "label": "Return to Lava Core Nodes deep-dive"
   },
   "questions": [
@@ -162,7 +162,7 @@
         },
         {
           "label": "C",
-          "text": "They act as neutral relay spheres that gather power and pass it along between grid levels, as a one-factor story with a tidy edge.",
+          "text": "They act as neutral relay spheres that gather power and pass it along between grid levels.",
           "isCorrect": false,
           "rationale": "A Node is the neutral relay station that gathers and passes power; ley-lines are the streams that carry core power into physical topography."
         },
@@ -438,7 +438,7 @@
         },
         {
           "label": "C",
-          "text": "A physical mountain peak where energy is stored permanently and never passed along the grid, as a one-factor story with a tidy edge.",
+          "text": "A physical mountain peak where energy is stored permanently and never passed along the grid.",
           "isCorrect": false,
           "rationale": "Mountains receive energy through ley-lines; a Node gathers and passes power as a relay rather than storing it forever at a mountain peak alone."
         },

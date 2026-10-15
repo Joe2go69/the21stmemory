@@ -12,7 +12,7 @@
     "body": "Reunion is a frequency match, not a climb through space. Return to the deep-dive, infographic, and transmissions if the extraction still feels like travel instead of a phase-out."
   },
   "relatedTopic": {
-    "href": "/deep-dive.html?source=breakdown&topic=reunion-mechanics",
+    "href": "/dive/breakdown/reunion-mechanics.html",
     "label": "Return to Reunion Mechanics deep-dive"
   },
   "questions": [
@@ -220,7 +220,7 @@
         },
         {
           "label": "B",
-          "text": "The Water Dome Conduit, shimmering sanctuaries that mend the heart with liquid sound, as if no adjacent systems participated at all.",
+          "text": "The Water Dome Conduit, shimmering sanctuaries that mend the heart with liquid sound.",
           "isCorrect": false,
           "rationale": "Water Domes are healing sanctuaries for stabilization, not the direct exit path for the Resonating Army."
         },
@@ -310,13 +310,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Sharp pains in the joints and muscular stiffness, as a one-factor story with a tidy edge.",
+          "text": "Sharp pains in the joints and muscular stiffness.",
           "isCorrect": false,
           "rationale": "The symptoms are specifically buzzing, ringing, and power surges in the subtle bodies."
         },
         {
           "label": "B",
-          "text": "Extreme fatigue and a loss of physical coordination, as a one-factor story with a tidy edge.",
+          "text": "Extreme fatigue and a loss of physical coordination.",
           "isCorrect": false,
           "rationale": "The symptoms are characterized by energetic intensity and buzzing rather than a loss of function."
         },
@@ -342,7 +342,7 @@
       "options": [
         {
           "label": "A",
-          "text": "The wind speed increases to create a physical vacuum, as if no adjacent systems participated at all.",
+          "text": "The wind speed increases to create a physical vacuum.",
           "isCorrect": false,
           "rationale": "The drop in pressure is a result of overlay collapse rather than wind-driven vacuum forces."
         },
@@ -354,7 +354,7 @@
         },
         {
           "label": "C",
-          "text": "The air becomes thick with visible crystalline dust, as a one-factor story with a tidy edge.",
+          "text": "The air becomes thick with visible crystalline dust.",
           "isCorrect": false,
           "rationale": "The reset is a pressure change and a pop rather than the introduction of dust."
         },
@@ -374,7 +374,7 @@
       "options": [
         {
           "label": "A",
-          "text": "A slow dissolution of the body over several days, as a one-factor story with a tidy edge.",
+          "text": "A slow dissolution of the body over several days.",
           "isCorrect": false,
           "rationale": "The transition is seamless and occurs at an exact moment when time is paused."
         },
@@ -392,7 +392,7 @@
         },
         {
           "label": "D",
-          "text": "A physical ascent into the upper atmosphere via light beams, and that is treated as the entire mechanism.",
+          "text": "A physical ascent into the upper atmosphere via light beams.",
           "isCorrect": false,
           "rationale": "Extraction is not a physical transport or an ascent through space."
         }
@@ -418,7 +418,7 @@
         },
         {
           "label": "C",
-          "text": "They are storage devices for the 3D simulation's history, and that is treated as the entire mechanism.",
+          "text": "They are storage devices for the 3D simulation's history.",
           "isCorrect": false,
           "rationale": "Their function is active and energetic, assisting in the grid generation for transition."
         },
@@ -534,13 +534,13 @@
       "options": [
         {
           "label": "A",
-          "text": "A vast, empty void that souls must fill with their thoughts, as a one-factor story with a tidy edge.",
+          "text": "A vast, empty void that souls must fill with their thoughts.",
           "isCorrect": false,
           "rationale": "The Second Realm is a pre-existing, vibrant landscape that is simply revealed after the overlay falls."
         },
         {
           "label": "B",
-          "text": "A technologically advanced city built by the space force, as a one-factor story with a tidy edge.",
+          "text": "A technologically advanced city built by the space force.",
           "isCorrect": false,
           "rationale": "The landscape is natural and crystalline, emphasizing organic resonance points over technological cities."
         },
@@ -552,7 +552,7 @@
         },
         {
           "label": "D",
-          "text": "The ruins of ancient civilizations from millions of years ago, without a larger engineered system underneath.",
+          "text": "The ruins of ancient civilizations from millions of years ago.",
           "isCorrect": false,
           "rationale": "The revealed realm is vibrant and pristine, not a collection of ancient ruins."
         }
@@ -566,13 +566,13 @@
       "options": [
         {
           "label": "A",
-          "text": "It reverses their signal to affect the parasites instead, as if no adjacent systems participated at all.",
+          "text": "It reverses their signal to affect the parasites instead.",
           "isCorrect": false,
           "rationale": "The lock serves to neutralize and bypass the weapons, protecting the sovereign soul."
         },
         {
           "label": "B",
-          "text": "It makes the weapons more powerful for a short period, keeping every neighboring mechanism off the board.",
+          "text": "It makes the weapons more powerful for a short period.",
           "isCorrect": false,
           "rationale": "The activation of the lock is the end of the control system's power over the soul."
         },
@@ -584,7 +584,7 @@
         },
         {
           "label": "D",
-          "text": "It records the frequency of the weapons for future analysis, and that is treated as the entire mechanism.",
+          "text": "It records the frequency of the weapons for future analysis.",
           "isCorrect": false,
           "rationale": "The lock's function is immediate protection and neutralization of the control system."
         }
@@ -604,7 +604,7 @@
         },
         {
           "label": "B",
-          "text": "The realm becomes a museum dedicated to the Lyran lineage, and that is treated as the entire mechanism.",
+          "text": "The realm becomes a museum dedicated to the Lyran lineage.",
           "isCorrect": false,
           "rationale": "It becomes an active training ground for co-creation, not a static museum."
         },
@@ -648,7 +648,7 @@
         },
         {
           "label": "D",
-          "text": "The ships use advanced holographic cloaking technology, and that is treated as the entire mechanism.",
+          "text": "The ships use advanced holographic cloaking technology.",
           "isCorrect": false,
           "rationale": "The cloaking is a natural result of their frequency, not a specific technological device."
         }
@@ -702,13 +702,13 @@
       "options": [
         {
           "label": "A",
-          "text": "They are deleted to make room for new cosmic instructions, as a one-factor story with a tidy edge.",
+          "text": "They are deleted to make room for new cosmic instructions.",
           "isCorrect": false,
           "rationale": "The focus is on healing and reweaving fragments, not deleting parts of the soul's experience."
         },
         {
           "label": "B",
-          "text": "They are merged with the souls of the Council of 12 Suns, and that is treated as the entire mechanism.",
+          "text": "They are merged with the souls of the Council of 12 Suns.",
           "isCorrect": false,
           "rationale": "The pods are for healing individual soul integrity, not for merging with other beings."
         },
@@ -740,7 +740,7 @@
         },
         {
           "label": "B",
-          "text": "Inside the core of the restored multi-banded sun, and that is treated as the entire mechanism.",
+          "text": "Inside the core of the restored multi-banded sun.",
           "isCorrect": false,
           "rationale": "Water Domes are projected over crystalline waters, while the sun acts as the transition gate."
         },
@@ -752,7 +752,7 @@
         },
         {
           "label": "D",
-          "text": "Within the subterranean chambers of the earth grids, as a one-factor story with a tidy edge.",
+          "text": "Within the subterranean chambers of the earth grids.",
           "isCorrect": false,
           "rationale": "These domes are projected and shimmering, focused on water-based resonance for heart healing."
         }

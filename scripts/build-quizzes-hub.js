@@ -67,6 +67,25 @@ function escapeAttr(value) {
   return escapeHtml(value).replace(/'/g, '&#39;');
 }
 
+/**
+ * Pre-order position of every topic in data/{source}-topics-index.json —
+ * the same walk build-static-dives.js uses for dive prev/next — so
+ * "Next in this path" follows the series rather than the alphabet.
+ */
+function topicTreeOrder(sourceId) {
+  const file = path.join(ROOT, 'data', `${sourceId}-topics-index.json`);
+  const order = new Map();
+  if (!fs.existsSync(file)) return order;
+  const walk = (items) => {
+    for (const item of items || []) {
+      if (item && item.id && !order.has(item.id)) order.set(item.id, order.size);
+      if (item?.subtopics?.length) walk(item.subtopics);
+    }
+  };
+  walk(JSON.parse(fs.readFileSync(file, 'utf8')).topics);
+  return order;
+}
+
 function collectQuizzes() {
   const quizzes = [];
   if (!fs.existsSync(QUIZZES_DIR)) return quizzes;
@@ -82,6 +101,7 @@ function collectQuizzes() {
       desc: '',
     };
 
+    const treeOrder = topicTreeOrder(sourceId);
     for (const file of fs.readdirSync(sourceDir).filter((f) => f.endsWith('.json'))) {
       const raw = JSON.parse(fs.readFileSync(path.join(sourceDir, file), 'utf8'));
       const id = raw.id || raw.topicId || file.replace(/\.json$/, '');
@@ -103,6 +123,7 @@ function collectQuizzes() {
         href,
         diveHref: `dive/${sourceId}/${id}.html`,
         key,
+        ...(treeOrder.has(id) ? { order: treeOrder.get(id) } : {}),
       });
     }
   }
@@ -240,7 +261,20 @@ function ensureOverviewMarkers(html) {
   return html.slice(0, insertAt) + block + html.slice(insertAt);
 }
 
+function lintQuizzes() {
+  // Fail the build on giveaway distractors (stock filler tails, endings
+  // that only ever appear on wrong answers) and structural problems.
+  const { lintCorpus } = require('./lib/quiz-quality');
+  const failures = lintCorpus(ROOT);
+  if (failures.length) {
+    for (const f of failures.slice(0, 40)) console.error(`quiz lint: ${f}`);
+    throw new Error(`Quiz lint failed with ${failures.length} issue(s). Run: node scripts/quiz-quality.js --lint`);
+  }
+  console.log('Quiz lint passed.');
+}
+
 function main() {
+  lintQuizzes();
   const quizzes = collectQuizzes();
   const sources = Object.values(SOURCE_META).map((meta) => ({
     ...meta,

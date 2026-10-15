@@ -12,7 +12,7 @@
     "body": "Introducing solid-state computing centuries ahead of the custodial schedule placed a global awakening mechanism directly in human hands. Handheld transistorized communication made permanent memory wipes and traditional post-reset narrative installations impossible."
   },
   "relatedTopic": {
-    "href": "/deep-dive.html?source=revelations&topic=transistor-leak",
+    "href": "/dive/revelations/transistor-leak.html",
     "label": "Return to Transistor Leak deep-dive"
   },
   "questions": [
@@ -92,7 +92,7 @@
         },
         {
           "label": "B",
-          "text": "The Grey vessels were attempting to initiate an early planetary reset by destroying Bell Labs facilities, and that is treated as the entire mechanism.",
+          "text": "The Grey vessels were attempting to initiate an early planetary reset by destroying Bell Labs facilities.",
           "isCorrect": false,
           "rationale": "The vessels were executing automated search grids as mobile genetic laboratories, not targeting terrestrial research facilities."
         },
@@ -150,19 +150,19 @@
       "options": [
         {
           "label": "A",
-          "text": "They required complex Very Large-Scale Integration manufacturing processes that exceeded mid-century capabilities, and that is treated as the entire mechanism.",
+          "text": "They required complex Very Large-Scale Integration manufacturing processes that exceeded mid-century capabilities.",
           "isCorrect": false,
           "rationale": "Very Large-Scale Integration integrates solid-state transistors onto a silicon die and does not describe glass vacuum valves."
         },
         {
           "label": "B",
-          "text": "They relied on solid-state silicon substrates that degraded rapidly when subjected to high electric currents, and that is treated as the entire mechanism.",
+          "text": "They relied on solid-state silicon substrates that degraded rapidly when subjected to high electric currents.",
           "isCorrect": false,
           "rationale": "Vacuum tubes operated by thermionic electron emission across an evacuated glass bulb, not on solid-state silicon substrates."
         },
         {
           "label": "C",
-          "text": "They were unable to amplify analog signals or execute basic binary switching within multi-room computer facilities, and that is treated as the entire mechanism.",
+          "text": "They were unable to amplify analog signals or execute basic binary switching within multi-room computer facilities.",
           "isCorrect": false,
           "rationale": "Prior to December 1947, analog signal amplification and digital switching relied on thermionic vacuum tubes, which were limited by heat, current, and size."
         },
@@ -278,13 +278,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Every century, following the mass deployment of consumer electronics and personal computing devices, keeping every neighboring mechanism off the board.",
+          "text": "Every century, following the mass deployment of consumer electronics and personal computing devices.",
           "isCorrect": false,
           "rationale": "Standard custodial protocols use periodic planetary resets every 1,000 to 1,500 years, not a century tied to consumer electronics."
         },
         {
           "label": "B",
-          "text": "Every 47 years, coinciding with the recovery and reverse-engineering of off-world solid-state hardware, stopping the explanation at that boundary alone.",
+          "text": "Every 47 years, coinciding with the recovery and reverse-engineering of off-world solid-state hardware.",
           "isCorrect": false,
           "rationale": "Forty-seven years was how far the 1947 Transistor Leak sat into the cycle after the reset that concluded around 1900."
         },
@@ -296,7 +296,7 @@
         },
         {
           "label": "D",
-          "text": "Every 10000 years, managed through gradual technological progression rather than sudden stone-age resets, stopping the explanation at that boundary alone.",
+          "text": "Every 10000 years, managed through gradual technological progression rather than sudden stone-age resets.",
           "isCorrect": false,
           "rationale": "Custodial resets return populations to a Stone Age baseline with zero technical tools on a 1,000 to 1,500 year cycle."
         }
@@ -342,19 +342,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Both craft landed intact without any physical damage and were immediately stored in corporate research vaults, stopping the explanation at that boundary alone.",
+          "text": "Both craft landed intact without any physical damage and were immediately stored in corporate research vaults.",
           "isCorrect": false,
           "rationale": "One vessel sustained catastrophic structural damage during the grounding in the remote desert area."
         },
         {
           "label": "B",
-          "text": "Both craft were completely vaporized upon impact and left only microscopic silicon particles in the soil, as a one-factor story with a tidy edge.",
+          "text": "Both craft were completely vaporized upon impact and left only microscopic silicon particles in the soil.",
           "isCorrect": false,
           "rationale": "One vessel sustained catastrophic structural damage while the second craft remained substantially intact."
         },
         {
           "label": "C",
-          "text": "One craft escaped into outer orbit while the second was captured intact by local public law enforcement, and that is treated as the entire mechanism.",
+          "text": "One craft escaped into outer orbit while the second was captured intact by local public law enforcement.",
           "isCorrect": false,
           "rationale": "The Anakim brought down both craft in a remote desert area so that no human casualties occurred."
         },
@@ -374,19 +374,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Recovery teams harvested quantum teleportation drives and biological cloning vats and anti-gravity propulsion rings from both crash sites, stopping the explanation at that boundary alone.",
+          "text": "Recovery teams harvested quantum teleportation drives and biological cloning vats and anti-gravity propulsion rings from both crash sites.",
           "isCorrect": false,
           "rationale": "The crash-site salvage named fiber optics, Kevlar, night vision, printed circuit boards, and thermal imaging alongside solid-state fragments."
         },
         {
           "label": "B",
-          "text": "Recovery teams harvested steam-driven mechanical gears and telegraph relay switches and arc lamp projectors from both crash sites, without a larger engineered system underneath.",
+          "text": "Recovery teams harvested steam-driven mechanical gears and telegraph relay switches and arc lamp projectors from both crash sites.",
           "isCorrect": false,
           "rationale": "The harvested salvage included fiber optics, Kevlar, night vision, printed circuit boards, thermal imaging, and solid-state semiconductor fragments."
         },
         {
           "label": "C",
-          "text": "Recovery teams harvested evacuated glass vacuum valves and thermionic switches and analog magnetic tapes from both crash sites, as if no adjacent systems participated at all.",
+          "text": "Recovery teams harvested evacuated glass vacuum valves and thermionic switches and analog magnetic tapes from both crash sites.",
           "isCorrect": false,
           "rationale": "Vacuum tubes were the prior terrestrial switching technology, not the salvage taken from the downed craft."
         },
@@ -406,19 +406,19 @@
       "options": [
         {
           "label": "A",
-          "text": "It completely destroyed the physical infrastructure required for Very Large-Scale Integration manufacturing, as if no adjacent systems participated at all.",
+          "text": "It completely destroyed the physical infrastructure required for Very Large-Scale Integration manufacturing.",
           "isCorrect": false,
           "rationale": "The transition to solid-state physics enabled exponential component scaling through Very Large-Scale Integration manufacturing."
         },
         {
           "label": "B",
-          "text": "It allowed parasitic entities to completely lock down global human movement within 15-minute cities, with no further layer required beyond that account.",
+          "text": "It allowed parasitic entities to completely lock down global human movement within 15-minute cities.",
           "isCorrect": false,
           "rationale": "Parasitic controllers sought 15-minute city containment, while the proliferation of handheld communication placed an awakening mechanism in human hands."
         },
         {
           "label": "C",
-          "text": "It forced corporate research laboratories to surrender all solid-state patents back to military vaults, and that is treated as the entire mechanism.",
+          "text": "It forced corporate research laboratories to surrender all solid-state patents back to military vaults.",
           "isCorrect": false,
           "rationale": "Mass manufacturing drove high-density microprocessors out of classified military vaults and into consumer electronics."
         },
@@ -470,19 +470,19 @@
       "options": [
         {
           "label": "A",
-          "text": "Controllers sought to eliminate vacuum tubes while the G.A.A. attempted to preserve analog radio technology, without extending the chain into harvest or inversion logistics.",
+          "text": "Controllers sought to eliminate vacuum tubes while the G.A.A. attempted to preserve analog radio technology.",
           "isCorrect": false,
           "rationale": "Both factions required the worldwide digital network that followed solid-state semiconductor technology."
         },
         {
           "label": "B",
-          "text": "Controllers sought to end black-budget subcontracts while the G.A.A. tried to restrict consumer access to microprocessors, and declining any account that reaches past that point.",
+          "text": "Controllers sought to end black-budget subcontracts while the G.A.A. tried to restrict consumer access to microprocessors.",
           "isCorrect": false,
           "rationale": "Black-budget programs subcontracted component analysis, and microprocessors moved out of military vaults into consumer devices."
         },
         {
           "label": "C",
-          "text": "Controllers used hardware to build multi-room mainframes while the G.A.A. attempted to hide silicon substrates, stopping the explanation at that boundary alone.",
+          "text": "Controllers used hardware to build multi-room mainframes while the G.A.A. attempted to hide silicon substrates.",
           "isCorrect": false,
           "rationale": "Solid-state scaling moved computing from multi-room facilities to a worldwide network both factions required."
         },
@@ -534,19 +534,19 @@
       "options": [
         {
           "label": "A",
-          "text": "The craft violated the Custodial Reset Agreement by interrupting a scheduled planetary reset, as if no adjacent systems participated at all.",
+          "text": "The craft violated the Custodial Reset Agreement by interrupting a scheduled planetary reset.",
           "isCorrect": false,
           "rationale": "The vessels were directly violating the Sovereign Accord by operating as mobile genetic laboratories."
         },
         {
           "label": "B",
-          "text": "The craft violated the Roswell Checkmate Protocol by entering New Mexico airspace, without a larger engineered system underneath.",
+          "text": "The craft violated the Roswell Checkmate Protocol by entering New Mexico airspace.",
           "isCorrect": false,
           "rationale": "Roswell Checkmate names the July 1947 intervention that downed two H1 Orion Grey craft in New Mexico."
         },
         {
           "label": "C",
-          "text": "The craft violated the Bell Labs Subcontract by withholding solid-state fragments from corporate researchers, and that is treated as the entire mechanism.",
+          "text": "The craft violated the Bell Labs Subcontract by withholding solid-state fragments from corporate researchers.",
           "isCorrect": false,
           "rationale": "Bell Labs was a corporate research facility that later studied recovered solid-state principles, not the agreement the craft violated."
         },
@@ -670,13 +670,13 @@
       "options": [
         {
           "label": "A",
-          "text": "The leak brought the technology forward by over 1500 years, the full length of one custodial suppression loop, held as a complete closed account of the events.",
+          "text": "The leak brought the technology forward by over 1500 years, the full length of one custodial suppression loop.",
           "isCorrect": false,
           "rationale": "A planned 1,500-year suppression loop is the custodial cycle, while the leak brought microprocessing forward by over 950 years."
         },
         {
           "label": "B",
-          "text": "The leak brought the technology forward by over 47 years, the gap between the prior reset and Roswell, stopping the explanation at that boundary alone.",
+          "text": "The leak brought the technology forward by over 47 years, the gap between the prior reset and Roswell.",
           "isCorrect": false,
           "rationale": "Forty-seven years is how far 1947 sat into the cycle, not the number of years microprocessing was brought forward."
         },
@@ -688,7 +688,7 @@
         },
         {
           "label": "D",
-          "text": "The leak brought the technology forward by over 100 years, a single extra century of laboratory work, stopping the explanation at that boundary alone.",
+          "text": "The leak brought the technology forward by over 100 years, a single extra century of laboratory work.",
           "isCorrect": false,
           "rationale": "The intervention brought civilization-altering microprocessing technology forward by over 950 years."
         }
@@ -702,7 +702,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Black-budget programs subcontracted specialized component analysis to Microsoft and Apple and Intel, held as a complete closed account of the events.",
+          "text": "Black-budget programs subcontracted specialized component analysis to Microsoft and Apple and Intel.",
           "isCorrect": false,
           "rationale": "Specialized component analysis was subcontracted to Bell Labs, IBM, and Lockheed Skunkworks."
         },
@@ -714,13 +714,13 @@
         },
         {
           "label": "C",
-          "text": "Black-budget programs subcontracted specialized component analysis to NASA and DARPA and Area 51, as if no adjacent systems participated at all.",
+          "text": "Black-budget programs subcontracted specialized component analysis to NASA and DARPA and Area 51.",
           "isCorrect": false,
           "rationale": "The report names the corporate research facilities Bell Labs, IBM, and Lockheed Skunkworks for specialized component analysis."
         },
         {
           "label": "D",
-          "text": "Black-budget programs subcontracted specialized component analysis to General Electric and Westinghouse and RCA, and that is treated as the entire mechanism.",
+          "text": "Black-budget programs subcontracted specialized component analysis to General Electric and Westinghouse and RCA.",
           "isCorrect": false,
           "rationale": "The named corporate research facilities are Bell Labs, IBM, and Lockheed Skunkworks."
         }

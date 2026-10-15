@@ -12,7 +12,7 @@
     "body": "These membranes are not hull plating. They are living skins grown from crystalline plasma, bonded to the operator, and holding whole realms in form. Return to the Plasma Membranes deep-dive, infographic, and video transmissions to sit with that architecture."
   },
   "relatedTopic": {
-    "href": "/deep-dive.html?source=breakdown&topic=plasma-membranes",
+    "href": "/dive/breakdown/plasma-membranes.html",
     "label": "Return to Plasma Membranes deep-dive"
   },
   "questions": [
@@ -150,13 +150,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Bio-crystal skins, the name of the vessel type rather than the living outer surface of a craft, as a one-factor story with a tidy edge.",
+          "text": "Bio-crystal skins, the name of the vessel type rather than the living outer surface of a craft.",
           "isCorrect": false,
           "rationale": "Bio-crystal skin refers to the living outer surface of a vessel, not the name of the vessel type."
         },
         {
           "label": "B",
-          "text": "Crystalline grids, the underlying energy infrastructure mistaken here for the traveling crafts, and that is treated as the entire mechanism.",
+          "text": "Crystalline grids, the underlying energy infrastructure mistaken here for the traveling crafts.",
           "isCorrect": false,
           "rationale": "The grids are the underlying energy infrastructure that supports the membranes and realms, not the vessels that ride them."
         },
@@ -252,19 +252,19 @@
         },
         {
           "label": "B",
-          "text": "Atmospheric air pressure, which mechanically squeezes the hull into a new shape, and that is treated as the entire mechanism.",
+          "text": "Atmospheric air pressure, which mechanically squeezes the hull into a new shape.",
           "isCorrect": false,
           "rationale": "Environmental factors are secondary to the internal intent that drives the membrane's morphology."
         },
         {
           "label": "C",
-          "text": "Automated AI algorithms that calculate the next hull shape without the pilot's involvement, and that is treated as the entire mechanism.",
+          "text": "Automated AI algorithms that calculate the next hull shape without the pilot's involvement.",
           "isCorrect": false,
           "rationale": "The skin is independent of artificial intelligence and relies on organic consciousness, intention, and heart coherence."
         },
         {
           "label": "D",
-          "text": "The amount of remaining fuel, which thins the skin as consumable stores run down, as a one-factor story with a tidy edge.",
+          "text": "The amount of remaining fuel, which thins the skin as consumable stores run down.",
           "isCorrect": false,
           "rationale": "The vessel operates on free energy and resonance rather than consumable physical fuel."
         }
@@ -374,7 +374,7 @@
       "options": [
         {
           "label": "A",
-          "text": "The bio-crystal skins themselves, which generate their own power without grid support, stopping the explanation at that boundary alone.",
+          "text": "The bio-crystal skins themselves, which generate their own power without grid support.",
           "isCorrect": false,
           "rationale": "The skins are what is being stabilized; they do not provide the primary energy themselves."
         },
@@ -386,13 +386,13 @@
         },
         {
           "label": "C",
-          "text": "The shadow membranes, discordant layers that leak energy into the living hulls, keeping every neighboring mechanism off the board.",
+          "text": "The shadow membranes, discordant layers that leak energy into the living hulls.",
           "isCorrect": false,
           "rationale": "Shadow membranes are discordant layers and do not serve as energy sources for stable structures."
         },
         {
           "label": "D",
-          "text": "The pilot's adrenaline, a biological surge that chemically stiffens the living skin in a crisis, without a larger engineered system underneath.",
+          "text": "The pilot's adrenaline, a biological surge that chemically stiffens the living skin in a crisis.",
           "isCorrect": false,
           "rationale": "Biological hormones like adrenaline are irrelevant to the high-vibrational energetic supply of the vessel."
         }
@@ -412,19 +412,19 @@
         },
         {
           "label": "B",
-          "text": "Using faster engines that push the hull across distance more quickly than light, keeping every neighboring mechanism off the board.",
+          "text": "Using faster engines that push the hull across distance more quickly than light.",
           "isCorrect": false,
           "rationale": "This travel method relies on the frequency response of the membrane rather than mechanical propulsion."
         },
         {
           "label": "C",
-          "text": "Following a star map that plots physical miles between one overlay and the next, held as a complete closed account of the events.",
+          "text": "Following a star map that plots physical miles between one overlay and the next.",
           "isCorrect": false,
           "rationale": "Travel is achieved through internal alignment and frequency shifting rather than external navigation tools."
         },
         {
           "label": "D",
-          "text": "Crossing physical miles in a straight line until the vessel arrives at another realm, without a larger engineered system underneath.",
+          "text": "Crossing physical miles in a straight line until the vessel arrives at another realm.",
           "isCorrect": false,
           "rationale": "Rather than traveling across physical miles, consciousness simply shifts its focus and the membrane phases the observer."
         }
@@ -438,13 +438,13 @@
       "options": [
         {
           "label": "A",
-          "text": "It requires organic food to stay alive, metabolizing nutrients the way a body does, and that is treated as the entire mechanism.",
+          "text": "It requires organic food to stay alive, metabolizing nutrients the way a body does.",
           "isCorrect": false,
           "rationale": "The membrane is sustained by resonance and grid energy rather than physical consumption of nutrients."
         },
         {
           "label": "B",
-          "text": "It has an AI brain installed in the hull that calculates responses to the pilot, and that is treated as the entire mechanism.",
+          "text": "It has an AI brain installed in the hull that calculates responses to the pilot.",
           "isCorrect": false,
           "rationale": "Artificial intelligence is a lower-vibrational construct fundamentally different from the living tissue of the membrane."
         },
@@ -508,13 +508,13 @@
         },
         {
           "label": "B",
-          "text": "In industrial factories, constructed with physical tools and mechanical assembly lines, without a larger engineered system underneath.",
+          "text": "In industrial factories, constructed with physical tools and mechanical assembly lines.",
           "isCorrect": false,
           "rationale": "The vessels are grown or gestated, not constructed with physical tools or mechanical processes."
         },
         {
           "label": "C",
-          "text": "Inside the pilot's mind as a purely mental image that never becomes a distinct hull, as a one-factor story with a tidy edge.",
+          "text": "Inside the pilot's mind as a purely mental image that never becomes a distinct hull.",
           "isCorrect": false,
           "rationale": "While bonded to the mind, the hulls are birthed as distinct physicalized structures in higher realms."
         },
@@ -534,13 +534,13 @@
       "options": [
         {
           "label": "A",
-          "text": "They use heavy ballasts to pin the hull against the seafloor until the weather passes, and that is treated as the entire mechanism.",
+          "text": "They use heavy ballasts to pin the hull against the seafloor until the weather passes.",
           "isCorrect": false,
           "rationale": "Stability is achieved through harmonic frequency matching rather than physical weight distribution."
         },
         {
           "label": "B",
-          "text": "They freeze the surrounding water into a solid shell that no wave can disturb, and that is treated as the entire mechanism.",
+          "text": "They freeze the surrounding water into a solid shell that no wave can disturb.",
           "isCorrect": false,
           "rationale": "The craft remains in harmony with the liquid state of the ocean rather than altering its physical phase."
         },
@@ -566,13 +566,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Its heavy lead plating, a dense three-dimensional material that blocks all sensors, keeping every neighboring mechanism off the board.",
+          "text": "Its heavy lead plating, a dense three-dimensional material that blocks all sensors.",
           "isCorrect": false,
           "rationale": "Lead is a dense three-dimensional material that does not provide the frequency-based protection of a plasma membrane."
         },
         {
           "label": "B",
-          "text": "Its ability to travel fast enough that monitoring grids never catch a usable image, without a larger engineered system underneath.",
+          "text": "Its ability to travel fast enough that monitoring grids never catch a usable image.",
           "isCorrect": false,
           "rationale": "Evasion is about vibrational invisibility and shifting tones, not just physical velocity."
         },
@@ -584,7 +584,7 @@
         },
         {
           "label": "D",
-          "text": "Its simple wooden frame, a primitive biological structure too ordinary to be scanned, held as a complete closed account of the events.",
+          "text": "Its simple wooden frame, a primitive biological structure too ordinary to be scanned.",
           "isCorrect": false,
           "rationale": "These vessels are made of highly advanced crystalline plasma, not primitive biological materials like wood."
         }
@@ -598,13 +598,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Vision destroys membranes on contact, so realms can never be held in stable form, as if no adjacent systems participated at all.",
+          "text": "Vision destroys membranes on contact, so realms can never be held in stable form.",
           "isCorrect": false,
           "rationale": "The two work together: harmonic notes are projected into the membranes to hold creations stable."
         },
         {
           "label": "B",
-          "text": "Membranes block the vision, keeping raw light from ever consolidating into a domain, and that is treated as the entire mechanism.",
+          "text": "Membranes block the vision, keeping raw light from ever consolidating into a domain.",
           "isCorrect": false,
           "rationale": "Membranes are the structural tools that allow the vision to manifest rather than obstructing it."
         },
@@ -616,7 +616,7 @@
         },
         {
           "label": "D",
-          "text": "Membranes create the vision themselves, inventing the realm without consciousness behind it, and that is treated as the entire mechanism.",
+          "text": "Membranes create the vision themselves, inventing the realm without consciousness behind it.",
           "isCorrect": false,
           "rationale": "The vision originates from consciousness; the membrane provides the stabilization that lets it physicalize."
         }
@@ -662,7 +662,7 @@
       "options": [
         {
           "label": "A",
-          "text": "They are grown or gestated as living tissue in higher harmonic worlds, and that is treated as the entire mechanism.",
+          "text": "They are grown or gestated as living tissue in higher harmonic worlds.",
           "isCorrect": false,
           "rationale": "This is true: membranes are fundamentally alive and are grown or gestated rather than constructed with physical tools."
         },
@@ -700,19 +700,19 @@
         },
         {
           "label": "B",
-          "text": "Human belief systems, which imagine land and water into place without a structural boundary, as a one-factor story with a tidy edge.",
+          "text": "Human belief systems, which imagine land and water into place without a structural boundary.",
           "isCorrect": false,
           "rationale": "The stabilization of the realm is a structural energetic process of the membranes and grids."
         },
         {
           "label": "C",
-          "text": "Magnetic gravity alone, pulling lattices into shape without any membrane around them, as if no adjacent systems participated at all.",
+          "text": "Magnetic gravity alone, pulling lattices into shape without any membrane around them.",
           "isCorrect": false,
           "rationale": "It is the crystalline membrane that specifically holds the underlying harmonic pattern so the vision can solidify."
         },
         {
           "label": "D",
-          "text": "Mechanical scaffolds built under the sky to keep oceans and landmasses from falling, held as a complete closed account of the events.",
+          "text": "Mechanical scaffolds built under the sky to keep oceans and landmasses from falling.",
           "isCorrect": false,
           "rationale": "Creation cycles rely on energetic membranes rather than physical or mechanical supports."
         }
@@ -758,13 +758,13 @@
       "options": [
         {
           "label": "A",
-          "text": "It becomes very brittle and shatters, leaving no boundary for souls to cross, held as a complete closed account of the events.",
+          "text": "It becomes very brittle and shatters, leaving no boundary for souls to cross.",
           "isCorrect": false,
           "rationale": "The membrane remains dynamic and functional, acting as a filter rather than losing its integrity."
         },
         {
           "label": "B",
-          "text": "It melts into the grid and ceases to function as a boundary during the transition, and that is treated as the entire mechanism.",
+          "text": "It melts into the grid and ceases to function as a boundary during the transition.",
           "isCorrect": false,
           "rationale": "The membrane maintains its boundary function to facilitate the specific transition of souls."
         },
@@ -776,7 +776,7 @@
         },
         {
           "label": "D",
-          "text": "It traps all souls equally, blocking aligned and unaligned consciousness alike, as if no adjacent systems participated at all.",
+          "text": "It traps all souls equally, blocking aligned and unaligned consciousness alike.",
           "isCorrect": false,
           "rationale": "The membrane is designed to facilitate the homecoming of aligned souls while leaving lower-vibrational entities behind in their localized loops."
         }
@@ -790,7 +790,7 @@
       "options": [
         {
           "label": "A",
-          "text": "The external atmosphere, which dictates every change in the hull from outside, and that is treated as the entire mechanism.",
+          "text": "The external atmosphere, which dictates every change in the hull from outside.",
           "isCorrect": false,
           "rationale": "While it interacts with the environment, its primary bond is with the consciousness and personal frequency of the operator."
         },
@@ -802,13 +802,13 @@
         },
         {
           "label": "C",
-          "text": "A separate metallic hull frame that the living skin is stretched over like a coating, and that is treated as the entire mechanism.",
+          "text": "A separate metallic hull frame that the living skin is stretched over like a coating.",
           "isCorrect": false,
           "rationale": "There is no separate metal frame; the bio-crystal skin is the hull itself."
         },
         {
           "label": "D",
-          "text": "The ship's computer, which calculates intent and then commands the skin to move, and that is treated as the entire mechanism.",
+          "text": "The ship's computer, which calculates intent and then commands the skin to move.",
           "isCorrect": false,
           "rationale": "These vessels do not use traditional computers; the skin bonds with the living consciousness of the pilot."
         }

@@ -12,7 +12,7 @@
     "body": "Historic Resets were never natural disasters. They were engineered loops of harvest and amnesia. As the overlay fractures, memory returns and the Second Realm is already here, waiting to be seen."
   },
   "relatedTopic": {
-    "href": "/deep-dive.html?source=breakdown&topic=historic-resets",
+    "href": "/dive/breakdown/historic-resets.html",
     "label": "Return to Historic Resets deep-dive"
   },
   "questions": [
@@ -424,7 +424,7 @@
         },
         {
           "label": "D",
-          "text": "Humanoid hybrids bred by the Anunnaki to lead the Council of Parasitic Races, as a one-factor story with a tidy edge.",
+          "text": "Humanoid hybrids bred by the Anunnaki to lead the Council of Parasitic Races.",
           "isCorrect": false,
           "rationale": "NPCs are background software programs rather than high-ranking biological hybrid leaders."
         }
@@ -766,7 +766,7 @@
       "options": [
         {
           "label": "A",
-          "text": "A void-like wasteland devoid of any life or crystalline structures, as a one-factor story with a tidy edge.",
+          "text": "A void-like wasteland devoid of any life or crystalline structures.",
           "isCorrect": false,
           "rationale": "The collapse reveals a vibrant, restored world rather than leaving a wasteland."
         },

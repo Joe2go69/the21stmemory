@@ -85,9 +85,12 @@
     </nav>
     <main id="main">
     <noscript>
-      <div class="noscript-notice quiz-noscript">
-        <p><strong>JavaScript is required</strong> to take this interactive quiz. Please enable JavaScript, or study the <a href="../../deep-dive.html?source=__SOURCE__&amp;topic=__TOPIC_ID__">__TOPIC_TITLE__ deep-dive</a>.</p>
-      </div>
+      <section class="noscript-notice quiz-noscript" aria-labelledby="quiz-noscript-title">
+        <p class="quiz-kicker">Living Truth Quiz · __QUESTION_COUNT__ questions</p>
+        <h1 id="quiz-noscript-title">__TOPIC_TITLE__ Quiz</h1>
+        <p>__SEO_DESC__</p>
+        <p>This quiz is interactive and needs JavaScript. Until then, read the full report it is based on: <a href="../../dive/__SOURCE__/__TOPIC_ID__.html">__TOPIC_TITLE__ deep-dive</a>, or <a href="../../quizzes.html">browse every quiz</a>.</p>
+      </section>
     </noscript>
 
     <div class="page-shell quiz-page">
