@@ -350,27 +350,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Military forces become explicitly visible in the streets to enforce order and replace traditional world police while fake governments mobilize under the WW3 narrative.",
+          "text": "Military forces become visible in the streets to enforce order and replace traditional world police, while fake governments mobilize under the WW3 narrative.",
           "isCorrect": true,
           "rationale": "Military forces become explicitly visible to enforce order and replace traditional world police; fake governments are mobilized under the WW3 narrative."
         },
         {
           "label": "B",
-          "text": "Only media studios are occupied with no street presence and no fake-government WW3 cover mobilization.",
+          "text": "The military occupies the media studios but keeps out of the streets, leaving the world police in charge of public order while the governments carry on their usual business as before.",
           "isCorrect": false,
-          "rationale": "Street visibility, police replacement, and fake-government WW3 mobilization are core deployment elements."
+          "rationale": "Not what the report says. Military forces become explicitly visible to enforce order and replace traditional world police; fake governments are mobilized under the WW3 narrative."
         },
         {
           "label": "C",
-          "text": "Civilians alone patrol streets with no Whitehat asset positioning for the next operational stage.",
+          "text": "Civilian volunteers patrol the streets, with the Whitehat forces held back for the next stage of the operation.",
           "isCorrect": false,
-          "rationale": "Whitehats position assets securely for the next operational stage during this military deployment window."
+          "rationale": "Not what the report says. Military forces become explicitly visible to enforce order and replace traditional world police; fake governments are mobilized under the WW3 narrative."
         },
         {
           "label": "D",
-          "text": "All military units remain permanently hidden while traditional world police expand unrestricted authority.",
+          "text": "The military stays hidden, and the traditional police are given wider powers to keep order during the WW3 narrative.",
           "isCorrect": false,
-          "rationale": "Forces become explicitly visible and replace traditional world police rather than remaining hidden."
+          "rationale": "Not what the report says. Military forces become explicitly visible to enforce order and replace traditional world police; fake governments are mobilized under the WW3 narrative."
         }
       ],
       "hint": "Connect street visibility, police replacement, and fake-government mobilization.",
