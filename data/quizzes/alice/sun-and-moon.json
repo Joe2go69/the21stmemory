@@ -138,27 +138,27 @@
       "options": [
         {
           "label": "A",
-          "text": "A gentle museum of past lives that restores every memory before free voluntary rebirth.",
+          "text": "A portal within the Moon that stores deceased souls for centuries, until the Greys select new vessels for them to inhabit.",
           "isCorrect": false,
-          "rationale": "It forcibly wipes memories before rapid reincarnation; it does not restore free archives."
+          "rationale": "Not what the report says. Amnesia Vortex is the Sun-based portal that memory-wipes souls for rapid reincarnation."
         },
         {
           "label": "B",
-          "text": "The technological portal located within the Sun that forcefully pulls in recently deceased souls to wipe their memories before rapid physical reincarnation.",
+          "text": "A portal within the Sun that pulls in recently deceased souls and wipes their memories before rapid reincarnation.",
           "isCorrect": true,
           "rationale": "Amnesia Vortex is the Sun-based portal that memory-wipes souls for rapid reincarnation."
         },
         {
           "label": "C",
-          "text": "A weather cyclone in the southern oceans that only sinks ships and never touches deceased souls.",
+          "text": "A frequency field across the southern oceans that clouds the memory of the living, keeping them from recalling past lives during sleep.",
           "isCorrect": false,
-          "rationale": "It is a technological soul portal inside the Sun, not a maritime storm."
+          "rationale": "Not what the report says. Amnesia Vortex is the Sun-based portal that memory-wipes souls for rapid reincarnation."
         },
         {
           "label": "D",
-          "text": "A library under the Ice Wall that only stores maps and never pulls souls after death.",
+          "text": "A machine beneath the Ice Wall that records each soul's memories at death, so that the Custodians can study them for future harvests.",
           "isCorrect": false,
-          "rationale": "The vortex sits in the Sun and pulls recently deceased souls for memory wipe."
+          "rationale": "Not what the report says. Amnesia Vortex is the Sun-based portal that memory-wipes souls for rapid reincarnation."
         }
       ],
       "hint": "Inside the Sun — force-pull deceased souls — memory wipe.",
@@ -318,27 +318,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Because textbooks already admit the model is false and require no further physical argument.",
+          "text": "A single sun would heat one side of a sphere so strongly that the oceans there would boil away within a few years.",
           "isCorrect": false,
-          "rationale": "The model is still enforced; the illumination math itself proves the impossibility."
+          "rationale": "Not what the report says. One local sun cannot light a full sphere evenly; the globe model fails that physical test."
         },
         {
           "label": "B",
-          "text": "Because moons always provide all light and suns never illuminate land at all.",
+          "text": "The Moon's light is stronger than the Sun's, so the Sun cannot be the main source of light on any model of the world.",
           "isCorrect": false,
-          "rationale": "The argument is about inadequate single-sun lighting of a claimed sphere."
+          "rationale": "Not what the report says. One local sun cannot light a full sphere evenly; the globe model fails that physical test."
         },
         {
           "label": "C",
-          "text": "A spherical planet could never be adequately illuminated by a single local sun without requiring multiple suns positioned entirely around it.",
+          "text": "A spherical planet could not be properly lit by a single local sun without multiple suns placed all around it.",
           "isCorrect": true,
           "rationale": "One local sun cannot light a full sphere evenly; the globe model fails that physical test."
         },
         {
           "label": "D",
-          "text": "Because the Sun is too dim to light even a small room, so no celestial model matters.",
+          "text": "The Sun is too close to the plain to be seen from every part of a sphere, so the globe model fails to explain sunsets at all.",
           "isCorrect": false,
-          "rationale": "The issue is geometry of illuminating a sphere with one local sun, not simple dimness."
+          "rationale": "Not what the report says. One local sun cannot light a full sphere evenly; the globe model fails that physical test."
         }
       ],
       "hint": "One local sun cannot adequately light a full sphere.",

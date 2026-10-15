@@ -118,27 +118,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Freemason library cards required for Carnegie reading rooms.",
+          "text": "Library cards issued by the Freemasons, which gave access to the Carnegie reading rooms.",
           "isCorrect": false,
-          "rationale": "Libraries distribute fake history; Oopa's are physical proof of the real past."
+          "rationale": "Not what the report says. Oopa's are blatant physical evidence of high-technological civilisations before this era, deliberately hidden in museum basements for contradicting the official timeline."
         },
         {
           "label": "B",
-          "text": "NPC identity chips with no physical form.",
+          "text": "Identity chips placed in NPCs after each Re-set, which have no visible physical form.",
           "isCorrect": false,
-          "rationale": "They are physical artefacts museums hide from the public."
+          "rationale": "Not what the report says. Oopa's are blatant physical evidence of high-technological civilisations before this era, deliberately hidden in museum basements for contradicting the official timeline."
         },
         {
           "label": "C",
-          "text": "Blatant physical evidence of prior high-tech civilisations, hidden in museum basements.",
+          "text": "Blatant physical evidence of earlier high-tech civilisations, hidden in museum basements.",
           "isCorrect": true,
           "rationale": "Oopa's are blatant physical evidence of high-technological civilisations before this era, deliberately hidden in museum basements for contradicting the official timeline."
         },
         {
           "label": "D",
-          "text": "Only modern smartphone accessories sold after each Re-set.",
+          "text": "Modern items such as phone parts, planted in old soil layers to confuse researchers digging at the sites.",
           "isCorrect": false,
-          "rationale": "They are suppressed high-tech relics of prior ages, not consumer gadgets."
+          "rationale": "Not what the report says. Oopa's are blatant physical evidence of high-technological civilisations before this era, deliberately hidden in museum basements for contradicting the official timeline."
         }
       ],
       "hint": "Out-of-place high-tech proof — basemented by museums.",
@@ -318,25 +318,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The only beings who remember Tartaria and teach it openly.",
+          "text": "Surviving true souls who remember Tartaria and pass the old knowledge down to their children in secret.",
           "isCorrect": false,
-          "rationale": "They enforce the matrix narrative, not restore Tartarian truth."
+          "rationale": "Not what the report says. NPCs are artificially created souls lacking past lives or higher-density potential, 97% of the population, used to enforce conformity and maintain matrix narrative after a Re-set."
         },
         {
           "label": "B",
-          "text": "Giant skeleton excavators who leaked Smithsonian files.",
+          "text": "Workers recruited from the orphan trains to excavate the giant skeletons and hide them in the Smithsonian's vaults.",
           "isCorrect": false,
-          "rationale": "Giant finds were suppressed; NPCs maintain cover stories."
+          "rationale": "Not what the report says. NPCs are artificially created souls lacking past lives or higher-density potential, 97% of the population, used to enforce conformity and maintain matrix narrative after a Re-set."
         },
         {
           "label": "C",
-          "text": "Pure 12th-density caretakers of the Spirit Tree.",
+          "text": "Caretakers of the Spirit Tree who were brought back to tend the realm's Ley Lines after each Re-set.",
           "isCorrect": false,
-          "rationale": "They lack higher-density potential by design."
+          "rationale": "Not what the report says. NPCs are artificially created souls lacking past lives or higher-density potential, 97% of the population, used to enforce conformity and maintain matrix narrative after a Re-set."
         },
         {
           "label": "D",
-          "text": "Artificially created souls without past lives or higher-density potential — 97% of population.",
+          "text": "Artificially created souls without past lives or higher-density potential, making up 97% of the population.",
           "isCorrect": true,
           "rationale": "NPCs are artificially created souls lacking past lives or higher-density potential, 97% of the population, used to enforce conformity and maintain matrix narrative after a Re-set."
         }

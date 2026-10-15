@@ -414,27 +414,27 @@
       "options": [
         {
           "label": "A",
-          "text": "As a technological device casting spherical-looking light onto the Dyson-sphere-like shell of the lunar space station, hiding the massive mechanical craft.",
+          "text": "As a device casting spherical-looking light onto the Dyson-sphere-like shell of the lunar station, hiding the massive mechanical craft.",
           "isCorrect": true,
           "rationale": "Venus operates as tech casting spherical-looking light onto the Dyson-sphere-like shell of the lunar station to hide the mechanical craft."
         },
         {
           "label": "B",
-          "text": "By reflecting Black Sun loosh as rainbow auroras that never touch any shell or Death-Star geometry.",
+          "text": "By reflecting the light of the Black Sun off the lunar shell, so the Moon seems to shine on its own while the craft beneath stays visible.",
           "isCorrect": false,
-          "rationale": "The cast is spherical-looking light onto the lunar shell itself; Black Sun is storage, not the light-casting method."
+          "rationale": "Not what the report says. Venus operates as tech casting spherical-looking light onto the Dyson-sphere-like shell of the lunar station to hide the mechanical craft."
         },
         {
           "label": "C",
-          "text": "By drilling geothermal vents under Antarctica so ice glows and paints the Moon with real heat.",
+          "text": "By heating the craft's surface until it glows, using geothermal energy drawn from vents beneath the Antarctic ice around the Ice Wall.",
           "isCorrect": false,
-          "rationale": "Venus casts spherical-looking holographic light onto the Dyson-sphere-like lunar shell, not Antarctic ice vents."
+          "rationale": "Not what the report says. Venus operates as tech casting spherical-looking light onto the Dyson-sphere-like shell of the lunar station to hide the mechanical craft."
         },
         {
           "label": "D",
-          "text": "Through pure prayer of religious masses who unknowingly power natural moonlight without any tech.",
+          "text": "By drawing on the prayers of religious masses, whose energy is turned into the light that falls on the Moon station each night.",
           "isCorrect": false,
-          "rationale": "The mechanism is advanced localized holographic projection technology, not prayer-powered natural light."
+          "rationale": "Not what the report says. Venus operates as tech casting spherical-looking light onto the Dyson-sphere-like shell of the lunar station to hide the mechanical craft."
         }
       ],
       "hint": "Spherical-looking light onto Dyson-sphere-like lunar shell.",
