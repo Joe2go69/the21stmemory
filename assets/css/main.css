@@ -24060,3 +24060,20 @@ body.hero-lightbox-open { overflow: hidden; }
 }
 .topic-category-block:not(.is-collapsed) .topic-category-disclosure .chevron,
 .topic-category-block:not(.is-collapsed) .topic-category-disclosure .chevron .card-icon { color: #ffffff !important; }
+
+/* Quiz "Why" deep links land on report sections (ids from build-static-dives
+   addReportAnchors). html scroll-padding clears the navbar; this extra margin
+   clears the sticky Infographics/Videos/Report tab bar. :target highlights
+   the section so readers see where they landed. */
+#report-container [id^="r-"],
+#report-container [id^="term-"] {
+  scroll-margin-top: 4rem;
+}
+
+#report-container .term-card:target,
+#report-container h2:target,
+#report-container h3:target {
+  outline: 2px solid rgba(167, 139, 250, 0.7);
+  outline-offset: 6px;
+  border-radius: 0.75rem;
+}

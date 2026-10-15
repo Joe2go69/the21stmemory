@@ -235,6 +235,45 @@ function enhanceReportHtml(html, sourceText) {
   out = insertReportFigures(out, collectReportFigures(sourceText || out.replace(/<[^>]+>/g, ' ')));
   out = enhanceReportQuotes(out);
   out = enhanceReportCoda(out);
+  out = addReportAnchors(out);
+  return out;
+}
+
+function anchorSlug(text) {
+  return String(text || '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&[a-z#0-9]+;/gi, ' ')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 60)
+    .replace(/-+$/g, '') || 'section';
+}
+
+/**
+ * Stable ids on report headings ("r-…") and term cards ("term-…") so quiz
+ * "Why" explanations can link to the exact section. The client TOC keeps
+ * existing ids, so these also become the TOC anchors.
+ */
+function addReportAnchors(html) {
+  if (!html) return html;
+  const used = new Set();
+  const unique = (base) => {
+    let id = base;
+    let n = 2;
+    while (used.has(id)) id = `${base}-${n++}`;
+    used.add(id);
+    return id;
+  };
+  let out = html.replace(
+    /<article class="(term-card\b[^"]*)"([^>]*)>(\s*<h3 class="term-card__term">([\s\S]*?)<\/h3>)/g,
+    (m, cls, attrs, inner, term) =>
+      /\bid=/.test(attrs) ? m : `<article class="${cls}"${attrs} id="${unique(`term-${anchorSlug(term)}`)}">${inner}`
+  );
+  out = out.replace(/<h([23])((?:\s[^>]*)?)>([\s\S]*?)<\/h\1>/g, (m, level, attrs, inner) => {
+    if (/\bid=/.test(attrs) || /term-card__term/.test(attrs)) return m;
+    return `<h${level}${attrs} id="${unique(`r-${anchorSlug(inner)}`)}">${inner}</h${level}>`;
+  });
   return out;
 }
 

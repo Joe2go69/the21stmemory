@@ -6,6 +6,9 @@
  * For every quiz/{source}/{id}.html this rewrites only:
  *   - the inline <script id="quiz-data"> JSON (so edits to quiz JSON ship), and
  *   - the <noscript> intro (title, description, question count, direct dive link).
+ * The inline copy also gets `reportSection: {id, title}` per question — the
+ * dive-page anchor that best explains it (quiz "Why" links there). The master
+ * JSON in data/quizzes is not modified. Run after build-static-dives.js.
  * Idempotent; part of `npm run build`.
  *
  *   node scripts/sync-quiz-embeds.js
@@ -13,6 +16,7 @@
 const fs = require('fs');
 const path = require('path');
 const { ROOT, embedQuizJson } = require('./lib/quiz-pipeline');
+const { reportSections, bestSection } = require('./lib/report-sections');
 
 const esc = (v) =>
   String(v ?? '')
@@ -44,6 +48,8 @@ function pageDescription(html, quiz, title) {
 function main() {
   let changed = 0;
   let checked = 0;
+  let linked = 0;
+  let total = 0;
   const quizRoot = path.join(ROOT, 'data', 'quizzes');
   for (const source of fs.readdirSync(quizRoot)) {
     const dir = path.join(quizRoot, source);
@@ -64,9 +70,20 @@ function main() {
         .replace(/__SOURCE__/g, () => source)
         .replace(/__TOPIC_ID__/g, () => topicId);
       let after = before.replace(NOSCRIPT_RE, () => noscript);
+      const divePath = path.join(ROOT, 'dive', source, `${topicId}.html`);
+      const sections = fs.existsSync(divePath) ? reportSections(fs.readFileSync(divePath, 'utf8')) : [];
+      const embedded = {
+        ...quiz,
+        questions: (quiz.questions || []).map((q) => {
+          const hit = bestSection(q, sections);
+          if (hit) linked += 1;
+          total += 1;
+          return hit ? { ...q, reportSection: hit } : q;
+        }),
+      };
       after = after.replace(
         /(<script type="application\/json" id="quiz-data">)[\s\S]*?(<\/script>)/,
-        (_, open, close) => `${open}${embedQuizJson(quiz)}${close}`
+        (_, open, close) => `${open}${embedQuizJson(embedded)}${close}`
       );
       if (after !== before) {
         fs.writeFileSync(htmlPath, after, 'utf8');
@@ -74,7 +91,7 @@ function main() {
       }
     }
   }
-  console.log(`sync-quiz-embeds: ${changed} of ${checked} quiz pages updated`);
+  console.log(`sync-quiz-embeds: ${changed} of ${checked} quiz pages updated; ${linked}/${total} questions linked to a report section`);
 }
 
 main();
