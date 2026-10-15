@@ -146,98 +146,74 @@
     },
     {
       "number": 5,
-      "question": "What are Replica Souls?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only paperwork titles given to true souls who finish university with no lab manufacture.",
+          "text": "The Flash (EMF) — a 30-second Electro Magnetic Frequency event that will instantly cause all NPCs to evaporate into the aether as pixelation dust.",
           "isCorrect": false,
-          "rationale": "They are manufactured in 4th density laboratories using 4th density technology."
+          "rationale": "This pairing matches the report's definition of “The Flash (EMF)”."
         },
         {
           "label": "B",
-          "text": "Temporary aliases used by Pleiadians who never animate any synthetic body.",
+          "text": "Three Strings — the primary control mechanisms of Religion, Finance, and Perceived Knowledge that bind and define the awareness of the populace.",
           "isCorrect": false,
-          "rationale": "Replica Souls animate NPCs and newly created parasitic species — synthetic animation tech."
+          "rationale": "This pairing matches the report's definition of “Three Strings”."
         },
         {
           "label": "C",
-          "text": "Cheap, hive-aligned imitations of true souls, manufactured in 4th density laboratories to animate newly created parasitic species and NPCs.",
-          "isCorrect": true,
-          "rationale": "Replica Souls = cheap hive knock-offs from 4th density labs powering NPCs and parasitic species."
+          "text": "D.U.M.B.S — Deep Underground Military Bases where new crops of cloned NPC orphans are grown to repopulate the realm following a systemic reset.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “D.U.M.B.S”."
         },
         {
           "label": "D",
-          "text": "Eternal Source sparks older than Micro Suns with full independent cosmic free will.",
-          "isCorrect": false,
-          "rationale": "They are cheap imitations woven for hive-aligned purpose, not primordial free Source sparks."
-        }
-      ],
-      "hint": "4th density lab knock-offs — hive-aligned — animate NPCs.",
-      "correctAnswer": "C"
-    },
-    {
-      "number": 6,
-      "question": "What is The Flash (EMF) relative to NPCs?",
-      "options": [
-        {
-          "label": "A",
-          "text": "A private meditation only true souls notice while NPCs remain embodied forever.",
-          "isCorrect": false,
-          "rationale": "The massive fake population evaporates; only ~3 of 100 remain in any location."
-        },
-        {
-          "label": "B",
-          "text": "Only a banking outage that freezes Finance String accounts with no pixelation effect.",
-          "isCorrect": false,
-          "rationale": "The Flash evaporates NPCs as pixelation dust — not a bank outage."
-        },
-        {
-          "label": "C",
-          "text": "A multi-year soft glow that gently upgrades NPCs into true souls without deletion.",
-          "isCorrect": false,
-          "rationale": "It is a 30-second EMF event that instantly evaporates all NPCs into aether as pixelation dust."
-        },
-        {
-          "label": "D",
-          "text": "A 30-second Electro Magnetic Frequency event that will instantly cause all NPCs to evaporate into the aether as pixelation dust.",
+          "text": "Replica Souls — the restrictive, social-conformity-driven cerebral boundaries that dictate the rigid thought patterns and behaviors of NPCs.",
           "isCorrect": true,
-          "rationale": "Flash = 30 seconds EMF; NPCs become pixelation dust in the aether instantly."
+          "rationale": "That description belongs to “Mind Camp”. The report defines “Replica Souls” as: cheap, hive-aligned imitations of true souls, manufactured in 4th density laboratories to animate newly created parasitic species and NPCs."
         }
       ],
-      "hint": "30-second EMF — NPCs evaporate as pixelation dust.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "D"
     },
     {
-      "number": 7,
-      "question": "What is Mind Camp?",
+      "number": 6,
+      "question": "True or False: According to the report, “The Flash (EMF)” refers to a 30-second Electro Magnetic Frequency event that will instantly cause all NPCs to evaporate into the aether as pixelation dust.",
       "options": [
         {
           "label": "A",
-          "text": "The restrictive, social-conformity-driven cerebral boundaries that dictate the rigid thought patterns and behaviors of NPCs.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Mind Camp = conformity-bound thought perimeter locking NPC behavior and cognition."
+          "rationale": "True — the report defines “The Flash (EMF)” this way."
         },
         {
           "label": "B",
-          "text": "Only a sports stadium brand with no link to thought patterns or ostracization fear.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "It dictates rigid thought patterns and behaviors; fear of ostracization keeps them trapped in it."
-        },
-        {
-          "label": "C",
-          "text": "A D.U.M.B.S. grow-lab wing that only produces bodies with no mental boundary function.",
-          "isCorrect": false,
-          "rationale": "D.U.M.B.S. grow clone orphans; Mind Camp is the mental conformity prison for living NPCs."
-        },
-        {
-          "label": "D",
-          "text": "A free-thinking academy that rewards dissent and dissolves every herd slogan on arrival.",
-          "isCorrect": false,
-          "rationale": "Mind Camp is restrictive social-conformity-driven cerebral boundaries for rigid NPC thought."
+          "rationale": "It is true — the report defines “The Flash (EMF)” as: a 30-second Electro Magnetic Frequency event that will instantly cause all NPCs to evaporate into the aether as pixelation dust."
         }
       ],
-      "hint": "Restrictive conformity boundaries for rigid NPC thought.",
+      "hint": "Recall how the report's Key Terminology defines “The Flash (EMF)”.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 7,
+      "question": "True or False: According to the report, “Mind Camp” refers to the restrictive, social-conformity-driven cerebral boundaries that dictate the rigid thought patterns and behaviors of NPCs.",
+      "options": [
+        {
+          "label": "A",
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Mind Camp” this way."
+        },
+        {
+          "label": "B",
+          "text": "False",
+          "isCorrect": false,
+          "rationale": "It is true — the report defines “Mind Camp” as: the restrictive, social-conformity-driven cerebral boundaries that dictate the rigid thought patterns and behaviors of NPCs."
+        }
+      ],
+      "hint": "Recall how the report's Key Terminology defines “Mind Camp”.",
       "correctAnswer": "A"
     },
     {
@@ -694,25 +670,25 @@
       "options": [
         {
           "label": "A",
-          "text": "By simply existing in vast numbers they establish a social credit system of behavioral nudges, forcing true souls into conformity regarding schooling, medical interventions, and societal norms.",
+          "text": "Their sheer numbers create a social credit system of behavioral nudges, pushing true souls to conform on schooling, medicine, and norms.",
           "isCorrect": true,
           "rationale": "Majority presence = social-credit-style nudges enforcing Strings via school, medical, and norm pressure."
         },
         {
           "label": "B",
-          "text": "By teaching free Religion, Finance, and Perceived Knowledge exit classes in every school.",
+          "text": "They run exit classes on Religion, Finance, and Perceived Knowledge in schools, steering true souls toward approved versions of each.",
           "isCorrect": false,
           "rationale": "They enforce those Strings; they do not teach exit from them."
         },
         {
           "label": "C",
-          "text": "Only through underground D.U.M.B.S. memos that never touch surface social life.",
+          "text": "They issue directives through underground D.U.M.B.S. memos, which local officials then enforce on the surface population.",
           "isCorrect": false,
           "rationale": "Enforcement is surface social: friends, family, colleagues, and everyday norm pressure."
         },
         {
           "label": "D",
-          "text": "By dissolving all schooling and medical norms so true souls never face social pressure.",
+          "text": "They dissolve schooling and medical norms altogether, so true souls drift without structure and lose their sense of purpose.",
           "isCorrect": false,
           "rationale": "Vast numbers establish behavioral nudges forcing conformity on schooling, medical interventions, and norms."
         }
@@ -726,25 +702,25 @@
       "options": [
         {
           "label": "A",
-          "text": "To ensure NPCs always lose every social argument so true souls never need isolation.",
+          "text": "It ensures the NPCs lose every social argument, so true souls can speak freely without ever facing isolation or pressure from the people around them.",
           "isCorrect": false,
           "rationale": "Majority pressure is designed to win against the questioning true soul, not lose."
         },
         {
           "label": "B",
-          "text": "To guarantee every true soul is celebrated as a hero for questioning reality in public.",
+          "text": "It guarantees that every true soul who questions reality is celebrated as a hero, which draws attention away from the deeper control mechanisms.",
           "isCorrect": false,
           "rationale": "It guarantees true souls who question reality are marginalized, ridiculed, and pressured into compliance."
         },
         {
           "label": "C",
-          "text": "A 97% majority guarantees that any true soul attempting to question the nature of reality will be immediately marginalized, ridiculed, and pressured into compliance by their own friends, family, and colleagues.",
+          "text": "A 97% majority means any true soul who questions reality is marginalized, ridiculed, and pressured back into compliance by friends and family.",
           "isCorrect": true,
           "rationale": "Math of 97% crushes dissent: ridicule and compliance pressure from the intimate circle."
         },
         {
           "label": "D",
-          "text": "Only to fill sports stadiums with no effect on dissent, family pressure, or compliance.",
+          "text": "It fills the stadiums and shopping centers so the economy keeps running, with no real effect on dissent, family pressure, or compliance.",
           "isCorrect": false,
           "rationale": "Strategy crushes dissent via friends, family, and colleagues enforcing compliance."
         }

@@ -210,67 +210,43 @@
     },
     {
       "number": 7,
-      "question": "What is the Amnesia Vortex in the takeover architecture?",
+      "question": "True or False: According to the report, “Amnesia Vortex” refers to an advanced holographic software program designed to project a Fake Alien Invasion into the sky, utilized by both the Cabal for fear generation and ultimately by the G.A.A as a psychological trigger event.",
       "options": [
         {
           "label": "A",
-          "text": "A gentle spa that restores every past life and permanently frees souls from all vessels.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "It aggressively wipes memory and forces instant recycle into new vessels."
+          "rationale": "False — that description belongs to “Project Blue Beam”. The report defines “Amnesia Vortex” as: A technological soul-trap and processing system located under the Vatican, utilizing the Sun as a portal to aggressively wipe past-life memories and instantly recycle souls into newborn vessels."
         },
         {
           "label": "B",
-          "text": "A Freemason library card system with no Sun portal and no newborn insertion path.",
-          "isCorrect": false,
-          "rationale": "Sun portal + Vatican processing + newborn recycle is the vortex design."
-        },
-        {
-          "label": "C",
-          "text": "A weather cyclone that only sinks ships and never processes deceased consciousness.",
-          "isCorrect": false,
-          "rationale": "It is a soul-trap processing system under the Vatican using the Sun portal."
-        },
-        {
-          "label": "D",
-          "text": "A technological soul-trap and processing system located under the Vatican, utilizing the Sun as a portal to aggressively wipe past-life memories and instantly recycle souls into newborn vessels.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Amnesia Vortex = Vatican-linked Sun-portal trap that wipes and recycles into newborns."
+          "rationale": "Correct — that description belongs to “Project Blue Beam”, not “Amnesia Vortex”."
         }
       ],
-      "hint": "Vatican soul-trap — Sun portal — wipe and recycle into newborns.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Amnesia Vortex”.",
+      "correctAnswer": "B"
     },
     {
       "number": 8,
-      "question": "What is Loosh for demons and negative entities?",
+      "question": "True or False: According to the report, “Loosh” refers to A highly prized, physical biological substance harvested from traumatized children during satanic sacrifices, representing the parasites' most vital physical commodity.",
       "options": [
         {
           "label": "A",
-          "text": "Nothing beyond digital cryptocurrency mined by computers with no emotional or energetic content.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "It is energetic food from human suffering, terror, and torture — not computer coin."
+          "rationale": "False — that description belongs to “Adrenochrome”. The report defines “Loosh” as: The primary energetic food source for demons and negative entities, generated exclusively through the prolonged suffering, terror, and torture of human vessels."
         },
         {
           "label": "B",
-          "text": "A vitamin that raises frequency and permanently ends all parasitic feeding on humanity.",
-          "isCorrect": false,
-          "rationale": "Loosh is the harvest product of suffering, not a liberating vitamin."
-        },
-        {
-          "label": "C",
-          "text": "The primary energetic food source for demons and negative entities, generated exclusively through the prolonged suffering, terror, and torture of human vessels.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Loosh is the suffering-food of demons — produced by prolonged human terror and torture."
-        },
-        {
-          "label": "D",
-          "text": "Ordinary rainwater stored in barrels for farming with no link to terror or torture.",
-          "isCorrect": false,
-          "rationale": "Loosh is energetic food generated through prolonged human suffering, terror, and torture."
+          "rationale": "Correct — that description belongs to “Adrenochrome”, not “Loosh”."
         }
       ],
-      "hint": "Energetic food from prolonged suffering, terror, and torture.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Loosh”.",
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -306,34 +282,34 @@
     },
     {
       "number": 10,
-      "question": "What is Project Blue Beam?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "A farming irrigation plan with no holograms, no sky events, and no psychological role.",
+          "text": "Amnesia Vortex — A technological soul-trap and processing system located under the Vatican, utilizing the Sun as a portal to aggressively wipe past-life memories and instantly recycle souls into newborn vessels.",
           "isCorrect": false,
-          "rationale": "It is advanced holographic software projecting a Fake Alien Invasion into the sky."
+          "rationale": "This pairing matches the report's definition of “Amnesia Vortex”."
         },
         {
           "label": "B",
-          "text": "A permanent genuine alien embassy that never uses holograms or staged invasion theater.",
+          "text": "Project Blue Beam — An advanced holographic software program designed to project a Fake Alien Invasion into the sky, utilized by both the Cabal for fear generation and ultimately by the G.A.A as a psychological trigger event.",
           "isCorrect": false,
-          "rationale": "It projects a fake invasion holographically, not a permanent genuine embassy."
+          "rationale": "This pairing matches the report's definition of “Project Blue Beam”."
         },
         {
           "label": "C",
-          "text": "Only a radio jingle for weather reports with no connection to Cabal or G.A.A. events.",
+          "text": "Spirit Tree (Mt Meru / Northern Rock / Hyperborea) — The enormously powerful, central crystalline energetic generator of Gateway-10. Its destruction was the paramount tactical strike used to suppress the realm's frequency.",
           "isCorrect": false,
-          "rationale": "It is sky-level holographic invasion software in the scare-event sequence."
+          "rationale": "This pairing matches the report's definition of “Spirit Tree (Mt Meru / Northern Rock / Hyperborea)”."
         },
         {
           "label": "D",
-          "text": "An advanced holographic software program designed to project a Fake Alien Invasion into the sky, used by the Cabal for fear and ultimately by the G.A.A as a psychological trigger event.",
+          "text": "Loosh — The original 12th-density caretakers of the physical plain who fell to the 4th density after initiating a silent, calculated betrayal against the Source of Creation out of greed and a desire for unchecked autonomy.",
           "isCorrect": true,
-          "rationale": "Blue Beam = holographic Fake Alien Invasion — Cabal fear tool, G.A.A. trigger path."
+          "rationale": "That description belongs to “Custodians”. The report defines “Loosh” as: The primary energetic food source for demons and negative entities, generated exclusively through the prolonged suffering, terror, and torture of human vessels."
         }
       ],
-      "hint": "Holographic Fake Alien Invasion — Cabal fear / G.A.A. trigger.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "D"
     },
     {
@@ -694,25 +670,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The Amnesia Vortex was strengthened so children never remember missions or sacrificial trauma.",
+          "text": "The Cabal tightened its grip on social media while the Amnesia Vortex was moved to the Moon, so children now forget their missions faster than before.",
           "isCorrect": false,
           "rationale": "Amnesia Vortex was dismantled in 2019; children retain past-life memories and mission recall."
         },
         {
           "label": "B",
-          "text": "Nothing changed in 2019; no child retains past-life memory and no vortex was dismantled.",
+          "text": "Independent television networks broke the story of the vortex in 2019, and children began receiving therapy to recover their memories in adulthood.",
           "isCorrect": false,
           "rationale": "2019 vortex dismantling explains children's past-life memory and \"monster nightmare\" recall."
         },
         {
           "label": "C",
-          "text": "Social media stayed 100% Cabal-owned with zero G.A.A. truth distribution worldwide.",
+          "text": "The G.A.A. shut down social media worldwide, while the Amnesia Vortex was weakened in stages so children would recover memories during their teens.",
           "isCorrect": false,
           "rationale": "Social media, built as Cabal control, was co-opted by G.A.A. for global truth dissemination."
         },
         {
           "label": "D",
-          "text": "Social media was co-opted by the G.A.A. for global truth; the Amnesia Vortex was dismantled in 2019 so children retain past-life memories of missions and parasitic sacrifice traumas (\"monster nightmares\").",
+          "text": "The G.A.A. co-opted social media for global truth, and the Amnesia Vortex was dismantled in 2019, so children keep past-life memories of missions and trauma.",
           "isCorrect": true,
           "rationale": "G.A.A. hijacked social media for truth; 2019 vortex removal lets children remember."
         }
@@ -726,25 +702,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only military draft law, with no temples, banks, schools, or Freemason science involved.",
+          "text": "Military service, national borders, and citizenship — the legal structures that bind people to the state they were born into.",
           "isCorrect": false,
           "rationale": "Psychological lock uses religion, fake money, and false academic/scientific knowledge."
         },
         {
           "label": "B",
-          "text": "Religion (worshipping false parasitic deities/Satan), Finance (chasing fabricated monetary value), and Perceived Knowledge (defending Freemason-engineered academic and scientific lies).",
+          "text": "Religion (worshipping false parasitic deities), Finance (chasing fabricated money), and Perceived Knowledge (defending engineered academic lies).",
           "isCorrect": true,
           "rationale": "Religion, Finance, and Perceived Knowledge are the three matrix strings to sever."
         },
         {
           "label": "C",
-          "text": "Pure love, free energy, and open Ice Wall exploration as the binding prison strings.",
+          "text": "Love, family, and community — the emotional ties that keep souls returning to the same people in each new lifetime.",
           "isCorrect": false,
           "rationale": "Those liberate; the binding strings are religion, finance, and perceived knowledge."
         },
         {
           "label": "D",
-          "text": "Cooking, fashion, and sports as the only pillars of matrix imprisonment.",
+          "text": "Food, fashion, and sport — the daily habits that keep attention fixed on the physical world rather than on the soul.",
           "isCorrect": false,
           "rationale": "The three strings are Religion, Finance, and Perceived Knowledge."
         }

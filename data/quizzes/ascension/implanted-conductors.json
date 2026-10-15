@@ -18,35 +18,35 @@
   "questions": [
     {
       "number": 1,
-      "question": "What primary material constitutes the advanced memory technology known as Implanted Conductors?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Metamorphic volcanic obsidian used as a dense storage lattice for timeline data.",
-          "isCorrect": false,
-          "rationale": "Obsidian lacks the specific memory technology capabilities required for high-vibrational data processing."
+          "text": "Memory Technology — The total planetary electromagnetic pulse network established when the emerged crystalline conductors are fully charged by solar activation.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “EMP Grid”. The report defines “Memory Technology” as: The inherent property of quartz crystals to store, transfer, and process massive volumes of positive energetic elements and memories, operating similarly to water or plasma."
         },
         {
           "label": "B",
-          "text": "Bio-organic carbon nanotubes grown as living circuits under the crust.",
+          "text": "New Aether — The high-vibrational energetic atmosphere created specifically for this transition, which reacts with the conductors to form the ascension portal.",
           "isCorrect": false,
-          "rationale": "The technology relies on crystalline mineral structures rather than organic carbon-based components."
+          "rationale": "This pairing matches the report's definition of “New Aether”."
         },
         {
           "label": "C",
-          "text": "Superconductive liquid plasma poured into chambers as the physical body of each device.",
+          "text": "Project Looking Glass — The temporal technology utilized by positive forces to execute future jumps, enabling the stealth positioning of the conductors underground.",
           "isCorrect": false,
-          "rationale": "While the technology functions similarly to plasma, the conductors are physically comprised of a solid mineral structure."
+          "rationale": "This pairing matches the report's definition of “Project Looking Glass”."
         },
         {
           "label": "D",
-          "text": "High-purity quartz crystals designed to hold and process massive quantities of data.",
-          "isCorrect": true,
-          "rationale": "Implanted Conductors are comprised of high-purity quartz crystals that hold and process massive quantities of data."
+          "text": "Chronological Timer — The preset release mechanism that governs the simultaneous, physical emergence of the conductors from the earth.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Chronological Timer”."
         }
       ],
-      "hint": "Consider the mineral used as a universal building material in higher realms like Pleiadia.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,

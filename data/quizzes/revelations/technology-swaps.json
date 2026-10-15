@@ -86,25 +86,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The 1939 discovery of an abandoned subterranean propulsion system in Antarctica.",
+          "text": "The 1939 discovery of an abandoned subterranean propulsion system in Antarctica, studied in secret during the war.",
           "isCorrect": false,
           "rationale": "The direct source is the 1947 retrieval in New Mexico."
         },
         {
           "label": "B",
-          "text": "A single crash recovery event in 1947 retrieved two downed H1 Orion craft in New Mexico and served as the direct source for foundational modern technologies.",
+          "text": "A single 1947 crash recovery of two downed H1 Orion craft in New Mexico, the direct source for foundational modern technologies.",
           "isCorrect": true,
           "rationale": "That leak listed fibre optics Kevlar night vision thermal imaging the printed circuit board and the point-contact transistor together."
         },
         {
           "label": "C",
-          "text": "The 1952 recovery of an experimental craft near an ocean trench in the Atlantic.",
+          "text": "The 1952 recovery of an experimental craft near an Atlantic ocean trench, which was shipped to inland laboratories.",
           "isCorrect": false,
           "rationale": "The cluster came from the 1947 retrieval of two downed H1 Orion craft in New Mexico."
         },
         {
           "label": "D",
-          "text": "The 1961 intercept of a reconnaissance probe over northern European airspace.",
+          "text": "The 1961 intercept of a reconnaissance probe over northern European airspace, recovered intact by NATO crews.",
           "isCorrect": false,
           "rationale": "The foundational crash leak is the 1947 New Mexico retrieval."
         }
@@ -118,25 +118,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Recovered hardware was designated strictly for black-budget programs and Unacknowledged Special Access Projects within the Military Industrial Complex to maintain absolute military superiority and population containment.",
+          "text": "Black-budget programs and Unacknowledged Special Access Projects inside the Military Industrial Complex.",
           "isCorrect": true,
           "rationale": "These items were never intended for public consumption or commercial deployment."
         },
         {
           "label": "B",
-          "text": "Commercial manufacturing sectors aimed at immediately boosting consumer economies.",
+          "text": "Commercial manufacturing sectors, to boost consumer economies with new household electronics.",
           "isCorrect": false,
           "rationale": "Commercial release came later as an unintended byproduct of corporate greed and subcontracting."
         },
         {
           "label": "C",
-          "text": "Global intelligence agencies tasked with creating universal open-access civil networks.",
+          "text": "Global intelligence agencies, to build universal open-access civilian communication networks.",
           "isCorrect": false,
           "rationale": "The hardware was isolated for military superiority and population containment."
         },
         {
           "label": "D",
-          "text": "Open academic research institutions to accelerate public scientific knowledge globally.",
+          "text": "Open academic research institutions, to accelerate public scientific knowledge around the world.",
           "isCorrect": false,
           "rationale": "The designation was black-budget programs away from public oversight."
         }
@@ -210,35 +210,23 @@
     },
     {
       "number": 7,
-      "question": "From which non-terrestrial craft component was high-tensile Kevlar originally derived?",
+      "question": "True or False: According to the report, “Kevlar” refers to high-tensile synthetic fiber material derived from exotic craft hull and shielding components, repurposed for body armor and structural reinforcement.",
       "options": [
         {
           "label": "A",
-          "text": "Electro-optical image intensification sensors retrieved from visual arrays.",
-          "isCorrect": false,
-          "rationale": "Visual sensor systems supplied night vision rather than the polymer blueprint for Kevlar."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Kevlar” this way."
         },
         {
           "label": "B",
-          "text": "Substrate-mounted conductive pathways removed from flight control units.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Those pathways were harvested into the printed circuit board."
-        },
-        {
-          "label": "C",
-          "text": "Synthetic polymer strands extracted from craft interior lining and hull shielding provided the molecular blueprint for Kevlar.",
-          "isCorrect": true,
-          "rationale": "That material absorbs kinetic impacts and extreme heat and was repurposed for body armor."
-        },
-        {
-          "label": "D",
-          "text": "High-purity glass strands harvested directly from internal data buses.",
-          "isCorrect": false,
-          "rationale": "Those glass fiber strands were reverse-engineered into fibre optics."
+          "rationale": "It is true — the report defines “Kevlar” as: High-tensile synthetic fiber material derived from exotic craft hull and shielding components, repurposed for body armor and structural reinforcement."
         }
       ],
-      "hint": "Identify the protective material used on craft interior linings and outer hull shielding.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Kevlar”.",
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -274,35 +262,23 @@
     },
     {
       "number": 9,
-      "question": "How is the term \"Earth-Invention Theatre\" defined within the context of Technology Swaps?",
+      "question": "True or False: According to the report, “Earth-Invention Theatre” refers to solid-state semiconductor switching and amplification technology harvested from crash debris, replacing bulky glass vacuum tubes and enabling micro-electronics.",
       "options": [
         {
           "label": "A",
-          "text": "The intentional suppression of human scientific developments by rival international governments.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "It is staged academic history covering reverse-engineered technology from crash wreckage."
+          "rationale": "False — that description belongs to “Point-Contact Transistor”. The report defines “Earth-Invention Theatre” as: The fabricated historical narrative, public patent record, and staged academic history generated to mask the non-terrestrial origin of reverse-engineered technology."
         },
         {
           "label": "B",
-          "text": "An academic movement aimed at replacing traditional laboratory experiments with computer simulations.",
-          "isCorrect": false,
-          "rationale": "The term is the cover story for salvage origin rather than a change in laboratory method."
-        },
-        {
-          "label": "C",
-          "text": "Earth-Invention Theatre is the fabricated historical narrative and the staged academic history generated to mask the non-terrestrial origin of reverse-engineered technology.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "It also covers the public patent record presented in textbooks patent offices and corporate histories."
-        },
-        {
-          "label": "D",
-          "text": "A public media campaign designed to promote consumer enthusiasm for newly released electronic gadgets.",
-          "isCorrect": false,
-          "rationale": "The term names the fabricated historical narrative that masks a non-terrestrial origin."
+          "rationale": "Correct — that description belongs to “Point-Contact Transistor”, not “Earth-Invention Theatre”."
         }
       ],
-      "hint": "Look for the concept describing the staged academic histories and patent records that conceal alien salvage.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Earth-Invention Theatre”.",
+      "correctAnswer": "B"
     },
     {
       "number": 10,
@@ -310,25 +286,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Technology Swaps shattered the controlled evolutionary timeline by injecting solid-state electronics nearly a millennium ahead of the custodial master schedule and forcing a shift to digital surveillance and automated network management.",
+          "text": "The swaps shattered the controlled timeline by injecting solid-state electronics nearly a millennium early, forcing a shift to digital surveillance.",
           "isCorrect": true,
           "rationale": "Custodial schedules had kept populations technologically rudimentary through periodic resets."
         },
         {
           "label": "B",
-          "text": "It triggered an immediate global physical reset that returned human civilization to a primitive stone-age baseline.",
+          "text": "It set off an immediate global physical reset that returned civilization to a stone-age baseline before the hardware could spread.",
           "isCorrect": false,
           "rationale": "The injection broke the controlled timeline and accelerated containment through network management."
         },
         {
           "label": "C",
-          "text": "It forced controllers to abandon all management activities and leave human society completely unmonitored.",
+          "text": "It forced the controllers to step back from management and leave human society largely unmonitored during the transition.",
           "isCorrect": false,
           "rationale": "Controllers shifted from slow physical control to digital surveillance and automated network management."
         },
         {
           "label": "D",
-          "text": "It enabled human governments to build interstellar transport fleets that escaped custodial control entirely.",
+          "text": "It allowed human governments to build interstellar transport fleets that escaped custodial oversight within a few decades.",
           "isCorrect": false,
           "rationale": "The disruption was a shattered evolutionary timeline and a turn toward digital surveillance."
         }
@@ -502,25 +478,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Heavy metal alloys harvested from craft external structural containment frames.",
+          "text": "Heavy metal alloys harvested from the external structural containment frames of the recovered craft.",
           "isCorrect": false,
           "rationale": "Structural alloys were cataloged separately from the semiconductor substrates."
         },
         {
           "label": "B",
-          "text": "Recovered hardware introduced solid-state semiconducting physics utilizing silicon for electrical switching and amplification in a fraction of the space without heat generation or vacuum glass.",
+          "text": "Silicon, used for solid-state switching and amplification in a fraction of the space without vacuum glass.",
           "isCorrect": true,
           "rationale": "That silicon switching replaced bulky glass vacuum tubes."
         },
         {
           "label": "C",
-          "text": "High-purity glass fibers configured into reflective optical waveguides.",
+          "text": "High-purity glass fibers arranged into reflective optical waveguides for signal switching.",
           "isCorrect": false,
           "rationale": "Glass fiber strands from internal data buses became fibre optics."
         },
         {
           "label": "D",
-          "text": "Synthetic polymer compounds woven into flexible electrical conductive grids.",
+          "text": "Synthetic polymer compounds woven into flexible electrical grids that conduct and amplify current.",
           "isCorrect": false,
           "rationale": "Synthetic polymer strands supplied the molecular blueprint for Kevlar."
         }
@@ -658,34 +634,34 @@
     },
     {
       "number": 21,
-      "question": "What structural element describes the relationship between fibre optics, Kevlar, circuit boards, and transistors retrieved from craft crashes?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The simultaneous acquisition of fibre optics Kevlar night vision thermal imaging printed circuit boards and point-contact transistors formed a unified codependent technical matrix where fiber optic backbones are driven by transistorized switches.",
+          "text": "Black-Budget Programs — Infrared heat-signature detection hardware recovered from craft navigation systems, used to render thermal radiation into visual displays.",
           "isCorrect": true,
-          "rationale": "The presence of one technology enabled and reinforced the deployment of the others."
+          "rationale": "That description belongs to “Thermal Imaging”. The report defines “Black-Budget Programs” as: Covert, unacknowledged special access programs within the military-industrial complex designated to isolate and reverse-engineer salvaged non-terrestrial hardware away from public oversight."
         },
         {
           "label": "B",
-          "text": "They represent isolated, unrelated discoveries achieved across distinct historical eras by rival researchers.",
+          "text": "Printed Circuit Board — Substrate-mounted conductive pathways harvested from craft avionics, replacing bulk manual wiring with miniaturized planar layouts.",
           "isCorrect": false,
-          "rationale": "They were acquired together from one integrated non-terrestrial technical ecosystem."
+          "rationale": "This pairing matches the report's definition of “Printed Circuit Board”."
         },
         {
           "label": "C",
-          "text": "They were competing physical solutions designed by different non-terrestrial factions operating on Earth.",
+          "text": "Fibre Optics — Advanced light-transmitting strand technology retrieved from crash wreckage, later adapted into high-speed telecommunications infrastructure.",
           "isCorrect": false,
-          "rationale": "They formed one codependent technical matrix from the same crash leak."
+          "rationale": "This pairing matches the report's definition of “Fibre Optics”."
         },
         {
           "label": "D",
-          "text": "They were temporary prototype materials that were quickly replaced by human synthetic innovations.",
+          "text": "Night Vision — Electro-optical light-amplification technology extracted from non-terrestrial visual sensor systems, enabling visual perception in absolute darkness.",
           "isCorrect": false,
-          "rationale": "They remained a unified codependent technical matrix inside modern infrastructure."
+          "rationale": "This pairing matches the report's definition of “Night Vision”."
         }
       ],
-      "hint": "Consider how modern telecommunications require fiber networks, solid-state switches, circuit boards, and protective housings working together.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "A"
     },
     {

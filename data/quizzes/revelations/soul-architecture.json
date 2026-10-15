@@ -82,35 +82,35 @@
     },
     {
       "number": 3,
-      "question": "What is the primary function of the Taran Vessel within the context of Soul Architecture?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "To regulate the electromagnetic frequency of the planetary grid during resets.",
-          "isCorrect": false,
-          "rationale": "The vessel is a biological interface for the soul rather than a grid regulation tool."
+          "text": "Soul Layering — The pre-colonization incarnation strategy requiring ancient souls to enter a planetary field prior to inversion to comply with universal law.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Mission Insertion”. The report defines “Soul Layering” as: The structural grouping and energetic interlacing of an individual soul across approximately one hundred other soul family members within an Arc Pod cluster."
         },
         {
           "label": "B",
-          "text": "To function as the original 9th-density biological archetype for human manifestation.",
-          "isCorrect": true,
-          "rationale": "The Taran Vessel was produced on the Aktun lines, serving as the biological archetype for human manifestation."
+          "text": "Proximal Sols — The original six male-female pairs (twelve beings) instantiated directly from Initial Intelligence to form the foundational matrix of soul expression.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Proximal Sols”."
         },
         {
           "label": "C",
-          "text": "To serve as a temporary holographic sleeve for non-player entities.",
+          "text": "Taran Vessel — The original, high-density (9th-density) hominid physical body produced on the Aktun lines, serving as the biological archetype for human manifestation.",
           "isCorrect": false,
-          "rationale": "Taran vessels are high-density biological archetypes for true souls, not temporary artificial constructs."
+          "rationale": "This pairing matches the report's definition of “Taran Vessel”."
         },
         {
           "label": "D",
-          "text": "To provide a digital interface for the storage of compressed mission memory.",
+          "text": "Oversoul — The complete, uncompressed higher-density consciousness existing in an Arc Pod, directing its incarnated avatar across multiple physical lifetimes.",
           "isCorrect": false,
-          "rationale": "The vessel is organic technology meant for physical sensation and experience, not digital storage."
+          "rationale": "This pairing matches the report's definition of “Oversoul”."
         }
       ],
-      "hint": "This template was the first high-density hominid body produced on the Aktun lines.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 4,

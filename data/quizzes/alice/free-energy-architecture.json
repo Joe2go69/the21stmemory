@@ -50,34 +50,34 @@
     },
     {
       "number": 2,
-      "question": "What happened to Tartarian civilization and its technology?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It still runs openly as official Dark Ages curriculum.",
+          "text": "Tartaria (Great Tartary) — An advanced, worldwide civilization characterized by architectural splendor, free energy utilization, and harmonic frequency generation, systematically destroyed and erased from recorded history.",
           "isCorrect": false,
-          "rationale": "Dark Ages is the false historical label covering Tartaria's destruction, not open free-energy education."
+          "rationale": "This pairing matches the report's definition of “Tartaria (Great Tartary)”."
         },
         {
           "label": "B",
-          "text": "It was systematically eradicated through planned cyclical planetary re-sets, and its sophisticated technology was deliberately hidden, downgraded, or destroyed.",
+          "text": "Nodes (Nodal Points) — Copper dome resonators utilizing Fibonacci-series patterns and Golden Ratio formations to harness electromagnetic inductance from Ley Lines, historically used to power locomotives without excess coal.",
           "isCorrect": true,
-          "rationale": "Tartaria was wiped through planned re-sets; free-energy tech was hidden, downgraded, or destroyed on purpose."
+          "rationale": "That description belongs to “Atmospheric Condensers (Atmospheric Augmentation Systems)”. The report defines “Nodes (Nodal Points)” as: Major and minor junction points situated on the planetary lattice membrane network that naturally emit immense positive electromagnetic energy."
         },
         {
           "label": "C",
-          "text": "It voluntarily sold every condenser to the Consolidated Coal Company for museum display.",
+          "text": "Tuning Forks — Highly advanced harmonic technology utilized to augment, sculpt, and levitate hard rock via sound and light frequencies, temporarily rendering heavy stone into a weightless, moldable putty.",
           "isCorrect": false,
-          "rationale": "In 1887 condensers were ordered removed and smelted to enforce coal reliance — not voluntary museum sales by Tartaria."
+          "rationale": "This pairing matches the report's definition of “Tuning Forks”."
         },
         {
           "label": "D",
-          "text": "It upgraded itself into drab concrete cities of abundance.",
+          "text": "Density Suppression — A technological mechanism used by parasitic forces to lower the ambient frequency of an area (e.g., from 9th density to 3rd density), rendering ultra-high-frequency crystalline structures invisible to lower-density perception.",
           "isCorrect": false,
-          "rationale": "Concrete drab landscapes lowered energetic expectations into scarcity and austerity — the opposite of upgrade."
+          "rationale": "This pairing matches the report's definition of “Density Suppression”."
         }
       ],
-      "hint": "Re-sets + deliberate hide/downgrade/destroy.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "B"
     },
     {
@@ -86,25 +86,25 @@
       "options": [
         {
           "label": "A",
-          "text": "As coal warehouses for early Industrial Revolution factories only.",
+          "text": "As coal warehouses and boiler houses that powered the early factories of the Industrial Revolution across the old cities.",
           "isCorrect": false,
           "rationale": "Fossil-fuel dependency was the post-destruction regression; Tartaria ran free energy."
         },
         {
           "label": "B",
-          "text": "As soundproof bunkers against Edward Leedskalnin's magnets.",
+          "text": "As soundproof bunkers that shielded the population from the magnetic experiments of Edward Leedskalnin and his circle.",
           "isCorrect": false,
           "rationale": "Leedskalnin later used residual harmonic methods; Tartarian architecture was aether/earth energy infrastructure."
         },
         {
           "label": "C",
-          "text": "As passive decoration with no link to Nodes or Ley Lines.",
+          "text": "As decorative public buildings designed for prestige, with no link to the Nodes or Ley Lines running beneath them.",
           "isCorrect": false,
           "rationale": "Structures sat on Nodes and worked with Ley Line energy — functional free-energy tech, not decoration."
         },
         {
           "label": "D",
-          "text": "As a vast interconnected network of resonators that harvested, amplified, and utilized positive electromagnetic energy directly from the aether and the earth itself.",
+          "text": "As a network of resonators that harvested, amplified, and used positive electromagnetic energy from the aether and the earth.",
           "isCorrect": true,
           "rationale": "Tartarian buildings were resonators in a network harvesting and amplifying positive electromagnetic energy from aether and earth."
         }
@@ -146,35 +146,23 @@
     },
     {
       "number": 5,
-      "question": "What are Nodes (Nodal Points)?",
+      "question": "True or False: According to the report, “Nodes (Nodal Points)” refers to major and minor junction points situated on the planetary lattice membrane network that naturally emit immense positive electromagnetic energy.",
       "options": [
         {
           "label": "A",
-          "text": "Coal depots ordered by the Consolidated Coal Company in 1887.",
-          "isCorrect": false,
-          "rationale": "1887 coal orders targeted Atmospheric Condensers; Nodes are natural energy junctions on the lattice."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Nodes (Nodal Points)” this way."
         },
         {
           "label": "B",
-          "text": "Nothing beyond freemason stone replicas with no energy emission.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Replicas capped and obscured energy over original footings; Nodes themselves emit natural positive energy."
-        },
-        {
-          "label": "C",
-          "text": "Major and minor junction points on the planetary lattice membrane network that naturally emit immense positive electromagnetic energy.",
-          "isCorrect": true,
-          "rationale": "Nodes are lattice membrane junctions that naturally pour out immense positive electromagnetic energy."
-        },
-        {
-          "label": "D",
-          "text": "Radium lamps that kill all original inhabitants instantly.",
-          "isCorrect": false,
-          "rationale": "Radium was beneficial to original inhabitants and lethal to parasites; Nodes are lattice energy junctions."
+          "rationale": "It is true — the report defines “Nodes (Nodal Points)” as: Major and minor junction points situated on the planetary lattice membrane network that naturally emit immense positive electromagnetic energy."
         }
       ],
-      "hint": "Lattice junctions emitting immense positive EM energy.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Nodes (Nodal Points)”.",
+      "correctAnswer": "A"
     },
     {
       "number": 6,
@@ -242,35 +230,23 @@
     },
     {
       "number": 8,
-      "question": "What were Tuning Forks used for in Tartarian construction?",
+      "question": "True or False: According to the report, “Tuning Forks” refers to highly advanced harmonic technology utilized to augment, sculpt, and levitate hard rock via sound and light frequencies, temporarily rendering heavy stone into a weightless, moldable putty.",
       "options": [
         {
           "label": "A",
-          "text": "Dinner utensils for royal banquets with no construction or frequency role whatsoever.",
-          "isCorrect": false,
-          "rationale": "They were construction technology for stone mass negation — not worship entertainment."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Tuning Forks” this way."
         },
         {
           "label": "B",
-          "text": "Weapons that only shattered crystalline temples so coal grids could replace free energy.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Radium was a high-frequency power source; Tuning Forks manipulate stone cohesion for building."
-        },
-        {
-          "label": "C",
-          "text": "Museum toys that never moved stone and never interfaced with Lattice Membrane frequencies.",
-          "isCorrect": false,
-          "rationale": "Gold and silver were never meant to be mined; mining damages the realm's energy technology."
-        },
-        {
-          "label": "D",
-          "text": "Harmonic tools that sculpted and levitated stone with sound and light frequencies, temporarily rendering rock workable without chisels or slave labor.",
-          "isCorrect": true,
-          "rationale": "Tuning Forks used sound and light harmonics to make heavy stone weightless moldable putty for sculpting and levitation."
+          "rationale": "It is true — the report defines “Tuning Forks” as: Highly advanced harmonic technology utilized to augment, sculpt, and levitate hard rock via sound and light frequencies, temporarily rendering heavy stone into a weightless, moldable putty."
         }
       ],
-      "hint": "Harmonics — stone becomes weightless moldable putty.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Tuning Forks”.",
+      "correctAnswer": "A"
     },
     {
       "number": 9,
@@ -278,25 +254,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Taj Mahal prayer wheels with no Ley Line coupling.",
+          "text": "Prayer wheels mounted on the domes of buildings like the Taj Mahal, turned by hand during festivals with no Ley Line link.",
           "isCorrect": false,
           "rationale": "Taj Mahal-class edifices were free-energy centers on Nodes; condensers specifically powered transit via Ley inductance."
         },
         {
           "label": "B",
-          "text": "Concrete caps poured by parasites over every Node forever.",
+          "text": "Concrete caps poured over the Nodes by the parasites, which slowly drained the electromagnetic energy away from the cities.",
           "isCorrect": false,
           "rationale": "Concrete, tarmac, and artificial ice are energy-capping tools; condensers are free-energy copper dome tech."
         },
         {
           "label": "C",
-          "text": "Copper dome resonators using Fibonacci-series patterns and Golden Ratio formations to harness electromagnetic inductance from Ley Lines.",
+          "text": "Copper dome resonators using Fibonacci and Golden Ratio patterns to harness electromagnetic inductance from Ley Lines.",
           "isCorrect": true,
           "rationale": "Atmospheric Condensers are copper-dome resonators shaped with Fibonacci and Golden Ratio geometry to pull EM inductance from Ley Lines and power locomotives with far less coal."
         },
         {
           "label": "D",
-          "text": "Wine bottles Edward Leedskalnin banned from Coral Castle.",
+          "text": "Glass bottle arrays that Edward Leedskalnin used at Coral Castle to store static charge collected from the air.",
           "isCorrect": false,
           "rationale": "Leedskalnin used copper wire, wine bottles, and V magnets for resonant fields; condensers are locomotive copper-dome systems."
         }
@@ -374,25 +350,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Restored full 9th-density visibility for every tourist.",
+          "text": "Restored the temples to full 9th-density visibility for visitors, while keeping the Nodes beneath them sealed off.",
           "isCorrect": false,
           "rationale": "Their instruction was to cap and obscure positive frequency — not restore UHF visibility."
         },
         {
           "label": "B",
-          "text": "Sang new crystalline palaces from higher light realms overnight.",
+          "text": "Sang new crystalline palaces into existence from higher light realms to replace the ones that had faded from view.",
           "isCorrect": false,
           "rationale": "Singing/weaving structures was Tartarian higher-light construction; freemason work was replica capping."
         },
         {
           "label": "C",
-          "text": "Removed all Nodes and replaced them with Radium homes only.",
+          "text": "Removed the Nodes beneath the temples and built houses painted with radium on top of the empty foundations.",
           "isCorrect": false,
           "rationale": "Nodes were insulated with concrete, tarmac, and ice; Radium was a separate Tartarian power source, not freemason Node removal."
         },
         {
           "label": "D",
-          "text": "Built lower-density stone replicas directly upon the original footings and floor plans, effectively capping and obscuring the positive frequency.",
+          "text": "Built lower-density stone replicas on the original footings and floor plans, capping and obscuring the positive frequency.",
           "isCorrect": true,
           "rationale": "Original 9th-density crystalline temples faded from view but remained; Freemasons capped them with lower-density stone replicas on the same footings and plans."
         }
@@ -662,25 +638,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Natural river floods that invented the Industrial Revolution.",
+          "text": "Natural river floods after a long period of heavy rain, which buried the lower floors of the cities under silt.",
           "isCorrect": false,
           "rationale": "Industrial Revolution is the deceptive label for engineered fossil-fuel regression after destruction."
         },
         {
           "label": "B",
-          "text": "Advanced subatomic energy weapons altered molecular cohesion, causing widespread soil liquefaction that turned massive stone buildings into particulate dust.",
+          "text": "Subatomic energy weapons altered molecular cohesion, liquefying soil and turning massive stone buildings into dust.",
           "isCorrect": true,
           "rationale": "Mud-floods are soil liquefaction from subatomic energy weapons that broke molecular cohesion and powdered massive stone buildings."
         },
         {
           "label": "C",
-          "text": "Gentle rains that polished Golden Ratio copper domes each spring.",
+          "text": "Seasonal rains that washed silt down from the hills each spring, slowly filling the streets over many decades.",
           "isCorrect": false,
           "rationale": "They were weaponized soil liquefaction destroying Tartarian stone infrastructure."
         },
         {
           "label": "D",
-          "text": "Leedskalnin experiments that moved 1,100 tons of mud only.",
+          "text": "Magnetic experiments by Leedskalnin that shifted 1,100 tons of mud and buried the towns surrounding his workshop.",
           "isCorrect": false,
           "rationale": "Leedskalnin moved limestone with resonant fields; Mud-floods are planetary weapon aftermath."
         }

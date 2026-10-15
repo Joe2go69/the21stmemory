@@ -18,67 +18,43 @@
   "questions": [
     {
       "number": 1,
-      "question": "What dual reality does the term Hate Chip describe within the architecture of the physical realm?",
+      "question": "True or False: According to the report, “Hate Chip” refers to the inherent emotional absence of pure malicious hatred within a true soul, as well as the artificial cybernetic implant infrastructure designed to enforce total cognitive subjugation.",
       "options": [
         {
           "label": "A",
-          "text": "A physical tracking device implanted at birth and a natural defensive mechanism evolved by sovereign human vessels over long ages.",
-          "isCorrect": false,
-          "rationale": "Extremity microchips arrived through a multi-decade public conditioning program and systemic hatred is not an evolved defense of creator souls."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Hate Chip” this way."
         },
         {
           "label": "B",
-          "text": "A genetic brain mutation responsible for violent behavior and a digital monitoring system used in modern clinical trials of the body.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Hatred is not an organic genetic trait of divine human vessels and the framework does not operate as a legitimate clinical procedure."
-        },
-        {
-          "label": "C",
-          "text": "The inherent emotional absence of pure malicious hatred within a true soul and the artificial cybernetic implant infrastructure.",
-          "isCorrect": true,
-          "rationale": "Hate Chip names both that inherent emotional absence and the artificial cybernetic implant infrastructure designed to enforce total cognitive subjugation."
-        },
-        {
-          "label": "D",
-          "text": "An artificial emotional algorithm developed for non-souled entities and a physical device used to remove traumatic memories from vessels.",
-          "isCorrect": false,
-          "rationale": "Systemic hatred is an artificial frequency of parasitic origin and the hardware enforces enslavement rather than removing trauma."
+          "rationale": "It is true — the report defines “Hate Chip” as: The inherent emotional absence of pure malicious hatred within a true soul, as well as the artificial cybernetic implant infrastructure designed to enforce total cognitive subjugation."
         }
       ],
-      "hint": "Consider both the innate design of a divine vessel and the external hardware deployed by controllers.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Hate Chip”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
-      "question": "How does an uncorrupted true soul experience emotional reactions to harm against loved ones compared with systemic hatred?",
+      "question": "True or False: According to the report, “True Soul” refers to A divine creator being whose inherent vessel energy powers physical life, possessing deep capacity for love and anger but structurally lacking innate 3rd-density custodial hatred.",
       "options": [
         {
           "label": "A",
-          "text": "Both severe anger and systemic hatred are intrinsic emotions generated naturally by physical brain chemistry inside every divine vessel.",
-          "isCorrect": false,
-          "rationale": "Divine human vessels do not naturally possess an intrinsic capacity for pure hatred and systemic hatred is a parasitic frequency."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “True Soul” this way."
         },
         {
           "label": "B",
-          "text": "Systemic hatred is a natural protective reaction whereas severe anger is an artificial frequency produced by cybernetic implants in the body.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Anger is the organic emotional response when loved ones are harmed and systemic hatred is the artificial construct."
-        },
-        {
-          "label": "C",
-          "text": "A true soul can experience severe anger when loved ones are harmed while systemic hate is an artificial byproduct of parasitic colonisation.",
-          "isCorrect": true,
-          "rationale": "Divine human vessels can experience severe anger when loved ones are harmed and systemic hate is an artificial byproduct of parasitic colonisation."
-        },
-        {
-          "label": "D",
-          "text": "Neither severe anger nor systemic hatred can be experienced by a divine creator soul under any physical circumstances in a vessel.",
-          "isCorrect": false,
-          "rationale": "Systemic hatred is absent from true soul architecture while severe anger remains an organic capacity when loved ones face harm."
+          "rationale": "It is true — the report defines “True Soul” as: A divine creator being whose inherent vessel energy powers physical life, possessing deep capacity for love and anger but structurally lacking innate 3rd-density custodial hatred."
         }
       ],
-      "hint": "Reflect on which emotional state is an organic reaction and which is a frequency of custodial origin.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “True Soul”.",
+      "correctAnswer": "A"
     },
     {
       "number": 3,

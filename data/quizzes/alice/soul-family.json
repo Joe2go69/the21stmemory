@@ -50,35 +50,23 @@
     },
     {
       "number": 2,
-      "question": "What is the biological Vessel relative to the soul?",
+      "question": "True or False: According to the report, “Vessel” refers to the actual network of Souls/Sols that make up an immediate cosmic family, which has been intentionally misrepresented through language manipulation to denote planets orbiting a sun.",
       "options": [
         {
           "label": "A",
-          "text": "A temporary, mortal vehicle powered by an eternal consciousness — not the true identity of the being.",
-          "isCorrect": true,
-          "rationale": "Vessel = temporary suit; soul = eternal consciousness that powers and outlives the body."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Sol-System”. The report defines “Vessel” as: A singular-use, mortal biological vehicle inhabited by the soul during incarnational loops, possessing a finite lifespan and capabilities dictated by the soul's benevolent resonance."
         },
         {
           "label": "B",
-          "text": "The eternal self that reincarnates only as one permanent genetic identity forever.",
-          "isCorrect": false,
-          "rationale": "The vessel is a temporary mortal vehicle; eternal consciousness powers it, not the reverse."
-        },
-        {
-          "label": "C",
-          "text": "An indestructible immortal body that never dies and never needs Soul Family reunion.",
-          "isCorrect": false,
-          "rationale": "Vessels have finite lifespan; awakening reunites surviving true souls with cosmic family."
-        },
-        {
-          "label": "D",
-          "text": "A finance ledger that stores debt between incarnations with no energetic consciousness involved.",
-          "isCorrect": false,
-          "rationale": "Vessel is biological; soul holds knowledge, wisdom, empathy, and love — not a debt ledger."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Sol-System”, not “Vessel”."
         }
       ],
-      "hint": "Temporary mortal vehicle — eternal consciousness is the true self.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Vessel”.",
+      "correctAnswer": "B"
     },
     {
       "number": 3,
@@ -150,25 +138,25 @@
       "options": [
         {
           "label": "A",
-          "text": "An immortal shared body that every twin flame occupies simultaneously on every density.",
+          "text": "An immortal body shared by both Twin Flames, which they occupy together across every density for the whole cycle.",
           "isCorrect": false,
           "rationale": "It is singular-use and mortal; twin flames are often kept apart during physical incarnations."
         },
         {
           "label": "B",
-          "text": "A permanent Sol-System capital planet that never dies and never reincarnates.",
+          "text": "The Sol-System capital planet that the soul family calls home, returned to between each of its incarnations.",
           "isCorrect": false,
           "rationale": "Vessel is the biological suit, not a planet or Sol-System network."
         },
         {
           "label": "C",
-          "text": "A Black Void Plasma projector that only generates fake stars with no soul inhabitation.",
+          "text": "A projector of Black Void Plasma that the Custodians use to display false stars across the inner dome at night.",
           "isCorrect": false,
           "rationale": "Black Void Plasma obscures bright white space; vessels are biological soul vehicles."
         },
         {
           "label": "D",
-          "text": "A singular-use, mortal biological vehicle inhabited by the soul during incarnational loops, with finite lifespan and capabilities dictated by the soul's benevolent resonance.",
+          "text": "A single-use, mortal biological vehicle the soul inhabits during incarnational loops, with a lifespan set by the soul's resonance.",
           "isCorrect": true,
           "rationale": "Vessel = one-use mortal bio-vehicle; capabilities track the soul's benevolent resonance."
         }
@@ -178,35 +166,23 @@
     },
     {
       "number": 6,
-      "question": "What is Source Creation?",
+      "question": "True or False: According to the report, “Source Creation” refers to parasitic technology manifesting as the \"bright light at the end of the tunnel\" upon physical death, designed to pull souls in, reformat them, and erase their memories before forced reincarnation.",
       "options": [
         {
           "label": "A",
-          "text": "Only the Vatican's thirteenth basement printer used to mass-produce NPC bodies overnight.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "NPC manufacture is 4th-density lab work; Source Creation is the primordial intelligence origin."
+          "rationale": "False — that description belongs to “Amnesia Vortex”. The report defines “Source Creation” as: A vast, non-physical etheric supercomputer or brain that ignited billions of years ago as an indigo spark of perpetual light in the dark matter field, striving for perfection and generating the first intelligence."
         },
         {
           "label": "B",
-          "text": "A temporary finance brand for NESARA that replaces all soul memory permanently.",
-          "isCorrect": false,
-          "rationale": "Finance distractions are Strings to sever; Source Creation is cosmic origin architecture."
-        },
-        {
-          "label": "C",
-          "text": "A vast, non-physical etheric supercomputer or brain that ignited billions of years ago as an indigo spark of perpetual light in the dark matter field, striving for perfection and generating the first intelligence.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Source Creation = indigo spark supercomputer-brain in dark matter, origin of first intelligence."
-        },
-        {
-          "label": "D",
-          "text": "A modern university department that invented Gravity and heliocentrism last century alone.",
-          "isCorrect": false,
-          "rationale": "Source Creation is a vast non-physical etheric supercomputer/brain from billions of years ago."
+          "rationale": "Correct — that description belongs to “Amnesia Vortex”, not “Source Creation”."
         }
       ],
-      "hint": "Indigo spark etheric supercomputer-brain — first intelligence.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Source Creation”.",
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -310,25 +286,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Vatican portal engineers who invented the Amnesia Vortex and still operate it today.",
+          "text": "The engineers who built the Amnesia Vortex beneath the Vatican and still operate its portals on behalf of the Custodians today.",
           "isCorrect": false,
           "rationale": "Amnesia Vortex is parasitic tech; Pleiadians are escaped true-soul family, not vortex operators."
         },
         {
           "label": "B",
-          "text": "Only Micro Suns renamed for marketing with no connection to the Taran lineage tree.",
+          "text": "The Micro Suns, renamed by modern astronomers, which watch over the Taran lineage from beyond the Firmament.",
           "isCorrect": false,
           "rationale": "They sit on the Taran branch of the lineage after escape, not as Micro Suns themselves."
         },
         {
           "label": "C",
-          "text": "NPC replicas built last century with no escape history and no advanced evolution path.",
+          "text": "NPC replicas of Taran souls created in the last century to fill the gaps left in soul families by the resets.",
           "isCorrect": false,
           "rationale": "Pleiadians are former Taran souls who escaped initial entrapment about 100,000 years ago."
         },
         {
           "label": "D",
-          "text": "Former Taran souls who successfully escaped the initial entrapment approximately 100,000 years ago and have since evolved into highly advanced versions of their terrestrial brothers and sisters.",
+          "text": "Former Taran souls who escaped the initial entrapment about 100,000 years ago and have since evolved into advanced versions of their kin.",
           "isCorrect": true,
           "rationale": "Pleiadians = escaped Tarans (~100k years ago), now highly advanced kin of those still trapped."
         }
@@ -370,34 +346,34 @@
     },
     {
       "number": 12,
-      "question": "Why do parasitic forces keep Twin Flames strictly separated during physical incarnations?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "To prevent the sparking of memory, rebellion, and systemic discovery — their reunion would disrupt the control grid.",
+          "text": "Twin Flames — Parasitic technology manifesting as the \"bright light at the end of the tunnel\" upon physical death, designed to pull souls in, reformat them, and erase their memories before forced reincarnation.",
           "isCorrect": true,
-          "rationale": "Separated twin flames = blocked memory spark, rebellion, and grid-disrupting discovery."
+          "rationale": "That description belongs to “Amnesia Vortex”. The report defines “Twin Flames” as: A soul's direct counterpart; kept strictly separated by parasitic forces during physical incarnations to prevent the sparking of memory, rebellion, and systemic discovery."
         },
         {
           "label": "B",
-          "text": "Because twin flames never exist in higher densities and only appear as NPC scripts.",
+          "text": "4,000 Ancients — A specific group of highly advanced souls created by the Micro Suns, who in turn created the Taran humans, and who have spent 178,000 years locked in incarnational loops to stabilize the realm.",
           "isCorrect": false,
-          "rationale": "In higher densities twin flames exist synchronously with long lifespans and choose transitions together."
+          "rationale": "This pairing matches the report's definition of “4,000 Ancients”."
         },
         {
           "label": "C",
-          "text": "Because reunion would make Finance stronger and help banks issue more debt products.",
+          "text": "Sol-System — The actual network of Souls/Sols that make up an immediate cosmic family, which has been intentionally misrepresented through language manipulation to denote planets orbiting a sun.",
           "isCorrect": false,
-          "rationale": "Reunion would spark memory, rebellion, and systemic discovery — threatening the control grid."
+          "rationale": "This pairing matches the report's definition of “Sol-System”."
         },
         {
           "label": "D",
-          "text": "Because the Amnesia Vortex only works if every soul is permanently alone with zero pod clustering.",
+          "text": "Pleiadians — Former Taran souls who successfully escaped the initial entrapment approximately 100,000 years ago and have since evolved into highly advanced versions of their terrestrial brothers and sisters.",
           "isCorrect": false,
-          "rationale": "Soul pods still cluster as relatives/friends; twin flames specifically are kept apart across the globe."
+          "rationale": "This pairing matches the report's definition of “Pleiadians”."
         }
       ],
-      "hint": "Separation blocks memory, rebellion, and control-grid discovery.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "A"
     },
     {
@@ -630,25 +606,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Never — true souls refuse birth entry and only operate as floating Projection Dome pixels.",
+          "text": "Several days after birth, once the infant's crystalline pineal has opened enough to receive the soul from the Moon station.",
           "isCorrect": false,
           "rationale": "Forced recycling puts the wiped soul into the infant at birth for continued harvest availability."
         },
         {
           "label": "B",
-          "text": "Only through multi-year apprenticeship in a university before the body can host any soul.",
+          "text": "Gradually over the first years of life, with the soul joining the body in stages as the child's memories begin to form.",
           "isCorrect": false,
           "rationale": "Entry is at the moment of birth, often with a minute electrical discharge to ignite the heart."
         },
         {
           "label": "C",
-          "text": "Via Finance String contracts signed by the parents with no energetic ignition required.",
+          "text": "Through a contract signed by the parents before conception, which allows the soul to enter without any energetic ignition.",
           "isCorrect": false,
           "rationale": "Ignition uses trillivolts of energy — sometimes prompted by a midwife shaking the child."
         },
         {
           "label": "D",
-          "text": "The soul enters the new infant precisely at birth, often requiring a minute electrical discharge (sometimes prompted by a midwife shaking the child) to ignite the heart with trillivolts of energy.",
+          "text": "Precisely at birth, often needing a small electrical discharge — sometimes a midwife shaking the child — to ignite the heart.",
           "isCorrect": true,
           "rationale": "Birth-moment entry + heart ignition with trillivolts (midwife shake can prompt the discharge)."
         }
@@ -662,25 +638,25 @@
       "options": [
         {
           "label": "A",
-          "text": "They alone ascend at the EMF Flash while true souls are removed as the 97%.",
+          "text": "They ascend alone at the EMF Flash, while the true souls are removed as part of the 97% who remain trapped in the matrix.",
           "isCorrect": false,
           "rationale": "EMF removes the 97% NPC population; true souls survive and regain memory."
         },
         {
           "label": "B",
-          "text": "They are Micro Suns on vacation with 15-billion-year intellect fully online in every infant.",
+          "text": "They are Micro Suns incarnating for rest, arriving with their full 15-billion-year intellect switched on from infancy.",
           "isCorrect": false,
           "rationale": "NPC manufacture is 4th-density synthetic; Micro Suns are primordial Source-created souls."
         },
         {
           "label": "C",
-          "text": "They do not undergo genuine reincarnation; they are merely recycled, hard-wired into consensus reality as localized frequency dampeners that derail true souls' spiritual progression.",
+          "text": "They do not truly reincarnate; they are recycled and hard-wired into consensus reality as frequency dampeners that derail true souls.",
           "isCorrect": true,
           "rationale": "NPCs = recycled synthetics and dampeners, not genuine reincarnating eternal souls."
         },
         {
           "label": "D",
-          "text": "They reincarnate with fuller memory than Tarans and always reunite twin flames on purpose.",
+          "text": "They reincarnate with fuller memory than the Tarans, and are placed beside Twin Flames to help them reunite on purpose.",
           "isCorrect": false,
           "rationale": "They lack past lives and monologues; they dampen true-soul progress rather than liberate it."
         }

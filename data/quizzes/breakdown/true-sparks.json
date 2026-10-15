@@ -50,35 +50,23 @@
     },
     {
       "number": 2,
-      "question": "The critical activation known as Spark Ignition allows a soul to:",
+      "question": "True or False: According to the report, “Spark Ignition” refers to divine, high-frequency energetic signatures naturally implanted within the souls of True Sparks and ET allies by solar parents prior to entering the physical realms.",
       "options": [
         {
           "label": "A",
-          "text": "Download the entire inverted Akashic record stored in the Vatican soul archive.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The Vatican archive copies, logs, and inverts Akashic fragments to recycle souls. Ignition is perception and escape, not retrieval of that parasitic database."
+          "rationale": "False — that description belongs to “Embedded Codes”. The report defines “Spark Ignition” as: The critical activation of divine consciousness that separates true souls from hollow sleepers, allowing them to perceive the reality of the simulation and escape the overlay."
         },
         {
           "label": "B",
-          "text": "Merge with non-player characters so the collective frequency can rise as one field.",
-          "isCorrect": false,
-          "rationale": "NPCs are soulless fragments of light that dissolve when the light hits. Spark Ignition separates true souls from hollow sleepers; it does not merge them with NPCs."
-        },
-        {
-          "label": "C",
-          "text": "Modify the solid molecular structure of modern materials through applied technology.",
-          "isCorrect": false,
-          "rationale": "Parasites manipulate the nervous system to make concrete and modern materials appear solid. Spark Ignition is a frequency activation of consciousness, not a technological rewrite of matter."
-        },
-        {
-          "label": "D",
-          "text": "Perceive the reality of the simulation and escape the parasitic overlay.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Spark Ignition is the critical activation of divine consciousness that separates true souls from hollow sleepers, allowing them to perceive the reality of the simulation and escape the overlay."
+          "rationale": "Correct — that description belongs to “Embedded Codes”, not “Spark Ignition”."
         }
       ],
-      "hint": "This process involves a shift in how the soul perceives the artificial world.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Spark Ignition”.",
+      "correctAnswer": "B"
     },
     {
       "number": 3,
@@ -210,35 +198,23 @@
     },
     {
       "number": 7,
-      "question": "Embedded Codes are divine energetic signatures that function to:",
+      "question": "True or False: According to the report, “Embedded Codes” refers to divine, high-frequency energetic signatures naturally implanted within the souls of True Sparks and ET allies by solar parents prior to entering the physical realms.",
       "options": [
         {
           "label": "A",
-          "text": "Transport a soul straight into higher realms without any spark ignition.",
-          "isCorrect": false,
-          "rationale": "Spark ignition is what lets a soul perceive the Second Realm immediately. Embedded codes trigger gradual questioning, calming, and awakening; they do not skip ignition."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Embedded Codes” this way."
         },
         {
           "label": "B",
-          "text": "Trigger a frequency-based recognition that breaks the parasitic spell.",
-          "isCorrect": true,
-          "rationale": "ET codes are designed to match and trigger the latent codes in True Sparks. That harmonic resonance creates trust and a flood of memory, breaking the parasitic spell. Awakening is frequency-based recognition, not intellect."
-        },
-        {
-          "label": "C",
-          "text": "Stabilize the artificial entry bands so the sun itself cannot collapse.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Embedded codes were implanted by solar parents so True Sparks and ET allies can interact and awaken. They do not prop up the parasitic bands around the solar gate."
-        },
-        {
-          "label": "D",
-          "text": "Record each soul's karmic history inside the inverted Vatican archive.",
-          "isCorrect": false,
-          "rationale": "Embedded codes are divine high-frequency signatures from solar parents. The Vatican archive copies and inverts Akashic fragments; it is not the home of those codes."
+          "rationale": "It is true — the report defines “Embedded Codes” as: Divine, high-frequency energetic signatures naturally implanted within the souls of True Sparks and ET allies by solar parents prior to entering the physical realms."
         }
       ],
-      "hint": "Focus on the role of resonance and how these internal markers respond to specific signals.",
-      "correctAnswer": "B"
+      "hint": "Recall how the report's Key Terminology defines “Embedded Codes”.",
+      "correctAnswer": "A"
     },
     {
       "number": 8,

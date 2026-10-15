@@ -50,34 +50,22 @@
     },
     {
       "number": 2,
-      "question": "How does piezoelectric quartz granite function within a sound-masonry structure?",
+      "question": "True or False: According to the report, “Piezoelectric Quartz Granite” refers to naturally resonant stone containing quartz crystals capable of converting acoustic and mechanical pressure into electromagnetic and aetheric currents.",
       "options": [
         {
           "label": "A",
-          "text": "Piezoelectric quartz granite contains quartz crystals capable of converting acoustic and mechanical pressure into electromagnetic and aetheric currents.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Those crystals act as natural energy transducers for atmospheric and terrestrial frequencies."
+          "rationale": "True — the report defines “Piezoelectric Quartz Granite” this way."
         },
         {
           "label": "B",
-          "text": "It provides chemical stability by absorbing moisture and filtering minerals from the water table.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "While footings touch groundwater, piezoelectric stone functions as an energy transducer rather than a chemical filter."
-        },
-        {
-          "label": "C",
-          "text": "It serves as a passive reflector that bounces light through time-phase conjugated mirror arrays.",
-          "isCorrect": false,
-          "rationale": "Mirrors reflect wave components, whereas piezoelectric quartz specifically handles acoustic and electromagnetic transduction."
-        },
-        {
-          "label": "D",
-          "text": "It acts as an acoustic insulator that absorbs excess sound waves to prevent structural vibration.",
-          "isCorrect": false,
-          "rationale": "Piezoelectric stone conducts and transmits acoustic energy rather than dampening or insulating structural vibrations."
+          "rationale": "It is true — the report defines “Piezoelectric Quartz Granite” as: Naturally resonant stone containing quartz crystals capable of converting acoustic and mechanical pressure into electromagnetic and aetheric currents."
         }
       ],
-      "hint": "Consider the inherent physical property of quartz crystals when subjected to mechanical or acoustic stress.",
+      "hint": "Recall how the report's Key Terminology defines “Piezoelectric Quartz Granite”.",
       "correctAnswer": "A"
     },
     {
@@ -274,35 +262,23 @@
     },
     {
       "number": 9,
-      "question": "Why are Ashlar masonry blocks set without mortar in sound-masonry construction?",
+      "question": "True or False: According to the report, “Ashlar Masonry” refers to the application of targeted harmonic frequencies to neutralize gravitational pull on heavy stone masses during transportation and positioning.",
       "options": [
         {
           "label": "A",
-          "text": "To create narrow air gaps between stones that insulate the building against thermal conductive loss.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Air gaps would disrupt the continuous piezoelectric lattice circuit; blocks are set flush with microscopic precision."
+          "rationale": "False — that description belongs to “Acoustic Levitation”. The report defines “Ashlar Masonry” as: High-precision, finely dressed rectangular blocks of piezoelectric quartz granite set without mortar to form contiguous energetic pathways."
         },
         {
           "label": "B",
-          "text": "To reduce construction time by eliminating the drying period required for ancient lime mortars.",
-          "isCorrect": false,
-          "rationale": "Mortar omission is dictated by energetic conductivity requirements rather than speed of construction."
-        },
-        {
-          "label": "C",
-          "text": "To allow structural flexibility so the building can shift naturally during seismic earth movements.",
-          "isCorrect": false,
-          "rationale": "While tight fit ensures structural integrity, mortarless assembly specifically preserves energetic conductivity."
-        },
-        {
-          "label": "D",
-          "text": "Ashlar masonry is finely dressed rectangular blocks of piezoelectric quartz granite set without mortar to form contiguous energetic pathways.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Blocks set so tightly that no mortar is required form an uninterrupted conductive surface."
+          "rationale": "Correct — that description belongs to “Acoustic Levitation”, not “Ashlar Masonry”."
         }
       ],
-      "hint": "Think about what happens to an electric or energetic signal when it encounters a non-conductive gap between structural elements.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Ashlar Masonry”.",
+      "correctAnswer": "B"
     },
     {
       "number": 10,
@@ -502,25 +478,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Individual blocks harvested for sound masonry range from 0.25 tons to massive 4-ton megaliths.",
+          "text": "From about 0.25 tons up to 4-ton megaliths.",
           "isCorrect": true,
           "rationale": "That span covers the quartz granite blocks dressed and positioned by acoustic frequencies."
         },
         {
           "label": "B",
-          "text": "50 pounds to 500 pounds.",
+          "text": "From about 50 pounds up to 500-pound slabs.",
           "isCorrect": false,
           "rationale": "This range represents small masonry units, whereas sound masonry handles multi-ton stone blocks."
         },
         {
           "label": "C",
-          "text": "10 tons to 50 tons.",
+          "text": "From about 10 tons up to 50-ton monoliths.",
           "isCorrect": false,
           "rationale": "Sound masonry specifies blocks ranging from a quarter ton to 4-ton megaliths."
         },
         {
           "label": "D",
-          "text": "100 tons to 500 tons.",
+          "text": "From about 100 tons up to 500-ton foundation stones.",
           "isCorrect": false,
           "rationale": "This exceeds the block size range used for sound masonry."
         }
@@ -562,34 +538,34 @@
     },
     {
       "number": 18,
-      "question": "What distinguishes Ashlar masonry formed via sound masonry from standard stone masonry?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Ashlar masonry is finely dressed rectangular blocks of piezoelectric quartz granite set without mortar.",
+          "text": "Ashlar Masonry — An active energetic loop formed by deep stone footings extending into the water table, connecting atmospheric aether to terrestrial grounding lines.",
           "isCorrect": true,
-          "rationale": "Those blocks form contiguous energetic pathways and an uninterrupted conductive surface."
+          "rationale": "That description belongs to “Air-to-Earth Circuit”. The report defines “Ashlar Masonry” as: High-precision, finely dressed rectangular blocks of piezoelectric quartz granite set without mortar to form contiguous energetic pathways."
         },
         {
           "label": "B",
-          "text": "It utilizes soft limestone held together by organic plant resins instead of cement mortar.",
+          "text": "Piezoelectric Quartz Granite — Naturally resonant stone containing quartz crystals capable of converting acoustic and mechanical pressure into electromagnetic and aetheric currents.",
           "isCorrect": false,
-          "rationale": "Sound masonry uses dense piezoelectric quartz granite, not soft limestone or plant resins."
+          "rationale": "This pairing matches the report's definition of “Piezoelectric Quartz Granite”."
         },
         {
           "label": "C",
-          "text": "It incorporates hollow iron reinforcement rods driven through the center of each block.",
+          "text": "Shamir Worm — A fabricated custodial narrative describing an eleven-eyed, corn-grain-sized organism invented to obscure the acoustic technology used in ancient stone construction.",
           "isCorrect": false,
-          "rationale": "Metal reinforcing rods are unnecessary because blocks are levitated and set with microscopic fit."
+          "rationale": "This pairing matches the report's definition of “Shamir Worm”."
         },
         {
           "label": "D",
-          "text": "It leaves raw, unpolished stone faces to maximize surface area for atmospheric moisture absorption.",
+          "text": "Acoustic Levitation — The application of targeted harmonic frequencies to neutralize gravitational pull on heavy stone masses during transportation and positioning.",
           "isCorrect": false,
-          "rationale": "Stones are dressed smoothly along natural lattice planes rather than left raw or unpolished."
+          "rationale": "This pairing matches the report's definition of “Acoustic Levitation”."
         }
       ],
-      "hint": "Consider the material purity and precision alignment required for contiguous energy transmission.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "A"
     },
     {
@@ -758,7 +734,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Stone networks integrate with secondary conductive materials including copper wiring and red mercury derived from cinnabar ore.",
+          "text": "Copper wiring and red mercury derived from cinnabar ore.",
           "isCorrect": true,
           "rationale": "Time-phase conjugated mirrors join those materials in integrated networks for power generation, wireless light, and long-range communication."
         },
@@ -776,7 +752,7 @@
         },
         {
           "label": "D",
-          "text": "Aluminum plates, distilled water, and pulverized mica sheets.",
+          "text": "Aluminum plates, distilled water, and pulverized mica.",
           "isCorrect": false,
           "rationale": "Aluminum and mica are not the secondary conductive materials of copper wiring, red mercury, and time-phase conjugated mirrors."
         }

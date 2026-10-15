@@ -50,35 +50,23 @@
     },
     {
       "number": 2,
-      "question": "Who are the Custodians in this inversion story?",
+      "question": "True or False: According to the report, “Custodians” refers to projected frequencies and holographic illusions used to obscure unmovable high-density architecture, project false celestial bodies, and alter the visual perception of matter within the 3rd density simulation.",
       "options": [
         {
           "label": "A",
-          "text": "Originally highly benevolent 12th density caretakers who succumbed to negativity, plotted over millennia, and created all other negative species to enforce the inversion.",
-          "isCorrect": true,
-          "rationale": "Custodians fell from benevolent 12th density caretaking, engineered the inversion, and birthed the subordinate parasite hierarchy."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Overlays”. The report defines “Custodians” as: Originally highly benevolent, 12th density caretakers of the realms who succumbed to negativity and orchestrated the entire parasitic inversion over millennia, subsequently creating all other negative species."
         },
         {
           "label": "B",
-          "text": "Always-loyal 12th density teachers who never fell and never created any negative species for occupation.",
-          "isCorrect": false,
-          "rationale": "Custodians succumbed to negativity, orchestrated inversion over millennia, and created all other negative species."
-        },
-        {
-          "label": "C",
-          "text": "Nothing beyond NPC supermarket managers who introduced vat meat in the 1960s with no higher-density history at all.",
-          "isCorrect": false,
-          "rationale": "Vat meat is biosphere inversion; Custodians are the origin betrayers of the whole parasitic stack."
-        },
-        {
-          "label": "D",
-          "text": "Grey ET foot soldiers only, with no 12th density past and no role designing the control matrix in advance.",
-          "isCorrect": false,
-          "rationale": "Greys are engineered subordinates; Custodians designed the matrix before their density fully degraded."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Overlays”, not “Custodians”."
         }
       ],
-      "hint": "Fallen 12th density caretakers — creators of all other negatives.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Custodians”.",
+      "correctAnswer": "B"
     },
     {
       "number": 3,
@@ -146,35 +134,35 @@
     },
     {
       "number": 5,
-      "question": "What happened to the Spirit Tree at Mt Meru as inversion began physically?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It was moved to Georgia Guidestones as a tourist attraction with no effect on Gateway-10 energy supply.",
-          "isCorrect": false,
-          "rationale": "Guidestones are 8th Re-set population targets; Spirit Tree kill is the North Pole energy cut."
+          "text": "Spirit Tree (Mt Meru) — Niberian technology utilized within the firmament to create the illusion that space is black, concealing the true nature of the cosmos, which consists of bright white light.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Black Void Plasma”. The report defines “Spirit Tree (Mt Meru)” as: The central energetic node of the realm at Hyperborea (the North Pole), destroyed by parasites to severely limit the natural power of Gateway-10."
         },
         {
           "label": "B",
-          "text": "Grey ET factions destroyed it and replaced it with a petrified stump, instantly cutting Gateway-10 primary energy like a SWAT team cutting power to a building.",
-          "isCorrect": true,
-          "rationale": "Greys destroyed Mt Meru Spirit Tree, left a petrified stump, and severed Gateway-10 power system-wide."
+          "text": "Overlays — Projected frequencies and holographic illusions used to obscure unmovable high-density architecture, project false celestial bodies, and alter the visual perception of matter within the 3rd density simulation.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Overlays”."
         },
         {
           "label": "C",
-          "text": "Custodians polished it into a freemason library dome that raised toroid power across all 178 worlds.",
+          "text": "Gateway-10 — The central hub comprising 178 physical worlds; its center, previously known as Realm-2 and now as the \"known lands,\" is the most powerful point on the planetary toroid field.",
           "isCorrect": false,
-          "rationale": "Destruction limited natural Gateway-10 power; it did not raise toroid output."
+          "rationale": "This pairing matches the report's definition of “Gateway-10”."
         },
         {
           "label": "D",
-          "text": "It was left intact so indigenous species could easily defend against occupation with full high-frequency support.",
+          "text": "Custodians — Originally highly benevolent, 12th density caretakers of the realms who succumbed to negativity and orchestrated the entire parasitic inversion over millennia, subsequently creating all other negative species.",
           "isCorrect": false,
-          "rationale": "Severing the tree prevented indigenous defense and dropped frequency for parasite manifestation."
+          "rationale": "This pairing matches the report's definition of “Custodians”."
         }
       ],
-      "hint": "Greys destroy Mt Meru tree → petrified stump → power cut.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 6,
@@ -626,34 +614,22 @@
     },
     {
       "number": 20,
-      "question": "What does Black Void Plasma conceal?",
+      "question": "True or False: According to the report, “Black Void Plasma” refers to the central hub comprising 178 physical worlds; its center, previously known as Realm-2 and now as the \"known lands,\" is the most powerful point on the planetary toroid field.",
       "options": [
         {
           "label": "A",
-          "text": "Only vat meat factories under supermarkets with no firmament or cosmos role whatsoever.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Black Void Plasma is Niberian firmament tech for fake black space over bright white truth."
+          "rationale": "False — that description belongs to “Gateway-10”. The report defines “Black Void Plasma” as: Niberian technology utilized within the firmament to create the illusion that space is black, concealing the true nature of the cosmos, which consists of bright white light."
         },
         {
           "label": "B",
-          "text": "The true nature of the cosmos — bright white light — by creating the illusion inside the firmament that space is black.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Niberian Black Void Plasma paints fake black space so bright white cosmic truth stays hidden."
-        },
-        {
-          "label": "C",
-          "text": "Only the Spirit Tree stump so Greys can hide occupation without any sky blackening technology.",
-          "isCorrect": false,
-          "rationale": "Tree destruction is separate; plasma specifically fakes black space vs bright white cosmos."
-        },
-        {
-          "label": "D",
-          "text": "Only freemason coal prices, with true space remaining honestly pitch black by natural thermodynamics forever.",
-          "isCorrect": false,
-          "rationale": "True cosmos is bright white light; plasma creates the black-space illusion inside the firmament."
+          "rationale": "Correct — that description belongs to “Gateway-10”, not “Black Void Plasma”."
         }
       ],
-      "hint": "Fake black space — hide bright white true cosmos.",
+      "hint": "Recall how the report's Key Terminology defines “Black Void Plasma”.",
       "correctAnswer": "B"
     },
     {

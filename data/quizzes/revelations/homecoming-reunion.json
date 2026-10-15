@@ -114,35 +114,35 @@
     },
     {
       "number": 4,
-      "question": "What are the three components united during the Triple-Aspect Recombination?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The pineal architecture, the heart center, and the solar plexus.",
-          "isCorrect": false,
-          "rationale": "Pineal architecture receives restored memory. It is not one of the three consciousness components being reunited."
+          "text": "Triple-Aspect Recombination — A group of approximately 100 to 150 soul family members whose stasis chambers are positioned side-by-side on homeworld bioships and linked through a single Arc Pod container.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Pod Cluster”. The report defines “Triple-Aspect Recombination” as: The three-part reintegration sequence uniting the 3rd-density soul fragment, the Arc Pod oversoul, and the homeworld stasis body."
         },
         {
           "label": "B",
-          "text": "The Earth vessel, the bloodline ancestors, and the Akashic record.",
+          "text": "Wizard of Oz Moment — The instantaneous perceptual shift upon the dropping of the EMF wherein individuals recognize that those around them are their eternal soul family members out of costume.",
           "isCorrect": false,
-          "rationale": "Bloodline ancestry is a secondary physical illusion and is not part of the triadic reintegration sequence."
+          "rationale": "This pairing matches the report's definition of “Wizard of Oz Moment”."
         },
         {
           "label": "C",
-          "text": "The 3rd-density soul fragment, the Arc Pod oversoul, and the homeworld stasis body.",
-          "isCorrect": true,
-          "rationale": "Triple-aspect recombination unites the 3rd-density soul fragment, the Arc Pod oversoul, and the homeworld stasis body."
+          "text": "Homecoming Reunion — The universal event following the EMF dissipation where true souls recognize their eternal soul family, dissolve their 3rd-density avatar vessels, and return to their original higher-density forms.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Homecoming Reunion”."
         },
         {
           "label": "D",
-          "text": "The planetary EMF, the plasma portal, and the sentient bioship.",
+          "text": "Software-Specific Facial Features — The biological mechanism by which a soul's vibrational architecture and ambient field harmonics chisel and hone the physical facial structure into alignment with its original ET face.",
           "isCorrect": false,
-          "rationale": "These are environmental tools and settings for the extraction, not the three aspects of individual consciousness."
+          "rationale": "This pairing matches the report's definition of “Software-Specific Facial Features”."
         }
       ],
-      "hint": "Identify the distinct parts of a soul's presence across the Earth, the atmosphere, and the homeworld.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 5,

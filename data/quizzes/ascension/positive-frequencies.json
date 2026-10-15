@@ -114,35 +114,23 @@
     },
     {
       "number": 4,
-      "question": "What is the role of the Ancient Vibration in the context of portal ascension?",
+      "question": "True or False: According to the report, “Ancient Vibration” refers to crystalline technology capable of storing and transmitting multidimensional consciousness data, memories, and vessel blueprints across time.",
       "options": [
         {
           "label": "A",
-          "text": "It is the specific sonic frequency used to deactivate the 3rd Realm's subterranean magnetic suppression grid.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The frequencies that activate the grid are electromagnetic pulses from the sun, not a sonic vibration from the vessels."
+          "rationale": "False — that description belongs to “Memory Tech”. The report defines “Ancient Vibration” as: The primordial frequency of love, empathy, and high resonance cultivated within human vessels to align embedded DNA strands for portal ascension."
         },
         {
           "label": "B",
-          "text": "It serves as the historical record of human evolution stored within the planetary crystalline memory banks.",
-          "isCorrect": false,
-          "rationale": "Memory Tech handles the storage of records, whereas the Ancient Vibration is a frequency cultivated within the individual."
-        },
-        {
-          "label": "C",
-          "text": "It acts as a resonance of love and empathy that aligns embedded DNA strands for the transition process.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Ancient Vibration is the primordial frequency of love, empathy, and high resonance cultivated within human vessels to align embedded DNA strands for portal ascension."
-        },
-        {
-          "label": "D",
-          "text": "It functions as the protective energetic shield that prevents low-vibrational entities from entering the 2nd Realm.",
-          "isCorrect": false,
-          "rationale": "The vibration is focused on aligning the self for ascension rather than serving as an external defensive barrier."
+          "rationale": "Correct — that description belongs to “Memory Tech”, not “Ancient Vibration”."
         }
       ],
-      "hint": "Focus on the internal qualities required for an individual to resonate with the portal.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Ancient Vibration”.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,
@@ -210,35 +198,23 @@
     },
     {
       "number": 7,
-      "question": "What is the primary purpose of the EMP Grid established by the quartz conductors?",
+      "question": "True or False: According to the report, “EMP Grid” refers to the total magnetic pulse containment matrix established across the 3rd Realm by subterranean quartz conductors to ensure realm-wide coverage without soul loss.",
       "options": [
         {
           "label": "A",
-          "text": "To disable hostile artificial intelligence systems that have compromised the planetary defense network.",
-          "isCorrect": false,
-          "rationale": "The grid's purpose is energetic saturation and soul preservation rather than a combat-focused disablement of AI."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “EMP Grid” this way."
         },
         {
           "label": "B",
-          "text": "To generate a magnetic repulsion field that prevents incoming solar flares from damaging the planet's core.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The grid actually absorbs solar pulses to function, rather than repelling them to protect the physical core."
-        },
-        {
-          "label": "C",
-          "text": "To create a localized communication network for the Resonating Army to use during the portal opening.",
-          "isCorrect": false,
-          "rationale": "The grid serves a much broader purpose of total energetic containment and vessel charging for the entire realm."
-        },
-        {
-          "label": "D",
-          "text": "To provide a planetary-wide energy field that ensures total coverage so that no individual soul is lost.",
-          "isCorrect": true,
-          "rationale": "The EMP Grid is the total magnetic pulse containment matrix established across the 3rd Realm to ensure realm-wide coverage without soul loss, where no individual soul escapes coverage."
+          "rationale": "It is true — the report defines “EMP Grid” as: The total magnetic pulse containment matrix established across the 3rd Realm by subterranean quartz conductors to ensure realm-wide coverage without soul loss."
         }
       ],
-      "hint": "Consider the guarantee of zero soul abandonment.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “EMP Grid”.",
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -338,35 +314,35 @@
     },
     {
       "number": 11,
-      "question": "What characterizes the Memory Tech described in this transmission?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Crystalline technology capable of storing consciousness data and vessel blueprints across time.",
-          "isCorrect": true,
-          "rationale": "Memory Tech is crystalline technology capable of storing and transmitting multidimensional consciousness data, memories, and vessel blueprints across time."
+          "text": "New Aether — The evolved, energetic environmental medium and free-energy substrate accumulated across the realm to facilitate planetary transformation, conductor charging, and portal formation.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “New Aether”."
         },
         {
           "label": "B",
-          "text": "Digital storage devices implanted in the pineal gland to record multidimensional experiences.",
+          "text": "Upgrades of Aethers — The true underlying mechanism of dimensional shifts (3D through 7D), representing sequential refinements of the surrounding energetic medium that collaborate directly with biological vessels.",
           "isCorrect": false,
-          "rationale": "Memory Tech refers to the crystalline structures themselves rather than digital implants within the body."
+          "rationale": "This pairing matches the report's definition of “Upgrades of Aethers”."
         },
         {
           "label": "C",
-          "text": "A network of satellites used by Space Force to monitor the vibrational stability of the population.",
+          "text": "Plasma Crystalline — The conductive, high-energy state of matter formed through the interaction of New Aether with activated quartz crystals that structures the main ascension portal.",
           "isCorrect": false,
-          "rationale": "While Space Force is mentioned as a coordinator, the Memory Tech itself is subterranean and crystalline."
+          "rationale": "This pairing matches the report's definition of “Plasma Crystalline”."
         },
         {
           "label": "D",
-          "text": "An ancient linguistic system used to encode the secrets of the 7th density into human DNA.",
-          "isCorrect": false,
-          "rationale": "The technology is a functional storage and transmission system for energetic blueprints, not a language."
+          "text": "Memory Tech — High-vibrational electromagnetic pulses generated within the newly created atmospheric medium that interact dynamically with solar emissions and subterranean quartz architecture.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Positive Frequencies”. The report defines “Memory Tech” as: Crystalline technology capable of storing and transmitting multidimensional consciousness data, memories, and vessel blueprints across time."
         }
       ],
-      "hint": "Think about how the quartz crystals act as more than just power conductors.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 12,

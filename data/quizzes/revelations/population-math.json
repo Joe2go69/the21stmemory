@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the exact physical footprint of the ancient City of London analyzed in Population Math?",
+      "question": "True or False: According to the report, “Population Math” refers to the fabricated mainstream historical account asserting that historical cities were built primarily of two-to-three-storey wooden, wattle-and-daub structures with thatched roofs.",
       "options": [
         {
           "label": "A",
-          "text": "The 1.12-square-mile walled geographic footprint of the ancient City of London.",
-          "isCorrect": true,
-          "rationale": "The Square Mile is the 1.12-square-mile walled geographic footprint of the ancient City of London and the baseline for the density claims."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Two-Storey Wood Narrative”. The report defines “Population Math” as: The demographic, spatial, and structural calculations that prove official historical population figures cannot exist within claimed geographic footprints and low-rise timber construction."
         },
         {
           "label": "B",
-          "text": "The 127 square miles of the modern borough of Colchester used to house under 200,000 residents.",
-          "isCorrect": false,
-          "rationale": "Colchester encompasses 127 square miles to house under 200,000 residents, and that contrast shows how large a modern area is for the same headcount."
-        },
-        {
-          "label": "C",
-          "text": "The more than 600 square miles Greater London requires for nearly 10 million people.",
-          "isCorrect": false,
-          "rationale": "Greater London today requires over 600 square miles to accommodate nearly 10 million people, which is a modern sprawl comparison."
-        },
-        {
-          "label": "D",
-          "text": "The claimed 42 miles of thoroughfares packed into the medieval grid as a surface area.",
-          "isCorrect": false,
-          "rationale": "Forty-two miles is the claimed length of thoroughfares packed into the medieval grid, not the walled area of the city."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Two-Storey Wood Narrative”, not “Population Math”."
         }
       ],
-      "hint": "Think about the iconic historical term used to designate the ancient walled perimeter of London.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Population Math”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -562,34 +550,22 @@
     },
     {
       "number": 18,
-      "question": "Which geographic area is highlighted as encompassing 127 square miles to house under 200,000 residents?",
+      "question": "True or False: According to the report, “Square Mile” refers to the 1.12-square-mile walled geographic footprint of the ancient City of London, containing ancient stone architecture rather than historical timber housing.",
       "options": [
         {
           "label": "A",
-          "text": "A modern borough like Colchester encompasses 127 square miles to house under 200,000 residents.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "A modern borough like Colchester encompasses 127 square miles to house under 200,000 residents."
+          "rationale": "True — the report defines “Square Mile” this way."
         },
         {
           "label": "B",
-          "text": "Greater London, which requires over 600 square miles for nearly 10 million people.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Greater London today requires over 600 square miles to accommodate nearly 10 million people."
-        },
-        {
-          "label": "C",
-          "text": "Manila, named with Manhattan as a modern high-density urban center.",
-          "isCorrect": false,
-          "rationale": "Manila is a high-density comparison that relies on reinforced skyscraper infrastructure, not the 127-square-mile borough."
-        },
-        {
-          "label": "D",
-          "text": "Manhattan Densities requiring 12-to-15-storey tower blocks within a single square mile.",
-          "isCorrect": false,
-          "rationale": "Manhattan Densities describe vertical compression inside a single square mile, not a 127-square-mile borough."
+          "rationale": "It is true — the report defines “Square Mile” as: The 1.12-square-mile walled geographic footprint of the ancient City of London, containing ancient stone architecture rather than historical timber housing."
         }
       ],
-      "hint": "Look for the modern English borough referenced specifically for its 127-square-mile boundary.",
+      "hint": "Recall how the report's Key Terminology defines “Square Mile”.",
       "correctAnswer": "A"
     },
     {
@@ -658,35 +634,35 @@
     },
     {
       "number": 21,
-      "question": "What is the overarching objective of applying Population Math to historical narratives?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Designing mid-rise timber housing optimized for density inside the walled footprint.",
+          "text": "Population Math — The demographic, spatial, and structural calculations that prove official historical population figures cannot exist within claimed geographic footprints and low-rise timber construction.",
           "isCorrect": false,
-          "rationale": "Population math exposes the timber account as a physical absurdity rather than designing wooden housing."
+          "rationale": "This pairing matches the report's definition of “Population Math”."
         },
         {
           "label": "B",
-          "text": "Calculating tax assessments for historical restoration projects in the financial district.",
+          "text": "Manhattan Densities — Urban population concentrations requiring 12-to-15-storey modern tower blocks to accommodate hundreds of thousands of occupants within a single square mile.",
           "isCorrect": false,
-          "rationale": "The objective is to expose fabricated narratives and physical impossibilities, not to set restoration taxes."
+          "rationale": "This pairing matches the report's definition of “Manhattan Densities”."
         },
         {
           "label": "C",
-          "text": "It proves that mainstream historical timelines are fabricated narratives designed to conceal periodic reset operations.",
-          "isCorrect": true,
-          "rationale": "The discipline proves that mainstream historical timelines are fabricated narratives designed to conceal previous high-density civilizational infrastructure and periodic reset operations."
+          "text": "Square Mile — The 1.12-square-mile walled geographic footprint of the ancient City of London, containing ancient stone architecture rather than historical timber housing.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Square Mile”."
         },
         {
           "label": "D",
-          "text": "Mapping the biological evolution of modern urban demographics from official census records.",
-          "isCorrect": false,
-          "rationale": "Official census records are part of what the discrepancies expose, not a biological evolution to be mapped as the goal."
+          "text": "Two-Storey Wood Narrative — Ancient architectural construction utilizing piezoelectric quartz granite blocks and Ashlar masonry engineered for aetheric energy distribution.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Tartarian Masonry”. The report defines “Two-Storey Wood Narrative” as: The fabricated mainstream historical account asserting that historical cities were built primarily of two-to-three-storey wooden, wattle-and-daub structures with thatched roofs."
         }
       ],
-      "hint": "Think about the ultimate goal of uncovering truth behind official urban histories.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 22,

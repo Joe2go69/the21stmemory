@@ -18,35 +18,35 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the Holographic Projection Dome?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only the Black Void Plasma coat on the ground that paints every temple pure white forever.",
+          "text": "Black Void Plasma — Niberian technology used to blacken the sky, hiding the true bright white reality of the dark matter field behind a simulated dark void.",
           "isCorrect": false,
-          "rationale": "Black Void Plasma blacks the night sky; the dome is the sky projection screen for stars, space, and debris."
+          "rationale": "This pairing matches the report's definition of “Black Void Plasma”."
         },
         {
           "label": "B",
-          "text": "The inner technological layer, structurally like a sieve or colander, positioned directly inside the Firmament to project the simulated visual cosmos to human eyes.",
-          "isCorrect": true,
-          "rationale": "The dome is the inner sieve-like tech layer inside the Firmament that projects fake celestial visuals onto human perception."
+          "text": "Firmament — The outer structural membrane of the realm that bends light and sound, an absolute necessity for granting physical eyes their perception of the world.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Firmament”."
         },
         {
           "label": "C",
-          "text": "The outer structural membrane alone that bends light and sound without any inner projection screen or simulated cosmos.",
+          "text": "Sky Event — The impending moment when the inner projection dome will be permanently switched off, dismantling the celestial illusion.",
           "isCorrect": false,
-          "rationale": "That outer membrane is the Firmament; the Projection Dome is the separate inner screen beneath it."
+          "rationale": "This pairing matches the report's definition of “Sky Event”."
         },
         {
           "label": "D",
-          "text": "A natural cloud deck formed by thermodynamics that creates real distant suns and gravity-bound planets.",
-          "isCorrect": false,
-          "rationale": "Stars are not thermodynamic suns; the dome projects a fake cosmos rather than hosting natural stellar physics."
+          "text": "Holographic Projection Dome — A network of security-system-like entities perceived by humanity as \"Stars,\" projecting overlays and suppressing geographic density.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Sky-Net-1”. The report defines “Holographic Projection Dome” as: The inner technological layer, structurally likened to a sieve or colander, positioned directly inside the Firmament, which projects the simulated visual cosmos to human eyes."
         }
       ],
-      "hint": "Inner sieve inside the Firmament — projects fake cosmos.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 2,
@@ -434,35 +434,23 @@
     },
     {
       "number": 14,
-      "question": "What is Project Bluebeam in relation to the sky dome system?",
+      "question": "True or False: According to the report, “Project Bluebeam” refers to niberian technology used to blacken the sky, hiding the true bright white reality of the dark matter field behind a simulated dark void.",
       "options": [
         {
           "label": "A",
-          "text": "3rd-density holographic technology used by controllers to project fake UFOs and stage false alien invasion and mass-abduction theater in the sky.",
-          "isCorrect": true,
-          "rationale": "Project Bluebeam is parasite 3rd-density holography for fake UFOs, invasion staging, and abduction theater."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Black Void Plasma”. The report defines “Project Bluebeam” as: Advanced holographic technology utilized by the parasitic controllers to project fake UFOs and stage a false alien invasion in the sky."
         },
         {
           "label": "B",
-          "text": "Benevolent true holography from Black Rock that only heals pineal glands with soft green light.",
-          "isCorrect": false,
-          "rationale": "Benevolent superior holography sits at Black Rock/Mt Meru North Pole; Bluebeam is the parasitic fake-UFO stack."
-        },
-        {
-          "label": "C",
-          "text": "Black Void Plasma rebranded as a charity that restores pitch-black night as a natural mercy.",
-          "isCorrect": false,
-          "rationale": "Black Void Plasma hides bright white true space; Bluebeam is separate UFO/invasion holographic staging."
-        },
-        {
-          "label": "D",
-          "text": "A G.A.A. program that permanently switches off the Projection Dome every solstice for free education.",
-          "isCorrect": false,
-          "rationale": "G.A.A. initiates the Sky Event dome shutdown; Bluebeam is parasitic fake-UFO holography."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Black Void Plasma”, not “Project Bluebeam”."
         }
       ],
-      "hint": "Parasite 3rd-density holography — fake UFOs and invasion theater.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Project Bluebeam”.",
+      "correctAnswer": "B"
     },
     {
       "number": 15,
@@ -754,35 +742,23 @@
     },
     {
       "number": 24,
-      "question": "What is the Simulation in this cosmology?",
+      "question": "True or False: According to the report, “Simulation” refers to the outer structural membrane of the realm that bends light and sound, an absolute necessity for granting physical eyes their perception of the world.",
       "options": [
         {
           "label": "A",
-          "text": "Only Black Void Plasma weather that never needed Source Creation or any hijack history.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Simulation is Source-crafted then parasite-hijacked; plasma is one concealment layer inside it."
+          "rationale": "False — that description belongs to “Firmament”. The report defines “Simulation” as: The multidimensional etheric supercomputer and physical plane of existence originally crafted by Source Creation, hijacked into a low-density prison matrix."
         },
         {
           "label": "B",
-          "text": "A Project Bluebeam subscription service that expires when Venus stops lighting the Moon.",
-          "isCorrect": false,
-          "rationale": "Bluebeam is staged sky holography inside the larger hijacked Simulation architecture."
-        },
-        {
-          "label": "C",
-          "text": "A temporary school play written only by freemasons with no etheric or physical plane component.",
-          "isCorrect": false,
-          "rationale": "It is the multidimensional etheric supercomputer and physical plane of existence — hijacked into prison."
-        },
-        {
-          "label": "D",
-          "text": "The multidimensional etheric supercomputer and physical plane originally crafted by Source Creation, hijacked into a low-density prison matrix.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Simulation = Source-made etheric supercomputer/physical plane, now a parasite low-density prison."
+          "rationale": "Correct — that description belongs to “Firmament”, not “Simulation”."
         }
       ],
-      "hint": "Source-crafted plane — hijacked into low-density prison.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Simulation”.",
+      "correctAnswer": "B"
     },
     {
       "number": 25,

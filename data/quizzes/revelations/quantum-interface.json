@@ -18,67 +18,55 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary function of the Quantum Interface within the human biological system?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It operates as an internal clock that synchronizes physical cellular regeneration with the external lunar scalar broadcasts.",
-          "isCorrect": false,
-          "rationale": "Lunar scalar broadcasts restrict disincarnate travel, whereas the Quantum Interface is the biological conduit for conscious observation and state-collapse."
+          "text": "Quantum Interface — The underlying energetic software matrix of a realm through which intention and spiritual hardware interact to manifest physical form and immediate creation.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Aether”. The report defines “Quantum Interface” as: The foundational biological and spiritual conduit through which subatomic quantum superposition collapses into stable macrocosmic classical reality via conscious observation and intentional interaction."
         },
         {
           "label": "B",
-          "text": "It acts as a shielding mechanism to protect the physical vessel from the high-frequency radiation of the ambient aether.",
+          "text": "Neural Oscillations — Synchronized electrical activity produced by masses of communicating neurons in the central nervous system, measured in Hertz and categorized into five distinct frequency bands.",
           "isCorrect": false,
-          "rationale": "The ambient aether is the energetic software matrix for manifestation, and the interface collapses quantum states rather than shielding the vessel from radiation."
+          "rationale": "This pairing matches the report's definition of “Neural Oscillations”."
         },
         {
           "label": "C",
-          "text": "It is the conduit through which subatomic quantum superposition collapses into stable macrocosmic classical reality via conscious observation.",
-          "isCorrect": true,
-          "rationale": "The Quantum Interface is the foundational biological and spiritual conduit through which subatomic quantum superposition collapses into stable macrocosmic classical reality via conscious observation and intentional interaction."
+          "text": "Endogenous DMT — The essential spiritual chemical compound synthesized within the pineal gland required for multidimensional communication, direct manifestation, and spatial navigation.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Endogenous DMT”."
         },
         {
           "label": "D",
-          "text": "It functions as a biological storage unit for memory traces harvested during deep sleep cycles and dreamtime navigation.",
+          "text": "Linear Superposition — The quantum state in which subatomic particles exist simultaneously across all possible locations and potential states until acted upon by an observer.",
           "isCorrect": false,
-          "rationale": "Memory traces are intercepted during the return from sleep, whereas the Quantum Interface is the conduit through which conscious observation collapses superposition into classical reality."
+          "rationale": "This pairing matches the report's definition of “Linear Superposition”."
         }
       ],
-      "hint": "Focus on the relationship between the observer and the state of subatomic particles.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
-      "question": "Which specific biological structure is identified as the physical localization of the Pineal Crossover?",
+      "question": "True or False: According to the report, “Pineal Crossover” refers to the specific biological localization within the pineal gland where quantum probability states transition into classical physical structures.",
       "options": [
         {
           "label": "A",
-          "text": "The central nervous system's primary neural pathway is the crossover point where probability becomes classical structure.",
-          "isCorrect": false,
-          "rationale": "Neural oscillations arise in the central nervous system, while the pineal crossover is the specific biological localization within the pineal gland."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Pineal Crossover” this way."
         },
         {
           "label": "B",
-          "text": "The fractional oversoul light within the heart center is the operational crossover for reality manifestation.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Fractional oversoul light is linked by quantum entanglement to incarnated physical vessels, while the pineal crossover is localized within the human pineal gland."
-        },
-        {
-          "label": "C",
-          "text": "Piezoelectric granite structures in the cranium form the internal biological crossover for state-collapse.",
-          "isCorrect": false,
-          "rationale": "Tartarian piezoelectric granite structures stood on natural leyline nodes, while the pineal crossover occurs within the human pineal gland."
-        },
-        {
-          "label": "D",
-          "text": "The physical localization of this observational state-collapse occurs within the human pineal gland.",
-          "isCorrect": true,
-          "rationale": "The physical localization of this observational state-collapse occurs within the human pineal gland, serving as the pineal crossover between quantum probability and classical physical structure."
+          "rationale": "It is true — the report defines “Pineal Crossover” as: The specific biological localization within the pineal gland where quantum probability states transition into classical physical structures."
         }
       ],
-      "hint": "Identify the organ that has been historically downgraded to the size of a garden pea.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Pineal Crossover”.",
+      "correctAnswer": "A"
     },
     {
       "number": 3,
@@ -274,35 +262,23 @@
     },
     {
       "number": 9,
-      "question": "What is the intended purpose of frequency compression for a starseed entity prior to mission entry?",
+      "question": "True or False: According to the report, “Frequency Compression” refers to the intentional folding and reduction of a soul’s indigo luminosity into dense packets to prevent detection and maintain harmonic alignment within lower-density realms.",
       "options": [
         {
           "label": "A",
-          "text": "It eliminates the need for endogenous DMT synthesis within the localized pineal hardware.",
-          "isCorrect": false,
-          "rationale": "Endogenous DMT remains required for multidimensional communication, direct manifestation, and spatial navigation."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Frequency Compression” this way."
         },
         {
           "label": "B",
-          "text": "It increases the soul's energetic output so the soul can overcome the amnesia vortex of the solar loop.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Frequency compression is the folding and reduction of indigo luminosity into dense packets, not an increase in energetic output."
-        },
-        {
-          "label": "C",
-          "text": "It folds indigo soul luminosity into dense packets to match ambient avatar energetic signatures.",
-          "isCorrect": true,
-          "rationale": "Prior to mission entry, starseed entities undergo soul layering and frequency compression, folding their indigo soul luminosity into dense packets to match ambient avatar energetic signatures and prevent instant detection by parasitic monitoring systems upon physical death."
-        },
-        {
-          "label": "D",
-          "text": "It activates dormant Tartarian architecture through resonance with the central nervous system.",
-          "isCorrect": false,
-          "rationale": "Tartarian piezoelectric granite structures resonated with pineal quantum output, while frequency compression folds indigo soul luminosity into dense packets."
+          "rationale": "It is true — the report defines “Frequency Compression” as: The intentional folding and reduction of a soul’s indigo luminosity into dense packets to prevent detection and maintain harmonic alignment within lower-density realms."
         }
       ],
-      "hint": "Think of this as a method of folding light to fit a lower-density environment.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Frequency Compression”.",
+      "correctAnswer": "A"
     },
     {
       "number": 10,

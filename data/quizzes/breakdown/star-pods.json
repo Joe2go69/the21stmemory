@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary function of Star Pods in the restoration process?",
+      "question": "True or False: According to the report, “Star Pods” refers to the native protection and knowledge-collecting chamber utilized by extraterrestrial souls for direct transit in and out of realms.",
       "options": [
         {
           "label": "A",
-          "text": "The repair of deep timeline trauma and soul fractures accumulated across incarnations.",
-          "isCorrect": true,
-          "rationale": "Star Pods are specifically engineered to repair soul fractures, timeline trauma, and karmic wounds at the core of consciousness."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Essence Chamber”. The report defines “Star Pods” as: Advanced multidimensional containment vessels floating in etheric space used to repair deep timeline trauma and soul fractures."
         },
         {
           "label": "B",
-          "text": "The physical rejuvenation of biological cellular structures in dense 3D flesh vessels.",
-          "isCorrect": false,
-          "rationale": "Star Pods operate in etheric space and address energetic soul damage rather than biological or cellular ailments."
-        },
-        {
-          "label": "C",
-          "text": "The shielding of the physical body from solar flares and other external space hazards.",
-          "isCorrect": false,
-          "rationale": "Star Pods heal the consciousness from within; they are not environmental shields for the physical body."
-        },
-        {
-          "label": "D",
-          "text": "The immediate downloading of cosmic languages and data before any soul-level repair.",
-          "isCorrect": false,
-          "rationale": "The pods first restore the integrity of the soul's shattered light; they are not cosmic-language download chambers."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Essence Chamber”, not “Star Pods”."
         }
       ],
-      "hint": "Focus on the deepest layers of energetic history and integrity.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Star Pods”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -82,35 +70,35 @@
     },
     {
       "number": 3,
-      "question": "What causes the soul fractures that Star Pods are designed to mend?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Prolonged exposure to low-frequency environments, trauma, and memory-manipulation technologies.",
-          "isCorrect": true,
-          "rationale": "Soul fractures are fragmentation of energetic integrity from low-frequency environments, trauma, or memory-manipulation technologies."
+          "text": "Timeline Trauma — Subconscious energetic damage and scarring that accumulates within a soul as it transitions through different lifetimes and parasitic overlays.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Timeline Trauma”."
         },
         {
           "label": "B",
-          "text": "Inadequate exposure to high-frequency solar radiation across many ordinary lifetimes.",
+          "text": "Star Pods — Advanced multidimensional containment vessels floating in etheric space used to repair deep timeline trauma and soul fractures.",
           "isCorrect": false,
-          "rationale": "Fragmentation is caused by dense environments and parasitic intervention, not a simple lack of solar light."
+          "rationale": "This pairing matches the report's definition of “Star Pods”."
         },
         {
           "label": "C",
-          "text": "The natural aging process of a consciousness as it simply grows older over eons.",
+          "text": "Nebulae Cocoon — The specific atmospheric and etheric state inside a Star Pod, characterized by straight, circulating flows in etheric space.",
           "isCorrect": false,
-          "rationale": "A soul does not naturally fracture through age; fractures come from trauma and low-frequency pressure."
+          "rationale": "This pairing matches the report's definition of “Nebulae Cocoon”."
         },
         {
           "label": "D",
-          "text": "Temporary disconnection from the collective consciousness during ordinary travel between realms.",
-          "isCorrect": false,
-          "rationale": "Disconnection can follow damage, but the fracture itself is energetic scarring from dense, manipulative environments."
+          "text": "Soul Fractures — The native protection and knowledge-collecting chamber utilized by extraterrestrial souls for direct transit in and out of realms.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Essence Chamber”. The report defines “Soul Fractures” as: Fragmentation of a soul's energetic integrity resulting from prolonged exposure to low-frequency environments, trauma, or memory-manipulation technologies."
         }
       ],
-      "hint": "Consider the impact of dense, manipulative environments on energetic integrity.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 4,
@@ -338,35 +326,23 @@
     },
     {
       "number": 11,
-      "question": "What defines Timeline Trauma in the context of soul healing?",
+      "question": "True or False: According to the report, “Timeline Trauma” refers to subconscious energetic damage and scarring that accumulates within a soul as it transitions through different lifetimes and parasitic overlays.",
       "options": [
         {
           "label": "A",
-          "text": "Damage to the physical brain caused by memory-manipulation technology in the flesh body.",
-          "isCorrect": false,
-          "rationale": "Timeline trauma is energetic and subconscious, affecting the soul rather than the biological brain."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Timeline Trauma” this way."
         },
         {
           "label": "B",
-          "text": "The failure to predict future events correctly during a single incarnation on the physical Earth.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "This trauma is energetic scarring from past cycles, not a failure of foresight."
-        },
-        {
-          "label": "C",
-          "text": "The loss of chronological timekeeping during ordinary travel between physical star systems.",
-          "isCorrect": false,
-          "rationale": "Timeline trauma is energetic scarring within the soul, not a simple loss of time tracking in space travel."
-        },
-        {
-          "label": "D",
-          "text": "Subconscious energetic damage and scarring accumulated across different lifetimes and overlays.",
-          "isCorrect": true,
-          "rationale": "Timeline Trauma is subconscious energetic damage and scarring that accumulates as a soul moves through lifetimes and parasitic overlays."
+          "rationale": "It is true — the report defines “Timeline Trauma” as: Subconscious energetic damage and scarring that accumulates within a soul as it transitions through different lifetimes and parasitic overlays."
         }
       ],
-      "hint": "It is the result of long-term exposure to dense cycles and overlays.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Timeline Trauma”.",
+      "correctAnswer": "A"
     },
     {
       "number": 12,

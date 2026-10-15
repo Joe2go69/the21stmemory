@@ -50,67 +50,55 @@
     },
     {
       "number": 2,
-      "question": "How does the mechanism of Continuous Scrolling Geography maintain the illusion of vast physical distances?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "By expanding the physical boundaries of the terrarium in response to the growth of the human population and cognitive load.",
-          "isCorrect": false,
-          "rationale": "Geography renders from individual observer redirection, not from overall population size."
+          "text": "Continuous Scrolling Geography — The atmospheric stellar projection system that emits data streams and lights to render senescent holograms and maintain spatial overlays.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Sky-Net 1”. The report defines “Continuous Scrolling Geography” as: The real-time quantum rendering mechanism that materializes physical landscapes outward toward the observer's horizon as attention and physical movement redirect."
         },
         {
           "label": "B",
-          "text": "By utilizing static scenery tiles that remain fixed in place regardless of the observer's movement or redirection.",
+          "text": "Aetheric Matrix — The underlying energetic medium through which consciousness intent, frequency broadcasts, and matter manifestation interface within a realm.",
           "isCorrect": false,
-          "rationale": "Scenery tiles shift fluidly in synchronization with perception. They are not static fixtures independent of the observer."
+          "rationale": "This pairing matches the report's definition of “Aetheric Matrix”."
         },
         {
           "label": "C",
-          "text": "By slowing down the passage of time within specific transit zones to make short distances feel like immense physical territory.",
+          "text": "Simulation Field — The artificial holographic environment rendered in real-time across the 3rd-density plane to contain spiritual consciousness and maintain physical geography.",
           "isCorrect": false,
-          "rationale": "Distance is inflated through time-phased corridors and mirrored grid facsimiles, not by literally slowing time."
+          "rationale": "This pairing matches the report's definition of “Simulation Field”."
         },
         {
           "label": "D",
-          "text": "By rendering physical landscapes outward toward the observer's horizon as attention and physical movement redirect.",
-          "isCorrect": true,
-          "rationale": "Continuous scrolling geography is the real-time quantum rendering mechanism that materializes physical landscapes outward toward the observer's horizon as attention and physical movement redirect."
+          "text": "Pineal Crossover — The biological and quantum mechanism within the pineal gland where subatomic probabilistic states transition into observed classical reality.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Pineal Crossover”."
         }
       ],
-      "hint": "Think about how modern game engines materialize the world only where the player is looking.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 3,
-      "question": "What role does the Becker Hagens UVG120 Grid play in the architecture of the Simulation Field?",
+      "question": "True or False: According to the report, “Becker Hagens UVG120 Grid” refers to the mapped-out planetary ley line grid network of major and minor energy nodes utilized to ground and distribute ambient frequency fields.",
       "options": [
         {
           "label": "A",
-          "text": "It serves as the primary data stream for the projection of senescent holograms into public environments.",
-          "isCorrect": false,
-          "rationale": "Sky-Net 1 emits the data streams and lights that render senescent holograms, not the UVG120 Grid."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Becker Hagens UVG120 Grid” this way."
         },
         {
           "label": "B",
-          "text": "It is the mapped-out planetary ley line grid network used to ground and distribute ambient frequency fields.",
-          "isCorrect": true,
-          "rationale": "The Becker Hagens UVG120 Grid is the mapped-out planetary ley line grid network of major and minor energy nodes utilized to ground and distribute ambient frequency fields."
-        },
-        {
-          "label": "C",
-          "text": "It regulates the five primary bands of human brainwave activity to enforce an amnesia vortex during vessel death.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Neural oscillations are disrupted by 440 Hz lunar frequencies, not by the planetary ley line grid."
-        },
-        {
-          "label": "D",
-          "text": "It functions as the physical dome structure that prevents unauthorized human passage across density thresholds.",
-          "isCorrect": false,
-          "rationale": "The physical dome is the firmament. The UVG120 Grid is an energetic network of nodes and ley lines."
+          "rationale": "It is true — the report defines “Becker Hagens UVG120 Grid” as: The mapped-out planetary ley line grid network of major and minor energy nodes utilized to ground and distribute ambient frequency fields."
         }
       ],
-      "hint": "Focus on the energetic architecture of the planet's ley lines and major nodes.",
-      "correctAnswer": "B"
+      "hint": "Recall how the report's Key Terminology defines “Becker Hagens UVG120 Grid”.",
+      "correctAnswer": "A"
     },
     {
       "number": 4,

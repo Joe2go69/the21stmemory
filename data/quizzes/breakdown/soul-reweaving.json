@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary function of soul reweaving within the star pod environment?",
+      "question": "True or False: According to the report, “Soul Reweaving” refers to the process of using specialized streams of light frequency to integrate and heal fragmented aspects of a soul across multiple timelines.",
       "options": [
         {
           "label": "A",
-          "text": "Washing away emotional wounds such as grief and heartbreak through sound-vibrational pools.",
-          "isCorrect": false,
-          "rationale": "The purification of emotional trauma occurs during the first stage of healing in the Water Domes."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Soul Reweaving” this way."
         },
         {
           "label": "B",
-          "text": "Clearing mental overlays and protecting the consciousness from parasitic whispers.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Mental clearing is part of the broader healing sequence, but it is assigned to the Crystal Halls rather than the star pods."
-        },
-        {
-          "label": "C",
-          "text": "Mending deep energetic splits and integrating fragmented aspects of a soul across multiple timelines.",
-          "isCorrect": true,
-          "rationale": "Soul reweaving is specifically designed to unify scattered parts of the self and repair structural fractures in the soul's architecture."
-        },
-        {
-          "label": "D",
-          "text": "Stabilizing the physical body's frequency to prepare it for 3D navigation.",
-          "isCorrect": false,
-          "rationale": "Reweaving operates outside of standard density and focuses on the soul's eternal structure rather than 3D physical stabilization."
+          "rationale": "It is true — the report defines “Soul Reweaving” as: The process of using specialized streams of light frequency to integrate and heal fragmented aspects of a soul across multiple timelines."
         }
       ],
-      "hint": "Consider the specific restorative mechanism used to address damage across different temporal sequences.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Soul Reweaving”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -370,35 +358,23 @@
     },
     {
       "number": 12,
-      "question": "What are 'Soul Fractures' specifically caused by?",
+      "question": "True or False: According to the report, “Soul Fractures” refers to the subtle, non-physical environment resembling a nebula where star pods float and operate outside of standard density.",
       "options": [
         {
           "label": "A",
-          "text": "Trauma and parasitic interference across successive lifetimes.",
-          "isCorrect": true,
-          "rationale": "These deep-seated splits in the soul's core structure result from the density and manipulation encountered in the physical illusion."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Etheric Space”. The report defines “Soul Fractures” as: Deep-seated splits and energetic breaks in a soul's core structure caused by trauma and parasitic interference across successive lives."
         },
         {
           "label": "B",
-          "text": "Natural evolution within the high-vibrational crystalline temple.",
-          "isCorrect": false,
-          "rationale": "Fractures are energetic breaks caused by trauma and interference, not natural evolution."
-        },
-        {
-          "label": "C",
-          "text": "The intentional decision of the solar parents to divide the soul.",
-          "isCorrect": false,
-          "rationale": "Solar parents assist in healing; they do not cause the fragmentation of the soul."
-        },
-        {
-          "label": "D",
-          "text": "The cooling process of the etheric space during pod circulation.",
-          "isCorrect": false,
-          "rationale": "Etheric space is a therapeutic environment, not a source of soul damage."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Etheric Space”, not “Soul Fractures”."
         }
       ],
-      "hint": "Look for the external negative influences that disrupt the core structure of consciousness.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Soul Fractures”.",
+      "correctAnswer": "B"
     },
     {
       "number": 13,

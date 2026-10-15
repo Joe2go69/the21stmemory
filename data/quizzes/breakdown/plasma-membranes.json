@@ -114,35 +114,23 @@
     },
     {
       "number": 4,
-      "question": "What is the primary role of crystalline membranes during the early cycles of cosmic creation?",
+      "question": "True or False: According to the report, “Crystalline Membranes” refers to structural boundaries woven by primary energy grids that stabilize projected light lattices and allow energetic patterns to solidify into matter.",
       "options": [
         {
           "label": "A",
-          "text": "To generate solar energy that powers the grids instead of receiving energy from them.",
-          "isCorrect": false,
-          "rationale": "Energy is supplied by the grids, while the membranes focus on holding the structure of the realm itself."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Crystalline Membranes” this way."
         },
         {
           "label": "B",
-          "text": "To act as a cooling agent that lowers the heat of creation so matter can freeze into place.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The membranes serve a structural and stabilization purpose rather than a thermal regulation function."
-        },
-        {
-          "label": "C",
-          "text": "To destroy old memories so new realms can be written over the previous creation cycle.",
-          "isCorrect": false,
-          "rationale": "Membranes are designed to record and preserve memory codes rather than eradicate them."
-        },
-        {
-          "label": "D",
-          "text": "To stabilize projected light lattices so raw vision can solidify into stable physical domains.",
-          "isCorrect": true,
-          "rationale": "Crystalline membranes wrap around light lattices woven by primary energy grids, holding the vision stable so energetic patterns can solidify into matter such as skies, oceans, and landmasses."
+          "rationale": "It is true — the report defines “Crystalline Membranes” as: Structural boundaries woven by primary energy grids that stabilize projected light lattices and allow energetic patterns to solidify into matter."
         }
       ],
-      "hint": "These boundaries ensure that raw energy does not collapse back into unformed consciousness.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Crystalline Membranes”.",
+      "correctAnswer": "A"
     },
     {
       "number": 5,

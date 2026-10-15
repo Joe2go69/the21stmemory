@@ -50,35 +50,35 @@
     },
     {
       "number": 2,
-      "question": "How are Quartz Crystal Conductors utilized within the planetary architecture?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "They serve as landing markers for incoming craft from the Galactic Ancestral Alliance.",
-          "isCorrect": false,
-          "rationale": "While the GAA monitors the process, the crystals themselves are functional data conductors for memory retrieval."
+          "text": "Quartz Crystal Conductor — The dense physical simulation domain currently undergoing structural pixelation and frequency collapse.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “3rd Realm”. The report defines “Quartz Crystal Conductor” as: Subterranean crystalline nodes implanted via forward time travel that store, conduct, and transmit memory data when energized by solar electromagnetic pulses."
         },
         {
           "label": "B",
-          "text": "They generate heat to maintain biological life during periods of solar inactivity.",
+          "text": "Memory Bank — The centralized energetic repository holding original consciousness templates, planetary histories, and uncorrupted life blueprints.",
           "isCorrect": false,
-          "rationale": "The nodes respond to solar electromagnetic pulses to facilitate memory transfer, not to regulate planetary temperature."
+          "rationale": "This pairing matches the report's definition of “Memory Bank”."
         },
         {
           "label": "C",
-          "text": "They act as subterranean nodes that store and transmit memory data when energized.",
-          "isCorrect": true,
-          "rationale": "Quartz Crystal Conductors are subterranean crystalline nodes that store, conduct, and transmit memory data when energized by solar electromagnetic pulses."
+          "text": "Memory Tech — Advanced crystalline frequency infrastructure capable of holding complex consciousness data identically to plasma, water, and organic aether.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Memory Tech”."
         },
         {
           "label": "D",
-          "text": "They provide a physical anchor to prevent the planet from shifting its orbital path.",
+          "text": "Original Vessel — The pristine biological and energetic embodiment restored to process higher frequency frequencies, pineal activation, and expanded awareness.",
           "isCorrect": false,
-          "rationale": "The primary role of these crystals is data storage and transmission rather than physical orbital stabilization."
+          "rationale": "This pairing matches the report's definition of “Original Vessel”."
         }
       ],
-      "hint": "Consider the relationship between the crystals and the storage of consciousness data.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 3,

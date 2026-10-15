@@ -742,67 +742,55 @@
     },
     {
       "number": 24,
-      "question": "Where is the oversoul located during the ark-pod protocol iteration?",
+      "question": "True or False: According to the report, “Ark-pod protocol” refers to the oversoul remains secured in stasis above the realm while steering lower-density avatars through lifetime iterations.",
       "options": [
         {
           "label": "A",
-          "text": "It remains secured in stasis above the realm while steering lower-density avatars.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "This protocol protects the primary soul essence while allowing it to experience the simulation."
+          "rationale": "True — the report defines “Ark-pod protocol” this way."
         },
         {
           "label": "B",
-          "text": "It rotates between the 178 world cells to ensure data coverage of the entire plane.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The oversoul stays in a fixed position above the realm in an 'ark-pod'."
-        },
-        {
-          "label": "C",
-          "text": "It is stored within the hydrothermal quartz veins of the planetary motherboard.",
-          "isCorrect": false,
-          "rationale": "The motherboard stores universal data and aetheric current, not the personal oversouls of starseeds."
-        },
-        {
-          "label": "D",
-          "text": "It is fully integrated into the prefrontal neural pathways of the human vessel.",
-          "isCorrect": false,
-          "rationale": "The oversoul remains separate to avoid being trapped in the dense physical environment."
+          "rationale": "It is true — the report defines “Ark-pod protocol” as: The oversoul remains secured in stasis above the realm while steering lower-density avatars through lifetime iterations."
         }
       ],
-      "hint": "The term 'stasis' and a location 'above' the realm are central to this protocol.",
+      "hint": "Recall how the report's Key Terminology defines “Ark-pod protocol”.",
       "correctAnswer": "A"
     },
     {
       "number": 25,
-      "question": "What is the final requirement for integration and memory recovery?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The successful physical travel to the Spirit Tree at Axis Mundi.",
+          "text": "Tartarian civilization — Pre-reset culture whose piezoelectric granite architecture, dressed and positioned with acoustic levitation, operated as unpowered heating, lighting, and wireless healing centers.",
           "isCorrect": false,
-          "rationale": "The Spirit Tree is part of the pre-reset history; recovery now relies on internal activation."
+          "rationale": "This pairing matches the report's definition of “Tartarian civilization”."
         },
         {
           "label": "B",
-          "text": "Direct pineal reception and cellular memory activation when external simulation mechanics cease.",
-          "isCorrect": true,
-          "rationale": "Final integration relies on internal remembrance when the electromagnetic suppression field collapses."
+          "text": "Aetheric current — Natural energy flow originally distributed through harmonic stone architecture built directly over planetary grid nodes, later inverted into financial currency systems.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Aetheric current”."
         },
         {
           "label": "C",
-          "text": "The mastery of complex digital information systems to organize structural data.",
+          "text": "Cestui Que Vie — Corporate trust bond established through birth registration that converts living spiritual beings into financial collateral, liquidated upon vessel termination.",
           "isCorrect": false,
-          "rationale": "Technical systems are only temporary bridges; final integration is a raw, non-technical process."
+          "rationale": "This pairing matches the report's definition of “Cestui Que Vie”."
         },
         {
           "label": "D",
-          "text": "Achieving a high enough credit score within the maritime financial system.",
-          "isCorrect": false,
-          "rationale": "The financial system is a capture mechanism that must be detached from, not mastered."
+          "text": "Taran vessels — Solid-state technology recovered from the 1947 Grey craft downing that fractured the planned thousand-year custodial schedule and forced handheld connectivity into the public domain.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Point-contact transistor”. The report defines “Taran vessels” as: Original nine-strand DNA hominid bodies with high-density perception and direct pineal communication with planetary aether, later downsized into contemporary human forms."
         }
       ],
-      "hint": "Consider what happens internally when the 'external simulation mechanics cease'.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     }
   ]
 }

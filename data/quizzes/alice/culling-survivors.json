@@ -86,25 +86,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only Central Powers royalty above age seventy.",
+          "text": "Central Powers royalty and their households, who were removed so the new nations could be redrawn.",
           "isCorrect": false,
           "rationale": "The cull was a mass demographic purge of memory-holders, not limited to elderly royalty."
         },
         {
           "label": "B",
-          "text": "Only pharmacists who refused synthetic drugs.",
+          "text": "Pharmacists and herbalists who refused synthetic drugs and kept the old remedies alive in their towns.",
           "isCorrect": false,
           "rationale": "Herbal knowledge holders were among those erased, but the primary demographic is Fighting Age survivors overall."
         },
         {
           "label": "C",
-          "text": "Only infants under one year old in D.U.M.B.S. nurseries.",
+          "text": "Infants under one year old, who were taken to D.U.M.B.S. nurseries and replaced with grown clones.",
           "isCorrect": false,
           "rationale": "Cloned children were the repopulation product; the war killed Fighting Age survivors."
         },
         {
           "label": "D",
-          "text": "Anyone over sixteen, especially the Fighting Age from early teens to mid-50s who retained old-world information.",
+          "text": "Anyone over sixteen, especially the Fighting Age from early teens to mid-50s who kept old-world knowledge.",
           "isCorrect": true,
           "rationale": "The objective was to kill anyone over sixteen, targeting Fighting Age people from early teens to mid-50s because they retained dangerous old-world information."
         }
@@ -178,35 +178,23 @@
     },
     {
       "number": 6,
-      "question": "When did the preceding Re-set finalize in the West?",
+      "question": "True or False: According to the report, “Re-set” refers to the specific demographic (ranging from early teens to mid-50s) mobilized and sent to their deaths because they retained dangerous old-world information.",
       "options": [
         {
           "label": "A",
-          "text": "In 1918 at the exact minute the armistice was signed.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The Re-set preceded the war; the war was the sanitization phase after it."
+          "rationale": "False — that description belongs to “Fighting Age”. The report defines “Re-set” as: The apocalyptic harvest, destruction, and repopulation protocol that immediately preceded the war, finalizing in the West between the late 1890s and 1900."
         },
         {
           "label": "B",
-          "text": "In 2000 when Orphan Trains were invented.",
-          "isCorrect": false,
-          "rationale": "Orphan Trains distributed clones after surface wipeout in that reset cycle, not in 2000."
-        },
-        {
-          "label": "C",
-          "text": "Between the late 1890s and 1900.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "The Re-set — the apocalyptic harvest, destruction, and repopulation protocol — finalized in the West between the late 1890s and 1900, immediately before the war."
-        },
-        {
-          "label": "D",
-          "text": "In the 1860s when flat-earth teaching first appeared.",
-          "isCorrect": false,
-          "rationale": "The 1860s mark when adults taught true flat-plane cosmology to those later purged; the Re-set finalized later, late 1890s—1900."
+          "rationale": "Correct — that description belongs to “Fighting Age”, not “Re-set”."
         }
       ],
-      "hint": "Late 1890s to 1900 in the West.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Re-set”.",
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -466,35 +454,23 @@
     },
     {
       "number": 15,
-      "question": "How did erasing herbal expertise serve Big Pharma?",
+      "question": "True or False: According to the report, “Big Pharma” refers to the negative entities and overseers responsible for orchestrating the reset and the subsequent world war to secure their physical and mental control over humanity.",
       "options": [
         {
           "label": "A",
-          "text": "By proving natural medicine was always stronger than parasites.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Parasites required eradication of natural knowledge to lock medical control."
+          "rationale": "False — that description belongs to “Parasites”. The report defines “Big Pharma” as: The emerging synthetic medical and pharmaceutical industry that required the total eradication of natural herbal knowledge to ensure the new population remained sick and dependent."
         },
         {
           "label": "B",
-          "text": "By funding free herb gardens in every orphan city.",
-          "isCorrect": false,
-          "rationale": "The strategic goal was dependency on synthetics, not free herbal abundance."
-        },
-        {
-          "label": "C",
-          "text": "By hiring all Fighting Age herbalists as CEOs.",
-          "isCorrect": false,
-          "rationale": "Those knowledge-holders were culled, not promoted into corporate leadership."
-        },
-        {
-          "label": "D",
-          "text": "By wiping natural remedy knowledge so the new population would stay sick and dependent on chemical medications.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Erasing 15-22 million who held herbal expertise established Big Pharma so the new population would be perpetually sick and reliant on chemical medications."
+          "rationale": "Correct — that description belongs to “Parasites”, not “Big Pharma”."
         }
       ],
-      "hint": "Kill herbal knowledge → sick, chemically dependent population.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Big Pharma”.",
+      "correctAnswer": "B"
     },
     {
       "number": 16,
@@ -722,35 +698,35 @@
     },
     {
       "number": 23,
-      "question": "Who are the Parasites in this context?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only human pharmacists and their investors, with no non-human overseers involved at all.",
-          "isCorrect": false,
-          "rationale": "Big Pharma is an industry outcome; Parasites are the overseeing negative entities running the larger operation."
+          "text": "Big Pharma — Repurposed 5,000-bed facilities used to imprison traumatized survivors who witnessed the reset first-hand, segregating them from the new, reprogrammed population.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Lunatic Asylums”. The report defines “Big Pharma” as: The emerging synthetic medical and pharmaceutical industry that required the total eradication of natural herbal knowledge to ensure the new population remained sick and dependent."
         },
         {
           "label": "B",
-          "text": "Cloned orphans who refused to board the Orphan Trains and hid in the abandoned cities.",
+          "text": "Fighting Age — The specific demographic (ranging from early teens to mid-50s) mobilized and sent to their deaths because they retained dangerous old-world information.",
           "isCorrect": false,
-          "rationale": "Clones were the repopulation product, not the orchestrators."
+          "rationale": "This pairing matches the report's definition of “Fighting Age”."
         },
         {
           "label": "C",
-          "text": "Negative entities and overseers who orchestrated the reset and world war to secure physical and mental control over humanity.",
-          "isCorrect": true,
-          "rationale": "Parasites are the negative entities and overseers responsible for orchestrating the reset and subsequent world war to secure physical and mental control."
+          "text": "Re-set — The apocalyptic harvest, destruction, and repopulation protocol that immediately preceded the war, finalizing in the West between the late 1890s and 1900.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Re-set”."
         },
         {
           "label": "D",
-          "text": "Asylum doctors who secretly taught flat-earth classes to the survivors in their wards.",
+          "text": "Parasites — The negative entities and overseers responsible for orchestrating the reset and the subsequent world war to secure their physical and mental control over humanity.",
           "isCorrect": false,
-          "rationale": "Asylums suppressed witness truth; Parasites designed the whole cull architecture."
+          "rationale": "This pairing matches the report's definition of “Parasites”."
         }
       ],
-      "hint": "Negative overseers of reset + war for total control.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 24,

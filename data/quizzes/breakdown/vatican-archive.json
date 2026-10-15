@@ -466,34 +466,34 @@
     },
     {
       "number": 15,
-      "question": "What defines the 'Cube containment' framework in which the archive operates?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The shape of the subterranean vaults directly beneath the Vatican city.",
+          "text": "Akashic Fragments — The original, stripped memory strands of a soul's journeys that are copied, recorded, and manipulated within the archive.",
           "isCorrect": false,
-          "rationale": "The vaults are part of the grid, but the 'Cube' describes the larger-scale containment field."
+          "rationale": "This pairing matches the report's definition of “Akashic Fragments”."
         },
         {
           "label": "B",
-          "text": "A physical storage box for the most sacred Atlantian crystal fragments.",
+          "text": "Vatican Portal System — A parasitically inverted gateway network, derived from the original Dome of Portals, used to control soul entry and exit routes.",
           "isCorrect": false,
-          "rationale": "The containment is a global electromagnetic structure, not a small physical container."
+          "rationale": "This pairing matches the report's definition of “Vatican Portal System”."
         },
         {
           "label": "C",
-          "text": "A geometric shape used to focus solar rays into the crystalline tunnels.",
+          "text": "Vatican Archive — The subterranean repository beneath Rome where copied, logged, and inverted soul memories are stored to manage reincarnation loops.",
           "isCorrect": false,
-          "rationale": "It serves as the outer boundary of the simulation rather than a focal point for light."
+          "rationale": "This pairing matches the report's definition of “Vatican Archive”."
         },
         {
           "label": "D",
-          "text": "A giant electromagnetic framework enclosing simulated domes and overlays.",
+          "text": "Cube Containment — A distorted frequency filter overlaid at the sun's transit band that strips passing souls of their memories prior to incarnation.",
           "isCorrect": true,
-          "rationale": "This structure acts as the boundary for the artificial environment and the amnesia system."
+          "rationale": "That description belongs to “Amnesia Vortex”. The report defines “Cube Containment” as: The giant, multi-layered electromagnetic framework enclosing all simulated domes and overlays, within which the archive operates."
         }
       ],
-      "hint": "Consider the largest scale of the control system enclosing the simulated environment.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "D"
     },
     {

@@ -358,35 +358,35 @@
     },
     {
       "number": 12,
-      "question": "What was the primary method used by the Greys to remove the Spirit Tree?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Chemical dissolution alone that dissolved the trunk without any physical demolition engineering role.",
+          "text": "lunar/SATURN GRID — The primary artificial intelligence hub and counterfeit reincarnation system that receives the hijacked energy from the Hyperborean valve.",
           "isCorrect": false,
-          "rationale": "The extraction is physical uprooting and demolition by Greys, not a chemical dissolution process."
+          "rationale": "This pairing matches the report's definition of “lunar/SATURN GRID”."
         },
         {
           "label": "B",
-          "text": "Digital deletion of code alone that erased the tree without touching the Hyperborean land wound at all.",
-          "isCorrect": false,
-          "rationale": "Removal is a physical act in Hyperborea that left a wound for valve machinery, not mere digital deletion."
+          "text": "Greys — The living resonance field and central heartbeat of the 178 physical worlds and 8 domes, heavily cloaked beneath the false, projected ice of Antarctica.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Hyperborea”. The report defines “Greys” as: The bio-engineered, multi-dimensional technicians and demolition engineers weaponized by the Custodians to physically uproot the tree and install the dark technology in its place."
         },
         {
           "label": "C",
-          "text": "Phasing the intact tree into a parallel realm without installing any valve locks in the planetary wound.",
+          "text": "VALVE/FILTER — The advanced machinery inserted into the wound left by the Spirit Tree, designed to siphon pure light and invert it into a false, parasitic matrix.",
           "isCorrect": false,
-          "rationale": "The tree was uprooted and replaced by black crystalline valve locks in the wound; it was not preserved as a whole by simple phasing."
+          "rationale": "This pairing matches the report's definition of “VALVE/FILTER”."
         },
         {
           "label": "D",
-          "text": "Physical uprooting and demolition — Greys acted as multi-dimensional technicians and demolition engineers.",
-          "isCorrect": true,
-          "rationale": "Custodians utilized the Greys to tear the Spirit Tree out of Hyperborea; Greys are bio-engineered multi-dimensional technicians and demolition engineers weaponized for physical uprooting."
+          "text": "Spirit Tree — The central axis of consciousness, serving as the main trunk that bridges the physical domains to the higher realms, feeding them with Source energy.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Spirit Tree”."
         }
       ],
-      "hint": "They are described as multi-dimensional demolition engineers.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -582,35 +582,23 @@
     },
     {
       "number": 19,
-      "question": "What did Custodians and Greys install after tearing the Spirit Tree from Hyperborea?",
+      "question": "True or False: According to the report, “Custodians” refers to the parasitic priests and frequency lords of the cube who commanded the destruction of the central tree to seize control of the realm's energy flow.",
       "options": [
         {
           "label": "A",
-          "text": "Unaltered Foundation Pillars that always remained pure stabilizers without any inversion or siphon role.",
-          "isCorrect": false,
-          "rationale": "The locks are inverted stabilizers used to seal false frequencies; they are not left as pure unaltered stabilizers after the hijack."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Custodians” this way."
         },
         {
           "label": "B",
-          "text": "Open garden gates that permanently reconnect the seven outer domes without any false frequency seal.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Valve locks seal false frequencies and enable harvest; they do not reopen healthy garden flow after the trunk hijack."
-        },
-        {
-          "label": "C",
-          "text": "Solid wood fragments of the Spirit Tree trunk rearranged as harmless markers on the Hyperborean surface.",
-          "isCorrect": false,
-          "rationale": "What was installed in the wound is black crystalline valve machinery for siphon and inversion, not harmless trunk wood markers."
-        },
-        {
-          "label": "D",
-          "text": "Black crystalline valve locks — ancient stabilizers inverted to seal false frequencies into the wound.",
-          "isCorrect": true,
-          "rationale": "Custodians and Greys installed black crystalline valve locks—ancient stabilizers that were inverted to seal the false frequencies into place after the tree was torn out."
+          "rationale": "It is true — the report defines “Custodians” as: The parasitic priests and frequency lords of the cube who commanded the destruction of the central tree to seize control of the realm's energy flow."
         }
       ],
-      "hint": "Ancient stabilizers inverted into locks sealing false frequencies.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Custodians”.",
+      "correctAnswer": "A"
     },
     {
       "number": 20,

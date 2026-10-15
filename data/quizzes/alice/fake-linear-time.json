@@ -22,25 +22,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only a mobile phone calendar app with no larger system.",
+          "text": "A shared dream projected by the Moon station each night, which fades at dawn and is rebuilt from collective memory every morning.",
           "isCorrect": false,
           "rationale": "Phones are late-stage anchoring devices within a full inverted Simulation."
         },
         {
           "label": "B",
-          "text": "A permanent 15th-density paradise with no temporal tricks.",
+          "text": "A 15th-density paradise that still operates as it was designed, with no temporal tricks or overlays added by any outside force.",
           "isCorrect": false,
           "rationale": "Humanity is locked in 3rd density with Fake Linear Time overlays."
         },
         {
           "label": "C",
-          "text": "A multidimensional etheric supercomputer designed by the Source of All Creation, inverted after parasites took over Gateway-10 into a 3rd-density prison.",
+          "text": "A multidimensional etheric supercomputer designed by the Source of All Creation, inverted by parasites into a 3rd-density prison.",
           "isCorrect": true,
           "rationale": "Physical reality operates in an engineered Simulation — a multidimensional etheric supercomputer by Source of All Creation — inverted after hostile takeover of Gateway-10 into a suppressed 3rd-density prison."
         },
         {
           "label": "D",
-          "text": "A natural random vacuum with no intelligence behind it.",
+          "text": "A natural vacuum of random matter that formed without intelligence, later discovered and colonized by the Custodians.",
           "isCorrect": false,
           "rationale": "It is Source-designed and currently parasite-inverted, not accidental vacuum."
         }
@@ -50,35 +50,35 @@
     },
     {
       "number": 2,
-      "question": "What is Fake Linear Time?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The artificially elongated 3rd-density illusion of sequential time, enforced through augmented daylight cycles, clocks, and schedules to trap consciousness.",
-          "isCorrect": true,
-          "rationale": "Fake Linear Time is the artificially elongated 3rd-density illusion of sequential time, enforced via augmented daylight, clocks, and schedules to trap human consciousness."
+          "text": "Non-Player Characters (NPCs) — Manufactured, soulless entities composing 97% of the population, strictly bound to the chronological schedules and programmed narratives of the simulation.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Non-Player Characters (NPCs)”."
         },
         {
           "label": "B",
-          "text": "A free G.A.A. gift that extends lifespan to 20,000 years.",
-          "isCorrect": false,
-          "rationale": "Long lifespans belong to 5th-density reality; 3rd-density simulation shortens life for harvest."
+          "text": "Fake Linear Time — The central physical plane of existence comprising 178 worlds, where this reality inversion and temporal manipulation currently takes place.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Gateway-10”. The report defines “Fake Linear Time” as: The artificially elongated, 3rd-density illusion of sequential time, strictly enforced through augmented daylight cycles, clocks, and schedules to trap human consciousness."
         },
         {
           "label": "C",
-          "text": "Only the 96-hour natural day with no artificial component.",
+          "text": "Simulation — The etheric supercomputer and multidimensional system created by Source Creation, currently inverted by parasites into a low-density prison matrix.",
           "isCorrect": false,
-          "rationale": "Natural day is ~96 hours; Fake Linear Time truncates perception to 24-hour cycles."
+          "rationale": "This pairing matches the report's definition of “Simulation”."
         },
         {
           "label": "D",
-          "text": "The natural elastic time-bending of higher-density souls.",
+          "text": "3rd Density — A heavily suppressed, low-frequency physical state of existence characterized by the illusion of linear time, memory erasure, and severe sensory limitations.",
           "isCorrect": false,
-          "rationale": "That natural ability is Time Bending; Fake Linear Time is the prison illusion."
+          "rationale": "This pairing matches the report's definition of “3rd Density”."
         }
       ],
-      "hint": "Artificial sequential time cage via daylight, clocks, schedules.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 3,
@@ -146,35 +146,23 @@
     },
     {
       "number": 5,
-      "question": "What do Overlays do to time and matter?",
+      "question": "True or False: According to the report, “Overlays” refers to A heavily suppressed, low-frequency physical state of existence characterized by the illusion of linear time, memory erasure, and severe sensory limitations.",
       "options": [
         {
           "label": "A",
-          "text": "Restore Twin Flame time-sync for the whole planet nightly.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Overlays block natural higher-density abilities; they do not restore them."
+          "rationale": "False — that description belongs to “3rd Density”. The report defines “Overlays” as: Projected frequencies that augment the perception of matter and time, utilized to obscure original architecture and lock consciousness into a fixed physical and chronological reality."
         },
         {
           "label": "B",
-          "text": "Permanently delete all clocks so time becomes free for NPCs only.",
-          "isCorrect": false,
-          "rationale": "They support the clock-and-schedule prison, not free NPCs from it."
-        },
-        {
-          "label": "C",
-          "text": "Project frequencies that augment perception of matter and time, obscure original architecture, and lock consciousness into fixed physical and chronological reality.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Overlays project frequencies that augment perception of matter and time, hide original architecture, and lock consciousness into fixed physical and chronological reality."
-        },
-        {
-          "label": "D",
-          "text": "Only paint the sky black with no effect on chronology.",
-          "isCorrect": false,
-          "rationale": "Black void plasma creates artificial night; Overlays more broadly fix matter and time perception."
+          "rationale": "Correct — that description belongs to “3rd Density”, not “Overlays”."
         }
       ],
-      "hint": "Projected frequencies locking matter and chronology.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Overlays”.",
+      "correctAnswer": "B"
     },
     {
       "number": 6,
@@ -182,25 +170,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only inside pocket watches manufactured after 1900.",
+          "text": "Inside the pocket watches and clocks made after 1900, which were calibrated to the new short day of the controllers.",
           "isCorrect": false,
           "rationale": "Watches are anchoring devices; the arena is Gateway-10 itself."
         },
         {
           "label": "B",
-          "text": "Nothing beyond in 5th density with no 3rd-density effect.",
+          "text": "In 5th density, with the effects reaching 3rd density only indirectly through the dreams of sleeping true souls.",
           "isCorrect": false,
           "rationale": "Fake Linear Time is the 3rd-density prison mechanism on Gateway-10."
         },
         {
           "label": "C",
-          "text": "On Gateway-10 — the central physical plane of 178 worlds where reality inversion and temporal manipulation occur.",
+          "text": "On Gateway-10, the central physical plane of 178 worlds where reality inversion and temporal manipulation occur.",
           "isCorrect": true,
           "rationale": "Gateway-10 is the central physical plane of 178 worlds where this inversion and temporal manipulation take place."
         },
         {
           "label": "D",
-          "text": "Outside all 178 worlds in true black vacuum space.",
+          "text": "Outside the 178 worlds in black vacuum space, where the controllers built the machinery that stretches the second.",
           "isCorrect": false,
           "rationale": "Manipulation is of this inverted central plane, not a real vacuum cosmos."
         }
@@ -210,35 +198,23 @@
     },
     {
       "number": 7,
-      "question": "How do Twin Flames relate to natural time?",
+      "question": "True or False: According to the report, “Twin Flames” refers to connected soul counterparts whose natural time-bending abilities allow them to synchronize their existences without experiencing forced separation.",
       "options": [
         {
           "label": "A",
-          "text": "Only parasites who stretch seconds for Loosh harvest.",
-          "isCorrect": false,
-          "rationale": "Parasites impose Fake Linear Time; Twin Flames demonstrate free temporal sync."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Twin Flames” this way."
         },
         {
           "label": "B",
-          "text": "Souls forbidden from ever bending time under any density.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "They exemplify natural time-bending, including matching a partner after death."
-        },
-        {
-          "label": "C",
-          "text": "NPCs who share the same wristwatch brand only.",
-          "isCorrect": false,
-          "rationale": "Twin Flames are true connected souls, not schedule-bound NPCs."
-        },
-        {
-          "label": "D",
-          "text": "Connected soul counterparts whose natural time-bending lets them synchronize existences without forced separation.",
-          "isCorrect": true,
-          "rationale": "Twin Flames are connected soul counterparts whose natural time-bending abilities synchronize their existences without forced separation."
+          "rationale": "It is true — the report defines “Twin Flames” as: Connected soul counterparts whose natural time-bending abilities allow them to synchronize their existences without experiencing forced separation."
         }
       ],
-      "hint": "Soul counterparts — time-bend without forced lonely gaps.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Twin Flames”.",
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -278,25 +254,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only pitch-black night proves real sequential time forever.",
+          "text": "Yes — the pitch-black night and the turning of seasons prove that sequential time is built into the realm itself.",
           "isCorrect": false,
           "rationale": "Pitch-black night is artificial black void plasma; true darkest state is dusk."
         },
         {
           "label": "B",
-          "text": "Yes — linear clocks are Source's highest law with no overlay role.",
+          "text": "Yes — linear clocks follow Source's highest law, and the overlays play no part in how humans perceive duration.",
           "isCorrect": false,
           "rationale": "Linear sequential time is technological illusion under parasitic inversion."
         },
         {
           "label": "C",
-          "text": "No — physical life is only about 5 billion years old, but linear time as understood is entirely fake: a 3rd-density overlay illusion cementing sequential progression into the mind.",
+          "text": "No — linear time as understood is a 3rd-density overlay illusion that cements sequential progression into the mind.",
           "isCorrect": true,
           "rationale": "Physical life is relatively new (~5 billion years), but time as humanity understands it is entirely fake — a 3rd-density overlay illusion designed to cement sequential progression into the mind."
         },
         {
           "label": "D",
-          "text": "Time is fake only for Twin Flames, real for everyone else.",
+          "text": "Partly — time is an illusion for Twin Flames and Star Seeds, but it is real for everyone else in the dome.",
           "isCorrect": false,
           "rationale": "Fake Linear Time traps human consciousness generally in 3rd density."
         }
@@ -406,25 +382,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Seconds get shorter every year until time stops.",
+          "text": "Seconds become shorter each year inside the simulation, until linear time eventually stops.",
           "isCorrect": false,
           "rationale": "The mechanism stretches seconds out, slowing experiential time into prison pacing."
         },
         {
           "label": "B",
-          "text": "Only digital clocks invent seconds; higher density has none.",
+          "text": "Digital clocks create extra seconds that do not exist in the higher densities at all.",
           "isCorrect": false,
           "rationale": "Higher density still has temporal texture, but seconds are not stretched into linear trap."
         },
         {
           "label": "C",
-          "text": "NPCs alone experience unstretched true seconds.",
+          "text": "NPCs experience unstretched true seconds, while true souls experience the stretched version.",
           "isCorrect": false,
           "rationale": "The elongation is the simulation cage affecting the inhabited 3rd-density field."
         },
         {
           "label": "D",
-          "text": "A mere second in higher-density reality is artificially elongated and stretched out inside the 3rd-density simulation.",
+          "text": "A single second of higher-density reality is stretched out inside the 3rd-density simulation.",
           "isCorrect": true,
           "rationale": "What is a mere second in higher-density reality is artificially elongated and stretched within the 3rd-density simulation."
         }
@@ -438,25 +414,25 @@
       "options": [
         {
           "label": "A",
-          "text": "By letting Twin Flames set the global day length.",
+          "text": "Through calendars set by Twin Flame councils, who decide the length of each global day.",
           "isCorrect": false,
           "rationale": "Parasitic controllers impose the cycles; Twin Flames show free bending outside overlays."
         },
         {
           "label": "B",
-          "text": "Through reduced, augmented day-and-night cycles that sever humanity from the natural 96-hour day of true reality.",
+          "text": "Through shortened day-and-night cycles that sever humanity from the natural 96-hour day.",
           "isCorrect": true,
           "rationale": "Controllers regulate temporal perception with reduced, augmented day-and-night cycles, completely severing humanity from the natural 96-hour day."
         },
         {
           "label": "C",
-          "text": "By abolishing all daylight so only black void remains.",
+          "text": "Through long periods of darkness, so that the Black Void covers the realm for weeks at a time.",
           "isCorrect": false,
           "rationale": "They use augmented day-and-night regulation, including artificial black night via plasma."
         },
         {
           "label": "D",
-          "text": "By restoring full 96-hour days for every NPC weekly.",
+          "text": "Through a full 96-hour day restored once a week for NPCs, keeping the programs on schedule.",
           "isCorrect": false,
           "rationale": "They truncate and augment cycles away from the natural 96-hour day."
         }
@@ -470,25 +446,25 @@
       "options": [
         {
           "label": "A",
-          "text": "From standard clocks → pocket watches → wristwatches → digital clocks → mobile phone screens locking people into rigid schedules and appointments.",
+          "text": "From standard clocks to pocket watches, wristwatches, digital clocks, and mobile phone screens that lock people into schedules.",
           "isCorrect": true,
           "rationale": "Fixed-time illusion cemented via devices evolving from standard clocks to pocket watches, wristwatches, digital clocks, and finally mobile phone screens that lock people into rigid schedules."
         },
         {
           "label": "B",
-          "text": "From free elastic bands only, with no clocks ever invented.",
+          "text": "From church bells to factory whistles and school timetables, with personal clocks arriving only after the Second World War.",
           "isCorrect": false,
           "rationale": "Device progression is the suppression chronology of anchoring."
         },
         {
           "label": "C",
-          "text": "Only sundials that always showed 96-hour truth.",
+          "text": "From sundials showing the true 96-hour day to mechanical clocks that were set to a shortened 24-hour cycle by the controllers.",
           "isCorrect": false,
           "rationale": "Modern progression ends in phones enforcing 3rd-density schedules."
         },
         {
           "label": "D",
-          "text": "Directly from EMF flash survivors inventing time travel apps.",
+          "text": "From time-travel experiments run by EMF flash survivors, who later released their devices to the public as ordinary watches.",
           "isCorrect": false,
           "rationale": "Anchoring devices predate and enforce the prison; EMF will strip overlays."
         }
@@ -566,25 +542,25 @@
       "options": [
         {
           "label": "A",
-          "text": "It only stretches seconds without touching memory.",
+          "text": "It stretches each second of waking life so days feel longer, while leaving the soul's memory of previous lives untouched between incarnations.",
           "isCorrect": false,
           "rationale": "Memory wipe is essential to maintain forward-momentum illusion."
         },
         {
           "label": "B",
-          "text": "It erases past experience so sequential forward momentum seems real — soul pulled into the sun portal, wiped, and re-inserted into a new vessel within 15.",
+          "text": "It erases past experience so forward momentum seems real — the soul is pulled into the sun portal, wiped, and re-inserted into a new vessel.",
           "isCorrect": true,
           "rationale": "Fake linear time needs past erasure for sequential illusion; after death the soul is pulled into a sun portal, memory-wiped, and violently re-inserted into a new vessel within 15—20 minutes, trapping it in a chronological loop."
         },
         {
           "label": "C",
-          "text": "It restores full 178,000-year memory at every death automatically.",
+          "text": "It restores the full 178,000-year memory at each death, so that time only appears linear to the living and not to the departed.",
           "isCorrect": false,
           "rationale": "It wipes memory; full return comes when overlays fall at EMF for survivors."
         },
         {
           "label": "D",
-          "text": "It frees NPCs to bend time like Twin Flames.",
+          "text": "It frees NPCs to bend time the way Twin Flames do, making their schedules feel fixed to everyone else around them.",
           "isCorrect": false,
           "rationale": "It keeps souls looping in chronological prison, not freeing NPCs to bend time."
         }
@@ -598,25 +574,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Clocks restore crystalline temples to 5th-density sight.",
+          "text": "Clocks act as tuning devices that slowly restore crystalline temples to 5th-density sight for anyone who keeps a fixed schedule.",
           "isCorrect": false,
           "rationale": "Clocks hide eternity; they do not restore high-density sight."
         },
         {
           "label": "B",
-          "text": "There is no link between density and time mechanisms.",
+          "text": "The two operate on separate systems, with density controlled by the Moon station and time controlled by the Freemason calendars.",
           "isCorrect": false,
           "rationale": "They are parallel subjugation tools of the same inverted Simulation."
         },
         {
           "label": "C",
-          "text": "As spatial Overlays hide UHF crystalline temples with ultra-low frequencies, temporal Overlays hide non-linear eternity behind the ticking of a clock.",
+          "text": "As spatial Overlays hide UHF crystalline temples with low frequencies, temporal Overlays hide non-linear eternity behind a ticking clock.",
           "isCorrect": true,
           "rationale": "Spatial Overlays use ULF to hide UHF crystalline temples; temporal Overlays likewise hide true non-linear eternity behind clock ticking."
         },
         {
           "label": "D",
-          "text": "Temporal Overlays reveal all temples as fully visible 24 hours a day.",
+          "text": "Temporal Overlays reveal the temples during daylight hours, while spatial Overlays hide them again from sunset until dawn.",
           "isCorrect": false,
           "rationale": "Both spatial and temporal overlays conceal true architecture of reality."
         }
@@ -630,25 +606,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Lifespan is unaffected by temporal overlays entirely.",
+          "text": "Lifespan is the same in every density, since the temporal overlays affect perception but not the body.",
           "isCorrect": false,
           "rationale": "Time manipulation drastically shortens natural lifespans for harvest acceleration."
         },
         {
           "label": "B",
-          "text": "All densities share a hard 24-year maximum life.",
+          "text": "Every density shares a fixed maximum life of about 120 years, set by the vessel rather than by time.",
           "isCorrect": false,
           "rationale": "Higher density allows centuries to tens of thousands of years; 3rd density shortens life."
         },
         {
           "label": "C",
-          "text": "3rd density alone grants 20,000-year lives automatically.",
+          "text": "In 3rd density lifespans can reach 20,000 years, but the overlays make those years feel like a few decades.",
           "isCorrect": false,
           "rationale": "3rd density shortens life; long lives are higher-density with/without regression."
         },
         {
           "label": "D",
-          "text": "In 5th density, lifespan without age regression is 450—500 Earth years, and with regression beyond 20,000 years.",
+          "text": "In 5th density, lifespan is 450–500 Earth years without age regression, and beyond 20,000 years with it.",
           "isCorrect": true,
           "rationale": "5th-density lifespan is 450—500 Earth years without age regression, beyond 20,000 with regression; 3rd-density forces rapid aging to accelerate harvest of souls."
         }
@@ -662,25 +638,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Nothing — parasites feed only on 96-hour natural dusk.",
+          "text": "The natural 96-hour dusk energy, which is siphoned away when days are cut to 24 hours.",
           "isCorrect": false,
           "rationale": "Harvest is stress/Loosh from schedule prison, not true dusk cycles."
         },
         {
           "label": "B",
-          "text": "Free Twin Flame reunions for every NPC daily.",
+          "text": "Twin Flame reunion energy, which is harvested each day from the NPCs who play partners.",
           "isCorrect": false,
           "rationale": "It generates Loosh stress, not free soul reunions for synthetics."
         },
         {
           "label": "C",
-          "text": "Continuous stress and Loosh for 4th-density parasitic controllers by forcing constant reaction to scheduled constraints.",
+          "text": "Continuous stress and Loosh, by forcing constant reaction to scheduled constraints.",
           "isCorrect": true,
           "rationale": "Fake Linear Time forces constant reaction to scheduled constraints, generating continuous stress and Loosh for 4th-density parasitic controllers."
         },
         {
           "label": "D",
-          "text": "Only voluntary donations of pocket watches.",
+          "text": "Pocket watches and clocks, which are melted down to provide metals for the projectors.",
           "isCorrect": false,
           "rationale": "Extraction is energetic Loosh from stress under temporal matrix."
         }
@@ -758,25 +734,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only pocket watches stop working with no deeper shock.",
+          "text": "Clocks and calendars stop working for a few days, causing confusion at work and school but leaving people's sense of reality intact.",
           "isCorrect": false,
           "rationale": "The shock is total: history, aging, schedules, and sequential time itself."
         },
         {
           "label": "B",
-          "text": "Instant mastery of 20,000-year age regression for every NPC.",
+          "text": "NPCs suddenly master 20,000-year age regression and start reversing their aging while the awakened watch the process unfold around them.",
           "isCorrect": false,
           "rationale": "NPCs collapse with the schedule matrix; long lives are higher-density truth, not NPC upgrades."
         },
         {
           "label": "C",
-          "text": "Mild curiosity with no mental impact.",
+          "text": "People feel a mild curiosity about the past and begin reading old histories, but the discovery has little effect on their mental state.",
           "isCorrect": false,
           "rationale": "Impact is total cognitive failure for those still glued to the illusion."
         },
         {
           "label": "D",
-          "text": "Realizing schedules, histories, aging processes, and sequential time itself were technological illusion causes total cognitive failure for the unawakened.",
+          "text": "Realizing that schedules, histories, aging, and sequential time itself were technological illusion causes cognitive failure for the unawakened.",
           "isCorrect": true,
           "rationale": "Sudden shock that schedules, histories, aging, and sequential time were technological illusion causes total cognitive failure for the unawakened masses."
         }

@@ -18,35 +18,35 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary function of endogenous Pineal DMT within the human vessel?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It acts as a primary antioxidant that protects brain tissue from environmental pollutants and radiation.",
+          "text": "Water Fluoridation — The systematic distribution of sodium fluoride into public drinking water supplies over the last eight decades to deliberately calcify the pineal gland and suppress DMT production.",
           "isCorrect": false,
-          "rationale": "Its essential purpose is spiritual interfacing, not physical cellular repair."
+          "rationale": "This pairing matches the report's definition of “Water Fluoridation”."
         },
         {
           "label": "B",
-          "text": "It operates as a neurological sedative to dampen overactive cognitive responses during high-stress encounters.",
-          "isCorrect": false,
-          "rationale": "Endogenous Pineal DMT enables dimensional perception and baseline telepathy, which widens perception."
+          "text": "Pineal DMT — Non-overt, legally compliant assistance extended by benevolent soul families via plant medicine, dream states, and direct consciousness interfacing that honors the Sovereign Accord.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Subtle Help”. The report defines “Pineal DMT” as: The endogenous psychedelic compound synthesized by the pineal gland that functions as the fundamental chemical key to multidimensional consciousness and direct aetheric connection."
         },
         {
           "label": "C",
-          "text": "It functions as a metabolic regulator designed to manage the circadian rhythm and sleep-wake cycles.",
+          "text": "Spiritual Hardware — The organic pineal gland architecture responsible for translating high-density aetheric data streams and telepathic frequencies into physical perception.",
           "isCorrect": false,
-          "rationale": "The pineal role here is aetheric hardware for higher consciousness, not a sleep-cycle regulator."
+          "rationale": "This pairing matches the report's definition of “Spiritual Hardware”."
         },
         {
           "label": "D",
-          "text": "It serves as the organic quantum interface that links physical consciousness to the multidimensional aether.",
-          "isCorrect": true,
-          "rationale": "Pineal DMT is the fundamental chemical key to multidimensional consciousness and direct aetheric connection."
+          "text": "Monoamine Oxidase Inhibitors (MAOIs) — β-carboline alkaloids that inhibit digestive enzymes, allowing oral DMT to enter the bloodstream and temporarily re-establish high-density pineal perception.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Monoamine Oxidase Inhibitors (MAOIs)”."
         }
       ],
-      "hint": "Consider the relationship between biological chemistry and the multidimensional environment.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,

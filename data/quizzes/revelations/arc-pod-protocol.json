@@ -146,67 +146,55 @@
     },
     {
       "number": 5,
-      "question": "What is the purpose of Soul Layering within an Arc Pod cluster?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Soul Layering interweaves a single soul within a pod cluster across more than one hundred soul family members to obscure energetic signatures.",
-          "isCorrect": true,
-          "rationale": "Binding signatures together ensures that an avatar exiting a vessel does not register as a prominent beacon in the simulation."
+          "text": "Arc Pod — A high-density consciousness containment vessel hosted on atmospheric bioships that houses the complete Oversoul matrix during lower-density deployments.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Arc Pod”."
         },
         {
           "label": "B",
-          "text": "Soul Layering forces every member of a soul family to incarnate at the exact same geographical coordinates on the surface for the entire mission grid.",
+          "text": "Oversoul — The uncompressed, complete higher-density spiritual identity and multi-dimensional consciousness matrix residing inside the Arc Pod.",
           "isCorrect": false,
-          "rationale": "Soul family members are distributed across roles and locations to fulfill the mission grid, not stacked on one coordinate."
+          "rationale": "This pairing matches the report's definition of “Oversoul”."
         },
         {
           "label": "C",
-          "text": "Soul Layering shares the traumatic experiences of one avatar across the entire soul family so the cluster metabolizes one life together.",
-          "isCorrect": false,
-          "rationale": "The protocol protects the soul matrix from trauma and capture rather than distributing trauma through the cluster."
+          "text": "Soul Layering — A sentient, living craft located in stasis overlay that regulates physical homeworld vessels and manages avatar projection technology.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Bioship”. The report defines “Soul Layering” as: The protective binding architecture where an individual soul matrix within an Arc Pod cluster is interwoven across more than one hundred soul family members to obscure energetic signatures."
         },
         {
           "label": "D",
-          "text": "Soul Layering lets one Oversoul control multiple physical avatars at the same time from a single atmospheric pod so one matrix pilots the whole cluster at once.",
+          "text": "Arc Trajectory — The pre-calculated, multi-incarnational life path designed and monitored from the Arc Pod across thousands of individual physical lives.",
           "isCorrect": false,
-          "rationale": "The Oversoul projects into specific trajectories. Layering is a masking technique, not a multi-avatar control method."
+          "rationale": "This pairing matches the report's definition of “Arc Trajectory”."
         }
       ],
-      "hint": "This technique makes it harder for external sensors to pick up a single, distinct signal.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 6,
-      "question": "When was the Clueless Protocol operational mandate first enacted?",
+      "question": "True or False: According to the report, “Clueless Protocol” refers to the operational security mandate enacted following the fall of Atlantis that deactivates conscious mission memory and past-life recall in the 3rd-density avatar.",
       "options": [
         {
           "label": "A",
-          "text": "The Clueless Protocol was enacted immediately upon the colonization of the Taran Vessels as their original factory setting.",
-          "isCorrect": false,
-          "rationale": "The mandate was a later security response to planetary cataclysms, not an original condition of the Taran Vessels."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Clueless Protocol” this way."
         },
         {
           "label": "B",
-          "text": "The Clueless Protocol was enacted during the initial pre-colonization Mission Insertion before any field seals were set.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Mission Insertion happened prior to the field seals, whereas the Clueless Protocol was a later operational security measure."
-        },
-        {
-          "label": "C",
-          "text": "Mission managers instituted the Clueless Protocol following the planetary cataclysms of Lemuria and Atlantis.",
-          "isCorrect": true,
-          "rationale": "After Lemuria and Atlantis, perceptual distortion in the 3rd-density environment required a memory-deactivation mandate."
-        },
-        {
-          "label": "D",
-          "text": "The Clueless Protocol was enacted at the start of the final convergence loop so only the last life would forget the mission.",
-          "isCorrect": false,
-          "rationale": "The protocol governs thousands of lives leading up to the loop, not only the final incarnation."
+          "rationale": "It is true — the report defines “Clueless Protocol” as: The operational security mandate enacted following the fall of Atlantis that deactivates conscious mission memory and past-life recall in the 3rd-density avatar."
         }
       ],
-      "hint": "It was a security measure taken after the fall of major ancient civilizations.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Clueless Protocol”.",
+      "correctAnswer": "A"
     },
     {
       "number": 7,

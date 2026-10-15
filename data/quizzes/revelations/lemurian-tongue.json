@@ -18,34 +18,22 @@
   "questions": [
     {
       "number": 1,
-      "question": "What primary function did the Lemurian Tongue serve prior to custodial post-reset intervention?",
+      "question": "True or False: According to the report, “Lemurian Tongue” refers to the parasitic workforce entities utilized during post-reset operations to implement linguistic confounding and administrative control over humanity.",
       "options": [
         {
           "label": "A",
-          "text": "Serving as an exclusive dialect reserved strictly for temple priesthoods during Zep Tepi.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The Lemurian Tongue was spoken globally by all human populations as a single universal language rather than being restricted to an elite priesthood."
+          "rationale": "False — that description belongs to “Etamines from Draco”. The report defines “Lemurian Tongue” as: The original, singular universal language spoken across the entire physical realm prior to custodial post-reset division."
         },
         {
           "label": "B",
-          "text": "It enabled all human populations to communicate without friction, cognitive distortion, or structural misunderstanding.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "As a unified linguistic frequency, the Lemurian Tongue enabled all human populations to communicate without friction, cognitive distortion, or structural misunderstanding."
-        },
-        {
-          "label": "C",
-          "text": "Establishing coded administrative protocols for the early custodial workforce.",
-          "isCorrect": false,
-          "rationale": "Custodial administrators introduced administrative structures later to manage fragmented populations rather than using the original universal language."
-        },
-        {
-          "label": "D",
-          "text": "Facilitating automated translation between human speech and high-density frequency signals.",
-          "isCorrect": false,
-          "rationale": "The language operated directly as a natural harmonic frequency within human vocalization rather than requiring translation mechanisms."
+          "rationale": "Correct — that description belongs to “Etamines from Draco”, not “Lemurian Tongue”."
         }
       ],
-      "hint": "Think about how a single shared frequency eliminates friction in collective thought.",
+      "hint": "Recall how the report's Key Terminology defines “Lemurian Tongue”.",
       "correctAnswer": "B"
     },
     {
@@ -146,67 +134,55 @@
     },
     {
       "number": 5,
-      "question": "What is the primary function of Re-Legion within the custodial management system?",
+      "question": "True or False: According to the report, “Re-Legion” refers to the post-reset custodial operation executed to confound human speech, fragmenting the original unified language into thousands of mutually unintelligible dialects.",
       "options": [
         {
           "label": "A",
-          "text": "Restoring harmonic sound frequencies to damaged crystalline mountain structures.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Re-Legion perpetuates designed noise and division rather than repairing primordial crystalline energetics."
+          "rationale": "False — that description belongs to “Babel Event”. The report defines “Re-Legion” as: The systematic installation of thousands of competing faiths and religious doctrines designed to replace unified spiritual hardware and perpetuate designed noise."
         },
         {
           "label": "B",
-          "text": "Preserving primordial linguistic roots within regional religious scriptures.",
-          "isCorrect": false,
-          "rationale": "Competing faiths were installed to replace unified spiritual hardware rather than to preserve one original understanding."
-        },
-        {
-          "label": "C",
-          "text": "Re-Legion was designed to replace unified spiritual hardware and perpetuate designed noise.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Re-Legion is the systematic installation of thousands of competing faiths and religious doctrines designed to replace unified spiritual hardware and perpetuate designed noise."
-        },
-        {
-          "label": "D",
-          "text": "Establishing automated administrative channels between regional tribes and custodians.",
-          "isCorrect": false,
-          "rationale": "Re-Legion fractures belief systems into competing faiths and religious doctrines rather than acting as a direct communication channel."
+          "rationale": "Correct — that description belongs to “Babel Event”, not “Re-Legion”."
         }
       ],
-      "hint": "Focus on how fragmented belief systems create designed noise and cultural division.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Re-Legion”.",
+      "correctAnswer": "B"
     },
     {
       "number": 6,
-      "question": "What does the Hebrew term babal directly index in relation to the Babel event?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The physical collapse of ancient high-density architecture in Shinar.",
-          "isCorrect": false,
-          "rationale": "The term indexes the scrambling of primordial speech rather than the destruction of buildings."
+          "text": "Etamines from Draco — The primordial \"First Time\" era during which the Lemurian Tongue was active alongside crystalline healing temples and uncorrupted realm energetics.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Zep Tepi”. The report defines “Etamines from Draco” as: The parasitic workforce entities utilized during post-reset operations to implement linguistic confounding and administrative control over humanity."
         },
         {
           "label": "B",
-          "text": "The geographical scattering of populations into isolated regional sectors.",
+          "text": "Babel Event — The post-reset custodial operation executed to confound human speech, fragmenting the original unified language into thousands of mutually unintelligible dialects.",
           "isCorrect": false,
-          "rationale": "Population scattering followed linguistic confounding and is not what the Hebrew term babal directly indexes."
+          "rationale": "This pairing matches the report's definition of “Babel Event”."
         },
         {
           "label": "C",
-          "text": "The Hebrew term babal directly indexes this artificial scrambling of primordial speech.",
-          "isCorrect": true,
-          "rationale": "The Hebrew term babal, meaning confused or mixed up, directly indexes this artificial scrambling of primordial speech."
+          "text": "Confound-and-Rule — The strategic custodial method of fracturing unified human faculties, languages, and belief systems to stifle collective progress and enforce planetary management.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Confound-and-Rule”."
         },
         {
           "label": "D",
-          "text": "The subatomic density degradation of crystalline mountain structures into granite.",
+          "text": "Re-Legion — The systematic installation of thousands of competing faiths and religious doctrines designed to replace unified spiritual hardware and perpetuate designed noise.",
           "isCorrect": false,
-          "rationale": "Subatomic density suppression names the environmental degradation, not the linguistic scrambling indexed by babal."
+          "rationale": "This pairing matches the report's definition of “Re-Legion”."
         }
       ],
-      "hint": "Think about the linguistic meaning associated with a state of confusion.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 7,

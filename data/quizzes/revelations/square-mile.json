@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What was the original engineered purpose of the 1.12-square-mile central district known as the Square Mile during the Tartarian epoch?",
+      "question": "True or False: According to the report, “Square Mile” refers to the 1.12-square-mile central district of London, originally an engineered Tartarian wireless power grid and aetheric node retrofitted into a global financial center.",
       "options": [
         {
           "label": "A",
-          "text": "A centralized financial clearinghouse established to process monetary currency and manage public debt bonds.",
-          "isCorrect": false,
-          "rationale": "Financial clearinghouses are the post-1666 use of acoustic stone vaults rather than the original Tartarian design."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Square Mile” this way."
         },
         {
           "label": "B",
-          "text": "A subterranean maritime trading hub built along river tributaries to regulate municipal water distribution.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The water table grounded deep footings for an Air-to-Earth electrical loop rather than serving as a water-trade harbor."
-        },
-        {
-          "label": "C",
-          "text": "A medieval Roman-walled settlement constructed from multi-storey wooden buildings to house a growing merchant population.",
-          "isCorrect": false,
-          "rationale": "Corporate-freemasonic accounts frame the site as two-to-three-storey wooden wattle-and-daub buildings housing 200,000 people."
-        },
-        {
-          "label": "D",
-          "text": "The Square Mile was originally engineered as a wireless aetheric energy node and harmonic architectural complex.",
-          "isCorrect": true,
-          "rationale": "That high-frequency grid was later subjected to density suppression and structural inversion after the operational reset of 1666."
+          "rationale": "It is true — the report defines “Square Mile” as: The 1.12-square-mile central district of London, originally an engineered Tartarian wireless power grid and aetheric node retrofitted into a global financial center."
         }
       ],
-      "hint": "Consider the wireless aetheric energy node and the harmonic architectural complex.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Square Mile”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -690,35 +678,23 @@
     },
     {
       "number": 22,
-      "question": "What technical field can be re-engineered by analyzing Ashlar masonry and solfeggio sound levitation?",
+      "question": "True or False: According to the report, “Ashlar Masonry” refers to the physical impossibility of housing 200,000 residents within a 1.12-square-mile enclosure using 2-to-3 storey wooden buildings, which would require 12-to-15 storey high-density modern tower blocks.",
       "options": [
         {
           "label": "A",
-          "text": "Analyzing Ashlar masonry piezoelectric granite construction and solfeggio acoustic levitation provides the technical framework for developing non-combustive heating wireless power generation and self-regulating architectural design.",
-          "isCorrect": true,
-          "rationale": "Those buildings operated indefinitely without structural decay utility bills or maintenance contractors."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Population Math Discrepancy”. The report defines “Ashlar Masonry” as: High-precision construction utilizing massive, finely dressed piezoelectric quartz granite blocks ranging from 0.25 to 4 tons, set without mortar or iron tools using sound frequency levitation."
         },
         {
           "label": "B",
-          "text": "Semiconductor manufacturing using synthetic silicon crystals and high-voltage power lines.",
-          "isCorrect": false,
-          "rationale": "The technical framework is wireless power generation and self-regulating architectural design."
-        },
-        {
-          "label": "C",
-          "text": "High-efficiency coal gasification and advanced steam turbine propulsion systems.",
-          "isCorrect": false,
-          "rationale": "The Square Mile framework is non-combustive heating and wireless power generation."
-        },
-        {
-          "label": "D",
-          "text": "Deep-sea oil extraction tools and synthetic chemical timber preservatives.",
-          "isCorrect": false,
-          "rationale": "The relevant construction is piezoelectric granite and solfeggio acoustic levitation rather than oil or timber chemicals."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Population Math Discrepancy”, not “Ashlar Masonry”."
         }
       ],
-      "hint": "Focus on heat and power that do not burn fuel and on buildings that regulate themselves.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Ashlar Masonry”.",
+      "correctAnswer": "B"
     },
     {
       "number": 23,

@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "How is the architecture of existence described within the CUBE Containment?",
+      "question": "True or False: According to the report, “CUBE Containment” refers to one massive crystalline electro-magnetic framework functioning as a hard drive that runs all maps, overlays, grids, and domes.",
       "options": [
         {
           "label": "A",
-          "text": "Nothing beyond a temporary dream with no hard-drive function for maps, grids, or domes of any kind.",
-          "isCorrect": false,
-          "rationale": "The CUBE functions as a hard drive that runs all maps, overlays, grids, and domes as real containment architecture."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “CUBE Containment” this way."
         },
         {
           "label": "B",
-          "text": "An empty vacuum of separated planets with no crystalline framework and no simulated layers at all.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Lands, seas, and skies exist as interwoven frequency layers inside the CUBE, not empty vacuum planets alone."
-        },
-        {
-          "label": "C",
-          "text": "A digitalized, simulated environment inside a massive crystalline electro-magnetic framework that runs as a containment hard drive.",
-          "isCorrect": true,
-          "rationale": "Existence is a digitalized, simulated environment contained within the CUBE Containment, a massive crystalline electro-magnetic framework."
-        },
-        {
-          "label": "D",
-          "text": "A single biological organism with no electro-magnetic framework and no overlay projection system.",
-          "isCorrect": false,
-          "rationale": "The architecture is a crystalline electro-magnetic containment framework running maps, overlays, grids, and domes."
+          "rationale": "It is true — the report defines “CUBE Containment” as: One massive crystalline electro-magnetic framework functioning as a hard drive that runs all maps, overlays, grids, and domes."
         }
       ],
-      "hint": "Connect the crystalline electro-magnetic framework to a digitalized simulated environment.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “CUBE Containment”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -178,34 +166,22 @@
     },
     {
       "number": 6,
-      "question": "What is the Great Dome within this architecture?",
+      "question": "True or False: According to the report, “Great Dome” refers to the central physical training ground and frequency amplifier containing 178 physical worlds, built from solid frequency to teach the mastery of thought.",
       "options": [
         {
           "label": "A",
-          "text": "The central physical training ground and frequency amplifier containing 178 physical worlds built from solid frequency to teach mastery of thought.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "The Great Dome is the central physical training ground and frequency amplifier containing 178 physical worlds, built from solid frequency to teach the mastery of thought."
+          "rationale": "True — the report defines “Great Dome” this way."
         },
         {
           "label": "B",
-          "text": "A single empty sky shell with no physical worlds and no frequency-amplifier training function.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The Great Dome holds 178 physical worlds as a solid-frequency training ground and amplifier."
-        },
-        {
-          "label": "C",
-          "text": "Only the Saturn Grid A.I. hub with no relationship to 178 worlds or thought mastery.",
-          "isCorrect": false,
-          "rationale": "Saturn Grid is linked to Black Cube Tech siphoning; the Great Dome is the central training ground of 178 worlds."
-        },
-        {
-          "label": "D",
-          "text": "A temporary NPC storage vault with no crystalline temple design in the Known Lands.",
-          "isCorrect": false,
-          "rationale": "The Known Lands within the Great Dome are designed as a massive crystalline temple masked by the overlay."
+          "rationale": "It is true — the report defines “Great Dome” as: The central physical training ground and frequency amplifier containing 178 physical worlds, built from solid frequency to teach the mastery of thought."
         }
       ],
-      "hint": "Recall world count, training function, and solid-frequency purpose.",
+      "hint": "Recall how the report's Key Terminology defines “Great Dome”.",
       "correctAnswer": "A"
     },
     {
@@ -242,35 +218,35 @@
     },
     {
       "number": 8,
-      "question": "What are NPCs in the 3D Overlay framework?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only extraterrestrial craft phasing in on correct frequency bands during final extraction.",
+          "text": "Known Lands — The central physical realm within the Great Dome, currently masked by the 3D Overlay but inherently designed as a massive crystalline temple.",
           "isCorrect": false,
-          "rationale": "True ET craft appear in final extraction; NPCs are simulation-holding background programs without soul spark."
+          "rationale": "This pairing matches the report's definition of “Known Lands”."
         },
         {
           "label": "B",
-          "text": "Background programs and non-player characters functioning as fragments of light to hold the simulation together, completely devoid of a true soul spark.",
-          "isCorrect": true,
-          "rationale": "NPCs are background programs and non-player characters functioning as fragments of light to hold the simulation together, completely devoid of a true soul spark."
+          "text": "NPCs — Background programs and non-player characters functioning as fragments of light to hold the simulation together, completely devoid of a true soul spark.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “NPCs”."
         },
         {
           "label": "C",
-          "text": "Fully ensouled Resonating Sols who always see the Second Realm during every frequency fracture.",
+          "text": "Crystal Light-Worlds — Pre-physical frequency states where sound vibrates and organizes into light lattices, creating the first spark of vision and creation before density.",
           "isCorrect": false,
-          "rationale": "Resonating Sols raise vibration and see crystalline return; NPCs lack true soul spark and may remain in hollow decay."
+          "rationale": "This pairing matches the report's definition of “Crystal Light-Worlds”."
         },
         {
           "label": "D",
-          "text": "Only original Lyran solar architects who grew buildings like crystal forests.",
-          "isCorrect": false,
-          "rationale": "Lyran and related lineages are original builders; NPCs are light-fragment programs without true soul spark."
+          "text": "Parasitic Overlay — One massive crystalline electro-magnetic framework functioning as a hard drive that runs all maps, overlays, grids, and domes.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “CUBE Containment”. The report defines “Parasitic Overlay” as: A holographic illusion grid and false skin projected over reality to manipulate human perception, rendering dead materials as solid and hiding the true crystalline world."
         }
       ],
-      "hint": "Focus on background programs, light fragments, and absence of true soul spark.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 9,

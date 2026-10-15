@@ -242,66 +242,42 @@
     },
     {
       "number": 8,
-      "question": "What marks The Sharp Edge phase?",
+      "question": "True or False: According to the report, “The Sharp Edge” refers to A phase marked by sudden, unprompted adrenaline surges, heart rate spikes, and a thickening of the atmospheric air.",
       "options": [
         {
           "label": "A",
-          "text": "Sudden unprompted adrenaline surges, heart-rate spikes, and a thickening of the atmospheric air.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Sharp Edge is marked by unprompted adrenaline surges, heart-rate spikes, and thickening atmospheric air."
+          "rationale": "True — the report defines “The Sharp Edge” this way."
         },
         {
           "label": "B",
-          "text": "Deep peaceful sleep with thinner air and no heart-rate spikes during the entire window.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Sharp Edge is adrenaline and thick air with heart spikes—not peaceful sleep and thinner air."
-        },
-        {
-          "label": "C",
-          "text": "Only subtle skull white noise with no adrenaline and no atmospheric thickening at all.",
-          "isCorrect": false,
-          "rationale": "Skull buzzing is Static Build Up; Sharp Edge centers adrenaline, heart spikes, and thick air."
-        },
-        {
-          "label": "D",
-          "text": "Only absolute traffic silence with no adrenaline and no pre-storm air pressure feel.",
-          "isCorrect": false,
-          "rationale": "Traffic fade into stillness is Silence Before the Snap; Sharp Edge is thick air and adrenaline."
+          "rationale": "It is true — the report defines “The Sharp Edge” as: A phase marked by sudden, unprompted adrenaline surges, heart rate spikes, and a thickening of the atmospheric air."
         }
       ],
-      "hint": "Adrenaline, heart, and atmospheric air thickness.",
+      "hint": "Recall how the report's Key Terminology defines “The Sharp Edge”.",
       "correctAnswer": "A"
     },
     {
       "number": 9,
-      "question": "What defines The Silence Before the Snap?",
+      "question": "True or False: According to the report, “The Silence Before the Snap” refers to A period of profound environmental stillness, fading ambient noise, and high-pitched ear ringing immediately preceding the collapse of the artificial field.",
       "options": [
         {
           "label": "A",
-          "text": "Profound environmental stillness, fading ambient noise, and high-pitched ear ringing immediately before artificial field collapse.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Silence Before the Snap is profound stillness, fading ambient noise, and high-pitched ear ringing right before artificial field collapse."
+          "rationale": "True — the report defines “The Silence Before the Snap” this way."
         },
         {
           "label": "B",
-          "text": "Only small power surges with no environmental stillness and no pre-collapse acoustic vacuum rather than Silence Before the Snap stillness, fading noise, and high-pitched ear ringing.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Power surges are Static Build Up; Silence Before the Snap is stillness, faded noise, and ear ringing."
-        },
-        {
-          "label": "C",
-          "text": "Doubled traffic noise with no stillness and no high-pitched ear ringing before any field change.",
-          "isCorrect": false,
-          "rationale": "Ambient noise fades into stillness with ear ringing—not doubled traffic without ringing."
-        },
-        {
-          "label": "D",
-          "text": "Only muted flatter sky with no stillness, no wind pause, and no ear ringing phase.",
-          "isCorrect": false,
-          "rationale": "Muted sky is Drop in Tone emphasis; Silence Before the Snap is stillness and ear ringing before collapse."
+          "rationale": "It is true — the report defines “The Silence Before the Snap” as: A period of profound environmental stillness, fading ambient noise, and high-pitched ear ringing immediately preceding the collapse of the artificial field."
         }
       ],
-      "hint": "Stillness, ambient noise, and ear sensation before artificial field collapse.",
+      "hint": "Recall how the report's Key Terminology defines “The Silence Before the Snap”.",
       "correctAnswer": "A"
     },
     {
@@ -466,34 +442,34 @@
     },
     {
       "number": 15,
-      "question": "What environmental and body signs mark The Sharp Edge?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only freezing phones with no atmospheric thickness change and no out-of-the-blue heart spikes rather than thicker pre-storm air, reduced bird song, and out-of-the-blue heart spikes.",
+          "text": "Parasite Overlay — The artificial, holographic 3D skin projected over the true crystalline reality to hijack perception and suppress sensory awareness.",
           "isCorrect": false,
-          "rationale": "Phone freezes are Static Build Up; Sharp Edge is thick air and unprompted cardiovascular spikes."
+          "rationale": "This pairing matches the report's definition of “Parasite Overlay”."
         },
         {
           "label": "B",
-          "text": "Air feels tangibly thicker like pre-storm pressure with reduced bird song, plus short unprompted adrenaline bursts and sudden heart-rate spikes for seconds out of the blue.",
+          "text": "The Sharp Edge — A period of profound environmental stillness, fading ambient noise, and high-pitched ear ringing immediately preceding the collapse of the artificial field.",
           "isCorrect": true,
-          "rationale": "Sharp Edge: thicker pre-storm air, reduced bird song, short unprompted adrenaline, and sudden heart-rate spikes lasting seconds out of the blue."
+          "rationale": "That description belongs to “The Silence Before the Snap”. The report defines “The Sharp Edge” as: A phase marked by sudden, unprompted adrenaline surges, heart rate spikes, and a thickening of the atmospheric air."
         },
         {
           "label": "C",
-          "text": "Only muted flatter sky with no thicker air and no unprompted adrenaline in this phase.",
+          "text": "Frequency Fracture — The structural breaking of the artificial reality matrix, causing visible and physical glitches in the environment and non-player character (NPC) programming.",
           "isCorrect": false,
-          "rationale": "Muted flatter sky is Drop in Tone; Sharp Edge centers thick air, reduced bird song, and adrenaline/heart spikes."
+          "rationale": "This pairing matches the report's definition of “Frequency Fracture”."
         },
         {
           "label": "D",
-          "text": "Air thins completely while bird song becomes constant and heart rates never spike without external cause rather than thicker pre-storm air, reduced bird song, and out-of-the-blue heart spikes.",
+          "text": "The Drop in Tone — A specific phase of frequency shifting characterized by sudden bodily heaviness, deep exhaustion, and the visual flattening of the sky.",
           "isCorrect": false,
-          "rationale": "Air thickens, bird song reduces, and heart spikes appear out of the blue—not thinner air and constant song."
+          "rationale": "This pairing matches the report's definition of “The Drop in Tone”."
         }
       ],
-      "hint": "Air thickness, bird song, adrenaline, and heart spikes.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "B"
     },
     {

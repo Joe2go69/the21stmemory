@@ -214,25 +214,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The Maritime Admiralty System is the commercial legal jurisdiction that manages living human beings as corporate assets, vessels, and salvage collateral.",
+          "text": "The Maritime Admiralty System, which treats people as corporate assets, vessels, and salvage collateral.",
           "isCorrect": true,
           "rationale": "The Maritime Admiralty System is the commercial legal jurisdiction under which living human beings are legally classified and managed as corporate assets, vessels, and salvage collateral."
         },
         {
           "label": "B",
-          "text": "The TreasuryDirect portal.",
+          "text": "The TreasuryDirect portal, which tracks each birth bond as a tradeable bearer security on the market.",
           "isCorrect": false,
           "rationale": "TreasuryDirect is the government financial portal used to monitor bond valuation, not the jurisdiction that classifies living human beings as salvage collateral."
         },
         {
           "label": "C",
-          "text": "The Cestui Que Vie 1666 Trust Act.",
+          "text": "The Cestui Que Vie 1666 Trust Act, which declares the living presumed lost at sea until reclaimed.",
           "isCorrect": false,
           "rationale": "The Cestui Que Vie 1666 Birth Certificate Bond is the statutory bond construct, while the Maritime Admiralty System is the commercial legal jurisdiction that manages living human beings as corporate assets."
         },
         {
           "label": "D",
-          "text": "The Common Law Assembly.",
+          "text": "The Common Law Assembly, which registers every newborn as a lawful juror within the land jurisdiction.",
           "isCorrect": false,
           "rationale": "The bond operates under the Maritime Admiralty System and corporate administrative codes, which replace natural law."
         }
@@ -458,25 +458,25 @@
       "options": [
         {
           "label": "A",
-          "text": "That citizens are the owners of the state, while the state is actually a private company.",
+          "text": "That citizens own the state through their votes, when the state is in fact a private company registered offshore.",
           "isCorrect": false,
           "rationale": "The inversion maintained here is that public services are funded by taxpayer revenue when expenditures are drawn down from the individual's birth bond trust."
         },
         {
           "label": "B",
-          "text": "State institutions maintain the illusion that public services are funded by taxpayer revenue, whereas expenditures are drawn down directly from the individual's birth bond trust.",
+          "text": "That public services are funded by taxpayer revenue, when spending is drawn directly from the individual's birth bond trust.",
           "isCorrect": true,
           "rationale": "Public expenditures are routinely drawn down directly from the individual's birth bond trust, while the public is falsely informed that such care relies on taxpayer contributions."
         },
         {
           "label": "C",
-          "text": "That the legal system protects the soul, when it only protects the physical vessel.",
+          "text": "That the legal system protects the soul of each citizen, when it recognizes only the physical vessel and its name.",
           "isCorrect": false,
           "rationale": "The inversion is about funding: public services are presented as taxpayer-funded while expenditures are drawn from the birth bond trust."
         },
         {
           "label": "D",
-          "text": "That hospitals are non-profit entities, while they are actually military installations.",
+          "text": "That hospitals operate as non-profit public bodies, when they are in fact run as military installations by the state.",
           "isCorrect": false,
           "rationale": "The inversion concerns the hidden treasury of the birth bond, not a claim that hospitals are military installations."
         }
@@ -496,13 +496,13 @@
         },
         {
           "label": "B",
-          "text": "TreasuryDirect is the government financial portal utilized to monitor and calculate the valuation of underlying state-held security bonds.",
+          "text": "TreasuryDirect, the government financial portal.",
           "isCorrect": true,
           "rationale": "TreasuryDirect is the government financial portal utilized to monitor and calculate the valuation of underlying state-held security bonds associated with birth registration numbers."
         },
         {
           "label": "C",
-          "text": "The local birth registry office where the physical document is stored.",
+          "text": "The local birth registry office holding the document.",
           "isCorrect": false,
           "rationale": "Valuation is monitored through the government financial portal TreasuryDirect, not through the local office that stores the physical certificate."
         },
@@ -670,25 +670,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Because the funds do not exist in a physical form that can be withdrawn.",
+          "text": "The funds exist only as ledger entries without physical form, so there is nothing a citizen could ever withdraw from them.",
           "isCorrect": false,
           "rationale": "The funds are monetized and continuously drawn against by state departments and financial conglomerates, and the bar on citizens is legal rather than a claim that the funds have no form."
         },
         {
           "label": "B",
-          "text": "Because the individual has not yet fulfilled the labor requirements of the bond.",
+          "text": "The citizen must first complete the labor requirements attached to the bond before any part of it can be released.",
           "isCorrect": false,
           "rationale": "State departments and financial conglomerates continuously draw against the account balance even while citizens remain legally barred, without a labor-fulfillment condition for that drawdown."
         },
         {
           "label": "C",
-          "text": "Because the international banking codes require two-party authorization.",
+          "text": "International banking codes require two-party authorization, and the second party is a trustee the citizen cannot contact.",
           "isCorrect": false,
           "rationale": "Citizens are legally barred from directly withdrawing or liquidating these funds as a control on public reclaimed access, not because of a two-party authorization code."
         },
         {
           "label": "D",
-          "text": "Individual citizens are legally barred from directly withdrawing or liquidating these funds, even as state departments continuously draw against the account balance.",
+          "text": "Citizens are legally barred from withdrawing the funds directly, while state departments continuously draw against the balance.",
           "isCorrect": true,
           "rationale": "This declaration is semi-true: individual citizens are legally barred from directly withdrawing or liquidating these funds, even as state departments and financial conglomerates continuously draw against the account balance."
         }
@@ -754,25 +754,25 @@
       "options": [
         {
           "label": "A",
-          "text": "They are randomized codes designed to prevent identity theft in the digital age.",
+          "text": "It reveals that the numbers are random codes used to prevent identity theft.",
           "isCorrect": false,
           "rationale": "The numeric digits reveal the monetized value attached to that legal entity, and they are not described as randomized codes against identity theft."
         },
         {
           "label": "B",
-          "text": "They indicate the total amount of interest the child will pay over their lifetime.",
+          "text": "It reveals the total interest the child will pay over a lifetime of debt.",
           "isCorrect": false,
           "rationale": "The digits reveal the monetized value attached to that legal entity, not a fixed total of lifetime interest."
         },
         {
           "label": "C",
-          "text": "They correspond to the child's weight and height at the exact moment of birth.",
+          "text": "It reveals the child's recorded weight and height at the moment of birth.",
           "isCorrect": false,
           "rationale": "The numeric digits reveal the monetized value attached to that legal entity, rather than recording weight and height as vital statistics."
         },
         {
           "label": "D",
-          "text": "Entering the numeric digits of these registration documents into international financial clearing tools reveals the monetized value attached to that legal entity.",
+          "text": "It reveals the monetized value attached to that legal entity.",
           "isCorrect": true,
           "rationale": "Entering the numeric digits of these registration documents into international financial clearing tools reveals the monetized value attached to that legal entity."
         }

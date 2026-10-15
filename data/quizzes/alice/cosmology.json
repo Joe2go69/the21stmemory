@@ -146,35 +146,23 @@
     },
     {
       "number": 5,
-      "question": "What is the Source of All Creation?",
+      "question": "True or False: According to the report, “Source of All Creation” refers to A vast, non-physical etheric supercomputer and indigo spark of perpetual light that orchestrated physical existence through thoughtform and multidimensional master planning.",
       "options": [
         {
           "label": "A",
-          "text": "A burning ball of gas identical to the mainstream sun model, radiating heat across a heliocentric system.",
-          "isCorrect": false,
-          "rationale": "The sun is a portal (Amnesia Vortex), not the Source definition."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Source of All Creation” this way."
         },
         {
           "label": "B",
-          "text": "Sky-Net-1 acting as a security grid of star projectors that watches over the realm from the dome.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Sky-Net-1 is the star-projector security network under parasitic control, not the Source."
-        },
-        {
-          "label": "C",
-          "text": "The Antarctic ice wall itself, the physical barrier separating Realm-2 from Realm-3.",
-          "isCorrect": false,
-          "rationale": "That is planetary partition architecture, not the Source of All Creation."
-        },
-        {
-          "label": "D",
-          "text": "A vast non-physical etheric supercomputer and indigo spark of perpetual light that orchestrated existence through thoughtform and multidimensional master planning.",
-          "isCorrect": true,
-          "rationale": "Source of All Creation is defined as a vast non-physical etheric supercomputer and indigo spark of perpetual light orchestrating existence through thoughtform and master planning."
+          "rationale": "It is true — the report defines “Source of All Creation” as: A vast, non-physical etheric supercomputer and indigo spark of perpetual light that orchestrated physical existence through thoughtform and multidimensional master planning."
         }
       ],
-      "hint": "Etheric supercomputer, indigo spark, thoughtform planning.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Source of All Creation”.",
+      "correctAnswer": "A"
     },
     {
       "number": 6,
@@ -210,67 +198,55 @@
     },
     {
       "number": 7,
-      "question": "What does Sol-System mean?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The literal network of connected souls (Sols) making up an individual's cosmic family, with no relation to fake space, planets, or orbits.",
+          "text": "Sol-System — The central physical plain of existence consisting of 178 worlds, where the Earth resides at the center of a toroid energy field.",
           "isCorrect": true,
-          "rationale": "Sol-System is defined as the network of connected souls (Sols) of a cosmic family, unrelated to fake space, planets, or orbits."
+          "rationale": "That description belongs to “Gateway-10”. The report defines “Sol-System” as: The literal network of connected souls (Sols) making up an individual's cosmic family, possessing no relation to the fake concepts of space, planets, or orbits."
         },
         {
           "label": "B",
-          "text": "The EMF flash that pixelates the sky from Polaris downward when the Projection Dome is removed.",
+          "text": "Overlays — Projected frequencies that augment the perception of matter, completely obscuring the unmovable, high-vibrational true architecture of the realm.",
           "isCorrect": false,
-          "rationale": "That describes the Sky Event sequence, not Sol-System."
+          "rationale": "This pairing matches the report's definition of “Overlays”."
         },
         {
           "label": "C",
-          "text": "A heliocentric set of planets orbiting a burning gas sun at fixed distances through outer space.",
+          "text": "Black Void Plasma — Extraterrestrial Niberian technology utilized to blacken the sky, hiding the true bright white reality of the Dark Matter Field.",
           "isCorrect": false,
-          "rationale": "Heliocentrism and orbital planets are rejected; Sol-System is not that model."
+          "rationale": "This pairing matches the report's definition of “Black Void Plasma”."
         },
         {
           "label": "D",
-          "text": "The ice wall boundary joining Mars to Realm-1, used as a crossing point between realms.",
+          "text": "Sky-Net-1 — A network of security-system-like entities perceived by humanity as \"Stars,\" projecting overlays and suppressing geographical density.",
           "isCorrect": false,
-          "rationale": "Mars/ice-wall architecture is separate from the Sol-System soul-family definition."
+          "rationale": "This pairing matches the report's definition of “Sky-Net-1”."
         }
       ],
-      "hint": "Connected souls / cosmic family — not planets.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "A"
     },
     {
       "number": 8,
-      "question": "What necessary role does the Firmament play for biological perception?",
+      "question": "True or False: According to the report, “Firmament” refers to extraterrestrial Niberian technology utilized to blacken the sky, hiding the true bright white reality of the Dark Matter Field.",
       "options": [
         {
           "label": "A",
-          "text": "It is the outer structural membrane that bends light and sound so biological eyes can perceive physically.",
-          "isCorrect": true,
-          "rationale": "The Firmament is the outer structural membrane necessary to bend light and sound, enabling physical perception for biological eyes."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Black Void Plasma”. The report defines “Firmament” as: The outer structural membrane necessary to bend light and sound, enabling physical perception for biological eyes."
         },
         {
           "label": "B",
-          "text": "It is identical to the Holographic Projection Dome and only projects asteroids.",
-          "isCorrect": false,
-          "rationale": "The Projection Dome sits beneath the Firmament as an inner technological layer; they are distinct."
-        },
-        {
-          "label": "C",
-          "text": "It is the Amnesia Vortex portal inside the sun.",
-          "isCorrect": false,
-          "rationale": "The sun/Amnesia Vortex is a soul-processing portal, not the Firmament."
-        },
-        {
-          "label": "D",
-          "text": "It generates gravity so water sticks to a spinning globe.",
-          "isCorrect": false,
-          "rationale": "Gravity is called fictional; the Firmament enables perception, not globe gravity."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Black Void Plasma”, not “Firmament”."
         }
       ],
-      "hint": "Outer membrane; bends light and sound for eyes.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Firmament”.",
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -694,25 +670,25 @@
       "options": [
         {
           "label": "A",
-          "text": "By erasing Ley Lines so no duration can be perceived.",
+          "text": "By erasing the Ley Lines, which leaves people unable to sense duration and dependent on the clocks they are given.",
           "isCorrect": false,
           "rationale": "Lattice Membrane Network suppression is linked, but the day-cycle mechanism is the 24 vs 96 hour contrast."
         },
         {
           "label": "B",
-          "text": "By imposing artificial sunrises and truncated 24-hour daylight cycles that replace the natural 96-hour eternal dusk of true reality.",
+          "text": "By imposing artificial sunrises and truncated 24-hour cycles that replace the natural 96-hour eternal dusk.",
           "isCorrect": true,
           "rationale": "Parasites enforce simulated chronological progression via artificial sunrises and truncated 24-hour cycles, replacing natural 96-hour eternal dusk."
         },
         {
           "label": "C",
-          "text": "By stopping all clocks when Venus illuminates the moon.",
+          "text": "By stopping time whenever Venus lights the moon, so that each night is longer than people remember it being.",
           "isCorrect": false,
           "rationale": "Venus generates lunar illumination; time enforcement is sunrise/day-cycle simulation."
         },
         {
           "label": "D",
-          "text": "By making every day exactly 178 hours to match Gateway-10's worlds.",
+          "text": "By stretching each day to 178 hours to match the worlds of Gateway-10, which makes a lifetime feel shorter.",
           "isCorrect": false,
           "rationale": "The contrast given is 24-hour truncation vs 96-hour eternal dusk, not 178-hour days."
         }

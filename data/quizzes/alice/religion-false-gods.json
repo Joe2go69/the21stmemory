@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is Religion in the architecture of The 3 Strings of Attachment?",
+      "question": "True or False: According to the report, “The 3 Strings of Attachment” refers to the three psychological anchors (Religion, Finance, and Perceived Knowledge) that bind human consciousness to the artificial realm, stronger than Kevlar, which must be severed to avoid psychological dissolution.",
       "options": [
         {
           "label": "A",
-          "text": "An optional cultural festival that can stay intact while only Finance is uninstalled.",
-          "isCorrect": false,
-          "rationale": "All three Strings must be severed; clinging to Religion guarantees collapse under terminal events."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “The 3 Strings of Attachment” this way."
         },
         {
           "label": "B",
-          "text": "String 2 only — a monetary hobby that has no link to deities, cognition, or clean-exit survival.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Finance is String 2; Religion is String 1, the false-god cognitive tether."
-        },
-        {
-          "label": "C",
-          "text": "String 1 — one of the three primary psychological tethers that must be entirely severed to achieve a clean exit during the Great Spiritual Awakening.",
-          "isCorrect": true,
-          "rationale": "Religion is String 1 of the 3 Strings; it must be fully cut for a clean exit in the awakening."
-        },
-        {
-          "label": "D",
-          "text": "A free-energy school that teaches Lattice Membrane science without any external control.",
-          "isCorrect": false,
-          "rationale": "Religion subdues cognition via False Gods; it is not free-energy education."
+          "rationale": "It is true — the report defines “The 3 Strings of Attachment” as: The three psychological anchors (Religion, Finance, and Perceived Knowledge) that bind human consciousness to the artificial realm, stronger than Kevlar, which must be severed to avoid psychological dissolution."
         }
       ],
-      "hint": "String 1 of the 3 Strings — sever for clean exit.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “The 3 Strings of Attachment”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -178,66 +166,54 @@
     },
     {
       "number": 6,
-      "question": "What are The 3 Strings of Attachment, and how strong are they?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Religion, Finance, and Perceived Knowledge — psychological anchors stronger than Kevlar that bind consciousness to the artificial realm and must be severed to avoid psychological dissolution.",
-          "isCorrect": true,
-          "rationale": "Three Kevlar-strong anchors: Religion, Finance, Perceived Knowledge — cut them or dissolve."
+          "text": "Vessel — The mortal, singular-use physical \"suit\" driven by the eternal soul, falsely emphasized by religious doctrines regarding genetic bloodlines to tether individuals to third-density loops.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Vessel”."
         },
         {
           "label": "B",
-          "text": "Three optional hobbies thinner than silk that dissolve if you change the channel once.",
-          "isCorrect": false,
-          "rationale": "They are stronger than Kevlar and must be severed to avoid psychological dissolution."
+          "text": "The 3 Strings of Attachment — The subterranean headquarters for parasitic entities, functioning as a luxury slaughterhouse and soul-redistribution hub located upon a major planetary node.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “The Vatican”. The report defines “The 3 Strings of Attachment” as: The three psychological anchors (Religion, Finance, and Perceived Knowledge) that bind human consciousness to the artificial realm, stronger than Kevlar, which must be severed to avoid psychological dissolution."
         },
         {
           "label": "C",
-          "text": "Only Vatican architecture, gold mines, and university libraries with no ego or consciousness effect.",
+          "text": "String 1: Religion — The systemic belief in false gods and religious deities, engineered as a circular belief system to subdue the mind and replace independent cognition with external control.",
           "isCorrect": false,
-          "rationale": "The Strings are psychological anchors on consciousness, not mere building categories."
+          "rationale": "This pairing matches the report's definition of “String 1: Religion”."
         },
         {
           "label": "D",
-          "text": "EBS, EMF, and the Projection Dome as physical cables under the Ice Wall alone.",
+          "text": "Emergency Broadcast System (EBS) — The orchestrated planetary broadcast that will undeniably prove the non-existence of benevolent religious deities by exposing millennia of suppressed atrocities.",
           "isCorrect": false,
-          "rationale": "Those are reveal mechanisms; the Strings are Religion, Finance, and Perceived Knowledge."
+          "rationale": "This pairing matches the report's definition of “Emergency Broadcast System (EBS)”."
         }
       ],
-      "hint": "Religion · Finance · Perceived Knowledge — stronger than Kevlar.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 7,
-      "question": "What will the Emergency Broadcast System (EBS) do regarding religion?",
+      "question": "True or False: According to the report, “Emergency Broadcast System (EBS)” refers to the subterranean headquarters for parasitic entities, functioning as a luxury slaughterhouse and soul-redistribution hub located upon a major planetary node.",
       "options": [
         {
           "label": "A",
-          "text": "Quietly restore the projection dome so religious programming never faces visual challenge.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "EBS and related terminal events dismantle illusions; they do not restore the dome for comfort."
+          "rationale": "False — that description belongs to “The Vatican”. The report defines “Emergency Broadcast System (EBS)” as: The orchestrated planetary broadcast that will undeniably prove the non-existence of benevolent religious deities by exposing millennia of suppressed atrocities."
         },
         {
           "label": "B",
-          "text": "Undeniably prove the non-existence of benevolent religious deities by exposing millennia of suppressed atrocities.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "EBS is the orchestrated broadcast that shatters benevolent-deity fiction with atrocity truth."
-        },
-        {
-          "label": "C",
-          "text": "Only announce stock prices and never mention child sacrifice or false benevolence.",
-          "isCorrect": false,
-          "rationale": "EBS forces confrontation with millennia of atrocities incompatible with a loving God."
-        },
-        {
-          "label": "D",
-          "text": "Crown a new official global deity and order intensified worship for the next thousand years.",
-          "isCorrect": false,
-          "rationale": "EBS proves the non-existence of benevolent religious deities by exposing suppressed atrocities."
+          "rationale": "Correct — that description belongs to “The Vatican”, not “Emergency Broadcast System (EBS)”."
         }
       ],
-      "hint": "EBS exposes atrocities — no benevolent deities left standing.",
+      "hint": "Recall how the report's Key Terminology defines “Emergency Broadcast System (EBS)”.",
       "correctAnswer": "B"
     },
     {

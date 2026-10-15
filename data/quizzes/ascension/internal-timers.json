@@ -18,35 +18,35 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary role of the internal timers within the quartz crystal network?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Detecting external interference from low-vibrational adversarial forces.",
+          "text": "Project Looking Glass — A time-travel and timeline-viewing technology utilized by positive forces to navigate the temporal landscape and plant the crystal network in the future.",
           "isCorrect": false,
-          "rationale": "The timers are pre-set triggers rather than sensors meant to detect or react to outside manipulation efforts."
+          "rationale": "This pairing matches the report's definition of “Project Looking Glass”."
         },
         {
           "label": "B",
-          "text": "Governing the synchronized physical emergence of millions of crystals.",
-          "isCorrect": true,
-          "rationale": "The timers are pre-programmed chronological triggers that govern the synchronized physical emergence of millions of quartz crystals from beneath the Earth's surface."
+          "text": "Quartz Crystal Technology — An advanced network of mineral-based conductors implanted globally to act as memory storage, energy transceivers, and grid regulators.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Quartz Crystal Technology”."
         },
         {
           "label": "C",
-          "text": "Regulating the temperature of the Earth's core during solar flashes.",
+          "text": "EMP Grid — A dense electromagnetic pulse grid formed when the emerging quartz crystals are charged by solar frequencies, preventing any sol from escaping the realm during transition.",
           "isCorrect": false,
-          "rationale": "The crystals act as grid regulators and energy transceivers rather than thermal stabilizers for the planet's core."
+          "rationale": "This pairing matches the report's definition of “EMP Grid”."
         },
         {
           "label": "D",
-          "text": "Monitoring the collective belief levels of the human population.",
-          "isCorrect": false,
-          "rationale": "While frequency is relevant to the portal, the physical emergence itself is automated and independent of human belief."
+          "text": "Internal Timers — A high-frequency layer of positive energy and free energy, built up by collective resonance, which interacts with the charged crystals to manifest the portal.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “New Aether”. The report defines “Internal Timers” as: Pre-programmed chronological triggers embedded within implanted quartz crystals that control their synchronized emergence from the earth."
         }
       ],
-      "hint": "Consider the mechanical purpose of a countdown trigger in a physical deployment.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 2,

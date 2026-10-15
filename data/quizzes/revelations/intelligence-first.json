@@ -50,34 +50,34 @@
     },
     {
       "number": 2,
-      "question": "Who are the Proximal Sols within the framework of Source Creation?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The Proximal Sols are the original twelve spiritual beings, consisting of six male and female pairs created directly by Source Creation.",
+          "text": "Source Creation — The innate high-density cognitive and spiritual traits embedded as core firmware within true soul consciousness at birth.",
           "isCorrect": true,
-          "rationale": "Source Creation generated six pairs of complementary male and female consciousness seeds, establishing the 12 Proximal Sols as the first seeds of individualized thought."
+          "rationale": "That description belongs to “15 Attributes”. The report defines “Source Creation” as: The Initial Intelligence that brought forth the original spiritual consciousness pairs into existence."
         },
         {
           "label": "B",
-          "text": "The four thousand unique soul architectures designed to expand the arena of physical and spiritual experience.",
+          "text": "Aktun — The master creation entity and production-line source responsible for generating the original Taran hominid DNA blueprint.",
           "isCorrect": false,
-          "rationale": "The four thousand architectures were a subsequent creation forged by the original twelve beings."
+          "rationale": "This pairing matches the report's definition of “Aktun”."
         },
         {
           "label": "C",
-          "text": "The master creation entities responsible for engineering the hominid DNA and Taran vessel blueprints on the production lines.",
+          "text": "Taran Human — The perfected original hominid vessel blueprint engineered to express high-density consciousness within the physical realm.",
           "isCorrect": false,
-          "rationale": "The engineering of biological blueprints was a later task handled by Aktun, not by the Proximal Sols."
+          "rationale": "This pairing matches the report's definition of “Taran Human”."
         },
         {
           "label": "D",
-          "text": "The parasitic controllers who downsized Taran DNA to manage incarcerated spiritual entities in third-density bodies.",
+          "text": "Proximal Sols — The original twelve spiritual beings, consisting of six male and female pairs, created directly by Source Creation to expand experiential reality.",
           "isCorrect": false,
-          "rationale": "The Proximal Sols are the original positive creators, not the entities managing the current containment."
+          "rationale": "This pairing matches the report's definition of “Proximal Sols”."
         }
       ],
-      "hint": "Look for the specific number of primary consciousness seeds and their pairing.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "A"
     },
     {
@@ -246,25 +246,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Parasitic controllers downsized and downgraded this Taran DNA into current third-density human bodies, shrinking the brain volume and sealing off vast functional neurological centers.",
+          "text": "Controllers downsized and downgraded it into third-density bodies, shrinking brain volume and sealing off neurological centers.",
           "isCorrect": true,
           "rationale": "The controllers limited the vessel to maintain control over incarcerated spiritual entities."
         },
         {
           "label": "B",
-          "text": "It was completely replaced by primitive primate DNA to facilitate easier biological survival.",
+          "text": "It was replaced by primitive primate DNA to make biological survival easier in the harsher lower-density conditions.",
           "isCorrect": false,
           "rationale": "The Taran DNA was modified and shrunk but remains the core blueprint of the current vessel."
         },
         {
           "label": "C",
-          "text": "It was integrated with the 15 Attributes to create a more resilient physical container.",
+          "text": "It was combined with the 15 Attributes to create a more resilient physical container for life in the lower density.",
           "isCorrect": false,
           "rationale": "The 15 Attributes are spiritual firmware and were not part of the physical DNA downsizing process."
         },
         {
           "label": "D",
-          "text": "It was upgraded through natural selection to adapt to the lower-density physical environment.",
+          "text": "It was upgraded through natural selection, adapting the Taran body to the lower-density physical environment.",
           "isCorrect": false,
           "rationale": "The current human form is a strategic downgrade of a perfected ancestor, not an evolutionary upgrade."
         }

@@ -178,34 +178,22 @@
     },
     {
       "number": 6,
-      "question": "What acoustic alteration was deliberately introduced to disrupt natural harmonic resonance and disable aetheric energy harvesting?",
+      "question": "True or False: According to the report, “Aetheric Energy Harvesting” refers to the technological extraction of ambient, wireless energy from the realm's aether using structural spires, metallic domes, geometric alignments, and tuned organ pipes.",
       "options": [
         {
           "label": "A",
-          "text": "The forced acoustic alteration was imposed on global music and sound systems to disrupt natural harmonic resonance, disable aetheric harvesting, and induce cognitive dissonance.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "The 440Hz frequency inversion was imposed on global music and sound systems to disrupt natural harmonic resonance and disable aetheric harvesting."
+          "rationale": "True — the report defines “Aetheric Energy Harvesting” this way."
         },
         {
           "label": "B",
-          "text": "Ultrasonic generators were buried under primary nodes to jam the lattice from below.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Disruption was the 440Hz frequency inversion imposed on global music and sound systems."
-        },
-        {
-          "label": "C",
-          "text": "Every internal organ pipe was pulled from cathedrals and stone halls and left out of the fabric.",
-          "isCorrect": false,
-          "rationale": "Organ pipes were shortened and retuned to the dissonant 440Hz frequency rather than removed wholesale."
-        },
-        {
-          "label": "D",
-          "text": "Lead-lined interior plaster was applied to cathedral walls to choke the standing waves inside.",
-          "isCorrect": false,
-          "rationale": "The break came from a frequency inversion on music and sound systems, not from lead-lined plaster."
+          "rationale": "It is true — the report defines “Aetheric Energy Harvesting” as: The technological extraction of ambient, wireless energy from the realm's aether using structural spires, metallic domes, geometric alignments, and tuned organ pipes."
         }
       ],
-      "hint": "A forced tuning shift on music and sound systems broke the natural harmonic.",
+      "hint": "Recall how the report's Key Terminology defines “Aetheric Energy Harvesting”.",
       "correctAnswer": "A"
     },
     {
@@ -342,25 +330,25 @@
       "options": [
         {
           "label": "A",
-          "text": "These charges were stepped down and routed through structural rooms to warm stone walls, power instant hot water fonts, and maintain unperishing food recesses without combustion or external fuel lines.",
+          "text": "They were routed through rooms to warm stone walls, power instant hot water fonts, and keep food from perishing without fuel lines.",
           "isCorrect": true,
           "rationale": "Charges were stepped down and routed through structural rooms to warm stone walls, power instant hot water fonts, and maintain unperishing food recesses without combustion or external fuel lines."
         },
         {
           "label": "B",
-          "text": "The currents lit metallic filaments inside sealed glass bulbs with no internal wiring at all.",
+          "text": "They lit metallic filaments inside sealed glass bulbs hanging in each room, without any wiring running through the walls.",
           "isCorrect": false,
           "rationale": "The routed charges warmed stone walls, powered hot water fonts, and maintained unperishing food recesses."
         },
         {
           "label": "C",
-          "text": "The currents charged chemical battery banks kept in subterranean crystalline storage vaults.",
+          "text": "They charged chemical battery banks stored in crystalline vaults beneath the building for use during the winter months.",
           "isCorrect": false,
           "rationale": "Currents were stepped down for immediate heating, hot water, and food recesses without chemical storage."
         },
         {
           "label": "D",
-          "text": "The currents drove high-speed pneumatic elevators stacked inside the central spire towers.",
+          "text": "They drove high-speed pneumatic elevators stacked inside the central spire towers to carry people between floors.",
           "isCorrect": false,
           "rationale": "Charges were routed to warm stone walls, power hot water fonts, and maintain food recesses, not elevators."
         }
@@ -406,25 +394,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Copper piping was stripped from urban water mains so buildings lost their conductive path.",
+          "text": "Stripping copper piping from urban water mains, so the buildings lost their conductive path to the aether.",
           "isCorrect": false,
           "rationale": "The disconnection used pineal calcification via public water fluoridation, not removal of copper piping."
         },
         {
           "label": "B",
-          "text": "Choral singing and pipe-organ performance were banned from public gathering spaces.",
+          "text": "Banning choral singing and pipe-organ performance from public gathering spaces across the old cities.",
           "isCorrect": false,
           "rationale": "Pipes were retuned to 440Hz, and pineal calcification via public water fluoridation completed the break."
         },
         {
           "label": "C",
-          "text": "Synthetic electromagnetic shielding was built into ordinary residential walls and roofs.",
+          "text": "Building synthetic electromagnetic shielding into residential walls and roofs to block resonance.",
           "isCorrect": false,
           "rationale": "The added method was chemical calcification of the human pineal gland via public water fluoridation."
         },
         {
           "label": "D",
-          "text": "By replacing the natural 432Hz frequency with 440Hz acoustic dissonance and combining it with the chemical calcification of the human pineal gland via public water fluoridation, controlling forces severed the acoustic link between human consciousness, harmonic buildings, and the aether.",
+          "text": "Calcifying the pineal gland through public water fluoridation, combined with the 440Hz acoustic dissonance.",
           "isCorrect": true,
           "rationale": "Chemical calcification of the human pineal gland via public water fluoridation, combined with 440Hz acoustic dissonance, severed the acoustic link between human consciousness, harmonic buildings, and the aether."
         }
@@ -534,25 +522,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Replacing present wiring with high-voltage direct-current copper lines would restore the grid.",
+          "text": "High-voltage direct-current copper lines run through the old structures to restore the original grid.",
           "isCorrect": false,
           "rationale": "The blueprint restores wireless resonance through sound masonry, not a new wired copper grid."
         },
         {
           "label": "B",
-          "text": "Rebuilding mechanical steam turbines on the old ruins is the practical path back to nodal power.",
+          "text": "Mechanical steam turbines rebuilt on the old ruins, feeding power back into the planetary nodes.",
           "isCorrect": false,
           "rationale": "The blueprint is sound masonry and solfeggio resonance, not combustion turbines on the ruins."
         },
         {
           "label": "C",
-          "text": "Understanding the acoustic mechanics of sound masonry and solfeggio resonance provides the blueprint for re-engaging planetary energy nodes, eliminating dependence on fossil fuel infrastructure, and restoring environmental equilibrium through 432Hz resonance.",
+          "text": "The acoustic mechanics of sound masonry and solfeggio resonance, re-engaging nodes through 432Hz resonance.",
           "isCorrect": true,
           "rationale": "Understanding the acoustic mechanics of sound masonry and solfeggio resonance provides the blueprint for re-engaging planetary energy nodes and restoring environmental equilibrium through 432Hz resonance."
         },
         {
           "label": "D",
-          "text": "Deep subterranean concrete barriers around geological fault lines would restart the nodal flow.",
+          "text": "Deep concrete barriers around geological fault lines that restart the nodal flow beneath the cities.",
           "isCorrect": false,
           "rationale": "Re-engaging nodes depends on sound masonry and solfeggio resonance, not concrete barriers."
         }
@@ -566,25 +554,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Spring water was circulated to cool iron circuitry and keep metallic domes from overheating.",
+          "text": "Spring water was circulated through the walls to cool the iron circuitry inside the buildings and keep the metallic domes from overheating in summer.",
           "isCorrect": false,
           "rationale": "The footprints maintain contact with subterranean water conduits and crystalline veins, not an industrial cooling loop."
         },
         {
           "label": "B",
-          "text": "Original crystalline healing temples were anchored over natural spring emanations and crystalline veins, and stone harmonic buildings were erected on these exact footprints to maintain contact with subterranean water conduits.",
+          "text": "The original crystalline healing temples were anchored over springs and crystalline veins, so building on those footprints kept contact with subterranean water conduits.",
           "isCorrect": true,
           "rationale": "Crystalline healing temples were anchored over natural spring emanations and crystalline veins, and stone harmonic buildings were erected on these exact footprints to maintain contact with subterranean water conduits."
         },
         {
           "label": "C",
-          "text": "Spring pressure was needed to run hydraulic hammers whenever the stone fabric needed repair.",
+          "text": "Spring pressure was needed to drive hydraulic hammers whenever the stone fabric required repair, so builders placed the halls directly over the sources.",
           "isCorrect": false,
           "rationale": "Buildings were erected on these footprints to maintain contact with subterranean water conduits, not to power hammers."
         },
         {
           "label": "D",
-          "text": "The springs flushed waste into nearby rivers so the buildings needed no pumping equipment.",
+          "text": "The springs flushed waste into nearby rivers, so buildings placed over them needed no pumping equipment and stayed clean without any maintenance.",
           "isCorrect": false,
           "rationale": "Placement maintained contact with subterranean water conduits and crystalline veins, not a waste flush."
         }
@@ -726,25 +714,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Before the retuning, the pipes only marked ceremonial hours and had no effect on the stone fabric.",
+          "text": "They marked ceremonial hours across the city and called the population to gatherings, while the stone fabric was kept cool by ventilation shafts.",
           "isCorrect": false,
           "rationale": "The pipes amplified pure standing waves that regulated temperature, moisture, and the integrity of the stone fabric."
         },
         {
           "label": "B",
-          "text": "Before the retuning, the pipes stored surplus electrical charge for later release into the domes.",
+          "text": "They stored surplus electrical charge drawn from the ley lines and released it into the domes during festivals and seasonal rites.",
           "isCorrect": false,
           "rationale": "The pipes amplified pure standing waves for temperature, moisture, and the integrity of the stone fabric."
         },
         {
           "label": "C",
-          "text": "Before being systematically shortened and retuned to the dissonant 440Hz frequency, these organ pipes amplified pure standing waves that regulated internal temperature, stabilized environmental moisture, and maintained the physical integrity of the stone fabric.",
+          "text": "They amplified pure standing waves that regulated internal temperature, stabilized moisture, and maintained the integrity of the stone fabric.",
           "isCorrect": true,
           "rationale": "Before being shortened and retuned to the dissonant 440Hz frequency, these organ pipes amplified pure standing waves that regulated internal temperature, stabilized environmental moisture, and maintained the physical integrity of the stone fabric."
         },
         {
           "label": "D",
-          "text": "Before the retuning, the pipes pumped spring water through the walls whenever moisture fell.",
+          "text": "They pumped spring water up through the walls whenever moisture fell, keeping the foundations damp so the stone would not crack.",
           "isCorrect": false,
           "rationale": "The pipes amplified pure standing waves that stabilized environmental moisture, rather than pumping spring water."
         }
@@ -786,35 +774,23 @@
     },
     {
       "number": 25,
-      "question": "What does obscuring the acoustic and geometric principles of harmonic architecture prevent modern societies from recognizing?",
+      "question": "True or False: According to the report, “Harmonic Architecture” refers to the original high-vibrational pre-colonization structures situated on primary planetary energy nodes, which were subjected to density suppression and later capped with 3rd-density stone edifices.",
       "options": [
         {
           "label": "A",
-          "text": "Societies fail to see that harmonic shells were only tombs and never carried energy at all.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The obscured recognition is that decentralized, wireless, non-combustion power grids functioned globally in prior eras."
+          "rationale": "False — that description belongs to “Crystalline Healing Temples”. The report defines “Harmonic Architecture” as: The natural, frequency-based construction methodology that uses sound levitation, Fibonacci geometry, and solfeggio scales to grow and manifest structures on nodal energy points."
         },
         {
           "label": "B",
-          "text": "Societies fail to see that every cathedral was a 19th-century copy of one Parisian pattern book.",
-          "isCorrect": false,
-          "rationale": "What is obscured is that decentralized, wireless, non-combustion power grids functioned globally in prior eras."
-        },
-        {
-          "label": "C",
-          "text": "Obscuring the acoustic and geometric principles of harmonic architecture prevents modern societies from recognizing that decentralized, wireless, non-combustion power grids functioned globally in prior eras.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Obscuring those principles prevents modern societies from recognizing that decentralized, wireless, non-combustion power grids functioned globally in prior eras."
-        },
-        {
-          "label": "D",
-          "text": "Societies fail to see that fossil fuel infrastructure was already the global power system in those eras.",
-          "isCorrect": false,
-          "rationale": "The unrecognized fact is that decentralized, wireless, non-combustion power grids functioned globally in prior eras."
+          "rationale": "Correct — that description belongs to “Crystalline Healing Temples”, not “Harmonic Architecture”."
         }
       ],
-      "hint": "The hidden fact is a worldwide power grid that did not burn fuel.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Harmonic Architecture”.",
+      "correctAnswer": "B"
     }
   ]
 }

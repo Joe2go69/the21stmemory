@@ -18,34 +18,34 @@
   "questions": [
     {
       "number": 1,
-      "question": "What was the primary structural consequence of the 1947 Transistor Leak on the custodial timeline?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It allowed the Military Industrial Complex to maintain permanent containment over solid-state semiconductor physics.",
+          "text": "Transistor Leak — The accelerated release of reverse-engineered extraterrestrial solid-state semiconductor technology into public time, breaking custodial timeline locks.",
           "isCorrect": false,
-          "rationale": "Commercial research dependencies caused solid-state physics to escape military containment into public consumer manufacturing."
+          "rationale": "This pairing matches the report's definition of “Transistor Leak”."
         },
         {
           "label": "B",
-          "text": "It collapsed a planned 1500-year suppression loop by introducing solid-state computing 47 years into the cycle.",
+          "text": "Roswell Checkmate — Microchip manufacturing technology that allows tens or hundreds of billions of solid-state transistors to be integrated onto a single silicon die.",
           "isCorrect": true,
-          "rationale": "Inserting solid-state semiconductor physics into human industrial development just 47 years after the previous planetary reset shattered the custodial control timeline and compressed a planned 1,500-year suppression loop."
+          "rationale": "That description belongs to “Very Large-Scale Integration (VLSI)”. The report defines “Roswell Checkmate” as: The strategic intervention in July 1947 wherein two H1 Orion Grey craft were downed in New Mexico to force off-world hardware into human reverse-engineering pipelines."
         },
         {
           "label": "C",
-          "text": "It delayed the development of consumer microprocessing infrastructure until the final stage of the Great Awakening.",
+          "text": "H1 Orion Craft — Hostile Grey extraterrestrial vessels equipped as mobile genetic laboratories engaged in the non-consensual capture of human tissue and genetic samples.",
           "isCorrect": false,
-          "rationale": "The leak brought microprocessing infrastructure forward rather than postponing its deployment."
+          "rationale": "This pairing matches the report's definition of “H1 Orion Craft”."
         },
         {
           "label": "D",
-          "text": "It restored the 1000-year Stone Age reset baseline by completely eliminating thermionic vacuum tubes from public use.",
+          "text": "Point-Contact Transistor — The physical solid-state semiconductor device developed at Bell Labs in 1947 using silicon and germanium substrates to replace thermionic vacuum tubes.",
           "isCorrect": false,
-          "rationale": "The intervention accelerated technical advancement rather than returning humanity to a zero-tool baseline."
+          "rationale": "This pairing matches the report's definition of “Point-Contact Transistor”."
         }
       ],
-      "hint": "Consider how introducing solid-state physics early altered the schedule established after the 1900 reset.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "B"
     },
     {

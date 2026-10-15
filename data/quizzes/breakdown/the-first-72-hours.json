@@ -114,99 +114,75 @@
     },
     {
       "number": 4,
-      "question": "What is The Cut in this topic’s timeline?",
+      "question": "True or False: According to the report, “The Cut” refers to mainstream media channels that are flooded with panic and blame narratives during the initial phases.",
       "options": [
         {
           "label": "A",
-          "text": "The final year of reconstruction when every cable is restored and no one questions the narrative.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The Cut is the first 12 hours of dark communications, not a final reconstruction year of restored cables."
+          "rationale": "False — that description belongs to “MSM”. The report defines “The Cut” as: The initial 12-hour phase where internet and communications go completely dark due to severed main cables."
         },
         {
           "label": "B",
-          "text": "A permanent blackout lasting decades with no Opening Hour or later truth-leak phase at all.",
-          "isCorrect": false,
-          "rationale": "The Cut is a 12-hour opening phase inside a 72-hour window that continues into Wave and Opening Hour."
-        },
-        {
-          "label": "C",
-          "text": "The initial 12-hour phase where internet and communications go completely dark due to severed main cables.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "The Cut is the initial 12-hour phase when internet and communications go completely dark from severed main cables."
-        },
-        {
-          "label": "D",
-          "text": "Only a supermarket restock drill with fully working phones and uninterrupted MSM calm.",
-          "isCorrect": false,
-          "rationale": "The Cut darkens internet and communications via severed cables; it is not a calm restock drill with working phones."
+          "rationale": "Correct — that description belongs to “MSM”, not “The Cut”."
         }
       ],
-      "hint": "A named initial phase measured in hours, not the full 72-hour span.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “The Cut”.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,
-      "question": "What is the Frequency Fracture?",
+      "question": "True or False: According to the report, “Frequency Fracture” refers to A true, resonating soul or spark of origin embedded within a physical vessel, whose memory sharpens as the blackout progresses.",
       "options": [
         {
           "label": "A",
-          "text": "The true energetic nature of the blackout, causing the parasitic overlay to wobble and crack while true memory sharpens.",
-          "isCorrect": true,
-          "rationale": "Frequency Fracture is the blackout’s true energetic nature: the parasitic overlay wobbles and cracks, and true memory sharpens."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Sol”. The report defines “Frequency Fracture” as: The true energetic nature of the blackout event, causing the parasitic overlay to wobble, crack, and allowing true memory to sharpen."
         },
         {
           "label": "B",
-          "text": "A sports-media slogan with no atmospheric pop, NPC glitching, or biological symptoms attached rather than a Frequency Fracture that cracks the overlay and sharpens true memory.",
-          "isCorrect": false,
-          "rationale": "Frequency Fracture drives environmental and biological signs plus NPC glitching—not an empty media slogan."
-        },
-        {
-          "label": "C",
-          "text": "A permanent densification of the parasitic overlay so Sol memory can never sharpen again.",
-          "isCorrect": false,
-          "rationale": "The fracture cracks the overlay and allows true memory to sharpen; it does not densify the overlay permanently."
-        },
-        {
-          "label": "D",
-          "text": "A simple software patch that only restarts routers without any overlay crack or memory change rather than a Frequency Fracture that cracks the overlay and sharpens true memory.",
-          "isCorrect": false,
-          "rationale": "Frequency Fracture is energetic overlay collapse and memory sharpening, not a mere router software patch."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Sol”, not “Frequency Fracture”."
         }
       ],
-      "hint": "The true energetic nature of the blackout and what it does to memory.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Frequency Fracture”.",
+      "correctAnswer": "B"
     },
     {
       "number": 6,
-      "question": "What are NPCs in this 72-hour context?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Physical cables themselves with no behavioral glitching, aggression, or dazed quiet states instead of soulless background programs that glitch and hold the simulation together.",
+          "text": "Frequency Fracture — The true energetic nature of the blackout event, causing the parasitic overlay to wobble, crack, and allowing true memory to sharpen.",
           "isCorrect": false,
-          "rationale": "NPCs are programs in vessels that lash out or go quiet and dazed; they are not the cables alone."
+          "rationale": "This pairing matches the report's definition of “Frequency Fracture”."
         },
         {
           "label": "B",
-          "text": "Only Whitehat commanders who never glitch and solely author every EBS disclosure script.",
-          "isCorrect": false,
-          "rationale": "NPCs are simulation background programs that glitch; Whitehats orchestrate lockdown and EBS separately."
+          "text": "NPC — Mainstream media channels that are flooded with panic and blame narratives during the initial phases.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “MSM”. The report defines “NPC” as: Non-player characters; background programs lacking true souls that hold the simulation together, who glitch heavily and exhibit erratic behavior during the blackout."
         },
         {
           "label": "C",
-          "text": "Non-player characters — background programs lacking true souls that hold the simulation together and glitch erratically during the blackout.",
-          "isCorrect": true,
-          "rationale": "NPCs are background programs lacking true souls; they hold the simulation together and glitch heavily during the blackout."
+          "text": "Sol — A true, resonating soul or spark of origin embedded within a physical vessel, whose memory sharpens as the blackout progresses.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Sol”."
         },
         {
           "label": "D",
-          "text": "Fully resonating Sols whose memory always stays sharp and who never show erratic blackout behavior.",
+          "text": "The Cut — The initial 12-hour phase where internet and communications go completely dark due to severed main cables.",
           "isCorrect": false,
-          "rationale": "Sols are true resonating souls; NPCs lack true souls and exhibit erratic glitching behavior."
+          "rationale": "This pairing matches the report's definition of “The Cut”."
         }
       ],
-      "hint": "Background programs, soul status, and blackout behavior.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 7,

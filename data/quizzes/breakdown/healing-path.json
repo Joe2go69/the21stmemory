@@ -50,34 +50,22 @@
     },
     {
       "number": 2,
-      "question": "How are the healing sanctuaries described in terms of their composition and structure?",
+      "question": "True or False: According to the report, “Healing Sanctuaries” refers to the specific name of the tall, benevolent ground healers who project luminous outlines and mirror the soul families of recovering human sols to foster absolute safety and trust.",
       "options": [
         {
           "label": "A",
-          "text": "They are solid stone bunkers built deep underground to shield human sols from the atmospheric dome collapse.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The sanctuaries are shimmering cloaked domes of light, sound, and living crystal, not subterranean stone installations."
+          "rationale": "False — that description belongs to “Saferons”. The report defines “Healing Sanctuaries” as: Shimmering, cloaked domes of light, sound, and living crystal projected over mountains, valleys, oceans, and etheric planes where souls undergo vibrational rehabilitation."
         },
         {
           "label": "B",
-          "text": "They are pure frequency environments constructed from light, sound, and living crystal rather than physical hospitals.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Healing sanctuaries are not physical hospitals. They are pure frequency environments constructed from light, sound, and living crystal, projected as shimmering cloaked domes over mountains, valleys, oceans, and etheric planes."
-        },
-        {
-          "label": "C",
-          "text": "They are temporary shelters assembled from salvaged 3D materials left in the ruins of the parasitic network.",
-          "isCorrect": false,
-          "rationale": "The sanctuaries bypass 3D material constraints entirely. They are projected frequency environments, not salvage-built 3D shelters."
-        },
-        {
-          "label": "D",
-          "text": "They are artificial intelligence simulations designed to mirror the natural world and calm newly awakened minds.",
-          "isCorrect": false,
-          "rationale": "The sanctuaries are living frequency environments of light, sound, and living crystal, not AI simulations built to soothe the newly awakened."
+          "rationale": "Correct — that description belongs to “Saferons”, not “Healing Sanctuaries”."
         }
       ],
-      "hint": "Think about the energetic components that replace physical bricks and mortar in these restorative spaces.",
+      "hint": "Recall how the report's Key Terminology defines “Healing Sanctuaries”.",
       "correctAnswer": "B"
     },
     {
@@ -114,35 +102,35 @@
     },
     {
       "number": 4,
-      "question": "How do Crystal Halls appear to those perceiving reality through a limited 3D lens?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "They stay completely invisible to everyone except those who have already finished the homecoming path.",
+          "text": "Star Pods — Floating, etheric cocoons suspended in nebulae-like spaces designed for timeline and soul healing, mending deep soul fractures and karmic wounds across past lives.",
           "isCorrect": false,
-          "rationale": "Crystal Halls are masked, not invisible. 3D perception still sees them, but as cathedrals, churches, and abbeys rather than living crystal temples."
+          "rationale": "This pairing matches the report's definition of “Star Pods”."
         },
         {
           "label": "B",
-          "text": "They are perceived only as natural mountain ranges and rock formations so remaining parasites cannot detect them.",
-          "isCorrect": false,
-          "rationale": "Healing sanctuaries can be projected over mountains, but Crystal Halls specifically appear as cathedrals, churches, and abbeys in 3D perception."
+          "text": "Crystal Halls — Shimmering, emotional-healing sanctuaries projected over crystalline waters where liquid sound frequencies draw out emotional density and mend the heart.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Water Domes”. The report defines “Crystal Halls” as: Mental energetic sanctuaries housed within real crystal temples (overlaid in 3D perception as cathedrals and churches) where harmonic crystal slabs and prisms dissolve mental distortions and mend the mind."
         },
         {
           "label": "C",
-          "text": "They are masked by 3D perception as cathedrals, churches, and abbeys hiding multi-layered crystalline temples.",
-          "isCorrect": true,
-          "rationale": "Crystal Halls are multi-layered crystalline temples currently masked by 3D perception as cathedrals, churches, and abbeys. In those halls, souls hover over harmonic crystal slabs while prisms dissolve mental overlays."
+          "text": "Saferons — The specific name of the tall, benevolent ground healers who project luminous outlines and mirror the soul families of recovering human sols to foster absolute safety and trust.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Saferons”."
         },
         {
           "label": "D",
-          "text": "They appear as modern medical facilities and research laboratories to match human expectations of clinical healing.",
+          "text": "Ground Healers — Gentle, radiant, non-physical holographic light beings sent from the Council of 12 Suns to guide and stabilize confused souls within the healing sanctuaries.",
           "isCorrect": false,
-          "rationale": "The 3D mask is historical religious architecture — cathedrals, churches, and abbeys — not modern clinics or laboratories."
+          "rationale": "This pairing matches the report's definition of “Ground Healers”."
         }
       ],
-      "hint": "Consider common 3D structures that might actually be concealing high-frequency crystal architecture.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,

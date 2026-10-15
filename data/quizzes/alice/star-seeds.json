@@ -50,35 +50,35 @@
     },
     {
       "number": 2,
-      "question": "What are Star Seeds in this architecture?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only the 4,000 Ancient Souls under another brand name with no separate population count.",
-          "isCorrect": false,
-          "rationale": "Star Seeds are 200 million; the 4,000 Ancients are a distinct group inserted because Star Seeds forgot."
+          "text": "Star Seeds — The authentic cosmic family network comprised of individual Sols (Souls), fundamentally entirely unrelated to the falsified heliocentric model of planetary space.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Sol-System”. The report defines “Star Seeds” as: A specific incarnational group numbering 200 million, deployed into key geographical regions to anchor frequencies, though heavily suppressed by 3rd density toxins and societal programming."
         },
         {
           "label": "B",
-          "text": "A specific incarnational group numbering 200 million, deployed into key geographical regions to anchor frequencies.",
-          "isCorrect": true,
-          "rationale": "200 million Star Seeds were placed to anchor frequencies; 3rd-density toxins and programming suppress most."
+          "text": "Pod Cluster — The localized group of incarnated Soul Family members who repeatedly incarnate together within the physical simulation to maintain proximity and support.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Pod Cluster”."
         },
         {
           "label": "C",
-          "text": "Synthetic NPCs built in 4th density to replace all Taran humans after the EMF event.",
+          "text": "Taran Humans — The native human souls created by the 4,000 Ancients, trapped within the current realm for 178,000 years and subjected to systemic parasitic harvesting.",
           "isCorrect": false,
-          "rationale": "NPCs are the 97% buffer; Star Seeds are higher-density true souls trapped in the loop."
+          "rationale": "This pairing matches the report's definition of “Taran Humans”."
         },
         {
           "label": "D",
-          "text": "A random fashion label for anyone who likes astronomy with no incarnational mission or headcount.",
+          "text": "Pleiadians — Former Taran souls who successfully evaded the initial planetary capture approximately 100,000 Earth years ago, now existing as highly advanced iterations of their trapped counterparts.",
           "isCorrect": false,
-          "rationale": "Star Seeds are a specific 200-million incarnational group deployed to anchor frequencies."
+          "rationale": "This pairing matches the report's definition of “Pleiadians”."
         }
       ],
-      "hint": "200 million — deploy to key regions to anchor frequencies.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 3,
@@ -210,67 +210,43 @@
     },
     {
       "number": 7,
-      "question": "What is a Twin Flame in this architecture?",
+      "question": "True or False: According to the report, “Twin Flame” refers to the technological trap that pulls souls toward the \"bright light\" (the sun) upon physical death, facilitating memory deletion and immediate recycling into a new vessel.",
       "options": [
         {
           "label": "A",
-          "text": "The direct energetic and cosmic counterpart of a soul — purposefully kept separated in the physical realm by hostile technology to prevent memory activation and rebellion.",
-          "isCorrect": true,
-          "rationale": "Twin Flame = cosmic counterpart; forced separation blocks memory spark and rebellion."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Amnesia Vortex”. The report defines “Twin Flame” as: The direct energetic and cosmic counterpart of a soul, purposefully kept separated in the physical realm by hostile technology to prevent memory activation and rebellion."
         },
         {
           "label": "B",
-          "text": "Any coworker who shares a Pod Cluster address for one school year only.",
-          "isCorrect": false,
-          "rationale": "Pod members are Soul Family support; Twin Flame is the specific counterpart kept apart."
-        },
-        {
-          "label": "C",
-          "text": "An NPC script partner assigned randomly each week with no cosmic counterpart meaning.",
-          "isCorrect": false,
-          "rationale": "Twin Flame is the direct energetic and cosmic counterpart of a soul."
-        },
-        {
-          "label": "D",
-          "text": "A finance co-signer required for all ice-wall travel with no memory-activation risk.",
-          "isCorrect": false,
-          "rationale": "Parasites separate Twin Flames specifically to prevent memory activation and rebellion."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Amnesia Vortex”, not “Twin Flame”."
         }
       ],
-      "hint": "Cosmic counterpart — kept apart to block memory and rebellion.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Twin Flame”.",
+      "correctAnswer": "B"
     },
     {
       "number": 8,
-      "question": "What is the Amnesia Vortex?",
+      "question": "True or False: According to the report, “Amnesia Vortex” refers to the direct energetic and cosmic counterpart of a soul, purposefully kept separated in the physical realm by hostile technology to prevent memory activation and rebellion.",
       "options": [
         {
           "label": "A",
-          "text": "A natural aging law that only affects NPCs and never true Star Seeds after death.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "It is technological trap tech applied to souls routed through the sun portal."
+          "rationale": "False — that description belongs to “Twin Flame”. The report defines “Amnesia Vortex” as: The technological trap that pulls souls toward the \"bright light\" (the sun) upon physical death, facilitating memory deletion and immediate recycling into a new vessel."
         },
         {
           "label": "B",
-          "text": "A free reunion lounge at death where Twin Flames always meet with full memory intact.",
-          "isCorrect": false,
-          "rationale": "It pulls souls to the bright light (the sun), deletes memory, and recycles into a new vessel."
-        },
-        {
-          "label": "C",
-          "text": "Only the Projection Dome software that paints fake stars without touching reincarnation.",
-          "isCorrect": false,
-          "rationale": "Amnesia Vortex is the death-memory recycle trap; sky fakery is a separate overlay layer."
-        },
-        {
-          "label": "D",
-          "text": "The technological trap that pulls souls toward the \"bright light\" (the sun) upon physical death, facilitating memory deletion and immediate recycling into a new vessel.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Bright-light sun pull = Amnesia Vortex: wipe memory and force immediate vessel recycle."
+          "rationale": "Correct — that description belongs to “Twin Flame”, not “Amnesia Vortex”."
         }
       ],
-      "hint": "Bright-light sun trap — wipe memory, force new vessel.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Amnesia Vortex”.",
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -406,25 +382,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Direct upload into Pleiadian craft that never passes through any underground facility.",
+          "text": "Directly aboard Pleiadian craft waiting above the Firmament, which carry the soul to a healing station before it chooses its next life freely.",
           "isCorrect": false,
           "rationale": "Liberation reunion with Pleiadians comes after EMF; death routing is still the Vatican/Grey grid."
         },
         {
           "label": "B",
-          "text": "Pulled via the Amnesia Vortex through the sun as a processing portal, then to technological hubs in the thirteen underground levels beneath the Vatican, where Grey ETs redistribute souls to new infant vessels.",
+          "text": "Through the Amnesia Vortex in the sun portal, then to hubs in the thirteen levels beneath the Vatican, where Grey ETs assign new infant vessels.",
           "isCorrect": true,
           "rationale": "Death → sun/Amnesia Vortex → Vatican thirteen levels → Grey redistribution to birth."
         },
         {
           "label": "C",
-          "text": "Only NPC paperwork filed at city hall with no sun portal or Grey involvement whatsoever.",
+          "text": "Through a registry filed at the local city hall, which matches each departed soul to a family on the waiting list for a new child.",
           "isCorrect": false,
           "rationale": "True-soul routing uses sun portal, Vatican tech hubs, and Grey escorts."
         },
         {
           "label": "D",
-          "text": "Free rest in 5th density for centuries with full Twin Flame reunion before optional return.",
+          "text": "To a resting place in 5th density for several centuries, where the soul reunites with its Twin Flame before deciding whether to return.",
           "isCorrect": false,
           "rationale": "Forced recycle prevents free higher-density lingering; routing is parasitic and immediate."
         }

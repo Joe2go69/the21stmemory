@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary objective of the Jump Backward initiated during the First Flash?",
+      "question": "True or False: According to the report, “Jump Backward” refers to the constrained, low-vibrational environmental overlay that pixelates and collapses during the flash sequence to restore alignment with higher dimensional states.",
       "options": [
         {
           "label": "A",
-          "text": "Permanent relocation of the physical body to a distant historical period.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The movement is a temporal phase for memory retrieval rather than a permanent physical displacement to the past."
+          "rationale": "False — that description belongs to “3D Realm Simulation”. The report defines “Jump Backward” as: The immediate temporal movement to a prior point on the timeline during the First Flash, enabling direct access to original physical vessels and ancient memories."
         },
         {
           "label": "B",
-          "text": "Creating a completely new and novel spiritual identity through forward construction.",
-          "isCorrect": false,
-          "rationale": "Reclamation and remembrance of suppressed identity are emphasized over the creation of entirely new structures."
-        },
-        {
-          "label": "C",
-          "text": "Restoring human consciousness to its original state through timeline retrogression.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "The Jump Backward is designed to restore human consciousness to its original state, retrogressing awareness to its pristine origin and unlocking original vessel memory banks."
-        },
-        {
-          "label": "D",
-          "text": "Establishing a temporary simulation to observe ancient human behavior patterns.",
-          "isCorrect": false,
-          "rationale": "The mechanism collapses simulation-bound distortions rather than establishing new artificial environments."
+          "rationale": "Correct — that description belongs to “3D Realm Simulation”, not “Jump Backward”."
         }
       ],
-      "hint": "Consider whether the Great Awakening involves building something new or reclaiming what was already there.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Jump Backward”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -434,35 +422,23 @@
     },
     {
       "number": 14,
-      "question": "How is the 3D Realm Simulation described in its relationship to the flash?",
+      "question": "True or False: According to the report, “3D Realm Simulation” refers to the immediate temporal movement to a prior point on the timeline during the First Flash, enabling direct access to original physical vessels and ancient memories.",
       "options": [
         {
           "label": "A",
-          "text": "It is a low-vibrational overlay that pixelates and collapses during saturation.",
-          "isCorrect": true,
-          "rationale": "The 3D Realm Simulation is a constrained, low-vibrational overlay that pixelates and collapses during the flash sequence because it cannot maintain structural integrity under high-frequency saturation."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Jump Backward”. The report defines “3D Realm Simulation” as: The constrained, low-vibrational environmental overlay that pixelates and collapses during the flash sequence to restore alignment with higher dimensional states."
         },
         {
           "label": "B",
-          "text": "It is a necessary evolutionary step that must be integrated into the 2nd Realm.",
-          "isCorrect": false,
-          "rationale": "The simulation is a constraint to be collapsed rather than an essential part of the higher dimensional state."
-        },
-        {
-          "label": "C",
-          "text": "It is a high-vibrational classroom designed to teach soul-level patience.",
-          "isCorrect": false,
-          "rationale": "It is a constrained, low-vibrational environment that must be bypassed."
-        },
-        {
-          "label": "D",
-          "text": "It is the only reality that can exist without the quartz crystal network.",
-          "isCorrect": false,
-          "rationale": "The simulation is the artificial distortion that is removed to restore alignment with higher states."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Jump Backward”, not “3D Realm Simulation”."
         }
       ],
-      "hint": "Consider the vibration level and the ultimate fate of this environment during the shift.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “3D Realm Simulation”.",
+      "correctAnswer": "B"
     },
     {
       "number": 15,

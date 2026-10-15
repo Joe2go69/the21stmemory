@@ -18,66 +18,42 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary operational objective of the chemical attack designated as 'Watch the Water'?",
+      "question": "True or False: According to the report, “Watch the Water” refers to the operational designation for the deliberate chemical contamination of the municipal water supply aimed at suppressing human spiritual hardware.",
       "options": [
         {
           "label": "A",
-          "text": "To compromise the organic vessel's spiritual hardware and disrupt multidimensional perception.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "The primary function of this weaponized stack is the suppression and calcification of key internal receptors."
+          "rationale": "True — the report defines “Watch the Water” this way."
         },
         {
           "label": "B",
-          "text": "To alter the physical composition of atmospheric moisture and suppress rainfall cycles.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Airborne vectors like chemtrail concoctions handle atmospheric dispersion, while the liquid chemical stack targets the internal fluid systems."
-        },
-        {
-          "label": "C",
-          "text": "To induce immediate systemic biological failure across municipal population centers.",
-          "isCorrect": false,
-          "rationale": "The attack is continuous passive exposure to a chemical stack engineered to neutralize spiritual hardware."
-        },
-        {
-          "label": "D",
-          "text": "To force soul fragments into prematurely opening their atmospheric plasma portals.",
-          "isCorrect": false,
-          "rationale": "The chemical stack locks the avatar into basic 3rd-density sensory limits and does not open the plasma portal."
+          "rationale": "It is true — the report defines “Watch the Water” as: The operational designation for the deliberate chemical contamination of the municipal water supply aimed at suppressing human spiritual hardware."
         }
       ],
-      "hint": "Consider the long-term impact on the human body's internal receptive organs rather than overt physical harm.",
+      "hint": "Recall how the report's Key Terminology defines “Watch the Water”.",
       "correctAnswer": "A"
     },
     {
       "number": 2,
-      "question": "Which internal organ is explicitly targeted by the chemical stack to disrupt aetheric resonance?",
+      "question": "True or False: According to the report, “Chemical Stack” refers to the precise combination of toxic additives, fluorides, and inorganic contaminants introduced into drinking water to induce physical calcification and energetic dampening.",
       "options": [
         {
           "label": "A",
-          "text": "The primary receiver for this interaction is the pineal gland.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "An endogenous organ capable of synthesizing natural neurotransmitters like DMT receives this attack."
+          "rationale": "True — the report defines “Chemical Stack” this way."
         },
         {
           "label": "B",
-          "text": "The adrenal gland is the organ the chemical stack calcifies to block aetheric resonance.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The endogenous organ that synthesizes natural neurotransmitters like DMT is the pineal gland."
-        },
-        {
-          "label": "C",
-          "text": "The thyroid gland is the organ the chemical stack calcifies to block aetheric resonance.",
-          "isCorrect": false,
-          "rationale": "Higher-density communication is centered in the pineal gland inside spiritual hardware."
-        },
-        {
-          "label": "D",
-          "text": "The pituitary gland is the organ the chemical stack calcifies to block aetheric resonance.",
-          "isCorrect": false,
-          "rationale": "The primary receiver for this interaction is the pineal gland."
+          "rationale": "It is true — the report defines “Chemical Stack” as: The precise combination of toxic additives, fluorides, and inorganic contaminants introduced into drinking water to induce physical calcification and energetic dampening."
         }
       ],
-      "hint": "Focus on the organ known for synthesizing endogenous neurotransmitters like DMT.",
+      "hint": "Recall how the report's Key Terminology defines “Chemical Stack”.",
       "correctAnswer": "A"
     },
     {

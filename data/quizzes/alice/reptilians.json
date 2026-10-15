@@ -18,35 +18,35 @@
   "questions": [
     {
       "number": 1,
-      "question": "Where do Reptilians come from in the hierarchy of universal negativity?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only modern film studios inventing costumes with no 4th-density operations in the real plain.",
-          "isCorrect": false,
-          "rationale": "Reptilians are real Custodian-engineered 4th-density parasites, not mere entertainment props."
+          "text": "Reptilians (Omicron and Alpha Draco) — An energetic food source generated through human terror, trauma, and suffering, essential for the survival of Demons and Parasites.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Loosh”. The report defines “Reptilians (Omicron and Alpha Draco)” as: Highly negative species created by the Custodians, characterized as massive bipedal crocodiles who utilize shape-shifting and actively participate in the brutalization of humanity."
         },
         {
           "label": "B",
-          "text": "Random evolution on a distant rock with no Custodian engineering and no link to other parasites.",
+          "text": "Greys (Maitrax, Orion Greys, Zetas) — Genetically engineered entities tasked with soul recycling, abductions, hauntings, and the destruction of the central spirit tree.",
           "isCorrect": false,
-          "rationale": "Reptilians were genetically engineered by the Custodians along with Anuk and Greys."
+          "rationale": "This pairing matches the report's definition of “Greys (Maitrax, Orion Greys, Zetas)”."
         },
         {
           "label": "C",
-          "text": "The Galactic Ancestral Alliance alone, built only to free Tarans and never harvest Loosh.",
+          "text": "Niberians — The most powerful and intellectually dominant parasitic species who freed themselves from Custodian rule and utilize Black Void Plasma technology to fake the night sky, though they do not actively harvest children.",
           "isCorrect": false,
-          "rationale": "G.A.A. is not the origin of Reptilians; Custodians engineered them for subjugation."
+          "rationale": "This pairing matches the report's definition of “Niberians”."
         },
         {
           "label": "D",
-          "text": "The Custodians — originally benevolent 12th-density caretakers who betrayed Source and genetically engineered parasitic species including the Anuk, Greys, and Reptilians (Omicron and Alpha Draco factions).",
-          "isCorrect": true,
-          "rationale": "Custodian betrayal produced the engineered Reptilian factions as part of the parasitic army."
+          "text": "Custodians — The original 12th-density caretakers of the realms who initiated the inversion, fell to 4th density, and engineered all other negative parasitic species to aid in their subjugation of humanity.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Custodians”."
         }
       ],
-      "hint": "Custodian-engineered — Omicron and Alpha Draco factions.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -178,35 +178,23 @@
     },
     {
       "number": 6,
-      "question": "What are the Anuk (Anunnaki) relative to Greys and headquarters?",
+      "question": "True or False: According to the report, “Anuk (Anunnaki)” refers to highly negative species created by the Custodians, characterized as massive bipedal crocodiles who utilize shape-shifting and actively participate in the brutalization of humanity.",
       "options": [
         {
           "label": "A",
-          "text": "Only a poetry nickname for storms with no Grand Canyon base and no Grey engineering role.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Anuk established headquarters such as the Grand Canyon and engineered the Grey ETs."
+          "rationale": "False — that description belongs to “Reptilians (Omicron and Alpha Draco)”. The report defines “Anuk (Anunnaki)” as: The first successful negative species created by the Custodians, responsible for establishing headquarters in locations like the Grand Canyon and engineering the Grey ETs."
         },
         {
           "label": "B",
-          "text": "Identical to Niberians who freed themselves and never built any physical headquarters.",
-          "isCorrect": false,
-          "rationale": "Anuk are distinct: first successful created species with bases like Grand Canyon."
-        },
-        {
-          "label": "C",
-          "text": "The last failed species with no headquarters and no role creating any Grey entities.",
-          "isCorrect": false,
-          "rationale": "Anuk were the first successful negative species; they set Grand Canyon HQ and engineered Greys."
-        },
-        {
-          "label": "D",
-          "text": "The first successful negative species created by the Custodians, responsible for establishing headquarters in locations like the Grand Canyon and engineering the Grey ETs.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Anuk = first successful Custodian proxy — Grand Canyon HQ and Grey creation."
+          "rationale": "Correct — that description belongs to “Reptilians (Omicron and Alpha Draco)”, not “Anuk (Anunnaki)”."
         }
       ],
-      "hint": "First successful proxy — Grand Canyon HQ — engineered Greys.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Anuk (Anunnaki)”.",
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -246,25 +234,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The most powerful and intellectually dominant parasitic species who freed themselves from Custodian rule, utilize Black Void Plasma to fake the night sky, and do not actively harvest children.",
+          "text": "The most powerful, intellectually dominant parasites, free of Custodian rule, who use Black Void Plasma to fake the night sky and do not harvest children.",
           "isCorrect": true,
           "rationale": "Niberians = independent intellectual power + Black Void Plasma; not child harvesters."
         },
         {
           "label": "B",
-          "text": "Identical to Omicron in every role, including open flaying of humans during Resets.",
+          "text": "They work alongside the Omicron Reptilians in every role, including the flaying of humans during resets, and share the same harvest quotas.",
           "isCorrect": false,
           "rationale": "Niberians are distinct: independent, plasma sky tech, not the child-harvest enforcer role."
         },
         {
           "label": "C",
-          "text": "They are the weakest Custodian slaves who never freed themselves and never touch sky tech.",
+          "text": "They are the weakest of the Custodian servants, never freeing themselves and leaving all sky technology to the Grey ETs instead.",
           "isCorrect": false,
           "rationale": "Niberians freed themselves from Custodian rule and supply Black Void Plasma sky tech."
         },
         {
           "label": "D",
-          "text": "They only harvest children and never use Black Void Plasma or intellectual warfare systems.",
+          "text": "They specialize in harvesting children beneath the Vatican and leave Black Void Plasma and sky technology to the other species.",
           "isCorrect": false,
           "rationale": "They do not actively harvest children; they dominate intellectually and fake the night sky."
         }
@@ -306,35 +294,23 @@
     },
     {
       "number": 10,
-      "question": "What are Demons in relation to Sold Souls and the Vatican?",
+      "question": "True or False: According to the report, “Sold Soul” refers to highly negative species created by the Custodians, characterized as massive bipedal crocodiles who utilize shape-shifting and actively participate in the brutalization of humanity.",
       "options": [
         {
           "label": "A",
-          "text": "Replica Souls that power NPCs with no separate demonic hosting relationship at all.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Demons are distinct non-physical hosts in sold souls, not mere NPC replica software."
+          "rationale": "False — that description belongs to “Reptilians (Omicron and Alpha Draco)”. The report defines “Sold Soul” as: A human vessel that has surrendered its energetic autonomy, acting as a host for Demons and serving as an inter-realm \"key\" for 4th-density parasites to enter the 3rd-density simulation."
         },
         {
           "label": "B",
-          "text": "Nothing beyond movie costumes with no Vatican operations and no feeding on human terror energy.",
-          "isCorrect": false,
-          "rationale": "They operate heavily out of the Vatican and feed exclusively on Loosh."
-        },
-        {
-          "label": "C",
-          "text": "Non-physical entities that host within top-tier sold souls, feed exclusively on Loosh, and operate heavily out of the Vatican.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Demons = non-physical Loosh feeders in elite sold-soul hosts, Vatican-centered."
-        },
-        {
-          "label": "D",
-          "text": "Friendly house spirits that need no Loosh and never host in any human vessel.",
-          "isCorrect": false,
-          "rationale": "Demons are non-physical entities that host in top-tier sold souls and feed exclusively on Loosh."
+          "rationale": "Correct — that description belongs to “Reptilians (Omicron and Alpha Draco)”, not “Sold Soul”."
         }
       ],
-      "hint": "Non-physical — sold-soul hosts — exclusive Loosh — Vatican ops.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Sold Soul”.",
+      "correctAnswer": "B"
     },
     {
       "number": 11,
@@ -374,25 +350,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A free Taran who never surrendered autonomy and never serves as any inter-realm key.",
+          "text": "A Taran human who refused every contract and is held in reserve by the parasites to be traded at the next reset.",
           "isCorrect": false,
           "rationale": "A Sold Soul surrendered energetic autonomy and hosts Demons as a key for parasites."
         },
         {
           "label": "B",
-          "text": "A human vessel that has surrendered its energetic autonomy, acting as a host for Demons and serving as an inter-realm key for 4th-density parasites to enter the 3rd-density simulation.",
+          "text": "A human vessel that surrendered its energetic autonomy, hosting Demons and serving as an inter-realm key for 4th-density parasites.",
           "isCorrect": true,
           "rationale": "Sold Soul = demon host + dimensional key from 4th density into the 3rd-density sim."
         },
         {
           "label": "C",
-          "text": "An NPC that upgrades into 12th density automatically without any parasite bargain.",
+          "text": "An NPC program that was upgraded into 12th density after completing a bargain with the Reptilian overseers.",
           "isCorrect": false,
           "rationale": "Sold Souls enable parasite entry; they are not automatic high-density upgrades."
         },
         {
           "label": "D",
-          "text": "Only a bank loan contract with no demon host role and no density-boundary function.",
+          "text": "A debt contract registered at birth, used to bind a family's wealth to the parasitic banks for several generations.",
           "isCorrect": false,
           "rationale": "It is energetic surrender enabling demon hosting and 4th-to-3rd density entry."
         }
@@ -630,25 +606,25 @@
       "options": [
         {
           "label": "A",
-          "text": "There is no link; reincarnation loops are fully natural and untouched by Greys or Reptilians.",
+          "text": "Reptilians run the Amnesia Vortex on their own, wiping memories at death so the souls can be stored on the Moon station between lives.",
           "isCorrect": false,
           "rationale": "Reptilian-grid survival depends on Grey-managed forced reincarnation via the Vortex."
         },
         {
           "label": "B",
-          "text": "Reptilians personally heal the Vortex and restore every past-life memory at death.",
+          "text": "Reptilians repair the Vortex after each Reset, restoring past-life memories to selected souls who have proved useful to the hierarchy.",
           "isCorrect": false,
           "rationale": "The Vortex serves parasitic survival by wiping and recycling, not healing memory."
         },
         {
           "label": "C",
-          "text": "The Vortex frees every soul permanently so Reptilians lose all harvest population forever.",
+          "text": "The Vortex frees souls at death so Reptilians must harvest the living instead, which is why they depend on adrenochrome so heavily.",
           "isCorrect": false,
           "rationale": "Amnesia Vortex forces consciousness back into reincarnation immediately upon death."
         },
         {
           "label": "D",
-          "text": "Their survival is linked to the Amnesia Vortex — soul-recycling technology managed by the Greys that forces human consciousness back into the reincarnation loop immediately upon death.",
+          "text": "Their survival is linked to the Amnesia Vortex, the Greys' soul-recycling technology that forces souls back into the reincarnation loop at death.",
           "isCorrect": true,
           "rationale": "Grey-run Amnesia Vortex recycles souls so the harvest farm never runs out of vessels."
         }
@@ -662,25 +638,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A holographic, Dyson-sphere-like space station used by negative ETs and blond hybrids to harvest Loosh and beam negative frequencies that drive \"lunatic\" behavior down to the realm.",
+          "text": "A holographic, Dyson-sphere-like station where negative ETs and blond hybrids harvest Loosh and beam down frequencies that drive \"lunatic\" behavior.",
           "isCorrect": true,
           "rationale": "Moon station = holographic shell over loosh harvest and lunatic frequency projection."
         },
         {
           "label": "B",
-          "text": "A pure natural satellite with no station, no loosh harvest, and no frequency broadcast role.",
+          "text": "A natural satellite whose gravity affects the tides of emotion, with the Reptilians timing their harvests to the phases of its cycle.",
           "isCorrect": false,
           "rationale": "It is a holographic Dyson-sphere-like space station for loosh harvest and negative frequencies."
         },
         {
           "label": "C",
-          "text": "A G.A.A. hospital that only heals children and never beams lunatic frequencies downward.",
+          "text": "A G.A.A. hospital station that heals children taken during Resets, which the Reptilians have tried to capture for many centuries.",
           "isCorrect": false,
           "rationale": "Negative ETs and blond hybrids use it to harvest Loosh and beam negative frequencies."
         },
         {
           "label": "D",
-          "text": "Only a poetry metaphor with no Dyson-sphere architecture and no hybrid staff operations.",
+          "text": "A storage depot for the Reptilians' adrenochrome reserves, kept cold in the shadowed craters on the side facing away from the realm.",
           "isCorrect": false,
           "rationale": "It is operational negative ET infrastructure for harvest and frequency warfare."
         }

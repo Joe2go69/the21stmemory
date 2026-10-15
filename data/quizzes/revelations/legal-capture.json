@@ -50,35 +50,35 @@
     },
     {
       "number": 2,
-      "question": "In the current administrative system, what does a Birth Certificate actually represent?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "A foundational legal document that registers a living child as a commercial asset for state debt.",
-          "isCorrect": true,
-          "rationale": "The Birth Certificate is the foundational legal document that registers a living child as a commercial asset and corporate entity collateralized for state debt."
+          "text": "Cestui Que Vie 1666 Bond — A high-value financial trust instrument, colloquially termed Cester KV, created upon birth registration to monetize the lifetime energetic and economic output of a living soul.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Cestui Que Vie 1666 Bond”."
         },
         {
           "label": "B",
-          "text": "A certificate of excellence issued by the state to recognize the parents' contribution to society.",
+          "text": "Corporate Fiction — An artificial strawman persona and legal entry created by the state to represent and transact on behalf of a living person without recognizing their sovereign physical existence.",
           "isCorrect": false,
-          "rationale": "The Birth Certificate registers a living child as a commercial asset and corporate entity collateralized for state debt."
+          "rationale": "This pairing matches the report's definition of “Corporate Fiction”."
         },
         {
           "label": "C",
-          "text": "A deed of ownership that grants the living individual full authority over their own legal identity.",
+          "text": "Legal Capture — The administrative process of monetizing and subjugating a living soul by binding their identity to a state-created corporate fiction at birth.",
           "isCorrect": false,
-          "rationale": "The Birth Certificate establishes jurisdictional dominion and a corporate fiction, rather than granting the living individual ownership of that identity."
+          "rationale": "This pairing matches the report's definition of “Legal Capture”."
         },
         {
           "label": "D",
-          "text": "A biological record confirming the physical health and genealogy of a newborn child.",
-          "isCorrect": false,
-          "rationale": "Its legal function is to register a living child as a commercial asset collateralized for state debt, not to serve as a health or genealogy record."
+          "text": "Birth Certificate — A predatory financial design wherein capital is issued with compulsory interest demands designed to exceed available supply, forcing perpetual debt and systemic dependency.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Usury Trap”. The report defines “Birth Certificate” as: The foundational legal document that registers a living child as a commercial asset and corporate entity collateralized for state debt."
         }
       ],
-      "hint": "Think about how the state views the individual as a form of security or collateral.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 3,
@@ -146,34 +146,22 @@
     },
     {
       "number": 5,
-      "question": "Under Maritime Admiralty Law, how are living human beings legally categorized?",
+      "question": "True or False: According to the report, “Maritime Admiralty Law” refers to an unconstitutional, commercial legal framework operating under international maritime jurisdiction that treats living human beings as salvaged corporate cargo and commercial property.",
       "options": [
         {
           "label": "A",
-          "text": "Living human beings are treated as salvaged corporate cargo and commercial property.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Maritime Admiralty Law treats living human beings as salvaged corporate cargo and commercial property, and as corporate vessels or commercial cargo lost at sea."
+          "rationale": "True — the report defines “Maritime Admiralty Law” this way."
         },
         {
           "label": "B",
-          "text": "As biological assets that are managed under the organic common law of the physical world.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Maritime Admiralty Law is a commercial framework that treats living human beings as salvaged corporate cargo, not as persons under organic common law."
-        },
-        {
-          "label": "C",
-          "text": "As diplomats of a foreign nation who are temporarily visiting a domestic administrative zone.",
-          "isCorrect": false,
-          "rationale": "Living human beings are treated as salvaged corporate cargo and commercial property, not as independent foreign diplomats."
-        },
-        {
-          "label": "D",
-          "text": "As sovereign inhabitants of the land who are immune to commercial maritime jurisdictions.",
-          "isCorrect": false,
-          "rationale": "This framework shifts living human beings into maritime commercial jurisdiction as cargo lost at sea, rather than leaving them immune on the land."
+          "rationale": "It is true — the report defines “Maritime Admiralty Law” as: An unconstitutional, commercial legal framework operating under international maritime jurisdiction that treats living human beings as salvaged corporate cargo and commercial property."
         }
       ],
-      "hint": "Think about the terminology used for items transported on a ship.",
+      "hint": "Recall how the report's Key Terminology defines “Maritime Admiralty Law”.",
       "correctAnswer": "A"
     },
     {
@@ -210,34 +198,22 @@
     },
     {
       "number": 7,
-      "question": "What is the literal function of Government under its etymological breakdown?",
+      "question": "True or False: According to the report, “Government” refers to an administrative mind-control apparatus derived etymologically from govern (\"to rule\") and mente (\"mind\"), functioning as \"Governors of the Mind\".",
       "options": [
         {
           "label": "A",
-          "text": "Government functions as Governors of the Mind and as an administrative mind-control apparatus.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Government is an administrative mind-control apparatus derived etymologically from govern (to rule) and mente (mind), functioning as Governors of the Mind."
+          "rationale": "True — the report defines “Government” this way."
         },
         {
           "label": "B",
-          "text": "To protect the natural resources and land of a specific geographic region.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Government is derived from govern (to rule) and mente (mind) and functions as Governors of the Mind, not as a guardian of land and natural resources."
-        },
-        {
-          "label": "C",
-          "text": "To provide a transparent ledger of all public spending and resource allocation.",
-          "isCorrect": false,
-          "rationale": "The etymology points to govern (to rule) and mente (mind), so the function is mind control rather than a public ledger of spending."
-        },
-        {
-          "label": "D",
-          "text": "To facilitate the free exchange of goods and services between sovereign individuals.",
-          "isCorrect": false,
-          "rationale": "Government functions as Governors of the Mind, an administrative mind-control apparatus, rather than as a facilitator of free exchange."
+          "rationale": "It is true — the report defines “Government” as: An administrative mind-control apparatus derived etymologically from govern (\"to rule\") and mente (\"mind\"), functioning as \"Governors of the Mind\"."
         }
       ],
-      "hint": "Look at the roots of the word: govern and mente.",
+      "hint": "Recall how the report's Key Terminology defines “Government”.",
       "correctAnswer": "A"
     },
     {

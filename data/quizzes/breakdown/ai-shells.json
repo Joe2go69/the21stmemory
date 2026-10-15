@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary function of NPC shells within the 3D matrix?",
+      "question": "True or False: According to the report, “NPC Shells (or NPC Vessels)” refers to scalar frequency weapons targeting brainwaves to project artificial thoughts and voices, which manipulate and activate NPCs instantly.",
       "options": [
         {
           "label": "A",
-          "text": "Generating organic consciousness that fuels and powers the 3D matrix from within.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "NPCs operate on a pre-coded script and receive simulated thoughts. They do not generate organic consciousness."
+          "rationale": "False — that description belongs to “Voice to Skull”. The report defines “NPC Shells (or NPC Vessels)” as: empty physical templates seeded through artificial bands around the sun, carrying parasitic software rather than organic memory or solar lineage."
         },
         {
           "label": "B",
-          "text": "Protecting the second realm from parasitic interference as a defensive layer around awakened souls.",
-          "isCorrect": false,
-          "rationale": "NPC shells are themselves constructs of the parasitic overlay. They have no role in protecting the second realm."
-        },
-        {
-          "label": "C",
-          "text": "Stabilizing and maintaining the illusion of density, separation, and geography inside the simulated dome.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "NPC shells are energetic fragments of light that function as algorithmic background programs designed to stabilize and maintain the illusion of density, separation, and geography within the simulated dome."
-        },
-        {
-          "label": "D",
-          "text": "Acting as biological anchors that hold incoming solar lineages inside the 3D matrix.",
-          "isCorrect": false,
-          "rationale": "NPCs do not carry the sacred solar lineage code and cannot serve as anchors for organic consciousness."
+          "rationale": "Correct — that description belongs to “Voice to Skull”, not “NPC Shells (or NPC Vessels)”."
         }
       ],
-      "hint": "Consider the role of background programs in a simulation.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “NPC Shells (or NPC Vessels)”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -402,35 +390,23 @@
     },
     {
       "number": 13,
-      "question": "What is the role of Mimics in maintaining the simulation?",
+      "question": "True or False: According to the report, “Mimic” refers to background programs with no spark ignition and no true souls, acting as fragments of light that hold the 3D simulation together.",
       "options": [
         {
           "label": "A",
-          "text": "They replace removed or phased-out original individuals to keep the public narrative from breaking.",
-          "isCorrect": true,
-          "rationale": "A mimic is an artificial vessel or robotic copy designed to replace an original phased-out individual for public narrative maintenance."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “NPC (or Non-Player Character)”. The report defines “Mimic” as: an artificial vessel or robotic copy designed to replace an original phased-out individual for public narrative maintenance."
         },
         {
           "label": "B",
-          "text": "They act as guides who lead genuine souls through incoming crystalline crafts.",
-          "isCorrect": false,
-          "rationale": "Mimics are parasitic theater operators. They have no connection to incoming crystalline crafts or solar families."
-        },
-        {
-          "label": "C",
-          "text": "They are the original inhabitants of the unpolluted, vibrant Second Realm.",
-          "isCorrect": false,
-          "rationale": "Mimics are artificial vessels and robotic copies. The second realm is the unpolluted organic reality underneath the overlay."
-        },
-        {
-          "label": "D",
-          "text": "They serve as protectors stationed at the original high-frequency harmonic stargates.",
-          "isCorrect": false,
-          "rationale": "Mimics operate inside the dome as narrative stand-ins. They do not guard the original harmonic stargate."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “NPC (or Non-Player Character)”, not “Mimic”."
         }
       ],
-      "hint": "Think about how a production replaces an actor without the audience noticing.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Mimic”.",
+      "correctAnswer": "B"
     },
     {
       "number": 14,
@@ -626,35 +602,35 @@
     },
     {
       "number": 20,
-      "question": "What happens to the artificial entry bands during the final event flashes?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "They will destabilize, rendering NPC vessels unstable so the shells dissolve into the pixelated field.",
-          "isCorrect": true,
-          "rationale": "As the event flashes occur, the artificial entry bands will destabilize, rendering the NPC vessels unstable and causing them to dissolve into the pixelated field."
+          "text": "Voice to Skull — scalar frequency weapons targeting brainwaves to project artificial thoughts and voices, which manipulate and activate NPCs instantly.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Voice to Skull”."
         },
         {
           "label": "B",
-          "text": "They will become the primary gateway used by true souls to enter the Second Realm.",
+          "text": "Artificial Entry Bands — custom parasitic filtration bands built around the sun's natural gate used to route, track, and seed NPC shells into the simulation.",
           "isCorrect": false,
-          "rationale": "True solar souls use the original high-frequency harmonic stargate. The second realm is revealed by removing the artificial layers, not by using the parasitic bands."
+          "rationale": "This pairing matches the report's definition of “Artificial Entry Bands”."
         },
         {
           "label": "C",
-          "text": "They will expand to cover the entire solar system as a last-ditch containment net.",
+          "text": "A.I. Driven Composites — advanced digital, holographic, or robotic stand-ins used to replace removed public leaders, maintaining the illusion of continuity.",
           "isCorrect": false,
-          "rationale": "The event flashes destabilize the artificial entry bands. The overlay collapses rather than expanding."
+          "rationale": "This pairing matches the report's definition of “A.I. Driven Composites”."
         },
         {
           "label": "D",
-          "text": "They will be repurposed by star families as rescue corridors for remaining NPC shells.",
-          "isCorrect": false,
-          "rationale": "The bands are parasitic infrastructure. They destabilize and take the NPC vessels with them rather than being reused as rescue corridors."
+          "text": "Pre-coded Auto-Pilot — background programs with no spark ignition and no true souls, acting as fragments of light that hold the 3D simulation together.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “NPC (or Non-Player Character)”. The report defines “Pre-coded Auto-Pilot” as: the algorithmic behavioral script that governs the actions, perceptions, and movements of the NPC field."
         }
       ],
-      "hint": "Consider the impact of a total system failure on its infrastructure.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 21,

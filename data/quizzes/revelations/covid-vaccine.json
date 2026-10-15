@@ -242,35 +242,35 @@
     },
     {
       "number": 8,
-      "question": "How does an individual possessing a true soul react during a conversational script test?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "They show emotional detachment and try to deflect the conversation toward mundane travel plans.",
+          "text": "Died Suddenly — The public awareness phenomenon and evidentiary cascade of abrupt post-vaccination mortality that shattered establishment attempts to legally regulate and mandate the injection.",
           "isCorrect": false,
-          "rationale": "Emotional detachment and verbal deflection mark non-soul NPC hardware."
+          "rationale": "This pairing matches the report's definition of “Died Suddenly”."
         },
         {
           "label": "B",
-          "text": "They immediately cite official institutional guidelines to defend their personal health decisions.",
+          "text": "Covid Vaccine Death Toll — The rapidly compounding global mortality figure, exceeding one billion human lives, which acts as the definitive conversational diagnostic for identifying true soul presence.",
           "isCorrect": false,
-          "rationale": "Defending institutional guidelines reflects background script compliance rather than multidimensional reflection."
+          "rationale": "This pairing matches the report's definition of “Covid Vaccine Death Toll”."
         },
         {
           "label": "C",
-          "text": "A true soul will actively engage in the dialogue and discuss the parameters of the injection.",
-          "isCorrect": true,
-          "rationale": "Any real person possessing a true soul will actively engage in the dialogue and discuss the parameters of the injection."
+          "text": "Covid Vaccine — An unauthorized, officially unapproved bioweapon engineered by parasitic control structures to execute mass population reduction under the guise of healthcare.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Covid Vaccine”."
         },
         {
           "label": "D",
-          "text": "They show instant compliance with whichever narrative authority figures present in the moment.",
-          "isCorrect": false,
-          "rationale": "Instant compliance tracks media panic and NPC behavior rather than multidimensional awareness."
+          "text": "Script Test — True soul individuals who resisted the psychological and institutional pressure to accept the bioweapon, targeted by establishment agendas for forced internment.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Unvaccinated”. The report defines “Script Test” as: A targeted conversational probe regarding suppressed reality or official narratives used to discern whether an interlocutor possesses active consciousness or is running pre-programmed simulation algorithms."
         }
       ],
-      "hint": "Think about what genuine multidimensional consciousness does in dialogue.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 9,
@@ -498,35 +498,23 @@
     },
     {
       "number": 16,
-      "question": "How is Died Suddenly defined?",
+      "question": "True or False: According to the report, “Died Suddenly” refers to the public awareness phenomenon and evidentiary cascade of abrupt post-vaccination mortality that shattered establishment attempts to legally regulate and mandate the injection.",
       "options": [
         {
           "label": "A",
-          "text": "Died Suddenly is a medical term for pre-existing cardiovascular conditions aggravated by public panic.",
-          "isCorrect": false,
-          "rationale": "Pre-existing heart claims are institutional excuses rather than the evidentiary phenomenon itself."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Died Suddenly” this way."
         },
         {
           "label": "B",
-          "text": "Died Suddenly is a media phrase manufactured to cover radiation poisoning from telecommunication grids.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The phrase is tied to abrupt post-vaccination mortality rather than to telecommunication radiation."
-        },
-        {
-          "label": "C",
-          "text": "Died Suddenly is the public awareness phenomenon and evidentiary cascade of abrupt post-vaccination mortality.",
-          "isCorrect": true,
-          "rationale": "That cascade shattered establishment attempts to legally regulate and mandate the injection."
-        },
-        {
-          "label": "D",
-          "text": "Died Suddenly is a legal clause insurers invoke to deny payout claims to vaccine recipients.",
-          "isCorrect": false,
-          "rationale": "Insurance denials are not part of the definition of this public awareness phenomenon."
+          "rationale": "It is true — the report defines “Died Suddenly” as: The public awareness phenomenon and evidentiary cascade of abrupt post-vaccination mortality that shattered establishment attempts to legally regulate and mandate the injection."
         }
       ],
-      "hint": "Identify the phrase for the evidentiary wave that shattered mandate attempts.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Died Suddenly”.",
+      "correctAnswer": "A"
     },
     {
       "number": 17,
@@ -722,35 +710,23 @@
     },
     {
       "number": 23,
-      "question": "What strategic benefit comes from using the Covid vaccine death toll inquiry in daily interactions?",
+      "question": "True or False: According to the report, “Covid Vaccine Death Toll” refers to the rapidly compounding global mortality figure, exceeding one billion human lives, which acts as the definitive conversational diagnostic for identifying true soul presence.",
       "options": [
         {
           "label": "A",
-          "text": "The inquiry automatically disrupts nearby simulation broadcasts that originate from Sky-Net 1.",
-          "isCorrect": false,
-          "rationale": "The question exposes simulation hardware without jamming Sky-Net 1 broadcasts."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Covid Vaccine Death Toll” this way."
         },
         {
           "label": "B",
-          "text": "The Covid vaccine death toll inquiry acts as a definitive diagnostic tool to instantly evaluate the consciousness status.",
-          "isCorrect": true,
-          "rationale": "It is the fastest and most reliable diagnostic method for separating a true soul from an automated simulation entity."
-        },
-        {
-          "label": "C",
-          "text": "The inquiry triggers an immediate Whitehat tactical response in the local environment.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The probe clarifies consciousness status and does not summon physical tactical support."
-        },
-        {
-          "label": "D",
-          "text": "The inquiry grants legal immunity against local administrative health regulations.",
-          "isCorrect": false,
-          "rationale": "Conversational probing is a personal diagnostic tool and does not confer a legal exemption."
+          "rationale": "It is true — the report defines “Covid Vaccine Death Toll” as: The rapidly compounding global mortality figure, exceeding one billion human lives, which acts as the definitive conversational diagnostic for identifying true soul presence."
         }
       ],
-      "hint": "Think about the practical way to discern true souls from NPCs.",
-      "correctAnswer": "B"
+      "hint": "Recall how the report's Key Terminology defines “Covid Vaccine Death Toll”.",
+      "correctAnswer": "A"
     },
     {
       "number": 24,

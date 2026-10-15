@@ -18,35 +18,35 @@
   "questions": [
     {
       "number": 1,
-      "question": "What was the primary purpose of the amnesia vortex deployed by the Anunnaki and Draco?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "An advanced technological field deployed at post-mortem transition to wipe the soul's recallable memory and force factory-reset reincarnations.",
-          "isCorrect": true,
-          "rationale": "The amnesia vortex is an advanced technological field mechanism deployed at post-mortem transition to wipe the soul's recallable memory, forcing factory-reset reincarnations."
+          "text": "Energy Weapons — Advanced technological armaments utilized by the captors to melt solid rock without heat generation and petrify organic living tissue into stone.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Energy Weapons”."
         },
         {
           "label": "B",
-          "text": "To destroy the original Akashic records stored in the crystalline memory banks.",
+          "text": "Zep Tepi — The primordial era or \"First Time\" when parasitic entities walked openly among humans prior to complete density suppression and historical obfuscation.",
           "isCorrect": false,
-          "rationale": "The vortex wipes recallable surface memory from the active vessel and cannot destroy the permanent Akashic records."
+          "rationale": "This pairing matches the report's definition of “Zep Tepi”."
         },
         {
           "label": "C",
-          "text": "To immediately disintegrate the Neshama upon physical vessel death.",
-          "isCorrect": false,
-          "rationale": "The Neshama exits the body intact and is drawn into transition rather than being destroyed."
+          "text": "Amnesia Vortex — A specialized Draco workforce faction deployed during periodic resets to suppress human technological progress and enforce narrative compliance.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Etamines”. The report defines “Amnesia Vortex” as: An advanced technological field mechanism deployed at post-mortem transition to wipe the soul's recallable memory, forcing factory-reset reincarnations."
         },
         {
           "label": "D",
-          "text": "To prevent physical craft from breaching the atmospheric boundary of the realm.",
+          "text": "Neshama — The individual soul architecture, mind, and consciousness containing a spiritual being's true identity, memories, personality, and vibrational data.",
           "isCorrect": false,
-          "rationale": "Atmospheric traversal uses vertical density shifts rather than a memory field."
+          "rationale": "This pairing matches the report's definition of “Neshama”."
         }
       ],
-      "hint": "Think about how humanity is prevented from building cumulative knowledge across lifetimes.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -374,25 +374,25 @@
       "options": [
         {
           "label": "A",
-          "text": "In the Arc Pod protocol system.",
+          "text": "In the Arc Pod protocol system that stores each vessel between lives.",
           "isCorrect": false,
           "rationale": "Arc Pod protocols are insertion pathways for starseed souls, not the universal record store."
         },
         {
           "label": "B",
-          "text": "Within the post-mortem transition field.",
+          "text": "Within the post-mortem transition field that surrounds the dome itself.",
           "isCorrect": false,
           "rationale": "The post-mortem transition is where the amnesia vortex wipes recall, and it is not the permanent store."
         },
         {
           "label": "C",
-          "text": "Original memories remain securely recorded in the Akashic records preserved within the crystalline mountain memory banks.",
+          "text": "In the Akashic records held in the crystalline mountain memory banks.",
           "isCorrect": true,
           "rationale": "All original memories stripped by the amnesia vortex remain securely recorded in the Akashic records preserved within the crystalline mountain memory banks."
         },
         {
           "label": "D",
-          "text": "In the genetic code of the Etamines workforce.",
+          "text": "In the genetic code of the Etamines workforce bred for the mines.",
           "isCorrect": false,
           "rationale": "The Etamines are a workforce faction and are not the store of human soul records."
         }
@@ -702,25 +702,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Expansion of the prefrontal cortex.",
+          "text": "The prefrontal cortex was artificially expanded.",
           "isCorrect": false,
           "rationale": "The vessel was downsized, cranial capacity was reduced, and the pineal gland was calcified."
         },
         {
           "label": "B",
-          "text": "The pineal gland was artificially shrunken and calcified, severing direct intuitive communication.",
+          "text": "The pineal gland was shrunken and calcified.",
           "isCorrect": true,
           "rationale": "The pineal gland was artificially shrunken and calcified, severing direct intuitive communication with positive higher-density aether."
         },
         {
           "label": "C",
-          "text": "Surgical fusion of the cerebral hemispheres.",
+          "text": "The cerebral hemispheres were surgically fused.",
           "isCorrect": false,
           "rationale": "The downgrade closed key brain regions and calcified the pineal gland, and it did not fuse the hemispheres."
         },
         {
           "label": "D",
-          "text": "Removal of the occipital lobe.",
+          "text": "The occipital lobe was removed from the vessel.",
           "isCorrect": false,
           "rationale": "The modification that severed intuitive communication was the shrunken and calcified pineal gland."
         }
@@ -734,25 +734,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Living biological matter transformed into dense cold granite and stone formations that persist today as petrified landscape features.",
+          "text": "Living biological matter petrified into dense granite and stone formations.",
           "isCorrect": true,
           "rationale": "Giant organic beings and supermassive living structures were transformed into dense cold granite and stone formations that persist today as petrified landscape features."
         },
         {
           "label": "B",
-          "text": "Active volcanic mountain chains.",
+          "text": "Active volcanic mountain chains formed where ancient battle craft crashed down.",
           "isCorrect": false,
           "rationale": "The persisting features are petrified landscape features of cold stone, not active volcanoes."
         },
         {
           "label": "C",
-          "text": "Deep oceanic trench networks.",
+          "text": "Deep oceanic trench networks carved by energy weapons during the conflicts.",
           "isCorrect": false,
           "rationale": "The persisting features named are dense cold granite and stone formations, not oceanic trenches."
         },
         {
           "label": "D",
-          "text": "Subterranean glacial ice deposits.",
+          "text": "Subterranean glacial ice deposits that sealed fallen giants beneath the surface.",
           "isCorrect": false,
           "rationale": "The persisting features are dense cold granite and stone, not glacial ice."
         }

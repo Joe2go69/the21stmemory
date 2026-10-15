@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary underlying objective of the Quantum Financial System (QFS)?",
+      "question": "True or False: According to the report, “QFS” refers to the internet-group classification targeted for redemption appointments, where individuals execute signatures to access promised liquidity.",
       "options": [
         {
           "label": "A",
-          "text": "A genuinely decentralized gold-backed global economy built to eliminate fiat debt and distribute real wealth.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Physical Gold backing and debt cancellation are the pitch of a counterfeit banking rail with no real wealth distribution capability."
+          "rationale": "False — that description belongs to “Tier 4B”. The report defines “QFS” as: The Quantum Financial System, a fake banking rail constructed as a Deep-State mechanism to capture human free will through monetary temptation."
         },
         {
           "label": "B",
-          "text": "A transition of standard fiat banking into an audited high-frequency quantum infrastructure for public accounts.",
-          "isCorrect": false,
-          "rationale": "The QFS is an entirely fake financial rail and an artificial construct rather than a genuine quantum banking infrastructure."
-        },
-        {
-          "label": "C",
-          "text": "A counterfeit banking rail designed to obtain voluntary human consent and capture Free Will.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "The QFS is a financial trap designed to obtain voluntary human consent and capture Free Will."
-        },
-        {
-          "label": "D",
-          "text": "An audit of central banking institutions meant to expose historical debt manipulation and illegal asset seizures.",
-          "isCorrect": false,
-          "rationale": "The QFS is a financial trap designed to obtain voluntary human consent rather than an audit of central banks."
+          "rationale": "Correct — that description belongs to “Tier 4B”, not “QFS”."
         }
       ],
-      "hint": "Consider what the system seeks to obtain from individuals under universal field law.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “QFS”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -626,35 +614,23 @@
     },
     {
       "number": 20,
-      "question": "What psychological tactic forms the basis of an engineered Deep-State Lure?",
+      "question": "True or False: According to the report, “Deep-State Lure” refers to an engineered psychological and material tactic that exploits human desire to satisfy universal consent requirements under field law.",
       "options": [
         {
           "label": "A",
-          "text": "Inducing sensory overload so logical decision-making collapses before any offer is explained.",
-          "isCorrect": false,
-          "rationale": "A Deep-State Lure is an engineered psychological and material tactic that exploits human desire."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Deep-State Lure” this way."
         },
         {
           "label": "B",
-          "text": "An engineered psychological and material tactic exploits human desire to satisfy universal consent requirements under field law.",
-          "isCorrect": true,
-          "rationale": "The QFS is deliberately crafted to exploit baseline material desires for wealth security and relief from financial strain."
-        },
-        {
-          "label": "C",
-          "text": "Threatening immediate asset confiscation for every citizen who refuses to join the redemption schedule.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Threats are coercion while the lure exploits human desire so consent stays voluntary under field law."
-        },
-        {
-          "label": "D",
-          "text": "Erasing historical banking records in order to generate mass financial amnesia across the public.",
-          "isCorrect": false,
-          "rationale": "The lure exploits human desire to satisfy universal consent requirements under field law."
+          "rationale": "It is true — the report defines “Deep-State Lure” as: An engineered psychological and material tactic that exploits human desire to satisfy universal consent requirements under field law."
         }
       ],
-      "hint": "Consider how human desires for relief and abundance are used.",
-      "correctAnswer": "B"
+      "hint": "Recall how the report's Key Terminology defines “Deep-State Lure”.",
+      "correctAnswer": "A"
     },
     {
       "number": 21,

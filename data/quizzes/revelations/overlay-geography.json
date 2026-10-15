@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary function of Overlay Geography within the realm?",
+      "question": "True or False: According to the report, “Overlay Geography” refers to the high-density projection network residing in the celestial firmament (the stars) that projects spatial overlays and holographic assets downward onto the physical plane.",
       "options": [
         {
           "label": "A",
-          "text": "The deployment of senescent holographic assets to populate major global urban centers and nodes.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Senescent holograms populate rendered cities as visual stock-fillers. They ride on Overlay Geography rather than generating the topography."
+          "rationale": "False — that description belongs to “Sky-Net 1 Projection”. The report defines “Overlay Geography” as: The real-time, quantum-rendered spatial projections that generate seamless tiles of physical scenery and artificial distance across the surface of the realm."
         },
         {
           "label": "B",
-          "text": "The structural mapping of natural ley lines across the geometric Becker Hagens 120-polyhedral grid.",
-          "isCorrect": false,
-          "rationale": "The Becker Hagens UVG120 Grid is the underlying template. Overlay Geography is the real-time rendering laid over that grid."
-        },
-        {
-          "label": "C",
-          "text": "The maintenance of frequential barriers between different dimensional density layers and portals.",
-          "isCorrect": false,
-          "rationale": "Natural portals are where overlays weaken or interface with other density layers. Overlay Geography is the rendering of scenery and distance, not the barrier itself."
-        },
-        {
-          "label": "D",
-          "text": "The fluid, omnidirectional real-time rendering that generates physical landscapes and spatial distances across the plane.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Overlay Geography is the mechanism of fluid, omnidirectional real-time rendering that generates physical landscapes and spatial distances across the plane through seamless tiles of scenery."
+          "rationale": "Correct — that description belongs to “Sky-Net 1 Projection”, not “Overlay Geography”."
         }
       ],
-      "hint": "Consider the term used for the dynamic generation of scenery and distance.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Overlay Geography”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -658,35 +646,35 @@
     },
     {
       "number": 21,
-      "question": "What are time-phased corridors specifically designed to do?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Synchronize the ground-level reality with the micron-level shifts of Sky-Net 1.",
-          "isCorrect": false,
-          "rationale": "Micron calibration is celestial. Corridors are repetitive spatial buffers that lengthen travel duration."
+          "text": "Continuous Scrolling Geography — The high-density projection network residing in the celestial firmament (the stars) that projects spatial overlays and holographic assets downward onto the physical plane.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Sky-Net 1 Projection”. The report defines “Continuous Scrolling Geography” as: The fluid, real-time rendering mechanism that streams spatial landscapes around an observer in motion, simulating physical travel across vast distances."
         },
         {
           "label": "B",
-          "text": "They occupy linear human perception and artificially lengthen travel duration.",
-          "isCorrect": true,
-          "rationale": "Time-phased corridors are inserted between major population nodes to artificially lengthen travel duration, and the miles of highway separating major population centers are padded with time-phased corridors designed to occupy linear human perception."
+          "text": "Nodal Mirroring — The process by which primary geometric energy nodes are reflected and amplified into multiple geographical coordinates, creating distinct national centers that share a singular underlying grid node.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Nodal Mirroring”."
         },
         {
           "label": "C",
-          "text": "Maintain the frequential stability of natural portals during planetary reset cycles.",
+          "text": "Becker Hagens UVG120 Grid — The geometric map of natural Ley Lines and primary nodal energy points across the planet's surface, structured on polyhedral crystal geometry and Buckminster Fuller principles.",
           "isCorrect": false,
-          "rationale": "Portals are gateway breaches. Corridors are artificial buffers inserted between major population nodes."
+          "rationale": "This pairing matches the report's definition of “Becker Hagens UVG120 Grid”."
         },
         {
           "label": "D",
-          "text": "Act as storage facilities for the 30—40% of the population that is holographic.",
+          "text": "Time-Phased Corridors — Artificially generated, repetitive spatial buffers—such as long stretches of motorways, highway plazas, and transit paths—inserted between major population nodes to artificially lengthen travel duration.",
           "isCorrect": false,
-          "rationale": "Holograms populate corridors as stock-fillers. The design purpose is artificially lengthening travel, not storing sleeves."
+          "rationale": "This pairing matches the report's definition of “Time-Phased Corridors”."
         }
       ],
-      "hint": "Focus on the psychological effect of monotonous motorways.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 22,

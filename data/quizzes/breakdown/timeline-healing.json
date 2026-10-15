@@ -18,67 +18,55 @@
   "questions": [
     {
       "number": 1,
-      "question": "What are the specialized non-physical chambers where timeline healing occurs?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Star Pods — floating non-physical chambers circulating in etheric space that envelop a soul.",
-          "isCorrect": true,
-          "rationale": "Timeline Healing occurs inside specialized non-physical chambers known as Star Pods. These floating structures circulate in etheric space and offer a sanctuary that resembles resting inside a nebula."
+          "text": "Soul Fractures — Structural energetic damage and fragmentation sustained by a soul's consciousness across various lifetimes within physical overlays.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Soul Fractures”."
         },
         {
           "label": "B",
-          "text": "Med Beds — human-engineered medical platforms promoted as soul-repair technology.",
-          "isCorrect": false,
-          "rationale": "Med beds are a false human-level concept. They cannot repair extraterrestrial or soul-level structures."
+          "text": "Timeline Healing — Advanced extraterrestrial technological systems capable of curing souls trapped in a temporary 3D illusion, distinct from false human-concocted medical beds.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Crystalline Pods”. The report defines “Timeline Healing” as: The multidimensional process of reweaving fragmented aspects of a soul across parallel and historical cycles."
         },
         {
           "label": "C",
-          "text": "Water Domes — liquid-sound sanctuaries that draw grief and fear from the heart first.",
+          "text": "Womb of Light — The high-frequency energetic cocoon projected by a Star Pod to envelope a soul and administer targeted restorative frequencies.",
           "isCorrect": false,
-          "rationale": "Water Domes mend the heart with liquid sound and Source memory codes. Timeline healing of the soul happens later in Star Pods."
+          "rationale": "This pairing matches the report's definition of “Womb of Light”."
         },
         {
           "label": "D",
-          "text": "Crystal Halls — humming crystal temples that dissolve mental overlays and parasitic programming.",
+          "text": "Timeline Trauma — Subconscious trauma accumulated from consecutive lifetimes, which is sustained directly at the soul level and reinforced by parasitic technologies.",
           "isCorrect": false,
-          "rationale": "Crystal Halls realign the mind on humming crystal slabs. They are the second sanctuary, not the chambers where timeline healing of the soul occurs."
+          "rationale": "This pairing matches the report's definition of “Timeline Trauma”."
         }
       ],
-      "hint": "These floating structures circulate in etheric space and envelop the soul.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
-      "question": "Where are the restorative Star Pods located?",
+      "question": "True or False: According to the report, “Star Pods” refers to floating, non-physical structures circulating in etheric space that envelop a soul to facilitate deep timeline and soul-level restoration.",
       "options": [
         {
           "label": "A",
-          "text": "Buried in deep inner-earth cavities so the pods remain hidden under rock and soil.",
-          "isCorrect": false,
-          "rationale": "Some sanctuaries rest over inner-earth cavities, but Star Pods specifically float in etheric space for energetic isolation."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Star Pods” this way."
         },
         {
           "label": "B",
-          "text": "Parked in high-altitude planetary orbits as visible craft circling the physical world.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The pods are non-physical and circulate in etheric space. They are not orbital vehicles in physical sky."
-        },
-        {
-          "label": "C",
-          "text": "Installed as fixed halls inside the Great Dome, standing like ordinary sanctuary buildings.",
-          "isCorrect": false,
-          "rationale": "The pods belong to the Great Dome network, but they function as floating, non-physical structures rather than fixed halls."
-        },
-        {
-          "label": "D",
-          "text": "Floating in circulating configurations in etheric space, not occupying fixed physical locations.",
-          "isCorrect": true,
-          "rationale": "Star Pods do not occupy fixed physical space. They float in circulating configurations in etheric space."
+          "rationale": "It is true — the report defines “Star Pods” as: Floating, non-physical structures circulating in etheric space that envelop a soul to facilitate deep timeline and soul-level restoration."
         }
       ],
-      "hint": "They do not exist in fixed physical locations like 3D buildings.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Star Pods”.",
+      "correctAnswer": "A"
     },
     {
       "number": 3,
@@ -594,35 +582,23 @@
     },
     {
       "number": 19,
-      "question": "What are Karmic Wounds?",
+      "question": "True or False: According to the report, “Karmic Wounds” refers to persistent energetic injuries and distortions that remain bound to a soul across different incarnations.",
       "options": [
         {
           "label": "A",
-          "text": "Physical scars that appear on the light body only while the soul is inside a Star Pod.",
-          "isCorrect": false,
-          "rationale": "They are persistent energetic distortions carried across incarnations, not temporary pod-session scars."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Karmic Wounds” this way."
         },
         {
           "label": "B",
-          "text": "External ledgers of past mistakes kept on file by the Resonating Army for later judgment.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Karmic Wounds are energetic injuries inside the soul itself, not external records held by the Resonating Army."
-        },
-        {
-          "label": "C",
-          "text": "A passing feeling of regret that appears only when a soul leaves the physical plane.",
-          "isCorrect": false,
-          "rationale": "Karmic Wounds are structural energetic injuries, deeper and more persistent than a momentary feeling of regret."
-        },
-        {
-          "label": "D",
-          "text": "Persistent energetic injuries and distortions that remain bound to a soul across incarnations.",
-          "isCorrect": true,
-          "rationale": "Karmic Wounds are persistent energetic injuries and distortions that remain bound to a soul across different incarnations."
+          "rationale": "It is true — the report defines “Karmic Wounds” as: Persistent energetic injuries and distortions that remain bound to a soul across different incarnations."
         }
       ],
-      "hint": "These distortions remain with the soul throughout its multi-incarnational journey.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Karmic Wounds”.",
+      "correctAnswer": "A"
     },
     {
       "number": 20,

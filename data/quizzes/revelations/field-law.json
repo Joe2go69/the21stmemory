@@ -50,67 +50,43 @@
     },
     {
       "number": 2,
-      "question": "How does the Sovereign Accord define the relationship between external forces and self-sustained fields?",
+      "question": "True or False: According to the report, “Sovereign Accord” refers to the universal governing rule stipulating that no field shall be overridden from outside itself once coherent structures maintain self-sustained internal harmonics.",
       "options": [
         {
           "label": "A",
-          "text": "No field shall be overridden from outside itself once coherent structures maintain self-sustained internal harmonics.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "That is the universal governing rule the Sovereign Accord states and that Field Law enforces."
+          "rationale": "True — the report defines “Sovereign Accord” this way."
         },
         {
           "label": "B",
-          "text": "External forces receive guardianship over any field that misses a quota of spiritual awakening.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The Sovereign Accord turns on self-sustained internal harmonics, not on an outside quota of awakening."
-        },
-        {
-          "label": "C",
-          "text": "Any realm experiencing internal conflict is automatically subject to external oversight under a humanitarian exception.",
-          "isCorrect": false,
-          "rationale": "No field shall be overridden from outside itself once coherent structures maintain self-sustained internal harmonics."
-        },
-        {
-          "label": "D",
-          "text": "The Accord requires every external entity to supply physical resources until a realm establishes its first coherence.",
-          "isCorrect": false,
-          "rationale": "Support without override permits offered aid only when it does not bypass or violate internal free will or field coherence."
+          "rationale": "It is true — the report defines “Sovereign Accord” as: The universal governing rule stipulating that no field shall be overridden from outside itself once coherent structures maintain self-sustained internal harmonics."
         }
       ],
-      "hint": "The condition is self-sustained internal harmonics.",
+      "hint": "Recall how the report's Key Terminology defines “Sovereign Accord”.",
       "correctAnswer": "A"
     },
     {
       "number": 3,
-      "question": "What does the principle of Support Without Override permit in external assistance?",
+      "question": "True or False: According to the report, “Support Without Override” refers to the strategic insertion of consciousness into physical vessels prior to external colonization, ensuring that subsequent mission actions operate legally from within the field.",
       "options": [
         {
           "label": "A",
-          "text": "It authorizes external entities to rewrite the physical laws of the simulation when the incarnated population requests it.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Structural shifts must still be executed through internal participation, self-sustained harmonics, or accepted choice."
+          "rationale": "False — that description belongs to “Pre-Inversion Incarnation”. The report defines “Support Without Override” as: The strict boundary condition permitting external assistance, subtle guidance, or offered aid only if it does not bypass or violate internal free will or field coherence."
         },
         {
           "label": "B",
-          "text": "It permits psychological pressure that steers individuals onto the correct spiritual path for their own benefit.",
-          "isCorrect": false,
-          "rationale": "Assistance must remain non-coercive and must not bypass or violate internal free will or field coherence."
-        },
-        {
-          "label": "C",
-          "text": "It enables higher-density technology to remove parasitic entities without the knowledge of the population.",
-          "isCorrect": false,
-          "rationale": "Overt removal without internal participation would be an unlawful field override from outside the realm."
-        },
-        {
-          "label": "D",
-          "text": "Support Without Override permits subtle guidance or offered aid only if it does not bypass or violate internal free will or field coherence.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "External assistance stays non-coercive while choice and consequence originate strictly from within the field itself."
+          "rationale": "Correct — that description belongs to “Pre-Inversion Incarnation”, not “Support Without Override”."
         }
       ],
-      "hint": "Aid stays legal only while free will and field coherence remain intact.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Support Without Override”.",
+      "correctAnswer": "B"
     },
     {
       "number": 4,
@@ -754,35 +730,35 @@
     },
     {
       "number": 24,
-      "question": "What constitutes a violation of the Sovereign Accord by an external force?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Using plant sacraments to reconnect an individual to higher-density information networks violates the Accord.",
-          "isCorrect": false,
-          "rationale": "The Ayahuasca vine and chacruna leaf are natural energetic bridges designed under Field Law and do not impose external control."
+          "text": "Sovereign Accord — The strategic insertion of consciousness into physical vessels prior to external colonization, ensuring that subsequent mission actions operate legally from within the field.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Pre-Inversion Incarnation”. The report defines “Sovereign Accord” as: The universal governing rule stipulating that no field shall be overridden from outside itself once coherent structures maintain self-sustained internal harmonics."
         },
         {
           "label": "B",
-          "text": "Offering guidance through dream states to an avatar that is not fully awake violates the Accord.",
+          "text": "Free Will & Acceptance — The requisite mandate under Field Law requiring that all operations, governance structures, and experiential choices receive internal consent from incarnated consciousness.",
           "isCorrect": false,
-          "rationale": "Dream states are part of the Ark-Pod protocol, a non-overt channel that preserves sovereign decision-making."
+          "rationale": "This pairing matches the report's definition of “Free Will & Acceptance”."
         },
         {
           "label": "C",
-          "text": "External forces are legally prohibited from overriding a realm's internal harmonics.",
-          "isCorrect": true,
-          "rationale": "No field shall be overridden from outside itself once coherent structures have self-sustained harmonics within."
+          "text": "Subtle Intervention — Non-overt assistance provided through internal thought prompts, dreamtime interactions, higher-self guidance, and plant sacraments that respect internal choice boundaries.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Subtle Intervention”."
         },
         {
           "label": "D",
-          "text": "Incarnating into a physical vessel before a field inversion takes place violates the Accord.",
+          "text": "Support Without Override — The strict boundary condition permitting external assistance, subtle guidance, or offered aid only if it does not bypass or violate internal free will or field coherence.",
           "isCorrect": false,
-          "rationale": "Pre-inversion incarnation is how souls become legitimate internal elements of the field prior to external colonization."
+          "rationale": "This pairing matches the report's definition of “Support Without Override”."
         }
       ],
-      "hint": "The line is crossed when the push comes from outside a coherent field.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 25,

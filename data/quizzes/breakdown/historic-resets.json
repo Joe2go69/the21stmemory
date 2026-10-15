@@ -50,35 +50,35 @@
     },
     {
       "number": 2,
-      "question": "What is the nature of the Parasitic Overlay that masks the true world?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It is a holographic camouflage designed to make artificial materials appear solid and permanent.",
-          "isCorrect": true,
-          "rationale": "This holographic camouflage distorts human perception to obscure the true, high-frequency crystalline fabric of the earth."
+          "text": "Shared Asset Agreement — A geopolitical and dimensional treaty established by the Council of Parasitic Races to co-manage the Known Lands as a shared energetic farm for soul harvesting and containment.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Shared Asset Agreement”."
         },
         {
           "label": "B",
-          "text": "It is a navigational grid used by pilots and sailors to calculate distance across the global sphere.",
-          "isCorrect": false,
-          "rationale": "The overlay functions as a containment field for perception rather than a legitimate tool for physical navigation."
+          "text": "Parasitic Overlay — The overarching, multi-layered electromagnetic crystalline framework that contains all domes, realms, and simulated layers, serving as the master server for overlays and grids.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “CUBE System”. The report defines “Parasitic Overlay” as: A holographic camouflage projected over the true crystalline fabric of the earth, designed to manipulate human perception and make artificial, dense materials appear solid, permanent, and separate."
         },
         {
           "label": "C",
-          "text": "It is a protective energetic shield developed by ancient humans to guard against cosmic radiation.",
+          "text": "Second Realm — The original, vibrant, unpolluted crystalline reality that exists beneath the parasitic overlay, characterized by smooth crystalline grounds, natural walking paths, and portal gates.",
           "isCorrect": false,
-          "rationale": "The overlay is a manipulative simulation designed to deceive rather than a defensive human creation."
+          "rationale": "This pairing matches the report's definition of “Second Realm”."
         },
         {
           "label": "D",
-          "text": "It is a biological layer of the atmosphere that creates the colors and textures of the natural sky.",
+          "text": "Historic Resets — Cyclical, artificial purges engineered by parasitic forces to dismantle advanced human timelines, erase collective memory, and realign the physical plane into a controlled, low-frequency state.",
           "isCorrect": false,
-          "rationale": "The overlay is a holographic simulation rather than a natural atmospheric or biological phenomenon."
+          "rationale": "This pairing matches the report's definition of “Historic Resets”."
         }
       ],
-      "hint": "Focus on how the material world is presented to the senses to maintain a specific illusion.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 3,

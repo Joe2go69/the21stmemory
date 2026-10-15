@@ -54,25 +54,25 @@
       "options": [
         {
           "label": "A",
-          "text": "By implementing mandatory psychological counseling for all urban residents.",
+          "text": "By making psychological counseling mandatory for urban residents and recording each session for review.",
           "isCorrect": false,
           "rationale": "Participation is secured through environment design, entertainment, and consumer goods, rather than direct medical intervention."
         },
         {
           "label": "B",
-          "text": "By restricting access to all forms of digital media and communication.",
+          "text": "By restricting access to digital media and communication so residents cannot organize with one another.",
           "isCorrect": false,
           "rationale": "Digital delivery and app-based fulfillment are encouraged so dependency and surveillance can take hold."
         },
         {
           "label": "C",
-          "text": "The Human Farm management team constructs environments supplied with endless entertainment, consumer goods, and artificially constructed aspirations.",
+          "text": "By supplying environments with endless entertainment, consumer goods, and artificially constructed aspirations.",
           "isCorrect": true,
           "rationale": "High-density human intelligence cannot be contained by raw force alone without triggering civil revolt, so voluntary participation is secured instead."
         },
         {
           "label": "D",
-          "text": "By deploying overwhelming physical force and visible military checkpoints.",
+          "text": "By deploying visible military checkpoints and overwhelming physical force at the edges of each zone.",
           "isCorrect": false,
           "rationale": "Raw force is avoided because it would trigger civil revolt and immediate resistance."
         }
@@ -82,99 +82,75 @@
     },
     {
       "number": 3,
-      "question": "What is the primary purpose of Manufactured Wants in the urban containment model?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "To identify gifted individuals for leadership roles in administration.",
+          "text": "Fifteen-Minute City — A high-density urban containment zone pitched as a walkable, convenient utopia under the cover of public safety, designed to restrict movement without special clearance and enforce total behavioral management.",
           "isCorrect": false,
-          "rationale": "The aim is mass behavioral guidance and psychological reliance, rather than selecting leaders."
+          "rationale": "This pairing matches the report's definition of “Fifteen-Minute City”."
         },
         {
           "label": "B",
-          "text": "To reduce the psychological stress associated with urban overcrowding.",
-          "isCorrect": false,
-          "rationale": "Manufactured desires are engineering tools, rather than care for resident well-being."
+          "text": "Manufactured Wants — The multi-generational process of gradually introducing restrictions, dependencies, and technological shifts so that radical lifestyle changes are accepted as a natural evolution rather than recognized as forced containment.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Incremental Acclimatization”. The report defines “Manufactured Wants” as: Artificial desires, lifestyle options, and consumer choices created by the farm management team to cultivate psychological reliance and guide population behavior."
         },
         {
           "label": "C",
-          "text": "Manufactured Wants cultivate psychological reliance and guide population behavior.",
-          "isCorrect": true,
-          "rationale": "Artificial desires, lifestyle options, and consumer choices are created by the farm management team so the population accepts restricted environments."
+          "text": "Social Credit Score System — An inverted financial and behavioral surveillance apparatus that replaces cash currency, evaluating individual compliance with statutes and policies while levying instant deductions or triggering internment for infractions.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Social Credit Score System”."
         },
         {
           "label": "D",
-          "text": "To stimulate the local economy through increased consumer spending.",
+          "text": "Compulsory Land Purchase — The legal mechanism under Maritime Admiralty jurisdiction where private real estate is reclaimed by the governing authority to force population relocation into designated urban containment hubs.",
           "isCorrect": false,
-          "rationale": "The objective is behavioral control and reliance, rather than genuine local prosperity."
+          "rationale": "This pairing matches the report's definition of “Compulsory Land Purchase”."
         }
       ],
-      "hint": "Think about how artificial desires affect a person connection to the provider.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 4,
-      "question": "How does Choice Architecture create the illusion of personal freedom?",
+      "question": "True or False: According to the report, “Choice Architecture” refers to the deliberate structure of endless options, tiers, consumer varieties, and bureaucratic hurdles that creates the illusion of personal freedom while directing human effort into controlled loops.",
       "options": [
         {
           "label": "A",
-          "text": "By allowing citizens to vote on the specific location of city gates.",
-          "isCorrect": false,
-          "rationale": "A vote on infrastructure does not create the mental-bandwidth absorption that comes from endless consumer varieties."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Choice Architecture” this way."
         },
         {
           "label": "B",
-          "text": "By eliminating all bureaucratic hurdles for starting small businesses.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Bureaucratic hurdles are part of the structure that directs human effort into controlled loops."
-        },
-        {
-          "label": "C",
-          "text": "By providing transparent access to all administrative policy decisions.",
-          "isCorrect": false,
-          "rationale": "The architecture hides the bounded matrix behind tiers, varieties, and mundane options."
-        },
-        {
-          "label": "D",
-          "text": "Choice architecture bombards individuals with dozens of options for mundane items to absorb mental bandwidth and create the illusion of personal sovereignty.",
-          "isCorrect": true,
-          "rationale": "Nineteen variations of coffee, endless brands of shampoo, and complex financial tiers keep choices strictly bounded within a pre-designed matrix."
+          "rationale": "It is true — the report defines “Choice Architecture” as: The deliberate structure of endless options, tiers, consumer varieties, and bureaucratic hurdles that creates the illusion of personal freedom while directing human effort into controlled loops."
         }
       ],
-      "hint": "Consider why nineteen variations of coffee might distract someone from a lack of mobility.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Choice Architecture”.",
+      "correctAnswer": "A"
     },
     {
       "number": 5,
-      "question": "What role does the Easy-Option Lifestyle play in the transition to Fifteen-Minute Cities?",
+      "question": "True or False: According to the report, “Easy-Option Lifestyle” refers to the deliberate structure of endless options, tiers, consumer varieties, and bureaucratic hurdles that creates the illusion of personal freedom while directing human effort into controlled loops.",
       "options": [
         {
           "label": "A",
-          "text": "It reduces the cost of living by eliminating the need for retail space.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The shift is behavioral conditioning toward enclosed living, rather than a promise of lower costs."
+          "rationale": "False — that description belongs to “Choice Architecture”. The report defines “Easy-Option Lifestyle” as: A state of consumer reliance built on rapid home deliveries, automated services, and digital convenience that conditions individuals to trade autonomy for ease."
         },
         {
           "label": "B",
-          "text": "It encourages families to spend more time engaged in outdoor hobbies.",
-          "isCorrect": false,
-          "rationale": "The lifestyle ties people to instant digital fulfillment and app-based delivery, rather than outdoor self-reliance."
-        },
-        {
-          "label": "C",
-          "text": "It improves physical health by promoting a purely walkable lifestyle.",
-          "isCorrect": false,
-          "rationale": "Walkable convenience is the cover, while the function is to eliminate external independent touchpoints."
-        },
-        {
-          "label": "D",
-          "text": "The Easy-Option Lifestyle conditions individuals to trade autonomy for ease.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Rapid home deliveries, automated services, and digital convenience prepare the populace for a fully enclosed, localized existence."
+          "rationale": "Correct — that description belongs to “Choice Architecture”, not “Easy-Option Lifestyle”."
         }
       ],
-      "hint": "Think about the long-term trade-off made when choosing convenience over self-reliance.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Easy-Option Lifestyle”.",
+      "correctAnswer": "B"
     },
     {
       "number": 6,
@@ -438,19 +414,19 @@
       "options": [
         {
           "label": "A",
-          "text": "A valid passport and a ticket for public transportation.",
+          "text": "A valid passport and a paid ticket for public transportation.",
           "isCorrect": false,
           "rationale": "Movement clearance is an administrative restriction, rather than an ordinary ticket and passport."
         },
         {
           "label": "B",
-          "text": "Mandatory movement clearance restrictions prevent citizens from leaving their assigned urban sector without official authorization.",
+          "text": "Official authorization under mandatory movement clearance restrictions.",
           "isCorrect": true,
           "rationale": "The city is designed to restrict movement without special clearance and keep people inside the containment hub."
         },
         {
           "label": "C",
-          "text": "A high enough social credit score and a personal vehicle.",
+          "text": "A high enough social credit score and a registered personal vehicle.",
           "isCorrect": false,
           "rationale": "Even inside the score system, citizens cannot leave their assigned urban sector without official authorization."
         },
@@ -540,7 +516,7 @@
         },
         {
           "label": "B",
-          "text": "To encourage the use of more efficient public transportation systems.",
+          "text": "To encourage the use of more efficient public transportation.",
           "isCorrect": false,
           "rationale": "The intended result is financially unviable combustion-engine ownership, not a general shift to public transit."
         },
@@ -552,7 +528,7 @@
         },
         {
           "label": "D",
-          "text": "Systemic price hikes on traditional fossil fuels are deliberately orchestrated to make combustion-engine ownership financially unviable.",
+          "text": "To make combustion-engine ownership financially unviable.",
           "isCorrect": true,
           "rationale": "Families then select an electric vehicle as if it were a practical economic decision, and fleet electrification removes long-distance mobility."
         }
@@ -566,25 +542,25 @@
       "options": [
         {
           "label": "A",
-          "text": "High-stress corporate jobs and long daily commutes.",
+          "text": "High-stress corporate jobs, long daily commutes, and the second car that many households keep.",
           "isCorrect": false,
           "rationale": "The critical loss is traditional self-reliance and external touchpoints, rather than the commute itself."
         },
         {
           "label": "B",
-          "text": "Access to expensive luxury goods and high-end services.",
+          "text": "Access to expensive luxury goods, imported brands, and high-end services in the city centre.",
           "isCorrect": false,
           "rationale": "Ease and consumer goods are the bait that secures participation in the enclosed model."
         },
         {
           "label": "C",
-          "text": "Industrial society abandons traditional self-reliance such as local DIY stores, garden centers, and independent farm shops.",
+          "text": "Traditional self-reliance, such as local DIY stores, garden centers, and independent farm shops.",
           "isCorrect": true,
           "rationale": "Instant digital fulfillment, app-based meal delivery, and Prime shipping eliminate those external touchpoints."
         },
         {
           "label": "D",
-          "text": "Exposure to harmful pollutants and noise in industrial zones.",
+          "text": "Exposure to pollutants, traffic noise, and crowding in the older industrial districts of town.",
           "isCorrect": false,
           "rationale": "The shift is about losing autonomy and external touchpoints, rather than escaping industrial pollution."
         }
@@ -694,25 +670,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A rural community where individuals can live outside the digital grid.",
+          "text": "A rural community where individuals live outside the digital grid and grow their own food away from the cities.",
           "isCorrect": false,
           "rationale": "The term describes the controlled urban environment and its parasitic conditioning, rather than a rural exit."
         },
         {
           "label": "B",
-          "text": "The Human Farm management team constructs environments supplied with endless entertainment, consumer goods, and artificially constructed aspirations to secure voluntary participation.",
+          "text": "Environments supplied with endless entertainment, goods, and constructed aspirations to secure voluntary participation.",
           "isCorrect": true,
           "rationale": "That managed environment keeps high-density intelligence from revolt by offering distraction instead of raw force."
         },
         {
           "label": "C",
-          "text": "A high-tech research facility designed to study human longevity.",
+          "text": "A high-tech research facility designed to study human longevity and test new treatments on volunteers.",
           "isCorrect": false,
           "rationale": "The objective is containment and voluntary participation, rather than longevity research."
         },
         {
           "label": "D",
-          "text": "A sustainable agricultural initiative focused on urban vertical farming.",
+          "text": "A sustainable agricultural initiative focused on urban vertical farming to feed the fifteen-minute cities.",
           "isCorrect": false,
           "rationale": "The Human Farm names the management of the contained population, rather than a literal farming project."
         }

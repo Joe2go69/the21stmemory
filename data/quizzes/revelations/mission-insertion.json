@@ -82,34 +82,34 @@
     },
     {
       "number": 3,
-      "question": "How is the 3rd-density avatar guided while operating under the Clueless Protocol?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Via direct telepathic communication with the original body in the stasis chamber.",
+          "text": "Mission Insertion — The pre-colonization incarnational deployment of four thousand unique soul architectures onto the physical plane to establish a legally compliant, internal rescue mechanism.",
           "isCorrect": false,
-          "rationale": "Communication is tiered, with the Oversoul in the Arc Pod acting as the immediate governor for the surface avatar."
+          "rationale": "This pairing matches the report's definition of “Mission Insertion”."
         },
         {
           "label": "B",
-          "text": "By monitoring the pre-programmed holographic map displayed within the 3rd-density brain.",
+          "text": "Arc Pod Protocol — The dimensional containment and remote guidance architecture wherein an atmospheric pod housing an Oversoul steers a physical avatar across multiple lifetimes.",
           "isCorrect": false,
-          "rationale": "The surface brain performs routine cognition but lacks access to the overarching mission map or holographic protocols."
+          "rationale": "This pairing matches the report's definition of “Arc Pod Protocol”."
         },
         {
           "label": "C",
-          "text": "Through intuitive impulses and environmental course corrections from the Oversoul.",
+          "text": "Clueless Protocol — Off-world technological pods located on homeworld bioships that preserve the original high-density physical bodies while consciousness is projected into the simulation.",
           "isCorrect": true,
-          "rationale": "The Oversoul in the atmospheric pod steers the avatar through subtle redirects to avoid fatal traps and stay on the Arc Trajectory."
+          "rationale": "That description belongs to “Stasis Chambers”. The report defines “Clueless Protocol” as: The deliberate operational deactivation of explicit off-world memories and mission details within 3rd-density avatars to protect operational security and prevent severe psychological trauma."
         },
         {
           "label": "D",
-          "text": "Through explicit mission briefings delivered during the avatar's regular sleep cycles.",
+          "text": "Arc Trajectory — The pre-calculated, multi-lifetime incarnational path mapped out by the Oversoul prior to insertion to ensure precise physical positioning during the final convergence loop.",
           "isCorrect": false,
-          "rationale": "Explicit details are suppressed to prevent psychological trauma; guidance is delivered through intuition rather than clear briefings."
+          "rationale": "This pairing matches the report's definition of “Arc Trajectory”."
         }
       ],
-      "hint": "Think about how a pilot might steer a vessel without the vessel knowing the final destination.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "C"
     },
     {

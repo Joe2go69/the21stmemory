@@ -82,35 +82,35 @@
     },
     {
       "number": 3,
-      "question": "Where do the data streams that project holographic sleeves into the physical plane originate?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Sky-Net 1 is the orbital stellar projection grid embedded in the night sky that broadcasts the data streams.",
-          "isCorrect": true,
-          "rationale": "Sky-Net 1, the orbital light-grid disguised as the nocturnal stellar field, sends those streams to localized coordinates."
+          "text": "Simulation Furniture — Artificial population assets, including inserts and sleeves, deployed across public spaces to swell crowd numbers and complete the aesthetic framing of the simulated realm.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Simulation Furniture”."
         },
         {
           "label": "B",
-          "text": "The data streams arise from the collective thought-forms of the human population on the ground.",
-          "isCorrect": false,
-          "rationale": "Sleeves are technological projections from an orbital grid, not psychological manifestations of observers."
+          "text": "Data Stream — Non-biological, projection-based digital constructs that maintain a stable, physical-seeming presence in 3rd-density space while lacking organic life functions or consciousness.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Senescent Holograms”. The report defines “Data Stream” as: The direct energetic transmission sent from Sky-Net 1 that provides holographic sleeves with culture-specific operating parameters, basic etiquette, and pre-programmed conversational prompts."
         },
         {
           "label": "C",
-          "text": "The data streams arise from subterranean broadcasting stations placed inside urban centers.",
+          "text": "Cestui Que Vie 1666 Birth Scam Bonds — Legal corporate collateral instruments tied to biological birth records, which holographic sleeves lack entirely due to their non-conception.",
           "isCorrect": false,
-          "rationale": "Sky-Net 1 broadcasts high-frequency data streams down to localized coordinates from the orbital light-grid."
+          "rationale": "This pairing matches the report's definition of “Cestui Que Vie 1666 Birth Scam Bonds”."
         },
         {
           "label": "D",
-          "text": "The data streams arise from biological nervous systems of NPCs used as signal repeaters.",
+          "text": "Blinking-In / Blinking-Out — The instantaneous process by which holographic sleeves materialize into physical-perceptual reality upon activation and dematerialize upon deactivation.",
           "isCorrect": false,
-          "rationale": "Sleeves are real-time energetic projections transmitted directly into the atmosphere, not through biological hosts."
+          "rationale": "This pairing matches the report's definition of “Blinking-In / Blinking-Out”."
         }
       ],
-      "hint": "Look to the nocturnal light grid that masks the stellar field.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 4,
@@ -434,35 +434,23 @@
     },
     {
       "number": 14,
-      "question": "What is the relationship between holographic sleeves and Sky-Net 1?",
+      "question": "True or False: According to the report, “Sky-Net 1” refers to artificial population assets, including inserts and sleeves, deployed across public spaces to swell crowd numbers and complete the aesthetic framing of the simulated realm.",
       "options": [
         {
           "label": "A",
-          "text": "Sky-Net 1 data streams contain the spatial geometry, visual skinning, cultural attire, and behavioral firmware necessary to render a stable 3rd-density human form.",
-          "isCorrect": true,
-          "rationale": "The orbital stellar projection grid broadcasts those operational parameters and visual form manifests."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Simulation Furniture”. The report defines “Sky-Net 1” as: The orbital stellar projection grid embedded in the night sky that broadcasts data streams, operational parameters, and visual form manifests for holographic inserts."
         },
         {
           "label": "B",
-          "text": "Sky-Net 1 is a collective mind formed by the combined consciousness of every sleeve.",
-          "isCorrect": false,
-          "rationale": "Sleeves lack organic life functions or consciousness, and Sky-Net 1 is a broadcast grid."
-        },
-        {
-          "label": "C",
-          "text": "Sky-Net 1 is a shield that protects holographic sleeves from solar radiation.",
-          "isCorrect": false,
-          "rationale": "Sleeves are non-biological projections, and Sky-Net 1 is the orbital light-grid that transmits them."
-        },
-        {
-          "label": "D",
-          "text": "Sky-Net 1 is the residential facility where sleeves live when they leave the simulation.",
-          "isCorrect": false,
-          "rationale": "Sleeves require no housing and exist only as active visual data streams during deployment."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Simulation Furniture”, not “Sky-Net 1”."
         }
       ],
-      "hint": "Think of the grid as the source that renders the form.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Sky-Net 1”.",
+      "correctAnswer": "B"
     },
     {
       "number": 15,
@@ -534,25 +522,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A biological NPC is the non-aging projected form that lacks organic life functions.",
+          "text": "Biological NPCs — grown vessels that stop aging after maturity because they lack organic life functions.",
           "isCorrect": false,
           "rationale": "Non-player characters undergo standard biological gestation and societal integration."
         },
         {
           "label": "B",
-          "text": "A sentient AI is the non-aging projected form that lacks organic life functions.",
+          "text": "Sentient AIs — self-aware programs projected into human form that never age or develop consciousness.",
           "isCorrect": false,
           "rationale": "Sentience would imply awareness, and sleeves lack organic life functions or consciousness."
         },
         {
           "label": "C",
-          "text": "A true soul is the non-aging projected form that lacks organic life functions.",
+          "text": "True souls — eternal beings whose projected form does not age once it leaves organic life behind.",
           "isCorrect": false,
           "rationale": "True souls are the minor fraction in a public setting, while sleeves are the non-biological projections."
         },
         {
           "label": "D",
-          "text": "Senescent Holograms are non-biological, projection-based digital constructs that maintain a stable, physical-seeming presence while lacking organic life functions or consciousness.",
+          "text": "Senescent Holograms — projection-based constructs that seem physical but lack organic life functions or consciousness.",
           "isCorrect": true,
           "rationale": "That presence is held in 3rd-density space without biological aging."
         }

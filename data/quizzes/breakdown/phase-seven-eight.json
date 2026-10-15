@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What do Phase Seven and Phase Eight represent in The Great Purge?",
+      "question": "True or False: According to the report, “The Great Purge” refers to the aftermath and stabilization period involving public and private tribunals, arrests, and executions of neutralized parasites to prepare the realm for reconstruction.",
       "options": [
         {
           "label": "A",
-          "text": "Only permanent Narrative Maintenance with Mimic Tech and no E.B.S. disclosure or tribunals.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Mimic Tech docility is Phase Four; Seven and Eight are disclosure and stabilization, not endless maintenance."
+          "rationale": "False — that description belongs to “Phase Eight”. The report defines “The Great Purge” as: The systematic, top-down removal of the parasitic control structure, beginning with global leaders and moving through infrastructure, culminating in mass public awakening."
         },
         {
           "label": "B",
-          "text": "Only the first secret neutralization of a few local officials with no global purge culmination role.",
-          "isCorrect": false,
-          "rationale": "Early covert removals are prior phases; Seven and Eight are the culmination and physical resolution of the purge."
-        },
-        {
-          "label": "C",
-          "text": "The culmination and physical resolution of The Great Purge, systematically dismantling the parasitic control structure of this realm.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Phase Seven and Phase Eight represent the culmination and physical resolution of The Great Purge, systematically dismantling the parasitic control structure of this realm."
-        },
-        {
-          "label": "D",
-          "text": "Only a cancelled operation that never transitions the public from controlled ignorance to realization.",
-          "isCorrect": false,
-          "rationale": "Together these phases transition the public from controlled ignorance into full realization of hijack and liberation."
+          "rationale": "Correct — that description belongs to “Phase Eight”, not “The Great Purge”."
         }
       ],
-      "hint": "Place them as culmination and physical resolution after earlier covert removals.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “The Great Purge”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -82,35 +70,23 @@
     },
     {
       "number": 3,
-      "question": "What is Phase Eight’s primary role after the E.B.S. blow?",
+      "question": "True or False: According to the report, “E.B.S. (Emergency Broadcast System)” refers to A continuous 72-plus hour global broadcast of truth packages designed to dismantle the 3D illusion and expose the parasite system.",
       "options": [
         {
           "label": "A",
-          "text": "Only soft reassurance ads with no tribunals, arrests, or realm security function.",
-          "isCorrect": false,
-          "rationale": "Phase Eight includes tribunals, arrests, executions, and realm security—not soft ads alone."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “E.B.S. (Emergency Broadcast System)” this way."
         },
         {
           "label": "B",
-          "text": "Nothing beyond permanent Mimic Tech continuity so neutralized elites appear forever without justice.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Phase Eight publicly confirms arrests, confessions, and executions rather than endless Mimic continuity."
-        },
-        {
-          "label": "C",
-          "text": "Only restarting Phase One covert removals as if disclosure never happened publicly.",
-          "isCorrect": false,
-          "rationale": "Phase Eight is aftermath stabilization after public disclosure, not a restart of Phase One secrecy."
-        },
-        {
-          "label": "D",
-          "text": "Immediate aftermath and stabilization, executing justice through tribunals and permanently securing the realm for upcoming Ascension processes.",
-          "isCorrect": true,
-          "rationale": "Phase Eight is the immediate aftermath and stabilization period, executing justice through tribunals and permanently securing the realm for upcoming Ascension processes."
+          "rationale": "It is true — the report defines “E.B.S. (Emergency Broadcast System)” as: A continuous 72-plus hour global broadcast of truth packages designed to dismantle the 3D illusion and expose the parasite system."
         }
       ],
-      "hint": "Connect aftermath, tribunals, and securing the realm for Ascension.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “E.B.S. (Emergency Broadcast System)”.",
+      "correctAnswer": "A"
     },
     {
       "number": 4,
@@ -210,34 +186,34 @@
     },
     {
       "number": 7,
-      "question": "What does Phase Eight involve as aftermath and stabilization?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only restoring all neutralized parasites to power without any tribunal justice process.",
+          "text": "Phase Seven — The disclosure stage where benevolent forces seize total control of global media and internet to broadcast undeniable proof of elite crimes.",
           "isCorrect": false,
-          "rationale": "Phase Eight executes justice upon neutralized parasites rather than restoring them to power."
+          "rationale": "This pairing matches the report's definition of “Phase Seven”."
         },
         {
           "label": "B",
-          "text": "Only soft truths with no arrests, executions, or reconstruction preparation of any kind.",
+          "text": "Truth Tribunals — Public and covert legal proceedings held during Phase Eight to extract confessions and execute justice upon the world's most dangerous operatives.",
           "isCorrect": false,
-          "rationale": "Soft truths begin Phase Seven broadcasts; Phase Eight executes tribunals, arrests, and executions."
+          "rationale": "This pairing matches the report's definition of “Truth Tribunals”."
         },
         {
           "label": "C",
-          "text": "Public and private tribunals, arrests, and executions of neutralized parasites to prepare the realm for reconstruction.",
+          "text": "Phase Eight — The benevolent Earth-based and galactic military forces orchestrating The Great Purge and controlling the awakening narrative.",
           "isCorrect": true,
-          "rationale": "Phase Eight is the aftermath and stabilization period involving public and private tribunals, arrests, and executions of neutralized parasites to prepare the realm for reconstruction."
+          "rationale": "That description belongs to “Whitehats”. The report defines “Phase Eight” as: The aftermath and stabilization period involving public and private tribunals, arrests, and executions of neutralized parasites to prepare the realm for reconstruction."
         },
         {
           "label": "D",
-          "text": "Only Project Blue Beam sky shows with no realm reconstruction preparation function.",
+          "text": "Sleepers — Unawakened human populations trapped in the 3D parasitic overlay, shielded from premature panic by artificial constructs until the final phases.",
           "isCorrect": false,
-          "rationale": "Blue Beam is a Phase Five/Six scare tool; Phase Eight prepares reconstruction after justice."
+          "rationale": "This pairing matches the report's definition of “Sleepers”."
         }
       ],
-      "hint": "List tribunals, arrests, executions, and reconstruction prep.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "C"
     },
     {
@@ -758,25 +734,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Phase Four uses Mimic Tech for docility; Phases Five and Six stage Trigger Events including fake WW3 escalation and Project Blue Beam alien invasion narrative to push Sleepers to the edge of questioning.",
+          "text": "Phase Four uses Mimic Tech for docility; Phases Five and Six stage Trigger Events like fake WW3 escalation and a Blue Beam invasion to push Sleepers toward questioning.",
           "isCorrect": true,
           "rationale": "Phase Four used Mimic Tech to keep masses docile; Phases Five and Six introduced staged Trigger Events including fake WW3 and Project Blue Beam alien invasion narrative to push Sleepers to the edge of questioning without uncontrolled terror if E.B.S. came too early."
         },
         {
           "label": "B",
-          "text": "Phases Four through Six permanently cancel all E.B.S. plans so Sleepers never face truth packages.",
+          "text": "Phases Four through Six postpone the E.B.S., keeping Sleepers away from the truth packages until after the Second Realm has arrived and the overlays are gone.",
           "isCorrect": false,
           "rationale": "Those phases prepare Sleepers so E.B.S. can land without ignore-or-terror extremes."
         },
         {
           "label": "C",
-          "text": "Phases Four through Six only reveal Seeded Sols with no scare events or docility management.",
+          "text": "Phases Four through Six reveal the Seeded Sols to the public, giving Sleepers trusted guides in place of any scare events or management of their docility.",
           "isCorrect": false,
           "rationale": "Seeded Sols are E.B.S. content; Four–Six manage docility and staged questioning pressure first."
         },
         {
           "label": "D",
-          "text": "Phases Four through Six only run Truth Tribunals with no Mimic Tech or Trigger Event staging.",
+          "text": "Phases Four through Six hold the Truth Tribunals in public, replacing Mimic Tech and Trigger Events with open trials of the captured parasitic leadership.",
           "isCorrect": false,
           "rationale": "Tribunals are Phase Eight; Four–Six are Mimic continuity and staged scare/questioning events."
         }

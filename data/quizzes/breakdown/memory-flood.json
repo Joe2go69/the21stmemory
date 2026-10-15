@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary definition of the Memory Flood within the framework of Reunion Mechanics?",
+      "question": "True or False: According to the report, “Memory Flood” refers to the complete and permanent restoration of a soul's total, multi-dimensional consciousness, dissolving all historical amnesia, fragments, and artificial memory resets.",
       "options": [
         {
           "label": "A",
-          "text": "The systematic recording of current life events into the planetary crystalline grid.",
-          "isCorrect": false,
-          "rationale": "This describes a storage function rather than the restorative return to a pristine, non-fragmented state of being."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Memory Flood” this way."
         },
         {
           "label": "B",
-          "text": "The gradual collection of lost historical data through ancient library archives.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "This describes a research process rather than the sudden, total restoration of original multi-dimensional consciousness."
-        },
-        {
-          "label": "C",
-          "text": "A temporary psychological breakthrough triggered by planetary crystalline resonance.",
-          "isCorrect": false,
-          "rationale": "While resonance is involved, the flood is a permanent restoration rather than a temporary event."
-        },
-        {
-          "label": "D",
-          "text": "The sudden and permanent restoration of a soul's original, multi-dimensional consciousness.",
-          "isCorrect": true,
-          "rationale": "The Memory Flood is the absolute dissolution of artificial amnesia and the reconstitution of fragmented aspects of the self."
+          "rationale": "It is true — the report defines “Memory Flood” as: The complete and permanent restoration of a soul's total, multi-dimensional consciousness, dissolving all historical amnesia, fragments, and artificial memory resets."
         }
       ],
-      "hint": "Consider whether this process is a slow gathering of information or a total restorative shift in state.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Memory Flood”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -658,35 +646,35 @@
     },
     {
       "number": 21,
-      "question": "What is the significance of the Unbroken Timeline accessible via crystalline technology?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It is the record of the current life loop stored in the CUBE server.",
+          "text": "Harmonic Lenses — Interwoven frequency structures formed around active energy nodes that shape, direct, and project vibrational currents throughout the overlays.",
           "isCorrect": false,
-          "rationale": "The CUBE server houses the amnesia loops, whereas the Unbroken Timeline is the total galactic record."
+          "rationale": "This pairing matches the report's definition of “Harmonic Lenses”."
         },
         {
           "label": "B",
-          "text": "It is the continuous, non-fragmented record of a soul's multi-billion-year journey.",
-          "isCorrect": true,
-          "rationale": "The Unbroken Timeline is the continuous, non-fragmented record of a soul's multi-billion-year journey, preserved galactically and accessible via crystalline technology."
+          "text": "Solar Gate Network — The multi-banded crystalline portal system of the sun through which souls transition to return to their original cosmic origins and families.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Solar Gate Network”."
         },
         {
           "label": "C",
-          "text": "It is a frequency stream used to project the illusion of the Second Realm.",
-          "isCorrect": false,
-          "rationale": "The timeline is a record of identity, while the Second Realm is a restored physical and vibrational reality."
+          "text": "Flash Memory Recall — The massive, multi-layered crystalline electromagnetic framework and frequency server that houses the 178 physical worlds and eight domes.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “CUBE Containment”. The report defines “Flash Memory Recall” as: A sudden, spontaneous awakening of dormant memory codes triggered by specific high-frequency waves or harmonic tones."
         },
         {
           "label": "D",
-          "text": "It is a sequence of historical events used to train the Resonating Army.",
+          "text": "Unbroken Timeline — The continuous, non-fragmented record of a soul's multi-billion-year journey, preserved galactically and accessible via crystalline technology.",
           "isCorrect": false,
-          "rationale": "It is a personal and galactic record of being, not a training manual or pedagogical tool."
+          "rationale": "This pairing matches the report's definition of “Unbroken Timeline”."
         }
       ],
-      "hint": "Think of this as the complete autobiography of a soul spanning eons.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 22,

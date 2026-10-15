@@ -18,35 +18,35 @@
   "questions": [
     {
       "number": 1,
-      "question": "What primary material is used to construct the walls and arches of subterranean Bone Vaults?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Naturally occurring limestone formations and stalactites.",
-          "isCorrect": false,
-          "rationale": "Bone vaults are artificial chambers constructed from stacked human skeletal remains, not naturally occurring limestone formations."
+          "text": "Bone Vaults — Mass execution and burial sites, exemplified by the Cambodian Genocide, where systematic democide was executed to reset civilization back to primitive conditions and generate mass cadavers.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “The Killing Fields”. The report defines “Bone Vaults” as: Subterranean vaulted chambers constructed from stacked human skeletal remains left in the aftermath of planetary resets, serving as trophies and monuments to population harvests."
         },
         {
           "label": "B",
-          "text": "Extraterrestrial alloys and non-terrestrial stone composites.",
+          "text": "Skull & Bones 322 Club — An elitist occult order and Freemasonic fraternity whose designation and meeting halls directly reference the underground bone trophy rooms established after reset cycles.",
           "isCorrect": false,
-          "rationale": "The material is specifically linked to the biological material harvested during planetary resets."
+          "rationale": "This pairing matches the report's definition of “Skull & Bones 322 Club”."
         },
         {
           "label": "C",
-          "text": "Stacked skeletal remains of harvested human populations.",
-          "isCorrect": true,
-          "rationale": "Bone Vaults are subterranean cavernous chambers constructed from the stacked skeletal remains of harvested human populations following major planetary resets."
+          "text": "Freemasonic Allegiance — The occult binding of secret society initiates, historically communicated through motifs such as the skull and crossbones to signal participation in the parasitic management system.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Freemasonic Allegiance”."
         },
         {
           "label": "D",
-          "text": "Reinforced concrete disguised with a thin layer of bone.",
+          "text": "Cathedrals of the Dead — Cavernous underground bone-lined structures designed to mimic sacred religious architecture while functioning as physical monuments to the harvest of human souls.",
           "isCorrect": false,
-          "rationale": "The vaults are comprised of actual skeletal remains rather than modern industrial masonry."
+          "rationale": "This pairing matches the report's definition of “Cathedrals of the Dead”."
         }
       ],
-      "hint": "The construction material serves as a physical monument to a specific custodial operation.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -118,25 +118,25 @@
       "options": [
         {
           "label": "A",
-          "text": "They amplify harmonic energies to sustain the local population.",
+          "text": "They amplify harmonic energies through the stacked bone, sustaining the health of the local population for generations.",
           "isCorrect": false,
           "rationale": "The vaults are designed to substitute positive frequencies with low-vibrational signatures."
         },
         {
           "label": "B",
-          "text": "They blanket natural harmonic energies by substituting positive planetary frequencies with low-vibrational energetic signatures of mortality and decay.",
+          "text": "They blanket natural harmonic energies, replacing positive planetary frequencies with signatures of mortality and decay.",
           "isCorrect": true,
           "rationale": "Built beneath major nodal points and ley line intersections, these death monuments blanket natural harmonic energies."
         },
         {
           "label": "C",
-          "text": "They stabilize the planetary crust against environmental purges.",
+          "text": "They stabilize the planetary crust beneath the cities, protecting the region against environmental purges and quakes.",
           "isCorrect": false,
           "rationale": "Their function is related to spiritual and energetic control rather than geological stability."
         },
         {
           "label": "D",
-          "text": "They create an energetic shield that prevents external resets.",
+          "text": "They create an energetic shield over the city that prevents external resets from reaching the population underneath.",
           "isCorrect": false,
           "rationale": "The vaults are a byproduct of the reset cycle, not a defense mechanism against it."
         }
@@ -246,25 +246,25 @@
       "options": [
         {
           "label": "A",
-          "text": "As beacons that attract positive harmonic frequencies to cities.",
+          "text": "As beacons placed to draw positive harmonic frequencies into the cities around their plazas.",
           "isCorrect": false,
           "rationale": "These monuments are part of the death architecture meant to neutralize organic frequencies."
         },
         {
           "label": "B",
-          "text": "They function solely as symbolic celebrations of custodial triumph over human physical form rather than genuine cultural expression.",
+          "text": "As symbolic celebrations of custodial triumph over human physical form, not genuine cultural expression.",
           "isCorrect": true,
           "rationale": "Installations such as Alison Lapper, Pregnant serve as public monuments to the harvest and display truth in plain sight."
         },
         {
           "label": "C",
-          "text": "As warnings to the public about upcoming planetary resets.",
+          "text": "As coded warnings to the public about the timing of upcoming planetary resets.",
           "isCorrect": false,
           "rationale": "They function more as psychological hooks and displays of dominance than as literal warnings."
         },
         {
           "label": "D",
-          "text": "As genuine cultural expressions of human artistic evolution.",
+          "text": "As genuine cultural expressions marking the artistic evolution of the modern era.",
           "isCorrect": false,
           "rationale": "These installations function as symbolic celebrations of custodial triumph rather than genuine cultural expression."
         }
@@ -342,25 +342,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A fluctuating number based on the success of surface cleanup.",
+          "text": "A number that rises and falls with how well each surface cleanup goes.",
           "isCorrect": false,
           "rationale": "The harvest is a massive, deliberate quantity generated through planned purges."
         },
         {
           "label": "B",
-          "text": "Approximately ten million individuals per continent.",
+          "text": "Roughly ten million people per continent, gathered over several decades.",
           "isCorrect": false,
           "rationale": "This estimate is significantly lower than the global volumes described for a major reset."
         },
         {
           "label": "C",
-          "text": "Massive volumes of cadavers reaching up to ten billion bodies are created through engineered wars, famines, and environmental purges.",
+          "text": "Up to ten billion bodies, through engineered wars, famines, and purges.",
           "isCorrect": true,
           "rationale": "Massive quantities of skeletal remains are harvested and processed into subterranean vaults."
         },
         {
           "label": "D",
-          "text": "Exactly twenty-five percent of the total global population.",
+          "text": "About a quarter of the global population, selected by region and age.",
           "isCorrect": false,
           "rationale": "This percentage was cited specifically for the Cambodian prototype, not the global reset total."
         }
@@ -638,25 +638,25 @@
       "options": [
         {
           "label": "A",
-          "text": "It grants the individual access to the secret meetings of the elite.",
+          "text": "Decoding the 322 motif grants access to the private meetings of the elite and the archives they keep in the vaults.",
           "isCorrect": false,
           "rationale": "Unmasking the truth dismantles the mystique rather than providing entry into the cult."
         },
         {
           "label": "B",
-          "text": "It identifies the exact date of the next scheduled planetary reset.",
+          "text": "Reading the 322 motif correctly reveals the exact date of the next scheduled planetary reset to those who know it.",
           "isCorrect": false,
           "rationale": "The symbolism reveals the nature of the control system rather than a specific future timeline."
         },
         {
           "label": "C",
-          "text": "Recognizing that symbols like the 322 motif directly denote post-reset cadaver rooms dismantles the perceived benevolence or mystique of secret society institutions.",
+          "text": "Seeing that symbols like 322 denote post-reset cadaver rooms dismantles the perceived benevolence of secret societies.",
           "isCorrect": true,
           "rationale": "Exposing the true nature of bone vaults strips away the historical cover stories surrounding elite fraternities and occult iconography."
         },
         {
           "label": "D",
-          "text": "It provides a method for neutralizing the ley lines beneath the vaults.",
+          "text": "Understanding the 322 motif provides a method for neutralizing the ley lines that run beneath the old bone vaults.",
           "isCorrect": false,
           "rationale": "Unmasking symbolism strips cover stories, which is distinct from physically neutralizing energy lines."
         }

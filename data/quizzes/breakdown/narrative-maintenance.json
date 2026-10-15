@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "Which phase of The Great Purge is Narrative Maintenance?",
+      "question": "True or False: According to the report, “Narrative Maintenance” refers to the fifth phase involving staged geopolitical tensions, air raid sirens, and supply disruptions to push the public toward awakening.",
       "options": [
         {
           "label": "A",
-          "text": "The fifth phase of The Great Purge, built entirely around air raid sirens and staged supply disruptions.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "That describes Trigger Events (Phase Five), which escalate after Narrative Maintenance holds the illusion."
+          "rationale": "False — that description belongs to “Trigger Events”. The report defines “Narrative Maintenance” as: The fourth phase of The Great Purge focused on continuing business as usual to manage sleepers' perception through fabricated optics."
         },
         {
           "label": "B",
-          "text": "The sixth phase of The Great Purge, defined solely by visible military presence and internet blackouts.",
-          "isCorrect": false,
-          "rationale": "That describes the Lockdown Window (Phase Six), which follows Trigger Events rather than defining Phase Four."
-        },
-        {
-          "label": "C",
-          "text": "The first phase of The Great Purge, focused only on removing royals and corporate CEOs without any optics management.",
-          "isCorrect": false,
-          "rationale": "Phase One and Phase Two cover covert removal of parasitic leadership; Narrative Maintenance is Phase Four."
-        },
-        {
-          "label": "D",
-          "text": "The critical fourth phase of The Great Purge, holding sleepers with fabricated optics before Phases Five and Six.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Narrative Maintenance is the critical fourth phase of The Great Purge and a psychological holding pattern before Trigger Events and the Lockdown Window."
+          "rationale": "Correct — that description belongs to “Trigger Events”, not “Narrative Maintenance”."
         }
       ],
-      "hint": "Recall its place between the early covert dismantling and the later trigger and lockdown phases.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Narrative Maintenance”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -82,66 +70,54 @@
     },
     {
       "number": 3,
-      "question": "Who are the Sleepers in the Narrative Maintenance framework?",
+      "question": "True or False: According to the report, “Sleepers” refers to the Emergency Broadcast System that ultimately takes over media networks to shatter the false reality.",
       "options": [
         {
           "label": "A",
-          "text": "The architects of The Great Purge who stage geopolitical tensions and air raid sirens in Phase Five.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Architects dictate pacing of awakening; Sleepers are the unawakened population being managed."
+          "rationale": "False — that description belongs to “E.B.S”. The report defines “Sleepers” as: The unawakened masses whose perception must be managed and held in a docile state until the mass reveal window."
         },
         {
           "label": "B",
-          "text": "The unawakened masses whose perception must be managed and held docile until the mass reveal window.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Sleepers are the unawakened masses whose perception is managed and held docile until the mass reveal window."
-        },
-        {
-          "label": "C",
-          "text": "The Controlled Stand-ins who give speeches and attend ceremonies in place of removed leaders.",
-          "isCorrect": false,
-          "rationale": "Stand-ins are replacements for removed leaders; Sleepers are the audience whose perception is managed."
-        },
-        {
-          "label": "D",
-          "text": "The original parasitic royals and CEOs still freely governing after Phase One and Phase Two.",
-          "isCorrect": false,
-          "rationale": "Those parasitic power structures were removed and replaced; Sleepers are the unawakened masses, not the old rulers."
+          "rationale": "Correct — that description belongs to “E.B.S”, not “Sleepers”."
         }
       ],
-      "hint": "Identify whose perception is the primary target of Phase Four.",
+      "hint": "Recall how the report's Key Terminology defines “Sleepers”.",
       "correctAnswer": "B"
     },
     {
       "number": 4,
-      "question": "What are Controlled Stand-ins in this phase?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Replaced leaders, clones, biological copies, masked actors, holographic projections, and A.I. driven composites.",
+          "text": "Controlled Stand-ins — The Emergency Broadcast System that ultimately takes over media networks to shatter the false reality.",
           "isCorrect": true,
-          "rationale": "Controlled Stand-ins include replaced leaders, clones, biological copies, masked actors, holographic projections, and A.I. driven composites."
+          "rationale": "That description belongs to “E.B.S”. The report defines “Controlled Stand-ins” as: Replaced leaders, clones, biological copies, masked actors, holographic projections, and A.I. driven composites used to conduct fake meetings, speeches, and ceremonies."
         },
         {
           "label": "B",
-          "text": "Only elected human officials who were never removed and still hold genuine legal authority as authentic global rulers.",
+          "text": "Narrative Maintenance — The fourth phase of The Great Purge focused on continuing business as usual to manage sleepers' perception through fabricated optics.",
           "isCorrect": false,
-          "rationale": "All true world leaders have already been replaced; stand-ins are fabricated optics, not intact genuine rulers."
+          "rationale": "This pairing matches the report's definition of “Narrative Maintenance”."
         },
         {
           "label": "C",
-          "text": "Emergency Broadcast System servers that rewrite news scripts without ever presenting any human-appearing stand-in form.",
+          "text": "Sleepers — The unawakened masses whose perception must be managed and held in a docile state until the mass reveal window.",
           "isCorrect": false,
-          "rationale": "The E.B.S. takes over media later; Controlled Stand-ins are human-appearing replacements for removed leaders."
+          "rationale": "This pairing matches the report's definition of “Sleepers”."
         },
         {
           "label": "D",
-          "text": "Exclusive military commanders who appear only during Phase Six street lockdowns and never in Phase Four public ceremonies.",
+          "text": "Trigger Events — The fifth phase involving staged geopolitical tensions, air raid sirens, and supply disruptions to push the public toward awakening.",
           "isCorrect": false,
-          "rationale": "Stand-ins conduct fake meetings, speeches, and ceremonies in Phase Four, not solely Phase Six military roles."
+          "rationale": "This pairing matches the report's definition of “Trigger Events”."
         }
       ],
-      "hint": "List the forms used to mimic removed leaders in public optics.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "A"
     },
     {

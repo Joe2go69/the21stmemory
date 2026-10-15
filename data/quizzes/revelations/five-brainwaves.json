@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What primary function do neural oscillations serve within the human vessel?",
+      "question": "True or False: According to the report, “Neural Oscillations” refers to medical and research apparatus used to detect and measure electrical frequency bands within the brain.",
       "options": [
         {
           "label": "A",
-          "text": "Neural oscillations provide a localized electromagnetic shield that prevents soul detachment during waking hours.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The disincarnate Neshama detaches when brainwaves slow into Theta and Delta. Waking oscillations are not a shield against that departure."
+          "rationale": "False — that description belongs to “Electroencephalogram (EEG)”. The report defines “Neural Oscillations” as: Rhythmic, synchronized electrical activity produced by communicating masses of neurons in the central nervous system."
         },
         {
           "label": "B",
-          "text": "Neural oscillations function exclusively as a backup power source for the heart and the autonomic systems.",
-          "isCorrect": false,
-          "rationale": "These bands govern operational states of consciousness. They are not a redundant power supply for the heart."
-        },
-        {
-          "label": "C",
-          "text": "Neural oscillations modulate human cognitive functions, emotional states, and subconscious access.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "These frequency bands are rhythmic synchronized electrical activity and serve as the baseline operational parameters for consciousness in 3rd density."
-        },
-        {
-          "label": "D",
-          "text": "Neural oscillations serve as a physical cooling mechanism for the dense tissues of the central nervous system.",
-          "isCorrect": false,
-          "rationale": "They are rhythmic electrical activity produced by communicating masses of neurons. They are not a thermal system."
+          "rationale": "Correct — that description belongs to “Electroencephalogram (EEG)”, not “Neural Oscillations”."
         }
       ],
-      "hint": "Consider how electrical patterns in the brain dictate the operational states of consciousness.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Neural Oscillations”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -114,67 +102,55 @@
     },
     {
       "number": 4,
-      "question": "How is the Alpha band (8—12 Hz) best described in terms of its operational role?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Alpha is the state where the Neshama entirely detaches from the physical vessel.",
+          "text": "Alpha Band — Neural oscillation band operating between 8 Hz and 12 Hz, linked to relaxed alertness, reflection, calmness, and meditative states.",
           "isCorrect": false,
-          "rationale": "The disincarnate Neshama temporarily detaches when brainwaves slow into Theta and Delta, not in the Alpha bridge."
+          "rationale": "This pairing matches the report's definition of “Alpha Band”."
         },
         {
           "label": "B",
-          "text": "Alpha is the primary state for deep dreamless cellular restoration and somatic repair.",
-          "isCorrect": false,
-          "rationale": "Cellular restoration, physical healing, and deep somatic repair are mandatory work of Delta waves."
+          "text": "Gamma Band — The artificial or defensive damping and packaging of spiritual luminosity and wave states to match dense 3rd-density vessel parameters.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Frequency Compression”. The report defines “Gamma Band” as: Neural oscillation band operating above 30 Hz, associated with high-level cognitive processing, information synthesis, problem-solving, and peak concentration."
         },
         {
           "label": "C",
-          "text": "Alpha is the frequency band responsible for rapid problem-solving and states of peak concentration.",
+          "text": "Delta Band — Neural oscillation band operating below 4 Hz, representing the slowest waves active during deep, dreamless sleep required for physical healing and bodily restoration.",
           "isCorrect": false,
-          "rationale": "Rapid information synthesis and peak concentration belong to Gamma, the highest frequency band."
+          "rationale": "This pairing matches the report's definition of “Delta Band”."
         },
         {
           "label": "D",
-          "text": "Alpha functions as the bridge between conscious alertness and subconscious depth.",
-          "isCorrect": true,
-          "rationale": "Alpha waves correspond to relaxed alertness, calm reflection, mental idle states, and deep meditation."
+          "text": "Beta Band — Neural oscillation band operating between 12 Hz and 30 Hz, dominant during active thinking, focus, alertness, and elevated stress or anxiety.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Beta Band”."
         }
       ],
-      "hint": "Look for the band that facilitates calmness and meditative reflection.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,
-      "question": "What is the primary significance of the Theta band (4—8 Hz) during the sleep cycle?",
+      "question": "True or False: According to the report, “Theta Band” refers to the artificial or defensive damping and packaging of spiritual luminosity and wave states to match dense 3rd-density vessel parameters.",
       "options": [
         {
           "label": "A",
-          "text": "Theta is intrinsically tied to intuitive creativity, memory consolidation, and subconscious processing.",
-          "isCorrect": true,
-          "rationale": "Theta is dominant during deep relaxation, vivid daydreaming, and REM sleep."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Frequency Compression”. The report defines “Theta Band” as: Neural oscillation band operating between 4 Hz and 8 Hz, present during deep relaxation, daydreaming, REM sleep, creativity, and memory processing."
         },
         {
           "label": "B",
-          "text": "Theta maintains a rigid barrier that prevents all subconscious access during sleep.",
-          "isCorrect": false,
-          "rationale": "As brainwaves slow into Theta, rigid boundaries dissolve into fluid interplay. Theta does not lock the subconscious shut."
-        },
-        {
-          "label": "C",
-          "text": "Theta represents the highest frequency of neural activity inside the vessel.",
-          "isCorrect": false,
-          "rationale": "Gamma is the highest frequency band. Theta operates between 4 Hz and 8 Hz."
-        },
-        {
-          "label": "D",
-          "text": "Theta governs outward task orientation and sensory alertness during the sleep cycle.",
-          "isCorrect": false,
-          "rationale": "Outward task orientation and sensory alertness are the dominant work of Beta during waking focus."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Frequency Compression”, not “Theta Band”."
         }
       ],
-      "hint": "Consider the state associated with dreaming and creative intuition.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Theta Band”.",
+      "correctAnswer": "B"
     },
     {
       "number": 6,

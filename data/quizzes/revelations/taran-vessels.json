@@ -82,67 +82,55 @@
     },
     {
       "number": 3,
-      "question": "How does the Software-Specific Facial Architecture determine an individual's appearance?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Parasitic controllers select facial features in order to maximize social friction among vessels.",
+          "text": "Software-Specific Facial Architecture — The biological mechanism wherein a vessel's individual facial features are chiseled and honed over time by the soul's unique vibrational frequency and data bandwidth.",
           "isCorrect": false,
-          "rationale": "General body DNA establishes the structural frame; specific facial contours are sculpted by the soul, not chosen by controllers."
+          "rationale": "This pairing matches the report's definition of “Software-Specific Facial Architecture”."
         },
         {
           "label": "B",
-          "text": "The vessel's individual facial features are chiseled and honed over time by the soul's unique vibrational frequency and data bandwidth.",
-          "isCorrect": true,
-          "rationale": "Software-Specific Facial Architecture is the mechanism wherein a vessel's individual facial features are chiseled and honed over time by the soul's unique vibrational frequency and data bandwidth."
+          "text": "New-Human Vessel — The contemporary, artificially downsized and brain-shrunken 3rd-density physical body created by parasitic controllers through the systematic degradation of Taran DNA.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “New-Human Vessel”."
         },
         {
           "label": "C",
-          "text": "The physical environment and local gravity define the cranial structure of each vessel.",
-          "isCorrect": false,
-          "rationale": "Facial architecture is driven by the soul unique vibrational frequency and data bandwidth, not by gravity or environment."
+          "text": "Aktun — The innate suite of fifteen foundational mental, emotional, and cognitive attributes encoded into the Taran biological schematic at inception.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Firmware”. The report defines “Aktun” as: The specialized production-line origin responsible for manufacturing the perfected Taran hominid vessel schematic."
         },
         {
           "label": "D",
-          "text": "A randomized genetic shuffling occurs during the 3rd-density birth process to set the face.",
+          "text": "Pineal Gland Interface — The specialized neurological apparatus within the vessel that serves as the quantum-classical crossover point for aetheric connection and physical manifestation.",
           "isCorrect": false,
-          "rationale": "Facial structure operates under software-specific parameters rather than purely random genetic shuffling."
+          "rationale": "This pairing matches the report's definition of “Pineal Gland Interface”."
         }
       ],
-      "hint": "Think about the relationship between a soul's internal harmonics and its outward physical expression.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 4,
-      "question": "What is the primary role of the Pineal Gland within the Taran Vessel?",
+      "question": "True or False: According to the report, “Taran Vessel” refers to the original, high-density biological hominid container designed by the Aktun to house benevolent souls exploring physical creation.",
       "options": [
         {
           "label": "A",
-          "text": "It regulates the basic metabolic rates and circadian rhythms of the downsized body.",
-          "isCorrect": false,
-          "rationale": "The Pineal Gland Interface is the quantum-classical crossover point for aetheric connection, not a mere metabolic clock."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Taran Vessel” this way."
         },
         {
           "label": "B",
-          "text": "It serves as the quantum-classical crossover point for aetheric connection and physical manifestation.",
-          "isCorrect": true,
-          "rationale": "The Pineal Gland Interface is the specialized neurological apparatus that serves as the quantum-classical crossover point for aetheric connection and physical manifestation."
-        },
-        {
-          "label": "C",
-          "text": "It filters environmental toxins such as fluoride to protect the cerebral cortex.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The pineal is the target of water fluoridation and environmental toxins that calcify its tissue, not a filter that protects the brain from them."
-        },
-        {
-          "label": "D",
-          "text": "It stores the genetic memory of the previous seven major planetary resets.",
-          "isCorrect": false,
-          "rationale": "The pineal is the interface for aetheric connection and physical manifestation, not a vault of reset memory."
+          "rationale": "It is true — the report defines “Taran Vessel” as: The original, high-density biological hominid container designed by the Aktun to house benevolent souls exploring physical creation."
         }
       ],
-      "hint": "Identify the bridge that allows the vessel to interact with non-physical reality.",
-      "correctAnswer": "B"
+      "hint": "Recall how the report's Key Terminology defines “Taran Vessel”.",
+      "correctAnswer": "A"
     },
     {
       "number": 5,

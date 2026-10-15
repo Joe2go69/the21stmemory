@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the true underlying 5D+ baseline of existence beneath the current parasitic overlays?",
+      "question": "True or False: According to the report, “Parasitic Overlay” refers to the central physical layer within the Cube Containment holding 178 physical worlds, functioning as a frequency amplifier to solidify thought into dense structure.",
       "options": [
         {
           "label": "A",
-          "text": "The Original Realm, also called the Second Realm or Tara, as the intact crystalline baseline of existence.",
-          "isCorrect": true,
-          "rationale": "The Original Realm, also known as Tara or the Second Realm, is the true 5D+ crystalline foundation beneath the parasitic overlays."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Great Dome”. The report defines “Parasitic Overlay” as: A false 3D holographical projection skin or illusion grid masking the true crystalline nature of reality, tricking the senses into perceiving concrete, steel, and distance."
         },
         {
           "label": "B",
-          "text": "The Great Dome alone, treated as the full multidimensional baseline rather than one physical layer inside containment.",
-          "isCorrect": false,
-          "rationale": "The Great Dome is a central physical layer holding 178 worlds, not the underlying multidimensional baseline."
-        },
-        {
-          "label": "C",
-          "text": "The Saturn Moon matrix, treated as the original foundation of life rather than a parasitic siphon system.",
-          "isCorrect": false,
-          "rationale": "The Saturn Moon matrix is parasitic harvesting technology, not the original foundation of the realm."
-        },
-        {
-          "label": "D",
-          "text": "The Cube Containment alone, treated as the baseline state of existence rather than the master hard drive framework.",
-          "isCorrect": false,
-          "rationale": "The Cube Containment is the master hard drive framework for domes and simulations, not the baseline state of existence itself."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Great Dome”, not “Parasitic Overlay”."
         }
       ],
-      "hint": "Recall the 5D environment often referred to as Tara or the Second Realm.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Parasitic Overlay”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -82,67 +70,55 @@
     },
     {
       "number": 3,
-      "question": "How many physical worlds are contained within the Great Dome?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Exactly 12 physical worlds, matching the Council of 12 Suns solar stewardship count.",
+          "text": "Council of 12 Suns — The original solar stewardship that oversees the entire Cube system, acting as the keepers of balance and guiding creation without force.",
           "isCorrect": false,
-          "rationale": "Twelve names the Council of 12 Suns, not the count of physical worlds in the Great Dome."
+          "rationale": "This pairing matches the report's definition of “Council of 12 Suns”."
         },
         {
           "label": "B",
-          "text": "Exactly 178 physical worlds held as the central physical layer of the Cube Containment.",
+          "text": "Spirit Tree — The first stewards and caretakers of the Original Realm, carrying pre-fall 5D codes and responsible for seeding organic life, oceans, and garden eco-systems.",
           "isCorrect": true,
-          "rationale": "The Great Dome holds 178 physical worlds and amplifies frequency into dense structure."
+          "rationale": "That description belongs to “Sols of Tara”. The report defines “Spirit Tree” as: The original central node and axis of consciousness in Hyperborea that pulsed harmonic currents across the Great Dome before being ripped out and replaced by parasitic valve technology."
         },
         {
           "label": "C",
-          "text": "Exactly 5 physical worlds, matching the five Solar Masters of the Elements.",
+          "text": "Cube Containment — One massive, interwoven crystalline electro-magnetic framework functioning as the master hard drive for all domes, realms, and simulations.",
           "isCorrect": false,
-          "rationale": "Five names the Solar Masters of the Elements, not the world count inside the Great Dome."
+          "rationale": "This pairing matches the report's definition of “Cube Containment”."
         },
         {
           "label": "D",
-          "text": "Exactly 7 physical worlds, matching the seven external gardens around the Known Lands.",
+          "text": "Great Dome — The central physical layer within the Cube Containment holding 178 physical worlds, functioning as a frequency amplifier to solidify thought into dense structure.",
           "isCorrect": false,
-          "rationale": "Seven names the external domes or gardens surrounding the Known Lands, not the Great Dome world count."
+          "rationale": "This pairing matches the report's definition of “Great Dome”."
         }
       ],
-      "hint": "Recall the three-digit world count inside the Great Dome frequency amplifier.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "B"
     },
     {
       "number": 4,
-      "question": "What was the original function of the Spirit Tree in Hyperborea?",
+      "question": "True or False: According to the report, “Spirit Tree” refers to the original central node and axis of consciousness in Hyperborea that pulsed harmonic currents across the Great Dome before being ripped out and replaced by parasitic valve technology.",
       "options": [
         {
           "label": "A",
-          "text": "To stabilize the rotation of a planetary globe floating in vacuum space.",
-          "isCorrect": false,
-          "rationale": "A rotating globe is part of the 3D illusion; reality is anchored by frequency nodes and crystalline structure."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Spirit Tree” this way."
         },
         {
           "label": "B",
-          "text": "To act as a parasitic valve for harvesting emotional energy from reincarnation loops.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Emotional harvesting is the function of Black Cube Tech that replaced the Spirit Tree."
-        },
-        {
-          "label": "C",
-          "text": "To serve as a storage bank for dense 3D historical memories and trauma loops.",
-          "isCorrect": false,
-          "rationale": "Memory and creation belong with the Dome of Forgotten Gods, not the Spirit Tree axis."
-        },
-        {
-          "label": "D",
-          "text": "To pulse harmonic currents across the Great Dome as the central axis of consciousness.",
-          "isCorrect": true,
-          "rationale": "The Spirit Tree was the central axis of consciousness that pulsed harmonic currents across the Great Dome."
+          "rationale": "It is true — the report defines “Spirit Tree” as: The original central node and axis of consciousness in Hyperborea that pulsed harmonic currents across the Great Dome before being ripped out and replaced by parasitic valve technology."
         }
       ],
-      "hint": "Focus on the role of the central axis in distributing organic resonance.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Spirit Tree”.",
+      "correctAnswer": "A"
     },
     {
       "number": 5,

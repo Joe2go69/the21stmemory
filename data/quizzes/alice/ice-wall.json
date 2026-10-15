@@ -50,34 +50,34 @@
     },
     {
       "number": 2,
-      "question": "Where does humanity actually sit relative to Gateway-10 and the globe myth?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Floating freely beyond all ice walls as pure consciousness with no partitioned Realm-3 enclosure.",
+          "text": "Realm-1 — An adjacent flat realm; its outer ice wall is physically joined to the landmass humanity is falsely taught to perceive as the distant planet Mars.",
           "isCorrect": false,
-          "rationale": "Humanity is quarantined in Realm-3 behind the Antarctic partition, not free beyond all walls."
+          "rationale": "This pairing matches the report's definition of “Realm-1”."
         },
         {
           "label": "B",
-          "text": "On a highly suppressed horizontal flat plain at the center of Gateway-10 — not a spherical planet spinning in a vacuum.",
+          "text": "Gateway-10 — The etheric supercomputer and physical matrix originally designed for manifestation, now inverted into a low-density prison.",
           "isCorrect": true,
-          "rationale": "True layout is a suppressed flat plain centered in Gateway-10; the spinning globe vacuum model is false."
+          "rationale": "That description belongs to “Simulation”. The report defines “Gateway-10” as: The central physical plain of existence comprising 178 interconnected, horizontal worlds."
         },
         {
           "label": "C",
-          "text": "On a spherical planet spinning in vacuum at the edge of Gateway-10 with 178 orbiting moons and no ice barriers.",
+          "text": "Antarctica — The specific fake ice wall engineered to sever human reality from the broader physical plain, artificially creating Realm-3.",
           "isCorrect": false,
-          "rationale": "Humanity is on a suppressed horizontal flat plain at Gateway-10's center — not a spinning vacuum sphere."
+          "rationale": "This pairing matches the report's definition of “Antarctica”."
         },
         {
           "label": "D",
-          "text": "Only inside the Amnesia Vortex under the Vatican with no geographical plain or Gateway placement at all.",
+          "text": "Ice Wall — A physical, horizontal boundary constructed by parasitic controllers to partition the known lands from the rest of the flat, adjacent cosmic plains.",
           "isCorrect": false,
-          "rationale": "Gateway-10 is the central physical plain of 178 worlds; Ice Wall geography is terrestrial flat architecture."
+          "rationale": "This pairing matches the report's definition of “Ice Wall”."
         }
       ],
-      "hint": "Suppressed flat plain at Gateway-10 center — not a globe.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "B"
     },
     {
@@ -274,35 +274,23 @@
     },
     {
       "number": 9,
-      "question": "How were the Known Lands partitioned into Realm-3?",
+      "question": "True or False: According to the report, “Realm-3” refers to A physical, horizontal boundary constructed by parasitic controllers to partition the known lands from the rest of the flat, adjacent cosmic plains.",
       "options": [
         {
           "label": "A",
-          "text": "Realm-3 formed naturally when 178 globes collided and left Antarctica as leftover vacuum frost only.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Partition is engineered quarantine on a flat plain, not colliding-globe leftover frost."
+          "rationale": "False — that description belongs to “Ice Wall”. The report defines “Realm-3” as: Also known as the \"Known Lands,\" this is the currently inhabited segment of the flat Earth, artificially partitioned from the original Realm-2."
         },
         {
           "label": "B",
-          "text": "Realm-3 is the entire Gateway-10 plain with no Antarctic cut and no separate Realm-2 history.",
-          "isCorrect": false,
-          "rationale": "Realm-3 is the localized inhabited segment; Realm-2 was the wider original center plane."
-        },
-        {
-          "label": "C",
-          "text": "Realm-3 is only the Moon shell, partitioned by Venus holography with no Earth ice wall involved.",
-          "isCorrect": false,
-          "rationale": "Realm-3 is the Known Lands of the flat Earth, carved by Antarctic ice partition."
-        },
-        {
-          "label": "D",
-          "text": "Realm-3 was forcefully carved from original Realm-2 by creating the fake ice wall of Antarctica, quarantining the human population.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Known Lands (Realm-3) were cut out of Realm-2 via Antarctica's fake ice wall, quarantining humanity."
+          "rationale": "Correct — that description belongs to “Ice Wall”, not “Realm-3”."
         }
       ],
-      "hint": "Carved from Realm-2 by fake Antarctic ice — quarantine.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Realm-3”.",
+      "correctAnswer": "B"
     },
     {
       "number": 10,
@@ -338,34 +326,22 @@
     },
     {
       "number": 11,
-      "question": "What is Gateway-10 in Ice Wall Cosmology?",
+      "question": "True or False: According to the report, “Cosmology” refers to the specific fake ice wall engineered to sever human reality from the broader physical plain, artificially creating Realm-3.",
       "options": [
         {
           "label": "A",
-          "text": "Only the Antarctic tourist visa office that freemasons run without any multi-world architecture.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Gateway-10 is the central plain of 178 flat worlds; ice walls separate adjacent realms within it."
+          "rationale": "False — that description belongs to “Antarctica”. The report defines “Cosmology” as: The true mechanical and geographical layout of the physical plain, defined by flat architecture rather than spherical planets."
         },
         {
           "label": "B",
-          "text": "The central physical plain of existence comprising 178 interconnected horizontal worlds.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Gateway-10 is the central plain of 178 ice-separated horizontal worlds; humanity's realm is one partitioned piece."
-        },
-        {
-          "label": "C",
-          "text": "A Simulation app that deletes ice walls whenever NPCs pass a globe-Earth quiz online.",
-          "isCorrect": false,
-          "rationale": "Simulation is the inverted prison matrix; Gateway-10 is real multi-world flat architecture."
-        },
-        {
-          "label": "D",
-          "text": "A single spinning globe with no interconnected worlds and no ice barriers of any kind between regions.",
-          "isCorrect": false,
-          "rationale": "Gateway-10 is 178 interconnected horizontal worlds on the central physical plain."
+          "rationale": "Correct — that description belongs to “Antarctica”, not “Cosmology”."
         }
       ],
-      "hint": "Central plain — 178 interconnected horizontal worlds.",
+      "hint": "Recall how the report's Key Terminology defines “Cosmology”.",
       "correctAnswer": "B"
     },
     {

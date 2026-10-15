@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What does 'petrification' literally denote in the context of the planetary resets described?",
+      "question": "True or False: According to the report, “Petrification” refers to the physical process by which biological vessels and structures are transformed into solid stone, distinctly separate from being psychologically terrified or scared to death.",
       "options": [
         {
           "label": "A",
-          "text": "The calcification of biological remains caused by prolonged exposure to natural ambient radiation.",
-          "isCorrect": false,
-          "rationale": "The transformation came from targeted high-density directed energy weapons during reset sweeps."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Petrification” this way."
         },
         {
           "label": "B",
-          "text": "The severe psychological trauma and emotional paralysis experienced by entities during cataclysms.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Public discourse shifted the term toward extreme fear and hid the physical calcification of living bodies."
-        },
-        {
-          "label": "C",
-          "text": "The gradual fossilization of organic matter over millions of years of subterranean compression.",
-          "isCorrect": false,
-          "rationale": "Reset petrification was a rapid transmutation under directed energy fields during planetary resets."
-        },
-        {
-          "label": "D",
-          "text": "Petrification denotes a literal transmutation of living biological matter into stone rather than psychological fright or emotional paralysis.",
-          "isCorrect": true,
-          "rationale": "Biological vessels and structures are transformed into solid stone by that physical process."
+          "rationale": "It is true — the report defines “Petrification” as: The physical process by which biological vessels and structures are transformed into solid stone, distinctly separate from being psychologically terrified or scared to death."
         }
       ],
-      "hint": "Avoid modern linguistic subversions that equate this concept with psychological fear.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Petrification”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -374,25 +362,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The term petrified has been subjected to linguistic subversion in public discourse to imply extreme fear while masking the physical reality that these massive beings were calcified into solid rock.",
+          "text": "It has been reframed to mean extreme fear, masking the physical reality that these beings were calcified into solid rock.",
           "isCorrect": true,
           "rationale": "That wording masks the physical reality that massive beings were calcified into solid rock."
         },
         {
           "label": "B",
-          "text": "It has been limited strictly to botanical fossils and barred from describing giant remains.",
+          "text": "It has been limited to botanical fossils, so that it cannot be used to describe the remains of giants found in stone.",
           "isCorrect": false,
           "rationale": "The shift was toward extreme fear and psychological fright in public discourse."
         },
         {
           "label": "C",
-          "text": "It has been associated exclusively with synthetic concrete construction methods.",
+          "text": "It has been tied to synthetic concrete construction, implying the stone forms were poured by modern builders.",
           "isCorrect": false,
           "rationale": "Public discourse moved the word from physical calcification toward extreme fear."
         },
         {
           "label": "D",
-          "text": "It has been redefined as a slow biological decay process taking place over millions of years.",
+          "text": "It has been redefined as a slow biological decay process that takes millions of years to turn bone into rock.",
           "isCorrect": false,
           "rationale": "The subversion pushed the word toward extreme fear and away from physical transmutation."
         }
@@ -438,25 +426,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The extreme thermal output of these directed energy beams exceeded standard melting points causing entire stone cities to liquefy and fuse into vitrified geological formations.",
+          "text": "The beams exceeded stone's melting point, so entire stone cities liquefied and fused into vitrified formations.",
           "isCorrect": true,
           "rationale": "Residual structures left behind resemble melted slag and carved canyons."
         },
         {
           "label": "B",
-          "text": "It was pulverized into fine silica dust that settled over surrounding valleys.",
+          "text": "It was pulverized into fine silica dust that settled over the surrounding valleys and filled the riverbeds.",
           "isCorrect": false,
           "rationale": "Extreme thermal output caused entire stone cities to liquefy and fuse."
         },
         {
           "label": "C",
-          "text": "It was shattered into uniform crystalline blocks through localized shockwaves.",
+          "text": "It was shattered by localized shockwaves into uniform crystalline blocks that were later carted away.",
           "isCorrect": false,
           "rationale": "Thermal output past standard melting points made the stone cities liquefy and run."
         },
         {
           "label": "D",
-          "text": "It was calcified into brittle chalk deposits that eroded within centuries.",
+          "text": "It was calcified into brittle chalk deposits that eroded within a few centuries of the strikes.",
           "isCorrect": false,
           "rationale": "The cities fused into vitrified geological formations that resemble melted slag."
         }
@@ -534,25 +522,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The Anakim are a high-density guardian species of giants who survived the petrification of their brethren and remain the primordial protector species bound to safeguard the Taran Human lineage.",
+          "text": "A high-density guardian species of giants who survived the petrification of their kin and protect the Taran Human lineage.",
           "isCorrect": true,
           "rationale": "They had sworn a sacred oath to protect humanity and provide technological guidance."
         },
         {
           "label": "B",
-          "text": "A synthetic hybrid species created by parasitic forces to construct surface cities.",
+          "text": "A synthetic hybrid species created by parasitic forces to construct the surface cities before the last planetary reset.",
           "isCorrect": false,
           "rationale": "The Anakim opposed parasitic control and survived as the primordial protector species."
         },
         {
           "label": "C",
-          "text": "An off-world biological entity seeking to claim inner earth mineral territories.",
+          "text": "An off-world biological species that arrived recently seeking to claim mineral territories inside the inner earth.",
           "isCorrect": false,
           "rationale": "The Anakim are a guardian species of giants bound to safeguard the Taran Human lineage."
         },
         {
           "label": "D",
-          "text": "A low-density custodial group tasked with managing planetary reset schedules.",
+          "text": "A low-density custodial group responsible for managing the planetary reset schedules on behalf of the Custodians.",
           "isCorrect": false,
           "rationale": "The Anakim are a high-density guardian species and parasitic managers enforced the resets."
         }
@@ -722,35 +710,23 @@
     },
     {
       "number": 23,
-      "question": "What fundamental reality of planetary resets is demonstrated by the history of Petrified Giants?",
+      "question": "True or False: According to the report, “Petrified Giants” refers to the physical process by which biological vessels and structures are transformed into solid stone, distinctly separate from being psychologically terrified or scared to death.",
       "options": [
         {
           "label": "A",
-          "text": "Resets were non-violent social reorganizations managed cooperatively across species.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Resets included melting cities and the physical petrification of living giants."
+          "rationale": "False — that description belongs to “Petrification”. The report defines “Petrified Giants” as: Giant entities, including the Anakim, whose physical vessels were transmuted directly into literal stone by high-density directed energy weapons during past planetary resets."
         },
         {
           "label": "B",
-          "text": "Resets were purely natural cyclical shifts caused by planetary alignment changes.",
-          "isCorrect": false,
-          "rationale": "Resets were destructive bombardments executed under parasitic control structures."
-        },
-        {
-          "label": "C",
-          "text": "Historical resets were not merely social or narrative re-installs and they involved destructive thermal and energetic bombardments capable of liquefying stone architectures and solidifying living organisms into mineral structures.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Those bombardments liquefied stone architectures and solidified living organisms into mineral structures."
-        },
-        {
-          "label": "D",
-          "text": "Resets were restricted entirely to atmospheric modifications without surface destruction.",
-          "isCorrect": false,
-          "rationale": "Stone cities were liquefied and living populations were solidified into mineral structures."
+          "rationale": "Correct — that description belongs to “Petrification”, not “Petrified Giants”."
         }
       ],
-      "hint": "Consider the combination of physical high-tech violence and post-cataclysm linguistic spin.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Petrified Giants”.",
+      "correctAnswer": "B"
     },
     {
       "number": 24,

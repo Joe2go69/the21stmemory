@@ -146,35 +146,35 @@
     },
     {
       "number": 5,
-      "question": "What is Solid-Perception Holography?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "A free-energy generator design using only spirals and domes without any holographic density illusion.",
-          "isCorrect": false,
-          "rationale": "Solid-perception holography specifically overlays low-frequency matter with holograms to enforce dense solidity."
+          "text": "Solid-Perception Holography — The central, physical realm located within the Great Dome, operating as the core theatre where the 3D Overlay is currently deployed.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Known Lands”. The report defines “Solid-Perception Holography” as: The use of low-frequency matter overlaid by holographic projection fields to make elements like brick, concrete, metal, or glass feel hard, heavy, and permanent."
         },
         {
           "label": "B",
-          "text": "Low-frequency matter overlaid by holographic projection fields so brick, concrete, metal, or glass feel hard, heavy, and permanent.",
-          "isCorrect": true,
-          "rationale": "Solid-Perception Holography uses low-frequency matter overlaid by holographic projection fields so brick, concrete, metal, or glass feel hard, heavy, and permanent."
+          "text": "Frequency Trick — The mechanism by which the parasitic field tunes projection frequencies to hijack human 3D senses, making dead concrete and stone look and feel more real than living crystal.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Frequency Trick”."
         },
         {
           "label": "C",
-          "text": "Only a painting technique used in museums with no effect on touch, weight, or permanence of materials.",
+          "text": "Crystalline Temple — The true, underlying structure of the realm, composed of living light, crystal grids, and harmonic lenses, currently hidden beneath the 3D Overlay.",
           "isCorrect": false,
-          "rationale": "It is a perceptual mechanism that makes materials feel hard, heavy, and permanent to the senses."
+          "rationale": "This pairing matches the report's definition of “Crystalline Temple”."
         },
         {
           "label": "D",
-          "text": "High-frequency living crystal left completely unmodulated so materials never feel solid to 3D senses.",
+          "text": "Parasite 3D Architecture — Structures built using dead frequency holders, such as concrete, steel, and synthetic glass, designed with anti-resonance geometry to drain energy and maintain the frequency trick.",
           "isCorrect": false,
-          "rationale": "Solid-perception holography stabilizes low-frequency matter to feel solid; high resonance later reveals hollow scaffolding."
+          "rationale": "This pairing matches the report's definition of “Parasite 3D Architecture”."
         }
       ],
-      "hint": "Connect low-frequency matter and holographic fields to hard, heavy permanence.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 6,
@@ -210,67 +210,43 @@
     },
     {
       "number": 7,
-      "question": "What characterizes Parasite 3D Architecture?",
+      "question": "True or False: According to the report, “Parasite 3D Architecture” refers to structures built using dead frequency holders, such as concrete, steel, and synthetic glass, designed with anti-resonance geometry to drain energy and maintain the frequency trick.",
       "options": [
         {
           "label": "A",
-          "text": "Only wooden freestanding sculptures that amplify cosmic resonance without draining grid nodes.",
-          "isCorrect": false,
-          "rationale": "Named materials are concrete, steel, and synthetic glass shaped to break natural harmonics."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Parasite 3D Architecture” this way."
         },
         {
           "label": "B",
-          "text": "Structures built from dead frequency holders such as concrete, steel, and synthetic glass with anti-resonance geometry that drains energy and maintains the Frequency Trick.",
-          "isCorrect": true,
-          "rationale": "Parasite 3D Architecture uses dead frequency holders like concrete, steel, and synthetic glass with anti-resonance geometry to drain energy and maintain the Frequency Trick."
-        },
-        {
-          "label": "C",
-          "text": "Nothing beyond underground crystal halls with no surface boxes, flat roofs, or sharp right angles.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Modern construction uses boxes, flat roofs, and sharp right angles as anti-resonance forms on the surface environment."
-        },
-        {
-          "label": "D",
-          "text": "Structures grown only as living crystal grids aligned to ley lines with no dead materials or anti-resonance forms.",
-          "isCorrect": false,
-          "rationale": "Living harmonic architecture is the true solar-builder design; parasite architecture uses dead frequency holders."
+          "rationale": "It is true — the report defines “Parasite 3D Architecture” as: Structures built using dead frequency holders, such as concrete, steel, and synthetic glass, designed with anti-resonance geometry to drain energy and maintain the frequency trick."
         }
       ],
-      "hint": "Focus on materials and anti-resonance geometry that maintain the trick.",
-      "correctAnswer": "B"
+      "hint": "Recall how the report's Key Terminology defines “Parasite 3D Architecture”.",
+      "correctAnswer": "A"
     },
     {
       "number": 8,
-      "question": "What are the Known Lands in this framework?",
+      "question": "True or False: According to the report, “Known Lands” refers to the central, physical realm located within the Great Dome, operating as the core theatre where the 3D Overlay is currently deployed.",
       "options": [
         {
           "label": "A",
-          "text": "A temporary dream layer that vanishes whenever anyone raises personal frequency slightly.",
-          "isCorrect": false,
-          "rationale": "The Known Lands are the central physical realm; the overlay over them fractures as frequency rises, but the realm itself is the theatre of deployment."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Known Lands” this way."
         },
         {
           "label": "B",
-          "text": "A distant empty void outside the Great Dome with no overlay deployment and no physical theatre role.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The Known Lands are the central physical realm inside the Great Dome where the overlay is deployed."
-        },
-        {
-          "label": "C",
-          "text": "Only the CUBE Containment hard drive itself with no central physical realm or dome theatre.",
-          "isCorrect": false,
-          "rationale": "The Known Lands sit within the Great Dome as the physical theatre; the CUBE is the wider containment architecture."
-        },
-        {
-          "label": "D",
-          "text": "The central physical realm within the Great Dome, operating as the core theatre where the 3D Overlay is currently deployed.",
-          "isCorrect": true,
-          "rationale": "The Known Lands are the central physical realm located within the Great Dome, operating as the core theatre where the 3D Overlay is currently deployed."
+          "rationale": "It is true — the report defines “Known Lands” as: The central, physical realm located within the Great Dome, operating as the core theatre where the 3D Overlay is currently deployed."
         }
       ],
-      "hint": "Locate the central physical realm and its role as overlay theatre.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Known Lands”.",
+      "correctAnswer": "A"
     },
     {
       "number": 9,

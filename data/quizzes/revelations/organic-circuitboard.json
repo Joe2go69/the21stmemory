@@ -18,67 +18,55 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary energetic function of the Organic Circuitboard?",
+      "question": "True or False: According to the report, “Organic Circuitboard” refers to the living, grown planetary architecture formed by integrated mineral veins, tree root networks, ley line grids, and water channels that function as a global motherboard.",
       "options": [
         {
           "label": "A",
-          "text": "Capturing atmospheric aether through surface vegetation and routing it into subterranean conductive pathways.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Atmospheric aether is captured by surface vegetation and routed down into subterranean conductive pathways."
+          "rationale": "True — the report defines “Organic Circuitboard” this way."
         },
         {
           "label": "B",
-          "text": "Generating high-frequency thermal radiation across the atmosphere to regulate surface weather cycles.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Thermal radiation generation belongs to wasteful entropic technology while the organic circuit operates without heat loss."
-        },
-        {
-          "label": "C",
-          "text": "Converting subterranean geothermal heat into electromagnetic radiation to power surface industrial networks.",
-          "isCorrect": false,
-          "rationale": "Geothermal heat conversion is an entropic thermal process rather than the closed air-to-earth circuit of the living motherboard."
-        },
-        {
-          "label": "D",
-          "text": "Storing electrical waste within volcanic reservoirs to prevent crustal energetic feedback across domains.",
-          "isCorrect": false,
-          "rationale": "The organic circuit operates as a pristine zero-waste system that does not generate or store hazardous electrical byproduct."
+          "rationale": "It is true — the report defines “Organic Circuitboard” as: The living, grown planetary architecture formed by integrated mineral veins, tree root networks, ley line grids, and water channels that function as a global motherboard."
         }
       ],
-      "hint": "Consider how surface biology connects atmospheric energy to subterranean geology in a closed system.",
+      "hint": "Recall how the report's Key Terminology defines “Organic Circuitboard”.",
       "correctAnswer": "A"
     },
     {
       "number": 2,
-      "question": "What role do Mount Meru and the Spirit Tree play in planetary architecture?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Forming a localized electromagnetic barrier shielding the realm from horizontal frequency bands in the Cube.",
+          "text": "Disseminated Deposits — Microscopic metal particles evenly distributed throughout massive rock bodies, creating diffuse conductive matrices.",
           "isCorrect": false,
-          "rationale": "The Spirit Tree routes aetheric energy across the physical plane rather than forming a localized defensive shield."
+          "rationale": "This pairing matches the report's definition of “Disseminated Deposits”."
         },
         {
           "label": "B",
-          "text": "The Spirit Tree at Mount Meru functioned as the supreme Axis Mundi drawing atmospheric aether into deep subterranean root systems.",
-          "isCorrect": true,
-          "rationale": "This supermassive biological structure functioned as the supreme Axis Mundi."
+          "text": "Agouti — A specialized rainforest rodent possessing enamel-reinforced teeth capable of cracking fallen Brazil nut pods to propagate seeds.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Agouti”."
         },
         {
           "label": "C",
-          "text": "Serving as a peripheral buffer zone designed to absorb excess telluric current from outer world domains.",
+          "text": "Terra Preta — A self-regenerating, biochar-infused living soil matrix created across the Amazon Basin to support high-yield agroforestry.",
           "isCorrect": false,
-          "rationale": "Mount Meru lies at the absolute geographic center of the physical plane rather than along the outer boundary."
+          "rationale": "This pairing matches the report's definition of “Terra Preta”."
         },
         {
           "label": "D",
-          "text": "Operating as a geological pressure valve regulating petroleum flow across the shared subterranean ocean.",
-          "isCorrect": false,
-          "rationale": "Volcanic structures act as pressure regulation valves while the Spirit Tree is the central biological antenna."
+          "text": "Spirit Tree — The vertical hierarchy of dimensional frequencies descending from Source Consciousness down to the 3rd-density physical realm.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Density Stack”. The report defines “Spirit Tree” as: The supermassive central biological antenna rooted at Mount Meru whose subterranean root system spans across the physical plane to route aetheric energy."
         }
       ],
-      "hint": "Focus on the central vertical cosmic pillar located at the geographic center of the physical plane.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 3,
@@ -114,35 +102,23 @@
     },
     {
       "number": 4,
-      "question": "How are Hydrothermal Deposits formed within the planetary crust?",
+      "question": "True or False: According to the report, “Hydrothermal Deposits” refers to concentrated lines of conductive metals formed when superheated, mineral-rich water is driven through crustal fissures.",
       "options": [
         {
           "label": "A",
-          "text": "Expansive horizontal sheets of platinum group metals solidify during the cooling of subterranean magmatic intrusions.",
-          "isCorrect": false,
-          "rationale": "Horizontal sheets of platinum group metals describe magmatic reefs formed during magma cooling rather than fluid fissure fills."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Hydrothermal Deposits” this way."
         },
         {
           "label": "B",
-          "text": "Superheated fluid forces dissolved gold silver and quartz into crustal fractures creating concentrated conductive ribbons.",
-          "isCorrect": true,
-          "rationale": "Superheated fluid forces dissolved gold silver and quartz into crustal fractures creating concentrated conductive ribbons."
-        },
-        {
-          "label": "C",
-          "text": "Microscopic particles of metal evenly scatter across massive rock bodies to create diffuse conductive fields.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Evenly scattered microscopic metal particles describe disseminated deposits such as Carlin-type gold rather than hydrothermal veins."
-        },
-        {
-          "label": "D",
-          "text": "Dense metallic fragments settle into natural riverbed traps through mechanical water transport and sorting.",
-          "isCorrect": false,
-          "rationale": "Riverbed accumulation of heavy metal particles forms alluvial deposits rather than subterranean fissure veins."
+          "rationale": "It is true — the report defines “Hydrothermal Deposits” as: Concentrated lines of conductive metals formed when superheated, mineral-rich water is driven through crustal fissures."
         }
       ],
-      "hint": "Recall the mechanism involving pressurized hot water driving dissolved metals into narrow crustal fractures.",
-      "correctAnswer": "B"
+      "hint": "Recall how the report's Key Terminology defines “Hydrothermal Deposits”.",
+      "correctAnswer": "A"
     },
     {
       "number": 5,

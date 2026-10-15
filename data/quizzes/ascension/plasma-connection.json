@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the foundational process that creates the plasma crystalline state?",
+      "question": "True or False: According to the report, “Plasma Crystalline” refers to the advanced energetic state formed when the new aether interacts and blends with activated quartz crystals, laying the foundation for portal creation.",
       "options": [
         {
           "label": "A",
-          "text": "The fusion of atmospheric water vapor with high-frequency solar flares.",
-          "isCorrect": false,
-          "rationale": "While water and solar light are involved in the broader system, the crystalline state specifically requires the aether-quartz reaction."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Plasma Crystalline” this way."
         },
         {
           "label": "B",
-          "text": "The chemical reaction of liquid plasma with deep-earth volcanic minerals.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Volcanic minerals do not serve as the primary conductors; the system relies on high-quality quartz crystals for memory transmission."
-        },
-        {
-          "label": "C",
-          "text": "The interaction between new aether and pre-implanted quartz crystals.",
-          "isCorrect": true,
-          "rationale": "Plasma crystalline structures emerge through the direct interaction of new aether and pre-implanted quartz crystals."
-        },
-        {
-          "label": "D",
-          "text": "The mechanical compression of tectonic plates against memory-tech devices.",
-          "isCorrect": false,
-          "rationale": "Mechanical pressure is a geological process, whereas this formation is an energetic synthesis of frequency and crystalline elements."
+          "rationale": "It is true — the report defines “Plasma Crystalline” as: The advanced energetic state formed when the new aether interacts and blends with activated quartz crystals, laying the foundation for portal creation."
         }
       ],
-      "hint": "Consider the relationship between the newly created free-energy field and the physical objects placed underground.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Plasma Crystalline”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -114,35 +102,23 @@
     },
     {
       "number": 4,
-      "question": "What is the primary role of the New Aether in the ascension process?",
+      "question": "True or False: According to the report, “New Aether” refers to the conductive framework centered on quartz crystals, which hold and transfer complex memories in a fluid, high-vibrational state similar to water and plasma.",
       "options": [
         {
           "label": "A",
-          "text": "It functions as a cooling agent to prevent the sun from overheating the realm.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The aether's role is to stimulate activation and synthesis, not to manage the sun's temperature."
+          "rationale": "False — that description belongs to “Memory Technology”. The report defines “New Aether” as: The high-vibrational frequency and free-energy field created collectively to fuel the ascension, which acts as the reactive agent for activating the crystals."
         },
         {
           "label": "B",
-          "text": "It creates a physical barrier that prevents ET forces from entering the 3rd Realm.",
-          "isCorrect": false,
-          "rationale": "The aether facilitates connection and synthesis rather than serving as a restrictive wall against positive ET assistance."
-        },
-        {
-          "label": "C",
-          "text": "It acts as the high-vibrational reactive agent for activating the buried crystals.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "New aether is the high-vibrational free-energy field created collectively to fuel the ascension, and it acts as the reactive agent for activating the crystals."
-        },
-        {
-          "label": "D",
-          "text": "It serves as a breathable gas that replaces oxygen during the three flashes.",
-          "isCorrect": false,
-          "rationale": "Aether is a frequency and energy field rather than a physical atmospheric gas used for respiration."
+          "rationale": "Correct — that description belongs to “Memory Technology”, not “New Aether”."
         }
       ],
-      "hint": "This field is the 'fuel' and the 'trigger' for the physical components of the grid.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “New Aether”.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,

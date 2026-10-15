@@ -562,34 +562,34 @@
     },
     {
       "number": 18,
-      "question": "What physical impact near a portal boundary is officially attributed to another aircraft's shockwave?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Rapid thermal heating of the wings and fuselage near a portal is officially blamed on another aircraft's shockwave.",
+          "text": "Portal Pilots — Dedicated aviators operating specialized aircraft who possess operational knowledge of portal locations and actively fly into and out of dimensional gates.",
           "isCorrect": false,
-          "rationale": "Sudden thermal shifts are reported with unusual weather while the kinetic impact is attributed to another aircraft's shockwave."
+          "rationale": "This pairing matches the report's definition of “Portal Pilots”."
         },
         {
           "label": "B",
-          "text": "Sudden spatial displacement and pressure fluctuations caused near a portal are blamed on another aircraft's shockwave.",
+          "text": "Unusual Weather — Civilian flight personnel who navigate standard aerial corridors without knowledge of dimensional portals, kept operating under deceptive atmospheric protocols.",
           "isCorrect": true,
-          "rationale": "Sudden spatial displacement and pressure fluctuations caused by proximity to a portal are attributed to another aircraft's shockwave."
+          "rationale": "That description belongs to “Commercial Crew”. The report defines “Unusual Weather” as: The specific designation used in official flight manuals and handbooks to reclassify the physical edge or boundary of an active portal."
         },
         {
           "label": "C",
-          "text": "Sudden drops in cabin oxygen density near a portal are officially blamed on another aircraft's shockwave.",
+          "text": "Another Aircraft's Shockwave — The standard institutional explanation provided in aviation handbooks to account for the physical wake, turbulence, or visual shear experienced when flying near a portal boundary.",
           "isCorrect": false,
-          "rationale": "The handbook attributes mechanical turbulence and the kinetic impact to another aircraft's shockwave rather than cabin oxygen loss."
+          "rationale": "This pairing matches the report's definition of “Another Aircraft's Shockwave”."
         },
         {
           "label": "D",
-          "text": "Visual disappearance of surrounding terrain near a portal is officially blamed on another aircraft's shockwave.",
+          "text": "Weather Story — The official cover narrative issued to civilian pilots and flight crews to explain away portal encounters, optical shifts, or atmospheric distortions encountered in transit.",
           "isCorrect": false,
-          "rationale": "Visual distortion is handled as unusual weather while another aircraft's shockwave accounts for the kinetic impact."
+          "rationale": "This pairing matches the report's definition of “Weather Story”."
         }
       ],
-      "hint": "Think about the kinetic and pressure phenomena attributed to another aircraft in flight.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "B"
     },
     {

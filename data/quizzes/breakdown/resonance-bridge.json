@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary function of the Resonance Bridge within the context of the Known Lands?",
+      "question": "True or False: According to the report, “Resonance Bridge” refers to the returning starseed or ET souls who entered the simulated physical plane with dormant-active frequency codes, destined to awaken and guide others before exiting via the homecoming path.",
       "options": [
         {
           "label": "A",
-          "text": "It serves as a direct, instantaneous homecoming path for highly evolved souls to exit the simulated reality.",
-          "isCorrect": true,
-          "rationale": "The bridge is specifically designed as a specialized frequency threshold that allows for an immediate phase-out without transitional healing."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Resonating Army”. The report defines “Resonance Bridge” as: The direct, non-healing homecoming pathway that allows highly aligned souls to exit the simulated reality of the KNOWN LANDS and return directly to their original realms of origin without undergoing transitional healing processes."
         },
         {
           "label": "B",
-          "text": "It functions as a spatial travel route across the physical distance of the CUBE containment system.",
-          "isCorrect": false,
-          "rationale": "The bridge operates on vibrational matching and frequency shifting rather than physical movement across distance."
-        },
-        {
-          "label": "C",
-          "text": "It is a protective barrier designed to shield the earth's crystalline grids from solar flares.",
-          "isCorrect": false,
-          "rationale": "While it interacts with grids, its purpose is transition and exit, not serving as a defensive shield for the planet."
-        },
-        {
-          "label": "D",
-          "text": "It acts as a primary healing sanctuary for fragmented human souls to recover from systemic amnesia.",
-          "isCorrect": false,
-          "rationale": "The Resonance Bridge explicitly bypasses healing sanctuaries, which are reserved for souls requiring energetic restoration."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Resonating Army”, not “Resonance Bridge”."
         }
       ],
-      "hint": "Consider whether this path involves a gradual recovery process or an immediate return to an original state.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Resonance Bridge”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -82,35 +70,23 @@
     },
     {
       "number": 3,
-      "question": "What defines the Frequency Threshold required for an exit via the Resonance Bridge?",
+      "question": "True or False: According to the report, “Frequency Threshold” refers to A non-physical resonance point where an individual's consciousness vibration matches the precise octaves of the higher realms, enabling exit from the dome.",
       "options": [
         {
           "label": "A",
-          "text": "The successful navigation of the spatial scripts encoded within the CUBE system.",
-          "isCorrect": false,
-          "rationale": "The bridge dismantles the spatial script paradigm rather than requiring navigation through it."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Frequency Threshold” this way."
         },
         {
           "label": "B",
-          "text": "The accumulation of enough linear time spent within the 3D simulation.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Time is an artificial construct in the simulation; the threshold is an energetic match, not a chronological requirement."
-        },
-        {
-          "label": "C",
-          "text": "The physical proximity of the soul to the center of the Great Dome.",
-          "isCorrect": false,
-          "rationale": "The exit is not based on geographical location but on the internal state of the individual's consciousness."
-        },
-        {
-          "label": "D",
-          "text": "A specific point where consciousness vibration matches the precise octaves of the higher realms.",
-          "isCorrect": true,
-          "rationale": "This resonance point enables the soul to phase out of the holographic dome once the vibrations are synchronized."
+          "rationale": "It is true — the report defines “Frequency Threshold” as: A non-physical resonance point where an individual's consciousness vibration matches the precise octaves of the higher realms, enabling exit from the dome."
         }
       ],
-      "hint": "Focus on the non-physical nature of the transition and the concept of vibrational matching.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Frequency Threshold”.",
+      "correctAnswer": "A"
     },
     {
       "number": 4,

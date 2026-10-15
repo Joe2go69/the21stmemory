@@ -434,35 +434,35 @@
     },
     {
       "number": 14,
-      "question": "In the context of Subtle Help, how is the World Wide Web characterized?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It is a natural evolution of the pineal gland telepathic capability within the physical realm.",
+          "text": "Subtle Help — Non-overt, legally compliant modes of spiritual support, intuitive guidance, botanical catalysts, and plain-sight allegories extended by positive extraterrestrial intelligence to incarnated souls without breaching field law.",
           "isCorrect": false,
-          "rationale": "The Web stands in contrast to the organic telepathy that fluoridation was built to disable."
+          "rationale": "This pairing matches the report's definition of “Subtle Help”."
         },
         {
           "label": "B",
-          "text": "The synthetic lockout forces humans to rely on external physical technology like the World Wide Web.",
-          "isCorrect": true,
-          "rationale": "That same lockout disables innate telepathy while replacing true aetheric oneness with counterfeit religious systems."
+          "text": "Pineal Calcification — The systematic hardening and suppression of the pineal gland caused by artificial water fluoridation over decades, designed to lock out endogenous DMT release and sever telepathic connection.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Pineal Calcification”."
         },
         {
           "label": "C",
-          "text": "It is a primary tool used by positive extraterrestrial intelligence to provide intuitive guidance.",
+          "text": "Monoamine Oxidase Inhibitors (MAOIs) — Chemical compounds (specifically harmine, tetrahydroharmine, and harmaline) that temporarily block stomach enzymes from destroying orally ingested DMT, enabling it to cross the blood-brain barrier.",
           "isCorrect": false,
-          "rationale": "Intuitive guidance moves through internal channels, while the Web is external physical technology."
+          "rationale": "This pairing matches the report's definition of “Monoamine Oxidase Inhibitors (MAOIs)”."
         },
         {
           "label": "D",
-          "text": "It is the primary repository for Stories in Plain Sight engineered by soul family.",
-          "isCorrect": false,
-          "rationale": "Stories in plain sight are allegorical media. The Web itself is the synthetic substitute for organic telepathy."
+          "text": "Psychotria Viridis — The higher-density containment mechanism where the oversoul resides during physical incarnation, transmitting intuitive prompts and higher-density guidance to the third-density avatar.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Ark-Pod Protocol”. The report defines “Psychotria Viridis” as: The Amazonian shrub leaves (commonly termed chacruna) that provide N,N-Dimethyltryptamine (DMT), generating visionary states when combined with MAOIs."
         }
       ],
-      "hint": "Consider the relationship between organic capability and external technological substitutes.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 15,

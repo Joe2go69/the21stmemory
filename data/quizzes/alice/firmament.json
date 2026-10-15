@@ -18,34 +18,22 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the Firmament?",
+      "question": "True or False: According to the report, “Firmament” refers to the outer structural membrane enclosing the physical plain that bends light and sound, an absolute requirement for granting physical eyes their perception.",
       "options": [
         {
           "label": "A",
-          "text": "The outer structural membrane enclosing the physical plain that bends light and sound, an absolute requirement for granting physical eyes their perception.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "The Firmament is the outer structural membrane of the realm. Its primary job is bending light and sound so biological eyes can have physical perception."
+          "rationale": "True — the report defines “Firmament” this way."
         },
         {
           "label": "B",
-          "text": "A decorative cloud layer painted by Freemasons for aesthetic reasons only.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Freemasons enforce the globe lie to hide the Firmament; the membrane itself is functional necessity, not decoration."
-        },
-        {
-          "label": "C",
-          "text": "Empty vacuum beyond the Dark Matter Field where planets orbit suns.",
-          "isCorrect": false,
-          "rationale": "True space beyond the Firmament is the bright-white Dark Matter Field; Heliocentrism is the fake model."
-        },
-        {
-          "label": "D",
-          "text": "The inner Holographic Projection Dome that alone creates all of physical sight.",
-          "isCorrect": false,
-          "rationale": "The dome is the inner technological layer beneath the Firmament; perception depends on the outer membrane bending light and sound."
+          "rationale": "It is true — the report defines “Firmament” as: The outer structural membrane enclosing the physical plain that bends light and sound, an absolute requirement for granting physical eyes their perception."
         }
       ],
-      "hint": "Outer membrane — bends light and sound for sight.",
+      "hint": "Recall how the report's Key Terminology defines “Firmament”.",
       "correctAnswer": "A"
     },
     {
@@ -114,35 +102,23 @@
     },
     {
       "number": 4,
-      "question": "How does the Firmament operate inside the inverted Simulation?",
+      "question": "True or False: According to the report, “Simulation” refers to the outer structural membrane enclosing the physical plain that bends light and sound, an absolute requirement for granting physical eyes their perception.",
       "options": [
         {
           "label": "A",
-          "text": "As a temporary Ice Wall that melts every night at Polaris.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Ice Walls partition realms; the Sky Event peels dome and plasma, not nightly ice melt."
+          "rationale": "False — that description belongs to “Firmament”. The report defines “Simulation” as: The multidimensional etheric supercomputer and physical plain of existence, originally created by the Source of All Creation, now functioning as an inverted matrix."
         },
         {
           "label": "B",
-          "text": "Alone, with no dome, so every NPC already sees the bright white Dark Matter Field.",
-          "isCorrect": false,
-          "rationale": "The dome and Black Void Plasma still mask true space; unawakened masses have not yet seen the exposure."
-        },
-        {
-          "label": "C",
-          "text": "In tandem with inner technological layers such as the Holographic Projection Dome to lock humanity into a heavily suppressed 3rd Density illusion under 4th-density Parasites.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Within the parasite-controlled Simulation, the Firmament works with the inner Holographic Projection Dome to hold a suppressed 3rd Density illusion."
-        },
-        {
-          "label": "D",
-          "text": "Only as a Freemason classroom model with no physical function.",
-          "isCorrect": false,
-          "rationale": "It is absolute functional necessity for perception and atmospheric containment, not a classroom prop."
+          "rationale": "Correct — that description belongs to “Firmament”, not “Simulation”."
         }
       ],
-      "hint": "Firmament + Projection Dome = 3rd Density lock.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Simulation”.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,
@@ -150,25 +126,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Realm-3 only, permanently disconnected from Gateway-10.",
+          "text": "Realm-3 by itself, a frozen outer world that was permanently disconnected from Gateway-10 after the Antarctic partition.",
           "isCorrect": false,
           "rationale": "Realm-3 is one partitioned segment of Gateway-10's broader flat architecture."
         },
         {
           "label": "B",
-          "text": "The multidimensional etheric supercomputer and physical plain of existence, originally created by the Source of All Creation, now functioning as an inverted matrix.",
+          "text": "The multidimensional etheric supercomputer and physical plain created by the Source of All Creation, now an inverted matrix.",
           "isCorrect": true,
           "rationale": "The Simulation is the etheric supercomputer and physical plain made by the Source, now inverted into a matrix under parasitic control."
         },
         {
           "label": "C",
-          "text": "A natural spinning vacuum that never needed a Firmament.",
+          "text": "A natural spinning vacuum of dead matter that formed by accident and has never needed a Firmament to hold it together.",
           "isCorrect": false,
           "rationale": "The Firmament is absolute necessity for physical existence and perception inside true mechanics."
         },
         {
           "label": "D",
-          "text": "Only the Freemason school textbooks with no physical plain.",
+          "text": "The set of Freemason school textbooks that describe a physical plain which does not actually exist beneath the dome.",
           "isCorrect": false,
           "rationale": "It is the actual multidimensional physical plain of existence, not merely textbooks."
         }
@@ -306,35 +282,35 @@
     },
     {
       "number": 10,
-      "question": "What is Gateway-10 in relation to the Firmament?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The central physical plain of existence comprising 178 interconnected worlds, where the firmament encloses the known flat realms.",
-          "isCorrect": true,
-          "rationale": "Gateway-10 is the central plain of 178 interconnected worlds; the Firmament encloses the known flat realms there."
+          "text": "Gateway-10 — The central physical plain of existence comprising 178 interconnected worlds, where the firmament encloses the known flat realms.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Gateway-10”."
         },
         {
           "label": "B",
-          "text": "A single spinning globe with no interconnected worlds.",
+          "text": "Realm-3 — The currently inhabited segment of the flat Earth, artificially partitioned from the original Realm-2 by fake ice boundaries.",
           "isCorrect": false,
-          "rationale": "It is flat interconnected worlds under firmament enclosure, not one spinning globe."
+          "rationale": "This pairing matches the report's definition of “Realm-3”."
         },
         {
           "label": "C",
-          "text": "The name of the inner dome that projects fake asteroids only.",
-          "isCorrect": false,
-          "rationale": "Gateway-10 is the plain of worlds; the inner dome is the Holographic Projection Dome."
+          "text": "3rd Density — The physical, horizontal boundaries (such as Antarctica) that partition the known lands from the rest of the flat cosmic plains.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Ice Wall”. The report defines “3rd Density” as: The artificially suppressed, low-frequency state of physical existence strictly enforced to obscure the high-frequency true architecture of the realm."
         },
         {
           "label": "D",
-          "text": "A Freemason code for Heliocentrism textbooks.",
+          "text": "Parasites — Hostile 4th-density entities who hijacked the physical plain, orchestrating the inversion of reality and trapping human souls.",
           "isCorrect": false,
-          "rationale": "It is the actual central physical plain architecture, not a textbook code name."
+          "rationale": "This pairing matches the report's definition of “Parasites”."
         }
       ],
-      "hint": "178 interconnected worlds — firmament encloses flat realms.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 11,
@@ -374,25 +350,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The G.A.A. pixelation cascade starting at Polaris.",
+          "text": "The pixelation cascade that starts at Polaris, which the G.A.A. will trigger when the dome is removed.",
           "isCorrect": false,
           "rationale": "Polaris pixelation is the Sky Event dome shutdown visual, not the Ice Wall."
         },
         {
           "label": "B",
-          "text": "A myth projected only on the inner dome with no physical role.",
+          "text": "An image projected on the inside of the dome, which has no physical presence at the edges of the realm.",
           "isCorrect": false,
           "rationale": "Ice Walls are physical boundaries that hide what lies beyond the known lands and kill curiosity about the wider plain."
         },
         {
           "label": "C",
-          "text": "The physical horizontal boundaries (such as Antarctica) that partition the known lands from the rest of the flat cosmic plains.",
+          "text": "The physical horizontal boundaries (such as Antarctica) that partition the known lands from the rest of the flat plains.",
           "isCorrect": true,
           "rationale": "Ice Walls are physical horizontal boundaries — Antarctica among them — splitting known lands from the wider flat cosmic plains."
         },
         {
           "label": "D",
-          "text": "Black Void Plasma frozen into a sphere around the globe.",
+          "text": "A shell of frozen Black Void Plasma that surrounds a spherical earth and holds its atmosphere in place.",
           "isCorrect": false,
           "rationale": "Ice Walls are flat-domain partitions; plasma blackens the sky illusion, not a spherical ice shell."
         }
@@ -598,25 +574,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Creates the bright white Dark Matter Field permanently outside.",
+          "text": "It creates the bright white Dark Matter Field outside the dome and keeps that light from ever reaching the realm.",
           "isCorrect": false,
           "rationale": "Dark Matter Field is true bright expanse beyond the Firmament; the dome projects fake sky illusions inside."
         },
         {
           "label": "B",
-          "text": "Is the Ice Wall that partitions Realm-2 from Realm-3.",
+          "text": "It forms the Ice Wall that partitions Realm-2 from Realm-3 and keeps the outer worlds hidden from explorers.",
           "isCorrect": false,
           "rationale": "Ice Walls are horizontal land/realm partitions; the dome is the inner sky technology layer."
         },
         {
           "label": "C",
-          "text": "Is switched on permanently by the G.A.A. at the Sky Event.",
+          "text": "It is a G.A.A. shield that will be switched on at the Sky Event to protect the realm during the transition.",
           "isCorrect": false,
           "rationale": "At the Sky Event the G.A.A. permanently switches the inner dome off."
         },
         {
           "label": "D",
-          "text": "Sits directly beneath the firmament and functions like a sieve to project the visual illusion of the cosmos, including fake stars, masking the true boundary.",
+          "text": "It sits beneath the firmament and works like a sieve to project the illusion of the cosmos, including fake stars.",
           "isCorrect": true,
           "rationale": "The inner dome sits under the Firmament as a sieve projecting fake cosmos and stars, masking the true boundary."
         }

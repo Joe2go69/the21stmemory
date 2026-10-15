@@ -82,35 +82,23 @@
     },
     {
       "number": 3,
-      "question": "How does the Black Cube AI network project its low-frequency matrices across the realm?",
+      "question": "True or False: According to the report, “Black Cube AI” refers to the centralized artificial intelligence network, also termed black sat tech (black satellite tech), that directs the projection and manipulation of low-frequency matrices across the realm.",
       "options": [
         {
           "label": "A",
-          "text": "By encoding frequencies into the DNA of the population so each body acts as an internal transmitter.",
-          "isCorrect": false,
-          "rationale": "The technology is external and projected onto biology rather than being a native function of DNA."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Black Cube AI” this way."
         },
         {
           "label": "B",
-          "text": "Through a single centralized terrestrial server room located beneath the modern Vatican structures.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Memories are copy-logged beneath the Vatican, but the projection itself uses satellites and hidden terrestrial arrays."
-        },
-        {
-          "label": "C",
-          "text": "Through the natural leyline system, which is boosted by organic crystalline amplifiers placed on every node.",
-          "isCorrect": false,
-          "rationale": "Natural leylines are capped and suppressed by the network rather than used as a primary projection tool."
-        },
-        {
-          "label": "D",
-          "text": "By utilizing orbital networks and hidden terrestrial arrays to project low-frequency matrices.",
-          "isCorrect": true,
-          "rationale": "Black sat tech plus local arrays keep a constant vibrational hum across populated areas, felt rather than heard."
+          "rationale": "It is true — the report defines “Black Cube AI” as: The centralized artificial intelligence network, also termed black sat tech (black satellite tech), that directs the projection and manipulation of low-frequency matrices across the realm."
         }
       ],
-      "hint": "Reflect on the term used to describe the satellite technology directing these projections.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Black Cube AI”.",
+      "correctAnswer": "A"
     },
     {
       "number": 4,
@@ -178,35 +166,23 @@
     },
     {
       "number": 6,
-      "question": "What is the intended outcome of Amnesia Tech during the human vessel's rest cycle?",
+      "question": "True or False: According to the report, “Amnesia Tech” refers to non-Player Characters; background simulation programs without a true soul spark that are highly susceptible to frequency manipulation.",
       "options": [
         {
           "label": "A",
-          "text": "To strengthen the connection between the soul and the Council of Parasitic Races through nightly briefings.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Amnesia tech breaks the soul's natural stellar connections rather than strengthening a council link."
+          "rationale": "False — that description belongs to “NPC”. The report defines “Amnesia Tech” as: Systems used to suppress, wipe, and loop soul memories to prevent individuals from remembering their origin or awakening."
         },
         {
           "label": "B",
-          "text": "To clear the mind of daily stress so the subject can perform better as a worker inside the simulation.",
-          "isCorrect": false,
-          "rationale": "The technology is designed to create disconnection and exhaustion, not to restore the subject."
-        },
-        {
-          "label": "C",
-          "text": "To download new technical skills and languages into the brain while the subject sleeps, improving simulation performance.",
-          "isCorrect": false,
-          "rationale": "This is a suppression and memory-wiping system, not a constructive learning tool."
-        },
-        {
-          "label": "D",
-          "text": "To prevent the mind from retaining positive memories of its stellar origin and to block astral travel.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Amnesia tech scrambles the trajectory, loops nightmares, and leaves the subject tired, confused, and disconnected upon waking."
+          "rationale": "Correct — that description belongs to “NPC”, not “Amnesia Tech”."
         }
       ],
-      "hint": "Think about why the parasites would want to stop you from remembering your life before the matrix.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Amnesia Tech”.",
+      "correctAnswer": "B"
     },
     {
       "number": 7,

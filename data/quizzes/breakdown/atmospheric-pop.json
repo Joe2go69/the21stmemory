@@ -114,66 +114,54 @@
     },
     {
       "number": 4,
-      "question": "What is the Atmospheric Pop?",
+      "question": "True or False: According to the report, “Atmospheric Pop” refers to the true nature of the communications blackout, causing a breakdown in the artificial reality and creating glitches in non-player character programming and electronics.",
       "options": [
         {
           "label": "A",
-          "text": "A sudden drop in atmospheric pressure at the exact moment main communication cables are severed, producing a split-second of unprecedented energetic clarity.",
-          "isCorrect": true,
-          "rationale": "Atmospheric Pop is a sudden drop in pressure when main communication cables are severed, resulting in a split-second of unprecedented energetic clarity."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Frequency Fracture”. The report defines “Atmospheric Pop” as: A sudden drop in pressure in the atmosphere that occurs at the exact moment the main communication cables are severed, resulting in a split-second of unprecedented energetic clarity."
         },
         {
           "label": "B",
-          "text": "Only a software reboot sound with no atmospheric pressure change of any kind.",
-          "isCorrect": false,
-          "rationale": "It manifests as a literal pop in the atmosphere with a real pressure drop and field clarity."
-        },
-        {
-          "label": "C",
-          "text": "A slow multi-week weather front with no cable-severing moment and no energetic clarity spike.",
-          "isCorrect": false,
-          "rationale": "It is sudden, timed to cable severing, with split-second unprecedented clarity—not a slow weather front."
-        },
-        {
-          "label": "D",
-          "text": "Only permanent silence with no pressure drop and no piercing of the Parasitic Overlay.",
-          "isCorrect": false,
-          "rationale": "The Pop pierces the Parasitic Overlay temporarily and clears the energetic field for a split second."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Frequency Fracture”, not “Atmospheric Pop”."
         }
       ],
-      "hint": "Sudden pressure drop at cable severing with split-second energetic clarity.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Atmospheric Pop”.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,
-      "question": "What is Frequency Fracture in this topic?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only permanent A.I. War Theatre reinforcement with no collapse of artificial frequencies.",
+          "text": "The Sharp Edge — A period defined by short bursts of unexplained adrenaline, sudden heart rate spikes, and an environmental thickening of the air.",
           "isCorrect": false,
-          "rationale": "Indicators link to broader collapse of the A.I. War Theatre, not its permanent reinforcement."
+          "rationale": "This pairing matches the report's definition of “The Sharp Edge”."
         },
         {
           "label": "B",
-          "text": "Only a psychological metaphor with no environmental electronics or physical vessel effects.",
+          "text": "Static Build Up — The initial stage of physical indicators characterized by a subtle buzzing in the skull and background white noise.",
           "isCorrect": false,
-          "rationale": "It is a profound physical and energetic event with body indicators and environmental glitches."
+          "rationale": "This pairing matches the report's definition of “Static Build Up”."
         },
         {
           "label": "C",
-          "text": "Only a routine cable repair with no artificial-reality breakdown or NPC programming glitches.",
+          "text": "The Drop In Tone — A physiological phase inducing sudden deep tiredness, unprovoked yawning, and a feeling of heaviness in the chest.",
           "isCorrect": false,
-          "rationale": "Frequency Fracture is deeper than repair: artificial reality breaks down with NPC and electronics glitches."
+          "rationale": "This pairing matches the report's definition of “The Drop In Tone”."
         },
         {
           "label": "D",
-          "text": "The true nature of the communications blackout—a breakdown in artificial reality creating glitches in non-player character programming and electronics.",
+          "text": "Frequency Fracture — A strange stillness where nature holds its breath, accompanied by high-pitch ear ringing just prior to the Atmospheric Pop.",
           "isCorrect": true,
-          "rationale": "Frequency Fracture is the true nature of the communications blackout, causing breakdown in artificial reality and glitches in NPC programming and electronics."
+          "rationale": "That description belongs to “The Silence Before the Snap”. The report defines “Frequency Fracture” as: The true nature of the communications blackout, causing a breakdown in the artificial reality and creating glitches in non-player character programming and electronics."
         }
       ],
-      "hint": "True nature of the blackout; glitches in NPC programming and electronics.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "D"
     },
     {
@@ -210,35 +198,23 @@
     },
     {
       "number": 7,
-      "question": "What defines The Drop In Tone physiologically?",
+      "question": "True or False: According to the report, “The Drop In Tone” refers to A physiological phase inducing sudden deep tiredness, unprovoked yawning, and a feeling of heaviness in the chest.",
       "options": [
         {
           "label": "A",
-          "text": "Only high-pitch ear ringing and total nature stillness with no chest heaviness.",
-          "isCorrect": false,
-          "rationale": "High-pitch ringing and stillness define The Silence Before the Snap."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “The Drop In Tone” this way."
         },
         {
           "label": "B",
-          "text": "Only permanent insomnia with no deep tiredness, yawning, or chest heaviness phase.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Drop In Tone is specifically sudden deep tiredness, yawning, and chest heaviness."
-        },
-        {
-          "label": "C",
-          "text": "Sudden deep tiredness, unprovoked yawning, and a feeling of heaviness in the chest.",
-          "isCorrect": true,
-          "rationale": "The Drop In Tone induces sudden deep tiredness, unprovoked yawning, and heaviness in the chest."
-        },
-        {
-          "label": "D",
-          "text": "Only unexplained adrenaline bursts and heart rate spikes with no tiredness or yawning.",
-          "isCorrect": false,
-          "rationale": "Adrenaline and heart spikes define The Sharp Edge, not The Drop In Tone."
+          "rationale": "It is true — the report defines “The Drop In Tone” as: A physiological phase inducing sudden deep tiredness, unprovoked yawning, and a feeling of heaviness in the chest."
         }
       ],
-      "hint": "Tiredness, yawning, and heaviness in the chest.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “The Drop In Tone”.",
+      "correctAnswer": "A"
     },
     {
       "number": 8,

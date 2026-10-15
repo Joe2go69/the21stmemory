@@ -498,34 +498,34 @@
     },
     {
       "number": 16,
-      "question": "What is the function of the 'Memory Bank' during the solar activation sequence?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It acts as a physical vault where gold and precious metals are stored.",
+          "text": "Crystalline Storage — The process of retaining and conducting memory, frequencies, and original vessels using crystalline mediums such as quartz.",
           "isCorrect": false,
-          "rationale": "The technology deals with memory frequencies and vessels, not physical currency."
+          "rationale": "This pairing matches the report's definition of “Crystalline Storage”."
         },
         {
           "label": "B",
-          "text": "It serves as the source of memory frequencies used to charge the crystals.",
+          "text": "Memory Bank — A magnetic pulse network formed across the entire realm to ensure no sol escapes during the flash sequence.",
           "isCorrect": true,
-          "rationale": "The bank provides the specific data frequencies required for the crystal-solar interaction."
+          "rationale": "That description belongs to “EMP Grid”. The report defines “Memory Bank” as: The source of memory frequencies used to charge the crystals during solar activation."
         },
         {
           "label": "C",
-          "text": "It is a shield that protects the sun from burning out too quickly.",
+          "text": "Quartz Crystals — Highly conductive materials implanted underground that emerge to act as memory tech conductors and form electromagnetic grids.",
           "isCorrect": false,
-          "rationale": "Its purpose is frequency delivery for the crystalline grid."
+          "rationale": "This pairing matches the report's definition of “Quartz Crystals”."
         },
         {
           "label": "D",
-          "text": "It is a manual interface where users select which memories to keep.",
+          "text": "Memory Technology — The technological system of conducting, uploading, and downloading memories to original vessels across different timelines.",
           "isCorrect": false,
-          "rationale": "The upload and download are automated based on the original blueprints."
+          "rationale": "This pairing matches the report's definition of “Memory Technology”."
         }
       ],
-      "hint": "Identify the resource used to provide the informational content for the crystals.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "B"
     },
     {

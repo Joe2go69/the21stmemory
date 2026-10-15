@@ -178,34 +178,22 @@
     },
     {
       "number": 6,
-      "question": "What is the primary function of the Saturnian Cube Tech mentioned in the records?",
+      "question": "True or False: According to the report, “Saturnian Cube Tech” refers to A high-density projection technology utilized to overlay physical matter or empty space with the visual and sensory appearance of solid ice, acting as camouflage for tactical assets.",
       "options": [
         {
           "label": "A",
-          "text": "Calculating the precise trajectory of the Great Dome's rotation through the cosmos.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The cube tech is an artificial intelligence layer meant for consciousness management, not just mechanical navigation."
+          "rationale": "False — that description belongs to “Frozen Holography”. The report defines “Saturnian Cube Tech” as: The artificial intelligence network running on Saturn's frequency, which utilized salvaged Atlantian crystal technology to manage the planetary reincarnation loops and memory suppression."
         },
         {
           "label": "B",
-          "text": "Managing planetary reincarnation loops and the suppression of human soul memory.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "This network utilized salvaged Atlantian crystal technology to maintain the parasitic cycle and prevent spiritual awakening."
-        },
-        {
-          "label": "C",
-          "text": "Coordinating the orbital defense systems against non-cabal extraterrestrial factions.",
-          "isCorrect": false,
-          "rationale": "The technology was primarily used for internal control of the simulation and human consciousness."
-        },
-        {
-          "label": "D",
-          "text": "Processing the massive amounts of data collected by the Federal Reserve banking grid.",
-          "isCorrect": false,
-          "rationale": "While related to control, the tech operates on a multi-dimensional frequency level beyond simple data processing."
+          "rationale": "Correct — that description belongs to “Frozen Holography”, not “Saturnian Cube Tech”."
         }
       ],
-      "hint": "This technology involves the cycle of life and death within the parasitic simulation.",
+      "hint": "Recall how the report's Key Terminology defines “Saturnian Cube Tech”.",
       "correctAnswer": "B"
     },
     {
@@ -274,35 +262,35 @@
     },
     {
       "number": 9,
-      "question": "How did the cabal submersibles operate so effectively at such extreme depths?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "They relied on biological neural links with trained aquatic entities to guide their movement.",
-          "isCorrect": false,
-          "rationale": "The crafts were technological, utilizing mechanical resonant coils rather than biological guidance."
+          "text": "Frozen Holography — The precise physical mechanism of structural destruction executed by undersea directed energy weapons to split the luxury liner's hull plating.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Keel Splitting”. The report defines “Frozen Holography” as: A high-density projection technology utilized to overlay physical matter or empty space with the visual and sensory appearance of solid ice, acting as camouflage for tactical assets."
         },
         {
           "label": "B",
-          "text": "They utilized stolen designs of Tesla's resonant coils to navigate silently and rapidly.",
-          "isCorrect": true,
-          "rationale": "Proto-tech craft were developed using suppressed science to give the cabal a tactical undersea advantage."
+          "text": "Tartarian Templar Tools — Frequency-encoded metallic instruments, such as specialized tuning forks and rods, used to amplify and direct planetary leyline currents.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Tartarian Templar Tools”."
         },
         {
           "label": "C",
-          "text": "They were constructed from a dense Mercurian alloy that resisted high oceanic pressure.",
+          "text": "Federal Reserve — The central, debt-based banking system established in 1913 by the parasitic cabal following the strategic assassination of its wealthiest opponents.",
           "isCorrect": false,
-          "rationale": "The key to their operation was their advanced resonance-based propulsion and power, not just the hull material."
+          "rationale": "This pairing matches the report's definition of “Federal Reserve”."
         },
         {
           "label": "D",
-          "text": "They were powered by the very Atlantian crystals they were sent to retrieve from the hold.",
+          "text": "Cabal Submersibles — Advanced underwater vessels utilizing stolen resonant coil designs to operate silently at extreme depths for salvage and military enforcement.",
           "isCorrect": false,
-          "rationale": "The submersibles were already operational with Tesla-inspired tech before they secured the crystals."
+          "rationale": "This pairing matches the report's definition of “Cabal Submersibles”."
         }
       ],
-      "hint": "The propulsion technology was derived from the same inventor who was supposed to receive the cargo.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 10,
@@ -338,35 +326,23 @@
     },
     {
       "number": 11,
-      "question": "Which other historic event is described as sharing a direct operational lineage with the Titanic Op?",
+      "question": "True or False: According to the report, “Titanic Op” refers to A high-density projection technology utilized to overlay physical matter or empty space with the visual and sensory appearance of solid ice, acting as camouflage for tactical assets.",
       "options": [
         {
           "label": "A",
-          "text": "The destruction of the Library of Alexandria, intended to reset the human timeline.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The Titanic Op shares a direct operational lineage with the Great Fire of London in 1666, not Alexandria."
+          "rationale": "False — that description belongs to “Frozen Holography”. The report defines “Titanic Op” as: The multi-dimensional sabotage and false-flag operation in 1912 designed to eliminate banking opposition, harvest mass emotional trauma, and confiscate ancient technologies."
         },
         {
           "label": "B",
-          "text": "The industrial revolution, which served as the physical transition to machine labor.",
-          "isCorrect": false,
-          "rationale": "The linked operations were staged catastrophes used to mask energetic grid warfare, not industrial labor shifts."
-        },
-        {
-          "label": "C",
-          "text": "The Great Depression, which was the final phase of the Federal Reserve's capture.",
-          "isCorrect": false,
-          "rationale": "The Depression was a financial consequence, but the Great Fire of London is the matching tactical operation."
-        },
-        {
-          "label": "D",
-          "text": "The Great Fire of London in 1666, used to bury evidence of high-frequency architecture.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Both events used a mass catastrophe as a cover for a grid war and an energetic harvest."
+          "rationale": "Correct — that description belongs to “Frozen Holography”, not “Titanic Op”."
         }
       ],
-      "hint": "This event took place in the 17th century and transformed a major world capital.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Titanic Op”.",
+      "correctAnswer": "B"
     },
     {
       "number": 12,
