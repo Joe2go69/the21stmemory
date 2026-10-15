@@ -6,6 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
 const { attachRumblePosters } = require('./rumble-poster');
+const { localIsoTimestamp } = require('./topic-added');
 
 const ROOT = path.join(__dirname, '..', '..');
 
@@ -279,8 +280,9 @@ async function applyTopic(payload) {
     .map((e) => `${e.id}|${e.key}|${e.path}`)
     .sort();
 
-  // `added` = publish day. Keep it if the topic was already live (edits never
-  // move it); stamp today when a placeholder/stub is published for the first time.
+  // `added` = publish time. Keep it if the topic was already live (edits never
+  // move it); stamp the current local time (full ISO timestamp, so same-day
+  // topics sort by time) when a placeholder/stub is published for the first time.
   const existingNode = findNode(tree.topics, topicId);
   const wasLive =
     existingNode &&
@@ -288,7 +290,7 @@ async function applyTopic(payload) {
     existingNode.report &&
     !String(existingNode.report).includes('TODO');
   next.added =
-    wasLive && existingNode.added ? existingNode.added : new Date().toISOString().slice(0, 10);
+    wasLive && existingNode.added ? existingNode.added : localIsoTimestamp();
 
   if (!findAndUpdate(tree.topics, topicId, next)) {
     throw new Error(

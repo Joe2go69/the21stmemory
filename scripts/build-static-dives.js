@@ -12,6 +12,7 @@ const path = require('path');
 const markedLib = require('../assets/js/vendor/marked.min.js');
 const markedParse = markedLib.parse || markedLib.marked;
 const { renderNavbar, renderFooter } = require('./chrome-renderer');
+const { compareAddedDesc } = require('./lib/topic-added');
 
 const ROOT = path.join(__dirname, '..');
 const BASE_URL = 'https://21stmemory.com';
@@ -1121,7 +1122,7 @@ function writeLatest(pages) {
   const recent = pages
     .map((p, i) => ({ p, i }))
     .filter(({ p }) => p.live && p.added && leaf.has(`${p.sourceId}/${p.topicId}`))
-    .sort((a, b) => b.p.added.localeCompare(a.p.added) || b.i - a.i)
+    .sort((a, b) => compareAddedDesc(a.p.added, b.p.added) || b.i - a.i)
     .slice(0, LATEST_COUNT)
     .map(({ p }) => card(p));
 
