@@ -50,67 +50,55 @@
     },
     {
       "number": 2,
-      "question": "What is the specific composition of the New Aether required to conduct solar energy?",
+      "question": "True or False: According to the report, “New Aether” refers to an upgraded atmospheric field composed of high-frequency positive electromagnetic pulses synthesized to conduct plasma crystalline energy and enable realm ascension.",
       "options": [
         {
           "label": "A",
-          "text": "Positive frequencies and high-potency electromagnetic pulses synthesized for realm ascension.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "The New Aether is a high-frequency atmospheric field composed of positive frequencies and high-potency electromagnetic pulses synthesized to conduct plasma crystalline energy."
+          "rationale": "True — the report defines “New Aether” this way."
         },
         {
           "label": "B",
-          "text": "A dense mixture of oxygen and nitrogen reinforced by subterranean gas releases.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The new aether is an energetic rather than purely chemical shift in the composition of the planetary atmosphere."
-        },
-        {
-          "label": "C",
-          "text": "A synthetic aerosol layer deployed by the Space Force to stabilize the transition grid.",
-          "isCorrect": false,
-          "rationale": "The aether is generated through high-vibrational resonance from ground personnel, not through synthetic military deployment."
-        },
-        {
-          "label": "D",
-          "text": "A protective shield of liquid light designed to repel hostile extraterrestrial frequencies.",
-          "isCorrect": false,
-          "rationale": "The purpose of the aether is conduction and activation within the realm, not acting as a defensive repulsion shield."
+          "rationale": "It is true — the report defines “New Aether” as: An upgraded atmospheric field composed of high-frequency positive electromagnetic pulses synthesized to conduct plasma crystalline energy and enable realm ascension."
         }
       ],
-      "hint": "Identify the energetic components that interact with the solar surge to enable the grid.",
+      "hint": "Recall how the report's Key Terminology defines “New Aether”.",
       "correctAnswer": "A"
     },
     {
       "number": 3,
-      "question": "How were the Quartz Crystals positioned beneath the surface of the realm?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Positive forces utilized Project Looking Glass to jump forward and seed them in the future.",
-          "isCorrect": true,
-          "rationale": "Project Looking Glass allowed positive forces to jump forward into the future and seed subterranean quartz crystals before returning to the present."
+          "text": "EMP Grid — A comprehensive electromagnetic pulse network formed across the entire realm by charged quartz crystals to contain energy fields and stabilize the transition.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “EMP Grid”."
         },
         {
           "label": "B",
-          "text": "They formed naturally over millions of years through standard geological processes.",
-          "isCorrect": false,
-          "rationale": "These crystals are specialized technology seeded through temporal navigation rather than natural geological formations."
+          "text": "Quartz Crystals — The governing alliance of ancestral extraterrestrial species supervising planetary transition and post-flash healing operations alongside Space Force.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Galactic Ancestral Alliance (GAA)”. The report defines “Quartz Crystals” as: Time-travel seeded subterranean conductors functioning as memory technology that emerge on an automated timer during the event to establish the global grid."
         },
         {
           "label": "C",
-          "text": "They were implanted by the Resonating Army using advanced deep-earth drilling technology.",
+          "text": "Resonating Army — The collective group of embodied ground entities anchoring an ancient high-vibrational frequency of love and empathy to generate the new aether.",
           "isCorrect": false,
-          "rationale": "The ground army anchors the vibration, but the technical seeding of the crystals was handled by higher-dimensional entities."
+          "rationale": "This pairing matches the report's definition of “Resonating Army”."
         },
         {
           "label": "D",
-          "text": "The crystals were teleported from the 2nd Realm through the Four Elements gateway.",
+          "text": "Plasma Crystalline — The high-density energetic state created when the new aether interacts with activated quartz crystals to open multidimensional portal structures.",
           "isCorrect": false,
-          "rationale": "The seeding involved a temporal jump into the future timeline of the 3rd Realm specifically, not a cross-realm teleportation."
+          "rationale": "This pairing matches the report's definition of “Plasma Crystalline”."
         }
       ],
-      "hint": "Think about the role of temporal navigation and jumping ahead in the timeline.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 4,

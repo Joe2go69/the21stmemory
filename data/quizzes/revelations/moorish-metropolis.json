@@ -466,67 +466,55 @@
     },
     {
       "number": 15,
-      "question": "Who were the African Tartarians of the Moorish Metropolis?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "They were the original Black Moorish inhabitants and rulers of pre-reset high civilisations.",
-          "isCorrect": true,
-          "rationale": "African Tartarians are the original Black Moorish inhabitants and rulers, with advanced technological, metallurgical, and architectural capabilities."
+          "text": "Colour Cine Film — Surviving visual archival footage from the mid-to-late 19th century documenting Moorish levitation craft and high-technology African infrastructure prior to final reset clearance.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Colour Cine Film”."
         },
         {
           "label": "B",
-          "text": "They were a small priest class that advised feudal sultans and did not inhabit the cities.",
+          "text": "Free Aetheric Energy — Environmental wireless electromagnetic and vibrational power extracted directly from the atmospheric field using specialized building spires, domes, and resonator circuitry.",
           "isCorrect": false,
-          "rationale": "African Tartarians inhabited and governed the cities as rulers, inventors, artisans, and metalworkers."
+          "rationale": "This pairing matches the report's definition of “Free Aetheric Energy”."
         },
         {
           "label": "C",
-          "text": "They were nomadic tribes whose seasonal camps were later mistaken for permanent stone cities.",
+          "text": "Rockefeller Education System — The institutional framework established by ruling bloodline families to fabricate historical timelines, insert false medieval eras, and obscure pre-reset human achievements.",
           "isCorrect": false,
-          "rationale": "The reset narrative reduced an advanced population to nomadic tribes, which conceals the metropolitan civilisation."
+          "rationale": "This pairing matches the report's definition of “Rockefeller Education System”."
         },
         {
           "label": "D",
-          "text": "They were later Arab dynasties who took Iberia by feudal land grants and left the cities unchanged.",
-          "isCorrect": false,
-          "rationale": "The rulers were African Tartarians, and the feudal sultan story is the falsified medieval frame."
+          "text": "African Tartarians — A real chimera-like guardian creature from pre-reset epochs, historically sculpted holding a geodesic sphere (xiuqiu) that explicitly maps the planetary Ley-Line nodal network.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Fu Dog”. The report defines “African Tartarians” as: The original Black Moorish inhabitants and rulers of pre-reset high civilisations, possessing advanced technological, metallurgical, and architectural capabilities."
         }
       ],
-      "hint": "Name the original inhabitants and rulers of these pre-reset civilisations.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 16,
-      "question": "What was Al-Andalus within this civilisation?",
+      "question": "True or False: According to the report, “Al-Andalus” refers to the flourishing Moorish technological kingdom on the Iberian Peninsula, falsely categorized by conventional historians as a medieval feudal domain.",
       "options": [
         {
           "label": "A",
-          "text": "A trading colony whose timber forts were rebuilt in brick by later European crowns after the northern conquest of old Iberia.",
-          "isCorrect": false,
-          "rationale": "The kingdom shared piezoelectric stone masonry and spired energy receivers with Tartarian structures elsewhere."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Al-Andalus” this way."
         },
         {
           "label": "B",
-          "text": "A vassal port network that paid tribute in grain and never built harmonic architecture of any kind on the old Iberian peninsula.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Al-Andalus carried Fibonacci design ratios, piezoelectric masonry, and spired energy receivers."
-        },
-        {
-          "label": "C",
-          "text": "Al-Andalus was the flourishing Moorish technological kingdom on the Iberian Peninsula, falsely categorized as a medieval feudal domain.",
-          "isCorrect": true,
-          "rationale": "Al-Andalus is the flourishing Moorish technological kingdom on the Iberian Peninsula, falsely categorized as a medieval feudal domain."
-        },
-        {
-          "label": "D",
-          "text": "A barren frontier garrison held only as a military march against northern kingdoms along the full length of the Iberian border.",
-          "isCorrect": false,
-          "rationale": "Al-Andalus was a flourishing Moorish technological kingdom, later falsely categorized as a medieval feudal domain."
+          "rationale": "It is true — the report defines “Al-Andalus” as: The flourishing Moorish technological kingdom on the Iberian Peninsula, falsely categorized by conventional historians as a medieval feudal domain."
         }
       ],
-      "hint": "Place the Iberian kingdom against the medieval label later attached to it.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Al-Andalus”.",
+      "correctAnswer": "A"
     },
     {
       "number": 17,
@@ -594,35 +582,23 @@
     },
     {
       "number": 19,
-      "question": "How did Moorish anti-gravity levitation craft operate?",
+      "question": "True or False: According to the report, “Anti-Gravity Levitation Craft” refers to environmental wireless electromagnetic and vibrational power extracted directly from the atmospheric field using specialized building spires, domes, and resonator circuitry.",
       "options": [
         {
           "label": "A",
-          "text": "Ground crews beat resonance drums and the hull rose only while those drums continued to sound.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Lift came from modulating local electromagnetic frequencies, and the craft produced no acoustic noise."
+          "rationale": "False — that description belongs to “Free Aetheric Energy”. The report defines “Anti-Gravity Levitation Craft” as: Advanced aerial vessels piloted by Moorish citizens and rulers utilizing atmospheric energetic principles, recorded in remnant archival media prior to their suppression."
         },
         {
           "label": "B",
-          "text": "The vessels rode captive balloons filled with heated air drawn from the great palace furnaces.",
-          "isCorrect": false,
-          "rationale": "Flight modulated electromagnetic frequencies and produced no thermal exhaust."
-        },
-        {
-          "label": "C",
-          "text": "Moorish citizens operated them by modulating local electromagnetic frequencies without acoustic noise.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "The craft operated by modulating local electromagnetic frequencies, neutralizing the atmospheric density gradient without acoustic noise or thermal exhaust."
-        },
-        {
-          "label": "D",
-          "text": "Pilots burned refined oils in open turbines and steered by rudders set in the hot exhaust stream.",
-          "isCorrect": false,
-          "rationale": "The craft neutralized the atmospheric density gradient without acoustic noise or thermal exhaust."
+          "rationale": "Correct — that description belongs to “Free Aetheric Energy”, not “Anti-Gravity Levitation Craft”."
         }
       ],
-      "hint": "Name the electromagnetic action and what the craft did not emit.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Anti-Gravity Levitation Craft”.",
+      "correctAnswer": "B"
     },
     {
       "number": 20,

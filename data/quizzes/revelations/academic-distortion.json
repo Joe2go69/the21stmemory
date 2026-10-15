@@ -146,35 +146,35 @@
     },
     {
       "number": 5,
-      "question": "What is the primary result of the Decoupling of Reality from Perception?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It produces advanced technological frameworks built on harmonic masonry and aetheric power.",
-          "isCorrect": false,
-          "rationale": "Those technologies belong to Tartaria. Decoupling replaces them with primitive historical narratives."
+          "text": "Decoupling of Reality from Perception — The artificial narrative baseline laid down by academic and societal institutions as the official terrain of truth within which individuals are forced to exist.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Fake Tapestry”. The report defines “Decoupling of Reality from Perception” as: The structural fracture in human consciousness where internal understanding, historical knowledge, and daily perception are completely divorced from actual cosmic and physical facts."
         },
         {
           "label": "B",
-          "text": "It is the structural fracture in human consciousness where internal understanding is completely divorced from actual cosmic and physical facts.",
-          "isCorrect": true,
-          "rationale": "Historical knowledge and daily perception are divorced from those facts, so individuals do not know what they are or where they came from."
+          "text": "Superior Cage — The psychological and economic trap created by modern university systems, where higher degrees and academic achievements lead to financial debt, menial labor, and system compliance.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Superior Cage”."
         },
         {
           "label": "C",
-          "text": "It enhances memory of ancestral high civilizations and their atmospheric technologies.",
+          "text": "Plato's Grove — The official cover story centered on Akademeia and classical Athenian philosophy, used to grant historical prestige to modern educational institutions while masking timeline manipulation.",
           "isCorrect": false,
-          "rationale": "The decoupling erases Tartaria from memory. It does not enhance recollection of that civilization."
+          "rationale": "This pairing matches the report's definition of “Plato's Grove”."
         },
         {
           "label": "D",
-          "text": "It increases intellectual debate and produces genuine philosophical growth.",
+          "text": "2,000-Year Timeline Addition — The insertion of up to two millennia of phantom history into the collective record to cover up the high-civilization legacy and advanced technology of Tartaria.",
           "isCorrect": false,
-          "rationale": "The fracture divorces internal understanding from actual cosmic and physical facts. It does not produce genuine growth."
+          "rationale": "This pairing matches the report's definition of “2,000-Year Timeline Addition”."
         }
       ],
-      "hint": "Consider the state of a mind that cannot reconcile its learning with physical truth.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 6,

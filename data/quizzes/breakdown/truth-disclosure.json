@@ -178,35 +178,23 @@
     },
     {
       "number": 6,
-      "question": "Who are the Whitehats in this disclosure framework?",
+      "question": "True or False: According to the report, “Whitehats” refers to human consciousness currently trapped in the parasitic 3D perception overlay, who must be guided through the trauma of disclosure without triggering complete societal collapse.",
       "options": [
         {
           "label": "A",
-          "text": "Only Cabal NPC media hosts who keep twisting narrative during the blackout without military role.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "NPC media is cut off; Whitehats run disclosure and neutralize systemic parasites publicly."
+          "rationale": "False — that description belongs to “Sleepers”. The report defines “Whitehats” as: Allied military and light forces operating in the public eye to orchestrate the disclosure timeline, dismantle infrastructure, and neutralize the most dangerous systemic parasites."
         },
         {
           "label": "B",
-          "text": "Only Draco-Grey handlers still fully running every elite without any neutralization campaign.",
-          "isCorrect": false,
-          "rationale": "Draco-Grey influence is exposed; Whitehats neutralize dangerous systemic parasites."
-        },
-        {
-          "label": "C",
-          "text": "Allied military and light forces operating in the public eye to orchestrate disclosure, dismantle infrastructure, and neutralize the most dangerous systemic parasites.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Whitehats are allied military and light forces operating in the public eye to orchestrate the disclosure timeline, dismantle infrastructure, and neutralize the most dangerous systemic parasites."
-        },
-        {
-          "label": "D",
-          "text": "Only Sleepers with no military or light-force role in orchestrating disclosure timelines.",
-          "isCorrect": false,
-          "rationale": "Sleepers are guided through trauma; Whitehats orchestrate disclosure and stabilization."
+          "rationale": "Correct — that description belongs to “Sleepers”, not “Whitehats”."
         }
       ],
-      "hint": "Allied military and light forces operating in the public eye.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Whitehats”.",
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -242,35 +230,23 @@
     },
     {
       "number": 8,
-      "question": "What are Truth Tribunals established to do?",
+      "question": "True or False: According to the report, “Truth Tribunals” refers to both public and classified proceedings established to execute justice, secure confessions, and formalize the arrests or executions of the rich, powerful, and famous operators of the parasitic system.",
       "options": [
         {
           "label": "A",
-          "text": "Nothing beyond soft-truth safety messages with no formal justice process after the E.B.S. shock.",
-          "isCorrect": false,
-          "rationale": "Soft truths start broadcasts; tribunals are Phase Eight justice after E.B.S. shock."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Truth Tribunals” this way."
         },
         {
           "label": "B",
-          "text": "Only private corporate mediation that permanently shields famous operators from justice.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Tribunals formalize justice against parasitic operators, not permanent shielding."
-        },
-        {
-          "label": "C",
-          "text": "Execute justice, secure confessions, and formalize arrests or executions of rich, powerful, and famous operators of the parasitic system.",
-          "isCorrect": true,
-          "rationale": "Truth Tribunals are public and classified proceedings established to execute justice, secure confessions, and formalize arrests or executions of rich, powerful, and famous operators of the parasitic system."
-        },
-        {
-          "label": "D",
-          "text": "Only award medals to parasitic operators with no confessions, arrests, or executions.",
-          "isCorrect": false,
-          "rationale": "Tribunals process dangerous entities through arrests, confessions, and executions."
+          "rationale": "It is true — the report defines “Truth Tribunals” as: Both public and classified proceedings established to execute justice, secure confessions, and formalize the arrests or executions of the rich, powerful, and famous operators of the parasitic system."
         }
       ],
-      "hint": "Public and classified justice, confessions, arrests, and executions of operators.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Truth Tribunals”.",
+      "correctAnswer": "A"
     },
     {
       "number": 9,
@@ -306,34 +282,34 @@
     },
     {
       "number": 10,
-      "question": "Who are Seeded Sols in this framework?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "High-frequency souls covertly placed within elite bloodlines to fracture the parasitic control grid from the inside out.",
+          "text": "Seeded Sols — Human consciousness currently trapped in the parasitic 3D perception overlay, who must be guided through the trauma of disclosure without triggering complete societal collapse.",
           "isCorrect": true,
-          "rationale": "Seeded Sols are high-frequency souls covertly placed within elite bloodlines to fracture the parasitic control grid from the inside out."
+          "rationale": "That description belongs to “Sleepers”. The report defines “Seeded Sols” as: High-frequency souls covertly placed within elite bloodlines to fracture the parasitic control grid from the inside out."
         },
         {
           "label": "B",
-          "text": "Only random celebrities with no strategic placement inside elite bloodlines at all.",
+          "text": "Truth Packages — Over 72 hours of undeniable, carefully sequenced evidentiary broadcasts detailing the crimes, true nature, and alien influence of the ruling elite.",
           "isCorrect": false,
-          "rationale": "They are strategically placed within elite bloodlines; public examples include Diana, Barron Trump, and JFK Jnr."
+          "rationale": "This pairing matches the report's definition of “Truth Packages”."
         },
         {
           "label": "C",
-          "text": "Only post-landing solar family diplomats with no pre-disclosure bloodline insertion role.",
+          "text": "E.B.S — Emergency Broadcast System, the sole active military-controlled transmission network deployed during the communications blackout to deliver truth directly to the population.",
           "isCorrect": false,
-          "rationale": "Seeded Sols operate inside bloodlines before full public solar-family landing after disclosure."
+          "rationale": "This pairing matches the report's definition of “E.B.S”."
         },
         {
           "label": "D",
-          "text": "Only Cabal enforcers placed to strengthen the parasitic grid with no fracture mission.",
+          "text": "Whitehats — Allied military and light forces operating in the public eye to orchestrate the disclosure timeline, dismantle infrastructure, and neutralize the most dangerous systemic parasites.",
           "isCorrect": false,
-          "rationale": "Their mission is fracturing the parasitic control grid from inside elite bloodlines."
+          "rationale": "This pairing matches the report's definition of “Whitehats”."
         }
       ],
-      "hint": "High-frequency souls placed in elite bloodlines to fracture control from inside.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "A"
     },
     {
@@ -726,25 +702,25 @@
       "options": [
         {
           "label": "A",
-          "text": "To freeze the 3D illusion permanently with no reconstruction or ascension pathway secured.",
+          "text": "To hold the 3D illusion in place for as long as possible, delaying reconstruction until the population no longer resists the disclosures.",
           "isCorrect": false,
           "rationale": "Goal includes reconstruction and ascension after dissolving false perception layers."
         },
         {
           "label": "B",
-          "text": "To secure the realm for reconstruction and final ascension processes by controlling the emotional shockwave, preventing full-scale societal collapse while terminating the parasitic energy harvest.",
+          "text": "To secure the realm for reconstruction and ascension by controlling the emotional shockwave, avoiding collapse while ending the parasitic harvest.",
           "isCorrect": true,
           "rationale": "Strategic goal is securing the realm for reconstruction and final ascension processes by controlling the emotional and psychological shockwave, preventing full-scale societal collapse while decisively terminating the parasitic energy harvest."
         },
         {
           "label": "C",
-          "text": "To maximize uncontrolled societal collapse and permanently continue the parasitic energy harvest.",
+          "text": "To trigger a rapid collapse of society so that the parasitic harvest ends at once, with reconstruction left to begin in the Second Realm.",
           "isCorrect": false,
           "rationale": "Whitehats prevent full-scale collapse and terminate parasitic energy harvest."
         },
         {
           "label": "D",
-          "text": "To avoid all emotional shock so no mass outrage catalyst for liberation ever occurs.",
+          "text": "To spare the population any emotional shock, revealing the truth so gently that it never becomes a catalyst for mass outrage.",
           "isCorrect": false,
           "rationale": "Mental breakdowns and outrage from the masses are a necessary catalyst for liberation."
         }

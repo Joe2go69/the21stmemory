@@ -54,25 +54,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Because Resonating Sols never feel anything before visual changes appear in the sky.",
+          "text": "The Resonating Sols feel nothing until visual changes appear in the sky, and the indicators are the bodies of NPCs reacting to the shift.",
           "isCorrect": false,
           "rationale": "Resonating Sols feel these changes before they see them as the false matrix begins to dissolve."
         },
         {
           "label": "B",
-          "text": "Because the human vessel is a biological receiver, sudden collapse of parasitic frequency control becomes tangible physical sensations, erratic animal behaviors, and environmental anomalies.",
+          "text": "The vessel is a biological receiver, so the collapse of parasitic frequency control is felt as physical sensations, odd animal behavior, and anomalies.",
           "isCorrect": true,
           "rationale": "As a biological receiver, the vessel translates parasitic frequency-control collapse into tangible sensations, animal reactions, and environmental anomalies."
         },
         {
           "label": "C",
-          "text": "Because random seasonal flu always peaks exactly when cables stay fully online worldwide.",
+          "text": "Seasonal flu peaks at the same time as the cable outages, and the overlap is mistaken for frequency effects by those who are watching.",
           "isCorrect": false,
           "rationale": "Indicators are fracture-driven receiver responses—not random flu timed to fully online cables."
         },
         {
           "label": "D",
-          "text": "Because animals alone receive the grid while human vessels remain completely frequency-blind.",
+          "text": "Animals receive the grid changes while the human vessel stays frequency-blind, so the bodily signs are a form of sympathetic reaction.",
           "isCorrect": false,
           "rationale": "Human vessels are biological receivers; animals also react, but humans feel the sequence as well."
         }
@@ -82,67 +82,43 @@
     },
     {
       "number": 3,
-      "question": "What is The Static Build Up as defined in key terminology?",
+      "question": "True or False: According to the report, “The Static Build Up” refers to the initial physiological and environmental response to the frequency fracture, characterized by subtle cranial buzzing and localized electronic anomalies.",
       "options": [
         {
           "label": "A",
-          "text": "The final atmospheric pop that only happens after every cable is permanently restored worldwide.",
-          "isCorrect": false,
-          "rationale": "Static Build Up is the initial response; the atmospheric pop is the later severing moment of cable dark."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “The Static Build Up” this way."
         },
         {
           "label": "B",
-          "text": "An NPC-only panic script with no biological skull buzzing or phone-and-screen glitches.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Static Build Up includes biological buzzing and environmental electronics glitching—not NPC panic alone."
-        },
-        {
-          "label": "C",
-          "text": "The initial physiological and environmental response to the frequency fracture, marked by subtle cranial buzzing and localized electronic anomalies.",
-          "isCorrect": true,
-          "rationale": "Static Build Up is the initial physiological and environmental response to the frequency fracture—subtle cranial buzzing and localized electronic anomalies."
-        },
-        {
-          "label": "D",
-          "text": "A pure weather term for clear skies with no cranial buzzing and no electronic anomalies at all.",
-          "isCorrect": false,
-          "rationale": "The term names cranial buzzing and electronic anomalies under frequency fracture—not clear-sky weather alone."
+          "rationale": "It is true — the report defines “The Static Build Up” as: The initial physiological and environmental response to the frequency fracture, characterized by subtle cranial buzzing and localized electronic anomalies."
         }
       ],
-      "hint": "Initial response type and two signature features named together.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “The Static Build Up”.",
+      "correctAnswer": "A"
     },
     {
       "number": 4,
-      "question": "What is The Drop in Tone?",
+      "question": "True or False: According to the report, “The Drop in Tone” refers to short, unexplained bursts of adrenaline and cardiovascular spikes coupled with a thickening of the atmospheric pressure.",
       "options": [
         {
           "label": "A",
-          "text": "The moment cables restore with full volume traffic noise and no muted visual field whatsoever.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Drop in Tone is a heavier muted state as the false sky fails—not cable restore with full traffic noise."
+          "rationale": "False — that description belongs to “The Sharp Edge”. The report defines “The Drop in Tone” as: A sudden wave of deep physical fatigue and a visual flattening of the sky caused by the glitching parasitic overlay."
         },
         {
           "label": "B",
-          "text": "Only a banking holiday with no body fatigue and no change in how the sky looks at all instead of Drop in Tone as deep fatigue and flatter sky under glitching parasitic overlay.",
-          "isCorrect": false,
-          "rationale": "The definition is bodily fatigue and sky flattening from overlay glitch—not a banking holiday alone."
-        },
-        {
-          "label": "C",
-          "text": "A sudden wave of deep physical fatigue and a visual flattening of the sky caused by the glitching parasitic overlay.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Drop in Tone is a sudden wave of deep physical fatigue and visual sky flattening from the glitching parasitic overlay."
-        },
-        {
-          "label": "D",
-          "text": "A permanent energy boost with a brilliantly dimensional sky and zero parasitic overlay glitch.",
-          "isCorrect": false,
-          "rationale": "Drop in Tone is fatigue and flatter sky under overlay glitch—not permanent energy boost and brilliant depth."
+          "rationale": "Correct — that description belongs to “The Sharp Edge”, not “The Drop in Tone”."
         }
       ],
-      "hint": "Fatigue wave plus a visual change to the sky under glitching overlay.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “The Drop in Tone”.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,
@@ -306,35 +282,35 @@
     },
     {
       "number": 10,
-      "question": "What biological sign marks Phase 1: The Static Build Up?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Sharp high-pitch ear ringing just out of normal hearing range as the only Phase 1 biological sign.",
+          "text": "The Silence Before the Snap — The final acoustic and atmospheric vacuum immediately preceding the physical severing of communication lines.",
           "isCorrect": false,
-          "rationale": "Sharp out-of-range ear ringing belongs to Silence Before the Snap (Phase 4), not Static Build Up."
+          "rationale": "This pairing matches the report's definition of “The Silence Before the Snap”."
         },
         {
           "label": "B",
-          "text": "Uncaused adrenaline bursts and heart-rate spikes with no skull buzzing at any point.",
-          "isCorrect": false,
-          "rationale": "Adrenaline and heart spikes are Sharp Edge (Phase 3); Static Build Up centers cranial buzzing."
+          "text": "The Static Build Up — Short, unexplained bursts of adrenaline and cardiovascular spikes coupled with a thickening of the atmospheric pressure.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “The Sharp Edge”. The report defines “The Static Build Up” as: The initial physiological and environmental response to the frequency fracture, characterized by subtle cranial buzzing and localized electronic anomalies."
         },
         {
           "label": "C",
-          "text": "Sudden deep chest heaviness and unprovoked yawning as the primary first-phase body signal only.",
+          "text": "Pop in the Atmosphere — A sudden drop in environmental pressure felt the exact moment the old matrix cables are severed, revealing temporary field clarity.",
           "isCorrect": false,
-          "rationale": "Deep tiredness, yawning, and chest heaviness belong to Drop in Tone (Phase 2), not Static Build Up."
+          "rationale": "This pairing matches the report's definition of “Pop in the Atmosphere”."
         },
         {
           "label": "D",
-          "text": "A subtle buzzing in the skull like continuous white noise in the background of perception.",
-          "isCorrect": true,
-          "rationale": "Phase 1 biological sign is subtle skull buzzing functioning like continuous white noise in perception’s background."
+          "text": "The Drop in Tone — A sudden wave of deep physical fatigue and a visual flattening of the sky caused by the glitching parasitic overlay.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “The Drop in Tone”."
         }
       ],
-      "hint": "Skull sensation compared to continuous background noise.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 11,

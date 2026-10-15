@@ -114,67 +114,43 @@
     },
     {
       "number": 4,
-      "question": "What are Clones in this operation?",
+      "question": "True or False: According to the report, “Clones” refers to the allied military and multidimensional operational forces responsible for executing the purge, stripping real-world power from the elite, and controlling the mass awakening timeline.",
       "options": [
         {
           "label": "A",
-          "text": "Only cartoon mascots with no biological, holographic, or A.I. composite technology involved in elite replacement.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The toolkit explicitly includes biological copies, stand-in actors with masks, holographical projections, and A.I. Driven Composites."
+          "rationale": "False — that description belongs to “Whitehats”. The report defines “Clones” as: Biological copies deployed alongside stand-in actors with masks, holographical projections, and A.I. Driven Composites to seamlessly replace neutralized leaders for public optics."
         },
         {
           "label": "B",
-          "text": "Biological copies deployed with stand-in actors, masks, holographical projections, and A.I.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Clones are biological copies used with stand-ins, masks, holographics, and A.I. composites so neutralized leaders still appear for public optics."
-        },
-        {
-          "label": "C",
-          "text": "Underground tunnel workers who dismantle DUMBS by hand without any role in leadership optics.",
-          "isCorrect": false,
-          "rationale": "DUMBS dismantling is a Phase Three military action; clones replace neutralized leaders for public optics."
-        },
-        {
-          "label": "D",
-          "text": "Permanent free-will world leaders who keep full original power and never follow scripted optics after replacement.",
-          "isCorrect": false,
-          "rationale": "Clones and stand-ins preserve optics while real-world power is stripped — they are not permanent free-will rulers with original power."
+          "rationale": "Correct — that description belongs to “Whitehats”, not “Clones”."
         }
       ],
-      "hint": "Biological copies and related mimic tools used after neutralization.",
+      "hint": "Recall how the report's Key Terminology defines “Clones”.",
       "correctAnswer": "B"
     },
     {
       "number": 5,
-      "question": "Who are the Whitehats?",
+      "question": "True or False: According to the report, “Whitehats” refers to the allied military and multidimensional operational forces responsible for executing the purge, stripping real-world power from the elite, and controlling the mass awakening timeline.",
       "options": [
         {
           "label": "A",
-          "text": "Entertainment royalty who keep hypnotic influence over politics and tastes after the infrastructure sweep.",
-          "isCorrect": false,
-          "rationale": "Entertainment royalty and cultural influencers are Phase Two targets stripped of real-world power, not the Whitehat alliance."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Whitehats” this way."
         },
         {
           "label": "B",
-          "text": "Unawakened sleepers who only watch television and never touch any operational timeline or infrastructure.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Sleepers are held in a manageable state by narrative maintenance; Whitehats run the operational purge."
-        },
-        {
-          "label": "C",
-          "text": "Allied military and multidimensional operational forces that execute the purge, strip elite real-world power, and control the mass awakening timeline.",
-          "isCorrect": true,
-          "rationale": "Whitehats are allied military and multidimensional forces responsible for the purge, stripping elite power, and managing the mass awakening timeline."
-        },
-        {
-          "label": "D",
-          "text": "Parasitic banking heads who expand trafficking pipelines while posing as reformers under a new brand.",
-          "isCorrect": false,
-          "rationale": "Whitehats strip real-world power from the elite and dismantle parasitic lifeblood; they are not the banking parasites."
+          "rationale": "It is true — the report defines “Whitehats” as: The allied military and multidimensional operational forces responsible for executing the purge, stripping real-world power from the elite, and controlling the mass awakening timeline."
         }
       ],
-      "hint": "Allied forces that execute the purge and control the awakening timeline.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Whitehats”.",
+      "correctAnswer": "A"
     },
     {
       "number": 6,
@@ -210,34 +186,34 @@
     },
     {
       "number": 7,
-      "question": "Who are Resonating Souls in this architecture?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Awakened beings holding high frequency vibration who anchor truth and light during the collapse of parasitic systems.",
+          "text": "Resonating Souls — Deep Underground Military Bases; subterranean tunnel systems and underground cities dismantled by military forces to sever the illicit supply lines of the parasites.",
           "isCorrect": true,
-          "rationale": "Resonating Souls are awakened beings of high frequency vibration who anchor truth and light as parasitic systems collapse."
+          "rationale": "That description belongs to “DUMBS”. The report defines “Resonating Souls” as: Awakened beings holding a high frequency vibration who anchor truth and light during the collapse of the parasitic systems."
         },
         {
           "label": "B",
-          "text": "Neutralized world leaders permanently restored to full pyramid power after the silent lockdown arrests.",
+          "text": "The Great Purge — A methodical, multi-phase operation initiated to remove parasitic controllers from power, starting at the top of the global pyramid and working downwards.",
           "isCorrect": false,
-          "rationale": "Neutralized leaders are replaced by clones and stand-ins with real power stripped; they are not Resonating Souls."
+          "rationale": "This pairing matches the report's definition of “The Great Purge”."
         },
         {
           "label": "C",
-          "text": "Unawakened sleepers kept manageable by business-as-usual optics and controlled stand-in messaging alone.",
+          "text": "Clones — Biological copies deployed alongside stand-in actors with masks, holographical projections, and A.I. Driven Composites to seamlessly replace neutralized leaders for public optics.",
           "isCorrect": false,
-          "rationale": "Sleepers are held manageable by narrative maintenance; Resonating Souls are the awakened anchors of truth and light."
+          "rationale": "This pairing matches the report's definition of “Clones”."
         },
         {
           "label": "D",
-          "text": "Only sports icons whose hypnotic influence over tastes is strengthened after the infrastructure sweep.",
+          "text": "Whitehats — The allied military and multidimensional operational forces responsible for executing the purge, stripping real-world power from the elite, and controlling the mass awakening timeline.",
           "isCorrect": false,
-          "rationale": "Sports icons are Phase Two targets stripped of real-world power so hypnotic influence is severed, not amplified."
+          "rationale": "This pairing matches the report's definition of “Whitehats”."
         }
       ],
-      "hint": "High-frequency beings during the collapse of parasitic systems.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "A"
     },
     {

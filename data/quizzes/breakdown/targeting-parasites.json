@@ -114,67 +114,55 @@
     },
     {
       "number": 4,
-      "question": "What are Clones in this operation?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only cartoon mascots with no biological copy technology and no role in elite replacement broadcasts.",
-          "isCorrect": false,
-          "rationale": "Clones are biological copies for leadership optics, distinct from but used alongside stand-ins and A.I. composites."
+          "text": "Clones — True souls possessing the frequency and vibration capable of cutting through the parasitic illusion and anchoring light.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Resonating Sols”. The report defines “Clones” as: Biological copies used to instantly replace removed leaders to maintain public optics."
         },
         {
           "label": "B",
-          "text": "Underground tunnel workers who dismantle DUMBS by hand without appearing as surface leadership doubles.",
+          "text": "The Big Whitehat Takeover — The coordinated military and alliance operation to strip corporate and cultural leaders of real-world power.",
           "isCorrect": false,
-          "rationale": "DUMBS dismantling is a military Phase Three action; clones replace removed leaders for public optics."
+          "rationale": "This pairing matches the report's definition of “The Big Whitehat Takeover”."
         },
         {
           "label": "C",
-          "text": "Biological copies used to instantly replace removed leaders so public optics remain intact after neutralization.",
-          "isCorrect": true,
-          "rationale": "Clones are biological copies used to instantly replace removed leaders to maintain public optics."
+          "text": "DUMBS — Deep underground military bases and cities utilized for trafficking and smuggling, dismantled by military forces.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “DUMBS”."
         },
         {
           "label": "D",
-          "text": "Permanent free-will rulers who keep full original power and never serve as temporary optics replacements.",
+          "text": "A.I. Driven Composites — Digital and holographical mimic technology deployed for television appearances of removed individuals.",
           "isCorrect": false,
-          "rationale": "Clones maintain optics after real leaders are removed; real-world power is stripped, not permanently restored to free predators."
+          "rationale": "This pairing matches the report's definition of “A.I. Driven Composites”."
         }
       ],
-      "hint": "Biological replacements for optics after leaders are removed.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 5,
-      "question": "What are Stand-In Actors?",
+      "question": "True or False: According to the report, “Stand-In Actors” refers to masked individuals acting as replacements for neutralized elites to prevent public panic.",
       "options": [
         {
           "label": "A",
-          "text": "Only digital holograms with no living masked person ever appearing as a neutralized elite.",
-          "isCorrect": false,
-          "rationale": "Stand-In Actors are masked individuals; holographical tools and A.I. composites are separate replacement technologies."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Stand-In Actors” this way."
         },
         {
           "label": "B",
-          "text": "Sleeping masses recruited to confess every crime on day one so panic spreads as fast as possible.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Stand-ins prevent public panic; they do not recruit sleepers into day-one mass confessions."
-        },
-        {
-          "label": "C",
-          "text": "Unmasked true royals restored to full pyramid power with no mimic technology involved at all.",
-          "isCorrect": false,
-          "rationale": "Stand-ins are masked replacements after neutralization, not restored true royals with original power."
-        },
-        {
-          "label": "D",
-          "text": "Masked individuals acting as replacements for neutralized elites specifically to prevent public panic.",
-          "isCorrect": true,
-          "rationale": "Stand-In Actors are masked individuals acting as replacements for neutralized elites to prevent public panic."
+          "rationale": "It is true — the report defines “Stand-In Actors” as: Masked individuals acting as replacements for neutralized elites to prevent public panic."
         }
       ],
-      "hint": "Masked replacements used to prevent panic.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Stand-In Actors”.",
+      "correctAnswer": "A"
     },
     {
       "number": 6,
@@ -306,35 +294,23 @@
     },
     {
       "number": 10,
-      "question": "What is Adrenochrome in this parasitic economy?",
+      "question": "True or False: According to the report, “Adrenochrome” refers to entities and individuals who controlled global resources, narratives, and enforcement to harvest energy and maintain the false 3D illusion.",
       "options": [
         {
           "label": "A",
-          "text": "Only a Phase Two entertainment prop used by sports icons with no underground production network.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Phase Three dismantles Adrenochrome production with trafficking and harvesting networks as financial lifeblood."
+          "rationale": "False — that description belongs to “Parasites”. The report defines “Adrenochrome” as: A vital component of the underground economy and parasitic lifeblood, connected to child harvesting and human trafficking that backed the world stock market."
         },
         {
           "label": "B",
-          "text": "A Light Grid frequency code that activates solar origins without any underground economy role.",
-          "isCorrect": false,
-          "rationale": "Light Grids activate after sterilization of control grids; Adrenochrome is underground parasitic lifeblood, not Light Grid code."
-        },
-        {
-          "label": "C",
-          "text": "A harmless surface vitamin sold in grocery stores with no link to trafficking or stock-market backing.",
-          "isCorrect": false,
-          "rationale": "Adrenochrome is named as parasitic lifeblood tied to child harvesting, trafficking, and market backing — not a harmless grocery vitamin."
-        },
-        {
-          "label": "D",
-          "text": "A vital component of the underground economy and parasitic lifeblood, connected to child harvesting and human trafficking that backed the world stock market.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Adrenochrome is vital underground-economy lifeblood connected to child harvesting and trafficking that backed the world stock market."
+          "rationale": "Correct — that description belongs to “Parasites”, not “Adrenochrome”."
         }
       ],
-      "hint": "Lifeblood linked to harvesting and market backing.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Adrenochrome”.",
+      "correctAnswer": "B"
     },
     {
       "number": 11,

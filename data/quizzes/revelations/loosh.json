@@ -114,35 +114,23 @@
     },
     {
       "number": 4,
-      "question": "What circumstance creates an unacceptable loosh deficit during custodial energetic accounting?",
+      "question": "True or False: According to the report, “Loosh Deficit” refers to the systematic extraction and collection of low-frequency energetic emissions generated through individual and collective terror, pain, and psychological distress.",
       "options": [
         {
           "label": "A",
-          "text": "Re-aligning historical granite architecture with positive planetary ley lines creates the annual shortage.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Those structures stay inverted to route negative VLF energy and their mere presence is not the accounting shortfall."
+          "rationale": "False — that description belongs to “Fear Harvest”. The report defines “Loosh Deficit” as: A shortage in the annual custodial stocktake of low-frequency energy caused by circumstances that alleviate human suffering or end vessel life prematurely."
         },
         {
           "label": "B",
-          "text": "Directing widespread public adoration toward artificial celebrity structures creates the annual shortage.",
-          "isCorrect": false,
-          "rationale": "Adoration toward inverted figures generates high-volume loosh emissions rather than a shortage."
-        },
-        {
-          "label": "C",
-          "text": "Staging major global disasters and manufactured physical crises creates the annual shortage.",
-          "isCorrect": false,
-          "rationale": "Engineered catastrophes generate massive bursts of loosh and adrenochrome rather than a deficit."
-        },
-        {
-          "label": "D",
-          "text": "A loosh deficit follows circumstances that alleviate human suffering or end vessel life prematurely.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "A shortage in the annual custodial stocktake follows circumstances that alleviate human suffering or end vessel life prematurely."
+          "rationale": "Correct — that description belongs to “Fear Harvest”, not “Loosh Deficit”."
         }
       ],
-      "hint": "Focus on what interrupts the continuous radiation of negative emotional output.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Loosh Deficit”.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,
@@ -338,35 +326,35 @@
     },
     {
       "number": 11,
-      "question": "What is the relationship between adrenochrome and loosh within the harvesting framework?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Adrenochrome is the captured soul while loosh is the physical vessel genetic code.",
+          "text": "Inverted Aurora — The atmospheric phenomenon of the Aurora Borealis, re-engineered as an energetic siphoning mechanism to extract radiated loosh from the surface grid.",
           "isCorrect": false,
-          "rationale": "The captured soul adrenochrome and loosh are three separate custodial commodities."
+          "rationale": "This pairing matches the report's definition of “Inverted Aurora”."
         },
         {
           "label": "B",
-          "text": "Adrenochrome is an atmospheric gas while loosh is a liquid harvested from ley line nodes.",
+          "text": "Loosh — Very Low Frequency (VLF) negative energy emitted by the human vessel through any negative act, thought, or emotion, utilized by parasitic custodians to power entropic technology.",
           "isCorrect": false,
-          "rationale": "Adrenochrome is a physical fluid and loosh is an electromagnetic and aetheric vibration."
+          "rationale": "This pairing matches the report's definition of “Loosh”."
         },
         {
           "label": "C",
-          "text": "Adrenochrome powers entropic matrix overlays while loosh is stored only for physical consumption.",
-          "isCorrect": false,
-          "rationale": "Harvested loosh powers entropic technology while adrenochrome remains a physical biological commodity."
+          "text": "Adrenochrome — The systematic extraction and collection of low-frequency energetic emissions generated through individual and collective terror, pain, and psychological distress.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Fear Harvest”. The report defines “Adrenochrome” as: A physical fluid harvested from human vessels subjected to extreme terror and torture, sitting alongside loosh as a primary custodial commodity."
         },
         {
           "label": "D",
-          "text": "Adrenochrome is a physical fluid harvested from human vessels subjected to extreme terror and torture while loosh is the simultaneous VLF radiation released into the surrounding energetic grid.",
-          "isCorrect": true,
-          "rationale": "Prolonged physical torture produces a physical fluid while loosh is the simultaneous VLF radiation released into the surrounding energetic grid."
+          "text": "Loosh Deficit — A shortage in the annual custodial stocktake of low-frequency energy caused by circumstances that alleviate human suffering or end vessel life prematurely.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Loosh Deficit”."
         }
       ],
-      "hint": "Differentiate between the physical biological product and the non-physical frequency emission.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 12,
@@ -530,34 +518,22 @@
     },
     {
       "number": 17,
-      "question": "What is the fear harvest?",
+      "question": "True or False: According to the report, “Fear Harvest” refers to the systematic extraction and collection of low-frequency energetic emissions generated through individual and collective terror, pain, and psychological distress.",
       "options": [
         {
           "label": "A",
-          "text": "The fear harvest is the systematic extraction and collection of energetic emissions generated through individual and collective terror and psychological distress.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "The fear harvest is the systematic extraction and collection of low-frequency energetic emissions generated through individual and collective terror pain and psychological distress."
+          "rationale": "True — the report defines “Fear Harvest” this way."
         },
         {
           "label": "B",
-          "text": "The fear harvest is a clinical procedure that removes traumatic memory from the human vessel.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The fear harvest is energetic extraction of low-frequency emissions rather than a clinical treatment."
-        },
-        {
-          "label": "C",
-          "text": "The fear harvest is the physical capture of souls inside atmospheric membranes above conflict zones.",
-          "isCorrect": false,
-          "rationale": "The captured soul is a separate commodity while the fear harvest collects low-frequency energetic emissions."
-        },
-        {
-          "label": "D",
-          "text": "The fear harvest is the annual return of positive aetheric energy from inverted cathedrals to the surface.",
-          "isCorrect": false,
-          "rationale": "Inverted structures route negative VLF energy and do not return a positive harvest to the public."
+          "rationale": "It is true — the report defines “Fear Harvest” as: The systematic extraction and collection of low-frequency energetic emissions generated through individual and collective terror, pain, and psychological distress."
         }
       ],
-      "hint": "Describe the collection of emissions that come from terror pain and distress.",
+      "hint": "Recall how the report's Key Terminology defines “Fear Harvest”.",
       "correctAnswer": "A"
     },
     {

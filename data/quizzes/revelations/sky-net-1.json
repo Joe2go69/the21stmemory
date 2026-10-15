@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary functional design of Sky-Net 1 within the matrix architecture?",
+      "question": "True or False: According to the report, “Sky-Net 1” refers to the planetary projection rig anchored in the stars that broadcasts continuous environmental overlays, holographic population inserts, and the simulated alien invasion image.",
       "options": [
         {
           "label": "A",
-          "text": "It acts as an automated weather modification grid regulating global climate systems.",
-          "isCorrect": false,
-          "rationale": "Conditions altered by the system are visual and environmental overlays rather than physical meteorology."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Sky-Net 1” this way."
         },
         {
           "label": "B",
-          "text": "It serves as a planetary communications network designed for deep-space exploration.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The rig is focused on atmospheric illusion and reality staging rather than outgoing space communication."
-        },
-        {
-          "label": "C",
-          "text": "Sky-Net 1 is the planetary projection rig that transmits targeted data streams and projects holographic sleeves.",
-          "isCorrect": true,
-          "rationale": "It functions as the primary technological engine for matrix illusion, population padding, and staged reality events."
-        },
-        {
-          "label": "D",
-          "text": "It functions as an off-world orbital defense shield protecting Earth from incoming space threats.",
-          "isCorrect": false,
-          "rationale": "The platform does not serve as a defense grid or military weapon system for terrestrial airspace."
+          "rationale": "It is true — the report defines “Sky-Net 1” as: The planetary projection rig anchored in the stars that broadcasts continuous environmental overlays, holographic population inserts, and the simulated alien invasion image."
         }
       ],
-      "hint": "Consider whether this system is built to defend Earth or to project visual spectacles onto it.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Sky-Net 1”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -146,35 +134,23 @@
     },
     {
       "number": 5,
-      "question": "What are holographic sleeves within the framework of Sky-Net 1's routine operations?",
+      "question": "True or False: According to the report, “Holographic Sleeves” refers to reverse-engineered physical craft derived from black-budget recovery operations of downed non-terrestrial vessels, used to provide tangible hardware for the staged attack.",
       "options": [
         {
           "label": "A",
-          "text": "Physical cyborg bodies controlled remotely by black-budget military operators.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Sleeves are light projections without physical organic or mechanical bodies."
+          "rationale": "False — that description belongs to “Salvaged Craft”. The report defines “Holographic Sleeves” as: Non-organic, senescent holographic projections emitted by Sky-Net 1 that act as society stock-fillers, scenery, and automated crowd presence without true soul architecture."
         },
         {
           "label": "B",
-          "text": "Biological suit technology worn by Secret Space Program operatives on Earth.",
-          "isCorrect": false,
-          "rationale": "Sleeves act as independent automated visual population fillers rather than wearable gear."
-        },
-        {
-          "label": "C",
-          "text": "Non-organic senescent holographic projections emitted by Sky-Net 1 that act as society stock-fillers and automated crowd presence.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "They are non-living senescent holograms without true soul architecture."
-        },
-        {
-          "label": "D",
-          "text": "Genetic clones created in terrestrial laboratories to infiltrate urban populations.",
-          "isCorrect": false,
-          "rationale": "Biological cloning involves physical birth, whereas sleeves are non-organic holographic projections."
+          "rationale": "Correct — that description belongs to “Salvaged Craft”, not “Holographic Sleeves”."
         }
       ],
-      "hint": "Recall the term for non-organic population stock-fillers projected into society.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Holographic Sleeves”.",
+      "correctAnswer": "B"
     },
     {
       "number": 6,
@@ -182,25 +158,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Secret Space Program operations.",
+          "text": "Secret Space Program operators.",
           "isCorrect": false,
           "rationale": "The two H1 Orion craft were brought down by the Anakim Giants, not by Secret Space Program operations."
         },
         {
           "label": "B",
-          "text": "Experimental radar units.",
+          "text": "Experimental military radar units.",
           "isCorrect": false,
           "rationale": "The craft were brought down over Roswell by the Anakim Giants, not by experimental radar units."
         },
         {
           "label": "C",
-          "text": "The two H1 Orion craft were brought down over Roswell by the Anakim Giants.",
+          "text": "The Anakim Giants.",
           "isCorrect": true,
           "rationale": "Those recovered vessels later supply salvaged craft for the staged attack."
         },
         {
           "label": "D",
-          "text": "Sub-orbital interceptors.",
+          "text": "Sub-orbital interceptor squadrons.",
           "isCorrect": false,
           "rationale": "Human military interceptors are not named as the force that brought the craft down."
         }
@@ -306,35 +282,35 @@
     },
     {
       "number": 10,
-      "question": "What is the primary operational objective of SSP Psyops within this framework?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Exposing the existence of Sky-Net 1 to promote global public awakening and peace.",
+          "text": "Salvaged Craft — Reverse-engineered physical craft derived from black-budget recovery operations of downed non-terrestrial vessels, used to provide tangible hardware for the staged attack.",
           "isCorrect": false,
-          "rationale": "SSP Psyops protect the illusion by selling a real off-world threat rather than exposing the projection rig."
+          "rationale": "This pairing matches the report's definition of “Salvaged Craft”."
         },
         {
           "label": "B",
-          "text": "Training civilian populations in basic planetary defense protocols for space warfare.",
-          "isCorrect": false,
-          "rationale": "The psyop solicits panic and emergency compliance rather than genuine defense training."
+          "text": "SSP Psyops — The high-altitude celestial projection mechanism that projects holographic scenery, continuous scrolling geography, and non-organic human sleeves onto the physical plane.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Projection Rig”. The report defines “SSP Psyops” as: Secret Space Program psychological operations and whistleblower circuits designed to validate the narrative of an authentic off-world space invasion."
         },
         {
           "label": "C",
-          "text": "Whistleblower circuits designed to validate the narrative of an authentic off-world space invasion.",
-          "isCorrect": true,
-          "rationale": "That circuit is fully trapped within SSP Psyops and reinforces the illusion of an authentic alien attack."
+          "text": "EBS Lockdown — The Emergency Broadcast System lockdown event during which Sky-Net 1 and media networks synchronize to broadcast the staged invasion script to the global populace.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “EBS Lockdown”."
         },
         {
           "label": "D",
-          "text": "Developing genuine non-terrestrial propulsion systems for commercial space travel.",
+          "text": "Fake Invasion — An orchestrated psychological spectacle utilizing celestial projections and salvaged black-budget craft to throw the illusion of a violent extraterrestrial attack.",
           "isCorrect": false,
-          "rationale": "These psyops are narrative control around a space-war story, not a commercial propulsion program."
+          "rationale": "This pairing matches the report's definition of “Fake Invasion”."
         }
       ],
-      "hint": "Focus on how controlled disclosure figures reinforce belief in a real alien war.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 11,

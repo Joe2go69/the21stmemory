@@ -82,34 +82,22 @@
     },
     {
       "number": 3,
-      "question": "What is the Sun's primary function via the Amnesia Vortex?",
+      "question": "True or False: According to the report, “Amnesia Vortex” refers to the technological mechanism situated within the Sun that forcefully pulls in deceased souls to completely wipe their memories and re-format them.",
       "options": [
         {
           "label": "A",
-          "text": "To force-pull recently deceased souls into re-formatting that wipes all memory before immediate, involuntary reincarnation back into the prison matrix.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Amnesia Vortex pulls the dead, wipes memory, and forces rapid reincarnation into the prison loop."
+          "rationale": "True — the report defines “Amnesia Vortex” this way."
         },
         {
           "label": "B",
-          "text": "To gently archive every past life for free public viewing with no wipe and no forced return.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The process wipes memory and forces involuntary return; it does not archive for free viewing."
-        },
-        {
-          "label": "C",
-          "text": "To heat only the upper atmosphere and never interact with souls after vessel death.",
-          "isCorrect": false,
-          "rationale": "Primary function is soul recycling through the vortex, not mere atmospheric heating."
-        },
-        {
-          "label": "D",
-          "text": "To permanently free every soul into higher densities the moment the body dies.",
-          "isCorrect": false,
-          "rationale": "It traps souls in immediate involuntary reincarnation, not permanent liberation."
+          "rationale": "It is true — the report defines “Amnesia Vortex” as: The technological mechanism situated within the Sun that forcefully pulls in deceased souls to completely wipe their memories and re-format them."
         }
       ],
-      "hint": "Pull deceased — wipe all memory — forced prison reincarnation.",
+      "hint": "Recall how the report's Key Terminology defines “Amnesia Vortex”.",
       "correctAnswer": "A"
     },
     {
@@ -178,35 +166,23 @@
     },
     {
       "number": 6,
-      "question": "What are Vatican Portals in the soul-recycling chain?",
+      "question": "True or False: According to the report, “Vatican Portals” refers to the underground distribution hubs beneath the Vatican where memory-wiped souls exit the Sun's processing center before physical re-insertion into the realm.",
       "options": [
         {
           "label": "A",
-          "text": "Tourist elevators for pilgrims that never handle souls or memory-wipe traffic of any kind.",
-          "isCorrect": false,
-          "rationale": "They are underground distribution hubs for memory-wiped souls exiting the Sun process."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Vatican Portals” this way."
         },
         {
           "label": "B",
-          "text": "The Amnesia Vortex itself, located only inside the Sun with no Vatican role at all.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Vatican Portals are the exit/distribution hubs after Sun processing, not the vortex itself."
-        },
-        {
-          "label": "C",
-          "text": "Open-air plazas that only display art and never connect to Sun processing or re-insertion.",
-          "isCorrect": false,
-          "rationale": "They are underground hubs in the parasitic distribution path after the Sun wipe."
-        },
-        {
-          "label": "D",
-          "text": "The underground distribution hubs beneath the Vatican where memory-wiped souls exit the Sun's processing center before physical re-insertion into the realm.",
-          "isCorrect": true,
-          "rationale": "Vatican Portals receive wiped souls from the Sun and stage them for re-insertion."
+          "rationale": "It is true — the report defines “Vatican Portals” as: The underground distribution hubs beneath the Vatican where memory-wiped souls exit the Sun's processing center before physical re-insertion into the realm."
         }
       ],
-      "hint": "Underground Vatican hubs — wiped souls exit Sun process for re-insertion.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Vatican Portals”.",
+      "correctAnswer": "A"
     },
     {
       "number": 7,
@@ -274,35 +250,35 @@
     },
     {
       "number": 9,
-      "question": "What are Trillivolts in the vessel-ignition process?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The minute electrical interaction and energy discharge required from the soul to ignite a newborn baby's heart upon entry into the vessel.",
-          "isCorrect": true,
-          "rationale": "Trillivolts are the soul's electrical discharge that starts the newborn heart at entry."
+          "text": "Vatican Portals — The underground distribution hubs beneath the Vatican where memory-wiped souls exit the Sun's processing center before physical re-insertion into the realm.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Vatican Portals”."
         },
         {
           "label": "B",
-          "text": "A pure metaphor with no actual electrical interaction between soul and newborn vessel.",
+          "text": "Grey ETs — Parasitic 4th-density entities responsible for handling the soul-recycling technology and physically escorting wiped souls from the portals to new geographical locations.",
           "isCorrect": false,
-          "rationale": "It is a real minute electrical interaction required to start the baby's heart."
+          "rationale": "This pairing matches the report's definition of “Grey ETs”."
         },
         {
           "label": "C",
-          "text": "A brand of car battery used only by Grey ships with no role in human birth or heart ignition.",
-          "isCorrect": false,
-          "rationale": "Trillivolts name the soul-to-heart electrical ignition at newborn entry, not vehicle batteries."
+          "text": "Trillivolts — Connected soul counterparts whose natural progression and reunion are deliberately thwarted by the rapid, forced reincarnation mechanics of the Sun portal.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Twin Flames”. The report defines “Trillivolts” as: The minute electrical interaction and energy discharge required from the soul to ignite a newborn baby's heart upon entry into the vessel."
         },
         {
           "label": "D",
-          "text": "Lightning storms that randomly start adult hearts decades after birth with no soul involvement.",
+          "text": "Amnesia Vortex — The technological mechanism situated within the Sun that forcefully pulls in deceased souls to completely wipe their memories and re-format them.",
           "isCorrect": false,
-          "rationale": "The discharge is from the soul at birth entry, usually before the cord is cut."
+          "rationale": "This pairing matches the report's definition of “Amnesia Vortex”."
         }
       ],
-      "hint": "Soul's electrical discharge — ignite newborn heart at entry.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 10,
@@ -566,25 +542,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Both only heal trauma and never wipe memory or harvest energetic food from suffering.",
+          "text": "The Sun and Moon both act as healing stations, sending souls back with gentler memories so that their suffering is reduced over time.",
           "isCorrect": false,
           "rationale": "The dual system continues suffering through wipe-recycle and loosh collection."
         },
         {
           "label": "B",
-          "text": "The Moon wipes memory and the Sun only gathers loosh, reversing all stated roles completely.",
+          "text": "The Moon wipes the souls' memories at night, while the Sun gathers the Loosh by day, reversing the roles that most people assume.",
           "isCorrect": false,
           "rationale": "Sun is the wipe/recycle processor; Moon is the mobile loosh-gathering station."
         },
         {
           "label": "C",
-          "text": "The Sun processes and wipes souls for continuous recycling while the Moon operates as a highly mobile space station gathering the Loosh generated by those continually suffering, memory-wiped souls.",
+          "text": "The Sun wipes souls for recycling, while the Moon is a mobile space station gathering the Loosh of those suffering, memory-wiped souls.",
           "isCorrect": true,
           "rationale": "Sun recycles/wipes; Moon harvests loosh from the suffering of those wiped souls."
         },
         {
           "label": "D",
-          "text": "Neither body interacts with souls or loosh; both are only weather lamps with no dual system.",
+          "text": "Neither body interacts with souls; both are weather lamps on the dome, and the wipe is handled by Grey ETs beneath the Vatican.",
           "isCorrect": false,
           "rationale": "They form a dual-deception: recycle wipe plus loosh harvest from suffering."
         }
@@ -694,25 +670,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Successfully removed the Amnesia Vortex technology — newly incarnated children are no longer subjected to the memory wipe, retaining past-life memories and recalling true spiritual missions.",
+          "text": "It removed the Amnesia Vortex — newly incarnated children are no longer wiped and keep past-life memories and their missions.",
           "isCorrect": true,
           "rationale": "2019 G.A.A. removal of the vortex lets children keep past-life memory and mission recall."
         },
         {
           "label": "B",
-          "text": "They moved the vortex to the Moon and left Sun processing unchanged for all births.",
+          "text": "It moved the vortex from the Sun to the Moon, so that the memory wipe now happens at night instead of at the moment of birth.",
           "isCorrect": false,
           "rationale": "The Amnesia Vortex technology was removed, ending the wipe for new incarnations."
         },
         {
           "label": "C",
-          "text": "They strengthened the vortex so every child loses memory even faster than before.",
+          "text": "It weakened the vortex gradually, so that children lose their memories more slowly and recover them during their teenage years.",
           "isCorrect": false,
           "rationale": "G.A.A. successfully removed the Amnesia Vortex technology in 2019."
         },
         {
           "label": "D",
-          "text": "Nothing — the vortex still wipes every newborn with full 4th-density efficiency.",
+          "text": "It placed shields around Star Seed families, protecting their children while the vortex still wipes the rest of the population.",
           "isCorrect": false,
           "rationale": "Absolute control is failing; children now retain past-life memories after 2019 removal."
         }

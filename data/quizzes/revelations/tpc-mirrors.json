@@ -82,99 +82,75 @@
     },
     {
       "number": 3,
-      "question": "From which natural mineral ore is Red Mercury extracted?",
+      "question": "True or False: According to the report, “Red Mercury” refers to ambient celestial acoustic and electromagnetic emissions governed by the Moon, altered following the 1728 reset to disrupt phase-conjugated communications.",
       "options": [
         {
           "label": "A",
-          "text": "Red Mercury is extracted directly from Cinnabar Ore, a reddish soft porous mineral.",
-          "isCorrect": true,
-          "rationale": "Cinnabar Ore is a soft reddish porous mineral and the natural source from which Red Mercury is extracted."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Lunar Frequencies”. The report defines “Red Mercury” as: A highly energetic, toxic liquid metal extracted by heating Cinnabar Ore below 500°C, serving as the core technological catalyst in TPC Mirrors and Tartarian energy systems."
         },
         {
           "label": "B",
-          "text": "Ashlar ore was mined and heated to release the liquid metal used in the backing.",
-          "isCorrect": false,
-          "rationale": "Ashlar masonry is cut stonework in the Tartarian framework, not a mineral ore."
-        },
-        {
-          "label": "C",
-          "text": "Vermillion ore was the raw deposit mined worldwide to yield the liquid metal.",
-          "isCorrect": false,
-          "rationale": "Vermillion pigment is a later guise for Red Mercury, while the natural source is Cinnabar Ore."
-        },
-        {
-          "label": "D",
-          "text": "Granite ore was heated so its crystals would drip out as the liquid metal catalyst.",
-          "isCorrect": false,
-          "rationale": "Quartz granite structures are piezoelectric architecture, not the ore processed for Red Mercury."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Lunar Frequencies”, not “Red Mercury”."
         }
       ],
-      "hint": "Focus on the soft, reddish, porous mineral found in large geological deposits.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Red Mercury”.",
+      "correctAnswer": "B"
     },
     {
       "number": 4,
-      "question": "At what temperature threshold must raw Cinnabar Ore be heated to condense Red Mercury?",
+      "question": "True or False: According to the report, “Cinnabar Ore” refers to high-fidelity Time-Phase Conjugated mirrors utilized in Great Tartaria for instant aetheric communication, constructed using a specialized red mercury amalgam backing.",
       "options": [
         {
           "label": "A",
-          "text": "The raw ore must be held at exactly 100°C before the liquid metal can drip out.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Processing requires heating the raw ore to temperatures below 500°C, not exactly 100°C."
+          "rationale": "False — that description belongs to “TPC Mirrors”. The report defines “Cinnabar Ore” as: A soft, reddish, porous mineral mined globally for thousands of years, functioning as the natural source of Red Mercury and possessing an innate capacity to store localized energetic memory."
         },
         {
           "label": "B",
-          "text": "The raw ore must be fired above 1200°C in a blast furnace to release the metal.",
-          "isCorrect": false,
-          "rationale": "The stated threshold is temperatures below 500°C, not heat above 1200°C."
-        },
-        {
-          "label": "C",
-          "text": "The raw ore must be held between 800°C and 1000°C to keep the metal intact.",
-          "isCorrect": false,
-          "rationale": "The extraction range given is temperatures below 500°C, not 800°C to 1000°C."
-        },
-        {
-          "label": "D",
-          "text": "Processing requires heating the raw ore to temperatures below 500°C so the liquid energetic metal can condense and drip out.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Heating Cinnabar Ore below 500°C causes the liquid energetic metal to condense and drip out."
+          "rationale": "Correct — that description belongs to “TPC Mirrors”, not “Cinnabar Ore”."
         }
       ],
-      "hint": "Recall the thermal limit given for heating the raw ore.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Cinnabar Ore”.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,
-      "question": "What environmental property makes natural Cinnabar Ore valuable to aetheric networks?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Raw ore spontaneously transforms into solid gold as it sits in the ground.",
-          "isCorrect": false,
-          "rationale": "Lead into gold is the alchemical legend veiling Red Mercury, not a property of raw Cinnabar Ore."
+          "text": "Cinnabar Ore — Ambient celestial acoustic and electromagnetic emissions governed by the Moon, altered following the 1728 reset to disrupt phase-conjugated communications.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Lunar Frequencies”. The report defines “Cinnabar Ore” as: A soft, reddish, porous mineral mined globally for thousands of years, functioning as the natural source of Red Mercury and possessing an innate capacity to store localized energetic memory."
         },
         {
           "label": "B",
-          "text": "Cinnabar Ore has an innate capacity to store localized energetic memory.",
-          "isCorrect": true,
-          "rationale": "Raw Cinnabar Ore naturally absorbs and stores localized memory of past events because of its energetic density."
+          "text": "Red Mercury — A highly energetic, toxic liquid metal extracted by heating Cinnabar Ore below 500°C, serving as the core technological catalyst in TPC Mirrors and Tartarian energy systems.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Red Mercury”."
         },
         {
           "label": "C",
-          "text": "Raw ore is completely immune to every celestial electromagnetic broadcast.",
+          "text": "Amalgam Metal Backing — The specialized metallic coating applied to the rear surface of TPC Mirrors, incorporating Red Mercury to facilitate phase-conjugate aetheric coupling.",
           "isCorrect": false,
-          "rationale": "Lunar Frequencies were altered to disrupt phase-conjugated devices that coupled through this material."
+          "rationale": "This pairing matches the report's definition of “Amalgam Metal Backing”."
         },
         {
           "label": "D",
-          "text": "Raw ore continuously throws high-voltage electrical arcs without any device around it.",
+          "text": "TPC Mirrors — High-fidelity Time-Phase Conjugated mirrors utilized in Great Tartaria for instant aetheric communication, constructed using a specialized red mercury amalgam backing.",
           "isCorrect": false,
-          "rationale": "Cinnabar Ore stores localized energetic memory and yields Red Mercury. It is not described as arcing in the raw state."
+          "rationale": "This pairing matches the report's definition of “TPC Mirrors”."
         }
       ],
-      "hint": "Consider how past events remain embedded in structural nodes.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 6,

@@ -18,66 +18,42 @@
   "questions": [
     {
       "number": 1,
-      "question": "What was the original energetic function of the structures now known as banks within Tartarian urban grids?",
+      "question": "True or False: According to the report, “Banks” refers to specialized Tartarian architectural containment vessels situated on nodal grid points to regulate, store, and direct the flow of ambient aetheric energy across a city.",
       "options": [
         {
           "label": "A",
-          "text": "They functioned as early mechanical water purification plants designed to filter urban river networks.",
-          "isCorrect": false,
-          "rationale": "Riverbanks are the analogy for containing flow. The structures themselves harnessed and directed ambient aetheric energy."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Banks” this way."
         },
         {
           "label": "B",
-          "text": "They were constructed primarily as secure physical vaults to safeguard rare mineral wealth and precious metals.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Safeguarding metals is the later financial use. The original structures were aetheric containment vessels on nodal grid points."
-        },
-        {
-          "label": "C",
-          "text": "They were built as astronomical observatories designed exclusively to track planetary movements and seasonal alignments.",
-          "isCorrect": false,
-          "rationale": "They were placed on the nodal lattice grid to regulate, store, and direct ambient aetheric energy, not to serve as observatories."
-        },
-        {
-          "label": "D",
-          "text": "They were engineered as harmonic resonators and aetheric containment vessels that direct ambient aetheric energy.",
-          "isCorrect": true,
-          "rationale": "These structures were originally engineered as harmonic resonators, aetheric containment vessels, and field-regulating nodes along ley lines."
+          "rationale": "It is true — the report defines “Banks” as: Specialized Tartarian architectural containment vessels situated on nodal grid points to regulate, store, and direct the flow of ambient aetheric energy across a city."
         }
       ],
-      "hint": "Consider how these structures functioned as field-regulating nodes along planetary energy lines.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Banks”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
-      "question": "How are Current and Currency distinguished?",
+      "question": "True or False: According to the report, “Currency” refers to the inverted, entropic, and digitized representation of aetheric energy routed through physical wires, fiber optic cables, and binary systems within modern financial institutions.",
       "options": [
         {
           "label": "A",
-          "text": "Current is ambient aetheric electricity and positive free energy, while currency is the inverted entropic and digitized representation routed through physical wires.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Current is the raw ambient aetheric electricity and positive free energy. Currency is the inverted, entropic, and digitized representation routed through physical wires, fiber optic cables, and binary systems."
+          "rationale": "True — the report defines “Currency” this way."
         },
         {
           "label": "B",
-          "text": "Current is metallic coinage stored in vaults, whereas currency refers to digital paper transactions used in trade.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Currency is the digitized representation of aetheric energy, not a split between coins and paper notes."
-        },
-        {
-          "label": "C",
-          "text": "Current refers to subterranean water flows, whereas currency denotes financial assets derived from shipping trade.",
-          "isCorrect": false,
-          "rationale": "The water table completes the ground of the circuit. Current is ambient aetheric electricity and positive free energy."
-        },
-        {
-          "label": "D",
-          "text": "Current represents modern high-voltage electrical grids, while currency represents the administrative debt used to pay for electricity.",
-          "isCorrect": false,
-          "rationale": "Artificial wiring and artificial current belong to entropic technology. Current names the aetheric electricity circulated through Tartarian structural circuits."
+          "rationale": "It is true — the report defines “Currency” as: The inverted, entropic, and digitized representation of aetheric energy routed through physical wires, fiber optic cables, and binary systems within modern financial institutions."
         }
       ],
-      "hint": "Focus on the transition from clean ambient electricity to digitized, monetized extraction.",
+      "hint": "Recall how the report's Key Terminology defines “Currency”.",
       "correctAnswer": "A"
     },
     {
@@ -274,35 +250,35 @@
     },
     {
       "number": 9,
-      "question": "What defines Entropic Technology?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Entropic Technology is degrading technical infrastructure reliant on artificial wiring, radiation, and artificial current.",
-          "isCorrect": true,
-          "rationale": "Entropic Technology is dangerous, costly, and degrading technical infrastructure reliant on artificial wiring, radiation, and artificial current that replaces spiritual, self-sustaining aetheric technology."
+          "text": "Air-to-Earth Circuit — The complete conductive loop formed by piezoelectric granite blocks, sound-dressed masonry, and 40-foot subterranean footings penetrating the water table.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Air-to-Earth Circuit”."
         },
         {
           "label": "B",
-          "text": "Biological agriculture based on crop rotation and natural soil enhancement.",
+          "text": "Current — The raw, ambient aetheric electricity and positive free energy harvested and circulated through Tartarian structural circuits.",
           "isCorrect": false,
-          "rationale": "Entropic Technology is degrading technical infrastructure reliant on artificial wiring, radiation, and artificial current."
+          "rationale": "This pairing matches the report's definition of “Current”."
         },
         {
           "label": "C",
-          "text": "Acoustic levitation systems designed to move stone blocks without physical contact.",
-          "isCorrect": false,
-          "rationale": "Acoustic levitation belongs to the original sound masonry. Entropic Technology replaces self-sustaining aetheric technology with artificial current."
+          "text": "Entropic Technology — The planetary network of ley lines and conductive energetic tributaries upon which ancient Tartarian harmonic architecture was anchored.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Nodal Lattice Grid”. The report defines “Entropic Technology” as: Dangerous, costly, and degrading technical infrastructure reliant on artificial wiring, radiation, and artificial current that replaces spiritual, self-sustaining aetheric technology."
         },
         {
           "label": "D",
-          "text": "Self-sustaining spiritual technology that harnesses ambient field energy without maintenance.",
+          "text": "Ashlar Masonry — High-precision, sound-dressed masonry composed of piezoelectric quartz granite blocks used in Tartarian node architecture to process high-frequency aetheric currents.",
           "isCorrect": false,
-          "rationale": "That description is the aetheric technology Entropic Technology replaces. Entropic systems rely on artificial wiring and artificial current."
+          "rationale": "This pairing matches the report's definition of “Ashlar Masonry”."
         }
       ],
-      "hint": "Focus on systems that consume resources, degrade over time, and require artificial wiring.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 10,
@@ -726,25 +702,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Once orientated to the grid these buildings operated indefinitely, regulating local climate and ambient thermal conditions within their footprint.",
+          "text": "Once oriented to the grid, the buildings regulated local climate and ambient temperature indefinitely.",
           "isCorrect": true,
           "rationale": "Once orientated to the grid, these buildings operated indefinitely, regulating local climate, ambient thermal conditions, and electromagnetic frequencies within their footprint."
         },
         {
           "label": "B",
-          "text": "By burning underground coal reserves within basement furnaces.",
+          "text": "By burning underground coal reserves in basement furnaces that heated the halls through the winter.",
           "isCorrect": false,
           "rationale": "The structures required no external power sources. They regulated local climate once orientated to the grid."
         },
         {
           "label": "C",
-          "text": "By pumping chilled river water through interior copper pipes.",
+          "text": "By pumping chilled river water through interior copper pipes to cool the building during summer.",
           "isCorrect": false,
           "rationale": "Once orientated to the grid, the buildings regulated local climate and ambient thermal conditions without mechanical piping."
         },
         {
           "label": "D",
-          "text": "By using mechanical fans driven by subterranean waterwheels.",
+          "text": "By using mechanical fans driven by subterranean waterwheels to move air through the vaults.",
           "isCorrect": false,
           "rationale": "Regulation came from harmonic proportion and grid orientation, not from mechanical fans or waterwheels."
         }
@@ -758,25 +734,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Each block weighs from 50 to 100 tons.",
+          "text": "Between 50 and 100 tons each.",
           "isCorrect": false,
           "rationale": "The stated range is between 0.25 and 4 tons each, not 50 to 100 tons."
         },
         {
           "label": "B",
-          "text": "Each block weighs from 50 to 100 pounds.",
+          "text": "Between 50 and 100 pounds each.",
           "isCorrect": false,
           "rationale": "These are massive Ashlar units weighing between 0.25 and 4 tons each, far above a 50-to-100-pound hand stone."
         },
         {
           "label": "C",
-          "text": "Each block weighs from 10 to 20 tons.",
+          "text": "Between 10 and 20 tons each.",
           "isCorrect": false,
           "rationale": "The blocks weigh between 0.25 and 4 tons each, not 10 to 20 tons."
         },
         {
           "label": "D",
-          "text": "Solid piezoelectric quartz granite blocks weighing between 0.25 and 4 tons each.",
+          "text": "Between 0.25 and 4 tons each.",
           "isCorrect": true,
           "rationale": "Every bank building used massive Ashlar masonry consisting of solid piezoelectric quartz granite blocks weighing between 0.25 and 4 tons each."
         }

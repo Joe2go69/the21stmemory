@@ -114,34 +114,34 @@
     },
     {
       "number": 4,
-      "question": "Which character archetype was introduced in the Revisionist Western stage to add psychological nuance?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The Man with No Name is the nuanced lawman introduced in the Revisionist Western.",
+          "text": "Frontier Myth — The fabricated historical narrative of an arid, unpopulated Old West populated by pioneers, stagecoaches, and lawmen, designed to obscure true pre-reset history.",
           "isCorrect": false,
-          "rationale": "The Man with No Name is an amoral character of the later Spaghetti Western stage."
+          "rationale": "This pairing matches the report's definition of “Frontier Myth”."
         },
         {
           "label": "B",
-          "text": "Grey Hats are morally complex anti-hero characterizations introduced in secondary media stages.",
+          "text": "Revisionist Western — The phased, multi-generational deployment of artificial historical narratives and media programming used to construct a counterfeit past and guide public perception after a reset.",
           "isCorrect": true,
-          "rationale": "Those lawmen and anti-heroes bring psychological nuance and realism into false timelines."
+          "rationale": "That description belongs to “Story Stages”. The report defines “Revisionist Western” as: The second narrative stage that introduced vivid color palettes, morally ambiguous Grey Hat characters, and gritty violence to deepen matrix integration."
         },
         {
           "label": "C",
-          "text": "The Automated Courier stands for the morally complex figure of the Revisionist Western.",
+          "text": "Classical Western — The initial stage of post-reset narrative installation characterized by black-and-white cinematography, idealized moral tropes, and the invention of the frontier myth.",
           "isCorrect": false,
-          "rationale": "Automated delivery belongs to the easy-option lifestyle, not to the Grey Hat characters of the second stage."
+          "rationale": "This pairing matches the report's definition of “Classical Western”."
         },
         {
           "label": "D",
-          "text": "White Hats are the morally complex anti-heroes added during the color stage.",
+          "text": "Spaghetti Western — The third narrative stage produced by Italian directors that utilized operatic scores, extreme close-ups, and cynical characters to finalize the complete rewrite of American history.",
           "isCorrect": false,
-          "rationale": "White Hat vs. Black Hat dualism belongs to early media programming and its basic cognitive baselines."
+          "rationale": "This pairing matches the report's definition of “Spaghetti Western”."
         }
       ],
-      "hint": "Look for the term used for lawmen with morally compromised backstories.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "B"
     },
     {

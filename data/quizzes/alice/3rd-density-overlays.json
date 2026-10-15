@@ -453,35 +453,35 @@
     },
     {
       "number": 15,
-      "question": "What is the primary purpose of the 3rd-density simulation created by the Parasites?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Subjugation and loosh extraction.",
-          "isCorrect": true,
-          "rationale": "The simulation is a prison system designed to keep souls trapped and to harvest the energy known as loosh."
+          "text": "Overlays — Projected frequencies used to obscure and hide unmovable high-frequency architecture, augmenting the 3rd density perception of matter to present a false reality.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Overlays”."
         },
         {
           "label": "B",
-          "text": "Expansion of the Galactic Ancestral Alliance.",
+          "text": "Parasites — Hostile 4th-density entities, including Custodians, Anuk (Anunnaki), and Greys, responsible for inverting the realm and trapping souls.",
           "isCorrect": false,
-          "rationale": "The G.A.A. is the group reclaiming the system, not the creators of the parasitic simulation."
+          "rationale": "This pairing matches the report's definition of “Parasites”."
         },
         {
           "label": "C",
-          "text": "Testing the durability of UHF architecture.",
+          "text": "3rd Density — A heavily suppressed, low-frequency physical state of existence characterized by the illusion of linear time, memory erasure, and sensory limitations.",
           "isCorrect": false,
-          "rationale": "The architecture is indestructible; the simulation's purpose is control over the inhabitants."
+          "rationale": "This pairing matches the report's definition of “3rd Density”."
         },
         {
           "label": "D",
-          "text": "Technological evolution of the soul.",
-          "isCorrect": false,
-          "rationale": "The simulation inhibits evolution through memory erasure and frequency suppression."
+          "text": "Density Suppression — A technological sieve positioned inside the Firmament that projects the illusion of the cosmos, including stars and space debris.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Projection Dome”. The report defines “Density Suppression” as: A technological process utilizing Ultra Low Frequencies (ULF) to dampen areas, lowering their observable density so that high-frequency structures fade from the view of 3rd-density inhabitants."
         }
       ],
-      "hint": "Consider what a 'parasite' would want from its host.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 16,

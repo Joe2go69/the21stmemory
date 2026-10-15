@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What was the primary operational function designed for FEMA camps under the original managerial plan?",
+      "question": "True or False: According to the report, “FEMA Camps” refers to the strategic intervention of authorizing the bioweapon injection five years early to expose lethal outcomes prior to mandatory regulatory implementation.",
       "options": [
         {
           "label": "A",
-          "text": "Provide voluntary medical isolation facilities for citizens recovering from bioweapon exposure.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The facilities were established as mandatory containment units rather than voluntary recovery centers."
+          "rationale": "False — that description belongs to “Whitehat Chess Move”. The report defines “FEMA Camps” as: Mandatory containment facilities established to detain individuals who refused bioweapon injections until forced administration could be legally enforced."
         },
         {
           "label": "B",
-          "text": "Serve as permanent housing units for individuals refusing digital identification systems.",
-          "isCorrect": false,
-          "rationale": "The primary operational purpose centered specifically on vaccine resistance rather than digital identity systems."
-        },
-        {
-          "label": "C",
-          "text": "Execute immediate mandatory vaccination protocols upon initial detainment without administrative delay.",
-          "isCorrect": false,
-          "rationale": "Immediate forced execution was hindered until regulatory authorization timelines were officially satisfied."
-        },
-        {
-          "label": "D",
-          "text": "Detain individuals who refused bioweapon injections until forced administration could be legally enforced.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Once the statutory FDA clock expired detainees held within these camps were to undergo systematic forced vaccination."
+          "rationale": "Correct — that description belongs to “Whitehat Chess Move”, not “FEMA Camps”."
         }
       ],
-      "hint": "Consider the operational dependency on administrative regulatory timelines.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “FEMA Camps”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -530,35 +518,23 @@
     },
     {
       "number": 17,
-      "question": "How is the unvaccinated population defined?",
+      "question": "True or False: According to the report, “Unvaccinated” refers to the portion of the population that resisted taking the bioweapon injection, targeted for detention within containment facilities upon expiration of regulatory timelines.",
       "options": [
         {
           "label": "A",
-          "text": "Citizens who agreed to voluntary coercion but refused entry into designated containment facilities.",
-          "isCorrect": false,
-          "rationale": "The unvaccinated specifically resisted taking the injection itself, triggering containment plans."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Unvaccinated” this way."
         },
         {
           "label": "B",
-          "text": "Individuals who completed the six-year statutory window without experiencing adverse health outcomes.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The term describes those resisting the injection prior to statutory expiration."
-        },
-        {
-          "label": "C",
-          "text": "The portion of the population that resisted taking the bioweapon injection targeted for detention within containment facilities upon expiration of regulatory timelines.",
-          "isCorrect": true,
-          "rationale": "Millions of sovereign individuals would reject the COVID Bioweapon vaccine voluntarily and were housed until mandatory administration would be legally triggered."
-        },
-        {
-          "label": "D",
-          "text": "Patients held within facilities who awaited official FDA approval before receiving forced injections.",
-          "isCorrect": false,
-          "rationale": "They were targeted for detention due to initial refusal, not held as willing patients awaiting approval."
+          "rationale": "It is true — the report defines “Unvaccinated” as: The portion of the population that resisted taking the bioweapon injection, targeted for detention within containment facilities upon expiration of regulatory timelines."
         }
       ],
-      "hint": "Recall the definition based on resistance to bioweapon administration.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Unvaccinated”.",
+      "correctAnswer": "A"
     },
     {
       "number": 18,
@@ -594,34 +570,34 @@
     },
     {
       "number": 19,
-      "question": "What fundamental shift occurred regarding the operation of FEMA camps after the forced rollout mechanism failed?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The camps were immediately expanded to house individuals suffering from early injection side effects.",
+          "text": "Died Suddenly — The visible public phenomenon of widespread fatalities resulting from early bioweapon rollout, exposing injection lethality prior to full regulatory authorization.",
           "isCorrect": false,
-          "rationale": "Expansion did not occur and the strategic utility of the camps was dismantled."
+          "rationale": "This pairing matches the report's definition of “Died Suddenly”."
         },
         {
           "label": "B",
-          "text": "The facilities were integrated into international emergency management systems for public safety.",
+          "text": "FEMA Camps — Mandatory containment facilities established to detain individuals who refused bioweapon injections until forced administration could be legally enforced.",
           "isCorrect": false,
-          "rationale": "They were not integrated into standard public safety systems, but rendered non-viable for forced injection."
+          "rationale": "This pairing matches the report's definition of “FEMA Camps”."
         },
         {
           "label": "C",
-          "text": "The failure of the forced rollout mechanism isolated the facilities from their planned operational function.",
+          "text": "Unvaccinated — The required statutory six-year testing window mandated by law before the regulatory authority can lawfully approve and regulate a new medical injection.",
           "isCorrect": true,
-          "rationale": "That failure decoupled the physical containment apparatus from its intended regulatory triggering event."
+          "rationale": "That description belongs to “FDA Clock”. The report defines “Unvaccinated” as: The portion of the population that resisted taking the bioweapon injection, targeted for detention within containment facilities upon expiration of regulatory timelines."
         },
         {
           "label": "D",
-          "text": "Operational control of the facilities was transferred directly to FDA regulatory managers.",
+          "text": "Whitehat Chess Move — The strategic intervention of authorizing the bioweapon injection five years early to expose lethal outcomes prior to mandatory regulatory implementation.",
           "isCorrect": false,
-          "rationale": "Control was not transferred to regulatory managers and the forced vaccination scheme collapsed entirely."
+          "rationale": "This pairing matches the report's definition of “Whitehat Chess Move”."
         }
       ],
-      "hint": "Identify what happened to the connection between physical containment and regulatory mandates.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "C"
     },
     {
@@ -694,25 +670,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The Statutory FDA Clock Protocol.",
+          "text": "The Statutory FDA Clock Protocol, which caps emergency use timelines.",
           "isCorrect": false,
           "rationale": "The FDA clock is the administrative regulation timeline, not the international ethical framework."
         },
         {
           "label": "B",
-          "text": "The Whitehat Strategic Accord.",
+          "text": "The Whitehat Strategic Accord, which outlaws coercive health mandates.",
           "isCorrect": false,
           "rationale": "The Whitehat intervention was the tactical timeline acceleration, not the governing legal code."
         },
         {
           "label": "C",
-          "text": "The Nuremberg Code legally barred mandatory medical experimentation and blocked forced rollout schemes.",
+          "text": "The Nuremberg Code, which bars mandatory medical experimentation.",
           "isCorrect": true,
           "rationale": "Following public exposure of injection lethality the Nuremberg Code permanently halted the legal infrastructure required for forced administration."
         },
         {
           "label": "D",
-          "text": "The Emergency Containment Act.",
+          "text": "The Emergency Containment Act, which limits detention during outbreaks.",
           "isCorrect": false,
           "rationale": "This term does not represent the international ethical body invoked to block mandatory procedures."
         }

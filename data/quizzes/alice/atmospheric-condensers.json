@@ -310,25 +310,25 @@
       "options": [
         {
           "label": "A",
-          "text": "That all condensers should be smelted to protect coal markets.",
+          "text": "That the condensers on early locomotives should be removed and smelted, to protect the coal markets that funded the railways.",
           "isCorrect": false,
           "rationale": "That mandate came from the Consolidated Coal Company in 1887, not Crampton in 1875."
         },
         {
           "label": "B",
-          "text": "That condensers reduced passenger fares by 90% worldwide.",
+          "text": "That the condensers had cut passenger fares by as much as 90%, making rail travel affordable to working families worldwide.",
           "isCorrect": false,
           "rationale": "The cited finding is performance increases and coal reductions of 40-60%, not fare cuts."
         },
         {
           "label": "C",
-          "text": "Performance increases and coal reductions of 40-60% in \"Observations on Anomalous Steam Generation in Early Railway Locomotives.\".",
+          "text": "Performance increases and coal reductions of 40–60% in \"Observations on Anomalous Steam Generation in Early Railway Locomotives.\"",
           "isCorrect": true,
           "rationale": "In 1875 Crampton authored that work calculating 40-60% performance increases and coal reductions."
         },
         {
           "label": "D",
-          "text": "That Ley Lines were imaginary and trains needed more coal tenders.",
+          "text": "That the Ley Lines under the tracks were imaginary, and that the trains needed larger coal tenders to complete their routes.",
           "isCorrect": false,
           "rationale": "Crampton documented anomalous efficiency gains consistent with free-energy assistance."
         }
@@ -758,25 +758,25 @@
       "options": [
         {
           "label": "A",
-          "text": "It had no economic purpose and was only a religious reform.",
+          "text": "It served a religious reform rather than an economic one, since the Church objected to the harmonic domes on its buildings.",
           "isCorrect": false,
           "rationale": "Smelting was calculated forced financial dependency."
         },
         {
           "label": "B",
-          "text": "It increased Tartarian harmonic architecture in every city.",
+          "text": "It moved free energy into the hands of the cities, which then sold it on to households through new municipal power companies.",
           "isCorrect": false,
           "rationale": "Erasing Tartaria degraded aesthetic and technological expectations."
         },
         {
           "label": "C",
-          "text": "It made gold-backed currency unnecessary and abolished all banks.",
+          "text": "It made gold-backed currency unnecessary, since energy itself became the unit of exchange used by the banks after 1887.",
           "isCorrect": false,
           "rationale": "The result is deeper financial dependency, not the abolition of money systems."
         },
         {
           "label": "D",
-          "text": "It enforced artificial scarcity central to Finance and conditioned people to accept austere, toxic, profitable matrix constraints.",
+          "text": "It enforced the artificial scarcity central to Finance and conditioned people to accept austere, toxic, profitable constraints.",
           "isCorrect": true,
           "rationale": "Severing free-energy access enforced artificial scarcity central to Finance and degraded expectations so populations accepted the profitable societal matrix."
         }

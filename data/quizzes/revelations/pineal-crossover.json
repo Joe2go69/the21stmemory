@@ -82,34 +82,22 @@
     },
     {
       "number": 3,
-      "question": "How is the aether defined within the mechanics of the Pineal Crossover?",
+      "question": "True or False: According to the report, “Aether” refers to the quantum state in which subatomic particles exist simultaneously across all possible locations and states until acted upon by an observer or pineal interface.",
       "options": [
         {
           "label": "A",
-          "text": "The aether is an atmospheric layer of refined gases that carries telepathic signals from one incarnate vessel to another.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The aether is an energetic matrix and simulation software. It is not a layer of refined atmospheric gas."
+          "rationale": "False — that description belongs to “Linear Superposition”. The report defines “Aether” as: The natural, underlying energetic matrix and simulation software of a realm through which thought, intent, and wave-functions are rendered into material substance."
         },
         {
           "label": "B",
-          "text": "The aether is the natural underlying energetic matrix and simulation software through which thought and intent are rendered into material substance.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Thought, intent, and wave-functions are rendered into material substance through this underlying operating software of the realm."
-        },
-        {
-          "label": "C",
-          "text": "The aether is the empty vacuum that remains after all matter and radiation have been removed from a region of space.",
-          "isCorrect": false,
-          "rationale": "The aether holds potential physical configurations in unmanifested wave form. It is not an empty vacuum."
-        },
-        {
-          "label": "D",
-          "text": "The aether is a collection of subatomic particles already counted inside the standard model of particle physics.",
-          "isCorrect": false,
-          "rationale": "The aether is the medium through which wave-functions are rendered into material substance. It is not a pile of catalogued particles."
+          "rationale": "Correct — that description belongs to “Linear Superposition”, not “Aether”."
         }
       ],
-      "hint": "Focus on the underlying operating software through which thought becomes substance.",
+      "hint": "Recall how the report's Key Terminology defines “Aether”.",
       "correctAnswer": "B"
     },
     {
@@ -178,35 +166,23 @@
     },
     {
       "number": 6,
-      "question": "What is the primary objective of global water fluoridation?",
+      "question": "True or False: According to the report, “Water Fluoridation” refers to the built-in biological apparatus, centered in the pineal gland, that enables an incarnate entity to connect directly to a realm's aether for instant data downloading and telepathic communication.",
       "options": [
         {
           "label": "A",
-          "text": "Water fluoridation is the deliberate introduction of fluoride designed to calcify the pineal gland and suppress endogenous DMT production.",
-          "isCorrect": true,
-          "rationale": "Fluoride compounds build up within the pineal tissue, and this introduction of fluoride is designed to sever human telepathic connectivity."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Spiritual Hardware”. The report defines “Water Fluoridation” as: The deliberate introduction of fluoride into public water supplies designed to calcify the pineal gland, suppress endogenous DMT production, and sever human telepathic connectivity."
         },
         {
           "label": "B",
-          "text": "Water fluoridation strengthens dental enamel and prevents decay, and that dental outcome is its real objective.",
-          "isCorrect": false,
-          "rationale": "Dental health is the disguise of potable water initiatives. The objective is calcification that inhibits DMT synthesis."
-        },
-        {
-          "label": "C",
-          "text": "Water fluoridation is a sedative program that holds the population in a constant state of low-level depression.",
-          "isCorrect": false,
-          "rationale": "The stated objective is calcification of the pineal gland and suppression of endogenous DMT production, not a general sedative effect."
-        },
-        {
-          "label": "D",
-          "text": "Water fluoridation raises bodily conductivity so the vessel can interface more easily with wireless technology.",
-          "isCorrect": false,
-          "rationale": "Fluoride builds up within the pineal tissue and inhibits DMT synthesis. Conductivity for wireless gear is not the objective."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Spiritual Hardware”, not “Water Fluoridation”."
         }
       ],
-      "hint": "Identify the chemical process used to create a shell around the spiritual hardware.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Water Fluoridation”.",
+      "correctAnswer": "B"
     },
     {
       "number": 7,

@@ -86,25 +86,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Official evolution diagrams hung in every school cafeteria.",
+          "text": "Official evolution diagrams displayed in schools, used to show how humanity rose from primitive hunter-gatherers.",
           "isCorrect": false,
           "rationale": "Oopa's contradict evolution narrative and are sequestered, not celebrated as curriculum."
         },
         {
           "label": "B",
-          "text": "Only coal tickets issued by Railroad Magnates.",
+          "text": "Coal tickets issued by the Railroad Magnates, which recorded who was allowed to travel on the Orphan Trains.",
           "isCorrect": false,
           "rationale": "Railroad Magnates oversee mound cuts and cover-ups; Oopa's are anomalous advanced remnants."
         },
         {
           "label": "C",
-          "text": "Lunatic Asylum floor plans with no link to prior epochs.",
+          "text": "Lunatic Asylum floor plans that show how the old-world buildings were repurposed after the last reset.",
           "isCorrect": false,
           "rationale": "Asylums house post-reset traumatized survivors as Loosh batteries; Oopa's are pre-reset advanced evidence."
         },
         {
           "label": "D",
-          "text": "Blatant physical evidence and embarrassing technological or biological remnants from highly advanced pre-reset civilizations, deliberately hidden from public view.",
+          "text": "Physical evidence and technological or biological remnants of advanced pre-reset civilizations, hidden from public view.",
           "isCorrect": true,
           "rationale": "Oopa's are advanced pre-reset tech/biological remnants that embarrass the fake timeline and are deliberately hidden."
         }
@@ -150,25 +150,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A Tartarian free-energy museum celebrating Dark Ages truth.",
+          "text": "A Tartarian free-energy museum that celebrates the true history of the Dark Ages and displays the condensers that survived.",
           "isCorrect": false,
           "rationale": "It suppresses pre-reset truth; Tartaria was terminated and mislabeled Dark Ages."
         },
         {
           "label": "B",
-          "text": "The \"Vatican of Archaeology,\" founded and controlled by secret societies to aggressively confiscate, hide, and hoard physical anomalies like giant skeletons.",
+          "text": "The \"Vatican of Archaeology,\" controlled by secret societies to confiscate, hide, and hoard anomalies like giant skeletons.",
           "isCorrect": true,
           "rationale": "Smithsonian functions as secret-society \"Vatican of Archaeology\" — confiscating and hoarding giants and other anomalies."
         },
         {
           "label": "C",
-          "text": "Only a railroad company that lays tracks without archaeology.",
+          "text": "A railroad company that laid the transcontinental tracks and kept the land deeds of the burial mounds along the routes.",
           "isCorrect": false,
           "rationale": "Railroad Magnates cut mounds; Smithsonian runs confiscation and deep storage."
         },
         {
           "label": "D",
-          "text": "An independent public vault that free-releases every giant femur.",
+          "text": "An independent public vault that catalogues every giant femur and lends them to universities for open research.",
           "isCorrect": false,
           "rationale": "Evidence goes into sealed off-limits vaults — opposite of free public release."
         }
@@ -210,35 +210,23 @@
     },
     {
       "number": 7,
-      "question": "Who were the Railroad Magnates in the giant cover-up?",
+      "question": "True or False: According to the report, “Railroad Magnates” refers to high-ranking 33rd-degree Freemasons who controlled the post-reset expansion of coal and steam infrastructure, directly overseeing the unearthing and subsequent cover-up of giant burial mounds.",
       "options": [
         {
           "label": "A",
-          "text": "Independent farmers with no freemason rank or Smithsonian link.",
-          "isCorrect": false,
-          "rationale": "They were uniformly 33rd-degree freemasons working lockstep with the Smithsonian."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Railroad Magnates” this way."
         },
         {
           "label": "B",
-          "text": "Egyptian Anuk priests openly labeling every mound for tourists.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Anuk/Egyptian names appear in Grand Canyon cover-up context; railroad magnates are freemason industrial overseers of mound cuts."
-        },
-        {
-          "label": "C",
-          "text": "High-ranking 33rd-degree Freemasons controlling post-reset coal and steam expansion, directly overseeing unearthing and cover-up of giant burial mounds.",
-          "isCorrect": true,
-          "rationale": "Railroad Magnates were 33rd-degree freemasons who drove post-reset rail expansion and oversaw giant mound exposure and cover-up."
-        },
-        {
-          "label": "D",
-          "text": "Only Vatican tour guides with no American land cuts.",
-          "isCorrect": false,
-          "rationale": "They cut American land for tracks; Vatican-style secrecy is the vault model Smithsonian mirrors."
+          "rationale": "It is true — the report defines “Railroad Magnates” as: High-ranking 33rd-degree Freemasons who controlled the post-reset expansion of coal and steam infrastructure, directly overseeing the unearthing and subsequent cover-up of giant burial mounds."
         }
       ],
-      "hint": "33rd-degree freemasons — rail cuts, mound unearth, cover-up.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Railroad Magnates”.",
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -274,67 +262,55 @@
     },
     {
       "number": 9,
-      "question": "What is a Mudflood in reset mechanics?",
+      "question": "True or False: According to the report, “Mudflood” refers to A deeply embedded secret society functioning at the behest of parasitic overlords, responsible for rewriting history, executing resets, suppressing old-world technology, and monopolizing public knowledge.",
       "options": [
         {
           "label": "A",
-          "text": "Natural evolution of rivers inventing burial mounds slowly.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Burial of architecture is intentional reset weaponry, not slow natural evolution."
+          "rationale": "False — that description belongs to “Freemasons”. The report defines “Mudflood” as: The physical result of advanced extraterrestrial energy weapon technology used to trigger mass soil liquefaction, intentionally burying the lower levels of grand old-world architecture during a reset."
         },
         {
           "label": "B",
-          "text": "Only newspaper ink flooding microfiche rooms in the 1970s.",
-          "isCorrect": false,
-          "rationale": "Mudflood is physical landscape liquefaction; newspapers recorded giant finds before scrubbing."
-        },
-        {
-          "label": "C",
-          "text": "Mass soil liquefaction from advanced extraterrestrial energy weapons, intentionally burying lower levels of grand old-world architecture during a reset.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Mudflood is ET energy-weapon soil liquefaction used in resets to bury grand old-world architecture."
-        },
-        {
-          "label": "D",
-          "text": "Gentle rain that cleans giant bones for Smithsonian display.",
-          "isCorrect": false,
-          "rationale": "It is weaponized burial technology — not gentle museum cleaning rain."
+          "rationale": "Correct — that description belongs to “Freemasons”, not “Mudflood”."
         }
       ],
-      "hint": "ET energy weapons → soil liquefaction → bury old-world architecture.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Mudflood”.",
+      "correctAnswer": "B"
     },
     {
       "number": 10,
-      "question": "What was Tartaria / Great Tartary, and how was it labeled after termination?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only the Smithsonian's public wing for giant skeleton tourism.",
+          "text": "Oopa's (Out Of Place Artefacts) — Blatant physical evidence and embarrassing technological or biological remnants from highly advanced civilizations that existed prior to a recent reset, deliberately hidden from public view.",
           "isCorrect": false,
-          "rationale": "Smithsonian hides anomalies; Tartaria is the terminated advanced epoch."
+          "rationale": "This pairing matches the report's definition of “Oopa's (Out Of Place Artefacts)”."
         },
         {
           "label": "B",
-          "text": "A freemason invention that never had architecture or technology.",
-          "isCorrect": false,
-          "rationale": "It was real advanced civilization; freemasons suppress old-world tech and rewrite the aftermath."
+          "text": "Tartaria / Great Tartary — An institution functioning as the \"Vatican of Archaeology,\" founded and controlled by secret societies to aggressively confiscate, hide, and hoard physical anomalies like giant skeletons.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Smithsonian Institute”. The report defines “Tartaria / Great Tartary” as: A globally unified, highly advanced civilization of aesthetic and technological excellence that was abruptly terminated by a reset and falsely labeled as the \"Dark Ages\"."
         },
         {
           "label": "C",
-          "text": "A globally unified, highly advanced civilization of aesthetic and technological excellence abruptly terminated by a reset and falsely labeled the \"Dark Ages.\".",
-          "isCorrect": true,
-          "rationale": "Great Tartary was advanced global civilization killed by reset, then falsely branded as the Dark Ages."
+          "text": "NDA (Non Disclosure Agreement) — A coercive legal instrument heavily weaponized by authorities to silence civilians who accidentally discover anomalous remains, enforced through severe threats to life, property, and freedom.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “NDA (Non Disclosure Agreement)”."
         },
         {
           "label": "D",
-          "text": "A 1970s newspaper brand with no civilizational scale.",
+          "text": "Freemasons — A deeply embedded secret society functioning at the behest of parasitic overlords, responsible for rewriting history, executing resets, suppressing old-world technology, and monopolizing public knowledge.",
           "isCorrect": false,
-          "rationale": "Newspapers reported giant finds; Tartaria is the pre-reset global civilization itself."
+          "rationale": "This pairing matches the report's definition of “Freemasons”."
         }
       ],
-      "hint": "Advanced global civilization — reset, then fake \"Dark Ages\" label.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 11,
@@ -470,25 +446,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only Smithsonian press kits admitting all vault contents since 1900.",
+          "text": "Smithsonian press kits that openly admitted the vault contents and were mailed to universities after 1900.",
           "isCorrect": false,
           "rationale": "Smithsonian sequesters evidence; the surviving trail is early newspaper microfiche."
         },
         {
           "label": "B",
-          "text": "Live television from sub-basement vaults every decade.",
+          "text": "Television broadcasts filmed in the sub-basement vaults and aired once a decade on public channels.",
           "isCorrect": false,
           "rationale": "Vaults are strictly off-limits; newspapers were the leaked documentary trail."
         },
         {
           "label": "C",
-          "text": "Zero documents — no paper ever mentioned giants anywhere.",
+          "text": "A set of museum catalogues listing giant bones as ordinary mammoth remains collected by railroad crews.",
           "isCorrect": false,
           "rationale": "Explicit newspaper reports existed and were later scrubbed from mainstream channels."
         },
         {
           "label": "D",
-          "text": "Hundreds of early United States newspaper microfiche slides, stretching well into the 1970s, with explicit reports of giant discoveries before aggressive scrubbing from mainstream discourse.",
+          "text": "Hundreds of early United States newspaper microfiche slides, into the 1970s, explicitly reporting giant discoveries.",
           "isCorrect": true,
           "rationale": "Hundreds of U.S. newspaper microfiche reports into the 1970s documented giant finds before mainstream scrubbing."
         }
@@ -598,25 +574,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Because freemasons want more giants displayed to prove Darwin weekly.",
+          "text": "Freemasons display a few giants each year to support Darwin's theory, which raises questions the textbooks cannot answer.",
           "isCorrect": false,
           "rationale": "Freemasons rewrite history and suppress old-world evidence; they do not prove Darwin with vaulted giants."
         },
         {
           "label": "B",
-          "text": "Because Mudflood only creates new species of apes overnight.",
+          "text": "The Mudflood produced new species of apes overnight, which contradicts the slow process described in the textbooks.",
           "isCorrect": false,
           "rationale": "Mudflood buries architecture; giants demolish evolution rather than create new ape chapters."
         },
         {
           "label": "C",
-          "text": "Controllers cannot explain 35-meter skeletons or advanced fossilized texts in a story of apes evolving into modern humans on a spinning globe.",
+          "text": "Controllers cannot explain 35-meter skeletons or advanced fossilized texts within a story of apes evolving into modern humans.",
           "isCorrect": true,
           "rationale": "35m skeletons and advanced fossilized texts cannot fit ape-to-human globe evolution, so evidence is buried to block public awakening."
         },
         {
           "label": "D",
-          "text": "Because evolution already predicted 35-meter humans in every textbook.",
+          "text": "Evolution predicted 35-meter humans long ago, and the skeletons only confirm what the textbooks already teach.",
           "isCorrect": false,
           "rationale": "Official narrative cannot explain them — that is why suppression is required."
         }
@@ -662,25 +638,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only freemason scholars who openly taught Tartarian free energy.",
+          "text": "Freemason scholars who openly taught Tartarian free energy and rebuilt the old cities exactly as they had stood before.",
           "isCorrect": false,
           "rationale": "New populations were trained into false timeline ignorance — not open Tartarian truth."
         },
         {
           "label": "B",
-          "text": "Newly introduced populations heavily composed of mind-wiped NPC entities and cloned Orphans grown in underground facilities, trained to accept a completely false historical timeline.",
+          "text": "New populations of mind-wiped NPC entities and cloned Orphans grown underground, trained to accept a false historical timeline.",
           "isCorrect": true,
           "rationale": "Post-Tartary repopulation used mind-wiped NPCs and underground-grown cloned Orphans trained into false history while claiming surviving architecture."
         },
         {
           "label": "C",
-          "text": "Only giants rebuilt from Smithsonian vaults into living guides.",
+          "text": "Giants revived from Smithsonian vaults who returned to the surface as living guides for the remaining survivors.",
           "isCorrect": false,
           "rationale": "Giants remain vaulted evidence; repopulation is NPC/orphan insertion into false history."
         },
         {
           "label": "D",
-          "text": "Unaltered pre-reset adults with full generational memory intact.",
+          "text": "Unaltered pre-reset adults who kept their full generational memory and passed the true history to their children.",
           "isCorrect": false,
           "rationale": "Adults and memory keepers were targeted; WW1 later culled remaining 15—55 memory holders."
         }
@@ -726,25 +702,25 @@
       "options": [
         {
           "label": "A",
-          "text": "To cull remaining population aged 15 to 55 who still held generational memory of the pre-reset world, natural medicine, and the true shape of the earth.",
+          "text": "To cull the remaining population aged 15 to 55 who still held memory of the pre-reset world, natural medicine, and the earth's true shape.",
           "isCorrect": true,
           "rationale": "WW1 culled ages 15—55 still carrying pre-reset memory, natural medicine knowledge, and true Earth shape — protecting imposed ignorance."
         },
         {
           "label": "B",
-          "text": "To celebrate Mudflood as a natural weather festival only.",
+          "text": "To distract the public from the Mudflood clean-up, keeping attention on the front lines while the buried cities were quietly excavated.",
           "isCorrect": false,
           "rationale": "WW1 is orchestrated culling of memory keepers, not a weather festival."
         },
         {
           "label": "C",
-          "text": "To protect home-school flat-earth teachers and expand herbal colleges.",
+          "text": "To protect home-schooling flat-earth teachers from persecution and to expand the herbal colleges that survived the last reset.",
           "isCorrect": false,
           "rationale": "It targeted those memory keepers for eradication — not protection."
         },
         {
           "label": "D",
-          "text": "To force Smithsonian vaults open for public giant tourism.",
+          "text": "To force the Smithsonian to open its vaults, since the war created demand for public exhibitions about ancient giants and warriors.",
           "isCorrect": false,
           "rationale": "War cemented cover-up of prior civilization — not vault tourism."
         }
@@ -758,25 +734,25 @@
       "options": [
         {
           "label": "A",
-          "text": "It proves NDAs were never used on any civilian discoverer.",
+          "text": "It proves that NDAs were never needed for civilian discoverers, which undermines trust in the official museums.",
           "isCorrect": false,
           "rationale": "NDAs and threats are core to suppression; acknowledgment undoes the knowledge cage."
         },
         {
           "label": "B",
-          "text": "It strengthens evolution textbooks and makes populations more docile.",
+          "text": "It reinforces the evolution story by showing larger ancestors, which makes the population more docile and trusting.",
           "isCorrect": false,
           "rationale": "Controllers need linear-progress illusion for docility; giant truth ends that illusion."
         },
         {
           "label": "C",
-          "text": "It only affects railroad stock prices with no spiritual impact.",
+          "text": "It drives down railroad and mining stock prices, since many of the discoveries were made on company-owned land.",
           "isCorrect": false,
           "rationale": "Impact is psychological/spiritual control collapse via Perceived Knowledge breakage."
         },
         {
           "label": "D",
-          "text": "It shatters the Perceived Knowledge string; if humanity saw history as cycles of violent resets, the entire psychological and societal control grid would collapse.",
+          "text": "It shatters the Perceived Knowledge string; seeing history as cycles of violent resets would collapse the control grid.",
           "isCorrect": true,
           "rationale": "Giant truth breaks Perceived Knowledge. Seeing history as violent reset cycles collapses the psychological and societal control grid."
         }

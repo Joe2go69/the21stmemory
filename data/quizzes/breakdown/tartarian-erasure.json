@@ -114,35 +114,35 @@
     },
     {
       "number": 4,
-      "question": "What is the energetic function of Loosh during a Ritual Frequency Event?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It is the raw emotional energy of fear and trauma harvested to power and seal artificial overlays.",
-          "isCorrect": true,
-          "rationale": "The panic generated during staged disasters is inverted to stabilize the grid lock and maintain the low-vibrational system."
+          "text": "Historic Resets — Coordinated, artificially engineered catastrophic events on the surface plane, utilized as cover stories and alchemical transmutations to rewrite historical timelines and harvest collective energy.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Historic Resets”."
         },
         {
           "label": "B",
-          "text": "It is a byproduct of the pineal gland that enhances astral travel during periods of mass meditation.",
+          "text": "Ritual Frequency Event — A highly synchronized public disaster coded with specific numerical signatures designed to capture mass attention and transmute emotional energy into a stabilizing grid lock.",
           "isCorrect": false,
-          "rationale": "Loosh is harvested by the parasitic system to prevent such spiritual advancements, rather than being a byproduct of them."
+          "rationale": "This pairing matches the report's definition of “Ritual Frequency Event”."
         },
         {
           "label": "C",
-          "text": "It acts as a cleaning agent that purifies the atmosphere after a major physical catastrophe or fire.",
-          "isCorrect": false,
-          "rationale": "Loosh is not a physical cleaning agent; it is emotional energy harvested for the purpose of maintaining control."
+          "text": "Frequency Bricks — The raw emotional energy of fear, panic, and trauma harvested from the human population during catastrophes, which is inverted to power and seal artificial overlays.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Loosh”. The report defines “Frequency Bricks” as: Crystalline red bricks and granite blocks engineered as active conductors to carry electromagnetic, sound, and light currents throughout the realm."
         },
         {
           "label": "D",
-          "text": "It serves as a fuel source for ancient Tartarian airships that operated on the principle of human empathy.",
+          "text": "Real Sol Architecture — Advanced, geometric structures built in alignment with cosmic resonance, using active crystalline materials to amplify and distribute sound and light currents.",
           "isCorrect": false,
-          "rationale": "Loosh is negative emotional energy like fear and panic, not positive empathy for propulsion."
+          "rationale": "This pairing matches the report's definition of “Real Sol Architecture”."
         }
       ],
-      "hint": "Focus on the emotional harvest that occurs during moments of mass panic and tragedy.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 5,

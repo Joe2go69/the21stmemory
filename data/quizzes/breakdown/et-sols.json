@@ -18,66 +18,54 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary mandate of ET Sols during their incarnation in the physical simulated realm?",
+      "question": "True or False: According to the report, “ET Sols” refers to high-frequency conscious entities originating from advanced stellar lineages who incarnated into physical vessels to catalyze the awakening of the realm.",
       "options": [
         {
           "label": "A",
-          "text": "To provide emotional support and healing to the non-sentient background programs.",
-          "isCorrect": false,
-          "rationale": "NPCs are non-sentient scaffolding without individual soul sparks. The rescue focuses on true human souls, not NPC programs."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “ET Sols” this way."
         },
         {
           "label": "B",
-          "text": "To gather experimental data on the evolution of biological vessels in high-density environments.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The incarnation is a rescue and awakening mission, not a passive scientific observation of biological evolution."
-        },
-        {
-          "label": "C",
-          "text": "To act as frequency anchors that shatter parasitic systems and guide human sparks home.",
-          "isCorrect": true,
-          "rationale": "ET Sols volunteer as frequency anchors, shattering the artificial parasitic systems and guiding true human sparks back to their original spiritual home."
-        },
-        {
-          "label": "D",
-          "text": "To repair the structural integrity of the simulation and prevent the dissolution of the grid.",
-          "isCorrect": false,
-          "rationale": "The mandate is rescue and awakening, not preserving or repairing the artificial simulated environment."
+          "rationale": "It is true — the report defines “ET Sols” as: High-frequency conscious entities originating from advanced stellar lineages who incarnated into physical vessels to catalyze the awakening of the realm."
         }
       ],
-      "hint": "Consider the distinction between maintaining the current system and executing a rescue mission for true consciousness.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “ET Sols”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
-      "question": "How do ET Sols differ from the native human souls caught within the physical matrix?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "They are the original architects of the simulation who entered to perform routine maintenance.",
+          "text": "NPCs — Non-Player Characters; non-sentient background programs and light fragments that hold the simulation's structure together but lack a true individual soul spark.",
           "isCorrect": false,
-          "rationale": "ET Sols are volunteers from off-world lineages executing a rescue, not the creators of the parasitic structures holding human souls."
+          "rationale": "This pairing matches the report's definition of “NPCs”."
         },
         {
           "label": "B",
-          "text": "They have entirely bypassed the experience of amnesia since their initial arrival.",
+          "text": "Dormant-Active State — An energetic phase where an ET Sol's codes are actively listening to environmental signals but have not yet shifted to full broadcast mode.",
           "isCorrect": false,
-          "rationale": "ET Sols may suffer localized amnesia in 3D. Their distinction is the ability to pull memory from unaltered records outside the containment system."
+          "rationale": "This pairing matches the report's definition of “Dormant-Active State”."
         },
         {
           "label": "C",
-          "text": "They possess physical immortality within the 3D vessels they currently inhabit.",
+          "text": "Homecoming Path — The direct, sanctuary-bypassing exit route back to original stellar home realms utilized by fully awakened ET Sols upon frequency stabilization.",
           "isCorrect": false,
-          "rationale": "They interact through temporary avatar suits. Physical immortality of the 3D vessel is not their distinguishing trait."
+          "rationale": "This pairing matches the report's definition of “Homecoming Path”."
         },
         {
           "label": "D",
-          "text": "They originate from advanced stellar lineages and possess pre-encoded energetic triggers.",
+          "text": "Human Souls — An individual protection field and knowledge-collection system that allows ET Sols to project and move their amplified essence directly between realms.",
           "isCorrect": true,
-          "rationale": "ET Sols are high-frequency beings of advanced stellar lineages who incarnated with pre-encoded energetic triggers, whereas human souls are divine sparks caught, inverted, and looped by the matrix."
+          "rationale": "That description belongs to “Essence Chamber”. The report defines “Human Souls” as: Divine sparks of light that became caught, inverted, and looped by parasitic structures within the physical matrix, serving as the primary focus of the ET Sol rescue mission."
         }
       ],
-      "hint": "Focus on the specific origin and the specialized equipment they carry within their energetic fields.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "D"
     },
     {
@@ -146,35 +134,23 @@
     },
     {
       "number": 5,
-      "question": "What is the function of the Embedded Codes within an ET Sol's vessel?",
+      "question": "True or False: According to the report, “Embedded Codes” refers to dormant vibrational templates implanted into the souls of ET Sols by their solar parents, matching the codes of human souls to trigger mutual awakening.",
       "options": [
         {
           "label": "A",
-          "text": "They serve as a GPS system to locate the physical location of the hidden Vatican libraries.",
-          "isCorrect": false,
-          "rationale": "ET Sols pull memory from unaltered records outside the containment system. The codes themselves are mutual-awakening templates, not a Vatican locator."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Embedded Codes” this way."
         },
         {
           "label": "B",
-          "text": "They provide a protective cloak that makes the ET Sol invisible to parasitic entities.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The codes are for activation and resonance. Protection and transit are handled by the essence chamber, not by a cloak of invisibility."
-        },
-        {
-          "label": "C",
-          "text": "They act as vibrational templates that trigger mutual awakening in human souls.",
-          "isCorrect": true,
-          "rationale": "Embedded Codes are dormant vibrational templates implanted by solar parents, matching the codes of human souls to trigger mutual awakening."
-        },
-        {
-          "label": "D",
-          "text": "They record the biological history of the host family for later stellar analysis.",
-          "isCorrect": false,
-          "rationale": "The codes are forward-looking triggers for awakening, not passive genetic data-collection tools."
+          "rationale": "It is true — the report defines “Embedded Codes” as: Dormant vibrational templates implanted into the souls of ET Sols by their solar parents, matching the codes of human souls to trigger mutual awakening."
         }
       ],
-      "hint": "Think about how the ET Sols interact with the human souls they are here to rescue.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Embedded Codes”.",
+      "correctAnswer": "A"
     },
     {
       "number": 6,

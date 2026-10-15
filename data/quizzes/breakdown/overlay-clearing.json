@@ -50,66 +50,54 @@
     },
     {
       "number": 2,
-      "question": "How does the parasitic overlay manipulate human perception of the Crystal Halls?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It projects a low-frequency holographical field that tricks the sensory nervous system into seeing dead matter.",
-          "isCorrect": true,
-          "rationale": "The parasitic overlay is a frequency-based sensory illusion projected over the true fabric of the realm, designed to trick the nervous system into perceiving living crystal as dead stone, brick, concrete, or dirt."
+          "text": "Crystal Halls — Mental and energetic healing temples composed of living crystal walls, breathing columns of light, and humming slabs, historically camouflaged in 3D perception as cathedrals, abbeys, and churches.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Crystal Halls”."
         },
         {
           "label": "B",
-          "text": "It forces every nearby soul into deep sleep so no one can physically walk into the temple grounds.",
+          "text": "Overlay Clearing — The systematic dissolution of artificial, low-frequency holographical projection fields, restoring the pristine, underlying crystalline reality.",
           "isCorrect": false,
-          "rationale": "The overlay does not block entry. Souls enter the halls; the camouflage hides the living crystal until the clearing begins."
+          "rationale": "This pairing matches the report's definition of “Overlay Clearing”."
         },
         {
           "label": "C",
-          "text": "It uses physical cloaking hardware to bury the entire structure underground and keep it out of sight.",
-          "isCorrect": false,
-          "rationale": "The halls stand in plain view as cathedrals and abbeys. The cloak is sensory, not a physical burial of the building."
+          "text": "Parasitic Overlay — The natural, energetic state of the soul as a ball of electricity prior to or during its integration with a physical vessel.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Conscious Orbs”. The report defines “Parasitic Overlay” as: A frequency-based sensory illusion projected over the true fabric of the realm, designed to trick the nervous system into perceiving living crystal as dead matter like concrete, brick, or dirt."
         },
         {
           "label": "D",
-          "text": "It raises a psychic barrier that only ordained religious practitioners are allowed to pass through at all.",
+          "text": "Light Body Grid — The foundational energetic circuit template of the soul which is realigned and restored to its original creation-level frequency during healing.",
           "isCorrect": false,
-          "rationale": "These are pre-existing healing chambers. Religious devotion is a later co-option narrative, not a gatekeeping requirement for entry."
+          "rationale": "This pairing matches the report's definition of “Light Body Grid”."
         }
       ],
-      "hint": "The mechanism targets the sensory nervous system, not a physical burial of the building.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 3,
-      "question": "In what form does a soul exist while undergoing clearing on the crystal slabs?",
+      "question": "True or False: According to the report, “Crystal Slabs” refers to artificial thoughts, low-frequency neurological programming, and cognitive distortions broadcast into the mind to disrupt sovereignty.",
       "options": [
         {
           "label": "A",
-          "text": "A translucent physical vessel standing upright on the slab while the flesh body stays fully engaged.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The soul shifts out of the physical vessel into the crystalline body self. It does not remain as standing flesh on the slab."
+          "rationale": "False — that description belongs to “Parasite Whispers”. The report defines “Crystal Slabs” as: Highly advanced, humming quartz-like platforms within the temples used to transmit targeted harmonic frequencies into hovering souls."
         },
         {
           "label": "B",
-          "text": "A conscious orb of electricity hovering above the slab in the crystalline body self.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Human and starseed souls shift into their crystalline body selves and function as conscious orbs of electricity, hovering above massive crystal slabs."
-        },
-        {
-          "label": "C",
-          "text": "A flat geometric pattern of light pressed into the floor so the slab can scan it like a static diagram.",
-          "isCorrect": false,
-          "rationale": "The light body grid has circuit structure, but the soul itself is a conscious orb of electricity hovering above the slab."
-        },
-        {
-          "label": "D",
-          "text": "A stream of liquid sound flowing through the heart, the same medium used in Water Dome pools.",
-          "isCorrect": false,
-          "rationale": "Liquid sound belongs to Water Dome pools that mend the heart. On the slabs the soul is a hovering conscious orb of electricity."
+          "rationale": "Correct — that description belongs to “Parasite Whispers”, not “Crystal Slabs”."
         }
       ],
-      "hint": "Think of a hovering ball of electricity in the crystalline body self.",
+      "hint": "Recall how the report's Key Terminology defines “Crystal Slabs”.",
       "correctAnswer": "B"
     },
     {
@@ -370,35 +358,23 @@
     },
     {
       "number": 12,
-      "question": "What are Parasite Whispers?",
+      "question": "True or False: According to the report, “Parasite Whispers” refers to highly advanced, humming quartz-like platforms within the temples used to transmit targeted harmonic frequencies into hovering souls.",
       "options": [
         {
           "label": "A",
-          "text": "The deep healing hum of the crystal slabs, mistaken for parasitic interference because that continuous tone never stops.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The slab hum restores the original undistorted signature. Parasite whispers are artificial broadcasts, not the temple's healing tone."
+          "rationale": "False — that description belongs to “Crystal Slabs”. The report defines “Parasite Whispers” as: Artificial thoughts, low-frequency neurological programming, and cognitive distortions broadcast into the mind to disrupt sovereignty."
         },
         {
           "label": "B",
-          "text": "The collective memory of humanity as it floods back during the Event Cycle and the later EBS truth broadcasts.",
-          "isCorrect": false,
-          "rationale": "Whispers are artificial and disruptive. Authentic memory streams are restored from galactic libraries, not from parasitic broadcasts."
-        },
-        {
-          "label": "C",
-          "text": "Artificial thoughts, low-frequency neurological programming, and cognitive distortions broadcast into the mind.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Parasite Whispers are artificial thoughts, low-frequency neurological programming, and cognitive distortions broadcast into the mind to disrupt sovereignty. Clearing silences that noise and the NPC programming that prompts fear, guilt, anger, or despair."
-        },
-        {
-          "label": "D",
-          "text": "Telepathic guidance from the Lyran architect-builders, sent as a quiet stream that steers every clearing session.",
-          "isCorrect": false,
-          "rationale": "Lyran builders anchored the temples long before the invasion. Parasite whispers are low-frequency control noise, not builder guidance."
+          "rationale": "Correct — that description belongs to “Crystal Slabs”, not “Parasite Whispers”."
         }
       ],
-      "hint": "They are broadcast noise meant to disrupt sovereignty, not the slab's healing hum.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Parasite Whispers”.",
+      "correctAnswer": "B"
     },
     {
       "number": 13,

@@ -82,67 +82,55 @@
     },
     {
       "number": 3,
-      "question": "What constitutes the One Billion Baseline statistical figure?",
+      "question": "True or False: According to the report, “One Billion Baseline” refers to the baseline statistical tally of approximately 800 million to 1.01 billion human lives harvested through created wars, disasters, and infectious diseases over a 400-year period.",
       "options": [
         {
           "label": "A",
-          "text": "The One Billion Baseline is the baseline statistical tally of approximately 800 million to 1.01 billion human lives harvested through created wars.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "The baseline statistical tally counts human lives harvested through created wars disasters and infectious diseases over a 400-year period."
+          "rationale": "True — the report defines “One Billion Baseline” this way."
         },
         {
           "label": "B",
-          "text": "The One Billion Baseline is the combined global population loss resulting only from 20th-century pandemic outbreaks.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Pathogens are one category inside a broader tally that also includes wars disasters and infectious diseases."
-        },
-        {
-          "label": "C",
-          "text": "The One Billion Baseline is the exact total of soldiers killed in global armed conflicts over the last century.",
-          "isCorrect": false,
-          "rationale": "Military casualties are the smaller major-wars category rather than the full baseline tally."
-        },
-        {
-          "label": "D",
-          "text": "The One Billion Baseline is the estimated global population target established after the seven anatomical downsizings.",
-          "isCorrect": false,
-          "rationale": "The figure is a mortality tally of harvested lives over a 400-year period rather than a population cap."
+          "rationale": "It is true — the report defines “One Billion Baseline” as: The baseline statistical tally of approximately 800 million to 1.01 billion human lives harvested through created wars, disasters, and infectious diseases over a 400-year period."
         }
       ],
-      "hint": "Look at the tally of lives harvested through created wars disasters and infectious diseases.",
+      "hint": "Recall how the report's Key Terminology defines “One Billion Baseline”.",
       "correctAnswer": "A"
     },
     {
       "number": 4,
-      "question": "How does the 3.2 Billion Accounting expand upon the baseline harvest tally?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It expands the baseline by projecting future population liquidation totals expected over the next four centuries.",
-          "isCorrect": false,
-          "rationale": "The expanded accounting combines historical disaster mortality with abductions and sacrifices rather than future projections."
+          "text": "Harvest Toll — An obsolete vestigial organ retained from Tartarian human anatomy, intentionally left inside downsized vessels because its fatal inflammation (appendicitis) acts as an unprompted mortality trigger if ignored.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Appendix”. The report defines “Harvest Toll” as: The cumulative mortality figures resulting from artificial wars, plagues, famines, and climate anomalies utilized for custodial extraction."
         },
         {
           "label": "B",
-          "text": "It expands the baseline by adding deaths from modern industrial accidents and iatrogenic medical treatments.",
+          "text": "One Billion Baseline — The baseline statistical tally of approximately 800 million to 1.01 billion human lives harvested through created wars, disasters, and infectious diseases over a 400-year period.",
           "isCorrect": false,
-          "rationale": "Iatrogenic death is named as a medical outcome and is not the addition that raises the tally to 3.2 billion."
+          "rationale": "This pairing matches the report's definition of “One Billion Baseline”."
         },
         {
           "label": "C",
-          "text": "It expands the baseline by including non-fatal injuries and physical casualties sustained during major regional wars.",
+          "text": "3.2 Billion Accounting — The expanded multi-category harvest tally that combines baseline disaster mortality with systemic child abductions and underground sacrifices over a 410-year timeline.",
           "isCorrect": false,
-          "rationale": "The accounting counts harvested lives and sacrifices rather than non-lethal injuries."
+          "rationale": "This pairing matches the report's definition of “3.2 Billion Accounting”."
         },
         {
           "label": "D",
-          "text": "It expands the baseline through a tally that combines baseline disaster mortality with systemic child abductions and underground sacrifices.",
-          "isCorrect": true,
-          "rationale": "The expanded tally combines baseline disaster mortality with systemic child abductions and underground sacrifices over a 410-year timeline."
+          "text": "Major Wars and Genocides Toll — The specific harvest toll category comprising industrialized military conflicts and state-led slaughters, totaling 150 to 215 million casualties.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Major Wars and Genocides Toll”."
         }
       ],
-      "hint": "Recall which added categories contribute the extra human units beyond disaster mortality.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 5,
@@ -178,35 +166,23 @@
     },
     {
       "number": 6,
-      "question": "What is the biological origin of the human appendix?",
+      "question": "True or False: According to the report, “Appendix” refers to the baseline statistical tally of approximately 800 million to 1.01 billion human lives harvested through created wars, disasters, and infectious diseases over a 400-year period.",
       "options": [
         {
           "label": "A",
-          "text": "The appendix is an obsolete vestigial organ retained from Tartarian human anatomy.",
-          "isCorrect": true,
-          "rationale": "The appendix is an obsolete vestigial organ retained from Tartarian human anatomy and left inside downsized vessels."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “One Billion Baseline”. The report defines “Appendix” as: An obsolete vestigial organ retained from Tartarian human anatomy, intentionally left inside downsized vessels because its fatal inflammation (appendicitis) acts as an unprompted mortality trigger if ignored."
         },
         {
           "label": "B",
-          "text": "The appendix is a newly mutated biological structure caused by exposure to modern bioweapons.",
-          "isCorrect": false,
-          "rationale": "The appendix comes from Tartarian human anatomy and was retained through the genetic downsizings."
-        },
-        {
-          "label": "C",
-          "text": "The appendix is an evolutionary adaptation engineered specifically for processing modern processed foods.",
-          "isCorrect": false,
-          "rationale": "The appendix is not a random evolutionary leftover intended for digesting fecal matter."
-        },
-        {
-          "label": "D",
-          "text": "The appendix is an essential lymph gland designed to eliminate heavy metal toxicity from the vessel.",
-          "isCorrect": false,
-          "rationale": "The appendix is retained as a fatal anatomical vulnerability rather than as a protective gland."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “One Billion Baseline”, not “Appendix”."
         }
       ],
-      "hint": "Think about the older anatomical structure retained inside downsized human bodies.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Appendix”.",
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -438,25 +414,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Organ harvesting operates alongside adrenochrome extraction and loosh siphoning while physical organs and fluid adrenochrome are harvested and terror radiates as Very Low Frequency loosh to power custodial technology.",
+          "text": "Organ harvesting, adrenochrome extraction, and loosh siphoning.",
           "isCorrect": true,
           "rationale": "Organ harvesting operates alongside adrenochrome extraction and loosh siphoning and the terror radiates as Very Low Frequency loosh to power custodial technology."
         },
         {
           "label": "B",
-          "text": "The triad is stem cells cloned vessels and Tartarian architectural blueprints.",
+          "text": "Stem cells, cloned vessels, and Tartarian architectural blueprints.",
           "isCorrect": false,
           "rationale": "Stem cells and clones belong to underground processing rather than to the commodity triad."
         },
         {
           "label": "C",
-          "text": "The triad is iatrogenic mortality biological landmines and synthetic bioweapons.",
+          "text": "Iatrogenic mortality, biological landmines, and synthetic bioweapons.",
           "isCorrect": false,
           "rationale": "Those are methods and hazards while the commodities are organs adrenochrome and loosh."
         },
         {
           "label": "D",
-          "text": "The triad is aetheric hardware 9-strand DNA and Tartarian biological components.",
+          "text": "Aetheric hardware, 9-strand DNA, and Tartarian biological components.",
           "isCorrect": false,
           "rationale": "Those describe anatomy that was stripped or retained and the commodities are organs adrenochrome and loosh."
         }
@@ -598,25 +574,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Legitimate emergency care completely prevents custodial entities from accessing surface organ extractions.",
+          "text": "Legitimate emergency care prevents custodial entities from reaching surface organ extractions in most hospitals.",
           "isCorrect": false,
           "rationale": "The presence of genuine trauma care provides a credibility shield inside the harvest structure."
         },
         {
           "label": "B",
-          "text": "Emergency personnel and trauma surgeons perform genuine life-saving procedures and their presence provides a credibility shield for a medical system where iatrogenic death is a leading cause of mortality in the industrialized world.",
+          "text": "Genuine life-saving procedures give a credibility shield to a system in which iatrogenic death is a leading cause of mortality.",
           "isCorrect": true,
           "rationale": "Emergency personnel and trauma surgeons perform genuine life-saving procedures and their presence provides a credibility shield where iatrogenic death is prominent."
         },
         {
           "label": "C",
-          "text": "Legitimate emergency care is the primary mechanism for siphoning Very Low Frequency loosh energy.",
+          "text": "Legitimate emergency care is the main mechanism for siphoning Very Low Frequency loosh energy from patients.",
           "isCorrect": false,
           "rationale": "Loosh radiates from terror and pain during harvest events and emergency care supplies the credibility shield."
         },
         {
           "label": "D",
-          "text": "Legitimate emergency care reverses the seven post-Flood genetic downsizings in acute care patients.",
+          "text": "Legitimate emergency care reverses the seven post-Flood genetic downsizings in patients receiving acute care.",
           "isCorrect": false,
           "rationale": "Emergency care does not undo the seven distinct genetic downsizings."
         }
@@ -630,25 +606,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Iatrogenic death is systemic vessel death caused by exposure to VLF energy fields.",
+          "text": "Death caused by long exposure to VLF energy fields.",
           "isCorrect": false,
           "rationale": "VLF loosh is an emission from terror and pain and iatrogenic death is death caused by medical treatment or intervention."
         },
         {
           "label": "B",
-          "text": "Iatrogenic death is fatal biological rupture caused strictly by Tartarian organ decay.",
+          "text": "Death caused by inherited Tartarian organ decay.",
           "isCorrect": false,
           "rationale": "Appendix rupture is a retained hazard and iatrogenic death is death caused by medical treatment or intervention."
         },
         {
           "label": "C",
-          "text": "Iatrogenic death is death caused by medical treatment or intervention inside a medical system where iatrogenic death stands as a leading cause of mortality in the industrialized world.",
+          "text": "Death caused by medical treatment or intervention.",
           "isCorrect": true,
           "rationale": "Iatrogenic death is death caused by medical treatment or intervention and it stands as a leading cause of mortality in the industrialized world."
         },
         {
           "label": "D",
-          "text": "Iatrogenic death is death resulting from geo-engineered climate cold snaps.",
+          "text": "Death caused by geo-engineered climate cold snaps.",
           "isCorrect": false,
           "rationale": "Cold snaps belong to climate anomalies and iatrogenic death is death caused by medical treatment or intervention."
         }

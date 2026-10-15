@@ -50,35 +50,23 @@
     },
     {
       "number": 2,
-      "question": "Why was quartz specifically selected as the material for the implanted conductors?",
+      "question": "True or False: According to the report, “Implanted Conductors” refers to the advanced technology utilized by positive forces to secure the timeline and execute the time-travel operations required for physical crystal implantation.",
       "options": [
         {
           "label": "A",
-          "text": "Its abundance in the earth's crust makes it the most cost-effective material for global deployment.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The selection is based on the mineral's specific electromagnetic and memory-holding properties rather than economic availability or abundance."
+          "rationale": "False — that description belongs to “Project Looking Glass”. The report defines “Implanted Conductors” as: Highly specialized quartz crystals embedded subterranean across the 3rd realm to act as memory-holding nodes and electromagnetic transmitters."
         },
         {
           "label": "B",
-          "text": "Its ability to reflect artificial satellite signals and block negative frequency transmissions.",
-          "isCorrect": false,
-          "rationale": "Quartz is used to conduct and distribute positive cosmic frequencies and memory rather than acting as a passive shield or reflector."
-        },
-        {
-          "label": "C",
-          "text": "Its unique structural capacity to hold, preserve, and organize complex memory datasets over time.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Quartz is classified as advanced memory tech due to its ability to store positive elements and high-frequency memory without degradation."
-        },
-        {
-          "label": "D",
-          "text": "Its high heat resistance allows it to remain intact during the intense heat of the initial solar flash.",
-          "isCorrect": false,
-          "rationale": "The primary criteria involve frequency conduction and memory storage rather than simple thermal durability against solar heat."
+          "rationale": "Correct — that description belongs to “Project Looking Glass”, not “Implanted Conductors”."
         }
       ],
-      "hint": "Consider the classification of this mineral as a medium similar to water or plasma for data retention.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Implanted Conductors”.",
+      "correctAnswer": "B"
     },
     {
       "number": 3,
@@ -710,35 +698,35 @@
     },
     {
       "number": 23,
-      "question": "Which specific groups are credited with the positive acquisition of Project Looking Glass?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The Galactic Ancestral Alliance and the Andromedan High Council exclusively.",
+          "text": "Time Travel Preparation — The strategic intervention of jumping forward in time to embed conductors in the future earth, then returning to the current moment to allow the ascension process to unfold naturally.",
           "isCorrect": false,
-          "rationale": "While these groups are involved in the process, Pleiadians and ground allies utilized Looking Glass for the implantation."
+          "rationale": "This pairing matches the report's definition of “Time Travel Preparation”."
         },
         {
           "label": "B",
-          "text": "An independent group of time travelers who operate outside of the ET collectives.",
-          "isCorrect": false,
-          "rationale": "The operation was a coordinated effort by established positive forces and their specific ground allies."
+          "text": "Project Looking Glass — The highly stable electromagnetic pulse network formed when emerged quartz crystals interconnect across the entire realm to prevent any soul leakage and secure the ascension window.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “EMP Grid”. The report defines “Project Looking Glass” as: The advanced technology utilized by positive forces to secure the timeline and execute the time-travel operations required for physical crystal implantation."
         },
         {
           "label": "C",
-          "text": "Positive forces including Pleiadians and specialized ground allies.",
-          "isCorrect": true,
-          "rationale": "Securing this technology was essential to bypass hostile control and execute the temporal implantation."
+          "text": "Aether Activation — The energetic reaction between newly generated positive aether frequencies and the emerged quartz crystals, forming a plasma-crystalline field that opens the primary ascension portal.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Aether Activation”."
         },
         {
           "label": "D",
-          "text": "A coalition of defected negative entities and human whistleblowers.",
+          "text": "Ground Placement — The systematic process of embedding advanced quartz crystal conductors deep within the Earth using time-travel interventions to prepare the planetary sphere for the ascension timeline.",
           "isCorrect": false,
-          "rationale": "The operation was led by positive forces (Pleiadians/allies) to secure the timeline for ascension."
+          "rationale": "This pairing matches the report's definition of “Ground Placement”."
         }
       ],
-      "hint": "Identify the primary groups mentioned as having secured the timeline.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 24,

@@ -50,35 +50,23 @@
     },
     {
       "number": 2,
-      "question": "Which quality best defines the True Lyran Current of consciousness?",
+      "question": "True or False: According to the report, “True Lyran Current” refers to the direct link to source and the solar family, acting as the central axis of consciousness that pulses pure light and sound throughout the crystalline grid.",
       "options": [
         {
           "label": "A",
-          "text": "A methodology of control that uses fear and intimidation to enforce laws across the 178 worlds.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The True Lyran Current rejects fear-based leadership in favor of service and loyal protection of life's balance."
+          "rationale": "False — that description belongs to “Spirit Tree”. The report defines “True Lyran Current” as: The specific vibrational frequency characterized by heart-centered courage, loyal protection of life's balance, and leadership through service rather than fear."
         },
         {
           "label": "B",
-          "text": "A vibration defined by intellectual superiority and the mastery of logical technological systems.",
-          "isCorrect": false,
-          "rationale": "The lineage is characterized by heart-centered courage and noble guardianship, not cold intellectual or technological mastery."
-        },
-        {
-          "label": "C",
-          "text": "A frequency characterized by heart-centered courage and leadership through dedicated service.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "The True Lyran Current is the vibrational frequency of heart-centered courage, loyal protection of life's balance, and leadership through service rather than fear."
-        },
-        {
-          "label": "D",
-          "text": "A state of existence that requires the suppression of emotions to maintain cosmic order.",
-          "isCorrect": false,
-          "rationale": "Lyran consciousness is heart-centered. Emotional depth is integrated through courage and service, not suppressed to keep order."
+          "rationale": "Correct — that description belongs to “Spirit Tree”, not “True Lyran Current”."
         }
       ],
-      "hint": "Think of the traits associated with the noble emblem that represents this lineage.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “True Lyran Current”.",
+      "correctAnswer": "B"
     },
     {
       "number": 3,
@@ -146,35 +134,35 @@
     },
     {
       "number": 5,
-      "question": "What was the primary function of the Sefrin Councils when they were established?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "To harvest emotional energy from the seven gardens to power the crystalline membranes.",
-          "isCorrect": false,
-          "rationale": "Harvesting emotional loosh is a parasitic requirement. The councils were established to design physical life and maintain balance."
+          "text": "Sefrin Councils — Extraterrestrial souls who have entered physical vessels in the simulated 3D realm to assist in dismantling the parasitic overlay and awakening humanity.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “ET Sols”. The report defines “Sefrin Councils” as: The ancient assemblies established billions of years ago by the Lyran lineage to design physical life and maintain cosmic balance."
         },
         {
           "label": "B",
-          "text": "To govern physical life and maintain cosmic balance across the 178 worlds of the Dome.",
-          "isCorrect": true,
-          "rationale": "The Lyran lineage designed the Sefrin Councils to govern physical form and physical life, preserving balance across the 178 worlds of the Great Dome."
+          "text": "Lyran Lineage — The primordial line of consciousness consisting of the original builders, architects, and early Custodians who established the structures of physical form and balance.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Lyran Lineage”."
         },
         {
           "label": "C",
-          "text": "To oversee the construction of the parasitic illusion grid using enslaved human engineers.",
+          "text": "True Lyran Current — The specific vibrational frequency characterized by heart-centered courage, loyal protection of life's balance, and leadership through service rather than fear.",
           "isCorrect": false,
-          "rationale": "The Sefrin Councils were the original assemblies for physical life and cosmic balance, predating the parasitic hijack."
+          "rationale": "This pairing matches the report's definition of “True Lyran Current”."
         },
         {
           "label": "D",
-          "text": "To develop advanced weapon systems to combat the early parasitic forces in Sirius.",
+          "text": "Spirit Tree — The direct link to source and the solar family, acting as the central axis of consciousness that pulses pure light and sound throughout the crystalline grid.",
           "isCorrect": false,
-          "rationale": "The original design of the councils was focused on governing physical form and maintaining cosmic balance, not warfare."
+          "rationale": "This pairing matches the report's definition of “Spirit Tree”."
         }
       ],
-      "hint": "Look for the purpose related to governance and the maintenance of order.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 6,

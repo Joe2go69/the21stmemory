@@ -18,35 +18,35 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the fundamental objective of emotional scoring in public media?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "To encourage critical thinking and intellectual analysis of the narratives presented in broadcasts.",
+          "text": "Emotional Scoring — The intentional manipulation of human cognitive function and physiological states through engineered visual scene sequencing and acoustic frequency arrangements.",
           "isCorrect": false,
-          "rationale": "Scoring is designed to swamp internal thought mechanisms and bypass intellectual filters rather than stimulating them."
+          "rationale": "This pairing matches the report's definition of “Emotional Scoring”."
         },
         {
           "label": "B",
-          "text": "To provide a benign background for entertainment while enhancing the artistic quality of visual media.",
-          "isCorrect": false,
-          "rationale": "The methodology is an energetic weapon rather than a neutral or purely artistic form of entertainment."
+          "text": "Adagio and Largo — An aggressive, forced brass blowing technique that generates a roaring, threatening sound to signal impending doom.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Cuivré”. The report defines “Adagio and Largo” as: Slow, elongated musical tempos engineered to induce profound sorrow, loss, and introspective grief."
         },
         {
           "label": "C",
-          "text": "To synchronize the audience's emotional experience with the authentic reality of the depicted events.",
+          "text": "Acoustic Priming — The systematic application of specific musical structures, tempos, and sound frequencies to pre-condition an audience's mind for target emotional and behavioral outcomes.",
           "isCorrect": false,
-          "rationale": "The system uses tailored feelings to suit systemic requirements rather than reflecting an objective or authentic reality."
+          "rationale": "This pairing matches the report's definition of “Acoustic Priming”."
         },
         {
           "label": "D",
-          "text": "To manipulate human cognitive function and dictate emotional states through engineered frequencies.",
-          "isCorrect": true,
-          "rationale": "Emotional scoring functions as an active mechanism of acoustic priming, infiltrating the human subconscious to dictate emotional states without conscious awareness and steer behavioral outputs."
+          "text": "Sul Ponticello — A string instrument technique executed by bowing directly near the bridge, producing a harsh, glassy, and rasping timbre that spikes anxiety.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Sul Ponticello”."
         }
       ],
-      "hint": "Consider how the deployment of sound affects the human subconscious without the listener's awareness.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -82,35 +82,23 @@
     },
     {
       "number": 3,
-      "question": "How does legato phrasing contribute to the auditory engineering of emotional vulnerability?",
+      "question": "True or False: According to the report, “Legato Phrasing” refers to A smooth, continuous note-transition technique designed to imitate the acoustic resonance of human sighing or weeping.",
       "options": [
         {
           "label": "A",
-          "text": "By generating loud and unrelenting rhythmic patterns that force the heart rate to accelerate rapidly.",
-          "isCorrect": false,
-          "rationale": "Rhythmic acceleration is achieved through heavy percussion rather than smooth legato phrasing."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Legato Phrasing” this way."
         },
         {
           "label": "B",
-          "text": "By producing a harsh and rasping timbre that spikes biological anxiety through friction against the strings.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "This description characterizes sul ponticello, which is intended for panic and tension rather than vulnerability."
-        },
-        {
-          "label": "C",
-          "text": "By creating a brassy and roaring menace that signals overwhelming power and an impending sense of doom.",
-          "isCorrect": false,
-          "rationale": "The cuivré technique in brass instruments is used for this purpose, not the smooth transitions of legato."
-        },
-        {
-          "label": "D",
-          "text": "By ensuring seamless note transitions that mimic the acoustic resonance of human weeping or sighing.",
-          "isCorrect": true,
-          "rationale": "Legato phrasing is a smooth, continuous note-transition technique designed to imitate the acoustic resonance of human sighing or weeping."
+          "rationale": "It is true — the report defines “Legato Phrasing” as: A smooth, continuous note-transition technique designed to imitate the acoustic resonance of human sighing or weeping."
         }
       ],
-      "hint": "Focus on the connection between smooth musical transitions and the sound of human breathing during distress.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Legato Phrasing”.",
+      "correctAnswer": "A"
     },
     {
       "number": 4,
@@ -118,25 +106,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The Timpani",
+          "text": "The timpani, whose rolling beat mimics a slow heartbeat.",
           "isCorrect": false,
           "rationale": "Drums are used for rhythmic synchronization and physical dread rather than vocal mimicry of grief."
         },
         {
           "label": "B",
-          "text": "The French Horn.",
+          "text": "The French horn, whose distant call evokes lonely mourning.",
           "isCorrect": false,
           "rationale": "Brass instruments are typically used for signals of power and doom using techniques like cuivré."
         },
         {
           "label": "C",
-          "text": "The cello, whose woody low-frequency register matches the pitch range of a somber weeping voice.",
+          "text": "The cello, whose low register resembles a weeping voice.",
           "isCorrect": true,
           "rationale": "The cello serves as the primary instrument for invoking deep grief due to its woody, low-frequency register, which directly matches the pitch range of a somber, weeping voice."
         },
         {
           "label": "D",
-          "text": "The Synthesizer.",
+          "text": "The synthesizer, whose sustained pads imitate a sighing choir.",
           "isCorrect": false,
           "rationale": "Electronic drones are used to vibrate the environment and trigger primal dread through sub-bass frequencies."
         }
@@ -402,35 +390,23 @@
     },
     {
       "number": 13,
-      "question": "What defines the state of sensory resonance induced by display technology?",
+      "question": "True or False: According to the report, “Sensory Resonance” refers to A physiological state induced by precise low-frequency electromagnetic flickering or acoustic pulsing from display monitors, manipulating the central nervous system.",
       "options": [
         {
           "label": "A",
-          "text": "A harmonic state where the musical score perfectly matches the visual narrative of a broadcast.",
-          "isCorrect": false,
-          "rationale": "Resonance in this context refers to a biological manipulation rather than an artistic alignment."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Sensory Resonance” this way."
         },
         {
           "label": "B",
-          "text": "An intellectual state of awareness where an individual recognizes the score engineering in media.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Sensory resonance is a physiological manipulation that typically occurs without the subject's awareness."
-        },
-        {
-          "label": "C",
-          "text": "A psychological state where the viewer finds mental peace through designed ambient noise.",
-          "isCorrect": false,
-          "rationale": "Ambient noise is used to reduce bandwidth and distract, not to provide true mental peace."
-        },
-        {
-          "label": "D",
-          "text": "A physiological state induced by precise low-frequency electromagnetic flickering or acoustic pulsing from display monitors.",
-          "isCorrect": true,
-          "rationale": "Sensory resonance is a physiological state induced by precise low-frequency electromagnetic flickering or acoustic pulsing from display monitors, manipulating the central nervous system."
+          "rationale": "It is true — the report defines “Sensory Resonance” as: A physiological state induced by precise low-frequency electromagnetic flickering or acoustic pulsing from display monitors, manipulating the central nervous system."
         }
       ],
-      "hint": "This term involves the interaction between electronic display frequencies and the nervous system.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Sensory Resonance”.",
+      "correctAnswer": "A"
     },
     {
       "number": 14,

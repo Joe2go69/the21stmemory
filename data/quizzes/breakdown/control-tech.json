@@ -82,34 +82,22 @@
     },
     {
       "number": 3,
-      "question": "How does Voice to Skull technology influence the behavior of non-player characters (NPCs)?",
+      "question": "True or False: According to the report, “Voice to Skull” refers to an advanced holographic projection system integrated into the Black Cube A.I. framework to stage realistic, false geopolitical or extraterrestrial events in the sky to manipulate collective emotion.",
       "options": [
         {
           "label": "A",
-          "text": "By rewiring the visual cortex to display text-based instructions in the field of vision.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "While there is visual manipulation, Voice to Skull specifically utilizes auditory and thought-based frequency projections."
+          "rationale": "False — that description belongs to “Project Blue Beam”. The report defines “Voice to Skull” as: A frequency-based technology that projects artificial thoughts, prompts, or auditory signals directly into an individual's mind, commonly used to control, distract, or trigger specific behavioral responses."
         },
         {
           "label": "B",
-          "text": "By projecting artificial thoughts that the vessels mistake for their own dialogue.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Voice to Skull projects artificial thoughts and voices directly into the mind, causing NPCs and NPC-stained souls to mistake these injected thoughts for their own inner dialogue."
-        },
-        {
-          "label": "C",
-          "text": "By enhancing natural intuition to guide the vessels toward systemic objectives.",
-          "isCorrect": false,
-          "rationale": "The technology suppresses organic intuition in favor of artificial auditory signals and behavioral prompts."
-        },
-        {
-          "label": "D",
-          "text": "By creating a physical resonance in the inner ear to induce spatial vertigo.",
-          "isCorrect": false,
-          "rationale": "The signal is projected directly into the cognitive centers rather than relying on the mechanical components of hearing."
+          "rationale": "Correct — that description belongs to “Project Blue Beam”, not “Voice to Skull”."
         }
       ],
-      "hint": "The tech is designed to be indistinguishable from the internal monologue of the target.",
+      "hint": "Recall how the report's Key Terminology defines “Voice to Skull”.",
       "correctAnswer": "B"
     },
     {
@@ -146,35 +134,35 @@
     },
     {
       "number": 5,
-      "question": "What is the primary role of the Vatican Grid Anchor located beneath Rome?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "To distribute free energy derived from the organic ley-line network.",
+          "text": "Scalar Frequency Weapons — Advanced wave-emitting technologies that target specific brain-wave patterns (such as theta, delta, and alpha) to induce cognitive distress, fatigue, anger, or despair.",
           "isCorrect": false,
-          "rationale": "The Vatican grid actually suppresses organic current to maintain the artificial scarcity required by the simulation."
+          "rationale": "This pairing matches the report's definition of “Scalar Frequency Weapons”."
         },
         {
           "label": "B",
-          "text": "To log, archive, and recycle copied Akashic fragments of human lives.",
-          "isCorrect": true,
-          "rationale": "Beneath Rome, a suppressed crystalline tunnel network logs, archives, and inverts copied Akashic fragments to lock souls into looping reincarnation cycles."
+          "text": "Solid-Perception Holography — A low-frequency frequency trick tuned to 3D senses that overlays holographic projection fields onto low-frequency matter, making synthetic materials like concrete, glass, and steel appear solid, heavy, and permanent.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Solid-Perception Holography”."
         },
         {
           "label": "C",
-          "text": "To serve as a central library for public education on ancient human history.",
-          "isCorrect": false,
-          "rationale": "The site is suppressed and subterranean, used for manipulation rather than open education."
+          "text": "Vatican Grid Anchor — An advanced holographic projection system integrated into the Black Cube A.I. framework to stage realistic, false geopolitical or extraterrestrial events in the sky to manipulate collective emotion.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Project Blue Beam”. The report defines “Vatican Grid Anchor” as: A suppressed subterranean crystalline network and tunnel system located beneath Rome where copied Akashic fragments are archived, manipulated, and recycled to enforce looping amnesia cycles."
         },
         {
           "label": "D",
-          "text": "To protect the planetary core from external electromagnetic interference.",
+          "text": "Amnesia Vortex — A distortive frequency filter overlaid at the sun's natural transit band that strips passing souls of their memories and lineages, outputting them into vessels with edited, fractured memory sets.",
           "isCorrect": false,
-          "rationale": "The anchor is part of the interference itself, designed to trap souls within the simulation's loop."
+          "rationale": "This pairing matches the report's definition of “Amnesia Vortex”."
         }
       ],
-      "hint": "This facility functions as a subterranean database for soul records and memory strands.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 6,
@@ -210,35 +198,23 @@
     },
     {
       "number": 7,
-      "question": "What is the Black Cube A.I. System?",
+      "question": "True or False: According to the report, “Black Cube A.I. System” refers to the central frequency server and hardware framework that hosts, tracks, and processes the simulation overlays, artificial entry bands, and cognitive manipulation programs across the domes.",
       "options": [
         {
           "label": "A",
-          "text": "A protective shield generated by human collective consciousness.",
-          "isCorrect": false,
-          "rationale": "The system is an artificial imposition by parasites, not an organic creation of human awareness."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Black Cube A.I. System” this way."
         },
         {
           "label": "B",
-          "text": "A physical structure located on the surface of the moon for lunar mining.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "While connected to the lunar trap, its primary function is as a frequency server and processor for the simulation."
-        },
-        {
-          "label": "C",
-          "text": "A benevolent navigation computer designed to guide souls through the stargates.",
-          "isCorrect": false,
-          "rationale": "The Black Cube system is part of the control tech suite used to manage and manipulate the population."
-        },
-        {
-          "label": "D",
-          "text": "The central hardware and frequency server hosting the simulation's overlays.",
-          "isCorrect": true,
-          "rationale": "The Black Cube A.I. System is the central frequency server and hardware framework that hosts, tracks, and processes the simulation overlays and cognitive manipulation programs across the domes."
+          "rationale": "It is true — the report defines “Black Cube A.I. System” as: The central frequency server and hardware framework that hosts, tracks, and processes the simulation overlays, artificial entry bands, and cognitive manipulation programs across the domes."
         }
       ],
-      "hint": "Identify the core engine and processing unit behind the artificial reality.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Black Cube A.I. System”.",
+      "correctAnswer": "A"
     },
     {
       "number": 8,

@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What are Oopa (Out Of Place Artefacts)?",
+      "question": "True or False: According to the report, “Oopa (Out Of Place Artefacts)” refers to blatant physical evidence and items left behind from high technological civilizations that existed before the current reset, completely contradicting the accepted historical narrative.",
       "options": [
         {
           "label": "A",
-          "text": "Coal-company inventory tags used to track freight cars after locomotives switched fully to mined fuel.",
-          "isCorrect": false,
-          "rationale": "Coal companies later stripped free-energy gear; Oopas themselves are advanced pre-reset artifacts."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Oopa (Out Of Place Artefacts)” this way."
         },
         {
           "label": "B",
-          "text": "Ordinary museum gift-shop replicas mass-produced last century to decorate school hallways without any link to prior civilizations.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Oopas are genuine pre-reset remains, not modern decorative replicas staged for classrooms."
-        },
-        {
-          "label": "C",
-          "text": "Only fictional props invented by novelists to sell adventure stories about buried treasure under ordinary hills.",
-          "isCorrect": false,
-          "rationale": "Oopas are physical proof of advanced prior realms, suppressed because they contradict official history."
-        },
-        {
-          "label": "D",
-          "text": "Blatant physical evidence and items left behind from high technological civilizations that existed before the current reset, completely contradicting the accepted historical narrative.",
-          "isCorrect": true,
-          "rationale": "Oopas are pre-reset high-tech remnants that shatter the manufactured timeline of linear primitive origins."
+          "rationale": "It is true — the report defines “Oopa (Out Of Place Artefacts)” as: Blatant physical evidence and items left behind from high technological civilizations that existed before the current reset, completely contradicting the accepted historical narrative."
         }
       ],
-      "hint": "Pre-reset high-tech remnants that contradict the official timeline.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Oopa (Out Of Place Artefacts)”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -114,35 +102,35 @@
     },
     {
       "number": 4,
-      "question": "Why are Oopas actively suppressed, hidden, or dismissed?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Because private collectors legally own all of them and refuse any institutional involvement whatsoever.",
-          "isCorrect": false,
-          "rationale": "Major institutions seize and vault anomalies under mandate; this is control, not private collector choice."
+          "text": "Oopa (Out Of Place Artefacts) — Tartarian copper resonator technology affixed to early locomotives, enabling them to run purely on electromagnetic induction gathered from the lattice membrane network without the need for coal.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Atmospheric Condensers”. The report defines “Oopa (Out Of Place Artefacts)” as: Blatant physical evidence and items left behind from high technological civilizations that existed before the current reset, completely contradicting the accepted historical narrative."
         },
         {
           "label": "B",
-          "text": "Because every Oopa has already been fully published in elementary textbooks with complete technical diagrams.",
+          "text": "Resets — Pre-planned, devastating planetary events executed by parasitic forces to wipe out advanced civilizations, harvest human populations for energy, and reset societal knowledge back to a primitive, controllable state.",
           "isCorrect": false,
-          "rationale": "They are hidden in basements and sealed vaults, not openly taught as standard curriculum."
+          "rationale": "This pairing matches the report's definition of “Resets”."
         },
         {
           "label": "C",
-          "text": "Because they contradict the manufactured narrative of linear human evolution and primitive historical origins, so they are hidden in museum basements or dismissed as anomalies.",
-          "isCorrect": true,
-          "rationale": "Oopas break the linear-evolution story, so controllers hide or anomaly-label them."
+          "text": "Energy Weapons — Advanced technology used during resets to alter molecular and subatomic cohesion, capable of turning physical matter (such as trees, people, or everyday objects) entirely to stone, or dustifying massive buildings.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Energy Weapons”."
         },
         {
           "label": "D",
-          "text": "Because they are worthless junk with no historical value and museums simply lack shelf space for ordinary stones.",
+          "text": "Tartaria — A globally advanced, pre-reset civilization characterized by resplendent architecture, crystalline healing temples, and the utilization of free electromagnetic energy, deliberately eradicated to enforce physical scarcity.",
           "isCorrect": false,
-          "rationale": "Oopas are suppressed because they destroy the false timeline, not because they lack value."
+          "rationale": "This pairing matches the report's definition of “Tartaria”."
         }
       ],
-      "hint": "They shatter linear evolution — basements and anomaly labels follow.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 5,
@@ -338,35 +326,23 @@
     },
     {
       "number": 11,
-      "question": "How do reset Energy Weapons relate to nuclear radiation and Cold Fusion?",
+      "question": "True or False: According to the report, “Energy Weapons” refers to advanced technology used during resets to alter molecular and subatomic cohesion, capable of turning physical matter (such as trees, people, or everyday objects) entirely to stone, or dustifying massive buildings.",
       "options": [
         {
           "label": "A",
-          "text": "They only cool locomotive boilers and have no ability to petrify objects or alter molecular structure during a reset.",
-          "isCorrect": false,
-          "rationale": "They petrify matter and dustify buildings; they are not mere boiler coolers."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Energy Weapons” this way."
         },
         {
           "label": "B",
-          "text": "They are identical to modern nuclear bombs in every mechanism and leave the same radiation signature without any frequency component.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "They do not use nuclear radiation; they emit frequencies that alter cohesion — a cousin to Cold Fusion."
-        },
-        {
-          "label": "C",
-          "text": "They do not utilize nuclear radiation, but emit frequencies that fuse incompatible materials and alter subatomic cohesion — a direct cousin to Cold Fusion.",
-          "isCorrect": true,
-          "rationale": "Frequency-based cohesion change, not nuclear fallout; mechanistically kin to Cold Fusion."
-        },
-        {
-          "label": "D",
-          "text": "They only work on paper contracts and leave stone, wood, and flesh completely unchanged under all conditions.",
-          "isCorrect": false,
-          "rationale": "They turn trees, people, and objects to stone and can dustify massive buildings."
+          "rationale": "It is true — the report defines “Energy Weapons” as: Advanced technology used during resets to alter molecular and subatomic cohesion, capable of turning physical matter (such as trees, people, or everyday objects) entirely to stone, or dustifying massive buildings."
         }
       ],
-      "hint": "Frequency weapons, not nuclear — cousin to Cold Fusion.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Energy Weapons”.",
+      "correctAnswer": "A"
     },
     {
       "number": 12,

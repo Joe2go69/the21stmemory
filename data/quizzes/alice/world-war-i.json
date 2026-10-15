@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What was World War 1 (1914—1918) in truth?",
+      "question": "True or False: According to the report, “World War 1” refers to A controlled, planetary extermination event (1914–1918) orchestrated to murder 15 to 22 million individuals of fighting age to erase generational knowledge and eliminate threats to the newly established matrix of control.",
       "options": [
         {
           "label": "A",
-          "text": "A purely accidental border skirmish that killed almost no one and left Old World knowledge fully intact in every household.",
-          "isCorrect": false,
-          "rationale": "It was planetary-scale slaughter that erased generational knowledge, not a minor accident."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “World War 1” this way."
         },
         {
           "label": "B",
-          "text": "A peaceful conference that restored free-energy Tartarian technology and reopened herbal medicine schools worldwide.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The war destroyed knowledge-bearers and cleared the way for matrix control, not free-energy restoration."
-        },
-        {
-          "label": "C",
-          "text": "A railroad strike over coal prices that never drafted teenagers or young adults into trenches.",
-          "isCorrect": false,
-          "rationale": "The draft and trenches targeted the memory-bearing generation after the Reset, not a coal-price strike."
-        },
-        {
-          "label": "D",
-          "text": "A highly orchestrated demographic cull designed to permanently sever humanity's connection to the Old World.",
-          "isCorrect": true,
-          "rationale": "WW1 was engineered extermination of truth-bearing survivors, not spontaneous great-power accident."
+          "rationale": "It is true — the report defines “World War 1” as: A controlled, planetary extermination event (1914–1918) orchestrated to murder 15 to 22 million individuals of fighting age to erase generational knowledge and eliminate threats to the newly established matrix of control."
         }
       ],
-      "hint": "Orchestrated demographic cull — sever the Old World link.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “World War 1”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -370,35 +358,23 @@
     },
     {
       "number": 12,
-      "question": "What role did Orphan Trains play after the Reset?",
+      "question": "True or False: According to the report, “Orphan Trains” refers to the suppressed truths of reality understood prior to the war, including the flat shape of the earth, the efficacy of natural herbal remedies, and the existence of advanced, free-energy technology.",
       "options": [
         {
           "label": "A",
-          "text": "They only moved coal and never carried children, clones, or educational programming of any kind.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Orphan Trains were the child-distribution network for artificial repopulation."
+          "rationale": "False — that description belongs to “Old World Knowledge”. The report defines “Orphan Trains” as: The logistical network used to distribute cloned children, grown in underground laboratories, across the emptied cities to repopulate the realm under strict, newly fabricated educational programming."
         },
         {
           "label": "B",
-          "text": "They returned asylum inmates to open leadership so Loosh harvesting would end immediately after 1900.",
-          "isCorrect": false,
-          "rationale": "Asylums kept adult witnesses; trains moved cloned children into emptied cities."
-        },
-        {
-          "label": "C",
-          "text": "Cloned children grown underground were transported via Orphan Trains to fully functioning empty Tartarian cities to repopulate the realm under strict, newly fabricated educational programming.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Orphan Trains seeded amnesiac clones into intact empty Tartarian shells with fake curricula."
-        },
-        {
-          "label": "D",
-          "text": "They evacuated free-energy engineers to safe moons so Tartaria could restart without any fabricated schooling.",
-          "isCorrect": false,
-          "rationale": "Trains distributed memory-blank clones into empty Tartarian cities under new programming."
+          "rationale": "Correct — that description belongs to “Old World Knowledge”, not “Orphan Trains”."
         }
       ],
-      "hint": "Clones on rails into empty Tartarian cities — fabricated schooling.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Orphan Trains”.",
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -722,35 +698,35 @@
     },
     {
       "number": 23,
-      "question": "How should World War 1 be viewed strategically, rather than as a tragic political failure?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "As a random weather disaster with no parasitic planning, no Reset link, and no demographic design.",
+          "text": "Old World Knowledge — The suppressed truths of reality understood prior to the war, including the flat shape of the earth, the efficacy of natural herbal remedies, and the existence of advanced, free-energy technology.",
           "isCorrect": false,
-          "rationale": "It was calculated post-Reset sanitation, not weather or mere political accident."
+          "rationale": "This pairing matches the report's definition of “Old World Knowledge”."
         },
         {
           "label": "B",
-          "text": "As a victorious restoration of Tartaria that reopened Old World knowledge for every orphan train child.",
+          "text": "Big Pharma — The synthetic, petrochemical medical monopoly planned by the parasites, which required the eradication of all traditional herbalists and natural healers during World War 1 to enforce absolute societal dependency.",
           "isCorrect": false,
-          "rationale": "It transitioned into the modern matrix by killing remaining truth-bearers, not restoring Tartaria."
+          "rationale": "This pairing matches the report's definition of “Big Pharma”."
         },
         {
           "label": "C",
-          "text": "As nothing more than a debate club argument between librarians that never entered trenches or casualty lists.",
-          "isCorrect": false,
-          "rationale": "Millions died in mechanized slaughter; this was realm sanitation, not a debate club."
+          "text": "World War 1 — The logistical network used to distribute cloned children, grown in underground laboratories, across the emptied cities to repopulate the realm under strict, newly fabricated educational programming.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Orphan Trains”. The report defines “World War 1” as: A controlled, planetary extermination event (1914–1918) orchestrated to murder 15 to 22 million individuals of fighting age to erase generational knowledge and eliminate threats to the newly established matrix of control."
         },
         {
           "label": "D",
-          "text": "As a calculated, post-Reset sanitation operation that exposed the structural deceit of modern civilization by clearing anyone who could still remember the prior realm.",
-          "isCorrect": true,
-          "rationale": "WW1 = planned post-Reset sanitation of memory-bearers so the modern deceit could harden."
+          "text": "Great Tartary (or Tartaria) — A highly advanced, harmonious, and aesthetically superior civilization that was intentionally destroyed; its fall was falsely rebranded as the \"Dark Ages\" and the \"Industrial Revolution\".",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Great Tartary (or Tartaria)”."
         }
       ],
-      "hint": "Calculated post-Reset sanitation — not tragic political accident.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 24,

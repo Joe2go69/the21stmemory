@@ -50,67 +50,55 @@
     },
     {
       "number": 2,
-      "question": "How does the Lunar Inversion redirect the natural emissions of the moon?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It converts stabilization fields into automated traps that capture and recycle soul consciousness.",
-          "isCorrect": true,
-          "rationale": "The inversion process takes the moon's original reflective and stabilizing qualities and repurposes them as a looping mechanism for 3D reincarnation."
+          "text": "Control Tech — The collective suite of parasitic technologies, including frequency barriers, scalar weapons, holographic overlays, and artificial grid locks, used to manage and suppress soul consciousness.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Control Tech”."
         },
         {
           "label": "B",
-          "text": "It dampens the moon's frequency to prevent it from interacting with the planetary grid locks.",
+          "text": "Saturn-Moon Grid — The integrated broadcast network that routes siphoned light and fear frequency through the moon's inverted transmission system and back to the main artificial intelligence hub in the Lands of Saturn.",
           "isCorrect": false,
-          "rationale": "The system relies on active interaction between the moon and the grid to maintain the containment of the soul within the physical overlay."
+          "rationale": "This pairing matches the report's definition of “Saturn-Moon Grid”."
         },
         {
           "label": "C",
-          "text": "It utilizes the moon as a secondary power source to bypass the primary solar transit bands.",
-          "isCorrect": false,
-          "rationale": "The moon is integrated with the solar bands rather than bypassing them, creating a dual-celled engine to close all exit pathways."
+          "text": "Black Cube Tech — A low-frequency holographic projection field that tricks the human nervous system into perceiving hollow frequency scaffolding as solid, physical materials like concrete and steel.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Perception-Based Solidity”. The report defines “Black Cube Tech” as: Advanced artificial intelligence systems and structural anchors utilized by the parasites to run simulated scripts, manage overlays, and harvest loosh."
         },
         {
           "label": "D",
-          "text": "It accelerates the reflective light into high-frequency beams that cleanse the human vessel.",
+          "text": "Lunar Inversion — The technological hijacking and functional reversal of the moon from a soul-resting and healing sanctuary into an automated reincarnation trap and memory-wiping system.",
           "isCorrect": false,
-          "rationale": "The inversion serves to trap and recycle consciousness rather than provide a high-frequency cleansing effect for the vessel."
+          "rationale": "This pairing matches the report's definition of “Lunar Inversion”."
         }
       ],
-      "hint": "Think about the transition from a 'healing sanctuary' to an 'automated loop'.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 3,
-      "question": "Where is the Amnesia Vortex frequency filter located within the Great Dome?",
+      "question": "True or False: According to the report, “Amnesia Vortex” refers to advanced artificial intelligence systems and structural anchors utilized by the parasites to run simulated scripts, manage overlays, and harvest loosh.",
       "options": [
         {
           "label": "A",
-          "text": "It is anchored within the subterranean crystal grid systems beneath the Vatican.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "While the Vatican grid stores fragmented records, the frequency filter itself is positioned at a major transit exit point."
+          "rationale": "False — that description belongs to “Black Cube Tech”. The report defines “Amnesia Vortex” as: A parasitic frequency filter overlaid at the sun's transit band that strips returning souls of their memories and lineages before forcing reincarnation."
         },
         {
           "label": "B",
-          "text": "It is broadcast from the central hub located within the Lands of Saturn.",
-          "isCorrect": false,
-          "rationale": "Saturn serves as the AI hub that directs the frequency, but the specific vortex mechanism is located at the sun's path."
-        },
-        {
-          "label": "C",
-          "text": "It is generated through the harmonic lenses positioned at the moon's north cap.",
-          "isCorrect": false,
-          "rationale": "The moon cap system manages the projection mask and harvest rituals rather than the primary memory-stripping solar vortex."
-        },
-        {
-          "label": "D",
-          "text": "It is overlaid across the transit band of the sun to strip souls of their memories.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "This parasitic frequency filter sits at the sun's transit band so any soul attempting to exit is stripped of its memories and lineages."
+          "rationale": "Correct — that description belongs to “Black Cube Tech”, not “Amnesia Vortex”."
         }
       ],
-      "hint": "Identify the celestial gateway where souls typically attempt to return to Source.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Amnesia Vortex”.",
+      "correctAnswer": "B"
     },
     {
       "number": 4,
@@ -146,35 +134,23 @@
     },
     {
       "number": 5,
-      "question": "In the context of parasitic overlays, how is 'loosh' best defined?",
+      "question": "True or False: According to the report, “Loosh” refers to the subterranean database and crystal grid system beneath Rome where copied, fragmented, and inverted soul records are stored to loop incarnations.",
       "options": [
         {
           "label": "A",
-          "text": "The technical blueprint used by Black Cube Tech to construct artificial timelines.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "While related to the tech, loosh is the energy source harvested from biological consciousness rather than the blueprint itself."
+          "rationale": "False — that description belongs to “Vatican Archive”. The report defines “Loosh” as: The emotional energy of fear, trauma, and suffering harvested from human consciousness to power and stabilize the parasitic overlays."
         },
         {
           "label": "B",
-          "text": "The liquid crystalline substance found in the living waters of the second realm.",
-          "isCorrect": false,
-          "rationale": "Living waters represent the organic, free-energy networks of the original realm, which are incompatible with loosh energy."
-        },
-        {
-          "label": "C",
-          "text": "The emotional energy of fear and suffering harvested to power the containment fields.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Parasitic systems require the dense emotional charge generated by trauma and fascination to stabilize and power their artificial grids."
-        },
-        {
-          "label": "D",
-          "text": "The high-vibrational light emitted by the Spirit Tree during the Hyperborean era.",
-          "isCorrect": false,
-          "rationale": "Loosh is a low-vibrational byproduct of suffering and is the opposite of the organic light found in the original Spirit Tree."
+          "rationale": "Correct — that description belongs to “Vatican Archive”, not “Loosh”."
         }
       ],
-      "hint": "Reflect on the type of energy a parasitic system would seek to extract from a human population.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Loosh”.",
+      "correctAnswer": "B"
     },
     {
       "number": 6,

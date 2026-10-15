@@ -50,34 +50,22 @@
     },
     {
       "number": 2,
-      "question": "How does the realm of Hyperborea relate structurally to the Garden of Eden?",
+      "question": "True or False: According to the report, “Hyperborea” refers to high-density, natural electromagnetic and aetheric currents flowing through planetary Ley Lines and crystalline networks, carrying dimensional data to and from the Axis Mundi.",
       "options": [
         {
           "label": "A",
-          "text": "Eden represents an unmanifested etheric realm while Hyperborea exists as a dense material northern continent.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Both names identify one physical and dimensional reality fed by a single central river."
+          "rationale": "False — that description belongs to “Telluric Currents”. The report defines “Hyperborea” as: The paradisiacal, untouched sacred realm located \"Beyond the North Wind\" at the celestial North Pole, structurally identical to Eden and anchored directly upon the celestial pivot of the Axis Mundi."
         },
         {
           "label": "B",
-          "text": "The Garden of Eden and Hyperborea are the exact same physical and dimensional reality anchored at the celestial North Pole.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Eden and Hyperborea are the exact same physical and dimensional reality at the celestial North Pole."
-        },
-        {
-          "label": "C",
-          "text": "Hyperborea is a subterranean cavern system built directly beneath the historical site of the Garden of Eden.",
-          "isCorrect": false,
-          "rationale": "Hyperborea exists at the celestial pivot rather than as an underground cavern system beneath Eden."
-        },
-        {
-          "label": "D",
-          "text": "They are separate temporal epochs located at opposite poles of the physical plane that never intersect in space.",
-          "isCorrect": false,
-          "rationale": "Eden and Hyperborea share the same geographic coordinate at the North Pole rather than sitting at opposing poles."
+          "rationale": "Correct — that description belongs to “Telluric Currents”, not “Hyperborea”."
         }
       ],
-      "hint": "Look for the shared location situated beyond the North Wind around which the stars rotate.",
+      "hint": "Recall how the report's Key Terminology defines “Hyperborea”.",
       "correctAnswer": "B"
     },
     {
@@ -178,35 +166,23 @@
     },
     {
       "number": 6,
-      "question": "What physical structure remained at the planetary center after the supermassive Spirit Tree was shattered?",
+      "question": "True or False: According to the report, “Spirit Tree” refers to the unbroken upward channel of refined spiritual intent and resonance that pierces the atmospheric veil to connect physical altars and nodes directly to higher realms.",
       "options": [
         {
           "label": "A",
-          "text": "An artificial metallic spire erected by cathedral builders to replace the central cosmic antenna.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Mt Meru is the remaining mountain core of the original tree, not a synthetic tower built later."
+          "rationale": "False — that description belongs to “Vertical Axis”. The report defines “Spirit Tree” as: The supermassive organic antenna and master processing node at the geographic center of the physical plane whose root system and canopy anchored planetary circuitry."
         },
         {
           "label": "B",
-          "text": "A hollow planetary core that flooded to become a subterranean sea surrounding the physical plane.",
-          "isCorrect": false,
-          "rationale": "The tree's destruction left a solid central mountain core rather than a hollow flooded sea."
-        },
-        {
-          "label": "C",
-          "text": "The Spirit Tree at the center of the plane was shattered, leaving behind the mountain core known as Mt Meru.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "The Spirit Tree was shattered, leaving behind the mountain core known as Mt Meru."
-        },
-        {
-          "label": "D",
-          "text": "A cluster of detached crystalline formations dispersed along planetary Ley Line intersections.",
-          "isCorrect": false,
-          "rationale": "Crystals sit along Ley Lines, while the central stump remained at the pole as Mt Meru."
+          "rationale": "Correct — that description belongs to “Vertical Axis”, not “Spirit Tree”."
         }
       ],
-      "hint": "Think of the geological landmark left behind at the core after the living tree canopy fell.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Spirit Tree”.",
+      "correctAnswer": "B"
     },
     {
       "number": 7,
@@ -374,25 +350,25 @@
       "options": [
         {
           "label": "A",
-          "text": "They physically transport written blueprinted codes through subterranean water channels.",
+          "text": "They carry written blueprint codes through subterranean water channels that connect the temples to the outer realms.",
           "isCorrect": false,
           "rationale": "Intentions move instantaneously as telluric currents rather than as physical deliveries."
         },
         {
           "label": "B",
-          "text": "They project solar radiation beams directly toward external stars outside the master Cube.",
+          "text": "They project focused solar radiation beams from the temple domes toward external stars beyond the master Cube.",
           "isCorrect": false,
           "rationale": "Guardians route requests through Ley Line nodes and the Axis Mundi rather than outward solar beams."
         },
         {
           "label": "C",
-          "text": "They utilize high-frequency radio transmissions bounced off the atmospheric upper veil.",
+          "text": "They bounce high-frequency radio transmissions off the upper atmospheric veil to reach the receiving realms.",
           "isCorrect": false,
           "rationale": "Transmissions travel through telluric currents and the central axis rather than radio sky bounces."
         },
         {
           "label": "D",
-          "text": "Planetary Guardians broadcast requests from crystalline healing temples built upon Ley Line nodes and the Axis Mundi transmits these intentions instantaneously via telluric currents.",
+          "text": "They broadcast requests from temples built on Ley Line nodes, and the Axis Mundi transmits them instantly via telluric currents.",
           "isCorrect": true,
           "rationale": "Guardians broadcast requests from crystalline healing temples built upon Ley Line nodes and the Axis Mundi transmits these intentions instantaneously via telluric currents."
         }
@@ -424,7 +400,7 @@
         },
         {
           "label": "D",
-          "text": "The Axis Mundi reaches external realms within The Cube such as the Dome of Titans, Sheol, Silence, and Terra Incognita.",
+          "text": "The Dome of Titans, Sheol, Silence, and Terra Incognita.",
           "isCorrect": true,
           "rationale": "Telluric currents carry intentions to external realms within The Cube such as Sheol and Terra Incognita."
         }

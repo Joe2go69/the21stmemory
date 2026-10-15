@@ -114,66 +114,42 @@
     },
     {
       "number": 4,
-      "question": "What are NPCs in the Blackout Timeline context?",
+      "question": "True or False: According to the report, “NPC” refers to the military-controlled transmission that assumes control of all media during the blackout to broadcast suppressed truths and shatter the false reality.",
       "options": [
         {
           "label": "A",
-          "text": "Non-player characters — background programs lacking true souls that hold the simulation together and glitch heavily during the blackout.",
-          "isCorrect": true,
-          "rationale": "NPCs are background programs lacking true souls; they hold the simulation together and glitch erratically during the blackout."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Emergency Broadcast System (EBS)”. The report defines “NPC” as: Non-player characters; background programs lacking true souls that hold the simulation together, who glitch heavily and exhibit erratic behavior during the blackout."
         },
         {
           "label": "B",
-          "text": "Military Whitehat commanders who never glitch and solely run every supermarket during The Wave.",
-          "isCorrect": false,
-          "rationale": "NPCs glitch and scramble for survival; Whitehats orchestrate the blackout rather than being defined as NPCs."
-        },
-        {
-          "label": "C",
-          "text": "Only holographic Blue Beam fleets with no role in holding third-density simulation scaffolding.",
-          "isCorrect": false,
-          "rationale": "NPCs are background programs holding the simulation; Blue Beam is separate holographical fear technology."
-        },
-        {
-          "label": "D",
-          "text": "Fully resonating Sols whose memory always stays sharp and who never exhibit erratic blackout behavior rather than soulless background programs that glitch and hold the simulation together.",
-          "isCorrect": false,
-          "rationale": "NPCs lack true souls and glitch; Sols are resonating sparks whose memory sharpens as the blackout progresses."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Emergency Broadcast System (EBS)”, not “NPC”."
         }
       ],
-      "hint": "Background programs that hold the simulation together and glitch during the event.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “NPC”.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,
-      "question": "What is a Sol within this transmission?",
+      "question": "True or False: According to the report, “Sol” refers to the initial 72-hour window of the communication blackout and frequency fracture, systematically breaking the parasitic illusion.",
       "options": [
         {
           "label": "A",
-          "text": "An elite parasite permanently immune to Frequency Fracture and EBS truth broadcasts instead of a true resonating soul whose memory sharpens through the blackout.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Sols awaken as the overlay cracks; they are not parasitic elites immune to the blackout and EBS."
+          "rationale": "False — that description belongs to “The Cut”. The report defines “Sol” as: A true, resonating soul or spark of origin embedded within a physical vessel, whose memory sharpens as the blackout progresses."
         },
         {
           "label": "B",
-          "text": "A true resonating soul or spark of origin in a physical vessel whose memory sharpens as the blackout progresses.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "A Sol is a true resonating soul or origin spark embedded in a vessel; memory sharpens as the blackout progresses."
-        },
-        {
-          "label": "C",
-          "text": "A background program without a true soul that only glitches and never carries origin memory.",
-          "isCorrect": false,
-          "rationale": "That description fits NPCs; Sols are true resonating souls whose memory sharpens during the fracture."
-        },
-        {
-          "label": "D",
-          "text": "A pure cable-severing machine with no consciousness and no connection to frequency lock extraction.",
-          "isCorrect": false,
-          "rationale": "Sols are conscious resonating sparks; Resonating Sols are later extracted via frequency lock, not lifeless cable machines."
+          "rationale": "Correct — that description belongs to “The Cut”, not “Sol”."
         }
       ],
-      "hint": "A true spark of origin whose memory changes as the blackout advances.",
+      "hint": "Recall how the report's Key Terminology defines “Sol”.",
       "correctAnswer": "B"
     },
     {
@@ -306,34 +282,34 @@
     },
     {
       "number": 10,
-      "question": "What defines Phase One: The Cut (Hours 0 – 12)?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "EBS already runs full tribunals while every cable remains online and no panic narratives air.",
+          "text": "Project Blue Beam — Holographical fear technology utilized by the Whitehats during the blackout timeline to stage a fake alien invasion and force global attention.",
           "isCorrect": false,
-          "rationale": "EBS follows later after lockdown; Phase One is cable dark and panic-blame, not full tribunal broadcast yet."
+          "rationale": "This pairing matches the report's definition of “Project Blue Beam”."
         },
         {
           "label": "B",
-          "text": "Internet and communications go completely dark as main cables are severed.",
+          "text": "The Cut — The military-controlled transmission that assumes control of all media during the blackout to broadcast suppressed truths and shatter the false reality.",
           "isCorrect": true,
-          "rationale": "Phase One (0–12 hours) darkens internet as cables are severed and floods channels with panic and blame narratives."
+          "rationale": "That description belongs to “Emergency Broadcast System (EBS)”. The report defines “The Cut” as: The initial 72-hour window of the communication blackout and frequency fracture, systematically breaking the parasitic illusion."
         },
         {
           "label": "C",
-          "text": "Project Blue Beam ends permanently in the first hour with no fear loop and no cable cuts.",
+          "text": "Frequency Fracture — The true energetic nature of the blackout event, causing the parasitic overlay to wobble, crack, and allowing true memory to sharpen.",
           "isCorrect": false,
-          "rationale": "Phase One centers cable cuts and fear-blame loops; Blue Beam peaks later in the broader staged theater."
+          "rationale": "This pairing matches the report's definition of “Frequency Fracture”."
         },
         {
           "label": "D",
-          "text": "Only Resonating Sols lose phones while NPC networks stay perfectly calm and fully online.",
+          "text": "Whitehats — The allied human and galactic forces orchestrating the controlled demolition of the parasitic infrastructure and executing the blackout.",
           "isCorrect": false,
-          "rationale": "Communications go completely dark broadly; NPC channels are flooded with panic, not left calm and online."
+          "rationale": "This pairing matches the report's definition of “Whitehats”."
         }
       ],
-      "hint": "Communications dark, cables, and panic-blame on NPC channels.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "B"
     },
     {

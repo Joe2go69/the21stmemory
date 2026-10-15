@@ -530,35 +530,35 @@
     },
     {
       "number": 17,
-      "question": "What primary goal did the Anakim maintain while operating from their covert subterranean sanctuary?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "They rebuilt their population numbers and upheld their ancestral oath to protect human biological development.",
-          "isCorrect": true,
-          "rationale": "The base was a recovery and repopulation node with technological archives."
+          "text": "H1 Orion Incident — The 1947 interception and tactical downing of two hostile Grey reconnaissance craft over Roswell, New Mexico by the Anakim, precipitating base exposure and technology leaks.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “H1 Orion Incident”."
         },
         {
           "label": "B",
-          "text": "Constructing directed energy weapons to petrify surface human populations.",
+          "text": "Inner Earth — Subterranean simulation domains existing beneath the surface plain, operating under isolated frequency parameters and protected by historic non-interference covenants.",
           "isCorrect": false,
-          "rationale": "Directed energy weapons were used against giant cities and caused the petrifactions."
+          "rationale": "This pairing matches the report's definition of “Inner Earth”."
         },
         {
           "label": "C",
-          "text": "Negotiating shared control over surface farm culls with parasitic controllers.",
+          "text": "Inner Earth Treaties — Binding covenants established between parasitic controllers and subterranean domains to permanently exclude inner-earth populations from surface harvest cycles.",
           "isCorrect": false,
-          "rationale": "The Anakim shattered the parasite control schedule rather than joining the farm culls."
+          "rationale": "This pairing matches the report's definition of “Inner Earth Treaties”."
         },
         {
           "label": "D",
-          "text": "Merging inner-earth simulations into surface atmospheric grids.",
-          "isCorrect": false,
-          "rationale": "Localized frequency parameters isolate interior geography from surface environmental shifts."
+          "text": "Petrifactions — Scheduled, systemic population harvests and mini-resets orchestrated by parasitic controllers to thin surface populations, extract loosh, and reset technological timelines.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Farm Culls”. The report defines “Petrifactions” as: The historic destruction mechanism executed during past resets where high-density energy weapons melted giant cities and transformed hundreds of living Anakim Giants into solid stone."
         }
       ],
-      "hint": "Consider the long-standing guardian role the giants held toward surface populations.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 18,

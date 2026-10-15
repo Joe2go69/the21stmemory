@@ -82,35 +82,35 @@
     },
     {
       "number": 3,
-      "question": "What is the historical significance behind the name of the 322 Skull & Bones Club?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The number records the founding date of the order in the early eighteenth century and the first London meeting of its members.",
+          "text": "Fame's First Sacrifice — The mandatory ritual obligation within occult soul-selling contracts requiring an initiate to sacrifice a close family member or loved one to secure high-level status and public wealth.",
           "isCorrect": false,
-          "rationale": "The 322 designation names subterranean trophy rooms and bone vaults, not a founding date."
+          "rationale": "This pairing matches the report's definition of “Fame's First Sacrifice”."
         },
         {
           "label": "B",
-          "text": "The number marks the original members who signed the first soul-selling contract and entered the binding state of the order.",
-          "isCorrect": false,
-          "rationale": "The designation refers to trophy rooms and cathedrals of human bones harvested across global reset cycles."
+          "text": "322 Skull & Bones Club — A specific stream of occult symbolism derived from the predatory habits of the owl, signifying ritual torture, energetic harvesting, and the extraction of Adrenochrome.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Owl Current”. The report defines “322 Skull & Bones Club” as: An elite subterranean order named after the trophy rooms and cathedrals of human bones harvested across global reset cycles."
         },
         {
           "label": "C",
-          "text": "The 322 Skull & Bones Club is an elite subterranean order named after the trophy rooms and cathedrals of human bones harvested across global reset cycles.",
-          "isCorrect": true,
-          "rationale": "The designation directly references the subterranean trophy rooms and bone vaults constructed after major planetary reset cycles."
+          "text": "Freemasonic Orders — A hierarchical global initiation system whose higher degrees manage societal gatekeeping, construct fabricated historical narratives, and protect initiates through institutional immunity.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Freemasonic Orders”."
         },
         {
           "label": "D",
-          "text": "The number is a mathematical code for the frequency of an energetic harvesting current used during ritual torture.",
+          "text": "33rd Degree — The elevated tier of Freemasonic initiation where members are fully cognizant of their role within the control architecture and participate directly in blood oaths and occult governance.",
           "isCorrect": false,
-          "rationale": "The name points to cathedrals of human bones harvested across global reset cycles, not a frequency code."
+          "rationale": "This pairing matches the report's definition of “33rd Degree”."
         }
       ],
-      "hint": "Look for the connection between the club name and the physical remnants of prior human populations.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 4,

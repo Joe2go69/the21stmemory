@@ -358,35 +358,35 @@
     },
     {
       "number": 12,
-      "question": "What effect does the departure of the Resonating Army have on the 3D matrix?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It strengthens the electromagnetic containment loop to prevent further exits.",
+          "text": "Homecoming Path — The direct, resonance-governed departure route through which awakened ET sols and returners exit the Known Lands directly to their original realms of origin without undergoing intermediate healing cycles.",
           "isCorrect": false,
-          "rationale": "The exit of the army actually shatters the overlay from the inside, leading to its total dissolution."
+          "rationale": "This pairing matches the report's definition of “Homecoming Path”."
         },
         {
           "label": "B",
-          "text": "It stabilizes the planetary grid to allow the simulation to continue safely.",
-          "isCorrect": false,
-          "rationale": "The intent of the army's mission is to dissolve the simulation, not to stabilize or continue it."
+          "text": "Resonating Army — A non-physical frequency threshold and sacred resonance point where a sol's consciousness matches the high vibrations of the higher light realms, allowing direct passage home.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Portal of Vibration Alignment and Ascension”. The report defines “Resonating Army” as: The collective force of awakened ET souls and returners who descended into Earth's density with pre-embedded activation codes to hear the call, elevate the planetary frequency, and dissolve the parasitic overlays."
         },
         {
           "label": "C",
-          "text": "It triggers a massive frequency collapse of the artificial scaffolding.",
-          "isCorrect": true,
-          "rationale": "Without high-frequency sols anchoring the reality, the low-frequency structures of finance and governance dissolve."
+          "text": "ET Sols — Stellar-originated souls from various higher-dimensional worlds who temporarily entered human vessels to act as anchors of cosmic frequency and assist in the liberation of human souls.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “ET Sols”."
         },
         {
           "label": "D",
-          "text": "It causes the Spirit Tree to withdraw its light from the Second Realm.",
+          "text": "3D Matrix Net — The dense, artificial electromagnetic containment loop deployed by parasitic architectures on Earth, which is completely bypassed during the final homecoming extraction.",
           "isCorrect": false,
-          "rationale": "The departure allows the Second Realm to be fully revealed and nourished by the tree's pure light."
+          "rationale": "This pairing matches the report's definition of “3D Matrix Net”."
         }
       ],
-      "hint": "Think about what happens to a structure when its foundational supports are removed.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 13,

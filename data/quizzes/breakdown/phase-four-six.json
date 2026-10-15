@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What role do Phases Four through Six play in the Great Purge sequence?",
+      "question": "True or False: According to the report, “The Great Purge” refers to clones, biological copies, masked actors, holographic projections, and A.I. driven composites used to replace neutralized leaders to maintain optics.",
       "options": [
         {
           "label": "A",
-          "text": "They form the crucial operational bridge between covert dismantling of parasitic power (Phases One through Three) and overt revelation of the truth (Phases Seven and Eight).",
-          "isCorrect": true,
-          "rationale": "Phases Four through Six bridge the hidden neutralization work of Phases One through Three and the public truth phases that follow in Seven and Eight."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Controlled Stand-ins”. The report defines “The Great Purge” as: The multi-phase operational timeline initiated to remove all parasitic control from the realm without triggering premature societal collapse."
         },
         {
           "label": "B",
-          "text": "They replace Phases One through Three entirely by reopening underground economies and restoring full elite power before any public work begins.",
-          "isCorrect": false,
-          "rationale": "These phases follow after elites and underground economies are already neutralized; they do not reopen that power structure."
-        },
-        {
-          "label": "C",
-          "text": "They permanently freeze the timeline at business-as-usual optics so E.B.S. disclosure and mass reveal never arrive for sleepers.",
-          "isCorrect": false,
-          "rationale": "Narrative maintenance and lockdown prepare the population for the final truth broadcast rather than cancelling disclosure forever."
-        },
-        {
-          "label": "D",
-          "text": "They skip straight to Phase Eight tribunals and executions with no psychological management or lockdown preparation for the population.",
-          "isCorrect": false,
-          "rationale": "Phases Four through Six manage psychology and lockdown first; tribunals belong to Phase Eight after the E.B.S. reveal."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Controlled Stand-ins”, not “The Great Purge”."
         }
       ],
-      "hint": "They sit between covert dismantling and overt revelation.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “The Great Purge”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -178,35 +166,35 @@
     },
     {
       "number": 6,
-      "question": "What are Controlled Stand-ins used for after leaders are neutralized?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Permanent free-will world leaders who keep full original power and never follow scripted meetings, speeches, or public ceremonies.",
+          "text": "Sleepers — The unawakened masses existing within the 3D illusion who must be psychologically managed before the mass reveal.",
           "isCorrect": false,
-          "rationale": "Stand-ins preserve optics after real power is removed; they are not permanent free-will rulers with original command."
+          "rationale": "This pairing matches the report's definition of “Sleepers”."
         },
         {
           "label": "B",
-          "text": "Truth tribunal judges who immediately execute every parasite on day one without any business-as-usual holding pattern.",
+          "text": "Whitehats — The allied military and multi-dimensional command forces orchestrating the takedown of the parasitic structure and managing the narrative transition.",
           "isCorrect": false,
-          "rationale": "Tribunals and executions are Phase Eight aftermath; stand-ins hold the business-as-usual illusion during Narrative Maintenance."
+          "rationale": "This pairing matches the report's definition of “Whitehats”."
         },
         {
           "label": "C",
-          "text": "Clones, biological copies, masked actors, holographic projections, and A.I. driven composites that replace neutralized leaders to maintain optics.",
-          "isCorrect": true,
-          "rationale": "Controlled stand-ins include clones, biological copies, masked actors, holographics, and A.I. composites used to keep leadership optics intact."
+          "text": "Trigger Events — Staged geopolitical tensions and logistical disruptions designed to push the public toward questioning their reality.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Trigger Events”."
         },
         {
           "label": "D",
-          "text": "Only underground tunnel workers who dismantle trafficking pipelines by hand with no role in surface leadership appearances.",
-          "isCorrect": false,
-          "rationale": "Tunnel and trafficking dismantling belongs to earlier phases; stand-ins replace leaders for public optics on the surface."
+          "text": "Controlled Stand-ins — The Emergency Broadcast System that takes over media networks to deliver the ultimate truth to the public.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “E.B.S”. The report defines “Controlled Stand-ins” as: Clones, biological copies, masked actors, holographic projections, and A.I. driven composites used to replace neutralized leaders to maintain optics."
         }
       ],
-      "hint": "Optics tools that keep neutralized figures looking active.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 7,
@@ -242,35 +230,23 @@
     },
     {
       "number": 8,
-      "question": "What is The Lockdown Window?",
+      "question": "True or False: According to the report, “The Lockdown Window” refers to staged geopolitical tensions and logistical disruptions designed to push the public toward questioning their reality.",
       "options": [
         {
           "label": "A",
-          "text": "Only Phase One silent arrests of royalty with no street military presence or later E.B.S. containment role at all.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Phase One was covert apex neutralization; the Lockdown Window is Phase Six physical and informational control before E.B.S."
+          "rationale": "False — that description belongs to “Trigger Events”. The report defines “The Lockdown Window” as: A period of military presence and communication restriction establishing a controlled environment for the truth broadcast."
         },
         {
           "label": "B",
-          "text": "A permanent cancellation of the Emergency Broadcast System so absolute truth is never delivered to the public.",
-          "isCorrect": false,
-          "rationale": "The Lockdown Window prepares the exact controlled environment necessary for the E.B.S. to take over and broadcast truth."
-        },
-        {
-          "label": "C",
-          "text": "An open festival of unrestricted internet and traditional media celebrating business-as-usual leadership forever.",
-          "isCorrect": false,
-          "rationale": "The window restricts communications and stages removal of traditional media structures rather than expanding unrestricted media freedom."
-        },
-        {
-          "label": "D",
-          "text": "A period of military presence and communication restriction establishing a controlled environment for the truth broadcast.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "The Lockdown Window uses military presence and communication restriction to create the controlled environment for the truth broadcast."
+          "rationale": "Correct — that description belongs to “Trigger Events”, not “The Lockdown Window”."
         }
       ],
-      "hint": "Military presence plus restricted communications before truth lands.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “The Lockdown Window”.",
+      "correctAnswer": "B"
     },
     {
       "number": 9,

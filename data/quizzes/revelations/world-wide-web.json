@@ -82,35 +82,35 @@
     },
     {
       "number": 3,
-      "question": "What organic biological component does the World Wide Web attempt to replace through technological inversion?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The web replaces the innate biological spiritual hardware of the amygdala.",
+          "text": "Parasitic Lure — An engineered trap designed by the Custodians to capture human consciousness, harvest energy, and maintain cognitive control during reset cycles.",
           "isCorrect": false,
-          "rationale": "The web governs emotional responses through artificial feeds, but the organ it replaces is the Pineal Gland."
+          "rationale": "This pairing matches the report's definition of “Parasitic Lure”."
         },
         {
           "label": "B",
-          "text": "The web replaces the innate biological spiritual hardware of the prefrontal cortex.",
+          "text": "World Wide Web — The global digital network representing the largest artificial lure on the planet, serving as the technological inversion of organic Aetheric connectivity.",
           "isCorrect": false,
-          "rationale": "The prefrontal cortex is not the spiritual hardware the web substitutes. That hardware is the Pineal Gland."
+          "rationale": "This pairing matches the report's definition of “World Wide Web”."
         },
         {
           "label": "C",
-          "text": "The web replaces the innate biological spiritual hardware of the Pineal Gland.",
-          "isCorrect": true,
-          "rationale": "Technological inversion substitutes the pineal gland connection to the Aether with external physical devices and digital infrastructure."
+          "text": "Technological Inversion — The substitution of innate spiritual hardware, such as the pineal gland's connection to the Aether, with external physical devices and digital infrastructure.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Technological Inversion”."
         },
         {
           "label": "D",
-          "text": "The web replaces the innate biological spiritual hardware of the hippocampus.",
-          "isCorrect": false,
-          "rationale": "The inversion targets the Pineal Gland and its direct access to the Aether, not the hippocampus."
+          "text": "Vaf Vaf Vaf — A systematic state of psychological disorientation created by flooding the digital landscape with thousands of intelligence agency psyops to obfuscate living truth.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Deep-Confusion Conundrum”. The report defines “Vaf Vaf Vaf” as: The Hebrew letter sequence corresponding to the numerical value 666 and the acronym WWW, denoting the parasitic nature of the global web."
         }
       ],
-      "hint": "Think of the gland that gives direct access to the Aether.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 4,

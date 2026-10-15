@@ -18,35 +18,35 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the fundamental nature of the Ascension Event?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "A physical relocation of the human population to a distant solar system.",
+          "text": "Healing Sanctuaries — Specialized, invisible frequency spaces built from light, sound, and living crystal where unawakened or traumatized human souls are guided to recover and stabilize their vibrations.",
           "isCorrect": false,
-          "rationale": "The shift is an internal frequency change rather than a movement across physical space."
+          "rationale": "This pairing matches the report's definition of “Healing Sanctuaries”."
         },
         {
           "label": "B",
-          "text": "A cosmic frequency transition that dissolves the artificial 3D overlay.",
-          "isCorrect": true,
-          "rationale": "The event is a collapse of the artificial density constructs to reveal the true underlying reality."
+          "text": "Portal of Vibration Alignment and Ascension — A non-physical gateway and resonance threshold guarded by star families, through which souls transition to higher realms once their consciousness matches those higher vibrations.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Portal of Vibration Alignment and Ascension”."
         },
         {
           "label": "C",
-          "text": "A psychological awakening prompted by advances in human biological evolution.",
+          "text": "Resonating Souls — The awakened ET souls and human sparks who have raised their frequency to hear the harmonic call and anchor the light grid during the transition.",
           "isCorrect": false,
-          "rationale": "While it involves consciousness, the event is primarily a cosmic shift and the removal of an external holographic simulation."
+          "rationale": "This pairing matches the report's definition of “Resonating Souls”."
         },
         {
           "label": "D",
-          "text": "A global natural disaster intended to cleanse the earth's surface of pollutants.",
-          "isCorrect": false,
-          "rationale": "The process is a frequency collapse and transition, not a physical demolition or destruction."
+          "text": "Ascension Event — The original, unpolluted, and vibrant crystalline world characterized by smooth crystalline grounds, natural pathways, and free energy, which is revealed when the parasitic overlay collapses.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Second Realm”. The report defines “Ascension Event” as: The ultimate transitional cycle wherein the 3D projection overlay collapses and aligned souls exit the simulation through a frequency threshold."
         }
       ],
-      "hint": "Consider whether the event involves moving bodies to a new place or changing the vibration of the current environment.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 2,
@@ -114,35 +114,23 @@
     },
     {
       "number": 4,
-      "question": "What is the primary function of the 3D Holographic Overlay?",
+      "question": "True or False: According to the report, “3D Holographic Overlay” refers to the artificial, low-frequency projection grid installed by parasites that manipulates human perception, making dead concrete and matter appear solid while hiding the living crystalline temple of the realm.",
       "options": [
         {
           "label": "A",
-          "text": "To stabilize the earth's gravity and maintain the integrity of physical matter.",
-          "isCorrect": false,
-          "rationale": "The overlay actually masks the true nature of reality and makes dead matter appear solid."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “3D Holographic Overlay” this way."
         },
         {
           "label": "B",
-          "text": "To manipulate perception and hide the living crystalline temple of the realm.",
-          "isCorrect": true,
-          "rationale": "The projection grid masks the true, vibrant reality with a low-frequency perception of solid concrete and matter."
-        },
-        {
-          "label": "C",
-          "text": "To provide a protective shield against harmful cosmic radiation and debris.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The overlay is a manipulative tool installed by parasites rather than a protective environmental shield."
-        },
-        {
-          "label": "D",
-          "text": "To store the collective memories and history of the human experience.",
-          "isCorrect": false,
-          "rationale": "The overlay is used for manipulation, while crystals and leylines are actually responsible for recording soul journeys."
+          "rationale": "It is true — the report defines “3D Holographic Overlay” as: The artificial, low-frequency projection grid installed by parasites that manipulates human perception, making dead concrete and matter appear solid while hiding the living crystalline temple of the realm."
         }
       ],
-      "hint": "Reflect on how this artificial grid affects what humans see when they look at buildings and roads.",
-      "correctAnswer": "B"
+      "hint": "Recall how the report's Key Terminology defines “3D Holographic Overlay”.",
+      "correctAnswer": "A"
     },
     {
       "number": 5,
@@ -466,35 +454,23 @@
     },
     {
       "number": 15,
-      "question": "What is The Homecoming?",
+      "question": "True or False: According to the report, “The Homecoming” refers to A non-physical gateway and resonance threshold guarded by star families, through which souls transition to higher realms once their consciousness matches those higher vibrations.",
       "options": [
         {
           "label": "A",
-          "text": "The moment the human population realizes the truth about the simulation.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "While realization is part of it, the specific term refers to the return to origins and family."
+          "rationale": "False — that description belongs to “Portal of Vibration Alignment and Ascension”. The report defines “The Homecoming” as: The sacred process of returning through the Solar Gate Network to reunite with cosmic parents, star families, and twin flames, completely restoring memory and eliminating amnesia."
         },
         {
           "label": "B",
-          "text": "The physical rebuilding of human cities using crystalline materials.",
-          "isCorrect": false,
-          "rationale": "It is a spiritual and cosmic return rather than a physical construction project."
-        },
-        {
-          "label": "C",
-          "text": "The process of reuniting with solar families and restoring full memory.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "This involves returning through the Solar Gate Network and ending the cycle of amnesia."
-        },
-        {
-          "label": "D",
-          "text": "The return of the parasitic leaders to their original home planets.",
-          "isCorrect": false,
-          "rationale": "Homecoming is a sacred process for awakened beings, not for the parasites."
+          "rationale": "Correct — that description belongs to “Portal of Vibration Alignment and Ascension”, not “The Homecoming”."
         }
       ],
-      "hint": "Think about the reunion with cosmic parents and star families.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “The Homecoming”.",
+      "correctAnswer": "B"
     },
     {
       "number": 16,

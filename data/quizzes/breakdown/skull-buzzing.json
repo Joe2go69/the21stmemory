@@ -82,34 +82,22 @@
     },
     {
       "number": 3,
-      "question": "What are Signs in Body?",
+      "question": "True or False: According to the report, “Signs in Body” refers to A phase of the shift causing unprovoked adrenaline surges, heart rate spikes, and a thickening of the atmospheric air.",
       "options": [
         {
           "label": "A",
-          "text": "Only NPC panic scripts with no distinct body sensations for true Sols during the shift rather than Signs in Body as physical and sensory symptoms during overlay glitch.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Signs in Body include Sol vessel sensations during overlay glitch—not NPC scripts alone."
+          "rationale": "False — that description belongs to “The Sharp Edge”. The report defines “Signs in Body” as: The distinct physical and sensory symptoms experienced as the realm transitions and the false frequency overlay glitches."
         },
         {
           "label": "B",
-          "text": "Distinct physical and sensory symptoms experienced as the realm transitions and the false frequency overlay glitches.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Signs in Body are distinct physical and sensory symptoms as the realm transitions and the false frequency overlay glitches."
-        },
-        {
-          "label": "C",
-          "text": "Permanent silence in every vessel with zero transition symptoms and zero overlay glitch registration.",
-          "isCorrect": false,
-          "rationale": "Signs in Body mark transition and overlay glitch with clear sensory registration—not permanent silence."
-        },
-        {
-          "label": "D",
-          "text": "Only legal documents with no physical or sensory symptoms during any frequency overlay glitch.",
-          "isCorrect": false,
-          "rationale": "Signs in Body are lived physical and sensory symptoms—not legal documents alone."
+          "rationale": "Correct — that description belongs to “The Sharp Edge”, not “Signs in Body”."
         }
       ],
-      "hint": "Physical and sensory symptoms during realm transition and overlay glitch.",
+      "hint": "Recall how the report's Key Terminology defines “Signs in Body”.",
       "correctAnswer": "B"
     },
     {
@@ -146,35 +134,35 @@
     },
     {
       "number": 5,
-      "question": "What is Static Build Up in this transmission?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "A permanent calm with zero energetic pressure and zero physiological or electronic anomalies at all rather than Static Build Up as energetic pressure causing physiological and electronic anomalies.",
+          "text": "Signs in Body — The distinct physical and sensory symptoms experienced as the realm transitions and the false frequency overlay glitches.",
           "isCorrect": false,
-          "rationale": "Static Build Up is pressure accumulation producing anomalies and glitches—not permanent calm without signs."
+          "rationale": "This pairing matches the report's definition of “Signs in Body”."
         },
         {
           "label": "B",
-          "text": "The accumulation of energetic pressure during the frequency fracture that causes physiological anomalies and environmental electronic glitches.",
-          "isCorrect": true,
-          "rationale": "Static Build Up is accumulated energetic pressure during frequency fracture causing physiological anomalies and environmental electronic glitches."
+          "text": "The Drop in Tone — A phase of the frequency shift characterized by deep physical exhaustion and a visibly flattened, muted environment.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “The Drop in Tone”."
         },
         {
           "label": "C",
-          "text": "Only Voice to Skull projections with no organic static and no electronic environmental mirror.",
+          "text": "Subtle Buzzing in the Skull — A physical sensation resembling background white noise, indicating atmospheric and energetic static build-up.",
           "isCorrect": false,
-          "rationale": "Organic Static Build Up includes internal buzzing mirrored by external electronic glitches—distinct from Voice to Skull."
+          "rationale": "This pairing matches the report's definition of “Subtle Buzzing in the Skull”."
         },
         {
           "label": "D",
-          "text": "Only a banking holiday with no frequency fracture and no physiological anomaly in any vessel.",
-          "isCorrect": false,
-          "rationale": "Static Build Up is frequency-fracture pressure with body and electronics effects—not a banking holiday alone."
+          "text": "Static Build Up — A phase of the shift causing unprovoked adrenaline surges, heart rate spikes, and a thickening of the atmospheric air.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “The Sharp Edge”. The report defines “Static Build Up” as: The accumulation of energetic pressure during the frequency fracture that causes physiological anomalies and environmental electronic glitches."
         }
       ],
-      "hint": "Energetic pressure accumulation and what anomalies it causes.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 6,
@@ -210,34 +198,22 @@
     },
     {
       "number": 7,
-      "question": "What characterizes The Drop in Tone as a phase of the frequency shift?",
+      "question": "True or False: According to the report, “The Drop in Tone” refers to A phase of the frequency shift characterized by deep physical exhaustion and a visibly flattened, muted environment.",
       "options": [
         {
           "label": "A",
-          "text": "Deep physical exhaustion and a visibly flattened, muted environment as part of the frequency shift.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Drop in Tone is characterized by deep physical exhaustion and a visibly flattened, muted environment."
+          "rationale": "True — the report defines “The Drop in Tone” this way."
         },
         {
           "label": "B",
-          "text": "Only sharp high-pitch ear ringing with no tiredness and no muted environmental feel at all.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Ear ringing is Silence Before the Snap; Drop in Tone centers exhaustion and muted environment."
-        },
-        {
-          "label": "C",
-          "text": "Unlimited energy and a brilliantly dimensional sky with zero muted flattening of the field.",
-          "isCorrect": false,
-          "rationale": "Drop in Tone is exhaustion and muted flattened environment—not unlimited energy and brilliant depth."
-        },
-        {
-          "label": "D",
-          "text": "Only unprovoked adrenaline surges with no chest heaviness and no profound tiredness.",
-          "isCorrect": false,
-          "rationale": "Adrenaline surges are Sharp Edge; Drop in Tone includes sudden profound tiredness and chest heaviness."
+          "rationale": "It is true — the report defines “The Drop in Tone” as: A phase of the frequency shift characterized by deep physical exhaustion and a visibly flattened, muted environment."
         }
       ],
-      "hint": "Physical exhaustion and how the environment looks.",
+      "hint": "Recall how the report's Key Terminology defines “The Drop in Tone”.",
       "correctAnswer": "A"
     },
     {
@@ -662,25 +638,25 @@
       "options": [
         {
           "label": "A",
-          "text": "By using symptoms only to prove Voice to Skull is organic and never distinguish parasitic projections.",
+          "text": "The symptoms prove that Voice to Skull is an organic process, letting the army ignore parasitic projections during the blackout window.",
           "isCorrect": false,
           "rationale": "Sols must distinguish organic shift signs from parasitic Voice to Skull—not collapse that distinction."
         },
         {
           "label": "B",
-          "text": "By ignoring all body signs so no one ever confirms the true timeline during the blackout window.",
+          "text": "The symptoms tell the army when to hide, so that its members stay out of sight until the blackout window has passed.",
           "isCorrect": false,
           "rationale": "Recognition of buzzing, heart spikes, and exhaustion confirms the true timeline—not total ignore."
         },
         {
           "label": "C",
-          "text": "While masses and NPCs enter fear loops, scanning for intelligence and showing emotional outbursts or crying, awakened individuals recognize skull buzzing, heart spikes, and exhaustion as confirmation of the true timeline.",
+          "text": "While the masses enter fear loops, the awakened recognize skull buzzing, heart spikes, and exhaustion as confirmation of the true timeline.",
           "isCorrect": true,
           "rationale": "Understanding indicators is a tactical advantage: masses/NPCs fear-loop while awakened Sols read buzzing, heart spikes, and exhaustion as true-timeline confirmation."
         },
         {
           "label": "D",
-          "text": "By treating every symptom as random illness so Sols panic harder than NPCs in every crowd surge.",
+          "text": "The symptoms help the army identify NPCs in a crowd, since programs show the same signs before they glitch and dissolve.",
           "isCorrect": false,
           "rationale": "Advantage is recognizing symptoms as grid death throes—not random illness panic that deepens fear loops."
         }

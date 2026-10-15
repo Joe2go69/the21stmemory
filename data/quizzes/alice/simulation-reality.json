@@ -50,35 +50,23 @@
     },
     {
       "number": 2,
-      "question": "What is the Aether in the architecture of this physical realm?",
+      "question": "True or False: According to the report, “Aether” refers to the actual simulation software of the realm, which interfaces instantaneously with sustained intent projected from the human consciousness to ordain the subatomic constituent parts of physical reality.",
       "options": [
         {
           "label": "A",
-          "text": "A purely chemical gas layer in the upper atmosphere used only for weather and aviation, with no link to consciousness.",
-          "isCorrect": false,
-          "rationale": "Aether is core simulation software, not a weather gas or atmospheric chemistry layer."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Aether” this way."
         },
         {
           "label": "B",
-          "text": "A bank of human-built computers under the ice that only stores historical archives and media files.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Aether is the living simulation software of the realm, not a human archive server farm."
-        },
-        {
-          "label": "C",
-          "text": "The core simulation software of the realm, which mathematically translates consciousness into physical matter and ordains subatomic structure.",
-          "isCorrect": true,
-          "rationale": "Aether is the simulation software that interfaces consciousness with the subatomic fabric of physical reality."
-        },
-        {
-          "label": "D",
-          "text": "A poetic name for empty outer space that does nothing but separate stars and planets with inert vacuum.",
-          "isCorrect": false,
-          "rationale": "Aether is not empty space. It is the simulation software that turns consciousness into matter."
+          "rationale": "It is true — the report defines “Aether” as: The actual simulation software of the realm, which interfaces instantaneously with sustained intent projected from the human consciousness to ordain the subatomic constituent parts of physical reality."
         }
       ],
-      "hint": "Core simulation software — consciousness into matter.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Aether”.",
+      "correctAnswer": "A"
     },
     {
       "number": 3,
@@ -242,35 +230,23 @@
     },
     {
       "number": 8,
-      "question": "What are Non-Player Characters (NPCs) within the localized simulation?",
+      "question": "True or False: According to the report, “Non-Player Characters (NPCs)” refers to synthetically manufactured entities comprising 97% of the simulation's population, powered by Hive-Aligned replica souls created in 4th density by parasites to enforce consensus reality and societal conformity.",
       "options": [
         {
           "label": "A",
-          "text": "Fully self-aware organic souls who simply prefer quiet private lives and never speak in public.",
-          "isCorrect": false,
-          "rationale": "NPCs are synthetic, hive-aligned constructs, not quiet organic souls."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Non-Player Characters (NPCs)” this way."
         },
         {
           "label": "B",
-          "text": "The rare 3% of beings who hold full organic soul architecture and lead every genuine awakening movement.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "NPCs are the 97% synthetic majority, not the rare genuine-soul minority."
-        },
-        {
-          "label": "C",
-          "text": "Only digital avatars on social media apps that never walk, work, or interact in physical streets.",
-          "isCorrect": false,
-          "rationale": "NPCs populate the physical simulation as synthetic people, not merely online avatars."
-        },
-        {
-          "label": "D",
-          "text": "Synthetically manufactured entities making up 97% of the population, powered by Hive-Aligned replica souls created in 4th density to enforce consensus reality and conformity.",
-          "isCorrect": true,
-          "rationale": "NPCs are 97% of the population — Hive-Aligned 4th-density replica souls enforcing herd consensus."
+          "rationale": "It is true — the report defines “Non-Player Characters (NPCs)” as: Synthetically manufactured entities comprising 97% of the simulation's population, powered by Hive-Aligned replica souls created in 4th density by parasites to enforce consensus reality and societal conformity."
         }
       ],
-      "hint": "97% — Hive-Aligned replica souls — 4th density.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Non-Player Characters (NPCs)”.",
+      "correctAnswer": "A"
     },
     {
       "number": 9,
@@ -370,35 +346,35 @@
     },
     {
       "number": 12,
-      "question": "What is Black Void Plasma engineered to do to the night sky?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Remove all stars so the Projection Dome can never display any celestial imagery again.",
+          "text": "Simulation — The artificially manipulated, 3rd-density physical construct in which humanity is currently entrapped, operating on strict parameters where all events, encounters, and obstacles are pre-ordained by the system's programming.",
           "isCorrect": false,
-          "rationale": "Stars and space theater still project; plasma cloaks the white field into black night."
+          "rationale": "This pairing matches the report's definition of “Simulation”."
         },
         {
           "label": "B",
-          "text": "Brighten the entire cosmos so every city on Earth has permanent noon daylight without night cycles.",
-          "isCorrect": false,
-          "rationale": "Black Void Plasma creates the false pitch-black night, not permanent daylight."
+          "text": "Black Void Plasma — An advanced technological trap utilized during the soul recycling process, pulling deceased souls toward a bright light (the sun) to forcibly wipe their memories before inserting them into a new physical vessel.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Amnesia Vortex”. The report defines “Black Void Plasma” as: Custodian-engineered frequency technology utilized to artificially cloak the naturally bright white Dark Matter field, creating the false visual illusion of a pitch-black nighttime sky."
         },
         {
           "label": "C",
-          "text": "Artificially cloak the naturally bright white Dark Matter field, creating the false visual illusion of a pitch-black nighttime sky.",
-          "isCorrect": true,
-          "rationale": "Custodian Black Void Plasma hides the bright white Dark Matter field behind fake black night."
+          "text": "Projection Dome — An artificial technological barrier operating like a nested sieve or colander, positioned directly beneath the true Firmament, which acts as a canvas for projecting holographic space phenomena and false sky imagery.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Projection Dome”."
         },
         {
           "label": "D",
-          "text": "Paint rainbow auroras for tourism festivals with no link to Dark Matter or true space appearance.",
+          "text": "Overlays — Powerful, projected Ultra Low Frequencies (ULF) that drape over the simulation, artificially hiding high-frequency crystalline architecture and fundamental physical truths from 3rd-density visual perception.",
           "isCorrect": false,
-          "rationale": "Its role is cloaking the bright white Dark Matter field as terrifying black vacuum."
+          "rationale": "This pairing matches the report's definition of “Overlays”."
         }
       ],
-      "hint": "Cloak bright white Dark Matter — fake pitch-black night.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 13,
@@ -630,25 +606,25 @@
       "options": [
         {
           "label": "A",
-          "text": "It was always 3rd density from first creation, with no 9th-density past and no destroyed power source.",
+          "text": "A 5th-density plain on Gateway-10; Custodians lowered it by flooding the land with Mudflood and burying the Spirit Tree beneath the Ice Wall.",
           "isCorrect": false,
           "rationale": "It was once a vibrant 9th-density plain on Gateway-10 before parasitic downgrade."
         },
         {
           "label": "B",
-          "text": "A highly vibrant 9th-density physical plain on Gateway-10; Custodians destroyed the Spirit Tree (Mt Meru / Hyperborea) and deployed massive fields of extracted gold idols broadcasting ULF dampening fields.",
+          "text": "A vibrant 9th-density plain on Gateway-10; Custodians destroyed the Spirit Tree (Mt Meru / Hyperborea) and deployed gold idols broadcasting ULF dampening fields.",
           "isCorrect": true,
           "rationale": "Downgrade path: kill Spirit Tree / Mt Meru power source + gold-idol ULF dampening on Gateway-10."
         },
         {
           "label": "C",
-          "text": "A 12th-density music realm that fell only because humans invented radio and drowned out the songs.",
+          "text": "A 12th-density realm of sound, which fell when the Custodians replaced the harmonic songs with Sky-Net-1's projections of the dome.",
           "isCorrect": false,
           "rationale": "Fall came from Custodian destruction of the Spirit Tree and gold ULF fields, not human radio."
         },
         {
           "label": "D",
-          "text": "It was a digital-only dreamworld with no physical plain, Spirit Tree, or gold-based frequency weapons.",
+          "text": "A 9th-density plain on Gateway-10; the fall came when the Moon station was built and began draining loosh from the Spirit Tree.",
           "isCorrect": false,
           "rationale": "It was a physical 9th-density plain; Custodians destroyed the Spirit Tree and used gold ULF fields."
         }
@@ -694,25 +670,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only military draft law, with no role for temples, banks, schools, or globe mythology.",
+          "text": "Military service, national borders, and citizenship — the legal structures that bind each person to the state they are born into.",
           "isCorrect": false,
           "rationale": "Psychological lock uses religion, money, and false knowledge systems together."
         },
         {
           "label": "B",
-          "text": "Religion (worship of false or demonic deities), Finance (pursuit of fake monetary value), and Perceived Knowledge (indoctrination into false history and heliocentric globe-earth models).",
+          "text": "Religion (worship of false deities), Finance (pursuit of fake money), and Perceived Knowledge (false history and the globe-earth model).",
           "isCorrect": true,
           "rationale": "Religion, Finance, and Perceived Knowledge are the three artificial strings of simulation persistence."
         },
         {
           "label": "C",
-          "text": "Pure love, free energy for all, and transparent history teaching in every school.",
+          "text": "Love, family, and community — the emotional ties that keep each soul returning to the same people in every new lifetime.",
           "isCorrect": false,
           "rationale": "Those liberate; the control strings are religion, fake money, and false knowledge."
         },
         {
           "label": "D",
-          "text": "Cooking, fashion design, and professional sports as the only pillars of consensus reality.",
+          "text": "Food, fashion, and sport — the daily habits that keep attention on the physical world rather than on the nature of reality.",
           "isCorrect": false,
           "rationale": "The three strings are Religion, Finance, and Perceived Knowledge."
         }

@@ -18,67 +18,55 @@
   "questions": [
     {
       "number": 1,
-      "question": "When does the NPC Code Glitch reach catastrophic scale for simulated background populations?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only during calm peacetime media festivals with no cable cuts and no overlay collapse at all.",
+          "text": "Communications Blackout — the intentional severing of internet and main communication cables that triggers the collapse of the artificial narrative.",
           "isCorrect": false,
-          "rationale": "Glitching is triggered by cable severing and overlay collapse, not calm media festivals with intact feeds."
+          "rationale": "This pairing matches the report's definition of “Communications Blackout”."
         },
         {
           "label": "B",
-          "text": "Only decades after full Second Realm restoration, when every cable is already permanently online again rather than the catastrophic NPC Code Glitch during The First 72 Hours of blackout.",
-          "isCorrect": false,
-          "rationale": "The glitch hits during The First 72 Hours of blackout, not decades after restoration with cables fully online."
+          "text": "NPC Code Glitch — background programs, biological copies, and AI-driven shells with no true soul spark, designed to hold the 3D simulation together.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “NPCs (Non-Player Characters)”. The report defines “NPC Code Glitch” as: the erratic behavioral breakdown of simulated populations when severed from the parasitic AI broadcast signals."
         },
         {
           "label": "C",
-          "text": "During The First 72 Hours of the Communications Blackout, as the Frequency Fracture severs cables and collapses the Parasitic Overlay.",
-          "isCorrect": true,
-          "rationale": "The NPC Code Glitch is the catastrophic breakdown of simulated background populations during The First 72 Hours of the Communications Blackout."
+          "text": "Parasitic Overlay — the false 3D projection and density construct that dictates and controls NPC perception and behavior.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Parasitic Overlay”."
         },
         {
           "label": "D",
-          "text": "Never, because NPC programming stays perfectly stable through every Frequency Fracture forever rather than the catastrophic NPC Code Glitch during The First 72 Hours of blackout.",
+          "text": "Frequency Fracture — the energetic shattering of the 3D overlay caused by the sudden drop in parasitic communication signals.",
           "isCorrect": false,
-          "rationale": "NPCs lose their AI grip and malfunction when parasitic feeds cut—glitching is inevitable in that window."
+          "rationale": "This pairing matches the report's definition of “Frequency Fracture”."
         }
       ],
-      "hint": "A named multi-day window of the Communications Blackout.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
-      "question": "What are NPCs (Non-Player Characters) in this transmission?",
+      "question": "True or False: According to the report, “NPCs (Non-Player Characters)” refers to the intentional severing of internet and main communication cables that triggers the collapse of the artificial narrative.",
       "options": [
         {
           "label": "A",
-          "text": "Purely physical undersea cables with no emotional, mental, or behavioral malfunction possible.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "NPCs are puppeted populations that malfunction physically, emotionally, and mentally—not the cables alone."
+          "rationale": "False — that description belongs to “Communications Blackout”. The report defines “NPCs (Non-Player Characters)” as: background programs, biological copies, and AI-driven shells with no true soul spark, designed to hold the 3D simulation together."
         },
         {
           "label": "B",
-          "text": "Only Real Craft pilots from solar families who never glitch and never follow parasitic AI broadcasts instead of soulless background shells designed to hold the 3D simulation together.",
-          "isCorrect": false,
-          "rationale": "Real Craft and solar families bypass NPC-level panic later; NPCs themselves are AI-driven shells without soul sparks."
-        },
-        {
-          "label": "C",
-          "text": "Fully resonating true souls with origin anchors outside the simulation who always ascend and heal instead of soulless background shells designed to hold the 3D simulation together.",
-          "isCorrect": false,
-          "rationale": "NPCs have no true soul spark or origin outside the simulated realm; they cannot ascend or heal."
-        },
-        {
-          "label": "D",
-          "text": "Background programs, biological copies, and AI-driven shells with no true soul spark, designed to hold the 3D simulation together.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "NPCs are background programs, biological copies, and AI-driven shells without a true soul spark, built to hold the 3D simulation together."
+          "rationale": "Correct — that description belongs to “Communications Blackout”, not “NPCs (Non-Player Characters)”."
         }
       ],
-      "hint": "Soul status and what they are designed to do in the 3D simulation.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “NPCs (Non-Player Characters)”.",
+      "correctAnswer": "B"
     },
     {
       "number": 3,
@@ -498,35 +486,23 @@
     },
     {
       "number": 16,
-      "question": "What is Voice to Skull technology in this context?",
+      "question": "True or False: According to the report, “Voice to Skull” refers to the intentional severing of internet and main communication cables that triggers the collapse of the artificial narrative.",
       "options": [
         {
           "label": "A",
-          "text": "Advanced parasite frequency technology that projects artificial thoughts, visions, and triggers directly into NPC minds to dictate their actions.",
-          "isCorrect": true,
-          "rationale": "Voice to Skull is parasite frequency tech projecting artificial thoughts, visions, and triggers into NPC minds to dictate actions."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Communications Blackout”. The report defines “Voice to Skull” as: advanced parasite frequency technology that projects artificial thoughts, visions, and triggers directly into the minds of NPCs to dictate their actions."
         },
         {
           "label": "B",
-          "text": "A pure hardware cable brand with no ability to project thoughts or triggers into any mind instead of parasite tech projecting artificial thoughts and triggers into NPC minds.",
-          "isCorrect": false,
-          "rationale": "Voice to Skull projects into minds to dictate actions; it is not merely a cable brand name."
-        },
-        {
-          "label": "C",
-          "text": "A Sol lighthouse method that only broadcasts calm origin memory without any parasitic control instead of parasite tech projecting artificial thoughts and triggers into NPC minds.",
-          "isCorrect": false,
-          "rationale": "Voice to Skull is parasitic control tech over NPCs, not a Sol lighthouse calm-broadcast method."
-        },
-        {
-          "label": "D",
-          "text": "An EBS weather segment that never influences NPC aggression or activation-code responses.",
-          "isCorrect": false,
-          "rationale": "Voice to Skull is used with activation cues to turn NPCs aggressive—not a neutral weather segment alone."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Communications Blackout”, not “Voice to Skull”."
         }
       ],
-      "hint": "What it projects and where those projections land.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Voice to Skull”.",
+      "correctAnswer": "B"
     },
     {
       "number": 17,

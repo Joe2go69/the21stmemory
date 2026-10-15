@@ -50,67 +50,55 @@
     },
     {
       "number": 2,
-      "question": "What is a Twin Flame?",
+      "question": "True or False: According to the report, “Twin Flame” refers to A soul's ultimate counterpart, with whom they naturally exist in a state of non-linear time and synchronized transition in higher densities, but from whom they are strictly segregated during 3rd density incarnations.",
       "options": [
         {
           "label": "A",
-          "text": "Any random coworker who shares a lunch table for one fiscal year with no cosmic bond.",
-          "isCorrect": false,
-          "rationale": "Twin Flame is a soul's ultimate counterpart with deep higher-density synchronization."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Twin Flame” this way."
         },
         {
           "label": "B",
-          "text": "An NPC hive pair hard-wired to meet every lifetime as official Grey policy.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Greys prohibit Twin Flame reunion; they meticulously track and keep pairs apart."
-        },
-        {
-          "label": "C",
-          "text": "A soul's ultimate counterpart — naturally existing in non-linear time and synchronized transition in higher densities, but strictly segregated during 3rd density incarnations.",
-          "isCorrect": true,
-          "rationale": "Twin Flame = ultimate counterpart; higher densities sync them, 3rd density forces segregation."
-        },
-        {
-          "label": "D",
-          "text": "A Micro Sun title reserved only for Source-created beings with no counterpart dynamics.",
-          "isCorrect": false,
-          "rationale": "Micro Suns wove extended soul-family networks; Twin Flame is the counterpart bond within them."
+          "rationale": "It is true — the report defines “Twin Flame” as: A soul's ultimate counterpart, with whom they naturally exist in a state of non-linear time and synchronized transition in higher densities, but from whom they are strictly segregated during 3rd density incarnations."
         }
       ],
-      "hint": "Ultimate counterpart — synced above, segregated in 3rd density.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Twin Flame”.",
+      "correctAnswer": "A"
     },
     {
       "number": 3,
-      "question": "How do higher densities treat Twin Flames and Soul Family compared with 3rd density?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Both densities force permanent Twin Flame separation with identical amnesia technology always on.",
-          "isCorrect": false,
-          "rationale": "Higher-density life coordinates timelines and transitions; parasites engineer 3rd-density separation."
+          "text": "Twin Flame — The literal, cosmic network of Souls/Sols that make up an immediate family unit, entirely unrelated to planets or physical space.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Sol-System”. The report defines “Twin Flame” as: A soul's ultimate counterpart, with whom they naturally exist in a state of non-linear time and synchronized transition in higher densities, but from whom they are strictly segregated during 3rd density incarnations."
         },
         {
           "label": "B",
-          "text": "Natural higher-density existence lets Twin Flames and the broader Soul Family coordinate experiences, timelines, and transitions seamlessly.",
-          "isCorrect": true,
-          "rationale": "Above: seamless coordination. In 3rd density: engineered separation, amnesia, forced recycle."
+          "text": "Amnesia Vortex — The technological mechanism deployed during the death process to pull a soul toward the sun portal, stripping its memories before immediate forced reincarnation.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Amnesia Vortex”."
         },
         {
           "label": "C",
-          "text": "Higher densities only use Finance Strings while 3rd density has no reincarnation interference at all.",
+          "text": "Micro Suns — The original, highly powerful souls created directly from the Source of Creation, billions of years old, who went on to weave and generate the extended networks of soul families.",
           "isCorrect": false,
-          "rationale": "3rd density runs Amnesia Vortex recycling and Twin Flame segregation as core control."
+          "rationale": "This pairing matches the report's definition of “Micro Suns”."
         },
         {
           "label": "D",
-          "text": "Higher densities ban all family contact while 3rd density freely unites every Twin Flame by law.",
+          "text": "Pod Cluster — The localized grouping of incarnated Soul Family members that benevolent forces external to the matrix manage to keep together across successive 3rd density incarnation loops.",
           "isCorrect": false,
-          "rationale": "Higher densities allow seamless coordination; 3rd density is engineered to disrupt bonds."
+          "rationale": "This pairing matches the report's definition of “Pod Cluster”."
         }
       ],
-      "hint": "Higher densities coordinate freely — 3rd density forces separation and amnesia.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 4,
@@ -466,34 +454,22 @@
     },
     {
       "number": 15,
-      "question": "What is the Pod Cluster phenomenon despite Twin Flame isolation?",
+      "question": "True or False: According to the report, “Pod Cluster” refers to the localized grouping of incarnated Soul Family members that benevolent forces external to the matrix manage to keep together across successive 3rd density incarnation loops.",
       "options": [
         {
           "label": "A",
-          "text": "Benevolent Soul Family members outside the firmament maneuver incarnation so a Pod Cluster remains together throughout every 3rd density loop.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "External family keeps pods together every loop; Twin Flames stay split, but you are not alone."
+          "rationale": "True — the report defines “Pod Cluster” this way."
         },
         {
           "label": "B",
-          "text": "Hostile Greys scatter every friend and relative so no one ever meets the same soul twice.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Benevolent forces outside the firmament keep Pod Clusters together across every loop."
-        },
-        {
-          "label": "C",
-          "text": "A finance club that only meets after EMF and has no role during the occupation loops.",
-          "isCorrect": false,
-          "rationale": "Pods operate across successive 3rd density loops as living Soul Family proximity support."
-        },
-        {
-          "label": "D",
-          "text": "Pod Clusters only exist for Twin Flames who are required to share one address forever.",
-          "isCorrect": false,
-          "rationale": "Pods are broader Soul Family proximity; Twin Flames remain rigorously isolated."
+          "rationale": "It is true — the report defines “Pod Cluster” as: The localized grouping of incarnated Soul Family members that benevolent forces external to the matrix manage to keep together across successive 3rd density incarnation loops."
         }
       ],
-      "hint": "Outside-firmament family keeps pods together every loop.",
+      "hint": "Recall how the report's Key Terminology defines “Pod Cluster”.",
       "correctAnswer": "A"
     },
     {

@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary operational mandate of bio-engineered Portal Guards within the realm control architecture?",
+      "question": "True or False: According to the report, “Portal Guards” refers to A massive bio-engineered marine monster stationed at ocean portals and ice wall passageways to destroy or deter unauthorized naval vessels.",
       "options": [
         {
           "label": "A",
-          "text": "Portal Guards monitor human population growth and log demographic shifts across major urban sectors.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Their mandate is perimeter security around physical portal locations rather than urban demographic logs."
+          "rationale": "False — that description belongs to “Kraken”. The report defines “Portal Guards” as: Specialized bio-engineered entities created by parasitic controllers to enforce perimeter security and prevent unauthorized access around physical portal locations across terrestrial and aquatic domains."
         },
         {
           "label": "B",
-          "text": "Portal Guards guide human explorers safely through natural spatial portals into outer realm sectors.",
-          "isCorrect": false,
-          "rationale": "Portal guards prevent unpermitted human traversal and maintain complete spatial isolation."
-        },
-        {
-          "label": "C",
-          "text": "Portal Guards patrol restrict and defend dimensional boundary access points to prevent unpermitted human traversal.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Portal Guards patrol restrict and defend dimensional boundary access points to prevent unpermitted human traversal between spatial overlays and external sectors."
-        },
-        {
-          "label": "D",
-          "text": "Portal Guards harvest natural mineral resources and transport raw materials to off-world custodial bases.",
-          "isCorrect": false,
-          "rationale": "Their mandate is to defend dimensional boundary access points rather than to extract minerals."
+          "rationale": "Correct — that description belongs to “Kraken”, not “Portal Guards”."
         }
       ],
-      "hint": "Focus on the security purpose of these entities at boundary gates.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Portal Guards”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -146,35 +134,35 @@
     },
     {
       "number": 5,
-      "question": "How does bilocation function for 4th-density portal guards?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Bilocation lets an entity change physical scale to match the surrounding canopy.",
+          "text": "Dyatlov Portal — One of the physical plane's most stable natural land portal locations, located in the Ural Mountains and secured by resident yeti portal guards.",
           "isCorrect": false,
-          "rationale": "Bilocation is a spatial transition rather than a change of body scale."
+          "rationale": "This pairing matches the report's definition of “Dyatlov Portal”."
         },
         {
           "label": "B",
-          "text": "Bilocation projects an intangible optical illusion while the entity stays in its original location.",
+          "text": "Sea Gates — Seafaring passageways piercing the ice wall that connect the realm's internal ocean to outer sectors, guarded by massive marine entities.",
           "isCorrect": false,
-          "rationale": "Bilocation is a real presence in two distinct spatial points before a full transition."
+          "rationale": "This pairing matches the report's definition of “Sea Gates”."
         },
         {
           "label": "C",
-          "text": "Bilocation splits one biological body permanently into two independent organisms.",
-          "isCorrect": false,
-          "rationale": "The double presence lasts a brief moment before the guard fully transitions to one chosen location."
+          "text": "Bilocation — A massive bio-engineered marine monster stationed at ocean portals and ice wall passageways to destroy or deter unauthorized naval vessels.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Kraken”. The report defines “Bilocation” as: The operational ability of 4th-density portal guards to exist in two distinct spatial points simultaneously for a brief moment before fully transitioning to the chosen secondary location."
         },
         {
           "label": "D",
-          "text": "Bilocation lets portal guards exist in two distinct spatial points simultaneously for a brief moment before fully transitioning.",
-          "isCorrect": true,
-          "rationale": "Bilocation lets 4th-density portal guards exist in two distinct spatial points simultaneously for a brief moment before fully transitioning to the chosen secondary location."
+          "text": "Land Gates — Terrestrial portal locations situated across physical landmasses—such as Dyatlov Pass, Sedona, and Israel—guarded by 4th-density hominid entities.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Land Gates”."
         }
       ],
-      "hint": "Consider the ability to be briefly present at two spatial points.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 6,
@@ -370,34 +358,22 @@
     },
     {
       "number": 12,
-      "question": "What secondary ecological function do sasquatch fulfill beyond portal defense?",
+      "question": "True or False: According to the report, “Sasquatch” refers to A high-intelligence, 4th-density hominid entity engineered for terrestrial portal defense, territorial deterrence, and remote wildlife seeding.",
       "options": [
         {
           "label": "A",
-          "text": "Sasquatch serve secondary ecological management functions by introducing and seeding new species into recently reset geographic regions.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Sasquatch serve secondary ecological management functions by introducing and seeding new species of wildlife into remote or recently reset geographic regions."
+          "rationale": "True — the report defines “Sasquatch” this way."
         },
         {
           "label": "B",
-          "text": "Sasquatch excavate underground tunnel networks that link separated terrestrial land portals.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Their secondary role is introducing and seeding new species of wildlife rather than digging tunnels."
-        },
-        {
-          "label": "C",
-          "text": "Sasquatch purify freshwater rivers with localized high-frequency scalar fields.",
-          "isCorrect": false,
-          "rationale": "Their secondary function is introducing and seeding new species rather than purifying rivers."
-        },
-        {
-          "label": "D",
-          "text": "Sasquatch regulate atmospheric carbon by altering canopy growth across mountain ranges.",
-          "isCorrect": false,
-          "rationale": "Their secondary function is seeding wildlife into recently reset geographic regions."
+          "rationale": "It is true — the report defines “Sasquatch” as: A high-intelligence, 4th-density hominid entity engineered for terrestrial portal defense, territorial deterrence, and remote wildlife seeding."
         }
       ],
-      "hint": "Consider the biological task sasquatch perform in remote or newly reset regions.",
+      "hint": "Recall how the report's Key Terminology defines “Sasquatch”.",
       "correctAnswer": "A"
     },
     {

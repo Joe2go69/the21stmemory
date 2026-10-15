@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary operational objective of ET Support during the ascension process?",
+      "question": "True or False: According to the report, “ET Support” refers to the overarching operational, technological, and spiritual assistance provided by benevolent extraterrestrial intelligence to guide humanity through ascension and realm restoration.",
       "options": [
         {
           "label": "A",
-          "text": "Monitoring planetary resources for extraction to higher densities.",
-          "isCorrect": false,
-          "rationale": "The mission is based on planetary liberation and restoration, not the utilization of terrestrial resources for external gain."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “ET Support” this way."
         },
         {
           "label": "B",
-          "text": "Negotiating trade agreements between surface and off-world groups.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "While exopolitical structures exist, the focus is on spiritual and technological support rather than commercial exchange."
-        },
-        {
-          "label": "C",
-          "text": "Administering interventions to restore original organic timelines.",
-          "isCorrect": true,
-          "rationale": "Benevolent civilizations deploy technology and energy to collapse artificial matrices and return the realm to its organic frequency."
-        },
-        {
-          "label": "D",
-          "text": "Establishing a centralized military command to police the surface.",
-          "isCorrect": false,
-          "rationale": "This suggests a coercive control model, which contradicts the stated goal of empathetic and restorative architecture."
+          "rationale": "It is true — the report defines “ET Support” as: The overarching operational, technological, and spiritual assistance provided by benevolent extraterrestrial intelligence to guide humanity through ascension and realm restoration."
         }
       ],
-      "hint": "Consider whether the intervention is designed to control populations or to rectify the underlying structure of reality.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “ET Support”.",
+      "correctAnswer": "A"
     },
     {
       "number": 2,
@@ -274,35 +262,35 @@
     },
     {
       "number": 9,
-      "question": "What is the significance of Project Looking Glass in the master plan?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It is used to monitor the thoughts of the human population.",
-          "isCorrect": false,
-          "rationale": "The technology is utilized for temporal engineering and mission security, not for individual surveillance or thought control."
+          "text": "Project Looking Glass — The grounded collective of high-vibrational human souls working in direct energetic alignment with off-world extraterrestrial oversight.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Resonating Army”. The report defines “Project Looking Glass” as: Advanced time-travel technology utilized by positive forces to jump forward in time and pre-implant quartz crystal conductors beneath the earth."
         },
         {
           "label": "B",
-          "text": "It serves as the main engine for the celestial transport ships.",
+          "text": "Healing Sanctuaries — Specialized continental facilities established under extraterrestrial oversight to rehabilitate human psychological and vibrational distortions.",
           "isCorrect": false,
-          "rationale": "While it is advanced technology, it is a temporal tool used for timeline management rather than a propulsion system."
+          "rationale": "This pairing matches the report's definition of “Healing Sanctuaries”."
         },
         {
           "label": "C",
-          "text": "It generates a holographic shield around the solar system.",
+          "text": "Sun Activation — The operational event wherein extraterrestrial entities trigger solar electromagnetic flashes to energize implanted planetary quartz grids.",
           "isCorrect": false,
-          "rationale": "The technology is focused on jumping through time to anchor the grid, rather than creating static defensive shields."
+          "rationale": "This pairing matches the report's definition of “Sun Activation”."
         },
         {
           "label": "D",
-          "text": "It allowed for the pre-implantation of crystals via time-travel.",
-          "isCorrect": true,
-          "rationale": "Advanced temporal technology enabled positive forces to secure the energetic foundation before the surface playout began."
+          "text": "Space Force — The surface-level and exo-atmospheric military alliance branch backing off-world supervisory forces in maintaining order and security during ascension.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Space Force”."
         }
       ],
-      "hint": "This tool concerns the manipulation of time to set the stage for the present.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 10,

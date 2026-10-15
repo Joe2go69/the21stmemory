@@ -18,34 +18,22 @@
   "questions": [
     {
       "number": 1,
-      "question": "What fundamental role do MedBeds serve within the broader control matrix?",
+      "question": "True or False: According to the report, “MedBeds” refers to the manufactured health half of the parasitic salvation lure that promises complete bodily restoration and age-regression to look thirty years younger, existing solely as a psychological distraction that never arrives.",
       "options": [
         {
           "label": "A",
-          "text": "MedBeds are fundamentally an engineered internet lure and psychological stall mechanism rather than a functional physical apparatus.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "They trap conscious awareness in perpetual anticipation and keep awakening souls tied to false external saviors."
+          "rationale": "True — the report defines “MedBeds” this way."
         },
         {
           "label": "B",
-          "text": "They function as an environmental remediation system created to counter planetary toxins and fluoridation.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Fluoridation and environmental toxins suppress organic hardware while MedBeds are the health lure."
-        },
-        {
-          "label": "C",
-          "text": "They represent a benign transitional technology intended to ease humanity into multidimensional awareness.",
-          "isCorrect": false,
-          "rationale": "MedBeds are an engineered internet lure and psychological stall mechanism rather than a helpful transition."
-        },
-        {
-          "label": "D",
-          "text": "They act as physical medical pods currently running secret trials inside restricted military facilities.",
-          "isCorrect": false,
-          "rationale": "MedBeds are not a functional physical apparatus and they do not arrive."
+          "rationale": "It is true — the report defines “MedBeds” as: The manufactured health half of the parasitic salvation lure that promises complete bodily restoration and age-regression to look thirty years younger, existing solely as a psychological distraction that never arrives."
         }
       ],
-      "hint": "Consider whether the primary function is physical treatment or psychological redirection.",
+      "hint": "Recall how the report's Key Terminology defines “MedBeds”.",
       "correctAnswer": "A"
     },
     {
@@ -82,35 +70,35 @@
     },
     {
       "number": 3,
-      "question": "How is the Health Half of the salvation trap structurally paired within the control narrative?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It is combined with organic dietary protocols meant to replace conventional medical treatment.",
+          "text": "Health Half — The physical counterpart of the broader salvation trap, pairing bodily restoration and youth restoration alongside monetary promises like gold and quantum banking rails.",
           "isCorrect": false,
-          "rationale": "The Health Half pairs bodily restoration with monetary promises like gold and quantum banking rails."
+          "rationale": "This pairing matches the report's definition of “Health Half”."
         },
         {
           "label": "B",
-          "text": "It is structured as an off-grid spiritual retreat designed to bypass digital network tracking.",
-          "isCorrect": false,
-          "rationale": "MedBeds rely on the digital grid for dissemination rather than on off-grid retreats."
+          "text": "Salvation Lure — A psychological tactic executed through online influencers, truther networks, and false claims of active usage to keep individuals waiting passively for external rescue.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Stall Mechanism”. The report defines “Salvation Lure” as: An orchestrated free-will trap designed by custodial forces to capture human consent through false promises of financial abundance and physical redemption."
         },
         {
           "label": "C",
-          "text": "It is offered only to people who have already fully uncalcified their pineal glands.",
+          "text": "Internet Lure — Deceptive topics and psyops engineered and distributed across digital channels that create a false perception of truth simply because they are extensively discussed online.",
           "isCorrect": false,
-          "rationale": "The lure appeals to every fundamental human want rather than to a prepared pineal gland."
+          "rationale": "This pairing matches the report's definition of “Internet Lure”."
         },
         {
           "label": "D",
-          "text": "The Health Half is marketed directly alongside physical gold and the Quantum Financial Initiative.",
-          "isCorrect": true,
-          "rationale": "That dual package offers total financial prosperity alongside complete physical rejuvenation."
+          "text": "Quantum Financial Initiative — The financial pillar of the custodial salvation trap, presented alongside MedBeds to entice individuals into signing away their free-will signatures.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Quantum Financial Initiative”."
         }
       ],
-      "hint": "Focus on the two wants targeted by the dual package.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 4,
@@ -786,34 +774,22 @@
     },
     {
       "number": 25,
-      "question": "Why are MedBeds categorized specifically as a stall mechanism?",
+      "question": "True or False: According to the report, “Stall Mechanism” refers to the physical counterpart of the broader salvation trap, pairing bodily restoration and youth restoration alongside monetary promises like gold and quantum banking rails.",
       "options": [
         {
           "label": "A",
-          "text": "They slow the physical aging process until it reaches a complete biological standstill.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The stall keeps people waiting passively for external rescue. It does not stop aging."
+          "rationale": "False — that description belongs to “Health Half”. The report defines “Stall Mechanism” as: A psychological tactic executed through online influencers, truther networks, and false claims of active usage to keep individuals waiting passively for external rescue."
         },
         {
           "label": "B",
-          "text": "MedBeds are a psychological stall mechanism that traps conscious awareness in perpetual anticipation and keeps awakening souls tied to false external saviors.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "False claims of active usage keep individuals waiting passively for external rescue and delay true spiritual ascension."
-        },
-        {
-          "label": "C",
-          "text": "They halt natural endogenous DMT production inside the brain.",
-          "isCorrect": false,
-          "rationale": "DMT suppression runs through fluoridation and environmental toxins while the stall is psychological waiting."
-        },
-        {
-          "label": "D",
-          "text": "They temporarily freeze the financial collapse of mainstream central banks.",
-          "isCorrect": false,
-          "rationale": "The stall mechanism keeps individuals waiting passively for external rescue rather than timing a bank collapse."
+          "rationale": "Correct — that description belongs to “Health Half”, not “Stall Mechanism”."
         }
       ],
-      "hint": "Consider what constant expectation of an external rescue does to inner work.",
+      "hint": "Recall how the report's Key Terminology defines “Stall Mechanism”.",
       "correctAnswer": "B"
     }
   ]

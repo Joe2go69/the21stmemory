@@ -82,67 +82,43 @@
     },
     {
       "number": 3,
-      "question": "In operational reality, what function does the promised Redemption Centre serve?",
+      "question": "True or False: According to the report, “Redemption Centre” refers to an artificial psychological construct deployed by custodial managers to leverage human hope and vulnerability, enticing individuals to voluntarily yield their free will.",
       "options": [
         {
           "label": "A",
-          "text": "A legitimate physical node where individuals exchange legacy bonds for sovereign wealth on appointment day.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Bond redemption is the expectation while the centre operates as a stall and a vector toward custodial containment."
+          "rationale": "False — that description belongs to “Salvation Lure”. The report defines “Redemption Centre” as: A promised physical facility where individuals expect to process currency exchanges or redeem financial bonds, serving in practice as an operational stall and a physical vector toward custodial containment."
         },
         {
           "label": "B",
-          "text": "A decentralized network designed to audit private bank loans and cancel predatory credit at the counter.",
-          "isCorrect": false,
-          "rationale": "A Redemption Centre serves as an operational stall and a physical vector toward custodial containment."
-        },
-        {
-          "label": "C",
-          "text": "A secure government facility established to revalue local and foreign currencies on fair public terms.",
-          "isCorrect": false,
-          "rationale": "The centre is a promised facility for currency exchanges that in practice stalls people and points toward containment."
-        },
-        {
-          "label": "D",
-          "text": "A Redemption Centre serves as an operational stall and a physical vector toward custodial containment.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "People expect to process currency exchanges or redeem financial bonds at a facility that leads toward containment."
+          "rationale": "Correct — that description belongs to “Salvation Lure”, not “Redemption Centre”."
         }
       ],
-      "hint": "Think about how physical intake facilities are used to manage target populations.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Redemption Centre”.",
+      "correctAnswer": "B"
     },
     {
       "number": 4,
-      "question": "How is the classification Tier 4B defined within the narrative framework?",
+      "question": "True or False: According to the report, “Tier 4B” refers to the narrative classification applied to internet-informed citizens awaiting private redemption-centre appointments and sovereign wealth payouts.",
       "options": [
         {
           "label": "A",
-          "text": "Institutional bondholders holding priority status for the first wave of sovereign currency revaluation.",
-          "isCorrect": false,
-          "rationale": "Tier 4B is the narrative classification applied to internet-informed citizens awaiting redemption-centre appointments."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Tier 4B” this way."
         },
         {
           "label": "B",
-          "text": "Early-stage humanitarian leaders assigned to manage regional distribution centers and project funding desks.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Humanitarian projects are a separate entry point while Tier 4B awaits private redemption-centre appointments."
-        },
-        {
-          "label": "C",
-          "text": "Tier 4B is the narrative classification applied to internet-informed citizens awaiting private redemption-centre appointments and sovereign wealth payouts.",
-          "isCorrect": true,
-          "rationale": "Those citizens are kept waiting on appointment notices and payout stories."
-        },
-        {
-          "label": "D",
-          "text": "Government officials appointed to oversee the public roll-out of quantum digital phones and account keys.",
-          "isCorrect": false,
-          "rationale": "Tier 4B names internet-informed citizens awaiting sovereign wealth payouts rather than officials who issue phones."
+          "rationale": "It is true — the report defines “Tier 4B” as: The narrative classification applied to internet-informed citizens awaiting private redemption-centre appointments and sovereign wealth payouts."
         }
       ],
-      "hint": "Identify the group that follows online updates while expecting a private redemption appointment.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Tier 4B”.",
+      "correctAnswer": "A"
     },
     {
       "number": 5,
@@ -178,34 +154,34 @@
     },
     {
       "number": 6,
-      "question": "How is the Quantum Financial System (QFS) marketed within the companion narrative apparatus?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "A legacy banking protocol updated to automate global tax collection and routine audit procedures for every account.",
+          "text": "Redemption Centre — A promised physical facility where individuals expect to process currency exchanges or redeem financial bonds, serving in practice as an operational stall and a physical vector toward custodial containment.",
           "isCorrect": false,
-          "rationale": "The QFS is marketed as a digital banking network for wealth distribution rather than as an upgrade of legacy tax collection."
+          "rationale": "This pairing matches the report's definition of “Redemption Centre”."
         },
         {
           "label": "B",
-          "text": "The Quantum Financial System is a companion narrative apparatus marketed as a digital banking network designed to manage wealth distribution and integrate with specialized Q-phones.",
+          "text": "Tier 4B — An artificial psychological construct deployed by custodial managers to leverage human hope and vulnerability, enticing individuals to voluntarily yield their free will.",
           "isCorrect": true,
-          "rationale": "It is marketed as an unhackable quantum-backed network that manages wealth distribution alongside Q-phones."
+          "rationale": "That description belongs to “Salvation Lure”. The report defines “Tier 4B” as: The narrative classification applied to internet-informed citizens awaiting private redemption-centre appointments and sovereign wealth payouts."
         },
         {
           "label": "C",
-          "text": "A localized physical gold reserve network managed by sovereign wealth custodians and neighborhood vault clerks.",
+          "text": "Global Economic Security and Recovery Act — The nominal title assigned to the fictional debt-clearing legislation used to exploit human material needs and extract free will consent.",
           "isCorrect": false,
-          "rationale": "The QFS is marketed as a digital banking network designed to manage wealth distribution and integrate with Q-phones."
+          "rationale": "This pairing matches the report's definition of “Global Economic Security and Recovery Act”."
         },
         {
           "label": "D",
-          "text": "A public blockchain initiative designed to operate completely free of central oversight and account monitoring.",
+          "text": "Quantum Financial System (QFS) — A companion narrative apparatus marketed as an unhackable, quantum-backed digital banking network designed to manage wealth distribution and integrate with specialized Q-phones.",
           "isCorrect": false,
-          "rationale": "Reliance on the QFS conditions the public to accept central bank monitoring rather than freedom from oversight."
+          "rationale": "This pairing matches the report's definition of “Quantum Financial System (QFS)”."
         }
       ],
-      "hint": "Look for the digital banking architecture paired with dedicated mobile devices.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "B"
     },
     {

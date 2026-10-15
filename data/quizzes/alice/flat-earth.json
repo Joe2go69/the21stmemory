@@ -18,35 +18,35 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is Flat Earth in true cosmology?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "One of 178 spinning spheres orbiting a distant thermodynamic sun.",
+          "text": "Flat Earth — The true, horizontal physical plane of existence, directly contradicting the manufactured lie of a spinning globe.",
           "isCorrect": false,
-          "rationale": "Gateway-10's 178 worlds function horizontally; stars are not distant thermodynamic suns."
+          "rationale": "This pairing matches the report's definition of “Flat Earth”."
         },
         {
           "label": "B",
-          "text": "A temporary metaphor used only until Heliocentrism is proven by gravity.",
-          "isCorrect": false,
-          "rationale": "Gravity is fictional and Heliocentrism is fake; flat is the actual plane, not a metaphor."
+          "text": "Ice Wall — A fake, manufactured cosmological model designed to convince humanity that planets orbit suns.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Heliocentrism”. The report defines “Ice Wall” as: The physical boundary, such as the fake ice wall of Antarctica, that sections off human reality from the rest of the flat, horizontal realms."
         },
         {
           "label": "C",
-          "text": "The true horizontal physical plane of existence, directly contradicting the manufactured lie of a spinning globe.",
-          "isCorrect": true,
-          "rationale": "Flat Earth is the real horizontal physical plane. The spinning globe is manufactured lie, not architecture."
+          "text": "Simulation — The multidimensional etheric supercomputer and physical plane of existence where this flat reality operates.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Simulation”."
         },
         {
           "label": "D",
-          "text": "Only Antarctica's Ice Wall with open vacuum beyond every edge.",
+          "text": "Gateway-10 — The central physical plane comprising 178 worlds, functioning horizontally, where the known Earth currently resides at the center.",
           "isCorrect": false,
-          "rationale": "Ice Walls partition known lands from wider flat realms of Gateway-10 — not empty vacuum edges of a lone disk myth."
+          "rationale": "This pairing matches the report's definition of “Gateway-10”."
         }
       ],
-      "hint": "True horizontal plane — not a spinning globe.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -150,25 +150,25 @@
       "options": [
         {
           "label": "A",
-          "text": "It is the absolute prerequisite and primary stepping-stone to comprehending the Great Spiritual Awakening and the wider cosmological deception.",
+          "text": "It is the absolute prerequisite and first stepping-stone to grasping the Great Spiritual Awakening and the wider deception.",
           "isCorrect": true,
           "rationale": "True Earth shape is the absolute prerequisite and primary stepping-stone into the Great Spiritual Awakening and wider cosmological deception."
         },
         {
           "label": "B",
-          "text": "Irrelevant once Black Void Plasma thickens the night sky.",
+          "text": "It matters little once Black Void Plasma thickens the night sky, since the stars can no longer be studied from the ground.",
           "isCorrect": false,
           "rationale": "Plasma hides bright white true space; shape knowledge remains mandatory first step regardless."
         },
         {
           "label": "C",
-          "text": "Nothing beyond useful for NPC educators writing Heliocentrism textbooks.",
+          "text": "It is useful mainly to NPC educators, who need it to understand the Heliocentrism textbooks they are asked to teach.",
           "isCorrect": false,
           "rationale": "Heliocentrism is the deception to unlearn; true shape is for souls exiting the matrix."
         },
         {
           "label": "D",
-          "text": "Optional trivia after you master Finance and Religion strings only.",
+          "text": "It is a later step, best approached after the Finance and Religion strings have been fully understood and released.",
           "isCorrect": false,
           "rationale": "Globe lie is a foundational Perceived Knowledge pillar; shape knowledge is first-step critical, not optional trivia."
         }
@@ -242,35 +242,23 @@
     },
     {
       "number": 8,
-      "question": "What is Gateway-10?",
+      "question": "True or False: According to the report, “Gateway-10” refers to the central physical plane comprising 178 worlds, functioning horizontally, where the known Earth currently resides at the center.",
       "options": [
         {
           "label": "A",
-          "text": "A single globe rotating anti-clockwise at nearly 1,000 miles per hour.",
-          "isCorrect": false,
-          "rationale": "That spin story is the fabricated ball model; Gateway-10 is horizontal multi-world layout."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Gateway-10” this way."
         },
         {
           "label": "B",
-          "text": "Only Antarctica with no other realms beyond the Ice Wall.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Ice Walls section human reality from the rest of the flat horizontal realms of Gateway-10."
-        },
-        {
-          "label": "C",
-          "text": "The central physical plane comprising 178 worlds, functioning horizontally, where the known Earth currently resides at the center.",
-          "isCorrect": true,
-          "rationale": "Gateway-10 is 178 horizontally functioning worlds; known Earth sits at the center of that central plane."
-        },
-        {
-          "label": "D",
-          "text": "The name of the holographic projection dome alone.",
-          "isCorrect": false,
-          "rationale": "The dome is inner sky tech the G.A.A. will remove; Gateway-10 is the multi-world plane."
+          "rationale": "It is true — the report defines “Gateway-10” as: The central physical plane comprising 178 worlds, functioning horizontally, where the known Earth currently resides at the center."
         }
       ],
-      "hint": "178 horizontal worlds — known Earth at center.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Gateway-10”.",
+      "correctAnswer": "A"
     },
     {
       "number": 9,
@@ -466,35 +454,23 @@
     },
     {
       "number": 15,
-      "question": "Why was flat-Earth truth hidden regarding the Ice Wall?",
+      "question": "True or False: According to the report, “Ice Wall” refers to the physical boundary, such as the fake ice wall of Antarctica, that sections off human reality from the rest of the flat, horizontal realms.",
       "options": [
         {
           "label": "A",
-          "text": "Because G.A.A. already removed all realms past Antarctica.",
-          "isCorrect": false,
-          "rationale": "G.A.A. prepares dome removal and awakening; broader Gateway-10 realms remain the hidden layout truth."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Ice Wall” this way."
         },
         {
           "label": "B",
-          "text": "Because ocean water gravity fails only at the equator of a globe.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Gravity is wholly fictional; Ice Wall secrecy is about blocking curiosity and exploration."
-        },
-        {
-          "label": "C",
-          "text": "Because the Ice Wall is only a Sky-Net-1 projector with nothing beyond.",
-          "isCorrect": false,
-          "rationale": "Ice Walls section known reality from the rest of the flat horizontal realms — there is a beyond to explore."
-        },
-        {
-          "label": "D",
-          "text": "If the population knew an Ice Wall existed, it would naturally incite mass curiosity and exploration to see what lies beyond it.",
-          "isCorrect": true,
-          "rationale": "Hiding flat truth conceals the Ice Wall so people never get mass curiosity to explore what lies beyond."
+          "rationale": "It is true — the report defines “Ice Wall” as: The physical boundary, such as the fake ice wall of Antarctica, that sections off human reality from the rest of the flat, horizontal realms."
         }
       ],
-      "hint": "Ice Wall knowledge → mass curiosity to explore beyond.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Ice Wall”.",
+      "correctAnswer": "A"
     },
     {
       "number": 16,
@@ -534,25 +510,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Crystalline Temples sitting on major Nodes only.",
+          "text": "Crystalline Temples sitting on major Nodes, whose light is reflected down onto the realm by the Firmament overhead.",
           "isCorrect": false,
           "rationale": "Crystalline Temples on Nodes are suppressed flat-grid truths; stars are Sky-Net-1 projectors."
         },
         {
           "label": "B",
-          "text": "Not distant thermodynamic suns — they are projectors of Sky-Net-1 casting frequency Overlays onto the flat Earth to hide original high-frequency structures.",
+          "text": "Projectors of Sky-Net-1 casting frequency Overlays onto the flat Earth to hide original high-frequency structures.",
           "isCorrect": true,
           "rationale": "Stars are Sky-Net-1 projectors casting frequency Overlays on the flat Earth to hide high-frequency structures — not distant suns on thermodynamics."
         },
         {
           "label": "C",
-          "text": "Holes in the Firmament where Black Void Plasma leaks out naturally.",
+          "text": "Holes in the Firmament where the bright white Dark Matter Field shines through the Black Void Plasma layer.",
           "isCorrect": false,
           "rationale": "Plasma intentionally blacks out bright white true space; stars are projector tech of Sky-Net-1."
         },
         {
           "label": "D",
-          "text": "178 freemason lighthouses beyond Antarctica with no overlays.",
+          "text": "Lighthouses built by Freemasons beyond Antarctica, used to guide ships along the ice wall at night.",
           "isCorrect": false,
           "rationale": "178 is Gateway-10 world count; star function is Overlay projection, not freemason lighthouses."
         }
@@ -662,25 +638,25 @@
       "options": [
         {
           "label": "A",
-          "text": "They publish free Ice Wall maps so everyone explores Gateway-10.",
+          "text": "They publish Ice Wall maps through their lodges so that members can lead private expeditions to the edge of Gateway-10.",
           "isCorrect": false,
           "rationale": "They keep the secret to block curiosity and maintain the prison matrix — not open exploration."
         },
         {
           "label": "B",
-          "text": "They have secretly known the true flat shape for over 100 years, operating under negative entities to maintain the loosh-harvesting prison matrix.",
+          "text": "They have known the true flat shape for over 100 years, serving negative entities to maintain the loosh-harvesting prison.",
           "isCorrect": true,
           "rationale": "33rd-degree Freemasons have known flat Earth for over 100 years and hide it under negative-entity command to keep the loosh-harvesting prison running."
         },
         {
           "label": "C",
-          "text": "They invented gravity as a real lattice force on Nodes.",
+          "text": "They discovered that gravity is a real lattice force running between the Nodes, and keep it secret to protect patents.",
           "isCorrect": false,
           "rationale": "Gravity is fictional sphere prop; lattice Nodes and Ley Lines map flat, suppressed truths."
         },
         {
           "label": "D",
-          "text": "They only learned flat Earth last week from public EMF flash broadcasts.",
+          "text": "They learned the true shape only recently, from the EMF flash broadcasts, and are still deciding how to reveal it.",
           "isCorrect": false,
           "rationale": "The secret knowledge span is over 100 years; EMF flash is the impending memory-return event, not their source."
         }

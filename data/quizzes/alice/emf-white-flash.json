@@ -178,67 +178,55 @@
     },
     {
       "number": 6,
-      "question": "What is the G.A.A. (Galactic Ancestral Alliance) role in the Flash?",
+      "question": "True or False: According to the report, “G.A.A. (Galactic Ancestral Alliance)” refers to A global lockdown and information broadcast phase detailing historical atrocities, which immediately precedes the EMF.",
       "options": [
         {
           "label": "A",
-          "text": "Only the Grey manufacturing wing that rebuilds NPCs immediately after the light fades.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "NPCs are permanently deleted; G.A.A. is benevolent liberation architecture, not Grey rebuild."
+          "rationale": "False — that description belongs to “EBS (Emergency Broadcast System)”. The report defines “G.A.A. (Galactic Ancestral Alliance)” as: The benevolent extraterrestrial alliance responsible for initiating the EMF and stripping away the false layers of reality."
         },
         {
           "label": "B",
-          "text": "A parasitic bank consortium that only manages debt products during the white light.",
-          "isCorrect": false,
-          "rationale": "G.A.A. is the benevolent ET alliance that initiates the EMF and strips false layers of reality."
-        },
-        {
-          "label": "C",
-          "text": "The benevolent extraterrestrial alliance responsible for initiating the EMF and stripping away the false layers of reality.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "G.A.A. initiates the Flash and strips overlays/false layers during those 30 seconds."
-        },
-        {
-          "label": "D",
-          "text": "A terrestrial news network that never touches overlays or planetary frequency events.",
-          "isCorrect": false,
-          "rationale": "G.A.A. actively initiates EMF and strips false reality layers."
+          "rationale": "Correct — that description belongs to “EBS (Emergency Broadcast System)”, not “G.A.A. (Galactic Ancestral Alliance)”."
         }
       ],
-      "hint": "Benevolent alliance — initiates EMF and strips false layers.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “G.A.A. (Galactic Ancestral Alliance)”.",
+      "correctAnswer": "B"
     },
     {
       "number": 7,
-      "question": "What are Overlays in this architecture?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only paper posters in museums that never affect matter perception or realm layout.",
+          "text": "EMF (Electro Magnetic Frequency) / The Flash — A 30-second event of bright white light that radically alters the physical realm and instantly removes 97% of the planetary population.",
           "isCorrect": false,
-          "rationale": "They are projected frequency layers blanketing the realm until dismantled in the Flash."
+          "rationale": "This pairing matches the report's definition of “EMF (Electro Magnetic Frequency) / The Flash”."
         },
         {
           "label": "B",
-          "text": "Natural cloud cover with no parasitic purpose and no link to hidden architecture.",
+          "text": "Ascension Event — A simultaneous, species-wide evolutionary leap where original memories are restored and individuals reunite with their true cosmic family.",
           "isCorrect": false,
-          "rationale": "Overlays are projected frequencies used by parasites to augment perception and hide true layout."
+          "rationale": "This pairing matches the report's definition of “Ascension Event”."
         },
         {
           "label": "C",
-          "text": "Projected frequencies used by parasitic entities to augment perception of matter, obscure original architecture, and hide the true layout of the realm.",
-          "isCorrect": true,
-          "rationale": "Overlays = parasitic projected frequencies hiding true architecture until G.A.A. strips them."
+          "text": "Project Bluebeam — Advanced holographic technology utilized to project a Fake Alien Invasion in the sky, serving as a scare event right before the Flash occurs.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Project Bluebeam”."
         },
         {
           "label": "D",
-          "text": "Permanent crystal coatings that protect Tartarian temples from ever becoming visible.",
-          "isCorrect": false,
-          "rationale": "Flash unveils Tartarian Crystalline Temples once overlays and dampening are removed."
+          "text": "Overlays — Synthetic, hive-aligned replica souls created in the 4th density who make up 97% of the population and will be permanently deleted during the EMF.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “NPCs (Non-Player Characters)”. The report defines “Overlays” as: Projected frequencies used by parasitic entities to augment the perception of matter, obscure original architecture, and hide the true layout of the realm, which are dismantled during the Flash."
         }
       ],
-      "hint": "Parasitic projected frequencies — hide true layout until the Flash.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 8,
@@ -274,35 +262,23 @@
     },
     {
       "number": 9,
-      "question": "What is the EBS relative to the timing of the EMF?",
+      "question": "True or False: According to the report, “EBS (Emergency Broadcast System)” refers to A global lockdown and information broadcast phase detailing historical atrocities, which immediately precedes the EMF.",
       "options": [
         {
           "label": "A",
-          "text": "Only a banking reform that replaces all atrocity disclosure with debt-forgiveness ads.",
-          "isCorrect": false,
-          "rationale": "EBS details historical atrocities; it is not a debt-ad campaign."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “EBS (Emergency Broadcast System)” this way."
         },
         {
           "label": "B",
-          "text": "A soft weather report that follows the Flash by several years with no lockdown component.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "EBS precedes the EMF while the world is locked down under that broadcast phase."
-        },
-        {
-          "label": "C",
-          "text": "The name of the Overlay software that G.A.A. installs permanently after the light fades.",
-          "isCorrect": false,
-          "rationale": "Overlays are stripped during the Flash; EBS is the precursor broadcast lockdown."
-        },
-        {
-          "label": "D",
-          "text": "A global lockdown and information broadcast phase detailing historical atrocities, which immediately precedes the EMF.",
-          "isCorrect": true,
-          "rationale": "EBS is the atrocity-broadcast lockdown phase that hits immediately before the Flash."
+          "rationale": "It is true — the report defines “EBS (Emergency Broadcast System)” as: A global lockdown and information broadcast phase detailing historical atrocities, which immediately precedes the EMF."
         }
       ],
-      "hint": "Atrocity broadcast lockdown — immediately precedes the EMF.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “EBS (Emergency Broadcast System)”.",
+      "correctAnswer": "A"
     },
     {
       "number": 10,

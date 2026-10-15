@@ -60,7 +60,7 @@
         },
         {
           "label": "B",
-          "text": "True Human Souls — organic sparks who descended as the 500 million starseed army.",
+          "text": "True Human Souls — organic sparks of light who descended into the dome as the liberating starseed army.",
           "isCorrect": false,
           "rationale": "True Human Souls are organic sparks captured, inverted, and looped; the 500 million starseeds are the Resonating Army who came to liberate them."
         },
@@ -72,7 +72,7 @@
         },
         {
           "label": "D",
-          "text": "NPC Programs — engineered fragments of light counted as the 500 million starseed force.",
+          "text": "NPC Programs — engineered background scripts that entered the dome as the starseed liberation force.",
           "isCorrect": false,
           "rationale": "NPC Programs are non-soul background scripts with no organic memory; they are not the starseed Resonating Army."
         }
@@ -82,35 +82,23 @@
     },
     {
       "number": 3,
-      "question": "What is the function of the Amnesia Vortex located at the sun's transit band?",
+      "question": "True or False: According to the report, “Amnesia Vortex” refers to A distorting frequency filter positioned at the transit band of the sun that strips incoming souls of their memories and lineages before incarnation.",
       "options": [
         {
           "label": "A",
-          "text": "To activate the latent memories of starseeds during cosmic trigger events.",
-          "isCorrect": false,
-          "rationale": "The vortex strips memory away; spark ignition of Sleepers during cosmic trigger events is a separate activation, not the vortex's function."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Amnesia Vortex” this way."
         },
         {
           "label": "B",
-          "text": "To provide healing for souls transitioning out of the 3D program into sanctuaries.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Healing sanctuaries restore salvable soul-sparks; NPCs never enter them, and the vortex is an entry filter, not a healing chamber."
-        },
-        {
-          "label": "C",
-          "text": "To filter parasitic software out of a soul before that soul incarnates in the dome.",
-          "isCorrect": false,
-          "rationale": "The vortex assists the parasitic construct by stripping lineages; it does not cleanse parasitic software from incoming souls."
-        },
-        {
-          "label": "D",
-          "text": "To strip incoming souls of their memories and lineages before incarnation.",
-          "isCorrect": true,
-          "rationale": "The Amnesia Vortex is a distorting frequency filter at the sun's transit band that strips incoming souls of their memories and lineages before incarnation."
+          "rationale": "It is true — the report defines “Amnesia Vortex” as: A distorting frequency filter positioned at the transit band of the sun that strips incoming souls of their memories and lineages before incarnation."
         }
       ],
-      "hint": "Think about a mechanism that causes a total loss of past identity.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Amnesia Vortex”.",
+      "correctAnswer": "A"
     },
     {
       "number": 4,
@@ -338,35 +326,35 @@
     },
     {
       "number": 11,
-      "question": "Which of the following describes Sleepers within the current 3D program?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Members of the Council of Parasitic Races waiting out the frequency collapse.",
-          "isCorrect": false,
-          "rationale": "Sleepers are souls the Resonating Army works to save; the parasitic council includes Custodians, Anunnaki, Draconians, Greys, and Niburians."
+          "text": "Sleepers — Non-soul background programs and fragments of light engineered to hold the simulated reality together, running on pre-coded autopilot with no organic memory or external anchor.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “NPC Programs”. The report defines “Sleepers” as: Souls currently trapped in a state of amnesia within the 3D program who retain a spark ignition potential capable of being activated during cosmic trigger events."
         },
         {
           "label": "B",
-          "text": "Artificial constructs that lack any spiritual potential and cannot be ignited.",
+          "text": "Holographic Dome — The artificial projection field that restricts biological perception, rendering low-frequency matter as solid and masking the true crystalline reality beneath.",
           "isCorrect": false,
-          "rationale": "That describes NPC Programs; Sleepers are organic souls with spark ignition potential."
+          "rationale": "This pairing matches the report's definition of “Holographic Dome”."
         },
         {
           "label": "C",
-          "text": "Souls in amnesia who still hold a spark ignition potential that can be activated.",
-          "isCorrect": true,
-          "rationale": "Sleepers are souls trapped in amnesia within the 3D program who retain a spark ignition potential capable of being activated during cosmic trigger events."
+          "text": "Resonating Souls — Also known as the Resonating Army or ET Souls, these are the 500 million starseeds and advanced consciousnesses who entered the dome system to dismantle the parasitic construct and activate humanity.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Resonating Souls”."
         },
         {
           "label": "D",
-          "text": "Fragments of light engineered by the Custodians to hold the simulated grid together.",
+          "text": "True Human Souls — Organic sparks of light who were captured, inverted, and looped by parasitic entities, representing the primary population the Resonating Army descended to liberate.",
           "isCorrect": false,
-          "rationale": "Engineered fragments of light that hold the simulation together are NPC Programs, not Sleepers."
+          "rationale": "This pairing matches the report's definition of “True Human Souls”."
         }
       ],
-      "hint": "These individuals are in a state of amnesia but possess a hidden capability.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 12,

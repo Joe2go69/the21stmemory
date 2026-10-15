@@ -313,6 +313,68 @@ function corpusStats(corpus) {
   };
 }
 
+/* ---------- length-bias and absolute-word guards ---------- */
+
+// Words that make a wrong answer easy to rule out ("only X", "never Y").
+const ABSOLUTE_RE = /\b(always|only|never|entirely|solely|forever)\b/i;
+// Correct answer longer than every wrong one by more than this factor fails.
+const LENGTH_FAIL_RATIO = 2;
+// ...and by more than this factor is reported as a warning.
+const LENGTH_WARN_RATIO = 1.6;
+// Ratchet: corpus-level numbers may not get worse than the committed baseline.
+const BASELINE_FILE = path.join(__dirname, 'quiz-quality-baseline.json');
+
+function lengthRatio(q) {
+  if (isTrueFalse(q)) return 0;
+  const opts = q.options || [];
+  const c = opts.find((o) => o.isCorrect);
+  const wl = opts.filter((o) => !o.isCorrect).map((o) => o.text.length);
+  if (!c || !wl.length) return 0;
+  return c.text.length / Math.max(...wl);
+}
+
+function absoluteDistractors(q) {
+  if (isTrueFalse(q)) return [];
+  return (q.options || []).filter((o) => !o.isCorrect && ABSOLUTE_RE.test(o.text));
+}
+
+function biasMetrics(corpus) {
+  const st = corpusStats(corpus);
+  let distractorAbsolutes = 0;
+  for (const { quiz } of corpus) {
+    for (const q of quiz.questions || []) distractorAbsolutes += absoluteDistractors(q).length;
+  }
+  return {
+    pctCorrectUniqueLongest: st.pctCorrectUniqueLongest,
+    distractorAbsolutes,
+  };
+}
+
+function readBaseline() {
+  try {
+    return JSON.parse(fs.readFileSync(BASELINE_FILE, 'utf8'));
+  } catch (_) {
+    return null;
+  }
+}
+
+/** Non-fatal findings: long-correct questions and absolute-word distractors. */
+function lintWarnings(root, corpus = loadCorpus(root)) {
+  const warnings = [];
+  for (const { source, id, quiz } of corpus) {
+    for (const q of quiz.questions || []) {
+      const r = lengthRatio(q);
+      if (r > LENGTH_WARN_RATIO && r <= LENGTH_FAIL_RATIO) {
+        warnings.push(`${source}/${id} Q${q.number} [length-bias] correct is ${r.toFixed(2)}x the longest wrong answer`);
+      }
+      for (const o of absoluteDistractors(q)) {
+        warnings.push(`${source}/${id} Q${q.number} [absolute-distractor] ${o.label}: "${o.text.match(ABSOLUTE_RE)[0]}"`);
+      }
+    }
+  }
+  return warnings;
+}
+
 /** Returns a list of failures for the whole corpus (empty = pass). */
 function lintCorpus(root) {
   const corpus = loadCorpus(root);
@@ -322,6 +384,30 @@ function lintCorpus(root) {
       for (const i of questionIssues(q)) {
         failures.push(`${source}/${id} Q${q.number} [${i.type}] ${i.detail}`);
       }
+    }
+  }
+  for (const { source, id, quiz } of corpus) {
+    for (const q of quiz.questions || []) {
+      const r = lengthRatio(q);
+      if (r > LENGTH_FAIL_RATIO) {
+        failures.push(
+          `${source}/${id} Q${q.number} [length-bias] correct answer is ${r.toFixed(2)}x the longest wrong answer (max ${LENGTH_FAIL_RATIO}x)`
+        );
+      }
+    }
+  }
+  const base = readBaseline();
+  if (base) {
+    const m = biasMetrics(corpus);
+    if (m.pctCorrectUniqueLongest > base.pctCorrectUniqueLongest) {
+      failures.push(
+        `corpus [length-bias] correct answer is uniquely longest in ${m.pctCorrectUniqueLongest}% of questions (baseline ${base.pctCorrectUniqueLongest}%, target ~25%)`
+      );
+    }
+    if (m.distractorAbsolutes > base.distractorAbsolutes) {
+      failures.push(
+        `corpus [absolute-distractor] ${m.distractorAbsolutes} wrong answers use always/only/never/entirely/solely/forever (baseline ${base.distractorAbsolutes})`
+      );
     }
   }
   for (const m of mineDistractorOnlySuffixes(corpus)) {
@@ -341,6 +427,14 @@ module.exports = {
   mineDistractorOnlySuffixes,
   corpusStats,
   lintCorpus,
+  lintWarnings,
+  biasMetrics,
+  lengthRatio,
+  absoluteDistractors,
+  ABSOLUTE_RE,
+  BASELINE_FILE,
+  LENGTH_FAIL_RATIO,
+  LENGTH_WARN_RATIO,
   isTrueFalse,
   finishSentence,
 };

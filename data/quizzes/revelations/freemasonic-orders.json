@@ -50,35 +50,23 @@
     },
     {
       "number": 2,
-      "question": "How is the esoteric tradecraft known as The Craft fundamentally defined?",
+      "question": "True or False: According to the report, “The Craft” refers to the false, fabric-spun narrative of human civilization and history bequeathed by Freemasonic academics, philanthropists, and gatekeepers to obscure Tartarian architecture, energetic technologies, and periodic resets.",
       "options": [
         {
           "label": "A",
-          "text": "A public education framework designed to promote universal literacy and logic.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "This contradicts the system's role in enforcing narrative compliance and field inversion through indoctrination."
+          "rationale": "False — that description belongs to “His Story”. The report defines “The Craft” as: The esoteric tradecraft and institutional system of Freemasonry that indoctrinates initiates into the principle of \"Do As Thou Wilt,\" orchestrating systemic cover-ups, financial monopolization, and field inversion."
         },
         {
           "label": "B",
-          "text": "An institutional system focused on the principles of architectural engineering.",
-          "isCorrect": false,
-          "rationale": "Though it uses architectural terminology, the system is an esoteric tradecraft used for narrative manipulation and control."
-        },
-        {
-          "label": "C",
-          "text": "A traditional guild for craftsmen seeking to preserve ancient masonry techniques.",
-          "isCorrect": false,
-          "rationale": "The modern order uses masonry as a symbolic cover for its role as the functional gears of global power."
-        },
-        {
-          "label": "D",
-          "text": "The indoctrination of initiates into the principle of Do As Thou Wilt.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "The Craft indoctrinates initiates into the principle of Do As Thou Wilt, orchestrating systemic cover-ups, financial monopolization, and field inversion."
+          "rationale": "Correct — that description belongs to “His Story”, not “The Craft”."
         }
       ],
-      "hint": "Look for the specific principle that guides high-level initiates in their orchestration of systemic events.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “The Craft”.",
+      "correctAnswer": "B"
     },
     {
       "number": 3,
@@ -178,34 +166,22 @@
     },
     {
       "number": 6,
-      "question": "How do R&R Clubs like the Reform Club and Charlton Club serve the order?",
+      "question": "True or False: According to the report, “R&R Clubs” refers to the esoteric, hierarchical secret society network that acts as the primary enforcement arm and operational structure for global parasitic control across institutions, industry, finance, and governance.",
       "options": [
         {
           "label": "A",
-          "text": "They act as neutral grounds for debating international peace treaties.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The activities within these clubs are centered on parasitic control and political alignment rather than public peace."
+          "rationale": "False — that description belongs to “Freemasonic Orders”. The report defines “R&R Clubs” as: Exclusive political and elite venues, such as the Reform Club and Charlton Club, where high-degree Freemasons and politicians conduct nefarious activities and deliberate strategy free from public oversight."
         },
         {
           "label": "B",
-          "text": "They are elite venues where politicians and initiates deliberate strategy.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "R&R Clubs are exclusive political and elite venues where high-degree Freemasons and politicians conduct nefarious activities and deliberate strategy free from public oversight."
-        },
-        {
-          "label": "C",
-          "text": "They provide public education on the history of British political thought.",
-          "isCorrect": false,
-          "rationale": "These clubs are exclusive and private, deliberately kept free from public oversight or education."
-        },
-        {
-          "label": "D",
-          "text": "They are open social clubs intended to bridge the gap between social classes.",
-          "isCorrect": false,
-          "rationale": "Access is strictly limited to high-degree Freemasons and specific political elites to remain free from public oversight."
+          "rationale": "Correct — that description belongs to “Freemasonic Orders”, not “R&R Clubs”."
         }
       ],
-      "hint": "Reflect on the nature of these private venues for Liberal, Whig, and Conservative MPs.",
+      "hint": "Recall how the report's Key Terminology defines “R&R Clubs”.",
       "correctAnswer": "B"
     },
     {

@@ -114,35 +114,23 @@
     },
     {
       "number": 4,
-      "question": "How do harmonic lenses function within the earth's environment?",
+      "question": "True or False: According to the report, “Harmonic Lenses” refers to semi-conscious ships and transportation arks gestated from crystalline and plasmatic matter, which respond to telepathic intention rather than mechanical controls.",
       "options": [
         {
           "label": "A",
-          "text": "As sensory and relay organs that shape and transmit energy between realms.",
-          "isCorrect": true,
-          "rationale": "These crystalline patterns form around active nodes to balance and distribute frequency across the planetary grid."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Living Crafts”. The report defines “Harmonic Lenses” as: Crystalline patterns that form around active nodes, functioning as the sensory and relay organs of the earth to shape, balance, and transmit energy between realms."
         },
         {
           "label": "B",
-          "text": "As protective shields that prevent cosmic radiation from entering the Great Dome.",
-          "isCorrect": false,
-          "rationale": "Their function is related to the transmission and balancing of internal and external frequencies rather than physical shielding."
-        },
-        {
-          "label": "C",
-          "text": "As magnification tools used by Solar Builders to monitor the lower densities.",
-          "isCorrect": false,
-          "rationale": "The term 'lens' in this context refers to an energetic relay and shaping mechanism rather than an optical observation tool."
-        },
-        {
-          "label": "D",
-          "text": "As visual filters that prevent the human eye from seeing the Parasitic Overlay.",
-          "isCorrect": false,
-          "rationale": "Lenses are active energy transmitters rather than passive visual barriers designed to hide the construct."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Living Crafts”, not “Harmonic Lenses”."
         }
       ],
-      "hint": "Think about their role in processing and moving energy across different regions.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Harmonic Lenses”.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,
@@ -210,34 +198,22 @@
     },
     {
       "number": 7,
-      "question": "Are Living Crafts mechanical transportation arks that require manual controls to operate?",
+      "question": "True or False: According to the report, “Living Crafts” refers to crystalline patterns that form around active nodes, functioning as the sensory and relay organs of the earth to shape, balance, and transmit energy between realms.",
       "options": [
         {
           "label": "A",
-          "text": "Living Crafts are fully automated drones programmed by the parasitic overlay to enforce 3D travel routes.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Living Crafts belong to original crystalline architecture and respond to telepathic intention, not parasitic drone programming."
+          "rationale": "False — that description belongs to “Harmonic Lenses”. The report defines “Living Crafts” as: Semi-conscious ships and transportation arks gestated from crystalline and plasmatic matter, which respond to telepathic intention rather than mechanical controls."
         },
         {
           "label": "B",
-          "text": "False — Living Crafts are semi-conscious crystalline and plasmatic vessels that respond to telepathic intention rather than mechanical controls.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Living Crafts are gestated from crystalline and plasmatic matter and respond to telepathic intention, not manual mechanical interfaces."
-        },
-        {
-          "label": "C",
-          "text": "True — Living Crafts are mechanical transportation arks that require manual controls and physical interfaces to operate.",
-          "isCorrect": false,
-          "rationale": "Living Crafts are not mechanical arks with manual controls; they are semi-conscious ships guided by telepathic intention."
-        },
-        {
-          "label": "D",
-          "text": "Living Crafts are pure light holograms that cannot carry passengers and only display navigation maps.",
-          "isCorrect": false,
-          "rationale": "Living Crafts are transportation arks gestated from crystalline and plasmatic matter, not mere holographic displays."
+          "rationale": "Correct — that description belongs to “Harmonic Lenses”, not “Living Crafts”."
         }
       ],
-      "hint": "Recall how these vessels interact with the mind of the pilot.",
+      "hint": "Recall how the report's Key Terminology defines “Living Crafts”.",
       "correctAnswer": "B"
     },
     {
@@ -562,35 +538,35 @@
     },
     {
       "number": 18,
-      "question": "Who are the 'Solar Builders' responsible for the original physical realm?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The primary consciousness of the Spirit Tree itself.",
+          "text": "Living Crafts — Semi-conscious ships and transportation arks gestated from crystalline and plasmatic matter, which respond to telepathic intention rather than mechanical controls.",
           "isCorrect": false,
-          "rationale": "While the tree is central, it was gestated and organized by the specific Starseed architect families."
+          "rationale": "This pairing matches the report's definition of “Living Crafts”."
         },
         {
           "label": "B",
-          "text": "Artificial intelligences that evolved from the Crystal Light-Worlds.",
-          "isCorrect": false,
-          "rationale": "The builders are living, conscious architects, not technological or artificial constructs."
+          "text": "Solar Builders — Crystalline patterns that form around active nodes, functioning as the sensory and relay organs of the earth to shape, balance, and transmit energy between realms.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Harmonic Lenses”. The report defines “Solar Builders” as: The ancient Lyran, Pleiadian, and Andromedan architects who designed the living light structures and grids of the physical realms."
         },
         {
           "label": "C",
-          "text": "A collective of human engineers from the Atlantian era.",
+          "text": "Perception-Based Solidity — A low-frequency holographic projection field that tricks the human nervous system into perceiving dead matter, such as concrete or steel, as hard, heavy, and permanent.",
           "isCorrect": false,
-          "rationale": "The architects were multidimensional beings from Lyra, Pleiades, and Andromeda rather than purely earth-based humans."
+          "rationale": "This pairing matches the report's definition of “Perception-Based Solidity”."
         },
         {
           "label": "D",
-          "text": "Ancient Lyran, Pleiadian, and Andromedan architects.",
-          "isCorrect": true,
-          "rationale": "Solar Builders are the ancient Lyran, Pleiadian, and Andromedan architects who designed the living light structures and grids of the physical realms."
+          "text": "Crystal Light-Worlds — The original frequency states existing before physicality, where sound vibrated and organized into the first structures of creation.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Crystal Light-Worlds”."
         }
       ],
-      "hint": "Recall the ancient Lyran, Pleiadian, and Andromedan architects of the living grids.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 19,

@@ -18,99 +18,75 @@
   "questions": [
     {
       "number": 1,
-      "question": "What defines the fundamental operational capability of living fabric in ancient stone structures?",
+      "question": "True or False: According to the report, “Living Fabric” refers to the modern system of artificial power grids, mechanical boilers, and electromagnetic radiation reliant on continuous fuel, recurring costs, and destructive emissions.",
       "options": [
         {
           "label": "A",
-          "text": "The application of chemical surface coatings to stone masonry to generate passive thermal resistance.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Environmental regulation stems from intrinsic structural geometry and field coupling rather than chemical wall treatments."
+          "rationale": "False — that description belongs to “Entropic Technology”. The report defines “Living Fabric” as: The integrated, self-maintaining environmental conditioning and operational capabilities of stone structures that regulate ambient temperature, supply hot water, and prevent organic decay without mechanical systems."
         },
         {
           "label": "B",
-          "text": "The installation of internal metal pipework that channels geothermally heated groundwater throughout the structure.",
-          "isCorrect": false,
-          "rationale": "Living fabric operates directly through solid stone matrices without metal pipes or conventional plumbing networks."
-        },
-        {
-          "label": "C",
-          "text": "Living fabric manages its internal climate, dispenses hot water, and preserves perishable food through its structural blueprint.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "A building of living fabric manages climate, hot water, and perishable food through its structural blueprint, numerical dimensions, and field orientation."
-        },
-        {
-          "label": "D",
-          "text": "The integration of subterranean combustion chambers that heat masonry walls through concealed ventilation shafts.",
-          "isCorrect": false,
-          "rationale": "Mechanical combustion or hidden heating systems contradict the passive, non-combustive nature of living fabric."
+          "rationale": "Correct — that description belongs to “Entropic Technology”, not “Living Fabric”."
         }
       ],
-      "hint": "Consider how structural geometry replaces mechanical utilities.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Living Fabric”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
-      "question": "How does the 'organic circuit board' paradigm describe technological stone architecture?",
+      "question": "True or False: According to the report, “Organic Circuit Board” refers to A water delivery outlet embedded directly into solid stone masonry that provides immediate hot water without external boilers or visible pipework.",
       "options": [
         {
           "label": "A",
-          "text": "Synthetic polymers applied to masonry enable digital communication signals to pass through solid walls.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Organic circuit boards pertain to natural energy field conduction rather than synthetic signal transmission."
+          "rationale": "False — that description belongs to “Direct-Wall Tap”. The report defines “Organic Circuit Board” as: A technological paradigm wherein structural stone, numerical geometry, and spatial alignment act as conductive pathways for field energy."
         },
         {
           "label": "B",
-          "text": "Silicon microchips and copper wiring are embedded directly within stone block matrices during quarrying.",
-          "isCorrect": false,
-          "rationale": "The system relies strictly on natural stone geometry and field resonance, not modern electronic components."
-        },
-        {
-          "label": "C",
-          "text": "Metallic ores within the stone generate localized electromagnetic pulses to power mechanical appliances.",
-          "isCorrect": false,
-          "rationale": "Energy transduction produces passive spatial utility rather than artificial electromagnetic pulses for devices."
-        },
-        {
-          "label": "D",
-          "text": "Conductive pathways for field energy are structural stone, numerical geometry, and spatial alignment.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Structural stone, numerical geometry, and spatial alignment act as conductive pathways for field energy."
+          "rationale": "Correct — that description belongs to “Direct-Wall Tap”, not “Organic Circuit Board”."
         }
       ],
-      "hint": "Think about how stone masonry itself acts as a conductor for energy fields.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Organic Circuit Board”.",
+      "correctAnswer": "B"
     },
     {
       "number": 3,
-      "question": "In contrast to living fabric, how is entropic technology defined?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Autonomous structural designs that harvest natural field resonance to eliminate energy grids.",
+          "text": "Spiritual Technology — A self-running, zero-maintenance system that operates in harmony with natural energy fields to provide physical utility while supporting biological health.",
           "isCorrect": false,
-          "rationale": "Autonomous field-harvesting architecture represents spiritual technology rather than entropic systems."
+          "rationale": "This pairing matches the report's definition of “Spiritual Technology”."
         },
         {
           "label": "B",
-          "text": "Self-maintaining environmental controls built from natural mineral matrices and precise numerical ratios.",
+          "text": "Entropic Technology — The modern system of artificial power grids, mechanical boilers, and electromagnetic radiation reliant on continuous fuel, recurring costs, and destructive emissions.",
           "isCorrect": false,
-          "rationale": "Self-maintaining mineral structures describe living fabric operational principles."
+          "rationale": "This pairing matches the report's definition of “Entropic Technology”."
         },
         {
           "label": "C",
-          "text": "Entropic technology is the modern system of artificial power grids, mechanical boilers, and electromagnetic radiation.",
-          "isCorrect": true,
-          "rationale": "Entropic technology relies on continuous fuel, recurring costs, and destructive emissions."
+          "text": "Living Fabric — The integrated, self-maintaining environmental conditioning and operational capabilities of stone structures that regulate ambient temperature, supply hot water, and prevent organic decay without mechanical systems.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Living Fabric”."
         },
         {
           "label": "D",
-          "text": "Zero-emission architectural methods that utilize subterranean groundwater tables for climate regulation.",
-          "isCorrect": false,
-          "rationale": "Passive groundwater climate regulation is a hallmark of harmonious, non-entropic architecture."
+          "text": "Organic Circuit Board — A water delivery outlet embedded directly into solid stone masonry that provides immediate hot water without external boilers or visible pipework.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Direct-Wall Tap”. The report defines “Organic Circuit Board” as: A technological paradigm wherein structural stone, numerical geometry, and spatial alignment act as conductive pathways for field energy."
         }
       ],
-      "hint": "Focus on modern power systems that require ongoing fuel and financial expenditure.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 4,

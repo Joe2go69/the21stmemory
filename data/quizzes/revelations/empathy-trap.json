@@ -114,35 +114,23 @@
     },
     {
       "number": 4,
-      "question": "What is loosh in the mechanics of the simulation field?",
+      "question": "True or False: According to the report, “Loosh” refers to the dense negative emotional energy radiating off the physical vessel during states of fear, spite, grief, and emotional distress, harvested by parasites to sustain the simulation field.",
       "options": [
         {
           "label": "A",
-          "text": "Loosh is the financial capital collected daily by corporate fundraising and medical institutions.",
-          "isCorrect": false,
-          "rationale": "Financial assets are siphoned separately while loosh is dense negative emotional energy."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Loosh” this way."
         },
         {
           "label": "B",
-          "text": "Loosh is the artificial behavioral code executed by holographic sleeves in public.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Behavioral scripts are NPC mimicry while loosh is emotional energy radiated off the vessel."
-        },
-        {
-          "label": "C",
-          "text": "Loosh is the positive resonance generated when two true souls share a cerebral link.",
-          "isCorrect": false,
-          "rationale": "Genuine emotional resonance between true souls is distinct from loosh harvested by parasites."
-        },
-        {
-          "label": "D",
-          "text": "Loosh is the dense negative emotional energy radiated off physical vessels during states of fear and spite.",
-          "isCorrect": true,
-          "rationale": "Loosh is the dense negative emotional energy radiated off physical vessels during states of fear spite grief and emotional distress."
+          "rationale": "It is true — the report defines “Loosh” as: The dense negative emotional energy radiating off the physical vessel during states of fear, spite, grief, and emotional distress, harvested by parasites to sustain the simulation field."
         }
       ],
-      "hint": "Think of the energetic output produced during fear grief and spite.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Loosh”.",
+      "correctAnswer": "A"
     },
     {
       "number": 5,
@@ -434,35 +422,35 @@
     },
     {
       "number": 14,
-      "question": "What are psychological hooks within human consciousness?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Psychological hooks are energetic feeds that convert dense fear into positive spiritual resonance.",
+          "text": "NPC Mimicry — The artificial behavioral simulation of empathy, love, and interest displayed by non-player characters and holographic sleeves who lack emotional hardware and merely execute expected social scripts.",
           "isCorrect": false,
-          "rationale": "Fear and spite feed loosh production rather than converting into positive resonance."
+          "rationale": "This pairing matches the report's definition of “NPC Mimicry”."
         },
         {
           "label": "B",
-          "text": "Psychological hooks are subconscious emotional anchors embedded like velcro within human consciousness to bind the individual to parasitic structures.",
-          "isCorrect": true,
-          "rationale": "Psychological hooks are subconscious emotional anchors embedded like velcro within human consciousness to bind the individual to parasitic structures."
+          "text": "Empathy — The innate human capacity to understand and actively share the emotional states of other beings, serving as core spiritual firmware in true soul vessels.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Empathy”."
         },
         {
           "label": "C",
-          "text": "Psychological hooks are prefrontal traits that foster authentic resonance between soul family members.",
+          "text": "Psychological Hooks — Subconscious emotional anchors embedded like velcro within human consciousness to bond individual desires, nostalgia, and empathy to parasitic systems.",
           "isCorrect": false,
-          "rationale": "Severing psychological hooks restores empathy for genuine soul family resonance."
+          "rationale": "This pairing matches the report's definition of “Psychological Hooks”."
         },
         {
           "label": "D",
-          "text": "Psychological hooks are the visual images in television ads that pull money directly from viewers.",
-          "isCorrect": false,
-          "rationale": "Engineered visual imagery is the broadcast trigger while hooks are internal subconscious anchors."
+          "text": "Charity Scam — The dense negative emotional energy radiating off the physical vessel during states of fear, spite, grief, and emotional distress, harvested by parasites to sustain the simulation field.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Loosh”. The report defines “Charity Scam” as: Fraudulent fundraising mechanisms, including television charity advertisements and public marathons, designed to exploit human altruism while redirecting one hundred percent of collected funds to parasitic structures."
         }
       ],
-      "hint": "Think of subconscious velcro that ties moral duties to systemic traps.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 15,
@@ -534,25 +522,25 @@
       "options": [
         {
           "label": "A",
-          "text": "NPCs are immune to broadcast narratives and engineered somber scoring.",
+          "text": "They are immune to broadcast narratives and engineered somber scoring, so their emotions cannot be triggered on cue.",
           "isCorrect": false,
           "rationale": "NPCs execute expected social scripts while loosh comes from true soul vessels."
         },
         {
           "label": "B",
-          "text": "Non-player characters do not possess organic spiritual energy and only true soul vessels generate the emotional radiation required for loosh conversion.",
+          "text": "They lack organic spiritual energy; only true soul vessels generate the emotional radiation needed for loosh conversion.",
           "isCorrect": true,
           "rationale": "Non-player characters do not possess organic spiritual energy to harvest and only true soul vessels generate the emotional radiation required for loosh conversion."
         },
         {
           "label": "C",
-          "text": "NPCs generate high-density positive energy that neutralizes loosh collectors.",
+          "text": "They generate high-density positive energy that neutralizes the loosh collectors placed around them in public.",
           "isCorrect": false,
           "rationale": "Non-player characters do not possess organic spiritual energy to harvest."
         },
         {
           "label": "D",
-          "text": "Their prefrontal traits automatically suppress negative emotional radiation.",
+          "text": "Their prefrontal traits suppress negative emotional radiation automatically, so they stay calm in every crisis.",
           "isCorrect": false,
           "rationale": "NPCs lack a true soul and an organic pineal crossover rather than suppressing radiation."
         }
@@ -598,25 +586,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Controllers trick true souls into caring about rigged global events and fraudulent medical crises so human empathy continuously dissolves into anxiety and spite.",
+          "text": "They trick true souls into caring about rigged global events and fake medical crises, so empathy dissolves into anxiety and spite.",
           "isCorrect": true,
           "rationale": "Controllers trick true souls into caring about rigged global events fake wars and fraudulent medical crises so human empathy continuously dissolves into anxiety and spite."
         },
         {
           "label": "B",
-          "text": "Controllers replace holographic sleeves with organic prefrontal vessels.",
+          "text": "They replace the holographic sleeves of true souls with organic prefrontal vessels that generate emotion without rest.",
           "isCorrect": false,
           "rationale": "NPCs maintain social disguise while only true soul vessels generate loosh."
         },
         {
           "label": "C",
-          "text": "Controllers disable broadcast networks during public fundraising marathons.",
+          "text": "They switch off broadcast networks during public fundraising marathons so that viewers feel abandoned and helpless.",
           "isCorrect": false,
           "rationale": "The charity scam depends on emotional triggering delivered through broadcasting networks."
         },
         {
           "label": "D",
-          "text": "Controllers force non-player characters into genuine two-way cerebral connections.",
+          "text": "They force non-player characters into genuine two-way cerebral connections with true souls in their families.",
           "isCorrect": false,
           "rationale": "An active two-way cerebral link belongs to two true souls who converse."
         }
@@ -626,35 +614,23 @@
     },
     {
       "number": 20,
-      "question": "What connection exists between Big Pharma and the charity scam?",
+      "question": "True or False: According to the report, “Charity Scam” refers to the artificial behavioral simulation of empathy, love, and interest displayed by non-player characters and holographic sleeves who lack emotional hardware and merely execute expected social scripts.",
       "options": [
         {
           "label": "A",
-          "text": "Big Pharma funds independent audits so charity money reaches legitimate causes.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Zero percent of the money from any charity goes to its stated cause."
+          "rationale": "False — that description belongs to “NPC Mimicry”. The report defines “Charity Scam” as: Fraudulent fundraising mechanisms, including television charity advertisements and public marathons, designed to exploit human altruism while redirecting one hundred percent of collected funds to parasitic structures."
         },
         {
           "label": "B",
-          "text": "Medical charities cure disease so true souls stay dependent on corporate infrastructure.",
-          "isCorrect": false,
-          "rationale": "Effective treatments are suppressed and curing the public would eliminate perpetual revenue."
-        },
-        {
-          "label": "C",
-          "text": "Big Pharma removes environmental toxins to make loosh extraction more efficient.",
-          "isCorrect": false,
-          "rationale": "Parasites invent toxic environmental conditions and then deploy charity scams."
-        },
-        {
-          "label": "D",
-          "text": "Parasites invent biological illnesses and toxic environmental conditions then deploy charity scams to harvest financial capital and emotional energy from true souls.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Parasites invent biological illnesses and toxic environmental conditions then deploy charity scams to harvest financial capital and emotional energy from true souls."
+          "rationale": "Correct — that description belongs to “NPC Mimicry”, not “Charity Scam”."
         }
       ],
-      "hint": "Examine how invented illness and fundraising form one cycle.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Charity Scam”.",
+      "correctAnswer": "B"
     },
     {
       "number": 21,
@@ -758,25 +734,25 @@
       "options": [
         {
           "label": "A",
-          "text": "They seek emotional validation only from non-player characters and holographic sleeves.",
+          "text": "By seeking emotional validation from non-player characters and holographic sleeves rather than from other true souls.",
           "isCorrect": false,
           "rationale": "Seeking comfort from an NPC generates additional emotional distress."
         },
         {
           "label": "B",
-          "text": "They isolate completely from every interaction with other true soul vessels.",
+          "text": "By isolating themselves from interaction with other true soul vessels until the simulation field collapses.",
           "isCorrect": false,
           "rationale": "Genuine soul family resonance is the restored use of empathy rather than total isolation."
         },
         {
           "label": "C",
-          "text": "They join public fundraising marathons to redirect money away from broadcast networks.",
+          "text": "By joining public fundraising marathons that redirect money away from the broadcast networks and their sponsors.",
           "isCorrect": false,
           "rationale": "Fundraising drives are complete scams that support Deep State entities."
         },
         {
           "label": "D",
-          "text": "True souls practice emotional regulation neutralizing fear and spite so emotional anguish over broadcasted tragedies no longer feeds loosh collectors and they starve the simulation field.",
+          "text": "By practicing emotional regulation, neutralizing fear and spite so anguish over broadcast tragedies no longer feeds loosh collectors.",
           "isCorrect": true,
           "rationale": "True souls practice emotional regulation neutralizing fear and spite when emotional anguish over broadcasted tragedies feeds loosh collectors and they starve the simulation field of fuel."
         }
@@ -790,25 +766,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The individual becomes completely immune to illnesses manufactured by parasites.",
+          "text": "The individual becomes immune to the illnesses manufactured by parasites and no longer needs medical treatment.",
           "isCorrect": false,
           "rationale": "Severing psychological hooks restores the original function of empathy rather than rewriting biology."
         },
         {
           "label": "B",
-          "text": "Severing psychological hooks restores empathy to its original function as an organic tool for authentic spiritual connection and genuine soul family resonance.",
+          "text": "Empathy returns to its original role as an organic tool for authentic spiritual connection and soul family resonance.",
           "isCorrect": true,
           "rationale": "Severing psychological hooks restores empathy to its original function as an organic tool for authentic spiritual connection and genuine soul family resonance."
         },
         {
           "label": "C",
-          "text": "Prefrontal traits are replaced by automated social consensus scripts.",
+          "text": "Prefrontal traits are replaced by automated social consensus scripts that keep the individual calm and agreeable.",
           "isCorrect": false,
           "rationale": "Automated scripts are NPC mimicry while severing hooks restores organic empathy."
         },
         {
           "label": "D",
-          "text": "The physical vessel stops emitting every form of emotional or cerebral energy.",
+          "text": "The physical vessel stops emitting emotional and cerebral energy, so the person can no longer be detected.",
           "isCorrect": false,
           "rationale": "Severing psychological hooks restores empathy for authentic spiritual connection."
         }

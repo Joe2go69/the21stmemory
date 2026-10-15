@@ -146,35 +146,35 @@
     },
     {
       "number": 5,
-      "question": "What are the Anuk (Anunnaki) in relation to the Custodians?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Positive Custodians who joined the White Hats only.",
-          "isCorrect": false,
-          "rationale": "Positive Custodians are a pure Custodian faction; Anuk are engineered servants of the fall."
+          "text": "Anuk (Anunnaki) — Highly negative reptilian species created by the Custodians to serve as powerful enforcers and hierarchy members within the parasitic power structure.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Omicron and Alpha Draco”. The report defines “Anuk (Anunnaki)” as: The first great genetic success engineered by the Custodians to aid in their creation of an enslaved gateway."
         },
         {
           "label": "B",
-          "text": "Niberian offshoots who invented Black Void Plasma alone.",
+          "text": "Black Void Plasma — Custodian-derived technology utilized by the Niberians to surround worlds; it is actively used in the current firmament to create the black night sky and obscure the true, bright white nature of the dark matter field.",
           "isCorrect": false,
-          "rationale": "Black Void Plasma is Custodian-derived technology used by Niberians; Anuk are a separate engineered line."
+          "rationale": "This pairing matches the report's definition of “Black Void Plasma”."
         },
         {
           "label": "C",
-          "text": "The Council of 12 members who never fell.",
+          "text": "Niberians — Massive intellectual warriors and the most powerful parasitic species ever created; they ultimately outsmarted the Custodians to free themselves from Custodian rule.",
           "isCorrect": false,
-          "rationale": "Anuk are engineered parasitic proxies, not the Council of 12."
+          "rationale": "This pairing matches the report's definition of “Niberians”."
         },
         {
           "label": "D",
-          "text": "The first great genetic success engineered by the Custodians to aid creation of an enslaved gateway.",
-          "isCorrect": true,
-          "rationale": "Anuk (Anunnaki) were the first great genetic success engineered by the Custodians to aid creation of an enslaved gateway."
+          "text": "Grey ET — Highly skilled geneticists and masters of phasing technology created by the Custodians from the DNA of a few positive Grey species; engineered to function as foot soldiers, abductors, and operators of soul-recycling portals.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Grey ET”."
         }
       ],
-      "hint": "First great genetic success for an enslaved gateway.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 6,
@@ -242,66 +242,42 @@
     },
     {
       "number": 8,
-      "question": "How were Grey ETs engineered and what do they operate?",
+      "question": "True or False: According to the report, “Grey ET” refers to highly skilled geneticists and masters of phasing technology created by the Custodians from the DNA of a few positive Grey species; engineered to function as foot soldiers, abductors, and operators of soul-recycling portals.",
       "options": [
         {
           "label": "A",
-          "text": "As pure 12th density caretakers who were created to replace the Council of 12 in guiding the realm.",
-          "isCorrect": false,
-          "rationale": "They are manufactured parasitic operators, not original high-density caretakers."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Grey ET” this way."
         },
         {
           "label": "B",
-          "text": "Solely by Niberians after the Custodians went extinct, to serve as their personal guards.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Custodians created the Greys as part of the proxy hierarchy."
-        },
-        {
-          "label": "C",
-          "text": "From DNA of a few positive Grey species into geneticists and phasing masters used as foot soldiers, abductors, and operators of soul-recycling portals.",
-          "isCorrect": true,
-          "rationale": "Grey ETs were created by Custodians from DNA of a few positive Grey species as geneticists and phasing masters — foot soldiers, abductors, and soul-recycling portal operators."
-        },
-        {
-          "label": "D",
-          "text": "Only as surface farmers who tend crops for the Custodians, with no role in the portals.",
-          "isCorrect": false,
-          "rationale": "Portal and soul-recycling operations are core Grey functions here."
+          "rationale": "It is true — the report defines “Grey ET” as: Highly skilled geneticists and masters of phasing technology created by the Custodians from the DNA of a few positive Grey species; engineered to function as foot soldiers, abductors, and operators of soul-recycling portals."
         }
       ],
-      "hint": "Positive Grey DNA → geneticists, phasing, portals.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Grey ET”.",
+      "correctAnswer": "A"
     },
     {
       "number": 9,
-      "question": "What is Black Void Plasma and how is it used now?",
+      "question": "True or False: According to the report, “Black Void Plasma” refers to custodian-derived technology utilized by the Niberians to surround worlds; it is actively used in the current firmament to create the black night sky and obscure the true, bright white nature of the dark matter field.",
       "options": [
         {
           "label": "A",
-          "text": "Custodian-derived technology used by Niberians to surround worlds.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Black Void Plasma is Custodian-derived technology utilized by Niberians to surround worlds, actively used in the firmament to blacken the night sky and obscure the true bright white dark matter field."
+          "rationale": "True — the report defines “Black Void Plasma” this way."
         },
         {
           "label": "B",
-          "text": "White Hat paint used to restore crystalline temples.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "It is parasitic firmament suppression tech, not White Hat restoration paint."
-        },
-        {
-          "label": "C",
-          "text": "A pure-light healing fluid that raises all beings to 12th density.",
-          "isCorrect": false,
-          "rationale": "It obscures white light reality; it does not restore high-density purity."
-        },
-        {
-          "label": "D",
-          "text": "Adrenochrome refined for Loosh storage only under the Vatican.",
-          "isCorrect": false,
-          "rationale": "Adrenochrome and Loosh are harvest foods; Black Void Plasma is sky-suppression technology."
+          "rationale": "It is true — the report defines “Black Void Plasma” as: Custodian-derived technology utilized by the Niberians to surround worlds; it is actively used in the current firmament to create the black night sky and obscure the true, bright white nature of the dark matter field."
         }
       ],
-      "hint": "Custodian-derived; Niberian use; black sky over white field.",
+      "hint": "Recall how the report's Key Terminology defines “Black Void Plasma”.",
       "correctAnswer": "A"
     },
     {
@@ -598,25 +574,25 @@
       "options": [
         {
           "label": "A",
-          "text": "No — a pure faction never participated and allied with the Galactic Ancestral Alliance and White Hats to take down the negative hierarchy.",
+          "text": "No — a pure faction never took part and allied with the Galactic Ancestral Alliance and White Hats against the negative hierarchy.",
           "isCorrect": true,
           "rationale": "Not all Custodians fell; a pure faction never joined the inversion and allied with the G.A.A. and White Hats for the systematic take-down of the negative hierarchy."
         },
         {
           "label": "B",
-          "text": "Pure Custodians still run the Vatican 13 levels today.",
+          "text": "No — a pure faction stayed apart, but it went on to run the Vatican's 13 levels and now manages the harvest from inside.",
           "isCorrect": false,
           "rationale": "Negative hierarchy ran that nexus; pure Custodians work with G.A.A. and White Hats against it."
         },
         {
           "label": "C",
-          "text": "Yes — every Custodian without exception became a 4th density parasite.",
+          "text": "Yes — every Custodian became a 4th-density parasite, and the alliance against them is made up of other races entirely.",
           "isCorrect": false,
           "rationale": "A pure faction remained and now aids dismantling the hierarchy."
         },
         {
           "label": "D",
-          "text": "Only the pure faction engineered Anuk and Greys.",
+          "text": "Yes — the faction that later claimed to be pure was the one that engineered the Anuk and the Greys in the first place.",
           "isCorrect": false,
           "rationale": "Engineering parasites was the rebel project; pure Custodians did not participate in the inversion."
         }

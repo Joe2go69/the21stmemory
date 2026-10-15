@@ -146,35 +146,23 @@
     },
     {
       "number": 5,
-      "question": "What is the function of Embedded Codes within the spiritual anatomy of ET Sols?",
+      "question": "True or False: According to the report, “Embedded Codes” refers to artificial, low-frequency holographic projection grids superimposed over the natural crystalline Earth to manipulate human perception and harvest emotional energy.",
       "options": [
         {
           "label": "A",
-          "text": "To facilitate the rehabilitation process inside the Water Domes or Star Pods.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The Resonating Army does not undergo a rehabilitation process in Water Domes, Crystal Halls, or Star Pods. Those sanctuaries are for human souls."
+          "rationale": "False — that description belongs to “Parasitic Overlays”. The report defines “Embedded Codes” as: Divine frequency signatures placed within the souls of the Resonating Army by their solar parents to trigger memory recall and grid activation at precise moments."
         },
         {
           "label": "B",
-          "text": "To protect the soul from being harvested by the parasitic loosh systems.",
-          "isCorrect": false,
-          "rationale": "The codes' stated function is memory recall and grid activation at precise moments, not passive shielding from loosh harvest."
-        },
-        {
-          "label": "C",
-          "text": "To trigger memory recall and grid activation at precise cosmic moments.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Embedded Codes are divine frequency signatures placed by solar parents to trigger memory recall and grid activation at precise moments."
-        },
-        {
-          "label": "D",
-          "text": "To allow the soul to communicate with the NPCs that hold the simulation together.",
-          "isCorrect": false,
-          "rationale": "Embedded codes connect the soul to Source and cosmic families. NPCs are background programs lacking a true spark; they are not the codes' purpose."
+          "rationale": "Correct — that description belongs to “Parasitic Overlays”, not “Embedded Codes”."
         }
       ],
-      "hint": "Think of these as internal alarm clocks or instructions for the soul.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Embedded Codes”.",
+      "correctAnswer": "B"
     },
     {
       "number": 6,

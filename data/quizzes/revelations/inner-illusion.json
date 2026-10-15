@@ -50,66 +50,42 @@
     },
     {
       "number": 2,
-      "question": "Where is the subrutean receptacle located within the human mind?",
+      "question": "True or False: According to the report, “Subrutean” refers to the core set of innate human faculties—including pattern recognition and vivid imagination—that were inverted and weaponized to enforce psychological compliance.",
       "options": [
         {
           "label": "A",
-          "text": "The subrutean is the internal subconscious or neurological receptacle at the back of the mind.",
-          "isCorrect": true,
-          "rationale": "Engineered perceptual overlays and psychological programming take root there, and perceptual scripts are injected directly into it."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “15 Human Attributes”. The report defines “Subrutean” as: The internal subconscious or neurological receptacle at the back of the mind where engineered perceptual overlays and psychological programming take root."
         },
         {
           "label": "B",
-          "text": "The subrutean sits in the sensory cortex and manages immediate physical contact with the environment.",
-          "isCorrect": false,
-          "rationale": "It receives engineered perceptual overlays, and it is not the processor of direct sensory contact."
-        },
-        {
-          "label": "C",
-          "text": "The subrutean is the central pineal gland, filtering incoming visual patterns from the physical realm.",
-          "isCorrect": false,
-          "rationale": "The pineal-driven capacity for imagination is targeted by the mechanism, but the receptacle itself is the subrutean."
-        },
-        {
-          "label": "D",
-          "text": "The subrutean sits in the frontal lobe, where logical reasoning and analytical thought are processed.",
-          "isCorrect": false,
-          "rationale": "The receptacle is an internal subconscious site at the back of the mind, not the analytical front of the brain."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “15 Human Attributes”, not “Subrutean”."
         }
       ],
-      "hint": "Think about the internal place where subconscious scripts take root.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Subrutean”.",
+      "correctAnswer": "B"
     },
     {
       "number": 3,
-      "question": "What does the Cookie Jar Allegory illustrate about human curiosity?",
+      "question": "True or False: According to the report, “Cookie Jar Allegory” refers to the inward-projected perceptual program reflected into a subrutean in the human mind that compels living souls to accept engineered consensus narratives and relinquish self-trust.",
       "options": [
         {
           "label": "A",
-          "text": "The true structure of the realm is revealed only to those who reach the highest intellectual shelf.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The high shelf is the trick that keeps the true environment hidden in plain sight."
+          "rationale": "False — that description belongs to “Inner Illusion”. The report defines “Cookie Jar Allegory” as: The foundational psychological programming model wherein human curiosity is permanently redirected toward an unreachable target while the true environment remains hidden in plain sight."
         },
         {
           "label": "B",
-          "text": "Human curiosity is permanently redirected toward an unreachable target while the true environment remains hidden in plain sight.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Humanity is tricked into seeking truth in false directions, as a child is told to dig in the garden for a jar left on a high shelf."
-        },
-        {
-          "label": "C",
-          "text": "Human curiosity is naturally limited by the physical boundaries of the immediate environment.",
-          "isCorrect": false,
-          "rationale": "The redirect is conditioning, and it stops people from inspecting those physical boundaries."
-        },
-        {
-          "label": "D",
-          "text": "Curiosity is the tool a soul uses to dismantle the firmament and leave the physical plane.",
-          "isCorrect": false,
-          "rationale": "The allegory shows curiosity permanently redirected toward an unreachable target, not used as an escape."
+          "rationale": "Correct — that description belongs to “Inner Illusion”, not “Cookie Jar Allegory”."
         }
       ],
-      "hint": "Think about a child sent to dig in the garden while the jar stays on a high shelf.",
+      "hint": "Recall how the report's Key Terminology defines “Cookie Jar Allegory”.",
       "correctAnswer": "B"
     },
     {
@@ -146,35 +122,35 @@
     },
     {
       "number": 5,
-      "question": "Which event directly preceded the enactment of the Antarctic Treaty in 1959?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "A satellite completed the first orbit of a spinning globe just before the treaty.",
+          "text": "Here Be Dragons — Historical cartographic designations placed at map peripheries by Tartarian cartographers to record actual sightings of biological entities in Realm-2 beyond the ice wall.",
           "isCorrect": false,
-          "rationale": "The orbiting globe is the space hoax, and the treaty followed the discovery of the firmament."
+          "rationale": "This pairing matches the report's definition of “Here Be Dragons”."
         },
         {
           "label": "B",
-          "text": "Internal subrutean scripts collapsed across the NPC herd just before the treaty.",
-          "isCorrect": false,
-          "rationale": "The treaty was enacted to enforce physical restriction, not because the perceptual scripts had failed."
+          "text": "Antarctic Treaty — The multi-generational construct that re-framed the firmament dome and flat plane as an infinite, empty vacuum of space to induce feelings of cosmic insignificance.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Space Hoax”. The report defines “Antarctic Treaty” as: The 1959 global legal agreement enacted following the 1958 discovery of the firmament to enforce physical restriction to the southern boundary."
         },
         {
           "label": "C",
-          "text": "Tartarian flat-plane charts were published to the general public just before the treaty.",
+          "text": "Inner Illusion — The inward-projected perceptual program reflected into a subrutean in the human mind that compels living souls to accept engineered consensus narratives and relinquish self-trust.",
           "isCorrect": false,
-          "rationale": "The treaty bars access so psychological assumptions are not challenged by exploration of the southern boundary."
+          "rationale": "This pairing matches the report's definition of “Inner Illusion”."
         },
         {
           "label": "D",
-          "text": "The firmament was discovered in 1958, and the Antarctic Treaty was enacted in 1959.",
-          "isCorrect": true,
-          "rationale": "The treaty physically bars public access to the southern ice boundary."
+          "text": "15 Human Attributes — The core set of innate human faculties—including pattern recognition and vivid imagination—that were inverted and weaponized to enforce psychological compliance.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “15 Human Attributes”."
         }
       ],
-      "hint": "Identify the physical discovery made one year before the treaty.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 6,

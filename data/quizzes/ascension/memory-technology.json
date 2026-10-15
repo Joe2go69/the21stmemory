@@ -18,35 +18,35 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the primary function of Memory Technology within the larger framework of Quartz Crystal Technology?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "It functions as a communication relay between different galactic civilizations.",
+          "text": "New Aether — The refined, high-frequency energetic background medium created over time that collaborates with consciousness, biological systems, and quartz crystal conductors to power the ascension process.",
           "isCorrect": false,
-          "rationale": "The focus of this technology is the restoration of original consciousness, lost histories, and spiritual identity."
+          "rationale": "This pairing matches the report's definition of “New Aether”."
         },
         {
           "label": "B",
-          "text": "It provides a temporary shield against solar radiation during transitions.",
+          "text": "Memory Technology — The advanced energetic framework that utilizes quartz crystal conductors to store, process, and restore original consciousness data and biological memory to a vessel.",
           "isCorrect": false,
-          "rationale": "While it relates to solar events, its primary purpose is restorative rather than purely protective."
+          "rationale": "This pairing matches the report's definition of “Memory Technology”."
         },
         {
           "label": "C",
-          "text": "It serves as a digital storage database for planetary administrative records.",
-          "isCorrect": false,
-          "rationale": "Memory is a physical and energetic substance rather than a digital construct or record system."
+          "text": "Quartz Crystal — The initial energetic pulse directed backward along the timeline to initiate the retrieval of historical memories and reconnect beings to their past existence.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “First Flash”. The report defines “Quartz Crystal” as: A physical, high-vibrational conductor material that holds memory like water, plasma, and crystalline elements, acting as the bedrock for the planetary electromagnetic grid and portal activation."
         },
         {
           "label": "D",
-          "text": "It acts as a consciousness-restoration system to reclaim lost histories.",
-          "isCorrect": true,
-          "rationale": "Memory Technology is an advanced consciousness-restoration system that acts as the primary mechanism for reclaiming lost histories and spiritual identity."
+          "text": "Original Vessel — The primary, high-vibrational physical form or biological envelope that an individual originally possessed prior to entering the current 3rd-realm simulation.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Original Vessel”."
         }
       ],
-      "hint": "Consider the ultimate goal of returning humanity to its source and original identity.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -178,35 +178,23 @@
     },
     {
       "number": 6,
-      "question": "What is the primary function of the planetary-scale EMP grid formed during the solar charge?",
+      "question": "True or False: According to the report, “EMP Grid” refers to the refined, high-frequency energetic background medium created over time that collaborates with consciousness, biological systems, and quartz crystal conductors to power the ascension process.",
       "options": [
         {
           "label": "A",
-          "text": "To ensure that no soul escapes the transition zone during the activation.",
-          "isCorrect": true,
-          "rationale": "The grid blankets the entirety of the 3rd realm, establishing a complete electromagnetic seal that ensures no soul escapes the transition zone."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “New Aether”. The report defines “EMP Grid” as: A dense, planetary-scale magnetic pulse network formed when the implanted quartz crystals are charged by solar flashes, ensuring that no soul escapes the containment area and stabilizing the transition."
         },
         {
           "label": "B",
-          "text": "To disrupt the communication networks of the Galactic Ancestral Alliance.",
-          "isCorrect": false,
-          "rationale": "The grid is a positive development that supports the alliance's goals rather than hindering them."
-        },
-        {
-          "label": "C",
-          "text": "To permanently erase the memories of the current 3rd realm inhabitants.",
-          "isCorrect": false,
-          "rationale": "The grid's purpose is restoration and containment, not the erasure of identity."
-        },
-        {
-          "label": "D",
-          "text": "To generate artificial gravity for the arriving transportation ships.",
-          "isCorrect": false,
-          "rationale": "Gravity is not the primary concern of the EMP grid, which focuses on consciousness containment and data charging."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “New Aether”, not “EMP Grid”."
         }
       ],
-      "hint": "Think about the phrase 'no soul escapes' in the context of the transition zone.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “EMP Grid”.",
+      "correctAnswer": "B"
     },
     {
       "number": 7,

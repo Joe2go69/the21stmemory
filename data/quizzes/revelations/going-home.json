@@ -50,67 +50,55 @@
     },
     {
       "number": 2,
-      "question": "How does the activating plasma portal visually present itself to an ascending individual?",
+      "question": "True or False: According to the report, “Plasma Portal” refers to the structural reintegration of the 3rd-density soul fragment, the Arc Pod oversoul, and the dormant ET stasis vessel into a singular, fully conscious entity.",
       "options": [
         {
           "label": "A",
-          "text": "As luminous liquid or water above the head that causes no physical wetness.",
-          "isCorrect": true,
-          "rationale": "The plasma portal appears visually like luminous liquid or water above the head without wetness."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Three-Part Soul Recombination”. The report defines “Plasma Portal” as: The dimensional energetic gateway opening directly above an ascending individual, appearing visually like luminous liquid or water above the head without wetness."
         },
         {
           "label": "B",
-          "text": "As a dense fog surrounding the physical body accompanied by severe cold.",
-          "isCorrect": false,
-          "rationale": "The portal has fluid visual characteristics overhead rather than an atmospheric fog surrounding the body."
-        },
-        {
-          "label": "C",
-          "text": "As a metallic geometric ring expanding outward from the center of the chest.",
-          "isCorrect": false,
-          "rationale": "The portal canopy is fluid light overhead, not a metallic geometric ring from the chest."
-        },
-        {
-          "label": "D",
-          "text": "As a shimmering vortex of golden light opening directly at the feet.",
-          "isCorrect": false,
-          "rationale": "The portal manifests directly overhead rather than beneath the feet."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Three-Part Soul Recombination”, not “Plasma Portal”."
         }
       ],
-      "hint": "Consider the visual metaphor associated with the esoteric phrase Watch the Water.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Plasma Portal”.",
+      "correctAnswer": "B"
     },
     {
       "number": 3,
-      "question": "What is the true esoteric meaning of the phrase Watch the Water?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "A symbolic reference to emotional clearing during psychological integration.",
+          "text": "Going Home — The multi-stage exit sequence and energetic dematerialization process whereby a localized 3rd-density soul fragment recombines with its oversoul and snaps back into its original ET vessel in stasis.",
           "isCorrect": false,
-          "rationale": "The phrase names a dimensional exit mechanism rather than a psychological metaphor."
+          "rationale": "This pairing matches the report's definition of “Going Home”."
         },
         {
           "label": "B",
-          "text": "A directive to observe the celestial plasma portal opening directly overhead.",
-          "isCorrect": true,
-          "rationale": "Watch the Water refers to the plasma portal opening above the head, the celestial plasma portal opening directly overhead."
+          "text": "Watch the Water — An esoteric phrase whose true spiritual meaning refers to the plasma portal opening above the head during ascension, in direct contrast to physical counter-narratives regarding water supply contamination.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Watch the Water”."
         },
         {
           "label": "C",
-          "text": "A warning about chemical and biological contamination of municipal water systems.",
+          "text": "Wizard of Oz Moment — The instantaneous perceptual awakening following the drop of the artificial electromagnetic field, where earthly disguises drop to reveal true soul architecture and shared galactic history.",
           "isCorrect": false,
-          "rationale": "Public narratives misread the phrase as a physical water-supply panic, which is a fear-based inversion."
+          "rationale": "This pairing matches the report's definition of “Wizard of Oz Moment”."
         },
         {
           "label": "D",
-          "text": "An instruction to monitor ocean currents for physical geophysical shifts.",
-          "isCorrect": false,
-          "rationale": "The phrase refers to the overhead plasma portal, not terrestrial oceanography."
+          "text": "EMF Dissipation — The unmasked state of soul family members once the simulation field collapses, disclosing their true vibrational identity and ET vessel form beyond temporary Earth avatars.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Out of Costume”. The report defines “EMF Dissipation” as: The shutdown of the artificial electromagnetic field and lunar frequencies that maintain 3rd-density amnesia, spatial confinement, and perceptual overlays."
         }
       ],
-      "hint": "Focus on the spiritual exit mechanism rather than physical 3rd-density contamination panics.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 4,
@@ -146,35 +134,23 @@
     },
     {
       "number": 5,
-      "question": "Which three components integrate during the Three-Part Soul Recombination?",
+      "question": "True or False: According to the report, “Three-Part Soul Recombination” refers to the structural reintegration of the 3rd-density soul fragment, the Arc Pod oversoul, and the dormant ET stasis vessel into a singular, fully conscious entity.",
       "options": [
         {
           "label": "A",
-          "text": "The lower chakras, the higher chakras, and the external aura field.",
-          "isCorrect": false,
-          "rationale": "The recombination joins dimensional stations of identity rather than subtle-body energy centers."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Three-Part Soul Recombination” this way."
         },
         {
           "label": "B",
-          "text": "The planetary grid, the solar core, and the galactic center consciousness.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The three parts are individual soul architecture across the density stack, not macrocosmic planetary bodies."
-        },
-        {
-          "label": "C",
-          "text": "The localized soul fragment and the Arc Pod oversoul and the dormant ET stasis vessel.",
-          "isCorrect": true,
-          "rationale": "Three-part soul recombination reintegrates the 3rd-density soul fragment, the Arc Pod oversoul, and the dormant ET stasis vessel."
-        },
-        {
-          "label": "D",
-          "text": "The physical DNA, the emotional body, and the mental ego structure.",
-          "isCorrect": false,
-          "rationale": "Recombination involves the fragment, the oversoul, and the stasis vessel rather than 3rd-density psychological parts."
+          "rationale": "It is true — the report defines “Three-Part Soul Recombination” as: The structural reintegration of the 3rd-density soul fragment, the Arc Pod oversoul, and the dormant ET stasis vessel into a singular, fully conscious entity."
         }
       ],
-      "hint": "Identify the three distinct operational layers across density stacks mentioned in the architecture.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Three-Part Soul Recombination”.",
+      "correctAnswer": "A"
     },
     {
       "number": 6,
@@ -246,25 +222,25 @@
       "options": [
         {
           "label": "A",
-          "text": "To generate organic life forms across various terrestrial ecosystems.",
+          "text": "It generates organic life forms across the various terrestrial ecosystems of the realm's continents.",
           "isCorrect": false,
           "rationale": "The field imposes perceptual overlays and amnesia, and it does not generate organic life."
         },
         {
           "label": "B",
-          "text": "To power the technological systems of ascending homeworld bioships.",
+          "text": "It powers the technological systems of the ascending homeworld bioships waiting beyond the dome.",
           "isCorrect": false,
           "rationale": "Homeworld bioships are separate from the artificial simulation field maintained in realm-3."
         },
         {
           "label": "C",
-          "text": "To protect the physical Earth from cosmic radiation and external debris.",
+          "text": "It protects the physical Earth from cosmic radiation and external debris coming from outside the realm.",
           "isCorrect": false,
           "rationale": "The field is an artificial overlay for confinement, not a benevolent environmental shield."
         },
         {
           "label": "D",
-          "text": "The artificial electromagnetic field is a continuous dampening curtain restricting human brainwave frequencies and imposing perceptual amnesia.",
+          "text": "A continuous dampening curtain restricting human brainwave frequencies and imposing perceptual amnesia.",
           "isCorrect": true,
           "rationale": "The artificial electromagnetic field maintained across realm-3 acts as a continuous dampening curtain restricting human brainwave frequencies and imposing perceptual amnesia."
         }

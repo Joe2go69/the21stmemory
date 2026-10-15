@@ -50,35 +50,35 @@
     },
     {
       "number": 2,
-      "question": "How does the deployment of designed noise impact human consciousness?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Designed noise works by swamping internal thought mechanisms with pointless background friction.",
-          "isCorrect": true,
-          "rationale": "Choice Architecture systematically reduces cognitive bandwidth so targets stay too exhausted to question their captivity."
+          "text": "Bandwidth-Reducing Phenomena — Mundane, mandatory daily tasks incrementally imposed over time to occupy mental focus and prevent high-level reality questioning.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Bandwidth-Reducing Phenomena”."
         },
         {
           "label": "B",
-          "text": "It creates a more harmonious social environment by masking the harsh realities of industrial living.",
-          "isCorrect": false,
-          "rationale": "Designed noise is a tool of exhaustion and management, rather than a comfort that creates social harmony."
+          "text": "Designed Noise — The overarching administrative controllers and slave masters who incrementally install minutiae into daily living to manage the human population.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Custodians”. The report defines “Designed Noise” as: The deliberate saturation of human consciousness with regulatory, financial, and logistical minutiae to diminish internal cognitive bandwidth."
         },
         {
           "label": "C",
-          "text": "It improves the speed of decision-making by providing a constant stream of relevant data.",
+          "text": "Choice Architecture — An engineered framework of structural choices and options within options designed to guide human behavior while maintaining the illusion of free will.",
           "isCorrect": false,
-          "rationale": "The saturation is meant to overwhelm and distract, rather than to speed up useful decisions."
+          "rationale": "This pairing matches the report's definition of “Choice Architecture”."
         },
         {
           "label": "D",
-          "text": "It serves as a necessary feedback loop for administrators to monitor the health of the population.",
+          "text": "Manufactured Wants — The systemic programming and steering of human desires, where external choices are selected for individuals under the illusion of autonomous preference.",
           "isCorrect": false,
-          "rationale": "Designed noise is a one-way saturation of regulatory and logistical demands, rather than a diagnostic loop."
+          "rationale": "This pairing matches the report's definition of “Manufactured Wants”."
         }
       ],
-      "hint": "Think about the effect of endless logistical minutiae on mental energy.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 3,
@@ -182,25 +182,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Spiritual Awakening.",
+          "text": "Spiritual Awakening — a gradual opening that keeps attention turned toward inner work.",
           "isCorrect": false,
           "rationale": "Spiritual awakening is what bandwidth-reducing tasks are imposed to prevent."
         },
         {
           "label": "B",
-          "text": "Autonomous Preference.",
+          "text": "Autonomous Preference — the habit of choosing routines that feel freely self-selected.",
           "isCorrect": false,
           "rationale": "Autonomous preference is the illusion Manufactured Wants creates, rather than the daily-task mechanism itself."
         },
         {
           "label": "C",
-          "text": "Bandwidth-Reducing Phenomena are mundane, mandatory daily tasks incrementally imposed over time to occupy mental focus.",
+          "text": "Bandwidth-Reducing Phenomena — mundane, mandatory daily tasks imposed to occupy focus.",
           "isCorrect": true,
           "rationale": "Recycling schedules and similar rituals prevent high-level reality questioning by filling attention with trivial duties."
         },
         {
           "label": "D",
-          "text": "Existential Inquiry.",
+          "text": "Existential Inquiry — a cycle of anxious questioning that keeps minds busy at night.",
           "isCorrect": false,
           "rationale": "Existential inquiry needs the cognitive capacity that mundane mandatory tasks are designed to occupy."
         }
@@ -438,25 +438,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Open-access rural pathways.",
+          "text": "Open-access rural pathways that are tolled at county boundaries.",
           "isCorrect": false,
           "rationale": "The friction named in daily movement is engineered motorway and urban controls, rather than open rural paths."
         },
         {
           "label": "B",
-          "text": "Automated high-speed rail.",
+          "text": "Automated high-speed rail lines with dynamic surge pricing.",
           "isCorrect": false,
           "rationale": "The listed movement friction covers bus lanes, red routes, emission zones, and speed-limit fluctuations."
         },
         {
           "label": "C",
-          "text": "Pedestrianized shopping districts.",
+          "text": "Pedestrianized shopping districts with metered entry gates.",
           "isCorrect": false,
           "rationale": "The named revenue friction includes emission zones, red routes, and parking fines, rather than shopping districts."
         },
         {
           "label": "D",
-          "text": "Artificial friction is multiplied through emission zones, red routes, one-way systems, and complex spaghetti junctions.",
+          "text": "Emission zones, red routes, one-way systems, and complex spaghetti junctions.",
           "isCorrect": true,
           "rationale": "These controls sit with speed-limit changes that generate income through deceptive revenue collection rather than public safety."
         }
@@ -598,25 +598,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Voluntary community tithes.",
+          "text": "Voluntary community tithes collected through local churches and charities.",
           "isCorrect": false,
           "rationale": "The named charges are mandatory systemic extractions such as income tax and utility bills."
         },
         {
           "label": "B",
-          "text": "Peer-to-peer barter systems.",
+          "text": "Peer-to-peer barter systems that are taxed as hidden informal income.",
           "isCorrect": false,
           "rationale": "Barter is not among the listed extractions, which run through tax, insurance, fines, rent, and bills."
         },
         {
           "label": "C",
-          "text": "Financial extractions include income tax, Value Added Tax (VAT), rent, utility bills, and death tax.",
+          "text": "Income tax, VAT, rent, utility bills, and death tax.",
           "isCorrect": true,
           "rationale": "Cestui Que Vie bonds join income tax and bills as the primary driver of daily survival anxiety inside Legal Capture and the Usury Trap."
         },
         {
           "label": "D",
-          "text": "Universal Basic Income.",
+          "text": "Universal Basic Income payments that are clawed back through fees.",
           "isCorrect": false,
           "rationale": "The listed extractions include VAT, rent, and death tax, rather than a universal income payment."
         }

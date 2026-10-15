@@ -82,67 +82,43 @@
     },
     {
       "number": 3,
-      "question": "How does the 'new aether' contribute to the generation of realm-wide electromagnetic waves?",
+      "question": "True or False: According to the report, “New Aether” refers to A realm-encompassing electromagnetic pulse barrier formed by the interaction of solar pulses and quartz conductors that secures all planetary consciousness.",
       "options": [
         {
           "label": "A",
-          "text": "It serves as a reflective layer that bounces solar radiation back toward the subterranean crystal array.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The aether absorbs and transforms the light into pulses rather than simply reflecting raw radiation."
+          "rationale": "False — that description belongs to “EMP Grid”. The report defines “New Aether” as: An upgraded atmospheric energetic medium generated through positive collective vibration that amplifies solar light into functional electromagnetic waves."
         },
         {
           "label": "B",
-          "text": "It acts as a dense physical barrier that prevents the escape of low-vibrational consciousness into space.",
-          "isCorrect": false,
-          "rationale": "The aether is an energetic medium for frequency amplification, whereas the EMP Grid provides the actual containment."
-        },
-        {
-          "label": "C",
-          "text": "It functions as an upgraded medium that transforms solar light into structured positive frequencies.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "The collision between solar bursts and the accumulated aether converts radiant energy into structured positive frequencies that manifest as realm-wide electromagnetic waves."
-        },
-        {
-          "label": "D",
-          "text": "It creates a vacuum that accelerates the speed of light beyond standard three-dimensional constraints.",
-          "isCorrect": false,
-          "rationale": "The aether acts as a conductive medium for frequency conversion rather than a vacuum for acceleration."
+          "rationale": "Correct — that description belongs to “EMP Grid”, not “New Aether”."
         }
       ],
-      "hint": "Think about the transformation of raw solar light when it encounters the upgraded atmosphere.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “New Aether”.",
+      "correctAnswer": "B"
     },
     {
       "number": 4,
-      "question": "What is the historical origin of the subterranean quartz crystals used in the EMP Grid?",
+      "question": "True or False: According to the report, “Quartz Crystals” refers to the precise energetic triggering of the Sun by extraterrestrial collectives to initiate planetary transformation and energetic grid polarization.",
       "options": [
         {
           "label": "A",
-          "text": "They are biological residue left behind by ancient civilizations that inhabited the second realm.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The crystals are advanced technology placed by operatives, not biological or organic residue."
+          "rationale": "False — that description belongs to “Solar Activation”. The report defines “Quartz Crystals” as: Subterranean conductive memory devices implanted via time travel that emerge to couple with E.M. Pulses and broadcast the planetary frequency grid."
         },
         {
           "label": "B",
-          "text": "They are natural geological formations that have existed since the original cooling of the planetary crust.",
-          "isCorrect": false,
-          "rationale": "These crystals are artificial conductors implanted via time travel rather than natural planetary features."
-        },
-        {
-          "label": "C",
-          "text": "They were transported to the planet via comet fragments directed by the Pleiadian and Andromedan fleets.",
-          "isCorrect": false,
-          "rationale": "The crystals were placed via time travel using Project Looking Glass, not transported via comet fragments."
-        },
-        {
-          "label": "D",
-          "text": "They were planted by operatives using time-travel technology to prepare for the Great Awakening.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Project Looking Glass allowed positive forces to jump forward and plant these memory devices immediately before the Great Awakening."
+          "rationale": "Correct — that description belongs to “Solar Activation”, not “Quartz Crystals”."
         }
       ],
-      "hint": "Recall the specific technology used to execute preparation across different points in time.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Quartz Crystals”.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,

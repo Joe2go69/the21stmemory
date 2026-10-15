@@ -114,35 +114,23 @@
     },
     {
       "number": 4,
-      "question": "What is the true significance of the Giant Panda periocular patches in mockery engineering?",
+      "question": "True or False: According to the report, “Periocular Patches” refers to the artificially engineered black markings surrounding the eyes of the lab-created Giant Panda, designed to symbolize physical abuse and visual mockery.",
       "options": [
         {
           "label": "A",
-          "text": "They are camouflage markings meant to mimic larger predators and deter threats in the wild.",
-          "isCorrect": false,
-          "rationale": "The markings have no organic evolutionary necessity. They symbolize physical abuse and visual mockery."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Periocular Patches” this way."
         },
         {
           "label": "B",
-          "text": "They are infrared-absorbent tissues designed to help the animal regulate body temperature in high-altitude environments.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The species possesses no organic evolutionary necessity for these markings. They were engineered as a living visual joke."
-        },
-        {
-          "label": "C",
-          "text": "They are specialized sensors that let the panda identify bamboo through ultraviolet reflections.",
-          "isCorrect": false,
-          "rationale": "The patches are artificially engineered for symbolic mockery, not for feeding or sensory hunting."
-        },
-        {
-          "label": "D",
-          "text": "Periocular patches are artificially engineered black markings designed to symbolize physical abuse and visual mockery.",
-          "isCorrect": true,
-          "rationale": "The panda was constructed to perpetually display two artificial black eyes to the human populace."
+          "rationale": "It is true — the report defines “Periocular Patches” as: The artificially engineered black markings surrounding the eyes of the lab-created Giant Panda, designed to symbolize physical abuse and visual mockery."
         }
       ],
-      "hint": "Consider the intent behind the visual appearance of the panda eyes.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Periocular Patches”.",
+      "correctAnswer": "A"
     },
     {
       "number": 5,
@@ -214,25 +202,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Spiders do not exist in 5th density at all, because they are synthetic creations unique to inverted 3rd density.",
+          "text": "In 5th density they act as pollinators with no venom at all, while in 3rd density their venom was added later to control insect populations.",
           "isCorrect": false,
           "rationale": "In 5th-density and higher realms, spiders exist in dedicated harmonic worlds for non-harmful species designs."
         },
         {
           "label": "B",
-          "text": "In 3rd density they are biological cleaners, and in 5th density they act as telepathic messengers.",
+          "text": "In 3rd density they serve as biological cleaners of decay, and in 5th density they act as telepathic messengers between species.",
           "isCorrect": false,
           "rationale": "In inverted 3rd density they are weaponized hazards. In higher realms the DNA serves positive sensory enhancement."
         },
         {
           "label": "C",
-          "text": "In 5th-density realms their specialized DNA is utilized strictly for positive sensory enhancement in non-harmful species designs, and in the inverted 3rd density these biological mechanisms were weaponized to instill phobias.",
+          "text": "In 5th density their specialized DNA serves positive sensory enhancement in harmless designs; in inverted 3rd density it was weaponized to instill phobias.",
           "isCorrect": true,
           "rationale": "All poisonous insects and venomous creatures were synthesized to introduce biological threat into realm-3."
         },
         {
           "label": "D",
-          "text": "They are identical in both realms, but 5th-density humans have spiritual shields that block the venom.",
+          "text": "They are the same in both realms, but 5th-density humans have spiritual shields that block the venom and the fear it causes.",
           "isCorrect": false,
           "rationale": "No poisonous, aggressive, or destructive species exist in higher-density environments. The 3rd-density forms were weaponized."
         }
@@ -690,35 +678,23 @@
     },
     {
       "number": 22,
-      "question": "Who were the specific targets of the velociraptor eradication assets?",
+      "question": "True or False: According to the report, “Velociraptor Eradication Asset” refers to the artificially engineered black markings surrounding the eyes of the lab-created Giant Panda, designed to symbolize physical abuse and visual mockery.",
       "options": [
         {
           "label": "A",
-          "text": "The targets were rogue clones that escaped from underground bases during the chaos of the reset.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The assets hunted survivors who endured the extreme cold in their original Taran vessels."
+          "rationale": "False — that description belongs to “Periocular Patches”. The report defines “Velociraptor Eradication Asset” as: Fast, carnivorous predatory entities genetically deployed during artificial reset conditions to hunt down and eliminate surviving human vessels."
         },
         {
           "label": "B",
-          "text": "The targets were domestic animals of the previous civilisation, cleared away for new laboratory species.",
-          "isCorrect": false,
-          "rationale": "The mandate was complete eradication of surviving human vessels, not a cull of domestic animals."
-        },
-        {
-          "label": "C",
-          "text": "They were unleashed against survivors who endured the extreme cold in their original Taran vessels.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Those predatory assets guarantee that human survivors cannot organize resistance or survive the reset in original high-density vessels."
-        },
-        {
-          "label": "D",
-          "text": "The targets were non-player characters no longer needed to manage the previous planetary cycle.",
-          "isCorrect": false,
-          "rationale": "NPCs are synthetic management tools. The raptors were unleashed against remaining human survivors."
+          "rationale": "Correct — that description belongs to “Periocular Patches”, not “Velociraptor Eradication Asset”."
         }
       ],
-      "hint": "They were used against those who did not die in the flood or the ice age.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Velociraptor Eradication Asset”.",
+      "correctAnswer": "B"
     },
     {
       "number": 23,

@@ -114,35 +114,35 @@
     },
     {
       "number": 4,
-      "question": "Who are the Sleepers during The Lockdown Window?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Only neutralized elites already removed from power with no remaining 3D-illusion perception to manage.",
+          "text": "Trigger Events — The fifth phase utilizing staged geopolitical tensions and supply disruptions to push the public toward awakening prior to the lockdown.",
           "isCorrect": false,
-          "rationale": "Neutralized elites appear in later E.B.S. disclosures; Sleepers are the unawakened masses still inside the illusion."
+          "rationale": "This pairing matches the report's definition of “Trigger Events”."
         },
         {
           "label": "B",
-          "text": "The Whitehat multi-dimensional command forces already executing lockdown asset positioning worldwide.",
+          "text": "Narrative Maintenance — The fourth phase focused on maintaining a docile illusion of normalcy through controlled stand-ins before the escalation of conflict.",
           "isCorrect": false,
-          "rationale": "Whitehats execute the lockdown; Sleepers are the unawakened population being contained and prepared for truth."
+          "rationale": "This pairing matches the report's definition of “Narrative Maintenance”."
         },
         {
           "label": "C",
-          "text": "Only traditional media executives who voluntarily leave the airwaves before any military deployment.",
-          "isCorrect": false,
-          "rationale": "Media self-exposure is a lockdown mechanic; Sleepers are the broader unawakened public, not only media staff."
+          "text": "Sleepers — The allied military and multi-dimensional command forces executing the lockdown and positioning assets to dismantle the parasitic infrastructure.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Whitehats”. The report defines “Sleepers” as: The unawakened masses existing within the 3D illusion whose perception must be managed and secured during the transition."
         },
         {
           "label": "D",
-          "text": "The unawakened masses existing within the 3D illusion whose perception must be managed and secured during the transition.",
-          "isCorrect": true,
-          "rationale": "Sleepers are the unawakened masses within the 3D illusion whose perception must be managed and secured during the transition."
+          "text": "E.B.S — The Emergency Broadcast System that ultimately takes over media and internet networks to deliver the absolute truth once the lockdown is secured.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “E.B.S”."
         }
       ],
-      "hint": "Identify whose perception must be managed and secured in transition.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 5,
@@ -210,67 +210,43 @@
     },
     {
       "number": 7,
-      "question": "What are Trigger Events relative to The Lockdown Window?",
+      "question": "True or False: According to the report, “Trigger Events” refers to the fourth phase focused on maintaining a docile illusion of normalcy through controlled stand-ins before the escalation of conflict.",
       "options": [
         {
           "label": "A",
-          "text": "The fifth phase using staged geopolitical tensions and supply disruptions to push the public toward awakening before lockdown.",
-          "isCorrect": true,
-          "rationale": "Trigger Events are the fifth phase utilizing staged geopolitical tensions and supply disruptions to push the public toward awakening prior to the lockdown."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Narrative Maintenance”. The report defines “Trigger Events” as: The fifth phase utilizing staged geopolitical tensions and supply disruptions to push the public toward awakening prior to the lockdown."
         },
         {
           "label": "B",
-          "text": "The fourth phase focused solely on stand-in ceremonies with no geopolitical tension tools at all.",
-          "isCorrect": false,
-          "rationale": "Stand-in normalcy is Narrative Maintenance; Trigger Events are Phase Five tension before lockdown."
-        },
-        {
-          "label": "C",
-          "text": "The phase after E.B.S. disclosure that rebuilds old world police without any prior tension staging.",
-          "isCorrect": false,
-          "rationale": "Trigger Events precede lockdown; they are not a post-E.B.S. reconstruction of old police structures."
-        },
-        {
-          "label": "D",
-          "text": "An optional side project with no role in creating psychological stress before Phase Six containment.",
-          "isCorrect": false,
-          "rationale": "Lockdown follows the psychological stress of Trigger Events as the next containment phase."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Narrative Maintenance”, not “Trigger Events”."
         }
       ],
-      "hint": "Identify the preceding fifth-phase role that pushes awakening before lockdown.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “Trigger Events”.",
+      "correctAnswer": "B"
     },
     {
       "number": 8,
-      "question": "What is Narrative Maintenance relative to The Lockdown Window?",
+      "question": "True or False: According to the report, “Narrative Maintenance” refers to the fourth phase focused on maintaining a docile illusion of normalcy through controlled stand-ins before the escalation of conflict.",
       "options": [
         {
           "label": "A",
-          "text": "The sixth phase itself, identical to lockdown military deployment and cable severing operations.",
-          "isCorrect": false,
-          "rationale": "Narrative Maintenance is Phase Four; The Lockdown Window is the distinct sixth-phase containment operation."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Narrative Maintenance” this way."
         },
         {
           "label": "B",
-          "text": "The only phase after E.B.S. truth where stand-ins return as permanent legitimate world leaders.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Phase Four precedes escalation and lockdown; it is not a post-truth restoration of stand-in rule."
-        },
-        {
-          "label": "C",
-          "text": "The fourth phase that maintains a docile illusion of normalcy through controlled stand-ins before conflict escalates.",
-          "isCorrect": true,
-          "rationale": "Narrative Maintenance is the fourth phase focused on maintaining a docile illusion of normalcy through controlled stand-ins before escalation of conflict."
-        },
-        {
-          "label": "D",
-          "text": "A communications-blackout protocol that severs main cables before any stand-in optics appear.",
-          "isCorrect": false,
-          "rationale": "Cable severing and blackouts are lockdown mechanics; Narrative Maintenance is earlier stand-in normalcy."
+          "rationale": "It is true — the report defines “Narrative Maintenance” as: The fourth phase focused on maintaining a docile illusion of normalcy through controlled stand-ins before the escalation of conflict."
         }
       ],
-      "hint": "Name the fourth-phase docile illusion that comes before escalation and lockdown.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “Narrative Maintenance”.",
+      "correctAnswer": "A"
     },
     {
       "number": 9,

@@ -18,35 +18,35 @@
   "questions": [
     {
       "number": 1,
-      "question": "Which phase of The Great Purge are Trigger Events?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The seventh phase of The Great Purge, limited to the Emergency Broadcast System truth delivery alone.",
+          "text": "Project Blue Beam — The advanced holographic projection technology used to simulate an alien invasion once the mass fear frequency peaks.",
           "isCorrect": false,
-          "rationale": "Phase Seven E.B.S. truth delivery comes after Trigger Events achieve emotional peak and initiate lockdown."
+          "rationale": "This pairing matches the report's definition of “Project Blue Beam”."
         },
         {
           "label": "B",
-          "text": "The pivotal fifth phase of The Great Purge, a controlled escalation of global tension between Phases Four and Six.",
-          "isCorrect": true,
-          "rationale": "Trigger Events constitute the pivotal fifth phase of The Great Purge, operating as controlled escalation between Phase Four and Phase Six."
+          "text": "The Lockdown Window — The subsequent sixth phase establishing a controlled physical and informational environment via visible military presence to prepare for the truth broadcast.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “The Lockdown Window”."
         },
         {
           "label": "C",
-          "text": "The fourth phase of The Great Purge, focused only on Controlled Stand-ins and fabricated normalcy optics.",
-          "isCorrect": false,
-          "rationale": "That describes Narrative Maintenance (Phase Four); Trigger Events are the fifth phase that follows it."
+          "text": "Trigger Events — The unawakened masses locked within the 3D illusion whose consciousness must be carefully fractured.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Sleepers”. The report defines “Trigger Events” as: The fifth phase of The Great Purge, utilizing staged geopolitical tensions, air raid sirens, and supply disruptions to push mass public consciousness to the edge of questioning reality."
         },
         {
           "label": "D",
-          "text": "The sixth phase of The Great Purge, defined solely by visible military lockdown in the streets.",
+          "text": "A.I. War Theatre — The automated, scripted geopolitical conflict mechanism puppeteering all sides of staged wars to raise global tension.",
           "isCorrect": false,
-          "rationale": "That describes The Lockdown Window (Phase Six), which follows Trigger Events rather than defining them."
+          "rationale": "This pairing matches the report's definition of “A.I. War Theatre”."
         }
       ],
-      "hint": "Place them between pacifying illusions and physical containment.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "C"
     },
     {
       "number": 2,
@@ -114,34 +114,22 @@
     },
     {
       "number": 4,
-      "question": "What is Narrative Maintenance relative to Trigger Events?",
+      "question": "True or False: According to the report, “Narrative Maintenance” refers to the preceding fourth phase focused on managing sleepers' perception through controlled stand-ins and fabricated normalcy.",
       "options": [
         {
           "label": "A",
-          "text": "The preceding fourth phase that manages sleepers through controlled stand-ins and fabricated normalcy.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Narrative Maintenance is the preceding fourth phase focused on managing sleepers through controlled stand-ins and fabricated normalcy."
+          "rationale": "True — the report defines “Narrative Maintenance” this way."
         },
         {
           "label": "B",
-          "text": "The phase after Trigger Events that deploys holographic alien fleets as Project Blue Beam.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Alien invasion sequencing is part of Phase Five escalation after geopolitical fear peaks, not Narrative Maintenance."
-        },
-        {
-          "label": "C",
-          "text": "An unrelated side project with no role in pacifying sleepers before Phase Five stress.",
-          "isCorrect": false,
-          "rationale": "Phase Four establishes the docile complacency that Phase Five intentionally shatters as a stressor."
-        },
-        {
-          "label": "D",
-          "text": "The sixth phase that establishes visible military lockdown for the truth broadcast environment.",
-          "isCorrect": false,
-          "rationale": "That is The Lockdown Window; Narrative Maintenance is Phase Four before Trigger Events."
+          "rationale": "It is true — the report defines “Narrative Maintenance” as: The preceding fourth phase focused on managing sleepers' perception through controlled stand-ins and fabricated normalcy."
         }
       ],
-      "hint": "Identify the preceding phase and its pacifying method.",
+      "hint": "Recall how the report's Key Terminology defines “Narrative Maintenance”.",
       "correctAnswer": "A"
     },
     {
@@ -242,35 +230,23 @@
     },
     {
       "number": 8,
-      "question": "What are False Flag Events in this phase?",
+      "question": "True or False: According to the report, “False Flag Events” refers to staged incidents such as tanker attacks, embassy strikes, and targeted blackouts designed to emotionally charge the public.",
       "options": [
         {
           "label": "A",
-          "text": "Only unplanned accidents with no emotional targeting and no connection to escalation theater.",
-          "isCorrect": false,
-          "rationale": "These are deliberate staged escalations, including simulated tanker attacks and embassy strikes."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “False Flag Events” this way."
         },
         {
           "label": "B",
-          "text": "Only peaceful diplomatic summits that reduce tension and cancel all supply disruptions.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "False flags escalate emotional charge; they do not pacify or cancel Trigger Event pressure."
-        },
-        {
-          "label": "C",
-          "text": "Staged incidents such as tanker attacks, embassy strikes, and targeted blackouts designed to emotionally charge the public.",
-          "isCorrect": true,
-          "rationale": "False Flag Events are staged incidents such as tanker attacks, embassy strikes, and targeted blackouts designed to emotionally charge the public."
-        },
-        {
-          "label": "D",
-          "text": "Only Phase Six military curfews with no tanker, embassy, or blackout staging beforehand.",
-          "isCorrect": false,
-          "rationale": "False flags are Phase Five escalation tools that help justify later lockdown, not lockdown itself."
+          "rationale": "It is true — the report defines “False Flag Events” as: Staged incidents such as tanker attacks, embassy strikes, and targeted blackouts designed to emotionally charge the public."
         }
       ],
-      "hint": "List staged incident types used to emotionally charge the public.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “False Flag Events”.",
+      "correctAnswer": "A"
     },
     {
       "number": 9,

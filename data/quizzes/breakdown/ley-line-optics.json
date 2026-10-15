@@ -594,34 +594,34 @@
     },
     {
       "number": 19,
-      "question": "Surface Crystals, such as mountains, function primarily as what for the grid?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Heat sinks whose only purpose is cooling the earth core so lava never reaches any Surface Node.",
+          "text": "Ley Line Optics — The organic, energetic conduits connecting rivers, lakes, and quartz veins, acting as fibre optic lines of Source to transmit memory and frequency.",
           "isCorrect": false,
-          "rationale": "Surface Crystals function as antennas for codes; core life-force push is an Earth Node role, not mountain heat-sink cooling."
+          "rationale": "This pairing matches the report's definition of “Ley Line Optics”."
         },
         {
           "label": "B",
-          "text": "Weight stabilizers that pin continental plates so the Sub-Crystalline Band cannot pass any vibration.",
+          "text": "Crystalline Network — One huge electro-magnetic framework consisting of interwoven frequency layers and crystal grids that holds the architecture of all domes and simulations.",
           "isCorrect": false,
-          "rationale": "Surface Crystals are antennas on the living grid; the Sub-Crystalline Band passes energy instantaneously rather than being blocked by mountain weight."
+          "rationale": "This pairing matches the report's definition of “Crystalline Network”."
         },
         {
           "label": "C",
-          "text": "Antennas that broadcast and receive codes across the grid from mountains, quartz veins, and outcrops.",
+          "text": "Surface Crystals — Spherical junction points of energy lines and ley lines where streams of life-force and magnetism meet, acting as neutral relay stations.",
           "isCorrect": true,
-          "rationale": "Surface Crystals — mountains, quartz veins, and natural outcrops — function as antennas to broadcast and receive codes across the grid."
+          "rationale": "That description belongs to “Nodes”. The report defines “Surface Crystals” as: Mountains, quartz veins, and natural outcrops that function as antennas to broadcast and receive codes across the grid."
         },
         {
           "label": "D",
-          "text": "Solid barriers that permanently prevent any mixing of realms and seal every portal against light.",
+          "text": "Sub-Crystalline Band — The subtle communication layer beneath continents and oceans where crystalline minerals resonate like tuning forks to pass energy instantaneously.",
           "isCorrect": false,
-          "rationale": "Surface Crystals broadcast and receive codes as antennas; portal work belongs to Inter-dimensional Nodes, not barrier mountains alone."
+          "rationale": "This pairing matches the report's definition of “Sub-Crystalline Band”."
         }
       ],
-      "hint": "Mountains and outcrops serve a communications role on the web.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "C"
     },
     {

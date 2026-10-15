@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is String 3: Perceived Knowledge / Intellect?",
+      "question": "True or False: According to the report, “String 3: Perceived Knowledge / Intellect” refers to physical evidence of high-technological civilizations (like Great Tartary) that contradict the fabricated historical timeline and are subsequently hidden in museum basements.",
       "options": [
         {
           "label": "A",
-          "text": "A temporary password for Scare Events that grants NPC status without any intellectual pride.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "String 3 is the pride-and-certainty trap; NPCs are the 97% running scripted education paths."
+          "rationale": "False — that description belongs to “Oopa's (Out Of Place Artefacts)”. The report defines “String 3: Perceived Knowledge / Intellect” as: The accumulation of learned information and societal understanding that solidifies into a rigid defensive shield for the ego, preventing the mind from accepting true cosmology."
         },
         {
           "label": "B",
-          "text": "Only a monetary hobby that distracts people with debt and retirement while never touching education or ego.",
-          "isCorrect": false,
-          "rationale": "That tracks Finance (String 2); Perceived Knowledge is the intellect/education tether."
-        },
-        {
-          "label": "C",
-          "text": "The final and most insidious psychological tether in The 3 Strings of Attachment.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "String 3 is intellect-as-armor: lifelong schooled understanding hardened into an ego shield that blocks true cosmology."
-        },
-        {
-          "label": "D",
-          "text": "A free open-source library of firmament science already taught in every university without deception.",
-          "isCorrect": false,
-          "rationale": "Universities weaponize deception; String 3 is the rigid shield, not free true cosmology."
+          "rationale": "Correct — that description belongs to “Oopa's (Out Of Place Artefacts)”, not “String 3: Perceived Knowledge / Intellect”."
         }
       ],
-      "hint": "String 3 — intellect as rigid ego shield against true cosmology.",
-      "correctAnswer": "C"
+      "hint": "Recall how the report's Key Terminology defines “String 3: Perceived Knowledge / Intellect”.",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -118,25 +106,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A calm soul state that automatically accepts firmament truth without any ego defense.",
+          "text": "A calm state of the soul that accepts the truth of the firmament without needing the ego to defend any earlier beliefs.",
           "isCorrect": false,
           "rationale": "It is the mechanism that makes fabricated intellect define being and forces defense of false narratives."
         },
         {
           "label": "B",
-          "text": "A Mind Camp rule that only applies to NPCs and never to anyone with intellectual pride.",
+          "text": "A Mind Camp rule that applies to NPC programs alone, keeping intellectually proud true souls outside its influence.",
           "isCorrect": false,
           "rationale": "Intellectual pride is exactly who operates under Safety of Certainty as ego armor."
         },
         {
           "label": "C",
-          "text": "The psychological mechanism wherein fabricated intellectual understanding defines a person's awareness and being, causing reflexive defense of false narratives to protect the ego.",
+          "text": "The mechanism by which fabricated understanding defines a person's identity, causing reflexive defense of false narratives to protect the ego.",
           "isCorrect": true,
           "rationale": "Safety of Certainty = identity built on fake intellect → ego defends the lie at all costs."
         },
         {
           "label": "D",
-          "text": "A finance product that guarantees retirement income without intellectual pride involved.",
+          "text": "A retirement savings product that guarantees income in the new economy for those who give up their intellectual pride.",
           "isCorrect": false,
           "rationale": "Safety of Certainty is psychological: intellect defining identity and ego defense."
         }
@@ -146,34 +134,34 @@
     },
     {
       "number": 5,
-      "question": "What is the Mind Camp?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "A free-thinking academy that rewards people for questioning Gravity, Evolution, and linear time.",
+          "text": "String 3: Perceived Knowledge / Intellect — The accumulation of learned information and societal understanding that solidifies into a rigid defensive shield for the ego, preventing the mind from accepting true cosmology.",
           "isCorrect": false,
-          "rationale": "It enforces conformity against free questioning of the false paradigms."
+          "rationale": "This pairing matches the report's definition of “String 3: Perceived Knowledge / Intellect”."
         },
         {
           "label": "B",
-          "text": "Only a summer sports program with no link to peer pressure, media, or education scripts.",
+          "text": "NPCs (Non-Player Characters) — 97% of the population who lack internal monologues or self-awareness, relying entirely on programmed, uniform scripted chains of thought provided by mainstream education and media.",
           "isCorrect": false,
-          "rationale": "It is the conformity architecture around thought, reinforced by media and peers."
+          "rationale": "This pairing matches the report's definition of “NPCs (Non-Player Characters)”."
         },
         {
           "label": "C",
-          "text": "Societal conformity boundaries defining where thoughts may roam, enforced by peer ridicule, potential ostracization, and subconscious programming.",
+          "text": "Mind Camp — The psychological mechanism wherein an individual's fabricated intellectual understanding defines their awareness and being, causing them to reflexively defend false narratives to protect their ego.",
           "isCorrect": true,
-          "rationale": "Mind Camp is the allowed thought perimeter — ridicule, ostracization, and programming keep minds inside."
+          "rationale": "That description belongs to “Safety of Certainty”. The report defines “Mind Camp” as: The societal conformity boundaries defining where an individual's thoughts may roam, strictly enforced by peer ridicule, potential ostracization, and subconscious programming."
         },
         {
           "label": "D",
-          "text": "A subterranean vault of Oopa's opened to every student as required curriculum.",
+          "text": "Oopa's (Out Of Place Artefacts) — Physical evidence of high-technological civilizations (like Great Tartary) that contradict the fabricated historical timeline and are subsequently hidden in museum basements.",
           "isCorrect": false,
-          "rationale": "Oopa's are hidden in museum basements; Mind Camp keeps people from facing that evidence."
+          "rationale": "This pairing matches the report's definition of “Oopa's (Out Of Place Artefacts)”."
         }
       ],
-      "hint": "Conformity perimeter — ridicule and programming limit thought.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "C"
     },
     {
@@ -182,25 +170,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only library patrons who already severed all three Strings before the last reset.",
+          "text": "Library patrons who severed all three Strings before the last reset and now repeat what they read without question.",
           "isCorrect": false,
           "rationale": "NPCs are the deeply programmed majority still inside Mind Camp parameters."
         },
         {
           "label": "B",
-          "text": "They all hold advanced firmament degrees and reject mainstream education entirely.",
+          "text": "Holders of advanced firmament degrees who reject mainstream education and form their own isolated communities.",
           "isCorrect": false,
           "rationale": "NPCs rely entirely on programmed scripted thought from mainstream education and media."
         },
         {
           "label": "C",
-          "text": "97% of the population who lack internal monologues or self-awareness, relying entirely on programmed, uniform scripted chains of thought from mainstream education and media.",
+          "text": "The 97% who lack internal monologues or self-awareness, relying on uniform scripted thought from mainstream education and media.",
           "isCorrect": true,
           "rationale": "NPCs = 97% without internal monologue, running education/media scripts only."
         },
         {
           "label": "D",
-          "text": "A tiny 3% minority of free souls who never watch television or trust experts.",
+          "text": "A small minority of free souls who avoid television and distrust experts, making up the outer edge of society.",
           "isCorrect": false,
           "rationale": "97% are NPCs; the free-soul remnant is the small minority, not the reverse."
         }
@@ -210,35 +198,23 @@
     },
     {
       "number": 7,
-      "question": "What are Oopa's (Out Of Place Artefacts)?",
+      "question": "True or False: According to the report, “Oopa's (Out Of Place Artefacts)” refers to physical evidence of high-technological civilizations (like Great Tartary) that contradict the fabricated historical timeline and are subsequently hidden in museum basements.",
       "options": [
         {
           "label": "A",
-          "text": "Only modern art installations with no link to high-technological prior civilizations.",
-          "isCorrect": false,
-          "rationale": "They are physical evidence of high-tech civilizations like Great Tartary."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “Oopa's (Out Of Place Artefacts)” this way."
         },
         {
           "label": "B",
-          "text": "Physical evidence of high-technological civilizations (like Great Tartary) that contradict the fabricated historical timeline and are subsequently hidden in museum basements.",
-          "isCorrect": true,
-          "rationale": "Oopa's = high-tech prior-civilization proof buried in basements so the false timeline holds."
-        },
-        {
-          "label": "C",
-          "text": "Carnegie library card catalogs that teach spinning-globe cosmology as absolute law only.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Carnegie libraries spread the new bullshit; Oopa's are the suppressed physical counter-evidence."
-        },
-        {
-          "label": "D",
-          "text": "Official textbooks that already list every Tartarian free-energy device without suppression.",
-          "isCorrect": false,
-          "rationale": "Oopa's contradict the fabricated timeline and are hidden in museum basements."
+          "rationale": "It is true — the report defines “Oopa's (Out Of Place Artefacts)” as: Physical evidence of high-technological civilizations (like Great Tartary) that contradict the fabricated historical timeline and are subsequently hidden in museum basements."
         }
       ],
-      "hint": "High-tech Tartary evidence — hidden in museum basements.",
-      "correctAnswer": "B"
+      "hint": "Recall how the report's Key Terminology defines “Oopa's (Out Of Place Artefacts)”.",
+      "correctAnswer": "A"
     },
     {
       "number": 8,
@@ -406,25 +382,25 @@
       "options": [
         {
           "label": "A",
-          "text": "It forms a rigid frame of protection around the ego — a timid frightened interior hidden behind a false \"borrowed\" exterior shell built from socially accepted knowledge.",
+          "text": "It forms a rigid frame around the ego — a frightened interior hidden behind a \"borrowed\" shell built from socially accepted knowledge.",
           "isCorrect": true,
           "rationale": "Borrowed social knowledge shells the ego; pride and intellect frame a rigid defense."
         },
         {
           "label": "B",
-          "text": "It dissolves all pride so people naturally step outside normality without fear.",
+          "text": "It dissolves pride over time, so people grow comfortable stepping outside normality without feeling the need for approval.",
           "isCorrect": false,
           "rationale": "Ego and pride force rejection of truths that threaten the intellectual comfort zone."
         },
         {
           "label": "C",
-          "text": "It is made of literal Kevlar stored in Carnegie basements for physical combat only.",
+          "text": "It builds a shield from personal experience rather than borrowed ideas, which makes the ego harder to influence from outside.",
           "isCorrect": false,
           "rationale": "The shield is psychological: rigid ego framing from perceived knowledge."
         },
         {
           "label": "D",
-          "text": "It only protects bank accounts and never constructs any exterior intellectual shell.",
+          "text": "It protects a person's finances rather than their ego, linking social standing to income and leaving beliefs open to change.",
           "isCorrect": false,
           "rationale": "The shield is intellectual/ego armor from accepted knowledge, not a finance vault."
         }
@@ -662,25 +638,25 @@
       "options": [
         {
           "label": "A",
-          "text": "They exclusively open museum basements and teach Tartary free energy as core liturgy.",
+          "text": "The three strings open museum basements and teach Tartarian free energy, guiding people gently toward the truth of the realm's architecture.",
           "isCorrect": false,
           "rationale": "Together they trap consciousness; they do not liberate Oopa/Tartary truth."
         },
         {
           "label": "B",
-          "text": "Each String cancels the others so keeping only intellect is always safe during the EMF flash.",
+          "text": "Each string cancels out the others, so a person who keeps Perceived Knowledge alone is protected from the effects of Religion and Finance.",
           "isCorrect": false,
           "rationale": "They function in unison; intellectual tether alone still produces fatal dissonance at reveal."
         },
         {
           "label": "C",
-          "text": "Religion subdues cognitive autonomy via false deities, Finance blinds via pursuit of fake money, and Perceived Knowledge ensures the intellect violently rejects the truth of the realm's architecture.",
+          "text": "Religion subdues autonomy via false deities, Finance blinds via fake money, and Perceived Knowledge makes the intellect reject the realm's truth.",
           "isCorrect": true,
           "rationale": "Three-String stack: Religion subdues, Finance blinds, Intellect rejects architectural truth."
         },
         {
           "label": "D",
-          "text": "They only affect NPCs and never touch anyone who owns a university degree.",
+          "text": "The strings affect NPC programs only, leaving true souls with university degrees free to see the realm's architecture as it really is.",
           "isCorrect": false,
           "rationale": "Degrees are the String 3 armor; genuine souls must sever them too."
         }

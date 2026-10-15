@@ -210,35 +210,35 @@
     },
     {
       "number": 7,
-      "question": "What is the purpose of the Valve Tech installed in the wound of the Spirit Tree?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "To restabilize the Axis Laburnum so Thuban and Hyperborea realign after the tree is removed.",
-          "isCorrect": false,
-          "rationale": "Parasitic takeover rotated the sky to false north (Polaris) and installed Valve Tech to reverse energy flow, not to restore Axis Laburnum alignment."
+          "text": "Valve Tech — The seven domes existing outside the Great Dome (such as the Dome of Forgotten Gods), which were originally fed by the roots and branches of the Spirit Tree.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Seven Gardens”. The report defines “Valve Tech” as: The advanced BLACK CUBE TECH machinery installed by parasites into the wound of the uprooted Spirit Tree to siphon light and invert the grid's power into the false Saturn-lunar system."
         },
         {
           "label": "B",
-          "text": "To repair the organic grid and restore outward Source Light flow into the Seven Gardens again.",
+          "text": "Nodes — Spherical relay stations of living energy where streams of life-force, magnetism, and crystalline veins converge, gathering and passing power throughout the grid.",
           "isCorrect": false,
-          "rationale": "Valve Tech reverses energy to suck power inward for parasites rather than feeding it outward; it does not repair organic Source flow."
+          "rationale": "This pairing matches the report's definition of “Nodes”."
         },
         {
           "label": "C",
-          "text": "To siphon light and invert the grid's power into the false Saturn-lunar system for parasitic use.",
-          "isCorrect": true,
-          "rationale": "Valve Tech is advanced BLACK CUBE TECH machinery installed into the wound of the uprooted Spirit Tree to siphon light and invert the grid's power into the false Saturn-lunar system."
+          "text": "Hyperborea — A living resonance field and the true heart of the CUBE System where the Spirit Tree originally stood, currently masked by the frozen holographic overlay known as Antarctica.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Hyperborea”."
         },
         {
           "label": "D",
-          "text": "To protect surviving Spirit Tree roots from further damage until Lyran Builders return to Hyperborea.",
+          "text": "Harmonic Lenses — Patterns of frequency that form around active nodes to shape, focus, and redirect energy, acting as the sensing and balancing instruments of the earth.",
           "isCorrect": false,
-          "rationale": "The tech was placed into the wound to exploit and siphon energy, not to protect the dormant root web of the Spirit Tree."
+          "rationale": "This pairing matches the report's definition of “Harmonic Lenses”."
         }
       ],
-      "hint": "Parasitic machinery reverses flow into a false celestial harvest system.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 8,

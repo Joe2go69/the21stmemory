@@ -466,34 +466,34 @@
     },
     {
       "number": 15,
-      "question": "What is predicted to happen to navigation once the Parasitic Overlay permanently collapses?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Navigation will be limited only to the KNOWN LANDS with no access beyond the Great Dome.",
+          "text": "Parasitic Circuit Boards — corrupted grid sections where original crystalline nodes were buried under cities or deserts to harvest emotional energy (loosh) and broadcast the 3D illusion.",
           "isCorrect": false,
-          "rationale": "Collapse returns navigation to instantaneous resonance alignment across the grid, not a permanent KNOWN LANDS lock-in."
+          "rationale": "This pairing matches the report's definition of “Parasitic Circuit Boards”."
         },
         {
           "label": "B",
-          "text": "Navigation will stay governed by physical GPS satellites embedded in the Surface Band forever.",
+          "text": "Nodes — spherical junction points where streams of life-force and magnetism meet, acting as relay stations for frequency across the grids.",
           "isCorrect": false,
-          "rationale": "GPS-style 3D infrastructure is part of the distance illusion; original navigation is resonance alignment."
+          "rationale": "This pairing matches the report's definition of “Nodes”."
         },
         {
           "label": "C",
-          "text": "Navigation will require advanced interstellar spacecraft as the only way to cross frequency bands.",
+          "text": "Harmonic Lenses — crystalline patterns that form around active nodes to shape, focus, and redirect energy, pulsing with the frequencies of celestial bodies.",
           "isCorrect": false,
-          "rationale": "Travel returns to resonance alignment, not a requirement for mechanical interstellar spacecraft."
+          "rationale": "This pairing matches the report's definition of “Harmonic Lenses”."
         },
         {
           "label": "D",
-          "text": "Navigation will return to instantaneous resonance alignment once false distance collapses.",
+          "text": "Parasitic Overlay — the physical and etheric hard drives of the grid that store memory, frequency, and resonance codes.",
           "isCorrect": true,
-          "rationale": "When the illusion of distance collapses, navigation returns to instantaneous resonance alignment."
+          "rationale": "That description belongs to “Crystals”. The report defines “Parasitic Overlay” as: a false, holographic skin projected over reality through hijacked grids, manipulating human senses into perceiving solid 3D density rather than living crystal."
         }
       ],
-      "hint": "Think about how movement would function if distance were an illusion.",
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
       "correctAnswer": "D"
     },
     {

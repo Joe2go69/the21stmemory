@@ -434,35 +434,35 @@
     },
     {
       "number": 14,
-      "question": "What is the true function of the sun in the context of the Solar Gate Network?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "To function as the central hub for the Vatican tracking archives and reincarnation loops.",
+          "text": "Seamless Frequency Phase Out — The energetic process of sliding out of the low-vibration 3D dome, rendering the departing soul invisible to low-vibration observers.",
           "isCorrect": false,
-          "rationale": "Artificial entry bands around the sun routed souls into the Vatican tracking archives. That hijack is not the sun's true function."
+          "rationale": "This pairing matches the report's definition of “Seamless Frequency Phase Out”."
         },
         {
           "label": "B",
-          "text": "To act as a physical battery providing heat to the physical dome and its 178 worlds.",
-          "isCorrect": false,
-          "rationale": "The sun's true cosmic role in this network is a stargate for soul return, not merely a heat battery for the dome."
+          "text": "Solar Gate Network — The instantaneous and complete restoration of a soul’s total chronological history, dissolving all past-life amnesia and soul fragmentation.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Memory Flood”. The report defines “Solar Gate Network” as: The multi-banded cosmic transit grid, originally utilizing the sun's true function, through which souls return to their home realms."
         },
         {
           "label": "C",
-          "text": "To generate the intensive E.M.G. field required for the Sol Frequency Lock.",
+          "text": "Sol Frequency Lock — A personal, unique recognition code called for souls on the correct vibrational threshold, known only to their true kin, ensuring secure extraction.",
           "isCorrect": false,
-          "rationale": "Planetary crystal grids and Earth grids generate the E.M.G. field. The sun provides the multi-banded transit portal."
+          "rationale": "This pairing matches the report's definition of “Sol Frequency Lock”."
         },
         {
           "label": "D",
-          "text": "To serve as a multi-banded crystalline stargate for soul return.",
-          "isCorrect": true,
-          "rationale": "The Solar Gate Network utilizes the true stargate function of the sun. As artificial bands collapse, the true multi-banded crystalline stargate is restored."
+          "text": "Reunion Mechanics — The precise energetic, physical, and technological operations that facilitate the extraction of resonating souls and their return to their star families.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Reunion Mechanics”."
         }
       ],
-      "hint": "Consider the sun as a portal rather than just a source of light or an artificial structure.",
-      "correctAnswer": "D"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 15,

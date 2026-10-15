@@ -114,67 +114,43 @@
     },
     {
       "number": 4,
-      "question": "What is The Cut in EBS Operation terminology?",
+      "question": "True or False: According to the report, “The Cut” refers to the secondary phase (Hours 12-36) of the blackout characterized by crowd surges at supermarkets and banks as NPC programming begins to glitch.",
       "options": [
         {
           "label": "A",
-          "text": "Only a supermarket restock drill with fully working phones and uninterrupted MSM calm instead of The Cut as the initial 12-hour cable-sever fear-loop phase.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Main internet cables are severed and MSM floods with panic—not a calm restock drill with working phones."
+          "rationale": "False — that description belongs to “The Wave”. The report defines “The Cut” as: The initial 12-hour phase of the communications blackout where main internet cables are severed, plunging the public into confusion and a fear loop."
         },
         {
           "label": "B",
-          "text": "The full 72+ hour E.B.S. truth cycle with soft-to-hard packages and no cable dark phase first.",
-          "isCorrect": false,
-          "rationale": "The Cut is the early blackout cable phase; E.B.S. is the later 72+ hour truth broadcast after military media takeover."
-        },
-        {
-          "label": "C",
-          "text": "The final year of reconstruction when every cable is restored and no one enters any fear loop at all instead of The Cut as the initial 12-hour cable-sever fear-loop phase.",
-          "isCorrect": false,
-          "rationale": "The Cut is the initial 12-hour cable-sever phase—not a final reconstruction year of restored cables."
-        },
-        {
-          "label": "D",
-          "text": "The initial 12-hour phase of the communications blackout where main internet cables are severed, plunging the public into confusion and a fear loop.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "The Cut is the initial 12-hour blackout phase when main internet cables are severed and the public enters confusion and a fear loop."
+          "rationale": "Correct — that description belongs to “The Wave”, not “The Cut”."
         }
       ],
-      "hint": "Initial 12-hour blackout phase and public psychological state.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “The Cut”.",
+      "correctAnswer": "B"
     },
     {
       "number": 5,
-      "question": "What defines The Wave (Hours 12-36)?",
+      "question": "True or False: According to the report, “The Wave” refers to the secondary phase (Hours 12-36) of the blackout characterized by crowd surges at supermarkets and banks as NPC programming begins to glitch.",
       "options": [
         {
           "label": "A",
-          "text": "A calm empty-store phase with perfectly stable NPC programming and zero survival scrambling.",
-          "isCorrect": false,
-          "rationale": "The Wave is crowd surges and NPC glitching—not empty calm stores with perfect NPC stability."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “The Wave” this way."
         },
         {
           "label": "B",
-          "text": "Only Real Craft landings with no NPC glitch and no crowd surge toward fuel or food hubs.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The Wave centers surges and NPC glitch; Real Crafts arrive in broader context while public focus is E.B.S. and staged invasion."
-        },
-        {
-          "label": "C",
-          "text": "Only soft E.B.S. reassurance with “STAY CALM YOU ARE SAFE” and no supermarket or bank surges at all.",
-          "isCorrect": false,
-          "rationale": "Soft reassurance is E.B.S. rollout content; The Wave is physical survival scrambling under blackout."
-        },
-        {
-          "label": "D",
-          "text": "The secondary blackout phase with crowd surges at supermarkets and banks as NPC programming begins to glitch.",
-          "isCorrect": true,
-          "rationale": "The Wave (Hours 12-36) is the secondary blackout phase of supermarket and bank surges as NPC programming begins to glitch."
+          "rationale": "It is true — the report defines “The Wave” as: The secondary phase (Hours 12-36) of the blackout characterized by crowd surges at supermarkets and banks as NPC programming begins to glitch."
         }
       ],
-      "hint": "Crowd targets and NPC programming behavior.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “The Wave”.",
+      "correctAnswer": "A"
     },
     {
       "number": 6,
@@ -402,35 +378,35 @@
     },
     {
       "number": 13,
-      "question": "What defines Phase Two: The Wave (Hr 12-36)?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "Empty calm hubs with perfect AI scaffolding and zero visible NPC program glitches whatsoever rather than Phase Two survival scrambling as AI scaffolding crumbles and NPCs glitch.",
+          "text": "The Cut — The initial 12-hour phase of the communications blackout where main internet cables are severed, plunging the public into confusion and a fear loop.",
           "isCorrect": false,
-          "rationale": "The Wave is scrambling surges and visible NPC glitch as scaffolding crumbles—not empty calm perfection."
+          "rationale": "This pairing matches the report's definition of “The Cut”."
         },
         {
           "label": "B",
-          "text": "Only seeded-sols revelation airing with no fuel-station scramble and no NPC glitch at all rather than Phase Two survival scrambling as AI scaffolding crumbles and NPCs glitch.",
+          "text": "Project Blue Beam — An advanced holographic fear push utilizing Black Cube Tech to simulate an Alien Invasion, deployed as a catalyst to shake sleepers into questioning reality before the E.B.S. activates.",
           "isCorrect": false,
-          "rationale": "Seeded Sols appear in E.B.S. rollout; The Wave is physical scramble and NPC glitch under blackout."
+          "rationale": "This pairing matches the report's definition of “Project Blue Beam”."
         },
         {
           "label": "C",
-          "text": "Survival scrambling as sleepers and NPCs surge toward supermarkets and fuel stations while AI scaffolding crumbles and NPC programs visibly glitch.",
-          "isCorrect": true,
-          "rationale": "Phase Two Wave (12-36): survival scrambling to supermarkets and fuel stations as AI scaffolding crumbles and NPC programs visibly glitch."
+          "text": "The Lockdown Window — A controlled environment where military forces maintain order in the streets to protect civilians and allow them to safely sit still and absorb the E.B.S. broadcasts.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “The Lockdown Window”."
         },
         {
           "label": "D",
-          "text": "Only Opening Hour soul-memory sharpening with no supermarket surges and no AI scaffolding collapse rather than Phase Two survival scrambling as AI scaffolding crumbles and NPCs glitch.",
-          "isCorrect": false,
-          "rationale": "Opening Hour is Phase Three; Phase Two centers survival surges and NPC/AI glitch signs."
+          "text": "The Wave — A mandatory 72+ hour broadcast of truth packages, delivered after military forces take over all media and internet channels to expose elite crimes and the true nature of reality.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “E.B.S. (Emergency Broadcast System)”. The report defines “The Wave” as: The secondary phase (Hours 12-36) of the blackout characterized by crowd surges at supermarkets and banks as NPC programming begins to glitch."
         }
       ],
-      "hint": "Survival scrambling, hub targets, and AI scaffolding fate.",
-      "correctAnswer": "C"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "D"
     },
     {
       "number": 14,

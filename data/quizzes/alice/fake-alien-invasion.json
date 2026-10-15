@@ -22,25 +22,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A permanent physical occupation by landing Anuk fleets.",
+          "text": "A physical occupation of the realm by Anuk fleets that land and remain after the flash.",
           "isCorrect": false,
           "rationale": "There is no physical ground threat; craft seen in the attack are holographic."
         },
         {
           "label": "B",
-          "text": "A staged, highly advanced holographic event engineered for the final stages of the Ascension Event / Great Spiritual Awakening.",
+          "text": "A staged, advanced holographic event engineered for the final stages of the Ascension Event.",
           "isCorrect": true,
           "rationale": "The Fake Alien Invasion is a staged, highly advanced holographic event engineered for the final stages of the Ascension Event (Great Spiritual Awakening)."
         },
         {
           "label": "C",
-          "text": "Nothing beyond a silent library update with no sky visuals.",
+          "text": "A quiet library update that rewrites the history books, with no visuals appearing in the sky.",
           "isCorrect": false,
           "rationale": "It is a planetary sky battle and abduction scare with maximum visual impact."
         },
         {
           "label": "D",
-          "text": "A spontaneous natural meteor shower with no planning.",
+          "text": "A natural meteor shower that the controllers use opportunistically, with no planning behind it.",
           "isCorrect": false,
           "rationale": "It is meticulously engineered holographic theater, not a natural accident."
         }
@@ -86,25 +86,25 @@
       "options": [
         {
           "label": "A",
-          "text": "To restore false religious deities as planetary kings.",
+          "text": "To prepare the population to accept false religious deities as planetary kings once the invasion has ended.",
           "isCorrect": false,
           "rationale": "EBS and invasion shatter false deities and other strings of bondage."
         },
         {
           "label": "B",
-          "text": "To help NPCs keep their jobs in the matrix forever.",
+          "text": "To help NPC programs keep their roles in the matrix after the flash by giving them a shared memory of the event.",
           "isCorrect": false,
           "rationale": "NPCs are permanently removed in the flash; trauma serves true-soul future immunity."
         },
         {
           "label": "C",
-          "text": "To permanently hardwire the epochal transition into soul-architecture so a parasitic takeover of the physical plain can never occur again.",
+          "text": "To hardwire the transition into soul-architecture so a parasitic takeover of the physical plain never occurs again.",
           "isCorrect": true,
           "rationale": "Extreme emotion permanently hardwires the transition into survivor soul-architecture, ensuring parasitic takeover of the physical plain never happens again."
         },
         {
           "label": "D",
-          "text": "To sell more Project Bluebeam tickets for annual festivals.",
+          "text": "To create a yearly memorial festival around Project Bluebeam that keeps the population loyal to the controllers.",
           "isCorrect": false,
           "rationale": "It is a one-time Ascension fail-safe, not commercial entertainment."
         }
@@ -150,25 +150,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A ground invasion of solid metal ships docking in every city.",
+          "text": "A ground invasion by solid metal ships that dock in every major city and take control of the governments.",
           "isCorrect": false,
           "rationale": "It is non-physical and holographic — no ground extraterrestrial threat."
         },
         {
           "label": "B",
-          "text": "A staged, non-physical, holographic sky battle and abduction scenario used to induce maximum terror before the final reset of the realm.",
+          "text": "A staged, non-physical holographic sky battle and abduction scenario used to induce terror before the final reset.",
           "isCorrect": true,
           "rationale": "It is defined as a staged, non-physical, holographic sky battle and abduction scenario inducing maximum terror prior to the final realm reset."
         },
         {
           "label": "C",
-          "text": "A silent meditation with no visual sky content.",
+          "text": "A silent mass meditation held around the world, with no visual content appearing in the sky at all.",
           "isCorrect": false,
           "rationale": "It is a full sky-battle and abduction scare display."
         },
         {
           "label": "D",
-          "text": "Only animal migration patterns misread as UFOs.",
+          "text": "A wave of animal migrations and weather balloons that the population mistakes for alien craft overhead.",
           "isCorrect": false,
           "rationale": "After the flash the quiet includes absence of animal and bird noise for survivors; the invasion itself is Project Bluebeam holograms."
         }
@@ -242,35 +242,23 @@
     },
     {
       "number": 8,
-      "question": "How does the EBS relate to the Fake Alien Invasion?",
+      "question": "True or False: According to the report, “EBS (Emergency Broadcast System)” refers to advanced holographic projection technology used to simulate UFOs and extraterrestrial abductions in the sky, creating a visually convincing but entirely fake alien attack.",
       "options": [
         {
           "label": "A",
-          "text": "EBS is a global lockdown and information broadcast period overlapping the invasion, exposing historical atrocities of the parasitic control system.",
-          "isCorrect": true,
-          "rationale": "EBS is a global lockdown and information broadcast overlapping the Fake Alien Invasion, designed to expose historical atrocities of the parasitic control system."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — that description belongs to “Project Bluebeam”. The report defines “EBS (Emergency Broadcast System)” as: A global lockdown and information broadcast period that overlaps with the Fake Alien Invasion, designed to expose the historical atrocities of the parasitic control system."
         },
         {
           "label": "B",
-          "text": "EBS is identical to the Valve at Mt Meru only.",
-          "isCorrect": false,
-          "rationale": "The Valve projects holograms; EBS is the disclosure lockdown broadcast."
-        },
-        {
-          "label": "C",
-          "text": "EBS cancels Project Bluebeam permanently before any scare.",
-          "isCorrect": false,
-          "rationale": "Invasion occurs toward the end of EBS lockdown, after shock from disclosures."
-        },
-        {
-          "label": "D",
-          "text": "EBS only plays music after all holograms end.",
-          "isCorrect": false,
-          "rationale": "EBS runs through lockdown and overlaps the invasion with atrocity disclosure."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — that description belongs to “Project Bluebeam”, not “EBS (Emergency Broadcast System)”."
         }
       ],
-      "hint": "Lockdown disclosure overlapping the scare.",
-      "correctAnswer": "A"
+      "hint": "Recall how the report's Key Terminology defines “EBS (Emergency Broadcast System)”.",
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -278,25 +266,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A finance committee setting fiat interest rates only.",
+          "text": "A finance committee that sets fiat interest rates and prepares the banking system for the collapse after the flash.",
           "isCorrect": false,
           "rationale": "G.A.A. manages Ascension mechanics and sky events, not fiat policy."
         },
         {
           "label": "B",
-          "text": "NPC managers who vanish in the first second of Bluebeam.",
+          "text": "A group of NPC managers who vanish in the first second of Bluebeam, leaving the sky events without oversight.",
           "isCorrect": false,
           "rationale": "NPCs vanish in the EMF flash; G.A.A. runs the liberation sequence."
         },
         {
           "label": "C",
-          "text": "Benevolent extraterrestrial and ancestral coalition managing the Ascension Event, dismantling fake reality overlays, and overseeing the sky events.",
+          "text": "A benevolent extraterrestrial and ancestral coalition managing the Ascension Event and overseeing the sky events.",
           "isCorrect": true,
           "rationale": "G.A.A. is the benevolent extraterrestrial and ancestral coalition managing Ascension, dismantling fake overlays, and overseeing sky events."
         },
         {
           "label": "D",
-          "text": "The same as Custodians, Anuk, and Greys running Loosh farms.",
+          "text": "The same coalition as the Custodians, Anuk, and Greys, running the Loosh farms behind the invasion scare.",
           "isCorrect": false,
           "rationale": "Those are 4th-density parasites of the 178,000-year conflict; G.A.A. dismantles their matrix."
         }
@@ -306,35 +294,23 @@
     },
     {
       "number": 10,
-      "question": "What are NPCs in this framework?",
+      "question": "True or False: According to the report, “NPCs (Non-Player Characters)” refers to cloned, synthetic, or artificially generated human vessels lacking true souls, comprising 97% of the population, all of whom are permanently removed during the EMF flash.",
       "options": [
         {
           "label": "A",
-          "text": "The only survivors who reach 520 million automatically as kings.",
-          "isCorrect": false,
-          "rationale": "Survivors are the remaining true souls (~520 million max); NPCs are the 97% removed."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "True — the report defines “NPCs (Non-Player Characters)” this way."
         },
         {
           "label": "B",
-          "text": "Cloned, synthetic, or artificially generated human vessels lacking true souls — 97% of the population.",
-          "isCorrect": true,
-          "rationale": "NPCs are cloned/synthetic/artificial vessels without true souls, 97% of population, all permanently removed in the EMF flash."
-        },
-        {
-          "label": "C",
-          "text": "Sleepers who already awakened fully before EBS.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Sleepers are unawakened true souls; NPCs lack true souls entirely."
-        },
-        {
-          "label": "D",
-          "text": "High-density observers at altitude who refuse to land.",
-          "isCorrect": false,
-          "rationale": "Those are legitimate benevolent craft; NPCs are ground population synthetics."
+          "rationale": "It is true — the report defines “NPCs (Non-Player Characters)” as: Cloned, synthetic, or artificially generated human vessels lacking true souls, comprising 97% of the population, all of whom are permanently removed during the EMF flash."
         }
       ],
-      "hint": "97% soulless vessels — gone in the flash.",
-      "correctAnswer": "B"
+      "hint": "Recall how the report's Key Terminology defines “NPCs (Non-Player Characters)”.",
+      "correctAnswer": "A"
     },
     {
       "number": 11,
@@ -342,25 +318,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only animals silenced after the flash.",
+          "text": "Star Seeds who are kept unconscious aboard G.A.A. craft during the invasion so that they can be returned once the Bluebeam scare is over.",
           "isCorrect": false,
           "rationale": "Post-flash quiet lacks animal/bird noise for survivors; Sleepers are unawakened true humans/ET souls."
         },
         {
           "label": "B",
-          "text": "G.A.A. operators inside the Valve only.",
+          "text": "G.A.A. operators stationed inside the Valve, who stay dormant until the Sky Event and then wake to manage the evacuation of souls.",
           "isCorrect": false,
           "rationale": "G.A.A. manages the event; Sleepers are the traumatized unawakened true population."
         },
         {
           "label": "C",
-          "text": "True Taran humans or extraterrestrial souls who failed to awaken before the event and will experience the invasion in severe trauma.",
+          "text": "True Taran humans or extraterrestrial souls who failed to awaken before the event and will experience the invasion as severe trauma.",
           "isCorrect": true,
           "rationale": "Sleepers are true Taran or ET souls who failed to awaken prior to the event and experience the invasion in severe trauma."
         },
         {
           "label": "D",
-          "text": "NPCs who graduated into true souls during Bluebeam.",
+          "text": "NPCs who graduated into true souls during Bluebeam and will now experience the flash for the first time with full awareness.",
           "isCorrect": false,
           "rationale": "NPCs are removed; Sleepers are unawakened true souls who still survive the demographic cut if they are true souls."
         }
@@ -438,25 +414,25 @@
       "options": [
         {
           "label": "A",
-          "text": "From Vatican asylums as Loosh battery exhaust only.",
+          "text": "From the Vatican's subterranean levels, using Loosh battery exhaust to light up the skies above the major cities only.",
           "isCorrect": false,
           "rationale": "Source is Mt Meru / Hyperborea Valve, not asylum infrastructure."
         },
         {
           "label": "B",
-          "text": "Only from handheld phones with no central source.",
+          "text": "From a network of handheld devices and cell towers that each project a small part of the scene above local towns.",
           "isCorrect": false,
           "rationale": "Central Valve projection covers the entire ice-walled realm."
         },
         {
           "label": "C",
-          "text": "From the Valve at Mt Meru / Black Rock / Hyperborea at the North Pole geographic center, projecting outward to cover the entire realm inside the ice wall.",
+          "text": "From the Valve at Mt Meru / Black Rock / Hyperborea at the North Pole, covering the entire realm inside the ice wall.",
           "isCorrect": true,
           "rationale": "Benevolent holographic tech sits in the Valve at Mt Meru / Black Rock / Hyperborea (North Pole center), projecting outward across the whole realm inside the ice wall."
         },
         {
           "label": "D",
-          "text": "From spinning globe outer space studios beyond all ice walls.",
+          "text": "From studios in outer space beyond the ice walls, beamed down through the Firmament onto the Projection Dome.",
           "isCorrect": false,
           "rationale": "False spherical outer-space cosmology is what survivors must abandon; projection is from realm center inside the ice wall."
         }
@@ -502,25 +478,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Sky filled with Project Bluebeam UFOs; TV and direct sight show hundreds at a time levitated and beamed up, triggering desperate directionless flight.",
+          "text": "A sky filled with Bluebeam UFOs; screens and direct sight show hundreds at a time beamed up, triggering directionless flight.",
           "isCorrect": true,
           "rationale": "Project Bluebeam UFOs fill the sky; broadcasts and eyes see groups of hundreds levitated and beamed up, triggering desperate, directionless mass flight."
         },
         {
           "label": "B",
-          "text": "Only animals levitate while humans sleep through it.",
+          "text": "Animals are seen levitating into the craft while people sleep through the night and wake to find their pets have vanished.",
           "isCorrect": false,
           "rationale": "Human crowds are shown beamed up to maximize panic."
         },
         {
           "label": "C",
-          "text": "Only single-file orderly boarding of real ships with tickets.",
+          "text": "Orderly single-file boarding of real ships with tickets and boarding passes handed out at the town halls beforehand.",
           "isCorrect": false,
           "rationale": "It is chaotic terror response to holographic mass beam-ups, not orderly travel."
         },
         {
           "label": "D",
-          "text": "No visual content — only radio static.",
+          "text": "Mostly radio static and blackout, with brief flashes of light on the horizon and very little for people to see directly.",
           "isCorrect": false,
           "rationale": "Full visual UFO and levitating crowd displays are central."
         }
@@ -630,25 +606,25 @@
       "options": [
         {
           "label": "A",
-          "text": "97% of the population vanished; only an estimated 520 million people remain on the planet.",
+          "text": "97% have vanished, leaving about 520 million people.",
           "isCorrect": true,
           "rationale": "Most critically, 97% vanish, leaving only an estimated 520 million people on the planet."
         },
         {
           "label": "B",
-          "text": "100% remain and double overnight.",
+          "text": "Everyone remains, and the population doubles overnight.",
           "isCorrect": false,
           "rationale": "Mass removal is the critical outcome; survivor estimate is 520 million."
         },
         {
           "label": "C",
-          "text": "Only animals remain; every human vanishes.",
+          "text": "About half remain, around four billion people in total.",
           "isCorrect": false,
           "rationale": "True-soul survivors remain (~520 million); post-flash quiet lacks animal/bird noise as the environment is heavily altered."
         },
         {
           "label": "D",
-          "text": "Exactly 33 people remain, all Freemasons.",
+          "text": "Only Freemasons remain, numbering a few thousand.",
           "isCorrect": false,
           "rationale": "Estimate is 520 million remaining true population, not 33 elites."
         }
@@ -662,25 +638,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A friendly sports match between NPCs and Sleepers.",
+          "text": "A ten-year cold war between rival human governments over control of the satellite and weather-modification networks above the globe.",
           "isCorrect": false,
           "rationale": "It is climax of war against parasitic harvest control of Gateway-10."
         },
         {
           "label": "B",
-          "text": "A 178,000-year conflict against 4th-density parasites such as Custodians, Anuk/Anunnaki, and Grey ETs who ran Gateway-10 as a Loosh and Adrenochrome harvest matrix.",
+          "text": "A 178,000-year conflict against 4th-density parasites such as Custodians, Anunnaki, and Grey ETs who ran Gateway-10 as a harvest matrix.",
           "isCorrect": true,
           "rationale": "It is the operational climax of a 178,000-year conflict against 4th-density parasites (Custodians, Anuk/Anunnaki, Grey ETs) who controlled Gateway-10 as a Loosh and Adrenochrome harvest matrix."
         },
         {
           "label": "C",
-          "text": "A 30-second argument about weather satellites only.",
+          "text": "A century-long dispute between Freemason lodges and the Vatican over who would manage the next scheduled reset of Gateway-10.",
           "isCorrect": false,
           "rationale": "Depth is 178,000 years of parasitic occupation conflict."
         },
         {
           "label": "D",
-          "text": "Only a modern film franchise with no real history.",
+          "text": "A 500-year struggle between Star Seeds and NPCs over control of the Loosh supply that feeds the Projection Dome.",
           "isCorrect": false,
           "rationale": "It is real Ascension mechanics ending a multi-millennial occupation."
         }

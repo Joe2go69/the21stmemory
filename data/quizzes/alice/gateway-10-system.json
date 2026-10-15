@@ -182,25 +182,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The primary energy vortex and electromagnetic system powering the Gateway, centering exactly on the realm currently inhabited by humanity.",
+          "text": "The primary energy vortex and electromagnetic system powering the Gateway, centered on humanity's realm.",
           "isCorrect": true,
           "rationale": "The Toroid field is Gateway-10's primary energy vortex/EM system, centered exactly on the human-inhabited realm."
         },
         {
           "label": "B",
-          "text": "Only oil pipelines under Antarctica with no electromagnetic role.",
+          "text": "A network of oil pipelines beneath Antarctica that carries lubricant out to the other worlds of the Gateway.",
           "isCorrect": false,
           "rationale": "Oil is sub-plane lubricant; the Toroid is the primary EM vortex powering the gateway."
         },
         {
           "label": "C",
-          "text": "A freemason handshake used only in library philanthropy.",
+          "text": "A Freemason recognition sign used among lodge members who fund libraries and public institutions.",
           "isCorrect": false,
           "rationale": "It is the gateway's core power architecture — not a handshake."
         },
         {
           "label": "D",
-          "text": "Empty vacuum between spherical planets labeled as space.",
+          "text": "The empty vacuum between spherical planets that mainstream science labels as outer space.",
           "isCorrect": false,
           "rationale": "Vacuum heliocentrism is the illusion; the Toroid is real horizontal-plane power."
         }
@@ -210,67 +210,55 @@
     },
     {
       "number": 7,
-      "question": "What is Realm-3 (The Known Lands)?",
+      "question": "True or False: According to the report, “Realm-3 (The Known Lands)” refers to the enormously powerful energetic and structural core present at the center of all realms; the primary tree powering Gateway-10 was destroyed by parasites.",
       "options": [
         {
           "label": "A",
-          "text": "The outer ice boundary of Realm-1 falsely called Mars only.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "That Mars join describes Realm-1 adjacency; Realm-3 is the known inhabited partition."
+          "rationale": "False — that description belongs to “Spirit Tree (Mt Meru / Hyperborea)”. The report defines “Realm-3 (The Known Lands)” as: The currently inhabited, heavily partitioned segment of the flat Earth, forcefully carved out of the original central realm via the fake Antarctic ice wall."
         },
         {
           "label": "B",
-          "text": "All 178 worlds combined with no ice partitions.",
-          "isCorrect": false,
-          "rationale": "Realm-3 is one partitioned fragment; ice barriers separate the wider system."
-        },
-        {
-          "label": "C",
-          "text": "The Spirit Tree stump museum at the South Pole.",
-          "isCorrect": false,
-          "rationale": "The primary Spirit Tree destruction was at the North Pole; Realm-3 is the known lands partition."
-        },
-        {
-          "label": "D",
-          "text": "The currently inhabited, heavily partitioned segment of the flat Earth, forcefully carved out of the original central realm via the fake Antarctic ice wall.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Realm-3 is the inhabited known segment, cut from the original central realm by the fake Antarctic ice wall."
+          "rationale": "Correct — that description belongs to “Spirit Tree (Mt Meru / Hyperborea)”, not “Realm-3 (The Known Lands)”."
         }
       ],
-      "hint": "Inhabited known lands — carved by fake Antarctic ice wall.",
-      "correctAnswer": "D"
+      "hint": "Recall how the report's Key Terminology defines “Realm-3 (The Known Lands)”.",
+      "correctAnswer": "B"
     },
     {
       "number": 8,
-      "question": "What was Realm-2 before the parasitic inversion?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "The original, vastly wider physical plane located at the very center of Gateway-10 before partitioning.",
-          "isCorrect": true,
-          "rationale": "Realm-2 was the original much wider central plane of Gateway-10 before parasitic inversion and partitioning."
+          "text": "Toroid field — The primary energy vortex and electromagnetic system powering the Gateway, which centers exactly on the realm currently inhabited by humanity.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Toroid field”."
         },
         {
           "label": "B",
-          "text": "A distant vacuum moon built by Grey ETs after the 8th reset.",
-          "isCorrect": false,
-          "rationale": "Realm-2 is original central plane geography — not a post-reset vacuum moon."
+          "text": "Realm-2 — The enormously powerful energetic and structural core present at the center of all realms; the primary tree powering Gateway-10 was destroyed by parasites.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Spirit Tree (Mt Meru / Hyperborea)”. The report defines “Realm-2” as: The original, vastly wider physical plane located at the very center of Gateway-10 before the parasitic inversion and partitioning."
         },
         {
           "label": "C",
-          "text": "Nothing beyond freemason-known flat Earth with no center role.",
+          "text": "Custodians — Originally the benevolent caretakers of the physical plane who betrayed the Source, initiating the hostile takeover of Gateway-10 to claim it for themselves.",
           "isCorrect": false,
-          "rationale": "Even top freemasons only know flat enclosure; Realm-2 is the pre-partition central plane of Gateway-10."
+          "rationale": "This pairing matches the report's definition of “Custodians”."
         },
         {
           "label": "D",
-          "text": "Sky-Net-1's projection of fake Tartarian architecture only.",
+          "text": "Realm-1 — An adjacent flat world; its outer ice boundary is physically joined to the landmass that manufactured science falsely labels as the distant planet Mars.",
           "isCorrect": false,
-          "rationale": "Sky-Net-1 overlays hide crystalline architecture; Realm-2 is real original plane structure."
+          "rationale": "This pairing matches the report's definition of “Realm-1”."
         }
       ],
-      "hint": "Original wider center plane before partition.",
-      "correctAnswer": "A"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -278,25 +266,25 @@
       "options": [
         {
           "label": "A",
-          "text": "An adjacent flat world whose outer ice boundary is physically joined to the landmass that manufactured science falsely labels as the distant planet Mars.",
+          "text": "An adjacent flat world whose outer ice boundary is physically joined to the landmass science labels as the planet Mars.",
           "isCorrect": true,
           "rationale": "Realm-1 is an adjacent flat world; its outer ice boundary joins the landmass fake science calls distant Mars."
         },
         {
           "label": "B",
-          "text": "A spherical planet orbiting a sun beyond the Firmament.",
+          "text": "A spherical planet orbiting a second sun beyond the Firmament, reachable through the polar portals of Gateway-10.",
           "isCorrect": false,
           "rationale": "Gateway cosmology is horizontal adjacency with ice boundaries — not orbital spheres."
         },
         {
           "label": "C",
-          "text": "The same as Realm-3 with no ice join to any landmass.",
+          "text": "Another name for Realm-3, a frozen region cut off from Antarctica with no ice join to any neighbouring landmass.",
           "isCorrect": false,
           "rationale": "Realm-3 is the known partitioned lands; Realm-1 is adjacent and joins the so-called Mars landmass."
         },
         {
           "label": "D",
-          "text": "Only a petrified Spirit Tree stump with no geography.",
+          "text": "A petrified Spirit Tree stump floating above the Firmament that astronomers misidentify as a red planet.",
           "isCorrect": false,
           "rationale": "Spirit Tree sabotage is North Pole power destruction; Realm-1 is an adjacent flat world."
         }
@@ -374,25 +362,25 @@
       "options": [
         {
           "label": "A",
-          "text": "They only used Sky-Net-1 without any living species.",
+          "text": "They relied on Sky-Net-1 alone, using automated star projectors to subdue the realm without any living species.",
           "isCorrect": false,
           "rationale": "Negative species executed takeover; Sky-Net-1 later supports overlays hiding architecture."
         },
         {
           "label": "B",
-          "text": "They created numerous negative species, such as the Anunnaki and Grey ETs, to execute the takeover after plotting over millennia for absolute autonomy.",
+          "text": "They created negative species such as the Anunnaki and Grey ETs to execute the takeover after plotting for autonomy.",
           "isCorrect": true,
           "rationale": "Seeking absolute autonomy, Custodians plotted for millennia and engineered negative species including Anunnaki and Grey ETs to seize Gateway-10."
         },
         {
           "label": "C",
-          "text": "They asked the Source to gift them the Toroid peacefully.",
+          "text": "They asked the Source of All Creation to grant them the Toroid peacefully, and the request was approved by the Council.",
           "isCorrect": false,
           "rationale": "They betrayed the Source in a hostile inversion — not a peaceful gift."
         },
         {
           "label": "D",
-          "text": "They hired only freemason librarians with no engineered species.",
+          "text": "They hired Freemason librarians to rewrite the records, so that the takeover could proceed without engineered species.",
           "isCorrect": false,
           "rationale": "Engineered parasites like Anunnaki and Greys executed the takeover; freemasons are later terrestrial enforcers of partial lies."
         }
@@ -406,25 +394,25 @@
       "options": [
         {
           "label": "A",
-          "text": "They liberated all 178 worlds back to 9th density instantly.",
+          "text": "Across all 178 worlds, which they then liberated back to 9th density once the center had been fully inverted and secured.",
           "isCorrect": false,
           "rationale": "They suppressed and harvested; liberation is G.A.A. restoration work."
         },
         {
           "label": "B",
-          "text": "They only controlled freemason lodge basements on Earth.",
+          "text": "Into the basements of Freemason lodges on Earth, with the rest of Gateway-10 left in the hands of the original caretakers.",
           "isCorrect": false,
           "rationale": "Expansion reached 65 other worlds; freemasons are compartmentalized terrestrial agents."
         },
         {
           "label": "C",
-          "text": "They harvested Loosh and manipulated frequencies across 65 other worlds within Gateway-10, though the human realm remained their paramount asset.",
+          "text": "Across 65 other worlds within Gateway-10, harvesting Loosh and manipulating frequencies, with the human realm their prize.",
           "isCorrect": true,
           "rationale": "Control expanded to Loosh harvest and frequency manipulation on 65 other worlds, with the human central realm still paramount."
         },
         {
           "label": "D",
-          "text": "They abandoned Gateway-10 and never touched any other world.",
+          "text": "Nowhere further — they abandoned Gateway-10 after the inversion and moved their operations to a distant gateway instead.",
           "isCorrect": false,
           "rationale": "They expanded across 65 other worlds after center inversion."
         }
@@ -534,25 +522,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Sky-Net-1 coolant for fake asteroid projectors only.",
+          "text": "A coolant pumped through Sky-Net-1 to keep the fake asteroid projectors from overheating inside the Firmament.",
           "isCorrect": false,
           "rationale": "Oil demonstrates unified horizontal subterranean architecture of the 178 worlds."
         },
         {
           "label": "B",
-          "text": "Only dinosaur juice trapped inside spherical planets.",
+          "text": "Fossilized dinosaur remains pressed into liquid deep inside a spherical planet over millions of years.",
           "isCorrect": false,
           "rationale": "Dinosaur decomposition is the lie; oil proves continuous horizontal sub-plane architecture."
         },
         {
           "label": "C",
-          "text": "Not dinosaur remains — a natural, highly advanced technological lubricant flowing freely under the entire sub-plane of the Gateway, unrestricted by ice walls or the Firmament.",
+          "text": "Not dinosaur remains — a natural, highly advanced technological lubricant flowing freely under the entire sub-plane of the Gateway.",
           "isCorrect": true,
           "rationale": "Oil is advanced technological lubricant under the whole Gateway sub-plane, continuous past ice walls and Firmament boundaries — not decomposed dinosaurs."
         },
         {
           "label": "D",
-          "text": "Petrified Spirit Tree sap sold only in Realm-3.",
+          "text": "Petrified Spirit Tree sap that seeped into Realm-3 after the tree was destroyed and is sold as fuel.",
           "isCorrect": false,
           "rationale": "Oil is sub-plane lubricant across the Gateway foundation — not stump sap merchandising."
         }
@@ -630,25 +618,25 @@
       "options": [
         {
           "label": "A",
-          "text": "They permanently restore every Node temple to full public view.",
+          "text": "They restore the Node temples to public view on special dates, while hiding them the rest of the year.",
           "isCorrect": false,
           "rationale": "They hide that architecture from suppressed perception."
         },
         {
           "label": "B",
-          "text": "Sky-Net-1 projected technology hides ultra-high-frequency Tartarian and Crystalline architecture built upon the Gateway's major Nodes.",
+          "text": "Sky-Net-1's projections hide the ultra-high-frequency Tartarian and Crystalline architecture built on the major Nodes.",
           "isCorrect": true,
           "rationale": "3rd Density Overlays via Sky-Net-1 hide UHF Tartarian and Crystalline architecture on Gateway-10's major Nodes."
         },
         {
           "label": "C",
-          "text": "They only label Mars correctly with no architectural effect.",
+          "text": "They label Mars and the other realms on star charts, with no effect on the architecture of the Gateway.",
           "isCorrect": false,
           "rationale": "Their role here is camouflaging high-frequency node architecture on the Gateway."
         },
         {
           "label": "D",
-          "text": "They rebuild the Spirit Tree stump into Hyperborea overnight.",
+          "text": "They rebuild the Spirit Tree in Hyperborea, using the Node energy to regrow it from the old stump.",
           "isCorrect": false,
           "rationale": "Overlays hide existing crystalline/Tartarian builds; Spirit Tree restoration is Toroid recovery work, not Sky-Net function."
         }
@@ -662,25 +650,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A gentle census raising population with free Toroid power for all.",
+          "text": "A census-led expansion that would have raised the population and opened Toroid power to every household in the realm.",
           "isCorrect": false,
           "rationale": "It was a cull to 500 million under eternal torture loop — not liberation."
         },
         {
           "label": "B",
-          "text": "An 8th and final reset reducing the human population of the central realm to 500 million, trapping them in an eternal loop of torture and sacrifice.",
+          "text": "An 8th and final reset cutting the central realm's population to 500 million, trapped in an eternal loop of torture and sacrifice.",
           "isCorrect": true,
           "rationale": "The planned 8th final reset would cut the central realm to 500 million humans locked in eternal torture and sacrifice."
         },
         {
           "label": "C",
-          "text": "Nothing beyond freemason library renovations with no population target.",
+          "text": "A gradual renovation of the Freemason libraries and schools, with no target set for the size of the population.",
           "isCorrect": false,
           "rationale": "The plan was population reduction to 500 million in a sacrifice loop."
         },
         {
           "label": "D",
-          "text": "Evacuation of all humans to Realm-1 Mars beaches.",
+          "text": "An evacuation of the central realm's population to Realm-1, so the controllers could rebuild the realm without them.",
           "isCorrect": false,
           "rationale": "It was trapping the reduced central population in eternal torture — not beach evacuation."
         }
@@ -694,25 +682,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Automatic Source victory without any G.A.A. need.",
+          "text": "A victory for the Source, which would have reset Gateway-10 without any need for the G.A.A.",
           "isCorrect": false,
           "rationale": "Success of the final reset path would defeat Source engineering; G.A.A. intervention was mandatory."
         },
         {
           "label": "B",
-          "text": "Oil turning into dinosaurs under every ice wall.",
+          "text": "A slow decline of the outer worlds, with the central realm itself left intact for the parasites.",
           "isCorrect": false,
           "rationale": "The consequence is full Gateway fall from center collapse — not fossil mythology."
         },
         {
           "label": "C",
-          "text": "Only a mild textbook edit in freemason schools.",
+          "text": "The loss of the oil lubricant under the sub-plane, stalling the realm until it could be repaired.",
           "isCorrect": false,
           "rationale": "It threatened total systemic failure of the whole 178-world gateway."
         },
         {
           "label": "D",
-          "text": "The immediate fall of the entire Gateway — total irreversible systemic failure beyond the central realm alone.",
+          "text": "The fall of the entire Gateway — an irreversible systemic failure reaching beyond the central realm.",
           "isCorrect": true,
           "rationale": "Collapse of the center would have triggered immediate fall of the entire Gateway-10 system."
         }
@@ -754,34 +742,22 @@
     },
     {
       "number": 24,
-      "question": "What would total Gateway failure have meant for the Source of All Creation?",
+      "question": "True or False: According to the report, “Source of All Creation” refers to the currently inhabited, heavily partitioned segment of the flat Earth, forcefully carved out of the original central realm via the fake Antarctic ice wall.",
       "options": [
         {
           "label": "A",
-          "text": "Automatic upgrade of all Loosh harvests into free energy.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Parasitic victory path is Source defeat — not free-energy upgrade."
+          "rationale": "False — that description belongs to “Realm-3 (The Known Lands)”. The report defines “Source of All Creation” as: A vast, non-physical etheric supercomputer and intellect that orchestrated the multidimensional master plan to build Gateway-10 for the physical progression of souls."
         },
         {
           "label": "B",
-          "text": "The ultimate defeat of the Source, wasting billions of years of multidimensional engineering.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Full Gateway loss would be ultimate defeat of the Source and waste billions of years of multidimensional engineering."
-        },
-        {
-          "label": "C",
-          "text": "Proof freemasons authored the Source supercomputer.",
-          "isCorrect": false,
-          "rationale": "Source is the etheric supercomputer intellect that built Gateway-10; freemasons are ignorant proxies of inversion."
-        },
-        {
-          "label": "D",
-          "text": "A minor software patch with no wasted engineering.",
-          "isCorrect": false,
-          "rationale": "It is framed as ultimate defeat and wasted billions of years of engineering."
+          "rationale": "Correct — that description belongs to “Realm-3 (The Known Lands)”, not “Source of All Creation”."
         }
       ],
-      "hint": "Ultimate Source defeat — billions of years of engineering wasted.",
+      "hint": "Recall how the report's Key Terminology defines “Source of All Creation”.",
       "correctAnswer": "B"
     },
     {
@@ -790,25 +766,25 @@
       "options": [
         {
           "label": "A",
-          "text": "To seize control of the simulation, halt the final reset, and restore the central Toroid field of Gateway-10 to its original perfect functionality.",
+          "text": "To seize control of the simulation, halt the final reset, and restore the central Toroid field of Gateway-10.",
           "isCorrect": true,
           "rationale": "Galactic Ancestral Alliance intervention seizes the simulation, stops the final reset, and restores Gateway-10's central Toroid to original perfect function."
         },
         {
           "label": "B",
-          "text": "To teach freemasons heliocentrism more strictly worldwide.",
+          "text": "To enforce heliocentrism more strictly through the Freemason schools, keeping the population calm before the event.",
           "isCorrect": false,
           "rationale": "Intervention restores Toroid truth-path functionality; freemason globe enforcement is the cage."
         },
         {
           "label": "C",
-          "text": "To replace oil lubricant with dinosaur textbooks only.",
+          "text": "To replace the natural oil lubricant beneath the sub-plane with a synthetic version before the flash arrives.",
           "isCorrect": false,
           "rationale": "Strategic goals are simulation control, halt final reset, and Toroid restoration."
         },
         {
           "label": "D",
-          "text": "To finish the 8th reset down to 500 million for the parasites.",
+          "text": "To complete the 8th reset down to 500 million people, so the parasites could be removed with fewer casualties.",
           "isCorrect": false,
           "rationale": "G.A.A. halts the final reset — opposite of completing the cull loop."
         }

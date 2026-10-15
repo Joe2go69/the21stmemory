@@ -274,35 +274,35 @@
     },
     {
       "number": 9,
-      "question": "What substance is formed when the activated quartz crystals interact with the new aether?",
+      "question": "Which of these does NOT correctly pair a term from the report with its meaning?",
       "options": [
         {
           "label": "A",
-          "text": "A liquid light that flows through the veins of every human vessel to replace physical blood.",
-          "isCorrect": false,
-          "rationale": "The transition involves energetic shifts in the vessel, but the product of the aether-crystal reaction is atmospheric."
+          "text": "New Aether — The comprehensive solar activation sequence overseen by extraterrestrial groups that triggers frequency grid formation, timeline realignment, and portal creation.",
+          "isCorrect": true,
+          "rationale": "That description belongs to “Sun Flash Event”. The report defines “New Aether” as: An upgraded high-frequency environmental energy field created to collaborate with human vessels and interact with electromagnetic pulses."
         },
         {
           "label": "B",
-          "text": "A high-density plasma crystalline field that forms the structural foundation for portals.",
-          "isCorrect": true,
-          "rationale": "Plasma crystalline is a high-density energetic substance created through the interaction of activated quartz crystals and the new aether, forming the structural foundation for portal opening."
+          "text": "Bright Light Charge — The initial sustained illumination emitted from the activated sun that energizes subterranean crystals and memory banks prior to the three sequential flashes.",
+          "isCorrect": false,
+          "rationale": "This pairing matches the report's definition of “Bright Light Charge”."
         },
         {
           "label": "C",
-          "text": "An inert crystalline dust that settles on the earth to neutralize all chemical pollutants.",
+          "text": "Quartz Crystal Conductor — Memory-holding mineral structures planted underground via time travel technology that emerge on a timer to act as planetary frequency conduits.",
           "isCorrect": false,
-          "rationale": "The substance is energetic and active, serving as the foundation for the upcoming dimensional shifts."
+          "rationale": "This pairing matches the report's definition of “Quartz Crystal Conductor”."
         },
         {
           "label": "D",
-          "text": "A magnetic fog that obscures the view of the old world to prevent panic during the shift.",
+          "text": "Plasma Crystalline — A high-density energetic substance created through the interaction of activated quartz crystals and the new aether, forming the structural foundation for portal opening.",
           "isCorrect": false,
-          "rationale": "The reaction produces a cohesive energetic state used for structural transition, not a masking agent."
+          "rationale": "This pairing matches the report's definition of “Plasma Crystalline”."
         }
       ],
-      "hint": "Combine the concepts of high-density energy and the mineral nature of the conductors.",
-      "correctAnswer": "B"
+      "hint": "Three pairings match the report’s Key Terminology; one borrows another term’s description.",
+      "correctAnswer": "A"
     },
     {
       "number": 10,
