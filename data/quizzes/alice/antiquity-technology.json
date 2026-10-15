@@ -246,7 +246,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Anachronisms",
+          "text": "Anachronistic Survival Relics (ASRs).",
           "isCorrect": false,
           "rationale": "This is a general term, whereas the source uses a specific acronym for these items."
         },
@@ -258,13 +258,13 @@
         },
         {
           "label": "C",
-          "text": "Tartarian Remnants.",
+          "text": "Tartarian Remnant Pieces.",
           "isCorrect": false,
           "rationale": "While they are remnants, 'Oopa's' is the specific terminology defined for these suppressed items."
         },
         {
           "label": "D",
-          "text": "Residue Artefacts.",
+          "text": "Pre-Reset Residue Objects.",
           "isCorrect": false,
           "rationale": "This term is not used in the 'Living Truth Journal' excerpts provided."
         }
