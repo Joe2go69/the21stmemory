@@ -12,6 +12,16 @@
     },
     {
       "sourceId": "revelations",
+      "topicId": "ssp-psyops",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "SSP Psyops",
+      "description": "The SSP Psyops constitute a manufactured, multi-layered deceptive campaign constructed to occupy human consciousness with elaborate off-world narratives and false disclosure frameworks.",
+      "topic_image": "images/revelations/ssp-psyops.webp",
+      "path": "dive/revelations/ssp-psyops.html",
+      "added": "2026-10-15"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "technology-swaps",
       "series": "A Brief Synopsis of Revelations",
       "title": "Technology Swaps",
@@ -108,16 +118,6 @@
       "description": "Organ Harvest is the systematic extraction and collection of human biological organs from physical vessels during engineered mass-mortality events.",
       "topic_image": "images/revelations/organ-harvest.webp",
       "path": "dive/revelations/organ-harvest.html",
-      "added": "2026-10-07"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "loosh",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Loosh",
-      "description": "Loosh (also termed fear harvest or energetic yield alongside adrenochrome) is the Very Low Frequency (VLF) negative energy radiating directly off the human vessel.",
-      "topic_image": "images/revelations/architecture-of-the-fear-harvest.webp",
-      "path": "dive/revelations/loosh.html",
       "added": "2026-10-07"
     }
   ],

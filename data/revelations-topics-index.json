@@ -739,10 +739,10 @@
                 {
                   "id": "ssp-psyops",
                   "title": "SSP Psyops",
-                  "description": "SSP Psyops",
-                  "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-07"
+                  "description": "The SSP Psyops constitute a manufactured, multi-layered deceptive campaign constructed to occupy human consciousness with elaborate off-world narratives and false disclosure frameworks.",
+                  "topic_image": "images/revelations/ssp-psyops.webp",
+                  "is_placeholder": false,
+                  "added": "2026-10-15"
                 },
                 {
                   "id": "fema-camps",

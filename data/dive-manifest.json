@@ -3100,9 +3100,9 @@
       "sourceId": "revelations",
       "topicId": "ssp-psyops",
       "path": "/dive/revelations/ssp-psyops.html",
-      "live": false,
+      "live": true,
       "title": "SSP Psyops",
-      "added": "2026-10-07"
+      "added": "2026-10-15"
     },
     {
       "sourceId": "revelations",

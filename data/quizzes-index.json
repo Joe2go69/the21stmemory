@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-15T13:39:43.952Z",
-  "total": 293,
+  "generatedAt": "2026-10-15T14:17:34.526Z",
+  "total": 294,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 97
+      "count": 98
     }
   ],
   "quizzes": [
@@ -3627,6 +3627,19 @@
       "href": "quiz/revelations/square-mile.html",
       "diveHref": "dive/revelations/square-mile.html",
       "key": "revelations/square-mile"
+    },
+    {
+      "id": "ssp-psyops",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "SSP Psyops",
+      "subtitle": "Test your understanding of SSP Psyops — a manufactured campaign of off-world narratives and false disclosure that diverts awareness from terrestrial containment.",
+      "questionCount": 25,
+      "href": "quiz/revelations/ssp-psyops.html",
+      "diveHref": "dive/revelations/ssp-psyops.html",
+      "key": "revelations/ssp-psyops"
     },
     {
       "id": "stone-age-restart",
