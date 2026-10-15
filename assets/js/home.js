@@ -339,8 +339,9 @@ async function loadHomeSeries() {
   }
 }
 
+// `added` is "YYYY-MM-DD" or a full ISO timestamp with local offset; show the date only.
 function formatAdded(iso) {
-  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+  const m = /^(\d{4})-(\d{2})-(\d{2})(?:T|$)/.exec(iso || '');
   if (!m) return '';
   const d = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
