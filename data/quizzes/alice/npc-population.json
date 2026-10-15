@@ -446,25 +446,25 @@
       "options": [
         {
           "label": "A",
-          "text": "No deep self-awareness or internal monologue; conversation stays glued to consensus topics, pop culture, and safe opinions that never threaten the control narrative.",
+          "text": "No deep self-awareness or internal monologue; conversation stays on consensus topics, pop culture, and safe opinions that do not threaten the control narrative.",
           "isCorrect": true,
           "rationale": "No monologue/deep thought; talk stays on news, sports, hobbies — no deep critical analysis."
         },
         {
           "label": "B",
-          "text": "Constant profound self-inquiry and long internal monologues about density, resets, and soul law.",
+          "text": "A strong inner voice that repeats the media's messages, so their conversations can turn to deep topics but end with the official explanation given in the news.",
           "isCorrect": false,
           "rationale": "They do speak — but only within rigid consensus topic boundaries."
         },
         {
           "label": "C",
-          "text": "Rigid focus only on free-energy physics and ice-wall geography in every casual chat.",
+          "text": "Conversations focus on work and family, since their programs are built around the routines of daily life and do not include any interest in wider affairs.",
           "isCorrect": false,
           "rationale": "Boundaries stick to mainstream news, sports, and designated hobbies."
         },
         {
           "label": "D",
-          "text": "Total silence in all social settings because NPCs cannot form words without a Grey handler.",
+          "text": "Limited speech in social settings, since NPCs need a nearby Grey handler to supply their words and fall silent when the handler moves out of range.",
           "isCorrect": false,
           "rationale": "Vast majority lack self-awareness, deep thought, and internal monologues."
         }
@@ -478,25 +478,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Television, radio, literature, and educational institutions — the external programming mechanisms that construct and maintain NPC reality boundaries.",
+          "text": "Television, radio, literature, and educational institutions — the external programming that constructs and maintains NPC reality boundaries.",
           "isCorrect": true,
           "rationale": "TV, radio, literature, schools = the programming stack that builds NPC reality walls."
         },
         {
           "label": "B",
-          "text": "Only Orphan Train schedules with no television, radio, or educational programming role.",
+          "text": "Direct signals from the Moon station, which update each NPC's program every night while it sleeps, with media playing a secondary role in their daily lives.",
           "isCorrect": false,
           "rationale": "TV, radio, literature, and education are the named programming mechanisms."
         },
         {
           "label": "C",
-          "text": "Only direct downloads from Source Creation with no media or school involvement.",
+          "text": "Their families and close friends, whose opinions shape what the NPC believes, while the media has little influence on them until they reach adulthood.",
           "isCorrect": false,
           "rationale": "Boundaries are built by television, radio, literature, and educational institutions."
         },
         {
           "label": "D",
-          "text": "Solely private meditation retreats that ban all mainstream slogans and mimicry.",
+          "text": "The workplaces they are assigned to, which set the routines and opinions of each NPC through managers trained in the controllers' methods.",
           "isCorrect": false,
           "rationale": "They mimic TV characters and blurt mainstream slogans as if they were knowledge."
         }
