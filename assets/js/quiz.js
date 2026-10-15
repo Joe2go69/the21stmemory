@@ -136,6 +136,148 @@
     }
   }
 
+  /** Wrap text into at most maxLines lines that fit width. */
+  function wrapCanvasText(ctx, text, width, maxLines) {
+    const words = String(text || '').split(/\s+/).filter(Boolean);
+    const lines = [];
+    let line = '';
+    for (const word of words) {
+      const test = line ? `${line} ${word}` : word;
+      if (ctx.measureText(test).width <= width || !line) line = test;
+      else {
+        lines.push(line);
+        line = word;
+        if (lines.length === maxLines) break;
+      }
+    }
+    if (lines.length < maxLines && line) lines.push(line);
+    if (lines.length === maxLines && words.join(' ') !== lines.join(' ')) {
+      let last = lines[maxLines - 1];
+      while (last && ctx.measureText(`${last}…`).width > width) last = last.slice(0, -1);
+      lines[maxLines - 1] = `${last.trim()}…`;
+    }
+    return lines;
+  }
+
+  /** Branded 1200×630 score card drawn client-side. Resolves to a PNG Blob. */
+  function drawScoreCard(score) {
+    const W = 1200;
+    const H = 630;
+    const canvas = document.createElement('canvas');
+    canvas.width = W;
+    canvas.height = H;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return Promise.reject(new Error('Canvas unavailable'));
+    const band = scoreBand(score.pct);
+    const title = state.data?.title || state.data?.topicTitle || 'Living Truth Quiz';
+    const font = (weight, size) =>
+      `${weight} ${size}px "Space Grotesk", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif`;
+
+    // Vault background + soft violet glow
+    ctx.fillStyle = '#0F0A1F';
+    ctx.fillRect(0, 0, W, H);
+    const glow = ctx.createRadialGradient(930, 300, 40, 930, 300, 520);
+    glow.addColorStop(0, 'rgba(124, 58, 237, 0.42)');
+    glow.addColorStop(1, 'rgba(15, 10, 31, 0)');
+    ctx.fillStyle = glow;
+    ctx.fillRect(0, 0, W, H);
+    // CTA triad rail along the top
+    const rail = ctx.createLinearGradient(0, 0, W, 0);
+    rail.addColorStop(0, '#6D28D9');
+    rail.addColorStop(0.42, '#5B21B6');
+    rail.addColorStop(1, '#3B0764');
+    ctx.fillStyle = rail;
+    ctx.fillRect(0, 0, W, 10);
+    ctx.strokeStyle = 'rgba(196, 181, 253, 0.22)';
+    ctx.lineWidth = 2;
+    ctx.strokeRect(36, 46, W - 72, H - 92);
+
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillStyle = '#C4B5FD';
+    ctx.font = font(600, 26);
+    ctx.fillText('LIVING TRUTH QUIZ', 84, 128);
+
+    ctx.fillStyle = '#FFFFFF';
+    ctx.font = font(700, 58);
+    const titleLines = wrapCanvasText(ctx, title, 600, 3);
+    titleLines.forEach((line, i) => ctx.fillText(line, 84, 210 + i * 70));
+
+    ctx.fillStyle = 'rgba(237, 233, 254, 0.86)';
+    ctx.font = font(500, 32);
+    ctx.fillText(`I scored ${score.correct} of ${score.total}`, 84, 210 + titleLines.length * 70 + 34);
+
+    // Score ring
+    const cx = 930;
+    const cy = 300;
+    const r = 150;
+    ctx.lineWidth = 22;
+    ctx.strokeStyle = 'rgba(124, 58, 237, 0.22)';
+    ctx.beginPath();
+    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    ctx.stroke();
+    const arc = ctx.createLinearGradient(cx - r, cy - r, cx + r, cy + r);
+    arc.addColorStop(0, '#A78BFA');
+    arc.addColorStop(1, '#6D28D9');
+    ctx.strokeStyle = arc;
+    ctx.lineCap = 'round';
+    ctx.beginPath();
+    ctx.arc(cx, cy, r, -Math.PI / 2, -Math.PI / 2 + (Math.PI * 2 * Math.max(0.001, score.pct)) / 100);
+    ctx.stroke();
+    ctx.textAlign = 'center';
+    ctx.fillStyle = '#FFFFFF';
+    ctx.font = font(700, 84);
+    ctx.fillText(`${score.pct}%`, cx, cy + 22);
+    ctx.fillStyle = '#C4B5FD';
+    ctx.font = font(600, 28);
+    ctx.fillText(band.name.toUpperCase(), cx, cy + 68);
+
+    ctx.textAlign = 'left';
+    ctx.fillStyle = '#FFFFFF';
+    ctx.font = font(700, 30);
+    ctx.fillText('21stmemory.com', 84, H - 92);
+    ctx.fillStyle = 'rgba(196, 181, 253, 0.85)';
+    ctx.font = font(500, 24);
+    ctx.textAlign = 'right';
+    ctx.fillText('The 21st Memory · free living archive', W - 84, H - 92);
+    ctx.textAlign = 'left';
+
+    return new Promise((resolve, reject) => {
+      canvas.toBlob((blob) => (blob ? resolve(blob) : reject(new Error('Could not render card'))), 'image/png');
+    });
+  }
+
+  async function shareScoreCard(button) {
+    const label = button?.querySelector('span');
+    const score = computeScore();
+    const slug = String(resolveQuizKey(state.data, el.root) || 'quiz').replace(/[^a-z0-9]+/gi, '-');
+    try {
+      if (document.fonts && document.fonts.ready) await document.fonts.ready;
+      const blob = await drawScoreCard(score);
+      const file = typeof File === 'function' ? new File([blob], `21st-memory-${slug}-score.png`, { type: 'image/png' }) : null;
+      if (file && navigator.canShare && navigator.canShare({ files: [file] }) && navigator.share) {
+        try {
+          await navigator.share({ files: [file], title: state.data?.title || 'Living Truth Quiz', text: shareScoreText(score) });
+          if (label) label.textContent = 'Card shared';
+          return;
+        } catch (err) {
+          if (err && err.name === 'AbortError') return;
+        }
+      }
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `21st-memory-${slug}-score.png`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 4000);
+      if (label) label.textContent = 'Card saved';
+    } catch (err) {
+      console.warn('Score card failed', err);
+      if (label) label.textContent = 'Card unavailable';
+    }
+  }
+
   function computeScore() {
     const questions = getQuestions();
     let correct = 0;
@@ -156,6 +298,62 @@
   const PROGRESS_KEY = '21st-memory-quiz-progress-v1';
   const RESUME_KEY = '21st-memory-quiz-resume-v1';
   const RESUME_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+  /** Missed questions to review later, per quiz: { [key]: { v, numbers[], title, href, updatedAt } }. */
+  const MISSED_KEY = '21st-memory-quiz-missed-v1';
+
+  function readMissedMap() {
+    try {
+      const raw = localStorage.getItem(MISSED_KEY);
+      const parsed = raw ? JSON.parse(raw) : {};
+      return parsed && typeof parsed === 'object' ? parsed : {};
+    } catch (_) {
+      return {};
+    }
+  }
+
+  /** Question numbers still to review for this quiz (only ones that exist in the bank). */
+  function getMissedNumbers() {
+    if (!state.data || !el.root) return [];
+    const entry = readMissedMap()[resolveQuizKey(state.data, el.root)];
+    if (!entry || !Array.isArray(entry.numbers)) return [];
+    const bank = new Set((state.originalQuestions || state.data.questions || []).map((q) => q.number));
+    return entry.numbers.filter((n) => bank.has(n));
+  }
+
+  /** Wrong answers join the review list; a correct answer clears that question. */
+  function recordOutcomes(outcomes) {
+    if (!state.data || !el.root || !outcomes.length) return;
+    const key = resolveQuizKey(state.data, el.root);
+    if (!key) return;
+    try {
+      const map = readMissedMap();
+      const set = new Set((map[key] && map[key].numbers) || []);
+      outcomes.forEach(({ number, ok }) => (ok ? set.delete(number) : set.add(number)));
+      if (set.size) {
+        map[key] = {
+          v: 1,
+          numbers: [...set].sort((a, b) => a - b),
+          title: state.data.title || state.data.topicTitle || key,
+          href: window.location.pathname,
+          updatedAt: new Date().toISOString()
+        };
+      } else {
+        delete map[key];
+      }
+      localStorage.setItem(MISSED_KEY, JSON.stringify(map));
+    } catch (err) {
+      console.warn('Could not save missed questions', err);
+    }
+  }
+
+  function recordRunOutcomes() {
+    const outcomes = [];
+    getQuestions().forEach((q) => {
+      const selected = state.answers[q.number];
+      if (selected) outcomes.push({ number: q.number, ok: selected === q.correctAnswer });
+    });
+    recordOutcomes(outcomes);
+  }
 
   function resolveQuizKey(data, rootEl) {
     let sourceId = data?.sourceId || data?.source || '';
@@ -299,7 +497,7 @@
     state.revealed = blob.revealed && typeof blob.revealed === 'object' ? { ...blob.revealed } : {};
     state.mode = blob.mode === 'submit' ? 'submit' : 'instant';
     state.length = blob.length === 'sprint' ? 'sprint' : 'full';
-    state.runKind = blob.runKind === 'sprint' || blob.runKind === 'missed' ? blob.runKind : 'full';
+    state.runKind = ['sprint', 'missed', 'review'].includes(blob.runKind) ? blob.runKind : 'full';
     state.phase = 'playing';
     state.hintOpen = false;
     state.reviewAll = false;
@@ -423,7 +621,14 @@
     }
 
     let pool;
-    if (kind === 'missed') {
+    if (kind === 'review') {
+      const numbers = new Set(getMissedNumbers());
+      pool = state.originalQuestions
+        .filter((question) => numbers.has(question.number))
+        .map((question) => shuffleQuestionOptions(cloneQuestion(question)));
+      if (!pool.length) return;
+      pool = shuffleArray(pool);
+    } else if (kind === 'missed') {
       const missed = missedQuestions();
       if (!missed.length) return;
       pool = missed.map((question) => shuffleQuestionOptions(cloneQuestion(question)));
@@ -500,7 +705,10 @@
     }
     render();
     persistResume();
-    if (state.mode === 'instant') revealFeedback();
+    if (state.mode === 'instant') {
+      recordOutcomes([{ number: q.number, ok: label === q.correctAnswer }]);
+      revealFeedback();
+    }
   }
 
   /**
@@ -539,6 +747,7 @@
       state.hintOpen = false;
       clearResume();
       if (state.runKind === 'full') saveProgress(computeScore());
+      recordRunOutcomes();
       const pendingNext = ensureNextQuiz();
       render();
       focusQuizCard();
@@ -577,6 +786,7 @@
          <span class="quiz-meta-chip">${ordinal(attempts)} run on this device</span>`
       : `<span class="quiz-meta-chip">Not attempted yet</span>`;
     const resume = getResumeBlob();
+    const toReview = getMissedNumbers().length;
     const imageSrc = topicImageSrc();
     const hero = imageSrc
       ? `<div class="quiz-hero">
@@ -632,8 +842,18 @@
           <button type="button" class="btn-secondary" data-action="start"><span>Start over</span></button>`
               : `<button type="button" class="btn-primary" data-action="start"><span>Begin quiz</span></button>`
           }
+          ${
+            toReview
+              ? `<button type="button" class="btn-secondary quiz-review-missed-btn" data-action="review-missed" aria-describedby="quiz-review-note"><span>Review missed (${toReview})</span></button>`
+              : ''
+          }
           <a href="${escapeHtml(resolveTopicHref(d, el.root))}" class="btn-secondary"><span>Study the topic first</span></a>
         </div>
+        ${
+          toReview
+            ? `<p class="quiz-review-note" id="quiz-review-note">${toReview} question${toReview === 1 ? '' : 's'} you missed before on this device. Each one leaves the list once you answer it correctly.</p>`
+            : ''
+        }
       </div>
     `;
   }
@@ -711,6 +931,19 @@
     `;
   }
 
+  /** Dive-page URL for the report section that explains this question (fallback: report top). */
+  function whyHref(question) {
+    const base = resolveTopicHref(state.data, el.root);
+    const id = question?.reportSection?.id;
+    return `${base}#${encodeURIComponent(id || 'report-section')}`;
+  }
+
+  function renderWhyLink(question) {
+    const title = question?.reportSection?.title;
+    const label = title ? `Read “${title}” in the report` : 'Read this in the report';
+    return `<a class="quiz-why-link text-link" href="${escapeHtml(whyHref(question))}">${escapeHtml(label)} <span aria-hidden="true">→</span></a>`;
+  }
+
   function renderFeedback(question) {
     if (state.mode !== 'instant' || !state.revealed[question.number]) return '';
     const selected = state.answers[question.number];
@@ -737,8 +970,9 @@
       ? `
         ${isCorrect ? '' : '<p class="quiz-feedback__why-label">Why</p>'}
         <p class="quiz-feedback__body">${escapeHtml(rationale)}</p>
+        ${renderWhyLink(question)}
       `
-      : '';
+      : `${renderWhyLink(question)}`;
 
     return `
       <div class="quiz-feedback quiz-feedback--${variant}" role="status">
@@ -816,6 +1050,7 @@
           Correct answer: <span>${escapeHtml(q.correctAnswer)}${right?.text ? ` — ${escapeHtml(right.text)}` : ''}</span>
         </p>
         ${rationale ? `<p class="quiz-review-item__rationale">${escapeHtml(rationale)}</p>` : ''}
+        ${renderWhyLink(q)}
       </article>
     `;
   }
@@ -866,7 +1101,9 @@
         ? 'Quick recall'
         : state.runKind === 'missed'
           ? 'Missed-question retry'
-          : 'Quiz complete';
+          : state.runKind === 'review'
+            ? 'Review of missed questions'
+            : 'Quiz complete';
 
     return `
       <div class="quiz-card" role="region" aria-label="Quiz results">
@@ -899,9 +1136,11 @@
               : ''
           }
           <button type="button" class="btn-secondary" data-action="share"><span>Share score</span></button>
+          <button type="button" class="btn-secondary" data-action="score-card" aria-describedby="quiz-score-card-note"><span>Score card image</span></button>
           <a href="${escapeHtml(resolveQuizzesHubHref())}" class="btn-secondary"><span>Back to Quizzes</span></a>
           <a href="${escapeHtml(resolveTopicHref(d, el.root))}" class="btn-secondary"><span>Back to topic</span></a>
         </div>
+        <p class="quiz-score-card-note sr-only" id="quiz-score-card-note">Makes a picture of your score to share or save. Nothing is uploaded.</p>
         ${renderNextQuiz()}
         ${renderReview()}
       </div>
@@ -1092,6 +1331,10 @@
       }
     } else if (action === 'share') {
       shareScore(target);
+    } else if (action === 'score-card') {
+      shareScoreCard(target);
+    } else if (action === 'review-missed') {
+      beginRun('review');
     }
   }
 
@@ -1134,6 +1377,13 @@
       state.originalQuestions = data.questions.slice();
       state.phase = 'start';
       render();
+      let wantsReview = false;
+      try {
+        wantsReview = new URLSearchParams(window.location.search).get('review') === '1';
+      } catch (_) {
+        /* ignore */
+      }
+      if (wantsReview && getMissedNumbers().length) beginRun('review');
     } catch (err) {
       console.error(err);
       setPlayingChrome(false);

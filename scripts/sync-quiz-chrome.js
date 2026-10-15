@@ -46,7 +46,15 @@ function stripFooterUtilities(html) {
 
 /** Keep first paint vault-colored even before main.min.css arrives. */
 function ensureCriticalPaint(html) {
-  if (html.includes('html,body{background-color:#0F0A1F}')) return html;
+  // The old guard looked for 'html,body{background-color:#0F0A1F}' but the
+  // block actually reads '…#0F0A1F;color-scheme:dark}', so every build added
+  // another copy. Match the real block and collapse any duplicates.
+  const block = CRITICAL_PAINT;
+  if (html.includes(block)) {
+    const first = html.indexOf(block) + block.length;
+    return html.slice(0, first) + html.slice(first).split(block).join('');
+  }
+  if (html.includes('<!-- Critical paint:')) return html;
 
   const markers = [
     '    <link rel="preload" href="../../assets/css/main.min.css" as="style">',

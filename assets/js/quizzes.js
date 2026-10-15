@@ -160,22 +160,23 @@ function initQuizzesHub() {
         10
       ) || 0;
       let attempted = 0;
-      let sumPct = 0;
+      let passed = 0;
       pathQuizzes.forEach((q) => {
         const key = q.key || `${q.sourceId}/${q.id}`;
         const entry = map[key];
         if (entry && typeof entry.bestPct === 'number') {
           attempted += 1;
-          sumPct += entry.bestPct;
+          if (entry.bestPct >= QUIZ_PASS_PCT) passed += 1;
         }
       });
-      const avg = attempted ? Math.round(sumPct / attempted) : null;
       const countEl = card.querySelector('.quiz-hub-path-card__count, .source-card-meta');
       if (countEl && total) {
+        // Passed = best full-quiz score ≥ QUIZ_PASS_PCT (70%, the "Recalling" band) on this device.
         countEl.textContent =
           attempted > 0
-            ? `${attempted}/${total} · ${avg}% avg`
+            ? `${passed} of ${total} quizzes passed`
             : `${total} ${total === 1 ? 'quiz' : 'quizzes'}`;
+        countEl.title = attempted > 0 ? `Passed means a best score of ${QUIZ_PASS_PCT}% or higher on a full run, saved on this device` : '';
       }
       let progressEl = card.querySelector('[data-path-progress]');
       if (attempted > 0) {
@@ -186,9 +187,11 @@ function initQuizzesHub() {
           const action = card.querySelector('.source-card-action');
           if (action) action.before(progressEl);
         }
-        const pctDone = total ? Math.round((attempted / total) * 100) : 0;
+        const pctDone = total ? Math.round((passed / total) * 100) : 0;
         progressEl.innerHTML = `<div class="source-card-progress__fill" style="width:${pctDone}%"></div>`;
-        progressEl.title = `${attempted} of ${total} attempted on this device`;
+        progressEl.setAttribute('role', 'img');
+        progressEl.setAttribute('aria-label', `${passed} of ${total} quizzes passed on this device`);
+        progressEl.title = `${passed} of ${total} passed (≥${QUIZ_PASS_PCT}%) · ${attempted} attempted on this device`;
       } else if (progressEl) {
         progressEl.remove();
       }
@@ -345,11 +348,53 @@ function initQuizzesHub() {
     continueRoot.hidden = false;
   }
 
+  function readMissedMap() {
+    try {
+      const raw = localStorage.getItem('21st-memory-quiz-missed-v1');
+      const parsed = raw ? JSON.parse(raw) : {};
+      return parsed && typeof parsed === 'object' ? parsed : {};
+    } catch (_) {
+      return {};
+    }
+  }
+
+  function paintReviewStrip() {
+    const reviewRoot = document.getElementById('quiz-review-missed');
+    const reviewTrack = document.getElementById('quiz-review-missed-track');
+    if (!reviewRoot || !reviewTrack) return;
+    const byKey = new Map(((quizIndex && quizIndex.quizzes) || []).map((q) => [q.key, q]));
+    const items = Object.entries(readMissedMap())
+      .filter(([, v]) => v && Array.isArray(v.numbers) && v.numbers.length)
+      .sort((a, b) => String(b[1].updatedAt || '').localeCompare(String(a[1].updatedAt || '')))
+      .slice(0, 12);
+    if (!items.length) {
+      reviewRoot.hidden = true;
+      reviewTrack.innerHTML = '';
+      return;
+    }
+    reviewTrack.innerHTML = items
+      .map(([key, v]) => {
+        const meta = byKey.get(key);
+        const base = meta ? `/${String(meta.href).replace(/^\//, '')}` : v.href || '';
+        if (!base) return '';
+        const title = (meta && meta.title) || v.title || key;
+        const n = v.numbers.length;
+        return `<a href="${escapeAttr(`${base}?review=1`)}" class="quiz-continue-card" role="listitem" aria-label="Review ${n} missed question${n === 1 ? '' : 's'} in ${escapeAttr(title)}">
+  <span class="quiz-continue-card__label">Review</span>
+  <span class="quiz-continue-card__title">${escapeHtml(title)}</span>
+  <span class="quiz-continue-card__meta"><span class="quiz-continue-card__attempts">${n} to review</span></span>
+</a>`;
+      })
+      .join('');
+    reviewRoot.hidden = !reviewTrack.innerHTML.trim();
+  }
+
   function paintAllProgress() {
     paintScores();
     paintContinueStrip();
     paintStats();
     paintPathProgress();
+    paintReviewStrip();
   }
 
   function renderRow(quiz) {

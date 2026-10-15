@@ -1352,3 +1352,26 @@ body.quiz-is-playing .page-shell {
     transform: none;
   }
 }
+
+/* Why → report section link (feedback + review). Tap target ≥44px. */
+.quiz-why-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 44px;
+  margin-top: 0.35rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.quiz-review-note {
+  margin: 0.85rem 0 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-soft);
+}
+
+.quiz-actions .btn-secondary,
+.quiz-actions .btn-primary {
+  min-height: 44px;
+}
