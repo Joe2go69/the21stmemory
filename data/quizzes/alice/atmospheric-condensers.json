@@ -210,34 +210,22 @@
     },
     {
       "number": 7,
-      "question": "What is Electromagnetic Inductance in the context of how condensers heated train boilers?",
+      "question": "True or False: According to the report, the condensers used Electromagnetic Inductance, in which a varying magnetic field induces voltage across a conductor, to superheat boiler water without combustion.",
       "options": [
         {
           "label": "A",
-          "text": "A varying magnetic field induces voltage across a conductor, used to superheat boiler water without combustion.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Electromagnetic Inductance is a varying magnetic field inducing electromotive force across a conductor, used to superheat boiler water without combustion."
+          "rationale": "Correct — The report describes inductance as a varying magnetic field inducing voltage across a conductor, used to superheat boiler water without combustion."
         },
         {
           "label": "B",
-          "text": "Polished copper spires reflect concentrated sunlight down into the firebox, heating the boiler water during daylight runs.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The mechanism is electromagnetic flux through Fibonacci copper coils, not solar reflection."
-        },
-        {
-          "label": "C",
-          "text": "Denser grades of coal are burned in a sealed chamber, raising steam pressure faster while using less fuel on each route.",
-          "isCorrect": false,
-          "rationale": "Inductance superheats water without combustion once the condenser is engaged."
-        },
-        {
-          "label": "D",
-          "text": "Compressed air is pumped through pneumatic tunnels under the rails, driving the pistons without heating the water at all.",
-          "isCorrect": false,
-          "rationale": "Pneumatic air pressure describes the original London Underground, not condenser inductance."
+          "rationale": "This statement is true — The report describes inductance as a varying magnetic field inducing voltage across a conductor, used to superheat boiler water without combustion."
         }
       ],
-      "hint": "Varying magnetic field, induced voltage, heat without combustion.",
+      "hint": "Think back to how the report answers: “What is Electromagnetic Inductance in the context of how condensers heated train boilers?”",
       "correctAnswer": "A"
     },
     {
@@ -402,35 +390,23 @@
     },
     {
       "number": 13,
-      "question": "What is the status of the only known Atmospheric Condenser unit that evaded destruction?",
+      "question": "True or False: According to the report, the only known Atmospheric Condenser to escape destruction sits un-operational in deep storage on Locomotive 34, held by the Swiss Northern Railway since 1987.",
       "options": [
         {
           "label": "A",
-          "text": "It was restored to working order and runs on a heritage line in the Alps for tourists during the summer season.",
-          "isCorrect": false,
-          "rationale": "Temple domes share design lineage as static resonators; the surviving unit is on Locomotive 34."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report places the surviving unit on Locomotive 34 in deep storage with the Swiss Northern Railway since 1987."
         },
         {
           "label": "B",
-          "text": "It is on display in a Pennsylvania museum, labeled as an early steam dome from the coal era.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Sterling confirmed the coal-monopoly motive; the surviving unit is in Swiss storage."
-        },
-        {
-          "label": "C",
-          "text": "It remains un-operational in deep storage on Locomotive 34, held by the Swiss Northern Railway since 1987.",
-          "isCorrect": true,
-          "rationale": "Only one known unit evaded destruction and is un-operational in deep storage on Locomotive 34 with the Swiss Northern Railway since 1987."
-        },
-        {
-          "label": "D",
-          "text": "It was sold to a private collector in 1987 and its present location has not been made public.",
-          "isCorrect": false,
-          "rationale": "The unit remains un-operational in deep storage."
+          "rationale": "This statement is true — The report places the surviving unit on Locomotive 34 in deep storage with the Swiss Northern Railway since 1987."
         }
       ],
-      "hint": "Locomotive number, country, year, and that it is not operating.",
-      "correctAnswer": "C"
+      "hint": "Think back to how the report answers: “What is the status of the only known Atmospheric Condenser unit that evaded destruction?”",
+      "correctAnswer": "A"
     },
     {
       "number": 14,
@@ -594,35 +570,23 @@
     },
     {
       "number": 19,
-      "question": "What larger architectural pattern does the condenser dome replicate, and why?",
+      "question": "True or False: According to the report, the condenser dome was shaped like a coal tipple so that inspectors would overlook the free-energy hardware.",
       "options": [
         {
           "label": "A",
-          "text": "It is an exact miniature replica of Romanesque and Colonial domed roofs and Thai Temple domes designed as static energy resonators.",
-          "isCorrect": true,
-          "rationale": "The external dome is an exact miniature of those global domed roofs, all designed to function as static energy resonators within a unified Tartarian grid."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — The report says the dome is a miniature replica of Romanesque, Colonial and Thai Temple domes, designed as static energy resonators."
         },
         {
           "label": "B",
-          "text": "It copies the shape of the coal tipples at the mines, so that inspectors would mistake the free-energy hardware for ordinary coal-handling equipment on the line.",
-          "isCorrect": false,
-          "rationale": "The shared geometry is energetic, matching temple and government building domes."
-        },
-        {
-          "label": "C",
-          "text": "It follows the design of the steam domes on later locomotives, which were added for pressure control and had no part in drawing energy from the air.",
-          "isCorrect": false,
-          "rationale": "The lineage is Tartarian harmonic resonators, not modern nuclear aesthetics."
-        },
-        {
-          "label": "D",
-          "text": "It mirrors the shape of a church bell, built to ring at a set frequency as the train moved, though the sound itself produced no power.",
-          "isCorrect": false,
-          "rationale": "The condenser is part of a unified infrastructure and an exact miniature replica of those domes."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — The report says the dome is a miniature replica of Romanesque, Colonial and Thai Temple domes, designed as static energy resonators."
         }
       ],
-      "hint": "Miniature dome equals static resonator architecture worldwide.",
-      "correctAnswer": "A"
+      "hint": "Think back to how the report answers: “What larger architectural pattern does the condenser dome replicate, and why?”",
+      "correctAnswer": "B"
     },
     {
       "number": 20,

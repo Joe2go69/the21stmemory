@@ -390,35 +390,23 @@
     },
     {
       "number": 13,
-      "question": "What fate awaits the vessels of NPCs once the parasitic overlays and artificial bands collapse?",
+      "question": "True or False: According to the report, when the parasitic overlays collapse, NPC vessels will dissolve because they were seeded through artificial bands and carry no solar lineage code.",
       "options": [
         {
           "label": "A",
-          "text": "They will take over the maintenance of the 3D matrix once the awakened souls have exited.",
-          "isCorrect": false,
-          "rationale": "The 3D matrix and its parasitic systems are collapsing, leaving no environment for NPCs to maintain."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report says NPC vessels dissolve because they carry no solar lineage code."
         },
         {
           "label": "B",
-          "text": "They will be transported to water domes and crystal halls for emotional and mental healing.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Healing sanctuaries are intended for true human and E.T. sols who have suffered soul fractures, not for artificial shells."
-        },
-        {
-          "label": "C",
-          "text": "Their vessels will dissolve because they were seeded through artificial bands and carry no solar lineage code.",
-          "isCorrect": true,
-          "rationale": "Because NPCs were seeded through artificial bands and carry no solar lineage code, their vessels will dissolve once the overlay drops."
-        },
-        {
-          "label": "D",
-          "text": "They will be upgraded with solar lineage codes to allow them to enter the crystalline temple.",
-          "isCorrect": false,
-          "rationale": "NPCs lack solar lineage codes by design, and their shells are tied to the artificial architecture that is failing."
+          "rationale": "This statement is true — The report says NPC vessels dissolve because they carry no solar lineage code."
         }
       ],
-      "hint": "Consider the result when a simulation's artificial inhabitants lose the very infrastructure that sustains them.",
-      "correctAnswer": "C"
+      "hint": "Think back to how the report answers: “What fate awaits the vessels of NPCs once the parasitic overlays and artificial bands collapse?”",
+      "correctAnswer": "A"
     },
     {
       "number": 14,

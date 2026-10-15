@@ -730,35 +730,23 @@
     },
     {
       "number": 24,
-      "question": "What is required to dismantle the Freemasonic control network?",
+      "question": "True or False: According to the report, dismantling the Freemasonic control network requires breaking reliance on Perceived Knowledge and rejecting fabricated historical timelines.",
       "options": [
         {
           "label": "A",
-          "text": "Electing 33rd Degree initiates to the Reform Club to change policy from within.",
-          "isCorrect": false,
-          "rationale": "The clubs and the degree itself are part of the parasitic control mechanism."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report says the network is dismantled by breaking reliance on Perceived Knowledge and rejecting fabricated timelines."
         },
         {
           "label": "B",
-          "text": "Updating the classification of dinosaurs to include dragon fauna in textbooks.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Naming dragon fauna inside the existing academic structure still relies on institutional authority and Perceived Knowledge."
-        },
-        {
-          "label": "C",
-          "text": "Breaking individual reliance on Perceived Knowledge and rejecting fabricated historical timelines.",
-          "isCorrect": true,
-          "rationale": "Dismantling this control network requires breaking individual reliance on Perceived Knowledge, rejecting fabricated historical timelines, and recognizing that human consciousness and intelligence precede all physical institutional constructs."
-        },
-        {
-          "label": "D",
-          "text": "Integrating more uninitiated inventors into the existing financial consortiums.",
-          "isCorrect": false,
-          "rationale": "Integration compromises the individual, and dismantling requires breaking reliance on Perceived Knowledge."
+          "rationale": "This statement is true — The report says the network is dismantled by breaking reliance on Perceived Knowledge and rejecting fabricated timelines."
         }
       ],
-      "hint": "Focus on the shift in individual consciousness and historical perception.",
-      "correctAnswer": "C"
+      "hint": "Think back to how the report answers: “What is required to dismantle the Freemasonic control network?”",
+      "correctAnswer": "A"
     },
     {
       "number": 25,

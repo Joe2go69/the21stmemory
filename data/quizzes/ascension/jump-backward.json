@@ -698,35 +698,23 @@
     },
     {
       "number": 23,
-      "question": "What happens to the visual field during the 30-second transition between jumps?",
+      "question": "True or False: According to the report, during the 30-second transition between jumps, the environment glitches and pixelates as the artificial overlays collapse.",
       "options": [
         {
           "label": "A",
-          "text": "It remains unchanged because the jump only affects the inner mind.",
-          "isCorrect": false,
-          "rationale": "The instability affects the visual field and physical environment, showing it is not just internal."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report describes the visual field glitching and pixelating as overlays collapse during the transition."
         },
         {
           "label": "B",
-          "text": "The environment glitches out and pixelates as artificial overlays collapse.",
-          "isCorrect": true,
-          "rationale": "During the transition between the Jump Backward and forward return, the visual field and physical environment glitch out and pixelate for approximately thirty seconds as artificial timeline overlays collapse."
-        },
-        {
-          "label": "C",
-          "text": "It shows a fast-forwarded montage of all future historical events.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The transition is characterized by structural failure (pixelation) rather than a specific visual narrative."
-        },
-        {
-          "label": "D",
-          "text": "It becomes perfectly clear and infinitely distant for all observers.",
-          "isCorrect": false,
-          "rationale": "The transition is marked by severe instability and fragmentation rather than sudden clarity."
+          "rationale": "This statement is true — The report describes the visual field glitching and pixelating as overlays collapse during the transition."
         }
       ],
-      "hint": "Think of the visual effect of a failing digital simulation.",
-      "correctAnswer": "B"
+      "hint": "Think back to how the report answers: “What happens to the visual field during the 30-second transition between jumps?”",
+      "correctAnswer": "A"
     },
     {
       "number": 24,

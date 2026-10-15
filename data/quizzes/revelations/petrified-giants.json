@@ -550,35 +550,23 @@
     },
     {
       "number": 18,
-      "question": "What distinguished the inner earth simulations used by the Anakim from known inner earth realms?",
+      "question": "True or False: According to the report, the Anakim's inner earth simulations were higher-density realms protected by formal custodial non-aggression treaties.",
       "options": [
         {
           "label": "A",
-          "text": "They remained entirely outside parasitic surveillance networks inside unmapped inner earth simulations unlike the treaties governing known inner earth realms.",
-          "isCorrect": true,
-          "rationale": "Parasitic custodians remained ignorant of the hidden Anakim strongholds."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — The report says they lay outside parasitic surveillance in unmapped inner earth simulations, unlike the treaty-governed known inner earth realms."
         },
         {
           "label": "B",
-          "text": "They were subterranean habitats designed to allow constant surface observation.",
-          "isCorrect": false,
-          "rationale": "The simulations stayed entirely outside parasitic surveillance networks."
-        },
-        {
-          "label": "C",
-          "text": "They were automated planetary grids constructed to force immediate reset cycles.",
-          "isCorrect": false,
-          "rationale": "They were hidden encampments for population recovery away from surface observation."
-        },
-        {
-          "label": "D",
-          "text": "They were higher-density realms protected by formal custodial non-aggression treaties.",
-          "isCorrect": false,
-          "rationale": "Treaties governed known inner earth realms while the Anakim simulations stayed unmapped."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — The report says they lay outside parasitic surveillance in unmapped inner earth simulations, unlike the treaty-governed known inner earth realms."
         }
       ],
-      "hint": "Consider why custodial forces failed to locate the surviving Anakim.",
-      "correctAnswer": "A"
+      "hint": "Think back to how the report answers: “What distinguished the inner earth simulations used by the Anakim from known inner earth realms?”",
+      "correctAnswer": "B"
     },
     {
       "number": 19,

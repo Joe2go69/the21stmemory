@@ -582,35 +582,23 @@
     },
     {
       "number": 19,
-      "question": "What environmental factor was instituted alongside the Great Flood to eliminate survivors?",
+      "question": "True or False: According to the report, high-intensity ultraviolet radiation was introduced alongside the Great Flood to eliminate the survivors.",
       "options": [
         {
           "label": "A",
-          "text": "Atmospheric oxygen depletion was instituted alongside the Great Flood.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The conditions were instituted to freeze and drown the population, not to remove oxygen."
+          "rationale": "False — The report says the Great Flood was followed by artificial ice ages, instituted to freeze and drown the population."
         },
         {
           "label": "B",
-          "text": "Global volcanic destabilization was instituted alongside the Great Flood.",
-          "isCorrect": false,
-          "rationale": "The reset conditions named with the Great Flood are subsequent artificial ice ages."
-        },
-        {
-          "label": "C",
-          "text": "Catastrophic environmental conditions such as the Great Flood and subsequent artificial ice ages were instituted to freeze and drown the population.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Survivors who endured the extreme cold in original Taran vessels were then hunted by predatory assets."
-        },
-        {
-          "label": "D",
-          "text": "High-intensity ultraviolet radiation was instituted alongside the Great Flood.",
-          "isCorrect": false,
-          "rationale": "The named conditions are the Great Flood and subsequent artificial ice ages, instituted to freeze and drown the population."
+          "rationale": "Correct — The report says the Great Flood was followed by artificial ice ages, instituted to freeze and drown the population."
         }
       ],
-      "hint": "Think about the extreme cold that would follow massive global flooding.",
-      "correctAnswer": "C"
+      "hint": "Think back to how the report answers: “What environmental factor was instituted alongside the Great Flood to eliminate survivors?”",
+      "correctAnswer": "B"
     },
     {
       "number": 20,

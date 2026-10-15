@@ -538,35 +538,23 @@
     },
     {
       "number": 18,
-      "question": "What happens during the exact 30-second EMF flash?",
+      "question": "True or False: According to the report, during the 30-second EMF flash, bright white light envelops the realm while the G.A.A. strips the remaining reality Overlays.",
       "options": [
         {
           "label": "A",
-          "text": "A grey mist covers the realm for 30 seconds while the Bluebeam projectors are shut down one region at a time.",
-          "isCorrect": false,
-          "rationale": "Overlays are stripped for the realm; light is bright white for 30 seconds."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report describes 30 seconds of bright white light while the G.A.A. strips the remaining Overlays."
         },
         {
           "label": "B",
-          "text": "Bright white light envelops the realm for exactly 30 seconds while the G.A.A. strips the remaining reality Overlays.",
-          "isCorrect": true,
-          "rationale": "Climax EMF: bright white light for exactly 30 seconds as G.A.A. strips remaining reality Overlays."
-        },
-        {
-          "label": "C",
-          "text": "Nuclear weapons are launched from the capitals, and the Flash is the light of the first detonations reaching the inside of the dome.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Nuclear weapons are a hoax and will not be used."
-        },
-        {
-          "label": "D",
-          "text": "The Bluebeam holograms brighten for 30 seconds before the Custodians lose their hold on the Projection Dome.",
-          "isCorrect": false,
-          "rationale": "After flash dissipates, holographic UFOs vanish."
+          "rationale": "This statement is true — The report describes 30 seconds of bright white light while the G.A.A. strips the remaining Overlays."
         }
       ],
-      "hint": "Exactly 30 seconds white light; overlays stripped.",
-      "correctAnswer": "B"
+      "hint": "Think back to how the report answers: “What happens during the exact 30-second EMF flash?”",
+      "correctAnswer": "A"
     },
     {
       "number": 19,

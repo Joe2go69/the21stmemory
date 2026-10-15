@@ -506,35 +506,23 @@
     },
     {
       "number": 17,
-      "question": "What is energetic inversion?",
+      "question": "True or False: According to the report, energetic inversion is the restoration of pre-reset geometric architecture in the physical realms.",
       "options": [
         {
           "label": "A",
-          "text": "Energetic inversion is the transfer of energy fields under the terms of the Sovereign Accord.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Under Sovereign Accord support enhances consciousness without overriding personal choice and inversion is a parasitic alteration."
+          "rationale": "False — The report defines energetic inversion as parasites turning positive emotional emissions into negative loosh drawn from pain, trauma and suffering."
         },
         {
           "label": "B",
-          "text": "Energetic inversion is the natural decay of spiritual technology over extended usage cycles.",
-          "isCorrect": false,
-          "rationale": "Spiritual technology heals and sustains life and inversion is the alteration of positive emissions into negative loosh."
-        },
-        {
-          "label": "C",
-          "text": "Energetic inversion is the restoration of pre-reset geometric architecture in physical realms.",
-          "isCorrect": false,
-          "rationale": "Architectural layouts were designed to direct positive current and that restoration is alignment rather than inversion."
-        },
-        {
-          "label": "D",
-          "text": "Energetic inversion is the artificial process by which parasitic entities alter positive emotional emissions into negative loosh derived from pain trauma and suffering.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Energetic inversion is the artificial process by which parasitic entities alter positive emotional emissions into negative loosh derived from pain."
+          "rationale": "Correct — The report defines energetic inversion as parasites turning positive emotional emissions into negative loosh drawn from pain, trauma and suffering."
         }
       ],
-      "hint": "Focus on the process that turns positive emotional energy into pain-based energy.",
-      "correctAnswer": "D"
+      "hint": "Think back to how the report answers: “What is energetic inversion?”",
+      "correctAnswer": "B"
     },
     {
       "number": 18,

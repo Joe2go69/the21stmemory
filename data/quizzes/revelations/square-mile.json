@@ -454,35 +454,23 @@
     },
     {
       "number": 15,
-      "question": "What was the underlying purpose of the 1666 Great Fire reset?",
+      "question": "True or False: According to the report, the 1666 Great Fire was a measure to halt a bacterial epidemic by burning down infected timber buildings.",
       "options": [
         {
           "label": "A",
-          "text": "Halting a severe bacterial epidemic by burning down infected timber buildings across congested alleys.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "The 1666 event is an operational reset rather than a public-health burning of timber alleys."
+          "rationale": "False — The report says 1666 was an operational clearance to eliminate Tartarian resistance, seize real estate and insert a 1,000-year artificial buffer into the timeline."
         },
         {
           "label": "B",
-          "text": "Destroying decaying Tartarian masonry to replace it with fireproof brick architecture.",
-          "isCorrect": false,
-          "rationale": "The standing Tartarian stone was retrofitted and the fire served as an operational clearance of the London population."
-        },
-        {
-          "label": "C",
-          "text": "Modernizing city street layouts to allow steam-powered transport networks to navigate the urban core.",
-          "isCorrect": false,
-          "rationale": "The event cleared the population seized real estate and introduced an artificial buffer into the historical timeline."
-        },
-        {
-          "label": "D",
-          "text": "The 1666 event served as an operational clearance of the London population to eliminate Tartarian resistance seize real estate and introduce a 1000-year artificial buffer into the historical timeline.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "That clearance ran parallel to the capture of the energy grid and the birth-certificate bond system."
+          "rationale": "Correct — The report says 1666 was an operational clearance to eliminate Tartarian resistance, seize real estate and insert a 1,000-year artificial buffer into the timeline."
         }
       ],
-      "hint": "Consider population clearance property seizure and a long artificial gap in the timeline.",
-      "correctAnswer": "D"
+      "hint": "Think back to how the report answers: “What was the underlying purpose of the 1666 Great Fire reset?”",
+      "correctAnswer": "B"
     },
     {
       "number": 16,

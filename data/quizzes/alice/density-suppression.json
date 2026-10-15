@@ -50,34 +50,22 @@
     },
     {
       "number": 2,
-      "question": "How does Density Suppression work as a \"dial\"?",
+      "question": "True or False: According to the report, Density Suppression works as a \"dial\" by stretching clock time, lengthening the day from 24 hours to 96 hours.",
       "options": [
         {
           "label": "A",
-          "text": "It dissolves the higher-density temples into Black Void Plasma, so the structures no longer exist anywhere on the physical plain after the dial is turned.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "High-frequency architecture cannot be destroyed by parasites — only hidden."
+          "rationale": "False — The report's \"dial\" lowers perception from 9th or 15th density to 3rd-density visibility, so higher structures fade from view while staying physically present."
         },
         {
           "label": "B",
-          "text": "It lowers perception from 9th- or 15th-density reality to restricted 3rd-density visibility, so higher structures fade from view while still present.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Density Suppression dampens vibratory frequency like a dial from 9th or 15th density visibility down to 3rd, fading higher structures from view without destroying them."
-        },
-        {
-          "label": "C",
-          "text": "It raises the NPC population to 12th-density caretaker status, giving them authority over which structures stay visible to the true souls around them.",
-          "isCorrect": false,
-          "rationale": "NPCs vanish when suppression collapses; they are not upgraded to caretakers."
-        },
-        {
-          "label": "D",
-          "text": "It stretches the 24-hour day back toward the native 96-hour cycle, so structures appear and fade with the slow movement of the false sun.",
-          "isCorrect": false,
-          "rationale": "The dial is about vibratory perception of matter and architecture, not only day length."
+          "rationale": "Correct — The report's \"dial\" lowers perception from 9th or 15th density to 3rd-density visibility, so higher structures fade from view while staying physically present."
         }
       ],
-      "hint": "Dial down perception; structures stay but fade from view.",
+      "hint": "Think back to how the report answers: “How does Density Suppression work as a \"dial\"?”",
       "correctAnswer": "B"
     },
     {
@@ -306,35 +294,23 @@
     },
     {
       "number": 10,
-      "question": "How was the realm's Toroid power first cut?",
+      "question": "True or False: According to the report, the realm's Toroid power was first cut when Atmospheric Condensers overheated and drained it through the railway boilers.",
       "options": [
         {
           "label": "A",
-          "text": "The Anunnaki drained the Toroid through the first Baphomet pylons, built in a ring around the Spirit Tree before the first reset began.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Condensers later rode Ley Lines; the primary cut was Spirit Tree destruction."
+          "rationale": "False — The report says Orion Greys used phasing technology to destroy the Spirit Tree at the North Pole and replaced it with a petrified stump."
         },
         {
           "label": "B",
-          "text": "The Custodians tilted the realm's axis away from the North Pole, so that the Toroid's energy no longer flowed through the Spirit Tree.",
-          "isCorrect": false,
-          "rationale": "G.A.A. strips suppression now; the original cut was parasitic."
-        },
-        {
-          "label": "C",
-          "text": "Reptilians poisoned the waters around Mt Meru with Red Mercury, slowly killing the Spirit Tree over several thousand years.",
-          "isCorrect": false,
-          "rationale": "Red Mercury and gold idols serve ULF blanketing later; the first cut was Spirit Tree destruction."
-        },
-        {
-          "label": "D",
-          "text": "Orion Greys used phasing technology to destroy the Spirit Tree at the North Pole and replace it with a petrified stump.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Orion Greys destroyed the Spirit Tree at the North Pole with phasing tech, replacing it with a petrified stump and collapsing available energy across the Gateway."
+          "rationale": "Correct — The report says Orion Greys used phasing technology to destroy the Spirit Tree at the North Pole and replaced it with a petrified stump."
         }
       ],
-      "hint": "Orion Greys, North Pole Spirit Tree → petrified stump.",
-      "correctAnswer": "D"
+      "hint": "Think back to how the report answers: “How was the realm's Toroid power first cut?”",
+      "correctAnswer": "B"
     },
     {
       "number": 11,
@@ -498,35 +474,23 @@
     },
     {
       "number": 16,
-      "question": "Why were old-world railway tracks laid over Ley Lines?",
+      "question": "True or False: According to the report, old-world railway tracks were laid over Ley Lines so that Atmospheric Condensers on locomotives could draw electromagnetic inductance from the network.",
       "options": [
         {
           "label": "A",
-          "text": "So the tracks would follow the flattest ground, since the Ley Lines ran along the low valleys between the old cities.",
-          "isCorrect": false,
-          "rationale": "Placement is strategic over energy paths, not avoidance."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report says tracks followed Ley Lines so the condensers could draw free inductance directly from the network."
         },
         {
           "label": "B",
-          "text": "So Atmospheric Condensers on the locomotives could draw free electromagnetic inductance directly from the network.",
-          "isCorrect": true,
-          "rationale": "Tracks over Ley Lines let Atmospheric Condenser domes on locomotives pull free EM inductance from the lattice network."
-        },
-        {
-          "label": "C",
-          "text": "So the weight of the trains would press down on the Ley Lines, weakening them and draining the energy away from the nodes.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Heliocentrism and gravity are named fictions of the fake cosmos under suppression."
-        },
-        {
-          "label": "D",
-          "text": "So the railway companies could survey the Ley Lines for the Freemasons, who wanted maps of every node before the next reset.",
-          "isCorrect": false,
-          "rationale": "Primary free-energy motive is condenser inductance from Ley Lines."
+          "rationale": "This statement is true — The report says tracks followed Ley Lines so the condensers could draw free inductance directly from the network."
         }
       ],
-      "hint": "Condensers ride Ley Lines for free inductance.",
-      "correctAnswer": "B"
+      "hint": "Think back to how the report answers: “Why were old-world railway tracks laid over Ley Lines?”",
+      "correctAnswer": "A"
     },
     {
       "number": 17,

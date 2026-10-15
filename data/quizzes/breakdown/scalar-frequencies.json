@@ -570,35 +570,23 @@
     },
     {
       "number": 19,
-      "question": "How are Nightmare Loops utilized by the low-frequency grids?",
+      "question": "True or False: According to the report, the low-frequency grids use Nightmare Loops to train consciousness in combat so it is ready for the end of the matrix.",
       "options": [
         {
           "label": "A",
-          "text": "They form an individual electromagnetic veil that intercepts consciousness and forces it into terrifying nightmare loops.",
-          "isCorrect": true,
-          "rationale": "The veil scrambles the soul's trajectory during sleep so nightmare loops block origin memory and leave the subject tired."
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "False — The report says Nightmare Loops form an electromagnetic veil that intercepts consciousness and forces it into terrifying loops."
         },
         {
           "label": "B",
-          "text": "They serve as a communication channel for the Greys to deliver instructions to already-awake souls.",
-          "isCorrect": false,
-          "rationale": "The Greys use Voice to Skull for commands; nightmare loops are for suppression and memory disruption."
-        },
-        {
-          "label": "C",
-          "text": "They are used to train the consciousness in combat scenarios so it is ready for the end of the matrix.",
-          "isCorrect": false,
-          "rationale": "Nightmare loops are a tool of suppression and amnesia, not a beneficial training program."
-        },
-        {
-          "label": "D",
-          "text": "They are natural biological cycles that occur when a human vessel is detoxing from the overlay.",
-          "isCorrect": false,
-          "rationale": "Nightmare loops are artificially projected by the grid, not a natural detox process."
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Correct — The report says Nightmare Loops form an electromagnetic veil that intercepts consciousness and forces it into terrifying loops."
         }
       ],
-      "hint": "Focus on the effect these loops have on a person's energy and memory upon waking.",
-      "correctAnswer": "A"
+      "hint": "Think back to how the report answers: “How are Nightmare Loops utilized by the low-frequency grids?”",
+      "correctAnswer": "B"
     },
     {
       "number": 20,

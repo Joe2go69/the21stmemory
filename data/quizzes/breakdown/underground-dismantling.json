@@ -18,35 +18,23 @@
   "questions": [
     {
       "number": 1,
-      "question": "What is the Underground Dismantling within the Great Purge?",
+      "question": "True or False: According to the report, Underground Dismantling is Phase One of the Great Purge, the removal of apex leaders such as royals and banking heads.",
       "options": [
         {
           "label": "A",
-          "text": "Phase Two cultural neutralization that only replaces entertainment figures and leaves DUMBS fully operational.",
+          "text": "True",
           "isCorrect": false,
-          "rationale": "Phase Two neutralizes cultural programmers; this phase systematically destroys underground cities, pipelines, and harvest supply."
+          "rationale": "False — The report places it at Phase Three (3rd Realm Collapse), the physical and financial strike on subterranean infrastructure and illicit supply chains."
         },
         {
           "label": "B",
-          "text": "A purely symbolic media announcement with no military seizures of shipping routes or subterranean bases.",
-          "isCorrect": false,
-          "rationale": "Military and Allied Special Forces seized shipping, intercepted cargoes, and dismantled tunnels and DUMBS — a real physical operation."
-        },
-        {
-          "label": "C",
-          "text": "Phase Three: 3rd Realm Collapse — the decisive physical and financial strike that obliterated subterranean infrastructure and illicit supply chains.",
+          "text": "False",
           "isCorrect": true,
-          "rationale": "Underground Dismantling is Phase Three: 3rd Realm Collapse, the decisive physical and financial strike against dark controllers' subterranean networks and supply chains."
-        },
-        {
-          "label": "D",
-          "text": "Phase One apex leadership removal that only arrests royals and banking heads with no tunnel or pipeline action.",
-          "isCorrect": false,
-          "rationale": "Phase One decapitates political apex predators; Underground Dismantling is Phase Three's physical and financial underground strike."
+          "rationale": "Correct — The report places it at Phase Three (3rd Realm Collapse), the physical and financial strike on subterranean infrastructure and illicit supply chains."
         }
       ],
-      "hint": "Its phase number and primary character of the strike.",
-      "correctAnswer": "C"
+      "hint": "Think back to how the report answers: “What is the Underground Dismantling within the Great Purge?”",
+      "correctAnswer": "B"
     },
     {
       "number": 2,
@@ -210,34 +198,22 @@
     },
     {
       "number": 7,
-      "question": "Who executed the tactical seizures of routes and cargoes?",
+      "question": "True or False: According to the report, Military and Allied Special Forces seized global shipping routes, intercepted cargoes and destroyed subterranean tunnel networks.",
       "options": [
         {
           "label": "A",
-          "text": "Military and Allied Special Forces who seized global shipping routes, intercepted cargoes, and destroyed subterranean tunnel networks.",
+          "text": "True",
           "isCorrect": true,
-          "rationale": "Military and Allied Special Forces were deployed to seize global shipping routes, intercept cargoes, and destroy subterranean tunnel networks."
+          "rationale": "Correct — The report names the Military and Allied Special Forces as executing these seizures."
         },
         {
           "label": "B",
-          "text": "Only entertainment stand-ins and media composites with no military authority over shipping or tunnels.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Stand-ins manage surface optics from Phase Two; Phase Three tactical work is Military and Allied Special Forces."
-        },
-        {
-          "label": "C",
-          "text": "Volunteer civilian bloggers who mapped tunnels online without seizing routes or intercepting cargo.",
-          "isCorrect": false,
-          "rationale": "The sweep was a military special-forces operation taking total control of shipping routes and intercepting cargoes."
-        },
-        {
-          "label": "D",
-          "text": "Parasitic banking heads who voluntarily surrendered every cargo ship before any force deployment.",
-          "isCorrect": false,
-          "rationale": "Forces initiated seizures and demolition against the underground system; it was not a voluntary banking surrender."
+          "rationale": "This statement is true — The report names the Military and Allied Special Forces as executing these seizures."
         }
       ],
-      "hint": "Named military actors in the key terminology.",
+      "hint": "Think back to how the report answers: “Who executed the tactical seizures of routes and cargoes?”",
       "correctAnswer": "A"
     },
     {
@@ -530,35 +506,23 @@
     },
     {
       "number": 17,
-      "question": "How does Underground Dismantling sit in the initial three-phase takedown?",
+      "question": "True or False: According to the report, Underground Dismantling is the capstone of the three-phase takedown: physical destruction of the parasitic control grid after the political shield and psychological programming were cleared.",
       "options": [
         {
           "label": "A",
-          "text": "It replaces Phases One and Two entirely so leadership and media never need separate operations.",
-          "isCorrect": false,
-          "rationale": "All three phases form a seamless sequence; underground destruction is the third capstone, not a substitute for One and Two."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report describes it as the capstone that follows the removal of the political shield and the psychological programming."
         },
         {
           "label": "B",
-          "text": "It is the capstone — physical destruction of the parasitic control grid after political shield and psychological programming were cleared.",
-          "isCorrect": true,
-          "rationale": "Underground Dismantling is the capstone of the initial three-phase takedown: after political shield removal and psychological programming disablement comes physical destruction."
-        },
-        {
-          "label": "C",
-          "text": "It is the optional first step that can run before any political or cultural neutralization.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "It could only occur after Phase One and Phase Two cleared protectors and surface panic risk — it is the capstone, not the opener."
-        },
-        {
-          "label": "D",
-          "text": "It is unrelated to the Great Purge and only renovates civilian subways after ascension completes.",
-          "isCorrect": false,
-          "rationale": "It is Phase Three of the Great Purge and the capstone physical strike of the initial three-phase takedown."
+          "rationale": "This statement is true — The report describes it as the capstone that follows the removal of the political shield and the psychological programming."
         }
       ],
-      "hint": "Capstone role after shield and programming fall.",
-      "correctAnswer": "B"
+      "hint": "Think back to how the report answers: “How does Underground Dismantling sit in the initial three-phase takedown?”",
+      "correctAnswer": "A"
     },
     {
       "number": 18,

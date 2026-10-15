@@ -634,35 +634,23 @@
     },
     {
       "number": 21,
-      "question": "The 'Inversion of Truth' refers to the parasitic tactic of:",
+      "question": "True or False: According to the report, the \"Inversion of Truth\" is the parasitic tactic of using captured True Sparks as the energetic foundation of an artificial world.",
       "options": [
         {
           "label": "A",
-          "text": "Allowing healed souls to choose their next evolutionary path in freedom.",
-          "isCorrect": false,
-          "rationale": "Absolute sovereignty to choose the next path is granted after restoration in the healing sanctuaries. That is reclamation, not the parasitic inversion of truth."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report defines the Inversion of Truth as using captured True Sparks to power an artificial world."
         },
         {
           "label": "B",
-          "text": "Embedding ET-sol codes so they match the low frequency of the simulation.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "Embedded codes are divine signatures from solar parents, designed so ET frequencies can trigger True Sparks. They are a liberation mechanism, not the inversion tactic."
-        },
-        {
-          "label": "C",
-          "text": "Using captured True Sparks as the energetic foundation of an artificial world.",
-          "isCorrect": true,
-          "rationale": "True Sparks were created to collaborate and connect, which naturally elevated frequency. Parasites targeted, captured, and inverted them to serve as the energetic foundation of the artificial three-dimensional world."
-        },
-        {
-          "label": "D",
-          "text": "Creating brand-new souls to serve as the foundation of the physical world.",
-          "isCorrect": false,
-          "rationale": "Parasites cannot generate the first spark of creation or own a soul. They capture and invert existing True Sparks to power the artificial world."
+          "rationale": "This statement is true — The report defines the Inversion of Truth as using captured True Sparks to power an artificial world."
         }
       ],
-      "hint": "Identify how the natural purpose of souls was twisted to support a fake reality.",
-      "correctAnswer": "C"
+      "hint": "Think back to how the report answers: “The 'Inversion of Truth' refers to the parasitic tactic of:”",
+      "correctAnswer": "A"
     },
     {
       "number": 22,

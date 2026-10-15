@@ -314,35 +314,23 @@
     },
     {
       "number": 11,
-      "question": "Where did the public warm-up microchips introduced over twenty years ago typically get inserted?",
+      "question": "True or False: According to the report, the public warm-up microchips introduced over twenty years ago were typically inserted under the skin of the back of the hand.",
       "options": [
         {
           "label": "A",
-          "text": "They were inserted along the central spine adjacent to the spinal cord as the first public access device.",
-          "isCorrect": false,
-          "rationale": "Spinal placement was not the initial public conditioning vector used for convenience such as keyless access."
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Correct — The report describes subcutaneous chips placed in the extremities, such as the back of the hand, beginning over twenty years ago."
         },
         {
           "label": "B",
-          "text": "Beginning over twenty years ago implantable chips were placed in human extremities such as subcutaneous microchips inserted into the back of the hand.",
-          "isCorrect": true,
-          "rationale": "Beginning over twenty years ago implantable chips designed for placement in human extremities included subcutaneous microchips inserted into the back of the hand."
-        },
-        {
-          "label": "C",
-          "text": "They were inserted subcutaneously into the sole of the human foot as the first public convenience device.",
+          "text": "False",
           "isCorrect": false,
-          "rationale": "The placement named for those chips is human extremities such as the back of the hand."
-        },
-        {
-          "label": "D",
-          "text": "They were inserted directly into the frontal lobe of the human brain as the opening public warm-up hardware.",
-          "isCorrect": false,
-          "rationale": "Deeper cognitive hardware follows the extremity warm-up and the first chips were placed in human extremities."
+          "rationale": "This statement is true — The report describes subcutaneous chips placed in the extremities, such as the back of the hand, beginning over twenty years ago."
         }
       ],
-      "hint": "Look at the peripheral body parts chosen for initial public exposure.",
-      "correctAnswer": "B"
+      "hint": "Think back to how the report answers: “Where did the public warm-up microchips introduced over twenty years ago typically get inserted?”",
+      "correctAnswer": "A"
     },
     {
       "number": 12,
