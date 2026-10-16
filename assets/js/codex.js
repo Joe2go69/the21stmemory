@@ -6,17 +6,82 @@ let codexState = {
   archiveStats: { sources: 0, live: 0, total: 0 },
   filters: { query: '', status: 'all', sort: 'alpha' },
   loading: true,
+  resultLimit: 24,
+  hasScrolledToResults: false,
   searchIndexBuilt: false,
   searchIndexPromise: null
 };
 
+const CODEX_RESULTS_PAGE = 24;
+
 const debouncedRenderCodexViews = TopicUtils.debounce(async () => {
-  if (TopicUtils.normalizeSearch(codexState.filters.query)) {
+  const hasQuery = !!TopicUtils.normalizeSearch(codexState.filters.query);
+  if (hasQuery) {
     await ensureSearchIndex();
   }
+  renderToolbarStatusVisibility();
   renderCodexViews();
   syncCodexUrlFromState();
+  if (hasQuery) scrollResultsIntoViewOnMobile();
 }, 250);
+
+/**
+ * Phones: the hero + stats push the search box low, and the keyboard covers
+ * whatever is under it. On the first keystroke of a search, bring the search
+ * box to the top so results are visible directly under it.
+ */
+function scrollResultsIntoViewOnMobile() {
+  if (codexState.hasScrolledToResults) return;
+  if (!window.matchMedia('(max-width: 767px)').matches) return;
+  const toolbar = document.getElementById('codex-toolbar');
+  if (!toolbar) return;
+  codexState.hasScrolledToResults = true;
+  const nav = document.querySelector('.navbar');
+  const navH = nav ? Math.ceil(nav.getBoundingClientRect().height) : 64;
+  const top = toolbar.getBoundingClientRect().top + window.pageYOffset - navH - 8;
+  if (Math.abs(top - window.pageYOffset) < 24) return;
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  window.scrollTo({ top: Math.max(0, top), behavior: reduced ? 'auto' : 'smooth' });
+}
+
+/** Lower score = better match. Infinity = no match. */
+function scoreTopicMatch(entry, q, tokens) {
+  const title = TopicUtils.normalizeSearch(entry.title);
+  const desc = TopicUtils.normalizeSearch(entry.description);
+  const rest = TopicUtils.normalizeSearch([
+    entry.id,
+    entry.sourceTitle,
+    entry.sourceId,
+    ...(entry.pathTitles || [])
+  ].join(' '));
+  const wordStart = (text, term) => text.startsWith(term) || text.includes(` ${term}`)
+    || new RegExp(`[^a-z0-9]${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`).test(text);
+
+  if (title === q) return 0;
+  if (title.startsWith(q)) return 1;
+  if (wordStart(title, q)) return 2;
+  if (title.includes(q)) return 3;
+  if (tokens.length > 1 && tokens.every(t => title.includes(t))) return 4;
+  if (desc.includes(q)) return 5;
+  const all = `${title} ${desc} ${rest}`;
+  if (tokens.length > 1 && tokens.every(t => title.includes(t) || desc.includes(t))) return 6;
+  if (all.includes(q)) return 7;
+  if (tokens.length > 1 && tokens.every(t => all.includes(t))) return 8;
+  return Infinity;
+}
+
+function rankTopicResults(entries, query) {
+  const q = TopicUtils.normalizeSearch(query);
+  if (!q) return [];
+  const tokens = q.split(/\s+/).filter(Boolean);
+  return entries
+    .map((entry, order) => ({ entry, order, score: scoreTopicMatch(entry, q, tokens) }))
+    .filter(r => Number.isFinite(r.score))
+    .sort((a, b) => (a.score - b.score)
+      || ((a.entry.is_placeholder ? 1 : 0) - (b.entry.is_placeholder ? 1 : 0))
+      || (a.order - b.order))
+    .map(r => r.entry);
+}
 
 function syncCodexUrlFromState() {
   const { query, status, sort } = codexState.filters;
@@ -82,19 +147,17 @@ function getFilteredSources() {
       sourceTitle: source.title,
       pathTitles: []
     };
-    if (!TopicUtils.matchesSearch(entry, query)) return false;
-    if (status === 'ready') return source.stats.live > 0;
-    if (status === 'soon') return getSoonCount(source.stats) > 0;
-    return true;
+    return TopicUtils.matchesSearch(entry, query);
   });
   return sortSources(sources, sort);
 }
 
+/** All ranked topic matches for the current query + status (no limit). */
 function getFilteredTopicResults() {
   const { query, status } = codexState.filters;
   if (!TopicUtils.normalizeSearch(query)) return [];
-  let results = codexState.allTopics.filter(entry => TopicUtils.matchesSearch(entry, query));
-  return TopicUtils.filterEntriesByStatus(results, status).slice(0, 24);
+  const ranked = rankTopicResults(codexState.allTopics, query);
+  return TopicUtils.filterEntriesByStatus(ranked, status);
 }
 
 function renderArchiveStats() {
@@ -139,6 +202,29 @@ function renderArchiveStats() {
   `;
 }
 
+/** Counts on the Status chips reflect the current search, not the whole archive. */
+function getStatusCount(value) {
+  const { query } = codexState.filters;
+  if (!TopicUtils.normalizeSearch(query) || !codexState.searchIndexBuilt) {
+    if (value === 'all') return codexState.archiveStats.total;
+    if (value === 'ready') return codexState.archiveStats.live;
+    return Math.max(0, codexState.archiveStats.total - codexState.archiveStats.live);
+  }
+  const ranked = rankTopicResults(codexState.allTopics, query);
+  return TopicUtils.filterEntriesByStatus(ranked, value).length;
+}
+
+/** Show the Ready/Soon chips only while a search is active; refresh their counts. */
+function renderToolbarStatusVisibility() {
+  const row = document.getElementById('codex-status-row');
+  if (!row) return;
+  row.hidden = !TopicUtils.normalizeSearch(codexState.filters.query);
+  row.querySelectorAll('[data-codex-status]').forEach(btn => {
+    const countEl = btn.querySelector('.topic-control-count');
+    if (countEl) countEl.textContent = String(getStatusCount(btn.dataset.codexStatus));
+  });
+}
+
 function renderToolbar() {
   const el = document.getElementById('codex-toolbar');
   if (!el) return;
@@ -151,11 +237,7 @@ function renderToolbar() {
   const { query, status, sort } = codexState.filters;
   const statusButtons = ['all', 'ready', 'soon'].map(value => {
     const label = value === 'all' ? 'All' : value === 'ready' ? 'Ready' : 'Soon';
-    const count = value === 'all'
-      ? codexState.archiveStats.total
-      : value === 'ready'
-        ? codexState.archiveStats.live
-        : Math.max(0, codexState.archiveStats.total - codexState.archiveStats.live);
+    const count = getStatusCount(value);
     return `
       <button type="button" data-codex-status="${value}" class="topic-control-btn ${status === value ? 'active' : ''}">
         ${label}<span class="topic-control-count">${count}</span>
@@ -189,7 +271,7 @@ function renderToolbar() {
           </select>
         </div>
       </div>
-      <div class="topics-filter-section topics-filter-section--status archive-filter-row">
+      <div class="topics-filter-section topics-filter-section--status archive-filter-row" id="codex-status-row"${TopicUtils.normalizeSearch(query) ? '' : ' hidden'}>
         <span class="topics-filter-label">Status</span>
         <div class="topics-filter-btn-group topics-filter-btn-group--spaced" role="group" aria-label="Filter by status">${statusButtons}</div>
       </div>
@@ -201,6 +283,8 @@ function renderToolbar() {
 
   searchInput?.addEventListener('input', (event) => {
     codexState.filters.query = event.target.value;
+    codexState.resultLimit = CODEX_RESULTS_PAGE;
+    if (!TopicUtils.normalizeSearch(event.target.value)) codexState.hasScrolledToResults = false;
     debouncedRenderCodexViews();
   });
 
@@ -213,6 +297,7 @@ function renderToolbar() {
   el.querySelectorAll('[data-codex-status]').forEach(btn => {
     btn.addEventListener('click', () => {
       codexState.filters.status = btn.dataset.codexStatus;
+      codexState.resultLimit = CODEX_RESULTS_PAGE;
       renderToolbar();
       renderCodexViews();
       syncCodexUrlFromState();
@@ -249,6 +334,19 @@ function renderSourcesGrid() {
 
   const sources = getFilteredSources();
   container.innerHTML = '';
+  const seriesHeading = document.getElementById('codex-series-heading');
+  const hasActiveQuery = !!TopicUtils.normalizeSearch(codexState.filters.query);
+
+  // While searching, the topic results own the empty state. If no series
+  // matches the query, hide the Series block instead of stacking a second
+  // "nothing found" message under the first.
+  if (hasActiveQuery && !sources.length) {
+    container.hidden = true;
+    if (seriesHeading) seriesHeading.hidden = true;
+    return;
+  }
+  container.hidden = false;
+  if (seriesHeading) seriesHeading.hidden = false;
 
   if (!sources.length) {
     const hasQuery = !!TopicUtils.normalizeSearch(codexState.filters.query);
@@ -299,13 +397,44 @@ function renderTopicSearchResults() {
     return;
   }
 
-  const results = getFilteredTopicResults();
+  const allResults = getFilteredTopicResults();
+  const results = allResults.slice(0, codexState.resultLimit);
   section.hidden = false;
 
+  const countEl = document.getElementById('codex-topic-results-count');
+  const moreWrap = document.getElementById('codex-topic-results-more');
+  if (countEl) {
+    countEl.textContent = allResults.length
+      ? `${allResults.length} ${allResults.length === 1 ? 'match' : 'matches'}`
+      : '';
+  }
+  if (moreWrap) {
+    const remaining = allResults.length - results.length;
+    moreWrap.hidden = remaining <= 0;
+    moreWrap.innerHTML = remaining > 0
+      ? `<button type="button" class="btn-secondary codex-show-more-btn" data-codex-show-more>Show more <span class="codex-show-more-count">(${remaining} more)</span></button>`
+      : '';
+    moreWrap.querySelector('[data-codex-show-more]')?.addEventListener('click', () => {
+      const firstNew = codexState.resultLimit;
+      codexState.resultLimit += CODEX_RESULTS_PAGE;
+      renderTopicSearchResults();
+      // Keep keyboard users in place: move focus to the first newly shown result.
+      const cards = list.querySelectorAll('.codex-search-card');
+      const target = cards[firstNew];
+      if (target) {
+        const focusable = target.matches('a') ? target : target.querySelector('a');
+        if (focusable) focusable.focus({ preventScroll: true });
+      }
+    });
+  }
+
   if (!results.length) {
+    const statusNote = codexState.filters.status !== 'all';
     list.innerHTML = RenderUtils.renderDiscoveryEmpty({
       title: 'No topics found',
-      message: 'Search titles, descriptions, or categories — or clear the query to browse transmissions.',
+      message: statusNote
+        ? 'Nothing matches with this filter. Try All, a different keyword, or clear the search to browse the series.'
+        : 'Try a different keyword, or clear the search to browse the series.',
       icon: 'search',
       actions: [
         { label: 'Clear search', primary: true, attrs: 'data-codex-clear-search' },
@@ -314,6 +443,8 @@ function renderTopicSearchResults() {
     });
     list.querySelector('[data-codex-clear-search]')?.addEventListener('click', () => {
       codexState.filters.query = '';
+      codexState.filters.status = 'all';
+      codexState.hasScrolledToResults = false;
       renderToolbar();
       renderCodexViews();
       syncCodexUrlFromState();

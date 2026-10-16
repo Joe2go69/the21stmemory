@@ -4654,6 +4654,26 @@ a.topic-root-card:hover .explore-badge {
   }
 }
 
+/* Codex search: "Show more" under topic matches; hidden blocks stay hidden */
+.codex-show-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.codex-show-more-count {
+  opacity: 0.7;
+  font-weight: 500;
+  margin-left: 0.25rem;
+}
+
+.codex-show-more[hidden],
+#sources-grid[hidden],
+#codex-series-heading[hidden],
+.codex-toolbar .topics-filter-section--status[hidden] {
+  display: none !important;
+}
+
 .codex-topic-result {
   display: block;
   padding: 1.1rem 1.2rem;
