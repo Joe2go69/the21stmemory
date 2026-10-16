@@ -382,27 +382,27 @@
       "options": [
         {
           "label": "A",
-          "text": "A permanent underground exile that moves every civilian into sealed bunkers with no truth delivery.",
+          "text": "A period in which civilians are moved into sealed bunkers beneath the cities, where they wait out the purge without access to the broadcasts that are taking place above them.",
           "isCorrect": false,
-          "rationale": "The window is a protective pause for receiving truth packages, not permanent bunker exile without disclosure."
+          "rationale": "Not what the report says. The Lockdown Window is military stabilization for civilian protection and low chaos—a global pause for absorbing truth packages."
         },
         {
           "label": "B",
-          "text": "A military stabilization protocol that protects civilians, keeps chaos low, and acts as a global pause button so the public can absorb truth packages.",
+          "text": "A military stabilization protocol that protects civilians, keeps chaos low and acts as a global pause button so the public can absorb truth packages.",
           "isCorrect": true,
           "rationale": "The Lockdown Window is military stabilization for civilian protection and low chaos—a global pause for absorbing truth packages."
         },
         {
           "label": "C",
-          "text": "A parasitic control mechanism designed solely to harvest loosh while blocking every path to truth.",
+          "text": "A control measure of the parasites, used to harvest loosh from a frightened population while the truth is kept from them.",
           "isCorrect": false,
-          "rationale": "Unlike parasitic control, this lockdown is a military stabilization protocol for protection and truth absorption."
+          "rationale": "Not what the report says. The Lockdown Window is military stabilization for civilian protection and low chaos—a global pause for absorbing truth packages."
         },
         {
           "label": "D",
-          "text": "An optional holiday where governments shut down only theme parks and leave all media fully open.",
+          "text": "A holiday announced by governments, with businesses closed but the regular media left running as usual.",
           "isCorrect": false,
-          "rationale": "Lockdowns are enforced military stabilization across the transition, not a limited theme-park holiday."
+          "rationale": "Not what the report says. The Lockdown Window is military stabilization for civilian protection and low chaos—a global pause for absorbing truth packages."
         }
       ],
       "hint": "Military enforcement with a purpose opposite to parasitic control mechanisms.",

@@ -318,25 +318,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only permanent darkness of the field with no temporary clarity after cable severing.",
+          "text": "The field goes dark for a moment as the tethers are cut, and the overlay grows thicker afterwards as it takes in the energy that the tethers once carried.",
           "isCorrect": false,
-          "rationale": "Post-pop clarity is the opposite of permanent field darkness."
+          "rationale": "Not what the report says. The Atmospheric Pop signifies definitive severing of old frequency tethers; for a split second the field becomes clearer than ever as the Parasitic Overlay is temporarily pierced."
         },
         {
           "label": "B",
-          "text": "Only a mental visualization with no real energetic clarity or overlay piercing moment.",
+          "text": "It is a mental image used to help people let go of fear, with no real change in the energetic field or the overlay.",
           "isCorrect": false,
-          "rationale": "The field becomes clearer than ever before felt in a split second after the pop."
+          "rationale": "Not what the report says. The Atmospheric Pop signifies definitive severing of old frequency tethers; for a split second the field becomes clearer than ever as the Parasitic Overlay is temporarily pierced."
         },
         {
           "label": "C",
-          "text": "Permanent reinforcement of old frequency tethers with no pierce of the Parasitic Overlay at all.",
+          "text": "The old tethers are strengthened by the pressure drop, and the overlay holds firm, since the cables were the weakest part of it.",
           "isCorrect": false,
-          "rationale": "It severs old tethers and temporarily pierces the Parasitic Overlay for field clarity."
+          "rationale": "Not what the report says. The Atmospheric Pop signifies definitive severing of old frequency tethers; for a split second the field becomes clearer than ever as the Parasitic Overlay is temporarily pierced."
         },
         {
           "label": "D",
-          "text": "Definitive severing of old frequency tethers; for a split second the energetic field is clearer than ever as the Parasitic Overlay is temporarily pierced.",
+          "text": "The definitive severing of old frequency tethers; for a split second the field is clearer than ever as the Parasitic Overlay is temporarily pierced.",
           "isCorrect": true,
           "rationale": "The Atmospheric Pop signifies definitive severing of old frequency tethers; for a split second the field becomes clearer than ever as the Parasitic Overlay is temporarily pierced."
         }
@@ -414,27 +414,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Bird songs grow louder and air feels thinner with no adrenaline or heart-rate spikes at all.",
+          "text": "The air feels thinner and cooler, and birds sing more loudly than usual, while the body grows calm and the heart rate slows during the hours before the Pop.",
           "isCorrect": false,
-          "rationale": "Bird songs cease and air thickens; adrenaline and heart spikes are part of Sharp Edge."
+          "rationale": "Not what the report says. During Sharp Edge, air thickens like pre-storm pressure, bird songs cease, and the vessel gets short adrenaline bursts and heart rate spikes."
         },
         {
           "label": "B",
-          "text": "Air feels thicker like atmospheric pressure before a storm, and natural sounds such as bird songs cease while adrenaline and heart rate spike briefly.",
+          "text": "The air feels thicker, like the pressure before a storm, and natural sounds such as bird songs stop while adrenaline and heart rate spike briefly.",
           "isCorrect": true,
           "rationale": "During Sharp Edge, air thickens like pre-storm pressure, bird songs cease, and the vessel gets short adrenaline bursts and heart rate spikes."
         },
         {
           "label": "C",
-          "text": "Only the cable pop itself with no prior storm-like pressure feel or adrenaline bursts.",
+          "text": "The cable pop is heard first, and the storm-like pressure and the silence of the birds follow afterwards, as the field settles.",
           "isCorrect": false,
-          "rationale": "Sharp Edge precedes the Pop with pressure-like air and unexplained adrenaline."
+          "rationale": "Not what the report says. During Sharp Edge, air thickens like pre-storm pressure, bird songs cease, and the vessel gets short adrenaline bursts and heart rate spikes."
         },
         {
           "label": "D",
-          "text": "Only skull white noise continues with no air thickening or cessation of natural sounds.",
+          "text": "A white noise in the skull is the sole sign, with no change in the air or in the sounds of animals nearby.",
           "isCorrect": false,
-          "rationale": "Air thickening and bird-song cessation are Sharp Edge environmental signs."
+          "rationale": "Not what the report says. During Sharp Edge, air thickens like pre-storm pressure, bird songs cease, and the vessel gets short adrenaline bursts and heart rate spikes."
         }
       ],
       "hint": "Storm-like air pressure feel and natural sounds ceasing.",
@@ -446,27 +446,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Nothing beyond phone freezes occur with no environmental stillness or high-pitch ringing stage.",
+          "text": "Phones and screens freeze for several minutes while the streets stay as noisy as usual, with no ringing in the ears and no change in the wind or in the behaviour of animals.",
           "isCorrect": false,
-          "rationale": "Phone freezes are Static Build Up; Silence Before Snap is stillness and ringing."
+          "rationale": "Not what the report says. Ears ring sharply with high pitch just out of normal hearing range; total stillness falls—traffic fades, wind pauses, nature holds its breath."
         },
         {
           "label": "B",
-          "text": "Ears ring at a high pitch just out of normal hearing range; traffic noise fades, wind pauses, and nature holds its breath in total strange stillness.",
+          "text": "Ears ring at a high pitch just beyond normal hearing; traffic noise fades, the wind pauses, and nature holds its breath in a strange stillness.",
           "isCorrect": true,
           "rationale": "Ears ring sharply with high pitch just out of normal hearing range; total stillness falls—traffic fades, wind pauses, nature holds its breath."
         },
         {
           "label": "C",
-          "text": "Only permanent chaos with continuous bird songs and no pre-Pop pause of nature.",
+          "text": "Birds sing more loudly than usual and the wind picks up, as nature reacts to the rising pressure in the field before the Pop.",
           "isCorrect": false,
-          "rationale": "Nature holds its breath in strange total stillness just prior to the Atmospheric Pop."
+          "rationale": "Not what the report says. Ears ring sharply with high pitch just out of normal hearing range; total stillness falls—traffic fades, wind pauses, nature holds its breath."
         },
         {
           "label": "D",
-          "text": "Traffic and wind grow louder with no ear ringing and no stillness before the Pop.",
+          "text": "Traffic and wind grow louder, and a low hum is felt in the chest rather than heard as ringing in the ears.",
           "isCorrect": false,
-          "rationale": "Traffic fades, wind pauses, and stillness falls with high-pitch ringing before the Pop."
+          "rationale": "Not what the report says. Ears ring sharply with high pitch just out of normal hearing range; total stillness falls—traffic fades, wind pauses, nature holds its breath."
         }
       ],
       "hint": "Traffic fades, wind pauses, nature holds breath; high-pitch ringing.",
@@ -478,27 +478,27 @@
       "options": [
         {
           "label": "A",
-          "text": "When cables are physically and energetically severed, a sudden pressure drop manifests as a literal atmospheric pop, creating an instant of absolute clarity in the energy field.",
+          "text": "When the cables are physically and energetically severed, a sudden pressure drop manifests as a literal pop, creating an instant of clarity in the energy field.",
           "isCorrect": true,
           "rationale": "When cables are physically and energetically severed, a sudden drop in pressure manifests as a literal pop in the atmosphere, creating absolute clarity in the energy field for an instant."
         },
         {
           "label": "B",
-          "text": "Only a slow multi-day cable repair with no sudden pop or absolute clarity instant.",
+          "text": "The cables are repaired over several days, and the pop is the sound heard in the ears as the energy field slowly settles back into its usual state in the days that follow the repair.",
           "isCorrect": false,
-          "rationale": "It is sudden—a literal pop and instant of absolute energetic clarity."
+          "rationale": "Not what the report says. When cables are physically and energetically severed, a sudden drop in pressure manifests as a literal pop in the atmosphere, creating absolute clarity in the energy field for an instant."
         },
         {
           "label": "C",
-          "text": "Only permanent field darkness after severing with no clarity piercing the Parasitic Overlay.",
+          "text": "The field goes dark for a moment after the cables are cut, and the Parasitic Overlay grows thicker as it takes over the energy left behind by the cables.",
           "isCorrect": false,
-          "rationale": "Post-pop field clarity temporarily pierces the Parasitic Overlay."
+          "rationale": "Not what the report says. When cables are physically and energetically severed, a sudden drop in pressure manifests as a literal pop in the atmosphere, creating absolute clarity in the energy field for an instant."
         },
         {
           "label": "D",
-          "text": "Cables remain fully intact with no pressure drop, no literal pop, and no field clarity moment.",
+          "text": "The cables stay intact, and the pop is a shift in air pressure caused by the weather systems that the parasites use to hide the reveal from the public.",
           "isCorrect": false,
-          "rationale": "The Pop is timed to physical and energetic cable severing with pressure drop and clarity."
+          "rationale": "Not what the report says. When cables are physically and energetically severed, a sudden drop in pressure manifests as a literal pop in the atmosphere, creating absolute clarity in the energy field for an instant."
         }
       ],
       "hint": "Cables severed physically and energetically; literal pop; absolute clarity.",
@@ -766,27 +766,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Ignore Static Build Up through Pop entirely and never serve as calm anchors during glitches.",
+          "text": "Leave the cities before the Static Build Up begins, and wait in remote places until the Pop has passed, since the glitches can harm those who stay close to the crumbling NPC scaffolding in the towns.",
           "isCorrect": false,
-          "rationale": "Understanding progression enables calm lighthouse function during the sequence."
+          "rationale": "Not what the report says. Resonating Sols recognize signs as Great Awakening confirmation, stay calm as lighthouses while NPC scaffolding crumbles, hold ground, and cut through fear frequencies so masses do not anchor into artificial staged WW3 Activation timeline."
         },
         {
           "label": "B",
-          "text": "Treat signs only as illness, panic with the masses, and fully anchor everyone into staged WW3 artificial timeline.",
+          "text": "Treat the signs as illness and rest until they pass, keeping away from others so that the fear frequencies of the masses do not spread through the soul's own energy field.",
           "isCorrect": false,
-          "rationale": "Strategy is the opposite: not illness/panic framing, calm lighthouse presence, cut fear, avoid WW3 artificial anchor."
+          "rationale": "Not what the report says. Resonating Sols recognize signs as Great Awakening confirmation, stay calm as lighthouses while NPC scaffolding crumbles, hold ground, and cut through fear frequencies so masses do not anchor into artificial staged WW3 Activation timeline."
         },
         {
           "label": "C",
-          "text": "Recognize signs as timeline confirmation, remain calm as lighthouses while NPC scaffolding crumbles, hold ground, and cut through fear frequencies so masses do not anchor into staged WW3 artificial timeline.",
+          "text": "Recognize the signs as timeline confirmation, stay calm as lighthouses while NPC scaffolding crumbles, hold ground, and cut through fear so the masses do not anchor into the staged WW3 timeline.",
           "isCorrect": true,
           "rationale": "Resonating Sols recognize signs as Great Awakening confirmation, stay calm as lighthouses while NPC scaffolding crumbles, hold ground, and cut through fear frequencies so masses do not anchor into artificial staged WW3 Activation timeline."
         },
         {
           "label": "D",
-          "text": "Only amplify NPC emotional outbursts so no harmonic ground-holding occurs after the Pop.",
+          "text": "Join the masses in their fear for a time, so that their trust is won, and then lead them out of the WW3 timeline once the Pop has opened a path through it.",
           "isCorrect": false,
-          "rationale": "Resonating souls hold ground and cut fear frequencies rather than amplifying NPC outbursts."
+          "rationale": "Not what the report says. Resonating Sols recognize signs as Great Awakening confirmation, stay calm as lighthouses while NPC scaffolding crumbles, hold ground, and cut through fear frequencies so masses do not anchor into artificial staged WW3 Activation timeline."
         }
       ],
       "hint": "Recognize signs, stay calm, hold ground, cut fear frequencies.",

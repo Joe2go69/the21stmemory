@@ -470,9 +470,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Satellite arrays and space stations.",
+          "text": "Satellite arrays and orbiting space stations above the dome's upper layers.",
           "isCorrect": false,
-          "rationale": "The vessels are biological and crystalline in nature and exist beyond the 3D simulation's control."
+          "rationale": "Not what the report says. The motherships and Arks of Toive positioned above the overlay are living, semi-conscious vessels grown from crystalline and plasmatic matter that project harmonic beams to stabilize the local Domes."
         },
         {
           "label": "B",
@@ -482,15 +482,15 @@
         },
         {
           "label": "C",
-          "text": "Metal-plated scout ships and transporters.",
+          "text": "Metal-plated scout ships and transporters sent down from the Solar Gate.",
           "isCorrect": false,
-          "rationale": "The true fleets are living, semi-conscious vessels grown from crystalline and plasmatic matter."
+          "rationale": "Not what the report says. The motherships and Arks of Toive positioned above the overlay are living, semi-conscious vessels grown from crystalline and plasmatic matter that project harmonic beams to stabilize the local Domes."
         },
         {
           "label": "D",
-          "text": "Solar sailboats and atmospheric gliders.",
+          "text": "Solar sailboats and atmospheric gliders that ride the plasma currents.",
           "isCorrect": false,
-          "rationale": "The Arks and motherships are semi-conscious hubs, far more advanced than simple gliders."
+          "rationale": "Not what the report says. The motherships and Arks of Toive positioned above the overlay are living, semi-conscious vessels grown from crystalline and plasmatic matter that project harmonic beams to stabilize the local Domes."
         }
       ],
       "hint": "These living, semi-conscious vessels are grown from crystalline and plasmatic matter.",
@@ -566,15 +566,15 @@
       "options": [
         {
           "label": "A",
-          "text": "It reverses their signal to affect the parasites instead.",
+          "text": "It reverses their signal, so that the weapons begin to affect the parasites who built them.",
           "isCorrect": false,
-          "rationale": "The lock serves to neutralize and bypass the weapons, protecting the sovereign soul."
+          "rationale": "Not what the report says. The activation of the Sol Frequency Lock completely neutralizes the parasite-engineered mind control weapons and amnesia systems and terminates the loop of forced reincarnation."
         },
         {
           "label": "B",
-          "text": "It makes the weapons more powerful for a short period.",
+          "text": "It makes the weapons more powerful for a short period before they fail for good.",
           "isCorrect": false,
-          "rationale": "The activation of the lock is the end of the control system's power over the soul."
+          "rationale": "Not what the report says. The activation of the Sol Frequency Lock completely neutralizes the parasite-engineered mind control weapons and amnesia systems and terminates the loop of forced reincarnation."
         },
         {
           "label": "C",
@@ -584,9 +584,9 @@
         },
         {
           "label": "D",
-          "text": "It records the frequency of the weapons for future analysis.",
+          "text": "It records the frequency of the weapons so that the Alliance can study them later.",
           "isCorrect": false,
-          "rationale": "The lock's function is immediate protection and neutralization of the control system."
+          "rationale": "Not what the report says. The activation of the Sol Frequency Lock completely neutralizes the parasite-engineered mind control weapons and amnesia systems and terminates the loop of forced reincarnation."
         }
       ],
       "hint": "This activation ensures that amnesia and forced reincarnation loops are finally terminated.",
