@@ -488,7 +488,11 @@ function renderBreadcrumbs({ sourceId, sourceTitle, topicPath, currentTitle }) {
       </li>`
     )
     .join('');
-  return `<nav aria-label="Breadcrumb" class="mb-5">
+  // Phones (<720px): one "‹ Parent" back link instead of a 3-row crumb trail (CSS swaps them).
+  const parent = crumbs[crumbs.length - 1];
+  const backLink = `<a href="${escapeAttr(parent.href)}" class="breadcrumb-link breadcrumb-back" aria-label="Back to ${escapeAttr(parent.label)}"><span aria-hidden="true">‹</span> ${escapeHtml(parent.label)}</a>`;
+  return `<nav aria-label="Breadcrumb" class="mb-5 dive-breadcrumb">
+    ${backLink}
     <ol class="breadcrumb flex flex-wrap items-center gap-x-1 gap-y-1 text-sm text-mem-muted">
       ${items}
       <li class="breadcrumb-item flex items-center gap-1">

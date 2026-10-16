@@ -174,6 +174,13 @@ function supportWayLinks(item, basePath) {
       : [];
   if (!links.length) return '';
   const parts = links.map((link) => {
+    if (link.action === 'share') {
+      // Native share sheet on phones; copy-link fallback elsewhere (shared.js initSupportShare)
+      const shareUrl = link.shareUrl || 'https://21stmemory.com/codex.html';
+      const shareTitle = link.shareTitle || '21st Memory Codex';
+      const shareText = link.shareText ? ` data-share-text="${link.shareText}"` : '';
+      return `<button type="button" class="text-link support-way__link support-way__share" data-support-share data-share-url="${shareUrl}" data-share-title="${shareTitle}"${shareText}>${link.text || 'Share'}</button>`;
+    }
     const rawHref = link.href || '#';
     const href = withBasePath(rawHref, basePath);
     const external = isExternalHref(rawHref, link.external);
