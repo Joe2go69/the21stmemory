@@ -264,7 +264,7 @@ const RenderUtils = {
     const statusMeta = this.sourceStatusMeta(live, total, soon);
 
     return `
-      <a href="topics.html?source=${safeId}"
+      <a href="series-${safeId}.html"
          class="memory-card content-card channel-card group source-card series-card ${statusTone}"
          data-source-id="${safeId}">
         ${imageHTML}

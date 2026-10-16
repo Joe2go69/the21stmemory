@@ -428,6 +428,11 @@ const TopicUtils = {
     return !!path && !isPlaceholder && !this.isPlaceholderImage(path);
   },
 
+  /** Static series landing page (series-{id}.html). */
+  seriesHref(sourceId, basePath = '') {
+    return `${basePath}series-${encodeURIComponent(sourceId)}.html`;
+  },
+
   normalizeSearch(text) {
     return String(text || '')
       .toLowerCase()
@@ -655,7 +660,7 @@ const TopicUtils = {
   renderSourceError({ reason, rawId, ids = [] } = {}) {
     const list = ids.length
       ? `<ul class="mt-4 text-sm text-mem-muted space-y-1">${ids.map((id) =>
-          `<li><a class="underline hover:text-white" href="topics.html?source=${this.escapeAttr(id)}">${this.escapeHtml(id)}</a></li>`
+          `<li><a class="underline hover:text-white" href="${this.escapeAttr(this.seriesHref(id))}">${this.escapeHtml(id)}</a></li>`
         ).join('')}</ul>`
       : '';
     const message = reason === 'missing'
@@ -869,7 +874,7 @@ const TopicUtils = {
   renderBreadcrumbs({ sourceId, sourceTitle, topicPath, currentTitle }) {
     const crumbs = [
       { label: 'Codex', href: 'codex.html' },
-      { label: sourceTitle, href: `topics.html?source=${sourceId}` }
+      { label: sourceTitle, href: this.seriesHref(sourceId) }
     ];
 
     if (topicPath?.length) {

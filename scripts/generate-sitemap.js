@@ -116,7 +116,7 @@ function diveEntries() {
   const sourcesData = JSON.parse(fs.readFileSync(sourcesPath, 'utf8'));
   for (const source of sourcesData.sources) {
     entries.push({
-      path: `/topics.html?source=${source.id}`,
+      path: `/series-${source.id}.html`,
       priority: '0.88',
       changefreq: 'weekly'
     });

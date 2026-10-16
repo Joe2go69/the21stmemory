@@ -417,7 +417,7 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId, mediaFlag
           <nav class="dive-hero-links" aria-label="Topic links">
             <a href="codex.html#codex-pill" class="dive-hero-link">Codex</a>
             <span class="dive-hero-link-sep" aria-hidden="true">·</span>
-            <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics"
+            <a href="series-${encodeURIComponent(sourceId)}.html#explore-topics"
                class="dive-hero-link"
                data-back-to-topics
                data-source-id="${escapeAttr(sourceId)}"
@@ -556,7 +556,7 @@ function renderContinueLearning({ sourceId, topic }) {
           : sourceId === 'revelations'
             ? `<a href="https://christian21.com/revelations-part-1/" target="_blank" rel="noopener noreferrer" class="text-link dive-continue__link">Read Part 1 on Christian21 →</a>`
             : ''}
-      <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="text-link dive-continue__link">More topics in this transmission →</a>
+      <a href="series-${encodeURIComponent(sourceId)}.html#explore-topics" class="text-link dive-continue__link">More topics in this transmission →</a>
     </div>
     <p class="dive-continue__disclaimer">
       AI may miss higher-dimensional nuance. Prefer the raw transmissions when anything feels incomplete.
@@ -661,7 +661,7 @@ async function loadLessonViewer() {
       headerContainer.innerHTML = `
         <div class="text-center py-12">
           <p class="text-red-400 mb-4">Topic not found: ${escapeHtml(topicId)}</p>
-          <a href="topics.html?source=${encodeURIComponent(sourceId)}" class="btn-primary">← Back to topics</a>
+          <a href="series-${encodeURIComponent(sourceId)}.html" class="btn-primary">← Back to topics</a>
         </div>`;
       return;
     }
@@ -704,7 +704,7 @@ async function loadLessonViewer() {
             encompassing infographics, slide decks, video transmissions, and a deep-dive report.
             The Great Remembering reveals its wisdom in perfect timing.
           </p>
-          <a href="topics.html?source=${encodeURIComponent(sourceId)}#explore-topics"
+          <a href="series-${encodeURIComponent(sourceId)}.html#explore-topics"
              class="btn-primary"
              data-back-to-topics
              data-source-id="${escapeAttr(sourceId)}"
