@@ -207,13 +207,12 @@ function categoryStateKey(categoryId) {
   return `cat-${categoryId}`;
 }
 
-function defaultCategoryExpanded(index) {
+function defaultCategoryExpanded() {
   const mobile = typeof window.matchMedia === 'function' && window.matchMedia(TREE_MOBILE_QUERY).matches;
-  if (mobile) return false;
-  return index === 0;
+  return !mobile;
 }
 
-function renderCategoryBlock(sourceId, category, index = 0) {
+function renderCategoryBlock(sourceId, category) {
   const isPh = category.is_placeholder;
   if (!shouldShowTopic(category, topicsPageState.filters.status) && topicsPageState.filters.status !== 'all') {
     const hasVisibleChildren = category.subtopics?.some((sub) =>
@@ -240,7 +239,7 @@ function renderCategoryBlock(sourceId, category, index = 0) {
 
   const stateKey = categoryStateKey(category.id);
   const singleCategory = topicsPageState.filters.category === category.id;
-  const expanded = singleCategory || TopicUtils.isSectionExpanded(sourceId, stateKey, defaultCategoryExpanded(index));
+  const expanded = singleCategory || TopicUtils.isSectionExpanded(sourceId, stateKey, defaultCategoryExpanded());
   const bodyId = `category-${category.id}-body`;
   const disclosureLabel = `${expanded ? 'Hide' : 'Show'} topics in ${category.title}`;
 
@@ -476,7 +475,7 @@ function renderTopicsList() {
     categories = categories.filter(c => c.id === filters.category);
   }
 
-  const html = categories.map((cat, i) => renderCategoryBlock(sourceId, cat, i)).join('');
+  const html = categories.map((cat) => renderCategoryBlock(sourceId, cat)).join('');
   if (!html.trim()) {
     container.innerHTML = RenderUtils.renderDiscoveryEmpty({
       title: 'No topics in this view',
@@ -595,7 +594,7 @@ function renderTreeToggleAll(announce) {
   if (!btn) {
     btn = document.createElement('button');
     btn.type = 'button';
-    btn.className = 'topic-control-btn topic-control-btn-sm topics-tree-toggle';
+    btn.className = 'topic-control-btn topics-tree-toggle';
     btn.setAttribute('data-tree-toggle-all', '');
     btn.setAttribute('aria-controls', 'topics-list');
     btn.addEventListener('click', () => {
@@ -713,13 +712,13 @@ function renderFilterControls() {
           <div class="topics-filter-section topics-filter-section--status archive-filter-row">
             <span class="topics-filter-label">Status</span>
             <div class="topics-filter-btn-group">${statusButtons}</div>
-            <div id="topics-tree-toggle-slot" class="topics-tree-toggle-slot" hidden>
-              <span class="sr-only" aria-live="polite" data-tree-toggle-live></span>
-            </div>
           </div>
           <div class="topics-filter-section topics-filter-section--category archive-filter-row ${TopicUtils.normalizeSearch(filters.search) ? 'is-disabled' : ''}">
             <span class="topics-filter-label">Category</span>
             <div class="topics-filter-btn-group">${categoryButtons}</div>
+          </div>
+          <div id="topics-tree-toggle-slot" class="topics-tree-toggle-slot" hidden>
+            <span class="sr-only" aria-live="polite" data-tree-toggle-live></span>
           </div>
         </div>
       </div>
@@ -1104,6 +1103,15 @@ function initTopicsPage() {
   TopicUtils.disableNativeScrollRestoration();
   topicsPendingHash = TopicUtils.captureAndClearHash();
   loadSourceViewer();
+  if (typeof window.matchMedia === 'function') {
+    const treeQuery = window.matchMedia(TREE_MOBILE_QUERY);
+    const onTreeViewport = () => {
+      if (!topicsPageState.data) return;
+      renderTopicsList();
+    };
+    if (treeQuery.addEventListener) treeQuery.addEventListener('change', onTreeViewport);
+    else if (treeQuery.addListener) treeQuery.addListener(onTreeViewport);
+  }
 
   // bfcache: page already has correct scroll/DOM — drop pending restore so it does not re-fire later
   window.addEventListener('pageshow', (event) => {

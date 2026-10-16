@@ -23582,11 +23582,17 @@ a.quiz-hub-card.has-resume {
   color: #fff;
 }
 .topics-tree-toggle-slot {
-  display: inline-flex;
-  align-items: center;
-  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 .topics-tree-toggle-slot[hidden] { display: none; }
+@media (max-width: 767px) {
+  .topics-tree-toggle-slot .topics-tree-toggle {
+    width: 100%;
+    justify-content: center;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   .topic-category-disclosure .chevron { transition: none; }
 }
