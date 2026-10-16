@@ -582,11 +582,12 @@ function initSupportShare() {
       setTimeout(() => { btn.textContent = originalLabel; }, 2000);
     };
     btn.addEventListener('click', async () => {
-      const url = btn.getAttribute('data-share-url') || window.location.origin + '/';
+      const url = btn.getAttribute('data-share-url') || window.location.origin + '/codex.html';
       const title = btn.getAttribute('data-share-title') || document.title;
+      const text = btn.getAttribute('data-share-text') || '';
       if (navigator.share) {
         try {
-          await navigator.share({ title, url });
+          await navigator.share(text ? { title, text, url } : { title, url });
           return;
         } catch (err) {
           if (err && err.name === 'AbortError') return;
