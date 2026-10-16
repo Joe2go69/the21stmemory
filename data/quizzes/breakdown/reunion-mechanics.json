@@ -534,27 +534,27 @@
       "options": [
         {
           "label": "A",
-          "text": "A vast, empty void that souls must fill with their thoughts.",
+          "text": "A vast, empty void that souls must fill with their own thoughts and intentions.",
           "isCorrect": false,
-          "rationale": "The Second Realm is a pre-existing, vibrant landscape that is simply revealed after the overlay falls."
+          "rationale": "Not what the report says. The original Second Realm is revealed as a vibrant, pristine, and unpolluted crystalline landscape with smooth crystalline grounds, natural walking paths, and immediate travel via resonance points."
         },
         {
           "label": "B",
-          "text": "A technologically advanced city built by the space force.",
+          "text": "A technologically advanced city built by the space force beneath the dome, hidden from view until the overlay fell.",
           "isCorrect": false,
-          "rationale": "The landscape is natural and crystalline, emphasizing organic resonance points over technological cities."
+          "rationale": "Not what the report says. The original Second Realm is revealed as a vibrant, pristine, and unpolluted crystalline landscape with smooth crystalline grounds, natural walking paths, and immediate travel via resonance points."
         },
         {
           "label": "C",
-          "text": "The original Second Realm, a vibrant, pristine, and unpolluted crystalline landscape.",
+          "text": "The original Second Realm, a vibrant, pristine and unpolluted crystalline landscape.",
           "isCorrect": true,
           "rationale": "The original Second Realm is revealed as a vibrant, pristine, and unpolluted crystalline landscape with smooth crystalline grounds, natural walking paths, and immediate travel via resonance points."
         },
         {
           "label": "D",
-          "text": "The ruins of ancient civilizations from millions of years ago.",
+          "text": "The ruins of ancient civilizations from many millions of years ago.",
           "isCorrect": false,
-          "rationale": "The revealed realm is vibrant and pristine, not a collection of ancient ruins."
+          "rationale": "Not what the report says. The original Second Realm is revealed as a vibrant, pristine, and unpolluted crystalline landscape with smooth crystalline grounds, natural walking paths, and immediate travel via resonance points."
         }
       ],
       "hint": "This original environment is characterized by vibrant, unpolluted, and smooth crystalline grounds.",

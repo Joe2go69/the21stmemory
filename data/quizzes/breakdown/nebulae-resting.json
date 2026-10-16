@@ -158,25 +158,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The Ground Healers, treated as the named army of returning extraterrestrial souls.",
+          "text": "The Ground Healers, a group of human souls who woke early and now guide others through the Crystal Halls and Water Domes of the realm's healing sanctuaries.",
           "isCorrect": false,
-          "rationale": "Ground healers work alongside the Resonating Army but are distinct in their specific functions and forms."
+          "rationale": "Not what the report says. This group consists of extraterrestrial souls who returned to this realm to support the awakening process."
         },
         {
           "label": "B",
-          "text": "The Solar Parents, treated as the named army that came to liberate trapped human souls.",
+          "text": "The Solar Parents, who came to the realm in person to free the souls of their children from the overlay.",
           "isCorrect": false,
-          "rationale": "Solar parents help locate and interface with souls once vibration increases, but they are not the named army."
+          "rationale": "Not what the report says. This group consists of extraterrestrial souls who returned to this realm to support the awakening process."
         },
         {
           "label": "C",
-          "text": "The Etheric Guardians, an unofficial title used here as the official name of the returning helpers.",
+          "text": "The Etheric Guardians, who keep watch over the Star Pods while the souls inside them rest.",
           "isCorrect": false,
-          "rationale": "The specific designation for the returning extraterrestrial helpers is the Resonating Army."
+          "rationale": "Not what the report says. This group consists of extraterrestrial souls who returned to this realm to support the awakening process."
         },
         {
           "label": "D",
-          "text": "The Resonating Army — already awakened returning extraterrestrial souls who assist the awakening and liberation of trapped human souls.",
+          "text": "The Resonating Army, already awakened returning extraterrestrial souls who assist the awakening and liberation of trapped human souls.",
           "isCorrect": true,
           "rationale": "This group consists of extraterrestrial souls who returned to this realm to support the awakening process."
         }
@@ -446,27 +446,27 @@
       "options": [
         {
           "label": "A",
-          "text": "It permanently deletes the soul's records from the crystalline grid.",
+          "text": "It deletes the soul's records from the crystalline grid, so that no copy of the timeline survives.",
           "isCorrect": false,
-          "rationale": "The records remain preserved in the grids even when the soul's active memory is wiped."
+          "rationale": "Not what the report says. The amnesia vortex of the hijacked sun wipes a soul's memory, yet the grids keep the unbroken timeline for stellar family and sanctuary recovery."
         },
         {
           "label": "B",
-          "text": "It prevents souls from entering the Water Domes for emotional healing.",
+          "text": "It keeps souls from entering the Water Domes, where their emotional healing takes place.",
           "isCorrect": false,
-          "rationale": "The vortex affects memory; the Water Domes remain part of the recovery sequence after leaving 3D density."
+          "rationale": "Not what the report says. The amnesia vortex of the hijacked sun wipes a soul's memory, yet the grids keep the unbroken timeline for stellar family and sanctuary recovery."
         },
         {
           "label": "C",
-          "text": "It wipes a soul's memory, even while the crystalline grids still preserve the unbroken timeline.",
+          "text": "It wipes a soul's memory, even though the crystalline grids still preserve the unbroken timeline.",
           "isCorrect": true,
           "rationale": "The amnesia vortex of the hijacked sun wipes a soul's memory, yet the grids keep the unbroken timeline for stellar family and sanctuary recovery."
         },
         {
           "label": "D",
-          "text": "It reverses the healing progress made within the Star Pods.",
+          "text": "It undoes the healing progress made within the Star Pods during the soul's last rest.",
           "isCorrect": false,
-          "rationale": "Healing in the pods occurs in an environment free from the vortex's influence and integrates amnesiac fragments permanently."
+          "rationale": "Not what the report says. The amnesia vortex of the hijacked sun wipes a soul's memory, yet the grids keep the unbroken timeline for stellar family and sanctuary recovery."
         }
       ],
       "hint": "Focus on what happens to a soul's awareness of its past and identity.",

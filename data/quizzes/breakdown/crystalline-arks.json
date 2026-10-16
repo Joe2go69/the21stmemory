@@ -498,27 +498,27 @@
       "options": [
         {
           "label": "A",
-          "text": "They are covered in complex control panels with physical buttons and dials.",
+          "text": "They are covered in control panels, with physical buttons and dials for the pilots.",
           "isCorrect": false,
-          "rationale": "The crafts are organic and integrated with consciousness, eliminating the need for manual controls."
+          "rationale": "Not what the report says. Transportation crafts feature seamless, wire-free interiors with walls that glow softly in response to occupant thoughts."
         },
         {
           "label": "B",
-          "text": "They are lined with lead to protect occupants from cosmic radiation.",
+          "text": "They are lined with lead to protect the occupants from cosmic radiation on the long journey between the realms.",
           "isCorrect": false,
-          "rationale": "Protection is provided by the frequency fields and the bio-crystal skin rather than physical shielding like lead."
+          "rationale": "Not what the report says. Transportation crafts feature seamless, wire-free interiors with walls that glow softly in response to occupant thoughts."
         },
         {
           "label": "C",
-          "text": "They have seamless, wire-free interiors with walls that glow softly in response to occupant thoughts.",
+          "text": "They have seamless, wire-free interiors with walls that glow softly in response to the occupants' thoughts.",
           "isCorrect": true,
           "rationale": "Transportation crafts feature seamless, wire-free interiors with walls that glow softly in response to occupant thoughts."
         },
         {
           "label": "D",
-          "text": "They are made of cold, grey metal to withstand high-pressure environments.",
+          "text": "They are made of cold, grey metal to withstand the high pressure of deep space.",
           "isCorrect": false,
-          "rationale": "The arks and crafts are non-metallic and responsive to high-vibration intentions."
+          "rationale": "Not what the report says. Transportation crafts feature seamless, wire-free interiors with walls that glow softly in response to occupant thoughts."
         }
       ],
       "hint": "The environment is a biological extension of the mind.",
@@ -658,15 +658,15 @@
       "options": [
         {
           "label": "A",
-          "text": "The central command computers found on planet-sized motherships.",
+          "text": "The central command computers found aboard the planet-sized motherships of the solar families.",
           "isCorrect": false,
-          "rationale": "Arks of Toive are distinct crafts themselves, and the ships are conscious, not computer-governed."
+          "rationale": "Not what the report says. These vessels are specifically designed to navigate the layers of the Great Dome via vibration."
         },
         {
           "label": "B",
-          "text": "Ancient ruins left behind by previous solar families.",
+          "text": "Ancient ruins left behind on the plain by earlier solar families.",
           "isCorrect": false,
-          "rationale": "They are active, semi-conscious vessels, not abandoned structures."
+          "rationale": "Not what the report says. These vessels are specifically designed to navigate the layers of the Great Dome via vibration."
         },
         {
           "label": "C",
@@ -676,9 +676,9 @@
         },
         {
           "label": "D",
-          "text": "Specialized seeds used to grow the forests inside the arks.",
+          "text": "Special seeds used to grow the forests inside the larger arks.",
           "isCorrect": false,
-          "rationale": "They are defined as living crafts, not agricultural components."
+          "rationale": "Not what the report says. These vessels are specifically designed to navigate the layers of the Great Dome via vibration."
         }
       ],
       "hint": "These are specific crafts that use sound as a medium for dimensional travel.",
@@ -754,27 +754,27 @@
       "options": [
         {
           "label": "A",
-          "text": "The core of the Earth to undergo physical transformation.",
+          "text": "The core of the Earth, where the soul undergoes a physical transformation.",
           "isCorrect": false,
-          "rationale": "The extraction is intended to bypass planetary traps and return souls to their cosmic origins."
+          "rationale": "Not what the report says. The arks are the ultimate destination for soul retrieval and reunion, returning souls to their original realms of origin without memory erasure."
         },
         {
           "label": "B",
-          "text": "New planetary colonies in neighboring star systems.",
+          "text": "New planetary colonies set up in neighbouring star systems.",
           "isCorrect": false,
-          "rationale": "The goal is reunion with the original lineage and realm of origin."
+          "rationale": "Not what the report says. The arks are the ultimate destination for soul retrieval and reunion, returning souls to their original realms of origin without memory erasure."
         },
         {
           "label": "C",
-          "text": "The original realms of origin for the individual souls, without memory erasure.",
+          "text": "The original realms of origin for each soul, without memory erasure.",
           "isCorrect": true,
           "rationale": "The arks are the ultimate destination for soul retrieval and reunion, returning souls to their original realms of origin without memory erasure."
         },
         {
           "label": "D",
-          "text": "A central processing hub located on the moon.",
+          "text": "A central processing hub on the Moon, where souls are sorted.",
           "isCorrect": false,
-          "rationale": "The moon is associated with the amnesia vortex, which the arks are designed to bypass."
+          "rationale": "Not what the report says. The arks are the ultimate destination for soul retrieval and reunion, returning souls to their original realms of origin without memory erasure."
         }
       ],
       "hint": "The arks act as a bridge back to a soul's true starting point.",

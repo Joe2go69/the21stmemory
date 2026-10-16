@@ -234,27 +234,27 @@
       "options": [
         {
           "label": "A",
-          "text": "They only sleep peacefully with no fear loop and no resistance to awakened guidance at all.",
+          "text": "They wait calmly for official instructions, trusting that the authorities will return soon, and accept help from awake people once they have been told it is safe to do so.",
           "isCorrect": false,
-          "rationale": "They prefer illusion and resist help; they do not rest in peaceful acceptance of awakened guidance."
+          "rationale": "Not what the report says. For the first 48 hours, deep sleepers and NPCs reject reality and prefer death in illusion over admitting wrong and asking for help."
         },
         {
           "label": "B",
-          "text": "They vehemently reject reality and prefer facing death in their illusion rather than admit they were wrong and ask awake people for help.",
+          "text": "They reject reality outright, and would rather face death in their illusion than admit they were wrong and ask awake people for help.",
           "isCorrect": true,
           "rationale": "For the first 48 hours, deep sleepers and NPCs reject reality and prefer death in illusion over admitting wrong and asking for help."
         },
         {
           "label": "C",
-          "text": "They immediately admit full error, thank Resonating Sols, and calmly request help within the first hour.",
+          "text": "They admit their mistake at once, thank the Resonating Sols and ask for help within the first hour.",
           "isCorrect": false,
-          "rationale": "They vehemently reject reality for the first 48 hours rather than immediately admitting wrong and asking for help."
+          "rationale": "Not what the report says. For the first 48 hours, deep sleepers and NPCs reject reality and prefer death in illusion over admitting wrong and asking for help."
         },
         {
           "label": "D",
-          "text": "They become sole military commanders who never panic and never scan for missing authority instructions.",
+          "text": "They take charge of their streets and organize their neighbours, with little sign of fear or confusion.",
           "isCorrect": false,
-          "rationale": "NPCs panic, glitch, and later scan environments for missing intel and authority instructions—not calm sole command."
+          "rationale": "Not what the report says. For the first 48 hours, deep sleepers and NPCs reject reality and prefer death in illusion over admitting wrong and asking for help."
         }
       ],
       "hint": "Rejection of reality and preference over admitting wrong or asking for help.",
