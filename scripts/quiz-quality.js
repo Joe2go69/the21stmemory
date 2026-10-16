@@ -5,9 +5,15 @@
  *   node scripts/quiz-quality.js --lint    exit 1 on stock tails, structural issues, or new
  *                                           distractor-only endings (also run by build:quizzes),
  *                                           a correct answer >2x the longest wrong one, or the
- *                                           length-bias / absolute-word ratchet getting worse
+ *                                           length-bias / absolute-word ratchet getting worse,
+ *                                           or a series with reverse length bias (correct answer
+ *                                           uniquely longest in <10% or uniquely shortest in >45%
+ *                                           of its multiple-choice questions; series with >=100 MC)
  *   node scripts/quiz-quality.js --warnings list softer findings (correct >1.6x, absolute-word
- *                                           distractors) without failing
+ *                                           distractors, reverse length bias: series longest <15% or
+ *                                           shortest >35%; quizzes with >=15 MC where the correct
+ *                                           answer is never uniquely longest or is uniquely shortest
+ *                                           in >50%) without failing
  *   node scripts/quiz-quality.js --baseline rewrite scripts/lib/quiz-quality-baseline.json from the
  *                                           current corpus (run after an improvement pass)
  */
@@ -74,6 +80,10 @@ else if (arg === '--lint') {
 } else {
   const corpus = Q.loadCorpus(ROOT);
   console.log(JSON.stringify({ ...Q.corpusStats(corpus), ...Q.biasMetrics(corpus) }, null, 2));
+  console.log('per-series length ranks (correct uniquely longest / shortest):');
+  for (const [s, t] of Object.entries(Q.reverseBiasFindings(corpus).series)) {
+    console.log(`  ${s}: ${t.pctLongest}% / ${t.pctShortest}% of ${t.mc} MC`);
+  }
   const mined = Q.mineDistractorOnlySuffixes(corpus);
   console.log(`distractor-only endings (>=5 words, >=8 uses, >=5 quizzes): ${mined.length}`);
   mined.slice(0, 15).forEach((m) => console.log(`  ${m.count} / ${m.quizzes}q  ${m.suffix}`));
