@@ -2,7 +2,7 @@
 
 When adding or updating a **topic**: follow `.grok/skills/add-topic/SKILL.md`. After writing the payload, run `node scripts/install.js topic {source} {id}` (or `all` if the quiz payload is ready too).
 
-When adding a **quiz**: follow `.grok/skills/add-quiz/SKILL.md`. Use only that topic’s own report JSON as the source of truth. After writing the payload, run `node scripts/install.js quiz {source} {id}`.
+When adding a **quiz**: follow `.grok/skills/add-quiz/SKILL.md`. Use only that topic’s own report JSON as the source of truth. After writing the payload, run `node scripts/install.js quiz {source} {id}` and run `npm run lint:quizzes`.
 
 Allowed reads for those tasks: the matching skill, `data/{source}-topics/{id}.json`, the user paste or NotebookLM file, and this topic’s images. Do not read installer/pipeline files unless Verify fails.
 
