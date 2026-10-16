@@ -14,8 +14,10 @@ let topicsPageState = {
 
 function syncTopicsUrlFromState() {
   const { status, category, search } = topicsPageState.filters;
+  // Series pages (series-{id}.html) already name the series in the path — no ?source=
+  const onSeriesPage = !!document.documentElement.getAttribute('data-series-id');
   TopicUtils.replaceUrlParams({
-    source: topicsPageState.sourceId,
+    source: onSeriesPage ? null : topicsPageState.sourceId,
     status,
     category,
     q: search
@@ -985,7 +987,8 @@ async function renderTransmissionChooser(ids) {
 
 async function loadSourceViewer() {
   const urlParams = new URLSearchParams(window.location.search);
-  const rawSource = urlParams.get('source');
+  // Static series pages (series-{id}.html) carry the id on <html>; topics.html still accepts ?source=
+  const rawSource = document.documentElement.getAttribute('data-series-id') || urlParams.get('source');
   const container = document.getElementById('topics-container');
   const headerEl = document.getElementById('source-header');
   let indexPromise = null;
@@ -1026,7 +1029,7 @@ async function loadSourceViewer() {
     const fullData = indexPromise
       ? await indexPromise
       : await TopicUtils.fetchSourceIndex(sourceId);
-    document.title = `21st Memory Topics | ${fullData.title}`;
+    document.title = `${fullData.title} | The 21st Memory`;
     const titleEl = document.getElementById('source-hero-title');
     if (titleEl && fullData.title) titleEl.textContent = fullData.title;
 

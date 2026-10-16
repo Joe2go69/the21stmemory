@@ -204,7 +204,7 @@ function renderSourceSection(sourceId, quizzes) {
       <h2 class="quiz-hub-section__title">${escapeHtml(meta.title)}</h2>
       <p class="quiz-hub-section__meta"><span class="quiz-hub-section__count" data-section-count>${quizzes.length}</span> ${quizzes.length === 1 ? 'quiz' : 'quizzes'} in this transmission</p>
     </div>
-    <a href="topics.html?source=${escapeAttr(sourceId)}" class="quiz-hub-section__link">Browse topics →</a>
+    <a href="series-${escapeAttr(sourceId)}.html" class="quiz-hub-section__link">Browse topics →</a>
   </header>
   <div class="quiz-hub-section__grid" role="list">
 ${rows}

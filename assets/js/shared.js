@@ -22,6 +22,8 @@ const MEASURED_SCROLL_HASHES = new Set(['oracle', 'media', 'about', 'codex', 'gi
 
 function isCodexFamilyPage(pageBasename) {
   if (CODEX_PAGES.has(pageBasename)) return true;
+  // Static series pages: series-{id}.html
+  if (/^series-[\w-]+\.html$/.test(pageBasename || '')) return true;
   // Static dive pages live under /dive/{source}/{topic}.html
   const path = (window.location.pathname || '').replace(/\\/g, '/');
   return path.includes('/dive/');

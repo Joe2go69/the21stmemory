@@ -470,7 +470,7 @@ function findAdjacent(flat, topicId) {
 function renderBreadcrumbs({ sourceId, sourceTitle, topicPath, currentTitle }) {
   const crumbs = [
     { label: 'Codex', href: `${ASSET_BASE}codex.html` },
-    { label: sourceTitle, href: `${ASSET_BASE}topics.html?source=${encodeURIComponent(sourceId)}` },
+    { label: sourceTitle, href: `${ASSET_BASE}series-${encodeURIComponent(sourceId)}.html` },
   ];
   if (topicPath?.length) {
     topicPath.slice(0, -1).forEach((item) => {
@@ -627,7 +627,7 @@ function renderContinueLearning({ sourceId, quiz, lastUpdated, assetBase = ASSET
     <div class="dive-continue__actions">
       ${quizBlock}
       <a href="${assetBase}source.html" class="btn-secondary dive-continue__btn">Sit with the Source</a>
-      <a href="${assetBase}topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="text-link dive-continue__link">More topics in this transmission →</a>
+      <a href="${assetBase}series-${encodeURIComponent(sourceId)}.html#explore-topics" class="text-link dive-continue__link">More topics in this transmission →</a>
     </div>
     <p class="dive-continue__disclaimer">
       AI may miss higher-dimensional nuance. Prefer the raw transmissions when anything feels incomplete.
@@ -640,7 +640,7 @@ function renderContinueLearning({ sourceId, quiz, lastUpdated, assetBase = ASSET
 function renderStubActions({ sourceId, assetBase = ASSET_BASE }) {
   return `
   <div class="dive-stub-actions">
-    <a href="${assetBase}topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="btn-primary dive-continue__btn">Browse ready topics</a>
+    <a href="${assetBase}series-${encodeURIComponent(sourceId)}.html#explore-topics" class="btn-primary dive-continue__btn">Browse ready topics</a>
     <a href="${assetBase}quizzes.html" class="btn-secondary dive-continue__btn">Living Truth Quizzes</a>
     <a href="${assetBase}network.html" class="btn-secondary dive-continue__btn">Thalon Thor Network</a>
   </div>`;
@@ -825,7 +825,7 @@ ${heroBanner}
             <p class="text-[17px] text-mem-secondary max-w-[52ch] leading-relaxed mt-4">${escapeHtml(description)}</p>
             <div class="mt-8 flex flex-wrap gap-3">
               <a href="${ASSET_BASE}codex.html" class="btn-secondary btn-secondary--sm">← Back to Codex</a>
-              <a href="${ASSET_BASE}topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="btn-secondary btn-secondary--sm">← Back to Topics</a>
+              <a href="${ASSET_BASE}series-${encodeURIComponent(sourceId)}.html#explore-topics" class="btn-secondary btn-secondary--sm">← Back to Topics</a>
             </div>
           </div>
         </div>
@@ -878,7 +878,7 @@ ${heroBanner}
               <nav class="dive-hero-links" aria-label="Topic links">
                 <a href="${ASSET_BASE}codex.html#codex-pill" class="dive-hero-link">Codex</a>
                 <span class="dive-hero-link-sep" aria-hidden="true">·</span>
-                <a href="${ASSET_BASE}topics.html?source=${encodeURIComponent(sourceId)}#explore-topics" class="dive-hero-link">Topics</a>
+                <a href="${ASSET_BASE}series-${encodeURIComponent(sourceId)}.html#explore-topics" class="dive-hero-link">Topics</a>
                 <span class="dive-hero-link-sep" aria-hidden="true">·</span>
                 <a href="${ASSET_BASE}source.html" class="dive-hero-link">Source</a>
                 <span class="dive-hero-link-sep" aria-hidden="true">·</span>
