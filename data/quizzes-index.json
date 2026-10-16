@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-15T20:35:08.212Z",
-  "total": 295,
+  "generatedAt": "2026-10-16T09:11:51.018Z",
+  "total": 296,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 99
+      "count": 100
     }
   ],
   "quizzes": [
@@ -3203,6 +3203,20 @@
       "diveHref": "dive/revelations/going-home.html",
       "key": "revelations/going-home",
       "order": 11
+    },
+    {
+      "id": "great-reset",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Great Reset",
+      "subtitle": "Test your understanding of Great Reset — the accelerated custodial wipe pulled forward after Roswell leaked solid-state electronics into public manufacturing.",
+      "questionCount": 25,
+      "href": "quiz/revelations/great-reset.html",
+      "diveHref": "dive/revelations/great-reset.html",
+      "key": "revelations/great-reset",
+      "order": 87
     },
     {
       "id": "harmonic-architecture",

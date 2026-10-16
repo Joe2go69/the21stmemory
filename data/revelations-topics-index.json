@@ -767,10 +767,10 @@
         {
           "id": "great-reset",
           "title": "Great Reset",
-          "description": "Great Reset",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
-          "added": "2026-10-07",
+          "description": "The Great Reset is the accelerated custodial wipe of the human physical plane, pulled forward by more than 953 years after Roswell leaked solid-state electronics into public manufacturing.",
+          "topic_image": "images/revelations/great-reset.webp",
+          "is_placeholder": false,
+          "added": "2026-10-16T02:04:29-07:00",
           "subtopics": [
             {
               "id": "8th-reset",
