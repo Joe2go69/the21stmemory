@@ -105,6 +105,7 @@
         "title": "Share a topic",
         "desc": "Send one page to someone who is ready for it. That is how the field grows.",
         "links": [
+          { "text": "Share a link", "action": "share", "shareUrl": "https://21stmemory.com/", "shareTitle": "The 21st Memory" },
           { "text": "Open Codex", "href": "codex.html" }
         ],
         "image": "images/codex-banner.webp"

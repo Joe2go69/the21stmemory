@@ -24103,3 +24103,52 @@ body.hero-lightbox-open { overflow: hidden; }
   outline-offset: 6px;
   border-radius: 0.75rem;
 }
+
+/* ── Mobile polish (Oct 2026) ───────────────────────────────── */
+
+/* Dive pages: phones get a single "‹ Parent" back link; desktop keeps the full trail */
+.dive-breadcrumb .breadcrumb-back {
+  display: none;
+}
+
+@media (max-width: 719.98px) {
+  .dive-breadcrumb .breadcrumb {
+    display: none;
+  }
+
+  .dive-breadcrumb .breadcrumb-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+  }
+
+  .dive-breadcrumb .breadcrumb-back span {
+    font-size: 1.1em;
+    line-height: 1;
+  }
+}
+
+/* Support: "Share a link" is a button styled like the other card links */
+button.support-way__share {
+  appearance: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  font-family: inherit;
+  line-height: inherit;
+  font-weight: 600 !important;
+  cursor: pointer;
+}
+
+/* Support: no QR codes when the visitor is already on a phone */
+@media (max-width: 767.98px) {
+  .support-give-qr-wrap {
+    display: none !important;
+  }
+}
+
