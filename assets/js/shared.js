@@ -34,6 +34,66 @@ function isQuizFamilyPage(pageBasename) {
   return path.includes('/quiz/');
 }
 
+/**
+ * Smaller display copies of topic art (images/thumbs/{series}/{name}-{w}.webp,
+ * built by scripts/generate-image-variants.js). Used only where art is shown
+ * small; infographics and zoom/lightbox views always load the original.
+ */
+const TOPIC_VARIANT_WIDTHS = [320, 640, 960];
+const SERIES_HERO_WIDTHS = [480, 800];
+
+function encodeImagePath(p) {
+  return String(p || '').split('/').map((seg) => encodeURIComponent(seg)).join('/');
+}
+
+function topicImageSrcset(rel, basePath = '') {
+  const clean = String(rel || '').replace(/\\/g, '/').replace(/^\.?\//, '');
+  const m = /^images\/(alice|breakdown|ascension|revelations)\/([^/]+)\.webp$/i.exec(clean);
+  if (!m || /placeholder/i.test(clean)) return '';
+  const parts = TOPIC_VARIANT_WIDTHS.map(
+    (w) => `${basePath}${encodeImagePath(`images/thumbs/${m[1]}/${m[2]}-${w}.webp`)} ${w}w`
+  );
+  parts.push(`${basePath}${encodeImagePath(clean)} 1400w`);
+  return parts.join(', ');
+}
+
+/** ` srcset="…" sizes="…" data-srcset-fallback` for an <img>, or '' when no variants apply. */
+function topicImageSrcsetAttrs(rel, sizes, basePath = '') {
+  const srcset = topicImageSrcset(rel, basePath);
+  if (!srcset) return '';
+  return ` srcset="${srcset}" sizes="${sizes}" data-srcset-fallback`;
+}
+
+/** Series hero (portrait card art) srcset attrs. */
+function seriesHeroSrcsetAttrs(sourceId, fullSrc, sizes) {
+  if (!/^(alice|breakdown|ascension|revelations)$/.test(String(sourceId || ''))) return '';
+  if (!/-codex-card\.webp$/.test(String(fullSrc || ''))) return '';
+  const parts = SERIES_HERO_WIDTHS.map(
+    (w) => `images/thumbs/series/${sourceId}-codex-card-${w}.webp ${w}w`
+  );
+  parts.push(`${encodeImagePath(fullSrc)} 1152w`);
+  return ` srcset="${parts.join(', ')}" sizes="${sizes}" data-srcset-fallback`;
+}
+
+// If a small copy is ever missing, drop the srcset and load the original
+// instead of showing a broken / fallback image. Capture phase runs before the
+// image's own error handlers, which are skipped for this one retry.
+document.addEventListener('error', (event) => {
+  const img = event.target;
+  if (!img || img.tagName !== 'IMG' || !img.hasAttribute('data-srcset-fallback')) return;
+  if (!img.hasAttribute('srcset')) return;
+  img.removeAttribute('data-srcset-fallback');
+  img.removeAttribute('srcset');
+  img.removeAttribute('sizes');
+  event.stopImmediatePropagation();
+}, true);
+
+if (typeof window !== 'undefined') {
+  window.topicImageSrcset = topicImageSrcset;
+  window.topicImageSrcsetAttrs = topicImageSrcsetAttrs;
+  window.seriesHeroSrcsetAttrs = seriesHeroSrcsetAttrs;
+}
+
 function initDeferredAnalytics() {
   if (window.__gtagLoaded) return;
   const load = () => {
@@ -50,10 +110,20 @@ function initDeferredAnalytics() {
     gtag('config', 'G-45Z17E0XTZ');
   };
 
-  if ('requestIdleCallback' in window) {
-    requestIdleCallback(load, { timeout: 4000 });
+  // Wait for the page to finish loading (images included), then for an idle
+  // moment, so analytics never competes with first paint. The page view is
+  // still recorded (gtag 'config' sends it) — just a moment later.
+  const schedule = () => {
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(load, { timeout: 3000 });
+    } else {
+      setTimeout(load, 1500);
+    }
+  };
+  if (document.readyState === 'complete') {
+    schedule();
   } else {
-    window.addEventListener('load', load, { once: true });
+    window.addEventListener('load', schedule, { once: true });
   }
 }
 

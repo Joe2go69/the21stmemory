@@ -5,6 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
+const { ensureTopicVariants } = require('./image-variants');
 const { attachRumblePosters } = require('./rumble-poster');
 const { localIsoTimestamp } = require('./topic-added');
 
@@ -223,6 +224,8 @@ async function applyTopic(payload) {
   );
 
   await compressImage(topicImage, { maxEdge: TOPIC_MAX_EDGE, quality: TOPIC_QUALITY });
+  // Small display copies for thumbnails / phone hero (images/thumbs/…); originals untouched.
+  await ensureTopicVariants(topicImage, { force: true });
   await compressImage(pdfPreview, { maxEdge: null, quality: PDF_QUALITY });
   await compressImage(infographic, { maxEdge: null, quality: INFOGRAPHIC_QUALITY });
 

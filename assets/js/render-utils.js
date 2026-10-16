@@ -237,7 +237,7 @@ const RenderUtils = {
     const sized = cardImage && cardImage.match(/^(images\/[\w-]+)\.webp$/);
     const src960 = TopicUtils.encodeAssetPath(sized ? `${sized[1]}-960.webp` : cardImage);
     const srcsetAttr = sized
-      ? ` srcset="${TopicUtils.encodeAssetPath(`${sized[1]}-640.webp`)} 640w, ${src960} 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 46vw, 360px"`
+      ? ` srcset="${TopicUtils.encodeAssetPath(`${sized[1]}-640.webp`)} 640w, ${src960} 960w" sizes="(max-width: 700px) 80vw, (max-width: 1100px) 46vw, 360px"`
       : '';
     const imageHTML = showImage && cardImage
       ? `<div class="source-card-media" style="background-color:#0F0A1F">

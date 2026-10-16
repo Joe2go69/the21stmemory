@@ -51,13 +51,21 @@ function topicImageComingSoonHtml({ compact = false } = {}) {
   return `<div class="topic-image-fallback topic-image-fallback--soon">${icon}<span>Coming soon</span></div>`;
 }
 
-function renderTopicImage(topicImage, alt, { loading = "lazy", isPlaceholder = false, compact = false, deferred = false } = {}) {
+// sizes allow for object-fit: cover cropping 16:9 art into square / tall boxes
+const TOPIC_THUMB_SIZES = '(max-width: 639px) 126px, 480px';
+const TOPIC_MAIN_ROOT_SIZES = '(max-width: 719px) 440px, 580px';
+const SERIES_HERO_SIZES = '(max-width: 899px) calc(100vw - 48px), 460px';
+
+function renderTopicImage(topicImage, alt, { loading = "lazy", isPlaceholder = false, compact = false, deferred = false, sizes = '' } = {}) {
   const hasArt = topicImage && !TopicUtils.isPlaceholderImage(topicImage);
   if (!hasArt) {
     return isPlaceholder ? topicImageComingSoonHtml({ compact }) : topicImageFallbackHtml();
   }
   const srcAttr = deferred ? 'data-deferred-src' : 'src';
-  return `<img ${srcAttr}="${TopicUtils.encodeAssetPath(topicImage)}" alt="${TopicUtils.escapeAttr(alt)}" class="topic-card-img w-full h-full object-cover" loading="${loading}">`;
+  const srcsetAttrs = !deferred && sizes && typeof topicImageSrcsetAttrs === 'function'
+    ? topicImageSrcsetAttrs(topicImage, sizes)
+    : '';
+  return `<img ${srcAttr}="${TopicUtils.encodeAssetPath(topicImage)}"${srcsetAttrs} alt="${TopicUtils.escapeAttr(alt)}" class="topic-card-img w-full h-full object-cover" loading="${loading}">`;
 }
 
 function setupTopicImageFallbacks(container) {
@@ -169,7 +177,7 @@ function renderMainRootBlock(sourceId, root) {
   const topicAttrs = `data-topic-id="${TopicUtils.escapeAttr(root.id)}" id="topic-${TopicUtils.escapeAttr(root.id)}"`;
   const cardInner = `
         <div class="topic-main-root-media">
-          ${renderTopicImage(root.topic_image, `${root.title} visual`, { loading: 'eager', isPlaceholder: isPh })}
+          ${renderTopicImage(root.topic_image, `${root.title} visual`, { loading: 'eager', isPlaceholder: isPh, sizes: TOPIC_MAIN_ROOT_SIZES })}
           <span class="topic-main-root-media-fade" aria-hidden="true"></span>
         </div>
         <div class="topic-main-root-content">
@@ -245,7 +253,7 @@ function renderCategoryBlock(sourceId, category) {
 
   const rootInner = `
           <div class="topic-root-media">
-            ${renderTopicImage(category.topic_image, `${category.title} visual`, { isPlaceholder: isPh, compact: true })}
+            ${renderTopicImage(category.topic_image, `${category.title} visual`, { isPlaceholder: isPh, compact: true, sizes: TOPIC_THUMB_SIZES })}
             <span class="topic-root-media-fade" aria-hidden="true"></span>
           </div>
           <div class="topic-root-content">
@@ -821,7 +829,7 @@ function renderSourceHeader(data, sourceId, stats) {
         </div>
         <div class="source-hero-media" style="background-color:#0F0A1F;min-height:12rem">
           ${heroImage
-            ? `<img src="${TopicUtils.encodeAssetPath(heroImage)}"
+            ? `<img src="${TopicUtils.encodeAssetPath(heroImage)}"${typeof seriesHeroSrcsetAttrs === 'function' ? seriesHeroSrcsetAttrs(sourceId, heroImage, SERIES_HERO_SIZES) : ''}
                     alt="${TopicUtils.escapeAttr(data.title)}"
                     class="source-hero-img"
                     width="640" height="800" loading="eager" decoding="async" data-img-fallback
@@ -923,7 +931,7 @@ function paintSourceHeroShell(sourceId) {
         </div>
         <div class="source-hero-media" style="background-color:#0F0A1F">
           ${image
-            ? `<img src="${TopicUtils.encodeAssetPath(image)}" alt="" class="source-hero-img" width="640" height="800" decoding="async" style="background-color:#0F0A1F">`
+            ? `<img src="${TopicUtils.encodeAssetPath(image)}"${typeof seriesHeroSrcsetAttrs === 'function' ? seriesHeroSrcsetAttrs(sourceId, image, SERIES_HERO_SIZES) : ''} alt="" class="source-hero-img" width="640" height="800" decoding="async" fetchpriority="high" style="background-color:#0F0A1F">`
             : ''}
           <span class="source-hero-media-fade" aria-hidden="true"></span>
         </div>

@@ -88,6 +88,8 @@
     <link rel="preload" href="assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/css/main.min.css" as="style">
+    <!-- LCP: start the series hero art download now instead of after topics.js + JSON (same srcset/sizes as the rendered img) -->
+    <script>(function(){var d=document.documentElement,m=/[?&]source=(alice|breakdown|ascension|revelations)(?:&|$)/.exec(location.search),id=d.getAttribute('data-series-id')||(m&&m[1]);if(!/^(alice|breakdown|ascension|revelations)$/.test(id||''))return;var l=document.createElement('link');l.rel='preload';l.as='image';l.href='images/'+id+'-codex-card.webp';l.setAttribute('imagesrcset','images/thumbs/series/'+id+'-codex-card-480.webp 480w, images/thumbs/series/'+id+'-codex-card-800.webp 800w, images/'+id+'-codex-card.webp 1152w');l.setAttribute('imagesizes','(max-width: 899px) calc(100vw - 48px), 460px');l.setAttribute('fetchpriority','high');document.head.appendChild(l);})();</script>
     <link rel="stylesheet" href="assets/css/tailwind.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/main.min.css">
