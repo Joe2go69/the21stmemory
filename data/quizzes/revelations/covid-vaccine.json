@@ -682,25 +682,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Total economic collapse paired with centralized food distribution centers was the containment framework.",
+          "text": "A total economic collapse paired with centralized food distribution centres, which would leave the population dependent on rations handed out at fixed sites in each city.",
           "isCorrect": false,
-          "rationale": "Economic collapse and food lines are a different crisis and not the long-term containment grid named here."
+          "rationale": "Not what the report says. That framework was built to enforce total physical and social containment."
         },
         {
           "label": "B",
-          "text": "Orbital surveillance grids synchronized with automated biometric drone sweeps were the containment framework.",
+          "text": "Orbital surveillance grids synchronized with automated biometric drone sweeps over the cities.",
           "isCorrect": false,
-          "rationale": "Drone sweeps are not among the interconnected frameworks of this control matrix."
+          "rationale": "Not what the report says. That framework was built to enforce total physical and social containment."
         },
         {
           "label": "C",
-          "text": "Mandatory atmospheric aerosol spraying combined with digital currency lockouts was the containment framework.",
+          "text": "Mandatory atmospheric aerosol spraying combined with digital currency lockouts for those who refuse.",
           "isCorrect": false,
-          "rationale": "Aerosol spraying is not part of the statutory testing and regulatory trap described here."
+          "rationale": "Not what the report says. That framework was built to enforce total physical and social containment."
         },
         {
           "label": "D",
-          "text": "The push for universal vaccination directly intersects with the implementation of 15-minute cities and the social credit score system inside an administrative framework for total physical and social containment.",
+          "text": "Universal vaccination intersecting with 15-minute cities and the social credit score system, inside a framework for total physical and social containment.",
           "isCorrect": true,
           "rationale": "That framework was built to enforce total physical and social containment."
         }

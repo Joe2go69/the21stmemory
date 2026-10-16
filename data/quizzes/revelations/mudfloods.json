@@ -542,27 +542,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Wipe distributes orphan trains across newly established municipal districts.",
+          "text": "Orphan trains are sent out across the newly established municipal districts to resettle the surviving children in new homes.",
           "isCorrect": false,
-          "rationale": "Orphan train deployment comes after burial during repopulation and the retell phase."
+          "rationale": "Not what the report says. Wars join those strikes in breaking the society that occupied the stone cities."
         },
         {
           "label": "B",
-          "text": "Wipe uses targeted destructive cataclysms and energy weapon strikes to dissolve the existing societal structure and eliminate the native population.",
+          "text": "Targeted destructive cataclysms and energy weapon strikes dissolve the existing society and eliminate the native population.",
           "isCorrect": true,
           "rationale": "Wars join those strikes in breaking the society that occupied the stone cities."
         },
         {
           "label": "C",
-          "text": "Wipe compacts slurry sediment across rural agricultural fields.",
+          "text": "Slurry sediment is spread and compacted across the rural fields to bury the old farmland and its records.",
           "isCorrect": false,
-          "rationale": "Sediment deposition belongs to the bury phase rather than the opening wipe."
+          "rationale": "Not what the report says. Wars join those strikes in breaking the society that occupied the stone cities."
         },
         {
           "label": "D",
-          "text": "Wipe builds cathedrals over suppressed ley-line nodes.",
+          "text": "Cathedrals are built over the suppressed ley-line nodes so that their energy can be capped.",
           "isCorrect": false,
-          "rationale": "Religious and administrative overlays come after the physical wipe and the mud burial."
+          "rationale": "Not what the report says. Wars join those strikes in breaking the society that occupied the stone cities."
         }
       ],
       "hint": "Think about what must happen to the existing population before burial begins.",
@@ -606,25 +606,25 @@
       "options": [
         {
           "label": "A",
-          "text": "They admit that prior civilizations possessed advanced anti-gravity building tools.",
+          "text": "They admit openly that earlier civilizations had advanced anti-gravity tools, but claim those tools were lost long before modern records began to be kept.",
           "isCorrect": false,
-          "rationale": "Gatekeepers deny pre-reset technological capabilities in order to enforce amnesia."
+          "rationale": "Not what the report says. The Wild West frontier myth served the same cover on another continent."
         },
         {
           "label": "B",
-          "text": "They assert that every stone edifice was a naturally formed geological monolith.",
+          "text": "They assert that the stone edifices were natural geological monoliths, later shaped a little by hand.",
           "isCorrect": false,
-          "rationale": "The buildings were treated as human work and then dated to recent primitive construction."
+          "rationale": "Not what the report says. The Wild West frontier myth served the same cover on another continent."
         },
         {
           "label": "C",
-          "text": "They claim the structures were temporary wooden pavilions built for world trade fairs.",
+          "text": "They claim the structures were temporary wooden pavilions built for the world trade fairs and later rebuilt in stone.",
           "isCorrect": false,
-          "rationale": "The cover for exposed stone foundations was primitive historical construction rather than fair pavilions."
+          "rationale": "Not what the report says. The Wild West frontier myth served the same cover on another continent."
         },
         {
           "label": "D",
-          "text": "They introduced fabricated historical epochs and altered European medieval timelines to account for massive stone architecture amidst supposedly primitive populations.",
+          "text": "They introduced fabricated historical epochs and altered European medieval timelines to account for the massive stone architecture.",
           "isCorrect": true,
           "rationale": "The Wild West frontier myth served the same cover on another continent."
         }

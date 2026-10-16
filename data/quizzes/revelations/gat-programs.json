@@ -618,27 +618,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Stealth agents are multilingual, whereas expert killers only speak one language.",
+          "text": "Stealth agents are trained to kill at close range in crowded places, while expert killers gather intelligence from a distance and seldom take part in direct action of any kind.",
           "isCorrect": false,
-          "rationale": "Stealth agents are trained in multi-language fluency, and the distinction is their operational role."
+          "rationale": "Not what the report says. Expert killers are operatives subjected to specialized conditioning to perform high-risk field tasks and stealth operations, while stealth agents are candidates trained in multi-language fluency, covert infiltration, and intelligence collection."
         },
         {
           "label": "B",
-          "text": "Expert killers work for the public military while stealth agents work for the SSP.",
+          "text": "Expert killers serve with the public military, while stealth agents are assigned to the SSP.",
           "isCorrect": false,
-          "rationale": "Both types of assets are developed through the same covert GAT recruitment pipeline."
+          "rationale": "Not what the report says. Expert killers are operatives subjected to specialized conditioning to perform high-risk field tasks and stealth operations, while stealth agents are candidates trained in multi-language fluency, covert infiltration, and intelligence collection."
         },
         {
           "label": "C",
-          "text": "Expert killers undergo specialized conditioning for high-risk field tasks while stealth agents train in multi-language fluency and intelligence collection.",
+          "text": "Expert killers undergo specialized conditioning for high-risk field tasks, while stealth agents train in multi-language fluency and intelligence collection.",
           "isCorrect": true,
           "rationale": "Expert killers are operatives subjected to specialized conditioning to perform high-risk field tasks and stealth operations, while stealth agents are candidates trained in multi-language fluency, covert infiltration, and intelligence collection."
         },
         {
           "label": "D",
-          "text": "There is no difference as they are different names for the same asset class.",
+          "text": "The two names refer to the same class of asset, used in different branches of the program.",
           "isCorrect": false,
-          "rationale": "The system assigns different trajectories based on intellectual, physical, and psychological attributes."
+          "rationale": "Not what the report says. Expert killers are operatives subjected to specialized conditioning to perform high-risk field tasks and stealth operations, while stealth agents are candidates trained in multi-language fluency, covert infiltration, and intelligence collection."
         }
       ],
       "hint": "Consider the specific tasks each asset is conditioned to perform.",

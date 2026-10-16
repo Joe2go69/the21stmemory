@@ -638,27 +638,27 @@
       "options": [
         {
           "label": "A",
-          "text": "A ventilation shaft system that draws fresh surface air into deep subterranean living chambers.",
+          "text": "A ventilation system that draws fresh surface air down into deep underground chambers, using the shape of the stone shafts to keep the air moving without any fans or machinery.",
           "isCorrect": false,
-          "rationale": "Air-to-Earth refers to energetic and electrical currents, not mechanical air ventilation shafts."
+          "rationale": "Not what the report says. That loop captures, regulates, and distributes planetary energy through the structure."
         },
         {
           "label": "B",
-          "text": "A copper grounding cable wrapped around roof spires and attached to deep iron stakes.",
+          "text": "A copper grounding cable wrapped around the roof spires and tied to deep iron stakes.",
           "isCorrect": false,
-          "rationale": "The circuit is formed by piezoelectric quartz stone footings, not external copper ground cables."
+          "rationale": "Not what the report says. That loop captures, regulates, and distributes planetary energy through the structure."
         },
         {
           "label": "C",
-          "text": "An Air-to-Earth circuit is an active energetic loop formed by deep stone footings extending into the water table and connecting atmospheric aether to terrestrial grounding lines.",
+          "text": "An active energetic loop formed by deep stone footings reaching into the water table, connecting atmospheric aether to terrestrial grounding lines.",
           "isCorrect": true,
           "rationale": "That loop captures, regulates, and distributes planetary energy through the structure."
         },
         {
           "label": "D",
-          "text": "An atmospheric weather management system that prevents localized rainstorms around cathedrals.",
+          "text": "A weather system that keeps local rainstorms away from the cathedrals and their grounds.",
           "isCorrect": false,
-          "rationale": "The system regulates internal building climate and energy rather than managing macro-scale atmospheric weather."
+          "rationale": "Not what the report says. That loop captures, regulates, and distributes planetary energy through the structure."
         }
       ],
       "hint": "Think about how a complete circuit connects atmospheric height down into subterranean ground potential.",

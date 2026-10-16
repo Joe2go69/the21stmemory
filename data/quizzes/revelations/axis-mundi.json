@@ -434,27 +434,27 @@
       "options": [
         {
           "label": "A",
-          "text": "By exposing growing fruit to concentrated atmospheric aether during specific lunar alignments.",
+          "text": "By exposing growing fruit to concentrated atmospheric aether during particular lunar alignments, which changes the pigments as the fruit ripens on the branch.",
           "isCorrect": false,
-          "rationale": "Blue fruit follows an enzyme change carried as a code update rather than lunar exposure alone."
+          "rationale": "Not what the report says. Introducing the F3'5'H enzyme synthesizes delphinidin and creates naturally blue fruit without physical intervention."
         },
         {
           "label": "B",
-          "text": "Altering the pelargonidin-3-glucoside precursor and introducing the F3'5'H enzyme synthesizes delphinidin creating naturally blue fruit without physical intervention.",
+          "text": "By altering the pelargonidin-3-glucoside precursor and introducing the F3'5'H enzyme, which synthesizes delphinidin.",
           "isCorrect": true,
           "rationale": "Introducing the F3'5'H enzyme synthesizes delphinidin and creates naturally blue fruit without physical intervention."
         },
         {
           "label": "C",
-          "text": "By cross-breeding terrestrial plants with vegetative specimens imported from Terra Incognita.",
+          "text": "By cross-breeding terrestrial plants with specimens brought in from Terra Incognita.",
           "isCorrect": false,
-          "rationale": "The alteration arrives as a telluric code update rather than as physical cross-breeding."
+          "rationale": "Not what the report says. Introducing the F3'5'H enzyme synthesizes delphinidin and creates naturally blue fruit without physical intervention."
         },
         {
           "label": "D",
-          "text": "By injecting metallic copper particles directly into the root system of local plant species.",
+          "text": "By injecting copper particles directly into the root systems of local plants.",
           "isCorrect": false,
-          "rationale": "The change reaches flora as a telluric code update rather than as a physical injection into roots."
+          "rationale": "Not what the report says. Introducing the F3'5'H enzyme synthesizes delphinidin and creates naturally blue fruit without physical intervention."
         }
       ],
       "hint": "Identify the biochemical precursor and enzyme change transmitted through telluric code updates.",

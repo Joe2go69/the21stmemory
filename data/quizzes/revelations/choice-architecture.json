@@ -534,27 +534,27 @@
       "options": [
         {
           "label": "A",
-          "text": "By encouraging individuals to want less so they can focus on their administrative duties.",
+          "text": "By encouraging people to want less, so they can give more of their time and attention to the administrative duties assigned to them by the system.",
           "isCorrect": false,
-          "rationale": "Consumer desires and media-driven demands are part of the noise that occupies cognitive bandwidth."
+          "rationale": "Not what the report says. Individuals may choose what they want while their underlying wants are chosen for them."
         },
         {
           "label": "B",
-          "text": "By limiting the available consumer products to only those that are essential for survival.",
+          "text": "By limiting the products on offer to those needed for survival, so that people spend little and save more of their income.",
           "isCorrect": false,
-          "rationale": "Media-driven commercial demands and trivial product choices keep the options-within-options illusion running."
+          "rationale": "Not what the report says. Individuals may choose what they want while their underlying wants are chosen for them."
         },
         {
           "label": "C",
-          "text": "Manufactured Wants are the systemic programming and steering of human desires, where external choices are selected for individuals under the illusion of autonomous preference.",
+          "text": "As the systemic programming and steering of human desires, with external choices selected for individuals under the illusion of free preference.",
           "isCorrect": true,
           "rationale": "Individuals may choose what they want while their underlying wants are chosen for them."
         },
         {
           "label": "D",
-          "text": "By observing natural human desires and creating efficient markets to satisfy them.",
+          "text": "By observing natural human desires and building efficient markets to satisfy them as they arise.",
           "isCorrect": false,
-          "rationale": "Manufactured Wants program and steer desire, rather than simply observing natural wants."
+          "rationale": "Not what the report says. Individuals may choose what they want while their underlying wants are chosen for them."
         }
       ],
       "hint": "Think about where autonomous preference actually originates in this system.",

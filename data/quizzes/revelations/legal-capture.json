@@ -318,25 +318,25 @@
       "options": [
         {
           "label": "A",
-          "text": "The World Bank human capital index tracker.",
+          "text": "The World Bank's human capital index tracker, which lists each country's bond totals.",
           "isCorrect": false,
-          "rationale": "These accounts are queried through state financial portals such as the TreasuryDirect system, not a World Bank human capital tracker."
+          "rationale": "Not what the report says. These accounts can be queried through state financial portals such as the TreasuryDirect system, where entering the numerical digits reveals underlying bond valuations."
         },
         {
           "label": "B",
-          "text": "The United Nations Global Identity and Bond Repository.",
+          "text": "The United Nations Global Identity and Bond Repository, which is open to registered citizens who can show their birth certificate number.",
           "isCorrect": false,
-          "rationale": "The named portal for these queries is the TreasuryDirect system, where entering the numerical digits reveals underlying bond valuations."
+          "rationale": "Not what the report says. These accounts can be queried through state financial portals such as the TreasuryDirect system, where entering the numerical digits reveals underlying bond valuations."
         },
         {
           "label": "C",
-          "text": "The Internal Revenue Service personal wealth dashboard.",
+          "text": "The Internal Revenue Service personal wealth dashboard, reached through a tax account.",
           "isCorrect": false,
-          "rationale": "Numerical identifiers on birth certificates correspond to active financial bonds queried through the TreasuryDirect system, not an Internal Revenue Service wealth dashboard."
+          "rationale": "Not what the report says. These accounts can be queried through state financial portals such as the TreasuryDirect system, where entering the numerical digits reveals underlying bond valuations."
         },
         {
           "label": "D",
-          "text": "The TreasuryDirect system, where entering the numerical digits reveals underlying bond valuations.",
+          "text": "The TreasuryDirect system, where entering the numerical digits reveals the underlying bond valuations.",
           "isCorrect": true,
           "rationale": "These accounts can be queried through state financial portals such as the TreasuryDirect system, where entering the numerical digits reveals underlying bond valuations."
         }

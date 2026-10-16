@@ -202,21 +202,21 @@
       "options": [
         {
           "label": "A",
-          "text": "To produce 100% identical worker populations for surface industries.",
+          "text": "To cure inherited diseases in the surface population, with the results released to public hospitals once each treatment has been proven safe.",
           "isCorrect": false,
-          "rationale": "Tinkering generates sub-variations and specialized neurological attributes rather than another identical worker batch."
+          "rationale": "Not what the report says. Offshoots such as Dwarfism, Primordial Dwarfism, and Autistic Savants are engineered for specific environmental or energetic outcomes."
         },
         {
           "label": "B",
-          "text": "Covert biological research programs engage in continuous genetic tinkering to test human physical and neurological limits.",
+          "text": "To test human physical and neurological limits through continuous genetic tinkering.",
           "isCorrect": true,
           "rationale": "Offshoots such as Dwarfism, Primordial Dwarfism, and Autistic Savants are engineered for specific environmental or energetic outcomes."
         },
         {
           "label": "C",
-          "text": "To eliminate the need for sexual reproduction in the gene pool.",
+          "text": "To remove the need for sexual reproduction from the gene pool.",
           "isCorrect": false,
-          "rationale": "Sexual reproduction is the recombination step that turns identical clone stock into unique individuals."
+          "rationale": "Not what the report says. Offshoots such as Dwarfism, Primordial Dwarfism, and Autistic Savants are engineered for specific environmental or energetic outcomes."
         },
         {
           "label": "D",
@@ -298,27 +298,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Infrastructure is hidden underground to make room for new surface construction.",
+          "text": "The infrastructure is moved underground to make room for new surface construction, and the old stone buildings are taken apart block by block for use in the underground bases.",
           "isCorrect": false,
-          "rationale": "Remaining surface stone is repurposed into civic buildings rather than moved underground."
+          "rationale": "Not what the report says. That repurposing happens during the three-to-four-year period while cloned children are still underground."
         },
         {
           "label": "B",
-          "text": "Surface management teams clear the devastation of the preceding reset, repurposing remaining Tartarian stone architecture into modern civic buildings.",
+          "text": "Surface management teams clear the devastation of the preceding reset, repurposing the remaining Tartarian stone architecture into modern civic buildings.",
           "isCorrect": true,
           "rationale": "That repurposing happens during the three-to-four-year period while cloned children are still underground."
         },
         {
           "label": "C",
-          "text": "All previous buildings are completely demolished to ensure a clean slate.",
+          "text": "The previous buildings are demolished, so the new population starts on a clean slate.",
           "isCorrect": false,
-          "rationale": "Surface crews clear reset devastation and repurpose remaining Tartarian stone architecture."
+          "rationale": "Not what the report says. That repurposing happens during the three-to-four-year period while cloned children are still underground."
         },
         {
           "label": "D",
-          "text": "Buildings are preserved as museums to teach the new population their history.",
+          "text": "The buildings are kept as museums to teach the new population their history.",
           "isCorrect": false,
-          "rationale": "Arriving children receive fabricated historical narratives and do not inherit the true origin of the buildings."
+          "rationale": "Not what the report says. That repurposing happens during the three-to-four-year period while cloned children are still underground."
         }
       ],
       "hint": "Managing teams modify what is left behind to suit the needs of the incoming population.",
@@ -362,27 +362,27 @@
       "options": [
         {
           "label": "A",
-          "text": "A direct soul-binding contract between the ancestor and the descendant.",
+          "text": "A soul-binding contract between the ancestor and the descendant, agreed before birth and renewed in each life.",
           "isCorrect": false,
-          "rationale": "Soul-binding is the elite reincarnation mechanism, while a genetic doppelgänger follows hereditary probability."
+          "rationale": "Not what the report says. Small founding clone pools let those aligning genetic probabilities reappear across generations."
         },
         {
           "label": "B",
-          "text": "Sharing approximately 12.5% of DNA with distant ancestors allows exact facial alignments to re-emerge as a genetic doppelgänger.",
+          "text": "Sharing about 12.5% of DNA with a distant ancestor, which lets exact facial alignments re-emerge.",
           "isCorrect": true,
           "rationale": "Small founding clone pools let those aligning genetic probabilities reappear across generations."
         },
         {
           "label": "C",
-          "text": "The use of specific black-budget genetic tinkering protocols.",
+          "text": "The use of particular black-budget genetic tinkering protocols on the family line.",
           "isCorrect": false,
-          "rationale": "Doppelgänger alignment comes from limited founding clone templates, not from a named tinkering protocol."
+          "rationale": "Not what the report says. Small founding clone pools let those aligning genetic probabilities reappear across generations."
         },
         {
           "label": "D",
-          "text": "The successful implementation of the Orphan Train deployment.",
+          "text": "The successful completion of the Orphan Train deployment in the region.",
           "isCorrect": false,
-          "rationale": "Orphan Trains distribute the founding children, while later facial alignment comes from shared ancestral DNA."
+          "rationale": "Not what the report says. Small founding clone pools let those aligning genetic probabilities reappear across generations."
         }
       ],
       "hint": "This phenomenon is driven by the limited variety within the initial genetic templates of the population.",
@@ -746,27 +746,27 @@
       "options": [
         {
           "label": "A",
-          "text": "A genetic doppelgänger shares an near-identical facial structure with an ancestor due to aligning genetic probabilities across generations.",
+          "text": "Aligning genetic probabilities across generations, which give a descendant a near-identical facial structure to an ancestor.",
           "isCorrect": true,
           "rationale": "Populations that originate from limited clone templates can re-express those alignments, including as an atavistic trait."
         },
         {
           "label": "B",
-          "text": "A side effect of primordial dwarfism experiments in black-budget labs.",
+          "text": "A side effect of primordial dwarfism experiments carried out in black-budget labs, which left marks on the facial features of the families who took part in them for generations.",
           "isCorrect": false,
-          "rationale": "Primordial Dwarfism is a targeted physical compression, not the hereditary facial alignment inside a bloodline."
+          "rationale": "Not what the report says. Populations that originate from limited clone templates can re-express those alignments, including as an atavistic trait."
         },
         {
           "label": "C",
-          "text": "The activation of the software-specific facial canvas by a new soul.",
+          "text": "The activation of a software-specific facial canvas by a new soul.",
           "isCorrect": false,
-          "rationale": "Soul sculpting of the face is separate from a descendant who shares an ancestor facial structure through DNA."
+          "rationale": "Not what the report says. Populations that originate from limited clone templates can re-express those alignments, including as an atavistic trait."
         },
         {
           "label": "D",
-          "text": "The soul desire to maintain a consistent physical appearance over centuries.",
+          "text": "The soul's wish to keep a consistent physical appearance over centuries.",
           "isCorrect": false,
-          "rationale": "A recurring soul frequency that matches a prior historical appearance is a temporal doppelgänger."
+          "rationale": "Not what the report says. Populations that originate from limited clone templates can re-express those alignments, including as an atavistic trait."
         }
       ],
       "hint": "This is a hardware-based probability occurring within families derived from the same clone series.",
