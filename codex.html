@@ -163,12 +163,13 @@
         <section id="codex-topic-results" class="mb-10" hidden>
             <div class="flex items-center justify-between gap-4 mb-4">
                 <h3 class="text-xl font-semibold">Topic matches</h3>
-                <span class="text-xs text-mem-muted">Showing up to 24 results</span>
+                <span id="codex-topic-results-count" class="text-xs text-mem-muted" aria-live="polite"></span>
             </div>
             <div id="codex-topic-results-list" class="codex-topic-results-grid"></div>
+            <div id="codex-topic-results-more" class="codex-show-more" hidden></div>
         </section>
 
-        <h3 class="text-xl font-semibold mb-2">Series</h3>
+        <h3 id="codex-series-heading" class="text-xl font-semibold mb-2">Series</h3>
         <div id="sources-grid" class="home-series-grid series-card-row items-stretch">
             <div class="skeleton skeleton-source-card" aria-hidden="true"><div class="skeleton skeleton-block" style="height:10rem"></div><div class="skeleton skeleton-bar" style="width:70%"></div><div class="skeleton skeleton-bar" style="width:90%"></div></div>
             <div class="skeleton skeleton-source-card" aria-hidden="true"><div class="skeleton skeleton-block" style="height:10rem"></div><div class="skeleton skeleton-bar" style="width:70%"></div><div class="skeleton skeleton-bar" style="width:90%"></div></div>
