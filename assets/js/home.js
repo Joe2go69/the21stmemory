@@ -359,7 +359,7 @@ function seriesShortName(title) {
 function renderShelfCard(c, { showDate }) {
   const date = showDate ? formatAdded(c.added) : '';
   const img = c.topic_image
-    ? `<img src="${escapeHtml(c.topic_image)}" alt="" class="home-shelf-card__img" width="640" height="360" loading="lazy" decoding="async">`
+    ? `<img src="${escapeHtml(c.topic_image)}"${typeof topicImageSrcsetAttrs === 'function' ? topicImageSrcsetAttrs(c.topic_image, '(max-width: 719px) 55vw, 300px') : ''} alt="" class="home-shelf-card__img" width="640" height="360" loading="lazy" decoding="async">`
     : '';
   return `
     <a href="${escapeHtml(c.path)}" class="memory-card content-card home-shelf-card">

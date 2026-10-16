@@ -7,6 +7,7 @@
     "minify:css": "node scripts/minify-css.js",
     "prune:css": "echo Prune disabled — unsafe. See scripts/prune-main-css.js",
     "optimize:images": "node scripts/optimize-images-phase3.js",
+    "build:image-variants": "node scripts/generate-image-variants.js",
     "apply:perf": "node scripts/apply-perf-assets.js",
     "defer:scripts": "node scripts/defer-nested-scripts.js",
     "split:css": "node scripts/split-main-css.js",
@@ -30,7 +31,7 @@
     "verify:elevation": "node scripts/verify-elevation.js",
     "verify:all": "node scripts/verify-phase2.js && node scripts/verify-phase3.js && node scripts/verify-phase4.js && node scripts/verify-phase5.js && node scripts/verify-phase6.js && node scripts/verify-elevation.js",
     "chrome": "node scripts/inline-chrome.js",
-    "build": "node scripts/backfill-topic-added.js --build && node scripts/split-topics-data.js && node scripts/build-quizzes-hub.js && node scripts/build-static-dives.js && node scripts/sync-quiz-embeds.js && npx tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --minify && node scripts/minify-css.js && node scripts/inline-chrome.js && node scripts/sync-quiz-chrome.js && node scripts/inject-seo.js && node scripts/generate-sitemap.js && node scripts/apply-perf-assets.js && node scripts/defer-nested-scripts.js"
+    "build": "node scripts/generate-image-variants.js && node scripts/backfill-topic-added.js --build && node scripts/split-topics-data.js && node scripts/build-quizzes-hub.js && node scripts/build-static-dives.js && node scripts/sync-quiz-embeds.js && npx tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --minify && node scripts/minify-css.js && node scripts/inline-chrome.js && node scripts/sync-quiz-chrome.js && node scripts/inject-seo.js && node scripts/generate-sitemap.js && node scripts/apply-perf-assets.js && node scripts/defer-nested-scripts.js"
   },
   "devDependencies": {
     "sharp": "^0.35.3",

@@ -88,7 +88,9 @@ function initHeroLightbox() {
   buttons.forEach((btn) => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      const src = btn.closest('figure')?.querySelector('img')?.currentSrc || btn.closest('figure')?.querySelector('img')?.src;
+      // Always open the full-resolution original, even when the page shows a smaller phone copy.
+      const heroImg = btn.closest('figure')?.querySelector('img');
+      const src = heroImg?.dataset.fullSrc || heroImg?.src || heroImg?.currentSrc;
       if (!src) return;
       if (!dialog) build();
       returnFocus = btn;

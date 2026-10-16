@@ -13,6 +13,7 @@ const markedLib = require('../assets/js/vendor/marked.min.js');
 const markedParse = markedLib.parse || markedLib.marked;
 const { renderNavbar, renderFooter } = require('./chrome-renderer');
 const { compareAddedDesc } = require('./lib/topic-added');
+const { topicSrcset } = require('./lib/image-variants');
 
 const ROOT = path.join(__dirname, '..');
 const BASE_URL = 'https://21stmemory.com';
@@ -787,8 +788,15 @@ function buildPage({
     ? ` deep-dive-hero--banner${isEssence ? ' deep-dive-hero--split' : ''}`
     : '';
   const heroZoom = `<button type="button" class="hero-zoom-btn" data-hero-zoom aria-label="View full image"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></button>`;
+  // Phones load a smaller copy of the topic art; desktop + the zoom lightbox keep the full file.
+  const heroSrcset = topic.topic_image && heroImage
+    ? topicSrcset(String(topic.topic_image).replace(/\\/g, '/'), (p) => withAsset(p))
+    : '';
+  const heroSrcsetAttrs = heroSrcset
+    ? ` srcset="${escapeAttr(heroSrcset)}" sizes="(max-width: 719px) calc(100vw - 48px), (max-width: 1199px) calc(100vw - 64px), 1104px" data-full-src="${escapeAttr(heroImage)}"`
+    : '';
   const heroBanner = heroImage
-    ? `<figure class="deep-dive-hero-banner"><img class="deep-dive-hero-banner__img" src="${escapeAttr(heroImage)}" alt="" width="1600" height="900" fetchpriority="high" decoding="async">${heroZoom}</figure>`
+    ? `<figure class="deep-dive-hero-banner"><img class="deep-dive-hero-banner__img" src="${escapeAttr(heroImage)}"${heroSrcsetAttrs} alt="" width="1600" height="900" fetchpriority="high" decoding="async">${heroZoom}</figure>`
     : '';
   const robots = isStubTopic ? '    <meta name="robots" content="noindex,follow">\n' : '';
   const quiz = resolveQuiz(topic, sourceId);

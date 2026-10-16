@@ -926,7 +926,7 @@ const TopicUtils = {
       : '';
     const useThumb = this.isResolvableTopicImage(entry.topic_image, entry.is_placeholder);
     const thumb = useThumb
-      ? `<img src="${TopicUtils.encodeAssetPath(entry.topic_image)}" alt="" class="codex-search-card-thumb-img" loading="lazy" onerror="this.parentElement.classList.add('codex-search-card-thumb--fallback')">`
+      ? `<img src="${TopicUtils.encodeAssetPath(entry.topic_image)}"${typeof topicImageSrcsetAttrs === 'function' ? topicImageSrcsetAttrs(entry.topic_image, '(max-width: 767px) 270px, 380px') : ''} alt="" class="codex-search-card-thumb-img" loading="lazy" onerror="this.parentElement.classList.add('codex-search-card-thumb--fallback')">`
       : '';
     const thumbClass = useThumb ? '' : ' codex-search-card-thumb--fallback';
 
