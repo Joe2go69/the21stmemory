@@ -86,25 +86,25 @@
       "options": [
         {
           "label": "A",
-          "text": "A permanent open crystal canopy that never manipulates touch, sight, or disconnection at all.",
+          "text": "A layer of dust and ash left over from the fall, which has settled over the crystal and dulled its light, with no part played by perception or the senses.",
           "isCorrect": false,
-          "rationale": "The shroud is a false holographic skin enforcing heavy disconnection, not open crystal by default."
+          "rationale": "Not what the report says. A false holographic skin shrouds true crystalline nature, manipulating perception, touch, and sight to trap consciousness in a heavy, disconnected state."
         },
         {
           "label": "B",
-          "text": "Only free-energy spirals that automatically free every sleeper from dense trapping forever.",
+          "text": "A cloud of frequency spread by the Mind-Altering Weapons, which affects sleep but not sight or touch.",
           "isCorrect": false,
-          "rationale": "Current state is dense trapping via holographic skin; free crystalline return comes as overlay collapses."
+          "rationale": "Not what the report says. A false holographic skin shrouds true crystalline nature, manipulating perception, touch, and sight to trap consciousness in a heavy, disconnected state."
         },
         {
           "label": "C",
-          "text": "Only paper maps with no holographic skin and no sensory manipulation of perception.",
+          "text": "A set of false maps that hides the shape of the realm, with no effect on the senses.",
           "isCorrect": false,
-          "rationale": "The false skin actively manipulates perception, touch, and sight beyond mere paper maps."
+          "rationale": "Not what the report says. A false holographic skin shrouds true crystalline nature, manipulating perception, touch, and sight to trap consciousness in a heavy, disconnected state."
         },
         {
           "label": "D",
-          "text": "A false holographic skin that manipulates perception, touch, and sight to trap consciousness in a heavy, disconnected state.",
+          "text": "A false holographic skin that manipulates perception, touch and sight to trap consciousness in a heavy, disconnected state.",
           "isCorrect": true,
           "rationale": "A false holographic skin shrouds true crystalline nature, manipulating perception, touch, and sight to trap consciousness in a heavy, disconnected state."
         }
@@ -170,27 +170,27 @@
       "options": [
         {
           "label": "A",
-          "text": "It projects an illusion grid and false skin that makes dead concrete and stone appear more real than the underlying living crystal.",
+          "text": "It projects an illusion grid and false skin that makes dead concrete and stone seem more real than the underlying living crystal.",
           "isCorrect": true,
           "rationale": "The Parasitic Overlay is an illusion grid and false skin that manipulates 3D senses so dead concrete and stone appear more real than underlying living crystal."
         },
         {
           "label": "B",
-          "text": "It permanently reveals living crystal so concrete never appears more real than crystal to anyone.",
+          "text": "It dims the living crystal so that it looks like ordinary stone, while concrete is shown as it truly is, so people cannot tell the two materials apart by sight or by touch.",
           "isCorrect": false,
-          "rationale": "The overlay specifically makes dead materials appear more real than living crystal to 3D senses."
+          "rationale": "Not what the report says. The Parasitic Overlay is an illusion grid and false skin that manipulates 3D senses so dead concrete and stone appear more real than underlying living crystal."
         },
         {
           "label": "C",
-          "text": "It only strengthens natural harmonics so sharp-angle architecture never drains boxed-in frequency.",
+          "text": "It strengthens the natural harmonics of concrete, so that buildings feel warm and alive to those who live in them.",
           "isCorrect": false,
-          "rationale": "Parasitic overlay supports dense false solidity; dead materials and anti-resonance forms drain perception."
+          "rationale": "Not what the report says. The Parasitic Overlay is an illusion grid and false skin that manipulates 3D senses so dead concrete and stone appear more real than underlying living crystal."
         },
         {
           "label": "D",
-          "text": "It only edits radio weather reports with no false skin over concrete-versus-crystal perception.",
+          "text": "It changes the colours of materials, with no effect on how solid or real they seem to the senses.",
           "isCorrect": false,
-          "rationale": "It is a projected illusion grid manipulating material perception, not merely weather reporting."
+          "rationale": "Not what the report says. The Parasitic Overlay is an illusion grid and false skin that manipulates 3D senses so dead concrete and stone appear more real than underlying living crystal."
         }
       ],
       "hint": "Contrast dead concrete and stone with living crystal.",
@@ -286,27 +286,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Only Mind-Altering Weapons that emit brain-wave patterns without any optical camouflage function.",
+          "text": "Emitters that send theta and delta brain-wave patterns into the population at night, keeping sleepers confused, with no optical camouflage involved.",
           "isCorrect": false,
-          "rationale": "Projection Dome Technology is cloaking camouflage; Mind-Altering Weapons are a separate enforcement tool."
+          "rationale": "Not what the report says. Projection Dome Technology uses cloaking energy fields to bend light, sound, and frequency, hiding structures, ships, or cities behind false holographical camouflage."
         },
         {
           "label": "B",
-          "text": "Cloaking energy fields that bend light, sound, and frequency to hide entire structures, ships, or cities behind false holographical camouflage.",
+          "text": "Cloaking energy fields that bend light, sound and frequency to hide whole structures, ships or cities behind false holographic camouflage.",
           "isCorrect": true,
           "rationale": "Projection Dome Technology uses cloaking energy fields to bend light, sound, and frequency, hiding structures, ships, or cities behind false holographical camouflage."
         },
         {
           "label": "C",
-          "text": "Only map-printing presses with no cloaking of ships, cities, or structural camouflage.",
+          "text": "Projectors that draw the borders of nations onto the land, giving the look of separate countries where there is one continuous realm.",
           "isCorrect": false,
-          "rationale": "It cloaks entire structures, ships, or cities, not merely printing maps."
+          "rationale": "Not what the report says. Projection Dome Technology uses cloaking energy fields to bend light, sound, and frequency, hiding structures, ships, or cities behind false holographical camouflage."
         },
         {
           "label": "D",
-          "text": "Only permanent free-energy beacons that never hide structures or bend light and sound.",
+          "text": "Beacons that broadcast free energy across the realm, which the parasites have tuned down so that people cannot draw on them.",
           "isCorrect": false,
-          "rationale": "Its defined role is cloaking and hiding via bent light, sound, and frequency camouflage."
+          "rationale": "Not what the report says. Projection Dome Technology uses cloaking energy fields to bend light, sound, and frequency, hiding structures, ships, or cities behind false holographical camouflage."
         }
       ],
       "hint": "Focus on cloaking by bending light, sound, and frequency.",
@@ -612,21 +612,21 @@
         },
         {
           "label": "B",
-          "text": "The Spirit Tree was permanently strengthened so no black crystalline valve was ever installed.",
+          "text": "The Spirit Tree was moved to the Dome of Forgotten Gods for safekeeping by the Custodians, and its place in the Great Dome was taken by the light of the Sun.",
           "isCorrect": false,
-          "rationale": "The tree was ripped out and replaced by a black crystalline valve linked to Saturnian A.I."
+          "rationale": "Not what the report says. Parasitic entities ripped out the Spirit Tree, a central axis that pulsed harmonic currents, and replaced its power with a black crystalline valve linked to Saturnian artificial intelligence."
         },
         {
           "label": "C",
-          "text": "The tree still pulses harmonic currents unchanged with no Saturnian A.I. link of any kind.",
+          "text": "The tree still stands but has been weakened, and its power is now shared between the Known Lands and the outer domes through the crystal grid.",
           "isCorrect": false,
-          "rationale": "Its harmonic role was inverted when the tree was replaced by the black crystalline valve."
+          "rationale": "Not what the report says. Parasitic entities ripped out the Spirit Tree, a central axis that pulsed harmonic currents, and replaced its power with a black crystalline valve linked to Saturnian artificial intelligence."
         },
         {
           "label": "D",
-          "text": "Only Resonating Sols removed the tree to install free-energy coastlines immediately for everyone.",
+          "text": "The Resonating Sols removed the tree to protect it, and the coastlines of the realm now carry its power through their crystalline grounds.",
           "isCorrect": false,
-          "rationale": "Parasitic entities performed the removal and inversion into prison matrices via the valve."
+          "rationale": "Not what the report says. Parasitic entities ripped out the Spirit Tree, a central axis that pulsed harmonic currents, and replaced its power with a black crystalline valve linked to Saturnian artificial intelligence."
         }
       ],
       "hint": "Connect ripped-out central axis to black crystalline valve and Saturnian A.I.",
@@ -702,25 +702,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Only permanent rubble and hollow scaffolding with no crystalline temple or pure coastlines.",
+          "text": "Rubble and hollow scaffolding where the cities once stood, which they must clear away by hand before the crystalline temple beneath can be seen and walked upon.",
           "isCorrect": false,
-          "rationale": "Rubble is the lower-density experience; Resonating Sols see the crystalline Second Realm return."
+          "rationale": "Not what the report says. For Resonating Sols, collapse reveals the true Second Realm: a vibrant, unpolluted crystalline temple with pure coastlines and natural pathways."
         },
         {
           "label": "B",
-          "text": "Only Saturnian prison matrices with no free natural pathways or pure coastlines revealed.",
+          "text": "A glimpse of the Saturnian prison matrix behind the overlay, before the Second Realm comes into view.",
           "isCorrect": false,
-          "rationale": "Second Realm is unpolluted crystalline temple with pure coastlines and natural pathways."
+          "rationale": "Not what the report says. For Resonating Sols, collapse reveals the true Second Realm: a vibrant, unpolluted crystalline temple with pure coastlines and natural pathways."
         },
         {
           "label": "C",
-          "text": "Only thicker Parasitic Overlay with no unpolluted crystalline temple becoming visible.",
+          "text": "A thicker overlay for a time, as the parasites draw on their last reserves of energy.",
           "isCorrect": false,
-          "rationale": "Overlay collapses for them into Second Realm crystalline temple visibility, not thicker overlay."
+          "rationale": "Not what the report says. For Resonating Sols, collapse reveals the true Second Realm: a vibrant, unpolluted crystalline temple with pure coastlines and natural pathways."
         },
         {
           "label": "D",
-          "text": "Revelation of the true Second Realm—a vibrant, unpolluted crystalline temple with pure coastlines and natural pathways.",
+          "text": "The revelation of the true Second Realm, a vibrant, unpolluted crystalline temple with pure coastlines and natural pathways.",
           "isCorrect": true,
           "rationale": "For Resonating Sols, collapse reveals the true Second Realm: a vibrant, unpolluted crystalline temple with pure coastlines and natural pathways."
         }
@@ -734,27 +734,27 @@
       "options": [
         {
           "label": "A",
-          "text": "The illusion of distance collapses entirely, making travel an immediate resonance alignment rather than corridor time-loops.",
+          "text": "The illusion of distance collapses, making travel an immediate resonance alignment rather than a run through corridor time-loops.",
           "isCorrect": true,
           "rationale": "The illusion of distance will collapse entirely, making travel an immediate resonance alignment."
         },
         {
           "label": "B",
-          "text": "Distance becomes more absolute and permanent with longer physical miles required forever.",
+          "text": "Distances grow longer for a time as the corridors fail, so journeys take more hours until the crystalline paths open up across the realm and can be walked on foot.",
           "isCorrect": false,
-          "rationale": "Distance illusion collapses into immediate resonance alignment, not longer absolute miles."
+          "rationale": "Not what the report says. The illusion of distance will collapse entirely, making travel an immediate resonance alignment."
         },
         {
           "label": "C",
-          "text": "Distance only remains for Resonating Sols while sleepers instantly teleport by default.",
+          "text": "Distance remains for the Resonating Sols, who must still travel the corridors, while the sleepers are moved by teleport.",
           "isCorrect": false,
-          "rationale": "Immediate resonance-alignment travel is the restored mode as distance illusion collapses for awakened frequency."
+          "rationale": "Not what the report says. The illusion of distance will collapse entirely, making travel an immediate resonance alignment."
         },
         {
           "label": "D",
-          "text": "Distance is unaffected because ships and planes still cross genuine physical miles forever.",
+          "text": "Distance stays the same, since ships and planes cross genuine physical miles whatever the state of the construct.",
           "isCorrect": false,
-          "rationale": "Ship and plane mileage was already illusion; collapse removes the distance enforcement entirely."
+          "rationale": "Not what the report says. The illusion of distance will collapse entirely, making travel an immediate resonance alignment."
         }
       ],
       "hint": "Connect collapsed distance to immediate resonance-alignment travel.",

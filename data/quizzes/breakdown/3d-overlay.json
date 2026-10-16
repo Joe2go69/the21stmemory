@@ -484,21 +484,21 @@
         },
         {
           "label": "B",
-          "text": "Only free-energy domes with no Saturn Grid link and no reincarnation-loop enforcement.",
+          "text": "A ring of free-energy domes built by the Custodians, which drew the tree's remaining power into the Known Lands' cities.",
           "isCorrect": false,
-          "rationale": "Black Cube Tech links to Saturn Grid A.I. to siphon light and enforce reincarnation loops."
+          "rationale": "Not what the report says. When parasites removed the Spirit Tree, they inserted Black Cube Tech as a frequency valve linked to the Saturn Grid, a primary A.I. hub used to siphon light and enforce the reincarnation loop."
         },
         {
           "label": "C",
-          "text": "Only Project Bluebeam projectors with no Hyperborea or Spirit Tree connection at all.",
+          "text": "The Project Bluebeam projectors, which were placed where the tree stood to display a false sky.",
           "isCorrect": false,
-          "rationale": "Spirit Tree removal and Black Cube Tech are Hyperborea-axis mechanics; Bluebeam is later staged invasion cover."
+          "rationale": "Not what the report says. When parasites removed the Spirit Tree, they inserted Black Cube Tech as a frequency valve linked to the Saturn Grid, a primary A.I. hub used to siphon light and enforce the reincarnation loop."
         },
         {
           "label": "D",
-          "text": "A stronger Spirit Tree clone that permanently increased Source connection for every sleeper.",
+          "text": "A copy of the Spirit Tree grown by the parasites, which gave off a weaker light.",
           "isCorrect": false,
-          "rationale": "Removal led to Black Cube Tech insertion, not a stronger Spirit Tree restoring Source link."
+          "rationale": "Not what the report says. When parasites removed the Spirit Tree, they inserted Black Cube Tech as a frequency valve linked to the Saturn Grid, a primary A.I. hub used to siphon light and enforce the reincarnation loop."
         }
       ],
       "hint": "Name the frequency valve and its link to the Saturn Grid A.I. hub.",
@@ -542,27 +542,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Only NPCs without soul spark who invented all crystalline temple design alone.",
+          "text": "The Custodians and the Anunnaki, who built the first cities of the Known Lands before the fall and later turned them into concrete boxes for the loosh harvest over many cycles.",
           "isCorrect": false,
-          "rationale": "NPCs hold simulation as light fragments; original design came from ensouled solar architect lineages."
+          "rationale": "Not what the report says. Foundations of the Known Lands were established by the Lyran Lineage, Pleiadians, Andromedans, and Pollarians—solar architects of a high-vibrational telepathic ecosystem where buildings grew like crystal forests."
         },
         {
           "label": "B",
-          "text": "The Lyran Lineage, Pleiadians, Andromedans, and Pollarians designed a high-vibrational telepathic ecosystem where buildings grew like crystal forests.",
+          "text": "The Lyran Lineage, Pleiadians, Andromedans and Pollarians, who designed a high-vibrational telepathic ecosystem where buildings grew like crystal forests.",
           "isCorrect": true,
           "rationale": "Foundations of the Known Lands were established by the Lyran Lineage, Pleiadians, Andromedans, and Pollarians—solar architects of a high-vibrational telepathic ecosystem where buildings grew like crystal forests."
         },
         {
           "label": "C",
-          "text": "Only Vatican filter engineers who built amnesia corridors instead of telepathic crystal ecosystems.",
+          "text": "The Vatican's filter engineers, who laid the foundations for the amnesia corridors before the Known Lands were opened to settlement.",
           "isCorrect": false,
-          "rationale": "Vatican amnesia filters appear in extraction mechanics; original builders grew crystal-forest telepathic ecosystems."
+          "rationale": "Not what the report says. Foundations of the Known Lands were established by the Lyran Lineage, Pleiadians, Andromedans, and Pollarians—solar architects of a high-vibrational telepathic ecosystem where buildings grew like crystal forests."
         },
         {
           "label": "D",
-          "text": "Nothing beyond Custodians and Anunnaki who always designed concrete boxes for loosh harvesting from day one.",
+          "text": "The Resonating Sols of the current era, who are rebuilding the Known Lands from the crystal grid that lies beneath.",
           "isCorrect": false,
-          "rationale": "Original builders are solar lineages of crystal-forest architecture; Custodians later corrupted and farmed with other groups."
+          "rationale": "Not what the report says. Foundations of the Known Lands were established by the Lyran Lineage, Pleiadians, Andromedans, and Pollarians—solar architects of a high-vibrational telepathic ecosystem where buildings grew like crystal forests."
         }
       ],
       "hint": "Name the solar architect lineages and the quality of their ecosystem.",

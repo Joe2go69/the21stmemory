@@ -670,15 +670,15 @@
       "options": [
         {
           "label": "A",
-          "text": "By physically dismantling the Dome of Forgotten Gods.",
+          "text": "By physically taking apart the Dome of Forgotten Gods and using its parts to build their own.",
           "isCorrect": false,
-          "rationale": "The parasites were unable to create or destroy a framework of this magnitude, only hide and warp its functions."
+          "rationale": "Not what the report says. This manipulation warped human perception and inverted the function of the planetary grid nodes."
         },
         {
           "label": "B",
-          "text": "By deleting the soul memories stored in the crystalline grid.",
+          "text": "By deleting the soul memories stored in the crystalline grid, one record at a time.",
           "isCorrect": false,
-          "rationale": "No memory is ever truly lost, implying the parasites could only filter or block access."
+          "rationale": "Not what the report says. This manipulation warped human perception and inverted the function of the planetary grid nodes."
         },
         {
           "label": "C",
@@ -688,9 +688,9 @@
         },
         {
           "label": "D",
-          "text": "By replacing the crystalline framework with a concrete foundation.",
+          "text": "By replacing the crystalline framework with a concrete foundation laid over the drives.",
           "isCorrect": false,
-          "rationale": "The parasites made humans *perceive* dead concrete, but the underlying crystalline temple remained."
+          "rationale": "Not what the report says. This manipulation warped human perception and inverted the function of the planetary grid nodes."
         }
       ],
       "hint": "Look for the tools used to warp human perception and harvest energy.",
