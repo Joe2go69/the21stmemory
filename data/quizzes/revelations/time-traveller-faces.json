@@ -254,27 +254,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Past-life memory recall is biologically erased during every generational transition.",
+          "text": "Past-life memory is erased biologically at each generational transition, so a returning soul cannot be told apart from a new one, even by the families who knew it before.",
           "isCorrect": false,
-          "rationale": "The bloodline side of the comparison is reborn with full past-life recall."
+          "rationale": "Not what the report says. Bloodlines are reborn immediately upon physical death with full past-life recall, whereas the soul inhabiting the modern vessel may be entirely distinct from the historical predecessor."
         },
         {
           "label": "B",
-          "text": "Monarchs do not possess true souls and exist only as unanimated constructs.",
+          "text": "Monarchs have no true souls, and exist as unanimated constructs with no past lives.",
           "isCorrect": false,
-          "rationale": "The royal comparison shows bloodline vanity and a possibly distinct occupying soul, not an empty monarch."
+          "rationale": "Not what the report says. Bloodlines are reborn immediately upon physical death with full past-life recall, whereas the soul inhabiting the modern vessel may be entirely distinct from the historical predecessor."
         },
         {
           "label": "C",
-          "text": "Bloodlines are reborn immediately upon physical death with full past-life recall whereas the soul inhabiting the modern vessel may be entirely distinct.",
+          "text": "Bloodlines are reborn immediately upon physical death with full past-life recall, whereas the soul in the modern vessel may be entirely distinct.",
           "isCorrect": true,
           "rationale": "Bloodlines are reborn immediately upon physical death with full past-life recall, whereas the soul inhabiting the modern vessel may be entirely distinct from the historical predecessor."
         },
         {
           "label": "D",
-          "text": "Royal vessels are constructed entirely without human DNA schematics.",
+          "text": "Royal vessels are built without human DNA schematics, so their faces are copies.",
           "isCorrect": false,
-          "rationale": "Human DNA still provides the basic physical schematic for these vessels."
+          "rationale": "Not what the report says. Bloodlines are reborn immediately upon physical death with full past-life recall, whereas the soul inhabiting the modern vessel may be entirely distinct from the historical predecessor."
         }
       ],
       "hint": "Distinguish between biological vessel continuity and the specific soul occupying the hardware.",
@@ -510,27 +510,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Clone atavism creates identical facial structures across decades or centuries without requiring the presence of the original soul.",
+          "text": "Identical facial structures across decades or centuries, without the original soul needing to be present.",
           "isCorrect": true,
           "rationale": "This biological throwback process or clone atavism creates identical facial structures across decades or centuries without requiring the presence of the original soul."
         },
         {
           "label": "B",
-          "text": "It assigns each clone batch a new soul family outside the Arc Pod.",
+          "text": "A new soul family for each clone batch, assigned outside the Arc Pod by the custodial teams who manage the repopulation of the surface after each reset.",
           "isCorrect": false,
-          "rationale": "Clone atavism is a genetic throwback, and soul family membership stays with the Arc Pod cluster."
+          "rationale": "Not what the report says. This biological throwback process or clone atavism creates identical facial structures across decades or centuries without requiring the presence of the original soul."
         },
         {
           "label": "C",
-          "text": "It forces the original soul to re-enter the identical physical vessel.",
+          "text": "A forced return of the original soul into the same physical vessel.",
           "isCorrect": false,
-          "rationale": "Clone atavism creates the facial match without requiring the presence of the original soul."
+          "rationale": "Not what the report says. This biological throwback process or clone atavism creates identical facial structures across decades or centuries without requiring the presence of the original soul."
         },
         {
           "label": "D",
-          "text": "It erases genetic throwbacks so each generation starts from a blank face.",
+          "text": "An erasing of genetic throwbacks, so each generation starts from a blank face.",
           "isCorrect": false,
-          "rationale": "Atavistic traits commonly known as genetic throwbacks frequently resurface."
+          "rationale": "Not what the report says. This biological throwback process or clone atavism creates identical facial structures across decades or centuries without requiring the presence of the original soul."
         }
       ],
       "hint": "Recall the throwback that can match a face without bringing back the original soul.",
@@ -702,27 +702,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Following major planetary resets such as the reset occurring around 1900 the surface realm was repopulated using cloned children.",
+          "text": "The reset around 1900, after which the surface realm was repopulated with cloned children.",
           "isCorrect": true,
           "rationale": "Following major planetary resets such as the reset occurring around 1900 the surface realm was repopulated using cloned children raised in underground bases."
         },
         {
           "label": "B",
-          "text": "The reset of the Guidestones number inside a single Arc Pod.",
+          "text": "The reset recorded on the Guidestones, after which a single Arc Pod repopulated each region.",
           "isCorrect": false,
-          "rationale": "The Guidestones number is a population metric, not the named repopulation reset."
+          "rationale": "Not what the report says. Following major planetary resets such as the reset occurring around 1900 the surface realm was repopulated using cloned children raised in underground bases."
         },
         {
           "label": "C",
-          "text": "A reset that emptied the realm of all soul families.",
+          "text": "The reset of 1666, after which the soul families were moved to the inner earth bases.",
           "isCorrect": false,
-          "rationale": "Soul families continue across the long cycle, and the named event repopulated the surface."
+          "rationale": "Not what the report says. Following major planetary resets such as the reset occurring around 1900 the surface realm was repopulated using cloned children raised in underground bases."
         },
         {
           "label": "D",
-          "text": "A reset that ended clone batches and restored one soul per vessel.",
+          "text": "The reset around 1800, which ended the clone batches and restored one soul to each vessel.",
           "isCorrect": false,
-          "rationale": "The post-reset population descends from clone batches, and construct vessels remain the majority."
+          "rationale": "Not what the report says. Following major planetary resets such as the reset occurring around 1900 the surface realm was repopulated using cloned children raised in underground bases."
         }
       ],
       "hint": "Look for the reset date tied to cloned children raised underground.",

@@ -394,27 +394,27 @@
       "options": [
         {
           "label": "A",
-          "text": "They served as deep-space communication relays broadcasting to the Orion constellation.",
+          "text": "Deep-space relays broadcasting signals to the Orion constellation, used to report on the state of the harvest to the Grey command beyond the dome.",
           "isCorrect": false,
-          "rationale": "They were conducting unsanctioned atmospheric sweep patterns as mobile genetics labs."
+          "rationale": "Not what the report says. Spectral analysis confirmed human capture apparatus, biological holding tanks, tissue samples, and post-mortem remains."
         },
         {
           "label": "B",
-          "text": "They were heavy atmospheric terraforming platforms altering oxygen ratios.",
+          "text": "Heavy terraforming platforms that altered the oxygen ratios of the atmosphere.",
           "isCorrect": false,
-          "rationale": "The vessels functioned as mobile genetics labs dedicated to non-consensual capture and biological harvesting."
+          "rationale": "Not what the report says. Spectral analysis confirmed human capture apparatus, biological holding tanks, tissue samples, and post-mortem remains."
         },
         {
           "label": "C",
-          "text": "They were mobile genetics laboratory vessels operated by hostile Grey entities and equipped with bio-sampling technology for non-consensual human harvest.",
+          "text": "Mobile genetics laboratories operated by hostile Grey entities, equipped with bio-sampling technology for non-consensual human harvest.",
           "isCorrect": true,
           "rationale": "Spectral analysis confirmed human capture apparatus, biological holding tanks, tissue samples, and post-mortem remains."
         },
         {
           "label": "D",
-          "text": "They were transports moving Custodian administrators between surface reset hubs.",
+          "text": "Transports moving Custodian administrators between the surface reset hubs.",
           "isCorrect": false,
-          "rationale": "Hostile Grey entities from the Orion system operated the craft for biological harvesting."
+          "rationale": "Not what the report says. Spectral analysis confirmed human capture apparatus, biological holding tanks, tissue samples, and post-mortem remains."
         }
       ],
       "hint": "Identify the purpose of the bio-sampling gear and the human tissue found on board.",

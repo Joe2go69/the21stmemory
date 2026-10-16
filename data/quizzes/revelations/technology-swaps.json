@@ -382,25 +382,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Synthetic interior lining materials designed to absorb ambient cockpit vibration.",
+          "text": "Synthetic lining materials from the craft's interior, which absorbed ambient vibration in the cockpit and were later found to react to heat in ways that could be seen on a screen.",
           "isCorrect": false,
-          "rationale": "Interior lining polymers supplied the blueprint for Kevlar."
+          "rationale": "Not what the report says. That hardware translates heat signatures into high-contrast visual displays."
         },
         {
           "label": "B",
-          "text": "High-density power storage cells that emitted localized radiation fields.",
+          "text": "High-density power storage cells that gave off localized radiation fields.",
           "isCorrect": false,
-          "rationale": "Thermal imaging renders thermal radiation into visual displays from navigation hardware."
+          "rationale": "Not what the report says. That hardware translates heat signatures into high-contrast visual displays."
         },
         {
           "label": "C",
-          "text": "Solid-state logic switching units used to process optical communication signals.",
+          "text": "Solid-state logic units used to process optical communication signals.",
           "isCorrect": false,
-          "rationale": "Switching units belong with the point-contact transistor and printed circuit boards."
+          "rationale": "Not what the report says. That hardware translates heat signatures into high-contrast visual displays."
         },
         {
           "label": "D",
-          "text": "Thermal imaging came from infrared detection hardware recovered from craft navigation systems and renders thermal radiation into visual displays.",
+          "text": "Infrared detection hardware recovered from craft navigation systems, which renders thermal radiation into visual displays.",
           "isCorrect": true,
           "rationale": "That hardware translates heat signatures into high-contrast visual displays."
         }
@@ -510,27 +510,27 @@
       "options": [
         {
           "label": "A",
-          "text": "It required all electronics to remain reliant on bulky external cooling units and high-voltage power grids.",
+          "text": "They kept electronics reliant on bulky external cooling units and high-voltage power grids, which slowed the shrinking of devices and kept computers in large rooms until well into the 1990s.",
           "isCorrect": false,
-          "rationale": "The transistor allowed switching without the extreme heat of vacuum tubes."
+          "rationale": "Not what the report says. That jump in processing power stemmed entirely from reverse-engineering salvaged craft electronics."
         },
         {
           "label": "B",
-          "text": "It forced circuit manufacturers to abandon solid-state design in favor of optical computing architectures.",
+          "text": "They pushed circuit makers to abandon solid-state design in favour of optical computing.",
           "isCorrect": false,
-          "rationale": "The explosion stayed inside solid-state circuit density from the salvaged electronics."
+          "rationale": "Not what the report says. That jump in processing power stemmed entirely from reverse-engineering salvaged craft electronics."
         },
         {
           "label": "C",
-          "text": "Point-contact transistors and printed circuit boards scaled electronic architecture from crude nodes to modern microchips containing tens of billions of transistors on a single silicon substrate.",
+          "text": "They scaled electronic architecture from crude nodes to modern microchips holding tens of billions of transistors on a single silicon substrate.",
           "isCorrect": true,
           "rationale": "That jump in processing power stemmed entirely from reverse-engineering salvaged craft electronics."
         },
         {
           "label": "D",
-          "text": "It caused electronic architecture to stall at crude point-contact nodes due to physical limits of silicon.",
+          "text": "They caused circuits to stall at crude point-contact nodes because of the limits of silicon.",
           "isCorrect": false,
-          "rationale": "Architecture scaled onward to modern microchips on a single silicon substrate."
+          "rationale": "Not what the report says. That jump in processing power stemmed entirely from reverse-engineering salvaged craft electronics."
         }
       ],
       "hint": "Think about how modern computer microchips fit tens of billions of switches onto a microscopic silicon wafer.",
@@ -542,27 +542,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Unacknowledged Special Access Projects lacked capacity to solve every metallurgical and electronic challenge in-house and MIC managers farmed out specific debris fragments to elite corporate research centers.",
+          "text": "The USAPs lacked the capacity to solve every metallurgical and electronic challenge in-house, so MIC managers farmed out debris fragments to elite corporate research centres.",
           "isCorrect": true,
           "rationale": "Those fragments moved under strict non-disclosure contracts."
         },
         {
           "label": "B",
-          "text": "Private defense contractors owned all subterranean testing facilities required to handle exotic materials safely.",
+          "text": "The private defense contractors owned the subterranean testing facilities needed to handle exotic materials safely, so the USAPs had little choice but to send the debris to them for study and storage.",
           "isCorrect": false,
-          "rationale": "Military retrieval teams transported materials to specialized subterranean testing facilities first."
+          "rationale": "Not what the report says. Those fragments moved under strict non-disclosure contracts."
         },
         {
           "label": "C",
-          "text": "International treaties mandated that all military salvage be shared equally with commercial enterprises.",
+          "text": "International treaties required that military salvage be shared with commercial firms.",
           "isCorrect": false,
-          "rationale": "The projects isolated salvaged hardware away from public oversight."
+          "rationale": "Not what the report says. Those fragments moved under strict non-disclosure contracts."
         },
         {
           "label": "D",
-          "text": "Military leadership wanted to deliberately accelerate consumer access to personal digital computing devices.",
+          "text": "Military leaders wanted to speed up consumer access to personal computing devices.",
           "isCorrect": false,
-          "rationale": "Consumer release was an unintended byproduct after fragments were farmed out."
+          "rationale": "Not what the report says. Those fragments moved under strict non-disclosure contracts."
         }
       ],
       "hint": "Consider the scientific limitations of keeping all advanced metallurgical and electronic analysis inside secret military labs.",
@@ -574,27 +574,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Immediate public registration of components at national patent offices under dummy corporate names.",
+          "text": "The components are registered at national patent offices under dummy corporate names soon after recovery, then handed to the companies listed on the patents for study and production.",
           "isCorrect": false,
-          "rationale": "Patent filings came later as part of the cover over an already classified breakdown."
+          "rationale": "Not what the report says. They also catalog structural alloys and optical waveguides before assigning fragments to research divisions."
         },
         {
           "label": "B",
-          "text": "Inside secret military installations recovered components undergo exhaustive material decomposition and specialists catalog infrared detection layers and semiconductor substrates.",
+          "text": "Recovered components undergo exhaustive material decomposition, and specialists catalogue infrared detection layers and semiconductor substrates.",
           "isCorrect": true,
           "rationale": "They also catalog structural alloys and optical waveguides before assigning fragments to research divisions."
         },
         {
           "label": "C",
-          "text": "Direct integration into commercial airliners without structural modification or preliminary testing.",
+          "text": "The parts are fitted straight into commercial airliners without any testing or changes.",
           "isCorrect": false,
-          "rationale": "Components first undergo chemical analysis and structural reverse-engineering in secret installations."
+          "rationale": "Not what the report says. They also catalog structural alloys and optical waveguides before assigning fragments to research divisions."
         },
         {
           "label": "D",
-          "text": "Deactivation and permanent storage inside sealed lead containers without physical disassembly.",
+          "text": "The parts are switched off and stored in sealed lead containers without being taken apart.",
           "isCorrect": false,
-          "rationale": "Recovered components were decomposed analyzed and reverse-engineered rather than left sealed."
+          "rationale": "Not what the report says. They also catalog structural alloys and optical waveguides before assigning fragments to research divisions."
         }
       ],
       "hint": "Focus on the step-by-step scientific breakdown of exotic alloys, waveguides, and semiconductors in subterranean labs.",
@@ -766,27 +766,27 @@
       "options": [
         {
           "label": "A",
-          "text": "It proves that human scientists were on the verge of discovering solid-state physics decades before the craft crashes.",
+          "text": "It shows that human scientists were on the verge of discovering solid-state physics decades before the craft crashed, and that the salvage simply sped up a discovery that was already underway.",
           "isCorrect": false,
-          "rationale": "Human scientists reverse-engineered physical hardware recovered from crash sites."
+          "rationale": "Not what the report says. Those narratives attribute solid-state physics polymer chemistry and electro-optical amplification to independent human genius."
         },
         {
           "label": "B",
-          "text": "It confirms that human technological evolution followed a completely natural and unassisted linear trajectory.",
+          "text": "It confirms that human technology followed a natural and unassisted linear path.",
           "isCorrect": false,
-          "rationale": "The crash leak injected this hardware nearly a millennium ahead of the custodial master schedule."
+          "rationale": "Not what the report says. Those narratives attribute solid-state physics polymer chemistry and electro-optical amplification to independent human genius."
         },
         {
           "label": "C",
-          "text": "The reality of Technology Swaps completely invalidates the institutional history of human scientific progress and standard textbook narratives are deliberate public relations theatre designed to hide the salvage origin.",
+          "text": "It invalidates the institutional history of human scientific progress; textbook narratives are public relations theatre designed to hide the salvage origin.",
           "isCorrect": true,
           "rationale": "Those narratives attribute solid-state physics polymer chemistry and electro-optical amplification to independent human genius."
         },
         {
           "label": "D",
-          "text": "It validates traditional patent records as accurate documentations of independent laboratory breakthroughs.",
+          "text": "It validates the patent records as accurate accounts of independent laboratory work.",
           "isCorrect": false,
-          "rationale": "The public patent record is part of Earth-Invention Theatre masking a non-terrestrial origin."
+          "rationale": "Not what the report says. Those narratives attribute solid-state physics polymer chemistry and electro-optical amplification to independent human genius."
         }
       ],
       "hint": "Consider how attributing exotic salvage to human genius creates a manufactured historical narrative.",

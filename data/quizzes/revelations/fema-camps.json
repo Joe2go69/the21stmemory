@@ -266,27 +266,27 @@
       "options": [
         {
           "label": "A",
-          "text": "Official medical regulation requires a mandatory six-year testing period before an injection can be lawfully approved for general distribution.",
+          "text": "A mandatory six-year testing period.",
           "isCorrect": true,
           "rationale": "The required statutory six-year testing window must finish before the regulatory authority can lawfully approve a new medical injection."
         },
         {
           "label": "B",
-          "text": "Construction and staffing of localized administrative containment facilities.",
+          "text": "The building and staffing of local administrative containment facilities.",
           "isCorrect": false,
-          "rationale": "Facility construction was part of the enforcement apparatus, not a statutory approval requirement."
+          "rationale": "Not what the report says. The required statutory six-year testing window must finish before the regulatory authority can lawfully approve a new medical injection."
         },
         {
           "label": "C",
-          "text": "Formal approval by an international court applying the Nuremberg Code framework.",
+          "text": "Approval by an international court applying the Nuremberg Code framework.",
           "isCorrect": false,
-          "rationale": "The Nuremberg Code serves as an ethical barrier against forced experimentation, not an approval agency."
+          "rationale": "Not what the report says. The required statutory six-year testing window must finish before the regulatory authority can lawfully approve a new medical injection."
         },
         {
           "label": "D",
-          "text": "Unanimous public consent gathered during voluntary coercion trials.",
+          "text": "Unanimous public consent gathered during voluntary trials in each region.",
           "isCorrect": false,
-          "rationale": "Statutory approval depends on regulatory testing timelines rather than public consensus."
+          "rationale": "Not what the report says. The required statutory six-year testing window must finish before the regulatory authority can lawfully approve a new medical injection."
         }
       ],
       "hint": "Identify the mandatory regulatory timeframe required prior to official authorization.",

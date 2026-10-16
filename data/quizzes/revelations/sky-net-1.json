@@ -42,25 +42,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Inside sub-orbital military satellites equipped with directed energy weapons.",
+          "text": "Inside sub-orbital military satellites fitted with directed energy weapons, which circle the realm below the dome and project the false sky upwards onto its inner surface.",
           "isCorrect": false,
-          "rationale": "The system uses celestial star architecture rather than conventional military satellite hardware."
+          "rationale": "Not what the report says. The planetary projection rig is stationed in that celestial architecture."
         },
         {
           "label": "B",
-          "text": "On high-altitude oceanic floating platforms positioned along equator lines.",
+          "text": "On high-altitude floating platforms in the oceans, positioned along the equator.",
           "isCorrect": false,
-          "rationale": "Oceanic platforms do not house the projection apparatus anchored in the stars."
+          "rationale": "Not what the report says. The planetary projection rig is stationed in that celestial architecture."
         },
         {
           "label": "C",
-          "text": "In deep underground military bases situated beneath major metropolitan centers.",
+          "text": "In deep underground military bases beneath the major metropolitan centres.",
           "isCorrect": false,
-          "rationale": "The projection nodes are anchored in the stars, not beneath metropolitan centers."
+          "rationale": "Not what the report says. The planetary projection rig is stationed in that celestial architecture."
         },
         {
           "label": "D",
-          "text": "High-altitude celestial projection nodes are embedded throughout the visible stars within the celestial architecture of the stars in the night sky.",
+          "text": "High-altitude celestial projection nodes embedded throughout the visible stars of the night sky.",
           "isCorrect": true,
           "rationale": "The planetary projection rig is stationed in that celestial architecture."
         }
@@ -222,25 +222,25 @@
       "options": [
         {
           "label": "A",
-          "text": "They rely on artificial intelligence chips implanted into local cellular towers.",
+          "text": "They rely on artificial intelligence chips placed in the local cellular towers, which send each sleeve its next line of dialogue as the conversation moves along.",
           "isCorrect": false,
-          "rationale": "Behavioral streams come directly from Sky-Net 1 rather than from terrestrial cellular microchips."
+          "rationale": "Not what the report says. That stream also supplies cultural operating parameters so the sleeves can mimic routine social interactions."
         },
         {
           "label": "B",
-          "text": "They follow pre-recorded script sequences programmed into ground control servers.",
+          "text": "They follow pre-recorded script sequences stored on ground control servers.",
           "isCorrect": false,
-          "rationale": "The data stream furnishes continuous automated parameters rather than static ground scripts."
+          "rationale": "Not what the report says. That stream also supplies cultural operating parameters so the sleeves can mimic routine social interactions."
         },
         {
           "label": "C",
-          "text": "They mimic the neural impulses of nearby living humans through bio-resonance.",
+          "text": "They copy the neural impulses of nearby living humans through bio-resonance.",
           "isCorrect": false,
-          "rationale": "Sleeves receive a centralized automated data stream rather than mirroring nearby brainwaves."
+          "rationale": "Not what the report says. That stream also supplies cultural operating parameters so the sleeves can mimic routine social interactions."
         },
         {
           "label": "D",
-          "text": "They receive an automated data stream directly from Sky-Net 1 that furnishes behavioral etiquette and mainstream media herd fodder auto-responses.",
+          "text": "They receive an automated data stream from Sky-Net 1 supplying behavioral etiquette and mainstream media auto-responses.",
           "isCorrect": true,
           "rationale": "That stream also supplies cultural operating parameters so the sleeves can mimic routine social interactions."
         }
@@ -638,13 +638,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Experimental commercial drone technology developed by private defense contractors.",
+          "text": "Experimental commercial drones developed by private defense contractors, which are flown at night alongside the projections to give the images a physical presence on radar screens.",
           "isCorrect": false,
-          "rationale": "The hardware is salvaged from downed non-terrestrial vessels, not commercial drone lines."
+          "rationale": "Not what the report says. Black-budget programs recovered that technology and use it to give the projections physical substance."
         },
         {
           "label": "B",
-          "text": "Salvaged craft are reverse-engineered physical craft derived from downed non-terrestrial vessels recovered from historic crash sites such as Roswell.",
+          "text": "Reverse-engineered craft derived from downed non-terrestrial vessels recovered at historic crash sites such as Roswell.",
           "isCorrect": true,
           "rationale": "Black-budget programs recovered that technology and use it to give the projections physical substance."
         },
@@ -656,9 +656,9 @@
         },
         {
           "label": "D",
-          "text": "Decommissioned cold-war atmospheric fighter jets retrofitted with stealth engines.",
+          "text": "Decommissioned cold-war fighter jets retrofitted with stealth engines.",
           "isCorrect": false,
-          "rationale": "The craft come from reverse-engineered downed non-terrestrial vessels, not legacy fighter jets."
+          "rationale": "Not what the report says. Black-budget programs recovered that technology and use it to give the projections physical substance."
         }
       ],
       "hint": "Look to historic crash recovery and black-budget reverse-engineering.",
@@ -766,25 +766,25 @@
       "options": [
         {
           "label": "A",
-          "text": "Yes. Salvaged craft are an incoming alien navy that Sky-Net 1 coordinates for planetary protection.",
+          "text": "Yes: the salvaged craft are an incoming alien navy, and Sky-Net 1 coordinates the realm's defense against them using projections to confuse their targeting systems.",
           "isCorrect": false,
-          "rationale": "Salvaged craft are reverse-engineered hardware used in the staged spectacle, not a protective alien navy."
+          "rationale": "Not what the report says. It projects the illusion of a hostile extraterrestrial armada instead of shielding Earth from one."
         },
         {
           "label": "B",
-          "text": "Yes. It is a defense grid that repels hostile armadas before they reach the atmosphere.",
+          "text": "Yes: it is a defense grid that repels hostile armadas before they reach the atmosphere.",
           "isCorrect": false,
-          "rationale": "The system does not defend terrestrial airspace."
+          "rationale": "Not what the report says. It projects the illusion of a hostile extraterrestrial armada instead of shielding Earth from one."
         },
         {
           "label": "C",
-          "text": "Yes, but only during the EBS lockdown, when it switches from projection to air defense.",
+          "text": "Partly: it switches from projection to air defense during the EBS lockdown.",
           "isCorrect": false,
-          "rationale": "During the EBS lockdown it executes the primary invasion script rather than switching to defense."
+          "rationale": "Not what the report says. It projects the illusion of a hostile extraterrestrial armada instead of shielding Earth from one."
         },
         {
           "label": "D",
-          "text": "Sky-Net 1 is the planetary projection rig functioning as the primary technological engine for matrix illusion rather than operating as a defense grid or military weapon system.",
+          "text": "No: it is the planetary projection rig, the main technological engine of the matrix illusion, not a defense grid or weapon system.",
           "isCorrect": true,
           "rationale": "It projects the illusion of a hostile extraterrestrial armada instead of shielding Earth from one."
         }

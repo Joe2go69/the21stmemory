@@ -638,9 +638,9 @@
       "options": [
         {
           "label": "A",
-          "text": "High-density lead lining applied over the interior walls.",
+          "text": "High-density lead lining over the interior walls.",
           "isCorrect": false,
-          "rationale": "Lead lining is not the processing material. Piezoelectric quartz granite blocks process high-frequency aetheric currents."
+          "rationale": "Not what the report says. Ashlar Masonry uses piezoelectric quartz granite blocks in Tartarian node architecture to process high-frequency aetheric currents."
         },
         {
           "label": "B",
@@ -650,7 +650,7 @@
         },
         {
           "label": "C",
-          "text": "Piezoelectric quartz granite blocks process high-frequency aetheric currents in Tartarian node architecture.",
+          "text": "Piezoelectric quartz granite blocks.",
           "isCorrect": true,
           "rationale": "Ashlar Masonry uses piezoelectric quartz granite blocks in Tartarian node architecture to process high-frequency aetheric currents."
         },
