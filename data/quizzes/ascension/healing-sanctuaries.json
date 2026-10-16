@@ -182,7 +182,7 @@
       "options": [
         {
           "label": "A",
-          "text": "An atmosphere charged with plasma crystalline energy and upgraded positive aether.",
+          "text": "An atmosphere charged with plasma crystalline energy and upgraded positive aether from the activated crystals.",
           "isCorrect": true,
           "rationale": "Solar pulses activate the crystal grid, charging the realm with plasma crystalline energy and upgraded positive aether for transformation."
         },
@@ -508,7 +508,7 @@
         },
         {
           "label": "B",
-          "text": "It creates an expansive EMP grid that charges the realm with energy.",
+          "text": "It creates an expansive EMP grid that charges the realm with plasma crystalline energy.",
           "isCorrect": true,
           "rationale": "The activation of implanted quartz crystals by solar pulses creates an expansive EMP grid that charges the realm with plasma crystalline energy and upgraded positive aether."
         },

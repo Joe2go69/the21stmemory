@@ -28,7 +28,7 @@
         },
         {
           "label": "B",
-          "text": "Solar light pulses, an upgraded aetheric atmospheric field, and a subterranean quartz crystal array.",
+          "text": "An activated solar light pulse, an upgraded aetheric atmospheric field, and a global subterranean quartz crystal array.",
           "isCorrect": true,
           "rationale": "An activated solar pulse, an upgraded aetheric atmospheric field, and a global subterranean quartz array together form an all-encompassing EMP Grid and its power reservoir."
         },
@@ -118,7 +118,7 @@
       "options": [
         {
           "label": "A",
-          "text": "It hardens physically to protect the surface from incoming solar pulses, sealing the remaining population inside it.",
+          "text": "It hardens physically to protect the surface from incoming solar pulses.",
           "isCorrect": false,
           "rationale": "Not what the report says. Within approximately thirty seconds, the surrounding artificial simulation dome experiences severe pixilation and glitching, then dissolves and realigns with the Second Realm template."
         },
@@ -386,7 +386,7 @@
         },
         {
           "label": "C",
-          "text": "Opening a vast plasma crystalline portal above the realm for dimensional elevation.",
+          "text": "Opening a vast plasma crystalline portal above the realm to transport resonated individuals to higher vessels.",
           "isCorrect": true,
           "rationale": "The Third Flash instantiates a massive plasma crystalline portal above the realm, enabling resonated individuals to elevate while initiating planetary-scale healing for others."
         },
@@ -450,7 +450,7 @@
         },
         {
           "label": "C",
-          "text": "The New Aether atmospheric field infused with positive electromagnetic pulses.",
+          "text": "The New Aether, an upgraded atmospheric field infused with positive electromagnetic pulses.",
           "isCorrect": true,
           "rationale": "New Aether is an upgraded, high-frequency atmospheric and energetic medium infused with positive electromagnetic pulses that fuels planetary energy generation and portal synthesis."
         },

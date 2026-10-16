@@ -7,7 +7,19 @@
  * stronger tell than length. STOCK_TAILS lists every known clause; stripStockTails()
  * removes them, and lintQuiz()/lintCorpus() fail the build if any come back.
  *
- * CLI: node scripts/quiz-quality.js --stats | --fix | --lint
+ * Reverse length bias: rewrite passes that push the correct answer down to "never the
+ * longest" create the opposite tell ("skip the longest option"). reverseBiasFindings()
+ * measures, per series and per quiz, how often the correct option is uniquely the longest
+ * and uniquely the shortest (chance is ~25% each with four options):
+ *   - series (>= REVERSE_SERIES_MIN_MC multiple-choice questions): FAIL if correct is uniquely
+ *     longest in < REVERSE_LONGEST_FAIL_PCT% or uniquely shortest in > REVERSE_SHORTEST_FAIL_PCT%
+ *     (a clear tell); WARN below REVERSE_LONGEST_WARN_PCT% / above REVERSE_SHORTEST_WARN_PCT%.
+ *   - quiz (>= REVERSE_QUIZ_MIN_MC multiple-choice questions): WARN only, when the correct answer
+ *     is never uniquely longest or is uniquely shortest in > REVERSE_QUIZ_SHORTEST_WARN_PCT%.
+ * True/false questions are excluded. Per-quiz findings never fail the build, so a normal
+ * install of one new quiz is not blocked.
+ *
+ * CLI: node scripts/quiz-quality.js --stats | --fix | --lint | --warnings | --baseline
  */
 const fs = require("fs");
 const path = require("path");
@@ -350,6 +362,68 @@ function biasMetrics(corpus) {
   };
 }
 
+// Reverse length-bias thresholds (percent of multiple-choice questions; chance is ~25%).
+const REVERSE_SERIES_MIN_MC = 100;
+const REVERSE_LONGEST_FAIL_PCT = 10;
+const REVERSE_LONGEST_WARN_PCT = 15;
+const REVERSE_SHORTEST_FAIL_PCT = 45;
+const REVERSE_SHORTEST_WARN_PCT = 35;
+const REVERSE_QUIZ_MIN_MC = 15;
+const REVERSE_QUIZ_SHORTEST_WARN_PCT = 50;
+
+function lengthRank(q) {
+  if (isTrueFalse(q)) return null;
+  const opts = q.options || [];
+  const c = opts.find((o) => o.isCorrect);
+  const wl = opts.filter((o) => !o.isCorrect).map((o) => o.text.length);
+  if (!c || !wl.length) return null;
+  return { longest: c.text.length > Math.max(...wl), shortest: c.text.length < Math.min(...wl) };
+}
+
+function tally(questions) {
+  let mc = 0, longest = 0, shortest = 0;
+  for (const q of questions) {
+    const r = lengthRank(q);
+    if (!r) continue;
+    mc++;
+    if (r.longest) longest++;
+    if (r.shortest) shortest++;
+  }
+  const pct = (n) => (mc ? Math.round((1000 * n) / mc) / 10 : 0);
+  return { mc, longest, shortest, pctLongest: pct(longest), pctShortest: pct(shortest) };
+}
+
+/** Per-series and per-quiz reverse length bias. Returns { failures, warnings, series }. */
+function reverseBiasFindings(corpus) {
+  const failures = [];
+  const warnings = [];
+  const bySeries = {};
+  for (const { source, id, quiz } of corpus) {
+    const qs = quiz.questions || [];
+    (bySeries[source] = bySeries[source] || []).push(...qs);
+    const t = tally(qs);
+    if (t.mc < REVERSE_QUIZ_MIN_MC) continue;
+    if (t.longest === 0) {
+      warnings.push(`${source}/${id} [reverse-length-bias] correct answer is never uniquely longest (0/${t.mc} multiple-choice)`);
+    }
+    if (t.pctShortest > REVERSE_QUIZ_SHORTEST_WARN_PCT) {
+      warnings.push(`${source}/${id} [reverse-length-bias] correct answer is uniquely shortest in ${t.pctShortest}% (${t.shortest}/${t.mc})`);
+    }
+  }
+  const series = {};
+  for (const [source, qs] of Object.entries(bySeries)) {
+    const t = (series[source] = tally(qs));
+    if (t.mc < REVERSE_SERIES_MIN_MC) continue;
+    const msgL = `${source} [reverse-length-bias] correct answer is uniquely longest in only ${t.pctLongest}% of ${t.mc} multiple-choice questions (chance ~25%)`;
+    const msgS = `${source} [reverse-length-bias] correct answer is uniquely shortest in ${t.pctShortest}% of ${t.mc} multiple-choice questions (chance ~25%)`;
+    if (t.pctLongest < REVERSE_LONGEST_FAIL_PCT) failures.push(`${msgL}; fail below ${REVERSE_LONGEST_FAIL_PCT}%`);
+    else if (t.pctLongest < REVERSE_LONGEST_WARN_PCT) warnings.push(`${msgL}; warn below ${REVERSE_LONGEST_WARN_PCT}%`);
+    if (t.pctShortest > REVERSE_SHORTEST_FAIL_PCT) failures.push(`${msgS}; fail above ${REVERSE_SHORTEST_FAIL_PCT}%`);
+    else if (t.pctShortest > REVERSE_SHORTEST_WARN_PCT) warnings.push(`${msgS}; warn above ${REVERSE_SHORTEST_WARN_PCT}%`);
+  }
+  return { failures, warnings, series };
+}
+
 function readBaseline() {
   try {
     return JSON.parse(fs.readFileSync(BASELINE_FILE, 'utf8'));
@@ -372,6 +446,7 @@ function lintWarnings(root, corpus = loadCorpus(root)) {
       }
     }
   }
+  warnings.push(...reverseBiasFindings(corpus).warnings);
   return warnings;
 }
 
@@ -410,6 +485,7 @@ function lintCorpus(root) {
       );
     }
   }
+  failures.push(...reverseBiasFindings(corpus).failures);
   for (const m of mineDistractorOnlySuffixes(corpus)) {
     failures.push(
       `corpus [distractor-only-ending] "${m.suffix}" ends ${m.count} wrong answers in ${m.quizzes} quizzes and no correct answer`
@@ -431,6 +507,14 @@ module.exports = {
   biasMetrics,
   lengthRatio,
   absoluteDistractors,
+  reverseBiasFindings,
+  REVERSE_SERIES_MIN_MC,
+  REVERSE_LONGEST_FAIL_PCT,
+  REVERSE_LONGEST_WARN_PCT,
+  REVERSE_SHORTEST_FAIL_PCT,
+  REVERSE_SHORTEST_WARN_PCT,
+  REVERSE_QUIZ_MIN_MC,
+  REVERSE_QUIZ_SHORTEST_WARN_PCT,
   ABSOLUTE_RE,
   BASELINE_FILE,
   LENGTH_FAIL_RATIO,
