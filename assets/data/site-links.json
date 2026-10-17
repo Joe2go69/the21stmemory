@@ -1,4 +1,5 @@
 {
-  "_comment": "Shared outbound URLs used by navbar.json / footer.json via \"hrefKey\". Change a URL here once, then run npm run build:chrome && npm run sync:quiz-chrome && node scripts/sync-dive-chrome.js.",
+  "_comment": "Shared outbound URLs used by navbar.json / footer.json via \"hrefKey\" and by shop.html. Change a URL here once, then run npm run build:chrome && npm run sync:quiz-chrome && node scripts/sync-dive-chrome.js.",
+  "_shopNote": "shop.21stmemory.com is not connected yet (no DNS). Once its DNS points at Fourthwall, swap \"shop\" below (and the store links in shop.html) to https://shop.21stmemory.com.",
   "shop": "https://joe-ncb-shop.fourthwall.com"
 }

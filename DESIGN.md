@@ -11,7 +11,7 @@ Short guide for keeping the living-archive look consistent after the elevation p
 ## Navigation (IA)
 
 Primary bar (from `assets/data/navbar.json`): **Codex · Quizzes · Source · Network · Shop · Support · [Telegram]**  
-- Shop is the external merch store (Fourthwall), opens in a new tab. Its URL lives once in `assets/data/site-links.json` (`shop`), referenced by `"hrefKey": "shop"` in navbar.json and footer.json. Plain nav-link style, not a CTA.  
+- Shop is `shop.html`, an on-site page (dark/purple panel, gold support line, "Books, coming soon" note) whose buttons open the Fourthwall store in a new tab. The store URL lives in `assets/data/site-links.json` (`shop`) and in shop.html; it is the working storefront https://joe-ncb-shop.fourthwall.com until shop.21stmemory.com has DNS, then swap both. Support copy: "Every purchase supports Joe and helps keep 21st Memory alive and growing." Never imply the site could stop being free.  
 - Logo = Home (no separate Home link)  
 - Oracle / Media / About live on the homepage and in footer Explore — not top nav  
 - Source is `source.html` (original CH21 / Rumble transmissions). Top nav + footer Explore. Homepage Media and the Network callout stay as contextual doors. Do not add extra Source buttons on Codex/Quizzes hubs.  

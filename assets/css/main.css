@@ -24152,3 +24152,51 @@ button.support-way__share {
   }
 }
 
+
+/* ---------- Shop page (shop.html) ---------- */
+.page-shop .shop-panel {
+  position: relative;
+  overflow: hidden;
+  max-width: 48rem;
+  margin: 0 auto 2.5rem;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  background: radial-gradient(120% 140% at 50% 0%, rgba(124, 58, 237, 0.28) 0%, #1A1433 55%, #0F0A1F 100%);
+  border: 1px solid rgba(139, 61, 255, 0.45);
+  border-radius: 1.25rem;
+  box-shadow: 0 0 40px rgba(124, 58, 237, 0.18);
+}
+.page-shop .shop-panel__mark {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  font-size: clamp(9rem, 28vw, 16rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.06em;
+  color: #8B3DFF;
+  opacity: 0.09;
+  pointer-events: none;
+  user-select: none;
+}
+.page-shop .shop-panel > *:not(.shop-panel__mark) { position: relative; }
+.page-shop .shop-panel__title {
+  font-size: clamp(1.6rem, 3.5vw, 2.25rem);
+  font-weight: 600;
+  color: #F8FAFC;
+  margin-bottom: 0.75rem;
+}
+.page-shop .shop-panel__desc { color: rgba(248, 250, 252, 0.78); margin: 0 auto 1rem; max-width: 34rem; }
+.page-shop .shop-panel__support { color: #D97706; font-weight: 600; margin: 0 auto 1.75rem; max-width: 34rem; }
+.page-shop .shop-panel__actions { display: flex; justify-content: center; }
+.page-shop .shop-books {
+  max-width: 48rem;
+  margin: 0 auto 2.5rem;
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+  border: 1px dashed rgba(217, 119, 6, 0.45);
+  border-radius: 1rem;
+  background: rgba(26, 20, 51, 0.6);
+}
+.page-shop .shop-books__desc { color: rgba(248, 250, 252, 0.7); margin: 0; }
+.page-shop .shop-panel .section-eyebrow { justify-content: center; text-align: center; }
