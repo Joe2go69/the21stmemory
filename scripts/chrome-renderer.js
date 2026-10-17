@@ -397,6 +397,12 @@ function renderFooter(footerData, options = {}) {
 
   const supportCtaHTML = renderSupportCta(footerData, basePath);
 
+  // Small muted line under Explore (next to the Shop link). Reuses the
+  // existing footer-brand-desc style; footer-shop-note is a hook only.
+  const shopNoteHTML = footerData.shopNote
+    ? `\n            <p class="footer-brand-desc footer-shop-note">${footerData.shopNote}</p>`
+    : '';
+
   const copyrightHTML = footerData.copyright
     ? `<p class="footer-copyright">${footerData.copyright}</p>`
     : '';
@@ -427,7 +433,7 @@ function renderFooter(footerData, options = {}) {
             <div class="footer-heading">Explore</div>
             <div class="footer-link-list">
               ${quickLinksHTML}
-            </div>
+            </div>${shopNoteHTML}
           </div>
           <div class="footer-col footer-col--connect">
             <div class="footer-heading">Connect</div>
