@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "great-reset",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Great Reset",
+      "description": "The Great Reset is the accelerated custodial wipe of the human physical plane, pulled forward by more than 953 years after Roswell leaked solid-state electronics into public manufacturing.",
+      "topic_image": "images/revelations/great-reset.webp",
+      "path": "dive/revelations/great-reset.html",
+      "added": "2026-10-16T02:04:29-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "sky-net-1",
       "series": "A Brief Synopsis of Revelations",
       "title": "Sky-Net 1",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/ghost-stories.webp",
       "path": "dive/revelations/ghost-stories.html",
       "added": "2026-10-10"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "inner-earth",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Inner Earth",
-      "description": "The Inner Earth consists of subterranean inner-earth simulations maintained within the physical realm, functioning as specialized environmental pockets shielded from surface atmospheric purges and periodic reset cycles.",
-      "topic_image": "images/revelations/inner-earth.webp",
-      "path": "dive/revelations/inner-earth.html",
-      "added": "2026-10-07"
     }
   ],
   "featured": [

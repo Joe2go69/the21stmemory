@@ -1136,14 +1136,14 @@ const LATEST_COUNT = 12;
 
 /**
  * data/latest.json — slim homepage feed built from the dated manifest:
- *   recent:   newest live leaf topics by `added` (desc)
+ *   recent:   newest live topics by `added` (desc). A published parent counts
+ *             even when it still has coming-soon children.
  *   featured: "Start here" picks resolved from data/home-featured.json
  * home.js renders both; nothing on the client crawls topic files or git.
  */
 function writeLatest(pages) {
   const byKey = new Map();
   const seriesTitle = {};
-  const leaf = new Set();
   const sourcesData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'sources.json'), 'utf8'));
   const sourceOrder = (sourcesData.sources || []).map((s) => s.id);
   for (const sourceId of sourceOrder) {
@@ -1153,7 +1153,6 @@ function writeLatest(pages) {
     for (const e of bundle.entries) {
       const key = `${sourceId}/${e.item.id}`;
       byKey.set(key, e.item);
-      if (!e.item.subtopics?.length) leaf.add(key);
     }
   }
   const card = (p) => {
@@ -1172,7 +1171,7 @@ function writeLatest(pages) {
 
   const recent = pages
     .map((p, i) => ({ p, i }))
-    .filter(({ p }) => p.live && p.added && leaf.has(`${p.sourceId}/${p.topicId}`))
+    .filter(({ p }) => p.live && p.added)
     .sort((a, b) => compareAddedDesc(a.p.added, b.p.added) || b.i - a.i)
     .slice(0, LATEST_COUNT)
     .map(({ p }) => card(p));
