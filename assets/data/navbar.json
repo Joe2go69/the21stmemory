@@ -10,6 +10,7 @@
     { "text": "Quizzes", "href": "quizzes.html" },
     { "text": "Source", "href": "source.html" },
     { "text": "Network", "href": "network.html" },
+    { "text": "Shop", "hrefKey": "shop", "external": true, "newTab": true },
     { "text": "Support", "href": "support.html" }
   ],
   "cta": {

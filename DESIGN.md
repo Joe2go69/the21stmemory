@@ -10,7 +10,8 @@ Short guide for keeping the living-archive look consistent after the elevation p
 
 ## Navigation (IA)
 
-Primary bar (from `assets/data/navbar.json`): **Codex · Quizzes · Source · Network · Support · [Telegram]**  
+Primary bar (from `assets/data/navbar.json`): **Codex · Quizzes · Source · Network · Shop · Support · [Telegram]**  
+- Shop is the external merch store (Fourthwall), opens in a new tab. Its URL lives once in `assets/data/site-links.json` (`shop`), referenced by `"hrefKey": "shop"` in navbar.json and footer.json. Plain nav-link style, not a CTA.  
 - Logo = Home (no separate Home link)  
 - Oracle / Media / About live on the homepage and in footer Explore — not top nav  
 - Source is `source.html` (original CH21 / Rumble transmissions). Top nav + footer Explore. Homepage Media and the Network callout stay as contextual doors. Do not add extra Source buttons on Codex/Quizzes hubs.  

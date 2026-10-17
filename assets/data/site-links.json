@@ -1,0 +1,4 @@
+{
+  "_comment": "Shared outbound URLs used by navbar.json / footer.json via \"hrefKey\". Change a URL here once, then run npm run build:chrome && npm run sync:quiz-chrome && node scripts/sync-dive-chrome.js.",
+  "shop": "https://joe-ncb-shop.fourthwall.com"
+}

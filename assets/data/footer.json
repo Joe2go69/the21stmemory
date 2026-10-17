@@ -30,6 +30,11 @@
       "href": "support.html"
     },
     {
+      "text": "Shop",
+      "hrefKey": "shop",
+      "external": true
+    },
+    {
       "text": "Oracle",
       "href": "index.html#oracle"
     },
