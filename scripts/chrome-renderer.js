@@ -1,3 +1,6 @@
+const fs = require('fs');
+const path = require('path');
+
 const SITE_ICON_SVGS = {
   /* Telegram paper-plane (footer "chat" key) */
   chat: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg>',
@@ -43,6 +46,19 @@ function renderSupportNote(parts) {
       </div>`;
 }
 
+// Shared outbound URLs (e.g. the shop) live once in assets/data/site-links.json.
+// A nav/footer link can use "hrefKey": "shop" instead of a literal "href".
+const SITE_LINKS = JSON.parse(
+  fs.readFileSync(path.join(__dirname, '..', 'assets/data/site-links.json'), 'utf8')
+);
+
+function resolveHref(link) {
+  if (!link.hrefKey) return link.href;
+  const url = SITE_LINKS[link.hrefKey];
+  if (!url) throw new Error(`site-links.json has no "${link.hrefKey}" (used by "${link.text}")`);
+  return url;
+}
+
 function isExternalHref(href, explicit) {
   if (explicit) return true;
   return /^(https?:|mailto:)/i.test(href || '');
@@ -86,9 +102,10 @@ function dataNavValue(href) {
 
 function renderNavItem(link, className, basePath = '') {
   const isExternal = link.external || link.newTab || link.target === '_blank';
-  const href = withBasePath(link.href, basePath);
+  const rawHref = resolveHref(link);
+  const href = withBasePath(rawHref, basePath);
   const attrs = isExternal ? ' target="_blank" rel="noopener noreferrer"' : '';
-  const navKey = !isExternal ? dataNavValue(link.href) : '';
+  const navKey = !isExternal ? dataNavValue(rawHref) : '';
   const dataNav = navKey ? ` data-nav="${navKey}"` : '';
   return `<a href="${href}" class="${navLinkClasses(link, className)}"${dataNav}${attrs}>${link.text}</a>`;
 }
@@ -361,9 +378,11 @@ function renderFooter(footerData, options = {}) {
   const homeHref = withBasePath('index.html', basePath);
   const brandSubtitle = footerData.brand?.subtitle || 'Living Archive';
   const quickLinksHTML = footerData.quickLinks
-    ? footerData.quickLinks.map(link =>
-        `<a href="${withBasePath(link.href, basePath)}" class="footer-link">${link.text}</a>`
-      ).join('')
+    ? footerData.quickLinks.map(link => {
+        const href = resolveHref(link);
+        const attrs = isExternalHref(href, link.external) ? ' target="_blank" rel="noopener noreferrer"' : '';
+        return `<a href="${withBasePath(href, basePath)}" class="footer-link"${attrs}>${link.text}</a>`;
+      }).join('')
     : '';
 
   const socialsHTML = footerData.socials
@@ -377,6 +396,12 @@ function renderFooter(footerData, options = {}) {
     : '';
 
   const supportCtaHTML = renderSupportCta(footerData, basePath);
+
+  // Small muted line under Explore (next to the Shop link). Reuses the
+  // existing footer-brand-desc style; footer-shop-note is a hook only.
+  const shopNoteHTML = footerData.shopNote
+    ? `\n            <p class="footer-brand-desc footer-shop-note">${footerData.shopNote}</p>`
+    : '';
 
   const copyrightHTML = footerData.copyright
     ? `<p class="footer-copyright">${footerData.copyright}</p>`
@@ -408,7 +433,7 @@ function renderFooter(footerData, options = {}) {
             <div class="footer-heading">Explore</div>
             <div class="footer-link-list">
               ${quickLinksHTML}
-            </div>
+            </div>${shopNoteHTML}
           </div>
           <div class="footer-col footer-col--connect">
             <div class="footer-heading">Connect</div>

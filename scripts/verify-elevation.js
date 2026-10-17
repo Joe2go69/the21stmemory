@@ -38,7 +38,12 @@ function fileSize(rel) {
   check(g, 'nav Support is a page', navData.links.some((l) => l.text === 'Support' && l.href === 'support.html'));
   check(g, 'nav Source is a page', navData.links.some((l) => l.text === 'Source' && l.href === 'source.html'));
   const navTexts = navData.links.map((l) => l.text);
-  check(g, 'nav order Codex Quizzes Source Network Support', navTexts.join(' ') === 'Codex Quizzes Source Network Support');
+  check(g, 'nav order Codex Quizzes Source Network Shop Support', navTexts.join(' ') === 'Codex Quizzes Source Network Shop Support');
+  const siteLinks = JSON.parse(read('assets/data/site-links.json'));
+  check(g, 'nav Shop is the shop page', navData.links.some((l) => l.text === 'Shop' && l.href === 'shop.html') && exists('shop.html'));
+  const shopPage = exists('shop.html') ? read('shop.html') : '';
+  check(g, 'shop page links store (site-links) in new tab', /^https:\/\//.test(siteLinks.shop || '') && shopPage.includes(`href="${siteLinks.shop}" class="btn-primary" target="_blank" rel="noopener noreferrer"`));
+  check(g, 'shop copy never implies the site stops being free', shopPage.includes('Every purchase supports Joe and helps keep 21st Memory alive and growing.') && !/keeps? 21st Memory free/i.test(shopPage));
   check(g, 'footer slim CTA href', footerData.support?.cta?.href === 'support.html');
   check(g, 'support.html exists', exists('support.html'));
 

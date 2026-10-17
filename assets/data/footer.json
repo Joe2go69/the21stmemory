@@ -8,6 +8,7 @@
     "description": "A free companion archive of Thalon Thor’s transmissions."
   },
   "principle": "No religion · No finance · No gatekeeping",
+  "shopNote": "Every purchase supports Joe and helps keep 21st Memory alive and growing.",
   "quickLinks": [
     {
       "text": "Codex",
@@ -28,6 +29,10 @@
     {
       "text": "Support",
       "href": "support.html"
+    },
+    {
+      "text": "Shop",
+      "href": "shop.html"
     },
     {
       "text": "Oracle",
