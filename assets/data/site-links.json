@@ -1,5 +1,5 @@
 {
   "_comment": "Shared outbound URLs used by navbar.json / footer.json via \"hrefKey\" and by shop.html. Change a URL here once, then run npm run build:chrome && npm run sync:quiz-chrome && node scripts/sync-dive-chrome.js.",
-  "_shopNote": "Store custom domain (Fourthwall). ON HOLD: do not merge/deploy until shop.21stmemory.com is connected in Fourthwall (DNS live). Also used by the store button in shop.html.",
+  "_shopNote": "Store custom domain (Fourthwall). Also used by the store button in shop.html.",
   "shop": "https://shop.21stmemory.com"
 }
