@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "432-hertz",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "432 Hertz",
+      "description": "432 Hertz is the organic acoustic baseline that animates intent into physical form and was replaced by the artificial 440 Hertz tuning.",
+      "topic_image": "images/revelations/432-hertz.webp",
+      "path": "dive/revelations/432-hertz.html",
+      "added": "2026-10-19T09:10:11-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "free-energy",
       "series": "A Brief Synopsis of Revelations",
       "title": "Free Energy",
@@ -108,16 +118,6 @@
       "description": "Mudfloods—also recognized under the designations mudflood, Tartaria, and the 1728 protocol—represent an engineered planetary cataclysm deployed to submerge and obliterate the physical remnants of advanced human civilization.",
       "topic_image": "images/revelations/mudfloods.webp",
       "path": "dive/revelations/mudfloods.html",
-      "added": "2026-10-10"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "hate-chip",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Hate Chip",
-      "description": "The Hate Chip describes both the structural absence of organic malice within a true soul and the cybernetic implant infrastructure designed by custodial controllers to enforce total physical and cognitive subjugation.",
-      "topic_image": "images/revelations/hate-chip.webp",
-      "path": "dive/revelations/hate-chip.html",
       "added": "2026-10-10"
     }
   ],

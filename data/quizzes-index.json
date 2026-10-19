@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T15:08:59.295Z",
-  "total": 298,
+  "generatedAt": "2026-10-19T16:18:23.044Z",
+  "total": 299,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 102
+      "count": 103
     }
   ],
   "quizzes": [
@@ -2783,6 +2783,20 @@
       "diveHref": "dive/breakdown/water-domes.html",
       "key": "breakdown/water-domes",
       "order": 80
+    },
+    {
+      "id": "432-hertz",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "432 Hertz",
+      "subtitle": "Test your understanding of 432 Hertz — the organic acoustic baseline, solfeggio levitation, and the 440 Hertz lockout.",
+      "questionCount": 25,
+      "href": "quiz/revelations/432-hertz.html",
+      "diveHref": "dive/revelations/432-hertz.html",
+      "key": "revelations/432-hertz",
+      "order": 97
     },
     {
       "id": "8th-reset",

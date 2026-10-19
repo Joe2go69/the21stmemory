@@ -853,10 +853,10 @@
             {
               "id": "432-hertz",
               "title": "432 Hertz",
-              "description": "432 Hertz",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-07"
+              "description": "432 Hertz is the organic acoustic baseline that animates intent into physical form and was replaced by the artificial 440 Hertz tuning.",
+              "topic_image": "images/revelations/432-hertz.webp",
+              "is_placeholder": false,
+              "added": "2026-10-19T09:10:11-07:00"
             },
             {
               "id": "becker-hagens-grid",
