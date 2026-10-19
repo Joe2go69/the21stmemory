@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-16T09:11:51.018Z",
-  "total": 296,
+  "generatedAt": "2026-10-19T13:48:48.584Z",
+  "total": 297,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 100
+      "count": 101
     }
   ],
   "quizzes": [
@@ -2783,6 +2783,20 @@
       "diveHref": "dive/breakdown/water-domes.html",
       "key": "breakdown/water-domes",
       "order": 80
+    },
+    {
+      "id": "8th-reset",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "8th Reset",
+      "subtitle": "Test your understanding of 8th Reset — the final realm-3 cycle, the broken thousand-year clock, and the consent lures of 2017–2019.",
+      "questionCount": 25,
+      "href": "quiz/revelations/8th-reset.html",
+      "diveHref": "dive/revelations/8th-reset.html",
+      "key": "revelations/8th-reset",
+      "order": 88
     },
     {
       "id": "academic-distortion",

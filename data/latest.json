@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "8th-reset",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "8th Reset",
+      "description": "The eighth and final planetary reset, forced into 2017–2019 to harvest free-will consent through financial and technological lures.",
+      "topic_image": "images/revelations/8th-reset.webp",
+      "path": "dive/revelations/8th-reset.html",
+      "added": "2026-10-19T06:29:56-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "great-reset",
       "series": "A Brief Synopsis of Revelations",
       "title": "Great Reset",
@@ -108,16 +118,6 @@
       "description": "The Vril Club represents the definitive sold-soul initiation rite operating within elite hidden networks, defining the biological and energetic surrender of human vessels to off-world governance.",
       "topic_image": "images/revelations/vril-club.webp",
       "path": "dive/revelations/vril-club.html",
-      "added": "2026-10-10"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "ghost-stories",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Ghost Stories",
-      "description": "Ghost Stories represent a weaponised narrative and technological deception deployed to hijack human perception, validate the illusion of death, and systematically extract emotional energetic yield.",
-      "topic_image": "images/revelations/ghost-stories.webp",
-      "path": "dive/revelations/ghost-stories.html",
       "added": "2026-10-10"
     }
   ],
