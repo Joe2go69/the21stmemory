@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "free-energy",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Free Energy",
+      "description": "Ambient aetheric energy harvested from the atmosphere and stored in piezoelectric buildings that heat, cool, and heal without fuel.",
+      "topic_image": "images/revelations/free-energy.webp",
+      "path": "dive/revelations/free-energy.html",
+      "added": "2026-10-19T07:56:13-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "8th-reset",
       "series": "A Brief Synopsis of Revelations",
       "title": "8th Reset",
@@ -108,16 +118,6 @@
       "description": "The Hate Chip describes both the structural absence of organic malice within a true soul and the cybernetic implant infrastructure designed by custodial controllers to enforce total physical and cognitive subjugation.",
       "topic_image": "images/revelations/hate-chip.webp",
       "path": "dive/revelations/hate-chip.html",
-      "added": "2026-10-10"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "vril-club",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Vril Club",
-      "description": "The Vril Club represents the definitive sold-soul initiation rite operating within elite hidden networks, defining the biological and energetic surrender of human vessels to off-world governance.",
-      "topic_image": "images/revelations/vril-club.webp",
-      "path": "dive/revelations/vril-club.html",
       "added": "2026-10-10"
     }
   ],

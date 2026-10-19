@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T13:48:48.584Z",
-  "total": 297,
+  "generatedAt": "2026-10-19T15:08:59.295Z",
+  "total": 298,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 101
+      "count": 102
     }
   ],
   "quizzes": [
@@ -3161,6 +3161,20 @@
       "diveHref": "dive/revelations/five-brainwaves.html",
       "key": "revelations/five-brainwaves",
       "order": 23
+    },
+    {
+      "id": "free-energy",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Free Energy",
+      "subtitle": "Test your understanding of Free Energy — aetheric current, ley-grid banks, and the masonry circuit that heated and healed without fuel.",
+      "questionCount": 25,
+      "href": "quiz/revelations/free-energy.html",
+      "diveHref": "dive/revelations/free-energy.html",
+      "key": "revelations/free-energy",
+      "order": 93
     },
     {
       "id": "freemasonic-orders",

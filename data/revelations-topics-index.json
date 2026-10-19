@@ -819,10 +819,10 @@
             {
               "id": "free-energy",
               "title": "Free Energy",
-              "description": "Free Energy",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-07"
+              "description": "Ambient aetheric energy harvested from the atmosphere and stored in piezoelectric buildings that heat, cool, and heal without fuel.",
+              "topic_image": "images/revelations/free-energy.webp",
+              "is_placeholder": false,
+              "added": "2026-10-19T07:56:13-07:00"
             }
           ]
         },
