@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "becker-hagens-grid",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Becker Hagens Grid",
+      "description": "The Becker Hagens Grid is the foundational nodal lattice that maps the planetary distribution of natural aetheric energy and the coordinates where crystalline temples and Tartarian buildings harvested that current.",
+      "topic_image": "images/revelations/becker-hagens-grid.webp",
+      "path": "dive/revelations/becker-hagens-grid.html",
+      "added": "2026-10-19T17:38:58-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "432-hertz",
       "series": "A Brief Synopsis of Revelations",
       "title": "432 Hertz",
@@ -108,16 +118,6 @@
       "description": "The World Fairs were grand public exhibitions designed to display the operational machinery, Tartarian tech, and harmonic architecture inherited from the previous overlay.",
       "topic_image": "images/revelations/world-fairs.webp",
       "path": "dive/revelations/world-fairs.html",
-      "added": "2026-10-10"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "mudfloods",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Mudfloods",
-      "description": "Mudfloods—also recognized under the designations mudflood, Tartaria, and the 1728 protocol—represent an engineered planetary cataclysm deployed to submerge and obliterate the physical remnants of advanced human civilization.",
-      "topic_image": "images/revelations/mudfloods.webp",
-      "path": "dive/revelations/mudfloods.html",
       "added": "2026-10-10"
     }
   ],

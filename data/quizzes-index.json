@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T16:18:23.044Z",
-  "total": 299,
+  "generatedAt": "2026-10-20T00:49:58.076Z",
+  "total": 300,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 103
+      "count": 104
     }
   ],
   "quizzes": [
@@ -2909,6 +2909,20 @@
       "diveHref": "dive/revelations/banks-as-current.html",
       "key": "revelations/banks-as-current",
       "order": 92
+    },
+    {
+      "id": "becker-hagens-grid",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Becker Hagens Grid",
+      "subtitle": "Test your understanding of Becker Hagens Grid — the sixty-node lattice, the Gizeh anchor, and the buildings that harvested or capped its aetheric current.",
+      "questionCount": 25,
+      "href": "quiz/revelations/becker-hagens-grid.html",
+      "diveHref": "dive/revelations/becker-hagens-grid.html",
+      "key": "revelations/becker-hagens-grid",
+      "order": 98
     },
     {
       "id": "birth-bond",
