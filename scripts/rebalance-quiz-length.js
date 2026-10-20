@@ -1,4 +1,13 @@
 /**
+ * LEGACY MAINTENANCE TOOL — NOT FOR NEW QUIZ INSTALLS.
+ *
+ * This script rewrites option text (tightens correct answers, pads wrong ones) and
+ * was used to clean up old Alice quiz data. New quizzes must be written balanced by
+ * the author (see .grok/skills/add-quiz/SKILL.md) and installed with
+ * `node scripts/install.js quiz {source} {id}`, which only does a stable A–D shuffle
+ * (scripts/lib/quiz-shuffle.js) and never changes text. Do not run this on new quizzes,
+ * and do not call it from the install pipeline.
+ *
  * Rebalance quiz option lengths so "longest = correct" is not a reliable tell.
  *
  * Strategy (no stock / meta filler tails):
@@ -17,35 +26,9 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const LABELS = ['A', 'B', 'C', 'D'];
+// Shuffle helpers are shared with the install pipeline (scripts/lib/quiz-shuffle.js).
+const { LABELS, mulberry32, hashSeed, shuffle } = require('./lib/quiz-shuffle');
 const ALLOW_WRONG_PADDING = false;
-
-function mulberry32(a) {
-  return function () {
-    let t = (a += 0x6d2b79f5);
-    t = Math.imul(t ^ (t >>> 15), t | 1);
-    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
-}
-
-function hashSeed(str) {
-  let h = 2166136261;
-  for (let i = 0; i < str.length; i++) {
-    h ^= str.charCodeAt(i);
-    h = Math.imul(h, 16777619);
-  }
-  return h >>> 0;
-}
-
-function shuffle(arr, rand) {
-  const a = arr.slice();
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(rand() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
 
 function ensurePeriod(t) {
   t = (t || '').replace(/[ \t]{2,}/g, ' ').trim();

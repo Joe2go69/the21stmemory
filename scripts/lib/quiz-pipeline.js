@@ -4,8 +4,10 @@
  */
 const fs = require('fs');
 const path = require('path');
-const { finalizeOptions } = require('../quiz-option-utils');
-const { rebalanceQuizFile } = require('../rebalance-quiz-length');
+const { collapseTrueFalseOptions, isTrueFalseQuestion } = require('../quiz-option-utils');
+const { shuffleQuestionOptions } = require('./quiz-shuffle');
+const { checkQuizForInstall } = require('./quiz-quality');
+// Do NOT use rebalance-quiz-length.js here: it rewrites option text (legacy maintenance only).
 
 const ROOT = path.join(__dirname, '..', '..');
 
@@ -249,11 +251,12 @@ function applyQuiz(payload) {
       throw new Error(`Non-absolute voice in Q${n} stem: ${qText}`);
     }
 
-    const { options, correctAnswer } = finalizeOptions(
-      rawOptions,
-      `${topicId}-${n}`,
-      qText
-    );
+    // Text is kept exactly as written. T/F collapses to True (A) / False (B);
+    // multiple choice gets a stable-seed A–D shuffle (quiz id + question number).
+    const base = isTrueFalseQuestion(qText, rawOptions)
+      ? collapseTrueFalseOptions(rawOptions).options
+      : rawOptions;
+    const { options, correctAnswer } = shuffleQuestionOptions(topicId, n, base);
     questions.push({ number: n, question: qText, options, hint: hText, correctAnswer });
   }
 
@@ -285,11 +288,29 @@ function applyQuiz(payload) {
     questions
   };
 
+  // Lint before writing anything so a failed install leaves no half-installed quiz.
+  const check = checkQuizForInstall(ROOT, { source, id: topicId, quiz });
+  if (check.warnings.length) {
+    console.warn(`Quiz warnings (${check.warnings.length}) — fix these in the payload if you can:`);
+    check.warnings.forEach((w) => console.warn('  ' + w));
+  }
+  if (check.failures.length) {
+    const err = new Error(
+      [
+        `Quiz install FAILED for ${source}/${topicId}: ${check.failures.length} problem(s). Nothing was written.`,
+        ...check.failures.map((f) => '  - ' + f),
+        `Fix scripts/payloads/${topicId}.quiz.js (see .grok/skills/add-quiz/SKILL.md) and rerun install.`,
+        'Do not run rebalance-quiz-length.js or quiz-quality.js --fix/--baseline to get around this.'
+      ].join('\n')
+    );
+    err.quizLintFailed = true;
+    throw err;
+  }
+
   const quizDir = path.join(ROOT, 'data', 'quizzes', source);
   fs.mkdirSync(quizDir, { recursive: true });
   const quizJsonPath = path.join(quizDir, `${topicId}.json`);
   fs.writeFileSync(quizJsonPath, JSON.stringify(quiz, null, 2) + '\n', 'utf8');
-  const rebalanced = rebalanceQuizFile(quizJsonPath);
 
   const quizMeta = {
     href: `quiz/${source}/${topicId}.html`,
@@ -341,7 +362,7 @@ function applyQuiz(payload) {
     title,
     topicImage,
     seoDesc,
-    quiz: rebalanced.quiz
+    quiz
   });
   const htmlDir = path.join(ROOT, 'quiz', source);
   fs.mkdirSync(htmlDir, { recursive: true });
