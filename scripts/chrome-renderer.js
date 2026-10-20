@@ -211,15 +211,15 @@ function supportWayLinks(item, basePath) {
 function renderSupportPage(footerData, options = {}) {
   const basePath = options.basePath || '';
   const s = footerData.support || {};
-  const heading = s.heading || 'The archive stays open';
+  const heading = s.heading || 'Everything here is yours to use';
   const eyebrow = (s.eyebrow || '').trim();
   const resolver = (s.resolver || '').trim();
   const noteParts = supportMessageParts(s.note, ['Thank you for being here.']);
   const messages = supportMessageParts(s.message, [
-    'The transmissions were free at the source. They are free here. Nothing gated. Nothing owed.',
-    '21st Memory is a living archive I tend so this material is easier to find your way through — videos, reports, quizzes — then I point you back to the originals. I’m not the source. I’m a small branch of it.',
-    'I do this from a simple life on Vancouver Island with my cat Spooky. Spreading a page matters. So does the inner work: the higher you resonate, the more you remember, and the more the field can move.',
-    'A gift is never required. If you leave one, it goes to the ordinary 3D costs of keeping the lights on and the work growing — power, connection, tools, and food.',
+    'Every video, report summary and quiz on 21st Memory is open to watch, download and share. Nothing is locked, and support never unlocks anything.',
+    'The information comes from Christian’s transmissions, not from me. What I do is turn it into videos, pages and quizzes that are easier to find your way through, and then point you back to the originals. I’m not the source. I’m a small branch of it.',
+    'I do this from a simple life on Vancouver Island with my cat Spooky. I’m not working right now, and the AI tools that make the videos cost real money every month.',
+    '<strong>Where support goes:</strong> Power, internet, and the AI subscriptions used to make the videos. That’s it. If support runs out, the AI subscriptions are the first thing to go, and new videos stop.',
   ]);
   const fundsLabel = s.fundsLabel || 'Ways to support';
   const giveLabel = s.giveLabel || 'Ways to give';
