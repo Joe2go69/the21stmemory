@@ -451,8 +451,7 @@ function lintWarnings(root, corpus = loadCorpus(root)) {
 }
 
 /** Returns a list of failures for the whole corpus (empty = pass). */
-function lintCorpus(root) {
-  const corpus = loadCorpus(root);
+function lintCorpus(root, corpus = loadCorpus(root)) {
   const failures = [];
   for (const { source, id, quiz } of corpus) {
     for (const q of quiz.questions || []) {
@@ -494,6 +493,63 @@ function lintCorpus(root) {
   return failures;
 }
 
+// Install-time absolute-word list (wider than ABSOLUTE_RE, which is frozen to match the
+// corpus baseline). New quizzes should have none of these in wrong answers.
+const INSTALL_ABSOLUTE_RE = /\b(always|only|never|entirely|solely|forever|completely|nothing but|no other)\b/i;
+const INSTALL_MAX_ABSOLUTE_DISTRACTORS = 2;
+const INSTALL_MAX_PCT_LONGEST = 50;
+
+/**
+ * Check one quiz before it is installed. The quiz is linted in the context of the
+ * whole corpus (it replaces any existing copy with the same source/id), so the
+ * series reverse-bias check and the corpus ratchet see it too.
+ * Returns { failures, warnings } — failures block the install, warnings only print.
+ */
+function checkQuizForInstall(root, { source, id, quiz }) {
+  const existing = loadCorpus(root).filter((e) => !(e.source === source && e.id === id));
+  const corpus = [...existing, { source, id, file: null, quiz }];
+  const prefix = `${source}/${id} `;
+  const before = new Set(lintCorpus(root, existing).map((f) => f.replace(/\d+(\.\d+)?/g, '#')));
+
+  const failures = lintCorpus(root, corpus).filter(
+    (f) => f.startsWith(prefix) || !before.has(f.replace(/\d+(\.\d+)?/g, '#'))
+  );
+
+  const qs = quiz.questions || [];
+  if (qs.length !== 25) failures.push(`${prefix}[question-count] ${qs.length} questions (expected 25)`);
+  const absolutes = [];
+  for (const q of qs) {
+    if (isTrueFalse(q)) continue;
+    for (const o of q.options || []) {
+      if (!o.isCorrect && INSTALL_ABSOLUTE_RE.test(o.text)) {
+        absolutes.push(`Q${q.number} ${o.label}: "${o.text.match(INSTALL_ABSOLUTE_RE)[0]}"`);
+      }
+    }
+  }
+  if (absolutes.length > INSTALL_MAX_ABSOLUTE_DISTRACTORS) {
+    failures.push(
+      `${prefix}[absolute-distractor] ${absolutes.length} wrong answers use absolute words (max ${INSTALL_MAX_ABSOLUTE_DISTRACTORS}): ${absolutes.join('; ')}`
+    );
+  }
+  const t = tally(qs);
+  if (t.mc && t.pctLongest > INSTALL_MAX_PCT_LONGEST) {
+    failures.push(
+      `${prefix}[length-bias] correct answer is uniquely longest in ${t.pctLongest}% of multiple-choice questions (max ${INSTALL_MAX_PCT_LONGEST}%, target ~25%)`
+    );
+  }
+
+  const warnings = lintWarnings(root, corpus).filter((w) => w.startsWith(prefix));
+  if (absolutes.length && absolutes.length <= INSTALL_MAX_ABSOLUTE_DISTRACTORS) {
+    warnings.push(`${prefix}[absolute-distractor] wrong answers with absolute words: ${absolutes.join('; ')}`);
+  }
+  for (const q of qs) {
+    if (isTrueFalse(q)) continue;
+    const c = (q.options || []).find((o) => o.isCorrect);
+    if (c && c.text.includes(';')) warnings.push(`${prefix}Q${q.number} [semicolon] correct answer has a semicolon; keep it to one clause`);
+  }
+  return { failures, warnings };
+}
+
 module.exports = {
   STOCK_TAILS,
   stripStockTails,
@@ -508,6 +564,7 @@ module.exports = {
   lengthRatio,
   absoluteDistractors,
   reverseBiasFindings,
+  checkQuizForInstall,
   REVERSE_SERIES_MIN_MC,
   REVERSE_LONGEST_FAIL_PCT,
   REVERSE_LONGEST_WARN_PCT,

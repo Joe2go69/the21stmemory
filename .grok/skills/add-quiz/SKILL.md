@@ -16,8 +16,9 @@ Do not read `install.js`, pipeline, or option-utils files unless Verify or lint 
 
 Title must match the topic title in that JSON exactly.
 
-The quiz page shuffles question order and A–D labels on Begin, so do not worry about letter order.
-IMPORTANT: The installer does NOT pad or balance wrong answers. YOU must write wrong answers that are as long, specific, and believable as the correct one. The site build rejects quizzes with giveaway answers.
+The installer does a stable A–D shuffle (seeded by quiz id + question number; True/False stays True then False), and the quiz page shuffles again on Begin, so do not worry about letter order.
+IMPORTANT: The installer does NOT pad, trim, or balance answers. It keeps your text exactly. YOU must write wrong answers that are as long, specific, and believable as the correct one.
+The installer lints the quiz before writing anything. If lint fails, it exits non-zero, lists every problem, and installs nothing. Fix the payload and rerun.
 
 ## Steps
 
@@ -34,6 +35,8 @@ IMPORTANT: The installer does NOT pad or balance wrong answers. YOU must write w
 8. Run the self-check at the bottom of this skill. Fix anything that fails, then reinstall.
 9. Stop after Verify passed and lint passed. Do not start a server, open the page, walk the UI, or launch /review.
 10. Never run `quiz-quality.js --baseline` or `--fix`, and never edit `scripts/lib/quiz-quality*`. Those are maintenance tools, not install steps.
+    - Do NOT run `scripts/rebalance-quiz-length.js` (or `rebalance-quiz-options.js`, `polish-severe-*.js`) on new quizzes. It is a legacy maintenance tool for old Alice data and rewrites answer text.
+    - After install, always run `npm run lint:quizzes` and `node scripts/quiz-quality.js --warnings 200`, and fix every flag that names this quiz before finishing.
 11. Quiz install must not restamp `added`. The homepage "Recently added" date stays the topic publish time already in the data.
 
 When asked to review, commit, and push after this install: do not launch the review skill. Confirm Verify and lint passed, then stage only this quiz's payload, data, dive/quiz HTML, hub, and sitemap files (neighbor dive rebuilds are expected). Commit `Add {Title} Living Truth quiz.` and push only if asked. Do not write long memory notes.
