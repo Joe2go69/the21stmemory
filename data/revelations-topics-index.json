@@ -913,10 +913,10 @@
             {
               "id": "spirit-tree",
               "title": "Spirit Tree",
-              "description": "The Spirit Tree as the organic axis of this realm's circuitboard.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-09-13"
+              "description": "The Spirit Tree at the geographic center of the physical plane is the supermassive botanical antenna that channels aetheric energy through its root network into the subterranean mineral circuit.",
+              "topic_image": "images/revelations/spirit-tree.webp",
+              "is_placeholder": false,
+              "added": "2026-10-19T22:13:30-07:00"
             },
             {
               "id": "cain-periphery",

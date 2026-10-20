@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-20T00:49:58.076Z",
-  "total": 300,
+  "generatedAt": "2026-10-20T05:24:48.920Z",
+  "total": 301,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 104
+      "count": 105
     }
   ],
   "quizzes": [
@@ -3973,6 +3973,20 @@
       "diveHref": "dive/revelations/sovereign-accord.html",
       "key": "revelations/sovereign-accord",
       "order": 24
+    },
+    {
+      "id": "spirit-tree",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Spirit Tree",
+      "subtitle": "Test your understanding of Spirit Tree — the central biological antenna, the subterranean mineral circuit, and the flat plane under the Great Dome.",
+      "questionCount": 25,
+      "href": "quiz/revelations/spirit-tree.html",
+      "diveHref": "dive/revelations/spirit-tree.html",
+      "key": "revelations/spirit-tree",
+      "order": 104
     },
     {
       "id": "square-mile",
