@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T04:29:45.432Z",
-  "total": 302,
+  "generatedAt": "2026-10-21T22:08:07.939Z",
+  "total": 303,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 106
+      "count": 107
     }
   ],
   "quizzes": [
@@ -3553,6 +3553,20 @@
       "diveHref": "dive/revelations/medical-harvest.html",
       "key": "revelations/medical-harvest",
       "order": 57
+    },
+    {
+      "id": "mineral-components",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Mineral Components",
+      "subtitle": "Test your understanding of Mineral Components — the planetary Organic Circuitboard, deposit types, extracted copper, and the monetary value lure.",
+      "questionCount": 25,
+      "href": "quiz/revelations/mineral-components.html",
+      "diveHref": "dive/revelations/mineral-components.html",
+      "key": "revelations/mineral-components",
+      "order": 106
     },
     {
       "id": "mission-insertion",

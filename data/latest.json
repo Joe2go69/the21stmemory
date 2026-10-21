@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "mineral-components",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Mineral Components",
+      "description": "Mineral Components are the intentionally placed, grown physical micro-hardware elements embedded within the Earth's crust that constitute the planetary Organic Circuitboard.",
+      "topic_image": "images/revelations/mineral-components.webp",
+      "path": "dive/revelations/mineral-components.html",
+      "added": "2026-10-21T15:01:19-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "cain-periphery",
       "series": "A Brief Synopsis of Revelations",
       "title": "Cain Periphery",
@@ -108,16 +118,6 @@
       "description": "Technology Swaps represent the covert pipeline through which non-terrestrial hardware, exotic material science, and advanced electronic architectures are transferred into human society, replacing genuine internal research with reverse-engineered salvaged artifacts.",
       "topic_image": "images/revelations/technology-swaps.webp",
       "path": "dive/revelations/technology-swaps.html",
-      "added": "2026-10-14"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "petrified-giants",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Petrified Giants",
-      "description": "Petrified Giants refers to the historical cataclysm during earlier planetary resets wherein hundreds of Anakim and other giant species were subjected to targeted attack by parasitic forces using advanced energy weapons, resulting in their physical bodies being literally turned to stone.",
-      "topic_image": "images/revelations/petrified-giants.webp",
-      "path": "dive/revelations/petrified-giants.html",
       "added": "2026-10-14"
     }
   ],

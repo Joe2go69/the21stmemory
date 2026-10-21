@@ -3276,9 +3276,9 @@
       "sourceId": "revelations",
       "topicId": "mineral-components",
       "path": "/dive/revelations/mineral-components.html",
-      "live": false,
+      "live": true,
       "title": "Mineral Components",
-      "added": "2026-09-13"
+      "added": "2026-10-21T15:01:19-07:00"
     },
     {
       "sourceId": "revelations",

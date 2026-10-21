@@ -931,10 +931,10 @@
         {
           "id": "mineral-components",
           "title": "Mineral Components",
-          "description": "The mineral layer of the organic circuitboard — crystals, metals, and ground current.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
-          "added": "2026-09-13"
+          "description": "Mineral Components are the intentionally placed, grown physical micro-hardware elements embedded within the Earth's crust that constitute the planetary Organic Circuitboard.",
+          "topic_image": "images/revelations/mineral-components.webp",
+          "is_placeholder": false,
+          "added": "2026-10-21T15:01:19-07:00"
         },
         {
           "id": "living-garden",
