@@ -921,10 +921,10 @@
             {
               "id": "cain-periphery",
               "title": "Cain Periphery",
-              "description": "Cain and Abel as a periphery story of the original garden, not a desert morality tale.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-09-13"
+              "description": "The Cain Periphery is the spiritual and physical state of nomadic exile and discoherence resulting from expulsion from the central, vertical channel of divine communication.",
+              "topic_image": "images/revelations/cain-periphery.webp",
+              "is_placeholder": false,
+              "added": "2026-10-20T21:17:36-07:00"
             }
           ]
         },

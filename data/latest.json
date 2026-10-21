@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "cain-periphery",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Cain Periphery",
+      "description": "The Cain Periphery is the spiritual and physical state of nomadic exile and discoherence resulting from expulsion from the central, vertical channel of divine communication.",
+      "topic_image": "images/revelations/cain-periphery.webp",
+      "path": "dive/revelations/cain-periphery.html",
+      "added": "2026-10-20T21:17:36-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "spirit-tree",
       "series": "A Brief Synopsis of Revelations",
       "title": "Spirit Tree",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/petrified-giants.webp",
       "path": "dive/revelations/petrified-giants.html",
       "added": "2026-10-14"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "positive-loosh",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Positive Loosh",
-      "description": "Positive Loosh—also designated as the positive current or positive energy—is the high-vibrational, uncorrupted energetic force generated through states of love, empathy, joy, happiness, pleasure, calmness, tranquility, sympathy, and kindness.",
-      "topic_image": "images/revelations/positive-loosh.webp",
-      "path": "dive/revelations/positive-loosh.html",
-      "added": "2026-10-10"
     }
   ],
   "featured": [

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-20T05:24:48.920Z",
-  "total": 301,
+  "generatedAt": "2026-10-21T04:29:45.432Z",
+  "total": 302,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 105
+      "count": 106
     }
   ],
   "quizzes": [
@@ -2951,6 +2951,20 @@
       "diveHref": "dive/revelations/bone-vaults.html",
       "key": "revelations/bone-vaults",
       "order": 63
+    },
+    {
+      "id": "cain-periphery",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Cain Periphery",
+      "subtitle": "Test your understanding of Cain Periphery — exile on the spinning edge, horizontal smoke, land-sickness, and the Watch the Water inversion.",
+      "questionCount": 25,
+      "href": "quiz/revelations/cain-periphery.html",
+      "diveHref": "dive/revelations/cain-periphery.html",
+      "key": "revelations/cain-periphery",
+      "order": 105
     },
     {
       "id": "chemtrail-portals",
