@@ -947,10 +947,10 @@
             {
               "id": "miracle-soil",
               "title": "Miracle Soil",
-              "description": "Amazonian soil and other miracle grounds that should not exist under the overlay story.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-09-13"
+              "description": "Miracle Soil, also called Amazonian Soil or terra preta, is an engineered, self-sustaining soil matrix spanning millions of square miles across the Amazon Basin.",
+              "topic_image": "images/revelations/miracle-soil.webp",
+              "is_placeholder": false,
+              "added": "2026-10-22T20:42:27-07:00"
             },
             {
               "id": "impossible-trees",

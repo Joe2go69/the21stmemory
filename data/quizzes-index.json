@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T00:59:17.149Z",
-  "total": 304,
+  "generatedAt": "2026-10-23T03:48:31.178Z",
+  "total": 305,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 108
+      "count": 109
     }
   ],
   "quizzes": [
@@ -3581,6 +3581,20 @@
       "diveHref": "dive/revelations/mineral-components.html",
       "key": "revelations/mineral-components",
       "order": 106
+    },
+    {
+      "id": "miracle-soil",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Miracle Soil",
+      "subtitle": "Test your understanding of Miracle Soil — the engineered Amazonian matrix of biochar, bones, and terracotta that holds fertility without chemical inputs.",
+      "questionCount": 25,
+      "href": "quiz/revelations/miracle-soil.html",
+      "diveHref": "dive/revelations/miracle-soil.html",
+      "key": "revelations/miracle-soil",
+      "order": 108
     },
     {
       "id": "mission-insertion",

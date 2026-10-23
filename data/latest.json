@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "miracle-soil",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Miracle Soil",
+      "description": "Miracle Soil, also called Amazonian Soil or terra preta, is an engineered, self-sustaining soil matrix spanning millions of square miles across the Amazon Basin.",
+      "topic_image": "images/revelations/miracle-soil.webp",
+      "path": "dive/revelations/miracle-soil.html",
+      "added": "2026-10-22T20:42:27-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "living-garden",
       "series": "A Brief Synopsis of Revelations",
       "title": "Living Garden",
@@ -108,16 +118,6 @@
       "description": "FEMA Camps are designated containment facilities constructed to house the unvaccinated until official regulatory approval enabled systematic forced vaccination.",
       "topic_image": "images/revelations/fema-camps.webp",
       "path": "dive/revelations/fema-camps.html",
-      "added": "2026-10-15"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "ssp-psyops",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "SSP Psyops",
-      "description": "The SSP Psyops constitute a manufactured, multi-layered deceptive campaign constructed to occupy human consciousness with elaborate off-world narratives and false disclosure frameworks.",
-      "topic_image": "images/revelations/ssp-psyops.webp",
-      "path": "dive/revelations/ssp-psyops.html",
       "added": "2026-10-15"
     }
   ],
