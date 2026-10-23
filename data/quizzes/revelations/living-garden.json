@@ -1,0 +1,772 @@
+{
+  "id": "living-garden",
+  "topicId": "living-garden",
+  "sourceId": "revelations",
+  "topicTitle": "Living Garden",
+  "title": "Living Garden",
+  "subtitle": "Test your understanding of Living Garden — the engineered Amazon Basin of Terra preta, Brazil nut trees, and the Peach Palm.",
+  "totalQuestions": 25,
+  "extractedAt": "2026-10-23T00:59:05.246Z",
+  "reflection": {
+    "title": "Reflection",
+    "body": "The basin holds together as one planted system: miracle soil underfoot, a pollination loop that collapses if the orchids go, and a palm with no wild ancestor. Notice which piece fails when any partner is removed."
+  },
+  "relatedTopic": {
+    "href": "/dive/revelations/living-garden.html",
+    "label": "Return to Living Garden deep-dive"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "question": "What limitation of natural Amazonian Oxisols does the engineered soil overcome?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Needle-sharp trunk spines driven by rows of black wood along the palm trunk.",
+          "isCorrect": false,
+          "rationale": "Black trunk spines belong to the Peach Palm, not to the thin acidic Oxisols of the forest floor."
+        },
+        {
+          "label": "B",
+          "text": "Phosphorus and calcium crusts driven by dissolved animal and fish bones.",
+          "isCorrect": false,
+          "rationale": "Animal and fish bones were added to Terra preta to supply phosphorus and calcium; Oxisols are nutrient-poor ground, not a mineral crust."
+        },
+        {
+          "label": "C",
+          "text": "Locked canopy moisture driven by a porous carbon matrix under the trees.",
+          "isCorrect": false,
+          "rationale": "The porous carbon matrix belongs to the engineered soil, while Oxisols lose minerals under heavy tropical rain."
+        },
+        {
+          "label": "D",
+          "text": "Mineral leaching and high acidity driven by heavy tropical rainfall.",
+          "isCorrect": true,
+          "rationale": "Unmodified Oxisols are thin, highly acidic, and nutrient-poor because heavy tropical rains constantly leach away vital minerals."
+        }
+      ],
+      "hint": "Look at the soil-architecture section on unmodified Amazonian ground.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 2,
+      "question": "What job does pyrogenic carbon perform inside the engineered Amazonian soil?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A dissolved bone supply that saturates the ground with phosphorus and calcium.",
+          "isCorrect": false,
+          "rationale": "Phosphorus and calcium come from animal and fish bones dissolving in the matrix, not from the pyrogenic carbon itself."
+        },
+        {
+          "label": "B",
+          "text": "A porous substrate that locks moisture, slows nutrient loss, and stores carbon.",
+          "isCorrect": true,
+          "rationale": "Biochar is produced by smoldering woody biomass to generate highly porous pyrogenic carbon that locks in moisture, prevents mineral leaching, and stores carbon for millennia."
+        },
+        {
+          "label": "C",
+          "text": "A crushed pottery lattice that stores water and anchors mycorrhizal fungi colonies.",
+          "isCorrect": false,
+          "rationale": "Water pockets and fungal anchor points are the job of crushed terracotta, while pyrogenic carbon is the porous moisture-holding framework."
+        },
+        {
+          "label": "D",
+          "text": "A compost layer that builds organic carbon faster than the matrix breaks it down.",
+          "isCorrect": false,
+          "rationale": "Building organic carbon faster than it decomposes is what Terra preta does once layered with organic compost, not the separate job of the stable carbon."
+        }
+      ],
+      "hint": "Look at what low-oxygen treatment of woody biomass leaves behind in the soil.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 3,
+      "question": "How did phosphorus and calcium enter the Terra preta matrix?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Woody Brazil nut pods blended into the soil, buried beside the parent trees.",
+          "isCorrect": false,
+          "rationale": "Agoutis bury Brazil nut seeds near the parent tree; the soil minerals come from dissolved animal and fish bones."
+        },
+        {
+          "label": "B",
+          "text": "Animal and fish bones blended into the soil, dissolving over the centuries.",
+          "isCorrect": true,
+          "rationale": "Animal and fish bones were blended into the matrix, dissolving over centuries to saturate the ground with phosphorus and calcium."
+        },
+        {
+          "label": "C",
+          "text": "Black palm trunk spines blended into the soil, carved into hunting spears.",
+          "isCorrect": false,
+          "rationale": "Peach Palm spines are stripped to expose marajá wood, while phosphorus and calcium enter the soil from bones."
+        },
+        {
+          "label": "D",
+          "text": "Canopy bucket orchids blended into the soil, crushed into courtship perfume.",
+          "isCorrect": false,
+          "rationale": "Bucket orchids supply aromatic compounds for male orchid bees, not the phosphorus and calcium in the soil."
+        }
+      ],
+      "hint": "Look at the mineral inputs blended into the soil besides charcoal and pottery.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What do the crushed terracotta fragments do inside Terra preta?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They form porous carbon pockets that lock moisture and store pyrogenic carbon for millennia.",
+          "isCorrect": false,
+          "rationale": "Locking moisture and storing carbon for millennia is the job of biochar, not of the terracotta fragments."
+        },
+        {
+          "label": "B",
+          "text": "They form structural microbial reefs that hold water pockets and give mycorrhizal fungi anchor points.",
+          "isCorrect": true,
+          "rationale": "Millions of crushed terracotta fragments act as structural microbial reefs that hold water pockets and provide anchor points for mycorrhizal fungi."
+        },
+        {
+          "label": "C",
+          "text": "They form calcium oxalate needles that irritate mucous membranes until a salt boil neutralizes them.",
+          "isCorrect": false,
+          "rationale": "Calcium oxalate crystals sit in raw Peach Palm fruit, while terracotta fragments are microbial reefs in the soil."
+        },
+        {
+          "label": "D",
+          "text": "They form courtship-scent pockets that store the aromatic compounds gathered for male bees.",
+          "isCorrect": false,
+          "rationale": "Male bees store aromatic compounds as courtship perfume; terracotta fragments are microbial reefs in the soil."
+        }
+      ],
+      "hint": "Look at the pottery pieces mixed through the engineered soil.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 5,
+      "question": "How large is the productivity change claimed for this finished miracle soil?",
+      "options": [
+        {
+          "label": "A",
+          "text": "An 800% crop gain over ordinary tropical ground.",
+          "isCorrect": true,
+          "rationale": "Layered with organic compost, Terra preta can increase agricultural crop yields by up to 800%."
+        },
+        {
+          "label": "B",
+          "text": "A 95% crop gain in the centuries after a reset event.",
+          "isCorrect": false,
+          "rationale": "The figure above 95% refers to recorded civilizations wiped out in reset events, not to crop yields."
+        },
+        {
+          "label": "C",
+          "text": "A 90% crop gain across the planted Amazon canopy.",
+          "isCorrect": false,
+          "rationale": "The 90% figure is how much of the basin the engineered soil covers, not the crop-yield change."
+        },
+        {
+          "label": "D",
+          "text": "A 10% crop gain where crushed pottery enters the dirt.",
+          "isCorrect": false,
+          "rationale": "The 10% figure is the observed pottery-shard ratio in the soil, not a crop-yield change."
+        }
+      ],
+      "hint": "Look at the yield figure attached to the finished soil in the soil section.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 6,
+      "question": "Which ceramic figure matches the pottery fraction measured in the basin soil?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Baking 14 trillion 5-kilogram clay pots for the minimal 1% shard ratio.",
+          "isCorrect": false,
+          "rationale": "Fourteen trillion 5-kilogram pots is the count at a minimal 1% ratio; the observed ratio is 10%."
+        },
+        {
+          "label": "B",
+          "text": "Firing 140 trillion individual clay pots for the observed 10% shard ratio.",
+          "isCorrect": true,
+          "rationale": "Manufacturing the embedded pottery shards at a 10% soil ratio would require firing 140 trillion individual clay pots weighing 70 billion tons."
+        },
+        {
+          "label": "C",
+          "text": "Hauling 1,023 cubic miles of dirt, enough to bury Texas under a foot of soil.",
+          "isCorrect": false,
+          "rationale": "The 1,023 cubic miles describes the half-meter soil volume, not the count of clay pots."
+        },
+        {
+          "label": "D",
+          "text": "Scattering domestic waste across isolated 350-hectare patches for a few thousand years.",
+          "isCorrect": false,
+          "rationale": "Isolated 350-hectare patches over 2,000 to 7,000 years is the academic waste story, not the measured pottery fraction."
+        }
+      ],
+      "hint": "Look at the pot-count arithmetic in the Terra preta scale section.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 7,
+      "question": "Which picture matches a half-meter layer spread across the Amazon Basin?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Enough patches to match isolated 350-hectare dumps from a few thousand years.",
+          "isCorrect": false,
+          "rationale": "The 350-hectare patch story is the academic account the volume measurement is set against."
+        },
+        {
+          "label": "B",
+          "text": "Enough trees to match 417 million canopy giants cached by forest rodents.",
+          "isCorrect": false,
+          "rationale": "The 417 million figure counts Brazil nut trees, and rodent caching is rejected as the cause of that stand."
+        },
+        {
+          "label": "C",
+          "text": "Enough soil to fill Lake Michigan and still bury Texas under a foot of dirt.",
+          "isCorrect": true,
+          "rationale": "A half-meter depth equals 1,023 cubic miles of soil, a volume sufficient to fill Lake Michigan completely from floor to surface, with leftover dirt for Texas."
+        },
+        {
+          "label": "D",
+          "text": "Enough shards to match 14 trillion 5-kilogram pots fired for a minimal 1% mix.",
+          "isCorrect": false,
+          "rationale": "Fourteen trillion pots is the 1% pottery count, not the picture of the half-meter soil volume."
+        }
+      ],
+      "hint": "Look at the volume comparisons in the Terra preta scale section.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 8,
+      "question": "True or False: Terra preta is a scatter of isolated 350-hectare patches that primitive tribes built from domestic compost over 2,000 to 7,000 years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "That patch story is the mainstream attribution; the measured layer covers over 90% of the terrain across 2.7 million square miles."
+        },
+        {
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "Terra preta covers over 90% of the terrain across 2.7 million square miles at an average depth of 0.5 meters, a volume of 3.50 trillion cubic meters."
+        }
+      ],
+      "hint": "Look at the measured coverage and depth beside the academic patch story.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 9,
+      "question": "Which animal can open the Brazil nut flower and fertilize it?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The agouti on the forest floor, gnawing woody pods and burying the spare seeds nearby.",
+          "isCorrect": false,
+          "rationale": "The agouti opens fallen pods on the ground and does not pollinate flowers in the canopy."
+        },
+        {
+          "label": "B",
+          "text": "The honeybee at the yellow bloom, pressing the coiled hood aside during the rainy season.",
+          "isCorrect": false,
+          "rationale": "Standard insects like honeybees lack the physical power to open the heavy floral hood."
+        },
+        {
+          "label": "C",
+          "text": "The male Euglossine bee, packing bucket-orchid fragrance into the cavities on his legs.",
+          "isCorrect": false,
+          "rationale": "Male orchid bees harvest scent for courtship perfume; the females are the ones that force the floral hood open."
+        },
+        {
+          "label": "D",
+          "text": "The female Euglossine bee, lifting the heavy floral hood and carrying pollen across her back.",
+          "isCorrect": true,
+          "rationale": "Only large, exceptionally strong female Euglossine orchid bees lift the hood and are described transferring pollen across their backs."
+        }
+      ],
+      "hint": "Look at the pollination step in the Brazil nut reproductive loop.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 10,
+      "question": "How long does each Brazil nut flower stay open?",
+      "options": [
+        {
+          "label": "A",
+          "text": "One 500-year span, set aside for the life of the canopy giant.",
+          "isCorrect": false,
+          "rationale": "About 500 years is the life of the Brazil nut tree, not the time a single flower stays open."
+        },
+        {
+          "label": "B",
+          "text": "One 24-hour day, set at the start of the rainy season.",
+          "isCorrect": true,
+          "rationale": "Bright yellow flowers bloom at the start of the rainy season, remaining open for only a single 24-hour day."
+        },
+        {
+          "label": "C",
+          "text": "One 14-month stretch, set aside for the woody pod to mature.",
+          "isCorrect": false,
+          "rationale": "Fourteen months is the time for a pollinated flower to become a pod, not the length of the bloom."
+        },
+        {
+          "label": "D",
+          "text": "One 1-to-2-hour boil, set aside for neutralizing raw palm fruit.",
+          "isCorrect": false,
+          "rationale": "One to two hours of boiling applies to raw Peach Palm fruit, not to the Brazil nut bloom."
+        }
+      ],
+      "hint": "Look at the bloom window described with the flower fortress.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 11,
+      "question": "Why do male orchid bees collect aromatic compounds from canopy bucket orchids?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They cache those scents as buried seed stores within 100 meters of the tree.",
+          "isCorrect": false,
+          "rationale": "Burying seeds within 100 meters is the agouti's work, not the male bee's use of orchid scent."
+        },
+        {
+          "label": "B",
+          "text": "They carry those scents as pollen loads that fertilize the Brazil nut blossom.",
+          "isCorrect": false,
+          "rationale": "Fertilizing the blossom is the female bee's work after she opens the hood; the male's scent is courtship perfume."
+        },
+        {
+          "label": "C",
+          "text": "They boil those scents as a salt-water wash that neutralizes crystals in palm fruit.",
+          "isCorrect": false,
+          "rationale": "A salted boil neutralizes calcium oxalate in Peach Palm fruit and has nothing to do with orchid scent."
+        },
+        {
+          "label": "D",
+          "text": "They store those scents as courtship perfume that draws females into the sector.",
+          "isCorrect": true,
+          "rationale": "Male bees must harvest complex aromatic compounds from wild, canopy-dwelling bucket orchids and store them in leg cavities as courtship perfume."
+        }
+      ],
+      "hint": "Look at the orchid-and-bee link in the Brazil nut loop.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 12,
+      "question": "Why do commercial plantings of Brazil nut trees in tidy rows fail to set fruit?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Canopy clearing that removes bucket orchids, driving the bees off and leaving the crop sterile.",
+          "isCorrect": true,
+          "rationale": "Removing wild canopy bucket orchids drives orchid bees away, rendering the plantation trees completely sterile."
+        },
+        {
+          "label": "B",
+          "text": "Row planting that removes overhead sun, leaving young seedlings stalled before full height.",
+          "isCorrect": false,
+          "rationale": "Light gaps govern whether a wild seedling matures; tidy rows fail because the pollination partners are cleared away."
+        },
+        {
+          "label": "C",
+          "text": "Canopy clearing that removes bone-rich soil, stopping roots from opening a rainy-season bloom.",
+          "isCorrect": false,
+          "rationale": "The stated cause of plantation failure is the loss of bucket orchids and orchid bees, not the loss of bone-rich soil."
+        },
+        {
+          "label": "D",
+          "text": "Canopy clearing that removes agouti cover, leaving fallen pods unopened on the orchard floor.",
+          "isCorrect": false,
+          "rationale": "Agoutis scatter seeds after pods exist; the rows fail earlier because the flowers are not pollinated."
+        }
+      ],
+      "hint": "Look at what leaves the site when the surrounding canopy is cleared.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 13,
+      "question": "How long after pollination does the flower become ready to fall?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Five to ten years pass before the rodent's life ends.",
+          "isCorrect": false,
+          "rationale": "Five to ten years is the agouti's lifespan, not the maturation time of the pod."
+        },
+        {
+          "label": "B",
+          "text": "Twenty-four hours pass before the yellow hood closes.",
+          "isCorrect": false,
+          "rationale": "Twenty-four hours is the bloom window, not the time required for the pod to mature and fall."
+        },
+        {
+          "label": "C",
+          "text": "Fourteen months pass before the heavy pod drops.",
+          "isCorrect": true,
+          "rationale": "Once pollinated, a single flower takes 14 months to mature into a rock-hard, cannonball-like pod weighing several pounds."
+        },
+        {
+          "label": "D",
+          "text": "Five hundred years pass before the canopy giant dies.",
+          "isCorrect": false,
+          "rationale": "Roughly 500 years is the life of the Brazil nut tree, not the wait from flower to fallen pod."
+        }
+      ],
+      "hint": "Look at the maturation step between pollination and the canopy drop.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 14,
+      "question": "Which forest animal can get through the casing of a fallen Brazil nut pod?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The raptor, which cracks the woody shell and lifts the nuts out of the understory.",
+          "isCorrect": false,
+          "rationale": "Raptors are listed as predators of the agouti, not as pod-opening animals."
+        },
+        {
+          "label": "B",
+          "text": "The jaguar, which cracks the woody shell and scatters spare seeds near the tree.",
+          "isCorrect": false,
+          "rationale": "Jaguars are named among the agouti's predators, not as animals that gnaw open the pod."
+        },
+        {
+          "label": "C",
+          "text": "The ocelot, which cracks the woody shell and leaves the nuts under closed shade.",
+          "isCorrect": false,
+          "rationale": "Ocelots hunt the agouti; they are not described as opening the rock-hard pod."
+        },
+        {
+          "label": "D",
+          "text": "The agouti, which opens the woody shell and buries the spare wedge-shaped seeds.",
+          "isCorrect": true,
+          "rationale": "The agouti is the animal with self-sharpening, enamel-reinforced chisel teeth capable of gnawing through the pod shell."
+        }
+      ],
+      "hint": "Look at the seed-dispersal step after the pod hits the ground.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 15,
+      "question": "Where must a buried Brazil nut seed lie for the seedling to reach mature height?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Beneath a bucket-orchid perch, where male bees gather courtship scent from canopy flowers.",
+          "isCorrect": false,
+          "rationale": "Bucket orchids feed the bee's courtship perfume; the seedling needs a light gap, not an orchid perch."
+        },
+        {
+          "label": "B",
+          "text": "Beneath a fresh light gap, where a recently fallen tree lets overhead sun through.",
+          "isCorrect": true,
+          "rationale": "Seedlings are gap-dependent specialists that die in forest shade and reach maturity only beneath a light gap created by a recently fallen tree."
+        },
+        {
+          "label": "C",
+          "text": "Beneath a Peach Palm cluster, where basal shoots renew the harvesting cycle.",
+          "isCorrect": false,
+          "rationale": "Basal shoots renew the Peach Palm; a Brazil nut seedling needs a light gap from a fallen tree."
+        },
+        {
+          "label": "D",
+          "text": "Beneath unbroken canopy shade, where closed leaves keep the young plant cool.",
+          "isCorrect": false,
+          "rationale": "Seedlings die in forest shade; unbroken canopy is the condition that stops them, not the place they need."
+        }
+      ],
+      "hint": "Look at the seedling section that follows the agouti's caches.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 16,
+      "question": "True or False: High juvenile mortality, short lifespans, and heavy predation leave each agouti with only one or two surviving adult Brazil nut trees.",
+      "options": [
+        {
+          "label": "A",
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "Driven by high juvenile rodent mortality, short lifespans, and heavy predation, a single agouti creates only one or two surviving adult trees in its lifetime."
+        },
+        {
+          "label": "B",
+          "text": "False",
+          "isCorrect": false,
+          "rationale": "A single agouti successfully creates only one or two surviving adult trees in its lifetime."
+        }
+      ],
+      "hint": "Look at how many adult canopy trees the account assigns to one agouti.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 17,
+      "question": "Which botanical name belongs to the domesticated Peach Palm?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bactris gasipaes, the species called pupunha and chontaduro.",
+          "isCorrect": true,
+          "rationale": "The Peach Palm is a fully domesticated Amazonian palm tree, Bactris gasipaes, known as pupunha in Brazil and chontaduro in Colombia."
+        },
+        {
+          "label": "B",
+          "text": "Coryanthes, the wild bucket orchid standing in the canopy.",
+          "isCorrect": false,
+          "rationale": "Coryanthes is the canopy bucket orchid that male bees visit for scent, not the palm."
+        },
+        {
+          "label": "C",
+          "text": "Bertholletia excelsa, the giant tree that bears the Brazil nut.",
+          "isCorrect": false,
+          "rationale": "Bertholletia excelsa is the Brazil nut tree, not the domesticated palm."
+        },
+        {
+          "label": "D",
+          "text": "Dasyprocta, the large rodent that gnaws open the woody pods.",
+          "isCorrect": false,
+          "rationale": "Dasyprocta is the agouti, the rodent that opens Brazil nut pods."
+        }
+      ],
+      "hint": "Look at the palm section that also uses the names pupunha and chontaduro.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 18,
+      "question": "What inside an uncooked Peach Palm makes a long salted boil necessary?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dense black trunk spines that armor the wood until strippers take them off for carving.",
+          "isCorrect": false,
+          "rationale": "The black spines armor the trunk and are stripped to reach marajá; they are not the compound inside the fruit."
+        },
+        {
+          "label": "B",
+          "text": "Hard grains of pyrogenic carbon that cling to the fruit after low-oxygen soil fires.",
+          "isCorrect": false,
+          "rationale": "Pyrogenic carbon is the biochar in the soil, not a compound inside Peach Palm fruit."
+        },
+        {
+          "label": "C",
+          "text": "Sharp calcium oxalate crystals that irritate human mucous membranes in the raw fruit.",
+          "isCorrect": true,
+          "rationale": "Raw Peach Palm fruit contains sharp calcium oxalate crystals that irritate human mucous membranes until the fruit is boiled in salted water for one to two hours."
+        },
+        {
+          "label": "D",
+          "text": "Rich loads of vitamin A and vitamin C that stay bound inside the meal before cooking.",
+          "isCorrect": false,
+          "rationale": "Vitamins A and C are part of the cooked fruit's nutrition; the crystals are what make the raw fruit need a boil."
+        }
+      ],
+      "hint": "Look at the chemical-neutralization step before the fruit is eaten.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 19,
+      "question": "What material appears when the Peach Palm's black spines are taken off the trunk?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Marajá, the dense dark wood for bows, spears, arrows, and floorboards.",
+          "isCorrect": true,
+          "rationale": "Stripping the spines exposes marajá, an exceptionally dense, dark, flexible wood used to carve hunting bows, spears, arrows, and durable floorboards."
+        },
+        {
+          "label": "B",
+          "text": "Terracotta, the fired clay crushed into reefs for mycorrhizal fungi.",
+          "isCorrect": false,
+          "rationale": "Terracotta shards are the microbial reefs in Terra preta, not a trunk material of the palm."
+        },
+        {
+          "label": "C",
+          "text": "Palmito, the tender core cut from basal shoots for repeat harvests.",
+          "isCorrect": false,
+          "rationale": "Palmito is the tender inner core of the basal shoots, not the wood under the trunk spines."
+        },
+        {
+          "label": "D",
+          "text": "Biochar, the porous carbon that stores moisture and minerals in the soil.",
+          "isCorrect": false,
+          "rationale": "Biochar is pyrogenic carbon made from woody biomass, not the wood revealed under Peach Palm spines."
+        }
+      ],
+      "hint": "Look at what the trunk yields for weapons and flooring.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 20,
+      "question": "How can the inner heart be taken while the Peach Palm keeps living?",
+      "options": [
+        {
+          "label": "A",
+          "text": "By stripping the black trunk spines, which exposes dense wood for bows and spears.",
+          "isCorrect": false,
+          "rationale": "Stripping spines yields marajá wood; the living harvest of heart of palm comes from basal shoots."
+        },
+        {
+          "label": "B",
+          "text": "By boiling the raw fruit in salted water, which neutralizes the crystals before eating.",
+          "isCorrect": false,
+          "rationale": "The salted boil makes the fruit edible; it is not how the living heart of palm is taken."
+        },
+        {
+          "label": "C",
+          "text": "By cutting the tender core from basal shoots that send new growth from the base.",
+          "isCorrect": true,
+          "rationale": "Extracting the tender inner core does not kill the plant, as new shoots rapidly sprout from the base."
+        },
+        {
+          "label": "D",
+          "text": "By burying spare wedge-shaped seeds, which then waits on a light gap overhead.",
+          "isCorrect": false,
+          "rationale": "Burying wedge-shaped seeds is the agouti's Brazil nut dispersal, not the Peach Palm heart harvest."
+        }
+      ],
+      "hint": "Look at the harvest cycle that continues from the base of the palm.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 21,
+      "question": "Which of these is NOT a product or use given for the Peach Palm?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Marajá wood carved into hunting bows, spears, arrows, and durable floorboards.",
+          "isCorrect": false,
+          "rationale": "Marajá from the stripped trunk is used to carve hunting bows, spears, arrows, and durable floorboards."
+        },
+        {
+          "label": "B",
+          "text": "Palmito cores taken from basal shoots while new growth rises from the base.",
+          "isCorrect": false,
+          "rationale": "Palmito is the tender inner core, and new shoots rapidly sprout from the base after it is taken."
+        },
+        {
+          "label": "C",
+          "text": "Cooked fruit supplying essential fatty acids, vitamins A and C, zinc, and calcium.",
+          "isCorrect": false,
+          "rationale": "Once cooked, the fruit is packed with carbohydrates, essential fatty acids, vitamins A and C, zinc, and calcium."
+        },
+        {
+          "label": "D",
+          "text": "Biochar pores locking moisture and storing carbon in the engineered soil matrix.",
+          "isCorrect": true,
+          "rationale": "Biochar is the soil's pyrogenic carbon, whereas new shoots rapidly sprout from the base of the Peach Palm and the palm itself supplies fruit, marajá, and palmito."
+        }
+      ],
+      "hint": "Check each choice against the food, wood, and shoot notes in the palm section.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 22,
+      "question": "How does the account place Caral-Supe and the Olmecs in the longer timeline?",
+      "options": [
+        {
+          "label": "A",
+          "text": "As post-reset replanting crews rebuilding the basin after the great civilizational loss.",
+          "isCorrect": false,
+          "rationale": "The garden epoch flourished before reset events wiped out over 95% of past civilizations; these cultures are nodes inside that epoch."
+        },
+        {
+          "label": "B",
+          "text": "As regional survival nodes living inside one overarching pre-Tartarian garden epoch.",
+          "isCorrect": true,
+          "rationale": "Caral-Supe and the Olmecs were merely regional survival nodes existing within the same overarching pre-Tartarian garden epoch."
+        },
+        {
+          "label": "C",
+          "text": "As primitive composting tribes leaving isolated 350-hectare patches on the forest floor.",
+          "isCorrect": false,
+          "rationale": "The 350-hectare compost story is the academic soil narrative, not the place given to Caral-Supe and the Olmecs."
+        },
+        {
+          "label": "D",
+          "text": "As the oldest known founders of the miracle soil inside a 3000 BCE coastal time box.",
+          "isCorrect": false,
+          "rationale": "The 3000 BCE—1800 BCE box is the academic container the account rejects for these cultures."
+        }
+      ],
+      "hint": "Look at the garden-epoch section on the academic 5,000-year boxes.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 23,
+      "question": "True or False: The Peach Palm has an immediate wild ancestral relative in the palm family.",
+      "options": [
+        {
+          "label": "A",
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "The palm is presented as a botanical conundrum because no immediate wild ancestral relative is known in the palm family."
+        },
+        {
+          "label": "B",
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "The Peach Palm possesses no immediate wild ancestral relative anywhere in the palm family and was domesticated through advanced genetic selection during the pre-Columbian garden epoch."
+        }
+      ],
+      "hint": "Look at the domestication section on whether a wild precursor is known.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 24,
+      "question": "What enduring job did the builders assign this engineered basin?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A short-term chemical allotment that depends on constant outside inputs each season.",
+          "isCorrect": false,
+          "rationale": "Modern allotments degrade without chemical intervention; the basin was built to avoid those short-term methods."
+        },
+        {
+          "label": "B",
+          "text": "A 5,000-year museum chart that splits Caral-Supe and the Olmecs into separate origins.",
+          "isCorrect": false,
+          "rationale": "The 5,000-year boxes are the academic frame the account replaces with one garden epoch."
+        },
+        {
+          "label": "C",
+          "text": "A tidy nut monoculture that fruits in cleared rows without surrounding canopy partners.",
+          "isCorrect": false,
+          "rationale": "Tidy monoculture rows fail because clearing the canopy removes the orchid-and-bee partners the trees require."
+        },
+        {
+          "label": "D",
+          "text": "A permanent agricultural energy engine that sustains human populations across millennia.",
+          "isCorrect": true,
+          "rationale": "The builders established a permanent agricultural energy engine designed to sustain human populations across millennia without short-term farming methods."
+        }
+      ],
+      "hint": "Look at the broader-context close of the account.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 25,
+      "question": "True or False: The Amazon canopy holds 417 million Brazil nut trees, and that density is treated as planted permaculture rather than random rodent caching.",
+      "options": [
+        {
+          "label": "A",
+          "text": "True",
+          "isCorrect": true,
+          "rationale": "The canopy features 417 million specimens, and random rodent distribution cannot account for the 417 million Brazil nut trees standing in the Amazon."
+        },
+        {
+          "label": "B",
+          "text": "False",
+          "isCorrect": false,
+          "rationale": "The canopy count is 417 million Brazil nut trees, and random rodent distribution cannot account for that stand."
+        }
+      ],
+      "hint": "Look at the Brazil nut population figure and what the account says produced it.",
+      "correctAnswer": "A"
+    }
+  ]
+}

@@ -939,10 +939,10 @@
         {
           "id": "living-garden",
           "title": "Living Garden",
-          "description": "Miracle soil and impossible trees as leftover original-garden technology.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
-          "added": "2026-09-13",
+          "description": "The Living Garden is the engineered, pre-Tartarian agricultural ecosystem encompassing the Amazon Rainforest across 2.3 to 2.7 million square miles.",
+          "topic_image": "images/revelations/living-garden.webp",
+          "is_placeholder": false,
+          "added": "2026-10-22T17:46:57-07:00",
           "subtopics": [
             {
               "id": "miracle-soil",

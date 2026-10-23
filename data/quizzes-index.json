@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T22:08:07.939Z",
-  "total": 303,
+  "generatedAt": "2026-10-23T00:59:17.149Z",
+  "total": 304,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 107
+      "count": 108
     }
   ],
   "quizzes": [
@@ -3483,6 +3483,20 @@
       "diveHref": "dive/revelations/living-fabric.html",
       "key": "revelations/living-fabric",
       "order": 95
+    },
+    {
+      "id": "living-garden",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Living Garden",
+      "subtitle": "Test your understanding of Living Garden — the engineered Amazon Basin of Terra preta, Brazil nut trees, and the Peach Palm.",
+      "questionCount": 25,
+      "href": "quiz/revelations/living-garden.html",
+      "diveHref": "dive/revelations/living-garden.html",
+      "key": "revelations/living-garden",
+      "order": 107
     },
     {
       "id": "loosh",
