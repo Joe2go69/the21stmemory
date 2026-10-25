@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T03:48:31.178Z",
-  "total": 305,
+  "generatedAt": "2026-10-25T09:28:25.785Z",
+  "total": 306,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 109
+      "count": 110
     }
   ],
   "quizzes": [
@@ -3385,6 +3385,20 @@
       "diveHref": "dive/revelations/iatrogenic-death.html",
       "key": "revelations/iatrogenic-death",
       "order": 58
+    },
+    {
+      "id": "impossible-trees",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Impossible Trees",
+      "subtitle": "Test your understanding of Impossible Trees — the Brazil nut lock, the peach palm, and the engineered Amazon food forest.",
+      "questionCount": 25,
+      "href": "quiz/revelations/impossible-trees.html",
+      "diveHref": "dive/revelations/impossible-trees.html",
+      "key": "revelations/impossible-trees",
+      "order": 109
     },
     {
       "id": "inner-earth",

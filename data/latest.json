@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "impossible-trees",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Impossible Trees",
+      "description": "Brazil nut trees and peach palms are engineered Amazonian botanical systems whose reproductive locks, detoxification, and continental dominance record ancient large-scale agroforestry.",
+      "topic_image": "images/revelations/impossible-trees.webp",
+      "path": "dive/revelations/impossible-trees.html",
+      "added": "2026-10-25T02:16:41-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "miracle-soil",
       "series": "A Brief Synopsis of Revelations",
       "title": "Miracle Soil",
@@ -108,16 +118,6 @@
       "description": "Sky-Net 1 is the planetary projection rig stationed within the celestial architecture of the stars, functioning as the primary technological engine for matrix illusion, population padding, and staged reality events.",
       "topic_image": "images/revelations/sky-net-1.webp",
       "path": "dive/revelations/sky-net-1.html",
-      "added": "2026-10-15"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "fema-camps",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "FEMA Camps",
-      "description": "FEMA Camps are designated containment facilities constructed to house the unvaccinated until official regulatory approval enabled systematic forced vaccination.",
-      "topic_image": "images/revelations/fema-camps.webp",
-      "path": "dive/revelations/fema-camps.html",
       "added": "2026-10-15"
     }
   ],
