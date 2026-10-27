@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T09:28:25.785Z",
-  "total": 306,
+  "generatedAt": "2026-10-27T05:27:22.897Z",
+  "total": 307,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 110
+      "count": 111
     }
   ],
   "quizzes": [
@@ -3805,6 +3805,20 @@
       "diveHref": "dive/revelations/pineal-dmt.html",
       "key": "revelations/pineal-dmt",
       "order": 42
+    },
+    {
+      "id": "plane-of-worlds",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Plane of Worlds",
+      "subtitle": "Test your understanding of Plane of Worlds — the sealed horizontal terrarium of 178 habitats, the Super-Ocean, and the living mineral motherboard under the Great Dome.",
+      "questionCount": 25,
+      "href": "quiz/revelations/plane-of-worlds.html",
+      "diveHref": "dive/revelations/plane-of-worlds.html",
+      "key": "revelations/plane-of-worlds",
+      "order": 110
     },
     {
       "id": "population-math",

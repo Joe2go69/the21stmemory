@@ -965,10 +965,10 @@
         {
           "id": "plane-of-worlds",
           "title": "Plane of Worlds",
-          "description": "The Cube, the density stack, and the terrarium seal of this enclosed plane.",
-          "topic_image": "images/revelations/placeholder.webp",
-          "is_placeholder": true,
-          "added": "2026-09-13",
+          "description": "The Plane of Worlds is the true horizontal layout of physical reality: 178 enclosed habitats under one Great Dome, linked by a Super-Ocean and a living mineral motherboard.",
+          "topic_image": "images/revelations/plane-of-worlds.webp",
+          "is_placeholder": false,
+          "added": "2026-10-26T22:14:37-07:00",
           "subtopics": [
             {
               "id": "the-cube",

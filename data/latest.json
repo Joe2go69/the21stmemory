@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "plane-of-worlds",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Plane of Worlds",
+      "description": "The Plane of Worlds is the true horizontal layout of physical reality: 178 enclosed habitats under one Great Dome, linked by a Super-Ocean and a living mineral motherboard.",
+      "topic_image": "images/revelations/plane-of-worlds.webp",
+      "path": "dive/revelations/plane-of-worlds.html",
+      "added": "2026-10-26T22:14:37-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "impossible-trees",
       "series": "A Brief Synopsis of Revelations",
       "title": "Impossible Trees",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/great-reset.webp",
       "path": "dive/revelations/great-reset.html",
       "added": "2026-10-16T02:04:29-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "sky-net-1",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Sky-Net 1",
-      "description": "Sky-Net 1 is the planetary projection rig stationed within the celestial architecture of the stars, functioning as the primary technological engine for matrix illusion, population padding, and staged reality events.",
-      "topic_image": "images/revelations/sky-net-1.webp",
-      "path": "dive/revelations/sky-net-1.html",
-      "added": "2026-10-15"
     }
   ],
   "featured": [
