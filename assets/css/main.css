@@ -23844,6 +23844,9 @@ a.quiz-hub-card.has-resume {
   object-position: center 40%;
   filter: saturate(1.06) contrast(1.03);
 }
+.deep-dive-hero-banner:has([data-hero-zoom]) .deep-dive-hero-banner__img {
+  cursor: zoom-in;
+}
 .deep-dive-hero-banner::after {
   content: "";
   position: absolute;

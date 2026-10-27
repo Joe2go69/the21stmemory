@@ -85,21 +85,28 @@ function initHeroLightbox() {
     });
   }
 
+  function openFrom(trigger, heroImg) {
+    // Always open the full-resolution original, even when the page shows a smaller phone copy.
+    const src = heroImg?.dataset.fullSrc || heroImg?.getAttribute('src') || heroImg?.currentSrc;
+    if (!src) return;
+    if (!dialog) build();
+    returnFocus = trigger;
+    img.src = src;
+    img.alt = (document.querySelector('h1')?.textContent || heroImg?.alt || '').trim();
+    document.body.classList.add('hero-lightbox-open');
+    dialog.showModal();
+    dialog.querySelector('.hero-lightbox__close').focus();
+  }
+
   buttons.forEach((btn) => {
+    const heroImg = btn.closest('figure')?.querySelector('img');
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      // Always open the full-resolution original, even when the page shows a smaller phone copy.
-      const heroImg = btn.closest('figure')?.querySelector('img');
-      const src = heroImg?.dataset.fullSrc || heroImg?.src || heroImg?.currentSrc;
-      if (!src) return;
-      if (!dialog) build();
-      returnFocus = btn;
-      img.src = src;
-      img.alt = (document.querySelector('h1')?.textContent || '').trim();
-      document.body.classList.add('hero-lightbox-open');
-      dialog.showModal();
-      dialog.querySelector('.hero-lightbox__close').focus();
+      e.stopPropagation();
+      openFrom(btn, heroImg);
     });
+    if (!heroImg) return;
+    heroImg.addEventListener('click', () => openFrom(btn, heroImg));
   });
 }
 
