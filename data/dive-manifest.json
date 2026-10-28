@@ -3324,9 +3324,9 @@
       "sourceId": "revelations",
       "topicId": "external-domes",
       "path": "/dive/revelations/external-domes.html",
-      "live": false,
+      "live": true,
       "title": "External Domes",
-      "added": "2026-10-10"
+      "added": "2026-10-27T20:55:27-07:00"
     },
     {
       "sourceId": "revelations",

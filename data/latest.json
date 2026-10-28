@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "external-domes",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "External Domes",
+      "description": "Five sovereign External Domes outside the physical plane design, test, and manufacture the energetic blueprint schematics for all physical matter.",
+      "topic_image": "images/revelations/external-domes.webp",
+      "path": "dive/revelations/external-domes.html",
+      "added": "2026-10-27T20:55:27-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "the-cube",
       "series": "A Brief Synopsis of Revelations",
       "title": "The Cube",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/free-energy.webp",
       "path": "dive/revelations/free-energy.html",
       "added": "2026-10-19T07:56:13-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "8th-reset",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "8th Reset",
-      "description": "The eighth and final planetary reset, forced into 2017–2019 to harvest free-will consent through financial and technological lures.",
-      "topic_image": "images/revelations/8th-reset.webp",
-      "path": "dive/revelations/8th-reset.html",
-      "added": "2026-10-19T06:29:56-07:00"
     }
   ],
   "featured": [
