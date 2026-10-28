@@ -3332,9 +3332,9 @@
       "sourceId": "revelations",
       "topicId": "density-stack",
       "path": "/dive/revelations/density-stack.html",
-      "live": false,
+      "live": true,
       "title": "Density Stack",
-      "added": "2026-09-13"
+      "added": "2026-10-28T02:21:26-07:00"
     },
     {
       "sourceId": "revelations",

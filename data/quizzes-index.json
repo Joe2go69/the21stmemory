@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T04:08:46.026Z",
-  "total": 309,
+  "generatedAt": "2026-10-28T09:27:44.116Z",
+  "total": 310,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 113
+      "count": 114
     }
   ],
   "quizzes": [
@@ -3063,6 +3063,20 @@
       "diveHref": "dive/revelations/custodian-control.html",
       "key": "revelations/custodian-control",
       "order": 43
+    },
+    {
+      "id": "density-stack",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Density Stack",
+      "subtitle": "Test your understanding of Density Stack — the thirty-three level continuum from Source Consciousness down to the organic motherboard.",
+      "questionCount": 25,
+      "href": "quiz/revelations/density-stack.html",
+      "diveHref": "dive/revelations/density-stack.html",
+      "key": "revelations/density-stack",
+      "order": 113
     },
     {
       "id": "digital-inserts",

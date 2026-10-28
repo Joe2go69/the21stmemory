@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "density-stack",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Density Stack",
+      "description": "The Density Stack is the thirty-three level continuum of vibrational creation that spirals downward from Source Consciousness to the physical plane.",
+      "topic_image": "images/revelations/density-stack.webp",
+      "path": "dive/revelations/density-stack.html",
+      "added": "2026-10-28T02:21:26-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "external-domes",
       "series": "A Brief Synopsis of Revelations",
       "title": "External Domes",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/432-hertz.webp",
       "path": "dive/revelations/432-hertz.html",
       "added": "2026-10-19T09:10:11-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "free-energy",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Free Energy",
-      "description": "Ambient aetheric energy harvested from the atmosphere and stored in piezoelectric buildings that heat, cool, and heal without fuel.",
-      "topic_image": "images/revelations/free-energy.webp",
-      "path": "dive/revelations/free-energy.html",
-      "added": "2026-10-19T07:56:13-07:00"
     }
   ],
   "featured": [
