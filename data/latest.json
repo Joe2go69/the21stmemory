@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "the-cube",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "The Cube",
+      "description": "The Cube is the multi-dimensional, sealed geometric containment structure housing all aspects of creation, within which all realms, planes, and states of consciousness are vertically arranged along an omnidirectional frequency gradient.",
+      "topic_image": "images/revelations/the-cube.webp",
+      "path": "dive/revelations/the-cube.html",
+      "added": "2026-10-27T17:25:36-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "plane-of-worlds",
       "series": "A Brief Synopsis of Revelations",
       "title": "Plane of Worlds",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/8th-reset.webp",
       "path": "dive/revelations/8th-reset.html",
       "added": "2026-10-19T06:29:56-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "great-reset",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Great Reset",
-      "description": "The Great Reset is the accelerated custodial wipe of the human physical plane, pulled forward by more than 953 years after Roswell leaked solid-state electronics into public manufacturing.",
-      "topic_image": "images/revelations/great-reset.webp",
-      "path": "dive/revelations/great-reset.html",
-      "added": "2026-10-16T02:04:29-07:00"
     }
   ],
   "featured": [

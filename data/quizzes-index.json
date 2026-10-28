@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T05:27:22.897Z",
-  "total": 307,
+  "generatedAt": "2026-10-28T00:40:06.137Z",
+  "total": 308,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 111
+      "count": 112
     }
   ],
   "quizzes": [
@@ -4183,6 +4183,20 @@
       "diveHref": "dive/revelations/technology-swaps.html",
       "key": "revelations/technology-swaps",
       "order": 82
+    },
+    {
+      "id": "the-cube",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "The Cube",
+      "subtitle": "Test your understanding of The Cube — the sealed geometric containment that stacks every realm, plane, and state of consciousness along a frequency gradient.",
+      "questionCount": 25,
+      "href": "quiz/revelations/the-cube.html",
+      "diveHref": "dive/revelations/the-cube.html",
+      "key": "revelations/the-cube",
+      "order": 111
     },
     {
       "id": "time-traveller-faces",
