@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "terrarium-seal",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Terrarium Seal",
+      "description": "The Terrarium Seal defines the physical, atmospheric, and dimensional enclosure that caps the small flat plain of this realm alongside 178 worlds housed under one Great Dome.",
+      "topic_image": "images/revelations/terrarium-seal.webp",
+      "path": "dive/revelations/terrarium-seal.html",
+      "added": "2026-10-30T16:55:46-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "density-stack",
       "series": "A Brief Synopsis of Revelations",
       "title": "Density Stack",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/becker-hagens-grid.webp",
       "path": "dive/revelations/becker-hagens-grid.html",
       "added": "2026-10-19T17:38:58-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "432-hertz",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "432 Hertz",
-      "description": "432 Hertz is the organic acoustic baseline that animates intent into physical form and was replaced by the artificial 440 Hertz tuning.",
-      "topic_image": "images/revelations/432-hertz.webp",
-      "path": "dive/revelations/432-hertz.html",
-      "added": "2026-10-19T09:10:11-07:00"
     }
   ],
   "featured": [

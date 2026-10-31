@@ -999,10 +999,10 @@
             {
               "id": "terrarium-seal",
               "title": "Terrarium Seal",
-              "description": "The sealed terrarium of this realm — firmament, ice, and the law that holds the farm in.",
-              "topic_image": "images/revelations/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-09-13",
+              "description": "The Terrarium Seal defines the physical, atmospheric, and dimensional enclosure that caps the small flat plain of this realm alongside 178 worlds housed under one Great Dome.",
+              "topic_image": "images/revelations/terrarium-seal.webp",
+              "is_placeholder": false,
+              "added": "2026-10-30T16:55:46-07:00",
               "subtopics": [
                 {
                   "id": "ice-wall",

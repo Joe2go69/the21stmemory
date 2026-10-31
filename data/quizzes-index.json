@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T09:27:44.116Z",
-  "total": 310,
+  "generatedAt": "2026-10-31T00:08:26.808Z",
+  "total": 311,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 114
+      "count": 115
     }
   ],
   "quizzes": [
@@ -4211,6 +4211,20 @@
       "diveHref": "dive/revelations/technology-swaps.html",
       "key": "revelations/technology-swaps",
       "order": 82
+    },
+    {
+      "id": "terrarium-seal",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Terrarium Seal",
+      "subtitle": "Test your understanding of Terrarium Seal — the Great Dome, the ice wall, the Super-Ocean, and the systems that keep this plain enclosed.",
+      "questionCount": 25,
+      "href": "quiz/revelations/terrarium-seal.html",
+      "diveHref": "dive/revelations/terrarium-seal.html",
+      "key": "revelations/terrarium-seal",
+      "order": 114
     },
     {
       "id": "the-cube",
