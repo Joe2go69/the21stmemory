@@ -1015,10 +1015,10 @@
                     {
                       "id": "oil-as-grease",
                       "title": "Oil as Grease",
-                      "description": "Oil as Grease",
-                      "topic_image": "images/revelations/placeholder.webp",
-                      "is_placeholder": true,
-                      "added": "2026-10-10"
+                      "description": "Oil as Grease is the foundational fluid mechanism that lubricates the physical plane, acting as the essential grease of planetary architecture across interconnected worlds.",
+                      "topic_image": "images/revelations/oil-as-grease.webp",
+                      "is_placeholder": false,
+                      "added": "2026-10-30T20:39:45-07:00"
                     }
                   ]
                 },

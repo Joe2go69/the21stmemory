@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T02:55:51.345Z",
-  "total": 312,
+  "generatedAt": "2026-10-31T03:50:27.455Z",
+  "total": 313,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 116
+      "count": 117
     }
   ],
   "quizzes": [
@@ -3749,6 +3749,20 @@
       "diveHref": "dive/revelations/occult-orders.html",
       "key": "revelations/occult-orders",
       "order": 47
+    },
+    {
+      "id": "oil-as-grease",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Oil as Grease",
+      "subtitle": "Test your understanding of Oil as Grease — architectural lubricant, the ice wall supply, and the fossil-fuel cover story.",
+      "questionCount": 25,
+      "href": "quiz/revelations/oil-as-grease.html",
+      "diveHref": "dive/revelations/oil-as-grease.html",
+      "key": "revelations/oil-as-grease",
+      "order": 116
     },
     {
       "id": "organ-harvest",

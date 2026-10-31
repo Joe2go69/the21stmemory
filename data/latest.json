@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "oil-as-grease",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Oil as Grease",
+      "description": "Oil as Grease is the foundational fluid mechanism that lubricates the physical plane, acting as the essential grease of planetary architecture across interconnected worlds.",
+      "topic_image": "images/revelations/oil-as-grease.webp",
+      "path": "dive/revelations/oil-as-grease.html",
+      "added": "2026-10-30T20:39:45-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "ice-wall",
       "series": "A Brief Synopsis of Revelations",
       "title": "Ice Wall",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/cain-periphery.webp",
       "path": "dive/revelations/cain-periphery.html",
       "added": "2026-10-20T21:17:36-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "spirit-tree",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Spirit Tree",
-      "description": "The Spirit Tree at the geographic center of the physical plane is the supermassive botanical antenna that channels aetheric energy through its root network into the subterranean mineral circuit.",
-      "topic_image": "images/revelations/spirit-tree.webp",
-      "path": "dive/revelations/spirit-tree.html",
-      "added": "2026-10-19T22:13:30-07:00"
     }
   ],
   "featured": [
