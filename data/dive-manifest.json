@@ -3348,9 +3348,9 @@
       "sourceId": "revelations",
       "topicId": "ice-wall",
       "path": "/dive/revelations/ice-wall.html",
-      "live": false,
+      "live": true,
       "title": "Ice Wall",
-      "added": "2026-10-07"
+      "added": "2026-10-30T19:48:14-07:00"
     },
     {
       "sourceId": "revelations",

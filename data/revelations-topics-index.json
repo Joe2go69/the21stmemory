@@ -1007,10 +1007,10 @@
                 {
                   "id": "ice-wall",
                   "title": "Ice Wall",
-                  "description": "Ice Wall",
-                  "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-07",
+                  "description": "The Ice Wall is the massive, continuous glacial perimeter that holds and defines the physical plane of this contained world.",
+                  "topic_image": "images/revelations/ice-wall.webp",
+                  "is_placeholder": false,
+                  "added": "2026-10-30T19:48:14-07:00",
                   "subtopics": [
                     {
                       "id": "oil-as-grease",

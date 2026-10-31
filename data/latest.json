@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "ice-wall",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Ice Wall",
+      "description": "The Ice Wall is the massive, continuous glacial perimeter that holds and defines the physical plane of this contained world.",
+      "topic_image": "images/revelations/ice-wall.webp",
+      "path": "dive/revelations/ice-wall.html",
+      "added": "2026-10-30T19:48:14-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "terrarium-seal",
       "series": "A Brief Synopsis of Revelations",
       "title": "Terrarium Seal",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/spirit-tree.webp",
       "path": "dive/revelations/spirit-tree.html",
       "added": "2026-10-19T22:13:30-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "becker-hagens-grid",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Becker Hagens Grid",
-      "description": "The Becker Hagens Grid is the foundational nodal lattice that maps the planetary distribution of natural aetheric energy and the coordinates where crystalline temples and Tartarian buildings harvested that current.",
-      "topic_image": "images/revelations/becker-hagens-grid.webp",
-      "path": "dive/revelations/becker-hagens-grid.html",
-      "added": "2026-10-19T17:38:58-07:00"
     }
   ],
   "featured": [
