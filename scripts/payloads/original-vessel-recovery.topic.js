@@ -19,6 +19,11 @@ module.exports = {
       title: 'Your Body Is a Biological Cage',
       embed_url: 'https://rumble.com/embed/v7fkiqi/?pub=4p0ieu',
       description: 'Your Body Is a Biological Cage — The current avatar is a restricted control template, not the true blueprint of the sol.'
+    },
+    {
+      title: 'Progressive Return Of Original Vessels',
+      embed_url: 'https://rumble.com/embed/v7fks3s/?pub=4p0ieu',
+      description: 'Progressive Return Of Original Vessels — Rising sol frequency collaborates with timesplit mechanics to reclaim the original crystalline-plasma vessel.'
     }
   ],
   report: `# Original Vessel Recovery
