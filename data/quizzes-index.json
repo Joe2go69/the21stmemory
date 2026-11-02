@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T08:57:11.179Z",
-  "total": 315,
+  "generatedAt": "2026-11-02T10:02:23.747Z",
+  "total": 316,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card-960.webp",
-      "count": 33
+      "count": 34
     },
     {
       "id": "revelations",
@@ -991,6 +991,20 @@
       "diveHref": "dive/ascension/first-flash.html",
       "key": "ascension/first-flash",
       "order": 20
+    },
+    {
+      "id": "free-energy",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Free Energy",
+      "subtitle": "Test your understanding of Free Energy — the new aether, solar pulses, buried quartz, and the plasma crystalline grid.",
+      "questionCount": 25,
+      "href": "quiz/ascension/free-energy.html",
+      "diveHref": "dive/ascension/free-energy.html",
+      "key": "ascension/free-energy",
+      "order": 16
     },
     {
       "id": "ground-placement",

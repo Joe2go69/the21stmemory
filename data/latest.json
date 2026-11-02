@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "ascension",
+      "topicId": "free-energy",
+      "series": "The Long-Awaited Ascension Process",
+      "title": "Free Energy",
+      "description": "The boundless power of the newly created aetheric field, released when solar pulses meet buried quartz and form a realm-wide plasma crystalline grid.",
+      "topic_image": "images/ascension/free-energy.webp",
+      "path": "dive/ascension/free-energy.html",
+      "added": "2026-11-02T02:54:15-07:00"
+    },
+    {
+      "sourceId": "ascension",
       "topicId": "other-world-conductors",
       "series": "The Long-Awaited Ascension Process",
       "title": "Other-World Conductors",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/miracle-soil.webp",
       "path": "dive/revelations/miracle-soil.html",
       "added": "2026-10-22T20:42:27-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "living-garden",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Living Garden",
-      "description": "The Living Garden is the engineered, pre-Tartarian agricultural ecosystem encompassing the Amazon Rainforest across 2.3 to 2.7 million square miles.",
-      "topic_image": "images/revelations/living-garden.webp",
-      "path": "dive/revelations/living-garden.html",
-      "added": "2026-10-22T17:46:57-07:00"
     }
   ],
   "featured": [
