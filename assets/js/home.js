@@ -395,7 +395,7 @@ async function loadHomeShelves() {
     const res = await fetch('data/latest.json', { credentials: 'same-origin', cache: 'no-cache' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    fill(recentGrid, (data.recent || []).slice(0, 3), { showDate: true }, 'Recently added topics');
+    fill(recentGrid, (data.recent || []).slice(0, 6), { showDate: true }, 'Recently added topics');
     fill(startGrid, (data.featured || []).slice(0, 3), { showDate: false }, 'Start here topics');
   } catch (error) {
     console.warn('Homepage shelves unavailable:', error);

@@ -88,9 +88,9 @@ function fileSize(rel) {
   check(g, 'quizzes.js continue strip', qjs.includes('paintContinueStrip'));
 
   const index = read('index.html');
-  // Product hierarchy: series row + Oracle focus pair (About is editorial lower, not a banner)
-  check(g, 'home banner modifiers', index.includes('home-banner--product') && index.includes('home-banner--focus'));
-  check(g, 'home series srcset', index.includes('home-series') && index.includes('srcset'));
+  // Recently added leads into the Codex. Series cards stay on the Codex page.
+  check(g, 'home banner modifiers', index.includes('home-banner--focus'));
+  check(g, 'home recent shelf opens the codex', index.includes('home-recent-grid') && index.includes('Explore the Codex') && !index.includes('home-series-grid'));
 
   const network = read('network.html');
   check(g, 'network filter bar no flex-wrap util', !/id="network-filters"[^>]*flex-wrap/.test(network));
