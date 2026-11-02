@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T11:02:55.369Z",
-  "total": 317,
+  "generatedAt": "2026-11-02T11:43:17.339Z",
+  "total": 318,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card-960.webp",
-      "count": 34
+      "count": 35
     },
     {
       "id": "revelations",
@@ -944,6 +944,20 @@
       "diveHref": "dive/ascension/crystalline-storage.html",
       "key": "ascension/crystalline-storage",
       "order": 6
+    },
+    {
+      "id": "dna-strand",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "DNA Strand",
+      "subtitle": "Test your understanding of DNA Strand — the embedded marker that matches the ancient vibration and lifts resonated individuals through the open portal.",
+      "questionCount": 25,
+      "href": "quiz/ascension/dna-strand.html",
+      "diveHref": "dive/ascension/dna-strand.html",
+      "key": "ascension/dna-strand",
+      "order": 28
     },
     {
       "id": "em-pulses",
