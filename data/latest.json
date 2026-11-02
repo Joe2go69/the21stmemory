@@ -1,6 +1,16 @@
 {
   "recent": [
     {
+      "sourceId": "special-requests",
+      "topicId": "original-vessel-recovery",
+      "series": "Special Requests",
+      "title": "Original Vessel Recovery",
+      "description": "The recovery path bypasses the restricted DNA and reclaims the original crystalline-plasma vessel that matches the full frequency of the sol.",
+      "topic_image": "images/special-requests/original-vessel-recovery.webp",
+      "path": "dive/special-requests/original-vessel-recovery.html",
+      "added": "2026-11-02T03:54:09-07:00"
+    },
+    {
       "sourceId": "ascension",
       "topicId": "free-energy",
       "series": "The Long-Awaited Ascension Process",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/impossible-trees.webp",
       "path": "dive/revelations/impossible-trees.html",
       "added": "2026-10-25T02:16:41-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "miracle-soil",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Miracle Soil",
-      "description": "Miracle Soil, also called Amazonian Soil or terra preta, is an engineered, self-sustaining soil matrix spanning millions of square miles across the Amazon Basin.",
-      "topic_image": "images/revelations/miracle-soil.webp",
-      "path": "dive/revelations/miracle-soil.html",
-      "added": "2026-10-22T20:42:27-07:00"
     }
   ],
   "featured": [

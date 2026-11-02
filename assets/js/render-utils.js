@@ -207,7 +207,8 @@ const RenderUtils = {
       alice: 'Foundational rabbit-hole series',
       breakdown: 'Final-stage Great Awakening notes',
       ascension: 'EMF ascension process',
-      revelations: 'Six-part revelations synopsis'
+      revelations: 'Six-part revelations synopsis',
+      'special-requests': 'Requested studies'
     };
     return map[sourceId] || 'Transmission archive';
   },
@@ -218,7 +219,8 @@ const RenderUtils = {
       alice: 'images/alice-codex-card.webp',
       breakdown: 'images/breakdown-codex-card.webp',
       ascension: 'images/ascension-codex-card.webp',
-      revelations: 'images/revelations-codex-card.webp'
+      revelations: 'images/revelations-codex-card.webp',
+      'special-requests': 'images/special-requests-codex-card.webp'
     };
     return map[source?.id] || (source?.id ? `images/${source.id}-codex-card.webp` : '') || source?.image || '';
   },

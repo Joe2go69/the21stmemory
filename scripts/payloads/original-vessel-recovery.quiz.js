@@ -1,0 +1,280 @@
+module.exports = {
+  source: 'special-requests',
+  id: 'original-vessel-recovery',
+  title: 'Original Vessel Recovery',
+  description: 'Test your understanding of Original Vessel Recovery — the bypass of the restricted DNA, the crystalline-plasma True vessel, and the rising sol frequency that collaborates with timesplit mechanics.',
+  seoDescription: 'Interactive Living Truth Quiz on Original Vessel Recovery: restricted DNA, nine-strand Taran template, crystalline-plasma vessels, Bioship stasis, and the three-flash return.',
+  reflection: {
+    title: 'Reflection',
+    body: 'The recovery path does not upgrade the current DNA. It bypasses that restricted template and reclaims the original crystalline-plasma vessel as rising sol frequency collaborates with timesplit mechanics. Sit with the seven modifications, the Bioship stasis of the True vessel, and the three-flash sequence that completes the return for those who are ready.'
+  },
+  questions: [
+    {
+      number: 1,
+      question: 'What does the recovery path do with the DNA of the current avatar?',
+      hint: 'Look at the opening claim about the current template.',
+      options: [
+        { text: 'It bypasses the current DNA and calls forward the original crystalline-plasma vessels that match the full sol.', isCorrect: true, rationale: 'The recovery path bypasses the current DNA entirely and does not upgrade the current template. It calls forward the original higher-frequency physical vessels.' },
+        { text: 'It repairs the current DNA by putting the suppressed strands back into the restricted two-strand template.', isCorrect: false, rationale: 'The recovery path bypasses the current DNA and does not attempt to repair the restricted template.' },
+        { text: 'It expands the current DNA from two strands toward the nine-strand Taran form through the three flashes.', isCorrect: false, rationale: 'Nine strands belong to original Taran DNA, while the recovery path bypasses the current DNA rather than expanding it.' },
+        { text: 'It tracks the current DNA through the seven modifications so the pineal can seat the full sol frequency.', isCorrect: false, rationale: 'The seven modifications and the reduced pineal limit seating, and the recovery path bypasses the current DNA.' }
+      ]
+    },
+    {
+      number: 2,
+      question: 'What is the native makeup of the original higher-frequency vessels?',
+      hint: 'Look at the substance named for both the original body and higher-realm construction.',
+      options: [
+        { text: 'A crystalline-plasma form that matches the full frequency of the sol.', isCorrect: true, rationale: 'Those original vessels are crystalline-plasma in nature and match the full frequency of the sol.' },
+        { text: 'A two-strand Taran form produced as the latest vessel off the Aktun lines.', isCorrect: false, rationale: 'The Aktun lines yielded the Taran Human template that was downgraded, while the original vessels are crystalline-plasma in nature.' },
+        { text: 'A restricted interface engineered around the seven deadly sins for manageability.', isCorrect: false, rationale: 'The seven deadly sins were engineered into the present form, while the original vessels are crystalline-plasma in nature.' },
+        { text: 'A Bioship housing kept in stasis on the homeworld for the soul fragment.', isCorrect: false, rationale: 'The Bioship is where the True vessel is maintained in stasis, while the vessel itself is crystalline-plasma in nature.' }
+      ]
+    },
+    {
+      number: 3,
+      question: 'How many anatomical modifications changed the physical vessel across the reset cycles?',
+      hint: 'Look at the count tied to height and brain architecture.',
+      options: [
+        { text: 'Seven anatomical changes, aimed mainly at height and brain architecture.', isCorrect: true, rationale: 'Across the reset cycles the entire physical vessel was anatomically altered seven times, primarily in height and brain architecture.' },
+        { text: 'Three anatomical changes, matched to the flashes of the restoration sequence.', isCorrect: false, rationale: 'The three-flash sequence is the main-event restoration, while the vessel was anatomically altered seven times.' },
+        { text: 'Nine anatomical changes, matched to the strand count of original Taran DNA.', isCorrect: false, rationale: 'Nine strands belong to original Taran DNA, while the vessel was anatomically altered seven times.' },
+        { text: 'Two anatomical changes, matched to the strand count of the restricted template.', isCorrect: false, rationale: 'Two strands are the restricted configuration, while the vessel was anatomically altered seven times.' }
+      ]
+    },
+    {
+      number: 4,
+      question: 'What did original Taran DNA carry before the downgrade into 3rd density?',
+      hint: 'Look at the strand count and faculties of the Taran Human template.',
+      options: [
+        { text: 'Nine strands, full telepathic capacity, a large functional pineal, and high intelligence.', isCorrect: true, rationale: 'Original Taran DNA carried nine strands and supported full telepathic capacity, a large functional pineal, and high intelligence.' },
+        { text: 'Two strands, a calcified pineal, and the bandwidth of the restricted 3rd-density form.', isCorrect: false, rationale: 'The restricted version operates on two strands, while original Taran DNA carried nine strands and a large functional pineal.' },
+        { text: 'Nine strands, a closed pineal, and the seven deadly sins built in for predictability.', isCorrect: false, rationale: 'The seven deadly sins were engineered into the present form, while original Taran DNA carried nine strands and a large functional pineal.' },
+        { text: 'Two strands, full telepathic capacity, and the crystalline-plasma body of the homeworld.', isCorrect: false, rationale: 'Full telepathic capacity belonged to the nine-strand Taran template, and the crystalline-plasma body is the original vessel rather than that DNA count.' }
+      ]
+    },
+    {
+      number: 5,
+      question: 'True or False: The recovery path upgrades the current DNA until the restricted template carries nine strands again.',
+      hint: 'Look at whether the current template is repaired or set aside.',
+      options: [
+        { text: 'True', isCorrect: false, rationale: 'The recovery path does not upgrade the current DNA. It bypasses it, and nine strands belong to the original Taran template.' },
+        { text: 'False', isCorrect: true, rationale: 'The recovery path does not upgrade the current DNA. It bypasses it and recovers the original higher-frequency physical vessels.' }
+      ]
+    },
+    {
+      number: 6,
+      question: 'How does the DNA in these avatars function inside the closed system?',
+      hint: 'Look at whether that DNA is called a blueprint or a control interface.',
+      options: [
+        { text: 'As a control template used to limit, track, and keep consciousness partly disconnected.', isCorrect: true, rationale: 'It functions as a control template more than a true blueprint, used to limit, to track, and to keep the consciousness partially disconnected.' },
+        { text: 'As the true blueprint that seats the full bandwidth of sol consciousness in the avatar.', isCorrect: false, rationale: 'The current DNA is a control template more than a true blueprint, and the full bandwidth cannot seat properly in the modified vessel.' },
+        { text: 'As a self-healing housing that adapts the two strands when the micro-sun frequency rises.', isCorrect: false, rationale: 'The process feels less like healing the current body, and the DNA functions as a control template more than a true blueprint.' },
+        { text: 'As a dormant nine-strand code that the New Aether unlocks inside the present pineal.', isCorrect: false, rationale: 'Nine strands belong to original Taran DNA, and the present DNA functions as a control template more than a true blueprint.' }
+      ]
+    },
+    {
+      number: 7,
+      question: 'Which features did the seven anatomical changes mainly alter?',
+      hint: 'Look at the two body features named with those reset-cycle changes.',
+      options: [
+        { text: 'Height and brain architecture, with key strands and pathways removed or suppressed.', isCorrect: true, rationale: 'The vessel was anatomically altered seven times, primarily in height and brain architecture, and key strands and connective pathways were removed or suppressed.' },
+        { text: 'The Bioship stasis cradle and the Plasma Portal used at the close of the cycle.', isCorrect: false, rationale: 'The Bioship and Plasma Portal belong to the True vessel and the return, while the seven changes were primarily in height and brain architecture.' },
+        { text: 'The New Aether and the quartz conductors that generate the plasma crystalline field.', isCorrect: false, rationale: 'Quartz conductors and the New Aether generate the field, while the seven changes were primarily in height and brain architecture.' },
+        { text: 'The Resonating Army harmonics and the solar-lineage templates from the Galan Matrix.', isCorrect: false, rationale: 'The Resonating Army and Taran Sols carry frequency work and refined templates, while the seven changes were primarily in height and brain architecture.' }
+      ]
+    },
+    {
+      number: 8,
+      question: 'What happened to the pineal across the major resets?',
+      hint: 'Look at what the major resets did to that gland.',
+      options: [
+        { text: 'It was genetically reduced at each major reset and further calcified, limiting its crossover role.', isCorrect: true, rationale: 'The pineal was genetically reduced each major reset and further calcified, limiting its function as the crossover between consciousness and the aether.' },
+        { text: 'It was left at full size while height and brain architecture were reduced around it.', isCorrect: false, rationale: 'The pineal was genetically reduced each major reset and further calcified, rather than left at the large functional size of the Taran template.' },
+        { text: 'It was replaced by a quartz conductor so the New Aether could seat the sol directly.', isCorrect: false, rationale: 'Quartz conductors work with the New Aether in the field, while the pineal was genetically reduced each major reset and further calcified.' },
+        { text: 'It was moved into Bioship stasis with the True vessel until the soul fragment returns.', isCorrect: false, rationale: 'The True vessel is maintained in stasis on a Bioship, while the pineal was genetically reduced each major reset and further calcified.' }
+      ]
+    },
+    {
+      number: 9,
+      question: 'What was engineered into the present form to increase predictability?',
+      hint: 'Look at the behavioral frame added after the anatomical downgrades.',
+      options: [
+        { text: 'The seven deadly sins, to increase predictability and manageability.', isCorrect: true, rationale: 'The present form was further engineered around the seven deadly sins to increase predictability and manageability.' },
+        { text: 'The three-flash sequence, so the main event would arrive on a fixed schedule.', isCorrect: false, rationale: 'The three-flash sequence restores original vessels, while the present form was engineered around the seven deadly sins.' },
+        { text: 'The nine-strand Taran code, so telepathic capacity would stay easy to predict.', isCorrect: false, rationale: 'Nine strands supported full telepathic capacity, while the present form was engineered around the seven deadly sins.' },
+        { text: 'The Bioship stasis lock, so the True vessel would remain easy to manage.', isCorrect: false, rationale: 'Bioship stasis holds the True vessel, while the present form was engineered around the seven deadly sins.' }
+      ]
+    },
+    {
+      number: 10,
+      question: 'What allows rising sol frequency to collaborate with the time-manipulation layers?',
+      hint: 'Look at the point where rising frequency can meet the time layers.',
+      options: [
+        { text: 'Sufficient consciousness coherence, the activation threshold for that collaboration.', isCorrect: true, rationale: 'The activation threshold is the point of sufficient consciousness coherence at which the rising sol frequency can interact with timesplit mechanics.' },
+        { text: 'Erasure of foundational memory, so the fragment can leave the modified avatar.', isCorrect: false, rationale: 'The first flash reconnects consciousness with foundational memory, and collaboration waits on sufficient consciousness coherence.' },
+        { text: 'A completed three-flash sequence, which must finish before any individual recovery.', isCorrect: false, rationale: 'Progressive restoration is distinct from the synchronized three-flash restoration, and collaboration waits on sufficient consciousness coherence.' },
+        { text: 'Boarding the Bioship, which must happen before the micro-sun frequency can rise.', isCorrect: false, rationale: 'The True vessel stays in stasis on a Bioship while the fragment operates here, and collaboration waits on sufficient consciousness coherence.' }
+      ]
+    },
+    {
+      number: 11,
+      question: 'True or False: Original Taran DNA carried nine strands and supported full telepathic capacity, a large functional pineal, and high intelligence.',
+      hint: 'Look at the faculties listed for the Taran template before the downgrade.',
+      options: [
+        { text: 'True', isCorrect: true, rationale: 'Original Taran DNA carried nine strands and supported full telepathic capacity, a large functional pineal, and high intelligence.' },
+        { text: 'False', isCorrect: false, rationale: 'That strand count and those faculties belong to original Taran DNA, while the restricted version operates on two strands.' }
+      ]
+    },
+    {
+      number: 12,
+      question: 'Where is the True vessel kept while a soul fragment operates in the restricted avatar?',
+      hint: 'Look at the homeworld arrangement named under Original Vessel.',
+      options: [
+        { text: 'In stasis on a Bioship on the homeworld, until the fragment recombines.', isCorrect: true, rationale: 'On the homeworld it is maintained in stasis on a Bioship while a soul fragment operates in the restricted avatar.' },
+        { text: 'Inside the micro-sun, where the rising sol frequency stores the original body.', isCorrect: false, rationale: 'The micro-sun is the endogenous rising frequency, while the True vessel is maintained in stasis on a Bioship.' },
+        { text: 'Inside the quartz infrastructure, fused there until the New Aether releases it.', isCorrect: false, rationale: 'Quartz and the New Aether generate the plasma crystalline field, while the True vessel is maintained in stasis on a Bioship.' },
+        { text: 'Inside the Plasma Portal, held there as a corridor until the third flash.', isCorrect: false, rationale: 'The Plasma Portal is the exit at culmination, while the True vessel is maintained in stasis on a Bioship.' }
+      ]
+    },
+    {
+      number: 13,
+      question: 'How are buildings and dwellings made in the higher densities?',
+      hint: 'Look at the construction named with living plasmatic membrane.',
+      options: [
+        { text: 'They are sung and woven from living plasmatic membrane sheets there.', isCorrect: true, rationale: 'In the higher densities, buildings and dwellings are sung and woven from living plasmatic membrane sheets.' },
+        { text: 'They are cut from quartz conductors and fused with the New Aether.', isCorrect: false, rationale: 'Activated quartz and the New Aether generate the plasma crystalline field, while dwellings are sung and woven from living plasmatic membrane sheets.' },
+        { text: 'They are assembled on the Aktun lines as the latest hominid-scale housing.', isCorrect: false, rationale: 'The Aktun production lines yielded the Taran Human template, while dwellings are sung and woven from living plasmatic membrane sheets.' },
+        { text: 'They are held in Bioship stasis until a soul fragment calls them forward.', isCorrect: false, rationale: 'Bioship stasis holds the True vessel, while dwellings are sung and woven from living plasmatic membrane sheets.' }
+      ]
+    },
+    {
+      number: 14,
+      question: 'How does progressive restoration differ from the restoration at the main event?',
+      hint: 'Look at the contrast drawn under Progressive Restoration.',
+      options: [
+        { text: 'It is a gradual individual reclaiming, distinct from the synchronized three-flash restoration at the main event.', isCorrect: true, rationale: 'Progressive restoration is the gradual process of reclaiming the crystalline-plasma body, distinct from the synchronized three-flash restoration that occurs at the main event.' },
+        { text: 'It repairs the current body in stages, while the main event replaces that body in one flash.', isCorrect: false, rationale: 'The process feels less like healing the current body, and progressive restoration is distinct from the synchronized three-flash restoration.' },
+        { text: 'It runs on the Bioship before birth, while the main event runs inside the two-strand avatar.', isCorrect: false, rationale: 'The True vessel waits in stasis, and progressive restoration is distinct from the synchronized three-flash restoration that occurs at the main event.' },
+        { text: 'It requires the nine-strand template first, while the main event uses the two-strand template.', isCorrect: false, rationale: 'The recovery path bypasses the current DNA, and progressive restoration is distinct from the synchronized three-flash restoration.' }
+      ]
+    },
+    {
+      number: 15,
+      question: 'What does the first flash of the three-flash sequence do?',
+      hint: 'Look at the opening step of that sequence.',
+      options: [
+        { text: 'It reconnects consciousness with the original vessel and foundational memory.', isCorrect: true, rationale: 'In that sequence the first flash reconnects consciousness with the original vessel and foundational memory.' },
+        { text: 'It integrates the restored form and full awareness into the returning sol.', isCorrect: false, rationale: 'The second integrates the restored form and full awareness, while the first flash reconnects consciousness with the original vessel and foundational memory.' },
+        { text: 'It opens the plasma crystalline portal for the return to the homeworld.', isCorrect: false, rationale: 'The third opens the plasma crystalline portal, while the first flash reconnects consciousness with the original vessel and foundational memory.' },
+        { text: 'It calcifies the pineal and locks the fragment into the lower frequency range.', isCorrect: false, rationale: 'Calcification limited the pineal across the resets, while the first flash reconnects consciousness with the original vessel and foundational memory.' }
+      ]
+    },
+    {
+      number: 16,
+      question: 'What does the second flash do in that same sequence?',
+      hint: 'Look at the middle step, after memory is reconnected.',
+      options: [
+        { text: 'It integrates the restored form and the full awareness of the returning sol.', isCorrect: true, rationale: 'The second integrates the restored form and full awareness, after the first flash reconnects consciousness with the original vessel.' },
+        { text: 'It reconnects consciousness with the original vessel and foundational memory.', isCorrect: false, rationale: 'That reconnection is the first flash, while the second integrates the restored form and full awareness.' },
+        { text: 'It opens the plasma crystalline portal that the quartz field has prepared.', isCorrect: false, rationale: 'The third opens the plasma crystalline portal, while the second integrates the restored form and full awareness.' },
+        { text: 'It reduces the pineal again and seats the fragment in the two-strand template.', isCorrect: false, rationale: 'Pineal reduction belongs to the resets, while the second integrates the restored form and full awareness.' }
+      ]
+    },
+    {
+      number: 17,
+      question: 'True or False: The pineal kept its original size while the seven modifications changed height and brain architecture.',
+      hint: 'Look at what each major reset did to that gland.',
+      options: [
+        { text: 'True', isCorrect: false, rationale: 'The pineal was genetically reduced each major reset and further calcified, alongside the changes in height and brain architecture.' },
+        { text: 'False', isCorrect: true, rationale: 'The pineal was genetically reduced each major reset and further calcified, limiting its function as the crossover between consciousness and the aether.' }
+      ]
+    },
+    {
+      number: 18,
+      question: 'What does the third flash accomplish?',
+      hint: 'Look at the last step of the three-flash sequence.',
+      options: [
+        { text: 'It opens the plasma crystalline portal for the return toward the homeworld.', isCorrect: true, rationale: 'The third opens the plasma crystalline portal, after the earlier flashes reconnect memory and integrate the restored form.' },
+        { text: 'It reconnects consciousness with foundational memory and that vessel.', isCorrect: false, rationale: 'That reconnection is the first flash, while the third opens the plasma crystalline portal.' },
+        { text: 'It integrates the restored form and full awareness for the returning fragment.', isCorrect: false, rationale: 'That integration is the second flash, while the third opens the plasma crystalline portal.' },
+        { text: 'It engineers the present form around the seven deadly sins for manageability.', isCorrect: false, rationale: 'The seven deadly sins were built into the present form, while the third opens the plasma crystalline portal.' }
+      ]
+    },
+    {
+      number: 19,
+      question: 'What generates the plasma crystalline field that supports restoration?',
+      hint: 'Look at the two things that fuse to generate that field.',
+      options: [
+        { text: 'Activated quartz and the New Aether, fusing into that plasma crystalline field.', isCorrect: true, rationale: 'The plasma crystalline field is generated when activated quartz and the New Aether fuse, and quartz conductors and New Aether support both the progressive overwrite and the mass restoration.' },
+        { text: 'The two-strand template and the seven deadly sins, fused inside the present pineal.', isCorrect: false, rationale: 'Those belong to the restricted avatar, while the plasma crystalline field is generated when activated quartz and the New Aether fuse.' },
+        { text: 'The Aktun production lines and the downgraded Taran template, fused at each reset.', isCorrect: false, rationale: 'The Aktun lines produced the Taran template that was downgraded, while the field is generated when activated quartz and the New Aether fuse.' },
+        { text: 'The Bioship stasis field and Plasma Portal, fused at the close of the cycle.', isCorrect: false, rationale: 'The Bioship holds the True vessel and the Plasma Portal is the exit, while the field is generated when activated quartz and the New Aether fuse.' }
+      ]
+    },
+    {
+      number: 20,
+      question: 'Which of these is NOT a stage of the synchronized three-flash sequence?',
+      hint: 'Three of these steps are named in order. One belongs to the reset modifications instead.',
+      options: [
+        { text: 'A flash that reconnects consciousness with the original vessel and foundational memory.', isCorrect: false, rationale: 'The first flash reconnects consciousness with the original vessel and foundational memory.' },
+        { text: 'A flash that integrates the restored form and full awareness of the returning sol.', isCorrect: false, rationale: 'The second integrates the restored form and full awareness.' },
+        { text: 'A flash that opens the plasma crystalline portal for the return toward the homeworld.', isCorrect: false, rationale: 'The third opens the plasma crystalline portal.' },
+        { text: 'A flash that calcifies the pineal and seats awareness in the lower frequency range.', isCorrect: true, rationale: 'Pineal calcification and the lower frequency range belong to the restricted vessel, while the three flashes reconnect memory, integrate the restored form, and open the plasma crystalline portal.' }
+      ]
+    },
+    {
+      number: 21,
+      question: 'Which solar lineage carried refined DNA templates from the 5D+ Tara template of the Galan Matrix?',
+      hint: 'Look at the solar lineage tied to the Tara template.',
+      options: [
+        { text: 'The Taran Sols, who carried those refined templates to stabilize the falling fragment.', isCorrect: true, rationale: 'Taran Sols in particular carried refined DNA templates from the 5D+ Tara template of the Galan Matrix to stabilize the falling fragment.' },
+        { text: 'The Resonating Army, whose New Aether work replaced the need for any Tara template.', isCorrect: false, rationale: 'The Resonating Army generates the New Aether and collective frequency work, while Taran Sols carried refined DNA templates from the Tara template.' },
+        { text: 'The Aktun line, which issued the two-strand form as the refined 5D+ Tara template.', isCorrect: false, rationale: 'The Aktun production lines yielded the Taran Human template that was downgraded, while Taran Sols carried the refined DNA templates.' },
+        { text: 'The NPC population, whose luminosity was compressed so the Tara template could incarnate.', isCorrect: false, rationale: 'Frequency compression kept true sols from standing out against the NPC population, while Taran Sols carried the refined DNA templates.' }
+      ]
+    },
+    {
+      number: 22,
+      question: 'True or False: On the homeworld the True vessel is maintained in stasis on a Bioship while a soul fragment operates in the restricted avatar.',
+      hint: 'Look at the homeworld sentence under Original Vessel.',
+      options: [
+        { text: 'True', isCorrect: true, rationale: 'On the homeworld it is maintained in stasis on a Bioship while a soul fragment operates in the restricted avatar.' },
+        { text: 'False', isCorrect: false, rationale: 'That stasis arrangement is stated for the True vessel, and the fragment operating here is a portion of that luminosity.' }
+      ]
+    },
+    {
+      number: 23,
+      question: 'Why was soul luminosity compressed for incarnation into this realm?',
+      hint: 'Look at why incarnation required that compression.',
+      options: [
+        { text: 'So true sols would not stand out against the NPC population in this realm.', isCorrect: true, rationale: 'Frequency compression of soul luminosity was required for incarnation so that true sols would not stand out against the NPC population.' },
+        { text: 'So the fragment could pass through the pre-implanted quartz before birth.', isCorrect: false, rationale: 'Quartz infrastructure supports the later field, while compression was so that true sols would not stand out against the NPC population.' },
+        { text: 'So the two-strand template could activate the seven deadly sins on arrival.', isCorrect: false, rationale: 'The seven deadly sins were engineered into the present form, while compression was so that true sols would not stand out against the NPC population.' },
+        { text: 'So the Bioship could keep the True vessel visible to the Resonating Army.', isCorrect: false, rationale: 'The True vessel is maintained in stasis on a Bioship, while compression was so that true sols would not stand out against the NPC population.' }
+      ]
+    },
+    {
+      number: 24,
+      question: 'What happens to the restricted avatar at the culmination, for those who are ready?',
+      hint: 'Look at the close of the cycle for the current vessel.',
+      options: [
+        { text: 'It pixelates and dissolves as the fragment exits upward through a Plasma Portal.', isCorrect: true, rationale: 'The current vessel pixelates and dissolves as the soul fragment exits upward through a Plasma Portal, recombines with the oversoul, and snaps back into the True vessel.' },
+        { text: 'It enters stasis on the Bioship beside the True vessel until the next cycle.', isCorrect: false, rationale: 'Stasis on a Bioship holds the True vessel, while the current vessel pixelates and dissolves as the fragment exits through a Plasma Portal.' },
+        { text: 'It remains on the physical plane after the pineal is restored to Taran size.', isCorrect: false, rationale: 'The pineal reduction is part of the restricted vessel, which pixelates and dissolves as the fragment exits through a Plasma Portal.' },
+        { text: 'It converts in place into the nine-strand biological template from the Aktun lines.', isCorrect: false, rationale: 'The recovery path bypasses the current DNA, and the current vessel pixelates and dissolves as the fragment exits through a Plasma Portal.' }
+      ]
+    },
+    {
+      number: 25,
+      question: 'Who can tangibly experience this recovery at present?',
+      hint: 'Look at how far activation has gone for most sols versus a smaller group.',
+      options: [
+        { text: 'A minority far enough along in activation for the recovery to become tangible.', isCorrect: true, rationale: 'Only a minority are far enough along in the activation for this recovery to become tangible yet, while the rest remain identified with the restricted DNA.' },
+        { text: 'The majority who remain identified with the restricted DNA and the current avatar.', isCorrect: false, rationale: 'The rest remain more fully identified with the restricted DNA and the current avatar, while the recovery is tangible for a minority.' },
+        { text: 'Sols whose avatars still carry the two-strand template of this realm.', isCorrect: false, rationale: 'The restricted version operates on two strands across these avatars, but the recovery is tangible yet for a minority far enough along in the activation.' },
+        { text: 'Fragments that have already snapped back into the True vessel on the homeworld.', isCorrect: false, rationale: 'Snapping back into the True vessel is the close of the cycle, while tangible recovery now is for a minority far enough along in the activation.' }
+      ]
+    }
+  ]
+};

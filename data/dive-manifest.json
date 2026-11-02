@@ -3367,6 +3367,14 @@
       "live": true,
       "title": "Projection Dome",
       "added": "2026-11-02T01:00:04-07:00"
+    },
+    {
+      "sourceId": "special-requests",
+      "topicId": "original-vessel-recovery",
+      "path": "/dive/special-requests/original-vessel-recovery.html",
+      "live": true,
+      "title": "Original Vessel Recovery",
+      "added": "2026-11-02T03:54:09-07:00"
     }
   ]
 }

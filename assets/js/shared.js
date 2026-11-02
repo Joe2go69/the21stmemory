@@ -50,7 +50,7 @@ function encodeImagePath(p) {
 
 function topicImageSrcset(rel, basePath = '') {
   const clean = String(rel || '').replace(/\\/g, '/').replace(/^\.?\//, '');
-  const m = /^images\/(alice|breakdown|ascension|revelations)\/([^/]+)\.webp$/i.exec(clean);
+  const m = /^images\/(alice|breakdown|ascension|revelations|special-requests)\/([^/]+)\.webp$/i.exec(clean);
   if (!m || /placeholder/i.test(clean)) return '';
   const parts = TOPIC_VARIANT_WIDTHS.map(
     (w) => `${basePath}${encodeImagePath(`images/thumbs/${m[1]}/${m[2]}-${w}.webp`)} ${w}w`
@@ -68,7 +68,7 @@ function topicImageSrcsetAttrs(rel, sizes, basePath = '') {
 
 /** Series hero (portrait card art) srcset attrs. */
 function seriesHeroSrcsetAttrs(sourceId, fullSrc, sizes) {
-  if (!/^(alice|breakdown|ascension|revelations)$/.test(String(sourceId || ''))) return '';
+  if (!/^(alice|breakdown|ascension|revelations|special-requests)$/.test(String(sourceId || ''))) return '';
   if (!/-codex-card\.webp$/.test(String(fullSrc || ''))) return '';
   const parts = SERIES_HERO_WIDTHS.map(
     (w) => `images/thumbs/series/${sourceId}-codex-card-${w}.webp ${w}w`

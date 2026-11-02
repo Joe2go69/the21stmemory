@@ -487,14 +487,19 @@ function renderTopicsList() {
 
   const html = categories.map((cat) => renderCategoryBlock(sourceId, cat)).join('');
   if (!html.trim()) {
+    const seriesEmpty = !(data.topics || []).length;
     container.innerHTML = RenderUtils.renderDiscoveryEmpty({
-      title: 'No topics in this view',
-      message: 'This category or status filter has nothing to show. Reset filters to explore the full transmission.',
+      title: seriesEmpty ? 'Topics on the way' : 'No topics in this view',
+      message: seriesEmpty
+        ? 'Studies in this series will appear here as their own categories.'
+        : 'This category or status filter has nothing to show. Reset filters to explore the full transmission.',
       icon: 'archive',
-      actions: [
-        { label: 'Show all topics', primary: true, attrs: 'data-topics-clear-filters' },
-        { label: 'Back to Codex', href: 'codex.html' }
-      ]
+      actions: seriesEmpty
+        ? [{ label: 'Back to Codex', href: 'codex.html', primary: true }]
+        : [
+            { label: 'Show all topics', primary: true, attrs: 'data-topics-clear-filters' },
+            { label: 'Back to Codex', href: 'codex.html' }
+          ]
     });
     container.querySelector('[data-topics-clear-filters]')?.addEventListener('click', () => {
       topicsPageState.filters.search = '';

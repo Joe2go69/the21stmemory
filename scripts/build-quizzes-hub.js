@@ -46,6 +46,14 @@ const SOURCE_META = {
     desc: 'Physical existence, inversion, and the return of memory.',
     image: 'images/revelations-codex-card-960.webp',
   },
+  'special-requests': {
+    id: 'special-requests',
+    label: 'Requests',
+    title: 'Special Requests',
+    short: 'Requested studies',
+    desc: 'Studies prepared by request, each with video, a written report, and a Living Truth quiz.',
+    image: 'images/special-requests-codex-card-960.webp',
+  },
 };
 
 const OVERVIEW_START = '<!-- QUIZZES-OVERVIEW-START -->';
@@ -140,7 +148,6 @@ function renderPathCards(quizzes) {
   const cards = Object.values(SOURCE_META)
     .map((meta) => {
       const count = quizzes.filter((q) => q.sourceId === meta.id).length;
-      if (!count) return '';
       const src960 = meta.image || '';
       const src640 = src960.replace(/-960\.webp$/, '-640.webp');
       const img = src960
@@ -149,6 +156,17 @@ function renderPathCards(quizzes) {
     <span class="source-card-media-fade" aria-hidden="true"></span>
   </span>`
         : '';
+      if (!count) {
+        return `<a href="series-${escapeAttr(meta.id)}.html" class="memory-card content-card source-card series-card quiz-hub-path-card">
+  ${img}
+  <span class="source-card-body">
+    <span class="card-label">${escapeHtml(meta.short)}</span>
+    <h2 class="source-card-title">${escapeHtml(meta.title)}</h2>
+    <p class="source-card-meta quiz-hub-path-card__count">Quizzes on the way</p>
+    <span class="source-card-action card-action">Browse the series <span class="source-card-action-arrow" aria-hidden="true">→</span></span>
+  </span>
+</a>`;
+      }
       const countLabel = `${count} ${count === 1 ? 'quiz' : 'quizzes'}`;
       return `<button type="button" class="memory-card content-card source-card series-card quiz-hub-path-card" data-quiz-path="${escapeAttr(meta.id)}" aria-controls="quiz-browse">
   ${img}
@@ -160,7 +178,6 @@ function renderPathCards(quizzes) {
   </span>
 </button>`;
     })
-    .filter(Boolean)
     .join('\n');
 
   return `<div class="quiz-hub-paths series-card-row" role="navigation" aria-label="Quiz paths">

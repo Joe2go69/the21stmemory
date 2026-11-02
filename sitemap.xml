@@ -2732,6 +2732,12 @@
     <priority>0.88</priority>
   </url>
   <url>
+    <loc>https://21stmemory.com/series-special-requests.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
     <loc>https://21stmemory.com/dive/ascension/portal-transition.html</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -4191,6 +4197,18 @@
   </url>
   <url>
     <loc>https://21stmemory.com/quiz/ascension/free-energy.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://21stmemory.com/dive/special-requests/original-vessel-recovery.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://21stmemory.com/quiz/special-requests/original-vessel-recovery.html</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>

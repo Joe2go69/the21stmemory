@@ -23,7 +23,8 @@ const SERIES_LABELS = {
   alice: 'Foundational rabbit-hole series',
   breakdown: 'Final-stage Great Awakening notes',
   ascension: 'EMF ascension process',
-  revelations: 'Six-part revelations synopsis'
+  revelations: 'Six-part revelations synopsis',
+  'special-requests': 'Requested studies'
 };
 
 // Matches topics.html head SEO block: <title> … first </script> (JSON-LD)

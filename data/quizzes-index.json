@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T10:02:23.747Z",
-  "total": 316,
+  "generatedAt": "2026-11-02T11:02:55.369Z",
+  "total": 317,
   "sources": [
     {
       "id": "alice",
@@ -37,6 +37,15 @@
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
       "count": 118
+    },
+    {
+      "id": "special-requests",
+      "label": "Requests",
+      "title": "Special Requests",
+      "short": "Requested studies",
+      "desc": "Studies prepared by request, each with video, a written report, and a Living Truth quiz.",
+      "image": "images/special-requests-codex-card-960.webp",
+      "count": 1
     }
   ],
   "quizzes": [
@@ -4463,6 +4472,20 @@
       "diveHref": "dive/revelations/world-wide-web.html",
       "key": "revelations/world-wide-web",
       "order": 53
+    },
+    {
+      "id": "original-vessel-recovery",
+      "sourceId": "special-requests",
+      "sourceLabel": "Requests",
+      "sourceTitle": "Special Requests",
+      "sourceShort": "Requested studies",
+      "title": "Original Vessel Recovery",
+      "subtitle": "Test your understanding of Original Vessel Recovery — the bypass of the restricted DNA, the crystalline-plasma True vessel, and the rising sol frequency that collaborates with timesplit mechanics.",
+      "questionCount": 25,
+      "href": "quiz/special-requests/original-vessel-recovery.html",
+      "diveHref": "dive/special-requests/original-vessel-recovery.html",
+      "key": "special-requests/original-vessel-recovery",
+      "order": 0
     }
   ]
 }
