@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T08:17:33.870Z",
-  "total": 314,
+  "generatedAt": "2026-11-02T08:57:11.179Z",
+  "total": 315,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card-960.webp",
-      "count": 32
+      "count": 33
     },
     {
       "id": "revelations",
@@ -1145,6 +1145,20 @@
       "diveHref": "dive/ascension/organizational-alliances.html",
       "key": "ascension/organizational-alliances",
       "order": 32
+    },
+    {
+      "id": "other-world-conductors",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Other-World Conductors",
+      "subtitle": "Test your understanding of Other-World Conductors — quartz building materials in Pleiadia and Andromeda, and the resonance that opens the way home.",
+      "questionCount": 25,
+      "href": "quiz/ascension/other-world-conductors.html",
+      "diveHref": "dive/ascension/other-world-conductors.html",
+      "key": "ascension/other-world-conductors",
+      "order": 8
     },
     {
       "id": "plasma-connection",

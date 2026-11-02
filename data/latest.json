@@ -1,6 +1,16 @@
 {
   "recent": [
     {
+      "sourceId": "ascension",
+      "topicId": "other-world-conductors",
+      "series": "The Long-Awaited Ascension Process",
+      "title": "Other-World Conductors",
+      "description": "Conductive mechanisms embedded in quartz crystal building materials that supply energetic resonance for portal generation and dimensional transition.",
+      "topic_image": "images/ascension/other-world-conductors.webp",
+      "path": "dive/ascension/other-world-conductors.html",
+      "added": "2026-11-02T01:47:24-07:00"
+    },
+    {
       "sourceId": "revelations",
       "topicId": "projection-dome",
       "series": "A Brief Synopsis of Revelations",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/living-garden.webp",
       "path": "dive/revelations/living-garden.html",
       "added": "2026-10-22T17:46:57-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "mineral-components",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Mineral Components",
-      "description": "Mineral Components are the intentionally placed, grown physical micro-hardware elements embedded within the Earth's crust that constitute the planetary Organic Circuitboard.",
-      "topic_image": "images/revelations/mineral-components.webp",
-      "path": "dive/revelations/mineral-components.html",
-      "added": "2026-10-21T15:01:19-07:00"
     }
   ],
   "featured": [
