@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "revelations",
+      "topicId": "projection-dome",
+      "series": "A Brief Synopsis of Revelations",
+      "title": "Projection Dome",
+      "description": "A 4th-density firmament canopy that projects holographic celestial displays and diverts inquiry away from the ice wall.",
+      "topic_image": "images/revelations/projection-dome.webp",
+      "path": "dive/revelations/projection-dome.html",
+      "added": "2026-11-02T01:00:04-07:00"
+    },
+    {
+      "sourceId": "revelations",
       "topicId": "oil-as-grease",
       "series": "A Brief Synopsis of Revelations",
       "title": "Oil as Grease",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/mineral-components.webp",
       "path": "dive/revelations/mineral-components.html",
       "added": "2026-10-21T15:01:19-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "cain-periphery",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Cain Periphery",
-      "description": "The Cain Periphery is the spiritual and physical state of nomadic exile and discoherence resulting from expulsion from the central, vertical channel of divine communication.",
-      "topic_image": "images/revelations/cain-periphery.webp",
-      "path": "dive/revelations/cain-periphery.html",
-      "added": "2026-10-20T21:17:36-07:00"
     }
   ],
   "featured": [

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T03:50:27.455Z",
-  "total": 313,
+  "generatedAt": "2026-11-02T08:17:33.870Z",
+  "total": 314,
   "sources": [
     {
       "id": "alice",
@@ -36,7 +36,7 @@
       "short": "Six-part revelations synopsis",
       "desc": "Physical existence, inversion, and the return of memory.",
       "image": "images/revelations-codex-card-960.webp",
-      "count": 117
+      "count": 118
     }
   ],
   "quizzes": [
@@ -3917,6 +3917,20 @@
       "diveHref": "dive/revelations/positive-loosh.html",
       "key": "revelations/positive-loosh",
       "order": 73
+    },
+    {
+      "id": "projection-dome",
+      "sourceId": "revelations",
+      "sourceLabel": "Revelations",
+      "sourceTitle": "A Brief Synopsis of Revelations",
+      "sourceShort": "Six-part revelations synopsis",
+      "title": "Projection Dome",
+      "subtitle": "Test your understanding of Projection Dome — the firmament skyway, Venus as lunar projector, and the ice wall that overhead attention is meant to hide.",
+      "questionCount": 25,
+      "href": "quiz/revelations/projection-dome.html",
+      "diveHref": "dive/revelations/projection-dome.html",
+      "key": "revelations/projection-dome",
+      "order": 117
     },
     {
       "id": "proximal-sols",

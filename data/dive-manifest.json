@@ -3364,9 +3364,9 @@
       "sourceId": "revelations",
       "topicId": "projection-dome",
       "path": "/dive/revelations/projection-dome.html",
-      "live": false,
+      "live": true,
       "title": "Projection Dome",
-      "added": "2026-10-07"
+      "added": "2026-11-02T01:00:04-07:00"
     }
   ]
 }

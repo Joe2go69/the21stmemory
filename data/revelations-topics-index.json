@@ -1025,10 +1025,10 @@
                 {
                   "id": "projection-dome",
                   "title": "Projection Dome",
-                  "description": "Projection Dome",
-                  "topic_image": "images/revelations/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-07"
+                  "description": "A 4th-density firmament canopy that projects holographic celestial displays and diverts inquiry away from the ice wall.",
+                  "topic_image": "images/revelations/projection-dome.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-02T01:00:04-07:00"
                 }
               ]
             }
