@@ -2420,9 +2420,9 @@
       "sourceId": "ascension",
       "topicId": "scare-events",
       "path": "/dive/ascension/scare-events.html",
-      "live": false,
+      "live": true,
       "title": "Scare Events",
-      "added": "2026-10-14"
+      "added": "2026-11-02T22:58:32-07:00"
     },
     {
       "sourceId": "revelations",
