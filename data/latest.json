@@ -1,6 +1,16 @@
 {
   "recent": [
     {
+      "sourceId": "alice",
+      "topicId": "time-back-home",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Time Back Home",
+      "description": "Time Back Home is the non-linear temporal structure of original reality, a nearly 96-hour day where dusk is the darkest state and souls bend time as a second-nature reflex.",
+      "topic_image": "images/alice/time-back-home.webp",
+      "path": "dive/alice/time-back-home.html",
+      "added": "2026-11-03T04:17:51-07:00"
+    },
+    {
       "sourceId": "ascension",
       "topicId": "four-elements",
       "series": "The Long-Awaited Ascension Process",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/oil-as-grease.webp",
       "path": "dive/revelations/oil-as-grease.html",
       "added": "2026-10-30T20:39:45-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "ice-wall",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Ice Wall",
-      "description": "The Ice Wall is the massive, continuous glacial perimeter that holds and defines the physical plane of this contained world.",
-      "topic_image": "images/revelations/ice-wall.webp",
-      "path": "dive/revelations/ice-wall.html",
-      "added": "2026-10-30T19:48:14-07:00"
     }
   ],
   "featured": [

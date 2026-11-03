@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T10:08:18.452Z",
-  "total": 323,
+  "generatedAt": "2026-11-03T11:23:44.473Z",
+  "total": 324,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 60
+      "count": 61
     },
     {
       "id": "breakdown",
@@ -860,6 +860,20 @@
       "diveHref": "dive/alice/sun-and-moon.html",
       "key": "alice/sun-and-moon",
       "order": 18
+    },
+    {
+      "id": "time-back-home",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Time Back Home",
+      "subtitle": "Test your understanding of Time Back Home — the 96-hour day, dusk as the darkest state, time bending, and the zero-accident condition.",
+      "questionCount": 25,
+      "href": "quiz/alice/time-back-home.html",
+      "diveHref": "dive/alice/time-back-home.html",
+      "key": "alice/time-back-home",
+      "order": 5
     },
     {
       "id": "twin-flames",

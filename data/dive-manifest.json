@@ -44,9 +44,9 @@
       "sourceId": "alice",
       "topicId": "time-back-home",
       "path": "/dive/alice/time-back-home.html",
-      "live": false,
+      "live": true,
       "title": "Time Back Home",
-      "added": "2026-10-14"
+      "added": "2026-11-03T04:17:51-07:00"
     },
     {
       "sourceId": "alice",
