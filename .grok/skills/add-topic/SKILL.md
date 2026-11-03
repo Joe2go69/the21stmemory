@@ -1,8 +1,9 @@
 ---
 name: add-topic
 description: >
-  Add or fill a Mega Breakdown (breakdown), Alice (alice), or Revelations
-  (revelations) topic from a paste.
+  Add or fill a Mega Breakdown (breakdown), Alice (alice), Revelations
+  (revelations), Ascension (ascension), or Special Requests (special-requests)
+  topic from a paste.
   Use when the user says "Add this topic", "follow add-topic", pastes a Grok Build
   topic template, or runs /add-topic. Do not explore other topics.
 ---
@@ -20,7 +21,7 @@ If `{id}` is missing from `data/{source}-topics.json`, stop. Do not invent a par
 
 ## Steps
 
-1. Source is `breakdown`, `alice`, or `revelations`. `id` is kebab-case of the title (`Mind Weapons` → `mind-weapons`).
+1. Source is `breakdown`, `alice`, `revelations`, `ascension`, or `special-requests`. `id` is kebab-case of the title (`Mind Weapons` → `mind-weapons`). Special Requests topics are top-level categories already listed in `data/special-requests-topics.json`. There is no essence root.
 2. Write **data only** to `scripts/payloads/{id}.topic.js` (see schema). Keep the pasted report wording; only normalize required `##` headings and Key Terminology bullets.
 3. `node scripts/install.js topic {source} {id}`
    - If a matching `{id}.quiz.js` payload is also ready in this turn, run `node scripts/install.js all {source} {id}` instead (one rebuild).
@@ -36,7 +37,7 @@ When asked to review, commit, and push after this install: do not launch the rev
 
 ```js
 module.exports = {
-  source: 'breakdown', // or 'alice' or 'revelations'
+  source: 'breakdown', // or 'alice', 'revelations', 'ascension', or 'special-requests'
   id: 'topic-id',
   title: 'Exact Title',
   description: 'One-sentence card deck.',

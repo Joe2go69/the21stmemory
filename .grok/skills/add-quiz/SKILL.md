@@ -1,8 +1,8 @@
 ---
 name: add-quiz
 description: >
-  Install a Living Truth quiz for an existing Alice, Mega Breakdown, Revelations, or
-  Ascension topic. Use when the user says "Add this quiz", "follow add-quiz", pastes a
+  Install a Living Truth quiz for an existing Alice, Mega Breakdown, Revelations,
+  Ascension, or Special Requests topic. Use when the user says "Add this quiz", "follow add-quiz", pastes a
   NotebookLM quiz JSON, or runs /add-quiz. Do not explore other quizzes.
 ---
 
@@ -22,7 +22,7 @@ The installer lints the quiz before writing anything. If lint fails, it exits no
 
 ## Steps
 
-1. Source is `breakdown`, `alice`, `revelations`, or `ascension`. `id` is the topic id.
+1. Source is `breakdown`, `alice`, `revelations`, `ascension`, or `special-requests`. `id` is the topic id.
 2. Read this topic's `report` fully. It is the only source of truth.
 3. Fidelity: every correct answer and rationale must be supported by the report. Fix or drop unsupported claims. Never invent claims or add extra details the report doesn't state.
 4. Treat NotebookLM questions as a draft. Keep good questions, but rewrite any wrong answers that break the Answer rules below.
