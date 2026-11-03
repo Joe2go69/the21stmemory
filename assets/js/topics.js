@@ -57,6 +57,64 @@ function topicImageComingSoonHtml({ compact = false } = {}) {
 const TOPIC_THUMB_SIZES = '(max-width: 639px) 126px, 480px';
 const TOPIC_MAIN_ROOT_SIZES = '(max-width: 719px) 440px, 580px';
 const SERIES_HERO_SIZES = '(max-width: 899px) calc(100vw - 48px), 460px';
+const SERIES_HERO_ZOOM = '<button type="button" class="hero-zoom-btn" data-series-hero-zoom aria-label="View full image"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></button>';
+
+function seriesHeroArtHtml(sourceId, src, { alt = '', eager = false } = {}) {
+  if (!src) return '';
+  const encoded = TopicUtils.encodeAssetPath(src);
+  const srcset = typeof seriesHeroSrcsetAttrs === 'function'
+    ? seriesHeroSrcsetAttrs(sourceId, src, SERIES_HERO_SIZES)
+    : '';
+  const loading = eager ? ' loading="eager" data-img-fallback' : ' fetchpriority="high"';
+  return `<img src="${encoded}"${srcset} data-full-src="${encoded}" alt="${TopicUtils.escapeAttr(alt)}" class="source-hero-img" width="640" height="800"${loading} decoding="async" style="background-color:#0F0A1F">${SERIES_HERO_ZOOM}`;
+}
+
+function initSeriesHeroLightbox() {
+  if (initSeriesHeroLightbox.ready || typeof HTMLDialogElement === 'undefined') return;
+  initSeriesHeroLightbox.ready = true;
+  let dialog = null;
+  let img = null;
+  let returnFocus = null;
+
+  function build() {
+    dialog = document.createElement('dialog');
+    dialog.className = 'hero-lightbox';
+    dialog.setAttribute('aria-label', 'Full image');
+    dialog.innerHTML = '<button type="button" class="hero-lightbox__close" aria-label="Close">\u00d7</button><img class="hero-lightbox__img" alt="">';
+    document.body.appendChild(dialog);
+    img = dialog.querySelector('img');
+    const closeBtn = dialog.querySelector('.hero-lightbox__close');
+    closeBtn.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+    dialog.addEventListener('close', () => {
+      document.body.classList.remove('hero-lightbox-open');
+      if (returnFocus) returnFocus.focus();
+    });
+  }
+
+  function openFrom(trigger, heroImg) {
+    const src = heroImg?.dataset.fullSrc || heroImg?.getAttribute('src');
+    if (!src) return;
+    if (!dialog) build();
+    returnFocus = trigger;
+    img.src = src;
+    img.alt = (heroImg?.alt || document.querySelector('h1')?.textContent || '').trim();
+    document.body.classList.add('hero-lightbox-open');
+    dialog.showModal();
+    dialog.querySelector('.hero-lightbox__close').focus();
+  }
+
+  document.addEventListener('click', (event) => {
+    const zoom = event.target.closest('[data-series-hero-zoom]');
+    const heroImg = event.target.closest('.source-hero-img');
+    if (!zoom && !heroImg) return;
+    const media = (zoom || heroImg).closest('.source-hero-media');
+    const image = media?.querySelector('.source-hero-img');
+    if (!image) return;
+    event.preventDefault();
+    openFrom(zoom || image, image);
+  });
+}
 
 function renderTopicImage(topicImage, alt, { loading = "lazy", isPlaceholder = false, compact = false, deferred = false, sizes = '' } = {}) {
   const hasArt = topicImage && !TopicUtils.isPlaceholderImage(topicImage);
@@ -260,7 +318,7 @@ function renderCategoryBlock(sourceId, category) {
           </div>
           <div class="topic-root-content">
             <h3 class="topic-category-title">${TopicUtils.escapeHtml(category.title)}</h3>
-            <span class="topic-category-count">${subCount} ${subCount === 1 ? 'topic' : 'topics'}</span>
+            ${sourceId === 'special-requests' && subCount === 0 ? '' : `<span class="topic-category-count">${subCount} ${subCount === 1 ? 'topic' : 'topics'}</span>`}
             <p class="topic-category-desc">${TopicUtils.escapeHtml(category.description || '')}</p>
             <div class="topic-root-footer">
               <span class="explore-badge ${isPh ? 'explore-badge--soon' : ''}">
@@ -835,13 +893,7 @@ function renderSourceHeader(data, sourceId, stats) {
           </div>
         </div>
         <div class="source-hero-media" style="background-color:#0F0A1F;min-height:12rem">
-          ${heroImage
-            ? `<img src="${TopicUtils.encodeAssetPath(heroImage)}"${typeof seriesHeroSrcsetAttrs === 'function' ? seriesHeroSrcsetAttrs(sourceId, heroImage, SERIES_HERO_SIZES) : ''}
-                    alt="${TopicUtils.escapeAttr(data.title)}"
-                    class="source-hero-img"
-                    width="640" height="800" loading="eager" decoding="async" data-img-fallback
-                    style="background-color:#0F0A1F">`
-            : ''}
+          ${seriesHeroArtHtml(sourceId, heroImage, { alt: data.title, eager: true })}
           <span class="source-hero-media-fade" aria-hidden="true"></span>
         </div>
       </div>
@@ -937,9 +989,7 @@ function paintSourceHeroShell(sourceId) {
           <h1 id="source-hero-title" class="source-hero-title"></h1>
         </div>
         <div class="source-hero-media" style="background-color:#0F0A1F">
-          ${image
-            ? `<img src="${TopicUtils.encodeAssetPath(image)}"${typeof seriesHeroSrcsetAttrs === 'function' ? seriesHeroSrcsetAttrs(sourceId, image, SERIES_HERO_SIZES) : ''} alt="" class="source-hero-img" width="640" height="800" decoding="async" fetchpriority="high" style="background-color:#0F0A1F">`
-            : ''}
+          ${seriesHeroArtHtml(sourceId, image)}
           <span class="source-hero-media-fade" aria-hidden="true"></span>
         </div>
       </div>
@@ -1116,6 +1166,7 @@ async function loadSourceViewer() {
 }
 
 function initTopicsPage() {
+  initSeriesHeroLightbox();
   TopicUtils.disableNativeScrollRestoration();
   topicsPendingHash = TopicUtils.captureAndClearHash();
   loadSourceViewer();

@@ -2584,6 +2584,9 @@ html.has-source-shelf .source-hero-host,
   object-fit: cover;
   object-position: center 40%;
 }
+.source-hero-media:has([data-series-hero-zoom]) .source-hero-img {
+  cursor: zoom-in;
+}
 
 @media (min-width: 900px) {
   .source-hero-img {
