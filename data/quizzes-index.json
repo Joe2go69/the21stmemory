@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T03:36:11.986Z",
-  "total": 320,
+  "generatedAt": "2026-11-03T04:36:20.921Z",
+  "total": 321,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card-960.webp",
-      "count": 36
+      "count": 37
     },
     {
       "id": "revelations",
@@ -1210,6 +1210,20 @@
       "diveHref": "dive/ascension/other-world-conductors.html",
       "key": "ascension/other-world-conductors",
       "order": 8
+    },
+    {
+      "id": "pineal-and-vessel",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Pineal and Vessel",
+      "subtitle": "Test your understanding of Pineal and Vessel — the pineal receiver, the original vessel, and the top-down flow of evolving aether.",
+      "questionCount": 25,
+      "href": "quiz/ascension/pineal-and-vessel.html",
+      "diveHref": "dive/ascension/pineal-and-vessel.html",
+      "key": "ascension/pineal-and-vessel",
+      "order": 36
     },
     {
       "id": "plasma-connection",
