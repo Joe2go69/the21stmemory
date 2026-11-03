@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T11:43:17.339Z",
-  "total": 318,
+  "generatedAt": "2026-11-03T01:26:30.858Z",
+  "total": 319,
   "sources": [
     {
       "id": "alice",
@@ -45,7 +45,7 @@
       "short": "Requested studies",
       "desc": "Studies prepared by request, each with video, a written report, and a Living Truth quiz.",
       "image": "images/special-requests-codex-card-960.webp",
-      "count": 1
+      "count": 2
     }
   ],
   "quizzes": [
@@ -4486,6 +4486,20 @@
       "diveHref": "dive/revelations/world-wide-web.html",
       "key": "revelations/world-wide-web",
       "order": 53
+    },
+    {
+      "id": "occupancy-layers-the-false-rescue",
+      "sourceId": "special-requests",
+      "sourceLabel": "Requests",
+      "sourceTitle": "Special Requests",
+      "sourceShort": "Requested studies",
+      "title": "Occupancy Layers & the False Rescue",
+      "subtitle": "Test your understanding of Occupancy Layers & the False Rescue — the golden carrot of QFS, NESARA/GESARA, and medbeds, and the children-first measure that exposes it.",
+      "questionCount": 25,
+      "href": "quiz/special-requests/occupancy-layers-the-false-rescue.html",
+      "diveHref": "dive/special-requests/occupancy-layers-the-false-rescue.html",
+      "key": "special-requests/occupancy-layers-the-false-rescue",
+      "order": 1
     },
     {
       "id": "original-vessel-recovery",

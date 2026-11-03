@@ -123,7 +123,8 @@ function verifyInstall({ source, id, kind = 'all' }) {
     }
     const t = String(title || '').trim();
     const cta = /^the\b/i.test(t) ? `Take ${t} Quiz` : `Take the ${t} Quiz`;
-    add(`dive CTA: ${cta}`, dive.includes(cta));
+    const ctaHtml = cta.replace(/&/g, '&amp;');
+    add(`dive CTA: ${cta}`, dive.includes(cta) || dive.includes(ctaHtml));
   }
 
   const failed = checks.filter((c) => !c.pass);

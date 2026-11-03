@@ -3375,6 +3375,14 @@
       "live": true,
       "title": "Original Vessel Recovery",
       "added": "2026-11-02T03:54:09-07:00"
+    },
+    {
+      "sourceId": "special-requests",
+      "topicId": "occupancy-layers-the-false-rescue",
+      "path": "/dive/special-requests/occupancy-layers-the-false-rescue.html",
+      "live": true,
+      "title": "Occupancy Layers & the False Rescue",
+      "added": "2026-11-02T18:25:34-07:00"
     }
   ]
 }

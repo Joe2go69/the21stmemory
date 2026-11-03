@@ -5,7 +5,7 @@
   "image": "images/special-requests-codex-card.webp",
   "playlist_url": "https://rumble.com/playlists/SATF-rYupmA",
   "description": "Special Requests gathers studies prepared by request. Each one stands as its own category, with the same materials as the rest of the Codex: video, an infographic, a written report, and a Living Truth quiz.\n\nThese studies are read on their own. There is no opening essence transmission.",
-  "total_topics": 1,
+  "total_topics": 2,
   "topics": [
     {
       "id": "original-vessel-recovery",
@@ -14,6 +14,14 @@
       "topic_image": "images/special-requests/original-vessel-recovery.webp",
       "is_placeholder": false,
       "added": "2026-11-02T03:54:09-07:00"
+    },
+    {
+      "id": "occupancy-layers-the-false-rescue",
+      "title": "Occupancy Layers & the False Rescue",
+      "description": "The push around XRP, QFS, NESARA/GESARA, and medbeds is an occupancy layer that holds attention on financial rescue while the children and the frequency wait.",
+      "topic_image": "images/special-requests/occupancy-layers-the-false-rescue.webp",
+      "is_placeholder": false,
+      "added": "2026-11-02T18:25:34-07:00"
     }
   ]
 }
