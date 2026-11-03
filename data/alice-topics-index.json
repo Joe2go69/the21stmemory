@@ -81,10 +81,10 @@
             {
               "id": "gravity-story",
               "title": "Gravity Story",
-              "description": "Gravity Story",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "The Gravity Story—frequently designated as gravity, heliocentrism, or the spinning ball model—is a manufactured thought-form that possesses no actual existence in physical reality.",
+              "topic_image": "images/alice/gravity-story.webp",
+              "is_placeholder": false,
+              "added": "2026-11-03T11:22:03-07:00"
             }
           ]
         },

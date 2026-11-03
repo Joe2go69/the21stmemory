@@ -68,9 +68,9 @@
       "sourceId": "alice",
       "topicId": "gravity-story",
       "path": "/dive/alice/gravity-story.html",
-      "live": false,
+      "live": true,
       "title": "Gravity Story",
-      "added": "2026-10-14"
+      "added": "2026-11-03T11:22:03-07:00"
     },
     {
       "sourceId": "alice",

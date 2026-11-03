@@ -1,0 +1,648 @@
+module.exports = {
+  source: 'alice',
+  id: 'gravity-story',
+  title: 'Gravity Story',
+  description: 'Test your understanding of Gravity Story — the manufactured thought-form, the firmament that bends light and sound, and the horizontal layout beneath that story.',
+  seoDescription: 'Interactive Living Truth Quiz on Gravity Story: seawater on a spinning ball, firmament optics, electromagnetism, and the horizontal situation.',
+  reflection: {
+    title: 'Reflection',
+    body: 'Gravity was put forward to answer how seawater could stay on a curved body moving at high speed. The topic sets that story next to firmament optics, electromagnetism, and a horizontal plane. Sit with which pieces are doing physical work and which pieces exist as a thought-form.'
+  },
+  questions: [
+    {
+      number: 1,
+      question: 'What physical problem was the gravity story fabricated to answer?',
+      hint: 'Look in the overview for the practical problem this thought-form was built to answer.',
+      options: [
+        {
+          text: 'An invented justification for how seawater can adhere to a curved physical sphere rotating through space.',
+          isCorrect: true,
+          rationale: 'The overview says the story was fabricated as an invented justification for how seawater can adhere to a curved physical sphere rotating through space at nearly 1,000 miles per hour.'
+        },
+        {
+          text: 'An invented justification for how localized suns keep precise pathways across the sky under electromagnetic care.',
+          isCorrect: false,
+          rationale: 'Electromagnetism controls localized suns and maintains their precise pathways across the sky, which is separate from why gravity was fabricated.'
+        },
+        {
+          text: 'An invented justification for how bent light and sound become the distance and visual reality physical eyes perceive.',
+          isCorrect: false,
+          rationale: 'The firmament bends light and sound, and that optical bending is what physical eyes perceive as distance and visual reality.'
+        },
+        {
+          text: 'An invented justification for how giant pillars would hold a Dyson Sphere firmament over a round globe.',
+          isCorrect: false,
+          rationale: 'Giant pillars are the hypothetical supports a round globe would need for an atmospheric dome, not the problem gravity was invented to solve.'
+        }
+      ]
+    },
+    {
+      number: 2,
+      question: 'What structural action produces the visual perspective that physical eyes receive?',
+      hint: 'Look in the optical mechanics for what the overhead enclosure does with waves.',
+      options: [
+        {
+          text: 'An infinite spatial vacuum that lets light travel across empty space straight into physical eyes.',
+          isCorrect: false,
+          rationale: 'Physical perception does not rely on light traveling through an infinite spatial vacuum, but on wave interaction with the firmament.'
+        },
+        {
+          text: 'An overarching frequency barrier and optical lens that bends light and sound for the physical eyes.',
+          isCorrect: true,
+          rationale: 'The firmament acts as an overarching frequency barrier and optical lens that bends light and sound, and human physical eyes receive these bent waves.'
+        },
+        {
+          text: 'A crystalline lattice membrane network that emits natural electromagnetic energy straight into physical eyes.',
+          isCorrect: false,
+          rationale: 'Crystalline lattice membrane networks and ley lines emit natural electromagnetic energy in the Earth, rather than bending waves for the eyes.'
+        },
+        {
+          text: 'A chain of localized suns that sends rays back down onto the horizontal plane for physical eyes.',
+          isCorrect: false,
+          rationale: 'Localized suns are sustained and directed by electromagnetic technology, while visual perspective comes from firmament bending.'
+        }
+      ]
+    },
+    {
+      number: 3,
+      question: 'What regulates structural stability and celestial movement in the actual physical architecture?',
+      hint: 'Look for the physical element the core revelations set against the gravitational idea.',
+      options: [
+        {
+          text: 'Centrifugal movement that throws seawater outward from a curved body rotating at high speed.',
+          isCorrect: false,
+          rationale: 'Centrifugal movement is the reason seawater on a curved body would be thrown outward, not the control on localized suns.'
+        },
+        {
+          text: 'A universal physical attraction force across a spatial void that binds oceans to a spinning sphere.',
+          isCorrect: false,
+          rationale: 'The overview sets aside a universal physical attraction force across a spatial void and gives celestial movement to electromagnetism.'
+        },
+        {
+          text: 'Electromagnetism that controls localized suns and maintains their precise pathways across the sky.',
+          isCorrect: true,
+          rationale: 'Structural stability and celestial movement are regulated by electromagnetism, which controls localized suns and maintains their precise pathways across the sky.'
+        },
+        {
+          text: 'Giant structural pillars that rise hundreds of miles to hold a Dyson Sphere firmament in place.',
+          isCorrect: false,
+          rationale: 'Giant pillars are a hypothetical requirement for enclosing a round globe, not the regulator of localized suns.'
+        }
+      ]
+    },
+    {
+      number: 4,
+      question: 'How does the key terminology define heliocentrism?',
+      hint: 'Read the heliocentrism line in the key terminology.',
+      options: [
+        {
+          text: 'A firmament doctrine asserting that bent light and sound are what physical eyes perceive as distance.',
+          isCorrect: false,
+          rationale: 'Firmament bending accounts for visual perception, while heliocentrism is the doctrine about spherical worlds and empty space.'
+        },
+        {
+          text: 'A lattice doctrine asserting that ley lines embedded in the Earth emit natural electromagnetic energy.',
+          isCorrect: false,
+          rationale: 'Ley lines and crystalline lattice membrane networks belong to physical organization in the Earth, not to the heliocentric doctrine.'
+        },
+        {
+          text: 'A plane doctrine asserting that physical realms existing across an extended plane replace spheres in vacuum space.',
+          isCorrect: false,
+          rationale: 'The extended plane is the horizontal situation, while heliocentrism asserts spherical worlds orbiting distant suns across empty space.'
+        },
+        {
+          text: 'A fraudulent cosmological doctrine asserting that spherical worlds orbit distant suns across empty space.',
+          isCorrect: true,
+          rationale: 'Key terminology defines heliocentrism as a fraudulent cosmological doctrine asserting that spherical worlds orbit distant suns across empty space.'
+        }
+      ]
+    },
+    {
+      number: 5,
+      question: 'What did figures such as 33rd-degree Freemason Nicholas Copernicus help build into academic curriculums?',
+      hint: 'Look in the fabrication section for what those figures placed into teaching.',
+      options: [
+        {
+          text: 'Heliocentrism and gravity, placed in teaching to suppress knowledge of the flat, horizontal layout of realms.',
+          isCorrect: true,
+          rationale: 'Promoted through figures such as Nicholas Copernicus, heliocentrism and gravity were built into academic curriculums to suppress knowledge of the flat, horizontal layout.'
+        },
+        {
+          text: 'Firmament optics, placed in teaching to show how bent light and sound become distance for the eyes.',
+          isCorrect: false,
+          rationale: 'Curriculums received heliocentrism and gravity to suppress the horizontal layout, not a course in firmament optics.'
+        },
+        {
+          text: 'Ley line maps, placed in teaching to trace crystalline lattice membrane networks embedded in the Earth.',
+          isCorrect: false,
+          rationale: 'Ley lines are part of true physical organization, not the material Copernicus helped build into academic curriculums.'
+        },
+        {
+          text: 'Ice wall studies, placed in teaching to describe landmasses beyond known boundaries of the mapped land.',
+          isCorrect: false,
+          rationale: 'The globe model kept populations from investigating the ice wall, rather than placing ice wall studies into curriculums.'
+        }
+      ]
+    },
+    {
+      number: 6,
+      question: 'What physical reality did the gravity thought-form keep populations from investigating?',
+      hint: 'Look for the boundary a globe model leaves people unable to investigate.',
+      options: [
+        {
+          text: 'The spatial vacuum around spherical worlds that orbit distant suns across empty space.',
+          isCorrect: false,
+          rationale: 'Empty space is part of the fraudulent heliocentric doctrine, not a physical reality the thought-form hid from investigation.'
+        },
+        {
+          text: 'The Dyson Sphere firmament that would need giant pillars rising hundreds of miles into the sky.',
+          isCorrect: false,
+          rationale: 'A Dyson Sphere firmament on pillars is a hypothetical demand of a globe dome, not the hidden physical reality.'
+        },
+        {
+          text: 'The localized sun that electromagnetic technology holds on a precise pathway across the sky.',
+          isCorrect: false,
+          rationale: 'Localized suns are directed by electromagnetism in the actual architecture, not the reality the globe model blocks.'
+        },
+        {
+          text: 'The ice wall beyond known boundaries that the globe story kept populations from investigating.',
+          isCorrect: true,
+          rationale: 'Because a globe model inherently lacks boundaries, the gravity thought-form prevented populations from investigating physical realities such as the ice wall.'
+        }
+      ]
+    },
+    {
+      number: 7,
+      question: 'What would be mandatory to support an atmospheric dome over a round globe?',
+      hint: 'Look in the core revelations for the supports a round globe would need overhead.',
+      options: [
+        {
+          text: 'A network of ley lines emitting natural electromagnetic energy to steer localized suns on sky paths.',
+          isCorrect: false,
+          rationale: 'Ley lines emit natural electromagnetic energy in the Earth, and they are not the supports for a globe-sized atmospheric dome.'
+        },
+        {
+          text: 'A network of giant pillars rising hundreds of miles into the sky to hold a Dyson Sphere firmament overhead.',
+          isCorrect: true,
+          rationale: 'Encasing a round globe within an atmospheric dome would necessitate a network of giant pillars rising hundreds of miles into the sky to hold a Dyson Sphere firmament.'
+        },
+        {
+          text: 'A network of crystalline membranes pulling oceans down onto a sphere spinning at high velocity.',
+          isCorrect: false,
+          rationale: 'Crystalline lattice membrane networks emit electromagnetic energy rather than gravitational attraction, and they do not pin oceans to a globe.'
+        },
+        {
+          text: 'A network of firmament lenses bending light and sound to pin seawater onto a curved spinning body.',
+          isCorrect: false,
+          rationale: 'The firmament bends light and sound for visual perception, and it is not a support structure for seawater on a globe.'
+        }
+      ]
+    },
+    {
+      number: 8,
+      question: 'How does the key terminology define a thought-form?',
+      hint: 'Read the thought-form entry in the key terminology and stay with that definition.',
+      options: [
+        {
+          text: 'An institutional protocol constructed within academic curriculums that enforces the spinning ball model.',
+          isCorrect: false,
+          rationale: 'Academic curriculums enforce the spinning ball model, but a thought-form is defined as a mental idea with no empirical reality.'
+        },
+        {
+          text: 'An atmospheric wave pattern constructed within the firmament that bends light and sound for the eyes.',
+          isCorrect: false,
+          rationale: 'Bending light and sound is the physical action of the firmament, not the definition of a thought-form.'
+        },
+        {
+          text: 'A natural frequency constructed within ley lines that emits electromagnetic energy through lattice networks.',
+          isCorrect: false,
+          rationale: 'Ley lines emit natural electromagnetic energy and have a physical role, unlike a thought-form with no empirical reality.'
+        },
+        {
+          text: 'A conceptual mental idea constructed within the human mind with no empirical reality in the physical world.',
+          isCorrect: true,
+          rationale: 'Key terminology defines a thought-form as a conceptual mental idea constructed within the human mind that has no empirical reality or scientific basis in the physical world.'
+        }
+      ]
+    },
+    {
+      number: 9,
+      question: 'What term names the true layout of physical realms?',
+      hint: 'Look through the key terminology for the name of that true layout.',
+      options: [
+        {
+          text: 'Horizontal Situation, the true structural alignment of physical realms existing across an extended plane.',
+          isCorrect: true,
+          rationale: 'Key terminology names the Horizontal Situation as the true structural alignment of physical realms existing across an extended plane rather than spheres in vacuum space.'
+        },
+        {
+          text: 'Heliocentrism, the fraudulent doctrine of spherical worlds that orbit distant suns across empty space.',
+          isCorrect: false,
+          rationale: 'Heliocentrism is the fraudulent cosmological doctrine about orbits in empty space, not the name of the true layout.'
+        },
+        {
+          text: 'Spinning Ball, the false physical construct of a sphere moving anti-clockwise at just under 1,000 miles per hour.',
+          isCorrect: false,
+          rationale: 'The spinning ball is the false physical construct, not the term for realms existing across an extended plane.'
+        },
+        {
+          text: 'Thought-form, the mental idea constructed within the human mind that has no empirical reality at all.',
+          isCorrect: false,
+          rationale: 'A thought-form is a mental idea without empirical reality, not the name of the true structural alignment.'
+        }
+      ]
+    },
+    {
+      number: 10,
+      question: 'What problem do the core revelations raise about illuminating a massive rotating sphere?',
+      hint: 'Look in the core revelations for what illuminating that kind of sphere would require.',
+      options: [
+        {
+          text: 'Electromagnetic energy along ley lines would block direct rays from the localized sun overhead.',
+          isCorrect: false,
+          rationale: 'Ley lines and electromagnetism sustain and guide localized suns, and they are not described as blocking illumination.'
+        },
+        {
+          text: 'The firmament would absorb the light before any of it could reach the surface of the sphere.',
+          isCorrect: false,
+          rationale: 'The firmament bends light and sound to produce visual perception, and it is not described as absorbing solar light.'
+        },
+        {
+          text: 'Illuminating a massive rotating sphere would require suns positioned in all directions, not one localized sun.',
+          isCorrect: true,
+          rationale: 'The core revelations state that illuminating a massive rotating sphere would require suns positioned in all directions rather than a single localized sun.'
+        },
+        {
+          text: 'High rotational speed would turn visible light waves into sound waves before they reached the ground.',
+          isCorrect: false,
+          rationale: 'Light and sound are both bent by the firmament, and the report does not turn one into the other through rotation.'
+        }
+      ]
+    },
+    {
+      number: 11,
+      question: 'What is the mandatory first step required to exit cognitive matrix loops and process genuine cosmological knowledge?',
+      hint: 'Look in the broader context for the step that has to come before the rest.',
+      options: [
+        {
+          text: 'Mapping the precise sky paths of localized suns and setting the horizontal layout aside for later study.',
+          isCorrect: false,
+          rationale: 'Localized suns travel precise pathways under electromagnetism, but that mapping is not the mandatory first step.'
+        },
+        {
+          text: 'Understanding the true shape of the Earth and rejecting the gravity myth before other cosmological work.',
+          isCorrect: true,
+          rationale: 'Understanding the true shape of the Earth and rejecting the gravity myth is the mandatory first step required to comprehend reality and exit cognitive matrix loops.'
+        },
+        {
+          text: 'Revising academic literature around Freemason history and setting the ice wall aside for later study.',
+          isCorrect: false,
+          rationale: 'Nicholas Copernicus is named in the fabrication account, but the mandatory first step is rejecting the gravity myth.'
+        },
+        {
+          text: 'Measuring firmament curvature with giant pillars and setting visual perception aside for later work.',
+          isCorrect: false,
+          rationale: 'Giant pillars are a hypothetical flaw in the globe dome, not the mandatory first step out of cognitive matrix loops.'
+        }
+      ]
+    },
+    {
+      number: 12,
+      question: 'What was direct observational reality replaced with when the gravitational narrative was introduced?',
+      hint: 'Look in the fabrication section for what took the place of direct observation.',
+      options: [
+        {
+          text: 'Electromagnetic technology that directs localized suns along their precise pathways across the sky.',
+          isCorrect: false,
+          rationale: 'Electromagnetic technology directs localized suns in the actual architecture, and it is not what replaced direct observation.'
+        },
+        {
+          text: 'Institutional indoctrination that enforces this false framework and maintains the spinning ball illusion.',
+          isCorrect: true,
+          rationale: 'The gravitational narrative was introduced to replace direct observational reality with institutional indoctrination, and institutions enforce this false framework.'
+        },
+        {
+          text: 'Firmament optics that bend light and sound into the distance and visual reality physical eyes perceive overhead.',
+          isCorrect: false,
+          rationale: 'Firmament optics are the actual basis of visual perception, not the replacement for direct observational reality.'
+        },
+        {
+          text: 'Crystalline lattice membrane networks that emit natural electromagnetic energy through the Earth.',
+          isCorrect: false,
+          rationale: 'Those networks are part of true physical organization, not the indoctrination that replaced direct observational reality.'
+        }
+      ]
+    },
+    {
+      number: 13,
+      question: 'What does true physical organization operate along inside the Earth?',
+      hint: 'Look in the electromagnetism section for the networks tied to natural energy.',
+      options: [
+        {
+          text: 'Supporting Dyson pillars that would rise hundreds of miles to hold an atmospheric dome in place.',
+          isCorrect: false,
+          rationale: 'Dyson pillars are a hypothetical support for a globe dome, not the path of true physical organization in the Earth.'
+        },
+        {
+          text: 'Deep atmospheric vacuum chambers that would surround spherical worlds orbiting across empty space.',
+          isCorrect: false,
+          rationale: 'Empty space belongs to the heliocentric doctrine, while true organization operates along networks embedded in the Earth.'
+        },
+        {
+          text: 'Crystalline lattice membrane networks and ley lines emitting natural electromagnetic energy.',
+          isCorrect: true,
+          rationale: 'True physical organization operates along crystalline lattice membrane networks and ley lines embedded in the Earth, emitting natural electromagnetic energy.'
+        },
+        {
+          text: 'Gravitational core reactors that would pull oceans onto a sphere spinning at high velocity through space.',
+          isCorrect: false,
+          rationale: 'The same section says this organization emits natural electromagnetic energy rather than gravitational attraction.'
+        }
+      ]
+    },
+    {
+      number: 14,
+      question: 'What role does the gravity thought-form play among broader deceptions?',
+      hint: 'Look in the broader context for the place this thought-form holds among those deceptions.',
+      options: [
+        {
+          text: 'It acts as a secondary optics shortcut sustaining calculations for how the firmament bends waves.',
+          isCorrect: false,
+          rationale: 'Firmament bending is a structural optical action, and gravity is not presented as a useful shortcut for that work.'
+        },
+        {
+          text: 'It acts as a valid empirical baseline sustaining navigation by localized suns on their sky paths.',
+          isCorrect: false,
+          rationale: 'Gravity is described as a fiction with zero empirical reality, while electromagnetism directs localized suns.'
+        },
+        {
+          text: 'It acts as the primary foundational lie sustaining broader matrix deceptions about baseline reality.',
+          isCorrect: true,
+          rationale: 'The broader context says the gravity thought-form acts as the primary foundational lie sustaining broader matrix deceptions.'
+        },
+        {
+          text: 'It acts as a temporary hypothesis sustaining study until firmament mechanics and ley lines are mapped.',
+          isCorrect: false,
+          rationale: 'Gravity is an invented thought-form in the overview, not a temporary hypothesis waiting on later mapping.'
+        }
+      ]
+    },
+    {
+      number: 15,
+      question: 'What follows for human consciousness when seawater is accepted as stuck to a spinning ball in space?',
+      hint: 'Look in the broader context for the conditioning that acceptance produces.',
+      options: [
+        {
+          text: 'Human consciousness is trained to map precise sky paths of localized suns before other cosmological work.',
+          isCorrect: false,
+          rationale: 'Sky paths belong to electromagnetism, and the broader context ties this acceptance to false academic paradigms instead.'
+        },
+        {
+          text: 'Consciousness is conditioned to accept false academic paradigms without questioning baseline reality.',
+          isCorrect: true,
+          rationale: 'By accepting that seawater sticks to a spinning ball, human consciousness is conditioned to accept false academic paradigms without questioning baseline reality.'
+        },
+        {
+          text: 'Human consciousness is directed to revise academic literature around Freemason history as its next task.',
+          isCorrect: false,
+          rationale: 'The fabrication section names Nicholas Copernicus, but the conditioning described here is acceptance of false academic paradigms.'
+        },
+        {
+          text: 'Human consciousness is pointed toward giant pillars as the practical support for an atmospheric dome.',
+          isCorrect: false,
+          rationale: 'Giant pillars are a hypothetical objection to a globe dome, not the conditioning that follows from accepting the seawater story.'
+        }
+      ]
+    },
+    {
+      number: 16,
+      question: 'What standing does the overview give gravity?',
+      hint: 'Look in the overview for the standing gravity is given inside the real layout.',
+      options: [
+        {
+          text: 'It holds localized suns on their precise pathways across the sky through electromagnetic means.',
+          isCorrect: false,
+          rationale: 'Electromagnetism controls localized suns and maintains their precise pathways, and that role is not given to gravity.'
+        },
+        {
+          text: 'It has no place in the actual physical layout of existence, and there is no science to it.',
+          isCorrect: true,
+          rationale: 'The overview states that there is no science to gravity, and it has no place in the actual physical layout of existence.'
+        },
+        {
+          text: 'It bends light and sound into the distance and visual reality that physical eyes perceive overhead.',
+          isCorrect: false,
+          rationale: 'The firmament bends light and sound, and that optical bending is what physical eyes perceive as distance and visual reality.'
+        },
+        {
+          text: 'It emits natural electromagnetic energy through ley lines embedded in the Earth under the horizontal plane.',
+          isCorrect: false,
+          rationale: 'Ley lines embedded in the Earth emit natural electromagnetic energy, and gravity is not that emission.'
+        }
+      ]
+    },
+    {
+      number: 17,
+      question: 'On what basis can physical reality be evaluated once gravity and heliocentrism are recognized as fictitious?',
+      hint: 'Look in the strategic implications for the basis of that evaluation.',
+      options: [
+        {
+          text: 'Firmament optics, atmospheric electromagnetism, and horizontal spatial organization taken together.',
+          isCorrect: true,
+          rationale: 'Once gravity and heliocentrism are recognized as fictitious, physical reality can be evaluated based on firmament optics, atmospheric electromagnetism, and horizontal spatial organization.'
+        },
+        {
+          text: 'Giant structural pillars, a Dyson Sphere firmament, and suns stationed in every direction around a globe.',
+          isCorrect: false,
+          rationale: 'Pillars and suns in all directions are objections to a globe dome, not the basis for evaluating physical reality.'
+        },
+        {
+          text: 'Academic curriculums, scientific literature, and the spinning ball model taught as environmental stability.',
+          isCorrect: false,
+          rationale: 'Academic institutions enforce the false framework, and the strategic section turns evaluation away from that indoctrination.'
+        },
+        {
+          text: 'A spatial vacuum, distant orbiting suns, and centrifugal movement holding oceans onto a curved body.',
+          isCorrect: false,
+          rationale: 'Empty space and a universal attraction across a void are the rejected story, not the basis of evaluation.'
+        }
+      ]
+    },
+    {
+      number: 18,
+      question: 'What does the heliocentric spinning ball model hide about land past the known map?',
+      hint: 'Look in the broader context for what that model conceals about land.',
+      options: [
+        {
+          text: 'The precise pathways localized suns keep while electromagnetic technology directs them across the sky.',
+          isCorrect: false,
+          rationale: 'Those sky paths are part of electromagnetic control, not the land distribution the heliocentric model hides.'
+        },
+        {
+          text: 'The true horizontal distribution of landmasses beyond known boundaries of the familiar map.',
+          isCorrect: true,
+          rationale: 'The heliocentric spinning ball model hides the true horizontal distribution of landmasses beyond known boundaries.'
+        },
+        {
+          text: 'The frequency barrier and optical lens through which bent light and sound reach physical human eyes.',
+          isCorrect: false,
+          rationale: 'The optical role of the firmament is stated in the mechanics section, and it is not the hidden land distribution.'
+        },
+        {
+          text: 'The conceptual mental idea constructed within the human mind that lacks empirical reality in the world.',
+          isCorrect: false,
+          rationale: 'That wording defines a thought-form, not the horizontal distribution of landmasses the globe model hides.'
+        }
+      ]
+    },
+    {
+      number: 19,
+      question: 'Why is the gravity story described as a logical gatekeeper?',
+      hint: 'Look at the end of the broader context for why this story keeps awareness contained.',
+      options: [
+        {
+          text: 'A firmament model that bends light away from the ice wall and hides the optical field of the dome.',
+          isCorrect: false,
+          rationale: 'The firmament bends light and sound for perception, and it is not the gatekeeper that locks awareness away.'
+        },
+        {
+          text: 'An electromagnetic model that pushes study onto ley lines and away from firmament optics overhead.',
+          isCorrect: false,
+          rationale: 'Electromagnetism and ley lines are part of the actual architecture, not a doctrine that locks awareness inside a theory.'
+        },
+        {
+          text: 'A globe model that inherently lacks boundaries and keeps human awareness locked in a controlled construct.',
+          isCorrect: true,
+          rationale: 'On a globe an ice wall cannot exist, so the gravity story is the key logical gatekeeper keeping human awareness locked inside a controlled theoretical construct.'
+        },
+        {
+          text: 'A pillar model that demands mathematics for a Dyson Sphere firmament hundreds of miles above the ground.',
+          isCorrect: false,
+          rationale: 'Giant pillars expose a flaw in the globe dome, and they are not the gatekeeper that contains human awareness.'
+        }
+      ]
+    },
+    {
+      number: 20,
+      question: 'What does recognizing gravity as an invented thought-form enable?',
+      hint: 'Look in the strategic implications for what that recognition makes possible.',
+      options: [
+        {
+          text: 'The complete uninstallation of false scientific and historical indoctrination from institutional teaching.',
+          isCorrect: true,
+          rationale: 'Recognizing that gravity is an invented thought-form enables the complete uninstallation of false scientific and historical indoctrination.'
+        },
+        {
+          text: 'The demonstrated stability of a round globe sealed under an atmospheric dome with suns all around it.',
+          isCorrect: false,
+          rationale: 'A spherical planet rotating anti-clockwise could not sustain life, could not be physically moved, and could not maintain environmental stability.'
+        },
+        {
+          text: 'The calculated velocity of a spatial vacuum surrounding a rapidly spinning sphere in deep space.',
+          isCorrect: false,
+          rationale: 'The overview rejects a universal physical attraction force across a spatial void rather than offering a vacuum velocity to calculate.'
+        },
+        {
+          text: 'The revised heliocentric curriculum that academic institutions would adopt for the next round of teaching.',
+          isCorrect: false,
+          rationale: 'Deconstructing the narrative frees the mind from reliance on institutional authority instead of refreshing the heliocentric curriculum.'
+        }
+      ]
+    },
+    {
+      number: 21,
+      question: 'Which of these is NOT stated about a spherical planet rotating anti-clockwise at nearly 1,000 miles per hour?',
+      hint: 'Review the core revelations on a spherical planet rotating anti-clockwise.',
+      options: [
+        {
+          text: 'It could not sustain life while rotating anti-clockwise at nearly 1,000 miles per hour.',
+          isCorrect: false,
+          rationale: 'The core revelations state that a spherical planet rotating anti-clockwise at nearly that speed could not sustain life.'
+        },
+        {
+          text: 'It could not be physically moved while suspended as a rotating sphere in deep space.',
+          isCorrect: false,
+          rationale: 'The same sentence says that spherical planet could not be physically moved, along with the other limits on the globe.'
+        },
+        {
+          text: 'It could not maintain environmental stability while spinning anti-clockwise at that high speed.',
+          isCorrect: false,
+          rationale: 'The core revelations say that planet could not maintain environmental stability, which is one of the stated limits.'
+        },
+        {
+          text: 'It could not emit natural electromagnetic energy through ley lines embedded in the Earth.',
+          isCorrect: true,
+          rationale: 'Emitting natural electromagnetic energy belongs to crystalline lattice membrane networks and ley lines, while the globe limits are that it could not sustain life, could not be physically moved, and could not maintain environmental stability.'
+        }
+      ]
+    },
+    {
+      number: 22,
+      question: 'True or False: The spinning ball is a false physical construct alleging that the Earth is a rotating sphere moving anti-clockwise at just under 1,000 miles per hour.',
+      hint: 'Check the spinning ball entry in the key terminology.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: true,
+          rationale: 'Key terminology defines the spinning ball as the false physical construct alleging that the Earth is a rotating sphere moving anti-clockwise at just under 1,000 miles per hour.'
+        },
+        {
+          text: 'False',
+          isCorrect: false,
+          rationale: 'The terminology does use those words: a false physical construct alleging a rotating sphere moving anti-clockwise at just under 1,000 miles per hour.'
+        }
+      ]
+    },
+    {
+      number: 23,
+      question: 'True or False: Seawater on a curved body rotating at 1,000 miles per hour would stay bound rather than be thrown outward by centrifugal movement.',
+      hint: 'Read the physical fallacies section on seawater and a curved body.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: false,
+          rationale: 'The fallacies section says seawater on a curved body rotating at that speed would be thrown outward by centrifugal movement.'
+        },
+        {
+          text: 'False',
+          isCorrect: true,
+          rationale: 'Seawater on a curved body rotating at 1,000 miles per hour would be thrown outward by centrifugal movement, so the claim that it would stay bound is false.'
+        }
+      ]
+    },
+    {
+      number: 24,
+      question: 'True or False: Gravity is a foundational element of physical mechanics, and electromagnetism is a fiction with zero empirical reality.',
+      hint: 'Compare how the electromagnetism section treats gravity and electromagnetism.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: false,
+          rationale: 'The section says gravity is a fiction with zero empirical reality, and electromagnetism is a foundational element of physical mechanics.'
+        },
+        {
+          text: 'False',
+          isCorrect: true,
+          rationale: 'While gravity is a fiction with zero empirical reality, electromagnetism is a foundational element of physical mechanics, so the swapped claim is false.'
+        }
+      ]
+    },
+    {
+      number: 25,
+      question: 'True or False: Without the bending of light and sound by the firmament, physical eye perception as it exists would be impossible.',
+      hint: 'Look in the core revelations for what eye perception requires from the firmament.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: true,
+          rationale: 'The core revelations state that without the bending of light and sound by the firmament, physical eye perception as it exists would be impossible.'
+        },
+        {
+          text: 'False',
+          isCorrect: false,
+          rationale: 'The report states the opposite outcome: without that bending, physical eye perception as it exists would be impossible.'
+        }
+      ]
+    }
+  ]
+};

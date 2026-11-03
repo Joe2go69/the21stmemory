@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T11:23:44.473Z",
-  "total": 324,
+  "generatedAt": "2026-11-03T18:37:22.033Z",
+  "total": 325,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 61
+      "count": 62
     },
     {
       "id": "breakdown",
@@ -468,6 +468,20 @@
       "diveHref": "dive/alice/giant-skeletons.html",
       "key": "alice/giant-skeletons",
       "order": 68
+    },
+    {
+      "id": "gravity-story",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Gravity Story",
+      "subtitle": "Test your understanding of Gravity Story — the manufactured thought-form, the firmament that bends light and sound, and the horizontal layout beneath that story.",
+      "questionCount": 25,
+      "href": "quiz/alice/gravity-story.html",
+      "diveHref": "dive/alice/gravity-story.html",
+      "key": "alice/gravity-story",
+      "order": 8
     },
     {
       "id": "grey-ets",

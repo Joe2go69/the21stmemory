@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "gravity-story",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Gravity Story",
+      "description": "The Gravity Story—frequently designated as gravity, heliocentrism, or the spinning ball model—is a manufactured thought-form that possesses no actual existence in physical reality.",
+      "topic_image": "images/alice/gravity-story.webp",
+      "path": "dive/alice/gravity-story.html",
+      "added": "2026-11-03T11:22:03-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "time-back-home",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Time Back Home",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/projection-dome.webp",
       "path": "dive/revelations/projection-dome.html",
       "added": "2026-11-02T01:00:04-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "oil-as-grease",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Oil as Grease",
-      "description": "Oil as Grease is the foundational fluid mechanism that lubricates the physical plane, acting as the essential grease of planetary architecture across interconnected worlds.",
-      "topic_image": "images/revelations/oil-as-grease.webp",
-      "path": "dive/revelations/oil-as-grease.html",
-      "added": "2026-10-30T20:39:45-07:00"
     }
   ],
   "featured": [
