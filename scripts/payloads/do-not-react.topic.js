@@ -1,0 +1,66 @@
+module.exports = {
+  source: 'ascension',
+  id: 'do-not-react',
+  title: 'Do Not React',
+  description: 'Do Not React is the directive to keep frequency intact by refusing third-density bait, turn-coats, and late-stage noise.',
+  images: {
+    topic: { source: 'Do Not React.webp', target: 'do-not-react.webp' },
+    pdfPreview: { source: 'Unbreakable_Vibration.webp', target: 'unbreakable-vibration.webp' },
+    infographic: { source: 'Mastering_Frequency_Alignment_Diagram.webp', target: 'mastering-frequency-alignment-diagram.webp' }
+  },
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/1ZHKvKnAlMqHDPr7pgkGXsvEKtg7C8zpP/view?usp=sharing',
+  rumble_videos: [
+    {
+      title: 'Do Not React',
+      embed_url: 'https://rumble.com/embed/v7flxa6/?pub=4p0ieu',
+      description: 'Do Not React — The directive to stay detached from third-density provocations so the high-frequency state holds.'
+    },
+    {
+      title: 'Why Non Reaction Is The Final Test',
+      embed_url: 'https://rumble.com/embed/v7flxhi/?pub=4p0ieu',
+      description: 'Why Non Reaction Is The Final Test — Late-stage noise and turn-coats are the vibrational test of an unbreakable frequency.'
+    }
+  ],
+  report: `# Do Not React
+
+## Overview
+The Do Not React directive represents the absolute requirement for frequency preservation and operational discipline among aligned individuals. It dictates total detachment from third-density provocations, hostiles, and distractive noise. External attacks and negative commentary carry zero structural influence over upcoming energetic transitions. Instead, these occurrences serve as a final vibrational test to ensure that resonating individuals maintain stability without succumbing to emotional manipulation or low-vibration bait. Maintaining this non-reactive posture preserves the high-frequency state necessary for seamless alignment.
+
+## Key Terminology
+- **Do Not React** — The core operational directive mandating complete emotional and energetic non-engagement toward external interference, attacks, or low-vibrational bait.
+- **Turn-Coats** — Individuals who were previously aligned or supportive but unexpectedly shift into opposition, attack, or low-vibrational behavior near the conclusion of the timeline.
+- **Low-Vibrational Comments** — Distractive 3D talk, internet noise, and hostile commentary designed specifically to provoke emotional reactions and disrupt frequency resonance.
+- **Unbreakable Vibration** — The elevated energetic frequency achieved by resonating sols that has reached a threshold so high it cannot be fractured by external noise or subversion.
+- **Awakening Phase** — The preparatory cycle of energetic alignment and awareness expansion that concluded prior to final operational activation.
+- **Resonating Army** — The global collective of aligned individuals maintaining high vibrational integrity, mutual support, and frequency control across the realm.
+- **Vibrational Test** — The calculated emergence of late-stage noise and provocation engineered to evaluate frequency stability and filter out unaligned entities.
+
+## Core Revelations
+Late-stage hostiles and distractive commentary possess no actual power or relevance to imminent transformational events. Hostile commentary and 3D density attacks circulating across media and digital channels are completely detached from higher-dimensional mechanisms. They exist solely as a filter and a test of individual mastery.
+
+The frequency threshold attained by aligned individuals has established an unbreakable vibration. While opposing forces deploy interference strategies toward the end of the timeline to fracture collective resonance, the current vibrational level exceeds the capacity of external noise to cause structural damage. Consequently, non-reaction guarantees complete protection and operational readiness.
+
+The awakening phase has officially concluded. Seeking to persuade, convince, or debate unaligned individuals or bad-faith actors is obsolete, as the period for expanding awareness is finished. Those who are currently aligned remain aligned, while those who fail to maintain frequency must experience independent resolution.
+
+## Detailed Mechanics and Key Elements
+The phenomenon of turn-coats emerges as one of the primary mechanisms during this phase. Individuals who previously demonstrated alignment, stability, or support undergo sudden shifts, turning against the collective or spreading dissent. These turns often involve the most unexpected persons, making the test particularly acute. These individuals operate in a state of complete unawareness regarding their role as vectors for third-density interference. Attempting to engage, argue with, or correct turn-coats compromises personal frequency and must be strictly avoided.
+
+Third-density interference tactics rely heavily on deploying low-vibration bait through verbal attacks, digital commentary, and bad-faith questioning. These actions are specifically designed to elicit emotional responses, anger, or defensive reactions. When individuals bite the bait or question established leadership out of reactive doubt, they risk dropping their vibrational standing. The correct protocol requires recognizing that these displays are simply 3D talk revealing true colors across the realm.
+
+Extraterrestrial intelligence entities and monitoring teams actively observe these dynamics across the realm. The visible exposure of third-density behaviors acts as a clear marker for monitoring entities, distinguishing those who possess frequency stability from those consumed by lower-density reactions. Remaining non-reactive provides visual and energetic confirmation of readiness to supervising entities.
+
+The mechanics of maintaining the non-reactive state require staying on par and tuned to internal stability regardless of external chaotic noise. The emergence of noise near the conclusion of the timeline is a natural byproduct of collapsing lower-density structures attempting to disrupt high-frequency momentum. Because the collective vibration of the Resonating Army is permanently established at a superior threshold, maintaining absolute calm ensures that the disruption collapses without affecting aligned personnel.
+
+## Broader Context and Interconnections
+The non-reaction protocol directly interfaces with the collective energy maintained by the Resonating Army. The collective frequency created through ancient resonance, empathy, and mutual support acts as the foundational environment that shields individuals from external interference. By holding frequency without reacting to negative inputs, aligned entities maintain control over the current moment within the realm.
+
+This dynamic forms a strict boundary between those prepared for higher-dimensional evolution and those bound to third-density resolution. Engaging with low-vibrational commentary or attempting to accommodate hostile actors drags personnel back into third-density entanglements. Conversely, upholding the non-reaction standard cements one's position among the fully prepared collective.
+
+## Strategic Implications
+Strict adherence to the Do Not React command dictates that no energy be spent acknowledging, debating, or counteracting negative commentary. Attempting to refute bad-faith actors or address turn-coats is counterproductive and jeopardizes personal standing.
+
+Personnel must recognize that the awakening phase is fully complete and that no further recruitment or convincing is necessary. Focus must remain entirely on internal alignment, mutual cohesion within the Resonating Army, and unwavering adherence to the non-reaction mandate.
+
+By maintaining an unbreakable vibration and refusing all low-vibrational provocations, aligned entities ensure complete operational alignment and successful execution through the final stages.
+`
+};

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T01:26:30.858Z",
-  "total": 319,
+  "generatedAt": "2026-11-03T03:36:11.986Z",
+  "total": 320,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card-960.webp",
-      "count": 35
+      "count": 36
     },
     {
       "id": "revelations",
@@ -958,6 +958,20 @@
       "diveHref": "dive/ascension/dna-strand.html",
       "key": "ascension/dna-strand",
       "order": 28
+    },
+    {
+      "id": "do-not-react",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Do Not React",
+      "subtitle": "Test your understanding of Do Not React — frequency preservation, the late-stage vibrational test, and non-engagement with turn-coats.",
+      "questionCount": 25,
+      "href": "quiz/ascension/do-not-react.html",
+      "diveHref": "dive/ascension/do-not-react.html",
+      "key": "ascension/do-not-react",
+      "order": 29
     },
     {
       "id": "em-pulses",
