@@ -1,0 +1,648 @@
+module.exports = {
+  source: 'ascension',
+  id: 'four-elements',
+  title: 'Four Elements',
+  description: 'Test your understanding of Four Elements — aether, water, fire, and earth as the automated mechanics that close the ascension board.',
+  seoDescription: 'Interactive Living Truth Quiz on Four Elements: the elemental chain, plasma crystalline, quartz conductors, and the closer of the board.',
+  reflection: {
+    title: 'Reflection',
+    body: 'The four elements and earth close the board. Solar flashes, aether, water, and quartz run an elemental process that carries qualified consciousness through the portal.'
+  },
+  questions: [
+    {
+      number: 1,
+      question: 'What role do the four elements and earth serve in the ascension mechanism?',
+      hint: 'Ask whether these are the working media of the change or a picture set beside it.',
+      options: [
+        {
+          text: 'They stay inside biology and stay cut off from the planetary energy fields.',
+          isCorrect: false,
+          rationale: 'The elements run realm-wide transitions, including vessels, organs, the pineal gland, and the atmosphere.'
+        },
+        {
+          text: 'They are the physical and energetic media that drive every phase of the transformation.',
+          isCorrect: true,
+          rationale: 'The four elements are the primary physical and energetic media that construct, animate, and execute the ascension process.'
+        },
+        {
+          text: 'They form a symbolic ritual meant to guide a private meditation practice.',
+          isCorrect: false,
+          rationale: 'The account sets the elements apart from a symbolic ritual or an isolated sub-topic.'
+        },
+        {
+          text: 'They are a backup plan held in reserve and used if the technological grids fail to engage.',
+          isCorrect: false,
+          rationale: 'Technology is powered by the elements, and the elements are not a reserve plan.'
+        }
+      ]
+    },
+    {
+      number: 2,
+      question: 'What does placing the elements as the closer of the board establish?',
+      hint: 'Think about what a last position on the diagram says the whole process resolves into.',
+      options: [
+        {
+          text: 'Elemental work is an optional cleanup saved for the time after the transition.',
+          isCorrect: false,
+          rationale: 'The terminal place is the synthesis of the process, not a later optional chore.'
+        },
+        {
+          text: 'Technological activations resolve into primary natural mechanics.',
+          isCorrect: true,
+          rationale: 'The framework is the definitive terminal synthesis, and technological activations resolve into primary natural mechanics.'
+        },
+        {
+          text: 'The sequence stays open so outside actors can still rewrite the close.',
+          isCorrect: false,
+          rationale: 'Once triggers are engaged, the elemental process proceeds continuously until fulfillment.'
+        },
+        {
+          text: 'Artificial solar flashes replace the natural elements in the last phase.',
+          isCorrect: false,
+          rationale: 'Solar flashes are powered by and composed of the four elements and earth.'
+        }
+      ]
+    },
+    {
+      number: 3,
+      question: 'Why is the ascension sequence called an unstoppable timeline mechanism?',
+      hint: 'Compare an elemental chain with a plan that outside pressure can still break.',
+      options: [
+        {
+          text: 'Elemental dynamics carry it through once the operational triggers are engaged.',
+          isCorrect: true,
+          rationale: 'An elemental process proceeds continuously until complete fulfillment once its operational triggers are engaged.'
+        },
+        {
+          text: 'It leaves the physical earth behind and runs in an unmanifested dimension.',
+          isCorrect: false,
+          rationale: 'The subterranean earth holds the quartz conductors, so the process stays on the physical substrate.'
+        },
+        {
+          text: 'Human planning overcomes outside resistance and keeps the timeline on course.',
+          isCorrect: false,
+          rationale: 'Artificial plans stay vulnerable, while the elemental process does not.'
+        },
+        {
+          text: 'A central command keeps sending artificial signals through the whole sequence.',
+          isCorrect: false,
+          rationale: 'The chain is an automated elemental reaction, not a signal from a command node.'
+        }
+      ]
+    },
+    {
+      number: 4,
+      question: 'How were the subterranean quartz crystals placed, and what do they do?',
+      hint: 'Look for the earlier method that seated memory conductors in the ground.',
+      options: [
+        {
+          text: 'They were built in the final phase as temporary grounding rods.',
+          isCorrect: false,
+          rationale: 'The crystals were embedded earlier and hold memory and frequency in the ground.'
+        },
+        {
+          text: 'They were embedded via time-travel mechanics as memory technology conductors.',
+          isCorrect: true,
+          rationale: 'The subterranean earth houses quartz crystals embedded via time-travel mechanics, and they function as memory technology conductors.'
+        },
+        {
+          text: 'They formed by slow geological compression that stores genetic sequences.',
+          isCorrect: false,
+          rationale: 'Their placement is time-travel mechanics, not ordinary rock formation.'
+        },
+        {
+          text: 'They condensed from the atmosphere to soak up solar flash radiation.',
+          isCorrect: false,
+          rationale: 'The crystals are earth conductors that get charged by solar flashes, not atmospheric sponges.'
+        }
+      ]
+    },
+    {
+      number: 5,
+      question: 'What first engages the aether and starts the automated elemental chain reaction?',
+      hint: 'Name the solar event that meets the atmosphere and the conductors in the ground.',
+      options: [
+        {
+          text: 'The quartz array rising out of the ground before any solar light has arrived.',
+          isCorrect: false,
+          rationale: 'The array rises on an automated timer after the solar flashes have engaged the aether.'
+        },
+        {
+          text: 'Crews switching on the surface free-energy generator networks by hand.',
+          isCorrect: false,
+          rationale: 'Free energy is linked into the elemental system, and it is not the trigger.'
+        },
+        {
+          text: 'Pulses from positive solar flashes striking the embedded earth conductors.',
+          isCorrect: true,
+          rationale: 'Positive solar flashes engage the aether, and high-frequency electromagnetic pulses strike the embedded earth conductors.'
+        },
+        {
+          text: 'A pole shift driven by a sudden break in the deep ocean currents far below.',
+          isCorrect: false,
+          rationale: 'The trigger is the solar-aether pulse on the earth conductors, not an ocean-driven pole shift.'
+        }
+      ]
+    },
+    {
+      number: 6,
+      question: 'What does upgraded aether do when it saturates the realm?',
+      hint: 'Ask what kind of medium the atmosphere becomes for the conductors.',
+      options: [
+        {
+          text: 'It cuts conductivity so the vessels stay sealed off from the incoming light charges.',
+          isCorrect: false,
+          rationale: 'Upgraded aether carries positive electromagnetic frequencies into the realm and toward the conductors.'
+        },
+        {
+          text: 'It swaps natural air for a synthetic plasma seal set over the memory nodes.',
+          isCorrect: false,
+          rationale: 'Aether is the upgraded atmospheric medium, not a synthetic replacement for air.'
+        },
+        {
+          text: 'It lays down the positive electromagnetic medium that activates the crystalline conductors.',
+          isCorrect: true,
+          rationale: 'Upgraded atmospheric aether saturates the realm with positive electromagnetic frequencies and establishes the energetic medium required to activate physical crystalline conductors.'
+        },
+        {
+          text: 'It thins the surrounding air until the earth structures dissolve into light.',
+          isCorrect: false,
+          rationale: 'The aether raises the energetic medium while the earth keeps anchoring the conductors.'
+        }
+      ]
+    },
+    {
+      number: 7,
+      question: 'How do solar activations meet environmental vibrations and the embedded crystals?',
+      hint: 'Think about what a large light flash does to the field and the crystals.',
+      options: [
+        {
+          text: 'They damp frequencies so the crystals integrate slowly over centuries.',
+          isCorrect: false,
+          rationale: 'Solar activations release rapid light flashes and energy charges rather than slowing the field.'
+        },
+        {
+          text: 'They release light flashes that lift environmental vibrations and charge the crystals.',
+          isCorrect: true,
+          rationale: 'Solar activations release massive light flashes and energy charges, rapidly elevating environmental vibrations and charging the embedded crystals.'
+        },
+        {
+          text: 'They break the quartz lattices and spill the energy stored inside them.',
+          isCorrect: false,
+          rationale: 'The flashes charge the embedded crystals rather than breaking the lattices apart.'
+        },
+        {
+          text: 'They drain the surrounding aether so the memory arrays cannot discharge early.',
+          isCorrect: false,
+          rationale: 'Solar flashes engage the surrounding aether and saturate the realm.'
+        }
+      ]
+    },
+    {
+      number: 8,
+      question: 'What do crystalline water properties do in this framework?',
+      hint: 'Ask what water holds and where that record is carried.',
+      options: [
+        {
+          text: 'They melt the quartz lattices so historical memory cannot be tracked later.',
+          isCorrect: false,
+          rationale: 'Water stores and conducts memory alongside the quartz, rather than dissolving it.'
+        },
+        {
+          text: 'They turn incoming solar light into solid rock that shields the crystal memory arrays.',
+          isCorrect: false,
+          rationale: 'Water conducts memory data, and it does not petrify into a shield.'
+        },
+        {
+          text: 'They store and conduct memory so original historical memories reach physical vessels.',
+          isCorrect: true,
+          rationale: 'Crystalline water properties store and conduct memory data, enabling the direct transfer and upload of original historical memories into physical vessels.'
+        },
+        {
+          text: 'They insulate the vessels against incoming high-frequency plasma charges.',
+          isCorrect: false,
+          rationale: 'Water conducts memory into the vessels rather than blocking the charge.'
+        }
+      ]
+    },
+    {
+      number: 9,
+      question: 'What does the subterranean quartz array do in the earth phase?',
+      hint: 'Follow the array after the timer, and name the grid it finishes.',
+      options: [
+        {
+          text: 'It sinks deeper underground to buffer the surface from any electromagnetic discharge.',
+          isCorrect: false,
+          rationale: 'The array rises out of the ground to complete the grid.'
+        },
+        {
+          text: 'It stays fixed underground and serves as quiet long-term memory storage.',
+          isCorrect: false,
+          rationale: 'The array rises on an automated timer and completes the realm-wide grid.'
+        },
+        {
+          text: 'It rises on an automated timer and completes an impenetrable realm-wide EMP grid.',
+          isCorrect: true,
+          rationale: 'The earth anchors the subterranean quartz array, which rises out of the ground on an automated timer to complete an impenetrable, realm-wide EMP grid.'
+        },
+        {
+          text: 'It melts into liquid plasma and then joins the moving surface water below.',
+          isCorrect: false,
+          rationale: 'The quartz stays a conductor array that rises to complete the grid.'
+        }
+      ]
+    },
+    {
+      number: 10,
+      question: 'Which meeting produces the state called plasma crystalline?',
+      hint: 'Name the media that meet when that high-frequency state appears.',
+      options: [
+        {
+          text: 'Magma currents striking uncharged nitrogen held in the upper atmosphere.',
+          isCorrect: false,
+          rationale: 'Plasma crystalline comes from aether, water properties, solar light, and charged quartz.'
+        },
+        {
+          text: 'Air breaking down in zones where no crystalline conductors are present.',
+          isCorrect: false,
+          rationale: 'Charged quartz conductors are part of the meeting that produces plasma crystalline.'
+        },
+        {
+          text: 'Aether, water properties, solar light, and charged quartz conductors.',
+          isCorrect: true,
+          rationale: 'Plasma crystalline is produced when aether, water properties, solar light, and charged quartz conductors interact to form the portal and global grid.'
+        },
+        {
+          text: 'Synthetic electromagnetic waves fused with the still ground water below.',
+          isCorrect: false,
+          rationale: 'The state is an elemental synthesis, not a synthetic wave fused to still water.'
+        }
+      ]
+    },
+    {
+      number: 11,
+      question: 'What does the plasma crystalline field do for the central portal?',
+      hint: 'Ask what kind of hold the field gives the gateway.',
+      options: [
+        {
+          text: 'It cloaks the surface sanctuaries away from the incoming solar flash radiation.',
+          isCorrect: false,
+          rationale: 'The field carries the elemental synthesis that opens the portal rather than hiding sanctuaries from the sun.'
+        },
+        {
+          text: 'It builds surface friction that seals the outer corridors for a long span.',
+          isCorrect: false,
+          rationale: 'The field supplies the magnetic containment required to open the central portal.'
+        },
+        {
+          text: 'It turns the earth substrate into vapor so the crystalline memory grid stays fully clear.',
+          isCorrect: false,
+          rationale: 'The earth remains the anchor, and the field opens the portal while healing continues on the surface.'
+        },
+        {
+          text: 'It gives the magnetic containment that opens the portal for qualified consciousness.',
+          isCorrect: true,
+          rationale: 'This elemental field establishes the magnetic containment required to open the central portal, allowing qualified consciousness to ascend.'
+        }
+      ]
+    },
+    {
+      number: 12,
+      question: 'While qualified consciousness ascends, what does the elemental field give the earth surface?',
+      hint: 'Look at what remains for healing after the portal opens.',
+      options: [
+        {
+          text: 'A stop to biological processes so surface organic matter is preserved.',
+          isCorrect: false,
+          rationale: 'The field provides stabilization for ongoing healing, not a halt of biology.'
+        },
+        {
+          text: 'A seal that cuts the surface off from any further solar energy input.',
+          isCorrect: false,
+          rationale: 'Solar light is part of the elemental synthesis, and the surface stays in that field.'
+        },
+        {
+          text: 'High-frequency elemental stabilization for ongoing healing on the earth surface.',
+          isCorrect: true,
+          rationale: 'The field provides high-frequency elemental stabilization for ongoing healing on the earth surface.'
+        },
+        {
+          text: 'A breakdown of every physical structure into unmanifested aether.',
+          isCorrect: false,
+          rationale: 'The earth keeps anchoring the grid while healing continues on the surface.'
+        }
+      ]
+    },
+    {
+      number: 13,
+      question: 'How does elemental aether respond as consciousness expands?',
+      hint: 'Notice what stays in balance between the body and the atmosphere.',
+      options: [
+        {
+          text: 'It breaks the electromagnetic structures to force a rapid physical vessel mutation.',
+          isCorrect: false,
+          rationale: 'Elemental aether evolves in parallel and maintains balance across the vessels and the atmosphere.'
+        },
+        {
+          text: 'It evolves in parallel and keeps balance across the vessels and atmosphere.',
+          isCorrect: true,
+          rationale: 'As consciousness expands, elemental aether evolves in parallel, maintaining total balance across human biological vessels, internal organs, the pineal gland, and external atmospheric conditions.'
+        },
+        {
+          text: 'It leaves physical biology behind and works in the upper air alone.',
+          isCorrect: false,
+          rationale: 'The balance includes internal organs and the pineal gland as well as the atmosphere.'
+        },
+        {
+          text: 'It hardens into solid matter and replaces the living organic tissue.',
+          isCorrect: false,
+          rationale: 'Aether stays the energetic medium that evolves in parallel with consciousness.'
+        }
+      ]
+    },
+    {
+      number: 14,
+      question: 'What does the elemental framework connect across the realm?',
+      hint: 'Look for the operational features joined into one system.',
+      options: [
+        {
+          text: 'Symbolic rituals, private meditation practices, and fixed doctrines.',
+          isCorrect: false,
+          rationale: 'The framework is the operational reality, not a set of rituals or doctrines.'
+        },
+        {
+          text: 'Command centers, orbital space probes, satellites, and synthetic surface generators.',
+          isCorrect: false,
+          rationale: 'The links are natural operational features, and technology resolves into those elemental mechanics.'
+        },
+        {
+          text: 'Timeline anomalies, weather systems, thermal vents, and fault lines.',
+          isCorrect: false,
+          rationale: 'The named links are memory conductors, free energy, crystalline grids, and sanctuaries.'
+        },
+        {
+          text: 'Memory conductors, atmospheric free energy, crystalline grids, and sanctuaries.',
+          isCorrect: true,
+          rationale: 'The framework links subterranean memory conductors, atmospheric free energy, crystalline grid networks, and planetary sanctuaries into one coherent system.'
+        }
+      ]
+    },
+    {
+      number: 15,
+      question: 'How is returning home achieved in this account?',
+      hint: 'Ask what kind of integration the timeline concepts point toward.',
+      options: [
+        {
+          text: 'Through complex artificial maneuvers and layered strategic plans.',
+          isCorrect: false,
+          rationale: 'Artificial plans remain vulnerable, while the elemental process runs to fulfillment.'
+        },
+        {
+          text: 'Through complete integration with balanced elemental mechanics.',
+          isCorrect: true,
+          rationale: 'Returning home is achieved through complete integration with balanced elemental mechanics.'
+        },
+        {
+          text: 'Through strict symbolic rituals and secondary coded disciplines.',
+          isCorrect: false,
+          rationale: 'The elements are not a symbolic ritual or a secondary discipline.'
+        },
+        {
+          text: 'Through leaving physical density before the energy grid activates.',
+          isCorrect: false,
+          rationale: 'The elements unify physical density with higher energetic states.'
+        }
+      ]
+    },
+    {
+      number: 16,
+      question: 'Why does seeing the transition as an elemental process give strategic clarity?',
+      hint: 'Ask what opposing forces can and cannot do to an elemental outcome.',
+      options: [
+        {
+          text: 'The outcome cannot be halted, tampered with, or reversed by opposing forces.',
+          isCorrect: true,
+          rationale: 'Recognizing the operation as an elemental process guarantees that the outcome cannot be halted, tampered with, or reversed by opposing forces.'
+        },
+        {
+          text: 'Outside interference can still rewrite the outcome at any stage.',
+          isCorrect: false,
+          rationale: 'An elemental process proceeds continuously once its operational triggers are engaged.'
+        },
+        {
+          text: 'Surface operators can pause the rising grid whenever they choose.',
+          isCorrect: false,
+          rationale: 'The quartz rises on an automated timer, and the process is not a manual pause switch.'
+        },
+        {
+          text: 'The sequence waits on human strategic decisions before it can finish.',
+          isCorrect: false,
+          rationale: 'The process relies on the automated mechanics of the earth and its elements.'
+        }
+      ]
+    },
+    {
+      number: 17,
+      question: 'How does the closer of the board redirect attention?',
+      hint: 'Notice where focus goes once the process is no longer treated as an artificial side system.',
+      options: [
+        {
+          text: 'Toward artificial shielding that steps around the elemental shifts.',
+          isCorrect: false,
+          rationale: 'Attention goes to natural frequency alignment and the automated mechanics of the earth.'
+        },
+        {
+          text: 'Toward inventing artificial timelines meant to manage the elemental reactions.',
+          isCorrect: false,
+          rationale: 'The elemental process already proceeds on its own once the triggers are engaged.'
+        },
+        {
+          text: 'Toward natural frequency alignment and the automated mechanics of the earth.',
+          isCorrect: true,
+          rationale: 'It focuses strategic attention on natural frequency alignment, environmental resonance, and the automated mechanics of the earth.'
+        },
+        {
+          text: 'Toward secondary symbolic systems built to protect the earth surface.',
+          isCorrect: false,
+          rationale: 'The closer of the board keeps the process from being read as an abstract or artificial construct.'
+        }
+      ]
+    },
+    {
+      number: 18,
+      question: 'Which of these is NOT a step in the automated elemental chain?',
+      hint: 'Check which step stays inside the elemental media and which one does not.',
+      options: [
+        {
+          text: 'Upgraded aether saturates the realm with positive electromagnetic frequencies.',
+          isCorrect: false,
+          rationale: 'Aether and air establish the energetic medium required to activate physical crystalline conductors.'
+        },
+        {
+          text: 'Solar flashes elevate environmental vibrations and charge the embedded crystals.',
+          isCorrect: false,
+          rationale: 'Fire and light release massive light flashes and energy charges that charge the embedded crystals.'
+        },
+        {
+          text: 'Crystalline water stores memory and carries original memories into the physical vessels.',
+          isCorrect: false,
+          rationale: 'Water properties store and conduct memory data for the upload of original historical memories into physical vessels.'
+        },
+        {
+          text: 'Synthetic satellites download digital code into the vessels before the solar flashes.',
+          isCorrect: true,
+          rationale: 'The chain is an automated elemental chain reaction among aether, fire, water, and the earth conductors.'
+        }
+      ]
+    },
+    {
+      number: 19,
+      question: 'What lets original historical memories upload into physical vessels?',
+      hint: 'Name the medium that stores the record and conducts it.',
+      options: [
+        {
+          text: 'Clearing stored biological memory so the cells stand open as an empty container.',
+          isCorrect: false,
+          rationale: 'The upload carries original historical memories into physical vessels through water and the conductors.'
+        },
+        {
+          text: 'A manual digital download routed down through the synthetic satellite arrays far overhead.',
+          isCorrect: false,
+          rationale: 'Memory moves by crystalline water properties and the quartz conductors, not by satellite code.'
+        },
+        {
+          text: 'Swallowing fine charged quartz dust in the days before the solar flashes arrive.',
+          isCorrect: false,
+          rationale: 'The transfer is a conduct of memory data, not a physical dose of quartz.'
+        },
+        {
+          text: 'Crystalline water storing and conducting that memory with the active lattice conductors.',
+          isCorrect: true,
+          rationale: 'Crystalline water properties store and conduct memory data, enabling the direct transfer and upload of original historical memories into physical vessels.'
+        }
+      ]
+    },
+    {
+      number: 20,
+      question: 'What does the physical earth do for the crystalline grid?',
+      hint: 'Ask what the ground holds and what materializes on that substrate.',
+      options: [
+        {
+          text: 'It sends out artificial pulses meant to counter the incoming solar flashes.',
+          isCorrect: false,
+          rationale: 'Solar flashes strike the embedded earth conductors and work with the earth.'
+        },
+        {
+          text: 'It insulates the deep quartz lattices so the solar charges cannot reach them at all.',
+          isCorrect: false,
+          rationale: 'High-frequency pulses strike the embedded earth conductors rather than being blocked by the earth.'
+        },
+        {
+          text: 'It soaks up the surrounding aether in order to keep surface vibrations low.',
+          isCorrect: false,
+          rationale: 'The earth anchors the conductors while vibrations are elevated by the solar charges.'
+        },
+        {
+          text: 'It anchors the crystal memory conductors and is the substrate of the energy grids.',
+          isCorrect: true,
+          rationale: 'Earth is the physical planetary substrate that anchors crystal memory conductors and the base upon which realm-wide energy grids materialize.'
+        }
+      ]
+    },
+    {
+      number: 21,
+      question: 'What follows from technological activations resolving into primary natural mechanics?',
+      hint: 'Ask what kind of system the ascension process is once that resolution is granted.',
+      options: [
+        {
+          text: 'Advanced technology can transform the planet with no elemental part in it.',
+          isCorrect: false,
+          rationale: 'Every step is composed of and operated by the four elements and earth.'
+        },
+        {
+          text: 'The elements work as tools that need the artificial machinery running first.',
+          isCorrect: false,
+          rationale: 'Technology resolves into primary natural mechanics, and the elements are the media of the process.'
+        },
+        {
+          text: 'Technology will take the place of elemental mechanics in every density layer.',
+          isCorrect: false,
+          rationale: 'Technological activations resolve into the elements rather than replacing them.'
+        },
+        {
+          text: 'Ascension is a natural reality system, not an artificial side construct.',
+          isCorrect: true,
+          rationale: 'The closer of the board defines the elements as the complete reality system, and activations resolve into primary natural mechanics.'
+        }
+      ]
+    },
+    {
+      number: 22,
+      question: 'True or False: The quartz lattice structures operate similarly to water and plasma.',
+      hint: 'Ask which fluid media the memory lattices are compared with.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: true,
+          rationale: 'These quartz structures hold memory and frequency within physical lattice structures that operate similarly to water and plasma.'
+        },
+        {
+          text: 'False',
+          isCorrect: false,
+          rationale: 'The lattices are compared with water and plasma, which share that memory and frequency conduct.'
+        }
+      ]
+    },
+    {
+      number: 23,
+      question: 'True or False: Once the elemental triggers are engaged, opposing forces can halt or reverse the outcome.',
+      hint: 'Ask whether an elemental process stays open to outside reversal.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: false,
+          rationale: 'A reversible outcome would fit if the process were an artificial plan.'
+        },
+        {
+          text: 'False',
+          isCorrect: true,
+          rationale: 'An elemental process proceeds continuously until complete fulfillment once its operational triggers are engaged, and the outcome cannot be halted or reversed by opposing forces.'
+        }
+      ]
+    },
+    {
+      number: 24,
+      question: 'True or False: The elemental field opens the central portal for qualified consciousness and stabilizes healing on the earth surface.',
+      hint: 'Hold the portal and the surface healing as one field doing both.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: true,
+          rationale: 'The field establishes the magnetic containment required to open the central portal, allowing qualified consciousness to ascend, while providing high-frequency elemental stabilization for ongoing healing on the earth surface.'
+        },
+        {
+          text: 'False',
+          isCorrect: false,
+          rationale: 'Portal passage and surface healing are both given by that same elemental field.'
+        }
+      ]
+    },
+    {
+      number: 25,
+      question: 'True or False: The four elements are a symbolic ritual kept separate from the physical ascension mechanism.',
+      hint: 'Ask whether the elements are a side picture or the mechanics themselves.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: false,
+          rationale: 'A separate ritual would fit if the elements were a symbol beside the mechanism.'
+        },
+        {
+          text: 'False',
+          isCorrect: true,
+          rationale: 'Rather than acting as a symbolic ritual, the four elements and earth are the physical and energetic steps that drive every phase of the transformation.'
+        }
+      ]
+    }
+  ]
+};

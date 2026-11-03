@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T06:03:46.582Z",
-  "total": 322,
+  "generatedAt": "2026-11-03T10:08:18.452Z",
+  "total": 323,
   "sources": [
     {
       "id": "alice",
@@ -27,7 +27,7 @@
       "short": "EMF ascension process",
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card-960.webp",
-      "count": 38
+      "count": 39
     },
     {
       "id": "revelations",
@@ -1028,6 +1028,20 @@
       "diveHref": "dive/ascension/first-flash.html",
       "key": "ascension/first-flash",
       "order": 20
+    },
+    {
+      "id": "four-elements",
+      "sourceId": "ascension",
+      "sourceLabel": "Ascension",
+      "sourceTitle": "The Long-Awaited Ascension Process",
+      "sourceShort": "EMF ascension process",
+      "title": "Four Elements",
+      "subtitle": "Test your understanding of Four Elements — aether, water, fire, and earth as the automated mechanics that close the ascension board.",
+      "questionCount": 25,
+      "href": "quiz/ascension/four-elements.html",
+      "diveHref": "dive/ascension/four-elements.html",
+      "key": "ascension/four-elements",
+      "order": 37
     },
     {
       "id": "free-energy",

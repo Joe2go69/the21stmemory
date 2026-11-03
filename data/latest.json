@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "ascension",
+      "topicId": "four-elements",
+      "series": "The Long-Awaited Ascension Process",
+      "title": "Four Elements",
+      "description": "The four elements and earth close the board: aether, water, fire, and quartz conductors run ascension as an automated elemental process.",
+      "topic_image": "images/ascension/four-elements.webp",
+      "path": "dive/ascension/four-elements.html",
+      "added": "2026-11-03T02:58:18-07:00"
+    },
+    {
+      "sourceId": "ascension",
       "topicId": "scare-events",
       "series": "The Long-Awaited Ascension Process",
       "title": "Scare Events",
@@ -109,16 +119,6 @@
       "topic_image": "images/revelations/ice-wall.webp",
       "path": "dive/revelations/ice-wall.html",
       "added": "2026-10-30T19:48:14-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "terrarium-seal",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Terrarium Seal",
-      "description": "The Terrarium Seal defines the physical, atmospheric, and dimensional enclosure that caps the small flat plain of this realm alongside 178 worlds housed under one Great Dome.",
-      "topic_image": "images/revelations/terrarium-seal.webp",
-      "path": "dive/revelations/terrarium-seal.html",
-      "added": "2026-10-30T16:55:46-07:00"
     }
   ],
   "featured": [
