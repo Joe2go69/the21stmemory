@@ -195,10 +195,10 @@
                 {
                   "id": "lunatic-frequencies",
                   "title": "Lunatic Frequencies",
-                  "description": "Lunatic Frequencies",
-                  "topic_image": "images/alice/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-14"
+                  "description": "Lunatic Frequencies are negative broadcasts sent at lunar stages, strongest at the full moon, from a covert station hidden behind a spherical Venus hologram.",
+                  "topic_image": "images/alice/lunatic-frequencies.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-04T03:01:55-07:00"
                 }
               ]
             },

@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "lunatic-frequencies",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Lunatic Frequencies",
+      "description": "Lunatic Frequencies are negative broadcasts sent at lunar stages, strongest at the full moon, from a covert station hidden behind a spherical Venus hologram.",
+      "topic_image": "images/alice/lunatic-frequencies.webp",
+      "path": "dive/alice/lunatic-frequencies.html",
+      "added": "2026-11-04T03:01:55-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "oil-as-grease",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Oil as Grease",
@@ -109,16 +119,6 @@
       "topic_image": "images/ascension/do-not-react.webp",
       "path": "dive/ascension/do-not-react.html",
       "added": "2026-11-02T20:27:11-07:00"
-    },
-    {
-      "sourceId": "special-requests",
-      "topicId": "occupancy-layers-the-false-rescue",
-      "series": "Special Requests",
-      "title": "Occupancy Layers & the False Rescue",
-      "description": "The push around XRP, QFS, NESARA/GESARA, and medbeds is an occupancy layer that holds attention on financial rescue while the children and the frequency wait.",
-      "topic_image": "images/special-requests/occupancy-layers-the-false-rescue.webp",
-      "path": "dive/special-requests/occupancy-layers-the-false-rescue.html",
-      "added": "2026-11-02T18:25:34-07:00"
     }
   ],
   "featured": [

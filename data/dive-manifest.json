@@ -172,9 +172,9 @@
       "sourceId": "alice",
       "topicId": "lunatic-frequencies",
       "path": "/dive/alice/lunatic-frequencies.html",
-      "live": false,
+      "live": true,
       "title": "Lunatic Frequencies",
-      "added": "2026-10-14"
+      "added": "2026-11-04T03:01:55-07:00"
     },
     {
       "sourceId": "alice",
