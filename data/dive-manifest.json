@@ -188,9 +188,9 @@
       "sourceId": "alice",
       "topicId": "organic-circuit",
       "path": "/dive/alice/organic-circuit.html",
-      "live": false,
+      "live": true,
       "title": "Organic Circuit",
-      "added": "2026-10-14"
+      "added": "2026-11-04T15:37:06-07:00"
     },
     {
       "sourceId": "alice",

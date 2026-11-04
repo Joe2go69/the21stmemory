@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "organic-circuit",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Organic Circuit",
+      "description": "The Organic Circuit is the self-sustaining, natural technology and ergonomic electromagnetic structure of the realm.",
+      "topic_image": "images/alice/organic-circuit.webp",
+      "path": "dive/alice/organic-circuit.html",
+      "added": "2026-11-04T15:37:06-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "lunatic-frequencies",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Lunatic Frequencies",
@@ -109,16 +119,6 @@
       "topic_image": "images/ascension/pineal-and-vessel.webp",
       "path": "dive/ascension/pineal-and-vessel.html",
       "added": "2026-11-02T21:30:39-07:00"
-    },
-    {
-      "sourceId": "ascension",
-      "topicId": "do-not-react",
-      "series": "The Long-Awaited Ascension Process",
-      "title": "Do Not React",
-      "description": "Do Not React is the directive to keep frequency intact by refusing third-density bait, turn-coats, and late-stage noise.",
-      "topic_image": "images/ascension/do-not-react.webp",
-      "path": "dive/ascension/do-not-react.html",
-      "added": "2026-11-02T20:27:11-07:00"
     }
   ],
   "featured": [

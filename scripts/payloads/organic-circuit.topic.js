@@ -1,0 +1,76 @@
+module.exports = {
+  source: 'alice',
+  id: 'organic-circuit',
+  title: 'Organic Circuit',
+  description: 'The Organic Circuit is the self-sustaining, natural technology and ergonomic electromagnetic structure of the realm.',
+  images: {
+    topic: { source: 'Organic Circuit.webp', target: 'organic-circuit.webp' },
+    pdfPreview: { source: 'Planetary_Spiritual_Technology.webp', target: 'planetary-spiritual-technology.webp' },
+    infographic: { source: 'Restoring_the_Realm_s_Organic_Circuit.webp', target: 'restoring-the-realm-s-organic-circuit.webp' }
+  },
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/1OxAu1GV7pbDQ9iT_1u9ZqQlmL4lPHqis/view?usp=sharing',
+  rumble_videos: [
+    {
+      title: 'The Organic Circuit',
+      embed_url: 'https://rumble.com/embed/v7fp4co/?pub=4p0ieu',
+      description: 'The Organic Circuit — The self-sustaining planetary machinery of ley lines, the Spirit Tree, gold, and crystal that maintains high-frequency homeostasis.'
+    },
+    {
+      title: 'Severing the Spirit Tree',
+      embed_url: 'https://rumble.com/embed/v7fp4jk/?pub=4p0ieu',
+      description: 'Severing the Spirit Tree — Cutting the crystalline pillar at Mt Meru and replacing it with a petrified stump restricted energetic flow across connected worlds.'
+    },
+    {
+      title: 'How Concrete Suffocates Earth\'s Living Circuit',
+      embed_url: 'https://rumble.com/embed/v7fp57u/?pub=4p0ieu',
+      description: 'How Concrete Suffocates Earth\'s Living Circuit — Asphalt, concrete, rail tracks, and stone altars cap crystal interfaces and ley lines so pylons can harvest the backed-up flow.'
+    }
+  ],
+  report: `# Organic Circuit
+
+## Overview
+The Organic Circuit is the self-sustaining, natural technology and ergonomic electromagnetic structure of the realm. It functions as an integrated planetary machinery consisting of interconnected ley lines, the central Spirit Tree, and elemental conductors such as gold and crystal. This circuit maintains high-frequency planetary homeostasis, powers large-scale manifestation, and distributes natural energy across all nodal centers.
+
+## Key Terminology
+- **Organic Circuit** — The integrated electromagnetic and energetic planetary system composed of natural elements, including crystalline lattice networks, nodal centers, elemental conductors, and the central Spirit Tree.
+- **Ley Lines** — The crystalline lattice membrane networks that link nodal points across the realm, transmitting natural electromagnetic and spiritual energy.
+- **Spirit Tree** — The central crystalline pillar and primary energetic anchor of the Gateway, located at Mt Meru, whose subterranean roots feed directly into the planetary circuit.
+- **Gold** — An essential elemental component within the ground that reacts with crystalline lattice networks to maintain proper electromagnetic conduction and frequency balance.
+- **Nodal Points** — Geographic junctions along the planetary membrane where natural energetic fountains emanate, originally anchored by crystalline temples.
+- **Density Suppression** — The technological dampening of environmental frequency deployed by parasitic entities to lower the realm's vibration and obscure natural energetic architecture.
+
+## Core Revelations
+The inversion and dismantling of the Organic Circuit was calculated over seventy thousand years before parasitic entities fell densities. Originating as 12th-density Custodians, these entities recognized that their innate manifestation capabilities would perish once negativity commenced, prompting them to pre-plan the takeover while still operating in higher light realms.
+
+Source-side beings possess the divine capacity to design, create, and manifest complex physical architecture, vehicles, and structures directly through pure consciousness. Because parasitic species lack the capability to create and can only manufacture, they developed a profound hatred toward organic life. This envy is the fundamental reason the planetary farm is characterized by extreme cruelty, rather than a simple hunger for loosh.
+
+Resource extraction through quarrying and mining constitutes a systematic stripping of the natural planetary machine. Components like gold, crystal, tin, copper, and precious gemstones were placed in specific geographic alignments over billions of years to fulfill precise energetic functions rather than commercial or decorative uses.
+
+## Detailed Mechanics and Key Elements
+The primary conductive pathways of the Organic Circuit consist of subterranean crystalline lattice networks. These pathways, commonly designated as ley lines, conduct unique electromagnetic frequencies produced by the interplay between buried metallic deposits and natural mineral formations.
+
+At the center of the planetary circuit sat the Spirit Tree (also recognized as Hyperborea or Mt Meru). In higher densities, the trunk, leaves, and extensive root system of the Spirit Tree are completely crystalline. The root network feeds directly into the subterranean ley lines, serving as the primary power generator for the entire Gateway. Severing the Spirit Tree and replacing it with a petrified stump severely restricted energetic flow across all connected worlds.
+
+Unextracted gold functions as an active electromagnetic component that reacts dynamically with the surrounding crystalline lattice. Mining gold, hoarding it for idolatry, or displacing gemstones dismantles the circuit's ergonomic balance, creating artificial dead zones.
+
+At major nodal points, natural energy fountains emerge from the deep circuit. These sites were originally crowned with crystalline temples housing central crystal interfaces that enabled harmonized, large-scale manifestation.
+
+To subjugate the realm, parasites deployed density suppression technology and physical capping, installing stone altars over crystal interfaces while laying asphalt, concrete, and rail tracks directly along ley lines. Infrastructure such as power pylons was positioned specifically to harvest backed-up energetic flow from the suppressed circuit.
+
+## Broader Context and Interconnections
+Within the overarching framework of physical reality, the Organic Circuit serves as the foundational energetic machinery underlying physical matter.
+
+Ancient Tartarian infrastructure and transit systems, such as self-powering locomotives equipped with atmospheric augmentation systems, operated by tapping directly into the active electromagnetic emanation paths of the underlying ley lines.
+
+Natural elements within the circuit, including deep subterranean oil reserves, flow unhindered across the sub-plain of the Gateway to lubricate and stabilize the physical base of the realm.
+
+Historical settlements and cities were intentionally established over suppressed nodes to exploit the remaining power of the underlying circuit while utilizing human population density to damp its positive vibration.
+
+## Strategic Implications
+Restoration of organic reality requires the complete cessation of mineral mining and the deactivation of artificial frequency-dampening overlays.
+
+Recognizing the physical environment as a manufactured overlay masking a living spiritual technology enables source-side beings to bypass artificial density barriers.
+
+As artificial frequency fences and dampening structures are dismantled by white-hat forces, the original crystalline architecture and high-frequency nodal emanations naturally re-emerge into physical perception.
+`
+};

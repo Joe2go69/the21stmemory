@@ -215,10 +215,10 @@
         {
           "id": "organic-circuit",
           "title": "Organic Circuit",
-          "description": "Organic Circuit",
-          "topic_image": "images/alice/placeholder.webp",
-          "is_placeholder": true,
-          "added": "2026-10-14",
+          "description": "The Organic Circuit is the self-sustaining, natural technology and ergonomic electromagnetic structure of the realm.",
+          "topic_image": "images/alice/organic-circuit.webp",
+          "is_placeholder": false,
+          "added": "2026-11-04T15:37:06-07:00",
           "subtopics": [
             {
               "id": "spirit-tree",

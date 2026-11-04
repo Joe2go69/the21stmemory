@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-04T10:10:47.048Z",
-  "total": 331,
+  "generatedAt": "2026-11-04T22:47:32.945Z",
+  "total": 332,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 68
+      "count": 69
     },
     {
       "id": "breakdown",
@@ -720,6 +720,20 @@
       "diveHref": "dive/alice/oopa-artifacts.html",
       "key": "alice/oopa-artifacts",
       "order": 69
+    },
+    {
+      "id": "organic-circuit",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Organic Circuit",
+      "subtitle": "Test your understanding of Organic Circuit — ley lines, the Spirit Tree, elemental conductors, density suppression, and how the living circuit is restored.",
+      "questionCount": 25,
+      "href": "quiz/alice/organic-circuit.html",
+      "diveHref": "dive/alice/organic-circuit.html",
+      "key": "alice/organic-circuit",
+      "order": 23
     },
     {
       "id": "orphan-trains",
