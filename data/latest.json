@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "centre-realm",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Centre Realm",
+      "description": "The Centre Realm is the midpoint of Gateway-10, where the Spirit Tree at Mt Meru powered all 178 worlds until the Greys cut it and the ice wall made the Known Lands.",
+      "topic_image": "images/alice/centre-realm.webp",
+      "path": "dive/alice/centre-realm.html",
+      "added": "2026-11-04T01:12:20-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "space-is-white",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Space Is White",
@@ -109,16 +119,6 @@
       "topic_image": "images/ascension/dna-strand.webp",
       "path": "dive/ascension/dna-strand.html",
       "added": "2026-11-02T04:37:18-07:00"
-    },
-    {
-      "sourceId": "special-requests",
-      "topicId": "original-vessel-recovery",
-      "series": "Special Requests",
-      "title": "Original Vessel Recovery",
-      "description": "The recovery path bypasses the restricted DNA and reclaims the original crystalline-plasma vessel that matches the full frequency of the sol.",
-      "topic_image": "images/special-requests/original-vessel-recovery.webp",
-      "path": "dive/special-requests/original-vessel-recovery.html",
-      "added": "2026-11-02T03:54:09-07:00"
     }
   ],
   "featured": [

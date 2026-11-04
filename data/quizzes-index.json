@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-04T05:56:45.900Z",
-  "total": 328,
+  "generatedAt": "2026-11-04T08:18:22.429Z",
+  "total": 329,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 65
+      "count": 66
     },
     {
       "id": "breakdown",
@@ -188,6 +188,20 @@
       "diveHref": "dive/alice/atmospheric-condensers.html",
       "key": "alice/atmospheric-condensers",
       "order": 58
+    },
+    {
+      "id": "centre-realm",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Centre Realm",
+      "subtitle": "Test your understanding of Centre Realm — the Gateway-10 hub, the Spirit Tree at Mt Meru, and the power cut that made the Known Lands.",
+      "questionCount": 25,
+      "href": "quiz/alice/centre-realm.html",
+      "diveHref": "dive/alice/centre-realm.html",
+      "key": "alice/centre-realm",
+      "order": 17
     },
     {
       "id": "control-mechanisms",

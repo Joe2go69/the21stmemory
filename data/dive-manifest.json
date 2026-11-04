@@ -140,9 +140,9 @@
       "sourceId": "alice",
       "topicId": "centre-realm",
       "path": "/dive/alice/centre-realm.html",
-      "live": false,
+      "live": true,
       "title": "Centre Realm",
-      "added": "2026-10-14"
+      "added": "2026-11-04T01:12:20-07:00"
     },
     {
       "sourceId": "alice",
