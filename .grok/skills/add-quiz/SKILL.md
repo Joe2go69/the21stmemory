@@ -12,7 +12,7 @@ Do not grep the repo. Do not open other quizzes or other topic reports. Do not c
 Do not use Playwright, browser tools, or a local HTTP server.
 
 Allowed reads: this skill, `data/{source}-topics/{id}.json` (this topic only), the NotebookLM file.
-Do not read `install.js`, pipeline, or option-utils files unless Verify or lint fails.
+Do not read `install.js`, pipeline, or option-utils files. If install lint fails, fix the questions it lists and rerun install.
 
 Title must match the topic title in that JSON exactly.
 
@@ -26,17 +26,17 @@ The installer lints the quiz before writing anything. If lint fails, it exits no
 2. Read this topic's `report` fully. It is the only source of truth.
 3. Fidelity: every correct answer and rationale must be supported by the report. Fix or drop unsupported claims. Never invent claims or add extra details the report doesn't state.
 4. Treat NotebookLM questions as a draft. Keep good questions, but rewrite any wrong answers that break the Answer rules below.
-5. Write data only to `scripts/payloads/{id}.quiz.js` (schema below).
+5. Write data only to `scripts/payloads/{id}.quiz.js` (schema below). Apply the Length and Same shape rules in that first write. Do not run a separate length checker or a rewrite pass before install.
 6. Run `node scripts/install.js quiz {source} {id}`.
    - If a matching `{id}.topic.js` was also written in this turn, run `node scripts/install.js all {source} {id}` instead.
-7. Run `npm run lint:quizzes` and `node scripts/quiz-quality.js --warnings 200`.
+7. Run `npm run lint:quizzes`. A pass is one line. Then run `node scripts/quiz-quality.js --warnings 200` and read only the lines that name this quiz id. Ignore the rest of that output.
    - Lint must pass.
-   - Fix any warning that mentions this quiz's id by editing the payload and reinstalling.
+   - Fix any warning that names this quiz by editing the payload and reinstalling. Do not open installer or pipeline files to re-derive the rules.
 8. Run the self-check at the bottom of this skill. Fix anything that fails, then reinstall.
 9. Stop after Verify passed and lint passed. Do not start a server, open the page, walk the UI, or launch /review.
 10. Never run `quiz-quality.js --baseline` or `--fix`, and never edit `scripts/lib/quiz-quality*`. Those are maintenance tools, not install steps.
     - Do NOT run `scripts/rebalance-quiz-length.js` (or `rebalance-quiz-options.js`, `polish-severe-*.js`) on new quizzes. It is a legacy maintenance tool for old Alice data and rewrites answer text.
-    - After install, always run `npm run lint:quizzes` and `node scripts/quiz-quality.js --warnings 200`, and fix every flag that names this quiz before finishing.
+    - After install, follow step 7, and fix every flag that names this quiz before finishing.
 11. Quiz install must not restamp `added`. The homepage "Recently added" date stays the topic publish time already in the data.
 
 When asked to review, commit, and push after this install: do not launch the review skill. Confirm Verify and lint passed, then stage only this quiz's payload, data, dive/quiz HTML, hub, and sitemap files (neighbor dive rebuilds are expected). Commit `Add {Title} Living Truth quiz.` and push only if asked. Do not write long memory notes.
@@ -81,7 +81,7 @@ Exactly 25 questions, numbered 1–25.
 
 ## Answer rules (most important)
 
-- **Length:** all 4 options should be about the same length, each within roughly 25% of the others. The correct answer must never be more than 1.5x the longest wrong answer. Across the quiz, the correct answer should be the longest option only about 1 time in 4, and sometimes it should be the shortest.
+- **Length:** Write this into the first draft. Measure characters, not words. Longest ÷ shortest must be at most 1.25. Across the multiple-choice questions, the correct option is uniquely longest on about 5 of 21 and uniquely shortest on about 4. True/False options stay exactly `True` and `False` and are not part of that count.
 - **Same shape:** all options use the same grammar and structure. If the correct answer is "A [thing] that [does X]", every wrong answer is also "A [thing] that [does Y]".
 - **Believable wrong answers:** build them from real names, terms, places, and numbers in the same report, attached to the wrong thing (for example, the job of a different group, the wrong phase, or the wrong location). A reader who skimmed should find them tempting.
 - **Wrong answers must really be wrong.** Check each one against the report. If the report supports it, even partly, replace it.
