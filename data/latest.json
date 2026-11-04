@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "asteroid-weapons",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Asteroid Weapons",
+      "description": "Asteroid weapons are high-speed, synthetic biological payloads deployed by parasitic forces directly through interdimensional portals rather than organic space rocks originating from celestial space.",
+      "topic_image": "images/alice/asteroid-weapons.webp",
+      "path": "dive/alice/asteroid-weapons.html",
+      "added": "2026-11-03T21:56:50-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "stars-as-projectors",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Stars as Projectors",
@@ -109,16 +119,6 @@
       "topic_image": "images/ascension/free-energy.webp",
       "path": "dive/ascension/free-energy.html",
       "added": "2026-11-02T02:54:15-07:00"
-    },
-    {
-      "sourceId": "ascension",
-      "topicId": "other-world-conductors",
-      "series": "The Long-Awaited Ascension Process",
-      "title": "Other-World Conductors",
-      "description": "Conductive mechanisms embedded in quartz crystal building materials that supply energetic resonance for portal generation and dimensional transition.",
-      "topic_image": "images/ascension/other-world-conductors.webp",
-      "path": "dive/ascension/other-world-conductors.html",
-      "added": "2026-11-02T01:47:24-07:00"
     }
   ],
   "featured": [

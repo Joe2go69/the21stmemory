@@ -115,10 +115,10 @@
                 {
                   "id": "asteroid-weapons",
                   "title": "Asteroid Weapons",
-                  "description": "Asteroid Weapons",
-                  "topic_image": "images/alice/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-14"
+                  "description": "Asteroid weapons are high-speed, synthetic biological payloads deployed by parasitic forces directly through interdimensional portals rather than organic space rocks originating from celestial space.",
+                  "topic_image": "images/alice/asteroid-weapons.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-03T21:56:50-07:00"
                 },
                 {
                   "id": "space-is-white",

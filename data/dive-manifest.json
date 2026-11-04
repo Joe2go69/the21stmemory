@@ -100,9 +100,9 @@
       "sourceId": "alice",
       "topicId": "asteroid-weapons",
       "path": "/dive/alice/asteroid-weapons.html",
-      "live": false,
+      "live": true,
       "title": "Asteroid Weapons",
-      "added": "2026-10-14"
+      "added": "2026-11-03T21:56:50-07:00"
     },
     {
       "sourceId": "alice",

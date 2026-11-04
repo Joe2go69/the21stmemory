@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-04T04:16:51.503Z",
-  "total": 326,
+  "generatedAt": "2026-11-04T05:03:08.548Z",
+  "total": 327,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 63
+      "count": 64
     },
     {
       "id": "breakdown",
@@ -160,6 +160,20 @@
       "diveHref": "dive/alice/ascension-event.html",
       "key": "alice/ascension-event",
       "order": 95
+    },
+    {
+      "id": "asteroid-weapons",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Asteroid Weapons",
+      "subtitle": "Test your understanding of Asteroid Weapons — portal-delivered biological strikes, the firmament barrier, and the meteor myth.",
+      "questionCount": 25,
+      "href": "quiz/alice/asteroid-weapons.html",
+      "diveHref": "dive/alice/asteroid-weapons.html",
+      "key": "alice/asteroid-weapons",
+      "order": 12
     },
     {
       "id": "atmospheric-condensers",
