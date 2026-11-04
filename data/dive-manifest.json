@@ -124,9 +124,9 @@
       "sourceId": "alice",
       "topicId": "oil-as-grease",
       "path": "/dive/alice/oil-as-grease.html",
-      "live": false,
+      "live": true,
       "title": "Oil as Grease",
-      "added": "2026-10-14"
+      "added": "2026-11-04T01:58:11-07:00"
     },
     {
       "sourceId": "alice",

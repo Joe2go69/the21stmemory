@@ -1,646 +1,646 @@
 module.exports = {
-  source: 'revelations',
+  source: 'alice',
   id: 'oil-as-grease',
   title: 'Oil as Grease',
-  description: 'Test your understanding of Oil as Grease — architectural lubricant, the ice wall supply, and the fossil-fuel cover story.',
-  seoDescription: 'Interactive Living Truth Quiz on Oil as Grease: planetary architecture, the Jurassic Leftovers Cover, petrochemical refinement, and the organic circuitboard.',
+  description: 'Test your understanding of Oil as Grease — the self-replenishing lubricant under Gateway-10, and why pulling it from the ground breaks the realm.',
+  seoDescription: 'Interactive Living Truth Quiz on Oil as Grease: subterranean oil as mechanical grease, the shared non-extraction rule, and why GESARA, med-beds, and disclosure leave the damage in place.',
   reflection: {
     title: 'Reflection',
-    body: 'Oil as Grease is the lubricant of planetary architecture, flowing under the ice wall rather than sitting as a finite fossil deposit. The depletion story hides that supply and justifies price control. Seeing the fluid as grease points away from burning it and toward the plane keeping its natural integrity.'
+    body: 'Oil is the grease under the realms. It is meant to stay in the ground so the realms can sit on their foundations. Gold and crystals belong there too, each with a job of its own. Pumping, mining, and selling those materials damages the layout. Resets, med-beds, and disclosure campaigns do not put the grease back. Stability holds when the materials stay in the places the architecture gave them.'
   },
   questions: [
     {
       number: 1,
-      question: 'What does this fluid do for physical environments on the plane?',
-      hint: 'Look at the opening account of friction, heat, and balance.',
+      question: 'What is subterranean oil, in the account of Gateway-10?',
+      hint: 'Look in the opening account of what this material is for.',
       options: [
         {
-          text: 'It ensures friction reduction, thermal regulation, and structural equilibrium.',
+          text: 'A primordial sub-plain lubricant that greases the base of the realms',
           isCorrect: true,
-          rationale: 'As a shared architectural component, its presence ensures the friction reduction, thermal regulation, and structural equilibrium necessary for all physical environments.'
+          rationale: 'Oil functions as a primordial sub-plain lubricant engineered to grease the base of all realms.'
         },
         {
-          text: 'It supplies a ready combustible stock kept for engines and burners.',
+          text: 'A synthetic liquid pressed from the air by high atmospheric pressure',
           isCorrect: false,
-          rationale: 'Combustion is what refinement makes later; the fluid first ensures friction reduction, thermal regulation, and structural equilibrium.'
+          rationale: 'Oil is embedded in the foundational sub-structure, not pressed out of the air.'
         },
         {
-          text: 'It supplies electrolyte currents that carry data across shared ocean networks.',
+          text: 'A trapped pocket of fluid sitting in one upper crustal basin',
           isCorrect: false,
-          rationale: 'Ocean networks distribute data and electrolyte currents; the grease ensures friction reduction and thermal regulation.'
+          rationale: 'The fluid moves continuously across the sub-plain under the realms, rather than sitting in one upper basin.'
         },
         {
-          text: 'It supplies a finite fossil reserve left by decaying Jurassic organisms.',
+          text: 'A scarce fuel cooked from ancient biological decay under the ground',
           isCorrect: false,
-          rationale: 'That is the false fossil story; the grease ensures friction reduction, thermal regulation, and structural equilibrium.'
+          rationale: 'Ancient biological decay is the dinosaur-soup story, which hides perpetual planetary grease.'
         }
       ]
     },
     {
       number: 2,
-      question: 'How does architectural grease reach local realms?',
-      hint: 'Think about the path under the outer boundary.',
+      question: 'How many realms share the physical plain called Gateway-10?',
+      hint: 'Look for the count given for the full span of Gateway-10.',
       options: [
         {
-          text: 'It condenses from the air along the outer rim of the realm.',
-          isCorrect: false,
-          rationale: 'The grease does not arrive by air; it flows continuously beneath the ice wall.'
-        },
-        {
-          text: 'It forms when ancient marine life is pressed into local pockets.',
-          isCorrect: false,
-          rationale: 'Biological pressure is the cover story; the grease flows continuously beneath the ice wall.'
-        },
-        {
-          text: 'It is cooked up inside sealed pockets under each local plain.',
-          isCorrect: false,
-          rationale: 'The source lies outside local boundaries; the grease flows continuously beneath the ice wall.'
-        },
-        {
-          text: 'It flows continuously beneath the ice wall from beyond the perimeter.',
+          text: 'One hundred seventy-eight interconnected realms',
           isCorrect: true,
-          rationale: 'This substance flows continuously beneath the ice wall, and the continuous influx beneath the perimeter keeps it replenished.'
+          rationale: 'Gateway-10 is the vast physical plain of existence comprising 178 interconnected realms.'
+        },
+        {
+          text: 'Three hundred sixty-five realms laid across the plain',
+          isCorrect: false,
+          rationale: 'The plain comprises 178 interconnected realms, not a count taken from the days of a year.'
+        },
+        {
+          text: 'One hundred forty-four realms laid across the plain',
+          isCorrect: false,
+          rationale: 'The report gives the expanse as 178 interconnected realms bounded by firmaments and ice walls.'
+        },
+        {
+          text: 'Two hundred realms laid out across the physical plain',
+          isCorrect: false,
+          rationale: 'A round two hundred is not the count. The plain comprises 178 interconnected realms.'
         }
       ]
     },
     {
       number: 3,
-      question: 'What does the Jurassic Leftovers Cover allow controllers to do?',
-      hint: 'Think about the market story built on a limited supply.',
+      question: 'Which paired structures leave the moving fluid free to cross?',
+      hint: 'Look in the overview where the reach of the moving fluid is described.',
       options: [
         {
-          text: 'It lets them guard deep mineral veins from any industrial use.',
-          isCorrect: false,
-          rationale: 'The cover drives harvesting, not protection; it is a manufactured cover story designed to enforce artificial scarcity.'
-        },
-        {
-          text: 'It lets them steer local society toward clean harmonic resonance.',
-          isCorrect: false,
-          rationale: 'Harmonic resonance is the later shift; the cover is designed to enforce artificial scarcity and arbitrary price hikes.'
-        },
-        {
-          text: 'It lets them enforce artificial scarcity and arbitrary price hikes.',
+          text: 'The ice wall and the overhead dome of the firmament, which do not stop the flow',
           isCorrect: true,
-          rationale: 'The biological-origin story is a manufactured cover story designed to enforce artificial scarcity and justify arbitrary price hikes.'
+          rationale: 'Oil moves continuously across boundaries without restriction from the ice wall or the overhead dome of the firmament.'
         },
         {
-          text: 'It lets them publish a true geological timeline of dinosaur remains.',
+          text: 'The ergonomic network and the subterranean foundations under the realms',
           isCorrect: false,
-          rationale: 'Dinosaur remains are a fictitious explanation; the cover is designed to enforce artificial scarcity.'
+          rationale: 'Those are the layout the grease serves, not the surface covers the fluid crosses.'
+        },
+        {
+          text: 'The ley lines and the crystalline lattice networks under the realms',
+          isCorrect: false,
+          rationale: 'Ley lines and crystalline lattice networks run with the fluid. They are not the boundaries it crosses.'
+        },
+        {
+          text: 'The central toroid field and the fluid interface under the realms',
+          isCorrect: false,
+          rationale: 'The central toroid field and the fluid interface are where the realms sit, not outer stops on the flow.'
         }
       ]
     },
     {
       number: 4,
-      question: 'What framework holds this grease inside the physical plane?',
-      hint: 'Look at the living structure named beside the spinning-globe picture.',
+      question: 'What does the dinosaur soup story do?',
+      hint: 'Look at why a story of ancient biological decay was attached to this fluid.',
       options: [
         {
-          text: 'A closed heat dome run by repeating pressure cycles in the air.',
-          isCorrect: false,
-          rationale: 'The grease sits in a broader organic circuitboard, not in a closed atmospheric dome.'
-        },
-        {
-          text: 'A static rock mass whose mineral beds stay fixed in one place.',
-          isCorrect: false,
-          rationale: 'Fluids circulate; the grease functions as a structural element within a broader organic circuitboard.'
-        },
-        {
-          text: 'An isolated spinning globe sealed off from every single other world.',
-          isCorrect: false,
-          rationale: 'The report rejects an isolated spinning globe; the grease functions within a broader organic circuitboard.'
-        },
-        {
-          text: 'A broader organic circuitboard fed by the shared conductive fluids.',
+          text: 'It hides perpetual grease and builds up a false picture of depletion',
           isCorrect: true,
-          rationale: 'Oil functions as a primary structural element within a broader organic circuitboard, the living hardware of planetary architecture.'
+          rationale: 'Dinosaur soup was concocted to conceal perpetual planetary grease and to establish an artificial construct of depletion.'
+        },
+        {
+          text: 'It explains a real decay process that builds subterranean carbon deposits',
+          isCorrect: false,
+          rationale: 'The decay story is the cover. Oil does not originate from organic decomposition.'
+        },
+        {
+          text: 'It steers extraction away from oil and toward conductive metals instead',
+          isCorrect: false,
+          rationale: 'The story hides perpetual planetary grease. It does not shift extraction off oil and onto metals.'
+        },
+        {
+          text: 'It supports a public effort to leave subterranean minerals in place',
+          isCorrect: false,
+          rationale: 'The depletion story serves parasitic control systems, not a public effort to leave minerals in place.'
         }
       ]
     },
     {
       number: 5,
-      question: 'What do the shared ocean networks carry beside the grease layer?',
-      hint: 'Look at the fluid system paired with the oil layer under the boundary.',
+      question: 'Why do the oil fields renew themselves?',
+      hint: 'Look in the overview for why the fields do not run down.',
       options: [
         {
-          text: 'They carry data and electrolyte currents across adjacent realms.',
+          text: 'The sub-plain keeps the fluid circulating under Gateway-10 without pause',
           isCorrect: true,
-          rationale: 'The ocean system distributes data and electrolyte currents across adjacent realms, while the oil layer lubricates and seals pathways.'
+          rationale: 'Oil fields are naturally self-replenishing because the fluid continuously flows through the foundational sub-plain of Gateway-10.'
         },
         {
-          text: 'They insulate metallic veins from charges in the ground.',
+          text: 'Geothermal heat rapidly turns raw carbon into fresh petroleum pockets',
           isCorrect: false,
-          rationale: 'Oceans distribute data and electrolyte currents; they are not an insulating wrap on the veins.'
+          rationale: 'Renewal comes from continuous flow through the foundational sub-plain, not from heat cooking carbon.'
         },
         {
-          text: 'They soak up waste heat pouring out of drilling channels.',
+          text: 'Ley line current turns subterranean rock into liquid grease',
           isCorrect: false,
-          rationale: 'Thermal regulation belongs to the grease; oceans distribute data and electrolyte currents.'
+          rationale: 'Ley lines work with conductive metals. They do not turn rock into the sub-plain lubricant.'
         },
         {
-          text: 'They turn raw grease into petrol and diesel on their own.',
+          text: 'Surface organic matter keeps decaying and filtering down into the strata',
           isCorrect: false,
-          rationale: 'Refinement makes petrochemical compounds; oceans distribute data and electrolyte currents.'
+          rationale: 'Organic decay is the rejected origin. The fields are naturally self-replenishing by continuous flow.'
         }
       ]
     },
     {
       number: 6,
-      question: 'Why is the grease supply treated as unable to run out?',
-      hint: 'Consider where the source sits relative to the local boundary.',
+      question: 'What job does this material do when it is left at the base?',
+      hint: 'Look at the purpose given for leaving this material at the base.',
       options: [
         {
-          text: 'Its source lies outside enclosed local boundaries on the shared plane.',
+          text: 'A fluid interface that lets realms sit and operate smoothly on their foundations',
           isCorrect: true,
-          rationale: 'Because its source lies outside enclosed local boundaries and flows across the shared plane, the supply can never run out.'
+          rationale: 'Subterranean oil serves as the fluid interface that allows planetary realms to sit and operate smoothly upon their subterranean foundations.'
         },
         {
-          text: 'Living remains decay at the same pace as industrial burning.',
+          text: 'A thermal wrap that shields ley lines from heat off the upper dome',
           isCorrect: false,
-          rationale: 'The supply does not depend on decay; its source lies outside enclosed local boundaries.'
+          rationale: 'The job at the base is a fluid interface for the realms, not a wrap against dome heat.'
         },
         {
-          text: 'Mineral beds turn captured sunlight into fresh petroleum underground.',
+          text: 'A combustion stock that feeds subterranean propulsion under the realms',
           isCorrect: false,
-          rationale: 'The grease is part of the creation template; its source lies outside enclosed local boundaries.'
+          rationale: 'Left in place, the material is a fluid interface, not a stock for combustion or propulsion.'
         },
         {
-          text: 'Drilling stirs the crust until new grease forms in the holes.',
+          text: 'A pressure balance that holds the firmament above the ocean basins',
           isCorrect: false,
-          rationale: 'Drilling removes grease from distribution channels; the source lies outside enclosed local boundaries.'
+          rationale: 'The firmament is an overhead cover. The fluid interface lets realms sit on their foundations.'
         }
       ]
     },
     {
       number: 7,
-      question: 'What does mass drilling do during subsurface extraction?',
-      hint: 'Look at the first stage of taking the fluid out of place.',
+      question: 'What does the shared law require of oil, gold, and gemstones?',
+      hint: 'Read the sentence that sets one law over oil, gold, and the lattices.',
       options: [
         {
-          text: 'It punctures natural distribution channels and pulls the fluid out of place.',
+          text: 'Those materials are meant to stay in place beneath the ground',
           isCorrect: true,
-          rationale: 'Mass drilling punctures the natural distribution channels of architectural grease, removing the fluid from its intended placement within the earth.'
+          rationale: 'Oil is strictly intended to remain in situ beneath the ground, under the same primordial law that applies to gold.'
         },
         {
-          text: 'It cooks raw grease into a volatile combustible fuel while on site.',
+          text: 'Those materials may be taken for public works that are not sold',
           isCorrect: false,
-          rationale: 'That change belongs to refinement; extraction punctures the natural distribution channels.'
+          rationale: 'The primordial law that applies to gold requires the materials to remain in situ beneath the ground.'
         },
         {
-          text: 'It lays fresh protective coatings onto the surrounding mineral veins.',
+          text: 'Those materials may be taken when ley lines stand in a set alignment',
           isCorrect: false,
-          rationale: 'Harvesting strips coatings; extraction punctures the natural distribution channels.'
+          rationale: 'No alignment opens a window for removal. The materials are meant to remain in situ beneath the ground.'
         },
         {
-          text: 'It sends fresh electrolyte currents down into the deep ocean paths.',
+          text: 'Those materials may be taken if a matching synthetic fluid is put back',
           isCorrect: false,
-          rationale: 'Oceans already carry those currents; extraction punctures the natural distribution channels.'
+          rationale: 'A substitute put back does not meet the primordial law. The materials remain in situ beneath the ground.'
         }
       ]
     },
     {
       number: 8,
-      question: 'What change does industrial refinement make in raw grease?',
-      hint: 'Look at the step that turns a quiet lubricant into something that burns.',
+      question: 'What is natural technology in this account?',
+      hint: 'Look at the glossary entry that names this framework.',
       options: [
         {
-          text: 'A finite fossil stock becomes an endless structural fluid.',
-          isCorrect: false,
-          rationale: 'The raw fluid is already the lubricant; refinement converts a passive planetary lubricant into volatile combustible fuel.'
-        },
-        {
-          text: 'A passive planetary lubricant becomes a volatile combustible fuel.',
+          text: 'Unextracted oil, gold, and crystalline structures that keep planetary balance',
           isCorrect: true,
-          rationale: 'Processing raw grease into petrochemical compounds converts a passive planetary lubricant into volatile combustible fuel.'
+          rationale: 'Natural technology encompasses oil, gold, and crystalline structures. That framework maintains planetary balance when left unextracted in the ground.'
         },
         {
-          text: 'A conductive liquid hardens into a solid perimeter wall.',
+          text: 'Industrial machines built to draw subterranean fluid for a cleaner fuel supply',
           isCorrect: false,
-          rationale: 'Refinement makes fuel, not a wall; it converts a passive planetary lubricant into volatile combustible fuel.'
+          rationale: 'Machines that draw the fluid subvert the framework. Natural technology stays unextracted in the ground.'
         },
         {
-          text: 'An ocean electrolyte settles into solid metallic veins.',
+          text: 'Financial reset protocols that move extracted wealth across the realms',
           isCorrect: false,
-          rationale: 'Veins are hardware already; refinement converts a passive planetary lubricant into volatile combustible fuel.'
+          rationale: 'Resets such as GESARA are distractions. Natural technology is oil, gold, and crystalline structures left unextracted.'
+        },
+        {
+          text: 'Medical devices offered by institutions as a repair for human health',
+          isCorrect: false,
+          rationale: 'Med-beds are an institutional lure. Natural technology is the unextracted framework in the ground.'
         }
       ]
     },
     {
       number: 9,
-      question: 'What happens to nearby mineral deposits when the grease is harvested?',
-      hint: 'Look at conductivity and heat in the hardware around the fluid.',
+      question: 'What fails when this material is taken up out of place?',
+      hint: 'Look at what fails when this material is pumped away from the base.',
       options: [
         {
-          text: 'The veins dissolve so extra built-up heat can leave the crust.',
-          isCorrect: false,
-          rationale: 'Grease does not dissolve the veins; harvesting disrupts the natural conductivity and thermal regulation of surrounding mineral deposits.'
-        },
-        {
-          text: 'Their natural conductivity and thermal regulation are both disrupted.',
+          text: 'Pumping oil out breaks the ergonomic equilibrium of the realm at its base',
           isCorrect: true,
-          rationale: 'When grease is harvested, the natural conductivity and thermal regulation of surrounding mineral deposits are disrupted.'
+          rationale: 'Extracting oil from its natural location violates the ergonomic equilibrium of the realm.'
         },
         {
-          text: 'The veins filter raw grease before it passes the ice wall.',
+          text: 'Crystalline lattices lose their conductivity across the surface realms',
           isCorrect: false,
-          rationale: 'The grease already flows beneath the ice wall; harvesting disrupts conductivity and thermal regulation of the deposits.'
+          rationale: 'Conductivity along ley lines is the loss tied to mining gold, not to pumping the grease.'
         },
         {
-          text: 'The deposits split raw grease into separate combustible fuel portions.',
+          text: 'The overhead firmament loses its support and falls inward on the realm',
           isCorrect: false,
-          rationale: 'Fuel conversion is industrial; harvesting disrupts the natural conductivity and thermal regulation of the deposits.'
+          rationale: 'The harm named is to the ergonomic equilibrium of the realm, not a firmament falling inward.'
+        },
+        {
+          text: 'The ice wall spreads across the surface and seals the neighboring realms off',
+          isCorrect: false,
+          rationale: 'The ice wall is a fixed surface boundary. Pumping oil violates the ergonomic equilibrium of the realm.'
         }
       ]
     },
     {
       number: 10,
-      question: 'What does the underlying oil layer do for deep-ground pathways?',
-      hint: 'Look at the sealing job paired with lubrication.',
+      question: 'What do gold and the other precious metals do under the realms?',
+      hint: 'Look at the bullet that assigns metals their part in the layout.',
       options: [
         {
-          text: 'It stores charges blown inward by currents coming from the air.',
-          isCorrect: false,
-          rationale: 'Electrolyte currents belong to the oceans; the oil layer provides structural lubrication and seals deep-ground pathways.'
-        },
-        {
-          text: 'It breaks down organic matter that arrives from distant neighboring realms.',
-          isCorrect: false,
-          rationale: 'The grease is non-biological; it provides structural lubrication and seals deep-ground pathways.'
-        },
-        {
-          text: 'It boils off as vapor intended to keep the whole realm humid.',
-          isCorrect: false,
-          rationale: 'The layer stays a fluid seal; it provides structural lubrication and seals deep-ground pathways.'
-        },
-        {
-          text: 'It provides the structural lubrication and also seals deep-ground pathways.',
+          text: 'Conductive elements that work with ley lines to steady planetary electromagnetics',
           isCorrect: true,
-          rationale: 'The underlying oil layer provides structural lubrication and seals deep-ground pathways beneath the ice wall.'
+          rationale: 'Gold and precious metals function as conductive elements that interact energetically with crystalline lattice networks and ley lines to stabilize planetary electromagnetics.'
+        },
+        {
+          text: 'Heavy ballast that holds the central toroid field still on the sub-plain',
+          isCorrect: false,
+          rationale: 'Metals are conductive elements for planetary electromagnetics, not ballast for the central toroid field.'
+        },
+        {
+          text: 'Fluid buffers that soak up structural friction under the foundations',
+          isCorrect: false,
+          rationale: 'The physical fluid buffer is subterranean oil. Metals stabilize planetary electromagnetics.'
+        },
+        {
+          text: 'Heat anchors that send atmospheric warmth up into the surface realms',
+          isCorrect: false,
+          rationale: 'Metals are not heat anchors. They are conductive elements that stabilize planetary electromagnetics.'
         }
       ]
     },
     {
       number: 11,
-      question: 'When was this grease built into physical worlds?',
-      hint: 'Think about whether it arrived with the original design or after a later age.',
+      question: 'What do crystals and gemstones do in the underground layout?',
+      hint: 'Look at the bullet that assigns gemstones their part in the layout.',
       options: [
         {
-          text: 'As part of the initial creation template for all worlds.',
+          text: 'Natural resonators that anchor energy within the earth',
           isCorrect: true,
-          rationale: 'Oil is grown and supplied as part of the initial creation template for all worlds.'
+          rationale: 'Crystals and gemstones act as natural resonators and energetic anchors within the subterranean architecture.'
         },
         {
-          text: 'After ocean currents had already filled every mineral vein.',
+          text: 'Mechanical ballasts that balance weight across the realms',
           isCorrect: false,
-          rationale: 'The grease is not a later byproduct; it is grown and supplied as part of the initial creation template.'
+          rationale: 'Gemstones are natural resonators and energetic anchors, not weights that balance the realms.'
         },
         {
-          text: 'During extinction events placed millions of years in the past.',
+          text: 'Filtration channels that clean grease before it surfaces',
           isCorrect: false,
-          rationale: 'Those events belong to the fossil story; the grease is part of the initial creation template for all worlds.'
+          rationale: 'They do not filter grease. They act as natural resonators and energetic anchors.'
         },
         {
-          text: 'After the first drills opened holes beneath the perimeter.',
+          text: 'Insulating barriers that block current from the ley lines',
           isCorrect: false,
-          rationale: 'Drilling removes grease; the fluid was grown and supplied as part of the initial creation template.'
+          rationale: 'They are not barriers against ley lines. They are natural resonators and energetic anchors.'
         }
       ]
     },
     {
       number: 12,
-      question: 'What does stripping the grease do to the living board?',
-      hint: 'Look at the stage that names coatings and fluid buffers.',
+      question: 'What does taking gold out of the ground do to the planetary system?',
+      hint: 'Look in the core section at what removing this metal disturbs.',
       options: [
         {
-          text: 'Petrochemical compounds later turn themselves back into fresh raw grease.',
-          isCorrect: false,
-          rationale: 'Refined fuel does not revert; removing grease strips essential protective coatings and fluid buffers.'
-        },
-        {
-          text: 'Shared ocean circulation under the ice wall comes to a full halt.',
-          isCorrect: false,
-          rationale: 'Oceans keep distributing currents; removing grease strips essential protective coatings and fluid buffers.'
-        },
-        {
-          text: 'It strips essential protective coatings and fluid buffers from the board.',
+          text: 'It disrupts electromagnetic interactions across subterranean ley lines',
           isCorrect: true,
-          rationale: 'Board degradation removes architectural grease and strips the living organic circuitboard of its essential protective coatings and fluid buffers, impairing the natural harmonic function.'
+          rationale: 'Mining gold disrupts the electromagnetic interactions across subterranean ley lines.'
         },
         {
-          text: 'The ice wall melts from friction left without the grease layer.',
+          text: 'It ends the self-replenishing flow of the sub-plain fluid network below',
           isCorrect: false,
-          rationale: 'The report does not describe the wall melting; removal strips essential protective coatings and fluid buffers.'
+          rationale: 'The self-replenishing flow belongs to the oil. Gold removal hits electromagnetic interactions across subterranean ley lines.'
+        },
+        {
+          text: 'It raises mechanical friction along the surface edge of the ice wall',
+          isCorrect: false,
+          rationale: 'Friction at the base follows loss of grease. Gold mining disrupts electromagnetic interactions across subterranean ley lines.'
+        },
+        {
+          text: 'It stops the continuous circulation of grease beneath the firmament',
+          isCorrect: false,
+          rationale: 'Circulation of grease is the oil layer. Gold mining disrupts electromagnetic interactions across subterranean ley lines.'
         }
       ]
     },
     {
       number: 13,
-      question: 'What wider break follows when grease is taken off the hardware?',
-      hint: 'Look at the link between local operations and higher-density networks.',
+      question: 'Which field is the seat of physical balance for the bodies on this plain?',
+      hint: 'Look in the lubrication section for the field the bodies are seated in.',
       options: [
         {
-          text: 'Local operations decouple from higher density harmonic networks.',
+          text: 'The central toroid field, where planetary bodies rest in physical equilibrium',
           isCorrect: true,
-          rationale: 'Harvesting disrupts mineral deposits and further decouples local physical operations from higher-density harmonic networks.'
+          rationale: 'Oil maintains the physical equilibrium of planetary bodies resting within the central toroid field.'
         },
         {
-          text: 'Refined fuel slowly settles back into non-biological grease below.',
+          text: 'The outer ice wall perimeter, where the bodies rest in physical equilibrium',
           isCorrect: false,
-          rationale: 'Fuel stays a combustible product; removal decouples local physical operations from higher-density harmonic networks.'
+          rationale: 'The ice wall divides surface zones. Bodies rest within the central toroid field.'
         },
         {
-          text: 'Ocean networks under the perimeter stop their regular circulation.',
+          text: 'The overhead firmament dome, where the bodies rest in physical equilibrium',
           isCorrect: false,
-          rationale: 'Oceans still carry currents; removal decouples local physical operations from higher-density harmonic networks.'
+          rationale: 'The firmament is the overhead cover. Physical equilibrium is within the central toroid field.'
         },
         {
-          text: 'The perimeter ice softens where friction has lost its buffer.',
+          text: 'The crystalline lattice matrix, where the bodies rest in physical equilibrium',
           isCorrect: false,
-          rationale: 'Melting is not the claim; removal decouples local physical operations from higher-density harmonic networks.'
+          rationale: 'The lattices are part of natural technology. The bodies rest within the central toroid field.'
         }
       ]
     },
     {
       number: 14,
-      question: 'What do intact ocean networks and the oil layer support together?',
-      hint: 'Look at travel and energy flow that depend on equilibrium.',
+      question: 'Why do parasitic control systems push a story that resources are running out?',
+      hint: 'Look in the core section at what the running-out story is built to lock in.',
       options: [
         {
-          text: 'They keep up models of artificial energy shortage across realms.',
-          isCorrect: false,
-          rationale: 'Shortage is the cover story; intact fluids maintain equilibrium for natural portal travel and harmonic energy flow.'
-        },
-        {
-          text: 'They keep up routine industrial combustion across the realms.',
-          isCorrect: false,
-          rationale: 'Combustion spends the grease; intact fluids support natural portal travel and harmonic energy flow.'
-        },
-        {
-          text: 'They keep up pressure held inside a spinning sphere model.',
-          isCorrect: false,
-          rationale: 'The sphere model is rejected; intact fluids support natural portal travel and harmonic energy flow.'
-        },
-        {
-          text: 'They keep up natural portal travel and harmonic energy flow.',
+          text: 'To cultivate artificial scarcity and enforce systemic dependency on extraction',
           isCorrect: true,
-          rationale: 'Together these fluid systems maintain the physical equilibrium required for natural portal travel and harmonic energy flow.'
+          rationale: 'Artificial economic structures use resource extraction to cultivate artificial scarcity and enforce systemic dependency.'
+        },
+        {
+          text: 'To shield subterranean mechanics from unwatched industrial mining',
+          isCorrect: false,
+          rationale: 'The systems run the extraction. They do not use the story to shield subterranean mechanics.'
+        },
+        {
+          text: 'To pay for research into how ley lines carry their current underground',
+          isCorrect: false,
+          rationale: 'The aim is to cultivate artificial scarcity and enforce systemic dependency, not to fund ley-line study.'
+        },
+        {
+          text: 'To move the realms toward using sub-plain grease as a known technology',
+          isCorrect: false,
+          rationale: 'The story hides the grease. It is used to cultivate artificial scarcity and enforce systemic dependency.'
         }
       ]
     },
     {
       number: 15,
-      question: 'What does mainstream science assert about how petroleum forms?',
-      hint: 'Look at the heat-and-pressure account the report sets aside.',
+      question: 'What is the first strategic step once this fluid is understood as grease?',
+      hint: 'Look at the opening line of the strategic section.',
       options: [
         {
-          text: 'It condenses out of ocean electrolyte currents running under the ice.',
-          isCorrect: false,
-          rationale: 'Oceans carry electrolyte currents; mainstream science asserts petroleum comes from ancient biological matter subjected to heat and pressure.'
-        },
-        {
-          text: 'It is grown by drilling inside the distribution channels.',
-          isCorrect: false,
-          rationale: 'Drilling removes fluid; mainstream science asserts ancient biological matter subjected to millions of years of heat and pressure.'
-        },
-        {
-          text: 'It forms when deep mineral veins melt into combustible fuel.',
-          isCorrect: false,
-          rationale: 'Veins stay hardware; mainstream science asserts ancient biological matter subjected to heat and pressure.'
-        },
-        {
-          text: 'It comes from ancient biological matter under long heat and pressure.',
+          text: 'Recognizing that subterranean extraction damages the stability of the realm',
           isCorrect: true,
-          rationale: 'Mainstream science asserts that petroleum originates from ancient biological matter subjected to millions of years of heat and pressure.'
+          rationale: 'The primary strategic imperative is the immediate recognition that subterranean extraction is intrinsically destructive to the structural stability of the realm.'
+        },
+        {
+          text: 'Drilling deeper wells so the work can pass localized ice wall friction below',
+          isCorrect: false,
+          rationale: 'Deeper drilling is more extraction. The imperative is that subterranean extraction is intrinsically destructive.'
+        },
+        {
+          text: 'Building synthetic chemical stand-ins for the oil taken from the ground',
+          isCorrect: false,
+          rationale: 'Stand-ins do not replace the imperative to recognize that subterranean extraction is intrinsically destructive.'
+        },
+        {
+          text: 'Speeding mining so conductive metals can be gathered before they fade',
+          isCorrect: false,
+          rationale: 'Speeding the mining compounds the damage. Subterranean extraction is intrinsically destructive.'
         }
       ]
     },
     {
       number: 16,
-      question: 'What makes up the broader planetary hardware around the grease?',
-      hint: 'Look at the solid and living parts named with the deep ground.',
+      question: 'What follows when copper, tin, and oil are taken for sale or industry?',
+      hint: 'Look at the result named when these materials are sold, processed, or worn.',
       options: [
         {
-          text: 'The deep mineral veins, metallic deposits, and root systems.',
+          text: 'The ergonomic network of the local realm gets compromised',
           isCorrect: true,
-          rationale: 'Raw grease interacts with the deep mineral veins, metallic deposits, and root systems that comprise the broader planetary hardware.'
+          rationale: 'Taken for commercial sale, industrial processing, or ornament, the materials subject the localized environment to structural and energetic imbalance.'
         },
         {
-          text: 'Drill platforms and the refineries that burn the fluid.',
+          text: 'The planetary body speeds its rotation inside the central toroid field',
           isCorrect: false,
-          rationale: 'Those are industrial tools; the hardware is deep mineral veins, metallic deposits, and root systems.'
+          rationale: 'The result is structural and energetic imbalance, not a faster spin inside the central toroid field.'
         },
         {
-          text: 'Cloud decks, air layers, and channels of sunlight.',
+          text: 'The firmament thins and begins to shed radiation into the air above',
           isCorrect: false,
-          rationale: 'The hardware is underground; it comprises deep mineral veins, metallic deposits, and root systems.'
+          rationale: 'The firmament is not described as shedding radiation. The loss is structural and energetic imbalance.'
         },
         {
-          text: 'Petrol, diesel, and the other burned petrochemical compounds.',
+          text: 'The grease flow leaves this realm and shifts into the neighboring ones',
           isCorrect: false,
-          rationale: 'Those are refined products; the hardware is deep mineral veins, metallic deposits, and root systems.'
+          rationale: 'The grease keeps its reach across the realms. Removal brings structural and energetic imbalance.'
         }
       ]
     },
     {
       number: 17,
-      question: 'What shift follows once oil is seen as architectural grease?',
-      hint: 'Look at the closing note on burning versus another kind of resonance.',
+      question: 'How do the fluid and the mineral deposits split their work?',
+      hint: 'Look in the broader section where the fluid and the minerals are set side by side.',
       options: [
         {
-          text: 'Priorities move from combustion toward clean harmonic resonance.',
+          text: 'Oil holds base grease beside the electromagnetic stability of buried metals',
           isCorrect: true,
-          rationale: 'Understanding this fluid shifts priorities away from destructive petrochemical combustion toward clean harmonic resonance and innate portal mobility.'
+          rationale: 'Oil provides mechanical lubrication at the base level, while gold and crystalline deposits maintain the electromagnetic current.'
         },
         {
-          text: 'Work speeds up on making synthetic petrochemical compounds.',
+          text: 'Oil makes thermal heat beside gemstones that soak charge off the dome overhead',
           isCorrect: false,
-          rationale: 'More synthetics would keep combustion; the shift is toward clean harmonic resonance and innate portal mobility.'
+          rationale: 'Oil provides mechanical lubrication at the base level, not thermal heat, and gemstones are resonators.'
         },
         {
-          text: 'Research pushes farther into deeper wells under the ocean floors.',
+          text: 'Oil wraps the lattices beside metals that dissolve into cutting grease',
           isCorrect: false,
-          rationale: 'The point is to halt stripping; priorities move toward clean harmonic resonance, not deeper wells.'
+          rationale: 'Metals stay conductive elements. Oil provides mechanical lubrication at the base level.'
         },
         {
-          text: 'The outer perimeter is sealed so more fluid cannot enter.',
+          text: 'Oil carries the current beside metals that buffer the fluid at the base',
           isCorrect: false,
-          rationale: 'Flow under the ice wall is the supply; the shift is toward clean harmonic resonance and innate portal mobility.'
+          rationale: 'That swaps the jobs. Oil provides mechanical lubrication at the base level, and metals carry the electromagnetic current.'
         }
       ]
     },
     {
       number: 18,
-      question: 'Why is architectural grease described as non-biological?',
-      hint: 'Look at whether its makeup depends on die-offs or on the plane itself.',
+      question: 'Why does burning pumped oil break the primordial layout?',
+      hint: 'Look at what industrial burning does to a part meant to stay at the base.',
       options: [
         {
-          text: 'Its molecules are described as holding no carbon in the mix.',
-          isCorrect: false,
-          rationale: 'The report does not discuss carbon counts; the composition is intrinsic to planetary mechanics rather than biological die-offs.'
-        },
-        {
-          text: 'Its composition is intrinsic to planetary mechanics, not die-offs.',
+          text: 'It turns an essential structural fluid buffer into a commodity pulled from the ground',
           isCorrect: true,
-          rationale: 'Its chemical composition is intrinsic to planetary mechanics rather than dependent on historical biological die-offs.'
+          rationale: 'Pumping oil out for industrial combustion converts essential structural components into economic exploitation and removes the physical fluid buffer.'
         },
         {
-          text: 'It shows up in local places kept apart from ancient life.',
+          text: 'It drains the metallic particles that ley lines need in order to keep their current',
           isCorrect: false,
-          rationale: 'The point is not a map of lifeless zones; the composition is intrinsic to planetary mechanics rather than die-offs.'
+          rationale: 'Metallic current belongs to mined gold and copper. Burning oil removes the physical fluid buffer.'
         },
         {
-          text: 'It is mixed from scratch inside large local industrial fuel plants.',
+          text: 'It harms the firmament by sending subterranean carbon up into the overhead dome',
           isCorrect: false,
-          rationale: 'Raw grease is supplied with the creation template; industry refines it into petrochemical compounds.'
+          rationale: 'The break is industrial combustion of essential structural components, not carbon sent into the dome.'
+        },
+        {
+          text: 'It blocks organic matter from decaying in its usual way beneath the ice wall',
+          isCorrect: false,
+          rationale: 'Organic decay is not the origin of the fluid. The harm is removal of the physical fluid buffer.'
         }
       ]
     },
     {
       number: 19,
-      question: 'What part does the ice wall play in these fluid movements?',
-      hint: 'Look at the perimeter definition tied to oceans and grease.',
+      question: 'What has to be set aside to stand on the permanent facts of Gateway-10?',
+      hint: 'Look in the strategic section for what realignment requires you to drop.',
       options: [
         {
-          text: 'It is the perimeter beneath which shared fluids enter local realms.',
+          text: 'The old false paradigms of energy scarcity and fossil fuel origins',
           isCorrect: true,
-          rationale: 'The ice wall is the perimeter structure beneath which shared planetary fluids, including oceans and architectural grease, flow into local realms.'
+          rationale: 'Realigning with established reality means discarding false paradigms of energy scarcity and fossil fuel origins.'
         },
         {
-          text: 'It compresses deep rock until fresh metallic deposits appear there.',
+          text: 'The shared primordial law of non-extraction and in situ placement',
           isCorrect: false,
-          rationale: 'Metallic deposits are hardware already; the ice wall is the perimeter beneath which shared planetary fluids flow in.'
+          rationale: 'That law stays. What gets discarded are false paradigms of energy scarcity and fossil fuel origins.'
         },
         {
-          text: 'It heats the boundary waters so the local oceans cannot freeze.',
+          text: 'The continuous circulatory flow of sub-plain grease under Gateway-10',
           isCorrect: false,
-          rationale: 'The wall is not described as a heater; it is the perimeter beneath which shared planetary fluids flow.'
+          rationale: 'The flow is a permanent fact. The discard is false paradigms of energy scarcity and fossil fuel origins.'
         },
         {
-          text: 'It soaks up spare petrochemical compounds spilled across the realm.',
+          text: 'The natural technology of unmined oil, gold, and crystalline structures',
           isCorrect: false,
-          rationale: 'Petrochemicals come from refinement; the ice wall is the perimeter beneath which shared planetary fluids flow in.'
+          rationale: 'Natural technology is what must be kept. The discard is false paradigms of energy scarcity and fossil fuel origins.'
         }
       ]
     },
     {
       number: 20,
-      question: 'How does raw architectural grease travel across the shared plane?',
-      hint: 'Look at the pathways that feed each local realm.',
+      question: 'Who takes gold and pumps oil against this infrastructure?',
+      hint: 'Look at who the broader section says goes after this infrastructure.',
       options: [
         {
-          text: 'It rides strong surface winds from one local realm into the next.',
-          isCorrect: false,
-          rationale: 'The movement is underground; grease flows along subterranean and trans-boundary pathways as a primary circulatory system.'
-        },
-        {
-          text: 'It waits inside sealed underground pockets until new drills connect them.',
-          isCorrect: false,
-          rationale: 'Drilling punctures channels; grease already flows along subterranean and trans-boundary pathways.'
-        },
-        {
-          text: 'It flows on the subterranean and trans-boundary pathways as circulation.',
+          text: 'Parasitic control systems, seeking economic exploitation and dependency',
           isCorrect: true,
-          rationale: 'The raw architectural grease flows along these subterranean and trans-boundary pathways, and this transport operates as a primary circulatory system for the entire physical plane.'
+          rationale: 'Parasitic control systems justify global industrial operations while converting essential structural components into sources of economic exploitation.'
         },
         {
-          text: 'It is carried in ocean tankers between the adjacent realms.',
+          text: 'Natural technology frameworks, seeking to balance the planetary mechanics',
           isCorrect: false,
-          rationale: 'Oceans carry data and currents; grease flows along subterranean and trans-boundary pathways.'
+          rationale: 'Natural technology is the unextracted framework. Parasitic control systems do the extracting.'
+        },
+        {
+          text: 'Ley line networks, adjusting the alignment of the central toroid field',
+          isCorrect: false,
+          rationale: 'Ley lines are part of the infrastructure. Parasitic control systems are what target it.'
+        },
+        {
+          text: 'Firmament preservation groups, keeping the upper dome in equilibrium',
+          isCorrect: false,
+          rationale: 'No preservation group is named as the extractor. Parasitic control systems pump the oil and take the gold.'
         }
       ]
     },
     {
       number: 21,
-      question: 'Which of these is NOT a named stage of harvesting architectural grease?',
-      hint: 'Review the three stages that run from drilling to the living board.',
+      question: 'Which of these is NOT a real role in this subterranean layout?',
+      hint: 'Match each line to the material bullets. One line gives a material the wrong job.',
       options: [
         {
-          text: 'Mass drilling that punctures the natural distribution channels.',
-          isCorrect: false,
-          rationale: 'Subsurface extraction is a named stage: mass drilling punctures the natural distribution channels.'
-        },
-        {
-          text: 'Processing that turns raw grease into volatile combustible fuel.',
-          isCorrect: false,
-          rationale: 'Refinement into petrochemicals is a named stage that converts a passive planetary lubricant into volatile combustible fuel.'
-        },
-        {
-          text: 'Removal that strips essential protective coatings and fluid buffers.',
-          isCorrect: false,
-          rationale: 'Board degradation is a named stage that strips essential protective coatings and fluid buffers from the living organic circuitboard.'
-        },
-        {
-          text: 'Air condensation that drops fresh grease along the outer rim.',
+          text: 'Oil, cast as the conductor that steadies planetary electromagnetics',
           isCorrect: true,
-          rationale: 'The named stages are subsurface extraction, refinement into petrochemicals, and board degradation, not condensation along the rim.'
+          rationale: 'Gold and precious metals stabilize planetary electromagnetics. Oil is the mechanical grease and physical fluid buffer.'
+        },
+        {
+          text: 'Oil, cast as the mechanical grease at the base of the realms',
+          isCorrect: false,
+          rationale: 'That role is real. Subterranean oil is the mechanical grease and physical fluid buffer for the base of all realms.'
+        },
+        {
+          text: 'Gold, cast as a conductive element along subterranean ley lines',
+          isCorrect: false,
+          rationale: 'That role is real. Gold functions as a conductive element with crystalline lattice networks and ley lines.'
+        },
+        {
+          text: 'Crystals, cast as natural resonators in the subterranean architecture',
+          isCorrect: false,
+          rationale: 'That role is real. Crystals act as natural resonators and energetic anchors within the subterranean architecture.'
         }
       ]
     },
     {
       number: 22,
-      question: 'True or False: Petrol and diesel are petrochemical compounds derived from raw architectural grease.',
-      hint: 'Look at the term for refined products taken from the raw fluid.',
+      question: 'True or False: Oil reduces friction and structural stress at the base interface of the realms.',
+      hint: 'Look in the section that sets lubrication against biological decay.',
       options: [
         {
           text: 'True',
           isCorrect: true,
-          rationale: 'Petrochemical compounds are refined products such as petrol and diesel derived from raw architectural grease through industrial extraction.'
+          rationale: 'As a sub-plain lubricant, oil reduces friction and structural stress at the base interface of the realms.'
         },
         {
           text: 'False',
           isCorrect: false,
-          rationale: 'Petrol and diesel are named as petrochemical compounds derived from raw architectural grease.'
+          rationale: 'The lubrication account says oil reduces friction and structural stress at the base interface of the realms.'
         }
       ]
     },
     {
       number: 23,
-      question: 'True or False: Major fluid systems of the plane sit inside a self-contained spinning globe.',
-      hint: 'Look at where oceanic bodies and petroleum networks are said to extend.',
+      question: 'True or False: Oil comes from decomposed organic matter and can run out through ordinary natural use.',
+      hint: 'Look at the overview claims about origin and about whether use runs the supply down.',
       options: [
         {
           text: 'True',
           isCorrect: false,
-          rationale: 'Those systems do not sit in a self-contained spinning globe; they extend beneath the ice wall across the shared plane.'
+          rationale: 'Oil does not originate from organic decomposition, and its volume is not subject to permanent depletion through natural usage.'
         },
         {
           text: 'False',
           isCorrect: true,
-          rationale: 'Major fluid systems do not exist inside a self-contained spinning globe; oceanic bodies and petroleum networks extend beneath the ice wall.'
+          rationale: 'Oil does not originate from organic decomposition, and its volume is not subject to permanent depletion through natural usage.'
         }
       ]
     },
     {
       number: 24,
-      question: 'True or False: Shared ocean networks turn raw grease into petrol and diesel.',
-      hint: 'Separate what the oceans carry from what refinement does to the grease.',
+      question: 'True or False: GESARA, med-beds, and disclosure campaigns restore the subterranean mechanics that extraction has damaged.',
+      hint: 'Look in the core section on resets, medical fixes, and disclosure.',
       options: [
         {
           text: 'True',
           isCorrect: false,
-          rationale: 'Oceans distribute data and electrolyte currents; refinement converts raw grease into petrochemical compounds such as petrol and diesel.'
+          rationale: 'Financial resets like GESARA, technological fixes like med-beds, and fake disclosure campaigns do not alter or restore these compromised subterranean mechanics.'
         },
         {
           text: 'False',
           isCorrect: true,
-          rationale: 'The ocean system distributes data and electrolyte currents, while industrial refinement produces petrochemical compounds such as petrol and diesel.'
+          rationale: 'Financial resets like GESARA, technological fixes like med-beds, and fake disclosure campaigns do not alter or restore these compromised subterranean mechanics.'
         }
       ]
     },
     {
       number: 25,
-      question: 'True or False: Halting the stripping and burning of planetary grease lets the plane keep its natural operational integrity.',
-      hint: 'Look at the closing note on what happens if the burning stops.',
+      question: 'True or False: The realms are structured environments on a broad planar surface, not isolated spheres spinning through empty space.',
+      hint: 'Look in the broader section on how the realms are arranged.',
       options: [
         {
           text: 'True',
           isCorrect: true,
-          rationale: 'Halting the aggressive stripping and burning of planetary grease allows the physical plane to retain its natural operational integrity.'
+          rationale: 'Physical realms are not isolated spheres spinning through empty space, but structured environments positioned across a broad planar surface.'
         },
         {
           text: 'False',
           isCorrect: false,
-          rationale: 'The report says halting that stripping and burning lets the plane retain its natural operational integrity.'
+          rationale: 'The broader account places the realms across a broad planar surface, not as isolated spheres spinning through empty space.'
         }
       ]
     }

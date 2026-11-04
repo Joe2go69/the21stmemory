@@ -141,10 +141,10 @@
                 {
                   "id": "oil-as-grease",
                   "title": "Oil as Grease",
-                  "description": "Oil as Grease",
-                  "topic_image": "images/alice/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-14"
+                  "description": "Oil is the self-replenishing grease under Gateway-10, meant to stay in the ground and lubricate every realm, not to be pumped out as fossil fuel.",
+                  "topic_image": "images/alice/oil-as-grease.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-04T01:58:11-07:00"
                 }
               ]
             },

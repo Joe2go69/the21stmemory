@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "oil-as-grease",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Oil as Grease",
+      "description": "Oil is the self-replenishing grease under Gateway-10, meant to stay in the ground and lubricate every realm, not to be pumped out as fossil fuel.",
+      "topic_image": "images/alice/oil-as-grease.webp",
+      "path": "dive/alice/oil-as-grease.html",
+      "added": "2026-11-04T01:58:11-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "centre-realm",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Centre Realm",
@@ -109,16 +119,6 @@
       "topic_image": "images/special-requests/occupancy-layers-the-false-rescue.webp",
       "path": "dive/special-requests/occupancy-layers-the-false-rescue.html",
       "added": "2026-11-02T18:25:34-07:00"
-    },
-    {
-      "sourceId": "ascension",
-      "topicId": "dna-strand",
-      "series": "The Long-Awaited Ascension Process",
-      "title": "DNA Strand",
-      "description": "The DNA strand is the embedded marker that matches the ancient vibration and qualifies resonated individuals to be lifted through the portal.",
-      "topic_image": "images/ascension/dna-strand.webp",
-      "path": "dive/ascension/dna-strand.html",
-      "added": "2026-11-02T04:37:18-07:00"
     }
   ],
   "featured": [

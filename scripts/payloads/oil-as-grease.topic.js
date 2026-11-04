@@ -1,64 +1,73 @@
 module.exports = {
-  source: 'revelations',
+  source: 'alice',
   id: 'oil-as-grease',
   title: 'Oil as Grease',
-  description: 'Oil as Grease is the foundational fluid mechanism that lubricates the physical plane, acting as the essential grease of planetary architecture across interconnected worlds.',
+  description: 'Oil is the self-replenishing grease under Gateway-10, meant to stay in the ground and lubricate every realm, not to be pumped out as fossil fuel.',
   images: {
-    topic: { source: 'Oil as Grease.webp', target: 'oil-as-grease.webp' },
-    pdfPreview: { source: 'Planetary_Architecture.webp', target: 'planetary-architecture.webp' },
-    infographic: { source: 'Continuous_Flow_of_Architectural_Grease.webp', target: 'continuous-flow-of-architectural-grease.webp' }
+    topic: { source: 'oil-as-grease.webp', target: 'oil-as-grease.webp' },
+    pdfPreview: { source: 'the-primordial-engine.webp', target: 'the-primordial-engine.webp' },
+    infographic: { source: 'unbroken-flow-beneath-the-realm.webp', target: 'unbroken-flow-beneath-the-realm.webp' }
   },
-  slide_deck_pdf_url: 'https://drive.google.com/file/d/1jDVlEvhAfUy9j5PTXugcwfiYM5lkvzJJ/view?usp=sharing',
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/1XY5Vn15ODmD9xuHDTe2IrkA3iEevU8HS/view?usp=sharing',
   rumble_videos: [
     {
-      title: 'Living Circuitboard',
-      embed_url: 'https://rumble.com/embed/v7fgrt4/?pub=4p0ieu',
-      description: 'Living Circuitboard — Architectural grease lubricates the organic circuitboard and flows under the ice wall as part of planetary architecture.'
+      title: 'Gateway 10 Lubricant',
+      embed_url: 'https://rumble.com/embed/v7fo2cw/?pub=4p0ieu',
+      description: 'Gateway 10 Lubricant — Oil flows under all 178 realms as the grease that lets them sit on their foundations.'
     },
     {
-      title: 'Oil Is Planetary Grease Not Fossils',
-      embed_url: 'https://rumble.com/embed/v7fgs6e/?pub=4p0ieu',
-      description: 'Oil Is Planetary Grease Not Fossils — The Jurassic leftovers story hides a continuous supply under the ice wall and is used to justify artificial scarcity.'
+      title: 'Oil Is Mechanical Grease Not Fossil Fuel',
+      embed_url: 'https://rumble.com/embed/v7fo2re/?pub=4p0ieu',
+      description: 'Oil Is Mechanical Grease Not Fossil Fuel — Oil is a self-replenishing sub-plain lubricant, not dinosaur soup, and it is meant to stay in the ground.'
     }
   ],
   report: `# Oil as Grease
 
 ## Overview
-Oil as Grease is the foundational fluid mechanism that lubricates the physical plane, acting as the essential grease of planetary architecture across interconnected worlds. Far from being a finite subsurface deposit formed by decaying ancient organisms, this vital substance flows continuously beneath the ice wall to sustain and harmonize the operational framework of the realm. Rather than existing within an isolated, spinning globe, it functions as a primary structural element within a broader organic circuitboard. As a shared architectural component, its presence ensures the friction reduction, thermal regulation, and structural equilibrium necessary for all physical environments.
+Oil as Grease defines the fundamental physical and mechanical fluid that circulates perpetually beneath the surface of Gateway-10. Far from being a finite biological byproduct or dinosaur soup, oil functions as a primordial sub-plain lubricant engineered to grease the base of all realms and planets across the physical plain. It flows freely beneath the earth without structural impediment, moving continuously across boundaries without restriction from the ice wall or the overhead dome of the firmament. Because it is an intrinsic element of natural technology embedded directly into the foundational sub-structure of the realm, oil fields are naturally self-replenishing and will never run out.
+
+The primary purpose of subterranean oil is structural maintenance, serving as the fluid interface that allows planetary realms to sit and operate smoothly upon their subterranean foundations. It is strictly intended to remain in situ beneath the ground, governed by the exact same primordial law that applies to gold and crystalline lattice networks. Extracting oil from its natural location violates the ergonomic equilibrium of the realm, subverting a fundamental mechanical mechanism for industrial exploitation.
 
 ## Key Terminology
-- **Oil as Grease** — The essential, non-finite fluid that acts as the primary lubricant for planetary architecture across the physical plane.
-- **Ice Wall** — The perimeter structure beneath which shared planetary fluids, including oceans and architectural grease, flow into local realms.
-- **Petrochemical Compounds** — Refined products such as petrol and diesel derived from raw architectural grease through industrial extraction.
-- **Jurassic Leftovers Cover** — The mainstream false narrative claiming oil is a finite fossil fuel formed from decomposed ancient biological matter.
-- **Planetary Architecture** — The overarching structural design of the physical plane that relies on natural elements, mineral deposits, and conductive fluids to function.
+- **Oil as Grease** — The subterranean fluid circulating continuously beneath Gateway-10, functioning as a primordial lubricant for the base of all realms.
+- **Gateway-10** — The vast physical plain of existence comprising 178 interconnected realms bounded by firmaments and ice walls.
+- **Sub-Plain Lubricant** — The continuous fluid layer flowing beneath the entire planetary foundation, unrestricted by localized structural boundaries.
+- **Dinosaur Soup** — The false narrative claiming oil originates from decomposed organic matter, designed to conceal its true identity as perpetual planetary grease.
+- **Natural Technology** — The intrinsic physical and energetic framework—encompassing oil, gold, and crystalline structures—that maintains planetary balance when left unextracted in the ground.
 
 ## Core Revelations
-The fundamental nature of petroleum is entirely misdescribed by institutional educational models. Rather than being a finite byproduct of biological decay from dinosaur remains or organic matter of the Jurassic period, oil is an intrinsic, non-biological structural lubricant that enters local realms directly under the ice wall. Because its source lies outside enclosed local boundaries and flows across the shared plane, the supply can never run out. The continuous influx beneath the perimeter guarantees that architectural grease is perpetually replenished.
+The true nature of oil dismantles the foundational myths of modern geology and industrial resource economics. Traditional theories frame oil as a scarce fossil fuel derived from ancient biological decay, but in reality, oil is an inexhaustible mechanical lubricant engineered for planetary stability. It does not originate from organic decomposition, and its volume is not subject to permanent depletion through natural usage because it continuously flows through the foundational sub-plain of Gateway-10.
 
-The narrative of biological origin and imminent depletion serves as a manufactured cover story designed to enforce artificial scarcity. By masking the infinite supply flowing beneath the perimeter, controlling entities justify continuous economic exploitation and arbitrary price hikes. Furthermore, converting this structural lubricant into consumer petrochemical compounds strips the living organic circuitboard of its natural operational components, diverting a critical functional lubricant into industrial combustion.
+A central revelation regarding subterranean mechanics is that planetary resources are never meant to be quarried, mined, or extracted from their original locations. Oil, gold, copper, tin, and precious gemstones each perform specific structural and energetic roles within the earth. When oil is pumped out of the ground, its removal disrupts the natural lubrication required at the base of the realms, just as mining gold disrupts the electromagnetic interactions across subterranean ley lines. Maintaining resources within their natural environment is an absolute requirement of primordial architecture.
+
+Furthermore, artificial economic structures use resource extraction to cultivate artificial scarcity and enforce systemic dependency. By reinterpreting primordial planetary grease as a commercial commodity, parasitic control systems justify global industrial operations while actively damaging the physical integrity of the environment. Superficial reform promises or institutional lures—such as financial resets like GESARA, technological fixes like med-beds, or fake disclosure campaigns—do not alter or restore these compromised subterranean mechanics and serve only as distractions from fundamental physical truths.
 
 ## Detailed Mechanics and Key Elements
-Physical plane mechanics dictate that major fluid systems do not exist inside a self-contained spinning globe. Instead, the vast oceanic bodies and petroleum networks extend beneath the ice wall, linking adjacent environments across the shared plane. The raw architectural grease flows along these subterranean and trans-boundary pathways, supplying each local realm with the necessary fluid density to maintain structural stability. This transport operates as a primary circulatory system for the entire physical plane.
+### Sub-Plain Fluid Dynamics and Spatial Reach
+Oil operates across a vast, continuous subterranean network that unifies the entire physical expanse of Gateway-10. While surface realms are divided into distinct geographic zones by environmental boundaries like the ice wall and enclosed overhead by firmaments, the sub-plain fluid layer exists beneath these containment structures. Oil moves fluidly across all 178 realms of the gateway without interruption, acting as a shared mechanical foundation for every planet and realm situated upon the physical plain.
 
-Mainstream science asserts that petroleum originates from ancient biological matter subjected to millions of years of heat and pressure. In reality, dinosaur remains and Jurassic leftovers are fictitious explanations deployed to conceal the non-biological, endless nature of planetary grease. Because oil is grown and supplied as part of the initial creation template for all worlds, its chemical composition is intrinsic to planetary mechanics rather than dependent on historical biological die-offs.
+### Mechanical Lubrication vs. Biological Decay
+The mechanical function of oil as grease is distinct from conventional chemical fuel models. As a sub-plain lubricant, oil reduces friction and structural stress at the base interface of the realms. It maintains the physical equilibrium of planetary bodies resting within the central toroid field. The concept of dinosaur soup was concocted to explain away the permanent presence of oil fields and to establish an artificial construct of depletion, masking the truth that the fluid is permanently sustained by the continuous circulatory dynamics of Gateway-10.
 
-The industrial harvesting of architectural grease degrades planetary mechanics through distinct stages:
+### The Non-Extraction Rule and Parallel Resource Roles
+The rule forbidding the extraction of oil is identical to the rules governing all subterranean minerals and metals. Each element in the earth forms a component of an integrated natural technology:
 
-Subsurface Extraction: Mass drilling punctures the natural distribution channels of architectural grease, removing the fluid from its intended placement within the earth.
+- **Subterranean Oil** — Functions as the mechanical grease and physical fluid buffer for the base of all realms.
+- **Gold and Precious Metals** — Function as conductive elements that interact energetically with crystalline lattice networks and ley lines to stabilize planetary electromagnetics.
+- **Crystals and Gemstones** — Act as natural resonators and energetic anchors within the subterranean architecture.
 
-Refinement into Petrochemicals: Processing raw grease into petrochemical compounds converts a passive planetary lubricant into volatile combustible fuel.
-
-Board Degradation: Removing architectural grease strips the living organic circuitboard of its essential protective coatings and fluid buffers, impairing the natural harmonic function of the planet.
+When these materials are extracted for commercial sale, industrial processing, or ornament, the ergonomic network of the realm is compromised, subjecting the localized environment to structural and energetic imbalance.
 
 ## Broader Context and Interconnections
-Architectural grease operates in direct harmony with the shared ocean networks that also pass beneath the ice wall. While the ocean system distributes data and electrolyte currents across adjacent realms, the underlying oil layer provides structural lubrication and seals deep-ground pathways. Together, these fluid systems maintain the physical equilibrium required for natural portal travel and harmonic energy flow.
+Oil as grease connects directly to the broader cosmological architecture of Gateway-10. Within this horizontal system, physical realms are not isolated spheres spinning through empty space, but structured environments positioned across a broad planar surface. The continuous flow of oil beneath all 178 realms demonstrates that individual worlds share a unified physical foundation despite surface-level separation created by ice walls and firmaments.
 
-Furthermore, raw grease interacts with the deep mineral veins, metallic deposits, and root systems that comprise the broader planetary hardware. When architectural grease is systematically harvested and converted into petrochemical compounds, the natural conductivity and thermal regulation of surrounding mineral deposits are disrupted, further decoupling local physical operations from higher-density harmonic networks.
+This subterranean fluid system operates in parallel with subterranean electromagnetic networks. While oil provides mechanical lubrication at the base level, gold and crystalline deposits maintain the electromagnetic current flowing through planetary ley lines. Together, these elements constitute the self-sustaining infrastructure of the physical plain. Parasitic intervention systematically targets this infrastructure by extracting gold for commercial systems and pumping out oil for industrial combustion, converting essential structural components into sources of economic exploitation.
+
+Understanding oil within this broader context highlights why institutional narrative lures fail to address core planetary issues. Programs promising debt forgiveness or advanced medical interventions leave the underlying extraction of planetary grease untouched, preserving the fundamental misuse of natural technology. True structural stability can only exist when the physical components of the realm remain in their intended configuration.
 
 ## Strategic Implications
-Recognizing oil as an inexhaustible, architecturally supplied lubricant dismantles the economic reliance on artificial energy shortages. Uncovering the false fossil fuel doctrine exposes how resource monopolization is maintained through deception regarding planetary geometry and origin.
+Recognizing oil as primordial grease requires a total shift in how planetary resources and environmental mechanics are understood. The primary strategic imperative is the immediate recognition that subterranean extraction is intrinsically destructive to the realm's structural stability. Because oil is vital for base lubrication and gold is necessary for electromagnetic balance, all extraction activities represent a direct compromise of natural planetary technology.
 
-Halting the aggressive stripping and burning of planetary grease allows the physical plane to retain its natural operational integrity. Restoring understanding of this fluid system shifts civilizational priorities away from destructive petrochemical combustion toward clean harmonic resonance and innate portal mobility.
+Realigning with established reality means discarding false paradigms of energy scarcity and fossil fuel origins. Grounding knowledge in the permanent physical realities of Gateway-10 eliminates reliance on deceptive commercial systems built around artificial resource depletion. Preserving oil, gold, and crystals within the ground safeguards the physical and energetic foundation of the realms, ensuring the ongoing stability of the primordial landscape.
 `
 };

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-04T08:18:22.429Z",
-  "total": 329,
+  "generatedAt": "2026-11-04T09:13:13.381Z",
+  "total": 330,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 66
+      "count": 67
     },
     {
       "id": "breakdown",
@@ -678,6 +678,20 @@
       "diveHref": "dive/alice/npc-population.html",
       "key": "alice/npc-population",
       "order": 106
+    },
+    {
+      "id": "oil-as-grease",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Oil as Grease",
+      "subtitle": "Test your understanding of Oil as Grease — the self-replenishing lubricant under Gateway-10, and why pulling it from the ground breaks the realm.",
+      "questionCount": 25,
+      "href": "quiz/alice/oil-as-grease.html",
+      "diveHref": "dive/alice/oil-as-grease.html",
+      "key": "alice/oil-as-grease",
+      "order": 15
     },
     {
       "id": "oopa-artifacts",
