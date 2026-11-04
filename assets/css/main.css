@@ -18830,13 +18830,13 @@ a.topic-root-card {
   display: none !important;
 }
 
-/* Lighter scrim so art + subtle motion read; type still clear */
+/* Oval behind the type so the lead stays readable; the lotus stays visible at the edges */
 .page-home .home-hero-media__scrim {
   position: absolute !important;
   inset: 0 !important;
   z-index: 2 !important;
   background:
-    radial-gradient(ellipse 34% 42% at 50% 44%, rgba(15, 10, 31, 0.58) 0%, rgba(15, 10, 31, 0.22) 48%, rgba(15, 10, 31, 0.06) 74%),
+    radial-gradient(ellipse 48% 56% at 50% 48%, rgba(15, 10, 31, 0.78) 0%, rgba(15, 10, 31, 0.42) 55%, rgba(15, 10, 31, 0.08) 80%),
     linear-gradient(180deg, rgba(15, 10, 31, 0.28) 0%, rgba(15, 10, 31, 0.06) 36%, rgba(15, 10, 31, 0.18) 70%, #0F0A1F 100%) !important;
 }
 
