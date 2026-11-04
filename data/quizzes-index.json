@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T18:37:22.033Z",
-  "total": 325,
+  "generatedAt": "2026-11-04T04:16:51.503Z",
+  "total": 326,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 62
+      "count": 63
     },
     {
       "id": "breakdown",
@@ -818,6 +818,20 @@
       "diveHref": "dive/alice/star-seeds.html",
       "key": "alice/star-seeds",
       "order": 90
+    },
+    {
+      "id": "stars-as-projectors",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Stars as Projectors",
+      "subtitle": "Test your understanding of Stars as Projectors — the inner-dome overlay grid, Sky-Net-1, electromagnetism, and the shutdown that begins at Polaris.",
+      "questionCount": 25,
+      "href": "quiz/alice/stars-as-projectors.html",
+      "diveHref": "dive/alice/stars-as-projectors.html",
+      "key": "alice/stars-as-projectors",
+      "order": 7
     },
     {
       "id": "tartaria",

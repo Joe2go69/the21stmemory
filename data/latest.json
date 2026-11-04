@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "stars-as-projectors",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Stars as Projectors",
+      "description": "What are conventionally categorized as celestial bodies in the night sky are actually overlay projectors operating within the lower atmosphere.",
+      "topic_image": "images/alice/stars-as-projectors.webp",
+      "path": "dive/alice/stars-as-projectors.html",
+      "added": "2026-11-03T21:02:22-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "gravity-story",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Gravity Story",
@@ -109,16 +119,6 @@
       "topic_image": "images/ascension/other-world-conductors.webp",
       "path": "dive/ascension/other-world-conductors.html",
       "added": "2026-11-02T01:47:24-07:00"
-    },
-    {
-      "sourceId": "revelations",
-      "topicId": "projection-dome",
-      "series": "A Brief Synopsis of Revelations",
-      "title": "Projection Dome",
-      "description": "A 4th-density firmament canopy that projects holographic celestial displays and diverts inquiry away from the ice wall.",
-      "topic_image": "images/revelations/projection-dome.webp",
-      "path": "dive/revelations/projection-dome.html",
-      "added": "2026-11-02T01:00:04-07:00"
     }
   ],
   "featured": [

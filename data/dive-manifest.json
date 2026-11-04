@@ -60,9 +60,9 @@
       "sourceId": "alice",
       "topicId": "stars-as-projectors",
       "path": "/dive/alice/stars-as-projectors.html",
-      "live": false,
+      "live": true,
       "title": "Stars as Projectors",
-      "added": "2026-10-14"
+      "added": "2026-11-03T21:02:22-07:00"
     },
     {
       "sourceId": "alice",

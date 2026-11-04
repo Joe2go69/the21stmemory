@@ -71,10 +71,10 @@
                 {
                   "id": "stars-as-projectors",
                   "title": "Stars as Projectors",
-                  "description": "Stars as Projectors",
-                  "topic_image": "images/alice/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-14"
+                  "description": "What are conventionally categorized as celestial bodies in the night sky are actually overlay projectors operating within the lower atmosphere.",
+                  "topic_image": "images/alice/stars-as-projectors.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-03T21:02:22-07:00"
                 }
               ]
             },
