@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-04T05:03:08.548Z",
-  "total": 327,
+  "generatedAt": "2026-11-04T05:56:45.900Z",
+  "total": 328,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 64
+      "count": 65
     },
     {
       "id": "breakdown",
@@ -804,6 +804,20 @@
       "diveHref": "dive/alice/soul-family.html",
       "key": "alice/soul-family",
       "order": 88
+    },
+    {
+      "id": "space-is-white",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Space Is White",
+      "subtitle": "Test your understanding of Space Is White — the bright white dark matter field, Black Void Plasma, and the removal of the night-sky veil.",
+      "questionCount": 25,
+      "href": "quiz/alice/space-is-white.html",
+      "diveHref": "dive/alice/space-is-white.html",
+      "key": "alice/space-is-white",
+      "order": 13
     },
     {
       "id": "spiritual-awakening",
