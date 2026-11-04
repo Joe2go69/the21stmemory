@@ -216,10 +216,11 @@ function renderSupportPage(footerData, options = {}) {
   const resolver = (s.resolver || '').trim();
   const noteParts = supportMessageParts(s.note, ['Thank you for being here.']);
   const messages = supportMessageParts(s.message, [
-    'Every video, report summary and quiz on 21st Memory is open to watch, download and share. Nothing is locked, and support never unlocks anything.',
-    'The information comes from Christian’s transmissions, not from me. What I do is turn it into videos, pages and quizzes that are easier to find your way through, and then point you back to the originals. I’m not the source. I’m a small branch of it.',
-    'I do this from a simple life on Vancouver Island with my cat Spooky. I’m not working right now, and the AI tools that make the videos cost real money every month.',
-    '<strong>Where support goes:</strong> Power, internet, and the AI subscriptions used to make the videos. That’s it. If support runs out, the AI subscriptions are the first thing to go, and new videos stop.',
+    'Every video, report, summary, quiz, infographic, and slide deck on 21st Memory is open to watch, download, and share. Nothing is locked, and support never unlocks anything.',
+    'The source material comes from the original Christian / Thalon Thor transmissions. The work here is organizing and presenting that material in clearer formats using AI tools, then pointing back to the originals.',
+    'Those tools, along with internet and power, have ongoing costs. Continuing to produce new material depends on covering those costs. Contributions exist as an optional way to help with that, but they are never required. The content stays free either way.',
+    'This is not a business and it is not about profit. Asking for help to cover the tools is not about charging for humanity’s information — it is simply what makes it possible to keep the work going.',
+    '<strong>Where support goes:</strong> Power, internet, and the AI subscriptions used to make the videos and pages. That’s it. If support runs out, the AI subscriptions are the first thing to go, and new material slows or stops.',
   ]);
   const fundsLabel = s.fundsLabel || 'Ways to support';
   const giveLabel = s.giveLabel || 'Ways to give';
