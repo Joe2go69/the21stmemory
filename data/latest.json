@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "zep-tepi-and-the-canyon",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Zep Tepi and the Canyon",
+      "description": "The historical epoch known as Zep Tepi, translated as the First Time, corresponds directly to Reset 1 or Reset 2 in the sequence of planetary resets.",
+      "topic_image": "images/alice/zep-tepi-and-the-canyon.webp",
+      "path": "dive/alice/zep-tepi-and-the-canyon.html",
+      "added": "2026-11-05T11:35:54-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "red-mercury",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Red Mercury",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/space-is-white.webp",
       "path": "dive/alice/space-is-white.html",
       "added": "2026-11-03T22:43:43-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "asteroid-weapons",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Asteroid Weapons",
-      "description": "Asteroid weapons are high-speed, synthetic biological payloads deployed by parasitic forces directly through interdimensional portals rather than organic space rocks originating from celestial space.",
-      "topic_image": "images/alice/asteroid-weapons.webp",
-      "path": "dive/alice/asteroid-weapons.html",
-      "added": "2026-11-03T21:56:50-07:00"
     }
   ],
   "featured": [

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T18:03:13.756Z",
-  "total": 338,
+  "generatedAt": "2026-11-05T18:41:58.587Z",
+  "total": 339,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 75
+      "count": 76
     },
     {
       "id": "breakdown",
@@ -1098,6 +1098,20 @@
       "diveHref": "dive/alice/world-war-i.html",
       "key": "alice/world-war-i",
       "order": 75
+    },
+    {
+      "id": "zep-tepi-and-the-canyon",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Zep Tepi and the Canyon",
+      "subtitle": "Test your understanding of Zep Tepi and the Canyon — the First Time headquarters in the Grand Canyon, the North Rim names, and the later river-city trail.",
+      "questionCount": 25,
+      "href": "quiz/alice/zep-tepi-and-the-canyon.html",
+      "diveHref": "dive/alice/zep-tepi-and-the-canyon.html",
+      "key": "alice/zep-tepi-and-the-canyon",
+      "order": 34
     },
     {
       "id": "aether-interaction",

@@ -276,9 +276,9 @@
       "sourceId": "alice",
       "topicId": "zep-tepi-and-the-canyon",
       "path": "/dive/alice/zep-tepi-and-the-canyon.html",
-      "live": false,
+      "live": true,
       "title": "Zep Tepi and the Canyon",
-      "added": "2026-10-14"
+      "added": "2026-11-05T11:35:54-07:00"
     },
     {
       "sourceId": "alice",
