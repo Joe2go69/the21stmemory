@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T08:46:35.545Z",
-  "total": 334,
+  "generatedAt": "2026-11-05T12:55:03.236Z",
+  "total": 335,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 71
+      "count": 72
     },
     {
       "id": "breakdown",
@@ -1028,6 +1028,20 @@
       "diveHref": "dive/alice/twin-flames.html",
       "key": "alice/twin-flames",
       "order": 91
+    },
+    {
+      "id": "villages-on-nodes",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Villages on Nodes",
+      "subtitle": "Test your understanding of Villages on Nodes — how settlements were planted on planetary nodes, how those sites suppress nodal frequencies, and how populations are readied for harvest.",
+      "questionCount": 25,
+      "href": "quiz/alice/villages-on-nodes.html",
+      "diveHref": "dive/alice/villages-on-nodes.html",
+      "key": "alice/villages-on-nodes",
+      "order": 27
     },
     {
       "id": "world-war-i",

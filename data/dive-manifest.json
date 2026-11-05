@@ -220,9 +220,9 @@
       "sourceId": "alice",
       "topicId": "villages-on-nodes",
       "path": "/dive/alice/villages-on-nodes.html",
-      "live": false,
+      "live": true,
       "title": "Villages on Nodes",
-      "added": "2026-10-14"
+      "added": "2026-11-05T05:42:35-07:00"
     },
     {
       "sourceId": "alice",

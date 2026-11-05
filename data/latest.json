@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "villages-on-nodes",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Villages on Nodes",
+      "description": "Villages on Nodes represents the deliberate, engineered placement of foundational human settlements directly atop high-energy planetary nodes rather than accidental or spontaneous geographic development.",
+      "topic_image": "images/alice/villages-on-nodes.webp",
+      "path": "dive/alice/villages-on-nodes.html",
+      "added": "2026-11-05T05:42:35-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "ley-lines-and-nodes",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Ley Lines and Nodes",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/time-back-home.webp",
       "path": "dive/alice/time-back-home.html",
       "added": "2026-11-03T04:17:51-07:00"
-    },
-    {
-      "sourceId": "ascension",
-      "topicId": "four-elements",
-      "series": "The Long-Awaited Ascension Process",
-      "title": "Four Elements",
-      "description": "The four elements and earth close the board: aether, water, fire, and quartz conductors run ascension as an automated elemental process.",
-      "topic_image": "images/ascension/four-elements.webp",
-      "path": "dive/ascension/four-elements.html",
-      "added": "2026-11-03T02:58:18-07:00"
     }
   ],
   "featured": [

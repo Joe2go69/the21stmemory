@@ -247,10 +247,10 @@
                 {
                   "id": "villages-on-nodes",
                   "title": "Villages on Nodes",
-                  "description": "Villages on Nodes",
-                  "topic_image": "images/alice/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-14"
+                  "description": "Villages on Nodes represents the deliberate, engineered placement of foundational human settlements directly atop high-energy planetary nodes rather than accidental or spontaneous geographic development.",
+                  "topic_image": "images/alice/villages-on-nodes.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-05T05:42:35-07:00"
                 }
               ]
             },
