@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T15:30:41.727Z",
-  "total": 336,
+  "generatedAt": "2026-11-05T16:54:24.200Z",
+  "total": 337,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 73
+      "count": 74
     },
     {
       "id": "breakdown",
@@ -636,6 +636,20 @@
       "diveHref": "dive/alice/lunatic-frequencies.html",
       "key": "alice/lunatic-frequencies",
       "order": 21
+    },
+    {
+      "id": "minerals-stay-down",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Minerals Stay Down",
+      "subtitle": "Test your understanding of Minerals Stay Down — minerals that remain in the earth, harmonic intention, and the inversions that mine and contaminate.",
+      "questionCount": 25,
+      "href": "quiz/alice/minerals-stay-down.html",
+      "diveHref": "dive/alice/minerals-stay-down.html",
+      "key": "alice/minerals-stay-down",
+      "order": 28
     },
     {
       "id": "moon-et-space-station",

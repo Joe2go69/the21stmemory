@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "minerals-stay-down",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Minerals Stay Down",
+      "description": "Minerals Stay Down is the fundamental principle governing the subterranean resources of a realm, establishing that planetary materials are designed to remain permanently where they sit.",
+      "topic_image": "images/alice/minerals-stay-down.webp",
+      "path": "dive/alice/minerals-stay-down.html",
+      "added": "2026-11-05T09:44:33-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "crystal-alters",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Crystal Alters",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/stars-as-projectors.webp",
       "path": "dive/alice/stars-as-projectors.html",
       "added": "2026-11-03T21:02:22-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "gravity-story",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Gravity Story",
-      "description": "The Gravity Story—frequently designated as gravity, heliocentrism, or the spinning ball model—is a manufactured thought-form that possesses no actual existence in physical reality.",
-      "topic_image": "images/alice/gravity-story.webp",
-      "path": "dive/alice/gravity-story.html",
-      "added": "2026-11-03T11:22:03-07:00"
     }
   ],
   "featured": [
