@@ -236,9 +236,9 @@
       "sourceId": "alice",
       "topicId": "red-mercury",
       "path": "/dive/alice/red-mercury.html",
-      "live": false,
+      "live": true,
       "title": "Red Mercury",
-      "added": "2026-10-14"
+      "added": "2026-11-05T10:48:35-07:00"
     },
     {
       "sourceId": "alice",

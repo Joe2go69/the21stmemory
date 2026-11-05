@@ -265,10 +265,10 @@
                 {
                   "id": "red-mercury",
                   "title": "Red Mercury",
-                  "description": "Red Mercury",
-                  "topic_image": "images/alice/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-14"
+                  "description": "Red Mercury represents a specialized, highly complex liquid metal fundamentally distinct from ordinary elemental liquids and conventional furnace mercury.",
+                  "topic_image": "images/alice/red-mercury.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-05T10:48:35-07:00"
                 }
               ]
             }

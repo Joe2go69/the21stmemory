@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "red-mercury",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Red Mercury",
+      "description": "Red Mercury represents a specialized, highly complex liquid metal fundamentally distinct from ordinary elemental liquids and conventional furnace mercury.",
+      "topic_image": "images/alice/red-mercury.webp",
+      "path": "dive/alice/red-mercury.html",
+      "added": "2026-11-05T10:48:35-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "minerals-stay-down",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Minerals Stay Down",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/asteroid-weapons.webp",
       "path": "dive/alice/asteroid-weapons.html",
       "added": "2026-11-03T21:56:50-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "stars-as-projectors",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Stars as Projectors",
-      "description": "What are conventionally categorized as celestial bodies in the night sky are actually overlay projectors operating within the lower atmosphere.",
-      "topic_image": "images/alice/stars-as-projectors.webp",
-      "path": "dive/alice/stars-as-projectors.html",
-      "added": "2026-11-03T21:02:22-07:00"
     }
   ],
   "featured": [

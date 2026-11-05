@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T16:54:24.200Z",
-  "total": 337,
+  "generatedAt": "2026-11-05T18:03:13.756Z",
+  "total": 338,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 74
+      "count": 75
     },
     {
       "id": "breakdown",
@@ -818,6 +818,20 @@
       "diveHref": "dive/alice/recycled-souls.html",
       "key": "alice/recycled-souls",
       "order": 110
+    },
+    {
+      "id": "red-mercury",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Red Mercury",
+      "subtitle": "Test your understanding of Red Mercury — the zero-reflection liquid, the garlic and gold tests, and aerial extraction of subterranean gold.",
+      "questionCount": 25,
+      "href": "quiz/alice/red-mercury.html",
+      "diveHref": "dive/alice/red-mercury.html",
+      "key": "alice/red-mercury",
+      "order": 29
     },
     {
       "id": "religion-false-gods",
