@@ -223,10 +223,10 @@
             {
               "id": "spirit-tree",
               "title": "Spirit Tree",
-              "description": "Spirit Tree",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "The Spirit Tree—interchangeably designated as Mt Meru, Black Rock, Hyperborea, and the geographic North Pole—is the foundational organic crystalline architecture at the central axis of Gateway-10.",
+              "topic_image": "images/alice/spirit-tree.webp",
+              "is_placeholder": false,
+              "added": "2026-11-05T00:45:31-07:00"
             },
             {
               "id": "ley-lines-and-nodes",

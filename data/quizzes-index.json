@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-04T22:47:32.945Z",
-  "total": 332,
+  "generatedAt": "2026-11-05T07:52:52.971Z",
+  "total": 333,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 69
+      "count": 70
     },
     {
       "id": "breakdown",
@@ -874,6 +874,20 @@
       "diveHref": "dive/alice/space-is-white.html",
       "key": "alice/space-is-white",
       "order": 13
+    },
+    {
+      "id": "spirit-tree",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Spirit Tree",
+      "subtitle": "Test your understanding of Spirit Tree — Mt Meru, Black Rock, Hyperborea, the Emerald Palace, and the central axis of Gateway-10.",
+      "questionCount": 25,
+      "href": "quiz/alice/spirit-tree.html",
+      "diveHref": "dive/alice/spirit-tree.html",
+      "key": "alice/spirit-tree",
+      "order": 24
     },
     {
       "id": "spiritual-awakening",

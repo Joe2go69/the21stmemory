@@ -196,9 +196,9 @@
       "sourceId": "alice",
       "topicId": "spirit-tree",
       "path": "/dive/alice/spirit-tree.html",
-      "live": false,
+      "live": true,
       "title": "Spirit Tree",
-      "added": "2026-10-14"
+      "added": "2026-11-05T00:45:31-07:00"
     },
     {
       "sourceId": "alice",

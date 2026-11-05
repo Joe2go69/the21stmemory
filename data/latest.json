@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "spirit-tree",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Spirit Tree",
+      "description": "The Spirit Tree—interchangeably designated as Mt Meru, Black Rock, Hyperborea, and the geographic North Pole—is the foundational organic crystalline architecture at the central axis of Gateway-10.",
+      "topic_image": "images/alice/spirit-tree.webp",
+      "path": "dive/alice/spirit-tree.html",
+      "added": "2026-11-05T00:45:31-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "organic-circuit",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Organic Circuit",
@@ -109,16 +119,6 @@
       "topic_image": "images/ascension/scare-events.webp",
       "path": "dive/ascension/scare-events.html",
       "added": "2026-11-02T22:58:32-07:00"
-    },
-    {
-      "sourceId": "ascension",
-      "topicId": "pineal-and-vessel",
-      "series": "The Long-Awaited Ascension Process",
-      "title": "Pineal and Vessel",
-      "description": "The pineal gland, vessel, and organs take evolving aether downward so the body returns to harmonic balance and the original vessel.",
-      "topic_image": "images/ascension/pineal-and-vessel.webp",
-      "path": "dive/ascension/pineal-and-vessel.html",
-      "added": "2026-11-02T21:30:39-07:00"
     }
   ],
   "featured": [
