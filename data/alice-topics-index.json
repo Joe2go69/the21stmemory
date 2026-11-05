@@ -231,10 +231,10 @@
             {
               "id": "ley-lines-and-nodes",
               "title": "Ley Lines and Nodes",
-              "description": "Ley Lines and Nodes",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14",
+              "description": "Ley Lines and Nodes constitute the fundamental crystalline lattice membrane network that spans the physical surface of the realm.",
+              "topic_image": "images/alice/ley-lines-and-nodes.webp",
+              "is_placeholder": false,
+              "added": "2026-11-05T01:37:24-07:00",
               "subtopics": [
                 {
                   "id": "crystal-alters",

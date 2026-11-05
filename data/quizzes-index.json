@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T07:52:52.971Z",
-  "total": 333,
+  "generatedAt": "2026-11-05T08:46:35.545Z",
+  "total": 334,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 70
+      "count": 71
     },
     {
       "id": "breakdown",
@@ -566,6 +566,20 @@
       "diveHref": "dive/alice/inversion-tactics.html",
       "key": "alice/inversion-tactics",
       "order": 46
+    },
+    {
+      "id": "ley-lines-and-nodes",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Ley Lines and Nodes",
+      "subtitle": "Test your understanding of Ley Lines and Nodes — the crystalline lattice, temple interfaces, gold in the ground, and the structures built over the junctions.",
+      "questionCount": 25,
+      "href": "quiz/alice/ley-lines-and-nodes.html",
+      "diveHref": "dive/alice/ley-lines-and-nodes.html",
+      "key": "alice/ley-lines-and-nodes",
+      "order": 25
     },
     {
       "id": "loosh-harvesting",

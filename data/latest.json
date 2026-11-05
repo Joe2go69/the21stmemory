@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "ley-lines-and-nodes",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Ley Lines and Nodes",
+      "description": "Ley Lines and Nodes constitute the fundamental crystalline lattice membrane network that spans the physical surface of the realm.",
+      "topic_image": "images/alice/ley-lines-and-nodes.webp",
+      "path": "dive/alice/ley-lines-and-nodes.html",
+      "added": "2026-11-05T01:37:24-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "spirit-tree",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Spirit Tree",
@@ -109,16 +119,6 @@
       "topic_image": "images/ascension/four-elements.webp",
       "path": "dive/ascension/four-elements.html",
       "added": "2026-11-03T02:58:18-07:00"
-    },
-    {
-      "sourceId": "ascension",
-      "topicId": "scare-events",
-      "series": "The Long-Awaited Ascension Process",
-      "title": "Scare Events",
-      "description": "Four scripted scare events test perception before the crystal rise, and the sky fleet is a fear filter rather than a hostile invasion.",
-      "topic_image": "images/ascension/scare-events.webp",
-      "path": "dive/ascension/scare-events.html",
-      "added": "2026-11-02T22:58:32-07:00"
     }
   ],
   "featured": [
