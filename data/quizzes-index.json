@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T12:55:03.236Z",
-  "total": 335,
+  "generatedAt": "2026-11-05T15:30:41.727Z",
+  "total": 336,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 72
+      "count": 73
     },
     {
       "id": "breakdown",
@@ -230,6 +230,20 @@
       "diveHref": "dive/alice/cosmology.html",
       "key": "alice/cosmology",
       "order": 9
+    },
+    {
+      "id": "crystal-alters",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Crystal Alters",
+      "subtitle": "Test your understanding of Crystal Alters — the human-height crystal interface at a high-energy focal point and the stone altar that caps it.",
+      "questionCount": 25,
+      "href": "quiz/alice/crystal-alters.html",
+      "diveHref": "dive/alice/crystal-alters.html",
+      "key": "alice/crystal-alters",
+      "order": 26
     },
     {
       "id": "culling-survivors",

@@ -212,9 +212,9 @@
       "sourceId": "alice",
       "topicId": "crystal-alters",
       "path": "/dive/alice/crystal-alters.html",
-      "live": false,
+      "live": true,
       "title": "Crystal Alters",
-      "added": "2026-10-14"
+      "added": "2026-11-05T08:18:50-07:00"
     },
     {
       "sourceId": "alice",

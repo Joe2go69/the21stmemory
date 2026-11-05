@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "crystal-alters",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Crystal Alters",
+      "description": "Crystal Alters—alternatively designated as the altar, the crystal interface, or focal nodes—represent the primary energetic apparatus positioned at the focal center of high-energy sites.",
+      "topic_image": "images/alice/crystal-alters.webp",
+      "path": "dive/alice/crystal-alters.html",
+      "added": "2026-11-05T08:18:50-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "villages-on-nodes",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Villages on Nodes",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/gravity-story.webp",
       "path": "dive/alice/gravity-story.html",
       "added": "2026-11-03T11:22:03-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "time-back-home",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Time Back Home",
-      "description": "Time Back Home is the non-linear temporal structure of original reality, a nearly 96-hour day where dusk is the darkest state and souls bend time as a second-nature reflex.",
-      "topic_image": "images/alice/time-back-home.webp",
-      "path": "dive/alice/time-back-home.html",
-      "added": "2026-11-03T04:17:51-07:00"
     }
   ],
   "featured": [
