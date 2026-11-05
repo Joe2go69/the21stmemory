@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T18:41:58.587Z",
-  "total": 339,
+  "generatedAt": "2026-11-05T22:26:46.518Z",
+  "total": 340,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 76
+      "count": 77
     },
     {
       "id": "breakdown",
@@ -496,6 +496,20 @@
       "diveHref": "dive/alice/gateway-10-system.html",
       "key": "alice/gateway-10-system",
       "order": 16
+    },
+    {
+      "id": "ghosts-are-a-gig",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Ghosts Are a Gig",
+      "subtitle": "Test your understanding of Ghosts Are a Gig — fear tricks, Grey orb stagings, telepathic readings, and the rapid soul turnover.",
+      "questionCount": 25,
+      "href": "quiz/alice/ghosts-are-a-gig.html",
+      "diveHref": "dive/alice/ghosts-are-a-gig.html",
+      "key": "alice/ghosts-are-a-gig",
+      "order": 36
     },
     {
       "id": "giant-skeletons",

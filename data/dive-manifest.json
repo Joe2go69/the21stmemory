@@ -292,9 +292,9 @@
       "sourceId": "alice",
       "topicId": "ghosts-are-a-gig",
       "path": "/dive/alice/ghosts-are-a-gig.html",
-      "live": false,
+      "live": true,
       "title": "Ghosts Are a Gig",
-      "added": "2026-10-14"
+      "added": "2026-11-05T15:16:50-07:00"
     },
     {
       "sourceId": "alice",
