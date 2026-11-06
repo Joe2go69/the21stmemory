@@ -308,9 +308,9 @@
       "sourceId": "alice",
       "topicId": "niberians",
       "path": "/dive/alice/niberians.html",
-      "live": false,
+      "live": true,
       "title": "Niberians",
-      "added": "2026-10-14"
+      "added": "2026-11-06T00:02:38-07:00"
     },
     {
       "sourceId": "alice",

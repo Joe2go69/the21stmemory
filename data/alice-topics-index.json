@@ -347,10 +347,10 @@
             {
               "id": "niberians",
               "title": "Niberians",
-              "description": "Niberians",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "The Niberians are the most powerful parasitic species ever created, massive intellectual warriors who outsmarted their Custodian creators and exist in complete independence.",
+              "topic_image": "images/alice/niberians.webp",
+              "is_placeholder": false,
+              "added": "2026-11-06T00:02:38-07:00"
             },
             {
               "id": "demons-and-sold-souls",

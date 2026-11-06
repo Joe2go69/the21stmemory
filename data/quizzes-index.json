@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T22:26:46.518Z",
-  "total": 340,
+  "generatedAt": "2026-11-06T07:16:08.825Z",
+  "total": 341,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 77
+      "count": 78
     },
     {
       "id": "breakdown",
@@ -720,6 +720,20 @@
       "diveHref": "dive/alice/negative-entities.html",
       "key": "alice/negative-entities",
       "order": 31
+    },
+    {
+      "id": "niberians",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Niberians",
+      "subtitle": "Test your understanding of Niberians — massive intellectual warriors who left Custodian rule and set Black Void Plasma in the firmament.",
+      "questionCount": 25,
+      "href": "quiz/alice/niberians.html",
+      "diveHref": "dive/alice/niberians.html",
+      "key": "alice/niberians",
+      "order": 38
     },
     {
       "id": "non-player-characters",

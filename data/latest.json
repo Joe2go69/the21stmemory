@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "niberians",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Niberians",
+      "description": "The Niberians are the most powerful parasitic species ever created, massive intellectual warriors who outsmarted their Custodian creators and exist in complete independence.",
+      "topic_image": "images/alice/niberians.webp",
+      "path": "dive/alice/niberians.html",
+      "added": "2026-11-06T00:02:38-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "ghosts-are-a-gig",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Ghosts Are a Gig",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/oil-as-grease.webp",
       "path": "dive/alice/oil-as-grease.html",
       "added": "2026-11-04T01:58:11-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "centre-realm",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Centre Realm",
-      "description": "The Centre Realm is the midpoint of Gateway-10, where the Spirit Tree at Mt Meru powered all 178 worlds until the Greys cut it and the ice wall made the Known Lands.",
-      "topic_image": "images/alice/centre-realm.webp",
-      "path": "dive/alice/centre-realm.html",
-      "added": "2026-11-04T01:12:20-07:00"
     }
   ],
   "featured": [
