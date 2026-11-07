@@ -405,10 +405,10 @@
             {
               "id": "vatican-thirteen",
               "title": "Vatican Thirteen",
-              "description": "Vatican Thirteen",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Vatican Thirteen is the 13-level subterranean command nexus beneath the Vatican, built to house rival parasitic factions, harvesting stockpiles, and soul-transit portals.",
+              "topic_image": "images/alice/vatican-thirteen.webp",
+              "is_placeholder": false,
+              "added": "2026-11-07T02:39:52-07:00"
             }
           ]
         },

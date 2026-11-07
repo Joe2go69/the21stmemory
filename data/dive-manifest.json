@@ -364,9 +364,9 @@
       "sourceId": "alice",
       "topicId": "vatican-thirteen",
       "path": "/dive/alice/vatican-thirteen.html",
-      "live": false,
+      "live": true,
       "title": "Vatican Thirteen",
-      "added": "2026-10-14"
+      "added": "2026-11-07T02:39:52-07:00"
     },
     {
       "sourceId": "alice",

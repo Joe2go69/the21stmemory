@@ -1,0 +1,280 @@
+module.exports = {
+  source: 'alice',
+  id: 'vatican-thirteen',
+  title: 'Vatican Thirteen',
+  description: 'Test your understanding of Vatican Thirteen — the 13-level complex under the Vatican, the faction portals, the soul-transit array, and the Smithsonian vaults.',
+  seoDescription: 'Interactive Living Truth Quiz on Vatican Thirteen: subterranean factions, Tartarian stonework, Grey soul transit, and the Smithsonian vaults.',
+  reflection: {
+    title: 'Reflection',
+    body: 'Thirteen levels under the surface castle keep distrustful factions apart, each with its own portal. Souls still pass through the sun and the Grey array before a narrow birth choice, while the Smithsonian vaults keep the contradicting remains out of public sight.'
+  },
+  questions: [
+    {
+      number: 1,
+      question: 'What constitutes the true origin of the surface architecture of the Vatican?',
+      hint: 'Look at what the surface edifice is said to consist of.',
+      options: [
+        { text: 'Subterranean vault masonry raised by the Smithsonian from its sealed floors.', isCorrect: false, rationale: 'The Smithsonian keeps vaults under its own public floors, while the Vatican surface is older stolen stonework.' },
+        { text: 'Isolated Alpha Draco quarters built as the surface castle over the portals.', isCorrect: false, rationale: 'Alpha Draco has an isolated command level underground, and the surface is Tartarian stonework and art.' },
+        { text: 'New stonework and art made by Michelangelo and Leonardo da Vinci for the surface during later historical cycles.', isCorrect: false, rationale: 'Those names are fraudulent labels placed over older pre-existing works, not the makers of a new surface.' },
+        { text: 'Repurposed Tartarian architecture falsely attributed to figures like Michelangelo.', isCorrect: true, rationale: 'The surface edifice consists of repurposed Tartarian architecture, with fraudulent labels such as Michelangelo and Leonardo da Vinci.' }
+      ]
+    },
+    {
+      number: 2,
+      question: 'How many subterranean levels comprise the underground command complex of Vatican Thirteen?',
+      hint: 'Look at how far the underground complex extends below the surface structure.',
+      options: [
+        { text: 'Exactly 7 levels.', isCorrect: false, rationale: 'The complex extends exactly 13 levels below ground, one structure for the separated factions.' },
+        { text: 'Exactly 13 levels.', isCorrect: true, rationale: 'The functional core is a vast underground complex extending exactly 13 levels below ground.' },
+        { text: 'Exactly 10 levels.', isCorrect: false, rationale: 'The counted depth is the 13 levels below ground, not a ten-level stack.' },
+        { text: 'Exactly 21 levels.', isCorrect: false, rationale: 'The facility stops at the 13 levels below ground that house the factions and portals.' }
+      ]
+    },
+    {
+      number: 3,
+      question: 'What primary problem prompted the creation of a single consolidated subterranean facility for competing parasitic factions?',
+      hint: 'Look at why the ruling groups could not share space or transit routes.',
+      options: [
+        { text: 'A shortage of loosh harvesting gear across the surface slaughterhouses and entertainment quarters.', isCorrect: false, rationale: 'Loosh harvesting runs inside the finished complex, and the build was prompted by distrust among the factions.' },
+        { text: 'Public discovery of Tartarian stonework in open archaeological sites.', isCorrect: false, rationale: 'Tartarian stonework was relabeled on the surface, while the complex was built because the factions could not share space.' },
+        { text: 'Absolute mutual distrust among independent parasitic groups preventing shared space.', isCorrect: true, rationale: 'The facility was built to solve absolute mutual distrust, because the groups could not share unmonitored space or transit routes.' },
+        { text: 'A breakdown of the portal array caused by the solar re-formatting cycle.', isCorrect: false, rationale: 'The sun re-formats souls before they enter a working portal array, and the complex was built to separate distrustful factions.' }
+      ]
+    },
+    {
+      number: 4,
+      question: 'Which of these is NOT an isolated level assignment inside Vatican Thirteen?',
+      hint: 'Check the faction level list and notice which claim belongs to another building.',
+      options: [
+        { text: 'Dedicated operational headquarters for the Omicron entity group inside its own sealed floor.', isCorrect: false, rationale: 'The Omicron Level is the dedicated operational headquarters for the Omicron entity group.' },
+        { text: 'Administrative and oversight level operated by the Custodians.', isCorrect: false, rationale: 'The Custodians Level is the administrative and oversight level operated by the Custodians.' },
+        { text: 'Specialized levels assigned to high-tier Demons and their consorts.', isCorrect: false, rationale: 'The Demonic Chambers are specialized levels assigned to high-tier Demons and their consorts.' },
+        { text: 'Air-sealed vault that sequesters giant remains beneath public exhibit floors.', isCorrect: true, rationale: 'Historical artifacts recovered from excavation projects are permanently sequestered under the Smithsonian, not on a Vatican faction level.' }
+      ]
+    },
+    {
+      number: 5,
+      question: 'Why does each subterranean level possess its own independent portal access?',
+      hint: 'Connect the separate portals to the distrust between the factions.',
+      options: [
+        { text: 'To keep soul harvesting from crowding a single gate during death transit.', isCorrect: false, rationale: 'Soul redistribution sits on one portal level, while the separate portals exist so factions do not share transit points.' },
+        { text: 'To give bloodline members a direct road from their level into the Smithsonian vaults beneath the exhibits.', isCorrect: false, rationale: 'Smithsonian access is a separate restriction, and these portals let factions travel without sharing transit points.' },
+        { text: 'To enable entities to travel without sharing unmonitored transit points with rival groups.', isCorrect: true, rationale: 'Each faction could travel independently without sharing transit points with rival groups.' },
+        { text: 'To move re-formatted souls from the sun straight into the adrenochrome warehouses.', isCorrect: false, rationale: 'Re-formatted souls go to a target country, and the separate portals exist so rivals do not share transit points.' }
+      ]
+    },
+    {
+      number: 6,
+      question: 'What initial cosmic step occurs to a human soul following physical death before it enters the Vatican portal array?',
+      hint: 'Look at the step after physical death and before the portal array.',
+      options: [
+        { text: 'Immediate pairing with a twin flame before a country is assigned.', isCorrect: false, rationale: 'The exit point under the Vatican prevents soul groups or twin flames from reuniting.' },
+        { text: 'Direct placement into an adrenochrome warehouse on the lower levels.', isCorrect: false, rationale: 'Adrenochrome warehouses are physical stockpiles, and the soul first passes through the sun.' },
+        { text: 'Review by the Custodians on the administrative oversight level.', isCorrect: false, rationale: 'The Custodians run oversight of the levels, while soul processing starts with the sun and then the Greys.' },
+        { text: 'Passage through the sun for automated re-formatting.', isCorrect: true, rationale: 'Following physical death, human souls pass through the sun for automated re-formatting and then enter the portal array.' }
+      ]
+    },
+    {
+      number: 7,
+      question: 'Which parasitic faction directly manages the incarnational technology and soul transit process beneath the Vatican?',
+      hint: 'Look at which group is tied to incarnational technology on its own level.',
+      options: [
+        { text: 'High-tier Demons', isCorrect: false, rationale: 'High-tier Demons and their consorts have specialized chambers, while the Greys run the incarnational technology.' },
+        { text: 'The Greys', isCorrect: true, rationale: 'The Greys utilize specialized incarnational technology, and Grey operators escort the re-formatted soul onward.' },
+        { text: 'The Anuk', isCorrect: false, rationale: 'The Anuk hold a functional headquarters, and the incarnational technology belongs to the Greys.' },
+        { text: 'The Alpha Draco', isCorrect: false, rationale: 'Alpha Draco has an isolated command level, and soul transit is overseen with Grey incarnational technology.' }
+      ]
+    },
+    {
+      number: 8,
+      question: 'What choice is available to a re-formatted soul during the final stage of the Grey-managed birth transit?',
+      hint: 'Look at the narrow choice left once a soul reaches its assigned country.',
+      options: [
+        { text: 'Selection of a verified bloodline lineage before the soul reenters the target country under Grey escort.', isCorrect: false, rationale: 'Verified bloodline lineages are an access class, and the soul does not pick that status on the way in.' },
+        { text: 'Open choice of region and historical period after the soul leaves the sun.', isCorrect: false, rationale: 'Grey operators escort the soul to its designated target country, so the country is not an open choice.' },
+        { text: 'Limited selection over mothers currently giving birth in a designated target country.', isCorrect: true, rationale: 'In that country the soul exercises limited selection over mothers currently giving birth.' },
+        { text: 'A return path through the sun that ends the loop for that soul.', isCorrect: false, rationale: 'The sun is the re-formatting step, and the path continues to a target country under Grey escort.' }
+      ]
+    },
+    {
+      number: 9,
+      question: 'What strategic impact does controlling soul redistribution beneath the Vatican have on humanity?',
+      hint: 'Look at the broader effect of holding the exit point under the Vatican.',
+      options: [
+        { text: 'It speeds technical progress across the surface nations that receive the births.', isCorrect: false, rationale: 'The exit point is used to dictate global birth distribution, not to speed surface technical progress.' },
+        { text: 'It prevents soul groups and twin flames from reuniting while dictating global birth distribution.', isCorrect: true, rationale: 'Parasitic factions dictate global birth distribution and prevent soul groups or twin flames from reuniting.' },
+        { text: 'It clears harvested loosh out of the slaughterhouses and adrenochrome warehouses.', isCorrect: false, rationale: 'Loosh harvesting stays in operation inside the complex, and the soul exit controls birth distribution.' },
+        { text: 'It places incarnating souls into the verified bloodline lineages under the vaults.', isCorrect: false, rationale: 'Bloodline access is restricted, and the soul route dictates global birth distribution rather than filling those lineages.' }
+      ]
+    },
+    {
+      number: 10,
+      question: 'What feature defines the Greys Level within the subterranean complex structure?',
+      hint: 'Look at the level list for the group tied to portal machinery.',
+      options: [
+        { text: 'Primary slaughterhouse level kept for luxury entertainment.', isCorrect: false, rationale: 'Luxury slaughterhouses serve resident entities, while the Greys Level is the technical and navigational level.' },
+        { text: 'Technical and navigational level designated for the Greys.', isCorrect: true, rationale: 'The Greys Level is the technical and navigational level designated for the Greys.' },
+        { text: 'Administrative and oversight level operated by the Custodians.', isCorrect: false, rationale: 'Administrative oversight is the Custodians Level, and the Greys hold the technical and navigational level.' },
+        { text: 'Storage level for giant remains sequestered from excavation projects.', isCorrect: false, rationale: 'Giant remains stay in the Smithsonian vaults, and the Greys Level is technical and navigational.' }
+      ]
+    },
+    {
+      number: 11,
+      question: 'What is stockpiled in the lower levels of Vatican Thirteen alongside cages of captive children?',
+      hint: 'Look at the stockpile kept on the lower levels beside the cages.',
+      options: [
+        { text: 'Sanitized exhibits prepared for the public upper floors of the museum.', isCorrect: false, rationale: 'Sanitized exhibits belong on Smithsonian public floors, while the lower Vatican levels stock adrenochrome.' },
+        { text: 'Extensive adrenochrome storage warehouses.', isCorrect: true, rationale: 'Lower levels house spare cages of captive children alongside extensive adrenochrome storage warehouses.' },
+        { text: 'Spare Tartarian stonework held below the surface castle as a building store.', isCorrect: false, rationale: 'Tartarian stonework is the surface edifice, and the lower stockpile is adrenochrome beside the cages.' },
+        { text: 'Portal arrays that forward re-formatted souls toward a target country.', isCorrect: false, rationale: 'The portal array handles souls, and the stockpile beside the cages is extensive adrenochrome storage.' }
+      ]
+    },
+    {
+      number: 12,
+      question: 'What amenities are provided within the subterranean levels for resident entities and their consorts?',
+      hint: 'Look at what the resident entities and their consorts are given inside the complex.',
+      options: [
+        { text: 'Shared navigation bays and portals opened for rival factions on one floor.', isCorrect: false, rationale: 'Portals are unshared, and the quarters for residents are luxury slaughterhouses and entertainment.' },
+        { text: 'Art studios teaching Tartarian stonework under Michelangelo\'s name.', isCorrect: false, rationale: 'Michelangelo is a fraudulent label on older work, not a studio program for the resident entities.' },
+        { text: 'Sanitized exhibit halls and open vaults for ordinary human visitors.', isCorrect: false, rationale: 'Ordinary human beings are kept out of the sealed vaults, and the resident amenities are slaughterhouses and entertainment.' },
+        { text: 'Luxury slaughterhouses and high-end entertainment quarters.', isCorrect: true, rationale: 'The facility contains luxury slaughterhouses and high-end entertainment quarters for resident entities and their consorts.' }
+      ]
+    },
+    {
+      number: 13,
+      question: 'What role does loosh harvesting play within the operational framework of Vatican Thirteen?',
+      hint: 'Look at the energetic harvest that runs beside the physical one.',
+      options: [
+        { text: 'It masks the Smithsonian vaults so the sealed floors stay hidden.', isCorrect: false, rationale: 'Those vaults stay hidden by access rules, while loosh is part of the harvesting inside Vatican Thirteen.' },
+        { text: 'It serves as an energetic resource extracted alongside physical harvesting across the facility.', isCorrect: true, rationale: 'Vast spaces are dedicated to physical and energetic harvesting, and loosh harvesting runs with the warehouses.' },
+        { text: 'It powers the sun\'s automated re-formatting before souls reach the portal array beneath the Vatican.', isCorrect: false, rationale: 'The sun performs automated re-formatting, and loosh is an energetic harvest inside the complex.' },
+        { text: 'It holds the Tartarian masonry of the surface castle in place.', isCorrect: false, rationale: 'The surface masonry is stolen Tartarian stonework, and loosh belongs to the energetic harvest below.' }
+      ]
+    },
+    {
+      number: 14,
+      question: 'Which institution is described as fulfilling an identical subterranean containment role for archaeology in North America?',
+      hint: 'Look for the North American body that mirrors the Vatican\'s underground access rules.',
+      options: [
+        { text: 'The Custodians\' administrative level', isCorrect: false, rationale: 'That level is inside Vatican Thirteen, and the North American archaeological counterpart is the Smithsonian.' },
+        { text: 'The Smithsonian Institution', isCorrect: true, rationale: 'The Smithsonian maintains sealed subterranean vaults and is recognized as the archaeological counterpart to the Vatican.' },
+        { text: 'The Greys\' navigational level', isCorrect: false, rationale: 'The Greys run a technical level under the Vatican, and the archaeological counterpart is the Smithsonian.' },
+        { text: 'The Anuk headquarters level', isCorrect: false, rationale: 'The Anuk Level is a faction headquarters, and the North American archaeological body is the Smithsonian.' }
+      ]
+    },
+    {
+      number: 15,
+      question: 'Who is granted access to the subterranean vaults beneath the public floors of the Smithsonian Institution?',
+      hint: 'Look at who may go below the public floors.',
+      options: [
+        { text: 'Ordinary human beings who staff the sanitized exhibits on the public floors.', isCorrect: false, rationale: 'Access below public sight lines is prohibited to ordinary human beings.' },
+        { text: 'Non-human parasites and verified bloodline lineages exclusively.', isCorrect: true, rationale: 'Access is reserved exclusively for non-human parasites and verified bloodline lineages.' },
+        { text: 'Mothers currently giving birth in the designated target country.', isCorrect: false, rationale: 'Those mothers are part of soul transit, and the vaults are reserved for parasites and verified bloodline lineages.' },
+        { text: 'Figureheads such as Michelangelo and Leonardo da Vinci on the surface works.', isCorrect: false, rationale: 'Those names are fraudulent labels, and vault access belongs to parasites and verified bloodline lineages.' }
+      ]
+    },
+    {
+      number: 16,
+      question: 'What physical evidence is stored inside the air-sealed subterranean vaults of the Smithsonian Institution?',
+      hint: 'Look at what excavated material the vaults keep out of sight.',
+      options: [
+        { text: 'Re-formatted souls waiting for escort to mothers who are giving birth.', isCorrect: false, rationale: 'Souls move through the Vatican portal array, and the Smithsonian vaults hold excavated physical evidence.' },
+        { text: 'Grey incarnational machines that run the portal array under the Vatican for soul escort.', isCorrect: false, rationale: 'Incarnational technology stays with the Greys under the Vatican, and the vaults hold excavated remains and artifacts.' },
+        { text: 'Out-of-place physical evidence, giant remains, and suppressed artifacts.', isCorrect: true, rationale: 'The vaults sequester out-of-place physical evidence, giant remains, and historical artifacts recovered from excavation projects.' },
+        { text: 'Signed stonework credited to Michelangelo and Leonardo da Vinci.', isCorrect: false, rationale: 'Those names are fraudulent labels on Tartarian work, and the vaults hold giant remains and historical artifacts.' }
+      ]
+    },
+    {
+      number: 17,
+      question: 'Why are ordinary human beings prohibited from accessing the levels beneath the Smithsonian public floors?',
+      hint: 'Look at the reason the vaults stay closed to ordinary human beings.',
+      options: [
+        { text: 'To shield stolen Tartarian stonework from visitors walking the public floors of the surface castle.', isCorrect: false, rationale: 'Tartarian stonework is the Vatican surface, and the Smithsonian ban keeps excavated evidence sequestered.' },
+        { text: 'To prevent public discovery of artifacts that contradict approved historical narratives.', isCorrect: true, rationale: 'The vaults remain air-sealed and hidden from public view so giant remains and historical artifacts stay sequestered.' },
+        { text: 'To reserve entertainment quarters for the figureheads named on the stonework.', isCorrect: false, rationale: 'Entertainment quarters are for resident entities under the Vatican, and the Smithsonian ban protects sequestered evidence.' },
+        { text: 'To keep visitors away from the portal array that receives souls from the sun.', isCorrect: false, rationale: 'That portal array is beneath the Vatican, and the Smithsonian ban keeps the vaults hidden from public view.' }
+      ]
+    },
+    {
+      number: 18,
+      question: 'What complementary division of labor exists between the Vatican and the Smithsonian Institution?',
+      hint: 'Separate the Vatican\'s vectors from the Smithsonian\'s material work.',
+      options: [
+        { text: 'The Vatican manages European archaeology while the Smithsonian handles global soul transit.', isCorrect: false, rationale: 'Soul transit sits with the Vatican, and the Smithsonian manages physical archaeology and material history.' },
+        { text: 'The Vatican controls religious, energetic, and soul-transit vectors, while the Smithsonian manages physical history.', isCorrect: true, rationale: 'The Vatican holds those vectors, and the Smithsonian manages physical archaeology and material history.' },
+        { text: 'The Vatican oversees surface entertainment while the Smithsonian manages subterranean slaughterhouses.', isCorrect: false, rationale: 'Slaughterhouses and entertainment quarters are inside Vatican Thirteen, not under the Smithsonian.' },
+        { text: 'The Vatican builds the portal infrastructure while the Smithsonian recruits bloodline host species.', isCorrect: false, rationale: 'The Custodians established the Vatican levels, and the Smithsonian manages physical archaeology and material history.' }
+      ]
+    },
+    {
+      number: 19,
+      question: 'How did parasitic controllers successfully sever humanity from its authentic historical past?',
+      hint: 'Look at how stolen stonework and excavated objects were handled.',
+      options: [
+        { text: 'By pulling down the surface castle and the Tartarian stonework it carried.', isCorrect: false, rationale: 'The stonework was kept and relabeled, and artifacts were locked in vaults rather than the castle being pulled down.' },
+        { text: 'By swapping human bloodlines for non-human hosts across the realm.', isCorrect: false, rationale: 'Bloodline lineages stay a restricted access class, and the break with the past uses false labels and sealed vaults.' },
+        { text: 'By cloaking stolen Tartarian works under false attributions and locking physical artifacts in sealed vaults.', isCorrect: true, rationale: 'They cloak stolen Tartarian stonework under false artistic attributions and lock physical artifacts in sealed underground vaults.' },
+        { text: 'By sending living people through the sun so memory fails before death.', isCorrect: false, rationale: 'Passage through the sun happens after physical death, and the historical break uses false labels and sealed vaults.' }
+      ]
+    },
+    {
+      number: 20,
+      question: 'What role does false attribution play in the preservation of the surface narrative?',
+      hint: 'Look at what the famous names on the older stonework actually do.',
+      options: [
+        { text: 'It lets the Greys track artistic twin flames across target countries.', isCorrect: false, rationale: 'The soul route prevents twin flames from reuniting, and false names hide the origin of older works.' },
+        { text: 'It disguises the portal array as a museum exhibit on the public floors.', isCorrect: false, rationale: 'The portal array stays under the Vatican, and false attribution covers older Tartarian works.' },
+        { text: 'It stirs new artistic work among soul groups that were kept apart.', isCorrect: false, rationale: 'False attribution obscures true historical origin, and separated soul groups are a birth-routing result.' },
+        { text: 'It places fraudulent labels over older Tartarian works to conceal true origin.', isCorrect: true, rationale: 'Fraudulent labels placed over older pre-existing works obscure true historical origin.' }
+      ]
+    },
+    {
+      number: 21,
+      question: 'How did the Custodians ensure long-term operational stability among host and entity species?',
+      hint: 'Look at the architectural arrangement that reduced warfare between the factions.',
+      options: [
+        { text: 'By housing all hostile factions in one 13-level structure with dedicated isolated infrastructure.', isCorrect: true, rationale: 'That single structure gave operational stability for parasitic control while each group kept an isolated level.' },
+        { text: 'By moving the portal array out of the Vatican and into the Smithsonian vaults.', isCorrect: false, rationale: 'The portal array stays beneath the Vatican, and stability came from isolated levels inside one structure.' },
+        { text: 'By opening the faction levels to surface governments as a shared settlement.', isCorrect: false, rationale: 'The levels stay secret, and stability came from isolated infrastructure inside one 13-level structure.' },
+        { text: 'By letting human souls pick birth mothers with no limit on the choice.', isCorrect: false, rationale: 'The soul has a limited selection of mothers, and faction stability came from isolated levels in one structure.' }
+      ]
+    },
+    {
+      number: 22,
+      question: 'True or False: In previous historical cycles, the surface building existed as a castle.',
+      hint: 'Look at the surface building in previous historical cycles.',
+      options: [
+        { text: 'True', isCorrect: true, rationale: 'In previous historical cycles, the surface building existed as a castle.' },
+        { text: 'False', isCorrect: false, rationale: 'The core revelations state that the surface building existed as a castle in previous historical cycles.' }
+      ]
+    },
+    {
+      number: 23,
+      question: 'True or False: The Greys established and managed the 13 subterranean levels.',
+      hint: 'Look at which group established and managed the 13 levels.',
+      options: [
+        { text: 'True', isCorrect: false, rationale: 'The Custodians are the primary architect entity group that established and managed those levels.' },
+        { text: 'False', isCorrect: true, rationale: 'The Custodians, not the Greys, are the primary architect entity group that established and managed the levels.' }
+      ]
+    },
+    {
+      number: 24,
+      question: 'True or False: The Anuk Level is the functional headquarters assigned to the Anunnaki.',
+      hint: 'Look at the level list for the group named beside Anuk.',
+      options: [
+        { text: 'True', isCorrect: true, rationale: 'The Anuk Level is the functional headquarters assigned to the Anuk (Anunnaki).' },
+        { text: 'False', isCorrect: false, rationale: 'The level list gives the Anuk a functional headquarters assigned to the Anuk (Anunnaki).' }
+      ]
+    },
+    {
+      number: 25,
+      question: 'True or False: Rival factions share one monitored portal on each level.',
+      hint: 'Look at whether rival factions use one shared transit point.',
+      options: [
+        { text: 'True', isCorrect: false, rationale: 'The groups were unable to share unmonitored space or transit routes, so each level kept its own portal.' },
+        { text: 'False', isCorrect: true, rationale: 'They were unable to share unmonitored space or transit routes, and each faction kept portal access on its own level.' }
+      ]
+    }
+  ]
+};

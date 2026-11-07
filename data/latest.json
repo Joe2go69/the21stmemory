@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "vatican-thirteen",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Vatican Thirteen",
+      "description": "Vatican Thirteen is the 13-level subterranean command nexus beneath the Vatican, built to house rival parasitic factions, harvesting stockpiles, and soul-transit portals.",
+      "topic_image": "images/alice/vatican-thirteen.webp",
+      "path": "dive/alice/vatican-thirteen.html",
+      "added": "2026-11-07T02:39:52-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "demons-and-sold-souls",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Demons and Sold Souls",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/organic-circuit.webp",
       "path": "dive/alice/organic-circuit.html",
       "added": "2026-11-04T15:37:06-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "lunatic-frequencies",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Lunatic Frequencies",
-      "description": "Lunatic Frequencies are negative broadcasts sent at lunar stages, strongest at the full moon, from a covert station hidden behind a spherical Venus hologram.",
-      "topic_image": "images/alice/lunatic-frequencies.webp",
-      "path": "dive/alice/lunatic-frequencies.html",
-      "added": "2026-11-04T03:01:55-07:00"
     }
   ],
   "featured": [

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T08:11:39.126Z",
-  "total": 342,
+  "generatedAt": "2026-11-07T09:46:52.156Z",
+  "total": 343,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 79
+      "count": 80
     },
     {
       "id": "breakdown",
@@ -1112,6 +1112,20 @@
       "diveHref": "dive/alice/twin-flames.html",
       "key": "alice/twin-flames",
       "order": 91
+    },
+    {
+      "id": "vatican-thirteen",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Vatican Thirteen",
+      "subtitle": "Test your understanding of Vatican Thirteen — the 13-level complex under the Vatican, the faction portals, the soul-transit array, and the Smithsonian vaults.",
+      "questionCount": 25,
+      "href": "quiz/alice/vatican-thirteen.html",
+      "diveHref": "dive/alice/vatican-thirteen.html",
+      "key": "alice/vatican-thirteen",
+      "order": 45
     },
     {
       "id": "villages-on-nodes",
