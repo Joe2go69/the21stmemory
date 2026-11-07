@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "demons-and-sold-souls",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Demons and Sold Souls",
+      "description": "A sold soul hosts a 4th-density demon whose authority depends on loosh harvested from trauma, fear, and suffering.",
+      "topic_image": "images/alice/demons-and-sold-souls.webp",
+      "path": "dive/alice/demons-and-sold-souls.html",
+      "added": "2026-11-07T01:02:08-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "niberians",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Niberians",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/lunatic-frequencies.webp",
       "path": "dive/alice/lunatic-frequencies.html",
       "added": "2026-11-04T03:01:55-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "oil-as-grease",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Oil as Grease",
-      "description": "Oil is the self-replenishing grease under Gateway-10, meant to stay in the ground and lubricate every realm, not to be pumped out as fossil fuel.",
-      "topic_image": "images/alice/oil-as-grease.webp",
-      "path": "dive/alice/oil-as-grease.html",
-      "added": "2026-11-04T01:58:11-07:00"
     }
   ],
   "featured": [

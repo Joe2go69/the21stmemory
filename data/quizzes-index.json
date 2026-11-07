@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-06T07:16:08.825Z",
-  "total": 341,
+  "generatedAt": "2026-11-07T08:11:39.126Z",
+  "total": 342,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 78
+      "count": 79
     },
     {
       "id": "breakdown",
@@ -272,6 +272,20 @@
       "diveHref": "dive/alice/custodians.html",
       "key": "alice/custodians",
       "order": 32
+    },
+    {
+      "id": "demons-and-sold-souls",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Demons and Sold Souls",
+      "subtitle": "Test your understanding of Demons and Sold Souls — how a sold soul hosts a 4th-density demon, how asylums supply loosh, and what fails when that supply stops.",
+      "questionCount": 25,
+      "href": "quiz/alice/demons-and-sold-souls.html",
+      "diveHref": "dive/alice/demons-and-sold-souls.html",
+      "key": "alice/demons-and-sold-souls",
+      "order": 39
     },
     {
       "id": "density-suppression",

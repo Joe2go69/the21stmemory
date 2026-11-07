@@ -316,9 +316,9 @@
       "sourceId": "alice",
       "topicId": "demons-and-sold-souls",
       "path": "/dive/alice/demons-and-sold-souls.html",
-      "live": false,
+      "live": true,
       "title": "Demons and Sold Souls",
-      "added": "2026-10-14"
+      "added": "2026-11-07T01:02:08-07:00"
     },
     {
       "sourceId": "alice",
