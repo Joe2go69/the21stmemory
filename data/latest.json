@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "language-inversion",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Language Inversion",
+      "description": "Language Inversion is the post-reset rewriting of Sol, Soul, and Sun so that a soul family is heard as planets orbiting a star.",
+      "topic_image": "images/alice/language-inversion.webp",
+      "path": "dive/alice/language-inversion.html",
+      "added": "2026-11-07T08:18:39-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "path-of-invention",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Path of Invention",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/villages-on-nodes.webp",
       "path": "dive/alice/villages-on-nodes.html",
       "added": "2026-11-05T05:42:35-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "ley-lines-and-nodes",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Ley Lines and Nodes",
-      "description": "Ley Lines and Nodes constitute the fundamental crystalline lattice membrane network that spans the physical surface of the realm.",
-      "topic_image": "images/alice/ley-lines-and-nodes.webp",
-      "path": "dive/alice/ley-lines-and-nodes.html",
-      "added": "2026-11-05T01:37:24-07:00"
     }
   ],
   "featured": [

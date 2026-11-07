@@ -455,10 +455,10 @@
                 {
                   "id": "language-inversion",
                   "title": "Language Inversion",
-                  "description": "Language Inversion",
-                  "topic_image": "images/alice/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-14"
+                  "description": "Language Inversion is the post-reset rewriting of Sol, Soul, and Sun so that a soul family is heard as planets orbiting a star.",
+                  "topic_image": "images/alice/language-inversion.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-07T08:18:39-07:00"
                 }
               ]
             },

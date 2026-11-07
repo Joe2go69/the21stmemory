@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T14:26:46.576Z",
-  "total": 345,
+  "generatedAt": "2026-11-07T15:22:55.150Z",
+  "total": 346,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 82
+      "count": 83
     },
     {
       "id": "breakdown",
@@ -622,6 +622,20 @@
       "diveHref": "dive/alice/inversion-tactics.html",
       "key": "alice/inversion-tactics",
       "order": 46
+    },
+    {
+      "id": "language-inversion",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Language Inversion",
+      "subtitle": "Test your understanding of Language Inversion — the split of Sol, Soul, and Sun, the true sol-system, and heliocentrism as a language job.",
+      "questionCount": 25,
+      "href": "quiz/alice/language-inversion.html",
+      "diveHref": "dive/alice/language-inversion.html",
+      "key": "alice/language-inversion",
+      "order": 51
     },
     {
       "id": "ley-lines-and-nodes",

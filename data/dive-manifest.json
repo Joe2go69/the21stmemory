@@ -412,9 +412,9 @@
       "sourceId": "alice",
       "topicId": "language-inversion",
       "path": "/dive/alice/language-inversion.html",
-      "live": false,
+      "live": true,
       "title": "Language Inversion",
-      "added": "2026-10-14"
+      "added": "2026-11-07T08:18:39-07:00"
     },
     {
       "sourceId": "alice",
