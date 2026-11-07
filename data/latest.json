@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "path-of-invention",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Path of Invention",
+      "description": "The Path of Invention is the manufactured story that technology grew from zero, taught to a reset population after an advanced civilization was stripped.",
+      "topic_image": "images/alice/path-of-invention.webp",
+      "path": "dive/alice/path-of-invention.html",
+      "added": "2026-11-07T07:23:13-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "evolution-in-a-lab",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Evolution in a Lab",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/ley-lines-and-nodes.webp",
       "path": "dive/alice/ley-lines-and-nodes.html",
       "added": "2026-11-05T01:37:24-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "spirit-tree",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Spirit Tree",
-      "description": "The Spirit Tree—interchangeably designated as Mt Meru, Black Rock, Hyperborea, and the geographic North Pole—is the foundational organic crystalline architecture at the central axis of Gateway-10.",
-      "topic_image": "images/alice/spirit-tree.webp",
-      "path": "dive/alice/spirit-tree.html",
-      "added": "2026-11-05T00:45:31-07:00"
     }
   ],
   "featured": [

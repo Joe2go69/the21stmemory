@@ -447,10 +447,10 @@
                 {
                   "id": "path-of-invention",
                   "title": "Path of Invention",
-                  "description": "Path of Invention",
-                  "topic_image": "images/alice/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-14"
+                  "description": "The Path of Invention is the manufactured story that technology grew from zero, taught to a reset population after an advanced civilization was stripped.",
+                  "topic_image": "images/alice/path-of-invention.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-07T07:23:13-07:00"
                 },
                 {
                   "id": "language-inversion",

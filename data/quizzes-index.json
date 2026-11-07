@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T10:46:26.951Z",
-  "total": 344,
+  "generatedAt": "2026-11-07T14:26:46.576Z",
+  "total": 345,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 81
+      "count": 82
     },
     {
       "id": "breakdown",
@@ -846,6 +846,20 @@
       "diveHref": "dive/alice/orphan-trains.html",
       "key": "alice/orphan-trains",
       "order": 66
+    },
+    {
+      "id": "path-of-invention",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Path of Invention",
+      "subtitle": "Test your understanding of Path of Invention — the progress myth, the stripped civilization, and the gap between 4th-density tools and 12th-density creation.",
+      "questionCount": 25,
+      "href": "quiz/alice/path-of-invention.html",
+      "diveHref": "dive/alice/path-of-invention.html",
+      "key": "alice/path-of-invention",
+      "order": 50
     },
     {
       "id": "perceived-knowledge-lies",
