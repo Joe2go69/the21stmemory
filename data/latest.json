@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "evolution-in-a-lab",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Evolution in a Lab",
+      "description": "Evolution in a Lab is the intentional upgrade of biological species in high-density laboratories by benevolent soul family networks, not gradual natural selection.",
+      "topic_image": "images/alice/evolution-in-a-lab.webp",
+      "path": "dive/alice/evolution-in-a-lab.html",
+      "added": "2026-11-07T03:42:28-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "vatican-thirteen",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Vatican Thirteen",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/spirit-tree.webp",
       "path": "dive/alice/spirit-tree.html",
       "added": "2026-11-05T00:45:31-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "organic-circuit",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Organic Circuit",
-      "description": "The Organic Circuit is the self-sustaining, natural technology and ergonomic electromagnetic structure of the realm.",
-      "topic_image": "images/alice/organic-circuit.webp",
-      "path": "dive/alice/organic-circuit.html",
-      "added": "2026-11-04T15:37:06-07:00"
     }
   ],
   "featured": [

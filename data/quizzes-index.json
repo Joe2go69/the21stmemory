@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T09:46:52.156Z",
-  "total": 343,
+  "generatedAt": "2026-11-07T10:46:26.951Z",
+  "total": 344,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 80
+      "count": 81
     },
     {
       "id": "breakdown",
@@ -370,6 +370,20 @@
       "diveHref": "dive/alice/evidence-of-resets.html",
       "key": "alice/evidence-of-resets",
       "order": 64
+    },
+    {
+      "id": "evolution-in-a-lab",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Evolution in a Lab",
+      "subtitle": "Test your understanding of Evolution in a Lab — lab upgrades, white-light species change, DNA pollination, and the firmament that asteroids cannot breach.",
+      "questionCount": 25,
+      "href": "quiz/alice/evolution-in-a-lab.html",
+      "diveHref": "dive/alice/evolution-in-a-lab.html",
+      "key": "alice/evolution-in-a-lab",
+      "order": 49
     },
     {
       "id": "fake-alien-invasion",

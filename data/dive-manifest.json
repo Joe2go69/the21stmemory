@@ -396,9 +396,9 @@
       "sourceId": "alice",
       "topicId": "evolution-in-a-lab",
       "path": "/dive/alice/evolution-in-a-lab.html",
-      "live": false,
+      "live": true,
       "title": "Evolution in a Lab",
-      "added": "2026-10-14"
+      "added": "2026-11-07T03:42:28-07:00"
     },
     {
       "sourceId": "alice",
