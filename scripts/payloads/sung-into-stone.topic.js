@@ -1,0 +1,80 @@
+module.exports = {
+  source: 'alice',
+  id: 'sung-into-stone',
+  title: 'Sung into Stone',
+  description: 'Sung into Stone is the primordial process of acoustic and harmonic materialization by which physical structures and architectural edifices are ordained and brought into physical reality.',
+  images: {
+    topic: { source: 'Sung into Stone.webp', target: 'sung-into-stone.webp' },
+    pdfPreview: { source: 'Sung_into_Stone pdf.webp', target: 'sung-into-stone-pdf.webp' },
+    infographic: { source: 'Acoustic_Physics_of_Primordial_Creation.webp', target: 'acoustic-physics-of-primordial-creation.webp' }
+  },
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/18cFDLbwfQJ0-WZezOPuRq6vpTEQSSr9l/view?usp=sharing',
+  rumble_videos: [
+    {
+      title: 'Sung into Stone',
+      embed_url: 'https://rumble.com/embed/v7fwuqu/?pub=4p0ieu',
+      description: 'Sung into Stone — Sound, light, and sustained intention ordain matter into solid structures without mechanical construction.'
+    },
+    {
+      title: 'How Ancients Melted Stone With Sound',
+      embed_url: 'https://rumble.com/embed/v7fwvae/?pub=4p0ieu',
+      description: 'How Ancients Melted Stone With Sound — Targeted acoustic frequencies soften Andesite and granite into putty so a vibrational mould can set the form.'
+    }
+  ],
+  report: `# Sung into Stone
+
+## Overview
+Sung into Stone (also designated as manifestation, sung buildings, or creation via tuning forks) is the primordial process of acoustic and harmonic materialization by which physical structures, building materials, and complex architectural edifices are ordained, shaped, and brought into physical reality. As a capability within vibrational manifestation, structures are not constructed through physical extraction, manual labor, or mechanical tools like hammers and chisels; rather, they are woven and sung into existence in the higher light realms or grown directly in front of observers in real-time. While primordial manifestation operates through the direct interaction of the pineal gland with the simulation aether, physical replica systems—such as Tartarian copies—utilized specialized tuning forks to interface harmonic frequencies directly with physical rock.
+
+## Key Terminology
+- **Sung into Stone** — The acoustic and harmonic manifestation process by which sound, light, and sustained intention ordain matter at the subatomic level to form solid physical structures without mechanical construction.
+- **Pineal Gland** — The primary organic consciousness interface in higher light realms through which a soul projects structured desire and intention into the aether to manifest physical reality.
+- **Tuning Forks** — Highly advanced frequency-manipulation instruments used in Tartarian architecture to replicate pineal manifestation by applying harmonic sound to manipulate and sculpt stone.
+- **Aether** — The underlying simulation software and energetic medium that responds to ordained intention and harmonic frequencies by allowing the physical constituent parts of reality to assemble.
+- **Vibrational Mould** — The energetic template or casting impression imparted onto softened stone through targeted acoustic frequencies, directing the material to set into precise mathematical and architectural forms.
+- **Cerebral Link** — A unified consciousness connection shared among multiple manifestors to combine pineal projection and amplify large-scale structural manifestations.
+
+## Core Revelations
+Building materials, plasmatic crystalline components, and precious mineral structures are not intended to be quarried or mined from the ground; instead, their constituent aspects at the subatomic level—including individual particles and molecules—are ordained through sound guided by sustained intention anchored in determined outcomes. This intention is sung in harmonic tones by one or multiple manifestors depending on the complexity of the desired object. While simple items such as a couch or a complex laptop can be manifested in milliseconds by a single individual, large-scale structures like an entire flying crystalline city typically require dozens of manifestors joined in a cerebral link with each other and the aether, often operating at a Temple to amplify the process.
+
+However, manifestors of extraordinary spiritual density possess the capability to bypass collective requirements. Beings such as Celestia and Raphael (Christian's mother and father, who exist as primordial Micro Suns) possess such immense soul power and foundational knowledge that either of them could raise an entire flying crystalline city alone.
+
+Furthermore, physical proof of this acoustic manifestation technology was covertly removed from the public realm during historical reset events. The secret cargo of the Titanic (which was actually the substituted sister vessel Olympic) included key artifacts of this system: a specialized tuning fork used in the creation of Tartarian architecture and a high-energy crystal harvested from a much larger power crystal recovered following the cataclysmic fall of Atlantis.
+
+## Detailed Mechanics and Key Elements
+The process of singing stone into existence operates through precise energetic and physical transformations across different densities and technological applications.
+
+### Subatomic Ordainment and Pineal Projection
+In higher light realms (9th to 12th density), manifestation is driven directly by consciousness. A manifestor projects their exact structural desire from their pineal gland out into the aether. The aether, functioning as simulation software, accepts the soul's design and permits the individual to ordain the subatomic constituent parts of reality. Sound guided by sustained intention commands the constituent particles and molecules to assemble into complex mathematical and architectural forms.
+
+### Acoustic Liquefaction and Material Transformation
+When targeted acoustic frequencies and harmonic light are applied to hard rock such as Andesite and granite, the dense stone undergoes an immediate structural transformation, softening into a consistency resembling putty. While in this malleable state:
+
+- The stone receives a vibrational mould or casting impression created by intention-driven sound frequencies, imprinting intricate architectural details without physical graft.
+- The physical limitations of weight and height are completely eliminated; the stone becomes weightless during excitation and can be elevated to immense heights without physical effort, cranes, or machinery.
+
+### Primordial Weaving vs. Tartarian Technical Replication
+The manifestation of physical structures occurs through two distinct modalities:
+
+**Primordial Light Realm Weaving:** Structures and temples are woven in the higher light realms using pure consciousness and pineal projection, then brought into physical density as complete, fully functioning edifices grown in real-time in front of observers.
+
+**Tartarian Technological Replication:** In lower physical densities where pineal interaction with the aether is constrained, Tartarian copies of ancient edifices (such as churches and cathedrals) were produced using technological instruments. Advanced tuning forks took the place of direct pineal projection, applying intent-directed harmonic frequencies to manipulate, liquefy, and sculpt stone directly within 3rd density.
+
+### Relics of the Titanic Payload
+The covert cargo lost during the engineered sinking of the Titanic contained two major artifacts derived from this manifestation system:
+
+**The Tartarian Tuning Fork:** A physical instrument engineered to emit the specific harmonic frequencies required to soften rock and imprint vibrational moulds into stone edifices.
+
+**The Atlantean Energy Crystal:** A fragment severed from a massive master crystal retrieved from a sunken city after Atlantis fell, engineered to emit immense quantities of energetic power to drive acoustic manifestation and architectural resonators.
+
+## Broader Context and Interconnections
+Sung into Stone represents the supreme manifestation mechanism within antiquity technology, establishing the true origin of ancient megaliths and architectural marvels that confound modern mechanical paradigms.
+
+This acoustic manifestation process is directly interconnected with Temples and nodal grid networks. Crystalline temples were grown and situated precisely over energetic nodes to act as natural amplifiers for collective manifestation and healing, allowing shared pineal projections to resonate through the planetary lattice. Rather than being constructed through manual stonemasonry or primitive quarrying, these ancient sites were woven in higher light realms or sculpted using tuning forks, leaving behind structures whose precise mathematical geometries and harmonic signatures reflect their acoustic origins.
+
+## Strategic Implications
+The reality of singing stone into physical form completely dismantles standard historical and architectural narratives regarding ancient construction. It demonstrates that ancient megaliths, Tartarian edifices, and unexplained stone monuments were not the result of slave labor, primitive chiseling, or mechanical haulage, but of advanced acoustic physics and consciousness-driven matter manipulation.
+
+Furthermore, the deliberate suppression of pineal capability and the destruction or confiscation of acoustic artifacts—such as the tuning fork and Atlantean crystal lost aboard the Titanic—served to conceal humanity's innate creative potential. By hiding the mechanics of sound-based materialization, population control systems forced human society into reliance on dense physical labor, resource extraction, and mechanical industrialization.
+`
+};

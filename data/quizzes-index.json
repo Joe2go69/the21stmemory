@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T12:42:30.637Z",
-  "total": 348,
+  "generatedAt": "2026-11-09T13:43:22.618Z",
+  "total": 349,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 85
+      "count": 86
     },
     {
       "id": "breakdown",
@@ -1084,6 +1084,20 @@
       "diveHref": "dive/alice/stars-as-projectors.html",
       "key": "alice/stars-as-projectors",
       "order": 7
+    },
+    {
+      "id": "sung-into-stone",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Sung into Stone",
+      "subtitle": "Test your understanding of Sung into Stone — acoustic manifestation, pineal projection, Tartarian tuning forks, and the Olympic cargo.",
+      "questionCount": 25,
+      "href": "quiz/alice/sung-into-stone.html",
+      "diveHref": "dive/alice/sung-into-stone.html",
+      "key": "alice/sung-into-stone",
+      "order": 60
     },
     {
       "id": "tartaria",

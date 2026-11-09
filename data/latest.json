@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "sung-into-stone",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Sung into Stone",
+      "description": "Sung into Stone is the primordial process of acoustic and harmonic materialization by which physical structures and architectural edifices are ordained and brought into physical reality.",
+      "topic_image": "images/alice/sung-into-stone.webp",
+      "path": "dive/alice/sung-into-stone.html",
+      "added": "2026-11-09T06:38:04-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "tv-and-radio",
       "series": "Following Alice in the Rabbit Hole",
       "title": "TV and Radio",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/red-mercury.webp",
       "path": "dive/alice/red-mercury.html",
       "added": "2026-11-05T10:48:35-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "minerals-stay-down",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Minerals Stay Down",
-      "description": "Minerals Stay Down is the fundamental principle governing the subterranean resources of a realm, establishing that planetary materials are designed to remain permanently where they sit.",
-      "topic_image": "images/alice/minerals-stay-down.webp",
-      "path": "dive/alice/minerals-stay-down.html",
-      "added": "2026-11-05T09:44:33-07:00"
     }
   ],
   "featured": [

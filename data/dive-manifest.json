@@ -484,9 +484,9 @@
       "sourceId": "alice",
       "topicId": "sung-into-stone",
       "path": "/dive/alice/sung-into-stone.html",
-      "live": false,
+      "live": true,
       "title": "Sung into Stone",
-      "added": "2026-10-14"
+      "added": "2026-11-09T06:38:04-07:00"
     },
     {
       "sourceId": "alice",
