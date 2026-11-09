@@ -436,9 +436,9 @@
       "sourceId": "alice",
       "topicId": "tv-and-radio",
       "path": "/dive/alice/tv-and-radio.html",
-      "live": false,
+      "live": true,
       "title": "TV and Radio",
-      "added": "2026-10-14"
+      "added": "2026-11-09T05:36:01-07:00"
     },
     {
       "sourceId": "alice",

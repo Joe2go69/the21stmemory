@@ -1,0 +1,648 @@
+module.exports = {
+  source: 'alice',
+  id: 'tv-and-radio',
+  title: 'TV and Radio',
+  description: 'Test your understanding of TV and Radio — NPC programming, thought-avenues, broadcast archetypes, and the institutions that lock perception.',
+  seoDescription: 'Interactive Living Truth Quiz on TV and Radio: the thinking man\'s television, Homer and bow-tie archetypes, and how broadcasts interlock with schools and peers.',
+  reflection: {
+    title: 'Reflection',
+    body: 'A show, a song, or a confident voice can hand you a ready-made person to be. Notice when an opinion arrives already finished, and when school, work, and channels that call themselves truth are walking the same track.'
+  },
+  questions: [
+    {
+      number: 1,
+      question: 'What distinguishes radio from television in terms of its operational disguise?',
+      hint: 'Look at the Key Terminology entry for the audio outlet.',
+      options: [
+        {
+          text: 'Radio operates under the guise of intellectual engagement while conducting mental programming.',
+          isCorrect: true,
+          rationale: 'Radio carries out mental and behavioral programming under the guise of intellectual engagement, which is why it is called the thinking man\'s television.'
+        },
+        {
+          text: 'Radio aims character stereotypes at people who already hold autonomous cognitive initiative and leaves the wider public untouched by audio outlets.',
+          isCorrect: false,
+          rationale: 'Radio programs non-player characters who lack autonomous cognitive initiative, rather than aiming its work at a separate aware group.'
+        },
+        {
+          text: 'Radio sets public opinions by presenting constructed visual narratives and pre-scripted character stereotypes for viewers to inhabit.',
+          isCorrect: false,
+          rationale: 'Visual narratives and character stereotypes belong to television, while radio is the audio outlet.'
+        },
+        {
+          text: 'Radio stands apart from formal school education and workplace peers, leaving those links to television.',
+          isCorrect: false,
+          rationale: 'Both outlets interlock with formal school education, workplace and social peers, and the rest of the matrix.'
+        }
+      ]
+    },
+    {
+      number: 2,
+      question: 'What percentage of the population is identified as Non-Player Characters (NPCs)?',
+      hint: 'Check the Key Terminology entry that defines the non-player character.',
+      options: [
+        {
+          text: 'Ninety-seven percent',
+          isCorrect: true,
+          rationale: 'NPCs are individuals comprising ninety-seven percent of the population who lack autonomous cognitive initiative and take identity from broadcast outlets.'
+        },
+        {
+          text: 'Fifty percent',
+          isCorrect: false,
+          rationale: 'The NPC share given in Key Terminology is ninety-seven percent of the population, not half.'
+        },
+        {
+          text: 'Seventy-three percent',
+          isCorrect: false,
+          rationale: 'The stated share is ninety-seven percent of the population who lack autonomous cognitive initiative.'
+        },
+        {
+          text: 'Eighty-five percent',
+          isCorrect: false,
+          rationale: 'Key Terminology puts non-player characters at ninety-seven percent of the population.'
+        }
+      ]
+    },
+    {
+      number: 3,
+      question: 'What are Thought-Avenues?',
+      hint: 'Look at the Key Terminology entry for the tracks non-player characters think along.',
+      options: [
+        {
+          text: 'Pre-engineered tracks and cognitive perimeters used to process daily experiences and interact with reality.',
+          isCorrect: true,
+          rationale: 'Thought-avenues are pre-engineered tracks and cognitive perimeters through which non-player characters process daily experiences and interact with reality.'
+        },
+        {
+          text: 'Scripted broadcast narratives that stand in for natural human awareness inside inversion tactics.',
+          isCorrect: false,
+          rationale: 'That replacement is the job of the broadcast nodes, while thought-avenues are the tracks a person thinks along.'
+        },
+        {
+          text: 'Spontaneous insights generated through autonomous cognitive initiative outside any broadcast outlet.',
+          isCorrect: false,
+          rationale: 'These tracks are pre-engineered, and non-player characters lack autonomous cognitive initiative.'
+        },
+        {
+          text: 'Formal school education and peer pressure that lock perception into a standardized matrix.',
+          isCorrect: false,
+          rationale: 'Schools and peers interlock with broadcasts, but thought-avenues are the cognitive perimeters themselves.'
+        }
+      ]
+    },
+    {
+      number: 4,
+      question: 'What lifestyle pattern is associated with the Homer Simpson archetype?',
+      hint: 'Look at the mechanics section on personality archetypes and the cartoon men are said to copy.',
+      options: [
+        {
+          text: 'Conforming lifestyle and behavioral habits to a low-effort cartoon caricature.',
+          isCorrect: true,
+          rationale: 'Men aspire to emulate the Homer Simpson stereotype by conforming their lifestyle and behavioral habits to that caricature.'
+        },
+        {
+          text: 'Adopting a bow-tie solicitor exterior from specialized broadcast shows in order to look intellectual.',
+          isCorrect: false,
+          rationale: 'The bow-tie solicitor is the borrowed intellectual exterior, not the Homer pattern.'
+        },
+        {
+          text: 'Developing genuine self-awareness in place of any fixed identity template from a broadcast show.',
+          isCorrect: false,
+          rationale: 'The Homer pattern occupies a fixed template in lieu of genuine self-awareness.'
+        },
+        {
+          text: 'Shifting an entire viewing public toward one dietary preference such as pizza after a sitcom.',
+          isCorrect: false,
+          rationale: 'That dietary shift is tied to mainstream television shows such as Friends, not to the Homer caricature.'
+        }
+      ]
+    },
+    {
+      number: 5,
+      question: 'What specific behavioral shift was prompted by mainstream television shows like Friends?',
+      hint: 'Look at the mechanics example of a sitcom changing a shared consumer habit.',
+      options: [
+        {
+          text: 'Uniform shifts in consumer habits, such as collective decisions to adopt specific dietary choices like pizza.',
+          isCorrect: true,
+          rationale: 'Mainstream television shows such as Friends prompt collective decisions to adopt specific dietary preferences like pizza.'
+        },
+        {
+          text: 'A move off television and onto radio as the more thoughtful broadcast format.',
+          isCorrect: false,
+          rationale: 'Friends is cited for consumer-habit shifts, while radio is a separate programming outlet.'
+        },
+        {
+          text: 'A drop of trendy pop costumes in favor of the bow-tie solicitor exterior.',
+          isCorrect: false,
+          rationale: 'Pop costumes and the bow-tie solicitor are other archetypes, not the Friends example.'
+        },
+        {
+          text: 'A rise in resistance to the mass emotional reactions media networks guide.',
+          isCorrect: false,
+          rationale: 'The sitcom example is a uniform consumer shift, and networks use broadcasts to guide those reactions.'
+        }
+      ]
+    },
+    {
+      number: 6,
+      question: 'What function does the bow-tie solicitor archetype serve in broadcast programming?',
+      hint: 'Look at the mechanics section on commercial and intellectual stereotypes.',
+      options: [
+        {
+          text: 'It models a low-effort cartoon caricature for men to copy in daily habits.',
+          isCorrect: false,
+          rationale: 'The low-effort cartoon caricature is the Homer Simpson stereotype.'
+        },
+        {
+          text: 'It sets standardized aesthetic standards through the trendy visual attire of pop singers on broadcast shows.',
+          isCorrect: false,
+          rationale: 'Those aesthetic standards come from the pop costume, not the solicitor archetype.'
+        },
+        {
+          text: 'It sparks collective dietary shifts such as a shared decision to adopt pizza.',
+          isCorrect: false,
+          rationale: 'Dietary shifts of that kind are tied to mainstream television shows such as Friends.'
+        },
+        {
+          text: 'It provides a borrowed intellectual exterior for individuals seeking an intellectual demeanor.',
+          isCorrect: true,
+          rationale: 'People seeking an intellectual demeanor take on a borrowed intellectual exterior from the solicitor archetype presented in specialized broadcast shows.'
+        }
+      ]
+    },
+    {
+      number: 7,
+      question: 'What role does pop costume play within the detailed mechanics of broadcast media?',
+      hint: 'Look at the mechanics section on commercial and intellectual stereotypes and visual imitation.',
+      options: [
+        {
+          text: 'It insulates non-player characters from workplace peers and from social pressure.',
+          isCorrect: false,
+          rationale: 'Peer pressure works with broadcasts to hold people inside the matrix, and pop costume does not cut that link.'
+        },
+        {
+          text: 'It establishes standardized visual aesthetic standards for mass imitation.',
+          isCorrect: true,
+          rationale: 'The pop costume and trendy visual attire of pop singers establish standardized aesthetic standards for mass imitation.'
+        },
+        {
+          text: 'It installs thought-avenues by audio under the guise of intellectual engagement on radio.',
+          isCorrect: false,
+          rationale: 'That audio guise belongs to radio, while pop costume is a visual standard for imitation.'
+        },
+        {
+          text: 'It opens a path apart from controlled internet truth channels and print literature.',
+          isCorrect: false,
+          rationale: 'Pop costume is an aesthetic stereotype inside the broadcast framework, not a way out of the other outlets.'
+        }
+      ]
+    },
+    {
+      number: 8,
+      question: 'What is the defined purpose of Programming?',
+      hint: 'Look at the Key Terminology entry for how opinions and boundaries get installed.',
+      options: [
+        {
+          text: 'Systematically installing predetermined thought-avenues, opinions, and behavioral boundaries into non-player characters.',
+          isCorrect: true,
+          rationale: 'Programming installs opinions and behavioral boundaries into non-player characters through broadcast media and societal institutions.'
+        },
+        {
+          text: 'Scheduling daily television lineups and radio hours so the outlets stay on the air.',
+          isCorrect: false,
+          rationale: 'Here programming means installing thought-avenues and behavioral boundaries, not a broadcast schedule.'
+        },
+        {
+          text: 'Encouraging autonomous cognitive initiative and distance from broadcast outlets.',
+          isCorrect: false,
+          rationale: 'Programming installs predetermined opinions into people who lack autonomous cognitive initiative.'
+        },
+        {
+          text: 'Removing school curricula and print literature so media consumption falls away.',
+          isCorrect: false,
+          rationale: 'School and print interlock with broadcast programming rather than being removed by it.'
+        }
+      ]
+    },
+    {
+      number: 9,
+      question: "How do controlled internet 'truth' channels function within the broader broadcast framework?",
+      hint: 'Read the Core Revelations passage on outlets that do not work alone.',
+      options: [
+        {
+          text: 'They work on their own to dismantle artificial persona archetypes, borrowed persona shells, and the fixed identity templates people occupy.',
+          isCorrect: false,
+          rationale: 'These channels are controlled and interlock with broadcast media rather than dismantling it.'
+        },
+        {
+          text: 'They open genuine avenues of liberation from broadcast narratives.',
+          isCorrect: false,
+          rationale: 'Liberation is described as seeing how television and radio manufacture opinions, not as following these channels.'
+        },
+        {
+          text: 'They interlock with broadcast media, schools, and peers to lock individual perception into a standardized matrix.',
+          isCorrect: true,
+          rationale: 'With formal school education and workplace and social peers, these channels help lock individual perception into a standardized matrix.'
+        },
+        {
+          text: 'They focus on commercial fashion trends rather than cognitive boundary maintenance.',
+          isCorrect: false,
+          rationale: 'Fashion stereotypes are a separate mechanic, while these channels help hold perception inside the matrix.'
+        }
+      ]
+    },
+    {
+      number: 10,
+      question: 'What is the primary function of television as a visual broadcast medium?',
+      hint: 'Look at the Key Terminology entry for the visual mass-broadcast medium.',
+      options: [
+        {
+          text: 'Filtering workplace and social peers out of public life so their pressure fades.',
+          isCorrect: false,
+          rationale: 'Television interlocks with workplace and social peers instead of filtering them out.'
+        },
+        {
+          text: 'Directly setting public opinions, dictating trends, and offering pre-scripted identity stereotypes.',
+          isCorrect: true,
+          rationale: 'Television directly sets public opinions and dictates cultural trends, and it provides character stereotypes for individuals to inhabit.'
+        },
+        {
+          text: 'Promoting autonomous thought through intellectual engagement and open debate.',
+          isCorrect: false,
+          rationale: 'Intellectual engagement is the guise of radio, and television sets constructed opinions.'
+        },
+        {
+          text: 'Operating as the audio outlet that programs listeners under a thoughtful broadcast format while directing internal thought processes.',
+          isCorrect: false,
+          rationale: 'That thoughtful audio format is radio, while television is the visual medium.'
+        }
+      ]
+    },
+    {
+      number: 11,
+      question: 'Television and radio function as essential mechanism nodes within which broader strategy?',
+      hint: 'Read the opening Broader Context paragraph on where these outlets sit.',
+      options: [
+        {
+          text: 'Decentralized schooling aimed at dropping formal curricula.',
+          isCorrect: false,
+          rationale: 'Broadcasts coordinate with school curricula rather than dropping them.'
+        },
+        {
+          text: 'Frameworks of autonomous cognitive initiative meant to widen awareness.',
+          isCorrect: false,
+          rationale: 'The nodes replace natural human awareness, and non-player characters lack autonomous cognitive initiative.'
+        },
+        {
+          text: 'Inversion tactics designed to replace natural human awareness with scripted broadcast narratives.',
+          isCorrect: true,
+          rationale: 'These essential mechanism nodes sit within broader inversion tactics and replace natural human awareness with scripted broadcast narrative.'
+        },
+        {
+          text: 'Advertising plans that stop once pizza preferences, pop costumes, and the bow-tie solicitor exterior have spread through the public.',
+          isCorrect: false,
+          rationale: 'Consumer habits are one mechanic, while the broader placement is inversion tactics.'
+        }
+      ]
+    },
+    {
+      number: 12,
+      question: 'What defining characteristic distinguishes non-player characters (NPCs) from autonomous individuals?',
+      hint: 'Look at the Key Terminology entry for what these individuals lack and where identity comes from.',
+      options: [
+        {
+          text: 'They author the pre-engineered thought-avenues, opinions, and behavioral boundaries and then hand that programming to the wider public.',
+          isCorrect: false,
+          rationale: 'Thought-avenues are installed into non-player characters, who do not author them.'
+        },
+        {
+          text: 'They refuse visual broadcasts and take their worldview from radio alone.',
+          isCorrect: false,
+          rationale: 'They tune into both television and radio to realize their thought-avenues.'
+        },
+        {
+          text: 'They make up a small share of the population set apart from broadcast outlets.',
+          isCorrect: false,
+          rationale: 'They comprise ninety-seven percent of the population and rely on those outlets.'
+        },
+        {
+          text: 'They lack autonomous cognitive initiative and rely on media outlets to supply their identity and worldview.',
+          isCorrect: true,
+          rationale: 'They lack autonomous cognitive initiative and rely on broadcast media outlets to supply their identity, language, and worldview.'
+        }
+      ]
+    },
+    {
+      number: 13,
+      question: 'Besides setting opinions and thought-avenues, how do media networks maintain control over the public?',
+      hint: 'Look at the closing sentences of the cognitive boundary section.',
+      options: [
+        {
+          text: 'By pressing viewers into the bow-tie solicitor persona on every specialized show.',
+          isCorrect: false,
+          rationale: 'The bow-tie solicitor is one borrowed exterior, not the means of public emotional control.'
+        },
+        {
+          text: 'By leveraging broadcast outlets to guide mass emotional reactions.',
+          isCorrect: true,
+          rationale: 'Media networks leverage these outlets to guide mass emotional reactions while maintaining tight emotional control over the public.'
+        },
+        {
+          text: 'By swapping print literature for unedited radio transmissions across daily life.',
+          isCorrect: false,
+          rationale: 'Print literature interlocks with television and radio rather than being swapped out.'
+        },
+        {
+          text: 'By cutting off schools, workplace peers, and the other secondary institutions.',
+          isCorrect: false,
+          rationale: 'Those institutions coordinate with the broadcasts to keep non-player characters insulated from authentic reality.'
+        }
+      ]
+    },
+    {
+      number: 14,
+      question: 'What is required to achieve complete liberation from automated societal programming?',
+      hint: 'Read the opening Strategic Implications paragraph.',
+      options: [
+        {
+          text: 'Identifying how television and radio manufacture artificial opinions and force behavioral compliance.',
+          isCorrect: true,
+          rationale: 'Complete liberation from automated societal programming requires seeing how these outlets manufacture artificial opinions and force behavioral compliance.'
+        },
+        {
+          text: 'Limiting cognition to the pre-approved internet truth channels.',
+          isCorrect: false,
+          rationale: 'Those channels help lock perception into the matrix, so they are not the liberation step.'
+        },
+        {
+          text: 'Moving from television over to radio as the thoughtful format.',
+          isCorrect: false,
+          rationale: 'Radio carries out mental and behavioral programming with the same efficacy as television.'
+        },
+        {
+          text: 'Taking the bow-tie solicitor archetype as a higher intellectual exterior.',
+          isCorrect: false,
+          rationale: 'That archetype is a borrowed intellectual exterior, another broadcast fabrication.'
+        }
+      ]
+    },
+    {
+      number: 15,
+      question: 'Which secondary societal institutions coordinate with television and radio messaging?',
+      hint: 'Read Core Revelations and Broader Context for the partner outlets.',
+      options: [
+        {
+          text: 'Personality archetypes, dietary preferences like pizza, trendy visual attire of pop singers, and the low-effort cartoon caricature men copy.',
+          isCorrect: false,
+          rationale: 'Those are broadcast templates and consumer shifts, not the secondary institutions in the matrix.'
+        },
+        {
+          text: "School curricula, social pressure from peers, print literature, and controlled internet 'truth' channels.",
+          isCorrect: true,
+          rationale: 'Messaging coordinates with secondary societal institutions including school curricula and social pressure from peers, and print literature joins the channels that keep people insulated from authentic reality.'
+        },
+        {
+          text: 'Autonomous cognitive initiative, genuine self-awareness, and natural human awareness.',
+          isCorrect: false,
+          rationale: 'Those are what the framework replaces or withholds, not partner institutions.'
+        },
+        {
+          text: 'The Homer Simpson stereotype, the bow-tie solicitor, and pop singer costumes.',
+          isCorrect: false,
+          rationale: 'Those are identity and aesthetic templates inside the broadcasts, not the coordinating institutions.'
+        }
+      ]
+    },
+    {
+      number: 16,
+      question: 'What happens when non-player characters repeatedly interact with television and radio broadcasts?',
+      hint: 'Read the cognitive boundary section on repeated contact with programming.',
+      options: [
+        {
+          text: 'They realize their designated thought-avenues and maintain cognitive activity within pre-approved parameters.',
+          isCorrect: true,
+          rationale: 'They meet those avenues by repeatedly interacting with television and radio programming, and cognitive activity remains safely inside the pre-set limits.'
+        },
+        {
+          text: 'They disrupt the links among formal school education, workplace and social peers, print literature, and controlled internet channels.',
+          isCorrect: false,
+          rationale: 'Repeated contact keeps them on the tracks and reinforces the interlocking outlets.'
+        },
+        {
+          text: 'They develop autonomous cognitive initiative apart from broadcast narratives.',
+          isCorrect: false,
+          rationale: 'Continued contact installs programming in people who lack autonomous cognitive initiative.'
+        },
+        {
+          text: 'They discard borrowed persona shells and leave the established tracks.',
+          isCorrect: false,
+          rationale: 'Discarding those shells follows from recognizing the fabrications, not from staying tuned in.'
+        }
+      ]
+    },
+    {
+      number: 17,
+      question: 'What do broadcast show characters provide to viewers in place of genuine self-awareness?',
+      hint: 'Look at the opening of the personality archetypes section.',
+      options: [
+        {
+          text: 'Fixed identity templates and artificial persona shells that individuals occupy.',
+          isCorrect: true,
+          rationale: 'Broadcast show characters provide fixed identity templates that individuals occupy instead of developing their own awareness.'
+        },
+        {
+          text: 'Open creative outlets for expression outside any broadcast template.',
+          isCorrect: false,
+          rationale: 'The characters supply fixed templates for imitation, not an open outlet for expression.'
+        },
+        {
+          text: 'Direct pathways into autonomous cognitive initiative.',
+          isCorrect: false,
+          rationale: 'Occupying those templates stands in for genuine self-awareness and autonomous initiative.'
+        },
+        {
+          text: 'Tools for questioning societal structures, leaving pre-set parameters, and discarding the fixed identity templates.',
+          isCorrect: false,
+          rationale: 'The templates keep people inside broadcast identity, and the parameters stay in place.'
+        }
+      ]
+    },
+    {
+      number: 18,
+      question: 'What is the result of locking individual perception into a standardized matrix?',
+      hint: 'Read the Broader Context sentence on what that coordination ensures.',
+      options: [
+        {
+          text: 'Public opinion becomes decentralized and hard for the outlets to steer.',
+          isCorrect: false,
+          rationale: 'The matrix standardizes perception and lets networks guide mass emotional reactions.'
+        },
+        {
+          text: 'Individuals develop heightened autonomous cognitive initiative.',
+          isCorrect: false,
+          rationale: 'Non-player characters lack autonomous cognitive initiative, and the matrix keeps them there.'
+        },
+        {
+          text: 'Broadcast outlets lose their pull on consumer habits and identity choices.',
+          isCorrect: false,
+          rationale: 'The matrix is how those outlets keep consumer habits and identity on the pre-set tracks.'
+        },
+        {
+          text: 'Non-player characters remain insulated from authentic reality.',
+          isCorrect: true,
+          rationale: 'The coordination ensures that non-player characters remain insulated from authentic reality.'
+        }
+      ]
+    },
+    {
+      number: 19,
+      question: 'Which of these is NOT an artificial broadcast identity described in the mechanics?',
+      hint: 'Compare the personality, commercial, and intellectual stereotypes, and find the one the broadcasts do not hand out.',
+      options: [
+        {
+          text: 'The Homer Simpson stereotype, a low-effort cartoon caricature that men conform their habits toward.',
+          isCorrect: false,
+          rationale: 'Men aspire to emulate the Homer Simpson stereotype and conform their lifestyle to that caricature.'
+        },
+        {
+          text: 'The bow-tie solicitor archetype, a borrowed intellectual exterior from specialized broadcast shows.',
+          isCorrect: false,
+          rationale: 'People seeking an intellectual demeanor take on that borrowed intellectual exterior.'
+        },
+        {
+          text: 'The pop costume and trendy visual attire of pop singers, a standard set up for mass imitation.',
+          isCorrect: false,
+          rationale: 'That attire establishes standardized aesthetic standards for mass imitation.'
+        },
+        {
+          text: 'A persona of genuine self-awareness built apart from broadcast show characters.',
+          isCorrect: true,
+          rationale: 'Show characters provide fixed identity templates that people occupy instead of that self-awareness, so this persona is not one of the broadcast identities.'
+        }
+      ]
+    },
+    {
+      number: 20,
+      question: 'What must be recognized before individuals can discard borrowed persona shells?',
+      hint: 'Read the closing Strategic Implications paragraph on identity types.',
+      options: [
+        {
+          text: 'That television outruns radio at producing real intellectual growth.',
+          isCorrect: false,
+          rationale: 'Both outlets program the public, and radio works under the guise of intellectual engagement.'
+        },
+        {
+          text: 'That ninety-seven percent of the population already holds full self-awareness.',
+          isCorrect: false,
+          rationale: 'That share lacks autonomous cognitive initiative and takes identity from broadcast outlets.'
+        },
+        {
+          text: 'That identity types ranging from Homer to the bow-tie solicitor are artificial broadcast fabrications.',
+          isCorrect: true,
+          rationale: 'Those societal identity types are artificial broadcast fabrications, and seeing that lets people discard borrowed persona shells.'
+        },
+        {
+          text: 'That controlled internet truth channels are an authentic path to liberation.',
+          isCorrect: false,
+          rationale: 'Those channels help lock individual perception into the standardized matrix.'
+        }
+      ]
+    },
+    {
+      number: 21,
+      question: 'What outcome follows when someone abandons media-driven opinions and artificial identity types?',
+      hint: 'Read the closing Strategic Implications sentence on persona shells and thought-avenues.',
+      options: [
+        {
+          text: 'They break out of established thought-avenues and discard borrowed persona shells.',
+          isCorrect: true,
+          rationale: 'Seeing the fabrications lets them discard borrowed persona shells and leave the established tracks.'
+        },
+        {
+          text: 'They reinforce the cognitive perimeter held by schools and workplace peers.',
+          isCorrect: false,
+          rationale: 'Leaving the tracks works against the perimeter those institutions help hold.'
+        },
+        {
+          text: 'They align daily habits more closely with the low-effort cartoon caricature.',
+          isCorrect: false,
+          rationale: 'That caricature is a borrowed shell being discarded, not a closer fit.'
+        },
+        {
+          text: 'They join the ninety-seven percent who take their identity, language, and worldview from television and radio outlets.',
+          isCorrect: false,
+          rationale: 'Abandoning media-driven opinion is the move away from that reliance, not into it.'
+        }
+      ]
+    },
+    {
+      number: 22,
+      question: 'True or False: Radio drops mental and behavioral programming and leaves listeners with autonomous cognitive initiative.',
+      hint: 'Look at the Key Terminology and Core Revelations lines on what radio keeps doing.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: false,
+          rationale: 'Radio carries out mental and behavioral programming under the guise of intellectual engagement.'
+        },
+        {
+          text: 'False',
+          isCorrect: true,
+          rationale: 'Radio continuously carries out mental and behavioral programming, and the non-player audience lacks autonomous cognitive initiative.'
+        }
+      ]
+    },
+    {
+      number: 23,
+      question: 'True or False: Media networks leverage broadcast outlets to guide mass emotional reactions and keep tight emotional control over the public.',
+      hint: 'Look at the closing lines of the cognitive boundary section.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: true,
+          rationale: 'Those networks leverage the outlets to guide mass emotional reactions while maintaining tight emotional control over the public.'
+        },
+        {
+          text: 'False',
+          isCorrect: false,
+          rationale: 'The cognitive boundary section says the networks guide mass emotional reactions and maintain tight emotional control.'
+        }
+      ]
+    },
+    {
+      number: 24,
+      question: 'True or False: Individuals seeking an intellectual demeanor develop genuine self-awareness instead of taking on the bow-tie solicitor archetype.',
+      hint: 'Look at the mechanics section on commercial and intellectual stereotypes.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: false,
+          rationale: 'They gravitate toward the solicitor archetype presented on specialized shows and take on a borrowed intellectual exterior.'
+        },
+        {
+          text: 'False',
+          isCorrect: true,
+          rationale: 'They take a borrowed intellectual exterior from the solicitor archetype presented in specialized broadcast shows, rather than genuine self-awareness.'
+        }
+      ]
+    },
+    {
+      number: 25,
+      question: 'True or False: Television actively sets opinions across the population by presenting specific character models that people select, absorb, and live inside.',
+      hint: 'Read the opening Core Revelations paragraph on television.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: true,
+          rationale: 'Television actively sets opinions by presenting specific character models that people select, absorb, and live inside.'
+        },
+        {
+          text: 'False',
+          isCorrect: false,
+          rationale: 'The Core Revelations state that television actively sets opinions through specific character models people live inside.'
+        }
+      ]
+    }
+  ]
+};

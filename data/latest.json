@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "tv-and-radio",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "TV and Radio",
+      "description": "Television and radio function as primary NPC programming outlets engineered to set public opinion, dictate social behavior, and systematically mold human consciousness.",
+      "topic_image": "images/alice/tv-and-radio.webp",
+      "path": "dive/alice/tv-and-radio.html",
+      "added": "2026-11-09T05:36:01-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "disclosure-psyop",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Disclosure Psyop",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/minerals-stay-down.webp",
       "path": "dive/alice/minerals-stay-down.html",
       "added": "2026-11-05T09:44:33-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "crystal-alters",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Crystal Alters",
-      "description": "Crystal Alters—alternatively designated as the altar, the crystal interface, or focal nodes—represent the primary energetic apparatus positioned at the focal center of high-energy sites.",
-      "topic_image": "images/alice/crystal-alters.webp",
-      "path": "dive/alice/crystal-alters.html",
-      "added": "2026-11-05T08:18:50-07:00"
     }
   ],
   "featured": [

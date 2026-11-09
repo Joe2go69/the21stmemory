@@ -481,10 +481,10 @@
             {
               "id": "tv-and-radio",
               "title": "TV and Radio",
-              "description": "TV and Radio",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Television and radio function as primary NPC programming outlets engineered to set public opinion, dictate social behavior, and systematically mold human consciousness.",
+              "topic_image": "images/alice/tv-and-radio.webp",
+              "is_placeholder": false,
+              "added": "2026-11-09T05:36:01-07:00"
             }
           ]
         }
