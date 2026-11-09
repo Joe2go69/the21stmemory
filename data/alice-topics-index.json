@@ -473,10 +473,10 @@
             {
               "id": "disclosure-psyop",
               "title": "Disclosure Psyop",
-              "description": "Disclosure Psyop",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "The Disclosure Psyop is a CIA and parasitic-control operation that manages perception of extra-terrestrial life, staged planetary events, and the Great Spiritual Awakening.",
+              "topic_image": "images/alice/disclosure-psyop.webp",
+              "is_placeholder": false,
+              "added": "2026-11-09T04:27:36-07:00"
             },
             {
               "id": "tv-and-radio",

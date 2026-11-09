@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "disclosure-psyop",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Disclosure Psyop",
+      "description": "The Disclosure Psyop is a CIA and parasitic-control operation that manages perception of extra-terrestrial life, staged planetary events, and the Great Spiritual Awakening.",
+      "topic_image": "images/alice/disclosure-psyop.webp",
+      "path": "dive/alice/disclosure-psyop.html",
+      "added": "2026-11-09T04:27:36-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "language-inversion",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Language Inversion",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/crystal-alters.webp",
       "path": "dive/alice/crystal-alters.html",
       "added": "2026-11-05T08:18:50-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "villages-on-nodes",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Villages on Nodes",
-      "description": "Villages on Nodes represents the deliberate, engineered placement of foundational human settlements directly atop high-energy planetary nodes rather than accidental or spontaneous geographic development.",
-      "topic_image": "images/alice/villages-on-nodes.webp",
-      "path": "dive/alice/villages-on-nodes.html",
-      "added": "2026-11-05T05:42:35-07:00"
     }
   ],
   "featured": [

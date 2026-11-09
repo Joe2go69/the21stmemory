@@ -428,9 +428,9 @@
       "sourceId": "alice",
       "topicId": "disclosure-psyop",
       "path": "/dive/alice/disclosure-psyop.html",
-      "live": false,
+      "live": true,
       "title": "Disclosure Psyop",
-      "added": "2026-10-14"
+      "added": "2026-11-09T04:27:36-07:00"
     },
     {
       "sourceId": "alice",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T15:22:55.150Z",
-  "total": 346,
+  "generatedAt": "2026-11-09T11:37:43.725Z",
+  "total": 347,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 83
+      "count": 84
     },
     {
       "id": "breakdown",
@@ -300,6 +300,20 @@
       "diveHref": "dive/alice/density-suppression.html",
       "key": "alice/density-suppression",
       "order": 47
+    },
+    {
+      "id": "disclosure-psyop",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Disclosure Psyop",
+      "subtitle": "Test your understanding of Disclosure Psyop — managed extra-terrestrial narratives, replica souls, Project Serpo, and monetized channeling.",
+      "questionCount": 25,
+      "href": "quiz/alice/disclosure-psyop.html",
+      "diveHref": "dive/alice/disclosure-psyop.html",
+      "key": "alice/disclosure-psyop",
+      "order": 53
     },
     {
       "id": "ebs-disclosure",
