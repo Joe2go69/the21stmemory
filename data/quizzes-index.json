@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T13:43:22.618Z",
-  "total": 349,
+  "generatedAt": "2026-11-09T14:28:23.630Z",
+  "total": 350,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 86
+      "count": 87
     },
     {
       "id": "breakdown",
@@ -902,6 +902,20 @@
       "diveHref": "dive/alice/perceived-knowledge-lies.html",
       "key": "alice/perceived-knowledge-lies",
       "order": 83
+    },
+    {
+      "id": "radium-and-kryptonite",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Radium and Kryptonite",
+      "subtitle": "Test your understanding of Radium and Kryptonite — soft green household light, the reversed tell, and why radium was taken out of homes.",
+      "questionCount": 25,
+      "href": "quiz/alice/radium-and-kryptonite.html",
+      "diveHref": "dive/alice/radium-and-kryptonite.html",
+      "key": "alice/radium-and-kryptonite",
+      "order": 61
     },
     {
       "id": "recycled-souls",

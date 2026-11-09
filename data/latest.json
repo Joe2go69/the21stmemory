@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "radium-and-kryptonite",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Radium and Kryptonite",
+      "description": "Radium and Kryptonite constitutes a primary manifestation of high-frequency technology and truth in plain sight.",
+      "topic_image": "images/alice/radium-and-kryptonite.webp",
+      "path": "dive/alice/radium-and-kryptonite.html",
+      "added": "2026-11-09T07:23:01-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "sung-into-stone",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Sung into Stone",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/zep-tepi-and-the-canyon.webp",
       "path": "dive/alice/zep-tepi-and-the-canyon.html",
       "added": "2026-11-05T11:35:54-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "red-mercury",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Red Mercury",
-      "description": "Red Mercury represents a specialized, highly complex liquid metal fundamentally distinct from ordinary elemental liquids and conventional furnace mercury.",
-      "topic_image": "images/alice/red-mercury.webp",
-      "path": "dive/alice/red-mercury.html",
-      "added": "2026-11-05T10:48:35-07:00"
     }
   ],
   "featured": [

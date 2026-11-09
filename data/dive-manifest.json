@@ -492,9 +492,9 @@
       "sourceId": "alice",
       "topicId": "radium-and-kryptonite",
       "path": "/dive/alice/radium-and-kryptonite.html",
-      "live": false,
+      "live": true,
       "title": "Radium and Kryptonite",
-      "added": "2026-10-14"
+      "added": "2026-11-09T07:23:01-07:00"
     },
     {
       "sourceId": "alice",
