@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "titanic-switch",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Titanic Switch",
+      "description": "The Titanic Switch is a covert maritime substitution that sent the Olympic down under the Titanic name to remove Federal Reserve opposition and conceal ancient technology.",
+      "topic_image": "images/alice/titanic-switch.webp",
+      "path": "dive/alice/titanic-switch.html",
+      "added": "2026-11-10T09:38:17-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "drab-on-purpose",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Drab on Purpose",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/vatican-thirteen.webp",
       "path": "dive/alice/vatican-thirteen.html",
       "added": "2026-11-07T02:39:52-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "demons-and-sold-souls",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Demons and Sold Souls",
-      "description": "A sold soul hosts a 4th-density demon whose authority depends on loosh harvested from trauma, fear, and suffering.",
-      "topic_image": "images/alice/demons-and-sold-souls.webp",
-      "path": "dive/alice/demons-and-sold-souls.html",
-      "added": "2026-11-07T01:02:08-07:00"
     }
   ],
   "featured": [

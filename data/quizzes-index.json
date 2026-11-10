@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T13:14:16.295Z",
-  "total": 353,
+  "generatedAt": "2026-11-10T16:42:28.437Z",
+  "total": 354,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 90
+      "count": 91
     },
     {
       "id": "breakdown",
@@ -1224,6 +1224,20 @@
       "diveHref": "dive/alice/time-back-home.html",
       "key": "alice/time-back-home",
       "order": 5
+    },
+    {
+      "id": "titanic-switch",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Titanic Switch",
+      "subtitle": "Test your understanding of the Titanic Switch — the Olympic name-plate swap, the Federal Reserve cull, and the artifacts sent to the Atlantic floor.",
+      "questionCount": 25,
+      "href": "quiz/alice/titanic-switch.html",
+      "diveHref": "dive/alice/titanic-switch.html",
+      "key": "alice/titanic-switch",
+      "order": 70
     },
     {
       "id": "tv-and-radio",
