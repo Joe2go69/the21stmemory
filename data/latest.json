@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "pneumatic-rail",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Pneumatic Rail",
+      "description": "Pneumatic Rail is a high-speed subterranean mass transit system engineered to run on clean pneumatic air pressure without dangerous electricity.",
+      "topic_image": "images/alice/pneumatic-rail.webp",
+      "path": "dive/alice/pneumatic-rail.html",
+      "added": "2026-11-10T04:46:53-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "radium-and-kryptonite",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Radium and Kryptonite",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/ghosts-are-a-gig.webp",
       "path": "dive/alice/ghosts-are-a-gig.html",
       "added": "2026-11-05T15:16:50-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "zep-tepi-and-the-canyon",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Zep Tepi and the Canyon",
-      "description": "The historical epoch known as Zep Tepi, translated as the First Time, corresponds directly to Reset 1 or Reset 2 in the sequence of planetary resets.",
-      "topic_image": "images/alice/zep-tepi-and-the-canyon.webp",
-      "path": "dive/alice/zep-tepi-and-the-canyon.html",
-      "added": "2026-11-05T11:35:54-07:00"
     }
   ],
   "featured": [

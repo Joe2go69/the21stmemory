@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T14:28:23.630Z",
-  "total": 350,
+  "generatedAt": "2026-11-10T11:57:47.712Z",
+  "total": 351,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 87
+      "count": 88
     },
     {
       "id": "breakdown",
@@ -902,6 +902,20 @@
       "diveHref": "dive/alice/perceived-knowledge-lies.html",
       "key": "alice/perceived-knowledge-lies",
       "order": 83
+    },
+    {
+      "id": "pneumatic-rail",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Pneumatic Rail",
+      "subtitle": "Test your understanding of Pneumatic Rail — clean pneumatic air pressure, the tenderless 1867 run, and the subterranean baseline shared across cities.",
+      "questionCount": 25,
+      "href": "quiz/alice/pneumatic-rail.html",
+      "diveHref": "dive/alice/pneumatic-rail.html",
+      "key": "alice/pneumatic-rail",
+      "order": 62
     },
     {
       "id": "radium-and-kryptonite",

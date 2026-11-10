@@ -500,9 +500,9 @@
       "sourceId": "alice",
       "topicId": "pneumatic-rail",
       "path": "/dive/alice/pneumatic-rail.html",
-      "live": false,
+      "live": true,
       "title": "Pneumatic Rail",
-      "added": "2026-10-14"
+      "added": "2026-11-10T04:46:53-07:00"
     },
     {
       "sourceId": "alice",

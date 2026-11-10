@@ -549,10 +549,10 @@
                 {
                   "id": "pneumatic-rail",
                   "title": "Pneumatic Rail",
-                  "description": "Pneumatic Rail",
-                  "topic_image": "images/alice/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-14"
+                  "description": "Pneumatic Rail is a high-speed subterranean mass transit system engineered to run on clean pneumatic air pressure without dangerous electricity.",
+                  "topic_image": "images/alice/pneumatic-rail.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-10T04:46:53-07:00"
                 }
               ]
             },
