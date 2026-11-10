@@ -559,10 +559,10 @@
             {
               "id": "drab-on-purpose",
               "title": "Drab on Purpose",
-              "description": "Drab on Purpose",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Drab on Purpose is the deliberate architectural and environmental degradation of the built landscape, replacing harmonic beauty with uniform visual austerity.",
+              "topic_image": "images/alice/drab-on-purpose.webp",
+              "is_placeholder": false,
+              "added": "2026-11-10T06:08:53-07:00"
             }
           ]
         },

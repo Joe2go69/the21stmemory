@@ -508,9 +508,9 @@
       "sourceId": "alice",
       "topicId": "drab-on-purpose",
       "path": "/dive/alice/drab-on-purpose.html",
-      "live": false,
+      "live": true,
       "title": "Drab on Purpose",
-      "added": "2026-10-14"
+      "added": "2026-11-10T06:08:53-07:00"
     },
     {
       "sourceId": "alice",

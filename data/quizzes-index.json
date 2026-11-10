@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T12:34:33.932Z",
-  "total": 352,
+  "generatedAt": "2026-11-10T13:14:16.295Z",
+  "total": 353,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 89
+      "count": 90
     },
     {
       "id": "breakdown",
@@ -314,6 +314,20 @@
       "diveHref": "dive/alice/disclosure-psyop.html",
       "key": "alice/disclosure-psyop",
       "order": 53
+    },
+    {
+      "id": "drab-on-purpose",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Drab on Purpose",
+      "subtitle": "Test your understanding of Drab on Purpose — the same ugly plan, 33rd-degree planning oversight, and the ramp toward the 8th reset.",
+      "questionCount": 25,
+      "href": "quiz/alice/drab-on-purpose.html",
+      "diveHref": "dive/alice/drab-on-purpose.html",
+      "key": "alice/drab-on-purpose",
+      "order": 63
     },
     {
       "id": "dumb-nurseries",

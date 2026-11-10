@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "drab-on-purpose",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Drab on Purpose",
+      "description": "Drab on Purpose is the deliberate architectural and environmental degradation of the built landscape, replacing harmonic beauty with uniform visual austerity.",
+      "topic_image": "images/alice/drab-on-purpose.webp",
+      "path": "dive/alice/drab-on-purpose.html",
+      "added": "2026-11-10T06:08:53-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "dumb-nurseries",
       "series": "Following Alice in the Rabbit Hole",
       "title": "DUMB Nurseries",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/demons-and-sold-souls.webp",
       "path": "dive/alice/demons-and-sold-souls.html",
       "added": "2026-11-07T01:02:08-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "niberians",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Niberians",
-      "description": "The Niberians are the most powerful parasitic species ever created, massive intellectual warriors who outsmarted their Custodian creators and exist in complete independence.",
-      "topic_image": "images/alice/niberians.webp",
-      "path": "dive/alice/niberians.html",
-      "added": "2026-11-06T00:02:38-07:00"
     }
   ],
   "featured": [
