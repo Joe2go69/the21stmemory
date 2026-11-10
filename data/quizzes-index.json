@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T17:05:18.465Z",
-  "total": 355,
+  "generatedAt": "2026-11-10T18:08:50.963Z",
+  "total": 356,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 92
+      "count": 93
     },
     {
       "id": "breakdown",
@@ -720,6 +720,20 @@
       "diveHref": "dive/alice/lucifer-light-bearer.html",
       "key": "alice/lucifer-light-bearer",
       "order": 22
+    },
+    {
+      "id": "lunatic-asylums",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Lunatic Asylums",
+      "subtitle": "Test your understanding of Lunatic Asylums — the five-thousand-bed loosh battery, the catatonic store, and the decades before the clones matured.",
+      "questionCount": 25,
+      "href": "quiz/alice/lunatic-asylums.html",
+      "diveHref": "dive/alice/lunatic-asylums.html",
+      "key": "alice/lunatic-asylums",
+      "order": 72
     },
     {
       "id": "lunatic-frequencies",

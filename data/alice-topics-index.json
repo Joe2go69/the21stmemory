@@ -637,10 +637,10 @@
             {
               "id": "lunatic-asylums",
               "title": "Lunatic Asylums",
-              "description": "Lunatic Asylums",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Lunatic asylums are pre-planned five-thousand-bed compounds that contain shell-shocked reset survivors and drain them as industrial loosh batteries.",
+              "topic_image": "images/alice/lunatic-asylums.webp",
+              "is_placeholder": false,
+              "added": "2026-11-10T11:04:15-07:00"
             },
             {
               "id": "dark-ages-leap",

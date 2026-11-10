@@ -580,9 +580,9 @@
       "sourceId": "alice",
       "topicId": "lunatic-asylums",
       "path": "/dive/alice/lunatic-asylums.html",
-      "live": false,
+      "live": true,
       "title": "Lunatic Asylums",
-      "added": "2026-10-14"
+      "added": "2026-11-10T11:04:15-07:00"
     },
     {
       "sourceId": "alice",
