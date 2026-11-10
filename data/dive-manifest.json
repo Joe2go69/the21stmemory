@@ -572,9 +572,9 @@
       "sourceId": "alice",
       "topicId": "the-cover-up",
       "path": "/dive/alice/the-cover-up.html",
-      "live": false,
+      "live": true,
       "title": "The Cover-up",
-      "added": "2026-10-14"
+      "added": "2026-11-10T09:58:54-07:00"
     },
     {
       "sourceId": "alice",

@@ -629,10 +629,10 @@
             {
               "id": "the-cover-up",
               "title": "The Cover-up",
-              "description": "The Cover-up",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "The Cover-up is the institutional protocol that intercepts anomalous finds, confiscates the evidence, and silences the people who uncovered them.",
+              "topic_image": "images/alice/the-cover-up.webp",
+              "is_placeholder": false,
+              "added": "2026-11-10T09:58:54-07:00"
             },
             {
               "id": "lunatic-asylums",

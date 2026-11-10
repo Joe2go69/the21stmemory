@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T16:42:28.437Z",
-  "total": 354,
+  "generatedAt": "2026-11-10T17:05:18.465Z",
+  "total": 355,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 91
+      "count": 92
     },
     {
       "id": "breakdown",
@@ -1182,6 +1182,20 @@
       "diveHref": "dive/alice/3-strings-of-attachment.html",
       "key": "alice/3-strings-of-attachment",
       "order": 79
+    },
+    {
+      "id": "the-cover-up",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "The Cover-up",
+      "subtitle": "Test your understanding of The Cover-up — the hand-off from a garden find to the Smithsonian, the NDA, and the hoax label.",
+      "questionCount": 25,
+      "href": "quiz/alice/the-cover-up.html",
+      "diveHref": "dive/alice/the-cover-up.html",
+      "key": "alice/the-cover-up",
+      "order": 71
     },
     {
       "id": "parasitic-takeover",

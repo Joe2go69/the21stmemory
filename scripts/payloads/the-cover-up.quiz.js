@@ -1,0 +1,280 @@
+module.exports = {
+  source: 'alice',
+  id: 'the-cover-up',
+  title: 'The Cover-up',
+  description: 'Test your understanding of The Cover-up — the hand-off from a garden find to the Smithsonian, the NDA, and the hoax label.',
+  seoDescription: 'Interactive Living Truth Quiz on The Cover-up: police escalation, Smithsonian recovery, sealed vaults, and witness silencing.',
+  reflection: {
+    title: 'Reflection',
+    body: 'A skull under a vegetable patch is enough to start a chain the finder thinks is ordinary help. By the time the suits leave, the photographs are gone, the speech is signed away, and the bones are in a vault the public does not enter.'
+  },
+  questions: [
+    {
+      number: 1,
+      question: 'What event activates the cover-up operational protocol?',
+      hint: 'Look at the groundwork that uncovers material the public narrative cannot hold.',
+      options: [
+        { text: 'An official directive from international judicial bodies to audit private land ownership across several counties.', isCorrect: false, rationale: 'The protocol starts at a soil breach, not at a judicial audit of land titles.' },
+        { text: 'Public broadcasts of unverified civilian sightings that have already left the site.', isCorrect: false, rationale: 'The apparatus intercepts physical evidence at the point of contact, before a public broadcast.' },
+        { text: 'Civilian or domestic excavation projects unearthing physical artifacts or anomalous skeletal remains.', isCorrect: true, rationale: 'The protocol activates when private excavations, domestic groundwork, or civilian projects breach the soil and uncover anomalous skeletal remains.' },
+        { text: 'The publication of unauthorized research papers by independent historians.', isCorrect: false, rationale: 'Papers are later talk, while the trigger is an undeniable physical find in the ground.' }
+      ]
+    },
+    {
+      number: 2,
+      question: 'How is the Smithsonian Institution characterized in this account?',
+      hint: 'Check the Key Terminology name used for that centralized authority.',
+      options: [
+        { text: 'The archaeological vault', isCorrect: false, rationale: 'The vault is where remains are kept, not the name given to the institution itself.' },
+        { text: 'A regional museum department', isCorrect: false, rationale: 'A regional museum is an earlier hand-off, not the name used for the Smithsonian.' },
+        { text: 'The municipal police station', isCorrect: false, rationale: 'The police station escalates the call, and it is not the characterization of the Smithsonian.' },
+        { text: 'The Vatican of Archaeology', isCorrect: true, rationale: 'The Smithsonian is the centralized institutional authority operating as the Vatican of Archaeology, responsible for initiating formal recovery operations and locking anomalous skeletal remains away.' }
+      ]
+    },
+    {
+      number: 3,
+      question: 'What is the primary operational role of the Official Suits at an excavation site?',
+      hint: 'Read the Key Terminology line for the people who arrive in official vehicles.',
+      options: [
+        { text: 'Seizing private documentation, enforcing non-disclosure agreements, and delivering personal threats.', isCorrect: true, rationale: 'Official Suits arrive to execute non-disclosure agreements, seize private documentation, and deliver personal threats.' },
+        { text: 'Running open radiocarbon dating and a public peer review of the remains on the lawn.', isCorrect: false, rationale: 'The protocol skips open scientific review and moves straight to seizure and silence.' },
+        { text: 'Filing zoning violations so the city can take the parcel through an ordinary land case and then reopen the garden for a public viewing.', isCorrect: false, rationale: 'The on-site work is the NDA, the photographs, and the threats, not a zoning filing.' },
+        { text: 'Paying the finder a fee in exchange for a voluntary gift of the specimen.', isCorrect: false, rationale: 'Compliance is forced under duress, not bought as a voluntary donation.' }
+      ]
+    },
+    {
+      number: 4,
+      question: 'Why do frontline police officers escalate a discovery to their station superiors?',
+      hint: 'See what those officers lack when the find is on this scale.',
+      options: [
+        { text: 'They lack both the protocol and the authority to interpret an anatomical anomaly of this scale.', isCorrect: true, rationale: 'Responding officers possess neither the protocol nor the authority to interpret a discovery of such immense physical scale.' },
+        { text: 'They already know the bones belong in a restricted federal collection.', isCorrect: false, rationale: 'The officers are unsure how to proceed, and they do not arrive knowing an institutional owner.' },
+        { text: 'They suspect the dig breaks local environmental protection rules.', isCorrect: false, rationale: 'The escalation is about the scale of the anatomical find, not an environmental charge.' },
+        { text: 'They must hand every forensic scene to a state coroner before anyone else.', isCorrect: false, rationale: 'The station hands the notice to a university or museum, not to a coroner.' }
+      ]
+    },
+    {
+      number: 5,
+      question: 'In the escalation pipeline, who receives the notice directly after police station personnel?',
+      hint: 'Name the academic step between the station and the apex institution.',
+      options: [
+        { text: 'A local university or regional museum department', isCorrect: true, rationale: 'Senior personnel hand off the notification to a local university or regional museum department.' },
+        { text: 'Men in official suits already waiting at the garden gate', isCorrect: false, rationale: 'The suits arrive once recovery is underway, after the academic hand-off.' },
+        { text: 'Historians and mainstream media assigned to brand the find', isCorrect: false, rationale: 'The hoax work comes after custody, not as the step right after the station.' },
+        { text: 'The Smithsonian Institution', isCorrect: false, rationale: 'The university or museum contacts the Smithsonian, so the station does not call it first.' }
+      ]
+    },
+    {
+      number: 6,
+      question: 'What role does the Hoax Narrative play in the containment strategy?',
+      hint: 'Look at how surviving public reports are treated.',
+      options: [
+        { text: 'It teaches the public how to tell a real fossil from a cast.', isCorrect: false, rationale: 'The label is used to invalidate documented finds, not to train the public in fossil identification.' },
+        { text: 'It supplies a standardized debunking story that publicly invalidates documented discoveries.', isCorrect: true, rationale: 'The Hoax Narrative is the standardized cover story used to publicly invalidate documented anomalous discoveries as fables, myths, or fraudulent claims.' },
+        { text: 'It warns researchers about fraud inside ordinary field work and tells a regional museum department which specimens to turn away at the door.', isCorrect: false, rationale: 'The label discredits genuine physical evidence, rather than policing ordinary research fraud.' },
+        { text: 'It gives discoverers a defense against an NDA penalty.', isCorrect: false, rationale: 'The hoax label is aimed at the public record, not offered to the finder as a defense.' }
+      ]
+    },
+    {
+      number: 7,
+      question: 'What dimensions are given for the giant human skull in the garden example?',
+      hint: 'Check the skull named under the domestic vegetable patch.',
+      options: [
+        { text: 'Five meters in height and three meters in width', isCorrect: false, rationale: 'Those figures are larger than the garden skull, which is two meters by 1.5 meters.' },
+        { text: 'Three meters in height and two meters in width', isCorrect: false, rationale: 'The garden example is two meters in height and 1.5 meters in width, not three by two.' },
+        { text: 'Two meters in height and 1.5 meters in width', isCorrect: true, rationale: 'The example is a massive human skull measuring two meters in height and 1.5 meters in width beneath a domestic garden vegetable patch.' },
+        { text: 'One meter in height and one meter in width', isCorrect: false, rationale: 'One meter by one meter is smaller than the skull described in that garden example.' }
+      ]
+    },
+    {
+      number: 8,
+      question: 'What leverage is used to enforce compliance with the Non-Disclosure Agreement?',
+      hint: 'Read the coercion line about home, vehicle, and family security.',
+      options: [
+        { text: 'Compulsory relocation to an isolated administrative territory.', isCorrect: false, rationale: 'Relocation is not among the penalties named for the signer.' },
+        { text: 'Prolonged imprisonment, complete forfeiture of home and vehicle, and destruction of family security.', isCorrect: true, rationale: 'The leverage includes prolonged imprisonment, the complete forfeiture of home and vehicle, and the destruction of family security, with institutional eyes and ears continuously watching and listening.' },
+        { text: 'A civil fine paid to the local police department.', isCorrect: false, rationale: 'The pressure described is personal ruin, not a routine fine.' },
+        { text: 'Loss of an academic license, a lasting ban on public employment, and removal from the regional museum department that first received the notice.', isCorrect: false, rationale: 'The finders are ordinary civilians, and the threats named are imprisonment, the home, and the family.' }
+      ]
+    },
+    {
+      number: 9,
+      question: 'Where are the anomalous skeletal remains kept after they leave the civilian site?',
+      hint: 'See where the Smithsonian locks the remains.',
+      options: [
+        { text: 'In a restricted display wing of a national museum, set beside ordinary human exhibits that stay open to civilian visitors.', isCorrect: false, rationale: 'The protocol keeps this evidence off public museum floors.' },
+        { text: 'In an off-site university laboratory archive.', isCorrect: false, rationale: 'The university is an intermediary, while lasting custody is the institutional vault.' },
+        { text: 'In sealed subterranean vaults, away from civilian observation.', isCorrect: true, rationale: 'The Smithsonian locks anomalous skeletal remains away in sealed subterranean vaults, sealed away from civilian observation.' },
+        { text: 'In a high-security police evidence locker.', isCorrect: false, rationale: 'Police hand the matter on, and they do not keep the bones.' }
+      ]
+    },
+    {
+      number: 10,
+      question: 'Which historical projects are named as unearthing thousands of giant skeletal remains?',
+      hint: 'Look at the infrastructure named together with burial mounds.',
+      options: [
+        { text: 'Home extensions, conservatories, and ordinary garden plots.', isCorrect: false, rationale: 'Those domestic digs start single finds, while the thousands are tied to railway work through burial mounds.' },
+        { text: 'Historical railway expansions cutting through ancient burial mounds.', isCorrect: true, rationale: 'Historical railway expansions through burial mounds unearthed thousands of giant skeletal remains.' },
+        { text: 'Routine municipal road repairs beside police stations.', isCorrect: false, rationale: 'Road repairs beside a station are not the projects named for those thousands of remains.' },
+        { text: 'Vegetable-patch digging under domestic houses.', isCorrect: false, rationale: 'The garden patch is the single-skull example, not the mass railway finds.' }
+      ]
+    },
+    {
+      number: 11,
+      question: 'What size range is given for the giant skeletal remains from those railway expansions?',
+      hint: 'Check the lower and upper heights named with the burial-mound finds.',
+      options: [
+        { text: 'Twelve feet to over thirty-five meters tall', isCorrect: true, rationale: 'The remains are giant skeletal remains ranging from twelve feet to over thirty-five meters tall.' },
+        { text: 'Eight feet to fifteen feet tall', isCorrect: false, rationale: 'That band misses the upper figure of over thirty-five meters.' },
+        { text: 'Fifty meters to one hundred meters tall', isCorrect: false, rationale: 'The upper figure given is over thirty-five meters, not one hundred.' },
+        { text: 'Six feet to eight feet tall', isCorrect: false, rationale: 'That range is ordinary human height, not the giant scale named here.' }
+      ]
+    },
+    {
+      number: 12,
+      question: 'Why do civilian discoverers inadvertently start their own silencing?',
+      hint: 'See whom everyday finders trust enough to call.',
+      options: [
+        { text: 'They post unverified photographs to a public board and draw ridicule before any regional museum department can look at the bones.', isCorrect: false, rationale: 'Photographs are taken, then seized, and the silencing starts with the municipal call.' },
+        { text: 'They wait so long that agents can call the site abandoned.', isCorrect: false, rationale: 'The chain starts when they notify the police, not when they delay.' },
+        { text: 'They try to sell the specimen on an open market.', isCorrect: false, rationale: 'The account describes a good-faith municipal report, not a sale.' },
+        { text: 'They instinctively trust and contact local municipal services after the find.', isCorrect: true, rationale: 'Everyday discoverers instinctively trust and contact local municipal services, and that call starts the chain that silences them.' }
+      ]
+    },
+    {
+      number: 13,
+      question: 'What happens to visual evidence when the operatives arrive?',
+      hint: 'Read the line about photographic records at the site.',
+      options: [
+        { text: 'Photographs are filed in a municipal database for a later review.', isCorrect: false, rationale: 'The images are surrendered so they cannot circulate, not parked for a public review.' },
+        { text: 'Recordings are scrambled and then handed back to the finder.', isCorrect: false, rationale: 'The finder must surrender the captures, not receive a scrambled copy.' },
+        { text: 'Discoverers must surrender all photographic records, digital captures, and physical recordings.', isCorrect: true, rationale: 'The discoverer is compelled to surrender all photographic evidence, digital captures, and physical recordings of the site.' },
+        { text: 'Selected images are released to media outlets under an institutional mark so readers can set them beside historic newspaper accounts.', isCorrect: false, rationale: 'The point of the seizure is to stop visual proof from leaving the site.' }
+      ]
+    },
+    {
+      number: 14,
+      question: 'What keeps institutional control over human history in place?',
+      hint: 'Read the closing line about the hoax label and physical truth.',
+      options: [
+        { text: 'A lack of public interest in older artifacts.', isCorrect: false, rationale: 'Interest is managed by discrediting finds, not by an absence of curiosity.' },
+        { text: 'Open agreement among researchers on a single evolutionary timeline, settled after the remains pass an open scientific review.', isCorrect: false, rationale: 'The insulation comes from containment and the hoax label, not from open agreement.' },
+        { text: 'Successful use of the hoax label, together with total containment, until systemic disclosure.', isCorrect: true, rationale: 'So long as institutions deploy the hoax label, consensus reality remains completely insulated from physical truth until systemic disclosure dismantles the apparatus.' },
+        { text: 'The total absence of any old newspaper account of anomalous finds.', isCorrect: false, rationale: 'Historic newspaper accounts exist and are aggressively debunked, rather than being absent.' }
+      ]
+    },
+    {
+      number: 15,
+      question: 'What is the primary objective of the cover-up apparatus?',
+      hint: 'Look at what the protocol does at the moment of a find.',
+      options: [
+        { text: 'To neutralize direct empirical discoveries at the point of contact and keep the public from paradigm-breaking realities.', isCorrect: true, rationale: 'Its primary purpose is to neutralize direct empirical discoveries at the point of contact so the public stays insulated from paradigm-breaking realities.' },
+        { text: 'To protect fragile ancient burial mounds from untrained civilian digging during historical railway expansions and later domestic garden work.', isCorrect: false, rationale: 'The stated purpose is containment of contradictory evidence, not site conservation.' },
+        { text: 'To sell rare artifacts through private institutional auctions.', isCorrect: false, rationale: 'The finds are locked away, not sold.' },
+        { text: 'To take mineral and oil deposits under private land.', isCorrect: false, rationale: 'The targets are anomalous artifacts and skeletal remains, not mineral rights.' }
+      ]
+    },
+    {
+      number: 16,
+      question: 'How does the apparatus handle direct witness testimony?',
+      hint: 'See what happens to the finder speech and the proof together.',
+      options: [
+        { text: 'Witnesses are brought onto official research teams so their activity can be watched from inside.', isCorrect: false, rationale: 'Discoverers are isolated and silenced, not hired onto a research team.' },
+        { text: 'Testimony is rewritten and issued under an academic pseudonym.', isCorrect: false, rationale: 'The testimony is eradicated, not republished under another name.' },
+        { text: 'Witnesses are undone through a public character campaign.', isCorrect: false, rationale: 'The silence is secured by the NDA and the threats before a public campaign is required.' },
+        { text: 'Primary witness testimony is eradicated through legal gagging, surveillance threats, and forced compliance.', isCorrect: true, rationale: 'The central truth is the absolute eradication of primary witness testimony, with discoverers completely separated from their physical evidence and stripped of speech.' }
+      ]
+    },
+    {
+      number: 17,
+      question: 'Which international counterpart to the Smithsonian is named?',
+      hint: 'See which city is named beside the Smithsonian in the recovery step.',
+      options: [
+        { text: 'Authorities at the local police station', isCorrect: false, rationale: 'The station is the municipal step, not the international counterpart.' },
+        { text: 'Authorities at a regional museum', isCorrect: false, rationale: 'The regional museum is the academic intermediary, not the named counterpart.' },
+        { text: 'Authorities in London', isCorrect: true, rationale: 'The university or museum immediately contacts the Smithsonian or its international counterpart, such as authorities in London.' },
+        { text: 'Authorities at a neighborhood university', isCorrect: false, rationale: 'The local university makes the call, and London is the counterpart named on the far side of it.' }
+      ]
+    },
+    {
+      number: 18,
+      question: 'What phase follows the academic intermediary notification?',
+      hint: 'Name the step in which specialized personnel come for the bones.',
+      options: [
+        { text: 'Apex Institutional Notification and Recovery', isCorrect: true, rationale: 'After the academic hand-off comes Apex Institutional Notification and Recovery, when the Smithsonian initiates the recovery protocol.' },
+        { text: 'Public hoax deployment and media debunking', isCorrect: false, rationale: 'Debunking follows once the remains are already in custody.' },
+        { text: 'A municipal court hearing to impose the NDA', isCorrect: false, rationale: 'The NDA is signed on site with the suits, not issued first by a municipal court.' },
+        { text: 'Local disorientation and station escalation', isCorrect: false, rationale: 'That station step comes before the university is involved.' }
+      ]
+    },
+    {
+      number: 19,
+      question: 'What legal instrument is forced on civilian discoverers?',
+      hint: 'Check the Key Terminology name for the compulsory silence document.',
+      options: [
+        { text: 'An archaeological salvage license', isCorrect: false, rationale: 'A salvage license would authorize digging, while this document bars speech.' },
+        { text: 'A municipal indemnity waiver', isCorrect: false, rationale: 'The instrument binds the finder to silence, rather than waiving a financial claim.' },
+        { text: 'A land condemnation order', isCorrect: false, rationale: 'The home can be threatened, but the document they must sign is the non-disclosure agreement.' },
+        { text: 'A Non-Disclosure Agreement (NDA)', isCorrect: true, rationale: 'The NDA is a compulsory legal instrument that binds discoverers to absolute silence under penalty of catastrophic personal ruin.' }
+      ]
+    },
+    {
+      number: 20,
+      question: 'How do historians and academic gatekeepers treat old public records of anomalies?',
+      hint: 'See what is done with historic newspaper accounts and civic records.',
+      options: [
+        { text: 'They open new digs to test the old reports.', isCorrect: false, rationale: 'A new dig would risk more physical proof, which the protocol is built to stop.' },
+        { text: 'They fold the accounts into school textbooks as unexplained anomalies beside the ordinary fossil sequence taught in class.', isCorrect: false, rationale: 'The records are debunked so the baseline stays intact, not added as open anomalies.' },
+        { text: 'They aggressively debunk the records as hoaxes, fables, or fraudulent claims.', isCorrect: true, rationale: 'Historic newspaper accounts and civic records are aggressively debunked, and discoveries are officially branded as hoaxes.' },
+        { text: 'They refile the finds as ordinary geological formations.', isCorrect: false, rationale: 'The named treatment is the hoax label, not a geological reclassification.' }
+      ]
+    },
+    {
+      number: 21,
+      question: 'What leverage remains after the discoverer leaves the site?',
+      hint: 'Read what witnesses are told about eyes and ears after the signing.',
+      options: [
+        { text: 'Compulsory psychiatric evaluations by a state medical board, followed by a public note that the finder imagined the garden skull.', isCorrect: false, rationale: 'Psychiatric boards are not part of the surveillance described.' },
+        { text: 'Escrow funds released if the silence continues.', isCorrect: false, rationale: 'The pressure is threat of ruin, not a payment for staying quiet.' },
+        { text: 'Continuous surveillance threats, with the warning that institutional eyes and ears are watching.', isCorrect: true, rationale: 'Witnesses are told that institutional eyes and ears will be continuously watching and listening.' },
+        { text: 'Mandatory weekly check-ins at the local police station.', isCorrect: false, rationale: 'The ongoing pressure is surveillance and the NDA, not a weekly station visit.' }
+      ]
+    },
+    {
+      number: 22,
+      question: 'True or False: The storage facilities are sealed away from civilian observation and public air.',
+      hint: 'Look at how the Smithsonian vaults are described after recovery.',
+      options: [
+        { text: 'True', isCorrect: true, rationale: 'The Smithsonian maintains subterranean storage facilities sealed away from civilian observation and public air.' },
+        { text: 'False', isCorrect: false, rationale: 'The vaults are described as sealed away from civilian observation and public air.' }
+      ]
+    },
+    {
+      number: 23,
+      question: 'True or False: Anomalous finds are allowed to undergo open scientific review.',
+      hint: 'Check what the overview says happens instead of an open review.',
+      options: [
+        { text: 'True', isCorrect: false, rationale: 'The system does not allow anomalies to undergo open scientific review.' },
+        { text: 'False', isCorrect: true, rationale: 'Rather than allowing anomalies to undergo open scientific review, the system uses a rapid hand-off into institutional custody.' }
+      ]
+    },
+    {
+      number: 24,
+      question: 'True or False: The escalation begins when a civilian or builder reports an accidental anatomical find to the local police.',
+      hint: 'See what the finder does after photographing the specimen.',
+      options: [
+        { text: 'True', isCorrect: true, rationale: 'After photographs, the finder notifies the local police department as a non-urgent municipal matter, and that call starts the pipeline.' },
+        { text: 'False', isCorrect: false, rationale: 'The sequence does begin with that municipal notification to the local police department.' }
+      ]
+    },
+    {
+      number: 25,
+      question: 'True or False: Branding discoveries as hoaxes preserves the manufactured historical baseline.',
+      hint: 'Read what the hoax label is said to protect.',
+      options: [
+        { text: 'True', isCorrect: true, rationale: 'Discoveries branded as hoaxes are dismissed, preserving the manufactured historical baseline without disruption.' },
+        { text: 'False', isCorrect: false, rationale: 'The account says that branding the finds as hoaxes preserves the manufactured historical baseline.' }
+      ]
+    }
+  ]
+};
