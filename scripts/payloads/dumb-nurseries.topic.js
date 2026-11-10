@@ -1,0 +1,116 @@
+module.exports = {
+  source: 'alice',
+  id: 'dumb-nurseries',
+  title: 'DUMB Nurseries',
+  description: 'DUMB Nurseries are covert subterranean incubation, cloning, and genetic propagation installations inside Deep Underground Military Bases that manufacture replacement human populations.',
+  images: {
+    topic: { source: 'DUMB Nurseries.webp', target: 'dumb-nurseries.webp' },
+    pdfPreview: { source: 'The_Human_Harvest.webp', target: 'the-human-harvest.webp' },
+    infographic: { source: 'Subterranean_Biological_Replenishment_Pipeline_Architecture.webp', target: 'subterranean-biological-replenishment-pipeline-architecture.webp' }
+  },
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/11zS5KuuyWCGFnCsJXLa8eiRDkXxAaVCB/view?usp=sharing',
+  rumble_videos: [
+    {
+      title: 'Subterranean Nurseries',
+      embed_url: 'https://rumble.com/embed/v7fyida/?pub=4p0ieu',
+      description: 'Subterranean Nurseries — Deep underground bases incubate and clone parentless children to restock the surface after planetary resets.'
+    },
+    {
+      title: 'Underground Clone Factories Hidden Beneath Walmart',
+      embed_url: 'https://rumble.com/embed/v7fyium/?pub=4p0ieu',
+      description: 'Underground Clone Factories Hidden Beneath Walmart — Walmart storefronts sit over underground bases and encode Mart-Law as cover for future containment.'
+    }
+  ],
+  report: `# DUMB Nurseries
+
+## Overview
+
+DUMB Nurseries are covert subterranean incubation, cloning, and genetic propagation installations established within Deep Underground Military Bases (DUMBs) to manufacture, gestate, and cultivate replacement human populations. Functioning as isolated underground bio-laboratories, these underground bases serve as industrial cultivation complexes where an artificial human crop is grown beneath the surface to restock the terrestrial realm following planetary resets. These subterranean installations are not limited to reproductive engineering; they are fundamentally configured as multi-purpose containment networks where systemic torture, organ harvesting, mass containment, and execution constitute the routine, daily work for which the sites were originally built. To conceal their existence, their access portals and upper levels are integrated with civilian retail infrastructure—specifically Walmart commercial centers—establishing an operational cover where surface retail fronts mask deep underground military installations.
+
+## Key Terminology
+
+- **DUMB Nurseries** — Subterranean biological production laboratories and incubation chambers housed within Deep Underground Military Bases where parentless cloned children are mass-produced to repopulate the surface world.
+- **DUMBs** — Deep Underground Military Bases; vast subterranean facilities engineered for specialized operations including biological cloning, mass containment, torture, organ harvesting, and execution.
+- **Underground Bases** — Subterranean tactical installations situated beneath seemingly ordinary surface developments and corporate footprints to execute covert biological and disciplinary procedures.
+- **Clones** — Artificially manufactured human beings engineered in subterranean laboratories without biological parents to serve as fresh population stock.
+- **Crop** — The mass-cultivated human yield grown in underground facilities from harvested genetic materials to replace eradicated populations.
+- **Seedlings** — The newly incubated, juvenile cloned cohorts maintained in subterranean facilities until they mature sufficiently to be integrated into societal frameworks.
+- **Stem Cells** — The primary biological source material harvested from living children prior to liquidation, secured to clone and propagate subsequent generations.
+- **Mart-Law** — The phonetic designator and anagrammatic root of Walmart, signifying commercial outlets deliberately sited over underground military bases for future civilian containment and martial operations.
+- **Lunatic Asylums** — Expansive 5,000-bed institutional complexes erected under the pretext of mental healthcare, but strategically designed to be repurposed as secure prisons and energetic containment batteries.
+- **Loosh Batteries** — High-capacity confinement institutions used to warehouse traumatized, shell-shocked populations to yield energetic sustenance for parasitic entities while new crops mature.
+
+## Core Revelations
+
+Subterranean nurseries represent the foundational mechanism for continuous societal replenishment following total surface eradications. When prior populations are eliminated during resets, the newly arriving inhabitants distributed to vacant urban centers are not survivors of natural disasters, but an entirely manufactured human crop gestated inside underground laboratories. Historical records and photographic evidence documenting parentless child cohorts capture cloned stock freshly extracted from these subterranean facilities.
+
+Civilian commercial geography is planned centuries in advance to provide structural cover for subterranean atrocities. The global retail franchise Walmart was never conceptualized merely to sell domestic consumer commodities; rather, the geographic distribution, sizing, and brand expansion were dictated by the strategic necessity of placing surface storefronts directly over active underground bases. The name itself encodes its future deployment as Mart-Law (martial law), marking each storefront as a future processing, containment, and internment node.
+
+Surface institutional structures mirror this dual-purpose reuse. Just as modern retail outlets sit atop execution and organ-harvesting bases, historical lunatic asylums featuring five-thousand-bed capacities were never built for the medical care of the infirm; they were constructed in advance to serve as high-capacity internment prisons, concentration centers, and energy-extraction hubs.
+
+## Detailed Mechanics and Key Elements
+
+### Genetic Sourcing and Laboratory Cultivation
+
+The cultivation of human stock within DUMB nurseries operates through a cyclical biological pipeline. Before the extermination of a surface population, biological stem cells are systematically taken from every living child. These genetic samples are transferred directly into subterranean DUMB laboratories, where they are preserved and utilized to initiate large-scale cloning protocols.
+
+Within these subterranean vats and incubation units, the children are created entirely without parents. The resulting offspring constitute an underground crop of seedlings that are kept in controlled subterranean environments, shielded from surface awareness while physical infrastructure above ground is sanitized and reorganized.
+
+### Facility Functions and Daily Operations
+
+DUMB facilities housing these nurseries are engineered for harsh, industrial utility. Beneath the surface footprint, these bases operate on a relentless daily schedule centered around four primary functions:
+
+- **Mass Containment** — High-security compartmentalized holding zones designed to detain human subjects and manage cloned cohorts in complete physical isolation.
+- **Organ Harvesting** — Specialized biological facilities tasked with extracting vital human organs and materials on a massive scale.
+- **Systemic Torture** — Methodical infliction of pain and distress utilized for operational control, experimentation, and physiological extraction.
+- **Execution** — Industrial-scale termination of human subjects once their biological or logistical utility has ended.
+
+### The Mart-Law Surface-to-Subterranean Nexus
+
+The physical connection between subterranean bases and the surface is maintained through retail camouflage. Every designated Walmart store is sited precisely over an underground base of substantial scale. The surface store functions as an operational decoy: while its present public utility is consumer commerce, its primary strategic purpose is future civilian processing and martial law management. Beneath the concrete floors and supply bays exist secure subterranean access points through which logistics, personnel, and captive human stock can be transferred directly into the deeper base installations without civilian detection.
+
+### Structural Reuse and the 5,000-Bed Prison Network
+
+The deployment of underground nurseries necessitates a parallel holding mechanism on the surface. Because cloned seedlings require a maturation period of twenty to thirty years before they can reproduce or provide sufficient harvestable yields, a temporal deficit in energetic supply and labor occurs immediately after a population purge.
+
+To bridge this gap, institutional edifices designed as 5,000-bed lunatic asylums are rapidly repurposed into secure holding facilities and concentration pens. Shell-shocked, catatonic adult survivors who witnessed the destruction of their world are rounded up and confined within these multi-thousand-bed complexes. The asylums function as massive loosh batteries, holding traumatized captives whose continuous anguish sustains presiding parasitic entities until the subterranean crop in the DUMBs reaches operational maturity.
+
+## Broader Context and Interconnections
+
+DUMB nurseries serve as the hidden biological foundation supporting multiple surface management networks:
+
+### Logistical Interdependence
+
+DUMB nurseries produce the artificial child populations that are subsequently loaded onto regional rail logistics networks to be dispersed across repopulated settlements.
+
+### Surface Front Integration
+
+Subterranean bases maintain a direct structural relationship with commercial retail chains, aligning civilian transit arteries and freight nodes with the underground containment complexes below.
+
+### Temporal Bridging with Asylum Infrastructure
+
+The developmental timeline of cloned seedlings directly dictates the operational schedule of the 5,000-bed asylum prisons, ensuring energetic continuity across the decades required for subterranean children to mature into adult societal caretakers.
+
+### Subterranean Spatial Continuity
+
+These nurseries share physical space and infrastructure with broader DUMB systems dedicated to organ harvesting, torture, and terminal disposal, forming a unified underground processing network.
+
+## Strategic Implications
+
+### Engineered Societal Continuity
+
+Human civilizations appearing after reset catastrophes possess no organic heritage; they are artificial constructs populated by cloned nursery stock programmed with false origins and inserted into pre-existing cities.
+
+### Covert Infrastructure Alignment
+
+Urban development and corporate placement are completely deterministic; major retail sites like Walmart are established not in response to economic demand, but to establish surface cover over tactical underground bases.
+
+### Pre-Planned Structural Recycling
+
+Grand institutional architecture, including massive asylums, demonstrates that facilities are deliberately built for one purported social purpose with the explicit long-term intention of converting them into concentration camps and prisons.
+
+### Perpetual Agricultural Cycle
+
+Terrestrial society operates as an enclosed livestock operation, wherein surface liquidations, subterranean cloning, organ harvesting, and energetic battery confinement function as coordinated stages of an ongoing harvest.
+`
+};

@@ -593,10 +593,10 @@
                 {
                   "id": "dumb-nurseries",
                   "title": "DUMB Nurseries",
-                  "description": "DUMB Nurseries",
-                  "topic_image": "images/alice/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-14"
+                  "description": "DUMB Nurseries are covert subterranean incubation, cloning, and genetic propagation installations inside Deep Underground Military Bases that manufacture replacement human populations.",
+                  "topic_image": "images/alice/dumb-nurseries.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-10T05:27:58-07:00"
                 }
               ]
             },

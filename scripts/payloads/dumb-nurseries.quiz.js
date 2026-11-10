@@ -1,0 +1,280 @@
+module.exports = {
+  source: 'alice',
+  id: 'dumb-nurseries',
+  title: 'DUMB Nurseries',
+  description: 'Test your understanding of DUMB Nurseries — subterranean cloning, Walmart cover, and the asylum batteries that bridge the maturation gap.',
+  seoDescription: 'Interactive Living Truth Quiz on DUMB Nurseries: underground incubation, Mart-Law storefronts, stem-cell crops, and 5,000-bed loosh batteries.',
+  reflection: {
+    title: 'Reflection',
+    body: 'Parentless seedlings grown under retail floors, and asylums holding the shell-shocked, show a cycle of liquidation, cloning, and confinement. The surface city is restocked from chambers built for that work.'
+  },
+  questions: [
+    {
+      number: 1,
+      question: 'What is the primary operational purpose of DUMB Nurseries within Deep Underground Military Bases?',
+      hint: 'Look at the biological work these installations do after a surface population is cleared.',
+      options: [
+        { text: 'To warehouse traumatized, shell-shocked adult survivors as loosh batteries while the next human crop matures underground.', isCorrect: false, rationale: 'Warehousing traumatized survivors is the role of loosh batteries, not the nursery purpose of gestating a replacement population.' },
+        { text: 'To gestate and cultivate replacement human populations to repopulate the surface world following planetary resets.', isCorrect: true, rationale: 'These installations manufacture, gestate, and cultivate replacement human populations so the surface can be restocked following planetary resets.' },
+        { text: 'To disperse artificial child populations across repopulated settlements on regional rail networks.', isCorrect: false, rationale: 'Rail lines disperse the children after the nurseries have produced them, which is not the nurseries own cultivation purpose.' },
+        { text: 'To site commercial storefronts over underground bases for later civilian containment and martial operations.', isCorrect: false, rationale: 'Storefront cover is the Mart-Law arrangement, while the nurseries themselves grow the replacement human crop.' }
+      ]
+    },
+    {
+      number: 2,
+      question: 'Which surface commercial infrastructure is strategically positioned over subterranean access portals to conceal active underground bases?',
+      hint: 'Look at the civilian retail cover integrated with the upper levels of these bases.',
+      options: [
+        { text: 'Walmart retail commercial centers', isCorrect: true, rationale: 'Access portals and upper levels are integrated with Walmart commercial centers so surface retail fronts mask the bases.' },
+        { text: 'Five-thousand-bed lunatic asylum complexes erected as future prisons', isCorrect: false, rationale: 'Those asylums are surface holding sites, not the retail cover placed over the access portals.' },
+        { text: 'Regional rail logistics networks that later disperse the child crop', isCorrect: false, rationale: 'Rail networks move the cloned children outward, rather than masking the portals under a storefront.' },
+        { text: 'Loosh battery compounds that warehouse shell-shocked adults', isCorrect: false, rationale: 'Loosh batteries confine traumatized survivors, and they are not the commercial cover over the bases.' }
+      ]
+    },
+    {
+      number: 3,
+      question: 'What term names artificially manufactured human beings engineered in subterranean laboratories without biological parents?',
+      hint: 'Check the Key Terminology entry for parentless population stock.',
+      options: [
+        { text: 'Seedlings', isCorrect: false, rationale: 'Seedlings are the juvenile cloned cohorts, not the general name for parentless manufactured human beings.' },
+        { text: 'Stem Cells', isCorrect: false, rationale: 'Stem cells are the harvested cellular material, not the gestated human beings.' },
+        { text: 'Clones', isCorrect: true, rationale: 'Clones are artificially manufactured human beings engineered in subterranean laboratories without biological parents.' },
+        { text: 'Loosh Batteries', isCorrect: false, rationale: 'Loosh batteries are confinement institutions for traumatized populations, not the manufactured people.' }
+      ]
+    },
+    {
+      number: 4,
+      question: 'What is the specific definition of Seedlings within subterranean cultivation mechanics?',
+      hint: 'Check the Key Terminology name for the juvenile cohort kept underground.',
+      options: [
+        { text: 'The mass-cultivated human yield grown in underground facilities from harvested genetic materials to replace eradicated populations.', isCorrect: false, rationale: 'That wording defines the crop, the yield as a whole, rather than the juvenile cohorts still being incubated.' },
+        { text: 'Biological stem cell samples taken from living children and preserved before a surface liquidation.', isCorrect: false, rationale: 'Stem cells are the precursor material harvested from living children, not the gestated offspring.' },
+        { text: 'Newly incubated juvenile cloned cohorts maintained underground until mature enough for surface integration.', isCorrect: true, rationale: 'Seedlings are the newly incubated, juvenile cloned cohorts kept until they can be integrated into societal frameworks.' },
+        { text: 'Shell-shocked adult survivors rounded up after a purge and confined in surface institutions.', isCorrect: false, rationale: 'Those adults are the captives held as loosh batteries, not the underground juvenile cohorts.' }
+      ]
+    },
+    {
+      number: 5,
+      question: 'What biological material is systematically harvested from living surface children prior to a population reset?',
+      hint: 'Look at the source material taken from living children before liquidation.',
+      options: [
+        { text: 'Harvested organs', isCorrect: false, rationale: 'Organ harvesting is a daily base function, while the material taken from living children before liquidation is stem cells.' },
+        { text: 'Loosh extractions', isCorrect: false, rationale: 'Loosh is energetic sustenance drawn from traumatized captives, not the cellular material taken from children.' },
+        { text: 'Stem cells', isCorrect: true, rationale: 'Stem cells are harvested from living children prior to liquidation and then used to clone later generations.' },
+        { text: 'Cloned seedlings', isCorrect: false, rationale: 'Seedlings are the offspring grown afterward, not the material taken from children beforehand.' }
+      ]
+    },
+    {
+      number: 6,
+      question: 'What linguistic and strategic significance is attached to the phonetic designator Mart-Law?',
+      hint: 'Look at the Key Terminology name tied to Walmart and later martial operations.',
+      options: [
+        { text: 'It represents a rail signal for moving child stock toward repopulated settlements.', isCorrect: false, rationale: 'Rail dispersal is a later logistics step, not the meaning of this retail designator.' },
+        { text: 'It represents a laboratory protocol for extracting vital organs inside the bases.', isCorrect: false, rationale: 'Organ harvesting is one daily base function, not the name encoded in the storefront.' },
+        { text: 'It represents a charter that fixes the maturation window of cloned seedlings.', isCorrect: false, rationale: 'The twenty-to-thirty-year maturation belongs to the seedlings, not to this phonetic designator.' },
+        { text: 'It represents an anagrammatic root of Walmart, signifying future civilian internment and martial operations.', isCorrect: true, rationale: 'Mart-Law is the phonetic designator and anagrammatic root of Walmart, marking outlets for future civilian containment and martial operations.' }
+      ]
+    },
+    {
+      number: 7,
+      question: 'What is the primary function of Loosh Batteries in the post-reset management system?',
+      hint: 'See what the asylums yield while the underground crop is still maturing.',
+      options: [
+        { text: 'To incubate parentless cloned children in subterranean vats and hold them there until the surface cities are ready for release.', isCorrect: false, rationale: 'Incubation of parentless children is the nursery work, not the function of these confinement institutions.' },
+        { text: 'To warehouse traumatized adult survivors whose emotional anguish feeds parasitic entities while new crops mature.', isCorrect: true, rationale: 'Loosh batteries warehouse traumatized, shell-shocked populations to yield energetic sustenance for parasitic entities while new crops mature.' },
+        { text: 'To feed electrical current from retail floors into the incubation units.', isCorrect: false, rationale: 'The sustenance named here is energetic yield from anguish, not current for the vats.' },
+        { text: 'To store harvested organs before regional rail distribution.', isCorrect: false, rationale: 'Organ harvesting happens inside the bases, and rail lines disperse living child populations rather than storing organs in these batteries.' }
+      ]
+    },
+    {
+      number: 8,
+      question: 'How far in advance is civilian commercial retail geography planned?',
+      hint: 'Look at how far ahead surface storefronts are aligned with the bases.',
+      options: [
+        { text: 'Spontaneously, once vacant cities have already been filled with the new crop.', isCorrect: false, rationale: 'The geography is planned ahead to cover active bases, not arranged after the cities are filled.' },
+        { text: 'Centuries in advance to place surface storefronts directly over active underground bases.', isCorrect: true, rationale: 'Civilian commercial geography is planned centuries in advance so surface storefronts sit directly over active underground bases.' },
+        { text: 'Decades ahead, following municipal maps of economic expansion and shopper demand.', isCorrect: false, rationale: 'Placement is dictated by the need to cover underground bases, not by municipal economic expansion.' },
+        { text: 'In response to regional transportation lines once those freight routes are already built.', isCorrect: false, rationale: 'Transit arteries are aligned with the bases, rather than the storefronts being chosen in response to later routes.' }
+      ]
+    },
+    {
+      number: 9,
+      question: 'Which set of four activities constitutes the relentless daily work within DUMB facilities?',
+      hint: 'Read the four primary functions listed under daily operations.',
+      options: [
+        { text: 'Mass containment, organ harvesting, systemic torture, and execution.', isCorrect: true, rationale: 'The bases run a daily schedule centered around four primary functions: mass containment, organ harvesting, systemic torture, and execution.' },
+        { text: 'Stem-cell collection, seedling incubation, rail dispersal, and insertion into pre-existing cities.', isCorrect: false, rationale: 'Those steps belong to the wider replenishment pipeline, not the four daily functions named for the bases.' },
+        { text: 'Retail commerce, Mart-Law processing, asylum confinement, and loosh collection from adult captives.', isCorrect: false, rationale: 'Retail cover and asylum batteries sit on the surface, apart from the four daily functions inside the bases.' },
+        { text: 'Parentless gestation, crop cultivation, false-origin programming, and release into sanitized cities.', isCorrect: false, rationale: 'Gestation and later release describe the nursery crop, not the four daily containment and disposal functions.' }
+      ]
+    },
+    {
+      number: 10,
+      question: 'How is the temporal deficit in energetic supply bridged while subterranean cloned seedlings mature?',
+      hint: 'See where shell-shocked adult survivors are held during that gap.',
+      options: [
+        { text: 'By confining catatonic adult survivors inside 5,000-bed asylum prisons to serve as energy batteries.', isCorrect: true, rationale: 'The asylums become secure holding facilities and concentration pens, massive loosh batteries, until the underground crop matures.' },
+        { text: 'By speeding the vats so seedlings reach adulthood within a single season.', isCorrect: false, rationale: 'The maturation period stays twenty to thirty years, which is why the asylum holding is needed.' },
+        { text: 'By bringing already grown replacement stock in from outside the terrestrial realm.', isCorrect: false, rationale: 'The replacement crop is gestated inside the underground laboratories, not imported as finished adults.' },
+        { text: 'By staffing the sanitized cities with crews sent up from the bases themselves.', isCorrect: false, rationale: 'The gap is bridged by confining traumatized survivors, not by sending base crews up to run the cities.' }
+      ]
+    },
+    {
+      number: 11,
+      question: 'What happens to biological stem cells once they are extracted from surface children prior to a reset?',
+      hint: 'Follow the genetic samples from the children into the laboratories.',
+      options: [
+        { text: 'They are loaded onto regional rail lines and dispersed into vacant urban centers.', isCorrect: false, rationale: 'Rail lines later disperse the cloned children, not the stem-cell samples themselves.' },
+        { text: 'They are transferred directly into DUMB vats to initiate large-scale cloning protocols.', isCorrect: true, rationale: 'The samples are transferred directly into subterranean DUMB laboratories and used to initiate large-scale cloning protocols.' },
+        { text: 'They are held in the 5,000-bed asylums as energetic sustenance for parasitic entities while the cities are rebuilt.', isCorrect: false, rationale: 'Energetic sustenance comes from traumatized captives in the asylums, not from the stem cells.' },
+        { text: 'They are spent at once in industrial-scale termination once their utility has ended.', isCorrect: false, rationale: 'Execution ends subjects whose utility is over, while these samples are preserved to start the next cloning run.' }
+      ]
+    },
+    {
+      number: 12,
+      question: 'What is the primary logistical role of regional rail networks in the DUMB nursery framework?',
+      hint: 'See how the artificial child populations leave the nurseries for the settlements.',
+      options: [
+        { text: 'To move harvested organs from containment zones into the asylum batteries for processing.', isCorrect: false, rationale: 'Organ harvesting stays inside the bases, while the rail role is to move the child populations.' },
+        { text: 'To carry shell-shocked survivors out of ruined cities and into the 5,000-bed prisons.', isCorrect: false, rationale: 'Survivors are rounded up into the asylums, and the rail lines are described as dispersing the cloned children.' },
+        { text: 'To disperse artificial child populations produced in subterranean nurseries to repopulated surface settlements.', isCorrect: true, rationale: 'The nurseries produce artificial child populations that are loaded onto regional rail logistics networks and dispersed across repopulated settlements.' },
+        { text: 'To deliver captive human stock downward through store floors into the deeper base installations.', isCorrect: false, rationale: 'That downward transfer uses the access points under the stores, not the regional rail dispersal of children.' }
+      ]
+    },
+    {
+      number: 13,
+      question: 'How does the developmental timeline of cloned seedlings directly affect the 5,000-bed asylum prisons?',
+      hint: 'See how Broader Context ties seedling development to those prisons.',
+      options: [
+        { text: 'It forces the asylums to grow past five thousand beds so the maturing clones can move in.', isCorrect: false, rationale: 'The seedlings stay underground, and the five-thousand-bed complexes hold the adult survivors.' },
+        { text: 'It determines how long 5,000-bed asylum prisons must operate as active loosh batteries.', isCorrect: true, rationale: 'The developmental timeline of cloned seedlings directly dictates the operational schedule of the 5,000-bed asylum prisons.' },
+        { text: 'It sets the moment when the asylum buildings are torn down and replaced by retail stores.', isCorrect: false, rationale: 'The asylums are repurposed as holding facilities, not demolished to become the retail cover.' },
+        { text: 'It sends juvenile clones into the asylum wards for conditioning before any surface release.', isCorrect: false, rationale: 'The seedlings mature in controlled subterranean environments, not in the surface asylum wards.' }
+      ]
+    },
+    {
+      number: 14,
+      question: 'What is said about the heritage of human civilizations appearing after a reset?',
+      hint: 'Read the strategic point on civilizations that appear after reset catastrophes.',
+      options: [
+        { text: 'They possess no organic heritage, consisting of cloned stock programmed with false origins and placed in pre-existing cities.', isCorrect: true, rationale: 'They are populated by cloned nursery stock programmed with false origins and inserted into pre-existing cities.' },
+        { text: 'They keep an organic line preserved by the adults held in the asylums.', isCorrect: false, rationale: 'The account says these civilizations possess no organic heritage and are stocked with cloned nursery children.' },
+        { text: 'They are disaster survivors who reoccupied the vacant urban centers on their own.', isCorrect: false, rationale: 'The people distributed to vacant urban centers are a manufactured crop, not survivors of natural disasters.' },
+        { text: 'They are base personnel who came up from the DUMBs to govern the rebuilt cities.', isCorrect: false, rationale: 'The new populations are cloned nursery stock inserted into the cities, not the base staff.' }
+      ]
+    },
+    {
+      number: 15,
+      question: 'What structural connection exists beneath the concrete floors of designated Walmart storefronts?',
+      hint: 'Look at what the supply bays open into beneath the store.',
+      options: [
+        { text: 'Collectors drawing energetic sustenance from shoppers on the retail floor.', isCorrect: false, rationale: 'Energetic sustenance is taken from captives in the asylum batteries, not from shoppers through the floor.' },
+        { text: 'Incubation vats where parentless seedlings are raised in view of the store.', isCorrect: false, rationale: 'The children are created in subterranean vats shielded from surface awareness, not displayed under the aisles.' },
+        { text: 'Secure subterranean access points allowing personnel, logistics, and captive human stock to transfer into deep bases.', isCorrect: true, rationale: 'Beneath the floors are secure subterranean access points that pass captive human stock into the deeper bases without civilian detection.' },
+        { text: 'Open holding zones where cloned cohorts wait under the aisles in physical isolation from one another.', isCorrect: false, rationale: 'Mass containment is a deep-base function, while the floor connection described is the secure access points.' }
+      ]
+    },
+    {
+      number: 16,
+      question: 'How is terrestrial human society summarized in this account?',
+      hint: 'Read the closing strategic point about the ongoing harvest.',
+      options: [
+        { text: 'As an enclosed livestock operation where liquidations, cloning, harvesting, and energetic confinement form a perpetual cycle.', isCorrect: true, rationale: 'Terrestrial society operates as an enclosed livestock operation whose stages run through liquidation, cloning, harvesting, and energetic battery confinement.' },
+        { text: 'As a proving ground that selects stronger human traits across successive surface generations.', isCorrect: false, rationale: 'The cycle is a coordinated harvest of cloning, harvesting, and confinement, not a selection of stronger traits.' },
+        { text: 'As a waiting room for populations on their way down into permanent subterranean cities.', isCorrect: false, rationale: 'The cloned populations are grown underground in order to repopulate the surface, not to remain below.' },
+        { text: 'As a sheltered biological order kept safe by the underground bases.', isCorrect: false, rationale: 'The bases carry out containment, harvesting, torture, and execution as stages of an ongoing harvest.' }
+      ]
+    },
+    {
+      number: 17,
+      question: 'What is the specific function of mass containment zones inside these bases?',
+      hint: 'Read the daily-operations line that names the holding zones.',
+      options: [
+        { text: 'Open pens where maturing seedlings meet the retail staff who work the surface stores.', isCorrect: false, rationale: 'The cohorts are kept in isolation and shielded from surface awareness, not mixed with store staff.' },
+        { text: 'Compartmentalized holding zones designed to detain human subjects and manage cloned cohorts in complete physical isolation.', isCorrect: true, rationale: 'Mass containment uses compartmentalized holding zones to detain human subjects and manage cloned cohorts in complete physical isolation.' },
+        { text: 'Storage bays for consumer goods waiting to be stocked on the storefront shelves above.', isCorrect: false, rationale: 'The zones detain human subjects and cloned cohorts, not merchandise for the stores.' },
+        { text: 'Public stations where adult survivors are prepared before transfer into asylum beds.', isCorrect: false, rationale: 'Adult survivors are confined in the surface asylums, while these zones isolate subjects inside the bases.' }
+      ]
+    },
+    {
+      number: 18,
+      question: 'What daily operation in these facilities extracts vital human organs and materials on a massive scale?',
+      hint: 'Match the daily function whose facilities take organs and materials.',
+      options: [
+        { text: 'Systemic Torture', isCorrect: false, rationale: 'Systemic torture is the infliction of pain for control, experimentation, and physiological extraction, distinct from the organ facilities.' },
+        { text: 'Organ Harvesting', isCorrect: true, rationale: 'Organ harvesting is the work of specialized biological facilities tasked with extracting vital human organs and materials on a massive scale.' },
+        { text: 'Mass Containment', isCorrect: false, rationale: 'Mass containment detains subjects and cohorts in isolation, rather than extracting organs.' },
+        { text: 'Execution', isCorrect: false, rationale: 'Execution is the terminal step once utility has ended, not the extraction of organs and materials.' }
+      ]
+    },
+    {
+      number: 19,
+      question: 'What role does systemic torture play in the daily operational routine of these bases?',
+      hint: 'Read the daily-operations line for the infliction of pain and distress.',
+      options: [
+        { text: 'It is used to force cloned seedlings to reach adulthood in a shorter span.', isCorrect: false, rationale: 'Seedling maturation remains twenty to thirty years, and torture is not described as speeding that growth.' },
+        { text: 'It is utilized for operational control, experimentation, and physiological extraction.', isCorrect: true, rationale: 'Systemic torture is the methodical infliction of pain and distress utilized for operational control, experimentation, and physiological extraction.' },
+        { text: 'It is a screening step for adult survivors before they are placed in asylum beds.', isCorrect: false, rationale: 'Torture is a daily function inside the bases, not a screening step on the way into the asylums.' },
+        { text: 'It is an initiation required of the personnel who staff the underground bases.', isCorrect: false, rationale: 'The infliction falls on human subjects as operational work, not as an initiation for base personnel.' }
+      ]
+    },
+    {
+      number: 20,
+      question: 'When is industrial-scale execution carried out within these facilities?',
+      hint: 'Read the execution line for the point at which utility ends.',
+      options: [
+        { text: 'Once human subjects have exhausted their biological or logistical utility.', isCorrect: true, rationale: 'Execution is the termination of human subjects once their biological or logistical utility has ended.' },
+        { text: 'When shoppers find an access point beneath a storefront.', isCorrect: false, rationale: 'Execution is routine daily work, not a response that waits on a civilian discovery.' },
+        { text: 'As soon as each batch of cloned seedlings leaves the incubation vats.', isCorrect: false, rationale: 'Seedlings are kept until they can be integrated into society, not terminated as they leave the vats.' },
+        { text: 'At the close of each asylum span of twenty to thirty years.', isCorrect: false, rationale: 'The asylum span bridges seedling maturation, while execution is a daily base function tied to ended utility.' }
+      ]
+    },
+    {
+      number: 21,
+      question: 'What principle of construction is demonstrated by the 5,000-bed lunatic asylums?',
+      hint: 'Read the strategic point on grand institutions and their later use.',
+      options: [
+        { text: 'Emergency zoning put in place by local governments during a surface crisis.', isCorrect: false, rationale: 'The asylums were constructed in advance for later internment, not zoned during the crisis itself.' },
+        { text: 'Municipal planning that joins healthcare wards to subterranean freight hubs, where city streets are laid out to meet shopper demand after a purge.', isCorrect: false, rationale: 'Freight alignment belongs to the retail and rail cover, while the asylums were built as future prisons.' },
+        { text: 'Adaptive reuse caused by unexpected growth in the repopulated cities.', isCorrect: false, rationale: 'The later conversion into prisons is a long-term intention built in from the start, not a response to unexpected growth.' },
+        { text: 'Pre-planned structural recycling, where grand buildings are erected for one social purpose with long-term intent to become concentration camps.', isCorrect: true, rationale: 'These facilities are built for one purported social purpose with the explicit long-term intention of converting them into concentration camps and prisons.' }
+      ]
+    },
+    {
+      number: 22,
+      question: 'True or False: DUMBs are Deep Underground Military Bases.',
+      hint: 'Check the Key Terminology expansion of the acronym.',
+      options: [
+        { text: 'True', isCorrect: true, rationale: 'The term DUMBs is given as Deep Underground Military Bases housing the subterranean operations.' },
+        { text: 'False', isCorrect: false, rationale: 'The terminology entry expands DUMBs as Deep Underground Military Bases.' }
+      ]
+    },
+    {
+      number: 23,
+      question: 'True or False: Five-thousand-bed lunatic asylums were built for the medical care of the infirm.',
+      hint: 'Look at what Core Revelations says those large asylums were built to do.',
+      options: [
+        { text: 'True', isCorrect: false, rationale: 'The report says those asylums were never built for the medical care of the infirm.' },
+        { text: 'False', isCorrect: true, rationale: 'Historical lunatic asylums were never built for the medical care of the infirm, but as internment prisons and energy-extraction hubs.' }
+      ]
+    },
+    {
+      number: 24,
+      question: 'True or False: Inhabitants distributed to vacant urban centers after a reset are survivors of natural disasters.',
+      hint: 'See how Core Revelations describes the people who arrive in empty cities.',
+      options: [
+        { text: 'True', isCorrect: false, rationale: 'Those inhabitants are not survivors of natural disasters, but a manufactured human crop from the laboratories.' },
+        { text: 'False', isCorrect: true, rationale: 'The people sent to vacant urban centers are an entirely manufactured human crop, not survivors of natural disasters.' }
+      ]
+    },
+    {
+      number: 25,
+      question: 'True or False: Cloned seedlings require a maturation period of twenty to thirty years before they can reproduce or provide sufficient harvestable yields.',
+      hint: 'Look at the maturation period named for cloned seedlings.',
+      options: [
+        { text: 'True', isCorrect: true, rationale: 'Cloned seedlings require that maturation period before they can reproduce or provide sufficient harvestable yields.' },
+        { text: 'False', isCorrect: false, rationale: 'The account sets the maturation period at twenty to thirty years before those yields are available.' }
+      ]
+    }
+  ]
+};

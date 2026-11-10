@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "dumb-nurseries",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "DUMB Nurseries",
+      "description": "DUMB Nurseries are covert subterranean incubation, cloning, and genetic propagation installations inside Deep Underground Military Bases that manufacture replacement human populations.",
+      "topic_image": "images/alice/dumb-nurseries.webp",
+      "path": "dive/alice/dumb-nurseries.html",
+      "added": "2026-11-10T05:27:58-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "pneumatic-rail",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Pneumatic Rail",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/niberians.webp",
       "path": "dive/alice/niberians.html",
       "added": "2026-11-06T00:02:38-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "ghosts-are-a-gig",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Ghosts Are a Gig",
-      "description": "Ghosts Are a Gig defines the deceptive operational construct surrounding supernatural phenomena, disembodied human spirits, and paranormal occurrences.",
-      "topic_image": "images/alice/ghosts-are-a-gig.webp",
-      "path": "dive/alice/ghosts-are-a-gig.html",
-      "added": "2026-11-05T15:16:50-07:00"
     }
   ],
   "featured": [

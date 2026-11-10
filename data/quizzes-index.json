@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T11:57:47.712Z",
-  "total": 351,
+  "generatedAt": "2026-11-10T12:34:33.932Z",
+  "total": 352,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 88
+      "count": 89
     },
     {
       "id": "breakdown",
@@ -314,6 +314,20 @@
       "diveHref": "dive/alice/disclosure-psyop.html",
       "key": "alice/disclosure-psyop",
       "order": 53
+    },
+    {
+      "id": "dumb-nurseries",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "DUMB Nurseries",
+      "subtitle": "Test your understanding of DUMB Nurseries — subterranean cloning, Walmart cover, and the asylum batteries that bridge the maturation gap.",
+      "questionCount": 25,
+      "href": "quiz/alice/dumb-nurseries.html",
+      "diveHref": "dive/alice/dumb-nurseries.html",
+      "key": "alice/dumb-nurseries",
+      "order": 67
     },
     {
       "id": "ebs-disclosure",

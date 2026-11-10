@@ -540,9 +540,9 @@
       "sourceId": "alice",
       "topicId": "dumb-nurseries",
       "path": "/dive/alice/dumb-nurseries.html",
-      "live": false,
+      "live": true,
       "title": "DUMB Nurseries",
-      "added": "2026-10-14"
+      "added": "2026-11-10T05:27:58-07:00"
     },
     {
       "sourceId": "alice",
