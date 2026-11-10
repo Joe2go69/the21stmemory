@@ -449,7 +449,28 @@ function paintHomeResume() {
   el.innerHTML = `<a class="text-link" href="${escapeHtml(item.href)}">${escapeHtml(item.label)} · ${escapeHtml(item.title)}</a>`;
 }
 
+function initHomeTerrain() {
+  const doors = document.querySelectorAll('.home-terrain__door');
+  if (!doors.length) return;
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce || !('IntersectionObserver' in window)) {
+    doors.forEach((door) => door.classList.add('is-on'));
+    return;
+  }
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      const door = entry.target;
+      const index = Number(door.getAttribute('data-terrain-index') || 0);
+      window.setTimeout(() => door.classList.add('is-on'), index * 140);
+      io.unobserve(door);
+    });
+  }, { threshold: 0.4, rootMargin: '0px 0px -8% 0px' });
+  doors.forEach((door) => io.observe(door));
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
+  initHomeTerrain();
   paintHomeResume();
   await Promise.all([loadHomeArchiveStats(), loadHomeShelves(), loadHomeSeries()]);
 

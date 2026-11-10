@@ -18607,8 +18607,8 @@ a.topic-root-card {
 .home-hero--vault {
   position: relative;
   isolation: isolate;
-  padding: clamp(2.25rem, 6vw, 4rem) 0 clamp(1.75rem, 4vw, 2.75rem) !important;
-  min-height: clamp(22rem, 52vh, 36rem);
+  padding: 0 !important;
+  min-height: calc(100svh - 5rem - env(safe-area-inset-top, 0px));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18616,9 +18616,9 @@ a.topic-root-card {
 
 @media (max-width: 640px) {
   .home-hero--vault {
-    min-height: 0;
-    padding: 1.1rem 0 1.2rem !important;
-    align-items: flex-start;
+    min-height: calc(100svh - 5rem - env(safe-area-inset-top, 0px));
+    padding: 0 !important;
+    align-items: center;
   }
 }
 
@@ -18770,12 +18770,12 @@ a.topic-root-card {
   max-width: none !important;
   width: 100% !important;
   margin: 0 !important;
-  min-height: clamp(20rem, 46vh, 28rem) !important;
+  min-height: calc(100svh - 5rem - env(safe-area-inset-top, 0px)) !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
   overflow: hidden !important;
-  padding: clamp(2rem, 5vw, 3.5rem) 1.5rem !important;
+  padding: 0 !important;
   isolation: isolate !important;
 }
 
@@ -18915,6 +18915,54 @@ body.page-home #main {
 #home-hero-loop,
 .home-hero-media__video {
   display: none !important;
+}
+
+/* Hero arrival + a living lotus. The loop file is a bloom, so it stays off.
+   The light sits above the scrim and still under the type. */
+@keyframes home-arrive {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes home-lotus-drift {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}
+@keyframes home-lotus-breathe {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 1; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  #home-vault .home-hero-media {
+    transform-origin: center 42%;
+    animation: home-lotus-drift 8s ease-in-out infinite alternate;
+  }
+  #home-vault .home-hero-media::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    background: radial-gradient(
+      ellipse 34% 30% at 50% 46%,
+      rgba(236, 220, 255, 0.55) 0%,
+      rgba(168, 120, 235, 0.22) 46%,
+      transparent 72%
+    );
+    animation: home-lotus-breathe 5s ease-in-out infinite;
+  }
+  #home-vault .home-hero-kicker,
+  #home-vault .page-hero-title,
+  #home-vault .home-hero-lead,
+  #home-vault .home-hero-actions,
+  #home-vault .home-hero-secondary,
+  #home-vault .home-hero-credit {
+    animation: home-arrive 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  #home-vault .page-hero-title { animation-delay: 0.08s; }
+  #home-vault .home-hero-lead { animation-delay: 0.18s; }
+  #home-vault .home-hero-actions { animation-delay: 0.28s; }
+  #home-vault .home-hero-secondary,
+  #home-vault .home-hero-credit { animation-delay: 0.36s; }
 }
 
 /* =============================================
@@ -23406,27 +23454,84 @@ a.quiz-hub-card.has-resume {
   }
 }
 
-/* Homepage — short "What is" (brief 14) */
-.home-whatis {
-  margin: clamp(1.75rem, 4vw, 2.5rem) 0 clamp(1.25rem, 3vw, 1.75rem);
-  text-align: center;
+/* Homepage — three doors under the claim */
+#terrain {
+  scroll-margin-top: calc(5.5rem + env(safe-area-inset-top, 0px));
 }
-.home-whatis__title {
-  margin: 0 0 0.6rem;
+.home-terrain {
+  margin: clamp(2.75rem, 7vw, 5rem) 0 0;
+}
+.home-terrain__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2.4rem, 5.5vw, 3.75rem);
+}
+.home-terrain__door {
+  max-width: 38rem;
+}
+.home-terrain__rule {
+  display: block;
+  width: min(100%, 16rem);
+  height: 1px;
+  margin: 0 0 0.85rem;
+  background: #C4B5FD;
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+.home-terrain__num {
+  display: block;
+  margin: 0 0 0.45rem;
   font-family: "Space Grotesk", Inter, system-ui, sans-serif;
-  font-size: clamp(1.2rem, 2.4vw, 1.45rem);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  color: #F8FAFC;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  line-height: 1;
+  color: #8B7CB8;
 }
-.home-whatis__body {
-  margin: 0 auto 0.6rem;
-  max-width: 40rem;
+.home-terrain__claim {
+  margin: 0 0 0.45rem;
+  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
+  font-size: clamp(1.85rem, 4vw, 2.7rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  color: #F8F5FF;
+}
+.home-terrain__deck {
+  margin: 0 0 0.8rem;
+  max-width: 34rem;
   color: var(--text-prose);
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 1.05rem;
+  line-height: 1.55;
 }
-.home-whatis__more { font-size: 0.95rem; }
+.home-shelf__foot {
+  margin: 1.75rem 0 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .home-terrain__door.is-on .home-terrain__rule {
+    transform: scaleX(1);
+    transition: transform 1.05s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .home-terrain__door.is-on .home-terrain__num {
+    color: #C4B5FD;
+    transition: color 0.7s ease;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-terrain__rule,
+  .home-terrain__door.is-on .home-terrain__rule {
+    transform: none;
+    transition: none;
+  }
+  .home-terrain__num,
+  .home-terrain__door.is-on .home-terrain__num {
+    color: #C4B5FD;
+    transition: none;
+  }
+}
 
 /* Homepage — Recently added + Start here shelves (briefs 12–13) */
 .home-shelves { margin-bottom: clamp(2rem, 5vw, 3rem); }
