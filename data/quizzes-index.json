@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T17:38:00.774Z",
-  "total": 361,
+  "generatedAt": "2026-11-11T18:40:46.970Z",
+  "total": 362,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 98
+      "count": 99
     },
     {
       "id": "breakdown",
@@ -1336,6 +1336,20 @@
       "diveHref": "dive/alice/titanic-switch.html",
       "key": "alice/titanic-switch",
       "order": 70
+    },
+    {
+      "id": "truthers-without-the-intel",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Truthers Without the Intel",
+      "subtitle": "Test your understanding of Truthers Without the Intel — the awake industry, September 2022, and free corrective intel.",
+      "questionCount": 25,
+      "href": "quiz/alice/truthers-without-the-intel.html",
+      "diveHref": "dive/alice/truthers-without-the-intel.html",
+      "key": "alice/truthers-without-the-intel",
+      "order": 85
     },
     {
       "id": "tv-and-radio",

@@ -684,9 +684,9 @@
       "sourceId": "alice",
       "topicId": "truthers-without-the-intel",
       "path": "/dive/alice/truthers-without-the-intel.html",
-      "live": false,
+      "live": true,
       "title": "Truthers Without the Intel",
-      "added": "2026-10-14"
+      "added": "2026-11-11T11:35:01-07:00"
     },
     {
       "sourceId": "alice",

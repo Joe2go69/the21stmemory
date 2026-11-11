@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "truthers-without-the-intel",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Truthers Without the Intel",
+      "description": "Truthers Without the Intel designates the faction of the alternative research sphere and awake industry that operates entirely without the foundational cosmological and architectural reality of the simulation.",
+      "topic_image": "images/alice/truthers-without-the-intel.webp",
+      "path": "dive/alice/truthers-without-the-intel.html",
+      "added": "2026-11-11T11:35:01-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "healthcare-compliance",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Healthcare Compliance",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/pneumatic-rail.webp",
       "path": "dive/alice/pneumatic-rail.html",
       "added": "2026-11-10T04:46:53-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "radium-and-kryptonite",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Radium and Kryptonite",
-      "description": "Radium and Kryptonite constitutes a primary manifestation of high-frequency technology and truth in plain sight.",
-      "topic_image": "images/alice/radium-and-kryptonite.webp",
-      "path": "dive/alice/radium-and-kryptonite.html",
-      "added": "2026-11-09T07:23:01-07:00"
     }
   ],
   "featured": [
