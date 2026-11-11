@@ -660,9 +660,9 @@
       "sourceId": "alice",
       "topicId": "not-the-payout",
       "path": "/dive/alice/not-the-payout.html",
-      "live": false,
+      "live": true,
       "title": "Not the Payout",
-      "added": "2026-10-14"
+      "added": "2026-11-11T09:26:42-07:00"
     },
     {
       "sourceId": "alice",

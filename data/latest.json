@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "not-the-payout",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Not the Payout",
+      "description": "Not the Payout defines the absolute operational principle that the ongoing cosmic confrontation and disclosure process is entirely detached from material enrichment, biological preservation, or political drama.",
+      "topic_image": "images/alice/not-the-payout.webp",
+      "path": "dive/alice/not-the-payout.html",
+      "added": "2026-11-11T09:26:42-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "energy-weapons",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Energy Weapons",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/sung-into-stone.webp",
       "path": "dive/alice/sung-into-stone.html",
       "added": "2026-11-09T06:38:04-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "tv-and-radio",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "TV and Radio",
-      "description": "Television and radio function as primary NPC programming outlets engineered to set public opinion, dictate social behavior, and systematically mold human consciousness.",
-      "topic_image": "images/alice/tv-and-radio.webp",
-      "path": "dive/alice/tv-and-radio.html",
-      "added": "2026-11-09T05:36:01-07:00"
     }
   ],
   "featured": [

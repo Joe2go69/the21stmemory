@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T01:41:25.701Z",
-  "total": 359,
+  "generatedAt": "2026-11-11T16:37:15.553Z",
+  "total": 360,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 96
+      "count": 97
     },
     {
       "id": "breakdown",
@@ -874,6 +874,20 @@
       "diveHref": "dive/alice/non-player-characters.html",
       "key": "alice/non-player-characters",
       "order": 107
+    },
+    {
+      "id": "not-the-payout",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Not the Payout",
+      "subtitle": "Test your understanding of Not the Payout — disclosure detached from financial windfalls, physical renewal, and political drama.",
+      "questionCount": 25,
+      "href": "quiz/alice/not-the-payout.html",
+      "diveHref": "dive/alice/not-the-payout.html",
+      "key": "alice/not-the-payout",
+      "order": 82
     },
     {
       "id": "npc-population",

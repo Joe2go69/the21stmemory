@@ -723,10 +723,10 @@
             {
               "id": "not-the-payout",
               "title": "Not the Payout",
-              "description": "Not the Payout",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Not the Payout defines the absolute operational principle that the ongoing cosmic confrontation and disclosure process is entirely detached from material enrichment, biological preservation, or political drama.",
+              "topic_image": "images/alice/not-the-payout.webp",
+              "is_placeholder": false,
+              "added": "2026-11-11T09:26:42-07:00"
             }
           ]
         },
