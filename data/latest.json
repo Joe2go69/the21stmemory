@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "micro-suns",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Micro Suns",
+      "description": "Micro Suns constitute the primordial echelon of conscious existence, representing the very first ever souls generated directly from Source Creation.",
+      "topic_image": "images/alice/micro-suns.webp",
+      "path": "dive/alice/micro-suns.html",
+      "added": "2026-11-11T14:00:38-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "trump-and-patton",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Trump and Patton",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/drab-on-purpose.webp",
       "path": "dive/alice/drab-on-purpose.html",
       "added": "2026-11-10T06:08:53-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "dumb-nurseries",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "DUMB Nurseries",
-      "description": "DUMB Nurseries are covert subterranean incubation, cloning, and genetic propagation installations inside Deep Underground Military Bases that manufacture replacement human populations.",
-      "topic_image": "images/alice/dumb-nurseries.webp",
-      "path": "dive/alice/dumb-nurseries.html",
-      "added": "2026-11-10T05:27:58-07:00"
     }
   ],
   "featured": [

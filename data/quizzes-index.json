@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T19:45:22.083Z",
-  "total": 363,
+  "generatedAt": "2026-11-11T21:05:46.905Z",
+  "total": 364,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 100
+      "count": 101
     },
     {
       "id": "breakdown",
@@ -790,6 +790,20 @@
       "diveHref": "dive/alice/lunatic-frequencies.html",
       "key": "alice/lunatic-frequencies",
       "order": 21
+    },
+    {
+      "id": "micro-suns",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Micro Suns",
+      "subtitle": "Test your understanding of Micro Suns — the first souls, equal masters, and the path from thoughtform to the physical vessel.",
+      "questionCount": 25,
+      "href": "quiz/alice/micro-suns.html",
+      "diveHref": "dive/alice/micro-suns.html",
+      "key": "alice/micro-suns",
+      "order": 92
     },
     {
       "id": "minerals-stay-down",

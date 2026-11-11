@@ -740,9 +740,9 @@
       "sourceId": "alice",
       "topicId": "micro-suns",
       "path": "/dive/alice/micro-suns.html",
-      "live": false,
+      "live": true,
       "title": "Micro Suns",
-      "added": "2026-10-14"
+      "added": "2026-11-11T14:00:38-07:00"
     },
     {
       "sourceId": "alice",
