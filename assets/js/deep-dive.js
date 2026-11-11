@@ -411,7 +411,6 @@ function renderCinematicHero({ breadcrumbs, fullData, topic, sourceId, mediaFlag
             <a href="${escapeAttr(topic.quiz.href)}" class="btn-primary deep-dive-quiz-cta__btn">
               <span>${escapeHtml(quizCtaLabel(topic.quiz.title || 'Living Truth'))}</span>
             </a>
-            ${topic.quiz.description ? `<p class="deep-dive-quiz-cta__desc">${escapeHtml(topic.quiz.description)}</p>` : ''}
           </div>
           ` : ''}
           <nav class="dive-hero-links" aria-label="Topic links">

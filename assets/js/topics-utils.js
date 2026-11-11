@@ -174,7 +174,7 @@ const TopicUtils = {
           value == null ||
           value === '' ||
           value === 'all' ||
-          value === 'alpha'
+          value === 'rank'
         );
         if (isDefault) {
           url.searchParams.delete(key);

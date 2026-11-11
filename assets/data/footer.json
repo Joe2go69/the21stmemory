@@ -8,7 +8,7 @@
     "description": "A free companion archive of Thalon Thor’s transmissions."
   },
   "principle": "No religion · No finance · No gatekeeping",
-  "shopNote": "Every purchase supports Joe and helps keep 21st Memory alive and growing.",
+  "shopNote": "Printed to order. Most of the price is printing and shipping. The archive stays free.",
   "quickLinks": [
     {
       "text": "Codex",
@@ -159,10 +159,10 @@
     },
     "starlink": {
       "href": "https://starlink.com/residential?referral=RC-DF-13754617-58626-7",
-      "buttonText": "Claim a free month",
-      "hint": "Referral — you get a free month. The archive gets one too.",
+      "buttonText": "Use the referral link",
+      "hint": "A new customer who orders through this link, and the archive, each get $100 after two months. Cash or service credit.",
       "image": "images/starlink.webp",
-      "imageAlt": "Starlink referral — a free month for you and for the archive",
+      "imageAlt": "Starlink referral for 21st Memory",
       "qrImage": "assets/images/starlink-qr.png",
       "qrAlt": "Starlink referral QR code for 21st Memory"
     }

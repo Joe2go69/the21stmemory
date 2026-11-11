@@ -35,6 +35,59 @@ function initBreakdownSeriesLink() {
   else actions.appendChild(link);
 }
 
+const THREE_READINGS_KEY = '21st-memory-three-readings-v1';
+const THREE_READING_IDS = {
+  'revelations/harvest-toll': true,
+  'revelations/terrarium-seal': true,
+  'ascension/do-not-react': true
+};
+
+function reportReadProgress() {
+  const report = document.getElementById('report-container');
+  if (!report) return 0;
+  const chrome = 96;
+  const rect = report.getBoundingClientRect();
+  const start = window.scrollY + rect.top - chrome;
+  const readable = Math.max(report.offsetHeight - (window.innerHeight - chrome), 1);
+  return Math.min(1, Math.max(0, (window.scrollY - start) / readable));
+}
+
+function rememberThreeReadings() {
+  const path = (window.location.pathname || '').replace(/\\/g, '/');
+  const match = path.match(/\/dive\/([^/]+)\/([^/]+)\.html$/i);
+  if (!match) return;
+  const id = `${match[1]}/${match[2]}`;
+  if (!THREE_READING_IDS[id]) return;
+
+  const write = () => {
+    let map = {};
+    try {
+      map = JSON.parse(localStorage.getItem(THREE_READINGS_KEY) || '{}') || {};
+    } catch (_) {
+      map = {};
+    }
+    const prev = map[id] && typeof map[id] === 'object' ? map[id] : {};
+    const progress = Math.max(Number(prev.progress) || 0, reportReadProgress());
+    map[id] = { progress: Number(progress.toFixed(3)), savedAt: Date.now() };
+    try {
+      localStorage.setItem(THREE_READINGS_KEY, JSON.stringify(map));
+    } catch (_) {
+      /* private mode */
+    }
+  };
+
+  write();
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      write();
+      ticking = false;
+    });
+  }, { passive: true });
+}
+
 function rememberLastDive() {
   const path = (window.location.pathname || '').replace(/\\/g, '/');
   const match = path.match(/\/dive\/([^/]+)\/([^/]+)\.html$/i);
@@ -114,6 +167,7 @@ function initDiveStatic() {
   if (!document.body?.dataset?.diveStatic) return;
 
   rememberLastDive();
+  rememberThreeReadings();
   initHeroLightbox();
   initJumpPills();
   initInfographicModal();

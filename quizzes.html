@@ -155,7 +155,7 @@
                 <label class="codex-search-field quiz-hub-search" for="quizzes-search">
                     <span class="sr-only">Search quizzes</span>
                     <span class="codex-search-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
-                    <input id="quizzes-search" type="search" class="codex-search-input" placeholder="Search quizzes…" autocomplete="off">
+                    <input id="quizzes-search" type="search" class="codex-search-input" placeholder="Search quizzes…" autocomplete="off" spellcheck="false">
                 </label>
                 <div class="quiz-hub-toolbar__tools">
                     <label class="quiz-hub-sort">
@@ -322,7 +322,8 @@
         </div>
 
         <div id="quizzes-empty" class="codex-empty-state content-card static-card p-10 mt-6" hidden>
-            <p class="text-lg text-mem-soft">No quizzes match that filter. Try another transmission or clear your search.</p>
+            <p class="text-lg text-mem-soft">Try a different keyword, or clear the search to browse the quizzes.</p>
+            <button type="button" class="btn-secondary mt-4" data-quiz-clear-search>Clear search</button>
         </div>
         </div><!-- /.quiz-hub-browse -->
     </div>
@@ -348,7 +349,7 @@
             <div class="footer-link-list">
               <a href="codex.html" class="footer-link">Codex</a><a href="quizzes.html" class="footer-link">Quizzes</a><a href="network.html" class="footer-link">Network</a><a href="source.html" class="footer-link">Source</a><a href="support.html" class="footer-link">Support</a><a href="shop.html" class="footer-link">Shop</a><a href="index.html#oracle" class="footer-link">Oracle</a><a href="index.html#media" class="footer-link">Media</a><a href="index.html#about" class="footer-link">About</a>
             </div>
-            <p class="footer-brand-desc footer-shop-note">Every purchase supports Joe and helps keep 21st Memory alive and growing.</p>
+            <p class="footer-brand-desc footer-shop-note">Printed to order. Most of the price is printing and shipping. The archive stays free.</p>
           </div>
           <div class="footer-col footer-col--connect">
             <div class="footer-heading">Connect</div>
@@ -389,6 +390,6 @@
     </footer>
     <script src="assets/js/icons.js" defer></script>
     <script src="assets/js/shared.js" defer></script>
-    <script src="assets/js/quizzes.js" defer></script>
+    <script src="assets/js/quizzes.js?v=2" defer></script>
 </body>
 </html>

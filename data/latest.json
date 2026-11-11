@@ -121,6 +121,68 @@
       "added": "2026-11-10T06:08:53-07:00"
     }
   ],
+  "shelf": [
+    {
+      "sourceId": "alice",
+      "topicId": "micro-suns",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Micro Suns",
+      "description": "Micro Suns constitute the primordial echelon of conscious existence, representing the very first ever souls generated directly from Source Creation.",
+      "topic_image": "images/alice/micro-suns.webp",
+      "path": "dive/alice/micro-suns.html",
+      "added": "2026-11-11T14:00:38-07:00"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "trump-and-patton",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Trump and Patton",
+      "description": "The node of Trump and Patton represents the absolute demystification of global leadership, exposing the manufactured persona accepted by the world as Donald J. Trump as an orchestrated construct.",
+      "topic_image": "images/alice/trump-and-patton.webp",
+      "path": "dive/alice/trump-and-patton.html",
+      "added": "2026-11-11T12:38:42-07:00"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "truthers-without-the-intel",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Truthers Without the Intel",
+      "description": "Truthers Without the Intel designates the faction of the alternative research sphere and awake industry that operates entirely without the foundational cosmological and architectural reality of the simulation.",
+      "topic_image": "images/alice/truthers-without-the-intel.webp",
+      "path": "dive/alice/truthers-without-the-intel.html",
+      "added": "2026-11-11T11:35:01-07:00"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "healthcare-compliance",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Healthcare Compliance",
+      "description": "Within the structured conditioning of Perceived Knowledge, Healthcare Compliance represents the systematic, unquestioning execution of institutional directives by medical workers and frontline administrative personnel during the manufactured COVID crisis.",
+      "topic_image": "images/alice/healthcare-compliance.webp",
+      "path": "dive/alice/healthcare-compliance.html",
+      "added": "2026-11-11T10:30:45-07:00"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "not-the-payout",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Not the Payout",
+      "description": "Not the Payout defines the absolute operational principle that the ongoing cosmic confrontation and disclosure process is entirely detached from material enrichment, biological preservation, or political drama.",
+      "topic_image": "images/alice/not-the-payout.webp",
+      "path": "dive/alice/not-the-payout.html",
+      "added": "2026-11-11T09:26:42-07:00"
+    },
+    {
+      "sourceId": "alice",
+      "topicId": "energy-weapons",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Energy Weapons",
+      "description": "Frequency devices that petrify, transmute, and vitrify matter, while the nuclear bomb remains a story that was never built.",
+      "topic_image": "images/alice/energy-weapons.webp",
+      "path": "dive/alice/energy-weapons.html",
+      "added": "2026-11-10T18:36:24-07:00"
+    }
+  ],
   "featured": [
     {
       "sourceId": "alice",

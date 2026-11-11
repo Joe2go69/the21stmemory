@@ -5,6 +5,28 @@ const QUIZ_PROGRESS_KEY = '21st-memory-quiz-progress-v1';
 const QUIZ_HUB_STATE_KEY = '21st-memory-quiz-hub-state-v1';
 const QUIZ_PASS_PCT = 70;
 
+function normalizeQuizSearch(text) {
+  return String(text || '')
+    .toLowerCase()
+    .trim()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+}
+
+function syncQuizQueryUrl(value) {
+  try {
+    const url = new URL(window.location.href);
+    const q = String(value || '').trim();
+    if (q) url.searchParams.set('q', q);
+    else url.searchParams.delete('q');
+    const next = `${url.pathname}${url.search}${url.hash}`;
+    const current = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+    if (next !== current) history.replaceState(history.state, '', next);
+  } catch (_) {
+    /* ignore */
+  }
+}
+
 function initQuizzesHub() {
   const browse = document.getElementById('quiz-browse');
   const root = document.getElementById('quizzes-grid');
@@ -584,13 +606,26 @@ ${rows}
   }
 
   function cardMatchesFilters(card) {
-    const q = query.trim().toLowerCase();
+    const q = normalizeQuizSearch(query);
     const source = card.getAttribute('data-source') || '';
-    const blob = (card.getAttribute('data-search') || card.textContent || '').toLowerCase();
+    const blob = normalizeQuizSearch(card.getAttribute('data-search') || card.textContent || '');
     const sourceOk = activeSource === 'all' || source === activeSource;
     const queryOk = !q || blob.includes(q);
     const statusOk = cardMatchesStatus(card);
     return sourceOk && queryOk && statusOk;
+  }
+
+  function searchScore(card, q) {
+    const title = normalizeQuizSearch(
+      card.querySelector('.quiz-hub-row__title, .quiz-hub-card__title')?.textContent || ''
+    );
+    const blob = normalizeQuizSearch(card.getAttribute('data-search') || '');
+    if (title === q) return 0;
+    if (title.startsWith(q)) return 1;
+    if (title.includes(` ${q}`)) return 2;
+    if (title.includes(q)) return 3;
+    if (blob.includes(q)) return 7;
+    return 9;
   }
 
   function sortValue(card) {
@@ -619,7 +654,12 @@ ${rows}
       const grid = section.querySelector('.quiz-hub-section__grid');
       if (!grid) return;
       const sectionCards = Array.from(grid.querySelectorAll('.quiz-hub-row, .quiz-hub-card'));
+      const q = normalizeQuizSearch(query);
       sectionCards.sort((a, b) => {
+        if (q) {
+          const byScore = searchScore(a, q) - searchScore(b, q);
+          if (byScore) return byScore;
+        }
         const va = sortValue(a);
         const vb = sortValue(b);
         if (va < vb) return -1;
@@ -807,6 +847,20 @@ ${rows}
       return;
     }
 
+    const clearSearch = event.target.closest('[data-quiz-clear-search]');
+    if (clearSearch && document.contains(clearSearch)) {
+      event.preventDefault();
+      query = '';
+      if (searchInput) {
+        searchInput.value = '';
+        searchInput.focus();
+      }
+      syncQuizQueryUrl('');
+      if (mode !== 'catalog') setMode('catalog', { scroll: false });
+      else applyFilters();
+      return;
+    }
+
     const showOverview = event.target.closest('[data-quiz-show-overview]');
     if (showOverview && document.contains(showOverview)) {
       event.preventDefault();
@@ -818,6 +872,7 @@ ${rows}
         searchInput.value = '';
         query = '';
       }
+      syncQuizQueryUrl('');
       setMode('overview', { scroll: true });
       return;
     }
@@ -858,8 +913,24 @@ ${rows}
 
   if (searchInput) {
     let timer = null;
+    let scrolledSearch = false;
+    const scrollSearchOnMobile = () => {
+      if (scrolledSearch) return;
+      if (!window.matchMedia('(max-width: 767px)').matches) return;
+      const toolbar = document.getElementById('quizzes-toolbar');
+      if (!toolbar) return;
+      scrolledSearch = true;
+      const nav = document.querySelector('.navbar');
+      const navH = nav ? Math.ceil(nav.getBoundingClientRect().height) : 64;
+      const top = toolbar.getBoundingClientRect().top + window.pageYOffset - navH - 8;
+      if (Math.abs(top - window.pageYOffset) < 24) return;
+      const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: Math.max(0, top), behavior: reduced ? 'auto' : 'smooth' });
+    };
     const onSearch = () => {
       query = searchInput.value || '';
+      syncQuizQueryUrl(query);
+      if (normalizeQuizSearch(query)) scrollSearchOnMobile();
       if (query.trim() && mode !== 'catalog') {
         setMode('catalog', { scroll: false });
       } else {
@@ -868,7 +939,7 @@ ${rows}
     };
     searchInput.addEventListener('input', () => {
       clearTimeout(timer);
-      timer = setTimeout(onSearch, 120);
+      timer = setTimeout(onSearch, 250);
     });
     searchInput.addEventListener('search', onSearch);
   }

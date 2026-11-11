@@ -467,6 +467,14 @@ function findAdjacent(flat, topicId) {
   return { prev, next };
 }
 
+const SERIES_SHORT = {
+  alice: 'Alice',
+  breakdown: 'Mega Breakdown',
+  ascension: 'Ascension',
+  revelations: 'Revelations',
+  'special-requests': 'Special Requests',
+};
+
 function renderBreadcrumbs({ sourceId, sourceTitle, topicPath, currentTitle }) {
   const crumbs = [
     { label: 'Codex', href: `${ASSET_BASE}codex.html` },
@@ -492,8 +500,12 @@ function renderBreadcrumbs({ sourceId, sourceTitle, topicPath, currentTitle }) {
   // Phones (<720px): one "‹ Parent" back link instead of a 3-row crumb trail (CSS swaps them).
   const parent = crumbs[crumbs.length - 1];
   const backLink = `<a href="${escapeAttr(parent.href)}" class="breadcrumb-link breadcrumb-back" aria-label="Back to ${escapeAttr(parent.label)}"><span aria-hidden="true">‹</span> ${escapeHtml(parent.label)}</a>`;
+  const seriesHref = `${ASSET_BASE}series-${encodeURIComponent(sourceId)}.html`;
+  const shortSeries = SERIES_SHORT[sourceId] || sourceTitle;
+  const phone = `<p class="breadcrumb-phone"><a href="${escapeAttr(seriesHref)}" class="breadcrumb-link">${escapeHtml(shortSeries)}</a><span class="breadcrumb-sep text-mem-dim" aria-hidden="true">›</span><span class="text-white font-medium" aria-current="page">${escapeHtml(currentTitle)}</span></p>`;
   return `<nav aria-label="Breadcrumb" class="mb-5 dive-breadcrumb">
     ${backLink}
+    ${phone}
     <ol class="breadcrumb flex flex-wrap items-center gap-x-1 gap-y-1 text-sm text-mem-muted">
       ${items}
       <li class="breadcrumb-item flex items-center gap-1">
@@ -656,7 +668,7 @@ function renderParticleFacade(rawTitle, posterUrl) {
   const thumb = String(posterUrl || '').trim();
   const src = /^https?:\/\//i.test(thumb) ? thumb : `${ASSET_BASE}images/video-poster.webp`;
   return (
-    `<img src="${escapeAttr(src)}" alt="" class="video-poster-img absolute inset-0 w-full h-full object-cover" width="1280" height="720" loading="lazy" decoding="async">` +
+    `<img src="${escapeAttr(src)}" alt="${escapeAttr(rawTitle)}" class="video-poster-img absolute inset-0 w-full h-full object-cover" width="1280" height="720" loading="lazy" decoding="async">` +
     overlay
   );
 }
@@ -871,7 +883,6 @@ ${heroBanner}
                 <a href="${escapeAttr(quizHref)}" class="btn-primary deep-dive-quiz-cta__btn">
                   <span>${escapeHtml(quizCtaLabel(quiz.title || 'Living Truth'))}</span>
                 </a>
-                ${quiz.description ? `<p class="deep-dive-quiz-cta__desc">${escapeHtml(quiz.description)}</p>` : ''}
               </div>`
                   : ''
               }
@@ -1025,10 +1036,10 @@ ${jsonLd}
     <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}.deep-dive-hero,.deep-dive-hero-bg{background-color:#0F0A1F}.deep-dive-hero{min-height:22rem}@media (min-width:768px){.deep-dive-hero{min-height:30rem}}</style>
     <link rel="preload" href="${ASSET_BASE}assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="${ASSET_BASE}assets/fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="${ASSET_BASE}assets/css/main.min.css" as="style">
+    <link rel="preload" href="${ASSET_BASE}assets/css/main.min.css?v=16" as="style">
     <link rel="stylesheet" href="${ASSET_BASE}assets/css/fonts.css">
     <link rel="stylesheet" href="${ASSET_BASE}assets/css/tailwind.css">
-    <link rel="stylesheet" href="${ASSET_BASE}assets/css/main.min.css">
+    <link rel="stylesheet" href="${ASSET_BASE}assets/css/main.min.css?v=16">
 </head>
 <body class="cosmic-bg page-interior" data-dive-static="true" data-source="${escapeAttr(sourceId)}" data-topic="${escapeAttr(topic.id)}">
     <div id="reading-progress" class="reading-progress" aria-hidden="true" hidden>
@@ -1058,7 +1069,7 @@ ${bodyMain}
     <script src="${ASSET_BASE}assets/js/icons.js" defer></script>
     <script src="${ASSET_BASE}assets/js/topics-utils.js" defer></script>
     <script src="${ASSET_BASE}assets/js/shared.js" defer></script>
-    <script src="${ASSET_BASE}assets/js/dive-static.js" defer></script>
+    <script src="${ASSET_BASE}assets/js/dive-static.js?v=2" defer></script>
 </body>
 </html>
 `;
@@ -1169,12 +1180,13 @@ function writeLatest(pages) {
     };
   };
 
-  const recent = pages
+  const dated = pages
     .map((p, i) => ({ p, i }))
     .filter(({ p }) => p.live && p.added)
     .sort((a, b) => compareAddedDesc(a.p.added, b.p.added) || b.i - a.i)
-    .slice(0, LATEST_COUNT)
     .map(({ p }) => card(p));
+  const recent = dated.slice(0, LATEST_COUNT);
+  const shelf = dated.slice(0, 6);
 
   let featured = [];
   const featuredPath = path.join(ROOT, 'data', 'home-featured.json');
@@ -1193,10 +1205,10 @@ function writeLatest(pages) {
 
   fs.writeFileSync(
     path.join(ROOT, 'data', 'latest.json'),
-    JSON.stringify({ recent, featured }, null, 2) + '\n',
+    JSON.stringify({ recent, shelf, featured }, null, 2) + '\n',
     'utf8'
   );
-  console.log(`latest.json — ${recent.length} recent, ${featured.length} featured`);
+  console.log(`latest.json — ${recent.length} recent, ${shelf.length} shelf, ${featured.length} featured`);
 }
 
 function patchManifest(pages) {
@@ -1299,4 +1311,4 @@ if (require.main === module) {
   buildDives({ only: parseOnlyArg(process.argv) });
 }
 
-module.exports = { buildDives, parseOnlyArg };
+module.exports = { buildDives, parseOnlyArg, writeLatest };

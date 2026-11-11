@@ -325,7 +325,7 @@ function renderSupportPage(footerData, options = {}) {
             ${giveActions(`${starlinkQr}
               <div class="support-give-actions">
                 <a href="${starlink.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
-                  <span>${starlink.buttonText || 'Claim a free month'}</span>
+                  <span>${starlink.buttonText || 'Use the referral link'}</span>
                 </a>
               </div>`)}
           </article>`

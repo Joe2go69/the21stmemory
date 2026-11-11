@@ -359,7 +359,7 @@ function seriesShortName(title) {
 function renderShelfCard(c, { showDate }) {
   const date = showDate ? formatAdded(c.added) : '';
   const img = c.topic_image
-    ? `<img src="${escapeHtml(c.topic_image)}"${typeof topicImageSrcsetAttrs === 'function' ? topicImageSrcsetAttrs(c.topic_image, '(max-width: 719px) 55vw, 300px') : ''} alt="" class="home-shelf-card__img" width="640" height="360" loading="lazy" decoding="async">`
+    ? `<img src="${escapeHtml(c.topic_image)}"${typeof topicImageSrcsetAttrs === 'function' ? topicImageSrcsetAttrs(c.topic_image, '(max-width: 719px) 78vw, 360px') : ''} alt="${escapeHtml(c.title)}" class="home-shelf-card__img" width="640" height="360" loading="lazy" decoding="async">`
     : '';
   return `
     <a href="${escapeHtml(c.path)}" class="memory-card content-card home-shelf-card">
@@ -370,6 +370,12 @@ function renderShelfCard(c, { showDate }) {
         ${showDate ? '' : `<p class="home-shelf-card__desc">${escapeHtml(c.description)}</p>`}
       </div>
     </a>`;
+}
+
+// The six newest topics, in the order they were added.
+function pickRecentShelf(recent, limit = 6) {
+  const items = Array.isArray(recent) ? recent.filter((card) => card && card.path) : [];
+  return items.slice(0, limit);
 }
 
 async function loadHomeShelves() {
@@ -395,7 +401,10 @@ async function loadHomeShelves() {
     const res = await fetch('data/latest.json', { credentials: 'same-origin', cache: 'no-cache' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    fill(recentGrid, (data.recent || []).slice(0, 6), { showDate: true }, 'Recently added topics');
+    const shelf = Array.isArray(data.shelf) && data.shelf.length
+      ? data.shelf
+      : pickRecentShelf(data.recent, 6);
+    fill(recentGrid, shelf, { showDate: true }, 'Recently added topics');
     fill(startGrid, (data.featured || []).slice(0, 3), { showDate: false }, 'Start here topics');
   } catch (error) {
     console.warn('Homepage shelves unavailable:', error);
@@ -425,6 +434,30 @@ function readUnfinishedQuiz() {
   }
 }
 
+const THREE_READINGS = [
+  { id: 'revelations/harvest-toll', title: 'Harvest Toll', href: 'dive/revelations/harvest-toll.html' },
+  { id: 'revelations/terrarium-seal', title: 'Terrarium Seal', href: 'dive/revelations/terrarium-seal.html' },
+  { id: 'ascension/do-not-react', title: 'Do Not React', href: 'dive/ascension/do-not-react.html' }
+];
+
+function readThreeContinue() {
+  try {
+    const map = JSON.parse(localStorage.getItem('21st-memory-three-readings-v1') || '{}');
+    const known = THREE_READINGS.filter((item) => map[item.id] && map[item.id].savedAt);
+    if (!known.length) return null;
+    const open = known.filter((item) => Number(map[item.id].progress) < 0.9);
+    if (open.length) {
+      open.sort((a, b) => Number(map[b.id].savedAt) - Number(map[a.id].savedAt));
+      return { href: open[0].href, title: open[0].title, label: 'Continue the three readings' };
+    }
+    const next = THREE_READINGS.find((item) => !map[item.id] || !map[item.id].savedAt);
+    if (!next) return null;
+    return { href: next.href, title: next.title, label: 'Continue the three readings' };
+  } catch (_) {
+    return null;
+  }
+}
+
 function readLastDive() {
   try {
     const blob = JSON.parse(localStorage.getItem('21st-memory-last-dive-v1') || 'null');
@@ -439,7 +472,7 @@ function readLastDive() {
 function paintHomeResume() {
   const el = document.getElementById('home-resume');
   if (!el) return;
-  const item = readUnfinishedQuiz() || readLastDive();
+  const item = readUnfinishedQuiz() || readThreeContinue() || readLastDive();
   if (!item) {
     el.hidden = true;
     el.textContent = '';

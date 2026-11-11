@@ -4,7 +4,7 @@ let codexState = {
   sources: [],
   allTopics: [],
   archiveStats: { sources: 0, live: 0, total: 0 },
-  filters: { query: '', status: 'all', sort: 'alpha' },
+  filters: { query: '', status: 'all', sort: 'rank' },
   loading: true,
   resultLimit: 24,
   hasScrolledToResults: false,
@@ -13,6 +13,14 @@ let codexState = {
 };
 
 const CODEX_RESULTS_PAGE = 24;
+
+// Visual rank. Title A–Z is a different order: "Special Requests" sorts before "The Long-Awaited Ascension Process".
+const CODEX_SERIES_RANK = ['revelations', 'alice', 'breakdown', 'ascension', 'special-requests'];
+
+function seriesRank(source) {
+  const index = CODEX_SERIES_RANK.indexOf(source.id);
+  return index === -1 ? CODEX_SERIES_RANK.length : index;
+}
 
 const debouncedRenderCodexViews = TopicUtils.debounce(async () => {
   const hasQuery = !!TopicUtils.normalizeSearch(codexState.filters.query);
@@ -101,7 +109,7 @@ function applyCodexFiltersFromUrl() {
   if (status === 'all' || status === 'ready' || status === 'soon') {
     codexState.filters.status = status;
   }
-  if (sort === 'alpha' || sort === 'topics' || sort === 'live') {
+  if (sort === 'rank' || sort === 'alpha' || sort === 'topics' || sort === 'live') {
     codexState.filters.sort = sort;
   }
 }
@@ -129,12 +137,15 @@ function getSoonCount(stats) {
 function sortSources(sources, sortKey) {
   const sorted = [...sources];
   if (sortKey === 'topics') {
-    return sorted.sort((a, b) => b.stats.total - a.stats.total);
+    return sorted.sort((a, b) => (b.stats.total - a.stats.total) || (seriesRank(a) - seriesRank(b)));
   }
   if (sortKey === 'live') {
-    return sorted.sort((a, b) => b.stats.live - a.stats.live);
+    return sorted.sort((a, b) => (b.stats.live - a.stats.live) || (seriesRank(a) - seriesRank(b)));
   }
-  return sorted.sort((a, b) => a.title.localeCompare(b.title));
+  if (sortKey === 'alpha') {
+    return sorted.sort((a, b) => a.title.localeCompare(b.title) || (seriesRank(a) - seriesRank(b)));
+  }
+  return sorted.sort((a, b) => seriesRank(a) - seriesRank(b));
 }
 
 function getFilteredSources() {
@@ -265,6 +276,7 @@ function renderToolbar() {
         <div class="codex-sort-wrap">
           <label class="codex-sort-label" for="codex-sort-select">Sort</label>
           <select id="codex-sort-select" class="codex-sort-select" aria-label="Sort transmissions">
+            <option value="rank" ${sort === 'rank' ? 'selected' : ''}>Reading order</option>
             <option value="alpha" ${sort === 'alpha' ? 'selected' : ''}>A–Z</option>
             <option value="topics" ${sort === 'topics' ? 'selected' : ''}>Most topics</option>
             <option value="live" ${sort === 'live' ? 'selected' : ''}>Most ready</option>
