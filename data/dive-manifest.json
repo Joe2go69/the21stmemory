@@ -596,9 +596,9 @@
       "sourceId": "alice",
       "topicId": "reset-seven-of-eight",
       "path": "/dive/alice/reset-seven-of-eight.html",
-      "live": false,
+      "live": true,
       "title": "Reset Seven of Eight",
-      "added": "2026-10-14"
+      "added": "2026-11-10T17:05:23-07:00"
     },
     {
       "sourceId": "alice",

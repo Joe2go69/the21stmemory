@@ -653,10 +653,10 @@
             {
               "id": "reset-seven-of-eight",
               "title": "Reset Seven of Eight",
-              "description": "Reset Seven of Eight",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "The current manufactured epoch, the penultimate of eight engineered civilizational resets.",
+              "topic_image": "images/alice/reset-seven-of-eight.webp",
+              "is_placeholder": false,
+              "added": "2026-11-10T17:05:23-07:00"
             }
           ]
         },

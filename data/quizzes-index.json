@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T18:08:50.963Z",
-  "total": 356,
+  "generatedAt": "2026-11-11T00:15:04.500Z",
+  "total": 357,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 93
+      "count": 94
     },
     {
       "id": "breakdown",
@@ -1028,6 +1028,20 @@
       "diveHref": "dive/alice/reptilians.html",
       "key": "alice/reptilians",
       "order": 37
+    },
+    {
+      "id": "reset-seven-of-eight",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Reset Seven of Eight",
+      "subtitle": "Test your understanding of Reset Seven of Eight — the manufactured epoch, the thousand-year harvest, and the aborted final cycle.",
+      "questionCount": 25,
+      "href": "quiz/alice/reset-seven-of-eight.html",
+      "diveHref": "dive/alice/reset-seven-of-eight.html",
+      "key": "alice/reset-seven-of-eight",
+      "order": 74
     },
     {
       "id": "resets-hidden-history",

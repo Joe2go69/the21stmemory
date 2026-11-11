@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "reset-seven-of-eight",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Reset Seven of Eight",
+      "description": "The current manufactured epoch, the penultimate of eight engineered civilizational resets.",
+      "topic_image": "images/alice/reset-seven-of-eight.webp",
+      "path": "dive/alice/reset-seven-of-eight.html",
+      "added": "2026-11-10T17:05:23-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "lunatic-asylums",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Lunatic Asylums",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/language-inversion.webp",
       "path": "dive/alice/language-inversion.html",
       "added": "2026-11-07T08:18:39-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "path-of-invention",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Path of Invention",
-      "description": "The Path of Invention is the manufactured story that technology grew from zero, taught to a reset population after an advanced civilization was stripped.",
-      "topic_image": "images/alice/path-of-invention.webp",
-      "path": "dive/alice/path-of-invention.html",
-      "added": "2026-11-07T07:23:13-07:00"
     }
   ],
   "featured": [
