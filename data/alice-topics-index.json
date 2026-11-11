@@ -645,10 +645,10 @@
             {
               "id": "dark-ages-leap",
               "title": "Dark Ages Leap",
-              "description": "Dark Ages Leap",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "The manufactured jump from medieval darkness into leftover Tartarian industry, sold as organic progress.",
+              "topic_image": "images/alice/dark-ages-leap.webp",
+              "is_placeholder": false,
+              "added": "2026-11-10T18:07:01-07:00"
             },
             {
               "id": "reset-seven-of-eight",

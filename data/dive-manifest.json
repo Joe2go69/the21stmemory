@@ -588,9 +588,9 @@
       "sourceId": "alice",
       "topicId": "dark-ages-leap",
       "path": "/dive/alice/dark-ages-leap.html",
-      "live": false,
+      "live": true,
       "title": "Dark Ages Leap",
-      "added": "2026-10-14"
+      "added": "2026-11-10T18:07:01-07:00"
     },
     {
       "sourceId": "alice",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T00:15:04.500Z",
-  "total": 357,
+  "generatedAt": "2026-11-11T01:13:04.849Z",
+  "total": 358,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 94
+      "count": 95
     },
     {
       "id": "breakdown",
@@ -272,6 +272,20 @@
       "diveHref": "dive/alice/custodians.html",
       "key": "alice/custodians",
       "order": 32
+    },
+    {
+      "id": "dark-ages-leap",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Dark Ages Leap",
+      "subtitle": "Test your understanding of the Dark Ages Leap — leftover Tartarian industry, the workhouse looms, and the institutions built around that cover story.",
+      "questionCount": 25,
+      "href": "quiz/alice/dark-ages-leap.html",
+      "diveHref": "dive/alice/dark-ages-leap.html",
+      "key": "alice/dark-ages-leap",
+      "order": 73
     },
     {
       "id": "demons-and-sold-souls",

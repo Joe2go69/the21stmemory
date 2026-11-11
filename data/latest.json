@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "dark-ages-leap",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Dark Ages Leap",
+      "description": "The manufactured jump from medieval darkness into leftover Tartarian industry, sold as organic progress.",
+      "topic_image": "images/alice/dark-ages-leap.webp",
+      "path": "dive/alice/dark-ages-leap.html",
+      "added": "2026-11-10T18:07:01-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "reset-seven-of-eight",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Reset Seven of Eight",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/disclosure-psyop.webp",
       "path": "dive/alice/disclosure-psyop.html",
       "added": "2026-11-09T04:27:36-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "language-inversion",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Language Inversion",
-      "description": "Language Inversion is the post-reset rewriting of Sol, Soul, and Sun so that a soul family is heard as planets orbiting a star.",
-      "topic_image": "images/alice/language-inversion.webp",
-      "path": "dive/alice/language-inversion.html",
-      "added": "2026-11-07T08:18:39-07:00"
     }
   ],
   "featured": [
