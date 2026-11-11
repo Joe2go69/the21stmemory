@@ -1,0 +1,70 @@
+module.exports = {
+  source: 'alice',
+  id: 'energy-weapons',
+  title: 'Energy Weapons',
+  description: 'Frequency devices that petrify, transmute, and vitrify matter, while the nuclear bomb remains a story that was never built.',
+  images: {
+    topic: { source: 'Energy Weapons.webp', target: 'energy-weapons.webp' },
+    pdfPreview: { source: 'Subatomic_Frequency_Reality.webp', target: 'subatomic-frequency-reality.webp' },
+    infographic: { source: 'Subatomic_Frequency_Disruption_Infographic.webp', target: 'subatomic-frequency-disruption-infographic.webp' }
+  },
+  slide_deck_pdf_url: 'https://drive.google.com/file/d/1K2M66NiPsxZXONe93Tu0iALh6SxxIMMD/view?usp=sharing',
+  rumble_videos: [
+    {
+      title: 'The Nuclear Hoax And Frequency Weapons',
+      embed_url: 'https://rumble.com/embed/v7fznlg/?pub=4p0ieu',
+      description: 'The Nuclear Hoax And Frequency Weapons — Nuclear weapons were never built. Frequency devices left the desert glass and the petrified forms.'
+    },
+    {
+      title: 'Desert Glass Anomalies',
+      embed_url: 'https://rumble.com/embed/v7fznyy/?pub=4p0ieu',
+      description: 'Desert Glass Anomalies — Vitrified desert deposits are residue of ancient energy weapons, not atomic blasts.'
+    }
+  ],
+  report: `# Energy Weapons
+
+## Overview
+Energy weapons are advanced frequency devices deployed to alter molecular cohesion and subatomic cohesion, capable of instantaneous petrification, material transmutation, and physical restructuring. Functioning as a direct technological cousin to cold fusion, these instruments manipulate vibrational frequencies to achieve targeted physical devastation without leaving behind persistent radiological contamination. Conventional historical narratives mistakenly attribute their ancient physical residue to mythological catastrophes or hypothetical nuclear detonations; in truth, no nuclear weapon has ever been manufactured or detonated. Instead, energy weapons represent the physical reality responsible for anomalous geological phenomena such as desert glass, petrified biological structures, and the structural breakdown of matter.
+
+## Key Terminology
+- **Energy Weapons** — Advanced frequency devices that manipulate molecular and subatomic cohesion to alter physical matter, turn organic forms into stone, and fuse incompatible materials.
+- **No Nukes** — The foundational principle establishing that nuclear weapons have never been manufactured, tested, or deployed, functioning entirely as a psychological deception rather than a physical reality.
+- **Desert Glass** — Vitrified, glassy geological deposits found in remote deserts and mountains around the world, created by the thermal and frequency discharges of ancient energy weapons rather than atomic explosions.
+- **Petrification** — The rapid transformation of biological matter—including trees, humans, and giants—into solid stone through targeted frequency disruption of subatomic cohesion.
+- **Cold Fusion** — An advanced technological energy paradigm operating as a cousin to energy weapon technology, representing physical manufacturing science utilized by parasitic forces.
+- **Grow-Space** — Inhabitable planetary territory required by parasitic overlords to cultivate human populations, which authentic nuclear fallout would contaminate and render useless for thousands of years.
+- **White Flash** — The high-intensity thirty-second illumination produced during the planetary electromagnetic frequency event, which uninformed populations will mistake for a nuclear strike.
+- **EMF** — The electro magnetic frequency discharge executed to strip artificial overlays and clear non-player characters, mistaken by surface observers for energy weapon devastation or nuclear war.
+- **OOPA Report** — Documented compilations of Out Of Place Artefacts—including petrified relics and desert glass—which catalog physical anomalies while institutional summaries omit the fact that no nuke was ever made.
+
+## Core Revelations
+Nuclear weapons do not exist and have never existed in physical reality. No nuke has ever been manufactured, let alone detonated. Parasitic forces would never entrust weapons of persistent multi-millennial devastation to an erratic human despot, as ruining planetary grow-space for thousands of years would destroy the human livestock asset they spent millennia cultivating. The threat of nuclear annihilation serves solely as a psychological control mechanism designed to govern populations through engineered panic, paranoia, and existential fear.
+All vast deposits of desert glass discovered in remote deserts and mountain ranges worldwide are direct physical remnants of ancient energy weapons rather than ancient atomic wars. These weapons alter the subatomic bonds of targeted matter, leaving behind glassy terrain and petrified items. While these energy weapons and deposits of desert glass are cataloged within comprehensive OOPA reports alongside anomalous relics, institutional records systematically omit the crucial fact that nuclear weapons were never built.
+During the culmination of planetary resets, a bright white flash lasting thirty seconds will illuminate the realm. This flash will be widely mistaken for a nuclear attack by surviving observers who have been conditioned by catastrophic programming. In truth, the flash is the planetary EMF event stripping away artificial reality overlays. The subsequent visual exposure of bleed-through scaffolding and semi-pixelated structures will be erroneously interpreted by traumatized populations as energy weapon damage rather than structural matrix disassembly.
+
+## Detailed Mechanics and Key Elements
+### Subatomic and Molecular Transmutation
+Energy weapons operate by directing focused frequency modulations into physical matter, fundamentally changing its molecular cohesion and subatomic cohesion. Unlike conventional kinetic force or chemical explosives that simply shatter materials, these frequency devices reprogram the vibrational frequencies that hold elemental structures together. Under this field effect, matter is restructured at the foundational level, converting one material state into another almost instantaneously.
+
+### Biological Petrification
+When applied to biological organisms, energy weapons bypass normal decomposition and mineralization processes:
+A standing tree can be instantly converted to solid stone.
+A living human being can be frozen into rock.
+A giant can be turned into stone on the spot, preserving anatomical form within a dense mineral matrix.
+This process accounts for anomalous fossilized artifacts found globally, including items preserved in private collections and museum basements such as fossilized hats and fossilized books. Curatorial institutions maintain an operational policy of concealing such items, acknowledging that artifacts which cannot be explained within conventional frameworks cannot be displayed.
+
+### Fusion of Incompatible Materials
+Under the influence of energy weapon frequencies, chemically and physically incompatible materials are forced into molecular unity. Substances that normally possess divergent melting points, crystal structures, or elemental properties are fused seamlessly together, unifying them as a single cohesive mass.
+
+### Technological Relationship to Cold Fusion
+Energy weapons represent a direct mechanical cousin to cold fusion technology. Both systems exploit non-combustive, subatomic physics developed by parasitic controllers. While formidable enough to induce structural dustification, liquefaction, and vitrification of dense environments, energy weapons remain classified as manufactured, physical-density apparatus. They operate far below higher-density consciousness abilities that manifest complex structures directly through pure sound, intention, and harmonic architecture.
+
+## Broader Context and Interconnections
+Within the broader lineage of suppressed historical reset mechanisms, energy weapons represent the final technical manifestation of physical pacification and geological restructuring. Their physical consequences interface directly with the global presence of Out Of Place Artefacts. Ancient frequency warfare left petrified objects and vitrified desert glass across multiple continents, creating physical anomalies that institutional science relegated to storage vaults to prevent the rediscovery of suppressed physics.
+Furthermore, energy weapons interface conceptually with the mechanics of the planetary EMF event. When the Galactic Ancestral Alliance initiates the terminal white flash to dissolve the artificial projection dome and remove dimensional overlays, the resulting visual degradation and pixelation of the environment will mirror the physical signatures of energy weapon strikes. Observers failing to grasp this distinction will conflate the liberatory electromagnetic reset with destructive energy weapon assaults or mythical nuclear strikes.
+
+## Strategic Implications
+Understanding the physical reality of energy weapons strips the ruling hierarchy of its primary psychological weapon: the nuclear deterrent. Because nuclear weapons have never existed, threats of thermonuclear war and global radioactive fallout are exposed as total fabrications intended to preserve geopolitical compliance. Populations recognizing this truth can no longer be coerced by manufactured nuclear brinkmanship.
+Additionally, comprehensive knowledge of energy weapons prepares individuals for the visual anomalies of the impending transition. When the blinding white flash occurs, informed observers will not fall into the psychological paralysis of believing a nuclear detonation has taken place. Recognizing the event as the planetary EMF rather than atomic destruction prevents catatonic shock and allows conscious alignment with the stripping of deceptive overlays. Finally, acknowledging that desert glass and petrified anomalies originate from frequency-based weapons validates the existence of suppressed etheric and subatomic sciences, establishing that physical matter is entirely subordinate to harmonic frequencies.
+`
+};

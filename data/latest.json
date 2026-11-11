@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "energy-weapons",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Energy Weapons",
+      "description": "Frequency devices that petrify, transmute, and vitrify matter, while the nuclear bomb remains a story that was never built.",
+      "topic_image": "images/alice/energy-weapons.webp",
+      "path": "dive/alice/energy-weapons.html",
+      "added": "2026-11-10T18:36:24-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "dark-ages-leap",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Dark Ages Leap",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/tv-and-radio.webp",
       "path": "dive/alice/tv-and-radio.html",
       "added": "2026-11-09T05:36:01-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "disclosure-psyop",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Disclosure Psyop",
-      "description": "The Disclosure Psyop is a CIA and parasitic-control operation that manages perception of extra-terrestrial life, staged planetary events, and the Great Spiritual Awakening.",
-      "topic_image": "images/alice/disclosure-psyop.webp",
-      "path": "dive/alice/disclosure-psyop.html",
-      "added": "2026-11-09T04:27:36-07:00"
     }
   ],
   "featured": [

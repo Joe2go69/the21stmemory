@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T01:13:04.849Z",
-  "total": 358,
+  "generatedAt": "2026-11-11T01:41:25.701Z",
+  "total": 359,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 95
+      "count": 96
     },
     {
       "id": "breakdown",
@@ -398,6 +398,20 @@
       "diveHref": "dive/alice/emf-white-flash.html",
       "key": "alice/emf-white-flash",
       "order": 100
+    },
+    {
+      "id": "energy-weapons",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Energy Weapons",
+      "subtitle": "Test your understanding of energy weapons — frequency petrification, desert glass, and the nuclear story that was never built.",
+      "questionCount": 25,
+      "href": "quiz/alice/energy-weapons.html",
+      "diveHref": "dive/alice/energy-weapons.html",
+      "key": "alice/energy-weapons",
+      "order": 78
     },
     {
       "id": "essence-of-the-transmission",

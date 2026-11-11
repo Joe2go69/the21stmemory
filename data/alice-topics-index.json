@@ -687,10 +687,10 @@
             {
               "id": "energy-weapons",
               "title": "Energy Weapons",
-              "description": "Energy Weapons",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Frequency devices that petrify, transmute, and vitrify matter, while the nuclear bomb remains a story that was never built.",
+              "topic_image": "images/alice/energy-weapons.webp",
+              "is_placeholder": false,
+              "added": "2026-11-10T18:36:24-07:00"
             }
           ]
         }

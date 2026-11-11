@@ -628,9 +628,9 @@
       "sourceId": "alice",
       "topicId": "energy-weapons",
       "path": "/dive/alice/energy-weapons.html",
-      "live": false,
+      "live": true,
       "title": "Energy Weapons",
-      "added": "2026-10-14"
+      "added": "2026-11-10T18:36:24-07:00"
     },
     {
       "sourceId": "alice",
