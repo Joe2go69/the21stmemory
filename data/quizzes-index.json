@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T18:40:46.970Z",
-  "total": 362,
+  "generatedAt": "2026-11-11T19:45:22.083Z",
+  "total": 363,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 99
+      "count": 100
     },
     {
       "id": "breakdown",
@@ -1336,6 +1336,20 @@
       "diveHref": "dive/alice/titanic-switch.html",
       "key": "alice/titanic-switch",
       "order": 70
+    },
+    {
+      "id": "trump-and-patton",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Trump and Patton",
+      "subtitle": "Test your understanding of Trump and Patton — the staged persona, replacement, and the personal audit of what you know.",
+      "questionCount": 25,
+      "href": "quiz/alice/trump-and-patton.html",
+      "diveHref": "dive/alice/trump-and-patton.html",
+      "key": "alice/trump-and-patton",
+      "order": 86
     },
     {
       "id": "truthers-without-the-intel",

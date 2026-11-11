@@ -692,9 +692,9 @@
       "sourceId": "alice",
       "topicId": "trump-and-patton",
       "path": "/dive/alice/trump-and-patton.html",
-      "live": false,
+      "live": true,
       "title": "Trump and Patton",
-      "added": "2026-10-14"
+      "added": "2026-11-11T12:38:42-07:00"
     },
     {
       "sourceId": "alice",

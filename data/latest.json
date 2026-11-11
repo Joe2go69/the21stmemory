@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "trump-and-patton",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Trump and Patton",
+      "description": "The node of Trump and Patton represents the absolute demystification of global leadership, exposing the manufactured persona accepted by the world as Donald J. Trump as an orchestrated construct.",
+      "topic_image": "images/alice/trump-and-patton.webp",
+      "path": "dive/alice/trump-and-patton.html",
+      "added": "2026-11-11T12:38:42-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "truthers-without-the-intel",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Truthers Without the Intel",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/dumb-nurseries.webp",
       "path": "dive/alice/dumb-nurseries.html",
       "added": "2026-11-10T05:27:58-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "pneumatic-rail",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Pneumatic Rail",
-      "description": "Pneumatic Rail is a high-speed subterranean mass transit system engineered to run on clean pneumatic air pressure without dangerous electricity.",
-      "topic_image": "images/alice/pneumatic-rail.webp",
-      "path": "dive/alice/pneumatic-rail.html",
-      "added": "2026-11-10T04:46:53-07:00"
     }
   ],
   "featured": [
