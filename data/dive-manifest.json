@@ -676,9 +676,9 @@
       "sourceId": "alice",
       "topicId": "healthcare-compliance",
       "path": "/dive/alice/healthcare-compliance.html",
-      "live": false,
+      "live": true,
       "title": "Healthcare Compliance",
-      "added": "2026-10-14"
+      "added": "2026-11-11T10:30:45-07:00"
     },
     {
       "sourceId": "alice",

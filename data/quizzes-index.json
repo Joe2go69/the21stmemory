@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T16:37:15.553Z",
-  "total": 360,
+  "generatedAt": "2026-11-11T17:38:00.774Z",
+  "total": 361,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 97
+      "count": 98
     },
     {
       "id": "breakdown",
@@ -650,6 +650,20 @@
       "diveHref": "dive/alice/grey-ets.html",
       "key": "alice/grey-ets",
       "order": 35
+    },
+    {
+      "id": "healthcare-compliance",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Healthcare Compliance",
+      "subtitle": "Test your understanding of Healthcare Compliance — automated obedience, empty wards, and the manufactured COVID crisis.",
+      "questionCount": 25,
+      "href": "quiz/alice/healthcare-compliance.html",
+      "diveHref": "dive/alice/healthcare-compliance.html",
+      "key": "alice/healthcare-compliance",
+      "order": 84
     },
     {
       "id": "holographic-projection-dome",

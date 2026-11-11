@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "healthcare-compliance",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Healthcare Compliance",
+      "description": "Within the structured conditioning of Perceived Knowledge, Healthcare Compliance represents the systematic, unquestioning execution of institutional directives by medical workers and frontline administrative personnel during the manufactured COVID crisis.",
+      "topic_image": "images/alice/healthcare-compliance.webp",
+      "path": "dive/alice/healthcare-compliance.html",
+      "added": "2026-11-11T10:30:45-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "not-the-payout",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Not the Payout",
@@ -109,16 +119,6 @@
       "topic_image": "images/alice/radium-and-kryptonite.webp",
       "path": "dive/alice/radium-and-kryptonite.html",
       "added": "2026-11-09T07:23:01-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "sung-into-stone",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Sung into Stone",
-      "description": "Sung into Stone is the primordial process of acoustic and harmonic materialization by which physical structures and architectural edifices are ordained and brought into physical reality.",
-      "topic_image": "images/alice/sung-into-stone.webp",
-      "path": "dive/alice/sung-into-stone.html",
-      "added": "2026-11-09T06:38:04-07:00"
     }
   ],
   "featured": [
