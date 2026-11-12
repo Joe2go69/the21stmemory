@@ -788,9 +788,9 @@
       "sourceId": "alice",
       "topicId": "project-blue-beam",
       "path": "/dive/alice/project-blue-beam.html",
-      "live": false,
+      "live": true,
       "title": "Project Blue Beam",
-      "added": "2026-10-14"
+      "added": "2026-11-11T19:50:57-07:00"
     },
     {
       "sourceId": "alice",

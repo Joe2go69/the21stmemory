@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "project-blue-beam",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Project Blue Beam",
+      "description": "Project Blue Beam—alternatively designated as Project Bluebeam, Blue Beam, or the holographic invasion—is an advanced optical operation engineered to project a synthetic, planetary-scale extraterrestrial battle across the skies of the realm.",
+      "topic_image": "images/alice/project-blue-beam.webp",
+      "path": "dive/alice/project-blue-beam.html",
+      "added": "2026-11-11T19:50:57-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "pleiadians",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Pleiadians",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/lunatic-asylums.webp",
       "path": "dive/alice/lunatic-asylums.html",
       "added": "2026-11-10T11:04:15-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "the-cover-up",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "The Cover-up",
-      "description": "The Cover-up is the institutional protocol that intercepts anomalous finds, confiscates the evidence, and silences the people who uncovered them.",
-      "topic_image": "images/alice/the-cover-up.webp",
-      "path": "dive/alice/the-cover-up.html",
-      "added": "2026-11-10T09:58:54-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "alice",
+      "topicId": "project-blue-beam",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Project Blue Beam",
+      "description": "Project Blue Beam—alternatively designated as Project Bluebeam, Blue Beam, or the holographic invasion—is an advanced optical operation engineered to project a synthetic, planetary-scale extraterrestrial battle across the skies of the realm.",
+      "topic_image": "images/alice/project-blue-beam.webp",
+      "path": "dive/alice/project-blue-beam.html",
+      "added": "2026-11-11T19:50:57-07:00"
+    },
     {
       "sourceId": "alice",
       "topicId": "pleiadians",
@@ -171,16 +181,6 @@
       "topic_image": "images/alice/truthers-without-the-intel.webp",
       "path": "dive/alice/truthers-without-the-intel.html",
       "added": "2026-11-11T11:35:01-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "healthcare-compliance",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Healthcare Compliance",
-      "description": "Within the structured conditioning of Perceived Knowledge, Healthcare Compliance represents the systematic, unquestioning execution of institutional directives by medical workers and frontline administrative personnel during the manufactured COVID crisis.",
-      "topic_image": "images/alice/healthcare-compliance.webp",
-      "path": "dive/alice/healthcare-compliance.html",
-      "added": "2026-11-11T10:30:45-07:00"
     }
   ],
   "featured": [

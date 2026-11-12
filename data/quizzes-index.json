@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-12T01:56:10.897Z",
-  "total": 366,
+  "generatedAt": "2026-11-12T02:54:32.150Z",
+  "total": 367,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 103
+      "count": 104
     },
     {
       "id": "breakdown",
@@ -1042,6 +1042,20 @@
       "diveHref": "dive/alice/pneumatic-rail.html",
       "key": "alice/pneumatic-rail",
       "order": 62
+    },
+    {
+      "id": "project-blue-beam",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Project Blue Beam",
+      "subtitle": "Test your understanding of Project Blue Beam — the holographic sky war, the Mt Meru Valve, and the EMF cutoff.",
+      "questionCount": 25,
+      "href": "quiz/alice/project-blue-beam.html",
+      "diveHref": "dive/alice/project-blue-beam.html",
+      "key": "alice/project-blue-beam",
+      "order": 98
     },
     {
       "id": "radium-and-kryptonite",
