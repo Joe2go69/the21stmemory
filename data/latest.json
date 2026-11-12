@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "pleiadians",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Pleiadians",
+      "description": "Pleiadians, functionally designated as escaped Tarans, are former Taran souls who successfully broke out and evaded planetary entrapment when the inversion of the realm initially transpired roughly 100,000 Earth years ago.",
+      "topic_image": "images/alice/pleiadians.webp",
+      "path": "dive/alice/pleiadians.html",
+      "added": "2026-11-11T18:50:36-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "taran-vessels",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Taran Vessels",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/the-cover-up.webp",
       "path": "dive/alice/the-cover-up.html",
       "added": "2026-11-10T09:58:54-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "titanic-switch",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Titanic Switch",
-      "description": "The Titanic Switch is a covert maritime substitution that sent the Olympic down under the Titanic name to remove Federal Reserve opposition and conceal ancient technology.",
-      "topic_image": "images/alice/titanic-switch.webp",
-      "path": "dive/alice/titanic-switch.html",
-      "added": "2026-11-10T09:38:17-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "alice",
+      "topicId": "pleiadians",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Pleiadians",
+      "description": "Pleiadians, functionally designated as escaped Tarans, are former Taran souls who successfully broke out and evaded planetary entrapment when the inversion of the realm initially transpired roughly 100,000 Earth years ago.",
+      "topic_image": "images/alice/pleiadians.webp",
+      "path": "dive/alice/pleiadians.html",
+      "added": "2026-11-11T18:50:36-07:00"
+    },
     {
       "sourceId": "alice",
       "topicId": "taran-vessels",
@@ -171,16 +181,6 @@
       "topic_image": "images/alice/healthcare-compliance.webp",
       "path": "dive/alice/healthcare-compliance.html",
       "added": "2026-11-11T10:30:45-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "not-the-payout",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Not the Payout",
-      "description": "Not the Payout defines the absolute operational principle that the ongoing cosmic confrontation and disclosure process is entirely detached from material enrichment, biological preservation, or political drama.",
-      "topic_image": "images/alice/not-the-payout.webp",
-      "path": "dive/alice/not-the-payout.html",
-      "added": "2026-11-11T09:26:42-07:00"
     }
   ],
   "featured": [

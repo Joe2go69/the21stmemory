@@ -756,9 +756,9 @@
       "sourceId": "alice",
       "topicId": "pleiadians",
       "path": "/dive/alice/pleiadians.html",
-      "live": false,
+      "live": true,
       "title": "Pleiadians",
-      "added": "2026-10-14"
+      "added": "2026-11-11T18:50:36-07:00"
     },
     {
       "sourceId": "alice",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-12T00:42:15.898Z",
-  "total": 365,
+  "generatedAt": "2026-11-12T01:56:10.897Z",
+  "total": 366,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 102
+      "count": 103
     },
     {
       "id": "breakdown",
@@ -1014,6 +1014,20 @@
       "diveHref": "dive/alice/perceived-knowledge-lies.html",
       "key": "alice/perceived-knowledge-lies",
       "order": 83
+    },
+    {
+      "id": "pleiadians",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Pleiadians",
+      "subtitle": "Test your understanding of Pleiadians — escaped Tarans, the 100,000-year split, and ascension upgrades.",
+      "questionCount": 25,
+      "href": "quiz/alice/pleiadians.html",
+      "diveHref": "dive/alice/pleiadians.html",
+      "key": "alice/pleiadians",
+      "order": 94
     },
     {
       "id": "pneumatic-rail",

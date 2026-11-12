@@ -825,10 +825,10 @@
             {
               "id": "pleiadians",
               "title": "Pleiadians",
-              "description": "Pleiadians",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Pleiadians, functionally designated as escaped Tarans, are former Taran souls who successfully broke out and evaded planetary entrapment when the inversion of the realm initially transpired roughly 100,000 Earth years ago.",
+              "topic_image": "images/alice/pleiadians.webp",
+              "is_placeholder": false,
+              "added": "2026-11-11T18:50:36-07:00"
             }
           ]
         },
