@@ -57,8 +57,8 @@ function ensureCriticalPaint(html) {
   if (html.includes('<!-- Critical paint:')) return html;
 
   const markers = [
-    '    <link rel="preload" href="../../assets/css/main.min.css" as="style">',
-    '    <link rel="stylesheet" href="../../assets/css/main.min.css">',
+    '    <link rel="preload" href="../../assets/css/main.min.css?v=18" as="style">',
+    '    <link rel="stylesheet" href="../../assets/css/main.min.css?v=18">',
     '    <link rel="stylesheet" href="../../assets/css/quiz.css">',
   ];
   for (const marker of markers) {

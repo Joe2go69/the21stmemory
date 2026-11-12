@@ -24389,3 +24389,35 @@ button.support-way__share {
 @media (max-width: 720px) {
   .page-shop .shop-goods__grid { grid-template-columns: 1fr; }
 }
+
+/* A hover lift moves the card off the pointer while the wheel is moving,
+   so the hover starts and stops and the scroll hitches. Keep the shadow. */
+.memory-card:not(.static-card):not(.topics-filter-panel):hover,
+.content-card:not(.static-card):not(.topics-filter-panel):hover,
+.lesson-content-card:not(.static-card):hover,
+.channel-card:not(.static-card):not(.video-card):not(.topics-filter-panel):not(.source-card):hover,
+a.quiz-hub-card:hover,
+a.quiz-hub-row:hover,
+.quiz-hub-path-card:hover,
+a.quiz-hub-featured-card:hover,
+a.quiz-continue-card:hover,
+.journey-card:hover,
+.topic-root-card:hover,
+a.topic-root-card:hover,
+.topic-main-root-card:hover,
+.network-start-card:hover,
+a.source-card:not(.static-card):hover,
+a.source-card:hover,
+.source-card:not(.static-card):hover,
+.source-card:hover,
+button.source-card:hover,
+a.codex-search-card:hover,
+.codex-search-card:hover,
+.codex-topic-result:hover,
+.footer-donate-card:hover,
+.error-page-path:hover,
+.home-shelf-card:hover,
+.page-support .support-ways .support-way:hover,
+a.support-way:hover {
+  transform: none !important;
+}

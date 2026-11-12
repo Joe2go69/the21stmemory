@@ -28,9 +28,9 @@ function ensureCriticalPaint(html) {
   }
 
   const markers = [
-    '    <link rel="preload" href="../../assets/css/main.min.css" as="style">',
+    '    <link rel="preload" href="../../assets/css/main.min.css?v=18" as="style">',
     '    <link rel="stylesheet" href="../../assets/css/tailwind.css">',
-    '    <link rel="stylesheet" href="../../assets/css/main.min.css">',
+    '    <link rel="stylesheet" href="../../assets/css/main.min.css?v=18">',
     '    <link rel="stylesheet" href="../../assets/css/quiz.css">',
   ];
 

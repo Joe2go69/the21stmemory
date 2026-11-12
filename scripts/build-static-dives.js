@@ -1036,10 +1036,10 @@ ${jsonLd}
     <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}.deep-dive-hero,.deep-dive-hero-bg{background-color:#0F0A1F}.deep-dive-hero{min-height:22rem}@media (min-width:768px){.deep-dive-hero{min-height:30rem}}</style>
     <link rel="preload" href="${ASSET_BASE}assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="${ASSET_BASE}assets/fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="${ASSET_BASE}assets/css/main.min.css?v=16" as="style">
+    <link rel="preload" href="${ASSET_BASE}assets/css/main.min.css?v=18" as="style">
     <link rel="stylesheet" href="${ASSET_BASE}assets/css/fonts.css">
     <link rel="stylesheet" href="${ASSET_BASE}assets/css/tailwind.css">
-    <link rel="stylesheet" href="${ASSET_BASE}assets/css/main.min.css?v=16">
+    <link rel="stylesheet" href="${ASSET_BASE}assets/css/main.min.css?v=18">
 </head>
 <body class="cosmic-bg page-interior" data-dive-static="true" data-source="${escapeAttr(sourceId)}" data-topic="${escapeAttr(topic.id)}">
     <div id="reading-progress" class="reading-progress" aria-hidden="true" hidden>
