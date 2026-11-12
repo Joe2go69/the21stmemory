@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "taran-vessels",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Taran Vessels",
+      "description": "Taran Vessels are the biological and physical vehicular forms engineered to house the incarnated consciousness of Taran humans within dense physical reality.",
+      "topic_image": "images/alice/taran-vessels.webp",
+      "path": "dive/alice/taran-vessels.html",
+      "added": "2026-11-11T17:32:07-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "micro-suns",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Micro Suns",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/titanic-switch.webp",
       "path": "dive/alice/titanic-switch.html",
       "added": "2026-11-10T09:38:17-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "drab-on-purpose",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Drab on Purpose",
-      "description": "Drab on Purpose is the deliberate architectural and environmental degradation of the built landscape, replacing harmonic beauty with uniform visual austerity.",
-      "topic_image": "images/alice/drab-on-purpose.webp",
-      "path": "dive/alice/drab-on-purpose.html",
-      "added": "2026-11-10T06:08:53-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "alice",
+      "topicId": "taran-vessels",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Taran Vessels",
+      "description": "Taran Vessels are the biological and physical vehicular forms engineered to house the incarnated consciousness of Taran humans within dense physical reality.",
+      "topic_image": "images/alice/taran-vessels.webp",
+      "path": "dive/alice/taran-vessels.html",
+      "added": "2026-11-11T17:32:07-07:00"
+    },
     {
       "sourceId": "alice",
       "topicId": "micro-suns",
@@ -171,16 +181,6 @@
       "topic_image": "images/alice/not-the-payout.webp",
       "path": "dive/alice/not-the-payout.html",
       "added": "2026-11-11T09:26:42-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "energy-weapons",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Energy Weapons",
-      "description": "Frequency devices that petrify, transmute, and vitrify matter, while the nuclear bomb remains a story that was never built.",
-      "topic_image": "images/alice/energy-weapons.webp",
-      "path": "dive/alice/energy-weapons.html",
-      "added": "2026-11-10T18:36:24-07:00"
     }
   ],
   "featured": [

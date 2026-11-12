@@ -748,9 +748,9 @@
       "sourceId": "alice",
       "topicId": "taran-vessels",
       "path": "/dive/alice/taran-vessels.html",
-      "live": false,
+      "live": true,
       "title": "Taran Vessels",
-      "added": "2026-10-14"
+      "added": "2026-11-11T17:32:07-07:00"
     },
     {
       "sourceId": "alice",

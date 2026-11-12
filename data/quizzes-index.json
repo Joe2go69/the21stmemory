@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T21:05:46.905Z",
-  "total": 364,
+  "generatedAt": "2026-11-12T00:42:15.898Z",
+  "total": 365,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 101
+      "count": 102
     },
     {
       "id": "breakdown",
@@ -1252,6 +1252,20 @@
       "diveHref": "dive/alice/sung-into-stone.html",
       "key": "alice/sung-into-stone",
       "order": 60
+    },
+    {
+      "id": "taran-vessels",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Taran Vessels",
+      "subtitle": "Test your understanding of Taran Vessels — the mortal biological suit, imposed speech, and survival through the EMF flash.",
+      "questionCount": 25,
+      "href": "quiz/alice/taran-vessels.html",
+      "diveHref": "dive/alice/taran-vessels.html",
+      "key": "alice/taran-vessels",
+      "order": 93
     },
     {
       "id": "tartaria",

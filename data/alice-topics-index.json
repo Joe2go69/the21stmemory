@@ -817,10 +817,10 @@
             {
               "id": "taran-vessels",
               "title": "Taran Vessels",
-              "description": "Taran Vessels",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Taran Vessels are the biological and physical vehicular forms engineered to house the incarnated consciousness of Taran humans within dense physical reality.",
+              "topic_image": "images/alice/taran-vessels.webp",
+              "is_placeholder": false,
+              "added": "2026-11-11T17:32:07-07:00"
             },
             {
               "id": "pleiadians",
