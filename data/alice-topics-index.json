@@ -885,10 +885,10 @@
             {
               "id": "social-media-window",
               "title": "Social Media Window",
-              "description": "Social Media Window",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "The Social Media Window is the phase when the planetary digital network, built for surveillance, is repurposed to deliver uncensored truth.",
+              "topic_image": "images/alice/social-media-window.webp",
+              "is_placeholder": false,
+              "added": "2026-11-13T16:45:54-07:00"
             },
             {
               "id": "scare-events",

@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "social-media-window",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Social Media Window",
+      "description": "The Social Media Window is the phase when the planetary digital network, built for surveillance, is repurposed to deliver uncensored truth.",
+      "topic_image": "images/alice/social-media-window.webp",
+      "path": "dive/alice/social-media-window.html",
+      "added": "2026-11-13T16:45:54-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "craft-that-do-not-land",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Craft That Do Not Land",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/dark-ages-leap.webp",
       "path": "dive/alice/dark-ages-leap.html",
       "added": "2026-11-10T18:07:01-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "reset-seven-of-eight",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Reset Seven of Eight",
-      "description": "The current manufactured epoch, the penultimate of eight engineered civilizational resets.",
-      "topic_image": "images/alice/reset-seven-of-eight.webp",
-      "path": "dive/alice/reset-seven-of-eight.html",
-      "added": "2026-11-10T17:05:23-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "alice",
+      "topicId": "social-media-window",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Social Media Window",
+      "description": "The Social Media Window is the phase when the planetary digital network, built for surveillance, is repurposed to deliver uncensored truth.",
+      "topic_image": "images/alice/social-media-window.webp",
+      "path": "dive/alice/social-media-window.html",
+      "added": "2026-11-13T16:45:54-07:00"
+    },
     {
       "sourceId": "alice",
       "topicId": "craft-that-do-not-land",
@@ -171,16 +181,6 @@
       "topic_image": "images/alice/micro-suns.webp",
       "path": "dive/alice/micro-suns.html",
       "added": "2026-11-11T14:00:38-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "trump-and-patton",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Trump and Patton",
-      "description": "The node of Trump and Patton represents the absolute demystification of global leadership, exposing the manufactured persona accepted by the world as Donald J. Trump as an orchestrated construct.",
-      "topic_image": "images/alice/trump-and-patton.webp",
-      "path": "dive/alice/trump-and-patton.html",
-      "added": "2026-11-11T12:38:42-07:00"
     }
   ],
   "featured": [

@@ -812,9 +812,9 @@
       "sourceId": "alice",
       "topicId": "social-media-window",
       "path": "/dive/alice/social-media-window.html",
-      "live": false,
+      "live": true,
       "title": "Social Media Window",
-      "added": "2026-10-14"
+      "added": "2026-11-13T16:45:54-07:00"
     },
     {
       "sourceId": "alice",

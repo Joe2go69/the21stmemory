@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T19:58:41.087Z",
-  "total": 368,
+  "generatedAt": "2026-11-13T23:51:24.240Z",
+  "total": 369,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 105
+      "count": 106
     },
     {
       "id": "breakdown",
@@ -1182,6 +1182,20 @@
       "diveHref": "dive/alice/simulation-reality.html",
       "key": "alice/simulation-reality",
       "order": 2
+    },
+    {
+      "id": "social-media-window",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Social Media Window",
+      "subtitle": "Test your understanding of Social Media Window — the repurposed digital grid, the cellophane barrier, and free information.",
+      "questionCount": 25,
+      "href": "quiz/alice/social-media-window.html",
+      "diveHref": "dive/alice/social-media-window.html",
+      "key": "alice/social-media-window",
+      "order": 101
     },
     {
       "id": "sol-soul-portal",
