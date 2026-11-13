@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-12T02:54:32.150Z",
-  "total": 367,
+  "generatedAt": "2026-11-13T19:58:41.087Z",
+  "total": 368,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 104
+      "count": 105
     },
     {
       "id": "breakdown",
@@ -230,6 +230,20 @@
       "diveHref": "dive/alice/cosmology.html",
       "key": "alice/cosmology",
       "order": 9
+    },
+    {
+      "id": "craft-that-do-not-land",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Craft That Do Not Land",
+      "subtitle": "Test your understanding of Craft That Do Not Land — high watch, no touchdown, and the interior that opens into another simulation.",
+      "questionCount": 25,
+      "href": "quiz/alice/craft-that-do-not-land.html",
+      "diveHref": "dive/alice/craft-that-do-not-land.html",
+      "key": "alice/craft-that-do-not-land",
+      "order": 99
     },
     {
       "id": "crystal-alters",

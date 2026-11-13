@@ -867,10 +867,10 @@
                 {
                   "id": "craft-that-do-not-land",
                   "title": "Craft That Do Not Land",
-                  "description": "Craft That Do Not Land",
-                  "topic_image": "images/alice/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-14"
+                  "description": "Authentic high-density ET craft hold high-altitude observational positions above the realm and refuse physical touchdown.",
+                  "topic_image": "images/alice/craft-that-do-not-land.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-13T12:51:02-07:00"
                 }
               ]
             },

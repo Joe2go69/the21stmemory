@@ -796,9 +796,9 @@
       "sourceId": "alice",
       "topicId": "craft-that-do-not-land",
       "path": "/dive/alice/craft-that-do-not-land.html",
-      "live": false,
+      "live": true,
       "title": "Craft That Do Not Land",
-      "added": "2026-10-14"
+      "added": "2026-11-13T12:51:02-07:00"
     },
     {
       "sourceId": "alice",
