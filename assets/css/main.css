@@ -24490,3 +24490,36 @@ a.codex-search-card:hover,
 a.support-way:hover {
   transform: none !important;
 }
+
+/* ==========================================================================
+   Shared chrome consistency (Nov 2026)
+   - Menu and footer use border-box on every page. Quiz pages don't load
+     Tailwind's preflight, so without this the mobile menu rows grew from
+     42px to 60px there.
+   - Standalone text links get a 24px+ tap area (WCAG 2.5.8) through an
+     invisible hit area, so nothing on the page moves.
+   ========================================================================== */
+.navbar,
+.navbar *,
+.navbar *::before,
+.navbar *::after,
+.site-footer,
+.site-footer *,
+.site-footer *::before,
+.site-footer *::after {
+  box-sizing: border-box;
+}
+
+a.text-link {
+  position: relative;
+}
+
+a.text-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: max(100%, 1.75rem);
+  transform: translateY(-50%);
+}

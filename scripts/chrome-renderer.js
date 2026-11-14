@@ -230,9 +230,8 @@ function renderSupportPage(footerData, options = {}) {
   const messages = supportMessageParts(s.message, [
     'Every video, report, summary, quiz, infographic, and slide deck on 21st Memory is open to watch and share. Download the files from <a href="https://t.me/The_21st_Memory" class="text-link" target="_blank" rel="noopener noreferrer">Telegram</a>. Nothing is locked, and support never unlocks anything.',
     'The source material comes from the original Christian / Thalon Thor transmissions. The work here is organizing and presenting that material in clearer formats using AI tools, then pointing back to the originals.',
-    'Those tools, along with internet and power, have ongoing costs. Continuing to produce new material depends on covering those costs. Contributions exist as an optional way to help with that, but they are never required. The content stays free either way.',
-    'This is not a business and it is not about profit. Asking for help to cover the tools is not about charging for humanity’s information — it is simply what makes it possible to keep the work going.',
-    '<strong>Where support goes:</strong> Power, internet, and the AI subscriptions used to make the videos and pages. That’s it. If support runs out, the AI subscriptions are the first thing to go, and new material slows or stops.',
+    'Those tools, along with internet and power, have ongoing costs. A gift is optional. It helps cover them so new material can keep being made.',
+    '<strong>Where support goes:</strong> power, internet, and the AI subscriptions used to make the videos and pages. That’s it. If those aren’t covered, new material slows.',
   ]);
   const fundsLabel = s.fundsLabel || 'Ways to support';
   const giveLabel = s.giveLabel || 'Ways to give';

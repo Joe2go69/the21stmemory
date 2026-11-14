@@ -4,11 +4,16 @@
  * Full rebuild:  node scripts/generate-sitemap.js
  * Install patch: patchSitemap(['/dive/breakdown/foo.html', '/quiz/breakdown/foo.html'])
  *
- * lastmod is preserved from the existing sitemap unless the on-disk file is newer.
- * New URLs get the file date (or today). Unrelated URLs are not restamped.
+ * lastmod is the last real change from git history (scripts/lib/git-dates.js):
+ *   - dive pages: the topic's content file data/{source}-topics/{id}.json
+ *   - quiz pages: the quiz data file data/quizzes/{source}/{id}.json
+ *   - other pages: the HTML file itself
+ * A menu/footer rebuild therefore does not restamp every topic as "today".
  */
 const fs = require('fs');
 const path = require('path');
+
+const { lastChanged } = require('./lib/git-dates');
 
 const ROOT = path.join(__dirname, '..');
 const BASE_URL = 'https://21stmemory.com';
@@ -61,19 +66,26 @@ function sitePathToFile(urlPath) {
   return path.join(ROOT, clean.replace(/^\//, '').replace(/\//g, path.sep));
 }
 
-function fileStamp(urlPath) {
-  const full = sitePathToFile(urlPath);
-  if (!fs.existsSync(full)) return null;
-  return fs.statSync(full).mtime.toISOString().slice(0, 10);
+/** The file whose last change best describes when this page's content changed. */
+function contentFileFor(urlPath) {
+  const clean = String(urlPath || '').split('?')[0];
+  let m = /^\/dive\/([a-z0-9-]+)\/([a-z0-9-]+)\.html$/i.exec(clean);
+  if (m) {
+    const data = path.join(ROOT, 'data', `${m[1]}-topics`, `${m[2]}.json`);
+    if (fs.existsSync(data)) return data;
+  }
+  m = /^\/quiz\/([a-z0-9-]+)\/([a-z0-9-]+)\.html$/i.exec(clean);
+  if (m) {
+    const data = path.join(ROOT, 'data', 'quizzes', m[1], `${m[2]}.json`);
+    if (fs.existsSync(data)) return data;
+  }
+  return sitePathToFile(urlPath);
 }
 
-function lastmodFor(urlPath, existing, loc) {
-  const stored = existing.get(loc);
-  const fileDate = fileStamp(urlPath);
-  if (fileDate && stored) return fileDate > stored ? fileDate : stored;
-  if (fileDate) return fileDate;
-  if (stored) return stored;
-  return todayStamp();
+function lastmodFor(urlPath) {
+  const file = contentFileFor(urlPath);
+  if (!fs.existsSync(file)) return todayStamp();
+  return lastChanged(file);
 }
 
 function collectQuizEntries() {
@@ -150,8 +162,6 @@ function diveEntries() {
 }
 
 function generateSitemap() {
-  const existingXml = fs.existsSync(OUT_PATH) ? fs.readFileSync(OUT_PATH, 'utf8') : '';
-  const existing = parseExistingLastmods(existingXml);
   const entries = [...staticEntries(), ...collectQuizEntries(), ...diveEntries()];
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -159,7 +169,7 @@ function generateSitemap() {
 ${entries
   .map((e) => {
     const loc = `${BASE_URL}${e.path}`;
-    return urlEntry(loc, e.priority, e.changefreq, lastmodFor(e.path, existing, loc));
+    return urlEntry(loc, e.priority, e.changefreq, lastmodFor(e.path));
   })
   .join('\n\n')}
 </urlset>

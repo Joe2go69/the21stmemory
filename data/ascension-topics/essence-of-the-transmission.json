@@ -24,12 +24,6 @@
       "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/1e/s8/6/m/Q/2/U/mQ2UA.qR4e.jpg"
     }
   ],
-  "quiz": {
-    "href": "quiz/ascension/essence-of-the-transmission.html",
-    "title": "Essence of the Transmission",
-    "totalQuestions": 25,
-    "description": "Test your understanding of Essence of the Transmission — quartz conductors, the solar pulse, three flashes, the portal, and the dual path of homecoming or sanctuary."
-  },
   "video_languages": [
     {
       "code": "en",
@@ -243,5 +237,11 @@
         }
       ]
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/ascension/essence-of-the-transmission.html",
+    "title": "Essence of the Transmission",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Essence of the Transmission — quartz conductors, the solar pulse, three flashes, the portal, and the dual path of homecoming or sanctuary."
+  }
 }

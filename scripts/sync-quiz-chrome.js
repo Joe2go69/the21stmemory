@@ -28,7 +28,9 @@ const CRITICAL_PAINT = `    <!-- Critical paint: solid vault color before main.c
 
 function walk(dir, acc = []) {
   for (const name of fs.readdirSync(dir)) {
-    if (name.startsWith('_')) continue;
+    // quiz/_template.html is the seed for every new quiz install, so it gets
+    // the same chrome as the live quiz pages. Other _files stay untouched.
+    if (name.startsWith('_') && name !== '_template.html') continue;
     const p = path.join(dir, name);
     const st = fs.statSync(p);
     if (st.isDirectory()) walk(p, acc);
@@ -77,6 +79,18 @@ function ensureThemeColor(html) {
   );
 }
 
+const APPLE_TOUCH_ICON =
+  '<link rel="apple-touch-icon" href="https://21stmemory.com/images/apple-touch-icon.png?v=20260811b">';
+
+/** iOS "Add to Home Screen" from a quiz should get the site icon, like every other page. */
+function ensureAppleTouchIcon(html) {
+  if (/rel=["']apple-touch-icon["']/.test(html)) return html;
+  return html.replace(
+    /(\n([ \t]*)<link rel="icon" href="https:\/\/21stmemory\.com\/images\/favicon-48\.png[^>]*>)/,
+    (m, line, indent) => `${line}\n${indent}${APPLE_TOUCH_ICON}`
+  );
+}
+
 function ensurePageInterior(html) {
   if (/<body[^>]*\bpage-interior\b/.test(html)) return html;
   return html.replace(
@@ -107,6 +121,7 @@ for (const file of quizFiles) {
   html = ensureCriticalPaint(html);
   html = ensureThemeColor(html);
   html = ensurePageInterior(html);
+  html = ensureAppleTouchIcon(html);
   if (html !== before) changed = true;
 
   if (!changed) {

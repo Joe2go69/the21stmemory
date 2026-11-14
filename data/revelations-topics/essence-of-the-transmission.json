@@ -24,12 +24,6 @@
       "poster_url": "https://hugh.cdn.rumble.cloud/video/fww1/9e/s8/6/S/3/K/Y/S3KYA.qR4e.jpg"
     }
   ],
-  "quiz": {
-    "href": "quiz/revelations/essence-of-the-transmission.html",
-    "title": "Essence of the Transmission",
-    "totalQuestions": 25,
-    "description": "Test your understanding of Essence of the Transmission — consciousness before architecture, the organic motherboard, and the inverted control matrix."
-  },
   "video_languages": [
     {
       "code": "en",
@@ -243,5 +237,11 @@
         }
       ]
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/revelations/essence-of-the-transmission.html",
+    "title": "Essence of the Transmission",
+    "totalQuestions": 25,
+    "description": "Test your understanding of Essence of the Transmission — consciousness before architecture, the organic motherboard, and the inverted control matrix."
+  }
 }

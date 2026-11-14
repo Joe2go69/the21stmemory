@@ -133,7 +133,20 @@ function renderQuizHtml({ source, topicId, title, topicImage, seoDesc, quiz }) {
   if (!html.includes('__QUIZ_JSON__')) {
     throw new Error('quiz/_template.html is missing __QUIZ_JSON__ placeholder');
   }
-  return html.split('__QUIZ_JSON__').join(embedQuizJson(quiz));
+  return withLiveChrome(html.split('__QUIZ_JSON__').join(embedQuizJson(quiz)));
+}
+
+/**
+ * New quizzes get the current menu and footer from navbar.json / footer.json,
+ * even if quiz/_template.html has not been re-synced since the last data change.
+ */
+function withLiveChrome(html) {
+  const { renderNavbar, renderFooter } = require('../chrome-renderer');
+  const navbarData = JSON.parse(fs.readFileSync(path.join(ROOT, 'assets/data/navbar.json'), 'utf8'));
+  const footerData = JSON.parse(fs.readFileSync(path.join(ROOT, 'assets/data/footer.json'), 'utf8'));
+  return html
+    .replace(/<nav class="navbar">[\s\S]*?<\/nav>/, () => renderNavbar(navbarData, { basePath: '../../' }))
+    .replace(/<footer class="site-footer">[\s\S]*?<\/footer>/, () => renderFooter(footerData, { basePath: '../../' }));
 }
 
 function reportHits(reportLower, text) {

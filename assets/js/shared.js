@@ -1044,9 +1044,13 @@ function setActiveNavLink(activeHref) {
   const currentPath = normalizePage(window.location.pathname);
   const currentHash = window.location.hash;
 
+  // A "page not found" is not any section of the site, so nothing is current.
+  const isNotFound = document.body && document.body.dataset.page === '404';
+
   navLinks.forEach(link => {
     link.classList.remove('active');
     link.removeAttribute('aria-current');
+    if (isNotFound) return;
     const href = link.getAttribute('href') || '';
 
     if (activeHref) {

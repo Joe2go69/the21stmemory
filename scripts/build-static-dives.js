@@ -12,6 +12,7 @@ const path = require('path');
 const markedLib = require('../assets/js/vendor/marked.min.js');
 const markedParse = markedLib.parse || markedLib.marked;
 const { renderNavbar, renderFooter } = require('./chrome-renderer');
+const { lastChanged, today } = require('./lib/git-dates');
 const { compareAddedDesc } = require('./lib/topic-added');
 const { topicSrcset } = require('./lib/image-variants');
 
@@ -643,7 +644,7 @@ function renderContinueLearning({ sourceId, quiz, lastUpdated, assetBase = ASSET
     </div>
     <p class="dive-continue__disclaimer">
       AI may miss higher-dimensional nuance. Prefer the raw transmissions when anything feels incomplete.
-      ${lastUpdated ? `<span class="dive-continue__updated"> · Updated ${escapeHtml(lastUpdated)}</span>` : ''}
+      ${lastUpdated ? `<span class="dive-continue__updated"> · Updated ${escapeHtml(formatHeroDate(lastUpdated))}</span>` : ''}
     </p>
   </aside>
   <p class="dive-support-note">This topic is free to share. <a href="${assetBase}support.html" class="text-link">Support the archive →</a></p>`;
@@ -1001,7 +1002,7 @@ ${heroBanner}
     url: canonical,
     image: ogImage,
     sourceTitle,
-    dateModified: lastUpdated || new Date().toISOString().slice(0, 10),
+    dateModified: lastUpdated || today(),
     isStub: isStubTopic,
   });
 
@@ -1083,10 +1084,11 @@ function loadSource(sourceId) {
   const enriched = walked.map(({ item, path: topicPath }) => {
     const contentPath = path.join(ROOT, 'data', `${sourceId}-topics`, `${item.id}.json`);
     let content = {};
-    let lastUpdated = new Date().toISOString().slice(0, 10);
+    let lastUpdated = today();
     if (fs.existsSync(contentPath)) {
       content = JSON.parse(fs.readFileSync(contentPath, 'utf8'));
-      lastUpdated = fs.statSync(contentPath).mtime.toISOString().slice(0, 10);
+      // Last real change to this topic's content (git), not the build day.
+      lastUpdated = lastChanged(contentPath);
     }
     const topic = { ...item, ...content, id: item.id, title: item.title || content.title || item.id };
     const stub = isStub(item, content);

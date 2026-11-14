@@ -24,12 +24,6 @@
       "poster_url": "https://hugh.cdn.rumble.cloud/video/fwe2/70/s8/6/U/J/r/C/UJrCA.qR4e.jpg"
     }
   ],
-  "quiz": {
-    "href": "quiz/breakdown/essence-of-the-transmission.html",
-    "title": "Essence of the Transmission",
-    "totalQuestions": 25,
-    "description": "Test your grasp of Essence of the Transmission — CUBE containment, Second Realm crystal, scare sequence, and the return to solar-creator resonance."
-  },
   "video_languages": [
     {
       "code": "en",
@@ -243,5 +237,11 @@
         }
       ]
     }
-  ]
+  ],
+  "quiz": {
+    "href": "quiz/breakdown/essence-of-the-transmission.html",
+    "title": "Essence of the Transmission",
+    "totalQuestions": 25,
+    "description": "Test your grasp of Essence of the Transmission — CUBE containment, Second Realm crystal, scare sequence, and the return to solar-creator resonance."
+  }
 }
