@@ -238,7 +238,7 @@
     ctx.fillStyle = 'rgba(196, 181, 253, 0.85)';
     ctx.font = font(500, 24);
     ctx.textAlign = 'right';
-    ctx.fillText('The 21st Memory · free living archive', W - 84, H - 92);
+    ctx.fillText('21st Memory · free living archive', W - 84, H - 92);
     ctx.textAlign = 'left';
 
     return new Promise((resolve, reject) => {

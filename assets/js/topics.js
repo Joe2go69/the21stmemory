@@ -1084,7 +1084,7 @@ async function loadSourceViewer() {
         container.setAttribute('aria-busy', 'false');
         container.innerHTML = '';
       }
-      document.title = 'Transmission not found | The 21st Memory';
+      document.title = 'Transmission not found | 21st Memory';
       return;
     }
 
@@ -1094,7 +1094,7 @@ async function loadSourceViewer() {
     const fullData = indexPromise
       ? await indexPromise
       : await TopicUtils.fetchSourceIndex(sourceId);
-    document.title = `${fullData.title} | The 21st Memory`;
+    document.title = `${fullData.title} | 21st Memory`;
     const titleEl = document.getElementById('source-hero-title');
     if (titleEl && fullData.title) titleEl.textContent = fullData.title;
 

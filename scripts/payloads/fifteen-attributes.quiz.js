@@ -61,7 +61,7 @@ module.exports = {
             'These represent destinations for consciousness rather than the manufacturing sites of the original vessels.'
         },
         {
-          text: 'The 21st Memory archival systems produced the original Taran hominid vessels as a stored lineage record.',
+          text: '21st Memory archival systems produced the original Taran hominid vessels as a stored lineage record.',
           isCorrect: false,
           rationale:
             'That name refers to this archive, not the historical production of the Taran lineage.'

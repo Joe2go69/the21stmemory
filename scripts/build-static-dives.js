@@ -970,7 +970,7 @@ ${heroBanner}
           <div class="report-print-banner" aria-hidden="true">
             <img src="${escapeAttr(ASSET_BASE + 'images/21st-mark.webp')}" alt="" class="report-print-banner__mark" width="40" height="40" />
             <div class="report-print-banner__copy">
-              <div class="report-print-banner__kicker">The 21st Memory · Decoded report</div>
+              <div class="report-print-banner__kicker">21st Memory · Decoded report</div>
               <div class="report-print-banner__title">${escapeHtml(title)}</div>
               <div class="report-print-banner__url">${escapeHtml(canonical)}</div>
             </div>
@@ -1013,7 +1013,7 @@ ${heroBanner}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(pageTitle)}</title>
     <meta name="description" content="${escapeAttr(metaDescription)}">
-    <meta name="application-name" content="The 21st Memory">
+    <meta name="application-name" content="21st Memory">
     <meta name="theme-color" content="#0F0A1F">
 ${robots}    <link rel="canonical" href="${canonical}">
     <link rel="home" href="${BASE_URL}/">
@@ -1022,7 +1022,7 @@ ${robots}    <link rel="canonical" href="${canonical}">
     <link rel="apple-touch-icon" href="${BASE_URL}/images/apple-touch-icon.png?v=20260811b">
     <meta property="og:type" content="article">
     <meta property="og:url" content="${canonical}">
-    <meta property="og:site_name" content="The 21st Memory">
+    <meta property="og:site_name" content="21st Memory">
     <meta property="og:locale" content="en_US">
     <meta property="og:title" content="${escapeAttr(pageTitle)}">
     <meta property="og:description" content="${escapeAttr(metaDescription)}">

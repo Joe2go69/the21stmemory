@@ -35,7 +35,7 @@ function quizCtaLabel(title) {
 }
 
 function updateTopicPageMeta({ topic, sourceId, fullData }) {
-  const title = `${topic.title} | ${fullData.title} | The 21st Memory`;
+  const title = `${topic.title} | ${fullData.title} | 21st Memory`;
   const description = topic.description || `AI-decoded deep-dive on ${topic.title} from the ${fullData.title} transmission.`;
   const imagePath = topic.topic_image || topic.infographic_image || "images/21.webp";
   const image = new URL(TopicUtils.encodeAssetPath(imagePath), window.location.origin).href;
@@ -647,7 +647,7 @@ async function loadLessonViewer() {
     const resolved = await TopicUtils.resolveSourceId(rawSource);
     if (!resolved.ok) {
       headerContainer.innerHTML = TopicUtils.renderSourceError(resolved);
-      document.title = 'Transmission not found | The 21st Memory';
+      document.title = 'Transmission not found | 21st Memory';
       return;
     }
     const sourceId = resolved.sourceId;

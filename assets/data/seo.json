@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://21stmemory.com",
   "brand": {
-    "name": "The 21st Memory",
+    "name": "21st Memory",
     "shortName": "21st Memory",
     "alternateNames": [
       "21st Memory",
@@ -9,7 +9,7 @@
       "21stmemory",
       "the21stmemory",
       "21st Memory Archive",
-      "The 21st Memory Codex"
+      "21st Memory Codex"
     ],
     "description": "21st Memory is a free living archive of AI-decoded Thalon Thor transmissions. No religion. No finance. No gatekeeping.",
     "logo": "https://21stmemory.com/images/21st-mark.webp",
@@ -41,7 +41,7 @@
     },
     "codex.html": {
       "path": "/codex.html",
-      "title": "21st Memory Codex | The 21st Memory",
+      "title": "21st Memory Codex | 21st Memory",
       "description": "Explore the 21st Memory Codex — videos, infographics, PDFs, and deep-dive reports on Thalon Thor’s teachings."
     },
     "books.html": {
@@ -52,7 +52,7 @@
     },
     "topics.html": {
       "path": "/topics.html",
-      "title": "21st Memory Topics | The 21st Memory",
+      "title": "21st Memory Topics | 21st Memory",
       "description": "Browse AI-decoded topic archives from Thalon Thor transmissions in the 21st Memory Codex."
     },
     "deep-dive.html": {
@@ -68,7 +68,7 @@
     },
     "community.html": {
       "path": "/community.html",
-      "title": "21st Memory Network | The 21st Memory",
+      "title": "21st Memory Network | 21st Memory",
       "description": "Redirects to the 21st Memory Network directory.",
       "noindex": true
     },
