@@ -109,7 +109,7 @@
     <nav class="navbar">
       <div class="nav-container">
         <div class="nav-content">
-          <a href="index.html" class="nav-logo" aria-label="21st Memory home">
+          <a href="index.html" class="nav-logo" aria-label="21st Memory Living Archive, home">
             <span class="nav-logo-mark" aria-hidden="true">
               <img src="images/21st-mark.webp" alt="" class="nav-logo-mark-img" width="48" height="48" decoding="async" />
             </span>
@@ -141,20 +141,131 @@
     </noscript>
 
     <div class="max-w-6xl mx-auto px-6 page-shell pb-12">
-        <div id="source-header" class="source-hero-host mb-0" aria-busy="true"></div>
+        <!-- chooser-header:start -->
+        <div id="source-header" class="source-hero-host mb-0" aria-busy="false">
+      <header class="page-hero page-hero--interior max-w-3xl mx-auto text-center">
+        <h1 class="page-hero-title page-hero-title--hub font-semibold tracking-tighter leading-none mb-4">Choose a transmission</h1>
+        <p class="page-hero-lead max-w-xl mx-auto text-base md:text-lg text-mem-muted font-normal mb-3">Each Codex shelf is one source series. Open one to browse its topics.</p>
+        <p class="mb-0"><a href="codex.html" class="text-link">← Back to Codex</a></p>
+      </header>
+    </div>
+<!-- chooser-header:end -->
     </div>
 
     <div class="max-w-6xl mx-auto px-6 pb-20">
-        <div id="explore-topics" style="scroll-margin-top: 7rem;" class="home-section-anchor mb-6">
+        <div id="explore-topics" style="scroll-margin-top: 7rem;" class="home-section-anchor mb-6" hidden>
             <p class="section-eyebrow">Explore topics</p>
         </div>
-        <div id="topics-container" class="min-h-[400px]" aria-busy="true">
-            <div class="skeleton-panel" aria-hidden="true">
-                <div class="skeleton skeleton-bar" style="width:50%"></div>
-                <div class="skeleton skeleton-category-card static-card mt-6" style="background-color:#0F0A1F"><div class="skeleton skeleton-block" style="height:5rem"></div></div>
-                <div class="skeleton skeleton-category-card static-card mt-6" style="background-color:#0F0A1F"><div class="skeleton skeleton-block" style="height:5rem"></div></div>
-            </div>
+        <!-- chooser-cards:start -->
+        <div id="topics-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch min-h-[400px]" aria-busy="false">
+<h2 class="sr-only">Series</h2>
+<a href="series-alice.html"
+         class="memory-card content-card channel-card group source-card series-card source-card--mixed"
+         data-source-id="alice">
+        <div class="source-card-media" style="background-color:#0F0A1F">
+           <img src="images/alice-codex-card-960.webp" srcset="images/alice-codex-card-640.webp 640w, images/alice-codex-card-960.webp 960w" sizes="(max-width: 700px) 80vw, (max-width: 1100px) 46vw, 360px" alt="Following Alice in the Rabbit Hole" class="source-card-img" width="960" height="523" loading="eager" fetchpriority="high" decoding="async" data-img-fallback>
+           <span class="source-card-media-fade" aria-hidden="true"></span>
+         </div>
+        <div class="source-card-body">
+          <span class="card-label">Foundational rabbit-hole series</span>
+          <h3 class="source-card-title">Following Alice in the Rabbit Hole</h3>
+          <p class="source-card-deck">A Brief Synopsis • Parts 1, 2 &amp; 3</p>
+          <p class="source-card-meta">109 of 113 ready</p>
+          <div class="source-card-progress" aria-hidden="true">
+            <div class="source-card-progress__fill" style="width:96%"></div>
+          </div>
+          <div class="source-card-action card-action">
+            Open this series
+            <span class="source-card-action-arrow" aria-hidden="true">→</span>
+          </div>
         </div>
+      </a>
+<a href="series-breakdown.html"
+         class="memory-card content-card channel-card group source-card series-card source-card--mixed"
+         data-source-id="breakdown">
+        <div class="source-card-media" style="background-color:#0F0A1F">
+           <img src="images/breakdown-codex-card-960.webp" srcset="images/breakdown-codex-card-640.webp 640w, images/breakdown-codex-card-960.webp 960w" sizes="(max-width: 700px) 80vw, (max-width: 1100px) 46vw, 360px" alt="Mega Breakdown Board Notes &amp; Highlights" class="source-card-img" width="960" height="523" loading="lazy" decoding="async" data-img-fallback>
+           <span class="source-card-media-fade" aria-hidden="true"></span>
+         </div>
+        <div class="source-card-body">
+          <span class="card-label">Final-stage Great Awakening notes</span>
+          <h3 class="source-card-title">Mega Breakdown Board Notes &amp; Highlights</h3>
+          <p class="source-card-deck">Great Awakening Final Stages</p>
+          <p class="source-card-meta">104 of 151 ready</p>
+          <div class="source-card-progress" aria-hidden="true">
+            <div class="source-card-progress__fill" style="width:69%"></div>
+          </div>
+          <div class="source-card-action card-action">
+            Open this series
+            <span class="source-card-action-arrow" aria-hidden="true">→</span>
+          </div>
+        </div>
+      </a>
+<a href="series-ascension.html"
+         class="memory-card content-card channel-card group source-card series-card source-card--ready"
+         data-source-id="ascension">
+        <div class="source-card-media" style="background-color:#0F0A1F">
+           <img src="images/ascension-codex-card-960.webp" srcset="images/ascension-codex-card-640.webp 640w, images/ascension-codex-card-960.webp 960w" sizes="(max-width: 700px) 80vw, (max-width: 1100px) 46vw, 360px" alt="The Long-Awaited Ascension Process" class="source-card-img" width="960" height="523" loading="lazy" decoding="async" data-img-fallback>
+           <span class="source-card-media-fade" aria-hidden="true"></span>
+         </div>
+        <div class="source-card-body">
+          <span class="card-label">EMF ascension process</span>
+          <h3 class="source-card-title">The Long-Awaited Ascension Process</h3>
+          <p class="source-card-deck">Crystal grid, three flashes, and the homecoming</p>
+          <p class="source-card-meta">39 topics · Complete</p>
+          <div class="source-card-progress" aria-hidden="true">
+            <div class="source-card-progress__fill" style="width:100%"></div>
+          </div>
+          <div class="source-card-action card-action">
+            Open this series
+            <span class="source-card-action-arrow" aria-hidden="true">→</span>
+          </div>
+        </div>
+      </a>
+<a href="series-revelations.html"
+         class="memory-card content-card channel-card group source-card series-card source-card--ready"
+         data-source-id="revelations">
+        <div class="source-card-media" style="background-color:#0F0A1F">
+           <img src="images/revelations-codex-card-960.webp" srcset="images/revelations-codex-card-640.webp 640w, images/revelations-codex-card-960.webp 960w" sizes="(max-width: 700px) 80vw, (max-width: 1100px) 46vw, 360px" alt="A Brief Synopsis of Revelations" class="source-card-img" width="960" height="523" loading="lazy" decoding="async" data-img-fallback>
+           <span class="source-card-media-fade" aria-hidden="true"></span>
+         </div>
+        <div class="source-card-body">
+          <span class="card-label">Six-part revelations synopsis</span>
+          <h3 class="source-card-title">A Brief Synopsis of Revelations</h3>
+          <p class="source-card-deck">Parts 1–6</p>
+          <p class="source-card-meta">118 topics · Complete</p>
+          <div class="source-card-progress" aria-hidden="true">
+            <div class="source-card-progress__fill" style="width:100%"></div>
+          </div>
+          <div class="source-card-action card-action">
+            Open this series
+            <span class="source-card-action-arrow" aria-hidden="true">→</span>
+          </div>
+        </div>
+      </a>
+<a href="series-special-requests.html"
+         class="memory-card content-card channel-card group source-card series-card source-card--ready"
+         data-source-id="special-requests">
+        <div class="source-card-media" style="background-color:#0F0A1F">
+           <img src="images/special-requests-codex-card-960.webp" srcset="images/special-requests-codex-card-640.webp 640w, images/special-requests-codex-card-960.webp 960w" sizes="(max-width: 700px) 80vw, (max-width: 1100px) 46vw, 360px" alt="Special Requests" class="source-card-img" width="960" height="523" loading="lazy" decoding="async" data-img-fallback>
+           <span class="source-card-media-fade" aria-hidden="true"></span>
+         </div>
+        <div class="source-card-body">
+          <span class="card-label">Requested studies</span>
+          <h3 class="source-card-title">Special Requests</h3>
+          <p class="source-card-deck">Studies prepared by request</p>
+          <p class="source-card-meta">2 topics · Complete</p>
+          <div class="source-card-progress" aria-hidden="true">
+            <div class="source-card-progress__fill" style="width:100%"></div>
+          </div>
+          <div class="source-card-action card-action">
+            Open this series
+            <span class="source-card-action-arrow" aria-hidden="true">→</span>
+          </div>
+        </div>
+      </a>
+        </div>
+<!-- chooser-cards:end -->
     </div>
 
     </main>
@@ -164,7 +275,7 @@
           <div class="footer-brand">
             <div class="footer-brand-row">
               <span class="footer-brand-mark-wrap" aria-hidden="true"><img src="images/21st-mark.webp" alt="" class="footer-brand-mark" width="56" height="56" decoding="async" loading="lazy" /></span>
-              <a href="index.html" class="footer-brand-link" aria-label="21st Memory home">
+              <a href="index.html" class="footer-brand-link" aria-label="21st Memory Living Archive, home">
                 <span class="footer-brand-copy">
                   <span class="footer-brand-name">21ST MEMORY</span>
                   <span class="footer-brand-subtitle">Living Archive</span>
