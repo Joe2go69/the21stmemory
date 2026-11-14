@@ -98,7 +98,7 @@ const TopicUtils = {
 
   /** Canonical static deep-dive path (root-relative for nested pages). */
   divePath(sourceId, topicId) {
-    if (!sourceId || !topicId) return '/deep-dive.html';
+    if (!sourceId || !topicId) return '/codex.html';
     return `/dive/${encodeURIComponent(sourceId)}/${encodeURIComponent(topicId)}.html`;
   },
 
@@ -110,14 +110,9 @@ const TopicUtils = {
     return this.divePath(sourceId, topicId);
   },
 
-  /** Prefer static dive URL for ready topics; SPA fallback for placeholders. */
+  /** Static dive URL for every topic (coming-soon topics have stub pages too). */
   topicHref(sourceId, topicId, isPlaceholder = false, options = {}) {
-    if (isPlaceholder) {
-      if (options.basePath) {
-        return `${options.basePath}deep-dive.html?source=${encodeURIComponent(sourceId)}&topic=${encodeURIComponent(topicId)}`;
-      }
-      return `/deep-dive.html?source=${encodeURIComponent(sourceId)}&topic=${encodeURIComponent(topicId)}`;
-    }
+    // Coming-soon topics have their own static stub page under /dive/ as well.
     return this.diveUrl(sourceId, topicId, options);
   },
 

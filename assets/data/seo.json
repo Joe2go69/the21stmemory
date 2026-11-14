@@ -53,14 +53,10 @@
       "webPage": true
     },
     "topics.html": {
-      "path": "/topics.html",
+      "path": "/codex.html",
       "title": "21st Memory Topics | 21st Memory",
-      "description": "Browse AI-decoded topic archives from Thalon Thor transmissions in the 21st Memory Codex."
-    },
-    "deep-dive.html": {
-      "path": "/deep-dive.html",
-      "title": "Topic pages live in the Codex | 21st Memory",
-      "description": "Deep-dive reports are static Codex pages. This leftover address points you back to the library — then to the original transmissions."
+      "description": "This old address now opens the Codex. Each series has its own page there.",
+      "noindex": true
     },
     "network.html": {
       "path": "/network.html",

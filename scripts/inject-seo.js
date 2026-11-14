@@ -196,7 +196,7 @@ let updated = 0;
 let skipped = 0;
 
 // Thin redirect shells — never overwrite with full SEO chrome
-const SKIP_FILES = new Set(['community.html']);
+const SKIP_FILES = new Set(['community.html', 'deep-dive.html']);
 
 for (const [file, page] of Object.entries(seo.pages)) {
   const filePath = path.join(ROOT, file);

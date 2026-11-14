@@ -114,8 +114,6 @@ function staticEntries() {
     { path: '/network.html', priority: '0.9', changefreq: 'monthly' },
     { path: '/codex.html', priority: '0.95', changefreq: 'weekly' },
     { path: '/books.html', priority: '0.88', changefreq: 'monthly' },
-    { path: '/topics.html', priority: '0.9', changefreq: 'weekly' },
-    { path: '/deep-dive.html', priority: '0.9', changefreq: 'weekly' },
     { path: '/quizzes.html', priority: '0.92', changefreq: 'weekly' },
     { path: '/support.html', priority: '0.85', changefreq: 'monthly' },
     { path: '/shop.html', priority: '0.8', changefreq: 'monthly' },
