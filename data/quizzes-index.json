@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-14T08:57:11.743Z",
-  "total": 371,
+  "generatedAt": "2026-11-14T13:09:16.013Z",
+  "total": 372,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 108
+      "count": 109
     },
     {
       "id": "breakdown",
@@ -1406,6 +1406,20 @@
       "diveHref": "dive/alice/parasitic-takeover.html",
       "key": "alice/parasitic-takeover",
       "order": 30
+    },
+    {
+      "id": "the-sky-event",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "The Sky Event",
+      "subtitle": "Test your understanding of The Sky Event — the dome down, melting pixelation, the silent biosphere, and the EMF flash that follows.",
+      "questionCount": 25,
+      "href": "quiz/alice/the-sky-event.html",
+      "diveHref": "dive/alice/the-sky-event.html",
+      "key": "alice/the-sky-event",
+      "order": 104
     },
     {
       "id": "sun-and-moon",

@@ -909,10 +909,10 @@
             {
               "id": "the-sky-event",
               "title": "The Sky Event",
-              "description": "The Sky Event",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "The Sky Event is the Alliance takedown of the inner projection dome, when melting pixelation ends the synthetic sky and the realm enters the EMF flash.",
+              "topic_image": "images/alice/the-sky-event.webp",
+              "is_placeholder": false,
+              "added": "2026-11-14T06:02:56-07:00"
             },
             {
               "id": "520-million",

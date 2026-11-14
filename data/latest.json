@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "the-sky-event",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "The Sky Event",
+      "description": "The Sky Event is the Alliance takedown of the inner projection dome, when melting pixelation ends the synthetic sky and the realm enters the EMF flash.",
+      "topic_image": "images/alice/the-sky-event.webp",
+      "path": "dive/alice/the-sky-event.html",
+      "added": "2026-11-14T06:02:56-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "the-first-to-go",
       "series": "Following Alice in the Rabbit Hole",
       "title": "The First to Go",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/healthcare-compliance.webp",
       "path": "dive/alice/healthcare-compliance.html",
       "added": "2026-11-11T10:30:45-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "not-the-payout",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Not the Payout",
-      "description": "Not the Payout defines the absolute operational principle that the ongoing cosmic confrontation and disclosure process is entirely detached from material enrichment, biological preservation, or political drama.",
-      "topic_image": "images/alice/not-the-payout.webp",
-      "path": "dive/alice/not-the-payout.html",
-      "added": "2026-11-11T09:26:42-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "alice",
+      "topicId": "the-sky-event",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "The Sky Event",
+      "description": "The Sky Event is the Alliance takedown of the inner projection dome, when melting pixelation ends the synthetic sky and the realm enters the EMF flash.",
+      "topic_image": "images/alice/the-sky-event.webp",
+      "path": "dive/alice/the-sky-event.html",
+      "added": "2026-11-14T06:02:56-07:00"
+    },
     {
       "sourceId": "alice",
       "topicId": "the-first-to-go",
@@ -171,16 +181,6 @@
       "topic_image": "images/alice/project-blue-beam.webp",
       "path": "dive/alice/project-blue-beam.html",
       "added": "2026-11-11T19:50:57-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "pleiadians",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Pleiadians",
-      "description": "Pleiadians, functionally designated as escaped Tarans, are former Taran souls who successfully broke out and evaded planetary entrapment when the inversion of the realm initially transpired roughly 100,000 Earth years ago.",
-      "topic_image": "images/alice/pleiadians.webp",
-      "path": "dive/alice/pleiadians.html",
-      "added": "2026-11-11T18:50:36-07:00"
     }
   ],
   "featured": [
