@@ -20,6 +20,10 @@ const SITE_ICON_SVGS = {
   pinterest: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 17V7h3a3 3 0 0 1 0 6h-3"/></svg>',
   /* Reddit: minimal Snoo — round head, antenna, dot eyes, smile */
   reddit: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13.5" r="7"/><path d="M12 6.5V4"/><circle cx="12" cy="3" r="0.8"/><path d="M9.2 12.8h.01M14.8 12.8h.01"/><path d="M9 15.8c.9 1 1.9 1.5 3 1.5s2.1-.5 3-1.5"/></svg>',
+  /* Spotify: circle with three sound arcs */
+  spotify: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 10.3c2.7-.8 5.5-.6 8 .7"/><path d="M8.3 13.4c2.2-.6 4.5-.4 6.6.5"/><path d="M8.6 16.2c1.8-.5 3.7-.3 5.4.4"/></svg>',
+  /* Sparkle: 4-point star (Muse card) */
+  sparkle: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.2 7.8L22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2z"/></svg>',
   globe: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
   heart: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>',
   satellite: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M13 7 9 3 5 7l4 4"/><path d="m17 11 4 4-4 4-4-4"/><path d="m8 12 4 4"/><circle cx="19" cy="5" r="2"/><path d="M15 15a6 6 0 0 1-6 6"/></svg>',
@@ -354,6 +358,29 @@ function renderSupportPage(footerData, options = {}) {
               </div>`)}
           </article>`;
 
+  const muse = s.muse;
+  const museMedia = cardMedia(muse?.image);
+  const museQuiet = (muse?.quiet || '').trim()
+    ? `<p class="support-give-quiet">${muse.quiet.trim()}</p>`
+    : '';
+  const museCard = muse
+    ? `<article class="support-give-card memory-card static-card support-give-card--muse${museMedia ? ' has-media' : ''}">
+            ${museMedia}
+            <span class="support-give-icon support-give-icon--muse" aria-hidden="true">${SITE_ICON_SVGS.sparkle}</span>
+            <span class="support-give-label">${muse.label || 'Muse'}</span>
+            <p class="support-give-desc">${muse.desc}</p>
+            ${museQuiet}
+            ${giveActions(`
+              <div class="support-give-actions">
+                <code class="footer-support-address" id="muse-code" title="${muse.code}">${muse.code}</code>
+                <button type="button" class="btn-primary footer-support-copy" data-copy-target="muse-code" data-copy-text="${muse.code}" aria-label="Copy Muse invite code"><span>Copy code</span></button>
+                <a href="${muse.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                  <span>${muse.buttonText || 'Join Muse'}</span>
+                </a>
+              </div>`)}
+          </article>`
+    : '';
+
   const resolverHTML = resolver
     ? `\n        <p class="support-resolver" role="note">${resolver}</p>`
     : '';
@@ -376,6 +403,7 @@ function renderSupportPage(footerData, options = {}) {
           ${gofundmeCard}
           ${starlinkCard}
           ${btcCard}
+          ${museCard}
         </div>
         ${renderSupportNote(noteParts)}
       </section>

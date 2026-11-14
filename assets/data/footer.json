@@ -108,6 +108,16 @@
       "icon": "reddit"
     },
     {
+      "name": "Spotify",
+      "href": "https://open.spotify.com/show/02Z4eZIUCpXQ2bxVT1mLcQ",
+      "icon": "spotify"
+    },
+    {
+      "name": "YouTube Podcast",
+      "href": "https://www.youtube.com/playlist?list=PLNb0llYoECLE",
+      "icon": "youtube"
+    },
+    {
       "name": "CH21 source",
       "href": "https://christian21.com/",
       "icon": "globe"
@@ -189,6 +199,15 @@
       "imageAlt": "Starlink referral for 21st Memory",
       "qrImage": "assets/images/starlink-qr.png",
       "qrAlt": "Starlink referral QR code for 21st Memory"
+    },
+    "muse": {
+      "href": "https://muse.ai/join",
+      "label": "Muse",
+      "code": "OV04CQ",
+      "buttonText": "Join Muse",
+      "desc": "The AI assistant that runs this archive's day-to-day work. Join with my code and we both get 1 billion Muse tokens — free for you, and it keeps the work going.",
+      "quiet": "Redeem the code in Settings within 48 hours of joining.",
+      "image": "images/codex-banner.webp"
     }
   }
 }
