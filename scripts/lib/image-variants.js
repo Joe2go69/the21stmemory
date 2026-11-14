@@ -6,8 +6,9 @@
  *   images/alice/foo.webp  →  images/thumbs/alice/foo-320.webp, -640, -960
  *   images/alice-codex-card.webp → images/thumbs/series/alice-codex-card-480.webp, -800
  *
- * Originals are never touched. Infographics, slide-deck previews and
- * lightbox/zoom images always use the original full-resolution file.
+ * Originals are never touched. Slide-deck previews and lightbox/zoom images
+ * always use the original full-resolution file. Infographics get one lighter
+ * copy for the in-page frame only (see infographicDisplay below).
  * Every width is always written (an image narrower than a width is copied at
  * its own size) so browser srcset never points at a missing file.
  */
@@ -103,7 +104,126 @@ function collectTopicImages() {
   return { images: [...set].sort(), sourceIds: sources.map((s) => s.id) };
 }
 
+/* ---------------------------------------------------------------------------
+ * Infographic display copies (in-page plate frame only)
+ *
+ *   images/alice/foo-infographic.webp → images/thumbs/infographics/alice/foo-infographic-1024.webp
+ *   images/bar.webp                   → images/thumbs/infographics/_root/bar-1024.webp
+ *
+ * The dive page frame shows the 1024px copy (srcset with the original as the
+ * 1536w option for big/retina screens). The lightbox / zoom always opens the
+ * full original. Originals are never touched.
+ * images/thumbs/infographics/manifest.json remembers which original each copy
+ * was made from (sha1), so a re-exported original gets a fresh copy.
+ * Originals at or below 1100px wide get no copy: the frame uses them as is.
+ * ------------------------------------------------------------------------- */
+const INFOGRAPHIC_WIDTH = 1024;
+const INFOGRAPHIC_MIN_SOURCE = 1100;
+const INFOGRAPHIC_QUALITY = 80;
+const INFOGRAPHIC_MANIFEST = 'images/thumbs/infographics/manifest.json';
+
+function infographicVariantRel(rel) {
+  const clean = String(rel).replace(/\\/g, '/').replace(/^\.?\//, '');
+  const m = /^images\/(?:([\w-]+)\/)?([^/]+)\.webp$/i.exec(clean);
+  if (!m) return null;
+  return `images/thumbs/infographics/${m[1] || '_root'}/${m[2]}-${INFOGRAPHIC_WIDTH}.webp`;
+}
+
+let infographicManifest = null;
+function readInfographicManifest() {
+  if (infographicManifest) return infographicManifest;
+  const p = path.join(ROOT, INFOGRAPHIC_MANIFEST);
+  infographicManifest = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : {};
+  return infographicManifest;
+}
+
+function writeInfographicManifest() {
+  const m = readInfographicManifest();
+  const sorted = Object.fromEntries(Object.keys(m).sort().map((k) => [k, m[k]]));
+  const p = path.join(ROOT, INFOGRAPHIC_MANIFEST);
+  fs.mkdirSync(path.dirname(p), { recursive: true });
+  fs.writeFileSync(p, `${JSON.stringify(sorted, null, 2)}\n`);
+}
+
+function sha1(buf) {
+  return require('crypto').createHash('sha1').update(buf).digest('hex');
+}
+
+/**
+ * Display srcset for an infographic plate, or null when there is no current
+ * copy (small original, or the copy is out of date): then use the original.
+ * Returns { src, srcset } with paths relative to the site root.
+ */
+function infographicDisplay(rel) {
+  const clean = String(rel || '').replace(/\\/g, '/').replace(/^\.?\//, '');
+  const entry = readInfographicManifest()[clean];
+  const variant = infographicVariantRel(clean);
+  if (!entry || !variant || !fs.existsSync(path.join(ROOT, variant))) return null;
+  const full = path.join(ROOT, clean);
+  if (!fs.existsSync(full) || sha1(fs.readFileSync(full)) !== entry.sha1) return null;
+  return {
+    src: variant,
+    srcset: `${variant} ${INFOGRAPHIC_WIDTH}w, ${clean} ${entry.width}w`,
+    width: INFOGRAPHIC_WIDTH,
+    height: Math.round((entry.height / entry.width) * INFOGRAPHIC_WIDTH)
+  };
+}
+
+async function ensureInfographicVariant(rel, { force = false } = {}) {
+  const clean = String(rel || '').replace(/\\/g, '/').replace(/^\.?\//, '');
+  const variant = infographicVariantRel(clean);
+  const full = path.join(ROOT, clean);
+  if (!variant || !fs.existsSync(full)) return 0;
+  const input = fs.readFileSync(full);
+  const hash = sha1(input);
+  const manifest = readInfographicManifest();
+  const meta = await sharp(input, { failOn: 'none' }).metadata();
+  if (meta.width <= INFOGRAPHIC_MIN_SOURCE) {
+    if (manifest[clean]) {
+      delete manifest[clean];
+      fs.rmSync(path.join(ROOT, variant), { force: true });
+    }
+    return 0;
+  }
+  const out = path.join(ROOT, variant);
+  if (!force && manifest[clean] && manifest[clean].sha1 === hash && fs.existsSync(out)) return 0;
+  fs.mkdirSync(path.dirname(out), { recursive: true });
+  const buf = await sharp(input, { failOn: 'none' })
+    .resize({ width: INFOGRAPHIC_WIDTH, withoutEnlargement: true })
+    .webp({ quality: INFOGRAPHIC_QUALITY, effort: 5 })
+    .toBuffer();
+  fs.writeFileSync(out, buf);
+  manifest[clean] = { sha1: hash, width: meta.width, height: meta.height };
+  return 1;
+}
+
+/** Every infographic_image referenced by a topic content file. */
+function collectInfographicImages() {
+  const { sources } = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/sources.json'), 'utf8'));
+  const set = new Set();
+  for (const { id } of sources) {
+    const dir = path.join(ROOT, 'data', `${id}-topics`);
+    if (!fs.existsSync(dir)) continue;
+    for (const f of fs.readdirSync(dir).filter((n) => n.endsWith('.json'))) {
+      try {
+        const t = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+        const img = String(t.infographic_image || '').replace(/\\/g, '/').trim();
+        if (img && !/placeholder/i.test(img)) set.add(img);
+      } catch {
+        /* skip unreadable file */
+      }
+    }
+  }
+  return [...set].sort();
+}
+
 module.exports = {
+  INFOGRAPHIC_WIDTH,
+  infographicVariantRel,
+  infographicDisplay,
+  ensureInfographicVariant,
+  collectInfographicImages,
+  writeInfographicManifest,
   TOPIC_WIDTHS,
   SERIES_WIDTHS,
   topicVariantRel,

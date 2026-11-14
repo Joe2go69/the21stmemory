@@ -14,7 +14,7 @@ const markedParse = markedLib.parse || markedLib.marked;
 const { renderNavbar, renderFooter } = require('./chrome-renderer');
 const { lastChanged, today } = require('./lib/git-dates');
 const { compareAddedDesc } = require('./lib/topic-added');
-const { topicSrcset } = require('./lib/image-variants');
+const { topicSrcset, infographicDisplay } = require('./lib/image-variants');
 
 const ROOT = path.join(__dirname, '..');
 const BASE_URL = 'https://21stmemory.com';
@@ -401,21 +401,38 @@ function renderPlateCaption(kind, action) {
                   </div>`;
 }
 
-function renderPlateCard({ kind, src, alt, href, action, openLabel, solo }) {
+// In-page plate frame width (CSS px), so phones pick the 1024px display copy
+// and big/retina screens can still take the original.
+const PLATE_SIZES = '(max-width: 767px) calc(100vw - 4rem), 34rem';
+
+function renderPlateCard({ kind, src, rel, alt, href, action, solo }) {
   const isPlate = kind === 'plate';
   const artifactClass = isPlate ? 'infographic-artifact' : 'slide-deck-artifact';
+  // The lightbox/zoom always opens the full original (data-infographic-src).
   const dataAttr = isPlate
     ? `data-infographic-src="${escapeAttr(src)}"`
     : `data-pdf-url="${escapeAttr(href)}"`;
   const colClass = solo ? 'md:col-span-12 max-w-3xl mx-auto' : 'md:col-span-6';
+  const display = isPlate && rel ? infographicDisplay(rel) : null;
+  const imgAttrs = display
+    ? `src="${escapeAttr(withAsset(display.src))}" srcset="${escapeAttr(
+        display.srcset
+          .split(', ')
+          .map((part) => {
+            const [file, w] = part.split(' ');
+            return `${withAsset(file)} ${w}`;
+          })
+          .join(', ')
+      )}" sizes="${PLATE_SIZES}" width="${display.width}" height="${display.height}"`
+    : `src="${escapeAttr(src)}" width="800" height="600"`;
   const media = src
-    ? `<img src="${escapeAttr(src)}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async" width="800" height="600">`
+    ? `<img ${imgAttrs} alt="${escapeHtml(alt)}" loading="lazy" decoding="async">`
     : `<div class="dive-plate__void" aria-hidden="true"></div>`;
   return `<div class="${colClass}">
           <div class="dive-media-card media-panel static-card surface-static p-4 sm:p-5 h-full flex flex-col">
             <div class="dive-media-card__frame media-frame surface-media w-full max-w-none flex-1">
               <div class="media-scrim overflow-hidden dive-media-card__scrim flex items-center justify-center">
-                <div class="${artifactClass} dive-plate${src ? '' : ' dive-plate--empty'}" role="button" tabindex="0" aria-label="${escapeAttr(openLabel)}" ${dataAttr}>
+                <div class="${artifactClass} dive-plate${src ? '' : ' dive-plate--empty'}" role="button" tabindex="0" ${dataAttr}>
                   ${media}
                   ${renderPlateCaption(kind, action)}
                 </div>
@@ -429,7 +446,7 @@ function renderSectionHeading(label, id) {
   const idAttr = id ? ` id="${escapeAttr(id)}"` : '';
   return `<div${idAttr} class="dive-section-head full-bleed-divider">
       <div class="dive-section-head__line" aria-hidden="true"></div>
-      <div class="dive-section-head__label">${escapeHtml(label)}</div>
+      <h2 class="dive-section-head__label">${escapeHtml(label)}</h2>
       <div class="dive-section-head__line" aria-hidden="true"></div>
     </div>`;
 }
@@ -928,9 +945,9 @@ ${heroBanner}
             ? renderPlateCard({
                 kind: 'plate',
                 src: infographicSrc,
+                rel: topic.infographic_image,
                 alt: `${title} infographic`,
                 action: 'Expand',
-                openLabel: 'Open full size plate',
                 solo: !flags.hasSlide,
               })
             : ''
@@ -943,7 +960,6 @@ ${heroBanner}
                 alt: `Slide deck preview — ${title}`,
                 href: topic.slide_deck_pdf_url,
                 action: 'Open PDF',
-                openLabel: 'Open slide deck PDF',
                 solo: !flags.hasInfographic,
               })
             : ''
