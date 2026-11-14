@@ -16,3 +16,6 @@ Sources include `alice`, `breakdown`, `ascension`, `revelations`, and `special-r
 
 ## Shared menu and footer (generated, never hand-edited)
 The menu (`<nav class="navbar">`) and footer (`<footer class="site-footer">`) on every page, the Support page body (between `SITE-SUPPORT-START/END`), and `quiz/_template.html` are generated from `assets/data/navbar.json` and `assets/data/footer.json` by `scripts/chrome-renderer.js`. Edit the JSON, then run `npm run build` (or `build:chrome` + `sync:quiz-chrome` + `build:dives`). `npm run build` runs `scripts/check-chrome.js` at the end (and, in CI, also before it on the committed pages). It fails if any page's menu or footer differs from the JSON, or if a page uses future-paywall wording ("stays free", "always free", "always will be").
+
+## Share cards (link previews)
+Each live topic has a 1200x630 card at `images/og/{source}/{id}.jpg`, used as `og:image`/`twitter:image` by its dive page and its quiz. The site-wide card is `images/og-default.webp` (homepage lotus art). After adding a topic or changing its title or image, run `python3 scripts/generate-share-cards.py` (needs Pillow), then `npm run build`. Pages without a card fall back to the topic image. The script never changes on-page images.

@@ -442,6 +442,12 @@ function diveUrl(sourceId, topicId) {
   return `${BASE_URL}/${divePath(sourceId, topicId)}`;
 }
 
+// Short content hash so social sites re-fetch a card only when it really changes.
+function shareCardVersion(rel) {
+  const buf = fs.readFileSync(path.join(ROOT, rel));
+  return require('crypto').createHash('sha1').update(buf).digest('hex').slice(0, 8);
+}
+
 function absoluteImage(rel) {
   if (!rel) return seoBrand.defaultImage || `${BASE_URL}/images/og-default.webp`;
   if (/^https?:\/\//i.test(rel)) return rel;
@@ -786,9 +792,15 @@ function buildPage({
     : `${description.replace(/\s+$/, '')} — from the 21st Memory archive.`;
   const pageTitle = `${title} | ${sourceTitle} | 21st Memory`;
   const canonical = diveUrl(sourceId, topic.id);
-  const ogImage = absoluteImage(
-    topic.topic_image || topic.infographic_image || 'images/og-default.webp'
-  );
+  // 1200x630 share card from scripts/generate-share-cards.py; falls back to the topic art.
+  const shareCardRel = `images/og/${sourceId}/${topic.id}.jpg`;
+  const hasShareCard = fs.existsSync(path.join(ROOT, shareCardRel));
+  const ogImage = hasShareCard
+    ? `${absoluteImage(shareCardRel)}?v=${shareCardVersion(shareCardRel)}`
+    : absoluteImage(topic.topic_image || topic.infographic_image || 'images/og-default.webp');
+  const ogImageMeta = hasShareCard
+    ? `\n    <meta property="og:image:type" content="image/jpeg">\n    <meta property="og:image:width" content="1200">\n    <meta property="og:image:height" content="630">`
+    : '';
   const flags = mediaFlags(topic);
   const readingTime = flags.hasReport ? estimateReadingTime(topic.report) : '';
   const heroImageRel = (topic.topic_image || topic.infographic_image || '').replace(/\\/g, '/');
@@ -1000,7 +1012,7 @@ ${heroBanner}
     title,
     description,
     url: canonical,
-    image: ogImage,
+    image: absoluteImage(topic.topic_image || topic.infographic_image || 'images/og-default.webp'), // article art, not the text card
     sourceTitle,
     dateModified: lastUpdated || today(),
     isStub: isStubTopic,
@@ -1027,11 +1039,14 @@ ${robots}    <link rel="canonical" href="${canonical}">
     <meta property="og:locale" content="en_US">
     <meta property="og:title" content="${escapeAttr(pageTitle)}">
     <meta property="og:description" content="${escapeAttr(metaDescription)}">
-    <meta property="og:image" content="${escapeAttr(ogImage)}">
+    <meta property="og:image" content="${escapeAttr(ogImage)}">${ogImageMeta}
+    <meta property="og:image:alt" content="${escapeAttr(title)} — 21st Memory">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="${escapeAttr(seoBrand.twitterSite || '@The21stMemory')}">
     <meta name="twitter:title" content="${escapeAttr(pageTitle)}">
     <meta name="twitter:description" content="${escapeAttr(metaDescription)}">
     <meta name="twitter:image" content="${escapeAttr(ogImage)}">
+    <meta name="twitter:image:alt" content="${escapeAttr(title)} — 21st Memory">
 ${jsonLd}
         <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
     <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}.deep-dive-hero,.deep-dive-hero-bg{background-color:#0F0A1F}.deep-dive-hero{min-height:22rem}@media (min-width:768px){.deep-dive-hero{min-height:30rem}}</style>

@@ -141,9 +141,11 @@ ${homeLink}${robots}    <link rel="icon" href="${favicon}" type="image/webp">
     <meta property="og:image:height" content="${ogHeight}">
     <meta property="og:image:alt" content="${escapeAttr(brand.shortName || brand.name)}">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="${escapeAttr(brand.twitterSite || '@The21stMemory')}">
     <meta name="twitter:title" content="${escapeAttr(ogTitle)}">
     <meta name="twitter:description" content="${escapeAttr(page.description)}">
     <meta name="twitter:image" content="${ogImage}">
+    <meta name="twitter:image:alt" content="${escapeAttr(brand.shortName || brand.name)}">
 
 <script type="application/ld+json">
 ${buildJsonLd(page)}

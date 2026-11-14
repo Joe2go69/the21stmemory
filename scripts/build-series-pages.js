@@ -170,6 +170,7 @@ function buildHead(series) {
     <meta property="og:image:height" content="${img.height}">
     <meta property="og:image:alt" content="${escapeAttr(series.title)} — ${escapeAttr(brand.name)}">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="${escapeAttr(brand.twitterSite || '@The21stMemory')}">
     <meta name="twitter:title" content="${escapeAttr(series.title)}">
     <meta name="twitter:description" content="${escapeAttr(ogDescription)}">
     <meta name="twitter:image" content="${img.url}">
