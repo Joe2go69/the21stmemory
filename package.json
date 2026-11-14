@@ -22,6 +22,7 @@
     "build:chrome": "node scripts/inline-chrome.js",
     "build:quizzes": "node scripts/build-quizzes-hub.js && node scripts/sync-quiz-embeds.js",
     "lint:quizzes": "node scripts/quiz-quality.js --lint",
+    "check:chrome": "node scripts/check-chrome.js",
     "audit:quiz-accuracy": "node scripts/audit-quiz-accuracy.js",
     "build:dives": "node scripts/build-static-dives.js",
     "install:content": "node scripts/install.js",
@@ -32,7 +33,8 @@
     "verify:elevation": "node scripts/verify-elevation.js",
     "verify:all": "node scripts/verify-phase2.js && node scripts/verify-phase3.js && node scripts/verify-phase4.js && node scripts/verify-phase5.js && node scripts/verify-phase6.js && node scripts/verify-elevation.js",
     "chrome": "node scripts/inline-chrome.js",
-    "build": "node scripts/generate-image-variants.js && node scripts/backfill-topic-added.js --build && node scripts/split-topics-data.js && node scripts/build-quizzes-hub.js && node scripts/build-static-dives.js && node scripts/sync-quiz-embeds.js && npx tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --minify && node scripts/minify-css.js && node scripts/inline-chrome.js && node scripts/sync-quiz-chrome.js && node scripts/inject-seo.js && node scripts/generate-series-og.js && node scripts/build-series-pages.js && node scripts/generate-sitemap.js && node scripts/apply-perf-assets.js && node scripts/defer-nested-scripts.js"
+    "prebuild": "node scripts/check-chrome.js --committed",
+    "build": "node scripts/generate-image-variants.js && node scripts/backfill-topic-added.js --build && node scripts/split-topics-data.js && node scripts/build-quizzes-hub.js && node scripts/build-static-dives.js && node scripts/sync-quiz-embeds.js && npx tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --minify && node scripts/minify-css.js && node scripts/inline-chrome.js && node scripts/sync-quiz-chrome.js && node scripts/inject-seo.js && node scripts/generate-series-og.js && node scripts/build-series-pages.js && node scripts/generate-sitemap.js && node scripts/apply-perf-assets.js && node scripts/defer-nested-scripts.js && node scripts/check-chrome.js"
   },
   "devDependencies": {
     "sharp": "^0.35.3",

@@ -343,8 +343,10 @@ async function loadHomeSeries() {
 function formatAdded(iso) {
   const m = /^(\d{4})-(\d{2})-(\d{2})(?:T|$)/.exec(iso || '');
   if (!m) return '';
-  const d = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+  // One date style across the site: "14 Nov 2026" (same as the dive pages).
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const month = months[+m[2] - 1];
+  return month ? `${+m[3]} ${month} ${m[1]}` : '';
 }
 
 function seriesShortName(title) {
