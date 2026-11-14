@@ -160,6 +160,16 @@
       "icon": "pinterest",
       "href": "https://www.pinterest.com/the21stmemory/",
       "badge": "This archive"
+    },
+    {
+      "section": "social",
+      "label": "COMMUNITY",
+      "title": "21st Memory on Reddit",
+      "description": "Discussion and questions around the transmissions — find the archive on Reddit as u/spookerscat.",
+      "action": "Visit on Reddit",
+      "icon": "reddit",
+      "href": "https://www.reddit.com/user/spookerscat/",
+      "badge": "This archive"
     }
   ]
 }
