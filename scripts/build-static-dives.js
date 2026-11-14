@@ -751,7 +751,7 @@ function renderVideoLanguageBar(languages) {
         <script type="application/json" id="video-languages-data">${json}</script>`;
 }
 
-function buildJsonLd({ title, description, url, image, sourceTitle, dateModified, isStub }) {
+function buildJsonLd({ title, description, url, image, sourceTitle, sourceId, dateModified, isStub }) {
   if (isStub) return '';
   const graph = [
     {
@@ -766,7 +766,7 @@ function buildJsonLd({ title, description, url, image, sourceTitle, dateModified
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: `${BASE_URL}/` },
         { '@type': 'ListItem', position: 2, name: 'Codex', item: `${BASE_URL}/codex.html` },
-        { '@type': 'ListItem', position: 3, name: sourceTitle, item: url },
+        { '@type': 'ListItem', position: 3, name: sourceTitle, item: `${BASE_URL}/series-${encodeURIComponent(sourceId)}.html` },
         { '@type': 'ListItem', position: 4, name: title, item: url },
       ],
     },
@@ -1030,6 +1030,7 @@ ${heroBanner}
     url: canonical,
     image: absoluteImage(topic.topic_image || topic.infographic_image || 'images/og-default.webp'), // article art, not the text card
     sourceTitle,
+    sourceId,
     dateModified: lastUpdated || today(),
     isStub: isStubTopic,
   });

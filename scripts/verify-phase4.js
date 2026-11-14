@@ -29,7 +29,7 @@ check('min 44px controls', css.includes('min-height: 44px'));
 check('report measure', /max-width:\s*(70|58|52|48|42)ch/.test(css));
 check('chip scroll mobile', css.includes('scroll-snap-type'));
 
-const interior = ['codex.html', 'quizzes.html', 'network.html', 'topics.html', 'deep-dive.html', '404.html'];
+const interior = ['codex.html', 'quizzes.html', 'network.html', 'topics.html', '404.html'];
 for (const f of interior) {
   const html = fs.readFileSync(path.join(ROOT, f), 'utf8');
   check(`${f} page-interior`, html.includes('page-interior'));

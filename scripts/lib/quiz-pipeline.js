@@ -134,7 +134,9 @@ function renderQuizHtml({ source, topicId, title, topicImage, seoDesc, quiz }) {
     throw new Error('quiz/_template.html is missing __QUIZ_JSON__ placeholder');
   }
   const { applyQuizHero } = require('./quiz-hero');
-  return applyQuizHero(withLiveChrome(html.split('__QUIZ_JSON__').join(embedQuizJson(quiz))), {
+  const { applyQuizJsonLd, seriesTitle } = require('./quiz-jsonld');
+  const filled = html.split('__QUIZ_JSON__').join(embedQuizJson(quiz)).replace(/__SERIES_TITLE__/g, () => seriesTitle(source).replace(/"/g, '\\"'));
+  return applyQuizHero(withLiveChrome(applyQuizJsonLd(filled, { source, topicId })), {
     source,
     topicId
   });

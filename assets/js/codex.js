@@ -377,7 +377,7 @@ function renderSourcesGrid() {
             ...(hasQuery || hasStatus
               ? [{ label: 'Clear filters', primary: true, attrs: 'data-codex-clear-filters' }]
               : []),
-            { label: 'Explore Alice', href: 'topics.html?source=alice' }
+            { label: 'Explore Alice', href: 'series-alice.html' }
           ]
         })}
       </div>
@@ -450,7 +450,7 @@ function renderTopicSearchResults() {
       icon: 'search',
       actions: [
         { label: 'Clear search', primary: true, attrs: 'data-codex-clear-search' },
-        { label: 'Explore Alice', href: 'topics.html?source=alice' }
+        { label: 'Explore Alice', href: 'series-alice.html' }
       ]
     });
     list.querySelector('[data-codex-clear-search]')?.addEventListener('click', () => {

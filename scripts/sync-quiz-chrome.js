@@ -3,6 +3,7 @@
  * Also ensures vault critical-paint CSS is present (prevents white FOUC).
  * Run after build:chrome, or as part of full build.
  */
+const { applyQuizJsonLd } = require('./lib/quiz-jsonld');
 const fs = require('fs');
 const path = require('path');
 const { renderNavbar, renderFooter } = require('./chrome-renderer');
@@ -185,6 +186,9 @@ for (const file of quizFiles) {
     const rel = path.relative(path.join(ROOT, 'quiz'), file).replace(/\\/g, '/');
     const m = rel.match(/^([^/_][^/]*)\/([^/]+)\.html$/);
     if (m) html = applyQuizHero(html, { source: m[1], topicId: m[2] });
+    // WebPage + BreadcrumbList JSON-LD (the template keeps placeholders).
+    if (m) html = applyQuizJsonLd(html, { source: m[1], topicId: m[2] });
+    else if (rel === '_template.html') html = applyQuizJsonLd(html, { source: '__SOURCE__', topicId: '__TOPIC_ID__' });
   }
   if (html !== before) changed = true;
 
