@@ -4,14 +4,16 @@ const NETWORK_FILTERS = [
   { id: 'all', label: 'All' },
   { id: 'official', label: 'Official' },
   { id: 'telegram', label: 'Telegram' },
-  { id: 'rumble', label: 'Rumble' }
+  { id: 'rumble', label: 'Rumble' },
+  { id: 'social', label: 'Social' }
 ];
 
-const NETWORK_SECTION_ORDER = ['official', 'telegram', 'rumble'];
+const NETWORK_SECTION_ORDER = ['official', 'telegram', 'rumble', 'social'];
 const NETWORK_SECTION_LABELS = {
   official: 'Official',
   telegram: 'Telegram',
-  rumble: 'Rumble'
+  rumble: 'Rumble',
+  social: 'Social'
 };
 
 let networkChannels = [];

@@ -130,6 +130,46 @@
       "icon": "star",
       "href": "https://rumble.com/c/21stMemory",
       "badge": "This archive"
+    },
+    {
+      "section": "social",
+      "label": "SHORT POSTS",
+      "title": "21st Memory on Threads",
+      "description": "Short posts and threads from the archive — the quickest way to follow the Great Remembering day to day.",
+      "action": "Follow on Threads",
+      "icon": "threads",
+      "href": "https://www.threads.com/@the21stmemory",
+      "badge": "This archive"
+    },
+    {
+      "section": "social",
+      "label": "WEEKLY READINGS",
+      "title": "21st Memory on Substack",
+      "description": "A weekly reading from the archive, free in your inbox — starting with Harvest Toll.",
+      "action": "Read on Substack",
+      "icon": "substack",
+      "href": "https://the21stmemory.substack.com",
+      "badge": "This archive"
+    },
+    {
+      "section": "social",
+      "label": "INFOGRAPHICS",
+      "title": "21st Memory on Pinterest",
+      "description": "Infographics from the Codex — the Essence topics, the starter readings, and more, pinned for easy sharing.",
+      "action": "Follow on Pinterest",
+      "icon": "pinterest",
+      "href": "https://www.pinterest.com/the21stmemory/",
+      "badge": "This archive"
+    },
+    {
+      "section": "social",
+      "label": "COMMUNITY",
+      "title": "21st Memory on Reddit",
+      "description": "Discussion and questions around the transmissions — the archive's corner of Reddit.",
+      "action": "Visit on Reddit",
+      "icon": "reddit",
+      "href": "https://www.reddit.com/user/molech68/",
+      "badge": "This archive"
     }
   ]
 }
