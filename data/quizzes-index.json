@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T23:51:24.240Z",
-  "total": 369,
+  "generatedAt": "2026-11-14T02:18:50.350Z",
+  "total": 370,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 106
+      "count": 107
     },
     {
       "id": "breakdown",
@@ -1168,6 +1168,20 @@
       "diveHref": "dive/alice/resets-hidden-history.html",
       "key": "alice/resets-hidden-history",
       "order": 55
+    },
+    {
+      "id": "scare-events",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Scare Events",
+      "subtitle": "Test your understanding of Scare Events — engineered shocks, the soul inscription, and the pedagogical seal after the parasites are gone.",
+      "questionCount": 25,
+      "href": "quiz/alice/scare-events.html",
+      "diveHref": "dive/alice/scare-events.html",
+      "key": "alice/scare-events",
+      "order": 102
     },
     {
       "id": "simulation-reality",

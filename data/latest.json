@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "scare-events",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Scare Events",
+      "description": "Scare events are escalating shocks, directed by the Galactic Ancestral Alliance, that hard-wire a permanent lesson after the parasites are already gone.",
+      "topic_image": "images/alice/scare-events.webp",
+      "path": "dive/alice/scare-events.html",
+      "added": "2026-11-13T19:15:41-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "social-media-window",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Social Media Window",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/energy-weapons.webp",
       "path": "dive/alice/energy-weapons.html",
       "added": "2026-11-10T18:36:24-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "dark-ages-leap",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Dark Ages Leap",
-      "description": "The manufactured jump from medieval darkness into leftover Tartarian industry, sold as organic progress.",
-      "topic_image": "images/alice/dark-ages-leap.webp",
-      "path": "dive/alice/dark-ages-leap.html",
-      "added": "2026-11-10T18:07:01-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "alice",
+      "topicId": "scare-events",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Scare Events",
+      "description": "Scare events are escalating shocks, directed by the Galactic Ancestral Alliance, that hard-wire a permanent lesson after the parasites are already gone.",
+      "topic_image": "images/alice/scare-events.webp",
+      "path": "dive/alice/scare-events.html",
+      "added": "2026-11-13T19:15:41-07:00"
+    },
     {
       "sourceId": "alice",
       "topicId": "social-media-window",
@@ -171,16 +181,6 @@
       "topic_image": "images/alice/taran-vessels.webp",
       "path": "dive/alice/taran-vessels.html",
       "added": "2026-11-11T17:32:07-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "micro-suns",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Micro Suns",
-      "description": "Micro Suns constitute the primordial echelon of conscious existence, representing the very first ever souls generated directly from Source Creation.",
-      "topic_image": "images/alice/micro-suns.webp",
-      "path": "dive/alice/micro-suns.html",
-      "added": "2026-11-11T14:00:38-07:00"
     }
   ],
   "featured": [

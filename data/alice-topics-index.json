@@ -893,10 +893,10 @@
             {
               "id": "scare-events",
               "title": "Scare Events",
-              "description": "Scare Events",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Scare events are escalating shocks, directed by the Galactic Ancestral Alliance, that hard-wire a permanent lesson after the parasites are already gone.",
+              "topic_image": "images/alice/scare-events.webp",
+              "is_placeholder": false,
+              "added": "2026-11-13T19:15:41-07:00"
             },
             {
               "id": "the-first-to-go",

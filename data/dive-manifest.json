@@ -820,9 +820,9 @@
       "sourceId": "alice",
       "topicId": "scare-events",
       "path": "/dive/alice/scare-events.html",
-      "live": false,
+      "live": true,
       "title": "Scare Events",
-      "added": "2026-10-14"
+      "added": "2026-11-13T19:15:41-07:00"
     },
     {
       "sourceId": "alice",
