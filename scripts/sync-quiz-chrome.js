@@ -6,6 +6,7 @@
 const fs = require('fs');
 const path = require('path');
 const { renderNavbar, renderFooter } = require('./chrome-renderer');
+const { applyQuizHero } = require('./lib/quiz-hero');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = '../../';
@@ -179,6 +180,12 @@ for (const file of quizFiles) {
   html = ensurePageInterior(html);
   html = ensureAppleTouchIcon(html);
   html = ensureShareCard(html, file);
+  {
+    // Topic art pre-rendered in #quiz-root (LCP image in the first HTML).
+    const rel = path.relative(path.join(ROOT, 'quiz'), file).replace(/\\/g, '/');
+    const m = rel.match(/^([^/_][^/]*)\/([^/]+)\.html$/);
+    if (m) html = applyQuizHero(html, { source: m[1], topicId: m[2] });
+  }
   if (html !== before) changed = true;
 
   if (!changed) {

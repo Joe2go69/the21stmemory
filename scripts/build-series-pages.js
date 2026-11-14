@@ -181,6 +181,19 @@ ${JSON.stringify(jsonLd, null, 2)}
 </script>`;
 }
 
+// Same display copies and sizes as the preload in topics.html and the hero
+// topics.js paints (seriesHeroSrcsetAttrs in shared.js). Phones get the 480/800
+// copies; the original stays the zoom/lightbox file (data-full-src).
+const SERIES_HERO_SIZES = '(max-width: 899px) calc(100vw - 48px), 460px';
+function heroSrcset(id, image) {
+  const widths = [480, 800];
+  const files = widths.map((w) => `images/thumbs/series/${id}-codex-card-${w}.webp`);
+  if (!files.every((f) => fs.existsSync(path.join(ROOT, f)))) return '';
+  const parts = files.map((f, i) => `${f} ${widths[i]}w`);
+  parts.push(`${image} 1152w`);
+  return ` srcset="${parts.join(', ')}" sizes="${SERIES_HERO_SIZES}" data-srcset-fallback`;
+}
+
 /** Same markup topics.js paints first (paintSourceHeroShell), with the title filled in. */
 function buildHeroShell(series) {
   const label = SERIES_LABELS[series.id] || 'Transmission archive';
@@ -198,7 +211,7 @@ function buildHeroShell(series) {
           <h1 id="source-hero-title" class="source-hero-title">${escapeAttr(series.title)}</h1>${bookBtn ? `\n          ${bookBtn}` : ''}
         </div>
         <div class="source-hero-media" style="background-color:#0F0A1F">
-          ${hasImage ? `<img src="${image}" alt="" class="source-hero-img" width="640" height="800" decoding="async" fetchpriority="high" style="background-color:#0F0A1F">` : ''}
+          ${hasImage ? `<img src="${image}"${heroSrcset(series.id, image)} data-full-src="${image}" alt="" class="source-hero-img" width="640" height="800" loading="eager" fetchpriority="high" decoding="async" style="background-color:#0F0A1F">` : ''}
           <span class="source-hero-media-fade" aria-hidden="true"></span>
         </div>
       </div>
@@ -206,8 +219,26 @@ function buildHeroShell(series) {
   </div>`;
 }
 
+// topics.html carries a pre-rendered series chooser (scripts/build-browse-cards.js).
+// Series pages get the empty hero host and the topic-list skeleton instead.
+const CHOOSER_HEADER_REGEX = /<!-- chooser-header:start -->[\s\S]*?<!-- chooser-header:end -->/;
+const CHOOSER_CARDS_REGEX = /<!-- chooser-cards:start -->[\s\S]*?<!-- chooser-cards:end -->/;
+const SERIES_TOPICS_SKELETON = `<div id="topics-container" class="min-h-[400px]" aria-busy="true">
+            <div class="skeleton-panel" aria-hidden="true">
+                <div class="skeleton skeleton-bar" style="width:50%"></div>
+                <div class="skeleton skeleton-category-card static-card mt-6" style="background-color:#0F0A1F"><div class="skeleton skeleton-block" style="height:5rem"></div></div>
+                <div class="skeleton skeleton-category-card static-card mt-6" style="background-color:#0F0A1F"><div class="skeleton skeleton-block" style="height:5rem"></div></div>
+            </div>
+        </div>`;
+
 function buildSeriesPage(template, series) {
   let html = template;
+  if (!CHOOSER_HEADER_REGEX.test(html) || !CHOOSER_CARDS_REGEX.test(html)) {
+    throw new Error('topics.html: chooser markers not found (run scripts/build-browse-cards.js)');
+  }
+  html = html.replace(CHOOSER_HEADER_REGEX, '<div id="source-header" class="source-hero-host mb-0" aria-busy="true"></div>');
+  html = html.replace(CHOOSER_CARDS_REGEX, SERIES_TOPICS_SKELETON);
+  html = html.replace('class="home-section-anchor mb-6" hidden>', 'class="home-section-anchor mb-6">');
   if (!SEO_REGEX.test(html)) throw new Error('topics.html: SEO block not found');
   html = html.replace(SEO_REGEX, (m, nl) => `${nl}${buildHead(series).replace(/^\n/, '')}`);
   html = html.replace(REDIRECT_REGEX, '');

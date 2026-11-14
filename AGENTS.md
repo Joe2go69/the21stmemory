@@ -19,3 +19,8 @@ The menu (`<nav class="navbar">`) and footer (`<footer class="site-footer">`) on
 
 ## Share cards (link previews)
 Each live topic has a 1200x630 card at `images/og/{source}/{id}.jpg`, used as `og:image`/`twitter:image` by its dive page and its quiz. The site-wide card is `images/og-default.webp` (homepage lotus art). After adding a topic or changing its title or image, run `python3 scripts/generate-share-cards.py` (needs Pillow), then `npm run build`. Pages without a card fall back to the topic image. The script never changes on-page images.
+
+## Fast browse pages (generated)
+- Codex and the topics.html series chooser ship their series cards pre-rendered between `<!-- codex-series-cards:start/end -->` and `<!-- chooser-*:start/end -->` (`scripts/build-browse-cards.js`, part of `npm run build`). The first card image is `loading="eager" fetchpriority="high"`; the page JS repaints the same cards with live counts. `build-series-pages.js` strips the chooser blocks from series pages.
+- Quiz pages pre-render the topic art in `#quiz-root` (`scripts/lib/quiz-hero.js`, applied by `sync-quiz-chrome.js` and the quiz installer) from the `images/thumbs` display copies. `data-topic-image` on `#quiz-root` is the hero art (og:image is the share card).
+- Infographic plates on dive pages show a 1024px display copy (`images/thumbs/infographics/`, made by `generate-image-variants.js`, tracked by sha1 in `manifest.json`). The lightbox/zoom always opens the full original. Never downscale or recompress originals.

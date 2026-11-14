@@ -1375,3 +1375,15 @@ body.quiz-is-playing .page-shell {
 .quiz-actions .btn-primary {
   min-height: 44px;
 }
+
+/* Pre-rendered start card (scripts/lib/quiz-hero.js): hold roughly the height
+   of the full start card so the footer does not jump when quiz.js paints it. */
+.quiz-card--prerender {
+  min-height: 70rem;
+}
+
+@media (min-width: 640px) {
+  .quiz-card--prerender {
+    min-height: 56rem;
+  }
+}
