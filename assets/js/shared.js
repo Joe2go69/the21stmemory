@@ -213,6 +213,11 @@ function paintVaultSelect(wrap) {
   trigger.innerHTML = `${prefix}<span class="vault-select__value">${escapeVaultText(label)}</span><span class="vault-select__chevron">${VAULT_CHEVRON}</span>`;
   if (isLang) {
     trigger.setAttribute('aria-label', label ? `Watch in ${label}` : 'Video language');
+  } else {
+    // Name = purpose + the visible value, e.g. "Sort transmissions: Featured"
+    // (WCAG 2.5.3: the accessible name contains the visible text).
+    const base = trigger.dataset.baseLabel || select.getAttribute('aria-label') || 'Choose an option';
+    trigger.setAttribute('aria-label', label ? `${base}: ${label}` : base);
   }
 
   menu.innerHTML = Array.from(select.options).map((opt) => {
@@ -275,7 +280,8 @@ function enhanceVaultSelect(select) {
   trigger.className = 'vault-select__trigger';
   trigger.setAttribute('aria-haspopup', 'listbox');
   trigger.setAttribute('aria-expanded', 'false');
-  trigger.setAttribute('aria-label', select.getAttribute('aria-label') || 'Choose an option');
+  trigger.dataset.baseLabel = select.getAttribute('aria-label') || 'Choose an option';
+  trigger.setAttribute('aria-label', trigger.dataset.baseLabel);
 
   const menu = document.createElement('ul');
   menu.className = 'vault-select__menu';

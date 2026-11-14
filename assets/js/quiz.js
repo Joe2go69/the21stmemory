@@ -88,6 +88,10 @@
   }
 
   function topicImageSrc() {
+    // Quiz pages carry their topic art on #quiz-root (scripts/lib/quiz-hero.js).
+    // og:image is the 1200x630 share card with text on it, so it is only a fallback.
+    const fromRoot = el.root?.getAttribute('data-topic-image');
+    if (fromRoot) return fromRoot;
     const og = document.querySelector('meta[property="og:image"]')?.getAttribute('content') || '';
     try {
       const url = new URL(og, window.location.origin);
@@ -788,9 +792,17 @@
     const resume = getResumeBlob();
     const toReview = getMissedNumbers().length;
     const imageSrc = topicImageSrc();
+    // Same display copies as the pre-rendered hero, so the browser reuses the
+    // image it already downloaded instead of fetching the full original.
+    const srcsetValue = el.root?.getAttribute('data-topic-srcset') || '';
+    const prerendered = el.root?.querySelector('.quiz-hero img');
+    const heroSrc = (srcsetValue && prerendered?.getAttribute('src')) || imageSrc;
+    const heroSrcset = srcsetValue
+      ? ` srcset="${escapeHtml(srcsetValue)}" sizes="(max-width: 46rem) calc(100vw - 3rem), 46rem"`
+      : '';
     const hero = imageSrc
       ? `<div class="quiz-hero">
-           <img src="${escapeHtml(imageSrc)}" alt="" width="1280" height="720" decoding="async" onerror="this.closest('.quiz-hero') && this.closest('.quiz-hero').remove()">
+           <img src="${escapeHtml(heroSrc)}"${heroSrcset} alt="" width="1280" height="720" loading="eager" fetchpriority="high" decoding="async" onerror="this.closest('.quiz-hero') && this.closest('.quiz-hero').remove()">
          </div>`
       : '';
     return `

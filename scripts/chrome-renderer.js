@@ -153,10 +153,12 @@ function renderNavbar(navbarData, options = {}) {
     lazy: false,
   });
 
+  // Accessible name starts with the visible text (WCAG 2.5.3 Label in Name).
+  const logoLabel = `21st Memory ${navbarData.logo.subtitle}, home`;
   return `<nav class="navbar">
       <div class="nav-container">
         <div class="nav-content">
-          <a href="${logoHref}" class="nav-logo" aria-label="21st Memory home">
+          <a href="${logoHref}" class="nav-logo" aria-label="${logoLabel}">
             <span class="nav-logo-mark" aria-hidden="true">
               ${markHTML}
             </span>
@@ -353,7 +355,7 @@ function renderSupportPage(footerData, options = {}) {
             ${giveActions(`${qrPlate(qrSrc, qrAlt, 592, 592)}
               <div class="support-give-actions">
                 <code class="footer-support-address" id="btc-address" title="${btcAddress}">${btcDisplay}</code>
-                <button type="button" class="btn-primary footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy Bitcoin address"><span>Copy address</span></button>
+                <button type="button" class="btn-primary footer-support-copy" data-copy-target="btc-address" data-copy-text="${btcAddress}" aria-label="Copy address (Bitcoin)"><span>Copy address</span></button>
               </div>`)}
           </article>`;
 
@@ -372,7 +374,7 @@ function renderSupportPage(footerData, options = {}) {
             ${giveActions(`
               <div class="support-give-actions">
                 <code class="footer-support-address" id="muse-code" title="${muse.code}">${muse.code}</code>
-                <button type="button" class="btn-primary footer-support-copy" data-copy-target="muse-code" data-copy-text="${muse.code}" aria-label="Copy Muse invite code"><span>Copy code</span></button>
+                <button type="button" class="btn-primary footer-support-copy" data-copy-target="muse-code" data-copy-text="${muse.code}" aria-label="Copy code (Muse invite)"><span>Copy code</span></button>
                 <a href="${muse.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
                   <span>${muse.buttonText || 'Join Muse'}</span>
                 </a>
@@ -391,13 +393,13 @@ function renderSupportPage(footerData, options = {}) {
     </header>
     <div class="max-w-6xl mx-auto px-6 page-shell page-shell--after-hero pb-16">
       <section class="support-ways-section" aria-labelledby="support-ways-heading">
-        <p class="section-eyebrow mb-5" id="support-ways-heading">${fundsLabel}</p>
+        <h2 class="section-eyebrow mb-5" id="support-ways-heading">${fundsLabel}</h2>
         <ul class="support-ways">
         ${fundsHTML}
         </ul>
       </section>
       <section id="give" class="support-give home-section-anchor" aria-labelledby="give-heading">
-        <p class="section-eyebrow mb-5" id="give-heading">${giveLabel}</p>
+        <h2 class="section-eyebrow mb-5" id="give-heading">${giveLabel}</h2>
         <div class="support-give-grid">
           ${gofundmeCard}
           ${starlinkCard}
@@ -456,7 +458,7 @@ function renderFooter(footerData, options = {}) {
           <div class="footer-brand">
             <div class="footer-brand-row">
               <span class="footer-brand-mark-wrap" aria-hidden="true">${markHTML}</span>
-              <a href="${homeHref}" class="footer-brand-link" aria-label="21st Memory home">
+              <a href="${homeHref}" class="footer-brand-link" aria-label="21st Memory ${brandSubtitle}, home">
                 <span class="footer-brand-copy">
                   <span class="footer-brand-name">${footerData.brand.name}</span>
                   <span class="footer-brand-subtitle">${brandSubtitle}</span>

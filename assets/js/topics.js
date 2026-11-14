@@ -1018,8 +1018,12 @@ async function renderTransmissionChooser(ids) {
 
   if (exploreEl) exploreEl.hidden = true;
 
-  if (headerEl) {
-    headerEl.setAttribute('aria-busy', 'false');
+  // topics.html ships this header and the series cards pre-rendered
+  // (scripts/build-browse-cards.js), so the first paint already has the h1 and
+  // the LCP image. Only paint them here when they are missing.
+  const prerendered = !!(container && container.querySelector('.source-card'));
+
+  if (headerEl && !headerEl.querySelector('h1')) {
     headerEl.innerHTML = `
       <header class="page-hero page-hero--interior max-w-3xl mx-auto text-center">
         <h1 class="page-hero-title page-hero-title--hub font-semibold tracking-tighter leading-none mb-4">Choose a transmission</h1>
@@ -1028,21 +1032,24 @@ async function renderTransmissionChooser(ids) {
       </header>
     `;
   }
+  if (headerEl) headerEl.setAttribute('aria-busy', 'false');
 
   if (!container) return;
-  container.setAttribute('aria-busy', 'true');
   container.className = 'grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch min-h-[400px]';
-  container.innerHTML = sourceIds.map(() => (
-    `<div class="skeleton skeleton-source-card" aria-hidden="true" style="background-color:#0F0A1F"><div class="skeleton skeleton-block" style="height:10rem"></div><div class="skeleton skeleton-bar" style="width:70%"></div><div class="skeleton skeleton-bar" style="width:90%"></div></div>`
-  )).join('');
+  if (!prerendered) {
+    container.setAttribute('aria-busy', 'true');
+    container.innerHTML = sourceIds.map(() => (
+      `<div class="skeleton skeleton-source-card" aria-hidden="true" style="background-color:#0F0A1F"><div class="skeleton skeleton-block" style="height:10rem"></div><div class="skeleton skeleton-bar" style="width:70%"></div><div class="skeleton skeleton-bar" style="width:90%"></div></div>`
+    )).join('');
+  }
 
   const shelves = await Promise.all(sourceIds.map(loadSourceShelf));
-  container.innerHTML = '';
-  shelves.forEach((source) => {
+  container.innerHTML = '<h2 class="sr-only">Series</h2>';
+  shelves.forEach((source, index) => {
     const wrapper = document.createElement('div');
     wrapper.innerHTML = RenderUtils.renderSourceCard(
       source,
-      { soonCount: getSoonCount(source.stats) }
+      { soonCount: getSoonCount(source.stats), eager: index === 0 }
     );
     if (wrapper.firstElementChild) container.appendChild(wrapper.firstElementChild);
   });
@@ -1062,7 +1069,7 @@ async function loadSourceViewer() {
     paintSourceHeroShell(rawSource);
     indexPromise = TopicUtils.fetchSourceIndex(rawSource);
   }
-  if (container && !container.querySelector('.skeleton, #topics-controls')) {
+  if (container && !container.querySelector('.skeleton, #topics-controls, .source-card')) {
     container.setAttribute('aria-busy', 'true');
     container.innerHTML = TopicUtils.skeleton('topics-list');
   }

@@ -24591,3 +24591,38 @@ a.text-link::after {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* =============================================
+   Heading order (a11y, Nov 2026): these section labels are now h2 (they were
+   p/div, or h3 on Codex) so the outline never jumps h1 -> h3. Keep their look.
+   ============================================= */
+h2.section-eyebrow,
+h2.dive-section-head__label {
+  font-family: inherit;
+  line-height: inherit;
+}
+h2.dive-section-head__label {
+  text-shadow: none;
+}
+h2.codex-subhead {
+  color: var(--text-secondary);
+  letter-spacing: -0.02em;
+}
+
+/* Codex: hold the space the stats bar and toolbar take once codex.js paints
+   them, so the pre-rendered series cards do not jump down (CLS). */
+#codex-archive-stats[aria-busy="true"] {
+  height: 11.375rem;
+  overflow: hidden;
+}
+#codex-toolbar:empty {
+  min-height: 8.375rem;
+}
+@media (min-width: 768px) {
+  #codex-archive-stats[aria-busy="true"] {
+    height: 7.5rem;
+  }
+  #codex-toolbar:empty {
+    min-height: 5.375rem;
+  }
+}

@@ -326,11 +326,11 @@ function renderToolbar() {
   }
 }
 
-function renderSourceCard(source) {
+function renderSourceCard(source, index = 0) {
   const wrapper = document.createElement('div');
   wrapper.innerHTML = RenderUtils.renderSourceCard(
     { ...source, stats: source.stats },
-    { soonCount: getSoonCount(source.stats) }
+    { soonCount: getSoonCount(source.stats), eager: index === 0 }
   );
   return wrapper.firstElementChild;
 }
@@ -393,7 +393,7 @@ function renderSourcesGrid() {
     return;
   }
 
-  sources.forEach((source) => container.appendChild(renderSourceCard(source)));
+  sources.forEach((source, index) => container.appendChild(renderSourceCard(source, index)));
   RenderUtils.setupImageFallbacks(container, 'img[data-img-fallback], .source-card-img');
 }
 

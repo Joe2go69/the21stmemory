@@ -241,9 +241,12 @@ const RenderUtils = {
     const srcsetAttr = sized
       ? ` srcset="${TopicUtils.encodeAssetPath(`${sized[1]}-640.webp`)} 640w, ${src960} 960w" sizes="(max-width: 700px) 80vw, (max-width: 1100px) 46vw, 360px"`
       : '';
+    // The first card in a browse grid is the page's largest image (LCP): load it
+    // right away at high priority. Every other card stays lazy.
+    const loadingAttrs = options.eager ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"';
     const imageHTML = showImage && cardImage
       ? `<div class="source-card-media" style="background-color:#0F0A1F">
-           <img src="${src960}"${srcsetAttr} alt="${TopicUtils.escapeHtml(source.title)}" class="source-card-img" width="960" height="523" loading="lazy" decoding="async" data-img-fallback>
+           <img src="${src960}"${srcsetAttr} alt="${TopicUtils.escapeHtml(source.title)}" class="source-card-img" width="960" height="523" ${loadingAttrs} decoding="async" data-img-fallback>
            <span class="source-card-media-fade" aria-hidden="true"></span>
          </div>`
       : showImage
