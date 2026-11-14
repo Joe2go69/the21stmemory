@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "the-first-to-go",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "The First to Go",
+      "description": "The First to Go is the opening casualty wave of the Exit sequence, before any sky event, when fragile vessels and dogmatic belief structures fail under broadcast fear.",
+      "topic_image": "images/alice/the-first-to-go.webp",
+      "path": "dive/alice/the-first-to-go.html",
+      "added": "2026-11-14T01:51:57-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "scare-events",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Scare Events",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/not-the-payout.webp",
       "path": "dive/alice/not-the-payout.html",
       "added": "2026-11-11T09:26:42-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "energy-weapons",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Energy Weapons",
-      "description": "Frequency devices that petrify, transmute, and vitrify matter, while the nuclear bomb remains a story that was never built.",
-      "topic_image": "images/alice/energy-weapons.webp",
-      "path": "dive/alice/energy-weapons.html",
-      "added": "2026-11-10T18:36:24-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "alice",
+      "topicId": "the-first-to-go",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "The First to Go",
+      "description": "The First to Go is the opening casualty wave of the Exit sequence, before any sky event, when fragile vessels and dogmatic belief structures fail under broadcast fear.",
+      "topic_image": "images/alice/the-first-to-go.webp",
+      "path": "dive/alice/the-first-to-go.html",
+      "added": "2026-11-14T01:51:57-07:00"
+    },
     {
       "sourceId": "alice",
       "topicId": "scare-events",
@@ -171,16 +181,6 @@
       "topic_image": "images/alice/pleiadians.webp",
       "path": "dive/alice/pleiadians.html",
       "added": "2026-11-11T18:50:36-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "taran-vessels",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Taran Vessels",
-      "description": "Taran Vessels are the biological and physical vehicular forms engineered to house the incarnated consciousness of Taran humans within dense physical reality.",
-      "topic_image": "images/alice/taran-vessels.webp",
-      "path": "dive/alice/taran-vessels.html",
-      "added": "2026-11-11T17:32:07-07:00"
     }
   ],
   "featured": [

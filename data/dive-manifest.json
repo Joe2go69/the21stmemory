@@ -828,9 +828,9 @@
       "sourceId": "alice",
       "topicId": "the-first-to-go",
       "path": "/dive/alice/the-first-to-go.html",
-      "live": false,
+      "live": true,
       "title": "The First to Go",
-      "added": "2026-10-14"
+      "added": "2026-11-14T01:51:57-07:00"
     },
     {
       "sourceId": "alice",

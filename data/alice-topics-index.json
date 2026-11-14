@@ -901,10 +901,10 @@
             {
               "id": "the-first-to-go",
               "title": "The First to Go",
-              "description": "The First to Go",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "The First to Go is the opening casualty wave of the Exit sequence, before any sky event, when fragile vessels and dogmatic belief structures fail under broadcast fear.",
+              "topic_image": "images/alice/the-first-to-go.webp",
+              "is_placeholder": false,
+              "added": "2026-11-14T01:51:57-07:00"
             },
             {
               "id": "the-sky-event",

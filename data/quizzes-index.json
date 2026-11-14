@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-14T02:18:50.350Z",
-  "total": 370,
+  "generatedAt": "2026-11-14T08:57:11.743Z",
+  "total": 371,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 107
+      "count": 108
     },
     {
       "id": "breakdown",
@@ -1378,6 +1378,20 @@
       "diveHref": "dive/alice/the-cover-up.html",
       "key": "alice/the-cover-up",
       "order": 71
+    },
+    {
+      "id": "the-first-to-go",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "The First to Go",
+      "subtitle": "Test your understanding of The First to Go — the opening casualty wave, NPC evaporation, and the silence before the Sky Event.",
+      "questionCount": 25,
+      "href": "quiz/alice/the-first-to-go.html",
+      "diveHref": "dive/alice/the-first-to-go.html",
+      "key": "alice/the-first-to-go",
+      "order": 103
     },
     {
       "id": "parasitic-takeover",
