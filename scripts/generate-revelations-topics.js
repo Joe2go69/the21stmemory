@@ -9,7 +9,7 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const PLACEHOLDER_IMAGE = 'images/revelations/placeholder.webp';
 
-const DESCRIPTION = `This transmission is the six-part brief synopsis of Christian21's revelations for the Great Spiritual Awakening — next-level intel on soul architecture, the simulation field, and the parasitic farm built around the fifteen human attributes. It maps how intelligence preceded physicality, how the 12 Proximal Sols and 4,000 Taran vessels were created, and how overlays, digital inserts, MK-Ultra, legal capture, and reset harvest keep the inner illusion running.
+const DESCRIPTION = `The six-part brief synopsis of Christian21's revelations for the Great Spiritual Awakening: soul architecture, the simulation field, and the parasitic farm built around the fifteen human attributes. It maps how intelligence preceded physicality, how the 12 Proximal Sols and the 4,000 ancient souls came to be, and how overlays, digital inserts, MK-Ultra, legal capture, and reset harvest keep the inner illusion running.
 
 Essential for anyone who wants to understand Sovereign Accord, Custodian control systems, Tartarian memory, the organic circuitboard of this realm, and why the original writings on Christian21 remain the place to sit with the source documents.`;
 

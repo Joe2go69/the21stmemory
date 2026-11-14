@@ -480,7 +480,7 @@ function initQuizzesHub() {
     <div>
       <p class="quiz-hub-section__eyebrow">${escapeHtml(meta.short || meta.label || '')}</p>
       <h2 class="quiz-hub-section__title">${escapeHtml(meta.title || meta.label || sourceId)}</h2>
-      <p class="quiz-hub-section__meta"><span class="quiz-hub-section__count" data-section-count>${list.length}</span> ${list.length === 1 ? 'quiz' : 'quizzes'} in this transmission${progressLine}</p>
+      <p class="quiz-hub-section__meta"><span class="quiz-hub-section__count" data-section-count>${list.length}</span> ${list.length === 1 ? 'quiz' : 'quizzes'} in this series${progressLine}</p>
     </div>
     <a href="series-${escapeAttr(sourceId)}.html" class="quiz-hub-section__link">Browse topics →</a>
   </header>

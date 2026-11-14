@@ -513,7 +513,7 @@ function renderMainRootSection() {
     <div class="topics-main-root-section" data-source="${TopicUtils.escapeAttr(sourceId)}">
       <div class="topics-main-root-header">
         <h2 class="topics-main-root-heading">Where to Begin</h2>
-        <p class="topics-main-root-subheading">Start with the essence transmission — a complete overview before exploring each category below.</p>
+        <p class="topics-main-root-subheading">Start with the Essence of the Series — a complete overview before exploring each category below.</p>
       </div>
       ${visibleRoots.map(root => renderMainRootBlock(sourceId, root)).join('')}
     </div>
