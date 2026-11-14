@@ -92,7 +92,9 @@ function loadSeries() {
       id: s.id,
       title: index.title || s.title,
       subtitle: index.subtitle || '',
-      description: index.description || ''
+      description: index.description || '',
+      // Short, complete search/share description (≤160 chars), written by hand.
+      metaDescription: index.meta_description || ''
     };
   });
 }
@@ -101,8 +103,9 @@ function buildHead(series) {
   const url = `${baseUrl}${seriesPath(series.id)}`;
   const title = `${series.title} | ${brand.name}`;
   // No live counts in static meta: installs don't rebuild these pages, so counts would go stale.
-  const description = metaDescription(series.description || `${series.title} — topics from the ${brand.name} Codex.`);
-  const ogDescription = metaDescription(series.description || description, 200);
+  const description = series.metaDescription
+    || metaDescription(series.description || `${series.title} — topics from the ${brand.name} Codex.`);
+  const ogDescription = series.metaDescription || metaDescription(series.description || description, 200);
   const img = ogImageFor(series.id);
   const iconV = '20260811b';
 

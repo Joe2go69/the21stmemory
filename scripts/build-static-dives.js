@@ -663,7 +663,7 @@ function renderContinueLearning({ sourceId, quiz, lastUpdated, assetBase = ASSET
     <div class="dive-continue__actions">
       ${quizBlock}
       <a href="${assetBase}source.html" class="btn-secondary dive-continue__btn">Sit with the Source</a>
-      <a href="${assetBase}series-${encodeURIComponent(sourceId)}.html#explore-topics" class="text-link dive-continue__link">More topics in this transmission →</a>
+      <a href="${assetBase}series-${encodeURIComponent(sourceId)}.html#explore-topics" class="text-link dive-continue__link">More topics in this series →</a>
     </div>
     <p class="dive-continue__disclaimer">
       AI may miss higher-dimensional nuance. Prefer the raw transmissions when anything feels incomplete.
@@ -875,7 +875,7 @@ ${heroBanner}
       <div class="max-w-2xl mx-auto text-center py-16 px-6">
         <h2 class="text-3xl font-semibold tracking-tighter mb-4">This topic continues to unfold</h2>
         <p class="text-mem-soft text-lg leading-relaxed mb-8">
-          The complete Codex experience for this topic is being prepared — infographics, slide decks, video transmissions, and a deep-dive report. Ready entries are already available in the archive.
+          The complete Codex experience for this topic is being prepared — infographics, slide decks, videos, and a deep-dive report. Ready entries are already available in the archive.
         </p>
         ${renderStubActions({ sourceId })}
         <div class="text-xs text-mem-dim tracking-wide mt-8">Not indexed yet · Content in preparation</div>
@@ -977,7 +977,7 @@ ${heroBanner}
             const videoLangs = getTopicVideoLanguages(topic);
             return `
     <div id="videos-section" class="dive-zone">
-      ${renderSectionHeading('Video transmissions')}
+      ${renderSectionHeading('Videos')}
       <div class="max-w-6xl mx-auto px-6">
         ${renderVideoLanguageBar(videoLangs)}
         <div id="videos-container" class="${videoGridClass(defaultVideos.length)}">

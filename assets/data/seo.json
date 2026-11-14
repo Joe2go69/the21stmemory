@@ -37,14 +37,14 @@
     "index.html": {
       "path": "/",
       "title": "21st Memory — a reading of Thalon Thor's transmissions",
-      "description": "A free living archive of AI-assisted readings of Thalon Thor / Christian21 transmissions. Search the Codex, then return to the originals. No religion, no finance, no gatekeeping.",
+      "description": "A free living archive of AI-assisted readings of Thalon Thor / Christian21 transmissions. Search the Codex, then return to the originals.",
       "searchAction": true,
       "webPage": true
     },
     "codex.html": {
       "path": "/codex.html",
       "title": "21st Memory Codex | 21st Memory",
-      "description": "Explore the 21st Memory Codex — videos, infographics, PDFs, and deep-dive reports on Thalon Thor’s teachings."
+      "description": "Explore the 21st Memory Codex — videos, infographics, PDFs, and deep-dive reports on Thalon Thor / Christian21 transmissions."
     },
     "books.html": {
       "path": "/books.html",

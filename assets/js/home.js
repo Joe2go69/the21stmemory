@@ -56,7 +56,7 @@ function renderLiveArchiveBadge(live, total, sources) {
   badge.setAttribute('aria-busy', 'false');
 
   badge.innerHTML = `
-    <p class="home-proof-explainer">${sourceCount} series of original transmissions, broken into ${total} study topics.</p>
+    <p class="home-proof-explainer">${sourceCount} Codex series, broken into ${total} study topics.</p>
     <div class="codex-home-metrics-grid">
       <div class="codex-home-metric">
         <div class="codex-home-metric-value" data-count-to="${sourceCount}">${sourceCount}</div>
