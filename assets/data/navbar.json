@@ -7,6 +7,7 @@
   },
   "links": [
     { "text": "Codex", "href": "codex.html", "primary": true },
+    { "text": "Books", "href": "books.html" },
     { "text": "Quizzes", "href": "quizzes.html" },
     { "text": "Source", "href": "source.html" },
     { "text": "Network", "href": "network.html" },

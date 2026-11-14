@@ -857,6 +857,15 @@ function renderSourceHeader(data, sourceId, stats) {
          View original PDF
        </a>`
     : '';
+  // Series with published books (books.html anchors). Only these get a book button.
+  const bookAnchors = { ascension: 'ascension', revelations: 'revelations' };
+  const bookAnchor = bookAnchors[sourceId];
+  const bookBtn = bookAnchor
+    ? `<a href="books.html#${bookAnchor}" class="btn-secondary source-hero-book">
+         ${typeof renderSiteIcon === 'function' ? renderSiteIcon('book', 'card-icon-sm') : ''}
+         Get the Book — Free
+       </a>`
+    : '';
   let seriesLink = '';
   if (data.source_url) {
     const label = data.source_url_label || 'Read the source documents →';
@@ -886,6 +895,7 @@ function renderSourceHeader(data, sourceId, stats) {
           <div class="source-hero-desc">${descHtml}</div>
           <div class="source-hero-actions">
             <a href="#explore-topics" class="btn-primary source-hero-jump">Jump to topics <span aria-hidden="true">↓</span></a>
+            ${bookBtn}
             ${pdfBtn}
             ${seriesLink}
             ${playlistLink}

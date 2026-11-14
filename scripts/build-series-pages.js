@@ -27,6 +27,12 @@ const SERIES_LABELS = {
   'special-requests': 'Requested studies'
 };
 
+// Series with published books (books.html anchors). Only these get a book button.
+const BOOK_ANCHORS = {
+  ascension: 'ascension',
+  revelations: 'revelations'
+};
+
 // Matches topics.html head SEO block: <title> … first </script> (JSON-LD)
 const SEO_REGEX = /(\r?\n)(?:    )+<title>[\s\S]*?<\/script>/;
 const REDIRECT_REGEX = /\s*<!-- series-redirect:start -->[\s\S]*?<!-- series-redirect:end -->/;
@@ -179,12 +185,16 @@ function buildHeroShell(series) {
   const label = SERIES_LABELS[series.id] || 'Transmission archive';
   const image = `images/${series.id}-codex-card.webp`;
   const hasImage = fs.existsSync(path.join(ROOT, image));
+  const bookAnchor = BOOK_ANCHORS[series.id];
+  const bookBtn = bookAnchor
+    ? `<div class="source-hero-actions"><a href="books.html#${bookAnchor}" class="btn-secondary">Get the Book — Free</a></div>`
+    : '';
   return `<div id="source-header" class="source-hero-host mb-0" aria-busy="true">
     <article class="source-hero" aria-busy="true" style="background-color:#0F0A1F">
       <div class="source-hero-grid">
         <div class="source-hero-copy">
           <p class="source-hero-eyebrow">${escapeAttr(label)}</p>
-          <h1 id="source-hero-title" class="source-hero-title">${escapeAttr(series.title)}</h1>
+          <h1 id="source-hero-title" class="source-hero-title">${escapeAttr(series.title)}</h1>${bookBtn ? `\n          ${bookBtn}` : ''}
         </div>
         <div class="source-hero-media" style="background-color:#0F0A1F">
           ${hasImage ? `<img src="${image}" alt="" class="source-hero-img" width="640" height="800" decoding="async" fetchpriority="high" style="background-color:#0F0A1F">` : ''}

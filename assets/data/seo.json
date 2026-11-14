@@ -40,6 +40,12 @@
       "title": "21st Memory Codex | The 21st Memory",
       "description": "Explore the 21st Memory Codex — videos, infographics, PDFs, and deep-dive reports on Thalon Thor’s teachings."
     },
+    "books.html": {
+      "path": "/books.html",
+      "title": "Books | 21st Memory",
+      "description": "Free books from the 21st Memory archive — the Codex series in PDF and EPUB. Free to download, free to share. No religion, no finance, no gatekeeping.",
+      "webPage": true
+    },
     "topics.html": {
       "path": "/topics.html",
       "title": "21st Memory Topics | The 21st Memory",

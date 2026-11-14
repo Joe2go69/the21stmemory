@@ -101,6 +101,7 @@ function staticEntries() {
     { path: '/', priority: '1.0', changefreq: 'weekly' },
     { path: '/network.html', priority: '0.9', changefreq: 'monthly' },
     { path: '/codex.html', priority: '0.95', changefreq: 'weekly' },
+    { path: '/books.html', priority: '0.88', changefreq: 'monthly' },
     { path: '/topics.html', priority: '0.9', changefreq: 'weekly' },
     { path: '/deep-dive.html', priority: '0.9', changefreq: 'weekly' },
     { path: '/quizzes.html', priority: '0.92', changefreq: 'weekly' },
