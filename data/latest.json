@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "520-million",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "520 Million",
+      "description": "520 Million is the maximum ensouled remnant left embodied after the Flash dissolves the ninety-seven percent synthetic majority.",
+      "topic_image": "images/alice/520-million.webp",
+      "path": "dive/alice/520-million.html",
+      "added": "2026-11-14T15:12:38-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "the-sky-event",
       "series": "Following Alice in the Rabbit Hole",
       "title": "The Sky Event",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/truthers-without-the-intel.webp",
       "path": "dive/alice/truthers-without-the-intel.html",
       "added": "2026-11-11T11:35:01-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "healthcare-compliance",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Healthcare Compliance",
-      "description": "Within the structured conditioning of Perceived Knowledge, Healthcare Compliance represents the systematic, unquestioning execution of institutional directives by medical workers and frontline administrative personnel during the manufactured COVID crisis.",
-      "topic_image": "images/alice/healthcare-compliance.webp",
-      "path": "dive/alice/healthcare-compliance.html",
-      "added": "2026-11-11T10:30:45-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "alice",
+      "topicId": "520-million",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "520 Million",
+      "description": "520 Million is the maximum ensouled remnant left embodied after the Flash dissolves the ninety-seven percent synthetic majority.",
+      "topic_image": "images/alice/520-million.webp",
+      "path": "dive/alice/520-million.html",
+      "added": "2026-11-14T15:12:38-07:00"
+    },
     {
       "sourceId": "alice",
       "topicId": "the-sky-event",
@@ -171,16 +181,6 @@
       "topic_image": "images/alice/craft-that-do-not-land.webp",
       "path": "dive/alice/craft-that-do-not-land.html",
       "added": "2026-11-13T12:51:02-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "project-blue-beam",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Project Blue Beam",
-      "description": "Project Blue Beam—alternatively designated as Project Bluebeam, Blue Beam, or the holographic invasion—is an advanced optical operation engineered to project a synthetic, planetary-scale extraterrestrial battle across the skies of the realm.",
-      "topic_image": "images/alice/project-blue-beam.webp",
-      "path": "dive/alice/project-blue-beam.html",
-      "added": "2026-11-11T19:50:57-07:00"
     }
   ],
   "featured": [

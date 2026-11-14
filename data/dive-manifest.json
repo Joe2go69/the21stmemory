@@ -844,9 +844,9 @@
       "sourceId": "alice",
       "topicId": "520-million",
       "path": "/dive/alice/520-million.html",
-      "live": false,
+      "live": true,
       "title": "520 Million",
-      "added": "2026-10-14"
+      "added": "2026-11-14T15:12:38-07:00"
     },
     {
       "sourceId": "alice",

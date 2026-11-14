@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-14T20:18:39.227Z",
-  "total": 372,
+  "generatedAt": "2026-11-14T22:17:52.544Z",
+  "total": 373,
   "sources": [
     {
       "id": "alice",
@@ -9,7 +9,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 109
+      "count": 110
     },
     {
       "id": "breakdown",
@@ -76,6 +76,20 @@
       "diveHref": "dive/alice/4000-ancients.html",
       "key": "alice/4000-ancients",
       "order": 89
+    },
+    {
+      "id": "520-million",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "520 Million",
+      "subtitle": "Test your understanding of 520 Million — the ensouled remnant, the three strings, and the Flash that deletes the synthetic majority.",
+      "questionCount": 25,
+      "href": "quiz/alice/520-million.html",
+      "diveHref": "dive/alice/520-million.html",
+      "key": "alice/520-million",
+      "order": 105
     },
     {
       "id": "97-percent-population",
