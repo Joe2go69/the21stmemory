@@ -419,15 +419,29 @@ function initQuizzesHub() {
     paintReviewStrip();
   }
 
+  function topicThumbHtml(quiz) {
+    const rel = quiz.topicImage;
+    if (!rel) return '';
+    const m = /^images\/([\w-]+)\/(.+)\.webp$/i.exec(rel);
+    let srcset = '';
+    if (m) {
+      srcset = `images/thumbs/${m[1]}/${m[2]}-320.webp 320w, images/thumbs/${m[1]}/${m[2]}-640.webp 640w, images/thumbs/${m[1]}/${m[2]}-960.webp 960w, ${rel} 1400w`;
+    }
+    return `<span class="quiz-hub-card__thumb"><img src="${escapeAttr(rel)}"${srcset ? ` srcset="${escapeAttr(srcset)}" sizes="88px"` : ''} alt="" width="160" height="160" loading="lazy" decoding="async" onerror="this.parentElement.classList.add('quiz-hub-card__thumb--fallback');this.remove();"></span>`;
+  }
+
   function renderRow(quiz) {
     const key = quiz.key || `${quiz.sourceId}/${quiz.id}`;
     const searchBlob = [quiz.title, quiz.subtitle, quiz.sourceId, quiz.sourceLabel, quiz.sourceTitle, quiz.sourceShort]
       .join(' ')
       .toLowerCase();
     const focusId = `quiz-${escapeAttr(String(key).replace(/[^\w-]+/g, '-'))}`;
-    return `<a href="${escapeAttr(quiz.href)}" class="quiz-hub-row quiz-hub-card" role="listitem" id="${focusId}" data-source="${escapeAttr(quiz.sourceId)}" data-quiz-key="${escapeAttr(key)}" data-search="${escapeAttr(searchBlob)}">
+    const series = quiz.sourceLabel || quiz.sourceShort || '';
+    return `<a href="${escapeAttr(quiz.href)}" class="quiz-hub-row quiz-hub-card" role="listitem" id="${focusId}" data-source="${escapeAttr(quiz.sourceId)}" data-quiz-key="${escapeAttr(key)}" data-search="${escapeAttr(searchBlob)}"${quiz.topicImage ? ' data-has-thumb' : ''}>
+  ${topicThumbHtml(quiz)}
   <span class="quiz-hub-row__status" data-quiz-status-label hidden>Not started</span>
   <span class="quiz-hub-row__body">
+    ${series ? `<span class="quiz-hub-card__series">${escapeHtml(series)}</span>` : ''}
     <span class="quiz-hub-card__title quiz-hub-row__title">${escapeHtml(quiz.title)}</span>
     <span class="quiz-hub-card__meta quiz-hub-row__meta">
       <span class="quiz-hub-card__count quiz-hub-row__count">${quiz.questionCount || 0} Q</span>

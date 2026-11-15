@@ -13,6 +13,9 @@ const QUIZZES_DIR = path.join(ROOT, 'data', 'quizzes');
 const INDEX_OUT = path.join(ROOT, 'data', 'quizzes-index.json');
 const HUB_HTML = path.join(ROOT, 'quizzes.html');
 
+/* Visual / reading order matches the Codex series cards. */
+const SOURCE_ORDER = ['revelations', 'alice', 'breakdown', 'ascension', 'special-requests'];
+
 const SOURCE_META = {
   alice: {
     id: 'alice',
@@ -55,6 +58,10 @@ const SOURCE_META = {
     image: 'images/special-requests-codex-card-960.webp',
   },
 };
+
+function sourcesInOrder() {
+  return SOURCE_ORDER.map((id) => SOURCE_META[id]).filter(Boolean);
+}
 
 const OVERVIEW_START = '<!-- QUIZZES-OVERVIEW-START -->';
 const OVERVIEW_END = '<!-- QUIZZES-OVERVIEW-END -->';
@@ -119,6 +126,9 @@ function collectQuizzes() {
       const href = `quiz/${sourceId}/${id}.html`;
       const key = `${sourceId}/${id}`;
 
+      const topicImageRel = `images/${sourceId}/${id}.webp`;
+      const topicImage = fs.existsSync(path.join(ROOT, topicImageRel)) ? topicImageRel : undefined;
+
       quizzes.push({
         id,
         sourceId,
@@ -131,6 +141,7 @@ function collectQuizzes() {
         href,
         diveHref: `dive/${sourceId}/${id}.html`,
         key,
+        ...(topicImage ? { topicImage } : {}),
         ...(treeOrder.has(id) ? { order: treeOrder.get(id) } : {}),
       });
     }
@@ -145,7 +156,7 @@ function collectQuizzes() {
 }
 
 function renderPathCards(quizzes) {
-  const cards = Object.values(SOURCE_META)
+  const cards = sourcesInOrder()
     .map((meta) => {
       const count = quizzes.filter((q) => q.sourceId === meta.id).length;
       const src960 = meta.image || '';
@@ -293,7 +304,7 @@ function lintQuizzes() {
 function main() {
   lintQuizzes();
   const quizzes = collectQuizzes();
-  const sources = Object.values(SOURCE_META).map((meta) => ({
+  const sources = sourcesInOrder().map((meta) => ({
     ...meta,
     count: quizzes.filter((q) => q.sourceId === meta.id).length,
   }));
