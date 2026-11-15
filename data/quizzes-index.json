@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-14T22:17:52.544Z",
+  "generatedAt": "2026-11-15T01:26:01.488Z",
   "total": 373,
   "sources": [
+    {
+      "id": "revelations",
+      "label": "Revelations",
+      "title": "A Brief Synopsis of Revelations",
+      "short": "Six-part revelations synopsis",
+      "desc": "Physical existence, inversion, and the return of memory.",
+      "image": "images/revelations-codex-card-960.webp",
+      "count": 118
+    },
     {
       "id": "alice",
       "label": "Alice",
@@ -28,15 +37,6 @@
       "desc": "Crystal grid, three flashes, the portal, and the dual path of homecoming or sanctuary.",
       "image": "images/ascension-codex-card-960.webp",
       "count": 39
-    },
-    {
-      "id": "revelations",
-      "label": "Revelations",
-      "title": "A Brief Synopsis of Revelations",
-      "short": "Six-part revelations synopsis",
-      "desc": "Physical existence, inversion, and the return of memory.",
-      "image": "images/revelations-codex-card-960.webp",
-      "count": 118
     },
     {
       "id": "special-requests",
@@ -75,6 +75,7 @@
       "href": "quiz/alice/4000-ancients.html",
       "diveHref": "dive/alice/4000-ancients.html",
       "key": "alice/4000-ancients",
+      "topicImage": "images/alice/4000-ancients.webp",
       "order": 89
     },
     {
@@ -89,6 +90,7 @@
       "href": "quiz/alice/520-million.html",
       "diveHref": "dive/alice/520-million.html",
       "key": "alice/520-million",
+      "topicImage": "images/alice/520-million.webp",
       "order": 105
     },
     {
@@ -103,6 +105,7 @@
       "href": "quiz/alice/97-percent-population.html",
       "diveHref": "dive/alice/97-percent-population.html",
       "key": "alice/97-percent-population",
+      "topicImage": "images/alice/97-percent-population.webp",
       "order": 109
     },
     {
@@ -173,6 +176,7 @@
       "href": "quiz/alice/ascension-event.html",
       "diveHref": "dive/alice/ascension-event.html",
       "key": "alice/ascension-event",
+      "topicImage": "images/alice/ascension-event.webp",
       "order": 95
     },
     {
@@ -187,6 +191,7 @@
       "href": "quiz/alice/asteroid-weapons.html",
       "diveHref": "dive/alice/asteroid-weapons.html",
       "key": "alice/asteroid-weapons",
+      "topicImage": "images/alice/asteroid-weapons.webp",
       "order": 12
     },
     {
@@ -201,6 +206,7 @@
       "href": "quiz/alice/atmospheric-condensers.html",
       "diveHref": "dive/alice/atmospheric-condensers.html",
       "key": "alice/atmospheric-condensers",
+      "topicImage": "images/alice/atmospheric-condensers.webp",
       "order": 58
     },
     {
@@ -215,6 +221,7 @@
       "href": "quiz/alice/centre-realm.html",
       "diveHref": "dive/alice/centre-realm.html",
       "key": "alice/centre-realm",
+      "topicImage": "images/alice/centre-realm.webp",
       "order": 17
     },
     {
@@ -257,6 +264,7 @@
       "href": "quiz/alice/craft-that-do-not-land.html",
       "diveHref": "dive/alice/craft-that-do-not-land.html",
       "key": "alice/craft-that-do-not-land",
+      "topicImage": "images/alice/craft-that-do-not-land.webp",
       "order": 99
     },
     {
@@ -271,6 +279,7 @@
       "href": "quiz/alice/crystal-alters.html",
       "diveHref": "dive/alice/crystal-alters.html",
       "key": "alice/crystal-alters",
+      "topicImage": "images/alice/crystal-alters.webp",
       "order": 26
     },
     {
@@ -285,6 +294,7 @@
       "href": "quiz/alice/culling-survivors.html",
       "diveHref": "dive/alice/culling-survivors.html",
       "key": "alice/culling-survivors",
+      "topicImage": "images/alice/culling-survivors.webp",
       "order": 77
     },
     {
@@ -313,6 +323,7 @@
       "href": "quiz/alice/dark-ages-leap.html",
       "diveHref": "dive/alice/dark-ages-leap.html",
       "key": "alice/dark-ages-leap",
+      "topicImage": "images/alice/dark-ages-leap.webp",
       "order": 73
     },
     {
@@ -327,6 +338,7 @@
       "href": "quiz/alice/demons-and-sold-souls.html",
       "diveHref": "dive/alice/demons-and-sold-souls.html",
       "key": "alice/demons-and-sold-souls",
+      "topicImage": "images/alice/demons-and-sold-souls.webp",
       "order": 39
     },
     {
@@ -355,6 +367,7 @@
       "href": "quiz/alice/disclosure-psyop.html",
       "diveHref": "dive/alice/disclosure-psyop.html",
       "key": "alice/disclosure-psyop",
+      "topicImage": "images/alice/disclosure-psyop.webp",
       "order": 53
     },
     {
@@ -369,6 +382,7 @@
       "href": "quiz/alice/drab-on-purpose.html",
       "diveHref": "dive/alice/drab-on-purpose.html",
       "key": "alice/drab-on-purpose",
+      "topicImage": "images/alice/drab-on-purpose.webp",
       "order": 63
     },
     {
@@ -383,6 +397,7 @@
       "href": "quiz/alice/dumb-nurseries.html",
       "diveHref": "dive/alice/dumb-nurseries.html",
       "key": "alice/dumb-nurseries",
+      "topicImage": "images/alice/dumb-nurseries.webp",
       "order": 67
     },
     {
@@ -397,6 +412,7 @@
       "href": "quiz/alice/ebs-disclosure.html",
       "diveHref": "dive/alice/ebs-disclosure.html",
       "key": "alice/ebs-disclosure",
+      "topicImage": "images/alice/ebs-disclosure.webp",
       "order": 96
     },
     {
@@ -425,6 +441,7 @@
       "href": "quiz/alice/emf-white-flash.html",
       "diveHref": "dive/alice/emf-white-flash.html",
       "key": "alice/emf-white-flash",
+      "topicImage": "images/alice/emf-white-flash.webp",
       "order": 100
     },
     {
@@ -439,6 +456,7 @@
       "href": "quiz/alice/energy-weapons.html",
       "diveHref": "dive/alice/energy-weapons.html",
       "key": "alice/energy-weapons",
+      "topicImage": "images/alice/energy-weapons.webp",
       "order": 78
     },
     {
@@ -481,6 +499,7 @@
       "href": "quiz/alice/evolution-in-a-lab.html",
       "diveHref": "dive/alice/evolution-in-a-lab.html",
       "key": "alice/evolution-in-a-lab",
+      "topicImage": "images/alice/evolution-in-a-lab.webp",
       "order": 49
     },
     {
@@ -495,6 +514,7 @@
       "href": "quiz/alice/fake-alien-invasion.html",
       "diveHref": "dive/alice/fake-alien-invasion.html",
       "key": "alice/fake-alien-invasion",
+      "topicImage": "images/alice/fake-alien-invasion.webp",
       "order": 97
     },
     {
@@ -537,6 +557,7 @@
       "href": "quiz/alice/finance-fake-money.html",
       "diveHref": "dive/alice/finance-fake-money.html",
       "key": "alice/finance-fake-money",
+      "topicImage": "images/alice/finance-fake-money.webp",
       "order": 81
     },
     {
@@ -593,6 +614,7 @@
       "href": "quiz/alice/freemasonry.html",
       "diveHref": "dive/alice/freemasonry.html",
       "key": "alice/freemasonry",
+      "topicImage": "images/alice/freemasonry.webp",
       "order": 52
     },
     {
@@ -635,6 +657,7 @@
       "href": "quiz/alice/ghosts-are-a-gig.html",
       "diveHref": "dive/alice/ghosts-are-a-gig.html",
       "key": "alice/ghosts-are-a-gig",
+      "topicImage": "images/alice/ghosts-are-a-gig.webp",
       "order": 36
     },
     {
@@ -663,6 +686,7 @@
       "href": "quiz/alice/gravity-story.html",
       "diveHref": "dive/alice/gravity-story.html",
       "key": "alice/gravity-story",
+      "topicImage": "images/alice/gravity-story.webp",
       "order": 8
     },
     {
@@ -691,6 +715,7 @@
       "href": "quiz/alice/healthcare-compliance.html",
       "diveHref": "dive/alice/healthcare-compliance.html",
       "key": "alice/healthcare-compliance",
+      "topicImage": "images/alice/healthcare-compliance.webp",
       "order": 84
     },
     {
@@ -747,6 +772,7 @@
       "href": "quiz/alice/language-inversion.html",
       "diveHref": "dive/alice/language-inversion.html",
       "key": "alice/language-inversion",
+      "topicImage": "images/alice/language-inversion.webp",
       "order": 51
     },
     {
@@ -761,6 +787,7 @@
       "href": "quiz/alice/ley-lines-and-nodes.html",
       "diveHref": "dive/alice/ley-lines-and-nodes.html",
       "key": "alice/ley-lines-and-nodes",
+      "topicImage": "images/alice/ley-lines-and-nodes.webp",
       "order": 25
     },
     {
@@ -803,6 +830,7 @@
       "href": "quiz/alice/lunatic-asylums.html",
       "diveHref": "dive/alice/lunatic-asylums.html",
       "key": "alice/lunatic-asylums",
+      "topicImage": "images/alice/lunatic-asylums.webp",
       "order": 72
     },
     {
@@ -817,6 +845,7 @@
       "href": "quiz/alice/lunatic-frequencies.html",
       "diveHref": "dive/alice/lunatic-frequencies.html",
       "key": "alice/lunatic-frequencies",
+      "topicImage": "images/alice/lunatic-frequencies.webp",
       "order": 21
     },
     {
@@ -831,6 +860,7 @@
       "href": "quiz/alice/micro-suns.html",
       "diveHref": "dive/alice/micro-suns.html",
       "key": "alice/micro-suns",
+      "topicImage": "images/alice/micro-suns.webp",
       "order": 92
     },
     {
@@ -845,6 +875,7 @@
       "href": "quiz/alice/minerals-stay-down.html",
       "diveHref": "dive/alice/minerals-stay-down.html",
       "key": "alice/minerals-stay-down",
+      "topicImage": "images/alice/minerals-stay-down.webp",
       "order": 28
     },
     {
@@ -915,6 +946,7 @@
       "href": "quiz/alice/niberians.html",
       "diveHref": "dive/alice/niberians.html",
       "key": "alice/niberians",
+      "topicImage": "images/alice/niberians.webp",
       "order": 38
     },
     {
@@ -929,6 +961,7 @@
       "href": "quiz/alice/non-player-characters.html",
       "diveHref": "dive/alice/non-player-characters.html",
       "key": "alice/non-player-characters",
+      "topicImage": "images/alice/non-player-characters.webp",
       "order": 107
     },
     {
@@ -943,6 +976,7 @@
       "href": "quiz/alice/not-the-payout.html",
       "diveHref": "dive/alice/not-the-payout.html",
       "key": "alice/not-the-payout",
+      "topicImage": "images/alice/not-the-payout.webp",
       "order": 82
     },
     {
@@ -957,6 +991,7 @@
       "href": "quiz/alice/npc-population.html",
       "diveHref": "dive/alice/npc-population.html",
       "key": "alice/npc-population",
+      "topicImage": "images/alice/npc-population.webp",
       "order": 106
     },
     {
@@ -971,6 +1006,7 @@
       "href": "quiz/alice/oil-as-grease.html",
       "diveHref": "dive/alice/oil-as-grease.html",
       "key": "alice/oil-as-grease",
+      "topicImage": "images/alice/oil-as-grease.webp",
       "order": 15
     },
     {
@@ -999,6 +1035,7 @@
       "href": "quiz/alice/organic-circuit.html",
       "diveHref": "dive/alice/organic-circuit.html",
       "key": "alice/organic-circuit",
+      "topicImage": "images/alice/organic-circuit.webp",
       "order": 23
     },
     {
@@ -1027,6 +1064,7 @@
       "href": "quiz/alice/path-of-invention.html",
       "diveHref": "dive/alice/path-of-invention.html",
       "key": "alice/path-of-invention",
+      "topicImage": "images/alice/path-of-invention.webp",
       "order": 50
     },
     {
@@ -1041,6 +1079,7 @@
       "href": "quiz/alice/perceived-knowledge-lies.html",
       "diveHref": "dive/alice/perceived-knowledge-lies.html",
       "key": "alice/perceived-knowledge-lies",
+      "topicImage": "images/alice/perceived-knowledge-lies.webp",
       "order": 83
     },
     {
@@ -1055,6 +1094,7 @@
       "href": "quiz/alice/pleiadians.html",
       "diveHref": "dive/alice/pleiadians.html",
       "key": "alice/pleiadians",
+      "topicImage": "images/alice/pleiadians.webp",
       "order": 94
     },
     {
@@ -1069,6 +1109,7 @@
       "href": "quiz/alice/pneumatic-rail.html",
       "diveHref": "dive/alice/pneumatic-rail.html",
       "key": "alice/pneumatic-rail",
+      "topicImage": "images/alice/pneumatic-rail.webp",
       "order": 62
     },
     {
@@ -1083,6 +1124,7 @@
       "href": "quiz/alice/project-blue-beam.html",
       "diveHref": "dive/alice/project-blue-beam.html",
       "key": "alice/project-blue-beam",
+      "topicImage": "images/alice/project-blue-beam.webp",
       "order": 98
     },
     {
@@ -1097,6 +1139,7 @@
       "href": "quiz/alice/radium-and-kryptonite.html",
       "diveHref": "dive/alice/radium-and-kryptonite.html",
       "key": "alice/radium-and-kryptonite",
+      "topicImage": "images/alice/radium-and-kryptonite.webp",
       "order": 61
     },
     {
@@ -1111,6 +1154,7 @@
       "href": "quiz/alice/recycled-souls.html",
       "diveHref": "dive/alice/recycled-souls.html",
       "key": "alice/recycled-souls",
+      "topicImage": "images/alice/recycled-souls.webp",
       "order": 110
     },
     {
@@ -1125,6 +1169,7 @@
       "href": "quiz/alice/red-mercury.html",
       "diveHref": "dive/alice/red-mercury.html",
       "key": "alice/red-mercury",
+      "topicImage": "images/alice/red-mercury.webp",
       "order": 29
     },
     {
@@ -1139,6 +1184,7 @@
       "href": "quiz/alice/religion-false-gods.html",
       "diveHref": "dive/alice/religion-false-gods.html",
       "key": "alice/religion-false-gods",
+      "topicImage": "images/alice/religion-false-gods.webp",
       "order": 80
     },
     {
@@ -1167,6 +1213,7 @@
       "href": "quiz/alice/reset-seven-of-eight.html",
       "diveHref": "dive/alice/reset-seven-of-eight.html",
       "key": "alice/reset-seven-of-eight",
+      "topicImage": "images/alice/reset-seven-of-eight.webp",
       "order": 74
     },
     {
@@ -1195,6 +1242,7 @@
       "href": "quiz/alice/scare-events.html",
       "diveHref": "dive/alice/scare-events.html",
       "key": "alice/scare-events",
+      "topicImage": "images/alice/scare-events.webp",
       "order": 102
     },
     {
@@ -1223,6 +1271,7 @@
       "href": "quiz/alice/social-media-window.html",
       "diveHref": "dive/alice/social-media-window.html",
       "key": "alice/social-media-window",
+      "topicImage": "images/alice/social-media-window.webp",
       "order": 101
     },
     {
@@ -1251,6 +1300,7 @@
       "href": "quiz/alice/soul-family.html",
       "diveHref": "dive/alice/soul-family.html",
       "key": "alice/soul-family",
+      "topicImage": "images/alice/soul-family.webp",
       "order": 88
     },
     {
@@ -1265,6 +1315,7 @@
       "href": "quiz/alice/space-is-white.html",
       "diveHref": "dive/alice/space-is-white.html",
       "key": "alice/space-is-white",
+      "topicImage": "images/alice/space-is-white.webp",
       "order": 13
     },
     {
@@ -1279,6 +1330,7 @@
       "href": "quiz/alice/spirit-tree.html",
       "diveHref": "dive/alice/spirit-tree.html",
       "key": "alice/spirit-tree",
+      "topicImage": "images/alice/spirit-tree.webp",
       "order": 24
     },
     {
@@ -1293,6 +1345,7 @@
       "href": "quiz/alice/spiritual-awakening.html",
       "diveHref": "dive/alice/spiritual-awakening.html",
       "key": "alice/spiritual-awakening",
+      "topicImage": "images/alice/spiritual-awakening.webp",
       "order": 87
     },
     {
@@ -1307,6 +1360,7 @@
       "href": "quiz/alice/star-seeds.html",
       "diveHref": "dive/alice/star-seeds.html",
       "key": "alice/star-seeds",
+      "topicImage": "images/alice/star-seeds.webp",
       "order": 90
     },
     {
@@ -1321,6 +1375,7 @@
       "href": "quiz/alice/stars-as-projectors.html",
       "diveHref": "dive/alice/stars-as-projectors.html",
       "key": "alice/stars-as-projectors",
+      "topicImage": "images/alice/stars-as-projectors.webp",
       "order": 7
     },
     {
@@ -1335,6 +1390,7 @@
       "href": "quiz/alice/sung-into-stone.html",
       "diveHref": "dive/alice/sung-into-stone.html",
       "key": "alice/sung-into-stone",
+      "topicImage": "images/alice/sung-into-stone.webp",
       "order": 60
     },
     {
@@ -1349,6 +1405,7 @@
       "href": "quiz/alice/taran-vessels.html",
       "diveHref": "dive/alice/taran-vessels.html",
       "key": "alice/taran-vessels",
+      "topicImage": "images/alice/taran-vessels.webp",
       "order": 93
     },
     {
@@ -1363,6 +1420,7 @@
       "href": "quiz/alice/tartaria.html",
       "diveHref": "dive/alice/tartaria.html",
       "key": "alice/tartaria",
+      "topicImage": "images/alice/tartaria.webp",
       "order": 56
     },
     {
@@ -1391,6 +1449,7 @@
       "href": "quiz/alice/the-cover-up.html",
       "diveHref": "dive/alice/the-cover-up.html",
       "key": "alice/the-cover-up",
+      "topicImage": "images/alice/the-cover-up.webp",
       "order": 71
     },
     {
@@ -1405,6 +1464,7 @@
       "href": "quiz/alice/the-first-to-go.html",
       "diveHref": "dive/alice/the-first-to-go.html",
       "key": "alice/the-first-to-go",
+      "topicImage": "images/alice/the-first-to-go.webp",
       "order": 103
     },
     {
@@ -1433,6 +1493,7 @@
       "href": "quiz/alice/the-sky-event.html",
       "diveHref": "dive/alice/the-sky-event.html",
       "key": "alice/the-sky-event",
+      "topicImage": "images/alice/the-sky-event.webp",
       "order": 104
     },
     {
@@ -1461,6 +1522,7 @@
       "href": "quiz/alice/time-back-home.html",
       "diveHref": "dive/alice/time-back-home.html",
       "key": "alice/time-back-home",
+      "topicImage": "images/alice/time-back-home.webp",
       "order": 5
     },
     {
@@ -1475,6 +1537,7 @@
       "href": "quiz/alice/titanic-switch.html",
       "diveHref": "dive/alice/titanic-switch.html",
       "key": "alice/titanic-switch",
+      "topicImage": "images/alice/titanic-switch.webp",
       "order": 70
     },
     {
@@ -1489,6 +1552,7 @@
       "href": "quiz/alice/trump-and-patton.html",
       "diveHref": "dive/alice/trump-and-patton.html",
       "key": "alice/trump-and-patton",
+      "topicImage": "images/alice/trump-and-patton.webp",
       "order": 86
     },
     {
@@ -1503,6 +1567,7 @@
       "href": "quiz/alice/truthers-without-the-intel.html",
       "diveHref": "dive/alice/truthers-without-the-intel.html",
       "key": "alice/truthers-without-the-intel",
+      "topicImage": "images/alice/truthers-without-the-intel.webp",
       "order": 85
     },
     {
@@ -1517,6 +1582,7 @@
       "href": "quiz/alice/tv-and-radio.html",
       "diveHref": "dive/alice/tv-and-radio.html",
       "key": "alice/tv-and-radio",
+      "topicImage": "images/alice/tv-and-radio.webp",
       "order": 54
     },
     {
@@ -1531,6 +1597,7 @@
       "href": "quiz/alice/twin-flames.html",
       "diveHref": "dive/alice/twin-flames.html",
       "key": "alice/twin-flames",
+      "topicImage": "images/alice/twin-flames.webp",
       "order": 91
     },
     {
@@ -1545,6 +1612,7 @@
       "href": "quiz/alice/vatican-thirteen.html",
       "diveHref": "dive/alice/vatican-thirteen.html",
       "key": "alice/vatican-thirteen",
+      "topicImage": "images/alice/vatican-thirteen.webp",
       "order": 45
     },
     {
@@ -1559,6 +1627,7 @@
       "href": "quiz/alice/villages-on-nodes.html",
       "diveHref": "dive/alice/villages-on-nodes.html",
       "key": "alice/villages-on-nodes",
+      "topicImage": "images/alice/villages-on-nodes.webp",
       "order": 27
     },
     {
@@ -1587,6 +1656,7 @@
       "href": "quiz/alice/zep-tepi-and-the-canyon.html",
       "diveHref": "dive/alice/zep-tepi-and-the-canyon.html",
       "key": "alice/zep-tepi-and-the-canyon",
+      "topicImage": "images/alice/zep-tepi-and-the-canyon.webp",
       "order": 34
     },
     {
@@ -1601,6 +1671,7 @@
       "href": "quiz/ascension/aether-interaction.html",
       "diveHref": "dive/ascension/aether-interaction.html",
       "key": "ascension/aether-interaction",
+      "topicImage": "images/ascension/aether-interaction.webp",
       "order": 14
     },
     {
@@ -1615,6 +1686,7 @@
       "href": "quiz/ascension/ascension-criteria.html",
       "diveHref": "dive/ascension/ascension-criteria.html",
       "key": "ascension/ascension-criteria",
+      "topicImage": "images/ascension/ascension-criteria.webp",
       "order": 27
     },
     {
@@ -1629,6 +1701,7 @@
       "href": "quiz/ascension/bright-light-charge.html",
       "diveHref": "dive/ascension/bright-light-charge.html",
       "key": "ascension/bright-light-charge",
+      "topicImage": "images/ascension/bright-light-charge.webp",
       "order": 13
     },
     {
@@ -1643,6 +1716,7 @@
       "href": "quiz/ascension/crystalline-storage.html",
       "diveHref": "dive/ascension/crystalline-storage.html",
       "key": "ascension/crystalline-storage",
+      "topicImage": "images/ascension/crystalline-storage.webp",
       "order": 6
     },
     {
@@ -1657,6 +1731,7 @@
       "href": "quiz/ascension/dna-strand.html",
       "diveHref": "dive/ascension/dna-strand.html",
       "key": "ascension/dna-strand",
+      "topicImage": "images/ascension/dna-strand.webp",
       "order": 28
     },
     {
@@ -1671,6 +1746,7 @@
       "href": "quiz/ascension/do-not-react.html",
       "diveHref": "dive/ascension/do-not-react.html",
       "key": "ascension/do-not-react",
+      "topicImage": "images/ascension/do-not-react.webp",
       "order": 29
     },
     {
@@ -1685,6 +1761,7 @@
       "href": "quiz/ascension/em-pulses.html",
       "diveHref": "dive/ascension/em-pulses.html",
       "key": "ascension/em-pulses",
+      "topicImage": "images/ascension/em-pulses.webp",
       "order": 18
     },
     {
@@ -1699,6 +1776,7 @@
       "href": "quiz/ascension/essence-of-the-transmission.html",
       "diveHref": "dive/ascension/essence-of-the-transmission.html",
       "key": "ascension/essence-of-the-transmission",
+      "topicImage": "images/ascension/essence-of-the-transmission.webp",
       "order": 0
     },
     {
@@ -1713,6 +1791,7 @@
       "href": "quiz/ascension/et-support.html",
       "diveHref": "dive/ascension/et-support.html",
       "key": "ascension/et-support",
+      "topicImage": "images/ascension/et-support.webp",
       "order": 31
     },
     {
@@ -1727,6 +1806,7 @@
       "href": "quiz/ascension/first-flash.html",
       "diveHref": "dive/ascension/first-flash.html",
       "key": "ascension/first-flash",
+      "topicImage": "images/ascension/first-flash.webp",
       "order": 20
     },
     {
@@ -1741,6 +1821,7 @@
       "href": "quiz/ascension/four-elements.html",
       "diveHref": "dive/ascension/four-elements.html",
       "key": "ascension/four-elements",
+      "topicImage": "images/ascension/four-elements.webp",
       "order": 37
     },
     {
@@ -1755,6 +1836,7 @@
       "href": "quiz/ascension/free-energy.html",
       "diveHref": "dive/ascension/free-energy.html",
       "key": "ascension/free-energy",
+      "topicImage": "images/ascension/free-energy.webp",
       "order": 16
     },
     {
@@ -1769,6 +1851,7 @@
       "href": "quiz/ascension/ground-placement.html",
       "diveHref": "dive/ascension/ground-placement.html",
       "key": "ascension/ground-placement",
+      "topicImage": "images/ascension/ground-placement.webp",
       "order": 3
     },
     {
@@ -1783,6 +1866,7 @@
       "href": "quiz/ascension/healing-and-ascension.html",
       "diveHref": "dive/ascension/healing-and-ascension.html",
       "key": "ascension/healing-and-ascension",
+      "topicImage": "images/ascension/healing-and-ascension.webp",
       "order": 25
     },
     {
@@ -1797,6 +1881,7 @@
       "href": "quiz/ascension/healing-sanctuaries.html",
       "diveHref": "dive/ascension/healing-sanctuaries.html",
       "key": "ascension/healing-sanctuaries",
+      "topicImage": "images/ascension/healing-sanctuaries.webp",
       "order": 26
     },
     {
@@ -1811,6 +1896,7 @@
       "href": "quiz/ascension/implanted-conductors.html",
       "diveHref": "dive/ascension/implanted-conductors.html",
       "key": "ascension/implanted-conductors",
+      "topicImage": "images/ascension/implanted-conductors.webp",
       "order": 2
     },
     {
@@ -1825,6 +1911,7 @@
       "href": "quiz/ascension/internal-timers.html",
       "diveHref": "dive/ascension/internal-timers.html",
       "key": "ascension/internal-timers",
+      "topicImage": "images/ascension/internal-timers.webp",
       "order": 9
     },
     {
@@ -1839,6 +1926,7 @@
       "href": "quiz/ascension/jump-backward.html",
       "diveHref": "dive/ascension/jump-backward.html",
       "key": "ascension/jump-backward",
+      "topicImage": "images/ascension/jump-backward.webp",
       "order": 21
     },
     {
@@ -1853,6 +1941,7 @@
       "href": "quiz/ascension/kai-activation.html",
       "diveHref": "dive/ascension/kai-activation.html",
       "key": "ascension/kai-activation",
+      "topicImage": "images/ascension/kai-activation.webp",
       "order": 12
     },
     {
@@ -1867,6 +1956,7 @@
       "href": "quiz/ascension/memory-technology.html",
       "diveHref": "dive/ascension/memory-technology.html",
       "key": "ascension/memory-technology",
+      "topicImage": "images/ascension/memory-technology.webp",
       "order": 5
     },
     {
@@ -1881,6 +1971,7 @@
       "href": "quiz/ascension/memory-upload.html",
       "diveHref": "dive/ascension/memory-upload.html",
       "key": "ascension/memory-upload",
+      "topicImage": "images/ascension/memory-upload.webp",
       "order": 22
     },
     {
@@ -1895,6 +1986,7 @@
       "href": "quiz/ascension/new-aether-reaction.html",
       "diveHref": "dive/ascension/new-aether-reaction.html",
       "key": "ascension/new-aether-reaction",
+      "topicImage": "images/ascension/new-aether-reaction.webp",
       "order": 15
     },
     {
@@ -1909,6 +2001,7 @@
       "href": "quiz/ascension/organizational-alliances.html",
       "diveHref": "dive/ascension/organizational-alliances.html",
       "key": "ascension/organizational-alliances",
+      "topicImage": "images/ascension/organizational-alliances.webp",
       "order": 32
     },
     {
@@ -1923,6 +2016,7 @@
       "href": "quiz/ascension/other-world-conductors.html",
       "diveHref": "dive/ascension/other-world-conductors.html",
       "key": "ascension/other-world-conductors",
+      "topicImage": "images/ascension/other-world-conductors.webp",
       "order": 8
     },
     {
@@ -1937,6 +2031,7 @@
       "href": "quiz/ascension/pineal-and-vessel.html",
       "diveHref": "dive/ascension/pineal-and-vessel.html",
       "key": "ascension/pineal-and-vessel",
+      "topicImage": "images/ascension/pineal-and-vessel.webp",
       "order": 36
     },
     {
@@ -1951,6 +2046,7 @@
       "href": "quiz/ascension/plasma-connection.html",
       "diveHref": "dive/ascension/plasma-connection.html",
       "key": "ascension/plasma-connection",
+      "topicImage": "images/ascension/plasma-connection.webp",
       "order": 7
     },
     {
@@ -1965,6 +2061,7 @@
       "href": "quiz/ascension/portal-transition.html",
       "diveHref": "dive/ascension/portal-transition.html",
       "key": "ascension/portal-transition",
+      "topicImage": "images/ascension/portal-transition.webp",
       "order": 34
     },
     {
@@ -1979,6 +2076,7 @@
       "href": "quiz/ascension/positive-frequencies.html",
       "diveHref": "dive/ascension/positive-frequencies.html",
       "key": "ascension/positive-frequencies",
+      "topicImage": "images/ascension/positive-frequencies.webp",
       "order": 17
     },
     {
@@ -1993,6 +2091,7 @@
       "href": "quiz/ascension/quartz-crystal-technology.html",
       "diveHref": "dive/ascension/quartz-crystal-technology.html",
       "key": "ascension/quartz-crystal-technology",
+      "topicImage": "images/ascension/quartz-crystal-technology.webp",
       "order": 1
     },
     {
@@ -2007,6 +2106,7 @@
       "href": "quiz/ascension/scare-events.html",
       "diveHref": "dive/ascension/scare-events.html",
       "key": "ascension/scare-events",
+      "topicImage": "images/ascension/scare-events.webp",
       "order": 38
     },
     {
@@ -2021,6 +2121,7 @@
       "href": "quiz/ascension/second-flash.html",
       "diveHref": "dive/ascension/second-flash.html",
       "key": "ascension/second-flash",
+      "topicImage": "images/ascension/second-flash.webp",
       "order": 23
     },
     {
@@ -2035,6 +2136,7 @@
       "href": "quiz/ascension/solar-activation.html",
       "diveHref": "dive/ascension/solar-activation.html",
       "key": "ascension/solar-activation",
+      "topicImage": "images/ascension/solar-activation.webp",
       "order": 10
     },
     {
@@ -2049,6 +2151,7 @@
       "href": "quiz/ascension/sun-flash-event.html",
       "diveHref": "dive/ascension/sun-flash-event.html",
       "key": "ascension/sun-flash-event",
+      "topicImage": "images/ascension/sun-flash-event.webp",
       "order": 11
     },
     {
@@ -2063,6 +2166,7 @@
       "href": "quiz/ascension/supervisory-oversight.html",
       "diveHref": "dive/ascension/supervisory-oversight.html",
       "key": "ascension/supervisory-oversight",
+      "topicImage": "images/ascension/supervisory-oversight.webp",
       "order": 30
     },
     {
@@ -2077,6 +2181,7 @@
       "href": "quiz/ascension/the-homecoming.html",
       "diveHref": "dive/ascension/the-homecoming.html",
       "key": "ascension/the-homecoming",
+      "topicImage": "images/ascension/the-homecoming.webp",
       "order": 33
     },
     {
@@ -2091,6 +2196,7 @@
       "href": "quiz/ascension/the-three-flashes.html",
       "diveHref": "dive/ascension/the-three-flashes.html",
       "key": "ascension/the-three-flashes",
+      "topicImage": "images/ascension/the-three-flashes.webp",
       "order": 19
     },
     {
@@ -2105,6 +2211,7 @@
       "href": "quiz/ascension/third-flash.html",
       "diveHref": "dive/ascension/third-flash.html",
       "key": "ascension/third-flash",
+      "topicImage": "images/ascension/third-flash.webp",
       "order": 24
     },
     {
@@ -2119,6 +2226,7 @@
       "href": "quiz/ascension/time-travel-preparation.html",
       "diveHref": "dive/ascension/time-travel-preparation.html",
       "key": "ascension/time-travel-preparation",
+      "topicImage": "images/ascension/time-travel-preparation.webp",
       "order": 4
     },
     {
@@ -2133,6 +2241,7 @@
       "href": "quiz/ascension/unified-reality.html",
       "diveHref": "dive/ascension/unified-reality.html",
       "key": "ascension/unified-reality",
+      "topicImage": "images/ascension/unified-reality.webp",
       "order": 35
     },
     {
@@ -2147,6 +2256,7 @@
       "href": "quiz/breakdown/1666-node-war.html",
       "diveHref": "dive/breakdown/1666-node-war.html",
       "key": "breakdown/1666-node-war",
+      "topicImage": "images/breakdown/1666-node-war.webp",
       "order": 127
     },
     {
@@ -2161,6 +2271,7 @@
       "href": "quiz/breakdown/3d-overlay.html",
       "diveHref": "dive/breakdown/3d-overlay.html",
       "key": "breakdown/3d-overlay",
+      "topicImage": "images/breakdown/3d-overlay.webp",
       "order": 37
     },
     {
@@ -2175,6 +2286,7 @@
       "href": "quiz/breakdown/ai-shells.html",
       "diveHref": "dive/breakdown/ai-shells.html",
       "key": "breakdown/ai-shells",
+      "topicImage": "images/breakdown/ai-shells.webp",
       "order": 99
     },
     {
@@ -2189,6 +2301,7 @@
       "href": "quiz/breakdown/amnesia-vortex.html",
       "diveHref": "dive/breakdown/amnesia-vortex.html",
       "key": "breakdown/amnesia-vortex",
+      "topicImage": "images/breakdown/amnesia-vortex.webp",
       "order": 120
     },
     {
@@ -2203,6 +2316,7 @@
       "href": "quiz/breakdown/ascension-event.html",
       "diveHref": "dive/breakdown/ascension-event.html",
       "key": "breakdown/ascension-event",
+      "topicImage": "images/breakdown/ascension-event.webp",
       "order": 138
     },
     {
@@ -2217,6 +2331,7 @@
       "href": "quiz/breakdown/atmospheric-pop.html",
       "diveHref": "dive/breakdown/atmospheric-pop.html",
       "key": "breakdown/atmospheric-pop",
+      "topicImage": "images/breakdown/atmospheric-pop.webp",
       "order": 21
     },
     {
@@ -2231,6 +2346,7 @@
       "href": "quiz/breakdown/background-fragments.html",
       "diveHref": "dive/breakdown/background-fragments.html",
       "key": "breakdown/background-fragments",
+      "topicImage": "images/breakdown/background-fragments.webp",
       "order": 98
     },
     {
@@ -2245,6 +2361,7 @@
       "href": "quiz/breakdown/blackout-timeline.html",
       "diveHref": "dive/breakdown/blackout-timeline.html",
       "key": "breakdown/blackout-timeline",
+      "topicImage": "images/breakdown/blackout-timeline.webp",
       "order": 13
     },
     {
@@ -2259,6 +2376,7 @@
       "href": "quiz/breakdown/celestial-anchors.html",
       "diveHref": "dive/breakdown/celestial-anchors.html",
       "key": "breakdown/celestial-anchors",
+      "topicImage": "images/breakdown/celestial-anchors.webp",
       "order": 59
     },
     {
@@ -2273,6 +2391,7 @@
       "href": "quiz/breakdown/central-axis.html",
       "diveHref": "dive/breakdown/central-axis.html",
       "key": "breakdown/central-axis",
+      "topicImage": "images/breakdown/central-axis.webp",
       "order": 66
     },
     {
@@ -2287,6 +2406,7 @@
       "href": "quiz/breakdown/code-dissolution.html",
       "diveHref": "dive/breakdown/code-dissolution.html",
       "key": "breakdown/code-dissolution",
+      "topicImage": "images/breakdown/code-dissolution.webp",
       "order": 100
     },
     {
@@ -2301,6 +2421,7 @@
       "href": "quiz/breakdown/comms-blackout.html",
       "diveHref": "dive/breakdown/comms-blackout.html",
       "key": "breakdown/comms-blackout",
+      "topicImage": "images/breakdown/comms-blackout.webp",
       "order": 15
     },
     {
@@ -2315,6 +2436,7 @@
       "href": "quiz/breakdown/control-tech.html",
       "diveHref": "dive/breakdown/control-tech.html",
       "key": "breakdown/control-tech",
+      "topicImage": "images/breakdown/control-tech.webp",
       "order": 121
     },
     {
@@ -2329,6 +2451,7 @@
       "href": "quiz/breakdown/crystal-halls.html",
       "diveHref": "dive/breakdown/crystal-halls.html",
       "key": "breakdown/crystal-halls",
+      "topicImage": "images/breakdown/crystal-halls.webp",
       "order": 84
     },
     {
@@ -2343,6 +2466,7 @@
       "href": "quiz/breakdown/crystalline-architecture.html",
       "diveHref": "dive/breakdown/crystalline-architecture.html",
       "key": "breakdown/crystalline-architecture",
+      "topicImage": "images/breakdown/crystalline-architecture.webp",
       "order": 46
     },
     {
@@ -2357,6 +2481,7 @@
       "href": "quiz/breakdown/crystalline-arks.html",
       "diveHref": "dive/breakdown/crystalline-arks.html",
       "key": "breakdown/crystalline-arks",
+      "topicImage": "images/breakdown/crystalline-arks.webp",
       "order": 148
     },
     {
@@ -2371,6 +2496,7 @@
       "href": "quiz/breakdown/crystalline-networks.html",
       "diveHref": "dive/breakdown/crystalline-networks.html",
       "key": "breakdown/crystalline-networks",
+      "topicImage": "images/breakdown/crystalline-networks.webp",
       "order": 61
     },
     {
@@ -2385,6 +2511,7 @@
       "href": "quiz/breakdown/ebs-operation.html",
       "diveHref": "dive/breakdown/ebs-operation.html",
       "key": "breakdown/ebs-operation",
+      "topicImage": "images/breakdown/ebs-operation.webp",
       "order": 25
     },
     {
@@ -2399,6 +2526,7 @@
       "href": "quiz/breakdown/eight-domes.html",
       "diveHref": "dive/breakdown/eight-domes.html",
       "key": "breakdown/eight-domes",
+      "topicImage": "images/breakdown/eight-domes.webp",
       "order": 43
     },
     {
@@ -2413,6 +2541,7 @@
       "href": "quiz/breakdown/emotional-mending.html",
       "diveHref": "dive/breakdown/emotional-mending.html",
       "key": "breakdown/emotional-mending",
+      "topicImage": "images/breakdown/emotional-mending.webp",
       "order": 81
     },
     {
@@ -2427,6 +2556,7 @@
       "href": "quiz/breakdown/energy-nodes.html",
       "diveHref": "dive/breakdown/energy-nodes.html",
       "key": "breakdown/energy-nodes",
+      "topicImage": "images/breakdown/energy-nodes.webp",
       "order": 56
     },
     {
@@ -2455,6 +2585,7 @@
       "href": "quiz/breakdown/et-sols.html",
       "diveHref": "dive/breakdown/et-sols.html",
       "key": "breakdown/et-sols",
+      "topicImage": "images/breakdown/et-sols.webp",
       "order": 107
     },
     {
@@ -2469,6 +2600,7 @@
       "href": "quiz/breakdown/frequency-fracture.html",
       "diveHref": "dive/breakdown/frequency-fracture.html",
       "key": "breakdown/frequency-fracture",
+      "topicImage": "images/breakdown/frequency-fracture.webp",
       "order": 17
     },
     {
@@ -2483,6 +2615,7 @@
       "href": "quiz/breakdown/frequency-lock.html",
       "diveHref": "dive/breakdown/frequency-lock.html",
       "key": "breakdown/frequency-lock",
+      "topicImage": "images/breakdown/frequency-lock.webp",
       "order": 139
     },
     {
@@ -2497,6 +2630,7 @@
       "href": "quiz/breakdown/frequency-trick.html",
       "diveHref": "dive/breakdown/frequency-trick.html",
       "key": "breakdown/frequency-trick",
+      "topicImage": "images/breakdown/frequency-trick.webp",
       "order": 38
     },
     {
@@ -2511,6 +2645,7 @@
       "href": "quiz/breakdown/grid-systems.html",
       "diveHref": "dive/breakdown/grid-systems.html",
       "key": "breakdown/grid-systems",
+      "topicImage": "images/breakdown/grid-systems.webp",
       "order": 55
     },
     {
@@ -2525,6 +2660,7 @@
       "href": "quiz/breakdown/hard-drive-framework.html",
       "diveHref": "dive/breakdown/hard-drive-framework.html",
       "key": "breakdown/hard-drive-framework",
+      "topicImage": "images/breakdown/hard-drive-framework.webp",
       "order": 42
     },
     {
@@ -2539,6 +2675,7 @@
       "href": "quiz/breakdown/harmonic-lenses.html",
       "diveHref": "dive/breakdown/harmonic-lenses.html",
       "key": "breakdown/harmonic-lenses",
+      "topicImage": "images/breakdown/harmonic-lenses.webp",
       "order": 58
     },
     {
@@ -2553,6 +2690,7 @@
       "href": "quiz/breakdown/healing-path.html",
       "diveHref": "dive/breakdown/healing-path.html",
       "key": "breakdown/healing-path",
+      "topicImage": "images/breakdown/healing-path.webp",
       "order": 103
     },
     {
@@ -2567,6 +2705,7 @@
       "href": "quiz/breakdown/healing-sanctuaries.html",
       "diveHref": "dive/breakdown/healing-sanctuaries.html",
       "key": "breakdown/healing-sanctuaries",
+      "topicImage": "images/breakdown/healing-sanctuaries.webp",
       "order": 79
     },
     {
@@ -2581,6 +2720,7 @@
       "href": "quiz/breakdown/historic-resets.html",
       "diveHref": "dive/breakdown/historic-resets.html",
       "key": "breakdown/historic-resets",
+      "topicImage": "images/breakdown/historic-resets.webp",
       "order": 125
     },
     {
@@ -2595,6 +2735,7 @@
       "href": "quiz/breakdown/homecoming-path.html",
       "diveHref": "dive/breakdown/homecoming-path.html",
       "key": "breakdown/homecoming-path",
+      "topicImage": "images/breakdown/homecoming-path.webp",
       "order": 111
     },
     {
@@ -2609,6 +2750,7 @@
       "href": "quiz/breakdown/human-sols.html",
       "diveHref": "dive/breakdown/human-sols.html",
       "key": "breakdown/human-sols",
+      "topicImage": "images/breakdown/human-sols.webp",
       "order": 101
     },
     {
@@ -2623,6 +2765,7 @@
       "href": "quiz/breakdown/hyperborean-heart.html",
       "diveHref": "dive/breakdown/hyperborean-heart.html",
       "key": "breakdown/hyperborean-heart",
+      "topicImage": "images/breakdown/hyperborean-heart.webp",
       "order": 67
     },
     {
@@ -2637,6 +2780,7 @@
       "href": "quiz/breakdown/infrastructure-sweep.html",
       "diveHref": "dive/breakdown/infrastructure-sweep.html",
       "key": "breakdown/infrastructure-sweep",
+      "topicImage": "images/breakdown/infrastructure-sweep.webp",
       "order": 4
     },
     {
@@ -2651,6 +2795,7 @@
       "href": "quiz/breakdown/lava-core-nodes.html",
       "diveHref": "dive/breakdown/lava-core-nodes.html",
       "key": "breakdown/lava-core-nodes",
+      "topicImage": "images/breakdown/lava-core-nodes.webp",
       "order": 57
     },
     {
@@ -2665,6 +2810,7 @@
       "href": "quiz/breakdown/layered-simulations.html",
       "diveHref": "dive/breakdown/layered-simulations.html",
       "key": "breakdown/layered-simulations",
+      "topicImage": "images/breakdown/layered-simulations.webp",
       "order": 44
     },
     {
@@ -2679,6 +2825,7 @@
       "href": "quiz/breakdown/ley-line-optics.html",
       "diveHref": "dive/breakdown/ley-line-optics.html",
       "key": "breakdown/ley-line-optics",
+      "topicImage": "images/breakdown/ley-line-optics.webp",
       "order": 63
     },
     {
@@ -2693,6 +2840,7 @@
       "href": "quiz/breakdown/liquid-sound.html",
       "diveHref": "dive/breakdown/liquid-sound.html",
       "key": "breakdown/liquid-sound",
+      "topicImage": "images/breakdown/liquid-sound.webp",
       "order": 82
     },
     {
@@ -2707,6 +2855,7 @@
       "href": "quiz/breakdown/living-crafts.html",
       "diveHref": "dive/breakdown/living-crafts.html",
       "key": "breakdown/living-crafts",
+      "topicImage": "images/breakdown/living-crafts.webp",
       "order": 147
     },
     {
@@ -2721,6 +2870,7 @@
       "href": "quiz/breakdown/lockdown-window.html",
       "diveHref": "dive/breakdown/lockdown-window.html",
       "key": "breakdown/lockdown-window",
+      "topicImage": "images/breakdown/lockdown-window.webp",
       "order": 9
     },
     {
@@ -2735,6 +2885,7 @@
       "href": "quiz/breakdown/lunar-inversion.html",
       "diveHref": "dive/breakdown/lunar-inversion.html",
       "key": "breakdown/lunar-inversion",
+      "topicImage": "images/breakdown/lunar-inversion.webp",
       "order": 124
     },
     {
@@ -2749,6 +2900,7 @@
       "href": "quiz/breakdown/lyran-lineage.html",
       "diveHref": "dive/breakdown/lyran-lineage.html",
       "key": "breakdown/lyran-lineage",
+      "topicImage": "images/breakdown/lyran-lineage.webp",
       "order": 109
     },
     {
@@ -2763,6 +2915,7 @@
       "href": "quiz/breakdown/mass-reveal.html",
       "diveHref": "dive/breakdown/mass-reveal.html",
       "key": "breakdown/mass-reveal",
+      "topicImage": "images/breakdown/mass-reveal.webp",
       "order": 27
     },
     {
@@ -2777,6 +2930,7 @@
       "href": "quiz/breakdown/matrix-scaffolding.html",
       "diveHref": "dive/breakdown/matrix-scaffolding.html",
       "key": "breakdown/matrix-scaffolding",
+      "topicImage": "images/breakdown/matrix-scaffolding.webp",
       "order": 40
     },
     {
@@ -2791,6 +2945,7 @@
       "href": "quiz/breakdown/memory-flood.html",
       "diveHref": "dive/breakdown/memory-flood.html",
       "key": "breakdown/memory-flood",
+      "topicImage": "images/breakdown/memory-flood.webp",
       "order": 146
     },
     {
@@ -2805,6 +2960,7 @@
       "href": "quiz/breakdown/memory-restoration.html",
       "diveHref": "dive/breakdown/memory-restoration.html",
       "key": "breakdown/memory-restoration",
+      "topicImage": "images/breakdown/memory-restoration.webp",
       "order": 83
     },
     {
@@ -2819,6 +2975,7 @@
       "href": "quiz/breakdown/mental-realignment.html",
       "diveHref": "dive/breakdown/mental-realignment.html",
       "key": "breakdown/mental-realignment",
+      "topicImage": "images/breakdown/mental-realignment.webp",
       "order": 85
     },
     {
@@ -2833,6 +2990,7 @@
       "href": "quiz/breakdown/military-broadcasts.html",
       "diveHref": "dive/breakdown/military-broadcasts.html",
       "key": "breakdown/military-broadcasts",
+      "topicImage": "images/breakdown/military-broadcasts.webp",
       "order": 26
     },
     {
@@ -2847,6 +3005,7 @@
       "href": "quiz/breakdown/mind-weapons.html",
       "diveHref": "dive/breakdown/mind-weapons.html",
       "key": "breakdown/mind-weapons",
+      "topicImage": "images/breakdown/mind-weapons.webp",
       "order": 117
     },
     {
@@ -2861,6 +3020,7 @@
       "href": "quiz/breakdown/muted-environment.html",
       "diveHref": "dive/breakdown/muted-environment.html",
       "key": "breakdown/muted-environment",
+      "topicImage": "images/breakdown/muted-environment.webp",
       "order": 20
     },
     {
@@ -2875,6 +3035,7 @@
       "href": "quiz/breakdown/narrative-maintenance.html",
       "diveHref": "dive/breakdown/narrative-maintenance.html",
       "key": "breakdown/narrative-maintenance",
+      "topicImage": "images/breakdown/narrative-maintenance.webp",
       "order": 7
     },
     {
@@ -2889,6 +3050,7 @@
       "href": "quiz/breakdown/nebulae-resting.html",
       "diveHref": "dive/breakdown/nebulae-resting.html",
       "key": "breakdown/nebulae-resting",
+      "topicImage": "images/breakdown/nebulae-resting.webp",
       "order": 91
     },
     {
@@ -2903,6 +3065,7 @@
       "href": "quiz/breakdown/npc-glitching.html",
       "diveHref": "dive/breakdown/npc-glitching.html",
       "key": "breakdown/npc-glitching",
+      "topicImage": "images/breakdown/npc-glitching.webp",
       "order": 16
     },
     {
@@ -2917,6 +3080,7 @@
       "href": "quiz/breakdown/npc-programs.html",
       "diveHref": "dive/breakdown/npc-programs.html",
       "key": "breakdown/npc-programs",
+      "topicImage": "images/breakdown/npc-programs.webp",
       "order": 97
     },
     {
@@ -2931,6 +3095,7 @@
       "href": "quiz/breakdown/origin-point.html",
       "diveHref": "dive/breakdown/origin-point.html",
       "key": "breakdown/origin-point",
+      "topicImage": "images/breakdown/origin-point.webp",
       "order": 145
     },
     {
@@ -2945,6 +3110,7 @@
       "href": "quiz/breakdown/original-realm.html",
       "diveHref": "dive/breakdown/original-realm.html",
       "key": "breakdown/original-realm",
+      "topicImage": "images/breakdown/original-realm.webp",
       "order": 45
     },
     {
@@ -2959,6 +3125,7 @@
       "href": "quiz/breakdown/overlay-clearing.html",
       "diveHref": "dive/breakdown/overlay-clearing.html",
       "key": "breakdown/overlay-clearing",
+      "topicImage": "images/breakdown/overlay-clearing.webp",
       "order": 87
     },
     {
@@ -2973,6 +3140,7 @@
       "href": "quiz/breakdown/parasite-mechanics.html",
       "diveHref": "dive/breakdown/parasite-mechanics.html",
       "key": "breakdown/parasite-mechanics",
+      "topicImage": "images/breakdown/parasite-mechanics.webp",
       "order": 116
     },
     {
@@ -2987,6 +3155,7 @@
       "href": "quiz/breakdown/perception-solidity.html",
       "diveHref": "dive/breakdown/perception-solidity.html",
       "key": "breakdown/perception-solidity",
+      "topicImage": "images/breakdown/perception-solidity.webp",
       "order": 39
     },
     {
@@ -3001,6 +3170,7 @@
       "href": "quiz/breakdown/phase-one-three.html",
       "diveHref": "dive/breakdown/phase-one-three.html",
       "key": "breakdown/phase-one-three",
+      "topicImage": "images/breakdown/phase-one-three.webp",
       "order": 2
     },
     {
@@ -3015,6 +3185,7 @@
       "href": "quiz/breakdown/phase-seven-eight.html",
       "diveHref": "dive/breakdown/phase-seven-eight.html",
       "key": "breakdown/phase-seven-eight",
+      "topicImage": "images/breakdown/phase-seven-eight.webp",
       "order": 10
     },
     {
@@ -3043,6 +3214,7 @@
       "href": "quiz/breakdown/physical-indicators.html",
       "diveHref": "dive/breakdown/physical-indicators.html",
       "key": "breakdown/physical-indicators",
+      "topicImage": "images/breakdown/physical-indicators.webp",
       "order": 18
     },
     {
@@ -3057,6 +3229,7 @@
       "href": "quiz/breakdown/pilot-bonding.html",
       "diveHref": "dive/breakdown/pilot-bonding.html",
       "key": "breakdown/pilot-bonding",
+      "topicImage": "images/breakdown/pilot-bonding.webp",
       "order": 149
     },
     {
@@ -3071,6 +3244,7 @@
       "href": "quiz/breakdown/plasma-membranes.html",
       "diveHref": "dive/breakdown/plasma-membranes.html",
       "key": "breakdown/plasma-membranes",
+      "topicImage": "images/breakdown/plasma-membranes.webp",
       "order": 150
     },
     {
@@ -3085,6 +3259,7 @@
       "href": "quiz/breakdown/population-types.html",
       "diveHref": "dive/breakdown/population-types.html",
       "key": "breakdown/population-types",
+      "topicImage": "images/breakdown/population-types.webp",
       "order": 96
     },
     {
@@ -3099,6 +3274,7 @@
       "href": "quiz/breakdown/rainbow-fractals.html",
       "diveHref": "dive/breakdown/rainbow-fractals.html",
       "key": "breakdown/rainbow-fractals",
+      "topicImage": "images/breakdown/rainbow-fractals.webp",
       "order": 86
     },
     {
@@ -3113,6 +3289,7 @@
       "href": "quiz/breakdown/reality-constructs.html",
       "diveHref": "dive/breakdown/reality-constructs.html",
       "key": "breakdown/reality-constructs",
+      "topicImage": "images/breakdown/reality-constructs.webp",
       "order": 36
     },
     {
@@ -3127,6 +3304,7 @@
       "href": "quiz/breakdown/resonance-bridge.html",
       "diveHref": "dive/breakdown/resonance-bridge.html",
       "key": "breakdown/resonance-bridge",
+      "topicImage": "images/breakdown/resonance-bridge.webp",
       "order": 141
     },
     {
@@ -3141,6 +3319,7 @@
       "href": "quiz/breakdown/resonating-army.html",
       "diveHref": "dive/breakdown/resonating-army.html",
       "key": "breakdown/resonating-army",
+      "topicImage": "images/breakdown/resonating-army.webp",
       "order": 108
     },
     {
@@ -3155,6 +3334,7 @@
       "href": "quiz/breakdown/reunion-mechanics.html",
       "diveHref": "dive/breakdown/reunion-mechanics.html",
       "key": "breakdown/reunion-mechanics",
+      "topicImage": "images/breakdown/reunion-mechanics.webp",
       "order": 143
     },
     {
@@ -3169,6 +3349,7 @@
       "href": "quiz/breakdown/saturn-cube.html",
       "diveHref": "dive/breakdown/saturn-cube.html",
       "key": "breakdown/saturn-cube",
+      "topicImage": "images/breakdown/saturn-cube.webp",
       "order": 123
     },
     {
@@ -3183,6 +3364,7 @@
       "href": "quiz/breakdown/scalar-frequencies.html",
       "diveHref": "dive/breakdown/scalar-frequencies.html",
       "key": "breakdown/scalar-frequencies",
+      "topicImage": "images/breakdown/scalar-frequencies.webp",
       "order": 119
     },
     {
@@ -3197,6 +3379,7 @@
       "href": "quiz/breakdown/second-realm.html",
       "diveHref": "dive/breakdown/second-realm.html",
       "key": "breakdown/second-realm",
+      "topicImage": "images/breakdown/second-realm.webp",
       "order": 48
     },
     {
@@ -3211,6 +3394,7 @@
       "href": "quiz/breakdown/skull-buzzing.html",
       "diveHref": "dive/breakdown/skull-buzzing.html",
       "key": "breakdown/skull-buzzing",
+      "topicImage": "images/breakdown/skull-buzzing.webp",
       "order": 19
     },
     {
@@ -3225,6 +3409,7 @@
       "href": "quiz/breakdown/solar-gate.html",
       "diveHref": "dive/breakdown/solar-gate.html",
       "key": "breakdown/solar-gate",
+      "topicImage": "images/breakdown/solar-gate.webp",
       "order": 140
     },
     {
@@ -3239,6 +3424,7 @@
       "href": "quiz/breakdown/solar-parents.html",
       "diveHref": "dive/breakdown/solar-parents.html",
       "key": "breakdown/solar-parents",
+      "topicImage": "images/breakdown/solar-parents.webp",
       "order": 144
     },
     {
@@ -3253,6 +3439,7 @@
       "href": "quiz/breakdown/soul-reweaving.html",
       "diveHref": "dive/breakdown/soul-reweaving.html",
       "key": "breakdown/soul-reweaving",
+      "topicImage": "images/breakdown/soul-reweaving.webp",
       "order": 90
     },
     {
@@ -3267,6 +3454,7 @@
       "href": "quiz/breakdown/source-bridge.html",
       "diveHref": "dive/breakdown/source-bridge.html",
       "key": "breakdown/source-bridge",
+      "topicImage": "images/breakdown/source-bridge.webp",
       "order": 68
     },
     {
@@ -3281,6 +3469,7 @@
       "href": "quiz/breakdown/source-code-storage.html",
       "diveHref": "dive/breakdown/source-code-storage.html",
       "key": "breakdown/source-code-storage",
+      "topicImage": "images/breakdown/source-code-storage.webp",
       "order": 62
     },
     {
@@ -3295,6 +3484,7 @@
       "href": "quiz/breakdown/spirit-inversion.html",
       "diveHref": "dive/breakdown/spirit-inversion.html",
       "key": "breakdown/spirit-inversion",
+      "topicImage": "images/breakdown/spirit-inversion.webp",
       "order": 104
     },
     {
@@ -3309,6 +3499,7 @@
       "href": "quiz/breakdown/stabilization-process.html",
       "diveHref": "dive/breakdown/stabilization-process.html",
       "key": "breakdown/stabilization-process",
+      "topicImage": "images/breakdown/stabilization-process.webp",
       "order": 12
     },
     {
@@ -3323,6 +3514,7 @@
       "href": "quiz/breakdown/star-pods.html",
       "diveHref": "dive/breakdown/star-pods.html",
       "key": "breakdown/star-pods",
+      "topicImage": "images/breakdown/star-pods.webp",
       "order": 88
     },
     {
@@ -3337,6 +3529,7 @@
       "href": "quiz/breakdown/starseed-keys.html",
       "diveHref": "dive/breakdown/starseed-keys.html",
       "key": "breakdown/starseed-keys",
+      "topicImage": "images/breakdown/starseed-keys.webp",
       "order": 64
     },
     {
@@ -3351,6 +3544,7 @@
       "href": "quiz/breakdown/targeting-parasites.html",
       "diveHref": "dive/breakdown/targeting-parasites.html",
       "key": "breakdown/targeting-parasites",
+      "topicImage": "images/breakdown/targeting-parasites.webp",
       "order": 3
     },
     {
@@ -3365,6 +3559,7 @@
       "href": "quiz/breakdown/tartarian-erasure.html",
       "diveHref": "dive/breakdown/tartarian-erasure.html",
       "key": "breakdown/tartarian-erasure",
+      "topicImage": "images/breakdown/tartarian-erasure.webp",
       "order": 128
     },
     {
@@ -3379,6 +3574,7 @@
       "href": "quiz/breakdown/the-cube-system.html",
       "diveHref": "dive/breakdown/the-cube-system.html",
       "key": "breakdown/the-cube-system",
+      "topicImage": "images/breakdown/the-cube-system.webp",
       "order": 41
     },
     {
@@ -3393,6 +3589,7 @@
       "href": "quiz/breakdown/the-first-72-hours.html",
       "diveHref": "dive/breakdown/the-first-72-hours.html",
       "key": "breakdown/the-first-72-hours",
+      "topicImage": "images/breakdown/the-first-72-hours.webp",
       "order": 14
     },
     {
@@ -3407,6 +3604,7 @@
       "href": "quiz/breakdown/the-homecoming.html",
       "diveHref": "dive/breakdown/the-homecoming.html",
       "key": "breakdown/the-homecoming",
+      "topicImage": "images/breakdown/the-homecoming.webp",
       "order": 137
     },
     {
@@ -3421,6 +3619,7 @@
       "href": "quiz/breakdown/the-purge-phases.html",
       "diveHref": "dive/breakdown/the-purge-phases.html",
       "key": "breakdown/the-purge-phases",
+      "topicImage": "images/breakdown/the-purge-phases.webp",
       "order": 1
     },
     {
@@ -3435,6 +3634,7 @@
       "href": "quiz/breakdown/the-spirit-tree.html",
       "diveHref": "dive/breakdown/the-spirit-tree.html",
       "key": "breakdown/the-spirit-tree",
+      "topicImage": "images/breakdown/the-spirit-tree.webp",
       "order": 65
     },
     {
@@ -3449,6 +3649,7 @@
       "href": "quiz/breakdown/timeline-healing.html",
       "diveHref": "dive/breakdown/timeline-healing.html",
       "key": "breakdown/timeline-healing",
+      "topicImage": "images/breakdown/timeline-healing.webp",
       "order": 89
     },
     {
@@ -3463,6 +3664,7 @@
       "href": "quiz/breakdown/titanic-op.html",
       "diveHref": "dive/breakdown/titanic-op.html",
       "key": "breakdown/titanic-op",
+      "topicImage": "images/breakdown/titanic-op.webp",
       "order": 126
     },
     {
@@ -3477,6 +3679,7 @@
       "href": "quiz/breakdown/trigger-events.html",
       "diveHref": "dive/breakdown/trigger-events.html",
       "key": "breakdown/trigger-events",
+      "topicImage": "images/breakdown/trigger-events.webp",
       "order": 8
     },
     {
@@ -3491,6 +3694,7 @@
       "href": "quiz/breakdown/true-sparks.html",
       "diveHref": "dive/breakdown/true-sparks.html",
       "key": "breakdown/true-sparks",
+      "topicImage": "images/breakdown/true-sparks.webp",
       "order": 102
     },
     {
@@ -3505,6 +3709,7 @@
       "href": "quiz/breakdown/truth-disclosure.html",
       "diveHref": "dive/breakdown/truth-disclosure.html",
       "key": "breakdown/truth-disclosure",
+      "topicImage": "images/breakdown/truth-disclosure.webp",
       "order": 11
     },
     {
@@ -3519,6 +3724,7 @@
       "href": "quiz/breakdown/truth-packages.html",
       "diveHref": "dive/breakdown/truth-packages.html",
       "key": "breakdown/truth-packages",
+      "topicImage": "images/breakdown/truth-packages.webp",
       "order": 28
     },
     {
@@ -3533,6 +3739,7 @@
       "href": "quiz/breakdown/underground-dismantling.html",
       "diveHref": "dive/breakdown/underground-dismantling.html",
       "key": "breakdown/underground-dismantling",
+      "topicImage": "images/breakdown/underground-dismantling.webp",
       "order": 5
     },
     {
@@ -3547,6 +3754,7 @@
       "href": "quiz/breakdown/vatican-archive.html",
       "diveHref": "dive/breakdown/vatican-archive.html",
       "key": "breakdown/vatican-archive",
+      "topicImage": "images/breakdown/vatican-archive.webp",
       "order": 122
     },
     {
@@ -3561,6 +3769,7 @@
       "href": "quiz/breakdown/vibrant-reality.html",
       "diveHref": "dive/breakdown/vibrant-reality.html",
       "key": "breakdown/vibrant-reality",
+      "topicImage": "images/breakdown/vibrant-reality.webp",
       "order": 47
     },
     {
@@ -3575,6 +3784,7 @@
       "href": "quiz/breakdown/voice-to-skull.html",
       "diveHref": "dive/breakdown/voice-to-skull.html",
       "key": "breakdown/voice-to-skull",
+      "topicImage": "images/breakdown/voice-to-skull.webp",
       "order": 118
     },
     {
@@ -3589,6 +3799,7 @@
       "href": "quiz/breakdown/water-domes.html",
       "diveHref": "dive/breakdown/water-domes.html",
       "key": "breakdown/water-domes",
+      "topicImage": "images/breakdown/water-domes.webp",
       "order": 80
     },
     {
@@ -3603,6 +3814,7 @@
       "href": "quiz/revelations/432-hertz.html",
       "diveHref": "dive/revelations/432-hertz.html",
       "key": "revelations/432-hertz",
+      "topicImage": "images/revelations/432-hertz.webp",
       "order": 97
     },
     {
@@ -3617,6 +3829,7 @@
       "href": "quiz/revelations/8th-reset.html",
       "diveHref": "dive/revelations/8th-reset.html",
       "key": "revelations/8th-reset",
+      "topicImage": "images/revelations/8th-reset.webp",
       "order": 88
     },
     {
@@ -3631,6 +3844,7 @@
       "href": "quiz/revelations/academic-distortion.html",
       "diveHref": "dive/revelations/academic-distortion.html",
       "key": "revelations/academic-distortion",
+      "topicImage": "images/revelations/academic-distortion.webp",
       "order": 54
     },
     {
@@ -3659,6 +3873,7 @@
       "href": "quiz/revelations/anunnaki-and-draco.html",
       "diveHref": "dive/revelations/anunnaki-and-draco.html",
       "key": "revelations/anunnaki-and-draco",
+      "topicImage": "images/revelations/anunnaki-and-draco.webp",
       "order": 9
     },
     {
@@ -3673,6 +3888,7 @@
       "href": "quiz/revelations/arc-pod-protocol.html",
       "diveHref": "dive/revelations/arc-pod-protocol.html",
       "key": "revelations/arc-pod-protocol",
+      "topicImage": "images/revelations/arc-pod-protocol.webp",
       "order": 6
     },
     {
@@ -3687,6 +3903,7 @@
       "href": "quiz/revelations/axis-mundi.html",
       "diveHref": "dive/revelations/axis-mundi.html",
       "key": "revelations/axis-mundi",
+      "topicImage": "images/revelations/axis-mundi.webp",
       "order": 103
     },
     {
@@ -3701,6 +3918,7 @@
       "href": "quiz/revelations/ayahuasca-vine.html",
       "diveHref": "dive/revelations/ayahuasca-vine.html",
       "key": "revelations/ayahuasca-vine",
+      "topicImage": "images/revelations/ayahuasca-vine.webp",
       "order": 41
     },
     {
@@ -3715,6 +3933,7 @@
       "href": "quiz/revelations/banks-as-current.html",
       "diveHref": "dive/revelations/banks-as-current.html",
       "key": "revelations/banks-as-current",
+      "topicImage": "images/revelations/banks-as-current.webp",
       "order": 92
     },
     {
@@ -3729,6 +3948,7 @@
       "href": "quiz/revelations/becker-hagens-grid.html",
       "diveHref": "dive/revelations/becker-hagens-grid.html",
       "key": "revelations/becker-hagens-grid",
+      "topicImage": "images/revelations/becker-hagens-grid.webp",
       "order": 98
     },
     {
@@ -3743,6 +3963,7 @@
       "href": "quiz/revelations/birth-bond.html",
       "diveHref": "dive/revelations/birth-bond.html",
       "key": "revelations/birth-bond",
+      "topicImage": "images/revelations/birth-bond.webp",
       "order": 45
     },
     {
@@ -3757,6 +3978,7 @@
       "href": "quiz/revelations/bone-vaults.html",
       "diveHref": "dive/revelations/bone-vaults.html",
       "key": "revelations/bone-vaults",
+      "topicImage": "images/revelations/bone-vaults.webp",
       "order": 63
     },
     {
@@ -3771,6 +3993,7 @@
       "href": "quiz/revelations/cain-periphery.html",
       "diveHref": "dive/revelations/cain-periphery.html",
       "key": "revelations/cain-periphery",
+      "topicImage": "images/revelations/cain-periphery.webp",
       "order": 105
     },
     {
@@ -3785,6 +4008,7 @@
       "href": "quiz/revelations/chemtrail-portals.html",
       "diveHref": "dive/revelations/chemtrail-portals.html",
       "key": "revelations/chemtrail-portals",
+      "topicImage": "images/revelations/chemtrail-portals.webp",
       "order": 15
     },
     {
@@ -3799,6 +4023,7 @@
       "href": "quiz/revelations/choice-architecture.html",
       "diveHref": "dive/revelations/choice-architecture.html",
       "key": "revelations/choice-architecture",
+      "topicImage": "images/revelations/choice-architecture.webp",
       "order": 27
     },
     {
@@ -3813,6 +4038,7 @@
       "href": "quiz/revelations/clone-genetics.html",
       "diveHref": "dive/revelations/clone-genetics.html",
       "key": "revelations/clone-genetics",
+      "topicImage": "images/revelations/clone-genetics.webp",
       "order": 74
     },
     {
@@ -3827,6 +4053,7 @@
       "href": "quiz/revelations/clueless-protocol.html",
       "diveHref": "dive/revelations/clueless-protocol.html",
       "key": "revelations/clueless-protocol",
+      "topicImage": "images/revelations/clueless-protocol.webp",
       "order": 7
     },
     {
@@ -3841,6 +4068,7 @@
       "href": "quiz/revelations/counterfeit-systems.html",
       "diveHref": "dive/revelations/counterfeit-systems.html",
       "key": "revelations/counterfeit-systems",
+      "topicImage": "images/revelations/counterfeit-systems.webp",
       "order": 51
     },
     {
@@ -3855,6 +4083,7 @@
       "href": "quiz/revelations/covid-vaccine.html",
       "diveHref": "dive/revelations/covid-vaccine.html",
       "key": "revelations/covid-vaccine",
+      "topicImage": "images/revelations/covid-vaccine.webp",
       "order": 61
     },
     {
@@ -3869,6 +4098,7 @@
       "href": "quiz/revelations/custodian-control.html",
       "diveHref": "dive/revelations/custodian-control.html",
       "key": "revelations/custodian-control",
+      "topicImage": "images/revelations/custodian-control.webp",
       "order": 43
     },
     {
@@ -3883,6 +4113,7 @@
       "href": "quiz/revelations/density-stack.html",
       "diveHref": "dive/revelations/density-stack.html",
       "key": "revelations/density-stack",
+      "topicImage": "images/revelations/density-stack.webp",
       "order": 113
     },
     {
@@ -3897,6 +4128,7 @@
       "href": "quiz/revelations/digital-inserts.html",
       "diveHref": "dive/revelations/digital-inserts.html",
       "key": "revelations/digital-inserts",
+      "topicImage": "images/revelations/digital-inserts.webp",
       "order": 17
     },
     {
@@ -3911,6 +4143,7 @@
       "href": "quiz/revelations/dumb-repopulation.html",
       "diveHref": "dive/revelations/dumb-repopulation.html",
       "key": "revelations/dumb-repopulation",
+      "topicImage": "images/revelations/dumb-repopulation.webp",
       "order": 75
     },
     {
@@ -3925,6 +4158,7 @@
       "href": "quiz/revelations/emotional-scoring.html",
       "diveHref": "dive/revelations/emotional-scoring.html",
       "key": "revelations/emotional-scoring",
+      "topicImage": "images/revelations/emotional-scoring.webp",
       "order": 36
     },
     {
@@ -3939,6 +4173,7 @@
       "href": "quiz/revelations/empathy-trap.html",
       "diveHref": "dive/revelations/empathy-trap.html",
       "key": "revelations/empathy-trap",
+      "topicImage": "images/revelations/empathy-trap.webp",
       "order": 38
     },
     {
@@ -3953,6 +4188,7 @@
       "href": "quiz/revelations/essence-of-the-transmission.html",
       "diveHref": "dive/revelations/essence-of-the-transmission.html",
       "key": "revelations/essence-of-the-transmission",
+      "topicImage": "images/revelations/essence-of-the-transmission.webp",
       "order": 0
     },
     {
@@ -3967,6 +4203,7 @@
       "href": "quiz/revelations/external-domes.html",
       "diveHref": "dive/revelations/external-domes.html",
       "key": "revelations/external-domes",
+      "topicImage": "images/revelations/external-domes.webp",
       "order": 112
     },
     {
@@ -3981,6 +4218,7 @@
       "href": "quiz/revelations/fema-camps.html",
       "diveHref": "dive/revelations/fema-camps.html",
       "key": "revelations/fema-camps",
+      "topicImage": "images/revelations/fema-camps.webp",
       "order": 85
     },
     {
@@ -3995,6 +4233,7 @@
       "href": "quiz/revelations/field-law.html",
       "diveHref": "dive/revelations/field-law.html",
       "key": "revelations/field-law",
+      "topicImage": "images/revelations/field-law.webp",
       "order": 25
     },
     {
@@ -4009,6 +4248,7 @@
       "href": "quiz/revelations/fifteen-attributes.html",
       "diveHref": "dive/revelations/fifteen-attributes.html",
       "key": "revelations/fifteen-attributes",
+      "topicImage": "images/revelations/fifteen-attributes.webp",
       "order": 5
     },
     {
@@ -4023,6 +4263,7 @@
       "href": "quiz/revelations/fifteen-minute-cities.html",
       "diveHref": "dive/revelations/fifteen-minute-cities.html",
       "key": "revelations/fifteen-minute-cities",
+      "topicImage": "images/revelations/fifteen-minute-cities.webp",
       "order": 28
     },
     {
@@ -4037,6 +4278,7 @@
       "href": "quiz/revelations/five-brainwaves.html",
       "diveHref": "dive/revelations/five-brainwaves.html",
       "key": "revelations/five-brainwaves",
+      "topicImage": "images/revelations/five-brainwaves.webp",
       "order": 23
     },
     {
@@ -4051,6 +4293,7 @@
       "href": "quiz/revelations/free-energy.html",
       "diveHref": "dive/revelations/free-energy.html",
       "key": "revelations/free-energy",
+      "topicImage": "images/revelations/free-energy.webp",
       "order": 93
     },
     {
@@ -4065,6 +4308,7 @@
       "href": "quiz/revelations/freemasonic-orders.html",
       "diveHref": "dive/revelations/freemasonic-orders.html",
       "key": "revelations/freemasonic-orders",
+      "topicImage": "images/revelations/freemasonic-orders.webp",
       "order": 48
     },
     {
@@ -4079,6 +4323,7 @@
       "href": "quiz/revelations/gat-programs.html",
       "diveHref": "dive/revelations/gat-programs.html",
       "key": "revelations/gat-programs",
+      "topicImage": "images/revelations/gat-programs.webp",
       "order": 37
     },
     {
@@ -4093,6 +4338,7 @@
       "href": "quiz/revelations/ghost-stories.html",
       "diveHref": "dive/revelations/ghost-stories.html",
       "key": "revelations/ghost-stories",
+      "topicImage": "images/revelations/ghost-stories.webp",
       "order": 39
     },
     {
@@ -4107,6 +4353,7 @@
       "href": "quiz/revelations/going-home.html",
       "diveHref": "dive/revelations/going-home.html",
       "key": "revelations/going-home",
+      "topicImage": "images/revelations/going-home.webp",
       "order": 11
     },
     {
@@ -4121,6 +4368,7 @@
       "href": "quiz/revelations/great-reset.html",
       "diveHref": "dive/revelations/great-reset.html",
       "key": "revelations/great-reset",
+      "topicImage": "images/revelations/great-reset.webp",
       "order": 87
     },
     {
@@ -4135,6 +4383,7 @@
       "href": "quiz/revelations/harmonic-architecture.html",
       "diveHref": "dive/revelations/harmonic-architecture.html",
       "key": "revelations/harmonic-architecture",
+      "topicImage": "images/revelations/harmonic-architecture.webp",
       "order": 94
     },
     {
@@ -4149,6 +4398,7 @@
       "href": "quiz/revelations/harvest-toll.html",
       "diveHref": "dive/revelations/harvest-toll.html",
       "key": "revelations/harvest-toll",
+      "topicImage": "images/revelations/harvest-toll.webp",
       "order": 70
     },
     {
@@ -4163,6 +4413,7 @@
       "href": "quiz/revelations/hate-chip.html",
       "diveHref": "dive/revelations/hate-chip.html",
       "key": "revelations/hate-chip",
+      "topicImage": "images/revelations/hate-chip.webp",
       "order": 60
     },
     {
@@ -4177,6 +4428,7 @@
       "href": "quiz/revelations/holographic-sleeves.html",
       "diveHref": "dive/revelations/holographic-sleeves.html",
       "key": "revelations/holographic-sleeves",
+      "topicImage": "images/revelations/holographic-sleeves.webp",
       "order": 19
     },
     {
@@ -4191,6 +4443,7 @@
       "href": "quiz/revelations/homecoming-reunion.html",
       "diveHref": "dive/revelations/homecoming-reunion.html",
       "key": "revelations/homecoming-reunion",
+      "topicImage": "images/revelations/homecoming-reunion.webp",
       "order": 10
     },
     {
@@ -4205,6 +4458,7 @@
       "href": "quiz/revelations/human-2-0.html",
       "diveHref": "dive/revelations/human-2-0.html",
       "key": "revelations/human-2-0",
+      "topicImage": "images/revelations/human-2-0.webp",
       "order": 59
     },
     {
@@ -4219,6 +4473,7 @@
       "href": "quiz/revelations/iatrogenic-death.html",
       "diveHref": "dive/revelations/iatrogenic-death.html",
       "key": "revelations/iatrogenic-death",
+      "topicImage": "images/revelations/iatrogenic-death.webp",
       "order": 58
     },
     {
@@ -4233,6 +4488,7 @@
       "href": "quiz/revelations/ice-wall.html",
       "diveHref": "dive/revelations/ice-wall.html",
       "key": "revelations/ice-wall",
+      "topicImage": "images/revelations/ice-wall.webp",
       "order": 115
     },
     {
@@ -4247,6 +4503,7 @@
       "href": "quiz/revelations/impossible-trees.html",
       "diveHref": "dive/revelations/impossible-trees.html",
       "key": "revelations/impossible-trees",
+      "topicImage": "images/revelations/impossible-trees.webp",
       "order": 109
     },
     {
@@ -4261,6 +4518,7 @@
       "href": "quiz/revelations/inner-earth.html",
       "diveHref": "dive/revelations/inner-earth.html",
       "key": "revelations/inner-earth",
+      "topicImage": "images/revelations/inner-earth.webp",
       "order": 79
     },
     {
@@ -4275,6 +4533,7 @@
       "href": "quiz/revelations/inner-illusion.html",
       "diveHref": "dive/revelations/inner-illusion.html",
       "key": "revelations/inner-illusion",
+      "topicImage": "images/revelations/inner-illusion.webp",
       "order": 20
     },
     {
@@ -4289,6 +4548,7 @@
       "href": "quiz/revelations/intelligence-first.html",
       "diveHref": "dive/revelations/intelligence-first.html",
       "key": "revelations/intelligence-first",
+      "topicImage": "images/revelations/intelligence-first.webp",
       "order": 4
     },
     {
@@ -4303,6 +4563,7 @@
       "href": "quiz/revelations/invasion-script.html",
       "diveHref": "dive/revelations/invasion-script.html",
       "key": "revelations/invasion-script",
+      "topicImage": "images/revelations/invasion-script.webp",
       "order": 83
     },
     {
@@ -4317,6 +4578,7 @@
       "href": "quiz/revelations/legal-capture.html",
       "diveHref": "dive/revelations/legal-capture.html",
       "key": "revelations/legal-capture",
+      "topicImage": "images/revelations/legal-capture.webp",
       "order": 44
     },
     {
@@ -4331,6 +4593,7 @@
       "href": "quiz/revelations/lemurian-tongue.html",
       "diveHref": "dive/revelations/lemurian-tongue.html",
       "key": "revelations/lemurian-tongue",
+      "topicImage": "images/revelations/lemurian-tongue.webp",
       "order": 100
     },
     {
@@ -4345,6 +4608,7 @@
       "href": "quiz/revelations/living-fabric.html",
       "diveHref": "dive/revelations/living-fabric.html",
       "key": "revelations/living-fabric",
+      "topicImage": "images/revelations/living-fabric.webp",
       "order": 95
     },
     {
@@ -4359,6 +4623,7 @@
       "href": "quiz/revelations/living-garden.html",
       "diveHref": "dive/revelations/living-garden.html",
       "key": "revelations/living-garden",
+      "topicImage": "images/revelations/living-garden.webp",
       "order": 107
     },
     {
@@ -4373,6 +4638,7 @@
       "href": "quiz/revelations/loosh.html",
       "diveHref": "dive/revelations/loosh.html",
       "key": "revelations/loosh",
+      "topicImage": "images/revelations/loosh.webp",
       "order": 71
     },
     {
@@ -4387,6 +4653,7 @@
       "href": "quiz/revelations/manufactured-wants.html",
       "diveHref": "dive/revelations/manufactured-wants.html",
       "key": "revelations/manufactured-wants",
+      "topicImage": "images/revelations/manufactured-wants.webp",
       "order": 26
     },
     {
@@ -4401,6 +4668,7 @@
       "href": "quiz/revelations/mars-ticket.html",
       "diveHref": "dive/revelations/mars-ticket.html",
       "key": "revelations/mars-ticket",
+      "topicImage": "images/revelations/mars-ticket.webp",
       "order": 56
     },
     {
@@ -4415,6 +4683,7 @@
       "href": "quiz/revelations/medbeds.html",
       "diveHref": "dive/revelations/medbeds.html",
       "key": "revelations/medbeds",
+      "topicImage": "images/revelations/medbeds.webp",
       "order": 32
     },
     {
@@ -4429,6 +4698,7 @@
       "href": "quiz/revelations/medical-harvest.html",
       "diveHref": "dive/revelations/medical-harvest.html",
       "key": "revelations/medical-harvest",
+      "topicImage": "images/revelations/medical-harvest.webp",
       "order": 57
     },
     {
@@ -4443,6 +4713,7 @@
       "href": "quiz/revelations/mineral-components.html",
       "diveHref": "dive/revelations/mineral-components.html",
       "key": "revelations/mineral-components",
+      "topicImage": "images/revelations/mineral-components.webp",
       "order": 106
     },
     {
@@ -4457,6 +4728,7 @@
       "href": "quiz/revelations/miracle-soil.html",
       "diveHref": "dive/revelations/miracle-soil.html",
       "key": "revelations/miracle-soil",
+      "topicImage": "images/revelations/miracle-soil.webp",
       "order": 108
     },
     {
@@ -4471,6 +4743,7 @@
       "href": "quiz/revelations/mission-insertion.html",
       "diveHref": "dive/revelations/mission-insertion.html",
       "key": "revelations/mission-insertion",
+      "topicImage": "images/revelations/mission-insertion.webp",
       "order": 8
     },
     {
@@ -4485,6 +4758,7 @@
       "href": "quiz/revelations/mk-ultra-craft.html",
       "diveHref": "dive/revelations/mk-ultra-craft.html",
       "key": "revelations/mk-ultra-craft",
+      "topicImage": "images/revelations/mk-ultra-craft.webp",
       "order": 35
     },
     {
@@ -4499,6 +4773,7 @@
       "href": "quiz/revelations/moorish-metropolis.html",
       "diveHref": "dive/revelations/moorish-metropolis.html",
       "key": "revelations/moorish-metropolis",
+      "topicImage": "images/revelations/moorish-metropolis.webp",
       "order": 99
     },
     {
@@ -4513,6 +4788,7 @@
       "href": "quiz/revelations/mudfloods.html",
       "diveHref": "dive/revelations/mudfloods.html",
       "key": "revelations/mudfloods",
+      "topicImage": "images/revelations/mudfloods.webp",
       "order": 68
     },
     {
@@ -4527,6 +4803,7 @@
       "href": "quiz/revelations/nesara-gesara.html",
       "diveHref": "dive/revelations/nesara-gesara.html",
       "key": "revelations/nesara-gesara",
+      "topicImage": "images/revelations/nesara-gesara.webp",
       "order": 31
     },
     {
@@ -4541,6 +4818,7 @@
       "href": "quiz/revelations/npc-ratio.html",
       "diveHref": "dive/revelations/npc-ratio.html",
       "key": "revelations/npc-ratio",
+      "topicImage": "images/revelations/npc-ratio.webp",
       "order": 18
     },
     {
@@ -4555,6 +4833,7 @@
       "href": "quiz/revelations/occult-orders.html",
       "diveHref": "dive/revelations/occult-orders.html",
       "key": "revelations/occult-orders",
+      "topicImage": "images/revelations/occult-orders.webp",
       "order": 47
     },
     {
@@ -4569,6 +4848,7 @@
       "href": "quiz/revelations/oil-as-grease.html",
       "diveHref": "dive/revelations/oil-as-grease.html",
       "key": "revelations/oil-as-grease",
+      "topicImage": "images/revelations/oil-as-grease.webp",
       "order": 116
     },
     {
@@ -4583,6 +4863,7 @@
       "href": "quiz/revelations/organ-harvest.html",
       "diveHref": "dive/revelations/organ-harvest.html",
       "key": "revelations/organ-harvest",
+      "topicImage": "images/revelations/organ-harvest.webp",
       "order": 72
     },
     {
@@ -4597,6 +4878,7 @@
       "href": "quiz/revelations/organic-circuitboard.html",
       "diveHref": "dive/revelations/organic-circuitboard.html",
       "key": "revelations/organic-circuitboard",
+      "topicImage": "images/revelations/organic-circuitboard.webp",
       "order": 102
     },
     {
@@ -4611,6 +4893,7 @@
       "href": "quiz/revelations/overlay-geography.html",
       "diveHref": "dive/revelations/overlay-geography.html",
       "key": "revelations/overlay-geography",
+      "topicImage": "images/revelations/overlay-geography.webp",
       "order": 14
     },
     {
@@ -4625,6 +4908,7 @@
       "href": "quiz/revelations/owl-current.html",
       "diveHref": "dive/revelations/owl-current.html",
       "key": "revelations/owl-current",
+      "topicImage": "images/revelations/owl-current.webp",
       "order": 49
     },
     {
@@ -4639,6 +4923,7 @@
       "href": "quiz/revelations/petrified-giants.html",
       "diveHref": "dive/revelations/petrified-giants.html",
       "key": "revelations/petrified-giants",
+      "topicImage": "images/revelations/petrified-giants.webp",
       "order": 80
     },
     {
@@ -4653,6 +4938,7 @@
       "href": "quiz/revelations/pineal-crossover.html",
       "diveHref": "dive/revelations/pineal-crossover.html",
       "key": "revelations/pineal-crossover",
+      "topicImage": "images/revelations/pineal-crossover.webp",
       "order": 22
     },
     {
@@ -4667,6 +4953,7 @@
       "href": "quiz/revelations/pineal-dmt.html",
       "diveHref": "dive/revelations/pineal-dmt.html",
       "key": "revelations/pineal-dmt",
+      "topicImage": "images/revelations/pineal-dmt.webp",
       "order": 42
     },
     {
@@ -4681,6 +4968,7 @@
       "href": "quiz/revelations/plane-of-worlds.html",
       "diveHref": "dive/revelations/plane-of-worlds.html",
       "key": "revelations/plane-of-worlds",
+      "topicImage": "images/revelations/plane-of-worlds.webp",
       "order": 110
     },
     {
@@ -4695,6 +4983,7 @@
       "href": "quiz/revelations/population-math.html",
       "diveHref": "dive/revelations/population-math.html",
       "key": "revelations/population-math",
+      "topicImage": "images/revelations/population-math.webp",
       "order": 91
     },
     {
@@ -4709,6 +4998,7 @@
       "href": "quiz/revelations/portal-guards.html",
       "diveHref": "dive/revelations/portal-guards.html",
       "key": "revelations/portal-guards",
+      "topicImage": "images/revelations/portal-guards.webp",
       "order": 16
     },
     {
@@ -4723,6 +5013,7 @@
       "href": "quiz/revelations/positive-loosh.html",
       "diveHref": "dive/revelations/positive-loosh.html",
       "key": "revelations/positive-loosh",
+      "topicImage": "images/revelations/positive-loosh.webp",
       "order": 73
     },
     {
@@ -4737,6 +5028,7 @@
       "href": "quiz/revelations/projection-dome.html",
       "diveHref": "dive/revelations/projection-dome.html",
       "key": "revelations/projection-dome",
+      "topicImage": "images/revelations/projection-dome.webp",
       "order": 117
     },
     {
@@ -4751,6 +5043,7 @@
       "href": "quiz/revelations/proximal-sols.html",
       "diveHref": "dive/revelations/proximal-sols.html",
       "key": "revelations/proximal-sols",
+      "topicImage": "images/revelations/proximal-sols.webp",
       "order": 2
     },
     {
@@ -4765,6 +5058,7 @@
       "href": "quiz/revelations/qfs.html",
       "diveHref": "dive/revelations/qfs.html",
       "key": "revelations/qfs",
+      "topicImage": "images/revelations/qfs.webp",
       "order": 30
     },
     {
@@ -4779,6 +5073,7 @@
       "href": "quiz/revelations/quantum-interface.html",
       "diveHref": "dive/revelations/quantum-interface.html",
       "key": "revelations/quantum-interface",
+      "topicImage": "images/revelations/quantum-interface.webp",
       "order": 21
     },
     {
@@ -4793,6 +5088,7 @@
       "href": "quiz/revelations/re-legion.html",
       "diveHref": "dive/revelations/re-legion.html",
       "key": "revelations/re-legion",
+      "topicImage": "images/revelations/re-legion.webp",
       "order": 52
     },
     {
@@ -4807,6 +5103,7 @@
       "href": "quiz/revelations/reset-harvest.html",
       "diveHref": "dive/revelations/reset-harvest.html",
       "key": "revelations/reset-harvest",
+      "topicImage": "images/revelations/reset-harvest.webp",
       "order": 64
     },
     {
@@ -4821,6 +5118,7 @@
       "href": "quiz/revelations/reset-sequence.html",
       "diveHref": "dive/revelations/reset-sequence.html",
       "key": "revelations/reset-sequence",
+      "topicImage": "images/revelations/reset-sequence.webp",
       "order": 65
     },
     {
@@ -4835,6 +5133,7 @@
       "href": "quiz/revelations/rockefeller-schools.html",
       "diveHref": "dive/revelations/rockefeller-schools.html",
       "key": "revelations/rockefeller-schools",
+      "topicImage": "images/revelations/rockefeller-schools.webp",
       "order": 55
     },
     {
@@ -4849,6 +5148,7 @@
       "href": "quiz/revelations/roswell-checkmate.html",
       "diveHref": "dive/revelations/roswell-checkmate.html",
       "key": "revelations/roswell-checkmate",
+      "topicImage": "images/revelations/roswell-checkmate.webp",
       "order": 77
     },
     {
@@ -4863,6 +5163,7 @@
       "href": "quiz/revelations/salvation-lure.html",
       "diveHref": "dive/revelations/salvation-lure.html",
       "key": "revelations/salvation-lure",
+      "topicImage": "images/revelations/salvation-lure.webp",
       "order": 29
     },
     {
@@ -4877,6 +5178,7 @@
       "href": "quiz/revelations/simulation-field.html",
       "diveHref": "dive/revelations/simulation-field.html",
       "key": "revelations/simulation-field",
+      "topicImage": "images/revelations/simulation-field.webp",
       "order": 13
     },
     {
@@ -4891,6 +5193,7 @@
       "href": "quiz/revelations/sky-net-1.html",
       "diveHref": "dive/revelations/sky-net-1.html",
       "key": "revelations/sky-net-1",
+      "topicImage": "images/revelations/sky-net-1.webp",
       "order": 86
     },
     {
@@ -4905,6 +5208,7 @@
       "href": "quiz/revelations/soul-architecture.html",
       "diveHref": "dive/revelations/soul-architecture.html",
       "key": "revelations/soul-architecture",
+      "topicImage": "images/revelations/soul-architecture.webp",
       "order": 1
     },
     {
@@ -4919,6 +5223,7 @@
       "href": "quiz/revelations/sound-masonry.html",
       "diveHref": "dive/revelations/sound-masonry.html",
       "key": "revelations/sound-masonry",
+      "topicImage": "images/revelations/sound-masonry.webp",
       "order": 96
     },
     {
@@ -4933,6 +5238,7 @@
       "href": "quiz/revelations/sovereign-accord.html",
       "diveHref": "dive/revelations/sovereign-accord.html",
       "key": "revelations/sovereign-accord",
+      "topicImage": "images/revelations/sovereign-accord.webp",
       "order": 24
     },
     {
@@ -4947,6 +5253,7 @@
       "href": "quiz/revelations/spirit-tree.html",
       "diveHref": "dive/revelations/spirit-tree.html",
       "key": "revelations/spirit-tree",
+      "topicImage": "images/revelations/spirit-tree.webp",
       "order": 104
     },
     {
@@ -4961,6 +5268,7 @@
       "href": "quiz/revelations/square-mile.html",
       "diveHref": "dive/revelations/square-mile.html",
       "key": "revelations/square-mile",
+      "topicImage": "images/revelations/square-mile.webp",
       "order": 90
     },
     {
@@ -4975,6 +5283,7 @@
       "href": "quiz/revelations/ssp-psyops.html",
       "diveHref": "dive/revelations/ssp-psyops.html",
       "key": "revelations/ssp-psyops",
+      "topicImage": "images/revelations/ssp-psyops.webp",
       "order": 84
     },
     {
@@ -4989,6 +5298,7 @@
       "href": "quiz/revelations/stone-age-restart.html",
       "diveHref": "dive/revelations/stone-age-restart.html",
       "key": "revelations/stone-age-restart",
+      "topicImage": "images/revelations/stone-age-restart.webp",
       "order": 66
     },
     {
@@ -5003,6 +5313,7 @@
       "href": "quiz/revelations/story-stages.html",
       "diveHref": "dive/revelations/story-stages.html",
       "key": "revelations/story-stages",
+      "topicImage": "images/revelations/story-stages.webp",
       "order": 67
     },
     {
@@ -5017,6 +5328,7 @@
       "href": "quiz/revelations/subtle-help.html",
       "diveHref": "dive/revelations/subtle-help.html",
       "key": "revelations/subtle-help",
+      "topicImage": "images/revelations/subtle-help.webp",
       "order": 40
     },
     {
@@ -5031,6 +5343,7 @@
       "href": "quiz/revelations/taran-vessels.html",
       "diveHref": "dive/revelations/taran-vessels.html",
       "key": "revelations/taran-vessels",
+      "topicImage": "images/revelations/taran-vessels.webp",
       "order": 3
     },
     {
@@ -5045,6 +5358,7 @@
       "href": "quiz/revelations/tartarian-memory.html",
       "diveHref": "dive/revelations/tartarian-memory.html",
       "key": "revelations/tartarian-memory",
+      "topicImage": "images/revelations/tartarian-memory.webp",
       "order": 89
     },
     {
@@ -5059,6 +5373,7 @@
       "href": "quiz/revelations/technology-swaps.html",
       "diveHref": "dive/revelations/technology-swaps.html",
       "key": "revelations/technology-swaps",
+      "topicImage": "images/revelations/technology-swaps.webp",
       "order": 82
     },
     {
@@ -5073,6 +5388,7 @@
       "href": "quiz/revelations/terrarium-seal.html",
       "diveHref": "dive/revelations/terrarium-seal.html",
       "key": "revelations/terrarium-seal",
+      "topicImage": "images/revelations/terrarium-seal.webp",
       "order": 114
     },
     {
@@ -5087,6 +5403,7 @@
       "href": "quiz/revelations/the-cube.html",
       "diveHref": "dive/revelations/the-cube.html",
       "key": "revelations/the-cube",
+      "topicImage": "images/revelations/the-cube.webp",
       "order": 111
     },
     {
@@ -5101,6 +5418,7 @@
       "href": "quiz/revelations/time-traveller-faces.html",
       "diveHref": "dive/revelations/time-traveller-faces.html",
       "key": "revelations/time-traveller-faces",
+      "topicImage": "images/revelations/time-traveller-faces.webp",
       "order": 12
     },
     {
@@ -5115,6 +5433,7 @@
       "href": "quiz/revelations/tpc-mirrors.html",
       "diveHref": "dive/revelations/tpc-mirrors.html",
       "key": "revelations/tpc-mirrors",
+      "topicImage": "images/revelations/tpc-mirrors.webp",
       "order": 101
     },
     {
@@ -5129,6 +5448,7 @@
       "href": "quiz/revelations/transistor-leak.html",
       "diveHref": "dive/revelations/transistor-leak.html",
       "key": "revelations/transistor-leak",
+      "topicImage": "images/revelations/transistor-leak.webp",
       "order": 81
     },
     {
@@ -5143,6 +5463,7 @@
       "href": "quiz/revelations/trump-1989.html",
       "diveHref": "dive/revelations/trump-1989.html",
       "key": "revelations/trump-1989",
+      "topicImage": "images/revelations/trump-1989.webp",
       "order": 33
     },
     {
@@ -5157,6 +5478,7 @@
       "href": "quiz/revelations/usury-trap.html",
       "diveHref": "dive/revelations/usury-trap.html",
       "key": "revelations/usury-trap",
+      "topicImage": "images/revelations/usury-trap.webp",
       "order": 46
     },
     {
@@ -5171,6 +5493,7 @@
       "href": "quiz/revelations/vril-club.html",
       "diveHref": "dive/revelations/vril-club.html",
       "key": "revelations/vril-club",
+      "topicImage": "images/revelations/vril-club.webp",
       "order": 50
     },
     {
@@ -5185,6 +5508,7 @@
       "href": "quiz/revelations/watch-the-water.html",
       "diveHref": "dive/revelations/watch-the-water.html",
       "key": "revelations/watch-the-water",
+      "topicImage": "images/revelations/watch-the-water.webp",
       "order": 62
     },
     {
@@ -5199,6 +5523,7 @@
       "href": "quiz/revelations/weaponized-species.html",
       "diveHref": "dive/revelations/weaponized-species.html",
       "key": "revelations/weaponized-species",
+      "topicImage": "images/revelations/weaponized-species.webp",
       "order": 76
     },
     {
@@ -5213,6 +5538,7 @@
       "href": "quiz/revelations/white-hats.html",
       "diveHref": "dive/revelations/white-hats.html",
       "key": "revelations/white-hats",
+      "topicImage": "images/revelations/white-hats.webp",
       "order": 34
     },
     {
@@ -5227,6 +5553,7 @@
       "href": "quiz/revelations/world-fairs.html",
       "diveHref": "dive/revelations/world-fairs.html",
       "key": "revelations/world-fairs",
+      "topicImage": "images/revelations/world-fairs.webp",
       "order": 69
     },
     {
@@ -5241,6 +5568,7 @@
       "href": "quiz/revelations/world-wide-web.html",
       "diveHref": "dive/revelations/world-wide-web.html",
       "key": "revelations/world-wide-web",
+      "topicImage": "images/revelations/world-wide-web.webp",
       "order": 53
     },
     {
@@ -5255,6 +5583,7 @@
       "href": "quiz/special-requests/occupancy-layers-the-false-rescue.html",
       "diveHref": "dive/special-requests/occupancy-layers-the-false-rescue.html",
       "key": "special-requests/occupancy-layers-the-false-rescue",
+      "topicImage": "images/special-requests/occupancy-layers-the-false-rescue.webp",
       "order": 1
     },
     {
@@ -5269,6 +5598,7 @@
       "href": "quiz/special-requests/original-vessel-recovery.html",
       "diveHref": "dive/special-requests/original-vessel-recovery.html",
       "key": "special-requests/original-vessel-recovery",
+      "topicImage": "images/special-requests/original-vessel-recovery.webp",
       "order": 0
     }
   ]

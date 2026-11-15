@@ -333,11 +333,11 @@ function renderSupportPage(footerData, options = {}) {
     ? `<article class="support-give-card memory-card static-card support-give-card--starlink${starlinkMedia ? ' has-media' : ''}${starlinkQrSrc ? ' support-give-card--qr' : ''}">
             ${starlinkMedia}
             <span class="support-give-icon support-give-icon--starlink" aria-hidden="true">${SITE_ICON_SVGS.satellite}</span>
-            <span class="support-give-label">Starlink</span>
+            <span class="support-give-label-row"><span class="support-give-label">Starlink</span><span class="support-give-tag">Referral</span></span>
             <p class="support-give-desc">${starlink.hint}</p>
             ${giveActions(`${starlinkQr}
               <div class="support-give-actions">
-                <a href="${starlink.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                <a href="${starlink.href}" target="_blank" rel="sponsored noopener noreferrer" class="btn-primary">
                   <span>${starlink.buttonText || 'Use the referral link'}</span>
                 </a>
               </div>`)}
@@ -365,19 +365,24 @@ function renderSupportPage(footerData, options = {}) {
     ? `<p class="support-give-quiet">${muse.quiet.trim()}</p>`
     : '';
   const museCard = muse
-    ? `<article class="support-give-card memory-card static-card support-give-card--muse${museMedia ? ' has-media' : ''}">
+    ? `<article class="support-give-card memory-card static-card support-give-card--muse${museMedia ? ' has-media' : ''} support-give-card--qr">
             ${museMedia}
             <span class="support-give-icon support-give-icon--muse" aria-hidden="true">${SITE_ICON_SVGS.sparkle}</span>
-            <span class="support-give-label">${muse.label || 'Muse'}</span>
+            <span class="support-give-label-row"><span class="support-give-label">${muse.label || 'Muse'}</span><span class="support-give-tag">Referral</span></span>
             <p class="support-give-desc">${muse.desc}</p>
             ${museQuiet}
-            ${giveActions(`
-              <div class="support-give-actions">
+            ${giveActions(`<figure class="support-give-qr-wrap">
+              <div class="support-give-code-plate">
                 <code class="footer-support-address" id="muse-code" title="${muse.code}">${muse.code}</code>
                 <button type="button" class="btn-primary footer-support-copy" data-copy-target="muse-code" data-copy-text="${muse.code}" aria-label="Copy code (Muse invite)"><span>Copy code</span></button>
-                <a href="${muse.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
+              </div>
+            </figure>
+              <div class="support-give-actions">
+                <div class="support-give-actions-stack">
+                <a href="${muse.href}" target="_blank" rel="sponsored noopener noreferrer" class="btn-primary">
                   <span>${muse.buttonText || 'Join Muse'}</span>
                 </a>
+                </div>
               </div>`)}
           </article>`
     : '';
@@ -406,6 +411,7 @@ function renderSupportPage(footerData, options = {}) {
           ${btcCard}
           ${museCard}
         </div>
+        <p class="support-give-referral-note">Starlink and Muse are referral links; we both get a credit.</p>
         ${renderSupportNote(noteParts)}
       </section>
     </div>`;
