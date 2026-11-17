@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T01:26:01.488Z",
-  "total": 373,
+  "generatedAt": "2026-11-17T09:31:11.335Z",
+  "total": 374,
   "sources": [
     {
       "id": "revelations",
@@ -18,7 +18,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 110
+      "count": 111
     },
     {
       "id": "breakdown",
@@ -1244,6 +1244,21 @@
       "key": "alice/scare-events",
       "topicImage": "images/alice/scare-events.webp",
       "order": 102
+    },
+    {
+      "id": "scripted-avenues",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Scripted Avenues",
+      "subtitle": "Test your understanding of Scripted Avenues — how fixed tracks of thought hold non-player entities inside herd consensus and the mind camp.",
+      "questionCount": 25,
+      "href": "quiz/alice/scripted-avenues.html",
+      "diveHref": "dive/alice/scripted-avenues.html",
+      "key": "alice/scripted-avenues",
+      "topicImage": "images/alice/scripted-avenues.webp",
+      "order": 108
     },
     {
       "id": "simulation-reality",

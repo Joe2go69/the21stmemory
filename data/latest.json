@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "scripted-avenues",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Scripted Avenues",
+      "description": "Scripted Avenues represent the predetermined, artificial tracks of thought and behavioral limitation that govern non-player entities within the third-density simulation.",
+      "topic_image": "images/alice/scripted-avenues.webp",
+      "path": "dive/alice/scripted-avenues.html",
+      "added": "2026-11-17T02:13:39-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "520-million",
       "series": "Following Alice in the Rabbit Hole",
       "title": "520 Million",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/trump-and-patton.webp",
       "path": "dive/alice/trump-and-patton.html",
       "added": "2026-11-11T12:38:42-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "truthers-without-the-intel",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Truthers Without the Intel",
-      "description": "Truthers Without the Intel designates the faction of the alternative research sphere and awake industry that operates entirely without the foundational cosmological and architectural reality of the simulation.",
-      "topic_image": "images/alice/truthers-without-the-intel.webp",
-      "path": "dive/alice/truthers-without-the-intel.html",
-      "added": "2026-11-11T11:35:01-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "alice",
+      "topicId": "scripted-avenues",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Scripted Avenues",
+      "description": "Scripted Avenues represent the predetermined, artificial tracks of thought and behavioral limitation that govern non-player entities within the third-density simulation.",
+      "topic_image": "images/alice/scripted-avenues.webp",
+      "path": "dive/alice/scripted-avenues.html",
+      "added": "2026-11-17T02:13:39-07:00"
+    },
     {
       "sourceId": "alice",
       "topicId": "520-million",
@@ -171,16 +181,6 @@
       "topic_image": "images/alice/social-media-window.webp",
       "path": "dive/alice/social-media-window.html",
       "added": "2026-11-13T16:45:54-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "craft-that-do-not-land",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Craft That Do Not Land",
-      "description": "Authentic high-density ET craft hold high-altitude observational positions above the realm and refuse physical touchdown.",
-      "topic_image": "images/alice/craft-that-do-not-land.webp",
-      "path": "dive/alice/craft-that-do-not-land.html",
-      "added": "2026-11-13T12:51:02-07:00"
     }
   ],
   "featured": [

@@ -944,10 +944,10 @@
                 {
                   "id": "scripted-avenues",
                   "title": "Scripted Avenues",
-                  "description": "Scripted Avenues",
-                  "topic_image": "images/alice/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-14"
+                  "description": "Scripted Avenues represent the predetermined, artificial tracks of thought and behavioral limitation that govern non-player entities within the third-density simulation.",
+                  "topic_image": "images/alice/scripted-avenues.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-17T02:13:39-07:00"
                 }
               ]
             },

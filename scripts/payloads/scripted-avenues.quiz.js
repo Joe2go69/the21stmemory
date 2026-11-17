@@ -1,0 +1,648 @@
+module.exports = {
+  source: 'alice',
+  id: 'scripted-avenues',
+  title: 'Scripted Avenues',
+  description: 'Test your understanding of Scripted Avenues — how fixed tracks of thought hold non-player entities inside herd consensus and the mind camp.',
+  seoDescription: 'Interactive Living Truth Quiz on Scripted Avenues: pre-installed routines, the mind camp, hierarchy-down replies, and the way past programmed avenues.',
+  reflection: {
+    title: 'Reflection',
+    body: 'These avenues are fixed tracks that keep non-player entities inside herd consensus and a borrowed shell. Seeing the loops as automated scripts takes the weight out of collective disapproval and points awareness past the mind camp.'
+  },
+  questions: [
+    {
+      number: 1,
+      question: 'In third-density simulation architecture, what primary cognitive limitation characterizes non-player entities bound to scripted avenues?',
+      hint: 'Look at the overview of how non-player entities move through fixed pathways.',
+      options: [
+        {
+          text: 'They operate through pre-installed routines and herd consensus without an active internal monologue.',
+          isCorrect: true,
+          rationale: 'Entities on these avenues lack authentic volition and operate without an active internal monologue.'
+        },
+        {
+          text: 'They consciously suppress autonomous insights so that social standing inside the herd stays intact.',
+          isCorrect: false,
+          rationale: 'Suppression would require sovereign awareness, and these entities lack authentic self-awareness.'
+        },
+        {
+          text: 'They process every sensory impression through centralized institutional servers before a reply is allowed to form.',
+          isCorrect: false,
+          rationale: 'The limit is a pre-installed mental pathway and herd consensus, not processing on external servers.'
+        },
+        {
+          text: 'They rely on fragmented memory banks that overwrite earlier experiences whenever a new scene loads.',
+          isCorrect: false,
+          rationale: 'Their ceiling is pre-installed routines and the absence of self-directed thought, not overwritten memory banks.'
+        }
+      ]
+    },
+    {
+      number: 2,
+      question: 'How does the Grand Theft Auto (GTA) model illustrate the structural dynamics of non-player entities within scripted avenues?',
+      hint: 'Think about how a game engine reuses one background figure across different jobs.',
+      options: [
+        {
+          text: 'A single baseline construct is reassigned to different utilitarian jobs while remaining locked to a local operational perimeter.',
+          isCorrect: true,
+          rationale: 'The same figure can serve drinks or drive a road, yet it remains a static construct tethered to a localized perimeter.'
+        },
+        {
+          text: 'A single baseline construct gains wider scripts after meeting sovereign awareness and crossing into a neighboring level.',
+          isCorrect: false,
+          rationale: 'Contact with sovereign awareness does not widen the script or let the figure cross into another level.'
+        },
+        {
+          text: 'A single baseline construct develops a fresh internal monologue and a wider travel range each time the engine assigns a bar shift or a driving route.',
+          isCorrect: false,
+          rationale: 'A new job leaves the same asset without expanded consciousness, agency, or freedom.'
+        },
+        {
+          text: 'A single baseline construct gains temporary autonomous movement whenever the surrounding crowd thins inside that same level.',
+          isCorrect: false,
+          rationale: 'A thinner crowd does not unlock autonomous movement for a figure locked to its perimeter.'
+        }
+      ]
+    },
+    {
+      number: 3,
+      question: 'Which description matches spatial and task confinement for background characters in the game-engine analogy?',
+      hint: 'Think about where shopkeepers, pedestrians, and drivers are allowed to operate.',
+      options: [
+        {
+          text: 'Characters remain localized to specific coordinates or missions and fulfill utilitarian roles such as shopkeepers, pedestrians, or drivers.',
+          isCorrect: true,
+          rationale: 'Background characters stay on those bounds, fulfilling utilitarian roles such as shopkeepers, pedestrians, or drivers.'
+        },
+        {
+          text: 'Characters step outside their designated sector once a mission ends and then leave the operational level of the game for an open road.',
+          isCorrect: false,
+          rationale: 'These figures cannot deviate from a coded trajectory, step outside their designated sector, or exit the level.'
+        },
+        {
+          text: 'Characters acquire expanded consciousness, agency, and freedom whenever the engine assigns them a new employment role in the scene.',
+          isCorrect: false,
+          rationale: 'A new employment role leaves the underlying entity without expanded consciousness, agency, or freedom.'
+        },
+        {
+          text: 'Characters rewrite their coded trajectory in the middle of a scene and choose a sector that was not assigned to them.',
+          isCorrect: false,
+          rationale: 'They cannot deviate from the coded trajectory or choose a sector outside the assigned one.'
+        }
+      ]
+    },
+    {
+      number: 4,
+      question: 'Why do entities restricted to scripted avenues adopt and repeat specific ideas held by adjacent herd members?',
+      hint: 'Consider what herd agreement removes for someone who will not think alone.',
+      options: [
+        {
+          text: 'To eliminate the personal risk of independent cognition and error.',
+          isCorrect: true,
+          rationale: 'They embrace notions adjacent entities hold, eliminating the personal risk of independent cognition and error.'
+        },
+        {
+          text: 'To stand out as cognitive leaders in a local circle.',
+          isCorrect: false,
+          rationale: 'Repeating the herd produces uniform scripted chains, not distinct cognitive leadership.'
+        },
+        {
+          text: 'To satisfy daily memorization drills that institutional authority assigns before any conversation begins.',
+          isCorrect: false,
+          rationale: 'The repeat comes from adjacent entities holding the notion, not from assigned memorization drills.'
+        },
+        {
+          text: 'To record ideas they have already tested inside empirical environments of their own making.',
+          isCorrect: false,
+          rationale: 'They do not evaluate evidence or synthesize novel insights before repeating the herd.'
+        }
+      ]
+    },
+    {
+      number: 5,
+      question: 'What psychological metaphor describes how individuals operating inside scripted avenues protect their underlying cognitive emptiness?',
+      hint: 'Look at the image used for pride and ego in the core revelations.',
+      options: [
+        {
+          text: 'A hermit crab occupying a borrowed, synthetic shell.',
+          isCorrect: true,
+          rationale: 'Pride and ego behave like a hermit crab that occupies a borrowed shell to mask cognitive emptiness.'
+        },
+        {
+          text: 'A chameleon shifting its color to match the ambient conditions of the room around it.',
+          isCorrect: false,
+          rationale: 'The posture is a borrowed shell over emptiness, not a color shift that matches the room.'
+        },
+        {
+          text: 'A fortress wall reinforced by automated defense grids along every outer approach.',
+          isCorrect: false,
+          rationale: 'The image is an empty entity in a borrowed shell, not a fortress guarding an inner structure.'
+        },
+        {
+          text: 'A moth drawn steadily toward a bright flame in a dark and crowded room.',
+          isCorrect: false,
+          rationale: 'Pride and ego armor a borrowed shell, rather than drawing the entity toward a flame.'
+        }
+      ]
+    },
+    {
+      number: 6,
+      question: 'How do pride and ego function around borrowed cognitive scripts?',
+      hint: 'Focus on what pride and ego cover when the shell is challenged.',
+      options: [
+        {
+          text: 'They heavily armor synthetic opinions to mask underlying vulnerability and cognitive emptiness.',
+          isCorrect: true,
+          rationale: 'Pride and ego armor the borrowed posture so it can mask an underlying vulnerability and cognitive emptiness.'
+        },
+        {
+          text: 'They fall quiet during routine daily interactions inside the mind camp and stay unused through ordinary talk.',
+          isCorrect: false,
+          rationale: 'Pride and ego stay in place as armor around the borrowed shell during ordinary interaction.'
+        },
+        {
+          text: 'They act as dynamic tools that encourage independent scientific discovery outside approved lines.',
+          isCorrect: false,
+          rationale: 'Pride and ego defend the borrowed shell rather than driving independent discovery.'
+        },
+        {
+          text: 'They push entities to discard pre-installed routines as soon as a challenge appears in conversation.',
+          isCorrect: false,
+          rationale: 'A challenge brings a hierarchy-down reply or retreat, not the discarding of pre-installed routines.'
+        }
+      ]
+    },
+    {
+      number: 7,
+      question: 'What fundamental operational assumption causes mainstream individuals within scripted avenues to systematically cease independent investigation?',
+      hint: 'Reflect on why independent investigation stops inside mainstream programming.',
+      options: [
+        {
+          text: 'They operate under the absolute presumption that designated officials and authoritative institutions handle all critical matters.',
+          isCorrect: true,
+          rationale: 'They abandon independent investigation under the absolute presumption that designated officials handle critical matters.'
+        },
+        {
+          text: 'They believe personal research needs specialized instruments that remain locked inside agency vaults.',
+          isCorrect: false,
+          rationale: 'Inquiry stops because officials are presumed to handle critical matters, not because instruments are locked away.'
+        },
+        {
+          text: 'They treat every anomaly as staged entertainment that nearby peers build inside the local scene for status.',
+          isCorrect: false,
+          rationale: 'Anomalies draw a defensive script and reliance on authority, not a reading of peer-built entertainment.'
+        },
+        {
+          text: 'They hold spiritual intuition above direct observation and above any institutional account of the same events.',
+          isCorrect: false,
+          rationale: 'They lean on designated officials and authoritative institutions rather than on spiritual intuition.'
+        }
+      ]
+    },
+    {
+      number: 8,
+      question: 'How does the collective pressure of the crowd function within the mind camp framework?',
+      hint: 'Consider the force the crowd exerts on sovereign awareness near the herd.',
+      options: [
+        {
+          text: 'As an invisible barrier trapping true souls inside sanctioned cerebral perimeters.',
+          isCorrect: true,
+          rationale: 'Crowd pressure acts as an invisible barrier, confining true souls inside the perimeters of the mind camp.'
+        },
+        {
+          text: 'As a temporary spiritual test that strengthens critical thinking across many seasons of herd life.',
+          isCorrect: false,
+          rationale: 'The crowd is an entrapment mechanism for sovereign awareness, not a test that strengthens critical thinking.'
+        },
+        {
+          text: 'As a decentralized hub for trading unapproved cognitive scripts among people in the crowd.',
+          isCorrect: false,
+          rationale: 'The crowd enforces consensus reality and does not trade unapproved cognitive scripts.'
+        },
+        {
+          text: 'As a physical obstacle that blocks institutional technology out in the public square.',
+          isCorrect: false,
+          rationale: 'The barrier is social and psychological, not a physical block on institutional technology.'
+        }
+      ]
+    },
+    {
+      number: 9,
+      question: 'What is the defining characteristic of a Hierarchy-Down-Reply?',
+      hint: 'Check the key terminology for the reflexive reply used when an anomaly appears.',
+      options: [
+        {
+          text: 'An automated recitation of pre-packaged official explanations delivered without personal understanding.',
+          isCorrect: true,
+          rationale: 'It is a reflexive recitation of official explanations delivered without personal understanding when anomalies appear.'
+        },
+        {
+          text: 'A specialized reset code that digital simulations apply to a background asset whenever the surrounding scene changes around it.',
+          isCorrect: false,
+          rationale: 'The reply is a verbal recitation of official explanations, not a code that resets a background asset.'
+        },
+        {
+          text: 'A bottom-up consensus view formed through peer-to-peer logical deduction across the herd.',
+          isCorrect: false,
+          rationale: 'The reply recites pre-packaged official explanations rather than a deduction built from peers.'
+        },
+        {
+          text: 'A complex academic thesis built through independent synthesis of many documents.',
+          isCorrect: false,
+          rationale: 'The speaker has no personal comprehension and does not synthesize the subject independently.'
+        }
+      ]
+    },
+    {
+      number: 10,
+      question: 'When an individual operating within a scripted avenue encounters contradictory evidence or fundamental questions about reality, what behavioral telltale typically accompanies the response?',
+      hint: 'Notice the physical and verbal signs that appear when a scripted boundary is pressed.',
+      options: [
+        {
+          text: 'Widening eyes shifting nervously side-to-side while blurting out a hierarchy-down-reply.',
+          isCorrect: true,
+          rationale: 'The eyes widen slightly and shift nervously while a rigid hierarchy-down-reply parrots institutional authority.'
+        },
+        {
+          text: 'Immediate calculation of statistical odds meant to disprove the anomaly before any official line is repeated aloud.',
+          isCorrect: false,
+          rationale: 'The response parrots an official line and does not calculate odds from personal analysis.'
+        },
+        {
+          text: 'Prolonged silence accompanied by rapid note-taking and intense focused scrutiny of the claim.',
+          isCorrect: false,
+          rationale: 'The visible telltale is nervous eyes and a blurted official reply, not note-taking scrutiny.'
+        },
+        {
+          text: 'Emotional collapse followed by shutdown and retreat from the room.',
+          isCorrect: false,
+          rationale: 'The active telltale is a blurted hierarchy-down reply with shifting eyes, not a collapse and exit.'
+        }
+      ]
+    },
+    {
+      number: 11,
+      question: 'What do television broadcasts, radio programming, print books, mainstream magazines, institutional science publications, and official space agency outlets do for scripted avenues?',
+      hint: 'Look at how daily programming conduits act on inquiry.',
+      options: [
+        {
+          text: 'They synchronize mental parameters and keep inquiry confined within safe, approved boundaries.',
+          isCorrect: true,
+          rationale: 'Those outlets are societal programming conduits, and inquiry stays confined within safe, approved boundaries.'
+        },
+        {
+          text: 'They hand each entity a route for self-directed exploration that steps past the mind camp and the herd.',
+          isCorrect: false,
+          rationale: 'These conduits keep inquiry inside approved boundaries rather than opening a route past the mind camp.'
+        },
+        {
+          text: 'They train background figures to exit the operational level and follow an autonomous traveler.',
+          isCorrect: false,
+          rationale: 'Programming conduits calibrate scripted thought and do not train figures to exit a level.'
+        },
+        {
+          text: 'They replace herd consensus with an active internal monologue and authentic volition.',
+          isCorrect: false,
+          rationale: 'They maintain herd consensus and do not install an active internal monologue.'
+        }
+      ]
+    },
+    {
+      number: 12,
+      question: 'In the context of conversational limits, which two domains can entities restricted to scripted avenues sustain?',
+      hint: 'Recall the narrow bounds of daily talk before a deeper subject is refused.',
+      options: [
+        {
+          text: 'Approved herd narratives and superficial personal hobbies or sports.',
+          isCorrect: true,
+          rationale: 'Meaningful dialogue stays inside approved herd narratives and superficial personal hobbies or sports.'
+        },
+        {
+          text: 'Scientific principles and close readings of historical documents from outside the herd.',
+          isCorrect: false,
+          rationale: 'Historical analysis of that kind sits outside the two narrow realms these entities can sustain.'
+        },
+        {
+          text: 'Institutional critiques and localized forecasts of economic trouble inside the workplace.',
+          isCorrect: false,
+          rationale: 'Institutional critique threatens consensus reality, which these avenues defend.'
+        },
+        {
+          text: 'Abstract philosophical metaphysics and a long personal emotional history shared in private.',
+          isCorrect: false,
+          rationale: 'Profound or multidimensional concepts trigger instant cognitive retreat or aggressive defense.'
+        }
+      ]
+    },
+    {
+      number: 13,
+      question: 'What response is triggered when profound or multidimensional concepts are introduced to an entity bound to a scripted avenue?',
+      hint: 'Identify what happens to the conversation when a profound subject is introduced.',
+      options: [
+        {
+          text: 'Instant cognitive retreat or aggressive defense of their borrowed exterior shell.',
+          isCorrect: true,
+          rationale: 'Those concepts trigger instant cognitive retreat or aggressive defense of their borrowed exterior shell.'
+        },
+        {
+          text: 'A request for official papers so the claim can be checked in private without help from the surrounding herd.',
+          isCorrect: false,
+          rationale: 'Profound concepts bring retreat or defense of the shell, not private verification of papers.'
+        },
+        {
+          text: 'Folding the new concept into the model already in use.',
+          isCorrect: false,
+          rationale: 'These avenues do not synthesize novel insights or fold unapproved concepts into the model.'
+        },
+        {
+          text: 'A full reset of the entity baseline appearance inside the current background scene.',
+          isCorrect: false,
+          rationale: 'The response is conversational and behavioral, not a reset of baseline appearance.'
+        }
+      ]
+    },
+    {
+      number: 14,
+      question: 'Which combination holds the mind camp perimeter in place?',
+      hint: 'Look at the behavioral drivers that guard the mind camp.',
+      options: [
+        {
+          text: 'Peer pressure and ridicule, fear of ostracization from family and career circles, and surrender of inquiry to official management.',
+          isCorrect: true,
+          rationale: 'The perimeter is guarded by relentless social friction, fear of ostracization, and the surrender of inquiry to officials.'
+        },
+        {
+          text: 'Self-directed empirical research, open street debate, and roaming past sanctioned lines during gatherings.',
+          isCorrect: false,
+          rationale: 'Self-directed research and roaming past sanctioned lines break the perimeter rather than hold it.'
+        },
+        {
+          text: 'Expanded internal monologue, autonomous level exits, and fresh synthesis of novel insights.',
+          isCorrect: false,
+          rationale: 'Those capacities are absent inside the avenues and do not guard the mind camp.'
+        },
+        {
+          text: 'Chaotic civic layouts, unsanctioned archive reading, and training aimed at autonomous navigation.',
+          isCorrect: false,
+          rationale: 'Containment uses social friction and official compliance, not chaotic layouts or navigation training.'
+        }
+      ]
+    },
+    {
+      number: 15,
+      question: 'What primary function does the perimeter of the Mind Camp serve in third-density reality?',
+      hint: 'Check the key terminology for what that perimeter does to awareness.',
+      options: [
+        {
+          text: 'To confine awareness, enforce consensus behavior, and prevent minds from roaming outside sanctioned lines.',
+          isCorrect: true,
+          rationale: 'The mind camp enforces consensus behavior and keeps minds from roaming outside sanctioned lines.'
+        },
+        {
+          text: 'To provide an open arena for testing revolutionary philosophical concepts in front of the surrounding herd.',
+          isCorrect: false,
+          rationale: 'The perimeter prevents minds from roaming outside sanctioned lines rather than hosting open tests of new concepts.'
+        },
+        {
+          text: 'To protect sovereign souls from exposure to institutional programming vectors and herd scripts.',
+          isCorrect: false,
+          rationale: 'The mind camp holds true souls inside herd pressure rather than shielding them from programming.'
+        },
+        {
+          text: 'To train non-player entities in advanced autonomous navigation techniques for open roads.',
+          isCorrect: false,
+          rationale: 'The perimeter confines awareness and does not train autonomous navigation.'
+        }
+      ]
+    },
+    {
+      number: 16,
+      question: 'Which institutions serve as physical distribution hubs for pre-approved thought patterns?',
+      hint: 'Look at the broader context for the institutions that distribute those patterns.',
+      options: [
+        {
+          text: 'Corporate workplaces, educational facilities, and regulatory agencies.',
+          isCorrect: true,
+          rationale: 'Corporate workplaces, educational facilities, and regulatory agencies serve as the physical distribution hubs for pre-approved thought patterns.'
+        },
+        {
+          text: 'Autonomous exploration hubs, unsanctioned reading archives, and traveler field stations set outside the camp.',
+          isCorrect: false,
+          rationale: 'The hubs are corporate workplaces, educational facilities, and regulatory agencies, not exploration stations.'
+        },
+        {
+          text: 'Open street forums, private dream circles, and apprenticeship yards kept apart from agencies.',
+          isCorrect: false,
+          rationale: 'Distribution runs through workplaces, schools, and regulatory agencies rather than private dream circles.'
+        },
+        {
+          text: 'Background game studios, level-exit gates, and shops run by sovereign travelers on the road.',
+          isCorrect: false,
+          rationale: 'The physical hubs are institutional apparatuses, not studios or gates run by sovereign travelers.'
+        }
+      ]
+    },
+    {
+      number: 17,
+      question: 'What role do the vast majority of participants play within the third-density reality network?',
+      hint: 'Think about the part played by people who accept pre-set roles without interrogation.',
+      options: [
+        {
+          text: 'Subconscious custodians of the consensus matrix who populate the background of daily life.',
+          isCorrect: true,
+          rationale: 'By accepting pre-set roles without interrogation, they populate the background of everyday life inside the consensus matrix.'
+        },
+        {
+          text: 'Strategic architects who actively rewrite the simulation code from inside daily roles.',
+          isCorrect: false,
+          rationale: 'Participants accept pre-set roles and populate the background rather than rewriting the code.'
+        },
+        {
+          text: 'Rebel entities working to dismantle institutional apparatuses from within the crowd.',
+          isCorrect: false,
+          rationale: 'The majority function as custodians of the consensus matrix rather than as rebels dismantling it.'
+        },
+        {
+          text: 'Autonomous creators of independent reality streams running beside the consensus matrix.',
+          isCorrect: false,
+          rationale: 'The vast majority lack authentic volition and do not create independent reality streams.'
+        }
+      ]
+    },
+    {
+      number: 18,
+      question: 'What structural connection exists between scripted mental avenues and modern physical infrastructure?',
+      hint: 'Connect civic layout with the texture of scripted thought in the broader context.',
+      options: [
+        {
+          text: 'Architectural uniformity and standardized civic design reinforce the barren, unoriginal nature of scripted thought.',
+          isCorrect: true,
+          rationale: 'Scripted mental avenues connect laterally with architectural uniformity and standardized civic design.'
+        },
+        {
+          text: 'Physical environments use chaotic variation to test each scripted limit.',
+          isCorrect: false,
+          rationale: 'Modern environments reinforce scripted thought through uniformity, not through chaotic variation.'
+        },
+        {
+          text: 'Physical civic layouts run apart from third-density cognitive parameters.',
+          isCorrect: false,
+          rationale: 'A lateral connection ties scripted mental avenues to the homogenization of modern environments.'
+        },
+        {
+          text: 'Modern structures break scripted loops by inviting people to wander off planned streets.',
+          isCorrect: false,
+          rationale: 'Standardized civic design reinforces the barren nature of scripted thought rather than breaking those loops.'
+        }
+      ]
+    },
+    {
+      number: 19,
+      question: 'How does recognizing the automated nature of scripted avenues alter vulnerability to peer pressure?',
+      hint: 'Look at the strategic implications for someone who fears the herd.',
+      options: [
+        {
+          text: 'It strips collective disapproval of its power by revealing social ridicule as a mechanical simulation tactic.',
+          isCorrect: true,
+          rationale: 'Social reactions are automated scripts, so collective disapproval loses its power as a mechanical simulation tactic.'
+        },
+        {
+          text: 'It pushes the person to spend still more energy debating institutional authorities face to face inside the camp.',
+          isCorrect: false,
+          rationale: 'Recognition leads to bypassing institutional debate rather than spending more energy on it.'
+        },
+        {
+          text: 'It pushes sovereign minds to copy the same scripted slogans in order to stay hidden inside the herd.',
+          isCorrect: false,
+          rationale: 'The result is stepping beyond programmed avenues, not copying slogans to hide in the herd.'
+        },
+        {
+          text: 'It intensifies fear once automated entities are treated as unpredictable actors moving through the crowd.',
+          isCorrect: false,
+          rationale: 'Seeing the reactions as automated scripts removes the power of collective disapproval.'
+        }
+      ]
+    },
+    {
+      number: 20,
+      question: 'What tactical approach is recommended when dealing with entities bound to static game levels?',
+      hint: 'Consider where effort goes once those figures are recognized as fixed.',
+      options: [
+        {
+          text: 'Bypassing institutional debate entirely and stepping beyond programmed avenues to navigate outside the mind camp.',
+          isCorrect: true,
+          rationale: 'Awakening souls bypass institutional debate entirely and step past static game levels instead of arguing inside them.'
+        },
+        {
+          text: 'Engaging in continuous debate until the cognitive scripts of those entities finally give way.',
+          isCorrect: false,
+          rationale: 'Entities bound to static game levels are not reasoned out of fixed scripts through debate.'
+        },
+        {
+          text: 'Attempting to reprogram non-player entities through a long course of specialized logical training.',
+          isCorrect: false,
+          rationale: 'Those entities lack the volition that specialized logical training would need in order to reprogram them.'
+        },
+        {
+          text: 'Submitting formal petitions to regulatory hubs so institutional media lines can be rewritten.',
+          isCorrect: false,
+          rationale: 'Petitions to regulatory hubs stay inside the container rather than stepping beyond programmed avenues.'
+        }
+      ]
+    },
+    {
+      number: 21,
+      question: 'Which of these is NOT a structural feature of scripted avenues?',
+      hint: 'Compare each claim with what these avenues are built to maintain.',
+      options: [
+        {
+          text: 'They enable spontaneous self-directed exploration past fixed operational boundaries.',
+          isCorrect: true,
+          rationale: 'Scripted avenues do the opposite and work by channeling perception into standardized corridors while they neutralize sovereign questioning.'
+        },
+        {
+          text: 'They dictate acceptable ideas, reactions, and conversational limits inside third-density consciousness.',
+          isCorrect: false,
+          rationale: 'Predetermined channels dictate acceptable ideas, reactions, and conversational limits.'
+        },
+        {
+          text: 'They channel perception into standardized allowable corridors that maintain systemic obedience.',
+          isCorrect: false,
+          rationale: 'Channeling perception into standardized corridors is how these avenues maintain systemic obedience.'
+        },
+        {
+          text: 'They insulate consensus reality from critical examination by neutralizing sovereign questioning.',
+          isCorrect: false,
+          rationale: 'Insulating consensus reality and neutralizing sovereign questioning is part of what these avenues do.'
+        }
+      ]
+    },
+    {
+      number: 22,
+      question: 'True or False: A non-player entity tethered to a scripted avenue can follow a sovereign traveler outside the simulation level.',
+      hint: 'Recall the game-engine limit placed on background figures and travelers.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: false,
+          rationale: 'A background figure stays inside its operational level and does not accompany a traveler beyond that boundary.'
+        },
+        {
+          text: 'False',
+          isCorrect: true,
+          rationale: 'That figure is a static construct and cannot follow an autonomous traveler, which includes exiting the level itself.'
+        }
+      ]
+    },
+    {
+      number: 23,
+      question: 'True or False: Common sense is voluntarily surrendered and ridiculed in favor of administrative compliance.',
+      hint: 'Look at how the mainstream mind treats common sense beside official management.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: true,
+          rationale: 'The mainstream mind drops inquiry because common sense is voluntarily surrendered and ridiculed in favor of administrative compliance.'
+        },
+        {
+          text: 'False',
+          isCorrect: false,
+          rationale: 'Common sense is surrendered and ridiculed so administrative compliance can take its place.'
+        }
+      ]
+    },
+    {
+      number: 24,
+      question: 'True or False: Moving from workplace tasks to domestic duties carries a person outside the perimeter of pre-installed cognitive scripts.',
+      hint: 'Think about whether an ordinary change of daily roles escapes the cognitive script.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: false,
+          rationale: 'Ordinary role changes stay inside pre-installed cognitive scripts rather than crossing their perimeter.'
+        },
+        {
+          text: 'False',
+          isCorrect: true,
+          rationale: 'That daily shift stays inside the same code, and the person moves without ever exceeding the perimeter of those scripts.'
+        }
+      ]
+    },
+    {
+      number: 25,
+      question: 'True or False: A blurted slogan is a pre-programmed standardized phrase recited as if it were personal valued wisdom.',
+      hint: 'Recall what is spoken when talk reaches the edge of scripted thought.',
+      options: [
+        {
+          text: 'True',
+          isCorrect: true,
+          rationale: 'When discussion reaches the perimeter of scripted thought, the entity instantly recites that phrase as if it were personal valued wisdom.'
+        },
+        {
+          text: 'False',
+          isCorrect: false,
+          rationale: 'A blurted slogan is an automated recitation, not a novel insight formed in the moment.'
+        }
+      ]
+    }
+  ]
+};
