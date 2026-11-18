@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T05:29:29.163Z",
-  "total": 375,
+  "generatedAt": "2026-11-18T07:22:37.422Z",
+  "total": 376,
   "sources": [
     {
       "id": "revelations",
@@ -18,7 +18,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 112
+      "count": 113
     },
     {
       "id": "breakdown",
@@ -892,6 +892,21 @@
       "key": "alice/minerals-stay-down",
       "topicImage": "images/alice/minerals-stay-down.webp",
       "order": 28
+    },
+    {
+      "id": "monster-nightmares",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Monster Nightmares",
+      "subtitle": "Test your understanding of Monster Nightmares — bleed-thru memories of parasitic deaths, the amnesia vortex, and the closet of the mind.",
+      "questionCount": 25,
+      "href": "quiz/alice/monster-nightmares.html",
+      "diveHref": "dive/alice/monster-nightmares.html",
+      "key": "alice/monster-nightmares",
+      "topicImage": "images/alice/monster-nightmares.webp",
+      "order": 112
     },
     {
       "id": "moon-et-space-station",

@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "alice",
+      "topicId": "monster-nightmares",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Monster Nightmares",
+      "description": "Monster Nightmares are involuntary bleed-thru memories of past lives in which parasitic beings killed the soul, surviving the amnesia vortex as childhood night terrors.",
+      "topic_image": "images/alice/monster-nightmares.webp",
+      "path": "dive/alice/monster-nightmares.html",
+      "added": "2026-11-18T00:15:48-07:00"
+    },
+    {
+      "sourceId": "alice",
       "topicId": "child-npcs",
       "series": "Following Alice in the Rabbit Hole",
       "title": "Child NPCs",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/taran-vessels.webp",
       "path": "dive/alice/taran-vessels.html",
       "added": "2026-11-11T17:32:07-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "micro-suns",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Micro Suns",
-      "description": "Micro Suns constitute the primordial echelon of conscious existence, representing the very first ever souls generated directly from Source Creation.",
-      "topic_image": "images/alice/micro-suns.webp",
-      "path": "dive/alice/micro-suns.html",
-      "added": "2026-11-11T14:00:38-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "alice",
+      "topicId": "monster-nightmares",
+      "series": "Following Alice in the Rabbit Hole",
+      "title": "Monster Nightmares",
+      "description": "Monster Nightmares are involuntary bleed-thru memories of past lives in which parasitic beings killed the soul, surviving the amnesia vortex as childhood night terrors.",
+      "topic_image": "images/alice/monster-nightmares.webp",
+      "path": "dive/alice/monster-nightmares.html",
+      "added": "2026-11-18T00:15:48-07:00"
+    },
     {
       "sourceId": "alice",
       "topicId": "child-npcs",
@@ -171,16 +181,6 @@
       "topic_image": "images/alice/the-first-to-go.webp",
       "path": "dive/alice/the-first-to-go.html",
       "added": "2026-11-14T01:51:57-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "scare-events",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Scare Events",
-      "description": "Scare events are escalating shocks, directed by the Galactic Ancestral Alliance, that hard-wire a permanent lesson after the parasites are already gone.",
-      "topic_image": "images/alice/scare-events.webp",
-      "path": "dive/alice/scare-events.html",
-      "added": "2026-11-13T19:15:41-07:00"
     }
   ],
   "featured": [

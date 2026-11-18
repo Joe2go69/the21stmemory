@@ -900,9 +900,9 @@
       "sourceId": "alice",
       "topicId": "monster-nightmares",
       "path": "/dive/alice/monster-nightmares.html",
-      "live": false,
+      "live": true,
       "title": "Monster Nightmares",
-      "added": "2026-10-14"
+      "added": "2026-11-18T00:15:48-07:00"
     },
     {
       "sourceId": "breakdown",

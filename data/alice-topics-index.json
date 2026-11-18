@@ -978,10 +978,10 @@
             {
               "id": "monster-nightmares",
               "title": "Monster Nightmares",
-              "description": "Monster Nightmares",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Monster Nightmares are involuntary bleed-thru memories of past lives in which parasitic beings killed the soul, surviving the amnesia vortex as childhood night terrors.",
+              "topic_image": "images/alice/monster-nightmares.webp",
+              "is_placeholder": false,
+              "added": "2026-11-18T00:15:48-07:00"
             }
           ]
         }
