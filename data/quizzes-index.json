@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T07:22:37.422Z",
-  "total": 376,
+  "generatedAt": "2026-11-18T14:06:10.408Z",
+  "total": 377,
   "sources": [
     {
       "id": "revelations",
@@ -27,7 +27,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card-960.webp",
-      "count": 104
+      "count": 105
     },
     {
       "id": "ascension",
@@ -2543,6 +2543,21 @@
       "key": "breakdown/crystalline-networks",
       "topicImage": "images/breakdown/crystalline-networks.webp",
       "order": 61
+    },
+    {
+      "id": "drop-in-tone",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes & Highlights",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Drop in Tone",
+      "subtitle": "Test your understanding of the Drop in Tone — the muted phase when the parasite overlay glitches, bodies grow heavy, and the sky loses depth.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/drop-in-tone.html",
+      "diveHref": "dive/breakdown/drop-in-tone.html",
+      "key": "breakdown/drop-in-tone",
+      "topicImage": "images/breakdown/drop-in-tone.webp",
+      "order": 22
     },
     {
       "id": "ebs-operation",

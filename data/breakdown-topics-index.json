@@ -200,10 +200,10 @@
             {
               "id": "drop-in-tone",
               "title": "Drop in Tone",
-              "description": "Drop in Tone",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "The Drop in Tone is the muted phase of a planetary transition, when the parasite overlay glitches and bodies, skies, and automated behavior lose their frequency hold.",
+              "topic_image": "images/breakdown/drop-in-tone.webp",
+              "is_placeholder": false,
+              "added": "2026-11-18T07:00:24-07:00"
             },
             {
               "id": "sharp-edge",
