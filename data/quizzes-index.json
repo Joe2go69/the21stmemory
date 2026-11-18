@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-17T09:31:11.335Z",
-  "total": 374,
+  "generatedAt": "2026-11-18T05:29:29.163Z",
+  "total": 375,
   "sources": [
     {
       "id": "revelations",
@@ -18,7 +18,7 @@
       "short": "Foundational rabbit-hole series",
       "desc": "Core rabbit-hole topics — density, history, control systems, and the path of remembering.",
       "image": "images/alice-codex-card-960.webp",
-      "count": 111
+      "count": 112
     },
     {
       "id": "breakdown",
@@ -223,6 +223,21 @@
       "key": "alice/centre-realm",
       "topicImage": "images/alice/centre-realm.webp",
       "order": 17
+    },
+    {
+      "id": "child-npcs",
+      "sourceId": "alice",
+      "sourceLabel": "Alice",
+      "sourceTitle": "Following Alice in the Rabbit Hole",
+      "sourceShort": "Foundational rabbit-hole series",
+      "title": "Child NPCs",
+      "subtitle": "Test your understanding of Child NPCs — how youthful vessels hide non-player constructs, how the three strings fail to take root, and which children stay with loving families.",
+      "questionCount": 25,
+      "href": "quiz/alice/child-npcs.html",
+      "diveHref": "dive/alice/child-npcs.html",
+      "key": "alice/child-npcs",
+      "topicImage": "images/alice/child-npcs.webp",
+      "order": 111
     },
     {
       "id": "control-mechanisms",

@@ -892,9 +892,9 @@
       "sourceId": "alice",
       "topicId": "child-npcs",
       "path": "/dive/alice/child-npcs.html",
-      "live": false,
+      "live": true,
       "title": "Child NPCs",
-      "added": "2026-10-14"
+      "added": "2026-11-17T22:29:07-07:00"
     },
     {
       "sourceId": "alice",

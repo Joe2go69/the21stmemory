@@ -970,10 +970,10 @@
             {
               "id": "child-npcs",
               "title": "Child NPCs",
-              "description": "Child NPCs",
-              "topic_image": "images/alice/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Child NPCs stay outwardly indistinguishable from ensouled youths, while untainted children and animals ascend and loving non-NPC families keep their children with them.",
+              "topic_image": "images/alice/child-npcs.webp",
+              "is_placeholder": false,
+              "added": "2026-11-17T22:29:07-07:00"
             },
             {
               "id": "monster-nightmares",
