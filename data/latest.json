@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "breakdown",
+      "topicId": "sharp-edge",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "Sharp Edge",
+      "description": "The Sharp Edge marks the acute threshold where uncaused autonomic surges, atmospheric compression, and behavioral fragmentation among unawakened entities show frequency disruption piercing baseline sensory reality.",
+      "topic_image": "images/breakdown/sharp-edge.webp",
+      "path": "dive/breakdown/sharp-edge.html",
+      "added": "2026-11-18T19:20:31-07:00"
+    },
+    {
+      "sourceId": "breakdown",
       "topicId": "drop-in-tone",
       "series": "Mega Breakdown Board Notes & Highlights",
       "title": "Drop in Tone",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/project-blue-beam.webp",
       "path": "dive/alice/project-blue-beam.html",
       "added": "2026-11-11T19:50:57-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "pleiadians",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Pleiadians",
-      "description": "Pleiadians, functionally designated as escaped Tarans, are former Taran souls who successfully broke out and evaded planetary entrapment when the inversion of the realm initially transpired roughly 100,000 Earth years ago.",
-      "topic_image": "images/alice/pleiadians.webp",
-      "path": "dive/alice/pleiadians.html",
-      "added": "2026-11-11T18:50:36-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "breakdown",
+      "topicId": "sharp-edge",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "Sharp Edge",
+      "description": "The Sharp Edge marks the acute threshold where uncaused autonomic surges, atmospheric compression, and behavioral fragmentation among unawakened entities show frequency disruption piercing baseline sensory reality.",
+      "topic_image": "images/breakdown/sharp-edge.webp",
+      "path": "dive/breakdown/sharp-edge.html",
+      "added": "2026-11-18T19:20:31-07:00"
+    },
     {
       "sourceId": "breakdown",
       "topicId": "drop-in-tone",
@@ -171,16 +181,6 @@
       "topic_image": "images/alice/520-million.webp",
       "path": "dive/alice/520-million.html",
       "added": "2026-11-14T15:12:38-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "the-sky-event",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "The Sky Event",
-      "description": "The Sky Event is the Alliance takedown of the inner projection dome, when melting pixelation ends the synthetic sky and the realm enters the EMF flash.",
-      "topic_image": "images/alice/the-sky-event.webp",
-      "path": "dive/alice/the-sky-event.html",
-      "added": "2026-11-14T06:02:56-07:00"
     }
   ],
   "featured": [

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T14:06:10.408Z",
-  "total": 377,
+  "generatedAt": "2026-11-19T02:29:12.820Z",
+  "total": 378,
   "sources": [
     {
       "id": "revelations",
@@ -27,7 +27,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card-960.webp",
-      "count": 105
+      "count": 106
     },
     {
       "id": "ascension",
@@ -3441,6 +3441,21 @@
       "key": "breakdown/second-realm",
       "topicImage": "images/breakdown/second-realm.webp",
       "order": 48
+    },
+    {
+      "id": "sharp-edge",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes & Highlights",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Sharp Edge",
+      "subtitle": "Test your understanding of Sharp Edge — uncaused autonomic surges, heavy air, avian silence, and the forty-eight-hour denial loop.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/sharp-edge.html",
+      "diveHref": "dive/breakdown/sharp-edge.html",
+      "key": "breakdown/sharp-edge",
+      "topicImage": "images/breakdown/sharp-edge.webp",
+      "order": 23
     },
     {
       "id": "skull-buzzing",

@@ -208,10 +208,10 @@
             {
               "id": "sharp-edge",
               "title": "Sharp Edge",
-              "description": "Sharp Edge",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "The Sharp Edge marks the acute threshold where uncaused autonomic surges, atmospheric compression, and behavioral fragmentation among unawakened entities show frequency disruption piercing baseline sensory reality.",
+              "topic_image": "images/breakdown/sharp-edge.webp",
+              "is_placeholder": false,
+              "added": "2026-11-18T19:20:31-07:00"
             },
             {
               "id": "silence-before-the-snap",
