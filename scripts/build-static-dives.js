@@ -751,6 +751,23 @@ function renderVideoLanguageBar(languages) {
         <script type="application/json" id="video-languages-data">${json}</script>`;
 }
 
+// YouTube series playlists (created 2026-11-18; backfilled nightly). The note
+// sits under the Videos heading so viewers find the dubbed versions.
+const YOUTUBE_SERIES_PLAYLISTS = {
+  revelations: 'PLTZpP_YFOWk4',
+  alice: 'PLNoPcsdMA9C8',
+  breakdown: 'PLJF-P3i-gj2Q',
+  ascension: 'PLRr13kkNGPxM',
+  'special-requests': 'PLE66cubpiLyw',
+};
+
+function renderYouTubePlaylistNote(sourceId) {
+  const playlistId = YOUTUBE_SERIES_PLAYLISTS[sourceId];
+  if (!playlistId) return '';
+  return `
+        <p class="yt-dub-note"><a href="https://www.youtube.com/playlist?list=${playlistId}" target="_blank" rel="noopener noreferrer">Watch this series on YouTube</a> — every video dubbed into 20 languages. Tap the settings gear on any video, then Audio track, to hear it in yours.</p>`;
+}
+
 function buildJsonLd({ title, description, url, image, sourceTitle, sourceId, dateModified, isStub }) {
   if (isStub) return '';
   const graph = [
@@ -980,6 +997,7 @@ ${heroBanner}
       ${renderSectionHeading('Videos')}
       <div class="max-w-6xl mx-auto px-6">
         ${renderVideoLanguageBar(videoLangs)}
+        ${renderYouTubePlaylistNote(sourceId)}
         <div id="videos-container" class="${videoGridClass(defaultVideos.length)}">
           ${renderVideos(defaultVideos)}
         </div>
@@ -1069,10 +1087,10 @@ ${jsonLd}
     <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}.deep-dive-hero,.deep-dive-hero-bg{background-color:#0F0A1F}.deep-dive-hero{min-height:22rem}@media (min-width:768px){.deep-dive-hero{min-height:30rem}}</style>
     <link rel="preload" href="${ASSET_BASE}assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="${ASSET_BASE}assets/fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="${ASSET_BASE}assets/css/main.min.css?v=18" as="style">
+    <link rel="preload" href="${ASSET_BASE}assets/css/main.min.css?v=19" as="style">
     <link rel="stylesheet" href="${ASSET_BASE}assets/css/fonts.css">
     <link rel="stylesheet" href="${ASSET_BASE}assets/css/tailwind.css">
-    <link rel="stylesheet" href="${ASSET_BASE}assets/css/main.min.css?v=18">
+    <link rel="stylesheet" href="${ASSET_BASE}assets/css/main.min.css?v=19">
 </head>
 <body class="cosmic-bg page-interior" data-dive-static="true" data-source="${escapeAttr(sourceId)}" data-topic="${escapeAttr(topic.id)}">
     <div id="reading-progress" class="reading-progress" aria-hidden="true" hidden>

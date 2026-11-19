@@ -24949,3 +24949,21 @@ a.support-way.has-media .support-way__desc,
   }
 }
 
+
+/* YouTube dubbed-playlist note under the Videos heading on dive pages */
+.yt-dub-note {
+  margin: 0 0 1.15rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  text-align: center;
+  color: var(--text-muted);
+}
+.yt-dub-note a {
+  color: var(--accent-gold);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.yt-dub-note a:hover {
+  color: var(--accent-gold-hover, #b45309);
+}
