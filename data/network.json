@@ -1,165 +1,255 @@
 {
-  "channels": [
-    {
-      "section": "official",
-      "label": "OFFICIAL SITE",
-      "title": "Christian21",
-      "description": "The official site of Christian21 and Leon — the written Revelations synopses.",
-      "action": "Visit Official Site",
-      "icon": "document",
-      "href": "https://christian21.com/",
-      "featured": true,
-      "priority": 1
-    },
-    {
-      "section": "telegram",
-      "label": "LIVE COMMUNITY",
-      "title": "Christian21 Channel",
-      "description": "Main interactive chat and live transmissions from the source.",
-      "action": "Join Channel",
-      "icon": "chat",
-      "href": "https://t.me/loveandlight16",
-      "featured": true,
-      "priority": 2
-    },
-    {
-      "section": "telegram",
-      "label": "INTEL UPDATES",
-      "title": "New CH21 Intel Only",
-      "description": "Direct intel updates and transmissions.",
-      "action": "Join Channel",
-      "icon": "satellite",
-      "href": "https://t.me/newch21intelonly"
-    },
-    {
-      "section": "telegram",
-      "label": "SIBLEY SHORTS",
-      "title": "Sibley Shorts",
-      "description": "Short clips featuring Sibley and Thalon Thor.",
-      "action": "Join Channel",
-      "icon": "bolt",
-      "href": "https://t.me/sibleyshorts"
-    },
-    {
-      "section": "telegram",
-      "label": "CURATED POSTS",
-      "title": "21 Posts",
-      "description": "Curated key posts and excerpts from the transmissions.",
-      "action": "Join Channel",
-      "icon": "pin",
-      "href": "https://t.me/C21_POSTS"
-    },
-    {
-      "section": "telegram",
-      "label": "LEON SINCLAIR",
-      "title": "Leon's Synopsis",
-      "description": "Official summaries, deep-dive breakdowns, and videos by Leon Sinclair.",
-      "action": "Join Channel",
-      "icon": "book",
-      "href": "https://t.me/leonsynopsis",
-      "featured": true,
-      "priority": 3
-    },
-    {
-      "section": "telegram",
-      "label": "VELMA",
-      "title": "Velma Shorts",
-      "description": "Short videos featuring Velma's insights on the transmissions.",
-      "action": "Join Channel",
-      "icon": "mobile",
-      "href": "https://t.me/velmashorts",
-      "featured": true,
-      "priority": 4
-    },
-    {
-      "section": "telegram",
-      "label": "AI ARCHIVE",
-      "title": "21st Memory",
-      "description": "AI-enhanced interpretations, decodings, and community connection.",
-      "action": "Join Channel",
-      "icon": "sparkles",
-      "href": "https://t.me/The_21st_Memory",
-      "badge": "This archive",
-      "featured": true,
-      "priority": 6
-    },
-    {
-      "section": "rumble",
-      "label": "RAW TRANSMISSIONS",
-      "title": "Thalon Thor Main",
-      "description": "Original raw transmissions by Thalon Thor / Christian21, on Rumble as sibley22 — the source.",
-      "action": "Watch on Rumble",
-      "icon": "mic",
-      "href": "https://rumble.com/user/sibley22",
-      "featured": true,
-      "priority": 5
-    },
-    {
-      "section": "rumble",
-      "label": "VIDEO POSTS",
-      "title": "21 Posts",
-      "description": "Video versions of the most important posts and transmissions.",
-      "action": "Watch on Rumble",
-      "icon": "camera",
-      "href": "https://rumble.com/c/21POSTS"
-    },
-    {
-      "section": "rumble",
-      "label": "SHORT CLIPS",
-      "title": "21 Shorts",
-      "description": "Short, powerful video clips from the teachings.",
-      "action": "Watch on Rumble",
-      "icon": "bolt",
-      "href": "https://rumble.com/c/21SHORTS"
-    },
-    {
-      "section": "rumble",
-      "label": "INTEL CHATS",
-      "title": "Leon Sinclair",
-      "description": "Casual intel chats and personal insights from Leon Sinclair.",
-      "action": "Watch on Rumble",
-      "icon": "mic",
-      "href": "https://rumble.com/user/Leonsinclair1973"
-    },
-    {
-      "section": "rumble",
-      "label": "AI DECODINGS",
-      "title": "21st Memory",
-      "description": "AI interpretations and visual decodings of the transmissions.",
-      "action": "Watch on Rumble",
-      "icon": "star",
-      "href": "https://rumble.com/c/21stMemory",
-      "badge": "This archive"
-    },
-    {
-      "section": "social",
-      "label": "SHORT POSTS",
-      "title": "21st Memory on Threads",
-      "description": "Short posts and threads from the archive — the quickest way to follow the Great Remembering day to day.",
-      "action": "Follow on Threads",
-      "icon": "threads",
-      "href": "https://www.threads.com/@the21stmemory",
-      "badge": "This archive"
-    },
-    {
-      "section": "social",
-      "label": "WEEKLY READINGS",
-      "title": "21st Memory on Substack",
-      "description": "A weekly reading from the archive, free in your inbox — starting with Harvest Toll.",
-      "action": "Read on Substack",
-      "icon": "substack",
-      "href": "https://the21stmemory.substack.com",
-      "badge": "This archive"
-    },
-    {
-      "section": "social",
-      "label": "INFOGRAPHICS",
-      "title": "21st Memory on Pinterest",
-      "description": "Infographics from the Codex — the Essence topics, the starter readings, and more, pinned for easy sharing.",
-      "action": "Follow on Pinterest",
-      "icon": "pinterest",
-      "href": "https://www.pinterest.com/the21stmemory/",
-      "badge": "This archive"
-    }
-  ]
+ "channels": [
+  {
+   "section": "official",
+   "label": "OFFICIAL SITE",
+   "title": "Christian21",
+   "description": "The official home of Christian21 & Leon — hundreds of videos and over 1.1 million words of pure, unfiltered transmission.",
+   "action": "Visit Official Site",
+   "icon": "document",
+   "href": "https://christian21.com/",
+   "featured": true,
+   "priority": 1
+  },
+  {
+   "section": "telegram",
+   "label": "LIVE COMMUNITY",
+   "title": "Christian21 Channel",
+   "description": "Main interactive chat and live transmissions from the source.",
+   "action": "Join Channel",
+   "icon": "chat",
+   "href": "https://t.me/loveandlight16",
+   "featured": true,
+   "priority": 2
+  },
+  {
+   "section": "telegram",
+   "label": "INTEL UPDATES",
+   "title": "New CH21 Intel Only",
+   "description": "Direct intel updates and transmissions.",
+   "action": "Join Channel",
+   "icon": "satellite",
+   "href": "https://t.me/newch21intelonly"
+  },
+  {
+   "section": "telegram",
+   "label": "SIBLEY SHORTS",
+   "title": "Sibley Shorts",
+   "description": "Short clips featuring Sibley and Thalon Thor.",
+   "action": "Join Channel",
+   "icon": "bolt",
+   "href": "https://t.me/sibleyshorts"
+  },
+  {
+   "section": "telegram",
+   "label": "CURATED POSTS",
+   "title": "21 Posts",
+   "description": "Curated key posts and excerpts from the transmissions.",
+   "action": "Join Channel",
+   "icon": "pin",
+   "href": "https://t.me/C21_POSTS"
+  },
+  {
+   "section": "telegram",
+   "label": "LEON SINCLAIR",
+   "title": "Leon's Synopsis",
+   "description": "Official summaries, deep-dive breakdowns, and videos by Leon Sinclair.",
+   "action": "Join Channel",
+   "icon": "book",
+   "href": "https://t.me/leonsynopsis",
+   "featured": true,
+   "priority": 3
+  },
+  {
+   "section": "telegram",
+   "label": "VELMA",
+   "title": "Velma Shorts",
+   "description": "Short videos featuring Velma's insights and transmissions.",
+   "action": "Join Channel",
+   "icon": "mobile",
+   "href": "https://t.me/velmashorts",
+   "featured": true,
+   "priority": 4
+  },
+  {
+   "section": "telegram",
+   "label": "AI ARCHIVE",
+   "title": "21st Memory",
+   "description": "AI-enhanced interpretations, decodings, and community connection.",
+   "action": "Join Channel",
+   "icon": "sparkles",
+   "href": "https://t.me/The_21st_Memory",
+   "badge": "This archive",
+   "featured": true,
+   "priority": 6
+  },
+  {
+   "section": "rumble",
+   "label": "RAW TRANSMISSIONS",
+   "title": "Thalon Thor Main",
+   "description": "Original raw transmissions by Thalon Thor / Sibley22 — the source.",
+   "action": "Watch on Rumble",
+   "icon": "mic",
+   "href": "https://rumble.com/user/sibley22",
+   "featured": true,
+   "priority": 5
+  },
+  {
+   "section": "rumble",
+   "label": "VIDEO POSTS",
+   "title": "21 Posts",
+   "description": "Video versions of the most important posts and transmissions.",
+   "action": "Watch on Rumble",
+   "icon": "camera",
+   "href": "https://rumble.com/c/21POSTS"
+  },
+  {
+   "section": "rumble",
+   "label": "SHORT CLIPS",
+   "title": "21 Shorts",
+   "description": "Short, powerful video clips from the teachings.",
+   "action": "Watch on Rumble",
+   "icon": "bolt",
+   "href": "https://rumble.com/c/21SHORTS"
+  },
+  {
+   "section": "rumble",
+   "label": "INTEL CHATS",
+   "title": "Leon Sinclair",
+   "description": "Casual intel chats and personal insights from Leon Sinclair.",
+   "action": "Watch on Rumble",
+   "icon": "mic",
+   "href": "https://rumble.com/user/Leonsinclair1973"
+  },
+  {
+   "section": "rumble",
+   "label": "AI DECODINGS",
+   "title": "21st Memory",
+   "description": "AI interpretations and visual decodings of the transmissions.",
+   "action": "Watch on Rumble",
+   "icon": "star",
+   "href": "https://rumble.com/c/21stMemory",
+   "badge": "This archive"
+  },
+  {
+   "section": "social",
+   "label": "SHORT POSTS",
+   "title": "21st Memory on Threads",
+   "description": "Short posts and threads from the archive — the quickest way to follow the Great Remembering day to day.",
+   "action": "Follow on Threads",
+   "icon": "threads",
+   "href": "https://www.threads.com/@the21stmemory",
+   "badge": "This archive"
+  },
+  {
+   "section": "social",
+   "label": "WEEKLY READINGS",
+   "title": "21st Memory on Substack",
+   "description": "A weekly reading from the archive, free in your inbox — starting with Harvest Toll.",
+   "action": "Read on Substack",
+   "icon": "substack",
+   "href": "https://the21stmemory.substack.com",
+   "badge": "This archive"
+  },
+  {
+   "section": "social",
+   "label": "INFOGRAPHICS",
+   "title": "21st Memory on Pinterest",
+   "description": "Infographics from the Codex — the Essence topics, the starter readings, and more, pinned for easy sharing.",
+   "action": "Follow on Pinterest",
+   "icon": "pinterest",
+   "href": "https://www.pinterest.com/the21stmemory/",
+   "badge": "This archive"
+  },
+  {
+   "section": "social",
+   "label": "PODCAST",
+   "title": "21st Memory Podcast on Spotify",
+   "description": "The transmissions as audio — the full episodes, free on Spotify.",
+   "action": "Listen on Spotify",
+   "icon": "spotify",
+   "href": "https://open.spotify.com/show/02Z4eZIUCpXQ2bxVT1mLcQ",
+   "badge": "This archive"
+  },
+  {
+   "section": "social",
+   "label": "PODCAST",
+   "title": "21st Memory Podcast on YouTube",
+   "description": "Every long video on the channel in one podcast playlist — listen in order.",
+   "action": "Watch on YouTube",
+   "icon": "video",
+   "href": "https://www.youtube.com/playlist?list=PLNb0llYoECLE",
+   "badge": "This archive"
+  },
+  {
+   "section": "social",
+   "label": "VIDEOS",
+   "title": "21st Memory on YouTube",
+   "description": "The full video archive — every transmission, decoded and illustrated, and dubbed into 20 languages. On any video, tap the settings gear, then Audio track, to hear it in yours.",
+   "action": "Watch on YouTube",
+   "icon": "youtube",
+   "href": "https://www.youtube.com/@the21stmemory",
+   "badge": "This archive"
+  },
+  {
+   "section": "social",
+   "label": "SHORTS",
+   "title": "21st Memory on Instagram",
+   "description": "Shorts and infographics from the archive.",
+   "action": "Follow on Instagram",
+   "icon": "instagram",
+   "href": "https://www.instagram.com/the21stmemory/",
+   "badge": "This archive"
+  },
+  {
+   "section": "social",
+   "label": "SHORTS",
+   "title": "21st Memory on TikTok",
+   "description": "Shorts and infographics — the quickest hits from the archive.",
+   "action": "Follow on TikTok",
+   "icon": "tiktok",
+   "href": "https://www.tiktok.com/@the.21st.memory",
+   "badge": "This archive"
+  },
+  {
+   "section": "social",
+   "label": "SHORT POSTS",
+   "title": "21st Memory on X",
+   "description": "Short posts and video drops from the archive.",
+   "action": "Follow on X",
+   "icon": "x",
+   "href": "https://x.com/The21stMemory",
+   "badge": "This archive"
+  },
+  {
+   "section": "social",
+   "label": "COMMUNITY",
+   "title": "21st Memory Facebook Group",
+   "description": "The broadcast group — video posts and archive updates.",
+   "action": "Join the Group",
+   "icon": "facebook",
+   "href": "https://www.facebook.com/share/g/1DN6JVuFoF/",
+   "badge": "This archive"
+  },
+  {
+   "section": "social",
+   "label": "VIDEOS",
+   "title": "21st Memory on Odysee",
+   "description": "The full video archive, synced from YouTube — watch on the decentralised Odysee network.",
+   "action": "Watch on Odysee",
+   "icon": "video",
+   "href": "https://odysee.com/@21stMemory:b9d3a28fa284927b94e1b41759b4b83d477e0494",
+   "badge": "This archive"
+  },
+  {
+   "section": "social",
+   "label": "ARCHIVE",
+   "title": "21st Memory on Internet Archive",
+   "description": "Books, videos and audio from the archive, free to read, watch and download — preserved for the long term.",
+   "action": "Browse the Archive",
+   "icon": "document",
+   "href": "https://archive.org/details/@21stmemory",
+   "badge": "This archive"
+  }
+ ]
 }
