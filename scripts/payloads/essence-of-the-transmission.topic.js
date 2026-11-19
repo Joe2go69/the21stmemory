@@ -19,7 +19,7 @@ module.exports = {
     }
   },
   slide_deck_pdf_url:
-    'https://drive.google.com/file/d/1y8NGvDQcFbgj45geq3XTYuoYVRUkO3El/view?usp=sharing',
+    'https://drive.google.com/file/d/1OTfzX8_HCJqQzY6oL-GZn46gpvKzssYy/view?usp=sharing',
   rumble_videos: [
     {
       title: 'Roswell & Timeline Collapse',
