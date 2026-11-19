@@ -87,34 +87,14 @@
       "icon": "facebook"
     },
     {
-      "name": "Threads",
-      "href": "https://www.threads.com/@the21stmemory",
-      "icon": "threads"
-    },
-    {
       "name": "Substack",
       "href": "https://the21stmemory.substack.com",
       "icon": "substack"
     },
     {
-      "name": "Pinterest",
-      "href": "https://www.pinterest.com/the21stmemory/",
-      "icon": "pinterest"
-    },
-    {
       "name": "Spotify",
       "href": "https://open.spotify.com/show/02Z4eZIUCpXQ2bxVT1mLcQ",
       "icon": "spotify"
-    },
-    {
-      "name": "YouTube Podcast",
-      "href": "https://www.youtube.com/playlist?list=PLNb0llYoECLE",
-      "icon": "youtube"
-    },
-    {
-      "name": "CH21 source",
-      "href": "https://christian21.com/",
-      "icon": "globe"
     }
   ],
   "support": {
