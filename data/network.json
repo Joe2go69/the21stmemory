@@ -250,6 +250,16 @@
    "icon": "document",
    "href": "https://archive.org/details/@21stmemory",
    "badge": "This archive"
+  },
+  {
+   "section": "social",
+   "label": "ARTICLES",
+   "title": "21st Memory on Medium",
+   "description": "The Codex reports, republished for Medium's readers — each one links back to the full archive here.",
+   "action": "Read on Medium",
+   "icon": "book",
+   "href": "https://medium.com/@joewimberly",
+   "badge": "This archive"
   }
  ]
 }
