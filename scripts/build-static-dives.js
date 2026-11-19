@@ -779,6 +779,11 @@ function buildJsonLd({ title, description, url, image, sourceTitle, sourceId, da
       logo: seoBrand.logo,
     },
     {
+      '@type': 'Person',
+      '@id': `${BASE_URL}/#joe-wimberly`,
+      name: 'Joe Wimberly',
+    },
+    {
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: `${BASE_URL}/` },
@@ -795,7 +800,7 @@ function buildJsonLd({ title, description, url, image, sourceTitle, sourceId, da
       image,
       mainEntityOfPage: url,
       isPartOf: { '@id': `${BASE_URL}/#website` },
-      author: { '@id': `${BASE_URL}/#organization` },
+      author: { '@id': `${BASE_URL}/#joe-wimberly` },
       publisher: { '@id': `${BASE_URL}/#organization` },
       dateModified: dateModified || undefined,
       inLanguage: 'en-US',
