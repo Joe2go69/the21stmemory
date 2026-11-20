@@ -518,13 +518,13 @@
     },
     {
       "number": 17,
-      "question": "How long does it take for the old simulation to pixelate once the plasma crystalline conversion begins?",
+      "question": "How long does the pixelation of the old simulation last, beginning at the first flash?",
       "options": [
         {
           "label": "A",
-          "text": "The old simulation pixelates within thirty seconds as the plasma crystalline state forms.",
+          "text": "The old simulation pixelates within approximately thirty seconds, beginning at the first flash.",
           "isCorrect": true,
-          "rationale": "The continuous reaction converts ambient air into plasma crystalline, pixelating the old simulation within thirty seconds."
+          "rationale": "The pixelation begins at the first flash's jump-back and runs through the second flash, lasting approximately thirty seconds."
         },
         {
           "label": "B",
