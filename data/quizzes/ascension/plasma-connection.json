@@ -122,7 +122,7 @@
           "label": "B",
           "text": "A planetary EMP grid forms to seal the space and stabilize free energy.",
           "isCorrect": true,
-          "rationale": "The charging process forms a planetary EMP grid, sealing the space so no soul escapes and creating a stable field where free energy flows."
+          "rationale": "The charging process forms a planetary EMP grid, sealing the space so no sol escapes and creating a stable field where free energy flows."
         },
         {
           "label": "C",
@@ -494,7 +494,7 @@
     },
     {
       "number": 17,
-      "question": "In the Plasma Connection, how is the 'no soul escapes' state achieved?",
+      "question": "In the Plasma Connection, how is the 'no sol escapes' state achieved?",
       "options": [
         {
           "label": "A",
