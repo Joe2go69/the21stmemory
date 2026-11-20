@@ -384,25 +384,25 @@
           "label": "A",
           "text": "Re-sets ran for a single season in 1914, with no longer pattern behind them before or after.",
           "isCorrect": false,
-          "rationale": "Not what the report says. Re-sets are planetary festivals of death engineered for Adrenochrome and Loosh every thousand years; the most severe operations have run about 30,000 years."
+          "rationale": "Not what the report says. Re-sets are planetary festivals of death engineered for Adrenochrome and Loosh roughly every thousand years on average; the most severe operations have run about 30,000 years."
         },
         {
           "label": "B",
           "text": "Re-sets have run for about 3,000 years, beginning with the first recorded mud-flood events.",
           "isCorrect": false,
-          "rationale": "Not what the report says. Re-sets are planetary festivals of death engineered for Adrenochrome and Loosh every thousand years; the most severe operations have run about 30,000 years."
+          "rationale": "Not what the report says. Re-sets are planetary festivals of death engineered for Adrenochrome and Loosh roughly every thousand years on average; the most severe operations have run about 30,000 years."
         },
         {
           "label": "C",
           "text": "Re-sets have run for about 1,887 years, ending with the condenser melt orders of 1887.",
           "isCorrect": false,
-          "rationale": "Not what the report says. Re-sets are planetary festivals of death engineered for Adrenochrome and Loosh every thousand years; the most severe operations have run about 30,000 years."
+          "rationale": "Not what the report says. Re-sets are planetary festivals of death engineered for Adrenochrome and Loosh roughly every thousand years on average; the most severe operations have run about 30,000 years."
         },
         {
           "label": "D",
-          "text": "Re-sets run every thousand years, with the most severe operations lasting around 30,000 years.",
+          "text": "Re-sets run roughly every thousand years on average, with the most severe operations lasting around 30,000 years.",
           "isCorrect": true,
-          "rationale": "Re-sets are planetary festivals of death engineered for Adrenochrome and Loosh every thousand years; the most severe operations have run about 30,000 years."
+          "rationale": "Re-sets are planetary festivals of death engineered for Adrenochrome and Loosh roughly every thousand years on average; the most severe operations have run about 30,000 years."
         }
       ],
       "hint": "Every ~1,000 years; severe ops ~30,000 years.",
