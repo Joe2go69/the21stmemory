@@ -338,13 +338,13 @@
     },
     {
       "number": 11,
-      "question": "Which phase of the flash sequence involves downloading complete memory uploads into the original vessel?",
+      "question": "Which phase of the flash sequence involves downloading and uploading complete memory files into the original vessel?",
       "options": [
         {
           "label": "A",
           "text": "The 2nd Flash, which propels consciousness forward into future coordinates.",
           "isCorrect": true,
-          "rationale": "The 2nd Flash propels consciousness forward into future coordinates, downloading complete memory uploads directly into the restored original vessel."
+          "rationale": "The 2nd Flash propels consciousness forward into future coordinates, downloading and uploading complete memory files directly into the restored original vessel."
         },
         {
           "label": "B",
@@ -620,7 +620,7 @@
           "label": "C",
           "text": "To be uploaded into the original vessels of souls during the flash sequence.",
           "isCorrect": true,
-          "rationale": "The crystals store memory bank data and the 2nd Flash downloads complete memory uploads directly into the restored original vessel."
+          "rationale": "The crystals store memory bank data and the 2nd Flash downloads and uploads complete memory files directly into the restored original vessel."
         },
         {
           "label": "D",
