@@ -518,25 +518,25 @@
     },
     {
       "number": 17,
-      "question": "What event signals the formal end of the planetary awakening phase?",
+      "question": "When did the planetary awakening phase end?",
       "options": [
         {
           "label": "A",
-          "text": "The activation of the planetary EMP grid by the sun.",
+          "text": "It ended a long time ago, before the activation of the grid.",
           "isCorrect": true,
-          "rationale": "The activation of the grid signals the formal end of the planetary awakening phase."
+          "rationale": "The awakening phase ended a long time ago; the activation of the grid is a later event, not the end of the phase."
         },
         {
           "label": "B",
           "text": "The arrival of the first Pleiadian ships in the upper atmosphere.",
           "isCorrect": false,
-          "rationale": "The ships wait above the portal, but the grid activation is the formal marker for the end of the phase."
+          "rationale": "The ships wait above the portal, but the phase had already ended long before the grid activation."
         },
         {
           "label": "C",
           "text": "The successful implementation of the first global banking system.",
           "isCorrect": false,
-          "rationale": "The awakening phase ends with cosmic and energetic events rather than financial ones."
+          "rationale": "The awakening phase ended long ago; no financial event marks its end."
         },
         {
           "label": "D",
@@ -545,7 +545,7 @@
           "rationale": "The crystals emerge automatically via a timer rather than being discovered by 3rd realm science."
         }
       ],
-      "hint": "Consider the moment when the electromagnetic seal is established over the realm.",
+      "hint": "The phase ended a long time ago, before the grid was ever activated.",
       "correctAnswer": "A"
     },
     {
