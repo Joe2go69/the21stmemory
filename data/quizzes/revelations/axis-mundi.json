@@ -372,7 +372,7 @@
           "label": "A",
           "text": "Asgard, Midgard, Jotunheim, Vanaheim, and Niflheim.",
           "isCorrect": false,
-          "rationale": "Those are Norse realm names, while the transmissions reach external realms within The Cube such as Terra Incognita."
+          "rationale": "Those are Norse realm names, while the transmissions reach external realms within The Cube such as Hiva."
         },
         {
           "label": "B",
@@ -388,9 +388,9 @@
         },
         {
           "label": "D",
-          "text": "The Dome of Titans, Sheol, Silence, and Terra Incognita.",
+          "text": "The Dome of Titans, Sheol, Silence, and Hiva.",
           "isCorrect": true,
-          "rationale": "Telluric currents carry intentions to external realms within The Cube such as Sheol and Terra Incognita."
+          "rationale": "Telluric currents carry intentions to external realms within The Cube such as Sheol and Hiva."
         }
       ],
       "hint": "Look for the specific realm names listed as external domains inside the master Cube structure.",

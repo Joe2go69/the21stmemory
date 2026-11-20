@@ -4,12 +4,12 @@
   "sourceId": "revelations",
   "topicTitle": "External Domes",
   "title": "External Domes",
-  "subtitle": "Test your understanding of External Domes — five sovereign enclosures outside the physical plane that design blueprint schematics and receive the Neshama.",
+  "subtitle": "Test your understanding of External Domes — five sovereign enclosures outside the physical plane that design blueprint schematics for the physical realm.",
   "totalQuestions": 25,
   "extractedAt": "2026-10-28T04:08:32.654Z",
   "reflection": {
     "title": "Reflection",
-    "body": "The External Domes are the design rooms above the physical plane. Blueprint schematics, telluric updates, and the passage of soul light into the Celestial Lands all trace back to those higher-density realms. Work done on the physical manufacturing floor follows code prepared there."
+    "body": "The External Domes are the design rooms above the physical plane. Blueprint schematics and telluric updates trace back to those higher-density realms. Work done on the physical manufacturing floor follows code prepared there — while the Neshama travels to the Celestial Lands of Terra Incognita, inside the Great Dome."
   },
   "relatedTopic": {
     "href": "/dive/revelations/external-domes.html",
@@ -60,9 +60,9 @@
         },
         {
           "label": "B",
-          "text": "Hosting the Celestial Lands where soul light travels immediately after the vessel ends.",
+          "text": "Hosting hundreds of membrane worlds separated by thought and frequency rather than spatial distance.",
           "isCorrect": false,
-          "rationale": "The Celestial Lands within Hiva are the immediate destination of the Neshama after physical death."
+          "rationale": "Each External Dome encloses hundreds of individual worlds separated by thought and frequency rather than spatial distance."
         },
         {
           "label": "C",
@@ -118,7 +118,7 @@
       "options": [
         {
           "label": "A",
-          "text": "It travels immediately into the Celestial Lands within Hiva.",
+          "text": "It travels immediately into the Celestial Lands of Terra Incognita.",
           "isCorrect": true,
           "rationale": "The Neshama does not dissipate or enter an illusory void; it travels immediately across dimensional boundaries into the Celestial Lands."
         },
@@ -126,7 +126,7 @@
           "label": "B",
           "text": "It dissolves into the shared Super-Ocean to renew elemental cycles.",
           "isCorrect": false,
-          "rationale": "Soul light travels into the Celestial Lands within Hiva, not into the shared Super-Ocean."
+          "rationale": "Soul light travels into the Celestial Lands of Terra Incognita, inside the Great Dome, not into the shared Super-Ocean."
         },
         {
           "label": "C",
@@ -151,18 +151,18 @@
         {
           "label": "A",
           "text": "True",
-          "isCorrect": true,
-          "rationale": "Hiva is also designated as Terra Incognita and the Celestial Lands, a primary high-density realm outside the physical plane."
+          "isCorrect": false,
+          "rationale": "Hiva is a separate dome — the Dome of harmonics — and Terra Incognita (the Celestial Lands) is the non-physical dome inside the Great Dome, not an alternate name for Hiva."
         },
         {
           "label": "B",
           "text": "False",
-          "isCorrect": false,
-          "rationale": "The overview gives Hiva those designations: Terra Incognita and the Celestial Lands."
+          "isCorrect": true,
+          "rationale": "Hiva is the external Dome of harmonics; Terra Incognita — the Celestial Lands — is the non-physical dome at the heart of the Great Dome. The old equation does not stand."
         }
       ],
-      "hint": "Review how the overview names one external Great Dome and its alternate designations.",
-      "correctAnswer": "A"
+      "hint": "Review how the overview separates Hiva from Terra Incognita.",
+      "correctAnswer": "B"
     },
     {
       "number": 6,

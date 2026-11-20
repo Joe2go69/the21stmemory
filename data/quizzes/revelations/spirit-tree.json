@@ -406,9 +406,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Hiva and Terra Incognita, the pair of adjacent domes housed with the others inside the Cube.",
+          "text": "Hiva and Terra Incognita, the pair of domes housed with the others inside the Cube.",
           "isCorrect": false,
-          "rationale": "Hiva and Terra Incognita are adjacent Great Domes in the Cube architecture, not the names of the central stump."
+          "rationale": "Hiva is an adjacent Great Dome and Terra Incognita is the non-physical dome at the heart of the Great Dome — neither is the name of the central stump."
         },
         {
           "label": "B",
@@ -676,7 +676,7 @@
           "label": "C",
           "text": "The Dome of Titans, an adjacent Great Dome that meets this physical plane through the central portal.",
           "isCorrect": true,
-          "rationale": "The Dome of Titans is named among adjacent Great Domes such as Sheol, Silence, 5 Peaks, Hiva, and Terra Incognita, not among the tree's designations."
+          "rationale": "The Dome of Titans is named among adjacent Great Domes such as Sheol, Silence, 5 Peaks, and Hiva, not among the tree's designations."
         },
         {
           "label": "D",
