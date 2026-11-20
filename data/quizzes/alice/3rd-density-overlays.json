@@ -131,16 +131,16 @@
           "label": "C",
           "text": "The Sun",
           "isCorrect": true,
-          "rationale": "The Amnesia Vortex technology pulls souls into the sun to process and wipe them before immediate reincarnation."
+          "rationale": "The Amnesia Vortex technology pulled souls into the sun to process and wipe them before immediate reincarnation (deactivated in 2019)."
         },
         {
           "label": "D",
           "text": "The Moon",
           "isCorrect": false,
-          "rationale": "While often associated with celestial control, the sun is the specific location of the Amnesia Vortex processing."
+          "rationale": "While often associated with celestial control, the sun was the specific location of the Amnesia Vortex processing."
         }
       ],
-      "hint": "The central celestial body of our system serves as the processing hub for the Amnesia Vortex.",
+      "hint": "The central celestial body of our system served as the processing hub for the Amnesia Vortex.",
       "correctAnswer": "C"
     },
     {
