@@ -634,7 +634,7 @@
     },
     {
       "number": 21,
-      "question": "How do Star Pods function as transit mechanisms?",
+      "question": "What safety-net role do Star Pods serve as the overlays collapse?",
       "options": [
         {
           "label": "A",
@@ -644,24 +644,24 @@
         },
         {
           "label": "B",
-          "text": "They are the primary transit mechanisms for active extraterrestrial souls entering or exiting the dome.",
+          "text": "They act as a vital safety net so no genuine soul is abandoned to decay within the collapsing overlays.",
           "isCorrect": true,
-          "rationale": "Beyond restoration, Star Pods serve as the primary transit mechanisms for all active extraterrestrial souls entering or exiting the physical dome during planetary assistance missions."
+          "rationale": "Star Pods act as a vital safety net, ensuring that no genuine soul is abandoned to decay within the collapsing overlays."
         },
         {
           "label": "C",
           "text": "They pick up entire Healing Sanctuaries and move them from continent to continent.",
           "isCorrect": false,
-          "rationale": "The pods transport souls. The sanctuaries themselves are frequency spaces resting over natural features."
+          "rationale": "Star Pods restore souls in place. The sanctuaries themselves are frequency spaces resting over natural features."
         },
         {
           "label": "D",
           "text": "They carry physical human bodies back and forth between the Great Dome and the Known Lands.",
           "isCorrect": false,
-          "rationale": "The pods are for soul-level transit and restoration, not for moving physical human bodies."
+          "rationale": "The pods are for soul-level restoration, not for moving physical human bodies."
         }
       ],
-      "hint": "This role involves souls engaged in planetary assistance missions.",
+      "hint": "Recall what the report says about souls at risk of decay in the collapsing overlays.",
       "correctAnswer": "B"
     },
     {
@@ -772,7 +772,7 @@
         },
         {
           "label": "B",
-          "text": "The loosh is redirected as fuel for the transit mechanisms that move extraterrestrial souls.",
+          "text": "The loosh is redirected as fuel for the Star Pods that heal extraterrestrial souls.",
           "isCorrect": false,
           "rationale": "Star Pods operate through high-frequency light. They do not run on harvested loosh."
         },
