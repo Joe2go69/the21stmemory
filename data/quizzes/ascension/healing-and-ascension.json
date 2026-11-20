@@ -216,25 +216,25 @@
           "label": "A",
           "text": "It freezes in a state of suspended animation once the flashes end and stays that way for the healing phase.",
           "isCorrect": false,
-          "rationale": "Not what the report says. During the temporal transition, the 3rd realm simulation glitches and pixilates for several seconds, collapsing the artificial dome and returning the realm into alignment with the 2nd realm."
+          "rationale": "Not what the report says. During the temporal transition, the 3rd realm simulation glitches and pixilates for approximately thirty seconds, collapsing the artificial dome and returning the realm into alignment with the 2nd realm."
         },
         {
           "label": "B",
           "text": "It expands outward until it takes in the surrounding galaxy.",
           "isCorrect": false,
-          "rationale": "Not what the report says. During the temporal transition, the 3rd realm simulation glitches and pixilates for several seconds, collapsing the artificial dome and returning the realm into alignment with the 2nd realm."
+          "rationale": "Not what the report says. During the temporal transition, the 3rd realm simulation glitches and pixilates for approximately thirty seconds, collapsing the artificial dome and returning the realm into alignment with the 2nd realm."
         },
         {
           "label": "C",
           "text": "It glitches and pixelates as the artificial dome collapses and realigns with the 2nd Realm.",
           "isCorrect": true,
-          "rationale": "During the temporal transition, the 3rd realm simulation glitches and pixilates for several seconds, collapsing the artificial dome and returning the realm into alignment with the 2nd realm."
+          "rationale": "During the temporal transition, the 3rd realm simulation glitches and pixilates for approximately thirty seconds, collapsing the artificial dome and returning the realm into alignment with the 2nd realm."
         },
         {
           "label": "D",
           "text": "It dissolves into light at once, with no visible transition.",
           "isCorrect": false,
-          "rationale": "Not what the report says. During the temporal transition, the 3rd realm simulation glitches and pixilates for several seconds, collapsing the artificial dome and returning the realm into alignment with the 2nd realm."
+          "rationale": "Not what the report says. During the temporal transition, the 3rd realm simulation glitches and pixilates for approximately thirty seconds, collapsing the artificial dome and returning the realm into alignment with the 2nd realm."
         }
       ],
       "hint": "Think about the visual signs of a failing artificial construct.",
