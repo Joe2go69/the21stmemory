@@ -522,9 +522,9 @@
       "options": [
         {
           "label": "A",
-          "text": "Commanders such as Kai and alliance supervisors from the Pleiades and Andromeda.",
+          "text": "Commanders such as alliance supervisors from the Pleiades and Andromeda.",
           "isCorrect": true,
-          "rationale": "The process initiates when extraterrestrial commanders, such as Kai and alliance supervisors from the Pleiades and Andromeda, trigger the solar core."
+          "rationale": "The process initiates when extraterrestrial commanders, such as alliance supervisors from the Pleiades and Andromeda, trigger the solar core."
         },
         {
           "label": "B",
@@ -545,7 +545,7 @@
           "rationale": "While Space Force is involved in post-charge oversight, ET commanders trigger the solar core."
         }
       ],
-      "hint": "Identify the specific names and origins of the individuals managing the solar activation.",
+      "hint": "Identify the origins of the commanders managing the solar activation.",
       "correctAnswer": "A"
     },
     {

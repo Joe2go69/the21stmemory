@@ -100,7 +100,7 @@
     {
       "id": "solar-activation",
       "title": "Solar Activation",
-      "description": "Kai ignites the sun as an operational device, charging the risen quartz into an EMP grid and three flashes that open the celestial portal.",
+      "description": "The brother ignites the sun as an operational device, charging the risen quartz into an EMP grid and three flashes that open the celestial portal.",
       "topic_image": "images/ascension/solar-activation.webp",
       "is_placeholder": false,
       "added": "2026-09-08",
@@ -116,7 +116,7 @@
             {
               "id": "kai-activation",
               "title": "Kai Activation",
-              "description": "Kai’s boom command triggers the Sun Flash Event, charging quartz conductors into an EMP grid and three flashes that open the ascension portal.",
+              "description": "The brother’s boom command triggers the Sun Flash Event, charging quartz conductors into an EMP grid and three flashes that open the ascension portal.",
               "topic_image": "images/ascension/kai-activation.webp",
               "is_placeholder": false,
               "added": "2026-09-09"
