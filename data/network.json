@@ -233,32 +233,12 @@
   },
   {
    "section": "social",
-   "label": "VIDEOS",
-   "title": "21st Memory on Odysee",
-   "description": "The full video archive, synced from YouTube — watch on the decentralised Odysee network.",
-   "action": "Watch on Odysee",
-   "icon": "video",
-   "href": "https://odysee.com/@21stMemory:b9d3a28fa284927b94e1b41759b4b83d477e0494",
-   "badge": "This archive"
-  },
-  {
-   "section": "social",
    "label": "ARCHIVE",
    "title": "21st Memory on Internet Archive",
    "description": "Books, videos and audio from the archive, free to read, watch and download — preserved for the long term.",
    "action": "Browse the Archive",
    "icon": "document",
    "href": "https://archive.org/details/@21stmemory",
-   "badge": "This archive"
-  },
-  {
-   "section": "social",
-   "label": "ARTICLES",
-   "title": "21st Memory on Medium",
-   "description": "The Codex reports, republished for Medium's readers — each one links back to the full archive here.",
-   "action": "Read on Medium",
-   "icon": "book",
-   "href": "https://medium.com/@joewimberly",
    "badge": "This archive"
   }
  ]
