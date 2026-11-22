@@ -165,9 +165,9 @@
       "qrAlt": "GoFundMe QR code for 21st Memory donations"
     },
     "starlink": {
-      "href": "https://starlink.com/residential?referral=RC-DF-13754617-58626-7",
-      "buttonText": "Use the referral link",
-      "hint": "A new customer who orders through this link, and the archive, each get $100 after two months. Cash or service credit.",
+      "href": "https://starlink.com?referral=RC-DF-13754617-58626-7",
+      "buttonText": "Order Starlink with my referral →",
+      "hint": "I live in Tahsis, BC, where Starlink is the only internet that works. If you're thinking of getting it, ordering through my link gets us both $140 CAD after two months — cash or bill credit, your choice.",
       "image": "images/starlink.webp",
       "imageAlt": "Starlink referral for 21st Memory",
       "qrImage": "assets/images/starlink-qr.png",
