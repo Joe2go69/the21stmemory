@@ -1459,12 +1459,13 @@ const TopicUtils = {
   REPORT_SIZE_KEY: '21st-memory-report-size-v1',
   REPORT_SIZES: ['sm', 'md', 'lg'],
 
-  REPORT_FOCUS_KEY: '21st-memory-report-focus-v1',
-
   /**
-   * Size controls, Focus mode, and print. Safe to call twice.
+   * Size controls and print. Safe to call twice.
    */
   initReadingComfort(options = {}) {
+    document.body.classList.remove('reading-focus');
+    try { localStorage.removeItem('21st-memory-report-focus-v1'); } catch {}
+
     const toolbar =
       options.toolbar ||
       document.getElementById('report-study-toolbar');
@@ -1504,28 +1505,6 @@ const TopicUtils = {
       btn.addEventListener('click', () => applySize(btn.getAttribute('data-report-size')));
     });
 
-    let focusOn = false;
-    try {
-      focusOn = localStorage.getItem(this.REPORT_FOCUS_KEY) === '1';
-    } catch (_) { /* ignore */ }
-
-    const applyFocus = (on) => {
-      focusOn = !!on;
-      document.body.classList.toggle('reading-focus', focusOn);
-      toolbar.querySelectorAll('[data-report-focus]').forEach((btn) => {
-        btn.classList.toggle('is-active', focusOn);
-        btn.setAttribute('aria-pressed', focusOn ? 'true' : 'false');
-      });
-      try {
-        localStorage.setItem(this.REPORT_FOCUS_KEY, focusOn ? '1' : '0');
-      } catch (_) { /* ignore */ }
-    };
-
-    applyFocus(focusOn);
-    toolbar.querySelectorAll('[data-report-focus]').forEach((btn) => {
-      btn.addEventListener('click', () => applyFocus(!focusOn));
-    });
-
     toolbar.querySelector('[data-report-print]')?.addEventListener('click', () => {
       window.print();
     });
@@ -1533,6 +1512,8 @@ const TopicUtils = {
 
   ensureReadingComfortControls(toolbar) {
     if (!toolbar) return;
+
+    toolbar.querySelectorAll('[data-report-focus]').forEach((btn) => btn.remove());
 
     if (!toolbar.querySelector('[data-report-size]')) {
       const printBtn = toolbar.querySelector('[data-report-print]');
@@ -1556,18 +1537,6 @@ const TopicUtils = {
         print.textContent = 'Print';
         toolbar.appendChild(print);
       }
-    }
-
-    if (!toolbar.querySelector('[data-report-focus]')) {
-      const focus = document.createElement('button');
-      focus.type = 'button';
-      focus.className = 'report-study-btn report-study-btn--focus';
-      focus.setAttribute('data-report-focus', '');
-      focus.setAttribute('aria-pressed', 'false');
-      focus.textContent = 'Focus';
-      const printBtn = toolbar.querySelector('[data-report-print]');
-      if (printBtn) toolbar.insertBefore(focus, printBtn);
-      else toolbar.appendChild(focus);
     }
   }
 };

@@ -10118,12 +10118,6 @@ body.menu-open {
   margin-left: auto;
 }
 
-/* Legacy Focus control — hidden if any cached HTML still includes it */
-.report-study-btn--focus,
-[data-report-focus] {
-  display: none !important;
-}
-
 @media (max-width: 479px) {
   .report-study-toolbar {
     justify-content: center;
@@ -10232,76 +10226,6 @@ body[data-report-size="lg"] #report-container {
   color: var(--text-prose);
 }
 
-/* Focus mode — calm archive reading */
-body.reading-focus .navbar {
-  background: #0F0A1F !important;
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
-  box-shadow:
-    0 10px 28px -12px rgba(0, 0, 0, 0.55),
-    inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
-}
-
-/* Soften everything above/around the report */
-body.reading-focus main#main > *:not(#report-section) {
-  opacity: 0.22;
-  filter: saturate(0.6);
-  transition: opacity 0.35s ease, filter 0.35s ease;
-  pointer-events: none;
-  user-select: none;
-}
-
-body.reading-focus .site-footer {
-  opacity: 0.2;
-  filter: saturate(0.5);
-  pointer-events: none;
-  transition: opacity 0.35s ease, filter 0.35s ease;
-}
-
-body.reading-focus #report-section {
-  position: relative;
-  z-index: 2;
-  opacity: 1;
-  filter: none;
-  pointer-events: auto;
-}
-
-body.reading-focus #report-section .content-card,
-body.reading-focus #report-section .dive-report-card,
-body.reading-focus #report-section .lesson-content-card {
-  box-shadow:
-    0 0 0 1px rgba(167, 139, 250, 0.12),
-    0 28px 60px -20px rgba(0, 0, 0, 0.7),
-    0 0 80px -30px rgba(91, 33, 182, 0.35) !important;
-}
-
-body.reading-focus .report-layout {
-  max-width: min(100%, 46rem);
-  margin-inline: auto;
-}
-
-body.reading-focus .report-toc {
-  /* TOC still useful in focus — keep interactive */
-  opacity: 1;
-  filter: none;
-  pointer-events: auto;
-}
-
-body.reading-focus .topic-prev-next,
-body.reading-focus .dive-continue {
-  opacity: 0.85;
-  filter: none;
-  pointer-events: auto;
-}
-
-body.reading-focus .cosmic-bg::before {
-  opacity: 0.02;
-}
-
-body.reading-focus .section-nav-sticky {
-  opacity: 1;
-}
-
 /* Active jump control — solid 3D, no ring glow */
 .btn-jump-pill.is-active,
 .btn-jump-pill.active,
@@ -10364,22 +10288,9 @@ body.reading-focus .section-nav-sticky {
     background: #1A1433;
   }
 
-  body.reading-focus .report-study-toolbar {
-    border-color: rgba(167, 139, 250, 0.35);
-  }
 }
 
-/* Print: exit visual focus chrome */
 @media print {
-  body.reading-focus .site-footer,
-  body.reading-focus .deep-dive-hero,
-  body.reading-focus #videos-section,
-  body.reading-focus #media-section {
-    opacity: 1 !important;
-    filter: none !important;
-    pointer-events: auto !important;
-  }
-
   .report-study-toolbar,
   .reading-progress,
   .section-nav-sticky {
@@ -17272,8 +17183,7 @@ a.btn-secondary:focus-visible,
    Opaque vault bar + menu on all breakpoints
    ============================================= */
 .navbar,
-.navbar.is-scrolled,
-body.reading-focus .navbar {
+.navbar.is-scrolled {
   background: #0F0A1F !important;
   -webkit-backdrop-filter: none !important;
   backdrop-filter: none !important;
@@ -21542,11 +21452,6 @@ select.video-lang-select:focus-visible {
   overflow: visible;
 }
 
-body.reading-focus main#main > *:not(#report-section),
-body.reading-focus .site-footer {
-  filter: none;
-}
-
 @media (prefers-reduced-motion: reduce) {
   .section-nav-sticky,
   .section-nav-sticky.is-visible {
@@ -21910,11 +21815,6 @@ body[data-report-size="lg"] #report-container {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #A67C4C;
-}
-
-#report-study-toolbar .report-study-btn--focus,
-#report-study-toolbar [data-report-focus] {
-  display: inline-flex !important;
 }
 
 /* Progress — report column only; JS toggles [hidden] */
