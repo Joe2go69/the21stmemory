@@ -248,25 +248,25 @@
           "label": "A",
           "text": "To predict the exact date of the dome's collapse and move key personnel.",
           "isCorrect": false,
-          "rationale": "Not what the report says. Alliance members jumped forward into future timelines to implant millions of quartz crystals beneath the Earth's surface as conductive memory tech and EMP grid anchors."
+          "rationale": "Not what the report says. Alliance members jumped forward into future timelines to implant quartz crystals beneath the Earth's surface as conductive memory tech and EMP grid anchors."
         },
         {
           "label": "B",
           "text": "To rewrite collective history and remove the memory of parasitic influence.",
           "isCorrect": false,
-          "rationale": "Not what the report says. Alliance members jumped forward into future timelines to implant millions of quartz crystals beneath the Earth's surface as conductive memory tech and EMP grid anchors."
+          "rationale": "Not what the report says. Alliance members jumped forward into future timelines to implant quartz crystals beneath the Earth's surface as conductive memory tech and EMP grid anchors."
         },
         {
           "label": "C",
           "text": "To negotiate with parasitic entities in the past and avoid the need for an alliance.",
           "isCorrect": false,
-          "rationale": "Not what the report says. Alliance members jumped forward into future timelines to implant millions of quartz crystals beneath the Earth's surface as conductive memory tech and EMP grid anchors."
+          "rationale": "Not what the report says. Alliance members jumped forward into future timelines to implant quartz crystals beneath the Earth's surface as conductive memory tech and EMP grid anchors."
         },
         {
           "label": "D",
           "text": "To jump forward into future timelines and implant quartz crystals beneath the Earth's surface.",
           "isCorrect": true,
-          "rationale": "Alliance members jumped forward into future timelines to implant millions of quartz crystals beneath the Earth's surface as conductive memory tech and EMP grid anchors."
+          "rationale": "Alliance members jumped forward into future timelines to implant quartz crystals beneath the Earth's surface as conductive memory tech and EMP grid anchors."
         }
       ],
       "hint": "Recall the program's role in getting the crystals into place.",
@@ -693,7 +693,7 @@
           "rationale": "The quartz crystals provide both memory functions and EMP grid anchoring once triggered by solar flashes."
         }
       ],
-      "hint": "Recall the purpose of the millions of crystals implanted beneath the surface.",
+      "hint": "Recall the purpose of the crystals implanted beneath the surface.",
       "correctAnswer": "A"
     },
     {
