@@ -370,34 +370,34 @@
     },
     {
       "number": 12,
-      "question": "Why is trying to name all four scare events an operational error?",
+      "question": "What are the four scare events?",
       "options": [
         {
           "label": "A",
-          "text": "The transmission does not name all four, so chasing the list pulls attention off the moment.",
+          "text": "A WW3/missile scare, a staged alien invasion, a financial collapse, and a communications cut.",
           "isCorrect": true,
-          "rationale": "The transmission does not provide a complete list naming all four individual scare events."
+          "rationale": "The four scare events are a World War 3 / missile scare, a staged alien invasion, a sudden financial collapse, and a communications cut — the last doubling as the opening of the blackout."
         },
         {
           "label": "B",
-          "text": "Each event changes its form as it moves from one region of the realm to another.",
+          "text": "A solar flare, a comet strike, a tidal wave, and a volcanic eruption.",
           "isCorrect": false,
-          "rationale": "The events are a global sequence, and the error is treating a missing list as something to solve."
+          "rationale": "Not what the report says. The four are a WW3/missile scare, a staged alien invasion, a financial collapse, and a communications cut."
         },
         {
           "label": "C",
-          "text": "Project Looking Glass wiped those event names clean off the energetic grid.",
+          "text": "An earthquake, a plague, a drought, and a famine.",
           "isCorrect": false,
-          "rationale": "The missing list is part of the transmission, not a deletion performed by Looking Glass."
+          "rationale": "Not what the report says. The four are a WW3/missile scare, a staged alien invasion, a financial collapse, and a communications cut."
         },
         {
           "label": "D",
-          "text": "All four events strike together in one single instant and show no sequence.",
+          "text": "A meteor shower, a magnetic reversal, a solar storm, and a lunar eclipse.",
           "isCorrect": false,
-          "rationale": "The events unfold as a sequence, and the first one starts a rapid culmination."
+          "rationale": "Not what the report says. The four are a WW3/missile scare, a staged alien invasion, a financial collapse, and a communications cut."
         }
       ],
-      "hint": "Ask whether a full list of the four events was supplied.",
+      "hint": "Recall the four events the report names — war, invasion, money, and communications.",
       "correctAnswer": "A"
     },
     {
@@ -542,7 +542,7 @@
           "label": "B",
           "text": "The transmission names all four events and pins them to a November date.",
           "isCorrect": true,
-          "rationale": "The transmission does not provide a complete list naming all four individual scare events, and date-watching is an operational error."
+          "rationale": "The transmission does name all four events, but pinning them to a November date is date-watching, which is an operational error."
         },
         {
           "label": "C",
