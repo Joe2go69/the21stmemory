@@ -94,7 +94,7 @@
           "label": "B",
           "text": "Bio-Crystal Skin — Highly specialized living vessels that navigate the multi-dimensional canvas by riding sound vibrations directly across frequency membranes.",
           "isCorrect": true,
-          "rationale": "That description belongs to “Arks of Toive”. The report defines “Bio-Crystal Skin” as: The living, responsive outer membrane of a craft that interacts with light and sound to enable absolute cloaking and frequency-shifting."
+          "rationale": "That description belongs to “Arks of Tone”. The report defines “Bio-Crystal Skin” as: The living, responsive outer membrane of a craft that interacts with light and sound to enable absolute cloaking and frequency-shifting."
         },
         {
           "label": "C",
@@ -200,9 +200,9 @@
         },
         {
           "label": "D",
-          "text": "Arks of Toive, designed for rapid sound-wave riding.",
+          "text": "Arks of Tone, designed for rapid sound-wave riding.",
           "isCorrect": false,
-          "rationale": "Arks of Toive are specialized for riding sound vibrations across frequency membranes rather than sustaining planet-sized habitats."
+          "rationale": "Arks of Tone are specialized for riding sound vibrations across frequency membranes rather than sustaining planet-sized habitats."
         }
       ],
       "hint": "These structures are vast enough to be considered cities or small planets.",
@@ -546,9 +546,9 @@
         },
         {
           "label": "C",
-          "text": "Arks of Toive, specialized vessels that ride sound vibrations across frequency membranes.",
+          "text": "Arks of Tone, specialized vessels that ride sound vibrations across frequency membranes.",
           "isCorrect": false,
-          "rationale": "Arks of Toive are specialized for navigating membranes; transportation crafts are the soul-carriers with glowing walls."
+          "rationale": "Arks of Tone are specialized for navigating membranes; transportation crafts are the soul-carriers with glowing walls."
         },
         {
           "label": "D",
@@ -636,9 +636,9 @@
         },
         {
           "label": "B",
-          "text": "Arks of Toive that ride sound vibrations across multi-dimensional frequency membranes.",
+          "text": "Arks of Tone that ride sound vibrations across multi-dimensional frequency membranes.",
           "isCorrect": false,
-          "rationale": "Arks of Toive navigate frequency membranes in the higher realms rather than planetary oceans."
+          "rationale": "Arks of Tone navigate frequency membranes in the higher realms rather than planetary oceans."
         },
         {
           "label": "C",
