@@ -508,7 +508,7 @@
         },
         {
           "label": "B",
-          "text": "The sun emits a continuous bright light to charge the crystals with stored memory bank data.",
+          "text": "The sun emits a continuous bright light to charge the crystals and activate the stored memory bank data they hold.",
           "isCorrect": false,
           "rationale": "That continuous bright light is the Initial Charge that precedes the three-flash sequence, not the third flash itself."
         },
@@ -736,7 +736,7 @@
           "label": "A",
           "text": "The surfacing of the quartz crystals from beneath the Earth's crust on the synchronized timer.",
           "isCorrect": false,
-          "rationale": "The crystals surface automatically on a timer first; the Initial Charge is the sun's continuous bright light that then charges those crystals with stored memory bank data and aetheric energy."
+          "rationale": "The crystals surface automatically on a timer first; the Initial Charge is the sun's continuous bright light that then charges those crystals, activating the stored memory bank data they hold, along with aetheric energy."
         },
         {
           "label": "B",
@@ -752,9 +752,9 @@
         },
         {
           "label": "D",
-          "text": "A continuous bright light from the sun that charges crystals with memory data.",
+          "text": "A continuous bright light from the sun that charges the crystals and activates the memory data they hold.",
           "isCorrect": true,
-          "rationale": "The Initial Charge is the sun emitting a continuous bright light that fully charges the quartz crystals with stored memory bank data and aetheric energy before the three flashes begin."
+          "rationale": "The Initial Charge is the sun emitting a continuous bright light that fully charges the quartz crystals, activating the stored memory bank data they hold, along with aetheric energy, before the three flashes begin."
         }
       ],
       "hint": "Focus on the first physical interaction between the sun and the surfaced crystals.",
