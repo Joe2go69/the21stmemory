@@ -114,19 +114,19 @@
     },
     {
       "number": 4,
-      "question": "True or False: The structural descent likely comprises 33 separate densities corresponding to the 33 vertebrae of the human spine.",
+      "question": "True or False: The figure of 33 densities is Leon’s own flagged guess from the spinal symbology, not a sourced count.",
       "options": [
         {
           "label": "A",
           "text": "True",
           "isCorrect": true,
-          "rationale": "The structural descent follows a spinal blueprint likely comprising 33 separate densities corresponding to the 33 vertebrae of the human spine."
+          "rationale": "The 33 comes from the 33 vertebrae of the human spine; Leon flagged it as his own guess, and the highest density the originals name is the 18th and above."
         },
         {
           "label": "B",
           "text": "False",
           "isCorrect": false,
-          "rationale": "The report does give that count: separate densities corresponding to the vertebrae of the human spine, likely 33."
+          "rationale": "The report presents 33 as Leon’s guess from the vertebrae, not as a sourced count."
         }
       ],
       "hint": "Review the spinal blueprint in the vertical hierarchy section.",
