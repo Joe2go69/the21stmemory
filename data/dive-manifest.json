@@ -1100,9 +1100,9 @@
       "sourceId": "breakdown",
       "topicId": "silence-before-the-snap",
       "path": "/dive/breakdown/silence-before-the-snap.html",
-      "live": false,
+      "live": true,
       "title": "Silence Before the Snap",
-      "added": "2026-10-14"
+      "added": "2026-11-21T22:27:14-07:00"
     },
     {
       "sourceId": "breakdown",

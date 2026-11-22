@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "breakdown",
+      "topicId": "silence-before-the-snap",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "Silence Before the Snap",
+      "description": "Silence Before the Snap, also designated as the Atmospheric Pop, marks the suspended silence and sudden pressure drop inside the first 72 hours when undersea cables sever and the field clears for an uncorrupted instant.",
+      "topic_image": "images/breakdown/silence-before-the-snap.webp",
+      "path": "dive/breakdown/silence-before-the-snap.html",
+      "added": "2026-11-21T22:27:14-07:00"
+    },
+    {
+      "sourceId": "breakdown",
       "topicId": "sharp-edge",
       "series": "Mega Breakdown Board Notes & Highlights",
       "title": "Sharp Edge",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/craft-that-do-not-land.webp",
       "path": "dive/alice/craft-that-do-not-land.html",
       "added": "2026-11-13T12:51:02-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "project-blue-beam",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Project Blue Beam",
-      "description": "Project Blue Beam—alternatively designated as Project Bluebeam, Blue Beam, or the holographic invasion—is an advanced optical operation engineered to project a synthetic, planetary-scale extraterrestrial battle across the skies of the realm.",
-      "topic_image": "images/alice/project-blue-beam.webp",
-      "path": "dive/alice/project-blue-beam.html",
-      "added": "2026-11-11T19:50:57-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "breakdown",
+      "topicId": "silence-before-the-snap",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "Silence Before the Snap",
+      "description": "Silence Before the Snap, also designated as the Atmospheric Pop, marks the suspended silence and sudden pressure drop inside the first 72 hours when undersea cables sever and the field clears for an uncorrupted instant.",
+      "topic_image": "images/breakdown/silence-before-the-snap.webp",
+      "path": "dive/breakdown/silence-before-the-snap.html",
+      "added": "2026-11-21T22:27:14-07:00"
+    },
     {
       "sourceId": "breakdown",
       "topicId": "sharp-edge",
@@ -171,16 +181,6 @@
       "topic_image": "images/alice/scripted-avenues.webp",
       "path": "dive/alice/scripted-avenues.html",
       "added": "2026-11-17T02:13:39-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "520-million",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "520 Million",
-      "description": "520 Million is the maximum ensouled remnant left embodied after the Flash dissolves the ninety-seven percent synthetic majority.",
-      "topic_image": "images/alice/520-million.webp",
-      "path": "dive/alice/520-million.html",
-      "added": "2026-11-14T15:12:38-07:00"
     }
   ],
   "featured": [

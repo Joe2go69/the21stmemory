@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-19T02:29:12.820Z",
-  "total": 378,
+  "generatedAt": "2026-11-22T05:36:26.092Z",
+  "total": 379,
   "sources": [
     {
       "id": "revelations",
@@ -27,7 +27,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card-960.webp",
-      "count": 106
+      "count": 107
     },
     {
       "id": "ascension",
@@ -2176,7 +2176,7 @@
       "sourceTitle": "The Long-Awaited Ascension Process",
       "sourceShort": "EMF ascension process",
       "title": "Solar Activation",
-      "subtitle": "Test your understanding of Solar Activation — Kai’s ignition, the charging light, the EMP grid, and the three flashes.",
+      "subtitle": "Test your understanding of Solar Activation — the brother’s ignition, the charging light, the EMP grid, and the three flashes.",
       "questionCount": 25,
       "href": "quiz/ascension/solar-activation.html",
       "diveHref": "dive/ascension/solar-activation.html",
@@ -3458,6 +3458,21 @@
       "order": 23
     },
     {
+      "id": "silence-before-the-snap",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes & Highlights",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Silence Before the Snap",
+      "subtitle": "Test your understanding of Silence Before the Snap — the atmospheric pop, cable severance, and the split-second field clearing inside the first 72 hours.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/silence-before-the-snap.html",
+      "diveHref": "dive/breakdown/silence-before-the-snap.html",
+      "key": "breakdown/silence-before-the-snap",
+      "topicImage": "images/breakdown/silence-before-the-snap.webp",
+      "order": 24
+    },
+    {
       "id": "skull-buzzing",
       "sourceId": "breakdown",
       "sourceLabel": "Breakdown",
@@ -4183,7 +4198,7 @@
       "sourceTitle": "A Brief Synopsis of Revelations",
       "sourceShort": "Six-part revelations synopsis",
       "title": "Density Stack",
-      "subtitle": "Test your understanding of Density Stack — the thirty-three level continuum from Source Consciousness down to the organic motherboard.",
+      "subtitle": "Test your understanding of Density Stack — the continuum of thirty-three aether upgrades from Source Consciousness down to the organic motherboard.",
       "questionCount": 25,
       "href": "quiz/revelations/density-stack.html",
       "diveHref": "dive/revelations/density-stack.html",
@@ -4273,7 +4288,7 @@
       "sourceTitle": "A Brief Synopsis of Revelations",
       "sourceShort": "Six-part revelations synopsis",
       "title": "External Domes",
-      "subtitle": "Test your understanding of External Domes — five sovereign enclosures outside the physical plane that design blueprint schematics and receive the Neshama.",
+      "subtitle": "Test your understanding of External Domes — five sovereign enclosures outside the physical plane that design blueprint schematics for the physical realm.",
       "questionCount": 25,
       "href": "quiz/revelations/external-domes.html",
       "diveHref": "dive/revelations/external-domes.html",

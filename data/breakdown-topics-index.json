@@ -216,10 +216,10 @@
             {
               "id": "silence-before-the-snap",
               "title": "Silence Before the Snap",
-              "description": "Silence Before the Snap",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Silence Before the Snap, also designated as the Atmospheric Pop, marks the suspended silence and sudden pressure drop inside the first 72 hours when undersea cables sever and the field clears for an uncorrupted instant.",
+              "topic_image": "images/breakdown/silence-before-the-snap.webp",
+              "is_placeholder": false,
+              "added": "2026-11-21T22:27:14-07:00"
             }
           ]
         },
