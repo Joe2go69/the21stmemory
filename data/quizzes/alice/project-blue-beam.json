@@ -706,7 +706,7 @@
     },
     {
       "number": 24,
-      "question": "What origin is attributed to the technology that powers the central projection Valve at Mt Meru?",
+      "question": "What system is the central projection Valve at Mt Meru?",
       "options": [
         {
           "label": "A",
@@ -716,9 +716,9 @@
         },
         {
           "label": "B",
-          "text": "Benevolent high-density engineering operating from the central pole.",
+          "text": "Project Blue Beam — the Black Cube AI's projected hologram system.",
           "isCorrect": true,
-          "rationale": "The technology operated from this point belongs to high-density origins and is completely distinct from flat terrestrial illusions."
+          "rationale": "The valve system is Project Blue Beam: the Black Cube AI's advanced projected hologram system, implanted in the wound left when the Spirit Tree was ripped out. The Mt Meru site also hosts benevolent high-density holographic technology."
         },
         {
           "label": "C",
@@ -728,12 +728,12 @@
         },
         {
           "label": "D",
-          "text": "Subterranean mechanical engines built by early industrial civilizations.",
+          "text": "Benevolent high-density engineering operating from the central pole.",
           "isCorrect": false,
-          "rationale": "The apparatus is high-density projection, not a set of early industrial engines under the pole."
+          "rationale": "Benevolent high-density technology is also hosted at the Mt Meru site, but the valve system itself is Project Blue Beam — the Black Cube AI's projected hologram system."
         }
       ],
-      "hint": "Ask which grade of engineering sits at the central pole.",
+      "hint": "Ask what system the Valve is — and what else the site hosts.",
       "correctAnswer": "B"
     },
     {
