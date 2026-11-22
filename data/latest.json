@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "breakdown",
+      "topicId": "ai-war-theatre",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "A.I. War Theatre",
+      "description": "The A.I. War Theatre is an automated, scripted simulation of global conflict that runs the final fear cycle before the Great Split, with every side of the screen steered by the same artificial intelligence framework.",
+      "topic_image": "images/breakdown/ai-war-theatre.webp",
+      "path": "dive/breakdown/ai-war-theatre.html",
+      "added": "2026-11-22T01:43:56-07:00"
+    },
+    {
+      "sourceId": "breakdown",
       "topicId": "silence-before-the-snap",
       "series": "Mega Breakdown Board Notes & Highlights",
       "title": "Silence Before the Snap",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/social-media-window.webp",
       "path": "dive/alice/social-media-window.html",
       "added": "2026-11-13T16:45:54-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "craft-that-do-not-land",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Craft That Do Not Land",
-      "description": "Authentic high-density ET craft hold high-altitude observational positions above the realm and refuse physical touchdown.",
-      "topic_image": "images/alice/craft-that-do-not-land.webp",
-      "path": "dive/alice/craft-that-do-not-land.html",
-      "added": "2026-11-13T12:51:02-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "breakdown",
+      "topicId": "ai-war-theatre",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "A.I. War Theatre",
+      "description": "The A.I. War Theatre is an automated, scripted simulation of global conflict that runs the final fear cycle before the Great Split, with every side of the screen steered by the same artificial intelligence framework.",
+      "topic_image": "images/breakdown/ai-war-theatre.webp",
+      "path": "dive/breakdown/ai-war-theatre.html",
+      "added": "2026-11-22T01:43:56-07:00"
+    },
     {
       "sourceId": "breakdown",
       "topicId": "silence-before-the-snap",
@@ -171,16 +181,6 @@
       "topic_image": "images/alice/child-npcs.webp",
       "path": "dive/alice/child-npcs.html",
       "added": "2026-11-17T22:29:07-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "scripted-avenues",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Scripted Avenues",
-      "description": "Scripted Avenues represent the predetermined, artificial tracks of thought and behavioral limitation that govern non-player entities within the third-density simulation.",
-      "topic_image": "images/alice/scripted-avenues.webp",
-      "path": "dive/alice/scripted-avenues.html",
-      "added": "2026-11-17T02:13:39-07:00"
     }
   ],
   "featured": [

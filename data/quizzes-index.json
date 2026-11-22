@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-22T05:36:26.092Z",
-  "total": 379,
+  "generatedAt": "2026-11-22T08:51:43.862Z",
+  "total": 380,
   "sources": [
     {
       "id": "revelations",
@@ -27,7 +27,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card-960.webp",
-      "count": 107
+      "count": 108
     },
     {
       "id": "ascension",
@@ -2333,6 +2333,21 @@
       "key": "breakdown/ai-shells",
       "topicImage": "images/breakdown/ai-shells.webp",
       "order": 99
+    },
+    {
+      "id": "ai-war-theatre",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes & Highlights",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "A.I. War Theatre",
+      "subtitle": "Test your understanding of A.I. War Theatre — the scripted fear cycle, Black Chess Pieces, surgical media strikes, and the turn into Project Blue Beam.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/ai-war-theatre.html",
+      "diveHref": "dive/breakdown/ai-war-theatre.html",
+      "key": "breakdown/ai-war-theatre",
+      "topicImage": "images/breakdown/ai-war-theatre.webp",
+      "order": 30
     },
     {
       "id": "amnesia-vortex",

@@ -268,10 +268,10 @@
             {
               "id": "ai-war-theatre",
               "title": "A.I. War Theatre",
-              "description": "A.I. War Theatre",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "The A.I. War Theatre is an automated, scripted simulation of global conflict that runs the final fear cycle before the Great Split, with every side of the screen steered by the same artificial intelligence framework.",
+              "topic_image": "images/breakdown/ai-war-theatre.webp",
+              "is_placeholder": false,
+              "added": "2026-11-22T01:43:56-07:00"
             },
             {
               "id": "staged-world-war-iii",
