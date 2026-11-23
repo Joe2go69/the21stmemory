@@ -185,7 +185,7 @@ function initDiveStatic() {
   initTerminologyCards();
   initSectionNavSticky();
   initShareMenu();
-  // Print + font size + focus mode (replaces standalone initPrintReport)
+  // Print + font size (replaces standalone initPrintReport)
   initReadingComfort();
 }
 
