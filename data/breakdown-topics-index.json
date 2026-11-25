@@ -284,10 +284,10 @@
             {
               "id": "project-blue-beam",
               "title": "Project Blue Beam",
-              "description": "Project Blue Beam",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Project Blue Beam is an advanced holographic simulation operation deployed in the skies to stage a fake alien invasion at the emotional climax of global disruption.",
+              "topic_image": "images/breakdown/project-blue-beam.webp",
+              "is_placeholder": false,
+              "added": "2026-11-24T22:03:34-07:00"
             },
             {
               "id": "scripted-exposure",

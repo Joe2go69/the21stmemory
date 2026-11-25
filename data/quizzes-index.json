@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-22T08:51:43.862Z",
-  "total": 380,
+  "generatedAt": "2026-11-25T05:14:15.551Z",
+  "total": 381,
   "sources": [
     {
       "id": "revelations",
@@ -27,7 +27,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card-960.webp",
-      "count": 108
+      "count": 109
     },
     {
       "id": "ascension",
@@ -1996,7 +1996,7 @@
       "sourceTitle": "The Long-Awaited Ascension Process",
       "sourceShort": "EMF ascension process",
       "title": "Memory Technology",
-      "subtitle": "Test your understanding of Memory Technology — quartz conductors, the cosmic memory bank, the EMP grid, and the three-flash sequence.",
+      "subtitle": "Test your understanding of Memory Technology — quartz conductors that hold the memory bank, the EMP grid, and the three-flash sequence.",
       "questionCount": 25,
       "href": "quiz/ascension/memory-technology.html",
       "diveHref": "dive/ascension/memory-technology.html",
@@ -3338,6 +3338,21 @@
       "order": 96
     },
     {
+      "id": "project-blue-beam",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes & Highlights",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Project Blue Beam",
+      "subtitle": "Test your understanding of Project Blue Beam — the staged holographic invasion, the physical craft mixed into the fleet, and the frequency pulse that collapses it.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/project-blue-beam.html",
+      "diveHref": "dive/breakdown/project-blue-beam.html",
+      "key": "breakdown/project-blue-beam",
+      "topicImage": "images/breakdown/project-blue-beam.webp",
+      "order": 32
+    },
+    {
       "id": "rainbow-fractals",
       "sourceId": "breakdown",
       "sourceLabel": "Breakdown",
@@ -4213,7 +4228,7 @@
       "sourceTitle": "A Brief Synopsis of Revelations",
       "sourceShort": "Six-part revelations synopsis",
       "title": "Density Stack",
-      "subtitle": "Test your understanding of Density Stack — the continuum of thirty-three aether upgrades from Source Consciousness down to the organic motherboard.",
+      "subtitle": "Test your understanding of Density Stack — the continuum of successive aether upgrades from Source Consciousness down to the organic motherboard.",
       "questionCount": 25,
       "href": "quiz/revelations/density-stack.html",
       "diveHref": "dive/revelations/density-stack.html",
@@ -5143,7 +5158,7 @@
       "sourceTitle": "A Brief Synopsis of Revelations",
       "sourceShort": "Six-part revelations synopsis",
       "title": "Proximal Sols",
-      "subtitle": "Test your understanding of Proximal Sols — the original twelve beings, dual-polarity pairing, soul architecture, and the four thousand unique soul lineages.",
+      "subtitle": "Test your understanding of Proximal Sols — the twelve Proximal Sols, dual-polarity pairing, soul architecture, and the four thousand unique soul lineages.",
       "questionCount": 25,
       "href": "quiz/revelations/proximal-sols.html",
       "diveHref": "dive/revelations/proximal-sols.html",
