@@ -227,31 +227,32 @@ module.exports = {
     },
     {
       number: 9,
-      question: 'What role does the deployment of chemtrails play in relation to the simulation field?',
-      hint: 'Think about the relationship between atmospheric dispersal and the visual rendering of the sky.',
+      question: 'How do chemtrail portals differ from static ground-based portals?',
+      hint: 'Check Cockpit Visibility and Portal Navigation.',
       options: [
         {
-          text: 'Chemtrail deployment generates synthetic precipitation that cools static planetary land nodes.',
-          isCorrect: false,
-          rationale: 'Chemtrails work with spatial portals to maintain the integrity of the rendered sky rather than to cool land nodes.'
-        },
-        {
-          text: 'The deployment of chemtrails works in tandem with spatial portals to maintain the integrity of the rendered sky.',
+          text: 'They operate as compact aerial transition gates rather than remaining fixed over Ley-line intersections or ancient architectural nodes.',
           isCorrect: true,
-          rationale: 'The deployment of chemtrails works in tandem with spatial portals to maintain the integrity of the rendered sky and obscure phenomena from ground observation.'
+          rationale: 'Unlike static ground-based portals that remain fixed over major Ley-line intersections, these are compact aerial gates identified from the cockpit.'
         },
         {
-          text: 'Chemtrail deployment stabilizes barometric pressure across low-altitude ground zones under the routes.',
+          text: 'They are significantly larger than the major planetary nodes and visible from the ground.',
           isCorrect: false,
-          rationale: 'Chemtrails operate with spatial portals inside the rendering framework rather than managing ground-level pressure.'
+          rationale: 'Chemtrail portals are significantly smaller than the massive geographical nodes.'
         },
         {
-          text: 'Chemtrail deployment broadcasts electromagnetic frequencies that alter commercial navigation equipment.',
+          text: 'They remain invisible from the cockpit under all operational conditions and altitudes.',
           isCorrect: false,
-          rationale: 'Chemtrails maintain the integrity of the rendered sky and obscure higher phenomena from ground observation.'
+          rationale: 'Portal pilots identify these gates visually and instrumentally from the cockpit.'
+        },
+        {
+          text: 'They open only during chemtrail dispersal missions conducted over land nodes.',
+          isCorrect: false,
+          rationale: 'The gates are aerial transition points used across spatial vectors, not land-node events.'
         }
       ]
     },
+
     {
       number: 10,
       question: 'Which physical phenomena trigger specific diagnostic guidelines in commercial flight manuals?',
@@ -335,31 +336,32 @@ module.exports = {
     },
     {
       number: 13,
-      question: 'What underlies the operational division between portal pilots and commercial flight crews?',
-      hint: 'Reflect on the structural division between conscious portal operations and uninitiated commercial aviation.',
+      question: 'What do specialized portal pilots possess that commercial crews do not?',
+      hint: 'Look at the first Core Revelations paragraph.',
       options: [
         {
-          text: 'Chemtrail portals reveal a strictly bifurcated aviation paradigm of informed portal pilots and uninitiated commercial crews.',
+          text: 'Full conscious knowledge that aerial portals exist as physical entry and exit points embedded within the sky.',
           isCorrect: true,
-          rationale: 'Chemtrail portals reveal a strictly bifurcated aviation paradigm of informed portal pilots and uninitiated commercial crews bound by scripted handbooks.'
+          rationale: 'Portal pilots conduct operations with full conscious knowledge that aerial portals exist as physical entry and exit points.'
         },
         {
-          text: 'The division between portal pilots and commercial crews comes from different engine types and altitude limits.',
+          text: 'Aircraft capable of linear travel across immense distances.',
           isCorrect: false,
-          rationale: 'The split is a strictly bifurcated aviation paradigm of awareness and compartmentalization rather than engine hardware.'
+          rationale: 'Both classes fly aircraft; the division is knowledge — pilots cross portals deliberately, crews are kept unaware.'
         },
         {
-          text: 'The division between portal pilots and commercial crews is the split between transoceanic and domestic routes.',
+          text: 'Exemption from flight operations manuals and handbooks.',
           isCorrect: false,
-          rationale: 'Portal boundaries exist on standard commercial flight routes regardless of whether those routes are domestic or oceanic.'
+          rationale: 'Handbooks are the concealment instrument aimed at crews; the pilots\' distinction is operational awareness.'
         },
         {
-          text: 'The division between portal pilots and commercial crews is military rank inside ordinary civil aviation.',
+          text: 'Direct contact with the aviation administration\'s field officers.',
           isCorrect: false,
-          rationale: 'The division is informed portal pilots versus uninitiated commercial crews rather than rank inside civil aviation.'
+          rationale: 'Officers enforce the weather story on crews; they are not the pilots\' distinguishing asset.'
         }
       ]
     },
+
     {
       number: 14,
       question: 'What occurs when a standard commercial aircraft intersects a portal boundary?',
@@ -389,31 +391,32 @@ module.exports = {
     },
     {
       number: 15,
-      question: 'How do chemtrail portals relate to the broader rendering framework of the realm?',
-      hint: 'Consider how high-altitude operations interact with the rendered simulation field.',
+      question: 'How do flight operations officers reinforce the weather story?',
+      hint: 'See Narrative Enforcement under Institutional Cover-up.',
       options: [
         {
-          text: 'Chemtrail portals sit entirely outside the simulation field as unrendered dead zones in the sky.',
-          isCorrect: false,
-          rationale: 'Localized aerial portals operate within the same continuous rendering framework that governs all physical motion across the plane.'
-        },
-        {
-          text: 'Chemtrail portals disrupt overlay geography and break the rendered field as soon as they open.',
-          isCorrect: false,
-          rationale: 'Chemtrail portals connect to the simulation field and its overlay geography inside a continuous rendering framework.'
-        },
-        {
-          text: 'Chemtrail portals are the primary anchors that generate the physical atmosphere of the realm.',
-          isCorrect: false,
-          rationale: 'They transfer craft across spatial vectors inside the rendering framework rather than generating the atmosphere.'
-        },
-        {
-          text: 'Chemtrail portals operate within the same continuous rendering framework that governs all physical motion across the plane.',
+          text: 'Through pre-flight briefings and post-flight debriefings that steer crew toward meteorological explanations.',
           isCorrect: true,
-          rationale: 'Localized aerial portals operate within the same continuous rendering framework that governs all physical motion across the plane.'
+          rationale: 'Officers reinforce the weather story during pre-flight briefings and post-flight debriefings.'
+        },
+        {
+          text: 'By rewriting the handbook entries after every portal encounter.',
+          isCorrect: false,
+          rationale: 'The handbooks are standing instruments; enforcement happens in briefings and debriefings.'
+        },
+        {
+          text: 'By grounding any crew member who reports atmospheric anomalies.',
+          isCorrect: false,
+          rationale: 'Crew are rationalized back into accepted parameters, not grounded for reporting.'
+        },
+        {
+          text: 'By broadcasting weather reports across civilian radio channels.',
+          isCorrect: false,
+          rationale: 'Reinforcement is internal to flight operations, in the briefing cycle.'
         }
       ]
     },
+
     {
       number: 16,
       question: 'How do portal pilots navigate into specialized transition gates during active missions?',
@@ -497,31 +500,32 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'How does the institutional handling of portal encounters reflect broader systemic structures?',
-      hint: 'Reflect on how this aviation protocol mirrors broader institutional methods of disguising real mechanics.',
+      question: 'What does the designation \'unusual weather\' actually reclassify?',
+      hint: 'See the Key Terminology entry and Boundary Classification.',
       options: [
         {
-          text: 'The handling of portal encounters uses commercial copyright law to block public disclosure of flight paths.',
-          isCorrect: false,
-          rationale: 'Concealment protocols use handbooks and a weather story rather than copyright law.'
-        },
-        {
-          text: 'Concealment protocols mirror broader institutional gatekeeping where real field mechanics are consistently retranslated into benign materialist narratives.',
+          text: 'The physical edge or boundary of an active portal.',
           isCorrect: true,
-          rationale: 'Concealment protocols mirror broader institutional gatekeeping seen across academia science and public administration where real field mechanics are consistently retranslated into benign materialist narratives.'
+          rationale: 'It reclassifies the visual or physical edge of a portal threshold as a rare meteorological event.'
         },
         {
-          text: 'The handling of portal encounters follows international meteorological treaties on weather control.',
+          text: 'The wake turbulence left by another aircraft\'s passage.',
           isCorrect: false,
-          rationale: 'The weather story is an official cover narrative rather than a genuine meteorological treaty.'
+          rationale: 'Wake effects are attributed to another aircraft\'s shockwave — a separate cover explanation.'
         },
         {
-          text: 'The handling of portal encounters uses the same military enforcement as national airspace border defense.',
+          text: 'Localized cloud structures formed by sudden thermal shifts.',
           isCorrect: false,
-          rationale: 'The protocol is institutional compartmentalization and a falsified framework rather than military border defense.'
+          rationale: 'Thermal shifts are what crews are directed to report; the designation itself reclassifies the portal\'s edge.'
+        },
+        {
+          text: 'The cockpit\'s electromagnetic variation readings.',
+          isCorrect: false,
+          rationale: 'Electromagnetic variation is among the triggers for the guidelines, not what the term reclassifies.'
         }
       ]
     },
+
     {
       number: 20,
       question: 'What is the spatial characteristic of chemtrail portals compared with ground-based gates?',
@@ -639,30 +643,31 @@ module.exports = {
     },
     {
       number: 25,
-      question: 'What is exposed when the official aviation cover narratives regarding high-altitude atmospheric phenomena are understood?',
-      hint: 'Consider what is revealed when official atmospheric reclassifications are dismantled.',
+      question: 'What does the handbook attribute portal-caused turbulence and pressure fluctuations to?',
+      hint: 'See Physical Distortion Reporting.',
       options: [
         {
-          text: 'Understanding the cover narratives exposes the need for unified international weather modification treaties.',
-          isCorrect: false,
-          rationale: 'Understanding the weather story exposes the underlying portal architecture of the realm rather than a treaty agenda.'
-        },
-        {
-          text: 'Skyward anomalies categorized as unusual weather are carefully masked interactions with the underlying portal architecture.',
+          text: 'Another aircraft\'s shockwave or wake turbulence.',
           isCorrect: true,
-          rationale: 'Skyward anomalies categorized as unusual weather or another aircraft\'s shockwave are carefully masked interactions with the underlying portal architecture of the realm.'
+          rationale: 'It is the institutional explanation provided for portal-proximity effects: another aircraft\'s shockwave or wake turbulence.'
         },
         {
-          text: 'Understanding the cover narratives exposes the complete absence of turbulence in high-altitude corridors.',
+          text: 'Unusual weather along the portal\'s perimeter.',
           isCorrect: false,
-          rationale: 'Reported turbulence near a portal is a carefully masked interaction with the underlying portal architecture rather than proof that turbulence never occurs.'
+          rationale: 'Unusual weather is the classification for the portal\'s visual edge, not for kinetic impact.'
         },
         {
-          text: 'Understanding the cover narratives exposes structural instability in high-altitude commercial aircraft.',
+          text: 'Mechanical failure in the aircraft\'s pressure systems.',
           isCorrect: false,
-          rationale: 'The exposure is the artificial nature of standard aviation reporting and the underlying portal architecture rather than aircraft defects.'
+          rationale: 'No mechanical failure is invoked; the impact is attributed to a passing aircraft.'
+        },
+        {
+          text: 'Clear-air optical bends reported by the crew.',
+          isCorrect: false,
+          rationale: 'Optical bends are reported as meteorological events under boundary classification.'
         }
       ]
     }
+
   ]
 };
