@@ -263,85 +263,88 @@ module.exports = {
     },
     {
       number: 10,
-      question: 'Which accord forbids external fields from overriding self-sustained internal harmonics?',
-      hint: 'This law ensures that intervention does not violate the self-sovereignty of the field.',
+      question: 'What is Mission Insertion?',
+      hint: 'See the Key Terminology entry on insertion.',
       options: [
         {
-          text: 'The Atlantis Directive forbids external fields from overriding self-sustained internal harmonics after that civilization fell.',
-          isCorrect: false,
-          rationale: 'Atlantis is tied to the fall and the later Clueless Protocol, not the cosmic law that governs field harmonics.'
-        },
-        {
-          text: 'The Arc Trajectory Law forbids external fields from overriding self-sustained internal harmonics during multi-life mapping.',
-          isCorrect: false,
-          rationale: 'The Arc Trajectory is a navigation map, not the cosmic law governing field interactions.'
-        },
-        {
-          text: 'The Sovereign Accord forbids external fields from overriding self-sustained internal harmonics.',
+          text: 'The pre-colonization incarnation requirement compelling ancient souls to enter the plane prior to field seals to maintain compliance with cosmic law.',
           isCorrect: true,
-          rationale: 'To stay inside that law, ancient souls undergo Mission Insertion into local Taran Vessels before the field seals close.'
+          rationale: 'It is the pre-colonization incarnation requirement compelling ancient souls to enter before the seals, keeping the deployment lawful.'
         },
         {
-          text: 'The Galactic Mission Mandate forbids external fields from overriding self-sustained internal harmonics across all densities.',
+          text: 'The routing of consciousness through pod connections upon physical death.',
           isCorrect: false,
-          rationale: 'That generic label is not the legal framework named for internal harmonics. The named law is the Sovereign Accord.'
+          rationale: 'That routing is the death bypass of the protocol, not the insertion requirement.'
+        },
+        {
+          text: 'The projection of a fractional degree of spiritual energy into an avatar vessel.',
+          isCorrect: false,
+          rationale: 'That projection is the Arc Pod\'s operating function, not the pre-colonization requirement.'
+        },
+        {
+          text: 'The concealment of atmospheric pods across interdimensional dimensions.',
+          isCorrect: false,
+          rationale: 'Concealment describes where the pods were placed, not why souls entered the plane early.'
         }
       ]
     },
+
     {
       number: 11,
-      question: 'What is the role of the physical human brain according to the Arc Pod Protocol?',
-      hint: 'Think of the brain as hardware receiving a remote signal.',
+      question: 'What does the Clueless Protocol safeguard, according to Strategic Implications?',
+      hint: 'Look at Preservation of Core Identity.',
       options: [
         {
-          text: 'The physical human brain is a storage unit that holds the complete operational plan and full mission memory in the avatar.',
-          isCorrect: false,
-          rationale: 'Mission memory is deactivated in the avatar brain under the Clueless Protocol, so the brain does not store the plan.'
-        },
-        {
-          text: 'The physical human brain generates the consciousness needed to sustain the complete Oversoul matrix in the Arc Pod.',
-          isCorrect: false,
-          rationale: 'The Oversoul sustains the avatar. The brain does not generate the Oversoul matrix.'
-        },
-        {
-          text: 'The physical human brain is the primary source of spiritual willpower and higher decision-making during the incarnation.',
-          isCorrect: false,
-          rationale: 'Primary spiritual willpower originates from the pod matrix suspended above, not from the physical brain.'
-        },
-        {
-          text: 'The physical human brain functions merely as an organic receiver executing localized tasks.',
+          text: 'The primary identity of the Oversoul, keeping the core soul matrix untainted until field dissolution.',
           isCorrect: true,
-          rationale: 'Strategic decision-making is directed remotely by the Oversoul from within the Arc Pod while the brain executes local tasks.'
+          rationale: 'It safeguards the Oversoul\'s primary identity so the core soul matrix remains untainted until field dissolution.'
+        },
+        {
+          text: 'The avatar\'s conscious recall of its mission objectives.',
+          isCorrect: false,
+          rationale: 'The protocol deactivates conscious recall; what it safeguards is the Oversoul\'s identity.'
+        },
+        {
+          text: 'The bioship\'s position within the stasis overlay.',
+          isCorrect: false,
+          rationale: 'Bioship station-keeping is vessel regulation, not the protocol\'s safeguarding function.'
+        },
+        {
+          text: 'The cluster\'s shared luminosity across family members.',
+          isCorrect: false,
+          rationale: 'Shared luminosity belongs to Soul Layering; the Clueless Protocol protects core identity.'
         }
       ]
     },
+
     {
       number: 12,
-      question: 'How many soul family members are typically linked within a single Arc Pod cluster?',
-      hint: 'The number is in the mid-hundreds.',
+      question: 'Across how many soul family members is a single soul interwoven through Soul Layering?',
+      hint: 'Check the Frequency Compression and Energetic Layering subsection.',
       options: [
         {
-          text: 'A single Arc Pod cluster is typically linked to exactly 144 closely bonded soul family members across incarnation cycles.',
-          isCorrect: false,
-          rationale: 'One hundred forty-four is a common figure in other systems. This protocol names approximately 150 members.'
-        },
-        {
-          text: 'A single Arc Pod cluster is typically linked to exactly 12 closely bonded soul family members who rotate as a small council.',
-          isCorrect: false,
-          rationale: 'Twelve is a lower-order grouping and does not match the high-density cluster architecture of an Arc Pod.'
-        },
-        {
-          text: 'Each Arc Pod cluster is linked to approximately 150 closely bonded soul family members who alternate roles across incarnation cycles.',
+          text: 'More than one hundred soul family members within the pod cluster.',
           isCorrect: true,
-          rationale: 'Those members alternate as parents, children, siblings, or acquaintances across thousands of incarnation cycles.'
+          rationale: 'Soul Layering interweaves a single soul across more than one hundred soul family members in adjacent stasis units.'
         },
         {
-          text: 'A single Arc Pod cluster is typically linked to over 5,000 closely bonded soul family members sharing one atmospheric pod.',
+          text: 'Approximately twenty soul family members.',
           isCorrect: false,
-          rationale: 'Over 5,000 is the count of discrete physical incarnations for one soul, not the size of the family cluster.'
+          rationale: 'The layering spans more than one hundred soul family members, not twenty.'
+        },
+        {
+          text: 'Exactly twelve soul family members.',
+          isCorrect: false,
+          rationale: 'Twelve is the count of the Proximal Sols, not the size of a layering cluster.'
+        },
+        {
+          text: 'Several thousand soul family members.',
+          isCorrect: false,
+          rationale: 'The cluster interweaves a soul across more than one hundred members, not several thousand.'
         }
       ]
     },
+
     {
       number: 13,
       question:
@@ -372,60 +375,60 @@ module.exports = {
     },
     {
       number: 14,
-      question:
-        'What marks the conclusion of the final loop and the termination of the 3rd-density avatar experience?',
-      hint: 'This is an environmental shift involving the planetary grid.',
+      question: 'What happens to the fractional soul projection when the lower-density simulation terminates?',
+      hint: 'See Automated Homecoming Resolution.',
       options: [
         {
-          text: 'The 3rd-density avatar experience ends when the avatar successfully recalls every past-life memory through the Clueless Protocol.',
-          isCorrect: false,
-          rationale: 'Recall follows the field dropping. It is not the cause of the loop’s conclusion.'
-        },
-        {
-          text: 'The 3rd-density avatar experience ends when hostile forces destroy the atmospheric Arc Pods hidden in dimensional overlays.',
-          isCorrect: false,
-          rationale: 'The pods are concealed in dimensional frequency overlays specifically so the collective soul matrix cannot be captured or destroyed.'
-        },
-        {
-          text: 'The 3rd-density avatar experience ends when the Oversoul activates fully inside the physical brain and takes local command.',
-          isCorrect: false,
-          rationale: 'The avatar remains governed by the Clueless Protocol until the simulation itself ends.'
-        },
-        {
-          text: 'When the planetary electromagnetic field drops at the conclusion of the final loop, the lower-density avatar experience terminates.',
+          text: 'It recombines with the Oversoul in the Arc Pod before snapping back into the original homeworld vessel in stasis.',
           isCorrect: true,
-          rationale: 'The EMF drop ends the avatar experience, and plasma portal collapse then returns the fractional projection to the Oversoul.'
+          rationale: 'The fractional soul projection recombines with the Oversoul in the Arc Pod, then returns to the homeworld vessel in stasis.'
+        },
+        {
+          text: 'It cycles through the solar amnesia vortex for reassignment.',
+          isCorrect: false,
+          rationale: 'Pod routing bypasses the amnesia vortex; the projection recombines with the Oversoul instead.'
+        },
+        {
+          text: 'It remains in the avatar until the next reset begins.',
+          isCorrect: false,
+          rationale: 'The lower-density avatar experience terminates; the projection returns to the pod and the homeworld vessel.'
+        },
+        {
+          text: 'It disperses into the pod cluster\'s shared luminosity.',
+          isCorrect: false,
+          rationale: 'The projection recombines with its own Oversoul rather than dispersing into the cluster.'
         }
       ]
     },
+
     {
       number: 15,
-      question:
-        'What is the primary reason that incarnated human avatars cannot be entrusted with the complete operational plan?',
-      hint: 'Consider the nature of the realm the avatar is currently inhabiting.',
+      question: 'What does the Clueless Protocol deactivate in the 3rd-density avatar?',
+      hint: 'See the Key Terminology entry on the Clueless Protocol.',
       options: [
         {
-          text: 'Incarnated human avatars cannot hold the plan because the vessel would combust if it stored the complete mission memory rather than because the realm is inverted.',
-          isCorrect: false,
-          rationale: 'Energetic combustion is a concern for full soul luminosity. Memory deactivation is an operational security protocol, not combustion control.'
-        },
-        {
-          text: 'Incarnated human avatars cannot hold the plan because they lack the intellectual capacity to understand high-density logistics rather than because the environment is inverted.',
-          isCorrect: false,
-          rationale: 'The issue is environmental distortion and security, not inherent intellectual deficiency.'
-        },
-        {
-          text: 'Incarnated human avatars cannot hold the plan because the operational plan is constantly rewritten around hostile movements rather than being pre-calculated and then withheld.',
-          isCorrect: false,
-          rationale: 'Arc Trajectories are pre-calculated over vast periods. The plan is stable, but it cannot be held safely in the vessel.'
-        },
-        {
-          text: 'No incarnated human avatar can be safely entrusted with the complete operational plan because 3rd-density environments are subject to severe perceptual distortion.',
+          text: 'Conscious mission memory and past-life recall.',
           isCorrect: true,
-          rationale: 'Inverted simulation dynamics mean that no avatar, regardless of spiritual purity, can safely manage the full plan while in the vessel.'
+          rationale: 'The mandate deactivates conscious mission memory and past-life recall following the fall of Atlantis.'
+        },
+        {
+          text: 'The avatar\'s connection to its Arc Trajectory checkpoints.',
+          isCorrect: false,
+          rationale: 'Trajectory checkpoints remain active as déjà vu markers; memory and recall are what get deactivated.'
+        },
+        {
+          text: 'The fractional projection linking the avatar to the Oversoul.',
+          isCorrect: false,
+          rationale: 'The projection stays in place; the protocol deactivates the avatar\'s conscious mission memory.'
+        },
+        {
+          text: 'The energetic signature that registers the avatar within the simulation.',
+          isCorrect: false,
+          rationale: 'Signature masking is the work of compression and layering, not the Clueless mandate.'
         }
       ]
     },
+
     {
       number: 16,
       question:
@@ -609,60 +612,60 @@ module.exports = {
     },
     {
       number: 23,
-      question:
-        'What happens when the planetary electromagnetic field (EMF) drops at the end of the final loop?',
-      hint: 'It results in an ultimate Universal reunion.',
+      question: 'What do pre-mapped Arc Trajectories guarantee during final field alignment?',
+      hint: 'See Guaranteed Field Grid Positioning.',
       options: [
         {
-          text: 'When the planetary electromagnetic field drops, the Bioships descend into the planetary atmosphere to collect every avatar instead of the fractional projection snapping home.',
-          isCorrect: false,
-          rationale: 'The fractional projection snaps back toward the Bioship. The craft itself remains in its original stasis overlay.'
-        },
-        {
-          text: 'When the planetary electromagnetic field drops, entities recognize surrounding soul family members out of costume in the ultimate Universal reunion.',
+          text: 'That soul architectures are physically distributed across key surface nodes without triggering energetic alarms.',
           isCorrect: true,
-          rationale: 'The fractional projection dissolves, perceptual costumes fall, and the cluster meets in the ultimate Universal reunion.'
+          rationale: 'Architectures are physically distributed across key surface nodes during final field alignment, without triggering energetic alarms.'
         },
         {
-          text: 'When the planetary electromagnetic field drops, the complete Oversoul matrix is permanently destroyed with the collapsing simulation instead of being preserved and recombined.',
+          text: 'That every avatar recovers its mission memory before the alignment.',
           isCorrect: false,
-          rationale: 'The Oversoul matrix is preserved and recombined. It is the lower-density simulation that terminates.'
+          rationale: 'Mission memory stays deactivated under the Clueless Protocol; trajectories guarantee positioning, not recall.'
         },
         {
-          text: 'When the planetary electromagnetic field drops, the Clueless Protocol is renewed so another 178,000-year cycle can begin instead of ending the avatar experience.',
+          text: 'That bioships descend into the atmosphere to retrieve the pods.',
           isCorrect: false,
-          rationale: 'The EMF drop signals the end of the protocol and the simulation, not a renewal of amnesia for another cycle.'
+          rationale: 'Bioships remain in the stasis overlay; trajectories position the architectures on surface nodes.'
+        },
+        {
+          text: 'That the pod clusters merge into a single collective matrix.',
+          isCorrect: false,
+          rationale: 'Clusters stay distinct; the guarantee is distribution across key nodes without alarms.'
         }
       ]
     },
+
     {
       number: 24,
-      question:
-        'The Sovereign Accord forbids external fields from overriding internal harmonics. What is a consequence of this law for ancient souls?',
-      hint: "This law dictates how souls must arrive on the scene.",
+      question: 'How do deployed entities avoid the solar amnesia vortex upon physical death?',
+      hint: 'Look at the first Core Revelations paragraph.',
       options: [
         {
-          text: 'Ancient souls are prohibited from ever entering 3rd-density realms because any arrival would override internal harmonics instead of entering through local Taran Vessels.',
-          isCorrect: false,
-          rationale: 'They may enter, provided they use local vessels so the arrival stays inside the field’s internal harmonics.'
-        },
-        {
-          text: 'Ancient souls were required to undergo Mission Insertion by incarnating into local Taran Vessels prior to the initial parasitic inversion and colonisation.',
+          text: 'They route their consciousness matrix directly through dedicated pod connections.',
           isCorrect: true,
-          rationale: 'Mission Insertion into local Taran Vessels keeps the arrival compliant with the Sovereign Accord before the field seals close.'
+          rationale: 'Consciousness routes through the matrix directly through dedicated pod connections, bypassing the cyclic reset destruction and memory wipe.'
         },
         {
-          text: 'Ancient souls must remain in stasis indefinitely on their homeworld and never project a fractional avatar into the realm instead of deploying through Mission Insertion.',
+          text: 'They remain in stasis aboard the bioship until the vortex closes.',
           isCorrect: false,
-          rationale: 'They can deploy, but they must do so through local vessels and the Arc Pod Protocol rather than remaining forever in stasis.'
+          rationale: 'The original vessels wait in stasis; the deployed consciousness routes through the pods at death.'
         },
         {
-          text: 'Ancient souls must carry their complete mission memory at all times so the Sovereign Accord can audit every local decision instead of running the Clueless Protocol in the avatar.',
+          text: 'They transfer into a new vessel prepared on the planetary surface.',
           isCorrect: false,
-          rationale: 'The Clueless Protocol requires the opposite: mission memory is deactivated in the 3rd-density avatar for operational security.'
+          rationale: 'No surface transfer occurs; the matrix returns through dedicated pod connections.'
+        },
+        {
+          text: 'They layer their signature across the pod cluster until recall fades.',
+          isCorrect: false,
+          rationale: 'Layering masks signatures during life; death routing is a direct pod connection, not a fading process.'
         }
       ]
     },
+
     {
       number: 25,
       question:
