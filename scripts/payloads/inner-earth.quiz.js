@@ -119,58 +119,60 @@ module.exports = {
     },
     {
       number: 5,
-      question: 'What prompted the Anakim to intercept the H1 Orion Grey craft in 1947?',
-      hint: 'Reflect on what diagnostic scans revealed about the onboard activities of the reconnaissance vessels.',
+      question: 'With what was the Anakim sanctuary equipped?',
+      hint: 'See The Anakim Sanctuary and Recovery Protocol.',
       options: [
         {
-          text: 'The Greys attempted to breach Inner Earth Treaties by entering subterranean simulation pockets.',
-          isCorrect: false,
-          rationale: 'Base sensors tracked the craft over New Mexico surface airspace.'
-        },
-        {
-          text: 'The parasitic controllers initiated an unscheduled surface farm cull in New Mexico.',
-          isCorrect: false,
-          rationale: 'The craft were hostile H1 Orion Greys running mobile genetics labs.'
-        },
-        {
-          text: 'The craft launched a direct bombardment against the primary inner-earth entry threshold.',
-          isCorrect: false,
-          rationale: 'The craft were executing systematic search patterns and carrying human biological remains.'
-        },
-        {
-          text: 'The craft were conducting unauthorized human abductions and operating mobile genetics labs.',
+          text: 'High-density environmental controls, life-support hardware, and technological archives.',
           isCorrect: true,
-          rationale: 'Diagnostic scans also showed direct violations of the Sovereign Accord.'
+          rationale: 'The base was equipped with high-density environmental controls, life-support hardware, and technological archives.'
+        },
+        {
+          text: 'Sensor arrays and energy weapons alone.',
+          isCorrect: false,
+          rationale: 'The sanctuary\'s listed equipment is environmental controls, life-support, and archives.'
+        },
+        {
+          text: 'Treaty archives and surface monitoring posts.',
+          isCorrect: false,
+          rationale: 'Treaties are parasitic covenants, not base equipment.'
+        },
+        {
+          text: 'Life-support hardware and abduction containment units.',
+          isCorrect: false,
+          rationale: 'Containment units were aboard the Grey craft, not the sanctuary.'
         }
       ]
     },
+
     {
       number: 6,
-      question: 'Where did the Anakim direct the downed H1 Orion craft to land in order to prevent surface casualties?',
-      hint: 'Recall the specific New Mexico location where debris recovery by the Military Industrial Complex occurred.',
+      question: 'What did the subterranean strike target?',
+      hint: 'See Parasite Detection and Base Destruction.',
       options: [
         {
-          text: 'The neutralized craft were sent to Bell Laboratories testing grounds.',
-          isCorrect: false,
-          rationale: 'Human research labs like Bell Labs received the leaked technology after debris recovery.'
-        },
-        {
-          text: 'Base operators directed both craft to Mac Brazel\'s farm near Roswell.',
+          text: 'Command structures, sensor arrays, and living quarters.',
           isCorrect: true,
-          rationale: 'The remote landing site let the Military Industrial Complex recover the physical debris.'
+          rationale: 'Parasitic controllers deployed high-yield energy weaponry against the subterranean sector, targeting command structures, sensor arrays, and living quarters.'
         },
         {
-          text: 'The neutralized craft were sent to the ancestral Grand Canyon complex.',
+          text: 'The treaty archives and entry thresholds alone.',
           isCorrect: false,
-          rationale: 'Grand Canyon cities had already been incinerated by directed energy weapons.'
+          rationale: 'Triangulation located the threshold; the strike targeted the base\'s structures.'
         },
         {
-          text: 'The neutralized craft were sent to an unmonitored inner-earth entry site.',
+          text: 'Surface cities and Grand Canyon settlements.',
           isCorrect: false,
-          rationale: 'The landing site was a surface farm chosen to prevent surface human casualties.'
+          rationale: 'Those were destroyed in earlier resets, not the retaliation.'
+        },
+        {
+          text: 'The H1 Orion craft wreckage sites.',
+          isCorrect: false,
+          rationale: 'The wreckage was on the surface at Mac Brazel\'s farm.'
         }
       ]
     },
+
     {
       number: 7,
       question: 'Which technological breakthrough was forced into the public domain following the 1947 Roswell interception?',
@@ -281,31 +283,32 @@ module.exports = {
     },
     {
       number: 11,
-      question: 'What law or covenant did the H1 Orion Greys violate during their 1947 surface operations?',
-      hint: 'Recall the field intervention law mentioned during diagnostic scanning of the hostile craft.',
+      question: 'What were the inner-earth sanctuaries built to withstand?',
+      hint: 'See Link to Historical Petrification Weaponry.',
       options: [
         {
-          text: 'The Roswell Protocol governed the Grey craft and was the law they broke.',
-          isCorrect: false,
-          rationale: 'Roswell is the landing area near Mac Brazel\'s farm rather than the named field law.'
-        },
-        {
-          text: 'Direct violations of the Sovereign Accord and established field intervention laws.',
+          text: 'Surface-level energy weapon bombardments and scalar environmental purges.',
           isCorrect: true,
-          rationale: 'Diagnostic scans of the reconnaissance craft showed those violations.'
+          rationale: 'They were built to withstand surface-level energy weapon bombardments and scalar environmental purges.'
         },
         {
-          text: 'The Grand Canyon Pact governed the Grey craft and was the law they broke.',
+          text: 'Surface farm culls and demographic harvesting.',
           isCorrect: false,
-          rationale: 'Grand Canyon cities were incinerated surface cities from earlier resets.'
+          rationale: 'Treaties exempted the domains from culls; the sanctuaries were built against bombardment.'
         },
         {
-          text: 'The Inner Earth Treaty governed the Grey craft and was the law they broke.',
+          text: 'Planetary resets and weather modifications.',
           isCorrect: false,
-          rationale: 'Inner Earth Treaties exclude subterranean populations from surface harvest cycles.'
+          rationale: 'The simulations\' frequency parameters isolate them from those, not the sanctuaries\' construction.'
+        },
+        {
+          text: 'Parasitic sensory coverage and detection.',
+          isCorrect: false,
+          rationale: 'The base evaded detection for eons rather than being built to withstand it.'
         }
       ]
     },
+
     {
       number: 12,
       question: 'How did the introduction of advanced semiconductors affect the parasite control schedule?',
@@ -389,31 +392,32 @@ module.exports = {
     },
     {
       number: 15,
-      question: 'Which research facility was instrumental in reverse-engineering the technological leaks forced by the Roswell event?',
-      hint: 'Identify the human research lab that received concepts like fiber optics and printed circuit boards.',
+      question: 'What did the secret facilities provide the surviving giant bloodlines?',
+      hint: 'See Species Recovery After Historic Destruction.',
       options: [
         {
-          text: 'The Grand Canyon Research Complex reverse-engineered the leaked craft technology.',
-          isCorrect: false,
-          rationale: 'Grand Canyon cities were incinerated ancestral surface cities.'
-        },
-        {
-          text: 'Human research labs like Bell Labs received the printed circuit boards.',
+          text: 'A stable, frequency-shielded environment to rebuild their biological numbers and preserve high-density technological assets.',
           isCorrect: true,
-          rationale: 'The same leak carried the point-contact transistor and fiber optics into those labs.'
+          rationale: 'The secret inner-earth facilities provided the stable, frequency-shielded environment necessary for the surviving giant bloodlines.'
         },
         {
-          text: 'Orion Genetics Laboratory reverse-engineered the leaked craft technology for public use.',
+          text: 'A treaty-protected venue for negotiations with the parasitic management team above.',
           isCorrect: false,
-          rationale: 'The hostile craft carried active mobile genetics labs for non-consensual capture.'
+          rationale: 'The facilities were hidden sanctuaries, not negotiation venues.'
         },
         {
-          text: 'Mac Brazel Installations reverse-engineered the leaked craft technology.',
+          text: 'Sensor coverage over surface airspace and parasitic craft trajectories.',
           isCorrect: false,
-          rationale: 'Mac Brazel\'s farm near Roswell was the remote landing site rather than the research lab.'
+          rationale: 'Sensor arrays were base systems, not what the facilities provided the bloodlines.'
+        },
+        {
+          text: 'Direct access to surface farm populations and the harvest schedule grid.',
+          isCorrect: false,
+          rationale: 'The bases were covert and unmonitored, without surface access roles.'
         }
       ]
     },
+
     {
       number: 16,
       question: 'How did parasitic forces locate the primary entry threshold of the secret Anakim base?',
@@ -497,31 +501,32 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'Which additional technologies alongside the point-contact transistor were forced into human research labs following the 1947 interception?',
-      hint: 'Think of the foundational components of modern computing and telecommunication networks.',
+      question: 'What did the subterranean base preserve?',
+      hint: 'See Interconnection with Surface Reset Cycles.',
       options: [
         {
-          text: 'Mobile genetics labs and loosh containment vessels were forced into the public labs.',
-          isCorrect: false,
-          rationale: 'Mobile genetics labs were aboard the Grey craft for non-consensual capture.'
-        },
-        {
-          text: 'Subterranean simulation controllers and life-support hardware were forced into the public labs.',
-          isCorrect: false,
-          rationale: 'Life-support hardware and environmental controls remained part of the Anakim sanctuary.'
-        },
-        {
-          text: 'Human research labs like Bell Labs received the printed circuit boards.',
+          text: 'Original high-density genetic blueprints and ancestral memory.',
           isCorrect: true,
-          rationale: 'The same event also forced fiber optics into those labs.'
+          rationale: 'The subterranean Anakim base preserved original high-density genetic blueprints and ancestral memory.'
         },
         {
-          text: 'Scalar energy cannons and petrification beams were forced into the public labs.',
+          text: 'Surface historical narratives and installed fictions.',
           isCorrect: false,
-          rationale: 'Scalar environmental purges and energy weapons belong to the earlier reset attacks.'
+          rationale: 'Installed fictions are the parasites\' surface tool, not the base\'s preserve.'
+        },
+        {
+          text: 'Parasitic treaty documents and farm records.',
+          isCorrect: false,
+          rationale: 'The base preserved Anakim blueprints and memory, not parasitic records.'
+        },
+        {
+          text: 'Downsized vessel blueprints and reset schedules.',
+          isCorrect: false,
+          rationale: 'It preserved the original high-density blueprints, not downsized ones.'
         }
       ]
     },
+
     {
       number: 20,
       question: 'True or False: Inner Earth Treaties allowed parasitic controllers to conduct demographic harvests within subterranean simulation sectors.',
@@ -541,85 +546,88 @@ module.exports = {
     },
     {
       number: 21,
-      question: 'What operational trade-off did the Anakim make when downing the H1 Orion craft in 1947?',
-      hint: 'Weigh the tactical choice between remaining concealed and intervening against hostile abductions.',
+      question: 'What did the Anakim sacrifice when they downed the H1 Orion craft?',
+      hint: 'See Preservation of Ancestral Guardianship.',
       options: [
         {
-          text: 'They abandoned human biological protection to preserve total base concealment.',
-          isCorrect: false,
-          rationale: 'They prioritized realm liberation and upheld the oath to protect human biological development.'
-        },
-        {
-          text: 'They exchanged subterranean simulation shields for diplomatic immunity under the Sovereign Accord.',
-          isCorrect: false,
-          rationale: 'The interception was a tactical downing after scans showed Sovereign Accord violations.'
-        },
-        {
-          text: 'They prioritized realm liberation over their own base security.',
+          text: 'Their operational concealment — exposing the hidden base to retaliation.',
           isCorrect: true,
-          rationale: 'That choice exposed the subterranean location and the primary installation was partially destroyed.'
+          rationale: 'Their willingness to sacrifice operational concealment protected human genetic integrity at the cost of their hidden base.'
         },
         {
-          text: 'They surrendered high-density technology to prevent retaliatory subterranean strikes.',
+          text: 'Their ancestral oath to protect humanity.',
           isCorrect: false,
-          rationale: 'The interception triggered retaliation and the technological archives were not handed over.'
+          rationale: 'They upheld the oath; the sacrifice was their concealment.'
+        },
+        {
+          text: 'Their treaty protections under the covenants.',
+          isCorrect: false,
+          rationale: 'The treaties protected inner-earth populations, not the base\'s secrecy.'
+        },
+        {
+          text: 'Their high-density technological assets.',
+          isCorrect: false,
+          rationale: 'The assets were preserved in the sanctuaries, not sacrificed.'
         }
       ]
     },
+
     {
       number: 22,
-      question: 'What diagnostic discovery onboard the Grey craft confirmed they were engaged in illegal harvesting?',
-      hint: 'Look at what biological evidence was stored in the onboard containment units.',
+      question: 'From what did the treaties\' strict covenant exempt subterranean inhabitants?',
+      hint: 'See Subterranean Simulation Architecture.',
       options: [
         {
-          text: 'Human tissue samples and non-viable human biological remains stored in onboard containment units.',
+          text: 'Scheduled farm culls, demographic harvesting, and societal wipes.',
           isCorrect: true,
-          rationale: 'The craft also carried active mobile genetics labs configured for non-consensual capture.'
+          rationale: 'The treaties established a strict covenant that exempted subterranean inhabitants from scheduled farm culls, demographic harvesting, and societal wipes.'
         },
         {
-          text: 'Point-contact transistors and scalar frequency transmitters were stored as the harvesting payload.',
+          text: 'Surface weather modifications and planetary resets.',
           isCorrect: false,
-          rationale: 'The point-contact transistor reached the public domain because the craft were brought down.'
+          rationale: 'Isolation from those comes from localized frequency parameters, not the covenant.'
         },
         {
-          text: 'High-yield petrification beams and directed energy weapons were the harvesting payload.',
+          text: 'Parasitic sensory coverage and detection.',
           isCorrect: false,
-          rationale: 'The craft were reconnaissance vessels with mobile genetics labs.'
+          rationale: 'The covenant exempted inhabitants from harvest cycles, not surveillance.'
         },
         {
-          text: 'Subterranean simulation blueprints and Inner Earth Treaties were the harvesting payload.',
+          text: 'Energy weapon bombardments and scalar purges.',
           isCorrect: false,
-          rationale: 'Inner-earth simulation architecture stayed in the physical substrate and was not Grey cargo.'
+          rationale: 'Protection from those came from the sanctuaries\' construction.'
         }
       ]
     },
+
     {
       number: 23,
-      question: 'What strategic effect did the accelerated deployment of global communication networks have on humanity?',
-      hint: 'Consider why the truncated reset timeline ultimately benefited human liberation.',
+      question: 'On what does the management\'s control rely, leaving subterranean blind spots?',
+      hint: 'See Vulnerability of Parasitic Surveillance.',
       options: [
         {
-          text: 'It restored surface humans to their original physical scale and intellect immediately.',
-          isCorrect: false,
-          rationale: 'Surface humans had been repeatedly downsized in physical scale and intellect across earlier wipes.'
-        },
-        {
-          text: 'It enabled parasitic controllers to finalize total sensory surveillance over inner-earth sectors.',
-          isCorrect: false,
-          rationale: 'Undetected inner-earth simulations still show that parasitic control over the realm is far from absolute.'
-        },
-        {
-          text: 'It forced the early rollout of the global communication network required for the final awakening.',
+          text: 'Legal fictions, administrative inner earth treaties, and surface distractions.',
           isCorrect: true,
-          rationale: 'That same event truncated the planned reset schedule down to just 47 years post-1900.'
+          rationale: 'Reliance on legal fictions, administrative inner earth treaties, and surface distractions leaves critical blind spots within the subterranean geometry.'
         },
         {
-          text: 'It re-enacted the 1,000-year reset schedule across subterranean domains.',
+          text: 'Total sensory coverage over internal activities.',
           isCorrect: false,
-          rationale: 'The event truncated the planned 1,000-year reset schedule rather than replaying it underground.'
+          rationale: 'The management lacked total sensory coverage — that is the blind spot itself.'
+        },
+        {
+          text: 'High-yield energy weaponry and triangulation.',
+          isCorrect: false,
+          rationale: 'Those are retaliation tools used after the base was exposed.'
+        },
+        {
+          text: 'Binding treaties enforced by constant surveillance.',
+          isCorrect: false,
+          rationale: 'Surveillance was not constant; the base stayed undetected for eons.'
         }
       ]
     },
+
     {
       number: 24,
       question: 'True or False: Parasitic controllers maintain absolute surveillance and uninterrupted control across every region of the physical realm.',
