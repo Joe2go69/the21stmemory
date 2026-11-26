@@ -173,31 +173,32 @@ module.exports = {
     },
     {
       number: 7,
-      question: 'What is the role of higher education in the deployment of the Usury Trap?',
-      hint: 'Consider how the system introduces debt before a person understands financial reality.',
+      question: 'What happens to young individuals who incur university debt?',
+      hint: 'See Educational Debt and Career Traps.',
       options: [
         {
-          text: 'It acts as a buffer that delays entry into the workforce to prevent immediate economic inflation.',
-          isCorrect: false,
-          rationale: 'Higher education institutions act as onboarding channels that normalize debt, rather than as a buffer against inflation.'
-        },
-        {
-          text: 'It serves as a meritocratic filter that rewards those with the highest level of cognitive discipline.',
-          isCorrect: false,
-          rationale: 'The described outcome is normalized debt and career traps in an overcrowded job market, not a pure reward for cognitive discipline.'
-        },
-        {
-          text: 'Higher education institutions act as onboarding channels that normalize debt before individuals understand financial reality.',
+          text: 'They find an overcrowded job market forcing low-wage employment, shelf-stacking, or basic service roles while burdened by perpetual repayment demands.',
           isCorrect: true,
-          rationale: 'The usury trap interfaces directly with Academic Distortion, and higher education institutions act as onboarding channels that normalize debt before individuals understand financial reality.'
+          rationale: 'Debt-burdened graduates face an overcrowded market that forces them into low-wage employment under perpetual repayment demands.'
         },
         {
-          text: 'It provides the technical skills necessary to navigate and eventually dismantle the financial matrix.',
+          text: 'They receive guaranteed high-wage placement in professional roles upon graduation from university.',
           isCorrect: false,
-          rationale: 'These institutions normalize debt before individuals understand financial reality, rather than supplying the means to dismantle the trap.'
+          rationale: 'The market is overcrowded and the roles are low-wage, not guaranteed placements.'
+        },
+        {
+          text: 'Their loans are forgiven in full once regular employment begins after their studies conclude.',
+          isCorrect: false,
+          rationale: 'Repayment demands are perpetual; nothing is forgiven at employment.'
+        },
+        {
+          text: 'They are recruited directly into the financial institutions that issued their student loans.',
+          isCorrect: false,
+          rationale: 'They are pushed into service roles, not into the institutions.'
         }
       ]
     },
+
     {
       number: 8,
       question: 'Why does the state prohibit self-termination within the Usury Trap framework?',
@@ -227,112 +228,116 @@ module.exports = {
     },
     {
       number: 9,
-      question: 'What occurs when an individual falls outside standard employment and relies on state benefits?',
-      hint: 'Identify where the welfare payment actually originates.',
+      question: 'What do mortgage obligations and vehicle financing plans convert?',
+      hint: 'See Mortgages and Auto Finance.',
       options: [
         {
-          text: 'The state provides a portion of general tax revenue to support the individual\'s basic needs.',
-          isCorrect: false,
-          rationale: 'These payments are drawn directly from their own Cestui Que Vie accounts rather than public tax funds.'
-        },
-        {
-          text: 'They enter a social safety net designed to facilitate a quick return to productive economic status.',
-          isCorrect: false,
-          rationale: 'Citizens are forced onto government welfare programs and required to jump through humiliating administrative hoops for minor stipend payments drawn from their own accounts.'
-        },
-        {
-          text: 'The individual\'s corporate strawman is dissolved to prevent further debt accumulation by the state.',
-          isCorrect: false,
-          rationale: 'The corporate strawman persona remains the legal standing for hidden bond accounts, and benefit payments are drawn from the individual\'s own Cestui Que Vie accounts.'
-        },
-        {
-          text: 'These payments are drawn directly from their own Cestui Que Vie accounts rather than public tax funds.',
+          text: 'A lifetime of active labor into interest payments that flow back into the corporate matrix.',
           isCorrect: true,
-          rationale: 'Citizens who fall outside standard employment are required to jump through humiliating administrative hoops to receive minor stipend payments drawn directly from their own Cestui Que Vie accounts rather than public tax funds.'
+          rationale: 'These instruments produce interest payments that flow back into the corporate matrix from a lifetime of labor.'
+        },
+        {
+          text: 'Personal savings and wages into hidden state bond accounts held in trust.',
+          isCorrect: false,
+          rationale: 'Labor is what converts, into interest flowing to the matrix.'
+        },
+        {
+          text: 'Citizen wages into taxpayer-funded public services and welfare programs.',
+          isCorrect: false,
+          rationale: 'Payments flow to the corporate matrix, not public services.'
+        },
+        {
+          text: 'Outstanding debt into sovereign financial independence for the borrower.',
+          isCorrect: false,
+          rationale: 'The instruments deepen servitude rather than independence.'
         }
       ]
     },
+
     {
       number: 10,
-      question: 'What is the relationship between Legal Capture and the Usury Trap?',
-      hint: 'Determine which process must happen first to allow hidden bond accounts.',
+      question: 'What does the entire usury apparatus depend upon?',
+      hint: 'See Administrative Concealment and Legal Illusion.',
       options: [
         {
-          text: 'Legal Capture refers to the protection of the individual\'s assets from the usurious demands of the state.',
-          isCorrect: false,
-          rationale: 'Legal Capture converts living souls into corporate assets and is the foundational legal prerequisite of the Usury Trap, not a protection from usury.'
-        },
-        {
-          text: 'Legal Capture is a secondary consequence of failing to repay usurious debts to private institutions.',
-          isCorrect: false,
-          rationale: 'Legal Capture is the foundational legal prerequisite, and the corporate strawman is created via the birth certificate before any particular loan.'
-        },
-        {
-          text: 'Legal Capture serves as the foundational legal prerequisite for the state to monetize a living soul.',
+          text: 'Absolute secrecy regarding the Cestui Act 1666 and its associated financial account structures.',
           isCorrect: true,
-          rationale: 'The Usury Trap is inextricably linked to Legal Capture, which serves as its foundational legal prerequisite, without which the state would lack the legal standing to monetize a living soul.'
+          rationale: 'The apparatus depends upon absolute secrecy regarding the Cestui Act 1666 and its account structures.'
         },
         {
-          text: 'They are independent mechanisms that only overlap in cases of extreme financial insolvency.',
+          text: 'Public awareness of citizens\' creator-being status.',
           isCorrect: false,
-          rationale: 'The Usury Trap is inextricably linked to Legal Capture, which serves as its foundational legal prerequisite.'
+          rationale: 'The apparatus requires ignorance of that status, not awareness.'
+        },
+        {
+          text: 'Voluntary disclosure of bond account balances.',
+          isCorrect: false,
+          rationale: 'Balances are concealed, never voluntarily disclosed.'
+        },
+        {
+          text: 'Open acknowledgment of the fraud by state institutions.',
+          isCorrect: false,
+          rationale: 'Institutions present the system as benevolent, never acknowledging fraud.'
         }
       ]
     },
+
     {
       number: 11,
-      question: 'Which of the following describes the corporate strawman persona?',
-      hint: 'Focus on the legal entity created via the birth certificate.',
+      question: 'Why does the state prohibit self-termination, according to the report?',
+      hint: 'Check the closing argument of Administrative Concealment.',
       options: [
         {
-          text: 'A fraudulent identity used by outside criminals to siphon funds from institutional bank accounts.',
-          isCorrect: false,
-          rationale: 'The corporate strawman persona is created via the birth certificate by the state so a living soul can be monetized, not by outside criminals raiding bank accounts.'
-        },
-        {
-          text: 'The corporate strawman persona is created via the birth certificate so the state can monetize a living soul.',
+          text: 'To prevent the premature loss of a loosh-generating asset whose existential anxiety yields more value than the extracted currency.',
           isCorrect: true,
-          rationale: 'Without the creation of the corporate strawman persona via the birth certificate, the state would lack the legal standing to monetize a living soul or establish hidden bond accounts.'
+          rationale: 'The state protects its loosh-generating asset whose existential anxiety yields far more value than the currency extracted.'
         },
         {
-          text: 'A high-level executive identity used to shield individuals from personal liability in commerce.',
+          text: 'Out of humanitarian concern for the welfare and dignity of living citizens under its care.',
           isCorrect: false,
-          rationale: 'The corporate strawman persona is the state\'s means of monetizing a living soul, not a shield the individual uses against personal liability.'
+          rationale: 'The stated motive is asset preservation, explicitly not humanitarian concern.'
         },
         {
-          text: 'An idealized version of the self that individuals strive to achieve through professional success.',
+          text: 'To preserve the labor force needed to service national debt through lifetime taxation alone.',
           isCorrect: false,
-          rationale: 'The corporate strawman persona is a legal creation via the birth certificate, not a personal ideal of professional success.'
+          rationale: 'The value protected is loosh yield, which exceeds even the currency extraction.'
+        },
+        {
+          text: 'Because statutory law recognizes the sanctity of life under natural and organic law.',
+          isCorrect: false,
+          rationale: 'Statutory law serves the apparatus; the prohibition protects the asset\'s output.'
         }
       ]
     },
+
     {
       number: 12,
-      question: 'How do media and corporate culture contribute to the maintenance of the Usury Trap?',
-      hint: 'Think about how social pressure drives financed goods and artificial status.',
+      question: 'What does a Confidence Trick rely on to siphon real wealth?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'By acting as a watchdog that exposes the hidden mechanics of the birth certificate bond system.',
-          isCorrect: false,
-          rationale: 'Corporate culture and media systems deploy predictive programming and social pressure that drive debt, rather than exposing the birth certificate bond.'
-        },
-        {
-          text: 'By encouraging spiritual awareness and pineal activation to help citizens transcend economic lack.',
-          isCorrect: false,
-          rationale: 'This pressure keeps the population locked in survival mode, preventing pineal activation and spiritual awareness.'
-        },
-        {
-          text: 'By providing transparent financial education that allows individuals to avoid predatory lending.',
-          isCorrect: false,
-          rationale: 'Media systems deploy predictive programming and social pressure toward luxury goods, financed vehicles, and mortgages, not transparent education that avoids the trap.'
-        },
-        {
-          text: 'Corporate culture and media systems deploy predictive programming and social pressure, driving individuals to acquire luxury goods to maintain artificial social status.',
+          text: 'Fabricated authority, false debt obligations, and victim ignorance.',
           isCorrect: true,
-          rationale: 'Corporate culture and media systems deploy predictive programming and social pressure, driving individuals to acquire luxury goods, finance vehicles, and enter mortgage contracts to maintain artificial social status.'
+          rationale: 'It relies on fabricated authority, false debt obligations, and victim ignorance.'
+        },
+        {
+          text: 'Open disclosure of asset ownership to borrowers.',
+          isCorrect: false,
+          rationale: 'The trick requires concealment of ownership, not disclosure.'
+        },
+        {
+          text: 'Genuine external capital supplied by institutions.',
+          isCorrect: false,
+          rationale: 'No external capital is supplied; the funds are the victim\'s own.'
+        },
+        {
+          text: 'Informed consent obtained from every participant.',
+          isCorrect: false,
+          rationale: 'Victim ignorance is a requirement, not informed consent.'
         }
       ]
     },
+
     {
       number: 13,
       question: 'What is a strategic consequence of recognizing that debt is a mathematically fraudulent transaction?',
@@ -389,58 +394,60 @@ module.exports = {
     },
     {
       number: 15,
-      question: 'How does Academic Distortion interface with the Usury Trap?',
-      hint: 'Reflect on how schooling normalizes debt before financial reality is understood.',
+      question: 'What sustains the illusion of economic scarcity?',
+      hint: 'See De-hypnotization from Manufactured Scarcity.',
       options: [
         {
-          text: 'Higher education institutions act as onboarding channels that normalize debt before individuals understand financial reality.',
+          text: 'Hidden Cestui Que Vie account balances — scarcity is an engineered illusion.',
           isCorrect: true,
-          rationale: 'The usury trap interfaces directly with Academic Distortion, and higher education institutions act as onboarding channels that normalize debt before individuals understand financial reality.'
+          rationale: 'Scarcity is sustained by hidden Cestui Que Vie account balances kept from the public.'
         },
         {
-          text: 'It encourages critical thinking that allows students to see through the confidence trick of lending.',
+          text: 'A genuine shortage of capital in the money supply.',
           isCorrect: false,
-          rationale: 'Academic Distortion interfaces with the trap by normalizing debt before individuals understand financial reality, not by exposing the confidence trick.'
+          rationale: 'Capital exists in the hidden accounts; scarcity is engineered.'
         },
         {
-          text: 'It provides the mathematical proof that the birth certificate bond system is the only viable economy.',
+          text: 'Citizens\' refusal to participate in credit markets.',
           isCorrect: false,
-          rationale: 'The interface is an onboarding channel that normalizes debt, not a proof that the birth certificate bond is the only viable economy.'
+          rationale: 'Participation is near-total; concealment, not refusal, sustains scarcity.'
         },
         {
-          text: 'It ensures that the curriculum focuses exclusively on the historical development of usury laws.',
+          text: 'The absence of any underlying bond accounts.',
           isCorrect: false,
-          rationale: 'Academic Distortion normalizes debt before individuals understand financial reality, rather than centering the curriculum on the history of usury laws.'
+          rationale: 'The accounts exist and are precisely what is hidden.'
         }
       ]
     },
+
     {
       number: 16,
-      question: 'How does the Usury Trap interface with Choice Architecture?',
-      hint: 'Think about the social pressure that steers ordinary life paths into financed goods.',
+      question: 'How is loosh harvesting neutralized?',
+      hint: 'See Neutralization of Loosh Harvesting.',
       options: [
         {
-          text: 'The usury trap interfaces directly with Choice Architecture as media systems deploy predictive programming and social pressure.',
+          text: 'By eliminating the panic, guilt, and anxiety associated with monetary debt — cutting off the primary emotional harvest sought by parasitic custodians.',
           isCorrect: true,
-          rationale: 'Literally and laterally, the usury trap interfaces directly with Academic Distortion and Choice Architecture, while corporate culture and media systems deploy predictive programming and social pressure.'
+          rationale: 'Neutralization works by eliminating the panic, guilt, and anxiety associated with monetary debt.'
         },
         {
-          text: 'The wide variety of mortgage products and credit cards available to the modern consumer.',
+          text: 'By repaying all outstanding fraudulent debts as quickly as possible to satisfy the lenders.',
           isCorrect: false,
-          rationale: 'The interface is predictive programming and social pressure that drive luxury goods, vehicle finance, and mortgages, not a catalog of consumer products.'
+          rationale: 'Repayment feeds the system; removing the emotional charge starves it.'
         },
         {
-          text: 'The architectural design of financial districts intended to project authority and permanence.',
+          text: 'By converting debt anxiety into productive labor within the corporate employment matrix.',
           isCorrect: false,
-          rationale: 'Choice Architecture here is the interface with predictive programming and social pressure, not the physical design of financial districts.'
+          rationale: 'Labor under anxiety is the harvest itself, not its neutralization.'
         },
         {
-          text: 'The legal right of the individual to choose which bank manages their birth certificate bond.',
+          text: 'By petitioning the parasitic custodians to reduce the emotional harvest voluntarily.',
           isCorrect: false,
-          rationale: 'The government purposefully withholds the personal accounts, so the interface is not a right to choose which bank manages the bond.'
+          rationale: 'The harvest ends when the emotions end, not by petition.'
         }
       ]
     },
+
     {
       number: 17,
       question: 'Which term describes the systemic withholding of knowledge that enables financial fraud?',
@@ -524,31 +531,32 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'What is the relationship between financial anxiety and pineal activation?',
-      hint: 'Consider how survival mode affects spiritual awareness.',
+      question: 'Beyond money, what is the primary objective of engineered debt?',
+      hint: 'Check the dual-extraction passage in Core Revelations.',
       options: [
         {
-          text: 'This keeps the population locked in survival mode, preventing pineal activation and spiritual awareness.',
+          text: 'Continuous emotional suffering — the loosh generated by financial anxiety and insolvency threat is the primary sustenance for parasitic entities.',
           isCorrect: true,
-          rationale: 'Predictive programming and social pressure keep the population locked in survival mode, preventing pineal activation and spiritual awareness.'
+          rationale: 'The monetary fees extracted through usury are merely secondary artifacts compared to the loosh harvest — emotional suffering is the primary objective.'
         },
         {
-          text: 'There is no direct relationship, as economic status and spiritual states operate in separate domains.',
+          text: 'The collection of interest revenue to fund public services and state welfare programs for citizens.',
           isCorrect: false,
-          rationale: 'The trap keeps the population locked in survival mode, preventing pineal activation and spiritual awareness, so the two are directly connected.'
+          rationale: 'Interest revenue is secondary; the harvest of suffering is primary.'
         },
         {
-          text: 'Financial anxiety stimulates the brain, leading to increased levels of pineal awareness.',
+          text: 'The maintenance of institutional solvency through balanced lending across all economic classes.',
           isCorrect: false,
-          rationale: 'Survival mode prevents pineal activation and spiritual awareness, rather than increasing pineal awareness.'
+          rationale: 'Institutions are not the end; the parasitic sustenance is.'
         },
         {
-          text: 'Pineal activation provides the cognitive focus required to manage and eliminate complex debts.',
+          text: 'The redistribution of capital from borrowers to savers through regulated interest mechanisms.',
           isCorrect: false,
-          rationale: 'The system prevents pineal activation and spiritual awareness by keeping the population locked in survival mode.'
+          rationale: 'Capital moves from the borrower\'s own account to the lender, not to savers.'
         }
       ]
     },
+
     {
       number: 21,
       question: 'Which of the following is a strategic countermeasure against the Usury Trap?',
