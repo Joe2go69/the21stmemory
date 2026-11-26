@@ -164,6 +164,12 @@
       "qrImage": "assets/images/gofundme-qr.png",
       "qrAlt": "GoFundMe QR code for 21st Memory donations"
     },
+    "paypal": {
+      "href": "https://paypal.me/joewimber",
+      "label": "PayPal",
+      "buttonText": "Give on PayPal",
+      "hint": "A gift through PayPal, straight to the archive. Covers power, internet and the AI tools behind the videos."
+    },
     "starlink": {
       "href": "https://starlink.com/residential?referral=RC-DF-13754617-58626-7",
       "buttonText": "Use the referral link",

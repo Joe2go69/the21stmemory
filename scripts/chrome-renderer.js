@@ -239,6 +239,7 @@ function renderSupportPage(footerData, options = {}) {
   const giveLabel = s.giveLabel || 'Ways to give';
   const funds = Array.isArray(s.funds) ? s.funds : [];
   const gofundme = s.gofundme;
+  const paypal = s.paypal;
   const starlink = s.starlink;
   const btcAddress = s.bitcoinAddress || '';
   const btcDisplay = truncateMiddle(btcAddress, 12, 8);
@@ -316,6 +317,20 @@ function renderSupportPage(footerData, options = {}) {
               <div class="support-give-actions">
                 <a href="${gofundme.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
                   <span>${gofundme.buttonText || 'Give on GoFundMe'}</span>
+                </a>
+              </div>`)}
+          </article>`
+    : '';
+
+  const paypalCard = paypal
+    ? `<article class="support-give-card memory-card static-card support-give-card--paypal">
+            <span class="support-give-icon support-give-icon--heart" aria-hidden="true">${SITE_ICON_SVGS.heart}</span>
+            <span class="support-give-label">${paypal.label || 'PayPal'}</span>
+            <p class="support-give-desc">${paypal.hint}</p>
+            ${giveActions(`
+              <div class="support-give-actions">
+                <a href="${paypal.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                  <span>${paypal.buttonText || 'Give on PayPal'}</span>
                 </a>
               </div>`)}
           </article>`
@@ -407,6 +422,7 @@ function renderSupportPage(footerData, options = {}) {
         <h2 class="section-eyebrow mb-5" id="give-heading">${giveLabel}</h2>
         <div class="support-give-grid">
           ${gofundmeCard}
+          ${paypalCard}
           ${starlinkCard}
           ${btcCard}
           ${museCard}
