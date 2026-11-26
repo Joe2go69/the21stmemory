@@ -200,31 +200,32 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'What was the original function of the planetary locations selected for World Fair sites before density suppression?',
-      hint: 'Consider the natural energetic features of the planetary grid where these structures stood.',
+      question: 'What did the false construction timelines erase?',
+      hint: 'See Erasure and Replacement via the School Story.',
       options: [
         {
-          text: 'Those locations were subterranean storage vaults built to protect retroactive manuscripts and later historical records.',
-          isCorrect: false,
-          rationale: 'The chosen sites were positive nodal points where harmonic architecture had functioned as crystalline healing temples.'
-        },
-        {
-          text: 'Those locations were centralized administrative capitals directing trade between repopulated colonial zones.',
-          isCorrect: false,
-          rationale: 'Trade administration was not the original function of these crystalline healing temples on the planetary grid.'
-        },
-        {
-          text: 'Those locations were strategic military fortresses designed to defend populations against periodic catastrophic resets.',
-          isCorrect: false,
-          rationale: 'The original grid sites served crystalline healing temple functions rather than military defense.'
-        },
-        {
-          text: 'The sites chosen for World Fairs were built directly upon positive nodal points of the planetary grid where harmonic architecture had previously functioned as crystalline healing temples before undergoing density suppression.',
+          text: 'The memory of the real building that was there.',
           isCorrect: true,
-          rationale: 'The sites chosen for World Fairs were built directly upon positive nodal points where crystalline healing temples had functioned before density suppression.'
+          rationale: 'Centuries-old structures were documented as built in months, erasing the memory of the real building that was there and cementing the school story.'
+        },
+        {
+          text: 'The photographic evidence of the fairs.',
+          isCorrect: false,
+          rationale: 'Fake narratives were manufactured to account for photographic evidence, not erase it.'
+        },
+        {
+          text: 'The fictitious stylistic classifications.',
+          isCorrect: false,
+          rationale: 'The classifications were assigned to the buildings, not erased.'
+        },
+        {
+          text: 'The school story\'s institutional authority.',
+          isCorrect: false,
+          rationale: 'The timelines cemented the school story rather than erasing its authority.'
         }
       ]
     },
+
     {
       number: 9,
       question: 'What acoustic distinction separates Tartarian halls from modern sound systems?',
@@ -389,31 +390,32 @@ module.exports = {
     },
     {
       number: 15,
-      question: 'What role did pristine retroactive manuscripts play in the narrative manipulation?',
-      hint: 'Consider how historical documents were used to support the new official timeline.',
+      question: 'What did the fair sites contain?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'They documented the exact coordinates of each directed energy weapon deployment against the fairgrounds.',
-          isCorrect: false,
-          rationale: 'The manuscripts reinforced manufactured history and cognitive lock-in rather than recording weapon coordinates.'
-        },
-        {
-          text: 'They gave colonial workers practical instructions for assembling temporary plaster fair halls in a few weeks.',
-          isCorrect: false,
-          rationale: 'The manuscripts served manufactured history rather than acting as construction manuals for plaster halls.'
-        },
-        {
-          text: 'They preserved genuine Tartarian architectural blueprints for later repopulation phases and temple restoration.',
-          isCorrect: false,
-          rationale: 'The manuscripts were released to ensure complete cognitive lock-in rather than to preserve Tartarian building knowledge.'
-        },
-        {
-          text: 'Narrative manipulation included fake history and releasing thousands of pristine retroactive manuscripts to ensure complete cognitive lock-in.',
+          text: 'Permanent, high-density masonry, massive iron circuitry, and complex aetheric energy harvesting systems.',
           isCorrect: true,
-          rationale: 'Fake history and releasing thousands of pristine retroactive manuscripts worked to ensure complete cognitive lock-in.'
+          rationale: 'These sites contained permanent, high-density masonry, massive iron circuitry, and complex aetheric energy harvesting systems.'
+        },
+        {
+          text: 'Temporary plaster and wood construction built hastily by colonial workers.',
+          isCorrect: false,
+          rationale: 'That is the school story\'s claim; the sites were permanent masonry.'
+        },
+        {
+          text: 'Combustible timber framing, canvas, and lightweight exhibition materials.',
+          isCorrect: false,
+          rationale: 'The primary materials were non-combustible granite, glass, and iron.'
+        },
+        {
+          text: 'Colonial workshops, worker housing, and primitive construction yards.',
+          isCorrect: false,
+          rationale: 'The sites were exhibition grounds for prior-overlay infrastructure.'
         }
       ]
     },
+
     {
       number: 16,
       question: 'What mathematical sequence design was incorporated into Tartarian natural technology?',
@@ -524,31 +526,32 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'How did physical erasure interact with narrative manipulation during the reset sequence?',
-      hint: 'Consider the paired effect of destroying physical evidence and rewriting history.',
+      question: 'After physical elimination, how was collective memory overwritten?',
+      hint: 'See Erasure and Replacement via the School Story.',
       options: [
         {
-          text: 'Narrative manipulation encouraged public research into alternative planetary grid power networks after the grounds fell.',
-          isCorrect: false,
-          rationale: 'Narrative manipulation tactics overwrote collective memory and ensured cognitive lock-in rather than inviting grid research.'
-        },
-        {
-          text: 'Physical eradication worked in tandem with narrative manipulation tactics to overwrite collective memory and ensure complete cognitive lock-in.',
+          text: 'Institutional machinery was deployed — Rockefeller-funded education and 33rd-degree Freemasonry manufactured fake historical narratives.',
           isCorrect: true,
-          rationale: 'Physical eradication worked in tandem with narrative manipulation tactics to overwrite collective memory and ensure complete cognitive lock-in.'
+          rationale: 'Institutional machinery overwrote collective memory. Rockefeller Educational Framework: Rockefeller-funded education systems and 33rd-degree Freemasonry manufactured fake historical narratives.'
         },
         {
-          text: 'Physical erasure targeted only wooden structures while narrative manipulation preserved accurate iron masonry records.',
+          text: 'Surviving elders were permitted to teach the old history in the repurposed buildings.',
           isCorrect: false,
-          rationale: 'Energy weapons pulverized granite glass and iron and the narratives were manufactured to hide that masonry.'
+          rationale: 'Elders\' living memories were overridden, not permitted to teach.'
         },
         {
-          text: 'Physical erasure forced populations to rebuild the fairgrounds from suppressed Tartarian blueprints.',
+          text: 'The fair buildings were rebuilt as temporary plaster and wood exhibitions.',
           isCorrect: false,
-          rationale: 'The replacement was the school story and centralized grids rather than a rebuild from Tartarian blueprints.'
+          rationale: 'The buildings were pulverized, not rebuilt as exhibitions.'
+        },
+        {
+          text: 'Photographic evidence of the fairs was collected and publicly archived.',
+          isCorrect: false,
+          rationale: 'Fake narratives were manufactured to account for photographic evidence.'
         }
       ]
     },
+
     {
       number: 21,
       question: 'Which combination of non-combustible materials made up the heavy structural fabric of World Fair sites?',
