@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-26T07:08:45.416Z",
-  "total": 382,
+  "generatedAt": "2026-11-26T09:19:47.445Z",
+  "total": 383,
   "sources": [
     {
       "id": "revelations",
@@ -27,7 +27,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card-960.webp",
-      "count": 110
+      "count": 111
     },
     {
       "id": "ascension",
@@ -3636,6 +3636,21 @@
       "key": "breakdown/stabilization-process",
       "topicImage": "images/breakdown/stabilization-process.webp",
       "order": 12
+    },
+    {
+      "id": "staged-world-war-iii",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes & Highlights",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Staged World War III",
+      "subtitle": "Test your understanding of Staged World War III — the scripted conflict, cyber jolts, screen inversion, and the opening shock of the Scare Sequence.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/staged-world-war-iii.html",
+      "diveHref": "dive/breakdown/staged-world-war-iii.html",
+      "key": "breakdown/staged-world-war-iii",
+      "topicImage": "images/breakdown/staged-world-war-iii.webp",
+      "order": 31
     },
     {
       "id": "star-pods",

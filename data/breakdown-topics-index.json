@@ -276,10 +276,10 @@
             {
               "id": "staged-world-war-iii",
               "title": "Staged World War III",
-              "description": "Staged World War III",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14"
+              "description": "Staged World War III is a meticulously orchestrated global conflict simulation designed to project the illusion of total planetary warfare through media theatre, choreographed surgical strikes, and synchronized narrative escalation.",
+              "topic_image": "images/breakdown/staged-world-war-iii.webp",
+              "is_placeholder": false,
+              "added": "2026-11-26T02:13:15-07:00"
             },
             {
               "id": "project-blue-beam",

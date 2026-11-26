@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "breakdown",
+      "topicId": "staged-world-war-iii",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "Staged World War III",
+      "description": "Staged World War III is a meticulously orchestrated global conflict simulation designed to project the illusion of total planetary warfare through media theatre, choreographed surgical strikes, and synchronized narrative escalation.",
+      "topic_image": "images/breakdown/staged-world-war-iii.webp",
+      "path": "dive/breakdown/staged-world-war-iii.html",
+      "added": "2026-11-26T02:13:15-07:00"
+    },
+    {
+      "sourceId": "breakdown",
       "topicId": "scare-sequence",
       "series": "Mega Breakdown Board Notes & Highlights",
       "title": "Scare Sequence",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/the-sky-event.webp",
       "path": "dive/alice/the-sky-event.html",
       "added": "2026-11-14T06:02:56-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "the-first-to-go",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "The First to Go",
-      "description": "The First to Go is the opening casualty wave of the Exit sequence, before any sky event, when fragile vessels and dogmatic belief structures fail under broadcast fear.",
-      "topic_image": "images/alice/the-first-to-go.webp",
-      "path": "dive/alice/the-first-to-go.html",
-      "added": "2026-11-14T01:51:57-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "breakdown",
+      "topicId": "staged-world-war-iii",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "Staged World War III",
+      "description": "Staged World War III is a meticulously orchestrated global conflict simulation designed to project the illusion of total planetary warfare through media theatre, choreographed surgical strikes, and synchronized narrative escalation.",
+      "topic_image": "images/breakdown/staged-world-war-iii.webp",
+      "path": "dive/breakdown/staged-world-war-iii.html",
+      "added": "2026-11-26T02:13:15-07:00"
+    },
     {
       "sourceId": "breakdown",
       "topicId": "scare-sequence",
@@ -171,16 +181,6 @@
       "topic_image": "images/breakdown/sharp-edge.webp",
       "path": "dive/breakdown/sharp-edge.html",
       "added": "2026-11-18T19:20:31-07:00"
-    },
-    {
-      "sourceId": "breakdown",
-      "topicId": "drop-in-tone",
-      "series": "Mega Breakdown Board Notes & Highlights",
-      "title": "Drop in Tone",
-      "description": "The Drop in Tone is the muted phase of a planetary transition, when the parasite overlay glitches and bodies, skies, and automated behavior lose their frequency hold.",
-      "topic_image": "images/breakdown/drop-in-tone.webp",
-      "path": "dive/breakdown/drop-in-tone.html",
-      "added": "2026-11-18T07:00:24-07:00"
     }
   ],
   "featured": [
