@@ -200,85 +200,88 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'What often awaits people who obtain advanced credentials such as doctorates?',
-      hint: 'Recall biochemistry post-graduates working in retail or coffee shops.',
+      question: 'What are the Alhambra and similar sites in reality?',
+      hint: 'See the Alhambra passage in Core Revelations.',
       options: [
         {
-          text: 'Students acquire substantial financial debt to secure academic credentials and are then forced into basic service roles while defending academic credentials that enslaved them.',
+          text: 'Crystalline healing nodes of an advanced global grid.',
           isCorrect: true,
-          rationale: 'Higher education is a specialized control trap where students acquire substantial financial debt to secure academic credentials and enter basic service roles while defending academic credentials that enslaved them.'
+          rationale: 'They are crystalline healing nodes of an advanced global grid, falsely assigned to medieval sultans.'
         },
         {
-          text: 'Graduates receive high-ranking posts inside bloodline corporate policy foundations.',
+          text: 'Primitive masonry built by medieval sultans.',
           isCorrect: false,
-          rationale: 'The economic landscape forces highly educated individuals into basic service roles.'
+          rationale: 'The sultan attribution is the schoolbook fiction concealing the sites\' reality.'
         },
         {
-          text: 'Graduates gain exclusive access to authentic pre-1840 Tartarian archives.',
+          text: 'Religious temples of the Tartarian empire.',
           isCorrect: false,
-          rationale: 'No book in a university contains genuine truth and the record is a fake timeline.'
+          rationale: 'The sites harvested energy and healed; they were not temples.'
         },
         {
-          text: 'Graduates are automatically recruited into black-budget facilities and Secret Space Programs.',
+          text: 'Free-energy stations operated by bloodline managers.',
           isCorrect: false,
-          rationale: 'Secret Space Program recruitment runs through Gifted and Talented screening rather than through ordinary degrees.'
+          rationale: 'The grid predates the bloodline system that mislabeled it.'
         }
       ]
     },
+
     {
       number: 9,
-      question: 'Which public event was manipulated in 1957 to create panic and push educational legislation?',
-      hint: 'Think of the late-1950s space event tied to the National Defense Education Act.',
+      question: 'What does institutional schooling condition children to obey?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'The invention of the atomic bomb led to federal oversight of high school curricula.',
-          isCorrect: false,
-          rationale: 'The fake event was the Sputnik shock leveraged to pass the National Defense Education Act.'
-        },
-        {
-          text: 'The Cuban Missile Crisis was used to impose psychological conditioning in schools.',
-          isCorrect: false,
-          rationale: 'The 1957 event that generated public panic was the Sputnik shock.'
-        },
-        {
-          text: 'The launch of the Apollo program justified the expansion of standardized university degrees.',
-          isCorrect: false,
-          rationale: 'The orchestrated event was the Sputnik shock followed by the National Defense Education Act of 1958.'
-        },
-        {
-          text: 'The fake event known as the Sputnik shock was orchestrated to generate public panic and leveraged to pass the National Defense Education Act of 1958.',
+          text: 'Arbitrary rules, acts, statutes, and policies — directly serving the framework of legal capture.',
           isCorrect: true,
-          rationale: 'The fake event known as the Sputnik shock was orchestrated to generate public panic and leveraged to pass the National Defense Education Act of 1958.'
+          rationale: 'Schooling conditions children to obey arbitrary rules, acts, statutes, and policies, directly serving legal capture.'
+        },
+        {
+          text: 'Organic law and sovereign self-governance.',
+          isCorrect: false,
+          rationale: 'Schooling serves legal capture, the opposite of sovereign governance.'
+        },
+        {
+          text: 'Empirical observation over institutional facts.',
+          isCorrect: false,
+          rationale: 'Perceived Knowledge replaces empirical observation rather than teaching it.'
+        },
+        {
+          text: 'Their innate faculties of curiosity and adaptability.',
+          isCorrect: false,
+          rationale: 'Those faculties are intercepted and funneled, not obeyed.'
         }
       ]
     },
+
     {
       number: 10,
-      question: 'What was the undisclosed function of Gifted and Talented programs created under the 1958 act?',
-      hint: 'Identify the covert pipeline that recruited screened high-IQ youth.',
+      question: 'What human faculties does the education system weaponize against the population?',
+      hint: 'See the opening of Detailed Mechanics.',
       options: [
         {
-          text: 'The programs identify people who can decipher Tartarian harmonic architectural schematics.',
-          isCorrect: false,
-          rationale: 'The programs screen children for Secret Space Program recruitment rather than for reading Tartarian plans.'
-        },
-        {
-          text: 'These programs establish Gifted and Talented screening as an asset pipeline to screen high-IQ children for black-budget projects MK-Ultra psychological conditioning and Secret Space Program recruitment.',
+          text: 'Delayed gratification, adaptability, and curiosity — intercepted during early childhood development and funneled into artificial constructs.',
           isCorrect: true,
-          rationale: 'Gifted and Talented programs served as an asset pipeline to screen high-IQ children for black-budget projects MK-Ultra psychological conditioning and Secret Space Program recruitment.'
+          rationale: 'Faculties including delayed gratification, adaptability, and curiosity are systematically intercepted during early childhood development.'
         },
         {
-          text: 'The programs accelerate technical education so nations can compete in open consumer markets.',
+          text: 'Memory, historical awareness, spiritual realization, and organic pineal gland function itself.',
           isCorrect: false,
-          rationale: 'The programs screen high-IQ children for black-budget projects and Secret Space Program recruitment.'
+          rationale: 'Those are suppressed or erased, not weaponized as traits.'
         },
         {
-          text: 'The programs train students to rewrite library archives with climate-controlled manuscripts.',
+          text: 'Delayed gratification alone, intercepted in secondary education and university settings.',
           isCorrect: false,
-          rationale: 'The manuscript influx belongs to 1840 through 1850 while these programs are a later screening pipeline.'
+          rationale: 'Three faculties are intercepted, beginning in early childhood.'
+        },
+        {
+          text: 'Standardized testing tolerance, grading compliance, and repetitive bureaucratic task endurance.',
+          isCorrect: false,
+          rationale: 'Testing and tasks are the constructs faculties are funneled into.'
         }
       ]
     },
+
     {
       number: 11,
       question: 'What secret process was obscured by Johann Friedrich Blumenbach 1795 human phenotype classifications?',
@@ -416,31 +419,32 @@ module.exports = {
     },
     {
       number: 16,
-      question: 'How many years of fake history were inserted into the academic record to conceal Tartaria?',
-      hint: 'Look for the upper span of fabricated history placed in the human record.',
+      question: 'With what do school curricula continue to align under bloodline management?',
+      hint: 'See the close of Core Revelations.',
       options: [
         {
-          text: 'Exactly 500 years were inserted primarily during the late Renaissance era.',
-          isCorrect: false,
-          rationale: 'Bloodline managers inserted up to 2,000 years of fake history directly into the human record.'
-        },
-        {
-          text: 'Over 5,000 years were inserted by expanding Egyptian and Mesopotamian timelines.',
-          isCorrect: false,
-          rationale: 'The insertion is up to 2,000 years of fake history directly into the human record.'
-        },
-        {
-          text: 'Approximately 300 years were inserted and centered on the early industrial revolution.',
-          isCorrect: false,
-          rationale: 'The manuscript window is ten years while the inserted fake history reaches up to 2,000 years.'
-        },
-        {
-          text: 'Bloodline managers inserted up to 2,000 years of fake history directly into the human record to hide Tartaria.',
+          text: 'Population management, medical gatekeeping, and technological control.',
           isCorrect: true,
-          rationale: 'Bloodline managers inserted up to 2,000 years of fake history directly into the human record to hide the Tartarian empire.'
+          rationale: 'Curricula continue to align with population management, medical gatekeeping, and technological control.'
+        },
+        {
+          text: 'Historical truth and empirical observation.',
+          isCorrect: false,
+          rationale: 'Curricula install a fake timeline; truth is what they eradicate.'
+        },
+        {
+          text: 'Spiritual awareness and organic history.',
+          isCorrect: false,
+          rationale: 'Organic history is replaced by the orchestrated illusion.'
+        },
+        {
+          text: 'Student sovereignty and genuine intelligence.',
+          isCorrect: false,
+          rationale: 'Institutional approval is mistaken for intelligence; sovereignty is conditioned away.'
         }
       ]
     },
+
     {
       number: 17,
       question: 'What was the original function of structures built by African Tartarians?',
@@ -497,31 +501,32 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'What distinguished the 18,745 manuscripts distributed between 1840 and 1850?',
-      hint: 'Consider the controlled production and the unusual physical condition of these texts.',
+      question: 'To what end has every textbook and treatise in the system been constructed?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'They were hand-copied by monastic scribes using recovered Tartarian inks.',
-          isCorrect: false,
-          rationale: 'The texts were manufactured to match ink and vellum age profiles while displaying zero wear.'
-        },
-        {
-          text: 'These texts were manufactured under climate-controlled conditions to match ink and vellum age profiles while displaying zero wear.',
+          text: 'To anchor consciousness within a narrow, controllable frequency band.',
           isCorrect: true,
-          rationale: 'These texts were manufactured under climate-controlled conditions to match ink and vellum age profiles while displaying zero wear.'
+          rationale: 'They anchor consciousness within a narrow, controllable frequency band.'
         },
         {
-          text: 'They were heavily damaged artifacts aged in chemical soil baths.',
+          text: 'To preserve the memory of Tartaria.',
           isCorrect: false,
-          rationale: 'The manuscripts were pristine and displaying zero wear while matching ink and vellum age profiles.'
+          rationale: 'The texts erase Tartaria rather than preserving it.'
         },
         {
-          text: 'They were written only in coded Latin that university professors could decipher.',
+          text: 'To document genuine historical truth.',
           isCorrect: false,
-          rationale: 'The distinction is climate-controlled manufacture that matches ink and vellum age profiles with zero wear.'
+          rationale: 'No book in the system contains any genuine truth whatsoever.'
+        },
+        {
+          text: 'To foster organic problem-solving.',
+          isCorrect: false,
+          rationale: 'Faculties are funneled away from organic problem-solving into constructs.'
         }
       ]
     },
+
     {
       number: 20,
       question: 'Which group owns and directs the institutional education architecture?',
