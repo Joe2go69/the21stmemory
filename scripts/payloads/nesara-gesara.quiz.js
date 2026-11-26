@@ -119,31 +119,32 @@ module.exports = {
     },
     {
       number: 5,
-      question: 'What is the primary objective of a Salvation Lure within custodial management mechanisms?',
-      hint: 'Recall why custodial entities cannot impose direct compliance without human authorization.',
+      question: 'What is a Redemption Centre in operational reality?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'To provide temporary financial relief during periods of severe macroeconomic collapse and unpaid household debt.',
-          isCorrect: false,
-          rationale: 'A Salvation Lure offers no real relief and exists to leverage human hope and vulnerability.'
-        },
-        {
-          text: 'To test the technological readiness of populations before a full migration onto digital account networks.',
-          isCorrect: false,
-          rationale: 'Device adoption is part of the capture while the lure exists to entice people to voluntarily yield their free will.'
-        },
-        {
-          text: 'A Salvation Lure leverages human hope and vulnerability so individuals voluntarily yield their free will.',
+          text: 'A promised facility for currency exchanges and bond redemption that serves in practice as an operational stall and a physical vector toward custodial containment.',
           isCorrect: true,
-          rationale: 'It is an artificial psychological construct deployed by custodial managers to extract free will consent.'
+          rationale: 'In practice it is a stall and a physical vector toward custodial containment, not a payout facility.'
         },
         {
-          text: 'To organize decentralized communities around genuine altruistic humanitarian projects and local mutual aid.',
+          text: 'A functioning government facility where sovereign wealth payouts and bond redemptions are processed for citizens.',
           isCorrect: false,
-          rationale: 'Altruistic ambition is a tailored entry point used to capture attention and consent rather than to build independence.'
+          rationale: 'No payouts are processed; the centre is a stall and containment vector.'
+        },
+        {
+          text: 'The narrative classification applied to internet-informed citizens awaiting private redemption appointments.',
+          isCorrect: false,
+          rationale: 'That classification is Tier 4B, the audience rather than the facility.'
+        },
+        {
+          text: 'A companion narrative apparatus marketed as an unhackable, quantum-backed digital banking network.',
+          isCorrect: false,
+          rationale: 'That network is the QFS, a narrative apparatus rather than a place.'
         }
       ]
     },
+
     {
       number: 6,
       question: 'How is the Quantum Financial System (QFS) marketed within the companion narrative apparatus?',
@@ -227,31 +228,32 @@ module.exports = {
     },
     {
       number: 9,
-      question: 'What specific biological promises are attached to MedBeds within the bundled salvation package?',
-      hint: 'Focus on claims surrounding physical rejuvenation and age reversal.',
+      question: 'Alongside what is the debt-forgiveness story systematically bundled?',
+      hint: 'Check Systemic Multi-Industry Bundling.',
       options: [
         {
-          text: 'Advanced prosthetic technology designed to augment human physical capabilities beyond ordinary healing.',
-          isCorrect: false,
-          rationale: 'MedBeds are tied to biological renewal promising physical restoration and age regression.'
-        },
-        {
-          text: 'MedBeds promise biological renewal through physical restoration and age regression.',
+          text: 'The Covid pandemic narrative, MedBeds, the Quantum Financial System (QFS), Q-phones, and humanitarian projects — forming an all-encompassing salvation package.',
           isCorrect: true,
-          rationale: 'Financial rescue is linked directly with biological renewal via MedBeds promising physical restoration and age regression.'
+          rationale: 'The story is bundled alongside the Covid pandemic narrative, MedBeds, the QFS, Q-phones, and humanitarian projects.'
         },
         {
-          text: 'Genetic modifications engineered to grant immunity against biological pathogens and future outbreaks.',
+          text: 'Statutory implementation and working economic systems presented across the six-part synopsis material.',
           isCorrect: false,
-          rationale: 'The MedBed promise is physical restoration and age regression rather than engineered pathogen immunity.'
+          rationale: 'The synopsis never presents it as a functioning statute; bundling is the packaging mechanism.'
         },
         {
-          text: 'Pharmaceutical courses formulated to extend total life expectancy through ordinary chemical treatment.',
+          text: 'Independent sovereign action and self-reliance exercised by the target audiences awaiting rescue.',
           isCorrect: false,
-          rationale: 'MedBeds are presented through physical restoration and age regression rather than pharmaceutical courses.'
+          rationale: 'The package suppresses independent action by keeping audiences expectant.'
+        },
+        {
+          text: 'Genuine spiritual awakening and independence pursued by individuals outside the salvation package.',
+          isCorrect: false,
+          rationale: 'Awakening is what the bundled lure diverts attention away from.'
         }
       ]
     },
+
     {
       number: 10,
       question: 'Why are humanitarian projects included as an entry point within the salvation package?',
@@ -308,31 +310,32 @@ module.exports = {
     },
     {
       number: 12,
-      question: 'Why must custodial entities rely on extracting free will rather than forcing compliance directly?',
-      hint: 'Recall the foundational field rule governing external intervention in a self-sustained realm.',
+      question: 'What must custodial entities obtain because direct compliance cannot be imposed?',
+      hint: 'See Free Will Extraction in Core Revelations.',
       options: [
         {
-          text: 'Under Universal field laws external forces are prohibited from overriding a self-sustained field directly and custodial entities cannot impose direct compliance without consent.',
+          text: 'Explicit human authorization — consent secured by coaxing individuals to report to redemption centers or claim digital financial assets.',
           isCorrect: true,
-          rationale: 'All management interventions must arise through localized choice and consequence.'
+          rationale: 'The lure functions to obtain explicit human authorization, since direct compliance cannot be imposed without consent.'
         },
         {
-          text: 'Digital banking security systems require a positive user verification step before any account can activate.',
+          text: 'Direct physical compliance enforced upon individuals at custodial intake facilities and camps.',
           isCorrect: false,
-          rationale: 'Account checks are not the rule. External forces are prohibited from overriding a self-sustained field directly.'
+          rationale: 'Compliance cannot be imposed; it must be volunteered through the lure.'
         },
         {
-          text: 'International human rights charters restrict external managers from using physical force against civilians.',
+          text: 'Statutory authority enacted through the Global Economic Security and Recovery Act\'s provisions.',
           isCorrect: false,
-          rationale: 'The limit comes from Universal field laws and the Sovereign Accord rather than a human rights charter.'
+          rationale: 'The Act is fictional; no statutory authority exists behind the narrative.'
         },
         {
-          text: 'Legacy legal frameworks protect individual legal sovereignty against any forced intervention by outside managers.',
+          text: 'Voluntary submission registered and recorded only after financial disbursement has been completed.',
           isCorrect: false,
-          rationale: 'NESARA / GESARA has no legal reality. The bar on direct force is Universal field law.'
+          rationale: 'No disbursements occur; submission is secured by the promise itself.'
         }
       ]
     },
+
     {
       number: 13,
       question: 'What real-world vector can occur when individuals follow redemption directives to physical facilities?',
@@ -389,85 +392,88 @@ module.exports = {
     },
     {
       number: 15,
-      question: 'What designation is applied to the World Wide Web as the distribution network for custodial lures?',
-      hint: 'Look for the symbolic name given alongside the web.',
+      question: 'What does reliance on the Quantum Financial System condition the public to accept?',
+      hint: 'Look at the first Broader Context paragraph.',
       options: [
         {
-          text: 'A neutral information highway that legacy commercial interest groups have merely compromised.',
-          isCorrect: false,
-          rationale: 'The World Wide Web is the primary distribution network for custodial lures and is named Vaf Vaf Vaf or 666.'
-        },
-        {
-          text: 'The World Wide Web is called Vaf Vaf Vaf or 666 and serves as the primary distribution network for custodial lures.',
+          text: 'Cashless transactions, digital identification, and central bank monitoring.',
           isCorrect: true,
-          rationale: 'Online platforms and fake truther channels circulate the NESARA / GESARA updates across that network.'
+          rationale: 'It conditions the public to accept cashless transactions, digital identification, and central bank monitoring.'
         },
         {
-          text: 'A temporary physical matrix interface designed to connect sovereign human networks to one another.',
+          text: 'Physical currency backed by sovereign wealth reserves.',
           isCorrect: false,
-          rationale: 'The web is the primary distribution network for custodial lures rather than a sovereign human network.'
+          rationale: 'The conditioning runs toward cashlessness, not physical currency.'
         },
         {
-          text: 'An encrypted quantum bridge reserved for secure financial transaction processing between private banks.',
+          text: 'Unhackable privacy outside central bank oversight.',
           isCorrect: false,
-          rationale: 'Quantum banking claims travel across the World Wide Web. They are not the web itself.'
+          rationale: 'Participants are led into monitoring architecture, not privacy from it.'
+        },
+        {
+          text: 'Anonymous exchange free of digital identification.',
+          isCorrect: false,
+          rationale: 'Digital identification is a core condition the narrative normalizes.'
         }
       ]
     },
+
     {
       number: 16,
-      question: 'How do online influencers and fake truther channels contribute to the operation of the lure?',
-      hint: 'Consider the effect of constant media commentary on public focus and self-reliance.',
+      question: 'What happens when projected redemption deadlines pass without execution?',
+      hint: 'Check the redemption centre cycle paragraph.',
       options: [
         {
-          text: 'They audit central bank balance sheets and expose false claims made by global monetary authorities.',
-          isCorrect: false,
-          rationale: 'Fake truther channels circulate updates to build follower bases and maintain public distraction.'
-        },
-        {
-          text: 'They secretly coordinate real wealth disbursements with local community organizers and neighborhood treasurers.',
-          isCorrect: false,
-          rationale: 'These channels circulate narrative updates rather than facilitating real sovereign wealth payouts.'
-        },
-        {
-          text: 'Fake truther channels circulate updates regarding NESARA / GESARA to build follower bases monetize attention and maintain public distraction.',
+          text: 'The narrative adapts by issuing new timelines or falsely asserting that quiet redemptions are actively underway behind closed doors.',
           isCorrect: true,
-          rationale: 'Public commentators and controlled truther figures keep the redemption centre cycle in repetitive information loops.'
+          rationale: 'It claims quiet redemptions are actively underway behind closed doors, or issues new timelines.'
         },
         {
-          text: 'They teach practical survival skills that encourage complete economic independence from outside payouts.',
+          text: 'The commentators concede publicly that the appointments will never occur and the narrative closes.',
           isCorrect: false,
-          rationale: 'The channels keep audiences expectant of external intervention rather than exercising sovereign self-reliance.'
+          rationale: 'The cycle never concedes; it adapts with new timelines and quiet-redemption claims.'
+        },
+        {
+          text: 'Bondholders receive official appointment notifications and their long-awaited sovereign payouts.',
+          isCorrect: false,
+          rationale: 'Deadlines pass without execution; notifications and payouts never arrive.'
+        },
+        {
+          text: 'The operational stall ends, and researchers resume independent sovereign action on their own behalf.',
+          isCorrect: false,
+          rationale: 'The stall is perpetual by design, locking researchers into information loops.'
         }
       ]
     },
+
     {
       number: 17,
-      question: 'What is the foundational field law governing this realm that dictates how interventions occur?',
-      hint: 'Recall the name of the field law that requires localized choice.',
+      question: 'What does achieving true sovereign independence require cutting?',
+      hint: 'See the final Strategic Implications paragraph.',
       options: [
         {
-          text: 'The Sovereign Accord is the foundational field law governing this realm and management interventions must arise through localized choice and consequence.',
+          text: 'The three primary structural attachments: perceived knowledge, religion, and finance.',
           isCorrect: true,
-          rationale: 'External forces are prohibited from overriding a self-sustained field directly.'
+          rationale: 'Independence requires cutting the three primary structural attachments — perceived knowledge, religion, and finance.'
         },
         {
-          text: 'The Universal Debt Nullification Act which guarantees ultimate economic restoration for every household.',
+          text: 'Digital registration, project tracking, and device adoption.',
           isCorrect: false,
-          rationale: 'Debt forgiveness is the lure. The foundational field law is the Sovereign Accord.'
+          rationale: 'Those are the voluntary-enslavement vector to refuse, not attachments whose cutting frees.'
         },
         {
-          text: 'The Primary Source Charter which mandates equal access to material resources for every living person.',
+          text: 'Expectation of an imminent, effortless financial rescue.',
           isCorrect: false,
-          rationale: 'No such charter is the field law. The Sovereign Accord is the foundational field law governing this realm.'
+          rationale: 'The expectation is the narrative\'s pacifying effect; the named attachments are knowledge, religion, and finance.'
         },
         {
-          text: 'The Matrix Balance Protocol which regulates interactions between physical life and spiritual realms.',
+          text: 'Direct practical steps to secure personal independence.',
           isCorrect: false,
-          rationale: 'The foundational field law named here is the Sovereign Accord and it requires localized choice and consequence.'
+          rationale: 'Belief in the rescue makes people less likely to take such steps; they are to be taken, not cut.'
         }
       ]
     },
+
     {
       number: 18,
       question: 'How does the promise of an imminent financial reset strategically affect target populations?',
