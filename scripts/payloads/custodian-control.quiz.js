@@ -11,58 +11,60 @@ module.exports = {
   questions: [
     {
       number: 1,
-      question: 'How long ago did the Custodians establish their administrative matrix over the physical plane?',
-      hint: 'Focus on the timeline that describes the initial transition to total governance of the physical plane.',
+      question: 'How long ago did the Custodians assume total governance over the physical plane?',
+      hint: 'Look at the Overview.',
       options: [
         {
-          text: 'Custodian governance began exactly 1,666 years ago with the creation of the birth certificate bond.',
-          isCorrect: false,
-          rationale: 'That number belongs to the Cestui Que Vie bond, not the origin of total governance over the physical plane.'
-        },
-        {
-          text: 'The Custodians assumed total governance over the physical plane roughly 150,000 years ago.',
+          text: 'Roughly 150,000 years ago.',
           isCorrect: true,
-          rationale: 'Parasitic realm managers assumed total governance over the physical plane roughly 150,000 years ago and established the overarching operational framework.'
+          rationale: 'The Custodians assumed total governance over the physical plane roughly 150,000 years ago.'
         },
         {
-          text: 'The administrative matrix over the physical plane was established nearly 500,000 years ago.',
+          text: 'Roughly 15,000 years ago.',
           isCorrect: false,
-          rationale: 'The takeover of the physical plane is placed at roughly 150,000 years ago, not a half-million-year mark.'
+          rationale: 'The takeover dates to roughly 150,000 years ago, not 15,000.'
         },
         {
-          text: 'Total governance of the physical plane began roughly 2,000 years ago alongside the inserted fabricated history.',
+          text: 'Roughly 1.5 million years ago.',
           isCorrect: false,
-          rationale: 'Up to two thousand years of fabricated history were inserted later to hide resets, long after the original takeover.'
+          rationale: 'The figure given is 150,000 years, not 1.5 million.'
+        },
+        {
+          text: 'Roughly 150 years ago.',
+          isCorrect: false,
+          rationale: 'The administrative matrix is far older — roughly 150,000 years.'
         }
       ]
     },
+
     {
       number: 2,
-      question: 'What is the primary function of the Cestui Que Vie 1666 Birth Certificate Bond?',
-      hint: 'Consider the relationship between maritime legal capture and the conversion of people into commodities.',
+      question: 'What is the Usury Trap?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'It provides a valid identity so a living person can participate in democratic elections.',
-          isCorrect: false,
-          rationale: 'Registration converts the living soul into a corporate asset, and electoral participation is only a surface use of that fiction.'
-        },
-        {
-          text: 'It establishes a record of lineage so hereditary property rights can pass to descendants.',
-          isCorrect: false,
-          rationale: 'The maritime system treats land as corporate real estate and the living being as collateral, not as a holder of hereditary title.'
-        },
-        {
-          text: 'It guarantees social security benefits to the registered person upon reaching maturity.',
-          isCorrect: false,
-          rationale: 'The bond is built for extraction and liquidation into parasitic financial coffers, not for the benefit of the living human.'
-        },
-        {
-          text: 'A fraudulent maritime financial trust monetizes a living human soul as a corporate fiction and collateral asset.',
+          text: 'A financial confidence trick wherein parasitic banking institutions lend an individual\'s own bond equity back to them while demanding interest on the loan.',
           isCorrect: true,
-          rationale: 'The Cestui Que Vie Bond is a fraudulent maritime financial trust established upon birth registration that monetizes a living human soul as a corporate fiction and collateral asset.'
+          rationale: 'It is a financial confidence trick wherein parasitic banking institutions lend the borrower\'s own equity back at interest.'
+        },
+        {
+          text: 'A fraudulent maritime financial trust established upon birth registration that monetizes a living human soul.',
+          isCorrect: false,
+          rationale: 'That trust is the Cestui Que Vie Bond, whose equity the trap then lends back.'
+        },
+        {
+          text: 'Counterfeit spiritual frameworks engineered to replace direct pineal connection with dogmatic division and war.',
+          isCorrect: false,
+          rationale: 'Those frameworks are Re-Legion, a spiritual rather than financial mechanism.'
+        },
+        {
+          text: 'The synthetic digital containment network engineered to harvest human attention and replace spiritual faculties.',
+          isCorrect: false,
+          rationale: 'That network is the World Wide Web, an attention trap rather than a lending trick.'
         }
       ]
     },
+
     {
       number: 3,
       question: 'By what specific mechanism do Custodians avoid direct field conflict with the Sovereign Accord?',
@@ -335,58 +337,60 @@ module.exports = {
     },
     {
       number: 13,
-      question: 'Which civilization\'s existence was masked by the insertion of fabricated history?',
-      hint: 'Name the advanced civilization concealed to hide the mechanics of periodic planetary resets.',
+      question: 'Where are gathered skeletal remains stacked after major planetary resets?',
+      hint: 'Check Bone Vaults and Structural Mockery.',
       options: [
         {
-          text: 'The recent existence of the advanced Tartaria civilization.',
+          text: 'Into vaulted underground chambers beneath cathedrals, occult lodges, and sacred nodal sites.',
           isCorrect: true,
-          rationale: 'Fabricated history was executed to conceal the recent existence of the advanced Tartaria civilization and mask the mechanics of periodic planetary resets.'
+          rationale: 'Remains are stacked into vaulted underground chambers beneath cathedrals, occult lodges, and sacred nodal sites.'
         },
         {
-          text: 'Hyperborea, treated as the advanced civilization erased from the modern timeline.',
+          text: 'Into public monuments depicting dismemberment and mass graves.',
           isCorrect: false,
-          rationale: 'The concealed civilization named in the historical cover is Tartaria, not Hyperborea.'
+          rationale: 'Monuments broadcast mockery on the surface; the remains themselves are stacked in vaults.'
         },
         {
-          text: 'Atlantis, presented as the recent advanced civilization hidden by the education system.',
+          text: 'Into ossuary displays erected over the Cambodian Killing Fields.',
           isCorrect: false,
-          rationale: 'The Rockefeller Education System is described as concealing Tartaria, not Atlantis.'
+          rationale: 'The Killing Fields sites are mockery placements, not the stacking chambers.'
         },
         {
-          text: 'Ancient Rome, cast as a suppressed civilization rather than part of the filled-in timeline.',
+          text: 'Into the lodges\' decision-making chambers across the sectors.',
           isCorrect: false,
-          rationale: 'The inserted history fills the timeline to hide Tartaria and the resets, rather than hiding Rome as the lost civilization.'
+          rationale: 'Lodge chambers house initiates\' placements, not the harvested remains.'
         }
       ]
     },
+
     {
       number: 14,
-      question: 'What are Non-Player Characters within this control system?',
-      hint: 'Think about entities that lack true spiritual architecture and still shape public behavior.',
+      question: 'What is Iatrogenic Death?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'They are people who refuse digital technology and stay off the World Wide Web.',
-          isCorrect: false,
-          rationale: 'Non-Player Characters are defined by lacking true spiritual architecture, not by refusing the digital network.'
-        },
-        {
-          text: 'They are digital avatars generated to populate social media platforms.',
-          isCorrect: false,
-          rationale: 'The term here names biological-seeming Holographic Sleeves in the public population, not online avatars.'
-        },
-        {
-          text: 'These entities lack true spiritual architecture and exist solely to enforce social consensus.',
+          text: 'Mortality directly induced by medical intervention, pharmaceutical toxins, and hospital protocols, serving as a primary culling and bond-realization mechanism.',
           isCorrect: true,
-          rationale: 'Non-Player Characters and Holographic Sleeves lack true spiritual architecture and exist solely to enforce social consensus, mimic emotional responses, and suppress true-souled human inquiry.'
+          rationale: 'It is mortality induced by medical intervention, serving as a primary culling and bond-realization mechanism.'
         },
         {
-          text: 'They are government officials who operate outside every secret society network.',
+          text: 'The intended endgame conversion of human beings into lobotomized cybernetic entities stripped of independent thought.',
           isCorrect: false,
-          rationale: 'Lodge initiates staff decision-making posts, while Non-Player Characters are the ambient public that mimics consensus.'
+          rationale: 'That endgame is Human 2.0, a conversion goal rather than a mortality mechanism.'
+        },
+        {
+          text: 'Underground ossuaries and public monuments built from mass human skeletal remains erected as symbolic mockery.',
+          isCorrect: false,
+          rationale: 'Those are Bone Vaults, structures rather than a cause of death.'
+        },
+        {
+          text: 'A fraudulent maritime financial trust monetizing a living soul as a corporate fiction and collateral asset.',
+          isCorrect: false,
+          rationale: 'That trust is the Cestui Que Vie Bond, the financial instrument the deaths liquidate.'
         }
       ]
     },
+
     {
       number: 15,
       question: 'What cosmic law stipulates that no external force may directly override a self-sustaining harmonic field?',
@@ -497,31 +501,32 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'How is the Maritime Admiralty Unlawful-Law System applied to living beings?',
-      hint: 'Think about the legal classification that turns a living soul into chattel.',
+      question: 'What does exposing the Cestui Que Vie Bond and maritime legal capture neutralize?',
+      hint: 'See the second Strategic Implications paragraph.',
       options: [
         {
-          text: 'It implements a standard code of ethics for international sailors and shipping crews.',
-          isCorrect: false,
-          rationale: 'This system is an instrument of economic enslavement, not a professional code for sailors.'
-        },
-        {
-          text: 'The Maritime Admiralty Unlawful-Law System treats living beings as property and land as corporate real estate.',
+          text: 'The psychological authority of Custodian governance and financial intimidation.',
           isCorrect: true,
-          rationale: 'The Custodians enforce the Maritime Admiralty Unlawful-Law System, treating living beings as property and land as corporate real estate.'
+          rationale: 'Exposing maritime legal capture neutralizes the psychological authority of Custodian governance.'
         },
         {
-          text: 'It forces every private corporation to register itself as a naval vessel.',
+          text: 'The population\'s reliance on implied consent under the Accord.',
           isCorrect: false,
-          rationale: 'The capture treats the living human as property and chattel, rather than reclassifying ordinary companies as ships.'
+          rationale: 'Implied consent is the mechanism individuals withdraw; exposure neutralizes authority.'
         },
         {
-          text: 'It guarantees every citizen free passage across international waters.',
+          text: 'The physical authority of the lodges\' sector placements.',
           isCorrect: false,
-          rationale: 'The system maintains containment and legal capture, not a right of free passage.'
+          rationale: 'Placements continue; what exposure dissolves is governance\'s psychological authority.'
+        },
+        {
+          text: 'The bond\'s accumulated trading value on stock exchanges.',
+          isCorrect: false,
+          rationale: 'The bond\'s value is a financial fact; exposure targets its authority over minds.'
         }
       ]
     },
+
     {
       number: 20,
       question: 'What is Designed Noise in Custodian Control?',
@@ -578,48 +583,50 @@ module.exports = {
     },
     {
       number: 22,
-      question: 'Why did the Rockefeller Education System insert up to two thousand years of fabricated history?',
-      hint: 'Think about what would stay hidden if the timeline of the farm were padded.',
+      question: 'Under the Owl Current, what must aspirants seeking top-tier elevation undergo?',
+      hint: 'Check Occult Orders and Secret Lodges.',
       options: [
         {
-          text: 'The insertion bridges religious myths with modern scientific data.',
-          isCorrect: false,
-          rationale: 'The fabricated timeline supports counterfeit paradigms and hides resets, rather than reconciling myth with science.'
-        },
-        {
-          text: 'The insertion gives future archaeologists a more detailed historical record.',
-          isCorrect: false,
-          rationale: 'Foundational cover stories such as Plato\'s Academy were invented to legitimize falsified paradigms, not to enrich the record.'
-        },
-        {
-          text: 'The Rockefeller Education System inserted up to two thousand years of fabricated history to conceal the recent existence of the advanced Tartaria civilization.',
+          text: 'The mandatory sacrifice of a close family member or loved one, permanently locking the initiate into the club.',
           isCorrect: true,
-          rationale: 'The Rockefeller Education System systematically inserted up to two thousand years of fabricated history to conceal the recent existence of the advanced Tartaria civilization and mask the mechanics of periodic planetary resets.'
+          rationale: 'The sacrifice permanently locks the initiate into the club, replacing moral autonomy with total compliance.'
         },
         {
-          text: 'The insertion makes human civilization appear older and more prestigious than it is.',
+          text: 'Total submission to ritual abuse binding members through blackmail.',
           isCorrect: false,
-          rationale: 'The purpose is concealment of Tartaria and the reset mechanics, not flattery of human prestige.'
+          rationale: 'Submission and blackmail bind initiates generally; the Owl Current specifically demands the family sacrifice.'
+        },
+        {
+          text: 'Placement into decision-making positions across the sectors.',
+          isCorrect: false,
+          rationale: 'Placement is what the lodges do with initiates after binding, not the Owl Current\'s price.'
+        },
+        {
+          text: 'Construction of vaulted trophy rooms from harvested remains.',
+          isCorrect: false,
+          rationale: 'Trophy rooms are the 322 designation\'s reference, not an aspirant\'s requirement.'
         }
       ]
     },
+
     {
       number: 23,
-      question: 'True or False: The signing of a death certificate liquidates the individual\'s birth bond, returning the value to the parasitic coffers.',
-      hint: 'Consider the final step in the financial lifecycle of a registered corporate fiction.',
+      question: 'True or False: Custodian Control relies on implied consent under the Sovereign Accord, which individuals can withdraw to dismantle its foundational mechanism.',
+      hint: 'See the final Strategic Implications paragraph.',
       options: [
         {
           text: 'True',
           isCorrect: true,
-          rationale: 'When a registered individual dies, the signing of the death certificate liquidates the bond, returning the full accumulated value directly into parasitic financial coffers.'
+          rationale: 'Individuals can withdraw consent from choice architecture, effectively dismantling the foundational mechanism of Custodian Control.'
         },
         {
           text: 'False',
           isCorrect: false,
-          rationale: 'The death certificate is the liquidation point of the Cestui Que Vie bond, so the accumulated value is returned to parasitic financial coffers.'
+          rationale: 'The reliance on implied consent is stated directly, and withdrawal is the countermeasure.'
         }
       ]
     },
+
     {
       number: 24,
       question: 'True or False: Custodian Control operates through direct physical override of human will at all times.',
@@ -639,30 +646,31 @@ module.exports = {
     },
     {
       number: 25,
-      question: 'What portion of the public population is estimated to be Non-Player Characters or Holographic Sleeves?',
-      hint: 'Look for the share of the public described as lacking true spiritual architecture.',
+      question: 'Through what did the Custodians sever direct telepathic communication with the organic Aether?',
+      hint: 'Look at the third Core Revelations paragraph.',
       options: [
         {
-          text: 'Non-Player Characters and Holographic Sleeves make up to 90% of the public population.',
+          text: 'Public water fluoridation, which genetically shrunk and calcified the human Pineal Gland.',
           isCorrect: true,
-          rationale: 'Custodian Control relies on Non-Player Characters and Holographic Sleeves, which make up to 90% of the public population.'
+          rationale: 'They genetically shrunk and calcified the human Pineal Gland through public water fluoridation.'
         },
         {
-          text: 'Non-Player Characters and Holographic Sleeves make up approximately half of the public population.',
+          text: 'The deployment of the World Wide Web as a synthetic digital web.',
           isCorrect: false,
-          rationale: 'The stated share is up to 90% of the public population, not approximately half.'
+          rationale: 'The Web traps attention and replaces faculties; the telepathic severing is the gland\'s calcification.'
         },
         {
-          text: 'Non-Player Characters and Holographic Sleeves make up exactly 33% of the public population.',
+          text: 'The insertion of fabricated history into the human timeline.',
           isCorrect: false,
-          rationale: '33 belongs to 33rd Degree Freemasonry, not to the share of the public population made up of these entities.'
+          rationale: 'Fabricated history conceals the past; it does not sever telepathic communication.'
         },
         {
-          text: 'Non-Player Characters and Holographic Sleeves make up less than 10% of the public population.',
+          text: 'The construction of bone vaults beneath sacred nodal sites.',
           isCorrect: false,
-          rationale: 'The stated share is up to 90% of the public population, which is the ambient majority used to enforce social consensus.'
+          rationale: 'Bone vaults are mockery structures, not a communication-severing mechanism.'
         }
       ]
     }
+
   ]
 };
