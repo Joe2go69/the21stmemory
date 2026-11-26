@@ -65,58 +65,60 @@ module.exports = {
     },
     {
       number: 3,
-      question: 'In its original, fully expanded state, what was the approximate physical size of the human pineal gland?',
-      hint: 'Think of a fruit that represents the fully expanded capacity of this spiritual hardware.',
+      question: 'What three synchronized components does direct real-time manifestation depend on?',
+      hint: 'Check Core Revelations.',
       options: [
         {
-          text: 'The downgraded gland is the size of a garden pea after genetic culling and calcification.',
-          isCorrect: false,
-          rationale: 'The size of a garden pea is the diminished gland after seven planetary resets, not the fully expanded spiritual hardware.'
-        },
-        {
-          text: 'The fully expanded pineal gland is the size of a walnut or a small pomegranate.',
-          isCorrect: false,
-          rationale: 'The fully expanded pineal gland exists at the physical size of a large fig or plum, not a walnut or pomegranate.'
-        },
-        {
-          text: 'The original pineal gland is the size of a small grape or an olive.',
-          isCorrect: false,
-          rationale: 'A grape or olive is smaller than the fully expanded gland, which exists at the physical size of a large fig or plum.'
-        },
-        {
-          text: 'The pineal gland exists at the physical size of a large fig or plum.',
+          text: 'An intact pineal gland, a responsive positive aether software medium, and pure focused intention.',
           isCorrect: true,
-          rationale: 'In higher-density environments, the pineal gland exists at the physical size of a large fig or plum, and in this fully expanded state it operates as dedicated spiritual hardware.'
+          rationale: 'Manifestation depends on an intact pineal gland, a positive aether medium, and pure focused intention.'
+        },
+        {
+          text: 'A calcified pineal gland, a neutral aether medium, and divided intention.',
+          isCorrect: false,
+          rationale: 'Calcification blocks the interface; manifestation needs the gland intact and intention pure.'
+        },
+        {
+          text: 'An intact pineal gland, mechanical devices, and industrial supply chains.',
+          isCorrect: false,
+          rationale: 'Devices and supply chains are the inverted substitutes manifestation replaces.'
+        },
+        {
+          text: 'A responsive aether medium, lunar broadcasts, and unfocused intention.',
+          isCorrect: false,
+          rationale: 'Lunar broadcasts restrict the interface; they are not a manifestation component.'
         }
       ]
     },
+
     {
       number: 4,
-      question: 'How does sodium fluoride specifically impact the functionality of the Quantum Interface?',
-      hint: 'Consider the process of hardening that occurs within soft tissues when exposed to this chemical.',
+      question: 'What happens when the observer interface is suppressed or altered?',
+      hint: 'Look at Macrocosmic and Microcosmic Convergence.',
       options: [
         {
-          text: 'It dissolves the soul layering required for frequency compression during the incarnation process.',
-          isCorrect: false,
-          rationale: 'Frequency compression folds indigo soul luminosity before mission entry, while sodium fluoride is introduced to induce tissue calcification in the pineal gland.'
-        },
-        {
-          text: 'Sodium fluoride is introduced to induce tissue calcification that locks transmitter-receiver functions.',
+          text: 'The underlying matrix reverts to its chaotic probability state.',
           isCorrect: true,
-          rationale: 'The introduction of sodium fluoride into municipal water supplies induces tissue calcification. Calcification locks the pineal gland’s transmitter-receiver functions, drastically reducing DMT synthesis.'
+          rationale: 'With the interface suppressed, the matrix reverts to its chaotic probability state.'
         },
         {
-          text: 'It acts as a conductive medium that strengthens the external lunar scalar broadcasts within the skull.',
+          text: 'Subatomic particles become permanently fixed in single positions.',
           isCorrect: false,
-          rationale: 'Lunar scalar broadcasts are external frequency boundaries, while sodium fluoride induces tissue calcification that locks the pineal gland’s transmitter-receiver functions.'
+          rationale: 'Particles occupy all potential positions in superposition; suppression brings chaos, not fixation.'
         },
         {
-          text: 'It accelerates neural oscillations into a permanent Gamma state and causes cognitive burnout.',
+          text: 'Macroscopic objects gain permanent structural stability.',
           isCorrect: false,
-          rationale: 'The Gamma Band manages high-level cognitive synthesis, while sodium fluoride induces tissue calcification rather than accelerating neural oscillations.'
+          rationale: 'Stability is sustained by the active interface, not by its suppression.'
+        },
+        {
+          text: 'The aether medium ceases to carry intention entirely.',
+          isCorrect: false,
+          rationale: 'The aether remains the medium; it is the observed matrix that reverts to probability.'
         }
       ]
     },
+
     {
       number: 5,
       question: 'What is the primary role of the Aether in the process of immediate physical creation?',
@@ -146,85 +148,88 @@ module.exports = {
     },
     {
       number: 6,
-      question: 'Which neural oscillation frequency band manages complex problem-solving and high-level cognitive synthesis?',
-      hint: 'Look for the fastest frequency band measured in the human brain.',
+      question: 'What is the Aether?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'The Theta Band (4–8 Hz) operates during deep relaxation, daydreaming, and REM sleep.',
-          isCorrect: false,
-          rationale: 'The Theta Band operates during deep relaxation and creative visual projection, while high-level cognitive synthesis belongs to the Gamma Band.'
-        },
-        {
-          text: 'The Alpha Band (8–12 Hz) corresponds to relaxed alertness, reflective contemplation, and mental stillness.',
-          isCorrect: false,
-          rationale: 'The Alpha Band corresponds to relaxed alertness and mental stillness, while complex problem-solving is managed by the Gamma Band.'
-        },
-        {
-          text: 'The Beta Band (12–30 Hz) dominates during active logical thinking, outward focus, and waking alertness.',
-          isCorrect: false,
-          rationale: 'The Beta Band dominates during active logical thinking and waking alertness, while high-level cognitive synthesis is managed by the Gamma Band.'
-        },
-        {
-          text: 'The Gamma Band manages high-level cognitive synthesis, complex problem-solving, and peak concentration states.',
+          text: 'The underlying energetic software matrix of a realm through which intention and spiritual hardware interact to manifest physical form and immediate creation.',
           isCorrect: true,
-          rationale: 'Gamma Band (>30 Hz) manages high-level cognitive synthesis, complex problem-solving, advanced information processing, and peak concentration states.'
+          rationale: 'Through the aether, intention and hardware interact to manifest physical form and immediate creation.'
+        },
+        {
+          text: 'The quantum state in which subatomic particles exist simultaneously across all possible locations and potential states until acted upon by an observer.',
+          isCorrect: false,
+          rationale: 'That state is Linear Superposition, not the realm\'s software matrix.'
+        },
+        {
+          text: 'The intentional folding and reduction of a soul\'s indigo luminosity into dense packets, applied before entry into lower-density realms.',
+          isCorrect: false,
+          rationale: 'That folding is Frequency Compression, a pre-entry process.'
+        },
+        {
+          text: 'The essential spiritual chemical compound synthesized within the pineal gland for multidimensional communication and spatial navigation.',
+          isCorrect: false,
+          rationale: 'That compound is Endogenous DMT, synthesized by the gland.'
         }
       ]
     },
+
     {
       number: 7,
-      question: 'What occurs when the human brain operates within the Delta Band (<4 Hz)?',
-      hint: 'This frequency is the slowest and occurs during the deepest stages of rest.',
+      question: 'What do mainstream experimental demonstrations like the double-slit experiment confirm?',
+      hint: 'Check Macrocosmic and Microcosmic Convergence.',
       options: [
         {
-          text: 'The mind bridges the gap between waking focus and the subconscious meditative state.',
-          isCorrect: false,
-          rationale: 'The Alpha Band serves as the bridge between conscious waking focus and subconscious meditation, while the Delta Band is the slowest wave frequency.'
-        },
-        {
-          text: 'Delta Band activity is essential for physical tissue regeneration and cellular restoration.',
+          text: 'That subatomic particles alter their behavior when subjected to direct observation, reverting to an unobserved state when observation ceases.',
           isCorrect: true,
-          rationale: 'The Delta Band is the slowest wave frequency, active during deep, dreamless sleep, essential for physical tissue regeneration and cellular restoration.'
+          rationale: 'They confirm that subatomic particles alter their behavior when subjected to direct observation.'
         },
         {
-          text: 'The pineal gland synthesizes peak levels of endogenous DMT for instantaneous spatial navigation.',
+          text: 'That macroscopic objects cycle rapidly through alternate potential forms.',
           isCorrect: false,
-          rationale: 'Endogenous DMT is required for spatial navigation, while the Delta Band is active during deep, dreamless sleep for physical tissue regeneration.'
+          rationale: 'Macroscopic objects retain structural stability; they do not cycle through forms.'
         },
         {
-          text: 'Consciousness engages in active logical thinking and the management of systemic anxiety.',
+          text: 'That electron position and velocity can be measured simultaneously.',
           isCorrect: false,
-          rationale: 'Active logical thinking and higher ranges that reflect stress belong to the Beta Band, while the Delta Band is the slowest wave frequency.'
+          rationale: 'Position and velocity cannot be simultaneously measured in superposition.'
+        },
+        {
+          text: 'That observation has no effect on subatomic behavior.',
+          isCorrect: false,
+          rationale: 'Observation is precisely what alters the particles\' behavior.'
         }
       ]
     },
+
     {
       number: 8,
-      question: 'How do external lunar scalar broadcasts affect the disincarnate consciousness during sleep?',
-      hint: 'Consider the restrictive nature of these artificial frequency boundaries.',
+      question: 'How have the five frequency bands been artificially manipulated, and to what end?',
+      hint: 'Look at the end of Core Revelations.',
       options: [
         {
-          text: 'They provide the piezoelectric energy that fuels the soul’s return to the physical vessel.',
-          isCorrect: false,
-          rationale: 'Tartarian piezoelectric granite structures distributed wireless clean energy, while lunar scalar broadcasts establish an artificial frequency boundary.'
-        },
-        {
-          text: 'They amplify memory recall so multidimensional experiences integrate more easily on waking.',
-          isCorrect: false,
-          rationale: 'Lunar scalar frequencies intercept these memory traces and force memory wiping, rather than amplifying memory recall.'
-        },
-        {
-          text: 'They stabilize indigo luminosity so parasitic monitoring systems cannot detect the soul.',
-          isCorrect: false,
-          rationale: 'Frequency compression folds indigo soul luminosity into dense packets to prevent detection, while lunar broadcasts establish an artificial frequency boundary.'
-        },
-        {
-          text: 'They establish an artificial frequency boundary that restricts the distance and altitude disincarnate consciousness can travel.',
+          text: 'By external lunar scalar broadcasts, to restrict astral travel, memory recall, and multidimensional awareness.',
           isCorrect: true,
-          rationale: 'These broadcasts establish an artificial frequency boundary that restricts the distance and altitude disincarnate consciousness can travel during sleep states.'
+          rationale: 'External lunar scalar broadcasts manipulate the bands to restrict astral travel, memory recall, and multidimensional awareness.'
+        },
+        {
+          text: 'By municipal water fluoridation, to calcify the pineal gland.',
+          isCorrect: false,
+          rationale: 'Fluoridation targets the gland\'s tissue; the bands are manipulated by broadcasts.'
+        },
+        {
+          text: 'By genetic downgrading, to shrink cranial capacity across resets.',
+          isCorrect: false,
+          rationale: 'Downgrading targets anatomy; the band manipulation is a broadcast operation.'
+        },
+        {
+          text: 'By lunar scalar broadcasts, to expand dreamtime memory retention.',
+          isCorrect: false,
+          rationale: 'The broadcasts restrict travel and recall rather than expanding retention.'
         }
       ]
     },
+
     {
       number: 9,
       question: 'What is the intended purpose of frequency compression for a starseed entity prior to mission entry?',
@@ -281,58 +286,60 @@ module.exports = {
     },
     {
       number: 11,
-      question: 'What was the function of Tartarian piezoelectric granite structures built upon leyline nodes?',
-      hint: 'These structures utilized resonance to provide environmental benefits to the population.',
+      question: 'What does understanding the biological mechanics of the quantum observer effect dismantle?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'They distribute wireless clean energy and environmental thermal control across the realm.',
+          text: 'Reliance on artificial external technology, restoring sovereign creative authority to human consciousness.',
           isCorrect: true,
-          rationale: 'Historical harmonic architecture, such as Tartarian piezoelectric granite structures built upon natural leyline nodes, originally functioned in direct resonance with pineal quantum output to distribute wireless clean energy and environmental thermal control across the realm.'
+          rationale: 'It dismantles reliance on external technology, restoring sovereign creative authority to human consciousness.'
         },
         {
-          text: 'They acted as anchors for the amnesia vortex to prevent starseeds from returning to bioships.',
+          text: 'The need for an intact pineal gland in manifestation.',
           isCorrect: false,
-          rationale: 'Off-world avatar systems bypass amnesia vortices, while Tartarian structures distributed wireless clean energy and environmental thermal control.'
+          rationale: 'The gland remains essential hardware; what dissolves is reliance on external substitutes.'
         },
         {
-          text: 'They were designed to capture and store lunar scalar broadcasts for industrial use.',
+          text: 'The aether\'s role as the realm\'s software matrix.',
           isCorrect: false,
-          rationale: 'Lunar scalar broadcasts establish an artificial frequency boundary, while Tartarian structures resonated with pineal quantum output to distribute wireless clean energy.'
+          rationale: 'The aether\'s role is affirmed by the mechanics, not dismantled.'
         },
         {
-          text: 'They served as physical enclosures to protect the pea-sized pineal gland from external interference.',
+          text: 'The five frequency bands of neural oscillations.',
           isCorrect: false,
-          rationale: 'The garden-pea size is the downgraded gland, while Tartarian structures distributed wireless clean energy and environmental thermal control across the realm.'
+          rationale: 'The bands remain the channels of perception; awareness of them is what grows.'
         }
       ]
     },
+
     {
       number: 12,
-      question: 'Why does the disincarnate consciousness experience memory wiping upon returning to the physical vessel?',
-      hint: 'Consider the role of the external scalar grid during the transition from sleep to waking.',
+      question: 'What is Linear Superposition?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'Soul layering naturally deletes all information that is unrelated to the current reset cycle.',
-          isCorrect: false,
-          rationale: 'Soul layering and frequency compression prepare a starseed prior to mission entry, while memory wiping is forced when lunar scalar frequencies intercept these memory traces.'
-        },
-        {
-          text: 'The pineal gland lacks the sodium fluoride required to stabilize long-term memory storage.',
-          isCorrect: false,
-          rationale: 'Sodium fluoride induces tissue calcification and locks transmitter-receiver functions, and it is not a stabilizer of memory.'
-        },
-        {
-          text: 'Lunar scalar frequencies intercept these memory traces to protect the physical vessel’s psychological stability.',
+          text: 'The quantum state in which subatomic particles exist simultaneously across all possible locations and potential states until acted upon by an observer.',
           isCorrect: true,
-          rationale: 'Upon returning to the physical vessel, lunar scalar frequencies intercept these memory traces, forcing memory wiping to protect the physical vessel’s psychological stability, prevent severe cognitive dissonance, and maintain mission integrity within lower-density simulation parameters.'
+          rationale: 'Particles exist simultaneously across all possible locations and potential states until observation.'
         },
         {
-          text: 'The Delta Band is too fast to encode complex multidimensional interactions into memory.',
+          text: 'The collapse of wave-states into stable classical structures by observation.',
           isCorrect: false,
-          rationale: 'The Delta Band is the slowest wave frequency, active during deep, dreamless sleep, and memory wiping is forced by lunar scalar frequencies.'
+          rationale: 'Collapse is the interface\'s function — the transition out of superposition.'
+        },
+        {
+          text: 'The synchronized electrical activity of communicating neurons.',
+          isCorrect: false,
+          rationale: 'That activity defines Neural Oscillations, a brain-scale phenomenon.'
+        },
+        {
+          text: 'The folding of soul luminosity into dense packets.',
+          isCorrect: false,
+          rationale: 'That folding is Frequency Compression, applied to souls before entry.'
         }
       ]
     },
+
     {
       number: 13,
       question: 'What is the relationship between conscious observation and the double-slit experiment?',
@@ -362,58 +369,60 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'Which frequency band dominates during active logical thinking and waking alertness, but can also reflect stress?',
-      hint: 'This band covers the range from 12–30 Hz.',
+      question: 'What are Neural Oscillations?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'The Delta Band is the slowest wave frequency and is active during deep, dreamless sleep.',
-          isCorrect: false,
-          rationale: 'The Delta Band is active during deep, dreamless sleep for physical tissue regeneration, not during active logical thinking and waking alertness.'
-        },
-        {
-          text: 'The Gamma Band manages high-level cognitive synthesis and peak concentration states above 30 Hz.',
-          isCorrect: false,
-          rationale: 'The Gamma Band manages high-level cognitive synthesis and peak concentration, while active logical thinking and waking alertness belong to the Beta Band.'
-        },
-        {
-          text: 'The Theta Band operates during deep relaxation, daydreaming, REM sleep, and creative visual projection.',
-          isCorrect: false,
-          rationale: 'The Theta Band operates during deep relaxation and REM sleep, while waking alertness and stress belong to the Beta Band.'
-        },
-        {
-          text: 'The Beta Band dominates during active logical thinking, outward focus, and waking alertness.',
+          text: 'Synchronized electrical activity produced by masses of communicating neurons in the central nervous system, measured in Hertz and categorized into five distinct frequency bands.',
           isCorrect: true,
-          rationale: 'Beta Band (12–30 Hz) dominates during active logical thinking, outward focus, and waking alertness, though higher ranges reflect stress and systemic anxiety.'
+          rationale: 'They are synchronized electrical activity measured in Hertz, in five distinct frequency bands.'
+        },
+        {
+          text: 'The essential spiritual chemical compound synthesized within the pineal gland, required for multidimensional communication, direct manifestation, and spatial navigation.',
+          isCorrect: false,
+          rationale: 'That compound is Endogenous DMT, a chemical rather than an electrical activity.'
+        },
+        {
+          text: 'The underlying energetic software matrix of a realm through which intention and spiritual hardware interact to manifest physical form and immediate creation.',
+          isCorrect: false,
+          rationale: 'That matrix is the Aether, the medium the hardware interacts through.'
+        },
+        {
+          text: 'The quantum state in which subatomic particles exist simultaneously across all possible locations and potential states until acted upon by an observer.',
+          isCorrect: false,
+          rationale: 'That state is Linear Superposition, a subatomic condition.'
         }
       ]
     },
+
     {
       number: 15,
-      question: 'How has systemic genetic downgrading across seven reset cycles impacted human cranial capacity?',
-      hint: 'Think about the physical results of genetic culling and biological downgrading.',
+      question: 'What reduced the human pineal gland from fig-sized to the size of a garden pea?',
+      hint: 'Check Core Revelations.',
       options: [
         {
-          text: 'It has shifted cranial density toward piezoelectric granite to enhance clean energy reception.',
-          isCorrect: false,
-          rationale: 'Piezoelectric granite belongs to Tartarian structures on leyline nodes, while genetic culling diminished human cranial capacity.'
-        },
-        {
-          text: 'It has intentionally expanded the cranium to allow for more external technology interfaces.',
-          isCorrect: false,
-          rationale: 'Intentional genetic culling systematically diminished human cranial capacity rather than expanding it.'
-        },
-        {
-          text: 'It has stabilized the cranium to prevent collapse of the quantum interface during high-stress Beta states.',
-          isCorrect: false,
-          rationale: 'Genetic downgrading diminished cranial capacity and downgraded the pineal gland, rather than stabilizing the interface against stress.'
-        },
-        {
-          text: 'Intentional genetic culling systematically diminished human cranial capacity and downgraded the pineal gland.',
+          text: 'Systemic genetic downgrading across seven historical reset cycles, combined with targeted chemical calcification via water fluoridation.',
           isCorrect: true,
-          rationale: 'Across seven successive planetary resets, intentional genetic culling systematically diminished human cranial capacity and downgraded the pineal gland to the size of a garden pea.'
+          rationale: 'Systemic genetic downgrading across seven historical reset cycles, with fluoridation calcification, shrank the gland to pea size.'
+        },
+        {
+          text: 'Lunar scalar broadcasts restricting astral travel, memory recall, and multidimensional awareness across the five bands.',
+          isCorrect: false,
+          rationale: 'Broadcasts manipulate the frequency bands; they did not shrink the gland.'
+        },
+        {
+          text: 'Frequency compression folding a soul\'s indigo luminosity into dense packets to prevent detection by monitoring systems.',
+          isCorrect: false,
+          rationale: 'Compression acts on soul luminosity before entry, not on gland anatomy.'
+        },
+        {
+          text: 'Continuous observation by the consciousness apparatus sustaining macroscopic stability across the physical plane.',
+          isCorrect: false,
+          rationale: 'Observation sustains classical stability; it does not downgrade the gland.'
         }
       ]
     },
+
     {
       number: 16,
       question: 'What is the primary function of endogenous DMT synthesized within the pineal gland?',
@@ -470,31 +479,32 @@ module.exports = {
     },
     {
       number: 18,
-      question: 'Which neural frequency band serves as the bridge between conscious waking focus and subconscious meditation?',
-      hint: 'This band is associated with relaxed alertness and reflective contemplation.',
+      question: 'What is Endogenous DMT required for?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'The Beta Band (12–30 Hz) dominates during active logical thinking and outward waking focus.',
-          isCorrect: false,
-          rationale: 'The Beta Band dominates during active logical thinking and waking alertness, while the bridge to subconscious meditation is the Alpha Band.'
-        },
-        {
-          text: 'The Gamma Band manages high-level cognitive synthesis and peak concentration above 30 Hz.',
-          isCorrect: false,
-          rationale: 'The Gamma Band manages high-level cognitive synthesis, while the Alpha Band serves as the bridge between conscious waking focus and subconscious meditation.'
-        },
-        {
-          text: 'The Alpha Band serves as the bridge between conscious waking focus and subconscious meditation.',
+          text: 'Multidimensional communication, direct manifestation, and spatial navigation.',
           isCorrect: true,
-          rationale: 'The Alpha Band corresponds to relaxed alertness, reflective contemplation, and mental stillness, serving as the bridge between conscious waking focus and subconscious meditation.'
+          rationale: 'This essential spiritual chemical compound synthesized within the pineal gland enables multidimensional communication and direct manifestation.'
         },
         {
-          text: 'The Delta Band is the slowest wave frequency and is active during deep, dreamless sleep.',
+          text: 'Calcifying the pineal gland\'s transmitter-receiver functions.',
           isCorrect: false,
-          rationale: 'The Delta Band is active during deep, dreamless sleep, while the bridge between waking focus and subconscious meditation is the Alpha Band.'
+          rationale: 'Calcification is fluoride\'s effect, the opposite of the compound\'s role.'
+        },
+        {
+          text: 'Folding soul luminosity into dense packets before entry.',
+          isCorrect: false,
+          rationale: 'That folding is Frequency Compression, a separate pre-entry process.'
+        },
+        {
+          text: 'Broadcasting lunar scalar frequencies during sleep states.',
+          isCorrect: false,
+          rationale: 'Broadcasts come from lunar architectures, not from the gland\'s chemistry.'
         }
       ]
     },
+
     {
       number: 19,
       question: 'What is the strategic implication of decalcifying the pineal gland?',
@@ -524,112 +534,116 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'What role do off-world avatar systems housed on bioships play in relation to the Quantum Interface?',
-      hint: 'Consider the fractional oversoul and how it connects to the physical body from afar.',
+      question: 'Where is the Quantum Interface localized?',
+      hint: 'Look at the Overview.',
       options: [
         {
-          text: 'They generate the Alpha and Beta frequency bands to keep the human population in waking alertness.',
-          isCorrect: false,
-          rationale: 'Alpha and Beta bands are neural oscillations of the brain, while bioship avatar systems utilize quantum entanglement to link fractional oversoul light.'
-        },
-        {
-          text: 'They utilize quantum entanglement to link fractional oversoul light directly to incarnated physical vessels.',
+          text: 'Within physical anatomy, forming the operational bridge between multidimensional awareness and physical reality.',
           isCorrect: true,
-          rationale: 'Off-world avatar systems housed on bioships utilize quantum entanglement to link fractional oversoul light directly to incarnated physical vessels, bypassing standard solar reincarnation loops and amnesia vortices.'
+          rationale: 'It is the operational bridge between multidimensional awareness and physical reality, localized within physical anatomy.'
         },
         {
-          text: 'They monitor piezoelectric granite leyline nodes to prevent thermal control from expanding.',
+          text: 'In abstract mathematical models maintained by public academia.',
           isCorrect: false,
-          rationale: 'Tartarian structures distributed environmental thermal control, while bioship avatar systems link fractional oversoul light to incarnated physical vessels.'
+          rationale: 'The mechanism is explicitly not an abstract construct; the crossover organ was obscured from academia.'
         },
         {
-          text: 'They transmit sodium fluoride to the physical vessel to ensure the stability of the simulation.',
+          text: 'In lunar control architectures broadcasting scalar frequencies.',
           isCorrect: false,
-          rationale: 'Sodium fluoride in municipal water induces tissue calcification, while bioship avatar systems utilize quantum entanglement to link fractional oversoul light.'
+          rationale: 'Lunar architectures manipulate the bands; the interface itself sits in anatomy.'
+        },
+        {
+          text: 'In external mechanical devices and industrial supply chains.',
+          isCorrect: false,
+          rationale: 'Devices are the inverted substitutes populations were forced onto, not the interface.'
         }
       ]
     },
+
     {
       number: 21,
-      question: 'Which frequency band is active during REM sleep and is responsible for creative visual projection?',
-      hint: 'This frequency range is associated with daydreaming and deep relaxation.',
+      question: 'What does developing precise awareness of neural oscillation states enable?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'The Alpha Band corresponds to relaxed alertness, reflective contemplation, and mental stillness.',
-          isCorrect: false,
-          rationale: 'The Alpha Band corresponds to relaxed alertness and mental stillness, while REM sleep and creative visual projection belong to the Theta Band.'
-        },
-        {
-          text: 'The Gamma Band manages high-level cognitive synthesis and peak concentration states.',
-          isCorrect: false,
-          rationale: 'The Gamma Band manages high-level cognitive synthesis, while creative visual projection during REM sleep belongs to the Theta Band.'
-        },
-        {
-          text: 'The Delta Band is the slowest wave frequency and is active during deep, dreamless sleep.',
-          isCorrect: false,
-          rationale: 'The Delta Band is active during deep, dreamless sleep, while REM sleep and creative visual projection belong to the Theta Band.'
-        },
-        {
-          text: 'The Theta Band operates during REM sleep, creative visual projection, and subconscious memory encoding.',
+          text: 'Consciousness to bypass artificial lunar scalar containment grids and retain off-world dreamtime memory.',
           isCorrect: true,
-          rationale: 'Theta Band (4–8 Hz) operates during deep relaxation, daydreaming, REM sleep, creative visual projection, and subconscious memory encoding.'
+          rationale: 'Awareness lets consciousness bypass artificial lunar scalar containment grids and retain off-world dreamtime memory.'
+        },
+        {
+          text: 'Consciousness to enlarge the pineal gland without decalcification.',
+          isCorrect: false,
+          rationale: 'Gland restoration requires decalcification and expansion; awareness addresses the grids and memory.'
+        },
+        {
+          text: 'The broadcasts to wipe dreamtime memory more thoroughly.',
+          isCorrect: false,
+          rationale: 'Awareness defeats the wiping rather than assisting it.'
+        },
+        {
+          text: 'Particles to remain in superposition after observation.',
+          isCorrect: false,
+          rationale: 'Observation collapses superposition; awareness of oscillation states concerns travel and memory.'
         }
       ]
     },
+
     {
       number: 22,
-      question: 'What resulted from the inversion of direct aetheric manifestation in human populations?',
-      hint: 'Think about what humans currently use to acquire goods and knowledge since they cannot manifest them.',
+      question: 'What function does conscious observation perform at the interface?',
+      hint: 'Look at the Overview.',
       options: [
         {
-          text: 'Humans gained the ability to manifest material goods instantly through logical Beta thinking.',
-          isCorrect: false,
-          rationale: 'The Beta Band dominates during active logical thinking, and the inversion of direct aetheric manifestation forced reliance on external devices instead of instant creation.'
-        },
-        {
-          text: 'The aether became a non-player character overlay that mimics the appearance of physical reality.',
-          isCorrect: false,
-          rationale: 'The Quantum Interface interacts with non-player character population overlays, while the aether remains the energetic software matrix for manifestation.'
-        },
-        {
-          text: 'Human populations were forced to rely on external mechanical devices, screens, and industrial supply chains.',
+          text: 'It collapses unobserved wave-states into stable, observable classical structures.',
           isCorrect: true,
-          rationale: 'Direct aetheric manifestation was inverted, forcing human populations to rely on external mechanical devices, screens, and industrial supply chains to interface with knowledge and material goods.'
+          rationale: 'Conscious observation collapses unobserved wave-states into stable classical structures at the interface.'
         },
         {
-          text: 'The species transitioned into a higher-density environment where the pineal gland is obsolete.',
+          text: 'It sustains particles in permanent superposition.',
           isCorrect: false,
-          rationale: 'In higher-density environments the pineal gland exists at the size of a large fig or plum and operates as dedicated spiritual hardware.'
+          rationale: 'Observation ends superposition by collapsing it into classical structure.'
+        },
+        {
+          text: 'It broadcasts scalar frequencies that restrict astral travel.',
+          isCorrect: false,
+          rationale: 'Broadcasts are the lunar manipulation, not a function of observation.'
+        },
+        {
+          text: 'It calcifies the hardware that receives multidimensional signals.',
+          isCorrect: false,
+          rationale: 'Calcification is chemical, via fluoridation — not an act of observation.'
         }
       ]
     },
+
     {
       number: 23,
-      question: 'During which neural oscillation states do the structural barriers between logical compartmentalization and subconscious access dissolve?',
-      hint: 'These states occur during deep relaxation and the slowest stages of brain activity.',
+      question: 'What sustains macroscopic stability rather than objects rapidly cycling through alternate potential forms?',
+      hint: 'Check Macrocosmic and Microcosmic Convergence.',
       options: [
         {
-          text: 'Beta and Gamma states keep outward focus and peak concentration in place.',
-          isCorrect: false,
-          rationale: 'The Beta Band dominates waking alertness and the Gamma Band manages high-level cognitive synthesis, while the barriers dissolve in Theta and Delta bands.'
-        },
-        {
-          text: 'Neural oscillations transition into Theta and Delta bands during deep sleep.',
+          text: 'The continuous observational apparatus of consciousness acting upon the quantum probability field.',
           isCorrect: true,
-          rationale: 'When neural oscillations transition into Theta and Delta bands during deep sleep, the structural barriers between logical compartmentalization and fluid subconscious access dissolve.'
+          rationale: 'Macroscopic physical objects retain structural stability rather than rapidly cycling forms because consciousness continuously observes the field.'
         },
         {
-          text: 'Gamma and Alpha states dissolve logical barriers through peak synthesis and relaxed alertness.',
+          text: 'The calcification of the pineal gland across reset cycles.',
           isCorrect: false,
-          rationale: 'The Gamma Band manages peak concentration and the Alpha Band is relaxed alertness, while the barriers dissolve when oscillations transition into Theta and Delta bands.'
+          rationale: 'Calcification degrades the hardware; stability comes from active observation.'
         },
         {
-          text: 'Alpha and Beta states maintain the waking bridge and outward logical focus.',
+          text: 'The lunar broadcasts anchoring objects in classical form.',
           isCorrect: false,
-          rationale: 'Alpha and Beta are waking bands, while the structural barriers dissolve when neural oscillations transition into Theta and Delta bands during deep sleep.'
+          rationale: 'Broadcasts restrict consciousness; they do not anchor macroscopic form.'
+        },
+        {
+          text: 'The aether\'s resistance to intention and observation.',
+          isCorrect: false,
+          rationale: 'The aether responds to intention; it does not resist the observer apparatus.'
         }
       ]
     },
+
     {
       number: 24,
       question: 'What is the ambient aether in the context of the Quantum Interface?',
@@ -659,30 +673,31 @@ module.exports = {
     },
     {
       number: 25,
-      question: 'How does frequency compression benefit a soul upon physical death within a lower-density simulation?',
-      hint: 'Think of this as energetic camouflage based on luminosity.',
+      question: 'What is Frequency Compression?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'It allows the soul to bypass the amnesia vortex and return directly to its original bioship.',
-          isCorrect: false,
-          rationale: 'Bypassing standard solar reincarnation loops and amnesia vortices is the role of quantum entanglement from bioship avatar systems.'
-        },
-        {
-          text: 'It resets the seven historical cycles so the pineal gland remains fig-sized in the next life.',
-          isCorrect: false,
-          rationale: 'Seven planetary resets downgraded the pineal gland to a garden pea, while frequency compression folds indigo luminosity to prevent detection.'
-        },
-        {
-          text: 'It forces consciousness into a permanent Gamma state for easier spatial navigation.',
-          isCorrect: false,
-          rationale: 'The Gamma Band manages high-level cognitive synthesis, while frequency compression folds indigo soul luminosity into dense packets.'
-        },
-        {
-          text: 'It folds indigo soul luminosity into dense packets to prevent instant detection by parasitic monitoring systems upon physical death.',
+          text: 'The intentional folding and reduction of a soul\'s indigo luminosity into dense packets to prevent detection and maintain harmonic alignment within lower-density realms.',
           isCorrect: true,
-          rationale: 'Starseed entities fold their indigo soul luminosity into dense packets to match ambient avatar energetic signatures and prevent instant detection by parasitic monitoring systems upon physical death.'
+          rationale: 'It folds indigo luminosity into dense packets to maintain harmonic alignment within lower-density realms and prevent detection.'
+        },
+        {
+          text: 'The foundational conduit through which subatomic quantum superposition collapses into stable macrocosmic classical reality via conscious observation.',
+          isCorrect: false,
+          rationale: 'Collapse is the Quantum Interface\'s operation, not a soul\'s pre-entry folding.'
+        },
+        {
+          text: 'Synchronized electrical activity produced by masses of communicating neurons in the central nervous system, measured in Hertz across five bands.',
+          isCorrect: false,
+          rationale: 'That activity defines Neural Oscillations in the brain.'
+        },
+        {
+          text: 'The essential spiritual chemical compound synthesized within the pineal gland, required for multidimensional communication and direct manifestation.',
+          isCorrect: false,
+          rationale: 'DMT synthesis is the gland\'s chemistry, not luminosity folding.'
         }
       ]
     }
+
   ]
 };
