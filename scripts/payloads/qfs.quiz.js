@@ -65,31 +65,32 @@ module.exports = {
     },
     {
       number: 3,
-      question: 'Why must custodial entities construct lures like the QFS?',
-      hint: 'Recall the fundamental law regarding direct force versus voluntary choice.',
+      question: 'What does the redemption-appointment signature serve as under field law?',
+      hint: 'Check Signature Execution and Consent Capture.',
       options: [
         {
-          text: 'Transitioning public hardware onto 5G frequency networks requires universal agreement before any device can be issued.',
-          isCorrect: false,
-          rationale: 'Custodial entities must construct irresistible lures because direct coercion violates universal field law.'
-        },
-        {
-          text: 'Financial experts require public participation before they can audit and validate legacy corporate bond classes.',
-          isCorrect: false,
-          rationale: 'The expert draft is the credibility pitch while custodial entities must construct irresistible lures to obtain voluntary consent.'
-        },
-        {
-          text: 'Deep-State operators are legally bound to distribute asset wealth to the public before any system shift can proceed.',
-          isCorrect: false,
-          rationale: 'Direct coercion violates universal field law so custodial entities must construct irresistible lures rather than distribute real wealth.'
-        },
-        {
-          text: 'Custodial entities must construct irresistible lures that compel individuals to voluntarily seek out and agree to their own containment.',
+          text: 'A binding legal and spiritual endorsement by which individuals voluntarily surrender their sovereign Free Will.',
           isCorrect: true,
-          rationale: 'Direct coercion violates universal field law and no external force may override a self-sustained field without explicit internal choice and consent.'
+          rationale: 'By signing, individuals voluntarily surrender their sovereign Free Will, giving custodians explicit consent.'
+        },
+        {
+          text: 'A revocable receipt for future Tier 4B liquidity access.',
+          isCorrect: false,
+          rationale: 'The signature is binding; it surrenders Free Will rather than reserving access.'
+        },
+        {
+          text: 'A claim that restores sovereign authority to the signer.',
+          isCorrect: false,
+          rationale: 'Signing surrenders sovereign authority to the custodial system.'
+        },
+        {
+          text: 'A ceremonial acknowledgment with no binding effect.',
+          isCorrect: false,
+          rationale: 'The endorsement is explicitly legal and spiritual, with containing effect.'
         }
       ]
     },
+
     {
       number: 4,
       question: 'What is the primary operational consequence of executing a signature during a Tier 4B redemption appointment?',
@@ -200,85 +201,88 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'How does the QFS narrative stand in relation to Globe Theory?',
-      hint: 'Recall the comparison between these artificial constructs and human awareness.',
+      question: 'How fake is the QFS, per the Overview?',
+      hint: 'Look at the Overview.',
       options: [
         {
-          text: 'Both stand as physical models validated by advanced 5D mathematics and ready for public use.',
-          isCorrect: false,
-          rationale: 'The QFS is as completely fake as the globe model and Globe Theory was installed to deceive human consciousness.'
-        },
-        {
-          text: 'Both are necessary conceptual steps required before anyone can navigate ordinary spatial mechanics.',
-          isCorrect: false,
-          rationale: 'Globe Theory was installed to deceive human consciousness and the QFS was installed to misdirect financial and spiritual aspirations.'
-        },
-        {
-          text: 'Globe Theory was installed to deceive human consciousness and the QFS was installed to misdirect financial and spiritual aspirations.',
+          text: 'As completely fake as the globe model — an artificial construct misdirecting individuals into surrendering sovereign authority.',
           isCorrect: true,
-          rationale: 'The QFS is an entirely fake financial rail and is as completely fake as the globe model.'
+          rationale: 'It is an artificial construct that misdirects individuals into surrendering sovereign authority, as fake as the globe model.'
         },
         {
-          text: 'Globe Theory is an accurate physical model while the QFS is only an unverified digital hoax.',
+          text: 'Partially functional, with limited real wealth distribution.',
           isCorrect: false,
-          rationale: 'The QFS is as completely fake as the globe model and both were installed as deceptions.'
+          rationale: 'The QFS contains no real wealth distribution capability at all.'
+        },
+        {
+          text: 'A genuine liberatory structure delayed by custodial interference.',
+          isCorrect: false,
+          rationale: 'It was never a liberatory structure; it is a Deep-State deception mechanism.'
+        },
+        {
+          text: 'Real banking software repurposed by Deep-State operators.',
+          isCorrect: false,
+          rationale: 'The rail itself is counterfeit, not genuine software turned to new use.'
         }
       ]
     },
+
     {
       number: 9,
-      question: 'Which parallel salvation lure operates alongside the QFS by exploiting health anxieties?',
-      hint: 'Identify the construct marketed through promises of physical youth.',
+      question: 'What is the ultimate physical outcome of the QFS protocol?',
+      hint: 'See Voluntary Containment and FEMA Routing.',
       options: [
         {
-          text: 'Tier 4B internet groups scheduled for redemption appointments and signature capture.',
-          isCorrect: false,
-          rationale: 'Tier 4B is the internet-group classification targeted for redemption appointments rather than a health lure.'
-        },
-        {
-          text: 'NESARA / GESARA as the parallel program aimed at debt cancellation and financial relief.',
-          isCorrect: false,
-          rationale: 'NESARA / GESARA targets the desire for total debt forgiveness while MedBeds exploit health anxieties.'
-        },
-        {
-          text: 'Sovereign Accord protocols that set the field rules for consent and voluntary containment.',
-          isCorrect: false,
-          rationale: 'The Sovereign Accord sets field law while MedBeds exploit health anxieties by promising physical youth.'
-        },
-        {
-          text: 'MedBeds exploit health anxieties by promising physical youth.',
+          text: 'Voluntary self-containment — participants transport themselves directly into custodial containment facilities under their own power and free will.',
           isCorrect: true,
-          rationale: 'The QFS operates in direct coordination with parallel salvation lures specifically NESARA / GESARA and MedBeds.'
+          rationale: 'Participants transport themselves directly into custodial containment facilities (FEMA camps), waiting at the gates for entry.'
+        },
+        {
+          text: 'Immediate distribution of gold-backed wealth to all Tier 4B participants at the distribution hubs.',
+          isCorrect: false,
+          rationale: 'No wealth is distributed; the hubs are containment facilities.'
+        },
+        {
+          text: 'Integration into humanitarian project management through the Q-phone\'s tracking applications.',
+          isCorrect: false,
+          rationale: 'The Q-phone swap is an intermediate protocol, not the ultimate physical outcome.'
+        },
+        {
+          text: 'Restoration of sovereign authority through formal revocation of the redemption signature.',
+          isCorrect: false,
+          rationale: 'The signature surrenders authority; the protocol ends in containment, not restoration.'
         }
       ]
     },
+
     {
       number: 10,
-      question: 'What primary desire does NESARA / GESARA address within the manufactured want framework?',
-      hint: 'Consider the specific burden that debt cancellation promises to relieve.',
+      question: 'How does the lure begin by establishing credibility?',
+      hint: 'Check The Expert Draft and Gold Backing Pitch.',
       options: [
         {
-          text: 'NESARA / GESARA targets the desire for total debt forgiveness.',
+          text: 'Through claims that the Quantum Financial Initiative was meticulously drafted by an elite team of skilled financial experts and accountants.',
           isCorrect: true,
-          rationale: 'NESARA / GESARA targets the desire for total debt forgiveness while the QFS satisfies the financial core.'
+          rationale: 'It works by establishing credibility through claims of expert drafting and full physical Gold backing.'
         },
         {
-          text: 'Complete biological age reversal and the elimination of physical illness through a medical device.',
+          text: 'Through verified public audits of its physical gold reserves conducted by independent accountants.',
           isCorrect: false,
-          rationale: 'MedBeds exploit health anxieties by promising physical youth while NESARA / GESARA targets total debt forgiveness.'
+          rationale: 'The gold backing is an advertised claim, not an audited fact.'
         },
         {
-          text: 'Immediate hardware exchange that replaces personal phones with surveillance-free cellular devices.',
+          text: 'Through formal endorsements from sovereign governments, central banks, and financial institutions.',
           isCorrect: false,
-          rationale: 'The Q-phone is the hardware swap while NESARA / GESARA targets the desire for total debt forgiveness.'
+          rationale: 'Credibility is manufactured through the expert-draft narrative, not institutional endorsement.'
         },
         {
-          text: 'Legal immunity from international maritime law and from corporate jurisdiction over the person.',
+          text: 'Through demonstrated trial payouts delivered to early redemption appointment participants.',
           isCorrect: false,
-          rationale: 'NESARA / GESARA targets the desire for total debt forgiveness rather than maritime legal immunity.'
+          rationale: 'No payouts occur; the system has no distribution capability.'
         }
       ]
     },
+
     {
       number: 11,
       question: 'What function do Tier 1, 2, and 3 bonds serve within the QFS pitch?',
@@ -308,31 +312,32 @@ module.exports = {
     },
     {
       number: 12,
-      question: 'How do alternative media networks and public figures sustain the QFS narrative?',
-      hint: 'Observe the effect that constant promises of imminent updates have on human behavior.',
+      question: 'What does true ascension require regarding Finance?',
+      hint: 'See Severance of Financial Attachment.',
       options: [
         {
-          text: 'By shipping Q-phones directly to internet subscribers before any redemption appointment is scheduled.',
-          isCorrect: false,
-          rationale: 'The Q-phone is issued at the redemption appointment while media figures cycle through speculative updates.'
-        },
-        {
-          text: 'By guiding seeking individuals toward elevated internal frequency shifts and away from payout stories.',
-          isCorrect: false,
-          rationale: 'The continuous cycle creates a holding vacuum that keeps seeking individuals passive rather than inwardly elevated.'
-        },
-        {
-          text: 'Installed truthers cycle through speculative updates regarding upcoming redemption appointments and keep seeking individuals passive.',
+          text: 'Severing the core string of Finance alongside perceived knowledge and religion, disentangling consciousness from financial rescue narratives.',
           isCorrect: true,
-          rationale: 'This continuous cycle creates a holding vacuum that keeps seeking individuals passive while they wait for an external financial savior.'
+          rationale: 'Disentangling consciousness from financial rescue narratives aligns individuals with authentic spiritual mechanics.'
         },
         {
-          text: 'By auditing redemption center records in public so payout totals can be verified before anyone travels.',
+          text: 'Claiming QFS accounts and Tier 4B positions before the redemption window closes permanently.',
           isCorrect: false,
-          rationale: 'Public figures cycle through speculative updates regarding upcoming redemption appointments rather than auditing payout records.'
+          rationale: 'Claiming accounts is the trap itself, the opposite of severance.'
+        },
+        {
+          text: 'Accumulating gold-backed assets and bond holdings within the new financial system.',
+          isCorrect: false,
+          rationale: 'The gold-backed system is counterfeit; attachment to it is what must be severed.'
+        },
+        {
+          text: 'Awaiting the external financial savior\'s rollout schedule in a passive state of anticipation.',
+          isCorrect: false,
+          rationale: 'Waiting for a savior is the passive state the lure maintains.'
         }
       ]
     },
+
     {
       number: 13,
       question: 'In the lineage from Spiritual Awakening to QFS, what stage directly precedes the Salvation Lure?',
@@ -497,31 +502,32 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'Why is direct physical coercion avoided by custodial operators when executing the QFS trap?',
-      hint: 'Reflect on why universal consent mechanics require voluntary choice.',
+      question: 'What is a Deep-State Lure?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'No external force may override a self-sustained field without explicit internal choice and consent.',
+          text: 'An engineered psychological and material tactic that exploits human desire to satisfy universal consent requirements under field law.',
           isCorrect: true,
-          rationale: 'Direct coercion violates this universal field law so custodial entities must construct irresistible lures.'
+          rationale: 'The lure exists to satisfy universal consent requirements under field law by exploiting human desire.'
         },
         {
-          text: 'Digital 5G networks cannot transmit tracking data until a physical device has been paired in person.',
+          text: 'A hardware device issued at redemption appointments to replace personal cell phones and track projects.',
           isCorrect: false,
-          rationale: 'Direct coercion is avoided because no external force may override a self-sustained field without explicit internal choice and consent.'
+          rationale: 'That device is the Q-Phone, a hardware stage of the lure rather than the tactic itself.'
         },
         {
-          text: 'Custodial operators lack enough physical personnel to enforce compliance at every redemption site.',
+          text: 'The internet-group classification targeted for redemption appointments and signature execution events.',
           isCorrect: false,
-          rationale: 'Direct coercion violates universal field law regardless of how many personnel the operators have.'
+          rationale: 'That classification is Tier 4B, the lure\'s target group rather than the tactic.'
         },
         {
-          text: 'Physical force would invalidate the gold backing that is said to sit under the revalued assets.',
+          text: 'The wireless network technology integrated into the Q-phone interface under the guise of connectivity.',
           isCorrect: false,
-          rationale: 'Gold backing is the pitch while direct coercion is avoided because it violates universal field law.'
+          rationale: 'That technology is 5G, part of the control grid the lure feeds into.'
         }
       ]
     },
+
     {
       number: 20,
       question: 'What psychological tactic forms the basis of an engineered Deep-State Lure?',
@@ -578,31 +584,32 @@ module.exports = {
     },
     {
       number: 22,
-      question: 'What lure mechanism satisfies the financial core of manufactured human wants?',
-      hint: 'Identify the construct built around wealth debt and a monetary payout.',
+      question: 'What does discarding the false promise of a 5D monetary payout allow?',
+      hint: 'See Reframing Ascension.',
       options: [
         {
-          text: 'Tier 1 sovereign bond charters treated as the whole financial lure by themselves.',
-          isCorrect: false,
-          rationale: 'The QFS satisfies the financial core of the manufactured want structure while the bonds are only part of the pitch.'
-        },
-        {
-          text: 'MedBeds technology aimed at bodily anxiety and promises of restored physical youth.',
-          isCorrect: false,
-          rationale: 'MedBeds exploit health anxieties while the QFS satisfies the financial core of the manufactured want structure.'
-        },
-        {
-          text: 'Globe Theory models aimed at spatial perception and the shape of the world.',
-          isCorrect: false,
-          rationale: 'Globe Theory deceives consciousness about spatial reality while the QFS satisfies the financial core.'
-        },
-        {
-          text: 'The QFS satisfies the financial core of the manufactured want structure.',
+          text: 'Focus on genuine internal frequency elevation and the true consciousness shift required to transcend 3D-density control.',
           isCorrect: true,
-          rationale: 'The QFS functions as a premier financial Salvation Lure crafted to exploit baseline material desires for wealth.'
+          rationale: 'It frees focus for genuine internal frequency elevation and the true consciousness shift.'
+        },
+        {
+          text: 'Immediate access to Tier 1, 2, and 3 bond redemptions at the distribution hubs.',
+          isCorrect: false,
+          rationale: 'Bond redemption is the lure\'s pitch, not what discarding it enables.'
+        },
+        {
+          text: 'Integration into the Q-phone\'s humanitarian project management and tracking grid.',
+          isCorrect: false,
+          rationale: 'The Q-phone integrates users into surveillance, the opposite of the shift.'
+        },
+        {
+          text: 'Queueing at distribution hubs to receive gold-backed wealth transfers in person.',
+          isCorrect: false,
+          rationale: 'The hubs are containment facilities; no transfers occur there.'
         }
       ]
     },
+
     {
       number: 23,
       question: 'Refusing the Q-phone and its 5G integration prevents absorption into what?',
