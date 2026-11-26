@@ -33,15 +33,32 @@ module.exports = {
     },
     {
       number: 3,
-      question: 'What is the significance of the numerical designation 666 in the context of the World Wide Web?',
-      hint: 'Think about the linguistic translation of the prefix WWW into Hebrew characters.',
+      question: 'How is the World Wide Web designated in Hebrew numerology?',
+      hint: 'See the Key Terminology entry.',
       options: [
-        { text: 'It represents the binary sequence used to encrypt the foundational protocols of the global fiber-optic network.', isCorrect: false, rationale: 'The prefix WWW equates directly to Vav Vav Vav, or 666, because the letter Vav corresponds to the numerical value of 6.' },
-        { text: 'It refers to the estimated number of nodes required to maintain a stable digital resonance within the aether.', isCorrect: false, rationale: 'The web is a synthetic surrogate and a spider\'s web engineered to catch human consciousness and loosh.' },
-        { text: 'It corresponds in Hebrew numerology to Vav Vav Vav and marks the web as a trap for consciousness.', isCorrect: true, rationale: 'The World Wide Web corresponds in Hebrew numerology to Vav Vav Vav, representing 666, and serves as an artificial digital web engineered to trap human consciousness.' },
-        { text: 'It serves as a warning code embedded by early programmers to signal the dangers of artificial intelligence.', isCorrect: false, rationale: 'Vav Vav Vav, or 666, is the numerical designation of the network itself, not an outside warning code.' }
+        {
+          text: 'Vav Vav Vav (666) — an artificial spider\'s web engineered to capture human attention, focus, and mental bandwidth.',
+          isCorrect: true,
+          rationale: 'It is designated Vav Vav Vav (666), a web built to capture human attention, focus, and mental bandwidth.'
+        },
+        {
+          text: 'Resh Resh Resh (333) — a network for direct aetheric downloads.',
+          isCorrect: false,
+          rationale: 'The designation is Vav Vav Vav, and the web replaces downloads rather than enabling them.'
+        },
+        {
+          text: 'Aleph Aleph Aleph (111) — a surrogate for telepathic communication.',
+          isCorrect: false,
+          rationale: 'Telepathy belongs to the organic aetheric interface, not the web\'s designation.'
+        },
+        {
+          text: 'Tav Tav Tav (999) — a monitoring grid for institutional authorities.',
+          isCorrect: false,
+          rationale: 'Monitoring is a function, but the Hebrew designation is Vav Vav Vav (666).'
+        }
       ]
     },
+
     {
       number: 4,
       question: 'What is the true purpose of Academic Distortion in modern society?',
@@ -55,26 +72,60 @@ module.exports = {
     },
     {
       number: 5,
-      question: 'Which biological component is identified as the organic hardware for communicating with the aether?',
-      hint: 'Look for the gland that counterfeit interventions calcify and suppress.',
+      question: 'What is the Pineal Gland?',
+      hint: 'See the Key Terminology entry.',
       options: [
-        { text: 'The prefrontal cortex, which processes the logical interpretation of cosmic information and manifestation.', isCorrect: false, rationale: 'The human vessel uses the pineal gland as biological hardware to communicate with the aether of any realm.' },
-        { text: 'The nervous system, which acts as a grounding wire for electrical current moving through the physical vessel.', isCorrect: false, rationale: 'The pineal gland transmits and receives aetheric frequencies and is the hardware for that organic interface.' },
-        { text: 'The pineal gland transmits and receives aetheric frequencies.', isCorrect: true, rationale: 'The pineal gland is the biological spiritual hardware within the human vessel responsible for transmitting and receiving aetheric frequencies.' },
-        { text: 'The heart center, which regulates the emotional frequency required for multidimensional navigation.', isCorrect: false, rationale: 'Direct access to telepathic communication, universal memory, and immediate manifestation runs through the pineal gland.' }
+        {
+          text: 'The biological spiritual hardware within the human vessel, responsible for transmitting and receiving aetheric frequencies.',
+          isCorrect: true,
+          rationale: 'It is the biological spiritual hardware within the human vessel responsible for transmitting and receiving aetheric frequencies.'
+        },
+        {
+          text: 'A synthetic institutional surrogate engineered to replace direct cosmic connection and aetheric access.',
+          isCorrect: false,
+          rationale: 'Surrogates are the counterfeits; the gland is the organic hardware they suppress.'
+        },
+        {
+          text: 'An externalized authority structure engineered to capture human focus, labor, and vital current.',
+          isCorrect: false,
+          rationale: 'Authority structures are institutional counterfeits, not biological hardware.'
+        },
+        {
+          text: 'A digital interface of external hardware and monitors for screen-based data downloads.',
+          isCorrect: false,
+          rationale: 'Screen interfaces belong to the web, the gland\'s artificial substitute.'
+        }
       ]
     },
+
     {
       number: 6,
-      question: 'What is the effect of systematic fluoridation on the human vessel?',
-      hint: 'Focus on the physical change to the biological spiritual hardware.',
+      question: 'Into what do counterfeit systems divert cognitive bandwidth?',
+      hint: 'See the Overview.',
       options: [
-        { text: 'It enhances the brain\'s ability to interface with digital networks by increasing neural conductivity.', isCorrect: false, rationale: 'Fluoridation of public drinking water calcifies the pineal gland and leaves people dependent on counterfeit religious structures.' },
-        { text: 'It acts as a sedative that prevents the emotional volatility associated with 3rd-density separation.', isCorrect: false, rationale: 'The stated effect is calcification that shrinks the pineal gland from the size of a fig to that of a garden pea.' },
-        { text: 'It calcifies the pineal gland and shrinks it from the size of a fig to that of a garden pea.', isCorrect: true, rationale: 'Systematic fluoridation of public drinking water calcifies the pineal gland, shrinking it from the size of a fig to that of a garden pea.' },
-        { text: 'It improves the structural integrity of the skeletal system to support higher energetic densities.', isCorrect: false, rationale: 'This physical degradation ensures that individuals remain unable to access true Oneness.' }
+        {
+          text: 'Structured dogma, digital traps, artificial debt, and fabricated historical timelines.',
+          isCorrect: true,
+          rationale: 'They divert cognitive bandwidth into structured dogma, digital traps, artificial debt, and fabricated timelines.'
+        },
+        {
+          text: 'Direct aetheric resonance and authentic memory.',
+          isCorrect: false,
+          rationale: 'Those are the organic faculties the diversion prevents.'
+        },
+        {
+          text: 'Telepathic communication and universal memory.',
+          isCorrect: false,
+          rationale: 'Telepathy and memory are aetheric capacities, not diversion targets.'
+        },
+        {
+          text: 'Internal sovereignty and Oneness.',
+          isCorrect: false,
+          rationale: 'Sovereignty and Oneness are what the systems block, not where bandwidth goes.'
+        }
       ]
     },
+
     {
       number: 7,
       question: 'In the context of Academic Distortion, how was the existence of Tartaria concealed?',
@@ -88,15 +139,32 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'What role do artificially aged manuscripts play in the maintenance of counterfeit history?',
-      hint: 'Recall what was distributed across European learning centers between 1840 and 1850.',
+      question: 'With what do counterfeit structures intersect, in Broader Context?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
-        { text: 'They provide authentic evidence of the struggles faced by early European scholars during the dark ages.', isCorrect: false, rationale: 'The manuscripts were artificially aged and pristine, and they were used to construct a fictional thousand-year Medieval epoch.' },
-        { text: 'They contain the encrypted locations of free-energy devices hidden by Tartarian survivors.', isCorrect: false, rationale: 'Academic institutions distributed them to conceal Tartaria, which had used piezoelectric stone masonry and aetheric energy harvesting.' },
-        { text: 'They were distributed to construct a fictional thousand-year Medieval epoch.', isCorrect: true, rationale: 'Between 1840 and 1850, exactly 18,745 artificially aged, pristine manuscripts were distributed across European learning centers to construct a fictional thousand-year Medieval epoch.' },
-        { text: 'They serve as liturgical guides for the transition of organized religion into the digital era.', isCorrect: false, rationale: 'Their role is timeline fabrication, not a liturgical bridge from Re-Legion into the World Wide Web.' }
+        {
+          text: 'Physical density suppression and the biological downsizing of the human vessel, keeping individuals trapped in linear time.',
+          isCorrect: true,
+          rationale: 'They intersect with physical density suppression and the biological downsizing of the vessel.'
+        },
+        {
+          text: 'Aetheric resonance, authentic memory, and harmonic multidimensional reality itself.',
+          isCorrect: false,
+          rationale: 'Resonance and harmonic reality are the awakening outcome, not the intersection.'
+        },
+        {
+          text: 'Direct cosmic connection, internal sovereignty, and the experience of Oneness.',
+          isCorrect: false,
+          rationale: 'Connection and sovereignty are what the structures prevent.'
+        },
+        {
+          text: 'Authentic historical memory, natural energetic currents, and direct downloads.',
+          isCorrect: false,
+          rationale: 'Memory and currents are replaced by the systems, not intersected with.'
+        }
       ]
     },
+
     {
       number: 9,
       question: 'How does the financial system capture and monetize organic human current?',
@@ -110,26 +178,60 @@ module.exports = {
     },
     {
       number: 10,
-      question: 'Which of the following describes the Usury Trap as defined by counterfeit financial systems?',
-      hint: 'Think about the source of the funds used in institutional lending.',
+      question: 'How do financial networks act as counterfeit energy circuits?',
+      hint: 'See the finance paragraph in Core Revelations.',
       options: [
-        { text: 'Financial entities lend individuals money derived from their own underlying bond value while charging interest.', isCorrect: true, rationale: 'Financial entities lend individuals money derived from their own underlying bond value while charging interest, such as demanding 125 in return for a 100 loan of the borrower\'s own money, constituting theft by deception.' },
-        { text: 'Charging high fees for the administration of the Cestui Que Vie trust accounts during a person\'s lifetime.', isCorrect: false, rationale: 'The Usury Trap is lending the borrower\'s own bond value back at interest, which constitutes theft by deception.' },
-        { text: 'Requiring a minimum balance in bank accounts to prevent the collapse of the global energy circuit.', isCorrect: false, rationale: 'The mechanism captures human labor and creative current through mortgages and loans backed by legal fictions.' },
-        { text: 'The process of devaluing physical assets to force individuals into the digital labor market.', isCorrect: false, rationale: 'Usury here means charging interest on money derived from the individual\'s own underlying bond value.' }
+        {
+          text: 'By transforming organic human current into artificial debt through the monetization of individual collateral via the Cestui Que Vie bond and usurious lending.',
+          isCorrect: true,
+          rationale: 'They transform organic human current into artificial debt through the monetization of collateral.'
+        },
+        {
+          text: 'By restoring natural energetic currents, authentic memory, and direct aetheric connection to the vessel.',
+          isCorrect: false,
+          rationale: 'Finance replaces natural current with debt rather than restoring it.'
+        },
+        {
+          text: 'By issuing interest-free credit and sovereign capital from public taxation funds to citizens.',
+          isCorrect: false,
+          rationale: 'Lending is usurious and collateral-based, never interest-free.'
+        },
+        {
+          text: 'By severing reliance on financial illusion and relinquishing the artificial energy traps.',
+          isCorrect: false,
+          rationale: 'Severing reliance is the awakening response, not the circuit\'s operation.'
+        }
       ]
     },
+
     {
       number: 11,
-      question: 'What was the characteristic energy source used by the high civilization of Tartaria?',
-      hint: 'Look for terms related to frequency and natural multidimensional fields.',
+      question: 'What does Academic Distortion conceal?',
+      hint: 'See the Key Terminology entry.',
       options: [
-        { text: 'Aetheric energy harvested through piezoelectric stone masonry and solfeggio frequencies.', isCorrect: true, rationale: 'Tartaria was a global high civilization that utilized piezoelectric stone masonry, solfeggio frequencies, and aetheric energy harvesting.' },
-        { text: 'Large-scale solar arrays integrated into the neoclassical facades of European cities.', isCorrect: false, rationale: 'Neoclassical is one of the labels used to frame Tartarian stone structures as later creations.' },
-        { text: 'Bio-fuel derived from the organic processing of natural plant life within 15-minute cities.', isCorrect: false, rationale: '15-minute cities belong to the choice architecture of daily existence, not to Tartaria\'s free-energy civilization.' },
-        { text: 'Advanced nuclear fission that utilized harmonic containment fields to prevent radiation leakage.', isCorrect: false, rationale: 'Tartaria utilized piezoelectric stone masonry, solfeggio frequencies, and aetheric energy harvesting.' }
+        {
+          text: 'Authentic human history and high civilisations such as Tartaria.',
+          isCorrect: true,
+          rationale: 'It is the institutionalized educational framework that uses origin myths like Plato\'s grove to conceal Tartaria.'
+        },
+        {
+          text: 'Institutional gatekeeping across science and media.',
+          isCorrect: false,
+          rationale: 'Gatekeeping is the wider orders\' work; distortion conceals history.'
+        },
+        {
+          text: 'The numerical designation of the World Wide Web.',
+          isCorrect: false,
+          rationale: 'The 666 designation belongs to the web, not the education framework.'
+        },
+        {
+          text: 'The valuation of birth certificate bonds.',
+          isCorrect: false,
+          rationale: 'Bond valuation belongs to the finance domain, not academia.'
+        }
       ]
     },
+
     {
       number: 12,
       question: 'What is the Aether?',
@@ -154,48 +256,116 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'What symbolic origins does the institutional educational framework claim for its authority?',
-      hint: 'Identify the Greek hero and the grove named in Academic Distortion.',
+      question: 'What does severing Perceived Knowledge mean abandoning?',
+      hint: 'See the Perceived Knowledge attachment.',
       options: [
-        { text: 'The myth of Plato\'s grove at Akademeia is a cover designed to restrict genuine inquiry.', isCorrect: true, rationale: 'Institutional education utilizes the myth of Plato\'s grove (Akademeia) to validate artificial learning hierarchies, and that origin story is a respectable cover designed to restrict genuine inquiry.' },
-        { text: 'The divine right of kings to establish universities for the enlightenment of their subjects.', isCorrect: false, rationale: 'Higher learning is anchored in the Greek hero Akademos and the olive grove of Hekadameia where Plato taught philosophy.' },
-        { text: 'The discovery of the Great Library of Alexandria and the preservation of its scrolls.', isCorrect: false, rationale: 'The Academy is tied to Akademos and Plato\'s grove, which validate artificial learning hierarchies.' },
-        { text: 'The scientific revolution and the establishment of the Royal Society in London.', isCorrect: false, rationale: 'The narrative of higher learning is anchored in Akademos and the olive grove of Hekadameia.' }
+        {
+          text: 'Institutional fabrications, academic degrees, and fake historical timelines, in favor of direct aetheric resonance and authentic memory.',
+          isCorrect: true,
+          rationale: 'It means abandoning fabrications and timelines in favor of direct aetheric resonance and authentic memory.'
+        },
+        {
+          text: 'Internal sovereignty, direct cosmic connection, and the lived experience of Oneness itself.',
+          isCorrect: false,
+          rationale: 'Sovereignty and Oneness are regained by the severing, not abandoned.'
+        },
+        {
+          text: 'Natural energetic currents, authentic historical memory, and direct aetheric connection.',
+          isCorrect: false,
+          rationale: 'Currents and connection are the organic state the severing restores.'
+        },
+        {
+          text: 'Organic spiritual abilities, biological hardware, and multidimensional awareness faculties.',
+          isCorrect: false,
+          rationale: 'Abilities and hardware are recovered, not abandoned.'
+        }
       ]
     },
+
     {
       number: 15,
-      question: 'How do academic institutions enforce public compliance with their declarations?',
-      hint: 'Think about the visual cues and titles used to project expert authority.',
+      question: 'What do the synthetic substitutes do?',
+      hint: 'See the opening of Core Revelations.',
       options: [
-        { text: 'By offering financial incentives to those who complete higher degrees and join the corporate workforce.', isCorrect: false, rationale: 'Compliance is enforced through artificial credentials, degrees, doctorates, and professional attire.' },
-        { text: 'By censoring all alternative media that contradicts the established consensus paradigm.', isCorrect: false, rationale: 'Symbols such as GP lab coats and stethoscopes project unquestioned authority over observable reality.' },
-        { text: 'Symbols such as GP lab coats and stethoscopes project unquestioned authority.', isCorrect: true, rationale: 'Academia enforces compliance through artificial credentials, degrees, doctorates, and professional attire, and symbols such as GP lab coats and stethoscopes are used to project unquestioned authority.' },
-        { text: 'By mandating that all citizens attend a minimum of twelve years of public schooling.', isCorrect: false, rationale: 'The public is prompted to accept institutional declarations over observable reality by the projection of unquestioned authority.' }
+        {
+          text: 'Mimic original functions while harvesting human energy.',
+          isCorrect: true,
+          rationale: 'They are synthetic substitutes that mimic original functions while harvesting human energy.'
+        },
+        {
+          text: 'Restore direct aetheric communication.',
+          isCorrect: false,
+          rationale: 'The substitutes replace aetheric communication rather than restoring it.'
+        },
+        {
+          text: 'Grant telepathic access without intermediaries.',
+          isCorrect: false,
+          rationale: 'Telepathy is the organic function being mimicked and blocked.'
+        },
+        {
+          text: 'Reactivate the pineal gland.',
+          isCorrect: false,
+          rationale: 'Reactivation is the awakening response, not the substitutes\' work.'
+        }
       ]
     },
+
     {
       number: 16,
-      question: 'The Cestui Que Vie 1666 Birth Certificate Bond is said to create an account with what initial valuation?',
-      hint: 'The amount is a substantial multi-million dollar figure.',
+      question: 'What does severing Finance require recognizing?',
+      hint: 'See the Finance attachment in Strategic Implications.',
       options: [
-        { text: '500,000 USD, tied to the projected property value the individual will manage.', isCorrect: false, rationale: 'The artificial account is initially valued at 50 million USD and grows over time.' },
-        { text: '1 million USD, which represents the lifetime tax contribution of the average citizen.', isCorrect: false, rationale: 'Every registered human birth is financialized at an initial value of 50 million USD.' },
-        { text: 'An artificial account initially valued at 50 million USD that grows over time.', isCorrect: true, rationale: 'The Cestui Que Vie 1666 Birth Certificate Bond creates an artificial account initially valued at 50 million USD that grows over time.' },
-        { text: '10,000 USD, serving as a baseline for the calculation of usurious interest rates.', isCorrect: false, rationale: 'The bond creates an artificial account initially valued at 50 million USD that grows over time.' }
+        {
+          text: 'Money, usury traps, and legal birth certificate fictions as artificial energy traps.',
+          isCorrect: true,
+          rationale: 'It requires recognizing money, usury traps, and legal birth certificate fictions as artificial energy traps.'
+        },
+        {
+          text: 'Money as a natural energetic current.',
+          isCorrect: false,
+          rationale: 'Money is the artificial substitute for natural current.'
+        },
+        {
+          text: 'Birth bonds as sovereign capital accounts.',
+          isCorrect: false,
+          rationale: 'The bonds are fictions and traps, not sovereign accounts.'
+        },
+        {
+          text: 'Usury as legitimate commercial service.',
+          isCorrect: false,
+          rationale: 'Usury is a trap built on concealed collateral, not a service.'
+        }
       ]
     },
+
     {
       number: 17,
-      question: 'What is the physical size comparison of a healthy pineal gland versus a calcified one?',
-      hint: 'The comparison involves a common purple fruit and a small green vegetable.',
+      question: 'How is direct internal Oneness restored?',
+      hint: 'See the Religion attachment in Strategic Implications.',
       options: [
-        { text: 'A healthy gland is the size of a walnut, while a calcified one shrinks to the size of a grape.', isCorrect: false, rationale: 'Fluoridation shrinks the pineal gland from the size of a fig to that of a garden pea.' },
-        { text: 'A healthy gland is the size of a cherry, while a calcified one remains the same size but turns into stone.', isCorrect: false, rationale: 'The gland shrinks from the size of a fig to that of a garden pea.' },
-        { text: 'A healthy gland is the size of an olive, while a calcified one expands due to the buildup of minerals.', isCorrect: false, rationale: 'Calcification shrinks the pineal gland from the size of a fig to that of a garden pea.' },
-        { text: 'Fluoridation shrinks the pineal gland from the size of a fig to that of a garden pea.', isCorrect: true, rationale: 'Systematic fluoridation of public drinking water calcifies the pineal gland, shrinking it from the size of a fig to that of a garden pea.' }
+        {
+          text: 'Through pineal reactivation — rejecting externalized dogmas, counterfeit priesthoods, and Re-Legion constructs.',
+          isCorrect: true,
+          rationale: 'Severing Religion means rejecting dogmas and priesthoods to restore direct, internal Oneness through pineal reactivation.'
+        },
+        {
+          text: 'Through submission to externalized priesthoods, dogmas, and Re-Legion religious constructs.',
+          isCorrect: false,
+          rationale: 'Priesthoods are the counterfeit being rejected, not the route back.'
+        },
+        {
+          text: 'Through artificial credentials, academic degrees, and institutional perceived knowledge.',
+          isCorrect: false,
+          rationale: 'Credentials belong to Perceived Knowledge, another attachment to sever.'
+        },
+        {
+          text: 'Through reliance on financial illusion, usury traps, and birth certificate fictions.',
+          isCorrect: false,
+          rationale: 'Financial reliance is the Finance attachment, severed separately.'
+        }
       ]
     },
+
     {
       number: 18,
       question: 'Which attachment must be severed to move beyond the deceptions of Academic Distortion?',
@@ -220,37 +390,88 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'What is the intended result of the Passivized Labor mechanism in the financial system?',
-      hint: 'Consider the long-term impact of mortgages and loans on a person\'s time and energy.',
+      question: 'What do counterfeit systems capture by establishing externalized authority structures?',
+      hint: 'See the close of the Overview.',
       options: [
-        { text: 'To create a competitive marketplace where the most creative individuals are rewarded with more current.', isCorrect: false, rationale: 'Financial institutions operate a confidence trick based on information asymmetry, and the result is captured labor rather than a reward of current.' },
-        { text: 'To capture human labor and creative current.', isCorrect: true, rationale: 'By forcing individuals to work decades to pay off mortgages and loans backed by their own legal fictions, counterfeit financial systems capture human labor and creative current.' },
-        { text: 'To ensure that every individual has a guaranteed minimum income provided by the state trust.', isCorrect: false, rationale: 'The system replaces natural energetic current with artificial scarcity and debt and captures human labor and creative current.' },
-        { text: 'To automate the production of goods so that humans can focus on spiritual pineal activation.', isCorrect: false, rationale: 'Passivized labor captures human labor and creative current, and counterfeit systems block pineal activation rather than freeing it.' }
+        {
+          text: 'Human focus, labor, and vital current — preventing individuals from accessing internal sovereignty and Oneness.',
+          isCorrect: true,
+          rationale: 'They capture human focus, labor, and vital current, preventing individuals from accessing internal sovereignty.'
+        },
+        {
+          text: 'Aetheric frequencies, universal memory, and direct data downloads from the aether.',
+          isCorrect: false,
+          rationale: 'Frequencies and memory are the organic interface, not the capture.'
+        },
+        {
+          text: 'Telepathic communication, immediate manifestation, and multidimensional awareness.',
+          isCorrect: false,
+          rationale: 'Those capacities are blocked by the capture, not captured themselves.'
+        },
+        {
+          text: 'Authentic memory, internal sovereignty, and direct cosmic connection itself.',
+          isCorrect: false,
+          rationale: 'Downloads and memory belong to the aether the systems replace.'
+        }
       ]
     },
+
     {
       number: 21,
-      question: 'What constitutes the core of Oneness as opposed to Re-Legion?',
-      hint: 'The answer lies in whether the spiritual connection is internal or external.',
+      question: 'What does Re-Legion prevent individuals from achieving?',
+      hint: 'See the Key Terminology entry.',
       options: [
-        { text: 'Direct internal Oneness through pineal reactivation.', isCorrect: true, rationale: 'Rejecting Re-Legion restores direct, internal Oneness through pineal reactivation, against allegiance to externalized legions rather than internal divine unity.' },
-        { text: 'A state of social harmony reached by following the ethical guidelines of academic institutions.', isCorrect: false, rationale: 'Academic institutions manufacture consensus paradigms and restrict genuine inquiry.' },
-        { text: 'The fusion of human consciousness with the digital World Wide Web to achieve immortality.', isCorrect: false, rationale: 'The World Wide Web replaces direct aetheric data downloads and traps human consciousness.' },
-        { text: 'A collective agreement among all religious institutions to follow a single global deity.', isCorrect: false, rationale: 'Re-Legion binds consciousness to external corporate religious bodies and deities and blocks the direct experience of Oneness.' }
+        {
+          text: 'Oneness through pineal activation — it redirects innate spirituality toward externalized legions and dogma.',
+          isCorrect: true,
+          rationale: 'Re-Legion works to redirect innate human spirituality toward externalized satanic legions and dogma, preventing individuals from achieving Oneness.'
+        },
+        {
+          text: 'Artificial debt and dependency through birth certificate bonds and usury traps.',
+          isCorrect: false,
+          rationale: 'Debt is the finance domain\'s product, not what Re-Legion blocks.'
+        },
+        {
+          text: 'Screen-based monitoring, distraction, and endless digital information loops.',
+          isCorrect: false,
+          rationale: 'Monitoring belongs to the web domain, not the religious one.'
+        },
+        {
+          text: 'Phantom timelines and fabricated history erasing the memory of Tartaria.',
+          isCorrect: false,
+          rationale: 'Timeline fabrication belongs to Academic Distortion.'
+        }
       ]
     },
+
     {
       number: 22,
-      question: 'How many artificially aged manuscripts were distributed to construct the Medieval epoch?',
-      hint: 'The number is between 18,000 and 19,000.',
+      question: 'What does the institutional noise generated by the four domains feed into?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
-        { text: 'Exactly 50 million manuscripts, reflecting the dollar value of the Cestui Que Vie bond.', isCorrect: false, rationale: '50 million USD is the initial value of the birth certificate bond, not the count of manuscripts.' },
-        { text: 'Exactly 1,666 manuscripts, corresponding to the year of the Birth Certificate Bond.', isCorrect: false, rationale: '1666 marks the Cestui Que Vie Birth Certificate Bond, while the manuscript count is 18,745.' },
-        { text: 'Exactly 2,000 manuscripts, one for each year of the phantom history injected into the timeline.', isCorrect: false, rationale: 'Up to two thousand years of phantom history were injected, while exactly 18,745 manuscripts were distributed.' },
-        { text: 'Exactly 18,745 manuscripts were distributed across European learning centers between 1840 and 1850.', isCorrect: true, rationale: 'Between 1840 and 1850, exactly 18,745 artificially aged, pristine manuscripts were distributed across European learning centers to construct a fictional thousand-year Medieval epoch.' }
+        {
+          text: 'The choice architecture of daily existence — including 15-minute cities, mandatory taxation, and designed administrative minutiae.',
+          isCorrect: true,
+          rationale: 'The noise feeds daily choice architecture, including 15-minute cities, mandatory taxation, and designed administrative minutiae.'
+        },
+        {
+          text: 'Direct aetheric downloads, universal memory, and telepathic communication channels.',
+          isCorrect: false,
+          rationale: 'Downloads are the organic function the noise drowns out.'
+        },
+        {
+          text: 'Pineal activation, multidimensional awareness, and the experience of Oneness.',
+          isCorrect: false,
+          rationale: 'Activation and awareness are what the noise prevents.'
+        },
+        {
+          text: 'Harmonic multidimensional reality and alignment with higher oversoul architectures.',
+          isCorrect: false,
+          rationale: 'Harmonic reality is the alignment reached after severing, not noise\'s product.'
+        }
       ]
     },
+
     {
       number: 23,
       question: 'What is the primary method for reclaiming internal sovereignty from counterfeit systems?',
@@ -264,15 +485,32 @@ module.exports = {
     },
     {
       number: 24,
-      question: 'Which of the following is true regarding the Medieval epoch in the context of counterfeit systems?',
-      hint: 'Consider why academic institutions would need to invent a thousand-year period.',
+      question: 'Alongside what does the dense matrix of artificial constructs work to keep human consciousness preoccupied?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
-        { text: 'It was a period of slow technological growth following the collapse of the Roman Empire.', isCorrect: false, rationale: 'The Medieval epoch is a fictional thousand-year period constructed with artificially aged manuscripts.' },
-        { text: 'It refers to the time when the pineal gland was first systematically suppressed by the priesthood.', isCorrect: false, rationale: 'The Medieval label is a fictional epoch used to frame Tartarian stone structures, not the date of pineal suppression.' },
-        { text: 'It was the golden age of aetheric harvesting before the rise of the World Wide Web.', isCorrect: false, rationale: 'Aetheric energy harvesting belongs to Tartaria, and the Medieval epoch is the screen placed over that civilization.' },
-        { text: 'It is a fictional thousand-year Medieval epoch used to frame Tartarian stone structures.', isCorrect: true, rationale: 'Artificially aged manuscripts were distributed to construct a fictional thousand-year Medieval epoch, framing Tartarian stone structures as Neoclassical, Revivalist, or Gothic creations of medieval wood-and-hammer builders.' }
+        {
+          text: 'MK-Ultra media programming and emotional scoring.',
+          isCorrect: true,
+          rationale: 'The constructs work to keep human consciousness preoccupied. Furthermore, counterfeit structures intersect with density suppression.'
+        },
+        {
+          text: 'Direct aetheric resonance and memory downloads.',
+          isCorrect: false,
+          rationale: 'Resonance and downloads are the organic functions being drowned out.'
+        },
+        {
+          text: 'Pineal reactivation and the experience of Oneness.',
+          isCorrect: false,
+          rationale: 'Reactivation is the awakening response, not the matrix\'s partner.'
+        },
+        {
+          text: 'The severing of the three primary attachments.',
+          isCorrect: false,
+          rationale: 'Severing attachments is the individual\'s liberation path, not a control partner.'
+        }
       ]
     },
+
     {
       number: 25,
       question: 'What is the ultimate goal of clearing neural bandwidth from institutional noise?',
