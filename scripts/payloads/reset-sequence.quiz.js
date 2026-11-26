@@ -66,15 +66,32 @@ module.exports = {
     },
     {
       number: 6,
-      question: 'Which cinematic era was designed to override the living memories of Tartarian architecture with a romanticized frontier myth?',
-      hint: 'Recall which stage used strict White Hat vs. Black Hat morality to establish the myth.',
+      question: 'Why do populations enter containment zones willingly?',
+      hint: 'See Consensual Enslavement via Convenience.',
       options: [
-        { text: 'The Spaghetti Western Era directed by Italian filmmakers.', isCorrect: false, rationale: 'This stage served as the final amoral layer to the tapestry of manufactured memory.' },
-        { text: 'The Classical Era featuring black-and-white films with moral tropes.', isCorrect: true, rationale: 'Stage 1, the Classical Era, is delivered through black-and-white cinema featuring strict White Hat vs. Black Hat moral tropes and establishes a romanticized frontier myth of an empty arid wilderness, overriding the living memories of Tartarian architecture.' },
-        { text: 'The Modern Digital Era utilizing high-definition CGI reconstructions.', isCorrect: false, rationale: 'The reset protocol utilized early cinema to anchor the narrative in the subconscious of previous generations.' },
-        { text: 'The Revisionist Era of the late 1950s through the 1970s.', isCorrect: false, rationale: 'This era was intended to provide gritty realism rather than the initial romanticized myth.' }
+        {
+          text: 'They believe they are choosing greater personal comfort.',
+          isCorrect: true,
+          rationale: 'Staged shifts make populations willingly opt into spatial containment zones and digital monitoring systems, believing they are choosing greater personal comfort.'
+        },
+        {
+          text: 'They are physically forced into the zones overnight.',
+          isCorrect: false,
+          rationale: 'Major shifts are never enforced overnight; they are staged over decades.'
+        },
+        {
+          text: 'They are promised access to Tartarian technology.',
+          isCorrect: false,
+          rationale: 'The Stone Age Restart exists to prevent access to that technology.'
+        },
+        {
+          text: 'They believe the zones restore communal rituals.',
+          isCorrect: false,
+          rationale: 'Acclimatization breaks communal habits rather than restoring them.'
+        }
       ]
     },
+
     {
       number: 7,
       question: 'What occurs when the initial waves of clones begin to reproduce sexually on the surface?',
@@ -99,15 +116,32 @@ module.exports = {
     },
     {
       number: 9,
-      question: 'How is the \'Revisionist Era\' of cinema (Stage 2) used to embed manufactured history?',
-      hint: 'Think about the transition from black-and-white to saturated color and complex characters.',
+      question: 'What do Mini-Resets facilitate covertly?',
+      hint: 'See Micro-Resets Versus Master Resets.',
       options: [
-        { text: 'It provides factual documentaries that explain the transition from the Old West to Suburbia.', isCorrect: false, rationale: 'The era utilizes fictional narratives and anti-heroes rather than factual documentation.' },
-        { text: 'This stage imparts a gritty tactile realism that embeds the manufactured history deep into the subconscious mind.', isCorrect: true, rationale: 'Stage 2 utilizes Technicolor and visceral gunfights, and this stage imparts a gritty tactile realism that embeds the manufactured history deep into the subconscious mind.' },
-        { text: 'It features idealized heroes that simplify the struggle between civilization and nature.', isCorrect: false, rationale: 'This era introduced Grey Hat anti-heroes and complexity, moving away from simple idealism.' },
-        { text: 'It utilizes operatic music and extreme close-ups to create a sense of amoral detachment.', isCorrect: false, rationale: 'These elements are specifically associated with Stage 3, the Spaghetti Western Era.' }
+        {
+          text: 'Covert population harvesting.',
+          isCorrect: true,
+          rationale: 'They displace local populations, destroy remaining heritage structures, and facilitate covert population harvesting.'
+        },
+        {
+          text: 'Open disclosure of predecessor civilisations.',
+          isCorrect: false,
+          rationale: 'Mini-Resets erase heritage rather than disclosing it.'
+        },
+        {
+          text: 'Restoration of heritage structures.',
+          isCorrect: false,
+          rationale: 'They destroy remaining heritage structures instead.'
+        },
+        {
+          text: 'Deployment of clone populations to the surface.',
+          isCorrect: false,
+          rationale: 'Clone deployment follows the wipe in the main sequence, not mini-resets.'
+        }
       ]
     },
+
     {
       number: 10,
       question: 'What role does the \'amnesia vortex\' play in the success of the Reset Sequence?',
@@ -132,15 +166,32 @@ module.exports = {
     },
     {
       number: 12,
-      question: 'How are facial features shaped in the generations following the initial clone deployment?',
-      hint: 'Consider the influence of soul harmonics mentioned in the mechanics of repopulation.',
+      question: 'What does the subterranean holding period allow surface clean-up crews to clear?',
+      hint: 'See Repopulation and Underground Deployment.',
       options: [
-        { text: 'They remain identical to the original clone stock to ensure bureaucratic consistency.', isCorrect: false, rationale: 'Sexual reproduction introduces variation, though ancestral atavisms still recur.' },
-        { text: 'They are genetically engineered in DUMBs to match the specific needs of different urban zones.', isCorrect: false, rationale: 'This describes the initial clone creation, not the subsequent generations born of sexual reproduction.' },
-        { text: 'Facial features are progressively sculpted over time by soul harmonics.', isCorrect: true, rationale: 'As clone generations reproduce, genetic recombination shuffles their DNA, creating unique genetic individuals whose facial features are progressively sculpted over time by soul harmonics.' },
-        { text: 'They are altered through surgical intervention and mandatory digital filters.', isCorrect: false, rationale: 'These changes are attributed to soul harmonics and genetic recombination.' }
+        {
+          text: 'Structural wreckage, mudflood debris, and petrified remains from prior civilisations.',
+          isCorrect: true,
+          rationale: 'The holding period lets crews clear structural wreckage, mudflood debris, and petrified remains from prior civilisations.'
+        },
+        {
+          text: 'Living populations from the repurposed cities.',
+          isCorrect: false,
+          rationale: 'Populations are deployed into the cities after cleanup, not cleared from them.'
+        },
+        {
+          text: 'Clone stock from the underground facilities.',
+          isCorrect: false,
+          rationale: 'Clone stock is raised underground until deployment, not cleared.'
+        },
+        {
+          text: 'Historical documentation from the archives.',
+          isCorrect: false,
+          rationale: 'Documentation is fabricated by overseers, not cleared by crews.'
+        }
       ]
     },
+
     {
       number: 13,
       question: 'What is the strategic implication of identifying the \'Story Stages\' used in cultural installation?',
@@ -209,15 +260,32 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'The \'Man with No Name\' archetype in Stage 3 cinema is used to install what kind of cultural memory?',
-      hint: 'Think about the tone of Sergio Leone films compared to earlier Westerns.',
+      question: 'How does the control architecture manage repopulation?',
+      hint: 'See the Overview.',
       options: [
-        { text: 'An understanding of the genetic recombination processes occurring on the surface.', isCorrect: false, rationale: 'The archetypes are purely for historical narrative installation, not genetic education.' },
-        { text: 'Aggressive amoral subgenres leave the population with a dense unquestioned cultural memory of an era that never actually occurred.', isCorrect: true, rationale: 'Stage 3 uses aggressive amoral subgenres such as Clint Eastwood\'s Man with No Name, and operatic music scores and extreme close-ups leave the population with a dense unquestioned cultural memory of an era that never actually occurred.' },
-        { text: 'A strong moral compass based on communal values and self-sufficiency.', isCorrect: false, rationale: 'This archetype is amoral and aggressive, moving away from the strict moral tropes of Stage 1.' },
-        { text: 'A nostalgic longing for the lost technology of the predecessor civilizations.', isCorrect: false, rationale: 'The archetype is part of the system that ensures Tartaria remains hidden and forgotten.' }
+        {
+          text: 'Through underground cloning facilities, distributing new populations into repurposed stone infrastructure.',
+          isCorrect: true,
+          rationale: 'It works by managing repopulation through underground cloning facilities and distributing new populations into repurposed stone infrastructure.'
+        },
+        {
+          text: 'Through natural births in surface settlements following the wipe.',
+          isCorrect: false,
+          rationale: 'New populations come from underground cloning, not natural surface births.'
+        },
+        {
+          text: 'Through permitted migration of populations from outside the realm.',
+          isCorrect: false,
+          rationale: 'Migrants serve only as interspersed overseers among the clone populations.'
+        },
+        {
+          text: 'Through restoration of the predecessor populations after cleanup.',
+          isCorrect: false,
+          rationale: 'Predecessor populations are wiped; replacements are newly deployed clones.'
+        }
       ]
     },
+
     {
       number: 20,
       question: 'Which of the following is an \'easy-option\' technology used in the convenience trap?',
