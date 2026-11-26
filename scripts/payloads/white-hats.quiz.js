@@ -92,31 +92,32 @@ module.exports = {
     },
     {
       number: 4,
-      question: 'What functional role do MedBeds play within the narrative stalling architecture?',
-      hint: 'Look at how external technological promises divert focus from internal work.',
+      question: 'What is a MedBed within the alternative truth channels?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'MedBeds act as physical tracking devices placed directly inside Fifteen-Minute Cities.',
-          isCorrect: false,
-          rationale: 'MedBeds are bait for health and longevity while Fifteen-Minute Cities are linked through redemption and digital identity frameworks.'
-        },
-        {
-          text: 'MedBeds are genuine frequency pods deployed to restore physical bodies before ascension.',
-          isCorrect: false,
-          rationale: 'The promise of MedBeds keeps people fixated on upcoming physical fixes rather than internal cellular restoration.'
-        },
-        {
-          text: 'MedBeds are a miraculous health restoration device that keeps people fixated on upcoming physical fixes rather than internal cellular restoration.',
+          text: 'A holographic or frequency-based medical pod promised as a miraculous health restoration device, serving as a primary bait in the stall mechanism.',
           isCorrect: true,
-          rationale: 'MedBeds are promised as a miraculous health restoration device and keep individuals fixated on upcoming physical fixes rather than internal cellular restoration.'
+          rationale: 'It is a frequency-based medical pod promised as miraculous restoration, functioning as primary bait in the stall.'
         },
         {
-          text: 'MedBeds are administrative processing tools used during financial redemption appointments.',
+          text: 'A conceptual banking framework pitched as a gold-backed, unhackable financial network for wealth distribution.',
           isCorrect: false,
-          rationale: 'Redemption appointments belong to revaluation scripts such as Tier 4B while MedBeds are the health bait.'
+          rationale: 'That framework is the QFS, the financial bait rather than the medical one.'
+        },
+        {
+          text: 'The designated internet-group exchange level within revaluation scripts, presented as an imminent redemption window.',
+          isCorrect: false,
+          rationale: 'That level is Tier 4B, a redemption classification rather than a device.'
+        },
+        {
+          text: 'An engineered narrative archetype that simplifies complex dynamics into stark binaries of heroism versus evil.',
+          isCorrect: false,
+          rationale: 'That archetype is the Story Shape, the narrative form rather than a promised device.'
         }
       ]
     },
+
     {
       number: 5,
       question: 'What is Tier 4B within revaluation narrative scripts?',
@@ -227,31 +228,32 @@ module.exports = {
     },
     {
       number: 9,
-      question: 'Why must controllers package containment measures as attractive rewards rather than forcing compliance?',
-      hint: 'Consider the field rule that governs free will and operational resistance.',
+      question: 'Why does the control matrix rely on Choice Architecture presenting seemingly opposed options?',
+      hint: 'Look at the first Broader Context paragraph.',
       options: [
         {
-          text: 'Under fundamental field rules controllers cannot force compliance without generating severe field resistance so containment is packaged as rewards for waiting.',
+          text: 'Because external intervention cannot override a self-sustaining realm without voluntary consent, while both options preserve the overarching enclosure.',
           isCorrect: true,
-          rationale: 'Under fundamental field rules controllers cannot force compliance without generating severe field resistance and so package containment as rewards for waiting.'
+          rationale: 'Consent cannot be bypassed, so opposed-seeming options are offered while both options preserve the overarching enclosure.'
         },
         {
-          text: 'The Sovereign Accord mandates a public vote before any digital tracking device can be deployed.',
+          text: 'Because populations would reject the enclosure if only a single option were ever presented to them.',
           isCorrect: false,
-          rationale: 'Consent is captured by offering rewards for waiting rather than by a formal public vote.'
+          rationale: 'The mechanism is legal, not presentational: consent is required, so options must appear opposed.'
         },
         {
-          text: 'Centralized systems lack the physical resources required to execute mandatory digital identification.',
+          text: 'Because the Black Hats remain active operational players directing the matrix\'s daily administration.',
           isCorrect: false,
-          rationale: 'The limit is that controllers cannot force compliance without generating severe field resistance.'
+          rationale: 'Black Hat activity is maintained theater; the reliance on choice architecture stems from field law.'
         },
         {
-          text: 'Covert military factions actively block every direct forced-compliance measure across global infrastructure.',
+          text: 'Because covert military control of broadcast channels requires a visible ongoing struggle to sustain.',
           isCorrect: false,
-          rationale: 'That claim repeats the White Hat story while the actual limit is severe field resistance under fundamental field rules.'
+          rationale: 'Broadcast theater serves audience education in the narrative, not the consent requirement.'
         }
       ]
     },
+
     {
       number: 10,
       question: 'What is accomplished by releasing selective information in a pattern described as chess moves?',
@@ -308,31 +310,32 @@ module.exports = {
     },
     {
       number: 12,
-      question: 'What physical management infrastructure do redemption appointments and digital identity distribution directly link into?',
-      hint: 'Consider the managed urban containment systems named with digital identity.',
+      question: 'What does the external focus on military announcements and medical pods bypass?',
+      hint: 'See the final Broader Context paragraph.',
       options: [
         {
-          text: 'Redemption appointments and digital identity link into autonomous local hubs and unmonitored exchange nodes.',
-          isCorrect: false,
-          rationale: 'Those frameworks link into containment environments designed to manage population density.'
-        },
-        {
-          text: 'Redemption appointments and digital identity distribution link directly into proposed Fifteen-Minute Cities and the Social Credit Score System.',
+          text: 'The Pineal Crossover — individuals neglect the endogenous activation of their own spiritual hardware, leaving their internal frequency open to external manipulation.',
           isCorrect: true,
-          rationale: 'Financial redemption appointments and digital identity distribution link directly into proposed Fifteen-Minute Cities and the Social Credit Score System.'
+          rationale: 'The focus target-locks cognitive capacity, bypassing the Pineal Crossover and neglecting endogenous hardware activation.'
         },
         {
-          text: 'Redemption appointments and digital identity link into covert military bases and holographic medical centers.',
+          text: 'The broadcast theater maintained to demonstrate media deception to a developing audience over time.',
           isCorrect: false,
-          rationale: 'The named infrastructure is Fifteen-Minute Cities and the Social Credit Score System rather than military bases and medical centers.'
+          rationale: 'Broadcast theater is the Whitehats\' stated purpose, not what audience focus bypasses.'
         },
         {
-          text: 'Redemption appointments and digital identity link into decentralized trade networks and off-grid energy cooperatives.',
+          text: 'The stall protocol that neutralizes the individual requirement to resist, investigate, or detach.',
           isCorrect: false,
-          rationale: 'Accepting these solutions walks people into containment environments designed to manage population density.'
+          rationale: 'The stall is the mechanism doing the bypassing, not the thing bypassed.'
+        },
+        {
+          text: 'The Stage-1 narrative installation conditioning the subconscious to seek externalized resolutions.',
+          isCorrect: false,
+          rationale: 'The installation is the historical programming behind the dynamic, not its bypass target.'
         }
       ]
     },
+
     {
       number: 13,
       question: 'What energetic consequence occurs when cognitive capacity is locked onto external rescue announcements?',
@@ -443,31 +446,32 @@ module.exports = {
     },
     {
       number: 17,
-      question: 'How does authentic liberation occur?',
-      hint: 'Look for internal actions within the vessel rather than external events.',
+      question: 'How does introducing a secret benevolent military force neutralize individual action?',
+      hint: 'Check The Strategic Stall Protocol.',
       options: [
         {
-          text: 'Real ascension occurs through the removal of narrative attachments and the restoration of natural harmonic frequencies from within the sovereign vessel.',
+          text: 'Audiences are encouraged to sit back, watch the narrative unfold, and yield their agency to an unseen command structure.',
           isCorrect: true,
-          rationale: 'Real ascension occurs through the removal of narrative attachments the defense of free-will integrity and the restoration of natural harmonic frequencies from within the sovereign vessel.'
+          rationale: 'The force\'s existence lets audiences yield their agency to an unseen command structure instead of acting.'
         },
         {
-          text: 'Authentic liberation occurs through frequency recalibration inside deployed holographic MedBeds.',
+          text: 'Audiences are ordered to resist control structures immediately.',
           isCorrect: false,
-          rationale: 'MedBeds keep people fixated on upcoming physical fixes rather than internal restoration.'
+          rationale: 'The protocol neutralizes resistance rather than ordering it.'
         },
         {
-          text: 'Authentic liberation occurs through global military tribunals and broadcast channel liberation.',
+          text: 'Individuals are driven to investigate systemic inversion themselves.',
           isCorrect: false,
-          rationale: 'True liberation cannot be delivered by external factions military maneuvers or exotic devices.'
+          rationale: 'Investigation is exactly the impulse the stall neutralizes.'
         },
         {
-          text: 'Authentic liberation occurs through global wealth redistribution under GESARA guidelines.',
+          text: 'Target populations detach from control structures spontaneously.',
           isCorrect: false,
-          rationale: 'NESARA / GESARA belongs to the financial revaluation bait rather than to liberation.'
+          rationale: 'Detachment is prevented by the promise that resistance is handled behind the scenes.'
         }
       ]
     },
+
     {
       number: 18,
       question: 'In the dualistic White Hat narrative script, how are the opposing factions framed?',
@@ -551,31 +555,32 @@ module.exports = {
     },
     {
       number: 21,
-      question: 'Which items are packaged together as financial revaluation bait in alternative truth channels?',
-      hint: 'Look for the financial reset names and the hardware bait named with them.',
+      question: 'What is the Quantum Financial System (QFS) in this framework?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'Fifteen-Minute City permits and Social Credit rating bonuses are the financial revaluation bait.',
-          isCorrect: false,
-          rationale: 'Fifteen-Minute Cities and the Social Credit Score System are the containment endpoints those lures link into.'
-        },
-        {
-          text: 'The Quantum Financial System NESARA / GESARA and Tier 4B redemption appointments are pitched as imminent financial resets alongside specialized Q-Phones and humanitarian funding.',
+          text: 'A conceptual banking framework pitched as a gold-backed, unhackable financial network, functioning as a free-will signature trap to transition populations into digital tracking interfaces.',
           isCorrect: true,
-          rationale: 'The Quantum Financial System NESARA / GESARA and Tier 4B redemption appointments are pitched as imminent financial resets while people prepare for specialized Q-Phones and humanitarian funding.'
+          rationale: 'The QFS is a signature trap built to transition populations into digital tracking interfaces.'
         },
         {
-          text: 'Sovereign Accord certificates Field Law manuals and pineal guidelines are the financial revaluation bait.',
+          text: 'The designated internet-group exchange level presented to truth-seekers as an imminent redemption window.',
           isCorrect: false,
-          rationale: 'Field Law and the Sovereign Accord describe consent limits rather than the financial bait.'
+          rationale: 'That level is Tier 4B, the audience classification within the revaluation scripts.'
         },
         {
-          text: 'Pineal Crossover keys and cellular regeneration pods are the financial revaluation bait.',
+          text: 'A holographic medical pod promised in truth channels as a miraculous health restoration device and bait.',
           isCorrect: false,
-          rationale: 'The Pineal Crossover is bypassed by external focus while the financial bait is the revaluation scripts.'
+          rationale: 'That pod is the MedBed, the health bait rather than the banking framework.'
+        },
+        {
+          text: 'An engineered narrative archetype simplifying dynamics into stark binaries of heroism versus absolute evil.',
+          isCorrect: false,
+          rationale: 'That archetype is the Story Shape, the narrative form the QFS pitch travels inside.'
         }
       ]
     },
+
     {
       number: 22,
       question: 'How is the promised White Hat rollout fundamentally characterized?',
