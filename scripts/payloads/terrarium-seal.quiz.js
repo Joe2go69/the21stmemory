@@ -227,31 +227,32 @@ module.exports = {
     },
     {
       number: 9,
-      question: 'Why do warnings of imminent oil depletion count as manufactured economic deceptions?',
-      hint: 'Consider the role those subterranean compounds play for the wider architecture.',
+      question: 'When were the created sea monsters placed at the ocean-based portal exits?',
+      hint: 'See The Ice Wall Perimeter and the Three Gates.',
       options: [
         {
-          text: 'Because oil is refined gas vented from volcanoes into containment zones.',
-          isCorrect: false,
-          rationale: 'Volcanoes vent subterranean gas pressures; oil is natural lubricating grease supplied from the broader plain.'
-        },
-        {
-          text: 'Because oil is condensed light cast from the Bright Morning Star at Venus.',
-          isCorrect: false,
-          rationale: 'Venus casts a lunar lens; oil is natural lubricating grease supplied from the broader plain.'
-        },
-        {
-          text: 'Because oil is synthetic stock assembled aboard the spherical space station.',
-          isCorrect: false,
-          rationale: 'The station harvests loosh energy and stores soul data; oil is natural lubricating grease supplied from the broader plain.'
-        },
-        {
-          text: 'Because oil is natural lubricating grease supplied from the broader plain.',
+          text: 'Prior to 1728.',
           isCorrect: true,
-          rationale: 'Oil functions as the natural lubricating grease of planetary architecture supplied from the broader plain, so depletion warnings are manufactured economic deceptions used for artificial price hikes.'
+          rationale: 'Controllers placed created sea monsters—including giant Kraken and Megalodons—at these ocean-based portal exits prior to 1728.'
+        },
+        {
+          text: 'After the 1959 Antarctic Treaty.',
+          isCorrect: false,
+          rationale: 'The placement predates the treaty by centuries.'
+        },
+        {
+          text: 'Following the 1956 firmament discovery.',
+          isCorrect: false,
+          rationale: 'The monsters were placed long before the discovery.'
+        },
+        {
+          text: 'During the most recent historical reset.',
+          isCorrect: false,
+          rationale: 'The report dates the placement before 1728.'
         }
       ]
     },
+
     {
       number: 10,
       question: 'What task do Sasquatch and Yeti perform in this architecture?',
@@ -308,31 +309,32 @@ module.exports = {
     },
     {
       number: 12,
-      question: 'Which ancient beings continue behind the ice wall rim in Realm-2?',
-      hint: 'Look at the outer domain that still holds older fauna past the rim.',
+      question: 'What lies beyond the perimeter?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'Yeti and Sasquatch remain there as the older fauna of that outer domain.',
-          isCorrect: false,
-          rationale: 'Yeti and Sasquatch guard land-based portals, while ancient fauna like dragons and giants continue in Realm-2.'
-        },
-        {
-          text: 'Kraken and Megalodons remain there as the older fauna of that outer domain.',
-          isCorrect: false,
-          rationale: 'Kraken and Megalodons patrol the gateway waters, while ancient fauna like dragons and giants continue in Realm-2.'
-        },
-        {
-          text: 'Loosh collectors remain there as the older fauna of that outer domain.',
-          isCorrect: false,
-          rationale: 'The spherical space station harvests loosh energy overhead, while ancient fauna like dragons and giants continue in Realm-2.'
-        },
-        {
-          text: 'Dragons and giants remain there as the older fauna of that outer domain.',
+          text: 'Adjacent physical territories, not outer space.',
           isCorrect: true,
-          rationale: 'Realm-2 is where ancient fauna like dragons and giants continue to exist behind the ice wall rim.'
+          rationale: 'Beyond it lie adjacent territories that connect to our realm below the ice walls through shared oceanic channels.'
+        },
+        {
+          text: 'Outer space filled with distant planets.',
+          isCorrect: false,
+          rationale: 'Beyond the perimeter are territories, not space.'
+        },
+        {
+          text: 'An expanding vacuum of spinning globes.',
+          isCorrect: false,
+          rationale: 'That is the globe deception the report rejects.'
+        },
+        {
+          text: 'The Celestial Lands of Terra Incognita.',
+          isCorrect: false,
+          rationale: 'Terra Incognita sits inside the Great Dome.'
         }
       ]
     },
+
     {
       number: 13,
       question: 'How are the 14,000 civilisations under the Great Dome related to each other?',
@@ -362,31 +364,32 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'What carries aetheric energy across the flat plain under the seal?',
-      hint: 'Look at the ground network housed inside the enclosure.',
+      question: 'What would observers see without the continuous projection?',
+      hint: 'See Projection Mechanics and the Lucifer Hologram.',
       options: [
         {
-          text: 'The high-altitude projection dome and the celestial display system.',
-          isCorrect: false,
-          rationale: 'The projection dome is a visual canopy; the telluric ley line grid and piezoelectric nodal architecture distribute aetheric energy.'
-        },
-        {
-          text: 'The telluric ley line grid and the piezoelectric nodal architecture.',
+          text: 'A metallic spherical installation in the sky whenever the station was present.',
           isCorrect: true,
-          rationale: 'The seal houses the telluric ley line grid and piezoelectric nodal architecture that distribute aetheric energy throughout the flat plain.'
+          rationale: 'They would see the station in the sky whenever the station was present, exposing the artificial nature of the celestial canopy.'
         },
         {
-          text: 'The subterranean petrochemical flow and the lubricating grease network.',
+          text: 'A natural moon reflecting solar light onto the plain below.',
           isCorrect: false,
-          rationale: 'Oil is natural lubricating grease; the telluric ley line grid and piezoelectric nodal architecture distribute aetheric energy.'
+          rationale: 'The moon is the hologram the station hides behind.'
         },
         {
-          text: 'The volcanic thermal discharge and the designated containment zones.',
+          text: 'The ice wall rim in plain sight.',
           isCorrect: false,
-          rationale: 'Volcanoes vent subterranean gas pressures into designated containment zones, while the telluric grid distributes aetheric energy.'
+          rationale: 'The projection conceals the station, not the rim.'
+        },
+        {
+          text: 'Stars fixed in an infinite vacuum.',
+          isCorrect: false,
+          rationale: 'The stars are part of the projected display.'
         }
       ]
     },
+
     {
       number: 15,
       question: 'What does the spherical space station do on its circuit over the plain?',
@@ -416,31 +419,32 @@ module.exports = {
     },
     {
       number: 16,
-      question: 'How do rivers and waterfalls participate in the connected systems of the plain?',
-      hint: 'Consider the link between surface water and the channels under the ground.',
+      question: 'What does the sky overhead consist of?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'They carry continuous data flow between the surface and the depths.',
+          text: 'An engineered projection dome, not infinite outer space.',
           isCorrect: true,
-          rationale: 'The seal connects subterranean fluid channels with surface telluric networks, facilitating continuous data flow through rivers and waterfalls.'
+          rationale: 'The realms share a single, shared Super-Ocean, while the sky overhead consists of an engineered projection dome rather than infinite outer space.'
         },
         {
-          text: 'They power the lunar lens projected from the Bright Morning Star.',
+          text: 'Infinite outer space above the plane.',
           isCorrect: false,
-          rationale: 'Venus casts the self-illuminating lunar lens; rivers and waterfalls carry continuous data flow.'
+          rationale: 'The sky is an engineered dome, not space.'
         },
         {
-          text: 'They melt openings that become the maritime exits in the icy rim.',
+          text: 'A natural celestial sphere of fixed stars.',
           isCorrect: false,
-          rationale: 'The exits are exactly Three Gates; rivers and waterfalls carry continuous data flow across the realms.'
+          rationale: 'The display is projected, not natural.'
         },
         {
-          text: 'They cool those volcanic pressure valves inside the containment zones.',
+          text: 'The firmament\'s unmediated surface.',
           isCorrect: false,
-          rationale: 'Volcanoes vent heat into designated containment zones; rivers and waterfalls carry continuous data flow.'
+          rationale: 'What shows overhead is the projection system.'
         }
       ]
     },
+
     {
       number: 17,
       question: 'What overall structure holds the 178 membrane worlds?',
@@ -524,31 +528,32 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'How does the Terrarium Seal meet the base under the enclosure?',
-      hint: 'Think about the seal position relative to the structure beneath it.',
+      question: 'What does the ice wall prevent?',
+      hint: 'See The Ice Wall Perimeter and the Three Gates.',
       options: [
         {
-          text: 'It dissolves the peripheral ice barrier during each historical reset.',
-          isCorrect: false,
-          rationale: 'The ice wall remains the lateral boundary; the seal is the primary physical enclosure anchored directly above the underlying motherboard plain.'
-        },
-        {
-          text: 'It stands firmly anchored directly above the underlying motherboard plain.',
+          text: 'Physical drift into surrounding territories like Realm-2.',
           isCorrect: true,
-          rationale: 'The Terrarium Seal is the primary physical enclosure anchored directly above the underlying motherboard plain.'
+          rationale: 'It is a massive, continuous ice wall that prevents physical drift into surrounding territories like Realm-2.'
         },
         {
-          text: 'It projects the Lands of Mars onto the high-altitude canopy overhead.',
+          text: 'Maritime egress through the Three Gates.',
           isCorrect: false,
-          rationale: 'The Lands of Mars are a physical realm on the shared ocean; the seal is anchored directly above the underlying motherboard plain.'
+          rationale: 'The gates are the controlled exception to the barrier.'
         },
         {
-          text: 'It absorbs the subterranean petrochemical compounds to stop outward leaking.',
+          text: 'Oceanic circulation beneath the rim.',
           isCorrect: false,
-          rationale: 'Oil flows as natural lubricating grease; the seal is the primary physical enclosure anchored directly above the underlying motherboard plain.'
+          rationale: 'The Super-Ocean circulates beneath the walls.'
+        },
+        {
+          text: 'Atmospheric pressure buildup in the enclosure.',
+          isCorrect: false,
+          rationale: 'Pressure is regulated by the volcanoes.'
         }
       ]
     },
+
     {
       number: 21,
       question: 'Which of these is NOT an environment found among the 178 worlds?',
