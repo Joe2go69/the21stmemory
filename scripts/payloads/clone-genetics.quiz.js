@@ -110,15 +110,32 @@ module.exports = {
     },
     {
       number: 10,
-      question: 'In the context of the Reset Harvest, what happens to existing surface architecture?',
-      hint: 'Managing teams modify what is left behind to suit the needs of the incoming population.',
+      question: 'Within what timeframe does recombination convert batch stock into a natural gene pool?',
+      hint: 'See Inheritance Mechanics and Genetic Recombination.',
       options: [
-        { text: 'Buildings are preserved as museums to teach the new population their history.', isCorrect: false, rationale: 'Arriving children receive fabricated historical narratives and do not inherit the true origin of the buildings.' },
-        { text: 'Infrastructure is hidden underground to make room for new surface construction.', isCorrect: false, rationale: 'Remaining surface stone is repurposed into civic buildings rather than moved underground.' },
-        { text: 'All previous buildings are completely demolished to ensure a clean slate.', isCorrect: false, rationale: 'Surface crews clear reset devastation and repurpose remaining Tartarian stone architecture.' },
-        { text: 'Surface management teams clear the devastation of the preceding reset, repurposing remaining Tartarian stone architecture into modern civic buildings.', isCorrect: true, rationale: 'That repurposing happens during the three-to-four-year period while cloned children are still underground.' }
+        {
+          text: 'Within one generation.',
+          isCorrect: true,
+          rationale: 'Within one generation, genetic recombination converts artificial batch stock into a natural biological gene pool, obscuring laboratory origins.'
+        },
+        {
+          text: 'Within two generations.',
+          isCorrect: false,
+          rationale: 'The conversion happens within one generation, not two.'
+        },
+        {
+          text: 'Within a single reset cycle of 1,000 years.',
+          isCorrect: false,
+          rationale: 'The masking is generational, not tied to the reset cycle length.'
+        },
+        {
+          text: 'Only after several centuries of interbreeding.',
+          isCorrect: false,
+          rationale: 'One generation of sexual reproduction suffices for the conversion.'
+        }
       ]
     },
+
     {
       number: 11,
       question: 'How do elite bloodline entities differ from the general population in their reincarnation process?',

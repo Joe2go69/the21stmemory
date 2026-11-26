@@ -294,34 +294,34 @@
     },
     {
       "number": 10,
-      "question": "In the context of the Reset Harvest, what happens to existing surface architecture?",
+      "question": "Within what timeframe does recombination convert batch stock into a natural gene pool?",
       "options": [
         {
           "label": "A",
-          "text": "The infrastructure is moved underground to make room for new surface construction, and the old stone buildings are taken apart block by block for use in the underground bases.",
+          "text": "Within two generations.",
           "isCorrect": false,
-          "rationale": "Not what the report says. That repurposing happens during the three-to-four-year period while cloned children are still underground."
+          "rationale": "The conversion happens within one generation, not two."
         },
         {
           "label": "B",
-          "text": "Surface management teams clear the devastation of the preceding reset, repurposing the remaining Tartarian stone architecture into modern civic buildings.",
+          "text": "Within one generation.",
           "isCorrect": true,
-          "rationale": "That repurposing happens during the three-to-four-year period while cloned children are still underground."
+          "rationale": "Within one generation, genetic recombination converts artificial batch stock into a natural biological gene pool, obscuring laboratory origins."
         },
         {
           "label": "C",
-          "text": "The previous buildings are demolished, so the new population starts on a clean slate.",
+          "text": "Within a single reset cycle of 1,000 years.",
           "isCorrect": false,
-          "rationale": "Not what the report says. That repurposing happens during the three-to-four-year period while cloned children are still underground."
+          "rationale": "The masking is generational, not tied to the reset cycle length."
         },
         {
           "label": "D",
-          "text": "The buildings are kept as museums to teach the new population their history.",
+          "text": "Only after several centuries of interbreeding.",
           "isCorrect": false,
-          "rationale": "Not what the report says. That repurposing happens during the three-to-four-year period while cloned children are still underground."
+          "rationale": "One generation of sexual reproduction suffices for the conversion."
         }
       ],
-      "hint": "Managing teams modify what is left behind to suit the needs of the incoming population.",
+      "hint": "See Inheritance Mechanics and Genetic Recombination.",
       "correctAnswer": "B"
     },
     {
