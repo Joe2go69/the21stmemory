@@ -92,31 +92,32 @@ module.exports = {
     },
     {
       number: 4,
-      question: 'Why are room dimensions and wall thicknesses in sound masonry calibrated to Fibonacci numerical standards?',
-      hint: 'Recall how geometric proportions interact with acoustic fields to maintain continuous internal environmental equilibrium.',
+      question: 'How is the Shamir worm described in the cover narrative?',
+      hint: 'See the Key Terminology entry for Shamir Worm.',
       options: [
         {
-          text: 'To align internal acoustic reflections so human voices can carry across large halls without echo.',
-          isCorrect: false,
-          rationale: 'Room acoustics serve energetic distribution across the structure rather than simple vocal amplification or echo control.'
-        },
-        {
-          text: 'To ensure maximum structural load distribution without needing interior support pillars or arches.',
-          isCorrect: false,
-          rationale: 'Load distribution is an engineering benefit, but Fibonacci geometry specifically enables passive energetic self-regulation.'
-        },
-        {
-          text: 'To standardize block production sizes so stone cutting can be replicated across regional quarries.',
-          isCorrect: false,
-          rationale: 'Blocks vary from a quarter ton to four tons; geometric standards govern overall spatial layout rather than quarrying block templates.'
-        },
-        {
-          text: 'Structural layouts are calibrated according to Fibonacci numerical standards for natural harmonic resonance.',
+          text: 'An eleven-eyed, corn-grain-sized organism.',
           isCorrect: true,
-          rationale: 'Proper geometric alignment lets the stone complex self-regulate its internal environment through natural harmonic resonance.'
+          rationale: 'The cover story attributes the stonework to microscopic biological organisms like the Shamir worm.'
+        },
+        {
+          text: 'A resonant stone-dwelling tunneling species.',
+          isCorrect: false,
+          rationale: 'The worm is a fabricated narrative, not a real species.'
+        },
+        {
+          text: 'A levitation device used by master builders.',
+          isCorrect: false,
+          rationale: 'Levitation was acoustic technology, not an organism.'
+        },
+        {
+          text: 'A crystalline transducer organism in the granite.',
+          isCorrect: false,
+          rationale: 'The transducers are the quartz crystals within the stone.'
         }
       ]
     },
+
     {
       number: 5,
       question: "What explains the recorded absence of construction noise at ancient sites such as Solomon's Temple?",
@@ -173,58 +174,60 @@ module.exports = {
     },
     {
       number: 7,
-      question: 'How do doorless recesses built into sound-masonry stone walls prevent perishable food from spoiling?',
-      hint: 'Think about how tuned vibrations can affect organic biological processes at the molecular level without altering air pressure.',
+      question: 'What do quartz crystals within the stone act as?',
+      hint: 'See Material Selection and Piezoelectric Quartz Granite.',
       options: [
         {
-          text: 'They draw cold air from subterranean water tables directly into sealed stone compartments.',
-          isCorrect: false,
-          rationale: 'Passive cooling relies on spatial heat dissipation, whereas food preservation specifically depends on stabilizing frequencies.'
-        },
-        {
-          text: 'They absorb oxygen from the immediate recess atmosphere to prevent bacterial oxidation.',
-          isCorrect: false,
-          rationale: 'Oxygen remains present in open recesses, but stabilizing frequencies inhibit the biological decay process.'
-        },
-        {
-          text: 'They maintain a vacuum seal created by piezoelectric pressure within the surrounding quartz wall.',
-          isCorrect: false,
-          rationale: 'Recesses operate in open-air conditions without requiring airtight vacuum doors or mechanical seals.'
-        },
-        {
-          text: 'Recesses constructed directly into stone walls emit specific stabilizing frequencies that arrest biological decay.',
+          text: 'Natural energy transducers.',
           isCorrect: true,
-          rationale: 'Those frequencies keep perishable items such as milk and bread fresh in open-air conditions.'
+          rationale: 'They act as transducers, receiving, storing, and transmitting atmospheric and terrestrial frequencies.'
+        },
+        {
+          text: 'Passive resonators requiring external power.',
+          isCorrect: false,
+          rationale: 'The crystals themselves receive, store, and transmit the frequencies.'
+        },
+        {
+          text: 'Insulators blocking aetheric currents.',
+          isCorrect: false,
+          rationale: 'The stone conducts aetheric currents rather than blocking them.'
+        },
+        {
+          text: 'Amplifiers tuned to the 440Hz standard.',
+          isCorrect: false,
+          rationale: 'No such tuning belongs to the natural stone.'
         }
       ]
     },
+
     {
       number: 8,
-      question: 'What mechanism enables sound-masonry wall taps to deliver instant hot water on demand?',
-      hint: 'Consider how an active, self-sustaining energy circuit provides passive thermal power without external boilers or fuel.',
+      question: 'Along what do the acoustic waves fracture and dress the granite?',
+      hint: 'See Acoustic Dressing and Levitation.',
       options: [
         {
-          text: 'Taps embedded directly into sound-masonry stone walls release instant hot water on demand without requiring external boilers.',
+          text: 'Natural lattice planes.',
           isCorrect: true,
-          rationale: 'The same nodes provide ambient heating and instant hot water without entropic power sources or mechanical heating pipes.'
+          rationale: 'Waves at precise frequencies that fracture and dress the granite block smoothly along natural lattice planes.'
         },
         {
-          text: 'Embedded red mercury heating elements convert ambient atmospheric electricity into localized heat.',
+          text: 'Mortar joints between fitted blocks.',
           isCorrect: false,
-          rationale: 'Taps function via the primary quartz stone circuit without requiring separate red mercury heating elements.'
+          rationale: 'The blocks are set so tightly that no mortar is required.'
         },
         {
-          text: 'Microscopic friction channels inside the stone heat flowing water through turbulent mechanical motion.',
+          text: 'Iron tool marks and chisel grooves.',
           isCorrect: false,
-          rationale: 'Water heating occurs through the stone circuit rather than fluid friction.'
+          rationale: 'The process eliminates iron chisels, hammers, and saws entirely.'
         },
         {
-          text: 'Geothermal heat is pumped directly from 40-foot subterranean footings through interior stone copper pipes.',
+          text: 'Fibonacci numerical standards.',
           isCorrect: false,
-          rationale: 'Footings serve as electrical grounding lines into water tables rather than physical thermal heat pumps.'
+          rationale: 'Fibonacci standards calibrate room geometry, not the dressing fractures.'
         }
       ]
     },
+
     {
       number: 9,
       question: 'Why are Ashlar masonry blocks set without mortar in sound-masonry construction?',
@@ -254,31 +257,32 @@ module.exports = {
     },
     {
       number: 10,
-      question: 'How were major sound-masonry structural nodes repurposed following periodic societal resets?',
-      hint: 'Consider how natural energy flow terms like current parallel modern monetary mechanisms.',
+      question: 'What do the integrated stone networks provide?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'They were dismantled and their quartz granite blocks were crushed to build industrial road networks.',
-          isCorrect: false,
-          rationale: 'Key structural nodes were retained rather than destroyed because their energetic architecture could be inverted.'
-        },
-        {
-          text: 'These quartz-granite centers were converted into financial banks that contain and regulate negative energy.',
+          text: 'Power generation, wireless light, and long-range communication.',
           isCorrect: true,
-          rationale: 'Natural aetheric currents were transformed into financial currency and economic debt loops.'
+          rationale: 'They form integrated networks for power generation, wireless light, and long-range communication.'
         },
         {
-          text: 'They were sealed off and designated as sacred religious burial grounds forbidden to the public.',
+          text: 'Financial currency and economic debt loops.',
           isCorrect: false,
-          rationale: 'Rather than being sealed away, repurposed structures served as active administrative and financial centers.'
+          rationale: 'Those are products of the later inversion of the nodes.'
         },
         {
-          text: 'They were fitted with steam engines and coal boilers to supplement their declining aetheric output.',
+          text: 'Density suppression and frequency inversion.',
           isCorrect: false,
-          rationale: 'Conversion involved shifting their energetic function into financial systems rather than adding fossil fuel combustion.'
+          rationale: 'Those are the disabling measures applied to the networks.'
+        },
+        {
+          text: 'Climate control and food preservation.',
+          isCorrect: false,
+          rationale: 'Those are the buildings\' internal functions, not the networks\' provision.'
         }
       ]
     },
+
     {
       number: 11,
       question: 'What role do time-phase conjugated (TPC) mirrors play when integrated into sound-masonry grids?',
@@ -443,31 +447,32 @@ module.exports = {
     },
     {
       number: 17,
-      question: 'How does sound masonry achieve passive summer cooling inside living spaces?',
-      hint: 'Think about how structural layout and material properties alone can regulate ambient temperature without moving parts.',
+      question: 'At what levels does sound masonry manipulate stone?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'Piezoelectric crystals invert their charge to absorb indoor thermal energy and release it outside.',
-          isCorrect: false,
-          rationale: 'Piezoelectric stone self-regulates through resonance rather than reversing chemical charges.'
-        },
-        {
-          text: 'Subterranean water is pumped through hollow wall channels to absorb room heat.',
-          isCorrect: false,
-          rationale: 'Cooling is passive and geometric; no fluid pumping through internal wall channels is involved.'
-        },
-        {
-          text: 'Time-phase conjugated mirrors reflect infrared radiation away from structural windows.',
-          isCorrect: false,
-          rationale: 'Mirror networks serve energy and communications; spatial geometry handles room thermal dissipation.'
-        },
-        {
-          text: 'The structural stone geometry dissipates excess heat during warm seasons without mechanical cooling apparatuses.',
+          text: 'The atomic and molecular levels.',
           isCorrect: true,
-          rationale: 'That geometry provides natural air conditioning during warm seasons.'
+          rationale: 'It manipulates stone at the atomic and molecular levels, creating seamless Ashlar masonry fitted with microscopic precision.'
+        },
+        {
+          text: 'The surface level only, through abrasion.',
+          isCorrect: false,
+          rationale: 'Abrasion is the entropic tool method the technique bypasses.'
+        },
+        {
+          text: 'The crystalline lattice planes exclusively.',
+          isCorrect: false,
+          rationale: 'Lattice planes are where dressing fractures run, not the manipulation level.'
+        },
+        {
+          text: 'The subterranean footing level.',
+          isCorrect: false,
+          rationale: 'Footings ground the circuit; manipulation is atomic and molecular.'
         }
       ]
     },
+
     {
       number: 18,
       question: 'What distinguishes Ashlar masonry formed via sound masonry from standard stone masonry?',
@@ -605,31 +610,32 @@ module.exports = {
     },
     {
       number: 23,
-      question: 'What historical functional alteration occurred when sound-masonry cathedrals were inverted by custodial forces?',
-      hint: 'Look at how the purpose of the energetic node was redirected from free human benefit to institutional control.',
+      question: 'What does understanding sound masonry expose the primitive-construction narrative as?',
+      hint: 'See Reconstruction of Architectural History in Strategic Implications.',
       options: [
         {
-          text: 'Their subterranean footings were filled with concrete to prevent water from reaching internal chambers.',
-          isCorrect: false,
-          rationale: 'Subterranean footings remained active as grounding lines for inverted financial power centers.'
-        },
-        {
-          text: 'Their bell towers were removed to stop high-frequency sound waves from interfering with telegraph lines.',
-          isCorrect: false,
-          rationale: 'Architectural elements were preserved because their underlying acoustic properties were required for the inversion.'
-        },
-        {
-          text: 'Inversion turned circulating positive aetheric energy for human health and free power into financial currency and economic debt loops.',
+          text: 'An impossible historical fabrication.',
           isCorrect: true,
-          rationale: 'Quartz-granite centers were converted into financial banks designed to contain and regulate negative energy.'
+          rationale: 'Understanding sound masonry exposes the narrative that historic stone complexes were built using primitive wood scaffolding, iron chisels, and hand hammers as an impossible historical fabrication.'
         },
         {
-          text: 'Their stone walls were painted over to conceal hidden gold and silver bullion reserves stored inside.',
+          text: 'A partially accurate building account.',
           isCorrect: false,
-          rationale: 'Inversion altered the energetic purpose of the structures, rather than hiding physical precious metals behind paint.'
+          rationale: 'The narrative is exposed as impossible, not partially accurate.'
+        },
+        {
+          text: 'A custodial narrative about the Shamir worm.',
+          isCorrect: false,
+          rationale: 'The worm story is one cover narrative; this exposure concerns the construction account.'
+        },
+        {
+          text: 'A record of acoustic construction methods.',
+          isCorrect: false,
+          rationale: 'The narrative claims primitive tools, the opposite of the acoustic record.'
         }
       ]
     },
+
     {
       number: 24,
       question: 'Which set of secondary materials works together with sound masonry to form complete power and communication networks?',
