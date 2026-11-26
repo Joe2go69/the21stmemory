@@ -227,85 +227,88 @@ module.exports = {
     },
     {
       number: 9,
-      question: 'Which category of cataclysms is credited with harvesting between 500 and 600 million lives?',
-      hint: 'Identify the biological category with the largest count in the baseline breakdown.',
+      question: 'What stream does an ignored appendix rupture ensure?',
+      hint: 'See Biological Vulnerability of the Appendix.',
       options: [
         {
-          text: 'Geo-engineered cold snaps and artificial food shortages account for 500 to 600 million harvested lives.',
-          isCorrect: false,
-          rationale: 'Climate anomalies and famines are the 30 to 50 million category rather than the 500 to 600 million category.'
-        },
-        {
-          text: 'Industrialized military conflicts and state-led genocides account for 500 to 600 million harvested lives.',
-          isCorrect: false,
-          rationale: 'Major wars and genocides total 150 to 215 million casualties rather than 500 to 600 million.'
-        },
-        {
-          text: 'Endemic and Pandemic Pathogens including smallpox tuberculosis malaria and modern patented bioweapons are artificially introduced to induce organ failure and widespread physical mortality.',
+          text: 'An ongoing stream of sudden casualties, surgical interventions, and loosh generation.',
           isCorrect: true,
-          rationale: 'Endemic and Pandemic Pathogens are the 500 to 600 million category and are artificially introduced to induce organ failure.'
+          rationale: 'It ensures an ongoing stream of sudden casualties, surgical interventions, and loosh generation.'
         },
         {
-          text: 'Systematic child disappearances and subterranean sacrifices account for 500 to 600 million harvested lives.',
+          text: 'A stream of adrenochrome shipments for elite consumers.',
           isCorrect: false,
-          rationale: 'Child disappearance is added on top of the baseline and is not the 500 to 600 million pathogen category.'
+          rationale: 'Adrenochrome is bottled from abducted children, not appendix cases.'
+        },
+        {
+          text: 'A supply of stem cells for clone production.',
+          isCorrect: false,
+          rationale: 'Stem cells come from sacrificed children in D.U.M.B. laboratories.'
+        },
+        {
+          text: 'A flow of organs for custodial collection.',
+          isCorrect: false,
+          rationale: 'The appendix stream is casualties and loosh, not collected organs.'
         }
       ]
     },
+
     {
       number: 10,
-      question: 'How do climate anomalies and famines contribute to harvesting operations?',
-      hint: 'Think about the physical effect of events like the Great Chinese Famine on human hosts.',
+      question: 'What is harvested directly from physical bodies in the Triad?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'Climate anomalies neutralize biological hazards like the appendix without requiring surgery.',
-          isCorrect: false,
-          rationale: 'Famines cause mass starvation and physical collapse rather than neutralizing the appendix.'
-        },
-        {
-          text: 'Climate anomalies trigger immediate multi-strand DNA mutations across entire surface populations.',
-          isCorrect: false,
-          rationale: 'Famines cause physical collapse and organ retrieval rather than multi-strand DNA mutations.'
-        },
-        {
-          text: 'Climate anomalies force surface populations to migrate into deep underground military bases.',
-          isCorrect: false,
-          rationale: 'Underground processing follows abduction and famine instead causes starvation and organ retrieval.'
-        },
-        {
-          text: 'Artificial food shortages such as the Great Chinese Famine and Bengal Famine cause mass starvation and physical collapse facilitating organ retrieval from deceased hosts.',
+          text: 'Physical organs and fluid adrenochrome.',
           isCorrect: true,
-          rationale: 'The Great Chinese Famine and Bengal Famine cause mass starvation and physical collapse facilitating organ retrieval from deceased hosts.'
+          rationale: 'While physical organs and fluid adrenochrome are harvested from physical bodies, the resulting terror and pain radiate as loosh.'
+        },
+        {
+          text: 'Stem cells and clone copies.',
+          isCorrect: false,
+          rationale: 'Clone production is a separate D.U.M.B. pipeline, not a Triad commodity.'
+        },
+        {
+          text: 'Organs and harvested bone structures.',
+          isCorrect: false,
+          rationale: 'The Triad\'s physical harvests are organs and fluid adrenochrome.'
+        },
+        {
+          text: 'Blood plasma and surgical instruments.',
+          isCorrect: false,
+          rationale: 'Instruments are tools of the system, not harvested commodities.'
         }
       ]
     },
+
     {
       number: 11,
-      question: 'What is the calculated annual rate of systematic child disappearances in recent decades?',
-      hint: 'Distinguish recent annual child disappearances from the earlier missing-persons rate.',
+      question: 'From what do the cumulative mortality figures of the Harvest Toll result?',
+      hint: 'See the Key Terminology entry for Harvest Toll.',
       options: [
         {
-          text: 'Recent decades show 150,000 missing children per year in the systematic disappearance tally.',
-          isCorrect: false,
-          rationale: 'The recent figure is 9 million missing children annually rather than 150,000.'
-        },
-        {
-          text: 'Recent decades show 1.01 million missing children per year in the systematic disappearance tally.',
-          isCorrect: false,
-          rationale: '1.01 billion belongs to the baseline harvest range and the recent child figure is 9 million annually.'
-        },
-        {
-          text: 'Recent decades show 5 million missing children per year in the systematic disappearance tally.',
-          isCorrect: false,
-          rationale: 'Five million missing persons per year is the rate across prior centuries rather than the recent child rate.'
-        },
-        {
-          text: 'Recent decades are calculated at 9 million missing children annually over recent decades.',
+          text: 'Artificial wars, plagues, famines, and climate anomalies utilized for custodial extraction.',
           isCorrect: true,
-          rationale: 'The disappearance of children is calculated at 9 million missing children annually over recent decades.'
+          rationale: 'They are the cumulative mortality figures resulting from artificial wars, plagues, famines, and climate anomalies utilized for custodial extraction.'
+        },
+        {
+          text: 'Natural disasters and spontaneous conflicts.',
+          isCorrect: false,
+          rationale: 'The events are artificial and engineered, not natural or spontaneous.'
+        },
+        {
+          text: 'Recorded surgical interventions and hospital deaths.',
+          isCorrect: false,
+          rationale: 'Iatrogenic death is a separate medical-system mechanism.'
+        },
+        {
+          text: 'Underground sacrifices alone.',
+          isCorrect: false,
+          rationale: 'Sacrifices are one component of the wider multi-category toll.'
         }
       ]
     },
+
     {
       number: 12,
       question: 'How many distinct genetic downsizings were human vessels subjected to following the Great Flood?',
@@ -416,85 +419,88 @@ module.exports = {
     },
     {
       number: 16,
-      question: 'What specific procedure do abducted children undergo upon arrival at Deep Underground Military Bases?',
-      hint: 'Identify the cellular extraction step performed before subterranean sacrifice.',
+      question: 'As what does the retained appendix function?',
+      hint: 'See Biological Vulnerability of the Appendix.',
       options: [
         {
-          text: 'Abducted children receive surgical implantation of artificial biological hazards like the appendix.',
-          isCorrect: false,
-          rationale: 'The appendix is retained in the downsized vessel and the underground step is stem cell extraction prior to sacrifice.'
-        },
-        {
-          text: 'Abducted children are placed at once into surface trauma networks as emergency medical personnel.',
-          isCorrect: false,
-          rationale: 'Children undergo stem cell extraction and clones later appear as surface orphans rather than as medical staff.'
-        },
-        {
-          text: 'Abducted children transported to underground facilities undergo stem cell extraction prior to sacrifice.',
+          text: 'A biological landmine.',
           isCorrect: true,
-          rationale: 'Abducted children transported to underground facilities undergo stem cell extraction prior to sacrifice.'
+          rationale: 'Higher-density aetheric hardware was stripped, custodians intentionally retained the appendix. Functioning as a biological landmine, it ruptures when ignored.'
         },
         {
-          text: 'Abducted children receive a genetic upgrade that restores 9-strand Tartarian DNA structures.',
+          text: 'A digestive aid for fecal matter.',
           isCorrect: false,
-          rationale: 'The facilities extract stem cells prior to sacrifice rather than restoring 9-strand DNA.'
+          rationale: 'The report rejects the digestion account of the appendix.'
+        },
+        {
+          text: 'A regenerative aetheric component.',
+          isCorrect: false,
+          rationale: 'Higher-density aetheric hardware was stripped, not retained.'
+        },
+        {
+          text: 'A dormant sensory organ.',
+          isCorrect: false,
+          rationale: 'Its retained function is the fatal rupture trigger, not sensation.'
         }
       ]
     },
+
     {
       number: 17,
-      question: 'Why are clone copies produced from the stem cells of abducted children?',
-      hint: 'Consider how surface numbers are maintained after underground extractions.',
+      question: 'What are engineered mini-resets designed to yield?',
+      hint: 'See Manufactured Cataclysm Architecture.',
       options: [
         {
-          text: 'The clones are produced to serve as military personnel in major regional civil wars.',
-          isCorrect: false,
-          rationale: 'The stem cells grow clone copies of each child for surface repopulation as orphans rather than as soldiers.'
-        },
-        {
-          text: 'The clones are produced to replace lost bloodline family members during planetary mini-resets.',
-          isCorrect: false,
-          rationale: 'The copies are for surface repopulation as orphans rather than for bloodline replacement.'
-        },
-        {
-          text: 'These stem cells are used to grow 5 to 10 clone copies of each child for surface repopulation as orphans.',
+          text: 'Human organs, physical adrenochrome, and low-frequency VLF loosh emissions.',
           isCorrect: true,
-          rationale: 'These stem cells are used to grow 5 to 10 clone copies of each child for surface repopulation as orphans.'
+          rationale: 'Each is an engineered mini-reset designed to yield human organs, physical adrenochrome, and low-frequency VLF loosh emissions.'
         },
         {
-          text: 'The clones are produced to act as living shields for emergency trauma personnel in acute accidents.',
+          text: 'Organs, stem cells, and clone copies.',
           isCorrect: false,
-          rationale: 'Trauma personnel work in acute accidents and the clones are for surface repopulation as orphans.'
+          rationale: 'Clones are repopulation stock, not a mini-reset yield.'
+        },
+        {
+          text: 'Adrenochrome, organs, and aetheric current.',
+          isCorrect: false,
+          rationale: 'Aetheric current belongs to the predecessor Tartarian systems.'
+        },
+        {
+          text: 'Loosh, adrenochrome, and financial collateral.',
+          isCorrect: false,
+          rationale: 'Collateralization runs through the Birth Bond framework, not mini-resets.'
         }
       ]
     },
+
     {
       number: 18,
-      question: 'What product harvested in underground facilities is distributed to elite consumers with analytical certificates?',
-      hint: 'Think of the fluid commodity packaged with detailed chemical certificates.',
+      question: 'What does the 3.2 Billion Accounting combine?',
+      hint: 'See the Key Terminology entry for 3.2 Billion Accounting.',
       options: [
         {
-          text: 'Tartarian organ tissue is bottled with detailed analytical certificates for elite consumers.',
-          isCorrect: false,
-          rationale: 'Organs are collected as biological assets and the bottled certified product is high-grade adrenochrome.'
-        },
-        {
-          text: 'High-grade adrenochrome is bottled with detailed analytical certificates for elite consumers.',
+          text: 'Baseline disaster mortality with systemic child abductions and underground sacrifices.',
           isCorrect: true,
-          rationale: 'High-grade adrenochrome is bottled with detailed analytical certificates for elite consumers.'
+          rationale: 'It is the expanded tally that combines baseline disaster mortality with systemic child abductions and underground sacrifices.'
         },
         {
-          text: 'Synthetic bioweapon strains are bottled with detailed analytical certificates for elite consumers.',
+          text: 'Wars and genocides with climate anomalies alone.',
           isCorrect: false,
-          rationale: 'Patented bioweapons are introduced to cause mortality and the certified bottled product is adrenochrome.'
+          rationale: 'The accounting adds abductions and sacrifices to the baseline.'
         },
         {
-          text: 'Very Low Frequency loosh is bottled with detailed analytical certificates for elite consumers.',
+          text: 'Baseline mortality with surgical intervention deaths.',
           isCorrect: false,
-          rationale: 'Loosh radiates as energy to power custodial technology and the bottled certified fluid is adrenochrome.'
+          rationale: 'Surgical deaths are not a category in the accounting.'
+        },
+        {
+          text: 'Child abductions with appendix mortality triggers.',
+          isCorrect: false,
+          rationale: 'The appendix is an anatomical mechanism, not a tally category.'
         }
       ]
     },
+
     {
       number: 19,
       question: 'What role does legitimate medical emergency care play within the systemic harvest structure?',
@@ -632,57 +638,59 @@ module.exports = {
     },
     {
       number: 24,
-      question: 'Which conflict is cited alongside the world wars as a major war harvest mechanism?',
-      hint: 'Identify the high-casualty Asian conflict named in the war statistics.',
+      question: 'Through what were the baseline lives harvested?',
+      hint: 'See the Key Terminology entry for One Billion Baseline.',
       options: [
         {
-          text: 'Modern industrial warfare includes the Taiping Rebellion alongside major Asian and regional civil wars and the Rwandan slaughter and Cambodian Killing Fields.',
+          text: 'Created wars, disasters, and infectious diseases.',
           isCorrect: true,
-          rationale: 'Modern industrial warfare includes the Taiping Rebellion World War figures and the Rwandan slaughter and Cambodian Killing Fields.'
+          rationale: 'The tally counts billion human lives harvested through created wars, disasters, and infectious diseases.'
         },
         {
-          text: 'Modern industrial warfare cites the Napoleonic Wars as the named high-casualty example beside the world wars.',
+          text: 'Natural catastrophes and accidental outbreaks.',
           isCorrect: false,
-          rationale: 'The named rebellion beside the world wars is the Taiping Rebellion rather than the Napoleonic Wars.'
+          rationale: 'The wars, disasters, and diseases are created, not natural or accidental.'
         },
         {
-          text: 'Modern industrial warfare cites the Crimean War as the named high-casualty example beside the world wars.',
+          text: 'Surgical interventions and medical treatments.',
           isCorrect: false,
-          rationale: 'The named rebellion beside the world wars is the Taiping Rebellion rather than the Crimean War.'
+          rationale: 'Medical mortality is the credibility-shield system\'s separate toll.'
         },
         {
-          text: 'Modern industrial warfare cites the Seven Years War as the named high-casualty example beside the world wars.',
+          text: 'Underground sacrifices and clone production.',
           isCorrect: false,
-          rationale: 'The named rebellion beside the world wars is the Taiping Rebellion rather than the Seven Years War.'
+          rationale: 'Sacrifices enter the expanded accounting, not the baseline tally.'
         }
       ]
     },
+
     {
       number: 25,
-      question: 'Which historical disease killed 300 to 500 million people in the 20th century as a harvest pathogen?',
-      hint: 'Recall the pathogen given that 20th-century casualty range.',
+      question: 'What does an ignored appendix\'s rupture capacity produce?',
+      hint: 'See Anatomical Sabotage via the Appendix.',
       options: [
         {
-          text: 'Malaria killed 300 to 500 million people in the 20th century alone as the highlighted harvest pathogen.',
-          isCorrect: false,
-          rationale: 'Malaria is listed among endemic pathogens and the 20th-century figure of that size is given for smallpox.'
-        },
-        {
-          text: 'Smallpox killed 300 to 500 million in the 20th century alone and such pathogens are artificially introduced to induce organ failure.',
+          text: 'Unprompted mortality and sudden loosh generation.',
           isCorrect: true,
-          rationale: 'Smallpox accounts for 300 to 500 million in the 20th century alone and pathogens are artificially introduced to induce organ failure.'
+          rationale: 'An inflamed appendix\'s capacity to rupture and kill the vessel produces unprompted mortality and sudden loosh generation.'
         },
         {
-          text: 'Bubonic plague killed 300 to 500 million people in the 20th century alone as the highlighted harvest pathogen.',
+          text: 'Prompted mortality and gradual loosh generation.',
           isCorrect: false,
-          rationale: 'The 20th-century figure of that size is given for smallpox rather than for bubonic plague.'
+          rationale: 'The mortality is unprompted and the loosh sudden, not prompted or gradual.'
         },
         {
-          text: 'Tuberculosis killed 300 to 500 million people in the 20th century alone as the highlighted harvest pathogen.',
+          text: 'Unprompted healing and aetheric restoration.',
           isCorrect: false,
-          rationale: 'Tuberculosis is named among endemic killers and the 20th-century figure of that size is given for smallpox.'
+          rationale: 'The retained component kills the vessel; it does not heal it.'
+        },
+        {
+          text: 'Sudden casualties and adrenochrome production.',
+          isCorrect: false,
+          rationale: 'Adrenochrome comes from torture protocols on abducted children.'
         }
       ]
     }
+
   ]
 };
