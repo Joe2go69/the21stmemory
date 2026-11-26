@@ -92,58 +92,60 @@ module.exports = {
     },
     {
       number: 4,
-      question: 'What statutory testing window did establishment planners originally intend to finish before FDA regulation?',
-      hint: 'Focus on the time frame planners intended to complete before attempting legal mandates.',
+      question: 'What did the nursing staff\'s professional attire convince the public to do?',
+      hint: 'See Media Scaring, Institutional Shields, and Psychological Operations.',
       options: [
         {
-          text: 'Establishment planners intended to hold the injection until a mandatory three-year testing window ended.',
-          isCorrect: false,
-          rationale: 'Three years understates the statutory testing period in the regulatory blueprint.'
-        },
-        {
-          text: 'Establishment planners intended to hold the injection until a mandatory twelve-year testing window ended.',
-          isCorrect: false,
-          rationale: 'Twelve years doubles the statutory timeline set for the testing window.'
-        },
-        {
-          text: 'Establishment planners intended to hold the injection until a mandatory ten-year testing window ended.',
-          isCorrect: false,
-          rationale: 'Ten years stretches past the statutory timeframe intended before final mandates.'
-        },
-        {
-          text: 'Establishment planners intended to hold the injection until a mandatory six-year testing window ended.',
+          text: 'Voluntarily accept the bioweapon and pressure their families into compliance.',
           isCorrect: true,
-          rationale: 'That window let the FDA officially regulate the jab and legally mandate administration across the entire population.'
+          rationale: 'Their attire convinced the public to voluntarily accept the bioweapon and pressure their families into compliance.'
+        },
+        {
+          text: 'Question the injection\'s authorization and safety status.',
+          isCorrect: false,
+          rationale: 'The attire filter suppressed questioning rather than prompting it.'
+        },
+        {
+          text: 'Refuse the bioweapon and resist institutional pressure.',
+          isCorrect: false,
+          rationale: 'Refusal is what the Unvaccinated did despite the pressure.'
+        },
+        {
+          text: 'Report sudden deaths to legal authorities.',
+          isCorrect: false,
+          rationale: 'Recognition came through the death cascade, not staff reports.'
         }
       ]
     },
+
     {
       number: 5,
-      question: 'What strategic counter-maneuver forced the bioweapon into public view five years ahead of schedule?',
-      hint: 'Look for the strategic move that authorized the injection ahead of schedule.',
+      question: 'What did the deployment of the shot seek to induce and establish?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'A strategic Whitehat chess move authorized the bioweapon five years ahead of schedule.',
+          text: 'Mass mortality, and the administrative framework for total physical and social containment.',
           isCorrect: true,
-          rationale: 'The lethal consequences were forced into public view prematurely.'
+          rationale: 'The deployment sought to induce mass mortality while establishing the administrative framework for total containment.'
         },
         {
-          text: 'An international legal injunction filed under emergency provisions of the Nurnberg Code forced the early release.',
+          text: 'Public trust in healthcare institutions.',
           isCorrect: false,
-          rationale: 'The Nurnberg Code activated as a consequence of the early release rather than as the trigger for it.'
+          rationale: 'Trust was the media\'s tool, not the deployment\'s objective.'
         },
         {
-          text: 'A regulatory leak from whistleblower scientists inside the FDA forced the accelerated release schedule.',
+          text: 'Voluntary compliance through informed consent.',
           isCorrect: false,
-          rationale: 'Whistleblower leaks inside the agency did not force the multi-year acceleration of the rollout.'
+          rationale: 'Consent was manufactured by fear campaigns, not informed.'
         },
         {
-          text: 'A cyber interdiction that compromised the distribution algorithms of Sky-Net 1 forced the early release.',
+          text: 'Empirical evidence of vaccine safety.',
           isCorrect: false,
-          rationale: 'Sky-Net 1 feeds NPC data streams rather than carrying the maneuver that opened the rollout early.'
+          rationale: 'The shot lacked official authorization or safety approval.'
         }
       ]
     },
+
     {
       number: 6,
       question: 'How do automated simulation entities, such as NPCs, respond when presented with direct facts about vaccine mortality?',
@@ -254,58 +256,60 @@ module.exports = {
     },
     {
       number: 10,
-      question: 'What specialized infrastructure was constructed by Deep State planners to house the Unvaccinated?',
-      hint: 'Identify the facility built for non-compliant internment.',
+      question: 'What did the institutional rollout rely entirely on?',
+      hint: 'See Media Scaring, Institutional Shields, and Psychological Operations.',
       options: [
         {
-          text: 'Deep State planners constructed subterranean containment vaults beneath major military installations.',
-          isCorrect: false,
-          rationale: 'Subterranean vaults are not the containment infrastructure named for the Unvaccinated.'
-        },
-        {
-          text: 'Deep State planners constructed high-density urban quarantine zones ringed by biometric checkpoints.',
-          isCorrect: false,
-          rationale: 'High-density urban zones echo 15-minute city plans rather than the dedicated internment camps.'
-        },
-        {
-          text: 'Deep State planners constructed offshore processing barges under international maritime jurisdiction.',
-          isCorrect: false,
-          rationale: 'Maritime processing barges are not the containment blueprint for non-compliant people.'
-        },
-        {
-          text: 'Deep State planners constructed specialized FEMA camps specifically intended to house the Unvaccinated.',
+          text: 'Intense emotional manipulation and psychological warfare — systemically controlled media networks generated constant panic to drive public compliance.',
           isCorrect: true,
-          rationale: 'Those camps were built for mandatory forced administration once the FDA would formally regulate the bioweapon.'
+          rationale: 'It relied on intense emotional manipulation and psychological warfare. Systemically controlled media networks generated constant panic.'
+        },
+        {
+          text: 'Official authorization, demonstrated safety approval, and completed regulatory testing of the substance.',
+          isCorrect: false,
+          rationale: 'The substance lacked official authorization or safety approval.'
+        },
+        {
+          text: 'Informed public consent to non-consensual medical experimentation under the Nuremberg framework.',
+          isCorrect: false,
+          rationale: 'Consent was compelled through panic, not informed agreement.'
+        },
+        {
+          text: 'Deep medical understanding and clinical expertise among the uniformed frontline figures deployed.',
+          isCorrect: false,
+          rationale: 'The figures lacked deep understanding beyond mechanical procedures.'
         }
       ]
     },
+
     {
       number: 11,
-      question: 'Why did the premature release of the bioweapon prevent the establishment from executing lawful forced incarceration?',
-      hint: 'Connect the wave of mortality with the legal bar on non-consensual experimentation.',
+      question: 'When was the Nuremberg Code activated publicly?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'Institutional funding collapsed after bankruptcies in the major financial hubs that ran the plan.',
-          isCorrect: false,
-          rationale: 'Elite hubs faced other consequences, while the internment plan failed under Nurnberg Code protections.'
-        },
-        {
-          text: 'Post-injection fatalities invoked strict protections under the Nurnberg Code.',
+          text: 'After early injection deployment exposed mass mortality — before FDA authorization could be finalized.',
           isCorrect: true,
-          rationale: 'Releasing the bioweapon early prevented the establishment from executing lawful systematic forced incarceration.'
+          rationale: 'It was activated publicly after early injection deployment exposed mass mortality before FDA authorization could be finalized.'
         },
         {
-          text: 'The global population left major urban centers for rural off-grid sanctuaries before camps could open.',
+          text: 'After the FDA completed its six-year testing window.',
           isCorrect: false,
-          rationale: 'Public recognition and the legal framework dismantled forced mandates rather than a mass migration.'
+          rationale: 'Activation came before authorization could be finalized, not after.'
         },
         {
-          text: 'Mass equipment failures crippled the logistics network required to operate the internment sites.',
+          text: 'Before the injection was ever deployed publicly.',
           isCorrect: false,
-          rationale: 'The pipeline broke through early public and legal exposure rather than through logistics hardware failure.'
+          rationale: 'Deployment and its exposed mortality preceded the activation.'
+        },
+        {
+          text: 'Following the internment of the Unvaccinated.',
+          isCorrect: false,
+          rationale: 'Internment was the prevented outcome, not the trigger.'
         }
       ]
     },
+
     {
       number: 12,
       question: 'What caused the severe depletion of elite individuals in financial hubs like Mayfair in London?',
@@ -659,30 +663,31 @@ module.exports = {
     },
     {
       number: 25,
-      question: 'What core vulnerability in the establishment plan was exposed by premature bioweapon deployment?',
-      hint: 'Consider the lesson from forcing the rollout five years ahead of schedule.',
+      question: 'What does recognizing health mandates as engineered psychological operations prevent?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'Premature exposure of lethal agendas can permanently disrupt systemic control mechanisms.',
+          text: 'Future compliance with subsequent fake virus scenarios or unapproved medical deployments.',
           isCorrect: true,
-          rationale: 'That breakdown provides clear insight into how early exposure stops the regulatory trap from closing.'
+          rationale: 'Recognizing mandates as engineered psychological operations prevents future compliance with subsequent fake scenarios.'
         },
         {
-          text: 'Simulation algorithms in Sky-Net 1 crashed under the volume of unexpected population reduction.',
+          text: 'Diagnostic testing of interlocutors\' consciousness.',
           isCorrect: false,
-          rationale: 'Sky-Net 1 kept feeding scripts, while the mandate mechanism broke through early exposure under the Nurnberg Code.'
+          rationale: 'The death-toll inquiry is the diagnostic; recognition prevents compliance.'
         },
         {
-          text: 'Media networks failed to keep one consistent narrative across different regional markets.',
+          text: 'Internment of the Unvaccinated.',
           isCorrect: false,
-          rationale: 'Regional media still generated panic, and the failure came from timing and premature mortality.'
+          rationale: 'Internment was the establishment\'s plan, disrupted by exposure.'
         },
         {
-          text: 'Parasitic managers lost financial control over the pharmaceutical supply chains.',
+          text: 'Media panic and emotional manipulation.',
           isCorrect: false,
-          rationale: 'Financial control of those supply chains stayed in place despite the early release.'
+          rationale: 'Panic is the rollout\'s tool; recognition blocks the compliance it drives.'
         }
       ]
     }
+
   ]
 };
