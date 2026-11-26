@@ -65,31 +65,32 @@ module.exports = {
     },
     {
       number: 3,
-      question: 'In non-physical light realms, how are stable structures such as mountains, temples, and terrain constructed without physical matter?',
-      hint: 'Review how light realms give mountains, cities, and temples their form.',
+      question: 'What do non-physical light realms do within the Cube?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'Optical projectors on the Great Dome cast visible scenery across the inner face of the enclosure.',
-          isCorrect: false,
-          rationale: 'Light realms have tangible form, because elevated consciousness anchors sound into vibratory scaffolding rather than casting scenery.'
-        },
-        {
-          text: 'Thermal engines solidify atmospheric gases into semi-tangible masses spread across the terrain.',
-          isCorrect: false,
-          rationale: 'Those realms are devoid of atomic physical matter, and form comes from tonal harmonics and simultaneous standing waves.'
-        },
-        {
-          text: 'Apex gravity compresses lower-tier matter into mountains, cities, temples, and landscape terrains.',
-          isCorrect: false,
-          rationale: 'Mountains, cities, and temples are established by anchored sound before any physical manifestation, not by compressing lower-tier matter.'
-        },
-        {
-          text: 'Elevated consciousness anchors sound into vibratory scaffolding for tangible form.',
+          text: 'They generate and hold the pure vibratory schematics of reality.',
           isCorrect: true,
-          rationale: 'Through tonal harmonics and simultaneous standing waves, elevated consciousness anchors sound into vibratory scaffolding that holds structural form.'
+          rationale: 'Inside the Cube, non-physical light realms generate and hold the pure vibratory schematics of reality.'
+        },
+        {
+          text: 'They materialize designs into tangible matter.',
+          isCorrect: false,
+          rationale: 'Materializing designs is what dense physical environments do.'
+        },
+        {
+          text: 'They anchor the physical plane at the base.',
+          isCorrect: false,
+          rationale: 'The plane rests at the terminus; the light realms hold schematics.'
+        },
+        {
+          text: 'They regulate pressure inside the enclosure.',
+          isCorrect: false,
+          rationale: 'Pressure balance belongs to the physical plane\'s own systems.'
         }
       ]
     },
+
     {
       number: 4,
       question: 'True or False: The structural descent likely comprises 33 separate densities corresponding to the 33 vertebrae of the human spine.',
@@ -136,31 +137,32 @@ module.exports = {
     },
     {
       number: 6,
-      question: 'How are biological adaptations — such as altering a fruit’s chemical pigment via the flavonoid 3′,5′-hydroxylase enzyme — developed and deployed into the physical world?',
-      hint: 'Review where a harmonic schematic is finished before the physical plane synthesizes it.',
+      question: 'How does the Density Stack descend?',
+      hint: 'See the Key Terminology entry for Density Stack.',
       options: [
         {
-          text: 'Light realm guardians broadcast downward through telluric pathways once the harmonic schematic reaches quantum perfection.',
+          text: 'From pure Source consciousness at the apex through successive aether upgrades to the physical plane at the bottom.',
           isCorrect: true,
-          rationale: 'Guardians bring the schematic to quantum perfection using light and sound, then broadcast downward through telluric pathways as living programming code.'
+          rationale: 'It is the hierarchy of dimensions within the Cube that descends from pure Source consciousness at the apex through successive aether upgrades.'
         },
         {
-          text: 'Volcanic pressure valves synthesize the pigment shift through magmatic heat beneath the sealed enclosure.',
+          text: 'Outward into an infinite empty vacuum beyond the sealed enclosure of the Cube.',
           isCorrect: false,
-          rationale: 'Volcanic pressure valves balance atmospheric pressure, while pigment codes are perfected in light realms and sent down telluric pathways.'
+          rationale: 'The stack descends inside the enclosure, not outward.'
         },
         {
-          text: 'Random shifts inside dense oceanic brines produce the pigment change across long spans of physical time.',
+          text: 'From the physical plane at the bottom upward through the tiers to Source.',
           isCorrect: false,
-          rationale: 'The brines received engineered blueprints from higher realms, and light-realm design has no trial-and-error process.'
+          rationale: 'The descent runs from Source down to the plane.'
         },
         {
-          text: 'Cultivation domes on the plain grow the pigment change and ferry finished seed stock across the Super-Ocean.',
+          text: 'Laterally across the membrane ecosystems spread over the supermassive plain.',
           isCorrect: false,
-          rationale: 'The engineering is executed in non-physical realms and broadcast as living programming code, not ferried as seed stock.'
+          rationale: 'The ecosystems sit side by side at the base; the stack is vertical.'
         }
       ]
     },
+
     {
       number: 7,
       question: 'What is the physical structure of the plane situated at the foundational base of the Cube?',
@@ -190,21 +192,22 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'True or False: Planetary petroleum compounds represent the decomposed biological matter of ancient prehistoric periods.',
-      hint: 'Review what the hydrodynamics section says petroleum does in the planar design.',
+      question: 'True or False: According to the report, creation disperses outward into an infinite, empty vacuum beyond the Cube.',
+      hint: 'See the Overview.',
       options: [
-        {
-          text: 'True',
-          isCorrect: false,
-          rationale: 'The report says petroleum does not represent decomposed biological matter, and instead calls it structural grease and mechanical lubricant.'
-        },
         {
           text: 'False',
           isCorrect: true,
-          rationale: 'Planetary petroleum compounds do not represent that decomposed matter; oil acts as essential structural grease and mechanical lubricant of planetary architecture.'
+          rationale: 'Every domain of existence—ranging from the highest non-physical realms down to the physical plane at the base—is organized inside the enclosure.'
+        },
+        {
+          text: 'True',
+          isCorrect: false,
+          rationale: 'The report states the opposite arrangement.'
         }
       ]
     },
+
     {
       number: 9,
       question: 'How does Consciousness interact with the four material elements (Earth, Air, Fire, Water) inside the Cube?',
@@ -288,31 +291,32 @@ module.exports = {
     },
     {
       number: 12,
-      question: 'How do physical caretakers and higher-density architects achieve instantaneous bi-directional communication across vast distances?',
-      hint: 'Review the path an intention takes in the nodal communication section.',
+      question: 'How does aligning intentions across nodal points affect frequency coordinates?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'Crystalline temples situated directly over ley nodes carry the exchange by folding coordinate space together.',
+          text: 'It folds them together instantaneously.',
           isCorrect: true,
-          rationale: 'Intention broadcast through crystalline temples situated directly over ley line nodes travels by folding coordinate space together, like touching two points on a folded sheet.'
+          rationale: 'Aligning intentions across nodal points folds frequency coordinates together instantaneously.'
         },
         {
-          text: 'Super-Ocean currents under the ice walls carry the exchange by circulating coded signals through the water.',
+          text: 'It transmits them along linear physical lines.',
           isCorrect: false,
-          rationale: 'The Super-Ocean links oceanic bodies, while instantaneous exchange runs through crystalline temples on ley line nodes.'
+          rationale: 'Communication does not require crossing linear mileage.'
         },
         {
-          text: 'Buried mechanical fiber under the circuit board carries the exchange by linking distant hardware ports.',
+          text: 'It routes them through mechanical relays.',
           isCorrect: false,
-          rationale: 'The network uses telluric currents and crystalline nodal points, not buried mechanical fiber.'
+          rationale: 'Transit runs on the planet\'s intrinsic circuitry, not relays.'
         },
         {
-          text: 'Atmospheric radio under the Great Dome carries the exchange by pushing signals through the gas layer.',
+          text: 'It stores them in crystalline temples.',
           isCorrect: false,
-          rationale: 'Nodal communication folds coordinate space together through the aether and telluric currents, rather than pushing radio through the air.'
+          rationale: 'The folding is done by aligned intention at nodal points.'
         }
       ]
     },
+
     {
       number: 13,
       question: 'True or False: A single vast Super-Ocean links oceanic bodies across the realms, moving beneath perimeter ice walls.',
@@ -332,112 +336,116 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'Which of these is NOT an external dome system beyond the physical realm’s Great Dome?',
-      hint: 'Review the enclosed systems named beyond the physical realm’s Great Dome.',
+      question: 'What does physical creation represent?',
+      hint: 'See The Vertical Hierarchy and the Compressed Spiral Stack.',
       options: [
         {
-          text: 'The Dome of Titans, an enclosed dome system beyond the physical realm’s Great Dome',
-          isCorrect: false,
-          rationale: 'The external systems include the Dome of Titans, along with Sheol, Silence, 5 Peaks, Hiva, and Terra Incognita.'
-        },
-        {
-          text: 'Silence, an enclosed dome system beyond the physical realm’s Great Dome',
-          isCorrect: false,
-          rationale: 'Silence is named among the external systems beyond the physical realm’s Great Dome, with Titans, Sheol, 5 Peaks, Hiva, and Terra Incognita.'
-        },
-        {
-          text: 'Terra Incognita, an enclosed dome system beyond the physical realm’s Great Dome',
-          isCorrect: false,
-          rationale: 'Terra Incognita is one of those external domes, the Celestial Lands where the human soul, or Neshama, travels immediately following physical death.'
-        },
-        {
-          text: 'The Axis Mundi, an enclosed dome system beyond the physical realm’s Great Dome',
+          text: 'The terminal, slowed crystallization of higher vibratory states scaffolded downward through the density gradient.',
           isCorrect: true,
-          rationale: 'The central Axis Mundi marks the middle of the flat plain, while the external systems include the Dome of Titans, Sheol, Silence, 5 Peaks, Hiva, and Terra Incognita.'
+          rationale: 'It is the crystallization of higher vibratory states that have been scaffolded downward through the density gradient.'
+        },
+        {
+          text: 'A spontaneous emergence of matter at the base of the structure.',
+          isCorrect: false,
+          rationale: 'Physical creation does not emerge spontaneously.'
+        },
+        {
+          text: 'An upgrade of aether condensing into denser matter at the terminus.',
+          isCorrect: false,
+          rationale: 'Aether upgrades mark the descent tiers, not creation itself.'
+        },
+        {
+          text: 'A crystallization of vibratory states occurring outside the Cube.',
+          isCorrect: false,
+          rationale: 'All creation sits inside the stacked container.'
         }
       ]
     },
+
     {
       number: 15,
-      question: 'In what way does the physical plane function as an organic circuit board?',
-      hint: 'Review how the physical plane is described as a motherboard in the broader context section.',
+      question: 'What does the layered arrangement ensure for every physical realm?',
+      hint: 'See The Vertical Hierarchy and the Compressed Spiral Stack.',
       options: [
         {
-          text: 'Silicon processors set into the shell of the Great Dome serve as hardware for atmospheric control.',
-          isCorrect: false,
-          rationale: 'The motherboard is geological hardware in the terrestrial plane, including hydrothermal veins, mineral deposits, and layered magmatic reefs.'
-        },
-        {
-          text: 'Hydrothermal veins, mineral deposits, and layered magmatic reefs serve as its geological hardware.',
+          text: 'It remains tethered to, energized by, and informed by the higher-density matrices directly above it.',
           isCorrect: true,
-          rationale: 'The physical plane functions as an enormous organic circuit board and planetary motherboard, with those features deliberately engineered as physical hardware.'
+          rationale: 'This layered arrangement ensures that every physical realm remains tethered to, energized by, and informed by the matrices above it.'
         },
         {
-          text: 'Mechanical wires laid beneath the Super-Ocean serve as its links between membrane worlds.',
+          text: 'It operates independently of the higher densities stacked above it.',
           isCorrect: false,
-          rationale: 'Membrane worlds share telluric currents and a Super-Ocean, while the hardware is mineral, magmatic, and alluvial, not mechanical wire.'
+          rationale: 'Every realm stays tethered to the matrices above it.'
         },
         {
-          text: 'Synthetic chips buried by ancient civilizations serve as its buried computational hardware.',
+          text: 'It generates its own vibratory schematics in the light realms.',
           isCorrect: false,
-          rationale: 'The circuit is organic, built from hydrothermal veins, disseminated mineral deposits, layered magmatic reefs, and alluvial formations.'
+          rationale: 'Schematics are generated in the light realms above.'
+        },
+        {
+          text: 'It anchors Source consciousness at the supreme apex of the Cube.',
+          isCorrect: false,
+          rationale: 'Source sits at the apex; realms are anchored below.'
         }
       ]
     },
+
     {
       number: 16,
-      question: 'What function do tree root systems and mountain peaks serve within the planetary grid?',
-      hint: 'Review the role roots and peaks play on the planetary circuit.',
+      question: 'How does true movement across creation occur?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'They store surplus petroleum so the telluric pathways stay within a workable pressure range.',
-          isCorrect: false,
-          rationale: 'Petroleum circulates as structural grease under the ice walls, while roots and peaks channel aetheric energy downward.'
-        },
-        {
-          text: 'They stand as load-bearing pillars that carry the weight of the overhead Great Dome.',
-          isCorrect: false,
-          rationale: 'Roots and peaks act as biological antennas that channel aetheric energy downward, not as pillars holding up the dome.'
-        },
-        {
-          text: 'They filter gases released by volcanic pressure valves spread across the flat plain.',
-          isCorrect: false,
-          rationale: 'Volcanic pressure valves balance the atmosphere, while tree roots and mountain peaks channel aetheric energy into cavern networks.'
-        },
-        {
-          text: 'They act as biological antennas that channel aetheric energy downward from above.',
+          text: 'Through frequency manipulation, harmonic tuning, and vertical portal navigation.',
           isCorrect: true,
-          rationale: 'Tree root systems and mountain peaks act as biological antennas that channel aetheric energy downward from the upper dome into deep crystalline cavern networks.'
+          rationale: 'True movement across creation occurs through frequency manipulation, harmonic tuning, and vertical portal navigation along the living circuitry.'
+        },
+        {
+          text: 'Through mechanical propulsion across astronomical distances.',
+          isCorrect: false,
+          rationale: 'That travel is the engineered illusion the report rejects.'
+        },
+        {
+          text: 'Through combustion engines and surface roadways.',
+          isCorrect: false,
+          rationale: 'Locomotion bypasses combustion and roadways entirely.'
+        },
+        {
+          text: 'Through linear transmission lines between nodes.',
+          isCorrect: false,
+          rationale: 'Nodal exchange folds coordinates; it uses no lines.'
         }
       ]
     },
+
     {
       number: 17,
-      question: 'Beyond carrying physical liquid, what role do rivers and streams perform in elevated densities?',
-      hint: 'Review what flowing water carries in the elevated densities of the Cube.',
+      question: 'What does the nodal ley line grid collapse?',
+      hint: 'See the Key Terminology entry for Nodal Ley Line Communication.',
       options: [
         {
-          text: 'They grind dense physical matter down into light through friction along telluric pathways.',
-          isCorrect: false,
-          rationale: 'In elevated densities, waterfalls, rivers, and streams operate as living conduits of pure data, not as grinders of matter.'
-        },
-        {
-          text: 'They keep volcanic pressure valves balanced through the steady volume of their flow.',
-          isCorrect: false,
-          rationale: 'Atmospheric pressure is balanced by volcanic pressure valves, while elevated waterways carry data toward the external domes.'
-        },
-        {
-          text: 'They operate as living conduits of pure data in communion with the external Great Domes.',
+          text: 'Spatial separation across the frequencies of the Cube.',
           isCorrect: true,
-          rationale: 'This computational flow establishes direct energetic communion with the external Great Domes, so those waterways carry pure data.'
+          rationale: 'It is the instantaneous communication and transit grid operating across telluric currents and crystalline nodal points, collapsing spatial separation.'
         },
         {
-          text: 'They generate hydroelectric power that holds the horizontal frequency bands of the Cube steady.',
+          text: 'The density gradient between tiers.',
           isCorrect: false,
-          rationale: 'Flowing water in elevated densities is a computational conduit of pure data, not a hydroelectric plant for the frequency bands.'
+          rationale: 'The gradient orders the tiers; the grid collapses separation.'
+        },
+        {
+          text: 'The membrane boundaries between worlds.',
+          isCorrect: false,
+          rationale: 'The worlds remain distinct side by side.'
+        },
+        {
+          text: 'The vibratory schematics of the light realms.',
+          isCorrect: false,
+          rationale: 'The schematics are held by the realms, not collapsed.'
         }
       ]
     },
+
     {
       number: 18,
       question: 'How is the human soul described in relation to the physical vessel and the central structure of the Cube?',
@@ -494,75 +502,78 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'How does extensive mineral and metal resource extraction impact the planetary system?',
-      hint: 'Review the strategic cost of stripping copper, gold, and other minerals out of the ground.',
+      question: 'What does transformation require?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'It raises pressure under the Great Dome until the volcanic pressure valves break open.',
-          isCorrect: false,
-          rationale: 'Volcanic pressure valves balance atmosphere, while stripping minerals sabotages the planet’s internal electronics and its links with higher realms.'
-        },
-        {
-          text: 'It disrupts communication links with the higher light realms and damages the internal electronics.',
+          text: 'Accessing the pre-subatomic harmonic scaffold and aligning consciousness with the Fifth Element.',
           isCorrect: true,
-          rationale: 'Stripping copper, gold, and precious minerals directly sabotages the planet’s internal electronics and disrupts communication links with the higher light realms.'
+          rationale: 'Transformation requires accessing the pre-subatomic harmonic scaffold, aligning consciousness with the Fifth Element.'
         },
         {
-          text: 'It drains the Super-Ocean downward into the subterranean crystalline cavern networks.',
+          text: 'Abrasive physical manipulation of matter at the physical level.',
           isCorrect: false,
-          rationale: 'The Super-Ocean remains the shared aquatic circuit, while mining damages the grid’s electronics and higher-realm communication.'
+          rationale: 'Manifestation cannot be achieved that way.'
         },
         {
-          text: 'It seals pineal portal apertures across the density tiers of the descending spinal stack under the apex.',
+          text: 'Chemical warfare waged against nature and its ecosystems.',
           isCorrect: false,
-          rationale: 'Pineal transit is a faculty of consciousness, while mining disrupts the physical hardware and its communication links with the higher light realms.'
+          rationale: 'The report names that route as futile.'
+        },
+        {
+          text: 'Mechanical propulsion across astronomical distances.',
+          isCorrect: false,
+          rationale: 'Propulsion belongs to the illusion paradigm.'
         }
       ]
     },
+
     {
       number: 21,
-      question: 'True or False: Trial-and-error processes, material waste, and failure are part of design work outside the physical plane.',
-      hint: 'Review how design work proceeds outside the physical plane.',
+      question: 'True or False: According to the report, physical matter emerges spontaneously at the base of the Cube.',
+      hint: 'See The Vertical Hierarchy and the Compressed Spiral Stack.',
       options: [
-        {
-          text: 'True',
-          isCorrect: false,
-          rationale: 'Outside the physical plane, operational failure does not exist, and neither do trial-and-error processes or material waste.'
-        },
         {
           text: 'False',
           isCorrect: true,
-          rationale: 'Outside the physical plane, reality functions in nonlinear time, so operational failure does not exist, and trial-and-error processes and material waste are absent too.'
+          rationale: 'Physical creation does not emerge spontaneously; it is scaffolded downward from higher vibratory states.'
+        },
+        {
+          text: 'True',
+          isCorrect: false,
+          rationale: 'The report states that physical creation does not emerge spontaneously.'
         }
       ]
     },
+
     {
       number: 22,
-      question: 'How is atmospheric equilibrium regulated within the physical enclosure of the Great Dome?',
-      hint: 'Review what holds internal atmospheric pressure in balance under the Great Dome.',
+      question: 'Where does Source Consciousness reside, and where do physical worlds exist?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'Excess gases are vented outward from the enclosure into the surrounding spatial vacuum.',
-          isCorrect: false,
-          rationale: 'The Cube is a sealed enclosure, and internal atmospheric pressure is dynamically balanced and regulated by volcanic pressure valves.'
-        },
-        {
-          text: 'Perimeter ice walls are thickened by telluric heat so the enclosed air stays in balance.',
-          isCorrect: false,
-          rationale: 'Ice walls bound the aquatic circuit, while atmospheric pressure is dynamically balanced and regulated by volcanic pressure valves.'
-        },
-        {
-          text: 'Volcanic pressure valves hold the air inside the enclosure in a steady balance.',
+          text: 'Source at the supreme apex; physical worlds at the dense foundational terminus.',
           isCorrect: true,
-          rationale: 'Under the Great Dome, internal atmospheric pressure is dynamically balanced and regulated by volcanic pressure valves.'
+          rationale: 'The matrix is a compressed, spiral continuum where Source Consciousness resides at the supreme apex, while physical worlds exist at the dense foundational terminus.'
         },
         {
-          text: 'Mechanical filters run by the planar civilizations scrub the air beneath the Great Dome.',
+          text: 'Source at the base; physical worlds at the apex.',
           isCorrect: false,
-          rationale: 'Pressure balance is geological: internal atmospheric pressure is dynamically balanced and regulated by volcanic pressure valves.'
+          rationale: 'The arrangement runs the other way.'
+        },
+        {
+          text: 'Both dispersed throughout the vacuum.',
+          isCorrect: false,
+          rationale: 'Neither disperses; both are placed within the matrix.'
+        },
+        {
+          text: 'Source within the external Great Domes; physical worlds inside the Great Dome.',
+          isCorrect: false,
+          rationale: 'Source resides at the Cube\'s apex, above all domes.'
         }
       ]
     },
+
     {
       number: 23,
       question: 'How have native high-density faculties — such as flight, non-local communion, and extreme physical strength — been treated in the third-density matrix?',
@@ -619,30 +630,31 @@ module.exports = {
     },
     {
       number: 25,
-      question: 'How are the advanced civilizations on the vast planar surface kept distinct from one another?',
-      hint: 'Review what keeps those membrane civilizations distinct across the flat plain.',
+      question: 'How do the descending densities function in the spinal mirror?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'They remain sealed in outer domes whose shores the shared Super-Ocean does not reach.',
-          isCorrect: false,
-          rationale: 'The civilizations share one Super-Ocean beneath the ice walls and remain separated by thought rather than geographical distance.'
-        },
-        {
-          text: 'They remain separated by thought rather than geographical distance across the plain.',
+          text: 'As individual vertebrae spiraling downward to anchor into the physical plane at the base.',
           isCorrect: true,
-          rationale: 'Over 14,000 advanced civilizations on the flat plain remain separated by thought rather than geographical distance.'
+          rationale: 'It mirrors a living spinal column and nervous system. Source consciousness sits at the supreme pinnacle, acting as the brain.'
         },
         {
-          text: 'They remain parked in neighboring time zones that freeze motion from one membrane world to the next.',
+          text: 'As ribs enclosing the cosmic organism within the stacked volume.',
           isCorrect: false,
-          rationale: 'The worlds are co-present membrane ecosystems separated by thought rather than geographical distance, not frozen time zones.'
+          rationale: 'The mirror is a spinal column, not a ribcage.'
         },
         {
-          text: 'They remain split by vertical glass walls standing between each membrane ecosystem on the plain.',
+          text: 'As nerves radiating outward into the surrounding space.',
           isCorrect: false,
-          rationale: 'Separation on the plain is by thought rather than geographical distance, not by glass walls between ecosystems.'
+          rationale: 'The densities spiral downward inside the structure.'
+        },
+        {
+          text: 'As a skull housing the physical plane at the base.',
+          isCorrect: false,
+          rationale: 'The brain position belongs to Source consciousness.'
         }
       ]
     }
+
   ]
 };
