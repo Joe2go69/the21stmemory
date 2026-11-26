@@ -77,26 +77,60 @@ module.exports = {
     },
     {
       number: 7,
-      question: 'What entity was deployed to the Dyatlov Pass portal to prevent unauthorized access in 1959?',
-      hint: 'Identify the non-human biological sentinel associated with this Siberian mountain incident.',
+      question: 'Which locations are named as land-based portals?',
+      hint: 'Check the final Core Revelations paragraph.',
       options: [
-        { text: 'A high-frequency radar installation designed to cause sudden neurological failure in hikers.', isCorrect: false, rationale: 'Radar is used for inverted frequency suppression over nodes. The 1959 Dyatlov incident used a biological asset.' },
-        { text: 'A maritime interceptor asset such as a Kraken released from the nearby Siberian coast.', isCorrect: false, rationale: 'Kraken and Megalodons guard ocean-based portals such as the Bermuda Triangle and the Three Gates, not a mountain pass.' },
-        { text: 'A 4th-density Yeti / Sasquatch asset, a 12-to-14-foot telepathic creation capable of bilocation.', isCorrect: true, rationale: 'In 1959, nine experienced hikers entered this patrolled zone and were eliminated by a deployed 4th-density Yeti / Sasquatch asset, a 12-to-14-foot telepathic creation capable of bilocation, stationed there to prevent unauthorized access to the portal.' },
-        { text: 'A specialized unit of senescent holograms disguised as local mountain rescue personnel.', isCorrect: false, rationale: 'Senescent holograms are visual stock-fillers. Heavy portal guarding uses deployed biological assets.' }
+        {
+          text: 'Dyatlov Pass, Sedona, and Israel.',
+          isCorrect: true,
+          rationale: 'Land portals such as Dyatlov Pass, Sedona, and Israel display dynamic frequential behavior, where the spatial tile may wander.'
+        },
+        {
+          text: 'London, Rome, and Washington D.C.',
+          isCorrect: false,
+          rationale: 'Those are mirrored power centers on the grid, not land-based portals.'
+        },
+        {
+          text: 'Madrid, Moscow, and the Vatican in Rome.',
+          isCorrect: false,
+          rationale: 'Those are amplified regional geometries of shared nodes, not portals.'
+        },
+        {
+          text: 'Bermuda, the Three Gates, and the ice wall.',
+          isCorrect: false,
+          rationale: 'Bermuda and the Three Gates are ocean-based portals, not land-based ones.'
+        }
       ]
     },
+
     {
       number: 8,
-      question: 'What defines the behavior of unpatrolled natural portals?',
-      hint: 'Consider how these gateways move in relation to their surroundings.',
+      question: 'What may a spatial tile do at a natural portal, depending on localized frequencies?',
+      hint: 'Look at the final Core Revelations paragraph.',
       options: [
-        { text: 'They act as the primary nodes for the mirroring of geopolitical centers like Washington D.C.', isCorrect: false, rationale: 'Nodal mirroring duplicates primary grid nodes into national centers. Portals are gateway breaches, not those mirrored capitals.' },
-        { text: 'They remain locked in fixed geometric positions relative to the stars of Sky-Net 1.', isCorrect: false, rationale: 'Unlike fixed land structures, unpatrolled natural portals fluctuate in spatial coordinates rather than locking to the stars.' },
-        { text: 'They fluctuate in spatial coordinates, shifting up to half a mile or more based on localized environmental resonance.', isCorrect: true, rationale: 'Unpatrolled natural portals fluctuate in spatial coordinates, shifting up to half a mile or more based on localized environmental resonance.' },
-        { text: 'They are visible only when the Galactic Ancestral Alliance initiates sudden frequential shifts.', isCorrect: false, rationale: 'G.A.A. frequential adjustments reveal overlay seams as sharp environmental lines. Portal wandering is its own frequential behavior.' }
+        {
+          text: 'It may wander or shift location.',
+          isCorrect: true,
+          rationale: 'Spatial overlays intersect with natural planetary grid lines at portals, where the tile may wander or shift location.'
+        },
+        {
+          text: 'It may collapse into a fixed physical structure.',
+          isCorrect: false,
+          rationale: 'Portal tiles are dynamic; they wander rather than fixing into structures.'
+        },
+        {
+          text: 'It may detach from the grid and drift into the firmament.',
+          isCorrect: false,
+          rationale: 'The tile stays at the grid intersection; only its position fluctuates.'
+        },
+        {
+          text: 'It may duplicate itself across every mirrored node.',
+          isCorrect: false,
+          rationale: 'Duplication describes nodal mirroring of power centers, not portal tile behavior.'
+        }
       ]
     },
+
     {
       number: 9,
       question: 'Which mechanism ensures the illusion of global separation between mirrored geopolitical nodes?',
@@ -121,26 +155,60 @@ module.exports = {
     },
     {
       number: 11,
-      question: 'What is the significance of the Becker Hagens UVG120 Grid in the construction of the realm?',
-      hint: 'Identify the role of this polyhedral network in mapping the planet\'s surface.',
+      question: 'What is erected directly over major grid nodes to neutralize their natural positive resonance?',
+      hint: 'Check Becker Hagens UVG120 Grid and Nodal Suppression.',
       options: [
-        { text: 'It is the legal document that governs the interaction between the G.A.A. and the Sovereign Accord.', isCorrect: false, rationale: 'The Sovereign Accord is the legal framework. The Becker Hagens UVG120 Grid is a geometric map of Ley Lines and nodes.' },
-        { text: 'It functions as the high-density hardware embedded within the stars of the firmament.', isCorrect: false, rationale: 'Celestial hardware in the firmament is Sky-Net 1. The grid maps planetary Ley Lines and primary nodes on the surface.' },
-        { text: 'It is a 120-polyhedral geometric network mapping planetary Ley Lines and primary nodes.', isCorrect: true, rationale: 'The underlying template of the realm relies on the Becker Hagens UVG120 Grid, a 120-polyhedral geometric network mapping planetary Ley Lines and primary nodes, structured on polyhedral crystal geometry and Buckminster Fuller principles.' },
-        { text: 'It serves as the digital interface for the deployment of senescent holographic assets.', isCorrect: false, rationale: 'Senescent holograms are projected from the same celestial Sky-Net 1 network that projects the scenery, not from the grid map itself.' }
+        {
+          text: 'Inverted physical structures positioned precisely atop major grid junctions.',
+          isCorrect: true,
+          rationale: 'Structures atop the junctions suppress natural energetic emissions from the nodes.'
+        },
+        {
+          text: 'Projection hardware calibrated at extreme altitude within the firmament.',
+          isCorrect: false,
+          rationale: 'Projection hardware sits in the firmament; the node coverings are physical structures on the ground.'
+        },
+        {
+          text: 'Celestial light sources that project the scenery tiles downward.',
+          isCorrect: false,
+          rationale: 'Light sources project the overlays; they are not erected over the junctions.'
+        },
+        {
+          text: 'Time-phased corridors padded with motorways and travel plazas.',
+          isCorrect: false,
+          rationale: 'Corridors pad distance between settlements; they do not cover the grid junctions.'
+        }
       ]
     },
+
     {
       number: 12,
-      question: 'How can the spatial overlay be liberated under the Sovereign Accord?',
-      hint: 'Consider why external forces are legally barred from direct intervention.',
+      question: 'Alongside religion and finance, what must be severed to achieve complete field liberation?',
+      hint: 'See the final Strategic Implications item.',
       options: [
-        { text: 'By the Galactic Ancestral Alliance forcibly tearing down the celestial Sky-Net 1 network.', isCorrect: false, rationale: 'External forces cannot forcibly tear down the spatial overlay without violating universal law, because no field shall be overridden from outside itself.' },
-        { text: 'By mapping all 120 polyhedral nodes and physically destroying the nodal overlay edifices.', isCorrect: false, rationale: 'Mapping nodes exposes suppression architecture. Liberation still depends on field coherence from within, not demolition alone.' },
-        { text: 'Liberation depends on incarnated ground assets achieving field coherence from within the rendered terrain.', isCorrect: true, rationale: 'The Sovereign Accord mandates that no field shall be overridden from outside itself once coherent structures have self-sustained harmonics within, so liberation depends on incarnated ground assets achieving field coherence from within the rendered terrain.' },
-        { text: 'By severing the connection between the primary energy nodes and the mirrored global capitals.', isCorrect: false, rationale: 'Nodal awareness is strategic. Liberation specifically requires incarnated ground assets achieving field coherence from within.' }
+        {
+          text: 'Attachment to perceived spatial reality, a primary perceptual trap.',
+          isCorrect: true,
+          rationale: 'Separation is enforced by rendered transit corridors and continuous scrolling loops, and dissolving attachment to that perceived reality severs the trap.'
+        },
+        {
+          text: 'Attachment to the mirrored power centers of the grid.',
+          isCorrect: false,
+          rationale: 'The trap named is attachment to perceived spatial reality itself, not to the power centers.'
+        },
+        {
+          text: 'Use of the Becker Hagens grid for identifying nodes.',
+          isCorrect: false,
+          rationale: 'Grid mapping is a liberation tool that exposes node suppression, not a trap to sever.'
+        },
+        {
+          text: 'Travel through time-phased corridors between population centers.',
+          isCorrect: false,
+          rationale: 'Corridors are the padding mechanism; the trap is the attachment to the spatial illusion they sustain.'
+        }
       ]
     },
+
     {
       number: 13,
       question: 'What is the purpose of the Wild West frontier narrative within the context of Overlay Geography?',
@@ -154,15 +222,32 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'What percentage of the planetary population is comprised of senescent holographic assets?',
-      hint: 'Look for the specific range used to describe visual stock-fillers.',
+      question: 'During long-distance transit, what possesses true physical density?',
+      hint: 'Check Mechanics of Continuous Scrolling and Corridor Exaggeration.',
       options: [
-        { text: 'Less than 10% of the planetary population, restricted only to high-security geopolitical nodes.', isCorrect: false, rationale: 'Senescent holograms populate rendered cities and transit corridors at a much higher share than 10%.' },
-        { text: 'Over 75% of the planetary population, leaving only a small minority of true incarnated ground assets.', isCorrect: false, rationale: 'The holographic share is 30–40% of the planetary population, not an overwhelming 75% majority.' },
-        { text: 'These non-human assets make up 30–40% of the planetary population as visual stock-fillers.', isCorrect: true, rationale: 'Projected from the same celestial Sky-Net 1 network that projects the scenery, these non-human assets make up 30–40% of the planetary population, functioning as visual stock-fillers to populate rendered cities and transit corridors.' },
-        { text: 'Exactly 50% of the planetary population, balancing the human and non-human presence in the matrix.', isCorrect: false, rationale: 'The stated range is 30–40% of the planetary population for senescent holograms, not an even 50% split.' }
+        {
+          text: 'The hundreds of distinct cities, towns, and retail settlements the traveler moves through.',
+          isCorrect: true,
+          rationale: 'The settlements possess true physical density; only the separation between them is artificially exaggerated.'
+        },
+        {
+          text: 'Only the time-phased corridors between settlements.',
+          isCorrect: false,
+          rationale: 'Corridors are the artificial padding; the settlements themselves hold the density.'
+        },
+        {
+          text: 'Only the mirrored capitals on the primary grid nodes.',
+          isCorrect: false,
+          rationale: 'Density belongs to settlements generally, not only to mirrored capitals.'
+        },
+        {
+          text: 'Only the portal zones where overlays meet grid intersections.',
+          isCorrect: false,
+          rationale: 'Portal zones are gateway anomalies, not the sole bearers of physical density.'
+        }
       ]
     },
+
     {
       number: 15,
       question: 'Which of these are biological assets created specifically to intercept maritime passage?',
@@ -187,15 +272,32 @@ module.exports = {
     },
     {
       number: 17,
-      question: 'Which site is specifically mentioned as a stable land-based portal in the Siberian mountains?',
-      hint: 'Recall the 1959 incident involving hikers and a Yeti asset.',
+      question: 'What are Natural Portals?',
+      hint: 'See the Key Terminology entry.',
       options: [
-        { text: 'Dyatlov Pass is a stable land-based portal in the Siberian mountains.', isCorrect: true, rationale: 'The Dyatlov Pass Portal is a stable land-based portal in the Siberian mountains, where nine experienced hikers were eliminated in 1959 by a deployed 4th-density Yeti / Sasquatch asset.' },
-        { text: 'Sedona is a stable land-based portal in the Siberian mountains.', isCorrect: false, rationale: 'Sedona is a land-based portal, but it is not in the Siberian mountains.' },
-        { text: 'The Three Gates are a stable land-based portal in the Siberian mountains.', isCorrect: false, rationale: 'The Three Gates are ocean-based portals through the Antarctic ice wall, not a Siberian mountain pass.' },
-        { text: 'The Bermuda Triangle is a stable land-based portal in the Siberian mountains.', isCorrect: false, rationale: 'The Bermuda Triangle is an ocean-based portal, not a land portal in Siberia.' }
+        {
+          text: 'Frequential anomalies and gateway locations where spatial overlays weaken, wander, or interface with other dimensional density layers.',
+          isCorrect: true,
+          rationale: 'At portals the overlays interface with other dimensional density layers at gateway locations like Dyatlov Pass and Sedona.'
+        },
+        {
+          text: 'Mirrored power centers amplified across spatial facets into distinct national centers.',
+          isCorrect: false,
+          rationale: 'That is Nodal Mirroring, the reflection of grid nodes into national centers.'
+        },
+        {
+          text: 'Repetitive spatial buffers inserted between population nodes to lengthen travel.',
+          isCorrect: false,
+          rationale: 'Those buffers are Time-Phased Corridors, not portals.'
+        },
+        {
+          text: 'Projection points in the firmament that render scenery tiles onto the plane.',
+          isCorrect: false,
+          rationale: 'Projection points belong to the Sky-Net 1 architecture above the plane.'
+        }
       ]
     },
+
     {
       number: 18,
       question: 'What is the relationship between the London Square Mile and the Vatican?',
@@ -242,15 +344,32 @@ module.exports = {
     },
     {
       number: 22,
-      question: 'Where are the Three Gates located?',
-      hint: 'Look toward the icy edge of the physical plane.',
+      question: 'How far beyond current human technological capability does the rendering technology operate?',
+      hint: 'Look at Quantum Real-Time Rendering Engine.',
       options: [
-        { text: 'The Three Gates through the Antarctic ice wall are ocean-based portal gateways.', isCorrect: true, rationale: 'Ocean-based portals such as the Bermuda Triangle and the Three Gates through the Antarctic ice wall are guarded by heavy aquatic abominations created to intercept maritime passage.' },
-        { text: 'The Three Gates sit within the high-density hardware of the Sky-Net 1 network.', isCorrect: false, rationale: 'Sky-Net 1 is celestial projection hardware in the firmament. The Three Gates are ice-wall ocean portals.' },
-        { text: 'The Three Gates run underneath the London Square Mile and the Vatican nodes.', isCorrect: false, rationale: 'London and the Vatican are mirrored primary nodes, not the oceanic Three Gates.' },
-        { text: 'The Three Gates lie between the spatial tiles of North America and Eurasia.', isCorrect: false, rationale: 'The Three Gates are specific portal locations through the Antarctic ice wall, not a generic continental tile seam.' }
+        {
+          text: 'Roughly 3,000 years beyond current human technological capability.',
+          isCorrect: true,
+          rationale: 'The technology operates roughly 3,000 years beyond current human technological capability, like advanced simulation software.'
+        },
+        {
+          text: 'Roughly 300 years beyond current human technological capability.',
+          isCorrect: false,
+          rationale: 'The lead is roughly 3,000 years, not 300.'
+        },
+        {
+          text: 'Roughly 30,000 years beyond current human technological capability.',
+          isCorrect: false,
+          rationale: 'Thirty thousand overshoots the figure given; the lead is roughly 3,000 years.'
+        },
+        {
+          text: 'Roughly 178,000 years beyond current human technological capability.',
+          isCorrect: false,
+          rationale: '178,000 years is the insertion cycle span, not the technology lead.'
+        }
       ]
     },
+
     {
       number: 23,
       question: 'True or False: Geopolitical separation is a physical reality based on independent energy nodes.',
