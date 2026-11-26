@@ -75,35 +75,32 @@ module.exports = {
     },
     {
       number: 3,
-      question: 'What structural design completes the electrical pathway known as the Air-to-Earth circuit?',
-      hint: 'The material section names the two ends that have to meet for the pathway to close.',
+      question: 'What do piezoelectric stone structures interface with simultaneously in the Air-to-Earth Circuit?',
+      hint: 'See the Key Terminology entry for Air-to-Earth Circuit.',
       options: [
         {
-          text: 'Deep piezoelectric footings in the water table, linked to high atmospheric spires.',
+          text: 'Atmospheric aether and subterranean water tables.',
           isCorrect: true,
-          rationale:
-            'High atmospheric spires and deep wet foundations completed a continuous aetheric Air-to-Earth circuit into the subterranean water table.'
+          rationale: 'The circuit is created when piezoelectric stone structures with deep foundations interface simultaneously with atmospheric aether and subterranean water tables.'
         },
         {
-          text: 'Enclosed combustion chambers set on cardinal axes and fed by burned mineral fuel.',
+          text: 'Copper wiring and fibre optic cables.',
           isCorrect: false,
-          rationale:
-            'The circuit drew atmospheric voltage into the water table. It did not close through fuel combustion.'
+          rationale: 'Those are the artificial replacements for the grid\'s tributaries.'
         },
         {
-          text: 'Fibre optic cabling wrapped on the spires to carry digital code instead of stone.',
+          text: 'Fuel combustion and resource depletion.',
           isCorrect: false,
-          rationale:
-            'Fibre replaced ley tributaries in the inverted grid. The air-to-earth path is stone, spire, and water table.'
+          rationale: 'The system operates without combustion or depletion.'
         },
         {
-          text: 'Iron rods tying wall recesses to buried magnetic deposits under the floor of the hall.',
+          text: 'Binary code and digital storage systems.',
           isCorrect: false,
-          rationale:
-            'The builders set stone with sound and did without iron hammers or chisels. The circuit is not an iron tie.'
+          rationale: 'Those belong to the inverted currency network.'
         }
       ]
     },
+
     {
       number: 4,
       question:
@@ -138,67 +135,60 @@ module.exports = {
     },
     {
       number: 5,
-      question:
-        'How were massive piezoelectric quartz granite blocks dressed and positioned without mechanical cranes or iron chisels?',
-      hint: 'The material section names what did the lifting and cutting in place of iron tools.',
+      question: 'What does utilizing 432 Hertz and sound-based shaping restore?',
+      hint: 'See Harmonic Acoustic Alignment in Strategic Implications.',
       options: [
         {
-          text: 'By turning wired currency into mechanical force on high-voltage networks.',
-          isCorrect: false,
-          rationale:
-            'High-voltage networks are the later entropic grid. The blocks were positioned with sound.'
-        },
-        {
-          text: 'Through heat from burning wood fuel inside the stone courses.',
-          isCorrect: false,
-          rationale:
-            'The architecture did without combustion and wood fuel. Placement used precise sound frequencies.'
-        },
-        {
-          text: 'Through levitation technology powered by precise sound frequencies.',
+          text: 'The ability to manipulate matter and energy in harmony with natural planetary laws.',
           isCorrect: true,
-          rationale:
-            'Heavy stone blocks were dressed, cut, and positioned using levitation technology powered by precise sound frequencies.'
+          rationale: 'Utilizing 432 Hertz and sound-based material shaping restores the ability to manipulate matter and energy in harmony with natural planetary laws.'
         },
         {
-          text: 'By floating the stones on water currents along engineered canals.',
+          text: 'The inversion of current into monetary currency.',
           isCorrect: false,
-          rationale:
-            'The water table grounded the circuit. It was not a canal system for floating the blocks.'
+          rationale: 'The inversion is the control system\'s work, not a restoration.'
+        },
+        {
+          text: 'The emission of destructive electromagnetic frequencies.',
+          isCorrect: false,
+          rationale: 'Those emissions belong to the entropic networks.'
+        },
+        {
+          text: 'The extraction of fossil fuels for combustion.',
+          isCorrect: false,
+          rationale: 'Restoring aetheric harvesting removes the need for fossil fuel extraction.'
         }
       ]
     },
+
     {
       number: 6,
-      question: 'Which masonry material and weight parameters characterized the zero-maintenance resonant structures?',
-      hint: 'The material section names the stone and the weight range of each block.',
+      question: 'What does spiritual technology utilize as an organic circuit board?',
+      hint: 'See Organic Circuitry vs. Entropic Scarcity.',
       options: [
         {
-          text: 'Iron-dressed courses of hammer-cut stone blocks weighing 40 tons on the spire line.',
-          isCorrect: false,
-          rationale:
-            'Forty feet is a footing depth, and iron hammers were not the method. The blocks were piezoelectric quartz granite of 0.25 to 4 tons.'
-        },
-        {
-          text: 'Fibre-tied masonry of wire-grid stone blocks weighing about 40 tons on each course.',
-          isCorrect: false,
-          rationale:
-            'Fibre and wire belong to the inverted grid. The wall blocks were quartz granite, not a wire-tied course.'
-        },
-        {
-          text: 'Fuel-fired courses of combustion stone blocks weighing about 40 tons per course.',
-          isCorrect: false,
-          rationale:
-            'Combustion was not the building method. The masonry was piezoelectric quartz granite at 0.25 to 4 tons.'
-        },
-        {
-          text: 'Ashlar masonry composed of piezoelectric quartz granite blocks weighing 0.25 to 4 tons.',
+          text: 'Natural mineral vectors, water tables, and atmospheric potential.',
           isCorrect: true,
-          rationale:
-            'Structures used Ashlar masonry of massive piezoelectric quartz granite blocks, weighing between 0.25 and 4 tons each.'
+          rationale: 'It operates as an organic circuit board utilizing natural mineral vectors, water tables, and atmospheric potential.'
+        },
+        {
+          text: 'Resource depletion, artificial scarcity, and high-voltage transmission.',
+          isCorrect: false,
+          rationale: 'Those are the reliance of modern entropic technology.'
+        },
+        {
+          text: 'Artificial wires and fibre optic cables.',
+          isCorrect: false,
+          rationale: 'Wires and fibre replaced the grid\'s natural tributaries.'
+        },
+        {
+          text: 'Centralized fuel processing and financial taxation.',
+          isCorrect: false,
+          rationale: 'The original architecture required neither.'
         }
       ]
     },
+
     {
       number: 7,
       question: 'What preserved state was maintained inside unenclosed stone wall recesses without artificial refrigeration?',
@@ -263,36 +253,32 @@ module.exports = {
     },
     {
       number: 9,
-      question:
-        'How were urban layouts structured to maximize atmospheric harvesting in the organic circuit board paradigm?',
-      hint: 'The schematic section names the mathematical pattern laid along the energy lines.',
+      question: 'What kind of habitats does applying the design enable?',
+      hint: 'See Autonomous Settlement Architecture in Strategic Implications.',
       options: [
         {
-          text: 'By sinking the plan into the water table and leaving the spires off the lines.',
-          isCorrect: false,
-          rationale:
-            'The water table is the ground of the circuit. The urban plan followed natural energy lines, it was not sunk off them.'
-        },
-        {
-          text: 'By ringing each city around a central fuel-combustion plant that fed every block.',
-          isCorrect: false,
-          rationale:
-            'The layouts did without centralized fuel. They followed a Fibonacci-style schematic on the energy lines.'
-        },
-        {
-          text: 'By aligning every building along metallic transmission grids and fibre cable runs.',
-          isCorrect: false,
-          rationale:
-            'Wires and fibre replaced the ley tributaries later. The original layouts followed natural energy lines.'
-        },
-        {
-          text: 'By using a Fibonacci-style pattern of designs along the natural energy lines.',
+          text: 'Self-heating, self-cooling, and self-illuminating habitats requiring no external utility infrastructure.',
           isCorrect: true,
-          rationale:
-            'Urban centers used a Fibonacci-style incorporation of schematic designs, organizing structures along natural energy lines.'
+          rationale: 'Applying Fibonacci schematic design, piezoelectric materials, and deep water-table grounding enables the construction of self-heating, self-cooling, and self-illuminating habitats.'
+        },
+        {
+          text: 'Habitats dependent on centralized electrical utility monopolies.',
+          isCorrect: false,
+          rationale: 'The design removes dependence on utility monopolies.'
+        },
+        {
+          text: 'Habitats heated by fuel combustion and fireplaces.',
+          isCorrect: false,
+          rationale: 'The habitats heat passively, without combustion or fireplaces.'
+        },
+        {
+          text: 'Habitats cooled by artificial refrigeration systems.',
+          isCorrect: false,
+          rationale: 'Cooling is passive, through stone mass and air chambers.'
         }
       ]
     },
+
     {
       number: 10,
       question: 'What distinguishes spiritual technology from modern entropic power infrastructure?',
@@ -481,66 +467,60 @@ module.exports = {
     },
     {
       number: 16,
-      question: 'How deep were the footings that met the subterranean water table?',
-      hint: 'The material section gives the depth of the footings in feet.',
+      question: 'What does replacing entropic networks with positive energy fields lower?',
+      hint: 'See Biological Restoration and EMF Mitigation in Strategic Implications.',
       options: [
         {
-          text: 'Up to 40 feet deep, set directly into that water table.',
+          text: 'Disease rates, while restoring natural biological cellular function.',
           isCorrect: true,
-          rationale:
-            'Footings extending up to 40 feet deep were embedded directly into the subterranean water table.'
+          rationale: 'It removes major environmental stressors, lowering disease rates and restoring natural biological cellular function.'
         },
         {
-          text: 'Up to 4 tons deep, set down into that same water table.',
+          text: 'Ambient atmospheric potential across the grid.',
           isCorrect: false,
-          rationale:
-            'Four tons is the heavy end of a granite block. The footings went up to 40 feet into the water table.'
+          rationale: 'Positive fields raise ambient benefit rather than lowering potential.'
         },
         {
-          text: 'Up to 0.25 feet deep, a skin of granite on dry ground.',
+          text: 'The structural resonance of masonry buildings.',
           isCorrect: false,
-          rationale:
-            '0.25 tons is the light end of a block. The footings reached up to 40 feet into the water table.'
+          rationale: 'Resonance is the buildings\' operating principle, not a casualty.'
         },
         {
-          text: 'Up to 432 feet deep, matched to the generative tone.',
+          text: 'Public power lines and recurring energy costs.',
           isCorrect: false,
-          rationale:
-            '432 Hertz is the generative tone, not a depth. The footings extended up to 40 feet.'
+          rationale: 'Those are removed by restoring aetheric harvesting, a separate implication.'
         }
       ]
     },
+
     {
       number: 17,
-      question: 'Once a building was properly aligned and constructed, what did it need to keep running?',
-      hint: 'The schematic section describes how long such a building operated and what it did not consume.',
+      question: 'What does the system generate from atmospheric potential and subterranean grounding?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'It kept running with no moving parts, no upkeep, and no external fuel.',
+          text: 'Passive heating, cooling, illumination, and biological rejuvenation.',
           isCorrect: true,
-          rationale:
-            'Once properly aligned and constructed, buildings operated indefinitely without moving parts, requiring zero operational maintenance or external fuel supplies.'
+          rationale: 'The system utilizes natural atmospheric potential and subterranean grounding to generate passive heating, cooling, illumination, and biological rejuvenation.'
         },
         {
-          text: 'It needed a steady feed of wood fuel through the fireplaces all winter long.',
+          text: 'Negative energy and digital code for storage.',
           isCorrect: false,
-          rationale:
-            'Aligned buildings required zero operational maintenance or external fuel. Winter heat did not use wood.'
+          rationale: 'Those are transported by the inverted currency network.'
         },
         {
-          text: 'It needed boilers and heating tanks refilled again and again at the stone taps.',
+          text: 'Destructive electromagnetic frequencies.',
           isCorrect: false,
-          rationale:
-            'The taps worked without boilers and tanks. A finished building did not need that upkeep.'
+          rationale: 'Those are emitted by modern entropic power systems.'
         },
         {
-          text: 'It needed fibre optic service and a wired currency meter fixed on the wall.',
+          text: 'Monetary currency through artificial wires.',
           isCorrect: false,
-          rationale:
-            'Fibre and wires are the inverted grid. The aligned building ran without external fuel or maintenance.'
+          rationale: 'Currency is the inverted state of the natural current.'
         }
       ]
     },
+
     {
       number: 18,
       question: 'How did these buildings stay comfortable during extreme summer heat?',
@@ -707,24 +687,22 @@ module.exports = {
     },
     {
       number: 24,
-      question:
-        'True or False: Footings extending up to 40 feet deep were embedded directly into the subterranean water table.',
-      hint: 'The material section gives both the depth and what the footings sat in.',
+      question: 'True or False: According to the report, “Ley Grid” refers to the global planetary lattice network made up of primary ley lines and smaller subterranean tributaries.',
+      hint: 'See the Key Terminology entry for Ley Grid.',
       options: [
         {
           text: 'True',
           isCorrect: true,
-          rationale:
-            'Footings extending up to 40 feet deep were embedded directly into the subterranean water table.'
+          rationale: 'The Ley Grid is the global planetary lattice network made up of primary ley lines and smaller subterranean tributaries along which ambient aetheric energy flows.'
         },
         {
           text: 'False',
           isCorrect: false,
-          rationale:
-            'The report places those footings up to 40 feet deep, directly in the subterranean water table.'
+          rationale: 'That is exactly how the report defines the Ley Grid.'
         }
       ]
     },
+
     {
       number: 25,
       question:
