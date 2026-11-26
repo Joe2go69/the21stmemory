@@ -167,33 +167,32 @@ module.exports = {
     },
     {
       number: 6,
-      question: 'Why was the Clueless Protocol implemented for avatars after the fall of Atlantis and Lemuria?',
-      hint: 'Consider the risks of giving a limited, emotionally strained avatar full operational awareness.',
+      question: 'Why were the four thousand soul architectures inserted into the physical plane over 178,000 years ago?',
+      hint: 'Look at the second Core Revelations paragraph.',
       options: [
         {
-          text: 'To allow the avatar to develop a unique personality free from past burdens.',
-          isCorrect: false,
-          rationale: "The protocol's purpose is operational security rather than personality development."
-        },
-        {
-          text: 'To ensure the soul family can experience the surprise of the Homecoming Reunion.',
-          isCorrect: false,
-          rationale:
-            "The reunion is a result of the protocol dropping, but the protocol itself was designed for mission security."
-        },
-        {
-          text: 'To prevent 3rd-density avatars from compromising planetary rescue efforts.',
+          text: 'To satisfy the Sovereign Accord, which requires coherent internal structures to shift a realm from within.',
           isCorrect: true,
-          rationale:
-            'No incarnated human avatar can be trusted with full operational awareness while in the body.'
+          rationale: 'The insertion was executed to satisfy the Sovereign Accord, under which a realm shifts only when coherent internal structures exist to shift it from within.'
         },
         {
-          text: 'To comply with the laws of biological evolution that require memory erasure.',
+          text: 'To escape custodial control structures that had already colonized the physical plane.',
           isCorrect: false,
-          rationale: 'The protocol is a deliberate mission strategy, not a requirement of biological evolution.'
+          rationale: 'Mission Insertion placed the souls inside the field prior to inversion, not as an escape from an existing colonization.'
+        },
+        {
+          text: 'To populate the Taran Vessel templates engineered on the Aktun production lines.',
+          isCorrect: false,
+          rationale: 'The Taran templates were the vessels the architectures would inhabit; the insertion itself answered the field-law requirement.'
+        },
+        {
+          text: 'To replace the Proximal Sols as the primary originators of soul expression.',
+          isCorrect: false,
+          rationale: 'The Proximal Sols remain the originators; the four thousand are the lineage they formulated.'
         }
       ]
     },
+
     {
       number: 7,
       question:
@@ -227,208 +226,200 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'What purpose does the sensation of Déjà Vu serve within the context of an Arc Trajectory?',
-      hint: 'These moments are signals that the first-person mapped sequence is being followed correctly.',
+      question: 'What role do physical organs such as the human brain play in relation to consciousness?',
+      hint: 'Check the first Core Revelations paragraph.',
       options: [
         {
-          text: "It is a biological byproduct of the brain's reduced cranial capacity.",
-          isCorrect: false,
-          rationale: "The sensation is related to the soul's trajectory rather than the physical limitations of the brain."
-        },
-        {
-          text: "It signals that an artificial entity is attempting to mimic the soul's signature.",
-          isCorrect: false,
-          rationale: 'This sensation is an internal navigational tool for the true soul, not an external threat indicator.'
-        },
-        {
-          text: 'It serves as a literal navigational checkpoint along a pre-mapped life path.',
+          text: 'They are biological interfaces engineered to let pre-existing intelligence experience lower-density environments.',
           isCorrect: true,
-          rationale:
-            'These moments signal that the avatar has successfully reached a pre-authorized spatial and temporal coordinate.'
+          rationale: 'Organs do not generate thought; they allow pre-existing intelligence to experience lower-density physical environments.'
         },
         {
-          text: 'It indicates a minor glitch in the rendering of the 3rd-density simulation.',
+          text: 'They generate thought and desire independently of any higher-density consciousness.',
           isCorrect: false,
-          rationale: 'Rather than a glitch, it is a purposeful signal from the Oversoul to the avatar.'
+          rationale: 'Consciousness is the primary causal agent; organs were engineered later as interfaces, not generators.'
+        },
+        {
+          text: 'They compress the Oversoul\'s luminosity into packets the vessel can survive.',
+          isCorrect: false,
+          rationale: 'Compression belongs to the architecture\'s energetic folding, not to a function of physical organs.'
+        },
+        {
+          text: 'They store the Arc Trajectory checkpoints the avatar must reach across lifetimes.',
+          isCorrect: false,
+          rationale: 'Trajectories are pre-mapped by the Oversoul; the brain is an interface for experience, not the archive of the arc.'
         }
       ]
     },
+
     {
       number: 9,
-      question: 'Which of the following is one of the Fifteen Attributes embedded as immutable firmware in true soul architecture?',
-      hint: "This trait involves the ability to reflect on and evaluate one's own internal mental states.",
+      question: 'What are the Fifteen Attributes within true soul architecture?',
+      hint: 'See the Key Terminology entry and the firmware subsection introduction.',
       options: [
         {
-          text: 'Telepathic broadcasting of complex biological data.',
-          isCorrect: false,
-          rationale:
-            'While Taran bodies were telepathic, the Fifteen Attributes refer to baseline cognitive and emotional firmware.'
-        },
-        {
-          text: "Metacognition, or the capacity to analyze one's own thought processes.",
+          text: 'The core baseline firmware traits embedded at birth, providing advanced cognitive, emotional, and spiritual capacities.',
           isCorrect: true,
-          rationale:
-            "Metacognition is the capacity to analyze and reflect upon one's own thought processes and biases."
+          rationale: 'They are the core baseline firmware traits embedded within true soul architecture at birth.'
         },
         {
-          text: 'Photographic recall of all previous incarnations and soul memories.',
+          text: 'The fifteen production lines of the Aktun facility that engineered the Taran Vessel.',
           isCorrect: false,
-          rationale:
-            'The Clueless Protocol actively prevents this recall, making it distinct from the immutable firmware.'
+          rationale: 'The Aktun lines produced vessels; the attributes are firmware traits of the soul itself.'
         },
         {
-          text: 'The ability to bypass the electromagnetic field of a planet at will.',
+          text: 'The fifteen density overlays that separate the Oversoul from its incarnated avatar.',
           isCorrect: false,
-          rationale:
-            'This is a capability of high-density masters rather than one of the fifteen baseline firmware traits.'
+          rationale: 'The attributes are capacities of the architecture, not barriers between Oversoul and avatar.'
+        },
+        {
+          text: 'The fifteen checkpoints plotted along an Arc Trajectory across thousands of years.',
+          isCorrect: false,
+          rationale: 'Trajectory checkpoints are navigational markers; the attributes are the baseline operating traits.'
         }
       ]
     },
+
     {
       number: 10,
-      question: 'How do custodial structures typically handle the innate firmware of true human souls?',
-      hint: 'If a fundamental trait cannot be removed, the alternative is to turn its expression against the individual.',
+      question: 'How do true soul architectures differ from manufactured non-player entities?',
+      hint: 'Look at the third Core Revelations paragraph.',
       options: [
         {
-          text: "By upgrading the Taran vessel to better contain the soul's luminosity.",
-          isCorrect: false,
-          rationale: 'Custodians systematically downgraded the vessel rather than upgrading it.'
-        },
-        {
-          text: 'By completely erasing the attributes from the biological DNA.',
-          isCorrect: false,
-          rationale: 'The firmware is immutable and cannot be erased from true soul architecture.'
-        },
-        {
-          text: 'By replacing the soul architecture with digital population inserts.',
-          isCorrect: false,
-          rationale:
-            'Artificial entities exist, but the custodial strategy for true souls focuses on inversion rather than replacement.'
-        },
-        {
-          text: 'By instituting inversion strategies that weaponize, subvert, and hijack the traits.',
+          text: 'They maintain an immortal connection to Source Creation and preserve innate spiritual firmware.',
           isCorrect: true,
-          rationale:
-            'Custodial parasites could not erase these innate firmwares from true soul architecture, so they instituted inversion strategies.'
+          rationale: 'True architectures preserve innate spiritual firmware regardless of physical containment, unlike entities running on borrowed light or data streams.'
+        },
+        {
+          text: 'They rely on borrowed environmental light to animate their biological functions.',
+          isCorrect: false,
+          rationale: 'Borrowed light animates the artificial entities; true souls carry their own luminosity from Source.'
+        },
+        {
+          text: 'They are projected from Arc Pods at the Homecoming Reunion instead of across ordinary lifetimes.',
+          isCorrect: false,
+          rationale: 'Avatars are projected across lifetimes; the reunion is the post-overlay recognition event, not the projection window.'
+        },
+        {
+          text: 'They operate through automated data streams supplied by the simulation field.',
+          isCorrect: false,
+          rationale: 'Automated data streams sustain the manufactured entities; true souls hold an immortal Source connection.'
         }
       ]
     },
+
     {
       number: 11,
-      question: 'Where does the complete Oversoul reside while its avatar is incarnated on Earth?',
-      hint: "This location provides a secure, high-density anchor for the soul's complete luminosity.",
+      question: 'What is the Arc Pod Protocol?',
+      hint: 'Check the Key Terminology entries for the pod and the Oversoul.',
       options: [
         {
-          text: 'Within the core of the planetary grid to maintain legal presence.',
-          isCorrect: false,
-          rationale: 'Mission insertion provides presence, but the Oversoul itself is anchored in a high-density Arc Pod.'
-        },
-        {
-          text: 'In a digital data bank maintained by the Aktun production facilities.',
-          isCorrect: false,
-          rationale:
-            'The Aktun lines are for vessel production; the Oversoul resides in a spiritual/technological Arc Pod.'
-        },
-        {
-          text: 'In an Arc Pod container located on a bioship in the atmospheric overlays.',
+          text: 'The multidimensional stasis and steering mechanism housed on bioships where the primary Oversoul resides.',
           isCorrect: true,
-          rationale:
-            'The complete Oversoul remains anchored within an Arc Pod container located on living bioships situated in the upper atmospheric overlays.'
+          rationale: 'It is the multidimensional stasis and steering mechanism housed on bioships, from which the Oversoul directs its incarnated avatars.'
         },
         {
-          text: 'Within the complex neural pathways of the 3rd-density physical brain.',
+          text: 'The deliberate wipe of conscious mission memory implemented after the fall of Atlantis.',
           isCorrect: false,
-          rationale: 'The brain is only an interface; it does not house the complete volume of the Oversoul.'
+          rationale: 'That wipe is the Clueless Protocol; the Arc Pod Protocol is the stasis and steering housing of the Oversoul.'
+        },
+        {
+          text: 'The folding of a soul\'s luminosity into dense energetic packets for lower-density incarnation.',
+          isCorrect: false,
+          rationale: 'That folding is Frequency Compression, a process the architecture undergoes, not the pod mechanism itself.'
+        },
+        {
+          text: 'The grouping of a soul across approximately one hundred soul family members in a cluster.',
+          isCorrect: false,
+          rationale: 'That grouping is Soul Layering within the pod cluster, distinct from the protocol that houses the Oversoul.'
         }
       ]
     },
+
     {
       number: 12,
-      question: 'What defines the physical process of Facial Morphogenesis in true soul-bearing humans?',
-      hint: 'This process suggests that physical appearance is a reflection of the underlying energetic software.',
+      question: 'What is Frequency Compression in soul architecture?',
+      hint: 'See the Key Terminology entry on compression.',
       options: [
         {
-          text: 'The surgical modification performed by custodial entities during resets.',
-          isCorrect: false,
-          rationale: 'While custodians modified the overall template, individual facial structure is a soul-driven process.'
-        },
-        {
-          text: 'The environmental adaptations required for survival in lower-density fields.',
-          isCorrect: false,
-          rationale: 'Morphogenesis is driven by internal soul software rather than external environmental pressures.'
-        },
-        {
-          text: "The sculpting of the face by the soul's specific vibrational architecture over time.",
+          text: 'The process of folding a high-density soul\'s luminosity into dense energetic packets to allow lower-density incarnation without detection.',
           isCorrect: true,
-          rationale:
-            "The soul's unique energetic signature sculpts the physical face to resemble its original, un-downgraded ET template."
+          rationale: 'Compression folds luminosity into dense energetic packets so the soul can incarnate in lower densities without detection by external control structures.'
         },
         {
-          text: 'The random recombination of genetic material from parental ancestors.',
+          text: 'The structural grouping of a soul across its pod cluster of soul family members.',
           isCorrect: false,
-          rationale:
-            'While genetics play a role, facial structure is primarily software-specific and determined by the soul.'
+          rationale: 'That grouping is Soul Layering; compression is the folding of luminosity itself.'
+        },
+        {
+          text: 'The pre-mapped sequence of lives and checkpoints planned by an Oversoul.',
+          isCorrect: false,
+          rationale: 'That sequence is the Arc Trajectory, not the compression of the soul\'s light.'
+        },
+        {
+          text: 'The wipe of mission memory that keeps avatars from compromising rescue efforts.',
+          isCorrect: false,
+          rationale: 'That wipe is the Clueless Protocol; compression concerns energetic density, not memory.'
         }
       ]
     },
+
     {
       number: 13,
-      question: 'How are non-player entities (NPCs) animated within the physical matrix rendering?',
-      hint: 'Consider how a small number of true souls might support a larger group of artificial entities.',
+      question: 'What sustains manufactured entities such as holographic sleeves and digital inserts?',
+      hint: 'Compare true souls and manufactured entities in Core Revelations.',
       options: [
         {
-          text: 'They possess a unique, low-density soul template created by the Proximal Sols.',
-          isCorrect: false,
-          rationale: 'Only four thousand true soul templates were created; NPCs lack independent soul structures.'
-        },
-        {
-          text: 'They generate their own internal light through advanced genetic engineering.',
-          isCorrect: false,
-          rationale:
-            'Artificial entities lack immortal connection to Source and cannot generate their own spiritual luminosity.'
-        },
-        {
-          text: 'They draw upon a fraction of light shared by true soul architectures.',
+          text: 'They rely on borrowed environmental light or automated data streams to function.',
           isCorrect: true,
-          rationale:
-            'A fraction of light from true souls is temporarily allocated to power their basic biological functions.'
+          rationale: 'Artificial entities lack individual soul structures and rely on borrowed light or data streams rather than a Source connection.'
         },
         {
-          text: 'They are powered by the electromagnetic energy of the planetary core.',
+          text: 'They maintain an immortal connection to Source Creation through the Arc Pods.',
           isCorrect: false,
-          rationale: 'They specifically require the spiritual luminosity of true souls to function within the simulation.'
+          rationale: 'The immortal Source connection belongs to true soul architectures; manufactured entities lack individual soul structures.'
+        },
+        {
+          text: 'They generate their own luminosity within the simulation\'s rendering field.',
+          isCorrect: false,
+          rationale: 'They have no independent luminosity; they run on borrowed environmental light or automated data streams.'
+        },
+        {
+          text: 'They preserve innate spiritual firmware across successive physical resets.',
+          isCorrect: false,
+          rationale: 'Firmware preservation is a property of true architectures, not of manufactured inserts.'
         }
       ]
     },
+
     {
       number: 14,
-      question: 'What is the expected outcome of the event known as the Homecoming Reunion?',
-      hint: 'This event is often referred to as the "Wizard of Oz" moment where masks are removed.',
+      question: 'What is the Homecoming Reunion?',
+      hint: 'See the Key Terminology entry on the reunion.',
       options: [
         {
-          text: 'The instantaneous recognition of soul family members "out of costume."',
+          text: 'The event after the electromagnetic field drop when soul family members recognize one another in their true form.',
           isCorrect: true,
-          rationale:
-            'Avatars will immediately recognize surrounding individuals as their true soul family members "out of costume".'
+          rationale: 'At the reunion, soul family members recognize one another in their true form as the density overlays dissipate.'
         },
         {
-          text: 'The replacement of all physical bodies with high-density holographic sleeves.',
+          text: 'The strategy requiring ancient souls to enter a planetary field prior to inversion.',
           isCorrect: false,
-          rationale:
-            'The reunion involves seeing through current forms to true spiritual templates, not receiving new holographic sleeves.'
+          rationale: 'That strategy is Mission Insertion; the reunion is the recognition event after the field drop.'
         },
         {
-          text: 'The formal signing of a new Sovereign Accord between all planetary entities.',
+          text: 'The moment an Oversoul plots its avatar\'s trajectory across thousands of years.',
           isCorrect: false,
-          rationale: "The accord is already in place; the reunion is the realization of the mission's completion."
+          rationale: 'Trajectory plotting precedes incarnation; the reunion follows the dissipation of the density overlays.'
         },
         {
-          text: 'The mass migration of humanity to the original 9th-density Taran home world.',
+          text: 'The process that folds soul luminosity into packets for lower-density incarnation.',
           isCorrect: false,
-          rationale: 'The reunion is about recognition and the dropping of overlays, not a physical migration.'
+          rationale: 'That process is Frequency Compression, not the post-drop recognition of soul family.'
         }
       ]
     },
+
     {
       number: 15,
       question: 'What is the primary purpose of an Arc Trajectory for an incarnated avatar?',
@@ -460,149 +451,144 @@ module.exports = {
     },
     {
       number: 16,
-      question: 'Which density is associated with the original Taran Vessel and its aetheric mechanics?',
-      hint: 'The original Taran body was significantly more advanced and taller than modern 3rd-density humans.',
+      question: 'What was the Taran Vessel?',
+      hint: 'Check the Key Terminology entries for the vessel and the Aktun.',
       options: [
         {
-          text: 'The 18th-density realm of Initial Intelligence.',
-          isCorrect: false,
-          rationale:
-            'The 18th density is where soul architecture originated, but the Taran body was a 9th-density construct.'
-        },
-        {
-          text: 'The 9th-density level of the Aktun production lines.',
+          text: 'The original high-density hominid physical body produced on the Aktun lines as the biological archetype for human manifestation.',
           isCorrect: true,
-          rationale:
-            'The original Taran Vessel was a 9th-density biological masterpiece fully aligned with high-density aetheric mechanics.'
+          rationale: 'The Taran Vessel was the biological archetype for human manifestation, produced on the Aktun lines.'
         },
         {
-          text: 'The 12th-density realm of the Proximal Sols.',
+          text: 'The organic facility responsible for engineering high-density biological vessels.',
           isCorrect: false,
-          rationale:
-            'While the Proximal Sols are high-density, the specific Taran vessel is identified with the 9th density.'
+          rationale: 'That facility is the Aktun itself; the Taran Vessel is the body it produced.'
         },
         {
-          text: 'The 3rd-density level of modern physical manifestation.',
+          text: 'The stasis container in which the Oversoul resides aboard a bioship.',
           isCorrect: false,
-          rationale: 'Modern humans are a downgraded 3rd-density version of the original template.'
+          rationale: 'That container is the Arc Pod; the Taran Vessel is the physical body template.'
+        },
+        {
+          text: 'The energetic packet formed when a soul\'s luminosity is compressed for incarnation.',
+          isCorrect: false,
+          rationale: 'That packet is the product of Frequency Compression, not a vessel.'
         }
       ]
     },
+
     {
       number: 17,
-      question: 'What happened to the Taran biological template following historical planetary resets?',
-      hint: 'Consider the reduction in cranial capacity and the closing off of vital brain regions.',
+      question: 'What does Soul Architecture preserve even when physical bodies undergo severe evolutionary downgrading?',
+      hint: 'Look at the closing sentence of the Overview\'s second paragraph.',
       options: [
         {
-          text: 'It was upgraded to allow for better survival in lower-density environments.',
-          isCorrect: false,
-          rationale: 'The changes were a downsizing and restriction of capacity, not an upgrade for better function.'
-        },
-        {
-          text: 'It was systematically downgraded into smaller, slower, and shorter-lived vessels.',
+          text: 'It preserves innate spiritual firmware within the individualized consciousness.',
           isCorrect: true,
-          rationale:
-            'Custodial control structures systematically downgraded the Taran biological template through genetic modification, and modern bodies were downsized into smaller, slower, and shorter-lived vessels.'
+          rationale: 'Soul Architecture preserves innate spiritual firmware even when physical bodies undergo severe evolutionary downgrading.'
         },
         {
-          text: 'It was integrated with non-player entities to stabilize the planetary grid.',
+          text: 'It preserves the body\'s original height, strength, and telepathic capacity.',
           isCorrect: false,
-          rationale: 'The downgrading was a custodial tactic to control true souls, not an integration with NPCs.'
+          rationale: 'Downgrading reduces the vessel; what the architecture preserves is the spiritual firmware, not the body\'s capacities.'
         },
         {
-          text: 'It was completely replaced by digital inserts and holographic sleeves.',
+          text: 'It preserves conscious memory of the avatar\'s higher-density origins.',
           isCorrect: false,
-          rationale:
-            'The original blueprint remains as the core DNA, even if the physical manifestation is downgraded.'
+          rationale: 'Mission memory is deliberately deactivated under the Clueless Protocol; the firmware is what endures.'
+        },
+        {
+          text: 'It preserves the soul\'s visible luminosity at full high-density brightness.',
+          isCorrect: false,
+          rationale: 'Luminosity is folded and compressed for lower-density incarnation; preservation applies to the firmware.'
         }
       ]
     },
+
     {
       number: 18,
-      question: 'How many individual lifetimes does an average Arc Trajectory cover across its pre-mapped sequence?',
-      hint: 'The total number of lives is quite high, with each life averaging about 35 years.',
+      question: 'What is an Arc Trajectory?',
+      hint: 'See the Key Terminology entry and Immutable Guidance Systems.',
       options: [
         {
-          text: 'More than 5,000 individual lifetimes averaging 35 years each.',
+          text: 'A pre-plotted sequence of lives that steers the avatar to precise geographic and temporal nodes.',
           isCorrect: true,
-          rationale:
-            'These trajectories guide the avatar across more than 5,000 individual lifetimes averaging 35 years each.'
+          rationale: 'Pre-plotted trajectories steer avatars to precise geographic and temporal nodes required for grid activation.'
         },
         {
-          text: 'Approximately twelve lifetimes for each of the Proximal Sols.',
+          text: 'A single lifetime chosen by the avatar after each physical death.',
           isCorrect: false,
-          rationale:
-            'The Proximal Sols are the creators; the trajectories apply to the 4,000 architectures across thousands of lives.'
+          rationale: 'Trajectories are pre-plotted by the Oversoul across thousands of years, not chosen lifetime by lifetime.'
         },
         {
-          text: 'Exactly one hundred lifetimes shared with soul family members.',
+          text: 'The route a bioship travels through the upper atmospheric overlays.',
           isCorrect: false,
-          rationale: 'One hundred refers to the number of souls in a pod cluster, not the number of lifetimes.'
+          rationale: 'Bioships house the Arc Pods; the trajectory is the avatar\'s mapped sequence of lives.'
         },
         {
-          text: 'Forty-eight lifetimes per every one thousand years of history.',
+          text: 'The sequence of resets that downgraded the original biological template.',
           isCorrect: false,
-          rationale: 'The total count is over 5,000 lifetimes, not a forty-eight-per-millennium schedule.'
+          rationale: 'Resets downgraded vessels; the trajectory is the Oversoul\'s first-person mapped life sequence.'
         }
       ]
     },
+
     {
       number: 19,
-      question: 'What does the trait of Altruism represent within the Fifteen Attributes of true Soul Architecture?',
-      hint: 'This trait involves helping others without looking for a return on the effort.',
+      question: 'What is Soul Layering?',
+      hint: 'Check the Key Terminology entry on layering.',
       options: [
         {
-          text: 'The ability to mentally manipulate spatial data to help others in need.',
-          isCorrect: false,
-          rationale: 'This describes spatial working memory rather than the behavioral trait of altruism.'
-        },
-        {
-          text: 'Unconditional cooperation and helping behavior without expectation of reward.',
+          text: 'The structural grouping and energetic interlacing of an individual soul across approximately one hundred other soul family members within an Arc Pod cluster.',
           isCorrect: true,
-          rationale:
-            'Altruism is unconditional cooperation and helping behavior performed without expectation of reward.'
+          rationale: 'Soul Layering is the structural grouping and energetic interlacing of a soul across its pod cluster of soul family members.'
         },
         {
-          text: 'The capacity to analyze the emotional states of others to provide aid.',
+          text: 'The folding of luminosity into dense energetic packets for undetected incarnation.',
           isCorrect: false,
-          rationale: 'While related, this more accurately describes empathy or Theory of Mind.'
+          rationale: 'That folding is Frequency Compression; layering is the grouping across the cluster.'
         },
         {
-          text: 'The strategic cooperation with other beings to ensure personal survival.',
+          text: 'The wipe of conscious mission memory imposed after the fall of Atlantis.',
           isCorrect: false,
-          rationale: 'Altruism is defined as helping without expectation of reward, rather than for personal gain.'
+          rationale: 'That wipe is the Clueless Protocol, not the layering of souls in a cluster.'
+        },
+        {
+          text: 'The recognition of soul family members when the density overlays dissipate.',
+          isCorrect: false,
+          rationale: 'That recognition is the Homecoming Reunion, not the structural grouping within the pod.'
         }
       ]
     },
+
     {
       number: 20,
-      question: 'What is the relationship between the Oversoul and the avatar in terms of spiritual luminosity?',
-      hint: 'Think of the avatar as a smaller extension of the larger, uncompressed consciousness.',
+      question: 'What is the Oversoul?',
+      hint: 'See the Key Terminology entry on the Oversoul.',
       options: [
         {
-          text: "The avatar contains the entire volume of the soul's luminosity at birth.",
-          isCorrect: false,
-          rationale: "The avatar only receives a small projected fraction of the Oversoul's total luminosity."
-        },
-        {
-          text: 'The avatar generates luminosity that is then stored by the Oversoul.',
-          isCorrect: false,
-          rationale: 'Luminosity originates from the Oversoul and is projected down, not the other way around.'
-        },
-        {
-          text: 'The Oversoul projects a small fraction of its total luminosity into the avatar.',
+          text: 'The complete, uncompressed higher-density consciousness existing in an Arc Pod, directing its incarnated avatar.',
           isCorrect: true,
-          rationale:
-            'The Oversoul projects only a small fraction of its total spiritual luminosity into the 3rd-density physical vessel.'
+          rationale: 'The Oversoul is the complete, uncompressed higher-density consciousness existing in an Arc Pod.'
         },
         {
-          text: 'The luminosity is shared equally between the avatar and artificial entities.',
+          text: 'The fraction of consciousness projected into a single physical vessel at birth.',
           isCorrect: false,
-          rationale:
-            'Luminosity belongs to the true soul, though a fraction may be temporarily allocated to animate NPCs.'
+          rationale: 'The projected fraction is the avatar\'s share; the Oversoul is the complete consciousness that directs it.'
+        },
+        {
+          text: 'The collective pool of light shared by every soul in a pod cluster.',
+          isCorrect: false,
+          rationale: 'The pool belongs to the cluster\'s shared luminosity; the Oversoul is one complete individual consciousness.'
+        },
+        {
+          text: 'The firmware baseline embedded in the biological vessel at birth.',
+          isCorrect: false,
+          rationale: 'The firmware is the Fifteen Attributes; the Oversoul is the higher-density consciousness in the pod.'
         }
       ]
     },
+
     {
       number: 21,
       question: 'True or False: Soul Architecture is dependent on biological evolution to emerge in reality.',
@@ -624,33 +610,32 @@ module.exports = {
     },
     {
       number: 22,
-      question: 'What is the consequence of the dissipation of artificial electromagnetic overlays?',
-      hint: 'This event triggers the collapse of lower-density inversions and harmonic restoration.',
+      question: 'Why can individual consciousness not be permanently erased by resets or parasitic intervention?',
+      hint: 'Look at Invulnerability to Total Erasure in Strategic Implications.',
       options: [
         {
-          text: 'The immediate destruction of the physical Taran biological archetype.',
-          isCorrect: false,
-          rationale:
-            'The biological template is a vehicle; the dropping of overlays restores its potential rather than destroying it.'
-        },
-        {
-          text: 'The automatic re-alignment of avatars with their high-density templates.',
+          text: 'Because true Soul Architecture is rooted in Source Creation and managed through high-density Arc Pods.',
           isCorrect: true,
-          rationale:
-            'Upon the dissipation of artificial electromagnetic overlays, incarnated avatars will automatically re-align with their high-density templates, collapsing lower-density inversions and restoring harmonic field function.'
+          rationale: 'Rooted in Source Creation and managed through high-density Arc Pods, consciousness survives resets and downgrading.'
         },
         {
-          text: 'The activation of a new Clueless Protocol to protect the planetary grid.',
+          text: 'Because avatars retain full conscious memory of their mission specifics.',
           isCorrect: false,
-          rationale: 'The dropping of overlays is the end of the Clueless Protocol, not the start of a new one.'
+          rationale: 'Mission memory is deactivated under the Clueless Protocol; survival rests on the architecture\'s Source rooting.'
         },
         {
-          text: 'The permanent loss of all memories stored within the 3rd-density avatar.',
+          text: 'Because custodial structures chose to preserve the four thousand templates.',
           isCorrect: false,
-          rationale: 'The dissolution of overlays actually restores memory and true alignment.'
+          rationale: 'Preservation is inherent to the architecture\'s design, not a custodial decision.'
+        },
+        {
+          text: 'Because each soul is layered across a cluster that hides it from detection.',
+          isCorrect: false,
+          rationale: 'Layering reduces visible luster for incarnation; erasure-resistance comes from the Source-rooted design.'
         }
       ]
     },
+
     {
       number: 23,
       question: 'How many unique soul architectures were formulated by the Proximal Sols from their foundational blueprint?',
@@ -703,33 +688,31 @@ module.exports = {
     },
     {
       number: 25,
-      question: 'What happens to the "borrowed light" when an artificial entity dies?',
-      hint: 'This light is only temporarily allocated to animate basic biological functions.',
+      question: 'Why are incarnated avatars immune to external interrogation or tactical compromise?',
+      hint: 'See Complete Mission Security in Strategic Implications.',
       options: [
         {
-          text: 'It is permanently dissipated into the lower-density planetary field.',
-          isCorrect: false,
-          rationale: 'The light is not lost but returns to its original source.'
-        },
-        {
-          text: 'It is absorbed by the custodial control structures to power their systems.',
-          isCorrect: false,
-          rationale:
-            'The light belongs to the true soul collective and returns there after the death of artificial entities.'
-        },
-        {
-          text: 'It is archived within the Arc Pods to be reused for future Mission Insertions.',
-          isCorrect: false,
-          rationale:
-            'The light is a shared fraction of luminosity that returns to the collective pool, not specifically the Arc Pod archives.'
-        },
-        {
-          text: 'It detaches and returns to the collective pool of true soul luminosity.',
+          text: 'Because the Clueless Protocol restricts conscious operational memory to the Oversoul within the Arc Pod.',
           isCorrect: true,
-          rationale:
-            'Upon the death of artificial entities, this borrowed light detaches and returns to the collective pool of true soul luminosity.'
+          rationale: 'With conscious operational memory restricted to the Oversoul, the avatar carries nothing it can surrender under interrogation.'
+        },
+        {
+          text: 'Because their Arc Trajectories are plotted from a first-person perspective.',
+          isCorrect: false,
+          rationale: 'Trajectories steer the avatar\'s path; interrogation immunity comes from the memory restriction.'
+        },
+        {
+          text: 'Because their luminosity is compressed below the threshold of hostile detection.',
+          isCorrect: false,
+          rationale: 'Compression hides the soul\'s luster during incarnation; it does not govern what the avatar knows.'
+        },
+        {
+          text: 'Because soul family members recognize and shield one another in the field.',
+          isCorrect: false,
+          rationale: 'Recognition belongs to the Homecoming Reunion; mission security rests on the Clueless Protocol.'
         }
       ]
     }
+
   ]
 };
