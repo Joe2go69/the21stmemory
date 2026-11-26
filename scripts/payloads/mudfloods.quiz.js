@@ -254,31 +254,32 @@ module.exports = {
     },
     {
       number: 10,
-      question: 'How was the repopulation of cleared Tartarian urban centers carried out after the burial phase?',
-      hint: 'Recall the transport and the artificial groups used to fill empty stone cities.',
+      question: 'What did the compacted slurry entomb?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'Repopulation clones and orphan trains were deployed across various continents to occupy the cleared cities.',
+          text: 'The ground floors, arched entrances, and sound masonry of Tartarian structures.',
           isCorrect: true,
-          rationale: 'Those populations were then indoctrinated through stage-managed cultural narratives.'
+          rationale: 'The slurry entombed them — compacted slurry, entombing the ground floors, arched entrances, and sound masonry of Tartarian structures.'
         },
         {
-          text: 'Rural tribes who survived the environmental wipe migrated naturally into the empty cities.',
+          text: 'The ley-line power nodes and aetheric traces alone.',
           isCorrect: false,
-          rationale: 'Repopulation was an orchestrated custodial effort rather than an organic migration of survivors.'
+          rationale: 'The nodes were blanketed by covering edifices, not entombed by slurry.'
         },
         {
-          text: 'Foreign merchant guilds were invited to buy the abandoned real estate.',
+          text: 'The upper floors and spires of Tartarian structures.',
           isCorrect: false,
-          rationale: 'The cities were filled with newly introduced populations rather than external merchant alliances.'
+          rationale: 'Upper masonry was melted; the ground floors were entombed.'
         },
         {
-          text: 'Subterranean enclaves preserved in deep vaults were released onto the surface at once.',
+          text: 'The medieval wood foundations of primitive builders.',
           isCorrect: false,
-          rationale: 'Surface cities were occupied through orphan trains and repopulation clones.'
+          rationale: 'Medieval wood is the fabricated cover story, not a real foundation.'
         }
       ]
     },
+
     {
       number: 11,
       question: 'Which fabricated cultural narrative accounted for grand stone architecture amid sparse populations in North America?',
@@ -308,31 +309,32 @@ module.exports = {
     },
     {
       number: 12,
-      question: 'What followed from combining record destruction with language confoundment events?',
-      hint: 'Focus on the ancient language and the technical knowledge lost with the records.',
+      question: 'Why was Tartarian architecture targeted for erasure?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'The public rapidly adopted standardized global trade languages.',
-          isCorrect: false,
-          rationale: 'Language confoundment destroyed ancestral knowledge rather than speeding global trade.'
-        },
-        {
-          text: 'Academic institutions built digital archives of the surviving pre-reset record.',
-          isCorrect: false,
-          rationale: 'Pre-reset records were destroyed to install amnesia rather than digitized for storage.'
-        },
-        {
-          text: 'Public education moved into monastic scriptoriums that preserved the old tongue.',
-          isCorrect: false,
-          rationale: 'Monastic preservation cuts against the destruction of pre-reset records.'
-        },
-        {
-          text: 'Language confoundment events permanently erased the Lemurian tongue and Tartarian technological understandings from public consciousness.',
+          text: 'Its splendour naturally resonated with the plane\'s ley-line nodes.',
           isCorrect: true,
-          rationale: 'The mudflood protocol works in tandem with those events and with the destruction of pre-reset records.'
+          rationale: 'The target was uncomfortable architectural splendour that naturally resonated with the plane\'s ley-line nodes.'
+        },
+        {
+          text: 'It stored the Custodians\' own administrative records.',
+          isCorrect: false,
+          rationale: 'Records were destroyed to erase memory, not stored in the architecture.'
+        },
+        {
+          text: 'It blocked the deployment of mudflood slurry.',
+          isCorrect: false,
+          rationale: 'The architecture was the wipe\'s target, not an obstacle to it.'
+        },
+        {
+          text: 'It housed the repopulation clone facilities.',
+          isCorrect: false,
+          rationale: 'Clone facilities are underground D.U.M.B. sites, not Tartarian buildings.'
         }
       ]
     },
+
     {
       number: 13,
       question: 'What is the standard time span for a major macro-reset cycle?',
