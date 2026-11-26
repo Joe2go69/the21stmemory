@@ -200,58 +200,60 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'How was the Air-to-Earth aetheric circuit completed in major Tartarian structures?',
-      hint: 'Think about foundational blocks anchored deep into the local water table.',
+      question: 'How many primary planetary nodes does the UVG 120 Grid map?',
+      hint: 'See the Key Terminology entry for the Becker-Hagens UVG 120 Grid.',
       options: [
         {
-          text: 'By erecting heavy wattle-and-daub perimeter walls around urban energy nodes.',
-          isCorrect: false,
-          rationale: 'Heavy masonry and low-vibration infrastructure over primary energy nodes deaden planetary resonance.'
-        },
-        {
-          text: 'By aligning building entrances with the holographic projection array surrounding the Moon.',
-          isCorrect: false,
-          rationale: 'The Moon is an artificial spherical base shielded by a holographic projection whose frequencies disrupted TPC mirrors.'
-        },
-        {
-          text: 'In major structures 3-to-4-ton foundational blocks were anchored 40 feet deep into the local water table completing an Air-to-Earth aetheric circuit.',
+          text: '60 primary planetary nodes and ley line arteries.',
           isCorrect: true,
-          rationale: 'That anchorage let the building function as a self-sustaining power generator.'
+          rationale: 'It is the geometric lattice grid mapping the 60 primary planetary nodes and ley line arteries.'
         },
         {
-          text: 'By coating interior walls with liquid red mercury derived from cinnabar ore.',
+          text: '120 primary planetary nodes and ley line arteries.',
           isCorrect: false,
-          rationale: 'Red mercury derived from cinnabar ore backed TPC mirrors rather than coating interior walls.'
+          rationale: '120 is the grid\'s designation, not its node count.'
+        },
+        {
+          text: '40 primary planetary nodes at grid intersections.',
+          isCorrect: false,
+          rationale: 'No such count appears in the entry.'
+        },
+        {
+          text: 'Seven primary planetary nodes under the domes.',
+          isCorrect: false,
+          rationale: 'The grid maps 60 nodes, not seven.'
         }
       ]
     },
+
     {
       number: 9,
-      question: 'What functional capability characterized the living fabric of Tartarian building interiors?',
-      hint: 'Consider stone rooms and wall recesses that regulated heat and food without fuel or piping.',
+      question: 'From what ore is Red Mercury extracted?',
+      hint: 'See the Key Terminology entry for Red Mercury.',
       options: [
         {
-          text: 'Automated mechanical boilers built into floorboards to generate steam-driven heating.',
-          isCorrect: false,
-          rationale: 'Wall-embedded spouts discharged instant hot water continuously without boilers or visible piping.'
-        },
-        {
-          text: 'Stone rooms that naturally warmed themselves and unadorned stone wall recesses that prevented dairy and bread from perishing.',
+          text: 'Cinnabar ore.',
           isCorrect: true,
-          rationale: 'Interiors functioned as a living fabric that provided automated climate control and food preservation without external fuels or mechanical appliances.'
+          rationale: 'Red Mercury is a highly energetic, liquid-metal amalgam extracted from cinnabar ore used as the core conductive element in TPC mirrors.'
         },
         {
-          text: 'Wall-embedded electrical wires connected to centralized coal power plants.',
+          text: 'Quartz granite from nodal quarries.',
           isCorrect: false,
-          rationale: 'Aetheric energy is the natural non-entropic current harvested from planetary nodal points.'
+          rationale: 'Quartz granite is the Ashlar masonry material, not Red Mercury\'s source.'
         },
         {
-          text: 'Continuous atmospheric sound waves at 440 Hz that sterilized indoor living spaces.',
+          text: 'Lunar surface deposits shielded by holograms.',
           isCorrect: false,
-          rationale: 'The 440 Hz standard replaces natural 432 Hz Solfeggio harmonics and induces cognitive dissonance.'
+          rationale: 'The Moon\'s role is frequency emission, not ore extraction.'
+        },
+        {
+          text: 'Petrified organic matter from reset zones.',
+          isCorrect: false,
+          rationale: 'Red Mercury comes from cinnabar ore.'
         }
       ]
     },
+
     {
       number: 10,
       question: 'What primary function was served by Time-Phase Conjugated (TPC) Mirrors in Tartarian society?',
@@ -281,139 +283,144 @@ module.exports = {
     },
     {
       number: 11,
-      question: 'What directly caused the Mirror Madness epidemics following the 1728 reset?',
-      hint: 'Look at the altered frequencies emitted by the Moon that made TPC mirrors feedback.',
+      question: 'What did the nodal grid power and transmit across Tartaria?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'The complete draining of planetary water tables beneath major cathedral power generators.',
-          isCorrect: false,
-          rationale: 'Water-table anchorage completed Air-to-Earth circuits while Mirror Madness followed a lunar frequency shift.'
-        },
-        {
-          text: 'The replacement of 432 Hz Solfeggio tuning with 440 Hz musical standards.',
-          isCorrect: false,
-          rationale: 'The 440 Hz standard disrupts harmonic energy harvesting while Mirror Madness was caused by modified lunar frequencies.'
-        },
-        {
-          text: 'The physical destruction of all cinnabar ore reserves across the Iberian Peninsula.',
-          isCorrect: false,
-          rationale: 'Red mercury still came from cinnabar ore and the mirror failure came from the frequency shift.'
-        },
-        {
-          text: 'The Custodians modified the lunar frequencies emitted by the Moon causing TPC mirrors worldwide to feedback and malfunction.',
+          text: 'Living infrastructure and instantaneous communication, fostering global coherence under a single spoken language.',
           isCorrect: true,
-          rationale: 'That frequency shift sparked the historic Mirror Madness epidemics that forced thousands of users into asylums.'
+          rationale: 'The grid served to power living infrastructure, transmit instantaneous communication, and foster global coherence under a single spoken language.'
+        },
+        {
+          text: 'Density suppression and 440 Hz noise broadcast over the primary nodes.',
+          isCorrect: false,
+          rationale: 'Those are the post-reset uses imposed over the nodes.'
+        },
+        {
+          text: 'Financial currency and banking networks run through repurposed shells.',
+          isCorrect: false,
+          rationale: 'Banking is what the emptied shells were repurposed into after the reset.'
+        },
+        {
+          text: 'Lunar frequency transmission and mirror feedback across the network.',
+          isCorrect: false,
+          rationale: 'Mirror feedback was a post-reset malfunction, not the grid\'s function.'
         }
       ]
     },
+
     {
       number: 12,
-      question: 'Why was the universal Lemurian Tongue deliberately fractured into thousands of distinct languages?',
-      hint: 'Think about how breaking one spoken language isolates populations and blocks collective resistance.',
+      question: 'Using what were the Square Mile\'s Ashlar buildings constructed?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'To eliminate cognitive dissonance caused by exposure to natural 432 Hz acoustic vibrations.',
-          isCorrect: false,
-          rationale: 'Natural 432 Hz Solfeggio harmonics are what the imposed 440 Hz standard was designed to replace.'
-        },
-        {
-          text: 'To enforce uniform standardized financial accounting across repurposed bank buildings.',
-          isCorrect: false,
-          rationale: 'Financial Banks transformed aetheric current into monetary currency while language fracture targeted human unity.'
-        },
-        {
-          text: 'To hide the physical locations of deep underground repopulation bases from surface survivors.',
-          isCorrect: false,
-          rationale: 'Underground DUMB bases and Orphan Trains belong to repopulation after resets rather than to the Babel fracture.'
-        },
-        {
-          text: 'The control structure deliberately fractured the Lemurian Tongue to disrupt human unity and prevent collective resistance.',
+          text: 'Sound levitation and aetheric principles.',
           isCorrect: true,
-          rationale: 'The fracture into over 7,170 distinct languages isolated populations and established artificial cultural barriers.'
+          rationale: 'They are massive Tartarian Ashlar masonry buildings that were constructed centuries prior using sound levitation and aetheric principles.'
+        },
+        {
+          text: 'Wooden framing and wattle-and-daub.',
+          isCorrect: false,
+          rationale: 'That is the mainstream claim the density math shows to be impossible.'
+        },
+        {
+          text: 'Hammers, chisels, and physical iron tools.',
+          isCorrect: false,
+          rationale: 'Ashlar masonry was dressed and positioned using harmonic sound frequencies rather than physical tools.'
+        },
+        {
+          text: 'Modern Manhattan construction methods.',
+          isCorrect: false,
+          rationale: 'Manhattan is the comparison for the required building height, not the method.'
         }
       ]
     },
+
     {
       number: 13,
-      question: 'Where does Tartarian written script remain visible after it was scrubbed from public books?',
-      hint: 'Recall the raised relief castings that still carry the script.',
+      question: 'Under what was ground-level architecture buried during the resets?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'Encoded inside the holographic projection array surrounding the Moon.',
-          isCorrect: false,
-          rationale: 'The holographic projection shields the artificial spherical base of the Moon rather than storing Tartarian script.'
-        },
-        {
-          text: 'Tartarian written script remains visible only in raised relief castings on ancient ceremonial bells.',
+          text: 'Mud layers.',
           isCorrect: true,
-          rationale: 'The script was scrubbed from all public books and survived in those raised relief castings.'
+          rationale: 'The resets worked to liquidate the adult population and bury ground-level architecture under mud layers.'
         },
         {
-          text: 'Embedded within the deepest soil layers of Terra Preta in the Amazon Basin.',
+          text: 'Engineered flood waters.',
           isCorrect: false,
-          rationale: 'Terra Preta contains biochar animal bones and crushed terracotta pot shards acting as microbial reefs.'
+          rationale: 'Floods were a liquidation method; the burial was under mud.'
         },
         {
-          text: 'Carved onto the foundational Ashlar masonry of modern airport terminals.',
+          text: 'Mini-ice age glacial deposits.',
           isCorrect: false,
-          rationale: 'Airports were erected over grid coordinates to suppress positive planetary frequencies and broadcast entropic noise.'
+          rationale: 'Mini-ice ages were deployed against the population, not as the burial layer.'
+        },
+        {
+          text: 'Demolition rubble from energy fires.',
+          isCorrect: false,
+          rationale: 'The fires liquidated; mud layers buried the architecture.'
         }
       ]
     },
+
     {
       number: 14,
-      question: 'What defines the composition of Terra Preta soil found throughout the Amazon Basin floor?',
-      hint: 'Identify the cultivated living soil that covers most of the basin floor.',
+      question: 'What does restoring Tartarian Memory equip souls to resume?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'Terra Preta is an artificially cultivated living soil containing biochar animal bones and crushed terracotta pot shards acting as microbial reefs.',
+          text: 'Harmonic steward function over the physical plane.',
           isCorrect: true,
-          rationale: 'Over 90 percent of the basin floor is covered by this Black Earth up to two meters deep.'
+          rationale: 'It equips souls to recognize their true soul family, navigate the transition without trauma, and resume harmonic steward function over the physical plane.'
         },
         {
-          text: 'A dense clay compound deposited by artificial post-reset floods to bury architecture.',
+          text: 'Institutional academic authority over history.',
           isCorrect: false,
-          rationale: 'Artificial floods buried ground-level architecture under mud layers while Terra Preta was cultivated as living soil.'
+          rationale: 'Restoring the memory strips away reliance on that authority.'
         },
         {
-          text: 'A naturally occurring volcanic ash layer formed during artificial mini-ice age events.',
+          text: 'The reincarnation and Loosh harvesting loop.',
           isCorrect: false,
-          rationale: 'Terra Preta is an artificially cultivated living soil of a pre-Tartarian engineered garden rather than volcanic ash.'
+          rationale: 'That loop is what the erasure was designed to maintain.'
         },
         {
-          text: 'A synthetic liquid-metal substrate refined from cinnabar ore extraction.',
+          text: 'Financial stewardship through the Banks.',
           isCorrect: false,
-          rationale: 'Cinnabar ore yields red mercury for TPC mirrors rather than the Amazon soil matrix.'
+          rationale: 'The Banks are the repurposed shells of the control apparatus.'
         }
       ]
     },
+
     {
       number: 15,
-      question: 'Which three elements form the essential symbiotic loop supporting Brazil nut trees in the Amazon Basin?',
-      hint: 'Consider the insect plant and rodent triad required by that canopy giant.',
+      question: 'What happened to the civilization\'s physical remnants after the resets?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'Quartz granite orchid bees and peach palms form the three-way symbiotic loop that supports Brazil nut trees.',
-          isCorrect: false,
-          rationale: 'The peach palm is a domesticated food crop in the same garden and does not complete the Brazil nut loop.'
-        },
-        {
-          text: 'A three-way symbiotic loop between orchid bees wild orchids and agouti rodents supports the Brazil nut trees.',
+          text: 'They were systematically re-framed, rebranded, or physically demolished.',
           isCorrect: true,
-          rationale: 'That highly improbable loop is required by the canopy giant inside the self-regenerating soil matrix.'
+          rationale: 'Remnants were physically demolished through orchestrated wars, energy weapons, and fabricated historical timelines designed to induce global spiritual amnesia.'
         },
         {
-          text: 'Terra Preta soil agouti rodents and Lemurian acoustic bells form the three-way symbiotic loop that supports Brazil nut trees.',
+          text: 'They were preserved as protected heritage sites.',
           isCorrect: false,
-          rationale: 'Ceremonial bells preserve Tartarian written script and are not part of the botanical loop.'
+          rationale: 'The remnants were re-framed, rebranded, or demolished instead.'
         },
         {
-          text: 'Cinnabar ore agouti rodents and piezoelectric quartz form the three-way symbiotic loop that supports Brazil nut trees.',
+          text: 'They were converted into museums of Tartarian history.',
           isCorrect: false,
-          rationale: 'Cinnabar ore and piezoelectric quartz belong to mirrors and sound masonry rather than the Brazil nut loop.'
+          rationale: 'Their true history was concealed, not exhibited.'
+        },
+        {
+          text: 'They were relocated into underground bases.',
+          isCorrect: false,
+          rationale: 'The bases held taken children, not the demolished edifices.'
         }
       ]
     },
+
     {
       number: 16,
       question: 'Which methods were deployed during reset harvests to liquidate populations and obscure ground-level architecture?',
@@ -443,31 +450,32 @@ module.exports = {
     },
     {
       number: 17,
-      question: 'How were surplus child populations re-introduced to surface society around 1900 following a reset?',
-      hint: 'Recall the underground origin and the trains that returned conditioned children to the surface.',
+      question: 'From where is Aetheric Energy harvested?',
+      hint: 'See the Key Terminology entry for Aetheric Energy.',
       options: [
         {
-          text: 'They were discovered living in self-sustaining stone rooms within the Amazon Basin.',
-          isCorrect: false,
-          rationale: 'The Amazon Basin is a pre-Tartarian engineered garden while surface return used Orphan Trains.'
-        },
-        {
-          text: 'They were raised in Moorish geometric palaces and trained in piezoelectric sound masonry.',
-          isCorrect: false,
-          rationale: 'The Moorish Metropolis was defeated in 1887 and its population was reset and stripped of technology.'
-        },
-        {
-          text: 'They were transported via anti-gravity levitation craft from the Iberian Peninsula.',
-          isCorrect: false,
-          rationale: 'Anti-gravity levitation craft belonged to the pre-reset Moorish Metropolis rather than the 1900 return.'
-        },
-        {
-          text: 'Surplus children taken into underground DUMB bases were cloned using stem cell extraction subjected to fear-based conditioning and re-introduced to the surface via Orphan Trains.',
+          text: 'Planetary nodal points.',
           isCorrect: true,
-          rationale: 'Those repopulated populations then received a blank-slate history Rockefeller-funded schooling and primitive industrial technology.'
+          rationale: 'Aetheric Energy is the natural, non-entropic ambient electrical current harvested from planetary nodal points.'
+        },
+        {
+          text: 'Lunar frequencies emitted by the Moon.',
+          isCorrect: false,
+          rationale: 'Lunar frequencies disrupted the mirrors; the current comes from nodal points.'
+        },
+        {
+          text: 'Cinnabar ore deposits in Tartarian mines.',
+          isCorrect: false,
+          rationale: 'Cinnabar yields Red Mercury, not the ambient current.'
+        },
+        {
+          text: 'Crystalline healing temples after destruction.',
+          isCorrect: false,
+          rationale: 'The temples stood over the nodes; the current is harvested from the nodes themselves.'
         }
       ]
     },
+
     {
       number: 18,
       question: 'What structures were built directly over the primary intersections of the Becker-Hagens UVG 120 Grid after the reset?',
@@ -578,31 +586,32 @@ module.exports = {
     },
     {
       number: 22,
-      question: 'How do human souls reconnect with their oversoul during the awakening process?',
-      hint: 'Focus on innate Taran attributes retained in human DNA and the Arc Pods.',
+      question: 'What event fragmented the original universal language?',
+      hint: 'See the Key Terminology entry for Lemurian Tongue.',
       options: [
         {
-          text: 'By reconstructing wattle-and-daub architecture over primary planetary nodal points.',
-          isCorrect: false,
-          rationale: 'Wattle-and-daub is the impossible wooden claim about London rather than the path back to the oversoul.'
-        },
-        {
-          text: 'Human DNA retains the innate Taran attributes and enables individuals to reconnect with their oversoul in the Arc Pods.',
+          text: 'The confound-and-rule linguistic fragmentation event known as Babel.',
           isCorrect: true,
-          rationale: 'Those attributes include abstract thinking metacognition and symbolic communication and they let individuals bypass artificial mental cages.'
+          rationale: 'It was the confound-and-rule linguistic fragmentation event known as Babel.'
         },
         {
-          text: 'By exposing TPC mirrors to liquid red mercury extracted from cinnabar ore.',
+          text: 'The 1728 reset and lunar frequency shift.',
           isCorrect: false,
-          rationale: 'Red mercury is the conductive element in TPC mirrors for global transmission rather than oversoul reconnection.'
+          rationale: 'That shift disrupted the TPC mirrors, not the language.'
         },
         {
-          text: 'By re-instituting 440 Hz electromagnetic simulation fields across urban centers.',
+          text: 'The injection of the 18,745 manuscripts.',
           isCorrect: false,
-          rationale: 'Entropic 440 Hz electromagnetic noise suppresses planetary frequencies and induces cognitive dissonance.'
+          rationale: 'The manuscripts fabricated the Dark Ages gap, not the language split.'
+        },
+        {
+          text: 'The World Fairs burnings.',
+          isCorrect: false,
+          rationale: 'The burnings liquidated populations and architecture during resets.'
         }
       ]
     },
+
     {
       number: 23,
       question: 'What occurs as artificial electromagnetic simulation fields dissolve during the Great Spiritual Awakening?',
