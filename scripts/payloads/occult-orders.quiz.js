@@ -325,31 +325,32 @@ module.exports = {
     },
     {
       number: 13,
-      question: 'The Cestui Que Vie system is used by Occult Orders to interface with which of the following?',
-      hint: 'Think about how a living person is turned into a corporate asset at birth.',
+      question: 'What is woven into soul-selling contracts?',
+      hint: 'See Soul-Selling Contracts, Clones, and Hosted Entities.',
       options: [
         {
-          text: 'The distribution of Reform Club wealth outward to the general public through open charitable endowments.',
-          isCorrect: false,
-          rationale: 'The Cestui Que Vie birth certificate bond system is the economic capture of living souls, used for financial usury and debt traps.'
-        },
-        {
-          text: 'The energetic alignment of planetary ley lines through coordinated ritual at private political venues.',
-          isCorrect: false,
-          rationale: 'This system is the economic capture of living souls through the Cestui Que Vie birth certificate bond system.'
-        },
-        {
-          text: 'The ecological restoration of previous Tartarian masonry under the direction of scientific gatekeepers.',
-          isCorrect: false,
-          rationale: 'The interface is financial and legal: the economic capture of living souls through birth certificate bonds.'
-        },
-        {
-          text: 'Occult Orders interface with the economic capture of living souls through the Cestui Que Vie birth certificate bond system.',
+          text: 'Microprinting — minute demonic terminology and legalistic spells woven into what appears to be a solid baseline on paper.',
           isCorrect: true,
-          rationale: 'These secret fraternities interface directly with the economic capture of living souls through the Cestui Que Vie birth certificate bond system.'
+          rationale: 'Contracts incorporate microprinting — minute demonic terminology and legalistic spells woven into the baseline.'
+        },
+        {
+          text: 'Blood-oath clauses and soul-selling terms printed in standard contract type across the document.',
+          isCorrect: false,
+          rationale: 'The hidden layer is microprinting, not standard-type clauses.'
+        },
+        {
+          text: 'Specialized handshakes and occult symbolism embossed decoratively across the contract paper.',
+          isCorrect: false,
+          rationale: 'Handshakes identify initiates; the contract\'s trap is its microprinted spells.'
+        },
+        {
+          text: 'The initiate\'s personal bond valuation drawn from their birth certificate trust account.',
+          isCorrect: false,
+          rationale: 'Valuations belong to the bond system, not the contract\'s printed baseline.'
         }
       ]
     },
+
     {
       number: 14,
       question: 'What is the consequence for an initiate who attempts to break the contract within The Club?',
@@ -487,31 +488,32 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'Which CIA leader utilized Freemasonic chains of command within senior military ranks to facilitate human trafficking routes?',
-      hint: 'The leadership example sits inside covert intelligence networks and senior military ranks.',
+      question: 'When physical evidence contradicting the established narrative surfaces, what are initiates within academic and scientific institutions deployed to do?',
+      hint: 'See Institutional Gatekeeping and Narrative Creation.',
       options: [
         {
-          text: 'William Colby utilized Freemasonic chains of command within senior military ranks to facilitate human trafficking routes.',
-          isCorrect: false,
-          rationale: 'The CIA under leadership like George Bush Sr. utilized Freemasonic chains of command within senior military ranks to facilitate human trafficking routes.'
-        },
-        {
-          text: 'Allen Dulles utilized Freemasonic chains of command within senior military ranks to facilitate human trafficking routes.',
-          isCorrect: false,
-          rationale: 'The named CIA leadership for these Freemasonic chains of command within senior military ranks is George Bush Sr.'
-        },
-        {
-          text: 'J. Edgar Hoover utilized Freemasonic chains of command within senior military ranks to facilitate human trafficking routes.',
-          isCorrect: false,
-          rationale: 'The covert intelligence example is the CIA under leadership like George Bush Sr., using Freemasonic chains of command within senior military ranks.'
-        },
-        {
-          text: 'George Bush Sr. utilized Freemasonic chains of command within senior military ranks to facilitate human trafficking routes.',
+          text: 'Debate, discredit, or reframe the discovery.',
           isCorrect: true,
-          rationale: 'Covert intelligence networks, such as the CIA under leadership like George Bush Sr., utilized Freemasonic chains of command within senior military ranks to transport illicit products, manage black-budget operations, and facilitate human trafficking routes across continents.'
+          rationale: 'History is a deliberate fiction designed to sever human consciousness from past technological and spiritual realities; contradicting evidence is debated, discredited, or reframed.'
+        },
+        {
+          text: 'Verify and publish the discovery promptly.',
+          isCorrect: false,
+          rationale: 'Gatekeepers suppress the discovery rather than publishing it.'
+        },
+        {
+          text: 'Preserve the evidence in the bone vaults.',
+          isCorrect: false,
+          rationale: 'The vaults hold reset remains, not suppressed evidence.'
+        },
+        {
+          text: 'Present it to parliament at the Reform Club.',
+          isCorrect: false,
+          rationale: 'The clubs coordinate policy; evidence is handled by institutional gatekeepers.'
         }
       ]
     },
+
     {
       number: 20,
       question: 'True or False: The Reform Club and the Charlton Club provided spaces where political actors could align legislative agendas without public awareness.',
