@@ -322,12 +322,21 @@ function renderSupportPage(footerData, options = {}) {
           </article>`
     : '';
 
+  const paypalMedia = cardMedia(paypal?.image);
+  const paypalQrSrc = paypal?.qrImage ? withBasePath(paypal.qrImage, basePath) : '';
+  const paypalQr = qrPlate(
+    paypalQrSrc,
+    paypal?.qrAlt || 'PayPal QR code for 21st Memory donations',
+    500,
+    500
+  );
   const paypalCard = paypal
-    ? `<article class="support-give-card memory-card static-card support-give-card--paypal">
+    ? `<article class="support-give-card memory-card static-card support-give-card--paypal${paypalMedia ? ' has-media' : ''}${paypalQrSrc ? ' support-give-card--qr' : ''}">
+            ${paypalMedia}
             <span class="support-give-icon support-give-icon--heart" aria-hidden="true">${SITE_ICON_SVGS.heart}</span>
             <span class="support-give-label">${paypal.label || 'PayPal'}</span>
             <p class="support-give-desc">${paypal.hint}</p>
-            ${giveActions(`
+            ${giveActions(`${paypalQr}
               <div class="support-give-actions">
                 <a href="${paypal.href}" target="_blank" rel="noopener noreferrer" class="btn-primary">
                   <span>${paypal.buttonText || 'Give on PayPal'}</span>
