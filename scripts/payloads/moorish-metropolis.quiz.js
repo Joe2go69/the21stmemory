@@ -92,85 +92,88 @@ module.exports = {
     },
     {
       number: 4,
-      question: 'How did piezoelectric granite function within Moorish-Tartar architecture?',
-      hint: 'Consider acoustic dressing, structural load, and clean current.',
+      question: 'Why were conventional gravitational theories fabricated?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'It acted as a thermal insulator that prevented heat from escaping vaulted resonance chambers during the long winter months each year.',
-          isCorrect: false,
-          rationale: 'Resonance chambers held acoustic warmth, while piezoelectric granite generated current under load.'
-        },
-        {
-          text: 'It absorbed atmospheric moisture to maintain steady humidity levels across underground storage vaults beneath every palace hall.',
-          isCorrect: false,
-          rationale: 'Water courses sat in the acoustic circuitry, and the granite itself was dressed to produce current.'
-        },
-        {
-          text: 'It generated clean electric current when compressed under heavy architectural loads after being dressed with specific solfeggio scales.',
+          text: 'To justify physical confinement on a globe model.',
           isCorrect: true,
-          rationale: 'Piezoelectric granite was dressed using specific solfeggio scales to generate clean electric current when compressed under heavy architectural loads.'
+          rationale: 'The craft demonstrate that conventional gravitational theories were fabricated primarily to justify physical confinement on a globe model.'
         },
         {
-          text: 'It neutralized electromagnetic fields to shield residents from high-frequency atmospheric radiation inside the walled cities.',
+          text: 'To conceal the existence of levitation craft.',
           isCorrect: false,
-          rationale: 'The masonry was built to harvest atmospheric charge, not to block the aetheric field.'
+          rationale: 'Concealment was served by confiscation; the theories\' stated purpose was confinement.'
+        },
+        {
+          text: 'To explain the atmospheric density gradient.',
+          isCorrect: false,
+          rationale: 'The gradient is what the craft neutralize, not the theories\' purpose.'
+        },
+        {
+          text: 'To justify the confiscation of Moorish technology.',
+          isCorrect: false,
+          rationale: 'Confiscation followed the clearances; the theories justified confinement.'
         }
       ]
     },
+
     {
       number: 5,
-      question: 'What mechanical purpose was served by the copper and brass rods installed on domes and spires?',
-      hint: 'Focus on how elevated architecture meets the atmospheric field.',
+      question: 'Using what is Free Aetheric Energy extracted from the atmospheric field?',
+      hint: 'See the Key Terminology entry for Free Aetheric Energy.',
       options: [
         {
-          text: 'They anchored structural cables required to support anti-gravity craft during docking at palace towers.',
-          isCorrect: false,
-          rationale: 'Domes and spires belonged to the power circuit, and the rods were conductors rather than docking ties.'
-        },
-        {
-          text: 'They collected electrostatic and aetheric charge from the atmosphere through copper and brass conducting rods.',
+          text: 'Specialized building spires, domes, and resonator circuitry.',
           isCorrect: true,
-          rationale: 'Domes and spires were fitted with copper and brass conducting rods to collect electrostatic and aetheric charge from the atmosphere.'
+          rationale: 'It is power extracted directly from the atmospheric field using specialized building spires, domes, and resonator circuitry.'
         },
         {
-          text: 'They transmitted radio broadcasts across municipal centers for long-distance audio communication between cities.',
+          text: 'Piezoelectric granite dressed by solfeggio scales.',
           isCorrect: false,
-          rationale: 'The rods gathered atmospheric charge for continuous wireless power, heating, and harmonic healing.'
+          rationale: 'The granite generates current under load; extraction uses spires, domes, and circuitry.'
         },
         {
-          text: 'They reflected solar radiation to prevent structural overheating in desert environments around Granada.',
+          text: 'Resonance chambers and water courses.',
           isCorrect: false,
-          rationale: 'Spires and domes collected electrostatic and aetheric charge rather than reflecting solar heat.'
+          rationale: 'Those are internal circuitry elements, not the extraction apparatus.'
+        },
+        {
+          text: 'Anti-gravity levitation craft in flight.',
+          isCorrect: false,
+          rationale: 'The craft are transport, not energy extraction structures.'
         }
       ]
     },
+
     {
       number: 6,
-      question: 'What operational benefit did vaulted stone resonance chambers provide in Moorish architecture?',
-      hint: 'Think about standing acoustic frequencies inside closed stone rooms.',
+      question: 'How did the levitation craft operate without noise or exhaust?',
+      hint: 'See Anti-Gravity Dynamics and Cine Film Evidence.',
       options: [
         {
-          text: 'They amplified voice signals to allow long-distance audio communication across urban centers without any wired network.',
-          isCorrect: false,
-          rationale: 'Acoustic circuitry served environmental warmth, hot water, and food storage rather than citywide voice links.'
-        },
-        {
-          text: 'They dampened atmospheric vibrations to protect citizens from high-density sound levitation craft passing overhead.',
-          isCorrect: false,
-          rationale: 'The chambers maintained beneficial acoustic frequencies instead of damping them.'
-        },
-        {
-          text: 'They maintained acoustic frequencies that provided environmental warmth, unperishing food storage, and continuous hot water.',
+          text: 'By modulating local electromagnetic frequencies, neutralizing the atmospheric density gradient.',
           isCorrect: true,
-          rationale: 'Vaulted stone rooms were designed to maintain acoustic frequencies that provided environmental warmth, unperishing food storage, and continuous hot water.'
+          rationale: 'The craft operated by modulating local electromagnetic frequencies, neutralizing the atmospheric density gradient without acoustic noise or thermal exhaust.'
         },
         {
-          text: 'They trapped subterranean geothermal steam to supply mechanical pressure for industrial manufacturing in the cities.',
+          text: 'By acoustic levitation fields and solfeggio scales.',
           isCorrect: false,
-          rationale: 'Warmth and hot water came from maintained acoustic frequencies, not from trapped geothermal steam.'
+          rationale: 'Acoustic methods dressed stone; the craft modulate electromagnetic frequencies.'
+        },
+        {
+          text: 'By combustion engines burning fossil fuels.',
+          isCorrect: false,
+          rationale: 'Moorish societies functioned without fossil fuels or combustion engines.'
+        },
+        {
+          text: 'By piezoelectric compression under load.',
+          isCorrect: false,
+          rationale: 'Compression generates current in the masonry, not craft propulsion.'
         }
       ]
     },
+
     {
       number: 7,
       question: 'What does the geodesic sphere (xiuqiu) held by the male Fu Dog sculpture explicitly represent?',
@@ -227,85 +230,88 @@ module.exports = {
     },
     {
       number: 9,
-      question: 'What action was taken between 1840 and 1850 to create a fictitious 1,000-year historical gap?',
-      hint: 'Think about what was placed into European libraries during that decade.',
+      question: 'How much fake history was inserted to hide Tartarian civilization\'s recency?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'The mass distribution of fabricated globe maps showing altered continental boundaries and coastlines across Europe.',
-          isCorrect: false,
-          rationale: 'The decade was used to insert fake medieval manuscripts into European libraries.'
-        },
-        {
-          text: 'The introduction of mechanical printing presses to overwrite classical Greek philosophy texts in university libraries.',
-          isCorrect: false,
-          rationale: 'The erasure used pristine fake medieval manuscripts, not a press run against Greek philosophy.'
-        },
-        {
-          text: 'Between 1840 and 1850 fake medieval manuscripts were inserted into European libraries as exactly 18,745 pristine copies.',
+          text: 'Up to 2,000 years.',
           isCorrect: true,
-          rationale: 'Between 1840 and 1850, exactly 18,745 pristine, fake medieval manuscripts were inserted into European libraries.'
+          rationale: 'They were subsequently re-dated during the deliberate insertion of up to 2,000 years of fake history.'
         },
         {
-          text: 'The systematic destruction of all European library collections and stone monuments across every major capital city.',
+          text: 'Up to 1,000 years.',
           isCorrect: false,
-          rationale: 'Libraries received forged medieval manuscripts, while Tartarian written scripts were the records destroyed.'
+          rationale: 'The thousand years is the fabricated gap figure, not the total insertion.'
+        },
+        {
+          text: 'Exactly 700 years.',
+          isCorrect: false,
+          rationale: '700 to 1,000 years is the age of the structures themselves.'
+        },
+        {
+          text: 'Approximately 150 years.',
+          isCorrect: false,
+          rationale: '150 years is roughly when the erasure occurred, not the inserted span.'
         }
       ]
     },
+
     {
       number: 10,
-      question: 'What was the primary consequence of shifting global musical tuning from 432Hz to 440Hz?',
-      hint: 'Focus on the acoustic resonance Tartarian devices required.',
+      question: 'What happened to the population and technology after the footage was captured?',
+      hint: 'See Anti-Gravity Dynamics and Cine Film Evidence.',
       options: [
         {
-          text: 'It caused atmospheric electromagnetic fields to collapse into localized mudfloods that buried the great metropolitan centers.',
-          isCorrect: false,
-          rationale: 'Mudfloods were engineered with the reset campaigns, while the tuning shift cut acoustic resonance.'
-        },
-        {
-          text: 'Global tuning moved to the dissonant 440Hz standard, severing the acoustic resonance required to operate Tartarian aetheric technology.',
+          text: 'The population was forcibly cleared and the technology confiscated.',
           isCorrect: true,
-          rationale: 'Global musical tuning moved from the natural 432Hz solfeggio scale to the dissonant 440Hz standard, severing the acoustic resonance required to operate Tartarian aetheric technology.'
+          rationale: 'The footage documents high-technology Moorish urban centers and operational levitation vessels before the population was forcibly cleared and the technology confiscated.'
         },
         {
-          text: 'It disabled the anti-gravity propulsion systems of modern combustion vehicles that were still operating inside the walled cities.',
+          text: 'The footage was inserted into European libraries.',
           isCorrect: false,
-          rationale: 'The tuning shift severed resonance for Tartarian aetheric technology, and combustion vehicles are outside that circuit.'
+          rationale: 'Libraries received fabricated manuscripts, not the cine film.'
         },
         {
-          text: 'It accelerated the physical degradation of piezoelectric stone structures across Europe, Africa, and the whole Iberian Peninsula.',
+          text: 'The vessels were re-dated as medieval constructions.',
           isCorrect: false,
-          rationale: 'Stone cities were broken by military campaigns, energy-weapon fires, and mudfloods, while 440Hz cut the operating resonance.'
+          rationale: 'Re-dating was applied to the palaces and timelines, not the vessels.'
+        },
+        {
+          text: 'The population was displaced into Al-Andalus.',
+          isCorrect: false,
+          rationale: 'Al-Andalus was itself a Moorish kingdom facing the same erasure.'
         }
       ]
     },
+
     {
       number: 11,
-      question: 'Which global power grid model did Moorish architects use to align major metropolitan cities?',
-      hint: 'Name the planetary network of primary and secondary nodes.',
+      question: 'What do Reset Sequences forcibly reduce human survivors to?',
+      hint: 'See the Key Terminology entry for Reset Sequence.',
       options: [
         {
-          text: 'The Fibonacci Sequence Matrix used as a geographic map of every city on the Earth.',
-          isCorrect: false,
-          rationale: 'The Fibonacci series and sacred geometry set proportions, while city sites followed the Becker Hagens UVG120 Grid.'
-        },
-        {
-          text: 'Every major Moorish city was built directly over nodes on the Becker Hagens UVG120 Grid.',
+          text: 'Primitive conditions.',
           isCorrect: true,
-          rationale: 'Every major Moorish city was built directly over a primary or secondary node on the Becker Hagens UVG120 Grid.'
+          rationale: 'They destroy high civilisations, collapse technological timelines, and forcibly reduce human survivors to primitive conditions.'
         },
         {
-          text: 'The Solfeggio Resonant Meridian System drawn as the official map of world energy.',
+          text: 'Nomadic tribes or regional conquerors.',
           isCorrect: false,
-          rationale: 'Solfeggio scales dressed piezoelectric granite, and the planetary nodal network is the Becker Hagens UVG120 Grid.'
+          rationale: 'Those are the re-framed identities imposed by the narrative, not the reduction.'
         },
         {
-          text: 'The Mercator Earth Latitudinal Lattice used by later atlas makers across all Europe.',
+          text: 'Feudal sultans and medieval domains.',
           isCorrect: false,
-          rationale: 'Cities were aligned on the Becker Hagens UVG120 Grid so distant centers could operate in harmonic synchrony.'
+          rationale: 'Those belong to the fabricated categorization of Al-Andalus.'
+        },
+        {
+          text: 'Technological dependence on fossil fuels.',
+          isCorrect: false,
+          rationale: 'Dependence followed the resets; the reduction itself was to primitive conditions.'
         }
       ]
     },
+
     {
       number: 12,
       question: 'What biological feature of Black genetics enabled direct tuning to atmospheric energy?',
@@ -443,58 +449,60 @@ module.exports = {
     },
     {
       number: 17,
-      question: 'How were Moorish metropolitan structures grown and positioned?',
-      hint: 'Contrast harmonic construction with hammers, pulleys, and manual labor.',
+      question: 'What did subterranean repopulation programs introduce into reset zones?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'Crews dressed every block with iron hammers and raised the walls by pulley gangs over many long decades.',
-          isCorrect: false,
-          rationale: 'Structures were dressed and positioned via harmonic sound masonry rather than manual labor, hammers, or pulleys.'
-        },
-        {
-          text: 'Structures were grown and erected using piezoelectric granite dressed and positioned via harmonic sound masonry.',
+          text: 'Newer phenotypes.',
           isCorrect: true,
-          rationale: 'Structures were grown and erected using piezoelectric granite, dressed and positioned via harmonic sound masonry.'
+          rationale: 'The Moorish Metropolis reflected this original biological state before subterranean repopulation programs introduced newer phenotypes into reset zones.'
         },
         {
-          text: 'Quarry slaves poured concrete shells and left the spires hollow for later metal cladding, roofs, and caps.',
+          text: 'African Tartarian foundational stock.',
           isCorrect: false,
-          rationale: 'The buildings were piezoelectric granite positioned by harmonic sound masonry, not poured concrete shells.'
+          rationale: 'That stock is the original state the metropolis reflected.'
         },
         {
-          text: 'Imported timber frames were stacked first and then skinned with decorative stone veneer on every outer face.',
+          text: 'Larger pineal glands tuned to aether.',
           isCorrect: false,
-          rationale: 'The load-bearing work was frequency-dressed granite erected as a wireless power grid.'
+          rationale: 'The larger pineal gland belongs to the original Black genetics.'
+        },
+        {
+          text: 'Benevolent Moorish rulers and inventors.',
+          isCorrect: false,
+          rationale: 'The rulers governed the metropolis before its erasure.'
         }
       ]
     },
+
     {
       number: 18,
-      question: 'What design system did architects apply when siting structures on the planetary nodal network?',
-      hint: 'Pair the proportional series with the grid the cities sit on.',
+      question: 'By whom were the urban centers governed?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'Architects copied random street widths from conquered camps and ignored geometric proportion.',
-          isCorrect: false,
-          rationale: 'Architects applied the Fibonacci series and sacred geometry over the planetary nodal network.'
-        },
-        {
-          text: 'They used only local river bends and set no relationship to any planetary grid at all.',
-          isCorrect: false,
-          rationale: 'Key structures were aligned directly over the planetary nodal network defined by the Becker Hagens UVG120 Grid.'
-        },
-        {
-          text: 'They followed medieval cathedral manuals written for feudal bishops in northern Europe.',
-          isCorrect: false,
-          rationale: 'The proportions are the Fibonacci series and sacred geometry, and the siting is the planetary nodal network.'
-        },
-        {
-          text: 'Architects applied the Fibonacci series and sacred geometry over the planetary nodal network.',
+          text: 'Benevolent Moorish rulers, visionary inventors, artisans, metalworkers, and technological geniuses.',
           isCorrect: true,
-          rationale: 'Architects applied the Fibonacci series and sacred geometry, aligning key structures directly over the planetary nodal network.'
+          rationale: 'They were governed by benevolent Moorish rulers, visionary inventors, artisans, metalworkers, and technological geniuses.'
+        },
+        {
+          text: 'Feudal sultans such as Muhammad I Ibn al-Ahmar.',
+          isCorrect: false,
+          rationale: 'The sultan attribution is the fabricated institutional narrative.'
+        },
+        {
+          text: 'The Rockefeller Education System and Freemasonic controllers.',
+          isCorrect: false,
+          rationale: 'Those are the forces that falsified the narrative afterward.'
+        },
+        {
+          text: 'Nomadic tribes and regional conquerors.',
+          isCorrect: false,
+          rationale: 'That reduction is the re-framing the ruling class imposed.'
         }
       ]
     },
+
     {
       number: 19,
       question: 'How did Moorish anti-gravity levitation craft operate?',
@@ -551,31 +559,32 @@ module.exports = {
     },
     {
       number: 21,
-      question: 'What did parasitic control systems institute after the Moorish Metropolis collapsed?',
-      hint: 'Connect the tuning shift with the treatment of the pineal gland.',
+      question: 'Through what was the Metropolis\'s reality obscured from public memory?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'They restored 432Hz tuning and reopened the old spires so the cities could draw public power again.',
-          isCorrect: false,
-          rationale: 'The post-collapse move was a global frequency inversion, not a return to the natural solfeggio scale.'
-        },
-        {
-          text: 'They left acoustic standards untouched and only changed the public names of the surviving cities afterward.',
-          isCorrect: false,
-          rationale: 'Global acoustics were shifted and the pineal gland was calcified through water fluoridation.'
-        },
-        {
-          text: 'They handed remnant Tartarian energy devices to municipal utilities for taxed public distribution later.',
-          isCorrect: false,
-          rationale: 'The frequency inversion rendered remnant Tartarian energy devices impossible to operate.'
-        },
-        {
-          text: 'They instituted a global frequency inversion, calcifying the human pineal gland through water fluoridation.',
+          text: 'Periodic reset sequences, forced population displacements, and the insertion of fabricated timelines.',
           isCorrect: true,
-          rationale: 'They instituted a global frequency inversion by shifting global acoustics to 440Hz and calcifying the human pineal gland through water fluoridation.'
+          rationale: 'Through periodic reset sequences, forced population displacements, and the insertion of fabricated timelines, its reality was obscured from public memory.'
+        },
+        {
+          text: 'The confiscation and destruction of written scripts.',
+          isCorrect: false,
+          rationale: 'Script destruction was one erasure step, not the obscuring triad named here.'
+        },
+        {
+          text: 'The alteration of global musical tuning.',
+          isCorrect: false,
+          rationale: 'The tuning change severed acoustic resonance, a separate measure.'
+        },
+        {
+          text: 'The calcification of the human pineal gland.',
+          isCorrect: false,
+          rationale: 'Calcification locked consciousness afterward, not the memory obscuring.'
         }
       ]
     },
+
     {
       number: 22,
       question: 'What does the architecture of Al-Andalus share with Tartarian structures in Asia, North America, and Russia?',
