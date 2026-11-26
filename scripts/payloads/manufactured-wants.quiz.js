@@ -173,31 +173,32 @@ module.exports = {
     },
     {
       number: 7,
-      question: 'What role does the Social Credit Score System play in the cashless transition?',
-      hint: 'Consider how the removal of cash impacts behavioral control.',
+      question: 'What is the Social Credit Score System?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'It allows individuals to trade their excess emotional energy for physical material assets.',
-          isCorrect: false,
-          rationale: 'The system restricts resources through automated penalties, rather than offering a market for emotional energy.'
-        },
-        {
-          text: 'It replaces physical currency to enforce total behavioral compliance through automated penalties.',
+          text: 'An inverted financial and behavioral tracking mechanism that replaces physical currency to enforce total behavioral compliance through automated penalties and resource restrictions.',
           isCorrect: true,
-          rationale: 'Minor infractions such as loitering on a public bench can bring immediate financial deductions or detention in internment facilities.'
+          rationale: 'It replaces currency to enforce total behavioral compliance through automated penalties and resource restrictions.'
         },
         {
-          text: 'It provides a transparent way for citizens to monitor the performance of the farm managers.',
+          text: 'The engineered set of artificial desires and consumer choices installed into consciousness to secure subconscious consent.',
           isCorrect: false,
-          rationale: 'The score tracks the population and restricts resources, rather than exposing the controllers.'
+          rationale: 'That set is Manufactured Wants itself, the desire layer rather than the tracking mechanism.'
         },
         {
-          text: 'It acts as a temporary incentive program to encourage the use of digital banking apps.',
+          text: 'The pre-curated framework of endless illusionary options giving targets a false sense of free will.',
           isCorrect: false,
-          rationale: 'The Social Credit Score System is a lasting replacement for physical currency, rather than a short marketing incentive.'
+          rationale: 'That framework is Choice Architecture, the menu structure rather than the scoring system.'
+        },
+        {
+          text: 'Irresistible economic enticements such as debt forgiveness engineered to induce voluntary self-surrender.',
+          isCorrect: false,
+          rationale: 'Those enticements are The Lure, a consent trap rather than a compliance ledger.'
         }
       ]
     },
+
     {
       number: 8,
       question: 'What is The Lure in the context of the control system?',
@@ -308,58 +309,60 @@ module.exports = {
     },
     {
       number: 12,
-      question: 'What is the relationship between Birth Certificates and manufactured financial needs?',
-      hint: 'Consider the financial instruments associated with legal registration at birth.',
+      question: 'What do engineered news cycles about wars, recessions, and panics maintain?',
+      hint: 'Check Designed Noise and Administrative Friction.',
       options: [
         {
-          text: 'They are used to determine the specific career trajectory an individual must follow.',
-          isCorrect: false,
-          rationale: 'Career trajectories decorate the farm, while birth registration ties the person into the bond and debt grid.'
-        },
-        {
-          text: 'Birth Certificate registration and Cestui Que Vie bonds let controllers trade their underlying legal bonds on global stock markets.',
+          text: 'An underlying baseline anxiety that forces the prefrontal cortex to consume its energy on emotional regulation and daily survival.',
           isCorrect: true,
-          rationale: 'Artificial financial needs such as mortgages, credit card debts, and consumer loans drive humans into lifelong labor to service corporate debts.'
+          rationale: 'The cycles maintain an underlying baseline anxiety, stifling metacognition and spiritual awakening.'
         },
         {
-          text: 'They provide a valid form of identification required to access the natural aether.',
+          text: 'A perpetual state of relaxed alertness, calm reflection, and meditative stillness across the population.',
           isCorrect: false,
-          rationale: 'Birth registration belongs to the financial control grid, while pineal communication with the natural aether is restored by silencing external noise.'
+          rationale: 'Relaxed alertness is an Alpha state the noise works to prevent, not maintain.'
         },
         {
-          text: 'They represent the first conscious vote by which a soul agrees to join the Human Farm.',
+          text: 'Direct pineal communication with the natural aether and restored multidimensional awareness.',
           isCorrect: false,
-          rationale: 'Registration establishes the bond grid used to trade legal bonds, rather than a conscious vote cast by the soul.'
+          rationale: 'Pineal communication is restored by silencing the noise, not by the news cycles.'
+        },
+        {
+          text: 'Voluntary consent for statutory governance structures and administrative mandates.',
+          isCorrect: false,
+          rationale: 'Consent is harvested through curated choices; the cycles\' product is baseline anxiety.'
         }
       ]
     },
+
     {
       number: 13,
-      question: 'How does the system use emotional conditioning through MK-Ultra techniques in entertainment?',
-      hint: 'Think about how music and scene changes affect the viewer.',
+      question: 'What does the continuous stream of Tell-A-Vision programming create?',
+      hint: 'Look at Media Delivery and Desire Guidance.',
       options: [
         {
-          text: 'By broadcasting low-frequency waves during the credits of popular cinema releases.',
-          isCorrect: false,
-          rationale: 'The conditioning is built into film scores, narrative tropes, and emotional pacing, rather than into a separate credit signal.'
-        },
-        {
-          text: 'By encouraging viewers to sympathize with the parasitic management team through heroic tropes.',
-          isCorrect: false,
-          rationale: 'The aim is to manipulate brain chemistry and set behavioral triggers, rather than to recruit sympathy for the managers.'
-        },
-        {
-          text: 'Rapid shifts between happy, sad, and violent scenes are engineered to manipulate human brain chemistry.',
+          text: 'Artificial needs — high-fashion apparel, luxury vehicles, consumer electronics — that prompt humans to dedicate their life force, time, and labor to acquiring status symbols.',
           isCorrect: true,
-          rationale: 'Film scores and narrative tropes evoke specific emotional responses and establish pre-programmed behavioral triggers.'
+          rationale: 'Tell-A-Vision programming creates artificial needs that prompt humans to dedicate life force, time, and labor to status symbols.'
         },
         {
-          text: 'By training actors to deliver speeches that contain hidden instructions for the subconscious.',
+          text: 'Authentic dreams that humans pursue independently of media influence and subconscious guidance.',
           isCorrect: false,
-          rationale: 'The broad-spectrum mechanism is emotional pacing and brain-chemistry manipulation, rather than hidden spoken orders.'
+          rationale: 'The needs are broadcast into the subconscious; they are manufactured, not authentic.'
+        },
+        {
+          text: 'Emotional energy reserves that free humans from labor and consumer aspiration entirely.',
+          isCorrect: false,
+          rationale: 'Pursuing the needs consumes life force and generates loosh; it frees no one.'
+        },
+        {
+          text: 'Administrative frictions such as traffic congestion, emission zones, and parking fines.',
+          isCorrect: false,
+          rationale: 'Those frictions are designed noise, a separate layer from media desire guidance.'
         }
       ]
     },
+
     {
       number: 14,
       question: 'What is the strategic implication of easy-option lifestyles like doorstep delivery?',
@@ -487,31 +490,32 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'How are fuel prices and MOT vehicle inspections used as tools of control?',
-      hint: 'Think about how these costs influence where and how a person lives.',
+      question: 'How are populations conditioned to accept fifteen-minute cities?',
+      hint: 'Check Incremental Acclimatization.',
       options: [
         {
-          text: 'The transition includes spiking fuel prices to force the adoption of electric vehicles, while MOT vehicle inspections add administrative friction.',
+          text: 'Through multi-generational timelines that accustom them to easy-option lifestyles — doorstep food delivery and e-commerce — so restrictions read as natural extensions of convenience.',
           isCorrect: true,
-          rationale: 'Inflating the cost of traditional living and piling on inspections, fines, and tax requirements push populations toward digital convenience and dense urban containment.'
+          rationale: 'Controllers use long timelines to introduce future containment mechanisms gradually, framing restrictions as convenience.'
         },
         {
-          text: 'They are necessary environmental measures to maintain the stability of the physical matrix.',
+          text: 'Through immediate physical imprisonment of the whole population in dense urban containment blocks.',
           isCorrect: false,
-          rationale: 'The eco-friendly story is the marketing guise for containment, rather than a requirement that keeps the matrix stable.'
+          rationale: 'Acclimatization is gradual and generational; imprisonment by force would break the consent frame.'
         },
         {
-          text: 'They provide a way for the population to contribute to the maintenance of the city infrastructure.',
+          text: 'Through compulsory land purchases and Maritime Admiralty displacement executed before any conditioning begins.',
           isCorrect: false,
-          rationale: 'These charges drain financial and cognitive bandwidth, rather than serving as a genuine civic contribution.'
+          rationale: 'Displacement tools belong to the later transition stage, after conditioning has done its work.'
         },
         {
-          text: 'They ensure the safety of all inhabitants within the Human Farm simulation.',
+          text: 'Through direct external override of the population\'s choices by the parasitic management team.',
           isCorrect: false,
-          rationale: 'Public safety is the advertising guise, while the operational result is behavioral restriction and digital oversight.'
+          rationale: 'The Accord forbids outside override; acceptance must be manufactured from within.'
         }
       ]
     },
+
     {
       number: 20,
       question: 'What happens when a soul dissatisfaction with manufactured wants begins to surface?',
@@ -595,31 +599,32 @@ module.exports = {
     },
     {
       number: 23,
-      question: 'What is the primary operational tool used to prevent humans from noticing the simulation boundaries?',
-      hint: 'Consider what happens to a person focus when bills and tasks overwhelm them.',
+      question: 'What is Designed Noise?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'The threat of physical punishment for anyone who attempts to study the nature of reality.',
-          isCorrect: false,
-          rationale: 'Crude physical captivity provokes rebellion, so the farm uses attention depletion instead of open punishment.'
-        },
-        {
-          text: 'The use of physical cloaking devices around the perimeter of urban containment zones.',
-          isCorrect: false,
-          rationale: 'Containment is held by exhausted attention and pre-curated options, rather than by cloaking devices.'
-        },
-        {
-          text: 'The total elimination of spiritual concepts from the global educational curriculum.',
-          isCorrect: false,
-          rationale: 'Institutional spiritualities remain as synthetic lures for people who look past material desire.'
-        },
-        {
-          text: 'The primary operational tool of manufactured wants is the systemic depletion of human attention.',
+          text: 'The deliberate introduction of incessant micro-level administrative tasks, financial stresses, and bureaucratic requirements engineered to swamp cognitive bandwidth and prevent spiritual questioning.',
           isCorrect: true,
-          rationale: 'Rigid schedules, bill payments, and administrative exhaustion leave no cognitive bandwidth for spiritual introspection or reality analysis.'
+          rationale: 'Designed noise exists to swamp cognitive bandwidth and prevent spiritual questioning.'
+        },
+        {
+          text: 'The engineered set of artificial desires, goals, and consumer choices installed into consciousness to guide behavior.',
+          isCorrect: false,
+          rationale: 'That set is Manufactured Wants, the desire system the noise supports.'
+        },
+        {
+          text: 'The artificial environment decorated with consumer attractions and entertainment to keep souls contentedly trapped.',
+          isCorrect: false,
+          rationale: 'That environment is the Human Farm, the setting rather than the friction layer.'
+        },
+        {
+          text: 'The pre-curated framework of endless illusionary options restricting outcomes to predefined agendas.',
+          isCorrect: false,
+          rationale: 'That framework is Choice Architecture, the menu rather than the noise.'
         }
       ]
     },
+
     {
       number: 24,
       question: 'How does the Sovereign Accord dictate the interaction between the management team and human targets?',
