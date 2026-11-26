@@ -146,31 +146,32 @@ module.exports = {
     },
     {
       number: 6,
-      question: 'Prior to the 1947 Roswell recovery, what technology formed the foundation of human electronic architecture?',
-      hint: 'Consider the fragile, glass-encased components that limited computing before semiconductors.',
+      question: 'What did forcing microcomputing into the public sphere empower?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'Integrated silicon microprocessors already formed the foundation of human electronic architecture before the recovery.',
-          isCorrect: false,
-          rationale: 'Microprocessors came after the leak miniaturized electronics into household items and handheld mobile devices.'
-        },
-        {
-          text: 'Fiber optic glass transmission networks already formed the foundation of human electronic architecture before the recovery.',
-          isCorrect: false,
-          rationale: 'Fiber optics were among the critical physical technological artifacts yielded by the recovery of these craft.'
-        },
-        {
-          text: 'Solid magnetic bubble memory arrays already formed the foundation of human electronic architecture before the recovery.',
-          isCorrect: false,
-          rationale: 'Prior to 1947, human electronics relied entirely on vacuum tubes, which were bulky and generated extreme heat.'
-        },
-        {
-          text: 'Human electronics relied entirely on vacuum tubes which were bulky and generated extreme heat.',
+          text: 'Human intellect with computational tools that bypassed Custodial containment parameters.',
           isCorrect: true,
-          rationale: 'Prior to 1947, human electronics relied entirely on vacuum tubes, which were bulky, generated extreme heat, and severely limited computational scale.'
+          rationale: 'Forcing microcomputing into the public sphere empowered human intellect with computational tools that bypassed Custodial containment parameters.'
+        },
+        {
+          text: 'Custodial surveillance with total monitoring tools.',
+          isCorrect: false,
+          rationale: 'The networks served control, but the empowerment described is humanity\'s.'
+        },
+        {
+          text: 'Corporate contractors with sequestered technology.',
+          isCorrect: false,
+          rationale: 'Sequestration contained the technology; the leak bypassed containment.'
+        },
+        {
+          text: 'Media controllers with predictive programming.',
+          isCorrect: false,
+          rationale: 'Programming primed fear; it did not empower human intellect.'
         }
       ]
     },
+
     {
       number: 7,
       question: 'What specific physical artifacts were recovered from the Roswell wreckage and introduced into human industry?',
@@ -200,31 +201,32 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'Which commercial research facility played a central role in developing the point-contact transistor following the acquisition of Roswell debris?',
-      hint: 'Think of the telecommunications laboratory tied to the early semiconductor breakthrough.',
+      question: 'What did the military claim the debris was on July 9, 1947?',
+      hint: 'See the Project Mogul cover-up in Detailed Mechanics.',
       options: [
         {
-          text: 'IBM Corporate Research played the central role in developing the point-contact transistor after the debris was acquired.',
-          isCorrect: false,
-          rationale: 'IBM was among the contractors managing Unacknowledged Special Access Projects, while Bell Labs developed the point-contact transistor.'
-        },
-        {
-          text: 'Lockheed Skunkworks played the central role in developing the point-contact transistor for public research.',
-          isCorrect: false,
-          rationale: 'Lockheed Skunkworks was a contractor in the sequestered recovery, while Bell Labs developed the point-contact transistor.'
-        },
-        {
-          text: 'The acquisition of Roswell debris allowed research facilities such as Bell Labs to develop the point-contact transistor.',
+          text: 'Merely a conventional weather balloon from Project Mogul.',
           isCorrect: true,
-          rationale: 'Bell Labs shifted electronic architecture from vacuum physics inside glass bulbs to solid-state semiconductor manipulation.'
+          rationale: 'The retraction claimed a conventional weather balloon from Project Mogul. This blatant, unbelievable contradiction was engineered on purpose.'
         },
         {
-          text: 'British Aerospace played the central role in developing the point-contact transistor after the debris was acquired.',
+          text: 'A captured flying disc from another world.',
           isCorrect: false,
-          rationale: 'British Aerospace was a defense contractor in the sequestered recovery, while Bell Labs developed the point-contact transistor.'
+          rationale: 'That was the July 8 release, retracted the next day.'
+        },
+        {
+          text: 'Debris from a Scalar Wave Radar tower.',
+          isCorrect: false,
+          rationale: 'The radar account is one of the false popular narratives.'
+        },
+        {
+          text: 'A secret Anakim inner-earth vessel.',
+          isCorrect: false,
+          rationale: 'The downed craft were Grey H1 Orion vessels, not Anakim craft.'
         }
       ]
     },
+
     {
       number: 9,
       question: 'What occurred on July 8, 1947, regarding the public media coverage of the Roswell event?',
@@ -389,31 +391,32 @@ module.exports = {
     },
     {
       number: 15,
-      question: 'How did the introduction of global transistor networks create a dual-use dynamic on Earth?',
-      hint: 'Think about how the same digital infrastructure serves both control systems and decentralized truth.',
+      question: 'What did worldwide digital communications enable decentralized networks to share?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'It let human military forces build space fleets while civilian populations remained in a Stone Age tool state.',
-          isCorrect: false,
-          rationale: 'The leak rapidly miniaturized electronics into household items, wristwatches, microprocessors, and handheld mobile devices.'
-        },
-        {
-          text: 'It gave equal scalar wave radar access to surface human citizens and to visiting off-world craft.',
-          isCorrect: false,
-          rationale: 'The dual use was digital control systems on one side and distribution of unredacted truth on the other.'
-        },
-        {
-          text: 'It powered both medical tissue cloning vats and atmospheric weather manipulation networks at the same time.',
-          isCorrect: false,
-          rationale: 'The shared infrastructure was the global transistor network used for control systems and for unredacted truth.'
-        },
-        {
-          text: 'Custodians required digital networks to establish control systems like 15-minute cities and social credit tracking while the G.A.A. utilized the exact same global transistor network to distribute unredacted truth.',
+          text: 'Critical intelligence regarding soul architecture, energy harvesting, and realm mechanics.',
           isCorrect: true,
-          rationale: 'That same global transistor network facilitated the Great Spiritual Awakening.'
+          rationale: 'Networks could share critical intelligence regarding soul architecture, energy harvesting, and realm mechanics.'
+        },
+        {
+          text: 'Control systems like 15-minute cities and social credit tracking.',
+          isCorrect: false,
+          rationale: 'Those are the Custodians\' intended use of the networks.'
+        },
+        {
+          text: 'Predictive programming for a fake alien invasion.',
+          isCorrect: false,
+          rationale: 'The invasion script is the controllers\' separate conditioning program.'
+        },
+        {
+          text: 'Sequestered Roswell debris among contractors.',
+          isCorrect: false,
+          rationale: 'Debris was sequestered by the MIC, not shared by decentralized networks.'
         }
       ]
     },
+
     {
       number: 16,
       question: 'Which popular account of the 1947 Roswell crash is false?',
@@ -470,31 +473,32 @@ module.exports = {
     },
     {
       number: 18,
-      question: 'Which organizations helped sequester Roswell debris within Unacknowledged Special Access Projects?',
-      hint: 'Think of major military aviation and mainframe computing contractors named with the recovery.',
+      question: 'What did the interdiction permanently disrupt?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'Bell Labs, Microsoft, and Google commercial consumer corporations ran the Unacknowledged Special Access Projects.',
-          isCorrect: false,
-          rationale: 'Bell Labs developed the point-contact transistor, while the named USAP contractors were Lockheed Skunkworks, IBM, and British Aerospace.'
-        },
-        {
-          text: 'The Galactic Ancestral Alliance and the Roswell Daily Record editorial board ran the Unacknowledged Special Access Projects.',
-          isCorrect: false,
-          rationale: 'The projects were managed by the Military-Industrial Complex and its contractors, not by the G.A.A. or the local newspaper.'
-        },
-        {
-          text: 'NASA, CERN, and the World Health Organization ran the Unacknowledged Special Access Projects.',
-          isCorrect: false,
-          rationale: 'The contractors named with the sequestered recovery are Lockheed Skunkworks, IBM, and British Aerospace.'
-        },
-        {
-          text: 'Contractors like Lockheed Skunkworks, IBM, and British Aerospace sequestered the recovery inside Unacknowledged Special Access Projects.',
+          text: 'The planned narrative installation schedule.',
           isCorrect: true,
-          rationale: 'The recovery was initially sequestered within Unacknowledged Special Access Projects managed by the Military-Industrial Complex and those contractors.'
+          rationale: 'By inserting solid-state physics 47 years after the 1900 reset ended, the Roswell interdiction permanently disrupted the planned narrative installation schedule.'
+        },
+        {
+          text: 'The Sovereign Accord\'s field law.',
+          isCorrect: false,
+          rationale: 'The strike operated within the Accord rather than disrupting it.'
+        },
+        {
+          text: 'The Anakim Giants\' protector oath.',
+          isCorrect: false,
+          rationale: 'The Anakim acted on their oath as sworn protectors.'
+        },
+        {
+          text: 'The Custodians\' reset cycle itself, ending all resets.',
+          isCorrect: false,
+          rationale: 'The cycle was compressed into checkmate, not ended outright.'
         }
       ]
     },
+
     {
       number: 19,
       question: 'What role did Orson Welles\' 1938 radio broadcast of The War of the Worlds play in the controllers\' agenda?',
@@ -605,31 +609,32 @@ module.exports = {
     },
     {
       number: 23,
-      question: 'What did solid-state semiconductor technology change compared with vacuum tube physics?',
-      hint: 'Think about why electronics could shrink from large cabinets toward handheld devices.',
+      question: 'How did solid-state technology enter the public domain?',
+      hint: 'See the Key Terminology entry for Transistor Leak.',
       options: [
         {
-          text: 'It removed the need for electrical power by running entirely on atmospheric scalar resonance.',
-          isCorrect: false,
-          rationale: 'The change was from vacuum physics inside glass bulbs to solid-state semiconductor manipulation.'
-        },
-        {
-          text: 'The change was shifting electronic architecture from vacuum physics inside glass bulbs to solid-state semiconductor manipulation.',
+          text: 'Intentionally, via corporate research facilities following the recovery of Roswell wreckage.',
           isCorrect: true,
-          rationale: 'That leak rapidly miniaturized electronics into household items, wristwatches, microprocessors, and handheld mobile devices.'
+          rationale: 'It was the intentional introduction of solid-state semiconductor technology into the public domain via corporate research facilities.'
         },
         {
-          text: 'It let Custodians read and rewrite human biological brain memory without any digital network.',
+          text: 'Accidentally, through a navigation failure over New Mexico.',
           isCorrect: false,
-          rationale: 'Forcing microcomputing into the public sphere gave human intellect computational tools that bypassed Custodial containment parameters.'
+          rationale: 'The report rejects the accidental navigation failure account.'
         },
         {
-          text: 'It stopped corporate research facilities from reverse-engineering the recovered hardware.',
+          text: 'Through a transactional exchange of children for technology.',
           isCorrect: false,
-          rationale: 'Corporate replication caused the technology to leak into consumer goods.'
+          rationale: 'The report rejects the children-for-technology exchange account.'
+        },
+        {
+          text: 'Through the Project Mogul weather balloon program.',
+          isCorrect: false,
+          rationale: 'Project Mogul was the cover story, not the leak channel.'
         }
       ]
     },
+
     {
       number: 24,
       question: 'What did recovery of the Roswell craft give human technology?',
