@@ -46,36 +46,32 @@ module.exports = {
     },
     {
       number: 2,
-      question:
-        'Where is the oversoul (Higher Self) stationed during the execution of the Arc Trajectory?',
-      hint: 'Look for a location that provides an elevated overview of the simulation field.',
+      question: 'What did incarnating souls retain during initial insertion into Lemuria and Atlantis?',
+      hint: 'Look at Phase I.',
       options: [
         {
-          text: 'The oversoul is stationed deep within the planetary core to maintain the structural integrity of the grid.',
-          isCorrect: false,
-          rationale:
-            'The planetary grid is a later reactivation target; the oversoul remains in an atmospheric Arc Pod for uncompromised oversight.'
-        },
-        {
-          text: 'The oversoul is stationed directly inside the primary ET vessel in a stasis chamber on the homeworld.',
-          isCorrect: false,
-          rationale:
-            'The physical ET body waits in stasis on the homeworld, but active oversoul command is projected into the atmospheric Arc Pod.'
-        },
-        {
-          text: 'The oversoul is stationed inside a localized Arc Pod container positioned in the upper atmospheric overlays.',
+          text: 'Full ET memory recall, across extended lifespans of 450 to 500 years per incarnation.',
           isCorrect: true,
-          rationale:
-            'Consciousness is projected into localized Arc Pod containers positioned in upper atmospheric overlays, where the oversoul acts as the central command node.'
+          rationale: 'Souls retained full memory recall and lived extended lifespans of 450 to 500 years during the initial insertion.'
         },
         {
-          text: 'The oversoul is stationed within the cerebral cortex of the 3rd-density physical vessel on the surface.',
+          text: 'Fragmentary recall, refreshed only at déjà vu checkpoints.',
           isCorrect: false,
-          rationale:
-            'The physical brain is blind to the master plan; the oversoul keeps full awareness from a separate elevated location.'
+          rationale: 'Checkpoint cues belong to the later protocol phases; initial insertion kept full recall.'
+        },
+        {
+          text: 'No memory at all, under the fully active Clueless Protocol.',
+          isCorrect: false,
+          rationale: 'The protocol was activated only after the fall of Atlantis, not during initial insertion.'
+        },
+        {
+          text: 'Memory of the homeworld alone, with mission details withheld.',
+          isCorrect: false,
+          rationale: 'Avatars operated with conscious knowledge of origins and mission across their initial extended lives.'
         }
       ]
     },
+
     {
       number: 3,
       question: 'What does a neurological signal of déjà vu indicate to a 3rd-density avatar?',
@@ -109,36 +105,32 @@ module.exports = {
     },
     {
       number: 4,
-      question:
-        'Which entity manages the defensive deployment of Arc Pods to prevent capture by hostile forces?',
-      hint: 'Identify the figure associated with the interdimensional protection of the oversoul containers.',
+      question: 'Why did open memory recall become an unbearable liability after the fall of Atlantis?',
+      hint: 'Check Phase II.',
       options: [
         {
-          text: 'The Lemurian high council manages the defensive deployment of Arc Pods across interdimensional layers after the cataclysm that ended those civilizations.',
-          isCorrect: false,
-          rationale:
-            'The pods were deployed as a failsafe after those civilizations fell, under higher governance, not a Lemurian council.'
-        },
-        {
-          text: 'The 4,000 ancient souls manage the defensive deployment of Arc Pods across interdimensional layers while they remain incarnate on the surface.',
-          isCorrect: false,
-          rationale:
-            'Incarnate avatars are the ones being protected; they do not manage the defensive deployment while clueless.'
-        },
-        {
-          text: 'Archangel Raphael manages the defensive deployment of Arc Pods across interdimensional layers to prevent capture by hostile Grey ET forces.',
+          text: 'It would cause severe psychological distress and risk mission exposure while trapped in an inverted, low-density prison state.',
           isCorrect: true,
-          rationale:
-            'These pod craft are concealed across interdimensional layers — a defensive deployment managed by Archangel Raphael to prevent capture by hostile Grey ET forces.'
+          rationale: 'Retaining awareness would cause severe psychological distress and risk mission exposure, so the protocol was activated.'
         },
         {
-          text: 'The Grey ET forces manage the defensive deployment of Arc Pods across interdimensional layers in order to harvest ancient soul consciousness.',
+          text: 'It allowed avatars to communicate directly with hostile Grey forces.',
           isCorrect: false,
-          rationale:
-            'Grey ET forces are the hostile harvest threat the concealment is meant to block, not the protectors of the pods.'
+          rationale: 'The liability was distress and exposure inside the inverted state, not a communication channel.'
+        },
+        {
+          text: 'It slowed the oversoul\'s steering of the Arc Trajectory.',
+          isCorrect: false,
+          rationale: 'Steering continued from the Arc Pod; recall was severed because of the burden it placed on the incarnate mind.'
+        },
+        {
+          text: 'It prevented the cerebral cortex from processing linear thought.',
+          isCorrect: false,
+          rationale: 'The cortex kept processing day-to-day thought; conscious memory banks were what got severed.'
         }
       ]
     },
+
     {
       number: 5,
       question:
@@ -173,35 +165,32 @@ module.exports = {
     },
     {
       number: 6,
-      question: 'What characterizes the terminal reintegration sequence of a 3rd-density soul fragment?',
-      hint: 'Think about the transition from the physical world back to the pod and eventually the bioship.',
+      question: 'What is the Plasma Portal?',
+      hint: 'See the Key Terminology entry on the portal.',
       options: [
         {
-          text: 'The 3rd-density physical vessel pixelates and dissolves upon entering a Plasma Portal above.',
+          text: 'The energetic exit construct through which the soul fragment pixelates, recombines with the Arc Pod oversoul, and snaps back to the native ET vessel in stasis.',
           isCorrect: true,
-          rationale:
-            'The localized soul fragment then ascends into the atmospheric Arc Pod to recombine with the oversoul before the unified consciousness snaps back to the primary ET body.'
+          rationale: 'It is the energetic exit construct through which the fragment leaves the 3rd-density vessel and recombines with the oversoul.'
         },
         {
-          text: 'The physical vessel enters a stasis chamber on the surface to await the next 178,000-year cycle.',
+          text: 'The atmospheric container in which the oversoul is stationed during the trajectory.',
           isCorrect: false,
-          rationale:
-            'The physical vessel dissolves; only the ET body on the homeworld remains in stasis.'
+          rationale: 'That container is the Arc Pod; the portal is the exit construct at the sequence\'s end.'
         },
         {
-          text: 'The avatar undergoes a final memory wipe to prepare for another 5,000 incarnations in Realm-3.',
+          text: 'The checkpoint signal experienced at a pre-selected trajectory coordinate.',
           isCorrect: false,
-          rationale:
-            'The terminal sequence ends the Clueless Protocol and concludes the incarnation cycles rather than restarting them.'
+          rationale: 'That signal is déjà vu, a mid-trajectory verification rather than an exit.'
         },
         {
-          text: 'The oversoul descends into the 3rd-density vessel to permanently anchor the 12th-density state on the surface.',
+          text: 'The spatial arrangement of pods and stasis chambers for soul family members.',
           isCorrect: false,
-          rationale:
-            'The sequence sends the soul fragment up out of density, not the oversoul down into a permanent 3rd-density body.'
+          rationale: 'That arrangement is the Pod Cluster, not the portal.'
         }
       ]
     },
+
     {
       number: 7,
       question: 'How long has the multi-incarnational epoch involving the 4,000 ancient souls spanned?',
@@ -266,36 +255,32 @@ module.exports = {
     },
     {
       number: 9,
-      question:
-        'What is the relationship between the spatial arrangement of Arc Pods and the stasis chambers on homeworld bioships?',
-      hint: 'Look for a concept of mirroring or parallel organization between the two environments.',
+      question: 'The Clueless Protocol operates in direct coordination with which broader structures?',
+      hint: 'Look at the first Broader Context paragraph.',
       options: [
         {
-          text: 'The Arc Pods are arranged randomly to prevent detection, while stasis chambers are grouped only by density and never mirrored as a Pod Cluster.',
-          isCorrect: false,
-          rationale:
-            'The pods are not random; they mirror the organized stasis-bay layout to keep soul family proximity.'
-        },
-        {
-          text: 'The Arc Pods sit on the surface while the stasis chambers occupy the upper atmospheric overlays instead of mirroring one another across those layers.',
-          isCorrect: false,
-          rationale:
-            'Pods are atmospheric and stasis chambers are on homeworld bioships; the mapping is spatial mirroring, not a swap of those locations.'
-        },
-        {
-          text: 'The physical arrangement of Arc Pods in atmospheric overlays mirrors the spatial layout of stasis chambers on homeworld bioships.',
+          text: 'The broader Simulation Field and the structural layout of the Plane of Worlds.',
           isCorrect: true,
-          rationale:
-            'In those stasis bays, soul family members reside in adjacent chambers within a Pod Cluster, so nearby people in physical life are often immediate soul family out of costume.'
+          rationale: 'The protocol operates in direct coordination with the broader Simulation Field and the Plane of Worlds layout.'
         },
         {
-          text: 'The stasis chambers map onto 4,000 planetary-grid coordinates and thereby remove any need for Arc Pods as an intermediary projection layer.',
+          text: 'The Terrarium Seal and the Maritime Admiralty jurisdiction.',
           isCorrect: false,
-          rationale:
-            'Arc Pods remain the necessary intermediary for consciousness projection into 3rd density.'
+          rationale: 'Those belong to the legal-capture framework, not to the protocol\'s stated coordination.'
+        },
+        {
+          text: 'The Amnesia Vortex and the solar recycling traps.',
+          isCorrect: false,
+          rationale: 'The protocol\'s routing bypasses such traps; its coordination is with the Simulation Field and Plane of Worlds.'
+        },
+        {
+          text: 'The pod cluster layout and the homeworld stasis bays.',
+          isCorrect: false,
+          rationale: 'Pod arrangements mirror the stasis bays, but the protocol\'s coordination is with the field and plane structures.'
         }
       ]
     },
+
     {
       number: 10,
       question:
@@ -412,35 +397,32 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'What happens when the simulation field collapses and the EMF drops?',
-      hint: 'Consider the impact of the field’s disappearance on interpersonal recognition.',
+      question: 'What does the Clueless Protocol shield the incarnate mind from?',
+      hint: 'See Protection Against Psychological Collapse.',
       options: [
         {
-          text: 'The 3rd-density cerebral cortex is permanently merged with the Grey ET hive mind instead of revealing nearby people as soul family out of costume.',
-          isCorrect: false,
-          rationale:
-            'Mission success is escape from hostile harvest, not merger with Grey ET forces.'
-        },
-        {
-          text: 'Avatars discover that the individuals surrounding them in physical life were their immediate soul family members out of costume.',
+          text: 'The crushing weight of millennia-spanning isolation and memory of native higher-density existence.',
           isCorrect: true,
-          rationale:
-            'When the simulation field collapses and the EMF drops, avatars discover that the individuals surrounding them in physical life were their immediate soul family members out of costume.'
+          rationale: 'It shields the incarnate mind from the crushing weight of isolation and remembered higher-density existence.'
         },
         {
-          text: 'The Arc Trajectory is extended for another 178,000 years in order to stabilize the planetary grid rather than collapsing the field and revealing soul family.',
+          text: 'Contact with the oversoul\'s intuitive impulses during the trajectory.',
           isCorrect: false,
-          rationale:
-            'Field collapse belongs with termination of the trajectory and the Clueless Protocol, not another epoch of the same cycle.'
+          rationale: 'Impulses from the oversoul are the steering channel, not a burden the protocol blocks.'
         },
         {
-          text: 'The simulation field expands until all 12 densities are included in the same surface experience rather than collapsing so soul family can be recognized.',
+          text: 'The checkpoint signals that verify alignment with the master plan.',
           isCorrect: false,
-          rationale:
-            'The simulation field collapses rather than expanding, and consciousness returns toward native reality.'
+          rationale: 'Checkpoint cues are built into the protocol as guidance, not shielded against.'
+        },
+        {
+          text: 'The distractions engineered into the simulation environment.',
+          isCorrect: false,
+          rationale: 'Distractions fill the environment; the shield is against the psychological weight of remembered existence.'
         }
       ]
     },
+
     {
       number: 15,
       question: "Why did memory recall become an unbearable liability during Phase II?",
@@ -505,35 +487,32 @@ module.exports = {
     },
     {
       number: 17,
-      question: 'What is the physical state of the ancient ET vessel while the avatar is active in Realm-3?',
-      hint: 'Identify where the original body is stored during the consciousness projection.',
+      question: 'Where do the avatar\'s intuitive impulses originate?',
+      hint: 'Check Phase IV.',
       options: [
         {
-          text: 'The ET vessel is pixelated into a localized soul fragment inside the atmospheric Arc Pod rather than remaining a biological body in homeworld stasis.',
-          isCorrect: false,
-          rationale:
-            'The soul fragment is a projection of consciousness; the ET vessel remains a biological body in stasis elsewhere.'
-        },
-        {
-          text: 'The ET vessel is disguised as a 3rd-density human vessel in order to move through the simulation rather than remaining preserved in a homeworld stasis chamber.',
-          isCorrect: false,
-          rationale:
-            'The avatar is the 3rd-density human vessel; the ET vessel stays distinct and remote from the surface.'
-        },
-        {
-          text: 'The true physical ET vessels remain preserved in stasis chambers on homeworld bioships.',
+          text: 'From the Arc Pod above, where the oversoul directs the trajectory.',
           isCorrect: true,
-          rationale:
-            'While the true physical ET vessels remain preserved in stasis chambers on homeworld bioships, consciousness is projected into localized Arc Pod containers.'
+          rationale: 'The physical brain processes linear thoughts, but intuitive impulses originate from the Arc Pod above.'
         },
         {
-          text: 'The ET vessel is actively fighting the Grey ET forces in the upper atmospheric overlays rather than remaining preserved in a homeworld stasis chamber.',
+          text: 'From the cerebral cortex, which holds the severed memory banks.',
           isCorrect: false,
-          rationale:
-            'The vessels are in stasis; concealment of the pods is a defensive deployment managed by Archangel Raphael.'
+          rationale: 'The cortex processes day-to-day linear thoughts; the will and impulses originate from the pod.'
+        },
+        {
+          text: 'From the pod cluster\'s adjacent soul family members.',
+          isCorrect: false,
+          rationale: 'Family members occupy adjacent pods; the impulses come from the avatar\'s own oversoul.'
+        },
+        {
+          text: 'From the stasis chamber housing the native ET vessel.',
+          isCorrect: false,
+          rationale: 'The stasis chamber preserves the vessel; steering impulses are transmitted from the Arc Pod.'
         }
       ]
     },
+
     {
       number: 18,
       question: 'What constitutes a Pod Cluster?',
@@ -618,66 +597,60 @@ module.exports = {
     },
     {
       number: 21,
-      question: 'What does Phase III: Atmospheric Arc Pod Architecture involve?',
-      hint: 'Identify the setup of localized command nodes in the atmosphere.',
+      question: 'What does experiencing déjà vu verify for the avatar?',
+      hint: 'Look at Phase V.',
       options: [
         {
-          text: 'Phase III is the period where average human lifespans frequently dropped below 35 years rather than the concealment of Arc Pods across interdimensional layers.',
-          isCorrect: false,
-          rationale:
-            'Lifespans dropping below 35 years belongs to Phase IV trajectory steering over millennia.'
-        },
-        {
-          text: 'Phase III is the initial insertion into Lemuria and Atlantis where memories were fully retained rather than the projection of consciousness into atmospheric Arc Pods.',
-          isCorrect: false,
-          rationale:
-            'That is Phase I; Phase III follows the memory suppression of Phase II as a defensive governing deployment.'
-        },
-        {
-          text: 'Phase III is the final pixelation and dissolution of the physical vessel in the Plasma Portal rather than the projection of consciousness into atmospheric Arc Pods.',
-          isCorrect: false,
-          rationale:
-            'That is Phase VI, the Terminal Reintegration Sequence.'
-        },
-        {
-          text: 'Consciousness is projected into localized Arc Pod containers positioned in upper atmospheric overlays and concealed across interdimensional layers.',
+          text: 'That the avatar has successfully reached a pre-selected coordinate along its Arc Trajectory.',
           isCorrect: true,
-          rationale:
-            'While true physical ET vessels remain in stasis on homeworld bioships, consciousness is projected into localized Arc Pod containers positioned in upper atmospheric overlays.'
+          rationale: 'Déjà vu confirms the avatar reached a pre-selected coordinate along its Arc Trajectory, verifying alignment with the master plan.'
+        },
+        {
+          text: 'That the avatar\'s memory banks have been reconnected to the cortex.',
+          isCorrect: false,
+          rationale: 'Memory banks stay severed under the protocol; déjà vu is a checkpoint verification, not a reconnection.'
+        },
+        {
+          text: 'That the oversoul has adjusted the trajectory in real time.',
+          isCorrect: false,
+          rationale: 'Realignment happens through orchestrated events; déjà vu verifies arrival at a pre-set coordinate.'
+        },
+        {
+          text: 'That the final convergence loop has begun.',
+          isCorrect: false,
+          rationale: 'Checkpoints occur across the whole trajectory, not only at the final loop.'
         }
       ]
     },
+
     {
       number: 22,
-      question: 'What is the ultimate purpose of the pixelation process described in the protocol?',
-      hint: 'Focus on the transition of the soul fragment from the physical body back to the oversoul.',
+      question: 'What does the Clueless Protocol prevent hostile entities from extracting from incarnate avatars?',
+      hint: 'See Operational Security in Strategic Implications.',
       options: [
         {
-          text: 'Pixelation camouflages the ET vessel as it moves through the interdimensional Plasma Portal rather than dissolving the 3rd-density physical vessel.',
-          isCorrect: false,
-          rationale:
-            'Pixelation happens to the 3rd-density physical vessel; the original ET body is already in stasis.'
-        },
-        {
-          text: 'The 3rd-density physical vessel pixelates and dissolves so the localized soul fragment can recombine with the oversoul.',
+          text: 'Mission details and critical timelines.',
           isCorrect: true,
-          rationale:
-            'Upon entering a Plasma Portal above, the physical vessel pixelates and dissolves, and the localized soul fragment ascends into the atmospheric Arc Pod to recombine with the oversoul.'
+          rationale: 'It prevents hostile parasitic entities and 3rd-density custodial agents from extracting mission details or critical timelines.'
         },
         {
-          text: 'Pixelation breaks down the 3rd-density vessel so it can be harvested by loosh-seeking agents rather than letting the soul fragment recombine with the oversoul.',
+          text: 'Loosh generated by the avatars\' emotional responses.',
           isCorrect: false,
-          rationale:
-            'Pixelation is a mission-controlled exit, not a harvest vulnerability handed to hostile agents.'
+          rationale: 'Loosh harvesting is a separate parasitic mechanism; the protocol guards mission information.'
         },
         {
-          text: 'Pixelation resets the Arc Trajectory if the avatar encounters a catastrophic failure mid-life rather than completing terminal reintegration through a Plasma Portal.',
+          text: 'The soul architecture needed to reactivate the planetary grid.',
           isCorrect: false,
-          rationale:
-            'Pixelation belongs to the terminal reintegration sequence, not a mid-mission restart mechanic.'
+          rationale: 'The architecture is preserved within the souls; what cannot be extracted is what the avatars do not know.'
+        },
+        {
+          text: 'Impulse navigation signals sent down from the Arc Pod.',
+          isCorrect: false,
+          rationale: 'The signals flow to the avatar\'s mind; the extraction risk concerns mission details and timelines.'
         }
       ]
     },
+
     {
       number: 23,
       question:
@@ -744,34 +717,31 @@ module.exports = {
     },
     {
       number: 25,
-      question: "What occurs when the unified consciousness snaps back at the end of the sequence?",
-      hint: 'Identify the final destination for the unified consciousness after leaving the Arc Pod.',
+      question: 'What replaces vulnerable 3rd-density decision-making under the protocol?',
+      hint: 'See Guaranteed Mission Execution.',
       options: [
         {
-          text: 'The consciousness is distributed across the planetary grid in order to maintain permanent stability rather than returning to the primary ET body in stasis.',
-          isCorrect: false,
-          rationale:
-            'The souls reactivate the grid, but unified consciousness returns to the native vessels rather than remaining as grid current.'
-        },
-        {
-          text: 'The complete unified consciousness snaps back into the primary ET body waiting in stasis on the homeworld.',
+          text: 'The uncorrupted overview of the atmospheric oversoul.',
           isCorrect: true,
-          rationale:
-            'After recombination in the Arc Pod, the complete unified consciousness snaps back into the primary ET body waiting in stasis on the homeworld.'
+          rationale: 'The protocol replaces vulnerable 3rd-density decision-making with the uncorrupted overview of the atmospheric oversoul.'
         },
         {
-          text: 'The consciousness merges with the interdimensional layers managed by Archangel Raphael rather than returning to the primary ET body waiting in stasis.',
+          text: 'The collective judgment of the pod cluster\'s soul family.',
           isCorrect: false,
-          rationale:
-            'Raphael’s layers conceal the pods; they are not the final home of the unified consciousness.'
+          rationale: 'Decision-making sits with the avatar\'s own oversoul, not a cluster vote.'
         },
         {
-          text: 'The consciousness returns to the 3rd-density surface in order to start a new simulation loop rather than snapping back into the primary ET body.',
+          text: 'Pre-recorded instructions stored in the cerebral cortex.',
           isCorrect: false,
-          rationale:
-            'The snap-back is the final return home, marking the end of the Clueless Protocol rather than another surface loop.'
+          rationale: 'The cortex holds no mission instructions under the protocol; governance sits in the Arc Pod.'
+        },
+        {
+          text: 'Guidance transmitted by Archangel Raphael at each checkpoint.',
+          isCorrect: false,
+          rationale: 'Raphael\'s role concerns pod deployment defense, not the avatar\'s decision-making.'
         }
       ]
     }
+
   ]
 };
