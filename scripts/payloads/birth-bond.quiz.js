@@ -271,58 +271,60 @@ module.exports = {
     },
     {
       number: 11,
-      question: 'What is the Usury Trap as defined within this commercial framework?',
-      hint: 'It involves the citizen being the source of the capital and the debtor at the same time.',
+      question: 'In what currency are all Cestui Que Vie bonds globally denominated and held, and where?',
+      hint: 'Check Financial Structure and Global Treasury Centralization.',
       options: [
         {
-          text: 'The legal requirement to maintain a minimum balance in a state-managed bank account.',
-          isCorrect: false,
-          rationale: 'The Usury Trap is the lending of an individual\'s own equity back to them while demanding interest payments, not a minimum-balance rule.'
-        },
-        {
-          text: 'State and private banking entities lend an individual\'s own equity back to them while demanding interest payments.',
+          text: 'United States Dollars (USD), centralized within American financial repositories.',
           isCorrect: true,
-          rationale: 'The Birth Bond connects directly to the Usury Trap, wherein state and private banking entities lend an individual\'s own equity back to them while demanding interest payments.'
+          rationale: 'All Cestui Que Vie bonds globally are denominated, centralized, and held in USD within American repositories.'
         },
         {
-          text: 'The practice of using lifetime taxation to pay for infrastructure the individual never uses.',
+          text: 'British Pounds, held within London financial repositories.',
           isCorrect: false,
-          rationale: 'Lifetime taxation is part of pledging the living vessel as security, while the Usury Trap specifically lends that equity back and demands interest.'
+          rationale: 'The bonds are denominated in USD and held in American repositories.'
         },
         {
-          text: 'A mechanism where citizens are forced to trade their physical assets for digital currency.',
+          text: 'Euros, distributed across European central banks.',
           isCorrect: false,
-          rationale: 'The trap lends an individual\'s own equity back to them while demanding interest payments, rather than forcing a trade of physical assets for digital currency.'
+          rationale: 'Centralization is in the United States, in dollars, not euros.'
+        },
+        {
+          text: 'Local currencies, held by each issuing state\'s treasury.',
+          isCorrect: false,
+          rationale: 'All bonds globally share one denomination and centralization: USD in America.'
         }
       ]
     },
+
     {
       number: 12,
-      question: 'How is loosh extracted from the individual throughout their lifecycle?',
-      hint: 'Consider the energetic value taken along with financial equity.',
+      question: 'What triggers an administrative drawdown against the individual\'s Cestui Que Vie trust in healthcare?',
+      hint: 'See Healthcare Capitalization.',
       options: [
         {
-          text: 'By requiring the individual to perform physical labor in government-owned industrial zones.',
-          isCorrect: false,
-          rationale: 'Extraction runs through the corporate fiction and commercial servitude, not through a requirement of labor in government-owned industrial zones.'
-        },
-        {
-          text: 'Through the mandatory participation in state-sponsored spiritual rituals and ceremonies.',
-          isCorrect: false,
-          rationale: 'Emotional loosh is extracted through the statutory corporate fiction and corporate administrative codes, not through mandatory spiritual rituals.'
-        },
-        {
-          text: 'The corporate governance structure ensures continuous extraction of financial equity and emotional loosh throughout the individual\'s lifecycle.',
+          text: 'Every medical consultation, hospital procedure, and pharmaceutical prescription processed through the NHS.',
           isCorrect: true,
-          rationale: 'By binding the living vessel to a statutory corporate fiction, the corporate governance structure ensures continuous extraction of financial equity and emotional loosh throughout the individual\'s lifecycle.'
+          rationale: 'Each NHS contact triggers a drawdown against the individual\'s Cestui Que Vie trust.'
         },
         {
-          text: 'By charging fees for every legal document required to interact with the natural world.',
+          text: 'Only emergency surgical procedures performed in hospitals.',
           isCorrect: false,
-          rationale: 'The extraction named in this framework is continuous financial equity and emotional loosh, not a fee on every document used in the natural world.'
+          rationale: 'Consultations and prescriptions trigger drawdowns too, not only emergencies.'
+        },
+        {
+          text: 'Annual tax filings submitted by the individual.',
+          isCorrect: false,
+          rationale: 'Taxation is the public story; the drawdown runs through healthcare processing.'
+        },
+        {
+          text: 'Applications for educational financing and state loans.',
+          isCorrect: false,
+          rationale: 'Loan extraction is the education arm of drawdown, not the healthcare trigger.'
         }
       ]
     },
+
     {
       number: 13,
       question: 'What is the consequence of registering a birth in terms of the national debt?',
@@ -477,31 +479,32 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'What is the role of Acts, Statutes, and Policies in the broader legal architecture?',
-      hint: 'Consider how these codes relate to fraudulent corporate governance.',
+      question: 'What does the TreasuryDirect disclaimer assert, and what is the reality?',
+      hint: 'Check The TreasuryDirect Valuation Portal and Legal Disclaimers.',
       options: [
         {
-          text: 'To provide a transparent legal framework that protects the rights of all physical beings.',
-          isCorrect: false,
-          rationale: 'Acts, Statutes, and Policies are designed to replace natural law with corporate administrative codes that sustain continuous extraction.'
-        },
-        {
-          text: 'Fraudulent Acts, Statutes, and Policies are designed to replace natural law with corporate administrative codes.',
+          text: 'That access claims are fraudulent scams — semi-true: citizens are barred from withdrawing, while state departments continuously draw against the balance.',
           isCorrect: true,
-          rationale: 'This commercial framework is sustained through fraudulent Acts, Statutes, and Policies designed to replace natural law with corporate administrative codes.'
+          rationale: 'The disclaimer is semi-true: citizens cannot withdraw, yet state departments and financial conglomerates continuously draw against the account balance.'
         },
         {
-          text: 'To harmonize the laws of different nations under a single humanitarian standard.',
+          text: 'That the valuations shown are complete public records freely withdrawable by the named citizen on demand.',
           isCorrect: false,
-          rationale: 'These codes replace natural law with corporate administrative codes for continuous extraction of financial equity, not to set a humanitarian standard.'
+          rationale: 'Citizens are legally barred from withdrawing; only institutions draw against the accounts.'
         },
         {
-          text: 'To document the evolution of legal philosophy from maritime to common law.',
+          text: 'That birth certificate bonds do not exist and no trust accounts are held against registration numbers.',
           isCorrect: false,
-          rationale: 'Acts, Statutes, and Policies enforce commercial jurisdiction over living souls by replacing natural law, rather than documenting a shift toward common law.'
+          rationale: 'The bonds and valuations exist; the disclaimer targets citizen access claims, not existence.'
+        },
+        {
+          text: 'That only foreign banking institutions may access the accounts, never domestic state departments.',
+          isCorrect: false,
+          rationale: 'State departments themselves continuously draw against the balances.'
         }
       ]
     },
+
     {
       number: 20,
       question: 'How does the birth certificate function in the context of commercial law?',
@@ -585,31 +588,32 @@ module.exports = {
     },
     {
       number: 23,
-      question: 'What is the primary effect of the Birth Bond on a living soul\'s physical identity?',
-      hint: 'It creates a strawman that is distinct from the living soul.',
+      question: 'What does birth registration generate?',
+      hint: 'See Creation of the Legal Strawman.',
       options: [
         {
-          text: 'It binds the soul\'s physical movements to a specific geographic territory.',
-          isCorrect: false,
-          rationale: 'The primary effect is a corporate fiction that separates the living soul from their physical identity, not a geographic limit on movement.'
-        },
-        {
-          text: 'It provides a protective shield that prevents the extraction of energetic loosh.',
-          isCorrect: false,
-          rationale: 'Binding the living vessel to a statutory corporate fiction enables continuous extraction of financial equity and emotional loosh, rather than shielding the soul.'
-        },
-        {
-          text: 'It ensures that the soul\'s lineage is permanently recorded in the global registry.',
-          isCorrect: false,
-          rationale: 'Birth registration monetizes the corporate fiction as financial collateral, rather than preserving lineage in a global registry.'
-        },
-        {
-          text: 'The birth certificate creates a corporate fiction or legal strawman, effectively separating the living soul from their physical identity.',
+          text: 'An all-caps corporate identity that acts as a commercial proxy for the living person.',
           isCorrect: true,
-          rationale: 'Upon the birth of a child, the state issues a birth certificate that creates a corporate fiction or legal strawman, effectively separating the living soul from their physical identity.'
+          rationale: 'Registration generates a corporate identity acting as a commercial proxy for the living person.'
+        },
+        {
+          text: 'A record of vital statistics held by the state.',
+          isCorrect: false,
+          rationale: 'The certificate functions as a commercial bill of lading, not a vital-statistics record.'
+        },
+        {
+          text: 'A negotiable security denominated in the local currency only.',
+          isCorrect: false,
+          rationale: 'The security is denominated in USD globally, and registration first creates the identity.'
+        },
+        {
+          text: 'A guardianship transfer of the child\'s physical custody.',
+          isCorrect: false,
+          rationale: 'What transfers is the commercial identity\'s control, not physical custody.'
         }
       ]
     },
+
     {
       number: 24,
       question: 'True or False: The state informs the public that medical treatments rely on taxpayer contributions to hide the bond drawdowns.',
