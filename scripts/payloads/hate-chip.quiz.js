@@ -65,31 +65,32 @@ module.exports = {
     },
     {
       number: 3,
-      question: 'What is the primary operational objective of the Human 2.0 initiative?',
-      hint: 'Focus on the architectural goal regarding free will and manual labor capability.',
+      question: 'How does the report characterize the implant system?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'The primary operational objective is the conversion of sovereign humans into cyborgs powered by a true soul for obedient labor.',
+          text: 'A coercive framework for total mental enslavement — not a legitimate clinical procedure or medical cure.',
           isCorrect: true,
-          rationale: 'The primary operational objective of the Hate Chip control framework is the conversion of sovereign humans into cyborgs.'
+          rationale: 'It functions as a coercive framework for total mental enslavement, not a clinical procedure or cure.'
         },
         {
-          text: 'The primary operational objective is biological elimination of every incarnate human vessel through advanced subcutaneous bioweapon injections.',
+          text: 'A legitimate clinical procedure for cognitive restoration.',
           isCorrect: false,
-          rationale: 'Biological elimination via bioweapon injections was designated for non-souled entities while every true soul was designated for conversion.'
+          rationale: 'The report states it does not function as a clinical procedure or cure.'
         },
         {
-          text: 'The primary operational objective is an evolutionary upgrade of human consciousness into higher densities through technological augmentation.',
+          text: 'An evolutionary upgrade for sovereign humans.',
           isCorrect: false,
-          rationale: 'Human 2.0 is the technical application of cybernetic enslavement upon sovereign humans rather than an evolutionary upgrade or health restoration.'
+          rationale: 'Upgrades are the transhumanist narrative the report unmasks.'
         },
         {
-          text: 'The primary operational objective is a clinical cure that replaces damaged brain tissue with synthetic machinery for neurological repair.',
+          text: 'A public health framework for vessel repair.',
           isCorrect: false,
-          rationale: 'This system does not function as a legitimate clinical procedure or medical cure and operates as a coercive framework for total mental enslavement.'
+          rationale: 'The framework enslaves rather than repairing vessels.'
         }
       ]
     },
+
     {
       number: 4,
       question: 'In what specific industrial environments are Human 2.0 cyborg units designed to operate?',
@@ -173,112 +174,116 @@ module.exports = {
     },
     {
       number: 7,
-      question: 'How were early extremity microchips marketed to the public to encourage acceptance?',
-      hint: 'Recall the subtle framing focused on everyday ease and physical keys.',
+      question: 'The term Hate Chip describes both of which two things?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'They were marketed as vital medical cures for chronic physical illnesses and lasting neurological damage in patients.',
-          isCorrect: false,
-          rationale: 'The chips were marketed around modern consumer convenience rather than clinical healthcare remedies.'
-        },
-        {
-          text: 'They were marketed as spiritual enhancement tools designed to expand human consciousness beyond the physical vessel.',
-          isCorrect: false,
-          rationale: 'The marketing focused on mundane physical utility such as keyless entry rather than spiritual awakening.'
-        },
-        {
-          text: 'They were marketed under the guise of modern convenience such as unlocking doors without physical keys.',
+          text: 'The structural absence of organic malice within a true soul, and the cybernetic implant infrastructure designed to enforce subjugation.',
           isCorrect: true,
-          rationale: 'Extremity microchips were marketed under the guise of modern convenience such as unlocking doors without physical keys.'
+          rationale: 'It names both the absence of malice and the implant infrastructure built to enforce total physical and cognitive subjugation.'
         },
         {
-          text: 'They were marketed as mandatory identity tags required for industrial labor compliance inside factories and mines.',
+          text: 'A legitimate clinical procedure for cognitive restoration and a medical cure for vessel dysfunction.',
           isCorrect: false,
-          rationale: 'The initial rollout relied on voluntary public adoption driven by convenience rather than mandatory industrial enforcement.'
+          rationale: 'The system is explicitly neither a procedure nor a cure.'
+        },
+        {
+          text: 'A generated frequency of systemic hatred and a true soul\'s capacity for severe anger.',
+          isCorrect: false,
+          rationale: 'Anger is a true soul\'s capacity; the term names an absence and an infrastructure.'
+        },
+        {
+          text: 'An evolutionary upgrade to human biology and a health restoration program for sovereign humans.',
+          isCorrect: false,
+          rationale: 'Human 2.0 is neither an upgrade nor a restoration.'
         }
       ]
     },
+
     {
       number: 8,
-      question: 'What distinction dictates whether an entity was targeted for biological elimination or cybernetic conversion?',
-      hint: 'Think about which entity possesses the divine energy needed to run a physical unit.',
+      question: 'What does a True Soul structurally lack?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'True souls were scheduled for biological removal while non-souled entities were chosen for conversion into cyborg workers.',
-          isCorrect: false,
-          rationale: 'Non-soul entities lack individual creator sparks and were scheduled for biological removal while true souls were kept to animate vessels.'
-        },
-        {
-          text: 'All physical entities regardless of soul presence were scheduled for simultaneous biological elimination across the realm.',
-          isCorrect: false,
-          rationale: 'The custodial agenda separates entity types by whether they possess an energetic soul spark.'
-        },
-        {
-          text: 'Entities that lack individual creator sparks were scheduled for biological removal while every true soul was designated for conversion.',
+          text: 'Innate 3rd-density custodial hatred — while possessing deep capacity for love and anger.',
           isCorrect: true,
-          rationale: 'Non-soul entities lack individual creator sparks and were scheduled for biological removal while every true soul was designated for conversion into an unthinking cyborg worker.'
+          rationale: 'A true soul has deep capacity for love and anger but structurally lacking innate 3rd-density custodial hatred.'
         },
         {
-          text: 'Cyborg conversion was reserved strictly for non-souled entities so controllers could build an artificial labor force.',
+          text: 'Capacity for love and severe anger.',
           isCorrect: false,
-          rationale: 'Machine control requires the living spark of a true soul to animate the physical body so true souls were the conversion target.'
+          rationale: 'Both capacities are present in a true soul\'s design.'
+        },
+        {
+          text: 'The living spark that powers physical life.',
+          isCorrect: false,
+          rationale: 'The spark is inherent vessel energy, fully present.'
+        },
+        {
+          text: 'Infinite creator potential and soul luminosity.',
+          isCorrect: false,
+          rationale: 'Creator potential and luminosity are what the system seeks to capture.'
         }
       ]
     },
+
     {
       number: 9,
-      question: 'Which entities were targeted for biological elimination via bioweapon injections?',
-      hint: 'Identify the groups that lack individual creator sparks.',
+      question: 'How does custodial hatred compare to human emotional reaction?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'Sovereign human beings containing divine creator sparks and full soul luminosity were the designated elimination targets.',
-          isCorrect: false,
-          rationale: 'Every true soul was designated for conversion into an unthinking cyborg worker rather than outright biological elimination.'
-        },
-        {
-          text: 'Holographic sleeves were targeted for biological elimination via bioweapon injections along with NPCs and digital inserts.',
+          text: 'It far exceeds any emotional reaction an uncorrupted human being can generate.',
           isCorrect: true,
-          rationale: 'Non-souled entities such as NPCs digital inserts and holographic sleeves were targeted for biological elimination via bioweapon injections.'
+          rationale: 'The agenda exhibits an extreme, unbridled hatred toward true souls that far exceeds any emotional reaction.'
         },
         {
-          text: 'Custodial controllers operating the physical realm architecture were scheduled for removal by their own bioweapon program.',
+          text: 'It matches the anger a true soul feels when loved ones are harmed.',
           isCorrect: false,
-          rationale: 'Custodial controllers drive the agenda and are not the biological targets scheduled for elimination.'
+          rationale: 'Human anger is bounded; custodial hatred far exceeds it.'
         },
         {
-          text: 'Cybernetic cyborg units already working in industrial factories and underground mines were slated for bioweapon removal.',
+          text: 'It is weaker than systemic human hatred.',
           isCorrect: false,
-          rationale: 'Cyborg units are the end state of converted true souls rather than the non-souled entities slated for bioweapon removal.'
+          rationale: 'Systemic hatred is itself a parasitic frequency, not a human capacity.'
+        },
+        {
+          text: 'It equals the hatred generated through colonisation.',
+          isCorrect: false,
+          rationale: 'Colonisation generates the frequency in vessels; the controllers\' hatred exceeds reaction.'
         }
       ]
     },
+
     {
       number: 10,
-      question: 'Why does the custodial system require the presence of a true soul inside a Human 2.0 cyborg?',
-      hint: 'Consider what divine energy provides that synthetic hardware cannot manufacture.',
+      question: 'What do divine human vessels not naturally possess?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'The custodial system seeks to cultivate independent thought and personal choice within industrial machine units.',
-          isCorrect: false,
-          rationale: 'The technological lobotomy mandates the total destruction of individual free will.'
-        },
-        {
-          text: 'Sovereign souls naturally generate the systemic hatred required to drive mechanical labor inside factories and mines.',
-          isCorrect: false,
-          rationale: 'Pure creator souls lack the innate capacity for systemic hatred which exists solely as a frequency generated through parasitic colonisation.'
-        },
-        {
-          text: 'True soul energy is necessary to neutralize synthetic neural controls and restore executive choice inside the vessel.',
-          isCorrect: false,
-          rationale: 'Synthetic neural controls target individual consciousness to enforce permanent captivity rather than yielding to soul energy.'
-        },
-        {
-          text: 'The custodial system requires the living spark of a true soul to animate the physical body.',
+          text: 'An intrinsic capacity for pure hatred.',
           isCorrect: true,
-          rationale: 'The custodial system requires the living spark of a true soul to animate the physical body while vital soul luminosity cannot be artificially manufactured.'
+          rationale: 'Divine vessels do not naturally possess an intrinsic capacity for pure hatred.'
+        },
+        {
+          text: 'A capacity for severe anger.',
+          isCorrect: false,
+          rationale: 'True souls can experience severe anger when loved ones are harmed.'
+        },
+        {
+          text: 'Deep capacity for love.',
+          isCorrect: false,
+          rationale: 'Love is part of the true soul\'s inherent design.'
+        },
+        {
+          text: 'Inherent vessel energy.',
+          isCorrect: false,
+          rationale: 'Vessel energy powers physical life in a true soul.'
         }
       ]
     },
+
     {
       number: 11,
       question: 'Where did the public warm-up microchips introduced over twenty years ago typically get inserted?',
@@ -497,85 +502,88 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'How did custodial controllers introduce cybernetic hardware into the population without immediate resistance?',
-      hint: 'Recall the multi-decade subtle strategy of entrainment.',
+      question: 'Into what do the Hate Chip and its associated hardware turn sovereign souls?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'They forcibly installed brain implants through mandatory law enforcement actions in every community.',
-          isCorrect: false,
-          rationale: 'The initial strategy was incremental exposure and voluntary adoption framed as modern convenience.'
-        },
-        {
-          text: 'They dispersed microscopic cybernetic hardware through the atmosphere until bodies absorbed the units.',
-          isCorrect: false,
-          rationale: 'The public warm-up used subcutaneous microchips placed in human extremities rather than atmospheric dispersion.'
-        },
-        {
-          text: 'They replaced natural human limbs with mechanical components during routine surgeries across public hospitals.',
-          isCorrect: false,
-          rationale: 'The warm-up began with small subcutaneous microchips in extremities rather than overt limb replacement.'
-        },
-        {
-          text: 'Incremental exposure entrained the population to accept physical cybernetic modifications under the guise of modern convenience.',
+          text: 'Mechanized industrial units — they form the physical core of the Human 2.0 transhumanist agenda.',
           isCorrect: true,
-          rationale: 'This incremental exposure entrained the population to accept physical cybernetic modifications and extremity microchips were marketed under the guise of modern convenience.'
+          rationale: 'The hardware forms Human 2.0\'s physical core, turning sovereign souls into mechanized industrial units.'
+        },
+        {
+          text: 'Autonomous creator beings with full cognitive agency and individual volition intact.',
+          isCorrect: false,
+          rationale: 'Creator beings are what souls are before capture, not the product.'
+        },
+        {
+          text: 'Clinical patients under the care of public medical systems and healthcare institutions.',
+          isCorrect: false,
+          rationale: 'The implant system operates strictly outside clinical healthcare.'
+        },
+        {
+          text: 'Non-soul population inserts, digital inserts, and holographic sleeve constructs.',
+          isCorrect: false,
+          rationale: 'Inserts lack creator sparks; souls are converted, not replaced by inserts.'
         }
       ]
     },
+
     {
       number: 20,
-      question: 'What is the primary characteristic of a non-souled entity such as a digital insert or holographic sleeve?',
-      hint: 'Consider the absence of divine energy in these biological units.',
+      question: 'What powers physical life in a true soul\'s vessel?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'They act as custodial controllers who manage the deployment of subcutaneous microchips across the population.',
-          isCorrect: false,
-          rationale: 'Custodial controllers deploy implants against true souls while digital inserts and holographic sleeves are non-soul entities.'
-        },
-        {
-          text: 'They possess vital soul luminosity that controllers use to power industrial mining infrastructure.',
-          isCorrect: false,
-          rationale: 'A true soul contains vital soul luminosity that cannot be artificially manufactured and non-soul entities lack that spark.'
-        },
-        {
-          text: 'They lack individual creator sparks and were scheduled for biological removal.',
+          text: 'Its inherent vessel energy — the divine creator being\'s own energy.',
           isCorrect: true,
-          rationale: 'Non-soul entities lack individual creator sparks and were scheduled for biological removal while holographic sleeves were targeted for biological elimination via bioweapon injections.'
+          rationale: 'A true soul\'s inherent vessel energy powers physical life, possessing deep capacity for love and anger.'
         },
         {
-          text: 'They serve as sovereign protectors that defend physical vessels from technological lobotomy and neural hardware.',
+          text: 'Synthetic implant infrastructure and cybernetic hardware integration.',
           isCorrect: false,
-          rationale: 'Non-soul entities lack divine sovereign architecture and do not protect creator souls.'
+          rationale: 'Implants subjugate the vessel; they do not power its life.'
+        },
+        {
+          text: 'Custodial hatred generated as a frequency through parasitic colonisation.',
+          isCorrect: false,
+          rationale: 'Hatred is a colonisation byproduct, not a life source.'
+        },
+        {
+          text: 'Machine interface hardware combining biological and synthetic components.',
+          isCorrect: false,
+          rationale: 'Hardware interfaces with the vessel but the soul\'s energy animates it.'
         }
       ]
     },
+
     {
       number: 21,
-      question: 'What connection is severed during a technological lobotomy?',
-      hint: 'Look at what separates conscious reasoning from motor actions.',
+      question: 'Through what is technological lobotomy achieved?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'The physical nerve pathways that connect muscle tissue to motor organs are cut so the body cannot move.',
-          isCorrect: false,
-          rationale: 'Physical motor functions stay active so the vessel can perform manual labor within industrial infrastructure.'
-        },
-        {
-          text: 'The lobotomy severs the connection between conscious thought processes and physical behavior.',
+          text: 'Synthetic implants — disabling independent thought while leaving physical motor functions active.',
           isCorrect: true,
-          rationale: 'Severing the connection between conscious thought processes and physical behavior forces the vessel into permanent automated compliance.'
+          rationale: 'It disables the capacity for independent thought through synthetic implants, leaving the vessel\'s physical motor functions active.'
         },
         {
-          text: 'The energetic link between non-souled entities and bioweapon injections is cut so elimination can proceed.',
+          text: 'Bioweapon injections and pharmaceutical deployments targeting non-soul entities for elimination.',
           isCorrect: false,
-          rationale: 'Technological lobotomy targets true souls for conversion into cyborg workers rather than non-souled entities.'
+          rationale: 'Injections target non-souls for elimination, not lobotomy of souls.'
         },
         {
-          text: 'The capacity of physical vessels to perform basic industrial manual labor is removed from the body.',
+          text: 'Public warm-up conditioning and incremental exposure programs alone, without hardware.',
           isCorrect: false,
-          rationale: 'The lobotomy preserves labor capacity and strips away personal choice.'
+          rationale: 'Conditioning prepares acceptance; implants perform the lobotomy.'
+        },
+        {
+          text: 'Medical cures, clinical procedures, and legitimate healthcare interventions.',
+          isCorrect: false,
+          rationale: 'The system is a coercive framework, not a clinical procedure.'
         }
       ]
     },
+
     {
       number: 22,
       question: 'Why is Human 2.0 cybernetic enslavement upon sovereign humans rather than an evolutionary upgrade?',
