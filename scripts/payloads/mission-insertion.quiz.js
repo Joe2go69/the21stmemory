@@ -88,26 +88,60 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'How many separate lifetimes does each inserted soul architecture navigate across the 178,000-year cycle?',
-      hint: 'Distinguish between the number of souls and the number of incarnations each soul undergoes.',
+      question: 'How many distinct physical vessel downsizings have inserted soul architectures endured across the 178,000-year cycle?',
+      hint: 'Check the second Broader Context paragraph.',
       options: [
-        { text: 'Between three and four lifetimes.', isCorrect: false, rationale: 'This was the number of incarnations experienced during the initial unshielded phase, not the total cycle.' },
-        { text: 'Over 5,000 lifetimes.', isCorrect: true, rationale: 'Each inserted soul architecture navigates over 5,000 separate lifetimes across the 178,000-year cycle.' },
-        { text: 'Approximately 12,000 lifetimes.', isCorrect: false, rationale: 'The number 12 refers to the density of the original form, but the lifetime count is over 5,000.' },
-        { text: 'Exactly 4,000 lifetimes.', isCorrect: false, rationale: 'There are 4,000 ancient souls, but each soul navigates over 5,000 separate lifetimes.' }
+        {
+          text: 'Seven distinct physical vessel downsizings initiated by custodial resets.',
+          isCorrect: true,
+          rationale: 'Across the cycle they endured seven distinct physical vessel downsizings initiated by custodial resets.'
+        },
+        {
+          text: 'Five distinct physical vessel downsizings.',
+          isCorrect: false,
+          rationale: 'The downsizings across the cycle number seven, not five.'
+        },
+        {
+          text: 'Three distinct physical vessel downsizings.',
+          isCorrect: false,
+          rationale: 'Three to four was the count of early unshielded incarnations; the downsizings number seven.'
+        },
+        {
+          text: 'Nine distinct physical vessel downsizings.',
+          isCorrect: false,
+          rationale: 'Nine is not the count given; the architectures endured seven distinct downsizings.'
+        }
       ]
     },
+
     {
       number: 9,
-      question: 'What is the function of indigenous botanical interfaces like the Ayahuasca vine in this mission?',
-      hint: 'Think about the role of \'botanical keys\' in facilitating internal reasoning.',
+      question: 'What did inserted souls retain during the initial Lemurian and Atlantean phase?',
+      hint: 'Look at the second Core Revelations paragraph.',
       options: [
-        { text: 'To provide a physical fuel source for the atmospheric Arc Pods.', isCorrect: false, rationale: 'The pods are powered by high-density technology; botanical interfaces are used for consciousness communication.' },
-        { text: 'To shield the surface avatar from the atmospheric radiation caused by custodial resets.', isCorrect: false, rationale: 'The shielding is managed by angelic dimensional overlays, while botanicals are used for internal sensory access.' },
-        { text: 'To permanently restore the avatar\'s memory of their 12th-density homeworld.', isCorrect: false, rationale: 'The access is temporary and serves as a communication channel rather than a permanent restoration of all suppressed memories.' },
-        { text: 'To allow the avatar\'s consciousness to bypass sensory filters and access pod communications.', isCorrect: true, rationale: 'These botanicals act as keys to open the calcified pineal gland, facilitating communication without violating field laws.' }
+        {
+          text: 'Full off-world memory recall, high-density capabilities, and natural lifespans of four to five hundred years.',
+          isCorrect: true,
+          rationale: 'Inserted souls operated with full off-world memory recall and lifespans spanning four to five hundred years.'
+        },
+        {
+          text: 'Only intuitive impulses, with all explicit memory switched off.',
+          isCorrect: false,
+          rationale: 'Memory was switched off only after the fall of Atlantis; the initial phase retained full recall.'
+        },
+        {
+          text: 'Memory of the homeworld, but no awareness of mission objectives.',
+          isCorrect: false,
+          rationale: 'Initial avatars held off-world memory and mission awareness before the environment corrupted.'
+        },
+        {
+          text: 'Fragmentary recall refreshed at trajectory checkpoints.',
+          isCorrect: false,
+          rationale: 'Checkpoint validation belongs to the later shielded phase; the initial phase was unshielded.'
+        }
       ]
     },
+
     {
       number: 10,
       question: 'What happens to the 3rd-density avatar once the final convergence loop is completed?',
@@ -143,15 +177,32 @@ module.exports = {
     },
     {
       number: 13,
-      question: 'How did the lifespan of inserted souls change after the shift from the Atlantean epoch?',
-      hint: 'Consider the impact of the Great Flood and subsequent matrix corruption on biology.',
+      question: 'Why can surface distractions and cultural noise not derail the ultimate convergence?',
+      hint: 'See Guaranteed Convergence Execution.',
       options: [
-        { text: 'Lifespans increased as the physical bodies adapted to the sub-basic density.', isCorrect: false, rationale: 'Environmental degradation and resets actually led to a drastic reduction in lifespan over time.' },
-        { text: 'Lifespans remained constant at 400 years despite the loss of off-world memory.', isCorrect: false, rationale: 'The unshielded 400-500 year lifespans were only possible during the initial Lemurian and Atlantean phases.' },
-        { text: 'Average surface lifespans were reduced to under 35 years due to historical resets.', isCorrect: true, rationale: 'Cataclysmic planetary resets and hostile conditions reduced average surface lifespans to under 35 years.' },
-        { text: 'Lifespans were removed entirely as the souls moved into a permanent digital state.', isCorrect: false, rationale: 'The souls continued to incarnate into biological vessels, which were subject to physical aging and resets.' }
+        {
+          text: 'Because the Arc Trajectory was mapped and coded into the matrix prior to ingress, mathematically locking the souls\' physical positioning.',
+          isCorrect: true,
+          rationale: 'The trajectory was mapped and coded into the matrix prior to ingress, so positioning during the awakening phase is mathematically locked.'
+        },
+        {
+          text: 'Because avatars consciously resist distraction through recovered memory.',
+          isCorrect: false,
+          rationale: 'Avatars operate under memory suppression; the lock comes from the pre-coded trajectory, not recovered memory.'
+        },
+        {
+          text: 'Because the GAA removes disruptive cultural signals from the field.',
+          isCorrect: false,
+          rationale: 'No signal removal is described; the convergence holds because positioning was coded in advance.'
+        },
+        {
+          text: 'Because each avatar is steered by daily instructions from its pod cluster.',
+          isCorrect: false,
+          rationale: 'Guidance flows through the Oversoul\'s impulses; the guarantee rests on the trajectory mapped before ingress.'
+        }
       ]
     },
+
     {
       number: 14,
       question: 'What ensures that the physical positioning of the 4,000 souls is \'mathematically locked\' for the awakening phase?',
@@ -165,15 +216,32 @@ module.exports = {
     },
     {
       number: 15,
-      question: 'What is the \'will to think\' within a 3rd-density avatar actually derived from?',
-      hint: 'Look for the source of the overarching intuitive directives.',
+      question: 'Under the Clueless Protocol, how does the Oversoul guide the incarnate vessel?',
+      hint: 'Look at the third Core Revelations paragraph.',
       options: [
-        { text: 'Random chemical interactions within the localized biological vessel.', isCorrect: false, rationale: 'The \'will to think\' is a purposeful directive from the Oversoul, not a result of random biological processes.' },
-        { text: 'The biological instincts inherent in the inverted simulation matrix.', isCorrect: false, rationale: 'While the surface brain performs routine localized cognition, the fundamental will is broadcast from the off-surface pod.' },
-        { text: 'Direct broadcasts from the atmospheric Arc Pod.', isCorrect: true, rationale: 'While the brain handles routine tasks, the overarching directives and will are projected from the Oversoul.' },
-        { text: 'The collective unconscious formed by the 4,000 ancient souls.', isCorrect: false, rationale: 'The guidance is individual, broadcast from each specific soul\'s atmospheric pod to its avatar.' }
+        {
+          text: 'Through intuitive impulses, while the avatar is shielded from the psychological weight of its true history.',
+          isCorrect: true,
+          rationale: 'The Oversoul guides the incarnate vessel through intuitive impulses after direct control moved off-surface to the Arc Pods.'
+        },
+        {
+          text: 'Through direct physical instructions delivered to the surface avatar.',
+          isCorrect: false,
+          rationale: 'Direct operational control moved off-surface; guidance arrives as intuitive impulses, not instructions.'
+        },
+        {
+          text: 'Through conscious mission briefings restored after each incarnation.',
+          isCorrect: false,
+          rationale: 'Conscious memory of mission objectives was entirely switched off within the surface vessel.'
+        },
+        {
+          text: 'Through botanical interfaces that permanently reopen memory.',
+          isCorrect: false,
+          rationale: 'Botanical keys open temporary access; the standing guidance channel is the Oversoul\'s intuitive impulses.'
+        }
       ]
     },
+
     {
       number: 16,
       question: 'What does the Galactic Ancestral Alliance (GAA) govern?',
