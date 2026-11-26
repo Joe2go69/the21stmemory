@@ -108,35 +108,78 @@ module.exports = {
     },
     {
       number: 10,
-      question: 'True or False: Deep planetary fluids like oil flow freely across realm boundaries under the ice walls as essential architectural lubricant.',
-      hint: 'Review the shared infrastructure described beneath ice boundaries between worlds.',
+      question: 'True or False: According to the report, unlike the physical plane\'s Great Dome, the External Domes host higher-density light realms and semi-physical architectures.',
+      hint: 'See the Overview.',
       options: [
-        { text: 'True', isCorrect: true, rationale: 'Vast oceans connect beneath ice boundaries, and deep planetary fluids like oil flow freely across realm boundaries under the ice walls as essential architectural lubricant.' },
-        { text: 'False', isCorrect: false, rationale: 'The report describes that oil as essential architectural lubricant flowing under the ice walls, not as waste or a barrier.' }
+        {
+          text: 'True',
+          isCorrect: true,
+          rationale: 'The Great Dome is a sealed Terrarium Seal enclosing physical landmasses and the shared Super-Ocean, the External Domes host higher-density light realms.'
+        },
+        {
+          text: 'False',
+          isCorrect: false,
+          rationale: 'That contrast is exactly how the report distinguishes the two.'
+        }
       ]
     },
+
     {
       number: 11,
-      question: 'Why does industrial extraction of essential metals like copper harm planetary communication with the External Domes?',
-      hint: 'Consider what is lost when conductive material is pulled out of a receiving network.',
+      question: 'What does mastery of Consciousness as the 5th Element restore?',
+      hint: 'See Strategic Implications.',
       options: [
-        { text: 'It disables the planetary motherboard\'s receiving nodes and blocks instant energetic updates and portal capabilities.', isCorrect: true, rationale: 'Extracting essential metals like copper disables the planetary motherboard\'s receiving nodes, severing instant energetic updates and high-density portal capabilities.' },
-        { text: 'It shatters the ice walls under the shared Super-Ocean basin and releases Terrarium Seal pressure.', isCorrect: false, rationale: 'Copper extraction disables receiving nodes on the planetary motherboard, rather than shattering ice walls.' },
-        { text: 'It collapses the whole multi-dimensional Cube downward into the lower horizontal frequency bands.', isCorrect: false, rationale: 'The Cube remains the container of creation; copper mining disrupts physical receiving nodes.' },
-        { text: 'It drains volcanic heat from the lower physical atmosphere and weakens the shield over Realm-3.', isCorrect: false, rationale: 'The harm named in the report is the loss of motherboard receiving nodes, not a drain of volcanic heat.' }
+        {
+          text: 'Innate portal travel, telepathic manifestation, and direct communion with higher-density light realms.',
+          isCorrect: true,
+          rationale: 'Through Earth, Air, Fire, Water, and Consciousness empowers individual soul light to transcend physical limitations, restoring innate portal travel.'
+        },
+        {
+          text: 'Access to the Terrarium Seal\'s pressure regulation systems.',
+          isCorrect: false,
+          rationale: 'The Seal belongs to the physical Great Dome, not soul mastery.'
+        },
+        {
+          text: 'Control over the Super-Ocean\'s shared aquatic circuit beneath the walls.',
+          isCorrect: false,
+          rationale: 'The circuit is plane infrastructure, not a restored faculty.'
+        },
+        {
+          text: 'Authority over the physical plane\'s automated manufacturing floor.',
+          isCorrect: false,
+          rationale: 'The floor is administered from the domes, not mastered by souls.'
+        }
       ]
     },
+
     {
       number: 12,
-      question: 'How are rivers, streams, and waterfalls understood when seen from the higher densities of the External Domes?',
-      hint: 'Consider what flowing water represents on the physical surface when seen from those higher densities.',
+      question: 'What do the External Domes represent, in the report\'s analogy?',
+      hint: 'See Core Revelations.',
       options: [
-        { text: 'They read as literal data streams inside one unified multidimensional circuit.', isCorrect: true, rationale: 'Rivers, streams, and waterfalls function as literal data streams when viewed from the higher densities of the External Domes.' },
-        { text: 'They read as temporary runoff left after volcanic pressure discharge events.', isCorrect: false, rationale: 'From the External Domes, those waters function as literal data streams, not as volcanic runoff.' },
-        { text: 'They read as static mirrors that scramble high-density blueprint code in transit.', isCorrect: false, rationale: 'Flowing water carries data in the telluric network, rather than scrambling blueprint code.' },
-        { text: 'They read as surface obstacles that stop transmission between Ley Line nodes.', isCorrect: false, rationale: 'Rivers, streams, and waterfalls function as literal data streams, so they are not obstacles between nodes.' }
+        {
+          text: 'The upper management and design engineering complex.',
+          isCorrect: true,
+          rationale: 'The plane is an automated manufacturing floor, whereas the External Domes represent the upper management and design engineering complex.'
+        },
+        {
+          text: 'The automated manufacturing floor itself.',
+          isCorrect: false,
+          rationale: 'The floor is the physical plane in the analogy.'
+        },
+        {
+          text: 'The protective Terrarium Seal overhead.',
+          isCorrect: false,
+          rationale: 'The Seal encloses the physical plane, not the domes\' role.'
+        },
+        {
+          text: 'The receiving nodes of the motherboard.',
+          isCorrect: false,
+          rationale: 'The nodes sit on the plane\'s circuit board.'
+        }
       ]
     },
+
     {
       number: 13,
       question: 'What occurs during Pre-Subatomic Engineering within external light realms?',
@@ -150,15 +193,32 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'What role do crystalline temples play when situated upon Ley Line emission points?',
-      hint: 'Think about the structure a guardian uses when sending a request from a physical node.',
+      question: 'What do telluric currents connect?',
+      hint: 'See the Key Terminology entry for Telluric Currents.',
       options: [
-        { text: 'They are the topped points from which a guardian sends a request into the Aether.', isCorrect: true, rationale: 'Every Great Dome features matching nodal Ley Line emission points topped with crystalline temples, and a guardian initiates a request from a crystalline temple.' },
-        { text: 'They hold soul light inside the chest for the length of a physical life.', isCorrect: false, rationale: 'The Neshama is housed in the chest, while crystalline temples top Ley Line emission points.' },
-        { text: 'They cap volcanic vents so pressure under the Terrarium Seal stays steady.', isCorrect: false, rationale: 'Volcanoes regulate pressure for the Terrarium Seal; temples top the nodal emission points.' },
-        { text: 'They store dense mineral ores pulled from hydrothermal veins buried in the crust.', isCorrect: false, rationale: 'Temples sit on emission points for telluric requests, rather than storing mined ores.' }
+        {
+          text: 'External Great Domes to the physical plane, for instantaneous communication.',
+          isCorrect: true,
+          rationale: 'They are harmonic energy streams flowing through nodal Ley Line emission points that connect external Great Domes to the physical plane.'
+        },
+        {
+          text: 'The five domes to one another laterally.',
+          isCorrect: false,
+          rationale: 'The domes stack vertically; the currents link domes to plane.'
+        },
+        {
+          text: 'Aquatic worlds to fire worlds directly.',
+          isCorrect: false,
+          rationale: 'Those are realm types inside the domes, not current endpoints.'
+        },
+        {
+          text: 'The Celestial Lands to the physical vessel.',
+          isCorrect: false,
+          rationale: 'The soul\'s route is the Neshama\'s, not the currents\'.'
+        }
       ]
     },
+
     {
       number: 15,
       question: 'In multidimensional creation within the External Domes, what is the role of Consciousness?',
@@ -183,15 +243,32 @@ module.exports = {
     },
     {
       number: 17,
-      question: 'When a physical guardian requests a biological update from a crystalline temple, how does the response show up on the physical planet?',
-      hint: 'Follow what the physical planet does after a finished harmonic solution is sent back.',
+      question: 'When are blueprint schematics for physical matter designed, tested, and manufactured?',
+      hint: 'See the Overview.',
       options: [
-        { text: 'Natural organic technology adjusts soil chemistry, pH balances, and enzyme production from the returned code.', isCorrect: true, rationale: 'The returned code leads the physical planet to respond by adjusting soil chemistry, pH balances, and enzyme production without requiring manual physical intervention.' },
-        { text: 'Visiting guardians come down and adjust soil chemistry by hand at the temple site itself.', isCorrect: false, rationale: 'The planet adjusts soil chemistry, pH balances, and enzyme production without requiring manual physical intervention.' },
-        { text: 'Local guardians synthesize the new enzymes in laboratories before any physical change appears.', isCorrect: false, rationale: 'Enzyme production changes through the planet\'s natural organic technology after the download, not through laboratory synthesis.' },
-        { text: 'The request waits in an external queue until atmospheric pressure comes back into balance.', isCorrect: false, rationale: 'Nodal communication folds dimensional space, so the transfer is instantaneous rather than queued for a pressure balance.' }
+        {
+          text: 'Before the matter materializes.',
+          isCorrect: true,
+          rationale: 'The hubs are responsible for designing, testing, and manufacturing the energetic blueprint schematics for all physical matter before it materializes.'
+        },
+        {
+          text: 'After the matter materializes on the plane.',
+          isCorrect: false,
+          rationale: 'Schematics precede materialization by design.'
+        },
+        {
+          text: 'During the soul\'s post-mortem transit.',
+          isCorrect: false,
+          rationale: 'Transit concerns the Neshama, not schematic production.'
+        },
+        {
+          text: 'Only when a guardian files a request.',
+          isCorrect: false,
+          rationale: 'The hubs generate schematics as their standing function.'
+        }
       ]
     },
+
     {
       number: 18,
       question: 'Which of these is NOT one of the five External Domes?',
@@ -216,15 +293,32 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'How do tree leaf antennas contribute to the multidimensional energy circuit?',
-      hint: 'Look at the living link between the upper atmosphere and the ground circuit.',
+      question: 'Where are human souls native to?',
+      hint: 'See Core Revelations.',
       options: [
-        { text: 'They take in Aetheric energy from above and pass it into physical soil and crystalline caves.', isCorrect: true, rationale: 'Aetheric energy flows from the upper atmospheric Aether down through tree leaf antennas, entering physical soil and crystalline cave systems.' },
-        { text: 'They draw volcanic heat out of the crust and vent that heat upward into the upper atmosphere.', isCorrect: false, rationale: 'Leaf antennas carry Aetheric energy down into soil and caves, rather than venting volcanic heat upward.' },
-        { text: 'They lay down fresh copper veins that replace metal taken from the planetary motherboard.', isCorrect: false, rationale: 'Leaves conduct Aetheric energy into the ground circuit; they do not replace mined copper veins.' },
-        { text: 'They hold atmospheric pressure inside the Terrarium Seal over the physical plane.', isCorrect: false, rationale: 'Pressure over the physical plane is held by the Terrarium Seal, while leaves pass Aetheric energy into the soil.' }
+        {
+          text: 'The non-physical Celestial Lands at the heart of the Great Dome.',
+          isCorrect: true,
+          rationale: 'Souls maintain a direct, living connection between human spiritual architecture and Terra Incognita, emphasizing that human souls are native to the Celestial Lands.'
+        },
+        {
+          text: 'The inverted physical plane far below.',
+          isCorrect: false,
+          rationale: 'Souls are merely visiting the plane.'
+        },
+        {
+          text: 'The external Dome of harmonics, Hiva.',
+          isCorrect: false,
+          rationale: 'Hiva is an external dome; souls are native to Terra Incognita.'
+        },
+        {
+          text: 'The semi-physical testing grounds.',
+          isCorrect: false,
+          rationale: 'Those are intermediate environments inside the domes.'
+        }
       ]
     },
+
     {
       number: 21,
       question: 'True or False: All physical and non-physical creation sits inside a spherical vacuum suspended in an empty void.',
@@ -245,26 +339,60 @@ module.exports = {
     },
     {
       number: 23,
-      question: 'How do the hundreds of membrane worlds inside each External Dome remain distinct from one another?',
-      hint: 'Look at how worlds that share infrastructure can still stay distinct when distance is not the divider.',
+      question: 'What is impossible in the external realms\' quantum harmonic experiments?',
+      hint: 'See Core Revelations.',
       options: [
-        { text: 'They keep apart by thought and frequency rather than spatial distance.', isCorrect: true, rationale: 'Each External Dome encloses hundreds of individual worlds separated by thought and frequency rather than spatial distance.' },
-        { text: 'They keep apart by vast spatial distance across the basins of the shared Super-Ocean.', isCorrect: false, rationale: 'The worlds are separated by thought and frequency rather than spatial distance, and their oceans connect under the ice.' },
-        { text: 'They keep apart behind volcanic trenches that vent magma under the crust of Realm-3.', isCorrect: false, rationale: 'Volcanic trenches belong to physical pressure regulation, not to the separation of these membrane worlds.' },
-        { text: 'They keep apart behind ice walls treated as hard borders that fluids cannot cross.', isCorrect: false, rationale: 'Oil and oceans flow across realm boundaries under the ice walls, so those walls are not hard borders between worlds.' }
+        {
+          text: 'Failure, waste, or delay.',
+          isCorrect: true,
+          rationale: 'Operating outside linear time, these external realms conduct quantum harmonic experiments where failure, waste, or delay are impossible.'
+        },
+        {
+          text: 'Instantaneous schematic development.',
+          isCorrect: false,
+          rationale: 'Perfect schematics are developed instantaneously.'
+        },
+        {
+          text: 'Harmonic experimentation itself.',
+          isCorrect: false,
+          rationale: 'Experimentation is the realms\' standing work.'
+        },
+        {
+          text: 'Elemental variation across realms.',
+          isCorrect: false,
+          rationale: 'Variation across realms is part of the design.'
+        }
       ]
     },
+
     {
       number: 24,
-      question: 'Which biological update is the named example of work begun in the light realms before it shows up physically?',
-      hint: 'Look at the example given when a physical requirement first arises in the light realms.',
+      question: 'What do blueprint schematics consist of?',
+      hint: 'See the Key Terminology entry for Blueprint Schematics.',
       options: [
-        { text: 'The F3\'5\'H plant enzyme, coded as a new plant enzyme ahead of particle solidification.', isCorrect: true, rationale: 'When a physical requirement arises, the example given is generating a new plant enzyme like the F3\'5\'H enzyme, and that process begins in the light realms.' },
-        { text: 'A volcanic-vent enzyme, coded in magma chambers before Terrarium Seal pressure changes state.', isCorrect: false, rationale: 'The named plant enzyme in that passage is the F3\'5\'H enzyme, not an enzyme coded in volcanic vents.' },
-        { text: 'A brine enzyme, coded inside fire worlds before elemental core vibrations are set.', isCorrect: false, rationale: 'Fire worlds forge elemental core vibrations; the named biological example is the F3\'5\'H plant enzyme.' },
-        { text: 'A copper-vein enzyme, coded in the crust before mined nodes store mineral traces.', isCorrect: false, rationale: 'Copper is discussed as a motherboard metal, while the named enzyme example is the F3\'5\'H plant enzyme.' }
+        {
+          text: 'Energetic code, harmonic data, and elemental instructions.',
+          isCorrect: true,
+          rationale: 'They are energetic code, harmonic data, and elemental instructions generated within the External Domes to dictate physical creation.'
+        },
+        {
+          text: 'Physical blueprints drawn on the plane.',
+          isCorrect: false,
+          rationale: 'Schematics are energetic, generated inside the domes.'
+        },
+        {
+          text: 'Telluric requests sent by guardians.',
+          isCorrect: false,
+          rationale: 'Requests travel the currents; schematics are the generated code.'
+        },
+        {
+          text: 'Mineral traces buried in the motherboard.',
+          isCorrect: false,
+          rationale: 'Traces are the plane\'s hardware, not schematic content.'
+        }
       ]
     },
+
     {
       number: 25,
       question: 'Why can physical reality not be genuinely transformed through mechanical or chemical force alone?',
