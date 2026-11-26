@@ -173,31 +173,32 @@ module.exports = {
     },
     {
       number: 7,
-      question: 'What was the significance of 1956 for the physical firmament?',
-      hint: 'Look for the mid-century publication that brought containment.',
+      question: 'What does recognizing the sky as an artificial projection collapse?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'The Venus holographic projector hardware was switched on for the first time.',
-          isCorrect: false,
-          rationale: '1956 marks the discovery of the physical firmament and its publication, not the first switching-on of Venus.'
-        },
-        {
-          text: 'Sky-Net continuous scrolling overlays were finished and locked across the realm.',
-          isCorrect: false,
-          rationale: 'The year is tied to encyclopedia publication of the firmament, which triggered institutional containment measures.'
-        },
-        {
-          text: 'A successful voyage beyond the Antarctic ice wall was entered in the records.',
-          isCorrect: false,
-          rationale: 'The published event was the discovery of the physical firmament, and attention was kept off ice-wall exploration.'
-        },
-        {
-          text: 'The discovery of the physical firmament and its publication in encyclopedias.',
+          text: 'The entire construct of theoretical astrophysics.',
           isCorrect: true,
-          rationale: 'The discovery of the physical firmament in 1956 and its subsequent publication in encyclopedia records triggered institutional containment measures.'
+          rationale: 'It collapses theoretical astrophysics and custodial disorienting narratives. Stripping away the celestial illusion shifts human awareness back to the plane.'
+        },
+        {
+          text: 'The ice wall\'s physical perimeter.',
+          isCorrect: false,
+          rationale: 'The perimeter is physical and remains standing.'
+        },
+        {
+          text: 'The station\'s loosh-harvesting operation.',
+          isCorrect: false,
+          rationale: 'Exposure reveals the operation; it does not collapse it.'
+        },
+        {
+          text: 'The Wendy House illusion\'s firmware traits.',
+          isCorrect: false,
+          rationale: 'The traits are human firmware, not the collapsed construct.'
         }
       ]
     },
+
     {
       number: 8,
       question: 'Which innate human cognitive attributes are targeted and neutralized by the projection Dome?',
@@ -308,58 +309,60 @@ module.exports = {
     },
     {
       number: 12,
-      question: 'How do global educational systems and scientific authorities sustain the enclosure?',
-      hint: 'Review what those authorities mandate as a foundational axiom.',
+      question: 'What does the custodial architecture systematically exploit?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'By mandating globe theory and a heliocentric paradigm.',
+          text: 'Innate human curiosity and problem-solving attributes.',
           isCorrect: true,
-          rationale: 'Global educational systems and scientific authorities mandate globe theory as a foundational axiom and teach a false heliocentric paradigm.'
+          rationale: 'By decorating the overhead vault with simulated cosmic features, the custodial architecture systematically exploits innate human curiosity and problem-solving attributes.'
         },
         {
-          text: 'By teaching the moon as a 4th-density station overhead.',
+          text: 'Human fear of the ice wall perimeter.',
           isCorrect: false,
-          rationale: 'Authorities mandate globe theory; they do not teach the moon as a station behind a hologram.'
+          rationale: 'The exploitation runs through curiosity, not fear.'
         },
         {
-          text: 'By discouraging calculations regarding parsecs and orbits.',
+          text: 'Institutional authority over education.',
           isCorrect: false,
-          rationale: 'The enclosure is sustained by globe theory, while parsec calculations are used to consume analytical energy.'
+          rationale: 'Education enforces the paradigm; the dome exploits curiosity.'
         },
         {
-          text: 'By promoting field research beyond the southern ice wall.',
+          text: 'The station\'s mobility across domes.',
           isCorrect: false,
-          rationale: 'Ice-wall research is obfuscated; schools mandate globe theory as a foundational axiom.'
+          rationale: 'Mobility is the station\'s logistics, not an exploited trait.'
         }
       ]
     },
+
     {
       number: 13,
-      question: 'What system projects senescent holograms and environmental illusions across the surface of the realm?',
-      hint: 'Find the network that firmament holograms link into for surface illusions.',
+      question: 'What does Venus maintain across the realm?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'Venus optical transmission hardware unit.',
-          isCorrect: false,
-          rationale: 'Venus projects the lunar image and celestial visual data, not the senescent holograms on the surface.'
-        },
-        {
-          text: 'The Sky-Net continuous scrolling overlays.',
+          text: 'The grand skyway illusion.',
           isCorrect: true,
-          rationale: 'Firmament holograms link into Sky-Net continuous scrolling overlays, which project senescent holograms and environmental illusions.'
+          rationale: 'Venus, The Bright Morning Star, which projects the self-illuminated hologram of the moon and maintains the grand skyway illusion across the realm.'
         },
         {
-          text: 'Projection Dome firmament canopy system.',
+          text: 'The ice wall\'s obfuscation system.',
           isCorrect: false,
-          rationale: 'The dome projects astronomical phenomena onto the upper atmosphere grid, while Sky-Net projects the surface illusions.'
+          rationale: 'The obfuscation is the dome\'s effect, not Venus\'s maintained display.'
         },
         {
-          text: 'Ice wall perimeter around the local plane.',
+          text: 'The soul memory archive in the station.',
           isCorrect: false,
-          rationale: 'The ice wall is the physical perimeter; senescent holograms come from Sky-Net continuous scrolling overlays.'
+          rationale: 'The archive is managed by the station behind the moon.'
+        },
+        {
+          text: 'The comets\' periodic display schedule.',
+          isCorrect: false,
+          rationale: 'Comets are part of the display Venus drives, not its maintained whole.'
         }
       ]
     },
+
     {
       number: 14,
       question: 'What would show in the sky if the Venus projector stopped while the space station remained in the local sector?',
@@ -460,21 +463,22 @@ module.exports = {
     },
     {
       number: 18,
-      question: 'True or False: The projected canopy operates much like a massive laser light show.',
-      hint: 'Look at how the mechanics describe the projected canopy in action.',
+      question: 'True or False: According to the report, the projected moon provides a cold, self-illuminated light source operating on distinct thermal parameters from solar radiation.',
+      hint: 'See Detailed Mechanics and Key Elements.',
       options: [
         {
           text: 'True',
           isCorrect: true,
-          rationale: 'The projected canopy operates much like a massive laser light show, projecting passing comets and the glowing spiral of the Milky Way.'
+          rationale: 'It is a cold, self-illuminated light source that operates on distinct thermal parameters from solar radiation.'
         },
         {
           text: 'False',
           isCorrect: false,
-          rationale: 'The mechanics compare the projected canopy to a massive laser light show that casts comets and the Milky Way spiral.'
+          rationale: 'That thermal contrast is exactly what the report states.'
         }
       ]
     },
+
     {
       number: 19,
       question: 'What phrase describes the theoretical cosmological model taught through those calculations?',
@@ -629,30 +633,31 @@ module.exports = {
     },
     {
       number: 25,
-      question: 'What does the projection Dome contribute as part of the broader terrarium seal?',
-      hint: 'Ask how the dome completes the enclosure above the plane.',
+      question: 'What does stripping away the celestial illusion shift?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'A ground anchor that fastens the upper atmosphere grid to the surface.',
-          isCorrect: false,
-          rationale: 'The dome establishes a closed optical environment over the plane; it is not a ground anchor.'
-        },
-        {
-          text: 'A closed optical environment established over the physical plane.',
+          text: 'Human awareness from imaginary vertical frontiers back to the physical reality of the plane.',
           isCorrect: true,
-          rationale: 'As a constituent element of the broader terrarium seal, the dome establishes a closed optical environment over the plane.'
+          rationale: 'Stripping away the celestial illusion shifts human awareness from imaginary vertical frontiers back to the physical reality of the plane.'
         },
         {
-          text: 'A heat exhaust valve that vents atmospheric pressure through the canopy.',
+          text: 'Human awareness upward into imagined outer space.',
           isCorrect: false,
-          rationale: 'The dome’s terrarium role is a closed optical environment, not a pressure exhaust.'
+          rationale: 'That upward diversion is the illusion\'s own work.'
         },
         {
-          text: 'An electromagnetic barrier running beneath the ice wall perimeter.',
+          text: 'Exploration technology toward the ice wall rim.',
           isCorrect: false,
-          rationale: 'The ice wall is the physical perimeter; the dome establishes a closed optical environment overhead.'
+          rationale: 'The shift is in awareness, not deployed technology.'
+        },
+        {
+          text: 'The station from sector to sector.',
+          isCorrect: false,
+          rationale: 'The station\'s moves are masked by the projector.'
         }
       ]
     }
+
   ]
 };
