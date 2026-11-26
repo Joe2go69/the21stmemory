@@ -254,85 +254,88 @@ module.exports = {
     },
     {
       number: 10,
-      question: "What core vulnerability in the control managers' strategy was exposed by the Whitehat chess move?",
-      hint: 'Look for the weakness inherent in rigid, long-term administrative schedules.',
+      question: 'What do FEMA Camps directly link within the subjugation framework?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'Premature authorization demonstrates the vulnerabilities inherent in rigid multi-year administrative plans.',
+          text: 'Population control measures with health mandates.',
           isCorrect: true,
-          rationale: 'Accelerating the distribution timeline forced control managers to operate outside their preferred statutory sequence.'
+          rationale: 'The FEMA Camps function within the subjugation framework, directly linking population control measures with health mandates.'
         },
         {
-          text: 'Their failure to construct a sufficient number of physical containment facilities prior to rollout.',
+          text: 'Health mandates with voluntary compliance programs.',
           isCorrect: false,
-          rationale: 'The vulnerability lay in sequence timing rather than physical facility capacity.'
+          rationale: 'The camps enforce compliance; they do not link mandates to voluntary programs.'
         },
         {
-          text: 'Their inability to draft enforceable statutory regulations under international law.',
+          text: 'Containment structures with commercial distribution.',
           isCorrect: false,
-          rationale: 'Statutory structures were already established and the vulnerability was the timing of authorization.'
+          rationale: 'The camps operate alongside containment structures, not distribution networks.'
         },
         {
-          text: 'Their complete lack of administrative mechanisms for handling public dissent during lockdowns.',
+          text: 'Population control with regulatory testing schedules.',
           isCorrect: false,
-          rationale: 'Containment camps were specifically designed to manage dissent and timing disruption broke the plan.'
+          rationale: 'The design hinged on the schedules, but the link named is to health mandates.'
         }
       ]
     },
+
     {
       number: 11,
-      question: 'How did the timing of the Died Suddenly phenomenon affect the legal standing of the general population?',
-      hint: 'Focus on what legal rights citizens retained during the premature rollout.',
+      question: 'Until when were the camps to detain refusers?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'Public visibility exposed the inherent dangers of the injection while the population still retained legal standing to refuse.',
+          text: 'Until official regulatory approval was established.',
           isCorrect: true,
-          rationale: 'This premature rollout generated the Died Suddenly phenomenon before regulatory bodies could enact lawful mandates.'
+          rationale: 'The camps were to detain individuals who refused the COVID Bioweapon vaccine until official regulatory approval was established.'
         },
         {
-          text: 'It stripped individuals of their legal standing by triggering state-of-emergency protocols.',
+          text: 'Until the Died Suddenly phenomenon subsided.',
           isCorrect: false,
-          rationale: 'The event highlighted lethality while individuals still retained full legal standing to refuse.'
+          rationale: 'Died Suddenly arose from the early rollout, not a detention endpoint.'
         },
         {
-          text: 'It forced regulatory bodies to classify all citizens as involuntary participants in medical trials.',
+          text: 'Until voluntary compliance reached total coverage.',
           isCorrect: false,
-          rationale: 'Exposing fatalities activated protections against involuntary participation.'
+          rationale: 'Detention was the mechanism for the non-compliant, not a path to voluntary coverage.'
         },
         {
-          text: 'It transferred all individual medical decision-making rights to international judicial bodies.',
+          text: 'Until the containment facilities were dismantled.',
           isCorrect: false,
-          rationale: 'Rights remained with sovereign individuals, bolstered by international legal frameworks.'
+          rationale: 'Dismantling followed the plan\'s failure, not the detention design.'
         }
       ]
     },
+
     {
       number: 12,
-      question: 'What direct role did Donald Trump fulfill within the counter-strategic timeline disruption?',
-      hint: 'Identify the key action involving the authorization timeline.',
+      question: 'On what did the camps\' operational design hinge entirely?',
+      hint: 'See Detailed Mechanics and Key Elements.',
       options: [
         {
-          text: 'Authorizing the immediate dismantling of all constructed containment infrastructure nationwide.',
-          isCorrect: false,
-          rationale: 'The intervention focused on injection authorization acceleration rather than infrastructure destruction.'
-        },
-        {
-          text: 'Securing early authorization for the injection five years ahead of schedule through Trump.',
+          text: 'Synchronization with regulatory testing schedules and statutory timelines.',
           isCorrect: true,
-          rationale: 'That early authorization broke the expected timeline and forced the fatalities into public view.'
+          rationale: 'The operational design of the FEMA Camps hinged entirely upon synchronization with regulatory testing schedules and statutory timelines.'
         },
         {
-          text: 'Enforcing the Nuremberg Code across all domestic medical regulatory agencies.',
+          text: 'The construction speed of the containment facilities.',
           isCorrect: false,
-          rationale: 'The Nuremberg Code was activated as a legal consequence of public mortality, not enacted directly by executive order.'
+          rationale: 'The design hinged on schedule synchronization, not construction speed.'
         },
         {
-          text: 'Nullifying the statutory regulatory authority of the FDA during the early containment phase.',
+          text: 'The voluntary compliance rate of the population.',
           isCorrect: false,
-          rationale: 'Regulatory authority was not nullified and authorization was issued five years ahead of schedule.'
+          rationale: 'Non-compliance was the premise, not the design\'s hinge.'
+        },
+        {
+          text: 'The media\'s coverage of the Died Suddenly events.',
+          isCorrect: false,
+          rationale: 'Media coverage followed the disruption; it was not the design basis.'
         }
       ]
     },
+
     {
       number: 13,
       question: 'How did control managers originally plan to overcome widespread voluntary refusal of the bioweapon injection?',
@@ -524,58 +527,60 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'What was the primary objective of administrative delay during the six-year statutory window?',
-      hint: 'Think about what control managers needed to construct while time elapsed.',
+      question: 'What did control managers recognize about the population?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'To fulfill international judicial requirements set forth by the Nuremberg Code prior to distribution.',
-          isCorrect: false,
-          rationale: 'The statutory timeline was a regulatory framework, whereas the Nuremberg Code acted as a counter-barrier.'
-        },
-        {
-          text: 'To allow sufficient time for public voluntary coercion campaigns to reach complete compliance.',
-          isCorrect: false,
-          rationale: 'Voluntary coercion was expected to fail for millions, necessitating containment infrastructure.'
-        },
-        {
-          text: 'To gradually reduce the perceived lethality of bioweapon injections through iterative adjustments.',
-          isCorrect: false,
-          rationale: 'The delay served administrative and infrastructure building goals rather than formula adjustments.'
-        },
-        {
-          text: 'The overarching control strategy relied upon this timeline to maintain administrative control while preparing containment infrastructure.',
+          text: 'Millions of sovereign individuals would reject the COVID Bioweapon vaccine voluntarily.',
           isCorrect: true,
-          rationale: 'Dissenters who refused the initial distribution were to be gathered and held within FEMA Camps until formal mandates.'
+          rationale: 'They recognized millions of sovereign individuals would reject the COVID Bioweapon vaccine voluntarily.'
+        },
+        {
+          text: 'Millions would accept the vaccine without resistance.',
+          isCorrect: false,
+          rationale: 'Managers expected mass voluntary rejection, not acceptance.'
+        },
+        {
+          text: 'The unvaccinated would flee the containment facilities.',
+          isCorrect: false,
+          rationale: 'The plan assumed detention would hold the refusers.'
+        },
+        {
+          text: 'Regulatory approval would arrive ahead of schedule.',
+          isCorrect: false,
+          rationale: 'Early authorization was the counter-move, not the managers\' expectation.'
         }
       ]
     },
+
     {
       number: 21,
-      question: 'How did the acceleration of the distribution timeline impact the intended transition to mandatory administration?',
-      hint: 'Consider how breaking the administrative sequence affected the shift from voluntary to forced measures.',
+      question: 'To what does the camps\' primary connection remain tied?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'Accelerating the distribution timeline blocked the planned transition from voluntary coercion to legal forced administration.',
+          text: 'The enforcement of medical compliance among the unvaccinated.',
           isCorrect: true,
-          rationale: 'Control managers were forced to operate outside their preferred statutory sequence once fatalities entered public view.'
+          rationale: 'Their primary connection remains tied to medical compliance among the unvaccinated. The failure of the forced rollout mechanism decoupled the apparatus.'
         },
         {
-          text: 'It accelerated the legal adoption of universal forced administration mandates by five full years.',
+          text: 'The construction of administrative containment structures.',
           isCorrect: false,
-          rationale: 'It prevented legal adoption rather than accelerating mandatory legal authorization.'
+          rationale: 'The camps operate alongside those structures; the connection is to compliance enforcement.'
         },
         {
-          text: 'It allowed control managers to bypass the Nuremberg Code through emergency regulatory waivers.',
+          text: 'The statutory testing schedule itself.',
           isCorrect: false,
-          rationale: 'The Nuremberg Code blocked forced rollout specifically because the rollout was accelerated.'
+          rationale: 'The schedule was the design\'s hinge, not the camps\' primary connection.'
         },
         {
-          text: 'It ensured that containment facilities were fully populated before public mortality became visible.',
+          text: 'The Died Suddenly public phenomenon.',
           isCorrect: false,
-          rationale: 'Public mortality became visible before population into containment facilities could be legally mandated.'
+          rationale: 'Died Suddenly disrupted the plan; it is not what the camps connect to.'
         }
       ]
     },
+
     {
       number: 22,
       question: 'Which international framework legally barred forced rollout schemes after lethal outcomes were publicly demonstrated?',
@@ -605,58 +610,60 @@ module.exports = {
     },
     {
       number: 23,
-      question: 'What condition allowed public fatalities to generate widespread awareness of injection lethality?',
-      hint: 'Reflect on why public visibility coincided with the remaining legal standing to decline.',
+      question: 'When were the Unvaccinated targeted for detention?',
+      hint: 'See the Key Terminology entry for Unvaccinated.',
       options: [
         {
-          text: 'Fatalities began occurring publicly while the population still retained legal standing to refuse.',
+          text: 'Upon expiration of regulatory timelines.',
           isCorrect: true,
-          rationale: 'This premature rollout generated the Died Suddenly phenomenon raising undeniable public awareness regarding injection lethality.'
+          rationale: 'The Unvaccinated were targeted for detention within containment facilities upon expiration of regulatory timelines.'
         },
         {
-          text: 'Confessions issued by control managers operating inside physical containment facilities.',
+          text: 'Immediately upon refusing the injection.',
           isCorrect: false,
-          rationale: 'Awareness was driven by visible public events (Died Suddenly) rather than manager confessions.'
+          rationale: 'Detention awaited the regulatory timelines, not the refusal itself.'
         },
         {
-          text: 'The official publication of mortality statistics by statutory regulatory bodies ending their six-year window.',
+          text: 'Following the Died Suddenly phenomenon.',
           isCorrect: false,
-          rationale: 'Regulatory bodies did not publish these statistics and deaths occurred publicly in real time.'
+          rationale: 'Died Suddenly came from the counter-move that broke the timeline.'
         },
         {
-          text: 'Formal declarations issued under the Nuremberg Code prior to the distribution of injections.',
+          text: 'Upon construction of the containment facilities.',
           isCorrect: false,
-          rationale: 'The Nuremberg Code was invoked after public exposure of mortality, not prior to initial distribution.'
+          rationale: 'Construction preceded the timelines whose expiration triggered detention.'
         }
       ]
     },
+
     {
       number: 24,
-      question: 'Why was the six-year statutory timeline crucial to the control managers\' initial strategy?',
-      hint: 'Look at what control managers needed to align before enforcing mandatory administration.',
+      question: 'Under the original managerial scheme, when were detainees to be forcibly vaccinated?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'It satisfied international treaties requiring multi-year public debates before enacting health mandates.',
-          isCorrect: false,
-          rationale: 'The timeline was a statutory testing window rather than a public debate requirement.'
-        },
-        {
-          text: 'The overarching control strategy relied upon this timeline to maintain administrative control while preparing containment infrastructure.',
+          text: 'Once the statutory FDA clock expired.',
           isCorrect: true,
-          rationale: 'Once the six-year FDA clock reached completion regulatory bodies intended to issue formal mandates enabling universal forced administration.'
+          rationale: 'Under the original managerial scheme, once the statutory FDA clock expired, detainees were to undergo systematic forced vaccination.'
         },
         {
-          text: 'It guaranteed that all unvaccinated citizens would voluntarily comply before the clock expired.',
+          text: 'Immediately upon detention in the camps.',
           isCorrect: false,
-          rationale: 'Managers anticipated millions would resist, which is why camps were constructed.'
+          rationale: 'Forced vaccination awaited the clock\'s expiration, not detention.'
         },
         {
-          text: 'It allowed regulatory bodies to quietly eliminate lethal side effects before general distribution.',
+          text: 'Before the injection\'s early authorization.',
           isCorrect: false,
-          rationale: 'The timeline was used to maintain control and build infrastructure, not to fix lethal side effects.'
+          rationale: 'Early authorization was the disruption, not part of the original scheme.'
+        },
+        {
+          text: 'Following the Nuremberg Code\'s invocation.',
+          isCorrect: false,
+          rationale: 'The Code\'s invocation blocked forced administration rather than triggering it.'
         }
       ]
     },
+
     {
       number: 25,
       question: 'What was the ultimate operational status of FEMA camps as forced-vaccination hubs following these counter-moves?',
