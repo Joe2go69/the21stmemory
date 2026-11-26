@@ -362,31 +362,32 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'How is the closed-loop planetary circuit completed between the foliage and the soil?',
-      hint: 'Trace the path from branches and leaves down into the ground.',
+      question: 'What has the removal of the copper mass crippled?',
+      hint: 'See Copper Mechanics and Mass Extraction Data.',
       options: [
         {
-          text: 'Aetheric energy gathered by tree branches and leaves flows down into the soil and enters mineral deposits.',
+          text: 'The ground-level circuit board needed for natural planetary electronics and free aetheric power distribution.',
           isCorrect: true,
-          rationale: 'Aetheric energy gathered by tree branches and leaves flows down into the soil and enters the mineral deposits, completing a continuous closed-loop planetary circuit.'
+          rationale: 'It is crippling the ground-level circuit board needed for natural planetary electronics and free aetheric power distribution.'
         },
         {
-          text: 'Alluvial river gravel releases electrical voltage straight from the beds into the upper atmosphere.',
+          text: 'The monetary value lure attached to precious metals and gemstones.',
           isCorrect: false,
-          rationale: 'The loop runs from tree branches and leaves down into the soil and the mineral deposits, not from gravel up into the atmosphere.'
+          rationale: 'The lure is the bait for extraction, not what removal cripples.'
         },
         {
-          text: 'Industrial power grids capture lightning strikes and channel them down into deep bank vaults.',
+          text: 'The closed-loop planetary circuit running through the soil and roots.',
           isCorrect: false,
-          rationale: 'The closed loop is foliage, soil, and mineral deposits, not lightning routed into bank vaults.'
+          rationale: 'The circuit is degraded, but the stated casualty is the ground-level board.'
         },
         {
-          text: 'Magmatic reefs discharge thermal radiation upward into artificial antennae on the surface.',
+          text: 'The Tartarian frequency receiver network positioned over the traces.',
           isCorrect: false,
-          rationale: 'Aetheric energy moves from tree branches and leaves down into mineral deposits, not upward from magmatic reefs into antennae.'
+          rationale: 'The receivers sat over the traces; the board itself is crippled.'
         }
       ]
     },
+
     {
       number: 15,
       question: 'In the planetary motherboard analogy, what roles do these conductive elements perform?',
@@ -497,31 +498,32 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'What role do telluric currents play with the mineral clusters?',
-      hint: 'Think about the crustal flow that meets these clusters along with ley lines.',
+      question: 'What do the in-situ mineral clusters facilitate?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'They act as thermal barriers that keep magmatic reefs in a molten state.',
-          isCorrect: false,
-          rationale: 'Ley lines and telluric currents energise these mineral clusters, rather than holding magmatic reefs molten.'
-        },
-        {
-          text: 'They break crystalline cave systems down into fine sand along river beds.',
-          isCorrect: false,
-          rationale: 'Telluric currents energise mineral clusters inside a closed-loop circuit, rather than grinding caves into sand.'
-        },
-        {
-          text: 'They energise the mineral clusters so the crust can keep transferring energy.',
+          text: 'Harmonic energy transfer and higher-density planetary communication.',
           isCorrect: true,
-          rationale: 'Ley Lines and telluric currents energise these mineral clusters as part of the continuous closed-loop planetary circuit.'
+          rationale: 'Left in situ within the ground, these mineral clusters interface with crystalline cave systems, telluric currents, and the subterranean root network.'
         },
         {
-          text: 'They dissolve solid gold nuggets into liquid for later industrial extraction.',
+          text: 'Commercial raw material supply for industry.',
           isCorrect: false,
-          rationale: 'Telluric currents energise these mineral clusters, rather than dissolving gold nuggets for extraction.'
+          rationale: 'The components are spiritual hardware, not commercial supply.'
+        },
+        {
+          text: 'Economic commodity trading and vault storage.',
+          isCorrect: false,
+          rationale: 'Trading and vaults are the lure\'s outcome, not the clusters\' function.'
+        },
+        {
+          text: 'Ornamental jewelry and monetary exchange.',
+          isCorrect: false,
+          rationale: 'Those uses render the planetary computer non-functional.'
         }
       ]
     },
+
     {
       number: 20,
       question: 'Which of these is NOT a primary structural variation of Mineral Components?',
@@ -551,31 +553,32 @@ module.exports = {
     },
     {
       number: 21,
-      question: 'How did Tartarian harmonic architecture function when situated over telluric nodes?',
-      hint: 'Think about the kind of station those stone buildings became at the nodes.',
+      question: 'What do the microscopic arrays in disseminated deposits act as?',
+      hint: 'See Deposit Classifications and Geological Mechanics.',
       options: [
         {
-          text: 'As industrial processing plants for crushing disseminated ores out of host rock.',
-          isCorrect: false,
-          rationale: 'The buildings functioned as frequency receivers and self-warming acoustic power stations, not as ore-crushing plants.'
-        },
-        {
-          text: 'As insulated storage vaults for holding gold bullion away from the crust.',
-          isCorrect: false,
-          rationale: 'They were frequency receivers and self-warming acoustic power stations, not vaults for removed bullion.'
-        },
-        {
-          text: 'As mechanical pumps built to pull superheated fluid out of crustal fissures.',
-          isCorrect: false,
-          rationale: 'The siting made them frequency receivers and self-warming acoustic power stations, not pumps for hydrothermal fluid.'
-        },
-        {
-          text: 'As frequency receivers and self-warming acoustic power stations at the nodes.',
+          text: 'Dispersed, wide-area conductive matrices across whole geological regions.',
           isCorrect: true,
-          rationale: 'Tartarian buildings functioned as frequency receivers and self-warming acoustic power stations when placed over mineral traces and telluric nodes.'
+          rationale: 'They act as dispersed, wide-area conductive matrices across whole geological regions.'
+        },
+        {
+          text: 'Concentrated conductive ribbons in host rock.',
+          isCorrect: false,
+          rationale: 'Ribbons describe the hydrothermal seams.'
+        },
+        {
+          text: 'Horizontal layers of heavy conductive metal.',
+          isCorrect: false,
+          rationale: 'Layered sheets describe the magmatic reefs.'
+        },
+        {
+          text: 'Natural traps of gravel, sand, and clay.',
+          isCorrect: false,
+          rationale: 'The traps collect the alluvial deposits.'
         }
       ]
     },
+
     {
       number: 22,
       question: 'True or False: Magmatic reefs are ultra-wide horizontal sheets of heavy minerals that settle out within cooling bodies of molten magma.',
