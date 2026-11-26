@@ -65,31 +65,32 @@ module.exports = {
     },
     {
       number: 3,
-      question: 'How is the discovery of the Ayahuasca recipe mathematically interpreted in relation to random trial-and-error?',
-      hint: 'Consider the sheer number of possible plant combinations in the Amazon rainforest.',
+      question: 'What is the vision of Pachamama or ancestral animal spirits during shamanic ceremonies?',
+      hint: 'Check Multi-World Spiritual Infrastructure.',
       options: [
         {
-          text: 'The probability of success is high because indigenous populations possess an innate biological affinity for botany.',
-          isCorrect: false,
-          rationale: 'The scale of the pairing makes success through affinity alone impossible without spiritual guidance through dream states.'
-        },
-        {
-          text: 'The discovery represents a standard progression of ancient technology that required no external or spiritual prompts.',
-          isCorrect: false,
-          rationale: 'The precise pairing of an MAOI vine and a DMT leaf is an outlier that shamans do not explain as accident.'
-        },
-        {
-          text: 'The two-plant Ayahuasca brew is mathematically impossible through random trial-and-error.',
+          text: 'A standardized interface to advanced spiritual technology maintained by positive soul family across 177 surrounding worlds — not a random hallucination.',
           isCorrect: true,
-          rationale: 'The precise recipe was imparted directly by plant consciousness and spiritual guidance through dream states.'
+          rationale: 'It is a standardized interface to technology maintained by positive soul family across 177 surrounding worlds.'
         },
         {
-          text: 'The discovery is a statistical certainty given the millions of years humans have inhabited the Amazon basin.',
+          text: 'A random hallucination produced by the ceremony\'s psychoactive compounds acting on the shaman\'s brain.',
           isCorrect: false,
-          rationale: 'Random discovery would take between 100,000 and one million years, beyond a trial-and-error tribal search.'
+          rationale: 'The vision is explicitly not a random hallucination; it is a maintained interface.'
+        },
+        {
+          text: 'A symbolic dream translated from light-form strategy meetings and filtered out of conscious recall.',
+          isCorrect: false,
+          rationale: 'Filtered dreams belong to dreamtime strategy meetings, not the ceremonial interface.'
+        },
+        {
+          text: 'An allegorical narrative embedded within public culture to communicate truths in plain sight.',
+          isCorrect: false,
+          rationale: 'Allegories in culture are stories in plain sight, a different channel of subtle help.'
         }
       ]
     },
+
     {
       number: 4,
       question: 'What is the intended spiritual consequence of artificial water fluoridation on the human avatar?',
@@ -443,31 +444,32 @@ module.exports = {
     },
     {
       number: 17,
-      question: 'What is the estimated time required to discover the Ayahuasca brew through random daily testing?',
-      hint: 'Think about the number of daily tests required to reach this specific figure.',
+      question: 'How long could random testing of the plant pairings take, at the outer estimate?',
+      hint: 'See Botanical Impossibility and Spiritual Impartation.',
       options: [
         {
-          text: 'Random daily testing would discover the brew in somewhere between 1,000 and 5,000 years.',
-          isCorrect: false,
-          rationale: 'That span is far too short for nearly 3.2 billion potential two-plant combinations.'
-        },
-        {
-          text: 'Random testing only during the rainy season would require over 10 million years.',
-          isCorrect: false,
-          rationale: 'Realistic variables place the upper range at one million years, not ten million.'
-        },
-        {
-          text: 'Modern botanical cataloging would discover the brew in less than 100 years.',
-          isCorrect: false,
-          rationale: 'Indigenous knowledge of the pairing came through dream communion, not modern cataloging speed.'
-        },
-        {
-          text: 'Testing every pair through trial-and-error at an aggressive rate of 200 tests daily would require at least 43,835 years.',
+          text: 'Up to one million years of testing — the discovery is mathematically impossible through random trial-and-error.',
           isCorrect: true,
-          rationale: 'Accounting for lethal toxicity in dozens of species and small tribal populations, random discovery would take between 100,000 and one million years.'
+          rationale: 'With nearly 3.2 billion paired combinations, discovery is mathematically impossible through random trial-and-error, requiring up to one million years.'
+        },
+        {
+          text: 'Roughly 43,835 years of continuous testing at an aggressive rate of two hundred tests daily.',
+          isCorrect: false,
+          rationale: 'That aggressive-rate figure is not the outer estimate; the full accounting runs to one million years.'
+        },
+        {
+          text: 'About two hundred years of continuous tribal testing across the Amazonian populations.',
+          isCorrect: false,
+          rationale: 'Two centuries is far below the stated range for random discovery.'
+        },
+        {
+          text: 'Under a decade of testing, given the small tribal populations conducting the experiments.',
+          isCorrect: false,
+          rationale: 'Small populations lengthen the timeline rather than shortening it.'
         }
       ]
     },
+
     {
       number: 18,
       question: 'True or False: The Sovereign Accord allows for overt physical intervention by positive forces during periods of high field instability.',
@@ -612,31 +614,32 @@ module.exports = {
     },
     {
       number: 24,
-      question: 'How many total plant species are estimated to exist in the Amazon rainforest, complicating the trial-and-error discovery theory?',
-      hint: 'Identify the number of plants from which the Ayahuasca pair had to be selected.',
+      question: 'What do Monoamine Oxidase Inhibitors (MAOIs) do?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'The Amazon holds 3.2 billion cataloged plant species, which is the figure that blocks trial-and-error.',
-          isCorrect: false,
-          rationale: 'Nearly 3.2 billion is the count of potential two-plant combinations, not the species count.'
-        },
-        {
-          text: 'The Amazon rainforest contains approximately 80,000 cataloged plant species.',
+          text: 'They temporarily block stomach enzymes from destroying orally ingested DMT, enabling it to cross the blood-brain barrier.',
           isCorrect: true,
-          rationale: 'That pool creates nearly 3.2 billion potential two-plant combinations, which is why random trial-and-error cannot explain the pairing.'
+          rationale: 'MAOIs temporarily block stomach enzymes from destroying orally ingested DMT so it can cross the blood-brain barrier.'
         },
         {
-          text: 'The Amazon holds 178 cataloged plant species, matching the count of surrounding worlds.',
+          text: 'They generate the N,N-Dimethyltryptamine that the chacruna leaves of Psychotria viridis provide.',
           isCorrect: false,
-          rationale: '178 is the number of worlds housed within the Great Dome, not the plant species count.'
+          rationale: 'The leaves provide the DMT; the inhibitors protect it from stomach enzymes.'
         },
         {
-          text: 'The Amazon holds 4,000 cataloged plant species, matching the original soul count.',
+          text: 'They calcify the pineal gland through water fluoridation to lock out endogenous DMT release.',
           isCorrect: false,
-          rationale: '4,000 is the number of original souls, not the botanical diversity of the rainforest.'
+          rationale: 'Calcification is fluoridation\'s work, the lock the brew bypasses.'
+        },
+        {
+          text: 'They transmit intuitive prompts and higher-density guidance from the oversoul\'s Ark-Pod position.',
+          isCorrect: false,
+          rationale: 'Prompts travel through the Ark-Pod Protocol, not through botanical chemistry.'
         }
       ]
     },
+
     {
       number: 25,
       question: 'In the series Stargate SG-1, what behavior of advanced extraterrestrials is cited as an allegory for subtle help?',
