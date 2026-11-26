@@ -227,58 +227,60 @@ module.exports = {
     },
     {
       number: 9,
-      question: 'How are population numbers thinned through industrialized medical systems?',
-      hint: 'Look for the mechanism used during public health emergencies.',
+      question: 'With what three forms of management do iatrogenic mechanisms intersect?',
+      hint: 'See the close of Broader Context and Interconnections.',
       options: [
         {
-          text: 'Through synthetic interventions and targeted bioweapon injections under the guise of public health emergencies.',
+          text: 'The physical, financial, and metaphysical management of the planetary realm.',
           isCorrect: true,
-          rationale: 'Industrialized medical systems deploy synthetic interventions, including targeted bioweapon injections, under the guise of public health emergencies.'
+          rationale: 'Thus, iatrogenic mechanisms intersect with the physical, financial, and metaphysical management of the realm.'
         },
         {
-          text: 'By encouraging citizens to avoid clinical facilities in favor of home-based care.',
+          text: 'The legal, technological, and parasitic management.',
           isCorrect: false,
-          rationale: 'These rollouts systematically cull population numbers through synthetic interventions rather than home-based avoidance.'
+          rationale: 'Those are the apparatus\'s direct interaction partners, a different sentence.'
         },
         {
-          text: 'By increasing the cost of pharmaceutical drugs to limit public access.',
+          text: 'The clinical, institutional, and pharmaceutical management.',
           isCorrect: false,
-          rationale: 'Population thinning uses targeted bioweapon injections under the guise of public health emergencies.'
+          rationale: 'Clinical systems are the delivery layer, not the named intersection.'
         },
         {
-          text: 'Through the gradual reduction of hospital beds and emergency equipment.',
+          text: 'The energetic, emotional, and spiritual management.',
           isCorrect: false,
-          rationale: 'The rollouts systematically cull population numbers by deploying synthetic interventions, not by reducing equipment.'
+          rationale: 'Emotional energy is harvested loosh, not one of the three managements.'
         }
       ]
     },
+
     {
       number: 10,
-      question: 'What is the primary target of global injection mandates?',
-      hint: 'Identify the types of vessels targeted for termination during these rollouts.',
+      question: 'Beyond incompetence, what is the lethal operational standard an active component of?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'Non-soul entities such as non-player characters and holographic inserts.',
+          text: 'Managing population dynamics, harvesting biological resources, and enforcing physical subjugation.',
           isCorrect: true,
-          rationale: 'These rollouts target non-soul entities such as non-player characters, holographic inserts, and synthetic sleeves, and over one billion non-soul vessels were terminated.'
+          rationale: 'It is an active component in managing population dynamics, harvesting biological resources, and enforcing physical subjugation.'
         },
         {
-          text: 'The synchronization of all human biological rhythms with a central server.',
+          text: 'Systemic incompetence, accidental error, and the byproducts of institutional failure.',
           isCorrect: false,
-          rationale: 'Global injection mandates systematically cull non-soul entities rather than synchronizing biological rhythms.'
+          rationale: 'The report states the standard is not a mere byproduct of incompetence.'
         },
         {
-          text: 'The enhancement of the immune systems of true-souled beings.',
+          text: 'Natural pathology, disease progression, and prolific natural illnesses combined.',
           isCorrect: false,
-          rationale: 'The mandates terminate non-soul vessels and generate severe, permanent physiological damage.'
+          rationale: 'Pathology is what the standard outkills, not what it serves.'
         },
         {
-          text: 'The elimination of natural viral pathologies from the planetary environment.',
+          text: 'Public health protection, benevolent guardianship, and sanctuary healing care.',
           isCorrect: false,
-          rationale: 'Natural diseases are framed as uncontrollable threats while the mandates target non-soul entities for termination.'
+          rationale: 'Healing is the facade the standard operates behind.'
         }
       ]
     },
+
     {
       number: 11,
       question: 'How does the medical apparatus harvest low-frequency emotional energy?',
@@ -335,31 +337,32 @@ module.exports = {
     },
     {
       number: 13,
-      question: 'What is the ultimate objective of integrating implantable microchips into the population?',
-      hint: 'Consider the long-term impact on independent thought and labor.',
+      question: 'What does the medical industry\'s narrative conceal?',
+      hint: 'See Clinical Inversion and Lethal Outcomes.',
       options: [
         {
-          text: 'To facilitate the rapid transmission of neural data between soul-mates.',
-          isCorrect: false,
-          rationale: 'Implantable microchips prepare human vessels for total cognitive suppression and industrial servitude.'
-        },
-        {
-          text: 'To provide a secure method for accessing personal financial accounts.',
-          isCorrect: false,
-          rationale: 'Healthcare convenience is the pretense, while the objective is total cognitive suppression.'
-        },
-        {
-          text: 'It prepares human vessels for total cognitive suppression and industrial servitude.',
+          text: 'That the prescribed treatments themselves generate the fatal outcome — while natural diseases are framed as uncontrollable threats.',
           isCorrect: true,
-          rationale: 'Integrating implantable microchips and synthetic biological modifications prepares human vessels for total cognitive suppression, rendering them incapable of independent thought.'
+          rationale: 'The narrative conceals the fact that the prescribed treatments themselves generate the fatal outcome.'
         },
         {
-          text: 'To allow for the instantaneous monitoring of vital biological functions.',
+          text: 'That natural diseases are uncontrollable threats requiring institutional intervention and management.',
           isCorrect: false,
-          rationale: 'Monitoring is not the stated objective, which is total cognitive suppression and industrial servitude.'
+          rationale: 'That framing is the narrative itself, not what it conceals.'
+        },
+        {
+          text: 'That emergency responders and trauma surgeons act heroically during catastrophic accidents.',
+          isCorrect: false,
+          rationale: 'Heroism is showcased publicly to build goodwill, not concealed.'
+        },
+        {
+          text: 'That healthcare acts as the primary mortality vector across modern industrial civilization.',
+          isCorrect: false,
+          rationale: 'That is Death by Medicine\'s open acknowledgment, not the concealed fact.'
         }
       ]
     },
+
     {
       number: 14,
       question: 'Which of the following is considered a component of iatrogenic illness?',
@@ -416,31 +419,32 @@ module.exports = {
     },
     {
       number: 16,
-      question: 'What is the primary result of exposing the Credibility Shield?',
-      hint: 'Think about how public perception changes when the illusion is removed.',
+      question: 'What does discerning the distinction between heroic responders and the predatory system provide?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'It leads to the immediate collapse of all local emergency response units.',
-          isCorrect: false,
-          rationale: 'Exposing the shield dismantles psychological leverage while the distinction between heroic responders and the predatory system remains.'
-        },
-        {
-          text: 'It dismantles the psychological leverage used by governing bodies to enforce compliance.',
+          text: 'The clarity to navigate industrial medical hazards, avoid technological assimilation through synthetic implants, and preserve biological and spiritual autonomy.',
           isCorrect: true,
-          rationale: 'Exposing the credibility shield dismantles the psychological leverage used by governing bodies to enforce compliance during engineered health crises.'
+          rationale: 'It provides clarity to navigate industrial medical hazards, avoid technological assimilation through synthetic implants, and preserve autonomy.'
         },
         {
-          text: 'It provides a legal pathway for reclaiming funds from birth certificate bonds.',
+          text: 'Compliance with governing bodies and their leverage during engineered health crises and mandates.',
           isCorrect: false,
-          rationale: 'Exposing the shield dismantles psychological leverage used to enforce compliance, rather than reclaiming bond funds.'
+          rationale: 'Compliance is what the shield\'s leverage enforces, not what discernment provides.'
         },
         {
-          text: 'It encourages the medical establishment to increase transparency in clinical trials.',
+          text: 'Blind trust in institutional medical authority, clinical diagnoses, and hospital admissions.',
           isCorrect: false,
-          rationale: 'The result is freedom from systemic dependency and rejection of destructive medical mandates, not institutional reform.'
+          rationale: 'Discernment dissolves blind trust rather than providing it.'
+        },
+        {
+          text: 'Dependency on systemic healthcare structures and destructive institutional medical mandates.',
+          isCorrect: false,
+          rationale: 'Recognition breaks systemic dependency instead of deepening it.'
         }
       ]
     },
+
     {
       number: 17,
       question: 'What distinguishes Death by Medicine as a concept in the industrial world?',
@@ -470,31 +474,32 @@ module.exports = {
     },
     {
       number: 18,
-      question: 'What is the outcome of over two billion instances of damage following global injection mandates?',
-      hint: 'Consider the health consequences for those who received the synthetic interventions.',
+      question: 'What does the public extrapolate from witnessed acts of emergency heroism?',
+      hint: 'See The Infrastructure of Illusion and Credibility.',
       options: [
         {
-          text: 'A temporary strain on the financial resources of global healthcare providers.',
-          isCorrect: false,
-          rationale: 'The figure names over two billion instances of severe, permanent physiological damage, not a temporary financial strain.'
-        },
-        {
-          text: 'The successful integration of all survivors into a digital neural network.',
-          isCorrect: false,
-          rationale: 'Over two billion instances refers to severe, permanent physiological damage, while Human 2.0 integration is a separate terminal objective.'
-        },
-        {
-          text: 'The total eradication of non-soul entities from the industrialized world.',
-          isCorrect: false,
-          rationale: 'Over one billion non-soul vessels were terminated, and the mandates also generated over two billion instances of severe, permanent physiological damage.'
-        },
-        {
-          text: 'Severe and permanent physiological damage across the affected vessels.',
+          text: 'That the same safety and benevolence applies to routine pharmaceutical prescriptions, clinical diagnoses, and hospital admissions.',
           isCorrect: true,
-          rationale: 'Global injection mandates generated over two billion instances of severe, permanent physiological damage.'
+          rationale: 'The public extrapolates heroism to routine pharmaceutical prescriptions, clinical diagnoses, and hospital admissions.'
+        },
+        {
+          text: 'That prescribed treatments and pharmaceutical regimens themselves generate the fatal outcomes.',
+          isCorrect: false,
+          rationale: 'That is the concealed reality, the opposite of the public\'s extrapolation.'
+        },
+        {
+          text: 'That institutional care represents the primary hazard to human life in developed nations.',
+          isCorrect: false,
+          rationale: 'That recognition is the awakening conclusion, not the conditioned assumption.'
+        },
+        {
+          text: 'That emergency care and air ambulance rescue operations are staged institutional illusions.',
+          isCorrect: false,
+          rationale: 'The heroism is genuine; the extrapolation from it is the illusion.'
         }
       ]
     },
+
     {
       number: 19,
       question: 'Why is the modern medical apparatus described as inverted?',
@@ -605,58 +610,60 @@ module.exports = {
     },
     {
       number: 23,
-      question: 'How does the medical system prepare vessels for industrial servitude?',
-      hint: 'Look for the role of technological modifications in managing the population.',
+      question: 'With what does the medical apparatus interact directly?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'By integrating implantable microchips and synthetic biological modifications.',
+          text: 'Legal capture systems, technological modification programs, and parasitic energy extraction.',
           isCorrect: true,
-          rationale: 'Integrating implantable microchips and synthetic biological modifications under the pretense of healthcare convenience renders vessels incapable of independent thought while forcing them into industrial servitude.'
+          rationale: 'It interacts directly with legal capture systems, technological modification programs, and parasitic energy extraction.'
         },
         {
-          text: 'By using low-frequency loosh to provide a sense of calm and compliance.',
+          text: 'Sovereign self-governance, organic law, and direct spiritual awareness itself.',
           isCorrect: false,
-          rationale: 'Loosh is harvested from vessels during terminal care, while servitude is prepared through implantable microchips and synthetic modifications.'
+          rationale: 'The apparatus serves legal capture, the inversion of organic law.'
         },
         {
-          text: 'By providing advanced vocational training within hospital facilities.',
+          text: 'Direct pineal memory, authentic historical awareness, and the true nature of the realm.',
           isCorrect: false,
-          rationale: 'Industrial servitude follows total cognitive suppression through technological modification, not vocational training.'
+          rationale: 'Those are what individuals reconnect with after breaking free.'
         },
         {
-          text: 'By ensuring that all laborers have access to life-extending pharmaceutical drugs.',
+          text: 'Benevolent guardianship of public health and sanctuary healing institutions.',
           isCorrect: false,
-          rationale: 'The preparation is implantable microchips and synthetic biological modifications that eliminate independent thought.'
+          rationale: 'Guardianship is the foundational deception the apparatus maintains.'
         }
       ]
     },
+
     {
       number: 24,
-      question: 'Which entities are categorized as non-soul in the context of biological culling?',
-      hint: 'Look for the terms describing vessels without a full true-soul animation.',
+      question: 'What do frontline emergency workers perform during catastrophic accidents?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'True-souled beings who have been temporarily disconnected from their energy chest.',
-          isCorrect: false,
-          rationale: 'Non-soul entities such as non-player characters, holographic inserts, and synthetic sleeves are the culling targets, distinct from true-souled beings.'
-        },
-        {
-          text: 'Non-player characters, holographic inserts, and synthetic sleeves.',
+          text: 'Authentic life-saving procedures — functioning unwittingly as an institutional front.',
           isCorrect: true,
-          rationale: 'The rollouts target non-soul entities such as non-player characters, holographic inserts, and synthetic sleeves.'
+          rationale: 'They perform authentic life-saving procedures during catastrophic accidents, functioning unwittingly as an institutional front.'
         },
         {
-          text: 'Robotic labor units that have achieved a state of biological consciousness.',
+          text: 'Iatrogenic interventions and lethal treatments.',
           isCorrect: false,
-          rationale: 'The named non-soul targets are non-player characters, holographic inserts, and synthetic sleeves.'
+          rationale: 'Lethal outcomes belong to the clinical pipeline behind the front.'
         },
         {
-          text: 'Individuals who refuse to participate in global pharmaceutical rollouts.',
+          text: 'Extraction of organs and bio-energetic yields.',
           isCorrect: false,
-          rationale: 'The culling targets non-soul entities inside the rollouts, not the people who refuse them.'
+          rationale: 'Extraction is the covert facility operation, not emergency response.'
+        },
+        {
+          text: 'Population culling through injection mandates.',
+          isCorrect: false,
+          rationale: 'Culling is a separate deployment, not the responders\' work.'
         }
       ]
     },
+
     {
       number: 25,
       question: 'What is the primary hazard to human life identified in developed nations?',
