@@ -110,103 +110,256 @@ module.exports = {
     },
     {
       number: 10,
-      question: 'In higher-density configurations, what extra work do rivers and waterfalls do?',
-      hint: 'Look at the hydrological section for a second role of rivers and waterfalls.',
+      question: 'What does the shared marine circuit balance?',
+      hint: 'See Hydrological Connectivity and the Super-Ocean.',
       options: [
-        { text: 'Pressure equalizers that balance the air between neighboring ice walls.', isCorrect: false, rationale: 'Pressure is bled by volcanic valves, while rivers serve as flowing streams of living data that distribute harmonics.' },
-        { text: 'Cooling channels that draw volcanic heat out of the motherboard below.', isCorrect: false, rationale: 'Volcanoes release sub-surface heat, while surface water serves as living data that distribute harmonics.' },
-        { text: 'Mineral solvents that break crystal beds apart and scatter them through soil.', isCorrect: false, rationale: 'Crystal beds are data registers, while rivers and waterfalls serve as living data that distribute harmonics.' },
-        { text: 'Flowing streams of living data that distribute harmonics over the land.', isCorrect: true, rationale: 'Streams, rivers, and waterfalls serve as flowing streams of living data that distribute harmonics.' }
+        {
+          text: 'Salinity, telluric currents, and energetic frequencies throughout all 178 worlds.',
+          isCorrect: true,
+          rationale: 'It establishes a shared marine circuit that balances salinity, telluric currents, and energetic frequencies throughout all 178 worlds.'
+        },
+        {
+          text: 'Atmospheric pressure within the dome envelope.',
+          isCorrect: false,
+          rationale: 'Pressure regulation is the volcanoes\' valve function.'
+        },
+        {
+          text: 'Ecological frequencies between adjacent basins.',
+          isCorrect: false,
+          rationale: 'Keeping those separate is the ice walls\' function.'
+        },
+        {
+          text: 'Sub-surface thermal buildup beneath the plane.',
+          isCorrect: false,
+          rationale: 'Thermal buildup is released by the pressure valves.'
+        }
       ]
     },
+
     {
       number: 11,
-      question: 'Which bedrock features work as bus routes and high-conductivity leads?',
-      hint: 'Check which fissure deposits the motherboard section compares with wiring.',
+      question: 'What does the Great Dome maintain across the plane?',
+      hint: 'See the Key Terminology entry for Great Dome.',
       options: [
-        { text: 'Hydrocarbon conduits of crude oil and planetary grease under the floor.', isCorrect: false, rationale: 'Those conduits move planetary grease, while hydrothermal veins operate as high-conductivity data transfer leads.' },
-        { text: 'Disseminated lattices of microscopic ore spread evenly through host rock.', isCorrect: false, rationale: 'Those lattices stabilize frequency, while hydrothermal veins are the high-conductivity data transfer leads.' },
-        { text: 'Hydrothermal veins of quartz, gold, and silver forced through fissures.', isCorrect: true, rationale: 'Sheets of quartz, gold, and silver operate as physical wiring, bus routes, and high-conductivity data transfer leads.' },
-        { text: 'Crystal caverns of composite beds lying beneath giant antenna trees.', isCorrect: false, rationale: 'Crystal caverns are storage registers, while hydrothermal veins are the high-conductivity data transfer leads.' }
+        {
+          text: 'Atmospheric containment, electromagnetic balance, and pressure regulation.',
+          isCorrect: true,
+          rationale: 'It is the firmament maintaining atmospheric containment, electromagnetic balance, and pressure regulation across the plane.'
+        },
+        {
+          text: 'Salinity and telluric currents in the Super-Ocean.',
+          isCorrect: false,
+          rationale: 'Those are balanced by the shared marine circuit.'
+        },
+        {
+          text: 'Separation between adjacent world basins.',
+          isCorrect: false,
+          rationale: 'Separation is maintained by the ice wall barriers.'
+        },
+        {
+          text: 'Thermal equilibrium through volcanic release.',
+          isCorrect: false,
+          rationale: 'The valves release buildup; the dome maintains the three listed states.'
+        }
       ]
     },
+
     {
       number: 12,
-      question: 'What do horizontal sheets of platinum, palladium, and rhodium do?',
-      hint: 'See the layered intrusions for the hardware role of those broad metal sheets.',
+      question: 'What do the custodians ensure occupants do not attempt?',
+      hint: 'See Core Revelations.',
       options: [
-        { text: 'They serve as high-capacity energy distributors and grounding planes.', isCorrect: true, rationale: 'Horizontal sheets of platinum, palladium, and rhodium function as high-capacity energy distributors and grounding planes.' },
-        { text: 'They serve as thermal insulation that holds volcanic pressure underground.', isCorrect: false, rationale: 'Volcanoes are the pressure valves, while these metal sheets function as high-capacity energy distributors.' },
-        { text: 'They serve as aetheric antennas channeling canopy light downward.', isCorrect: false, rationale: 'Giant antenna trees channel aetheric energy downward, while the metal sheets are high-capacity energy distributors.' },
-        { text: 'They serve as frequency stabilizers of microscopic ore in the soil.', isCorrect: false, rationale: 'Disseminated ore lattices stabilize frequency, while the metal sheets are high-capacity energy distributors.' }
+        {
+          text: 'Physical exploration beyond the enforced perimeter.',
+          isCorrect: true,
+          rationale: 'They ensure occupants do not attempt physical exploration beyond the enforced perimeter.'
+        },
+        {
+          text: 'Communication with adjacent civilizations.',
+          isCorrect: false,
+          rationale: 'Adjacent civilizations communicate through thought and frequency resonance.'
+        },
+        {
+          text: 'Exploration of the plane\'s geographic center.',
+          isCorrect: false,
+          rationale: 'The deception targets the perimeter, not the center.'
+        },
+        {
+          text: 'Access to the external Great Domes\' laboratories.',
+          isCorrect: false,
+          rationale: 'The cage works by hiding the neighboring realms beyond the ice.'
+        }
       ]
     },
+
     {
       number: 13,
-      question: 'What sets the ambient frequency of the surrounding terrain?',
-      hint: 'Check the motherboard section for the deposit that sets that ambient frequency.',
+      question: 'From where do the anchored worlds receive blueprints and energetic codes?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
-        { text: 'Hydrothermal veins of quartz, gold, and silver inside structural fissures.', isCorrect: false, rationale: 'Those veins are wiring, while disseminated deposits stabilize the base vibrational frequency of the surrounding terrain.' },
-        { text: 'Disseminated deposits of microscopic ore lattices within the host rock.', isCorrect: true, rationale: 'Disseminated deposits stabilize the base vibrational frequency of the surrounding terrain.' },
-        { text: 'Sub-surface reservoirs of crude oil and planetary grease under the floor.', isCorrect: false, rationale: 'Crude oil is planetary grease, while disseminated deposits stabilize the base vibrational frequency.' },
-        { text: 'Peripheral barriers of solid ice ringing each separate world basin.', isCorrect: false, rationale: 'Ice walls separate atmospheres, while disseminated deposits stabilize the base vibrational frequency.' }
+        {
+          text: 'Source consciousness and intermediate light realms higher within the Cube.',
+          isCorrect: true,
+          rationale: 'They are anchored to this base horizontal membrane, receiving blueprints and energetic codes that spiral down from Source consciousness.'
+        },
+        {
+          text: 'The external Great Domes outside the enclosure.',
+          isCorrect: false,
+          rationale: 'The codes spiral down from Source and the light realms above.'
+        },
+        {
+          text: 'The guardian intelligences at nodal points.',
+          isCorrect: false,
+          rationale: 'Guardians configure updates; the anchored worlds receive from above.'
+        },
+        {
+          text: 'The mineral motherboard beneath the plane.',
+          isCorrect: false,
+          rationale: 'The motherboard is the plane\'s hardware, not the codes\' source.'
+        }
       ]
     },
+
     {
       number: 14,
-      question: 'How do subterranean crystal beds relate to the giant antenna trees?',
-      hint: 'Recall how underground crystal beds meet roots that reach toward the canopy.',
+      question: 'What false sense does the globe model manufacture?',
+      hint: 'See Strategic Implications.',
       options: [
-        { text: 'They pump electrolyte brine up the trunks to feed new leaf growth.', isCorrect: false, rationale: 'Brine stays in the Super-Ocean, while crystal composite beds act as macro-scale data storage registers.' },
-        { text: 'They reflect geothermal heat upward to speed growth in the canopy.', isCorrect: false, rationale: 'Volcanoes bleed heat, while crystal composite beds act as macro-scale data storage registers.' },
-        { text: 'They dissolve under the roots and release copper into the surrounding soil.', isCorrect: false, rationale: 'Copper belongs in the living circuits, while crystal beds act as macro-scale data storage registers.' },
-        { text: 'They act as macro-scale data storage registers interfacing with the roots.', isCorrect: true, rationale: 'Subterranean crystal composite beds act as macro-scale data storage registers and interface with roots that channel aetheric energy downward.' }
+        {
+          text: 'Spatial insignificance, isolation, and helplessness.',
+          isCorrect: true,
+          rationale: 'It manufactures a false sense of spatial insignificance, isolation, and helplessness.'
+        },
+        {
+          text: 'Spatial vastness and reachable neighboring realms.',
+          isCorrect: false,
+          rationale: 'The model hides the realms and manufactures insignificance instead.'
+        },
+        {
+          text: 'Confidence in institutional astrophysics.',
+          isCorrect: false,
+          rationale: 'Astrophysics is the apparatus the model props up, not a manufactured feeling.'
+        },
+        {
+          text: 'Urgency to explore beyond the perimeter.',
+          isCorrect: false,
+          rationale: 'The model suppresses exactly that urge.'
+        }
       ]
     },
+
     {
       number: 15,
-      question: 'Which firmaments does the cartography place outside our primary enclosure?',
-      hint: 'Use the spatial mapping list of firmaments that sit outside this enclosure.',
+      question: 'How is the enclosed plane classified macrocosmically?',
+      hint: 'See the Key Terminology entry for Terrarium.',
       options: [
-        { text: 'Realm-3, Terra Incognita, The Cube, the Super-Ocean, and the Ley Lines.', isCorrect: false, rationale: 'Those are other parts of the construct, while the five external Great Domes are Titans, Sheol, Silence, 5 Peaks, and Hiva.' },
-        { text: 'Source consciousness, the light realms, The Cube, Ley Lines, and nodal points.', isCorrect: false, rationale: 'Those sit in the wider stack, while the five external Great Domes are Titans, Sheol, Silence, 5 Peaks, and Hiva.' },
-        { text: 'The Dome of Titans, Sheol, Silence, 5 Peaks, and Hiva mapped externally.', isCorrect: true, rationale: 'The schematics set the plane against the five external Great Domes: the Dome of Titans, Sheol, Silence, 5 Peaks, and Hiva.' },
-        { text: 'Quartz veins, magmatic reefs, crystal caverns, ice walls, and antenna trees.', isCorrect: false, rationale: 'Those are hardware inside the plane, while the five external Great Domes are Titans, Sheol, Silence, 5 Peaks, and Hiva.' }
+        {
+          text: 'A Terrarium — a pressurized, bio-mechanically regulated container for diverse living ecosystems.',
+          isCorrect: true,
+          rationale: 'It functions as a pressurized, bio-mechanically regulated container for diverse living ecosystems.'
+        },
+        {
+          text: 'An isolated spherical globe in orbital space, hurtling through a vacuum.',
+          isCorrect: false,
+          rationale: 'That is the Globe Theory deception the report rejects.'
+        },
+        {
+          text: 'A grown structural base of mineral circuitry and geological substrate.',
+          isCorrect: false,
+          rationale: 'The base is what the worlds rest upon, not the classification.'
+        },
+        {
+          text: 'An open vacuum of unreachable light-years surrounding an isolated ball.',
+          isCorrect: false,
+          rationale: 'The light-years are the fabricated barrier of the globe narrative.'
+        }
       ]
     },
+
     {
       number: 16,
-      question: 'What work happens in the external domes beyond the physical terrarium?',
-      hint: 'Look at the broader context for what the outer domes prepare before it reaches the plane.',
+      question: 'What exists side by side across the expanse?',
+      hint: 'See the Overview.',
       options: [
-        { text: 'Local custodians stockpile copper and gold removed from the physical realms.', isCorrect: false, rationale: 'Mined metal is sequestered in vaults and cabling, while the outer domes are cosmic design laboratories.' },
-        { text: 'Ice builders extend new peripheral barriers inward toward the central realm.', isCorrect: false, rationale: 'Ice walls already divide the basins, while the outer domes are cosmic design laboratories.' },
-        { text: 'Guardian intelligences configure harmonic frequencies and genetic matrices there.', isCorrect: true, rationale: 'In those cosmic design laboratories, guardian intelligences configure harmonic frequencies and genetic matrices.' },
-        { text: 'Exhaust chambers collect gases vented upward through the crystalline ceiling.', isCorrect: false, rationale: 'Volcanoes bleed pressure inside the dome, while the outer domes are cosmic design laboratories.' }
+        {
+          text: 'Individual world habitats and millions of distinct membrane ecosystems.',
+          isCorrect: true,
+          rationale: 'The enclosure is a self-contained, sealed terrarium, where individual world habitats and millions of distinct membrane ecosystems exist side by side.'
+        },
+        {
+          text: '178 worlds drifting through a vacuum.',
+          isCorrect: false,
+          rationale: 'The worlds rest on a grown base; they do not drift.'
+        },
+        {
+          text: 'Adjacent civilizations separated by light-years.',
+          isCorrect: false,
+          rationale: 'They are contiguous, separated solely by ice barriers.'
+        },
+        {
+          text: 'World basins collapsed into one another.',
+          isCorrect: false,
+          rationale: 'The ice barriers prevent exactly that collapse.'
+        }
       ]
     },
+
     {
       number: 17,
-      question: 'How does a request for a biological update leave the physical plane?',
-      hint: 'Think about the ground paths that carry a vibrational request outward.',
+      question: 'What locks the plane into a pressurized, hermetically sealed terrarium?',
+      hint: 'See Macro-Architecture and the Terrarium Containment.',
       options: [
-        { text: 'It travels as fluid pressure inside the subterranean crude-oil conduits.', isCorrect: false, rationale: 'Oil lubricates the substrate, while the request transmits instantly along Ley Lines and telluric pathways.' },
-        { text: 'It transmits instantly along Ley Lines and telluric pathways.', isCorrect: true, rationale: 'The request transmits instantly along Ley Lines and telluric pathways to the external domes.' },
-        { text: 'It rises as vaporized brine released through the volcanic pressure valves.', isCorrect: false, rationale: 'Those valves bleed thermal buildup, while updates transmit instantly along Ley Lines and telluric pathways.' },
-        { text: 'It departs as a physical probe sent through the crystalline ceiling.', isCorrect: false, rationale: 'The dome stays a sealed ceiling, while the request transmits instantly along Ley Lines and telluric pathways.' }
+        {
+          text: 'The Great Dome, a crystalline and electromagnetic ceiling.',
+          isCorrect: true,
+          rationale: 'It is a crystalline and electromagnetic ceiling that locks the plane into a pressurized, hermetically sealed terrarium.'
+        },
+        {
+          text: 'The peripheral ice wall barriers.',
+          isCorrect: false,
+          rationale: 'The walls demarcate basins; the dome seals the plane.'
+        },
+        {
+          text: 'The continuous Super-Ocean beneath the walls.',
+          isCorrect: false,
+          rationale: 'The ocean interconnects the worlds; it does not seal the chamber.'
+        },
+        {
+          text: 'The mineral motherboard bedrock.',
+          isCorrect: false,
+          rationale: 'The bedrock is the circuitry, not the ceiling.'
+        }
       ]
     },
+
     {
       number: 18,
-      question: 'What does the high-salinity brine do for waves inside the enclosure?',
-      hint: 'See the hydrological section for the brine and the waves inside the enclosure.',
+      question: 'What does the Super-Ocean interconnect?',
+      hint: 'See the Key Terminology entry for Super-Ocean.',
       options: [
-        { text: 'It insulates crude oil so the hydrocarbon conduits resist electrical fire.', isCorrect: false, rationale: 'Crude oil is planetary grease, while the brine grounds the standing electromagnetic waves.' },
-        { text: 'It dissolves the ice barriers so marine traffic can pass between basins.', isCorrect: false, rationale: 'Ice walls keep atmospheres apart, while the brine grounds the standing electromagnetic waves.' },
-        { text: 'It quenches volcanic heat before that thermal load reaches surface habitats.', isCorrect: false, rationale: 'Volcanoes release sub-surface thermal buildup, while the brine grounds the standing electromagnetic waves.' },
-        { text: 'It grounds standing electromagnetic waves between the dome and the motherboard.', isCorrect: true, rationale: 'The brine is an energetic conductor, grounding the standing electromagnetic waves between the dome and the motherboard.' }
+        {
+          text: 'The hydrological systems of all worlds across the Great Dome.',
+          isCorrect: true,
+          rationale: 'It is the water that underlies the physical plane and flows beneath the ice walls, interconnecting the hydrological systems of all worlds.'
+        },
+        {
+          text: 'The blueprints spiraling down from Source.',
+          isCorrect: false,
+          rationale: 'Blueprints descend through the Cube\'s stack, not the ocean.'
+        },
+        {
+          text: 'The ice wall rings compartmentalizing habitats.',
+          isCorrect: false,
+          rationale: 'The rings separate the habitats the ocean connects.'
+        },
+        {
+          text: 'The volcanic pressure regulation systems.',
+          isCorrect: false,
+          rationale: 'The valves regulate pressure; the ocean interconnects hydrology.'
+        }
       ]
     },
+
     {
       number: 19,
       question: 'Why did parasitic custodians institute mining across the plane?',
@@ -220,15 +373,32 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'Why are geological formations treated as grown hardware?',
-      hint: 'See the core revelations for what those placed minerals were meant to do.',
+      question: 'As what do native mineral veins, metals, and crystal networks operate?',
+      hint: 'See the Key Terminology entry for Organic Circuit Board.',
       options: [
-        { text: 'Human industries laid the veins with machinery during early historic eras.', isCorrect: false, rationale: 'Modern mining strips the board, while the minerals serve as physical transmission lines, capacitors, and antennas.' },
-        { text: 'Synthetic compounds stand in for the native copper, gold, quartz, and silver.', isCorrect: false, rationale: 'The hardware is native metal and crystal that serves as physical transmission lines, capacitors, and antennas.' },
-        { text: 'Metals and crystals serve as physical transmission lines, capacitors, and antennas.', isCorrect: true, rationale: 'Precious metals, gems, and crystals were positioned to serve as physical transmission lines, capacitors, processors, and antennas.' },
-        { text: 'Volcanic valves keep expanding the veins as fresh thermal hardware underground.', isCorrect: false, rationale: 'Volcanoes are pressure valves, while the minerals serve as physical transmission lines, capacitors, and antennas.' }
+        {
+          text: 'Living physical hardware and circuitry.',
+          isCorrect: true,
+          rationale: 'Within the plane, wherein native mineral veins, metals, and crystal networks operate as living physical hardware and circuitry.'
+        },
+        {
+          text: 'Commercial raw materials for extraction.',
+          isCorrect: false,
+          rationale: 'That framing is the custodial lure the report exposes.'
+        },
+        {
+          text: 'Random geological accretion products.',
+          isCorrect: false,
+          rationale: 'The formations are engineered hardware, not accretion byproducts.'
+        },
+        {
+          text: 'Decorative features of the terrain.',
+          isCorrect: false,
+          rationale: 'They are functional components of the living framework.'
+        }
       ]
     },
+
     {
       number: 21,
       question: 'Which of these is NOT described as lying beneath the ice walls?',
@@ -260,13 +430,22 @@ module.exports = {
     },
     {
       number: 24,
-      question: 'True or False: Nocelli schematics place the non-physical celestial domains of Terra Incognita alongside the five external Great Domes.',
-      hint: 'Look at the close of the spatial mapping for celestial domains drawn beside the firmaments.',
+      question: 'True or False: According to the report, “Great Dome” refers to the primary firmament that encloses the 178 physical worlds.',
+      hint: 'See the Key Terminology entry for Great Dome.',
       options: [
-        { text: 'True', isCorrect: true, rationale: 'The schematics show the five external Great Domes alongside the non-physical celestial domains of Terra Incognita.' },
-        { text: 'False', isCorrect: false, rationale: 'Nocelli maps the five external Great Domes alongside the non-physical celestial domains of Terra Incognita.' }
+        {
+          text: 'True',
+          isCorrect: true,
+          rationale: 'The Great Dome is the primary energetic and physical firmament that encloses the 178 physical worlds.'
+        },
+        {
+          text: 'False',
+          isCorrect: false,
+          rationale: 'That is exactly how the report defines the Great Dome.'
+        }
       ]
     },
+
     {
       number: 25,
       question: 'True or False: Peripheral ice walls form the crystalline ceiling that holds atmospheric containment over the 178 worlds.',
