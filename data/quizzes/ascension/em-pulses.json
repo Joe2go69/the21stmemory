@@ -154,99 +154,99 @@
     },
     {
       "number": 6,
-      "question": "During the three-flash pulse sequence, what occurs during the First Flash?",
+      "question": "To what period did operatives jump forward to plant the quartz crystals deep within the earth?",
       "options": [
         {
           "label": "A",
-          "text": "The physical simulation of the matrix is permanently dissolved to reveal the true crystalline sky.",
-          "isCorrect": false,
-          "rationale": "The dissolution of the matrix and the portal opening are associated with the final flash of the sequence."
+          "text": "The period immediately preceding the Great Awakening.",
+          "isCorrect": true,
+          "rationale": "Operatives jumped forward to the period immediately preceding the Great Awakening to plant quartz crystals deep within the earth before returning to the present timeline."
         },
         {
           "label": "B",
-          "text": "Biological vessels are instantly moved forward into the healing sanctuaries on the second realm.",
+          "text": "The height of the previous reset cycle, thousands of years in the past.",
           "isCorrect": false,
-          "rationale": "Forward movement and arrival occur during the second flash, while sanctuaries are post-flash operations."
+          "rationale": "The jumps went forward in time, not back into a previous reset cycle."
         },
         {
           "label": "C",
-          "text": "Consciousness is driven backward along the timeline to access and upload ancestral memory records into the vessel.",
-          "isCorrect": true,
-          "rationale": "The first pulse drives consciousness backward along the timeline, accessing ancestral records stored within the crystal memory banks."
+          "text": "The moment just after the third flash completes.",
+          "isCorrect": false,
+          "rationale": "The planting had to precede the activation; the crystals are pre-positioned long before the flashes occur."
         },
         {
           "label": "D",
-          "text": "The pineal gland is crystallized to allow for immediate telepathic communication with the GAA.",
+          "text": "A future century well beyond the current transition.",
           "isCorrect": false,
-          "rationale": "The first flash focuses on temporal rewind and memory retrieval rather than final biological crystallization."
+          "rationale": "The target period was the time immediately before the Great Awakening, so the crystals would be in place for this activation."
         }
       ],
-      "hint": "The initial step involves looking back to retrieve what has been forgotten.",
-      "correctAnswer": "C"
-    },
-    {
-      "number": 7,
-      "question": "What is the specific goal of the Second Flash within the pulse sequence?",
-      "options": [
-        {
-          "label": "A",
-          "text": "To propel consciousness forward through the timeline into the present, with restored awareness and cleansed vessels.",
-          "isCorrect": true,
-          "rationale": "The second pulse propels consciousness forward through the timeline into the present moment with fully restored memories, intact awareness, and cleansed biological vessels."
-        },
-        {
-          "label": "B",
-          "text": "To download the survival protocols required for the subsequent planetary healing phase.",
-          "isCorrect": false,
-          "rationale": "The second flash focuses on timeline synchronization and biological cleansing rather than protocol downloading."
-        },
-        {
-          "label": "C",
-          "text": "To activate the subterranean timers that release the remaining quartz crystals from the earth.",
-          "isCorrect": false,
-          "rationale": "The crystals emerge at the moment of solar ignition, which precedes the three-flash sequence."
-        },
-        {
-          "label": "D",
-          "text": "To initiate the collapse of the atmospheric dome by introducing high-vibrational plasma waves.",
-          "isCorrect": false,
-          "rationale": "The collapse of the dome is a result of the third and final pulse, not the synchronization pulse."
-        }
-      ],
-      "hint": "This step follows the temporal rewind and focuses on arriving in the 'now'.",
+      "hint": "Look at the time-travel preparation described before solar activation.",
       "correctAnswer": "A"
     },
     {
-      "number": 8,
-      "question": "Which transition is triggered by the Third Flash of the E.M. Pulse sequence?",
+      "number": 7,
+      "question": "What happens to the stored historical data as the EMP Grid energizes the quartz memory banks?",
       "options": [
         {
           "label": "A",
-          "text": "The total suspension of linear time to allow for the manual recalibration of all human vessels.",
+          "text": "It is transmitted back to the Galactic Ancestral Alliance for verification.",
           "isCorrect": false,
-          "rationale": "The final flash opens the portal for dimensional movement rather than stopping time for manual work."
+          "rationale": "The data is unlocked in place for the realm's inhabitants; it is not sent away for verification."
         },
         {
           "label": "B",
-          "text": "The retrieval of the subterranean quartz crystals back into the earth for future memory storage.",
+          "text": "It is erased so the vessels can begin from a blank state.",
           "isCorrect": false,
-          "rationale": "The crystals remain emerged to broadcast the grid and facilitate the portal rather than being retrieved."
+          "rationale": "The process restores memory rather than erasing it; the stored data is unlocked, not wiped."
         },
         {
           "label": "C",
-          "text": "The formation of a plasma crystalline state from aether and quartz conductors, opening a dimensional portal in the sky.",
+          "text": "It is unlocked, while high-frequency resonance is broadcast directly into human consciousness.",
           "isCorrect": true,
-          "rationale": "The final pulse interacts with free-energy atmospheric aether and quartz conductors to form a plasma crystalline state and open a massive dimensional portal spanning the sky."
+          "rationale": "As the electromagnetic grid saturates the atmosphere, it energizes the quartz memory banks, unlocking stored historical data and broadcasting high-frequency resonance directly into human consciousness."
         },
         {
           "label": "D",
-          "text": "The activation of the Galactic Ancestral Alliance's defensive fleet to secure the solar system.",
+          "text": "It is sealed inside the crystals until the next reset cycle begins.",
           "isCorrect": false,
-          "rationale": "The final flash is about portal activation and realm convergence rather than fleet deployment."
+          "rationale": "The banks are energized and opened during this transition, not sealed away for a future cycle."
         }
       ],
-      "hint": "Think about the final outcome that allows for the ascension into transportation craft.",
+      "hint": "Look at what the saturating grid does to the memory banks in the Core Revelations.",
       "correctAnswer": "C"
+    },
+    {
+      "number": 8,
+      "question": "What anchors the new aether in the atmosphere?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The magnetic field of the EMP Grid once it fully forms.",
+          "isCorrect": false,
+          "rationale": "The grid forms later, out of the pulses and crystals; the aether is already anchored before that."
+        },
+        {
+          "label": "B",
+          "text": "High-vibrational human resonance.",
+          "isCorrect": true,
+          "rationale": "The new aether is an upgraded environmental medium created in the sky by positive extraterrestrials and anchored by high-vibrational human resonance."
+        },
+        {
+          "label": "C",
+          "text": "The quartz crystals' automated energetic timers.",
+          "isCorrect": false,
+          "rationale": "The timers govern the crystals' emergence, not the anchoring of the aether."
+        },
+        {
+          "label": "D",
+          "text": "The deliberate beam directed into the solar body.",
+          "isCorrect": false,
+          "rationale": "The beam triggers solar activation; it does not anchor the atmospheric medium."
+        }
+      ],
+      "hint": "Look at how the aether is described when the solar light first encounters it.",
+      "correctAnswer": "B"
     },
     {
       "number": 9,
@@ -526,35 +526,35 @@
     },
     {
       "number": 18,
-      "question": "What specific biological outcome is associated with the 'First Flash'?",
+      "question": "With what do the E.M. Pulses align all internal vessels?",
       "options": [
         {
           "label": "A",
-          "text": "The total suppression of the appetite to prepare for life in a non-material density.",
+          "text": "The frequency of the transportation craft waiting above the realm.",
           "isCorrect": false,
-          "rationale": "The biological effects focus on DNA, memory, and coding rather than digestive suppression."
+          "rationale": "The vessels are aligned with cosmic templates, not with the craft."
         },
         {
           "label": "B",
-          "text": "The retrieval of original biological coding directly into the human vessel.",
-          "isCorrect": true,
-          "rationale": "This electromagnetic jump retrieves original biological coding and initiates a massive memory upload directly into human vessels."
+          "text": "The resonance of the Galactic Ancestral Alliance's home realm.",
+          "isCorrect": false,
+          "rationale": "No such alignment is described; the alignment is to the vessels' own original templates."
         },
         {
           "label": "C",
-          "text": "The immediate physical transportation of the vessel into the transportation craft.",
+          "text": "The timeline of the second realm's historical records.",
           "isCorrect": false,
-          "rationale": "Transportation occurs after the portal opens in the third flash, not during the first flash."
+          "rationale": "The historical data unlocked is the realm's own; the alignment target is the original cosmic templates."
         },
         {
           "label": "D",
-          "text": "The hardening of the skin to protect against the high-frequency radiation of the portal.",
-          "isCorrect": false,
-          "rationale": "The flash sequence reconfigures and cleanses the vessel but does not involve 'hardening' the skin."
+          "text": "Their original cosmic templates.",
+          "isCorrect": true,
+          "rationale": "The process aligns all internal vessels with original cosmic templates as it overrides lower-density matrix constructs and forces the simulation to glitch and pixelate."
         }
       ],
-      "hint": "This flash is linked to the memory upload and the temporal jump backward.",
-      "correctAnswer": "B"
+      "hint": "Look at the end state the pulse process produces inside the vessels.",
+      "correctAnswer": "D"
     },
     {
       "number": 19,
@@ -654,67 +654,67 @@
     },
     {
       "number": 22,
-      "question": "What occurs to the global atmosphere during the final pulse of the sequence?",
+      "question": "In the report's flow diagram of the activation chain, what receives the Solar Activation Light first?",
       "options": [
         {
           "label": "A",
-          "text": "It enters a plasma crystalline state that dissolves the artificial dome.",
-          "isCorrect": true,
-          "rationale": "The final pulse interacts with free-energy atmospheric aether and quartz conductors to form a plasma crystalline state that dissolves the matrix dome."
+          "text": "The subterranean quartz crystals.",
+          "isCorrect": false,
+          "rationale": "The crystals receive the pulses further down the chain, after the aether layer and the pulses themselves."
         },
         {
           "label": "B",
-          "text": "It forms a reflective mirror surface that hides the planet from external observation.",
-          "isCorrect": false,
-          "rationale": "The goal is to open a portal and merge realms, which is the opposite of hiding or shielding the planet."
+          "text": "The New Aether atmospheric layer.",
+          "isCorrect": true,
+          "rationale": "The diagram runs: Solar Activation Light Target -> New Aether Atmospheric Layer -> Positive-Frequency E.M. Pulses -> Subterranean Quartz Crystals -> Realm-Wide Closed EMP Grid."
         },
         {
           "label": "C",
-          "text": "It becomes highly pressurized to force the convergence of the two realms.",
+          "text": "The realm-wide closed EMP Grid.",
           "isCorrect": false,
-          "rationale": "The atmospheric transformation is to a plasma crystalline state, not a pressurized state."
+          "rationale": "The grid is the final product of the chain, not its first receiver."
         },
         {
           "label": "D",
-          "text": "It loses all oxygen for a brief moment to allow for a complete molecular reset.",
+          "text": "The quartz memory banks' stored historical data.",
           "isCorrect": false,
-          "rationale": "The process involves frequency and state changes rather than the removal of oxygen."
+          "rationale": "The data is unlocked once the grid energizes the banks, well after the light meets the aether."
         }
       ],
-      "hint": "Think about the unique state of matter that forms in the sky to allow for the portal.",
-      "correctAnswer": "A"
+      "hint": "Follow the arrows in the diagram in the Detailed Mechanics.",
+      "correctAnswer": "B"
     },
     {
       "number": 23,
-      "question": "What happens to the biological vessels of beings during the 'Second Flash'?",
+      "question": "What does the electromagnetic coupling of the pulses and the crystal array ensure for every entity in the realm?",
       "options": [
         {
           "label": "A",
-          "text": "They are cleansed and arrive in the present moment ready for dimensional alignment.",
-          "isCorrect": true,
-          "rationale": "Beings arrive with fully restored memories, intact awareness, and cleansed biological vessels ready for dimensional alignment."
+          "text": "That each entity is transported to a healing sanctuary after the flashes.",
+          "isCorrect": false,
+          "rationale": "The coupling concerns the transmission itself, not post-flash transport."
         },
         {
           "label": "B",
-          "text": "They are transformed into pure energetic light without a physical form.",
+          "text": "That each entity's memory bank data is verified by the supervisors.",
           "isCorrect": false,
-          "rationale": "The vessels are 'restored' and 'cleansed' biological structures, not entirely dematerialized into light."
+          "rationale": "No verification step is described; the coupling delivers the energetic transmission."
         },
         {
           "label": "C",
-          "text": "They are placed into a deep sleep to allow for the final DNA activation to occur painlessly.",
-          "isCorrect": false,
-          "rationale": "Beings arrive with 'intact awareness' during the second flash rather than being asleep."
+          "text": "That every individual entity receives the full energetic transmission.",
+          "isCorrect": true,
+          "rationale": "The E.M. Pulses lock onto the crystal array, creating a unified EMP Grid; this magnetic pulse grid acts as a total containment shield, ensuring that every individual entity within the realm receives the full energetic transmission."
         },
         {
           "label": "D",
-          "text": "They are duplicated into the second realm to ensure a backup exists for each soul.",
+          "text": "That each entity emerges from the ground at the moment of solar ignition.",
           "isCorrect": false,
-          "rationale": "The transition involves the actual vessel being restored and moved, not duplicated."
+          "rationale": "It is the crystals that emerge on their timers, not the realm's entities."
         }
       ],
-      "hint": "Consider the state of awareness and the physical condition of beings after the forward timeline jump.",
-      "correctAnswer": "A"
+      "hint": "Look at the stated purpose of the unified grid that the coupling creates.",
+      "correctAnswer": "C"
     },
     {
       "number": 24,
@@ -750,35 +750,35 @@
     },
     {
       "number": 25,
-      "question": "Who provides support to individuals carrying trauma after the EMP Grid activation?",
+      "question": "Into what are individuals drawn toward the plasma crystalline portal elevated?",
       "options": [
         {
           "label": "A",
-          "text": "The subterranean quartz crystals themselves, which broadcast healing frequencies.",
+          "text": "The supervisory fleets' command decks.",
           "isCorrect": false,
-          "rationale": "While the crystals broadcast the grid, the specific care in sanctuaries is provided by personnel and teams."
+          "rationale": "The elevated individuals enter transportation craft; command decks are not mentioned."
         },
         {
           "label": "B",
-          "text": "Specialized extraterrestrial teams and Galactic Ancestral Alliance personnel.",
-          "isCorrect": true,
-          "rationale": "For individuals carrying trauma or lower-density behavioral patterns who remain on the planet, extraterrestrial teams and GAA personnel establish specialized healing sanctuaries across all continents."
+          "text": "The second realm's healing sanctuaries.",
+          "isCorrect": false,
+          "rationale": "Sanctuaries serve those who remain on the planet; the portal-drawn are elevated into craft."
         },
         {
           "label": "C",
-          "text": "Human doctors who have been pre-screened for high-vibrational resonance.",
+          "text": "A holding orbit inside the EMP Grid itself.",
           "isCorrect": false,
-          "rationale": "The healing sanctuaries are managed by extraterrestrial and GAA teams rather than 3D human doctors."
+          "rationale": "The grid is a containment and transmission structure, not a holding orbit for the ascending."
         },
         {
           "label": "D",
-          "text": "Automated medical droids deployed by the Space Force from orbital platforms.",
-          "isCorrect": false,
-          "rationale": "Extraterrestrial teams and GAA personnel establish the healing sanctuaries, not automated medical droids."
+          "text": "Transportation craft for ascension.",
+          "isCorrect": true,
+          "rationale": "Individuals radiating the ancient vibration of love and empathy are naturally drawn toward the plasma crystalline portal, where they are elevated into transportation craft for ascension."
         }
       ],
-      "hint": "Identify the groups responsible for the specialized healing sanctuaries.",
-      "correctAnswer": "B"
+      "hint": "Look at the Consciousness Filtering outcome in the Strategic Implications.",
+      "correctAnswer": "D"
     }
   ]
 }
