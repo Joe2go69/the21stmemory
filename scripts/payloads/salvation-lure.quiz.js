@@ -308,31 +308,32 @@ module.exports = {
     },
     {
       number: 12,
-      question: 'Which perspective characterizes The Hero Read of Trump 1989 across the population grid?',
-      hint: 'Think of how patriots and awakening truthers view their preferred political rescue figure.',
+      question: 'What is Trump 1989?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'Experiencing media-conditioned outrage that generates emotional turbulence and loosh harvest.',
-          isCorrect: false,
-          rationale: 'Outrage and division define the NPC Hate Read rather than the Hero Read.'
-        },
-        {
-          text: 'Dismissing all political figures as irrelevant to physical reality while remaining completely indifferent.',
-          isCorrect: false,
-          rationale: 'Indifference is not the high-anticipation savior view of the Hero Read.'
-        },
-        {
-          text: 'Patriots and truth seekers view the persona as a flawless military savior dismantling evil forces and delivering golden age technology.',
+          text: 'The public face of the salvation lure — the political figurehead replaced in 1989 to run a controlled narrative and gather collective human signatures.',
           isCorrect: true,
-          rationale: 'The Hero Read treats the persona as a flawless military savior dismantling evil forces and delivering golden age technology.'
+          rationale: 'He is the lure\'s public face, deployed to gather collective human signatures through a controlled narrative.'
         },
         {
-          text: 'Recognizing that the persona was replaced in 1989 to execute an administrative signature trap.',
+          text: 'The benevolent military commander dismantling the custodial control system from within the government.',
           isCorrect: false,
-          rationale: 'Recognizing the replaced persona is the Christian21 Read.'
+          rationale: 'That savior framing is the lure\'s own pitch, not the figurehead\'s actual function.'
+        },
+        {
+          text: 'A media fabrication invented by influencers with no connection to the lure\'s actual operation.',
+          isCorrect: false,
+          rationale: 'The persona is central to the lure: he aggregates the signatures it captures.'
+        },
+        {
+          text: 'The sitting administrator of the Cestui Que Vie bond registry and its redemption apparatus.',
+          isCorrect: false,
+          rationale: 'Bond administration belongs to the legal-capture system, not to the lure\'s figurehead.'
         }
       ]
     },
+
     {
       number: 13,
       question: 'What is the primary energetic function of The NPC Hate Read within the custodial architecture?',
@@ -362,31 +363,32 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'How does The Christian21 Read interpret the deployment of Trump 1989?',
-      hint: 'Look for the viewpoint that sees past the savior narrative to the free-will trap.',
+      question: 'What does signing the redemption documents constitute under custodial framework laws?',
+      hint: 'Check Legal Signature Mechanics, Tier 4B, and Bond Surrender.',
       options: [
         {
-          text: 'By interpreting the political figurehead as the literal fulfillment of end-times religious prophecy.',
-          isCorrect: false,
-          rationale: 'Prophetic worship belongs to counterfeit spiritual systems rather than this operational read.'
-        },
-        {
-          text: 'By believing the persona will execute total debt cancellation through federal statutory bankruptcy courts.',
-          isCorrect: false,
-          rationale: 'Waiting on federal debt cancellation repeats the lure rather than reading the replacement.'
-        },
-        {
-          text: 'By viewing the political narrative as an unscripted conflict between opposing corporate banking factions.',
-          isCorrect: false,
-          rationale: 'That view misses the single-candidate narrative run by the replaced persona.'
-        },
-        {
-          text: 'The Christian21 Read recognizes that the original figure was replaced and that the current persona operates as the primary administrator of the signature trap.',
+          text: 'A legally binding consent signature, transferring the individual\'s energetic collateral to the controlling system.',
           isCorrect: true,
-          rationale: 'The Christian21 Read holds that the original figure was replaced and the current persona is the primary administrator of the signature trap.'
+          rationale: 'The signing constitutes a legally binding consent signature under custodial framework laws.'
+        },
+        {
+          text: 'A revocable expression of interest in future account access.',
+          isCorrect: false,
+          rationale: 'The signature is binding and trades sovereign free-will rights, not a revocable interest note.'
+        },
+        {
+          text: 'A claim that restores sovereign standing to the signer.',
+          isCorrect: false,
+          rationale: 'Signing surrenders sovereign standing rather than restoring it.'
+        },
+        {
+          text: 'A ceremonial formality with no energetic consequence.',
+          isCorrect: false,
+          rationale: 'The signature transfers the individual\'s energetic collateral — the trap\'s core objective.'
         }
       ]
     },
+
     {
       number: 15,
       question: 'What physical destination do individuals actually enter when attending Tier 4B redemption appointments?',
@@ -470,31 +472,32 @@ module.exports = {
     },
     {
       number: 18,
-      question: 'How does the salvation lure interact with the underlying legal mechanics of the Cestui Que Vie birth bond system?',
-      hint: 'Examine what happens to legal standing when someone tries to cash in corporate birth records.',
+      question: 'What do the salvation lure and Fifteen-Minute Cities both rely on?',
+      hint: 'Look at the first Broader Context paragraph.',
       options: [
         {
-          text: 'It automatically transfers corporate trust collateral into off-grid private sovereign gold accounts.',
-          isCorrect: false,
-          rationale: 'The promise of converting corporate collateral into funds is the bait that closes the trap.'
-        },
-        {
-          text: 'It eliminates state inheritance taxes by nullifying the legal distinction between living individuals and corporate trusts.',
-          isCorrect: false,
-          rationale: 'The lure keeps the corporate claim in place rather than erasing the trust distinction.'
-        },
-        {
-          text: 'It completely dissolves maritime birth bonds by restoring original common law land titles to living beings.',
-          isCorrect: false,
-          rationale: 'The lure reaffirms corporate ownership rather than dissolving the birth bond.'
-        },
-        {
-          text: 'Promising to monetize these underlying corporate bonds reaffirms corporate ownership over their living identity through the Cestui Que Vie birth bond system.',
+          text: 'Incremental acclimatization and the illusion of choice — targets choose what they want while their wants are selected for them.',
           isCorrect: true,
-          rationale: 'Trying to monetize underlying corporate bonds reaffirms corporate ownership over the living identity.'
+          rationale: 'Both rely on acclimatization, ensuring that targets choose what they want while having their wants selected for them.'
+        },
+        {
+          text: 'Raw physical force applied to unwilling populations without any prior conditioning or consent framing.',
+          isCorrect: false,
+          rationale: 'Force would expose the system; both mechanisms work through conditioned voluntary choice.'
+        },
+        {
+          text: 'Direct external override of the field, permitted under the Sovereign Accord\'s support provisions.',
+          isCorrect: false,
+          rationale: 'The Accord prohibits outside override; consent must be manufactured internally.'
+        },
+        {
+          text: 'Voluntary participation secured through genuine disclosure of each system\'s operational function.',
+          isCorrect: false,
+          rationale: 'Participation is secured through guise and illusion, not disclosure.'
         }
       ]
     },
+
     {
       number: 19,
       question: 'Which parallel physical containment strategy works alongside the salvation lure\'s economic capture?',
