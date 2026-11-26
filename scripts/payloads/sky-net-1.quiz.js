@@ -173,31 +173,32 @@ module.exports = {
     },
     {
       number: 7,
-      question: 'Which essential structural and legal components do holographic sleeves lack?',
-      hint: 'Focus on the spiritual, legal, and biological markers that living people have and these fillers do not.',
+      question: 'What does the system project instead of defending terrestrial airspace?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'True soul architecture, a physical mother, and legal Cestui Que Vie bonds.',
+          text: 'The illusion of a hostile extraterrestrial armada conducting an aggressive atmospheric assault.',
           isCorrect: true,
-          rationale: 'They blink out when deactivated without possessing a physical mother, a true soul, or those legal bonds.'
+          rationale: 'It projects an aggressive atmospheric assault. The physical craft observed conducting destructive maneuvers during this staged spectacle are salvaged craft.'
         },
         {
-          text: 'External holographic overlays, firmament connections, and societal roles.',
+          text: 'A genuine off-world invasion fleet.',
           isCorrect: false,
-          rationale: 'Overlays and the data stream from Sky-Net 1 are what sustain these projections in public spaces.'
+          rationale: 'The armada is a projected illusion, not a genuine fleet.'
         },
         {
-          text: 'Sensory mimicry, vocal responses, and movement parameters.',
+          text: 'A planetary defense shield over Earth.',
           isCorrect: false,
-          rationale: 'Sleeves mimic routine social interactions through automated auto-responses.'
+          rationale: 'The system does not defend terrestrial airspace at all.'
         },
         {
-          text: 'Automated data streams, cultural behavioral etiquette, and visual density.',
+          text: 'Continuous scrolling geography and population overlays.',
           isCorrect: false,
-          rationale: 'Data streams and behavioral etiquette are actively supplied to sleeves by Sky-Net 1.'
+          rationale: 'Those are the rig\'s padding operations, not the assault projection.'
         }
       ]
     },
+
     {
       number: 8,
       question: 'How do holographic sleeves maintain believable behavior in everyday social settings?',
@@ -281,58 +282,60 @@ module.exports = {
     },
     {
       number: 11,
-      question: 'How has public consciousness been pre-conditioned to interpret Sky-Net 1 projections as an authentic attack?',
-      hint: 'Recall the long-term cultural and media preparation named for this spectacle.',
+      question: 'From what do the psyops divert attention?',
+      hint: 'See the SSP Psyops discussion in Detailed Mechanics.',
       options: [
         {
-          text: 'Through multi-generational predictive programming and MK-Ultra narrative installation.',
+          text: 'The artificial projection rig.',
           isCorrect: true,
-          rationale: 'Decades of sci-fi cinema, disaster broadcasts, and the 1938 War of the Worlds radio panic embedded anxiety about off-world threats.'
+          rationale: 'Framing the event as a real off-world threat, these psyops divert attention away from the artificial projection rig.'
         },
         {
-          text: 'Through compulsory government civil defense drills conducted across urban centers.',
+          text: 'The salvaged craft flying controlled paths.',
           isCorrect: false,
-          rationale: 'The conditioning named here is cinema, disaster broadcasts, and narrative installation rather than physical civil defense drills.'
+          rationale: 'The craft are part of the spectacle the psyops help sell as real.'
         },
         {
-          text: 'Through widespread scientific education regarding verified interstellar space forces.',
+          text: 'The terrestrial media networks\' synchronization.',
           isCorrect: false,
-          rationale: 'The narrative relies on media-driven psychological conditioning rather than scientific education.'
+          rationale: 'Synchronization is the broadcast mechanism, not what attention is diverted from.'
         },
         {
-          text: 'Through direct psychotronic energy signals broadcast into biological human neural pathways.',
+          text: 'The Sovereign Accord field dynamics.',
           isCorrect: false,
-          rationale: 'The conditioning named here is predictive programming and cultural memory anchors.'
+          rationale: 'The Accord explains the deception\'s method, not the diversion\'s target.'
         }
       ]
     },
+
     {
       number: 12,
-      question: 'Which historic media event is highlighted as a primary memory anchor for pre-conditioning invasion panic?',
-      hint: 'Recall the historic radio panic named as a memory anchor for off-world anxiety.',
+      question: 'What validates the celestial projections?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'The 1969 Apollo moon landing television event.',
-          isCorrect: false,
-          rationale: 'The named memory anchor is the 1938 War of the Worlds radio panic.'
-        },
-        {
-          text: 'The 1938 War of the Worlds radio panic.',
+          text: 'The physical presence of salvaged craft, providing the necessary physical footprint.',
           isCorrect: true,
-          rationale: 'That historic media event pre-conditioned deep-seated anxiety regarding off-world threats.'
+          rationale: 'Salvaged craft validate the celestial projections. Furthermore, Sky-Net 1 intersects with Sovereign Accord field dynamics.'
         },
         {
-          text: 'The 1947 Roswell press release radio announcement.',
+          text: 'The whistleblower circuit\'s disclosure platforms.',
           isCorrect: false,
-          rationale: 'Roswell is named for recovered craft, while the radio panic anchor is the 1938 War of the Worlds.'
+          rationale: 'The platforms sell the invasion story; they do not validate the projections physically.'
         },
         {
-          text: 'The 1952 Washington D.C. UFO radar incident report.',
+          text: 'The media networks\' simultaneous broadcasts.',
           isCorrect: false,
-          rationale: 'The named memory anchor is the 1938 War of the Worlds radio panic.'
+          rationale: 'Broadcasts saturate screens; the craft supply the physical footprint.'
+        },
+        {
+          text: 'The micron-angle modulation at the source.',
+          isCorrect: false,
+          rationale: 'Modulation shifts the overlays; validation comes from the craft\'s presence.'
         }
       ]
     },
+
     {
       number: 13,
       question: 'What energetic product is harvested from the populace through panic during the staged invasion?',
@@ -470,31 +473,32 @@ module.exports = {
     },
     {
       number: 18,
-      question: 'What happens when a holographic sleeve is deactivated by Sky-Net 1?',
-      hint: 'Consider what a light projection leaves behind when the stream stops.',
+      question: 'Where does the rig project holographic sleeves?',
+      hint: 'See Detailed Mechanics and Key Elements.',
       options: [
         {
-          text: 'It triggers a localized electromagnetic pulse that disrupts local media.',
-          isCorrect: false,
-          rationale: 'Deactivation ends the projection without an explosive electromagnetic pulse.'
-        },
-        {
-          text: 'They blink out when deactivated without possessing a physical mother or a true soul.',
+          text: 'Directly into urban centers and rural corridors.',
           isCorrect: true,
-          rationale: 'Sleeves are non-living senescent holograms that can also blink into existence when the stream is on.'
+          rationale: 'The rig can project holographic sleeves directly into urban centers and rural corridors.'
         },
         {
-          text: 'It transitions into a transparent energetic orb that returns to the firmament.',
+          text: 'Only into the night sky during the EBS lockdown.',
           isCorrect: false,
-          rationale: 'The projection ceases rather than remaining as a visible orb.'
+          rationale: 'The night sky carries the invasion optics; sleeves enter population areas.'
         },
         {
-          text: 'It collapses into a physical synthetic shell that dissolves over time.',
+          text: 'Into underground D.U.M.B. facilities.',
           isCorrect: false,
-          rationale: 'Sleeves have no physical synthetic body left behind when deactivated.'
+          rationale: 'Sleeves are projected onto the physical plane\'s population centers.'
+        },
+        {
+          text: 'Onto television screens and handheld devices.',
+          isCorrect: false,
+          rationale: 'Screens carry the broadcast spectacle, not the sleeves themselves.'
         }
       ]
     },
+
     {
       number: 19,
       question: 'Why are fake disclosure platforms and controlled whistleblowers utilized by SSP Psyops?',
