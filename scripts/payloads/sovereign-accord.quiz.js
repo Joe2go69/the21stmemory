@@ -200,58 +200,60 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'Why is the discovery of the Ayahuasca brew evidence of non-overriding external guidance?',
-      hint: 'Count the two-plant pairs hidden in more than 80,000 Amazon species.',
+      question: 'What do the Psychotria viridis leaves and the Banisteriopsis caapi vine each supply to the brew?',
+      hint: 'Check Subtle Help: Botanical and Biological Mechanisms.',
       options: [
         {
-          text: 'Conducting 200 tests per day would require over forty-three thousand years of continuous trial and error.',
+          text: 'The leaves provide DMT; the vine supplies beta-carboline alkaloids — harmine, THH, and harmaline — that act as MAOIs, allowing DMT to cross the blood-brain barrier.',
           isCorrect: true,
-          rationale: 'Testing every two-plant pair among more than 80,000 registered plant species at 200 tests per day would require over 43,800 years of continuous trial and error, and shamans say Pachamama communicated the combination.'
+          rationale: 'The vine supplies beta-carboline alkaloids whose MAOI action lets the leaves\' DMT cross the blood-brain barrier.'
         },
         {
-          text: 'The active chemicals are synthetic compounds that cannot occur in Amazonian plants.',
+          text: 'The leaves provide the beta-carboline MAOIs; the vine stems supply the DMT that crosses into the bloodstream.',
           isCorrect: false,
-          rationale: 'The leaves provide N,N-Dimethyltryptamine and the vine supplies beta-carboline alkaloids, both drawn from living plants.'
+          rationale: 'The roles run the other way: leaves carry the DMT, the vine carries the inhibitors.'
         },
         {
-          text: 'The brew works only when it is boiled inside a sterile modern laboratory.',
+          text: 'Both plants supply N,N-Dimethyltryptamine in equal measure, and neither contributes any enzyme inhibition.',
           isCorrect: false,
-          rationale: 'Specific boiling methods and precise mixing ratios were communicated directly by spiritual entities rather than discovered as a laboratory product.'
+          rationale: 'Only the leaves provide DMT; the vine\'s contribution is the beta-carboline alkaloids.'
         },
         {
-          text: 'The two plants grow only in sites that modern extraction technology can reach.',
+          text: 'The leaves supply harmine, THH, and harmaline; the vine supplies the DMT-bearing psychoactive compound.',
           isCorrect: false,
-          rationale: 'Indigenous shamans received the combination from Pachamama as higher-density spiritual technology, not from modern access to the forest.'
+          rationale: 'Harmine and THH are among the vine\'s alkaloids, not the leaves\' contribution.'
         }
       ]
     },
+
     {
       number: 9,
-      question: 'What is the primary biological objective of public water fluoridation in this field?',
-      hint: 'The target is the gland that acts as the biological antenna.',
+      question: 'What does reclaiming multidimensional awareness require regarding chemical suppression?',
+      hint: 'See Decalcification of Biological Antennas.',
       options: [
         {
-          text: 'Fluoridation enhances neural conductivity so the internal network can carry a wider signal.',
-          isCorrect: false,
-          rationale: 'Public water fluoridation was instituted to calcify the pineal gland and lock humans out of multidimensional perception.'
-        },
-        {
-          text: 'Fluoridation is carried out to strengthen tooth enamel and has no effect on inner perception.',
-          isCorrect: false,
-          rationale: 'The stated objective is to calcify the pineal gland, locking humans out of multidimensional perception and replacing organic aetheric communication.'
-        },
-        {
-          text: 'Fluoridation synchronizes human heartbeats to the simulation carrier frequency.',
-          isCorrect: false,
-          rationale: 'Heart-rate pressure belongs to psychoacoustic scoring, while fluoridation targets the pineal gland.'
-        },
-        {
-          text: 'Public water fluoridation was instituted to calcify the pineal gland and lock humans out of multidimensional perception.',
+          text: 'Neutralizing chemical suppression mechanisms — such as dietary fluoride and environmental toxins — to restore pineal gland function and re-establish direct connection to the organic aether.',
           isCorrect: true,
-          rationale: 'Custodial managers used that calcification to replace organic aetheric communication with the artificial World Wide Web.'
+          rationale: 'It requires neutralizing suppression to restore pineal gland function and re-establish direct connection to the organic aether.'
+        },
+        {
+          text: 'Increasing dietary fluoride intake over eight decades to strengthen the pineal gland\'s calcified shell.',
+          isCorrect: false,
+          rationale: 'Fluoride is the suppression mechanism to neutralize, not a strengthening agent.'
+        },
+        {
+          text: 'Replacing organic aetheric communication with the artificial World Wide Web as the standard channel.',
+          isCorrect: false,
+          rationale: 'Artificial replacement is the custodial substitution; reclamation restores the organic connection.'
+        },
+        {
+          text: 'Accepting chemical suppression mechanisms as the lawful price of statutory participation in the field.',
+          isCorrect: false,
+          rationale: 'Reclamation withdraws from the suppression arrangement rather than accepting it.'
         }
       ]
     },
+
     {
       number: 10,
       question: 'The Galactic Ancestral Alliance deployed two hundred million starseeds into the field to satisfy what requirement of the Sovereign Accord?',
@@ -281,31 +283,32 @@ module.exports = {
     },
     {
       number: 11,
-      question: 'What legal instrument converts a living soul into a corporate fiction to facilitate loosh harvesting?',
-      hint: 'The bond is dated 1666 and attached at birth registration.',
+      question: 'How did benevolent forces place conscious personnel inside the realm lawfully?',
+      hint: 'Look at the second Core Revelations paragraph.',
       options: [
         {
-          text: 'The Social Credit Score System turns each newborn into collateral for urban cashless trade.',
-          isCorrect: false,
-          rationale: 'The Social Credit Score System enforces cashless transactions inside containment grids and is not the birth bond.'
-        },
-        {
-          text: 'The Cestui Que Vie 1666 Birth Certificate Bond legally converts the living soul into a corporate fiction.',
+          text: 'Four thousand ancient souls and two hundred million starseeds incarnated directly into the 3rd-density avatar field starting 178,000 years ago in Lemurian and Atlantean epochs.',
           isCorrect: true,
-          rationale: 'By registering a newborn child, the living soul is legally converted into a corporate fiction and bonded as collateral so institutions can monetize human productivity and harvest loosh.'
+          rationale: 'Personnel incarnated directly into the 3rd-density avatar field starting 178,000 years ago, before colonization.'
         },
         {
-          text: 'A Sovereign Accord registration form bonds the incarnate soul as collateral to the field law.',
+          text: 'By breaking the energetic seal from the outside to collapse the simulation and free the trapped souls.',
           isCorrect: false,
-          rationale: 'The Sovereign Accord is the universal energetic field law, not the statutory bond that creates a corporate fiction.'
+          rationale: 'Higher-density forces cannot break the seal from the outside; that is why incarnation was used.'
         },
         {
-          text: 'The National Defense Education Act of 1958 converts the living soul into a corporate fiction.',
+          text: 'By overriding the field directly once coherent structures had self-sustained harmonics within the realm.',
           isCorrect: false,
-          rationale: 'That act funds the pipeline to extract high-intellect children and is not the Cestui Que Vie 1666 Birth Certificate Bond.'
+          rationale: 'Overriding a self-sustained field is exactly what the Accord prohibits.'
+        },
+        {
+          text: 'By delivering direct physical instructions and material support to surface avatars across the epochs.',
+          isCorrect: false,
+          rationale: 'Assistance flows through non-overriding channels, not direct instructions.'
         }
       ]
     },
+
     {
       number: 12,
       question: 'In subtle help, what are Ark-Pods used for by higher-density soul families?',
@@ -362,31 +365,32 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'What term names the negative emotional frequency harvested by custodial management?',
-      hint: 'It is harvested beside monetized human productivity.',
+      question: 'What is Emotional Scoring?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'Miasma is the name of the negative emotional frequency taken from the collective.',
-          isCorrect: false,
-          rationale: 'The frequency custodial management harvests is loosh, the negative emotional frequency tied to the birth certificate bond.'
-        },
-        {
-          text: 'Static is the harvested emotional frequency that financial institutions draw off the population.',
-          isCorrect: false,
-          rationale: 'Designed noise swamps thought, while the harvested negative emotional frequency is loosh.'
-        },
-        {
-          text: 'Custodial management uses the bond system to harvest loosh as negative emotional frequency.',
+          text: 'The psychoacoustic engineering of film, media, and musical compositions using specific tempos, scales, and instrumentations to evoke pre-calculated emotional states and train autonomic human responses.',
           isCorrect: true,
-          rationale: 'Governments and financial institutions monetize human productivity and harvest loosh (negative emotional frequency) while the soul appears to participate voluntarily.'
+          rationale: 'Scoring uses tempos and instrumentation to evoke pre-calculated emotional states and train autonomic human responses.'
         },
         {
-          text: 'Dross is the technical name for the negative emotional frequency collected under Field Law.',
+          text: 'The deliberate saturation of society with layered options and obligations designed to consume mental bandwidth.',
           isCorrect: false,
-          rationale: 'Custodial management harvests loosh as negative emotional frequency, and dross is not that name.'
+          rationale: 'That saturation is Choice Architecture, a bandwidth attack rather than a psychoacoustic one.'
+        },
+        {
+          text: 'The strategic inversion of human desire wherein parasitic systems curate choices and aspirations for the population.',
+          isCorrect: false,
+          rationale: 'That inversion is Manufactured Wants, the curation of desire itself.'
+        },
+        {
+          text: 'Spatial urban containment structures pitched as walkable convenience and enforced through digital monitoring systems.',
+          isCorrect: false,
+          rationale: 'Those structures are Fifteen-Minute Cities, a spatial containment tool.'
         }
       ]
     },
+
     {
       number: 15,
       question: 'How does the World Wide Web relate to organic aetheric connection in this infrastructure?',
@@ -416,31 +420,32 @@ module.exports = {
     },
     {
       number: 16,
-      question: 'What withdraws agreement from statutory laws and manufactured choice architecture so corporate legal fictions lose their hold?',
-      hint: 'The strategic implication is named as a revocation.',
+      question: 'What does Systemic Revocation of Consent enable individuals to do?',
+      hint: 'See Systemic Revocation of Consent.',
       options: [
         {
-          text: 'Filing another birth certificate bond clears the corporate fiction created by the first registration.',
-          isCorrect: false,
-          rationale: 'Registration under the Cestui Que Vie 1666 Birth Certificate Bond creates the corporate fiction rather than neutralizing it.'
-        },
-        {
-          text: 'Rehabilitation inside FEMA camps cancels the statutory consent parasites already harvested.',
-          isCorrect: false,
-          rationale: 'FEMA camps receive non-compliant people from the containment grids and do not revoke consent.'
-        },
-        {
-          text: 'Full adherence to Fifteen-Minute City protocols neutralizes the corporate legal fiction.',
-          isCorrect: false,
-          rationale: 'Accepting those localized zones restricts movement and counts as the voluntary consent Field Law requires.'
-        },
-        {
-          text: 'Systemic Revocation of Consent lets people intentionally withdraw consent from statutory laws and administrative mandates and manufactured choice architecture.',
+          text: 'Intentionally withdraw consent from statutory laws, administrative mandates, and manufactured choice architecture, neutralizing corporate legal fictions.',
           isCorrect: true,
-          rationale: 'Recognizing consent manipulation under the Sovereign Accord enables individuals to intentionally withdraw consent from statutory laws, administrative mandates, and manufactured choice architecture, neutralizing corporate legal fictions.'
+          rationale: 'Recognizing consent manipulation lets individuals withdraw consent from statutory laws and mandates, neutralizing legal fictions.'
+        },
+        {
+          text: 'Grant external saviors and off-world forces authority to override the realm on humanity\'s behalf.',
+          isCorrect: false,
+          rationale: 'No external override is lawful; liberation must be generated internally.'
+        },
+        {
+          text: 'Register newborns into the Cestui Que Vie bond system to secure lawful standing within governance.',
+          isCorrect: false,
+          rationale: 'Registration into the bond system is the capture mechanism revocation withdraws from.'
+        },
+        {
+          text: 'Accept manufactured choice architecture and curated wants as genuine expressions of free will.',
+          isCorrect: false,
+          rationale: 'Choice architecture is the manufactured consent revocation refuses.'
         }
       ]
     },
+
     {
       number: 17,
       question: 'Which instrument is associated with the weeping voice in psychoacoustic emotional scoring?',
@@ -605,31 +610,32 @@ module.exports = {
     },
     {
       number: 23,
-      question: 'What is the primary objective of designed noise within the simulation field?',
-      hint: 'Nineteen varieties of coffee and thick tax schedules do the same job.',
+      question: 'How is the manufactured-wants dynamic summarized?',
+      hint: 'Check Consent Manipulation and Manufactured Wants.',
       options: [
         {
-          text: 'Designed noise improves the resolution of the projection domes.',
-          isCorrect: false,
-          rationale: 'Projection domes belong to the simulation field architecture, while designed noise swamps internal thought processes.'
-        },
-        {
-          text: 'Designed noise exists to give the population a richer menu of entertainment.',
-          isCorrect: false,
-          rationale: 'Entertainment can carry the noise, but the deliberate mechanism is to swamp internal thought processes and prevent metacognition or spiritual reflection.'
-        },
-        {
-          text: 'Designed noise is a deliberate mechanism to swamp internal thought processes.',
+          text: '\'You can choose what you want, but your wants are chosen for you.\'',
           isCorrect: true,
-          rationale: 'The constant influx of trivial decisions consumes cognitive bandwidth and prevents metacognition or spiritual reflection.'
+          rationale: 'The dynamic is: you can choose what you want, but your wants are chosen for you — parasites curate the desires themselves.'
         },
         {
-          text: 'Designed noise masks the audible sound of off-world radio traffic.',
+          text: '\'Choice, and thus consequence, must arise from within.\'',
           isCorrect: false,
-          rationale: 'Subtle help arrives through dreamtime instruction and intuitive cerebral links, while designed noise swamps the internal thought process that could recognize it.'
+          rationale: 'That line states the Accord\'s law, not the manufactured-wants dynamic.'
+        },
+        {
+          text: '\'Help may be offered, but the field decides its own outcomes.\'',
+          isCorrect: false,
+          rationale: 'That paraphrases the support clause of the law, not the curation of wants.'
+        },
+        {
+          text: '\'Every option is equal, and every desire is freely formed.\'',
+          isCorrect: false,
+          rationale: 'Desires are curated by the parasites; they are not freely formed.'
         }
       ]
     },
+
     {
       number: 24,
       question: 'To secure lawful consent while evading cosmic penalty, parasites must present oppressive initiatives as which of the following?',
