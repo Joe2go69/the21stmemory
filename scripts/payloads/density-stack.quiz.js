@@ -55,26 +55,60 @@ module.exports = {
     },
     {
       number: 5,
-      question: 'Who worked above the 18th-density masters baseline to build early light-realm architecture?',
-      hint: 'Look for the named groups who used tonal harmonics before the step-down.',
+      question: 'Where do high-density beings and 18th-density masters originate?',
+      hint: 'See the Overview.',
       options: [
-        { text: 'The 12 Proximal Sols and the four thousand 2nd Generation Ancient Souls.', isCorrect: true, rationale: 'The 12 Proximal Sols and the four thousand 2nd Generation Ancient Souls utilized tonal harmonics above the 18th-density masters baseline.' },
-        { text: 'The Guardians in the higher Domes who retune schematics with the five elements.', isCorrect: false, rationale: 'Guardians adjust schematics in the Domes; the early scaffolding is credited to the Proximal Sols and Ancient Souls.' },
-        { text: 'The thirty-three vertebral octaves, treated as a council of early architects.', isCorrect: false, rationale: 'Thirty-three is the number of density levels, not a named council of early architects.' },
-        { text: 'The extracted copper tonnage, treated as a council of early circuit architects.', isCorrect: false, rationale: 'Copper tonnage measures what was mined from the motherboard, not a group of early architects.' }
+        {
+          text: 'In subtle, highly expanded states, before descending into lower realms.',
+          isCorrect: true,
+          rationale: 'They originate in subtle, highly expanded states before descending into lower realms, with the current physical realm situated far below.'
+        },
+        {
+          text: 'In the inverted 3rd density of the physical plane.',
+          isCorrect: false,
+          rationale: 'The plane is where they descend to, far below their origin.'
+        },
+        {
+          text: 'Inside the organic motherboard\'s circuitry.',
+          isCorrect: false,
+          rationale: 'The motherboard is the plane\'s substrate, not their origin.'
+        },
+        {
+          text: 'Within the crystalline healing temples.',
+          isCorrect: false,
+          rationale: 'Temples are communication points across realms.'
+        }
       ]
     },
+
     {
       number: 6,
-      question: 'Which of these is NOT a hardware role of the mineral deposits in the organic motherboard?',
-      hint: 'Sort the circuit parts from a job this account gives to another part of the stack.',
+      question: 'Which of these is NOT named as a symptom of the impaired motherboard\'s malfunction?',
+      hint: 'See Detailed Mechanics and Key Elements.',
       options: [
-        { text: 'Serving as food for beings that still rely on transitional consumption.', isCorrect: true, rationale: 'Hydrothermal gold veins and the other deposits act as natural wires, transistors, capacitors, resistors, and RAM, not as food.' },
-        { text: 'Serving as natural wires inside the grown planetary substrate.', isCorrect: false, rationale: 'Hydrothermal veins, ore, reefs, crystals, and copper act as natural wires in the organic motherboard.' },
-        { text: 'Serving as transistors and capacitors inside the grown circuitboard.', isCorrect: false, rationale: 'The same deposits act as transistors and capacitors in the grown organic motherboard.' },
-        { text: 'Serving as both resistors and RAM inside the grown organic circuitboard.', isCorrect: false, rationale: 'The report includes resistors and RAM among the hardware roles of these mineral deposits.' }
+        {
+          text: 'Food-chain violence in higher densities.',
+          isCorrect: true,
+          rationale: 'Severe weather, failing crops, tree die-offs, and systemic sickness are not natural evolutionary hazards, but are the explicit symptoms of the malfunction.'
+        },
+        {
+          text: 'Severe weather and failing crops.',
+          isCorrect: false,
+          rationale: 'Those are named as symptoms of land sickness.'
+        },
+        {
+          text: 'Tree die-offs across the landscape.',
+          isCorrect: false,
+          rationale: 'Tree die-offs are named among the malfunction\'s symptoms.'
+        },
+        {
+          text: 'Systemic sickness in living beings.',
+          isCorrect: false,
+          rationale: 'Systemic sickness is named among the symptoms.'
+        }
       ]
     },
+
     {
       number: 7,
       question: 'What directly produces land sickness and operational faults on the planet?',
@@ -88,15 +122,32 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'How does travel work in elevated densities, compared with movement on the physical plane?',
-      hint: 'Look at how movement works once physical distance no longer sets the route.',
+      question: 'What does the transition between densities alter?',
+      hint: 'See Core Revelations.',
       options: [
-        { text: 'Through portal apertures governed by the pineal gland and intent.', isCorrect: true, rationale: 'Physical travel in elevated densities operates vertically through instantaneous portal apertures governed by the pineal gland and intent.' },
-        { text: 'Along copper veins and telluric currents across the planetary substrate.', isCorrect: false, rationale: 'Telluric currents carry energy on the motherboard; elevated travel uses vertical portal apertures.' },
-        { text: 'By linear acceleration inside high-speed channels made of data streams.', isCorrect: false, rationale: 'Data streams transfer information; they are not vehicles for travel in elevated densities.' },
-        { text: 'By elemental reworking of the body, managed from outside by 18th-density masters.', isCorrect: false, rationale: 'Elevated travel is governed by the pineal gland and intent, not by outside elemental reworking.' }
+        {
+          text: 'Fundamental physical and energetic laws.',
+          isCorrect: true,
+          rationale: 'The transition between densities alters fundamental physical and energetic laws.'
+        },
+        {
+          text: 'The vertebral order of the stack.',
+          isCorrect: false,
+          rationale: 'The order is fixed; the laws change across it.'
+        },
+        {
+          text: 'Source Consciousness at the apex.',
+          isCorrect: false,
+          rationale: 'Source remains the brain at the apex.'
+        },
+        {
+          text: 'The aether composition of each density.',
+          isCorrect: false,
+          rationale: 'Aether upgrades define densities; transitions alter laws.'
+        }
       ]
     },
+
     {
       number: 9,
       question: 'True or False: The Density Stack is housed in a spherical light dome that rests on crystalline deposits.',
@@ -152,13 +203,22 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'True or False: Over ten thousand years, extraction removed over 700 million metric tons of copper and other minerals.',
-      hint: 'Review the account of how much metal was taken from the physical substrate.',
+      question: 'True or False: According to the report, removing components from the board leaves it unable to sustain coherent frequency regulation.',
+      hint: 'See Detailed Mechanics and Key Elements.',
       options: [
-        { text: 'True', isCorrect: true, rationale: 'Over ten thousand years, the systematic extraction of over 700 million metric tons of copper and other minerals stripped micro-components from the earth.' },
-        { text: 'False', isCorrect: false, rationale: 'The report gives that extraction as over 700 million metric tons of copper and other minerals across ten thousand years.' }
+        {
+          text: 'True',
+          isCorrect: true,
+          rationale: 'With its conductive and capacitive components, the planetary board cannot sustain coherent frequency regulation once they are stripped.'
+        },
+        {
+          text: 'False',
+          isCorrect: false,
+          rationale: 'That loss of regulation is exactly what the report describes.'
+        }
       ]
     },
+
     {
       number: 15,
       question: 'How do high-density architects use foundational sound frequencies?',
@@ -216,15 +276,32 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'What hardware role do magmatic reefs and disseminated ore play on the organic circuitboard?',
-      hint: 'Look at how ore and reefs sit beside gold, copper, and crystalline deposits.',
+      question: 'What does land sickness result directly from?',
+      hint: 'See the Key Terminology entry for Land Sickness.',
       options: [
-        { text: 'They join gold and copper as grown hardware for energy and data transmission.', isCorrect: true, rationale: 'Hydrothermal gold veins, disseminated ore, magmatic reefs, crystalline deposits, and copper act as wires, transistors, capacitors, resistors, and RAM.' },
-        { text: 'They pin the supermassive Cube in place from deep inside the physical substrate.', isCorrect: false, rationale: 'The Cube is the container of the frequencies; ore and reefs are hardware in the motherboard, not pins for the Cube.' },
-        { text: 'They are leftover waste left behind after pre-subatomic elemental synthesis.', isCorrect: false, rationale: 'Ore and magmatic reefs are listed among the essential hardware elements, not as waste.' },
-        { text: 'They insulate the physical core so its heat cannot reach higher realms.', isCorrect: false, rationale: 'These features are conductive and capacitive hardware, not thermal insulation for higher realms.' }
+        {
+          text: 'Stripping physical circuitry components from the planetary motherboard.',
+          isCorrect: true,
+          rationale: 'It is the degradation resulting directly from stripping physical circuitry components from the planetary motherboard.'
+        },
+        {
+          text: 'Natural evolutionary hazards of the plane.',
+          isCorrect: false,
+          rationale: 'The symptoms are explicitly not natural hazards.'
+        },
+        {
+          text: 'Predatory dynamics in higher densities.',
+          isCorrect: false,
+          rationale: 'Higher densities have no predatory dynamics.'
+        },
+        {
+          text: 'Retarded processing of harmonic updates.',
+          isCorrect: false,
+          rationale: 'Retardation is a consequence of extraction, not the cause named.'
+        }
       ]
     },
+
     {
       number: 21,
       question: 'True or False: 18th-density masters orchestrate light-realm schematics and anchor multi-dimensional tonal harmonics.',
@@ -258,15 +335,32 @@ module.exports = {
     },
     {
       number: 24,
-      question: 'What do the architectures above the 18th-density masters baseline establish as frequency moves downward?',
-      hint: 'Look at what those higher architectures set in place before the levels below them.',
+      question: 'What is each density, in the report\'s correction of the \'levels\' shorthand?',
+      hint: 'See the Overview.',
       options: [
-        { text: 'Anchored vibratory states stepping down across thirty-three density levels.', isCorrect: true, rationale: 'These architectures establish anchored vibratory states that step down frequency through thirty-three distinct density levels.' },
-        { text: 'Predatory food chains that grow stronger as beings enter 5th density and above.', isCorrect: false, rationale: '5th density and above leave food-chain violence behind; they do not intensify it.' },
-        { text: 'Mining schedules that pull copper out before any schematic is allowed to form.', isCorrect: false, rationale: 'Mining is a later physical depletion; these architectures establish anchored vibratory states.' },
-        { text: 'Horizontal roads of spatial distance that replace portal travel in the higher realms.', isCorrect: false, rationale: 'Elevated travel uses portal apertures and bypasses physical distance, rather than replacing it with roads.' }
+        {
+          text: 'An upgrade of aether, not a separate place.',
+          isCorrect: true,
+          rationale: 'Each density is an upgrade of aether: when you evolve, your aether evolves.'
+        },
+        {
+          text: 'A separate place stacked above the last.',
+          isCorrect: false,
+          rationale: 'The report corrects exactly that reading.'
+        },
+        {
+          text: 'A level reached by physical travel.',
+          isCorrect: false,
+          rationale: 'Densities are aether states, not destinations.'
+        },
+        {
+          text: 'A frequency band inside the Cube only.',
+          isCorrect: false,
+          rationale: 'Bands describe the Cube\'s tiers, not what a density is.'
+        }
       ]
     },
+
     {
       number: 25,
       question: 'True or False: Source Consciousness sits in the crystalline core of the inverted 3rd density motherboard.',
