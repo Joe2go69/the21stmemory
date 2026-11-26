@@ -173,31 +173,32 @@ module.exports = {
     },
     {
       number: 7,
-      question: 'What is the purpose of Frequency Compression in 3rd-density human biology?',
-      hint: 'Think about how spiritual luminosity is damped so the vessel can blend into a dense population.',
+      question: 'What is Frequency Compression?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'Frequency compression packages spiritual luminosity and wave states to match dense 3rd-density vessel parameters.',
+          text: 'The artificial or defensive damping and packaging of spiritual luminosity and wave states to match dense 3rd-density vessel parameters.',
           isCorrect: true,
-          rationale: 'A fraction of the oversoul powers the incarnate vessel, requiring frequency compression so the emitted light and neurological frequency profile blend into the ambient population without attracting hostile detection.'
+          rationale: 'Compression packages luminosity and wave states to match dense 3rd-density vessel parameters.'
         },
         {
-          text: 'Frequency compression lets the vessel function without any Delta wave restoration cycle.',
+          text: 'The rhythmic electrical activity produced by communicating masses of neurons in the central nervous system.',
           isCorrect: false,
-          rationale: 'Delta waves remain mandatory for cellular restoration and deep somatic repair. Compression does not replace that cycle.'
+          rationale: 'That activity defines Neural Oscillations, not compression.'
         },
         {
-          text: 'Frequency compression speeds neural transmissions until they match off-world processing rates.',
+          text: 'The deliberate wiping of disincarnate memory to protect the incarnate operative and preserve mission safety.',
           isCorrect: false,
-          rationale: 'Frequency compression is damping and packaging of spiritual luminosity. It is not an acceleration of neural speed.'
+          rationale: 'That wiping is the Karaoke Chewbacca Protocol, a memory process.'
         },
         {
-          text: 'Frequency compression amplifies the pineal signal until it reaches soul family clusters.',
+          text: 'The apparatus used to detect and measure electrical frequency bands within the brain during research.',
           isCorrect: false,
-          rationale: 'Compression damps and packages luminosity to match dense vessel parameters. It is not an amplification of the pineal signal.'
+          rationale: 'That apparatus is the Electroencephalogram, a measuring device.'
         }
       ]
     },
+
     {
       number: 8,
       question: 'The Karaoke Chewbacca Protocol is a safety mechanism designed to accomplish which of the following?',
@@ -254,31 +255,32 @@ module.exports = {
     },
     {
       number: 10,
-      question: 'How does the shift from natural 432 Hz resonance to artificial 440 Hz dissonance affect human consciousness?',
-      hint: 'Consider why a dissonant tuning standard would be preferred by external control systems.',
+      question: 'What does replacing 432 Hz with dissonant 440 Hz tuning do to brainwaves?',
+      hint: 'See Acoustic Retuning under Systemic Modulation.',
       options: [
         {
-          text: 'The shift to 440 Hz speeds the transition into restorative Delta and Theta states.',
-          isCorrect: false,
-          rationale: 'Dissonant 440 Hz tuning drives brainwaves out of restorative Alpha and Theta states into perpetual Beta agitation.'
-        },
-        {
-          text: 'The shift keeps humanity oscillating between hyper-alert anxiety and suppressed recall.',
+          text: 'It drives brainwaves out of restorative Alpha and Theta states into perpetual, low-level Beta agitation.',
           isCorrect: true,
-          rationale: 'Artificial dissonance such as the 440 Hz Devil\'s Interval disrupts natural brainwave coherence and drives low-level Beta agitation.'
+          rationale: 'Retuning drives the bands from restorative Alpha and Theta states into perpetual, low-level Beta agitation.'
         },
         {
-          text: 'The shift to 440 Hz enhances the pineal gland as the primary quantum transducer of the vessel.',
+          text: 'It restores natural neural coherence and emotional stability.',
           isCorrect: false,
-          rationale: 'Acoustic dissonance targets these bands to suppress spiritual awareness. It does not enhance the pineal transducer.'
+          rationale: 'Restoration comes from reverting to 432 Hz, not from the dissonant retuning.'
         },
         {
-          text: 'The shift to 440 Hz removes the need for frequency compression inside the soul architecture.',
+          text: 'It confines dreamtime travel to localized simulated environments.',
           isCorrect: false,
-          rationale: 'Frequency compression still packages spiritual luminosity to match dense 3rd-density vessel parameters regardless of acoustic tuning.'
+          rationale: 'Confinement is the work of perimetral fencing by lunar emissions, a separate mechanism.'
+        },
+        {
+          text: 'It amplifies collective fear and herd compliance responses.',
+          isCorrect: false,
+          rationale: 'Amplification of fear is emotional augmentation, a distinct broadcast targeting.'
         }
       ]
     },
+
     {
       number: 11,
       question: 'What role does the pineal gland play in relation to neural oscillations?',
@@ -524,58 +526,60 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'Why are artificial lunar frequencies described as targeting neural oscillations?',
-      hint: 'Consider the goals of an external parasitic control system.',
+      question: 'Why do artificial lunar frequencies and acoustic dissonance target the five bands?',
+      hint: 'Look at the Overview.',
       options: [
         {
-          text: 'Artificial lunar frequencies harmonize human thought with the natural resonance of the galaxy.',
-          isCorrect: false,
-          rationale: 'These broadcasts disrupt natural brainwave coherence. They move humanity away from natural resonance such as 432 Hz.'
-        },
-        {
-          text: 'Artificial lunar frequencies increase the capacity of the vessel to process hyper-dimensional experiences.',
-          isCorrect: false,
-          rationale: 'The waking avatar lacks the capacity to safely hold those experiences, and lunar fencing further confines dreamtime travel.'
-        },
-        {
-          text: 'Artificial lunar frequencies help the soul find its way back into the vessel upon waking.',
-          isCorrect: false,
-          rationale: 'Modified lunar frequencies act as a broad-spectrum dampener across all five bands to prevent widespread spiritual awakening.'
-        },
-        {
-          text: 'Artificial lunar frequencies target these specific bands to suppress spiritual awareness and enforce cognitive containment.',
+          text: 'To suppress spiritual awareness, restrict soul travel, and enforce mission safety through controlled memory clearance.',
           isCorrect: true,
-          rationale: 'The modification of lunar frequencies following civilisational revolts directly targets neural oscillations to enforce cognitive containment and restrict soul travel.'
+          rationale: 'The targeting exists to suppress awareness and enforce mission safety through controlled memory clearance.'
+        },
+        {
+          text: 'To widen the recognized spectrum beyond the five primary bands.',
+          isCorrect: false,
+          rationale: 'The recognized range stays a truncated subset; targeting narrows function, not widens it.'
+        },
+        {
+          text: 'To enhance cognitive synthesis and peak concentration states.',
+          isCorrect: false,
+          rationale: 'Synthesis and concentration are Gamma functions the manipulation works against.'
+        },
+        {
+          text: 'To restore pineal function by eliminating fluoridated water.',
+          isCorrect: false,
+          rationale: 'Eliminating fluoridated water is the operative\'s countermeasure, not the targeting\'s purpose.'
         }
       ]
     },
+
     {
       number: 21,
-      question: 'How does reverting media and sound to 432 Hz serve the waking operative?',
-      hint: 'Think about the benefits of natural harmonics versus artificial dissonance.',
+      question: 'What do lunar frequency emissions establish during low-frequency sleep states?',
+      hint: 'See Perimetral Fencing under Systemic Modulation.',
       options: [
         {
-          text: 'Reverting to 432 Hz automatically bypasses the Karaoke Chewbacca memory wipe.',
-          isCorrect: false,
-          rationale: 'The wipe is a mission-safety protocol on return from sleep. Harmonic retuning does not switch that protocol off.'
-        },
-        {
-          text: 'Reverting to 432 Hz lets the vessel exist without any soul architecture.',
-          isCorrect: false,
-          rationale: 'Brainwaves are bound to the vessel\'s soul architecture and arc pod protocol. Harmonic sound does not remove that architecture.'
-        },
-        {
-          text: 'Reverting to 432 Hz eliminates the need for sleep and for Delta wave restoration.',
-          isCorrect: false,
-          rationale: 'Delta remains mandatory for cellular restoration and deep somatic repair no matter the acoustic environment.'
-        },
-        {
-          text: 'Reverting personal media from 440 Hz back to 432 Hz harmonic frequencies reduces artificial Beta stimulation.',
+          text: 'An energetic perimeter that limits the spatial distance and height a disincarnate soul can travel, keeping dreamtime confined to localized or simulated environments.',
           isCorrect: true,
-          rationale: 'That reversion restores natural neural coherence and emotional stability by leaving perpetual low-level Beta agitation.'
+          rationale: 'Emissions establish an energetic perimeter that limits the spatial distance and height of disincarnate travel.'
+        },
+        {
+          text: 'A fluid interplay between the conscious, subconscious, and long-term memory pools of the sleeping vessel.',
+          isCorrect: false,
+          rationale: 'Fluid interplay is what dissolving boundaries produce inside the sleeper, not an emission perimeter.'
+        },
+        {
+          text: 'A compartmentalized structure ensuring focused interaction with physical realities during waking states.',
+          isCorrect: false,
+          rationale: 'Compartmentalization is the waking structure that sleep loosens, not a lunar construction.'
+        },
+        {
+          text: 'A direct connection between the pineal gland and the aether for translating energetic inputs.',
+          isCorrect: false,
+          rationale: 'The pineal connection is the vessel\'s own hardware interface, not an emission effect.'
         }
       ]
     },
+
     {
       number: 22,
       question: 'Which frequency band is most active during deep, dreamless sleep?',
