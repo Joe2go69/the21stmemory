@@ -92,31 +92,32 @@ module.exports = {
     },
     {
       number: 4,
-      question: 'What creates the psychological feedback loop known as the Digital Validation Illusion?',
-      hint: 'Recall why a heavily discussed online topic starts to feel real.',
+      question: 'What do influencers\' and callers\' first-hand MedBed claims actually do?',
+      hint: 'Check Fabricated First-Hand Proof.',
       options: [
         {
-          text: 'Direct physical inspection of working MedBed units at public alternative health expos.',
-          isCorrect: false,
-          rationale: 'MedBeds do not arrive and the illusion is sustained by volume on digital networks.'
-        },
-        {
-          text: 'Official peer-reviewed journals publishing validated trial results of quantum healing devices.',
-          isCorrect: false,
-          rationale: 'The topics feel thoroughly researched and validated to the public through ubiquity on digital networks.'
-        },
-        {
-          text: 'Wide discussion makes these topics feel thoroughly researched and validated while they remain artificial constructs designed to siphon mental bandwidth.',
+          text: 'They participate in a stall tactic to keep followers tethered to the narrative — they are not evidence of a functioning technology.',
           isCorrect: true,
-          rationale: 'A massive volume of content creates a psychological feedback loop that seekers mistake for tangible reality.'
+          rationale: 'The claims are fabrications serving as an intentional stall mechanism, not evidence of functioning technology.'
         },
         {
-          text: 'Unanimous endorsement from mainstream governmental health organizations around the world.',
+          text: 'They document secret operational deployments awaiting public release.',
           isCorrect: false,
-          rationale: 'The illusion comes from digital ubiquity among online deceptions such as QFS and NESARA / GESARA.'
+          rationale: 'The claims are fabrications; no deployments stand behind them.'
+        },
+        {
+          text: 'They verify the technology through independent clinical evidence.',
+          isCorrect: false,
+          rationale: 'First-hand claims provide no evidence; they are part of the stall.'
+        },
+        {
+          text: 'They announce the final dates of the mass rollout.',
+          isCorrect: false,
+          rationale: 'The rollout never arrives; the claims extend the waiting period.'
         }
       ]
     },
+
     {
       number: 5,
       question: 'What function do public claims and first-hand testimonials from online influencers serve?',
@@ -146,31 +147,32 @@ module.exports = {
     },
     {
       number: 6,
-      question: 'Why do custodial controllers rely on lures like MedBeds instead of directly forcing human compliance?',
-      hint: 'Consider the rule that governs consent and human choice.',
+      question: 'What does identifying the free-will mechanics behind MedBed propaganda prevent?',
+      hint: 'See Preserving Sovereign Consent.',
       options: [
         {
-          text: 'Direct compliance would prematurely trigger the dissipation of the electromagnetic field.',
-          isCorrect: false,
-          rationale: 'Field dissipation marks matrix cycle termination while the bar on force is universal law.'
-        },
-        {
-          text: 'Human physical vessels reject technological interventions unless those interventions arrive through digital media.',
-          isCorrect: false,
-          rationale: 'Universal law prohibits direct field override without consent and the lure replaces direct force.'
-        },
-        {
-          text: 'Custodial forces lack the machinery required to deploy direct electromagnetic manipulation.',
-          isCorrect: false,
-          rationale: 'The limit is consent under the Sovereign Accord rather than a shortage of machinery.'
-        },
-        {
-          text: 'Universal law prohibits direct field override without consent and external forces cannot force compliance without choice.',
+          text: 'Individuals signing false agreements or walking into custodial containment schemes disguised as medical appointments.',
           isCorrect: true,
-          rationale: 'Under the Sovereign Accord custodial controllers use the lure to secure human Free Will signatures.'
+          rationale: 'Identifying the free-will mechanics behind MedBed propaganda prevents individuals from signing false agreements.'
+        },
+        {
+          text: 'Individuals researching the lure\'s claims across digital networks.',
+          isCorrect: false,
+          rationale: 'Research is not the harm prevented; signing and walking into containment are.'
+        },
+        {
+          text: 'Custodial managers disseminating the narrative online.',
+          isCorrect: false,
+          rationale: 'Dissemination continues; what identification prevents is the target\'s consent.'
+        },
+        {
+          text: 'The rollout vacuum extending the waiting period further.',
+          isCorrect: false,
+          rationale: 'The vacuum is the stall\'s product, not what consent-awareness prevents.'
         }
       ]
     },
+
     {
       number: 7,
       question: 'What comprises the Dual-Pillar Want Structure used to manipulate human vulnerability?',
@@ -200,31 +202,32 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'How is the World Wide Web characterized in relation to awakening conscious awareness?',
-      hint: 'Recall how the digital web is named and what it is built to catch.',
+      question: 'What does the MedBed lure rely entirely on for dissemination?',
+      hint: 'See The World Wide Web as Delivery Vector.',
       options: [
         {
-          text: 'As a necessary technological stepping stone required to coordinate global spiritual ascension.',
-          isCorrect: false,
-          rationale: 'The internet keeps awakening minds chasing endless digital rabbit holes rather than coordinating ascension.'
-        },
-        {
-          text: 'The internet (Vaf Vaf Vaf / 666) was constructed as a primary web to catch food and keeps awakening minds chasing endless digital rabbit holes.',
+          text: 'The digital grid — the World Wide Web (WWW / Vaf Vaf Vaf = 666); without the internet spreading speculative podcasts and rumors, the lure could not sustain itself.',
           isCorrect: true,
-          rationale: 'Search results are populated with controlled psyops that siphon mental bandwidth.'
+          rationale: 'Without the web\'s podcasts and rumors, the lure could not sustain itself across global populations.'
         },
         {
-          text: 'As a neutral communication grid that alternative commentators have only temporarily hijacked.',
+          text: 'Physical redemption centers and processing facilities distributing printed appointment notices to seekers.',
           isCorrect: false,
-          rationale: 'The internet itself was constructed as a primary web to catch food.'
+          rationale: 'The lure is digital; its vector is the web, not printed notices.'
         },
         {
-          text: 'As an organic information sphere designed to mirror human pineal connectivity.',
+          text: 'Mainstream medical institutions and health authorities formally endorsing the technology to the public.',
           isCorrect: false,
-          rationale: 'The web is a counterfeit delivery vector while organic hardware is the uncalcified pineal gland.'
+          rationale: 'No institutional endorsement carries the lure; online speculation does.'
+        },
+        {
+          text: 'Word of mouth and community rumor networks operating independently of all digital communication channels.',
+          isCorrect: false,
+          rationale: 'The report is explicit: without the internet, the lure could not sustain itself.'
         }
       ]
     },
+
     {
       number: 9,
       question: 'What role does the perpetual rollout script play in maintaining the MedBed illusion?',
@@ -254,58 +257,60 @@ module.exports = {
     },
     {
       number: 10,
-      question: 'Which specialized hardware item is explicitly mentioned as part of the lure to secure compliance at facilities?',
-      hint: 'Identify the mobile device named alongside financial redemption.',
+      question: 'What is the Quantum Financial Initiative?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'Custodial managers entice targets with specialized hardware like Q-phones to willingly sign agreements and walk voluntarily into systems of total containment.',
+          text: 'The financial pillar of the custodial salvation trap, presented alongside MedBeds to entice individuals into signing away their free-will signatures.',
           isCorrect: true,
-          rationale: 'Q-phones sit with financial redemptions as the hardware of the same consent capture.'
+          rationale: 'It is the trap\'s financial pillar, used to entice individuals into signing away their free-will signatures.'
         },
         {
-          text: 'Bio-photon belts are issued at the facility so each visitor can carry a healing frequency home.',
+          text: 'The manufactured health half of the lure, promising complete bodily restoration and age regression to look younger.',
           isCorrect: false,
-          rationale: 'The specialized hardware named with the lure is the Q-phone rather than a bio-photon belt.'
+          rationale: 'That health half is MedBeds itself, the physical counterpart of the financial pillar.'
         },
         {
-          text: 'Frequency rings are required at check-in before any redemption appointment can proceed.',
+          text: 'A psychological tactic executed through influencers and false claims to keep individuals waiting passively.',
           isCorrect: false,
-          rationale: 'The named hardware is specialized hardware like Q-phones.'
+          rationale: 'That tactic is the Stall Mechanism, which serves both pillars.'
         },
         {
-          text: 'Scalar mirrors are installed in the waiting room to prove the MedBed field is already active.',
+          text: 'Deceptive topics and psyops distributed across digital channels that create a false perception of truth.',
           isCorrect: false,
-          rationale: 'Compliance is drawn through Q-phones signatures and designated facilities.'
+          rationale: 'Those are Internet Lures, the distribution form rather than the financial pillar.'
         }
       ]
     },
+
     {
       number: 11,
-      question: 'Which monetary schemes are directly paired with MedBeds to form the unified propaganda matrix?',
-      hint: 'Look for the financial reset names tied to the health lure.',
+      question: 'Alongside what are MedBeds marketed in the dual salvation package?',
+      hint: 'Check The Dual Salvation Package.',
       options: [
         {
-          text: 'Universal basic income central bank digital currencies and household carbon credits.',
-          isCorrect: false,
-          rationale: 'MedBeds are directly linked with QFS NESARA / GESARA and Tier 4B financial schemes.'
-        },
-        {
-          text: 'International reserve assets gold-standard bonds and a general sovereign debt wipe.',
-          isCorrect: false,
-          rationale: 'The paired schemes are QFS NESARA / GESARA and Tier 4B inside one propaganda matrix.'
-        },
-        {
-          text: 'MedBeds are directly linked with QFS NESARA / GESARA and Tier 4B financial schemes forming a unified propaganda matrix.',
+          text: 'Physical gold and the Quantum Financial Initiative — offering total financial prosperity alongside complete physical rejuvenation.',
           isCorrect: true,
-          rationale: 'That matrix replaces true spiritual ascension with physical and monetary rescue fantasies.'
+          rationale: 'MedBeds are marketed directly alongside physical gold and the Quantum Financial Initiative.'
         },
         {
-          text: 'Decentralized crypto assets peer-to-peer lending desks and a routine fiat currency reset.',
+          text: 'Organic pineal restoration and endogenous DMT production.',
           isCorrect: false,
-          rationale: 'The financial pairing named with MedBeds is QFS NESARA / GESARA and Tier 4B.'
+          rationale: 'Pineal restoration is the organic counterpoint the system suppresses, not the marketing pair.'
+        },
+        {
+          text: 'Severing the strings of Finance, Religion, and Perceived Knowledge.',
+          isCorrect: false,
+          rationale: 'Severing the strings is the ascension prerequisite, not the package\'s contents.'
+        },
+        {
+          text: 'Verified clinical deployments in secret facilities.',
+          isCorrect: false,
+          rationale: 'Secret-deployment claims are stall fabrications, not package components.'
         }
       ]
     },
+
     {
       number: 12,
       question: 'What constitutes the true organic hardware required for multidimensional human restoration?',
@@ -362,31 +367,32 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'What symbolic and numerical representation is assigned to the World Wide Web?',
-      hint: 'Look for the name paired with the letters WWW.',
+      question: 'What is the World Wide Web designated as in the lure\'s delivery system?',
+      hint: 'See The World Wide Web as Delivery Vector.',
       options: [
         {
-          text: 'The web is designated Tier 4B / 444 as the code for redemption scheduling.',
-          isCorrect: false,
-          rationale: 'Tier 4B names redemption appointments while the web is Vaf Vaf Vaf / 666.'
-        },
-        {
-          text: 'The digital grid is named Vaf Vaf Vaf / 666 and the internet was constructed as a primary web to catch food.',
+          text: 'WWW / Vaf Vaf Vaf = 666 — the digital grid the lure relies on entirely for dissemination.',
           isCorrect: true,
-          rationale: 'MedBeds rely on that grid (WWW / Vaf Vaf Vaf = 666) for dissemination.'
+          rationale: 'MedBeds rely entirely on the digital grid — WWW, Vaf Vaf Vaf = 666 — for dissemination.'
         },
         {
-          text: 'The web is designated Alpha and Omega / 777 as a marker of completed ascension.',
+          text: 'A neutral communications network outside custodial control.',
           isCorrect: false,
-          rationale: 'The assigned name is Vaf Vaf Vaf / 666.'
+          rationale: 'The web is the lure\'s delivery vector, not a neutral channel.'
         },
         {
-          text: 'The web is designated Matrix Grid / 888 as the count of its routing nodes.',
+          text: 'A quantum banking rail for humanitarian project funding.',
           isCorrect: false,
-          rationale: 'The digital grid is identified as Vaf Vaf Vaf / 666.'
+          rationale: 'Banking rails belong to the financial pillar\'s pitch, not the delivery grid.'
+        },
+        {
+          text: 'An organic bypass mechanism for higher-dimensional guidance.',
+          isCorrect: false,
+          rationale: 'Organic bypasses are plant sacraments, not the digital grid.'
         }
       ]
     },
+
     {
       number: 15,
       question: 'Severing attachment to MedBeds helps cut which three essential strings of bondage?',
@@ -551,31 +557,32 @@ module.exports = {
     },
     {
       number: 21,
-      question: 'Why does the massive volume of online content about MedBeds successfully trick awakening souls?',
-      hint: 'Recall how a crowded search result changes what a seeker treats as real.',
+      question: 'What does discerning that high-volume online discussion does not equal physical reality enable?',
+      hint: 'See Neutralizing Digital Psyops.',
       options: [
         {
-          text: 'This massive volume of content creates a psychological feedback loop and seekers assume the topic represents a tangible reality.',
+          text: 'Individuals to bypass digital traps (internet lures) designed to consume mental bandwidth.',
           isCorrect: true,
-          rationale: 'Wide analysis on digital platforms is mistaken for proof of a functional physical apparatus.'
+          rationale: 'Discerning that high-volume online discussion does not equal physical reality enables individuals to bypass the traps.'
         },
         {
-          text: 'The volume is backed by verified legal contracts issued directly under the Sovereign Accord.',
+          text: 'Individuals to validate technologies through discussion volume.',
           isCorrect: false,
-          rationale: 'The Sovereign Accord bars force without consent. It does not certify MedBed contracts.'
+          rationale: 'Volume is the illusion itself; discerning it defeats validation-by-volume.'
         },
         {
-          text: 'The volume includes clear unedited footage of patients completing a thirty-year age regression.',
+          text: 'Influencers to extend the rollout vacuum indefinitely.',
           isCorrect: false,
-          rationale: 'Public claims do not provide evidence of a functioning technology and serve as a stall tactic.'
+          rationale: 'The vacuum is extended by credulity, not by discernment.'
         },
         {
-          text: 'The volume matches mainstream medical textbook definitions of quantum healing line for line.',
+          text: 'Seekers to assume widely analyzed topics are tangible realities.',
           isCorrect: false,
-          rationale: 'The trick is a psychological feedback loop on digital networks rather than textbook agreement.'
+          rationale: 'That assumption is the feedback loop the discernment breaks.'
         }
       ]
     },
+
     {
       number: 22,
       question: 'How does the MedBed narrative manipulate deep human emotional vulnerability?',
@@ -605,31 +612,32 @@ module.exports = {
     },
     {
       number: 23,
-      question: 'In the salvation trap what purpose do redemption appointments serve?',
-      hint: 'Think about what people are enticed to do when a redemption event is scheduled.',
+      question: 'What do false testimonials about secret MedBed deployments serve as?',
+      hint: 'Check Influencers, Callers, and the Perpetual Rollout Vacuum.',
       options: [
         {
-          text: 'They are legitimate spiritual gatherings designed to decalcify the pineal gland in public.',
-          isCorrect: false,
-          rationale: 'Redemption appointments belong to the rollout script while pineal work is organic and internal.'
-        },
-        {
-          text: 'They function as public debriefings where custodial controllers confess the psyop.',
-          isCorrect: false,
-          rationale: 'The appointments draw targets to sign agreements and enter containment rather than to hear a confession.'
-        },
-        {
-          text: 'Redemption appointments entice targets to willingly sign agreements and walk voluntarily into systems of total containment.',
+          text: 'An intentional stall mechanism, extending the waiting period and preventing individuals from recognizing that the system is an empty promise.',
           isCorrect: true,
-          rationale: 'They are covered by alternative media hosts as part of the continuous rollout script.'
+          rationale: 'These fabrications serve as an intentional stall mechanism that extends the waiting period.'
         },
         {
-          text: 'They provide a verified legal path for handing physical gold reserves to the public.',
+          text: 'Evidence that MedBeds are already operational in secret locations treating selected individuals.',
           isCorrect: false,
-          rationale: 'Gold is marketing beside the Quantum Financial Initiative while the appointment captures Free Will.'
+          rationale: 'Operational secrecy is the testimonials\' claim, not their function.'
+        },
+        {
+          text: 'Official announcements scheduling the public mass rollout and its redemption appointment dates.',
+          isCorrect: false,
+          rationale: 'No rollout is scheduled; the testimonials exist to extend waiting.'
+        },
+        {
+          text: 'Documented proof that specific named individuals have undergone successful MedBed treatment.',
+          isCorrect: false,
+          rationale: 'Treatment claims are the fabrication itself, not proof of anything.'
         }
       ]
     },
+
     {
       number: 24,
       question: 'What key distinction separates true multidimensional restoration from MedBed promises?',
