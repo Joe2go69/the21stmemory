@@ -146,112 +146,116 @@ module.exports = {
     },
     {
       number: 6,
-      question: 'Which engineered component of Terra Preta acts as microscopic reefs for beneficial mycorrhizal fungi?',
-      hint: 'Identify the manufactured ceramic component mixed into the living Amazonian soil.',
+      question: 'What is Terra Preta?',
+      hint: 'See the Key Terminology entry for Terra Preta.',
       options: [
         {
-          text: 'Dissolved animal and fish bone inputs rich in calcium and phosphorus.',
-          isCorrect: false,
-          rationale: 'Dissolved bones supply phosphorus and calcium rather than fungal habitat structures.'
-        },
-        {
-          text: 'Porous biochar generated through low-oxygen biomass combustion.',
-          isCorrect: false,
-          rationale: 'Biochar holds water and stores carbon while terracotta shards function as fungal micro-reefs.'
-        },
-        {
-          text: 'Millions of microscopic fired clay fragments acting as microbial reefs for beneficial mycorrhizal fungi.',
+          text: 'A self-regenerating, biochar-infused living soil matrix created across the Amazon Basin.',
           isCorrect: true,
-          rationale: 'Crushed terracotta shards are microscopic fired clay fragments acting as microbial reefs for beneficial mycorrhizal fungi.'
+          rationale: 'Terra Preta is a self-regenerating, biochar-infused living soil matrix created across the Amazon Basin.'
         },
         {
-          text: 'Stratified organic compost and continuously integrated plant residue layers.',
+          text: 'A natural jungle soil formed by random accretion.',
           isCorrect: false,
-          rationale: 'Organic compost adds plant residues and does not form the fired ceramic reefs housing mycorrhizal networks.'
+          rationale: 'The soil matrix was engineered, not randomly formed.'
+        },
+        {
+          text: 'A conductive matrix of disseminated metal particles.',
+          isCorrect: false,
+          rationale: 'That describes Disseminated Deposits in the crust.'
+        },
+        {
+          text: 'A horizontal sheet of platinum group metals.',
+          isCorrect: false,
+          rationale: 'That describes the Magmatic Reefs.'
         }
       ]
     },
+
     {
       number: 7,
-      question: "What scale of ceramic production was required to construct the Amazon's Terra Preta matrix?",
-      hint: 'Consider the volume of fired clay pottery needed across millions of square miles.',
+      question: 'What has copper extraction forced surface civilization to rely on?',
+      hint: 'See Mineral Crust and Conductor Types.',
       options: [
         {
-          text: 'Creating this soil required manufacturing over 70 billion metric tons of clay pottery equating to 140 trillion individual pots.',
+          text: 'Hazardous external power grids.',
           isCorrect: true,
-          rationale: 'The Amazon soil required manufacturing over 70 billion metric tons of clay pottery equating to 140 trillion individual pots.'
+          rationale: 'Extraction is removing fundamental conductive wiring from the planetary motherboard and forcing surface civilization to rely on hazardous external power grids.'
         },
         {
-          text: 'Over 120 billion metric tons of biochar charcoal representing 250 trillion individual bricks.',
+          text: 'Self-sustaining spiritual technology.',
           isCorrect: false,
-          rationale: 'Biochar is pyrogenic carbon from biomass burning rather than clay pottery manufacturing.'
+          rationale: 'Extraction disconnects civilization from that technology.'
         },
         {
-          text: 'Approximately 5 billion metric tons of ceramic clay yielding around 10 trillion pots.',
+          text: 'Natural liquid channels and telluric currents.',
           isCorrect: false,
-          rationale: 'That figure understates the terracotta volume spread across 2.7 million square miles of the Amazon Basin.'
+          rationale: 'Those are the board\'s own flows, not the forced reliance.'
         },
         {
-          text: 'Nearly 500 million metric tons of fired terracotta corresponding to 1 trillion pots.',
+          text: 'Piezoelectric granite masonry circuits.',
           isCorrect: false,
-          rationale: 'A production scale of 500 million metric tons is only a fraction of the soil matrix ceramic volume.'
+          rationale: 'The masonry taps the board; it is not what extraction forces reliance on.'
         }
       ]
     },
+
     {
       number: 8,
-      question: 'How does the Agouti rodent complete its crucial role in the biological lock of the Brazil Nut Tree?',
-      hint: 'Focus on how this forest rodent opens fallen pods and plants new trees.',
+      question: 'What is the Agouti capable of cracking?',
+      hint: 'See the Key Terminology entry for Agouti.',
       options: [
         {
-          text: 'Prying open the coiled flower hood of the tree to facilitate cross-pollination by orchid bees.',
-          isCorrect: false,
-          rationale: 'Prying open the coiled flower hood requires the strength of female Euglossine orchid bees.'
-        },
-        {
-          text: 'Excavating subterranean soil channels around root systems to distribute biochar and dissolved bones.',
-          isCorrect: false,
-          rationale: 'The agouti buries seeds in surface light gaps created by fallen trees rather than digging biochar channels.'
-        },
-        {
-          text: 'Gathering floral fragrances from canopy orchids to attract pollinating insects during single-day blooms.',
-          isCorrect: false,
-          rationale: 'Gathering orchid fragrances is done by male orchid bees during courtship and not by the agouti.'
-        },
-        {
-          text: 'The tree produces cannonball pods opened by the Agouti and the agouti buries seeds in natural sunlight gaps.',
+          text: 'Fallen Brazil nut pods, to propagate seeds.',
           isCorrect: true,
-          rationale: 'The agouti opens cannonball pods and buries seeds in natural sunlight gaps created by fallen trees.'
+          rationale: 'It is a specialized rainforest rodent possessing enamel-reinforced teeth capable of cracking the pods.'
+        },
+        {
+          text: 'Coiled Brazil nut flower hoods.',
+          isCorrect: false,
+          rationale: 'Prying the flower hood is the female orchid bees\' role.'
+        },
+        {
+          text: 'Crushed terracotta pot shards.',
+          isCorrect: false,
+          rationale: 'The shards are soil components, not the agouti\'s task.'
+        },
+        {
+          text: 'Hydrothermal crustal fissures.',
+          isCorrect: false,
+          rationale: 'Fissures are where hydrothermal deposits form.'
         }
       ]
     },
+
     {
       number: 9,
-      question: 'What step must occur before female Euglossine bees can pollinate the Brazil Nut Tree flower?',
-      hint: 'Think about the scent male bees must gather before they court female pollinators.',
+      question: 'By what is atmospheric aether captured at the surface?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'Excavating micro-cavities within terracotta clay shards found in the surrounding soil matrix.',
-          isCorrect: false,
-          rationale: 'Terracotta clay shards serve as soil fungal reefs and play no part in bee courtship or canopy flower access.'
-        },
-        {
-          text: 'Male orchid bees must first gather fragrance compounds from wild canopy orchids.',
+          text: 'Surface vegetation.',
           isCorrect: true,
-          rationale: 'Male orchid bees must first gather fragrance compounds from wild canopy orchids to court the females.'
+          rationale: 'Aether is captured by surface vegetation and routed down into subterranean conductive pathways.'
         },
         {
-          text: 'Depositing pyrogenic biochar into tree canopy gaps during the single 24-hour blooming cycle.',
+          text: 'Piezoelectric granite blocks in water tables.',
           isCorrect: false,
-          rationale: 'Biochar is an artificial soil component and is not collected or deposited by pollinating insects.'
+          rationale: 'The blocks tap ley lines; capture at the surface is by vegetation.'
         },
         {
-          text: 'Cracking fallen seed pods using specialized incisors to access rich floral resins.',
+          text: 'Metallic spires and domes on Tartarian buildings.',
           isCorrect: false,
-          rationale: 'Seed pods are produced only after successful pollination and are opened by the Agouti.'
+          rationale: 'Those harvest within the built grid, not the board\'s surface capture.'
+        },
+        {
+          text: 'Hydrothermal mineral veins in the crust.',
+          isCorrect: false,
+          rationale: 'The veins are conductive pathways below the surface.'
         }
       ]
     },
+
     {
       number: 10,
       question: 'What unique botanical feature distinguishes the Peach Palm (Bactris gasipaes)?',
@@ -335,31 +339,32 @@ module.exports = {
     },
     {
       number: 13,
-      question: 'What shared physical infrastructure links the 178 world domains under the Terrarium Seal?',
-      hint: 'Look for the subterranean fluid and energy reservoir system shared across the world domains.',
+      question: 'What does the physical plane share with the 178 world domains?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'An unbroken canopy of Spirit Trees distributing atmospheric aether evenly across all outer realms.',
-          isCorrect: false,
-          rationale: 'The Spirit Tree stood at Mount Meru with an underground root network rather than a continuous surface canopy over every realm.'
-        },
-        {
-          text: 'A global network of artificial copper wiring connecting surface cities directly to Mount Meru.',
-          isCorrect: false,
-          rationale: 'Artificial copper wiring is an entropic addition and not the original shared infrastructure of the plane.'
-        },
-        {
-          text: 'A continuous belt of magmatic reefs that locks atmospheric moisture into deep crustal fissures.',
-          isCorrect: false,
-          rationale: 'Magmatic reefs are solid metal sheets within magma bodies rather than fluid transportation reservoirs.'
-        },
-        {
-          text: 'These worlds share a petroleum reservoir system and volcanic structures acting as pressure regulation valves.',
+          text: 'A subterranean fluid system and energy grid.',
           isCorrect: true,
-          rationale: 'The 178 flat world domains share a petroleum reservoir system with volcanic structures acting as pressure regulation valves.'
+          rationale: 'It shares a subterranean fluid system and energy grid with 178 distinct world domains inside The Cube.'
+        },
+        {
+          text: 'A shared atmospheric aether canopy.',
+          isCorrect: false,
+          rationale: 'The sharing is subterranean — fluid system and energy grid.'
+        },
+        {
+          text: 'A single Spirit Tree root system.',
+          isCorrect: false,
+          rationale: 'The root system spans this plane, not the other domains.'
+        },
+        {
+          text: 'The Becker Hagens nodal lattice map.',
+          isCorrect: false,
+          rationale: 'The lattice maps this plane\'s nodes, not the inter-domain sharing.'
         }
       ]
     },
+
     {
       number: 14,
       question: "How did Tartarian builders utilize the physical plane's living circuitry?",
@@ -389,31 +394,32 @@ module.exports = {
     },
     {
       number: 15,
-      question: 'How do telluric currents transmit instructions from non-physical realms into physical reality?',
-      hint: 'Focus on how frequency codes express biological processes such as enzyme creation at planetary nodes.',
+      question: 'What can individual consciousness reactivate by understanding the plane\'s layout?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'Harmonic instructions travel through telluric currents allowing frequency code to manifest physical changes such as plant enzyme synthesis.',
+          text: 'Pineal interface capabilities.',
           isCorrect: true,
-          rationale: 'Frequency code travels through telluric currents to manifest physical changes such as plant enzyme synthesis.'
+          rationale: 'Understanding the realm, individual consciousness can reactivate pineal interface capabilities.'
         },
         {
-          text: 'Heating subterranean petroleum reservoirs to drive volcanic pressure release mechanisms.',
+          text: 'Industrial mining and resource stripping.',
           isCorrect: false,
-          rationale: 'Petroleum reservoirs sit in the fluid system while telluric currents carry harmonic instructions.'
+          rationale: 'Mining is the attack on the board, not a reactivation.'
         },
         {
-          text: 'Suppressing atmospheric electrical discharges to protect surface vegetation canopy networks.',
+          text: 'Density suppression over nodal coordinates.',
           isCorrect: false,
-          rationale: 'Telluric currents route aetheric energy and express frequency codes rather than suppressing atmospheric electrical discharges.'
+          rationale: 'Suppression is the control measure consciousness bypasses.'
         },
         {
-          text: 'Dissolving metallic veins within crustal fractures to continuously generate new alluvial gold.',
+          text: 'Dependence on hazardous external power grids.',
           isCorrect: false,
-          rationale: 'Telluric currents carry frequency instructions rather than dissolving metal veins into alluvial gold.'
+          rationale: 'That dependence is what reactivation ends.'
         }
       ]
     },
+
     {
       number: 16,
       question: 'Which structure defines the physical outer enclosure of the shared world domains?',
@@ -443,58 +449,60 @@ module.exports = {
     },
     {
       number: 17,
-      question: 'What essential soil function does Biochar perform within Terra Preta?',
-      hint: 'Think about the role of pyrogenic carbon in holding water and storing nutrients in soil.',
+      question: 'How are Hydrothermal Deposits formed?',
+      hint: 'See the Key Terminology entry for Hydrothermal Deposits.',
       options: [
         {
-          text: 'Generating continuous low-level telluric heat to stimulate rapid seed germination in dark soils.',
-          isCorrect: false,
-          rationale: 'Biochar works through carbon storage and nutrient retention rather than generating physical heat.'
-        },
-        {
-          text: 'Porous charcoal created via low-oxygen biomass burning that prevents nutrient leaching.',
+          text: 'Superheated, mineral-rich water driven through crustal fissures.',
           isCorrect: true,
-          rationale: 'Porous charcoal created via biomass burning holds water stores carbon and prevents nutrient leaching.'
+          rationale: 'They are conductive metals formed when superheated, mineral-rich water is driven through crustal fissures.'
         },
         {
-          text: 'Supplying dense concentrations of calcium and phosphorus required for plant structural integrity.',
+          text: 'Cooling of molten magma bodies.',
           isCorrect: false,
-          rationale: 'Calcium and phosphorus inputs come from dissolved animal and fish bones rather than biochar charcoal.'
+          rationale: 'That formation produces the Magmatic Reefs.'
         },
         {
-          text: 'Serving as microscopic artificial ceramic reefs that foster beneficial mycorrhizal fungal colonies.',
+          text: 'Even distribution through massive rock bodies.',
           isCorrect: false,
-          rationale: 'Microscopic ceramic fungal reefs are formed by crushed terracotta shards rather than biochar.'
+          rationale: 'That describes Disseminated Deposits.'
+        },
+        {
+          text: 'Riverbed washing into natural traps.',
+          isCorrect: false,
+          rationale: 'That describes alluvial metal placement.'
         }
       ]
     },
+
     {
       number: 18,
-      question: 'What critical nutrient inputs are provided to Terra Preta by dissolved animal and fish bones?',
-      hint: 'Consider the mineral elements in bone that enrich agricultural soil.',
+      question: 'From what does the Density Stack descend?',
+      hint: 'See the Key Terminology entry for Density Stack.',
       options: [
         {
-          text: 'Forming micro-porous carbon lattices that prevent the leaching of vital plant nutrients.',
-          isCorrect: false,
-          rationale: 'Porous carbon lattices are formed by pyrogenic biochar rather than bone mineral inputs.'
-        },
-        {
-          text: 'Animal and fish bone inputs that supply high concentrations of phosphorus and calcium.',
+          text: 'Source Consciousness, down to the 3rd-density physical realm.',
           isCorrect: true,
-          rationale: 'Animal and fish bone inputs supply high concentrations of phosphorus and calcium.'
+          rationale: 'It is aether, descending from Source Consciousness down to the 3rd-density physical realm.'
         },
         {
-          text: 'Creating ceramic fungal reefs that shield mycorrhizal networks from environmental decay.',
+          text: 'The Cain Periphery at the plane\'s outer boundary.',
           isCorrect: false,
-          rationale: 'Fired terracotta shards provide the hard ceramic habitat for mycorrhizal fungal networks.'
+          rationale: 'The periphery is a location on the plane, not the stack\'s origin.'
         },
         {
-          text: 'Increasing the electrical conductivity of surface soil to absorb aetheric canopy currents.',
+          text: 'The Spirit Tree at Mount Meru.',
           isCorrect: false,
-          rationale: 'Bones supply phosphorus and calcium while mineral veins and water carry the field currents.'
+          rationale: 'The tree is the plane\'s central antenna, not the stack\'s source.'
+        },
+        {
+          text: 'Quadrillions of horizontal frequency bands.',
+          isCorrect: false,
+          rationale: 'The bands describe The Cube\'s stacking, not the descent\'s source.'
         }
       ]
     },
+
     {
       number: 19,
       question: 'Which characteristic uniquely identifies Disseminated Deposits?',
@@ -524,85 +532,88 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'How do the five external Great Domes interface with the central physical motherboard?',
-      hint: 'Recall the currents connecting the planetary nodes to realms such as Sheol and Titans.',
+      question: 'What does the Spirit Tree\'s root system span?',
+      hint: 'See the Key Terminology entry for Spirit Tree.',
       options: [
         {
-          text: 'Inward telluric currents connect the physical motherboard to five external Great Domes including Titans and Sheol.',
+          text: 'The physical plane, routing aetheric energy.',
           isCorrect: true,
-          rationale: 'Inward telluric currents connect the physical motherboard to five external Great Domes.'
+          rationale: 'Rooted at Mount Meru whose subterranean root system spans across the physical plane to route aetheric energy.'
         },
         {
-          text: 'Piezoelectric granite foundations under outer Domes regulate the spinning speed of the Cain Periphery.',
+          text: 'The five external Great Domes.',
           isCorrect: false,
-          rationale: 'The Cain Periphery is the spinning outer boundary of exile and is not regulated by outer dome granite.'
+          rationale: 'The domes connect via telluric currents, not the roots.'
         },
         {
-          text: 'Volcanic pressure valves discharge excess energy from the motherboard directly into outer Domes.',
+          text: 'The 178 world domains inside The Cube.',
           isCorrect: false,
-          rationale: 'Volcanic valves regulate subterranean fluid pressure rather than venting energy into outer domes.'
+          rationale: 'The roots span this physical plane.'
         },
         {
-          text: 'Atmospheric aether is generated within the external Domes and pumped horizontally into Mount Meru.',
+          text: 'The spinning Cain Periphery boundary.',
           isCorrect: false,
-          rationale: 'Atmospheric aether is drawn down through the Spirit Tree at Mount Meru rather than manufactured in outer domes.'
+          rationale: 'The periphery is the plane\'s outer boundary, beyond the roots\' span.'
         }
       ]
     },
+
     {
       number: 21,
-      question: 'Why is the female Euglossine orchid bee indispensable to the Brazil Nut Tree?',
-      hint: "Consider the physical force required to access the tree's tightly coiled flower structure.",
+      question: 'How was every metal, mineral, crystal, and species placed into the crust?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: "It directly synthesizes pyrogenic biochar required to enrich the soil around the tree's deep taproot.",
-          isCorrect: false,
-          rationale: 'Biochar is an engineered soil substrate and is not synthesized by the orchid bee.'
-        },
-        {
-          text: 'It is the only animal capable of cracking the hard cannonball pods after they fall to the forest floor.',
-          isCorrect: false,
-          rationale: 'Cracking fallen cannonball pods requires the Agouti rather than the orchid bee.'
-        },
-        {
-          text: 'Female Orchid Bees are the only insects strong enough to pry open the coiled flower hood.',
+          text: 'As a functional electronic component, not through random geological accretion.',
           isCorrect: true,
-          rationale: 'Female Orchid Bees are the only insects strong enough to pry open the coiled flower hood during its single bloom.'
+          rationale: 'Every metal, mineral, crystal, and biological species was placed into the realm\'s crust as a functional electronic component.'
         },
         {
-          text: 'It produces specialized plant enzymes that trigger the growth of wild Coryanthes orchids in the canopy.',
+          text: 'Through random geological accretion over time.',
           isCorrect: false,
-          rationale: 'Wild canopy orchids grow in the canopy where male bees gather fragrance compounds.'
+          rationale: 'The report explicitly denies random accretion.'
+        },
+        {
+          text: 'By industrial mining and resource extraction.',
+          isCorrect: false,
+          rationale: 'Mining removes the components; it did not place them.'
+        },
+        {
+          text: 'Through density suppression and overlays.',
+          isCorrect: false,
+          rationale: 'Suppression covers nodal points; it did not seed the crust.'
         }
       ]
     },
+
     {
       number: 22,
-      question: 'What primary spatial function do volcanic structures serve on the physical plane?',
-      hint: 'Focus on how the subterranean fluid and petroleum system maintains equilibrium.',
+      question: 'What do the currents flowing through the living system maintain?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'Volcanic structures acting as pressure regulation valves for the petroleum reservoir system.',
+          text: 'Planetary resonance and multi-density consciousness expansion.',
           isCorrect: true,
-          rationale: 'Volcanic structures act as pressure regulation valves for the shared petroleum reservoir system.'
+          rationale: 'The currents flow through this living system to maintain planetary resonance and support multi-density consciousness expansion.'
         },
         {
-          text: 'Generating new hydrothermal mineral veins through constant surface plasma discharges.',
+          text: 'Field instability and spiritual decoupling.',
           isCorrect: false,
-          rationale: 'Hydrothermal veins form when superheated fluid is forced into crustal fissures rather than by surface plasma discharges.'
+          rationale: 'Those are the effects of mining the board\'s hardware.'
         },
         {
-          text: 'Stabilizing the spinning motion of the Cain Periphery along the outer firmament wall.',
+          text: 'Heat, radiation, and waste production.',
           isCorrect: false,
-          rationale: 'Volcanoes regulate the internal fluid grid rather than stabilizing the outer spinning boundary.'
+          rationale: 'Those are outputs of entropic technology, not the circuitry.'
         },
         {
-          text: 'Drawing atmospheric aether downward from the Great Dome into urban granite masonry.',
+          text: 'Dependence on external power grids.',
           isCorrect: false,
-          rationale: 'Atmospheric aether is drawn down by the Spirit Tree canopy and surface vegetation rather than by volcanoes.'
+          rationale: 'The circuitry is self-sustaining, the opposite of that dependence.'
         }
       ]
     },
+
     {
       number: 23,
       question: 'What fundamental contrast exists between the Organic Circuitboard and modern entropic technology?',
@@ -659,30 +670,31 @@ module.exports = {
     },
     {
       number: 25,
-      question: 'What specific function do Crushed Terracotta Shards serve in the engineered Terra Preta matrix?',
-      hint: 'Focus on the biological role of fired clay fragments in supporting soil fungi.',
+      question: 'Through what does divine energy ascend and descend?',
+      hint: 'See the Key Terminology entry for Axis Mundi.',
       options: [
         {
-          text: 'Porous pyrogenic carbon units engineered to trap atmospheric moisture within dark soils.',
-          isCorrect: false,
-          rationale: 'Pyrogenic carbon units describe biochar which retains moisture and stores carbon.'
-        },
-        {
-          text: 'Mineralized calcium inputs designed to prevent nutrient leaching in high-rainfall tropical basins.',
-          isCorrect: false,
-          rationale: 'Calcium inputs are derived from animal and fish bone inputs rather than terracotta fragments.'
-        },
-        {
-          text: 'Conductive ceramic traces that route subterranean telluric currents directly into crop roots.',
-          isCorrect: false,
-          rationale: 'Terracotta shards provide microbial reefs for fungi rather than acting as telluric electrical conduits.'
-        },
-        {
-          text: 'Microscopic fired clay fragments acting as microbial reefs for beneficial mycorrhizal fungi.',
+          text: 'The Axis Mundi, the central vertical cosmic pillar.',
           isCorrect: true,
-          rationale: 'Crushed terracotta shards are microscopic fired clay fragments acting as microbial reefs for beneficial mycorrhizal fungi.'
+          rationale: 'The Axis Mundi stands at the center of the physical plane, through which divine energy ascends and descends.'
+        },
+        {
+          text: 'The Spirit Tree\'s canopy and branches.',
+          isCorrect: false,
+          rationale: 'The tree draws aether; the ascension channel is the pillar.'
+        },
+        {
+          text: 'The Cain Periphery\'s spinning boundary.',
+          isCorrect: false,
+          rationale: 'The periphery is where connection to the axis was severed.'
+        },
+        {
+          text: 'Telluric currents to planetary nodes.',
+          isCorrect: false,
+          rationale: 'Telluric currents carry instructions horizontally through the board.'
         }
       ]
     }
+
   ]
 };
