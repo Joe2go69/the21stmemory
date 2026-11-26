@@ -113,26 +113,60 @@ module.exports = {
     },
     {
       number: 11,
-      question: 'Which later institutions occupy the original nodal coordinates in place of the crystalline temples?',
-      hint: 'Look at the buildings placed on the old temple footprints after the overlays.',
+      question: 'What does identifying the nodal placement of modern buildings expose?',
+      hint: 'See Strategic Implications.',
       options: [
-        { text: 'Crystalline healing temples, natural springs, subterranean veins, and high-frequency fields.', isCorrect: false, rationale: 'Temples, springs, veins, and high-frequency fields belong to the original nodes, before the third-density replacements.' },
-        { text: 'Beaux-Arts, Edwardian Baroque, Neo-Renaissance, Neo-Romanesque, and Indo-Saracenic styles.', isCorrect: false, rationale: 'Those names are regional Tartarian styles of grid-interactive building, not the later capping institutions.' },
-        { text: 'Stone cathedrals, churches, prisons, lunatic asylums, military bases, and airports.', isCorrect: true, rationale: 'Those institutions sit on the original nodal coordinates to cap, redirect, or siphon the natural energy.' },
-        { text: 'Metallic spires, roof rods, massive pipe organs, and internal copper or iron circuitry.', isCorrect: false, rationale: 'Spires, rods, organs, and copper or iron circuitry are Tartarian harvesting parts, not the capping institutions.' }
+        {
+          text: 'The ongoing mechanics of field control and frequency management.',
+          isCorrect: true,
+          rationale: 'Identifying the placement of modern municipal and religious buildings exposes the ongoing mechanics of field control and frequency management.'
+        },
+        {
+          text: 'The geometric blueprint of the UVG 120 map.',
+          isCorrect: false,
+          rationale: 'The blueprint is the grid\'s mapping, not what placement exposes.'
+        },
+        {
+          text: 'The GPS coordinates of the sixty main nodes.',
+          isCorrect: false,
+          rationale: 'The coordinates are what the grid supplies, not an exposure.'
+        },
+        {
+          text: 'The visual record preserved in Fu Dog iconography.',
+          isCorrect: false,
+          rationale: 'The iconography records the grid; placement exposes field control.'
+        }
       ]
     },
+
     {
       number: 12,
-      question: 'What happens to nodal energy when a third-density building takes the temple footprint?',
-      hint: 'Look at what modern institutions do to the energy under the original coordinates.',
+      question: 'What does the Fu Dog representation serve as?',
+      hint: 'See Core Revelations.',
       options: [
-        { text: 'The current there is restored to the high-frequency healing field of the former temple.', isCorrect: false, rationale: 'The replacement does not restore the healing field. It caps, redirects, or siphons the energy under that coordinate.' },
-        { text: 'The current there is recentered on a new primary anchor away from the pyramid at Gizeh.', isCorrect: false, rationale: 'The Great Pyramid at Gizeh remains the master node, and the report keeps these coordinates fixed while the overlay caps the current.' },
-        { text: 'The current there is capped, redirected, or siphoned by the building on that footprint.', isCorrect: true, rationale: 'Third-density institutions on the original coordinates cap, redirect, or siphon the underlying natural energy.' },
-        { text: 'The current there is returned from the 440Hz Devils Interval to a 432Hz healing tone.', isCorrect: false, rationale: 'The 440Hz shift is a later acoustic severing, while a replacement building caps, redirects, or siphons the nodal current.' }
+        {
+          text: 'An enduring visual record of the planetary energy grid.',
+          isCorrect: true,
+          rationale: 'This representation serves as an enduring visual record of the grid.'
+        },
+        {
+          text: 'A decorative motif without energetic meaning.',
+          isCorrect: false,
+          rationale: 'The depiction is an explicit record of the grid.'
+        },
+        {
+          text: 'A map of Tartarian trade routes.',
+          isCorrect: false,
+          rationale: 'The sphere encodes the nodal lattice, not trade routes.'
+        },
+        {
+          text: 'A record of the grid\'s destruction.',
+          isCorrect: false,
+          rationale: 'It records the grid\'s foundational role, not its destruction.'
+        }
       ]
     },
+
     {
       number: 13,
       question: 'What does Harmonic Architecture use to raise structures on energetic nodes?',
@@ -146,48 +180,116 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'How did Tartarian buildings draw free aetheric current from the atmosphere?',
-      hint: 'Look in the harvesting subsection for how the buildings joined the atmospheric current.',
+      question: 'What does the map\'s coordinate plotting accurately identify?',
+      hint: 'See the Overview.',
       options: [
-        { text: 'Through massive pipe organs tuned so interior rooms matched the natural output of the node.', isCorrect: false, rationale: 'Pipe organs belong to frequency tuning inside the building, while atmospheric current was taken in through spires, roof rods, and metal circuitry.' },
-        { text: 'Through metallic spires, roof rods, and internal copper or iron circuitry on the grid.', isCorrect: true, rationale: 'Metallic spires, roof rods, and internal copper or iron circuitry were aligned with grid coordinates to harvest free aetheric current from the atmosphere.' },
-        { text: 'Through solfeggio scales, sound levitation, and piezoelectric granite grown into the walls.', isCorrect: false, rationale: 'Those means grew the building. Atmospheric current was harvested by spires, roof rods, and copper or iron circuitry.' },
-        { text: 'Through cathedral, prison, and airport overlays seated on the original temple footprints.', isCorrect: false, rationale: 'Those overlays cap, redirect, or siphon nodal energy, rather than coupling a Tartarian building to the atmosphere.' }
+        {
+          text: 'The true, functional nodal lattice utilized by advanced historical civilisations.',
+          isCorrect: true,
+          rationale: 'Its underlying coordinate plotting accurately identifies the true, functional nodal lattice utilized by advanced historical civilisations.'
+        },
+        {
+          text: 'A theoretical spherical drawing for education.',
+          isCorrect: false,
+          rationale: 'That is how modernized systems present the map, not what it identifies.'
+        },
+        {
+          text: 'The footprints of third-density replacement structures.',
+          isCorrect: false,
+          rationale: 'The plotting identifies the lattice itself, not the replacements.'
+        },
+        {
+          text: 'The regional styles of Tartarian architecture.',
+          isCorrect: false,
+          rationale: 'The styles are expressions of the technology, not the plotting\'s subject.'
+        }
       ]
     },
+
     {
       number: 15,
-      question: 'Which frequency did grid-interactive Tartarian structures operate on?',
-      hint: 'Look at Frequency Tuning in the harvesting subsection.',
+      question: 'How was the Great Pyramid historically designated?',
+      hint: 'See the Key Terminology entry for Great Pyramid.',
       options: [
-        { text: 'A 440Hz tone later named the Devils Interval during the historical resets.', isCorrect: false, rationale: '440Hz is the later disharmonic shift, while the structures operated at a natural 432Hz harmonic frequency.' },
-        { text: 'A UVG 120 tone borrowed from the designation of the Becker Hagens lattice map.', isCorrect: false, rationale: 'UVG 120 names the map, while the operating frequency of the structures is 432Hz.' },
-        { text: 'A 432Hz tone that let the building acoustics resonate with the node output.', isCorrect: true, rationale: 'The structures operated at a natural 432Hz harmonic frequency so their acoustics could resonate with the node output.' },
-        { text: 'A sixty-point tone borrowed from the count of primary focal points on the lattice.', isCorrect: false, rationale: 'Sixty is the count of main nodes, while the harmonic operating frequency is 432Hz.' }
+        {
+          text: 'Kufu or Cheops.',
+          isCorrect: true,
+          rationale: 'It is the principal primary main node anchor of the grid, historically designated as Kufu or Cheops.'
+        },
+        {
+          text: 'Becker or Hagens.',
+          isCorrect: false,
+          rationale: 'Those names belong to the mapping system\'s creators.'
+        },
+        {
+          text: 'The UVG 120 anchor.',
+          isCorrect: false,
+          rationale: 'UVG 120 designates the mapping system, not the pyramid.'
+        },
+        {
+          text: 'The geodesic globe.',
+          isCorrect: false,
+          rationale: 'The globe is the xiuqiu beneath the Fu Dog\'s paw.'
+        }
       ]
     },
+
     {
       number: 16,
-      question: 'Which internal component carried the harmonic frequency inside these structures?',
-      hint: 'Look at Frequency Tuning beside the harmonic frequency the structures used.',
+      question: 'What does the Geodesic Globe encode?',
+      hint: 'See the Key Terminology entry for Geodesic Globe.',
       options: [
-        { text: 'Metallic roof rods, set so the roofline pulled current in from the surrounding air.', isCorrect: false, rationale: 'Roof rods harvest atmospheric current, while the internal acoustic component named for nodal resonance is the pipe organ.' },
-        { text: 'Piezoelectric granite, set into the walls by solfeggio tones and sound levitation.', isCorrect: false, rationale: 'Piezoelectric granite is a growth material, while massive pipe organs are the internal acoustic component tuned to the node.' },
-        { text: 'A lattice xiuqiu, set under the paw of the Imperial Fu Dog as a carved globe.', isCorrect: false, rationale: 'The xiuqiu is an imperial icon of the grid, not an acoustic component inside a Tartarian building.' },
-        { text: 'Massive pipe organs, set so the interior matched the natural output of the node.', isCorrect: true, rationale: 'Massive pipe organs are the internal acoustic components that resonated with the natural output of the node.' }
+        {
+          text: 'The planetary nodal energy points, in plain sight.',
+          isCorrect: true,
+          rationale: 'It sits beneath the Fu Dog\'s paw, encoding the planetary nodal energy points in plain sight.'
+        },
+        {
+          text: 'The 440Hz Devils Interval frequencies.',
+          isCorrect: false,
+          rationale: 'The globe encodes nodal points, not the imposed frequency.'
+        },
+        {
+          text: 'The GPS coordinates of replacement institutions.',
+          isCorrect: false,
+          rationale: 'It encodes the grid\'s energy points, not the institutions.'
+        },
+        {
+          text: 'The regional styles of Tartarian architecture.',
+          isCorrect: false,
+          rationale: 'The styles are building expressions, not the globe\'s content.'
+        }
       ]
     },
+
     {
       number: 17,
-      question: 'Which set names regional Tartarian expressions of one grid-interactive technology?',
-      hint: 'Look at Architectural Styles in the harvesting subsection.',
+      question: 'Upon what were Tartarian buildings and crystalline temples grown?',
+      hint: 'See the Overview.',
       options: [
-        { text: 'Stone cathedrals, churches, prisons, lunatic asylums, and military bases.', isCorrect: false, rationale: 'Those are third-density institutions on nodal footprints, not the named regional styles of Tartarian building.' },
-        { text: 'Beaux-Arts, Edwardian Baroque, Neo-Renaissance, Neo-Romanesque, and Indo-Saracenic.', isCorrect: true, rationale: 'Those styles are the regional Tartarian expressions of the same underlying grid-interactive technology.' },
-        { text: 'Metallic spires, roof rods, pipe organs, copper circuitry, and iron runs.', isCorrect: false, rationale: 'Those are harvesting and tuning components, not the regional architectural styles named in the report.' },
-        { text: 'Natural springs, mineral veins, subterranean water, Fu Dog statues, and xiuqiu globes.', isCorrect: false, rationale: 'Springs, veins, and the Fu Dog globe mark or depict the grid, while the style set is Beaux-Arts through Indo-Saracenic.' }
+        {
+          text: 'The physical and energetic matrix of the grid network.',
+          isCorrect: true,
+          rationale: 'This grid network constitutes the physical and energetic matrix upon which Tartarian buildings and ancient crystalline healing temples were grown.'
+        },
+        {
+          text: 'Third-density replacement footprints.',
+          isCorrect: false,
+          rationale: 'The replacements came later, over the temples\' footprints.'
+        },
+        {
+          text: 'Randomly distributed sacred sites.',
+          isCorrect: false,
+          rationale: 'The sites sit on precise grid coordinates, not random ones.'
+        },
+        {
+          text: 'Theoretical spherical drawings.',
+          isCorrect: false,
+          rationale: 'The drawing is the modern presentation of the map, not a foundation.'
+        }
       ]
     },
+
     {
       number: 18,
       question: 'What do secondary and tertiary lines do with the sixty primary focal points?',
@@ -212,15 +314,32 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'What name belongs to the shift from 432Hz tuning to 440Hz?',
-      hint: 'Look in Broader Context where that later tuning is given its name.',
+      question: 'In what arrangement are the 60 main nodes distributed?',
+      hint: 'See Nodal Geometry and Primary Points.',
       options: [
-        { text: 'Density Suppression, the overlay that mutes healing emanations on positive nodes.', isCorrect: false, rationale: 'Density suppression is the nodal overlay, while the 432Hz-to-440Hz shift is named the Devils Interval.' },
-        { text: 'The Devils Interval, the disharmonic retuning tied to recent historical resets.', isCorrect: true, rationale: 'The report names the conversion from natural 432Hz to disharmonic 440Hz the Devils Interval, tied to recent historical resets.' },
-        { text: 'Harmonic Architecture, the method that grows structures upon energetic grid nodes.', isCorrect: false, rationale: 'Harmonic Architecture is the growth method, while the 440Hz shift is called the Devils Interval.' },
-        { text: 'The Nodal Lattice, the network of energy pathways and focal nodes across the realm.', isCorrect: false, rationale: 'The nodal lattice is the geometric energy network, not the name of the 432Hz-to-440Hz retuning.' }
+        {
+          text: 'Flawless geometric symmetry.',
+          isCorrect: true,
+          rationale: 'The grid functions via 60 main nodes distributed in flawless geometric symmetry.'
+        },
+        {
+          text: 'Random distribution across continents.',
+          isCorrect: false,
+          rationale: 'The nodes sit in precise geometric patterns, not random ones.'
+        },
+        {
+          text: 'A localized lattice web only.',
+          isCorrect: false,
+          rationale: 'The local web extends from the sixty primary points.'
+        },
+        {
+          text: 'Third-density overlay patterns.',
+          isCorrect: false,
+          rationale: 'The overlays were imposed on the nodes afterward.'
+        }
       ]
     },
+
     {
       number: 21,
       question: 'Which natural features mark a grid line where it reaches the surface?',
@@ -234,15 +353,32 @@ module.exports = {
     },
     {
       number: 22,
-      question: 'What did crystalline healing temples draw from elevated nodal points?',
-      hint: 'Look at the opening of Crystalline Temple Footprints, before any overlay is described.',
+      question: 'With what were the crystalline healing temples designed to interact directly?',
+      hint: 'See Core Revelations.',
       options: [
-        { text: 'Third-density overlays that supported control through prisons, bases, and airports.', isCorrect: false, rationale: 'Prisons, bases, and airports are the later capping institutions, not what the original temples drew from the nodes.' },
-        { text: 'High-frequency fields that supported physical restoration and spiritual connection.', isCorrect: true, rationale: 'Elevated nodes generated high-frequency fields, and the crystalline temples tapped them for physical restoration and spiritual connection.' },
-        { text: 'A disharmonic tone that supported the 440Hz shift called the Devils Interval.', isCorrect: false, rationale: 'The temples used high-frequency healing fields. The 440Hz Devils Interval is a later acoustic shift.' },
-        { text: 'A theoretical spherical drawing that schools present in place of a working plot.', isCorrect: false, rationale: 'Schools treat the UVG 120 as a theoretical drawing, while the temples tapped high-frequency fields for restoration and spiritual connection.' }
+        {
+          text: 'Natural water sources and subterranean springs.',
+          isCorrect: true,
+          rationale: 'They were designed to interact directly with natural water sources and subterranean springs.'
+        },
+        {
+          text: 'The 60 primary nodes of the grid.',
+          isCorrect: false,
+          rationale: 'The temples occupied the nodes; they interacted with water sources.'
+        },
+        {
+          text: 'Third-density replacement structures.',
+          isCorrect: false,
+          rationale: 'The replacements were erected over the temples later.'
+        },
+        {
+          text: 'The geodesic globe iconography.',
+          isCorrect: false,
+          rationale: 'The globe records the grid; it is not an interaction medium.'
+        }
       ]
     },
+
     {
       number: 23,
       question: 'What does the Great Pyramid do for the other nodes in the network?',
