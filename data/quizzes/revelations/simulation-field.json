@@ -134,34 +134,34 @@
     },
     {
       "number": 5,
-      "question": "What is the primary characteristic that distinguishes digital sleeves from non-player characters (NPCs)?",
+      "question": "What share of the population do NPCs and senescent holograms each comprise?",
       "options": [
         {
           "label": "A",
-          "text": "Digital sleeves represent a majority of the population, while NPCs make up a microscopic minority of public encounters.",
+          "text": "NPCs comprise 30% to 40%, and senescent holograms another 50% to 60%.",
           "isCorrect": false,
-          "rationale": "NPCs comprise 50% to 60% of the population, and senescent holograms or digital sleeves constitute another 30% to 40%."
+          "rationale": "The shares are the other way round: NPCs are the larger group at 50% to 60%."
         },
         {
           "label": "B",
-          "text": "Digital sleeves possess spiritual empathy architecture, while NPCs operate solely on algorithmic response protocols.",
+          "text": "NPCs comprise 90%, and senescent holograms the remaining 10%.",
           "isCorrect": false,
-          "rationale": "Neither group has the spiritual empathy architecture of true soul vessels. Only true souls carry that hardware."
+          "rationale": "Neither figure is given; the split is 50–60% NPCs and 30–40% holograms."
         },
         {
           "label": "C",
-          "text": "Digital sleeves lack biological birth cycles and are projected into existence, whereas NPCs are born through natural reproduction.",
+          "text": "NPCs comprise 50% to 60% of the population, and senescent holograms another 30% to 40%.",
           "isCorrect": true,
-          "rationale": "Senescent holograms populate public spaces without biological birth cycles or souls, while NPCs are biologically born through natural reproduction but lack spiritual empathy architecture."
+          "rationale": "Most encounters are artificially generated simulation furniture: NPCs at 50% to 60% and sleeves at another 30% to 40%."
         },
         {
           "label": "D",
-          "text": "Digital sleeves are anchored to corporate Cestui Que Vie bonds, while NPCs have no legal standing within the simulation.",
+          "text": "NPCs and holograms each comprise exactly half of the population.",
           "isCorrect": false,
-          "rationale": "Digital inserts hold no corporate Cestui Que Vie bonds. Those legal traces belong to biologically born bodies, not projected sleeves."
+          "rationale": "The two groups are not equal halves; NPCs outnumber the holograms."
         }
       ],
-      "hint": "Consider which group is a non-biological projection versus which is biologically born.",
+      "hint": "Check the second Core Revelations paragraph.",
       "correctAnswer": "C"
     },
     {
@@ -198,34 +198,34 @@
     },
     {
       "number": 7,
-      "question": "What is the function of the physical dome structure known as the firmament?",
+      "question": "Why are major planetary nodes covered with heavy stone edifices, cathedrals, prisons, airports, and cell towers?",
       "options": [
         {
           "label": "A",
-          "text": "It reflects lunar frequencies back toward the Earth to maximize the suppression of neural oscillations.",
+          "text": "To mark the nodes as sacred sites for public pilgrimage.",
           "isCorrect": false,
-          "rationale": "Lunar projection stations broadcast 440 Hz dissonance. The firmament is a physical enclosure, not a lunar reflector."
+          "rationale": "The coverings are suppression architecture, not pilgrimage markers."
         },
         {
           "label": "B",
-          "text": "It is the physical dome structure that encloses the entire geographical container of the Simulation Field.",
+          "text": "To suppress positive frequencies emanating from these nodes.",
           "isCorrect": true,
-          "rationale": "The entire geographical container is enclosed under a physical dome structure known as the firmament, discovered in 1956 and published in historical encyclopedias before global treaties restricted public access."
+          "rationale": "The edifices and towers suppress positive frequencies emanating from these nodes on the grid."
         },
         {
           "label": "C",
-          "text": "It focuses atmospheric data streams from Sky-Net 1 onto the Becker Hagens UVG120 Grid nodes.",
+          "text": "To amplify the nodes' frequencies for planetary healing.",
           "isCorrect": false,
-          "rationale": "Sky-Net 1 projects holograms directly. The firmament's role is to enclose the geographical container."
+          "rationale": "The frequencies are suppressed, not amplified, by the structures placed over the nodes."
         },
         {
           "label": "D",
-          "text": "It serves as a high-frequency filter that protects the 3rd-density plane from destructive cosmic radiation.",
+          "text": "To house the projection equipment that renders the scenery tiles.",
           "isCorrect": false,
-          "rationale": "The firmament is a physical container and boundary, not as a cosmic radiation filter."
+          "rationale": "Scenery renders from celestial light sources; the edifices serve frequency suppression."
         }
       ],
-      "hint": "Think about the 1956 discovery mentioned in historical encyclopedias before global treaties restricted access.",
+      "hint": "Look at the first Detailed Mechanics subsection.",
       "correctAnswer": "B"
     },
     {
@@ -262,34 +262,34 @@
     },
     {
       "number": 9,
-      "question": "How do NPCs typically react when presented with anomalous information that contradicts the mainstream narrative?",
+      "question": "How is geographical distance artificially inflated within the field?",
       "options": [
         {
           "label": "A",
-          "text": "They immediately activate their biological pineal hardware to access the aetheric matrix for verification.",
+          "text": "Through physical expansion of the rendered terrain between cities and nations.",
           "isCorrect": false,
-          "rationale": "NPCs lack the spiritual empathy architecture of true soul vessels and cannot access higher-density verification that way."
+          "rationale": "The terrain is rendered, not expanded; corridors create the impression of immense territory."
         },
         {
           "label": "B",
-          "text": "They blink out of physical existence to avoid processing information that exceeds their operational mandate.",
+          "text": "Through slower vehicle speeds enforced across the simulation's transit network.",
           "isCorrect": false,
-          "rationale": "Blinking out is how holographic digital sleeves end a mandate. NPCs are biological and remain in the environment."
+          "rationale": "No speed enforcement is described; the inflation comes from mirrored grid facsimiles."
         },
         {
           "label": "C",
-          "text": "They engage in complex problem-solving and abstract thinking to resolve the cognitive dissonance.",
+          "text": "Through memory edits that make completed journeys feel longer in recollection.",
           "isCorrect": false,
-          "rationale": "NPCs lack the architecture for abstract, non-mainstream, or spiritual concepts and do not resolve dissonance that way."
+          "rationale": "The mechanism is spatial rendering through corridors, not edited journey memories."
         },
         {
           "label": "D",
-          "text": "They default to weather observations or script resets when presented with anomalous information.",
+          "text": "Through time-phased corridors — monotonous transit zones peppered with gas stations, road signs, and highway exits.",
           "isCorrect": true,
-          "rationale": "NPCs operate on algorithmic response protocols derived from mainstream media broadcasts and default to weather observations or script resets when presented with anomalous information such as vaccine mortality figures or simulation mechanics."
+          "rationale": "Distance is inflated through time-phased corridors, monotonous transit zones peppered with gas stations and highway exits."
         }
       ],
-      "hint": "Think about the scripted, algorithmic nature of their responses.",
+      "hint": "Check the first Core Revelations paragraph.",
       "correctAnswer": "D"
     },
     {
@@ -358,310 +358,310 @@
     },
     {
       "number": 12,
-      "question": "What happens at the pineal crossover according to quantum principles?",
+      "question": "What is the Pineal Crossover?",
       "options": [
         {
           "label": "A",
-          "text": "Holographic scenery tiles from Sky-Net 1 are synchronized with the observer's spatial working memory.",
+          "text": "The projection system that renders senescent holograms in public spaces.",
           "isCorrect": false,
-          "rationale": "Scenery tiles are external overlay geography. Pineal crossover is an internal biological and quantum mechanism."
+          "rationale": "That projection system is Sky-Net 1, not the pineal mechanism."
         },
         {
           "label": "B",
-          "text": "Subatomic probabilistic states transition into observed classical reality.",
+          "text": "The biological and quantum mechanism within the pineal gland where subatomic probabilistic states transition into observed classical reality.",
           "isCorrect": true,
-          "rationale": "Pineal crossover is the biological and quantum mechanism within the pineal gland where subatomic probabilistic states transition into observed classical reality, the precise crossover point where quantum probability collapses into physical classical reality."
+          "rationale": "Within the pineal gland, subatomic probabilistic states transition into observed classical reality."
         },
         {
           "label": "C",
-          "text": "The 3rd-density vessel is permanently severed from the multidimensional oversoul during the death process.",
+          "text": "The rendering mechanism that materializes landscapes toward the horizon.",
           "isCorrect": false,
-          "rationale": "Pineal crossover is a continuous interface for collapsing probability into classical reality, not a death-severance protocol."
+          "rationale": "That mechanism is Continuous Scrolling Geography, a spatial process."
         },
         {
           "label": "D",
-          "text": "Neural oscillations are forcibly shifted from Gamma to Delta frequencies to induce an amnesia state.",
+          "text": "The energetic medium through which consciousness intent interfaces with matter.",
           "isCorrect": false,
-          "rationale": "Amnesia and band disruption come from 440 Hz lunar modulation, not from the quantum function of pineal crossover."
+          "rationale": "That medium is the Aetheric Matrix, not the crossover point in the gland."
         }
       ],
-      "hint": "Consider the results of the two-slit experiment and Schrödinger's Cat paradox in relation to the pineal gland.",
+      "hint": "See the Key Terminology entry.",
       "correctAnswer": "B"
     },
     {
       "number": 13,
-      "question": "Which of the following is a consequence of municipal water fluoridation on the human vessel?",
+      "question": "On an operational level, what does neutralizing the field's suppression mechanisms require?",
       "options": [
         {
           "label": "A",
-          "text": "It enhances the five primary frequency bands of brainwave activity, allowing for clearer dream recollection.",
+          "text": "Public exposure of the simulation's rendering code.",
           "isCorrect": false,
-          "rationale": "Calcification blocks aetheric signals. Clearer dream recollection is the opposite of that suppression."
+          "rationale": "The operational work is on the vessel's hardware and alignment, not on exposing code."
         },
         {
           "label": "B",
-          "text": "It accelerates the transition of the pineal gland from the size of a plum to the size of a fig.",
+          "text": "Physical evacuation aboard off-world craft before the collapse.",
           "isCorrect": false,
-          "rationale": "Original plum-or-fig size was reduced through genetic downsizing across planetary resets. Fluoridation calcifies the gland rather than resizing it."
+          "rationale": "No evacuation is prescribed; souls navigate the transition by maintaining energetic coherence."
         },
         {
           "label": "C",
-          "text": "It calcifies the pineal gland, halting endogenous DMT synthesis and blocking signals across the aetheric matrix.",
+          "text": "Active de-calcification of biological hardware and conscious aetheric alignment.",
           "isCorrect": true,
-          "rationale": "The pineal gland is heavily calcified using chemical fluoridation in municipal water supplies. This calcification halts endogenous DMT synthesis and blocks sending and receiving signals across the aetheric matrix."
+          "rationale": "Neutralizing the field's suppression mechanisms requires active de-calcification of biological hardware and conscious aetheric alignment."
         },
         {
           "label": "D",
-          "text": "It protects the 3rd-density avatar from permanent damage caused by artificial lunar frequencies.",
+          "text": "Collective refusal to participate in public consensus.",
           "isCorrect": false,
-          "rationale": "Fluoridation is a suppression tool used with lunar frequencies to halt DMT synthesis and enforce amnesia, not a protective shield."
+          "rationale": "The prescribed steps are de-calcification, calm regulation, and metacognitive analysis."
         }
       ],
-      "hint": "This process involves the chemical neutralization of spiritual hardware.",
+      "hint": "See the second Strategic Implications paragraph.",
       "correctAnswer": "C"
     },
     {
       "number": 14,
-      "question": "What is the significance of the 440 Hz dissonance emitted from lunar projection stations?",
+      "question": "How do individuals restore pineal receptivity, per Strategic Implications?",
       "options": [
         {
           "label": "A",
-          "text": "It allows the oversoul to steer the 3rd-density avatar from stasis pods aboard living bioships.",
+          "text": "By consuming fluoridated inputs daily to harden and enlarge the pineal gland.",
           "isCorrect": false,
-          "rationale": "Oversoul steering uses advanced avatar technology. The 440 Hz broadcast is an external suppression frequency."
+          "rationale": "Fluoridated inputs are eliminated, not consumed, to restore receptivity."
         },
         {
           "label": "B",
-          "text": "It creates the aetheric alignment required for the Galactic Ancestral Alliance to coordinate tactical interventions.",
+          "text": "By amplifying neural oscillations through constant stimulation and media exposure.",
           "isCorrect": false,
-          "rationale": "GAA operations break artificial control. The 440 Hz signal is a primary tool of that control, not an alignment aid."
+          "rationale": "Oscillations are regulated through calm mental states, not amplified by stimulation."
         },
         {
           "label": "C",
-          "text": "It serves as the base frequency for the real-time quantum rendering of spatial geography and mirrored grid nodes.",
+          "text": "By surrendering metacognitive analysis to consensus narratives and official timelines.",
           "isCorrect": false,
-          "rationale": "Scrolling geography renders from observer perception. 440 Hz targets neural oscillations, dream memory, and soul travel."
+          "rationale": "Objective metacognitive analysis is part of the restoration, not something surrendered."
         },
         {
           "label": "D",
-          "text": "It disrupts neural oscillations across the five primary brainwave bands to enforce an amnesia vortex.",
+          "text": "By eliminating fluoridated inputs, regulating neural oscillations through calm mental states, and engaging in objective metacognitive analysis.",
           "isCorrect": true,
-          "rationale": "These frequencies broadcast at 440 Hz dissonance to disrupt neural oscillations across the five primary brainwave bands, restricting nighttime soul travel, distorting dream recollection, and enforcing an amnesia vortex that wipes past-life memory upon vessel death."
+          "rationale": "They restore receptivity by eliminating fluoridated inputs and regulating neural oscillations through calm mental states."
         }
       ],
-      "hint": "Think about how this frequency impacts memory and nighttime soul travel.",
+      "hint": "Check the final paragraph.",
       "correctAnswer": "D"
     },
     {
       "number": 15,
-      "question": "How are true soul vessels protected from permanent simulation damage during their incarnation?",
+      "question": "What is the Simulation Field's primary objective?",
       "options": [
         {
           "label": "A",
-          "text": "The complete oversoul remains safely anchored in stasis pods aboard living bioships.",
+          "text": "The containment of true spiritual consciousness within a controlled environment.",
           "isCorrect": true,
-          "rationale": "The incarnated human vessel is only a localized fraction of an individual's complete oversoul, which remains safely anchored in stasis pods aboard living bioships, shielding the primary multidimensional vessel from permanent simulation damage."
+          "rationale": "The field exists to maintain physical reality, spatial geography, and internal consciousness states while containing true spiritual consciousness."
         },
         {
           "label": "B",
-          "text": "They undergo periodic de-calcification through the consumption of municipal water supplies.",
+          "text": "The liberation of incarnated souls from physical geography.",
           "isCorrect": false,
-          "rationale": "Municipal water carries chemical fluoridation that calcifies the pineal gland. It is not a protective cleanse."
+          "rationale": "The field contains consciousness; liberation is what its collapse eventually allows."
         },
         {
           "label": "C",
-          "text": "They are granted corporate Cestui Que Vie bonds that prevent Sky-Net 1 from siphoning their loosh.",
+          "text": "The expansion of the realm into deep-space territories.",
           "isCorrect": false,
-          "rationale": "Cestui Que Vie bonds are administrative capture, not spiritual protection from loosh harvest."
+          "rationale": "The field renders a contained terrarium, not an expanding deep-space frontier."
         },
         {
           "label": "D",
-          "text": "The Galactic Ancestral Alliance provides them with miniaturized solid-state technology for internal use.",
+          "text": "The training of avatars for off-world deployment.",
           "isCorrect": false,
-          "rationale": "GAA introduced the transistor into the collective timeline. It is not an internal personal shield inside each vessel."
+          "rationale": "Avatars are contained within the field, not trained by it for deployment."
         }
       ],
-      "hint": "Consider the relationship between the localized avatar and the oversoul's location.",
+      "hint": "Look at the Overview.",
       "correctAnswer": "A"
     },
     {
       "number": 16,
-      "question": "What was the strategic objective of the Galactic Ancestral Alliance introducing the transistor?",
+      "question": "What is the cookie jar paradigm?",
       "options": [
         {
           "label": "A",
-          "text": "To allow digital sleeves to possess individual biological origins and attend educational institutions.",
+          "text": "A rendering mechanism that materializes landscapes toward the horizon.",
           "isCorrect": false,
-          "rationale": "Digital sleeves remain non-biological Sky-Net 1 projections with no biological origins or school attendance."
+          "rationale": "That mechanism is Continuous Scrolling Geography, not a psychological framing."
         },
         {
           "label": "B",
-          "text": "To establish global communication networks required for physical awakening.",
+          "text": "An inverted psychological framing mechanism that directs human curiosity upward into empty space or outward into unachievable horizons.",
           "isCorrect": true,
-          "rationale": "The GAA used tactical field operations such as the historical Roswell craft downing to introduce miniaturized solid-state technology like the transistor, breaking artificial control timelines and establishing global communication networks required for physical awakening."
+          "rationale": "The paradigm directs human curiosity upward into empty space so consciousness never investigates the terrarium's boundaries."
         },
         {
           "label": "C",
-          "text": "To increase the yield of loosh harvested from true souls by creating more micro-level stressors.",
+          "text": "A demographic protocol that swells public numbers with projections.",
           "isCorrect": false,
-          "rationale": "The GAA supports incarnated souls and counteracts simulation degradation rather than raising the loosh harvest."
+          "rationale": "Swelling numbers is the sleeves' function, not the cookie jar paradigm."
         },
         {
           "label": "D",
-          "text": "To strengthen the artificial control timelines and stabilize the Simulation Field's internal graphics.",
+          "text": "A frequency broadcast that disrupts neural oscillations at night.",
           "isCorrect": false,
-          "rationale": "The transistor was introduced to break artificial control timelines, not to stabilize them."
+          "rationale": "The paradigm works through belief framing — an expanding globe in a cold vacuum — not broadcasts."
         }
       ],
-      "hint": "This intervention was a tactical field operation aimed at breaking artificial timelines.",
+      "hint": "Check the third Core Revelations paragraph.",
       "correctAnswer": "B"
     },
     {
       "number": 17,
-      "question": "Why is problem-solving considered one of the inverted human attributes?",
+      "question": "What does recognizing the population weighting of public consensus accomplish?",
       "options": [
         {
           "label": "A",
-          "text": "Problem-solving is occupied with administrative bureaucracy and manufactured systemic obstacles.",
+          "text": "It neutralizes the social pressure to conform to engineered narratives.",
           "isCorrect": true,
-          "rationale": "Because these traits could not be deleted from true souls, the controllers inverted them. Problem-solving is occupied with administrative bureaucracy and manufactured systemic obstacles."
+          "rationale": "It lets true souls detach from artificial outrage and financial traps instead of conforming to engineered narratives."
         },
         {
           "label": "B",
-          "text": "Because it has been completely deleted from the human firmware during planetary resets.",
+          "text": "It obliges true souls to correct every engineered narrative publicly.",
           "isCorrect": false,
-          "rationale": "These traits could not be deleted from true souls, so the controllers inverted them into psychological hooks instead."
+          "rationale": "Recognition frees souls from the pressure; it does not oblige public correction campaigns."
         },
         {
           "label": "C",
-          "text": "Because it is used to calculate the debt bonds required for NPCs to maintain their social consensus.",
+          "text": "It removes NPCs and holograms from public environments.",
           "isCorrect": false,
-          "rationale": "NPCs follow algorithmic response protocols. Digital inserts hold no corporate Cestui Que Vie bonds."
+          "rationale": "The population remains; what changes is the soul's detachment from its pressure."
         },
         {
           "label": "D",
-          "text": "Because it is redirected toward meaningless theoretical astrophysics and dark matter equations.",
+          "text": "It restores the population to an even split of true souls.",
           "isCorrect": false,
-          "rationale": "Abstract thinking and curiosity are the attributes redirected toward theoretical astrophysics, dark matter, and deep-space timelines."
+          "rationale": "No population rebalancing is described; the effect is perceptual and internal."
         }
       ],
-      "hint": "Consider how the simulation uses bureaucracy and systemic friction to consume intellectual bandwidth.",
+      "hint": "See the first Strategic Implications paragraph.",
       "correctAnswer": "A"
     },
     {
       "number": 18,
-      "question": "What is the expected result of the arrival of the Electromagnetic Field (EMF) wave?",
+      "question": "How does scenery behave when an individual travels across vast distances?",
       "options": [
         {
           "label": "A",
-          "text": "The total integration of all true souls into the lunar projection stations to power the amnesia vortex.",
+          "text": "The scenery remains fixed while the traveller's memory is rewritten.",
           "isCorrect": false,
-          "rationale": "The EMF wave arrives as artificial control broadcasts dissipate, which ends rather than powers the amnesia vortex."
+          "rationale": "The scenery itself shifts with perception; memory rewriting is not the mechanism."
         },
         {
           "label": "B",
-          "text": "The visual and psychological overlays of the simulation will dissolve, revealing the true energetic architecture.",
+          "text": "The physical scenery shifts fluidly in synchronization with perception, mirroring game-engine rendering mechanics.",
           "isCorrect": true,
-          "rationale": "Upon the dissipation of artificial control broadcasts and the arrival of the Electromagnetic Field (EMF) wave, the visual and psychological overlays of the simulation will dissolve, revealing the true energetic architecture and soul family identities of surrounding individuals."
+          "rationale": "Scenery renders toward the horizon, mirroring game-engine rendering mechanics as perception redirects."
         },
         {
           "label": "C",
-          "text": "The permanent calcification of all remaining biological pineal glands across the 3rd-density plane.",
+          "text": "The scenery is physically transported ahead of the traveller by ground crews.",
           "isCorrect": false,
-          "rationale": "The wave dissolves overlays. It does not intensify fluoridation or pineal calcification."
+          "rationale": "Scenery tiles are projected overlays, not physical sets moved by crews."
         },
         {
           "label": "D",
-          "text": "The immediate transformation of NPCs into true soul vessels through the activation of spiritual empathy.",
+          "text": "The scenery dissolves until the traveller stops moving.",
           "isCorrect": false,
-          "rationale": "The wave reveals true energetic architecture and soul family identities. It does not convert NPCs into true souls."
+          "rationale": "Rendering is continuous and fluid during travel, not suspended by it."
         }
       ],
-      "hint": "This event marks the systemic failure of the simulation field's control structures.",
+      "hint": "Look at the first Detailed Mechanics subsection.",
       "correctAnswer": "B"
     },
     {
       "number": 19,
-      "question": "Why are biological entities like Sasquatch and Yeti employed at specific portal locations like Bermuda or Sedona?",
+      "question": "What is Sky-Net 1?",
       "options": [
         {
           "label": "A",
-          "text": "To provide educational guidance to true souls who have successfully bypassed the amnesia vortex.",
+          "text": "The mapped planetary ley line grid of major and minor energy nodes.",
           "isCorrect": false,
-          "rationale": "These entities enforce spatial integrity against unapproved human entry. They are not awakening tutors."
+          "rationale": "That grid is the Becker Hagens UVG120 Grid, a separate structure."
         },
         {
           "label": "B",
-          "text": "To harvest emotional energy from the high-frequency energy nodes on the UVG120 Grid.",
+          "text": "The underlying energetic medium for consciousness and matter interface.",
           "isCorrect": false,
-          "rationale": "Loosh is yielded through psychological friction. These entities guard density thresholds, not node harvest."
+          "rationale": "That medium is the Aetheric Matrix, not a projection system."
         },
         {
           "label": "C",
-          "text": "To prevent unauthorized passage across density thresholds and protect the simulation's spatial integrity.",
+          "text": "The atmospheric stellar projection system that emits data streams and lights to render senescent holograms and maintain spatial overlays.",
           "isCorrect": true,
-          "rationale": "At portal locations like the Dyatlov Portal, Bermuda, Sedona, and specific ocean passageways, specialized biological enforcement entities such as 4th-density Sasquatch, Yeti, and Megalodons prevent unauthorized passage across density thresholds, protecting the simulation's spatial integrity from unapproved human entry."
+          "rationale": "Sky-Net 1 is the atmospheric stellar projection system that emits data streams and lights to render the holograms."
         },
         {
           "label": "D",
-          "text": "To act as environmental background noise for the holographic digital sleeves projected by Sky-Net 1.",
+          "text": "The quantum mechanism inside the pineal gland where states collapse.",
           "isCorrect": false,
-          "rationale": "Sky-Net 1 sleeves are the background noise. Sasquatch and Yeti are 4th-density enforcement at portal tears."
+          "rationale": "That mechanism is the Pineal Crossover, hosted in the gland rather than the atmosphere."
         }
       ],
-      "hint": "Focus on their role as specialized biological enforcement entities at density thresholds.",
+      "hint": "See the Key Terminology entry.",
       "correctAnswer": "C"
     },
     {
       "number": 20,
-      "question": "What occurs during frequency compression prior to a soul's insertion into the field?",
+      "question": "What allows multiple cities and nations to share identical underlying energetic architecture while appearing spatially separated?",
       "options": [
         {
           "label": "A",
-          "text": "Multidimensional luminosity is folded into dense energetic packets against the ambient low-frequency output.",
+          "text": "Mirroring major planetary nodes from the Becker Hagens UVG120 Grid across different geographical tiles.",
           "isCorrect": true,
-          "rationale": "True souls undergo frequency compression prior to insertion, folding their multidimensional luminosity into dense energetic packets so they do not stand out against the ambient low-frequency output of artificial population constructs."
+          "rationale": "The structure relies on mirroring major planetary nodes from the Becker Hagens UVG120 Grid across geographical tiles."
         },
         {
           "label": "B",
-          "text": "The fifteen human attributes are systematically deleted from the soul's firmware to ensure social conformity.",
+          "text": "Cloning each city's population from a single genetic template.",
           "isCorrect": false,
-          "rationale": "Those attributes could not be deleted. Frequency compression folds luminosity, it does not erase firmware traits."
+          "rationale": "The shared architecture comes from mirrored grid nodes, not cloned populations."
         },
         {
           "label": "C",
-          "text": "The oversoul is permanently disconnected from the 3rd-density avatar to prevent simulation damage.",
+          "text": "Rotating the geographical tiles on a fixed daily schedule.",
           "isCorrect": false,
-          "rationale": "The oversoul stays connected through advanced avatar technology. Compression lets the fragment function inside the field."
+          "rationale": "Tiles are mirrored facsimiles anchored over energy junctions, not rotated on a schedule."
         },
         {
           "label": "D",
-          "text": "The pineal gland is chemically treated with fluoride to prevent the transition into classical reality.",
+          "text": "Broadcasting identical media narratives in every nation.",
           "isCorrect": false,
-          "rationale": "Frequency compression is an energetic insertion process. Fluoridation calcifies the gland after incarnation."
+          "rationale": "Media narratives steer consensus; the shared spatial architecture is a grid-mirroring effect."
         }
       ],
-      "hint": "This process prevents the soul from standing out against the ambient output of artificial population constructs.",
+      "hint": "Check the first Core Revelations paragraph.",
       "correctAnswer": "A"
     },
     {
       "number": 21,
-      "question": "True or False: Digital inserts are capable of holding corporate Cestui Que Vie bonds and attending educational institutions.",
+      "question": "True or False: Senescent holograms possess biological birth cycles and souls.",
       "options": [
         {
           "label": "A",
           "text": "True",
           "isCorrect": false,
-          "rationale": "Only biologically born bodies carry those legal and institutional traces. Projected sleeves blink in and out without them."
+          "rationale": "The glossary describes them as projected constructs with neither birth cycles nor souls."
         },
         {
           "label": "B",
           "text": "False",
           "isCorrect": true,
-          "rationale": "Digital inserts and holographic sleeves do not undergo biological birth, do not attend educational institutions, hold no corporate Cestui Que Vie bonds, and possess no personal homes."
+          "rationale": "They populate physical public spaces without possessing biological birth cycles or souls, so the statement is false."
         }
       ],
-      "hint": "Consider whether a non-biological projection can leave a physical or historical paper trail.",
+      "hint": "See the Senescent Holograms entry.",
       "correctAnswer": "B"
     },
     {
@@ -730,66 +730,66 @@
     },
     {
       "number": 24,
-      "question": "What happens when the operational mandate of a holographic sleeve ends?",
+      "question": "Why are digital sleeves projected into public environments?",
       "options": [
         {
           "label": "A",
-          "text": "They return to their biological family and home to wait for their next assignment.",
+          "text": "To provide companionship, guidance, and emotional support for incarnated true souls.",
           "isCorrect": false,
-          "rationale": "Digital sleeves possess no personal homes and no biological families. They are purely artificial projections."
+          "rationale": "Sleeves are background furniture that siphons loosh, not companions or guides."
         },
         {
           "label": "B",
-          "text": "They undergo frequency compression to prepare for a new incarnation as a true soul vessel.",
+          "text": "To staff the educational institutions and workplaces that true souls move through.",
           "isCorrect": false,
-          "rationale": "Frequency compression is for true souls prior to insertion. Sleeves have no spiritual core to compress."
+          "rationale": "Sleeves hold no institutional roles; they fill public spaces as background noise."
         },
         {
           "label": "C",
-          "text": "They are converted into NPCs to help maintain the social consensus of the local environment.",
+          "text": "To hold personal debt bonds and property records on behalf of the wider population.",
           "isCorrect": false,
-          "rationale": "Holographic sleeves and NPCs are separate categories: projected inserts versus biologically born bodies."
+          "rationale": "Sleeves possess no personal debt bonds of their own, let alone others'."
         },
         {
           "label": "D",
-          "text": "They blink out instantly without leaving physical or historical traces.",
+          "text": "To swell public numbers, act as environmental background noise, and siphon emotional energy known as loosh from true soul vessels.",
           "isCorrect": true,
-          "rationale": "When their operational mandate ends, they blink out instantly without leaving physical or historical traces."
+          "rationale": "Sleeves swell public numbers and act as environmental background noise while siphoning loosh from true soul vessels."
         }
       ],
-      "hint": "This describes the disappearance of an entity that was never biologically born.",
+      "hint": "Check the second Core Revelations paragraph.",
       "correctAnswer": "D"
     },
     {
       "number": 25,
-      "question": "How do artificial lunar frequencies disrupt nighttime activity for incarnated souls?",
+      "question": "What does severing the psychological hooks of the simulation require?",
       "options": [
         {
           "label": "A",
-          "text": "By mirroring the 3rd-density spatial tiles directly into the observer's pineal gland.",
+          "text": "Memorizing corporate education and official historical timelines.",
           "isCorrect": false,
-          "rationale": "Mirroring of nodes happens in external geography. Lunar frequencies target internal neural oscillations."
+          "rationale": "Those are unlearned, not memorized, when the hooks are severed."
         },
         {
           "label": "B",
-          "text": "By increasing the Alpha and Theta bands to facilitate deep connection with the aetheric matrix.",
+          "text": "Strengthening the inverted scientific paradigms that frame reality.",
           "isCorrect": false,
-          "rationale": "The 440 Hz broadcast disrupts those bands to block connection, not to deepen aetheric contact."
+          "rationale": "The inverted paradigms are dismantled, not strengthened."
         },
         {
           "label": "C",
-          "text": "They broadcast at 440 Hz dissonance, restricting nighttime soul travel and distorting dream recollection.",
+          "text": "Dismantling perceptual knowledge — unlearning corporate education, false historical timelines, and inverted scientific paradigms.",
           "isCorrect": true,
-          "rationale": "Artificial lunar frequencies broadcast at 440 Hz dissonance to disrupt neural oscillations across the five primary brainwave bands, restricting nighttime soul travel, distorting dream recollection, and enforcing an amnesia vortex."
+          "rationale": "Severing the hooks requires dismantling perceptual knowledge that binds awareness to 3rd-density limitations."
         },
         {
           "label": "D",
-          "text": "By accelerating the production of endogenous DMT to cause uncontrollable telepathic signals.",
+          "text": "Deepening perceptual knowledge of the simulation's narratives.",
           "isCorrect": false,
-          "rationale": "Fluoridation and lunar frequencies halt endogenous DMT synthesis. They do not accelerate it."
+          "rationale": "Perceptual knowledge is dismantled so awareness can detach from the narratives."
         }
       ],
-      "hint": "Focus on the specific frequency used for dissonance and its effect on the amnesia vortex.",
+      "hint": "See the first Strategic Implications paragraph.",
       "correctAnswer": "C"
     }
   ]
