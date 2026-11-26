@@ -119,85 +119,88 @@ module.exports = {
     },
     {
       number: 5,
-      question: 'How has the pineal gland been physically modified through successive custodial resets?',
-      hint: 'Compare the original intended dimensions of the organ to its current suppressed state.',
+      question: 'What does restoring true internal sovereignty demand regarding the pineal gland?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'It has been hyper-activated so the vessel remains in a constant state of fear and fanaticism.',
-          isCorrect: false,
-          rationale: 'The pineal gland is genetically downsized and calcified to block higher-density perception. It is not hyper-activated.'
-        },
-        {
-          text: 'The pineal gland has been genetically downsized over successive resets to the size of a pea.',
+          text: 'Active resistance to biological pineal suppression — eliminating neurotoxic calcifying agents like fluoride and recognizing the gland as the sole organic spiritual apparatus.',
           isCorrect: true,
-          rationale: 'In un-downgraded vessels the pineal gland was the size of a large fig or plum. Successive resets reduced it to the size of a pea.'
+          rationale: 'It demands eliminating neurotoxic calcifying agents like fluoride and recognizing the pineal gland as the sole organic spiritual apparatus.'
         },
         {
-          text: 'It has been replaced with a synthetic crystal that facilitates direct custodial telepathy.',
+          text: 'Submission to externalized priesthoods, temples, and written scriptures as mandatory intermediaries for divine access.',
           isCorrect: false,
-          rationale: 'The gland remains biological. Calcification blocks its crystalline structures, and its size is genetically downsized.'
+          rationale: 'Priesthoods and scriptures are the intermediaries sovereignty bypasses.'
         },
         {
-          text: 'It has been relocated within the brain to prevent interaction with the visual cortex.',
+          text: 'Acceptance of manufactured dogmas, deceptive deities, and structured belief systems as genuine spirituality.',
           isCorrect: false,
-          rationale: 'The modification is genetic downsizing and calcification, not a relocation away from the visual cortex.'
+          rationale: 'Dogmas are what sovereignty is reclaimed from, not accepted.'
+        },
+        {
+          text: 'Reliance on technological facsimiles and artificial nets that capture human attention and energy.',
+          isCorrect: false,
+          rationale: 'Facsimiles replace the gland\'s function rather than restoring it.'
         }
       ]
     },
+
     {
       number: 6,
-      question: 'What specific chemical compound is required for the pineal gland to unlock higher-density perception?',
-      hint: 'Identify the natural molecule produced within the body that acts as a quantum interface.',
+      question: 'Through what does the pineal gland translate higher-density aetheric data into physical consciousness?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'Adrenaline produced during high-intensity religious fervor, ritual, and fanaticism.',
-          isCorrect: false,
-          rationale: 'Guilt, fear, and fanaticism produce loosh. They do not unlock higher-density perception the way endogenous DMT does.'
-        },
-        {
-          text: 'Synthetic fluoride added to municipal water to stimulate crystalline perception.',
-          isCorrect: false,
-          rationale: 'Systematic municipal fluoridation calcifies the gland\'s crystalline structures and blocks endogenous DMT.'
-        },
-        {
-          text: 'External serotonin boosters derived from religious ceremonial plants and rites.',
-          isCorrect: false,
-          rationale: 'Higher-density perception requires endogenous DMT synthesized and released by the pineal gland, not an external ceremonial booster.'
-        },
-        {
-          text: 'Endogenous DMT translates higher-density aetheric data into physical consciousness.',
+          text: 'Endogenous DMT — it is the biological receiver-transmitter and quantum interface within the brain.',
           isCorrect: true,
-          rationale: 'Endogenous DMT (N,N-Dimethyltryptamine) is the natural chemical compound required to unlock higher-density perception, telepathy, and direct aetheric reception.'
+          rationale: 'The gland translates higher-density aetheric data into physical consciousness via endogenous DMT.'
+        },
+        {
+          text: 'Institutionalized worship and externalized dogma.',
+          isCorrect: false,
+          rationale: 'Dogma is the counterfeit substitute, not the translation medium.'
+        },
+        {
+          text: 'Written scriptures and temple intermediaries.',
+          isCorrect: false,
+          rationale: 'Intermediaries bypass the gland rather than translating through it.'
+        },
+        {
+          text: 'Systematic municipal fluoridation of drinking water.',
+          isCorrect: false,
+          rationale: 'Fluoridation suppresses the gland; it does not translate data.'
         }
       ]
     },
+
     {
       number: 7,
-      question: 'What is the function of the Amnesia Vortex in the custodial farm cycle?',
-      hint: 'Think about what happens to an entity\'s history immediately following the death of the physical vessel.',
+      question: 'What does Re-Legion teach souls to seek upon physical vessel death?',
+      hint: 'Check the close of Detailed Mechanics.',
       options: [
         {
-          text: 'To store the collective knowledge of humanity for access in future incarnations.',
-          isCorrect: false,
-          rationale: 'The amnesia vortex wipes past-life memories. It is not a repository that stores collective knowledge for later lives.'
-        },
-        {
-          text: 'To calibrate the soul\'s energetic frequency for communion with the universal aether.',
-          isCorrect: false,
-          rationale: 'The vortex is a technological frequency trap at physical vessel death. It does not calibrate the soul for aetheric communion.'
-        },
-        {
-          text: 'To purify the soul of traumatic experiences before it ascends to higher planes.',
-          isCorrect: false,
-          rationale: 'The post-mortem amnesia vortex maintains cyclical reincarnation. It does not purify the soul for ascension.'
-        },
-        {
-          text: 'To wipe past-life memories and maintain cyclical reincarnation.',
+          text: 'External light and divine figures — priming the disincarnated entity for compliance.',
           isCorrect: true,
-          rationale: 'This technological sweep wipes the soul\'s memory clean and cycles the soul back into a new 3rd-density vessel to continue the farm cycle.'
+          rationale: 'Souls are conditioned to seek external light and divine figures upon physical vessel death.'
+        },
+        {
+          text: 'Direct communion with cosmic frequencies.',
+          isCorrect: false,
+          rationale: 'Communion is what Re-Legion prevents, not what it teaches souls to seek.'
+        },
+        {
+          text: 'Internal sovereignty and fundamental Oneness.',
+          isCorrect: false,
+          rationale: 'Sovereignty is what the death-priming steers souls away from.'
+        },
+        {
+          text: 'Aetheric resonance through the pineal gland.',
+          isCorrect: false,
+          rationale: 'The gland is bypassed at death by the priming, not used.'
         }
       ]
     },
+
     {
       number: 8,
       question: 'Why does the Sovereign Accord prevent Custodians from overriding human fields directly?',
@@ -227,58 +230,60 @@ module.exports = {
     },
     {
       number: 9,
-      question: 'Which of the following are the Three Strings of Enslavement that must be severed?',
-      hint: 'Identify the trio of core institutional systems used for planetary entrapment.',
+      question: 'What must the Custodians avoid triggering when they engineer voluntary consent?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'Technology, urbanization, and the destruction of nature are the three strings that must be severed for ascension.',
-          isCorrect: false,
-          rationale: 'The Three Strings of Enslavement are Re-Legion, Perceived Knowledge, and Finance. Technology and nature are not that trio.'
-        },
-        {
-          text: 'Fear, guilt, and the pursuit of material wealth are the three strings of enslavement that bind the vessel.',
-          isCorrect: false,
-          rationale: 'Guilt, fear, and fanaticism are dense emotional states that produce loosh. They are not the Three Strings of Enslavement.'
-        },
-        {
-          text: 'Dogma, priesthoods, and calcification of the pineal gland are the three strings that must be systematically severed.',
-          isCorrect: false,
-          rationale: 'Dogma, priesthoods, and pineal calcification operate inside Re-Legion. They are not the full set of three strings.'
-        },
-        {
-          text: 'Re-Legion, Perceived Knowledge, and Finance are the Three Strings of Enslavement that must be systematically severed.',
+          text: 'Direct intervention from higher-density alliances.',
           isCorrect: true,
-          rationale: 'Re-Legion constitutes one of the Three Strings of Enslavement alongside Perceived Knowledge and Finance.'
+          rationale: 'Consent is engineered without triggering direct intervention from higher-density alliances, the Custodians utilize Re-Legion for that purpose.'
+        },
+        {
+          text: 'Ideological friction among competing doctrines.',
+          isCorrect: false,
+          rationale: 'Friction is produced deliberately; it generates harvestable Loosh.'
+        },
+        {
+          text: 'Compliance from disincarnated entities at death.',
+          isCorrect: false,
+          rationale: 'Compliance is the goal of the priming, not something avoided.'
+        },
+        {
+          text: 'Expansion of the soul field to natural luminosity.',
+          isCorrect: false,
+          rationale: 'Expansion is prevented by dogma\'s anchor, not a triggered risk.'
         }
       ]
     },
+
     {
       number: 10,
-      question: 'What is the symbolic and functional significance of the World Wide Web in this context?',
-      hint: 'Look at the Hebrew numerical translation and the descriptive term for this web.',
+      question: 'With what does Re-Legion operate in tandem?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'A tool of liberation that allows humanity to bypass religious censorship and dogma.',
-          isCorrect: false,
-          rationale: 'The web sits alongside financial bondage and academic distortion as custodial control. It is not a tool of liberation.'
-        },
-        {
-          text: 'A digital archive of the Lemurian Tongue meant to restore global aetheric coherence.',
-          isCorrect: false,
-          rationale: 'The World Wide Web is a technological facsimile that captures human attention and energy. It does not archive the Lemurian Tongue.'
-        },
-        {
-          text: 'The World Wide Web (Vav Vav Vav = 666 in Hebrew) functions as an artificial net to capture human attention and energy.',
+          text: 'Manufactured choice architecture, societal noise, and legal capture.',
           isCorrect: true,
-          rationale: 'In place of organic aetheric connection, humanity was conditioned to rely on this technological facsimile.'
+          rationale: 'Re-Legion operates in tandem with manufactured choice architecture, societal noise, and legal capture.'
         },
         {
-          text: 'The primary method for the Custodians to broadcast the EBS Lockdown signals to every vessel.',
+          text: 'Direct aetheric communication and cosmic frequencies.',
           isCorrect: false,
-          rationale: 'The World Wide Web functions as an artificial net to capture human attention and energy. Broadcasting lockdown signals is not its stated role.'
+          rationale: 'Aetheric communication is what Re-Legion replaces, not its partner.'
+        },
+        {
+          text: 'Higher-density alliances and field law.',
+          isCorrect: false,
+          rationale: 'Alliances are what the consent engineering avoids triggering.'
+        },
+        {
+          text: 'True spirituality and primordial Oneness.',
+          isCorrect: false,
+          rationale: 'True spirituality is the organic state Re-Legion subverts.'
         }
       ]
     },
+
     {
       number: 11,
       question: 'How does Re-Legion generate the Loosh required by the Custodians?',
@@ -379,31 +384,32 @@ module.exports = {
     },
     {
       number: 15,
-      question: 'How does the consumption of municipal fluoride assist the Re-Legion construct?',
-      hint: 'Focus on the physical effect of this neurotoxin on the receiver-transmitter in the brain.',
+      question: 'What does Re-Legion bind the human vessel to?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'It stabilizes the human vessel to prevent the emotional radiation of loosh.',
-          isCorrect: false,
-          rationale: 'Municipal fluoridation calcifies the pineal gland. It does not stabilize the vessel or prevent loosh.'
-        },
-        {
-          text: 'It enhances the brain\'s ability to process the World Wide Web\'s technological signals.',
-          isCorrect: false,
-          rationale: 'Fluoride calcifies the gland\'s crystalline structures. It does not enhance reception of technological signals.'
-        },
-        {
-          text: 'Systematic municipal fluoridation calcifies the gland\'s crystalline structures.',
+          text: 'Lower-density administrative structures — by subverting the pineal gland and preventing direct communion with cosmic frequencies.',
           isCorrect: true,
-          rationale: 'Calcification blocks the gland from synthesizing and releasing endogenous DMT and from direct aetheric reception.'
+          rationale: 'Re-Legion works by preventing direct communion with cosmic frequencies and binding the human vessel to lower-density administrative structures.'
         },
         {
-          text: 'It acts as a tracer that allows Custodians to track disincarnated entities after death.',
+          text: 'Higher-density fields, sovereign access, and direct communion with cosmic frequencies themselves.',
           isCorrect: false,
-          rationale: 'Fluoride calcifies the pineal gland in the living vessel. The amnesia vortex handles the disincarnated entity.'
+          rationale: 'Sovereign access is bypassed, not bound into.'
+        },
+        {
+          text: 'Universal memory, telepathic communication, and immediate manifestation through the aether.',
+          isCorrect: false,
+          rationale: 'Memory and telepathy are gland functions the binding blocks.'
+        },
+        {
+          text: 'Collective field coherence, a single universal language, and primordial Oneness.',
+          isCorrect: false,
+          rationale: 'Coherence and the Tongue were destroyed by the Babel Operation.'
         }
       ]
     },
+
     {
       number: 16,
       question: 'What is the primary characteristic of True Spirituality?',
@@ -541,75 +547,78 @@ module.exports = {
     },
     {
       number: 21,
-      question: 'True or False: The pineal gland was originally much larger, about the size of a fig or plum.',
-      hint: 'Recall the comparison made between the current pea-sized gland and its primordial state.',
+      question: 'True or False: According to the report, adherence to religious dogma creates a dense energetic anchor.',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
           text: 'True',
           isCorrect: true,
-          rationale: 'The pineal gland, originally the size of a large fig or plum in un-downgraded vessels, has been genetically downsized over successive resets to the size of a pea.'
+          rationale: 'True — dogma creates a dense energetic anchor that prevents the soul field from expanding to its natural luminosity.'
         },
         {
           text: 'False',
           isCorrect: false,
-          rationale: 'Successive resets genetically downsized the pineal gland from the size of a large fig or plum to the size of a pea.'
+          rationale: 'The report states the anchor directly: dogma prevents the soul field expanding to natural luminosity.'
         }
       ]
     },
+
     {
       number: 22,
-      question: 'What is the result of calcification on the pineal gland\'s function?',
-      hint: 'Look for the specific biological process that stops when the gland\'s crystals are calcified.',
+      question: 'What does Re-Legion effectively trick humanity into doing?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'It forces the gland to produce excess loosh during organized prayer cycles.',
-          isCorrect: false,
-          rationale: 'Loosh comes from dense emotional states. Calcification is a physical block on synthesizing and releasing endogenous DMT.'
-        },
-        {
-          text: 'Calcification blocks the gland from synthesizing and releasing endogenous DMT.',
+          text: 'Worshiping its own jailers — the parasitic overlords reframed as divine entities worthy of worship.',
           isCorrect: true,
-          rationale: 'Calcification of the gland\'s crystalline structures blocks higher-density perception, telepathy, and direct aetheric reception.'
+          rationale: 'It reframes the overlords as divine, effectively tricking humanity into worshiping its own jailers.'
         },
         {
-          text: 'It increases the sensitivity of the gland to external custodial frequencies and signals.',
+          text: 'Seeking salvation, wisdom, and divine authority exclusively outside the individual soul.',
           isCorrect: false,
-          rationale: 'Calcification blocks the gland\'s crystalline structures. It does not increase sensitivity to custodial frequencies.'
+          rationale: 'External salvation is the installed premise; the trick is worshiping the jailers.'
         },
         {
-          text: 'It converts the biological organ into a synthetic transceiver for the World Wide Web.',
+          text: 'Fracturing into over four thousand competing faiths through the Babel Operation\'s confusion.',
           isCorrect: false,
-          rationale: 'Calcification is biological suppression of the pineal gland. It does not convert the organ into web hardware.'
+          rationale: 'The fracturing is the Babel Operation\'s work, imposed rather than tricked into.'
+        },
+        {
+          text: 'Surrendering personal authority to temples, priesthoods, and written scriptures as intermediaries.',
+          isCorrect: false,
+          rationale: 'Surrender is the consent mechanism; the trick itself is the worship of jailers.'
         }
       ]
     },
+
     {
       number: 23,
-      question: 'What is the relationship between the web and the numerical value 666?',
-      hint: 'Look for the Hebrew lettering attached to the World Wide Web.',
+      question: 'What was Re-Legion engineered to replace direct aetheric communication with?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'The World Wide Web is Vav Vav Vav = 666 in Hebrew.',
+          text: 'Externalized dogma, institutionalized worship, and deceptive deities.',
           isCorrect: true,
-          rationale: 'The World Wide Web (Vav Vav Vav = 666 in Hebrew) functions as an artificial net to capture human attention and energy.'
+          rationale: 'It was engineered to replace direct aetheric communication with externalized dogma, institutionalized worship, and deceptive deities.'
         },
         {
-          text: 'The original Lemurian Tongue used the number 666 to represent digital communication.',
+          text: 'Telepathic communication and universal memory.',
           isCorrect: false,
-          rationale: 'The Lemurian Tongue was the single universal language of direct field coherence. Digital numbering is not that tongue.'
+          rationale: 'Those are the gland\'s organic functions, not the replacement.'
         },
         {
-          text: '666 is the required access code for disincarnated souls to bypass the web.',
+          text: 'Ideological friction, guilt, and fanaticism.',
           isCorrect: false,
-          rationale: 'Vav Vav Vav = 666 in Hebrew marks the World Wide Web as an artificial net. It is not an exit code for souls.'
+          rationale: 'Friction and guilt are products of the system, not its substitute content.'
         },
         {
-          text: 'The web uses a 666-terahertz frequency to calcify the pineal gland remotely.',
+          text: 'Loosh production for custodial infrastructure.',
           isCorrect: false,
-          rationale: 'Pineal calcification is maintained through systematic municipal fluoridation, not a 666-terahertz web frequency.'
+          rationale: 'Loosh is the harvest the system yields, not the communication substitute.'
         }
       ]
     },
+
     {
       number: 24,
       question: 'What binds the subtle body to dogmatic servitude?',
