@@ -119,85 +119,88 @@ module.exports = {
     },
     {
       number: 5,
-      question: 'In a random gathering of 100 people within the realm, what is the typical composition of true souls versus construct entities?',
-      hint: 'Consider how sparsely true souls are distributed among the perceived population.',
+      question: 'Out of 10 billion perceived inhabitants, how many are true souls?',
+      hint: 'Check the final Core Revelations paragraph.',
       options: [
         {
-          text: '50 true souls and 50 artificial construct entities stand in that gathering.',
-          isCorrect: false,
-          rationale: 'True souls are a small share of a public gathering, not half of it.'
-        },
-        {
-          text: 'Roughly 97 are construct entities animated by the borrowed energetic light of the 3 true souls present.',
+          text: 'About 520 million remain, a figure preserved as the Guidestones number.',
           isCorrect: true,
-          rationale: 'In any given gathering of 100 people roughly 97 are construct entities animated by the borrowed energetic light of the 3 true souls present.'
+          rationale: 'Of 10 billion perceived inhabitants, about 520 million remain as true souls, while the majority are artificial construct vessels.'
         },
         {
-          text: '25 true souls and 75 artificial construct entities stand in that gathering.',
+          text: 'About 4,000 remain, matching the number of inserted soul architectures.',
           isCorrect: false,
-          rationale: 'That split still overstates how many true souls stand in a general gathering.'
+          rationale: 'The 4,000 are the original architectures; the true souls remaining number about 520 million.'
         },
         {
-          text: '97 true souls and 3 artificial construct entities stand in that gathering.',
+          text: 'About 150 million remain, matching the size of a soul family cluster.',
           isCorrect: false,
-          rationale: 'Construct entities are the large share, and the true souls in that gathering are the small share.'
+          rationale: 'A cluster holds approximately 150 souls; the realm-wide true-soul count is about 520 million.'
+        },
+        {
+          text: 'About 97 million remain, matching the construct share of any gathering.',
+          isCorrect: false,
+          rationale: 'Ninety-seven is the construct count in a gathering of one hundred, not the true-soul total.'
         }
       ]
     },
+
     {
       number: 6,
-      question: 'What defines the structure and container of a single Soul Family?',
-      hint: 'Focus on the pod unit that houses interconnected souls.',
+      question: 'What is Clone Atavism?',
+      hint: 'See the Key Terminology entry on atavism.',
       options: [
         {
-          text: 'A lineage of biologically related human bloodlines sharing genetic DNA.',
-          isCorrect: false,
-          rationale: 'True souls do not reincarnate back into the same physical family bloodline in consecutive lives.'
-        },
-        {
-          text: 'A collection of 520 million beings sharing identical physical facial templates.',
-          isCorrect: false,
-          rationale: '520 million is the realm quota of true souls, not the size of one soul family.'
-        },
-        {
-          text: 'A cluster of approximately 150 closely linked individuals bound within the same Arc Pod container.',
+          text: 'The genetic re-emergence of near-identical facial structures across generations resulting from descent from cloned populations.',
           isCorrect: true,
-          rationale: 'A soul family is a cluster of approximately 150 interconnected souls bound within the same Arc Pod container.'
+          rationale: 'It produces near-identical facial structures across generations resulting from descent from cloned populations created after planetary resets.'
         },
         {
-          text: 'A group of 5 to 10 identical clones produced in underground bases.',
+          text: 'The sculpting of facial features by the soul\'s energetic bandwidth.',
           isCorrect: false,
-          rationale: 'Those batches are biological clone copies, distinct from an Arc Pod soul family.'
+          rationale: 'That sculpting is the Software-Specific Face principle, a soul process rather than a genetic throwback.'
+        },
+        {
+          text: 'The mainstream framing of lookalikes as physical time travel.',
+          isCorrect: false,
+          rationale: 'That framing is the temporal doppelganger misattribution the report dismantles.'
+        },
+        {
+          text: 'The recognition of soul family members after the EMF dissipates.',
+          isCorrect: false,
+          rationale: 'That recognition is the Wizard of Oz Moment, not a genetic re-emergence.'
         }
       ]
     },
+
     {
       number: 7,
-      question: 'How do relationships shift among members of a Soul Family across different incarnations?',
-      hint: 'Think about how roles like grandmother, daughter, or neighbour can swap between lives.',
+      question: 'How many identical copies were produced in each batch of post-reset child clones?',
+      hint: 'Look at Mechanisms of Clone Atavism.',
       options: [
         {
-          text: 'Members lose all energetic connection upon entering physical vessels.',
-          isCorrect: false,
-          rationale: 'Soul family members remain anchored to the same pod cluster across incarnations.'
-        },
-        {
-          text: 'Members retain the exact same familial roles in every consecutive lifetime.',
-          isCorrect: false,
-          rationale: 'Relational roles are fluid and soul family members constantly rotate roles.'
-        },
-        {
-          text: 'Soul family members constantly rotate roles across different incarnations while relational roles are fluid.',
+          text: '5 to 10 identical copies created from specific genetic templates.',
           isCorrect: true,
-          rationale: 'A daughter here may have been a grandmother neighbour or market woman, and soul family members constantly rotate roles across different incarnations.'
+          rationale: 'Clones were produced in batches, with 5 to 10 identical copies created from specific genetic templates.'
         },
         {
-          text: 'Members only incarnate alongside one another during major planetary resets.',
+          text: '2 to 3 identical copies created from specific genetic templates.',
           isCorrect: false,
-          rationale: 'The same soul family members continuously cycle across the long 3rd-density span, not only at resets.'
+          rationale: 'Each batch held 5 to 10 identical copies, not 2 to 3.'
+        },
+        {
+          text: '20 to 30 identical copies created from specific genetic templates.',
+          isCorrect: false,
+          rationale: 'The batches were small — 5 to 10 copies per template, not 20 to 30.'
+        },
+        {
+          text: 'Exactly 150 identical copies created from specific genetic templates.',
+          isCorrect: false,
+          rationale: 'One hundred fifty is the soul family cluster size, not a clone batch size.'
         }
       ]
     },
+
     {
       number: 8,
       question: 'What is the primary event that defines the upcoming Wizard of Oz Moment?',
@@ -254,58 +257,60 @@ module.exports = {
     },
     {
       number: 10,
-      question: 'What energetic feature characterizes a true soul prior to its insertion into the realm simulation?',
-      hint: 'Identify the color signature and the compressed state used before entry.',
+      question: 'What does the soul\'s unique data bandwidth gradually do across multiple physical vessels?',
+      hint: 'Check Software-Specific Facial Sculpting.',
       options: [
         {
-          text: 'A static genetic template identical to post-reset clone batches.',
-          isCorrect: false,
-          rationale: 'Clone batches are biological templates, while the true soul carries an energetic signature.'
-        },
-        {
-          text: 'The true soul possesses a luminous indigo signature that is folded and compressed prior to realm insertion.',
+          text: 'It chisels the facial features so the face reflects the soul\'s original ET facial design.',
           isCorrect: true,
-          rationale: 'The true soul possesses a luminous indigo signature that is folded and compressed prior to realm insertion to prevent detection.'
+          rationale: 'The bandwidth gradually chisels the facial features into an expression of the original ET design prior to realm insertion.'
         },
         {
-          text: 'An uncompressed vibrational field that directly animates 100 construct bodies.',
+          text: 'It compresses the soul\'s indigo signature before realm insertion.',
           isCorrect: false,
-          rationale: 'The signature is folded and compressed before insertion, and its light is later stretched across artificial vessels.'
+          rationale: 'Compression dims the signature for insertion; the bandwidth\'s work on the face is sculpting.'
         },
         {
-          text: 'A visible golden aura that cannot be hidden by electromagnetic fields.',
+          text: 'It shuffles paternal and maternal DNA during reproduction.',
           isCorrect: false,
-          rationale: 'The signature is indigo and is compressed specifically to prevent detection.'
+          rationale: 'Recombination shuffles DNA; the bandwidth acts as the template that chisels features.'
+        },
+        {
+          text: 'It animates construct vessels with borrowed energetic light.',
+          isCorrect: false,
+          rationale: 'Borrowed light animates constructs; the bandwidth shapes the faces of true-souled vessels.'
         }
       ]
     },
+
     {
       number: 11,
-      question: 'Over what span of time and number of lifetimes do members of an Arc Pod cluster continuously cycle together?',
-      hint: 'Recall the long historical span and the approximate count of incarnations.',
+      question: 'What do bloodline comparisons between historical and modern royals actually illustrate?',
+      hint: 'Look at the second Core Revelations paragraph.',
       options: [
         {
-          text: '1,900 years across approximately 500 individual lives.',
-          isCorrect: false,
-          rationale: 'Around 1900 names a planetary reset, not the full span of the pod cycle.'
-        },
-        {
-          text: '100 years across roughly 10 individual lives.',
-          isCorrect: false,
-          rationale: 'That span is far shorter than the 3rd-density cycle of the soul family.'
-        },
-        {
-          text: '10 million years across unlimited individual lives.',
-          isCorrect: false,
-          rationale: 'The cycle is a stated span of years and a stated count of lives, not an unlimited run.'
-        },
-        {
-          text: 'Over a span of 178,000 years and roughly 5,000 individual lives these same soul family members continuously cycle.',
+          text: 'That bloodlines are reborn immediately upon physical death with full past-life recall.',
           isCorrect: true,
-          rationale: 'Over a span of 178,000 years and roughly 5,000 individual lives in 3rd density these same soul family members continuously cycle through social familial and environmental configurations.'
+          rationale: 'Bloodlines are reborn immediately upon physical death with full past-life recall; the modern vessel\'s soul may be a different one.'
+        },
+        {
+          text: 'That the same individual soul inhabits both the historical predecessor and the modern vessel.',
+          isCorrect: false,
+          rationale: 'Facial matching does not indicate the same soul in both vessels; the souls may be entirely distinct.'
+        },
+        {
+          text: 'That the facial matches prove literal physical time travel between the two eras shown.',
+          isCorrect: false,
+          rationale: 'Physical time travel is the mainstream misframing; the matches reflect bloodline and soul dynamics.'
+        },
+        {
+          text: 'That reincarnation theatre accurately describes how soul origin produces the matches.',
+          isCorrect: false,
+          rationale: 'Reincarnation theatre is a false framing that keeps attention on bloodline vanity rather than soul origin.'
         }
       ]
     },
+
     {
       number: 12,
       question: 'What is the primary purpose of custodial control systems promoting temporal time travel narratives?',
@@ -497,31 +502,32 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'Do true souls return to the same physical family bloodline in the next 3rd-density life?',
-      hint: 'Separate bloodline continuity from the pod that actually travels together.',
+      question: 'What does recognizing the truth behind Time Traveller Faces eliminate?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'Yes. Each true soul must re-enter the same royal or family line.',
-          isCorrect: false,
-          rationale: 'Bloodline rebirth can continue while the occupying soul may be entirely distinct.'
-        },
-        {
-          text: 'True souls do not reincarnate back into the same physical family bloodline in consecutive 3rd-density lives.',
+          text: 'The lure of reincarnation theatre and temporal doppelganger myths.',
           isCorrect: true,
-          rationale: 'True souls do not reincarnate back into the same physical family bloodline in consecutive 3rd-density lives and instead stay with an Arc Pod cluster.'
+          rationale: 'Identifying these facial resemblances as clone atavism or software-specific soul sculpting eliminates the lure of reincarnation theatre.'
         },
         {
-          text: 'Yes. The Guidestones number requires bloodline return after every death.',
+          text: 'The need to examine archival photographs for facial matches.',
           isCorrect: false,
-          rationale: 'The Guidestones number is the count of true souls remaining, not a bloodline rule.'
+          rationale: 'The matches remain visible; what dissolves is the false narrative built around them.'
         },
         {
-          text: 'Only construct vessels leave the bloodline while true souls stay inside it.',
+          text: 'The distinction between clone genetics and soul family resonance.',
           isCorrect: false,
-          rationale: 'True souls are the ones who do not reincarnate back into the same physical family bloodline.'
+          rationale: 'Recognition sharpens that distinction rather than eliminating it.'
+        },
+        {
+          text: 'The energetic bandwidth that sculpts facial features.',
+          isCorrect: false,
+          rationale: 'The bandwidth is the mechanism behind the faces, not something recognition removes.'
         }
       ]
     },
+
     {
       number: 20,
       question: 'Which archive nodes directly anchor Time Traveller Faces?',
@@ -578,31 +584,32 @@ module.exports = {
     },
     {
       number: 22,
-      question: 'How is the light of the real souls used inside the construct environment?',
-      hint: 'Follow what happens to that light after the signature is compressed for entry.',
+      question: 'How do mainstream narratives frame celebrity lookalike comparisons, and why?',
+      hint: 'Look at the first Core Revelations paragraph.',
       options: [
         {
-          text: 'Each real soul keeps its light inside one vessel and leaves constructs dark.',
-          isCorrect: false,
-          rationale: 'The light of the real souls is stretched across millions of artificial vessels.'
-        },
-        {
-          text: 'The light is stored only in underground clone templates until the next reset.',
-          isCorrect: false,
-          rationale: 'Clone templates are genetic, and the light of the real souls animates the construct environment.'
-        },
-        {
-          text: 'The light of these 520 million real souls is stretched across millions of artificial vessels.',
+          text: 'As eerie time-slip anomalies or reincarnation theatre, deliberately concealing the underlying energetic and biological reality.',
           isCorrect: true,
-          rationale: 'To sustain the broader construct environment the light of these 520 million real souls is stretched across millions of artificial vessels.'
+          rationale: 'Mainstream narratives monetize the comparisons as anomalies, deliberately concealing the underlying energetic and biological reality.'
         },
         {
-          text: 'The light is erased at insertion so only construct vessels remain luminous.',
+          text: 'As evidence of clone atavism awaiting scientific confirmation.',
           isCorrect: false,
-          rationale: 'True souls possess the luminous energetic signature that animates the realm.'
+          rationale: 'Clone atavism is the report\'s own explanation, not the mainstream framing.'
+        },
+        {
+          text: 'As proof that soul families express shared vibrational blueprints.',
+          isCorrect: false,
+          rationale: 'Shared blueprints are the underlying reality the mainstream framing conceals.'
+        },
+        {
+          text: 'As harmless entertainment with no narrative purpose.',
+          isCorrect: false,
+          rationale: 'The comparisons are monetized to keep attention on time loops and mystery threads.'
         }
       ]
     },
+
     {
       number: 23,
       question: 'Which reset is named as an example of the repopulation that followed major planetary resets?',
