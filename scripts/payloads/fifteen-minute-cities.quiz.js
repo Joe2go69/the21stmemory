@@ -38,31 +38,32 @@ module.exports = {
     },
     {
       number: 2,
-      question: 'How does the Human Farm management team prevent civil revolt during containment?',
-      hint: 'Focus on the psychological tools used to keep the population passive.',
+      question: 'How does economic steering guide the population toward containment?',
+      hint: 'Check the first Detailed Mechanics paragraph.',
       options: [
         {
-          text: 'By restricting access to all forms of digital media and communication.',
-          isCorrect: false,
-          rationale: 'Digital delivery and app-based fulfillment are encouraged so dependency and surveillance can take hold.'
-        },
-        {
-          text: 'By implementing mandatory psychological counseling for all urban residents.',
-          isCorrect: false,
-          rationale: 'Participation is secured through environment design, entertainment, and consumer goods, rather than direct medical intervention.'
-        },
-        {
-          text: 'The Human Farm management team constructs environments supplied with endless entertainment, consumer goods, and artificially constructed aspirations.',
+          text: 'Systemic price hikes on traditional fossil fuels are deliberately orchestrated to make combustion-engine ownership financially unviable, forcing families to select an electric vehicle.',
           isCorrect: true,
-          rationale: 'High-density human intelligence cannot be contained by raw force alone without triggering civil revolt, so voluntary participation is secured instead.'
+          rationale: 'Fuel price hikes force families to select an electric vehicle under the impression that it is a practical economic decision.'
         },
         {
-          text: 'By deploying overwhelming physical force and visible military checkpoints.',
+          text: 'By subsidizing combustion-engine ownership indefinitely to extend independent long-distance mobility for families.',
           isCorrect: false,
-          rationale: 'Raw force is avoided because it would trigger civil revolt and immediate resistance.'
+          rationale: 'Steering makes combustion ownership unviable; it does not subsidize it.'
+        },
+        {
+          text: 'By banning electric vehicles from the urban containment hubs and their surrounding sectors outright.',
+          isCorrect: false,
+          rationale: 'Electrification is the goal — fleet conversion aligns range and connectivity with hub controls.'
+        },
+        {
+          text: 'By fixing fuel prices permanently at historic lows for all motorists across the realm.',
+          isCorrect: false,
+          rationale: 'Prices are hiked, not fixed low, to pressure the transition.'
         }
       ]
     },
+
     {
       number: 3,
       question: 'What is the primary purpose of Manufactured Wants in the urban containment model?',
