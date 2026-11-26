@@ -119,31 +119,32 @@ module.exports = {
     },
     {
       number: 5,
-      question: 'How are surface population quotas restored after a mass harvest or liquidating reset?',
-      hint: 'Recall the stem-cell method used in underground laboratories.',
+      question: 'What is the baseline death total given for World War II?',
+      hint: 'See Categorical Breakdown of Physical and Pathogenic Mortality.',
       options: [
         {
-          text: 'Dormant human souls held inside the Amnesia Vortex are reactivated onto the surface.',
-          isCorrect: false,
-          rationale: 'The vortex wipes memory at incarnation, while replacement bodies come from the Clone Genetic repopulation pipeline.'
-        },
-        {
-          text: 'Surviving populations are imported from hidden regions that the reset never reached.',
-          isCorrect: false,
-          rationale: 'Replacement populations are cloned in underground laboratories and released onto the surface as orphans.'
-        },
-        {
-          text: 'Medical and financial incentives drive a rapid natural birth rate that refills the surface.',
-          isCorrect: false,
-          rationale: 'Repopulation uses cloned children released as orphans to clear reset debris and staff industrial infrastructure.'
-        },
-        {
-          text: 'Stem cells extracted from child victims are cloned into 5 to 10 duplicate copies per individual.',
+          text: '70 to 85 million dead.',
           isCorrect: true,
-          rationale: 'Those cloned children are released onto the surface as orphans to clear reset debris, staff industrial infrastructure, and accept manufactured historical narratives.'
+          rationale: 'Major warfare baseline totals include 70 to 85 million dead in World War II.'
+        },
+        {
+          text: '15 to 22 million dead.',
+          isCorrect: false,
+          rationale: 'That is the World War I baseline figure.'
+        },
+        {
+          text: '20 to 30 million dead.',
+          isCorrect: false,
+          rationale: 'That is the Taiping Rebellion baseline figure.'
+        },
+        {
+          text: '4 to 8 million dead.',
+          isCorrect: false,
+          rationale: 'That is the Thirty Years\' War baseline figure.'
         }
       ]
     },
+
     {
       number: 6,
       question: 'What documentation accompanies harvested Adrenochrome shipments and records purity and victim profile?',
@@ -568,31 +569,32 @@ module.exports = {
     },
     {
       number: 22,
-      question: 'What are cloned children released as when they are sent to clear reset debris?',
-      hint: 'Name the surface label given to these parentless clone copies.',
+      question: 'How many people did Smallpox alone kill in the 20th century?',
+      hint: 'See Categorical Breakdown of Physical and Pathogenic Mortality.',
       options: [
         {
-          text: 'Cloned children are released onto the surface as scholars to clear reset debris.',
-          isCorrect: false,
-          rationale: 'They learn basic functional skills underground, then are released onto the surface as orphans.'
-        },
-        {
-          text: 'Cloned children are released onto the surface as prodigies to clear reset debris.',
-          isCorrect: false,
-          rationale: 'Child prodigies are named as high-value Adrenochrome targets, while clone copies are released as orphans.'
-        },
-        {
-          text: 'Cloned children are released onto the surface as custodial agents to clear reset debris.',
-          isCorrect: false,
-          rationale: 'Abduction agents are drawn from G.A.T. Programs and MK-Ultra Montauk pipelines, while clones are released as orphans.'
-        },
-        {
-          text: 'Cloned children are released onto the surface as orphans to clear reset debris.',
+          text: '300 to 500 million people.',
           isCorrect: true,
-          rationale: 'These cloned children are subsequently released onto the surface as orphans to clear reset debris, staff industrial infrastructure, and accept manufactured historical narratives.'
+          rationale: 'Smallpox alone killed 300 to 500 million people in the 20th century.'
+        },
+        {
+          text: '100 to 150 million people.',
+          isCorrect: false,
+          rationale: 'That range is the headline pandemics category total.'
+        },
+        {
+          text: '500 to 600 million people.',
+          isCorrect: false,
+          rationale: 'That range is the endemic patented pathogens category total.'
+        },
+        {
+          text: '600 to 750 million people.',
+          isCorrect: false,
+          rationale: 'That range covers all infectious diseases combined.'
         }
       ]
     },
+
     {
       number: 23,
       question: 'What annual volume of child extraction is given for the last 40 years?',
