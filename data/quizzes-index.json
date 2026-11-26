@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-26T09:19:47.445Z",
-  "total": 383,
+  "generatedAt": "2026-11-26T16:17:15.479Z",
+  "total": 384,
   "sources": [
     {
       "id": "revelations",
@@ -27,7 +27,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card-960.webp",
-      "count": 111
+      "count": 112
     },
     {
       "id": "ascension",
@@ -3471,6 +3471,21 @@
       "key": "breakdown/scare-sequence",
       "topicImage": "images/breakdown/scare-sequence.webp",
       "order": 29
+    },
+    {
+      "id": "scripted-exposure",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes & Highlights",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Scripted Exposure",
+      "subtitle": "Test your understanding of Scripted Exposure — the theatrical staging of hollow control after the parasitic grid collapsed.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/scripted-exposure.html",
+      "diveHref": "dive/breakdown/scripted-exposure.html",
+      "key": "breakdown/scripted-exposure",
+      "topicImage": "images/breakdown/scripted-exposure.webp",
+      "order": 33
     },
     {
       "id": "second-realm",

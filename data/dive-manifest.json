@@ -1172,9 +1172,9 @@
       "sourceId": "breakdown",
       "topicId": "scripted-exposure",
       "path": "/dive/breakdown/scripted-exposure.html",
-      "live": false,
+      "live": true,
       "title": "Scripted Exposure",
-      "added": "2026-10-14"
+      "added": "2026-11-26T09:07:09-07:00"
     },
     {
       "sourceId": "breakdown",

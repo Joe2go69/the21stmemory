@@ -292,10 +292,10 @@
             {
               "id": "scripted-exposure",
               "title": "Scripted Exposure",
-              "description": "Scripted Exposure",
-              "topic_image": "images/breakdown/placeholder.webp",
-              "is_placeholder": true,
-              "added": "2026-10-14",
+              "description": "Scripted Exposure is the deliberate, controlled public staging of authoritarian control mechanisms engineered by allied command forces to dismantle institutional trust and awaken dormant consciousness without precipitating systemic panic.",
+              "topic_image": "images/breakdown/scripted-exposure.webp",
+              "is_placeholder": false,
+              "added": "2026-11-26T09:07:09-07:00",
               "subtopics": [
                 {
                   "id": "digital-id-script",
