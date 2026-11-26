@@ -1140,9 +1140,9 @@
       "sourceId": "breakdown",
       "topicId": "scare-sequence",
       "path": "/dive/breakdown/scare-sequence.html",
-      "live": false,
+      "live": true,
       "title": "Scare Sequence",
-      "added": "2026-10-14"
+      "added": "2026-11-25T23:59:05-07:00"
     },
     {
       "sourceId": "breakdown",

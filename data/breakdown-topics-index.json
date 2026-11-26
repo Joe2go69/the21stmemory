@@ -260,10 +260,10 @@
         {
           "id": "scare-sequence",
           "title": "Scare Sequence",
-          "description": "Scare Sequence",
-          "topic_image": "images/breakdown/placeholder.webp",
-          "is_placeholder": true,
-          "added": "2026-10-14",
+          "description": "The Scare Sequence is a meticulously orchestrated planetary transition protocol operating within the Blackout Timeline to shatter the collective hypnosis of the third-density construct without triggering unrecoverable societal collapse.",
+          "topic_image": "images/breakdown/scare-sequence.webp",
+          "is_placeholder": false,
+          "added": "2026-11-25T23:59:05-07:00",
           "subtopics": [
             {
               "id": "ai-war-theatre",

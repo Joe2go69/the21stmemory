@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "breakdown",
+      "topicId": "scare-sequence",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "Scare Sequence",
+      "description": "The Scare Sequence is a meticulously orchestrated planetary transition protocol operating within the Blackout Timeline to shatter the collective hypnosis of the third-density construct without triggering unrecoverable societal collapse.",
+      "topic_image": "images/breakdown/scare-sequence.webp",
+      "path": "dive/breakdown/scare-sequence.html",
+      "added": "2026-11-25T23:59:05-07:00"
+    },
+    {
+      "sourceId": "breakdown",
       "topicId": "project-blue-beam",
       "series": "Mega Breakdown Board Notes & Highlights",
       "title": "Project Blue Beam",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/the-first-to-go.webp",
       "path": "dive/alice/the-first-to-go.html",
       "added": "2026-11-14T01:51:57-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "scare-events",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Scare Events",
-      "description": "Scare events are escalating shocks, directed by the Galactic Ancestral Alliance, that hard-wire a permanent lesson after the parasites are already gone.",
-      "topic_image": "images/alice/scare-events.webp",
-      "path": "dive/alice/scare-events.html",
-      "added": "2026-11-13T19:15:41-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "breakdown",
+      "topicId": "scare-sequence",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "Scare Sequence",
+      "description": "The Scare Sequence is a meticulously orchestrated planetary transition protocol operating within the Blackout Timeline to shatter the collective hypnosis of the third-density construct without triggering unrecoverable societal collapse.",
+      "topic_image": "images/breakdown/scare-sequence.webp",
+      "path": "dive/breakdown/scare-sequence.html",
+      "added": "2026-11-25T23:59:05-07:00"
+    },
     {
       "sourceId": "breakdown",
       "topicId": "project-blue-beam",
@@ -171,16 +181,6 @@
       "topic_image": "images/breakdown/drop-in-tone.webp",
       "path": "dive/breakdown/drop-in-tone.html",
       "added": "2026-11-18T07:00:24-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "monster-nightmares",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Monster Nightmares",
-      "description": "Monster Nightmares are involuntary bleed-thru memories of past lives in which parasitic beings killed the soul, surviving the amnesia vortex as childhood night terrors.",
-      "topic_image": "images/alice/monster-nightmares.webp",
-      "path": "dive/alice/monster-nightmares.html",
-      "added": "2026-11-18T00:15:48-07:00"
     }
   ],
   "featured": [
