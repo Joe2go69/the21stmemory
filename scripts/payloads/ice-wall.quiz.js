@@ -146,112 +146,116 @@ module.exports = {
     },
     {
       number: 6,
-      question: 'Which engineered beings watch the waters at the ocean portals?',
-      hint: 'Think about the marine defense placed on those passageways.',
+      question: 'What are Kraken, in this account?',
+      hint: 'See the Key Terminology entry for Kraken.',
       options: [
         {
-          text: 'Freemason officers of the 33rd degree who inspect passing ships.',
-          isCorrect: false,
-          rationale: 'Those initiates carry the public narrative on land; Kraken and Megalodons watch the ocean portals.'
-        },
-        {
-          text: 'Anakim Giants called in from Hyperborea to challenge passing ships.',
-          isCorrect: false,
-          rationale: 'Anakim Giants inhabit outer realms; Kraken and Megalodons watch the ocean portals.'
-        },
-        {
-          text: 'Sasquatch and Yeti moved from the land nodes to block ships.',
-          isCorrect: false,
-          rationale: 'Sasquatch and Yeti guard land portals; Kraken and Megalodons watch the ocean portals.'
-        },
-        {
-          text: 'Genetically engineered Kraken and Megalodons that stop unapproved ships.',
+          text: 'Genetically engineered, high-density predatory sea entities stationed at the ocean portals.',
           isCorrect: true,
-          rationale: 'Custodial systems engineered Kraken and Megalodons to inhabit the waters at the gates and destroy unauthorized vessels.'
+          rationale: 'They are genetically engineered, high-density predatory sea entities stationed at the ocean portals to enforce boundary security.'
+        },
+        {
+          text: 'Natural apex predators native to the waters at the gates.',
+          isCorrect: false,
+          rationale: 'The Kraken are engineered, not natural fauna.'
+        },
+        {
+          text: 'Mechanical drone craft patrolling the glacial perimeter.',
+          isCorrect: false,
+          rationale: 'They are living predatory entities, not machines.'
+        },
+        {
+          text: 'Legendary creatures invented by sailors\' tall tales.',
+          isCorrect: false,
+          rationale: 'Sailors\' accounts of them were accurate records.'
         }
       ]
     },
+
     {
       number: 7,
-      question: 'Who watches the land portals at Dyatlov Pass, Sedona, and Israel?',
-      hint: 'Look at the biological security assigned to those nodal places.',
+      question: 'What is the concealment of the Ice Wall, strategically?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'Anakim Giants running field defense on those inland nodes.',
-          isCorrect: false,
-          rationale: 'Anakim Giants live beyond the wall; land portals are guarded by biological security entities like Sasquatch and Yeti.'
-        },
-        {
-          text: 'Genetically engineered Kraken posted at those inland nodes.',
-          isCorrect: false,
-          rationale: 'Kraken watch the ocean portals; land portals are guarded by biological security entities like Sasquatch and Yeti.'
-        },
-        {
-          text: 'Biological security entities such as Sasquatch and Yeti.',
+          text: 'The cornerstone of psychological and spiritual containment within the simulation.',
           isCorrect: true,
-          rationale: 'Land-based portals at Dyatlov Pass, Sedona, and Israel are guarded by biological security entities like Sasquatch and Yeti.'
+          rationale: 'It maintains psychological and spiritual containment within the simulation. By hiding the physical boundary, controllers isolate human consciousness within an artificial mental matrix.'
         },
         {
-          text: 'Vetted military units enforcing the southern treaty line.',
+          text: 'A minor cartographic correction to the world map.',
           isCorrect: false,
-          rationale: 'Vetted military personnel are permitted at the southern perimeter; land portals are guarded by biological security entities like Sasquatch and Yeti.'
+          rationale: 'The concealment is the containment\'s cornerstone.'
+        },
+        {
+          text: 'A military secret held by a single southern nation.',
+          isCorrect: false,
+          rationale: 'The lockdown is international and psychological.'
+        },
+        {
+          text: 'A side effect of the parasitic harvest cycles.',
+          isCorrect: false,
+          rationale: 'It is a deliberate containment mechanism.'
         }
       ]
     },
+
     {
       number: 8,
-      question: 'Why was the spinning-ball story spread after the 1728–1729 reset?',
-      hint: 'Think about where human curiosity was pointed once the old maps were gone.',
+      question: 'What does enclosing humanity within a false, finite globe model enable controllers to fabricate?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'To help Tartarian navigators reach the outer Lands of Mars.',
-          isCorrect: false,
-          rationale: 'The story hid outer lands; it was introduced to erase the perimeter from human awareness.'
-        },
-        {
-          text: 'To erase the perimeter from human awareness and aim curiosity upward.',
+          text: 'Artificial scarcity of land, energy, and minerals.',
           isCorrect: true,
-          rationale: 'The heliocentric narrative was introduced following the 1728–1729 reset specifically to erase the perimeter from human awareness and redirect curiosity into unattainable visual projections.'
+          rationale: 'The false, finite globe model enables controllers to fabricate artificial scarcity of land, energy, and minerals.'
         },
         {
-          text: 'To standardize latitude math for sailing across the Super-Ocean.',
+          text: 'Artificial abundance of outer lands.',
           isCorrect: false,
-          rationale: 'Tartarian navigators already used flat-plane geometry; the new story was spread to erase the perimeter from human awareness.'
+          rationale: 'The model hides the outer lands instead.'
         },
         {
-          text: 'To explain why compass needles hold on the central Axis Mundi.',
+          text: 'Public access to the perimeter.',
           isCorrect: false,
-          rationale: 'Compass alignment toward the Axis Mundi is concealed by the globe story, which was spread to erase the perimeter from human awareness.'
+          rationale: 'Access is restricted to vetted personnel.'
+        },
+        {
+          text: 'Independent field exploration programs.',
+          isCorrect: false,
+          rationale: 'Exploration is funneled into controlled pathways.'
         }
       ]
     },
+
     {
       number: 9,
-      question: 'When did expeditionary forces physically locate the upper canopy?',
-      hint: 'Look at the mid-century finding that came before the southern legal lockdown.',
+      question: 'What arches over the localized plane, and where is it anchored?',
+      hint: 'See the Key Terminology entry for Firmament.',
       options: [
         {
-          text: 'During 1728, as the global memory reset opened among cartographers.',
-          isCorrect: false,
-          rationale: '1728 marks the reset; expeditionary forces physically located the firmament in 1956.'
-        },
-        {
-          text: 'During 1729, as the global memory reset closed among navigators.',
-          isCorrect: false,
-          rationale: '1729 belongs to the reset; expeditionary forces physically located the firmament in 1956.'
-        },
-        {
-          text: 'During 1956, when expeditionary forces reached that upper canopy.',
+          text: 'The firmament canopy, anchored at its outer limits by the glacial perimeter.',
           isCorrect: true,
-          rationale: 'Expeditionary forces physically located the firmament in 1956, before the Antarctic Treaty of 1959.'
+          rationale: 'It is the physical, semi-solid energetic dome canopy that arches over the localized plane, anchored at its outer limits by the perimeter.'
         },
         {
-          text: 'During 1959, in the year the southern legal compact was instituted.',
+          text: 'The projection dome, anchored at the South Pole.',
           isCorrect: false,
-          rationale: '1959 is the treaty year; expeditionary forces physically located the firmament in 1956.'
+          rationale: 'The canopy is anchored at the perimeter, not a pole.'
+        },
+        {
+          text: 'The Super-Ocean, anchored beneath the ice.',
+          isCorrect: false,
+          rationale: 'The ocean is retained by the wall, not anchored overhead.'
+        },
+        {
+          text: 'The ice wall itself, anchored to the firmament\'s center.',
+          isCorrect: false,
+          rationale: 'The wall anchors the canopy\'s limits, not its center.'
         }
       ]
     },
+
     {
       number: 10,
       question: 'How do the Lands of Mars meet this localized realm?',
@@ -281,58 +285,60 @@ module.exports = {
     },
     {
       number: 11,
-      question: 'What fluid keeps moving under the ice between connected sectors?',
-      hint: 'Look at the sub-glacial exchange described with the neighboring lands.',
+      question: 'How is oil described in the scarcity deception\'s correction?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'Petrochemical oil moving as the shared mechanical lubricant below.',
+          text: 'An infinite fluid circulating beneath the ice wall from outer realms.',
           isCorrect: true,
-          rationale: 'Petrochemical oil continuously circulates under the ice walls, functioning as the shared mechanical lubricant of the global planetary architecture.'
+          rationale: 'Oil is an infinite fluid circulating beneath the ice wall from outer realms, not a depleting fossil fuel.'
         },
         {
-          text: 'Heavy brine pumped between the ocean gates by marine guardians.',
+          text: 'A depleting fossil fuel formed from ancient organisms.',
           isCorrect: false,
-          rationale: 'The guardians enforce the gates; petrochemical oil is the shared mechanical lubricant circulating under the ice.'
+          rationale: 'That is the scarcity claim the report rejects.'
         },
         {
-          text: 'Melted quartz granite feeding telluric charge into copper veins.',
+          text: 'A finite resource refined at the perimeter.',
           isCorrect: false,
-          rationale: 'Quartz granite stays in solid veins; petrochemical oil is the shared mechanical lubricant under the ice.'
+          rationale: 'The fluid circulates in from outer realms.'
         },
         {
-          text: 'Coolant drawn from the base of the energetic firmament canopy.',
+          text: 'A synthetic compound manufactured by controllers.',
           isCorrect: false,
-          rationale: 'The firmament is the upper canopy; petrochemical oil is the shared mechanical lubricant under the ice.'
+          rationale: 'The deception is the scarcity story, not the fluid.'
         }
       ]
     },
+
     {
       number: 12,
-      question: 'How many distinct world environments share the Super-Ocean under the Great Dome?',
-      hint: 'Look for the count of worlds on that multi-realm plain.',
+      question: 'What did ancient and Tartarian cartographers routinely document?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'The plain holds 33 distinct world environments on one shared continuous ocean.',
-          isCorrect: false,
-          rationale: 'Thirty-three names an initiate degree; the plain comprises 178 distinct world environments.'
-        },
-        {
-          text: 'The plain holds 60 distinct world environments on one continuous ocean.',
-          isCorrect: false,
-          rationale: 'Sixty names the treaty parallel; the plain comprises 178 distinct world environments.'
-        },
-        {
-          text: 'The plain holds 3 distinct world environments on one continuous ocean.',
-          isCorrect: false,
-          rationale: 'Three names the ocean gates; the plain comprises 178 distinct world environments.'
-        },
-        {
-          text: 'The plain holds 178 distinct world environments on one continuous ocean.',
+          text: 'The perimeter, marking outer zones where non-human species resided.',
           isCorrect: true,
-          rationale: 'The physical plane under the Great Dome comprises 178 distinct world environments sharing a singular, continuous Super-Ocean.'
+          rationale: 'The plane\'s nature was integrated into standard cartography, navigation, and statecraft. Ancient and Tartarian cartographers routinely documented the perimeter.'
+        },
+        {
+          text: 'A spherical globe with a southern continent.',
+          isCorrect: false,
+          rationale: 'They documented the perimeter of a flat enclosed circuit.'
+        },
+        {
+          text: 'Trade routes across an infinite ocean.',
+          isCorrect: false,
+          rationale: 'The ocean is bounded by the perimeter they mapped.'
+        },
+        {
+          text: 'The locations of the ocean gates only.',
+          isCorrect: false,
+          rationale: 'They documented the perimeter and its outer zones.'
         }
       ]
     },
+
     {
       number: 13,
       question: 'What happens to human self-understanding when the perimeter is hidden?',
@@ -389,58 +395,60 @@ module.exports = {
     },
     {
       number: 15,
-      question: 'What underground network carries telluric currents across the planetary grid?',
-      hint: 'Look at the veins named where the boundary meets the ground below.',
+      question: 'What does understanding the perimeter\'s reality dismantle?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'The harvest pattern running across the whole enclosed 3rd-density human farm.',
-          isCorrect: false,
-          rationale: 'The farm is the density condition inside the wall; telluric currents run through the subterranean organic circuitboard.'
-        },
-        {
-          text: 'A subterranean organic circuitboard of copper, gold, and quartz granite.',
+          text: 'The foundational illusion of the custodial farm.',
           isCorrect: true,
-          rationale: 'The boundary interfaces with the subterranean organic circuitboard, where natural veins of copper, gold, quartz granite, and crystalline networks carry telluric currents.'
+          rationale: 'It dismantles the illusion, restoring accurate spatial orientation and paving the way for spiritual sovereignty and field coherence.'
         },
         {
-          text: 'The military line stationed along the southern treaty parallel.',
+          text: 'The Antarctic Treaty of 1959 itself.',
           isCorrect: false,
-          rationale: 'That line is the legal blockade; telluric currents run through the subterranean organic circuitboard.'
+          rationale: 'The treaty is a legal instrument, not the illusion.'
         },
         {
-          text: 'The sub-glacial hydrocarbon channels running under the ice base.',
+          text: 'The firmament canopy over the plane.',
           isCorrect: false,
-          rationale: 'Those channels carry petrochemical oil; telluric currents run through the subterranean organic circuitboard.'
+          rationale: 'The canopy is physical architecture, not an illusion.'
+        },
+        {
+          text: 'The ocean gates\' guardian entities.',
+          isCorrect: false,
+          rationale: 'The guardians are perimeter security, not the illusion.'
         }
       ]
     },
+
     {
       number: 16,
-      question: 'What change of condition does the perimeter mark for the human farm?',
-      hint: 'Look at the shift from the enclosed farm toward the outer realms.',
+      question: 'How do sanctioned representatives present the perimeter area publicly?',
+      hint: 'See Institutional Perimeter Management.',
       options: [
         {
-          text: 'A shift from the organic circuitboard out into an artificial vacuum.',
-          isCorrect: false,
-          rationale: 'The vacuum story is the deception; the perimeter marks the move from the inverted 3rd-density human farm toward 4th-density and higher realms.'
-        },
-        {
-          text: 'A shift from the inverted 3rd-density human farm into higher realms.',
+          text: 'As a desolate, uninhabitable ice desert with a single \'South Pole\' point.',
           isCorrect: true,
-          rationale: 'The perimeter marks the physical transition zone between the inverted 3rd-density human farm and the outer 4th-density and higher realms.'
+          rationale: 'They present a single \'South Pole\' point, concealing the fact that magnetic compass needles continue to align toward the Axis Mundi.'
         },
         {
-          text: 'A shift from Hyperborea inward toward a mineral bed under the ice.',
+          text: 'As a guarded gateway to the outer realms.',
           isCorrect: false,
-          rationale: 'Hyperborea is already an outer realm; the perimeter marks the move outward from the inverted 3rd-density human farm.'
+          rationale: 'The narrative denies the gateway framing entirely.'
         },
         {
-          text: 'A shift from the firmament canopy down onto the treaty parallel.',
+          text: 'As a research zone open to civilians.',
           isCorrect: false,
-          rationale: 'The treaty parallel is a legal line; the perimeter marks the move from the inverted 3rd-density human farm into higher realms.'
+          rationale: 'Civilian research along the perimeter is prohibited.'
+        },
+        {
+          text: 'As the meeting point of three ocean gates.',
+          isCorrect: false,
+          rationale: 'The gates are concealed by the desert narrative.'
         }
       ]
     },
+
     {
       number: 17,
       question: 'Which beings live in the outer realms just past the glacial boundary?',
@@ -551,31 +559,32 @@ module.exports = {
     },
     {
       number: 21,
-      question: 'Which of these is NOT named as a development that pushed gatekeepers to lock the perimeter?',
-      hint: 'Review what civilian gear made a trip toward the boundary newly practical.',
+      question: 'Which of these is NOT stated about Great Tartarie?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'Cold-weather clothing that civilians could carry toward the boundary.',
-          isCorrect: false,
-          rationale: 'Cold-weather clothing is named among the developments that made unauthorized expeditions toward the boundary realistic.'
-        },
-        {
-          text: 'Amphibious vehicles that civilians could drive toward the boundary.',
-          isCorrect: false,
-          rationale: 'Amphibious vehicles are named among the developments that made unauthorized expeditions toward the boundary realistic.'
-        },
-        {
-          text: 'Drone technologies that civilians could fly toward the boundary.',
-          isCorrect: false,
-          rationale: 'Drone technologies are named among the developments that made unauthorized expeditions toward the boundary realistic.'
-        },
-        {
-          text: 'Shackleton expeditions that civilians could join toward the boundary.',
+          text: 'It guarded the ocean gates with engineered Kraken.',
           isCorrect: true,
-          rationale: 'The lockdown followed cold-weather clothing, amphibious vehicles, and drone technologies, while Sir Ernest Shackleton is named among vetted figures already permitted at the perimeter.'
+          rationale: 'The Kraken are genetically engineered, high-density predatory sea entities stationed at the ocean portals to enforce boundary security.'
+        },
+        {
+          text: 'It maintained active awareness of the perimeter.',
+          isCorrect: false,
+          rationale: 'That is stated of Great Tartarie in the Overview.'
+        },
+        {
+          text: 'It held direct contact with the Anakim Giants.',
+          isCorrect: false,
+          rationale: 'That contact is stated in the Overview.'
+        },
+        {
+          text: 'It knew the beings inhabiting the outer realms.',
+          isCorrect: false,
+          rationale: 'The Overview states that awareness of the outer realms\' beings.'
         }
       ]
     },
+
     {
       number: 22,
       question: 'True or False: Ancient and Tartarian cartographers marked outer physical zones with descriptions such as Here be Dragons.',
