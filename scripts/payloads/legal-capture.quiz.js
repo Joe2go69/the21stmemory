@@ -146,31 +146,32 @@ module.exports = {
     },
     {
       number: 6,
-      question: 'What is the mathematical flaw inherent in the Usury Trap that ensures perpetual systemic debt?',
-      hint: 'Compare the amount of money lent to the amount of money required for repayment.',
+      question: 'From what do Acts, Statutes, and Policies derive their power?',
+      hint: 'See Statutory Substitution.',
       options: [
         {
-          text: 'The use of physical gold as a currency base limits the total amount of credit available to users.',
-          isCorrect: false,
-          rationale: 'The Usury Trap issues capital with compulsory interest demands designed to exceed available supply, rather than limiting credit to a physical gold base.'
-        },
-        {
-          text: 'Government taxes are higher than the total amount of interest charged by private lenders.',
-          isCorrect: false,
-          rationale: 'The trap is an engineered interest deficit that demands more repayment than the initial money supply, not a comparison of tax rates with private interest.'
-        },
-        {
-          text: 'Capital is issued with compulsory interest demands designed to exceed available supply.',
+          text: 'Voluntary compliance, administrative habit, and tacit consent — they carry no inherent moral authority.',
           isCorrect: true,
-          rationale: 'System administrators demand 125 units of repayment for every 100 units lent, because the additional interest money is never created in the initial money supply.'
+          rationale: 'They derive power from voluntary compliance, administrative habit, and tacit consent.'
         },
         {
-          text: 'Transaction speeds in digital banking cause capital to disappear during high-frequency trades.',
+          text: 'Inherent moral authority grounded in natural rights.',
           isCorrect: false,
-          rationale: 'The deficit comes from interest money that is never created in the initial money supply, not from capital vanishing during fast trades.'
+          rationale: 'Statutory rules carry no inherent moral authority; natural rights stand outside them.'
+        },
+        {
+          text: 'Physical force exercised by statutory courts.',
+          isCorrect: false,
+          rationale: 'The system runs on compliance and habit rather than force alone.'
+        },
+        {
+          text: 'Lawful jurisdiction over living souls.',
+          isCorrect: false,
+          rationale: 'Statutory courts possess no lawful jurisdiction over living souls.'
         }
       ]
     },
+
     {
       number: 7,
       question: 'What is the literal function of Government under its etymological breakdown?',
@@ -362,31 +363,32 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'What is the administrative function of 15-Minute Cities within the architecture of Custodian Control?',
-      hint: 'Think about why a system would want to keep people within a small, localized area.',
+      question: 'What does legal capture\'s artificial debt, tax obligations, court summons, and administrative harassment generate?',
+      hint: 'See Emotional Harvesting (Loosh).',
       options: [
         {
-          text: 'Fifteen-Minute Cities function as administrative containment centers where movement and consumption are regulated.',
+          text: 'Loosh — a sustained negative emotional state of fear, frustration, and anxiety, extracted by non-human controlling entities.',
           isCorrect: true,
-          rationale: 'These localized zones function as administrative containment centers where movement, consumption, and daily activities are regulated by statutory policies.'
+          rationale: 'The pressure generates continuous fear, frustration, and anxiety — Loosh, extracted by the controlling entities.'
         },
         {
-          text: 'To increase the lifespan of residents through mandated exercise and dietary restrictions.',
+          text: 'Voluntary compliance with statutory codes, administrative mandates, and court summons procedures.',
           isCorrect: false,
-          rationale: 'Fifteen-Minute Cities function as administrative containment centers for regulated movement and consumption, not as a lifespan or diet program.'
+          rationale: 'Compliance is the system\'s demand; its emotional product is Loosh.'
         },
         {
-          text: 'To act as laboratories for the development of advanced space-travel technology.',
+          text: 'Bond valuations and account figures queryable through the TreasuryDirect financial portal system.',
           isCorrect: false,
-          rationale: 'These zones are administrative containment centers inside Custodian Control, not laboratories for space-travel technology.'
+          rationale: 'Valuations are the tracking layer, not the emotional harvest.'
         },
         {
-          text: 'To provide a decentralized network of independent farms for food sovereignty.',
+          text: 'Equitable title arrangements for living property holders under maritime land claim structures.',
           isCorrect: false,
-          rationale: 'Compulsory Land Purchase is used to force populations into tightly monitored 15-Minute Cities that regulate daily activities, rather than into independent farms.'
+          rationale: 'Equitable title is the maritime property inversion, not an emotional product.'
         }
       ]
     },
+
     {
       number: 15,
       question: 'What is Loosh in the context of the simulation management apparatus?',
@@ -416,31 +418,32 @@ module.exports = {
     },
     {
       number: 16,
-      question: 'How does the transition to a Cash-Less Society facilitate the Social Credit Score System?',
-      hint: 'Consider what happens to access when financial transactions are merged with a compliance score.',
+      question: 'What is \'Government\' etymologically derived from, and what does it function as?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'It increases the privacy of financial transactions by removing the paper trail of cash.',
-          isCorrect: false,
-          rationale: 'Under a Cash-Less Society, physical currency is eliminated and financial access is merged with a Social Credit Score System, rather than increasing the privacy of cash.'
-        },
-        {
-          text: 'It allows individuals to trade their personal bonds directly with one another without state oversight.',
-          isCorrect: false,
-          rationale: 'The cashless transition merges financial access with a Social Credit Score System under state administration, rather than enabling unsupervised peer-to-peer bond trading.'
-        },
-        {
-          text: 'It ensures that all citizens have equal access to wealth regardless of their behavior.',
-          isCorrect: false,
-          rationale: 'Non-compliance automatically triggers instant digital fines, asset deductions, or restriction of movement, so access is tied to compliance rather than granted equally.'
-        },
-        {
-          text: 'Non-compliance automatically triggers instant digital fines, asset deductions, or restriction of movement.',
+          text: 'Govern (\'to rule\') and mente (\'mind\') — an administrative mind-control apparatus, \'Governors of the Mind\'.',
           isCorrect: true,
-          rationale: 'Under a Cash-Less Society, physical currency is eliminated, and financial access is merged with a Social Credit Score System so that minor statutory violations or non-compliance automatically trigger instant digital fines, asset deductions, or restriction of movement.'
+          rationale: 'It is an administrative mind-control apparatus derived etymologically from govern and mente — Governors of the Mind.'
+        },
+        {
+          text: 'Maritime jurisdiction treating humans as salvaged cargo.',
+          isCorrect: false,
+          rationale: 'That framework is Maritime Admiralty Law, a jurisdiction rather than an etymology.'
+        },
+        {
+          text: 'A state-created corporate fiction transacting for a living person.',
+          isCorrect: false,
+          rationale: 'That entity is the Corporate Fiction, the paper persona rather than the apparatus.'
+        },
+        {
+          text: 'A trust instrument monetizing lifetime energetic output.',
+          isCorrect: false,
+          rationale: 'That instrument is the Cestui Que Vie 1666 Bond, not the governing apparatus.'
         }
       ]
     },
+
     {
       number: 17,
       question: 'What is the strategic significance of distinguishing between the sovereign living soul and the corporate fiction?',
@@ -470,58 +473,60 @@ module.exports = {
     },
     {
       number: 18,
-      question: 'Which of the following is a result of the engineered interest deficit in the global financial system?',
-      hint: 'Consider the outcome when society is asked to return more units than were ever created.',
+      question: 'How are student loans actually funded, and what do lenders then do?',
+      hint: 'Check Higher Education and Student Loans.',
       options: [
         {
-          text: 'The automatic redistribution of wealth from banks to the working population every decade.',
-          isCorrect: false,
-          rationale: 'The interest deficit keeps global financial systems in a permanent state of mathematical bankruptcy that extracts through debt, rather than redistributing bank wealth to workers.'
-        },
-        {
-          text: 'Global financial systems exist in a permanent state of mathematical bankruptcy that forces continuous competition and debt accumulation.',
+          text: 'The state issues credit derived directly from the student\'s personal bond account; lenders then charge interest on this self-funded capital.',
           isCorrect: true,
-          rationale: 'Because the additional interest money is never created in the initial money supply, global financial systems exist in a permanent state of mathematical bankruptcy that forces continuous competition, mandatory employment, and debt accumulation.'
+          rationale: 'Credit is issued derived directly from the student\'s personal bond account, and interest is charged on the self-funded capital.'
         },
         {
-          text: 'A surplus of capital that allows for the total elimination of global poverty.',
+          text: 'Lenders issue capital from public taxation funds and charge no interest.',
           isCorrect: false,
-          rationale: 'The engineered interest deficit produces perpetual scarcity, competition, and systemic economic insecurity, not a surplus that ends poverty.'
+          rationale: 'The capital is self-funded from the student\'s bond, and exorbitant interest is charged.'
         },
         {
-          text: 'The creation of a stable, long-term economy based on the real value of human labor.',
+          text: 'Institutions draw on international reserves unconnected to the student.',
           isCorrect: false,
-          rationale: 'The architecture is anchored by an interest deficit and debt accumulation, not by a stable economy based on the real value of human labor.'
+          rationale: 'The funds come from the student\'s own trust, not external reserves.'
+        },
+        {
+          text: 'The student\'s trust is only accessed after graduation.',
+          isCorrect: false,
+          rationale: 'The bond is drawn on the day of issuance, not after graduation.'
         }
       ]
     },
+
     {
       number: 19,
-      question: 'What happens when an individual\'s Social Credit Score fails to meet required compliance levels?',
-      hint: 'Think about the ultimate destination for those who do not comply with the digital grid.',
+      question: 'What does understanding the distinction between the sovereign living soul and the corporate fiction destroy?',
+      hint: 'See Deconstruction of Legal Fictions.',
       options: [
         {
-          text: 'Failure to maintain required compliance scores leads to automated enforcement, including confinement in state FEMA camps.',
+          text: 'The psychological foundation of statutory authority — courts and administrative bodies interact exclusively with paper entities.',
           isCorrect: true,
-          rationale: 'Failure to maintain required compliance scores leads to automated enforcement, including confinement in state FEMA camps.'
+          rationale: 'Understanding the distinction between the sovereign living soul and the state-created fiction destroys statutory authority\'s psychological foundation.'
         },
         {
-          text: 'The individual is automatically enrolled in a free educational program to improve their skills.',
+          text: 'The bond\'s trading value and accumulated interest across international financial exchanges and markets.',
           isCorrect: false,
-          rationale: 'Non-compliance leads to automated enforcement, including confinement in state FEMA camps, rather than enrollment in a free educational program.'
+          rationale: 'The bond keeps trading; what collapses is authority\'s psychological hold.'
         },
         {
-          text: 'The individual is granted temporary diplomatic immunity until their score improves.',
+          text: 'The state\'s administrative ability to register births and issue foundational legal documents.',
           isCorrect: false,
-          rationale: 'Failure to maintain required compliance scores triggers automated enforcement and restriction, not temporary diplomatic immunity.'
+          rationale: 'Registration continues; recognition removes the individual\'s consent to the fiction.'
         },
         {
-          text: 'The state issues a formal apology and provides a temporary basic income grant.',
+          text: 'The numerical identifiers, National Insurance numbers, and tax codes printed on birth certificates.',
           isCorrect: false,
-          rationale: 'Non-compliance triggers instant digital fines, asset deductions, or restriction of movement, not an apology or a basic income grant.'
+          rationale: 'Identifiers remain printed; they lose authority once the fiction is seen through.'
         }
       ]
     },
+
     {
       number: 20,
       question: 'How does legal capture ensure that individuals police themselves within the engineered matrix?',
