@@ -119,31 +119,32 @@ module.exports = {
     },
     {
       number: 5,
-      question: 'What happens to the soul luminosity when non-playable vessels are culled?',
-      hint: 'Recall the destination of the energy spark once a non-souled entity is eliminated.',
+      question: 'What does the generation of loosh through physical trauma, chronic illness, and fear of death feed?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'It is permanently extinguished and removed from the energy cycles of the simulation realm.',
-          isCorrect: false,
-          rationale: 'The minor spark of soul luminosity is released and returned, not permanently extinguished.'
-        },
-        {
-          text: 'It is used to power the quantum computers that maintain the holographic grid structure.',
-          isCorrect: false,
-          rationale: 'The luminosity returns to the collective chest of true-souled beings rather than powering hardware.'
-        },
-        {
-          text: 'It is absorbed by the Custodians to extend their own physical lifespans in the upper dimensions.',
-          isCorrect: false,
-          rationale: 'The minor spark of soul luminosity returns to the collective chest of true-souled beings.'
-        },
-        {
-          text: 'It is released and returned to the collective chest of true-souled beings.',
+          text: 'Parasitic entities residing within the simulation.',
           isCorrect: true,
-          rationale: 'The minor spark of soul luminosity that animated them is released and returned to the collective chest of true-souled beings.'
+          rationale: 'That loosh directly feeds parasitic entities residing within the simulation.'
+        },
+        {
+          text: 'True souls designated for conversion.',
+          isCorrect: false,
+          rationale: 'True souls are the loosh source, not its consumers.'
+        },
+        {
+          text: 'The collective chest of true-souled beings.',
+          isCorrect: false,
+          rationale: 'The chest receives released soul luminosity, not generated loosh.'
+        },
+        {
+          text: 'Off-world industrial facilities.',
+          isCorrect: false,
+          rationale: 'Facilities receive converted labor, not emotional energy.'
         }
       ]
     },
+
     {
       number: 6,
       question: 'Which cause of mortality is identified as the leading killer in the industrialized world?',
@@ -281,21 +282,22 @@ module.exports = {
     },
     {
       number: 11,
-      question: 'True or False: The Emergency Services Illusion relies on real life-saving actions to build unearned trust.',
-      hint: 'Consider whether the actions of frontline responders are described as genuine or entirely faked.',
+      question: 'True or False: According to the report, genuine frontline medical personnel mask systemic mortality by building public trust in the system.',
+      hint: 'See Core Revelations.',
       options: [
         {
           text: 'True',
           isCorrect: true,
-          rationale: 'Highly skilled professionals including trauma surgeons perform genuine life-saving interventions, and their heroic actions build unearned public trust.'
+          rationale: 'True — systemic mortality is masked by genuine frontline medical personnel whose heroic actions build unearned public trust.'
         },
         {
           text: 'False',
           isCorrect: false,
-          rationale: 'The Emergency Services Illusion uses genuine life-saving interventions in horrific accidents and collisions to build unearned public trust.'
+          rationale: 'The report states the masking directly: heroic frontline actions build unearned public trust in the overarching system.'
         }
       ]
     },
+
     {
       number: 12,
       question: 'How does the Cestui Que Vie Birth Certificate Bond interact with the medical system?',
@@ -379,48 +381,50 @@ module.exports = {
     },
     {
       number: 15,
-      question: 'What role do military conflicts play in the broader Medical Harvest system?',
-      hint: 'Look for the specific physical resources gathered during periods of conflict.',
+      question: 'Who engineers the advanced genetics fed into the realm?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
         {
-          text: 'They provide direct avenues for the illicit collection of human organs and adrenochrome.',
+          text: 'Breakaway scientists on Mars.',
           isCorrect: true,
-          rationale: 'Military conflicts and controlled medical crises provide direct avenues for the illicit collection of human organs and adrenochrome.'
+          rationale: 'Breakaway scientists on Mars continuously feed new biological weapons and modified genetics into the realm.'
         },
         {
-          text: 'They serve to test the psychological resilience of true soul vessels before conversion.',
+          text: 'Custodian controllers within the simulation.',
           isCorrect: false,
-          rationale: 'Their stated role is the illicit collection of human organs and adrenochrome, not a resilience test before conversion.'
+          rationale: 'Custodians manage the farm; the genetics are engineered on Mars.'
         },
         {
-          text: 'They are used to train the Human 2.0 workforce for off-world defense missions.',
+          text: 'Frontline emergency medical personnel.',
           isCorrect: false,
-          rationale: 'Human 2.0 is engineered for factories and mines, while military conflicts supply organs and adrenochrome.'
+          rationale: 'Frontline personnel furnish credibility, not genetics.'
         },
         {
-          text: 'They are designed to eliminate the breakaway scientists residing on Mars.',
+          text: 'Pharmaceutical institutions in the industrialized world.',
           isCorrect: false,
-          rationale: 'Breakaway scientists on Mars feed biological weapons into the realm, while military conflicts supply organs and adrenochrome.'
+          rationale: 'Institutions deploy treatments; the modified genetics originate on Mars.'
         }
       ]
     },
+
     {
       number: 16,
-      question: 'True or False: The National Health Service is an example of an institution that utilizes the Credibility Shield.',
-      hint: 'Consider whether international medical bodies are excluded from or included in the illusion.',
+      question: 'True or False: According to the report, the medical system manages the human farm under Custodian Control.',
+      hint: 'See the Overview.',
       options: [
         {
           text: 'True',
           isCorrect: true,
-          rationale: 'Selfless actions furnish the National Health Service and equivalent international medical bodies with their total public credibility.'
+          rationale: 'True — under Custodian Control, this system manages the human farm.'
         },
         {
           text: 'False',
           isCorrect: false,
-          rationale: 'Unwitting heroes furnish the National Health Service and equivalent international medical bodies with their total public credibility.'
+          rationale: 'The Overview states it directly: under Custodian Control the system manages the human farm.'
         }
       ]
     },
+
     {
       number: 17,
       question: 'What is the relationship between technological lobotomization and soul energy?',
@@ -477,31 +481,32 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'What is the cumulative impact of the 2021 bioweapon rollout?',
-      hint: 'Recall the figures associated with the systematic die-off.',
+      question: 'Against what does awareness of the Human 2.0 trajectory provide vital defense?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'It led to a massive increase in critical public evaluation of medical interventions.',
-          isCorrect: false,
-          rationale: 'The rollout was the primary culling agent for non-souled entities, not a campaign that produced critical evaluation.'
-        },
-        {
-          text: 'It caused over 1+ billion deaths and more than 2+ billion permanent side effects.',
+          text: 'Transhumanist cybernetic integration.',
           isCorrect: true,
-          rationale: 'The bioweapon COVID jab resulted in over 1+ billion deaths and more than 2+ billion permanent side effects following the 2021 rollout.'
+          rationale: 'Awareness provides vital defense against transhumanist cybernetic integration.'
         },
         {
-          text: 'It successfully integrated the first generation of the Human 2.0 workforce into society.',
+          text: 'Iatrogenic death in industrial mortality.',
           isCorrect: false,
-          rationale: 'The 2021 rollout was a culling agent for non-souled entities, not the integration of the Human 2.0 workforce.'
+          rationale: 'Awareness evaluates interventions; the named defense is against integration.'
         },
         {
-          text: 'It provided the necessary genetic data to finalize the technological lobotomization process.',
+          text: 'The credibility shield of medical tyranny.',
           isCorrect: false,
-          rationale: 'The rollout executed a systematic die-off of non-playable characters, inserts, and holographic sleeves.'
+          rationale: 'Understanding duality dismantles the shield; trajectory awareness defends against integration.'
+        },
+        {
+          text: 'Financial dependence on state healthcare.',
+          isCorrect: false,
+          rationale: 'Dependence is maintained by the birth bond, a separate mechanism.'
         }
       ]
     },
+
     {
       number: 20,
       question: 'Why does the medical grid aim to produce a perpetual state of illness and panic?',
@@ -558,31 +563,32 @@ module.exports = {
     },
     {
       number: 22,
-      question: 'How are the frontline medical personnel described in relation to the broader agenda?',
-      hint: 'Consider whether these workers are aware of the sinister objective they help hide.',
+      question: 'Who creates the Credibility Shield?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'As holographic inserts designed to simulate the appearance of a benevolent healthcare system.',
-          isCorrect: false,
-          rationale: 'They are real frontline emergency workers and highly skilled professionals who perform genuine life-saving interventions.'
-        },
-        {
-          text: 'As unwitting heroes whose selfless actions furnish public credibility.',
+          text: 'Real frontline emergency workers, surgeons, and air ambulance crews — their genuine work grants moral legitimacy to the broader apparatus.',
           isCorrect: true,
-          rationale: 'These individuals act as unwitting heroes whose selfless actions furnish the National Health Service and equivalent international medical bodies with their total public credibility.'
+          rationale: 'The shield is the illusion created by real frontline emergency workers, surgeons, and air ambulance crews.'
         },
         {
-          text: 'As highly trained specialists who only operate within the underground mining facilities.',
+          text: 'Custodian controllers managing the human farm under the broader Custodian Control architecture.',
           isCorrect: false,
-          rationale: 'They perform genuine life-saving interventions in horrific accidents and collisions, not only inside underground mines.'
+          rationale: 'Custodians benefit from the shield; frontline workers create it.'
         },
         {
-          text: 'As deliberate agents of the Custodians who knowingly execute the culling mechanism.',
+          text: 'Military conflict planners coordinating controlled crises and wartime medical operations.',
           isCorrect: false,
-          rationale: 'They are unwitting heroes whose selfless actions are leveraged to disguise industrial-scale iatrogenic death.'
+          rationale: 'Conflicts serve collection avenues, not the credibility illusion.'
+        },
+        {
+          text: 'Pharmaceutical deployment teams administering injectable programs across the population.',
+          isCorrect: false,
+          rationale: 'Deployments operate behind the shield rather than creating it.'
         }
       ]
     },
+
     {
       number: 23,
       question: 'Which term describes mortality caused directly by the medical system?',
@@ -639,20 +645,21 @@ module.exports = {
     },
     {
       number: 25,
-      question: 'True or False: Iatrogenic illness and death outstrip cancer and cardiovascular disease as the largest killer.',
-      hint: 'Recall the comparison made between systemic mortality and natural illnesses.',
+      question: 'True or False: According to the report, Human 2.0 vessels retain their soul energy while losing autonomous thought.',
+      hint: 'See Core Revelations.',
       options: [
         {
           text: 'True',
           isCorrect: true,
-          rationale: 'Iatrogenic Illness and death operate as the single largest killer in the industrialized world, outstripping cancer and cardiovascular disease.'
+          rationale: 'True — the state strips independent processing while retaining their soul energy to power industrial labor.'
         },
         {
           text: 'False',
           isCorrect: false,
-          rationale: 'Iatrogenic Illness and death outstrip cancer and cardiovascular disease as the single largest killer in the industrialized world.'
+          rationale: 'The cybernetic state retains soul energy to power labor; what is stripped is independent cognitive processing.'
         }
       ]
     }
+
   ]
 };
