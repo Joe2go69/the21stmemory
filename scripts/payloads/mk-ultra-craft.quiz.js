@@ -578,28 +578,28 @@ module.exports = {
     },
     {
       number: 22,
-      question: 'What is the strategic implication of subjugation via consent?',
-      hint: 'Consider how total management continues without breaking field law.',
+      question: 'What do controllers achieve by activating single-use disposable killers in public environments?',
+      hint: 'Consider the Strategic Implications entry on disposable killers.',
       options: [
         {
-          text: 'Controllers achieve total population management while strictly conforming to the legal requirement of human free-will acceptance under field law.',
+          text: 'They manufacture emotional outrage that forces the civilian population to demand its own disarming.',
           isCorrect: true,
-          rationale: 'Subtle priming steers human wants and emotional reactions so the acceptance still counts as choice.'
+          rationale: 'Controllers manufacture emotional outrage through the activations so the public demands its own disarming, removing physical resistance to state power.'
         },
         {
-          text: 'Controllers must constantly renegotiate real power with a civilian population that can refuse them.',
+          text: 'They expose covert conditioning facilities to public scrutiny and force the programs into the open.',
           isCorrect: false,
-          rationale: 'The consent is manufactured through priming. It is not an open renegotiation of power.'
+          rationale: 'The activations are staged to generate fear and legislative pressure, not to expose the facilities behind them.'
         },
         {
-          text: 'The population can eventually overrule the controllers through an ordinary democratic reversal.',
+          text: 'They recruit surviving witnesses into gifted education pipelines for later black-budget training.',
           isCorrect: false,
-          rationale: 'Subjugation via consent is built to secure total population management, not to leave a path for overthrow.'
+          rationale: 'Gifted pipelines identify high-intelligence children through schools; the killings serve disarmament pressure, not recruitment.'
         },
         {
-          text: 'The population is pushed to take fuller responsibility for its own psychological health.',
+          text: 'They trigger public trials that reveal the programming network and free the remaining assets.',
           isCorrect: false,
-          rationale: 'The objective is total population management under field law, not a turn toward private psychological responsibility.'
+          rationale: 'No trials or revelations follow; the coverage is orchestrated to build pressure for civilian disarmament.'
         }
       ]
     },
