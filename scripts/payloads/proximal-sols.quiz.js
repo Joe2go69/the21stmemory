@@ -108,35 +108,32 @@ module.exports = {
     },
     {
       number: 4,
-      question: 'How did the Proximal Sols generate the subsequent four thousand soul architectures?',
-      hint: 'Think of a craftsman who must first create the tools of his trade.',
+      question: 'What were the Proximal Sols able to do with matter in their primordial state within 18th+ density?',
+      hint: 'Look at the High-Density Matter Craft subsection.',
       options: [
         {
-          text: 'By duplicating their own consciousness automatically without deliberate craftsmanship.',
-          isCorrect: false,
-          rationale:
-            'The expansion was the deliberate creation of soul architecture through self-directed craftsmanship, not automatic duplication.'
-        },
-        {
-          text: 'Through the blacksmith apprentice analogy of self-directed craftsmanship and direct creative experience.',
+          text: 'They could augment and manipulate matter at the subatomic level through consciousness and benevolent intention alone.',
           isCorrect: true,
-          rationale:
-            'The Proximal Sols generated the subsequent two thousand soul pairs according to the blacksmith apprentice analogy, constructing secondary soul architectures through direct creative experience.'
+          rationale: 'In their primordial state they could augment and manipulate matter at the subatomic level through consciousness and benevolent intention alone.'
         },
         {
-          text: 'Through a singular command issued by Source Creation that expanded the original twelve.',
+          text: 'They could enter physical hominid vessels and experience touch and temperature directly.',
           isCorrect: false,
-          rationale:
-            'Source Creation brought forth the original twelve; the expansion into four thousand unique soul architectures was executed directly by the Proximal Sols.'
+          rationale: 'Physical vessels were designed later so high-density consciousness could step down; the primordial beings worked on matter itself.'
         },
         {
-          text: 'By harvesting raw energy from lower physical densities after occupying those realms.',
+          text: 'They could generate new soul pairs by splitting their own consciousness into paired seeds.',
           isCorrect: false,
-          rationale:
-            'Soul architecture was forged in the highest light realms of 18th+ density through primordial wisdom, before physical hominid vehicles were realized.'
+          rationale: 'The seed pairing was Source Creation\'s act at their origin, not a way the Sols worked on matter.'
+        },
+        {
+          text: 'They could convert lower-density physical matter into light-realm architecture by touch.',
+          isCorrect: false,
+          rationale: 'Their craft operated in the highest light realms through consciousness and intention, not by converting physical matter.'
         }
       ]
     },
+
     {
       number: 5,
       question:
@@ -388,35 +385,32 @@ module.exports = {
     },
     {
       number: 13,
-      question: "In the blacksmith apprentice analogy, what does the 'cooling metal' represent?",
-      hint: "This represents the 'geometry' being honed during the creative process.",
+      question: 'What remains true of the four thousand ancient souls within the broader realm population?',
+      hint: 'Check the Broader Context section on the four thousand.',
       options: [
         {
-          text: 'The biological cells of a human body forming during later physical incarnation.',
-          isCorrect: false,
-          rationale:
-            'The analogy illustrates the formation of soul architecture through self-directed craftsmanship, not biological tissue.'
-        },
-        {
-          text: 'The raw materials of Source Creation before the Proximal Sols began their craft.',
-          isCorrect: false,
-          rationale:
-            'The analogy focuses on how the Proximal Sols constructed the structural geometries of secondary soul architectures through their own craftsmanship.'
-        },
-        {
-          text: 'The atmospheric movement of lower densities that a soul later engages as sensation.',
-          isCorrect: false,
-          rationale:
-            'Atmospheric movement is a sensory experience of later physical vessels, not the material being forged in the analogy.'
-        },
-        {
-          text: 'The structural geometries of secondary soul architectures, honed through direct creative experience.',
+          text: 'They remain a permanent, unalterable core of primary consciousness alongside Taran Human descendants and starseeds.',
           isCorrect: true,
-          rationale:
-            'An apprentice hones the geometry of cooling metal with a hammer; similarly, the Proximal Sols constructed the structural geometries of secondary soul architectures through direct creative experience.'
+          rationale: 'They remain active as primary consciousness alongside Taran Human descendants, starseeds, and secondary field constructs.'
+        },
+        {
+          text: 'They were dissolved during historical downsizings and replaced by secondary field constructs.',
+          isCorrect: false,
+          rationale: 'Despite downsizings and field inversions, the geometric baseline of the original architectures remains fully intact.'
+        },
+        {
+          text: 'They withdrew from the realm population and no longer interact with lower densities.',
+          isCorrect: false,
+          rationale: 'The four thousand remain active within the broader realm population, not withdrawn from it.'
+        },
+        {
+          text: 'They were absorbed into the Taran Human lineage and lost their distinct architecture.',
+          isCorrect: false,
+          rationale: 'They constitute a distinct, unalterable lineage of primary consciousness, separate from Taran Human descendants.'
         }
       ]
     },
+
     {
       number: 14,
       question: 'What is the role of Source Creation in the hierarchy of existence?',
