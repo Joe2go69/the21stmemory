@@ -200,31 +200,32 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'How did the Spirit Tree\'s subterranean root system interact with natural mineral deposits?',
-      hint: 'Consider how conductive metals and crystals operate as in-situ components within a planetary circuit.',
+      question: 'Through what did the Spirit Tree\'s energetic exchange operate?',
+      hint: 'See Detailed Mechanics.',
       options: [
         {
-          text: 'It converted heavy metals into liquid water to feed the four major cardinal rivers of the realm.',
-          isCorrect: false,
-          rationale: 'Metals served as conductive traces within the motherboard rather than being turned into river water.'
-        },
-        {
-          text: 'It dissolved subterranean metals to prevent human civilizations from mining conductive elements.',
-          isCorrect: false,
-          rationale: 'The root system integrated metals into functional components rather than dissolving them.'
-        },
-        {
-          text: 'It acted as an insulating buffer that shielded mineral deposits from atmospheric aetheric currents.',
-          isCorrect: false,
-          rationale: 'The roots conducted atmospheric energy into mineral veins rather than insulating those deposits.'
-        },
-        {
-          text: 'The roots directly enveloped natural subterranean deposits and formed an integrated living motherboard.',
+          text: 'Tonal harmonics and standing waves.',
           isCorrect: true,
-          rationale: 'The roots directly enveloped natural subterranean deposits and formed an integrated living motherboard.'
+          rationale: 'This energetic exchange operated through tonal harmonics and standing waves, enabling instant communication across the entire physical plane.'
+        },
+        {
+          text: 'Telluric currents to external realms.',
+          isCorrect: false,
+          rationale: 'Telluric currents carry data; the exchange itself operates through harmonics and standing waves.'
+        },
+        {
+          text: 'Plasma portals across frequency domains.',
+          isCorrect: false,
+          rationale: 'Portals are the navigation method, not the exchange medium.'
+        },
+        {
+          text: 'Mineral deposits as signal traces.',
+          isCorrect: false,
+          rationale: 'The deposits are components of the motherboard, not the exchange\'s medium.'
         }
       ]
     },
+
     {
       number: 9,
       question: 'What primary components constitute the planetary Organic Circuitboard?',
@@ -308,193 +309,200 @@ module.exports = {
     },
     {
       number: 12,
-      question: 'How do planetary Guardians transmit requests from crystalline healing temples to external realms?',
-      hint: 'Recall how intention is routed through the ground network rather than external physical technology.',
+      question: 'Into how many cardinal rivers does the central river divide?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'They project solar radiation beams directly toward external stars outside the master Cube.',
-          isCorrect: false,
-          rationale: 'Guardians route requests through Ley Line nodes and the Axis Mundi rather than outward solar beams.'
-        },
-        {
-          text: 'They physically transport written blueprinted codes through subterranean water channels.',
-          isCorrect: false,
-          rationale: 'Intentions move instantaneously as telluric currents rather than as physical deliveries.'
-        },
-        {
-          text: 'They utilize high-frequency radio transmissions bounced off the atmospheric upper veil.',
-          isCorrect: false,
-          rationale: 'Transmissions travel through telluric currents and the central axis rather than radio sky bounces.'
-        },
-        {
-          text: 'Planetary Guardians broadcast requests from crystalline healing temples built upon Ley Line nodes and the Axis Mundi transmits these intentions instantaneously via telluric currents.',
+          text: 'Four major cardinal rivers.',
           isCorrect: true,
-          rationale: 'Guardians broadcast requests from crystalline healing temples built upon Ley Line nodes and the Axis Mundi transmits these intentions instantaneously via telluric currents.'
+          rationale: 'The center is fed by a single central river that divides into four major cardinal rivers.'
+        },
+        {
+          text: 'Two major cardinal rivers.',
+          isCorrect: false,
+          rationale: 'The single river divides into four, not two.'
+        },
+        {
+          text: 'Five major cardinal rivers.',
+          isCorrect: false,
+          rationale: 'Five is the count of external Great Domes, not the rivers.'
+        },
+        {
+          text: 'A single river that never divides.',
+          isCorrect: false,
+          rationale: 'The river divides to water the entire realm.'
         }
       ]
     },
+
     {
       number: 13,
-      question: 'Which external realms within The Cube receive data transmissions from the central axis?',
-      hint: 'Look for the specific realm names listed as external domains inside the master Cube structure.',
+      question: 'Through what do telluric currents flow?',
+      hint: 'See the Key Terminology entry for Telluric Currents.',
       options: [
         {
-          text: 'Asgard, Midgard, Jotunheim, Vanaheim, and Niflheim.',
-          isCorrect: false,
-          rationale: 'Those are Norse realm names, while the transmissions reach external realms within The Cube such as Terra Incognita.'
-        },
-        {
-          text: 'Hyperborea, Atlantis, Lemuria, Mu, and the Land of Nod.',
-          isCorrect: false,
-          rationale: 'That list mixes terrestrial names rather than the external realms within The Cube.'
-        },
-        {
-          text: 'The Axis Mundi reaches external realms within The Cube such as the Dome of Titans, Sheol, Silence, and Terra Incognita.',
+          text: 'Planetary Ley Lines and crystalline networks.',
           isCorrect: true,
-          rationale: 'Telluric currents carry intentions to external realms within The Cube such as Sheol and Terra Incognita.'
+          rationale: 'They are electromagnetic and aetheric currents flowing through planetary Ley Lines and crystalline networks, carrying dimensional data.'
         },
         {
-          text: 'Mt Meru, Black Rock, Northern Rock, Eden, and Paradise.',
+          text: 'Subterranean root systems and canopy branches.',
           isCorrect: false,
-          rationale: 'Those names point to the central North Pole core rather than external realms within The Cube.'
+          rationale: 'Those are the Spirit Tree\'s structures, not the currents\' channels.'
+        },
+        {
+          text: 'Copper wiring and fibre optic cables.',
+          isCorrect: false,
+          rationale: 'Those are the entropic replacements in the built grid.'
+        },
+        {
+          text: 'Stacked frequency domains in the Cube.',
+          isCorrect: false,
+          rationale: 'The domains are crossed by portal travel, not telluric flow.'
         }
       ]
     },
+
     {
       number: 14,
-      question: 'At what level do high-density Guardians formulate harmonic blueprints using the 5 Elements?',
-      hint: 'Think about the boundary where consciousness shapes matter before subatomic particles form.',
+      question: 'What did the shattered Spirit Tree leave behind?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'At the macroscopic cellular level, using genetic splicing and physical hybridization.',
-          isCorrect: false,
-          rationale: 'The blueprints are formulated before physical cellular structures assemble.'
-        },
-        {
-          text: 'Guardians formulate harmonic blueprints using the 5 Elements and unifying Consciousness before matter condenses.',
+          text: 'The mountain core known as Mt Meru.',
           isCorrect: true,
-          rationale: 'Guardians formulate harmonic blueprints using the 5 Elements and unifying Consciousness at the pre-subatomic level.'
+          rationale: 'After the resets, the plane was shattered, leaving behind the mountain core known as Mt Meru.'
         },
         {
-          text: 'At the atomic molecular level, using heavy industrial chemical synthesis.',
+          text: 'The Cain Periphery at the realm\'s edge.',
           isCorrect: false,
-          rationale: 'The formulation does not depend on industrial chemical synthesis.'
+          rationale: 'The periphery arose from Cain\'s banishment, not the shattering.'
         },
         {
-          text: 'At the tectonic geological level, using subterranean pressure and heat manipulation.',
+          text: 'The four cardinal rivers of Eden.',
           isCorrect: false,
-          rationale: 'The elemental formulation is a field blueprint rather than macroscopic tectonic pressure.'
+          rationale: 'The rivers fed the center before the resets.'
+        },
+        {
+          text: 'The crystalline cave systems underground.',
+          isCorrect: false,
+          rationale: 'The caves are recharged by the canopy\'s energy, not left by the shattering.'
         }
       ]
     },
+
     {
       number: 15,
-      question: 'How is naturally blue fruit synthesized without direct physical intervention?',
-      hint: 'Identify the biochemical precursor and enzyme change transmitted through telluric code updates.',
+      question: 'What does the Vertical Axis pierce?',
+      hint: 'See the Key Terminology entry for Vertical Axis.',
       options: [
         {
-          text: 'By injecting metallic copper particles directly into the root system of local plant species.',
-          isCorrect: false,
-          rationale: 'The change reaches flora as a telluric code update rather than as a physical injection into roots.'
-        },
-        {
-          text: 'By exposing growing fruit to concentrated atmospheric aether during specific lunar alignments.',
-          isCorrect: false,
-          rationale: 'Blue fruit follows an enzyme change carried as a code update rather than lunar exposure alone.'
-        },
-        {
-          text: 'Altering the pelargonidin-3-glucoside precursor and introducing the F3\'5\'H enzyme synthesizes delphinidin creating naturally blue fruit without physical intervention.',
+          text: 'The atmospheric veil.',
           isCorrect: true,
-          rationale: 'Introducing the F3\'5\'H enzyme synthesizes delphinidin and creates naturally blue fruit without physical intervention.'
+          rationale: 'It is the channel of refined spiritual intent and resonance that pierces the atmospheric veil.'
         },
         {
-          text: 'By cross-breeding terrestrial plants with vegetative specimens imported from Terra Incognita.',
+          text: 'The Terrarium Seal at the ice wall.',
           isCorrect: false,
-          rationale: 'The alteration arrives as a telluric code update rather than as physical cross-breeding.'
+          rationale: 'The seal encloses the plane; the axis pierces the veil.'
+        },
+        {
+          text: 'The spinning Cain Periphery boundary.',
+          isCorrect: false,
+          rationale: 'The periphery is the horizontal exile, not a pierced barrier.'
+        },
+        {
+          text: 'The subterranean root network.',
+          isCorrect: false,
+          rationale: 'The roots interface below; the axis channels upward.'
         }
       ]
     },
+
     {
       number: 16,
-      question: 'What is the primary consequence of historical industrial mining on planetary spiritual technology?',
-      hint: 'Consider what happens to a circuit board when its metal traces and components are physically stripped away.',
+      question: 'With what does the root system interface to form the living motherboard?',
+      hint: 'See the Overview.',
       options: [
         {
-          text: 'It increases telluric current speeds, causing uncontrolled energy spikes across Ley Lines.',
-          isCorrect: false,
-          rationale: 'Stripping minerals severs the grid rather than speeding telluric currents.'
-        },
-        {
-          text: 'It stabilizes the horizontal plane by removing excess metallic weight from the planetary crust.',
-          isCorrect: false,
-          rationale: 'Resource extraction dismantles spiritual hardware rather than stabilizing the material plane.'
-        },
-        {
-          text: 'It fills subterranean crystalline caves with toxic dust, blocking atmospheric light transmission.',
-          isCorrect: false,
-          rationale: 'The damage comes from removing conductive hardware rather than filling caves with dust.'
-        },
-        {
-          text: 'Systematic mining severed root traces and stripped the organic motherboard, disrupting the central circuit.',
+          text: 'Natural mineral deposits.',
           isCorrect: true,
-          rationale: 'Mining severed root traces and stripped the organic motherboard, and resource harvesting dismantles planetary spiritual technology.'
+          rationale: 'Its extensive root system plunges deep into the planetary crust, interfacing with natural mineral deposits to form an integrated living motherboard.'
+        },
+        {
+          text: 'Industrial mining operations and extraction sites.',
+          isCorrect: false,
+          rationale: 'Mining strips the components rather than interfacing with them.'
+        },
+        {
+          text: 'Copper wiring and external power grids.',
+          isCorrect: false,
+          rationale: 'Those are the hazardous replacements forced by extraction.'
+        },
+        {
+          text: 'Corporate media iconography and logos.',
+          isCorrect: false,
+          rationale: 'The iconography displays the pillar\'s geometry, not the roots\' interface.'
         }
       ]
     },
+
     {
       number: 17,
-      question: 'What was the technological purpose of Tartarian cathedral spires and dome structures?',
-      hint: 'Think about how advanced stone architecture linked local sky energy directly into the planetary grid.',
+      question: 'Around what do the stars rotate at the center?',
+      hint: 'See Core Revelations.',
       options: [
         {
-          text: 'They operated as astronomical observatories dedicated solely to tracking horizontal stellar drifts.',
-          isCorrect: false,
-          rationale: 'These stone structures married atmospheric aether with ground lattice energy rather than serving as passive observatories.'
-        },
-        {
-          text: 'They acted as acoustic soundboards designed to damp atmospheric standing waves across cities.',
-          isCorrect: false,
-          rationale: 'Tartarian domes married atmospheric energy into the grid rather than damping standing waves.'
-        },
-        {
-          text: 'Tartarian cathedral spires and dome structures marry atmospheric aether with ground lattice energy.',
+          text: 'The celestial pivot.',
           isCorrect: true,
-          rationale: 'Tartarian cathedral spires and dome structures marry atmospheric aether with ground lattice energy.'
+          rationale: 'It is anchored at the celestial pivot around which the stars rotate.'
         },
         {
-          text: 'They served as mechanical fortresses designed to shield populations from telluric energy surges.',
+          text: 'The geographic South Pole.',
           isCorrect: false,
-          rationale: 'The spires conduct grid energy rather than shielding populations from it.'
+          rationale: 'The center is at the celestial North Pole.'
+        },
+        {
+          text: 'The spinning Cain Periphery.',
+          isCorrect: false,
+          rationale: 'The periphery is the chaotic horizontal exile, not the pivot.'
+        },
+        {
+          text: 'The mountain core of Mt Meru alone.',
+          isCorrect: false,
+          rationale: 'Meru is the shattered tree\'s core at the pivot, not the pivot itself.'
         }
       ]
     },
+
     {
       number: 18,
-      question: 'Which specific materials were used in Tartarian architecture to facilitate atmospheric energy coupling?',
-      hint: 'Look for the liquid metal compound and mineral ore used in the cathedral domes.',
+      question: 'To what is Hyperborea structurally identical?',
+      hint: 'See the Key Terminology entry for Hyperborea.',
       options: [
         {
-          text: 'Hydrothermal gold veins and Bushveld Complex platinum sheets formed the dome coupling.',
-          isCorrect: false,
-          rationale: 'Those metals are subterranean motherboard deposits rather than the materials in the cathedral spires.'
-        },
-        {
-          text: 'Moldavite crystals and refined copper wire were set into every Tartarian dome.',
-          isCorrect: false,
-          rationale: 'The cathedral spires utilized Red Mercury and Cinnabar Ore rather than moldavite and copper wire.'
-        },
-        {
-          text: 'Tartarian cathedral spires and dome structures utilized Red Mercury and Cinnabar Ore.',
+          text: 'Eden.',
           isCorrect: true,
-          rationale: 'Tartarian cathedral spires and dome structures utilized Red Mercury and Cinnabar Ore.'
+          rationale: 'It sits at the celestial North Pole, structurally identical to Eden.'
         },
         {
-          text: 'Quartz crystal and vulcanized rubber were layered through the spires as insulators.',
+          text: 'The Land of Nod.',
           isCorrect: false,
-          rationale: 'Rubber insulation is not the coupling material named for the cathedral spires.'
+          rationale: 'Nod is the land of Cain\'s wandering exile.'
+        },
+        {
+          text: 'The Cain Periphery.',
+          isCorrect: false,
+          rationale: 'The periphery is the state of exile from the axis.'
+        },
+        {
+          text: 'Terra Incognita at the Great Dome\'s heart.',
+          isCorrect: false,
+          rationale: 'Terra Incognita is a separate non-physical dome.'
         }
       ]
     },
+
     {
       number: 19,
       question: 'How does non-linear spatial navigation differ from horizontal physical transportation?',
