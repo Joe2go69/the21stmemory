@@ -33,15 +33,32 @@ module.exports = {
     },
     {
       number: 3,
-      question: 'What is the primary purpose of the fabricated narrative referred to as His Story?',
-      hint: 'Think about what the official timeline is meant to obscure from the public\'s consciousness.',
+      question: 'What does His Story obscure?',
+      hint: 'See the Key Terminology entry.',
       options: [
-        { text: 'To document the evolution of biological life through the fossil record.', isCorrect: false, rationale: 'The fossil record, particularly regarding dinosaurs, is used as a tool by gatekeepers to replace the memory of true fauna.' },
-        { text: 'To provide a transparent account of human history for academic study.', isCorrect: false, rationale: 'Official credentials are cloth and title constructs designed to enforce compliance rather than reveal objective reality.' },
-        { text: 'To celebrate the technological achievements of the Industrial Revolution.', isCorrect: false, rationale: 'The narrative is a tool used to obscure the more advanced energetic technologies of the past.' },
-        { text: 'To replace the memory of pre-reset civilizations.', isCorrect: true, rationale: 'His Story is a fabricated historical timeline designed to replace the memory of pre-reset civilizations and to obscure Tartarian architecture, energetic technologies, and periodic resets.' }
+        {
+          text: 'Tartarian architecture, energetic technologies, and periodic resets.',
+          isCorrect: true,
+          rationale: 'His Story exists to obscure Tartarian architecture, energetic technologies, and periodic resets.'
+        },
+        {
+          text: 'Judiciary protection and immunity for initiates.',
+          isCorrect: false,
+          rationale: 'Protection is the judiciary\'s function, not the narrative\'s.'
+        },
+        {
+          text: 'Military transport of illicit commodities.',
+          isCorrect: false,
+          rationale: 'Transport is a logistics operation, not what the narrative hides.'
+        },
+        {
+          text: 'Treaty restrictions on restricted geographic regions.',
+          isCorrect: false,
+          rationale: 'Treaties guard regions; the narrative hides the architecture and resets.'
+        }
       ]
     },
+
     {
       number: 4,
       question: 'Which role is assigned to high-level initiates in fields like science, medicine, and government?',
@@ -88,26 +105,60 @@ module.exports = {
     },
     {
       number: 8,
-      question: 'What was the purpose of introducing the Dinosaur classification in science?',
-      hint: 'Recall the scientific debate initiated after the 1778 discovery of saurian remains.',
+      question: 'What principle does The Craft indoctrinate initiates into?',
+      hint: 'See the Key Terminology entry for The Craft.',
       options: [
-        { text: 'To provide a foundation for the study of avian evolution and flight.', isCorrect: false, rationale: 'This framing is part of His Story, used to replace the memory of pre-reset civilizations.' },
-        { text: 'To support the discovery of piezoelectric quartz granite in fossil sites.', isCorrect: false, rationale: 'Piezoelectric quartz granite belongs to Tartarian architecture, which the order seeks to conceal.' },
-        { text: 'To accurately categorize the skeletal remains found in Maastricht in 1778.', isCorrect: false, rationale: 'The Maastricht remains were dragon fauna, a fact that the dinosaur label was designed to obscure.' },
-        { text: 'To obscure pre-colonization biology and the true nature of dragon fauna.', isCorrect: true, rationale: 'Freemasonic gatekeepers pitched these discoveries under the newly invented classification of Dinosaurs, fabricating thousands of additional entries to obscure pre-colonization biology.' }
+        {
+          text: '\'Do As Thou Wilt.\'',
+          isCorrect: true,
+          rationale: 'The Craft indoctrinates initiates into \'Do As Thou Wilt\', orchestrating systemic cover-ups, financial monopolization, and field inversion.'
+        },
+        {
+          text: '\'Service Before Self.\'',
+          isCorrect: false,
+          rationale: 'The Craft\'s principle is self-will, not service.'
+        },
+        {
+          text: '\'Silence And Obedience.\'',
+          isCorrect: false,
+          rationale: 'Obedience is enforced, but the indoctrinated principle is \'Do As Thou Wilt\'.'
+        },
+        {
+          text: '\'Knowledge Is Service.\'',
+          isCorrect: false,
+          rationale: 'No such principle appears; the tradecraft teaches \'Do As Thou Wilt\'.'
+        }
       ]
     },
+
     {
       number: 9,
-      question: 'What is the hidden truth regarding the architecture of the London Square Mile?',
-      hint: 'Identify the material and age of the structures that contradict official historical claims.',
+      question: 'What are R&R Clubs?',
+      hint: 'See the Key Terminology entry.',
       options: [
-        { text: 'It features ancient Tartarian Ashlar masonry over a thousand years old.', isCorrect: true, rationale: 'Freemasonic historians claimed that the London Square Mile consisted of two-storey wooden structures to conceal ancient Tartarian Ashlar masonry and piezoelectric quartz granite buildings that stand over a thousand years old.' },
-        { text: 'It is built on top of post-reset bone vaults and cathedrals of the dead.', isCorrect: false, rationale: 'Bone vaults and cathedrals of the dead describe chambers of the 322 Skull and Bones Club, while the Square Mile buildings feature ancient masonry.' },
-        { text: 'It consists of simple two-storey wooden structures from the medieval era.', isCorrect: false, rationale: 'This is the false claim made by Freemasonic historians to hide the true age and nature of the buildings.' },
-        { text: 'It was designed by 33rd Degree initiates to symbolize financial currency.', isCorrect: false, rationale: 'Initiates repurposed existing Tartarian hubs into banks, rather than designing the original ancient structures themselves.' }
+        {
+          text: 'Exclusive political and elite venues where high-degree Freemasons and politicians deliberate strategy free from public oversight.',
+          isCorrect: true,
+          rationale: 'There high-degree Freemasons and politicians conduct nefarious activities and deliberate strategy away from oversight.'
+        },
+        {
+          text: 'The esoteric tradecraft and institutional system that indoctrinates initiates into the Craft\'s principles.',
+          isCorrect: false,
+          rationale: 'That system is The Craft, not the venues.'
+        },
+        {
+          text: 'The compromised judicial apparatus operated by high-degree initiates to shield fellow members.',
+          isCorrect: false,
+          rationale: 'That apparatus is the Freemasonic Judiciary, not the clubs.'
+        },
+        {
+          text: 'A public facade of civic philanthropy and humility projected by the order\'s hierarchy.',
+          isCorrect: false,
+          rationale: 'Philanthropy is the public facade; the clubs are private strategy venues.'
+        }
       ]
     },
+
     {
       number: 10,
       question: 'How did Freemasonic science frame the human appendix to degrade biological understanding?',
@@ -132,15 +183,32 @@ module.exports = {
     },
     {
       number: 12,
-      question: 'How is capital allocation controlled in the modern global economy?',
-      hint: 'Consider the requirement for an inventor seeking significant corporate funding.',
+      question: 'What public facade does the Freemasonic hierarchy project?',
+      hint: 'Check the opening of Detailed Mechanics.',
       options: [
-        { text: 'By a decentralized network of uninitiated entrepreneurs and inventors.', isCorrect: false, rationale: 'Uninitiated individuals are funneled toward Freemasonic operatives who extract their assets unless they integrate.' },
-        { text: 'Capital allocation is strictly conditioned upon Freemasonic allegiance.', isCorrect: true, rationale: 'Capital allocation in the modern economy is strictly conditioned upon Freemasonic allegiance, and high-net-worth investment pools and commercial consortiums are anchored through Freemasonic networks.' },
-        { text: 'Through an open, competitive market based on merit and innovation.', isCorrect: false, rationale: 'True capital is strictly conditioned upon Freemasonic allegiance.' },
-        { text: 'By the Earth Alliance to ensure positive aetheric energy distribution.', isCorrect: false, rationale: 'The Earth Alliance is associated with dismantling this network, whereas the network itself uses entropic financial Currency.' }
+        {
+          text: 'A facade of civic philanthropy and humility, while internally entrenching absolute loyalty to the order\'s objectives.',
+          isCorrect: true,
+          rationale: 'It projects civic philanthropy and humility while internally entrenching absolute loyalty.'
+        },
+        {
+          text: 'Open democratic governance and public accountability across its membership initiation tiers.',
+          isCorrect: false,
+          rationale: 'The hierarchy is bound by reciprocal obligation and loyalty, not open governance.'
+        },
+        {
+          text: 'Religious devotion, charitable submission, and humility before ecclesiastical authority.',
+          isCorrect: false,
+          rationale: 'The facade is civic, and the interior is loyalty to the order.'
+        },
+        {
+          text: 'Public accountability and legal exposure for its compromised judicial apparatus.',
+          isCorrect: false,
+          rationale: 'The judiciary shields members from exposure rather than answering publicly.'
+        }
       ]
     },
+
     {
       number: 13,
       question: 'What is the functional dynamic between different tiers of Freemasonic initiation?',
@@ -154,26 +222,60 @@ module.exports = {
     },
     {
       number: 14,
-      question: 'Why did historical maritime pirates adopt the Skull & Bones emblem?',
-      hint: 'Consider how the symbol served as a standardized motif for recognition between cabal vessels.',
+      question: 'Between what does Freemasonry bridge the gap?',
+      hint: 'See the Overview\'s second paragraph.',
       options: [
-        { text: 'To frighten commercial vessels into surrendering their cargo without a fight.', isCorrect: false, rationale: 'While the symbol was intimidating, its primary esoteric function was signaling authority to the cabal.' },
-        { text: 'To represent the biological degradation of humanity on the high seas.', isCorrect: false, rationale: 'The emblem is a tool of esoteric recognition and authority rather than a commentary on biological state.' },
-        { text: 'To signal their allegiance to The Craft and their operating authority at sea.', isCorrect: true, rationale: 'Historical maritime pirates adopted the Skull & Bones emblem specifically to signal their allegiance to The Craft and identify their operating authority to other cabal vessels at sea.' },
-        { text: 'To honor the post-reset bone vaults found in subterranean chambers.', isCorrect: false, rationale: 'The 322 Club uses post-reset bone vaults, while the pirates used the emblem as a signal of operating authority.' }
+        {
+          text: 'Underworld crime networks, corporate financial consortiums, and public policy.',
+          isCorrect: true,
+          rationale: 'Freemasonry functions by bridging the gap between underworld crime networks, corporate financial consortiums, and public policy.'
+        },
+        {
+          text: 'Initiates of the order and the uninitiated public they govern.',
+          isCorrect: false,
+          rationale: 'The public is the machine\'s fuel, not one side of the bridge.'
+        },
+        {
+          text: 'Academic consensus, scientific dogma, and medical canon products.',
+          isCorrect: false,
+          rationale: 'Both are order products, not the networks being bridged.'
+        },
+        {
+          text: 'Political venues, judicial bodies, and parliamentary clubs.',
+          isCorrect: false,
+          rationale: 'Venues and courts are internal instruments, not the bridged domains.'
+        }
       ]
     },
+
     {
       number: 15,
-      question: 'What was the immediate response of 33rd Degree initiates to the 1947 Roswell craft retrieval?',
-      hint: 'Recall how media management was used to suppress a major breach in the narrative.',
+      question: 'Under what instrument is public access to Antarctica prohibited?',
+      hint: 'Check the close of Detailed Mechanics.',
       options: [
-        { text: 'They initiated a scientific debate to classify the craft as prehistoric fauna.', isCorrect: false, rationale: 'Saurian remains were buried under the dinosaur classification, while the Roswell incident was suppressed with weather balloon narratives.' },
-        { text: 'They released accurate news reports to prepare the public for aetheric technology.', isCorrect: false, rationale: 'High-tier members intervened specifically to retract accurate reports and suppress the truth.' },
-        { text: 'They used military authority to display the flying discs in public museums.', isCorrect: false, rationale: 'Public exposure of such technology would undermine the curated simulation the order maintains.' },
-        { text: 'They replaced accurate news reports of flying discs with weather balloon narratives.', isCorrect: true, rationale: '33rd Degree newspaper owners and intelligence handlers immediately intervened to retract accurate news reports of flying discs, replacing them with weather balloon narratives to manipulate public consciousness.' }
+        {
+          text: 'International treaties.',
+          isCorrect: true,
+          rationale: 'Restricted geographic regions like Antarctica are strictly guarded; public access is barred under international treaties.'
+        },
+        {
+          text: 'Freemasonic judiciary rulings.',
+          isCorrect: false,
+          rationale: 'The judiciary shields members; access is barred by treaty.'
+        },
+        {
+          text: 'Corporate consortium charters.',
+          isCorrect: false,
+          rationale: 'Consortiums anchor finance, not Antarctic access.'
+        },
+        {
+          text: 'Parliamentary statute law.',
+          isCorrect: false,
+          rationale: 'The bar is international and treaty-based, not parliamentary.'
+        }
       ]
     },
+
     {
       number: 16,
       question: 'Who is permitted to conduct explorations and deliver reports on Antarctica?',
@@ -187,37 +289,88 @@ module.exports = {
     },
     {
       number: 17,
-      question: 'What is the relationship between the Freemasonic Orders and the 322 Skull & Bones Club?',
-      hint: 'Consider how these groups manage the terrestrial administrative layer together.',
+      question: 'What did the appendix framing turn into accepted medical canon?',
+      hint: 'See the appendix passage in Core Revelations.',
       options: [
-        { text: 'They operate in direct tandem within the wider ecosystem of Occult Orders.', isCorrect: true, rationale: 'Freemasonic Orders operate in direct tandem with groups like the 322 Skull & Bones Club within the wider ecosystem of Occult Orders and Custodian Control.' },
-        { text: 'They are rival organizations competing for control of the London Square Mile.', isCorrect: false, rationale: 'They operate in tandem within the wider ecosystem of Occult Orders and Custodian Control.' },
-        { text: 'The 322 Club is a public educational branch of the Freemasonic Judiciary.', isCorrect: false, rationale: 'The club is an esoteric entity whose subterranean meeting chambers mockery-decorate rooms built from post-reset bone vaults, not a public branch.' },
-        { text: 'They are unrelated entities with completely different esoteric symbols.', isCorrect: false, rationale: 'They share the Skull & Bones motif and operate in direct tandem inside Occult Orders.' }
+        {
+          text: 'Biological degradation.',
+          isCorrect: true,
+          rationale: 'The framing succeeded in turning biological degradation into accepted medical canon.'
+        },
+        {
+          text: 'Energetic technology.',
+          isCorrect: false,
+          rationale: 'Energetic technologies are what His Story obscures, not the canon produced.'
+        },
+        {
+          text: 'Tartarian architecture.',
+          isCorrect: false,
+          rationale: 'Architecture is concealed by the narrative, not canonized by medicine.'
+        },
+        {
+          text: 'Pre-reset biology.',
+          isCorrect: false,
+          rationale: 'The canon degrades biology rather than preserving its pre-reset form.'
+        }
       ]
     },
+
     {
       number: 18,
-      question: 'How did Freemasonic architects repurpose Tartarian energetic hubs?',
-      hint: 'Look for the connection between the word current and the infrastructure of these hubs.',
+      question: 'What does dismantling the Freemasonic control network require?',
+      hint: 'See the close of Strategic Implications.',
       options: [
-        { text: 'They turned them into public power plants to provide free energy to cities.', isCorrect: false, rationale: 'That would restore positive aetheric flow, which the order replaces with entropic financial Currency.' },
-        { text: 'They repurposed them into modern Banks.', isCorrect: true, rationale: 'Freemasonic architects repurposed Tartarian energetic hubs into modern Banks, replacing the original flow of positive aetheric energy with entropic financial Currency routed through electrical wires and fiber-optic networks.' },
-        { text: 'They demolished them to build the wooden structures of the London Square Mile.', isCorrect: false, rationale: 'The ancient buildings still stand, and historians only claimed they were two-storey wooden structures.' },
-        { text: 'They transformed them into bone vaults for the 33rd Degree initiates.', isCorrect: false, rationale: 'Some meeting chambers are built from bone vaults, while the energetic hubs were converted into modern Banks.' }
+        {
+          text: 'Breaking reliance on Perceived Knowledge, rejecting fabricated timelines, and recognizing that consciousness precedes all institutional constructs.',
+          isCorrect: true,
+          rationale: 'Dismantling requires rejecting fabricated historical timelines, and recognizing that human consciousness and intelligence precede all institutional constructs.'
+        },
+        {
+          text: 'Relying on institutional authority, official credentials, and perceived knowledge constructs.',
+          isCorrect: false,
+          rationale: 'Reliance on authority reinforces the simulation instead.'
+        },
+        {
+          text: 'Seeking capital and commercial contracts through Freemasonic business operatives and networks.',
+          isCorrect: false,
+          rationale: 'Capital channels entrench the network rather than dismantling it.'
+        },
+        {
+          text: 'Accepting official academic, scientific, historical, and medical consensus as objective truth.',
+          isCorrect: false,
+          rationale: 'Consensus is the structured construct the dismantling rejects.'
+        }
       ]
     },
+
     {
       number: 19,
-      question: 'What does the term Currency represent in the Freemasonic financial system?',
-      hint: 'Relate the term to the way energy or current is moved through modern wires.',
+      question: 'What do high-degree members manage and enforce?',
+      hint: 'See the Overview\'s first paragraph.',
       options: [
-        { text: 'A tool used by the Earth Alliance to dismantle Freemasonic investment pools.', isCorrect: false, rationale: 'Currency is the order\'s tool for control, while the Earth Alliance works to break reliance on these constructs.' },
-        { text: 'The natural abundance of aetheric energy found in piezoelectric granite.', isCorrect: false, rationale: 'Currency is the entropic replacement for that positive aetheric energy, not the energy itself.' },
-        { text: 'A debt-free system of exchange based on the true value of human labor.', isCorrect: false, rationale: 'The current system is designed for parasitic control and extraction rather than fair exchange.' },
-        { text: 'Entropic financial Currency routed through electrical wires and fiber-optic networks.', isCorrect: true, rationale: 'Freemasonic architects replaced the original flow of positive aetheric energy with entropic financial Currency routed through electrical wires and fiber-optic networks.' }
+        {
+          text: 'Legal fictions and narrative compliance, while concealing the true history of Earth.',
+          isCorrect: true,
+          rationale: 'High-degree members manage legal fictions, enforce narrative compliance, and conceal the true history of Earth.'
+        },
+        {
+          text: 'Public oversight of political venues.',
+          isCorrect: false,
+          rationale: 'The venues exist to escape public oversight, not provide it.'
+        },
+        {
+          text: 'Public philanthropy and civic humility campaigns.',
+          isCorrect: false,
+          rationale: 'Philanthropy is the facade, not the managed operation.'
+        },
+        {
+          text: 'Treaty negotiation with sanctioned explorers.',
+          isCorrect: false,
+          rationale: 'Treaties guard regions; members manage fictions and compliance.'
+        }
       ]
     },
+
     {
       number: 20,
       question: 'What caused the dramatic emptiness in London\'s Mayfair district in 2026?',
