@@ -518,35 +518,35 @@
     },
     {
       "number": 17,
-      "question": "Who is responsible for supervising the trauma rehabilitation within the Continental Sanctuaries?",
+      "question": "What had negative entities previously held control over, before positive entities secured access?",
       "options": [
         {
           "label": "A",
-          "text": "The negative entities who once controlled the timeline technology.",
+          "text": "The quartz crystal Memory Tech network itself.",
           "isCorrect": false,
-          "rationale": "Not what the report says. Healing Sanctuaries are supervised by Space Force, second-realm extraterrestrial stewards, and trusted human facilitators for gentle, non-coercive trauma rehabilitation."
+          "rationale": "The crystal network was planted by the positive forces; what the negative entities had held was control of the viewing technologies."
         },
         {
           "label": "B",
-          "text": "People who have already passed through the portal.",
-          "isCorrect": false,
-          "rationale": "Not what the report says. Healing Sanctuaries are supervised by Space Force, second-realm extraterrestrial stewards, and trusted human facilitators for gentle, non-coercive trauma rehabilitation."
+          "text": "Timeline viewing technologies.",
+          "isCorrect": true,
+          "rationale": "Because negative entities previously held control over timeline viewing technologies, positive entities deployed Project Looking Glass time travel as soon as access was secured."
         },
         {
           "label": "C",
-          "text": "Space Force, second-realm extraterrestrial stewards and trusted human facilitators.",
-          "isCorrect": true,
-          "rationale": "Healing Sanctuaries are supervised by Space Force, second-realm extraterrestrial stewards, and trusted human facilitators for gentle, non-coercive trauma rehabilitation."
+          "text": "The transportation craft stationed beyond the portal.",
+          "isCorrect": false,
+          "rationale": "The craft are operated by the GAA, Pleiadians, and Andromedans; they were never under negative control in this account."
         },
         {
           "label": "D",
-          "text": "AI systems left behind by the Pleiadian commanders.",
+          "text": "The automated timers governing the crystals' emergence.",
           "isCorrect": false,
-          "rationale": "Not what the report says. Healing Sanctuaries are supervised by Space Force, second-realm extraterrestrial stewards, and trusted human facilitators for gentle, non-coercive trauma rehabilitation."
+          "rationale": "The timers are part of the positive forces' own implantation work, not something taken from negative control."
         }
       ],
-      "hint": "It is a combined effort of earthly and extraterrestrial positive forces.",
-      "correctAnswer": "C"
+      "hint": "Look at why Project Looking Glass was deployed when it was, in the Timeline Infrastructure account.",
+      "correctAnswer": "B"
     },
     {
       "number": 18,
@@ -614,35 +614,35 @@
     },
     {
       "number": 20,
-      "question": "The infrastructure of The Homecoming operates through the harmonic synthesis of which elements?",
+      "question": "What does The Homecoming synchronize within each individual?",
       "options": [
         {
           "label": "A",
-          "text": "Artificial intelligence and synthetic biological compounds.",
+          "text": "The individual's memory banks with the crystal grid's stored frequencies.",
           "isCorrect": false,
-          "rationale": "The process is based on natural planetary energy and the five elements, not synthetic compounds."
+          "rationale": "The memory banks are restored through the flash-driven upload; the synchronization named here is between the two aethers."
         },
         {
           "label": "B",
-          "text": "The Five Elements combined with natural planetary energy.",
-          "isCorrect": true,
-          "rationale": "The entire infrastructure operates through the harmonic synthesis of the Five Elements combined with natural planetary energy."
+          "text": "The individual's timeline with the timeline of the Great Awakening.",
+          "isCorrect": false,
+          "rationale": "Timelines are unified realm-wide by the structural convergence; the individual synchronization is aetheric."
         },
         {
           "label": "C",
-          "text": "Nuclear energy and high-frequency radio wave transmissions.",
+          "text": "The individual's DNA strand with the portal's plasma crystalline frequencies.",
           "isCorrect": false,
-          "rationale": "The synthesis uses natural elements like solar light and quartz rather than nuclear or radio technology."
+          "rationale": "The DNA Strand enables portal alignment, but the synchronization described is of personal and planetary aether."
         },
         {
           "label": "D",
-          "text": "Dark matter and gravitational waves from the galactic center.",
-          "isCorrect": false,
-          "rationale": "The mechanics rely on the five elements — consciousness, water, fire, air, and earth — plus natural planetary energy, not dark matter or gravitational waves."
+          "text": "Personal internal aether with the surrounding planetary aether.",
+          "isCorrect": true,
+          "rationale": "The Homecoming synchronizes personal internal aether with surrounding planetary aether, elevating physical biology into harmony with higher dimensional states."
         }
       ],
-      "hint": "Recall the components the report names for the infrastructure.",
-      "correctAnswer": "B"
+      "hint": "Look at the Aetheric Evolution account of what is brought into sync.",
+      "correctAnswer": "D"
     },
     {
       "number": 21,
