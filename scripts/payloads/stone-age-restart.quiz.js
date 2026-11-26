@@ -121,37 +121,88 @@ module.exports = {
     },
     {
       number: 11,
-      question: 'What was the significance of the 1947 Roswell incident within the Custodian timeline?',
-      hint: 'Recall how this event affected the pace of technological development.',
+      question: 'Where are human problem-solving and curiosity safely directed by staged narrative installations?',
+      hint: 'See Staged Narrative Installation.',
       options: [
-        { text: 'The controlled recovery schedule was catastrophically disrupted in 1947 during the Roswell incident.', isCorrect: true, rationale: 'The Anakim shattered the Custodians\' multi-century plan for a slow recovery from zero tools and forced the control grid into an emergency checkmate.' },
-        { text: 'It marked the completion of the transition from the Wild West to the modern era.', isCorrect: false, rationale: 'The incident shattered the planned slow recovery rather than completing a scheduled narrative stage.' },
-        { text: 'It allowed the Custodians to test new cloaking technology on the human population.', isCorrect: false, rationale: 'The downing put the point-contact transistor into human hands, which was a loss for the control grid.' },
-        { text: 'It was the first successful attempt by the Custodians to communicate with human leaders.', isCorrect: false, rationale: 'The Roswell downing was an Anakim disruption of the Custodian schedule, not a planned Custodian contact.' }
+        {
+          text: 'Into engineered academic, scientific, and entertainment loops.',
+          isCorrect: true,
+          rationale: 'Staged installations ensure that human problem-solving and curiosity are safely directed into engineered academic, scientific, and entertainment loops.'
+        },
+        {
+          text: 'Into reverse-engineering predecessor technology.',
+          isCorrect: false,
+          rationale: 'The installations exist to prevent true technological recovery.'
+        },
+        {
+          text: 'Into investigating the nature of the realm.',
+          isCorrect: false,
+          rationale: 'Survival mode consumes the bandwidth that investigation would need.'
+        },
+        {
+          text: 'Into reconstructing high-density civilisations.',
+          isCorrect: false,
+          rationale: 'Reconstruction is what the zero-tool baseline is designed to block.'
+        }
       ]
     },
+
     {
       number: 12,
-      question: 'Who were the entities that downed the H1 Orion Grey craft to introduce transistor technology to humanity?',
-      hint: 'Look for the name of the group that forced the emergency checkmate on the Custodians.',
+      question: 'What is the engineered baseline designed to liquidate?',
+      hint: 'See the Overview.',
       options: [
-        { text: 'The Moorish rulers downed the craft and handed transistor technology to humanity.', isCorrect: false, rationale: 'The Moorish rulers belong to the pre-reset civilisation whose anti-gravity levitation craft was removed or destroyed.' },
-        { text: 'The Anakim downed two H1 Orion Grey craft over Roswell and introduced the point-contact transistor into human hands.', isCorrect: true, rationale: 'That act shattered the Custodians\' multi-century plan for a slow recovery from zero tools.' },
-        { text: 'The Khmer Rouge downed the craft in order to release transistor technology.', isCorrect: false, rationale: 'The Khmer Rouge operations in Cambodia are a human liquidation model, not a craft downing.' },
-        { text: 'The Tartarians downed the H1 Orion Grey craft and released the point-contact transistor.', isCorrect: false, rationale: 'Tartaria was wiped out in recent resets and did not intervene over Roswell, New Mexico.' }
+        {
+          text: 'All pre-existing technological infrastructure, advanced knowledge, and cultural memory.',
+          isCorrect: true,
+          rationale: 'It is designed to liquidate all pre-existing technological infrastructure, advanced knowledge, and cultural memory.'
+        },
+        {
+          text: 'All surviving stone structures and masonry.',
+          isCorrect: false,
+          rationale: 'Surviving structures are stripped and rebranded, not liquidated.'
+        },
+        {
+          text: 'All cloned populations in underground facilities.',
+          isCorrect: false,
+          rationale: 'Cloned populations are the replacement stock, not a liquidation target.'
+        },
+        {
+          text: 'All Custodian control infrastructure.',
+          isCorrect: false,
+          rationale: 'The baseline protects Custodian dominance rather than liquidating it.'
+        }
       ]
     },
+
     {
       number: 13,
-      question: 'By how many years did the introduction of the transistor accelerate the human technological timeline?',
-      hint: 'Identify the specific span named for the recovery time the Custodians lost.',
+      question: 'How far behind Custodian capabilities is humanity kept?',
+      hint: 'See Core Revelations.',
       options: [
-        { text: 'The leak accelerated the technological timeline by approximately 200 years.', isCorrect: false, rationale: 'The stated acceleration of the technological timeline is far larger than two centuries.' },
-        { text: 'The leak accelerated the technological timeline by over 5000 years.', isCorrect: false, rationale: 'The acceleration of the technological timeline is more than 953 years, not five thousand.' },
-        { text: 'The leak accelerated the technological timeline by exactly 47 years.', isCorrect: false, rationale: 'Transistor technology entered the public domain just 47 years after the last major reset, while the acceleration itself was much larger.' },
-        { text: 'The leak accelerated the technological timeline by more than 953 years.', isCorrect: true, rationale: 'Forcing transistor technology into the public domain shattered the multi-century plan for a slow recovery from zero tools.' }
+        {
+          text: 'Centuries behind Custodian technological capabilities.',
+          isCorrect: true,
+          rationale: 'Baseline control keeps humanity centuries behind Custodian technological capabilities while the re-emergence pace is metered.'
+        },
+        {
+          text: 'Millennia behind Custodian technological capabilities.',
+          isCorrect: false,
+          rationale: 'The report says centuries behind, not millennia.'
+        },
+        {
+          text: 'A fixed 1,000 years behind the Custodians.',
+          isCorrect: false,
+          rationale: 'The 1,000 to 1,500 years is the reset cycle, not the capability gap.'
+        },
+        {
+          text: 'At technological parity with the Custodians.',
+          isCorrect: false,
+          rationale: 'Humanity is kept strictly behind, never at parity.'
+        }
       ]
     },
+
     {
       number: 14,
       question: 'What is the relationship between the Reset Sequence and the Stone Age Restart?',
@@ -220,15 +271,32 @@ module.exports = {
     },
     {
       number: 20,
-      question: 'Why are orphan trains mentioned in the context of the Stone Age Restart?',
-      hint: 'Think about the source of the children on these trains and their lack of history.',
+      question: 'What does the overarching reset sequence encompass?',
+      hint: 'See Broader Context and Interconnections.',
       options: [
-        { text: 'They evacuated survivors out of cities while the reset was underway.', isCorrect: false, rationale: 'Orphan trains carry arriving cloned children into repopulated cities, not the liquidated pre-reset inhabitants outward.' },
-        { text: 'Cloned children are transported via networks such as orphan trains into repopulated cities.', isCorrect: true, rationale: 'These children enter with no parents, historical context, or awareness of their origin and accept the installed narrative.' },
-        { text: 'They mark the beginning of the industrial recovery phase in the 1800s.', isCorrect: false, rationale: 'Their role is the installation of memoryless cloned populations, not the opening of industrial recovery.' },
-        { text: 'They show how the Custodians provide aid to human populations after natural disasters.', isCorrect: false, rationale: 'The trains are a repopulation method used by parasitic managers, not relief after a natural disaster.' }
+        {
+          text: 'Environmental destruction, mass harvesting, and population displacement.',
+          isCorrect: true,
+          rationale: 'The overarching reset sequence encompasses environmental destruction, mass harvesting, and population displacement.'
+        },
+        {
+          text: 'Technological recovery, memory restoration, and free energy access.',
+          isCorrect: false,
+          rationale: 'The sequence suppresses recovery and memory rather than encompassing them.'
+        },
+        {
+          text: 'Aetheric energy systems and harmonic stone masonry.',
+          isCorrect: false,
+          rationale: 'Those are predecessor-civilisation technologies the sequence erases.'
+        },
+        {
+          text: 'Narrative installation, clone gestation, and orphan transport alone.',
+          isCorrect: false,
+          rationale: 'Those are mechanisms within the sequence, not its encompassing scope.'
+        }
       ]
     },
+
     {
       number: 21,
       question: 'What is harmonic stone masonry in the context of pre-reset civilizations?',
