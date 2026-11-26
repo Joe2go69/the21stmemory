@@ -173,31 +173,32 @@ module.exports = {
     },
     {
       number: 7,
-      question: 'What specific outcome occurs when individuals engage with redemption appointments?',
-      hint: 'Consider the physical destination linked with taking the bait of manufactured rescue schemes.',
+      question: 'What does the Free-Will Signature Trap require?',
+      hint: 'See the Key Terminology entry.',
       options: [
         {
-          text: 'They voluntarily walk into custodial containment facilities or FEMA camps.',
+          text: 'Voluntary human consent through compliance with manufactured salvation lures, such as redemption appointments and fake financial systems.',
           isCorrect: true,
-          rationale: 'By seeking redemption appointments, individuals voluntarily walk into custodial containment facilities or FEMA camps.'
+          rationale: 'The mechanism requires voluntary human consent through compliance with manufactured salvation lures.'
         },
         {
-          text: 'They achieve complete spiritual sovereignty and economic independence.',
+          text: 'Direct custodial override of the field applied to non-consenting individuals without their agreement.',
           isCorrect: false,
-          rationale: 'Engaging with redemption appointments surrenders sovereignty rather than securing true independence.'
+          rationale: 'Override is what the trap cannot use; consent must be volunteered.'
         },
         {
-          text: 'They force the immediate public disclosure of the 1989 replacement event.',
+          text: 'Physical transport of unconsenting targets to custodial containment facilities and FEMA camps.',
           isCorrect: false,
-          rationale: 'Compliance with redemption lures reinforces the containment trap and does not force public disclosure of the substitution.'
+          rationale: 'Targets walk in voluntarily; no transport is required by the mechanism.'
         },
         {
-          text: 'They disarm the media apparatus driving the NPC Hate Narrative.',
+          text: 'Regulatory approval rendering participation in the salvation systems legally mandatory for all.',
           isCorrect: false,
-          rationale: 'Participating in synthetic lures does not neutralize the external media apparatus.'
+          rationale: 'Mandates belong to a different script; the trap runs on voluntary compliance.'
         }
       ]
     },
+
     {
       number: 8,
       question: 'What items serve as synthetic lures designed to obtain voluntary human compliance?',
@@ -227,58 +228,60 @@ module.exports = {
     },
     {
       number: 9,
-      question: 'Why was the bioweapon shot authorized early as a Whitehat chess move?',
-      hint: 'Think about how shifting the deployment timeline impacted public observation of consequences.',
+      question: 'What do both public reactions — supporting or opposing the figure — serve?',
+      hint: 'Look at the second Core Revelations paragraph.',
       options: [
         {
-          text: 'To force the public to witness adverse outcomes before regulatory approval.',
+          text: 'The same underlying objective of maintaining engagement with an artificial system.',
           isCorrect: true,
-          rationale: 'The early authorization was a Whitehat chess move forcing the public to witness adverse outcomes before regulatory approval could render the shot legally mandatory.'
+          rationale: 'Both reactions serve the same underlying objective: keeping the population engaged with the artificial system.'
         },
         {
-          text: 'To directly harvest free-will signatures through redemption appointments.',
+          text: 'The dismantling of the custodial containment trap.',
           isCorrect: false,
-          rationale: 'Harvesting free-will signatures happens through synthetic financial lures, not through the bioweapon authorization move.'
+          rationale: 'Engagement maintains the trap; it does not dismantle it.'
         },
         {
-          text: 'To instantly fulfill the promises made under the Hero Narrative.',
+          text: 'The exposure of the 1989 replacement to the general public.',
           isCorrect: false,
-          rationale: 'Early shot authorization was an operational chess move, not a fulfillment of the Hero Narrative promises.'
+          rationale: 'The narratives absorb demographics precisely to prevent that recognition.'
         },
         {
-          text: 'To eliminate the need for the 1989 historical replacement persona.',
+          text: 'The delivery of financial redemption to the semi-awake majority.',
           isCorrect: false,
-          rationale: 'The bioweapon move was an isolated physical script action and did not eliminate the 1989 focal persona.'
+          rationale: 'Redemption is the decoy\'s promise, not an outcome either reaction delivers.'
         }
       ]
     },
+
     {
       number: 10,
-      question: 'Under which specific timeline is the early authorization of the bioweapon shot categorized?',
-      hint: 'Identify the specific script category that governs physical deployment actions like shot acceleration.',
+      question: 'Where do physical script executions such as early shot authorization belong?',
+      hint: 'See the second Broader Context paragraph.',
       options: [
         {
-          text: 'It remains categorized under the Invasion Script timeline.',
+          text: 'Exclusively to the Invasion Script, rather than the structural definition of the 1989 replacement narrative.',
           isCorrect: true,
-          rationale: 'This authorization is an isolated operational event that remains categorized under the Invasion Script timeline.'
+          rationale: 'While the figure interacts with wider custodial containment strategies, script executions belong exclusively to the Invasion Script.'
         },
         {
-          text: 'It is filed on the Christian21 Read timeline as a conscious analysis of the public persona.',
+          text: 'To the replacement mechanics that define this topic\'s node.',
           isCorrect: false,
-          rationale: 'The Christian21 Read is an analytical perspective held by conscious individuals, not a script timeline.'
+          rationale: 'The node\'s boundaries are strictly defined against exactly that inclusion.'
         },
         {
-          text: 'It is filed on the Hero Narrative timeline as a step toward financial redemption.',
+          text: 'To the three public narratives that structure perception.',
           isCorrect: false,
-          rationale: 'The Hero Narrative holds financial salvation expectations, while the shot authorization belongs to the Invasion Script.'
+          rationale: 'The narratives categorize perception; they are not where script executions belong.'
         },
         {
-          text: 'It is filed on the Sovereign Accord timeline that governs manufactured wants.',
+          text: 'To the salvation lure\'s financial redemption apparatus.',
           isCorrect: false,
-          rationale: 'Manufactured wants connect to the sovereign accord, while the shot authorization belongs to the Invasion Script.'
+          rationale: 'The redemption apparatus is the lure\'s consent machinery, a separate structure.'
         }
       ]
     },
+
     {
       number: 11,
       question: 'What key purpose is served by channeling public perception into opposing narratives?',
@@ -497,31 +500,32 @@ module.exports = {
     },
     {
       number: 19,
-      question: 'What is the ultimate consequence of surrendering sovereignty to synthetic financial schemes?',
-      hint: 'Look for the real-world containment outcome associated with taking the financial bait.',
+      question: 'What does recognizing the 1989 substitution neutralize?',
+      hint: 'See Strategic Implications.',
       options: [
         {
-          text: 'Achieving permanent exemption from media conditioning.',
-          isCorrect: false,
-          rationale: 'Surrendering sovereignty deepens compliance and does not grant exemption from media conditioning.'
-        },
-        {
-          text: 'Merging the Hero Narrative with the Christian21 Read.',
-          isCorrect: false,
-          rationale: 'The Hero Narrative and the Christian21 Read remain distinct levels of perception.'
-        },
-        {
-          text: 'They sign away their sovereignty and voluntarily walk into custodial containment facilities.',
+          text: 'The psychological hooks of political saviorism and artificial polarization.',
           isCorrect: true,
-          rationale: 'The lures encourage individuals to voluntarily sign away their sovereignty and walk into custodial containment facilities or FEMA camps.'
+          rationale: 'Recognizing the 1989 substitution neutralizes the psychological hooks of saviorism and polarization.'
         },
         {
-          text: 'Unlocking authentic Tier4B wealth redistribution assets.',
+          text: 'The population\'s engagement with the artificial system.',
           isCorrect: false,
-          rationale: 'Tier4B funds are synthetic bait inside the trap, not genuine assets to unlock.'
+          rationale: 'Engagement is the trap\'s fuel; recognition neutralizes the hooks in the individual.'
+        },
+        {
+          text: 'The media directives that generate the hate narrative.',
+          isCorrect: false,
+          rationale: 'Directives continue; what recognition removes is their psychological grip.'
+        },
+        {
+          text: 'The consent signatures already collected by the trap.',
+          isCorrect: false,
+          rationale: 'Collected signatures stand; recognition prevents surrendering new consent.'
         }
       ]
     },
+
     {
       number: 20,
       question: 'What is required for a free-will signature trap to succeed?',
