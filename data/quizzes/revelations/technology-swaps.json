@@ -474,66 +474,66 @@
     },
     {
       "number": 16,
-      "question": "What physical material forms the primary substrate for solid-state switching in point-contact transistors?",
+      "question": "What did fibre optics' light-based transmission surpass?",
       "options": [
         {
           "label": "A",
-          "text": "Heavy metal alloys harvested from the external structural containment frames of the recovered craft.",
+          "text": "Solid-state transistor switching speeds.",
           "isCorrect": false,
-          "rationale": "Not what the report says. That silicon switching replaced bulky glass vacuum tubes."
+          "rationale": "Transistors concern switching, not transmission bandwidth."
         },
         {
           "label": "B",
-          "text": "Silicon, used for solid-state switching and amplification in a fraction of the space without vacuum glass.",
+          "text": "Copper wire bandwidth.",
           "isCorrect": true,
-          "rationale": "That silicon switching replaced bulky glass vacuum tubes."
+          "rationale": "Fibre optics enabled light-based signal transmission that vastly surpassed copper wire bandwidth."
         },
         {
           "label": "C",
-          "text": "High-purity glass fibers arranged into reflective optical waveguides for signal switching.",
+          "text": "Infrared detection ranges.",
           "isCorrect": false,
-          "rationale": "Not what the report says. That silicon switching replaced bulky glass vacuum tubes."
+          "rationale": "Infrared detection belongs to thermal imaging, not fibre transmission."
         },
         {
           "label": "D",
-          "text": "Synthetic polymer compounds woven into flexible electrical grids that conduct and amplify current.",
+          "text": "Vacuum tube energy consumption.",
           "isCorrect": false,
-          "rationale": "Not what the report says. That silicon switching replaced bulky glass vacuum tubes."
+          "rationale": "Energy consumption was the vacuum tubes' flaw, not a bandwidth measure."
         }
       ],
-      "hint": "Recall the fundamental chemical element that replaced glass vacuum tubes in solid-state electronics.",
+      "hint": "See The Salvaged Technology Spectrum.",
       "correctAnswer": "B"
     },
     {
       "number": 17,
-      "question": "What long-term impact did the commercial leakage of point-contact transistors and printed circuit boards have on circuit density?",
+      "question": "To what did controllers shift their containment strategies?",
       "options": [
         {
           "label": "A",
-          "text": "They kept electronics reliant on bulky external cooling units and high-voltage power grids, which slowed the shrinking of devices and kept computers in large rooms until well into the 1990s.",
+          "text": "Periodic resets and primitive baselines.",
           "isCorrect": false,
-          "rationale": "Not what the report says. That jump in processing power stemmed entirely from reverse-engineering salvaged craft electronics."
+          "rationale": "That was the old strategy the swaps forced them to abandon."
         },
         {
           "label": "B",
-          "text": "They pushed circuit makers to abandon solid-state design in favour of optical computing.",
+          "text": "Corporate subcontracting and patent theatre.",
           "isCorrect": false,
-          "rationale": "Not what the report says. That jump in processing power stemmed entirely from reverse-engineering salvaged craft electronics."
+          "rationale": "Subcontracting and theatre mask origins; they are not the containment shift."
         },
         {
           "label": "C",
-          "text": "They scaled electronic architecture from crude nodes to modern microchips holding tens of billions of transistors on a single silicon substrate.",
+          "text": "Digital surveillance and automated network management.",
           "isCorrect": true,
-          "rationale": "That jump in processing power stemmed entirely from reverse-engineering salvaged craft electronics."
+          "rationale": "They shifted from slow physical control to digital surveillance and automated network management."
         },
         {
           "label": "D",
-          "text": "They caused circuits to stall at crude point-contact nodes because of the limits of silicon.",
+          "text": "Direct physical handovers of technology.",
           "isCorrect": false,
-          "rationale": "Not what the report says. That jump in processing power stemmed entirely from reverse-engineering salvaged craft electronics."
+          "rationale": "Swaps never used direct handovers; crashes are the transfer point."
         }
       ],
-      "hint": "Think about how modern computer microchips fit tens of billions of switches onto a microscopic silicon wafer.",
+      "hint": "See Disruption of the Custodial Reset Timeline.",
       "correctAnswer": "C"
     },
     {
@@ -666,34 +666,34 @@
     },
     {
       "number": 22,
-      "question": "Prior to the recovery of solid-state semiconductors, what were the primary operational drawbacks of vacuum tube electronics?",
+      "question": "What did the point-contact transistor enable?",
       "options": [
         {
           "label": "A",
-          "text": "High fragility to physical light and inability to conduct electricity through metal conductors.",
+          "text": "Bulk manual wiring looms.",
           "isCorrect": false,
-          "rationale": "The stated limits are extreme heat massive energy use and immense physical space."
+          "rationale": "The printed circuit board eliminated manual wire looms."
         },
         {
           "label": "B",
-          "text": "Vacuum tubes generated extreme heat consumed massive amounts of energy and required immense physical space.",
+          "text": "Micro-electronics.",
           "isCorrect": true,
-          "rationale": "They were fat glass bulbs operating via electron flow through electric fields inside a vacuum."
+          "rationale": "Harvested from crash debris, it worked by replacing bulky glass vacuum tubes and enabling micro-electronics."
         },
         {
           "label": "C",
-          "text": "Incompatibility with manual copper wire looms and requirement for pure silicon substrates.",
+          "text": "High-speed telecommunications.",
           "isCorrect": false,
-          "rationale": "Vacuum tubes were the prior system and silicon arrived with the point-contact transistor."
+          "rationale": "Fibre optics enabled high-speed telecommunications."
         },
         {
           "label": "D",
-          "text": "Low thermal signature output and inability to operate in atmospheric environments containing oxygen.",
+          "text": "Electro-optical image intensification.",
           "isCorrect": false,
-          "rationale": "Vacuum tubes generated extreme heat and consumed massive amounts of energy."
+          "rationale": "Night vision reverse-engineered image intensification."
         }
       ],
-      "hint": "Identify the physical limitations of hot, energy-intensive glass bulbs in early electronics.",
+      "hint": "See the Key Terminology entry for Point-Contact Transistor.",
       "correctAnswer": "B"
     },
     {
