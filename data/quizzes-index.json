@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-26T16:17:15.479Z",
-  "total": 384,
+  "generatedAt": "2026-11-27T13:45:45.714Z",
+  "total": 385,
   "sources": [
     {
       "id": "revelations",
@@ -27,7 +27,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card-960.webp",
-      "count": 112
+      "count": 113
     },
     {
       "id": "ascension",
@@ -2558,6 +2558,21 @@
       "key": "breakdown/crystalline-networks",
       "topicImage": "images/breakdown/crystalline-networks.webp",
       "order": 61
+    },
+    {
+      "id": "digital-id-script",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes & Highlights",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Digital ID Script",
+      "subtitle": "Test your understanding of Digital ID Script — a theatrical exposure of digital tracking and financial containment staged without live enforcement.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/digital-id-script.html",
+      "diveHref": "dive/breakdown/digital-id-script.html",
+      "key": "breakdown/digital-id-script",
+      "topicImage": "images/breakdown/digital-id-script.webp",
+      "order": 34
     },
     {
       "id": "drop-in-tone",

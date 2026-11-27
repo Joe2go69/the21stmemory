@@ -2,6 +2,16 @@
   "recent": [
     {
       "sourceId": "breakdown",
+      "topicId": "digital-id-script",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "Digital ID Script",
+      "description": "An orchestrated theatrical exposure that presents centralized digital tracking and financial containment in an overt, non-functional state so the public can reject the cage.",
+      "topic_image": "images/breakdown/digital-id-script.webp",
+      "path": "dive/breakdown/digital-id-script.html",
+      "added": "2026-11-27T06:29:36-07:00"
+    },
+    {
+      "sourceId": "breakdown",
       "topicId": "scripted-exposure",
       "series": "Mega Breakdown Board Notes & Highlights",
       "title": "Scripted Exposure",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/scripted-avenues.webp",
       "path": "dive/alice/scripted-avenues.html",
       "added": "2026-11-17T02:13:39-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "520-million",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "520 Million",
-      "description": "520 Million is the maximum ensouled remnant left embodied after the Flash dissolves the ninety-seven percent synthetic majority.",
-      "topic_image": "images/alice/520-million.webp",
-      "path": "dive/alice/520-million.html",
-      "added": "2026-11-14T15:12:38-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "breakdown",
+      "topicId": "digital-id-script",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "Digital ID Script",
+      "description": "An orchestrated theatrical exposure that presents centralized digital tracking and financial containment in an overt, non-functional state so the public can reject the cage.",
+      "topic_image": "images/breakdown/digital-id-script.webp",
+      "path": "dive/breakdown/digital-id-script.html",
+      "added": "2026-11-27T06:29:36-07:00"
+    },
     {
       "sourceId": "breakdown",
       "topicId": "scripted-exposure",
@@ -171,16 +181,6 @@
       "topic_image": "images/breakdown/ai-war-theatre.webp",
       "path": "dive/breakdown/ai-war-theatre.html",
       "added": "2026-11-22T01:43:56-07:00"
-    },
-    {
-      "sourceId": "breakdown",
-      "topicId": "silence-before-the-snap",
-      "series": "Mega Breakdown Board Notes & Highlights",
-      "title": "Silence Before the Snap",
-      "description": "Silence Before the Snap, also designated as the Atmospheric Pop, marks the suspended silence and sudden pressure drop inside the first 72 hours when undersea cables sever and the field clears for an uncorrupted instant.",
-      "topic_image": "images/breakdown/silence-before-the-snap.webp",
-      "path": "dive/breakdown/silence-before-the-snap.html",
-      "added": "2026-11-21T22:27:14-07:00"
     }
   ],
   "featured": [
