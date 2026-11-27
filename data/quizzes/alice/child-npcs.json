@@ -9,7 +9,7 @@
   "extractedAt": "2026-11-18T05:29:08.254Z",
   "reflection": {
     "title": "Reflection",
-    "body": "Child NPCs cannot be sorted by the tests that expose adult constructs. Firm opinions and the three strings of pride, finance, and religion come later. Animals and untainted youths ascend, while children in loving non-NPC families stay with their people."
+    "body": "Child NPCs cannot be sorted by the tests that expose adult constructs. Firm opinions and the three strings of religion, finance, and perceived knowledge come later. Animals and untainted youths ascend, while children in loving non-NPC families stay with their people."
   },
   "relatedTopic": {
     "href": "/dive/alice/child-npcs.html",
@@ -86,9 +86,9 @@
       "options": [
         {
           "label": "A",
-          "text": "It signals early capture by the three strings of pride, finance, and religion during basic education.",
+          "text": "It signals early capture by the three strings of religion, finance, and perceived knowledge during basic education.",
           "isCorrect": false,
-          "rationale": "Those strings fail to take root in early childhood. Pushback is native skepticism, not capture by pride, finance, or religion."
+          "rationale": "Those strings fail to take root in early childhood. Pushback is native skepticism, not capture by religion, finance, or perceived knowledge."
         },
         {
           "label": "B",
@@ -312,19 +312,19 @@
           "label": "A",
           "text": "Psychological collapse, diagnostic markers, and operational camouflage, the shift outcomes that dictate adult behavioral patterns in this realm.",
           "isCorrect": false,
-          "rationale": "Those are outcomes and masks. The three specific cognitive entanglements are pride, finance, and religion."
+          "rationale": "Those are outcomes and masks. The three specific cognitive entanglements are religion, finance, and perceived knowledge."
         },
         {
           "label": "B",
           "text": "Youth elevation, familial anchoring, and animal ascension, the transition paths that dictate adult behavioral patterns in this realm.",
           "isCorrect": false,
-          "rationale": "Those are transition paths. The strings that dictate adult behavioral patterns are pride, finance, and religion."
+          "rationale": "Those are transition paths. The strings that dictate adult behavioral patterns are religion, finance, and perceived knowledge."
         },
         {
           "label": "C",
-          "text": "Pride, finance, and religion, the cognitive entanglements that dictate adult behavioral patterns but fail to take root in early childhood.",
+          "text": "Religion, finance, and perceived knowledge, the cognitive entanglements that dictate adult behavioral patterns but fail to take root in early childhood.",
           "isCorrect": true,
-          "rationale": "Adult consciousness within the simulation is captured and held by three specific cognitive entanglements: pride, finance, and religion."
+          "rationale": "Adult consciousness within the simulation is captured and held by three specific cognitive entanglements: religion, finance, and perceived knowledge."
         },
         {
           "label": "D",
@@ -424,9 +424,9 @@
         },
         {
           "label": "D",
-          "text": "They grant the mature vessel immunity from pride, finance, and religious indoctrination during dimensional shifts.",
+          "text": "They grant the mature vessel immunity from religion, finance, and perceived knowledge during dimensional shifts.",
           "isCorrect": false,
-          "rationale": "Firm opinions show capture by those strings. They are not immunity from pride, finance, or religion."
+          "rationale": "Firm opinions show capture by those strings. They are not immunity from religion, finance, or perceived knowledge."
         }
       ],
       "hint": "Recall the marker that separates an adult NPC from an ensouled adult.",
@@ -476,7 +476,7 @@
         },
         {
           "label": "B",
-          "text": "Assimilation anchors the three strings of pride, finance, and religion earlier than those strings take hold in adult vessels.",
+          "text": "Assimilation anchors the three strings of religion, finance, and perceived knowledge earlier than those strings take hold in adult vessels.",
           "isCorrect": false,
           "rationale": "The three strings fail to take root in early childhood even while basic education proceeds."
         },
@@ -508,7 +508,7 @@
         },
         {
           "label": "B",
-          "text": "They remain naturally detached from pride, finance, and religion, and those strings fail to take root in early childhood.",
+          "text": "They remain naturally detached from religion, finance, and perceived knowledge, and those strings fail to take root in early childhood.",
           "isCorrect": true,
           "rationale": "Child NPCs remain naturally detached from all three, the cognitive entanglements that dictate adult behavioral patterns."
         },
@@ -525,7 +525,7 @@
           "rationale": "Elaborate ego shields that dictate adult social behavior have not been constructed in children."
         }
       ],
-      "hint": "Review whether pride, finance, and religion have taken root yet.",
+      "hint": "Review whether religion, finance, and perceived knowledge have taken root yet.",
       "correctAnswer": "B"
     },
     {
@@ -662,7 +662,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Child NPCs calcify formal religious structures and theological guilt early, while adult entities remain naturally detached from pride, finance, and religion.",
+          "text": "Child NPCs calcify formal religious structures and theological guilt early, while adult entities remain naturally detached from religion, finance, and perceived knowledge.",
           "isCorrect": false,
           "rationale": "Child NPCs remain naturally detached from all three. Formal religious structures have not calcified within them."
         },
