@@ -900,16 +900,7 @@
           "topic_image": "",
           "is_placeholder": true,
           "added": "2026-11-28",
-          "subtopics": [
-            {
-              "id": "curing-cancer-naturally",
-              "title": "Curing Cancer Naturally",
-              "description": "",
-              "topic_image": "",
-              "is_placeholder": true,
-              "added": "2026-11-28"
-            }
-          ]
+          "subtopics": []
         },
         {
           "id": "reunion-mechanics",
