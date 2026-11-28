@@ -117,6 +117,7 @@ function splitSource(sourceId) {
     ...(raw.playlist_label ? { playlist_label: raw.playlist_label } : {}),
     description: raw.description || '',
     ...(raw.card_blurb ? { card_blurb: raw.card_blurb } : {}),
+    ...(raw.card_subtitle ? { card_subtitle: raw.card_subtitle } : {}),
     ...(raw.meta_description ? { meta_description: raw.meta_description } : {}),
     total_topics: raw.total_topics || 0,
     topics: (raw.topics || []).map(topic => stripTopic(topic, outDir, written))
