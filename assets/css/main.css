@@ -23803,6 +23803,18 @@ a.quiz-hub-card.has-resume {
   overflow: hidden;
 }
 
+/* Optional one-paragraph series summary (data card_blurb), e.g. the Master Mind Map. */
+.series-card .source-card-blurb {
+  margin: 0.35rem 0 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
 .series-card .source-card-action {
   margin-top: auto !important;
 }

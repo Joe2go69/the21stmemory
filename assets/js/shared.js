@@ -68,7 +68,7 @@ function topicImageSrcsetAttrs(rel, sizes, basePath = '') {
 
 /** Series hero (portrait card art) srcset attrs. */
 function seriesHeroSrcsetAttrs(sourceId, fullSrc, sizes) {
-  if (!/^(alice|breakdown|ascension|revelations|special-requests)$/.test(String(sourceId || ''))) return '';
+  if (!/^(alice|breakdown|ascension|revelations|special-requests|mind-map)$/.test(String(sourceId || ''))) return '';
   if (!/-codex-card\.webp$/.test(String(fullSrc || ''))) return '';
   const parts = SERIES_HERO_WIDTHS.map(
     (w) => `images/thumbs/series/${sourceId}-codex-card-${w}.webp ${w}w`

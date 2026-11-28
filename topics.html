@@ -92,14 +92,14 @@
     <!-- Critical paint: solid vault color before main.css (prevents white flash) -->
     <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}.source-hero-host,.source-hero,.source-hero-media,.source-hero-img,.source-card-media{background-color:#0F0A1F}.source-hero-media{min-height:12rem}html.has-source-shelf .source-hero-host,.source-hero{min-height:20rem}@media (min-width:900px){html.has-source-shelf .source-hero-host,.source-hero{min-height:24rem}}</style>
     <!-- series-redirect:start -->
-    <script>(function(){var m=/[?&]source=(alice|breakdown|ascension|revelations|special-requests)(?:&|$)/.exec(location.search);if(!m){location.replace('codex.html'+location.hash);return;}var p=new URLSearchParams(location.search);p.delete('source');var q=p.toString();location.replace('series-'+m[1]+'.html'+(q?'?'+q:'')+location.hash);})();</script>
+    <script>(function(){var m=/[?&]source=(alice|breakdown|ascension|revelations|special-requests|mind-map)(?:&|$)/.exec(location.search);if(!m){location.replace('codex.html'+location.hash);return;}var p=new URLSearchParams(location.search);p.delete('source');var q=p.toString();location.replace('series-'+m[1]+'.html'+(q?'?'+q:'')+location.hash);})();</script>
     <!-- series-redirect:end -->
     <script>if(/[?&]source=/.test(location.search))document.documentElement.classList.add('has-source-shelf');</script>
     <link rel="preload" href="assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/css/main.min.css?v=20" as="style">
     <!-- LCP: start the series hero art download now instead of after topics.js + JSON (same srcset/sizes as the rendered img) -->
-    <script>(function(){var d=document.documentElement,m=/[?&]source=(alice|breakdown|ascension|revelations|special-requests)(?:&|$)/.exec(location.search),id=d.getAttribute('data-series-id')||(m&&m[1]);if(!/^(alice|breakdown|ascension|revelations|special-requests)$/.test(id||''))return;var l=document.createElement('link');l.rel='preload';l.as='image';l.href='images/'+id+'-codex-card.webp';l.setAttribute('imagesrcset','images/thumbs/series/'+id+'-codex-card-480.webp 480w, images/thumbs/series/'+id+'-codex-card-800.webp 800w, images/'+id+'-codex-card.webp 1152w');l.setAttribute('imagesizes','(max-width: 899px) calc(100vw - 48px), 460px');l.setAttribute('fetchpriority','high');document.head.appendChild(l);})();</script>
+    <script>(function(){var d=document.documentElement,m=/[?&]source=(alice|breakdown|ascension|revelations|special-requests|mind-map)(?:&|$)/.exec(location.search),id=d.getAttribute('data-series-id')||(m&&m[1]);if(!/^(alice|breakdown|ascension|revelations|special-requests|mind-map)$/.test(id||''))return;var l=document.createElement('link');l.rel='preload';l.as='image';l.href='images/'+id+'-codex-card.webp';l.setAttribute('imagesrcset','images/thumbs/series/'+id+'-codex-card-480.webp 480w, images/thumbs/series/'+id+'-codex-card-800.webp 800w, images/'+id+'-codex-card.webp 1152w');l.setAttribute('imagesizes','(max-width: 899px) calc(100vw - 48px), 460px');l.setAttribute('fetchpriority','high');document.head.appendChild(l);})();</script>
     <link rel="stylesheet" href="assets/css/tailwind.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/main.min.css?v=20">
@@ -160,7 +160,7 @@
         <div id="topics-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch min-h-[400px]" aria-busy="false">
 <h2 class="sr-only">Series</h2>
 <a href="series-alice.html"
-         class="memory-card content-card channel-card group source-card series-card source-card--mixed"
+         class="memory-card content-card channel-card group source-card series-card source-card--ready"
          data-source-id="alice">
         <div class="source-card-media" style="background-color:#0F0A1F">
            <img src="images/alice-codex-card-960.webp" srcset="images/alice-codex-card-640.webp 640w, images/alice-codex-card-960.webp 960w" sizes="(max-width: 700px) 80vw, (max-width: 1100px) 46vw, 360px" alt="Following Alice in the Rabbit Hole" class="source-card-img" width="960" height="523" loading="eager" fetchpriority="high" decoding="async" data-img-fallback>
@@ -170,9 +170,9 @@
           <span class="card-label">Foundational rabbit-hole series</span>
           <h3 class="source-card-title">Following Alice in the Rabbit Hole</h3>
           <p class="source-card-deck">A Brief Synopsis • Parts 1, 2 &amp; 3</p>
-          <p class="source-card-meta">109 of 113 ready</p>
+          <p class="source-card-meta">113 topics · Complete</p>
           <div class="source-card-progress" aria-hidden="true">
-            <div class="source-card-progress__fill" style="width:96%"></div>
+            <div class="source-card-progress__fill" style="width:100%"></div>
           </div>
           <div class="source-card-action card-action">
             Open this series
@@ -191,9 +191,9 @@
           <span class="card-label">Final-stage Great Awakening notes</span>
           <h3 class="source-card-title">Mega Breakdown Board Notes &amp; Highlights</h3>
           <p class="source-card-deck">Great Awakening Final Stages</p>
-          <p class="source-card-meta">104 of 151 ready</p>
+          <p class="source-card-meta">114 of 151 ready</p>
           <div class="source-card-progress" aria-hidden="true">
-            <div class="source-card-progress__fill" style="width:69%"></div>
+            <div class="source-card-progress__fill" style="width:75%"></div>
           </div>
           <div class="source-card-action card-action">
             Open this series
@@ -257,6 +257,27 @@
           <p class="source-card-meta">2 topics · Complete</p>
           <div class="source-card-progress" aria-hidden="true">
             <div class="source-card-progress__fill" style="width:100%"></div>
+          </div>
+          <div class="source-card-action card-action">
+            Open this series
+            <span class="source-card-action-arrow" aria-hidden="true">→</span>
+          </div>
+        </div>
+      </a>
+<a href="series-mind-map.html"
+         class="memory-card content-card channel-card group source-card series-card source-card--soon"
+         data-source-id="mind-map">
+        <div class="source-card-media" style="background-color:#0F0A1F">
+           <img src="images/mind-map-codex-card-960.webp" srcset="images/mind-map-codex-card-640.webp 640w, images/mind-map-codex-card-960.webp 960w" sizes="(max-width: 700px) 80vw, (max-width: 1100px) 46vw, 360px" alt="The Master Mind Map" class="source-card-img" width="960" height="523" loading="lazy" decoding="async" data-img-fallback>
+           <span class="source-card-media-fade" aria-hidden="true"></span>
+         </div>
+        <div class="source-card-body">
+          <span class="card-label">The whole record, mapped</span>
+          <h3 class="source-card-title">The Master Mind Map</h3>
+          <p class="source-card-deck">The Essence of the Transmission</p><p class="source-card-blurb">The whole record in one map. Every being, every mechanism and every hidden turn of the realm, gathered from the original transmissions into a single tree of 437 nodes. Each node opens into its own full report. Start at the root and follow the branches. This is the Great Remembering, drawn whole.</p>
+          <p class="source-card-meta">437 topics · On the way</p>
+          <div class="source-card-progress" aria-hidden="true">
+            <div class="source-card-progress__fill" style="width:0%"></div>
           </div>
           <div class="source-card-action card-action">
             Open this series

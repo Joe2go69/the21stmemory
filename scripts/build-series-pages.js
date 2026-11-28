@@ -24,7 +24,8 @@ const SERIES_LABELS = {
   breakdown: 'Final-stage Great Awakening notes',
   ascension: 'EMF ascension process',
   revelations: 'Six-part revelations synopsis',
-  'special-requests': 'Requested studies'
+  'special-requests': 'Requested studies',
+  'mind-map': 'The whole record, mapped'
 };
 
 // Series with published books (books.html anchors). Only these get a book button.

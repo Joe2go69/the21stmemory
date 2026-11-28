@@ -116,6 +116,7 @@ function splitSource(sourceId) {
     ...(raw.playlist_url ? { playlist_url: raw.playlist_url } : {}),
     ...(raw.playlist_label ? { playlist_label: raw.playlist_label } : {}),
     description: raw.description || '',
+    ...(raw.card_blurb ? { card_blurb: raw.card_blurb } : {}),
     ...(raw.meta_description ? { meta_description: raw.meta_description } : {}),
     total_topics: raw.total_topics || 0,
     topics: (raw.topics || []).map(topic => stripTopic(topic, outDir, written))
@@ -142,7 +143,8 @@ function splitAll() {
 
   for (const source of sources.sources) {
     const stats = splitSource(source.id);
-    if (stats) {
+    // titles_only series (the Master Mind Map) re-map existing topics; don't double-count them.
+    if (stats && !source.titles_only) {
       archiveTotals.live += stats.live;
       archiveTotals.total += stats.total;
     }

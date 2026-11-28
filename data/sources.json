@@ -20,6 +20,11 @@
     {
       "id": "special-requests",
       "title": "Special Requests"
+    },
+    {
+      "id": "mind-map",
+      "title": "The Master Mind Map",
+      "titles_only": true
     }
   ]
 }

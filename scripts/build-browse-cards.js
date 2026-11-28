@@ -22,7 +22,7 @@ const { TopicUtils, RenderUtils } = require('./lib/browser-renderers');
 const ROOT = path.join(__dirname, '..');
 
 // Same visual order as assets/js/codex.js (CODEX_SERIES_RANK).
-const CODEX_SERIES_RANK = ['revelations', 'alice', 'breakdown', 'ascension', 'special-requests'];
+const CODEX_SERIES_RANK = ['mind-map', 'revelations', 'alice', 'breakdown', 'ascension', 'special-requests'];
 
 const CHOOSER_HEADER = `
       <header class="page-hero page-hero--interior max-w-3xl mx-auto text-center">
@@ -44,6 +44,7 @@ function loadSeries() {
       title: index.title || s.title,
       subtitle: index.subtitle || '',
       description: index.description || '',
+      card_blurb: index.card_blurb || '',
       image: index.image || '',
       stats
     };

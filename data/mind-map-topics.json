@@ -1,0 +1,3757 @@
+{
+  "id": "mind-map",
+  "title": "The Master Mind Map",
+  "subtitle": "The Essence of the Transmission",
+  "card_blurb": "The whole record in one map. Every being, every mechanism and every hidden turn of the realm, gathered from the original transmissions into a single tree of 437 nodes. Each node opens into its own full report. Start at the root and follow the branches. This is the Great Remembering, drawn whole.",
+  "description": "The whole record as one tree of light.\n\nThe record does not arrive in order. It comes scattered across hundreds of transmissions: a being named once in one place, a mechanism explained in another, a history split across a dozen tellings. The full picture only appears when those pieces are gathered back into one shape.\n\nThis map is that shape. One root, the Essence of the Transmission, branches into eleven main limbs: Beings & Factions; Energy, the Grid & Technology; Healing & the Restored Realm; Hidden History & the Resets; Lures, Psyops & Discernment; The Flashes & the Homecoming; The Parasitic System — Control & Harvest; The Purge, the Blackout & the Scare Sequence; The Realm — Structure & Cosmology; The Simulation & the Overlay; and The Sol, the Vessel & Humanity. From those limbs grow 437 nodes, so every subject the transmissions touch has its own place on the tree.\n\nEvery node opens into a full report, written only from the original transmissions gathered so far: what it is, how it works, what it connects to, and what it means for those waking up inside it. Nothing is padded or forced. A node gets a report only when the record holds enough to say.\n\nThe map keeps growing. Reports land node by node, and topics still waiting show as coming soon. Questions the documents leave open are kept in one open register until the transmissions answer them. Start at the root, or enter at any node and follow its connections. Every path leads back to the same remembering, so you know what happened and are ready when the events begin.",
+  "meta_description": "The whole record as one tree: one root, eleven limbs and 437 nodes, each opening into a full report drawn from the original transmissions.",
+  "image": "images/mind-map-codex-card.webp",
+  "total_topics": 437,
+  "topics": [
+    {
+      "id": "essence-of-the-transmission",
+      "title": "Essence of the Transmission",
+      "description": "The root of the map. Every branch below grows from it.",
+      "topic_image": "images/mind-map-codex-card-960.webp",
+      "is_placeholder": true,
+      "added": "2026-11-28",
+      "is_main_root": true
+    },
+    {
+      "id": "beings-and-factions",
+      "title": "Beings & Factions",
+      "description": "44 nodes in all on this branch, nested ones included. Reports land node by node.",
+      "topic_image": "",
+      "is_placeholder": true,
+      "added": "2026-11-28",
+      "subtopics": [
+        {
+          "id": "anunnaki-and-draco",
+          "title": "Anunnaki and Draco",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "council-of-12-suns",
+          "title": "Council of 12 Suns",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-sell-outs",
+          "title": "The Sell-outs",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "five-masters",
+          "title": "Five Masters",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "the-aktun",
+              "title": "The Aktun",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "the-council-of-parasitic-races",
+          "title": "The Council of Parasitic Races",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "draconians",
+              "title": "Draconians",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "greys-and-the-rebellion",
+              "title": "Greys and the Rebellion",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "ikaij",
+          "title": "Ikaij",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "lyran-lineage",
+          "title": "Lyran Lineage",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "sirius-a-and-b",
+              "title": "Sirius A and B",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "negative-entities",
+          "title": "Negative Entities",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "anunnaki",
+              "title": "Anunnaki",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "custodians",
+              "title": "Custodians",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "the-custodian-lands",
+                  "title": "The Custodian Lands",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "demons-and-sold-souls",
+              "title": "Demons and Sold Souls",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "the-exile-realm",
+                  "title": "The Exile Realm",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "grey-ets",
+              "title": "Grey ETs",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "nibirans",
+              "title": "Nibirans",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "reptilians",
+              "title": "Reptilians",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "the-etamines",
+              "title": "The Etamines",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "pleiadeans",
+          "title": "Pleiadeans",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "polarians",
+          "title": "Polarians",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "rapa-nui",
+          "title": "Rapa Nui",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "resonating-army",
+          "title": "Resonating Army",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "solar-parents",
+          "title": "Solar Parents",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "supervision-of-the-new-known-lands",
+          "title": "Supervision of the New Known Lands",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "et-support",
+              "title": "ET Support",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "organizational-alliances",
+              "title": "Organizational Alliances",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "the-galactic-war",
+          "title": "The Galactic War",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-giants",
+          "title": "The Giants",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "she-ki",
+              "title": "She-Ki",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "vril",
+          "title": "Vril",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "whitehats",
+          "title": "Whitehats",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "cynocephali-and-the-mythical-peoples",
+          "title": "Cynocephali and the Mythical Peoples",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-law-of-one",
+          "title": "The Law of One",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-lantians-of-pegasus",
+          "title": "The Lantians of Pegasus",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-saturnians",
+          "title": "The Saturnians",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-taurians-of-aldebaran",
+          "title": "The Taurians of Aldebaran",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-cassiopeians-and-the-hiurenk-portal",
+          "title": "The Cassiopeians and the Hiurenk Portal",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "thalon",
+          "title": "Thalon",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "angels",
+          "title": "Angels",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "andromedans",
+          "title": "Andromedans",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "men-in-black-tall-whites",
+          "title": "Men in Black (Tall Whites)",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "energy-the-grid-and-technology",
+      "title": "Energy, the Grid & Technology",
+      "description": "44 nodes in all on this branch, nested ones included. Reports land node by node.",
+      "topic_image": "",
+      "is_placeholder": true,
+      "added": "2026-11-28",
+      "subtopics": [
+        {
+          "id": "the-new-aether",
+          "title": "The New Aether",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "positive-frequencies",
+              "title": "Positive Frequencies",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "em-pulses",
+                  "title": "E.M. Pulses",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tartarian-technology",
+          "title": "Tartarian Technology",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "radium-and-kryptonite",
+              "title": "Radium and Kryptonite",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "atmospheric-condensers",
+          "title": "Atmospheric Condensers",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "current-into-currency",
+          "title": "Current into Currency",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "free-energy",
+          "title": "Free Energy",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "power-stations-and-pylons",
+              "title": "Power Stations and Pylons",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "free-energy-post-flash",
+              "title": "Free Energy (Post-Flash)",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "harmonic-architecture",
+          "title": "Harmonic Architecture",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "432-hertz",
+              "title": "432 Hertz",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "440-hertz",
+              "title": "440 Hertz",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "living-fabric",
+              "title": "Living Fabric",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "sound-masonry",
+              "title": "Sound Masonry",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "tartarian-telecommunications",
+              "title": "Tartarian Telecommunications",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "solar-tones",
+              "title": "Solar Tones",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "coral-castle-and-edward-leedskalnin",
+              "title": "Coral Castle and Edward Leedskalnin",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "ley-lines-and-nodes",
+          "title": "Ley Lines and Nodes",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "color-as-frequency",
+              "title": "Color as Frequency",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "crystalline-networks",
+              "title": "Crystalline Networks",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "ley-line-optics",
+                  "title": "Ley Line Optics",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "source-code-storage",
+                  "title": "Source Code Storage",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "starseed-keys",
+                  "title": "Starseed Keys",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "energy-nodes",
+              "title": "Energy Nodes",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "celestial-anchors",
+                  "title": "Celestial Anchors",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "harmonic-lenses",
+                  "title": "Harmonic Lenses",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "inter-dimensional-anchors",
+                  "title": "Inter-dimensional Anchors",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "star-forts-and-obelisks",
+              "title": "Star Forts and Obelisks",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "star-nodes",
+              "title": "Star Nodes",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "thuban-and-polaris",
+                  "title": "Thuban and Polaris",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "villages-on-nodes",
+              "title": "Villages on Nodes",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "becker-hagens-grid",
+              "title": "Becker Hagens Grid",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "orb-force",
+              "title": "Orb-Force",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "quartz-crystals",
+          "title": "Quartz Crystals",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "implanted-conductors",
+              "title": "Implanted Conductors",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "ground-placement",
+                  "title": "Ground Placement",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "internal-timers",
+              "title": "Internal Timers",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "memory-technology",
+              "title": "Memory Technology",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "crystalline-storage",
+                  "title": "Crystalline Storage",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "other-world-conductors",
+                  "title": "Other-World Conductors",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "plasma-connection",
+                  "title": "Plasma Connection",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tpc-mirrors",
+          "title": "TPC Mirrors",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "frequency-codes",
+          "title": "Frequency Codes",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "healing-and-the-restored-realm",
+      "title": "Healing & the Restored Realm",
+      "description": "24 nodes in all on this branch, nested ones included. Reports land node by node.",
+      "topic_image": "",
+      "is_placeholder": true,
+      "added": "2026-11-28",
+      "subtopics": [
+        {
+          "id": "healing-sanctuaries",
+          "title": "Healing Sanctuaries",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "atmospheric-repair",
+              "title": "Atmospheric Repair",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "monatomic-gold",
+                  "title": "Monatomic Gold",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "spray-craft",
+                  "title": "Spray Craft",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "chemtrails",
+                  "title": "Chemtrails",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "crystal-halls",
+              "title": "Crystal Halls",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "rainbow-fractals",
+                  "title": "Rainbow Fractals",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "ground-healers",
+              "title": "Ground Healers",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "star-pods",
+              "title": "Star Pods",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "water-domes",
+              "title": "Water Domes",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "liquid-sound",
+                  "title": "Liquid Sound",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "y557-the-second-earth",
+              "title": "Y557 — the Second Earth",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "healing-and-ascension",
+          "title": "Healing and Ascension",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "curing-cancer-naturally",
+              "title": "Curing Cancer Naturally",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "reunion-mechanics",
+          "title": "Reunion Mechanics",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "memory-flood",
+              "title": "Memory Flood",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "origin-point",
+              "title": "Origin Point",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "the-kingdom-of-the-dead",
+              "title": "The Kingdom of the Dead",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "2nd-realm",
+          "title": "2nd Realm",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "crystalline-architecture",
+              "title": "Crystalline Architecture",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "sound-to-light",
+          "title": "Sound to Light",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "travel-is-frequency",
+          "title": "Travel Is Frequency",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "communication-cables",
+              "title": "Communication Cables",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "trade-without-money-the-tartarian-system",
+          "title": "Trade Without Money (the Tartarian System)",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "hidden-history-and-the-resets",
+      "title": "Hidden History & the Resets",
+      "description": "61 nodes in all on this branch, nested ones included. Reports land node by node.",
+      "topic_image": "",
+      "is_placeholder": true,
+      "added": "2026-11-28",
+      "subtopics": [
+        {
+          "id": "bone-vaults",
+          "title": "Bone Vaults",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "chinese-and-caucasian-peoples",
+          "title": "Chinese and Caucasian Peoples",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "fake-history",
+          "title": "Fake History",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "evolution-in-a-lab",
+              "title": "Evolution in a Lab",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "path-of-invention",
+              "title": "Path of Invention",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "darwin-and-the-invention-of-evolution",
+              "title": "Darwin and the Invention of Evolution",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "the-culling",
+          "title": "The Culling",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "clone-genetics",
+              "title": "Clone Genetics",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "dumb-repopulation",
+                  "title": "DUMB Repopulation",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "dumb-nurseries",
+                      "title": "DUMB Nurseries",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "birthing-centers",
+                      "title": "Birthing Centers",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "great-reset",
+              "title": "Great Reset",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "harvest-toll",
+              "title": "Harvest Toll",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "reset-sequence",
+              "title": "Reset Sequence",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "stone-age-restart",
+                  "title": "Stone Age Restart",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "story-stages",
+                  "title": "Story Stages",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "the-year-without-a-summer-18161819",
+                  "title": "The Year Without a Summer, 1816–1819",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "world-fairs",
+                  "title": "World Fairs",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "roswell-checkmate",
+              "title": "Roswell Checkmate",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "anakim-strike",
+                  "title": "Anakim Strike",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "petrified-giants",
+                      "title": "Petrified Giants",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                },
+                {
+                  "id": "transistor-leak",
+                  "title": "Transistor Leak",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "technology-swaps",
+                      "title": "Technology Swaps",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-reset-cycle",
+          "title": "The Reset Cycle",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "1666-node-war",
+              "title": "1666 Node War",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "evidence-of-resets",
+              "title": "Evidence of Resets",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "dark-ages-leap",
+                  "title": "Dark Ages Leap",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "giant-skeletons",
+                  "title": "Giant Skeletons",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "lunatic-asylums",
+                  "title": "Lunatic Asylums",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "mudfloods",
+                  "title": "Mudfloods",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "oopa-artifacts",
+                  "title": "Oopa Artifacts",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "orphan-trains",
+                  "title": "Orphan Trains",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "reset-seven-of-eight",
+                  "title": "Reset Seven of Eight",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "the-galapagos-islands",
+                      "title": "The Galapagos Islands",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                },
+                {
+                  "id": "the-cover-up",
+                  "title": "The Cover-up",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "dragons-and-the-dinosaur-cover-story",
+                  "title": "Dragons and the Dinosaur Cover Story",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "the-maya-calendar",
+                  "title": "The Maya Calendar",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "the-great-flood-realm-3-creation",
+                  "title": "The Great Flood (Realm-3 Creation)",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "guy-fawkes-night",
+              "title": "Guy Fawkes Night",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "tartaria",
+              "title": "Tartaria",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "drab-on-purpose",
+                  "title": "Drab on Purpose",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "the-witch-trials",
+                  "title": "The Witch Trials",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "tartarian-erasure",
+              "title": "Tartarian Erasure",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "the-titanic-operation",
+              "title": "The Titanic Operation",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "world-war-i",
+              "title": "World War I",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "energy-weapons",
+                  "title": "Energy Weapons",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "the-great-war",
+              "title": "The Great War",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "the-seven-resets-a-dated-chronology",
+              "title": "The Seven Resets — A Dated Chronology",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "the-pyramids",
+              "title": "The Pyramids",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "atlantis",
+              "title": "Atlantis",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "asgard",
+              "title": "Asgard",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "lemuria",
+              "title": "Lemuria",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "tartarian-memory",
+          "title": "Tartarian Memory",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "lemurian-tongue",
+              "title": "Lemurian Tongue",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "moorish-metropolis",
+              "title": "Moorish Metropolis",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "the-square-mile-london",
+              "title": "The Square Mile (London)",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "the-voynich-manuscript",
+          "title": "The Voynich Manuscript",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "zep-tepi",
+          "title": "Zep Tepi",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-red-sea-event",
+          "title": "The Red Sea Event",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "mini-resets",
+          "title": "Mini-Resets",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-time-split",
+          "title": "The Time-Split",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "lures-psyops-and-discernment",
+      "title": "Lures, Psyops & Discernment",
+      "description": "14 nodes in all on this branch, nested ones included. Reports land node by node.",
+      "topic_image": "",
+      "is_placeholder": true,
+      "added": "2026-11-28",
+      "subtopics": [
+        {
+          "id": "ashyana-deane-and-keylontic-science",
+          "title": "Ashyana Deane and Keylontic Science",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "fake-disclosure",
+          "title": "Fake Disclosure",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "false-messages-and-channelers",
+              "title": "False Messages and Channelers",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "empathy-trap",
+          "title": "Empathy Trap",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "ghost-stories",
+          "title": "Ghost Stories",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-golden-ticket-to-mars",
+          "title": "The Golden Ticket to Mars",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "secret-space-program-psyops",
+          "title": "Secret Space Program Psyops",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-cheese-in-the-trap",
+          "title": "The Cheese in the Trap",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "medbeds",
+              "title": "MedBeds",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "nesara-gesara",
+              "title": "NESARA / GESARA",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "quantum-financial-system-qfs",
+              "title": "Quantum Financial System (QFS)",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "q-the-anon-interface",
+              "title": "Q (the Anon Interface)",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "trump-and-patton",
+          "title": "Trump and Patton",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "fake-truthers",
+          "title": "Fake Truthers",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "the-flashes-and-the-homecoming",
+      "title": "The Flashes & the Homecoming",
+      "description": "26 nodes in all on this branch, nested ones included. Reports land node by node.",
+      "topic_image": "",
+      "is_placeholder": true,
+      "added": "2026-11-28",
+      "subtopics": [
+        {
+          "id": "homecoming-path",
+          "title": "Homecoming Path",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-reunion",
+          "title": "The Reunion",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "sun-activation",
+          "title": "Sun Activation",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "sun-flash-event",
+              "title": "Sun Flash Event",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "bright-light-charge",
+                  "title": "Bright Light Charge",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "kai-activation",
+                  "title": "Kai Activation",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "emf-white-flash",
+                  "title": "EMF White Flash",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-long-awaited-ascension",
+          "title": "The Long-Awaited Ascension",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "portal-transition",
+              "title": "Portal Transition",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "the-homecoming-resonance-bridge",
+              "title": "The Homecoming (Resonance Bridge)",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "ascension-event",
+                  "title": "Ascension Event",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "craft-that-do-not-land",
+                      "title": "Craft That Do Not Land",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "frequency-lock",
+                      "title": "Frequency Lock",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "phasing-out",
+                      "title": "Phasing Out",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "solar-gate",
+                      "title": "Solar Gate",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                },
+                {
+                  "id": "living-crafts",
+                  "title": "Living Crafts",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "crystalline-arcs",
+                      "title": "Crystalline Arcs",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "pilot-bonding",
+                      "title": "Pilot Bonding",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "plasma-membranes",
+                      "title": "Plasma Membranes",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-three-flashes",
+          "title": "The Three Flashes",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "dome-pixelation",
+              "title": "Dome Pixelation",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "first-flash",
+              "title": "First Flash",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "memory-upload",
+                  "title": "Memory Upload",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "second-flash",
+              "title": "Second Flash",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "third-flash",
+              "title": "Third Flash",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "watch-the-water",
+          "title": "Watch the Water",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "the-parasitic-system-control-and-harvest",
+      "title": "The Parasitic System — Control & Harvest",
+      "description": "62 nodes in all on this branch, nested ones included. Reports land node by node.",
+      "topic_image": "",
+      "is_placeholder": true,
+      "added": "2026-11-28",
+      "subtopics": [
+        {
+          "id": "asteroid-weapons",
+          "title": "Asteroid Weapons",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "black-crystalline-valve-locks",
+          "title": "Black Crystalline Valve Locks",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "custodian-rule",
+          "title": "Custodian Rule",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "counterfeit-systems",
+              "title": "Counterfeit Systems",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "academic-distortion",
+                  "title": "Academic Distortion",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "the-rockefeller-education-system",
+                      "title": "The Rockefeller Education System",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                },
+                {
+                  "id": "re-legion",
+                  "title": "Re-Legion",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "world-wide-web",
+                  "title": "World Wide Web",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "legal-capture",
+              "title": "Legal Capture",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "birth-bond",
+                  "title": "Birth Bond",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "usury-trap",
+                  "title": "Usury Trap",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "common-law-pushback",
+                  "title": "Common Law Pushback",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "medical-harvest",
+              "title": "Medical Harvest",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "covid-vaccine",
+                  "title": "Covid Vaccine",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "human-20",
+                  "title": "Human 2.0",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "hate-chip",
+                      "title": "Hate Chip",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                },
+                {
+                  "id": "iatrogenic-death",
+                  "title": "Iatrogenic Death",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "occult-orders",
+              "title": "Occult Orders",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "owl-current",
+                  "title": "Owl Current",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "vril-society",
+                      "title": "Vril Society",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "divide-and-conquer",
+              "title": "Divide and Conquer",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "the-secret-covenant",
+              "title": "The Secret Covenant",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "fema-camps",
+          "title": "FEMA Camps",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "loosh",
+          "title": "Loosh",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "organ-harvest",
+          "title": "Organ Harvest",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "positive-energy",
+          "title": "Positive Energy",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "sovereign-accord",
+          "title": "Sovereign Accord",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "mk-ultra",
+              "title": "MK-Ultra",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "emotional-scoring",
+                  "title": "Emotional Scoring",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "gifted-and-talented-programs-gat",
+                  "title": "Gifted and Talented Programs (GAT)",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "manufactured-wants",
+              "title": "Manufactured Wants",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "choice-architecture",
+                  "title": "Choice Architecture",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "fifteen-minute-cities",
+                  "title": "Fifteen-Minute Cities",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-parasitic-inversion",
+          "title": "The Parasitic Inversion",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-three-strings",
+          "title": "The Three Strings",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "finance-fake-money",
+              "title": "Finance (Fake Money)",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "perceived-knowledge-lies",
+              "title": "Perceived Knowledge (Lies)",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "healthcare-compliance",
+                  "title": "Healthcare Compliance",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "religion-false-gods",
+              "title": "Religion (False Gods)",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "the-parasitecustodian-takeover",
+          "title": "The Parasite–Custodian Takeover",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "control-mechanisms",
+              "title": "Control Mechanisms",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "adrenochrome-trade",
+                  "title": "Adrenochrome Trade",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "grown-meat-and-fake-food",
+                  "title": "Grown Meat and Fake Food",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "loosh-harvesting",
+                  "title": "Loosh Harvesting",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "vaping",
+                  "title": "Vaping",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "vatican-thirteen",
+                  "title": "Vatican Thirteen",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "parasite-mechanics",
+                  "title": "Parasite Mechanics",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "control-technology",
+                      "title": "Control Technology",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28",
+                      "subtopics": [
+                        {
+                          "id": "saturn-cube",
+                          "title": "Saturn Cube",
+                          "description": "",
+                          "topic_image": "",
+                          "is_placeholder": true,
+                          "added": "2026-11-28"
+                        },
+                        {
+                          "id": "vatican-archive",
+                          "title": "Vatican Archive",
+                          "description": "",
+                          "topic_image": "",
+                          "is_placeholder": true,
+                          "added": "2026-11-28"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "mind-weapons",
+                      "title": "Mind Weapons",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28",
+                      "subtopics": [
+                        {
+                          "id": "amnesia-vortex",
+                          "title": "Amnesia Vortex",
+                          "description": "",
+                          "topic_image": "",
+                          "is_placeholder": true,
+                          "added": "2026-11-28"
+                        },
+                        {
+                          "id": "scalar-frequencies",
+                          "title": "Scalar Frequencies",
+                          "description": "",
+                          "topic_image": "",
+                          "is_placeholder": true,
+                          "added": "2026-11-28"
+                        },
+                        {
+                          "id": "voice-to-skull",
+                          "title": "Voice to Skull",
+                          "description": "",
+                          "topic_image": "",
+                          "is_placeholder": true,
+                          "added": "2026-11-28"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "inversion-tactics",
+              "title": "Inversion Tactics",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "density-suppression",
+                  "title": "Density Suppression",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "freemasonry",
+                  "title": "Freemasonry",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "crime-families",
+                      "title": "Crime Families",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                },
+                {
+                  "id": "gender-inversion",
+                  "title": "Gender Inversion",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "tv-and-radio",
+                  "title": "TV and Radio",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "weaponized-species",
+          "title": "Weaponized Species",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "hack-the-stack",
+          "title": "Hack-the-Stack",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "the-purge-the-blackout-and-the-scare-sequence",
+      "title": "The Purge, the Blackout & the Scare Sequence",
+      "description": "40 nodes in all on this branch, nested ones included. Reports land node by node.",
+      "topic_image": "",
+      "is_placeholder": true,
+      "added": "2026-11-28",
+      "subtopics": [
+        {
+          "id": "the-golden-ticket",
+          "title": "The Golden Ticket",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-cut",
+          "title": "The Cut",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "communications-blackout",
+              "title": "Communications Blackout",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "frequency-fracture",
+              "title": "Frequency Fracture",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "npc-glitching",
+              "title": "NPC Glitching",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "physical-indicators",
+              "title": "Physical Indicators",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "drop-in-tone",
+                  "title": "Drop in Tone",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "sharp-edge",
+                  "title": "Sharp Edge",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "silence-before-the-snap",
+                  "title": "Silence Before the Snap",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "do-not-react",
+          "title": "Do Not React",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "fake-alien-invasion",
+          "title": "Fake Alien Invasion",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "project-blue-beam",
+              "title": "Project Blue Beam",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "scare-events",
+          "title": "Scare Events",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "ai-war-theater",
+              "title": "A.I. War Theater",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "scripted-exposure",
+              "title": "Scripted Exposure",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "digital-id-script",
+                  "title": "Digital ID Script",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "scripted-virus",
+                  "title": "Scripted Virus",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "staged-world-war-iii",
+              "title": "Staged World War III",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "the-great-spiritual-awakening",
+          "title": "The Great Spiritual Awakening",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "emergency-broadcast-system-disclosure-ebs",
+              "title": "Emergency Broadcast System Disclosure (EBS)",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "mass-reveal",
+                  "title": "Mass Reveal",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "truth-packages",
+                  "title": "Truth Packages",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "the-alive-list",
+                  "title": "The Alive List",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "social-media-window",
+              "title": "Social Media Window",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "the-first-to-go",
+              "title": "The First to Go",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "the-sky-event",
+              "title": "The Sky Event",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "the-great-purge",
+          "title": "The Great Purge",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "phases-onethree",
+              "title": "Phases One–Three",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "infrastructure-sweep",
+                  "title": "Infrastructure Sweep",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "targeting-parasites",
+                  "title": "Targeting Parasites",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "underground-dismantling",
+                  "title": "Underground Dismantling",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "phases-seveneight",
+              "title": "Phases Seven–Eight",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "stabilization-process",
+                  "title": "Stabilization Process",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "truth-disclosure",
+                  "title": "Truth Disclosure",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "phases-foursix",
+              "title": "Phases Four–Six",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "lockdown-window",
+                  "title": "Lockdown Window",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "narrative-maintenance",
+                  "title": "Narrative Maintenance",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "trigger-events",
+                  "title": "Trigger Events",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "time-travel-preparation",
+          "title": "Time Travel Preparation",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "project-looking-glass",
+              "title": "Project Looking Glass",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-realm-structure-and-cosmology",
+      "title": "The Realm — Structure & Cosmology",
+      "description": "50 nodes in all on this branch, nested ones included. Reports land node by node.",
+      "topic_image": "",
+      "is_placeholder": true,
+      "added": "2026-11-28",
+      "subtopics": [
+        {
+          "id": "axis-laborum",
+          "title": "Axis LABORUM",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "five-elements",
+          "title": "Five Elements",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "inner-earth",
+          "title": "Inner Earth",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "the-labyrinth",
+              "title": "The Labyrinth",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "agartha",
+              "title": "Agartha",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "moon-as-et-space-station",
+          "title": "Moon as ET Space Station",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "nature-of-reality",
+          "title": "Nature of Reality",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "cosmology",
+              "title": "Cosmology",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "firmament",
+                  "title": "Firmament",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "space-is-white",
+                      "title": "Space Is White",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                },
+                {
+                  "id": "flat-earth",
+                  "title": "Flat Earth",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "mars",
+                  "title": "Mars",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "fake-linear-time",
+              "title": "Fake Linear Time",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "gravity-story",
+              "title": "Gravity Story",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "the-sun-and-moon",
+              "title": "The Sun and Moon",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "lucifer-as-light-bearer",
+                  "title": "Lucifer as Light Bearer",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "sol-as-a-soul-portal",
+                  "title": "Sol as a Soul Portal",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "eclipses",
+                  "title": "Eclipses",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "organic-circuitboard",
+          "title": "Organic Circuitboard",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "gateway-10-system",
+              "title": "Gateway-10 System",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "density-stack",
+                  "title": "Density Stack",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "external-domes",
+                  "title": "External Domes",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "dome-of-forgotten-gods",
+                      "title": "Dome of Forgotten Gods",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "dome-of-forgotten-humans",
+                      "title": "Dome of Forgotten Humans",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "sheol",
+                      "title": "Sheol",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "hiva",
+                      "title": "Hiva",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "dome-of-portals",
+                      "title": "Dome of Portals",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "dome-of-titans",
+                      "title": "Dome of Titans",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "dome-of-silence",
+                      "title": "Dome of Silence",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "5-peaks",
+                      "title": "5 Peaks",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                },
+                {
+                  "id": "terrarium-seal",
+                  "title": "Terrarium Seal",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "ice-wall",
+                      "title": "Ice Wall",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28",
+                      "subtopics": [
+                        {
+                          "id": "oil-as-grease",
+                          "title": "Oil as Grease",
+                          "description": "",
+                          "topic_image": "",
+                          "is_placeholder": true,
+                          "added": "2026-11-28"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "stargates-astral-portals",
+                  "title": "Stargates (Astral Portals)",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "dyatlov-portal",
+                  "title": "Dyatlov Portal",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "living-garden",
+              "title": "Living Garden",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "mineral-components",
+              "title": "Mineral Components",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "minerals-stay-down",
+              "title": "Minerals Stay Down",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "red-mercury",
+                  "title": "Red Mercury",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "spirit-tree",
+              "title": "Spirit Tree",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "cain-periphery",
+                  "title": "Cain Periphery",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "hyperborea-valve",
+                  "title": "Hyperborea Valve",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "hyperborean-heart",
+                  "title": "Hyperborean Heart",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-ancestral-republic",
+          "title": "The Ancestral Republic",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "wormholes",
+          "title": "Wormholes",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "terra-incognita",
+          "title": "Terra Incognita",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "dark-matter",
+          "title": "Dark Matter",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-ancient-lands-of-anuk",
+          "title": "The Ancient Lands of Anuk",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-bermuda-triangle",
+          "title": "The Bermuda Triangle",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-arcs-doorways",
+          "title": "The Arcs (Doorways)",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "the-simulation-and-the-overlay",
+      "title": "The Simulation & the Overlay",
+      "description": "21 nodes in all on this branch, nested ones included. Reports land node by node.",
+      "topic_image": "",
+      "is_placeholder": true,
+      "added": "2026-11-28",
+      "subtopics": [
+        {
+          "id": "the-parasitic-overlay",
+          "title": "The Parasitic Overlay",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "frequency-trick",
+              "title": "Frequency Trick",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "matrix-scaffolding",
+              "title": "Matrix Scaffolding",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "autistic-children-and-harmonic-scaffolding",
+                  "title": "Autistic Children and Harmonic Scaffolding",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "projection-dome",
+          "title": "Projection Dome",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "skynet-1",
+              "title": "Skynet 1",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "seven-overlay-bands",
+          "title": "Seven Overlay Bands",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-holographic-matrix",
+          "title": "The Holographic Matrix",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "digital-inserts",
+              "title": "Digital Inserts",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "inner-illusion",
+              "title": "Inner Illusion",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "overlay-geography",
+              "title": "Overlay Geography",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "chemtrail-portals",
+                  "title": "Chemtrail Portals",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "portal-guards",
+                  "title": "Portal Guards",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "the-aviation-fraud",
+                  "title": "The Aviation Fraud",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "quantum-interface",
+              "title": "Quantum Interface",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "simulation-reality",
+              "title": "Simulation Reality",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "skynet-2",
+          "title": "Skynet 2",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-cube",
+          "title": "The Cube",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "cube-memory",
+              "title": "Cube Memory",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "eight-domes",
+              "title": "Eight Domes",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "the-black-cube-system",
+          "title": "The Black Cube System",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "the-sol-the-vessel-and-humanity",
+      "title": "The Sol, the Vessel & Humanity",
+      "description": "39 nodes in all on this branch, nested ones included. Reports land node by node.",
+      "topic_image": "",
+      "is_placeholder": true,
+      "added": "2026-11-28",
+      "subtopics": [
+        {
+          "id": "520-million",
+          "title": "520 Million",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "avatar-chambers",
+          "title": "Avatar Chambers",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-five-primary-brainwave-frequencies",
+          "title": "The Five Primary Brainwave Frequencies",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "npc-population",
+          "title": "NPC Population",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "child-npcs",
+              "title": "Child NPCs",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "monster-nightmares",
+              "title": "Monster Nightmares",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "non-player-characters",
+              "title": "Non-Player Characters",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "npc-programs",
+                  "title": "NPC Programs",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "ai-shells",
+                      "title": "A.I. Shells",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    },
+                    {
+                      "id": "code-dissolution",
+                      "title": "Code Dissolution",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-original-vessel",
+          "title": "The Original Vessel",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-true-crossover",
+          "title": "The True Crossover",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "the-pineal-gland",
+          "title": "The Pineal Gland",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        },
+        {
+          "id": "population-types",
+          "title": "Population Types",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "human-sols",
+              "title": "Human Sols",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "fracture-of-tara",
+                  "title": "Fracture of Tara",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "starseeds",
+              "title": "Starseeds",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "who-sells-their-sol",
+              "title": "Who Sells Their Sol",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "soul-architecture",
+          "title": "Soul Architecture",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "arc-pod-protocol",
+              "title": "Arc Pod Protocol",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "clueless-protocol",
+                  "title": "Clueless Protocol",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "mission-insertion",
+                  "title": "Mission Insertion",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28",
+                  "subtopics": [
+                    {
+                      "id": "frequency-compression-and-soul-layering",
+                      "title": "Frequency Compression & Soul Layering",
+                      "description": "",
+                      "topic_image": "",
+                      "is_placeholder": true,
+                      "added": "2026-11-28"
+                    }
+                  ]
+                },
+                {
+                  "id": "the-ark-of-the-covenant",
+                  "title": "The Ark of the Covenant",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "proximal-sols",
+              "title": "Proximal Sols",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "taran-vessels",
+              "title": "Taran Vessels",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "fifteen-attributes",
+                  "title": "Fifteen Attributes",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "intelligence-first",
+                  "title": "Intelligence First",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "time-traveler-faces",
+              "title": "Time Traveler Faces",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "dreams",
+              "title": "Dreams",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "akashic-records",
+              "title": "Akashic Records",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "soul-family",
+          "title": "Soul Family",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "4-000-ancients",
+              "title": "4,000 Ancients",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "micro-suns",
+              "title": "Micro Suns",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "twin-flames",
+              "title": "Twin Flames",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "spirit-guides",
+          "title": "Spirit Guides",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28",
+          "subtopics": [
+            {
+              "id": "ayahuasca-vine",
+              "title": "Ayahuasca Vine",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            },
+            {
+              "id": "pineal-dmt",
+              "title": "Pineal DMT",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "twins",
+          "title": "Twins",
+          "description": "",
+          "topic_image": "",
+          "is_placeholder": true,
+          "added": "2026-11-28"
+        }
+      ]
+    }
+  ]
+}

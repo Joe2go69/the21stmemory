@@ -1332,6 +1332,10 @@ function buildDives({ only = [] } = {}) {
   let stubCount = 0;
   const manifest = { pages: [] };
 
+  // Series marked titles_only in sources.json (the Master Mind Map) list their
+  // coming-soon nodes as plain titles: no stub pages until a report is published.
+  const titlesOnly = new Set((sourcesData.sources || []).filter((s) => s.titles_only).map((s) => s.id));
+
   for (const sourceId of sources) {
     const bundle = loadSource(sourceId);
     if (!bundle) {
@@ -1340,6 +1344,7 @@ function buildDives({ only = [] } = {}) {
     }
 
     for (const entry of bundle.entries) {
+      if (entry.isStub && titlesOnly.has(sourceId)) continue;
       const page = writeDivePage(bundle, entry);
       if (entry.isStub) stubCount++;
       else liveCount++;
