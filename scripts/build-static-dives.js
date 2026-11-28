@@ -1091,10 +1091,10 @@ ${jsonLd}
     <style>html,body{background-color:#0F0A1F;color-scheme:dark}body{padding-top:calc(5rem + env(safe-area-inset-top,0px))}.deep-dive-hero,.deep-dive-hero-bg{background-color:#0F0A1F}.deep-dive-hero{min-height:22rem}@media (min-width:768px){.deep-dive-hero{min-height:30rem}}</style>
     <link rel="preload" href="${ASSET_BASE}assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="${ASSET_BASE}assets/fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="${ASSET_BASE}assets/css/main.min.css?v=20" as="style">
+    <link rel="preload" href="${ASSET_BASE}assets/css/main.min.css?v=21" as="style">
     <link rel="stylesheet" href="${ASSET_BASE}assets/css/fonts.css">
     <link rel="stylesheet" href="${ASSET_BASE}assets/css/tailwind.css">
-    <link rel="stylesheet" href="${ASSET_BASE}assets/css/main.min.css?v=20">
+    <link rel="stylesheet" href="${ASSET_BASE}assets/css/main.min.css?v=21">
 </head>
 <body class="cosmic-bg page-interior" data-dive-static="true" data-source="${escapeAttr(sourceId)}" data-topic="${escapeAttr(topic.id)}">
     <div id="reading-progress" class="reading-progress" aria-hidden="true" hidden>
@@ -1332,6 +1332,10 @@ function buildDives({ only = [] } = {}) {
   let stubCount = 0;
   const manifest = { pages: [] };
 
+  // Series marked titles_only in sources.json (the Master Mind Map) list their
+  // coming-soon nodes as plain titles: no stub pages until a report is published.
+  const titlesOnly = new Set((sourcesData.sources || []).filter((s) => s.titles_only).map((s) => s.id));
+
   for (const sourceId of sources) {
     const bundle = loadSource(sourceId);
     if (!bundle) {
@@ -1340,6 +1344,7 @@ function buildDives({ only = [] } = {}) {
     }
 
     for (const entry of bundle.entries) {
+      if (entry.isStub && titlesOnly.has(sourceId)) continue;
       const page = writeDivePage(bundle, entry);
       if (entry.isStub) stubCount++;
       else liveCount++;

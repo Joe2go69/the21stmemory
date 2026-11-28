@@ -208,7 +208,8 @@ const RenderUtils = {
       breakdown: 'Final-stage Great Awakening notes',
       ascension: 'EMF ascension process',
       revelations: 'Six-part revelations synopsis',
-      'special-requests': 'Requested studies'
+      'special-requests': 'Requested studies',
+      'mind-map': 'The whole record, mapped'
     };
     return map[sourceId] || 'Transmission archive';
   },
@@ -220,7 +221,8 @@ const RenderUtils = {
       breakdown: 'images/breakdown-codex-card.webp',
       ascension: 'images/ascension-codex-card.webp',
       revelations: 'images/revelations-codex-card.webp',
-      'special-requests': 'images/special-requests-codex-card.webp'
+      'special-requests': 'images/special-requests-codex-card.webp',
+      'mind-map': 'images/mind-map-codex-card.webp'
     };
     return map[source?.id] || (source?.id ? `images/${source.id}-codex-card.webp` : '') || source?.image || '';
   },
@@ -276,7 +278,7 @@ const RenderUtils = {
         <div class="source-card-body">
           <span class="card-label">${TopicUtils.escapeHtml(plain)}</span>
           <h3 class="source-card-title">${safeTitle}</h3>
-          ${safeDeck ? `<p class="source-card-deck">${safeDeck}</p>` : ''}
+          ${safeDeck ? `<p class="source-card-deck">${safeDeck}</p>` : ''}${source.card_blurb ? `<p class="source-card-blurb">${TopicUtils.escapeHtml(source.card_blurb)}</p>` : ''}
           <p class="source-card-meta">${TopicUtils.escapeHtml(statusMeta)}</p>
           <div class="source-card-progress" aria-hidden="true">
             <div class="source-card-progress__fill" style="width:${readyPct}%"></div>

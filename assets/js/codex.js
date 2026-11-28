@@ -15,7 +15,7 @@ let codexState = {
 const CODEX_RESULTS_PAGE = 24;
 
 // Visual rank. Title A–Z is a different order: "Special Requests" sorts before "The Long-Awaited Ascension Process".
-const CODEX_SERIES_RANK = ['revelations', 'alice', 'breakdown', 'ascension', 'special-requests'];
+const CODEX_SERIES_RANK = ['mind-map', 'revelations', 'alice', 'breakdown', 'ascension', 'special-requests'];
 
 function seriesRank(source) {
   const index = CODEX_SERIES_RANK.indexOf(source.id);
@@ -483,6 +483,7 @@ async function loadSourceBundle(source) {
       title: topicData.title,
       subtitle: topicData.subtitle || '',
       description: topicData.description || '',
+      card_blurb: topicData.card_blurb || '',
       image: topicData.image || '',
       stats,
       topics: lightTopics
