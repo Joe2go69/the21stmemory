@@ -144,8 +144,9 @@ function splitAll() {
 
   for (const source of sources.sources) {
     const stats = splitSource(source.id);
-    // titles_only series (the Master Mind Map) re-map existing topics; don't double-count them.
-    if (stats && !source.titles_only) {
+    // Count every series, including titles_only. Mind Map nodes are their own
+    // topics (new reports), so they belong in the archive totals.
+    if (stats) {
       archiveTotals.live += stats.live;
       archiveTotals.total += stats.total;
     }

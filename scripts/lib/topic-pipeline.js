@@ -443,8 +443,9 @@ function refreshTopicIndex(source, topicId) {
   let total = 0;
   for (const s of sources.sources || []) {
     const p = path.join(ROOT, 'data', `${s.id}-stats.json`);
-    // titles_only series (the Master Mind Map) re-map existing topics; don't double-count them.
-    if (s.titles_only || !fs.existsSync(p)) continue;
+    // Count every series, including titles_only. Mind Map nodes are their own
+    // topics (new reports), so they belong in the archive totals.
+    if (!fs.existsSync(p)) continue;
     const st = JSON.parse(fs.readFileSync(p, 'utf8'));
     live += st.live || 0;
     total += st.total || 0;
