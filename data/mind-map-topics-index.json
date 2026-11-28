@@ -2695,32 +2695,6 @@
               ]
             },
             {
-              "id": "phases-seveneight",
-              "title": "Phases Seven–Eight",
-              "description": "",
-              "topic_image": "",
-              "is_placeholder": true,
-              "added": "2026-11-28",
-              "subtopics": [
-                {
-                  "id": "stabilization-process",
-                  "title": "Stabilization Process",
-                  "description": "",
-                  "topic_image": "",
-                  "is_placeholder": true,
-                  "added": "2026-11-28"
-                },
-                {
-                  "id": "truth-disclosure",
-                  "title": "Truth Disclosure",
-                  "description": "",
-                  "topic_image": "",
-                  "is_placeholder": true,
-                  "added": "2026-11-28"
-                }
-              ]
-            },
-            {
               "id": "phases-foursix",
               "title": "Phases Four–Six",
               "description": "",
@@ -2747,6 +2721,32 @@
                 {
                   "id": "trigger-events",
                   "title": "Trigger Events",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                }
+              ]
+            },
+            {
+              "id": "phases-seveneight",
+              "title": "Phases Seven–Eight",
+              "description": "",
+              "topic_image": "",
+              "is_placeholder": true,
+              "added": "2026-11-28",
+              "subtopics": [
+                {
+                  "id": "stabilization-process",
+                  "title": "Stabilization Process",
+                  "description": "",
+                  "topic_image": "",
+                  "is_placeholder": true,
+                  "added": "2026-11-28"
+                },
+                {
+                  "id": "truth-disclosure",
+                  "title": "Truth Disclosure",
                   "description": "",
                   "topic_image": "",
                   "is_placeholder": true,
