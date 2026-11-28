@@ -1188,9 +1188,9 @@
       "sourceId": "breakdown",
       "topicId": "scripted-virus",
       "path": "/dive/breakdown/scripted-virus.html",
-      "live": false,
+      "live": true,
       "title": "Scripted Virus",
-      "added": "2026-10-14"
+      "added": "2026-11-27T22:40:46-07:00"
     },
     {
       "sourceId": "breakdown",

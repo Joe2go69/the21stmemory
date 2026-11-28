@@ -308,10 +308,10 @@
                 {
                   "id": "scripted-virus",
                   "title": "Scripted Virus",
-                  "description": "Scripted Virus",
-                  "topic_image": "images/breakdown/placeholder.webp",
-                  "is_placeholder": true,
-                  "added": "2026-10-14"
+                  "description": "A controlled theatrical health narrative staged to expose institutional tyranny and catalyze rejection of authoritarian mandates.",
+                  "topic_image": "images/breakdown/scripted-virus.webp",
+                  "is_placeholder": false,
+                  "added": "2026-11-27T22:40:46-07:00"
                 }
               ]
             }

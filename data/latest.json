@@ -1,6 +1,16 @@
 {
   "recent": [
     {
+      "sourceId": "breakdown",
+      "topicId": "scripted-virus",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "Scripted Virus",
+      "description": "A controlled theatrical health narrative staged to expose institutional tyranny and catalyze rejection of authoritarian mandates.",
+      "topic_image": "images/breakdown/scripted-virus.webp",
+      "path": "dive/breakdown/scripted-virus.html",
+      "added": "2026-11-27T22:40:46-07:00"
+    },
+    {
       "sourceId": "ascension",
       "topicId": "implanted-conductors",
       "series": "The Long-Awaited Ascension Process",
@@ -109,19 +119,19 @@
       "topic_image": "images/alice/monster-nightmares.webp",
       "path": "dive/alice/monster-nightmares.html",
       "added": "2026-11-18T00:15:48-07:00"
-    },
-    {
-      "sourceId": "alice",
-      "topicId": "child-npcs",
-      "series": "Following Alice in the Rabbit Hole",
-      "title": "Child NPCs",
-      "description": "Child NPCs stay outwardly indistinguishable from ensouled youths, while untainted children and animals ascend and loving non-NPC families keep their children with them.",
-      "topic_image": "images/alice/child-npcs.webp",
-      "path": "dive/alice/child-npcs.html",
-      "added": "2026-11-17T22:29:07-07:00"
     }
   ],
   "shelf": [
+    {
+      "sourceId": "breakdown",
+      "topicId": "scripted-virus",
+      "series": "Mega Breakdown Board Notes & Highlights",
+      "title": "Scripted Virus",
+      "description": "A controlled theatrical health narrative staged to expose institutional tyranny and catalyze rejection of authoritarian mandates.",
+      "topic_image": "images/breakdown/scripted-virus.webp",
+      "path": "dive/breakdown/scripted-virus.html",
+      "added": "2026-11-27T22:40:46-07:00"
+    },
     {
       "sourceId": "ascension",
       "topicId": "implanted-conductors",
@@ -171,16 +181,6 @@
       "topic_image": "images/breakdown/scare-sequence.webp",
       "path": "dive/breakdown/scare-sequence.html",
       "added": "2026-11-25T23:59:05-07:00"
-    },
-    {
-      "sourceId": "breakdown",
-      "topicId": "project-blue-beam",
-      "series": "Mega Breakdown Board Notes & Highlights",
-      "title": "Project Blue Beam",
-      "description": "Project Blue Beam is an advanced holographic simulation operation deployed in the skies to stage a fake alien invasion at the emotional climax of global disruption.",
-      "topic_image": "images/breakdown/project-blue-beam.webp",
-      "path": "dive/breakdown/project-blue-beam.html",
-      "added": "2026-11-24T22:03:34-07:00"
     }
   ],
   "featured": [

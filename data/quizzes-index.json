@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T16:14:40.606Z",
-  "total": 385,
+  "generatedAt": "2026-11-28T05:49:11.019Z",
+  "total": 386,
   "sources": [
     {
       "id": "revelations",
@@ -27,7 +27,7 @@
       "short": "Final-stage Great Awakening notes",
       "desc": "Board-note deep dives on the grid, timelines, and the architecture of the shift.",
       "image": "images/breakdown-codex-card-960.webp",
-      "count": 113
+      "count": 114
     },
     {
       "id": "ascension",
@@ -3500,6 +3500,21 @@
       "key": "breakdown/scripted-exposure",
       "topicImage": "images/breakdown/scripted-exposure.webp",
       "order": 33
+    },
+    {
+      "id": "scripted-virus",
+      "sourceId": "breakdown",
+      "sourceLabel": "Breakdown",
+      "sourceTitle": "Mega Breakdown Board Notes & Highlights",
+      "sourceShort": "Final-stage Great Awakening notes",
+      "title": "Scripted Virus",
+      "subtitle": "Test your understanding of Scripted Virus — a theatrical health scare staged to expose authoritarian control and catalyze rejection of institutional mandates.",
+      "questionCount": 25,
+      "href": "quiz/breakdown/scripted-virus.html",
+      "diveHref": "dive/breakdown/scripted-virus.html",
+      "key": "breakdown/scripted-virus",
+      "topicImage": "images/breakdown/scripted-virus.webp",
+      "order": 35
     },
     {
       "id": "second-realm",
