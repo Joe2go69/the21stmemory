@@ -267,7 +267,7 @@ const RenderUtils = {
     const safeId = TopicUtils.escapeAttr(source.id || 'source');
     const safeTitle = TopicUtils.escapeHtml(source.title || '');
     const plain = this.sourcePlainLabel(source.id);
-    const safeDeck = TopicUtils.escapeHtml(source.subtitle || '');
+    const safeDeck = TopicUtils.escapeHtml(source.card_subtitle || source.subtitle || '');
     const statusMeta = this.sourceStatusMeta(live, total, soon);
 
     return `
@@ -278,7 +278,7 @@ const RenderUtils = {
         <div class="source-card-body">
           <span class="card-label">${TopicUtils.escapeHtml(plain)}</span>
           <h3 class="source-card-title">${safeTitle}</h3>
-          ${safeDeck ? `<p class="source-card-deck">${safeDeck}</p>` : ''}${source.card_blurb ? `<p class="source-card-blurb">${TopicUtils.escapeHtml(source.card_blurb)}</p>` : ''}
+          ${safeDeck ? `<p class="source-card-deck">${safeDeck}</p>` : ''}
           <p class="source-card-meta">${TopicUtils.escapeHtml(statusMeta)}</p>
           <div class="source-card-progress" aria-hidden="true">
             <div class="source-card-progress__fill" style="width:${readyPct}%"></div>

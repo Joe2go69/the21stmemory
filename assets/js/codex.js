@@ -484,6 +484,7 @@ async function loadSourceBundle(source) {
       subtitle: topicData.subtitle || '',
       description: topicData.description || '',
       card_blurb: topicData.card_blurb || '',
+      card_subtitle: topicData.card_subtitle || '',
       image: topicData.image || '',
       stats,
       topics: lightTopics

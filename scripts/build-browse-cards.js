@@ -45,6 +45,7 @@ function loadSeries() {
       subtitle: index.subtitle || '',
       description: index.description || '',
       card_blurb: index.card_blurb || '',
+      card_subtitle: index.card_subtitle || '',
       image: index.image || '',
       stats
     };
